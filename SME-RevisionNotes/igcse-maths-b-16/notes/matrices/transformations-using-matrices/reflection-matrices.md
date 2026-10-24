@@ -28,10 +28,10 @@ guided_study: false
 
 - The **coordinates** of *A* and *C* as **column vectors** are
 
-  - `A equals open parentheses table row 1 row 0 end table close parentheses` and `C equals open parentheses table row 0 row 1 end table close parentheses`
+  - $A = ( \begin{gathered} 1 \\ 0 \end{gathered} )$ and $C = ( \begin{gathered} 0 \\ 1 \end{gathered} )$
 - Under a **reflection about an axis (or *****y***** = ± *****x*****)**, *A* moves to *A*' and *C* moves to *C*'
 
-  - The **matrix, M** representing this reflection is `bold M equals open parentheses table row cell A apostrophe space vertical line end cell cell C apostrophe end cell end table close parentheses`
+  - The **matrix, M** representing this reflection is $M = ( \begin{gathered} A ' \vert & C ' \end{gathered} )$
   - *A*' and *C*' are column vectors of the new positions
   
     - So $M$ is a 2×2 matrix
@@ -40,14 +40,14 @@ guided_study: false
 
   - To find the matrix representing a reflection about the *x*-axis
   
-    - *A* stays where it is, so `A apostrophe equals open parentheses table row 1 row 0 end table close parentheses`
-    - *C* goes to `C apostrophe equals open parentheses table row 0 row cell negative 1 end cell end table close parentheses` (on the negative *y*-axis)
-    - `bold M equals open parentheses table row cell A apostrophe space vertical line end cell cell C apostrophe end cell end table close parentheses equals open parentheses table row 1 0 row 0 cell negative 1 end cell end table close parentheses`
+    - *A* stays where it is, so $A ' = ( \begin{gathered} 1 \\ 0 \end{gathered} )$
+    - *C* goes to $C ' = ( \begin{gathered} 0 \\ - 1 \end{gathered} )$ (on the negative *y*-axis)
+    - $M = ( \begin{gathered} A ' \vert & C ' \end{gathered} ) = ( \begin{gathered} 1 0 \\ 0 - 1 \end{gathered} )$
   - To find the matrix representing a reflection in the line *y* = *x*
   
-    - A goes to `A apostrophe equals open parentheses table row 0 row 1 end table close parentheses` (on the positive *y*-axis)
-    - *C* goes to `C apostrophe equals open parentheses table row 1 row 0 end table close parentheses` (on the positive *x*-axis)
-    - `bold M equals open parentheses table row cell A apostrophe space vertical line end cell cell C apostrophe end cell end table close parentheses equals open parentheses table row 0 1 row 1 0 end table close parentheses`
+    - A goes to $A ' = ( \begin{gathered} 0 \\ 1 \end{gathered} )$ (on the positive *y*-axis)
+    - *C* goes to $C ' = ( \begin{gathered} 1 \\ 0 \end{gathered} )$ (on the positive *x*-axis)
+    - $M = ( \begin{gathered} A ' \vert & C ' \end{gathered} ) = ( \begin{gathered} 0 1 \\ 1 0 \end{gathered} )$
     
       - This is not the same as the identity matrix as the 1s are on the wrong diagonal
 
@@ -60,13 +60,13 @@ guided_study: false
 > 
 > ![TuW80_W4_reflection-matrix-we-1](assets/496add2d026c-tuw80-w4-reflection-matrix-we-1.png)
 > 
-> *The point A *`open parentheses table row 1 row 0 end table close parentheses`* moves to A' *`open parentheses table row cell negative 1 end cell row 0 end table close parentheses`* *
+> *The point A *$( \begin{gathered} 1 \\ 0 \end{gathered} )$* moves to A' *$( \begin{gathered} - 1 \\ 0 \end{gathered} )$* *
 > 
-> *The point C *`open parentheses table row 0 row 1 end table close parentheses`* remains in the same place*
+> *The point C *$( \begin{gathered} 0 \\ 1 \end{gathered} )$* remains in the same place*
 > 
-> > *The transformation matrix is given by *`bold M equals open parentheses table row cell A apostrophe space vertical line end cell cell C apostrophe end cell end table close parentheses`* *
+> > *The transformation matrix is given by *$M = ( \begin{gathered} A ' \vert & C ' \end{gathered} )$* *
 > 
-> **Final answer:** `straight M equals stretchy left parenthesis table row cell negative 1 end cell 0 row 0 1 end table stretchy right parenthesis`
+> **Final answer:** $\mathrm{M} = ( \begin{gathered} - 1 & 0 \\ 0 1 \end{gathered} )$
 > ** **
 > 
 > (b) The matrix **N** represents a reflection in the line $y=-x$. Work out **N**.
@@ -77,10 +77,10 @@ guided_study: false
 > 
 > ![reflection-matrix-we-2](assets/bce90e3b034a-reflection-matrix-we-2.png)
 > 
-> *The point A *`open parentheses table row 1 row 0 end table close parentheses`* moves to A' *`open parentheses table row 0 row cell negative 1 end cell end table close parentheses`* *
+> *The point A *$( \begin{gathered} 1 \\ 0 \end{gathered} )$* moves to A' *$( \begin{gathered} 0 \\ - 1 \end{gathered} )$* *
 > 
-> *The point C *`open parentheses table row 0 row 1 end table close parentheses`* moves to C' *`open parentheses table row cell negative 1 end cell row 0 end table close parentheses`
+> *The point C *$( \begin{gathered} 0 \\ 1 \end{gathered} )$* moves to C' *$( \begin{gathered} - 1 \\ 0 \end{gathered} )$
 > 
-> > *The transformation matrix is given by *`bold N equals open parentheses table row cell A apostrophe space vertical line end cell cell C apostrophe end cell end table close parentheses`* *
+> > *The transformation matrix is given by *$N = ( \begin{gathered} A ' \vert & C ' \end{gathered} )$* *
 > 
-> `straight N equals stretchy left parenthesis table row 0 cell negative 1 end cell row cell negative 1 end cell 0 end table stretchy right parenthesis`
+> $\mathrm{N} = ( \begin{gathered} 0 - 1 \\ - 1 & 0 \end{gathered} )$

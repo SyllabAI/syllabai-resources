@@ -24,7 +24,7 @@ guided_study: true
   - For example, $y=x^{2}+3x+5$
   
     - Substitute $x=2$ in to get $y=2^{2}+3\times2+5=15$
-    - The point `open parentheses 2 comma space 15 close parentheses` lies on the curve
+    - The point $( 2 , 15 )$ lies on the curve
 - A **gradient function** gives the **gradient** of the curve at a point when you substitute in its *x*-coordinate
 
   - A gradient function is written as $\frac{dy}{dx}=...$
@@ -123,15 +123,15 @@ guided_study: true
 > **Worked Example**
 > A curve has the equation $y=x^{3}-3x^{2}-4x+1$.
 > 
-> (a) Find the gradient of the curve at the point `open parentheses 1 comma negative 5 close parentheses`.
+> (a) Find the gradient of the curve at the point $( 1 , - 5 )$.
 > 
 > > *Find the gradient function using differentiation*
 > 
-> `table row cell fraction numerator straight d y over denominator straight d x end fraction end cell equals cell 3 x squared minus 3 cross times 2 x minus 4 plus 0 end cell row cell fraction numerator straight d y over denominator straight d x end fraction end cell equals cell 3 x squared minus 6 x minus 4 end cell end table`
+> $\begin{gathered} \frac{ \mathrm{d} y}{ \mathrm{d} x} & = 3 x^{2} - 3 \times 2 x - 4 + 0 \\ \frac{ \mathrm{d} y}{ \mathrm{d} x} & = 3 x^{2} - 6 x - 4 \end{gathered}$
 > 
 > > *Substitute *$x=1$* into the gradient function*
 > 
-> `table row cell fraction numerator straight d y over denominator straight d x end fraction end cell equals cell 3 cross times 1 squared minus 6 cross times 1 minus 4 end cell row blank equals cell negative 7 end cell end table`
+> $\begin{gathered} \frac{ \mathrm{d} y}{ \mathrm{d} x} & = 3 \times 1^{2} - 6 \times 1 - 4 \\ = - 7 \end{gathered}$
 > 
 > > *The gradient when *$x=1$* is -7*
 > *(The **y**-coordinate of the point is not needed)*
@@ -150,16 +150,16 @@ guided_study: true
 > > *This is a quadratic equation*
 > *Bring the terms to one side and solve (for example, by factorisation)*
 > 
-> `table row cell 3 x squared minus 6 x minus 9 end cell equals 0 row cell x squared minus 2 x minus 3 end cell equals 0 row cell open parentheses x minus 3 close parentheses open parentheses x plus 1 close parentheses end cell equals 0 row x equals cell 3 space or space x equals negative 1 end cell end table`
+> $\begin{gathered} 3 x^{2} - 6 x - 9 & = 0 \\ x^{2} - 2 x - 3 & = 0 \\ ( x - 3 ) ( x + 1 ) & = 0 \\ x = 3 \text{or} x = - 1 \end{gathered}$
 > 
 > > *These are the *$x$*-coordinates of the two points on the curve with gradient 5*
 > *Substitute *$x=3$* into *$y=x^{3}-3x^{2}-4x+1$* to find the *$y$*-coordinate of this point*
 > 
-> `table row y equals cell 3 cubed minus 3 cross times 3 squared minus 4 cross times 3 plus 1 end cell row blank equals cell negative 11 end cell end table`
+> $\begin{gathered} y = 3^{3} - 3 \times 3^{2} - 4 \times 3 + 1 \\ = - 11 \end{gathered}$
 > 
 > > *Similarly, substitute *$x=-1$* into the equation for *$y$
 > 
-> `table row y equals cell open parentheses negative 1 close parentheses cubed minus 3 cross times open parentheses negative 1 close parentheses squared minus 4 cross times open parentheses negative 1 close parentheses plus 1 end cell row blank equals 1 end table`
+> $\begin{gathered} y = ( - 1 )^{3} - 3 \times ( - 1 )^{2} - 4 \times ( - 1 ) + 1 \\ = 1 \end{gathered}$
 > 
 > > *Write out the two sets of coordinates*
 > 

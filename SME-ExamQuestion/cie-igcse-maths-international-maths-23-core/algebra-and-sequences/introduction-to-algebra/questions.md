@@ -73,7 +73,7 @@ $a$ = ...................................................
 
 **Q5** [3 marks]
 
-`A equals fraction numerator open parentheses a plus b close parentheses h over denominator 2 end fraction`
+$A = \frac{( a + b ) h}{2}$
 
 Work out the value of $h$ when $A$ = 38.64, $a$ = 5.5 and $b$ = 3.7
 

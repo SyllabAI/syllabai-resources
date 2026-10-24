@@ -83,16 +83,16 @@ guided_study: true
 > 
 > - This time, *R*<sub>2 </sub> and *R*<sub>3</sub> are on the numerator as they are where *V*<sub>out </sub>is from
 > 
-> `V subscript o u t end subscript space equals space open parentheses fraction numerator R subscript 2 plus thin space R subscript 3 over denominator R subscript 1 space plus space R subscript 2 space plus thin space R subscript 3 end fraction close parentheses V subscript i n end subscript`
+> $V_{o u t} = ( \frac{R_{2 + R_{3} }{R_{1} + R_{2} + R_{3} } ) V_{i} n}$
 > 
 > **Step 4: Calculate the maximum output voltage**
 > 
 > - This is when the sliding contact is at the top of the 6.0 Ω resistor
 > 
-> `V subscript o u t end subscript space equals space open parentheses fraction numerator 6.0 space plus thin space 7.0 space over denominator 5.0 space plus space 6.0 space plus thin space 7.0 end fraction close parentheses space cross times 12.0 space equals space 8.7 space straight V`
+> $V_{o u t} = ( \frac{6.0 + 7.0 }{5.0 + 6.0 + 7.0} ) \times 12.0 = 8.7 \mathrm{V}$
 > 
 > **Step 5: Calculate the minimum output voltage**
 > 
 > - This is when the sliding contact only covers the 7.0 Ω resistor
 > 
-> `V subscript o u t end subscript space equals space open parentheses fraction numerator thin space 7.0 space over denominator 5.0 space plus space 6.0 space plus thin space 7.0 end fraction close parentheses space cross times 12.0 space equals space 4.7 space straight V`
+> $V_{o u t} = ( \frac{7.0 }{5.0 + 6.0 + 7.0} ) \times 12.0 = 4.7 \mathrm{V}$

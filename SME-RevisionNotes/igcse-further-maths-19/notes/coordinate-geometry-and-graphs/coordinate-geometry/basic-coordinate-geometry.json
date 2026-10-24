@@ -257,7 +257,7 @@
   },
   {
    "type": "bullets",
-   "md": "- If you have two points with coordinates `open parentheses x subscript 1 comma space y subscript 1 close parentheses`* *and* *`open parentheses x subscript 2 comma space y subscript 2 close parentheses`* *then you should be able to find\n\n  - The **distance** between the two points\n  - The point that **divides** the line between the two points in a given **ratio**\n  - The **gradient** of the line joining the two points"
+   "md": "- If you have two points with coordinates $( x_{1} , y_{1} )$* *and* *$( x_{2} , y_{2} )$* *then you should be able to find\n\n  - The **distance** between the two points\n  - The point that **divides** the line between the two points in a given **ratio**\n  - The **gradient** of the line joining the two points"
   },
   {
    "type": "heading",
@@ -266,11 +266,11 @@
   },
   {
    "type": "bullets",
-   "md": "- The **distance **$d$ between two points with coordinates `open parentheses x subscript 1 comma space y subscript 1 close parentheses`* *and* *`open parentheses x subscript 2 comma space y subscript 2 close parentheses`* *can be found using the formula\n\n  - `d space equals blank square root of open parentheses x subscript 1 minus blank x subscript 2 close parentheses squared space plus space open parentheses y subscript 1 minus blank y subscript 2 close parentheses squared end root blank`"
+   "md": "- The **distance **$d$ between two points with coordinates $( x_{1} , y_{1} )$* *and* *$( x_{2} , y_{2} )$* *can be found using the formula\n\n  - $d = \\sqrt{( x_{1} - x_{2} )^{2} + ( y_{1} - y_{2} )^{2}}$"
   },
   {
    "type": "bullets",
-   "md": "- $d$ is the **hypotenuse** of a right-angled triangle\n\n  - The differences between the $x$-coordinates and the $y$-coordinates give the other two side lengths\n  - So by Pythagoras’ Theorem  `d squared space equals space open parentheses x subscript 1 minus x subscript 2 close parentheses squared space plus space open parentheses y subscript 1 minus y subscript 2 close parentheses squared`"
+   "md": "- $d$ is the **hypotenuse** of a right-angled triangle\n\n  - The differences between the $x$-coordinates and the $y$-coordinates give the other two side lengths\n  - So by Pythagoras’ Theorem  $d^{2} = ( x_{1} - x_{2} )^{2} + ( y_{1} - y_{2} )^{2}$"
   },
   {
    "type": "heading",
@@ -279,11 +279,11 @@
   },
   {
    "type": "bullets",
-   "md": "- The coordinates of the point **dividing** the line joining `open parentheses x subscript 1 comma space y subscript 1 close parentheses` and `open parentheses x subscript 2 comma space y subscript 2 close parentheses` in the **ratio** $m:n$ are given by\n\n  - `open parentheses fraction numerator n x subscript 1 plus m x subscript 2 over denominator m plus n end fraction comma space fraction numerator n y subscript 1 plus m y subscript 2 over denominator m plus n end fraction close parentheses`"
+   "md": "- The coordinates of the point **dividing** the line joining $( x_{1} , y_{1} )$ and $( x_{2} , y_{2} )$ in the **ratio** $m:n$ are given by\n\n  - $( \\frac{n x_{1} + m x_{2} }{m + n} , \\frac{n y_{1} + m y_{2} }{m + n} )$"
   },
   {
    "type": "bullets",
-   "md": "- If $m>n$ then the point is closer to `open parentheses x subscript 2 comma space y subscript 2 close parentheses`\n- If $m<n$ then the point is closer to `open parentheses x subscript 1 comma space y subscript 1 close parentheses`"
+   "md": "- If $m>n$ then the point is closer to $( x_{2} , y_{2} )$\n- If $m<n$ then the point is closer to $( x_{1} , y_{1} )$"
   },
   {
    "type": "heading",
@@ -292,7 +292,7 @@
   },
   {
    "type": "bullets",
-   "md": "- The **midpoint** is the point **halfway between** the two points\n\n  - This is just 'dividing in a given ratio' where the ratio is $1:1$\n- The **coordinates** of the **midpoint** will be\n\n  - `open parentheses fraction numerator x subscript 1 plus blank x subscript 2 over denominator 2 end fraction blank comma blank fraction numerator y subscript 1 plus blank y subscript 2 over denominator 2 end fraction blank close parentheses`"
+   "md": "- The **midpoint** is the point **halfway between** the two points\n\n  - This is just 'dividing in a given ratio' where the ratio is $1:1$\n- The **coordinates** of the **midpoint** will be\n\n  - $( \\frac{x_{1} + x_{2} }{2} , \\frac{y_{1} + y_{2} }{2} )$"
   },
   {
    "type": "figure",
@@ -308,7 +308,7 @@
   },
   {
    "type": "bullets",
-   "md": "- The **gradient** $m$ of a line between two points with coordinates `open parentheses x subscript 1 comma space y subscript 1 close parentheses`* *and* *`open parentheses x subscript 2 comma space y subscript 2 close parentheses`* *can be found using the formula\n\n  - $m=\\frac{y_{2}-y_{1}}{x_{2}-x_{1}}$"
+   "md": "- The **gradient** $m$ of a line between two points with coordinates $( x_{1} , y_{1} )$* *and* *$( x_{2} , y_{2} )$* *can be found using the formula\n\n  - $m=\\frac{y_{2}-y_{1}}{x_{2}-x_{1}}$"
   },
   {
    "type": "bullets",
@@ -318,7 +318,7 @@
    "type": "callout",
    "variant": "worked-example",
    "label": "Worked Example",
-   "md": "Point $A$ has coordinates `open parentheses 3 comma space minus 4 close parentheses` and point $B$ has coordinates `open parentheses negative 5 comma space 8 close parentheses`.\n\n(a) Calculate the distance between points $A$ and $B$.\n\n> *Let *`A open parentheses 3 comma space minus 4 close parentheses`*be 'point 1', so *$x_{1}=3$* and *$y_{1}=-4$\n\n*Let *`B open parentheses negative 5 comma space 8 close parentheses` *be 'point 2', so *$x_{2}=-5$* and *$y_{2}=8$\n\n> *Use the formula  *`d space equals blank square root of open parentheses x subscript 1 minus blank x subscript 2 close parentheses squared space plus space open parentheses y subscript 1 minus blank y subscript 2 close parentheses squared end root blank`\n\n`d space equals space square root of open parentheses 3 minus open parentheses negative 5 close parentheses close parentheses squared space plus space open parentheses negative 4 minus 8 close parentheses squared end root space equals blank square root of 8 squared plus open parentheses negative 12 close parentheses squared end root space equals space square root of 64 plus 144 end root`\n\n**Final answer:** $\\sqrt{208}$**  ****(or **$4\\sqrt{13}$** ****or 14.4 to 3 s.f.)**\n\n(b) Find the gradient of the line joining points *A *and *B*.\n\n> *Let *`A open parentheses 3 comma space minus 4 close parentheses`* be 'point 1', so *$x_{1}=3$* and *$y_{1}=-4$\n\n*Let *`B open parentheses negative 5 comma space 8 close parentheses` *be 'point 2', so *$x_{2}=-5$* and *$y_{2}=8$\n\n> *Use the formula *$m=\\frac{y_{2}-y_{1}}{x_{2}-x_{1}}$\n\n`m equals fraction numerator 8 minus open parentheses negative 4 close parentheses over denominator negative 5 minus 3 end fraction equals fraction numerator 12 over denominator negative 8 end fraction`\n\n> *Simplify the fraction*\n\n$-\\frac{3}{2}$\n\n(c) Find point that divides the line joining points *A* and *B* in the ratio $1:3$.\n\n> *Let *`A open parentheses 3 comma space minus 4 close parentheses`*be 'point 1', so *$x_{1}=3$* and *$y_{1}=-4$\n\n*Let *`B open parentheses negative 5 comma space 8 close parentheses` *be 'point 2', so *$x_{2}=-5$* and *$y_{2}=8$\n\n> *Use the formula  *`open parentheses fraction numerator n x subscript 1 plus m x subscript 2 over denominator m plus n end fraction comma space fraction numerator n y subscript 1 plus m y subscript 2 over denominator m plus n end fraction close parentheses`* with *$m=1$* and *$n=3$\n\n> `open parentheses fraction numerator open parentheses 3 open parentheses 3 close parentheses plus 1 open parentheses negative 5 close parentheses close parentheses over denominator 1 plus 3 end fraction comma space fraction numerator open parentheses 3 open parentheses negative 4 close parentheses plus 1 open parentheses 8 close parentheses close parentheses over denominator 1 plus 3 end fraction close parentheses equals open parentheses fraction numerator 9 minus 5 over denominator 4 end fraction comma space fraction numerator negative 12 plus 8 over denominator 4 end fraction close parentheses`* *\n\n$(1,-1)$"
+   "md": "Point $A$ has coordinates $( 3 , - 4 )$ and point $B$ has coordinates $( - 5 , 8 )$.\n\n(a) Calculate the distance between points $A$ and $B$.\n\n> *Let *$A ( 3 , - 4 )$*be 'point 1', so *$x_{1}=3$* and *$y_{1}=-4$\n\n*Let *$B ( - 5 , 8 )$ *be 'point 2', so *$x_{2}=-5$* and *$y_{2}=8$\n\n> *Use the formula  *$d = \\sqrt{( x_{1} - x_{2} )^{2} + ( y_{1} - y_{2} )^{2}}$\n\n$d = \\sqrt{( 3 - ( - 5 ) )^{2} + ( - 4 - 8 )^{2}} = \\sqrt{8^{2} + ( - 12 )^{2}} = \\sqrt{64 + 144}$\n\n**Final answer:** $\\sqrt{208}$**  ****(or **$4\\sqrt{13}$** ****or 14.4 to 3 s.f.)**\n\n(b) Find the gradient of the line joining points *A *and *B*.\n\n> *Let *$A ( 3 , - 4 )$* be 'point 1', so *$x_{1}=3$* and *$y_{1}=-4$\n\n*Let *$B ( - 5 , 8 )$ *be 'point 2', so *$x_{2}=-5$* and *$y_{2}=8$\n\n> *Use the formula *$m=\\frac{y_{2}-y_{1}}{x_{2}-x_{1}}$\n\n$m = \\frac{8 - ( - 4 )}{- 5 - 3} = \\frac{12}{- 8}$\n\n> *Simplify the fraction*\n\n$-\\frac{3}{2}$\n\n(c) Find point that divides the line joining points *A* and *B* in the ratio $1:3$.\n\n> *Let *$A ( 3 , - 4 )$*be 'point 1', so *$x_{1}=3$* and *$y_{1}=-4$\n\n*Let *$B ( - 5 , 8 )$ *be 'point 2', so *$x_{2}=-5$* and *$y_{2}=8$\n\n> *Use the formula  *$( \\frac{n x_{1} + m x_{2} }{m + n} , \\frac{n y_{1} + m y_{2} }{m + n} )$* with *$m=1$* and *$n=3$\n\n> $( \\frac{( 3 ( 3 ) + 1 ( - 5 ) )}{1 + 3} , \\frac{( 3 ( - 4 ) + 1 ( 8 ) )}{1 + 3} ) = ( \\frac{9 - 5}{4} , \\frac{- 12 + 8}{4} )$* *\n\n$(1,-1)$"
   }
  ]
 }

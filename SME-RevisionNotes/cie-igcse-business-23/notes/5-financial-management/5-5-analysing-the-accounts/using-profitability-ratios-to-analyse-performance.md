@@ -50,17 +50,17 @@ $\mathrm{Gross} \mathrm{profit} \mathrm{margin}=\frac{\mathrm{Gross} \mathrm{pro
 > 
 > **Step 1: Substitute the values into the formula**
 > 
-> `Gross space profit space equals space fraction numerator Gross space profit space over denominator Sales space revenue end fraction space cross times space 100 space space space
+> $\text{Gross} \text{profit} = \frac{Gross \text{profit} }{Sales revenue} \times 100 
 > 
-> equals space fraction numerator $ 105 comma 731 over denominator space $ 124 comma 653 space end fraction
+> = \frac{\$ 105 , 731}{ \$ 124 , 653 } 
 > 
-> equals space space 0.8482 space`   **[1]**
+> = 0.8482$   **[1]**
 > 
 > **Step 2: Multiply the outcome by 100 to find the percentage**
 > 
-> `equals space 0.8482 space cross times space 100
+> $= 0.8482 \times 100
 > 
-> equals space 84.82 percent sign`**       ** **[1]**
+> = 84.82 \%$**       ** **[1]**
 > 
 > - **84.82% **of Head to Toe Wellbeing’s revenue was converted into gross profit during 2022
 
@@ -96,17 +96,13 @@ $\text{Net profit margin =}\frac{\mathrm{Profit} \mathrm{before} \mathrm{inte
 > 
 > **Step 1: Substitute the values into the formula**
 > 
-> `text Net profit margin =  end text fraction numerator Profit space before space interest space and space tax over denominator Sales space revenue end fraction cross times 100
-> 
-> equals space fraction numerator $ 65 comma 864 over denominator $ 124 comma 653 end fraction
-> 
-> equals space 0.5284`   ** ****[1]**
+> `text Net profit margin = end text (Profit before interest and tax)/(Sales revenue) x 100 > > = ($ 65 , 864)/($ 124 , 653) > > = 0.5284`   ** ****[1]**
 > 
 > **Step 2: Multiply the outcome by 100 to find the percentage**
 > 
-> `equals space 0.5284 space cross times space 100
+> $= 0.5284 \times 100
 > 
-> equals space 52.84 percent sign`     **[1]**
+> = 52.84 \%$     **[1]**
 > 
 > - In 2022,** 52.84%** of Head to Toe Wellbeing’s revenue was converted into profit before interest and tax
 
@@ -158,26 +154,16 @@ $\mathrm{Capital} \mathrm{employed}=\mathrm{Non}-\mathrm{current} \mathrm{liabil
 > 
 > ** Step 1: Calculate the capital employed**
 > 
-> `begin mathsize 16px style Capital space employed space equals space Non minus current space liabilities space plus space Equity
-> 
-> Capital space employed space equals space € 1.5 space straight m space plus space € 15.4 space straight m
-> 
-> Capital space employed space equals space € 16.9 space straight m end style`  ** ****[1]**
+> $Capital \text{employed} = Non - \text{current} \text{liabilities} + Equity > > Capital \text{employed} = \text{€} 1.5 \mathrm{m} + \text{€} 15.4 \mathrm{m} > > Capital \text{employed} = \text{€} 16.9 \mathrm{m}$  ** ****[1]**
 > 
 > **Step 2: Divide Operating Profit by Capital Employed**
 > 
-> `RoCE space equals fraction numerator space Profit space before space interest space and space tax over denominator Capital space employed end fraction space cross times space 100
-> 
-> equals space fraction numerator € 2.2 space straight m over denominator € 16.9 space straight m end fraction space cross times space 100
-> 
-> equals space 0.13
-> 
-> `   **[1]**
+> `RoCE = ( Profit before interest and tax)/(Capital employed) x 100 > > = (\text{€} 2.2 m)/(\text{€} 16.9 m) x 100 > > = 0.13 > >`   **[1]**
 > 
 > **Step 3: Multiply the result by 100 and express the outcome as a percentage**
 > 
-> `equals space 0.13 space cross times space 100
-> equals space 13 percent sign`**   ****[1 mark]**
+> $= 0.13 \times 100
+> = 13 \%$**   ****[1 mark]**
 > 
 > - Capital employed in Keals Cosmetics has generated a return of** ****13% **
 
@@ -202,16 +188,13 @@ $\mathrm{Capital} \mathrm{employed}=\mathrm{Non}-\mathrm{current} \mathrm{liabil
 > 
 > **Step 1: Apply the formula to calculate the RoCE for each branch**
 > 
-> **      **`RoCE equals space fraction numerator Profit space before space interest space and space tax over denominator Capital space employed end fraction space space cross times space 100
+> **      **`RoCE = (Profit before interest and tax)/(Capital employed) x 100 > > RoCE Sevenoaks = (\pounds 0.37 m)/(\pounds 2.4 m) x 100 = 15.42 %`**         ****[1]**
 > 
-> RoCE space Sevenoaks space equals space fraction numerator £ 0.37 straight m over denominator £ 2.4 straight m end fraction space space cross times space 100 space equals space 15.42 percent sign space space`**         ****[1]**
+> $> \text{RoCE} \text{Whitstable} = \frac{\pounds 0.57 \mathrm{m} }{\pounds 3.1 \mathrm{m} } \times 100 = 18.39 \%
+>$**         ****[1]**
 > 
-> `
-> RoCE space Whitstable space equals space fraction numerator £ 0.57 straight m over denominator £ 3.1 straight m end fraction space space cross times space 100 space equals space 18.39 percent sign
-> `**         ****[1]**
-> 
-> `RoCE space Rochester space equals space fraction numerator £ 0.51 straight m over denominator £ 2.9 straight m end fraction space space cross times space 100 space equals space 17.59 percent sign
-> `**         ****[1]**
+> $\text{RoCE} \text{Rochester} = \frac{\pounds 0.51 \mathrm{m} }{\pounds 2.9 \mathrm{m} } \times 100 = 17.59 \%
+>$**         ****[1]**
 > 
 > **Step 2: Identify the least profitable branch for closure**
 > 

@@ -24,9 +24,9 @@ Determine the value of $b$.
 
 **Q1** [2 marks]
 
-A different function, `straight g open parentheses x close parentheses`, is a cubic function of the form `straight g open parentheses x close parentheses equals a x cubed plus b x squared plus c x plus d`.
+A different function, $\mathrm{g} ( x )$, is a cubic function of the form $\mathrm{g} ( x ) = a x^{3} + b x^{2} + c x + d$.
 
-The graph of `y equals straight g open parentheses x close parentheses` is translated by the vector `open parentheses table row 5 row 0 end table close parentheses`.
+The graph of $y = \mathrm{g} ( x )$ is translated by the vector $( \begin{gathered} 5 \\ 0 \end{gathered} )$.
 
 Write down the equation of the transformed graph in terms of $a,b,c,d$, and $x$.
 
@@ -34,11 +34,11 @@ Write down the equation of the transformed graph in terms of $a,b,c,d$, and $x$.
 
 **Q2** [2 marks]
 
-The diagram shows a sketch of the graph of `space y equals straight j open parentheses x close parentheses`.
+The diagram shows a sketch of the graph of $y = \mathrm{j} ( x )$.
 
 ![Graph of the function j(x) with x-axis from -10 to 10 and y-axis from -10 to 10, showing a curve with a minimum and a maximum.](assets/001-graph-of-the-function-j-x-with-x-axis-from-10-to.png)
 
-On the same diagram, sketch the graph of `space y equals straight j open parentheses x plus 2 close parentheses.`
+On the same diagram, sketch the graph of $y = \mathrm{j} ( x + 2 ).$
 
 *Source: June 2022 0607/41 Q9BI*
 
@@ -59,7 +59,7 @@ Find the values of $a$ and $b$.
 
 A curve with equation $y=f(x)$ has one minimum point at $P(3,---4)$.
 
-Write down the coordinates of the minimum point of the curve with the equation  `y space equals space straight f open parentheses x minus 5 close parentheses plus 6`.
+Write down the coordinates of the minimum point of the curve with the equation  $y = \mathrm{f} ( x - 5 ) + 6$.
 
 **Q4** [2 marks]
 
@@ -67,13 +67,13 @@ Write down the coordinates of the minimum point of the curve with the equation  
 
 A curve with equation y = f(x) has one minimum point at P(3, -4).
 
-Write down an equation of the graph if the minimum point is instead translated to the point `open parentheses 0 comma space 0 close parentheses`
+Write down an equation of the graph if the minimum point is instead translated to the point $( 0 , 0 )$
 
 ### Q5 — hard — 2 marks
 
 **Q5** [2 marks]
 
-The graph of `y equals cos open parentheses x minus 35 close parentheses` for $0^{\circ}\leqx\leq360^{\circ}$ crosses the $x$-axis at two points.
+The graph of $y = \cos ( x - 35 )$ for $0^{\circ}\leqx\leq360^{\circ}$ crosses the $x$-axis at two points.
 
 Write down the coordinates of the points where this occurs.
 
@@ -108,9 +108,9 @@ Find the equation of the translated curve.
 
 **Q9** [1 mark]
 
-`open parentheses 7 comma space 13 close parentheses` is a point on the graph  `y equals straight f open parentheses x close parentheses`.
+$( 7 , 13 )$ is a point on the graph  $y = \mathrm{f} ( x )$.
 
-Write down the coordinates of a point which must be on the graph of  `y equals straight f open parentheses x close parentheses minus 2`.
+Write down the coordinates of a point which must be on the graph of  $y = \mathrm{f} ( x ) - 2$.
 
 ### Q10 — medium — 2 marks
 
@@ -118,16 +118,16 @@ Write down the coordinates of a point which must be on the graph of  `y equals s
 
 ![Graph of a quadratic function y=f(x) with vertex at (3, -4). Axes are labelled x and y.](assets/004-graph-of-a-quadratic-function-y-f-x-with-vertex-.png)
 
-The diagram shows part of the curve with equation  `y equals straight f open parentheses x close parentheses`.
-The coordinates of the minimum point of this curve are `open parentheses 3 comma negative 4 close parentheses`
+The diagram shows part of the curve with equation  $y = \mathrm{f} ( x )$.
+The coordinates of the minimum point of this curve are $( 3 , - 4 )$
 
 Write down the coordinates of the minimum point of each of the curves below:
 
-(i)   `y equals straight f open parentheses x close parentheses plus 3`
+(i)   $y = \mathrm{f} ( x ) + 3$
 
 [1]
 
-(ii)  `y equals straight f open parentheses x plus 2 close parentheses`
+(ii)  $y = \mathrm{f} ( x + 2 )$
 
 [1]
 
@@ -162,8 +162,8 @@ Find the translation vector that maps the point $P$ onto the point $Q$.
 **Q13** [1 mark]
 
 $F$  is the point $(5,7)$. 
-The vector that maps $F$ onto the point $G$ is `open parentheses negative 1
-space space space 3 close parentheses`.
+The vector that maps $F$ onto the point $G$ is $( - 1
+ 3 )$.
 
 Find the coordinates of $G$.
 

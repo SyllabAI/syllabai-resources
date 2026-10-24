@@ -269,7 +269,7 @@ i) The results that should be used are:
 
 ii) To calculate the mean titre:
 
-- `fraction numerator open parentheses 30.35 space plus space 30.25 space plus space 30.30 close parentheses over denominator 3 end fraction`; **[1 mark] **
+- $\frac{( 30.35 + 30.25 + 30.30 )}{3}$; **[1 mark] **
 - = 30.30 (cm<sup>3</sup>); **[1 mark] **
 
 **[Total: 3 marks] **
@@ -299,8 +299,8 @@ iii) To calculate the concentration, in mol/dm<sup>3</sup>, of the phosphoric ac
   - *Therefore the number of moles of NaOH must be divided by 3*
 - *You can also use volume in dm*<sup>*3*</sup>* for the calculations*
 
-  - *Moles = *`Concentration space cross times Volume space open parentheses dm cubed close parentheses`
-  - *Concentration = *`fraction numerator Moles over denominator Volume space open parentheses dm cubed close parentheses end fraction`
+  - *Moles = *$Concentration \times Volume ( dm ^{3} )$
+  - *Concentration = *$\frac{Moles}{Volume ( dm^{3} )}$
 
 ## Q5 — medium — 9 marks
 
@@ -432,7 +432,7 @@ i) The amount, in moles, of KOH in 25.0 cm<sup>3</sup> of potassium hydroxide so
 
 - Moles = concentration x volume (in dm<sup>3</sup>) = 0.240 x 0.0250; **[1 mark]** 
 **OR** 
-Moles = concentration x `fraction numerator volume space open parentheses in space cm cubed close parentheses over denominator 1000 end fraction` = 0.240 x $\frac{25}{1000}$; **[1 mark]**
+Moles = concentration x $\frac{volume ( \text{in} cm^{3} )}{1000}$ = 0.240 x $\frac{25}{1000}$; **[1 mark]**
 - = 0.006; **[1 mark]**
 
 ii) The amount, in moles, of H<sub>2</sub>SO<sub>4 </sub>in 15.00 cm<sup>3</sup> of the sulfuric acid is:
@@ -441,16 +441,16 @@ ii) The amount, in moles, of H<sub>2</sub>SO<sub>4 </sub>in 15.00 cm<sup>3</sup>
 
 iii) The concentration, in mol/dm<sup>3</sup>, of the sulfuric acid is:
 
-- concentration = `fraction numerator moles over denominator volume space open parentheses in space dm cubed close parentheses end fraction space equals space fraction numerator 0.003 over denominator 0.015 end fraction space text bold OR end text text end text fraction numerator 0.003 space cross times space 1000 over denominator 15.00 end fraction`; **[1 mark]**
+- concentration = `(moles)/(volume ( in dm ^3 )) = (0.003)/(0.015) text OR end text text end text (0.003 x 1000)/(15.00)`; **[1 mark]**
 - = 0.2(00 mol/dm<sup>3</sup>); **[1 mark]**
 
 **[Total: 5 marks]**
 
 - *Titration calculations might look tricky, but they always follow the same steps:*
 
-1. *Calculate the number of moles of the reactant that you know both the volume and the concentration of using the equation*`moles space equals space concentration space cross times space volume space open parentheses in space dm cubed close parentheses space space bold OR bold space space concentration space cross times space fraction numerator volume space open parentheses in space cm cubed close parentheses over denominator 1000 end fraction`
+1. *Calculate the number of moles of the reactant that you know both the volume and the concentration of using the equation*$\text{moles} = \text{concentration} \times \text{volume} ( \text{in} dm^{3} ) \text{OR} \text{concentration} \times \frac{volume ( \text{in} cm^{3} )}{1000}$
 2. *Use the balanced symbol equation to find the reacting ratio of the 2 reactants and use this to find the number of moles of the other reactant In this case, 2 moles of KOH will react with 1 mole of H*<sub>*2*</sub>*SO*<sub>*4*</sub>*, therefore the number of moles of H*<sub>*2*</sub>*SO*<sub>*4*</sub>* will be half that of KOH*
-3. *Calculate the concentration of this second reactant using the equation: *`begin mathsize 14px style concentration space equals space fraction numerator moles over denominator volume space open parentheses in space dm cubed close parentheses end fraction space bold OR space fraction numerator moles space cross times space 1000 over denominator volume space open parentheses in space cm cubed close parentheses end fraction end style`
+3. *Calculate the concentration of this second reactant using the equation: *$\text{concentration} = \frac{moles}{volume ( \text{in} dm^{3} )} \text{OR} \frac{moles \times 1000}{volume ( \text{in} cm^{3} )}$
 
 - *Make sure you show your workings clearly as you will be allowed error carried forward if you make a mistake so you are not penalised more than once*
 
@@ -659,8 +659,8 @@ iii) To calculate the concentration, in mol/dm<sup>3</sup>, of the sulfuric acid
 
 - *To solve this calculation overall, you need to use two equations *
 
-  - *Moles = Concentration x Volume (dm*<sup>*3*</sup>*) **OR** Moles = *`fraction numerator Concentration space cross times space Volume space open parentheses cm cubed close parentheses over denominator 1000 end fraction`
-  - *Concentration = *`fraction numerator Moles over denominator Volume space open parentheses dm cubed close parentheses end fraction`* **OR** Concentration = *$\frac{Moles}{Volume(cm^{3})}\times1000$
+  - *Moles = Concentration x Volume (dm*<sup>*3*</sup>*) **OR** Moles = *$\frac{Concentration \times \text{Volume} ( cm^{3} )}{1000}$
+  - *Concentration = *$\frac{Moles}{Volume ( dm^{3} )}$* **OR** Concentration = *$\frac{Moles}{Volume(cm^{3})}\times1000$
   - *You can use either dm*<sup>*3*</sup>* or cm*<sup>*3*</sup>*, use whichever one you find the easiest*
 - *The reaction has a 2:1 ratio*
 
@@ -748,7 +748,7 @@ ii) The amount, in moles, of CH<sub>3</sub>COOH in 19.50 cm<sup>3</sup> of the w
 
 iii) The concentration, in mol/dm<sup>3</sup>, of CH<sub>3</sub>COOH in the wine is:
 
-- = `fraction numerator moles over denominator volume space open parentheses in space dm cubed close parentheses end fraction space equals fraction numerator space 0.00125 space cross times space 1000 over denominator 19.50 end fraction space bold OR bold space fraction numerator answer space to space part open parentheses ii close parentheses space cross times space 1100 over denominator 19.5 end fraction`; **[1 mark]**
+- = $\frac{moles}{volume ( \text{in} dm^{3} )} = \frac{ 0.00125 \times 1000}{19.50} \text{OR} \frac{answer \text{to} \text{part} ( \text{ii} ) \times 1100}{19.5}$; **[1 mark]**
 - 0.0641 **OR **answer to first marking point; **[1 mark]** 
 
 *Accept 2 or more sig fig* *Correct answer scores 2 marks without working* 
@@ -758,7 +758,7 @@ iii) The concentration, in mol/dm<sup>3</sup>, of CH<sub>3</sub>COOH in the wine
 
 - For part i, you should use the equation that relates concentration, volume and amount in moles:
 
-concentration = `fraction numerator moles over denominator volume space open parentheses dm cubed close parentheses end fraction`
+concentration = $\frac{moles}{volume ( dm^{3} )}$
 
 - When using this equation, the volume needs to be in dm<sup>3</sup> so you must remember to convert the volume in cm<sup>3</sup> to dm<sup>3</sup> by dividing by 1000
 - If you do not do this, you will lose a mark but you are not penalised twice for forgetting to do this in this question
@@ -771,4 +771,4 @@ CH<sub>3</sub>COOH + NaOH → CH<sub>3</sub>COONa + H<sub>2</sub>O
   - Therefore, 0.00125 moles of NaOH reacts with 0.00125 moles of CH<sub>3</sub>COOH
 - For part iii, you use the equation that relates concentration, volume and amount in moles again:
 
-concentration = `fraction numerator moles over denominator volume space open parentheses dm cubed close parentheses end fraction`
+concentration = $\frac{moles}{volume ( dm^{3} )}$

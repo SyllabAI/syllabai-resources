@@ -90,11 +90,11 @@ guided_study: true
 > 
 > > *Use the above formula to find the volume of fuel, *$V$* litres, used*
 > 
-> `table row cell fuel space consumption space end cell equals cell fraction numerator distance space over denominator volume end fraction end cell row cell 3 space km space per space litre space end cell equals cell fraction numerator 88.5 space km space over denominator V space litres end fraction end cell end table`
+> $\begin{gathered} \text{fuel} \text{consumption} & = \frac{distance }{volume} \\ 3 \text{km} \text{per} \text{litre} & = \frac{88.5 \text{km} }{V litres} \end{gathered}$
 > 
 > > *Rearrange the equation by multiplying both sides by *$V$*, and dividing both sides by 3*
 > 
-> `table attributes columnalign right center left columnspacing 0px end attributes row cell 3 V end cell equals cell 88.5 end cell row V equals cell fraction numerator 88.5 over denominator 3 end fraction equals 29.5 end cell end table`
+> $\begin{array}{rcl} 3 V & = 88.5 \\ V = \frac{88.5}{3} = 29.5 \end{array}$
 > 
 > **Final answer:** **29.5 litres of fuel**
 > 

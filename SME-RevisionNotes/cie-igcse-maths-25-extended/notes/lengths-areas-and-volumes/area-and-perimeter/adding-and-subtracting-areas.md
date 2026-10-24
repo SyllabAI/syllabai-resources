@@ -55,6 +55,6 @@ guided_study: true
 > 
 > > *The total area will be the area of the rectangle + the area of the triangle.*
 > 
-> `table row cell Total space area space end cell equals cell space open parentheses 12 cross times space 4 close parentheses space plus 1 half open parentheses 7 cross times 5 close parentheses end cell row blank equals cell space 48 plus 1 half open parentheses 35 close parentheses end cell end table`
+> $\begin{gathered} \text{Total} \text{area} & = ( 12 \times 4 ) + 1 \frac{1}{2} ( 7 \times 5 ) \\ = 48 + 1 \frac{1}{2} ( 35 ) \end{gathered}$
 > 
 > **Final answer:** **Area = 65.5 cm**<sup>**2**</sup>

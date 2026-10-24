@@ -23,19 +23,19 @@ Consider the energy transfer taking place when the ice is added to the hot liqui
 
 Calculate the energy the hot liquid must transfer to cool to 58 °C:
 
-- `E space equals space m c subscript h increment theta space equals space open parentheses 275 space cross times space 10 to the power of negative 3 end exponent close parentheses space cross times space open parentheses 3750 close parentheses space cross times space open parentheses 71.5 space minus space 58 close parentheses space equals space 13922 space straight J`** [1 mark]**
+- $E = m c_{h} \Delta \\theta = ( 275 \times 10^{- 3} ) \times ( 3750 ) \times ( 71.5 - 58 ) = 13922 \mathrm{J}$** [1 mark]**
 
 Calculate the energy transferred to melt the ice to cold water:
 
-- `E subscript i space equals space m L subscript i space equals space m space cross times space open parentheses 3.34 space cross times space 10 to the power of 5 close parentheses` **[1 mark]**
+- $E_{i} = m L_{i} = m \times ( 3.34 \times 10^{5} )$ **[1 mark]**
 
 Calculate the energy transferred to the cold water as it heats to 58 °C:
 
-- `E subscript w space equals space m c subscript w increment theta space equals space m space cross times space open parentheses 4190 close parentheses space cross times space open parentheses 58 space minus space 0 close parentheses space equals space 243020 m`
+- $E_{w} = m c_{w} \Delta \\theta = m \times ( 4190 ) \times ( 58 - 0 ) = 243020 m$
 
 Rearrange the expression for energy transfer to calculate the mass of ice, $m$ required to cool the drink to 58 °C:
 
-- `13922 space equals space open parentheses 3.34 space cross times space 10 to the power of 5 close parentheses m space space plus space 243030 m`
+- $13922 = ( 3.34 \times 10^{5} ) m + 243030 m$
 - $13922=577030m$
 - $m=\frac{13922}{577030}=0.0241\mathrm{kg}=24g$ **[1 mark]**
 
@@ -67,8 +67,8 @@ List the known quantities:
 
 Calculate the energy transferred in the boiling of the water, Δ*E*:
 
-- `increment E space equals space m c increment theta space equals space m c open parentheses theta subscript f space minus space theta subscript i close parentheses`
-- `increment E space equals space open parentheses 855 space cross times space 10 to the power of negative 3 end exponent close parentheses space cross times space 4190 space cross times space open parentheses 100 space minus space 21.5 close parentheses space equals space 281.22 space cross times space 10 cubed space straight J` **[1 mark]**
+- $\Delta E = m c \Delta \\theta = m c ( \theta_{f} - \theta_{i} )$
+- $\Delta E = ( 855 \times 10^{- 3} ) \times 4190 \times ( 100 - 21.5 ) = 281.22 \times 10^{3} \mathrm{J}$ **[1 mark]**
 
 Calculate the power, *P*:
 
@@ -79,7 +79,7 @@ Calculate the mass *m* from the specific latent heat:
 
 - $\DeltaE=mL\Rightarrowm=\frac{\DeltaE}{l}$
 - $P=\frac{\DeltaE}{\Deltat}\Rightarrow\DeltaE=P\Deltat$
-- `m space equals space fraction numerator increment E space cross times space t space over denominator L end fraction space equals space space fraction numerator open parentheses 2.445 space cross times space 10 cubed close parentheses space space cross times space 175 over denominator 2.26 space cross times space 10 to the power of 6 end fraction space` **[1 mark]**
+- $m = \frac{\Delta E \times t }{L} = \frac{( 2.445 \times 10^{3} ) \times 175}{2.26 \times 10^{6} }$ **[1 mark]**
 - $m=0.189\mathrm{kg}$ **[1 mark]**
 
 **[Total: 4 marks]**
@@ -118,22 +118,22 @@ Determine the mass of chocolate in the palace:
 
 Determine the energy required to heat the palace to 36.0 °C:
 
-- `straight capital delta E space equals space m c straight capital delta theta space equals space open parentheses 1.66 space cross times space 10 to the power of 6 close parentheses space cross times space open parentheses 1.30 space cross times space 10 cubed close parentheses space cross times space open parentheses 36.0 space minus space 28.5 close parentheses` **[1 mark]**
+- `capital delta E = m c capital delta theta = ( 1.66 x 10 ^ 6 ) x ( 1.30 x 10 ^3 ) x ( 36.0 - 28.5 )` **[1 mark]**
 - $ΔE=1.62\times10^{10}J$
 
 Determine the energy required to melt the palace:
 
-- `straight capital delta E space equals space L straight capital delta m space equals space open parentheses 4.5 space cross times space 10 to the power of 4 close parentheses space cross times space open parentheses 1.66 space cross times space 10 to the power of 6 close parentheses` **[1 mark]**
+- `capital delta E = L capital delta m = ( 4.5 x 10 ^ 4 ) x ( 1.66 x 10 ^ 6 )` **[1 mark]**
 - $ΔE=7.47\times10^{10}J$
 
 Determine the total energy required to heat and melt the palace:
 
-- `E subscript t o t a l end subscript space equals space open parentheses 1.62 space cross times space 10 to the power of 10 close parentheses space plus space open parentheses 7.47 space cross times space 10 to the power of 10 close parentheses space equals space 9.09 space cross times space 10 to the power of 10 space straight J`
+- $E_{t o t a l} = ( 1.62 \times 10^{10} ) + ( 7.47 \times 10^{10} ) = 9.09 \times 10^{10} \mathrm{J}$
 
 Determine the energy being transferred to the palace over a day:
 
 - $P=\frac{E}{t}$
-- `E space equals space P space cross times space t space equals space open parentheses 7.5 space cross times space 10 to the power of 5 close parentheses space cross times space open parentheses 24 space cross times space 60 space cross times space 60 close parentheses` **[1 mark]**
+- $E = P \times t = ( 7.5 \times 10^{5} ) \times ( 24 \times 60 \times 60 )$ **[1 mark]**
 - $E=6.48\times10^{10}J$ **[1 mark]**
 - 9.09 × 10<sup>10</sup> J needed <u>therefore</u> the palace would not melt completely; **[1 mark]**
 
@@ -330,7 +330,7 @@ $\mathrm{gradient}=11.76$ **[1 mark]**
 
 $\DeltaE=L\Deltam=Pt$
 
-`L space equals space open parentheses fraction numerator increment P over denominator increment m end fraction close parentheses t space equals space text gradient end text cross times t`
+$L = ( \frac{\Delta P}{\Delta m} ) t = \text{gradient} \times t$
 
 $L=11.76\times75$ **[1 mark]**
 
@@ -357,7 +357,7 @@ Some of the thermal energy is transferred to the surroundings, which causes the 
 > 
 > 1 mark for a final value of $L=8.82\times10^{5}\text{J kg}^{-1}$
 > 
-> - Accept answers in the range `open parentheses 8.78 minus 8.86 close parentheses cross times 10 to the power of 5 text  J kg end text to the power of negative 1 end exponent`
+> - Accept answers in the range $( 8.78 - 8.86 ) \times 10^{5 \text{ J kg}^{-1} }$
 > 
 > 1 mark for a comparison of the calculated value for $L$ with values in the table and an appropriate conclusion
 > 

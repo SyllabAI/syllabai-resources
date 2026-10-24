@@ -21,32 +21,32 @@ $H_{5}=45\,45+5=50\,\,H_{6}=66\,66+6=72$
 
 > *Find the next term by dividing *$K_{2}$* by *$K_{3}$
 
-`K subscript 2 over K subscript 3 equals 8 over 18 equals 4 over 9 equals open parentheses 2 over 3 close parentheses squared space`
+$\frac{K_{2}}{K_{3}} = \frac{8}{18} = \frac{4}{9} = ( \frac{2}{3} ) ^{2}$
 
 > *Find the next term by dividing *$K_{3}$* by *$K_{4}$
 
-`K subscript 3 over K subscript 4 equals 18 over 32 equals 9 over 16 equals open parentheses 3 over 4 close parentheses squared space`* *
+$\frac{K_{3}}{K_{4}} = \frac{18}{32} = \frac{9}{16} = ( \frac{3}{4} ) ^{2}$* *
 
 > *Find the next term by dividing *$K_{4}$* by *$K_{5}$
 
-`K subscript 4 over K subscript 5 equals 32 over 50 equals 16 over 25 equals open parentheses 4 over 5 close parentheses squared space`* *
+$\frac{K_{4}}{K_{5}} = \frac{32}{50} = \frac{16}{25} = ( \frac{4}{5} ) ^{2}$* *
 
 > *Find the next term by dividing *$K_{5}$* by *$K_{6}$
 
-`K subscript 5 over K subscript 6 equals 50 over 72 equals 25 over 36 equals open parentheses 5 over 6 close parentheses squared space`* *
+$\frac{K_{5}}{K_{6}} = \frac{50}{72} = \frac{25}{36} = ( \frac{5}{6} ) ^{2}$* *
 
 | $n$ | 1 | 2 | 3 | 4 | 5 | 6 |
 |---|---|---|---|---|---|---|
 | $H_{n}$ | 1 | 6 | 15 | **Final answer:** **28** | 45 | 66 |
 | $K_{n}$ | 2 | 8 | 18 | **Final answer:** **32** | **Final answer:** **50** | **Final answer:** **72** |
-| $\frac{K_{n-1}}{K_{n}}$ | No previous term | `open parentheses 1 half close parentheses squared` | `open parentheses 2 over 3 close parentheses squared space` | `open parentheses 3 over 4 close parentheses squared space` | `open parentheses 4 over 5 close parentheses squared space` | `open parentheses 5 over 6 close parentheses squared space` |
+| $\frac{K_{n-1}}{K_{n}}$ | No previous term | $( 1 \frac{1}{2} )^{2}$ | $( \frac{2}{3} )^{2}$ | $( \frac{3}{4} )^{2}$ | $( \frac{4}{5} )^{2}$ | $( \frac{5}{6} )^{2}$ |
 
 **2 correct [1]**
 **3 correct [1]**
 **All correct [1]**
 > *Substitute  *$H_{n}=2n^{2}-n$*  into the formula *
 
-`K subscript n equals n plus open parentheses 2 n squared minus n close parentheses`* *
+$K_{n} = n + ( 2 n^{2} - n )$* *
 
 **[1]**
 
@@ -58,17 +58,17 @@ $K_{n}=n+2n^{2}-n=2n^{2}$* *
 
 > *Substitute  *$n-1$*  into the expression for *$K_{n}$* above to find *$K_{n-1}$
 
-`K subscript n minus 1 end subscript equals 2 open parentheses n minus 1 close parentheses squared`* *
+$K_{n - 1} = 2 ( n - 1 )^{2}$* *
 
 > *Substitute both expressions into *$\frac{K_{n-1}}{K_{n}}$
 
-`K subscript n minus 1 end subscript over K subscript n equals fraction numerator 2 open parentheses n minus 1 close parentheses squared over denominator 2 n squared end fraction`* *
+`K _ n - 1 end _ / K _ n = (2 ( n - 1 ) ^2)/(2 n ^2)`* *
 
 > *Simplify the fraction by cancelling the factor of 2*
 
-`K subscript n minus 1 end subscript over K subscript n equals fraction numerator up diagonal strike 2 open parentheses n minus 1 close parentheses squared over denominator up diagonal strike 2 n squared end fraction`* *
+`K _ n - 1 end _ / K _ n = (/ 2 ( n - 1 ) ^2)/(/ 2 n ^2)`* *
 
-`K subscript n minus 1 end subscript over K subscript n equals open parentheses n minus 1 close parentheses squared over n squared`* ***[1]**
+`K _ n - 1 end _ / K _ n = ( n - 1 ) ^2 / n ^2`* ***[1]**
 
 ### Q2
 > *Multiply both sides by 4*
@@ -81,27 +81,27 @@ $\sqrt{8H_{n}+1}=4n-1$
 
 > *Square both sides*
 
-`8 H subscript n plus 1 equals open parentheses 4 n minus 1 close parentheses squared`
+$8 H_{n} + 1 = ( 4 n - 1 )^{2}$
 
 **[1]**
 
 > *Subtract 1 from both sides*
 
-`8 H subscript n equals open parentheses 4 n minus 1 close parentheses squared minus 1`
+$8 H_{n} = ( 4 n - 1 )^{2} - 1$
 
 > *Divide both sides by 8*
 
-`H subscript n equals fraction numerator open parentheses 4 n minus 1 close parentheses squared minus 1 over denominator 8 end fraction`
+$H_{n} = \frac{( 4 n - 1 )^{2} - 1}{8}$
 
 > *Expand the squared brackets*
 
-`table row cell H subscript n end cell equals cell fraction numerator open parentheses 4 n minus 1 close parentheses open parentheses 4 n minus 1 close parentheses minus 1 over denominator 8 end fraction end cell row blank equals cell fraction numerator 16 n squared minus 4 n minus 4 n plus 1 minus 1 over denominator 8 end fraction end cell end table`
+$\begin{gathered} H_{n} & = \frac{( 4 n - 1 ) ( 4 n - 1 ) - 1}{8} \\ = \frac{16 n^{2} - 4 n - 4 n + 1 - 1}{8} \end{gathered}$
 
 **[1]**
 
 > *Simplify the numerator by collecting like terms*
 
-`table row cell H subscript n end cell equals cell fraction numerator 16 n squared minus 8 n over denominator 8 end fraction end cell end table`
+$\begin{gathered} H_{n} & = \frac{16 n^{2} - 8 n}{8} \end{gathered}$
 
 **[1]**
 
@@ -112,33 +112,33 @@ $H_{n}=2n^{2}-n$** [1]**
 ### Q3
 > *To test if 120 is a hexagonal number, substitute *$x=120$* into the formula given above*
 
-`table row cell fraction numerator 1 plus square root of 8 x plus 1 end root over denominator 4 end fraction end cell equals cell fraction numerator 1 plus square root of 8 cross times 120 plus 1 end root over denominator 4 end fraction end cell end table`
+$\begin{gathered} \frac{1 + \sqrt{8 x + 1} }{4} & = \frac{1 + \sqrt{8 \times 120 + 1} }{4} \end{gathered}$
 
 **[1]**
 
 > *Simplify*
 
-`table row cell fraction numerator 1 plus square root of 960 plus 1 end root over denominator 4 end fraction end cell equals cell fraction numerator 1 plus square root of 961 over denominator 4 end fraction end cell row blank equals cell fraction numerator 1 plus 31 over denominator 4 end fraction end cell row blank equals cell 32 over 4 end cell row blank equals 8 end table`
+$\begin{gathered} \frac{1 + \sqrt{960 + 1} }{4} & = \frac{1 + \sqrt{961} }{4} \\ = \frac{1 + 31}{4} \\ = \frac{32}{4} \\ = 8 \end{gathered}$
 
 **The output is 8, which is a whole number, so 120 is a hexagonal number ****[1]**
 > *The formula has a numerator which is divided by 4*
 
 > *For the output of the formula to be an integer, the numerator in the fraction must be a multiple of 4*
 
-`table row blank blank cell 1 plus square root of 8 x plus 1 end root end cell end table`* is a multiple of 4*
+$\begin{gathered} 1 + \sqrt{8 x + 1} \end{gathered}$* is a multiple of 4*
 
 **[1]**
 
 > *Trying some values may help here*
 *Try *$x=1$
 
-`table row cell 1 plus square root of 8 cross times 1 plus 1 end root end cell equals cell 1 plus square root of 9 equals 4 end cell end table`* is a multiple of 4 so the output will be an integer*
+$\begin{gathered} 1 + \sqrt{8 \times 1 + 1} & = 1 + \sqrt{9} = 4 \end{gathered}$* is a multiple of 4 so the output will be an integer*
 
 > *Try *$x=3$
 
-`table row cell 1 plus square root of 8 cross times 3 plus 1 end root end cell equals cell 1 plus square root of 25 equals 6 end cell end table`* which is not a multiple of 4, so the output will not not an integer*
+$\begin{gathered} 1 + \sqrt{8 \times 3 + 1} & = 1 + \sqrt{25} = 6 \end{gathered}$* which is not a multiple of 4, so the output will not not an integer*
 
-**No, because **`table row blank blank cell 1 plus square root of 8 x plus 1 end root end cell end table`** is not always a multiple of 4*** ***[1]**
+**No, because **$\begin{gathered} 1 + \sqrt{8 x + 1} \end{gathered}$** is not always a multiple of 4*** ***[1]**
 > *Use your calculator to find the square root of 1225*
 
 $\sqrt{1225}=35$
@@ -147,13 +147,13 @@ $\sqrt{1225}=35$
 
 > *Use the test given above to show that 1225 is a hexagonal number*
 
-`table row cell fraction numerator 1 plus square root of 8 x plus 1 end root over denominator 4 end fraction end cell equals cell fraction numerator 1 plus square root of 8 cross times 1225 plus 1 end root over denominator 4 end fraction end cell end table`
+$\begin{gathered} \frac{1 + \sqrt{8 x + 1} }{4} & = \frac{1 + \sqrt{8 \times 1225 + 1} }{4} \end{gathered}$
 
 **[1]**
 
 > *Simplify*
 
-`table row cell fraction numerator 1 plus square root of 9800 plus 1 end root over denominator 4 end fraction end cell equals cell fraction numerator 1 plus square root of 9801 over denominator 4 end fraction end cell row blank equals cell fraction numerator 1 plus 99 over denominator 4 end fraction end cell row blank equals cell 100 over 4 end cell row blank equals 25 end table`
+$\begin{gathered} \frac{1 + \sqrt{9800 + 1} }{4} & = \frac{1 + \sqrt{9801} }{4} \\ = \frac{1 + 99}{4} \\ = \frac{100}{4} \\ = 25 \end{gathered}$
 
 T**he formula gives 25 which is a positive integer so 1225 is a hexagonal number**
 
@@ -166,17 +166,17 @@ T**he formula gives 25 which is a positive integer so 1225 is a hexagonal number
 
 > *Multiply the top and bottom of the first fraction by *$n$* and the top and bottom of the second fraction by *$2n-1$
 
-`R subscript n equals fraction numerator 2 n over denominator n open parentheses 2 n minus 1 close parentheses end fraction minus fraction numerator open parentheses 2 n minus 1 close parentheses over denominator n open parentheses 2 n minus 1 close parentheses end fraction`
+$R_{n} = \frac{2 n}{n ( 2 n - 1 )} - \frac{( 2 n - 1 )}{n ( 2 n - 1 )}$
 
 > *Subtract the numerators*
 
-`R subscript n equals fraction numerator 2 n minus open parentheses 2 n minus 1 close parentheses over denominator n open parentheses 2 n minus 1 close parentheses end fraction`
+$R_{n} = \frac{2 n - ( 2 n - 1 )}{n ( 2 n - 1 )}$
 
 **[1]**
 
 > *Simplify the numerator by expanding the bracket (being careful with the negative signs)*
 
-`R subscript n equals fraction numerator 2 n minus 2 n plus 1 over denominator n open parentheses 2 n minus 1 close parentheses end fraction equals fraction numerator 1 over denominator n open parentheses 2 n minus 1 close parentheses end fraction`
+$R_{n} = \frac{2 n - 2 n + 1}{n ( 2 n - 1 )} = \frac{1}{n ( 2 n - 1 )}$
 
 > *Expand the brackets on the denominator*
 

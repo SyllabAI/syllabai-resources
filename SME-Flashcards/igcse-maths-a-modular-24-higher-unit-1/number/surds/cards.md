@@ -52,12 +52,12 @@ $\frac{\sqrt{a}}{\sqrt{b}}$ **simplifies **to $\sqrt{\frac{a}{b}}$.
 
 **FRONT**
 
-**Simplify **`open parentheses square root of a close parentheses squared`.
+**Simplify **$( \sqrt{a} )^{2}$.
 
 
 **BACK**
 
-`open parentheses square root of a close parentheses squared` **simplifies **to $a$.
+$( \sqrt{a} )^{2}$ **simplifies **to $a$.
 
 
 
@@ -122,15 +122,15 @@ For example, $\sqrt{8}+\sqrt{18}=2\sqrt{2}+3\sqrt{2}=5\sqrt{2}$
 
 How do you **expand two brackets** with expressions containing surds?
 
-E.g. `open parentheses 2 plus square root of 3 close parentheses open parentheses 4 plus square root of 2 close parentheses`
+E.g. $( 2 + \sqrt{3} ) ( 4 + \sqrt{2} )$
 
 
 **BACK**
 
 To **expand two brackets** with expressions containing surds, you **multiply each term **in one bracket **by each term** in the other bracket.
 
-E.g. `table row blank blank cell open parentheses 2 plus square root of 3 close parentheses open parentheses 4 plus square root of 2 close parentheses end cell end table`
-`table row blank equals cell 2 cross times 4 plus 2 cross times square root of 2 plus square root of 3 cross times 4 plus square root of 3 cross times square root of 2 end cell row blank equals cell 8 plus 2 square root of 2 plus 4 square root of 3 plus square root of 6 end cell end table`
+E.g. $\begin{gathered} ( 2 + \sqrt{3} ) ( 4 + \sqrt{2} ) \end{gathered}$
+$\begin{gathered} = 2 \times 4 + 2 \times \sqrt{2} + \sqrt{3} \times 4 + \sqrt{3} \times \sqrt{2} \\ = 8 + 2 \sqrt{2} + 4 \sqrt{3} + \sqrt{6} \end{gathered}$
 
 
 
@@ -140,16 +140,16 @@ E.g. `table row blank blank cell open parentheses 2 plus square root of 3 close 
 
 **True or False?**
 
-`open parentheses a plus square root of b close parentheses squared equals a squared plus b`.
+$( a + \sqrt{b} )^{2} = a^{2} + b$.
 
 
 **BACK**
 
 **False.**
 
-`open parentheses a plus square root of b close parentheses squared not equal to a squared plus b`.
+$( a + \sqrt{b} )^{2} \text{eq} a^{2} + b$.
 
-You need to **expand **using **double brackets**, `open parentheses a plus square root of b close parentheses open parentheses a plus square root of b close parentheses`.
+You need to **expand **using **double brackets**, $( a + \sqrt{b} ) ( a + \sqrt{b} )$.
 
 This expands and simplifies to $a^{2}+b+2a\sqrt{b}$.
 
@@ -159,12 +159,12 @@ This expands and simplifies to $a^{2}+b+2a\sqrt{b}$.
 
 **FRONT**
 
-**Simplify **`open parentheses a plus square root of b close parentheses open parentheses a minus square root of b close parentheses`.
+**Simplify **$( a + \sqrt{b} ) ( a - \sqrt{b} )$.
 
 
 **BACK**
 
-`open parentheses a plus square root of b close parentheses open parentheses a minus square root of b close parentheses` **simplifies **to $a^{2}-b$.
+$( a + \sqrt{b} ) ( a - \sqrt{b} )$ **simplifies **to $a^{2}-b$.
 
 This is an example of the **difference of two squares**.
 
@@ -257,11 +257,11 @@ The **sign** in between the two terms should be **inverted**.
 
 **FRONT**
 
-To** rationalise a denominator **`open parentheses p plus square root of q close parentheses`, you **multiply **the **numerator **and the **denominator **by what expression?
+To** rationalise a denominator **$( p + \sqrt{q} )$, you **multiply **the **numerator **and the **denominator **by what expression?
 
 
 **BACK**
 
-To** rationalise a denominator** `open parentheses p plus square root of q close parentheses`, you **multiply **the **numerator **and the **denominator **by `open parentheses p minus square root of q close parentheses`.
+To** rationalise a denominator** $( p + \sqrt{q} )$, you **multiply **the **numerator **and the **denominator **by $( p - \sqrt{q} )$.
 
 

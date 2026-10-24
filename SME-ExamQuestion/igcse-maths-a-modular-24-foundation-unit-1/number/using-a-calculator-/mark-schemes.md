@@ -11,7 +11,7 @@
 
 > *Convert *$\frac{2}{3},\frac{7}{11}\mathrm{and}\frac{5}{8}$* to decimals using the fraction button on the calculator or using division*
 
-`table row cell 2 divided by 3 end cell equals cell 0.666... end cell row cell 7 divided by 11 end cell equals cell 0.636... end cell row cell 5 divided by 8 end cell equals cell 0.625 end cell end table`
+$\begin{gathered} 2 \div 3 & = 0.666... \\ 7 \div 11 & = 0.636... \\ 5 \div 8 & = 0.625 \end{gathered}$
 
 > *Convert 60% to a decimal by dividing by 100*
 
@@ -47,7 +47,7 @@ $0.600\,0.613\,0.625\,0.636...\,0.666...$
 ### 9((b)) — 1 marks
 > *Using the cube root function on the calculator*
 
-`cube root of 175.616 end root equals 5.6`
+$\sqrt[3]{175.616} = 5.6$
 
 **Final answer:** **5.6**
 
@@ -56,7 +56,7 @@ $0.600\,0.613\,0.625\,0.636...\,0.666...$
 ### 9((c)) — 1 marks
 > *Use the square function  (*$x^{2}$*) on the calculator, ensuring that brackets are used around the negative number*
 
-`open parentheses negative 4.1 close parentheses squared equals 16.81`
+$( - 4.1 )^{2} = 16.81$
 
 **Final answer:** **16.81**
 
@@ -76,7 +76,7 @@ $\sqrt{2.9\times3.76}=3.302...$
 
 > *Divide this value by the denominator, using the answer button on the calculator to ensure accuracy*
 
-`3.302... divided by open parentheses 4.2 minus 0.63 close parentheses equals 0.9249637341...`
+$3.302... \div ( 4.2 - 0.63 ) = 0.9249637341...$
 
 **Final answer:** **0.924963741**
 

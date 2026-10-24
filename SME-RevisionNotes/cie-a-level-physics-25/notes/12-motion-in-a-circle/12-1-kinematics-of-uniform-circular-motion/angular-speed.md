@@ -85,7 +85,7 @@ $ω=\frac{\Deltaθ}{\Deltat}=\frac{v}{r}$
 > 
 > **Step 3: Calculate linear speed**
 > 
-> `v space equals space 650 space cross times space 5.25 space equals space 3410 space straight m space straight s to the power of negative 1 end exponent space open parentheses 3 space straight s. straight f. close parentheses`
+> $v = 650 \times 5.25 = 3410 \mathrm{m} \mathrm{s}^{- 1} ( 3 \mathrm{s} . \mathrm{f} . )$
 > 
 > **Part (b)**
 > 
@@ -99,4 +99,4 @@ $ω=\frac{\Deltaθ}{\Deltat}=\frac{v}{r}$
 > 
 > **Step 3: Substitute the known values to calculate**
 > 
-> `f space equals space fraction numerator 5.25 over denominator 2 straight pi end fraction space equals space 0.836 space Hz space open parentheses 3 space straight s. straight f. close parentheses`
+> $f = \frac{5.25}{2 \mathrm{\pi } } = 0.836 \text{Hz} ( 3 \mathrm{s} . \mathrm{f} . )$

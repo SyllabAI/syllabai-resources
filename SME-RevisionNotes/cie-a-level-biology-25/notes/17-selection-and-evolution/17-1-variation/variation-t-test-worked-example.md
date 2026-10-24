@@ -71,7 +71,7 @@ To find the standard deviations divide the sum of each square by *n* - 1 for eac
 | n<sub>1</sub> - 1 = 14 | n<sub>2</sub> - 1 = 14 |
 | ∑(x - x̄)<sup>2</sup> = 36<br><br>so 36 ÷ 14 = 2.57 | ∑(x - x̄)<sup>2</sup> = 22<br><br>so 22 ÷ 14 = 1.57 |
 | $\sqrt{2.57}=1.60$ | $\sqrt{1.57}=1.25$ |
-| `straight s subscript 1 equals square root of fraction numerator sum for blank of open parentheses straight x minus straight x with bar on top close parentheses squared over denominator straight n minus 1 end fraction end root equals 1.60` | `straight s subscript 2 equals square root of fraction numerator sum for blank of open parentheses straight x minus straight x with bar on top close parentheses squared over denominator straight n minus 1 end fraction end root equals 1.25` |
+| $\mathrm{s}_{1} = \sqrt{ \frac{ \sum ( \mathrm{x} - \bar{x} )^{2}}{ \mathrm{n} - 1} } = 1.60$ | $\mathrm{s}_{2} = \sqrt{ \frac{ \sum ( \mathrm{x} - \bar{x} )^{2}}{ \mathrm{n} - 1} } = 1.25$ |
 
 **Step 3: **Square the standard deviation and divide by *n* (the number of observations) in each sample, for both samples: 1.60<sup>2</sup> ÷ 15 = 0.171 (population A) and 1.25<sup>2</sup> ÷ 15 = 0.104 (population B)
 

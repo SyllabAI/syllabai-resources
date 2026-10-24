@@ -74,7 +74,7 @@ guided_study: false
 
 - We can rewrite a **logarithm** as a **multiple** of a logarithm of **any different positive base **using the formula
 
-`begin mathsize 22px style log subscript a invisible function application x equals fraction numerator log subscript b invisible function application x over denominator log subscript b invisible function application a end fraction end style`
+$log_{a} x = \frac{log_{b} x}{log_{b} a}$
 
 ### How do I use the change of base formula?
 
@@ -83,7 +83,7 @@ guided_study: false
   - Some old calculators only had a button for logarithm of base 10
   - To calculate $\mathrm{log}_{5}7$on these calculators you would have to enter
   
-    - `fraction numerator log subscript 10 invisible function application 7 over denominator log subscript 10 invisible function application 5 end fraction`
+    - $\frac{log_{10} 7}{log_{10} 5}$
 
 - The formula is only needed in a small number of cases
 
@@ -95,11 +95,11 @@ guided_study: false
 
   - For example, if you have $\mathrm{log}_{3}k$ and $\mathrm{log}_{9}n$ within the same equation
   
-    - You can rewrite $\mathrm{log}_{9}n$ as `fraction numerator log subscript 3 invisible function application n over denominator log subscript 3 invisible function application 9 end fraction blank` which simplifies to $\frac{1}{2}\mathrm{log}_{3}n$
-    - Or you can rewrite $\mathrm{log}_{3}k$ as `fraction numerator log subscript 9 invisible function application k over denominator log subscript 9 invisible function application 3 end fraction blank` which simplifies to $2\mathrm{log}_{9}k$
+    - You can rewrite $\mathrm{log}_{9}n$ as $\frac{log_{3} n}{log_{3} 9}$ which simplifies to $\frac{1}{2}\mathrm{log}_{3}n$
+    - Or you can rewrite $\mathrm{log}_{3}k$ as $\frac{log_{9} k}{log_{9} 3}$ which simplifies to $2\mathrm{log}_{9}k$
 - The formula also allows you to derive and use a formula for switching the numbers:
 
-`begin mathsize 22px style log subscript a invisible function application x equals fraction numerator 1 over denominator log subscript x invisible function application a end fraction end style`
+$log_{a} x = \frac{1}{log_{x} a}$
 
 - Using the fact that $\mathrm{log}_{x}x=1$
 

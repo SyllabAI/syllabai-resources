@@ -589,7 +589,7 @@ Take out the factor of $8$ from each, remembering that the negative index invert
 
 `= 8^{\frac{1}{3}}\left(1 - \frac{x}{8}\right)^{\frac{1}{3}} = 2\left(1 - \frac{x}{8}\right)^{\frac{1}{3}}`
 
-For `open parentheses 8 plus 2 x close parentheses to the power of negative 1 third end exponent`
+For $( 8 + 2 x )^{- 1 \frac{1}{3}}$
 
 `(8 + 2x)^{-\frac{1}{3}} = \left[8\left(1 + \frac{x}{4}\right)\right]^{-\frac{1}{3}}`
 
@@ -701,7 +701,7 @@ $15 = - \frac{18}{5} B  \Rightarrow  B = - \frac{25}{6}$
 
 **[M1 A1]**
 
-`fraction numerator 15 over denominator left parenthesis x minus 4 right parenthesis left parenthesis 5 x minus 2 right parenthesis end fraction equals fraction numerator 5 over denominator 6 open parentheses x minus 4 close parentheses end fraction minus fraction numerator 25 over denominator 6 open parentheses 5 x minus 2 close parentheses end fraction`
+$\frac{15}{( x - 4 ) ( 5 x - 2 )} = \frac{5}{6 ( x - 4 )} - \frac{25}{6 ( 5 x - 2 )}$
 
 Each denominator is written with the $x$ term first, so the constant comes out negative. The index applies to it as well
 
@@ -725,7 +725,7 @@ Simplify inside the bracket, then multiply through by $- \frac{5}{24}$
 
 `= -\frac{5}{24}\left[1 + \frac{x}{4} + \frac{x^{2}}{16}\right] = -\frac{5}{24} - \frac{5x}{96} - \frac{5x^{2}}{384}`
 
-For `25 over 12 open parentheses 1 minus fraction numerator 5 x over denominator 2 end fraction close parentheses to the power of negative 1 end exponent`
+For $\frac{25}{12} ( 1 - \frac{5 x}{2} )^{- 1}$
 
 `\frac{25}{12}\left(1 - \frac{5x}{2}\right)^{-1} = \frac{25}{12}\left[1 + (-1)\left(-\frac{5x}{2}\right) + \frac{(-1)(-2)}{2!}\left(-\frac{5x}{2}\right)^{2} + \; ...\right]`
 
@@ -840,7 +840,7 @@ Neither bracket starts with $1$, so take out the constant from each
 
 `= 4^{\frac{1}{2}}\left(1 + \frac{ax}{4}\right)^{\frac{1}{2}} = 2\left(1 + \frac{ax}{4}\right)^{\frac{1}{2}}`
 
-For `straight g open parentheses x close parentheses`
+For $\mathrm{g} ( x )$
 
 `\text{g}(x) = (16 + bx)^{\frac{1}{4}} = \left[16\left(1 + \frac{bx}{16}\right)\right]^{\frac{1}{4}}`
 
@@ -1940,7 +1940,7 @@ Factorise
 
 `\left(\frac{p}{4q}\right)^{2}\left(\frac{p}{4q} + 2\right) = 0`
 
-Since $p < 0$, the quantity $\frac{p}{4q}$ cannot be zero, so `open parentheses fraction numerator p over denominator 4 q end fraction close parentheses squared not equal to 0`
+Since $p < 0$, the quantity $\frac{p}{4q}$ cannot be zero, so $( \frac{p}{4 q} )^{2} \text{eq} 0$
 
 Therefore
 
@@ -2164,13 +2164,13 @@ $\frac{12-x}{(x+2)(3-x)} = \frac{14}{5} ( x + 2 )^{-1} + \frac{9}{5} ( 3 - x )^{
 
 Take the constant out of each denominator, remembering that the index applies to it as well
 
-`left parenthesis x plus 2 right parenthesis to the power of negative 1 end exponent equals open square brackets 2 open parentheses 1 plus x over 2 close parentheses close square brackets to the power of negative 1 end exponent equals 2 to the power of negative 1 end exponent open parentheses 1 plus x over 2 close parentheses to the power of negative 1 end exponent space
-left parenthesis 3 minus x right parenthesis to the power of negative 1 end exponent equals open square brackets 3 open parentheses 1 minus x over 3 close parentheses close square brackets to the power of negative 1 end exponent equals 3 to the power of negative 1 end exponent open parentheses 1 minus x over 3 close parentheses to the power of negative 1 end exponent`
+$( x + 2 )^{- 1} = [ 2 ( 1 + \frac{x}{2} ) ]^{- 1} = 2^{- 1} ( 1 + \frac{x}{2} )^{- 1} 
+( 3 - x )^{- 1} = [ 3 ( 1 - \frac{x}{3} ) ]^{- 1} = 3^{- 1} ( 1 - \frac{x}{3} )^{- 1}$
 
 Absorb each constant into its coefficient
 
-`equals 14 over 5 cross times 1 half open parentheses 1 plus x over 2 close parentheses to the power of negative 1 end exponent plus 9 over 5 cross times 1 third open parentheses 1 minus x over 3 close parentheses to the power of negative 1 end exponent
-equals 7 over 5 open parentheses 1 plus x over 2 close parentheses to the power of negative 1 end exponent plus 3 over 5 open parentheses 1 minus x over 3 close parentheses to the power of negative 1 end exponent`
+$= \frac{14}{5} \times 1 \frac{1}{2} ( 1 + \frac{x}{2} )^{- 1} + \frac{9}{5} \times 1 \frac{1}{3} ( 1 - \frac{x}{3} )^{- 1} 
+= \frac{7}{5} ( 1 + \frac{x}{2} )^{- 1} + \frac{3}{5} ( 1 - \frac{x}{3} )^{- 1}$
 
 **[M1]**
 

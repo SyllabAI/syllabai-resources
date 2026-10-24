@@ -73,11 +73,11 @@ $h = \frac{101000}{1025\times9.81} = \frac{101000}{10055} = 10 . 0  \text{m}$
   - Velocity $=1.5\times10^{7}ms^{-1}$
 - Force is defined as the rate of change of momentum $F=\frac{\Deltap}{\Deltat}$
 - Force exerted due to one particle $=\frac{mv}{t}$
-- Total force due to N particles `equals N open parentheses fraction numerator m v over denominator t end fraction close parentheses equals N over t cross times m v`
+- Total force due to N particles $= N ( \frac{m v}{t} ) = \frac{N}{t} \times m v$
 - Therefore, the average pressure exerted on the lead by the α-particles is:
 
   - $P=\frac{F}{A}=\frac{N}{t}\times\frac{mv}{A}$
-  - `P space equals space fraction numerator open parentheses 5.0 cross times 10 to the power of 4 close parentheses cross times open parentheses 6.6 cross times 10 to the power of negative 27 end exponent close parentheses cross times open parentheses 1.5 cross times 10 to the power of 7 close parentheses over denominator 1 cross times 10 to the power of negative 4 end exponent end fraction`
+  - $P = \frac{( 5.0 \times 10^{4 ) \times ( 6.6 \times 10^{-27} } ) \times ( 1.5 \times 10^{7 )}{1 \times 10^{-4} } }$
   - $P=4.95\times10^{-11}\approx5.0\times10^{-11}\mathrm{Pa}$
 
 ### Q4
@@ -90,16 +90,16 @@ $h = \frac{101000}{1025\times9.81} = \frac{101000}{10055} = 10 . 0  \text{m}$
   - Depth of water, $h=2000-x$
   - Density of water, $ρ=1000\mathrm{kg}m^{-3}$
   - Acceleration due to gravity, $g=9.81ms^{-2}$
-- Pressure exerted by water `equals open parentheses 2000 minus x close parentheses open parentheses 1000 close parentheses open parentheses 9.81 close parentheses`
+- Pressure exerted by water $= ( 2000 - x ) ( 1000 ) ( 9.81 )$
 - For the column of oil:
 
   - Depth of oil, $h=x$
   - Density of oil, $ρ=830\mathrm{kg}m^{-3}$
-  - Pressure exerted by oil `equals open parentheses 830 close parentheses open parentheses 9.81 close parentheses x`
+  - Pressure exerted by oil $= ( 830 ) ( 9.81 ) x$
 - The sum of the pressures is 17.5 MPa
 
-  - `open parentheses 2000 minus x close parentheses open parentheses 1000 close parentheses open parentheses 9.81 close parentheses plus open parentheses 830 close parentheses open parentheses 9.81 close parentheses x equals 17.5 cross times 10 to the power of 6`
-  - `open parentheses 2000 cross times 1000 cross times 9.81 close parentheses minus 17.5 cross times 10 to the power of 6 equals 1000 space g x minus 830 space g x`
+  - $( 2000 - x ) ( 1000 ) ( 9.81 ) + ( 830 ) ( 9.81 ) x = 17.5 \times 10^{6}$
+  - $( 2000 \times 1000 \times 9.81 ) - 17.5 \times 10^{6} = 1000 g x - 830 g x$
   - $2.12\times10^{6}=170gx$
   - $x=\frac{2.12\times10^{6}}{170\times9.81}=1271m$
 - The depth of oil in the bore-hole is about 1270 m
@@ -113,7 +113,7 @@ $h = \frac{101000}{1025\times9.81} = \frac{101000}{10055} = 10 . 0  \text{m}$
 - The depth *h* of the liquids is the same
 - For vessel P:
 
-  - `P equals h open parentheses 2 rho close parentheses g equals 2 rho g h`
+  - $P = h ( 2 \\rho ) g = 2 \\rho g h$
 - For vessel Q:
 
   - $P=ρgh$
@@ -124,12 +124,12 @@ $h = \frac{101000}{1025\times9.81} = \frac{101000}{10055} = 10 . 0  \text{m}$
 
 - The pressure difference can be established from the equation of hydrostatic pressure
 
-  - `increment P equals p g open parentheses increment h close parentheses`
+  - $\Delta P = p g ( \Delta h )$
 - Density of sea water, *ρ* = 1100 kg m<sup>–3</sup>
 - Acceleration due to gravity, *g* = 9.81 m s<sup>–2</sup>
 - Difference in depth, Δ*h* = 2.2 – 2.0 = 0.2 m
 
-  - `increment P equals p g open parentheses increment h close parentheses equals 1100 cross times 9.81 cross times 0.2 equals 2158 space Pa`
+  - $\Delta P = p g ( \Delta h ) = 1100 \times 9.81 \times 0.2 = 2158 \text{Pa}$
 - The pressure difference between the top and bottom = 2.2 × 10<sup>3</sup> Pa (2 s. f.)
 
 ### Q7
@@ -155,7 +155,7 @@ $h = \frac{101000}{1025\times9.81} = \frac{101000}{10055} = 10 . 0  \text{m}$
 
 - The pressure difference can be established from the equation of hydrostatic pressure
 
-  - `increment P equals p g open parentheses increment h close parentheses`
+  - $\Delta P = p g ( \Delta h )$
 - Density of mercury, *ρ* = 13 600 kg m<sup>–3</sup>
 - Acceleration due to gravity, *g* = 9.81 m s<sup>–2</sup>
 - Change in pressure, Δ*P* = 100 000 Pa
@@ -178,7 +178,7 @@ $h = \frac{101000}{1025\times9.81} = \frac{101000}{10055} = 10 . 0  \text{m}$
 - Pressure due to piston and atmosphere = Pressure due to mercury column and trapped air
 
   - $\frac{mg}{A}+P_{atm}=ρgh+P_{air}$
-  - `fraction numerator 5.0 cross times 9.81 over denominator 5.0 cross times 10 to the power of negative 4 end exponent end fraction plus 1.01 cross times 10 to the power of 5 equals open parentheses h cross times 13 space 600 cross times 9.81 close parentheses plus 5.0 cross times 10 to the power of 4`
+  - $\frac{5.0 \times 9.81}{5.0 \times 10^{- 4} } + 1.01 \times 10^{5} = ( h \times 13 600 \times 9.81 ) + 5.0 \times 10^{4}$
   - $9.81\times10^{4}+1.01\times10^{5}-5.0\times10^{4}=133416h$
   - $149100=133416h$
   - $h=\frac{149100}{133416}=1.1m$
@@ -233,7 +233,7 @@ $h = \frac{101000}{1025\times9.81} = \frac{101000}{10055} = 10 . 0  \text{m}$
 - Imagine a beaker containing the liquid and a vertical straw (not inclined)
 - Atmospheric pressure *p*<sub>*0*</sub> acts on the surface of the liquid
 - The child is capable of lowering the pressure at the top of the straw by 10%
-- So, the child is drinking from the top of the straw with a pressure of `begin mathsize 20px style open parentheses 1 minus 0.1 close parentheses p subscript 0 equals 0.9 p subscript 0 end style`
+- So, the child is drinking from the top of the straw with a pressure of $( 1 - 0.1 ) p_{0} = 0.9 p_{0}$
 - As the child drinks, the liquid rises up the straw of length *h*
 - The difference in pressure at the surface if the liquid in the beaker *p*<sub>*0*</sub> and the pressure at the top of the straw 0.9*p*<sub>*0*</sub> is equal to the pressure due to the column of liquid in the straw (from the equation of hydrostatic pressure)
 
@@ -249,12 +249,12 @@ $h = \frac{101000}{1025\times9.81} = \frac{101000}{10055} = 10 . 0  \text{m}$
 
 - The pressure difference can be established from the equation of hydrostatic pressure
 
-  - `increment P equals p g open parentheses increment h close parentheses`
+  - $\Delta P = p g ( \Delta h )$
 - Density of sea water, *ρ* = 1020 kg m<sup>–3</sup>
 - Acceleration due to gravity, *g* = 9.81 m s<sup>–2</sup>
 - Depth, Δ*h* = 10 000 m
 
-  - `increment P equals p g open parentheses increment h close parentheses equals 1020 cross times 9.81 cross times 10 space 000 equals 1.0 cross times 10 to the power of 8 space Pa`
+  - $\Delta P = p g ( \Delta h ) = 1020 \times 9.81 \times 10 000 = 1.0 \times 10^{8} \text{Pa}$
 - The approximate pressure at a depth of 10 km is ~10<sup>8</sup> Pa
 
 ### Q15
@@ -296,17 +296,17 @@ $h = \frac{101000}{1025\times9.81} = \frac{101000}{10055} = 10 . 0  \text{m}$
   - Total volume of mixture$=V_{w}+40$
 - Density of mixture $=\frac{\mathrm{total} \mathrm{mass}}{\mathrm{total} \mathrm{volume}}$
 
-  - `1.1 equals fraction numerator open parentheses m subscript w plus 52 close parentheses over denominator open parentheses V subscript w plus 40 close parentheses end fraction`
-  - `V subscript w plus 40 equals fraction numerator open parentheses m subscript w plus 52 close parentheses over denominator 1.1 end fraction`                                  **(1)**
+  - $1.1 = \frac{( m_{w} + 52 )}{( V_{w} + 40 )}$
+  - $V_{w} + 40 = \frac{( m_{w} + 52 )}{1.1}$                                  **(1)**
 - Consider the density of water
 
   - $m_{w}=ρ_{w}\timesV_{w}=1.0V_{w}=V_{w}$                    **(2)**
 - Replace *m*<sub>*w*</sub> by *V *<sub>*w*</sub> in equation **(1)**
 
-  - `V subscript w plus 40 equals fraction numerator open parentheses V subscript w plus 52 close parentheses over denominator 1.1 end fraction`
+  - $V_{w} + 40 = \frac{( V_{w} + 52 )}{1.1}$
   - $V_{w}=\frac{V_{w}}{1.1}+\frac{52}{1.1}-40$
   - $V_{w}-\frac{V_{w}}{1.1}=\frac{52}{1.1}-40$
-  - `V subscript w open parentheses 1 minus fraction numerator 1 over denominator 1.1 end fraction close parentheses equals 80 over 11`
+  - $V_{w} ( 1 - \frac{1}{1.1} ) = \frac{80}{11}$
   - $V_{w}=80\mathrm{cm}^{3}$
 
 ### Q17
@@ -329,7 +329,7 @@ $h = \frac{101000}{1025\times9.81} = \frac{101000}{10055} = 10 . 0  \text{m}$
 - Given that the density of fat-free milk $=1.040\times10^{3}\mathrm{kg}m^{-3}$
 
   - Mass of fat-free milk $=\mathrm{density}\times\mathrm{volume}$
-  - Mass of fat-free milk `equals open parentheses 1.040 cross times 10 cubed close parentheses cross times open parentheses 9.6 cross times 10 to the power of negative 4 end exponent close parentheses equals 0.9984 space kg`
+  - Mass of fat-free milk $= ( 1.040 \times 10^{3} ) \times ( 9.6 \times 10^{- 4} ) = 0.9984 \text{kg}$
 - Total mass = mass of fat + mass of fat-free milk
 - Mass of fat $=1.035-0.9984=0.0366\mathrm{kg}$
 
@@ -352,7 +352,7 @@ The question indicates that up to four significant figures should be considered 
   - $8000-p=h_{2}ρg$              **(2)**
 - If we take equation **(2)** from equation **(1)**
 
-  - `16 space 000 minus 8000 equals open parentheses h subscript 1 minus h subscript 2 close parentheses space rho g`
+  - $16 000 - 8000 = ( h_{1} - h_{2} ) \\rho g$
   - $h_{1}-h_{2}=\frac{8000}{ρg}=\frac{8000}{13600\times9.81}=0.06m$
 - The difference between heights and  is 0.06 m or 6 cm. The only set of values which matches this difference is choice D where $h_{1}=18.0\mathrm{cm}$  and $h_{2}=12.0\mathrm{cm}$
 
@@ -365,7 +365,7 @@ The question indicates that up to four significant figures should be considered 
 - Now, because the bottom of the block is deeper into the water than the top of the block, $p_{b}>p_{t}$
 - So, the force due to the pressure at the bottom of the block $=p_{b}\timesA$
 - And the force due to the pressure at the top of the block$=p_{t}\timesA$
-- Upthrust on block `equals p subscript b A minus p subscript t A equals open parentheses p subscript b minus p subscript t close parentheses space A`
+- Upthrust on block $= p_{b} A - p_{t} A = ( p_{b} - p_{t} ) A$
 
 ![cie-ial-physics-images-4-2--h--q2](assets/009-cie-ial-physics-images-4-2-h-q2.png)
 
@@ -429,13 +429,13 @@ $P=\frac{ρAhg}{A}=pgh$
 - For liquid Q:
 
   - Density, $ρ_{Q}=2ρ_{R}$
-  - Pressure, `P subscript Q equals h rho subscript Q g equals h open parentheses 2 rho subscript R close parentheses g equals 7`
+  - Pressure, $P_{Q} = h \rho_{Q} g = h ( 2 \rho_{R} ) g = 7$
 - So, depth in liquid Q:
 
   - $h=\frac{7}{2ρ_{R}g}$                                **(2)**
 - Substituting equation **(1)** into **(2)**:
 
-  - `h equals fraction numerator 7 over denominator 2 g open parentheses fraction numerator 4 over denominator x g end fraction close parentheses end fraction equals 7 over 2 open parentheses 4 over x close parentheses to the power of negative 1 end exponent equals fraction numerator 7 x over denominator 8 end fraction`
+  - $h = \frac{7}{2 g ( \frac{4}{x g} )} = \frac{7}{2} ( \frac{4}{x} )^{- 1} = \frac{7 x}{8}$
 
 **Exam Tip:** in questions such as these, identify the link between the two quantities in order to equate them. For example, in this question, *ρ* is the quantity that links R and Q, so identifying *ρ* in terms of the other known variables is a crucial step
 
@@ -505,24 +505,24 @@ $P=\frac{ρAhg}{A}=pgh$
 
 - The pressure on the plug can be established from the equation of hydrostatic pressure
 
-  - `increment P equals p g open parentheses increment h close parentheses`
+  - $\Delta P = p g ( \Delta h )$
 - Density of water, *ρ* = 1000 kg m<sup>–3</sup>
 - Acceleration due to gravity, *g* = 9.81 m s<sup>–2</sup>
 - Depth of plug, Δ*h* = 30 cm = 0.3 m
 
-  - `increment P equals p g open parentheses increment h close parentheses equals 1000 cross times 9.81 cross times 0.3 equals 2943 space Pa`
+  - $\Delta P = p g ( \Delta h ) = 1000 \times 9.81 \times 0.3 = 2943 \text{Pa}$
 - The pressure acting on the plug = 2.9 kPa (2 s. f.)
 
 ### Q27
 **Final answer:** **The correct answer is ****D**** because:**
 
-- The equation of hydrostatic pressure is `increment P equals open parentheses increment h close parentheses rho g`
+- The equation of hydrostatic pressure is $\Delta P = ( \Delta h ) \\rho g$
 - The heating causes the liquid in the right-hand side to rise a distance *h* from its original position
 - But this also causes the liquid in the left-hand side to sink by a distance *h* from its original position
 - So, the difference in height of the liquid is $\Deltah=h+h=2h$
 - Therefore, the increase in pressure is
 
-  - `increment P equals open parentheses increment h close parentheses rho g equals 2 h rho g`
+  - $\Delta P = ( \Delta h ) \\rho g = 2 h \\rho g$
 
 ![cie-ial-physics-images-4-2--h--q6-answer](assets/016-cie-ial-physics-images-4-2-h-q6-answer.png)
 

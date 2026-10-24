@@ -136,7 +136,7 @@
   },
   {
    "type": "table",
-   "md": "| **Symbol** | **Meaning** | **Example** | **Explanation** |\n|---|---|---|---|\n| `A space times space B`  or `AB` | **AND** | `A · B` | True only if **both** A and B are 1 |\n| $A+B$ | **OR** | `A + B` | True if **either** A or B is 1 |\n| $\\overline{A}$ | **NOT** / complement | $\\overline{A}$ | True if A is 0, False if A is 1 |\n| `( )` | Brackets / grouping | `(A + B)·C` | Do A OR B **first**, then AND with C |"
+   "md": "| **Symbol** | **Meaning** | **Example** | **Explanation** |\n|---|---|---|---|\n| $A \\times B$  or `AB` | **AND** | `A · B` | True only if **both** A and B are 1 |\n| $A+B$ | **OR** | `A + B` | True if **either** A or B is 1 |\n| $\\overline{A}$ | **NOT** / complement | $\\overline{A}$ | True if A is 0, False if A is 1 |\n| `( )` | Brackets / grouping | `(A + B)·C` | Do A OR B **first**, then AND with C |"
   },
   {
    "type": "callout",
@@ -185,7 +185,7 @@
   },
   {
    "type": "bullets",
-   "md": "- De Morgan’s Laws are used to **simplify Boolean expressions** involving **negation** of **conjunctions (AND)** or **disjunctions (OR)**\n- They are particularly useful for rewriting logic circuits using only **NAND** or **NOR** gates\n- There are two key rules:\n\n  1. **NOT (A AND B)** is equivalent to **(NOT A) OR (NOT B)** $\\overline{A.B}=\\overline{A}+\\overline{B}$\n  2. **NOT (A OR B)** is equivalent to **(NOT A) AND (NOT B)** `stack A space plus space B with bar on top equals top enclose A space. space top enclose B`"
+   "md": "- De Morgan’s Laws are used to **simplify Boolean expressions** involving **negation** of **conjunctions (AND)** or **disjunctions (OR)**\n- They are particularly useful for rewriting logic circuits using only **NAND** or **NOR** gates\n- There are two key rules:\n\n  1. **NOT (A AND B)** is equivalent to **(NOT A) OR (NOT B)** $\\overline{A.B}=\\overline{A}+\\overline{B}$\n  2. **NOT (A OR B)** is equivalent to **(NOT A) AND (NOT B)** `A + B -bar = top A . top B`"
   },
   {
    "type": "heading",
@@ -194,7 +194,7 @@
   },
   {
    "type": "table",
-   "md": "| **Step** | **Explanation** | **Expression** |\n|---|---|---|\n| Step 1 | Start with the original expression | `top enclose A space. space B end enclose` |\n| Step 2 | Apply De Morgan’s Law: change ∧ to ∨ and negate both terms | `top enclose A plus top enclose B` |\n| Step 3 | Remove unnecessary brackets | `top enclose A plus top enclose B` |"
+   "md": "| **Step** | **Explanation** | **Expression** |\n|---|---|---|\n| Step 1 | Start with the original expression | `top A . B` |\n| Step 2 | Apply De Morgan’s Law: change ∧ to ∨ and negate both terms | $\\vec{A} + \\vec{B}$ |\n| Step 3 | Remove unnecessary brackets | $\\vec{A} + \\vec{B}$ |"
   },
   {
    "type": "heading",
@@ -203,7 +203,7 @@
   },
   {
    "type": "table",
-   "md": "| **Step** | **Explanation** | **Expression** |\n|---|---|---|\n| Step 1 | Start with the original expression | `top enclose A plus B end enclose` |\n| Step 2 | Apply De Morgan’s Law: change ∨ to ∧ and negate both terms | `top enclose A. top enclose B` |\n| Step 3 | Remove unnecessary brackets | `top enclose A. top enclose B` |"
+   "md": "| **Step** | **Explanation** | **Expression** |\n|---|---|---|\n| Step 1 | Start with the original expression | `top A + B` |\n| Step 2 | Apply De Morgan’s Law: change ∨ to ∧ and negate both terms | $\\vec{A} . \\vec{B}$ |\n| Step 3 | Remove unnecessary brackets | $\\vec{A} . \\vec{B}$ |"
   },
   {
    "type": "heading",

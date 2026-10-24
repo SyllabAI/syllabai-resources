@@ -23,12 +23,12 @@ Simplify        $\frac{x+1}{2}+\frac{x+3}{3}$
 ## Q4 — medium — 2 marks · exam-questions
 
 ### 23() — 2 marks — command: simplify — structured — from paper 2013	June · 1MA0/1H
-Simplify   `fraction numerator 4 open parentheses x plus 5 close parentheses over denominator x squared space plus 2 x minus 15 end fraction`
+Simplify   $\frac{4 ( x + 5 )}{x^{2} + 2 x - 15}$
 
 ## Q5 — medium — 1 marks · exam-questions
 
 ### 17((a)) — 1 mark — command: simplify — structured — from paper 2017	June · 1MA0/2H
-Simplify       `fraction numerator 3 open parentheses x plus 1 close parentheses over denominator open parentheses x plus 1 close parentheses squared end fraction`
+Simplify       $\frac{3 ( x + 1 )}{( x + 1 )^{2}}$
 
 ## Q6 — medium — 3 marks · exam-questions
 
@@ -160,7 +160,7 @@ Write $\frac{4}{x+2}+\frac{3}{x-2}$  as a single fraction in its simplest form.
 ## Q25 — hard — 2 marks · exam-questions
 
 ### 15() — 2 marks — command: prove — structured — from paper 2015	Spec2 · 1MA1/3H
-Show that  `fraction numerator a over denominator b plus 1 end fraction minus a over open parentheses b plus 1 close parentheses squared` can be written as  `fraction numerator a b over denominator open parentheses b plus 1 close parentheses squared end fraction`
+Show that  $\frac{a}{b + 1} - \frac{a}{( b + 1 )^{2}}$ can be written as  $\frac{a b}{( b + 1 )^{2}}$
 
 ## Q26 — hard — 3 marks · exam-questions
 
@@ -205,7 +205,7 @@ Show that $\frac{x+9}{x^{2}-1}+\frac{4}{x+1}$ can be written in the form $\frac{
 ## Q32 — hard — 6 marks · exam-questions
 
 ### 21() — 6 marks — command: prove — structured — from paper Nov 2018 · J560/06
-Show that `fraction numerator 5 x over denominator x plus 5 end fraction plus fraction numerator 25 over denominator x minus 7 end fraction minus fraction numerator 300 over denominator open parentheses x plus 5 close parentheses open parentheses x minus 7 close parentheses end fraction` simplifies to an integer.
+Show that $\frac{5 x}{x + 5} + \frac{25}{x - 7} - \frac{300}{( x + 5 ) ( x - 7 )}$ simplifies to an integer.
 
 ## Q33 — hard — 3 marks · exam-questions
 
@@ -219,7 +219,7 @@ Show clear algebraic working
 ## Q34 — very_hard — 4 marks · exam-questions
 
 ### 1() — 4 marks — command: show — structured
-Write `fraction numerator 2 over denominator 4 x minus 3 end fraction minus open parentheses x plus 4 close parentheses divided by open parentheses fraction numerator 2 x squared plus 13 x plus 20 over denominator 5 end fraction close parentheses` as a single fraction in its simplest form. Show clear algebraic working.
+Write $\frac{2}{4 x - 3} - ( x + 4 ) \div ( \frac{2 x^{2} + 13 x + 20}{5} )$ as a single fraction in its simplest form. Show clear algebraic working.
 
 ## Q35 — very_hard — 4 marks · exam-questions
 
@@ -248,7 +248,7 @@ Write $\frac{x}{x-1}-\frac{x}{x+1}$ as a single fraction in its simplest form.
 ### 14() — 4 marks — command: write — structured — from paper 2015	Spec1 · 1MA1/3H
 Write
 
-`4 space minus space open square brackets open parentheses x plus 3 close parentheses divided by fraction numerator x squared space plus space 5 x space plus 6 over denominator x minus 2 end fraction close square brackets`
+$4 - [ ( x + 3 ) \div \frac{x^{2} + 5 x + 6}{x - 2} ]$
 
 as a single fraction in its simplest form. 
 You must show your working.
@@ -261,12 +261,12 @@ Show that  $\frac{3x+6}{x^{2}-3x-10}\div\frac{x+5}{x^{3}-25x}$ simplifies to $ax
 ## Q40 — very_hard — 4 marks · exam-questions
 
 ### 13() — 4 marks — structured — from paper June 2019 · 1MA1/2H
-Show that `6 plus space open square brackets open parentheses x plus 5 close parentheses space divided by space fraction numerator x to the power of 2 space end exponent plus space 3 x space minus 10 over denominator x minus 1 end fraction close square brackets`  simplifies to $\frac{ax-b}{cx-d}$  where $a,b,c$ and $d$ are integers.
+Show that $6 + [ ( x + 5 ) \div \frac{x^{2 } + 3 x - 10}{x - 1} ]$  simplifies to $\frac{ax-b}{cx-d}$  where $a,b,c$ and $d$ are integers.
 
 ## Q41 — very_hard — 4 marks · exam-questions
 
 ### 21() — 4 marks — command: write — structured — from paper Jan 2021 · 4MA1/2H
-Write `fraction numerator 25 x squared minus 64 over denominator 5 x squared minus 13 x minus 6 end fraction cross times fraction numerator x squared minus 8 x plus 15 over denominator 5 x plus 8 end fraction minus open parentheses x minus 7 close parentheses`
+Write $\frac{25 x^{2} - 64}{5 x^{2} - 13 x - 6} \times \frac{x^{2} - 8 x + 15}{5 x + 8} - ( x - 7 )$
 
 as a single fraction in its simplest form.
 
@@ -344,13 +344,13 @@ $x$ = ........... or $x$ = ...........
 ## Q50 — very_hard — 4 marks · exam-questions
 
 ### 21() — 4 marks — command: write — structured — from paper Specimen paper · 4MA1/2H
-Write `fraction numerator 5 over denominator 4 x squared minus 25 end fraction minus open parentheses 2 x plus 3 close parentheses divided by open parentheses fraction numerator 4 x squared plus 16 x plus 15 over denominator 7 end fraction close parentheses`  as a single fraction in its simplest form.
+Write $\frac{5}{4 x^{2} - 25} - ( 2 x + 3 ) \div ( \frac{4 x^{2} + 16 x + 15}{7} )$  as a single fraction in its simplest form.
 
 Show clear algebraic working
 
 ## Q51 — very_hard — 5 marks · exam-questions
 
 ### 24() — 5 marks — command: solve — structured — from paper 2023 Nov · 4MA1/2H
-Solve `fraction numerator 45 x cubed minus 80 x over denominator 3 x squared plus x minus 4 end fraction cross times open parentheses fraction numerator 1 over denominator 3 x minus 4 end fraction plus 1 over x close parentheses equals fraction numerator 4 open parentheses x plus 2 close parentheses over denominator 5 x minus 8 end fraction`
+Solve $\frac{45 x^{3} - 80 x}{3 x^{2} + x - 4} \times ( \frac{1}{3 x - 4} + \frac{1}{x} ) = \frac{4 ( x + 2 )}{5 x - 8}$
 
 Show clear algebraic working.

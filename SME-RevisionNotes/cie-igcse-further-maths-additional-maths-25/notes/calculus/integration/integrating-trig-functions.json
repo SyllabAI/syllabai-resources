@@ -142,11 +142,11 @@
   },
   {
    "type": "paragraph",
-   "md": "`bold space bold integral bold sin bold space bold italic x bold space bold d bold italic x bold equals bold minus bold cos bold space bold italic x bold plus bold italic c`"
+   "md": "$\\int \\sin x d x = - \\cos x + c$"
   },
   {
    "type": "paragraph",
-   "md": "`bold space bold integral bold cos bold space bold italic x bold space bold d bold italic x bold equals bold sin bold space bold italic x bold plus bold italic c`"
+   "md": "$\\int \\cos x d x = \\sin x + c$"
   },
   {
    "type": "paragraph",
@@ -158,7 +158,7 @@
   },
   {
    "type": "paragraph",
-   "md": "`bold space bold integral bold sec to the power of bold 2 bold space bold italic x bold space bold d bold italic x bold equals bold tan bold space bold italic x bold plus bold italic c`"
+   "md": "$\\text{integral} \\text{sec} ^{ } 2 x d x = \\text{tan} x + c$"
   },
   {
    "type": "bullets",
@@ -166,15 +166,15 @@
   },
   {
    "type": "paragraph",
-   "md": "`bold space bold integral bold sin bold space bold left parenthesis bold italic a bold italic x bold plus bold italic b bold right parenthesis bold space bold d bold italic x bold equals bold minus bold 1 over bold italic a bold cos bold space bold left parenthesis bold italic a bold italic x bold plus bold italic b bold right parenthesis bold plus bold italic c`"
+   "md": "$\\text{integral} \\text{sin} ( a x + b ) d x = - \\frac{1}{ } a \\text{cos} ( a x + b ) + c$"
   },
   {
    "type": "paragraph",
-   "md": "`bold space bold integral bold cos bold space bold left parenthesis bold italic a bold italic x bold plus bold italic b bold right parenthesis bold space bold d bold italic x bold equals bold 1 over bold italic a bold sin bold space bold left parenthesis bold italic a bold italic x bold plus bold italic b bold right parenthesis bold plus bold italic c`"
+   "md": "$\\text{integral} \\text{cos} ( a x + b ) d x = \\frac{1}{ } a \\text{sin} ( a x + b ) + c$"
   },
   {
    "type": "paragraph",
-   "md": "`bold space bold integral bold sec to the power of bold 2 bold space bold left parenthesis bold italic a bold italic x bold plus bold italic b bold right parenthesis bold space bold d bold italic x bold equals bold 1 over bold italic a bold tan bold left parenthesis bold italic a bold italic x bold plus bold italic b bold right parenthesis bold plus bold italic c`"
+   "md": "$\\text{integral} \\text{sec} ^{ } 2 ( a x + b ) d x = \\frac{1}{ } a \\text{tan} ( a x + b ) + c$"
   },
   {
    "type": "bullets",
@@ -190,7 +190,7 @@
    "type": "callout",
    "variant": "worked-example",
    "label": "Worked Example",
-   "md": "a) Find, in the form$f(x)+c$, an expression for each integral\n\ni. `space integral cos space x space straight d x`\n\nii. `space integral sec squared space stretchy left parenthesis 3 x minus straight pi over 3 stretchy right parenthesis space straight d x`\n\n*i.*   *This is a result you should be able to recall from memory.*\n\n`space integral cos space x space straight d x space equals space bold sin bold space bold italic x bold space bold plus bold thin space bold italic c`\n\n*ii.*   *Use the standard result: *`integral sec to the power of 2 space end exponent open parentheses a x plus b close parentheses space d x space equals fraction numerator space 1 over denominator a end fraction tan open parentheses a x plus b close parentheses space plus space c space.`\n\n`equation`\n\nb) A curve has the following equation:\n\n`space y equals integral 2 sin open parentheses 2 x plus straight pi over 6 close parentheses space straight d x`\n\nThe curve passes through the point with coordinates `space open parentheses straight pi over 3 comma space square root of 3 close parentheses.`\n\nFind an expression for $y.$\n\n*Factor out the 2 in front of the sin first, and then use the standard result: *`integral sin open parentheses a x plus b close parentheses d x equals negative 1 over a cos open parentheses a x plus b close parentheses space plus c space.`* *\n\n`y equals 2 integral sin open parentheses 2 x plus straight pi over 6 close parentheses d x\ny equals 2 open parentheses negative 1 half cos open parentheses 2 x plus straight pi over 6 close parentheses plus c close parentheses`\n\n*When multiplying the arbitrary constant *$c$*, by 2, it is still just an arbitrary constant and so it is still just written as *$c.$* *\n\n`y equals minus cos open parentheses 2 x plus straight pi over 6 close parentheses plus c`\n\n*Substitute in the given coordinate, and evaluate, to find *$c.$* *\n\n*At* $x=\\frac{π}{3},y=\\sqrt{3}$\n\n`square root of 3 equals negative cos open parentheses fraction numerator 2 straight pi over denominator 3 end fraction plus straight pi over 6 close parentheses plus c\nsquare root of 3 equals negative cos open parentheses fraction numerator 5 straight pi over denominator 6 end fraction close parentheses plus c\nsquare root of 3 equals fraction numerator square root of 3 over denominator 2 end fraction plus c\nc equals fraction numerator square root of 3 over denominator 2 end fraction`\n\n*Rewrite the full expression for *$y.$\n\n$y=-\\mathrm{cos}(2x+\\frac{π}{6})+\\frac{\\sqrt{3}}{2}$"
+   "md": "a) Find, in the form$f(x)+c$, an expression for each integral\n\ni. $\\int \\cos x \\mathrm{d} x$\n\nii. `integral sec ^2 stretchy ( 3 x - pi / 3 stretchy ) d x`\n\n*i.*   *This is a result you should be able to recall from memory.*\n\n$\\int \\cos x \\mathrm{d} x = \\sin x + c$\n\n*ii.*   *Use the standard result: *$\\int \\sec ^{2 } ( a x + b ) d x = \\frac{ 1}{a} \\tan ( a x + b ) + c .$\n\n`equation`\n\nb) A curve has the following equation:\n\n`y = integral 2 sin ( 2 x + pi / 6 ) d x`\n\nThe curve passes through the point with coordinates `( pi / 3 , sqrt( 3 ).`\n\nFind an expression for $y.$\n\n*Factor out the 2 in front of the sin first, and then use the standard result: *$\\int \\sin ( a x + b ) d x = - \\frac{1}{a} \\cos ( a x + b ) + c .$* *\n\n`y = 2 integral sin ( 2 x + pi / 6 ) d x y = 2 ( - 1 half cos ( 2 x + pi / 6 ) + c )`\n\n*When multiplying the arbitrary constant *$c$*, by 2, it is still just an arbitrary constant and so it is still just written as *$c.$* *\n\n`y = - cos ( 2 x + pi / 6 ) + c`\n\n*Substitute in the given coordinate, and evaluate, to find *$c.$* *\n\n*At* $x=\\frac{π}{3},y=\\sqrt{3}$\n\n`sqrt( 3 = - cos ( (2 pi)/(3) + pi / 6 ) + c sqrt( 3 = - cos ( (5 pi)/(6) ) + c sqrt( 3 = (sqrt( 3)/(2) + c c = (sqrt( 3)/(2)`\n\n*Rewrite the full expression for *$y.$\n\n$y=-\\mathrm{cos}(2x+\\frac{π}{6})+\\frac{\\sqrt{3}}{2}$"
   }
  ]
 }

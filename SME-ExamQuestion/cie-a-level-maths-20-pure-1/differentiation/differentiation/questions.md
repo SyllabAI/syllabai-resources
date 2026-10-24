@@ -166,7 +166,7 @@ $y = \frac{2x^{3}-5x^{2}-3x}{2x+1}$
 
 **Q16** [4 marks]
 
-`y equals open parentheses square root of x plus 3 minus fraction numerator 4 over denominator square root of x end fraction close parentheses squared`
+$y = ( \sqrt{x} + 3 - \frac{4}{ \sqrt{x} } )^{2}$
 
 ### Q17 — very_hard — 5 marks
 

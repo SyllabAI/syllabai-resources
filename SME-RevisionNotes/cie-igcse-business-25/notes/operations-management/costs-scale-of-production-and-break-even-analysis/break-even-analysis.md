@@ -114,7 +114,7 @@ interpret a break-even chart"
 
 - The break-even point can be **calculated using the formula**
 
-`space Breakeven space point space equals space fraction numerator Fixed space costs over denominator open parentheses Selling space price space minus space Variable space cost space per space unit close parentheses end fraction`
+$\text{Breakeven} \text{point} = \frac{Fixed costs}{( \text{Selling} \text{price} - \text{Variable} \text{cost} \text{per} \text{unit} )}$
 
 > **Worked Example**
 > Mięsisty Burgers has the following financial information for the month of May
@@ -132,11 +132,7 @@ interpret a break-even chart"
 > 
 > **Step 1: Calculate the variable costs per burger**
 > 
-> `Variable space cost space per space burger space equals space Raw space materials space plus space Packaging
-> 
-> equals space € 2.10 space plus space € 0.20 space
-> 
-> equals space € 2.30`**      **** (1)**
+> $Variable \text{cost} \text{per} \text{burger} = Raw \text{materials} + Packaging > > = \text{€} 2.10 + \text{€} 0.20 > > = \text{€} 2.30$**      **** (1)**
 > 
 > **Step 2: Substitute the values into the break-even formula**
 > 

@@ -36,7 +36,7 @@ The distance, to the nearest mm, that the liquid in the U-tube moved in the 20 m
 The respiratory quotient (RQ) of the mungbean seeds is calculated as follows:
 
 - Rate of oxygen consumption = 4 (from part b) **AND** rate of CO<sub>2</sub> production = 0.72; **[1 mark]**
-- `RQ space equals space fraction numerator net space CO subscript 2 space produced over denominator straight O subscript 2 space consumed end fraction equals space fraction numerator 4 plus space open parentheses negative 0.72 close parentheses over denominator 4 end fraction equals fraction numerator 3.28 over denominator 4 end fraction equals 0.82`; **[1 mark]**
+- $\text{RQ} = \frac{net CO_{2} produced}{ \mathrm{O}_{2} consumed} = \frac{4 + ( - 0.72 )}{4} = \frac{3.28}{4} = 0.82$; **[1 mark]**
 
 **[Total: 2 marks]**
 

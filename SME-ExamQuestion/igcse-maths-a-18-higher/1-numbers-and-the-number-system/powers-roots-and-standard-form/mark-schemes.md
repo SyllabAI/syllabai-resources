@@ -32,13 +32,13 @@ $-5,5^{-1},0.5,5^{0}$** **** **
 ## Q2 — easy — 1 marks · exam-questions
 
 ### 11() — 1 marks
-> *Simplify using the index law: *`a to the power of m n end exponent space equals open parentheses a to the power of m close parentheses to the power of n`*.*
+> *Simplify using the index law: *$a^{m n} = ( a^{m} )^{n}$*.*
 
-`open parentheses 125 close parentheses to the power of 2 over 3 end exponent space equals 125 to the power of blank to the power of 1 third cross times 2 end exponent end exponent to the power of space equals space open parentheses open parentheses 125 close parentheses to the power of 1 third end exponent close parentheses squared`
+$( 125 )^{ \frac{2}{3} } = 125^{^{1 \frac{1}{3} \times 2}}^{ = ( ( 125 )^{1} \frac{1}{3}} )^{2}$
 
-> *Simplify using the index law:  *`a to the power of 1 third end exponent space equals cube root of a`* and 5*<sup>*3*</sup>* = 125.*
+> *Simplify using the index law:  *$a^{1 \frac{1}{3}} = \sqrt[3]{a}$* and 5*<sup>*3*</sup>* = 125.*
 
-`open parentheses cube root of 125 close parentheses squared space equals space open parentheses 5 close parentheses squared`
+$( \sqrt[3]{125} )^{2} = ( 5 )^{2}$
 
 **25**** [1]**
 
@@ -88,7 +88,7 @@ $7.5\times10^{4}\times2.5\times10^{3}=187500000$
 
 > *Convert to standard form. Standard form will be written as **a** × 10*<sup>*n*</sup>*, **where 1 ≤ **a **< 10, therefore **a **= 1.875.*
 
-`table row cell 187500000 space end cell equals cell space 1.875 space cross times space 100000000 end cell row blank equals cell 1.875 space cross times space 10 to the power of 8 end cell end table`
+$\begin{gathered} 187500000 & = 1.875 \times 100000000 \\ = 1.875 \times 10^{8} \end{gathered}$
 
 **1.875 × 10**<sup>**8**</sup>** ****[1]**
 
@@ -188,9 +188,9 @@ $m=9$ **[1] **
 **Note that the answer is the value of ****m****, not "3**<sup>**9**</sup>**"**
 
 ### 1((b)) — 1 marks
-> *Use the law of indices that *`open parentheses x to the power of a close parentheses to the power of b equals x to the power of a b end exponent`*.*
+> *Use the law of indices that *$( x^{a )^{b} = x^{a} b}$*.*
 
-`open parentheses 5 cubed close parentheses to the power of 7 equals 5 to the power of 3 cross times 7 end exponent equals 5 to the power of 21`
+$( 5^{3} )^{7 = 5^{3} \times 7} = 5^{21}$
 
 > *Write the value of *$n$*.*
 
@@ -200,17 +200,17 @@ $n=21$ **[1] **
 ### 1((c)) — 2 marks
 > *Use the index law that *$x^{a}\timesx^{b}=x^{a+b}$* to simplify the numerator.*
 
-`table row cell 7 to the power of 10 over 7 to the power of p end cell equals cell 7 to the power of 6 end cell end table`
+`| 7 ^ 10 / 7 ^ p | = 7 ^ 6 | |`
 
 **[1]**
 
 > *Rearrange so that 7*<sup>*p*</sup>* appears on its own side.*
 
-`table row cell 7 to the power of 10 end cell equals cell 7 to the power of 6 cross times 7 to the power of p end cell row cell 7 to the power of 10 over 7 to the power of 6 end cell equals cell 7 to the power of p end cell end table`
+`| 7 ^ 10 | = 7 ^ 6 x 7 ^ p | | 7 ^ 10 / 7 ^ 6 | = 7 ^ p | |`
 
 > *And use the index law that *$\frac{x^{a}}{x^{b}}=x^{a-b}$* to simplify the left hand side to a single power of 7.*
 
-`table row cell 7 to the power of 4 end cell equals cell 7 to the power of p end cell end table`
+$\begin{gathered} 7^{4} & = 7^{p} \end{gathered}$
 
 > *Write the value of *$p$*.*
 
@@ -259,13 +259,13 @@ $p=4$ **[1]**
 ### 4() — 1 marks
 > *Let's use a test value of **a** = -2, which satisfies **a** < -1*
 
-*The first option, *`1 half a equals 1 half open parentheses negative 2 close parentheses equals negative 1`
+*The first option, *$1 \frac{1}{2} a = 1 \frac{1}{2} ( - 2 ) = - 1$
 
 *The second option, *$a=-2$
 
-*The third option, *`a squared equals open parentheses negative 2 close parentheses squared equals 4`
+*The third option, *$a^{2} = ( - 2 )^{2} = 4$
 
-*The fourth option, *`a cubed equals open parentheses negative 2 close parentheses cubed equals negative 8`
+*The fourth option, *$a^{3} = ( - 2 )^{3} = - 8$
 
 **The third option, **$a^{2}$**, is the largest value ****[1]**
 
@@ -296,7 +296,7 @@ $p=4$ **[1]**
 ### 1((b)) — 1 marks
 > *You should be able to enter this calculation directly into your calculator, but you may also wish to rewrite it as follows to make it easier to work out*
 
-`open parentheses 4.2 space cross times 10 to the power of 5 close parentheses cross times open parentheses 1.8 cross times 10 to the power of negative 2 end exponent close parentheses space equals space 4.2 space cross times space 1.8 space cross times space 10 to the power of 5 space cross times space 10 to the power of negative 2 end exponent`
+$( 4.2 \times 10^{5 ) \times ( 1.8 \times 10^{-2} } ) = 4.2 \times 1.8 \times 10^{5 \times 10^{-2} }$
 
 > *Combining the first two terms*
 
@@ -420,7 +420,7 @@ $8.4\times10^{7}$
 ### 9((c)) — 2 marks
 > $K$* is the number of times the number of neurons in a monkey brain needs to be multiplied to get the number of neurons in a human brain. Use the inverse operation to work it out*
 
-`open parentheses 8.5 space cross times space 10 to the power of 10 close parentheses space divided by space open parentheses 1.47 space cross times space 10 to the power of 9 close parentheses`
+$( 8.5 \times 10^{10} ) \div ( 1.47 \times 10^{9} )$
 
 **[M1]**
 
@@ -563,18 +563,18 @@ $0.00273,27.3\times10^{-3},2.73\times10^{3},273\times10^{2}$** **** **
 ### 10((a)) — 1 marks
 > *Simplify using the index law:  *$a^{\frac{1}{2}}=\sqrt{a}$* and 10*<sup>*2*</sup>* = 100.*
 
-`root index blank of 100 space equals space 10`
+`sqrt index _ of 100 = 10`
 
 **10**** [1]**
 
 ### 10((b)) — 2 marks
-> *Simplify using the index law: *`a to the power of m n end exponent space equals open parentheses a to the power of m close parentheses to the power of n`*.*
+> *Simplify using the index law: *$a^{m n} = ( a^{m} )^{n}$*.*
 
-`open parentheses 125 close parentheses to the power of 2 over 3 end exponent space equals 125 to the power of blank to the power of 1 third cross times 2 end exponent end exponent to the power of space equals space open parentheses open parentheses 125 close parentheses to the power of 1 third end exponent close parentheses squared`
+$( 125 )^{ \frac{2}{3} } = 125^{^{1 \frac{1}{3} \times 2}}^{ = ( ( 125 )^{1} \frac{1}{3}} )^{2}$
 
-> *Simplify using the index law:  *`a to the power of 1 third end exponent space equals cube root of a`* and 5*<sup>*3*</sup>* = 125.*
+> *Simplify using the index law:  *$a^{1 \frac{1}{3}} = \sqrt[3]{a}$* and 5*<sup>*3*</sup>* = 125.*
 
-`open parentheses cube root of 125 close parentheses squared space equals space open parentheses 5 close parentheses squared`
+$( \sqrt[3]{125} )^{2} = ( 5 )^{2}$
 
 **25**** [1]**
 
@@ -583,7 +583,7 @@ $0.00273,27.3\times10^{-3},2.73\times10^{3},273\times10^{2}$** **** **
 ### 9((a)) — 1 marks
 > *Simplify using the index law:  *$a^{\frac{1}{2}}=\sqrt{a}$* and 6*<sup>*2*</sup>* = 36.*
 
-`root index blank of 36 space equals space 6`
+`sqrt index _ of 36 = 6`
 
 **6**** [1]**
 
@@ -595,17 +595,17 @@ $0.00273,27.3\times10^{-3},2.73\times10^{3},273\times10^{2}$** **** **
 ### 9((c)) — 2 marks
 > *Simplify using the index law: *$a^{-x}=\frac{1}{a^{x}}.$* *
 
-`open parentheses 27 close parentheses to the power of negative 2 over 3 end exponent equals 1 over open parentheses 27 close parentheses to the power of 2 over 3 end exponent space`
+$( 27 ) ^{ - } \frac{2}{3} = \frac{1}{open} \text{parentheses} 27 ) ^{\frac{2}{3}}$
 
 **[1]**
 
-> *Simplify using the index law: *`a to the power of m n end exponent space equals open parentheses a to the power of m close parentheses to the power of n`*.*
+> *Simplify using the index law: *$a^{m n} = ( a^{m} )^{n}$*.*
 
 $\frac{1}{27^{^{\frac{2}{3}}}}=\frac{1}{27^{^{\frac{1}{3}\times2}}}^{}$
 
-> *Simplify using the index law:  *`a to the power of 1 third end exponent space equals cube root of a`* and 3*<sup>*3*</sup>* = 27.*
+> *Simplify using the index law:  *$a^{1 \frac{1}{3}} = \sqrt[3]{a}$* and 3*<sup>*3*</sup>* = 27.*
 
-`1 over open parentheses cube root of 27 close parentheses squared space equals space 1 over 3 squared`
+$\frac{1}{( \sqrt[3]{27} )^{2}} = \frac{1}{3^{2}}$
 
 $\frac{1}{9}$**[1]**
 
@@ -644,13 +644,13 @@ $\frac{4.35\times10^{9}}{4.14\times10^{7}}=105.072...$
 ### 7() — 2 marks
 > *You should be able to type directly into your calculator.*
 
-`table row cell open parentheses 13.8 cross times 10 to the power of 7 close parentheses space cross times open parentheses 5.4 cross times 10 to the power of negative 12 end exponent close parentheses space end cell equals cell space 7.452 cross times 10 to the power of negative 4 end exponent end cell end table`
+$\begin{gathered} ( 13.8 \times 10^{7 ) \times ( 5.4 \times 10^{-12} } ) & = 7.452 \times 10^{- 4} \end{gathered}$
 
 **[1]**
 
 > *Convert to an ordinary number.*
 
-`table row cell 7.452 cross times 10 to the power of negative 4 end exponent space end cell equals cell space 7.452 space cross times space 0.0001 space equals space 0.0007452 end cell end table`
+$\begin{gathered} 7.452 \times 10^{- 4} & = 7.452 \times 0.0001 = 0.0007452 \end{gathered}$
 
 $0.0007452$**[1]**
 
@@ -674,13 +674,13 @@ $6.7\times0.00001=0.000067$
 ### 17((c)) — 2 marks
 > *Evaluate the number parts first by multiplying 3 by 9.*
 
-`table row cell open parentheses 3 space cross times space 10 to the power of 7 close parentheses space cross times space open parentheses 9 space cross times space 10 to the power of 6 close parentheses space end cell equals cell space open parentheses 3 space cross times space 9 close parentheses space cross times space open parentheses 10 to the power of 7 space cross times space 10 to the power of 6 close parentheses end cell row blank equals cell space 27 space cross times space open parentheses 10 to the power of 7 space cross times space 10 to the power of 6 close parentheses end cell end table`
+$\begin{gathered} ( 3 \times 10^{7} ) \times ( 9 \times 10^{6} ) & = ( 3 \times 9 ) \times ( 10^{7} \times 10^{6} ) \\ = 27 \times ( 10^{7} \times 10^{6} ) \end{gathered}$
 
 **[1]**
 
 > *Evaluate the powers using the law of indices **a*<sup>*m*</sup>* × a*<sup>*n *</sup>*= **a*<sup>*m+n*</sup>*.*
 
-`27 cross times space open parentheses 10 to the power of 7 space end exponent cross times space 10 to the power of 6 close parentheses equals 27 cross times 10 to the power of open parentheses 7 plus 6 close parentheses end exponent space equals 27 space cross times space 10 to the power of 13`
+$27 \times ( 10^{7 } \times 10^{6 ) = 27 \times 10^{(} \text{parentheses} 7 + 6 )} = 27 \times 10^{13}$
 
 > *This is not in standard form as **a** is not in the interval 1 ≤ **a **< 10. Convert to standard form by first converting 27 to standard form.*
 
@@ -695,13 +695,13 @@ $6.7\times0.00001=0.000067$
 ### 14((c)) — 2 marks
 > *Evaluate the number parts first by multiplying 3 by 9.*
 
-`table row cell 9 space cross times space 10 to the power of 4 space cross times space 3 space cross times space 10 cubed space end cell equals cell space 9 space cross times space 3 space cross times space 10 to the power of 4 space cross times space 10 cubed end cell row blank equals cell space 27 space cross times space open parentheses 10 to the power of 4 space cross times space 10 cubed close parentheses end cell end table`
+$\begin{gathered} 9 \times 10^{4} \times 3 \times 10^{3} & = 9 \times 3 \times 10^{4} \times 10^{3} \\ = 27 \times ( 10^{4} \times 10^{3} ) \end{gathered}$
 
 **[1]**
 
 > *Evaluate the powers using the law of indices **a*<sup>*m*</sup>* × a*<sup>*n *</sup>*= **a*<sup>*m+n*</sup>*.*
 
-`27 cross times space open parentheses 10 to the power of 4 space end exponent cross times space 10 cubed close parentheses equals 27 cross times 10 to the power of open parentheses 4 plus 3 close parentheses end exponent space equals 27 space cross times space 10 to the power of 7`
+$27 \times ( 10^{4 } \times 10^{3} ) = 27 \times 10^{( 4 + 3 )} = 27 \times 10^{7}$
 
 > *This is not in standard form as **a** is not in the interval 1 ≤ **a **< 10. Convert to standard form by first converting 27 to standard form.*
 
@@ -716,13 +716,13 @@ $6.7\times0.00001=0.000067$
 ### 9() — 2 marks
 > *Evaluate the number parts first by multiplying 3 by 9.*
 
-`table row cell open parentheses 9 space cross times space 10 to the power of negative 4 end exponent close parentheses space cross times space open parentheses 3 space cross times space 10 to the power of 7 close parentheses space end cell equals cell space open parentheses 9 space cross times space 3 close parentheses space cross times space open parentheses 10 to the power of negative 4 end exponent space cross times space 10 to the power of 7 close parentheses end cell row blank equals cell space 27 space cross times space open parentheses 10 to the power of negative 4 end exponent space cross times space 10 to the power of 7 close parentheses end cell end table`
+$\begin{gathered} ( 9 \times 10^{- 4} ) \times ( 3 \times 10^{7 ) & = ( 9 \times 3 ) \times ( 10^{-4} } \times 10^{7 ) \\ = 27 \times ( 10^{-4} } \times 10^{7} ) \end{gathered}$
 
 **[1]**
 
 > *Evaluate the powers using the law of indices **a*<sup>*m*</sup>* × a*<sup>*n *</sup>*= **a*<sup>*m+n*</sup>*.*
 
-`27 cross times space open parentheses 10 to the power of negative 4 end exponent cross times space 10 to the power of 7 close parentheses equals 27 cross times 10 to the power of open parentheses negative 4 plus 7 close parentheses end exponent space equals 27 space cross times space 10 cubed`
+$27 \times ( 10^{- 4} \times 10^{7 ) = 27 \times 10^{(} \text{parentheses} - 4 + 7 )} = 27 \times 10^{3}$
 
 > *This is not in standard form as **a** is not in the interval 1 ≤ **a **< 10. Convert to standard form by first converting 27 to standard form.*
 
@@ -789,42 +789,42 @@ $64^{\frac{1}{4}}$** means **`fourth root of 64`** not **$\frac{1}{4}\times64$ *
 ### 10((b)) — 1 marks
 > *Form an equation from the information.*
 
-`table row cell surface space area space of space Pacific space Ocean end cell equals cell k cross times open square brackets surface space area space of space Arctic space Ocean close square brackets end cell row cell 1.56 cross times 10 to the power of 8 end cell equals cell k open parentheses 1.41 cross times 10 to the power of 7 close parentheses end cell end table`
+$\begin{array}{ccc} \text{surface} \text{area} of Pacific Ocean & = & k \times [ \text{surface} \text{area} of Arctic Ocean ] \\ 1.56 \times 10^{8} & = & k ( 1.41 \times 10^{7} ) \end{array}$
 
 > *Solve the equation by dividing both sides by 1.41 × 10*<sup>*7*</sup>*.*
 
-`table row k equals cell fraction numerator 1.56 cross times 10 to the power of 8 over denominator 1.41 cross times 10 to the power of 7 end fraction equals open parentheses 1.56 cross times 10 to the power of 8 close parentheses divided by open parentheses 1.41 cross times 10 to the power of 7 close parentheses end cell end table`
+$\begin{gathered} k = \frac{1.56 \times 10^{8} }{1.41 \times 10^{7} } = ( 1.56 \times 10^{8} ) \div ( 1.41 \times 10^{7} ) \end{gathered}$
 
 > *Type this directly into your calculator, in either of the two forms above.*
 
-`table attributes columnalign right center left columnspacing 0px end attributes row k equals cell 11.06382979... end cell end table`
+$\begin{array}{rcl} k = 11.06382979... \end{array}$
 
 > *Round your answer to the nearest whole number as requested.*
 
-`table row bold italic k bold equals bold 11 end table`* ***[1]**
+$\begin{gathered} k = 11 \end{gathered}$* ***[1]**
 
 ## Q35 — medium — 3 marks · exam-questions
 
 ### 14() — 3 marks
 > *Rewrite 8 as 2*<sup>*3*</sup>
 
-`open parentheses fourth root of 2 cubed end root close parentheses to the power of 5`
+$( \sqrt[4]{2^{3}} )^{5}$
 
 **[1]**
 
 > *A fourth-root, *`fourth root of blank`*, can be rewritten as a power of *$\frac{1}{4}$
 
-`open parentheses open parentheses 2 cubed close parentheses to the power of 1 fourth end exponent close parentheses to the power of 5`
+$( ( 2^{3} )^{1 \frac{1}{4}} )^{5}$
 
-> *Use the law of indices; *`open parentheses x to the power of m close parentheses to the power of n equals x to the power of m cross times n end exponent`
+> *Use the law of indices; *$( x^{m )^{n} = x^{m} \times n}$
 
-`open parentheses open parentheses 2 cubed close parentheses to the power of 1 fourth end exponent close parentheses to the power of 5 equals open parentheses 2 to the power of 3 cross times 1 fourth end exponent close parentheses to the power of 5 equals open parentheses 2 to the power of 3 over 4 end exponent close parentheses to the power of 5`
+$( ( 2 ^{3} ) ^{1} \text{fourth} ) ^{5} = ( 2^{3} \times 1 \text{fourth} ) ^{5} = ( 2 ^{\frac{3}{4}} ) ^{5}$
 
 **[1]**
 
 > *Apply the same rule again*
 
-`open parentheses 2 to the power of 3 over 4 end exponent close parentheses to the power of 5 equals 2 to the power of 3 over 4 cross times 5 end exponent equals 2 to the power of 15 over 4 end exponent`
+$( 2 ^{\frac{3}{4}} ) ^{5} = 2 ^{\frac{3}{4}} \times 5 = 2 ^{\frac{15}{4}}$
 
 $2^{\frac{15}{4}}$ **[1]**
 
@@ -833,11 +833,11 @@ $2^{\frac{15}{4}}$ **[1]**
 ### 11((b)) — 3 marks
 > *Rewrite 9 as a power of 3 using 9=3*<sup>*2*</sup>
 
-`3 to the power of n equals 177147 cross times open parentheses 3 squared close parentheses to the power of 5`
+$3^{n} = 177147 \times ( 3^{2} )^{5}$
 
 **[1]**
 
-> *Use the law of indices; *`open parentheses x to the power of n close parentheses to the power of m equals x to the power of n cross times m end exponent`
+> *Use the law of indices; *$( x^{n )^{m} = x^{n} \times m}$
 
 $3^{n}=177147\times3^{2\times5}\,3^{n}=177147\times3^{10}$
 
@@ -958,7 +958,7 @@ $5\sqrt{5}=5^{1}\times5^{\frac{1}{2}}$
 
 > *Simplify using the index laws  *$a^{m}\timesa^{n}=a^{m+n}$*.*
 
-`5 to the power of 1 space end exponent cross times space 5 to the power of 1 half space end exponent equals space 5 to the power of open parentheses 1 space plus 1 half close parentheses end exponent space equals space 5 to the power of 1 1 half end exponent`
+$5^{1 } \times 5^{1 \frac{1}{2} } = 5^{( 1 + 1 \frac{1}{2} )} = 5^{1 1 \frac{1}{2}}$
 
 $k=1\frac{1}{2}$**[1]**
 
@@ -978,15 +978,15 @@ $\frac{1}{81^{\frac{1}{2}}}=\frac{1}{\sqrt{81}}=\frac{1}{9}$
 $\frac{1}{9}$**[1]**
 
 ### 12((b)) — 2 marks
-> *Simplify using the index law: *`a to the power of m n end exponent space equals open parentheses a to the power of m close parentheses to the power of n`*.*
+> *Simplify using the index law: *$a^{m n} = ( a^{m} )^{n}$*.*
 
-`open parentheses 64 over 125 close parentheses to the power of blank to the power of 2 over 3 end exponent end exponent space equals open parentheses 64 over 125 close parentheses to the power of blank to the power of 1 third cross times 2 end exponent space end exponent equals space open parentheses open parentheses 64 over 125 close parentheses to the power of blank to the power of 1 third end exponent end exponent close parentheses squared`
+$( \frac{64}{125} )^{^{ \frac{2}{3} }} = ( \frac{64}{125} )^{^{1 \frac{1}{3} \times 2} } = ( ( \frac{64}{125} )^{^{1 \frac{1}{3}}} )^{2}$
 
 **[1]**
 
-> *Simplify using the index law:  *`a to the power of 1 third end exponent space equals cube root of a`*.*
+> *Simplify using the index law:  *$a^{1 \frac{1}{3}} = \sqrt[3]{a}$*.*
 
-`open parentheses fraction numerator cube root of 64 over denominator cube root of 125 end fraction close parentheses squared space equals space open parentheses 4 over 5 close parentheses squared`
+$( \frac{ \sqrt[3]{64} }{ \sqrt[3]{125} } )^{2} = ( \frac{4}{5} )^{2}$
 
 > *Square the numerator and the denominator separately.*
 
@@ -1004,17 +1004,17 @@ $8$ **[1]**
 ### 10((b)) — 2 marks
 > *Simplify using the index law: *$a^{-x}=\frac{1}{a^{x}}.$* *
 
-`open parentheses 8 over 125 close parentheses to the power of negative 2 over 3 end exponent equals 1 over open parentheses 8 over 125 close parentheses to the power of 2 over 3 end exponent space equals space open parentheses 125 over 8 close parentheses to the power of 2 over 3 end exponent`
+$( \frac{8}{125} ) ^{ - } \frac{2}{3} = \frac{1}{open} \text{parentheses} \frac{8}{125} ) ^{\frac{2}{3}} = ( \frac{125}{8} ) ^{\frac{2}{3}}$
 
 **[1]**
 
-> *Simplify using the index law: *`a to the power of m n end exponent space equals open parentheses a to the power of m close parentheses to the power of n`*.*
+> *Simplify using the index law: *$a^{m n} = ( a^{m} )^{n}$*.*
 
-`open parentheses 125 over 8 close parentheses to the power of blank to the power of 2 over 3 end exponent end exponent space equals open parentheses 125 over 8 close parentheses to the power of blank to the power of 1 third cross times 2 end exponent space end exponent equals space open parentheses open parentheses 125 over 8 close parentheses to the power of 1 third end exponent close parentheses squared`
+$( \frac{125}{8} )^{^{ \frac{2}{3} }} = ( \frac{125}{8} )^{^{1 \frac{1}{3} \times 2} } = ( ( \frac{125}{8} )^{1 \frac{1}{3}} )^{2}$
 
-> *Simplify using the index law:  *`a to the power of 1 third end exponent space equals cube root of a`*.*
+> *Simplify using the index law:  *$a^{1 \frac{1}{3}} = \sqrt[3]{a}$*.*
 
-`open parentheses fraction numerator cube root of 125 over denominator cube root of 8 end fraction close parentheses squared space equals space open parentheses 5 over 2 close parentheses squared`
+$( \frac{ \sqrt[3]{125} }{ \sqrt[3]{8} } )^{2} = ( \frac{5}{2} )^{2}$
 
 > *Square the numerator and the denominator separately.*
 
@@ -1025,13 +1025,13 @@ $\frac{25}{4}$**[1]**
 ### 15((a)) — 1 marks
 > *Separate the problem using the index law: *$\sqrt{a\timesb}=\sqrt{a}\times\sqrt{b}$*.*
 
-`cube root of 8 space cross times space 10 to the power of 6 space end exponent end root space equals space cube root of 8 cross times space cube root of 10 to the power of 6 end root`
+$\sqrt[3]{8 \times 10^{6 } } = \sqrt[3]{8 \times \sqrt[3]{10}^{6} }$
 
-> *Evaluate the cube root of 8 using 2*<sup>*3*</sup>* = 8 and simplify using the index law:  *`a to the power of 1 third end exponent space equals cube root of a`*.*
+> *Evaluate the cube root of 8 using 2*<sup>*3*</sup>* = 8 and simplify using the index law:  *$a^{1 \frac{1}{3}} = \sqrt[3]{a}$*.*
 
-`cube root of 8 cross times space cube root of 10 to the power of 6 end root space equals space 2 space cross times space open parentheses 10 to the power of 6 close parentheses to the power of 1 third end exponent`
+$\sqrt[3]{8 \times \sqrt[3]{10}^{6} = 2 \times ( 10^{6} )^{1} \frac{1}{3}}$
 
-> *Simplify using the index law: *`a to the power of m n end exponent space equals open parentheses a to the power of m close parentheses to the power of n`*.*
+> *Simplify using the index law: *$a^{m n} = ( a^{m} )^{n}$*.*
 
 $2\times10^{\frac{6}{3}}=2\times10^{2}$
 
@@ -1046,20 +1046,20 @@ $144^{\frac{1}{2}}\times64^{-\frac{1}{3}}=144^{\frac{1}{2}}\times\frac{1}{64^{\f
 
 **[1]**
 
-> *Simplify using the index laws *$a^{\frac{1}{2}}=\sqrt{a}$* and *`a to the power of 1 third end exponent space equals cube root of a`*.*
+> *Simplify using the index laws *$a^{\frac{1}{2}}=\sqrt{a}$* and *$a^{1 \frac{1}{3}} = \sqrt[3]{a}$*.*
 
-`144 to the power of 1 half end exponent space cross times 1 over 64 to the power of 1 third end exponent space equals space square root of 144 space cross times fraction numerator space 1 over denominator cube root of 64 end fraction space`
+$144^{1 \frac{1}{2}} \times \frac{1}{64^{1 \frac{1}{3}}} = \sqrt{144} \times \frac{ 1}{ \sqrt[3]{64} }$
 
 > *Evaluate the square root of 144 and the cube root of 64 using 12*<sup>*2 *</sup>*= 144 and 4*<sup>*3*</sup>* = 64.*
 
-`square root of 144 space cross times fraction numerator space 1 over denominator cube root of 64 end fraction space equals space 12 space cross times 1 fourth space equals 12 over 4 space equals space 3`
+$\sqrt{144} \times \frac{ 1}{ \sqrt[3]{64} } = 12 \times 1 \frac{1}{4} = \frac{12}{4} = 3$
 
 **3 ****[1]**
 
 ### 15((c)) — 2 marks
 > *This equation can be solved by making the bases the same on both sides. Change 81 so that it has a base of 3.*
 
-`81 equals 9 to the power of 2 space end exponent equals space open parentheses 3 squared close parentheses squared space equals space 3 to the power of 4 space to the power of space`
+`81 = 9 ^ 2 = ( 3 ^2 ) ^2 = 3 ^ 4 ^`
 
 > *Use the index law *$a^{-x}=\frac{1}{a^{x}}$* to rewrite *$\frac{1}{81}$* with a base of 3 and a negative index.*
 
@@ -1099,7 +1099,7 @@ $x=-2$**[1]**
 ### 16((b)) — 2 marks
 > *You should be able to type directly into your calculator.*
 
-`table row cell open parentheses 3 cross times 10 to the power of 7 close parentheses space divided by open parentheses 6 cross times 10 to the power of 4 close parentheses space end cell equals cell space 500 end cell end table`
+$\begin{gathered} ( 3 \times 10^{7} ) \div ( 6 \times 10^{4} ) & = 500 \end{gathered}$
 
 **[1]**
 
@@ -1179,7 +1179,7 @@ $\frac{2.52\times10^{5}}{4\times10^{-3}}$
 
 > *Evaluate the powers using the law of indices **a*<sup>*m*</sup>* ÷ a*<sup>*n *</sup>*= **a*<sup>*m-n*</sup>*.*
 
-`0.63 space cross times fraction numerator space 10 to the power of 5 over denominator 10 to the power of negative 3 end exponent end fraction space equals 0.63 space cross times space 10 to the power of 5 space end exponent divided by space 10 to the power of negative 3 end exponent space equals space 0.63 space cross times 10 to the power of open parentheses 5 minus negative 3 close parentheses end exponent space equals 0.63 space cross times space 10 to the power of 8`
+$0.63 \times \frac{ 10^{5}{10^{-3} } } = 0.63 \times 10^{5 } \div 10^{- 3} = 0.63 \times 10^{( 5 - - 3 )} = 0.63 \times 10^{8}$
 
 > *This is not in standard form as **a** is not in the interval 1 ≤ **a **< 10. Convert to standard form by first converting 0.63 to standard form.*
 
@@ -1198,11 +1198,11 @@ $p=\sqrt{\frac{x-y}{xy}}$
 
 > *Substitute the values given for **x **and **y **into the expression for p.*
 
-`p space equals square root of fraction numerator space 8.5 space cross times space 10 to the power of 9 space minus space 4 space cross times 10 to the power of 8 over denominator open parentheses 8.5 space cross times space 10 to the power of 9 close parentheses open parentheses 4 space cross times space 10 to the power of 8 close parentheses end fraction end root`
+$p = \sqrt{ \frac{ 8.5 \times 10^{9} - 4 \times 10^{8} }{( 8.5 \times 10^{9} ) ( 4 \times 10^{8} )} }$
 
 > *Type the problem into your calculator, use the square root, fraction, standard form buttons and the arrow keys to type the whole expression in in one go.*
 
-`square root of fraction numerator space 8.5 space cross times space 10 to the power of 9 space minus space 4 space cross times 10 to the power of 8 over denominator open parentheses 8.5 space cross times space 10 to the power of 9 close parentheses open parentheses 4 space cross times space 10 to the power of 8 close parentheses end fraction end root space equals space 4.880935... space cross times space 10 to the power of negative 5 end exponent`
+$\sqrt{ \frac{ 8.5 \times 10^{9 - 4 \times 10^{8} }{( 8.5 \times 10^{9} ) ( 4 \times 10^{8} )} } = 4.880935... \times 10^{-5} }$
 
 ** Either part of the fraction evaluated correctly ****[1] **** **
 **Both parts of the fraction evaluated correctly ****[1]**
@@ -1216,17 +1216,17 @@ $p=\sqrt{\frac{x-y}{xy}}$
 ### 9((a)) — 2 marks
 > *Substitute the values given for **w **and **d **into the expression for **T**.*
 
-`T space equals square root of fraction numerator space 5.6 space cross times space 10 to the power of negative 5 end exponent over denominator open parentheses 1.4 space cross times space 10 to the power of negative 4 end exponent close parentheses cubed end fraction end root`
+$T = \sqrt{ \frac{ 5.6 \times 10^{- 5} }{( 1.4 \times 10^{- 4} )^{3}} }$
 
 > *Type the problem into your calculator, use the square root, fraction, standard form buttons and the arrow keys to type the whole expression in in one go.*
 
-`square root of fraction numerator space 5.6 space cross times space 10 to the power of negative 5 end exponent over denominator open parentheses 1.4 space cross times space 10 to the power of negative 4 end exponent close parentheses cubed end fraction end root equals space 4517.5395...`
+$\sqrt{ \frac{ 5.6 \times 10^{- 5} }{( 1.4 \times 10^{- 4} )^{3}} } = 4517.5395...$
 
 ** ****[1]**
 
 > *Convert to standard form.*
 
-`table row cell 4517.5395... space end cell equals cell space 4.517539... space cross times space 1000 end cell row blank equals cell 4.517539... space cross times space 10 cubed end cell end table`
+$\begin{gathered} 4517.5395... & = 4.517539... \times 1000 \\ = 4.517539... \times 10^{3} \end{gathered}$
 
 ** ****[1]**
 
@@ -1240,7 +1240,7 @@ $p=\sqrt{\frac{x-y}{xy}}$
 
 > *Therefore **T **will become:*
 
-> `T space equals space square root of fraction numerator w space cross times space 1.1 over denominator open parentheses d space cross times space 1.05 close parentheses cubed end fraction end root space equals space square root of fraction numerator 5.6 space cross times space 10 to the power of negative 5 end exponent space cross times space 1.1 over denominator open parentheses 1.4 space cross times space 10 to the power of negative 4 end exponent space cross times space 1.05 close parentheses cubed end fraction end root space equals space 4403.66....`* *
+> $T = \sqrt{ \frac{w \times 1.1}{( d \times 1.05 )^{3}} } = \sqrt{ \frac{5.6 \times 10^{- 5} \times 1.1}{( 1.4 \times 10^{- 4} \times 1.05 )^{3}} } = 4403.66....$* *
 
 **[1]**
 
@@ -1287,7 +1287,7 @@ $\frac{2.3}{4.6}=\frac{23}{46}=\frac{1}{2}$
 
 > *Evaluate the powers using the law of indices **a*<sup>*m*</sup>* ÷ a*<sup>*n *</sup>*= **a*<sup>*m-n*</sup>*.*
 
-`1 half cross times space open parentheses 10 to the power of 12 space end exponent divided by space 10 cubed close parentheses equals 1 half cross times 10 to the power of open parentheses 12 minus 3 close parentheses end exponent space equals 0.5 space cross times space 10 to the power of 9`
+$1 \frac{1}{2} \times ( 10^{12 } \div 10^{3} ) = 1 \frac{1}{2} \times 10^{( 12 - 3 )} = 0.5 \times 10^{9}$
 
 > *This is not in standard form as **a** is not in the interval 1 ≤ **a **< 10. Convert to standard form by first converting 0.5 to standard form.*
 
@@ -1312,7 +1312,7 @@ $\frac{3.5\times10^{6}}{5\times10^{-3}}$
 
 > *Evaluate the powers using the law of indices **a*<sup>*m*</sup>* ÷ a*<sup>*n *</sup>*= **a*<sup>*m-n*</sup>*.*
 
-`0.7 space cross times space open parentheses 10 to the power of 6 space end exponent divided by space 10 to the power of negative 3 end exponent close parentheses equals 0.7 cross times 10 to the power of open parentheses 6 minus negative 3 close parentheses end exponent space equals 0.7 space cross times space 10 to the power of 9`
+$0.7 \times ( 10^{6 } \div 10^{- 3} ) = 0.7 \times 10^{( 6 - - 3 )} = 0.7 \times 10^{9}$
 
 > *This is not in standard form as **a** is not in the interval 1 ≤ **a **< 10. Convert to standard form by first converting 0.7 to standard form.*
 
@@ -1327,18 +1327,18 @@ $\frac{3.5\times10^{6}}{5\times10^{-3}}$
 ### 19((a)) — 3 marks
 > *Rewrite the bases, 8 and 4, as powers of 2 with brackets around them.*
 
-`open parentheses 2 cubed close parentheses squared cross times cube root of open parentheses 2 squared close parentheses to the power of 6 end root`
+$( 2^{3} )^{2} \times \sqrt[3]{( 2^{2} )^{6} }$
 
 **[1]**
 
-> *Apply the index law *`open parentheses a to the power of m close parentheses to the power of n equals a to the power of m n end exponent`*.*
+> *Apply the index law *$( a^{m )^{n} = a^{m} n}$*.*
 
-`equals 2 to the power of 6 cross times cube root of 2 to the power of 12 end root`
+$= 2^{6} \times \sqrt[3]{2^{12} }$
 
-> *Use the index law *`n-th root of a equals a to the power of 1 over n end exponent`* to rewrite in index form and then simplify again.*
+> *Use the index law *$\sqrt[n]{a} = a^{ \frac{1}{n} }$* to rewrite in index form and then simplify again.*
 
-`equals 2 to the power of 6 cross times open parentheses 2 to the power of 12 close parentheses to the power of 1 third end exponent
-equals 2 to the power of 6 cross times 2 to the power of 4`
+$= 2^{6 \times ( 2^{12} )^{1} \frac{1}{3}} 
+= 2^{6} \times 2^{4}$
 
 **[1]**
 
@@ -1351,19 +1351,19 @@ equals 2 to the power of 6 cross times 2 to the power of 4`
 ### 20() — 3 marks
 > *First write *$a^{\frac{3}{2}}$* in terms of **n**.*
 
-`open parentheses 25 cross times 10 to the power of 14 n end exponent close parentheses to the power of 3 over 2 end exponent`
+$( 25 \times 10^{14 n} )^{ \frac{3}{2} }$
 
 > *Apply the distributive law to the terms in the brackets.*
 
-`equals 25 to the power of 3 over 2 end exponent cross times open parentheses 10 to the power of 14 n end exponent close parentheses to the power of 3 over 2 end exponent`
+$= 25^{ \frac{3}{2} } \times ( 10^{14 n} )^{ \frac{3}{2} }$
 
 > *Put "*$25^{\frac{3}{2}}$*" directly into your calculator.*
 
-`equals 125 cross times open parentheses 10 to the power of 14 n end exponent close parentheses to the power of 3 over 2 end exponent`
+$= 125 \times ( 10^{14 n} )^{ \frac{3}{2} }$
 
 **"125" or "10**<sup>**21n**</sup>**" (see below)**** [1]**
 
-> *Use the law *`open parentheses a to the power of m close parentheses to the power of n equals a to the power of m n end exponent`* to rewrite *`open parentheses 10 to the power of 14 n end exponent close parentheses to the power of 3 over 2 end exponent`*.*
+> *Use the law *$( a^{m )^{n} = a^{m} n}$* to rewrite *$( 10^{14 n} )^{ \frac{3}{2} }$*.*
 
 $=125\times10^{21n}$
 
@@ -1382,17 +1382,17 @@ $1.25\times10^{21n+2}$ **[1]**
 
 - *81=3*<sup>*4*</sup>
 
-`fraction numerator cube root of 81 over denominator 3 end fraction equals fraction numerator cube root of 3 to the power of 4 end root over denominator 3 end fraction`
+$\frac{ \sqrt[3]{81}{3} = \frac{ \sqrt[3]{3}^{4} } }{3}$
 
 **[1]**
 
 > *A cube-root can be rewritten as a power of *$\frac{1}{3}$
 
-`fraction numerator cube root of 3 to the power of 4 end root over denominator 3 end fraction equals open parentheses 3 to the power of 4 close parentheses to the power of 1 third end exponent over 3`
+$\frac{\sqrt[3]{3^{4}}}{3} = ( 3^{4} ) ^{1} \frac{third}{3}$
 
-> *Simplify the top of the fraction, using the indices law *`open parentheses x to the power of m close parentheses to the power of n equals x to the power of m cross times n end exponent`
+> *Simplify the top of the fraction, using the indices law *$( x^{m )^{n} = x^{m} \times n}$
 
-`open parentheses 3 to the power of 4 close parentheses to the power of begin display style 1 third end style end exponent over 3 equals 3 to the power of begin display style 4 over 3 end style end exponent over 3`
+$( 3^{4} ) ^{begin} \text{display} \text{style} 1 \frac{third}{3} = 3^{begin} \text{display} \text{style} \frac{4}\frac{{3}}{3}$
 
 **[1]**
 

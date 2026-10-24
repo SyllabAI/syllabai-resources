@@ -28,7 +28,7 @@ guided_study: false
   - $1+\mathrm{cot}^{2}θ=\mathrm{cosec}^{2}θ$
 - To prove an identity start on one side and proceed step by step until you get to the other side
 
-  - e.g. to prove that `open parentheses sin theta plus cos theta close parentheses squared equals 1 plus 2 sin theta cos theta`
+  - e.g. to prove that $( \sin \\theta + \cos \\theta )^{2} = 1 + 2 \sin \\theta \cos \\theta$
   - Start with the left hand side, and expand
   
     - $\mathrm{sin}^{2}θ+\mathrm{cos}^{2}θ+2\mathrm{sin}θ\mathrm{cos}θ$
@@ -51,11 +51,11 @@ guided_study: false
 > **Worked Example**
 > Prove that:
 > 
-> `sec squared space x open parentheses cot squared space x minus cos squared space x close parentheses equals cot to the power of 2 space end exponent x`
+> $\sec ^{2} x ( \cot ^{2} x - \cos ^{2} x ) = \cot ^{2 } x$
 > 
 > > *Use the definitions of *$\mathrm{sec}x=\frac{1}{\mathrm{cos}x}$* and *$\mathrm{cot}x=\frac{1}{\mathrm{tan}x}=\frac{\mathrm{cos}x}{\mathrm{sin}x}$*, to rewrite the left hand side*
 > 
-> `fraction numerator 1 over denominator cos squared italic space x end fraction open parentheses fraction numerator cos squared space x over denominator sin squared space x end fraction space minus space cos squared space x close parentheses`
+> $\frac{1}{\cos ^{2} x} ( \frac{\cos ^{2} x}{\sin ^{2} x} - \cos ^{2} x )$
 > 
 > > *Expand the brackets, using the fact that multiplying by *$\frac{1}{\mathrm{cos}^{2}x}$* is the same as dividing by *$\mathrm{cos}^{2}x$
 > 

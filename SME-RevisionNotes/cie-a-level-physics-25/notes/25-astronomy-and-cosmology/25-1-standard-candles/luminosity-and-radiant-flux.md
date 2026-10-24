@@ -90,6 +90,6 @@ $F=\frac{L}{4πd^{2}}$
 > 
 > **Step 3: Rearrange for distance *****d*****, and calculate**
 > 
-> `d space equals space square root of fraction numerator L over denominator 4 straight pi F end fraction end root space equals space square root of fraction numerator 9.7 cross times 10 to the power of 27 over denominator 4 straight pi cross times open parentheses 114 cross times 10 to the power of negative 9 end exponent close parentheses end fraction end root`
+> $d = \sqrt{ \frac{L}{4 \mathrm{\pi } F} } = \sqrt{ \frac{9.7 \times 10^{27}{4 \mathrm{\pi } \times ( 114 \times 10^{-9} } )} }$
 > 
 > $d$* *= 8.2 × 10<sup>16</sup> m

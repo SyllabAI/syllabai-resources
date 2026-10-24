@@ -107,7 +107,7 @@ $E=\frac{F}{q}=\frac{V}{d}$
 > 
 > **Step 4: Substitute values to calculate the force on the point charge**
 > 
-> `F space equals space fraction numerator open parentheses 2.6 cross times 10 to the power of negative 15 end exponent close parentheses cross times 7900 over denominator 0.035 end fraction space equals space 5.9 cross times 10 to the power of negative 10 end exponent` N (2 s.f.)
+> $F = \frac{( 2.6 \times 10^{- 15} ) \times 7900}{0.035} = 5.9 \times 10^{- 10}$ N (2 s.f.)
 
 > **Exam Hint**
 > Remember the equation for electric field strength with *V* and *d* is only valid for **parallel plates**, and **not **for point charges

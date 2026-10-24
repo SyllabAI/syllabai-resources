@@ -20,7 +20,7 @@ guided_study: true
 - Under non-standard conditions, the cell potential of the half-cells is shown by the symbol *E*<sub>*cell*</sub>
 - The effect of changes in **temperature** and **ion concentration** on the *E*<sub>*cell*</sub> can be deduced using the **Nernst equation**
 
-`bold italic E bold italic space bold italic equals bold italic space bold italic E to the power of bold italic capital theta bold italic plus fraction numerator bold italic R bold italic T over denominator bold italic z bold italic F end fraction bold italic space bold italic l bold italic n fraction numerator stretchy left square bracket o x i d i s e d space s p e c i e s stretchy right square bracket over denominator stretchy left square bracket r e d u c e d space s p e c i e s stretchy right square bracket end fraction`
+$E = E^{ } \Theta + \frac{ R T}{ z F} l n \frac{ \text{stretchy} [ o x i d i s e d s p e c i e s \text{stretchy} ]}{ \text{stretchy} [ r e d u c e d s p e c i e s \text{stretchy} ]}$
 
 - ***E*** = electrode potential under nonstandard conditions
 
@@ -33,7 +33,7 @@ guided_study: true
 
 - This equation can be simplified to
 
-`bold italic E bold italic space bold italic equals bold italic space bold italic E to the power of bold italic capital theta bold italic plus fraction numerator bold 0 bold. bold 059 over denominator bold italic z end fraction bold italic space bold log subscript bold italic 10 fraction numerator stretchy left square bracket o x i d i s e d space s p e c i e s stretchy right square bracket over denominator stretchy left square bracket r e d u c e d space s p e c i e s stretchy right square bracket end fraction`
+$E = E^{ } \Theta + \frac{ 0 . 059}{ z} log_{ } 10 \frac{ \text{stretchy} [ o x i d i s e d s p e c i e s \text{stretchy} ]}{ \text{stretchy} [ r e d u c e d s p e c i e s \text{stretchy} ]}$
 
 - At standard temperature, *R, T *and *F* are constant
 
@@ -64,7 +64,7 @@ guided_study: true
 > - *z* is 1 as only one electron is transferred in this reaction
 > - The Nernst equation for this half-reaction is, therefore:
 > 
->   - `bold italic E bold italic space bold italic equals bold italic space bold 0 bold. bold 77 bold plus fraction numerator bold 0 bold. bold 059 over denominator bold 1 end fraction bold space bold log subscript bold 10 fraction numerator open square brackets 0.034 close square brackets over denominator open square brackets 0.64 close square brackets end fraction`
+>   - $E = 0 . 77 + \frac{ 0 . 059}{ 1} log_{ } 10 \frac{ [ 0.034 ] }{ [ 0.64 ] }$
 >   - ***E *****= (+0.77) + (-0.075)**
 >   - ***E *****= +0.69 V**
 
@@ -92,8 +92,8 @@ guided_study: true
 > - *z* is 2 as 2 electrons are transferred in this reaction
 > - The Nernst equation for this half-reaction is, therefore:
 > 
->   - `bold italic E bold italic space bold italic equals bold italic space bold italic E to the power of bold italic capital theta bold italic plus fraction numerator bold 0 bold. bold 059 over denominator bold italic z end fraction bold italic space bold log subscript bold italic 10 fraction numerator stretchy left square bracket o x i d i s e d space s p e c i e s stretchy right square bracket over denominator stretchy left square bracket r e d u c e d space s p e c i e s stretchy right square bracket end fraction`
->   - `bold italic E bold italic space bold italic equals bold italic space bold 0 bold. bold 34 bold plus fraction numerator bold 0 bold. bold 059 over denominator bold 2 end fraction bold space bold log subscript bold 10 fraction numerator open square brackets 0.0010 close square brackets over denominator open square brackets 1.0 close square brackets end fraction`
+>   - $E = E^{ } \Theta + \frac{ 0 . 059}{ z} log_{ } 10 \frac{ \text{stretchy} [ o x i d i s e d s p e c i e s \text{stretchy} ]}{ \text{stretchy} [ r e d u c e d s p e c i e s \text{stretchy} ]}$
+>   - $E = 0 . 34 + \frac{ 0 . 059}{ 2} log_{ } 10 \frac{ [ 0.0010 ] }{ [ 1.0 ] }$
 >   - ***E ***** = (+ 0.34) + (– 0.089)**
 >   - ***E *****= + 0.25 V**
 
@@ -102,7 +102,7 @@ guided_study: true
 > 
 >   - CIE specifically ask students to learn use this version:
 > 
-> `bold italic E bold italic space bold italic equals bold italic space bold italic E to the power of bold italic capital theta bold italic plus fraction numerator bold 0 bold. bold 059 over denominator bold italic z end fraction bold italic space bold log subscript bold italic 10 fraction numerator stretchy left square bracket o x i d i s e d space s p e c i e s stretchy right square bracket over denominator stretchy left square bracket r e d u c e d space s p e c i e s stretchy right square bracket end fraction`
+> $E = E^{ } \Theta + \frac{ 0 . 059}{ z} log_{ } 10 \frac{ \text{stretchy} [ o x i d i s e d s p e c i e s \text{stretchy} ]}{ \text{stretchy} [ r e d u c e d s p e c i e s \text{stretchy} ]}$
 > 
 > - Make sure you always check what the temperature is
 > - If the temperature is **not** 298 K (or 25 <sup>o</sup>C) the full Nernst equation should be used

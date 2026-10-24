@@ -15,7 +15,7 @@ $3.5+4.75+3.25+5+2.5=19$
 
 > *Find the amount of goals that one circle represents using division*
 
-`table row cell 19 space cirlces end cell equals cell 152 space goals end cell row cell 1 space circle end cell equals cell 152 divided by 19 end cell row blank equals cell 8 space goals end cell end table`
+$\begin{gathered} 19 \text{cirlces} & = 152 \text{goals} \\ 1 \text{circle} & = 152 \div 19 \\ = 8 \text{goals} \end{gathered}$
 
 **[M1]**
 

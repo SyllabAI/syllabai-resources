@@ -9,17 +9,17 @@
 
 *Both terms are not squares so take out a common factor of 5*
 
-`5 open parentheses 4 x squared minus 1 close parentheses`
+$5 ( 4 x^{2} - 1 )$
 
 **[1]**
 
 *Write the terms inside the brackets as squares*
 
-`5 open parentheses open parentheses 2 x close parentheses squared minus 1 squared close parentheses`
+$5 ( ( 2 x )^{2} - 1^{2} )$
 
 > *Use the "difference of two squares" to factorise inside the brackets  *
 
-> `5 open parentheses open parentheses 2 x plus 1 close parentheses open parentheses 2 x minus 1 close parentheses close parentheses`*  *
+> $5 ( ( 2 x + 1 ) ( 2 x - 1 ) )$*  *
 
 > *The outer pair of brackets are no longer necessary as all terms are being multiplied (for example 5×(4×3) is the same as 5×4×3)  *
 
@@ -80,11 +80,11 @@ $2p^{2}-5p+4p-10$
 
 *Factorise fully the first pair of terms and the second pair of terms *
 
-`p open parentheses 2 p minus 5 close parentheses plus 2 open parentheses 2 p minus 5 close parentheses`
+$p ( 2 p - 5 ) + 2 ( 2 p - 5 )$
 
 *Factorise out the whole (2**p** - 5) bracket as if it were one term, leaving **p** and +2 in their own bracket*
 
-`open parentheses 2 p minus 5 close parentheses open parentheses p plus 2 close parentheses`
+$( 2 p - 5 ) ( p + 2 )$
 
 **allowing sign errors**** [1]**
 
@@ -122,7 +122,7 @@ $(2p-5)(p+2)$ **[1]**
 ### 21((a)) — 1 marks
 *The "difference of two squares" says that **a*<sup>*2*</sup>* - **b*<sup>*2*</sup>* factorises to (**a** + **b**)(**a** - **b**)* *Write both terms as squares*
 
-`open parentheses 2 x close parentheses squared minus 3 squared`
+$( 2 x )^{2} - 3^{2}$
 
 > *Use the "difference of two squares" to factorise*
 
@@ -142,11 +142,11 @@ $(x-3)(x-9)$**[1]**
 
 ii) *Solve the first bracket equal to zero (by adding 3 to both sides)*
 
-`table row cell x minus 3 end cell equals 0 row x equals 3 end table`
+$\begin{gathered} x - 3 & = 0 \\ x = 3 \end{gathered}$
 
 > *Solve the second bracket equal to zero (by adding 9 to both sides)  *
 
-> `table row cell x minus 9 end cell equals 0 row x equals 9 end table`*  *
+> $\begin{gathered} x - 9 & = 0 \\ x = 9 \end{gathered}$*  *
 
 > *Write down both solutions together*
 
@@ -194,21 +194,21 @@ $a^{2}-b^{2}$
 
 *Use the "difference of two squares" to factorise* * *
 
-`open parentheses a plus b close parentheses open parentheses a minus b close parentheses` * *
+$( a + b ) ( a - b )$ * *
 
 *Replace *$a$* with *$x^{2}+4$* in brackets and *$b$* with *$x^{2}-2$* in brackets* * *
 
-`open parentheses open parentheses x squared plus 4 close parentheses plus open parentheses x squared minus 2 close parentheses close parentheses open parentheses open parentheses x squared plus 4 close parentheses minus open parentheses x squared minus 2 close parentheses close parentheses` * *
+$( ( x^{2} + 4 ) + ( x^{2} - 2 ) ) ( ( x^{2} + 4 ) - ( x^{2} - 2 ) )$ * *
 
 *Expand inside the brackets* * *
 
-`open parentheses x squared plus 4 plus x squared minus 2 close parentheses open parentheses x squared plus 4 minus x squared plus 2 close parentheses`
+$( x^{2} + 4 + x^{2} - 2 ) ( x^{2} + 4 - x^{2} + 2 )$
 
 **[1]**
 
 *Collect "like" terms* * *
 
-`open parentheses 2 x squared plus 2 close parentheses open parentheses 6 close parentheses` * *
+$( 2 x^{2} + 2 ) ( 6 )$ * *
 
 > *Multiply out the brackets (it may help to write the 6 at the front)*
 
@@ -218,12 +218,12 @@ $12x^{2}+12$* ***[1]**
 
 *Following the "or otherwise", write out the squared brackets as the product of two brackets* * *
 
-`open parentheses x squared plus 4 close parentheses open parentheses x squared plus 4 close parentheses minus open parentheses x squared minus 2 close parentheses open parentheses x squared minus 2 close parentheses` * *
+$( x^{2} + 4 ) ( x^{2} + 4 ) - ( x^{2} - 2 ) ( x^{2} - 2 )$ * *
 
 *Multiply out the two sets of brackets and collect like terms (keeping the results in their own separate brackets)* * *
 
-`open parentheses x to the power of 4 plus 4 x squared plus 4 x squared plus 16 close parentheses minus open parentheses x to the power of 4 minus 2 x squared minus 2 x squared plus 4 close parentheses
-equals open parentheses x to the power of 4 plus 8 x squared plus 16 close parentheses minus open parentheses x to the power of 4 minus 4 x squared plus 4 close parentheses`
+$( x^{4} + 4 x^{2} + 4 x^{2} + 16 ) - ( x^{4} - 2 x^{2} - 2 x^{2} + 4 )
+= ( x^{4} + 8 x^{2} + 16 ) - ( x^{4} - 4 x^{2} + 4 )$
 
 **[1]**
 
@@ -282,7 +282,7 @@ $c$* will be outside the bracket*
 
 > *Now construct the factorised answer by consider what is left by dividing each term by each factor listed above.*
 
-`table row cell 15 divided by 5 end cell equals cell 3 space space and space space 35 divided by 5 equals 7 end cell row cell b to the power of 5 divided by b to the power of 3 space end exponent end cell equals cell b squared space space and space space b cubed divided by b cubed equals 1 end cell row cell c divided by c end cell equals cell 1 space space and space space c to the power of 9 divided by c equals c to the power of 8 end cell end table`
+`| 15 / 5 | = 3 and 35 / 5 = 7 | | b ^ 5 / b ^ 3 | = b ^2 and b ^3 / b ^3 = 1 | | c / c | = 1 and c ^ 9 / c = c ^ 8 | |`
 
 > *and so*
 
@@ -333,7 +333,7 @@ $y^{3}$* will be outside the bracket*
 
 > *Now construct the factorised answer by consider what is left by dividing each term by each factor listed above.*
 
-`table row cell 15 divided by 5 end cell equals cell 3 space space and space space 20 divided by 5 equals 4 end cell row cell y to the power of 4 divided by y to the power of 3 space end exponent end cell equals cell y space space and space space y cubed divided by y cubed equals 1 end cell end table`
+`| 15 / 5 | = 3 and 20 / 5 = 4 | | y ^ 4 / y ^ 3 | = y and y ^3 / y ^3 = 1 | |`
 
 > *and so*
 
@@ -389,7 +389,7 @@ $c^{3}$* will be outside the bracket*
 
 > *Construct the factorised answer by consider what is left by dividing each term by each factor listed above.*
 
-`table row cell 25 divided by 5 end cell equals cell 5 space space and space space 45 divided by 5 equals 9 end cell row cell a to the power of 4 divided by a to the power of 4 space end exponent end cell equals cell 1 space space and space space a to the power of 9 divided by a to the power of 4 equals a to the power of 5 end cell row cell c to the power of 7 divided by c cubed end cell equals cell c to the power of 4 space space and space space c cubed divided by c cubed equals 1 end cell end table`
+`| 25 / 5 | = 5 and 45 / 5 = 9 | | a ^ 4 / a ^ 4 | = 1 and a ^ 9 / a ^ 4 = a ^ 5 | | c ^ 7 / c ^3 | = c ^ 4 and c ^3 / c ^3 = 1 | |`
 
 > *and so*
 
@@ -457,13 +457,13 @@ $c^{3}$* will be outside the bracket*
 ### 14() — 2 marks
 > *We can see straight away there is a factor of 2 in both terms.*
 
-`2 e squared minus 18 equals 2 open parentheses e squared minus 9 close parentheses`
+$2 e^{2} - 18 = 2 ( e^{2} - 9 )$
 
 **[1]**
 
 > *Spot that *$e^{2}-9$* is the difference of two squares.*
 
-`2 open parentheses e squared minus 9 close parentheses equals 2 open parentheses e plus 3 close parentheses open parentheses e minus 3 close parentheses`
+$2 ( e^{2} - 9 ) = 2 ( e + 3 ) ( e - 3 )$
 
 > *There is nothing else that can be factorised.*
 
@@ -502,11 +502,11 @@ $(e+4)(e-3)$ **[1]**
 ### 17((b)) — 1 marks
 > *Spotting that 4 and 9 are square numbers leads us to this being the difference of two squares.*
 
-`4 c squared minus 9 d squared equals open parentheses 2 c close parentheses squared minus open parentheses 3 d close parentheses squared`
+$4 c^{2} - 9 d^{2} = ( 2 c )^{2} - ( 3 d )^{2}$
 
 > *So*
 
-`open parentheses 2 c close parentheses squared minus open parentheses 3 d close parentheses squared equals open parentheses 2 c plus 3 d close parentheses open parentheses 2 c minus 3 d close parentheses`
+$( 2 c )^{2} - ( 3 d )^{2} = ( 2 c + 3 d ) ( 2 c - 3 d )$
 
 $4c^{2}-9d^{2}=(2c+3d)(2c-3d)$ **[1]**
 
@@ -537,7 +537,7 @@ $4c^{2}-9d^{2}=(2c+3d)(2c-3d)$ **[1]**
 *So 2**p** will appear outside the brackets.* 
 *Divide each term by 2**p** to determine what is left inside the brackets.*
 
-`table row cell 8 p squared divided by 2 p end cell equals cell 4 p end cell row cell negative 2 p divided by 2 p end cell equals cell negative 1 end cell end table`
+$\begin{gathered} 8 p^{2} \div 2 p & = 4 p \\ - 2 p \div 2 p & = - 1 \end{gathered}$
 
 > *Now we can put the final answer together.*
 
@@ -552,7 +552,7 @@ $8p^{2}-2p=2p(4p-1)$*  *
 
 > *Find the product "**ac**".*
 
-`a c equals 6 cross times open parentheses negative 5 close parentheses equals negative 30`
+$a c = 6 \times ( - 5 ) = - 30$
 
 > *Consider "**b**".*
 
@@ -568,13 +568,13 @@ $6y^{2}-y-5=6y^{2}-6y+5y-5$
 
 > *Factorise the first pair of terms and the second pair of terms.*
 
-`6 y squared minus 6 y plus 5 y minus 5 equals 6 y open parentheses y minus 1 close parentheses plus 5 open parentheses y minus 1 close parentheses`
+$6 y^{2} - 6 y + 5 y - 5 = 6 y ( y - 1 ) + 5 ( y - 1 )$
 
 **[1]**
 
-> *Now factorise *`open parentheses y minus 1 close parentheses`* from each of these terms.*
+> *Now factorise *$( y - 1 )$* from each of these terms.*
 
-`6 y open parentheses y minus 1 close parentheses plus 5 open parentheses y minus 1 close parentheses equals open parentheses y minus 1 close parentheses open parentheses 6 y plus 5 close parentheses`
+$6 y ( y - 1 ) + 5 ( y - 1 ) = ( y - 1 ) ( 6 y + 5 )$
 
 $6y^{2}-y-5=(y-1)(6y+5)$ **[1]**
 
@@ -622,13 +622,13 @@ $6y^{2}-y-5=(y-1)(6y+5)$ **[1]**
 ### 14() — 3 marks
 > *Take out a common factor*
 
-`2 open parentheses 25 g squared space minus space 9 close parentheses`
+$2 ( 25 g^{2} - 9 )$
 
 **[B1]**
 
 > *Spot the difference of two squares inside the brackets and factorise*
 
-`2 open parentheses 5 g plus 3 close parentheses open parentheses 5 g minus 3 close parentheses`
+$2 ( 5 g + 3 ) ( 5 g - 3 )$
 
 **[B1 B1]**
 
@@ -651,12 +651,12 @@ $6y^{2}-y-5=(y-1)(6y+5)$ **[1]**
 
 > *Factorise by pulling out a common factor of *$6p$
 
-`6 p open parentheses 2 q space minus space 3 close parentheses`
+$6 p ( 2 q - 3 )$
 
 **[B1 B1]**
 
 > **[mark-scheme]**
-> **B1: **For any correct factorisation that is not fully factorised, e.g. `2 p open parentheses 6 q space minus space 9 close parentheses`.
+> **B1: **For any correct factorisation that is not fully factorised, e.g. $2 p ( 6 q - 9 )$.
 > 
 > **B1: **Fully factorised.
 
@@ -677,13 +677,13 @@ $3x^{2}+15x-4x-20$
 
 *Factorise fully the first pair of terms and the second pair of terms *
 
-`3 x open parentheses x plus 5 close parentheses minus 4 open parentheses x plus 5 close parentheses`
+$3 x ( x + 5 ) - 4 ( x + 5 )$
 
 **or x(3x - 4) + 5(3x - 4) if terms written other way round**** [1] **
 
 *Factorise out the whole (x + 5) bracket as if it were one term, leaving 3**x** and -4 in their own bracket*
 
-`open parentheses x plus 5 close parentheses open parentheses 3 x minus 4 close parentheses`
+$( x + 5 ) ( 3 x - 4 )$
 
 $(x+5)(3x-4)$ **[1]**
 
@@ -778,13 +778,13 @@ $3x^{2}+2x+12x+8$
 
 > *Factorise both pairs of terms.*
 
-`x open parentheses 3 x plus 2 close parentheses plus 4 open parentheses 3 x plus 2 close parentheses`
+$x ( 3 x + 2 ) + 4 ( 3 x + 2 )$
 
-> *Both terms in the expression have a factor of *`open parentheses 3 x plus 2 close parentheses`*, so can now be factorised with this as the common factor.*
+> *Both terms in the expression have a factor of *$( 3 x + 2 )$*, so can now be factorised with this as the common factor.*
 
 $(3x+2)(x+4)$
 
-**Factorisation to **`open parentheses 3 x plus a close parentheses open parentheses x plus b close parentheses`** where **$ab=8$** or  **$a+3b=14$** ****[1] ****Fully correct factorisation**** [1]**
+**Factorisation to **$( 3 x + a ) ( x + b )$** where **$ab=8$** or  **$a+3b=14$** ****[1] ****Fully correct factorisation**** [1]**
 
 ## Q36 — medium — 2 marks · exam-questions
 
@@ -873,7 +873,7 @@ $x\timesx-5\timesx$ * *
 
 *Factorise the expression (by taking out the common factor of **x**)* * *
 
-`x open parentheses x minus 5 close parentheses` * *
+$x ( x - 5 )$ * *
 
 *This shows that both **x** and **x** - 5 are factors of the whole expression **x*<sup>*2*</sup>* - 5**x*
 
@@ -886,7 +886,7 @@ $x\timesx-5\timesx$ * *
 
 *Factorise using the difference of two squares, which states that **a*<sup>*2*</sup>* - **b*<sup>*2*</sup>* = (**a** + **b**)(**a** - **b**)*
 
-`x squared minus 8 squared equals open parentheses x plus 8 close parentheses open parentheses x minus 8 close parentheses`
+$x^{2} - 8^{2} = ( x + 8 ) ( x - 8 )$
 
 **(****x**** + 8)(****x**** - 8)** **[1]**
 
@@ -894,13 +894,13 @@ $x\timesx-5\timesx$ * *
 
 *Expand each of the answers given to see which one is the same as **x*<sup>*2*</sup>* - 64*
 
-`open parentheses x plus 8 close parentheses squared equals open parentheses x plus 8 close parentheses open parentheses x plus 8 close parentheses equals x squared plus 16 x plus 64
+$( x + 8 )^{2} = ( x + 8 ) ( x + 8 ) = x^{2} + 16 x + 64
 
-open parentheses x minus 8 close parentheses squared equals open parentheses x minus 8 close parentheses open parentheses x minus 8 close parentheses equals x squared minus 16 x plus 64
+( x - 8 )^{2} = ( x - 8 ) ( x - 8 ) = x^{2} - 16 x + 64
 
-open parentheses x plus 8 close parentheses open parentheses x minus 8 close parentheses equals x squared up diagonal strike plus 8 x end strike up diagonal strike negative 8 x end strike minus 64 equals x squared minus 64
+( x + 8 ) ( x - 8 ) = x^{2} \cancel{+ 8 x} \cancel{- 8 x} - 64 = x^{2} - 64
 
-x open parentheses x minus 64 close parentheses equals x squared minus 64 x`
+x ( x - 64 ) = x^{2} - 64 x$
 
 **(****x**** + 8)(****x**** - 8) ****[1]**
 
@@ -911,7 +911,7 @@ x open parentheses x minus 64 close parentheses equals x squared minus 64 x`
 
 > *Put that factor outside the brackets, and put everything else that's left inside the brackets*
 
-`3 y open parentheses 2 y space plus space 5 close parentheses`
+$3 y ( 2 y + 5 )$
 
 **[B1 B1]**
 
@@ -927,7 +927,7 @@ x open parentheses x minus 64 close parentheses equals x squared minus 64 x`
 
 > *Divide the terms by that to find what goes inside the brackets*
 
-`4 a squared b open parentheses 4 b squared plus 5 a close parentheses`
+$4 a^{2} b ( 4 b^{2} + 5 a )$
 
 **[B1 B1]**
 

@@ -21,9 +21,9 @@ Which row shows the correct definition for momentum and its unit?
 
 ### 2() — 1 mark — multiple_choice
 Which of the following correctly shows the relationship between force, change in momentum and time?
-- **A.** `increment p space equals space fraction numerator open parentheses m v space minus space m u close parentheses over denominator increment t end fraction`
+- **A.** $\Delta p = \frac{( m v - m u )}{\Delta t}$
 - **B.** $F\Deltat=\Deltap$
-- **C.** `F space equals space open parentheses m v space minus space m u close parentheses increment t`
+- **C.** $F = ( m v - m u ) \Delta t$
 - **D.** $p=\frac{\DeltaF}{\Deltat}$
 
 ### 3() — 2 marks — command: circle — structured

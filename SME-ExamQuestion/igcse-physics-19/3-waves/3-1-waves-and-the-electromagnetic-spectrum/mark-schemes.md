@@ -549,7 +549,7 @@ Convert kHz into Hz:
 
 Using the equation from part (i), substitute the values:
 
-- `v space equals space f lambda space equals space open parentheses 200 cross times 10 cubed close parentheses cross times 1500 space equals space 300 space 000 space 000`**; [1 mark]**
+- $v = f \\lambda = ( 200 \times 10^{3} ) \times 1500 = 300 000 000$**; [1 mark]**
 
 Give the answer and the units:
 
@@ -1369,7 +1369,7 @@ Rearrange the equation from part (i) to make wavelength the subject and substitu
 
 Calculate the final answer:
 
-- `lambda equals fraction numerator 300 space up diagonal strike 000 space 000 end strike over denominator 31 space up diagonal strike 000 space 000 end strike end fraction equals 9.68`
+- $\\lambda = \frac{300 \cancel{000 000} }{31 \cancel{000 000} } = 9.68$
 - Wavelength, λ = 9.7 m; **[1 mark]**
 
 **[Total: 4 marks]**

@@ -9,7 +9,7 @@
 (i) Simpson’s index of diversity (D) for the dung beetles on the grassland site that was not grazed by cattle is...
 
 - $\frac{n}{N}$ figures correctly calculated in table 2; **[1 mark]**
-- `begin mathsize 14px style open parentheses n over N close parentheses squared end style`figures calculated **AND** total calculated in tabled 2; **[1 mark]**
+- $( \frac{n}{N} )^{2}$figures calculated **AND** total calculated in tabled 2; **[1 mark]**
 - (*D* =) 0.228; **[1 mark]**
 
 *Calculated figures should be as follows:*

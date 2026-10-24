@@ -18,13 +18,13 @@ Substitute the known values into the formula
 
 - $V=450π$ and $r=5$
 
-`450 pi equals pi open parentheses 5 close parentheses squared h`
+$450 \pi = \pi ( 5 )^{2} h$
 
 **[M1]**
 
 Cancel a factor of $π$ from each side
 
-`450 equals open parentheses 5 close parentheses squared h`
+$450 = ( 5 )^{2} h$
 
 Solve for $h$
 
@@ -121,7 +121,7 @@ $216\mathrm{cm}^{3}$
 
 ![U-taMbEk_cie-igcse-2019-may-jun-p4-tz1-q10c](assets/003-u-tambek-cie-igcse-2019-may-jun-p4-tz1-q10c.png)
 
-`h equals square root of open parentheses x square root of 5 close parentheses squared minus x squared end root`
+$h = \sqrt{( x \sqrt{5} )^{2} - x^{2}}$
 
 **[1]**
 
@@ -145,7 +145,7 @@ $x^{3}=\frac{3000}{2π}$
 
 > *Cube root both sides*
 
-`x equals cube root of fraction numerator 3000 over denominator 2 straight pi end fraction end root equals 7.815926418...`
+$x = \sqrt[3]{ \frac{3000}{2 \mathrm{\pi } } } = 7.815926418...$
 
 $x=7.82$ **[1]** 
 **Rounded to 3 significant figures** **7.815 to 7.816 allowed**
@@ -157,9 +157,9 @@ $x=7.82$ **[1]**
 
 > *Find the area of trapezium **ABCD.*
 
-> *Area of a trapezium = *`fraction numerator open parentheses a space plus space b close parentheses h over denominator 2 end fraction`*.*
+> *Area of a trapezium = *$\frac{( a + b ) h}{2}$*.*
 
-*Area ***ABCD*** = *`fraction numerator open parentheses A B space plus space D C close parentheses h over denominator 2 end fraction`
+*Area ***ABCD*** = *$\frac{( A B + D C ) h}{2}$
 
 > *AB** = 8 cm, **DC** = **GH **= 5 cm.*
 
@@ -169,13 +169,13 @@ $x=7.82$ **[1]**
 
 > *Use right-angled trigonometry to find the vertical height, **h**, of the trapezium.*
 
-`table row cell tan space 70 space end cell equals cell space fraction numerator h over denominator 1 half open parentheses 8 space minus space 5 close parentheses end fraction end cell row cell tan space 70 space end cell equals cell space fraction numerator h over denominator 1.5 end fraction end cell row cell h space end cell equals cell space 1.5 space tan space 70 space end cell row blank equals cell space 4.121216... end cell end table`
+$\begin{gathered} \tan 70 & = \frac{h}{1 \frac{1}{2} ( 8 - 5 )} \\ \tan 70 & = \frac{h}{1.5} \\ h & = 1.5 \tan 70 \\ = 4.121216... \end{gathered}$
 
 **[1]**
 
 > *Find the area of trapezium **ABCD.*
 
-*Area ***ABCD*** = *`fraction numerator open parentheses 8 space plus space 5 close parentheses open parentheses 4.121216... close parentheses over denominator 2 end fraction space equals space 26.7879...`
+*Area ***ABCD*** = *$\frac{( 8 + 5 ) ( 4.121216... )}{2} = 26.7879...$
 
 **[1]**
 
@@ -183,7 +183,7 @@ $x=7.82$ **[1]**
 
 > *Use right-angled trigonometry to find the side **BC.*
 
-`table row cell cos space 70 space end cell equals cell space fraction numerator 1.5 over denominator B C end fraction end cell row cell B C space end cell equals cell fraction numerator space 1.5 space over denominator cos space 70 end fraction end cell row blank equals cell space 4.385706... end cell end table`
+$\begin{gathered} \cos 70 & = \frac{1.5}{B C} \\ B C & = \frac{ 1.5 }{\cos 70} \\ = 4.385706... \end{gathered}$
 
 **[1]**
 
@@ -421,7 +421,7 @@ $x=\frac{12000}{90\times75}=\frac{16}{9}$
 
 > *So in seven minutes the height will increase by*
 
-`7 cross times 16 over 9 equals 12.4 with dot on top`
+$7 \times \frac{16}{9} = 12. \dot{4}$
 
 **[1]**
 
@@ -473,7 +473,7 @@ $5832.23289...=r^{3}$
 
 > *Cube root both sides*
 
-`cube root of 5832.23289... end root space equals space 18.0002396...`
+$\sqrt[3]{5832.23289...} = 18.0002396...$
 
 **[1]**
 
@@ -536,7 +536,7 @@ $36h=\frac{243}{2}$
 
 > *Divide both sides by 36.*
 
-`h equals fraction numerator open parentheses 243 over 2 close parentheses over denominator 36 end fraction equals 27 over 8`
+$h = \frac{ ( \frac{243}{2} ) }{36} = \frac{27}{8}$
 
 **[1]**
 
@@ -569,7 +569,7 @@ $r^{3}=\frac{150}{π}$
 
 > *Cube root both sides.*
 
-`r equals cube root of 150 over straight pi end root equals 3.62783...`
+`r = cbrt( 150 / pi ) = 3.62783...`
 
 > *Round to 3 significant figures.*
 
@@ -588,11 +588,11 @@ $230=\frac{2}{3}πr^{3}$
 
 > *Now rearrange. It's easiest to treat the *$"\frac{4}{3}π"$* as one "thing" and divide both sides by it*
 
-`230 divided by open parentheses 2 over 3 pi close parentheses equals r to the power of italic 3`
+$230 \div ( \frac{2}{3} pi ) = r^{ } 3$
 
 > *Now cube root both sides*
 
-`r equals cube root of 230 divided by open parentheses 2 over 3 pi close parentheses end root`
+$r = \sqrt[3]{230 \div ( \frac{2}{3} pi ) }$
 
 **[1]**
 
@@ -640,7 +640,7 @@ $x^{3}=\frac{750}{π}$
 
 > *Cube root both sides*
 
-`x equals cube root of 750 over straight pi end root equals 6.203504909...`
+`x = cbrt( 750 / pi ) = 6.203504909...`
 
 $x=6.20$ **[1]** 
 **Rounded to 3 significant figures** 
@@ -676,7 +676,7 @@ $x^{3}=\frac{8000}{27}$
 
 > *Cube root both sides*
 
-`x equals cube root of 8000 over 27 end root equals 20 over 3 equals 6.666...`
+$x = \sqrt[3]{\frac{8000}{27}} = \frac{20}{3} = 6.666...$
 
 $x=6.67$ **[1]** 
 **Rounded to 3 significant figures** 
@@ -1045,7 +1045,7 @@ $18.9\times1000=18900\mathrm{mm}^{3}$
 
 > *Consider the units of 200 **mm*<sup>*3*</sup>* per second**, this is volume divided by (per) time*
 
-`200 equals fraction numerator volume space open parentheses in space mm cubed close parentheses over denominator time space open parentheses in space seconds close parentheses end fraction`
+$200 = \frac{volume ( \text{in} mm^{3} )}{time ( \text{in} \text{seconds} )}$
 
 > *Filling in the known volume of the salt*
 
@@ -1094,7 +1094,7 @@ $\frac{22}{3}π=2\timesπ\timesr$
 
 **[1]**
 
-`r equals 22 over 6 equals 11 over 3 equals 3.6 with dot on top`
+$r = \frac{22}{6} = \frac{11}{3} = 3. \dot{6}$
 
 $r=3.67$** ****cm**** [1]**
 
@@ -1103,18 +1103,18 @@ ii) *To find the volume of the cone we first need to find the height of the cone
 
 ![ma-cie-igcse-2020-may-jun-p4-tz1-q9cii](assets/026-ma-cie-igcse-2020-may-jun-p4-tz1-q9cii.png)
 
-`table attributes columnalign right center left columnspacing 0px end attributes row cell h squared plus open parentheses 11 over 3 close parentheses squared end cell equals cell 8 squared end cell end table`
+$\begin{array}{rcl} h^{2} + ( \frac{11}{3} )^{2} & = 8^{2} \end{array}$
 
 **[1]**
 
-`table row cell h squared end cell equals cell 455 over 9 end cell row h equals cell 7.110 space 243 space... end cell end table`
+$\begin{gathered} h^{2} & = \frac{455}{9} \\ h = 7.110 243 ... \end{gathered}$
 
 **[1]**
 
 *Store this in your calculator's memory.* 
 *We can now apply the given volume formula.*
 
-`V equals 1 third cross times straight pi cross times open parentheses 3.6 with dot on top close parentheses squared cross times 7.110 space 243 space...`
+$V = 1 \frac{1}{3} \times \mathrm{\pi } \times ( 3. \dot{6} )^{2} \times 7.110 243 ...$
 
 **[1]**
 
@@ -1178,9 +1178,9 @@ ii) *The mass of the cone and the box is 1.2 kg*
 ### Q25
 > *Divide the volume of the prism into 6 equal parts.*
 
-`500 divided by 6 equals 83.3 with dot on top space space or space space 250 over 3`
+$500 \div 6 = 83. \dot{3} \text{or} \frac{250}{3}$
 
-> *(It's a good idea to store the *`83.3 with dot on top`* in your calculator, or use *$\frac{250}{3}$* to keep the final answer as accurate as possible).*
+> *(It's a good idea to store the *$83. \dot{3}$* in your calculator, or use *$\frac{250}{3}$* to keep the final answer as accurate as possible).*
 
 > *Substitute this volume into the given formula for the volume of a sphere.*
 
@@ -1190,7 +1190,7 @@ $\frac{250}{3}=\frac{4}{3}πr^{3}$
 
 > *Rearrange and solve for *$r$*.*
 
-`table row cell 250 over 3 divided by 4 over 3 straight pi end cell equals cell r cubed end cell row r equals cell cube root of 250 over 3 divided by 4 over 3 straight pi end root end cell end table`
+`| 250 / 3 / 4 / 3 pi | = r ^3 | | r = cbrt( 250 / 3 / 4 / 3 pi ) | |`
 
 **[1]**
 
@@ -1202,7 +1202,7 @@ $=2.709630351...$
 ### Q26
 > *Substitute the radius of 15 cm into the formula for the volume of a sphere (given in the question).*
 
-`table row cell V space end cell equals cell 4 over 3 pi r to the power of 3 space end exponent end cell row blank equals cell 4 over 3 pi stretchy left parenthesis straight 15 stretchy right parenthesis to the power of 3 space end exponent end cell row blank equals cell space 4500 space pi end cell row blank equals cell space 14137.1669... end cell end table`
+`| V | = 4 / 3 pi r ^ 3 | | _ = 4 / 3 pi stretchy ( 15 stretchy ) ^ 3 | | _ = 4500 pi | | _ = 14137.1669... | |`
 
 $V=14140\mathrm{cm}^{3}(4s.f)$
 
@@ -1215,21 +1215,21 @@ i) *The volume of water needed will be the volume of the cylindrical tank minus 
 
 > * Substitute *$r=25$* and *$h=60$* into the formula. *
 
-`table row cell V subscript open parentheses tan k close parentheses end subscript space end cell equals cell space pi open parentheses 25 close parentheses squared open parentheses 60 close parentheses end cell row blank equals cell space 37500 pi end cell end table`
+$\begin{gathered} V_{( \tan k )} & = \pi ( 25 )^{2} ( 60 ) \\ = 37500 \pi \end{gathered}$
 
 **[1]**
 
 > *Subtract the volume of the sphere from the volume of the tank. Using exact values for both is better practice and will give you the most accurate possible answer. *
 
-`table row cell V subscript open parentheses w a t e r close parentheses end subscript space end cell equals cell space V subscript open parentheses t a n k close parentheses end subscript space minus space V subscript open parentheses s p h e r e close parentheses end subscript end cell row blank equals cell space 37500 pi space minus space 4500 pi end cell row blank equals cell space 33000 pi end cell end table`
+$\begin{gathered} V_{( w a t e r )} & = V_{( t a n k )} - V_{( s p h e r e )} \\ = 37500 \pi - 4500 \pi \\ = 33000 \pi \end{gathered}$
 
 **[1]**
 
 > *Use your calculator to find the solution.  *
 
-`table row cell V subscript open parentheses w a t e r close parentheses end subscript space end cell equals cell space 33000 pi space equals space 103672.557... end cell end table`
+$\begin{gathered} V_{( w a t e r )} & = 33000 \pi = 103672.557... \end{gathered}$
 
-`table row cell bold italic V subscript stretchy left parenthesis w a t e r stretchy right parenthesis end subscript bold space end cell bold equals cell bold space bold 103700 bold space bold cm to the power of bold 3 end cell end table` **[1]**
+$\begin{array}{ccc} V_{stretchy} ( w a t e r \text{stretchy} ) & = & 103700 cm^{ } 3\end{array}$ **[1]**
 **Final mark awarded for any answer that rounds to this.**
 
 ii) *The volume of the water has not changed so depth of the water can be found by modelling the volume of water found in part (i) as a cylinder and solving for the height.*
@@ -1238,19 +1238,19 @@ ii) *The volume of the water has not changed so depth of the water can be found 
 
 > * Substitute *$r=25$* and *$V=33000π$*  into the formula. It is a good idea to leave your answer in terms of *$π$* for the next part of your calculation.*
 
-> * *`table row cell V subscript open parentheses w a t e r close parentheses end subscript space end cell equals cell space pi space r squared d end cell row cell 33000 pi end cell equals cell space open parentheses 25 close parentheses squared pi space d end cell end table`
+> * *$\begin{gathered} V_{( w a t e r )} & = \pi r^{2} d \\ 33000 \pi & = ( 25 )^{2} \pi d \end{gathered}$
 
 > * Cancel *$π$* from both sides of the equation.*
 
-`table row 33000 equals cell space 625 space d end cell end table`
+$\begin{gathered} 33000 = 625 d \end{gathered}$
 
 **[1]**
 
 > * Solve by dividing both sides by 625.*
 
-`table row cell d space end cell equals cell fraction numerator space 33000 over denominator 625 end fraction space equals space 52.8 end cell end table`
+$\begin{gathered} d & = \frac{ 33000}{625} = 52.8 \end{gathered}$
 
-`table row cell bold italic d bold space end cell bold equals cell bold space bold 52 bold. bold 8 bold space bold cm end cell end table` **[1]**
+$\begin{gathered} d & = 52 . 8 \text{cm} \end{gathered}$ **[1]**
 
 ### Q27
 *The pipe is a cuboid.* 
@@ -1295,14 +1295,14 @@ $V=\frac{2700000}{1000}\mathrm{litres}$
 > *As the triangles are equilateral, their internal angles are all 60° and the lengths are 7 cm. *
 *We can use area of a triangle = *$\frac{1}{2}ab\mathrm{sin}C$* to find the area of one triangle.*
 
-`Triangle space area equals 1 half cross times 7 cross times 7 cross times sin space 60 space space open parentheses equals 21.21762239... close parentheses`
+$\Delta \text{area} = 1 \frac{1}{2} \times 7 \times 7 \times \sin 60 ( = 21.21762239... )$
 
 *Correct angle; 60°*** [1] **
 *Rest of formula*** [1]**
 
 > *And we can multiply this by 6 for the area of the hexagon.*
 
-`Hexagon space area equals 6 cross times 1 half cross times 7 cross times 7 cross times sin space 60 space space open parentheses equals 127.3057344... close parentheses`
+$\text{Hexagon} \text{area} = 6 \times 1 \frac{1}{2} \times 7 \times 7 \times \sin 60 ( = 127.3057344... )$
 
 **[1]**
 
@@ -1322,7 +1322,7 @@ $=1935.047162...$
 *The surface area is made up of six identical rectangles and 2 identical hexagons.* 
 *From part i) the area of one hexagon is*
 
-`Hexagon space area equals 6 cross times 1 half cross times 7 cross times 7 cross times sin space 60 space space open parentheses equals 127.3057344... close parentheses`
+$\text{Hexagon} \text{area} = 6 \times 1 \frac{1}{2} \times 7 \times 7 \times \sin 60 ( = 127.3057344... )$
 
 > *Each rectangle has a width of 7 cm and a length of 15.2 cm.*
 
@@ -1332,11 +1332,11 @@ $\mathrm{Rectangle} \mathrm{area}=7\times15.2=106.4$
 
 > *So the total surface area of the hexagonal prism is*
 
-`table row cell Surface space area end cell equals cell 2 cross times 127.305 space 734 space... plus 6 cross times 106.4 end cell end table`
+$\begin{gathered} \text{Surface} \text{area} & = 2 \times 127.305 734 ... + 6 \times 106.4 \end{gathered}$
 
 **[1]**
 
-`table row cell Surface space area end cell equals cell 254.611 space 468 space... plus 638.4 end cell row blank equals cell 893.011 space 468 space... end cell end table`
+$\begin{gathered} \text{Surface} \text{area} & = 254.611 468 ... + 638.4 \\ = 893.011 468 ... \end{gathered}$
 
 **893 cm**<sup>**2**</sup> **[1]**
 
@@ -1399,7 +1399,7 @@ $h=4.400852...$
 *Do not round - store this value in your calculator's for possible later use.* 
 *We can now apply the volume formula given in the question.*
 
-`V equals 1 third cross times straight pi cross times open parentheses 1.65 close parentheses squared cross times 4.400 space 582 space... equals 12.546 space 809 space...`
+$V = 1 \frac{1}{3} \times \mathrm{\pi } \times ( 1.65 )^{2} \times 4.400 582 ... = 12.546 809 ...$
 
 **[1]**
 
@@ -1510,9 +1510,9 @@ $1120\times\frac{4}{3}π\times0.45^{3}$
 ### Q35
 > *Calculate the area of each rectangular face.*
 
-*Front and back:* `2 open parentheses 9.5 cross times 7 close parentheses equals 133`
-*Top and bottom: *`2 open parentheses 9.5 cross times 5 close parentheses equals 95`* *
-*Sides:* `2 open parentheses 5 cross times 7 close parentheses equals 70`
+*Front and back:* $2 ( 9.5 \times 7 ) = 133$
+*Top and bottom: *$2 ( 9.5 \times 5 ) = 95$* *
+*Sides:* $2 ( 5 \times 7 ) = 70$
 
 * For one correct area*** [1]**
 
@@ -1537,7 +1537,7 @@ $298$ **cm**<sup>**2**</sup>** [1]**
 
 > *Add together each of the faces and multiply by two to take into account that for each face, the opposite face has the same area.*
 
-*Total area = *`2 cross times open parentheses 9 plus 9 plus 2.25 close parentheses`
+*Total area = *$2 \times ( 9 + 9 + 2.25 )$
 
 **[1]**
 

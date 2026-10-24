@@ -19,21 +19,21 @@ guided_study: false
 
 ### How do I transform a point using a matrix?
 
-- A point `open parentheses x comma space y close parentheses` in a 2D plane can be **transformed** (**mapped**) on to another point `open parentheses x apostrophe comma space y apostrophe close parentheses` by a 2 × 2 **matrix**, $M$
+- A point $( x , y )$ in a 2D plane can be **transformed** (**mapped**) on to another point $( x ' , y ' )$ by a 2 × 2 **matrix**, $M$
 
   - This is called a **linear transformation**
   
-    - `open parentheses x comma space y close parentheses` is the **object **and `open parentheses x apostrophe comma space y apostrophe close parentheses` is the **image**
+    - $( x , y )$ is the **object **and $( x ' , y ' )$ is the **image**
 - The **coordinates** of the image point can be found using **matrix multiplication**
-- To transform `open parentheses x comma space y close parentheses` by the matrix `open parentheses table row a b row c d end table close parentheses`
+- To transform $( x , y )$ by the matrix $( \begin{gathered} a b \\ c d \end{gathered} )$
 
-  - Write `open parentheses x comma space y close parentheses` as a **column vector,** `open parentheses table row x row y end table close parentheses`
-  - Use **matrix multiplication **to work out `open parentheses table row a b row c d end table close parentheses open parentheses table row x row y end table close parentheses`, which gives `open parentheses table row cell x apostrophe end cell row cell y apostrophe end cell end table close parentheses`
-  - **Write down** the image point **coordinates**, `open parentheses x apostrophe comma space y apostrophe close parentheses`
-- If given image coordinates, `open parentheses x apostrophe comma space y apostrophe close parentheses`, and asked to find original coordinates
+  - Write $( x , y )$ as a **column vector,** $( \begin{gathered} x \\ y \end{gathered} )$
+  - Use **matrix multiplication **to work out $( \begin{gathered} a b \\ c d \end{gathered} ) ( \begin{gathered} x \\ y \end{gathered} )$, which gives $( \begin{gathered} x ' \\ y ' \end{gathered} )$
+  - **Write down** the image point **coordinates**, $( x ' , y ' )$
+- If given image coordinates, $( x ' , y ' )$, and asked to find original coordinates
 
   - use **inverse** matrices
-  - `bold M open parentheses table row x row y end table close parentheses equals open parentheses table row cell x apostrophe end cell row cell y apostrophe end cell end table close parentheses space space space rightwards double arrow space space space open parentheses table row x row y end table close parentheses equals bold M to the power of negative 1 end exponent open parentheses table row cell x apostrophe end cell row cell y apostrophe end cell end table close parentheses`
+  - $M ( \begin{gathered} x \\ y \end{gathered} ) = ( \begin{gathered} x ' \\ y ' \end{gathered} ) \Leftrightarrow ( \begin{gathered} x \\ y \end{gathered} ) = M^{- 1} ( \begin{gathered} x ' \\ y ' \end{gathered} )$
 
 ## How do I transform a set of vertices?
 
@@ -47,25 +47,25 @@ guided_study: false
     - This is also called changing the **sense **of the vertices
 - An** alternative method** is to stack **column vectors** of **coordinates** into a **vertex matrix**
 
-  - `open parentheses 1 comma space 2 close parentheses`, `open parentheses 3 comma space 4 close parentheses`, `open parentheses 5 comma space 6 close parentheses` and `open parentheses 0 comma space 10 close parentheses` become `open parentheses table row 1 3 5 0 row 2 4 6 10 end table close parentheses`
+  - $( 1 , 2 )$, $( 3 , 4 )$, $( 5 , 6 )$ and $( 0 , 10 )$ become $( \begin{gathered} 1 3 5 0 \\ 2 4 6 10 \end{gathered} )$
   - Then **multiply **the **matrix** $M$ by the **vertex matrix** above
   - The **new** **columns** represent the corresponding **image** **coordinates**
 
 > **Worked Example**
-> The matrix $M$ is given by `bold M equals open parentheses table row 4 5 row 1 cell negative 2 end cell end table close parentheses`.
-> A triangle has coordinates `open parentheses 1 comma space 0 close parentheses`, `open parentheses 2 comma space 3 close parentheses` and `open parentheses negative 1 comma space 5 close parentheses`.
+> The matrix $M$ is given by $M = ( \begin{gathered} 4 5 \\ 1 - 2 \end{gathered} )$.
+> A triangle has coordinates $( 1 , 0 )$, $( 2 , 3 )$ and $( - 1 , 5 )$.
 > 
 > Work out the coordinates of the triangle after the transformation represented by the matrix $M$ has been applied.
 > 
 > > *Multiply the matri**x *$M$* by each set **of coordinates, written as a column vectors*
 > 
-> `table row cell open parentheses table row 4 5 row 1 cell negative 2 end cell end table close parentheses open parentheses table row 1 row 0 end table close parentheses end cell equals cell open parentheses table row cell 4 cross times 1 space plus space 5 cross times 0 end cell row cell 1 cross times 1 space plus space minus 2 cross times 0 end cell end table close parentheses equals open parentheses table row 4 row 1 end table close parentheses end cell row cell open parentheses table row 4 5 row 1 cell negative 2 end cell end table close parentheses open parentheses table row 2 row 3 end table close parentheses end cell equals cell open parentheses table row cell 4 cross times 2 space plus space 5 cross times 3 end cell row cell 1 cross times 2 space plus space minus 2 cross times 3 end cell end table close parentheses equals open parentheses table row 23 row cell negative 4 end cell end table close parentheses end cell row cell open parentheses table row 4 5 row 1 cell negative 2 end cell end table close parentheses open parentheses table row cell negative 1 end cell row 5 end table close parentheses end cell equals cell open parentheses table row cell 4 cross times open parentheses negative 1 close parentheses space plus space 5 cross times 5 end cell row cell 1 cross times open parentheses negative 1 close parentheses space plus space minus 2 cross times 5 end cell end table close parentheses equals open parentheses table row 21 row cell negative 11 end cell end table close parentheses end cell end table`
+> $\begin{gathered} ( \begin{gathered} 4 5 \\ 1 - 2 \end{gathered} ) ( \begin{gathered} 1 \\ 0 \end{gathered} ) & = ( \begin{gathered} 4 \times 1 + 5 \times 0 \\ 1 \times 1 + - 2 \times 0 \end{gathered} ) = ( \begin{gathered} 4 \\ 1 \end{gathered} ) \\ ( \begin{gathered} 4 5 \\ 1 - 2 \end{gathered} ) ( \begin{gathered} 2 \\ 3 \end{gathered} ) & = ( \begin{gathered} 4 \times 2 + 5 \times 3 \\ 1 \times 2 + - 2 \times 3 \end{gathered} ) = ( \begin{gathered} 23 \\ - 4 \end{gathered} ) \\ ( \begin{gathered} 4 5 \\ 1 - 2 \end{gathered} ) ( \begin{gathered} - 1 \\ 5 \end{gathered} ) & = ( \begin{gathered} 4 \times ( - 1 ) + 5 \times 5 \\ 1 \times ( - 1 ) + - 2 \times 5 \end{gathered} ) = ( \begin{gathered} 21 \\ - 11 \end{gathered} ) \end{gathered}$
 > 
 > > *Rewrite the answers as coordinates*
 > 
-> **Final answer:** `open parentheses 4 comma space 1 close parentheses`**, **`open parentheses 23 comma space minus 4 close parentheses`** and **`open parentheses 21 comma space minus 11 close parentheses`
+> **Final answer:** $( 4 , 1 )$**, **$( 23 , - 4 )$** and **$( 21 , - 11 )$
 > 
-> ** Alternatively, you can multi****ply **$M$** by a vertex mat****rix: **`open parentheses table row 4 5 row 1 cell negative 2 end cell end table close parentheses open parentheses table row 1 2 cell negative 1 end cell row 0 3 5 end table close parentheses equals open parentheses table row 4 23 21 row 1 cell negative 4 end cell cell negative 11 end cell end table close parentheses`
+> ** Alternatively, you can multi****ply **$M$** by a vertex mat****rix: **$( \begin{gathered} 4 5 \\ 1 - 2 \end{gathered} ) ( \begin{gathered} 1 2 - 1 \\ 0 3 5 \end{gathered} ) = ( \begin{gathered} 4 23 21 \\ 1 - 4 & - 11 \end{gathered} )$
 
 ## Determinants as Area Scale Factors
 
@@ -78,11 +78,11 @@ guided_study: false
 - When **transforming **vertices of an** object** using the **matrix **$M$** **to give vertices of the **image**
 
   - the** magnitude** of the **determinant **of $M$ is the **area scale factor** of **enlargement **from the** **object to the image
-  - `vertical line det open parentheses bold M close parentheses vertical line`is the area scale factor
-- For example, if a shape is transformed by `bold M equals open parentheses table row 1 3 row 2 4 end table close parentheses` then
+  - $\vert \det ( M ) \vert$is the area scale factor
+- For example, if a shape is transformed by $M = ( \begin{gathered} 1 3 \\ 2 4 \end{gathered} )$ then
 
-  - `det open parentheses bold M close parentheses equals 1 cross times 4 minus 2 cross times 3 equals negative 2`
-  - so`vertical line det open parentheses bold M close parentheses vertical line equals vertical line minus 2 vertical line equals 2`
+  - $\det ( M ) = 1 \times 4 - 2 \times 3 = - 2$
+  - so$\vert \det ( M ) \vert = \vert - 2 \vert = 2$
   
     - This transformation** doubles** the area of any shape
 - A **negative determinant** means the **sense** (**clockwise **or **anticlockwise**) of the vertices is **reversed**
@@ -91,7 +91,7 @@ guided_study: false
 > Remember the modulus signs around the determinant as this can often lead to two solutions in algebraic questions.
 
 > **Worked Example**
-> A transformation, represented  by the matrix `bold M equals open parentheses table row 3 2 row 4 cell space space space k plus 1 end cell end table close parentheses`, where $k$ is a constant, maps a quadrilateral of area 45 square units to a quadrilateral of area 450 square units.
+> A transformation, represented  by the matrix $M = ( \begin{gathered} 3 2 \\ 4 k + 1 \end{gathered} )$, where $k$ is a constant, maps a quadrilateral of area 45 square units to a quadrilateral of area 450 square units.
 > 
 > Find the possible values of $k$.
 > 
@@ -102,20 +102,20 @@ guided_study: false
 > > *The magnitude of the determinant is the area scale factor*
 > *Start by finding and simplifying the determinant of *$M$
 > 
-> `table row cell det open parentheses bold M close parentheses end cell equals cell 3 open parentheses k plus 1 close parentheses minus 2 cross times 4 end cell row blank equals cell 3 k plus 3 minus 8 end cell row blank equals cell 3 k minus 5 end cell end table`
+> $\begin{gathered} \det ( M ) & = 3 ( k + 1 ) - 2 \times 4 \\ = 3 k + 3 - 8 \\ = 3 k - 5 \end{gathered}$
 > 
 > > *Set the magnitude of the determinant equal to 10*
 > 
-> `vertical line 3 k minus 5 vertical line equals 10`
+> $\vert 3 k - 5 \vert = 10$
 > 
 > > *This means *$3k-5$* is either equal to 10 or -10*
 > *Solve each equation*
 > 
-> `table row cell 3 k minus 5 end cell equals 10 row cell 3 k end cell equals 15 row k equals 5 end table`
+> $\begin{gathered} 3 k - 5 & = 10 \\ 3 k & = 15 \\ k = 5 \end{gathered}$
 > 
 > > *or*
 > 
-> `table row cell 3 k minus 5 end cell equals cell negative 10 end cell row cell 3 k end cell equals cell negative 5 end cell row k equals cell negative 5 over 3 end cell end table`
+> $\begin{gathered} 3 k - 5 & = - 10 \\ 3 k & = - 5 \\ k = - \frac{5}{3} \end{gathered}$
 > 
 > > *Write out the two answers*
 > 

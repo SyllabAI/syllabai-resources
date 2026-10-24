@@ -20,7 +20,7 @@
 
 $V_{H}=E-I_{H}r$
 
-`V subscript H space equals space 240 space minus space open parentheses 8.7 space cross times space 2.0 close parentheses`
+$V_{H} = 240 - ( 8.7 \times 2.0 )$
 
 $V_{H}=222.6V$
 
@@ -36,7 +36,7 @@ $P=I^{2}R$
 
 $I=\sqrt{\frac{P}{R}}$
 
-`I space equals space square root of 1937 over 12 end root space equals space 12.7 space straight A space equals space 13 space straight A space open parentheses 2 space straight s. straight f. close parentheses`
+$I = \sqrt{\frac{1937}{12}} = 12.7 \mathrm{A} = 13 \mathrm{A} ( 2 \mathrm{s} . \mathrm{f} . )$
 
 ### Q2
 **Final answer:** **The correct answer is ****A**** because:**
@@ -56,8 +56,8 @@ Potential difference can also be described as:
 - We are given current and resistance, so we need to eliminate *V*
 - Combining the two equations gives
 
-  - `P equals open parentheses I space R close parentheses I equals I space squared R`
-- So, `P space equals space open parentheses 550 cross times 10 to the power of negative 3 end exponent close parentheses squared space cross times space 180 space equals space 54 space equals space 50 space straight W space open parentheses 1 space straight s. straight f. close parentheses`
+  - $P = ( I R ) I = I^{2} R$
+- So, $P = ( 550 \times 10^{- 3} )^{2} \times 180 = 54 = 50 \mathrm{W} ( 1 \mathrm{s} . \mathrm{f} . )$
 
 ### Q4
 **Final answer:** **The correct answer is ****B**** because:**
@@ -67,7 +67,7 @@ Potential difference can also be described as:
 - We are given current and resistance, so we need to eliminate *V*
 - Combining the two equations gives
 
-  - `P equals open parentheses I R close parentheses I equals I to the power of space 2 space end exponent R`
+  - $P = ( I R ) I = I^{ 2 } R$
 - Let’s consider option B
 
   - Current *I* = 6 A, Resistance *R* = 4 Ω
@@ -94,8 +94,8 @@ Potential difference can also be described as:
   - $2V\propto2I$
 - When the voltage doubles, the power quadruples
 
-  - `open parentheses 2 V close parentheses squared space equals space 4 V squared`
-  - `4 P space proportional to space open parentheses 2 V close parentheses squared`
+  - $( 2 V )^{2} = 4 V^{2}$
+  - $4 P \propto ( 2 V )^{2}$
 - This is option **C**
 
 ### Q6
@@ -118,9 +118,9 @@ Potential difference can also be described as:
 - Potential difference is equal to $V=IR$
 - Combining the two equations gives
 
-  - `P equals open parentheses I R close parentheses I equals I squared R`
+  - $P = ( I R ) I = I^{2} R$
 - The power dissipated in X is $=I^{2}R$
-- The power dissipated in Y is `equals open parentheses 1 half close parentheses squared open parentheses 2 R close parentheses equals fraction numerator 2 I squared R over denominator 4 end fraction equals fraction numerator I squared R over denominator 2 end fraction`
+- The power dissipated in Y is $= ( 1 \frac{1}{2} )^{2} ( 2 R ) = \frac{2 I^{2} R}{4} = \frac{I^{2} R}{2}$
 
   - Therefore, the ratio  $\frac{powerdissipatedinY}{powerdissipatedinX}=\frac{I^{2}R}{2}\times\frac{1}{I^{2}R}=\frac{1}{2}$
 
@@ -169,7 +169,7 @@ Potential difference can also be described as:
 - Current is equal to $I=\frac{V}{R}$
 - Combining the two equations gives
 
-  - `P equals V open parentheses V over R close parentheses equals V squared over R`
+  - $P = V ( \frac{V}{R} ) = \frac{V^{2}}{R}$
 - For the circuit with the single resistor:
 
   - The power dissipated is $P_{1}=\frac{V^{2}}{R}$
@@ -180,7 +180,7 @@ Potential difference can also be described as:
 - Comparing the two circuits:
 
   - 
-  - on the right is `fraction numerator V squared over denominator 2 R end fraction equals 1 half open parentheses V squared over R close parentheses equals P over 2`
+  - on the right is $\frac{V^{2}}{2 R} = 1 \frac{1}{2} ( \frac{V^{2}}{R} ) = \frac{P}{2}$
 - Therefore, the power dissipated by the circuit on the right is $\frac{P}{2}$
 
 ### Q11
@@ -190,15 +190,15 @@ Potential difference can also be described as:
 - Potential difference is equal to $V=IR$
 - Combining the two equations gives
 
-  - `P equals open parentheses I R close parentheses I equals I squared R`
+  - $P = ( I R ) I = I^{2} R$
 - First, we must convert the uncertainty in current to a percentage uncertainty so we can add the percentage uncertainties together
 
   - Current $I=2.50A$
   - Uncertainty in current $\DeltaI=0.05A$
-- So, the percentage uncertainty in current `equals fraction numerator increment I over denominator I end fraction cross times 100 space percent sign equals fraction numerator 0.05 over denominator 2.5 end fraction cross times 100 equals 2 space percent sign`
-- Since the power dissipated is given by $P=I^{2}R$  , the percentage uncertainty in power is `equals open parentheses 2 cross times percent sign space u n c e r t a i n t y space i n space I close parentheses plus open parentheses percent sign space u n c e r t a i n t y space i n space R close parentheses`
+- So, the percentage uncertainty in current $= \frac{\Delta I}{I} \times 100 \% = \frac{0.05}{2.5} \times 100 = 2 \%$
+- Since the power dissipated is given by $P=I^{2}R$  , the percentage uncertainty in power is $= ( 2 \times \% u n c e r t a i n t y i n I ) + ( \% u n c e r t a i n t y i n R )$
 
-  - Therefore, `percent sign space u n c e r t a i n t y space i n space P equals open parentheses 2 cross times 2 space percent sign close parentheses plus 2 percent sign equals 4 plus 2 equals 6 space percent sign`
+  - Therefore, $\% u n c e r t a i n t y i n P = ( 2 \times 2 \% ) + 2 \% = 4 + 2 = 6 \%$
 
 ### Q12
 **Final answer:** **The correct answer is ****C**** because:**
@@ -224,7 +224,7 @@ Potential difference can also be described as:
 - The power of Resistor **X** is
 
   - $P=\frac{V^{2}}{R}$
-  - `P equals open parentheses 2 over 3 V close parentheses squared over R`
+  - $P = \frac{( \frac{2}{3} V )^{2}}{R}$
   - $P=\frac{4V^{2}}{9R}$
 - This is option **C**
 
@@ -235,7 +235,7 @@ Potential difference can also be described as:
 - Current is equal to $I=\frac{V}{R}$
 - Combining the two equations gives
 
-  - `P equals V open parentheses V over R close parentheses equals V to the power of space 2 end exponent over R`
+  - $P = V ( \frac{V}{R} ) = V^{ } \frac{2}{R}$
 - For the same value of *V *:
 
   - $P\proptoI$ and $P\propto\frac{1}{R}$
@@ -276,18 +276,18 @@ Potential difference can also be described as:
 ### Q16
 **Final answer:** **The correct answer is ****D**** because:**
 
-- Power is equal to `P equals V I equals open parentheses I R close parentheses I equals I to the power of space 2 end exponent R`
+- Power is equal to $P = V I = ( I R ) I = I^{ 2} R$
 - The energy transferred in external resistor is equal to $E=Pt=I^{2}Rt$
 
   - Current $I=40.0\mathrm{mA}=40.0\times10^{-3}A$
   - Resistance $R=250Ω$
   - Time $t=60.0s$
-- Energy transferred to the resistor `E space equals space open parentheses 40.0 cross times 10 to the power of negative 3 end exponent close parentheses squared space cross times space 250 space cross times space 60.0 space equals space 24.0 space straight J`
+- Energy transferred to the resistor $E = ( 40.0 \times 10^{- 3} )^{2} \times 250 \times 60.0 = 24.0 \mathrm{J}$
 
   - Therefore, since 6.0 J of energy is lost in internal resistance, the battery must supply a total of 6.0 + 24.0 = 30.0 J of energy to the whole circuit
 - The energy supplied by battery is $E=QV$
 - Where *Q* is the charge and *V* is the e. m .f of the battery.
-- Charge transferred, `Q space equals space I t space equals space open parentheses 40.0 cross times 10 to the power of negative 3 end exponent close parentheses space cross times space 60.0 space equals space 2.4 space straight C`
+- Charge transferred, $Q = I t = ( 40.0 \times 10^{- 3} ) \times 60.0 = 2.4 \mathrm{C}$
 
   - So, e. m. f of battery, $V=\frac{E}{Q}=\frac{30.0}{2.4}=12.5V$
 

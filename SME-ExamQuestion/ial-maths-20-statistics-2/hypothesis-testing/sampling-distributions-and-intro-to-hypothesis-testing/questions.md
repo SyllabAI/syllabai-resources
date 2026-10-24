@@ -6,7 +6,7 @@
 ## Q1 — easy — 5 marks · exam-questions
 
 ### 1() — 5 marks — structured
-A hypothesis test uses a sample of data in an experiment to test a statement made about the value of a population parameter `open parentheses p close parentheses.`
+A hypothesis test uses a sample of data in an experiment to test a statement made about the value of a population parameter $( p ).$
 
 Explain, in the context of hypothesis testing, what is meant by:
 
@@ -38,7 +38,7 @@ Suggest a suitable sampling frame.
 ### 1() — 4 marks — structured
 From previous research, Marta has found that in general there is a 15% chance that any given customer ordering food at her restaurant will choose a salad.  She wants to test whether people are more inclined to eat salads when it is sunny out.
 
-(i) Clearly defining the value of the population parameter `open parentheses p close parentheses`, state a suitable null hypothesis that Marta could use for this test.
+(i) Clearly defining the value of the population parameter $( p )$, state a suitable null hypothesis that Marta could use for this test.
 
 (ii) State a suitable alternative hypothesis that Marta could use for this test.
 
@@ -52,11 +52,11 @@ After carrying out the test, Marta had evidence to conclude that people are more
 ### 1() — 6 marks — structured
 For the following null and alternative hypotheses, state whether the test is a one-tailed or a two-tailed test and give a suitable example context for each problem.
 
-(i) `H subscript 0 ∶ p equals 0.5 comma space space H subscript 1 ∶ p greater than 0.5.`
+(i) $H_{0} ∶ p = 0.5 , H_{1} ∶ p > 0.5.$
 
-(ii) `H subscript 0 ∶ p equals begin inline style 1 over 6 end style comma space space H subscript 1 ∶ p not equal to begin inline style 1 over 6 end style.`
+(ii) $H_{0} ∶ p = \frac{1}{6} , H_{1} ∶ p \text{eq} \frac{1}{6} .$
 
-(iii) `H subscript 0 ∶ p equals 0.3 comma space space H subscript 1 ∶ p less than 0.3.`
+(iii) $H_{0} ∶ p = 0.3 , H_{1} ∶ p < 0.3.$
 
 ## Q5 — easy — 6 marks · exam-questions
 
@@ -74,7 +74,7 @@ In a quiz, students have to choose the correct answer to each question from thre
 ### 1() — 4 marks — structured
 A hypothesis test at the 4% significance level is carried out on a spinner with four sectors using the following hypotheses:
 
-`H subscript 0 ∶ p equals 1 fourth comma space space space space space H subscript 1 ∶ p not equal to 1 fourth comma`
+$H_{0} ∶ p = 1 \frac{1}{4} , H_{1} ∶ p \text{eq} 1 \frac{1}{4} ,$
 
 (i) Describe what the parameter, $p$, could be defined as.
 
@@ -94,7 +94,7 @@ The spinner is spun 50 times and it is decided to reject the null hypothesis if 
 ### 1() — 2 marks — structured
 Two volunteers at a national park, Owen and Cathy, have begun a campaign to stop people leaving their litter behind after visiting the park.  To see whether their campaign has had an effect, Owen conducts a hypothesis test at the 10% significance level, using the following hypotheses:
 
-`H subscript 0 ∶ p equals 0.2 comma space space space space space space space space H subscript 1 ∶ p not equal to 0.2`
+$H_{0} ∶ p = 0.2 , H_{1} ∶ p \text{eq} 0.2$
 
 (i) State the percentage of people who left litter behind in the national park before the start of the campaign.
 
@@ -108,7 +108,7 @@ With reference to the hypotheses above, state with a reason whether Owen should 
 ### 3() — 2 marks — structured
 Cathy conducted her own hypothesis test at the 10% significance level, using the same sample data as Owen, but instead she used the following hypotheses:
 
-`H subscript 0 ∶ p equals 0.2 comma space space space space space space space space space H subscript 1 ∶ p less than 0.2`
+$H_{0} ∶ p = 0.2 , H_{1} ∶ p < 0.2$
 
 (i) Explain how Cathy’s hypothesis test is different to Owen’s.
 
@@ -162,7 +162,7 @@ For a given random sample of size $n$, write down an expression for the total nu
 ### 3() — 2 marks — structured
 The random variable $X$ is defined as
 
-`X space equals space open curly brackets table row cell 1 comma end cell cell space if space the space sheep space has space the space disease comma end cell row cell 0 comma end cell cell if space the space sheep space does space not space have space the space disease. end cell end table close`
+`X = { | 1 , | if the sheep has the disease , | | 0 , | if the sheep does not have the disease. | | close`
 
 Write down the sampling distribution of the statistic
 
@@ -232,7 +232,7 @@ State suitable null and alternative hypotheses to test this claim.
 ### 2() — 2 marks — structured
 After the engineer is finished, the manager of the company takes a random sample of 100 toys and finds that 2 of them are faulty.
 
-Given that $P(X\leq2)=0.01127$ when`space X tilde B left parenthesis 100 comma 0.08 right parenthesis`, determine the outcome of the hypothesis test using a 1% level of significance.  Give your conclusion in context.
+Given that $P(X\leq2)=0.01127$ when$X \sim B ( 100 , 0.08 )$, determine the outcome of the hypothesis test using a 1% level of significance.  Give your conclusion in context.
 
 ## Q14 — medium — 5 marks · exam-questions
 
@@ -242,7 +242,7 @@ After it was estimated that only 72% of patients were turning up for their appoi
 State suitable null and alternative hypotheses to test this claim.
 
 ### 2() — 1 mark — structured
-Given that for this hypothesis test `X tilde B left parenthesis 160 comma p right parenthesis` describe, in context, the random variable $X.$
+Given that for this hypothesis test $X \sim B ( 160 , p )$ describe, in context, the random variable $X.$
 
 ### 3() — 2 marks — structured
 Out of the 160 patients used for the sample, 127 turned up for their appointments. It is given that, assuming the null hypothesis is true, $P(X\geq127)=0.02094$.
@@ -259,7 +259,7 @@ Chase buys a board game which contains a six-sided dice. He rolls the dice 150 t
 (ii) State a suitable alternative hypothesis for a two-tailed test.
 
 ### 2() — 3 marks — structured
-Given that $P(X\leq15)=0.01452$ when  `X tilde B open parentheses 150 comma begin inline style 1 over 6 end style close parentheses`, test Chase’s belief that the dice is not fair, using a 2% level of significance.
+Given that $P(X\leq15)=0.01452$ when  $X \sim B ( 150 , \frac{1}{6} )$, test Chase’s belief that the dice is not fair, using a 2% level of significance.
 
 ## Q16 — medium — 5 marks · exam-questions
 
@@ -277,7 +277,7 @@ Flight delays at a certain small airport are found to happen randomly and indepe
 ## Q17 — medium — 5 marks · exam-questions
 
 ### 1() — 1 mark — structured
-A two-tailed test of the null hypothesis $H_{0}:p=0.23$ is carried out for the random variable `space X tilde B left parenthesis 60 comma p right parenthesis`.
+A two-tailed test of the null hypothesis $H_{0}:p=0.23$ is carried out for the random variable $X \sim B ( 60 , p )$.
 
 Write down the alternative hypothesis.
 
@@ -302,7 +302,7 @@ Find the actual level of significance of this test.
 ### 1() — 4 marks — structured
 Joel is a manager at a swimming pool and claims that less than half of customers wear goggles in the water.  Joel forms a sample using the next 100 swimmers and he notes that 42 of them wear goggles.
 
-If `space X tilde B left parenthesis 100 comma 0.5 right parenthesis` then:
+If $X \sim B ( 100 , 0.5 )$ then:
 
 $P(X<42)=0.0443\,P(X\leq42)=0.0666\,P(X=42)=0.0223\,P(X\geq42)=0.9557\,P(X>42)=0.9334$
 
@@ -318,7 +318,7 @@ Explain how this information affects the conclusion to the hypothesis test.
 ### 1() — 4 marks — structured
 At *Hilbert’s Hotel* three quarters of customers leave feedback upon departure by writing a comment in a book on the reception desk.  Karla, the manager, decides to get rid of the feedback book and instead leaves a feedback form in each room.  To test whether this new system has made a difference to the proportion of guests who leave feedback, Karla forms a sample using the next 80 room bookings.  Once the 80 sets of guests leave *Hilbert’s Hotel*, Karla counts that 65 feedback forms have been completed.
 
-When `space X tilde B open parentheses 80 comma 3 over 4 close parentheses` the following probabilities are given:
+When $X \sim B ( 80 , \frac{3}{4} )$ the following probabilities are given:
 
 $P(X<65)=0.8792\,P(X\leq65)=0.9260\,P(X=65)=0.0468\,P(X\geq65)=0.1208\,P(X>65)=0.0740$
 
@@ -339,7 +339,7 @@ A spinner with seven equal sections labelled 0, 1, 1, 3, 3, 3 and 3 is being use
 List all the possible samples that could result when a contestant spins the spinner twice.
 
 ### 2() — 4 marks — structured
-Assuming that the spinner is fair, find the sampling distribution for the sum of $S_{1}\mathrm{and}S_{2}$ `open parentheses sum S close parentheses`.
+Assuming that the spinner is fair, find the sampling distribution for the sum of $S_{1}\mathrm{and}S_{2}$ $( \text{sum} S )$.
 
 ### 3() — 2 marks — structured
 If the sum of the two spins is 0, the contestant wins a grand prize.  After a day of playing the game, the grand prize has been won six times and the game show host thinks that someone may have tampered with the spinner so as to make a grand prize win more likely.  A hypothesis test is carried out at the 5% level of significance to test if the spinner is fair.
@@ -360,7 +360,7 @@ A group of high school statistics students are investigating the probability of 
 
 | Gertrude’s solution<br><br>`H subscript 0 ∶ p equals 0.6<br>H subscript 1 ∶ p greater or equal than 0.6` | Nate’s solution<br><br>`H subscript 0 ∶ p equals 0.6<br>H subscript 1 ∶ p greater than 24 over 30 equals 0.8` |
 |---|---|
-| Let  be the number of games won,<br><br>`X tilde B left parenthesis 30 comma 0.6 right parenthesis`<br><br>$P(X=24)=0.0115$<br><br>$0.0115<0.05$so do not reject $H_{0}$ | Let  be the number of games won,<br><br>`X tilde B left parenthesis 30 comma 0.6 right parenthesis`<br><br>$P(X>24)=0.0057$<br><br>$0.0057<0.05$ so reject $H_{0}$ |
+| Let  be the number of games won,<br><br>$X \sim B ( 30 , 0.6 )$<br><br>$P(X=24)=0.0115$<br><br>$0.0115<0.05$so do not reject $H_{0}$ | Let  be the number of games won,<br><br>$X \sim B ( 30 , 0.6 )$<br><br>$P(X>24)=0.0057$<br><br>$0.0057<0.05$ so reject $H_{0}$ |
 
 You are given that the students have correctly calculated their probabilities.
 
@@ -416,7 +416,7 @@ Using your answer from part (c), and clearly defining any random variables you u
 ### 1() — 1 mark — structured
 It is known that historically 40% of all bees in a certain part of the UK belonged to pollinating species.  Farmers in the area, however, believe that that percentage has decreased in the past ten years.  They design an experiment in which they will safely catch 200 bees in the area, check which species they belong to, and then release them.  The farmers carry out a hypothesis test at the 10% significance level.
 
-They calculate that for `X tilde B left parenthesis 200 comma 0.4 right parenthesis`
+They calculate that for $X \sim B ( 200 , 0.4 )$
 
 $P(X<70)=0.063903\,P(X=70)=0.020495\,P(X=71)=0.025018$
 
@@ -426,7 +426,7 @@ Clearly defining any parameters, state the null and alternative hypotheses for t
 Find the probability of incorrectly rejecting the null hypothesis.
 
 ### 3() — 2 marks — structured
-It is discovered subsequently that in fact only 30% of bees in the area now belong to pollinating species. Given that for `X tilde B left parenthesis 200 comma 0.3 right parenthesis`
+It is discovered subsequently that in fact only 30% of bees in the area now belong to pollinating species. Given that for $X \sim B ( 200 , 0.3 )$
 
 $P(X\geq70)=0.072786\,P(X=70)=0.018579\,P(X<70)=0.927214$
 
@@ -442,7 +442,7 @@ In the context of hypothesis testing, explain the term:
 (ii) critical value.
 
 ### 2() — 3 marks — structured
-The table below shows the probabilities for different values that `space X tilde B left parenthesis 40 comma 0.8 right parenthesis` can take:
+The table below shows the probabilities for different values that $X \sim B ( 40 , 0.8 )$ can take:
 
 | $x$ | $P(X=x)$ |
 |---|---|
@@ -452,7 +452,7 @@ The table below shows the probabilities for different values that `space X tilde
 | 37 | $0.020520$ |
 | 36 | $0.047452$ |
 
-A test of the null hypothesis $H_{0}:p=0.8$ against the alternative hypothesis `H subscript 1 ∶ p greater than 0.8` is carried out for the random variable `space X tilde B left parenthesis 40 comma p right parenthesis.`
+A test of the null hypothesis $H_{0}:p=0.8$ against the alternative hypothesis `H subscript 1 ∶ p greater than 0.8` is carried out for the random variable $X \sim B ( 40 , p ).$
 
 Using a 5% level of significance, find the values of $X$ which would lead to the rejection of the null hypothesis.
 
@@ -466,7 +466,7 @@ Given that $x=38$ is a critical value, find the minimum level of significance fo
 ### 1() — 5 marks — structured
 Meditest is a company manufacturing medical tests which are used to determine whether a patient has a certain illness.  Meditest claims that the tests are 95% accurate, however a particular hospital will only purchase the tests if they are more than 95% accurate.  Meditest test the accuracy of their product using a sample of 250 patients with the illness and agree on a 1% level of significance.  They discover that the tests are accurate for 245 out of the 250 patients.
 
-If `space X tilde B left parenthesis 250 comma 0.95 right parenthesis` then $P(X=245)=0.008515$ and $P(X>245)=0.004571$.
+If $X \sim B ( 250 , 0.95 )$ then $P(X=245)=0.008515$ and $P(X>245)=0.004571$.
 
 Stating your hypotheses clearly, test whether Meditest’s product is more than 95% accurate using a 1% level of significance.
 
@@ -480,7 +480,7 @@ Comment on the validity of Meditest’s report to the hospital.
 ### 1() — 4 marks — structured
 Frank is the owner of a factory which has recently opened near a school where Hilda is the headteacher.  Before the factory opened, the attendance rate at the school was good 90% of the time.  Hilda claims that the proportion of days when the attendance rate is good has decreased and she suspects this is due to the fumes from the factory making the children sick.  Frank disagrees and claims that the factory has made no difference to the attendance rate.  To test their claims a sample of 40 days is taken and on 32 days the attendance rate is good.
 
-If `space X tilde B left parenthesis 40 comma 0.9 right parenthesis` then:
+If $X \sim B ( 40 , 0.9 )$ then:
 
 $P(X<32)=0.015495\,P(X=32)=0.026407\,P(X>32)=0.958098$
 
@@ -515,7 +515,7 @@ Given that the teacher chose his sample only from bronze and silver stars, write
 ## Q29 — very_hard — 6 marks · exam-questions
 
 ### 1() — 4 marks — structured
-Given that `space X tilde B left parenthesis 40 comma 0.3 right parenthesis` then:
+Given that $X \sim B ( 40 , 0.3 )$ then:
 
 $P(X\leq5)=0.008618\,P(X=6)=k\,P(X=7)=0.031522$
 
@@ -527,7 +527,7 @@ When a sample of size 40 is used to test  `H subscript 0 ∶ p equals 0.3` again
 ## Q30 — very_hard — 9 marks · exam-questions
 
 ### 1() — 2 marks — structured
-If `space X tilde B left parenthesis n comma p right parenthesis` then $P(X=0)=(1-p)^{n}$ and $P(X=n)=p^{n}$.
+If $X \sim B ( n , p )$ then $P(X=0)=(1-p)^{n}$ and $P(X=n)=p^{n}$.
 
 A sample of size 30 is used to test the null hypothesis `H subscript 0 ∶ p equals 0.9` against the alternative hypothesis `H subscript 1 ∶ p greater than 0.9` using a $k$% level of significance.
 

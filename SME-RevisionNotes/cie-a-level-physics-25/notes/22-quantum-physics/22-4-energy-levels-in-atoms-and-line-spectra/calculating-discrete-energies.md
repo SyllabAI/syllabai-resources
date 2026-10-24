@@ -72,7 +72,7 @@ $λ=\frac{hc}{E_{2}-E_{1}}$
 > 
 > - To convert from eV → J: **multiply** by 1.6 × 10<sup>-19</sup>
 > 
-> `lambda space equals space fraction numerator open parentheses 6.63 space cross times space 10 to the power of negative 34 end exponent close parentheses open parentheses 3 space cross times space 10 to the power of 8 close parentheses space over denominator open parentheses negative 3.4 space minus space open parentheses negative 0.54 close parentheses close parentheses open parentheses 1.6 space cross times space 10 to the power of negative 19 end exponent close parentheses end fraction space equals space open parentheses minus close parentheses 4.347 space cross times space 10 to the power of negative 7 end exponent space straight m space equals space 435 space nm`
+> $\\lambda = \frac{( 6.63 \times 10^{- 34} ) ( 3 \times 10^{8 ) }{( - 3.4 - ( - 0.54 ) ) ( 1.6 \times 10^{-19} } )} = ( - ) 4.347 \times 10^{- 7} \mathrm{m} = 435 \text{nm}$
 
 > **Exam Hint**
 > Don't forget the minus sign and correctly know which energy level is *E*<sub>2</sub> and *E*<sub>1</sub>.

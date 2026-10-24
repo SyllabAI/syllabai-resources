@@ -83,7 +83,7 @@ Don’t be fooled by the units of km h<sup>−1</sup>. You don’t need to conve
 - When we construct a vector triangle, we can see the direction will be west of north
 - We can calculate the angle from
 
-  - `sin to the power of negative 1 space end exponent open parentheses begin inline style 85 over 200 end style close parentheses space space equals space 25.15 degree`
+  - $\sin ^{- 1 } ( \frac{85}{200} ) = 25.15^{\circ}$
 
 ![q2-1-2-medium-cie-ial-physics](assets/007-q2-1-2-medium-cie-ial-physics.png)
 
@@ -224,7 +224,7 @@ You can use the mnemonic SOH CAH TOA as a checklist to see which trigonometric r
   - $\mathrm{cos}θ=\frac{1310}{2\times700}=0.9357$
 - The angle $θ$ is
 
-  - `theta space equals space cos to the power of negative 1 end exponent space open parentheses 0.9357 close parentheses`
+  - $\\theta = \cos ^{- 1} ( 0.9357 )$
   - $θ=20.656\approx21^{\circ}$
 - This is option **A**
 
@@ -253,25 +253,25 @@ You can use the mnemonic SOH CAH TOA as a checklist to see which trigonometric r
 
 - Consider the cosine rule to find the length of the resultant side:
 
-  - `a squared space equals space b squared space plus space c squared space minus 2 b c space cos open parentheses A close parentheses`
+  - $a^{2} = b^{2} + c^{2} - 2 b c \cos ( A )$
   - Label the angles and sides of the triangle
 
 ![file-000-13](assets/023-file-000-13.png)
 
 - Substitute in the known sides and angle
 
-  - `a squared space equals space 10 squared space plus space 10 squared space minus 2 cross times 10 cross times 10 cross times cos open parentheses 60 close parentheses`
+  - $a^{2} = 10^{2} + 10^{2} - 2 \times 10 \times 10 \times \cos ( 60 )$
 - Calculate the length of the resultant side *a*:
 
   - *a* = 10 N
 - Consider the sine rule to find the angle of the resultant side to the horizontal:
 
-  - `fraction numerator a over denominator sin open parentheses A close parentheses end fraction space equals space fraction numerator c over denominator sin open parentheses C close parentheses end fraction`
+  - $\frac{a}{\sin ( A )} = \frac{c}{\sin ( C )}$
 - Substitute in the known sides and angle:
 
-  - `fraction numerator 10 over denominator sin open parentheses 60 close parentheses end fraction space equals space fraction numerator 10 over denominator sin open parentheses C close parentheses end fraction`
+  - $\frac{10}{\sin ( 60 )} = \frac{10}{\sin ( C )}$
 - Rearrange the equation and calculate the angle of the resultant side to the horizontal:
 
-  - `10 space cross times space sin open parentheses C close parentheses space equals space 10 space cross times space sin open parentheses 60 close parentheses`
-  - `sin open parentheses C close parentheses space equals space sin open parentheses 60 close parentheses`
+  - $10 \times \sin ( C ) = 10 \times \sin ( 60 )$
+  - $\sin ( C ) = \sin ( 60 )$
   - So, *C* = 60°

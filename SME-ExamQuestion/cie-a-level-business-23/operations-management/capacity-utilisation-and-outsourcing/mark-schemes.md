@@ -360,7 +360,7 @@ One implication for a business of operating at full capacity is that it is unabl
 
 $\mathrm{Capacity} \mathrm{utilisation}=\frac{\mathrm{Current} \mathrm{output}}{\mathrm{Maximum} \mathrm{output}}\times100$
 
-`equals space fraction numerator 9 comma 000 over denominator 12 comma 000 end fraction space cross times space 100 space equals 75 percent sign`
+$= \frac{9 , 000}{12 , 000} \times 100 = 75 \%$
 
 > **[mark-scheme]**
 > - Up to 2 marks for valid workings
@@ -383,7 +383,7 @@ Capacity utilisation
 
 $\mathrm{Capacity} \mathrm{utilisation}=\frac{\mathrm{Current} \mathrm{output}}{\mathrm{Maximum} \mathrm{output}}\times100$
 
-`equals space fraction numerator 3 comma 900 over denominator 5 comma 000 end fraction space cross times space 100 space equals 78 percent sign`
+$= \frac{3 , 900}{5 , 000} \times 100 = 78 \%$
 
 > **[mark-scheme]**
 > - Up to 2 marks for valid workings
@@ -457,7 +457,7 @@ $=14m\times1.10=15.4\mathrm{million} \mathrm{frames}$
 
 $\mathrm{Capacity} \mathrm{utilisation}=\frac{\mathrm{Current} \mathrm{output}}{\mathrm{Maximum} \mathrm{output}}\times100$
 
-`equals space fraction numerator 15.4 straight m over denominator space 16 straight m end fraction space cross times space 100 space equals space 96.25 percent sign`
+$= \frac{15.4 \mathrm{m} }{ 16 \mathrm{m} } \times 100 = 96.25 \%$
 
 > **[mark-scheme]**
 > - Up to 2 marks for valid workings
@@ -470,7 +470,7 @@ $\mathrm{Capacity} \mathrm{utilisation}=\frac{\mathrm{Current} \mathrm{output}}{
 
 $\mathrm{Capacity} \mathrm{utilisation}=\frac{\mathrm{Current} \mathrm{output}}{\mathrm{Maximum} \mathrm{output}}\times100$
 
-`equals space fraction numerator 1 comma 000 over denominator space 2 comma 200 end fraction space cross times space 100 space equals space 45.45 percent sign`
+$= \frac{1 , 000}{ 2 , 200} \times 100 = 45.45 \%$
 
 > **[mark-scheme]**
 > - Up to 1 mark for a valid working
@@ -483,7 +483,7 @@ $\mathrm{Capacity} \mathrm{utilisation}=\frac{\mathrm{Current} \mathrm{output}}{
 
 $\mathrm{Capacity} \mathrm{utilisation}=\frac{\mathrm{Current} \mathrm{output}}{\mathrm{Maximum} \mathrm{output}}\times100$
 
-`equals space fraction numerator 1.05 over denominator 1.00 end fraction space cross times space 100 space equals space 105 percent sign`
+$= \frac{1.05}{1.00} \times 100 = 105 \%$
 
 > **[mark-scheme]**
 > - Up to 1 mark for a valid working

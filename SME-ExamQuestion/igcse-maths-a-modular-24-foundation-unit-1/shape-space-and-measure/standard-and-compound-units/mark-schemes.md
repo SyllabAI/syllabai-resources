@@ -7,7 +7,7 @@
 ### 5((d)) — 2 marks
 > *Work out the number of miles in 1 kilometre by dividing by 8*
 
-`table row cell 8 space kilometre s end cell equals cell 5 space miles end cell row cell 8 divided by 8 end cell equals cell 5 divided by 8 end cell row cell 1 space kilometre end cell equals cell 5 over 8 miles end cell end table`
+$\begin{gathered} 8 \text{kilometre} s & = 5 \text{miles} \\ 8 \div 8 & = 5 \div 8 \\ 1 \text{kilometre} & = \frac{5}{8} \text{miles} \end{gathered}$
 
 > *Since there are *$\frac{5}{8}$*miles in 1 kilometre, this can be multiplied by 14 to work out the number of miles in 14 kilometres*
 
@@ -76,7 +76,7 @@ $\frac{27000}{60\times60}$
 ### 11((a)) — 2 marks
 > *Calculate the length of time to get to midnight on Monday from 21:10 using the facts that there are 24 hours in a day and 60 minutes in an hour*
 
-`table row cell 21 colon 10 plus 50 space minutes end cell equals cell 22 colon 00 end cell row cell 22 colon 00 plus 2 space hours end cell equals cell 00 colon 00 space open parentheses midnight close parentheses end cell row blank blank blank row cell 2 space hours plus 50 space minutes end cell equals cell 2 space hours space 50 space minutes end cell end table`
+`| 21 colon 10 + 50 minutes | = 22 colon 00 | | 22 colon 00 + 2 hours | = 00 colon 00 ( midnight ) | | _ _ _ | 2 hours + 50 minutes | = 2 hours 50 minutes | |`
 
 **[M1]**
 
@@ -86,9 +86,9 @@ $00:00+6\mathrm{hours}45\mathrm{minutes}=06:45$
 
 > *Add the two lengths of time together, adding the hours and minutes separately to help calculate*
 
-`table row blank blank cell 2 space hours space 50 space minutes plus 6 space hours space 45 space minutes end cell end table`
+$\begin{gathered} 2 \text{hours} 50 \text{minutes} + 6 \text{hours} 45 \text{minutes} \end{gathered}$
 
-`table row cell 2 space hours plus 6 space hours end cell equals cell 8 space hours end cell row cell 50 space minutes plus 45 space minutes end cell equals cell 95 space minutes equals 1 space hour space 35 space minutes end cell row blank blank blank row cell 8 space hours plus 1 space hour space 35 space minutes end cell equals cell 9 space hours space 35 space minutes end cell row blank blank blank end table`
+`| 2 hours + 6 hours | = 8 hours | | 50 minutes + 45 minutes | = 95 minutes = 1 hour 35 minutes | | _ _ _ | 8 hours + 1 hour 35 minutes | = 9 hours 35 minutes | | _ _ _ |`
 
 **Final answer:** **9 hours 35 minutes**
 
@@ -101,7 +101,7 @@ $11\frac{1}{4}=11.25$
 
 > *Substitute the values for distance and time into the formula to calculate speed*
 
-`table row speed equals cell distance over time end cell row speed equals cell fraction numerator 493 over denominator 11.25 end fraction end cell row blank equals cell 43.822... end cell end table`
+$\begin{gathered} \text{speed} = \frac{distance}{time} \\ \text{speed} = \frac{493}{11.25} \\ = 43.822... \end{gathered}$
 
 **[M1]**
 

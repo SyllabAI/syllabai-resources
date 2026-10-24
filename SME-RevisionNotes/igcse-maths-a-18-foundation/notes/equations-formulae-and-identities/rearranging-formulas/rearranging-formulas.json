@@ -293,7 +293,7 @@
   },
   {
    "type": "bullets",
-   "md": "- A** formula** is a rule, definition or relationship between different quantities, written in shorthand using **letters **(**variables**)\n\n  - Formulas include an **equals** sign\n- Some examples you should be **familiar **with are:\n\n  - The equation of a straight line\n  \n    - $y=mx+c$\n  - The area of a trapezium\n  \n    - `Area space equals space fraction numerator open parentheses a space plus space b close parentheses h over denominator 2 end fraction`\n  - Pythagoras' theorem\n  \n    - $a^{2}+b^{2}=c^{2}$"
+   "md": "- A** formula** is a rule, definition or relationship between different quantities, written in shorthand using **letters **(**variables**)\n\n  - Formulas include an **equals** sign\n- Some examples you should be **familiar **with are:\n\n  - The equation of a straight line\n  \n    - $y=mx+c$\n  - The area of a trapezium\n  \n    - $\\text{Area} = \\frac{( a + b ) h}{2}$\n  - Pythagoras' theorem\n  \n    - $a^{2}+b^{2}=c^{2}$"
   },
   {
    "type": "heading",
@@ -302,7 +302,7 @@
   },
   {
    "type": "bullets",
-   "md": "- The letter (**variable**) that is on its** own** on one side is called the **subject**\n\n  - *y*  is the subject of *y* = *mx* + *c*\n- To make a different letter the subject, we need to **rearrange the formula**\n\n  - This is also called **changing the subject**\n- The method is as follows:\n\n  - First, **remove **any **fractions**\n  \n    - Multiply both sides by the lowest common denominator\n  - Then use **inverse** (opposite) **operations** to get the variable on its own\n  \n    - This is similar to solving equations\n- For example, make $x$ the subject of $\\frac{5x+6}{2}=y$\n\n  - First remove fractions\n  \n    - Multiply both sides by 2\n    $5x+6=2y$\n  - Then get $x$ on its own\n  \n    - Subtract 6 from both sides\n    $5x=2y-6$\n    - Divide both sides by 5\n    $x=\\frac{2y-6}{5}$\n  - There may be more than one correct way to write an answer\n  \n    - The following are acceptable **alternative** forms \n    $x=\\frac{2y}{5}-\\frac{6}{5}$\n    `x equals fraction numerator 2 open parentheses y minus 3 close parentheses over denominator 5 end fraction`\n    `x equals 0.4 open parentheses y minus 3 close parentheses`\n    $x=0.4y-1.2$"
+   "md": "- The letter (**variable**) that is on its** own** on one side is called the **subject**\n\n  - *y*  is the subject of *y* = *mx* + *c*\n- To make a different letter the subject, we need to **rearrange the formula**\n\n  - This is also called **changing the subject**\n- The method is as follows:\n\n  - First, **remove **any **fractions**\n  \n    - Multiply both sides by the lowest common denominator\n  - Then use **inverse** (opposite) **operations** to get the variable on its own\n  \n    - This is similar to solving equations\n- For example, make $x$ the subject of $\\frac{5x+6}{2}=y$\n\n  - First remove fractions\n  \n    - Multiply both sides by 2\n    $5x+6=2y$\n  - Then get $x$ on its own\n  \n    - Subtract 6 from both sides\n    $5x=2y-6$\n    - Divide both sides by 5\n    $x=\\frac{2y-6}{5}$\n  - There may be more than one correct way to write an answer\n  \n    - The following are acceptable **alternative** forms \n    $x=\\frac{2y}{5}-\\frac{6}{5}$\n    $x = \\frac{2 ( y - 3 )}{5}$\n    $x = 0.4 ( y - 3 )$\n    $x=0.4y-1.2$"
   },
   {
    "type": "heading",
@@ -311,13 +311,13 @@
   },
   {
    "type": "bullets",
-   "md": "- If the variable is inside the brackets, you can either:\n\n  - **expand **the brackets\n  - or **divide **both by the coefficient if it is not zero\n- For example,** ** make $x$ the subject of $3(1+x)=y$\n\n  - You can expand and then rearrange\n  \n    - $3+3x=y$\n    - `table row cell 3 x end cell equals cell y minus 3 end cell end table`\n    - `table row x equals cell fraction numerator y minus 3 over denominator 3 end fraction end cell end table`\n  - You can divide and then rearrange\n  \n    - $1+x=\\frac{y}{3}$\n    - $x=\\frac{y}{3}-1$\n  - Both answers are equivalent\n  \n    - $\\frac{y-3}{3}$ is the same as $\\frac{y}{3}-1$"
+   "md": "- If the variable is inside the brackets, you can either:\n\n  - **expand **the brackets\n  - or **divide **both by the coefficient if it is not zero\n- For example,** ** make $x$ the subject of $3(1+x)=y$\n\n  - You can expand and then rearrange\n  \n    - $3+3x=y$\n    - $\\begin{gathered} 3 x & = y - 3 \\end{gathered}$\n    - $\\begin{gathered} x = \\frac{y - 3}{3} \\end{gathered}$\n  - You can divide and then rearrange\n  \n    - $1+x=\\frac{y}{3}$\n    - $x=\\frac{y}{3}-1$\n  - Both answers are equivalent\n  \n    - $\\frac{y-3}{3}$ is the same as $\\frac{y}{3}-1$"
   },
   {
    "type": "callout",
    "variant": "exam-tip",
    "label": "Exam Hint",
-   "md": "Stop and think when you see a bracket. If the variable you are trying to make the subject is not inside the bracket, then you do not need to expand.\n\nFor example, to make $x$ the subject of `open parentheses 1 plus k close parentheses x equals y`, you can simply divide both sides by `open parentheses 1 plus k close parentheses` to get $x=\\frac{y}{1+k}$."
+   "md": "Stop and think when you see a bracket. If the variable you are trying to make the subject is not inside the bracket, then you do not need to expand.\n\nFor example, to make $x$ the subject of $( 1 + k ) x = y$, you can simply divide both sides by $( 1 + k )$ to get $x=\\frac{y}{1+k}$."
   },
   {
    "type": "heading",
@@ -335,7 +335,7 @@
   },
   {
    "type": "bullets",
-   "md": "- Remember that $\\frac{a}{-b}$ (minus **below**) is the same as $\\frac{-a}{b}$ (minus **above**) and the same as $-\\frac{a}{b}$ (minus **outside**)\n\n  - Though be careful, as $\\frac{-a}{-b}$ is $\\frac{a}{b}$\n- $-2x=y-3$ becomes $x=\\frac{y-3}{-2}$ (minus** below**)\n\n  - This is the same as `x equals fraction numerator negative open parentheses y minus 3 close parentheses over denominator 2 end fraction` (minus **above**) or $-\\frac{y-3}{2}$ (minus **outside**)\n  \n    - **brackets** are **required** for minus **above**\n    - **brackets** are **assumed** for minus **outside**\n  - You can also **expand** the brackets\n  `fraction numerator negative open parentheses y minus 3 close parentheses over denominator 2 end fraction equals fraction numerator negative y plus 3 over denominator 2 end fraction equals fraction numerator 3 minus y over denominator 2 end fraction`"
+   "md": "- Remember that $\\frac{a}{-b}$ (minus **below**) is the same as $\\frac{-a}{b}$ (minus **above**) and the same as $-\\frac{a}{b}$ (minus **outside**)\n\n  - Though be careful, as $\\frac{-a}{-b}$ is $\\frac{a}{b}$\n- $-2x=y-3$ becomes $x=\\frac{y-3}{-2}$ (minus** below**)\n\n  - This is the same as $x = \\frac{- ( y - 3 )}{2}$ (minus **above**) or $-\\frac{y-3}{2}$ (minus **outside**)\n  \n    - **brackets** are **required** for minus **above**\n    - **brackets** are **assumed** for minus **outside**\n  - You can also **expand** the brackets\n  $\\frac{- ( y - 3 )}{2} = \\frac{- y + 3}{2} = \\frac{3 - y}{2}$"
   },
   {
    "type": "callout",
@@ -347,7 +347,7 @@
    "type": "callout",
    "variant": "worked-example",
    "label": "Worked Example",
-   "md": "Make $x$ the subject of the following.\n\n(a) $4m+5x=3$\n\n**Answer:**\n\n> *Get 5**x**  on its own by subtracting 4**m**  from both sides*\n\n$5x=3-4m$\n\n> *Get **x**  on its own by dividing both sides by 5*\n\n$x=\\frac{3-4m}{5}$\n\n(b) $3t=\\frac{2}{x}$\n\n**Answer:**\n\n> *Remove fractions by multiplying both sides by the denominator, **x*\n\n$3tx=2$\n\n> *Get **x**  on its own by dividing both sides by 3**t*\n\n$x=\\frac{2}{3t}$\n\n(c) `A equals fraction numerator 9 open parentheses 1 minus 4 x close parentheses over denominator 2 g end fraction`\n\n**Answer:**\n\n> *Remove fractions by multiplying both sides by the denominator, 2**g*\n\n`2 g A equals 9 open parentheses 1 minus 4 x close parentheses`\n\n> *x ** is inside the brackets*\n*Expand the brackets to release the **x**  term*\n\n$2gA=9-36x$\n\n> *One way to get **x**  on its own is by subtracting 9 then dividing by -36*\n*Or you can first add 36**x ** to both sides, to create positive 36**x**  on the left*\n\n$2gA+36x=9$\n\n> *Now get **x**  on its own by subtracting 2**gA **then dividing by 36*\n\n`table row cell 36 x end cell equals cell 9 minus 2 g A end cell row x equals cell fraction numerator 9 minus 2 g A over denominator 36 end fraction end cell end table`\n\n$x=\\frac{9-2gA}{36}$\n\n**Final answer:** **Other accepted forms of the answer are: **`fraction numerator 2 g A minus 9 over denominator negative 36 end fraction space comma space space space fraction numerator negative open parentheses 2 g A minus 9 close parentheses over denominator 36 end fraction space comma space space space minus fraction numerator 2 g A minus 9 over denominator 36 end fraction space comma space space space 1 fourth minus fraction numerator g A over denominator 18 end fraction`"
+   "md": "Make $x$ the subject of the following.\n\n(a) $4m+5x=3$\n\n**Answer:**\n\n> *Get 5**x**  on its own by subtracting 4**m**  from both sides*\n\n$5x=3-4m$\n\n> *Get **x**  on its own by dividing both sides by 5*\n\n$x=\\frac{3-4m}{5}$\n\n(b) $3t=\\frac{2}{x}$\n\n**Answer:**\n\n> *Remove fractions by multiplying both sides by the denominator, **x*\n\n$3tx=2$\n\n> *Get **x**  on its own by dividing both sides by 3**t*\n\n$x=\\frac{2}{3t}$\n\n(c) $A = \\frac{9 ( 1 - 4 x )}{2 g}$\n\n**Answer:**\n\n> *Remove fractions by multiplying both sides by the denominator, 2**g*\n\n$2 g A = 9 ( 1 - 4 x )$\n\n> *x ** is inside the brackets*\n*Expand the brackets to release the **x**  term*\n\n$2gA=9-36x$\n\n> *One way to get **x**  on its own is by subtracting 9 then dividing by -36*\n*Or you can first add 36**x ** to both sides, to create positive 36**x**  on the left*\n\n$2gA+36x=9$\n\n> *Now get **x**  on its own by subtracting 2**gA **then dividing by 36*\n\n$\\begin{gathered} 36 x & = 9 - 2 g A \\\\ x = \\frac{9 - 2 g A}{36} \\end{gathered}$\n\n$x=\\frac{9-2gA}{36}$\n\n**Final answer:** **Other accepted forms of the answer are: **$\\frac{2 g A - 9}{- 36} , \\frac{- ( 2 g A - 9 )}{36} , - \\frac{2 g A - 9}{36} , 1 \\frac{1}{4} - \\frac{g A}{18}$"
   }
  ]
 }

@@ -106,7 +106,7 @@ guided_study: true
 > 
 > > *Differentiate the original equation to find the 1*<sup>*st*</sup>* derivative, the gradient function, *$\frac{dy}{dx}$
 > 
-> `table row cell 2 x cubed end cell rightwards arrow cell 6 x squared end cell row cell 3 x squared end cell rightwards arrow cell 6 x end cell row cell negative 12 x end cell rightwards arrow cell negative 12 end cell row 1 rightwards arrow 0 end table`
+> $\begin{gathered} 2 x^{3} & \rightarrow 6 x^{2} \\ 3 x^{2} & \rightarrow 6 x \\ - 12 x & \rightarrow - 12 \\ 1 \rightarrow 0 \end{gathered}$
 > 
 > $\frac{dy}{dx}=6x^{2}+6x-12$
 > 
@@ -125,23 +125,23 @@ guided_study: true
 > 
 > > *Differentiate the original equation to find the 1*<sup>*st*</sup>* derivative*
 > 
-> `table row cell 2 x cubed end cell rightwards arrow cell 6 x squared end cell row cell 3 x squared end cell rightwards arrow cell 6 x end cell row cell negative 12 x end cell rightwards arrow cell negative 12 end cell row 1 rightwards arrow 0 end table`
+> $\begin{gathered} 2 x^{3} & \rightarrow 6 x^{2} \\ 3 x^{2} & \rightarrow 6 x \\ - 12 x & \rightarrow - 12 \\ 1 \rightarrow 0 \end{gathered}$
 > 
 > $\frac{dy}{dx}=6x^{2}+6x-12$
 > 
 > > *Differentiate again to find the 2*<sup>*nd*</sup>* derivative*
 > 
-> `table row cell 6 x squared end cell rightwards arrow cell 12 x end cell row cell 6 x end cell rightwards arrow 6 row cell negative 12 end cell rightwards arrow 0 end table`
+> $\begin{gathered} 6 x^{2} & \rightarrow 12 x \\ 6 x & \rightarrow 6 \\ - 12 & \rightarrow 0 \end{gathered}$
 > 
 > $\frac{d^{2}y}{dx^{2}}=12x+6$
 > 
 > > *Find the nature of each turning point by substituting the value of its **x**-coordinate into the 2*<sup>*nd*</sup>* derivative*
 > *A negative result indicates a maximum point (or positive for a minimum point)*
 > 
-> *For (-2, 21):   *`fraction numerator straight d squared y over denominator straight d x squared end fraction equals 12 open parentheses negative 2 close parentheses plus 6 equals negative 18`
+> *For (-2, 21):   *$\frac{ \mathrm{d}^{2} y}{ \mathrm{d} x^{2}} = 12 ( - 2 ) + 6 = - 18$
 > 
 > **Final answer:** **The second derivative is negative, therefore the turning point at (-2, 21) is a maximum point**
 > 
-> *For (1, -6):   *`fraction numerator straight d squared y over denominator straight d x squared end fraction equals 12 open parentheses 1 close parentheses plus 6 equals 18`
+> *For (1, -6):   *$\frac{ \mathrm{d}^{2} y}{ \mathrm{d} x^{2}} = 12 ( 1 ) + 6 = 18$
 > 
 > **Final answer:** **The second derivative is positive, therefore the turning point at (1, -6) is a minimum point**

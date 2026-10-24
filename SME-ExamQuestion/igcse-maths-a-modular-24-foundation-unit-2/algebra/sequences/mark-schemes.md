@@ -14,16 +14,16 @@
 
 $11-7=4\,15-11=4$
 
-> *Use the formula for an arithmetic sequence *`u subscript n equals a plus open parentheses n minus 1 close parentheses d`
+> *Use the formula for an arithmetic sequence *$u_{n} = a + ( n - 1 ) d$
 
 - $a$* is the first term = 7*
 - $d$* is the common difference = 4*
 
-`table row blank blank cell 7 plus 4 open parentheses n minus 1 close parentheses end cell end table`
+$\begin{gathered} 7 + 4 ( n - 1 ) \end{gathered}$
 
 > *Simplify*
 
-`table row blank blank cell 7 plus 4 n minus 4 end cell end table`
+$\begin{gathered} 7 + 4 n - 4 \end{gathered}$
 
 $4n+3$
 
@@ -37,9 +37,9 @@ $4n+3$
 ### 17((b)) — 2 marks
 > *Substituting  *$n=1,n=2,n=3$* into the expression gives*
 
-`80 minus 2 open parentheses 1 close parentheses equals 78
-80 minus 2 open parentheses 2 close parentheses equals 76
-80 minus 2 open parentheses 3 close parentheses equals 74`
+$80 - 2 ( 1 ) = 78
+80 - 2 ( 2 ) = 76
+80 - 2 ( 3 ) = 74$
 
 **[B1]**
 

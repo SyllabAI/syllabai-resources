@@ -26,7 +26,7 @@ guided_study: true
     - The point *A*  has position vector **a** = $\overset{\rightarrow}{OA}$
 - Their **components **are equal to their **coordinates**
 
-  - The point with** **coordinates (3, -2) has position vector `open parentheses table row 3 row cell negative 2 end cell end table close parentheses` from the origin
+  - The point with** **coordinates (3, -2) has position vector $( \begin{gathered} 3 \\ - 2 \end{gathered} )$ from the origin
 
 ### What are displacement vectors?
 
@@ -48,7 +48,7 @@ guided_study: true
 > You may need to draw an origin, *O *, on to a diagram to be able to sketch position vectors.
 
 > **Worked Example**
-> The points $P$ and $Q$ have position vectors `open parentheses table row 3 row 2 end table close parentheses` and `open parentheses table row 6 row cell negative 10 end cell end table close parentheses`respectively.
+> The points $P$ and $Q$ have position vectors $( \begin{gathered} 3 \\ 2 \end{gathered} )$ and $( \begin{gathered} 6 \\ - 10 \end{gathered} )$respectively.
 > 
 > Find and simplify the vector $\overset{\rightarrow}{PQ}$.
 > 
@@ -62,10 +62,10 @@ guided_study: true
 > 
 > > *Substitute in *$p$* and *$q$* *
 > 
-> `stack P Q with rightwards arrow on top equals open parentheses table row 6 row cell negative 10 end cell end table close parentheses minus open parentheses table row 3 row 2 end table close parentheses`
+> $\vec{PQ} = ( \begin{gathered} 6 \\ - 10 \end{gathered} ) - ( \begin{gathered} 3 \\ 2 \end{gathered} )$
 > 
 > > *Expand and simplify*
 > 
-> `table row blank equals cell open parentheses table row cell 6 minus 3 end cell row cell negative 10 minus 2 end cell end table close parentheses end cell row blank equals cell open parentheses table row 3 row cell negative 12 end cell end table close parentheses end cell end table`
+> $\begin{gathered} = ( \begin{gathered} 6 - 3 \\ - 10 - 2 \end{gathered} ) \\ = ( \begin{gathered} 3 \\ - 12 \end{gathered} ) \end{gathered}$
 > 
-> `stack bold italic P bold italic Q with bold rightwards arrow on top bold equals stretchy left parenthesis table row 3 row cell negative 12 end cell end table stretchy right parenthesis`
+> `P Q -vec = stretchy ( | 3 | - 12 | | stretchy )`

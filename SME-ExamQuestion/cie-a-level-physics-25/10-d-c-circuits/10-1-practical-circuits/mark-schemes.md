@@ -14,14 +14,14 @@
 - Power dissipated in a resistor is equal to $P=I^{2}R$
 - Power is also equal to $\frac{energy}{time}$
 
-  - So, energy dissipated `equals P cross times t equals open parentheses I to the power of space 2 end exponent space R close parentheses cross times t equals 48 thin space straight J`
-  - `open parentheses 0.05 close parentheses squared equals R cross times open parentheses 2 cross times 60 close parentheses equals 48`
-  - Therefore, resistance `R equals fraction numerator 48 over denominator open parentheses 0.05 close parentheses squared cross times open parentheses 2 cross times 60 close parentheses end fraction equals 160 space straight capital omega`
+  - So, energy dissipated $= P \times t = ( I^{ 2} R ) \times t = 48 \mathrm{J}$
+  - $( 0.05 )^{2} = R \times ( 2 \times 60 ) = 48$
+  - Therefore, resistance `R = (48)/(( 0.05 ) ^2 x ( 2 x 60 )) = 160 capital omega`
 - The internal resistance of the battery and the resistor are in series, hence, the same current flows through them
 - So, the sum of p. d. across these two resistors is equal to the e. m .f in the circuit
 
-  - `E equals I cross times open parentheses R plus r close parentheses equals 9.0 space straight V`
-  - `open parentheses R plus r close parentheses equals fraction numerator 9.0 over denominator 0.05 end fraction equals 180 space straight capital omega`
+  - $E = I \times ( R + r ) = 9.0 \mathrm{V}$
+  - `( R + r ) = (9.0)/(0.05) = 180 capital omega`
   - $160+r=180$
 - Therefore, the internal resistance is equal to *r* = 180 – 160 = 20 Ω
 
@@ -121,21 +121,21 @@
 
 - The sum of p. d. across the internal and external resistors is equal to the e. m. f in the circuit
 
-  - `E equals I space open parentheses R plus r close parentheses equals 12 space straight V`
+  - $E = I ( R + r ) = 12 \mathrm{V}$
   - So, the values must add up to 12 V
 - Consider option D
 
   - Internal resistance *r* = 2.0 Ω
   - External resistance *R* = 4.0 Ω
   - Current *I* = 1.8 A
-- `E equals I space open parentheses R plus r close parentheses equals 1.8 open parentheses 4 plus 2 close parentheses equals 10.8 space straight V`
+- $E = I ( R + r ) = 1.8 ( 4 + 2 ) = 10.8 \mathrm{V}$
 - This is less than the stated e. m. f., so this combination is incorrect
 
-**A **is incorrect because  `E equals I space open parentheses R plus r close parentheses equals 1 space open parentheses 10 plus 2 close parentheses equals 12 space straight V`
+**A **is incorrect because  $E = I ( R + r ) = 1 ( 10 + 2 ) = 12 \mathrm{V}$
 
-**B **is incorrect because  `E equals I space open parentheses R plus r close parentheses equals 1.2 open parentheses 8 plus 2 close parentheses equals 12 space straight V`
+**B **is incorrect because  $E = I ( R + r ) = 1.2 ( 8 + 2 ) = 12 \mathrm{V}$
 
-**C **is incorrect because  `E equals I space open parentheses R plus r close parentheses equals 1.5 open parentheses 6 plus 2 close parentheses equals 12 space straight V`
+**C **is incorrect because  $E = I ( R + r ) = 1.5 ( 6 + 2 ) = 12 \mathrm{V}$
 
 ### Q9
 **Final answer:** **The correct answer is ****D ****because:**
@@ -163,13 +163,13 @@
 - Power dissipated is $P=I^{2}R$  and $P=\frac{E}{t}$
 
   - $\frac{E}{t}=I^{2}R\rightarrowR=\frac{E}{I^{2}t}$
-  - `R space equals fraction numerator space 1440 over denominator open parentheses 2 close parentheses squared space cross times space 120 end fraction space equals space 3 space straight capital omega`
-- The emf of the circuit, `E space equals space I open parentheses R space plus space r close parentheses space equals space 9.0 space straight V`
+  - `R = ( 1440)/(( 2 ) ^2 x 120) = 3 capital omega`
+- The emf of the circuit, $E = I ( R + r ) = 9.0 \mathrm{V}$
 
-  - Therefore, the total resistance in the circuit, `open parentheses R space plus space r close parentheses space equals fraction numerator space E over denominator I end fraction space equals fraction numerator space 9.0 over denominator 2 end fraction space equals space 4.5 space straight capital omega`
+  - Therefore, the total resistance in the circuit, `( R + r ) = ( E)/(I) = ( 9.0)/(2) = 4.5 capital omega`
 - Therefore, since *R* = 3 Ω
 
-  - `r space equals space open parentheses R space plus space r close parentheses space minus space R space equals space 4.5 space minus space 3 space equals space 1.5 space straight capital omega`
+  - `r = ( R + r ) - R = 4.5 - 3 = 1.5 capital omega`
 
 **A **is incorrect as this is the resistance of the resistor and not the internal resistance of the e.m.f
 

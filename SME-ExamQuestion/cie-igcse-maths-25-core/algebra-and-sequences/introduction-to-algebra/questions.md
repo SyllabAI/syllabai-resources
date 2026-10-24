@@ -10,7 +10,7 @@
 
 **Q1** [2 marks]
 
-`P equals m over 3 open parentheses 6 m minus 5 close parentheses`
+$P = \frac{m}{3} ( 6 m - 5 )$
 
 Find the value of $P$ when $m=21$.
 
@@ -89,7 +89,7 @@ $a$ = ...................................................
 
 **Q7** [3 marks]
 
-`A equals fraction numerator open parentheses a plus b close parentheses h over denominator 2 end fraction`
+$A = \frac{( a + b ) h}{2}$
 
 Work out the value of $h$ when $A$ = 38.64, $a$ = 5.5 and $b$ = 3.7
 

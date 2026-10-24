@@ -631,7 +631,7 @@ ii) Measure angle $ABC$.
 
 **Q26** [2 marks]
 
-`top enclose space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space end enclose`
+`top`
 
 The diagram shows the base of a triangle. 
 The lengths of the other two sides are 6cm and 4cm.

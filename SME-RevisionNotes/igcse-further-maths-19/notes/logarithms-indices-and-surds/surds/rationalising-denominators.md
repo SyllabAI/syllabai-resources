@@ -51,12 +51,12 @@ Multiply **the top and bottom **by the **expression in the denominator, **but wi
 - **STEP 2**
 **Multiply** out the expressions in the numerators and denominators
 
-  - `open parentheses a space plus space square root of b close parentheses open parentheses a space minus space square root of b close parentheses space equals space a squared space minus space a square root of b space plus space a square root of b space minus space b space equals space a squared space minus space b` so the denominator no longer contains a surd
+  - $( a + \sqrt{b} ) ( a - \sqrt{b} ) = a^{2} - a \sqrt{b} + a \sqrt{b} - b = a^{2} - b$ so the denominator no longer contains a surd
   - Note that this is an example of 'difference of two squares'
 - **STEP 3**
 **Simplify** your answer if needed
 
-`fraction numerator 2 open parentheses 1 space minus space square root of 3 close parentheses over denominator open parentheses 1 space plus space square root of 3 close parentheses open parentheses 1 space minus space square root of 3 close parentheses end fraction space equals fraction numerator 2 open parentheses 1 space minus space square root of 3 close parentheses over denominator 1 space minus space 3 end fraction space equals space fraction numerator 2 open parentheses 1 space minus space square root of 3 close parentheses over denominator negative 2 end fraction space equals space minus open parentheses 1 space minus space square root of 3 close parentheses space equals space minus 1 space plus space square root of 3 space`
+$\frac{2 ( 1 - \sqrt{3} )}{( 1 + \sqrt{3} ) ( 1 - \sqrt{3} )} = \frac{2 ( 1 - \sqrt{3} )}{1 - 3} = \frac{2 ( 1 - \sqrt{3} )}{- 2} = - ( 1 - \sqrt{3} ) = - 1 + \sqrt{3}$
 
 > **Exam Hint**
 > - Remember that the aim is to remove the surd from the denominator
@@ -76,15 +76,15 @@ Multiply **the top and bottom **by the **expression in the denominator, **but wi
 > 
 > > *Multiply the fractions together by multiplying across the numerator and the denominator*
 > 
-> `space fraction numerator 4 open parentheses square root of 6 space plus space 2 close parentheses over denominator open parentheses square root of 6 space minus space 2 close parentheses open parentheses square root of 6 space plus space 2 close parentheses end fraction`
+> $\frac{4 ( \sqrt{6} + 2 )}{( \sqrt{6} - 2 ) ( \sqrt{6} + 2 )}$
 > 
 > > *When expanding the denominator, notice that it is a difference of two squares problem*
 > 
-> `table row cell space fraction numerator 4 open parentheses square root of 6 space plus space 2 close parentheses over denominator open parentheses square root of 6 space minus space 2 close parentheses open parentheses square root of 6 space plus space 2 close parentheses end fraction space end cell equals cell space space fraction numerator 4 open parentheses square root of 6 space plus space 2 close parentheses over denominator 6 space minus space 2 square root of 6 space plus space 2 square root of 6 space minus space 4 end fraction end cell row blank blank cell space space end cell row blank equals cell space fraction numerator 4 open parentheses square root of 6 space plus space 2 close parentheses over denominator 2 end fraction end cell end table`
+> $\begin{gathered} \frac{4 ( \sqrt{6} + 2 )}{( \sqrt{6} - 2 ) ( \sqrt{6} + 2 )} & = \frac{4 ( \sqrt{6} + 2 )}{6 - 2 \sqrt{6} + 2 \sqrt{6} - 4} \\ \\ = \frac{4 ( \sqrt{6} + 2 )}{2} \end{gathered}$
 > 
 > > *Simplify by cancelling out the 2 in the denominator against the 4 in the numerator*
 > 
-> `2 open parentheses square root of 6 space plus space 2 close parentheses`
+> $2 ( \sqrt{6} + 2 )$
 > 
 > > *Expand and write in the form given in the question*
 > 

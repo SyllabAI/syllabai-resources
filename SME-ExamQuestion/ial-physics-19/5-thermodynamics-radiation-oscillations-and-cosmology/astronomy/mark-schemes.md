@@ -57,7 +57,7 @@ Use trigonometry to calculate the angle of Alpha Cepheid from the Earth, *θ:*
 ![img-0490](assets/003-img-0490.jpg)
 
 - $\mathrm{sin}θ=\frac{opposite}{hypotenuse}=\frac{1.5\times10^{11}}{4.6\times10^{17}}$
-- `theta space equals space sin to the power of negative 1 end exponent space open parentheses fraction numerator 1.5 space cross times space 10 to the power of 11 over denominator 4.6 space cross times space 10 to the power of 17 end fraction close parentheses space`**[1 mark]**
+- $\\theta = \sin ^{- 1} ( \frac{1.5 \times 10^{11} }{4.6 \times 10^{17} } )$**[1 mark]**
 - $θ=3.26\times10^{-7}\mathrm{rad}$** [1 mark]**
 
 Deduce whether the distance could be calculated using parallax measurements:
@@ -160,7 +160,7 @@ Rearrange the intensity equation for the distance, *d*:
 
 Substitute in the values to calculate* d*:
 
-- `d space equals space square root of fraction numerator 8.94 space cross times space 10 to the power of 27 over denominator 4 pi space cross times space open parentheses 1.09 space cross times space 10 to the power of negative 7 end exponent close parentheses end fraction end root` **[1 mark]**
+- $d = \sqrt{ \frac{8.94 \times 10^{27}{4 \pi \times ( 1.09 \times 10^{-7} } )} }$ **[1 mark]**
 - $d=8.0789\times10^{16}=8.08\times10^{16}m$ **[1 mark]**
 
 **[Total: 2 marks]**
@@ -202,8 +202,8 @@ Determine the intensity of the burst:
 Rearrange the equation for intensity of radiation:
 
 - $I=\frac{L}{4πd^{2}}$
-- `L space equals space 4 straight pi d squared I space equals space 4 straight pi space cross times space open parentheses 4.60 space cross times space 10 to the power of 24 close parentheses squared space cross times space open parentheses 8.17 space cross times space 10 to the power of negative 16 end exponent close parentheses` **[1 mark]**
-- `L space equals space 2.17 space cross times space 10 to the power of 35 space straight W space open parentheses equals space 2.2 space cross times space 10 to the power of 35 space straight W close parentheses` **[1 mark]**
+- $L = 4 \mathrm{\pi } d^{2} I = 4 \mathrm{\pi } \times ( 4.60 \times 10^{24 )^{2} \times ( 8.17 \times 10^{-16} } )$ **[1 mark]**
+- $L = 2.17 \times 10^{35} \mathrm{W} ( = 2.2 \times 10^{35} \mathrm{W} )$ **[1 mark]**
 
 ii) Suggest why it is unlikely that FRB sources are alien communications:
 
@@ -238,11 +238,11 @@ ii) Suggest why it is unlikely that FRB sources are alien communications:
 - Use the equation:
 
   - $I=\frac{L}{4πd^{2}}$
-- `I subscript s space equals space fraction numerator 16 L over denominator 4 pi open parentheses 2 d close parentheses squared end fraction`
+- $I_{s} = \frac{16 L}{4 \pi ( 2 d )^{2}}$
 - $I_{α}=\frac{L}{4πd^{2}}$
 - Consider the ratio: $\frac{I_{s}}{I_{α}}$:
 
-  - `I subscript s over I subscript alpha space equals space fraction numerator open parentheses fraction numerator 16 L over denominator 4 pi space cross times space 4 d squared end fraction close parentheses over denominator open parentheses fraction numerator L over denominator 4 pi d squared end fraction close parentheses end fraction space equals space fraction numerator open parentheses fraction numerator L over denominator pi d squared end fraction close parentheses over denominator open parentheses fraction numerator L over denominator 4 pi d squared end fraction close parentheses end fraction`
+  - `I _ s / I _ alpha = (( (16 L)/(4 pi x 4 d ^2) ))/(( (L)/(4 pi d ^2) )) = (( (L)/(pi d ^2) ))/(( (L)/(4 pi d ^2) ))`
   - $\frac{I_{s}}{I_{α}}=\frac{L}{πd^{2}}\times\frac{4πd^{2}}{L}$
   - $\frac{I_{s}}{I_{α}}=4$
 
@@ -327,9 +327,9 @@ ii) Suggest why it is unlikely that FRB sources are alien communications:
 
   - Area is the same for both stars, so only temperature will affect luminosity
   - The question states that $T_{P}=2T_{Q}$
-  - `L subscript P over L subscript Q space equals fraction numerator space sigma A open parentheses T subscript P close parentheses to the power of 4 over denominator sigma A open parentheses T subscript Q close parentheses to the power of 4 end fraction space equals space open parentheses 2 T subscript Q close parentheses to the power of 4 over T subscript Q to the power of 4 space equals space 2 to the power of 4 space equals space 16`
+  - `L _ P / L _ Q = ( sigma A ( T _ P ) ^ 4)/(sigma A ( T _ Q ) ^ 4) = ( 2 T _ Q ) ^ 4 / T _ Q ^ 4 = 2 ^ 4 = 16`
 
-- One big mistake a lot of students make is to confuse $2T_{Q}^{4}$ with `open parentheses 2 T subscript Q close parentheses to the power of 4`
+- One big mistake a lot of students make is to confuse $2T_{Q}^{4}$ with $( 2 T_{Q} )^{4}$
 
   - Including **brackets** around terms is very helpful for **proportionality** questions like this - the incorrect options rely on you incorrectly applying the power of four to the factor of 2
 

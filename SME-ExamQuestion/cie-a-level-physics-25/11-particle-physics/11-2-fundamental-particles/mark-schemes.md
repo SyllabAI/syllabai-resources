@@ -12,8 +12,8 @@
 
   - Quark composition of neutron$=udd$
   - Quark composition of proton$=uud$
-- In β<sup>–</sup> decay, a neutron turns into a proton `open parentheses u d d space rightwards arrow space u u d close parentheses`
-- Whereas, in β<sup>+</sup> decay, a proton turns into a neutron `open parentheses u u d space rightwards arrow space u d d close parentheses`
+- In β<sup>–</sup> decay, a neutron turns into a proton $( u d d \rightarrow u u d )$
+- Whereas, in β<sup>+</sup> decay, a proton turns into a neutron $( u u d \rightarrow u d d )$
 - Since electrons and neutrinos are both leptons, they are fundamental particles
 - The a β<sup>–</sup> particle is simply an electron (e<sup>–</sup>), and a β<sup>+</sup> particle is its antiparticle – a positron (e<sup>+</sup>)
 - In β<sup>–</sup> decay, an anti-electron neutrino is produced, so, in β<sup>+</sup> decay an electron neutrino is produced
@@ -190,11 +190,11 @@
   - $\frac{2}{3}e+\frac{1}{3}e=+1e$
 - Therefore, the π<sup>+</sup> particle must have one up quark and one anti-down quark to have an overall charge of +1*e*
 
-**A **is incorrect because  a meson with a  `u space top enclose u` combination would be a π<sup>0</sup> particle
+**A **is incorrect because  a meson with a  $u \vec{u}$ combination would be a π<sup>0</sup> particle
 
-**C **is incorrect because a meson with a  `size 22px d size 22px space top enclose size 22px u size 22px space` combination would be a π<sup>−</sup> particle
+**C **is incorrect because a meson with a  $\text{size} 22px d \text{size} 22px \vec{s} \text{ize} 22px u \text{size} 22px$ combination would be a π<sup>−</sup> particle
 
-**D **is incorrect because a meson with a  `d space top enclose d space` combination would be a π<sup>0</sup> particle
+**D **is incorrect because a meson with a  $d \vec{d}$ combination would be a π<sup>0</sup> particle
 
 ### Q15
 **Final answer:** **The correct answer is ****C ****because :**
@@ -209,7 +209,7 @@
 ### Q16
 **Final answer:** **The correct answer is ****B ****because:**
 
-- Every fermion has an antimatter equivalent e.g. the proton has a quark composition of $uud$  (up, up, down) and the antiproton has a quark composition of `top enclose u` `top enclose u` `top enclose d`   (anti-up, anti-up, anti-down)
+- Every fermion has an antimatter equivalent e.g. the proton has a quark composition of $uud$  (up, up, down) and the antiproton has a quark composition of $\vec{u}$ $\vec{u}$ $\vec{d}$   (anti-up, anti-up, anti-down)
 
   - Antimatter is produced synthetically in particles accelerators for experiments
   - It is also produced naturally through the radioactive decay of potassium 40, cosmic ray interactions in the atmosphere and thunderstorms
@@ -240,7 +240,7 @@
 
 **B **is incorrect because a neutron is not a type of meson; a meson contains one quark and one anti-quark bound by a gluon
 
-**D **is incorrect because a positive pion is a meson but consists of one $u$  and one `begin mathsize 20px style top enclose d end style`  quark
+**D **is incorrect because a positive pion is a meson but consists of one $u$  and one $\vec{d}$  quark
 
 ### Q18
 **Final answer:** **The correct answer is ****C**** because:**
@@ -248,13 +248,13 @@
 - Nucleus P has a nucleon number *A* = 214 and a proton number *Z* = 84
 - It decays via *α*-emission to form nucleus Q:
 
-  - `P presubscript 84 presuperscript 214 space rightwards arrow space Q presubscript 82 presuperscript 210 space plus space alpha presubscript 2 presuperscript 4`
+  - $P_{84}^{214} \rightarrow Q_{82}^{210} + \\alpha pre_{2} pre^{4}$
 - Overall, the emission of an *α*-particle from a nucleus will cause the proton number to decrease by two and the nucleon number to decrease by four, as shown on the diagram
 
   - So, nucleus Q has a nucleon number *A* = 210 and a proton number *Z* = 82
 - It then decays via *β*-emission to form nucleus R
 
-  - `Q presubscript 82 presuperscript 210 space rightwards arrow space R presubscript 83 presuperscript 210 space plus space beta presubscript negative 1 end presubscript presuperscript 0`
+  - `Q _ 82 ^ 210 -> R _ 83 ^ 210 + beta _ - 1 ^ 0`
 - Overall, the emission of a *β*-particle from a nucleus will cause the proton number to increase by one and the nucleon number to stay the same, as shown on the diagram
 
   - So, nucleus R has a nucleon number *A* = 210 and a proton number *Z* = 83

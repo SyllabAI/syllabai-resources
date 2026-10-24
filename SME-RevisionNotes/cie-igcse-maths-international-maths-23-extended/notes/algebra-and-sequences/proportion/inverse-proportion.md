@@ -54,8 +54,8 @@ guided_study: true
     - means that `equation`$y=\frac{k}{x^{3}}$
   - *y* is **inversely** proportional to the **cube root of *****x***
   
-    - `y proportional to fraction numerator 1 over denominator cube root of x end fraction`
-    - means that `equation``y equals fraction numerator k over denominator cube root of x end fraction`
+    - $y \propto \frac{1}{ \sqrt[3]{x} }$
+    - means that `equation`$y = \frac{k}{ \sqrt[3]{x} }$
   - Each of these would have a **different type of graph**, depending on the power or root
 
 ### How do I find the equation between two inversely proportional variables?
@@ -99,15 +99,15 @@ guided_study: true
 > > *We are told this is **inverse** proportion to the cube root of *$n$
 > *Write down the formula involving **k*
 > 
-> `t equals fraction numerator k over denominator cube root of n end fraction`
+> $t = \frac{k}{ \sqrt[3]{n} }$
 > 
 > > *Find **k** by substituting in *$n=27$* and *$t=50$* (from the words in the question)*
 > 
-> `table row 50 equals cell fraction numerator k over denominator cube root of 27 end fraction end cell row 50 equals cell k over 3 end cell row cell 50 cross times 3 end cell equals k row 150 equals k end table`
+> $\begin{gathered} 50 = \frac{k}{ \sqrt[3]{27} } \\ 50 = \frac{k}{3} \\ 50 \times 3 & = k \\ 150 = k \end{gathered}$
 > 
 > > *Substitute this value of **k** back into the formula to get the full equation*
 > 
-> `t equals fraction numerator 150 over denominator cube root of n end fraction`
+> $t = \frac{150}{ \sqrt[3]{n} }$
 > 
 > (b) Given that the project needs to be completed within 60 hours, find the minimum number of people needed to work on it.
 > 
@@ -115,7 +115,7 @@ guided_study: true
 > 
 > > *Use the formula to find *$n$* when *$t=60$
 > 
-> `table row 60 equals cell fraction numerator 150 over denominator cube root of n end fraction end cell row cell cube root of n end cell equals cell 150 over 60 equals 2.5 end cell row n equals cell 2.5 cubed equals 15.625 end cell end table`
+> $\begin{gathered} 60 = \frac{150}{ \sqrt[3]{n} } \\ \sqrt[3]{n} & = \frac{150}{60} = 2.5 \\ n = 2.5^{3} = 15.625 \end{gathered}$
 > 
 > > *A sensible answer here is a whole number (as *$n$* is the number of people)*
 > *15 people would not complete it in time, but 16 would*

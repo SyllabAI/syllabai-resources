@@ -42,13 +42,13 @@ $97-3x+69+5x=180$
 
 > *Rewrite the equation so that all of the *$x$* terms are together and then combine like terms. *
 
-`table row cell negative 3 x plus 5 x plus 97 plus 69 end cell equals 180 row blank blank blank row cell 2 x plus 166 end cell equals 180 end table`
+$\begin{gathered} - 3 x + 5 x + 97 + 69 & = 180 \\ \\ 2 x + 166 & = 180 \end{gathered}$
 
 **[1]**
 
 > *Solve the equation by subtracting 166 from both sides, then divide both sides by 2. *
 
-`table attributes columnalign right center left columnspacing 0px end attributes row cell 2 x end cell equals cell 180 minus 166 end cell row blank blank blank row cell 2 x end cell equals 14 row blank blank blank row x equals cell 14 divided by 2 end cell row blank blank blank row x equals 7 end table`
+$\begin{array}{rcl} 2 x & = 180 - 166 \\ \\ 2 x & = 14 \\ \\ x = 14 \div 2 \\ \\ x = 7 \end{array}$
 
 > * *
 
@@ -57,13 +57,13 @@ $x=7$* ***[1]**
 ### Q3
 > *Write an expression of the sum of the three angles given *
 
-`open parentheses x plus 15 close parentheses plus 3 x plus 3`
+$( x + 15 ) + 3 x + 3$
 
 **[1]**
 
 > *Make it equal to *$180$* as angles in a triangle add up to *$180^{\circ}$
 
-`open parentheses x plus 15 close parentheses plus 3 x plus x equals 180`
+$( x + 15 ) + 3 x + x = 180$
 
 **[1]**
 
@@ -86,7 +86,7 @@ $x=33$** [1]**
 
 > *If the two equal angles are *$48^{\circ}$* each, then*
 
-`180 minus open parentheses 48 plus 48 close parentheses`
+$180 - ( 48 + 48 )$
 
 **[1]**
 
@@ -164,7 +164,7 @@ $180-128=52^{\circ}$
 
 > *Use the angle fact, angles in a triangle sum to *$180^{\circ}$
 
-`180 minus open parentheses 85 plus 52 close parentheses equals 43`
+$180 - ( 85 + 52 ) = 43$
 
 $w=43^{\circ}$** [1] **
 **because angles in a triangle sum to **$180^{\circ}$** [1] **
@@ -174,7 +174,7 @@ $w=43^{\circ}$** [1] **
 
 > *Use the angle fact, the exterior angle of a triangle is equal to the sum of the two opposing interior angles  *
 
-`table attributes columnalign right center left columnspacing 0px end attributes row cell w plus 85 end cell equals 128 row w equals cell 128 minus 85 end cell end table`
+$\begin{array}{rcl} w + 85 & = 128 \\ w = 128 - 85 \end{array}$
 
 **[1] **
 
@@ -196,7 +196,7 @@ $w=43^{\circ}$** [1]**
 
 > *Angles in a triangle sum to *$180^{\circ}$* and so*
 
-`a equals 180 minus open parentheses 62 plus 62 close parentheses equals 56 degree`
+$a = 180 - ( 62 + 62 ) = 56^{\circ}$
 
 $a=56$** [1]**
 
@@ -205,7 +205,7 @@ $a=56$** [1]**
 
 > *As angles in a triangle sum to *$180^{\circ}$
 
-`open parentheses 180 minus 96 close parentheses divided by 2 equals 42 degree`
+$( 180 - 96 ) \div 2 = 42^{\circ}$
 
 $42^{\circ}$** ****and**** **$42^{\circ}$**[1]**
 > *The sum of angles around a point is *$360^{\circ}$*. Use this to form the equation and solve for *$x$
@@ -233,7 +233,7 @@ $x=\frac{315}{14}=22.5$
 
 > *Subtract 38 from 180 (degrees in a triangle) and divide by 2 to find the size of one base angle. *
 
-`table attributes columnalign right center left columnspacing 0px end attributes row cell 180 minus 38 end cell equals 142 row blank blank blank row cell 142 divided by 2 end cell equals 71 end table`
+$\begin{array}{rcl} 180 - 38 & = 142 \\ \\ 142 \div 2 & = 71 \end{array}$
 
 * ***[1]**
 
@@ -275,7 +275,7 @@ $\mathrm{Angle}ACB=32^{\circ}$
 
 > *Add together both base angles and subtract from *$180^{\circ}$* (angles in a triangle add up to *$180^{\circ}$*). *
 
-`180 minus open parentheses 32 plus 32 close parentheses equals 116`
+$180 - ( 32 + 32 ) = 116$
 
 * *$116^{\circ}$* ***[1]**
 
@@ -311,7 +311,7 @@ $55+85+50=190^{\circ}$
 
 > *Subtract the known angles from *$360$
 
-`360 minus open parentheses 107 plus 124 close parentheses`
+$360 - ( 107 + 124 )$
 
 $x=129^{\circ}$* ***[1]*** *
 

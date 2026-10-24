@@ -359,15 +359,15 @@
    "back_blocks": [
     {
      "type": "paragraph",
-     "md": "`open vertical bar b over a x close vertical bar less than 1`, which rearranges to `vertical line x vertical line less than open vertical bar a over b close vertical bar`."
+     "md": "`open vertical bar b over a x close vertical bar less than 1`, which rearranges to $\\vert x \\vert < \\left| \\frac{a}{b} \\right|$."
     },
     {
      "type": "paragraph",
-     "md": "It comes from the bracket after factorising, not from the original expression. For `left parenthesis 8 minus 3 x right parenthesis to the power of negative 1 third end exponent equals 8 to the power of negative 1 third end exponent open parentheses 1 minus 3 over 8 x close parentheses to the power of negative 1 third end exponent` it gives `vertical line x vertical line less than 8 over 3`."
+     "md": "It comes from the bracket after factorising, not from the original expression. For $( 8 - 3 x )^{- 1 \\frac{1}{3}} = 8^{- 1 \\frac{1}{3}} ( 1 - \\frac{3}{8} x )^{- 1 \\frac{1}{3}}$ it gives $\\vert x \\vert < \\frac{8}{3}$."
     }
    ],
    "front_md": "What is the range of validity of the expansion of $( a + b x )^{n}$?\n",
-   "back_md": "`open vertical bar b over a x close vertical bar less than 1`, which rearranges to `vertical line x vertical line less than open vertical bar a over b close vertical bar`.\n\nIt comes from the bracket after factorising, not from the original expression. For `left parenthesis 8 minus 3 x right parenthesis to the power of negative 1 third end exponent equals 8 to the power of negative 1 third end exponent open parentheses 1 minus 3 over 8 x close parentheses to the power of negative 1 third end exponent` it gives `vertical line x vertical line less than 8 over 3`.\n",
+   "back_md": "`open vertical bar b over a x close vertical bar less than 1`, which rearranges to $\\vert x \\vert < \\left| \\frac{a}{b} \\right|$.\n\nIt comes from the bracket after factorising, not from the original expression. For $( 8 - 3 x )^{- 1 \\frac{1}{3}} = 8^{- 1 \\frac{1}{3}} ( 1 - \\frac{3}{8} x )^{- 1 \\frac{1}{3}}$ it gives $\\vert x \\vert < \\frac{8}{3}$.\n",
    "spec_links": [
     "spcpt_f9PhGNgtDD7ss4X9"
    ],
@@ -399,11 +399,11 @@
     },
     {
      "type": "paragraph",
-     "md": "`left parenthesis 3 plus 2 x right parenthesis to the power of negative 4 end exponent equals 3 to the power of negative 4 end exponent open parentheses 1 plus 2 over 3 x close parentheses to the power of negative 4 end exponent` is valid for `vertical line x vertical line less than 3 over 2`, while $(1+2x)^{-4}$ is valid for `vertical line x vertical line less than 1 half`."
+     "md": "$( 3 + 2 x )^{- 4} = 3^{- 4} ( 1 + \\frac{2}{3} x )^{- 4}$ is valid for $\\vert x \\vert < \\frac{3}{2}$, while $(1+2x)^{-4}$ is valid for $\\vert x \\vert < 1 \\frac{1}{2}$."
     }
    ],
    "front_md": "**True or False?**\n\nThe expansions of $( 3 + 2 x )^{-4}$ and $( 1 + 2 x )^{-4}$ are valid for the same values of $x$.\n",
-   "back_md": "**False.**\n\nThe range of validity depends on $\\frac{b}{a}$, so changing $a$ changes it.\n\n`left parenthesis 3 plus 2 x right parenthesis to the power of negative 4 end exponent equals 3 to the power of negative 4 end exponent open parentheses 1 plus 2 over 3 x close parentheses to the power of negative 4 end exponent` is valid for `vertical line x vertical line less than 3 over 2`, while $(1+2x)^{-4}$ is valid for `vertical line x vertical line less than 1 half`.\n",
+   "back_md": "**False.**\n\nThe range of validity depends on $\\frac{b}{a}$, so changing $a$ changes it.\n\n$( 3 + 2 x )^{- 4} = 3^{- 4} ( 1 + \\frac{2}{3} x )^{- 4}$ is valid for $\\vert x \\vert < \\frac{3}{2}$, while $(1+2x)^{-4}$ is valid for $\\vert x \\vert < 1 \\frac{1}{2}$.\n",
    "spec_links": [
     "spcpt_f9PhGNgtDD7ss4X9"
    ],
@@ -509,7 +509,7 @@
    "front_blocks": [
     {
      "type": "paragraph",
-     "md": "Expanding $\\frac{\\sqrt{1+x}}{3+2x}$ uses $(1+x)^{\\frac{1}{2}}$, valid for `vertical line x vertical line less than 1`, and $(3+2x)^{-1}$, valid for `vertical line x vertical line less than 3 over 2`."
+     "md": "Expanding $\\frac{\\sqrt{1+x}}{3+2x}$ uses $(1+x)^{\\frac{1}{2}}$, valid for $\\vert x \\vert < 1$, and $(3+2x)^{-1}$, valid for $\\vert x \\vert < \\frac{3}{2}$."
     },
     {
      "type": "paragraph",
@@ -526,7 +526,7 @@
      "md": "Both expansions have to be valid at the same time, so the overall range of validity is the **intersection** of the two: the **smaller** boundary wins."
     }
    ],
-   "front_md": "Expanding $\\frac{\\sqrt{1+x}}{3+2x}$ uses $(1+x)^{\\frac{1}{2}}$, valid for `vertical line x vertical line less than 1`, and $(3+2x)^{-1}$, valid for `vertical line x vertical line less than 3 over 2`.\n\nThe whole expansion is valid for `\\_\\_\\_\\_\\_\\_`\n",
+   "front_md": "Expanding $\\frac{\\sqrt{1+x}}{3+2x}$ uses $(1+x)^{\\frac{1}{2}}$, valid for $\\vert x \\vert < 1$, and $(3+2x)^{-1}$, valid for $\\vert x \\vert < \\frac{3}{2}$.\n\nThe whole expansion is valid for `\\_\\_\\_\\_\\_\\_`\n",
    "back_md": "The whole expansion is valid for `|x| < 1`.\n\nBoth expansions have to be valid at the same time, so the overall range of validity is the **intersection** of the two: the **smaller** boundary wins.\n",
    "spec_links": [
     "spcpt_NTrg5qZWvkW2Qvvk"

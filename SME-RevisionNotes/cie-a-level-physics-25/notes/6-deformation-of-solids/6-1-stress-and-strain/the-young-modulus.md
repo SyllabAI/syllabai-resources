@@ -94,7 +94,7 @@ $E=\frac{σ}{ε}=\frac{FL}{Ax}$
 > 
 > - Convert the area to m<sup>2</sup>
 > 
-> `A space equals space 0.04 space mm squared space equals space 0.04 space open parentheses mm space cross times space mm close parentheses space equals space 0.04 space open parentheses 10 to the power of negative 3 end exponent space straight m space cross times space 10 to the power of negative 3 end exponent space straight m close parentheses`
+> $A = 0.04 mm^{2} = 0.04 ( \text{mm} \times \text{mm} ) = 0.04 ( 10^{- 3} \mathrm{m} \times 10^{- 3} \mathrm{m} )$
 > 
 > $A=0.04\times10^{-6}m^{2}$
 > 
@@ -107,7 +107,7 @@ $E=\frac{σ}{ε}=\frac{FL}{Ax}$
 > - Strain is defined as the extension per unit length
 > - If extension is 0.50% of length, then strain is simply this value as a decimal number
 > 
-> `epsilon space equals space 0.50 percent sign space equals space fraction numerator 0.50 over denominator 100 end fraction space equals space 0.005`
+> $\\epsilon = 0.50 \% = \frac{0.50}{100} = 0.005$
 > 
 > **Step 4: Calculate the Young modulus:**
 > 

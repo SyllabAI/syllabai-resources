@@ -80,9 +80,9 @@ $p=\frac{F}{A}$
 > 
 > $\mathrm{area} \mathrm{of} \mathrm{circle}=πr^{2}$
 > 
-> `A space equals space straight pi open parentheses d over 2 close parentheses squared`
+> $A = \mathrm{\pi } ( \frac{d}{2} )^{2}$
 > 
-> `A space equals straight pi open parentheses fraction numerator 0.084 over denominator 2 end fraction close parentheses squared`
+> $A = \mathrm{\pi } ( \frac{0.084}{2} )^{2}$
 > 
 > $A=5.5\times10^{-3}m^{2}$
 > 
@@ -90,7 +90,7 @@ $p=\frac{F}{A}$
 > 
 > $p=\frac{46.1}{5.5\times10^{-3}}$
 > 
-> `p space equals space 8400 space Pa space open parentheses 2 space straight s. straight f. close parentheses`
+> $p = 8400 \text{Pa} ( 2 \mathrm{s} . \mathrm{f} . )$
 
 > **Exam Hint**
 > The area referred to is the ‘cross-sectional’ area of a 3D object. This is the area of the base that the force is applied on. For a cylinder, this will be a circle.

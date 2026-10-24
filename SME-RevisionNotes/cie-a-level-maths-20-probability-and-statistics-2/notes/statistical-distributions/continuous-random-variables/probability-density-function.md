@@ -35,7 +35,7 @@ guided_study: true
     - This is the equivalent to $P(X=x)\geq0$  for a discrete random variable
   - The **area under the graph** must total 1
 
-`integral subscript negative infinity end subscript superscript infinity straight f left parenthesis x right parenthesis space dx equals 1`
+$integral_{ - } \text{infinity} ^{infinity} \mathrm{f} ( x ) dx = 1$
 
 - This is equivalent to $Σ$ $P(X=x)=1$ for a discrete random variable
 
@@ -44,7 +44,7 @@ guided_study: true
 - The probability that the continuous random variable $X$ lies in the interval
 $a\leqX\leqb$, where $X$ has the probability density function f($x$) , is given by
 
-`straight P left parenthesis a less or equal than X less or equal than b right parenthesis equals integral subscript a superscript b straight f left parenthesis straight x right parenthesis space dx`
+$\mathrm{P} ( a \text{less} \text{or} \text{equal} \text{than} X \text{less} \text{or} \text{equal} \text{than} b ) = \int_{a}^{b} \mathrm{f} ( \mathrm{x} ) \text{dx}$
 
 - As with the **normal** **distribution **$P(a\leqX\leqb)=P(a<X<b)$
 
@@ -62,7 +62,7 @@ $a\leqX\leqb$, where $X$ has the probability density function f($x$) , is given 
   - STEP 1
   Identify the **probability** **density** **function**, f($x$), this may be given as a **graph**, an **equation** or as a **piecewise** **function**
 
-e.g.  `straight f left parenthesis straight x right parenthesis equals open curly brackets table row cell 0.02 x space space space space 0 less or equal than x less or equal than 10 end cell row cell 0 space space space space space space space space space space space otherwise end cell end table close`
+e.g.  $\mathrm{f} ( \mathrm{x} ) = \{ \begin{gathered} 0.02 x 0 \text{less} \text{or} \text{equal} \text{than} x \text{less} \text{or} \text{equal} \text{than} 10 \\ 0 \text{otherwise} \end{gathered} )$
 
 - STEP 2
 Identify the **range** of $X$ for a particular problem
@@ -88,7 +88,7 @@ Since $P(X=a)=P(X=b)=0,P(a\leqX\leqb)=P(a<X<b)$
 > **Worked Example**
 > The continuous random variable, $X$, has probability density function
 > 
-> `straight f left parenthesis x right parenthesis equals open curly brackets table row cell 0.08 x end cell cell 0 less or equal than x less or equal than 5 end cell row 0 otherwise end table close`
+> `f ( x ) = { | 0.08 x | 0 <= x <= 5 | | 0 otherwise | close`
 > 
 > (a) Show that $f(x)$ can represent a probability density function
 > 
@@ -135,11 +135,11 @@ $P(X<m)=P(X>m)=0.5$
 
 - By solving one of the equations to find *m*
 
-`integral subscript negative infinity end subscript superscript m straight f left parenthesis x right parenthesis space dx space equals space 0.5`
+$\int_{- \infty}^{m} \mathrm{f} ( x ) \text{dx} = 0.5$
 
 and
 
-`integral subscript m superscript infinity straight f left parenthesis straight x right parenthesis space dx equals 0.5`
+$integral_{m}^{infinity} \mathrm{f} ( \mathrm{x} ) dx = 0.5$
 
 - The equation that should be used will depend on the information in the question
 - If the graph of $y=f(x)$ is **symmetrical**, symmetry may be used to deduce the median
@@ -175,7 +175,7 @@ and
 > **Worked Example**
 > The continuous random variable $X$  has probability density function $f(x)$ defined as
 > 
-> `straight f left parenthesis x right parenthesis equals 1 over 64 x open parentheses 16 minus x squared close parentheses space space space space space space space space space space space space space space space space space space space space space space 0 less or equal than x less or equal than 4`
+> $\mathrm{f} ( x ) = \frac{1}{64} x ( 16 - x^{2} ) 0 \text{less} \text{or} \text{equal} \text{than} x \text{less} \text{or} \text{equal} \text{than} 4$
 > 
 > (a) Find the median of *X*, giving your answer to three significant figures
 > 

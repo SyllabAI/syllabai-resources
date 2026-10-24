@@ -22,7 +22,7 @@ guided_study: false
 - The **standard normal distribution** is a normal distribution where the **mean is 0** and the **standard deviation is 1**
 
   - It is denoted by *Z*
-  - `begin mathsize 16px style Z tilde straight N left parenthesis 0 comma 1 squared right parenthesis end style`
+  - $Z \sim \mathrm{N} ( 0 , 1^{2} )$
 
 #### Why is the standard normal distribution important?
 
@@ -37,13 +37,13 @@ guided_study: false
 
 - Any **normal distribution curve** can be transformed to the standard normal distribution curve by a **horizontal translation** and a **horizontal stretch**
 
-  - Therefore, for `begin mathsize 16px style X tilde straight N left parenthesis mu comma sigma squared right parenthesis end style`  and `equation`, we have the relationship:
+  - Therefore, for $X \sim \mathrm{N} ( \\mu , \\sigma ^{2} )$  and `equation`, we have the relationship:
 
 $Z=\frac{X-μ}{σ}$
 
 - Probabilities are related by:
 
-  - `begin mathsize 16px style straight P left parenthesis X less than a right parenthesis equals straight P open parentheses Z less than fraction numerator a minus mu over denominator sigma end fraction close parentheses end style`
+  - $\mathrm{P} ( X < a ) = \mathrm{P} ( Z < \frac{a - \\mu }{\\sigma } )$
   - This is a very useful relationship for calculating probabilities for any normal distribution
   - As the normal distribution is a continuous distribution $P(z_{1}\leqZ\leqz_{2})=P(z_{1}<Z<z_{2})$ so you do not need to worry about whether the inequality is strict (< or >) or weak (≤ or ≥)
 - A value of z = 1 corresponds with the *x*-value that is 1 standard deviation above the mean and a value of z = -1 corresponds with the *x*-value that is 1 standard deviation below the mean

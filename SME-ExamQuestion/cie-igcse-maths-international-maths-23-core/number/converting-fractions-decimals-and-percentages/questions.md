@@ -48,7 +48,7 @@ $....................<....................<....................<................
 
 Write these in order of size, starting with the smallest.
 
-`5 over 27 space space space space space space space space space space space space space 18.4 percent sign space space space space space space space space space space space space space 1.83 cross times 10 to the power of negative 1 end exponent space space space space space space space space space space space space space 5 to the power of negative 1 end exponent`
+$\frac{5}{27} 18.4 \% 1.83 \times 10^{- 1} 5^{- 1}$
 
 ................. $<$ ................. $<$ ................. $<$ .................
 
@@ -63,7 +63,7 @@ Write these in order of size, starting with the smallest.
 
 Write these numbers in order, starting with the smallest.
 
-$\frac{7}{9}$     $\frac{4}{5}$     $\frac{17}{20}$     `78 percent sign`
+$\frac{7}{9}$     $\frac{4}{5}$     $\frac{17}{20}$     $78 \%$
 
 ### Q5 — hard — 2 marks
 
@@ -71,7 +71,7 @@ $\frac{7}{9}$     $\frac{4}{5}$     $\frac{17}{20}$     `78 percent sign`
 
 Write these numbers in order, starting with the smallest.
 
-`5.7 space cross times space 10 to the power of negative 1 end exponent space space space space space space space space space space space space space space space space space space space space 4 over 7 space space space space space space space space space space space space space space space space space space space space square root of 0.33 end root space space space space space space space space space space space space space space space space space space space 57.2 percent sign`
+$5.7 \times 10^{- 1} \frac{4}{7} \sqrt{0.33} 57.2 \%$
 
 ................... $<$ ................ $<$ ................ $<$ .................  *   smallest                                                                         *
 
@@ -84,7 +84,7 @@ Write these numbers in order, starting with the smallest.
 
 Write these numbers in order, starting with the smallest.
 
-`0.55 space space space space space space space space space space space space space space space space space 6 over 11 space space space space space space space space space space space space space space space space space 54 1 half percent sign`
+$0.55 \frac{6}{11} 54 1 \frac{1}{2} \%$
 
 ........................ $<$ ................. $<$ .................  *smallest                                                        *
 
@@ -210,7 +210,7 @@ $....................<....................<....................<................
 
 Write these numbers in order, starting with the smallest.
 
-$\frac{18}{20}$     `91 percent sign`     $0.89$     $\frac{44}{50}$
+$\frac{18}{20}$     $91 \%$     $0.89$     $\frac{44}{50}$
 
 ### Q16 — easy — 1 marks
 
@@ -227,7 +227,7 @@ Write 0.45 as a fraction in its simplest form.
 
 Write these numbers in order, starting with the smallest.
 
-$\frac{3}{4}$     `72 percent sign`     $0.78$     $\frac{8}{10}$
+$\frac{3}{4}$     $72 \%$     $0.78$     $\frac{8}{10}$
 
 ### Q18 — easy — 1 marks
 

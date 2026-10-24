@@ -74,7 +74,7 @@ $y=0.28+0.195x$
 
 > $b$* is the gradient of the straight line*
 
-`gradient equals b equals fraction numerator change space in space y space open parentheses litres close parentheses over denominator change space in space x space open parentheses kilometres close parentheses end fraction`
+$\text{gradient} = b = \frac{change \text{in} y ( \text{litres} )}{change \text{in} x ( \text{kilometres} )}$
 
 **Final answer:** $b$** is the number of litres of fuel used for each kilometre travelled**
 
@@ -88,8 +88,8 @@ $y=0.28+0.195x$
 
 > *Make sure you use the unrounded version of the line of regression, for maximum accuracy*
 
-`y equals 0.28 plus 0.194857142... open parentheses 38 close parentheses
-y equals 7.68457139...`
+$y = 0.28 + 0.194857142... ( 38 )
+y = 7.68457139...$
 
 > *Round to 3 significant figures*
 
@@ -114,7 +114,7 @@ $y=0.791x+13.2$
 **b**** = 13.2 [1]**
 (i)  *Substitute *$x=50$* into your linear regression line*
 
-`table row y equals cell 0.791 open parentheses 50 close parentheses plus 13.2 end cell row blank equals cell 52.75 end cell end table`
+$\begin{gathered} y = 0.791 ( 50 ) + 13.2 \\ = 52.75 \end{gathered}$
 
 > *Rounding your answer to the nearest integer is best as this matches the data in the table*
 
@@ -123,7 +123,7 @@ $53$ **[1]**
 
 (ii) *Substitute *$x=6$* into your linear regression line*
 
-`table row y equals cell 0.791 open parentheses 6 close parentheses plus 13.2 end cell row blank equals cell 17.946 end cell end table`
+$\begin{gathered} y = 0.791 ( 6 ) + 13.2 \\ = 17.946 \end{gathered}$
 
 > *Rounding your answer to the nearest integer is best as this matches the data in the table*
 
@@ -180,7 +180,7 @@ $y=-0.323x+7.48$
 
 > *The gradient (*$m$*) of the line of regression remains the same, but the *$y$*-intercept (*$c$*) will increase by 5*
 
-`y equals negative 0.323 x plus open parentheses 7.48 plus 5 close parentheses`
+$y = - 0.323 x + ( 7.48 + 5 )$
 
 $y=-0.323x+12.48$** ****[1]**
 

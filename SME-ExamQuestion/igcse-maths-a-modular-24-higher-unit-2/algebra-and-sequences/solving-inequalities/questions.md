@@ -11,14 +11,14 @@ Solve the inequality $x^{2}>3(x+6)$
 ## Q2 — medium — 4 marks · exam-questions
 
 ### 14((a)) — 2 marks — command: draw — structured — from paper June 2013 · 1MA0/1H
-`negative 2 space less than space n space less-than or slanted equal to 3`
+$- 2 < n \text{less} - \text{than} or \text{slanted} \text{equal} to 3$
 
 Represent this inequality on the number line.
 
 ![q1a-medium-2-21-solving-inequalities-edexcel-gcse-maths](assets/028-q1a-medium-2-21-solving-inequalities-edexcel-gcs.png)
 
 ### 14((b)) — 2 marks — command: solve — structured — from paper June 2013 · 1MA0/1H
-Solve the inequality `8 x minus 3 space greater-than or slanted equal to space 6 x space plus space 4`
+Solve the inequality $8 x - 3 \text{greater} - \text{than} or \text{slanted} \text{equal} to 6 x + 4$
 
 ## Q3 — easy — 5 marks · exam-questions
 
@@ -26,7 +26,7 @@ Solve the inequality `8 x minus 3 space greater-than or slanted equal to space 6
 Solve $14n>11n+6$
 
 ### 1((b)) — 3 marks — command: show — structured — from paper June 2019 · 1MA1/2H
-On the number line below, show the set of values of $x$ for which `negative 2 space less than space x space plus space 3 space less-than or slanted equal to space 4`
+On the number line below, show the set of values of $x$ for which $- 2 < x + 3 \text{less} - \text{than} or \text{slanted} \text{equal} to 4$
 
 ![q1b-easy-2-21-solving-inequalities-edexcel-gcse-maths](assets/043-q1b-easy-2-21-solving-inequalities-edexcel-gcse-.png)
 
@@ -38,21 +38,21 @@ Solve   $x^{2}>3x+4$
 ## Q5 — medium — 4 marks · exam-questions
 
 ### 13((a)) — 2 marks — command: write — structured — from paper June 2014 · 1MA0/2H
-`negative 5 space less than space y space less-than or slanted equal to 0`
+$- 5 < y \text{less} - \text{than} or \text{slanted} \text{equal} to 0$
 
 $y$ is an integer.
 
 Write down all the possible values of $y$.
 
 ### 13((b)) — 2 marks — command: solve — structured — from paper June 2014 · 1MA0/2H
-Solve    `6 open parentheses x minus 2 close parentheses space greater than 15`
+Solve    $6 ( x - 2 ) > 15$
 
 ## Q6 — easy — 5 marks · exam-questions
 
 ### 8((a)) — 2 marks — command: list — structured — from paper November 2012 · 1MA0/2H
 $n$ is an integer.
 
-`negative 1 space less-than or slanted equal to n less than 4` 
+$- 1 \text{less} - \text{than} or \text{slanted} \text{equal} to n < 4$ 
 List the possible values of $n$.
 
 ### 8((b)) — 2 marks — command: write — structured — from paper November 2012 · 1MA0/2H
@@ -71,7 +71,7 @@ Solve   $2x^{2}+3x-2>0$
 ## Q8 — medium — 4 marks · exam-questions
 
 ### 10((a)) — 2 marks — command: write — structured — from paper June 2012 · 1MA0/2H
-$m$ is an integer such that  `long dash 2 space less than space m space less-than or slanted equal to space 3`
+$m$ is an integer such that  $\text{long} \text{dash} 2 < m \text{less} - \text{than} or \text{slanted} \text{equal} to 3$
 
 Write down all the possible values of $m$.
 
@@ -81,7 +81,7 @@ Solve   $7x-9<3x+4$
 ## Q9 — easy — 4 marks · exam-questions
 
 ### 12((a)) — 2 marks — command: write — structured — from paper March 2013 · 1MA0/2H
-`negative 3 space less than space n space less-than or slanted equal to space 1`
+$- 3 < n \text{less} - \text{than} or \text{slanted} \text{equal} to 1$
 
 $n$ is an integer.
 
@@ -101,7 +101,7 @@ Solve the inequality $4x^{2}--5x--6>0$
 Solve $6x+4>x+17$
 
 ### 9((c)) — 2 marks — command: write — structured — from paper Sample 2015 · 1MA1/3H
-$n$ is an integer with `long dash 5 space less than space 2 n space less-than or slanted equal to space 6`
+$n$ is an integer with $\text{long} \text{dash} 5 < 2 n \text{less} - \text{than} or \text{slanted} \text{equal} to 6$
 
 Write down all the values of $n$
 
@@ -128,7 +128,7 @@ Represent your solution set to part (a) on the number line below.
 Write down the inequality shown on the number line.
 
 ### 1((b)) — 2 marks — command: solve — structured — from paper June 2019 · 4MA1/2HR
-Solve the inequality `4 y space minus space 13 space less-than or slanted equal to space y space plus space 8`
+Solve the inequality $4 y - 13 \text{less} - \text{than} or \text{slanted} \text{equal} to y + 8$
 
 ## Q15 — easy — 4 marks · exam-questions
 
@@ -138,26 +138,26 @@ Show the inequality $x<3$ on the number line below
 ![q5a-easy-2-21-solving-inequalities-edexcel-gcse-maths](assets/052-q5a-easy-2-21-solving-inequalities-edexcel-gcse-.png)
 
 ### 10((b)) — 2 marks — command: solve — structured — from paper November 2016 · 1MA0/1H
-Solve the inequality     `4 x space minus 7 space greater-than or slanted equal to 13`
+Solve the inequality     $4 x - 7 \text{greater} - \text{than} or \text{slanted} \text{equal} to 13$
 
 ## Q16 — hard — 5 marks · exam-questions
 
 ### 20() — 5 marks — command: find — structured — from paper June 2018 · 1MA1/1H
-$n$ is an integer such that `3 n plus 2 less-than or slanted equal to space 14 space and space fraction numerator 6 n over denominator n squared plus 5 end fraction space greater than 1`
+$n$ is an integer such that `3 n + 2 less-than or slanted equal to 14 and (6 n)/(n ^2 + 5) greater than 1`
 
 Find all the possible values of $n$.
 
 ## Q17 — medium — 4 marks · exam-questions
 
 ### 3((a)) — 2 marks — command: show — structured — from paper Jan 2021 · 4MA1/1HR
-On the number line, show the inequality `– 2 space less-than or slanted equal to space y space less than space 1`
+On the number line, show the inequality $- 2 \text{less} - \text{than} or \text{slanted} \text{equal} to y < 1$
 
 ![q3a-4ma1-1hr-qp-jan21-paper1-igcse-maths](assets/039-q3a-4ma1-1hr-qp-jan21-paper1-igcse-maths.png)
 
 ### 3((b)) — 2 marks — command: write — structured — from paper Jan 2021 · 4MA1/2H
 $n$ is an integer.
 
-Write down all the values of $n$ that satisfy `– 3.4 space less than space n space less-than or slanted equal to space 2`
+Write down all the values of $n$ that satisfy $- 3.4 < n \text{less} - \text{than} or \text{slanted} \text{equal} to 2$
 
 ## Q18 — easy — 4 marks · exam-questions
 
@@ -194,7 +194,7 @@ On the number line below, represent the solution set of the inequality solved in
 ## Q21 — easy — 2 marks · exam-questions
 
 ### 7((a)) — 2 marks — command: write — structured — from paper June 2021 · 4MA1/1H
-`negative 4 space less-than or slanted equal to space 2 y space less than space 6`
+$- 4 \text{less} - \text{than} or \text{slanted} \text{equal} to 2 y < 6$
 
 $y$ is an integer.
 
@@ -203,18 +203,18 @@ Write down all the possible values of $y$.
 ## Q22 — hard — 3 marks · exam-questions
 
 ### 19((b)) — 3 marks — command: solve — structured — from paper Jan 2020 · 4MA1/2HR
-Solve the inequality `5 y squared space minus space 17 y space less-than or slanted equal to space 40`
+Solve the inequality $5 y ^{2} - 17 y \text{less} - \text{than} or \text{slanted} \text{equal} to 40$
 
 ## Q23 — medium — 2 marks · exam-questions
 
 ### 7((b)) — 2 marks — command: show — structured — from paper June 2021 · 4MA1/1H
-Solve the inequality `7 t space – space 3 space less-than or slanted equal to space 2 t space plus space 31` 
+Solve the inequality $7 t - 3 \text{less} - \text{than} or \text{slanted} \text{equal} to 2 t + 31$ 
 Show your working clearly.
 
 ## Q24 — easy — 4 marks · exam-questions
 
 ### 9() — 3 marks — command: solve — structured — from paper Nov 2021 · 4MA1/1H
-Solve the inequalities  `– 7 space less-than or slanted equal to space 2 x space – space 3 space less than space 5`
+Solve the inequalities  $- 7 \text{less} - \text{than} or \text{slanted} \text{equal} to 2 x - 3 < 5$
 
 ### 9() — 1 mark — command: show — structured — from paper 2021 November · 4MA1/1H
 On the number line, represent the solution set to part a).
@@ -259,16 +259,16 @@ Give your answer as an inequality.
 ## Q29 — medium — 2 marks · exam-questions
 
 ### 1((c)) — 2 marks — command: solve — structured — from paper Specimen 2016 · 4MA1/2H
-Solve the inequality `2 q space greater-than or slanted equal to space 31 space – space 3 q`
+Solve the inequality $2 q \text{greater} - \text{than} or \text{slanted} \text{equal} to 31 - 3 q$
 
 ## Q30 — easy — 3 marks · exam-questions
 
 ### 1((a)) — 2 marks — command: write — structured — from paper Jan 2022 · 4MA1/1HR
 $n$ is an integer. 
-Write down all the values of $n$ such that`space – 2 space less-than or slanted equal to space n space less than space 3`
+Write down all the values of $n$ such that$- 2 \text{less} - \text{than} or \text{slanted} \text{equal} to n < 3$
 
 ### 1((b)) — 1 mark — command: show — structured — from paper Jan 2022 · 4MA1/1HR
-On the number line, represent the inequality `y space less-than or slanted equal to space 1`
+On the number line, represent the inequality $y \text{less} - \text{than} or \text{slanted} \text{equal} to 1$
 
 ![q1b-4ma1-1hr-qp-jan22-paper1-igcse-maths](assets/048-q1b-4ma1-1hr-qp-jan22-paper1-igcse-maths.png)
 
@@ -277,8 +277,8 @@ On the number line, represent the inequality `y space less-than or slanted equal
 ### 24() — 3 marks — command: work_out — structured — from paper Nov 2019 · 8300/2H
 Here are two inequalities.
 
-`– 2 space less-than or slanted equal to space x space less-than or slanted equal to space 3`
- `9 space less-than or slanted equal to space x space plus space y space less-than or slanted equal to space 11`
+$- 2 \text{less} - \text{than} or \text{slanted} \text{equal} to x \text{less} - \text{than} or \text{slanted} \text{equal} to 3$
+ $9 \text{less} - \text{than} or \text{slanted} \text{equal} to x + y \text{less} - \text{than} or \text{slanted} \text{equal} to 11$
 
 $x$ and $y$ are integers.
 
@@ -326,11 +326,11 @@ Explain your reasoning.
 ### 10() — 3 marks — command: work_out — structured — from paper June 2019 · 8300/2H
 $x$ is an integer.
 
-`– 4 space less than space x space less-than or slanted equal to space 2`
+$- 4 < x \text{less} - \text{than} or \text{slanted} \text{equal} to 2$
 
 and
 
-`2 space less-than or slanted equal to space x space plus space 3 space less than space 9`
+$2 \text{less} - \text{than} or \text{slanted} \text{equal} to x + 3 < 9$
 
 Work out all the possible values of $x$.
 
@@ -349,7 +349,7 @@ Solve the inequality  `8 x minus 4 greater-than or slanted equal to 3 x minus 10
 ### 17() — 4 marks — command: solve — structured — from paper Nov 2017 · J560/05
 Solve the inequality.
 
-`x squared minus space 5 x space minus space 6 less-than or slanted equal to 0`
+$x ^{2} - 5 x - 6 \text{less} - \text{than} or \text{slanted} \text{equal} to 0$
 
 ## Q41 — medium — 2 marks · exam-questions
 
@@ -363,15 +363,15 @@ Circle the inequality shown by the diagram.
 
 ![q1-paper3h-nov2017-aqa-gcse-maths](assets/050-q1-paper3h-nov2017-aqa-gcse-maths.png)
 
-| `– 4 space less-than or slanted equal to space x space less than space 5` | `– 4 space less-than or slanted equal to space x space less-than or slanted equal to space 5` | $--4<x<5$ | `– 4 space less than space x space less-than or slanted equal to space 5` |
+| $- 4 \text{less} - \text{than} or \text{slanted} \text{equal} to x < 5$ | $- 4 \text{less} - \text{than} or \text{slanted} \text{equal} to x \text{less} - \text{than} or \text{slanted} \text{equal} to 5$ | $--4<x<5$ | $- 4 < x \text{less} - \text{than} or \text{slanted} \text{equal} to 5$ |
 |---|---|---|---|
 
 ## Q43 — hard — 3 marks · exam-questions
 
 ### 20((a)) — 3 marks — command: find — structured — from paper Specimen 2015 · J560/05
-Find the interval for which `x squared space minus space 7 x space plus space 10 space less-than or slanted equal to space 0.`
+Find the interval for which $x ^{2} - 7 x + 10 \text{less} - \text{than} or \text{slanted} \text{equal} to 0.$
 
-.......................... `less-than or slanted equal to space x space less-than or slanted equal to` ..........................
+.......................... $\text{less} - \text{than} or \text{slanted} \text{equal} to x \text{less} - \text{than} or \text{slanted} \text{equal} to$ ..........................
 
 ## Q44 — medium — 2 marks · exam-questions
 
@@ -398,7 +398,7 @@ Here is the graph of $y=f(x)$ where $f(x)$ is a quadratic function.
 
 ![q29-paper3h-nov2017-aqa-gcse-maths](assets/034-q29-paper3h-nov2017-aqa-gcse-maths.png)
 
-Write down all the **integer** solutions of `f left parenthesis x right parenthesis space greater-than or slanted equal to space 0`
+Write down all the **integer** solutions of $f ( x ) \text{greater} - \text{than} or \text{slanted} \text{equal} to 0$
 
 ## Q47 — easy — 2 marks · exam-questions
 
@@ -425,10 +425,10 @@ Write down the largest integer that satisfies $5x-1<10.$
 ## Q50 — easy — 4 marks · exam-questions
 
 ### 1((c)) — 2 marks — command: solve — structured — from paper Specimen paper · 4MA1/2H
-Solve the inequality  `2 q space greater-than or slanted equal to space 31 space – space 3 q`
+Solve the inequality  $2 q \text{greater} - \text{than} or \text{slanted} \text{equal} to 31 - 3 q$
 
 ### 1((d)) — 2 marks — command: write — structured — from paper Specimen paper · 4MA1/2H
-`– 2 space less-than or slanted equal to space n space less than space 3`
+$- 2 \text{less} - \text{than} or \text{slanted} \text{equal} to n < 3$
 
 $n$ is an integer
 

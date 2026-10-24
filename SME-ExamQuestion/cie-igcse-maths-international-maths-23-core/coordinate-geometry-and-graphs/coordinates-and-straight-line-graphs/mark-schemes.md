@@ -6,15 +6,15 @@
 
 
 ### Q1
-> *Find the coordinates of the midpoint using the formula *`open parentheses fraction numerator x subscript 1 plus x subscript 2 over denominator 2 end fraction space comma space fraction numerator y subscript 1 plus y subscript 2 over denominator 2 end fraction close parentheses`
+> *Find the coordinates of the midpoint using the formula *$( \frac{x_{1} + x_{2} }{2} , \frac{y_{1} + y_{2} }{2} )$
 
-`open parentheses fraction numerator 2 plus negative 4 over denominator 2 end fraction comma fraction numerator 7 plus 11 over denominator 2 end fraction close parentheses`
+$( \frac{2 + - 4}{2} , \frac{7 + 11}{2} )$
 
 > *Simplify*
 
-`open parentheses fraction numerator negative 2 over denominator 2 end fraction comma space 18 over 2 close parentheses`
+$( \frac{- 2}{2} , \frac{18}{2} )$
 
-`open parentheses negative 1 comma space 9 close parentheses`** [2]**
+$( - 1 , 9 )$** [2]**
 **1 mark for each**
 
 ### Q2
@@ -46,8 +46,7 @@ ii) *In the equation of a line in the form *$y=mx+c$*, **c** refers to the **y-*
 **(0, -4)**** ****[1]**
 > *Use a table of values to work out the co-ordinates by substituting the values of **x** between -4 and 5 into the equation *$y=-2x+1$
 
-`y space equals space minus 2 space open parentheses negative 4 close parentheses space plus thin space 1 space equals space 8 space plus space 1 space equals space 9
-y space equals space minus 2 space open parentheses negative 3 close parentheses space plus thin space 1 space equals space 6 space plus thin space 1 space equals space 7 space etc`
+$y = - 2 ( - 4 ) + 1 = 8 + 1 = 9 y = - 2 ( - 3 ) + 1 = 6 + 1 = 7 \text{etc}$
 
 | *x* | *-4* | *-3* | *-2* | *-1* | *0* | *1* | *2* | *3* | *4* | *5* |
 |---|---|---|---|---|---|---|---|---|---|---|
@@ -62,13 +61,13 @@ y space equals space minus 2 space open parentheses negative 3 close parentheses
 ### Q3
 ia) *Substitute *$x=1$* into each equation.*
 
-`A colon space y equals negative 3 cross times open parentheses 1 close parentheses plus 4 equals negative 3 plus 4 equals 1`
+$A : y = - 3 \times ( 1 ) + 4 = - 3 + 4 = 1$
 
-`B colon space y equals 4 cross times open parentheses 1 close parentheses minus 3 equals 4 minus 3 equals 1`
+$B : y = 4 \times ( 1 ) - 3 = 4 - 3 = 1$
 
-`C colon space y equals 3 cross times open parentheses 1 close parentheses minus 4 equals 3 minus 4 equals negative 1`
+$C : y = 3 \times ( 1 ) - 4 = 3 - 4 = - 1$
 
-`D colon space y equals negative 4 cross times open parentheses 1 close parentheses minus 3 equals negative 4 minus 3 equals negative 7`
+$D : y = - 4 \times ( 1 ) - 3 = - 4 - 3 = - 7$
 
 > *   The only equation to return a *$y-$*value of *$-1$* is *$C$*.*
 
@@ -76,16 +75,16 @@ $C$ **[1]**
 
 ** **
 
-ib) *If the *$y-$*intercept is 4, then the graph passes through the coordinate *`open parentheses 0 comma space 4 close parentheses`*.* 
+ib) *If the *$y-$*intercept is 4, then the graph passes through the coordinate *$( 0 , 4 )$*.* 
 *Substitute *$x=0$* into each of the equations.*
 
-`A colon space y equals negative 3 cross times open parentheses 0 close parentheses plus 4 equals 0 plus 4 equals 4`
+$A : y = - 3 \times ( 0 ) + 4 = 0 + 4 = 4$
 
-`B colon space y equals 4 cross times open parentheses 0 close parentheses minus 3 equals 0 minus 3 equals negative 3`
+$B : y = 4 \times ( 0 ) - 3 = 0 - 3 = - 3$
 
-`C colon space y equals 3 cross times open parentheses 0 close parentheses minus 4 equals 0 minus 4 equals negative 4`
+$C : y = 3 \times ( 0 ) - 4 = 0 - 4 = - 4$
 
-`D colon space y equals negative 4 cross times open parentheses 0 close parentheses minus 3 equals 0 minus 3 equals negative 3`
+$D : y = - 4 \times ( 0 ) - 3 = 0 - 3 = - 3$
 
 > * The only equation to return a *$y-$*value of *$4$* is *$A$*.*
 
@@ -106,7 +105,7 @@ $-26=-3p+4$
 
 **[1]**
 
-`table row cell negative 26 minus 4 end cell equals cell negative 3 p end cell row cell negative 30 end cell equals cell negative 3 p end cell row 30 equals cell 3 p end cell row p equals cell 30 divided by 3 end cell end table`
+$\begin{gathered} - 26 - 4 & = - 3 p \\ - 30 & = - 3 p \\ 30 = 3 p \\ p = 30 \div 3 \end{gathered}$
 
 $p=10$ **[1]**
 
@@ -121,7 +120,7 @@ ii) *A line is parallel if the gradients are the same. *
 *As the line passes through the origin, *$c=0$*.*
 
 $y=6x$* ***[1]**
-i) *Plot the coordinate *`open parentheses negative 3 comma negative 2 close parentheses`* on the set of axes.*
+i) *Plot the coordinate *$( - 3 , - 2 )$* on the set of axes.*
 
 ![igcse-cie-may-2019-paper-32-q8abi-1](assets/006-igcse-cie-may-2019-paper-32-q8abi-1.png)
 
@@ -139,7 +138,7 @@ $x=2:y=-2\times2=-4$
 
 > *Plot these points onto the set of axes and connect using a straight, ruled line.*
 
-`open parentheses negative 2 comma space 4 close parentheses comma space open parentheses 0 comma space 0 close parentheses comma space open parentheses 2 comma space minus 4 close parentheses`
+$( - 2 , 4 ) , ( 0 , 0 ) , ( 2 , - 4 )$
 
 ![igcse-cie-may-2019-paper-32-q8abii](assets/008-igcse-cie-may-2019-paper-32-q8abii.png)
 
@@ -155,7 +154,7 @@ $m=\frac{0-3}{6-0}=-\frac{3}{6}=-\frac{1}{2}$
 > *The *$y-$*intercept is the point where the straight line crosses the *$y-$*axis. *
 *This is the point*
 
-`open parentheses 0 comma space 3 close parentheses`
+$( 0 , 3 )$
 
 > *The *$y-$*intercept is therefore *
 
@@ -179,7 +178,7 @@ $3=\frac{2}{3}\timesb-7$
 
 **[1]**
 
-`table row 10 equals cell 2 over 3 b end cell row 30 equals cell 2 b end cell row cell 30 over 2 end cell equals b row blank blank blank end table`
+$\begin{gathered} 10 = \frac{2}{3} b \\ 30 = 2 b \\ \frac{30}{2} & = b \\ \end{gathered}$
 
 $b=15$** [1]**
 
@@ -192,7 +191,7 @@ $b=15$** [1]**
 
 > * *
 
-`table row cell rise space end cell equals cell space 4 end cell row cell run space end cell equals cell space 2 end cell end table`
+$\begin{gathered} \text{rise} & = 4 \\ \text{run} & = 2 \end{gathered}$
 
 $\frac{\mathrm{rise}}{\mathrm{run}}=\frac{4}{2}=2$
 
@@ -256,7 +255,7 @@ $(-\frac{12}{5},0)$* ***[1]**
 ### Q8
 > *Parallel **lines have the same gradient, *$m$*.*
 
-> *The line *$y=5x+6$* has a gradient of *$5$*. The parallel line passes through *`open parentheses 0 comma space minus 7 close parentheses`*, so the *$y$* intercept, *$c$*, is *$-7$*.*
+> *The line *$y=5x+6$* has a gradient of *$5$*. The parallel line passes through *$( 0 , - 7 )$*, so the *$y$* intercept, *$c$*, is *$-7$*.*
 
 > *Substitute *$m=5$* and *$c=-7$* into the equation of a line, *$y=mx+c$*.*
 
@@ -272,7 +271,7 @@ $y=5x-7$* ***[1]**
 
 $(-2,5)$* ***[1]**
 
-(ii) *The coordinate *`open parentheses 2 comma space minus 3 close parentheses`* means the point is 2 to the right of the origin, and 3 below it.*
+(ii) *The coordinate *$( 2 , - 3 )$* means the point is 2 to the right of the origin, and 3 below it.*
 *Mark the point on the grid.*
 
 > * *
@@ -331,7 +330,7 @@ $y=8x+6$ **[1]**
 
 > * *
 
-`table row cell rise space end cell equals cell space 3 end cell row cell run space end cell equals cell space 2 end cell end table`
+$\begin{gathered} \text{rise} & = 3 \\ \text{run} & = 2 \end{gathered}$
 
 $\frac{\mathrm{rise}}{\mathrm{run}}=\frac{3}{2}=1.5$
 
@@ -364,7 +363,7 @@ $m=\frac{0-3}{6-0}=-\frac{3}{6}=-\frac{1}{2}$
 > *The *$y-$*intercept is the point where the straight line crosses the *$y-$*axis. *
 *This is the point*
 
-`open parentheses 0 comma space 3 close parentheses`
+$( 0 , 3 )$
 
 > *The *$y-$*intercept is therefore *
 
@@ -386,7 +385,7 @@ $m=\frac{0-3}{6-0}=-\frac{3}{6}=-\frac{1}{2}$
 > *The *$y-$*intercept is the point where the straight line crosses the *$y-$*axis. *
 *This is the point*
 
-`open parentheses 0 comma space 3 close parentheses`
+$( 0 , 3 )$
 
 > *The *$y-$*intercept is therefore *
 
@@ -406,9 +405,9 @@ $2$* ***[1]**
 
 $2(-2)-3=-7$
 
-`2 open parentheses 0 close parentheses minus 3 equals negative 3`
+$2 ( 0 ) - 3 = - 3$
 
-`2 open parentheses 3 close parentheses minus 3 equals 3`
+$2 ( 3 ) - 3 = 3$
 
 > *Complete the table of values for *$y=2x-3$*.*
 
@@ -419,7 +418,7 @@ $2(-2)-3=-7$
 **1 mark for at least 2 values correct, 2 marks for all values correct*** ***[2]**
 > *The coordinates to plot from part (b) are:*
 
-`open parentheses negative 2 comma negative 7 close parentheses comma space open parentheses 0 comma negative 3 close parentheses comma space open parentheses 3 comma space 3 close parentheses`
+$( - 2 , - 7 ) , ( 0 , - 3 ) , ( 3 , 3 )$
 
 > *Plot the coordinates from part (b) onto the set of axes and connect them with a straight line.*
 
@@ -468,7 +467,7 @@ $y=1.5x+c$
 
 > *This point is*
 
-`open parentheses 0 comma negative 1 close parentheses`
+$( 0 , - 1 )$
 
 > *The value of *$c$* is*
 
@@ -487,7 +486,7 @@ $y=1.5x-1$ **[1]**
 
 > * *
 
-`table row cell rise space end cell equals cell space 6 end cell row cell run space end cell equals cell space 2 end cell end table`
+$\begin{gathered} \text{rise} & = 6 \\ \text{run} & = 2 \end{gathered}$
 
 $\frac{\mathrm{rise}}{\mathrm{run}}=\frac{6}{2}=3$
 
@@ -524,7 +523,7 @@ $y=1.5x+1$ **[1]**
 
 > *Work out the horizontal and vertical distances between the two points and substitute them into Pythagoras' theorem, *$a^{2}+b^{2}=c^{2}$*, to find the length **AB**.*
 
-`open parentheses 9 minus 2 close parentheses squared plus open parentheses 4 minus 1 close parentheses squared equals A B squared`
+$( 9 - 2 )^{2} + ( 4 - 1 )^{2} = A B^{2}$
 
 **[1]**
 
@@ -568,7 +567,7 @@ $12.6$ **[1]**
 
 > *We can find the mean of the x-coordinates using *$\frac{x_{1}+x_{2}}{2}$* and find the mean of the y-coordinates using *$\frac{y_{1}+y_{2}}{2}$
 
-*Midpoint =* `open parentheses fraction numerator 8 plus negative 4 over denominator 2 end fraction comma fraction numerator 5 plus 1 over denominator 2 end fraction close parentheses`
+*Midpoint =* $( \frac{8 + - 4}{2} , \frac{5 + 1}{2} )$
 
 **Final answer:** **Midpoint = **$(2,3)$** **
 
@@ -577,17 +576,17 @@ $12.6$ **[1]**
 ### Q22
 > *Method 1*
 
-> *Use the formula distance = *`square root of open parentheses x subscript 1 minus x subscript 2 close parentheses squared plus open parentheses y subscript 1 minus y subscript 2 close parentheses end root`*. This formula is not on the formula sheet, but it's worth knowing- and is really just an application of Pythagoras' Theorem (see Method 2 below)*
+> *Use the formula distance = *$\sqrt{( x_{1} - x_{2} )^{2} + ( y_{1} - y_{2} )}$*. This formula is not on the formula sheet, but it's worth knowing- and is really just an application of Pythagoras' Theorem (see Method 2 below)*
 
-*distance = *`square root of open parentheses 7 minus open parentheses negative 5 close parentheses close parentheses squared plus open parentheses 2 minus 8 close parentheses squared end root`
+*distance = *$\sqrt{( 7 - ( - 5 ) )^{2} + ( 2 - 8 )^{2}}$
 
 *for correct numbers inside the square root sign** ***[1]** 
 *for square root of** ***[1]**
 
-`equals square root of 12 squared plus open parentheses negative 6 close parentheses squared end root
-equals square root of 144 plus 36 end root
-equals square root of 180
-equals 13.4164079...`
+$= \sqrt{12^{2} + ( - 6 )^{2}} 
+= \sqrt{144 + 36} 
+= \sqrt{180} 
+= 13.4164079...$
 
 > *Round to at least 3 significant figures*
 
@@ -613,11 +612,11 @@ $=\sqrt{144+36}\,=\sqrt{180}\,=13.4164079...$
 **13.4 ****or**** 13.41 to 13.42** [**1]**
 
 ### Q23
-*The length of a line between the points *`open parentheses x subscript 1 space comma space y subscript 1 close parentheses`* and *`open parentheses x subscript 2 space comma space y subscript 2 close parentheses`* is *`square root of open parentheses x subscript 2 minus x subscript 1 close parentheses squared plus open parentheses y subscript 2 minus y subscript 1 close parentheses squared end root` 
+*The length of a line between the points *$( x_{1} , y_{1} )$* and *$( x_{2} , y_{2} )$* is *$\sqrt{( x_{2} - x_{1} )^{2} + ( y_{2} - y_{1} )^{2}}$ 
 *A** has coordinates (5,6) and **C** has coordinates (8,14)* 
 *Substitute these numbers into the formula* * *
 
-`A C equals square root of open parentheses 8 minus 5 close parentheses squared plus open parentheses 14 minus 6 close parentheses squared end root`
+$A C = \sqrt{( 8 - 5 )^{2} + ( 14 - 6 )^{2}}$
 
 *(8-5) and (14-6) seen*** [1]**
 * *$(8-5)^{2}+(14-6)^{2}$* seen*** ****[1]**
@@ -625,35 +624,35 @@ $=\sqrt{144+36}\,=\sqrt{180}\,=13.4164079...$
 > *Use a calculator to find this value and give your answer to 3 significant figures*
 
 **8.54**** [1]**
-*The mid-point of the points *`open parentheses x subscript 1 space comma space y subscript 1 close parentheses`* and *`open parentheses x subscript 2 space comma space y subscript 2 close parentheses`* has coordinates *`open parentheses fraction numerator space x subscript 1 plus x subscript 2 over denominator 2 end fraction comma fraction numerator space y subscript 1 plus y subscript 2 over denominator 2 end fraction close parentheses`
+*The mid-point of the points *$( x_{1} , y_{1} )$* and *$( x_{2} , y_{2} )$* has coordinates *$( \frac{ x_{1} + x_{2} }{2} , \frac{ y_{1} + y_{2} }{2} )$
 
 *B** has coordinates (0,-2) and **C** has coordinates (8,14)* *Substitute these numbers into the formula*
 
-`open parentheses fraction numerator 0 plus 8 over denominator 2 end fraction comma fraction numerator negative 2 plus 14 over denominator 2 end fraction close parentheses`
+$( \frac{0 + 8}{2} , \frac{- 2 + 14}{2} )$
 
 *One coordinate correct*** ****[1]** 
 **The mid-point of ****BC**** is (4,6)** **[1]**
 
 ### Q24
-> *The formula for the length between the points (**x*<sub>*1*</sub>*, **y*<sub>*1*</sub>*) and (**x*<sub>*2*</sub>*, **y*<sub>*2*</sub>*) is *`square root of open parentheses x subscript 2 minus x subscript 1 close parentheses squared plus open parentheses y subscript 2 minus y subscript 1 close parentheses squared end root`*. Use this formula with the points (-3, 8) and (9, -2). Use brackets around negatives.*
+> *The formula for the length between the points (**x*<sub>*1*</sub>*, **y*<sub>*1*</sub>*) and (**x*<sub>*2*</sub>*, **y*<sub>*2*</sub>*) is *$\sqrt{( x_{2} - x_{1} )^{2} + ( y_{2} - y_{1} )^{2}}$*. Use this formula with the points (-3, 8) and (9, -2). Use brackets around negatives.*
 
-`square root of open parentheses 9 minus open parentheses negative 3 close parentheses close parentheses squared plus open parentheses open parentheses negative 2 close parentheses minus 8 close parentheses squared end root`
+$\sqrt{( 9 - ( - 3 ) )^{2} + ( ( - 2 ) - 8 )^{2}}$
 
 * One correct bracket*** [1]*** *
 *Correct expression*** [1]**
 
 > *You could simplify before typing it into your calculator or just type it straight in.*
 
-`table attributes columnalign right center left columnspacing 0px end attributes row blank blank cell square root of open parentheses 12 close parentheses squared plus open parentheses negative 10 close parentheses squared end root end cell row blank equals cell square root of 144 plus 100 end root end cell row blank equals cell square root of 244 end cell row blank equals cell 2 square root of 61 end cell row blank equals cell 15.6204... end cell end table`
+$\begin{array}{rcl} \sqrt{( 12 )^{2} + ( - 10 )^{2}} \\ = \sqrt{144 + 100} \\ = \sqrt{244} \\ = 2 \sqrt{61} \\ = 15.6204... \end{array}$
 
 > *Round to 3 significant figures.*
 
 **15.6**** ****[1]**
 
 ### Q25
-> *The midpoint of two points, *`open parentheses x subscript 1 comma space y subscript 1 close parentheses`* and *`open parentheses x subscript 2 comma space y subscript 2 close parentheses`*, is the mean of the **x**-coordinates and the mean of the **y**-coordinates. This can be found using the formula *`open parentheses fraction numerator x subscript 1 plus x subscript 2 over denominator 2 end fraction comma space fraction numerator y subscript 1 plus y subscript 2 over denominator 2 end fraction close parentheses.`* Use brackets around negative numbers.*
+> *The midpoint of two points, *$( x_{1} , y_{1} )$* and *$( x_{2} , y_{2} )$*, is the mean of the **x**-coordinates and the mean of the **y**-coordinates. This can be found using the formula *$( \frac{x_{1} + x_{2} }{2} , \frac{y_{1} + y_{2} }{2} ).$* Use brackets around negative numbers.*
 
-`open parentheses fraction numerator 2 plus 7 over denominator 2 end fraction comma space fraction numerator 3 plus left parenthesis negative 5 right parenthesis over denominator 2 end fraction close parentheses`
+$( \frac{2 + 7}{2} , \frac{3 + ( - 5 )}{2} )$
 
 > * Simplify the fractions.*
 
@@ -661,9 +660,9 @@ $=\sqrt{144+36}\,=\sqrt{180}\,=13.4164079...$
 *1** **mark for each correct number in the co-ordinate*** [2]**
 
 ### Q26
-> *Use the distance between two points, *`open parentheses x subscript 1 comma space y subscript 1 close parentheses`* and *`open parentheses x subscript 2 comma space y subscript 2 close parentheses`* formula, *`" d equals square root of open parentheses x subscript 2 minus x subscript 1 close parentheses squared plus open parentheses y subscript 2 minus y subscript 1 close parentheses squared end root "`*.*
+> *Use the distance between two points, *$( x_{1} , y_{1} )$* and *$( x_{2} , y_{2} )$* formula, *$" d = \sqrt{( x_{2} - x_{1} )^{2} + ( y_{2} - y_{1} )^{2}} "$*.*
 
-`A B equals square root of open parentheses 6 minus negative 3 close parentheses squared plus open parentheses negative 2 minus 4 close parentheses squared end root`
+$A B = \sqrt{( 6 - - 3 )^{2} + ( - 2 - 4 )^{2}}$
 
 *Correct subtraction of coordinates ***[1]**** **
 *Square root ***[1]**
@@ -673,16 +672,16 @@ $AB=\sqrt{81+36}=3\sqrt{13}=10.816653...$
 **10.8 units*** ***[1]**
 
 ### Q27
-> *Using the distance of a line formula, *`" d equals square root of open parentheses x subscript 2 minus x subscript 1 close parentheses squared plus open parentheses y subscript 2 minus y subscript 1 close parentheses squared end root "`*to find the length **AC**.*
+> *Using the distance of a line formula, *$" d = \sqrt{( x_{2} - x_{1} )^{2} + ( y_{2} - y_{1} )^{2}} "$*to find the length **AC**.*
 
-`A C equals square root of open parentheses 4 minus negative 3 close parentheses squared plus open parentheses negative 4 minus 10 close parentheses squared end root`
+$A C = \sqrt{( 4 - - 3 )^{2} + ( - 4 - 10 )^{2}}$
 
 *Part under the square root*** ****[1] **
 *Including the square root*** [1]**
 
-`A C equals square root of open parentheses 7 close parentheses squared plus open parentheses negative 14 close parentheses squared end root
-A C equals square root of 245
-A C equals 15.652 space 475 space...`
+$A C = \sqrt{( 7 )^{2} + ( - 14 )^{2}} 
+A C = \sqrt{245} 
+A C = 15.652 475 ...$
 
 **The length ****AC**** is 15.7 units**** [1]**
 
@@ -691,22 +690,22 @@ A C equals 15.652 space 475 space...`
 
 *We can find the mean of the x-coordinates using *$\frac{x_{1}+x_{2}}{2}$* and find the mean of the y-coordinates using *$\frac{y_{1}+y_{2}}{2}$*.*
 
-*Midpoint =* `open parentheses fraction numerator 5 space plus space 13 over denominator 2 end fraction space comma space fraction numerator negative 4 space plus space 1 over denominator 2 end fraction close parentheses`
+*Midpoint =* $( \frac{5 + 13}{2} , \frac{- 4 + 1}{2} )$
 
 **[1]**
 
 **Midpoint = **$(9,-1.5)$** ****[1]**
 
 ### Q29
-> *Use the midpoint formula, *`open parentheses fraction numerator x subscript 1 plus x subscript 2 over denominator 2 end fraction space comma space fraction numerator y subscript 1 plus y subscript 2 over denominator 2 end fraction close parentheses`
+> *Use the midpoint formula, *$( \frac{x_{1} + x_{2} }{2} , \frac{y_{1} + y_{2} }{2} )$
 
-`M equals open parentheses fraction numerator 2 plus 6 over denominator 2 end fraction space comma space fraction numerator 3 plus 8 over denominator 2 end fraction close parentheses`
+$M = ( \frac{2 + 6}{2} , \frac{3 + 8}{2} )$
 
 **[1]**
 
 > *Simplify by hand, or work out the **x** and then the **y** coordinate using your calculator*
 
-`equals open parentheses 8 over 2 space comma space 11 over 2 close parentheses`
+$= ( \frac{8}{2} , \frac{11}{2} )$
 
 $M=(4,5.5)$**[1]**
 **You're not asked to plot the midpoint- but check against the diagram that your answer looks right**

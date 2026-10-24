@@ -206,7 +206,7 @@ Use Hubble's law to calculate the distance of NGC 247:
 
 - Hubble's law:  $v=H_{0}d$ **[1 mark]**
 - Distance of NGC 247:  $H_{0}=\frac{v_{247}}{d_{247}}=\frac{v_{1357}}{d_{1357}}\Rightarrowd_{1357}=d_{247}\times\frac{v_{1357}}{v_{247}}$
-- Distance of NGC 247:  `d subscript 1357 space equals space open parentheses 1.1 cross times 10 to the power of 20 close parentheses cross times 1200 over 240`
+- Distance of NGC 247:  $d_{1357} = ( 1.1 \times 10^{20} ) \times \frac{1200}{240}$
 - Distance of NGC 247:  $d_{1357}$ = 5.5 × 10<sup>20</sup> km **[1 mark]**
 
 (ii) Estimate the age, in years, of the Universe:
@@ -282,7 +282,7 @@ List the known quantities:
 Rearrange the equation and substitute values, to calculate *v*:
 
 - $\frac{Δλ}{λ_{0}}=\frac{v}{c}\Rightarrowv=c\times\frac{Δλ}{λ_{0}}$ **[1 mark]**
-- `v space equals space open parentheses 3.0 cross times 10 to the power of 8 close parentheses space cross times space fraction numerator 1.29 over denominator 486.14 end fraction` **[1 mark]**
+- $v = ( 3.0 \times 10^{8} ) \times \frac{1.29}{486.14}$ **[1 mark]**
 - Speed of galaxy 1b = 796 067 = 7.96 × 10<sup>5</sup> m s<sup>−1</sup> **[1 mark]**
 
 **[Total: 3 marks]**
@@ -315,7 +315,7 @@ List the known quantities:
 Use Hubble's law to calculate recession velocity:
 
 - Hubble's law:  $v=H_{0}d$ **[1 mark]**
-- `v space equals space open parentheses 2.2 space cross times space 10 to the power of negative 18 end exponent close parentheses space cross times space open parentheses 150 space 000 space cross times space 10 to the power of 9 close parentheses` **[1 mark]**
+- $v = ( 2.2 \times 10^{- 18} ) \times ( 150 000 \times 10^{9} )$ **[1 mark]**
 - $v=3.3\times10^{-4}ms^{-1}$ **[1 mark]**
 
 **[Total: 3 marks]**
@@ -348,7 +348,7 @@ Use the line spectra to identify the wavelengths of the emitted radiation:
 Determine the recessional velocity of the galaxy:
 
 - Doppler redshift:  $\frac{\Deltaλ}{λ}\approx\frac{v}{c}\Rightarrowv=c\times\frac{\Deltaλ}{λ}$
-- `v space equals space open parentheses 3 cross times 10 to the power of 8 close parentheses cross times 26 over 454 space equals space 1.72 space cross times space 10 to the power of 7 space straight m space straight s to the power of negative 1 end exponent`** [1 mark]**
+- $v = ( 3 \times 10^{8 ) \times \frac{26}{454} = 1.72 \times 10^{7} \mathrm{m} \mathrm{s}^{-1} }$** [1 mark]**
 
 Determine the gradient (Hubble constant) from the graph
 
@@ -419,7 +419,7 @@ Determine the age of the universe when the light was emitted:
 
 > *Over a distance of 6.6 × 10*<sup>*24*</sup>* m (from **(a)**), light has travelled*
 
-- *distance (ly) = *`fraction numerator 6.6 cross times 10 to the power of 24 over denominator open parentheses 3 cross times 10 to the power of 8 close parentheses cross times open parentheses 60 cross times 60 cross times 24 cross times 365 close parentheses end fraction`* = 6.98 × 10*<sup>*8*</sup>* ly*
+- *distance (ly) = *$\frac{6.6 \times 10^{24} }{( 3 \times 10^{8} ) \times ( 60 \times 60 \times 24 \times 365 )}$* = 6.98 × 10*<sup>*8*</sup>* ly*
 
 > *This means the light was emitted **0.7 billion years** ago*
 
@@ -434,7 +434,7 @@ Determine the gradient of the graph:
 
 ![25-2-1c-h-hubble-original-veloci-ma](assets/010-25-2-1c-h-hubble-original-veloci-ma.png)
 
-- `H subscript 0 space equals space fraction numerator increment v over denominator increment d end fraction space equals space fraction numerator 1050 cross times 10 cubed over denominator open parentheses 2 cross times 10 to the power of 6 close parentheses cross times open parentheses 3.09 cross times 10 to the power of 16 close parentheses end fraction`
+- $H_{0} = \frac{\Delta v}{\Delta d} = \frac{1050 \times 10^{3}}{( 2 \times 10^{6} ) \times ( 3.09 \times 10^{16} )}$
 - $H_{0}=1.699\times10^{-17}s^{-1}$ **[1 mark]**
 
 Determine Hubble's estimate for the age:
@@ -524,13 +524,13 @@ Calculate the velocity of the slower star:
 
 - Doppler redshift:  $\frac{\Deltaλ}{λ}\approx\frac{v}{c}\Rightarrowv=c\times\frac{\Deltaλ}{λ}$
 - Since $\Deltaλ\proptov$, for the slower star:  $\Deltaλ$ = 0.420 × 10<sup>−7</sup> m
-- `v space equals space open parentheses 3.0 cross times 10 to the power of 8 close parentheses cross times fraction numerator 0.420 over denominator 4.861 end fraction` **[1 mark]**
+- $v = ( 3.0 \times 10^{8} ) \times \frac{0.420}{4.861}$ **[1 mark]**
 - $v=2.59\times10^{7}ms^{-1}$ **[1 mark]**
 
 Calculate the velocity of the faster star:
 
 - For the faster star:  $\Deltaλ$ = 0.865 × 10<sup>−7</sup> m
-- `v space equals space open parentheses 3.0 cross times 10 to the power of 8 close parentheses cross times fraction numerator 0.865 over denominator 4.861 end fraction`
+- $v = ( 3.0 \times 10^{8} ) \times \frac{0.865}{4.861}$
 - $v=5.34\times10^{7}ms^{-1}$ **[1 mark]**
 
 Identify the velocities of stars A and B:
@@ -551,11 +551,11 @@ List the known values:
 Determine the orbital radius of star A:
 
 - Orbital speed:  $v=\frac{2πr}{T}\Rightarrowr=\frac{vT}{2π}$
-- `r subscript A space equals space fraction numerator open parentheses 2.59 cross times 10 to the power of 7 close parentheses open parentheses 1.81 cross times 10 to the power of 6 close parentheses over denominator 2 straight pi end fraction space equals space 7.46 cross times 10 to the power of 12 space straight m` **[1 mark]**
+- $r_{A} = \frac{( 2.59 \times 10^{7} ) ( 1.81 \times 10^{6} )}{2 \mathrm{\pi } } = 7.46 \times 10^{12} \mathrm{m}$ **[1 mark]**
 
 Determine the orbital radius of star B:
 
-- `r subscript B space equals space fraction numerator open parentheses 5.34 cross times 10 to the power of 7 close parentheses open parentheses 1.81 cross times 10 to the power of 6 close parentheses over denominator 2 straight pi end fraction space equals space 15.4 cross times 10 to the power of 12 space straight m` **[1 mark]**
+- $r_{B} = \frac{( 5.34 \times 10^{7} ) ( 1.81 \times 10^{6} )}{2 \mathrm{\pi } } = 15.4 \times 10^{12} \mathrm{m}$ **[1 mark]**
 
 Determine the ratio of the orbits:
 

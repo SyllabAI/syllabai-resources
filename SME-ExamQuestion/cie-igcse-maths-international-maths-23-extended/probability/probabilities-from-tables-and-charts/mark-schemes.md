@@ -39,19 +39,19 @@
 
 (i)
 
-> `P open parentheses C union G close parentheses`* means the probability that the selected student studies Chemistry or Geography*
+> $P ( C \cup G )$* means the probability that the selected student studies Chemistry or Geography*
 
 $\frac{70+50+40}{200}=\frac{160}{200}$
 
-`P open parentheses C union G close parentheses equals 4 over 5`
+$P ( C \cup G ) = \frac{4}{5}$
 
 **[B1]**
 
 (ii)
 
-> `P open parentheses open parentheses C union G close parentheses apostrophe close parentheses`* means the probability of not studying "Chemistry OR Geography"*
+> $P ( ( C \cup G ) ' )$* means the probability of not studying "Chemistry OR Geography"*
 
-> *i.e. It means *`1 minus P open parentheses C union G close parentheses`
+> *i.e. It means *$1 - P ( C \cup G )$
 
 > *These are the students not in either circle*
 
@@ -59,19 +59,19 @@ $\frac{70+50+40}{200}=\frac{160}{200}$
 
 $\frac{40}{200}$
 
-`P open parentheses open parentheses C union G close parentheses apostrophe close parentheses equals 1 fifth`
+$P ( ( C \cup G ) ' ) = 1 \frac{1}{5}$
 
 **[B1]**
 
 (iii)
 
-> `P open parentheses open parentheses C intersection G close parentheses apostrophe close parentheses`* means the probability of not studying "Chemistry AND Geography"*
+> $P ( ( C \cap G ) ' )$* means the probability of not studying "Chemistry AND Geography"*
 
 > *This is any student not in the overlapping region*
 
 $\frac{70+40+40}{200}=\frac{150}{200}$
 
-`P open parentheses open parentheses C intersection G close parentheses apostrophe close parentheses equals 3 over 4`
+$P ( ( C \cap G ) ' ) = \frac{3}{4}$
 
 **[B1]**
 
@@ -180,13 +180,13 @@ $\frac{10}{240}$ **[1]**
 
 > *We can add the expressions in the entire shaded region and equate them to 23*
 
-`open parentheses 20 minus x close parentheses plus x plus open parentheses 8 minus x close parentheses equals 23`
+$( 20 - x ) + x + ( 8 - x ) = 23$
 
 **[1]**
 
 > *Collect like terms and solve for *$x$
 
-`table row cell 20 minus x plus x plus 8 minus x end cell equals 23 row cell 28 minus x end cell equals 23 row 5 equals x end table`
+$\begin{gathered} 20 - x + x + 8 - x & = 23 \\ 28 - x & = 23 \\ 5 = x \end{gathered}$
 
 $x=5$* ***[1]**
 > $(A\cupB)'$* means the compliment of *$(A\cupB)$*, or everything that's not in *$A$*or *$B$*. *
@@ -244,7 +244,7 @@ $\frac{3}{14}$**  [2]**
 ### Q10
 > *5 do not study any languages, so place 5 in the Venn diagram outside of both bubbles.*
 
-> *Find the intersection of both bubbles *`open parentheses G intersection S close parentheses`* by finding how many students have been counted twice in German and Spanish.*
+> *Find the intersection of both bubbles *$( G \cap S )$* by finding how many students have been counted twice in German and Spanish.*
 
 > * *
 
@@ -279,7 +279,7 @@ $\frac{3}{14}$**  [2]**
 
 > *Find the probability by dividing this by the total number of students.*
 
-`straight P open parentheses Spanish close parentheses space equals space 12 over 32`
+$\mathrm{P} ( \text{Spanish} ) = \frac{12}{32}$
 
 $\frac{3}{8}$** [1] **
 **The unsimplified fraction is accepted.**
@@ -287,7 +287,7 @@ $\frac{3}{8}$** [1] **
 
 > *Find the probability by dividing the number who study both by the total number of students who study German.*
 
-`straight P space open parentheses Student space who space studies space German space also space studies space Spanish close parentheses equals space 6 over 15`
+$\mathrm{P} ( \text{Student} \text{who} \text{studies} \text{German} \text{also} \text{studies} \text{Spanish} ) = \frac{6}{15}$
 
 $\frac{2}{5}$** [1]**
 ** The unsimplified fraction is accepted.**
@@ -309,7 +309,7 @@ $\frac{2}{5}$** [1]**
 > *A**' is the set of all numbers that **aren't** in **A**.  (It's called the 'complement' of** A.**) *
 *Basically, the question is asking you 'What's the probability that the number isn't in set **A**?'*
 
-`A apostrophe space equals space open curly brackets 10 comma space 11 comma space 13 comma space 14 comma space 16 comma space 17 comma space 19 close curly brackets`
+$A ' = \{ 10 , 11 , 13 , 14 , 16 , 17 , 19 \}$
 
 **[1] ****You can also get this mark for indicating where set A' is on the Venn diagram.**
 
@@ -344,7 +344,7 @@ $\frac{7}{10}$**  [1]**
 **1 mark for the 'only A' part, the 'only B' part, or the 'outside the circles' part being correct. **
 **2 marks for ALL those numbers being in the correct place.**
 > *There are 15 numbers in the universal set. *
-$A\cupB$* is all the numbers that are in either or both of the circles. So *`A union B space equals space open curly brackets 3 comma space 5 comma space 9 comma space 15 comma space 21 comma space 25 comma space 27 close curly brackets`*, with 7 numbers in that set.*
+$A\cupB$* is all the numbers that are in either or both of the circles. So *$A \cup B = \{ 3 , 5 , 9 , 15 , 21 , 25 , 27 \}$*, with 7 numbers in that set.*
 
 $\frac{7}{15}$**  [2]**
 

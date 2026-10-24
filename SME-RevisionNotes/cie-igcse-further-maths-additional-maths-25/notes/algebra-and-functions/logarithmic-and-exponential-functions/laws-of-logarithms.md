@@ -48,7 +48,7 @@ guided_study: false
 
 - Beware…
 
-  - …`log subscript a open parentheses x plus y close parentheses space not equal to space log subscript a x plus log subscript a y`
+  - …$log_{a} ( x + y ) \text{eq} log_{a} x + log_{a} y$
 - These results apply to $\mathrm{ln}x(\mathrm{log}_{e}x)$ too
 
   - Two particularly useful results are
@@ -109,7 +109,7 @@ guided_study: false
 > 
 > > *  *
 > 
-> `log space 8 equals space space log space x to the power of negative open parentheses negative 1 close parentheses end exponent space equals space log space x`
+> $\log 8 = \log x^{- ( - 1 )} = \log x$
 > 
 > > * *
 > 
@@ -147,7 +147,7 @@ $\mathrm{log}_{a}x=\frac{\mathrm{log}_{b}x}{\mathrm{log}_{b}a}$
   - Some old calculators only had a button for logarithm of base 10
   - To calculate $\mathrm{log}_{5}7$on these calculators you would have to enter
   
-    - `fraction numerator log subscript 10 invisible function application 7 over denominator log subscript 10 invisible function application 5 end fraction`
+    - $\frac{log_{10} 7}{log_{10} 5}$
 
 - The formula can be useful when evaluating a logarithm where the two numbers are **powers of a common number**
 
@@ -156,11 +156,11 @@ $\mathrm{log}_{a}x=\frac{\mathrm{log}_{b}x}{\mathrm{log}_{b}a}$
 
   - For example, if you have $\mathrm{log}_{3}k$ and $\mathrm{log}_{9}n$ within the same equation
   
-    - You can rewrite $\mathrm{log}_{9}n$ as `fraction numerator log subscript 3 invisible function application n over denominator log subscript 3 invisible function application 9 end fraction blank` which simplifies to $\frac{1}{2}\mathrm{log}_{3}n$
-    - Or you can rewrite $\mathrm{log}_{3}k$ as `fraction numerator log subscript 9 invisible function application k over denominator log subscript 9 invisible function application 3 end fraction blank` which simplifies to $2\mathrm{log}_{9}k$
+    - You can rewrite $\mathrm{log}_{9}n$ as $\frac{log_{3} n}{log_{3} 9}$ which simplifies to $\frac{1}{2}\mathrm{log}_{3}n$
+    - Or you can rewrite $\mathrm{log}_{3}k$ as $\frac{log_{9} k}{log_{9} 3}$ which simplifies to $2\mathrm{log}_{9}k$
 - The formula also allows you to derive and use a formula for switching the numbers:
 
-`log subscript a invisible function application x equals fraction numerator 1 over denominator log subscript x invisible function application a end fraction`
+$log_{a} x = \frac{1}{log_{x} a}$
 
 - Using the fact that $\mathrm{log}_{x}x=1$
 

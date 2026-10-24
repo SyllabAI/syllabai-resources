@@ -24,18 +24,18 @@ guided_study: false
   - The plural of matrix is **matrices**
 - The **order **(**dimensions**)** **of a matrix is its **number of rows × number of columns**
 
-  - a 2 × 1 matrix is `open parentheses table row a row b end table close parentheses`
+  - a 2 × 1 matrix is $( \begin{gathered} a \\ b \end{gathered} )$
   
     - this is also called a **column matrix** or a **column** **vector**
-  - a 2 × 2 matrix is `open parentheses table row a b row c d end table close parentheses`
+  - a 2 × 2 matrix is $( \begin{gathered} a b \\ c d \end{gathered} )$
   
     - this is called a **square **matrix
 - A **bold capital **letter is often used to represent a matrix
 
-  - `bold A equals open parentheses table row 5 2 row 0 4 end table close parentheses`, `bold B equals open parentheses table row 4 row 3 end table close parentheses`
+  - $A = ( \begin{gathered} 5 2 \\ 0 4 \end{gathered} )$, $B = ( \begin{gathered} 4 \\ 3 \end{gathered} )$
 - **2D coordinates **can be written as a column matrix
 
-  - The point `open parentheses 3 comma space 5 close parentheses` is `open parentheses table row 3 row 5 end table close parentheses`
+  - The point $( 3 , 5 )$ is $( \begin{gathered} 3 \\ 5 \end{gathered} )$
 
 - You can use **subscript **notation to refer to **elements** in a matrix
 
@@ -62,11 +62,11 @@ guided_study: false
   - $a_{i,j}=b_{i,j}$ for all elements
 - A **zero matrix**,** **$0$, is a matrix in which all the elements are zero
 
-  - For example, the 2 × 2 zero matrix is `bold 0 equals open parentheses table row 0 0 row 0 0 end table close parentheses`
+  - For example, the 2 × 2 zero matrix is $0 = ( \begin{gathered} 0 0 \\ 0 0 \end{gathered} )$
 - An** identity matrix**, $I$, is a **square** matrix in which all elements along the **leading diagonal** (top-left to bottom right) are 1
 
   - The rest of the elements are zero
-  - For example, the 2 × 2 identity matrix is  `bold I equals open parentheses table row 1 0 row 0 1 end table close parentheses`
+  - For example, the 2 × 2 identity matrix is  $I = ( \begin{gathered} 1 0 \\ 0 1 \end{gathered} )$
   - The notation $I_{n}$ can be used to specify the $n\timesn$ identity matrix
 
 ## Basic Operations with Matrices
@@ -79,7 +79,7 @@ guided_study: false
 
 - To multiply any matrix by a **scalar** (a number), **multiply each element **by that scalar
 
-  - If `bold A equals open parentheses table row 5 2 row 0 4 end table close parentheses` then `2 bold A equals 2 open parentheses table row 5 2 row 0 4 end table close parentheses equals open parentheses table row cell 2 cross times 5 end cell cell 2 cross times 2 end cell row cell 2 cross times 0 end cell cell 2 cross times 4 end cell end table close parentheses equals open parentheses table row 10 4 row 0 8 end table close parentheses`
+  - If $A = ( \begin{gathered} 5 2 \\ 0 4 \end{gathered} )$ then $2 A = 2 ( \begin{gathered} 5 2 \\ 0 4 \end{gathered} ) = ( \begin{gathered} 2 \times 5 & 2 \times 2 \\ 2 \times 0 & 2 \times 4 \end{gathered} ) = ( \begin{gathered} 10 4 \\ 0 8 \end{gathered} )$
 - Multiplying by a **negative** scalar changes the **sign** of each element in the matrix
 - **Lower case** letters often refer to scalar multiples
 
@@ -90,7 +90,7 @@ guided_study: false
 - Two matrices of the **same order** can be added (or subtracted) by adding (or subtracting) **corresponding elements**
 
   - The answer is a matrix of the **same order**
-  - For example, `open parentheses table row 1 2 row cell negative 3 end cell 0 row 2 1 end table close parentheses plus open parentheses table row 3 0 row 3 cell negative 1 end cell row 4 1 end table close parentheses equals open parentheses table row cell 1 plus 3 end cell cell 2 plus 0 end cell row cell negative 3 plus 3 end cell cell 0 minus 1 end cell row cell 2 plus 4 end cell cell 1 plus 1 end cell end table close parentheses equals open parentheses table row 4 2 row 0 cell negative 1 end cell row 6 2 end table close parentheses`
+  - For example, $( \begin{gathered} 1 2 \\ - 3 & 0 \\ 2 1 \end{gathered} ) + ( \begin{gathered} 3 0 \\ 3 - 1 \\ 4 1 \end{gathered} ) = ( \begin{gathered} 1 + 3 & 2 + 0 \\ - 3 + 3 & 0 - 1 \\ 2 + 4 & 1 + 1 \end{gathered} ) = ( \begin{gathered} 4 2 \\ 0 - 1 \\ 6 2 \end{gathered} )$
 
 ### What properties of matrix addition do I need to know?
 
@@ -120,21 +120,21 @@ guided_study: false
 - $0-A=-A$
 
 > **Worked Example**
-> Consider the matrices `bold A equals open parentheses table row cell negative 4 end cell 2 row 7 3 row 1 cell negative 5 end cell end table close parentheses`, `bold B equals open parentheses table row 2 6 row 5 cell negative 9 end cell row cell negative 2 end cell cell negative 3 end cell end table close parentheses`.
+> Consider the matrices $A = ( \begin{gathered} - 4 & 2 \\ 7 3 \\ 1 - 5 \end{gathered} )$, $B = ( \begin{gathered} 2 6 \\ 5 - 9 \\ - 2 & - 3 \end{gathered} )$.
 > 
 > (a)  Find $A+B$.
 > 
 > > *The matrices have the same order (dimensions) *
 > *Corresponding elements can be added*
 > 
-> `bold A plus bold B equals open parentheses table row cell negative 4 plus 2 end cell cell 2 plus 6 end cell row cell 7 plus 5 end cell cell 3 plus open parentheses negative 9 close parentheses end cell row cell 1 plus open parentheses negative 2 close parentheses end cell cell negative 5 plus open parentheses negative 3 close parentheses end cell end table close parentheses`
+> $A + B = ( \begin{gathered} - 4 + 2 & 2 + 6 \\ 7 + 5 & 3 + ( - 9 ) \\ 1 + ( - 2 ) & - 5 + ( - 3 ) \end{gathered} )$
 > 
-> `bold A plus bold B equals open parentheses table row cell negative 2 end cell 8 row 12 cell negative 6 end cell row cell negative 1 end cell cell negative 8 end cell end table close parentheses`
+> $A + B = ( \begin{gathered} - 2 & 8 \\ 12 - 6 \\ - 1 & - 8 \end{gathered} )$
 > 
 > (b)  Find $-10B$.
 > 
 > > *Multiply each element by -10*
 > 
-> * *`table row cell negative 10 bold B end cell equals cell negative 10 open parentheses table row 2 6 row 5 cell negative 9 end cell row cell negative 2 end cell cell negative 3 end cell end table close parentheses end cell row blank equals cell open parentheses table row cell negative 10 cross times 2 end cell cell negative 10 cross times 6 end cell row cell negative 10 cross times 5 end cell cell negative 10 cross times open parentheses negative 9 close parentheses end cell row cell negative 10 cross times open parentheses negative 2 close parentheses end cell cell negative 10 cross times open parentheses negative 3 close parentheses end cell end table close parentheses end cell end table`
+> * *$\begin{gathered} - 10 B & = - 10 ( \begin{gathered} 2 6 \\ 5 - 9 \\ - 2 & - 3 \end{gathered} ) \\ = ( \begin{gathered} - 10 \times 2 & - 10 \times 6 \\ - 10 \times 5 & - 10 \times ( - 9 ) \\ - 10 \times ( - 2 ) & - 10 \times ( - 3 ) \end{gathered} ) \end{gathered}$
 > 
-> `table row cell negative 10 bold B end cell equals cell open parentheses table row cell negative 20 end cell cell negative 60 end cell row cell negative 50 end cell 90 row 20 30 end table close parentheses end cell end table`
+> $\begin{gathered} - 10 B & = ( \begin{gathered} - 20 & - 60 \\ - 50 & 90 \\ 20 30 \end{gathered} ) \end{gathered}$

@@ -53,7 +53,7 @@ $306\div1.125$
 ### Q4
 > *Work out the total cost of the apples*
 
-`5 cross times $ 2.69 equals $ 13.45`
+$5 \times \$ 2.69 = \$ 13.45$
 
 **[1]**
 
@@ -63,7 +63,7 @@ $306\div1.125$
 
 > *Divide the resulting amount by 3 to find the cost per kilograms of bananas*
 
-`$ 4.11 divided by 3`
+$\$ 4.11 \div 3$
 
 **[1]**
 
@@ -108,13 +108,13 @@ $\frac{64}{0.0154}=4155.844155...$
 ### Q7
 > *£1 is 1.16 euros.  So 5 euros is equivalent to 5 ÷ 1.16 £s.*
 
-`5 space divided by space 1.16 space equals space 4.3103... space equals space £ 4.31 space open parentheses nearest space penny close parentheses`
+$5 \div 1.16 = 4.3103... = \pounds 4.31 ( \text{nearest} \text{penny} )$
 
 **[1]**
 
 > *Subtract the price in England from that to find the difference.*
 
-`4.31 space minus space 2.50 space equals space £ 1.81`
+$4.31 - 2.50 = \pounds 1.81$
 
 **[1]**
 
@@ -126,7 +126,7 @@ $\frac{64}{0.0154}=4155.844155...$
 ### Q8
 > *£1 is 1.34 euros.  So 31 euros is equivalent to 31 ÷ 1.34 euros.*
 
-`31 space divided by space 1.34 space equals space 23.1343... space equals space £ 23.13 space open parentheses nearest space penny close parentheses`
+$31 \div 1.34 = 23.1343... = \pounds 23.13 ( \text{nearest} \text{penny} )$
 
 **[2] **
 
@@ -181,13 +181,13 @@ $6\times\frac{1}{1.091}=5.4995...$
 ### Q12
 > *£1 = 1.39 Swiss francs, so divide 189 by 1.39 to find the Geneva price in pounds.*
 
-`189 space divided by space 1.39 space equals space 135.9712... space equals space £ 135.97 space open parentheses nearest space penny close parentheses`
+$189 \div 1.39 = 135.9712... = \pounds 135.97 ( \text{nearest} \text{penny} )$
 
 **[1]**
 
 > *£1 = 1.27 euros, so divide 174 by 1.27 to find the Paris price in pounds.*
 
-`174 space divided by space 1.27 space equals space 137.0078... space equals space £ 137.01 space open parentheses nearest space penny close parentheses`
+$174 \div 1.27 = 137.0078... = \pounds 137.01 ( \text{nearest} \text{penny} )$
 
 **[1]**
 
@@ -265,7 +265,7 @@ $150\times0.84=126\mathrm{euros}$
 
 > *Find the cost, in euros, of 1 kg of cheese by multiplying the cost for 200 grams by 5. *
 
-`table row cell 3.45 space cross times space 5 space end cell equals cell space 17.25 space euros end cell end table`
+$\begin{gathered} 3.45 \times 5 & = 17.25 \text{euros} \end{gathered}$
 
 *Either calculation** ***[1]**
 
@@ -317,13 +317,13 @@ $40000\times0.0099$
 ### Q19
 > *£1 = €1.34, so divide 1980 by 1.34 to find the Paris price in pounds.*
 
-`1980 space divided by space 1.34 space equals space 1477.6119... space equals space £ 1477.61 space open parentheses nearest space penny close parentheses`
+$1980 \div 1.34 = 1477.6119... = \pounds 1477.61 ( \text{nearest} \text{penny} )$
 
 **[1]**
 
 > *£1 = \$1.52, so divide 2250 by 1.52 to find the New York price in pounds.*
 
-`2250 space divided by space 1.52 space equals space 1480.2631... space equals space £ 1480.26 space open parentheses nearest space penny close parentheses`
+$2250 \div 1.52 = 1480.2631... = \pounds 1480.26 ( \text{nearest} \text{penny} )$
 
 **[1]**
 
@@ -365,13 +365,13 @@ $50-26.73=23.27$
 ### Q22
 > *First multiply 3.785 litres by 108.9p per litre, to find the London price per US gallon in £.*
 
-`3.785 space cross times space 108.9 space equals space 412.1865 space straight p space equals space £ 4.121865`
+$3.785 \times 108.9 = 412.1865 \mathrm{p} = \pounds 4.121865$
 
 **[1]**
 
 > *£1 = \$1.46, so multiply 4.121865 by 1.46 to find the London price per US gallon in \$.*
 
-`4.121865 space cross times space 1.46 space equals space 6.0179229 space equals space $ 6.02 space open parentheses 2 space straight d. straight p. close parentheses`
+$4.121865 \times 1.46 = 6.0179229 = \$ 6.02 ( 2 \mathrm{d} . \mathrm{p} . )$
 
 **[1]**
 
@@ -384,13 +384,13 @@ $50-26.73=23.27$
 ### Q23
 > *£1 is HK\$12.30.  So HK\$3179.55 is equivalent to 3179.55 ÷ 12.30 £s.*
 
-`3179.55 space divided by space 12.30 space equals space £ 258.50`
+$3179.55 \div 12.30 = \pounds 258.50$
 
 **[1]**
 
 > *Subtract that from the London price to find out how much he saved.*
 
-`285 space minus space 258.50 space equals space £ 26.50`
+$285 - 258.50 = \pounds 26.50$
 
 **[1]**
 
@@ -402,13 +402,13 @@ $50-26.73=23.27$
 ### Q24
 > *First multiply 3.79 litres by £1.24 per litre, to find the UK price per US gallon in £.*
 
-`3.79 space cross times space 1.24 space equals space £ 4.6996`
+$3.79 \times 1.24 = \pounds 4.6996$
 
 **[1]**
 
 > *£1 = 1.47 dollars, so multiply 4.6996 by 1.47 to find the UK price per US gallon in dollars.*
 
-`4.6996 space cross times space 1.47 space equals space 6.908412 space equals space 6.91 space dollars space open parentheses 2 space straight d. straight p. close parentheses`
+$4.6996 \times 1.47 = 6.908412 = 6.91 \text{dollars} ( 2 \mathrm{d} . \mathrm{p} . )$
 
 **[2] **
 
@@ -427,13 +427,13 @@ $50-26.73=23.27$
 
 > *If \$1=0.9416 euros, we can **divide both sides by 0.9416** to find the price in dollars for 1 euro*
 
-`table row cell $ 1 space end cell equals cell space 0.9416 space euros end cell row cell $ 1.06202209 space end cell equals cell space 1 space euro end cell end table`
+$\begin{gathered} \$ 1 & = 0.9416 \text{euros} \\ \$ 1.06202209 & = 1 \text{euro} \end{gathered}$
 
 **[1]**
 
 > *We can now use this to find the price of the 2.25 euro newspaper, in dollars*
 
-`2.25 space euros space equals space 2.25 space cross times $ 1.06202209 equals $ 2.389549703`
+$2.25 \text{euros} = 2.25 \times \$ 1.06202209 = \$ 2.389549703$
 
 > *Find the difference between this price and the \$1.13 Maria paid at home*
 
@@ -441,6 +441,6 @@ $2.389549703-1.13=1.259549703...$
 
 **[1]**
 
-`bold $ bold space bold 1 bold. bold 26` **[1]**
+$\$ 1 . 26$ **[1]**
 
 **Rounded to 2 decimal places (as it is money)**

@@ -159,7 +159,7 @@ Substitute the known values into the equation:
 ### 3() — 3 marks
 (i) State the equation linking force, change in momentum and time:
 
-- Force = $\frac{changeinmomentum}{time}$  **OR ** `F space equals space fraction numerator open parentheses m v space minus space m u close parentheses over denominator t end fraction`, $F=\frac{\Deltap}{\Deltat}$ **[1 mark]**
+- Force = $\frac{changeinmomentum}{time}$  **OR ** $F = \frac{( m v - m u )}{t}$, $F=\frac{\Deltap}{\Deltat}$ **[1 mark]**
 
 (ii) Calculate the force on the driver:
 
@@ -278,7 +278,7 @@ List the known quantities:
 
 From the equation sheet:
 
-- $Force=\frac{changeinmomentum}{timetaken}$     `F equals fraction numerator open parentheses m v minus m u close parentheses over denominator t end fraction`
+- $Force=\frac{changeinmomentum}{timetaken}$     $F = \frac{( m v - m u )}{t}$
 
 Substitute values into force equation:
 
@@ -625,7 +625,7 @@ $p_{before}=p_{after}$ **[1 mark]**
 
 $p_{before}=m_{C}u_{C}+m_{V}u_{V}$
 
-`p subscript text before end text end subscript space equals space open parentheses 1200 cross times 15 close parentheses space plus space open parentheses 1800 cross times 0 close parentheses`
+$p_{ \text{before} } = ( 1200 \times 15 ) + ( 1800 \times 0 )$
 
 $p_{before}=18000\text{kg m/s}$ **[1 mark]**
 
@@ -633,7 +633,7 @@ $p_{before}=18000\text{kg m/s}$ **[1 mark]**
 
 $p_{\text{before}} = p_{\text{after}}$
 
-`18 space 000 space equals space open parentheses 1200 plus 1800 close parentheses cross times v`
+$18 000 = ( 1200 + 1800 ) \times v$
 
 $v=\frac{18000}{3000}$ **[1 mark]**
 
@@ -643,12 +643,12 @@ $v=$$6.0m/s$** ****[1 mark]**
 
 - State the relevant equation:
 
-`F space equals space fraction numerator m open parentheses v space minus space u close parentheses over denominator t end fraction`
+$F = \frac{m ( v - u )}{t}$
 
 - where $t$ = time of collision = 0.2 s
 - Substitute in the known values to calculate:
 
-`F space equals space fraction numerator 1200 cross times open parentheses 6.0 space minus space 15 close parentheses over denominator 0.2 end fraction` **[1 mark]**
+$F = \frac{1200 \times ( 6.0 - 15 )}{0.2}$ **[1 mark]**
 
 $F=$ $54000N$** ****[1 mark]**
 
@@ -851,7 +851,7 @@ State the principle of conservation of momentum:
 
 **OR**
 
-- `m subscript 1 u subscript 1 plus space m subscript 2 u subscript 2 space equals space v open parentheses m subscript 1 plus m subscript 2 close parentheses` **[1 mark]**
+- $m_{1} u_{1} + m_{2} u_{2} = v ( m_{1} + m_{2} )$ **[1 mark]**
 
 Calculate momentum before the impact:
 

@@ -37,7 +37,7 @@ Convert the volume from mm<sup>3</sup> to m<sup>3</sup>:
 Determine the equation for the temperature, *T *and substitute in the values:
 
 - $pV=nRT\RightarrowT=\frac{pV}{nR}$
-- `T space equals space fraction numerator open parentheses 2.0 space cross times space 10 to the power of 5 close parentheses space cross times space 0.0035 space over denominator 0.29 space cross times space 8.31 end fraction space equals space 290.46 space straight K` **[1 mark]**
+- $T = \frac{( 2.0 \times 10^{5} ) \times 0.0035 }{0.29 \times 8.31} = 290.46 \mathrm{K}$ **[1 mark]**
 
 Convert the temperature into °C:
 
@@ -61,7 +61,7 @@ Determine an equation for the new number of moles, *n*<sub>2</sub>:
 
 Substitute in the values:
 
-- `n subscript 2 space equals space 0.29 space cross times space open parentheses fraction numerator 2.7 space cross times space 10 to the power of 5 over denominator 2.0 space cross times space 10 to the power of 5 end fraction close parentheses space cross times space open parentheses 290 over 300 close parentheses` **[1 mark]**
+- $n_{2} = 0.29 \times ( \frac{2.7 \times 10^{5} }{2.0 \times 10^{5} } ) \times ( \frac{290}{300} )$ **[1 mark]**
 - $n_{2}=0.378=0.38\mathrm{mol}$ **[1 mark]**
 
 **[Total: 2 marks]**
@@ -107,7 +107,7 @@ Calculate the total volume of the system, *V* in m<sup>3</sup>:
 Use the ideal gas equation to calculate the number of moles, *n*:
 
 - $pV=nRT$ so $n=\frac{pV}{RT}$
-- `n space equals space fraction numerator open parentheses 1.02 space cross times space 10 to the power of 5 close parentheses space cross times space open parentheses 3.55 space cross times space 10 to the power of negative 4 end exponent close parentheses over denominator 8.31 space cross times space 373.15 end fraction space equals space 1.17 space cross times space 10 to the power of negative 2 end exponent space moles` **[1 mark]**
+- $n = \frac{( 1.02 \times 10^{5 ) \times ( 3.55 \times 10^{-4} } )}{8.31 \times 373.15} = 1.17 \times 10^{- 2} \text{moles}$ **[1 mark]**
 
 **[Total: 2 marks]**
 
@@ -129,7 +129,7 @@ List the known quantities:
 Use the ideal gas equation to calculate the volume of the gas in the conical flask at melting point, *V*<sub>*2*</sub>:
 
 - $pV=nRT$ so $V_{2}=\frac{nRT_{2}}{p}$
-- `V subscript 2 space equals space fraction numerator open parentheses 1.17 space cross times space 10 to the power of negative 2 end exponent close parentheses space cross times space 8.31 space cross times space 273.15 over denominator open parentheses 1.02 space cross times space 10 to the power of 5 close parentheses end fraction space equals space 2.60 space cross times space 10 to the power of negative 4 end exponent space straight m cubed` **[1 mark]**
+- $V_{2} = \frac{( 1.17 \times 10^{- 2} ) \times 8.31 \times 273.15}{( 1.02 \times 10^{5 )} = 2.60 \times 10^{-4} } \mathrm{m}^{3}$ **[1 mark]**
 
 Convert the times into minutes:
 
@@ -159,14 +159,14 @@ Obtain an expression for the energy of the system:
 
 - Kinetic energy of molecules in conical flask = Energy lost from the system
 - KE = Energy lost when water is still boiling + energy lost when water is cooling + energy lost when water is freezing
-- `1 half m open angle brackets c squared close angle brackets space equals space M L subscript v space plus space M C increment theta space plus space M L subscript f` **[1 mark]**
+- $1 \frac{1}{2} m ( \text{angle} \text{brackets} c^{2} ) \text{angle} \text{brackets} = M L_{v} + M C \Delta \\theta + M L_{f}$ **[1 mark]**
 
 Calculate the r.m.s:
 
-- `1 half m open angle brackets c squared close angle brackets space equals space 240 m L subscript v space plus space 240 m C increment theta space plus 240 space m L subscript f`
-- `c space equals space square root of 2 space cross times space 240 open parentheses L subscript v space plus space c increment theta space plus space L subscript f close parentheses end root`
-- `c space equals space square root of 2 space cross times space 240 open parentheses open parentheses 2160 space cross times space 10 cubed close parentheses space plus space open parentheses 4084 space cross times space 100 close parentheses space plus space open parentheses 324 space cross times space 10 cubed close parentheses close parentheses end root`
-- `c space equals space square root of 2 space cross times space 240 open parentheses 2.8924 space cross times space 10 to the power of 6 close parentheses end root`
+- $1 \frac{1}{2} m ( \text{angle} \text{brackets} c^{2} ) \text{angle} \text{brackets} = 240 m L_{v} + 240 m C \Delta \\theta + 240 m L_{f}$
+- $c = \sqrt{2 \times 240 ( L_{v} + c \Delta \\theta + L_{f} )}$
+- $c = \sqrt{2 \times 240 ( ( 2160 \times 10^{3} ) + ( 4084 \times 100 ) + ( 324 \times 10^{3} ) )}$
+- $c = \sqrt{2 \times 240 ( 2.8924 \times 10^{6} )}$
 - $c=3.73\times10^{4}ms^{-1}$ **[1 mark]**
 
 **[Total: 2 marks]**
@@ -217,7 +217,7 @@ Use the ideal gas equation in terms of number of moles *n*:
 
 - $pV=nRT$
 - $n=\frac{pV}{RT}$ **[1 mark]**
-- `n space equals space fraction numerator open parentheses 4.0 cross times 10 squared close parentheses cross times open parentheses 2.0 cross times 10 cubed close parentheses over denominator 8.31 cross times 283 end fraction` **[1 mark]**
+- $n = \frac{( 4.0 \times 10^{2} ) \times ( 2.0 \times 10^{3} )}{8.31 \times 283}$ **[1 mark]**
 - $n=340.18=340\mathrm{mol}$ (2 s.f.) **[1 mark]**
 
 **[Total: 3 marks]**
@@ -287,7 +287,7 @@ Determine the correct gas law required to calculate the final pressure, *P*<sub>
 
 Substitute the known quantities and calculate *P*<sub>*2*</sub>:
 
-- `P subscript 2 space equals space fraction numerator open parentheses 4 cross times 10 to the power of 5 close parentheses cross times 303 over denominator 283 end fraction` **[1 mark]**
+- $P_{2} = \frac{( 4 \times 10^{5} ) \times 303}{283}$ **[1 mark]**
 - $P_{2}=4.3\times10^{5}\mathrm{Pa}$** [1 mark]**
 
 **[Total: 4 marks]**
@@ -316,7 +316,7 @@ From data booklet:
 (i)* *The amount of moles of air:
 
 - *pV = nRT ***[1 mark]**
-- *n* = $\frac{pV}{RT}$ =`fraction numerator open parentheses 300 cross times 10 cubed close parentheses cross times open parentheses 4.2 cross times 10 to the power of negative 2 end exponent close parentheses over denominator 8.31 cross times 290 end fraction`  **[1 mark]**
+- *n* = $\frac{pV}{RT}$ =$\frac{( 300 \times 10^{3} ) \times ( 4.2 \times 10^{- 2} )}{8.31 \times 290}$  **[1 mark]**
 - *n* = 5.23 = 5.2 mol **[1 mark]**
 
 (ii) The mass of the air:
@@ -365,7 +365,7 @@ Determine the correct equation:
 Calculate final pressure, $p_{f}$ :
 
 - $\frac{p_{i}}{T_{i}}=\frac{p_{f}}{T_{f}}$
-- $p_{f}$= $\frac{p_{i}T_{f}}{T_{i}}$  =`fraction numerator open parentheses 5.18 cross times 10 to the power of 5 close parentheses cross times 301 over denominator 252 end fraction`  **[1 mark]**
+- $p_{f}$= $\frac{p_{i}T_{f}}{T_{i}}$  =$\frac{( 5.18 \times 10^{5} ) \times 301}{252}$  **[1 mark]**
 - $p_{f}$= 6.19 × 10<sup>5</sup> Pa **[1 mark] **3 s.f **[1 mark]**** **
 
 **[Total: 3 marks]**
@@ -384,13 +384,13 @@ List the known quantities:
 Calculate the number of moles, *n* of hydrogen gas in the airship:
 
 - $n=\frac{m_{g}}{m_{H}}$
-- `n space equals space fraction numerator 1224 over denominator open parentheses 1.00794 space cross times space 10 to the power of negative 3 end exponent close parentheses end fraction space equals space 1.21 space cross times space 10 to the power of 6`  **[1 mark]**
+- $n = \frac{1224}{( 1.00794 \times 10^{- 3} )} = 1.21 \times 10^{6}$  **[1 mark]**
 
 Use the ideal gas equation to calculate the volume of the gas, *V*:
 
 - $pV=nRT$
 - $V=\frac{nRT}{p}$
-- `V space equals space fraction numerator open parentheses 1.21 space cross times space 10 to the power of 6 close parentheses space cross times space 8.31 space cross times space 281.15 space over denominator open parentheses 4.2 space cross times space 10 to the power of 5 close parentheses end fraction`
+- $V = \frac{( 1.21 \times 10^{6} ) \times 8.31 \times 281.15 }{( 4.2 \times 10^{5} )}$
 - $V=6731m^{3}$ **[1 mark]**
 
 Calculate the density, *ρ* of the hydrogen gas:
@@ -435,7 +435,7 @@ From data booklet:
 **Method 1: **Calculate temperature using the number of molecules, *N*:
 
 - *pV = NkT*
-- *T* = $\frac{pV}{Nk}$ = `fraction numerator open parentheses 3.2 cross times 10 to the power of 5 close parentheses cross times open parentheses 1.6 cross times 10 to the power of negative 5 end exponent close parentheses over denominator open parentheses 8.4 cross times 10 to the power of 20 close parentheses cross times open parentheses 1.38 cross times 10 to the power of negative 23 end exponent close parentheses end fraction`  **[1 mark]**
+- *T* = $\frac{pV}{Nk}$ = $\frac{( 3.2 \times 10^{5 ) \times ( 1.6 \times 10^{-5} } )}{( 8.4 \times 10^{20 ) \times ( 1.38 \times 10^{-23} } )}$  **[1 mark]**
 - *T* = 441.68 K **[1 mark]**
 
 Convert temperature into ºC:
@@ -448,7 +448,7 @@ Convert temperature into ºC:
 
 - *pV = nRT*
 - *n* =$\frac{N}{N_{A}}$ = $\frac{8.4\times10^{20}}{6.02\times10^{23}}$ = 1.395 × 10<sup>–3</sup> mol **[1 mark]**
-- *T* = $\frac{pV}{nR}$ =`fraction numerator open parentheses 3.2 cross times 10 to the power of 5 close parentheses cross times open parentheses 1.6 cross times 10 to the power of negative 5 end exponent close parentheses over denominator open parentheses 1.395 cross times 10 to the power of negative 3 end exponent close parentheses cross times 8.31 end fraction` = 441.67 K **[1 mark]**
+- *T* = $\frac{pV}{nR}$ =$\frac{( 3.2 \times 10^{5 ) \times ( 1.6 \times 10^{-5} } )}{( 1.395 \times 10^{- 3} ) \times 8.31}$ = 441.67 K **[1 mark]**
 
 Convert temperature into ºC:
 
@@ -493,7 +493,7 @@ From data booklet:
 Number of molecules left in container after valve opens, *N*:
 
 - *pV = NkT*
-- *N* = $\frac{pV}{kT}$ = `fraction numerator open parentheses 4.0 cross times 10 to the power of 5 close parentheses cross times open parentheses 1.6 cross times 10 to the power of negative 5 end exponent close parentheses over denominator open parentheses 1.38 cross times 10 to the power of negative 23 end exponent close parentheses cross times 793.15 end fraction`  **[1 mark]**
+- *N* = $\frac{pV}{kT}$ = $\frac{( 4.0 \times 10^{5 ) \times ( 1.6 \times 10^{-5} } )}{( 1.38 \times 10^{- 23} ) \times 793.15}$  **[1 mark]**
 - *N =* 5.847 × 10<sup>20</sup> **[1 mark]**
 
 Number of molecules that will escape:
@@ -525,7 +525,7 @@ Recall the ideal gas equation and rearrange to make *n* the subject:
 
 Substitute in the known values to calculate:
 
-- `n space equals space fraction numerator open parentheses 1.50 cross times 10 to the power of 6 close parentheses cross times 0.0349 over denominator space 8.31 cross times 293 end fraction`** **
+- $n = \frac{( 1.50 \times 10^{6} ) \times 0.0349}{ 8.31 \times 293}$** **
 - $n=21.5\mathrm{mol}$** [1 mark]**
 
 **[Total: 3 marks]**
@@ -547,7 +547,7 @@ Recall the pressure law and rearrange to make *P*<sub>2</sub> the subject:
 
 Substitute in the known values to calculate:
 
-- `p subscript 2 space equals space fraction numerator open parentheses 1.50 cross times 10 to the power of 6 close parentheses cross times 305 over denominator 293 end fraction` **[1 mark]**
+- $p_{2} = \frac{( 1.50 \times 10^{6} ) \times 305}{293}$ **[1 mark]**
 - $p_{2}=1.56\times10^{6}\mathrm{Pa}$ (3 s.f.)** [1 mark]**
 
 **[Total: 3 marks]**
@@ -572,12 +572,12 @@ Determine the equation for the number of moles, *n*:
 
 Substitute this into the ideal gas equation:
 
-- `p V space equals space n R T space equals open parentheses N over N subscript A close parentheses R T` **[1 mark]**
+- $p V = n R T = ( \frac{N}{N} _{A} ) R T$ **[1 mark]**
 
 Substitute the Boltzmann constant:
 
 - $k=\frac{R}{N_{A}}\RightarrowR=kN_{A}$
-- `p V space equals space open parentheses N over N subscript A close parentheses space cross times space k N subscript A space cross times T space equals space N k T` **[1 mark]**
+- $p V = ( \frac{N}{N} _{A} ) \times k N_{A} \times T = N k T$ **[1 mark]**
 
 **[Total: 2 marks]**
 Show that the amount of gas in the cylinder is 430 mol
@@ -592,7 +592,7 @@ List the known quantities:
 Calculate the volume of the gas, *V*:
 
 - $V=A\timesh=πr^{2}\timesh$
-- `V equals straight pi open parentheses 120 cross times 10 to the power of negative 3 end exponent close parentheses squared cross times open parentheses 1350 cross times 10 to the power of negative 3 end exponent close parentheses equals 0.061 space straight m cubed` **[1 mark]**
+- $V = \mathrm{\pi } ( 120 \times 10^{- 3} )^{2} \times ( 1350 \times 10^{- 3} ) = 0.061 \mathrm{m}^{3}$ **[1 mark]**
 
 Rearrange the ideal gas equation for the number of moles, *n*:
 
@@ -600,7 +600,7 @@ Rearrange the ideal gas equation for the number of moles, *n*:
 
 Substitute in the values:
 
-- `n equals fraction numerator open parentheses 1.7 cross times 10 to the power of 7 close parentheses cross times 0.061 over denominator 8.31 cross times open parentheses 287 close parentheses end fraction equals 434.8 equals 430 space mol` **[1 mark]**
+- $n = \frac{( 1.7 \times 10^{7} ) \times 0.061}{8.31 \times ( 287 )} = 434.8 = 430 \text{mol}$ **[1 mark]**
 
 **[Total: 3 marks]**
 
@@ -615,7 +615,7 @@ The percentage of the number of moles lost from the cylinder is:
 
 Calculate the number of lost atoms:
 
-- `a t o m s space l o s t space equals space open parentheses 8.3 space cross times space 10 to the power of 15 close parentheses space cross times space open parentheses 51 space cross times space 24 space cross times space 60 space cross times space 60 close parentheses`
+- $a t o m s l o s t = ( 8.3 \times 10^{15} ) \times ( 51 \times 24 \times 60 \times 60 )$
 - $atomslost=3.657\times10^{22}\mathrm{atoms}$ **[1 mark]**
 
 Calculate the number of lost moles, *n*:
@@ -624,15 +624,15 @@ Calculate the number of lost moles, *n*:
 
 Calculate the percentage of the number of moles lost:
 
-- `percent sign space m o l e s space l o s t space equals space fraction numerator 0.059 space over denominator 434.8 end fraction space cross times space 100 percent sign space`
-- `percent sign space m o l e s space l o s t space equals space 0.01356 space percent sign space equals space 0.014 space percent sign` **[1 mark]**
+- $\% m o l e s l o s t = \frac{0.059 }{434.8} \times 100 \%$
+- $\% m o l e s l o s t = 0.01356 \% = 0.014 \%$ **[1 mark]**
 
 **[Total: 3 marks]**
 
 > *If the rate is in **s*<sup>*–1*</sup>* then the time you must multiply this by must be in **s **so the final units are **atoms**. Take care for small unit conversions like this, which are very easy to lose marks from.*
 
 ### Q10
-The number of molecules in a gas containing 120 g of `straight O presubscript 8 presuperscript 16` is:
+The number of molecules in a gas containing 120 g of `O _ 8 ^ 16` is:
 
 List the known quantities:
 
@@ -647,7 +647,7 @@ Calculate the number of moles, *n*:
 Calculate the number of molecules, *N*:
 
 - $n=\frac{N}{N_{A}}\RightarrowN=nN_{A}$
-- `N space equals space 7.5 space cross times space open parentheses 6.02 space cross times space 10 to the power of 23 close parentheses space equals space 4.5 space cross times space 10 to the power of 24` **[1 mark]**
+- $N = 7.5 \times ( 6.02 \times 10^{23} ) = 4.5 \times 10^{24}$ **[1 mark]**
 
 **[Total: 2 marks]**
 
@@ -668,11 +668,11 @@ Determine an equation linking *p*, *V* and *T*:
 
 Substitute in the initial values:
 
-- `fraction numerator p subscript 1 V subscript 1 over denominator T subscript 1 end fraction space equals space fraction numerator open parentheses 1.42 space cross times space 10 to the power of 5 close parentheses space cross times space open parentheses 6.00 space cross times space 10 to the power of 4 close parentheses over denominator 281 end fraction space equals space 3.03 space cross times space 10 to the power of 7 space end exponent`** [1 mark]**
+- $\frac{p_{1} V_{1} }{T_{1} } = \frac{( 1.42 \times 10^{5 ) \times ( 6.00 \times 10^{4} )}{281} = 3.03 \times 10^{7} }$** [1 mark]**
 
 Substitute in the final values:
 
-- `fraction numerator p subscript 2 V subscript 2 over denominator T subscript 2 end fraction space equals space fraction numerator open parentheses 1.70 space cross times space 10 to the power of 5 close parentheses space cross times space open parentheses 6.00 space cross times space 10 to the power of 4 close parentheses over denominator 336 end fraction space equals space 3.03 space cross times space 10 to the power of 7 space end exponent`** [1 mark]**
+- $\frac{p_{2} V_{2} }{T_{2} } = \frac{( 1.70 \times 10^{5 ) \times ( 6.00 \times 10^{4} )}{336} = 3.03 \times 10^{7} }$** [1 mark]**
 
 Conclusion:
 
@@ -695,17 +695,17 @@ List the known quantities:
 Calculate the volume of 1 atom:
 
 - $volumeofasphere=\frac{4}{3}\mathrm{πr}^{3}$
-- `v o l u m e space o f space 1 space a t o m space equals space 4 over 3 straight pi open parentheses fraction numerator 0.12 space cross times space 10 to the power of negative 9 end exponent over denominator 2 end fraction close parentheses cubed space equals space 9.05 space cross times space 10 to the power of negative 31 space end exponent straight m cubed`* ***[1 mark]**
+- $v o l u m e o f 1 a t o m = \frac{4}{3} \mathrm{\pi } ( \frac{0.12 \times 10^{- 9} }{2} )^{3} = 9.05 \times 10^{- 31 } \mathrm{m}^{3}$* ***[1 mark]**
 
 Calculate the number of atoms:
 
 - $n=\frac{N}{N_{A}}\RightarrowN=nN_{A}$
-- `N thin space equals space 0.54 space cross times space open parentheses 6.02 space cross times space 10 to the power of 23 close parentheses space equals space 3.25 space cross times space 10 to the power of 23 space atoms` **[1 mark]**
+- $N = 0.54 \times ( 6.02 \times 10^{23} ) = 3.25 \times 10^{23} \text{atoms}$ **[1 mark]**
 
 Estimate the volume occupied by 0.54 moles of this gas, *V*:
 
 - $V=volumeof1atom\timesnumberofatoms$
-- `V space equals space open parentheses 9.05 space cross times space 10 to the power of negative 31 end exponent close parentheses space cross times space open parentheses 3.25 space cross times space 10 to the power of 23 close parentheses`
+- $V = ( 9.05 \times 10^{- 31} ) \times ( 3.25 \times 10^{23} )$
 - $V=2.941\times10^{-7}=3.0\times10^{-7}m^{3}$ **[1 mark]**
 
 **[Total: 3 marks]**

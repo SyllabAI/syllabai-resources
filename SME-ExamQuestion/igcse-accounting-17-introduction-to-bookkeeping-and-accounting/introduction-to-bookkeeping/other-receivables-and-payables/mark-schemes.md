@@ -80,7 +80,7 @@
 > 
 > | Date | Details | \$ | Date | Details | \$ |
 > |---|---|---|---|---|---|
-> | 2019<br><br>Nov 1 | Bank | `open curly brackets table row 1200 row blank row blank row 1800 row blank row 1800 row blank end table close` | 2019<br><br>Oct 1 | Balance b/d | 300** (1)** |
+> | 2019<br><br>Nov 1 | Bank | $\{ \begin{gathered} 1200 \\ \\ \\ 1800 \\ \\ 1800 \\ \end{gathered} )$ | 2019<br><br>Oct 1 | Balance b/d | 300** (1)** |
 > | 2020<br><br>Jan 1 | Bank **(1 for all)** | 2020 Sep 30 | Income statement | 3 600 **(1of)** |   |
 > | Jul 1 | Bank |   | Balance c/d | 900 |   |
 > |   |   | 4 800 |   |   | 4 800 |

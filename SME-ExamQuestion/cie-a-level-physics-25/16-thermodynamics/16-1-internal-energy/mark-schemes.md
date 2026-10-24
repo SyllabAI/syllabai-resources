@@ -12,7 +12,7 @@ List the known quantities:
 
 - Number of moles, *n*  = 15.0 mol
 - Number of atoms, *N* = 9.03 × 10<sup>24</sup>
-- Root-mean-square speed, `square root of open angle brackets c squared close angle brackets end root` = 1680 m s<sup>−1</sup>
+- Root-mean-square speed, $\sqrt{( \text{angle} \text{brackets} c^{2} ) \text{angle} brackets}$ = 1680 m s<sup>−1</sup>
 - Mass of an individual atom, *m* = 6.64 × 10<sup>−27</sup> kg
 - Molar gas constant, *R*  = 8.31 J K<sup>−1</sup> mol<sup>−1</sup>
 
@@ -22,25 +22,25 @@ Recall the ideal gas law:
 
 Use the pressure of an ideal gas equation from the formulae page:
 
-- `p space equals space 1 third fraction numerator N m over denominator V end fraction open angle brackets c squared close angle brackets`
+- $p = 1 \frac{1}{3} \frac{N m}{V} ( \text{angle} \text{brackets} c^{2} ) \text{angle} \text{brackets}$
 
 Combine the two to eliminate pressure and volume:
 
-- `p V space equals space open parentheses 1 third fraction numerator N m over denominator up diagonal strike V end fraction open angle brackets c squared close angle brackets close parentheses space cross times space up diagonal strike V space equals space n R T` **[1 mark]**
+- $p V = ( 1 \frac{1}{3} \frac{N m}{ \cancel{V} } ( \text{angle} \text{brackets} c^{2} ) \text{angle} \text{brackets} ) \times \cancel{V} = n R T$ **[1 mark]**
 
 Rearrange for temperature:
 
-- `n R T space equals space fraction numerator N m open angle brackets c squared close angle brackets over denominator 3 end fraction`
-- `T space equals space fraction numerator N m open angle brackets c squared close angle brackets over denominator 3 n R end fraction space equals space fraction numerator open parentheses 9.03 space cross times space 10 to the power of 24 close parentheses space cross times space open parentheses 6.64 space cross times space 10 to the power of negative 27 end exponent close parentheses space cross times space 1680 squared over denominator 3 space cross times space 15 space cross times space 8.31 end fraction` **[1 mark]**
+- $n R T = \frac{N m ( \text{angle} \text{brackets} c^{2} ) \text{angle} brackets}{3}$
+- $T = \frac{N m ( \text{angle} \text{brackets} c^{2} ) \text{angle} brackets}{3 n R} = \frac{( 9.03 \times 10^{24 ) \times ( 6.64 \times 10^{-27} } ) \times 1680^{2}}{3 \times 15 \times 8.31}$ **[1 mark]**
 - $T=453K$ **[1 mark]**
 
 **[Total: 3 marks]**
 
 > *Combining these two known equations requires some careful algebra. Additionally, a common pitfall is to forget to square the root-mean-square speed when using the pressure of an ideal gas equation. You had to square the 1680 m s*<sup>*−1*</sup>* to get the correct answer.*
 
-> *Root-mean-square speed is written as *`square root of open angle brackets c squared close angle brackets end root`* and has units of speed,  m s*<sup>*−1*</sup>*.*
+> *Root-mean-square speed is written as *$\sqrt{( \text{angle} \text{brackets} c^{2} ) \text{angle} brackets}$* and has units of speed,  m s*<sup>*−1*</sup>*.*
 
-> *Mean-square speed is written as *`open angle brackets c squared close angle brackets`* and has units of speed-squared, m*<sup>*2*</sup>* s*<sup>*−2*</sup>*.*
+> *Mean-square speed is written as *`< c ^2 >`* and has units of speed-squared, m*<sup>*2*</sup>* s*<sup>*−2*</sup>*.*
 To find the new temperature:
 
 List the known quantities:
@@ -57,7 +57,7 @@ Rearrange the ideal gas equation for temperature:
 
 Substitute the known quantities:
 
-- `T space equals space fraction numerator open parentheses 150 space cross times space 10 cubed close parentheses space cross times space 0.300 over denominator 15 space cross times space 8.31 end fraction` **[1 mark]**
+- $T = \frac{( 150 \times 10^{3} ) \times 0.300}{15 \times 8.31}$ **[1 mark]**
 - $T=361K$ **[1 mark]**
 
 **[Total: 2 marks]**
@@ -144,7 +144,7 @@ Calculate work done:
 
 - Final internal energy, *U*<sub>*f*</sub>*  *= 1.19*U*<sub>*i*</sub>
 - $ΔU=U_{f}-U_{i}=1.19U_{i}-U_{i}$
-- `W space equals space straight capital delta U space equals space open parentheses 1.19 space cross times space 2300 close parentheses space minus space 2300` **[1 mark]**
+- `W = capital delta U = ( 1.19 x 2300 ) - 2300` **[1 mark]**
 - $W=437J=440J$ **[1 mark]**
 
 **[Total: 5 marks]**

@@ -67,7 +67,7 @@ guided_study: false
 > 
 > - Percentage carbon = $\frac{\mathrm{mass} \mathrm{of} \mathrm{carbon} \mathrm{in} \mathrm{sample}}{\mathrm{mass} \mathrm{of} \mathrm{sample}}\times100$
 > 
->   - Percentage carbon `equals fraction numerator 1.80 over denominator 2.90 end fraction cross times 100 equals 62.1 percent sign`
+>   - Percentage carbon $= \frac{1.80}{2.90} \times 100 = 62.1 \%$
 > 
 > **   Step 3: **Calculate the mass of hydrogen in the sample
 > 
@@ -79,7 +79,7 @@ guided_study: false
 > 
 > - Percentage hydrogen = $\frac{\mathrm{mass} \mathrm{of} \mathrm{hydrogen} \mathrm{in} \mathrm{sample}}{\mathrm{mass} \mathrm{of} \mathrm{sample}}\times100$
 > 
->   - Percentage hydrogen `equals fraction numerator 0.30 over denominator 2.90 end fraction cross times 100 equals 10.3 percent sign`
+>   - Percentage hydrogen $= \frac{0.30}{2.90} \times 100 = 10.3 \%$
 > 
 > **   Step 5: **Calculate the percentage of oxygen in the sample
 > 

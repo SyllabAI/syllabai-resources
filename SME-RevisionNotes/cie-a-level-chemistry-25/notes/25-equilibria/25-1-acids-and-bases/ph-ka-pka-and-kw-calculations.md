@@ -56,7 +56,7 @@ guided_study: true
 
 **HA (aq) ⇌ H**<sup>**+**</sup>** (aq) + A**<sup>**-**</sup>** (aq)**
 
-***K***<sub>**a**</sub>*** = ***`fraction numerator stretchy left square bracket H plus stretchy right square bracket bold space stretchy left square bracket A to the power of minus stretchy right square bracket over denominator stretchy left square bracket HA stretchy right square bracket end fraction`
+***K***<sub>**a**</sub>*** = ***$\frac{[ H + ] [ A^{-} ]}{[ \text{HA} ]}$
 
 - When writing the equilibrium expression for weak acids, the following assumptions are made:
 
@@ -95,7 +95,7 @@ guided_study: true
 > 
 > - **Step 2: **Write down the equilibrium expression to find *K*<sub>a</sub>:
 > 
-> *K*<sub>a</sub> = `fraction numerator open square brackets straight H to the power of plus close square brackets space open square brackets CH subscript 3 COO to the power of minus close square brackets over denominator open square brackets CH subscript 3 COOH close square brackets end fraction`
+> *K*<sub>a</sub> = $\frac{[ \mathrm{H}^{+} ] [ CH_{3} COO^{-} ]}{[ CH_{3} \text{COOH} ]}$
 > 
 > - **Step 3: **Simplify the expression:
 > 
@@ -105,17 +105,17 @@ guided_study: true
 > 
 > The equilibrium expression can be simplified to:
 > 
-> *K*<sub>a</sub> = `fraction numerator open square brackets straight H to the power of plus close square brackets squared over denominator stretchy left square bracket CH subscript 3 COOH stretchy right square bracket end fraction`
+> *K*<sub>a</sub> = $\frac{[ \mathrm{H}^{+} ]^{2}}{[ CH_{3} \text{COOH} ]}$
 > 
 > - **Step 4: **Substitute the values into the expression to find *K*<sub>a</sub>:
 > 
-> *K*<sub>a</sub> = `fraction numerator open square brackets 1.32 cross times 10 to the power of negative 3 end exponent close square brackets squared over denominator stretchy left square bracket 0.100 stretchy right square bracket end fraction`
+> *K*<sub>a</sub> = $\frac{[ 1.32 \times 10^{- 3} ]^{2}}{[ 0.100 ]}$
 > 
 > *K*<sub>a</sub> = 1.74 x 10<sup>-5</sup>
 > 
 > - **Step 5: **Determine the units of *K*<sub>a</sub>:
 > 
-> *K*<sub>a</sub> = `fraction numerator open square brackets mol space dm to the power of negative 3 end exponent close square brackets squared over denominator open square brackets mol space dm to the power of negative 3 end exponent close square brackets end fraction`= mol dm<sup>-3</sup>
+> *K*<sub>a</sub> = $\frac{[ \text{mol} dm^{- 3} ]^{2}}{[ \text{mol} dm^{- 3} ]}$= mol dm<sup>-3</sup>
 > 
 > Therefore, *K*<sub>a</sub> is 1.74 x 10<sup>-5</sup> mol dm<sup>-3</sup>
 > 
@@ -137,7 +137,7 @@ guided_study: true
 
 **H**<sub>**2**</sub>**O (l) ⇌ H**<sup>**+**</sup>** (aq) + OH**<sup>**-**</sup>** (aq)**
 
-***K***<sub>**w**</sub>** = **`fraction numerator stretchy left square bracket H to the power of plus stretchy right square bracket bold space stretchy left square bracket OH to the power of minus stretchy right square bracket over denominator stretchy left square bracket H subscript 2 O stretchy right square bracket end fraction`
+***K***<sub>**w**</sub>** = **$\frac{[ H^{+} ] [ OH^{-} ]}{[ H_{2} O ]}$
 
 - As the **extent of ionisation **is very low, only small amounts of H<sup>+</sup> and  OH<sup>- </sup>ions are formed
 - The concentration of H<sub>2</sub>O can therefore be regarded as constant and removed from the *K*<sub>*w*</sub> expression
@@ -164,7 +164,7 @@ guided_study: true
 > 
 > - **Step 2: **Write down the equilibrium expression to find *K*<sub>w</sub>:
 > 
-> ***K***<sub>**w**</sub>** = **`fraction numerator stretchy left square bracket H to the power of plus stretchy right square bracket bold space stretchy left square bracket OH to the power of minus stretchy right square bracket over denominator stretchy left square bracket H subscript 2 O stretchy right square bracket end fraction`
+> ***K***<sub>**w**</sub>** = **$\frac{[ H^{+} ] [ OH^{-} ]}{[ H_{2} O ]}$
 > 
 > - **Step 3: **Simplify the expression:
 > 
@@ -196,6 +196,6 @@ guided_study: true
 > 
 > **pH = -log**<sub>**10**</sub>** [H**<sup>**+**</sup>**]   ⇔   [H**<sup>**+**</sup>**] = 10**<sup>**-pH**</sup>
 > 
-> ***K***<sub>**a**</sub>** = **`fraction numerator stretchy left square bracket H to the power of plus stretchy right square bracket bold space stretchy left square bracket A to the power of minus stretchy right square bracket over denominator stretchy left square bracket HA stretchy right square bracket end fraction`**   ⇔    [H**<sup>**+**</sup>**] = **`equation`
+> ***K***<sub>**a**</sub>** = **$\frac{[ H^{+} ] [ A^{-} ]}{[ \text{HA} ]}$**   ⇔    [H**<sup>**+**</sup>**] = **`equation`
 > 
 > **p*****K***<sub>**a**</sub>** = - log**<sub>**10 **</sub>***K***<sub>**a**</sub>**    ⇔   *****K***<sub>**a**</sub>** = 10**<sup>**-p**</sup><sup>***K***</sup><sup>**a**</sup>

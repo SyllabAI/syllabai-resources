@@ -118,8 +118,8 @@ It would be useful to learn this definition by heart, so that you are entirely c
 
 - $n=\frac{sini}{sinr}$
 - $sinr=\frac{sini}{n}$
-- `r space equals s i n to the power of negative 1 end exponent open parentheses fraction numerator s i n space i over denominator n end fraction close parentheses`
-- `r space equals space s i n to the power of negative 1 end exponent open parentheses fraction numerator s i n space 27 over denominator 1.33 end fraction close parentheses`
+- $r = s i n^{- 1} ( \frac{s i n i}{n} )$
+- $r = s i n^{- 1} ( \frac{s i n 27}{1.33} )$
 - $r=19.95^{\circ}$
 
 Each of the other answers contains a common mistake made by students.
@@ -146,7 +146,7 @@ Each of the other answers contains a common mistake made by students.
 ### Q11
 **Final answer:** **The correct answer is ****A**** because:**
 
-- `n equals. fraction numerator sin open parentheses a n g l e space o f space i n c i d e n c e close parentheses over denominator sin open parentheses a n g l e space o f space r e f r a c t i o n close parentheses end fraction`
+- $n =. \frac{\sin ( a n g l e o f i n c i d e n c e )}{\sin ( a n g l e o f r e f r a c t i o n )}$
 - P is the correct angle of incidence
 - S is the correct angle of refraction
 

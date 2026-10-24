@@ -165,8 +165,8 @@ Convert this to angular frequency:
 
 Write an expression for current:
 
-- `I space equals space I subscript 0 sin open parentheses omega t close parentheses`
-- `I space equals space 3.4 sin open parentheses 4 straight pi t close parentheses` **[1 mark]**
+- $I = I_{0} \sin ( \\omega t )$
+- $I = 3.4 \sin ( 4 \mathrm{\pi } t )$ **[1 mark]**
 
 **[Total: 3 marks]**
 
@@ -212,7 +212,7 @@ Explain why the oscillations are not symmetrical:
 **[Total: 3 marks]**
 List the known quantities:
 
-- Alternating voltage: `V space equals space 150 space sin space open parentheses 200 straight pi t close parentheses`
+- Alternating voltage: $V = 150 \sin ( 200 \mathrm{\pi } t )$
 
 (i) Determine the peak voltage:
 
@@ -246,13 +246,13 @@ List the known quantities:
 
 (ii) Calculate the mean power dissipated in the resistor
 
-- Mean power:  `open angle brackets P close angle brackets space equals space V subscript r m s end subscript I subscript r m s end subscript`
-- Mean power:  `open angle brackets P close angle brackets space equals space 106 cross times 1.06` **[1 mark]**
-- Mean power:  `open angle brackets P close angle brackets space equals space 112 space straight W` **[1 mark]**
+- Mean power:  `< P > = V _ r m s end _ I _ r m s end _`
+- Mean power:  `< P > = 106 x 1.06` **[1 mark]**
+- Mean power:  `< P > = 112 W` **[1 mark]**
 
 (iii) Calculate the peak power dissipated in the resistor:
 
-- Peak power:  `P subscript 0 space equals space 2 cross times open angle brackets P close angle brackets`
+- Peak power:  `P _ 0 = 2 x < P >`
 - Peak power:  $P_{0}=2\times112$ **[1 mark]**
 - Peak power:  $P_{0}=224W$ **[1 mark]**
 
@@ -285,7 +285,7 @@ Calculate the angular frequency, *ω*:
 Use the sinusoidal representation for voltage:
 
 - Alternating voltage:  $V=V_{0}\mathrm{sin}ωt$
-- Alternating voltage:  `V space equals space 1.75 space sin space open parentheses fraction numerator 8 straight pi over denominator 5 end fraction t close parentheses`  **or ** `V space equals space 1.75 space sin space open parentheses 5.03 t close parentheses` **[1 mark]**
+- Alternating voltage:  $V = 1.75 \sin ( \frac{8 \mathrm{\pi } }{5} t )$  **or ** $V = 1.75 \sin ( 5.03 t )$ **[1 mark]**
 
 **[Total: 3 marks]**
 (i) Determine the root-mean-square voltage:
@@ -334,7 +334,7 @@ List the known quantities:
 
 Use the equation for mean power:
 
-- `P subscript m e a n end subscript space equals space open parentheses V subscript r. m. s end subscript close parentheses squared over R` **[1 mark]**
+- $P_{m e a n} = \frac{( V_{r. m. s} )^{2}}{R}$ **[1 mark]**
 - $P_{mean}=\frac{5.1^{2}}{1430}$
 - $P_{mean}=0.018W$
 - $P_{mean}=18\mathrm{mW}$ **[1 mark]**
@@ -415,7 +415,7 @@ List the known quantities:
 
 Use the equation for mean power and r.m.s. current:
 
-- Mean power dissipated:  `P space equals space open parentheses I subscript r m s end subscript close parentheses squared R space space space space space rightwards double arrow space space space space space R space equals space P over open parentheses I subscript r m s end subscript close parentheses squared` **[1 mark]**
+- Mean power dissipated:  $P = ( I_{r m s} )^{2} R \Leftrightarrow R = \frac{P}{( I_{r m s} )^{2}}$ **[1 mark]**
 - Minimum resistance:  $R=\frac{1000}{10.6^{2}}$ = 8.9 Ω **[1 mark]**
 
 **[Total: 2 marks]**

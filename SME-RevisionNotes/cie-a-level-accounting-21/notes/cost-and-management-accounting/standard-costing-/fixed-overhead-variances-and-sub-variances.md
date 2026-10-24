@@ -118,7 +118,7 @@ guided_study: false
 > 
 > Calculate the OAR per labour hour based on standard costing
 > 
-> `table row blank blank cell fraction numerator Budgeted space overheads over denominator Total space labour space hours end fraction end cell row blank equals cell fraction numerator $ 150 space 000 over denominator open parentheses 10 space 000 cross times 0.5 close parentheses space hours end fraction space end cell row blank equals cell fraction numerator $ 150 space 000 over denominator 5 space 000 space hours end fraction space end cell row blank equals cell space $ 30 space per space labour space hour end cell end table`
+> $\begin{gathered} \frac{Budgeted overheads}{Total \text{labour} hours} \\ = \frac{\$ 150 000}{( 10 000 \times 0.5 ) hours} \\ = \frac{\$ 150 000}{5 000 hours} \\ = \$ 30 \text{per} \text{labour} \text{hour} \end{gathered}$
 > 
 > Use the formula
 > 
@@ -146,7 +146,7 @@ guided_study: false
 > 
 > - standard fixed overheads based on flexed budget - actual fixed overheads
 > 
-> `standard space cost space per space unit space equals space fraction numerator $ 150 space 000 over denominator 10 space 000 end fraction space equals space $ 15`
+> $\text{standard} \text{cost} \text{per} \text{unit} = \frac{\$ 150 000}{10 000} = \$ 15$
 > 
 > *(12 000 × \$15) - (\$160 000)*
 > 

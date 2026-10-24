@@ -85,7 +85,7 @@ Show that  $\frac{7a+2b-3a}{8a+6b+2a-b}$ always simplifies to the same value.
 ### 12((a)) — 3 marks — command: determine — structured — from paper 2014	June · 1MA0/1H
 You can change temperatures from °F to °C by using the formula
 
-`C space equals space fraction numerator 5 open parentheses F minus 32 close parentheses over denominator 9 end fraction`
+$C = \frac{5 ( F - 32 )}{9}$
 
 $F$ is the temperature in °F.
 
@@ -117,7 +117,7 @@ $a$ = .....................        $b$= .....................
 ### 3() — 2 marks — command: work_out — structured — from paper 2014	June · 1MA0/2H
 $x=0.7$
 
-Work out the value of  `fraction numerator open parentheses x plus 1 close parentheses squared over denominator 2 x end fraction`
+Work out the value of  $\frac{( x + 1 )^{2}}{2 x}$
 
 Write down all the figures on your calculator display.
 

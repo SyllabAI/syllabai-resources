@@ -35,7 +35,7 @@ guided_study: true
 
   - Shading can help you see the answer
 
-since `straight P left parenthesis A vertical line B right parenthesis equals fraction numerator straight P left parenthesis A italic intersection B right parenthesis over denominator straight P left parenthesis B right parenthesis end fraction` shade *B*  first, then shade $A\capB$
+since $\mathrm{P} ( A \vert B ) = \frac{ \mathrm{P} ( A \cap B )}{ \mathrm{P} ( B )}$ shade *B*  first, then shade $A\capB$
 
 the answer will then be $\frac{"\mathrm{double} \mathrm{shading}"}{"\mathrm{single} \mathrm{shading}"}$
 
@@ -50,11 +50,11 @@ the answer will then be $\frac{"\mathrm{double} \mathrm{shading}"}{"\mathrm{sing
 > 
 > Find
 > 
-> (i) `straight P left parenthesis A vertical line B right parenthesis`
+> (i) $\mathrm{P} ( A \vert B )$
 > 
-> (ii) `straight P left parenthesis A apostrophe vertical line C apostrophe right parenthesis`
+> (ii) $\mathrm{P} ( A ' \vert C ' )$
 > 
-> (iii) `straight P left parenthesis C vertical line left parenthesis A union B right parenthesis apostrophe right parenthesis`
+> (iii) $\mathrm{P} ( C \vert ( A \cup B ) ' )$
 > 
 > **Answer:**
 > 

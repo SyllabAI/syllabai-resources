@@ -12,7 +12,7 @@ To deduce the order with respect to A, B and C, compare experiments where **only
 
   - Compare Experiments 1 and 2 (B and C constant)
 
-`open square brackets A close square brackets subscript 2 over open square brackets A close square brackets subscript 1`= $\frac{0.060}{0.040}$= 1.5
+`[ A ] _ 2 / [ A ] _ 1`= $\frac{0.060}{0.040}$= 1.5
 
 $\frac{Rate_{2}}{Rate_{1}}=\frac{1.80\times10^{-5}}{1.20\times10^{-5}}$ = 1.5
 
@@ -22,7 +22,7 @@ So the reaction is first order with respect to A** ****[1 mark]**
 
   - Compare Experiments 1 and 3 (A and C constant)
 
-`open square brackets B close square brackets subscript 3 over open square brackets B close square brackets subscript 1`= $\frac{0.060}{0.120}$= 0.5
+`[ B ] _ 3 / [ B ] _ 1`= $\frac{0.060}{0.120}$= 0.5
 
 $\frac{Rate_{3}}{Rate_{1}}=\frac{3.00\times10^{-6}}{1.20\times10^{-5}}$ = 0.25
 
@@ -36,9 +36,9 @@ So the reaction is second order with respect to B** ****[1 mark]**
 
 $\frac{Rate_{4}}{Rate_{3}}=\frac{6.00\times10^{-5}}{3.00\times10^{-5}}$ = 2
 
-`open square brackets A close square brackets subscript 4 over open square brackets A close square brackets subscript 3`= $\frac{0.080}{0.040}$= 2
+`[ A ] _ 4 / [ A ] _ 3`= $\frac{0.080}{0.040}$= 2
 
-`open square brackets C close square brackets subscript 4 over open square brackets C close square brackets subscript 3`= $\frac{0.150}{0.050}$= 3
+`[ C ] _ 4 / [ C ] _ 3`= $\frac{0.150}{0.050}$= 3
 
 Using orders already found for A and B
 
@@ -241,7 +241,7 @@ gradient = $\frac{Δy}{Δx}$
 
 gradient = $\frac{-E_{a}}{R}$
 
-gradient = `fraction numerator negative 2.2 minus open parentheses negative 0.9 close parentheses over denominator open parentheses 2.3 cross times 10 to the power of negative 3 end exponent close parentheses minus open parentheses 2.1 cross times 10 to the power of negative 3 end exponent close parentheses end fraction`
+gradient = $\frac{- 2.2 - ( - 0.9 )}{( 2.3 \times 10^{- 3} ) - ( 2.1 \times 10^{- 3} )}$
 
 gradient = $\frac{-1.3}{0.2\times10^{-3}}$  **[1 mark]**
 
@@ -532,7 +532,7 @@ The concentration-time graph for bromide ions is:
 > **[mark-scheme]**
 > i) The expression for the rate constant is:
 > 
-> - `straight k equals fraction numerator rate over denominator left square bracket Br to the power of minus right square bracket left square bracket BrO subscript 3 superscript minus right square bracket left square bracket straight H to the power of plus right square bracket squared end fraction` **[1 mark]**
+> - $\mathrm{k} = \frac{rate}{[ Br^{ - } ] [ BrO_{3}^{ - } ] [ \mathrm{H} ^{ + } ] ^{2} }$ **[1 mark]**
 > 
 > ii) Suitable units for the rate constant are:
 > 
@@ -1017,11 +1017,11 @@ To calculate the rate constant *k*:
 
 - Rearrange the rate equation:
 
-*k* = `fraction numerator rate over denominator left square bracket NO right square bracket squared left square bracket straight O subscript 2 right square bracket end fraction`
+*k* = `(rate)/(left square bracket NO right square bracket ^2 left square bracket O _ 2 right square bracket)`
 
 - Substitute values:
 
-*k* = `fraction numerator left parenthesis 6.5 cross times 10 to the power of negative 4 end exponent right parenthesis over denominator left parenthesis left parenthesis 5.0 cross times 10 to the power of negative 2 end exponent right parenthesis squared cross times open parentheses 1.0 cross times 10 to the power of negative 2 end exponent close parentheses right parenthesis end fraction`
+*k* = $\frac{( 6.5 \times 10^{- 4} )}{( ( 5.0 \times 10^{- 2} )^{2} \times ( 1.0 \times 10^{- 2} ) )}$
 
 *k* = **26 ****[1 mark]**
 
@@ -1037,7 +1037,7 @@ i) To calculate the rate constant, *k*:
 
 - Rearrange the rate equation for *k*:
 
-*k = *`rate over open square brackets NO subscript 2 close square brackets squared`
+*k = *$\frac{rate}{open} \text{square} \text{brackets} NO_{2} ] ^{2}$
 
 - Substitute the values:
 
@@ -1128,11 +1128,11 @@ rate = *k* [CH<sub>3</sub>COCH<sub>3</sub>][H<sup>+</sup>]
 
 - Rearrange for *k*:
 
-*k* = `fraction numerator rate over denominator left square bracket CH subscript 3 COCH subscript 3 right square bracket left square bracket straight H to the power of plus right square bracket end fraction`
+*k* = $\frac{rate}{[ CH_{3} COCH_{3} ] [ \mathrm{H} ^{ + } ]}$
 
 - Substitute the values:
 
-*k* = `fraction numerator 5.40 cross times 10 to the power of negative 3 end exponent over denominator left square bracket 1.50 cross times 10 to the power of negative 2 end exponent right square bracket left square bracket 7.75 cross times 10 to the power of negative 1 end exponent right square bracket end fraction`
+*k* = $\frac{5.40 \times 10^{ - } 3}{[ 1.50 \times 10^{ - } 2 ] [ 7.75 \times 10^{ - } 1 ]}$
 
 *k* = 0.46 **[1 mark]**
 

@@ -49,29 +49,29 @@ Use algebraic integration to find, to 3 significant figures, the volume of the s
 ### 2((a)) — 3 marks — structured — from paper June 2024 · Paper 1
 $f(x)=2x^{2}+4x+9$
 
-Given that $f(x)$ can be written in the form `A open parentheses x plus B close parentheses to the power of 2 space end exponent plus space C` , where $A,B$ and  $C$ are integers,
+Given that $f(x)$ can be written in the form $A ( x + B )^{2 } + C$ , where $A,B$ and  $C$ are integers,
 
 find the value of $A$, the value of $B$and the value of $C$
 
 ### 2((b)) — 2 marks — structured — from paper June 2024 · Paper 1
 $f(x)=2x^{2}+4x+9$
 
-Given that $f(x)$ can be written in the form `A open parentheses x plus B close parentheses squared plus C` , where $A,B$ and  $C$ are integers,
+Given that $f(x)$ can be written in the form $A ( x + B )^{2} + C$ , where $A,B$ and  $C$ are integers,
 
-(i) Hence, or otherwise, find the value of $x$ for which `fraction numerator 1 over denominator straight f open parentheses x close parentheses end fraction`is a maximum
+(i) Hence, or otherwise, find the value of $x$ for which $\frac{1}{ \mathrm{f} ( x )}$is a maximum
 
-(ii) find the maximum value of  `fraction numerator 1 over denominator straight f open parentheses x close parentheses end fraction`
+(ii) find the maximum value of  $\frac{1}{ \mathrm{f} ( x )}$
 
 ## Q4 — medium — 8 marks · exam-questions
 
 ### 3((a)) — 3 marks — structured — from paper June 2024 · Paper 1
-Show that `sum from r equals 1 to n of open parentheses 5 r minus 3 close parentheses space equals space n over 2 open parentheses 5 n minus 1 close parentheses`
+Show that $\sum_{r = 1}^{n} ( 5 r - 3 ) = \frac{n}{2} ( 5 n - 1 )$
 
 ### 3((b)) — 2 marks — structured — from paper June 2024 · Paper 1
-Hence, or otherwise, evaluate `sum from r equals 31 to 60 of open parentheses 5 r minus 3 close parentheses`
+Hence, or otherwise, evaluate $\sum_{r = 31}^{60} ( 5 r - 3 )$
 
 ### 3((c)) — 3 marks — structured — from paper June 2024 · Paper 1
-Given that `sum from r equals 1 to n of open parentheses 5 r minus 3 close parentheses space equals space 3783`
+Given that $\sum_{r = 1}^{n} ( 5 r - 3 ) = 3783$
 
 find the value of $n$
 
@@ -80,7 +80,7 @@ find the value of $n$
 ### 10((a)) — 2 marks — structured — from paper June 2024 · Paper 1
 The curve $C$ has equation $y=\frac{ax-5}{b-x}$ where $a$ and $b$ are integers and $x\neqb$
 
-One intersection of $C$ with the coordinate axes is at the point with coordinates `open parentheses 5 over 4 comma space 0 close parentheses`
+One intersection of $C$ with the coordinate axes is at the point with coordinates $( \frac{5}{4} , 0 )$
 
 The asymptote parallel to the $y$-axis has equation $x=3$
 
@@ -112,7 +112,7 @@ form a quadratic equation with integer coefficients, that has roots $\frac{α}{2
 ### 6((a)) — 3 marks — structured — from paper June 2024 · Paper 2
 ![Graph showing a shaded region R between curves and the x-axis at point A, with y-axis at point C. Note: Diagram not accurately drawn. Figure 3.](assets/005-graph-showing-a-shaded-region-r-between-curves-a.png)
 
-Figure 3 shows part of the curve $C$ with equation $y=\frac{1}{4x},x>0$ and part of the curve $S$ with equation `y space equals space 2 x squared space comma space x space greater-than or slanted equal to space 0`
+Figure 3 shows part of the curve $C$ with equation $y=\frac{1}{4x},x>0$ and part of the curve $S$ with equation $y = 2 x ^{2} , x \text{greater} - \text{than} or \text{slanted} \text{equal} to 0$
 
 The curve $C$ and the curve $S$ intersect at the point $A$
 
@@ -126,31 +126,31 @@ Find, using algebraic integration, the exact volume of the solid formed.
 ## Q8 — medium — 18 marks · exam-questions
 
 ### 10((a)) — 4 marks — structured — from paper November 2024 · Paper 1
-`straight f open parentheses x close parentheses equals 3 minus 4 x minus 9 x squared`
+$\mathrm{f} ( x ) = 3 - 4 x - 9 x^{2}$
 
-Given that `straight f open parentheses x close parentheses`can be expressed in the form `A minus B open parentheses x plus C close parentheses squared` where $A$, $B$ and $C$ are positive constants
+Given that $\mathrm{f} ( x )$can be expressed in the form $A - B ( x + C )^{2}$ where $A$, $B$ and $C$ are positive constants
 
 find the value of $A$, the value of $B$and the value of $C$
 
 ### 10((b)) — 1 mark — structured — from paper November 2024 · Paper 1
-`straight f open parentheses x close parentheses equals 3 minus 4 x minus 9 x squared`
+$\mathrm{f} ( x ) = 3 - 4 x - 9 x^{2}$
 
-Given that `straight f open parentheses x close parentheses`can be expressed in the form `A minus B open parentheses x plus C close parentheses squared` where $A$, $B$ and $C$ are positive constants
+Given that $\mathrm{f} ( x )$can be expressed in the form $A - B ( x + C )^{2}$ where $A$, $B$ and $C$ are positive constants
 
-Hence write down the maximum value of `straight f open parentheses x close parentheses`
+Hence write down the maximum value of $\mathrm{f} ( x )$
 
 ### 10((c)) — 6 marks — structured — from paper November 2024 · Paper 1
-The equation `straight f open parentheses x close parentheses equals 0` has roots $α$ and $β$
+The equation $\mathrm{f} ( x ) = 0$ has roots $α$ and $β$
 
-Without solving the equation `straight f open parentheses x close parentheses equals 0`, form a quadratic equation, with integer coefficients, that has roots $\frac{3α}{β}$ and  $\frac{3β}{α}$
+Without solving the equation $\mathrm{f} ( x ) = 0$, form a quadratic equation, with integer coefficients, that has roots $\frac{3α}{β}$ and  $\frac{3β}{α}$
 
 ### 10((d)) — 1 mark — structured — from paper November 2024 · Paper 1
 Show that $(x+y)^{3}=x^{3}+y^{3}+3xy(x+y)$
 
 ### 10((e)) — 6 marks — structured — from paper November 2024 · Paper 1
-`g open parentheses x close parentheses equals 3 x squared plus q x plus r`    where $q$and  $r$ are constants
+$g ( x ) = 3 x^{2} + q x + r$    where $q$and  $r$ are constants
 
-The equation $g(x)=0$ has roots $α^{2}-β$ and  $β^{2}-α$ where $α$ and  $β$are the roots of the equation `straight f open parentheses x close parentheses equals 0`
+The equation $g(x)=0$ has roots $α^{2}-β$ and  $β^{2}-α$ where $α$ and  $β$are the roots of the equation $\mathrm{f} ( x ) = 0$
 
 Using your answer to part (d), find in simplified exact form, the value of $q$ and the value of $r$
 
@@ -159,20 +159,20 @@ Using your answer to part (d), find in simplified exact form, the value of $q$ a
 ### 11((a)) — 4 marks — structured — from paper June 2023 · Paper 1
 $f(x)=10+6x-x^{2}$
 
-Given that `straight f open parentheses x close parentheses` can be written in the form $A(x+B)^{2}+C$ where $A$,$B$ and $C$ are constants,
+Given that $\mathrm{f} ( x )$ can be written in the form $A(x+B)^{2}+C$ where $A$,$B$ and $C$ are constants,
 
 find the value of  $A$, the value of $B$ and the value of $C$
 
 ### 11((b)) — 2 marks — structured — from paper June 2023 · Paper 1
 $f(x)=10+6x-x^{2}$
 
-Given that `straight f open parentheses x close parentheses` can be written in the form $A(x+B)^{2}+C$ where $A$,$B$ and $C$ are constants,
+Given that $\mathrm{f} ( x )$ can be written in the form $A(x+B)^{2}+C$ where $A$,$B$ and $C$ are constants,
 
 Hence, or otherwise, find
 
-(i) the value of $x$ for which `straight f open parentheses x close parentheses` has its greatest value
+(i) the value of $x$ for which $\mathrm{f} ( x )$ has its greatest value
 
-(ii) the greatest value of `straight f open parentheses x close parentheses`
+(ii) the greatest value of $\mathrm{f} ( x )$
 
 ### 11((c)) — 3 marks — structured — from paper June 2023 · Paper 1
 The curve $C$ has equation $y=f(x)$
@@ -184,7 +184,7 @@ Find the $x$ coordinate of each of these two points.
 ### 11((d)) — 5 marks — structured — from paper June 2023 · Paper 1
 $f(x)=10+6x-x^{2}$
 
-Given that `straight f open parentheses x close parentheses` can be written in the form $A(x+B)^{2}+C$ where $A$,$B$ and $C$ are constants,
+Given that $\mathrm{f} ( x )$ can be written in the form $A(x+B)^{2}+C$ where $A$,$B$ and $C$ are constants,
 
 The curve $C$ has equation $y=f(x)$
 
@@ -222,12 +222,12 @@ find the value of $P$ and the value of $Q$
 ### 2((a)) — 3 marks — structured — from paper November 2023 · Paper 1
 $g(x)=2x^{2}+\frac{1}{2}x-3$
 
-Express `straight g open parentheses x close parentheses` in the form `p open parentheses x plus q close parentheses squared` where $p$, $q$ and $r$ are rational numbers to be found.
+Express $\mathrm{g} ( x )$ in the form $p ( x + q )^{2}$ where $p$, $q$ and $r$ are rational numbers to be found.
 
 ### 2((b)) — 2 marks — structured — from paper November 2023 · Paper 1
 Find
 
-(i) the minimum value of `straight g open parentheses x close parentheses`
+(i) the minimum value of $\mathrm{g} ( x )$
 
 (ii) the value of $x$at which this minimum occurs.
 
@@ -236,7 +236,7 @@ $h(x)=2x^{6}+\frac{1}{2}x^{3}-3$
 
 Hence, or otherwise, write down
 
-(i) the minimum value of `straight h open parentheses x close parentheses`
+(i) the minimum value of $\mathrm{h} ( x )$
 
 (ii) the value of $x$ at which this minimum occurs.
 
@@ -319,7 +319,7 @@ $\frac{α^{2}+1}{β}\text{and}\frac{β^{2}+1}{α}$
 ### 5((a)) — 6 marks — structured — from paper January 2023 · Paper 1
 Given that $k$ is a non‑zero constant
 
-curve $C$ has equation `k x squared minus x y plus open parentheses k plus 1 close parentheses x equals 1`
+curve $C$ has equation $k x^{2} - x y + ( k + 1 ) x = 1$
 
 straight line $l$ has equation $y=\frac{k}{2}x+1$
 
@@ -335,19 +335,19 @@ Hence, find the coordinates of $A$.
 ### 3((a)) — 3 marks — structured — from paper January 2023 · Paper 2
 $f(x)=8x^{2}+10x-3$
 
-Given that `straight f open parentheses x close parentheses` can be written in the form `A open parentheses x plus B close parentheses squared plus C` where $A$, $B$ and $C$ are constants,
+Given that $\mathrm{f} ( x )$ can be written in the form $A ( x + B )^{2} + C$ where $A$, $B$ and $C$ are constants,
 
 find the value of $A$, the value of $B$ and the value of $C$.
 
 ### 3((b)) — 2 marks — structured — from paper January 2023 · Paper 2
 Hence, or otherwise, find,
 
-(i) the value of $x$ for which `straight f open parentheses x close parentheses` has a minimum,
+(i) the value of $x$ for which $\mathrm{f} ( x )$ has a minimum,
 
-(ii) the minimum value of  `straight f open parentheses x close parentheses`.
+(ii) the minimum value of  $\mathrm{f} ( x )$.
 
 ### 3((c)) — 2 marks — structured — from paper January 2023 · Paper 2
-The curve $C$ has equation `y equals straight f open parentheses x close parentheses`.
+The curve $C$ has equation $y = \mathrm{f} ( x )$.
 
 Find the $x$ coordinate of each of the points where $C$ crosses the $x$-axis.
 

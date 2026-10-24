@@ -352,7 +352,7 @@ Evaluate student 1's suggestions of fluorine and sodium.
 Correct student 3's statement. Explain your reasoning.
 
 ### 12 — 3 marks — command: describe — structured
-The students are told that the diagram represents  `begin mathsize 14px style Mg presubscript 12 presuperscript 25 superscript 2 plus end superscript end style`.
+The students are told that the diagram represents  $\text{Mg} pre_{12} pre^{25^{2} +}$.
 
 Describe the additions that should be made to the diagram to show this.
 
@@ -545,7 +545,7 @@ i) State the meaning of the term **isotopes**.
 
 ii) The symbol for an atom of one isotope of magnesium is
 
-`begin mathsize 14px style Mg presubscript 12 presuperscript 26 end style`
+$Mg_{12}^{26}$
 
 Give the number of protons, neutrons and electrons in one atom of this isotope.
 

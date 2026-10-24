@@ -33,7 +33,7 @@ efficiency = useful energy output / total energy output × 100%
 - Efficiency is represented as a percentage
 - The equation for efficiency is:
 
-`efficiency space equals fraction numerator space useful space energy space output over denominator total space energy space output end fraction space cross times space 100 percent sign`
+$\text{efficiency} = \frac{ \text{useful} \text{energy} output}{total \text{energy} output} \times 100 \%$
 
 - Total energy output is equal to total energy input due to the principle of conservation of energy
 
@@ -55,7 +55,7 @@ efficiency = useful energy output / total energy output × 100%
 > 
 > **Step 2: State the equation for efficiency**
 > 
-> `efficiency space equals fraction numerator space useful space energy space output over denominator total space energy space output end fraction space cross times space 100 percent sign`
+> $\text{efficiency} = \frac{ \text{useful} \text{energy} output}{total \text{energy} output} \times 100 \%$
 > 
 > **Step 3: Determine total energy output**
 > 
@@ -75,11 +75,11 @@ efficiency = useful energy output / total energy output × 100%
 > 
 > **Step 5: Substitute these values into the equation for efficiency**
 > 
-> `efficiency space equals fraction numerator space useful space energy space output over denominator total space energy space output end fraction space cross times space 100 percent sign`
+> $\text{efficiency} = \frac{ \text{useful} \text{energy} output}{total \text{energy} output} \times 100 \%$
 > 
-> `efficiency space equals fraction numerator space 215 space over denominator 300 end fraction space cross times space 100 percent sign`
+> $\text{efficiency} = \frac{ 215 }{300} \times 100 \%$
 > 
-> `efficiency space equals space 72 percent sign`
+> $\text{efficiency} = 72 \%$
 
 > **Exam Hint**
 > The equation for efficiency can be used to give a ratio (between 0 and 1) or percentage (between 0 and 100%)

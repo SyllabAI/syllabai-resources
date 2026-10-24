@@ -50,7 +50,7 @@ Find the values of t<sub>1</sub> and t<sub>2</sub>.
 ### 2() — 4 marks — structured
 (i) Show that the shaded area can be found using the integral
 
-`integral subscript 1 superscript 2 left parenthesis 8 t squared space plus 8 right parenthesis space d t`
+$\int_{1}^{2} ( 8 t^{2} + 8 ) d t$
 
 (ii) Hence find the shaded area.
 
@@ -150,7 +150,7 @@ Verify that the values of t, labelled t<sub>1</sub> and t<sub>2</sub> on the dia
 
 (ii) Show that the shaded area is given by
 
-`6 integral subscript straight pi superscript 2 straight pi end superscript sin squared t space d t`
+$6 \int_{\pi }^{2 \mathrm{\pi } } \sin ^{2} t d t$
 
 (iii) Hence using your calculator or otherwise, find the area of the logo.
 
@@ -175,7 +175,7 @@ Region R is rotated through 360° about the x-axis to form a solid of revolution
 
 (i) Show that the volume of the solid of revolution is given by the integral
 
-`pi integral subscript 2 superscript 3 left parenthesis 8 t cubed minus 32 t squared space plus 32 t right parenthesis space d t`
+$\pi \int_{2}^{3} ( 8 t^{3} - 32 t^{2} + 32 t ) d t$
 
 (ii) Hence find the exact volume of the solid generated.
 
@@ -213,7 +213,7 @@ Find the values of $t_{1}$ and  $t_{2}$.
 ### 2() — 5 marks — structured
 (i)  Show that the shaded area can be found using the integral
 
-`integral subscript 1 superscript 2 left parenthesis 6 t to the power of 4 minus 3 t squared right parenthesis   d t`
+$\int_{1}^{2} ( 6 t^{4} - 3 t^{2} )   d t$
 
 (ii)** ** Hence find the shaded area.
 
@@ -259,7 +259,7 @@ Find an expression for $\frac{dy}{dx}$ in terms of $θ$.
 
 (ii) Hence show the equation of the tangent to \( C \) at the point where $θ=\frac{π}{12}$ is
 
-`2 square root of 2 x plus 3 y minus open parentheses 9 square root of 3 plus 6 close parentheses equals 0`
+$2 \sqrt{2} x + 3 y - ( 9 \sqrt{3} + 6 ) = 0$
 
 ## Q14 — medium — 8 marks · exam-questions
 
@@ -271,11 +271,11 @@ $x=6t^{2}+2y=\frac{1}{t}t>0$
 Find an expression, in terms of $t$, for $\frac{dy}{dx}$.
 
 ### 2() — 5 marks — structured
-(i)  Find the gradient of the tangent to $C$ at the point `open parentheses 8 comma space 1 close parentheses`.
+(i)  Find the gradient of the tangent to $C$ at the point $( 8 , 1 )$.
 
-(ii) Hence write down the gradient of the normal to $C$ at the point  `open parentheses 8 comma space 1 close parentheses`.
+(ii) Hence write down the gradient of the normal to $C$ at the point  $( 8 , 1 )$.
 
-(iii) Find the equation of the normal to  $C$ at the point  `open parentheses 8 comma space 1 close parentheses`.
+(iii) Find the equation of the normal to  $C$ at the point  $( 8 , 1 )$.
 
 ## Q15 — medium — 7 marks · exam-questions
 
@@ -313,7 +313,7 @@ where $x$ and $y$ are measured in metres.
 ### 2() — 7 marks — structured
 (i)  Using your results from part (a), along with the double angle formula $\mathrm{sin}2t\equiv2\mathrm{sin}t\mathrm{cos}t,$  show that the total area of the logo is given by
 
-`4 integral subscript negative pi end subscript superscript negative pi over 2 end superscript open parentheses negative 6 cos space t space sin squared t close parentheses   straight d t`
+$4 \int_{- \pi }^{- \frac{\pi }{2} } ( - 6 \cos t \sin ^{2} t )   \mathrm{d} t$
 
 (ii)  Hence find the total area of the logo that is to be painted.
 
@@ -333,7 +333,7 @@ Verify that the starting position of the model car is at the origin, and find th
 ### 2() — 5 marks — structured
 (i) How many laps of the track does the model car complete?
 
-(ii) Find the times at which the model car is at the point `open parentheses negative 1 half comma 0 close parentheses`
+(ii) Find the times at which the model car is at the point $( - 1 \frac{1}{2} , 0 )$
 
 ## Q18 — medium — 8 marks · exam-questions
 
@@ -355,7 +355,7 @@ The region $R$ shown in the diagram is bounded by $C$, the $x$-axis, and the lin
 
 (i) Show that the volume of the solid of revolution is given by the integral
 
-`pi integral subscript t subscript 1 end subscript superscript t subscript 2 end superscript 2 t left parenthesis 3 t minus 6 right parenthesis squared   straight d t`
+$\pi \int_{t_{1} }^{t_{2} } 2 t ( 3 t - 6 )^{2}   \mathrm{d} t$
 
 (ii) Hence find the exact volume of the solid generated.
 
@@ -386,7 +386,7 @@ The point where t = t<sub>2</sub> has coordinates (4, 1).
 
 (i) Show that the shaded area can be found using the integral
 
-`integral subscript 0 superscript 1 5 t to the power of 1 half end exponent d t`
+$\int_{0}^{1} 5 t^{1 \frac{1}{2}} d t$
 
 (ii) Hence find the shaded area.
 
@@ -509,7 +509,7 @@ The region $R$ shown in the diagram is bounded by $C$ and the $x$-axis. Region $
 
 (i)  Show that the volume of the solid of revolution is given by the integral
 
-`pi integral subscript 0 superscript pi 12 sin t open parentheses 1 minus cos squared t close parentheses   d t`
+$\pi \int_{0}^{\pi } 12 \sin t ( 1 - \cos ^{2} t )   d t$
 
 (ii)  Hence find the exact volume of the solid generated.
 
@@ -526,7 +526,7 @@ Show that the shaded area is not a trapezium.
 
 In your work, you may use without proof the result
 
-`integral subscript pi over 2 end subscript superscript pi over 3 end superscript t squared sin t   d t equals negative 1 over 18 pi squared minus open parentheses 1 minus fraction numerator square root of 3 over denominator 3 end fraction close parentheses pi plus 1`
+$\int_{ \frac{\pi }{2} }^{ \frac{\pi }{3} } t^{2} \sin t   d t = - \frac{1}{18} \pi ^{2} - ( 1 - \frac{ \sqrt{3} }{3} ) \pi + 1$
 
 ## Q29 — very_hard — 8 marks · exam-questions
 
@@ -554,7 +554,7 @@ Find the horizontal distance from point *A* at which the ball hits the building.
 ### 1() — 3 marks — structured
 The graph of the ellipse *E* shown below is defined by the parametric equations:
 
-`x equals 2 cos open parentheses theta plus pi over 3 close parentheses comma    y equals 4 sin theta comma    minus pi less or equal than theta less or equal than pi`
+$x = 2 \cos ( \\theta + \frac{\pi }{3} ) , y = 4 \sin \\theta , - \pi \text{less} \text{or} \text{equal} \text{than} \\theta \text{less} \text{or} \text{equal} \text{than} \pi$
 
 ![An ellipse is plotted on a Cartesian grid, tilted diagonally with axes labelled from -4 to 4 in both x and y directions.](assets/033-an-ellipse-is-plotted-on-a-cartesian-grid-tilted.jpg)
 
@@ -647,7 +647,7 @@ Determine if there is sufficient room for the second track to be built within th
 
 In your work, you may use without proof the result:
 
-`integral sin space t space sin 3 t   d t equals cos space t space sin cubed t plus c`
+$\int \sin t \sin 3 t   d t = \cos t \sin ^{3} t + c$
 
 where $c$ is a constant of integration.
 

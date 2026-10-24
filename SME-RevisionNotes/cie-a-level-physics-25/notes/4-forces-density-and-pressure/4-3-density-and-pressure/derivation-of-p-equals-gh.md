@@ -140,7 +140,7 @@ Total pressure = Hydrostatic pressure + Atmospheric pressure
 > 
 > **Step 5: Substitute in the known values to calculate**
 > 
-> `h space equals space fraction numerator open parentheses 250 cross times 10 cubed close parentheses space minus space open parentheses 100 cross times 10 cubed close parentheses over denominator 1020 space cross times space 9.81 end fraction`
+> $h = \frac{( 250 \times 10^{3} ) - ( 100 \times 10^{3} )}{1020 \times 9.81}$
 > 
 > $h=15m$
 

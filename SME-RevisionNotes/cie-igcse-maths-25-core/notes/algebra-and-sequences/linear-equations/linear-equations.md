@@ -38,20 +38,20 @@ guided_study: true
 
   - Undo this by subtracting 1 from **both sides** and **simplifying**
 
-`table attributes columnalign right center left columnspacing 0px end attributes row cell 2 x space plus space 1 end cell equals cell space 9 end cell end table`
+$\begin{array}{rcl} 2 x + 1 & = 9 \end{array}$
 
-`table row blank blank cell left parenthesis negative 1 right parenthesis space space space space space space space space space space space space space space space space space space space space space space space space space end cell end table space space table row blank blank cell space space space space space space space space space space space space space space space space space space space left parenthesis negative 1 right parenthesis end cell end table`
+$\begin{gathered} ( - 1 ) \end{gathered} \begin{gathered} ( - 1 ) \end{gathered}$
 
-`table row cell 2 x plus 1 minus 1 end cell equals cell 9 minus 1 end cell row cell 2 x end cell equals 8 end table`
+$\begin{gathered} 2 x + 1 - 1 & = 9 - 1 \\ 2 x & = 8 \end{gathered}$
 
 - This equation is now **easier** to solve
 - 2*x* is 2 × *x  *so undo this by dividing **both** sides by 2 and **simplifying**
 
-`table row cell 2 x end cell equals 8 end table`
+$\begin{gathered} 2 x & = 8 \end{gathered}$
 
-`table row blank blank cell left parenthesis divided by 2 right parenthesis space space space space space space space space space space end cell end table space space table row blank blank cell space space space space space space space space space space space space space left parenthesis divided by 2 right parenthesis end cell end table`
+$\begin{gathered} ( \div 2 ) \end{gathered} \begin{gathered} ( \div 2 ) \end{gathered}$
 
-`table row cell fraction numerator 2 x over denominator 2 end fraction end cell equals cell 8 over 2 end cell row x equals 4 end table`
+$\begin{gathered} \frac{2 x}{2} & = \frac{8}{2} \\ x = 4 \end{gathered}$
 
 - The **solution** to the equation is *x* = 4
 - Note that +1 was undone by subtracting 1
@@ -67,11 +67,11 @@ guided_study: true
 
   - It is **easier **to **first subtract** 8 from both sides
 
-`table row cell 4 x plus 8 minus 8 end cell equals cell 12 minus 8 end cell row cell 4 x end cell equals 4 end table`
+$\begin{gathered} 4 x + 8 - 8 & = 12 - 8 \\ 4 x & = 4 \end{gathered}$
 
 - **then** **divide** both sides by 4
 
-`table row cell fraction numerator 4 x over denominator 4 end fraction end cell equals cell 4 over 4 end cell row x equals 1 end table`
+$\begin{gathered} \frac{4 x}{4} & = \frac{4}{4} \\ x = 1 \end{gathered}$
 
 - If you want to first divide by 4, a common** mistake** is to write $x+8=3$
 
@@ -79,29 +79,29 @@ guided_study: true
   
     - You must **also divide** the 8 by 4
 
-`table row cell fraction numerator 4 x over denominator 4 end fraction plus 8 over 4 end cell equals cell 12 over 4 end cell row cell x plus 2 end cell equals 3 end table`
+$\begin{gathered} \frac{4 x}{4} + \frac{8}{4} & = \frac{12}{4} \\ x + 2 & = 3 \end{gathered}$
 
 - Then subtract 2 from both sides
 
-`table row cell x plus 2 minus 2 end cell equals cell 3 minus 2 end cell row x equals 1 end table`
+$\begin{gathered} x + 2 - 2 & = 3 - 2 \\ x = 1 \end{gathered}$
 
 ### How do I solve linear equations with negative numbers?
 
 - For example, solve the equation $2-3x=10$
 - Add $3x$ to both sides to get rid of the negative term on the left-hand side
 
-`table row cell 2 minus 3 x end cell equals 10 end table`
+$\begin{gathered} 2 - 3 x & = 10 \end{gathered}$
 
-`table row blank blank cell left parenthesis plus 3 x right parenthesis space space space space space space space space space space space space space space space space space space space space space end cell end table space space table row blank blank cell space space space space space space space space space space space space space space space space space space space space space left parenthesis plus 3 x right parenthesis end cell end table`
+$\begin{gathered} ( + 3 x ) \end{gathered} \begin{gathered} ( + 3 x ) \end{gathered}$
 
-`table row 2 equals cell 10 plus 3 x end cell end table`
+$\begin{gathered} 2 = 10 + 3 x \end{gathered}$
 
 - You can then rewrite the equation as $3x+10=2$
 
   - And solve in the usual way
   
     - Subtract 10 from both sides
-    `table row cell 3 x end cell equals cell negative 8 end cell end table`
+    $\begin{gathered} 3 x & = - 8 \end{gathered}$
     - Divide both sides by 3
     $x=-\frac{8}{3}$
 - An **alternative** way to think about $2-3x=10$ is by **reordering** the left-hand side
@@ -126,7 +126,7 @@ guided_study: true
 > 
 > > *Add 8 to both sides of the equation*
 > 
-> `table row cell 5 x end cell equals cell 22 plus 8 end cell end table`
+> $\begin{gathered} 5 x & = 22 + 8 \end{gathered}$
 > 
 > *Work out 22 + 8*
 > 

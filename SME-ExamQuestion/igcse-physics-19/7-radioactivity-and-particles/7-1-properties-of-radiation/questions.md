@@ -137,7 +137,7 @@ How many neutrons are there in a nucleus of radon-220?
 ### 1((a)) — 1 mark — multiple_choice — from paper 2013 January · 1P
 Vanadium-50 is an isotope of vanadium.
 
-It has the symbol `space presubscript 23 presuperscript 50 straight V`
+It has the symbol $space_{23}^{50} \mathrm{V}$
 
 The number of neutrons in a vanadium-50 nucleus is
 - **A.** 23
@@ -326,7 +326,7 @@ The table describes the nuclei of four atoms.
 
 | uranium-234 | uranium-235 | plutonium-238 | americium-238 |
 |---|---|---|---|
-| `straight U presubscript 92 presuperscript 234` | `straight U presubscript 92 presuperscript 235` | `Pu presubscript 94 presuperscript 238` | `Am presubscript 95 presuperscript 238` |
+| `U _ 92 ^ 234` | `U _ 92 ^ 235` | `Pu presubscript 94 presuperscript 238` | `Am presubscript 95 presuperscript 238` |
 
 (i) Which two nuclei have the same number of protons?
 
@@ -346,7 +346,7 @@ When plutonium decays, it emits an alpha particle and a gamma ray.
 
 (i) Complete the decay equation for plutonium-238.
 
-`Pu presubscript 94 presuperscript 238 space rightwards arrow space straight alpha presubscript square presuperscript 4 space plus space straight X presubscript square presuperscript square space plus space straight gamma presubscript 0 presuperscript square`
+$Pu_{94}^{238} \rightarrow \ \\alpha pre_{square} pre^{4} + \mathrm{X} pre_{square} pre^{square} + \ \\gamma pre_{0} pre^{square}$
 
 (ii) Use information from the table in part (a) to identify element X.
 
@@ -355,7 +355,7 @@ The nucleus of americium-238 can absorb an electron. When this happens, one of t
 
 This equation describes the process.
 
-`straight p presubscript 1 presuperscript 1 space plus space straight e presubscript negative 1 end presubscript presuperscript 0 space rightwards arrow straight n presubscript 0 presuperscript 1`
+`p _ 1 ^ 1 + e _ - 1 ^ 0 -> n _ 0 ^ 1`
 
 (i) Describe how this process affects the proton number and the nucleon number of the nucleus that absorbs the electron.
 
@@ -486,7 +486,7 @@ Complete the table by ticking the correct type of radiation for each property. T
 ### 2((b)) — 3 marks — command: multiple — structured — from paper 2015 January · 1P
 The symbol for the structure of an alpha particle is
 
-`equation``straight alpha presubscript 2 presuperscript 4`
+`equation`$\ \\alpha pre_{2} pre^{4}$
 
 (i) State the number of neutrons and the number of protons in an alpha particle.
 

@@ -27,7 +27,7 @@ guided_study: false
 
 ### What is the formula for the sum of an arithmetic sequence?
 
-- The** formula **for the** sum of the first **$n$** terms **in an arithmetic sequence is `S subscript n equals n over 2 open square brackets 2 a plus open parentheses n minus 1 close parentheses d close square brackets`
+- The** formula **for the** sum of the first **$n$** terms **in an arithmetic sequence is $S_{n} = \frac{n}{2} [ 2 a + ( n - 1 ) d ]$
 
   - $a$ is the **first term**
   - $d$ is the **common difference**
@@ -45,13 +45,13 @@ guided_study: false
 
   - This may lead to **simultaneous equations**
   
-    - The second equation could come from the formula for the $n$<sup>th</sup> term, `u subscript n equals a plus open parentheses n minus 1 close parentheses d`
+    - The second equation could come from the formula for the $n$<sup>th</sup> term, $u_{n} = a + ( n - 1 ) d$
 - You may have to form a **quadratic equation **or **quadratic inequality **in $n$
 
   - When solving, remember that $n$ must be a positive integer
 
 > **Exam Hint**
-> The formula `S subscript n equals n over 2 open square brackets 2 a plus open parentheses n minus 1 close parentheses d close square brackets` is given in the formula booklet.
+> The formula $S_{n} = \frac{n}{2} [ 2 a + ( n - 1 ) d ]$ is given in the formula booklet.
 
 > **Worked Example**
 > An arithmetic sequence is given by 6, 13, 20, 27, ...
@@ -60,10 +60,10 @@ guided_study: false
 > 
 > **Answer:**
 > 
-> > *The formula for the sum of the first *$n$* terms in an arithmetic sequence is given by *`S subscript n equals n over 2 open square brackets 2 a plus open parentheses n minus 1 close parentheses d close square brackets`
+> > *The formula for the sum of the first *$n$* terms in an arithmetic sequence is given by *$S_{n} = \frac{n}{2} [ 2 a + ( n - 1 ) d ]$
 > *Here, *$a=6$*, *$d=7$* and *$n=20$*, so substitute these in*
 > 
-> `table row cell S subscript 20 end cell equals cell 20 over 2 open square brackets 2 cross times 6 plus open parentheses 20 minus 1 close parentheses cross times 7 close square brackets end cell row blank equals cell 10 open parentheses 12 plus 19 cross times 7 close parentheses end cell row blank equals 1450 end table`
+> $\begin{gathered} S_{20} & = \frac{20}{2} [ 2 \times 6 + ( 20 - 1 ) \times 7 ] \\ = 10 ( 12 + 19 \times 7 ) \\ = 1450 \end{gathered}$
 > 
 > **Final answer:** **The sum of the first twenty terms is 1450**
 > 
@@ -75,11 +75,11 @@ guided_study: false
 > *You know *$a=6$* and *$d=7$* from before*
 > *Use the formula for the sum of the first *$n$* terms to write *$S_{n}>4000$
 > 
-> `n over 2 open square brackets 2 cross times 6 plus open parentheses n minus 1 close parentheses cross times 7 close square brackets greater than 4000`
+> $\frac{n}{2} [ 2 \times 6 + ( n - 1 ) \times 7 ] > 4000$
 > 
 > > *Multiply both sides by 2 and simplify*
 > 
-> `table row cell n open square brackets 12 plus 7 open parentheses n minus 1 close parentheses close square brackets end cell greater than 8000 row cell n open square brackets 12 plus 7 n minus 7 close square brackets end cell greater than 8000 row cell n open parentheses 5 plus 7 n close parentheses end cell greater than 8000 row cell 5 n plus 7 n squared end cell greater than 8000 end table`
+> $\begin{gathered} n [ 12 + 7 ( n - 1 ) ] & > 8000 \\ n [ 12 + 7 n - 7 ] & > 8000 \\ n ( 5 + 7 n ) & > 8000 \\ 5 n + 7 n^{2} & > 8000 \end{gathered}$
 > 
 > > *This is a quadratic inequality*
 > *Bring all the terms to the left-hand side*
@@ -89,7 +89,7 @@ guided_study: false
 > > *If you know how to solve a quadratic inequality, you can use that method*
 > *If not, make the inequality an equals sign and solve (e.g. the quadratic formula)*
 > 
-> `n equals fraction numerator negative 5 plus-or-minus square root of 5 squared minus 4 cross times 7 cross times open parentheses negative 8000 close parentheses end root over denominator 14 end fraction`
+> $n = \frac{- 5 \pm \sqrt{5^{2} - 4 \times 7 \times ( - 8000 )} }{14}$
 > 
 > > *This gives*
 > 
@@ -98,14 +98,14 @@ guided_study: false
 > > $n$* is the number of terms so cannot be negative; it must be near 33*
 > *Test *$n=33$* to see if *$S_{n}>4000$* from the original question*
 > 
-> `S subscript 33 equals 33 over 2 open square brackets 2 cross times 6 plus open parentheses 33 minus 1 close parentheses cross times 7 close square brackets
-> equals 3894 less than 4000`
+> $S_{33} = \frac{33}{2} [ 2 \times 6 + ( 33 - 1 ) \times 7 ]
+> = 3894 < 4000$
 > 
 > > *This is not enough terms for the sum to exceed 4000*
 > *Test *$n=34$* to see if *$S_{n}>4000$* *
 > 
-> `S subscript 34 equals 34 over 2 open square brackets 2 cross times 6 plus open parentheses 34 minus 1 close parentheses cross times 7 close square brackets
-> equals 4250 greater than 4000`
+> $S_{34} = \frac{34}{2} [ 2 \times 6 + ( 34 - 1 ) \times 7 ]
+> = 4250 > 4000$
 > 
 > > *This is the first time the sum exceeds 4000*
 > 

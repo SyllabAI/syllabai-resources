@@ -13,11 +13,11 @@
 > *First find the relative frequencies (i.e., experimental probabilities) for 'point up' and 'point down', by dividing the total number of times the pin landed point up or point down by the total number of times it was dropped. Then multiply those relative frequencies together to determine an estimate for the probability the pin will land point up the first time AND point down the second time. *
 *Remember, with combined probabilities 'and' usually means 'multiply'.*
 
-`straight P open parentheses point space up close parentheses space equals space fraction numerator 14 plus 27 plus 9 over denominator 31 plus 53 plus 16 plus 14 plus 27 plus 9 end fraction space equals space fraction numerator space 50 over denominator 150 end fraction equals space 1 third
+$\mathrm{P} ( \text{point} \text{up} ) = \frac{14 + 27 + 9}{31 + 53 + 16 + 14 + 27 + 9} = \frac{ 50}{150} = 1 \frac{1}{3}
 
-straight P open parentheses point space down close parentheses space equals space fraction numerator 31 plus 53 plus 16 over denominator 31 plus 53 plus 16 plus 14 plus 27 plus 9 end fraction space equals space 100 over 150 space equals space 2 over 3
+ \mathrm{P} ( \text{point} \text{down} ) = \frac{31 + 53 + 16}{31 + 53 + 16 + 14 + 27 + 9} = \frac{100}{150} = \frac{2}{3} 
 
-1 third space cross times space 2 over 3 space equals space 2 over 9`*                          *
+1 \frac{1}{3} \times \frac{2}{3} = \frac{2}{9}$*                          *
 
 **[1]**
 
@@ -119,7 +119,7 @@ $\frac{2}{42}$**  [1]**
 * Take a 2 (3/7) AND then take a 3 (2/6). *
 *So multiply those fractions together and then add to find the answer.*
 
-`open parentheses 2 over 7 space cross times space 5 over 6 close parentheses space plus space open parentheses 3 over 7 space cross times space 2 over 6 close parentheses space equals space 16 over 42`
+$( \frac{2}{7} \times \frac{5}{6} ) + ( \frac{3}{7} \times \frac{2}{6} ) = \frac{16}{42}$
 
 **[2] **
 **1 mark for a correct product.  **
@@ -141,7 +141,7 @@ $\frac{16}{42}$**  [1]**
 * Take a blue counter (2/9) AND then take a green counter (7/8). *
 *So multiply those fractions together and then add to find the answer.*
 
-`open parentheses 7 over 9 space cross times space 2 over 8 close parentheses space plus space open parentheses 2 over 9 space cross times space 7 over 8 close parentheses space equals space 14 over 72 space plus space 14 over 72 space equals space 28 over 72`
+$( \frac{7}{9} \times \frac{2}{8} ) + ( \frac{2}{9} \times \frac{7}{8} ) = \frac{14}{72} + \frac{14}{72} = \frac{28}{72}$
 
 **[3] **
 **1 mark for a correct fraction with 8 in the denominator. **
@@ -226,7 +226,7 @@ $\frac{62}{110}$**  [1]**
 *Niklas yellow (6/15) AND Sasha yellow (6/15). *
 *So multiply those fractions together and then add to find the answer.*
 
-`open parentheses 4 over 15 space cross times space 4 over 15 close parentheses space plus space open parentheses 5 over 15 space cross times space 5 over 15 close parentheses space plus space open parentheses 6 over 15 space cross times space 6 over 15 close parentheses space equals space 16 over 225 space plus space 25 over 225 space plus space 36 over 225 space equals space 77 over 225`
+$( \frac{4}{15} \times \frac{4}{15} ) + ( \frac{5}{15} \times \frac{5}{15} ) + ( \frac{6}{15} \times \frac{6}{15} ) = \frac{16}{225} + \frac{25}{225} + \frac{36}{225} = \frac{77}{225}$
 
 **[2] **
 **1 mark for a correct product.  1 mark for three correct products added together.**
@@ -250,9 +250,9 @@ $\frac{77}{225}$**  [1]**
 *Tail (0.7) AND Head (0.3) AND Head (0.3) AND Head (0.3).*
 *So multiply those probabilities together and then add to find the answer.*
 
-`open parentheses 0.3 cross times 0.3 cross times 0.3 cross times 0.7 close parentheses plus open parentheses 0.3 cross times 0.3 cross times 0.7 cross times 0.3 close parentheses plus open parentheses 0.3 cross times 0.7 cross times 0.3 cross times 0.3 close parentheses plus open parentheses 0.7 cross times 0.3 cross times 0.3 cross times 0.3 close parentheses
-equals space 0.0189 space plus space 0.0189 space plus space 0.0189 space plus space 0.0189
-equals 0.0756`
+$( 0.3 \times 0.3 \times 0.3 \times 0.7 ) + ( 0.3 \times 0.3 \times 0.7 \times 0.3 ) + ( 0.3 \times 0.7 \times 0.3 \times 0.3 ) + ( 0.7 \times 0.3 \times 0.3 \times 0.3 )
+= 0.0189 + 0.0189 + 0.0189 + 0.0189
+= 0.0756$
 
 **[2] **
 **1 mark for a correct product.  1 mark for four correct products added together.**
@@ -262,7 +262,7 @@ equals 0.0756`
 
 **You could also do this by noting that there are 4 ways to get 3 heads: **
 **HHHT, HHTH, HTHH, and THHH. **
-**And for each of those ways, the probability is the same (because multiplication doesn't care what order you do it in!). For each way the probability is  **$0.3^{3}\times0.7$**.  So the total probability is  **`4 space cross times space open parentheses 0.3 cubed space cross times space 0.7 close parentheses space equals space 0.0756`**.**
+**And for each of those ways, the probability is the same (because multiplication doesn't care what order you do it in!). For each way the probability is  **$0.3^{3}\times0.7$**.  So the total probability is  **$4 \times ( 0.3^{3} \times 0.7 ) = 0.0756$**.**
 
 ### 15((b)) — 2 marks
 > *The easiest way to do this is to note that 'heads at least once' means that 'four tails' DIDN'T happen. *
@@ -290,7 +290,7 @@ $0.7\times0.7\times0.7\times0.7=0.2401\,1-0.2401=0.7599$
 *The probability that she will win at both games is equal to the probability of winning at tennis multiplied by the probability of winning at chess. *
 *Set up and solve an equation with that information.*
 
-`table row cell 0.6 space cross times space p space end cell equals cell space 0.42 end cell row cell p space end cell equals cell space 0.42 space divided by space 0.6 end cell row cell p space end cell equals cell space 0.7 end cell end table`
+$\begin{gathered} 0.6 \times p & = 0.42 \\ p & = 0.42 \div 0.6 \\ p & = 0.7 \end{gathered}$
 
 **[1]**
 
@@ -299,9 +299,9 @@ $0.7\times0.7\times0.7\times0.7=0.2401\,1-0.2401=0.7599$
 *So to find the probability that she will NOT win at chess, subtract the probability that she will win from 1. *
 *Then do the same thing for tennis.*
 
-`straight P open parentheses don apostrophe straight t space win space at space chess close parentheses space equals space 1 space minus space 0.7 space equals space 0.3
+$\mathrm{P} ( \text{don} ' \mathrm{t} \text{win} \text{at} \text{chess} ) = 1 - 0.7 = 0.3
 
-straight P open parentheses don apostrophe straight t space win space at space tennis close parentheses space equals space 1 space minus space 0.6 space equals space 0.4`
+ \mathrm{P} ( \text{don} ' \mathrm{t} \text{win} \text{at} \text{tennis} ) = 1 - 0.6 = 0.4$
 
 **[1] **
 **1 mark for either of those 'don't win' probabilities correct**
@@ -329,7 +329,7 @@ $0.3\times0.4=0.12$
 *'Sophie fails on the first attempt' (0.3) AND 'Sophie passes on the second attempt' (0.9). *
 *Multiply and add to find the total probability.*
 
-`0.7 space plus space open parentheses 0.3 space cross times space 0.9 close parentheses space equals space 0.7 space plus space 0.27 space equals space 0.97`
+$0.7 + ( 0.3 \times 0.9 ) = 0.7 + 0.27 = 0.97$
 
 **[2] **
 **1 mark for the correct product of 0.3 and 0.9.  **
@@ -376,7 +376,7 @@ $\frac{72}{110}$**  [1]**
 ### 18((a)) — 2 marks
 > *Start by writing down the probability for 'red' and simplifying it.*
 
-`straight P open parentheses red close parentheses space equals space 10 over 20 space equals space 1 half`
+$\mathrm{P} ( \text{red} ) = \frac{10}{20} = 1 \frac{1}{2}$
 
 **[1] **
 **You don't need to simplify the fraction to get this mark, but it makes the next step easier!**
@@ -396,7 +396,7 @@ $\frac{1}{8}$**  [1]**
 ### 15() — 4 marks
 > *Start by finding the percentage of buses that are less than 10 years old.*
 
-`100 space minus space 25 space equals space 75 percent sign space less space than space 10 space years space old`
+$100 - 25 = 75 \% \text{less} \text{than} 10 \text{years} \text{old}$
 
 **[1]**
 
@@ -490,9 +490,9 @@ $\mathrm{Paul} \mathrm{heads}:\mathrm{tails}=80:40=2:1=\mathrm{twice} \mathrm{as
 ### 6((c)) — 2 marks
 > *First find the relative frequency (i.e., experimental probability) for 'heads', by dividing the total number of times the coin landed on heads by the total number of times it was thrown. Then multiply that relative frequency by itself to determine an estimate for the probability the coin will land on heads the first time and then on heads again the second time.*
 
-`straight P open parentheses heads close parentheses space equals space fraction numerator 34 plus 66 plus 80 plus 120 over denominator 34 plus 66 plus 80 plus 120 plus 8 plus 12 plus 40 plus 40 end fraction space equals space 300 over 400 space equals space 3 over 4
+$\mathrm{P} ( \text{heads} ) = \frac{34 + 66 + 80 + 120}{34 + 66 + 80 + 120 + 8 + 12 + 40 + 40} = \frac{300}{400} = \frac{3}{4} 
 
-3 over 4 space cross times space 3 over 4 space equals space 9 over 16`*                          *
+ \frac{3}{4} \times \frac{3}{4} = \frac{9}{16}$*                          *
 
 **[1]**
 
@@ -515,18 +515,18 @@ $\frac{6}{x}\times\frac{x-6}{x-1}+\frac{x-6}{x}\times\frac{6}{x-1}=\frac{2}{7}$
 
 Simplify into a quadratic to solve
 
-`fraction numerator 12 open parentheses x minus 6 close parentheses over denominator x open parentheses x minus 1 close parentheses end fraction equals 2 over 7
-84 x minus 504 space equals 2 x squared minus 2 x
-2 x squared minus 86 x space plus 504 space equals space 0 space
-x squared minus 43 x plus space 252 space equals space 0 subscript blank`
+$\frac{12 ( x - 6 )}{x ( x - 1 )} = \frac{2}{7} 
+84 x - 504 = 2 x^{2} - 2 x
+2 x^{2} - 86 x + 504 = 0 
+x^{2} - 43 x + 252 = 0_{ }$
 
 **[M1]**
 
 Solve the quadratic
 
-`open parentheses x minus 36 close parentheses open parentheses x minus 7 close parentheses equals 0
-x equals 36 space
-x equals space 7`
+$( x - 36 ) ( x - 7 ) = 0
+x = 36 
+x = 7$
 
 **[M1]**
 
@@ -555,9 +555,7 @@ x must be more than 12:
 ### 19() — 3 marks
 > *First we can use the fact that probabilities must add to 1 to find the probabilities for 'doesn't buy fruit' and 'doesn't buy vegetables'.*
 
-`straight P open parentheses no space fruit close parentheses space equals space 1 space minus space 0.7 space equals space 0.3
-
-straight P open parentheses no space vegetables close parentheses space equals space 1 space minus space 0.4 space equals space 0.6`
+$\mathrm{P} ( no\ \text{fruit} ) = 1 - 0.7 = 0.3 \mathrm{P} ( no\ \text{vegetables} ) = 1 - 0.4 = 0.6$
 
 **[1] **
 **You get the mark here for subtracting to find either one of those probabilities.**
@@ -565,14 +563,14 @@ straight P open parentheses no space vegetables close parentheses space equals s
 > *'Buys fruit or buys vegetables or buys both' means he buys **something**  I.e., he doesn't buy nothing. *
 *Multiply 0.3 by 0.6 to find the probability for 'no fruit AND no vegetables'. Then subtract that from 1 to find the probability that he buys one or the other or both.*
 
-`1 space minus space open parentheses 0.3 space cross times space 0.6 close parentheses space equals space 1 space minus space 0.18 space equals space 0.82`
+$1 - ( 0.3 \times 0.6 ) = 1 - 0.18 = 0.82$
 
 **[1]**
 
 **0.82****  [1]**
 
 **You can also do this by multiplying to get the probabilities for 'fruit AND vegetables', 'fruit AND no vegetables', and 'no fruit AND vegetables', and then adding those together to get the answer. **
-**I.e., **`open parentheses 0.7 space cross times space 0.4 close parentheses space plus space open parentheses 0.7 space cross times space 0.6 close parentheses space plus space open parentheses 0.3 space cross times space 0.4 close parentheses space equals space 0.82`
+**I.e., **$( 0.7 \times 0.4 ) + ( 0.7 \times 0.6 ) + ( 0.3 \times 0.4 ) = 0.82$
 
 **Also note that you could draw a tree diagram here if you find that helpful.  But that's not necessary to get the marks or to find the answer.**
 
@@ -580,19 +578,19 @@ straight P open parentheses no space vegetables close parentheses space equals s
 
 ### 18() — 3 marks
 > *In combined probability, 'and' usually means 'multiply'. *
-*So the probability of heads both times (i.e. of 'heads AND heads') is  *`straight P open parentheses heads close parentheses space cross times space straight P open parentheses heads close parentheses space space equals space open parentheses straight P open parentheses heads close parentheses close parentheses squared`*. *
+*So the probability of heads both times (i.e. of 'heads AND heads') is  *$\mathrm{P} ( \text{heads} ) \times \mathrm{P} ( \text{heads} ) = ( \mathrm{P} ( \text{heads} ) )^{2}$*. *
 *Take the square root of 0.09 to find the probability of the coin landing on heads.*
 
-`straight P open parentheses heads close parentheses space equals space square root of 0.09 end root space equals space 0.3`
+$\mathrm{P} ( \text{heads} ) = \sqrt{0.09} = 0.3$
 
 **[1]**
 
-> *Subtract 0.3 from 1 to find *`straight P open parentheses tails close parentheses`*. *
-*Then the probability of tails both times (i.e. of 'tails AND tails') is  *`straight P open parentheses tails close parentheses space cross times space straight P open parentheses tails close parentheses space space equals space open parentheses straight P open parentheses tails close parentheses close parentheses squared`*.*
+> *Subtract 0.3 from 1 to find *$\mathrm{P} ( \text{tails} )$*. *
+*Then the probability of tails both times (i.e. of 'tails AND tails') is  *$\mathrm{P} ( \text{tails} ) \times \mathrm{P} ( \text{tails} ) = ( \mathrm{P} ( \text{tails} ) )^{2}$*.*
 
-`P open parentheses t a i l s close parentheses space equals space 1 space minus space 0.3 space equals space 0.7
+$P ( t a i l s ) = 1 - 0.3 = 0.7
 
-0.7 squared space equals space 0.49`
+0.7^{2} = 0.49$
 
 **[1]**
 
@@ -728,8 +726,7 @@ $\frac{1}{55}=0.0181818...\frac{2}{91}=0.021978...$
 *      Takes a blue pen (*$\frac{10-x}{10}$*) AND then takes a red pen (*$\frac{x}{9}$*) (Note that there are only 9 pens left after taking the first one, so the denominator changes to 9 the second time.)  *
 *Multiply those algebraic fractions and then add the products together to start finding the answer.*
 
-`open parentheses x over 10 space cross times space fraction numerator 10 space minus space x over denominator 9 end fraction close parentheses space plus space open parentheses fraction numerator 10 space minus space x over denominator 10 end fraction space cross times space x over 9 close parentheses
-`
+$( \frac{x}{10} \times \frac{10 - x}{9} ) + ( \frac{10 - x}{10} \times \frac{x}{9} )$
 
 **[3]**
 ** ****1 mark for a correct algebraic fraction.  **
@@ -738,14 +735,14 @@ $\frac{1}{55}=0.0181818...\frac{2}{91}=0.021978...$
 
 > *Now start multiplying out, adding, and simplifying those algebraic fractions.*
 
-`table row cell fraction numerator x space open parentheses 10 space minus space x close parentheses over denominator 10 space cross times space 9 end fraction space plus space fraction numerator open parentheses 10 space minus space x close parentheses space x over denominator 10 space cross times space 9 end fraction space end cell equals cell space fraction numerator 10 x space minus space x squared over denominator 90 end fraction space plus space fraction numerator 10 x space minus space x squared over denominator 90 end fraction end cell row blank blank blank row blank equals cell space fraction numerator open parentheses 10 x space minus space x squared close parentheses space plus space open parentheses 10 x space minus space x squared close parentheses over denominator 90 end fraction end cell row blank blank blank row blank equals cell space fraction numerator 20 x space minus space 2 x squared over denominator 90 end fraction end cell row blank blank blank row blank equals cell space fraction numerator 2 space open parentheses 10 x space minus space x squared close parentheses over denominator 2 space cross times space 45 end fraction end cell end table`
+$\begin{gathered} \frac{x ( 10 - x )}{10 \times 9} + \frac{( 10 - x ) x}{10 \times 9} & = \frac{10 x - x^{2}}{90} + \frac{10 x - x^{2}}{90} \\ \\ = \frac{( 10 x - x^{2} ) + ( 10 x - x^{2} )}{90} \\ \\ = \frac{20 x - 2 x^{2}}{90} \\ \\ = \frac{2 ( 10 x - x^{2} )}{2 \times 45} \end{gathered}$
 
 **[1] **
 **The mark here is for making a correct start on processing the algebra.**
 
 > *And finally cancel those factors of 2 and write down the answer.*
 
-`table row blank blank cell fraction numerator bold 10 bold italic x bold space bold minus bold space bold italic x to the power of bold 2 over denominator bold 45 end fraction end cell end table`**  [1]**
+`| _ _ ( 10 x - x ^ 2)/( 45) | |`**  [1]**
 
 ## Q28 — hard — 7 marks · exam-questions
 
@@ -780,7 +777,7 @@ $\frac{25}{144}$**  [1]**
 *      green (7/12) AND red (5/12). *
 *So multiply those fractions together and then add to find the probability.*
 
-`open parentheses 5 over 12 cross times 7 over 12 close parentheses space plus space open parentheses 7 over 12 cross times 5 over 12 close parentheses space equals space 35 over 144 space plus space 35 over 144 space equals space 70 over 144 space equals space 35 over 72`
+$( \frac{5}{12} \times \frac{7}{12} ) + ( \frac{7}{12} \times \frac{5}{12} ) = \frac{35}{144} + \frac{35}{144} = \frac{70}{144} = \frac{35}{72}$
 
 **[1]**
 
@@ -811,7 +808,7 @@ $\frac{x}{15}=\frac{7}{24}\div\frac{35}{72}\,\frac{x}{15}=\frac{3}{5}\,x=15\time
 *      'Spinner A even' (1/4) AND 'Spinner B odd' (2/5). *
 *Multiply those fractions and then add to find the probability.*
 
-`open parentheses 3 over 4 space cross times space 3 over 5 close parentheses space plus space open parentheses 1 fourth space cross times space 2 over 5 close parentheses space equals space 11 over 20`
+$( \frac{3}{4} \times \frac{3}{5} ) + ( 1 \frac{1}{4} \times \frac{2}{5} ) = \frac{11}{20}$
 
 **[2] **
 **1 mark for one correct product.  1 mark for two correct products added together.**
@@ -945,7 +942,7 @@ $\frac{1}{11}$**  [1]**
 > 
 > Therefore the numerators and denominators should each go down by 1 in each successive fraction.
 
-`straight P open parentheses straight R comma straight R comma straight R close parentheses equals 3 over 12 cross times 2 over 11 cross times 1 over 10 equals 6 over 1320 equals 1 over 220`
+$\mathrm{P} ( \mathrm{R} , \mathrm{R} , \mathrm{R} ) = \frac{3}{12} \times \frac{2}{11} \times \frac{1}{10} = \frac{6}{1320} = \frac{1}{220}$
 
 **[M1]**
 
@@ -970,17 +967,16 @@ $\frac{219}{220}$
 *'Roll a 1 OR spin a 1 OR both' is the same as 'roll a 1 AND spin a 1' OR 'roll a 1 AND don't spin a 1' OR 'don't roll a 1 AND spin a 1'.  *
 *So the probability is (P(roll 1)*$\times$*P(spin 1)) + (P(roll 1)*$\times$*P(don't spin 1)) + (P(don't roll 1)*$\times$*P(spin 1)).*
 
-`straight P open parentheses win space £ 5 close parentheses space equals space 1 over 6 space cross times space 1 fifth space equals space 1 over 30
+$\mathrm{P} ( \text{win} \pounds 5 ) = \frac{1}{6} \times 1 \frac{1}{5} = \frac{1}{30} 
 
-straight P open parentheses win space £ 2 close parentheses space equals space open parentheses 1 over 6 space cross times space 1 fifth close parentheses space space plus space open parentheses 1 over 6 space cross times space 4 over 5 close parentheses space plus space open parentheses 5 over 6 space cross times space 1 fifth close parentheses space equals space 1 third
-`
+ \mathrm{P} ( \text{win} \pounds 2 ) = ( \frac{1}{6} \times 1 \frac{1}{5} ) + ( \frac{1}{6} \times \frac{4}{5} ) + ( \frac{5}{6} \times 1 \frac{1}{5} ) = 1 \frac{1}{3}$
 
 **[1]**
 
 > *Now find the total prize money David is likely to have to pay out. 30*$\times$*P(win £5) people are expected to win £5. *
 *30*$\times$*P(win £2) people are expected to win £2.*
 
-`table row cell expected space payout space end cell equals cell space open parentheses open parentheses 30 space cross times space 1 over 30 close parentheses space cross times space £ 5 close parentheses space plus space open parentheses open parentheses 30 space cross times space 1 third close parentheses space cross times space £ 2 close parentheses end cell row blank equals cell space £ 5 space plus space £ 20 end cell row blank equals cell space £ 25 space end cell end table`
+$\begin{gathered} \text{expected} \text{payout} & = ( ( 30 \times \frac{1}{30} ) \times \pounds 5 ) + ( ( 30 \times 1 \frac{1}{3} ) \times \pounds 2 ) \\ = \pounds 5 + \pounds 20 \\ = \pounds 25 \end{gathered}$
 
 **[1]**
 
@@ -1048,21 +1044,21 @@ $\frac{x}{5x}\times\frac{x-1}{5x-1}=\frac{6}{155}$
 > *Now rearrange that equation and simplify to solve for **x**. *
 *Start by cancelling a factor of **x** from the top and bottom of the algebraic fraction.*
 
-`fraction numerator x open parentheses x space minus space 1 close parentheses over denominator 5 x open parentheses 5 x space minus space 1 close parentheses end fraction space equals space 6 over 155
+$\frac{x ( x - 1 )}{5 x ( 5 x - 1 )} = \frac{6}{155} 
 
-fraction numerator open parentheses x space minus space 1 close parentheses over denominator 5 open parentheses 5 x space minus space 1 close parentheses end fraction space equals space 6 over 155
+ \frac{( x - 1 )}{5 ( 5 x - 1 )} = \frac{6}{155} 
 
-fraction numerator x space minus space 1 over denominator 25 x space minus space 5 end fraction space equals space 6 over 155
+ \frac{x - 1}{25 x - 5} = \frac{6}{155} 
 
-155 open parentheses x space minus space 1 close parentheses space equals space 6 open parentheses 25 x space minus space 5 close parentheses
+155 ( x - 1 ) = 6 ( 25 x - 5 )
 
-155 x space minus space 155 space equals space 150 x space minus space 30
+155 x - 155 = 150 x - 30
 
-155 x space space minus space 150 x space equals space 155 space minus space 30
+155 x - 150 x = 155 - 30
 
-5 x space equals space 125
+5 x = 125
 
-x space equals space 125 space divided by space 5 space equals space 25`
+x = 125 \div 5 = 25$
 
 **[1] **
 **This mark is for processing the algebraic fractions and simplifying the equation.**
@@ -1079,26 +1075,26 @@ x space equals space 125 space divided by space 5 space equals space 25`
 *OR*
 *      Take a black sock (*$\frac{y}{y+5}$*) AND then take a white sock (*$\frac{5}{y+4}$*). (Note that after taking the first sock, only **y** + 4 socks remain from which to choose the second one.  So the denominators must change in the second probability fraction in each case.)  Therefore those algebraic fractions multiplied together and then added must be equal to 6/11.*
 
-`open parentheses fraction numerator 5 over denominator y space plus space 5 end fraction space cross times space fraction numerator y over denominator y space plus space 4 end fraction close parentheses space plus space open parentheses fraction numerator y over denominator y space plus space 5 end fraction space cross times space fraction numerator 5 over denominator y space plus space 4 end fraction close parentheses space equals space 6 over 11`
+$( \frac{5}{y + 5} \times \frac{y}{y + 4} ) + ( \frac{y}{y + 5} \times \frac{5}{y + 4} ) = \frac{6}{11}$
 
 **[2] **
 **1 mark for a correct product of algebraic fractions.  1 mark for setting up the correct equation.**
 
 > *Now process the algebraic fractions and rearrange the equation into the desired form.*
 
-`fraction numerator 5 y over denominator open parentheses y space plus space 5 close parentheses open parentheses y space plus space 4 close parentheses end fraction space plus space fraction numerator 5 y over denominator open parentheses y space plus space 5 close parentheses open parentheses y space plus space 4 close parentheses end fraction space equals space 6 over 11
+$\frac{5 y}{( y + 5 ) ( y + 4 )} + \frac{5 y}{( y + 5 ) ( y + 4 )} = \frac{6}{11} 
 
-fraction numerator 10 y over denominator open parentheses y space plus space 5 close parentheses open parentheses y space plus space 4 close parentheses end fraction space equals space 6 over 11
+ \frac{10 y}{( y + 5 ) ( y + 4 )} = \frac{6}{11} 
 
-11 open parentheses 10 y close parentheses space equals space 6 open parentheses y space plus space 5 close parentheses open parentheses y space plus space 4 close parentheses
+11 ( 10 y ) = 6 ( y + 5 ) ( y + 4 )
 
-110 y space equals space 6 open parentheses y squared space plus space 9 y space plus space 20 close parentheses
+110 y = 6 ( y^{2} + 9 y + 20 )
 
-110 y space equals space 6 y squared space plus space 54 y space plus space 120
+110 y = 6 y^{2} + 54 y + 120
 
-6 y squared space plus space 54 y space minus space 110 y space plus space 120 space equals space 0
+6 y^{2} + 54 y - 110 y + 120 = 0
 
-6 y squared space minus space 56 y space plus space 120 space equals space 0`
+6 y^{2} - 56 y + 120 = 0$
 
 > *And finally divide through by 2.*
 
@@ -1110,9 +1106,9 @@ fraction numerator 10 y over denominator open parentheses y space plus space 5 c
 > *First we need to solve the equation to find the value of **y**. Start by factorising the quadratic. *
 *We expect the brackets to start with 3**y **and **y**, so use inspection or the 'ac method' to find the required constants.*
 
-`3 y squared space minus space 28 y space plus space 60 space equals space 0
+$3 y^{2} - 28 y + 60 = 0
 
-open parentheses 3 y space minus space 10 close parentheses open parentheses y space minus space 6 close parentheses space equals space 0`
+( 3 y - 10 ) ( y - 6 ) = 0$
 
 **[1] **
 **Mark here is for a correct method to factorise the quadratic.**
@@ -1153,13 +1149,13 @@ $\frac{6}{n}\times\frac{5}{n-1}=\frac{1}{3}$
 
 > *Now process the algebraic fractions and rearrange the equation into the desired form.*
 
-`fraction numerator 6 space cross times space 5 over denominator n open parentheses n space minus space 1 close parentheses end fraction space equals space 1 third
+$\frac{6 \times 5}{n ( n - 1 )} = 1 \frac{1}{3}
 
-fraction numerator 30 over denominator n squared space minus space n end fraction space equals space 1 third
+ \frac{30}{n^{2} - n} = 1 \frac{1}{3}
 
-30 space cross times space 3 space equals space 1 space cross times open parentheses n squared space minus n close parentheses
+30 \times 3 = 1 \times ( n^{2} - n )
 
-90 space equals space n squared space minus space n`
+90 = n^{2} - n$
 
 **n**<sup>**2**</sup>** - ****n**** - 90 = 0****  [1]**
 
@@ -1169,11 +1165,11 @@ fraction numerator 30 over denominator n squared space minus space n end fractio
 > *Start by factorising the quadratic. *
 *Then write down the solutions based on the factorised form.*
 
-`n squared space minus space n space minus space 90 space equals space 0
+$n^{2} - n - 90 = 0
 
-open parentheses n space minus space 10 close parentheses open parentheses n space plus space 9 close parentheses space equals space 0
+( n - 10 ) ( n + 9 ) = 0
 
-n space equals space 10 space space space space space or space space space space space n space equals space minus 9`
+n = 10 \text{or} n = - 9$
 
 **[2] **
 **1 mark for using a correct method to solve the quadratic.  1 mark for both correct solutions,**
@@ -1189,7 +1185,7 @@ n space equals space 10 space space space space space or space space space space
 
 ### 15() — 2 marks
 > *Because the games are independent, all the probabilities for 'Second game' will be the same as the corresponding probabilities in 'First game'. *
-*Also, because probabilities must add up to 1, the probability for 'Magnus loses' must be  *`1 space minus space open parentheses 2 over 9 plus 4 over 9 close parentheses space space equals space 3 over 9`*.*
+*Also, because probabilities must add up to 1, the probability for 'Magnus loses' must be  *$1 - ( \frac{2}{9} + \frac{4}{9} ) = \frac{3}{9}$*.*
 
 ![eyx2Idrm_question](assets/004-eyx2idrm-question.png)
 
@@ -1206,7 +1202,7 @@ n space equals space 10 space space space space space or space space space space
 
 > *Then add those products together to find the total probability (OR rule).*
 
-`open parentheses 2 over 9 cross times 3 over 9 close parentheses space cross times space open parentheses 3 over 9 cross times 2 over 9 close parentheses space cross times space open parentheses 4 over 9 cross times 4 over 9 close parentheses space equals space 6 over 81 space plus space 6 over 81 space plus space 16 over 81 space equals space 28 over 81`
+$( \frac{2}{9} \times \frac{3}{9} ) \times ( \frac{3}{9} \times \frac{2}{9} ) \times ( \frac{4}{9} \times \frac{4}{9} ) = \frac{6}{81} + \frac{6}{81} + \frac{16}{81} = \frac{28}{81}$
 
 **[2] **
 **1 mark for a correct product.  2 marks for all three correct products added together.**
@@ -1226,7 +1222,7 @@ $\frac{28}{81}$**  [1]**
 
 > *Then add those two probabilities together (OR rule) to get the total probability.*
 
-`6 space cross times space open parentheses 2 over 9 cross times 4 over 9 cross times 3 over 9 close parentheses space plus space open parentheses 4 over 9 cross times 4 over 9 cross times 4 over 9 close parentheses space equals space 144 over 729 space plus space 64 over 729 space equals space 208 over 729`
+$6 \times ( \frac{2}{9} \times \frac{4}{9} \times \frac{3}{9} ) + ( \frac{4}{9} \times \frac{4}{9} \times \frac{4}{9} ) = \frac{144}{729} + \frac{64}{729} = \frac{208}{729}$
 
 **[2] **
 **1 mark for one correct product of three probabilities.  1 mark for completely correct sum of probability products.**
@@ -1257,7 +1253,7 @@ $\frac{4}{16}\times\frac{3}{15}\times\frac{2}{14}=\frac{24}{3360}\,\,\frac{7}{16
 
 > *Now they must be added together to find the total probability. But for the groups of three, the probabilities must be multiplied by 3 to cover all the options.*
 
-`24 over 3360 space plus space 210 over 3360 space plus space open parentheses 3 cross times 84 over 3360 close parentheses space plus space open parentheses 3 cross times 168 over 3360 close parentheses space equals space 990 over 3360`
+$\frac{24}{3360} + \frac{210}{3360} + ( 3 \times \frac{84}{3360} ) + ( 3 \times \frac{168}{3360} ) = \frac{990}{3360}$
 
 **[1] **
 **1 mark for a completely correct method.**
@@ -1283,33 +1279,33 @@ $\frac{990}{3360}$**  [1]**
 
 > *Because the total probability is 3/8, those algebraic fractions multiplied and added together must also be equal to 3/8.*
 
-`open parentheses fraction numerator 3 over denominator x plus 7 end fraction cross times fraction numerator 2 over denominator x plus 6 end fraction close parentheses space plus space open parentheses fraction numerator 4 over denominator x plus 7 end fraction cross times fraction numerator 3 over denominator x plus 6 end fraction close parentheses space plus space open parentheses fraction numerator x over denominator x plus 7 end fraction cross times fraction numerator x minus 1 over denominator x plus 6 end fraction close parentheses space equals space 3 over 8`
+$( \frac{3}{x + 7} \times \frac{2}{x + 6} ) + ( \frac{4}{x + 7} \times \frac{3}{x + 6} ) + ( \frac{x}{x + 7} \times \frac{x - 1}{x + 6} ) = \frac{3}{8}$
 
 **[2] **
 **1 mark for a correct product of algebraic fractions.  1 mark for three correct products added together.**
 
 > *Now expand the brackets and rearrange into a quadratic equation you can solve.*
 
-`fraction numerator 6 over denominator open parentheses x plus 7 close parentheses open parentheses x plus 6 close parentheses end fraction space plus space fraction numerator 12 over denominator open parentheses x plus 7 close parentheses open parentheses x plus 6 close parentheses end fraction space plus space fraction numerator x open parentheses x minus 1 close parentheses over denominator open parentheses x plus 7 close parentheses open parentheses x plus 6 close parentheses end fraction space space equals space 3 over 8
+$\frac{6}{( x + 7 ) ( x + 6 )} + \frac{12}{( x + 7 ) ( x + 6 )} + \frac{x ( x - 1 )}{( x + 7 ) ( x + 6 )} = \frac{3}{8} 
 
-fraction numerator x open parentheses x minus 1 close parentheses space plus space 18 over denominator open parentheses x plus 7 close parentheses open parentheses x plus 6 close parentheses end fraction space equals space 3 over 8
+ \frac{x ( x - 1 ) + 18}{( x + 7 ) ( x + 6 )} = \frac{3}{8} 
 
-fraction numerator x squared space minus space x space plus space 18 over denominator x squared space plus space 13 x space plus space 42 end fraction space equals space 3 over 8
+ \frac{x^{2} - x + 18}{x^{2} + 13 x + 42} = \frac{3}{8} 
 
-8 space cross times space open parentheses x squared space minus space x space plus space 18 close parentheses space equals space 3 space cross times space open parentheses x squared space plus space 13 x space plus space 42 close parentheses
+8 \times ( x^{2} - x + 18 ) = 3 \times ( x^{2} + 13 x + 42 )
 
-8 x squared space minus space 8 x space plus space 144 space equals space 3 x squared space plus space 39 x space plus 126
+8 x^{2} - 8 x + 144 = 3 x^{2} + 39 x + 126
 
-5 x squared space minus space 47 x space plus space 18 space equals space 0`
+5 x^{2} - 47 x + 18 = 0$
 
 **[1]**
 
 > *Now solve the quadratic equation. *
 *Here it's done by factorising, but you could also use the quadratic formula.*
 
-`open parentheses 5 x space minus space 2 close parentheses open parentheses x space minus space 9 close parentheses space equals space 0
+$( 5 x - 2 ) ( x - 9 ) = 0
 
-x space equals space 2 over 5 space space space or space space space x italic space equals space 9`
+x = \frac{2}{5} \text{or} x = 9$
 
 > *But **x** is the number of orange beads, so it can't be a fraction. Therefore **x** = 9 must be the correct answer.*
 
@@ -1332,40 +1328,40 @@ $9+7=16$
 *Also, the number of black and red pens must add up to **N. *
 *Use this to set up an equation, then substitute and rearrange to make **B** the subject.*
 
-`table row cell B space plus space R space end cell equals cell space N end cell row cell B space plus space open parentheses B minus 3 close parentheses space end cell equals cell space N end cell row cell 2 B space minus space 3 space end cell equals cell space N end cell row cell B space end cell equals cell space fraction numerator N plus 3 over denominator 2 end fraction end cell end table`
+$\begin{gathered} B + R & = N \\ B + ( B - 3 ) & = N \\ 2 B - 3 & = N \\ B & = \frac{N + 3}{2} \end{gathered}$
 
 **[1]**
 
 > *Now do the same thing for red, using **B** = **R** + 3.*
 
-`table row cell B space plus space R space end cell equals cell space N end cell row cell open parentheses R plus 3 close parentheses space plus space R space end cell equals cell space N end cell row cell 2 R space plus space 3 space end cell equals cell space N end cell row cell R space end cell equals cell space fraction numerator N minus 3 over denominator 2 end fraction end cell end table`
+$\begin{gathered} B + R & = N \\ ( R + 3 ) + R & = N \\ 2 R + 3 & = N \\ R & = \frac{N - 3}{2} \end{gathered}$
 
 > *With combined probabilities 'and' usually means 'multiply'. 'Takes a black pen followed by a red pen' is the same as:*
 
-> *     'takes a black pen' (*`fraction numerator open parentheses fraction numerator N plus 3 over denominator 2 end fraction close parentheses over denominator N end fraction`*) AND 'then takes a red pen' (*`fraction numerator open parentheses begin display style fraction numerator N minus 3 over denominator 2 end fraction end style close parentheses over denominator N minus 1 end fraction`*). *
+> *     'takes a black pen' (*$\frac{( \frac{N + 3}{2} )}{N}$*) AND 'then takes a red pen' (*$\frac{( \frac{N - 3}{2} )}{N - 1}$*). *
 *(Note that after taking the first pen, the number of pens remaining in the bag changes.  So the denominator must change in the second probability fraction.)*
 
 > *Because the total probability is 9/35, those algebraic fractions multiplied together must also be equal to 9/35.*
 
-`fraction numerator open parentheses fraction numerator N plus 3 over denominator 2 end fraction close parentheses over denominator N end fraction space cross times space fraction numerator open parentheses fraction numerator N minus 3 over denominator 2 end fraction close parentheses over denominator N minus 1 end fraction space equals space 9 over 35`
+$\frac{( \frac{N + 3}{2} )}{N} \times \frac{( \frac{N - 3}{2} )}{N - 1} = \frac{9}{35}$
 
 **[1]**
 
 > *Now rearrange into a quadratic equation you can solve.*
 
-`fraction numerator N plus 3 over denominator 2 N end fraction space cross times space fraction numerator N minus 3 over denominator 2 open parentheses N minus 1 close parentheses end fraction space equals space 9 over 35
+$\frac{N + 3}{2 N} \times \frac{N - 3}{2 ( N - 1 )} = \frac{9}{35} 
 
-fraction numerator open parentheses N plus 3 close parentheses open parentheses N minus 3 close parentheses over denominator 2 N open parentheses 2 open parentheses N minus 1 close parentheses close parentheses end fraction space space equals space 9 over 35
+ \frac{( N + 3 ) ( N - 3 )}{2 N ( 2 ( N - 1 ) )} = \frac{9}{35} 
 
-fraction numerator N squared space minus space 9 over denominator 2 N open parentheses 2 N minus 2 close parentheses end fraction space space equals space 9 over 35
+ \frac{N^{2} - 9}{2 N ( 2 N - 2 )} = \frac{9}{35} 
 
-fraction numerator N squared space minus space 9 over denominator 4 N squared space minus space 4 N end fraction space space equals space 9 over 35
+ \frac{N^{2} - 9}{4 N^{2} - 4 N} = \frac{9}{35} 
 
-35 space cross times space open parentheses N squared minus 9 close parentheses space equals space 9 space cross times space open parentheses 4 N squared minus 4 N close parentheses
+35 \times ( N^{2} - 9 ) = 9 \times ( 4 N^{2} - 4 N )
 
-35 N squared space minus space 315 space equals space 36 N squared space minus space 36 N
+35 N^{2} - 315 = 36 N^{2} - 36 N
 
-N squared space minus space 36 N space plus space 315 space equals space 0`
+N^{2} - 36 N + 315 = 0$
 
 **[2] **
 **1 mark for eliminating all the algebraic fractions.  1 mark for fully rearranging into the final quadratic equation form.**
@@ -1373,7 +1369,7 @@ N squared space minus space 36 N space plus space 315 space equals space 0`
 > *Now solve the quadratic equation. *
 *Here it's done by factorising, but you could also use the quadratic formula.*
 
-`open parentheses N space minus space 15 close parentheses open parentheses N space minus space 21 close parentheses space equals space 0`
+$( N - 15 ) ( N - 21 ) = 0$
 
 **N**** = 15  or  ****N**** = 21****  [1]**
 
@@ -1399,15 +1395,15 @@ $\frac{n-4}{n}\times\frac{n-5}{n-1}=\frac{1}{3}$
 
 > *Now rearrange into a quadratic equation you can solve.*
 
-`fraction numerator open parentheses n minus 4 close parentheses open parentheses n minus 5 close parentheses over denominator n open parentheses n minus 1 close parentheses end fraction space equals space 1 third
+$\frac{( n - 4 ) ( n - 5 )}{n ( n - 1 )} = 1 \frac{1}{3}
 
-fraction numerator n squared minus 9 n plus 20 over denominator n squared minus n end fraction space equals space 1 third
+ \frac{n^{2} - 9 n + 20}{n^{2} - n} = 1 \frac{1}{3}
 
-3 space cross times space open parentheses n squared minus 9 n plus 20 close parentheses space equals space 1 space cross times space open parentheses n squared minus n close parentheses
+3 \times ( n^{2} - 9 n + 20 ) = 1 \times ( n^{2} - n )
 
-3 n squared space minus space 27 n space plus space 60 space equals space n squared space minus n
+3 n^{2} - 27 n + 60 = n^{2} - n
 
-2 n squared space minus space 26 n space plus space 60 space equals space 0`
+2 n^{2} - 26 n + 60 = 0$
 
 **[2] **
 **1 mark for eliminating all the algebraic fractions.  **
@@ -1417,11 +1413,11 @@ fraction numerator n squared minus 9 n plus 20 over denominator n squared minus 
 *Here it's done by factorising, but you could also use the quadratic formula. *
 *With either method, it is easiest to start by dividing everything in the equation by 2. *
 
-`n squared space minus space 13 n space plus space 30 space equals space 0
+$n^{2} - 13 n + 30 = 0
 
-open parentheses n minus 10 close parentheses open parentheses n minus 3 close parentheses space equals space 0
+( n - 10 ) ( n - 3 ) = 0
 
-n equals space 10 space space space or space space space n space equals space 3`
+n = 10 \text{or} n = 3$
 
 **[1]**
 
@@ -1502,7 +1498,7 @@ $\frac{3}{124}$**  [1]**
 ### 22() — 4 marks
 > *First find the probability that Liz picks a blue ball.*
 
-`straight P open parentheses Liz space picks space straight a space blue space ball close parentheses space equals space fraction numerator 9 over denominator 9 plus 18 end fraction space equals space 9 over 27 space equals space 1 third`
+$\mathrm{P} ( \text{Liz} \text{picks} \mathrm{a} \text{blue} \text{ball} ) = \frac{9}{9 + 18} = \frac{9}{27} = 1 \frac{1}{3}$
 
 **[1]**
 
@@ -1534,29 +1530,29 @@ $\frac{22}{66}=\frac{22\times1}{22\times3}=\frac{1}{3}$
 
 > *This lets us set up two equations in **R** and **t** using the given probabilities.*
 
-`table row cell fraction numerator R minus 1 over denominator t minus 1 end fraction space end cell equals cell space 2 over 3 end cell row cell 3 space cross times open parentheses R minus 1 close parentheses space end cell equals cell space 2 space cross times open parentheses t minus 1 close parentheses end cell row cell 3 R space minus space 3 space end cell equals cell space 2 t space minus space 2 end cell row cell 2 t space end cell equals cell space 3 R space minus 1 end cell row blank blank blank row cell fraction numerator R over denominator t minus 1 end fraction space end cell equals cell space 7 over 10 end cell row cell R space end cell equals cell space 7 over 10 open parentheses t minus 1 close parentheses end cell end table`
+$\begin{gathered} \frac{R - 1}{t - 1} & = \frac{2}{3} \\ 3 \times ( R - 1 ) & = 2 \times ( t - 1 ) \\ 3 R - 3 & = 2 t - 2 \\ 2 t & = 3 R - 1 \\ \\ \frac{R}{t - 1} & = \frac{7}{10} \\ R & = \frac{7}{10} ( t - 1 ) \end{gathered}$
 
 **[2] **
 **1 mark for either original probability equation correct.**
 ** 1 mark for simplifying both equations to get t out of the denominators.**
 
-> *That gives a pair of simultaneous equations in **t **and **R.** Now substitute  *`table row cell R space end cell equals cell space 7 over 10 open parentheses t minus 1 close parentheses end cell end table`*  into  *`table row cell 2 t space end cell equals cell space 3 R space minus 1 end cell end table`*, and solve to find the value of **t**.*
+> *That gives a pair of simultaneous equations in **t **and **R.** Now substitute  *$\begin{gathered} R & = \frac{7}{10} ( t - 1 ) \end{gathered}$*  into  *$\begin{gathered} 2 t & = 3 R - 1 \end{gathered}$*, and solve to find the value of **t**.*
 
-`2 t space equals space 3 open parentheses 7 over 10 open parentheses t minus 1 close parentheses close parentheses space minus 1
+$2 t = 3 ( \frac{7}{10} ( t - 1 ) ) - 1
 
-2 t space equals space 21 over 10 open parentheses t minus 1 close parentheses space minus 1
+2 t = \frac{21}{10} ( t - 1 ) - 1
 
-now space multiply space both space sides space by space 10
+\text{now} \text{multiply} \text{both} \text{sides} \text{by} 10
 
-20 t space equals space 21 open parentheses t minus 1 close parentheses space minus space 10
+20 t = 21 ( t - 1 ) - 10
 
-20 t space equals space 21 t space minus space 21 space minus space 10
+20 t = 21 t - 21 - 10
 
-20 t space equals space 21 t space minus space 31
+20 t = 21 t - 31
 
-31 space equals space 21 t space minus space 20 t
+31 = 21 t - 20 t
 
-31 space equals space t`
+31 = t$
 
 **[1] **
 **This mark is for any correct method for trying to solve the simultaneous equations in order to find the value of t.**
@@ -1579,13 +1575,13 @@ now space multiply space both space sides space by space 10
 
 > *Set an equation using the 'AND' and 'OR' rules for probability*
 
-`open square brackets straight P open parentheses 1 st space R close parentheses cross times P open parentheses 2 nd space B space if space 1 st space R close parentheses close square brackets plus open square brackets P open parentheses 1 st space B close parentheses cross times P open parentheses 2 nd space R space if space 1 st space B close parentheses close square brackets equals 7 over 15`
+$[ \mathrm{P} ( 1 \text{st} R ) \times P ( 2 \text{nd} B \text{if} 1 \text{st} R ) ] + [ P ( 1 \text{st} B ) \times P ( 2 \text{nd} R \text{if} 1 \text{st} B ) ] = \frac{7}{15}$
 
 > *Using *$x$* to represent the the total number of counters, write expressions for the probability of choosing a red counter and the probability of choosing a blue counter*
 
-`P open parentheses 1 st space R close parentheses equals 7 over x`
+$P ( 1 \text{st} R ) = \frac{7}{x}$
 
-`P open parentheses 1 st space B close parentheses equals fraction numerator x minus 7 over denominator x end fraction`
+$P ( 1 \text{st} B ) = \frac{x - 7}{x}$
 
 **[M1]**
 
@@ -1593,23 +1589,23 @@ now space multiply space both space sides space by space 10
 
 > *Use *$x-1$* as the denominator for the probabilities for the second counter, as there is then one less counter to select from*
 
-`open parentheses 7 over x cross times fraction numerator x minus 7 over denominator x minus 1 end fraction close parentheses plus open parentheses fraction numerator x minus 7 over denominator x end fraction cross times fraction numerator 7 over denominator x minus 1 end fraction close parentheses equals 7 over 15`
+$( \frac{7}{x} \times \frac{x - 7}{x - 1} ) + ( \frac{x - 7}{x} \times \frac{7}{x - 1} ) = \frac{7}{15}$
 
 **[M1]**
 
 > *Simplify the algebraic fractions on the left side of the equation*
 
-`table row cell fraction numerator 7 open parentheses x minus 7 close parentheses over denominator x open parentheses x minus 1 close parentheses end fraction plus fraction numerator 7 open parentheses x minus 7 close parentheses over denominator x open parentheses x minus 1 close parentheses end fraction end cell equals cell 7 over 15 end cell row cell fraction numerator 7 open parentheses x minus 7 close parentheses plus 7 open parentheses x minus 7 close parentheses over denominator x open parentheses x minus 1 close parentheses end fraction end cell equals cell 7 over 15 end cell row cell fraction numerator 7 x minus 49 plus 7 x minus 49 over denominator x squared minus x end fraction end cell equals cell 7 over 15 end cell row cell fraction numerator 14 x minus 98 over denominator x squared minus x end fraction end cell equals cell 7 over 15 end cell row blank blank blank end table`
+$\begin{gathered} \frac{7 ( x - 7 )}{x ( x - 1 )} + \frac{7 ( x - 7 )}{x ( x - 1 )} & = \frac{7}{15} \\ \frac{7 ( x - 7 ) + 7 ( x - 7 )}{x ( x - 1 )} & = \frac{7}{15} \\ \frac{7 x - 49 + 7 x - 49}{x^{2} - x} & = \frac{7}{15} \\ \frac{14 x - 98}{x^{2} - x} & = \frac{7}{15} \\ \end{gathered}$
 
 > *Cross multiply and rearrange to form a quadratic equation*
 
-`table row cell 15 open parentheses 14 x minus 98 close parentheses end cell equals cell 7 open parentheses x squared minus x close parentheses end cell row cell 210 x minus 1470 end cell equals cell 7 x squared minus 7 x end cell row 0 equals cell 7 x squared minus 217 x plus 1470 end cell end table`
+$\begin{gathered} 15 ( 14 x - 98 ) & = 7 ( x^{2} - x ) \\ 210 x - 1470 & = 7 x^{2} - 7 x \\ 0 = 7 x^{2} - 217 x + 1470 \end{gathered}$
 
 **[M1]**
 
 > *Divide through by the highest common factor of 7 and then solve by factorising*
 
-`table row cell x squared minus 31 x plus 210 end cell equals 0 row cell open parentheses x minus 21 close parentheses open parentheses x minus 10 close parentheses end cell equals 0 row blank blank blank end table`
+$\begin{gathered} x^{2} - 31 x + 210 & = 0 \\ ( x - 21 ) ( x - 10 ) & = 0 \\ \end{gathered}$
 
 $x=21$* or *$x=10$
 

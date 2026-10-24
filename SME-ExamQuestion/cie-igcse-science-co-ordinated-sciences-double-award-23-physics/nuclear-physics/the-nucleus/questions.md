@@ -34,7 +34,7 @@ For the atom to be neutral, which statement about the atom **must** be correct?
 
 The nuclide notation for a generic element is given below:
 
-`bold X presubscript straight Z presuperscript straight A`
+$X pre_{Z} pre^{A}$
 
 Which of the following is the correct definition of each of the terms?
 

@@ -61,13 +61,13 @@ $m-2p=\sqrt{\frac{x}{y}}$
 
 > *Square both sides*
 
-`open parentheses m minus 2 p close parentheses squared equals x over y`
+$( m - 2 p )^{2} = \frac{x}{y}$
 
 **[1]**
 
 > *Multiply both sides by *$y$
 
-`y open parentheses m minus 2 p close parentheses squared equals x`
+$y ( m - 2 p )^{2} = x$
 
 $x=y(m-2p)^{2}$ **[1]**
 
@@ -120,7 +120,7 @@ $s=14$ **[1]**
 
 ii) *Square both sides of the formula*
 
-> *  *`s squared equals open parentheses square root of 19.6 cross times h end root close parentheses squared`
+> *  *$s^{2} = ( \sqrt{19.6 \times h} )^{2}$
 
 **[1]***  *
 
@@ -272,6 +272,6 @@ $2y+7=5x$
 
 > *Get *$x$* on its own by dividing both sides by 5.*
 
-`table row cell fraction numerator 2 y plus 7 over denominator 5 end fraction end cell equals cell fraction numerator 5 x over denominator 5 end fraction end cell row blank blank blank row cell fraction numerator 2 y plus 7 over denominator 5 end fraction end cell equals x end table`
+$\begin{gathered} \frac{2 y + 7}{5} & = \frac{5 x}{5} \\ \\ \frac{2 y + 7}{5} & = x \end{gathered}$
 
 $x=\frac{2y+7}{5}$* ***[1]**

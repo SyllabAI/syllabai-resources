@@ -122,7 +122,7 @@ guided_study: false
 > 
 >   - Add the inventory values together and then divide by 2
 > 
-> `fraction numerator $ 60 space 000 plus $ 75 space 000 over denominator 2 end fraction equals $ 67 space 500`
+> $\frac{\$ 60 000 + \$ 75 000}{2} = \$ 67 500$
 > 
 > - Calculate the cost of sales
 > 

@@ -52,7 +52,7 @@ guided_study: true
 > **Worked Example**
 > Complete the nuclear equation for the decay of fluorine-18 to an isotope of oxygen by the emission of a β<sup>+</sup> particle.
 > 
-> `straight F presubscript 9 presuperscript 18 space space rightwards arrow space space straight O`
+> `F _ 9 ^ 18 -> O`
 > 
 > **Answer:**
 > 
@@ -60,13 +60,13 @@ guided_study: true
 > 
 > - **Reactant**:
 > 
->   - Fluorine** **`straight F presubscript 9 presuperscript 18`
+>   - Fluorine** **`F _ 9 ^ 18`
 > - **Products: **
 > 
->   - Oxygen, `straight O presubscript 8 presuperscript 18`
->   - Beta-plus (positron), `straight beta presubscript plus 1 end presubscript presuperscript 0`
+>   - Oxygen, `O _ 8 ^ 18`
+>   - Beta-plus (positron), `beta _ + 1 ^ 0`
 >   - Electron neutrino, $ν_{e}$
 > 
 > **Step 2: Complete the nuclear equation**
 > 
-> `straight F presubscript 9 presuperscript 18 space space rightwards arrow space space straight O presubscript 8 presuperscript 18 space plus space straight beta presubscript plus 1 end presubscript presuperscript 0 space plus space nu subscript e`
+> `F _ 9 ^ 18 -> O _ 8 ^ 18 + beta _ + 1 ^ 0 + nu _ e`

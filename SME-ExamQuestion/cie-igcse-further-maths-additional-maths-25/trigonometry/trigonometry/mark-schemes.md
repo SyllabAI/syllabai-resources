@@ -8,7 +8,7 @@
 ### Q1
 > *Multiply *$A$* and *$B$* together*
 
-`A B equals open parentheses fraction numerator tan space x over denominator 1 plus sec space x end fraction close parentheses open parentheses fraction numerator tan space x over denominator 1 minus sec space x end fraction close parentheses`
+$A B = ( \frac{\tan x}{1 + \sec x} ) ( \frac{\tan x}{1 - \sec x} )$
 
 > *Expand out the brackets in the numerator and the denominator (using the difference between two squares)*
 
@@ -18,7 +18,7 @@ $AB=\frac{\mathrm{tan}^{2}x}{1-\mathrm{sec}^{2}x}$
 
 > *Use the identity *$1+\mathrm{tan}^{2}x=\mathrm{sec}^{2}x$* in the denominator and simplify*
 
-`table row cell A B end cell equals cell fraction numerator tan squared x over denominator 1 minus open parentheses 1 plus tan squared x close parentheses end fraction end cell row blank equals cell fraction numerator tan squared x over denominator 1 minus 1 minus tan squared x end fraction end cell row blank equals cell fraction numerator tan squared x over denominator negative tan squared x end fraction end cell row blank equals cell negative 1 end cell end table`
+$\begin{gathered} A B & = \frac{\tan ^{2} x}{1 - ( 1 + \tan ^{2} x )} \\ = \frac{\tan ^{2} x}{1 - 1 - \tan ^{2} x} \\ = \frac{\tan ^{2} x}{- \tan ^{2} x} \\ = - 1 \end{gathered}$
 
 $AB=-1$
 
@@ -33,13 +33,13 @@ $AB=-1$
 
 > *Use the identity *$\mathrm{tan}x=\frac{\mathrm{sin}x}{\mathrm{cos}x}$* and that *$\mathrm{sec}x=\frac{1}{\mathrm{cos}x}$*, then multiply top and bottom by *$\mathrm{cos}^{2}x$
 
-`A B equals fraction numerator open parentheses fraction numerator sin squared x over denominator cos squared x end fraction close parentheses over denominator 1 minus fraction numerator 1 over denominator cos squared x end fraction end fraction
-equals fraction numerator open parentheses fraction numerator sin squared x over denominator cos squared x end fraction close parentheses cross times cos squared x over denominator open parentheses 1 minus fraction numerator 1 over denominator cos squared x end fraction close parentheses cross times cos squared x end fraction
-equals fraction numerator sin squared x over denominator cos squared x minus 1 end fraction`
+$A B = \frac{( \frac{\sin ^{2} x}{\cos ^{2} x} )}{1 - \frac{1}{\cos ^{2} x}} 
+= \frac{( \frac{\sin ^{2} x}{\cos ^{2} x} ) \times \cos ^{2} x}{( 1 - \frac{1}{\cos ^{2} x} ) \times \cos ^{2} x} 
+= \frac{\sin ^{2} x}{\cos ^{2} x - 1}$
 
 > *Then use the identity *$\mathrm{cos}^{2}x=1-\mathrm{sin}^{2}x$* in the denominator*
 
-`table row cell A B end cell equals cell fraction numerator sin squared x over denominator open parentheses 1 minus sin squared x close parentheses minus 1 end fraction end cell row blank equals cell fraction numerator sin squared x over denominator negative sin squared x end fraction end cell row blank equals cell negative 1 end cell end table`
+$\begin{gathered} A B & = \frac{\sin ^{2} x}{( 1 - \sin ^{2} x ) - 1} \\ = \frac{\sin ^{2} x}{- \sin ^{2} x} \\ = - 1 \end{gathered}$
 
 $AB=-1$
 
@@ -57,19 +57,19 @@ $A+B=\frac{\mathrm{tan}x}{1+\mathrm{sec}x}+\frac{\mathrm{tan}x}{1-\mathrm{sec}x}
 
 > *Add the algebraic fractions on the right-hand side (by putting them over the lowest common denominator)*
 
-`table row cell A plus B end cell equals cell fraction numerator tan space x open parentheses 1 minus sec space x close parentheses over denominator open parentheses 1 plus sec space x close parentheses open parentheses 1 minus sec space x close parentheses end fraction plus fraction numerator tan space x open parentheses 1 plus sec space x close parentheses over denominator open parentheses 1 plus sec space x close parentheses open parentheses 1 minus sec space x close parentheses end fraction end cell row blank equals cell fraction numerator tan space x open parentheses 1 minus sec space x close parentheses plus tan space x open parentheses 1 plus sec space x close parentheses over denominator open parentheses 1 plus sec space x close parentheses open parentheses 1 minus sec space x close parentheses end fraction end cell end table`
+$\begin{gathered} A + B & = \frac{\tan x ( 1 - \sec x )}{( 1 + \sec x ) ( 1 - \sec x )} + \frac{\tan x ( 1 + \sec x )}{( 1 + \sec x ) ( 1 - \sec x )} \\ = \frac{\tan x ( 1 - \sec x ) + \tan x ( 1 + \sec x )}{( 1 + \sec x ) ( 1 - \sec x )} \end{gathered}$
 
 **[M1 A1]**
 
 > *Expand out the brackets in the numerator and the denominator (using the difference between two squares)*
 
-`table row cell A plus B end cell equals cell fraction numerator tan space x up diagonal strike negative tan space x sec space x end strike plus tan space x plus up diagonal strike tan space x sec space x end strike over denominator 1 minus sec squared x end fraction end cell row blank equals cell fraction numerator 2 tan space x over denominator 1 minus sec squared x end fraction end cell end table`
+$\begin{gathered} A + B & = \frac{\tan x \cancel{- \tan x \sec x} + \tan x + \cancel{\tan x \sec x} }{1 - \sec ^{2} x} \\ = \frac{2 \tan x}{1 - \sec ^{2} x} \end{gathered}$
 
 **[M1]**
 
 > *Use the identity *$1+\mathrm{tan}^{2}x=\mathrm{sec}^{2}x$* in the denominator and simplify*
 
-`table row cell A plus B end cell equals cell fraction numerator 2 tan space x over denominator 1 minus open parentheses 1 plus tan squared x close parentheses end fraction end cell row blank equals cell fraction numerator 2 tan space x over denominator 1 minus 1 minus tan squared x end fraction end cell row blank equals cell fraction numerator 2 tan space x over denominator negative tan squared x end fraction end cell row blank equals cell negative fraction numerator 2 over denominator tan space x end fraction end cell row blank equals cell negative 2 cot space x end cell end table`
+$\begin{gathered} A + B & = \frac{2 \tan x}{1 - ( 1 + \tan ^{2} x )} \\ = \frac{2 \tan x}{1 - 1 - \tan ^{2} x} \\ = \frac{2 \tan x}{- \tan ^{2} x} \\ = - \frac{2}{\tan x} \\ = - 2 \cot x \end{gathered}$
 
 $A+B=-2\mathrm{cot}x$
 
@@ -90,19 +90,19 @@ $A+B=\frac{\mathrm{sin}x}{\mathrm{cos}x+1}+\frac{\mathrm{sin}x}{\mathrm{cos}x-1}
 
 > *Add the algebraic fractions on the right-hand side (by putting them over the lowest common denominator)*
 
-`table row cell A plus B end cell equals cell fraction numerator sin space x open parentheses cos space x minus 1 close parentheses over denominator open parentheses cos space x plus 1 close parentheses open parentheses cos space x minus 1 close parentheses end fraction plus fraction numerator sin space x open parentheses cos space x plus 1 close parentheses over denominator open parentheses cos space x plus 1 close parentheses open parentheses cos space x minus 1 close parentheses end fraction end cell row blank equals cell fraction numerator sin space x open parentheses cos space x minus 1 close parentheses plus sin space x open parentheses cos space x plus 1 close parentheses over denominator open parentheses cos space x plus 1 close parentheses open parentheses cos space x minus 1 close parentheses end fraction end cell end table`
+$\begin{gathered} A + B & = \frac{\sin x ( \cos x - 1 )}{( \cos x + 1 ) ( \cos x - 1 )} + \frac{\sin x ( \cos x + 1 )}{( \cos x + 1 ) ( \cos x - 1 )} \\ = \frac{\sin x ( \cos x - 1 ) + \sin x ( \cos x + 1 )}{( \cos x + 1 ) ( \cos x - 1 )} \end{gathered}$
 
 **[M1 A1]**
 
 > *Expand out the brackets in the numerator and the denominator (using the difference between two squares)*
 
-`table row cell A plus B end cell equals cell fraction numerator sin space x cos space x up diagonal strike negative sin space x end strike plus sin space x cos space x plus up diagonal strike sin space x end strike over denominator cos squared x minus 1 end fraction end cell row blank equals cell fraction numerator 2 sin space x cos space x over denominator cos squared x minus 1 end fraction end cell end table`
+$\begin{gathered} A + B & = \frac{\sin x \cos x \cancel{- \sin x} + \sin x \cos x + \cancel{\sin x} }{\cos ^{2} x - 1} \\ = \frac{2 \sin x \cos x}{\cos ^{2} x - 1} \end{gathered}$
 
 **[M1]**
 
 > *Then use the identity *$\mathrm{cos}^{2}x=1-\mathrm{sin}^{2}x$* in the denominator*
 
-`table row cell A plus B end cell equals cell fraction numerator 2 sin space x cos space x over denominator open parentheses 1 minus sin squared x close parentheses minus 1 end fraction end cell row blank equals cell fraction numerator 2 sin space x cos space x over denominator negative sin squared x end fraction end cell row blank equals cell fraction numerator 2 cos space x over denominator sin space x end fraction end cell end table`
+$\begin{gathered} A + B & = \frac{2 \sin x \cos x}{( 1 - \sin ^{2} x ) - 1} \\ = \frac{2 \sin x \cos x}{- \sin ^{2} x} \\ = \frac{2 \cos x}{\sin x} \end{gathered}$
 
 > *Now use the identity that *$\mathrm{cot}x=\frac{\mathrm{cos}x}{\mathrm{sin}x}$
 
@@ -112,37 +112,37 @@ $A+B=-2\mathrm{cot}x$
 
 > **[mark-scheme]**
 > The last mark comes from showing how the identity leads to the answer given in the question (no marks are awarded for just writing down the "show that" answer).
-> *Start by simplifying *`open parentheses A plus 1 close parentheses open parentheses B plus 1 close parentheses`*, e.g. expand the brackets*
+> *Start by simplifying *$( A + 1 ) ( B + 1 )$*, e.g. expand the brackets*
 
-`open parentheses A plus 1 close parentheses open parentheses B plus 1 close parentheses equals A B plus A plus B plus 1`
+$( A + 1 ) ( B + 1 ) = A B + A + B + 1$
 
 > *Substitute in *$AB=-1$* from part (a) and *$A+B=-2\mathrm{cot}x$* from part (b) and simplify*
 
-`table row cell open parentheses A plus 1 close parentheses open parentheses B plus 1 close parentheses end cell equals cell negative 1 plus open parentheses negative 2 cot space x close parentheses plus 1 end cell row blank equals cell negative 2 cot space x end cell end table`
+$\begin{gathered} ( A + 1 ) ( B + 1 ) & = - 1 + ( - 2 \cot x ) + 1 \\ = - 2 \cot x \end{gathered}$
 
 **[M1 A1]**
 
 > *This gives the following identity*
 
-`open parentheses fraction numerator tan space x over denominator 1 plus sec space x end fraction plus 1 close parentheses open parentheses fraction numerator tan space x over denominator 1 minus sec space x end fraction plus 1 close parentheses equals negative 2 cot space x`
+$( \frac{\tan x}{1 + \sec x} + 1 ) ( \frac{\tan x}{1 - \sec x} + 1 ) = - 2 \cot x$
 
-> *Change the arguments in the identity from *$x$* to *`open parentheses x minus 60 close parentheses`* (this does not affect the identity)*
+> *Change the arguments in the identity from *$x$* to *$( x - 60 )$* (this does not affect the identity)*
 
-`open parentheses fraction numerator tan open parentheses x minus 60 close parentheses over denominator 1 plus sec open parentheses x minus 60 close parentheses end fraction plus 1 close parentheses open parentheses fraction numerator tan open parentheses x minus 60 close parentheses over denominator 1 minus sec open parentheses x minus 60 close parentheses end fraction plus 1 close parentheses equals negative 2 cot open parentheses x minus 60 close parentheses`
+$( \frac{\tan ( x - 60 )}{1 + \sec ( x - 60 )} + 1 ) ( \frac{\tan ( x - 60 )}{1 - \sec ( x - 60 )} + 1 ) = - 2 \cot ( x - 60 )$
 
 > *Use this new identity to simplify the left-hand side of the equation given in the question*
 
-`negative 2 cot open parentheses x minus 60 close parentheses equals 2 square root of 3`
+$- 2 \cot ( x - 60 ) = 2 \sqrt{3}$
 
-> *Solve this equation by first making *`tan open parentheses x minus 60 close parentheses`* the subject*
+> *Solve this equation by first making *$\tan ( x - 60 )$* the subject*
 
-`table row cell negative fraction numerator 2 over denominator tan open parentheses x minus 60 close parentheses end fraction end cell equals cell 2 square root of 3 end cell row cell negative fraction numerator 1 over denominator square root of 3 end fraction end cell equals cell tan open parentheses x minus 60 close parentheses end cell end table`
+$\begin{gathered} - \frac{2}{\tan ( x - 60 )} & = 2 \sqrt{3} \\ - \frac{1}{ \sqrt{3} } & = \tan ( x - 60 ) \end{gathered}$
 
 **[A1]**
 
-> *Note that *$\frac{1}{\sqrt{3}}=\frac{1}{\sqrt{3}}\times\frac{\sqrt{3}}{\sqrt{3}}=\frac{\sqrt{3}}{3}$* and that *`tan open parentheses negative 30 close parentheses equals negative fraction numerator square root of 3 over denominator 3 end fraction`* (an exact trig value)*
+> *Note that *$\frac{1}{\sqrt{3}}=\frac{1}{\sqrt{3}}\times\frac{\sqrt{3}}{\sqrt{3}}=\frac{\sqrt{3}}{3}$* and that *$\tan ( - 30 ) = - \frac{ \sqrt{3} }{3}$* (an exact trig value)*
 
-`table row cell x minus 60 end cell equals cell negative 30 comma space minus 30 plus-or-minus 180 comma space minus 30 plus-or-minus 2 cross times 180 comma space... end cell row cell x minus 60 end cell equals cell negative 30 comma space minus 210 comma space 150 comma space... end cell row x equals cell negative 30 plus 60 comma space minus 210 plus 60 comma space 150 plus 60 comma space... end cell row x equals cell 30 comma space minus 150 comma space 210 comma space... end cell end table`
+$\begin{gathered} x - 60 & = - 30 , - 30 \pm 180 , - 30 \pm 2 \times 180 , ... \\ x - 60 & = - 30 , - 210 , 150 , ... \\ x = - 30 + 60 , - 210 + 60 , 150 + 60 , ... \\ x = 30 , - 150 , 210 , ... \end{gathered}$
 
 > *Find the solutions in the range *$-180^{\circ}<x<180^{\circ}$
 
@@ -163,49 +163,49 @@ $\frac{2π}{b}=16π$
 
 > *Solve for *$b$
 
-`table row 2 equals cell 16 b end cell row b equals cell 1 over 8 end cell end table`
+$\begin{gathered} 2 = 16 b \\ b = \frac{1}{8} \end{gathered}$
 
 **[B1]**
 
-> *Substitute *$x=12π$* and *$y=4$* into *`y equals 10 sin open parentheses x over 8 close parentheses plus c`
+> *Substitute *$x=12π$* and *$y=4$* into *$y = 10 \sin ( \frac{x}{8} ) + c$
 
-`4 equals 10 sin open parentheses fraction numerator 12 pi over denominator 8 end fraction close parentheses plus c`
+$4 = 10 \sin ( \frac{12 \pi }{8} ) + c$
 
 **[M1]**
 
 > **[mark-scheme]**
 > This mark is for substituting $x=12π$ and $y=4$ into your $y=a\mathrm{sin}bx+c$ ($a$, $b$ and $c$ do not have to be correct to get this mark).
 
-> *Simplify and use the exact trig value that *`sin open parentheses fraction numerator 3 pi over denominator 2 end fraction close parentheses equals negative 1`
+> *Simplify and use the exact trig value that *$\sin ( \frac{3 \pi }{2} ) = - 1$
 
-`table row 4 equals cell 10 sin open parentheses fraction numerator 3 pi over denominator 2 end fraction close parentheses plus c end cell row 4 equals cell 10 open parentheses negative 1 close parentheses plus c end cell row 14 equals c end table`
+$\begin{gathered} 4 = 10 \sin ( \frac{3 \pi }{2} ) + c \\ 4 = 10 ( - 1 ) + c \\ 14 = c \end{gathered}$
 
 **[A1]**
 
 > *Present all the solutions from above*
 
 **Final answer:** $a=10$**, **$b=\frac{1}{8}$** and **$c=14$
-> *The graph of *`y equals tan open parentheses x over 2 close parentheses`* is the graph of *$y=\mathrm{tan}x$* after a horizontal stretch of scale factor 2 (i.e. has asymptotes at *$x=\pmπ$*)*
+> *The graph of *$y = \tan ( \frac{x}{2} )$* is the graph of *$y=\mathrm{tan}x$* after a horizontal stretch of scale factor 2 (i.e. has asymptotes at *$x=\pmπ$*)*
 
-> *The graph of *`y equals tan open parentheses x over 2 close parentheses plus 1`* is the graph of *`y equals tan open parentheses x over 2 close parentheses`* translated upwards by 1 unit (asymptotes are not affect)*
+> *The graph of *$y = \tan ( \frac{x}{2} ) + 1$* is the graph of *$y = \tan ( \frac{x}{2} )$* translated upwards by 1 unit (asymptotes are not affect)*
 
-> *Sketch the graph of *`y equals tan open parentheses x over 2 close parentheses plus 1`
+> *Sketch the graph of *$y = \tan ( \frac{x}{2} ) + 1$
 
 ![The graph of y=tan(x/2)+1 with vertical asymptotes at x=-pi and x=pi and a y-intercept of 1.](assets/001-the-graph-of-y-tan-x-2-1-with-vertical-asymptote.png)
 
 > *Find the coordinate of the *$x$*-intercept (by setting *$y=0$* and solving)*
 
-`table row cell tan open parentheses x over 2 close parentheses plus 1 end cell equals 0 row cell tan open parentheses x over 2 close parentheses end cell equals cell negative 1 end cell end table`
+$\begin{gathered} \tan ( \frac{x}{2} ) + 1 & = 0 \\ \tan ( \frac{x}{2} ) & = - 1 \end{gathered}$
 
 **[M1]**
 
-> *Use the exact trig value *`tan open parentheses negative pi over 4 close parentheses equals negative 1`* to solve for *$x$
+> *Use the exact trig value *$\tan ( - \frac{\pi }{4} ) = - 1$* to solve for *$x$
 
-`table row cell x over 2 end cell equals cell negative pi over 4 end cell row x equals cell negative pi over 2 end cell end table`
+$\begin{gathered} \frac{x}{2} & = - \frac{\pi }{4} \\ x = - \frac{\pi }{2} \end{gathered}$
 
 **[A1]**
 
-> *Apply the modulus transformation to *`y equals tan open parentheses x over 2 close parentheses plus 1`* (reflecting any part below the axis)*
+> *Apply the modulus transformation to *$y = \tan ( \frac{x}{2} ) + 1$* (reflecting any part below the axis)*
 
 ![Graph of y equals the absolute value of tan(x/2) plus 1; shows asymptotes at x equals negative pi and pi, the tan shape with the correct reflection in the x-axis, a y-intercept of 1 and an x-intercept of -pi/2.](assets/002-graph-of-y-equals-the-absolute-value-of-tan-x-2-.png)
 
@@ -219,7 +219,7 @@ $\frac{2π}{b}=16π$
 ### Q3
 i) *Looking at the left hand side and finding a common denominator gives  *
 
-`fraction numerator 1 over denominator sec space theta minus 1 end fraction minus space fraction numerator 1 over denominator sec space theta space plus 1 end fraction equals fraction numerator sec space theta space plus space 1 space minus space open parentheses sec space theta space minus space 1 close parentheses over denominator open parentheses sec space theta space minus space 1 close parentheses open parentheses sec space theta space plus 1 close parentheses end fraction`
+$\frac{1}{\sec \\theta - 1} - \frac{1}{\sec \\theta + 1} = \frac{\sec \\theta + 1 - ( \sec \\theta - 1 )}{( \sec \\theta - 1 ) ( \sec \\theta + 1 )}$
 
 **[1]**
 
@@ -261,7 +261,7 @@ $\pm\frac{1}{\sqrt{3}}=\mathrm{tan}2x$
 
 > *Using a calculator to find the solutions   *
 
-`tan to the power of negative 1 end exponent open parentheses fraction numerator 1 over denominator square root of 3 end fraction close parentheses space equals space 30 comma space tan to the power of negative 1 end exponent open parentheses negative fraction numerator 1 over denominator square root of 3 end fraction close parentheses space equals space minus 30`
+$\tan ^{- 1} ( \frac{1}{ \sqrt{3} } ) = 30 , \tan ^{- 1} ( - \frac{1}{ \sqrt{3} } ) = - 30$
 
 **[1]**
 
@@ -269,7 +269,7 @@ $\pm\frac{1}{\sqrt{3}}=\mathrm{tan}2x$
 
 > *Using the tan graph, finding the solutions for *$2x$* means using the interval *$-180^{\circ}<2x<180^{\circ}$*. *
 
-> *In general, if *$x^{\circ}$* is an angle that solves *`tan open parentheses x close parentheses space equals space k`*, then** *$x^{\circ}\pm180^{\circ}$* is another angle that solves the same equation, therefore*
+> *In general, if *$x^{\circ}$* is an angle that solves *$\tan ( x ) = k$*, then** *$x^{\circ}\pm180^{\circ}$* is another angle that solves the same equation, therefore*
 
 $2x=-150^{\circ},-30^{\circ},30^{\circ},150^{\circ}$
 
@@ -278,27 +278,27 @@ $x=-75^{\circ},-15^{\circ},15^{\circ},75^{\circ}$
 **1 mark for each correct pair of solutions**** [2]**
 
 ### Q4
-i) *Find a common denominator which will be *`open parentheses sin theta minus 1 close parentheses open parentheses sin theta plus 1 close parentheses`
+i) *Find a common denominator which will be *$( \sin \\theta - 1 ) ( \sin \\theta + 1 )$
 
-> *To write the two fractions over this common denominator, we will need to multiply the numerator and denominator of the first fraction by *`open parentheses s i n theta plus 1 close parentheses`* and the numerator and the denominator of the second fraction by *`open parentheses sin theta minus 1 close parentheses`* giving*
+> *To write the two fractions over this common denominator, we will need to multiply the numerator and denominator of the first fraction by *$( s i n \\theta + 1 )$* and the numerator and the denominator of the second fraction by *$( \sin \\theta - 1 )$* giving*
 
-`fraction numerator sin theta plus 1 over denominator open parentheses sin theta minus 1 close parentheses open parentheses sin theta plus 1 close parentheses end fraction minus fraction numerator sin theta minus 1 over denominator open parentheses sin theta plus 1 close parentheses open parentheses sin theta minus 1 close parentheses end fraction`
+$\frac{\sin \\theta + 1}{( \sin \\theta - 1 ) ( \sin \\theta + 1 )} - \frac{\sin \\theta - 1}{( \sin \\theta + 1 ) ( \sin \\theta - 1 )}$
 
 > *Combine the two separate fractions into one fraction now, since they have the same denominator*
 
-`equals fraction numerator sin theta plus 1 minus open parentheses sin theta minus 1 close parentheses over denominator open parentheses sin theta minus 1 close parentheses open parentheses sin theta plus 1 close parentheses end fraction`
+$= \frac{\sin \\theta + 1 - ( \sin \\theta - 1 )}{( \sin \\theta - 1 ) ( \sin \\theta + 1 )}$
 
 **[1]**
 
 > *Simplify the numerator by expanding the bracket*
 
-`equals fraction numerator sin theta plus 1 minus sin theta plus 1 over denominator open parentheses sin theta minus 1 close parentheses open parentheses sin theta plus 1 close parentheses end fraction`
+$= \frac{\sin \\theta + 1 - \sin \\theta + 1}{( \sin \\theta - 1 ) ( \sin \\theta + 1 )}$
 
 > *Now we can cancel the *$\mathrm{sin}θ$* terms*
 
-`equals fraction numerator 2 over denominator open parentheses sin theta minus 1 close parentheses open parentheses sin theta plus 1 close parentheses end fraction`
+$= \frac{2}{( \sin \\theta - 1 ) ( \sin \\theta + 1 )}$
 
-> *Now we can notice that the denominator is the difference of two squares. Use that *`open parentheses a minus b close parentheses open parentheses a plus b close parentheses equals a squared minus b squared`
+> *Now we can notice that the denominator is the difference of two squares. Use that *$( a - b ) ( a + b ) = a^{2} - b^{2}$
 
 $=\frac{2}{\mathrm{sin}^{2}θ-1}$
 
@@ -353,25 +353,25 @@ $-\frac{2π}{9},-\frac{π}{9},\frac{π}{9},\frac{2π}{9}$ **[2]**
 ### Q5
 > *Start with the left hand side and factorise the difference of two squares*
 
-`fraction numerator sin to the power of 4 y minus cos to the power of 4 y over denominator cot y end fraction equals fraction numerator open parentheses sin squared y minus cos squared y close parentheses open parentheses sin squared y plus cos squared y close parentheses over denominator cot y end fraction`
+$\frac{\sin ^{4} y - \cos ^{4} y}{\cot y} = \frac{( \sin ^{2} y - \cos ^{2} y ) ( \sin ^{2} y + \cos ^{2} y )}{\cot y}$
 
 **[1]**
 
 > $\mathrm{cot}y\equiv\frac{1}{\mathrm{tan}y}$* so*
 
-`equals open parentheses sin squared y minus cos squared y close parentheses open parentheses sin squared y plus cos squared y close parentheses cross times tan y`
+$= ( \sin ^{2} y - \cos ^{2} y ) ( \sin ^{2} y + \cos ^{2} y ) \times \tan y$
 
 **[1]**
 
 > $\mathrm{sin}^{2}y+\mathrm{cos}^{2}y\equiv1$* so*
 
-`equals open parentheses sin squared y minus cos squared y close parentheses cross times tan y`
+$= ( \sin ^{2} y - \cos ^{2} y ) \times \tan y$
 
 **[1]**
 
-`equals open parentheses open parentheses 1 minus cos squared y close parentheses minus cos squared y close parentheses cross times tan y`
+$= ( ( 1 - \cos ^{2} y ) - \cos ^{2} y ) \times \tan y$
 
-`equals open parentheses 1 minus 2 cos squared y close parentheses fraction numerator sin y over denominator cos y end fraction`
+$= ( 1 - 2 \cos ^{2} y ) \frac{\sin y}{\cos y}$
 
 > *Expand the bracket*
 
@@ -396,9 +396,9 @@ $\frac{360^{\circ}}{b}=180^{\circ}$
 
 $b=2$* ***[1]**
 
-> *We now know that *$a=20$* and *$b=20$*. The graph of *`y equals 20 space sin open parentheses 2 x close parentheses`* will cross the *$x$* axis at *`open parentheses 90 degree comma space 0 close parentheses`*.*
+> *We now know that *$a=20$* and *$b=20$*. The graph of *$y = 20 \sin ( 2 x )$* will cross the *$x$* axis at *$( 90^{\circ} , 0 )$*.*
 
-> *Since we are told the graph passes through *`open parentheses 90 degree comma space minus 3 close parentheses`*, we know that the graph has been translated vertically downwards by three units.*
+> *Since we are told the graph passes through *$( 90^{\circ} , - 3 )$*, we know that the graph has been translated vertically downwards by three units.*
 
 > *Therefore:*
 
@@ -413,17 +413,17 @@ $\frac{\mathrm{sin}x\mathrm{tan}x}{1-\mathrm{cos}x}=\frac{\mathrm{sin}x\times\fr
 
 > *Multiply the numerator and denominator by *$\mathrm{cos}x$
 
-`equals fraction numerator sin squared x over denominator cos x open parentheses 1 minus cos x close parentheses end fraction`
+$= \frac{\sin ^{2} x}{\cos x ( 1 - \cos x )}$
 
 > *Use *$\mathrm{sin}^{2}x+\mathrm{cos}^{2}x\equiv1$* in the numerator*
 
-`equals fraction numerator 1 minus cos squared x over denominator cos x open parentheses 1 minus cos x close parentheses end fraction`
+$= \frac{1 - \cos ^{2} x}{\cos x ( 1 - \cos x )}$
 
 **[1]**
 
 > *Factorise the numerator as it is the difference of 2 squares*
 
-`equals fraction numerator open parentheses 1 minus cos x close parentheses open parentheses 1 plus cos x close parentheses over denominator cos x open parentheses 1 minus cos x close parentheses end fraction`
+$= \frac{( 1 - \cos x ) ( 1 + \cos x )}{\cos x ( 1 - \cos x )}$
 
 **[1]**
 
@@ -446,17 +446,17 @@ $-3.53429\leq4B-\frac{π}{8}\leq2.74889$
 
 > *Rearrange the equation in the question.*
 
-`sin open parentheses 4 B minus pi over 8 close parentheses equals negative 2 over 5`
+$\sin ( 4 B - \frac{\pi }{8} ) = - \frac{2}{5}$
 
 > *Inverse sine both sides.*
 
-`4 B minus pi over 8 equals sin to the power of negative 1 end exponent open parentheses negative 2 over 5 close parentheses`
+$4 B - \frac{\pi }{8} = \sin ^{- 1} ( - \frac{2}{5} )$
 
-`open square brackets 1 close square brackets`
+$[ 1 ]$
 
-> *Work out *`sin to the power of negative 1 end exponent open parentheses negative 2 over 5 close parentheses`
+> *Work out *$\sin ^{- 1} ( - \frac{2}{5} )$
 
-`sin to the power of negative 1 end exponent open parentheses negative 2 over 5 close parentheses equals negative 0.4115168`
+$\sin ^{- 1} ( - \frac{2}{5} ) = - 0.4115168$
 
 **[1]**
 
@@ -495,17 +495,17 @@ $B=-0.584$* ***[1]**
 
 > *To get the *$y$* intercept, substitute *$x=0$* into the equation.*
 
-`y equals 3 space tan space open parentheses 0 over 2 close parentheses minus 4
-y equals negative 4`
+$y = 3 \tan ( \frac{0}{2} ) - 4
+y = - 4$
 
 ![0606-23-june-2020-q6b](assets/004-0606-23-june-2020-q6b.png)
 
 **for correct ****tan**** shape**** [1]**
 
-**for correct **$y$** intercept **`open parentheses 0 comma negative 4 close parentheses`** [1]**
+**for correct **$y$** intercept **$( 0 , - 4 )$** [1]**
 
 ### Q10
-> *The coefficient of cos will apply a stretch to *`y equals cos open parentheses x close parentheses`*, scale factor *$a$*, parallel to the *$y$*-axis*
+> *The coefficient of cos will apply a stretch to *$y = \cos ( x )$*, scale factor *$a$*, parallel to the *$y$*-axis*
 
 > *Compare the height of the cos graph to the graph in the question and notice that it is 3 times larger*
 
@@ -513,9 +513,9 @@ $a=3$
 
 **[1]**
 
-> *The coefficient of *$x$* will apply a stretch to *`y equals cos open parentheses x close parentheses`*, scale factor *$\frac{1}{b}$*, parallel to the *$x$*-axis*
+> *The coefficient of *$x$* will apply a stretch to *$y = \cos ( x )$*, scale factor *$\frac{1}{b}$*, parallel to the *$x$*-axis*
 
-> *To find *$b$*, compare the period of 1 wave of the given graph, to the period of *`y equals cos open parentheses x close parentheses`
+> *To find *$b$*, compare the period of 1 wave of the given graph, to the period of *$y = \cos ( x )$
 
 $\frac{2π}{b}=\frac{8π}{3}$
 
@@ -527,7 +527,7 @@ $b=0.75$
 
 > *This should mean that the point (0, 1) is now at (0, 3) but it is not so the graph has been translated 2 units down*
 
-> *The constant will translate the graph of *`y equals cos open parentheses x close parentheses`* through the vector *`open parentheses table row 0 row c end table close parentheses`
+> *The constant will translate the graph of *$y = \cos ( x )$* through the vector *$( \begin{gathered} 0 \\ c \end{gathered} )$
 
 $c=-2$
 
@@ -536,16 +536,16 @@ $a=3,b=0.75,c=-2$ **[1]**
 ### Q11
 > *The amplitude of a trigonometric function is half the distance from the highest point of the curve to the bottom point of the curve.*
 
-> *The graph of *`y space equals space cos open parentheses x close parentheses`* has an amplitude of 1. The function has been translated in the y-direction, stretched in the x-direction, and stretched in the y-direction.*
+> *The graph of *$y = \cos ( x )$* has an amplitude of 1. The function has been translated in the y-direction, stretched in the x-direction, and stretched in the y-direction.*
 
 > *The stretch in the x-direction and the translation will not affect the amplitude. The stretch in the y-direction by a scale factor of 4 means that there is now a distance of 8 units between the highest and the lowest point of the curve. This means we can halve this distance to work out the amplitude.*
 
 **4**** [1]**
-> *The period of *`y space equals space cos open parentheses x close parentheses`* is 360 (how often it repeats itself).*
+> *The period of *$y = \cos ( x )$* is 360 (how often it repeats itself).*
 
 > *The period of the graph is only affected by any transformations in the x direction, transformations in the y direction can be ignored, as can any translations. *
 
-> *The graph of *`y space equals space cos open parentheses b x close parentheses`* has a period of *$\frac{360}{b}$*, and the graph of *`y space equals space cos open parentheses x over 3 close parentheses`* is a stretch in the x-direction by scale factor 3, therefore*
+> *The graph of *$y = \cos ( b x )$* has a period of *$\frac{360}{b}$*, and the graph of *$y = \cos ( \frac{x}{3} )$* is a stretch in the x-direction by scale factor 3, therefore*
 
 $360\div\frac{1}{3}=1080^{\circ}$
 
@@ -556,18 +556,18 @@ $1080^{\circ}$** ****[1]**
 
 > *Substituting x = ±180 into the equation gives y = 3*
 
-`1 plus 4 cos open parentheses fraction numerator plus-or-minus 180 over denominator 3 end fraction close parentheses equals 3`
+$1 + 4 \cos ( \frac{\pm 180}{3} ) = 3$
 
 **symmetrical shape ****[1]**
 
 **correct y-intercept ****[1]**
 
-**graph through **`open parentheses plus-or-minus 180 degree space comma space 3 close parentheses`** ****[1]**
+**graph through **$( \pm 180^{\circ} , 3 )$** ****[1]**
 
 ### Q12
 i) *Looking only at the left-hand side of the equation, and using the reciprocal trig function *$\mathrm{cosec}θ=\frac{1}{\mathrm{sin}θ}$*, we have*
 
-`fraction numerator 1 over denominator open parentheses 1 space plus thin space fraction numerator 1 over denominator sin theta end fraction close parentheses open parentheses sin theta space minus space sin squared theta close parentheses end fraction`
+$\frac{1}{( 1 + \frac{1}{\sin \\theta } ) ( \sin \\theta - \sin ^{2} \\theta )}$
 
 **[1]**
 
@@ -618,42 +618,42 @@ $θ=30^{\circ},150^{\circ}$
 ### Q13
 > *Rewrite the equation as an equation in tan using *$\mathrm{cot}x=\frac{1}{\mathrm{tan}x}$
 
-`table row cell fraction numerator 1 over denominator tan open parentheses y minus pi over 2 close parentheses end fraction end cell equals cell square root of 3 end cell row cell therefore tan open parentheses y minus pi over 2 close parentheses end cell equals cell fraction numerator 1 over denominator square root of 3 end fraction end cell end table`
+`| (1)/(tan ( y - pi / 2 )) | = sqrt( 3 | | therefore tan ( y - pi / 2 ) | = (1)/(sqrt( 3) | |`
 
 **[1]**
 
 > *Use the inverse tan button on your calculator to find *$y-\frac{π}{2}$*- make sure your calculator is in radians!*
 
-`table row cell y minus pi over 2 end cell equals cell tan to the power of negative 1 end exponent open parentheses fraction numerator 1 over denominator square root of 3 end fraction close parentheses end cell row blank equals cell straight pi over 6 end cell end table`
+`| y - pi / 2 | = tan ^ - 1 ( (1)/(sqrt( 3) ) | | _ = pi / 6 | |`
 
 **[1]**
 
 > *Check for other solutions. Adjust the domain*
 
-`table row cell 0 space end cell less or equal than cell space y space less or equal than space pi end cell row cell negative pi over 2 space end cell less or equal than cell space y minus pi over 2 space less or equal than space pi over 2 end cell end table`
+$\begin{gathered} 0 & \text{less} \text{or} \text{equal} \text{than} y \text{less} \text{or} \text{equal} \text{than} \pi \\ - \frac{\pi }{2} & \text{less} \text{or} \text{equal} \text{than} y - \frac{\pi }{2} \text{less} \text{or} \text{equal} \text{than} \frac{\pi }{2} \end{gathered}$
 
-`table row cell straight pi over 6 plus pi end cell greater than cell straight pi over 2 space space and space space straight pi over 6 minus pi less than negative straight pi over 2 space therefore space no space other space solutions space within space the space domain end cell end table`
+`| pi / 6 + pi | greater than pi / 2 and pi / 6 - pi less than - pi / 2 therefore no other solutions within the domain | |`
 
 > *So now we just need to solve *$y-\frac{π}{2}=\frac{π}{6}$
 
-`table row y equals cell pi over 6 plus pi over 2 end cell end table`
+$\begin{gathered} y = \frac{\pi }{6} + \frac{\pi }{2} \end{gathered}$
 
 ** **$\frac{2π}{3}$** ****[1] **
 **"2.09" or "2.09439510..." rounded correctly to at least 3 significant figures is accepted**
 
 ### Q14
-> *For any function in the form *`a c o s open parentheses b x close parentheses plus c`*, the amplitude is given by *$a$
+> *For any function in the form *$a c o s ( b x ) + c$*, the amplitude is given by *$a$
 
 **2** **[1]**
-> *For any function in the form *`a c o s open parentheses b x close parentheses plus c`*, the period is *$\frac{2π}{b}$* in radians or *$\frac{360^{\circ}}{b}$* in degrees. As the units (degrees or radians) is not specified in the question you can use either*
+> *For any function in the form *$a c o s ( b x ) + c$*, the period is *$\frac{2π}{b}$* in radians or *$\frac{360^{\circ}}{b}$* in degrees. As the units (degrees or radians) is not specified in the question you can use either*
 
 > *Radians:*
 
-`table row period equals cell fraction numerator 2 straight pi over denominator 1 third end fraction end cell row blank equals cell 2 straight pi cross times 3 end cell end table`
+$\begin{gathered} \text{period} = \frac{2 \mathrm{\pi } }{1 \frac{1}{3}} \\ = 2 \mathrm{\pi } \times 3 \end{gathered}$
 
 > *Degrees:*
 
-`table row period equals cell fraction numerator 360 degree over denominator 1 third end fraction end cell row blank equals cell 360 degree cross times 3 end cell end table`
+$\begin{gathered} \text{period} = \frac{360^{\circ}}{1 \frac{1}{3}} \\ = 360^{\circ} \times 3 \end{gathered}$
 
 $6π$** or ****1080°** **[1]**
 > *Start by sketching the graph of *$y=\mathrm{cos}x$*. Note that when *$x=\frac{π}{3}$*, *$y=\frac{1}{2}$
@@ -664,26 +664,26 @@ $6π$** or ****1080°** **[1]**
 
 ![VCD6HlwI_cie-spec1-q3c-2](assets/010-vcd6hlwi-cie-spec1-q3c-2.png)
 
-> *The "-1" in *$2\mathrm{cos}\frac{x}{3}-1$* (or the *$c$* in *`a cos open parentheses b x close parentheses plus c`*) tells us that the graph of *$y=2\mathrm{cos}x$* is translated down 1. Note that now, when *$x=\frac{π}{3},y=0$
+> *The "-1" in *$2\mathrm{cos}\frac{x}{3}-1$* (or the *$c$* in *$a \cos ( b x ) + c$*) tells us that the graph of *$y=2\mathrm{cos}x$* is translated down 1. Note that now, when *$x=\frac{π}{3},y=0$
 
 ![NiwPdQ6c_cie-spec1-q3c-3](assets/011-niwpdq6c-cie-spec1-q3c-3.png)
 
 > *We know from part (b) that the period of the graph is *$6π$* rather than *$2π$*. Therefore the graph is stretched by a factor of 3 in the **x**-axis. In other words, the **y**-coordinates stay the same but the **x**-coordinates are multiplied by 3*
 
-> *So *`open parentheses straight pi over 3 comma space 0 close parentheses`* becomes *`open parentheses straight pi comma space 0 close parentheses`*, and *`open parentheses straight pi comma space minus 3 close parentheses`* becomes *`open parentheses 3 straight pi comma space minus 3 close parentheses`
+> *So *`( pi / 3 , 0 )`* becomes *$( \mathrm{\pi } , 0 )$*, and *$( \mathrm{\pi } , - 3 )$* becomes *$( 3 \mathrm{\pi } , - 3 )$
 
 ![diX8mP_S_cie-spec1-q3c-4](assets/012-dix8mp-s-cie-spec1-q3c-4.png)
 
-> *Note that due to the symmetry of the curve, if we know the curve passes through *`open parentheses straight pi comma space 0 close parentheses`* then we should also have it passing through *`open parentheses negative straight pi comma space 0 close parentheses`
+> *Note that due to the symmetry of the curve, if we know the curve passes through *$( \mathrm{\pi } , 0 )$* then we should also have it passing through *$( - \mathrm{\pi } , 0 )$
 
-**curve passing through **`open parentheses negative straight pi comma space 0 close parentheses`** and **`open parentheses 3 straight pi comma space minus 3 close parentheses`** [1]**
+**curve passing through **$( - \mathrm{\pi } , 0 )$** and **$( 3 \mathrm{\pi } , - 3 )$** [1]**
  **correct shape with maximum point on ****y****-axis and a minimum at **$x=3π$** [1]** 
-**passes through **`open parentheses 0 comma space 1 close parentheses`** and **`open parentheses straight pi comma space 0 close parentheses`** with no other positive ****x****-intercepts [1]**
+**passes through **$( 0 , 1 )$** and **$( \mathrm{\pi } , 0 )$** with no other positive ****x****-intercepts [1]**
 
 ### Q15
 > *Use the trigonometric identity *$1+\mathrm{cot}^{2}x=\mathrm{cosec}^{2}x$* to rewrite the equation*
 
-`3 open parentheses cosec squared x minus 1 close parentheses minus 14 cosec x minus 2 equals 0`
+$3 ( cosec^{2} x - 1 ) - 14 \text{cosec} x - 2 = 0$
 
 **[1]**
 
@@ -697,7 +697,7 @@ $3\mathrm{cosec}^{2}x-14\mathrm{cosec}x-5=0$
 
 > *Factorise the quadratic equation*
 
-`open parentheses cosec x minus 5 close parentheses open parentheses 3 cosec x plus 1 close parentheses equals 0`
+$( \text{cosec} x - 5 ) ( 3 \text{cosec} x + 1 ) = 0$
 
 **[1]**
 
@@ -711,11 +711,11 @@ $\mathrm{sin}x=\frac{1}{5}$
 
 **[1]**
 
-`x equals sin to the power of negative 1 end exponent open parentheses 1 fifth close parentheses equals 11.536...`
+$x = \sin ^{- 1} ( 1 \frac{1}{5} ) = 11.536...$
 
 > *Find other solutions in the range*
 
-*or* `x equals open parentheses 180 minus 11.536... close parentheses equals 168.463...`
+*or* $x = ( 180 - 11.536... ) = 168.463...$
 
 > *Solve the first bracket equal to 0*
 
@@ -730,7 +730,7 @@ $\mathrm{sin}x=-3$ *which has no solutions*
 $11.5\mathrm{and}168.5$ **[1]**
 
 ### Q16
-*Since the graph passes through *`open parentheses 0 comma space minus 4 close parentheses`*, we know the the graph of *$\mathrm{tan}x$*has been* *translated 4 units down.*
+*Since the graph passes through *$( 0 , - 4 )$*, we know the the graph of *$\mathrm{tan}x$*has been* *translated 4 units down.*
 
 > *Therefore,*
 
@@ -758,11 +758,11 @@ $b=\frac{3}{8}$* ***[1]**
 ### Q17
 > *Using the trigonometric identity *$\frac{1}{\mathrm{sin}θ}=\mathrm{cosec}θ$
 
-`cosec open parentheses y space plus thin space pi over 3 close parentheses space equals space 2`
+$\text{cosec} ( y + \frac{\pi }{3} ) = 2$
 
 > *Becomes*
 
-`sin open parentheses y space plus thin space pi over 3 close parentheses space equals 1 half`
+$\sin ( y + \frac{\pi }{3} ) = 1 \frac{1}{2}$
 
 **[1]**
 
@@ -801,7 +801,7 @@ $5\mathrm{sin}^{2}x-3\mathrm{cos}^{2}x=2\mathrm{sin}x$
 
 > *Replace *$\mathrm{cos}^{2}x$* using *$\mathrm{sin}^{2}x+\mathrm{cos}^{2}x\equiv1$
 
-`5 sin squared x minus 3 open parentheses 1 minus sin squared x close parentheses equals 2 sin x`
+$5 \sin ^{2} x - 3 ( 1 - \sin ^{2} x ) = 2 \sin x$
 
 **[1]**
 
@@ -817,7 +817,7 @@ $8\mathrm{sin}^{2}x-2\mathrm{sin}x-3=0$
 
 > *Factorise*
 
-`open parentheses 2 sin x plus 1 close parentheses open parentheses 4 sin x minus 3 close parentheses equals 0`
+$( 2 \sin x + 1 ) ( 4 \sin x - 3 ) = 0$
 
 **[1]**
 
@@ -827,7 +827,7 @@ $2\mathrm{sin}x+1=0$
 
 $\mathrm{sin}x=-\frac{1}{2}$
 
-`x equals sin to the power of negative 1 end exponent open parentheses negative 1 half close parentheses equals negative 30 degree`
+$x = \sin ^{- 1} ( - 1 \frac{1}{2} ) = - 30^{\circ}$
 
 > *Use a sketch of the sin graph to find all the angles in the required range*
 
@@ -841,7 +841,7 @@ $4\mathrm{sin}x-3=0$
 
 $\mathrm{sin}x=\frac{3}{4}$
 
-`x equals sin to the power of negative 1 end exponent open parentheses 3 over 4 close parentheses equals 48.590... degree`
+$x = \sin ^{- 1} ( \frac{3}{4} ) = 48.590...^{\circ}$
 
 > *Use a sketch of the sin graph to find all the angles in the required range *
 
@@ -860,9 +860,9 @@ $\frac{\mathrm{cos}^{2}2x}{1+\mathrm{sin}2x}=\frac{1-\mathrm{sin}^{2}2x}{1+\math
 
 $\frac{(1+\mathrm{sin}2x)(1-\mathrm{sin}2x)}{1+\mathrm{sin}2x}=1-\mathrm{sin}2x$**[1]**
 
-ii)`begin mathsize 16px style table row blank row blank end table end style` *The left hand side of the equation is *`3 open parentheses fraction numerator cos squared 2 x over denominator 1 plus sin 2 x end fraction close parentheses`*. Therefore*
+ii)$\begin{gathered} \\ \end{gathered}$ *The left hand side of the equation is *$3 ( \frac{\cos ^{2} 2 x}{1 + \sin 2 x} )$*. Therefore*
 
-`fraction numerator 3 cos squared 2 x over denominator 1 plus sin 2 x end fraction equals 3 open parentheses 1 minus sin 2 x close parentheses equals 1`
+$\frac{3 \cos ^{2} 2 x}{1 + \sin 2 x} = 3 ( 1 - \sin 2 x ) = 1$
 
 > *Now solve*
 
@@ -872,7 +872,7 @@ $1-\mathrm{sin}2x=\frac{1}{3}\,\mathrm{sin}2x=\frac{2}{3}$
 
 > *The domain is given in degrees so make sure your calculator is in degrees*
 
-`2 x equals sin to the power of negative 1 end exponent open parentheses 2 over 3 close parentheses equals 41.81031... degree`
+$2 x = \sin ^{- 1} ( \frac{2}{3} ) = 41.81031...^{\circ}$
 
 > *Divide both sides by two to get the first solution*
 
@@ -884,13 +884,13 @@ $x_{1}=20.905157...$
 
 $0^{\circ}\leq2x\leq180^{\circ}$
 
-> *Use the trig identity *`sin A equals sin open parentheses 180 degree minus A close parentheses`* to find the second solution*
+> *Use the trig identity *$\sin A = \sin ( 180^{\circ} - A )$* to find the second solution*
 
-`table row cell 2 x subscript 2 end cell equals cell 180 degree minus 41.81031... degree equals 138.189685... degree end cell end table`
+$\begin{gathered} 2 x_{2} & = 180^{\circ} - 41.81031...^{\circ} = 138.189685...^{\circ} \end{gathered}$
 
 > *Divide by 2*
 
-`table row cell space x subscript 2 end cell equals cell 69.09484... end cell end table`
+$\begin{gathered} x_{2} & = 69.09484... \end{gathered}$
 
 $20.9^{\circ},69.1^{\circ}(3s.f.)$ **[2]** 
 **one mark for each correct answer correctly rounded to at least 3 significant figures**
@@ -898,7 +898,7 @@ $20.9^{\circ},69.1^{\circ}(3s.f.)$ **[2]**
 ### Q20
 > *Substitute *$\mathrm{tan}x=\frac{\mathrm{sin}x}{\mathrm{cos}x}$* into the equation.*
 
-`2 space cos space x equals 3 open parentheses fraction numerator sin space x over denominator cos space x end fraction close parentheses`
+$2 \cos x = 3 ( \frac{\sin x}{\cos x} )$
 
 > *Multiply through by *$\mathrm{cos}x$*.*
 
@@ -908,20 +908,20 @@ $2\mathrm{cos}^{2}x=3\mathrm{sin}x$
 
 > *Substitute *$\mathrm{cos}^{2}x=1-\mathrm{sin}^{2}x$* into the equation.*
 
-`2 open parentheses 1 minus sin squared space x close parentheses equals 3 space sin space x`
+$2 ( 1 - \sin ^{2} x ) = 3 \sin x$
 
 **[1]**
 
 > *Expand the brackets and rearrange.*
 
-`table row cell 2 minus 2 space sin squared space x end cell equals cell 3 space sin space x end cell row cell negative 2 space sin squared space x minus 3 space sin space x plus 2 end cell equals 0 end table`
+$\begin{gathered} 2 - 2 \sin ^{2} x & = 3 \sin x \\ - 2 \sin ^{2} x - 3 \sin x + 2 & = 0 \end{gathered}$
 
 > *Multiply through by -1.*
 
-`table row cell bold 2 bold space bold sin to the power of bold 2 bold space bold italic x bold plus bold 3 bold space bold sin bold space bold italic x bold minus bold 2 end cell bold equals bold 0 end table`*  ***[1]**
+$\begin{array}{cc} 2 \text{sin} ^{ } 2 x + 3 \text{sin} x - 2 & = 0\end{array}$*  ***[1]**
 > *Factorise and solve *$2\mathrm{sin}^{2}x+3\mathrm{sin}x-2=0$
 
-`open parentheses 2 space sin space x space minus 1 close parentheses open parentheses sin space x space plus 2 close parentheses equals 0`
+$( 2 \sin x - 1 ) ( \sin x + 2 ) = 0$
 
 $\mathrm{sin}x=\frac{1}{2}$ *and *$\mathrm{sin}x=-2$
 
@@ -933,7 +933,7 @@ $\mathrm{sin}x=\frac{1}{2}$ *and *$\mathrm{sin}x=-2$
 
 > *Therefore,*
 
-`sin space open parentheses 2 alpha plus straight pi over 4 close parentheses equals 1 half`
+`sin ( 2 alpha + pi / 4 ) = 1 half`
 
 **[1]**
 
@@ -941,7 +941,7 @@ $\mathrm{sin}x=\frac{1}{2}$ *and *$\mathrm{sin}x=-2$
 
 $\frac{π}{4}<2α+\frac{π}{4}<\frac{9}{4}π$
 
-> `sin to the power of negative 1 end exponent open parentheses negative 1 half close parentheses equals negative 1 over 6 pi`*.*
+> $\sin ^{- 1} ( - 1 \frac{1}{2} ) = - \frac{1}{6} \pi$*.*
 
 > *By using the CAST method, or by examining the sine graph, identify other solutions. Discard any which are out of the adjusted range.*
 
@@ -964,7 +964,7 @@ $α=\frac{23π}{24}$* *** [1]**
 
 > *Use the inverse button on your calculator to work out the principle angle*
 
-`alpha plus 45 degree equals tan to the power of negative 1 end exponent open parentheses negative fraction numerator 1 over denominator square root of 2 end fraction close parentheses`
+$\\alpha + 45^{\circ} = \tan ^{- 1} ( - \frac{1}{ \sqrt{2} } )$
 
 $α+45^{\circ}=-35.264...$
 
@@ -974,7 +974,7 @@ $α+45^{\circ}=-35.264...$
 
 > *Look at the range and identify how many solutions you will need, bearing in mind that you still need to subtract 45 off and stay within the range *$0^{\circ}\leqα\leq360^{\circ}$
 
-`alpha plus 45 degree equals open parentheses 180 minus 35.264... close parentheses degree space o r space open parentheses 360 minus 35.264... close parentheses degree`
+$\\alpha + 45^{\circ} = ( 180 - 35.264... )^{\circ} o r ( 360 - 35.264... )^{\circ}$
 
 $α+45^{\circ}=144.736...^{\circ}or324.736...^{\circ}$
 
@@ -987,17 +987,17 @@ $α=99.7^{\circ},279.7^{\circ}$ **[1]**
 ### Q22
 > *Rewrite *$5\mathrm{sec}^{2}A$* using the identity *$1+\mathrm{tan}^{2}A=\mathrm{sec}^{2}A$
 
-`5 open parentheses 1 plus tan squared space A close parentheses plus 14 tan space A minus 8 equals 0`
+$5 ( 1 + \tan ^{2} A ) + 14 \tan A - 8 = 0$
 
 **[1]**
 
 > *Expand and simplify.*
 
-`table row cell 5 plus 5 tan squared space A plus 14 tan space A minus 8 end cell equals 0 row cell 5 tan squared space A plus 14 tan space A minus 3 end cell equals 0 end table`
+$\begin{gathered} 5 + 5 \tan ^{2} A + 14 \tan A - 8 & = 0 \\ 5 \tan ^{2} A + 14 \tan A - 3 & = 0 \end{gathered}$
 
 > *Factorise.*
 
-`open parentheses 5 tan space A minus 1 close parentheses open parentheses tan space A plus 3 close parentheses equals 0`
+$( 5 \tan A - 1 ) ( \tan A + 3 ) = 0$
 
 **[1]**
 
@@ -1005,7 +1005,7 @@ $α=99.7^{\circ},279.7^{\circ}$ **[1]**
 
 $\mathrm{tan}A=\frac{1}{5}$* **and *$\mathrm{tan}A=-3$
 
-`A equals tan to the power of negative 1 end exponent space open parentheses 1 fifth close parentheses`* and *`A equals tan to the power of negative 1 end exponent space open parentheses negative 3 close parentheses`
+$A = \tan ^{- 1} ( 1 \frac{1}{5} )$* and *$A = \tan ^{- 1} ( - 3 )$
 
 $A=11.30993247$* and *$A=-71.56505118$
 
@@ -1038,11 +1038,11 @@ $\mathrm{tan}ABC=\frac{5-\sqrt{3}}{1+2\sqrt{3}}\times\frac{1-2\sqrt{3}}{1-2\sqrt
 
 [1]
 
-`tan space A B C space equals space fraction numerator open parentheses 5 minus square root of 3 close parentheses open parentheses 1 minus 2 square root of 3 close parentheses over denominator open parentheses 1 plus 2 square root of 3 close parentheses open parentheses 1 minus 2 square root of 3 close parentheses end fraction`
+$\tan A B C = \frac{( 5 - \sqrt{3} ) ( 1 - 2 \sqrt{3} )}{( 1 + 2 \sqrt{3} ) ( 1 - 2 \sqrt{3} )}$
 
 > *Expand the double brackets on the numerator and denominator*
 
-`tan space A B C space equals space fraction numerator 5 minus 10 square root of 3 minus square root of 3 plus open parentheses 2 cross times 3 close parentheses over denominator 1 minus 2 square root of 3 plus 2 square root of 3 minus open parentheses 4 cross times 3 close parentheses end fraction`
+$\tan A B C = \frac{5 - 10 \sqrt{3} - \sqrt{3} + ( 2 \times 3 )}{1 - 2 \sqrt{3} + 2 \sqrt{3} - ( 4 \times 3 )}$
 
 $\mathrm{tan}ABC=\frac{5-11\sqrt{3}+6}{1-12}$
 
@@ -1055,13 +1055,13 @@ $\sqrt{3}-1$**[2]**
 
 $\mathrm{sec}^{2}ABC=\mathrm{tan}^{2}ABC+1$
 
-`sec squared A B C equals open parentheses square root of 3 minus 1 close parentheses squared plus 1`
+$\sec ^{2} A B C = ( \sqrt{3} - 1 )^{2} + 1$
 
 [1]
 
 > *Expand the double bracket*
 
-`sec squared A B C equals open parentheses square root of 3 minus 1 close parentheses open parentheses square root of 3 minus 1 close parentheses plus 1`
+$\sec ^{2} A B C = ( \sqrt{3} - 1 ) ( \sqrt{3} - 1 ) + 1$
 
 > *Multiply out the double bracket*
 
@@ -1076,28 +1076,28 @@ $5-2\sqrt{3}$** [1]**
 ### Q24
 i) *Split the expression and factorise each part.  *
 
-`6 x y plus 3 y space equals space 3 y open parentheses 2 x plus 1 close parentheses`
+$6 x y + 3 y = 3 y ( 2 x + 1 )$
 
-> `4 x plus 2 space equals space 2 open parentheses 2 x plus 1 close parentheses`*  *
+> $4 x + 2 = 2 ( 2 x + 1 )$*  *
 
 > *Combine.*
 
-> `3 y open parentheses 2 x plus 1 close parentheses plus 2 open parentheses 2 x plus 1 close parentheses`*  *
+> $3 y ( 2 x + 1 ) + 2 ( 2 x + 1 )$*  *
 
 > *Simplify.*
 
 ** **$(3y+2)(2x+1)$** [1]**
 
-ii) *Substitute *`x equals sin open parentheses theta close parentheses`* and *`y equals cos open parentheses theta close parentheses`* into the answer from part (i).  *
+ii) *Substitute *$x = \sin ( \\theta )$* and *$y = \cos ( \\theta )$* into the answer from part (i).  *
 
-`open parentheses 3 cos open parentheses theta close parentheses plus 2 close parentheses open parentheses 2 sin open parentheses theta close parentheses plus 1 close parentheses equals 0`
+$( 3 \cos ( \\theta ) + 2 ) ( 2 \sin ( \\theta ) + 1 ) = 0$
 
-> *Solve *`3 cos open parentheses theta close parentheses plus 2 equals 0`*.*
+> *Solve *$3 \cos ( \\theta ) + 2 = 0$*.*
 
-`3 cos open parentheses theta close parentheses equals negative 2`
+$3 \cos ( \\theta ) = - 2$
 
-`theta equals cos to the power of negative 1 end exponent open parentheses negative 2 over 3 close parentheses
-theta equals 131.81 degree`
+$\\theta = \cos ^{- 1} ( - \frac{2}{3} )
+ \\theta = 131.81^{\circ}$
 
 ** ****[1]**
 
@@ -1109,11 +1109,11 @@ $θ=228.19^{\circ}$
 
 **[1]**
 
-> *Solve *`2 sin open parentheses theta close parentheses plus 1 equals 0`*.   *
+> *Solve *$2 \sin ( \\theta ) + 1 = 0$*.   *
 
-`2 sin open parentheses theta close parentheses equals negative 1`
+$2 \sin ( \\theta ) = - 1$
 
-`theta equals sin to the power of negative 1 end exponent open parentheses negative 1 half close parentheses`
+$\\theta = \sin ^{- 1} ( - 1 \frac{1}{2} )$
 
 $θ=-30^{\circ}$
 
@@ -1136,7 +1136,7 @@ $θ=131.8^{\circ},θ=228.2^{\circ},θ=210^{\circ},θ=330^{\circ}$* ***[1]**
 ### Q25
 > *Using the identity that *$\frac{\mathrm{sin}θ}{\mathrm{cos}θ}=\mathrm{tan}θ$* and dividing both sides by *$\mathrm{cos}θ$* we have*
 
-`tan open parentheses 3 ϕ space plus thin space fraction numerator 2 pi over denominator 3 end fraction close parentheses space equals space 1`
+$\tan ( 3 ϕ + \frac{2 \pi }{3} ) = 1$
 
 **[1]**
 
@@ -1163,7 +1163,7 @@ $\mathrm{tan}3x=-1$
 
 > *Use tan inverse to find the principle angle*
 
-`3 x equals tan to the power of negative 1 end exponent open parentheses negative 1 close parentheses equals negative straight pi over 4`
+`3 x = tan ^ - 1 ( - 1 ) = - pi / 4`
 
 > *Generate all angles, that when dividing by 3 will stay in the required range by adding and subtracting *$π$
 
@@ -1198,7 +1198,7 @@ $x=\frac{π}{4},-\frac{π}{12},-\frac{5π}{12}$
 
 *Graph crosses *$y$*-axis when *$x=0$
 
-`y equals 4 tan open parentheses 3 cross times 0 close parentheses plus 4 equals 4`* *
+$y = 4 \tan ( 3 \times 0 ) + 4 = 4$* *
 
 1. *To find the asymptotes, consider how *$y=\mathrm{tan}3x$* differs from *$y=\mathrm{tan}x$* (the latter has a period of *$π$*)*
 
@@ -1219,27 +1219,27 @@ $\frac{π}{6},-\frac{π}{6},\frac{π}{2},-\frac{π}{2}$
 **correct **$y$**-coordinates ****[1]**
 
 ### Q27
-> *Substitute *`fraction numerator 1 over denominator cos open parentheses 2 ϕ plus pi over 4 close parentheses end fraction`*  for  *`sec open parentheses 2 ϕ plus pi over 4 close parentheses`
+> *Substitute *$\frac{1}{ \text{cos} ( 2 \phi + \frac{pi}{4} ) }$*  for  *$\sec ( 2 ϕ + \frac{\pi }{4} )$
 
-`1 half cross times fraction numerator 1 over denominator cos open parentheses 2 ϕ plus pi over 4 close parentheses end fraction equals fraction numerator 1 over denominator square root of 3 end fraction`
+`1 half x (1)/(cos ( 2 ϕ + pi / 4 )) = (1)/(sqrt( 3)`
 
 > *Multiply the fractions on the left hand side.*
 
-`fraction numerator 1 over denominator 2 space cos open parentheses 2 ϕ plus pi over 4 close parentheses end fraction equals fraction numerator 1 over denominator square root of 3 end fraction`
+`(1)/(2 cos ( 2 ϕ + pi / 4 )) = (1)/(sqrt( 3)`
 
 > *Multiply both sides by *$2$*.*
 
-`fraction numerator 1 over denominator cos open parentheses 2 ϕ plus pi over 4 close parentheses end fraction equals fraction numerator 2 over denominator square root of 3 end fraction`
+`(1)/(cos ( 2 ϕ + pi / 4 )) = (2)/(sqrt( 3)`
 
 > *Take the reciprocal of both sides.*
 
-`cos open parentheses 2 ϕ plus pi over 4 close parentheses equals fraction numerator square root of 3 over denominator 2 end fraction`
+$\cos ( 2 ϕ + \frac{\pi }{4} ) = \frac{ \sqrt{3} }{2}$
 
 **[1]**
 
 > *Take *$\mathrm{cos}^{-1}$* of both sides.*
 
-`2 ϕ plus pi over 4 equals cos to the power of negative 1 end exponent open parentheses fraction numerator square root of 3 over denominator 2 end fraction close parentheses`
+$2 ϕ + \frac{\pi }{4} = \cos ^{- 1} ( \frac{ \sqrt{3} }{2} )$
 
 $2ϕ+\frac{π}{4}=\frac{π}{6}$
 
@@ -1257,11 +1257,11 @@ $ϕ=-\frac{π}{24}$
 
 $-\frac{7π}{4}<2ϕ+\frac{π}{4}<\frac{9ϕ}{4}$
 
-> *By either using CAST method, or by examining the Cosine curve, find the other solutions to *`cos to the power of negative 1 end exponent open parentheses fraction numerator square root of 3 over denominator 2 end fraction close parentheses`*, ignoring the ones outside of our range.*
+> *By either using CAST method, or by examining the Cosine curve, find the other solutions to *$\cos ^{- 1} ( \frac{ \sqrt{3} }{2} )$*, ignoring the ones outside of our range.*
 
 $\frac{13π}{6},\frac{11π}{6},-\frac{π}{6}$
 
-> *Substitute each of these values into *`2 ϕ plus pi over 4 equals cos to the power of negative 1 end exponent open parentheses fraction numerator square root of 3 over denominator 2 end fraction close parentheses`*, rearrange and solve.*
+> *Substitute each of these values into *$2 ϕ + \frac{\pi }{4} = \cos ^{- 1} ( \frac{ \sqrt{3} }{2} )$*, rearrange and solve.*
 
 $2ϕ+\frac{π}{4}=\frac{13π}{6}$
 

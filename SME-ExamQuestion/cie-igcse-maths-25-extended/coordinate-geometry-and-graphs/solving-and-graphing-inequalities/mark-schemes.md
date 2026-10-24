@@ -20,9 +20,9 @@ $y\geqx$ is the line $y=x$ and everything above it
 
 $x+y\leq8$ is the line $x+y=8$ and everything below it
 
-- Test a point like `open parentheses 0 comma space 0 close parentheses` if you are unsure
+- Test a point like $( 0 , 0 )$ if you are unsure
 
-  - `table row cell 0 plus 0 end cell less or equal than 8 row 0 less or equal than cell 8 space space ✔ end cell end table`
+  - $\begin{array}{cc}0 + 0 & \le 8 \\ 0 \le & 8 ✔\end{array}$
 - So the bit you DON'T want is the region above that line
 
 Shade in the regions you don't want, and label the remaining region $R$
@@ -32,7 +32,7 @@ Shade in the regions you don't want, and label the remaining region $R$
 **[B1]**
 
 ### Q2
-$y=x$ is the diagonal line through the origin `open parentheses 0 comma space 0 close parentheses`
+$y=x$ is the diagonal line through the origin $( 0 , 0 )$
 
 ![Graph of the equation y = x as a line running diagonally from bottom left to top right, on a grid with axes labelled x and y from 0 to 9.](assets/003-graph-of-the-equation-y-x-as-a-line-running-diag.png)
 
@@ -40,10 +40,10 @@ $y=x$ is the diagonal line through the origin `open parentheses 0 comma space 0 
 
 $x+y=8$ can be rearranged into $y=mx+c$ form by subtracting $x$ from both sides
 
-`table row cell x plus y end cell equals 8 row y equals cell negative x plus 8 end cell end table`
+$\begin{gathered} x + y & = 8 \\ y = - x + 8 \end{gathered}$
 
 - That is a line with gradient $-1$ (so it is perpendicular to $y=x$)
-- and with $y$-intercept `open parentheses 0 comma space 8 close parentheses`
+- and with $y$-intercept $( 0 , 8 )$
 
 ![Graph with axes from 0 to 9 on both x and y. Lines for y=x and x+y=8 intersect at (4, 4). Grid lines are visible in the background.](assets/004-graph-with-axes-from-0-to-9-on-both-x-and-y-line.png)
 
@@ -52,7 +52,7 @@ $x+y=8$ can be rearranged into $y=mx+c$ form by subtracting $x$ from both sides
 > **[mark-scheme]**
 > **B1**: For ruled line $y=x$ correctly drawn.
 > 
-> **B1**: For ruled line drawn with gradient $-1$ or going through `open parentheses 0 comma space 8 close parentheses`, as long as that line is not $y=8$ or $x=8$.
+> **B1**: For ruled line drawn with gradient $-1$ or going through $( 0 , 8 )$, as long as that line is not $y=8$ or $x=8$.
 > 
 > **B1**: For fully correct ruled line drawn for $x+y=8$.
 It can be convenient to shade in the sides of lines that you DON'T want for the inequalities
@@ -69,9 +69,9 @@ $y\geqx$ is the line $y=x$ and everything above it
 
 $x+y\leq8$ is the line $x+y=8$ and everything below it
 
-- Test a point like `open parentheses 0 comma space 0 close parentheses` if you are unsure
+- Test a point like $( 0 , 0 )$ if you are unsure
 
-  - `table row cell 0 plus 0 end cell less or equal than 8 row 0 less or equal than cell 8 space space ✔ end cell end table`
+  - $\begin{array}{cc}0 + 0 & \le 8 \\ 0 \le & 8 ✔\end{array}$
 - So the bit you DON'T want is the region above that line
 
 Shade in the regions you don't want, and label the remaining region $R$
@@ -112,13 +112,13 @@ Shade in the regions you don't want, and label the remaining region $R$
 
 > *For *$y\leq4-x$*, the **unwanted** region is above the line, so shade above. To check, pick a point such as (0, 0) and substitute into the inequality:*
 
-`table row 0 less or equal than cell 4 minus 0 comma space true end cell end table`
+$\begin{gathered} 0 \text{less} \text{or} \text{equal} \text{than} 4 - 0 , \text{true} \end{gathered}$
 
 > *(0, 0) is in the wanted region so shade everything on the **other** side of the line *$y=4-x$
 
 > *For *$y\leq3x-1$*, the **unwanted** region is above the line, so shade above. To check substitute (0, 0) again:*
 
-`table row 0 less or equal than cell 3 cross times 0 minus 1 end cell row 0 less or equal than cell negative 1 comma space false end cell end table`
+$\begin{array}{cc}0 \le & 3 \times 0 - 1 \\ 0 \le & - 1 , \text{false} \end{array}$
 
 > *(0, 0) is in the **unwanted** region, so shade the (0, 0) side of the line *$y=3x-1$
 
@@ -162,13 +162,13 @@ $y=-x+7$
 
 > *For *$x+y=7$* the *$y$*-intersect is where *$x=0$
 
-`table attributes columnalign right center left columnspacing 0px end attributes row cell 0 plus y end cell equals 7 row y equals 7 end table`
+$\begin{array}{rcl} 0 + y & = 7 \\ y = 7 \end{array}$
 
 > *Mark the point (0, 7) on the grid*
 
 > *For *$x+y=7$*, the *$x$*-intersect is where *$y=0$
 
-`table attributes columnalign right center left columnspacing 0px end attributes row cell x plus 0 end cell equals 7 row x equals 7 end table`
+$\begin{array}{rcl} x + 0 & = 7 \\ x = 7 \end{array}$
 
 > *Mark the point (7, 0) on the grid, and join the points with a straight line*
 
@@ -179,7 +179,7 @@ $y=-x+7$
 **fully correct line**** ****[1]**
 > *All of the inequalities are ≤ or ≥ so the solid lines drawn in part (a) are fine*
 
-> `y space greater-than or slanted equal to space 0`* signifies the area above *$y=0$
+> $y \text{greater} - \text{than} or \text{slanted} \text{equal} to 0$* signifies the area above *$y=0$
 
 > $y\leqx$* the inequality opens away from *$y$* so shade the area below the line *$y=x$
 
@@ -196,7 +196,7 @@ $y=-x+7$
 
 > *The line *$2x+y=6$* is already drawn for you so shade out the left hand side, where if you pick a coordinate and substitute the *$x$* and *$y$* values into it, it does not satisfy the inequality. *
 
-> *E.g. Point *`open parentheses 0 comma space 0 close parentheses rightwards arrow 2 open parentheses 0 close parentheses plus open parentheses 0 close parentheses neither greater-than nor equal to 6`
+> *E.g. Point *$( 0 , 0 ) \rightarrow 2 ( 0 ) + ( 0 ) \text{neither} greater-than \text{nor} \text{equal} \text{to} 6$
 
 ![cie-igcse-2019-oct-nov-p2-tz2-q161](assets/013-cie-igcse-2019-oct-nov-p2-tz2-q161.png)
 
@@ -234,7 +234,7 @@ $y=-x+7$
 
 > *Find where the line *$2x+y=8$* crosses the coordinate axes by substituting **x** = 0 and **y** = 0.*
 
-`table row cell space x end cell equals cell 0 rightwards double arrow y equals 8 end cell row blank blank cell therefore open parentheses 0 comma space 8 close parentheses space is space on space the space line end cell row cell space y end cell equals cell 0 rightwards double arrow 2 x equals 8 rightwards double arrow x equals 4 end cell row blank blank cell therefore open parentheses 4 comma space 0 close parentheses space is space on space the space line end cell end table`
+`| x | = 0 <-> y = 8 | | _ _ therefore ( 0 , 8 ) is on the line | | y | = 0 <-> 2 x = 8 <-> x = 4 | | _ _ therefore ( 4 , 0 ) is on the line | |`
 
 > *Plot these two points and then join together with a straight line. *
 
@@ -254,7 +254,7 @@ $2x+y=8$** ****drawn correctly*** ***[2]**
 
 $1\geq0$* is true so (0, 1) satisfies *$y\geqx$*, shade the region below the line *$y=x.$
 
-> `2 open parentheses 0 close parentheses plus 1 less or equal than 8`* is true so (0, 1) satisfies *$2x+y\leq8$*, shade the region above the line *$2x+y=8.$
+> $2 ( 0 ) + 1 \le 8$* is true so (0, 1) satisfies *$2x+y\leq8$*, shade the region above the line *$2x+y=8.$
 
 > *Label the unshaded region **R**.*
 
@@ -287,11 +287,11 @@ $3x+2y\leq30$
 $3x+2y\leq30$* ***[1]**
 > *The three inequalities are*
 
-`table row y less than 10 row y greater or equal than x row cell 3 x plus 2 y end cell less or equal than 30 end table`
+$\begin{array}{cc}y < 10 \\ y \ge x \\ 3 x + 2 y & \le 30\end{array}$
 
 > *You may find it easier to rearrange the last one before plotting it.*
 
-`table row cell 2 y end cell less or equal than cell 30 minus 3 x end cell row y less or equal than cell 15 minus 1.5 x end cell row y less or equal than cell negative 1.5 x plus 15 end cell end table`
+$\begin{array}{ccc}2 y & \le & 30 - 3 x \\ y \le & 15 - 1.5 x \\ y \le & - 1.5 x + 15\end{array}$
 
 > *So we can now plot the three lines*
 
@@ -334,11 +334,11 @@ $y=10$** ****ruled and dotted**** [1]**
 
 > *The unshaded region is above this line so *$y\geq-x+3$* If unsure, pick a point, for example, (3, 3) as marked on the diagram above, substitute *$x=3$* and *$y=3$* into the equation of the line, and decide which way the inequality sign should go:*
 
-*     ** *`table row y equals cell negative x plus 3 end cell row 3 greater or equal than cell negative 3 plus 3 space space space open parentheses 3 space is space greater space than space or space equal space to space 0 close parentheses end cell end table`
+*     ** *$\begin{gathered} y = - x + 3 \\ 3 \text{greater} \text{or} \text{equal} \text{than} - 3 + 3 ( 3 \text{is} \ge 0 ) \end{gathered}$
 
 > *Therefore*
 
-** **`table row bold italic y bold greater or equal than cell bold minus bold italic x bold plus bold 3 end cell end table`* ***[1]**** **
+** **$\begin{gathered} y \text{greater} \text{or} \text{equal} \text{than} - x + 3 \end{gathered}$* ***[1]**** **
 
 ### Q9
 > *Draw the lines *$x=-2$* and *$x=3$*. Make sure that the line for the *$x=-2$* line is dashed (because the inequality is *$<$*) and the line for *$x=3$* is solid (because the inequality is *$\leq$*).*
@@ -372,7 +372,7 @@ $y=10$** ****ruled and dotted**** [1]**
 
 > *Total of no more than 70 means **x** + **y **is less than or equal to 70.*
 
-**Final answer:** `table row bold italic y bold greater than bold italic x row bold italic x bold greater or equal than bold 15 row bold italic y bold less than bold 50 row cell bold italic x bold plus bold italic y end cell bold less or equal than bold 70 end table`** **
+**Final answer:** $\begin{array}{cc} y > x \\ x \ge 15 \\ y < 50 \\ x + y & \le 70\end{array}$** **
 
 *1 mark for each*** [4]**
 > *Change the inequalities into equations by replacing the inequality signs with an equal sign. *
@@ -389,7 +389,7 @@ $y=10$** ****ruled and dotted**** [1]**
 
 > *Find where the line *$x+y=70$* crosses the coordinate axes by substituting **x** = 0 and **y** = 0.*
 
-`table row cell space x end cell equals cell 0 rightwards double arrow y equals 70 end cell row blank blank cell therefore open parentheses 0 comma space 70 close parentheses space is space on space the space line end cell row cell space y end cell equals cell 0 rightwards double arrow x equals 70 end cell row blank blank cell therefore open parentheses 70 comma space 0 close parentheses space is space on space the space line end cell end table`
+`| x | = 0 <-> y = 70 | | _ _ therefore ( 0 , 70 ) is on the line | | y | = 0 <-> x = 70 | | _ _ therefore ( 70 , 0 ) is on the line | |`
 
 > *Plot these two points and then join together with a straight line. *
 
@@ -420,8 +420,8 @@ $0<50$* is true so (0, 10) satisfies *$y<50$*, shade the region above the line *
 
 > *We can check this by picking a co-ordinate in the unwanted region, e.g. (2, 6) and confirming that it does not satisfy the inequality when substituted in*
 
-`6 space less or equal than space minus 1 half open parentheses 2 close parentheses plus 6
-6 less or equal than 5`
+$6 \text{less} \text{or} \text{equal} \text{than} - 1 \frac{1}{2} ( 2 ) + 6
+6 \text{less} \text{or} \text{equal} \text{than} 5$
 
 > *Statement is false, so (2,6) lies in the "unwanted" region*
 
@@ -430,8 +430,7 @@ $0<50$* is true so (0, 10) satisfies *$y<50$*, shade the region above the line *
 > *For the second inequality, *$y\geq3x-4$*, we will shade below the line as the "unwanted" region. *
 *We can check this by picking a co-ordinate in the unwanted region, e.g. (3, 0) and confirming that it does not satisfy the inequality when substituted in*
 
-`0 greater or equal than space 3 open parentheses 3 close parentheses minus 4
-0 greater or equal than 5`
+$0 \ge 3 ( 3 ) - 4 0 \ge 5$
 
 > *Statement is false, so (3,0) lies in the "unwanted" region*
 
@@ -591,11 +590,11 @@ $x\geq2$** ****[1]**
 
 *If unsure, pick a point inside the unshaded region. For example pick (3, 3), substitute *$x=3$* and *$y=3$* into the equation of the line, and decide which way the inequality sign should go:**     ** *
 
-`table row y equals cell 1 half x end cell row 3 greater or equal than cell 1 half cross times 3 space space space open parentheses 3 space is space greater space than space or space equal space to space 1 1 half close parentheses end cell end table`
+$\begin{gathered} y = 1 \frac{1}{2} x \\ 3 \text{greater} \text{or} \text{equal} \text{than} 1 \frac{1}{2} \times 3 ( 3 \text{is} \text{greater} \text{than} \text{or} \text{equal} \text{to} 1 1 \frac{1}{2} ) \end{gathered}$
 
 > *Therefore*
 
-`table row bold italic y bold greater or equal than cell bold 1 over bold 2 bold italic x end cell end table`* ***[1]**** **
+$\begin{array}{cc} y \ge & \frac{1}{ } 2 x\end{array}$* ***[1]**** **
 
 ### Q15
 $x\leq3$* means all points to the left of the vertical line *$x=3$ 
@@ -633,11 +632,11 @@ $y\geq4-x$* means all points above the line *$y=4-x$
 
 > *Start by subtracting *$3n$* from both sides. This has the advantage that the term in *$n$* remains positive*
 
-`table row cell negative 5 end cell greater than cell 17 plus 5 n end cell row cell negative 22 end cell greater than cell 5 n end cell end table`
+$\begin{gathered} - 5 & > 17 + 5 n \\ - 22 & > 5 n \end{gathered}$
 
 **[1]**
 
-`table row cell negative 22 over 5 end cell greater than n end table`
+$\begin{gathered} - \frac{22}{5} & > n \end{gathered}$
 
 $n<-\frac{22}{5}$** or  **$n<-4.4$** or  **$n<-4\frac{2}{5}$** ****[1]**
 
@@ -645,7 +644,7 @@ $n<-\frac{22}{5}$** or  **$n<-4.4$** or  **$n<-4\frac{2}{5}$** ****[1]**
 
 > *Start by adding *$5$* to both sides. *
 
-`table row cell 3 n end cell greater than cell 22 plus 8 n end cell row cell negative 5 n end cell greater than 22 end table`
+$\begin{gathered} 3 n & > 22 + 8 n \\ - 5 n & > 22 \end{gathered}$
 
 **[1]**
 
@@ -653,7 +652,7 @@ $n<-\frac{22}{5}$** or  **$n<-4.4$** or  **$n<-4\frac{2}{5}$** ****[1]**
 
 > *But remember that  if you multiply/ divide by a negative, you need to reverse the inequality sign!*
 
-`table row cell 5 n end cell less than cell negative 22 end cell end table`
+$\begin{gathered} 5 n & < - 22 \end{gathered}$
 
 $n<-\frac{22}{5}$** or  **$n<-4.4$** or  **$n<-4\frac{2}{5}$** ****[1]**
 
@@ -706,7 +705,7 @@ $y\leqx+4\,1\leq-4+4\,1\leq0$
 
 > *For *$x+y<4$*, draw *$x+y=4$*. Rearrange to *$y=mx+c$*...*
 
-`table row cell space y end cell equals cell negative x plus 4 end cell end table`
+$\begin{gathered} y & = - x + 4 \end{gathered}$
 
 > *... and plot a **dotted** **line** through (0, 4) with a gradient of −1*
 
@@ -728,19 +727,19 @@ $y<-x+4$
 
 > *To check, pick an integer point that's not on the lines to test which side of each line should be shaded. For example, picking (0, 2);*
 
-`table row cell space 0 plus 2 end cell less than cell 4 comma space true end cell end table`
+$\begin{gathered} 0 + 2 & < 4 , \text{true} \end{gathered}$
 
 > *(0, 2) is in the wanted region so shade everything on the **other** side of the line *$x+y=4$
 
 > *For *$y>x-1$*, the **unwanted** region is below the line, shade below the line. To check, repeat the process of substituting (0, 2) into the inequality*
 
-`table row 2 greater than cell 0 minus 1 comma space true end cell end table`
+$\begin{gathered} 2 > 0 - 1 , \text{true} \end{gathered}$
 
 > *(0, 2) is in the wanted region so shade everything on the **other** side of the line *$y=x-1$
 
 > *For *$y<3x$*, the **unwanted **region is above the line. To check,*
 
-`table row 2 less than cell 3 cross times 0 end cell row 2 less than cell 0 comma space false end cell end table`
+$\begin{gathered} 2 < 3 \times 0 \\ 2 < 0 , \text{false} \end{gathered}$
 
 > *(0, 2) is in the **unwanted** region, so shade this side of the line *$y=3x$
 
@@ -794,9 +793,9 @@ $y\geq1.5$
 
 > *For example, for Line 1:*
 
-> * *`table row y equals cell 3 over 4 x end cell row cell 2 space end cell greater or equal than cell 3 over 4 cross times 1.5 end cell end table`
+> * *$\begin{gathered} y = \frac{3}{4} x \\ 2 & \text{greater} \text{or} \text{equal} \text{than} \frac{3}{4} \times 1.5 \end{gathered}$
 
-*so *`table row y greater or equal than cell 3 over 4 x end cell end table`
+*so *$\begin{gathered} y \text{greater} \text{or} \text{equal} \text{than} \frac{3}{4} x \end{gathered}$
 
 > *Write out the final answer- the three inequalities can be given in any order*
 
@@ -836,18 +835,18 @@ $a=-1\,b=5\,c=1\,d=4$
 *Get all the **x** terms on one side.* 
 *Subtract the smaller x** **term (3x) from both sides.*
 
-> `table row cell 12 space end cell less than cell space 5 x space minus space 3 space minus space 3 x end cell row cell 12 space end cell less or equal than cell space 2 x space minus space 3 end cell end table`* *
+> $\begin{gathered} 12 & < 5 x - 3 - 3 x \\ 12 & \text{less} \text{or} \text{equal} \text{than} 2 x - 3 \end{gathered}$* *
 
 *Get the **x ** terms by themselves on one side.*
  *Add 3 to both sides.*
 
-`table row cell 12 space plus space 3 space end cell less than cell space 2 x end cell row cell 15 space end cell less than cell space 2 x end cell end table`
+$\begin{gathered} 12 + 3 & < 2 x \\ 15 & < 2 x \end{gathered}$
 
 **[1]**
 
 > *Isolate **x** by dividing both sides by 2.*
 
-`table row cell 15 over 2 space end cell less than cell space x end cell end table`
+$\begin{gathered} \frac{15}{2} & < x \end{gathered}$
 
 > *It is standard to write the unknown first so switch the sides of the inequality and reverse the sign.*
 

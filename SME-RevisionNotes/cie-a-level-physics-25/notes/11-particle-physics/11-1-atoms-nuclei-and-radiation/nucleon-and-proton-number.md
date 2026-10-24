@@ -148,7 +148,7 @@ guided_study: true
 
 - Atomic symbols are written in a specific notation called **AZX notation**
 
-`straight X presubscript straight Z presuperscript straight A`
+$\mathrm{X} pre_{Z} pre^{A}$
 
 - Where:
 

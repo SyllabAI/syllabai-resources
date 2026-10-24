@@ -7,11 +7,11 @@
 ### 13() — 3 marks
 > *In this case, the mean score will be given by the formula*
 
-`Mean space score space open parentheses x with bar on top close parentheses equals fraction numerator Total space points space open parentheses T close parentheses over denominator Number space of space games space open parentheses n close parentheses end fraction`
+`Mean score ( x -bar ) = (Total points ( T ))/(Number of games ( n ))`
 
 > *From the first piece of information*
 
-`table attributes columnalign right center left columnspacing 0px end attributes row 35 equals cell T over 10 end cell row T equals 350 end table`
+$\begin{array}{rcl} 35 = \frac{T}{10} \\ T = 350 \end{array}$
 
 **[1]**
 
@@ -21,11 +21,11 @@ $33=\frac{350+x}{11}$
 
 > *Solve this equation to find *$x$*.*
 
-`table attributes columnalign right center left columnspacing 0px end attributes row 363 equals cell 350 plus x end cell row x equals cell 363 minus 350 end cell end table`
+$\begin{array}{rcl} 363 = 350 + x \\ x = 363 - 350 \end{array}$
 
 **[1]**
 
-`table row x equals 13 end table`
+$\begin{gathered} x = 13 \end{gathered}$
 
 **The team scored 13 points in the 11th game ****[1]**
 
@@ -42,11 +42,11 @@ $33=\frac{350+x}{11}$
 
 > *Let the unknown number be *$x$*. Use the formula for the mean to set up an equation in *$x$*.*
 
-`table row cell fraction numerator 12 plus 6 plus 15 plus x over denominator 4 end fraction end cell equals 10 end table`
+$\begin{gathered} \frac{12 + 6 + 15 + x}{4} & = 10 \end{gathered}$
 
 **Correct equation ****[1]**
 
-`table row cell x plus 33 end cell equals 40 row x equals cell 40 minus 33 end cell row x equals 7 end table`
+$\begin{gathered} x + 33 & = 40 \\ x = 40 - 33 \\ x = 7 \end{gathered}$
 
 **Method to solve the equation ****[1]**
 
@@ -56,11 +56,11 @@ $33=\frac{350+x}{11}$
 
 ### 12() — 2 marks
 *There are 15 values* 
-*The lower quartile is the *`open parentheses fraction numerator 15 plus 1 over denominator 4 end fraction close parentheses to the power of t h end exponent`* value, so the 4*<sup>*th*</sup>* value* * *
+*The lower quartile is the *$( \frac{15 + 1}{4} )^{t h}$* value, so the 4*<sup>*th*</sup>* value* * *
 
 *lower quartile = 4* * *
 
-*The upper quartile is the *`open parentheses 3 cross times fraction numerator 15 plus 1 over denominator 4 end fraction close parentheses to the power of t h end exponent`* value, so the 12*<sup>*th*</sup>* value* * *
+*The upper quartile is the *$( 3 \times \frac{15 + 1}{4} )^{t h}$* value, so the 12*<sup>*th*</sup>* value* * *
 
 *upper quartile = 13*
 
@@ -77,17 +77,17 @@ $33=\frac{350+x}{11}$
 ### 13() — 3 marks
 > *In this case, the mean number of sweets per box will be given by the formula*
 
-`Mean space number space of space sweets space open parentheses x with bar on top close parentheses equals fraction numerator Total space number space of space sweets space open parentheses S close parentheses over denominator Number space of space packets space and backslash or space boxes space open parentheses n close parentheses end fraction`
+`Mean number of sweets ( x -bar ) = (Total number of sweets ( S ))/(Number of packets and backslash or boxes ( n ))`
 
 > *The first piece of information concerns all 30 of the packets and boxes combined.*
 
-`table attributes columnalign right center left columnspacing 0px end attributes row 14 equals cell T over 30 end cell row T equals 420 end table`
+$\begin{array}{rcl} 14 = \frac{T}{30} \\ T = 420 \end{array}$
 
 **[1]**
 
 > *The second piece of information conerns just the 18 packets of sweets.*
 
-`table row 10 equals cell T over 18 end cell row T equals 180 end table`
+$\begin{gathered} 10 = \frac{T}{18} \\ T = 180 \end{gathered}$
 
 **[1]**
 
@@ -97,20 +97,20 @@ $420-180=240$
 
 > *So the boxes contain a total of 240 sweets; there are 12 boxes, so we can find the mean.*
 
-`table row cell x with bar on top end cell equals cell 240 over 12 equals 20 end cell end table`
+$\begin{gathered} \bar{x} & = \frac{240}{12} = 20 \end{gathered}$
 
 **The mean number of sweets in the boxes is 20 ****[1]**
 
 ## Q5 — medium — 2 marks · exam-questions
 
 ### 3((a)) — 1 marks
-> *The position of the median is the *`open parentheses fraction numerator n plus 1 over denominator 2 end fraction close parentheses to the power of th`* value.*
+> *The position of the median is the *$( \frac{n + 1}{2} )^{th}$* value.*
 
 $\frac{25+1}{2}=13$
 
 > *So the dress size of the 13*<sup>*th*</sup>* woman is the median.  Looking at the frequencies we see that*
 
-`table row cell 2 plus 9 end cell equals 11 row cell 11 plus 8 end cell equals 17 end table`
+$\begin{gathered} 2 + 9 & = 11 \\ 11 + 8 & = 17 \end{gathered}$
 
 > *so the 13*<sup>*th*</sup>* woman will be in the "third row" and so have a dress size of 12.*
 
@@ -124,11 +124,11 @@ $\frac{25+1}{2}=13$
 
 ### 14() — 2 marks
 *There are 11 values* 
-*The lower quartile is the *`open parentheses fraction numerator 11 plus 1 over denominator 4 end fraction close parentheses to the power of t h end exponent`* value, so the 3*<sup>*rd*</sup>* value* * *
+*The lower quartile is the *$( \frac{11 + 1}{4} )^{t h}$* value, so the 3*<sup>*rd*</sup>* value* * *
 
 *lower quartile = 9* * *
 
-*The upper quartile is the *`open parentheses 3 cross times fraction numerator 11 plus 1 over denominator 4 end fraction close parentheses to the power of t h end exponent`* value, so the 9*<sup>*th*</sup>* value* * *
+*The upper quartile is the *$( 3 \times \frac{11 + 1}{4} )^{t h}$* value, so the 9*<sup>*th*</sup>* value* * *
 
 *upper quartile = 16*
 
@@ -149,25 +149,25 @@ $\frac{25+1}{2}=13$
 
 > *From the first piece of information*
 
-`table row 7 equals cell T over 15 end cell row T equals 105 end table`
+$\begin{gathered} 7 = \frac{T}{15} \\ T = 105 \end{gathered}$
 
 **[1]**
 
 > *Using the information about just the boys*
 
-`table row 5 equals cell T over 9 end cell row T equals 45 end table`
+$\begin{gathered} 5 = \frac{T}{9} \\ T = 45 \end{gathered}$
 
 > *Subtract to find the total of the girls' ages.*
 
-`table attributes columnalign right center left columnspacing 0px end attributes row cell 105 minus 45 end cell equals 60 end table`
+$\begin{array}{rcl} 105 - 45 & = 60 \end{array}$
 
 *We now know the total of the girls' ages, and the number of girls (**15 - 9 = 6**), so we can find the mean.*
 
-`table row cell x with bar on top end cell equals cell 60 over 6 end cell end table`
+$\begin{gathered} \bar{x} & = \frac{60}{6} \end{gathered}$
 
 **[1]**
 
-`table row cell x with bar on top end cell equals 10 end table`
+$\begin{gathered} \bar{x} & = 10 \end{gathered}$
 
 **The mean age of the girls is 10 years ****[1]**
 
@@ -212,29 +212,29 @@ $\frac{25+1}{2}=13$
 ### 7() — 3 marks
 > *In this case, the mean mark will be given by the formula*
 
-`Mean space mark space open parentheses x with bar on top close parentheses equals fraction numerator Total space of space the space marks space open parentheses T close parentheses over denominator Number space of space boys space and backslash or space girls space open parentheses n close parentheses end fraction`
+`Mean mark ( x -bar ) = (Total of the marks ( T ))/(Number of boys and backslash or girls ( n ))`
 
 > *From the first piece of information*
 
-`table row 60 equals cell fraction numerator T over denominator 10 plus 20 end fraction end cell row T equals cell 60 cross times 30 end cell row T equals 1800 end table`
+$\begin{gathered} 60 = \frac{T}{10 + 20} \\ T = 60 \times 30 \\ T = 1800 \end{gathered}$
 
 **[1]**
 
 > *Using the information about just the girls*
 
-`table row 54 equals cell T over 20 end cell row T equals 1080 end table`
+$\begin{gathered} 54 = \frac{T}{20} \\ T = 1080 \end{gathered}$
 
 > *Subtract to find the total of the boys' marks.*
 
-`table row cell 1800 minus 1080 end cell equals 720 end table`
+$\begin{gathered} 1800 - 1080 & = 720 \end{gathered}$
 
 > *We now know the total of the boys' marks, and the number of boys is given in the question, so we can find the mean.*
 
-`table row cell x with bar on top end cell equals cell 720 over 10 end cell end table`
+$\begin{gathered} \bar{x} & = \frac{720}{10} \end{gathered}$
 
 **[1]**
 
-`table row cell x with bar on top end cell equals 72 end table`
+$\begin{gathered} \bar{x} & = 72 \end{gathered}$
 
 **The mean mark for the boys is 72 ****[1]**
 
@@ -243,11 +243,11 @@ $\frac{25+1}{2}=13$
 ### 11((a)) — 2 marks
 > *the list of number sis already in order. To position of the median is given by*
 
-`open parentheses fraction numerator n plus 1 over denominator 2 end fraction close parentheses to the power of th equals open parentheses fraction numerator 23 plus 1 over denominator 2 end fraction close parentheses to the power of th equals 24 to the power of th`
+$( \frac{n + 1}{2} )^{th} = ( \frac{23 + 1}{2} )^{th} = 24^{th}$
 
 > *The positions of the lower quartile (LQ) and upper quartile (UQ) are given by*
 
-*LQ: * `open parentheses fraction numerator n plus 1 over denominator 4 end fraction close parentheses to the power of th equals open parentheses fraction numerator 23 plus 1 over denominator 4 end fraction close parentheses to the power of th equals 6 to the power of th`* value UQ:  *`3 open parentheses fraction numerator n plus 1 over denominator 4 end fraction close parentheses to the power of th equals 3 open parentheses fraction numerator 23 plus 1 over denominator 4 end fraction close parentheses to the power of th equals 18 to the power of th`* value*
+*LQ: * $( \frac{n + 1}{4} )^{th} = ( \frac{23 + 1}{4} )^{th} = 6^{th}$* value UQ:  *$3 ( \frac{n + 1}{4} )^{th} = 3 ( \frac{23 + 1}{4} )^{th} = 18^{th}$* value*
 
 > *Counting carefully along the line of numbers we can find the values of the median and quartiles.*
 
@@ -293,17 +293,17 @@ $\frac{25+1}{2}=13$
 ### 9() — 3 marks
 > *In this case, the mean score will be given by the formula*
 
-`Mean space score space open parentheses x with bar on top close parentheses equals fraction numerator Total space points space open parentheses T close parentheses over denominator Number space of space games space open parentheses n close parentheses end fraction`
+`Mean score ( x -bar ) = (Total points ( T ))/(Number of games ( n ))`
 
 > *From the first piece of information*
 
-`table row 33 equals cell T over 11 end cell row T equals 363 end table`
+$\begin{gathered} 33 = \frac{T}{11} \\ T = 363 \end{gathered}$
 
 **[1]**
 
 > *Similarly, from the second piece of information*
 
-`table row cell 33 plus 2 end cell equals cell T over 10 end cell row T equals 350 end table`
+$\begin{gathered} 33 + 2 & = \frac{T}{10} \\ T = 350 \end{gathered}$
 
 > *The difference between the two points' totals will be the number of points scored in the 11*<sup>*th*</sup>* game.*
 
@@ -377,24 +377,24 @@ $\frac{25+1}{2}=13$
 ### 13() — 2 marks
 > *In this case, the mean mark will be given by the formula*
 
-`Meam space mark space open parentheses x with bar on top close parentheses equals fraction numerator Total space marks space open parentheses T close parentheses over denominator Number space of space boys space and backslash or space girls space open parentheses n close parentheses end fraction`
+`Meam mark ( x -bar ) = (Total marks ( T ))/(Number of boys and backslash or girls ( n ))`
 
 > *From the first piece of information regarding the girls*
 
-`table row 70 equals cell T over 10 end cell row T equals 700 end table`
+$\begin{gathered} 70 = \frac{T}{10} \\ T = 700 \end{gathered}$
 
 > *From the second piece of information regarding the boys*
 
-`table attributes columnalign right center left columnspacing 0px end attributes row 80 equals cell T over 15 end cell row T equals 1200 end table`
+$\begin{array}{rcl} 80 = \frac{T}{15} \\ T = 1200 \end{array}$
 
 > *Adding these will give us the total score for the whole class.  i.e. the boys and girls combined. *
 *We can also work out the total number of boys and girls in the whole class.*
 
-`table row cell 700 plus 1200 end cell equals 1900 row cell 10 plus 15 end cell equals 25 end table`
+$\begin{gathered} 700 + 1200 & = 1900 \\ 10 + 15 & = 25 \end{gathered}$
 
 > *We can now find the mean for the whole class.*
 
-`table row cell x with bar on top end cell equals cell 1900 over 25 end cell row cell x with bar on top end cell equals 76 end table`
+$\begin{gathered} \bar{x} & = \frac{1900}{25} \\ \bar{x} & = 76 \end{gathered}$
 
 **Correct mean**** [1]**
 
@@ -458,11 +458,11 @@ $\frac{25+1}{2}=13$
 
 > *An estimate for the mean (*$\overline{x}$*) is given by the formula *$\overline{x}=\frac{Σfx}{Σf}$*.*
 
-`table row cell x with bar on top end cell equals cell 1130 over 40 end cell end table`
+$\begin{gathered} \bar{x} & = \frac{1130}{40} \end{gathered}$
 
 **[1]**
 
-`table row cell x with bar on top end cell equals cell 28.25 end cell end table`
+$\begin{gathered} \bar{x} & = 28.25 \end{gathered}$
 
 **An estimate for the mean time taken is 28.25 minutes ****[1]**
 
@@ -475,11 +475,11 @@ $\frac{25+1}{2}=13$
 
 **[1]**
 
-*There are 11 values* *The lower quartile is the *`open parentheses fraction numerator 11 plus 1 over denominator 4 end fraction close parentheses to the power of t h end exponent`* value, so the 3*<sup>*rd*</sup>* value* * *
+*There are 11 values* *The lower quartile is the *$( \frac{11 + 1}{4} )^{t h}$* value, so the 3*<sup>*rd*</sup>* value* * *
 
 *lower quartile = 7* * *
 
-*The upper quartile is the *`open parentheses 3 cross times fraction numerator 11 plus 1 over denominator 4 end fraction close parentheses to the power of t h end exponent`* value, so the 9*<sup>*th*</sup>* value* * *
+*The upper quartile is the *$( 3 \times \frac{11 + 1}{4} )^{t h}$* value, so the 9*<sup>*th*</sup>* value* * *
 
 *upper quartile = 16*
 
@@ -524,11 +524,11 @@ $\frac{25+1}{2}=13$
 
 > *An estimate for the mean (*$\overline{x}$*) is given by the formula *$\overline{x}=\frac{Σfx}{Σf}$*.*
 
-`table row cell x with bar on top end cell equals cell 4650 over 40 end cell end table`
+$\begin{gathered} \bar{x} & = \frac{4650}{40} \end{gathered}$
 
 **[1]**
 
-`table row cell x with bar on top end cell equals cell 116.25 end cell end table`
+$\begin{gathered} \bar{x} & = 116.25 \end{gathered}$
 
 **An estimate for the mean time is 116.25 minutes ****[1]**
 
@@ -541,7 +541,7 @@ $\frac{25+1}{2}=13$
 
 **another 80 seen**** [1]**
 
-*For a list of 8 results, the median, 74, is the *`open parentheses fraction numerator 8 plus 1 over denominator 2 end fraction close parentheses to the power of t h end exponent`* = 4.5th value (the midpoint between the 4th and 5th value)* 
+*For a list of 8 results, the median, 74, is the *$( \frac{8 + 1}{2} )^{t h}$* = 4.5th value (the midpoint between the 4th and 5th value)* 
 *74 is not the midpoint of 72 and 75, so the value 73 is needed (there cannot be two 74s in the middle, as this would conflict with 80 being the mode)* * *
 
 *68,  72,  73,  75,  77,  80,  80*
@@ -562,17 +562,17 @@ $\frac{25+1}{2}=13$
 
 ### 11() — 4 marks
 *You need to work out the median and interquartile range of the Maths test results* 
-*There are 15 values so the median is the *`open parentheses fraction numerator 15 plus 1 over denominator 2 end fraction close parentheses to the power of t h end exponent`* value (the 8th value)*
+*There are 15 values so the median is the *$( \frac{15 + 1}{2} )^{t h}$* value (the 8th value)*
 
 *median = 26*
 
 **[1]**
 
-*The lower quartile is the *`open parentheses fraction numerator 15 plus 1 over denominator 4 end fraction close parentheses to the power of t h end exponent`* value (the 4*<sup>*th*</sup>* value)* * *
+*The lower quartile is the *$( \frac{15 + 1}{4} )^{t h}$* value (the 4*<sup>*th*</sup>* value)* * *
 
 *lower quartile = 20* * *
 
-*The upper quartile is the *`open parentheses 3 cross times fraction numerator 15 plus 1 over denominator 4 end fraction close parentheses to the power of t h end exponent`* value (the 12*<sup>*th*</sup>* value)* * *
+*The upper quartile is the *$( 3 \times \frac{15 + 1}{4} )^{t h}$* value (the 12*<sup>*th*</sup>* value)* * *
 
 *upper quartile = 29*
 
@@ -614,11 +614,11 @@ $\frac{25+1}{2}=13$
 
 > *An estimate for the mean (*$\overline{x}$*) is given by the formula *$\overline{x}=\frac{Σfx}{Σf}$*.*
 
-`table row cell x with bar on top end cell equals cell 396 over 50 end cell end table`
+$\begin{gathered} \bar{x} & = \frac{396}{50} \end{gathered}$
 
 **[1]**
 
-`table row cell x with bar on top end cell equals cell 7.92 end cell end table`
+$\begin{gathered} \bar{x} & = 7.92 \end{gathered}$
 
 **An estimate for the mean height of the trees is 7.92 metres ****[1]**
 
@@ -646,7 +646,7 @@ $\frac{7+7+10+c}{4}=9$
 
 *Multiply both sides by 4 and use that 7 + 7 + 10 = 24* * *
 
-`table row cell 7 plus 7 plus 10 plus c end cell equals 36 row cell 24 plus c end cell equals 36 end table` * *
+$\begin{gathered} 7 + 7 + 10 + c & = 36 \\ 24 + c & = 36 \end{gathered}$ * *
 
 *Solve the equation to find **c** (by subtracting 24 from both sides)* ** **
 
@@ -695,11 +695,11 @@ $c=36-24$
 ## Q28 — hard — 5 marks · exam-questions
 
 ### 12((a)) — 1 marks
-> *The median is the *`open parentheses fraction numerator n plus 1 over denominator 2 end fraction close parentheses to the power of th`* value.  In this case*
+> *The median is the *$( \frac{n + 1}{2} )^{th}$* value.  In this case*
 
 $n=35$
 
-*Median is the *`open parentheses fraction numerator 35 plus 1 over denominator 2 end fraction close parentheses to the power of th equals 18 to the power of th`* value*
+*Median is the *$( \frac{35 + 1}{2} )^{th} = 18^{th}$* value*
 
 > *From the frequency column we can see that*
 
@@ -731,11 +731,11 @@ $n=35$
 
 > *An estimate for the mean (*$\overline{x}$*) is given by the formula *$\overline{x}=\frac{Σfx}{Σf}$*.*
 
-`table row cell x with bar on top end cell equals cell fraction numerator 52.15 over denominator 35 end fraction end cell end table`
+$\begin{gathered} \bar{x} & = \frac{52.15}{35} \end{gathered}$
 
 **[1]**
 
-`table row cell x with bar on top end cell equals cell 1.49 end cell end table`
+$\begin{gathered} \bar{x} & = 1.49 \end{gathered}$
 
 **An estimate for the mean height is 1.49 metres ****[1]**
 
@@ -749,11 +749,11 @@ $n=35$
 **[1]**
 
 *There are 11 values* 
-*The lower quartile is the *`open parentheses fraction numerator 11 plus 1 over denominator 4 end fraction close parentheses to the power of t h end exponent`* value, so the 3*<sup>*rd*</sup>* value* * *
+*The lower quartile is the *$( \frac{11 + 1}{4} )^{t h}$* value, so the 3*<sup>*rd*</sup>* value* * *
 
 *lower quartile = 38* * *
 
-*The upper quartile is the *`open parentheses 3 cross times fraction numerator 11 plus 1 over denominator 4 end fraction close parentheses to the power of t h end exponent`* value, so the 9*<sup>*th*</sup>* value* * *
+*The upper quartile is the *$( 3 \times \frac{11 + 1}{4} )^{t h}$* value, so the 9*<sup>*th*</sup>* value* * *
 
 *upper quartile = 45*
 
@@ -870,11 +870,11 @@ $29-20=9$
 
 > *An estimate for the mean (*$\overline{x}$*) is given by the formula *$\overline{x}=\frac{Σfx}{Σf}$*.*
 
-`table row cell x with bar on top end cell equals cell 7300 over 20 end cell end table`
+$\begin{gathered} \bar{x} & = \frac{7300}{20} \end{gathered}$
 
 **[1]**
 
-`table row cell x with bar on top end cell equals 365 end table`
+$\begin{gathered} \bar{x} & = 365 \end{gathered}$
 
 **An estimate for the mean weekly earnings is £365 ****[1]**
 
@@ -982,18 +982,18 @@ $29-20=9$
 
 > *An estimate for the mean (*$\overline{x}$*) is given by the formula *$\overline{x}=\frac{Σfx}{Σf}$*.*
 
-`table row cell x with bar on top end cell equals cell 876 over 40 end cell end table`
+$\begin{gathered} \bar{x} & = \frac{876}{40} \end{gathered}$
 
 **[1]**
 
-`table row cell x with bar on top end cell equals cell 21.9 end cell end table`
+$\begin{gathered} \bar{x} & = 21.9 \end{gathered}$
 
 **An estimate for the mean foot lengith is 21.9 cm ****[1]**
 
 ## Q37 — medium — 1 marks · exam-questions
 
 ### 7() — 1 marks
-*Of the 40 people, the median is the *`open parentheses fraction numerator 40 plus 1 over denominator 2 end fraction close parentheses to the power of t h end exponent`* = 20.5*<sup>*th*</sup>* person's time* 
+*Of the 40 people, the median is the *$( \frac{40 + 1}{2} )^{t h}$* = 20.5*<sup>*th*</sup>* person's time* 
 *20.5 is between 20 and 21, so it's easier to find the class interval in which the *
 *20th person and the 21st person lie*
 
@@ -1087,11 +1087,11 @@ $35-23=12$
 
 > *An estimate for the mean (*$\overline{x}$*) is given by the formula *$\overline{x}=\frac{Σfx}{Σf}$*.*
 
-`table row cell x with bar on top end cell equals cell 1684 over 50 end cell end table`
+$\begin{gathered} \bar{x} & = \frac{1684}{50} \end{gathered}$
 
 **[1]**
 
-`table row cell x with bar on top end cell equals cell 33.68 end cell end table`
+$\begin{gathered} \bar{x} & = 33.68 \end{gathered}$
 
 **An estimate for the mean waist size is 33.68 inches ****[1]**
 
@@ -1100,11 +1100,11 @@ $35-23=12$
 
 *24 belts sold were small* 
 *50 customers in total*
- `24 over 50 equals 0.48 equals 48 percent sign`
+ $\frac{24}{50} = 0.48 = 48 \%$
 
 > *Compare this to the proportion of size small belts Jenny is going to order.*
 
-`table row cell 3 over 4 end cell equals cell 75 percent sign end cell row cell 75 percent sign end cell greater than cell 48 percent sign end cell end table`
+$\begin{gathered} \frac{3}{4} & = 75 \% \\ 75 \% & > 48 \% \end{gathered}$
 
 **Method of comparison of proportions**** [1]**
 
@@ -1183,17 +1183,17 @@ $945$
 ### 20() — 1 marks
 > *In this case, the mean mark will be given by the formula*
 
-`Mean space mark space open parentheses x with bar on top close parentheses equals fraction numerator Total space marks space for space group space open parentheses T close parentheses over denominator Number space of space students space in space group space open parentheses n close parentheses end fraction`
+`Mean mark ( x -bar ) = (Total marks for group ( T ))/(Number of students in group ( n ))`
 
 > *From the first piece of information*
 
-`table row cell 67.8 end cell equals cell T subscript A over 25 end cell row cell T subscript A end cell equals cell 67.8 cross times 25 equals 1695 end cell end table`
+$\begin{array}{ccc}67.8 & = & T_\frac{{A}}{25} \\ T_{A} & = & 67.8 \times 25 = 1695\end{array}$
 
 **[1]**
 
 > *For all students across both classes*
 
-`table row cell 72.0 end cell equals cell T subscript T over 55 end cell row cell T subscript T end cell equals 3960 end table`
+$\begin{array}{ccc}72.0 & = & T_\frac{{T}}{55} \\ T_{T} & = 3960\end{array}$
 
 > *We can now find the total marks for class B by subtracting the total marks for group A from the total marks acorss both classes.*
 
@@ -1215,17 +1215,17 @@ $\mathrm{Mean} \mathrm{mark} \mathrm{for} \mathrm{class}B=\frac{2265}{30}=75.5$
 
 *1, 1, 1, 1, 1, 1, 1, 2, 2, ... 2, 3, 3, ..., 3, 4, 4, ..., 4, 5, 5, 5, 5, 5, 5, 5, 5**  *
 
-*The median value is the *`open parentheses fraction numerator 26 plus 1 over denominator 2 end fraction close parentheses to the power of t h end exponent`* = 13.5*<sup>*th*</sup>* score, the midpoint of the 13*<sup>*th*</sup>* and 14*<sup>*th*</sup>* value *
+*The median value is the *$( \frac{26 + 1}{2} )^{t h}$* = 13.5*<sup>*th*</sup>* score, the midpoint of the 13*<sup>*th*</sup>* and 14*<sup>*th*</sup>* value *
 *If the median is 3.5, then the first half of the list is 1, 1, ..., 3, 3 and the second half of the list is 4, 4, ..., 5, 5 *
 *The second half of the list has 13 values, made up of **c** lots of 4 and 8 lots of 5 *** **
 
-** **`table row cell c plus 8 end cell equals 13 row c equals 5 end table`
+** **$\begin{gathered} c + 8 & = 13 \\ c = 5 \end{gathered}$
 
 **[1]**
 
 > *The first half of the list has 13 values, made up of 7 lots of 1, **a** lots of 2 and **b** lots of 3  *
 
-`table row cell 7 plus a plus b end cell equals 13 row cell a plus b end cell equals 6 end table`
+$\begin{gathered} 7 + a + b & = 13 \\ a + b & = 6 \end{gathered}$
 
 **[1]*** *
 
@@ -1268,7 +1268,7 @@ $\frac{1651}{20}$
 
 > *8 is the median so find the median of the lower half and the upper half*
 
-`1 space space space space space 2 space space space space space circle enclose 4 space space space space space 6 space space space space space 6 space space space space space space circle enclose 8 space space space space space 11 space space space space space 12 space space space space circle enclose 13 space end enclose space space space 14 space space space space 17`
+`1 2 circle 4 6 6 circle 8 11 12 circle 13 14 17`
 
 **[M1]**
 
@@ -1289,11 +1289,11 @@ $9$
 
 > *The area of a circle is given by the formula *$A=πr^{2}$*.*
 
-*Area of Adley pie chart*`equals straight pi open parentheses 5 close parentheses squared equals 25 straight pi`
+*Area of Adley pie chart*$= \mathrm{\pi } ( 5 )^{2} = 25 \mathrm{\pi }$
 
 **[1]**
 
-*Area of Bridford pie chart*`equals straight pi open parentheses 4 close parentheses squared equals 16 straight pi`
+*Area of Bridford pie chart*$= \mathrm{\pi } ( 4 )^{2} = 16 \mathrm{\pi }$
 
 > *So the ratio of the populations of Adley to Bridford (*$A:B$*) is*
 
@@ -1317,7 +1317,7 @@ $\frac{25}{41}\times\frac{7}{36}=\frac{175}{1476}$
 
 *This is an awkward fraction so the answer is best given as a percentage.* *To change *$\frac{175}{1476}$* to a percentage use your calculator to convert it to a decimal, and then multiply by 100.*
 
-`175 over 1476 cross times 100 percent sign equals 11.856 space...`
+$\frac{175}{1476} \times 100 \% = 11.856 ...$
 
 > *Round your final answer to a sensible degree of accuracy, three significant figures is often used.*
 
@@ -1330,20 +1330,20 @@ $\frac{25}{41}\times\frac{7}{36}=\frac{175}{1476}$
 
 | > *Time, t (mins)* | > *Frequency* | > *Midpoint* |   |
 |---|---|---|---|
-| `0 space less-than or slanted equal to space t space less than space 30` | > *24* | *15* |   |
-| `30 space less-than or slanted equal to space t space less than space 50` | > *76* | *40* |   |
-| `50 space less-than or slanted equal to space t space less than space 60` | > *52* | *55* |   |
-| `60 space less-than or slanted equal to space t space less than space 90` | > *48* | *75* |   |
+| $0 \text{less} - \text{than} or \text{slanted} \text{equal} to t < 30$ | > *24* | *15* |   |
+| $30 \text{less} - \text{than} or \text{slanted} \text{equal} to t < 50$ | > *76* | *40* |   |
+| $50 \text{less} - \text{than} or \text{slanted} \text{equal} to t < 60$ | > *52* | *55* |   |
+| $60 \text{less} - \text{than} or \text{slanted} \text{equal} to t < 90$ | > *48* | *75* |   |
 |   | > *Total = 200* |   |   |
 
 > *Multiply the frequencies by the midpoints to fill in the final column*
 
 | > *Time, t (mins)* | > *Frequency* | > *Midpoint* |   |
 |---|---|---|---|
-| `0 space less-than or slanted equal to space t space less than space 30` | > *24* | > *15* | *24 × 15 = 360* |
-| `30 space less-than or slanted equal to space t space less than space 50` | > *76* | > *40* | *76 × 40 = 3040* |
-| `50 space less-than or slanted equal to space t space less than space 60` | > *52* | > *55* | *52 × 55 = 2860* |
-| `60 space less-than or slanted equal to space t space less than space 90` | > *48* | > *75* | *48 × 75 = 3600* |
+| $0 \text{less} - \text{than} or \text{slanted} \text{equal} to t < 30$ | > *24* | > *15* | *24 × 15 = 360* |
+| $30 \text{less} - \text{than} or \text{slanted} \text{equal} to t < 50$ | > *76* | > *40* | *76 × 40 = 3040* |
+| $50 \text{less} - \text{than} or \text{slanted} \text{equal} to t < 60$ | > *52* | > *55* | *52 × 55 = 2860* |
+| $60 \text{less} - \text{than} or \text{slanted} \text{equal} to t < 90$ | > *48* | > *75* | *48 × 75 = 3600* |
 |   | > *Total = 200* |   |   |
 
 **[1]**
@@ -1352,10 +1352,10 @@ $\frac{25}{41}\times\frac{7}{36}=\frac{175}{1476}$
 
 | > *Time, t (mins)* | > *Frequency* | > *Midpoint* |   |
 |---|---|---|---|
-| `0 space less-than or slanted equal to space t space less than space 30` | > *24* | > *15* | > *24 × 15 = 360* |
-| `30 space less-than or slanted equal to space t space less than space 50` | > *76* | > *40* | > *76 × 40 = 3040* |
-| `50 space less-than or slanted equal to space t space less than space 60` | > *52* | > *55* | > *52 × 55 = 2860* |
-| `60 space less-than or slanted equal to space t space less than space 90` | > *48* | > *75* | > *48 × 75 = 3600* |
+| $0 \text{less} - \text{than} or \text{slanted} \text{equal} to t < 30$ | > *24* | > *15* | > *24 × 15 = 360* |
+| $30 \text{less} - \text{than} or \text{slanted} \text{equal} to t < 50$ | > *76* | > *40* | > *76 × 40 = 3040* |
+| $50 \text{less} - \text{than} or \text{slanted} \text{equal} to t < 60$ | > *52* | > *55* | > *52 × 55 = 2860* |
+| $60 \text{less} - \text{than} or \text{slanted} \text{equal} to t < 90$ | > *48* | > *75* | > *48 × 75 = 3600* |
 |   | > *Total = 200* |   | *Total = 9860* |
 
 *Work out an estimate of the mean time by dividing the final column total by the total of the frequencies*
@@ -1431,30 +1431,30 @@ $1453+x=1880\,\,x=1880-1453$
 
 | > *Distance, *$x$* (miles)* | > *Frequency* | ***Midpoint*** |   |
 |---|---|---|---|
-| `0 space less than space x space less-than or slanted equal to space 5` | > *20* | *2.5* |   |
-| `5 space less than space x space less-than or slanted equal to space 10` | > *48* | *7.5* |   |
-| `10 space less than space x space less-than or slanted equal to space 15` | > *30* | *12.5* |   |
-| `15 space less than space x space less-than or slanted equal to space 20` | > *22* | *17.5* |   |
+| $0 < x \text{less} - \text{than} or \text{slanted} \text{equal} to 5$ | > *20* | *2.5* |   |
+| $5 < x \text{less} - \text{than} or \text{slanted} \text{equal} to 10$ | > *48* | *7.5* |   |
+| $10 < x \text{less} - \text{than} or \text{slanted} \text{equal} to 15$ | > *30* | *12.5* |   |
+| $15 < x \text{less} - \text{than} or \text{slanted} \text{equal} to 20$ | > *22* | *17.5* |   |
 |   | > *Total = 120* |   |   |
 
 > *Multiply the frequencies by the midpoints to fill in the final column  *
 
 | > *Distance, *$x$* (miles)* | > *Frequency* | > *Midpoint* |   |
 |---|---|---|---|
-| `0 space less than space x space less-than or slanted equal to space 5` | > *20* | > *2.5* | *20 × 2.5 = 50* |
-| `5 space less than space x space less-than or slanted equal to space 10` | > *48* | > *7.5* | *48 × 7.5 = 360* |
-| `10 space less than space x space less-than or slanted equal to space 15` | > *30* | > *12.5* | *30 × 12.5 = 375* |
-| `15 space less than space x space less-than or slanted equal to space 20` | > *22* | > *17.5* | *22 × 17.5 = 385* |
+| $0 < x \text{less} - \text{than} or \text{slanted} \text{equal} to 5$ | > *20* | > *2.5* | *20 × 2.5 = 50* |
+| $5 < x \text{less} - \text{than} or \text{slanted} \text{equal} to 10$ | > *48* | > *7.5* | *48 × 7.5 = 360* |
+| $10 < x \text{less} - \text{than} or \text{slanted} \text{equal} to 15$ | > *30* | > *12.5* | *30 × 12.5 = 375* |
+| $15 < x \text{less} - \text{than} or \text{slanted} \text{equal} to 20$ | > *22* | > *17.5* | *22 × 17.5 = 385* |
 |   | > *Total = 120* |   |   |
 
 > *Calculate the sum of the final column  *
 
 | > *Distance, *$x$* (miles)* | > *Frequency* | > *Midpoint* |   |
 |---|---|---|---|
-| `0 space less than space x space less-than or slanted equal to space 5` | > *20* | > *2.5* | > *20 × 2.5 = 50* |
-| `5 space less than space x space less-than or slanted equal to space 10` | > *48* | > *7.5* | > *48 × 7.5 = 360* |
-| `10 space less than space x space less-than or slanted equal to space 15` | > *30* | > *12.5* | > *30 × 12.5 = 375* |
-| `15 space less than space x space less-than or slanted equal to space 20` | > *22* | > *17.5* | > *22 × 17.5 = 385* |
+| $0 < x \text{less} - \text{than} or \text{slanted} \text{equal} to 5$ | > *20* | > *2.5* | > *20 × 2.5 = 50* |
+| $5 < x \text{less} - \text{than} or \text{slanted} \text{equal} to 10$ | > *48* | > *7.5* | > *48 × 7.5 = 360* |
+| $10 < x \text{less} - \text{than} or \text{slanted} \text{equal} to 15$ | > *30* | > *12.5* | > *30 × 12.5 = 375* |
+| $15 < x \text{less} - \text{than} or \text{slanted} \text{equal} to 20$ | > *22* | > *17.5* | > *22 × 17.5 = 385* |
 |   | > *Total = 120* |   | *Total = 1170* |
 
 **[1]**
@@ -1475,7 +1475,7 @@ $\frac{1170}{120}$
 
 *3, 3, 4, 4, 5, 5, 5, 5, 6, 6, 6, 6, 6, 6, 6, ...**  *
 
-> *The median value is the *`open parentheses fraction numerator 29 plus 1 over denominator 2 end fraction close parentheses to the power of t h end exponent`* = 15*<sup>*th*</sup>* score  *
+> *The median value is the *$( \frac{29 + 1}{2} )^{t h}$* = 15*<sup>*th*</sup>* score  *
 
 *the 15**<sup>th</sup>** score is 6*
 
@@ -1488,7 +1488,7 @@ $\frac{1170}{120}$
 ### 4((a)) — 2 marks
 > *From the bar chart you can see that 2 students bought 20 to 24 books, and the total number of students, 40, is given in the question. Calculate 2 out of 40 as a percentage.*
 
-`2 over 40 cross times 100 percent sign`
+$\frac{2}{40} \times 100 \%$
 
 **[1]**
 
@@ -1505,13 +1505,13 @@ $\frac{1170}{120}$
 
 > *Estimate the total number of books bought by multiplying the frequencies by the corresponding midpoints and add the resulting products (the square brackets in the calculation below are not necessary; they are just there to make the process easier to follow). *
 
-`open square brackets 11 cross times 2 close square brackets plus open square brackets 8 cross times 7 close square brackets plus open square brackets 13 cross times 12 close square brackets plus open square brackets 6 cross times 17 close square brackets plus open square brackets 2 cross times 22 close square brackets`
+$[ 11 \times 2 ] + [ 8 \times 7 ] + [ 13 \times 12 ] + [ 6 \times 17 ] + [ 2 \times 22 ]$
 
 **multiplying at least 4 frequencies by midpoints correctly**** [1]**
 
 > *Find the mean by dividing the result by the total number of students, 40.*
 
-*mean*`equals fraction numerator open square brackets 11 cross times 2 close square brackets plus open square brackets 8 cross times 7 close square brackets plus open square brackets 13 cross times 12 close square brackets plus open square brackets 6 cross times 17 close square brackets plus open square brackets 2 cross times 22 close square brackets over denominator 40 end fraction equals 380 over 40`
+*mean*$= \frac{[ 11 \times 2 ] + [ 8 \times 7 ] + [ 13 \times 12 ] + [ 6 \times 17 ] + [ 2 \times 22 ]}{40} = \frac{380}{40}$
 
 **dividing the sum by 40**** [1]**
 
@@ -1525,11 +1525,11 @@ $\frac{1170}{120}$
 
 | *Time taken* *(*$t$* minutes)* | *Number of* *customers* | *midpoints* |   |
 |---|---|---|---|
-| `0 space less than space t space less-than or slanted equal to space 3` | > *6* | *1.5* |   |
-| `3 less than space t space less-than or slanted equal to space 6` | > *10* | *4.5* |   |
-| `6 space less than space t space less-than or slanted equal to space 9` | > *6* | *7.5* |   |
-| `9 space less than space t space less-than or slanted equal to space 12` | > *2* | *10.5* |   |
-| `12 space less than space t space less-than or slanted equal to space 15` | > *1* | *13.5* |   |
+| $0 < t \text{less} - \text{than} or \text{slanted} \text{equal} to 3$ | > *6* | *1.5* |   |
+| $3 < t \text{less} - \text{than} or \text{slanted} \text{equal} to 6$ | > *10* | *4.5* |   |
+| $6 < t \text{less} - \text{than} or \text{slanted} \text{equal} to 9$ | > *6* | *7.5* |   |
+| $9 < t \text{less} - \text{than} or \text{slanted} \text{equal} to 12$ | > *2* | *10.5* |   |
+| $12 < t \text{less} - \text{than} or \text{slanted} \text{equal} to 15$ | > *1* | *13.5* |   |
 
 **at least 4 correct**** [1]**
 
@@ -1537,11 +1537,11 @@ $\frac{1170}{120}$
 
 | *Time taken* *(*$t$* minutes)* | *Number of* *customers* | > *midpoints* |   |
 |---|---|---|---|
-| `0 space less than space t space less-than or slanted equal to space 3` | > *6* | > *1.5* | *6 × 1.5 = 9* |
-| `3 less than space t space less-than or slanted equal to space 6` | > *10* | > *4.5* | *10 × 4.5 = 45* |
-| `6 space less than space t space less-than or slanted equal to space 9` | > *6* | > *7.5* | *6 × 7.5 = 45* |
-| `9 space less than space t space less-than or slanted equal to space 12` | > *2* | > *10.5* | *2 × 10.5 = 21* |
-| `12 space less than space t space less-than or slanted equal to space 15` | > *1* | > *13.5* | *1 × 13.5 = 13.5* |
+| $0 < t \text{less} - \text{than} or \text{slanted} \text{equal} to 3$ | > *6* | > *1.5* | *6 × 1.5 = 9* |
+| $3 < t \text{less} - \text{than} or \text{slanted} \text{equal} to 6$ | > *10* | > *4.5* | *10 × 4.5 = 45* |
+| $6 < t \text{less} - \text{than} or \text{slanted} \text{equal} to 9$ | > *6* | > *7.5* | *6 × 7.5 = 45* |
+| $9 < t \text{less} - \text{than} or \text{slanted} \text{equal} to 12$ | > *2* | > *10.5* | *2 × 10.5 = 21* |
+| $12 < t \text{less} - \text{than} or \text{slanted} \text{equal} to 15$ | > *1* | > *13.5* | *1 × 13.5 = 13.5* |
 
 **at least 4 correct ****[1]**
 
@@ -1549,11 +1549,11 @@ $\frac{1170}{120}$
 
 | *Time taken* *(*$t$* minutes)* | *Number of* *customers* | > *midpoints* |   |
 |---|---|---|---|
-| `0 space less than space t space less-than or slanted equal to space 3` | > *6* | > *1.5* | > *6 × 1.5 = 9* |
-| `3 less than space t space less-than or slanted equal to space 6` | > *10* | > *4.5* | > *10 × 4.5 = 45* |
-| `6 space less than space t space less-than or slanted equal to space 9` | > *6* | > *7.5* | > *6 × 7.5 = 45* |
-| `9 space less than space t space less-than or slanted equal to space 12` | > *2* | > *10.5* | > *2 × 10.5 = 21* |
-| `12 space less than space t space less-than or slanted equal to space 15` | > *1* | > *13.5* | > *1 × 13.5 = 13.5* |
+| $0 < t \text{less} - \text{than} or \text{slanted} \text{equal} to 3$ | > *6* | > *1.5* | > *6 × 1.5 = 9* |
+| $3 < t \text{less} - \text{than} or \text{slanted} \text{equal} to 6$ | > *10* | > *4.5* | > *10 × 4.5 = 45* |
+| $6 < t \text{less} - \text{than} or \text{slanted} \text{equal} to 9$ | > *6* | > *7.5* | > *6 × 7.5 = 45* |
+| $9 < t \text{less} - \text{than} or \text{slanted} \text{equal} to 12$ | > *2* | > *10.5* | > *2 × 10.5 = 21* |
+| $12 < t \text{less} - \text{than} or \text{slanted} \text{equal} to 15$ | > *1* | > *13.5* | > *1 × 13.5 = 13.5* |
 |   | *Total = 25* | > * * | *Total = 133.5* |
 
 *Work out an estimate of the mean time by dividing the final column total by the total of the frequencies (Number of customers)*
@@ -1587,7 +1587,7 @@ $\frac{8+8+c+d}{4}=11$
 
 > *Multiply both sides by 4 and simplify*
 
-`table row cell 8 plus 8 plus c plus d end cell equals 44 row cell 16 plus space c plus d end cell equals 44 row cell c plus d end cell equals 28 end table`
+$\begin{gathered} 8 + 8 + c + d & = 44 \\ 16 + c + d & = 44 \\ c + d & = 28 \end{gathered}$
 
 > *The final fact is that the range (difference between largest and smallest number) is 7*
 
@@ -1637,11 +1637,11 @@ $11$
 
 | **Speed (s mph)** | **Number of** **vehicles** | *Midpoint* | *Frequency × Midpoint* |
 |---|---|---|---|
-| `0 space less than space s space less-than or slanted equal to 20` | 5 | *10* | *5 × 10 = 50* |
-| `20 space less than space s space less-than or slanted equal to 40` | 8 | *30* | *8 × 30 = 240* |
-| `40 space less than space s space less-than or slanted equal to 50` | 37 | *45* | *37 × 45 = 1665* |
-| `50 space less than space s space less-than or slanted equal to 60` | 47 | *55* | *47 × 55 = 2585* |
-| `60 space less than space s space less-than or slanted equal to 80` | 3 | *70* | *3 × 70 = 210* |
+| $0 < s \text{less} - \text{than} or \text{slanted} \text{equal} to 20$ | 5 | *10* | *5 × 10 = 50* |
+| $20 < s \text{less} - \text{than} or \text{slanted} \text{equal} to 40$ | 8 | *30* | *8 × 30 = 240* |
+| $40 < s \text{less} - \text{than} or \text{slanted} \text{equal} to 50$ | 37 | *45* | *37 × 45 = 1665* |
+| $50 < s \text{less} - \text{than} or \text{slanted} \text{equal} to 60$ | 47 | *55* | *47 × 55 = 2585* |
+| $60 < s \text{less} - \text{than} or \text{slanted} \text{equal} to 80$ | 3 | *70* | *3 × 70 = 210* |
 
 **Midpoints ****[1]*** *
 **Frequency × Midpoints**** [1]**
@@ -1679,7 +1679,7 @@ $\frac{76+76+c+d}{4}=75$
 
 > *Multiply both sides by 4 and simplify*
 
-`table row cell 76 plus 76 plus c plus d end cell equals 300 row cell 152 plus space c plus d end cell equals 300 row cell c plus d end cell equals 148 end table`
+$\begin{gathered} 76 + 76 + c + d & = 300 \\ 152 + c + d & = 300 \\ c + d & = 148 \end{gathered}$
 
 > *The final fact is that the range (difference between largest and smallest number) is 10*
 
@@ -1689,7 +1689,7 @@ $d-c=10$
 
 > *We can add the two equations, *$c+d=148$* and *$d-c=10$*, together*
 
-`table row cell 2 d end cell equals 158 row d equals 79 end table`
+$\begin{gathered} 2 d & = 158 \\ d = 79 \end{gathered}$
 
 > *As the range was 10*
 
@@ -1739,7 +1739,7 @@ $\frac{44}{2}+20=42$
 
 > *Write this as a percentage of the total.*
 
-`42 over 168 cross times 100 percent sign equals 25 percent sign`
+$\frac{42}{168} \times 100 \% = 25 \%$
 
 **25%**** of all of the students at this Academy took ****more than 30 minutes** **[1]**
 

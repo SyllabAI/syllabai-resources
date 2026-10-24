@@ -20,7 +20,7 @@ guided_study: false
 
 ### What is the working capital cycle?
 
-| What is the formula? | `Trade space receivables space turnover space open parentheses days close parentheses plus inventory space turnover space open parentheses days close parentheses<br>minus trade space payables space turnover space open parentheses days close parentheses` |
+| What is the formula? | $Trade \text{receivables} \text{turnover} ( \text{days} ) + \text{inventory} \text{turnover} ( \text{days} ) \quad - \text{trade} \text{payables} \text{turnover} ( \text{days} )$ |
 |---|---|
 | How should the value be written? | Write as the number of days (X days) |
 | How should the value be rounded? | Each ratio is rounded up to the next whole day |
@@ -88,7 +88,7 @@ guided_study: false
 > 
 >   - $\frac{\mathrm{Opening} \mathrm{inventory}+\mathrm{Closing} \mathrm{inventory}}{2}$
 > 
-> `fraction numerator $ 7 space 000 space plus space $ 9 space 000 over denominator 2 end fraction equals $ 8 space 000`
+> $\frac{\$ 7 000 + \$ 9 000}{2} = \$ 8 000$
 > 
 > - Calculate the cost of sales
 > 
@@ -106,8 +106,7 @@ guided_study: false
 > 
 > - Calculate the working capital cycle
 > 
->   - `Trade space receivables space turnover space open parentheses days close parentheses plus inventory space turnover space open parentheses days close parentheses
->   minus trade space payables space turnover space open parentheses days close parentheses`
+>   - $Trade \text{receivables} \text{turnover} ( \text{days} ) + \text{inventory} \text{turnover} ( \text{days} ) > - \text{trade} \text{payables} \text{turnover} ( \text{days} )$
 > 
 > $101+127-59=169$
 > 
@@ -122,7 +121,7 @@ guided_study: false
 
 ### What is the net working assets to revenue ratio?
 
-| What is the formula? | `fraction numerator Net space working space assets over denominator Revenue space open parentheses sales close parentheses end fraction cross times 100`<br><br>where<br><br>$\mathrm{Net} \mathrm{working} \mathrm{assets}=\mathrm{inventories}+\mathrm{trade} \mathrm{receivables}-\mathrm{trade} \mathrm{payables}$ |
+| What is the formula? | $\frac{Net \text{working} assets}{Revenue ( \text{sales} )} \times 100$<br><br>where<br><br>$\mathrm{Net} \mathrm{working} \mathrm{assets}=\mathrm{inventories}+\mathrm{trade} \mathrm{receivables}-\mathrm{trade} \mathrm{payables}$ |
 |---|---|
 | How should the value be written? | Write as a percentage (X%) |
 | How should the value be rounded? | Round to two decimal places |
@@ -171,8 +170,8 @@ guided_study: false
 > 
 > - Calculate the net working assets to revenue ratio
 > 
->   - `fraction numerator Net space working space assets over denominator Revenue space open parentheses sales close parentheses end fraction cross times 100`
+>   - $\frac{Net \text{working} assets}{Revenue ( \text{sales} )} \times 100$
 > 
-> `fraction numerator 16 space 000 over denominator 40 space 000 end fraction cross times 100 equals 40 percent sign`
+> $\frac{16 000}{40 000} \times 100 = 40 \%$
 > 
 > **Final answer:** **40%**

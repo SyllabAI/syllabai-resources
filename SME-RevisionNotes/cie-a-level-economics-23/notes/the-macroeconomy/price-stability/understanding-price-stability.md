@@ -56,11 +56,11 @@ $\mathrm{Real} \mathrm{value}=\frac{\mathrm{Nominal} \mathrm{value}}{\mathrm{Pri
 > 
 > Step 1 - Substitute values into the formula
 > 
-> `Real space GDP space equals space fraction numerator Nominal space GDP over denominator Price space index end fraction space straight x space 100
+> $\text{Real} \text{GDP} = \frac{Nominal GDP}{Price index} \mathrm{x} 100
 > 
-> Real space GDP space equals 550 over 110 space straight x space 100
+> \text{Real} \text{GDP} = \frac{550}{110} \mathrm{x} 100
 > 
-> Real space GDP space equals $ 500 bn`
+> \text{Real} \text{GDP} = \$ 500 \text{bn}$
 
 | Measure | What it shows | Problem |
 |---|---|---|

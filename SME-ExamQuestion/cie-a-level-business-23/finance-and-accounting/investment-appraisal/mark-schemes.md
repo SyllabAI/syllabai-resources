@@ -412,13 +412,13 @@ Investment appraisal is the process of assessing the likely financial returns fr
 
 $\text{ARR} = \frac{\text{Average annual profit}}{\text{Initial investment}} \times 100$
 
-`text ARR end text equals 80 over 500 cross times 100
+$\text{ARR} = \frac{80}{500} \times 100
 
-equals space 16 percent sign`
+= 16 \%$
 
 > **[mark-scheme]**
 > - Up to 2 marks for valid workings
-> - 1 mark for the correct answer of `16 percent sign`
+> - 1 mark for the correct answer of $16 \%$
 > 
 > A correct answer with no working shown still receives full marks.
 
@@ -430,13 +430,13 @@ equals space 16 percent sign`
 
 $\text{ARR} = \frac{\text{Average annual profit}}{\text{Initial investment}} \times 100$
 
-`equals fraction numerator 120 comma 000 over denominator 600 comma 000 end fraction cross times 100
+$= \frac{120 , 000}{600 , 000} \times 100
 
-equals 20 percent sign`
+= 20 \%$
 
 > **[mark-scheme]**
 > - Up to 2 marks for valid workings
-> - 1 mark for the correct answer of `20 percent sign`
+> - 1 mark for the correct answer of $20 \%$
 > 
 > A correct answer with no working shown still receives full marks.
 
@@ -446,25 +446,25 @@ equals 20 percent sign`
 ### Q16
 **\$47,700** **[3]**
 
-Year 1: `$ 70 comma 000 space cross times space 0.93 space equals space $ 65 comma 100`
+Year 1: $\$ 70 , 000 \times 0.93 = \$ 65 , 100$
 
-Year 2: `$ 70 comma 000 space cross times space 0.86 space equals space $ 60 comma 200`
+Year 2: $\$ 70 , 000 \times 0.86 = \$ 60 , 200$
 
-Year 3: `$ 80 comma 000 space cross times space 0.79 space equals space $ 63 comma 200`
+Year 3: $\$ 80 , 000 \times 0.79 = \$ 63 , 200$
 
-Year 4: `$ 80 comma 000 space cross times space 0.74 space equals space $ 59 comma 200`
+Year 4: $\$ 80 , 000 \times 0.74 = \$ 59 , 200$
 
 Total present value (Years 1–4)
 
-`equals space $ 65 comma 100 space plus space $ 60 comma 200 space plus space $ 63 comma 200 space plus space $ 59 comma 200 space
+$= \$ 65 , 100 + \$ 60 , 200 + \$ 63 , 200 + \$ 59 , 200 
 
-equals space $ 247 comma 700`
+= \$ 247 , 700$
 
 NPV
 
-`equals space $ 247 comma 700 space minus space $ 200 comma 000 space space
+$= \$ 247 , 700 - \$ 200 , 000 
 
-equals space $ 47 comma 700`
+= \$ 47 , 700$
 
 > **[mark-scheme]**
 > - Up to 2 marks for valid workings
@@ -477,19 +477,19 @@ equals space $ 47 comma 700`
 
 Total present value (Years 1–5)
 
-`equals space 0.282 space plus space 0.4895 space plus space 0.504 space plus space 0.474 space plus space 0.450 space
+$= 0.282 + 0.4895 + 0.504 + 0.474 + 0.450 
 
-equals space $ 2.1995 straight m`
+= \$ 2.1995 \mathrm{m}$
 
 NPV
 
-`equals space $ 2.1995 straight m space minus space $ 1.5 straight m space space
+$= \$ 2.1995 \mathrm{m} - \$ 1.5 \mathrm{m} 
 
-equals space $ 0.6995 straight m`
+= \$ 0.6995 \mathrm{m}$
 
 > **[mark-scheme]**
 > - Up to 2 marks for valid workings
-> - 1 mark for the correct answer of `$ 0.6995 straight m`
+> - 1 mark for the correct answer of $\$ 0.6995 \mathrm{m}$
 > 
 > A correct answer with no working shown still receives full marks.
 

@@ -49,14 +49,14 @@ $\mathrm{sin}x=\frac{1}{3}$
 
 - then use $\mathrm{sin}^{-1}$ on your calculator to find the value of $x$
 
-`x equals sin to the power of negative 1 end exponent open parentheses 1 third close parentheses equals 19.471220...`
+$x = \sin ^{- 1} ( 1 \frac{1}{3} ) = 19.471220...$
 
 Round to a suitable degree of accuracy
 
 - For angles in degrees you should round to 1 decimal place (unless the question says otherwise)
 - The '7' in the second decimal place says you should round the first decimal place '4' up to a 5
 
-`x equals 19.5 space space open parentheses 1 space straight d. straight p. close parentheses`
+$x = 19.5 ( 1 \mathrm{d} . \mathrm{p} . )$
 
 **[A1]**
 
@@ -87,16 +87,16 @@ $y=33^{\circ}$
 **[B1]**
 > *Using the correct trigonometric equation*
 
-`sin open parentheses y close parentheses equals opposite over hypotenuse
-sin open parentheses 33 close parentheses equals fraction numerator 4 over denominator B E end fraction`
+$\sin ( y ) = \frac{opposite}{hypotenuse} 
+\sin ( 33 ) = \frac{4}{B E}$
 
 **[M1]**
 
 > *Rearrange to find *$BE$
 
-`B E cross times sin open parentheses 33 close parentheses equals 4
-B E equals fraction numerator 4 over denominator sin open parentheses 33 close parentheses end fraction
-B E equals 7.3443...`
+$B E \times \sin ( 33 ) = 4
+B E = \frac{4}{\sin ( 33 )} 
+B E = 7.3443...$
 
 **[M1]**
 
@@ -140,7 +140,7 @@ i) $OA=OB$* (radii of the circle), therefore *$OAB$* **is an isosceles triangle.
 
 > *Using the rule that angles in a triangle sum to *$180^{\circ}$*, the missing angle *$x$* is equal to*
 
-> * *`180 minus open parentheses 24 plus 24 close parentheses`
+> * *$180 - ( 24 + 24 )$
 
 * *
 
@@ -156,7 +156,7 @@ ii) *Use the circle theorem: the angle in a semicircle is *$90^{\circ}$*.*
 
 > *Angles in a triangle sum to *$180^{\circ}$* so subtract the two known angles to find *$y$*. *
 
-`180 minus open parentheses 90 plus 73 close parentheses`
+$180 - ( 90 + 73 )$
 
 ** **** ****y**** =**** ****17**$^{\circ}$** ****because the angle in a semicircle is 90**$^{\circ}$** [2] **
 
@@ -281,7 +281,7 @@ $\mathrm{angle}OPQ=90-53=37$
 
 > *Add together the base angles and subtract from 180 (total degrees in a triangle). *
 
-`180 minus open parentheses 37 plus 37 close parentheses equals 106`
+$180 - ( 37 + 37 ) = 106$
 
 **[1]**
 
@@ -300,14 +300,14 @@ $180-90-63=27$
 
 ii) *EF** is the hypotenuse and **DF** is the side adjacent to the given angle. Use trigonometry to work out side **DF.  *
 
-`cos open parentheses 63 close parentheses space equals fraction numerator space D F over denominator 12 end fraction`
+$\cos ( 63 ) = \frac{ D F}{12}$
 
 **[1]**
 
 > *Multiply both sides by 12 and type this into your calculator.  *
 
-`12 space cross times space cos open parentheses 63 close parentheses space equals space D F space
-D F thin space equals space 5.447...`
+$12 \times \cos ( 63 ) = D F 
+D F = 5.447...$
 
 > *Round to three significant figures.  *
 
@@ -334,7 +334,7 @@ D F thin space equals space 5.447...`
 
 ![cie-igcse-2020-may-jun-p4-tz3-q8bi-ma](assets/012-cie-igcse-2020-may-jun-p4-tz3-q8bi-ma.png)
 
-`table row cell 45 plus z end cell equals 90 row z equals cell 90 minus 45 end cell end table`
+$\begin{gathered} 45 + z & = 90 \\ z = 90 - 45 \end{gathered}$
 
 $z=45$ **[1]**
 
@@ -386,7 +386,7 @@ $\mathrm{Angle}ABC=42^{\circ}$ **[1]**
 
 > *As the sum of angles in a triangle is *$180^{\circ}$*.  *
 
-`180 minus open parentheses 90 plus 61 close parentheses equals 29 degree`
+$180 - ( 90 + 61 ) = 29^{\circ}$
 
 **  **$b=29^{\circ}$** ****because the angle in a semicircle is**** **$90^{\circ}$** [2] **
 
@@ -402,11 +402,11 @@ $\mathrm{Angle}ABC=42^{\circ}$ **[1]**
 *Angles in a triangle add up to *$180^{\circ}$ 
 *Subtract angles *$CAB$* and *$ACB$* from *$180^{\circ}$* to find *$j$
 
-`table row cell 180 minus 37 minus 90 end cell equals j row j equals 53 end table`
+$\begin{gathered} 180 - 37 - 90 & = j \\ j = 53 \end{gathered}$
 
-> *The angle between a radius *`open parentheses O A close parentheses`* and a tangent *`open parentheses R P close parentheses`* is always *$90^{\circ}$* so angle *$OBP=90^{\circ}$
+> *The angle between a radius *$( O A )$* and a tangent *$( R P )$* is always *$90^{\circ}$* so angle *$OBP=90^{\circ}$
 
-`table attributes columnalign right center left columnspacing 0px end attributes row cell j plus k end cell equals 90 row cell 53 plus k end cell equals 90 row k equals 37 end table`
+$\begin{array}{rcl} j + k & = 90 \\ 53 + k & = 90 \\ k = 37 \end{array}$
 
 $j=53$** [1]**
  $k=37$ **[1]**

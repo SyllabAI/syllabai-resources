@@ -142,11 +142,11 @@ List the known quantities:
 
 Calculate the cross-sectional area of the wire:
 
-- `A equals pi r squared equals straight pi cross times open parentheses fraction numerator 0.181 cross times 10 to the power of negative 3 end exponent over denominator 2 end fraction close parentheses squared equals 2.57 cross times 10 to the power of negative 8 end exponent space straight m squared` **[1 mark]**
+- $A = \pi r^{2} = \mathrm{\pi } \times ( \frac{0.181 \times 10^{- 3} }{2} )^{2} = 2.57 \times 10^{- 8} \mathrm{m}^{2}$ **[1 mark]**
 
 Calculate the resistance, *R*:
 
-- `R equals fraction numerator rho l over denominator A end fraction equals fraction numerator open parentheses 1.10 cross times 10 to the power of negative 6 end exponent close parentheses cross times 0.550 over denominator 2.57 cross times 10 to the power of negative 8 end exponent end fraction` **[1 mark]**
+- $R = \frac{\\rho l}{A} = \frac{( 1.10 \times 10^{- 6} ) \times 0.550}{2.57 \times 10^{- 8} }$ **[1 mark]**
 - Resistance = 23.5 Ω **[1 mark]**
 
 **[Total: 3 marks]**
@@ -169,7 +169,7 @@ Calculate the total resistance in the circuit when X and Y are closed:
 
 - When X is closed: $R_{tot}=23.5+23.5=47Ω$
 - When Y is closed: $R_{tot}=23.5Ω$
-- When X and Y are closed: `R subscript t o t end subscript equals open parentheses 1 over 47 plus fraction numerator 1 over denominator 23.5 end fraction close parentheses to the power of negative 1 end exponent equals 15.7 space straight capital omega` **[1 mark]**
+- When X and Y are closed: `R _ t o t end _ = ( 1 / 47 + (1)/(23.5) ) ^ - 1 = 15.7 capital omega` **[1 mark]**
 
 Calculate power output at this resistance:
 
@@ -377,7 +377,7 @@ $R = \frac{V}{I}$
   - 1 volt is equal to 1 joule per coulomb
   - 1 amp is equal to 1 coulomb per second
 
-`open square brackets straight capital omega close square brackets space equals space straight V over straight A space equals space fraction numerator straight J space straight C to the power of negative 1 end exponent over denominator straight C space straight s to the power of negative 1 end exponent end fraction space equals space straight J space straight C to the power of negative 2 end exponent space straight s`
+`[ capital omega ] = V / A = ( J C ^ - 1 )/( C s ^ - 1 ) = J C ^ - 2 s`
 
 ## Q11 — medium — 1 marks · multiple-choice-questions
 
@@ -387,8 +387,8 @@ $R = \frac{V}{I}$
 **Final answer:** **The correct answer is ****D**** because:**
 
 - $P=\frac{E}{t}$ and $E_{k}=\frac{1}{2}mv^{2}$ and $v=\frac{s}{t}$
-- Therefore `P equals fraction numerator m v squared over denominator 2 t end fraction equals fraction numerator m open parentheses s over t close parentheses squared over denominator 2 t end fraction`
-- The units for this are `open square brackets W close square brackets equals space open square brackets fraction numerator k g open parentheses m squared over s squared close parentheses over denominator s end fraction close square brackets equals open square brackets k g space m squared space s to the power of negative 3 end exponent close square brackets`
+- Therefore $P = \frac{m v ^{2} }{2 t} = \frac{m ( \frac{s}{t} ) ^{2} }{2 t}$
+- The units for this are $[ W ] = [ \frac{\frac{k g ( m^{2}}{s^{2}} )}{s} ] = [ k g m^{2} s^{- 3} ]$
 
 **A** is incorrect as the base units of the coulomb are As
 

@@ -234,7 +234,7 @@
   },
   {
    "type": "paragraph",
-   "md": "Throughout this section we will use the random variable `X tilde straight B left parenthesis n comma p right parenthesis`. For binomial, the probability of a *X*  taking a non-integer or negative value is always zero. Therefore any values mentioned in this section will be assumed to be non-negative integers."
+   "md": "Throughout this section we will use the random variable $X \\sim \\mathrm{B} ( n , p )$. For binomial, the probability of a *X*  taking a non-integer or negative value is always zero. Therefore any values mentioned in this section will be assumed to be non-negative integers."
   },
   {
    "type": "heading",
@@ -243,7 +243,7 @@
   },
   {
    "type": "bullets",
-   "md": "- In your **formulae booklet** you get **tables** which list the values of for different values of *x*, *p and* *n*\n\n  - $n$ can be **5, 6, 7, 8, 9 10, 12, 15, 20, 25, 30, 40, 50**\n  - $p$ can be **05, 0.1, 0.15, 0.2, 0.25, 0.3, 0.35, 0.4, 0.45, 0.5**\n  - $x$ can be different values depending on *n*\n- The probabilities are rounded to **4 decimal places**\n- The values of $p$ **only go up to 0.5**\n\n  - You can instead count the number of failures `Y tilde B left parenthesis n comma 1 minus p right parenthesis` if the probability of success is bigger than 0.5\n  - Remember $X+Y=n$, which leads to identities:\n  \n    - $P(X=k)=P(Y=n-k)$\n    - $P(X\\leqk)=P(Y\\geqn-k)$\n    - $P(X\\geqk)=P(Y\\leqn-k)$"
+   "md": "- In your **formulae booklet** you get **tables** which list the values of for different values of *x*, *p and* *n*\n\n  - $n$ can be **5, 6, 7, 8, 9 10, 12, 15, 20, 25, 30, 40, 50**\n  - $p$ can be **05, 0.1, 0.15, 0.2, 0.25, 0.3, 0.35, 0.4, 0.45, 0.5**\n  - $x$ can be different values depending on *n*\n- The probabilities are rounded to **4 decimal places**\n- The values of $p$ **only go up to 0.5**\n\n  - You can instead count the number of failures $Y \\sim B ( n , 1 - p )$ if the probability of success is bigger than 0.5\n  - Remember $X+Y=n$, which leads to identities:\n  \n    - $P(X=k)=P(Y=n-k)$\n    - $P(X\\leqk)=P(Y\\geqn-k)$\n    - $P(X\\geqk)=P(Y\\leqn-k)$"
   },
   {
    "type": "heading",
@@ -252,7 +252,7 @@
   },
   {
    "type": "bullets",
-   "md": "- You can use the formula given in the formulae booklet\n\n  - `P left parenthesis X equals x right parenthesis equals open parentheses table row n row x end table close parentheses space p to the power of x open parentheses 1 minus p close parentheses to the power of n minus x end exponent`\n  \n    - The number of times this can happen is calculated by the **binomial coefficient **`open parentheses table row n row x end table close parentheses equals C presuperscript n subscript x equals fraction numerator n factorial over denominator x factorial left parenthesis n minus x right parenthesis factorial end fraction`\n- You can also use the tables for the ***Binomial Cumulative Distribution Function*** in the formulae booklet\n\n  - $P(X=k)=P(X\\leqk)-P(X\\leqk-1)$"
+   "md": "- You can use the formula given in the formulae booklet\n\n  - $P ( X = x ) = ( \\begin{gathered} n \\\\ x \\end{gathered} ) p^{x ( 1 - p )^{n} - x}$\n  \n    - The number of times this can happen is calculated by the **binomial coefficient **$( \\begin{gathered} n \\\\ x \\end{gathered} ) = C pre^{n}_{x} = \\frac{n factorial}{x \\text{factorial} ( n - x ) factorial}$\n- You can also use the tables for the ***Binomial Cumulative Distribution Function*** in the formulae booklet\n\n  - $P(X=k)=P(X\\leqk)-P(X\\leqk-1)$"
   },
   {
    "type": "heading",
@@ -261,7 +261,7 @@
   },
   {
    "type": "bullets",
-   "md": "- If x is small, you could find the probability of each possible value of x and then add them together\n- Otherwise, you will have to use the tables for the ***Binomial Cumulative Distribution Function*** in the formulae booklet\n- If p is bigger than 0.5 then you will have to use the number of failures `Y tilde B left parenthesis n comma 1 minus p right parenthesis`\n\n  - $P(X\\leqx)=P(Y\\geqn-x)$"
+   "md": "- If x is small, you could find the probability of each possible value of x and then add them together\n- Otherwise, you will have to use the tables for the ***Binomial Cumulative Distribution Function*** in the formulae booklet\n- If p is bigger than 0.5 then you will have to use the number of failures $Y \\sim B ( n , 1 - p )$\n\n  - $P(X\\leqx)=P(Y\\geqn-x)$"
   },
   {
    "type": "heading",
@@ -294,7 +294,7 @@
    "type": "callout",
    "variant": "worked-example",
    "label": "Worked Example",
-   "md": "The random variable `X tilde straight B left parenthesis 40 comma 0.35 right parenthesis` . Find:\n\n(a) $P(X=10)$\n\n(b) $P(X\\leq10)$\n\n(c) $P(X\\geq10)$\n\n(d) $P(8<X<10)$\n\n**Answer:**\n\n![1-1-2-calculating-binomial-prob-we-solution-part-1](assets/0ac8b6e51aae-image.bin)\n\n![1-1-2-calculating-binomial-prob-we-solution-part-2](assets/5dafc51d0c19-image.bin)\n\n![1-1-2-calculating-binomial-prob-we-solution-part-3](assets/d0e1020358e9-image.bin)\n\n![1-1-2-calculating-binomial-prob-we-solution-part-4](assets/6b8a077071ed-image.bin)"
+   "md": "The random variable $X \\sim \\mathrm{B} ( 40 , 0.35 )$ . Find:\n\n(a) $P(X=10)$\n\n(b) $P(X\\leq10)$\n\n(c) $P(X\\geq10)$\n\n(d) $P(8<X<10)$\n\n**Answer:**\n\n![1-1-2-calculating-binomial-prob-we-solution-part-1](assets/0ac8b6e51aae-image.bin)\n\n![1-1-2-calculating-binomial-prob-we-solution-part-2](assets/5dafc51d0c19-image.bin)\n\n![1-1-2-calculating-binomial-prob-we-solution-part-3](assets/d0e1020358e9-image.bin)\n\n![1-1-2-calculating-binomial-prob-we-solution-part-4](assets/6b8a077071ed-image.bin)"
   },
   {
    "type": "callout",

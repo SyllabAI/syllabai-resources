@@ -10,7 +10,7 @@
 
 **Q1** [4 marks]
 
-The point `P open parentheses 8 comma space 8 close parentheses` lies on the circle `open parentheses x minus 2 close parentheses squared plus y squared equals 100` with centre $C$.
+The point $P ( 8 , 8 )$ lies on the circle $( x - 2 )^{2} + y^{2} = 100$ with centre $C$.
 
 The circle and the tangent to the circle at $P$ are shown below.
 
@@ -28,7 +28,7 @@ Find the area of triangle $PCQ$.
 
 **Q2** [1 mark]
 
-The circle $C_{1}$ has a centre at `open parentheses 3 comma space 4 close parentheses` and a radius of $3$.
+The circle $C_{1}$ has a centre at $( 3 , 4 )$ and a radius of $3$.
 
 Write down the equation of $C_{1}$.
 
@@ -48,7 +48,7 @@ Given that $C_{2}$ is tangent to $C_{1}$, find the value of $k$ in each of the f
 
 **Q2** [1 mark]
 
-A different circle, $C_{3}$, intersects $C_{1}$ at two distinct points, one of which has the coordinates `open parentheses w comma space 7 close parentheses`.
+A different circle, $C_{3}$, intersects $C_{1}$ at two distinct points, one of which has the coordinates $( w , 7 )$.
 
 The equation of the common chord to $C_{1}$ and $C_{3}$ is $x+y=10$.
 
@@ -111,7 +111,7 @@ x² + y² = 16
 
 Find estimates for the solutions of the simultaneous equations
 
-`table row cell x squared space plus space y squared space end cell equals cell space 16 end cell row cell y space end cell equals cell space 2 x space plus 1 end cell end table`
+$\begin{gathered} x^{2} + y^{2} & = 16 \\ y & = 2 x + 1 \end{gathered}$
 
 *Source: 2015	June 1MA0/2H Q28B*
 

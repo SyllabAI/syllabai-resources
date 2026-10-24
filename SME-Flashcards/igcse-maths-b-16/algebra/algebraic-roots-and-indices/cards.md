@@ -43,16 +43,16 @@ E.g. $\frac{f^{9}}{f^{3}}=f^{6}$.
 
 **FRONT**
 
-Write down the **index law** for `open parentheses a to the power of m close parentheses to the power of n`.
+Write down the **index law** for $( a^{m} )^{n}$.
 
 
 **BACK**
 
-The index law is: `open parentheses a to the power of m close parentheses to the power of n equals a to the power of m n end exponent`.
+The index law is: $( a^{m )^{n} = a^{m} n}$.
 
 You** multiply** the powers when raising $a^{m}$ to the power $n$.
 
-E.g. `open parentheses g to the power of 4 close parentheses to the power of 8 equals g to the power of 32`.
+E.g. $( g^{4} )^{8} = g^{32}$.
 
 
 
@@ -65,11 +65,11 @@ Write down the** index law** for $a^{\frac{1}{m}}$.
 
 **BACK**
 
-The index law is: `a to the power of 1 over m end exponent equals m-th root of a`.
+The index law is: `a ^ 1 / m = m-th sqrt of a`.
 
 A fractional power of $\frac{1}{m}$ means the $m^{\mathrm{th}}$ root.
 
-E.g. `x to the power of 1 fifth end exponent equals fifth root of x`.
+E.g. `x ^ 1 fifth = fifth sqrt of x`.
 
 
 
@@ -77,16 +77,16 @@ E.g. `x to the power of 1 fifth end exponent equals fifth root of x`.
 
 **FRONT**
 
-Write down the** index law** for `open parentheses a b close parentheses to the power of n`.
+Write down the** index law** for $( a b )^{n}$.
 
 
 **BACK**
 
-The index law is: `open parentheses a b close parentheses to the power of n equals a to the power of n b to the power of n`.
+The index law is: $( a b )^{n} = a^{n} b^{n}$.
 
 The power outside acts on every term **inside**, when the terms inside are multiplied together.
 
-E.g. `open parentheses t y close parentheses cubed equals t cubed y cubed`.
+E.g. $( t y )^{3} = t^{3} y^{3}$.
 
 
 
@@ -147,7 +147,7 @@ E.g. $y^{0}=1$.
 
 **True or False?**
 
-`a to the power of m over n end exponent equals m-th root of a to the power of n end root`
+$a ^{\frac{m}{n}} = \sqrt[m]{a^{n}}$
 
 
 **BACK**
@@ -156,9 +156,9 @@ E.g. $y^{0}=1$.
 
 The order of $m$ and $n$ are incorrect.
 
-The correct index law is `a to the power of m over n end exponent equals n-th root of a to the power of m end root`.
+The correct index law is $a^{ \frac{m}{n} } = \sqrt[n]{a^{m} }$.
 
-E.g. `x to the power of 3 over 4 end exponent equals fourth root of x cubed end root`.
+E.g. $x^{ \frac{3}{4} } = \sqrt[4]{x^{3}}$.
 
 
 
@@ -177,9 +177,9 @@ $a^{\frac{m}{n}}$ can be thought of in two different ways, using powers and root
 
 You can swap the order of the $n^{\mathrm{th}}$ root and the power of $m$.
 
-So  `a to the power of m over n end exponent equals n-th root of a to the power of m end root`  is the first way to think about it, and  `a to the power of m over n end exponent equals open parentheses n-th root of a close parentheses to the power of m` is the second way to think about it.
+So  $a^{ \frac{m}{n} } = \sqrt[n]{a^{m} }$  is the first way to think about it, and  $a^{ \frac{m}{n} } = ( \sqrt[n]{a} )^{m}$ is the second way to think about it.
 
-E.g. `y to the power of 3 over 5 end exponent equals fifth root of y cubed end root equals open parentheses fifth root of y close parentheses cubed`.
+E.g. `y ^ 3 / 5 = fifth sqrt of y ^3 ) = ( fifth sqrt of y ) ^3`.
 
 
 
@@ -221,14 +221,14 @@ So the **first step** is to **change the base **of 27 to 3, using the fact 27 = 
 
 **True or False?**
 
-`open parentheses a over b close parentheses to the power of negative n end exponent equals open parentheses b over a close parentheses to the power of n`
+$( \frac{a}{b} )^{- n} = ( \frac{b}{a} )^{n}$
 
 
 **BACK**
 
 **True. **
 
-A fraction to a negative power is the same as the flipped fraction to the positive power, `open parentheses a over b close parentheses to the power of negative n end exponent equals open parentheses b over a close parentheses to the power of n`.
+A fraction to a negative power is the same as the flipped fraction to the positive power, $( \frac{a}{b} )^{- n} = ( \frac{b}{a} )^{n}$.
 
 This is a great trick to use in exams!
 

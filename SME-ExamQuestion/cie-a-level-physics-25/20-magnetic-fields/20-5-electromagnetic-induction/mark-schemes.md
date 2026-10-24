@@ -41,11 +41,11 @@ Consider the phrase "the current is reversed":
 
 Substitute the known quantities into the equation for Faraday's Law:
 
-- `epsilon space equals space 96 space cross times space fraction numerator open parentheses 6.8 space cross times space 10 to the power of negative 6 end exponent close parentheses space cross times space 3.5 space cross times space 2 over denominator 2.4 space cross times space 10 to the power of negative 3 end exponent end fraction` **[1 mark]**
+- $\\epsilon = 96 \times \frac{( 6.8 \times 10^{- 6} ) \times 3.5 \times 2}{2.4 \times 10^{- 3} }$ **[1 mark]**
 
 Calculate the e.m.f, $ε$:
 
-- `epsilon space equals space 1.904 space straight V space equals space 1.9 space straight V space open parentheses 2 s. f. close parentheses` **[1 mark]**
+- $\\epsilon = 1.904 \mathrm{V} = 1.9 \mathrm{V} ( 2 s. f. )$ **[1 mark]**
 
 **[Total: 2 marks]**
 
@@ -119,9 +119,9 @@ List the known quantities:
 
 Use Faraday's law and rearrange:
 
-- `epsilon space equals space fraction numerator increment open parentheses N capital phi close parentheses over denominator increment t end fraction space space space space space rightwards double arrow space space space space space space increment open parentheses N capital phi close parentheses space equals space epsilon increment t` **[1 mark]**
-- `increment open parentheses N capital phi close parentheses space equals space left parenthesis 1.5 cross times 10 to the power of negative 3 end exponent right parenthesis cross times 2.0` **[1 mark]**
-- `increment open parentheses N capital phi close parentheses` = 3.0 × 10<sup>–3</sup> Wb (turns) **[1 mark]**
+- $\\epsilon = \frac{\Delta ( N \\Phi )}{\Delta t} \Leftrightarrow \Delta ( N \\Phi ) = \\epsilon \Delta t$ **[1 mark]**
+- $\Delta ( N \\Phi ) = ( 1.5 \times 10^{- 3} ) \times 2.0$ **[1 mark]**
+- $\Delta ( N \\Phi )$ = 3.0 × 10<sup>–3</sup> Wb (turns) **[1 mark]**
 
 **[Total: 3 marks]**
 
@@ -220,13 +220,13 @@ List the known quantities:
 Calculate the magnetic flux and state the unit:
 
 - Magnetic flux:  $Φ=BA$
-- `capital phi space equals space open parentheses 80 cross times 10 to the power of negative 3 end exponent close parentheses cross times 0.1`** [1 mark]**
+- $\\Phi = ( 80 \times 10^{- 3} ) \times 0.1$** [1 mark]**
 - $Φ=8\times10^{-3}$** [1 mark]** Wb** [1 mark]**
 
 **[Total: 3 marks]**
 (i) Magnetic flux linkage is defined as:
 
-- The product of the magnetic flux and the number of turns on a coil `open parentheses N capital phi close parentheses` **OR** the product of magnetic flux density, area, and the number of turns on a coil `open parentheses B A N close parentheses`; **[1 mark]**
+- The product of the magnetic flux and the number of turns on a coil $( N \\Phi )$ **OR** the product of magnetic flux density, area, and the number of turns on a coil $( B A N )$; **[1 mark]**
 
 (ii) Calculate the change in magnetic flux linkage:
 
@@ -238,20 +238,20 @@ List the known quantities:
 Calculate the change in magnetic flux linkage:
 
 - Flux linkage:  $NΦ=BAN$
-- Change in flux linkage:  `increment open parentheses N capital phi close parentheses space equals space 500 space cross times space open parentheses 8 cross times 10 to the power of negative 3 end exponent close parentheses space minus space 0` **[1 mark]**
-- `increment open parentheses N capital phi close parentheses` = 4 Wb (turns) **[1 mark]**
+- Change in flux linkage:  $\Delta ( N \\Phi ) = 500 \times ( 8 \times 10^{- 3} ) - 0$ **[1 mark]**
+- $\Delta ( N \\Phi )$ = 4 Wb (turns) **[1 mark]**
 
 **[Total: 3 marks]**
 Calculate the average magnitude of the induced e.m.f. in the coil during the rotation:
 
 List the known quantities:
 
-- Change in flux linkage, `increment open parentheses N capital phi close parentheses` = 4 Wb
+- Change in flux linkage, $\Delta ( N \\Phi )$ = 4 Wb
 - Time interval, $\Deltat$ = 300 ms = 300 × 10<sup>−3</sup> s
 
 Use Faraday's law to calculate the induced e.m.f.
 
-- Faraday's law:  `epsilon space equals space fraction numerator increment open parentheses N capital phi close parentheses over denominator increment t end fraction` **[1 mark]**
+- Faraday's law:  $\\epsilon = \frac{\Delta ( N \\Phi )}{\Delta t}$ **[1 mark]**
 - Induced e.m.f.  $ε=\frac{4}{300\times10^{-3}}$ **[1 mark]**
 - Induced e.m.f.  $ε$ = 13.3 ≈ 13 V **[1 mark]**
 
@@ -265,8 +265,8 @@ Use Faraday's law to calculate the induced e.m.f.
 
 (ii) Faraday's law is defined by the equation
 
-- `epsilon space equals space fraction numerator increment open parentheses N capital phi close parentheses over denominator increment t end fraction` **[1 mark]**
-- Where $ε$ = induced e.m.f., `increment open parentheses N capital phi close parentheses` = change in magnetic flux linkage and $\Deltat$ = time interval of change; **[1 mark]**
+- $\\epsilon = \frac{\Delta ( N \\Phi )}{\Delta t}$ **[1 mark]**
+- Where $ε$ = induced e.m.f., $\Delta ( N \\Phi )$ = change in magnetic flux linkage and $\Deltat$ = time interval of change; **[1 mark]**
 
 **[Total: 4 marks]**
 
@@ -286,7 +286,7 @@ The correct sentence is:
 > *The induced emf is always set up in such a way that the effect is to try and **stop**, or **oppose**, whatever is inducing it. This is a consequence of **conservation of energy** (i.e., electromagnetic energy cannot be created for free!).   *
 The equation including Lenz's law is:
 
-- `epsilon space equals space minus fraction numerator increment open parentheses N capital phi close parentheses over denominator increment t end fraction`
+- $\\epsilon = - \frac{\Delta ( N \\Phi )}{\Delta t}$
 - Minus sign included; **[1 mark]**
 
 **[Total: 1 mark]**
@@ -338,7 +338,7 @@ Use the graph to obtain a value for magnetic flux density, *B*:
 Use the equation for magnetic flux linkage:
 
 - $ΦN=BAN$ **[1 mark]**
-- `capital phi N space equals space open parentheses 200 space cross times space 10 to the power of negative 3 end exponent close parentheses space cross times space 0.01 space cross times space 5` **[1 mark]**
+- $\\Phi N = ( 200 \times 10^{- 3} ) \times 0.01 \times 5$ **[1 mark]**
 - $ΦN=0.01\mathrm{Wb}$ **[1 mark]**
 
 **[Total: 3 marks]**
@@ -392,9 +392,9 @@ The magnetic flux linkage is:
 
 > *Magnetic flux linkage is given by *$NΦ=NBA$
 
-> *For the larger solenoid: *`N capital phi space equals space 800 cross times open parentheses 7.8 cross times 10 to the power of negative 3 end exponent close parentheses cross times B space equals space 6.24 B`
+> *For the larger solenoid: *$N \\Phi = 800 \times ( 7.8 \times 10^{- 3} ) \times B = 6.24 B$
 
-> *For the smaller solenoid: *`N capital phi space equals space 2000 cross times open parentheses 1.2 cross times 10 to the power of negative 3 end exponent close parentheses cross times B space equals space 2.4 B`
+> *For the smaller solenoid: *$N \\Phi = 2000 \times ( 1.2 \times 10^{- 3} ) \times B = 2.4 B$
 Lenz's Law of electromagnetic induction is:
 
 - The <u>direction</u> of the induced e.m.f.; **[1 mark]**

@@ -109,7 +109,7 @@ guided_study: true
 >   - *T* = 21 <sup>o</sup>C = 294 K
 > - **Step 2: **Calculate the volume the oxygen gas occupies:
 > 
->   - *V* = `table row blank blank cell fraction numerator 0.781 space mol space cross times space 8.31 space straight J space straight K to the power of negative 1 end exponent space mol to the power of negative 1 end exponent space cross times space 294 space straight K over denominator 220 space 000 space Pa end fraction end cell end table`
+>   - *V* = $\begin{gathered} \frac{0.781 \text{mol} \times 8.31 \mathrm{J} \mathrm{K}^{- 1} mol^{- 1} \times 294 \mathrm{K} }{220 000 Pa} \end{gathered}$
 >   - *V* = 0.00867 m<sup>3</sup>
 >   - *V* = 8.67 dm<sup>3</sup>
 

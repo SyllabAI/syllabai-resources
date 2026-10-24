@@ -27,7 +27,7 @@
 ### Q2
 > *Use a calculator here, but be careful to use cube root rather than square root*
 
-`cube root of 2 cubed plus 2 end root space equals space 2.15443469...`
+$\sqrt[3]{2^{3} + 2} = 2.15443469...$
 
 **2.15**** ****[1]**
 
@@ -64,7 +64,7 @@ $\sqrt{\frac{2.5\times\mathrm{sin}43}{8.2^{2}-50.5}}=0.319141...$
 ### Q6
 > *Type into calculator as seen, use brackets and be careful with exactly where you put the 2*
 
-`square root of 1 minus open parentheses sin open parentheses 33 close parentheses close parentheses squared end root space equals space 0.8386705679...`
+$\sqrt{1 - ( \sin ( 33 ) )^{2}} = 0.8386705679...$
 
 $0.839$ **[1]**
 
@@ -83,7 +83,7 @@ $0.839$ **[1]**
 > *Perform the calculation using your calculator. *
 *Use the fraction button on your calculator and use the arrow keys to move around the calculator screen to make it look just like the given calculation.*
 
-`5 over 8 plus cube root of 340 equals 7.60453204...`
+$\frac{5}{8} + \sqrt[3]{340} = 7.60453204...$
 
 **[1]**
 
@@ -97,7 +97,7 @@ $7.60$* ***[1]**
 > *Type into calculator exactly as seen and write down entire calculator display *
 *Be careful with the powers and make sure all decimal points are in the right places*
 
-> `cube root of 8.1 squared minus 1.3 to the power of 0.8 end exponent end root space equals space 4.007827504`* *
+> $\sqrt[3]{8.1^{2} - 1.3^{0.8} } = 4.007827504$* *
 
 > *round to 3 significant figures for final answer*
 
@@ -127,7 +127,7 @@ $1.37(3s.f.)$ **[1]**
 
 > *Be careful to make sure that the power of 3 on the 1.9 is within the square root, using brackets can sometimes help*
 
-`fraction numerator 29 squared minus 4.6 over denominator square root of open parentheses 35 minus 1.9 cubed close parentheses end root end fraction`
+$\frac{29^{2} - 4.6}{ \sqrt{( 35 - 1.9^{3} )} }$
 
 > *Write down the full answer shown on your calculator display, as requested in the question*
 
@@ -170,20 +170,20 @@ $1.37(3s.f.)$ **[1]**
 ### Q15
 *You should be able to type this directly into your calculator*
 
-*Make sure you use cube-root, *`box enclose cube root of box enclose blank end enclose end root end enclose`* rather than just square-root *`box enclose square root of box enclose blank end enclose end root end enclose`
+*Make sure you use cube-root, *`box cbrt( box _ )`* rather than just square-root *`box sqrt( box _ )`
 
 *Whilst you can type it into your calculator as seen, it may be worth recalling the rules for BIDMAS, where the cube-root and power will be applied first, then the division, and then the subtraction*
 
 > *You can also use brackets to help make your calculation clear when typing into your calculator*
 
-`open parentheses 19.42 squared close parentheses space – space open parentheses open parentheses cube root of 1006 close parentheses space divided by space 4.95 close parentheses space equals space 375.1121656...`
+$( 19.42^{2} ) - ( ( \sqrt[3]{1006} ) \div 4.95 ) = 375.1121656...$
 
 > *The question requests you write down your full calculator display*
 
 **375.1121656 ****[1]**
 > *Round each value to 1 significant figure when estimating*
 
-`19.42 squared space – space cube root of 1006 space divided by space 4.95 space almost equal to space 20 squared minus cube root of 1000 divided by 5`
+$19.42^{2} - \sqrt[3]{1006} \div 4.95 \approx 20^{2} - \sqrt[3]{1000} \div 5$
 
 **[1]**
 

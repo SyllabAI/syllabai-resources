@@ -77,7 +77,7 @@ p1 V1 = p2 V2
 > 
 > - Divide both sides by *V*<sub>*2*</sub> to get the *p*<sub>*2*</sub> term on its own
 > 
-> `fraction numerator p subscript 1 V subscript 1 over denominator V subscript 2 end fraction space equals space fraction numerator p subscript 2 up diagonal strike V subscript 2 end strike over denominator up diagonal strike V subscript 2 end strike end fraction`
+> $\frac{p_{1} V_{1} }{V_{2} } = \frac{p_{2} \cancel{V_{2} } }{ \cancel{V_{2} } }$
 > 
 > $\frac{p_{1}V_{1}}{V_{2}}=p_{2}$
 > 

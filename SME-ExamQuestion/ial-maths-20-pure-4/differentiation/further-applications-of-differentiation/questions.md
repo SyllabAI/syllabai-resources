@@ -144,7 +144,7 @@ In a particular case, a bowl is leaking liquid through a small hole in the botto
 
 Show that the depth of liquid in the bowl is decreasing by
 
-`fraction numerator k over denominator pi space open parentheses 2 R minus h close parentheses end fraction`
+$\frac{k}{\pi ( 2 R - h )}$
 
 where k is a constant.
 
@@ -195,7 +195,7 @@ Find the value of x for the largest block of ice that can be used for ice sculpt
 ### 1() — 7 marks — structured
 The volume of liquid in a hemispherical bowl is given by the formula
 
-`V space equals space 1 third pi h squared open parentheses 3 R minus h close parentheses`
+$V = 1 \frac{1}{3} \pi h^{2} ( 3 R - h )$
 
 where R is the radius of the bowl and h is the depth of liquid.
 (ie the height between the bottom of the bowl and the level of the liquid).

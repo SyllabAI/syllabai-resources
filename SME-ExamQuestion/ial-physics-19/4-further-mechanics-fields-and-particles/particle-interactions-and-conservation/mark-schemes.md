@@ -114,7 +114,7 @@ i) Show that the mass of an omega baryon is about 1700 MeV/c<sup>2</sup>:
 
 - Mass-energy equivalence:$\DeltaE=c^{2}\Deltam$
 - $\DeltaE_{Ω}=c^{2}\times3272\timesm_{e}$ **[1 mark]**
-- `increment E subscript capital omega space equals space open parentheses 3 cross times 10 to the power of 8 close parentheses squared space cross times space 3272 space cross times space open parentheses 9.11 cross times 10 to the power of negative 31 end exponent close parentheses space equals space 2.68 space cross times space 10 to the power of negative 10 end exponent space straight J` **[1 mark]**
+- $\Delta E_{capital} \omega = ( 3 \times 10^{8} ) ^{2} \times 3272 \times ( 9.11 \times 10^{ - } 31 ) = 2.68 \times 10^{ - } 10 \mathrm{J}$ **[1 mark]**
 
 Calculate the mass in MeV/c<sup>2</sup>:
 
@@ -177,7 +177,7 @@ Show that baryon number is conserved or not conserved in one of these scenarios:
 **OR**
 
 - Omega and anti-omega: $e^{-}+e^{+}\rightarrowΩ+\overline{Ω}$
-- Baryon number: `0 space plus space 0 space space rightwards arrow space space 1 space plus space open parentheses negative 1 close parentheses`
+- Baryon number: $0 + 0 \rightarrow 1 + ( - 1 )$
 
 - **Before**: baryon number = 0 and **after**: baryon number = 0, this obeys the conservation of baryon number; **[1 mark]**
 

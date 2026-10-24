@@ -57,7 +57,7 @@ guided_study: true
     - $mgh_{f}+\frac{1}{2}mv_{f}^{2}=mgh_{i}+\frac{1}{2}mv_{i}^{2}\pmWD$
   - **group** together KEs and GPEs as an overall **change** ("final - initial")
   
-    - `1 half m v subscript f to the power of 2 space end exponent minus 1 half m v subscript i to the power of 2 space end exponent equals negative open parentheses m g h subscript f space end subscript minus m g h subscript i close parentheses plus-or-minus W D`
+    - $1 \frac{1}{2} m v_{f^{2 } - 1 \frac{1}{2} m v_{i}^{2 } = - ( m g h_{f} } - m g h_{i} ) \pm W D$
   - **change in KE = - change in GPE ± WD**
   
     - you can read this as **gain** in KE = **loss** in GPE ± WD

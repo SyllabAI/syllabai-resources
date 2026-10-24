@@ -22,7 +22,7 @@ guided_study: true
 - **Problem solving** means you are given a specific **situation** (real life or constructed) and you need to **form **and **solve equations** to find answers to the questions asked
 - The equations can be any type that are in the course, including
 
-  - **Linear**, e.g. `2 open parentheses x plus 4 close parentheses equals 3 x`
+  - **Linear**, e.g. $2 ( x + 4 ) = 3 x$
   - **Quadratic**, e.g. $x^{2}-7x+12=0$
 - Answers must always be given **in context**
 
@@ -42,7 +42,7 @@ guided_study: true
 - You may be asked to use **algebra** in other settings such as **geometry** or **numbers**
 
   - $P$% is $\frac{P}{100}$ as a decimal
-  - If the ratio `x space colon space open parentheses x plus 2 close parentheses` is equivalent to 5 : 8, then $\frac{x}{x+2}=\frac{5}{8}$
+  - If the ratio $x : ( x + 2 )$ is equivalent to 5 : 8, then $\frac{x}{x+2}=\frac{5}{8}$
 - You may have **unfamiliar equations** to solve
 
   - such as multiplying both sides by $x$ in $\frac{12}{x}=7-x$ to form a quadratic
@@ -111,7 +111,7 @@ guided_study: true
 > 
 > > *Simplify *$8\times14$* and bring all the terms to one side*
 > 
-> `table row cell x cubed minus 6 x squared end cell equals cell 112 x end cell row cell x cubed minus 6 x squared minus 112 x end cell equals 0 end table`
+> $\begin{gathered} x^{3} - 6 x^{2} & = 112 x \\ x^{3} - 6 x^{2} - 112 x & = 0 \end{gathered}$
 > 
 > > *You are nearly at the correct equation given in the question*
 > 
@@ -119,7 +119,7 @@ guided_study: true
 > 
 > > *To show this, you can factorise out an *$x$* first*
 > 
-> `up diagonal strike x open parentheses x squared minus 6 x minus 112 close parentheses equals 0`
+> $\cancel{x} ( x^{2} - 6 x - 112 ) = 0$
 > 
 > $x^{2}-6x-112=0$
 > 
@@ -133,7 +133,7 @@ guided_study: true
 > 
 > > *To find *$x$*, solve the equation in part (c), for example using the quadratic formula*
 > 
-> `table row x equals cell fraction numerator 6 plus-or-minus square root of open parentheses negative 6 close parentheses squared minus 4 cross times 1 cross times open parentheses negative 112 close parentheses end root over denominator 2 end fraction end cell row blank equals cell fraction numerator 6 plus-or-minus square root of 484 over denominator 2 end fraction end cell row blank equals cell fraction numerator 6 plus-or-minus 22 over denominator 2 end fraction end cell end table`
+> $\begin{gathered} x = \frac{6 \pm \sqrt{( - 6 )^{2} - 4 \times 1 \times ( - 112 )} }{2} \\ = \frac{6 \pm \sqrt{484} }{2} \\ = \frac{6 \pm 22}{2} \end{gathered}$
 > 
 > > *Find the two possible answers*
 > 

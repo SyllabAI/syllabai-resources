@@ -54,7 +54,7 @@ guided_study: true
 > 
 > > *Substitute the pair of known values into the equation to find *$k$
 > 
-> `table row 36 equals cell k over 1 end cell row k equals 36 end table`
+> $\begin{gathered} 36 = \frac{k}{1} \\ k = 36 \end{gathered}$
 > 
 > > *So the full equation of the variation model is*
 > 
@@ -68,7 +68,7 @@ guided_study: true
 > 
 > > *Substitute in *$y=9$* to find *$q$
 > 
-> `table row 9 equals cell 36 over q end cell row cell 9 q end cell equals 36 row q equals cell 36 over 9 equals 4 end cell end table`
+> $\begin{gathered} 9 = \frac{36}{q} \\ 9 q & = 36 \\ q = \frac{36}{9} = 4 \end{gathered}$
 > 
 > $q=4$
 
@@ -98,12 +98,12 @@ guided_study: true
 > 
 > > *Using the first data point to find *$k$
 > 
-> `table row 20 equals cell k cross times 2 end cell row k equals 10 end table`
+> $\begin{gathered} 20 = k \times 2 \\ k = 10 \end{gathered}$
 > 
 > > *Use this to check the second data point*
 > 
-> `y equals 10 x
-> y equals 10 open parentheses 4 close parentheses equals 40`
+> $y = 10 x
+> y = 10 ( 4 ) = 40$
 > 
 > *Not close to 80, so not linear*
 > 
@@ -111,15 +111,15 @@ guided_study: true
 > 
 > > *Use the first data point to find *$k$
 > 
-> `table row 20 equals cell k cross times 2 squared end cell row 20 equals cell 4 k end cell row k equals 5 end table`
+> $\begin{gathered} 20 = k \times 2^{2} \\ 20 = 4 k \\ k = 5 \end{gathered}$
 > 
 > > *Use this to check the second data point*
 > 
-> `table row y equals cell 5 x squared end cell row y equals cell 5 open parentheses 4 close parentheses squared equals 80 end cell end table`
+> $\begin{gathered} y = 5 x^{2} \\ y = 5 ( 4 )^{2} = 80 \end{gathered}$
 > 
 > > *It works for the second point, now check the third*
 > 
-> `y equals 5 open parentheses 6 close parentheses squared equals 180`
+> $y = 5 ( 6 )^{2} = 180$
 > 
 > > *Also correct for the third point, so this is an appropriate variation model*
 > 

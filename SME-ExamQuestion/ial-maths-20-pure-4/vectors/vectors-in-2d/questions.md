@@ -27,7 +27,7 @@ In triangle $ABC,\overset{\rightarrow}{AB}=5i+jand\overset{\rightarrow}{AC}=3i-2
 
 (i) Find $\overset{\rightarrow}{BC}$ in terms of **i **and **j**.
 
-(ii) Calculate `open vertical bar stack B C with rightwards arrow on top close vertical bar`.
+(ii) Calculate $\left| \vec{BC} \right|$.
 
 ## Q3 — easy — 5 marks · exam-questions
 
@@ -57,7 +57,7 @@ On the same diagram sketch the following position vectors
 ### 1() — 3 marks — structured
 The vectors **a**,** b **and **c **are given as
 
-`space bold a equals open parentheses table row cell 3 space end cell row cell negative p end cell end table close parentheses` ,    `space bold b equals open parentheses table row p row 4 end table close parentheses space` ,    `space bold c equals open parentheses table row 9 row 3 end table close parentheses space`
+$a = ( \begin{gathered} 3 \\ - p \end{gathered} )$ ,    $b = ( \begin{gathered} p \\ 4 \end{gathered} )$ ,    $c = ( \begin{gathered} 9 \\ 3 \end{gathered} )$
 
 Given that  $a+b$ is parallel to c find the value of *p*.
 
@@ -73,7 +73,7 @@ The position vector $\overset{\rightarrow}{AB}$ is given by $\overset{\rightarro
 ## Q7 — easy — 2 marks · exam-questions
 
 ### 1() — 2 marks — structured
-The vector $\overset{\rightarrow}{OA}$** **is given by `stack O A with rightwards arrow on top equals open parentheses table row cell negative 4 end cell row 3 end table close parentheses`.
+The vector $\overset{\rightarrow}{OA}$** **is given by $\vec{OA} = ( \begin{gathered} - 4 \\ 3 \end{gathered} )$.
 
 Find a unit vector in the direction of $\overset{\rightarrow}{OA}$.
 
@@ -82,7 +82,7 @@ Find a unit vector in the direction of $\overset{\rightarrow}{OA}$.
 ### 1() — 4 marks — structured
 Starting at the origin, a ship sails on a bearing of 060° for 400 km, until it reaches point *P*.  Find the position vector of *P *relative to the origin.
 
-Giving your answer in the form `open parentheses x bold i plus y bold j close parentheses` km, where *x* and *y* are exact values.
+Giving your answer in the form $( x i + y j )$ km, where *x* and *y* are exact values.
 
 ## Q9 — easy — 2 marks · exam-questions
 
@@ -110,19 +110,19 @@ In triangle *ABC*,  $\overset{\rightarrow}{AB}=7i+j$ and $\overset{\rightarrow}{
 (ii) Find $\overset{\rightarrow}{BC}$.
 
 ### 2() — 1 mark — structured
-Calculate `open vertical bar stack B C with rightwards arrow on top close vertical bar`.
+Calculate $\left| \vec{BC} \right|$.
 
 ## Q12 — medium — 5 marks · exam-questions
 
 ### 1() — 3 marks — structured
-`bold a equals open parentheses table row 7 row 2 end table close parentheses` , `bold space bold b equals open parentheses table row m row cell negative 3 end cell end table close parentheses` ,  `bold c equals open parentheses table row 5 row n end table close parentheses space`
+$a = ( \begin{gathered} 7 \\ 2 \end{gathered} )$ , $b = ( \begin{gathered} m \\ - 3 \end{gathered} )$ ,  $c = ( \begin{gathered} 5 \\ n \end{gathered} )$
 
 Given that  $a+2b=c$, find the values of *m* and *n*.
 
 ### 2() — 2 marks — structured
-`space bold d equals open parentheses table row cell negative 5 end cell row k end table close parentheses space`
+$d = ( \begin{gathered} - 5 \\ k \end{gathered} )$
 
-Given that `open vertical bar bold d close vertical bar equals 15`, find two possible values for *k*.  Give your answer as an exact value.
+Given that $\left| d \right| = 15$, find two possible values for *k*.  Give your answer as an exact value.
 
 ## Q13 — medium — 3 marks · exam-questions
 
@@ -134,7 +134,7 @@ The point *A* lies on the line with equation$y=3x+5$.  The position vector of* A
 ### 1() — 4 marks — structured
 The vectors **a**,** b** and **c** are given as
 
-`space bold italic a equals open parentheses table row cell negative 5 end cell row 17 end table close parentheses` ,  `bold b equals open parentheses table row k row cell space 5 end cell end table close parentheses` ,  `bold c equals open parentheses table row 9 row cell negative 29 end cell end table close parentheses space`
+$a = ( \begin{gathered} - 5 \\ 17 \end{gathered} )$ ,  $b = ( \begin{gathered} k \\ 5 \end{gathered} )$ ,  $c = ( \begin{gathered} 9 \\ - 29 \end{gathered} )$
 
 Given that  $a-b$ is parallel to $b+c$ find the value of *k*.
 
@@ -155,7 +155,7 @@ Find a unit vector in the direction of $\overset{\rightarrow}{AB}$.
 ## Q16 — medium — 4 marks · exam-questions
 
 ### 1() — 4 marks — structured
-A ship leaves its starting position *O* in port and travels 300 km on a bearing of 120°.  It then travels 500 km due south before dropping anchor at point *A*.  Given that the position vector of* A* relative to *O* is `open parentheses space x bold i plus y bold j bold space close parentheses`km, find the exact values of *x* and* y.*
+A ship leaves its starting position *O* in port and travels 300 km on a bearing of 120°.  It then travels 500 km due south before dropping anchor at point *A*.  Given that the position vector of* A* relative to *O* is $( x i + y j )$km, find the exact values of *x* and* y.*
 
 ## Q17 — medium — 6 marks · exam-questions
 
@@ -210,14 +210,14 @@ Find $\overset{\rightarrow}{CA}$and calculate its magnitude.
 ## Q21 — hard — 4 marks · exam-questions
 
 ### 1() — 2 marks — structured
-`bold a equals open parentheses table row cell negative 1 end cell row n end table close parentheses space comma space space bold b equals open parentheses table row 5 row cell negative 4 end cell end table close parentheses space comma space bold space bold c equals open parentheses table row m row 6 end table close parentheses space`
+$a = ( \begin{gathered} - 1 \\ n \end{gathered} ) , b = ( \begin{gathered} 5 \\ - 4 \end{gathered} ) , c = ( \begin{gathered} m \\ 6 \end{gathered} )$
 
 Given that the resultant of **a, b** and **c** is the zero vector, find the values of *m* and *n*.
 
 ### 2() — 2 marks — structured
-`bold d equals open parentheses table row cell negative 3 k end cell row k end table close parentheses`
+$d = ( \begin{gathered} - 3 k \\ k \end{gathered} )$
 
-Given that `open vertical bar bold d close vertical bar equals 2 square root of 15 comma` find two possible values for *k*.  Give your answer as an exact value.
+Given that $\left| d \right| = 2 \sqrt{15} ,$ find two possible values for *k*.  Give your answer as an exact value.
 
 ## Q22 — hard — 4 marks · exam-questions
 
@@ -229,7 +229,7 @@ The point *A* lies on the curve with equation $y=x^{2}-2$.  The position vector 
 ### 1() — 4 marks — structured
 The vectors **a, b **and **c** are given as
 
-** **`bold a equals open parentheses table row 3 row 5 end table close parentheses space comma space space bold b equals open parentheses table row cell negative 3 k end cell row k end table close parentheses space comma space space bold c equals open parentheses table row 0 row cell negative 4 end cell end table close parentheses space`
+** **$a = ( \begin{gathered} 3 \\ 5 \end{gathered} ) , b = ( \begin{gathered} - 3 k \\ k \end{gathered} ) , c = ( \begin{gathered} 0 \\ - 4 \end{gathered} )$
 
 Given that  $a-b$ is parallel to $a+c$ find the value of *k*.
 
@@ -246,14 +246,14 @@ Find a unit vector in the direction of $\overset{\rightarrow}{AB}$.
 ## Q25 — hard — 6 marks · exam-questions
 
 ### 1() — 6 marks — structured
-In the enchanted kingdom of Vectoria, a magical flying unicorn takes off from the wizard’s palace at the point known as *O* and travels 30 km on a bearing of 300°.  Chased by an evil dragon, it then travels an unknown distance of * k *km due north before reaching the enchanted grove at point *P*.  Given that the position vector of *P* relative to *O* is `open parentheses x bold i plus y bold j close parentheses space km`, and that the straight-line distance between the grove and the palace is known to be $30\sqrt{3}\mathrm{km}$, find the exact values of *x* and *y*.
+In the enchanted kingdom of Vectoria, a magical flying unicorn takes off from the wizard’s palace at the point known as *O* and travels 30 km on a bearing of 300°.  Chased by an evil dragon, it then travels an unknown distance of * k *km due north before reaching the enchanted grove at point *P*.  Given that the position vector of *P* relative to *O* is $( x i + y j ) \text{km}$, and that the straight-line distance between the grove and the palace is known to be $30\sqrt{3}\mathrm{km}$, find the exact values of *x* and *y*.
 
 ## Q26 — hard — 8 marks · exam-questions
 
 ### 1() — 2 marks — structured
 Two forces **F**<sub>1</sub> and **F**<sub>2</sub> act on a particle, where  $F_{1}=5i-3j$newtons and $F_{2}=xi+yj$ newtons.
 
-The resultant force **R** acting on the particle is given by $R=F_{1}+F_{2}$, and acts in a direction parallel to the vector `open parentheses negative bold i minus 3 bold j close parentheses`.
+The resultant force **R** acting on the particle is given by $R=F_{1}+F_{2}$, and acts in a direction parallel to the vector $( - i - 3 j )$.
 
 Find the angle between **R** and the vector** j**, giving your answer in degrees correct to 2 decimal places.
 
@@ -286,7 +286,7 @@ Explain why $\overset{\rightarrow}{BG}=λ\overset{\rightarrow}{BC}$ for some con
 ### 2() — 4 marks — structured
 Given that $\overset{\rightarrow}{AB}=a$  and $\overset{\rightarrow}{AC}=b$**, **  show that
 
-`stack F G with rightwards arrow on top equals open parentheses fraction numerator n over denominator m plus n end fraction minus lambda close parentheses bold a plus lambda bold b`
+$\vec{FG} = ( \frac{n}{m + n} - \\lambda ) a + \\lambda b$
 
 ### 3() — 3 marks — structured
 Using your result from (b), prove that *G* divides *BC* in the ratio *n:m*.
@@ -299,24 +299,24 @@ Using your result from (b), prove that *G* divides *BC* in the ratio *n:m*.
 Find $\overset{\rightarrow}{AB}$ in terms of **i**,** j** and **k**.
 
 ### 2() — 3 marks — structured
-Given that`space open vertical bar stack A B with rightwards arrow on top close vertical bar equals square root of 89`, find the two possible values of $k$.
+Given that$\left| \vec{AB} \right| = \sqrt{89}$, find the two possible values of $k$.
 
 ## Q30 — very_hard — 5 marks · exam-questions
 
 ### 1() — 3 marks — structured
-`bold a equals open parentheses table row 8 row m end table close parentheses comma space space bold b equals open parentheses table row n row cell negative 2 end cell end table close parentheses space comma space bold space bold c equals open parentheses table row m row n end table close parentheses space`
+$a = ( \begin{gathered} 8 \\ m \end{gathered} ) , b = ( \begin{gathered} n \\ - 2 \end{gathered} ) , c = ( \begin{gathered} m \\ n \end{gathered} )$
 
 Given that $a+b=c-2b$, find the values of *m* and *n*.
 
 ### 2() — 2 marks — structured
-`bold d equals open parentheses table row cell 2 k plus 1 end cell row cell 2 k minus 1 end cell end table close parentheses space`
+$d = ( \begin{gathered} 2 k + 1 \\ 2 k - 1 \end{gathered} )$
 
-Given that `open vertical bar bold d close vertical bar equals 3 k square root of 2`, find two possible values for *k*.  Give your answer as an exact value.
+Given that $\left| d \right| = 3 k \sqrt{2}$, find two possible values for *k*.  Give your answer as an exact value.
 
 ## Q31 — very_hard — 6 marks · exam-questions
 
 ### 1() — 4 marks — structured
-The point *A *lies on the circle with equation `open parentheses x minus 11 close parentheses squared plus open parentheses y minus 7 close parentheses squared equals 34`.  *A *has position vector $\overset{\rightarrow}{OA}=3ki+5kj$, where *k* is a constant.
+The point *A *lies on the circle with equation $( x - 11 )^{2} + ( y - 7 )^{2} = 34$.  *A *has position vector $\overset{\rightarrow}{OA}=3ki+5kj$, where *k* is a constant.
 
 Find the value of *k* , and hence determine the coordinates of *A*.
 

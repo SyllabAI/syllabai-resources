@@ -171,7 +171,7 @@ mass = moles x *M*<sub>r</sub>
 
 - Calculate the percentage by mass:
 
-percentage by mass = `fraction numerator m open parentheses CaCO subscript 3 close parentheses over denominator total space sample space mass end fraction` x 100
+percentage by mass = $\frac{m ( CaCO_{3} )}{total \text{sample} mass}$ x 100
 
 % CaCO<sub>3</sub> = $\frac{1.00}{1.25}$ x 100
 

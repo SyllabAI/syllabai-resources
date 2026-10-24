@@ -28,7 +28,7 @@ $7\times6\times5\times4$
 
 > *Choose 4 digits out of a possible 7 different digits (3, 4, 5, 6, 7, 8 or 9) with no repeats and where order does matter (i.e. use permutations, not combinations)*
 
-`blank to the power of 7 straight P subscript 4 equals fraction numerator 7 factorial over denominator open parentheses 7 minus 4 close parentheses factorial end fraction equals fraction numerator 7 factorial over denominator 3 factorial end fraction`
+$^{7} \mathrm{P}_{4} = \frac{7 factorial}{( 7 - 4 ) factorial} = \frac{7 factorial}{3 factorial}$
 
 **Final answer:** **840**
 
@@ -172,48 +172,48 @@ $^{10}C_{2}-^{6}C_{2}\times^{4}C_{0}$
 
 > *Multiply this by the selection of 4 horror books*
 
-`blank to the power of 5 straight C subscript 4 open parentheses blank to the power of 10 straight C subscript 2 minus to the power of 6 straight C subscript 2 cross times to the power of 4 straight C subscript 0 close parentheses`
+$^{5} \mathrm{C}_{4} (^{10} \mathrm{C}_{2} -^{6} \mathrm{C}_{2} \times^{4} \mathrm{C}_{0} )$
 
 **Final answer:** **150**
 
 **[A1]**
 
 ### Q2
-> *We know that *`open parentheses table row n row r end table close parentheses equals fraction numerator n factorial over denominator open parentheses n minus r close parentheses factorial r factorial end fraction`* and here we are interested in the number of combinations of n items taken 3 at a time.*
+> *We know that *$( \begin{gathered} n \\ r \end{gathered} ) = \frac{n factorial}{( n - r ) \text{factorial} r factorial}$* and here we are interested in the number of combinations of n items taken 3 at a time.*
 
 > *We do not know what n is, but we know we are choosing 3 at a time so *$r=3$
 
-`fraction numerator n factorial over denominator open parentheses n minus 3 close parentheses factorial 3 factorial end fraction equals 92 n`
+$\frac{n factorial}{( n - 3 ) \text{factorial} 3 factorial} = 92 n$
 
 **[1]**
 
-`fraction numerator n cross times open parentheses n minus 1 close parentheses cross times open parentheses n minus 2 close parentheses cross times open parentheses n minus 3 close parentheses cross times open parentheses n minus 4 close parentheses... over denominator open parentheses n minus 3 close parentheses cross times open parentheses n minus 4 close parentheses cross times open parentheses n minus 5 close parentheses cross times... cross times 3 cross times 2 cross times 1 end fraction equals 92 n`
+$\frac{n \times ( n - 1 ) \times ( n - 2 ) \times ( n - 3 ) \times ( n - 4 )...}{( n - 3 ) \times ( n - 4 ) \times ( n - 5 ) \times... \times 3 \times 2 \times 1} = 92 n$
 
-> *Now we can simplify by cancelling the *`open parentheses n minus 3 close parentheses cross times open parentheses n minus 4 close parentheses cross times...`* terms from the numerator and denominator which leaves us with*
+> *Now we can simplify by cancelling the *$( n - 3 ) \times ( n - 4 ) \times...$* terms from the numerator and denominator which leaves us with*
 
-`fraction numerator n cross times open parentheses n minus 1 close parentheses cross times open parentheses n minus 2 close parentheses over denominator 6 end fraction equals 92 n`
+$\frac{n \times ( n - 1 ) \times ( n - 2 )}{6} = 92 n$
 
 > *Multiplying both sides by 6 we get*
 
-`n open parentheses n minus 1 close parentheses open parentheses n minus 2 close parentheses equals 552 n`
+$n ( n - 1 ) ( n - 2 ) = 552 n$
 
 **[1]**
 
 > *Make the equation equal to 0*
 
-`n open parentheses n minus 1 close parentheses open parentheses n minus 2 close parentheses minus 552 n equals 0`
+$n ( n - 1 ) ( n - 2 ) - 552 n = 0$
 
 > *Now expand the double bracket*
 
-`n open parentheses n squared minus 3 n plus 2 close parentheses minus 552 n equals 0`
+$n ( n^{2} - 3 n + 2 ) - 552 n = 0$
 
-`n open parentheses n squared minus 3 n plus 2 minus 552 close parentheses equals 0`
+$n ( n^{2} - 3 n + 2 - 552 ) = 0$
 
-`n open parentheses n squared minus 3 n minus 550 close parentheses equals 0`
+$n ( n^{2} - 3 n - 550 ) = 0$
 
 > *Factorise the double bracket now that you have simplified*
 
-`n open parentheses n minus 25 close parentheses open parentheses n plus 22 close parentheses equals 0`
+$n ( n - 25 ) ( n + 22 ) = 0$
 
 **[1]**
 
@@ -263,31 +263,31 @@ $60$ **[1]**
 ### Q4
 > *Make the information in the question into an equation*
 
-`open parentheses table row n row 3 end table close parentheses equals 6 space open parentheses table row n row 2 end table close parentheses`
+$( \begin{gathered} n \\ 3 \end{gathered} ) = 6 ( \begin{gathered} n \\ 2 \end{gathered} )$
 
-> *Use *`open parentheses table row n row r end table close parentheses equals fraction numerator n factorial over denominator open parentheses n minus r close parentheses factorial r factorial end fraction`
+> *Use *$( \begin{gathered} n \\ r \end{gathered} ) = \frac{n factorial}{( n - r ) \text{factorial} r factorial}$
 
-`fraction numerator n factorial over denominator open parentheses n minus 3 close parentheses factorial 3 factorial end fraction equals 6 space open parentheses fraction numerator n factorial over denominator open parentheses n minus 2 close parentheses factorial 2 factorial end fraction close parentheses`
+$\frac{n factorial}{( n - 3 ) \text{factorial} 3 factorial} = 6 ( \frac{n factorial}{( n - 2 ) \text{factorial} 2 factorial} )$
 
 **[1]**
 
 > *Expand the factorials*
 
-`fraction numerator n open parentheses n minus 1 close parentheses open parentheses n minus 2 close parentheses... over denominator open parentheses n minus 3 close parentheses open parentheses n minus 4 close parentheses... cross times 3 factorial end fraction equals 6 open parentheses fraction numerator n open parentheses n minus 1 close parentheses open parentheses n minus 2 close parentheses... over denominator open parentheses n minus 2 close parentheses open parentheses n minus 3 close parentheses... cross times 2 factorial end fraction close parentheses`
+$\frac{n ( n - 1 ) ( n - 2 )...}{( n - 3 ) ( n - 4 )... \times 3 factorial} = 6 ( \frac{n ( n - 1 ) ( n - 2 )...}{( n - 2 ) ( n - 3 )... \times 2 factorial} )$
 
 > *Cancel some of the brackets*
 
-`fraction numerator n open parentheses n minus 1 close parentheses open parentheses n minus 2 close parentheses over denominator 3 factorial end fraction equals fraction numerator 6 n open parentheses n minus 1 close parentheses over denominator 2 factorial end fraction`
+$\frac{n ( n - 1 ) ( n - 2 )}{3 factorial} = \frac{6 n ( n - 1 )}{2 factorial}$
 
 **[1]**
 
 > *Rearrange to make the equation equal to 0*
 
-`fraction numerator n open parentheses n minus 1 close parentheses open parentheses n minus 2 close parentheses over denominator 3 factorial end fraction minus fraction numerator 6 n open parentheses n minus 1 close parentheses over denominator 2 factorial end fraction equals 0`
+$\frac{n ( n - 1 ) ( n - 2 )}{3 factorial} - \frac{6 n ( n - 1 )}{2 factorial} = 0$
 
-> *There is a common factor of *`n open parentheses n minus 1 close parentheses`* so factorise*
+> *There is a common factor of *$n ( n - 1 )$* so factorise*
 
-`n open parentheses n minus 1 close parentheses open square brackets fraction numerator n minus 2 over denominator 3 factorial end fraction minus fraction numerator 6 over denominator 2 factorial end fraction close square brackets equals 0`
+$n ( n - 1 ) [ \frac{n - 2}{3 factorial} - \frac{6}{2 factorial} ] = 0$
 
 **[1]**
 
@@ -306,25 +306,25 @@ $n=20$
 ### Q5
 > *There are 12 people in total, and we want 3 of them for the first group. Order doesn't matter. Therefore the number of options is:*
 
-`straight C presuperscript 12 subscript 3 equals 220`
+$\mathrm{C} pre^{12}_{3} = 220$
 
 > *There are now 9 people left, and from those 9 we want to form a group of 4.*
 
-`straight C presuperscript 9 subscript 4 equals 126`
+$\mathrm{C} pre^{9}_{4} = 126$
 
 > *There are 5 people left over, which automatically gives us our last group.*
 
 > *The total number of combinations is therefore*
 
-`straight C presuperscript 12 subscript 3 cross times straight C presuperscript 9 subscript 4`
+$\mathrm{C} pre^{12}_{3} \times \mathrm{C} pre^{9}_{4}$
 
-**for one correct combination in a product **`open square brackets 1 close square brackets`
+**for one correct combination in a product **$[ 1 ]$
 
-**for two correct combinations in a product **`open square brackets 1 close square brackets`
+**for two correct combinations in a product **$[ 1 ]$
 
 $220\times126$
 
-> $27720$* *`open square brackets 1 close square brackets`
+> $27720$* *$[ 1 ]$
 
 ### Q6
 i) *There are 6 digits and 5 spaces and order does not matter*
@@ -396,7 +396,7 @@ $96+72=168$
 ### Q7
 > *The candidate has 5 options and must choose 2 for section A, and has 8 options and must choose 4 for section B, therefore*
 
-`C presuperscript 5 subscript 2 space cross times space C presuperscript 8 subscript 4`
+$C pre^{5}_{2} \times C pre^{8}_{4}$
 
 **[1]**
 
@@ -465,7 +465,7 @@ ii) *One photograph is to be chosen from the 3 sunsets, so there are 3 ways to d
 
 > *To work out the number of different teams that have two women and one man:*
 
-`C presuperscript 4 subscript 1 cross times C presuperscript 5 subscript 2`
+$C pre^{4}_{1} \times C pre^{5}_{2}$
 
 > *   *
 
@@ -475,34 +475,34 @@ ii) *One photograph is to be chosen from the 3 sunsets, so there are 3 ways to d
 
 > *Add together to work out the number of teams that have two women and one man **or **three women.*
 
-`C presuperscript 4 subscript 1 cross times C presuperscript 5 subscript 2 plus scriptbase C subscript 3 end scriptbase presuperscript 5`
+`C ^ 4 _ 1 x C ^ 5 _ 2 + C _ 3 ^ 5`
 
-`open square brackets 1 close square brackets`
+$[ 1 ]$
 
-`bold 50 space open square brackets 1 close square brackets`
+$50 [ 1 ]$
 
 ### Q10
 i) *There are *$6$* digits to choose from, and we need a *$5$* digit number.  *
 
-`scriptbase P subscript 5 end scriptbase presuperscript 6 equals fraction numerator 6 factorial over denominator open parentheses 6 minus 5 close parentheses factorial end fraction`
+`P _ 5 ^ 6 = (6 factorial)/(( 6 - 5 ) factorial)`
 
 $=6\times5\times4\times3\times2$
 
-$720$ `open square brackets 1 close square brackets`
+$720$ $[ 1 ]$
 
 ii) $\frac{2}{3}$* of the digits are odd.*
 
 $720\times\frac{2}{3}$
 
-> $480$* *`open square brackets 1 close square brackets`
+> $480$* *$[ 1 ]$
 
 iii) *For the number to be greater than *$60000$* and odd, the first digit can be either 6, 8 or 9 and the last digit must be odd.*
 
-> *If the first digit is either a 6 or an 8, there are *$4$* options for the last digit *`open parentheses 1 comma space 3 comma space 5 comma space 9 close parentheses`*.*
+> *If the first digit is either a 6 or an 8, there are *$4$* options for the last digit *$( 1 , 3 , 5 , 9 )$*.*
 
 > * *
 
-`4 cross times open parentheses 4 cross times 3 cross times 2 close parentheses`
+$4 \times ( 4 \times 3 \times 2 )$
 
 > $=96$* *
 
@@ -512,11 +512,11 @@ $96\times2$
 
 $=192$* numbers*
 
-`open square brackets 1 close square brackets`
+$[ 1 ]$
 
-> *If the first digit is a 9, there are only *$3$* options for the last digit *`open parentheses 1 comma space 3 comma space 5 close parentheses`* because the *$9$* has already been used.   *
+> *If the first digit is a 9, there are only *$3$* options for the last digit *$( 1 , 3 , 5 )$* because the *$9$* has already been used.   *
 
-`3 cross times open parentheses 4 cross times 3 cross times 2 close parentheses`
+$3 \times ( 4 \times 3 \times 2 )$
 
 $=72$* **numbers*
 
@@ -526,7 +526,7 @@ $=72$* **numbers*
 
 $192+72$
 
-> $264$* *`open square brackets 1 close square brackets`
+> $264$* *$[ 1 ]$
 
 ### Q11
 > *For the first digit, there are 9 options to choose from. For the second digit, there are 8 options to choose from. For the third digit, there are 7 options to choose from. For the fourth digit, there are 6 options to choose from.*
@@ -543,9 +543,9 @@ $9\times8\times7\times6=3024$
 
 > *  *
 
-`straight P presuperscript 9 subscript 4 equals 3024`
+$\mathrm{P} pre^{9}_{4} = 3024$
 
-$3024$* *`open square brackets 1 close square brackets`
+$3024$* *$[ 1 ]$
 > *There are 4 prime numbers in the list.*
 
 > *Therefore, for the first digit, there are 4 options to choose from. For the second digit, there are 3 options to choose from. For the third digit, there are 2 options to choose from, and for the fourth digit, there is only 1 options to choose from.*
@@ -560,9 +560,9 @@ $4\times3\times2\times1=24$
 
 > *  *
 
-`straight P presuperscript 4 subscript 4 equals 24`
+$\mathrm{P} pre^{4}_{4} = 24$
 
-> $24$* *`open square brackets 1 close square brackets`
+> $24$* *$[ 1 ]$
 > *There are 4 even numbers, and 5 odd.*
 
 > *To make the first two digits even, the first digit has 4 options, and the second digit has 3 options.*
@@ -577,11 +577,11 @@ $4\times3\times5\times4=240$
 
 > *This can also be written as:*
 
-`straight P presuperscript 4 subscript 2 cross times straight P presuperscript 5 subscript 2 equals 240`
+$\mathrm{P} pre^{4}_{2} \times \mathrm{P} pre^{5}_{2} = 240$
 
-**for multiplication from either method **`open square brackets 1 close square brackets`
+**for multiplication from either method **$[ 1 ]$
 
-> * *$240$* *`open square brackets 1 close square brackets`
+> * *$240$* *$[ 1 ]$
 > *For the code to be an even number, it must end in either a 2, 4, 6 or 8.*
 
 > *For the first digit, there 8 options, because we are saving an even number for the last digit. For the second digit, there are 7. For the third there and 6. For the last digit, we have 4 options.*
@@ -594,11 +594,11 @@ $8\times7\times6\times4=1344$
 
 > *This can also be written as:*
 
-`straight P presuperscript 8 subscript 3 cross times straight P presuperscript 4 subscript 1 equals 1344`
+$\mathrm{P} pre^{8}_{3} \times \mathrm{P} pre^{4}_{1} = 1344$
 
-**for multiplication from either method **`open square brackets 1 close square brackets`
+**for multiplication from either method **$[ 1 ]$
 
-$1344$ `open square brackets 1 close square brackets`
+$1344$ $[ 1 ]$
 
 ### Q12
 (i) *If there are no restrictions:*
@@ -609,9 +609,9 @@ $5\times4\times3\times2$
 
 > *This could also be written as*
 
-`straight P presuperscript 5 subscript 4`
+$\mathrm{P} pre^{5}_{4}$
 
-> $120$* *`open square brackets 1 close square brackets`
+> $120$* *$[ 1 ]$
 
 (ii) *Method 1*
 
@@ -623,7 +623,7 @@ $5\times4\times3\times2$
 
 $120\times\frac{2}{5}$
 
-> $48$* *`open square brackets 1 close square brackets`
+> $48$* *$[ 1 ]$
 
 > *Method 2*
 
@@ -645,7 +645,7 @@ $4\times3\times2\times1=24$
 
 $24+24=48$
 
-> $48$* *`open square brackets 1 close square brackets`
+> $48$* *$[ 1 ]$
 
 (iii) *For the number to be greater than 7000, it must start with either 7, 8 or 9. For the number to be odd it must end in an odd number.*
 
@@ -657,7 +657,7 @@ $3\times2\times2=12$
 
 $3\times2\times2=12$
 
-`open square brackets 1 close square brackets`
+$[ 1 ]$
 
 > *  *
 
@@ -667,7 +667,7 @@ $3\times2\times2=12$
 
 $3\times2\times3=18$
 
-`open square brackets 1 close square brackets`
+$[ 1 ]$
 
 > *    *
 
@@ -675,50 +675,50 @@ $3\times2\times3=18$
 
 $12+12+18=42$
 
-> $42$* *`open square brackets 1 close square brackets`
+> $42$* *$[ 1 ]$
 
 ### Q13
 > *Substitute *$n=n$* and *$r=4$* into the formula *`scriptbase C subscript r end scriptbase presuperscript n`
 
-`fraction numerator n factorial over denominator open parentheses n minus 4 close parentheses factorial 4 factorial end fraction`
+$\frac{n factorial}{( n - 4 ) \text{factorial} 4 factorial}$
 
-> *Substitute *`n equals open parentheses n plus 1 close parentheses`* and *$r=5$* into the formula *`scriptbase C subscript r end scriptbase presuperscript n`
+> *Substitute *$n = ( n + 1 )$* and *$r=5$* into the formula *`scriptbase C subscript r end scriptbase presuperscript n`
 
-`fraction numerator open parentheses n plus 1 close parentheses factorial over denominator open parentheses open parentheses n plus 1 close parentheses minus 5 close parentheses factorial 5 factorial end fraction`
+$\frac{( n + 1 ) factorial}{( ( n + 1 ) - 5 ) \text{factorial} 5 factorial}$
 
 > *Substitute into the given equation.*
 
-`45 cross times fraction numerator n factorial over denominator open parentheses n minus 4 close parentheses factorial 4 factorial end fraction equals fraction numerator open parentheses n plus 1 close parentheses open parentheses n plus 1 close parentheses factorial over denominator open parentheses open parentheses n plus 1 close parentheses minus 5 close parentheses factorial 5 factorial end fraction`
+$45 \times \frac{n factorial}{( n - 4 ) \text{factorial} 4 factorial} = \frac{( n + 1 ) ( n + 1 ) factorial}{( ( n + 1 ) - 5 ) \text{factorial} 5 factorial}$
 
-`open square brackets 1 close square brackets`
+$[ 1 ]$
 
 > *Simplify.*
 
-`fraction numerator 45 n factorial over denominator 24 open parentheses n minus 4 close parentheses factorial end fraction equals fraction numerator open parentheses n plus 1 close parentheses open parentheses n plus 1 close parentheses factorial over denominator 120 open parentheses n minus 4 close parentheses factorial end fraction`
+$\frac{45 n factorial}{24 ( n - 4 ) factorial} = \frac{( n + 1 ) ( n + 1 ) factorial}{120 ( n - 4 ) factorial}$
 
-> *Multiply both sides by *`24 open parentheses n minus 4 close parentheses factorial`
+> *Multiply both sides by *$24 ( n - 4 ) \text{factorial}$
 
-`45 n factorial equals fraction numerator 24 open parentheses n plus 1 close parentheses open parentheses n plus 1 close parentheses factorial open parentheses n minus 4 close parentheses factorial over denominator 120 open parentheses n minus 4 close parentheses factorial end fraction`
+$45 n \text{factorial} = \frac{24 ( n + 1 ) ( n + 1 ) \text{factorial} ( n - 4 ) factorial}{120 ( n - 4 ) factorial}$
 
-> *Cancel *`open parentheses n minus 4 close parentheses factorial`* from top and bottom.*
+> *Cancel *$( n - 4 ) \text{factorial}$* from top and bottom.*
 
-`45 equals fraction numerator 24 open parentheses n plus 1 close parentheses open parentheses n plus 1 close parentheses factorial over denominator 120 n factorial end fraction`
+$45 = \frac{24 ( n + 1 ) ( n + 1 ) factorial}{120 n factorial}$
 
-`fraction numerator open parentheses n plus 1 close parentheses factorial over denominator n factorial end fraction equals n plus 1`*,* *simplify.*
+$\frac{( n + 1 ) factorial}{n factorial} = n + 1$*,* *simplify.*
 
-`45 equals open parentheses n plus 1 close parentheses squared over 5`
+$45 = \frac{( n + 1 )^{2}}{5}$
 
 > *Rearrange to achieve a quadratic equation.*
 
 $n^{2}+2n-224=0$
 
-`open square brackets 1 close square brackets`
+$[ 1 ]$
 
 > *Factorise.*
 
-`open parentheses n plus 16 close parentheses open parentheses n minus 14 close parentheses equals 0`
+$( n + 16 ) ( n - 14 ) = 0$
 
-`open square brackets 1 close square brackets`
+$[ 1 ]$
 
 > *Solve.*
 
@@ -726,7 +726,7 @@ $n=-16$ *and *$n=14$
 
 > $n$* cannot be negative.*
 
-$n=14$* *`open square brackets 1 close square brackets`
+$n=14$* *$[ 1 ]$
 
 ### Q14
 i) *Consider how many choices there are for each digit, if no numbers can be repeated. As there are 6 numbers altogether, there would be 6 choices for the first digit, then 5 choices for the second digit, 4 choices for the third digit and 3 choices for the fourth digit. *
@@ -791,7 +791,7 @@ $1287$ **[1]**
 
 ii) *To ensure that the committee contains at least one doctor, we need to subtract the committees that would only comprise of dentists and nurses, i.e. the committees that would contain no doctors*
 
-`C presuperscript 7 subscript 5 space equals space 21`
+$C pre^{7}_{5} = 21$
 
 > *Therefore, the number of committees that would have at least one doctor would be*
 
@@ -803,22 +803,22 @@ $1266$** [1]**
 
 iii) *To ensure that the committee contains all 3 of the nurses, it means we have to choose the remaining 2 people for the committee from the 6 doctors and 4 dentists. *
 
-`C presuperscript 10 subscript 2 space equals space 45`
+$C pre^{10}_{2} = 45$
 
 $45$ **[1]**
 
-`C presuperscript 3 subscript 3`** is not required as **`C presuperscript 3 subscript 3 space equals space 1`** **
+`C presuperscript 3 subscript 3`** is not required as **$C pre^{3}_{3} = 1$** **
 
 ### Q17
 i) *There are *$8$* digits to choose from, and we need a *$5$* digit number.  *
 
-`scriptbase P subscript 5 end scriptbase presuperscript 8 equals fraction numerator 8 factorial over denominator open parentheses 8 minus 5 close parentheses factorial end fraction`
+`P _ 5 ^ 8 = (8 factorial)/(( 8 - 5 ) factorial)`
 
 $=8\times7\times6\times5\times4$
 
-`open square brackets 1 close square brackets`
+$[ 1 ]$
 
-`bold 6720 space open square brackets 1 close square brackets`
+$6720 [ 1 ]$
 
 ii) *For the number to be greater than *$60000$*, the first digit can be either 6, 7 or 8.*
 
@@ -826,8 +826,8 @@ ii) *For the number to be greater than *$60000$*, the first digit can be either 
 
 > * *
 
-`3 cross times P presuperscript 7 subscript 4`
+$3 \times P pre^{7}_{4}$
 
-`open square brackets 1 close square brackets`
+$[ 1 ]$
 
-> $2520$* *`open square brackets 1 close square brackets`
+> $2520$* *$[ 1 ]$

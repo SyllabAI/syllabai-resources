@@ -14,21 +14,21 @@
 
 > *Find the length *$AC$* using the tangent ratio*
 
-`tan open parentheses 35 close parentheses equals fraction numerator 4 over denominator A C end fraction`
+$\tan ( 35 ) = \frac{4}{A C}$
 
 **[M1]**
 
-`table attributes columnalign right center left columnspacing 0px end attributes row cell A C end cell equals cell fraction numerator 4 over denominator tan open parentheses 35 close parentheses end fraction end cell row blank equals cell 5.712592027... end cell end table`
+$\begin{array}{rcl} A C & = \frac{4}{\tan ( 35 )} \\ = 5.712592027... \end{array}$
 
 **[A1]**
 
 > *Now we can use Pythagoras' Theorem to find *$BC$*; this is the depth of the cuboid*
 
-`table row cell 5.712... squared end cell equals cell 5 squared plus B C squared end cell end table`
+$\begin{gathered} 5.712...^{2} & = 5^{2} + B C^{2} \end{gathered}$
 
 **[M1]**
 
-`table row cell B C end cell equals cell square root of 5.712... squared minus 5 squared end root end cell row blank equals cell 2.762916515... end cell end table`
+$\begin{gathered} B C & = \sqrt{5.712...^{2} - 5^{2}} \\ = 2.762916515... \end{gathered}$
 
 **[A1]**
 
@@ -43,7 +43,7 @@ $V=4\times5\times2.762916515...\,V=55.2583302...$
 **[A1]**
 
 > **[exam-tip]**
-> An alternate method is to find $CH$ using `fraction numerator 4 over denominator sin open parentheses 35 close parentheses end fraction` and then use 3D Pythagoras to find the depth. `4 squared plus 5 squared plus open parentheses B C close parentheses squared equals open parentheses C H close parentheses squared`.
+> An alternate method is to find $CH$ using $\frac{4}{\sin ( 35 )}$ and then use 3D Pythagoras to find the depth. $4^{2} + 5^{2} + ( B C )^{2} = ( C H )^{2}$.
 
 ### Q2
 > *The line *$AR$* and the line *$AB$* form a right-angle triangle with the line *$RB$*- which is on the plane *$BCRQ$* as shown below. The angle between the diagonal *$AR$* and the plane *$BCRQ$* is therefore the angle between *$AR$*and the line *$RB$*.*
@@ -62,13 +62,13 @@ $BR=\sqrt{4^{2}+5^{2}}$
 
 > *Now we can apply the tangent ratio to find the angle. *
 
-`tan open parentheses A R B close parentheses equals fraction numerator 8 over denominator square root of 4 squared plus 5 squared end root end fraction`
+$\tan ( A R B ) = \frac{8}{ \sqrt{4^{2} + 5^{2}} }$
 
 **[1]**
 
 > *Inverse tangent on your calculator to find the angle.*
 
-`table row cell A R B end cell equals cell tan to the power of negative 1 end exponent open parentheses fraction numerator 8 over denominator square root of 4 squared plus 5 squared end root end fraction close parentheses end cell row blank equals cell 51.32655062... degree end cell end table`
+$\begin{gathered} A R B & = \tan ^{- 1} ( \frac{8}{ \sqrt{4^{2} + 5^{2}} } ) \\ = 51.32655062...^{\circ} \end{gathered}$
 
 **51.3° ****[1]**
 **Give answers in degrees to at least one decimal place**
@@ -90,11 +90,11 @@ $AC=\sqrt{7^{2}+6^{2}}=\sqrt{85}$
 
 > *Use Pythagoras' theorem, *$a^{2}+b^{2}=c^{2}$*, on the right-angled triangle *$ACP$*, to find the length *$PC$
 
-`table row cell P C squared end cell equals cell A C squared plus A P squared end cell row cell P C squared end cell equals cell open parentheses square root of 85 close parentheses squared plus 16 squared end cell end table`
+$\begin{gathered} P C^{2} & = A C^{2} + A P^{2} \\ P C^{2} & = ( \sqrt{85} )^{2} + 16^{2} \end{gathered}$
 
 **[1]**
 
-`table row cell P C end cell equals cell square root of open parentheses square root of 85 close parentheses squared plus 16 squared end root end cell end table`
+$\begin{gathered} P C & = \sqrt{( \sqrt{85} )^{2} + 16^{2}} \end{gathered}$
 
 **Final answer:** $18.5$** cm**
 
@@ -123,13 +123,13 @@ $=2\sqrt{97}$
 
 > *Now we can use right-angle trigonometry to find the required angle.*
 
-`table row cell tan open parentheses x close parentheses end cell equals cell fraction numerator 12 over denominator 2 square root of 97 end fraction end cell end table`
+$\begin{gathered} \tan ( x ) & = \frac{12}{2 \sqrt{97} } \end{gathered}$
 
 **[1]**
 
 > *Use the inverse tangent function ("SHIFT tan" on your calculator) to find **x.*
 
-`table row x equals cell tan to the power of negative 1 end exponent open parentheses fraction numerator 12 over denominator 2 square root of 97 end fraction close parentheses end cell row blank equals cell 31.35009472... end cell end table`
+$\begin{gathered} x = \tan ^{- 1} ( \frac{12}{2 \sqrt{97} } ) \\ = 31.35009472... \end{gathered}$
 
 > *Round your answer to 1 decimal place as requested. Remember to include the units.*
 
@@ -142,13 +142,13 @@ $=2\sqrt{97}$
 
 ![5VQRYxOI_ma-cie-igcse-2020-march-p4-tz2-q8bi](assets/012-5vqryxoi-ma-cie-igcse-2020-march-p4-tz2-q8bi.png)
 
-`open parentheses A C close parentheses squared equals 20 squared plus 18 squared equals 400 plus 324 equals 724`
+$( A C )^{2} = 20^{2} + 18^{2} = 400 + 324 = 724$
 
 **[1]**
 
-> *There is no need to square root as we will need *`open parentheses A C close parentheses squared`* in the next stage.*
+> *There is no need to square root as we will need *$( A C )^{2}$* in the next stage.*
 
-`open parentheses A G close parentheses squared equals open parentheses A C close parentheses squared plus 16 squared equals 724 plus 256 equals 980`
+$( A G )^{2} = ( A C )^{2} + 16^{2} = 724 + 256 = 980$
 
 **[1]**
 
@@ -164,7 +164,7 @@ $GX=40-14\sqrt{5}=8.695048...$
 
 > *Method 2** - Using 3D Pythagoras' theorem*
 
-`open parentheses A G close parentheses squared equals 20 squared plus 18 squared plus 16 squared`
+$( A G )^{2} = 20^{2} + 18^{2} + 16^{2}$
 
 **[2]**
 
@@ -189,7 +189,7 @@ $GX$*, ***the length of the rod outside the box is 8.70 cm*** ***[1]**
 
 *Use inverse tan to find angle *$CAG$**.**
 
-`C A G equals tan to the power of negative 1 end exponent space open parentheses fraction numerator 16 over denominator 2 square root of 181 end fraction close parentheses equals 30.737 space 211 space...`
+$C A G = \tan ^{- 1} ( \frac{16}{2 \sqrt{181} } ) = 30.737 211 ...$
 
 > *Give angle answers to one decimal place.*
 
@@ -220,17 +220,17 @@ $=\sqrt{106}$
 
 > *Now we can use right-angle trigonometry to find the required angle.*
 
-`table row cell tan open parentheses x close parentheses end cell equals cell fraction numerator 6 over denominator square root of 106 end fraction end cell end table`
+$\begin{gathered} \tan ( x ) & = \frac{6}{ \sqrt{106} } \end{gathered}$
 
 **[1]**
 
 > *Use the inverse tangent function ("SHIFT tan" on your calculator) to find **x.*
 
-`table row x equals cell tan to the power of negative 1 end exponent open parentheses fraction numerator 6 over denominator square root of 106 end fraction close parentheses end cell end table`
+$\begin{gathered} x = \tan ^{- 1} ( \frac{6}{ \sqrt{106} } ) \end{gathered}$
 
 **[1]**
 
-`table row blank equals cell 30.23241412... end cell end table`
+$\begin{gathered} = 30.23241412... \end{gathered}$
 
 > *Round your answer to 3 significant figures as requested. Remember to include the units.*
 
@@ -263,7 +263,7 @@ $AX^{2}=AE^{2}+EX^{2}\,AX^{2}=12^{2}+6.5^{2}$
 
 > *Solve.*
 
-`table row cell A X to the power of space end cell equals cell square root of 12 squared space plus space 6.5 squared end root end cell row blank equals cell space 13.64734... end cell end table`
+$\begin{gathered} A X^{ } & = \sqrt{12^{2} + 6.5^{2}} \\ = 13.64734... \end{gathered}$
 
 **AX **** = 13.6 cm (3 s.f.)****  [1]**
 
@@ -281,11 +281,11 @@ iii) *Draw the line from **A** to **G** and use it to form a right-angled triang
 
 > *The sides opposite and adjacent to the angle are known so use the tan ratio.  *
 
-`table row cell tan space G A X space end cell equals cell fraction numerator space G X over denominator A X end fraction end cell row blank equals cell fraction numerator space 4.121216... over denominator 13.64735 end fraction end cell row blank equals cell space 0.301979... end cell end table`
+$\begin{gathered} \tan G A X & = \frac{ G X}{A X} \\ = \frac{ 4.121216...}{13.64735} \\ = 0.301979... \end{gathered}$
 
 > *Use the tan*<sup>*-1*</sup>* button to find the answer.*
 
-`table row cell tan space G A X space end cell equals cell space 0.301979... end cell row cell G A X space end cell equals cell space tan to the power of negative 1 end exponent open parentheses 0.301979... close parentheses space end cell end table`
+$\begin{gathered} \tan G A X & = 0.301979... \\ G A X & = \tan ^{- 1} ( 0.301979... ) \end{gathered}$
 
 **Angle ****GAX****  = 16.8°**** [1]**
 
@@ -306,23 +306,23 @@ iii) *Draw the line from **A** to **G** and use it to form a right-angled triang
 
 > *Solve**.*
 
-`table row cell A C to the power of space end cell equals cell square root of 8 squared space plus space 5 squared end root end cell row blank equals cell square root of 89 space end cell end table`
+$\begin{gathered} A C^{ } & = \sqrt{8^{2} + 5^{2}} \\ = \sqrt{89} \end{gathered}$
 
 > *Use Pythagoras'  theorem with triangle **ACG **to find the length of **AG**.*
 
-*  *`table row cell A G to the power of space 2 space end exponent end cell equals cell space A C to the power of space 2 space end exponent plus space C G to the power of space 2 end exponent end cell row cell A G to the power of space 2 space end exponent end cell equals cell open parentheses square root of 89 close parentheses squared space plus space 11 squared end cell end table`
+*  *$\begin{gathered} A G^{ 2 } & = A C^{ 2 } + C G^{ 2} \\ A G^{ 2 } & = ( \sqrt{89} )^{2} + 11^{2} \end{gathered}$
 
 **[1]**
 
 > *Solve**.*
 
-`table row cell A G to the power of space end cell equals cell square root of 89 space plus space 11 squared end root end cell row blank equals cell square root of 210 space end cell end table`
+$\begin{gathered} A G^{ } & = \sqrt{89 + 11^{2}} \\ = \sqrt{210} \end{gathered}$
 
 **[1]**
 
 > *Write 13 as a square root and compare.*
 
-`13 equals table row blank blank cell square root of 169 end cell end table less than square root of 210 table row blank blank space end table`
+$13 = \begin{gathered} \sqrt{169} \end{gathered} < \sqrt{210} \begin{gathered} \end{gathered}$
 
 **AG ****=**** **$\sqrt{210}$** cm > 13 cm so yes the pencil will fit. ****[1]**
 
@@ -349,7 +349,7 @@ $\mathrm{tan}x=\frac{12}{\sqrt{373}}$
 
 > *Using inverse tan (usually shift and tan on your calculator)*
 
-`x equals tan to the power of negative 1 end exponent open parentheses fraction numerator 12 over denominator square root of 373 end fraction close parentheses equals 31.85419091...`
+$x = \tan ^{- 1} ( \frac{12}{ \sqrt{373} } ) = 31.85419091...$
 
 $31.9^{\circ}$ **[1]**
 
@@ -390,7 +390,7 @@ $5\sqrt{2}\mathrm{tan}68=h$
 
 *Substitute this value of **h** into the volume formula above* * *
 
-`table row V equals cell 1 third cross times 100 cross times 5 square root of 2 space tan space 68 end cell row blank equals cell 583.38... end cell end table`
+$\begin{gathered} V = 1 \frac{1}{3} \times 100 \times 5 \sqrt{2} \tan 68 \\ = 583.38... \end{gathered}$
 
 **583 cm**<sup>**3**</sup>** ****[1]**
 
@@ -425,7 +425,7 @@ $AM=4\sqrt{2}$
 
 > *This can then be solved using the tan ratio; *$\text{tan}θ=\frac{\text{opposite}}{\text{adjacent}}$
 
-`table row cell text tan end text x end cell equals cell fraction numerator 10 over denominator 4 square root of 2 end fraction end cell row x equals cell text tan end text to the power of negative 1 end exponent open parentheses fraction numerator 10 over denominator 4 square root of 2 end fraction close parentheses equals 60.5037915 degree end cell end table`
+$\begin{gathered} \text{\tan } x & = \frac{10}{4 \sqrt{2} } \\ x = \text{\tan }^{- 1} ( \frac{10}{4 \sqrt{2} } ) = 60.5037915^{\circ} \end{gathered}$
 
 **Using tan ratio correctly*** ***[1]**
 
@@ -460,7 +460,7 @@ $h=13$
 
 > *Use Pythagoras' theorem to calculate the vertical height of the pyramid **AO**.*
 
-`table row cell v squared end cell equals cell 13 squared minus 5 squared end cell row cell v squared end cell equals 144 row v equals 12 end table`
+$\begin{gathered} v^{2} & = 13^{2} - 5^{2} \\ v^{2} & = 144 \\ v = 12 \end{gathered}$
 
 **[1]**
 
@@ -470,7 +470,7 @@ $h=13$
 
 > *Calculate the length **OC** using Pythagoras' theorem.*
 
-`table row cell x squared end cell equals cell 5 squared plus 5 squared end cell row cell x squared end cell equals 50 row x equals cell square root of 50 end cell end table`
+$\begin{gathered} x^{2} & = 5^{2} + 5^{2} \\ x^{2} & = 50 \\ x = \sqrt{50} \end{gathered}$
 
 **[1]**
 
@@ -480,11 +480,11 @@ $h=13$
 
 > *Calculate the angle **OCA** using trigonometry.  You know the adjacent side and the opposite side so use *$\mathrm{tan}θ=\frac{Opp}{Adj}$
 
-`table row cell tan space theta end cell equals cell fraction numerator 12 over denominator square root of 50 end fraction end cell end table`
+$\begin{gathered} \tan \\theta & = \frac{12}{ \sqrt{50} } \end{gathered}$
 
 **[1]**
 
-`table row theta equals cell tan to the power of negative 1 end exponent open parentheses fraction numerator 12 over denominator square root of 50 end fraction close parentheses end cell row theta equals cell 59.4910... end cell end table`
+$\begin{gathered} \\theta = \tan ^{- 1} ( \frac{12}{ \sqrt{50} } ) \\ \\theta = 59.4910... \end{gathered}$
 
 **Final answer:** **59.5**<sup>**o**</sup>** [1]**
 
@@ -495,25 +495,25 @@ $h=13$
 
 > *We cannot assume that **BC** is 6 cm as we are not told that triangle **ABC **is isosceles. Therefore we need to use trigonometry with triangle **BCE **to find** **BC.*
 
-`sin open parentheses 40 close parentheses equals fraction numerator B C over denominator 13 end fraction`
+$\sin ( 40 ) = \frac{B C}{13}$
 
 > *Multiply both sides by 13 to find **BC.*
 
-`B C equals 13 sin open parentheses 40 close parentheses equals 8.356238926...`
+$B C = 13 \sin ( 40 ) = 8.356238926...$
 
 **[1]**
 
 *Store this result in your calculator to preserve accuracy in future calculations.* *We can use this result with the area of triangle **ABC** to find the angle **ACB.*
 
-`22 equals 1 half open parentheses 6 close parentheses open parentheses 8.356238926... close parentheses sin C`
+$22 = 1 \frac{1}{2} ( 6 ) ( 8.356238926... ) \sin C$
 
 **[1]**
 
 > *Rearrange to find the angle **ACB.*
 
-`sin C equals fraction numerator 22 over denominator 1 half open parentheses 6 close parentheses open parentheses 8.356238926... close parentheses end fraction
-C equals sin to the power of negative 1 end exponent open parentheses fraction numerator 22 over denominator 1 half open parentheses 6 close parentheses open parentheses 8.356238926... close parentheses end fraction close parentheses
-equals 61.35273622...`
+$\sin C = \frac{22}{1 \frac{1}{2} ( 6 ) ( 8.356238926... )} 
+C = \sin ^{- 1} ( \frac{22}{1 \frac{1}{2} ( 6 ) ( 8.356238926... )} )
+= 61.35273622...$
 
 **[1]**
 
@@ -525,13 +525,13 @@ $180-61.35273622...=118.6472638...$
 
 > *Finally, we can use the cosine rule with triangle **ACB** as we have two sides and an included angle, to find **AC*
 
-`A C squared equals 6 squared plus 8.356... squared minus 2 open parentheses 6 close parentheses open parentheses 8.356... close parentheses cos open parentheses 118.647... close parentheses`
+$A C^{2} = 6^{2} + 8.356...^{2} - 2 ( 6 ) ( 8.356... ) \cos ( 118.647... )$
 
 **[1]**
 
 > *Evaluate and square root both sides to find **AC**.*
 
-`table attributes columnalign right center left columnspacing 0px end attributes row cell A C end cell equals cell square root of 6 squared plus 8.356... squared minus 2 open parentheses 6 close parentheses open parentheses 8.356... close parentheses cos open parentheses 118.647... close parentheses end root end cell row blank equals cell 12.405647... end cell end table`
+$\begin{array}{rcl} A C & = \sqrt{6^{2} + 8.356...^{2} - 2 ( 6 ) ( 8.356... ) \cos ( 118.647... )} \\ = 12.405647... \end{array}$
 
 > *Round your answer to 1 decimal place as requested.*
 
@@ -544,19 +544,19 @@ $180-61.35273622...=118.6472638...$
 
 > *Use Pythagoras' theorem, *$a^{2}+b^{2}=c^{2}$*, on the right-angled triangle ACD to find the length AC.*
 
-`table row cell A C to the power of 2 space end exponent end cell equals cell space 11 squared space plus space 10 squared end cell end table`
+$\begin{gathered} A C^{2 } & = 11^{2} + 10^{2} \end{gathered}$
 
 **[1]**
 
-`table row cell A C squared space end cell equals cell space 221 end cell row cell A C space end cell equals cell space square root of 221 italic space cm end cell end table`
+$\begin{gathered} A C^{2} & = 221 \\ A C & = \sqrt{221} \text{cm} \end{gathered}$
 
 > *Use Pythagoras' theorem on the right-angled triangle ACF to find the length AF, make sure you use the exact value for the length AC.*
 
-`table row cell A F squared space end cell equals cell space A C squared space plus space C F squared end cell row blank equals cell space open parentheses square root of 221 close parentheses squared space plus space 6 squared end cell end table`
+$\begin{gathered} A F^{2} & = A C^{2} + C F^{2} \\ = ( \sqrt{221} )^{2} + 6^{2} \end{gathered}$
 
 **[1]**
 
-`table row cell A F to the power of 2 space end exponent end cell equals cell space 221 space plus space 36 end cell row cell A F space end cell equals cell space square root of 221 space plus space 36 end root end cell end table`
+$\begin{gathered} A F^{2 } & = 221 + 36 \\ A F & = \sqrt{221 + 36} \end{gathered}$
 
 **[1]**
 
@@ -581,7 +581,7 @@ $\mathrm{tan}x=\frac{5}{4}$
 
 > *Find the inverse tan of both sides.*
 
-`x equals tan to the power of negative 1 end exponent open parentheses 5 over 4 close parentheses`
+$x = \tan ^{- 1} ( \frac{5}{4} )$
 
 $x=51.34019...$
 
@@ -592,13 +592,13 @@ $51.3^{\circ}$ **[1]**
 ### Q16
 i) *The angle **CAB **is opposite the side **BC **and adjacent to the side **AB**, so use the tan ratio.  *
 
-`table attributes columnalign right center left columnspacing 0px end attributes row cell tan space C A B space end cell equals cell fraction numerator B C over denominator A B end fraction end cell row cell tan space C A B space end cell equals cell space 5 over 8 end cell end table`
+$\begin{array}{rcl} \tan C A B & = \frac{B C}{A B} \\ \tan C A B & = \frac{5}{8} \end{array}$
 
 **[1]**
 
 > *Use the tan*<sup>*-1 *</sup>*button on your calculator to find the angle.*
 
-`table row cell C A B space end cell equals cell space tan to the power of negative 1 end exponent open parentheses 5 over 8 close parentheses end cell row blank equals cell space 32.0053... end cell end table`
+$\begin{gathered} C A B & = \tan ^{- 1} ( \frac{5}{8} ) \\ = 32.0053... \end{gathered}$
 
 **Angle ****CAB ****= 32.0° (1 d.p.) ****[1]**
 
@@ -606,13 +606,13 @@ ii) *The angle **GAC **is opposite the side **CG. **The hypotenuse is the diagon
 
 > *Use the unrounded version of your answer for **AG **from part (b).  *
 
-`table row cell sin space G A C space end cell equals cell fraction numerator G C over denominator A G end fraction end cell row cell sin space G A C space end cell equals cell space fraction numerator 11 over denominator square root of 210 end fraction end cell end table`
+$\begin{gathered} \sin G A C & = \frac{G C}{A G} \\ \sin G A C & = \frac{11}{ \sqrt{210} } \end{gathered}$
 
 **[1]**
 
 > *Use the sin*<sup>*-1 *</sup>*button on your calculator to find the angle.  *
 
-`table row cell G A C space end cell equals cell space sin to the power of negative 1 end exponent open parentheses fraction numerator 11 over denominator square root of 210 end fraction close parentheses end cell row blank equals cell space 49.3824... end cell end table`
+$\begin{gathered} G A C & = \sin ^{- 1} ( \frac{11}{ \sqrt{210} } ) \\ = 49.3824... \end{gathered}$
 
 **Angle ****GAC ****= 49.4° (1 d.p.) ****[1]**
 
@@ -633,7 +633,7 @@ $HL=KE\mathrm{and}HL+KE=37-28\,KE=\frac{37-28}{2}=4.5\,HK=37-4.5=32.5$
 
 > *Now we can find **AK **using Pythagoras' Theorem in triangle **AHK **(our second diagram).*
 
-`table row cell A K end cell equals cell square root of A H squared plus H K squared end root end cell row blank equals cell square root of 24 squared plus 32.5 squared end root end cell row blank equals cell 40.40111385... end cell end table`
+$\begin{gathered} A K & = \sqrt{A H^{2} + H K^{2}} \\ = \sqrt{24^{2} + 32.5^{2}} \\ = 40.40111385... \end{gathered}$
 
 **[1]**
 
@@ -643,13 +643,13 @@ $HL=KE\mathrm{and}HL+KE=37-28\,KE=\frac{37-28}{2}=4.5\,HK=37-4.5=32.5$
 
 > * Find **x** using triangle **AFK **(our first diagram) and the tangent ratio.*
 
-`tan open parentheses x close parentheses equals fraction numerator 20 over denominator 40.40111385... end fraction`
+$\tan ( x ) = \frac{20}{40.40111385...}$
 
 **[1]**
 
 > *Use the inverse tangent function ("SHIFT tan" on your calculator) to find the required angle.*
 
-`table row x equals cell tan to the power of negative 1 end exponent open parentheses fraction numerator 20 over denominator 40.40111385... end fraction close parentheses end cell row blank equals cell 26.33706009... end cell end table`
+$\begin{gathered} x = \tan ^{- 1} ( \frac{20}{40.40111385...} ) \\ = 26.33706009... \end{gathered}$
 
 > *Round your answer to 1 decimal place as requested. Remember to include the units.*
 
@@ -676,13 +676,13 @@ $AM=\frac{1}{2}\timesAC=\frac{11\sqrt{2}}{2}$
 
 > *The side **AM** is adjacent to the angle **VAM**. Therefore use the trig ratio *$\mathrm{cos}θ=\frac{\mathrm{Adjacent}}{\mathrm{Hypotenuse}}.$
 
-`cos open parentheses V A M close parentheses equals fraction numerator open parentheses fraction numerator 11 square root of 2 over denominator 2 end fraction close parentheses over denominator 18.6 end fraction`
+$\cos ( V A M ) = \frac{( \frac{11 \sqrt{2} }{2} )}{18.6}$
 
 **[1]**
 
 > *Find the angle by using inverse cos.*
 
-`V A M equals cos to the power of negative 1 end exponent open parentheses fraction numerator open parentheses fraction numerator 11 square root of 2 over denominator 2 end fraction close parentheses over denominator 18.6 end fraction close parentheses equals 65.28017...`
+$V A M = \cos ^{- 1} ( \frac{( \frac{11 \sqrt{2} }{2} )}{18.6} ) = 65.28017...$
 
 > *Round the angle to 1 decimal place.*
 
@@ -738,7 +738,7 @@ $\mathrm{sin}43^{\circ}=\frac{PT}{17.2}$
 
 > * Solve the trigonometric equation to find the side **PT.** *
 
-`table row cell P T space end cell equals cell space 17.2 space sin space 43 degree space end cell row blank equals cell space 11.7303... end cell end table`
+$\begin{gathered} P T & = 17.2 \sin 43^{\circ} \\ = 11.7303... \end{gathered}$
 
 **PT**** = 11.7 cm (3 s.f.)**** [1]**
 
@@ -753,23 +753,23 @@ $\mathrm{sin}43^{\circ}=\frac{PT}{17.2}$
 
 > *Use Pythagoras' theorem, *$a^{2}+b^{2}=c^{2}$*, on the right-angled triangle on the base of the crate to find length of the diagonal on the base.*
 
-`table row cell 46 squared space plus space 46 squared space end cell equals cell space c squared end cell end table`
+$\begin{gathered} 46^{2} + 46^{2} & = c^{2} \end{gathered}$
 
 **[1]**
 
-`table row cell c squared space end cell equals cell space 2 open parentheses 46 squared close parentheses space end cell row blank equals cell space 4232 end cell row cell c space end cell equals cell square root of 4232 space end cell row blank equals cell space 46 square root of 2 space cm end cell end table`
+$\begin{gathered} c^{2} & = 2 ( 46^{2} ) \\ = 4232 \\ c & = \sqrt{4232} \\ = 46 \sqrt{2} \text{cm} \end{gathered}$
 
 **[1]**
 
 > *Use Pythagoras' theorem on the right-angled triangle made up of the diagonal at the base, the side with length 55 cm and the diagonal made by the part of the stick inside the crate, **x.*
 
-`table row cell open parentheses 46 square root of 2 close parentheses squared space plus space 55 squared space end cell equals cell space x squared end cell row cell 4232 space plus space 3025 end cell equals cell space x squared end cell row cell x squared space end cell equals cell space 7257 end cell row cell x space end cell equals cell square root of 7257 space cm end cell end table`
+$\begin{gathered} ( 46 \sqrt{2} )^{2} + 55^{2} & = x^{2} \\ 4232 + 3025 & = x^{2} \\ x^{2} & = 7257 \\ x & = \sqrt{7257} \text{cm} \end{gathered}$
 
 **[1]**
 
 > *Calculate the length of the stick that extends out of the crate by subtracting **x** from the length of the stick.*
 
-`table row cell 95 space minus space x space end cell equals cell space 95 space minus space square root of 7257 space end cell row blank equals cell space 95 space minus space 85.188027... space end cell end table`
+$\begin{gathered} 95 - x & = 95 - \sqrt{7257} \\ = 95 - 85.188027... \end{gathered}$
 
 $9.81\mathrm{cm}$* ***[1]**
 > *To find the angle between a line and a plane it is helpful to draw a right angled triangle using the line that is perpendicular to the plane.*
@@ -782,13 +782,13 @@ $9.81\mathrm{cm}$* ***[1]**
 
 > *In the triangle you know the length of the side opposite the angle and the length of the side adjacent to the angle so use the tan ratio. Use the exact value found in part (a) for the length of the diagonal of the base.*
 
-`tan open parentheses theta close parentheses equals straight O over straight A space equals space fraction numerator 55 over denominator 46 square root of 2 end fraction`
+`tan ( theta ) = O / A = (55)/(46 sqrt( 2)`
 
 **[1]**
 
 > *Find the angle by using the inverse tan function.*
 
-`table row cell theta space end cell equals cell space tan to the power of negative 1 end exponent open parentheses fraction numerator 55 over denominator 46 square root of 2 end fraction close parentheses end cell row blank equals cell 40.212974... end cell end table`
+$\begin{gathered} \\theta & = \tan ^{- 1} ( \frac{55}{46 \sqrt{2} } ) \\ = 40.212974... \end{gathered}$
 
 > *Round your answer to 1 decimal place. Remember to include the units.*
 
@@ -801,7 +801,7 @@ $\mathrm{Angle}=40.2^{\circ}(1\mathrm{dp})$ **[1]**
 
 > *This is a right-angled triangle so the height of the post can be found using *$\mathrm{tan}x=\frac{Opp}{Adj}$*.*
 
-`tan space open parentheses 19 close parentheses equals h over 107`
+$\tan ( 19 ) = \frac{h}{107}$
 
 **[1]**
 
@@ -826,29 +826,29 @@ $36.84305...=h$
 
 ![-g02m5Yf_4-7-10](assets/059-g02m5yf-4-7-10.png)
 
-`table row cell B M squared plus O M squared end cell equals cell B O squared end cell row cell 5 squared plus 5 squared end cell equals cell B O squared end cell end table`
+$\begin{gathered} B M^{2} + O M^{2} & = B O^{2} \\ 5^{2} + 5^{2} & = B O^{2} \end{gathered}$
 
 **[1]**
 
-`table row 50 equals cell B O squared end cell row cell square root of 50 end cell equals cell B O end cell row cell B O end cell equals cell 5 square root of 2 space cm end cell end table`
+$\begin{gathered} 50 = B O^{2} \\ \sqrt{50} & = B O \\ B O & = 5 \sqrt{2} \text{cm} \end{gathered}$
 
 > *Using Pythagoras' theorem on the right-angled triangle **AOB**, to calculate the perpendicular height of the pyramid, **AO**.*
 
 ![-4Fvxw_D_4-7-11](assets/060-4fvxw-d-4-7-11.png)
 
-`table row cell B O plus A O squared end cell equals cell A B squared end cell row cell open parentheses 5 square root of 2 close parentheses squared plus A O squared end cell equals cell 10 squared end cell end table`
+$\begin{gathered} B O + A O^{2} & = A B^{2} \\ ( 5 \sqrt{2} )^{2} + A O^{2} & = 10^{2} \end{gathered}$
 
 **[1]**
 
-`table row cell 50 plus A O squared end cell equals 100 row cell A O squared end cell equals 50 row cell A O end cell equals cell 5 square root of 2 space cm end cell end table`
+$\begin{gathered} 50 + A O^{2} & = 100 \\ A O^{2} & = 50 \\ A O & = 5 \sqrt{2} \text{cm} \end{gathered}$
 
 > *Calculate the area of the base of the pyramid.*
 
-`table row A equals cell 10 cross times 10 end cell row blank equals cell 100 space cm squared end cell end table`
+$\begin{gathered} A = 10 \times 10 \\ = 100 cm^{2} \end{gathered}$
 
 > *Calculate the volume of the square-based pyramid, using the formula: *$V=\frac{1}{3}\timesAreaofbase\timesPerpendicularheight$*.*
 
-`table row V equals cell 1 third cross times 100 cross times 5 square root of 2 end cell end table`
+$\begin{gathered} V = 1 \frac{1}{3} \times 100 \times 5 \sqrt{2} \end{gathered}$
 
 **[1]**
 
@@ -880,7 +880,7 @@ $\mathrm{Angle}DAB=90^{\circ}$** [1]**
 
 > *Now we can use Pythagoras to find **DB**.*
 
-`table row cell D B squared end cell equals cell 8 squared plus 24 squared end cell row cell D B end cell equals cell square root of 8 squared plus 24 squared end root end cell row blank equals cell 8 square root of 10 end cell end table`
+$\begin{gathered} D B^{2} & = 8^{2} + 24^{2} \\ D B & = \sqrt{8^{2} + 24^{2}} \\ = 8 \sqrt{10} \end{gathered}$
 
 **[1]**
 
@@ -890,13 +890,13 @@ $\mathrm{Angle}DAB=90^{\circ}$** [1]**
 
 > *Now we know the opposite and adjacent sides in a right-angle triangle so use the tangent ratio to find the required angle*
 
-`tan open parentheses x close parentheses equals fraction numerator 10 over denominator 8 square root of 10 end fraction`
+$\tan ( x ) = \frac{10}{8 \sqrt{10} }$
 
 **[1]**
 
 > *Find the angle by using the inverse tan function ("SHIFT tan" on your calculator)*
 
-`table row x equals cell tan to the power of negative 1 end exponent open parentheses fraction numerator 10 over denominator 8 square root of 10 end fraction close parentheses end cell row blank equals cell 21.5681294... end cell end table`
+$\begin{gathered} x = \tan ^{- 1} ( \frac{10}{8 \sqrt{10} } ) \\ = 21.5681294... \end{gathered}$
 
 > *Round your answer to 1 decimal place as requested. Remember to include the units*
 
@@ -913,13 +913,13 @@ $\mathrm{Angle}DAB=90^{\circ}$** [1]**
 
 > *In the triangle **ABE** you know an angle and the length of the adjacent side. You want to find the length of the opposite side so use the tan ratio.*
 
-`tan open parentheses 35 close parentheses equals z over 15`
+$\tan ( 35 ) = \frac{z}{15}$
 
 **[1]**
 
 > *Multiply both sides by 15. Leave as an exact value.*
 
-`table row z equals cell 15 cross times tan open parentheses 35 close parentheses end cell row blank equals cell 15 tan open parentheses 35 close parentheses end cell end table`
+$\begin{gathered} z = 15 \times \tan ( 35 ) \\ = 15 \tan ( 35 ) \end{gathered}$
 
 > *To find **MB** draw a right angled triangle **ABM **using the other information you are given.*
 
@@ -931,7 +931,7 @@ $MB=\frac{3}{5}\times15=9\mathrm{cm}$
 
 > *In the triangle **ABM** you know two lengths and want to find the hypotenuse so you can use Pythagoras' theorem.*
 
-`table attributes columnalign right center left columnspacing 0px end attributes row cell M A squared plus A B squared end cell equals cell M B squared end cell row cell 9 squared plus 15 squared end cell equals cell y squared end cell row 306 equals cell y squared end cell end table`
+$\begin{array}{rcl} M A^{2} + A B^{2} & = M B^{2} \\ 9^{2} + 15^{2} & = y^{2} \\ 306 = y^{2} \end{array}$
 
 > *Take the positive square root of both sides. Leave as an exact answer.*
 
@@ -941,13 +941,13 @@ $y=\sqrt{306}$
 
 > *Now you can use the triangle **MBE**. In this triangle you want to find an angle and you know the lengths of the sides that are opposite and adjacent to the angle so use the tan ratio. Use the exact values for the lengths or use your calculator's memory function.*
 
-`table row cell tan open parentheses x close parentheses end cell equals cell fraction numerator 15 tan open parentheses 35 close parentheses over denominator square root of 306 end fraction end cell row blank equals cell 0.600423... end cell end table`
+$\begin{gathered} \tan ( x ) & = \frac{15 \tan ( 35 )}{ \sqrt{306} } \\ = 0.600423... \end{gathered}$
 
 **[1]**
 
 > *Find the angle by using the inverse tan function.*
 
-`table row x equals cell tan to the power of negative 1 end exponent open parentheses fraction numerator 15 tan open parentheses 35 close parentheses over denominator square root of 306 end fraction close parentheses end cell row blank equals cell tan to the power of negative 1 end exponent open parentheses 0.600423... close parentheses end cell row blank equals cell 30.981574... end cell end table`
+$\begin{gathered} x = \tan ^{- 1} ( \frac{15 \tan ( 35 )}{ \sqrt{306} } ) \\ = \tan ^{- 1} ( 0.600423... ) \\ = 30.981574... \end{gathered}$
 
 > *Round your answer to 1 decimal place. Remember to include the units.*
 
@@ -958,27 +958,27 @@ $\mathrm{Angle} \mathrm{between}EM\mathrm{and} \mathrm{the} \mathrm{base}=31.0^{
 
 ![4-7-16](assets/071-4-7-16.png)
 
-`table attributes columnalign right center left columnspacing 0px end attributes row cell 5 squared plus 7 squared end cell equals cell B F squared end cell end table`
+$\begin{array}{rcl} 5^{2} + 7^{2} & = B F^{2} \end{array}$
 
 **[1]**
 
-`table row 74 equals cell B F squared end cell row cell B F end cell equals cell square root of 74 space cm end cell end table`
+$\begin{gathered} 74 = B F^{2} \\ B F & = \sqrt{74} \text{cm} \end{gathered}$
 
 > *Use Pythagoras' theorem on the right-angled triangle **BCF** to find the length **BC**.*
 
 ![4-7-17](assets/072-4-7-17.png)
 
-`table row cell open parentheses square root of 74 close parentheses squared plus B C squared end cell equals cell 15 squared end cell row cell 74 plus B C squared end cell equals 225 row cell B C squared end cell equals 151 row cell B C end cell equals cell square root of 151 space cm end cell end table`
+$\begin{gathered} ( \sqrt{74} )^{2} + B C^{2} & = 15^{2} \\ 74 + B C^{2} & = 225 \\ B C^{2} & = 151 \\ B C & = \sqrt{151} \text{cm} \end{gathered}$
 
 **[1]**
 
 > *Calculate the volume of the cuboid, using the formula: *$V=l\timesw\timesh$*, where *$l$* is the length, *$w$* is the width and *$h$* is the height of the cuboid.*
 
-`table row V equals cell square root of 151 cross times 7 cross times 5 end cell end table`
+$\begin{gathered} V = \sqrt{151} \times 7 \times 5 \end{gathered}$
 
 **[1]**
 
-`table attributes columnalign right center left columnspacing 0px end attributes row V equals cell 430.087200... end cell end table`
+$\begin{array}{rcl} V = 430.087200... \end{array}$
 
 $430\mathrm{cm}^{3}$* ***[1]**
 
@@ -989,7 +989,7 @@ $430\mathrm{cm}^{3}$* ***[1]**
 
 ![p8VmM8GE_4-7-13](assets/074-p8vmm8ge-4-7-13.png)
 
-`table row cell A O squared end cell equals cell 10 squared plus 10 squared end cell row cell A O squared end cell equals 200 row cell A O end cell equals cell 10 square root of 2 end cell end table`
+$\begin{gathered} A O^{2} & = 10^{2} + 10^{2} \\ A O^{2} & = 200 \\ A O & = 10 \sqrt{2} \end{gathered}$
 
 **[1]**
 
@@ -997,31 +997,31 @@ $430\mathrm{cm}^{3}$* ***[1]**
 
 ![4-7-14](assets/075-4-7-14.png)
 
-> * *`table row cell tan 55 end cell equals cell fraction numerator V O over denominator 10 square root of 2 end fraction end cell row cell 10 square root of 2 cross times tan 55 end cell equals cell V O end cell end table`
+> * *$\begin{gathered} \tan 55 & = \frac{V O}{10 \sqrt{2} } \\ 10 \sqrt{2} \times \tan 55 & = V O \end{gathered}$
 
 **[1]**
 
-`table row cell V O end cell equals cell 20.19706... space cm end cell end table`
+$\begin{gathered} V O & = 20.19706... \text{cm} \end{gathered}$
 
 > *Work out the perpendicular height of one of the triangular faces by using Pythagoras' theorem on the right-angled triangle **VOM**.*
 
 ![1rt7wH2J_4-7-15](assets/076-1rt7wh2j-4-7-15.png)
 
-`table row cell 10 squared plus open parentheses 20.1... close parentheses squared end cell equals cell V M squared end cell row cell 507.921345... end cell equals cell V M squared end cell row cell V M end cell equals cell 22.537110... space cm end cell end table`
+$\begin{gathered} 10^{2} + ( 20.1... )^{2} & = V M^{2} \\ 507.921345... & = V M^{2} \\ V M & = 22.537110... \text{cm} \end{gathered}$
 
 **[1]**
 
 *Calculate the area of one of the triangular faces, using the formula*: $A=\frac{1}{2}bh$*, where *$b$* is the base of the triangle and *$h$* is the perpendicular height.*
 
-`table row cell A subscript t r i a n g l e end subscript end cell equals cell 1 half cross times 20 cross times 22.5... end cell end table`
+$\begin{gathered} A_{t r i a n g l e} & = 1 \frac{1}{2} \times 20 \times 22.5... \end{gathered}$
 
 **[1]**
 
-`table row cell A subscript t r i a n g l e end subscript end cell equals cell 225.371104... space cm to the power of 2 space end exponent end cell end table`
+$\begin{gathered} A_{t r i a n g l e} & = 225.371104... cm^{2 } \end{gathered}$
 
 > *Calculate the total surface area by adding together the area of the square base and four of the triangular faces.*
 
-`table row cell A subscript t o t a l end subscript end cell equals cell 20 cross times 20 plus 4 cross times 225.371104... end cell row blank equals cell 1301.48441... space cm squared end cell end table`
+$\begin{gathered} A_{t o t a l} & = 20 \times 20 + 4 \times 225.371104... \\ = 1301.48441... cm^{2} \end{gathered}$
 
 > *Round to 2 significant figures.*
 
@@ -1040,7 +1040,7 @@ $1300\mathrm{cm}^{2}$* ***[1]**
 
 ![cie-igcse-2018-oct-nov-p2-tz2-q22-solution-2](assets/079-cie-igcse-2018-oct-nov-p2-tz2-q22-solution-2.png)
 
-`table attributes columnalign right center left columnspacing 0px end attributes row cell A C end cell equals cell square root of 16.2 squared plus 5.5 squared end root end cell row blank equals cell 17.108... end cell end table`
+$\begin{array}{rcl} A C & = \sqrt{16.2^{2} + 5.5^{2}} \\ = 17.108... \end{array}$
 
 **For **$16.2^{2}+5.5^{2}$** [1]**
 
@@ -1056,9 +1056,9 @@ $1300\mathrm{cm}^{2}$* ***[1]**
 
 > * *
 
-`tan space x equals fraction numerator 8 over denominator 17.108... end fraction
-x equals tan to the power of negative 1 space end exponent open parentheses fraction numerator 8 over denominator 17.108... end fraction close parentheses
-x equals 25.06...`
+$\tan x = \frac{8}{17.108...} 
+x = \tan ^{- 1 } ( \frac{8}{17.108...} )
+x = 25.06...$
 
 **For correct tan ratio**** [1]**
 
@@ -1075,7 +1075,7 @@ $25.1^{\circ}$** [1]**
 
 ![NNBKKAG6_cie-igcse-2018-oct-nov-p2-tz3-q23-solution-2](assets/083-nnbkkag6-cie-igcse-2018-oct-nov-p2-tz3-q23-solut.png)
 
-`table row cell A C end cell equals cell square root of 12 squared plus 6 squared end root end cell end table`
+$\begin{gathered} A C & = \sqrt{12^{2} + 6^{2}} \end{gathered}$
 
 **For**** **$12^{2}+6^{2}$** [1]**
 
@@ -1089,9 +1089,9 @@ $25.1^{\circ}$** [1]**
 
 *The angle between **AP** and the horizontal base is *$x$ *Find *$x$* (using the tan ratio)*
 
-`tan space x equals fraction numerator 4 over denominator square root of 12 squared plus 6 squared end root end fraction
-x equals tan to the power of negative 1 space end exponent open parentheses fraction numerator 4 over denominator square root of 12 squared plus 6 squared end root end fraction close parentheses
-x equals 16.60...`
+$\tan x = \frac{4}{ \sqrt{12^{2} + 6^{2}} } 
+x = \tan ^{- 1 } ( \frac{4}{ \sqrt{12^{2} + 6^{2}} } )
+x = 16.60...$
 
 **For correct tan ratio**** [1]**
 
@@ -1134,7 +1134,7 @@ $\mathrm{tan}x=\frac{5.2}{19.92385...}$
 
 > *Take the inverse tan, tan*<sup>*-1*</sup>*, of both sides.*
 
-> `x equals tan to the power of negative 1 end exponent open parentheses fraction numerator 5.2 over denominator 19.92385... end fraction close parentheses`* *$x=14.62753...$
+> $x = \tan ^{- 1} ( \frac{5.2}{19.92385...} )$* *$x=14.62753...$
 
 **Angle ****BEC = ****14.6**<sup>**o**</sup>** ****[1]**
 
@@ -1174,7 +1174,7 @@ $\mathrm{sin}x=\frac{5.2}{20.59126...}$
 
 > *Take the inverse sin, sin*<sup>*-1*</sup>*, of both sides.*
 
-> `x equals sin to the power of negative 1 end exponent open parentheses fraction numerator 5.2 over denominator 20.59126... end fraction close parentheses`* *$x=14.62753...$
+> $x = \sin ^{- 1} ( \frac{5.2}{20.59126...} )$* *$x=14.62753...$
 
 **Angle ****BEC = ****14.6**<sup>**o**</sup>** ****[1]**
 
@@ -1191,7 +1191,7 @@ $\mathrm{tan}p=\frac{10}{7}$
 
 > *Take the inverse tan, tan*<sup>*-1*</sup>*, of both sides.*
 
-`space p equals tan to the power of negative 1 end exponent open parentheses 10 over 7 close parentheses`
+$p = \tan ^{- 1} ( \frac{10}{7} )$
 
 $p=55.00797...$
 
@@ -1220,7 +1220,7 @@ $q=124.99202...$
 
 > *To find *$AC$* we can use Pythagoras' theorem with *$AD$* and *$CD$
 
-`A C equals square root of 20 squared plus 5.5 squared end root space open parentheses equals 20.74246851... close parentheses`
+$A C = \sqrt{20^{2} + 5.5^{2}} ( = 20.74246851... )$
 
 **[1]**
 
@@ -1238,7 +1238,7 @@ $\mathrm{tanθ}=\frac{4.5}{\sqrt{20^{2}+5.5^{2}}}$
 
 > *Inverse tangent on your calculator to find the angle*
 
-`theta equals tan to the power of negative 1 end exponent open parentheses fraction numerator 4.5 over denominator square root of 20 squared plus 5.5 squared end root end fraction close parentheses equals 12.24042045... degree`
+$\\theta = \tan ^{- 1} ( \frac{4.5}{ \sqrt{20^{2} + 5.5^{2}} } ) = 12.24042045...^{\circ}$
 
 > *Round to at least one decimal place*
 
@@ -1255,25 +1255,25 @@ $\mathrm{tanθ}=\frac{4.5}{\sqrt{20^{2}+5.5^{2}}}$
 
 > *In the triangle **ABC** you know an angle and the length of the side opposite. You want to find the hypotenuse so use the sin ratio.*
 
-`sin open parentheses 48 close parentheses equals fraction numerator 7.3 over denominator x end fraction`
+$\sin ( 48 ) = \frac{7.3}{x}$
 
 **[1]**
 
 > *Multiply both sides by **x** and divide by sin(48).*
 
-`table attributes columnalign right center left columnspacing 0px end attributes row x equals cell fraction numerator 7.3 over denominator sin open parentheses 48 close parentheses end fraction end cell row blank equals cell 9.823118... end cell end table`
+$\begin{array}{rcl} x = \frac{7.3}{\sin ( 48 )} \\ = 9.823118... \end{array}$
 
 **[1]**
 
 > *Now you can use the triangle **CAH**. In this triangle you want to find an angle and you know the lengths of the sides that are opposite and adjacent to the angle so use the tan ratio. Use the answer button or the exact value for the length of the side **AC**.*
 
-`tan open parentheses x close parentheses equals fraction numerator 8.1 over denominator 9.823118... end fraction`
+$\tan ( x ) = \frac{8.1}{9.823118...}$
 
 **[1]**
 
 > *Find the angle by using the inverse tan function.*
 
-`table row x equals cell tan to the power of negative 1 end exponent open parentheses fraction numerator 8.1 over denominator 9.823118... end fraction close parentheses end cell row blank equals cell 39.508492... end cell end table`
+$\begin{gathered} x = \tan ^{- 1} ( \frac{8.1}{9.823118...} ) \\ = 39.508492... \end{gathered}$
 
 > *Round your answer to 1 decimal place. Remember to include the units.*
 
@@ -1308,13 +1308,13 @@ $=2\sqrt{5}$
 
 > *Now we can use right-angle trigonometry to find the required angle.*
 
-`table row cell tan open parentheses x close parentheses end cell equals cell fraction numerator 3 over denominator 2 square root of 5 end fraction end cell end table`
+$\begin{gathered} \tan ( x ) & = \frac{3}{2 \sqrt{5} } \end{gathered}$
 
 **[1]**
 
 > *Use the inverse tangent function ("SHIFT tan" on your calculator) to find **x.*
 
-`table row x equals cell tan to the power of negative 1 end exponent open parentheses fraction numerator 3 over denominator 2 square root of 5 end fraction close parentheses end cell row blank equals cell 33.85451481... end cell end table`
+$\begin{gathered} x = \tan ^{- 1} ( \frac{3}{2 \sqrt{5} } ) \\ = 33.85451481... \end{gathered}$
 
 > *Round your answer to 1 decimal place as requested. Remember to include the units.*
 

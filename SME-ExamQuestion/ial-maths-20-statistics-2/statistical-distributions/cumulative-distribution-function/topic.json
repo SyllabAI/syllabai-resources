@@ -158,7 +158,7 @@
       "spcpt_QTHzFn6gZrVKcRdG"
      ],
      "part_tier": "a_level_only",
-     "problem_md": "The continuous random variable, $X$, has a cumulative distribution function $F(x)$ given by\n\n`F open parentheses x close parentheses equals open curly brackets table row 0 cell x less than 1 end cell row cell 1 over 16 open parentheses x minus 1 close parentheses squared end cell cell 1 less or equal than x less or equal than 5 end cell row 1 cell x greater than 5 end cell end table close`\n\nFind:\n\n(i) $F(0)$\n\n(ii) $F(1)$\n\n(iii) $F(4)$\n\n(iv) $F(5)$\n\n(v) $F(9)$",
+     "problem_md": "The continuous random variable, $X$, has a cumulative distribution function $F(x)$ given by\n\n$F ( x ) = \\{ \\begin{gathered} 0 x < 1 \\\\ \\frac{1}{16} ( x - 1 )^{2} & 1 \\text{less} \\text{or} \\text{equal} \\text{than} x \\text{less} \\text{or} \\text{equal} \\text{than} 5 \\\\ 1 x > 5 \\end{gathered} )$\n\nFind:\n\n(i) $F(0)$\n\n(ii) $F(1)$\n\n(iii) $F(4)$\n\n(iv) $F(5)$\n\n(v) $F(9)$",
      "solution_md": "![](assets/004-img.png)",
      "equations": [
       {
@@ -281,7 +281,7 @@
       "spcpt_QTHzFn6gZrVKcRdG"
      ],
      "part_tier": "a_level_only",
-     "problem_md": "The continuous random variable, $X$, has probability density function `straight f open parentheses x close parentheses`  given by\n\n`straight f open parentheses x close parentheses equals open curly brackets table attributes columnalign left columnspacing 1.4ex end attributes row cell 3 over 19 x squared end cell cell 2 less or equal than x less or equal than 3 end cell row 0 cell otherwise. end cell end table close`\n\nThe cumulative distribution function `straight F open parentheses x close parentheses` is given by\n\n`straight F open parentheses x close parentheses equals open curly brackets table row a cell x less than 2 end cell row cell g open parentheses x close parentheses end cell cell 2 less or equal than x less or equal than 3 end cell row b cell x greater than 3 end cell end table close`\n\nwhere $g(x)$ is a function $a$ and $b$ are constants.\n\nExplain why $a=0$ and write down the value of $b$.",
+     "problem_md": "The continuous random variable, $X$, has probability density function $\\mathrm{f} ( x )$  given by\n\n`f ( x ) = { table columnalign left columnspacing 1.4ex end | 3 / 19 x ^2 | 2 <= x <= 3 | | 0 otherwise. | | close`\n\nThe cumulative distribution function $\\mathrm{F} ( x )$ is given by\n\n$\\mathrm{F} ( x ) = \\{ \\begin{gathered} a x < 2 \\\\ g ( x ) & 2 \\text{less} \\text{or} \\text{equal} \\text{than} x \\text{less} \\text{or} \\text{equal} \\text{than} 3 \\\\ b x > 3 \\end{gathered} )$\n\nwhere $g(x)$ is a function $a$ and $b$ are constants.\n\nExplain why $a=0$ and write down the value of $b$.",
      "solution_md": "![](assets/013-img.png)",
      "equations": [
       {
@@ -426,7 +426,7 @@
      },
      "spec_point_ids": [],
      "part_tier": "a_level_only",
-     "problem_md": "The continuous random variable, $X$, has a cumulative distribution function `straight F open parentheses x close parentheses` given by\n\n`straight F open parentheses x close parentheses equals open curly brackets table row 0 cell x less than 0 end cell row cell 1 over 10 x cubed plus 1 over 10 x end cell cell 0 less or equal than x less or equal than 2 end cell row 1 cell x greater than 2 end cell end table close`\n\nThe probability density function is given by\n\n`straight f open parentheses x close parentheses equals open curly brackets table row cell g open parentheses x close parentheses end cell cell 0 less or equal than x less or equal than 2 end cell row a cell otherwise. end cell end table close`\n\nwhere $g(x)$ is a function and $a$ is a constant.\n\nWrite down the value of $a$.",
+     "problem_md": "The continuous random variable, $X$, has a cumulative distribution function $\\mathrm{F} ( x )$ given by\n\n$\\mathrm{F} ( x ) = \\{ \\begin{gathered} 0 x < 0 \\\\ \\frac{1}{10} x^{3} + \\frac{1}{10} x & 0 \\text{less} \\text{or} \\text{equal} \\text{than} x \\text{less} \\text{or} \\text{equal} \\text{than} 2 \\\\ 1 x > 2 \\end{gathered} )$\n\nThe probability density function is given by\n\n$\\mathrm{f} ( x ) = \\{ \\begin{gathered} g ( x ) & 0 \\text{less} \\text{or} \\text{equal} \\text{than} x \\text{less} \\text{or} \\text{equal} \\text{than} 2 \\\\ a otherwise. \\end{gathered} )$\n\nwhere $g(x)$ is a function and $a$ is a constant.\n\nWrite down the value of $a$.",
      "solution_md": "![](assets/006-img.png)",
      "equations": [
       {
@@ -554,7 +554,7 @@
       "spcpt_fpRcGzr3vWBCjwQV"
      ],
      "part_tier": "a_level_only",
-     "problem_md": "The continuous random variable $Y$ is uniformly distributed over the interval `open square brackets 3 comma 8 close square brackets`.\n\nFind:\n\n(i) $E(Y)$\n\n(ii) $\\mathrm{Var}(Y)$.",
+     "problem_md": "The continuous random variable $Y$ is uniformly distributed over the interval $[ 3 , 8 ]$.\n\nFind:\n\n(i) $E(Y)$\n\n(ii) $\\mathrm{Var}(Y)$.",
      "solution_md": "![](assets/010-img.png)",
      "equations": [
       {
@@ -663,7 +663,7 @@
       "spcpt_QTHzFn6gZrVKcRdG"
      ],
      "part_tier": "a_level_only",
-     "problem_md": "The continuous random variable, $X$, has probability density function `straight f open parentheses x close parentheses` given by\n\n`straight f open parentheses x close parentheses equals open curly brackets table row cell x squared end cell cell 0 less than x less than 1 end cell row cell 1 minus 1 third x end cell cell 1 less or equal than x less or equal than 3 end cell row 0 cell otherwise. end cell end table close`\n\nThe cumulative distribution function $F(x)$ is given by\n\n`straight F open parentheses x close parentheses equals open curly brackets table row 0 cell x less or equal than 0 end cell row cell g open parentheses x close parentheses end cell cell 0 less than x less than 1 end cell row cell h open parentheses x close parentheses end cell cell 1 less or equal than x less or equal than 3 end cell row 1 cell x greater than 3 end cell end table close`\n\nwhere $g(x)$ and $h(x)$ are functions.\n\nExplain why\n\n(i) $g(0)=0$\n\n(ii) $h(3)=1$\n\n(iii) $g(1)=h(1)$.",
+     "problem_md": "The continuous random variable, $X$, has probability density function $\\mathrm{f} ( x )$ given by\n\n$\\mathrm{f} ( x ) = \\{ \\begin{gathered} x^{2} & 0 < x < 1 \\\\ 1 - 1 \\frac{1}{3} x & 1 \\text{less} \\text{or} \\text{equal} \\text{than} x \\text{less} \\text{or} \\text{equal} \\text{than} 3 \\\\ 0 otherwise. \\end{gathered} )$\n\nThe cumulative distribution function $F(x)$ is given by\n\n`F ( x ) = { | 0 x <= 0 | | g ( x ) | 0 less than x less than 1 | | h ( x ) | 1 <= x <= 3 | | 1 x greater than 3 | | close`\n\nwhere $g(x)$ and $h(x)$ are functions.\n\nExplain why\n\n(i) $g(0)=0$\n\n(ii) $h(3)=1$\n\n(iii) $g(1)=h(1)$.",
      "solution_md": "![](assets/016-img.png)",
      "equations": [
       {
@@ -766,7 +766,7 @@
       "spcpt_QTHzFn6gZrVKcRdG"
      ],
      "part_tier": "a_level_only",
-     "problem_md": "The continuous random variable, $X$, has a cumulative distribution function `straight F open parentheses x close parentheses` given by\n\n`straight F open parentheses x close parentheses equals open curly brackets table row 0 cell x less than 2 end cell row cell 1 fourth x squared minus x plus 1 end cell cell 2 less or equal than x less or equal than 3 end cell row cell 3 over 8 x minus 7 over 8 end cell cell 3 less than x less or equal than 5 end cell row 1 cell x greater than 5 end cell end table close`\n\nThe median of $X$ is denoted by $m$.\n\n(i) Find $F(3)$  and $F(5)$.\n\n(ii) Explain why $m$ satisfies the inequality $3<m<5$.",
+     "problem_md": "The continuous random variable, $X$, has a cumulative distribution function $\\mathrm{F} ( x )$ given by\n\n$\\mathrm{F} ( x ) = \\{ \\begin{gathered} 0 x < 2 \\\\ 1 \\frac{1}{4} x^{2} - x + 1 & 2 \\text{less} \\text{or} \\text{equal} \\text{than} x \\text{less} \\text{or} \\text{equal} \\text{than} 3 \\\\ \\frac{3}{8} x - \\frac{7}{8} & 3 < x \\text{less} \\text{or} \\text{equal} \\text{than} 5 \\\\ 1 x > 5 \\end{gathered} )$\n\nThe median of $X$ is denoted by $m$.\n\n(i) Find $F(3)$  and $F(5)$.\n\n(ii) Explain why $m$ satisfies the inequality $3<m<5$.",
      "solution_md": "![](assets/001-img.png)",
      "equations": [
       {
@@ -913,7 +913,7 @@
       "spcpt_QTHzFn6gZrVKcRdG"
      ],
      "part_tier": "a_level_only",
-     "problem_md": "The continuous random variable, $X$, has a cumulative distribution function `straight F open parentheses x close parentheses` given by\n\n`F open parentheses x close parentheses equals open curly brackets table row 0 cell x less than 2 end cell row cell 1 over 8 open parentheses x minus 2 close parentheses cubed end cell cell 2 less or equal than x less or equal than 4 end cell row 1 cell x greater than 4 end cell end table close`\n\nFind\n\n(i) $P(X\\leq2.5)$\n\n(ii) $P(2.9\\leqX\\leq3.1)$\n\n(iii) $P(X>3)$\n\n(iv) $P(X=4)$.",
+     "problem_md": "The continuous random variable, $X$, has a cumulative distribution function $\\mathrm{F} ( x )$ given by\n\n$F ( x ) = \\{ \\begin{gathered} 0 x < 2 \\\\ \\frac{1}{8} ( x - 2 )^{3} & 2 \\text{less} \\text{or} \\text{equal} \\text{than} x \\text{less} \\text{or} \\text{equal} \\text{than} 4 \\\\ 1 x > 4 \\end{gathered} )$\n\nFind\n\n(i) $P(X\\leq2.5)$\n\n(ii) $P(2.9\\leqX\\leq3.1)$\n\n(iii) $P(X>3)$\n\n(iv) $P(X=4)$.",
      "solution_md": "![](assets/066-img.png)",
      "equations": [
       {
@@ -1011,7 +1011,7 @@
       "spcpt_QTHzFn6gZrVKcRdG"
      ],
      "part_tier": "a_level_only",
-     "problem_md": "The continuous random variable, $X$, has a cumulative distribution function $F(x)$ given by\n\n`F left parenthesis x right parenthesis equals open curly brackets table row 0 cell x less than 0 end cell row cell 3 over 4000 x cubed plus 1 over 400 x ² end cell cell 0 less or equal than x less or equal than 10 end cell row 1 cell x greater than 10 end cell end table close`\n\nVerify that the median of $X$ lies between $x=7.7$ and $7.8$.",
+     "problem_md": "The continuous random variable, $X$, has a cumulative distribution function $F(x)$ given by\n\n$F ( x ) = \\{ \\begin{gathered} 0 x < 0 \\\\ \\frac{3}{4000} x^{3} + \\frac{1}{400} x ² & 0 \\text{less} \\text{or} \\text{equal} \\text{than} x \\text{less} \\text{or} \\text{equal} \\text{than} 10 \\\\ 1 x > 10 \\end{gathered} )$\n\nVerify that the median of $X$ lies between $x=7.7$ and $7.8$.",
      "solution_md": "![](assets/071-img.png)",
      "equations": [
       {
@@ -1184,7 +1184,7 @@
      },
      "spec_point_ids": [],
      "part_tier": "a_level_only",
-     "problem_md": "The continuous random variable, $X$, has probability density function $f(x)$ given by\n\n`f open parentheses x close parentheses equals open curly brackets table attributes columnalign left end attributes row cell k x to the power of 4 end cell row 0 end table close space space space space space space space space table row cell negative 2 less or equal than x less or equal than 3 end cell row cell otherwise. end cell end table`\n\nShow that $k=\\frac{1}{55}.$",
+     "problem_md": "The continuous random variable, $X$, has probability density function $f(x)$ given by\n\n$f ( x ) = \\{ \\begin{array}{l} k x^{4} \\\\ 0 \\end{array} ) \\begin{gathered} - 2 \\text{less} \\text{or} \\text{equal} \\text{than} x \\text{less} \\text{or} \\text{equal} \\text{than} 3 \\\\ otherwise. \\end{gathered}$\n\nShow that $k=\\frac{1}{55}.$",
      "solution_md": "![](assets/068-img.png)",
      "equations": [
       {
@@ -1288,7 +1288,7 @@
       "spcpt_QTHzFn6gZrVKcRdG"
      ],
      "part_tier": "a_level_only",
-     "problem_md": "The continuous random variable, $X$, has a cumulative distribution function `straight F open parentheses x close parentheses` given by\n\n`F left parenthesis x right parenthesis equals open curly brackets table row 0 cell x less than 5 end cell row cell fraction numerator x minus 5 over denominator 7 end fraction end cell cell 5 less or equal than x less or equal than 12 end cell row 1 cell x greater or equal than 12 end cell end table close`\n\nFind the probability density function $f(x)$ .",
+     "problem_md": "The continuous random variable, $X$, has a cumulative distribution function $\\mathrm{F} ( x )$ given by\n\n$F ( x ) = \\{ \\begin{gathered} 0 x < 5 \\\\ \\frac{x - 5}{7} & 5 \\text{less} \\text{or} \\text{equal} \\text{than} x \\text{less} \\text{or} \\text{equal} \\text{than} 12 \\\\ 1 x \\text{greater} \\text{or} \\text{equal} \\text{than} 12 \\end{gathered} )$\n\nFind the probability density function $f(x)$ .",
      "solution_md": "![](assets/076-img.png)",
      "equations": [
       {
@@ -1390,7 +1390,7 @@
       "spcpt_QTHzFn6gZrVKcRdG"
      ],
      "part_tier": "a_level_only",
-     "problem_md": "The continuous random variable $T$ represents the times, in hours, that children at a boarding school take to tidy their rooms. The cumulative distribution function of $T$ is\n\n`F left parenthesis t right parenthesis equals open curly brackets table row 0 cell t less than 0 end cell row cell k open parentheses 9 t squared minus t to the power of 4 close parentheses end cell cell 0 less or equal than t less or equal than 2 end cell row 1 cell t less or equal than 2 end cell end table close`\n\nShow that $k=\\frac{1}{20}$ .",
+     "problem_md": "The continuous random variable $T$ represents the times, in hours, that children at a boarding school take to tidy their rooms. The cumulative distribution function of $T$ is\n\n`F ( t ) = { | 0 t less than 0 | | k ( 9 t ^2 - t ^ 4 ) | 0 <= t <= 2 | | 1 t <= 2 | | close`\n\nShow that $k=\\frac{1}{20}$ .",
      "solution_md": "![](assets/059-img.png)",
      "equations": [
       {
@@ -1515,7 +1515,7 @@
      },
      "spec_point_ids": [],
      "part_tier": "a_level_only",
-     "problem_md": "The mass, in milligrams, of an ant is denoted by the continuous random variable $M$. It is modelled by the probability density function\n\n`straight f open parentheses m close parentheses equals open curly brackets table row cell fraction numerator m minus 1 over denominator k end fraction end cell cell 1 less or equal than m less than 3 end cell row cell 1 over k end cell cell 3 less or equal than m less than 5 end cell row 0 cell otherwise. end cell end table close`\n\nShow that $k=4$ .",
+     "problem_md": "The mass, in milligrams, of an ant is denoted by the continuous random variable $M$. It is modelled by the probability density function\n\n$\\mathrm{f} ( m ) = \\{ \\begin{gathered} \\frac{m - 1}{k} & 1 \\text{less} \\text{or} \\text{equal} \\text{than} m < 3 \\\\ \\frac{1}{k} & 3 \\text{less} \\text{or} \\text{equal} \\text{than} m < 5 \\\\ 0 otherwise. \\end{gathered} )$\n\nShow that $k=4$ .",
      "solution_md": "![](assets/063-img.png)",
      "equations": [
       {
@@ -1612,7 +1612,7 @@
       "spcpt_QTHzFn6gZrVKcRdG"
      ],
      "part_tier": "a_level_only",
-     "problem_md": "The continuous random variable, $X$, has a cumulative distribution function `straight F open parentheses x close parentheses` given by\n\n`straight F open parentheses x close parentheses equals open curly brackets table row 0 cell x less than 2 end cell row cell a minus b over x end cell cell 2 less or equal than x less than 4 end cell row cell fraction numerator x squared plus 17 over denominator c end fraction end cell cell 4 less or equal than x less than 7 end cell row 1 cell x greater or equal than 7 end cell end table close`\n\n(i) Explain why $b=2a$.\n\n(ii) Show that $c=66$.\n\n(iii) Show that $4a-b=2$ and hence find the values of $a$ and $b$.",
+     "problem_md": "The continuous random variable, $X$, has a cumulative distribution function $\\mathrm{F} ( x )$ given by\n\n$\\mathrm{F} ( x ) = \\{ \\begin{gathered} 0 x < 2 \\\\ a - \\frac{b}{x} & 2 \\text{less} \\text{or} \\text{equal} \\text{than} x < 4 \\\\ \\frac{x^{2} + 17}{c} & 4 \\text{less} \\text{or} \\text{equal} \\text{than} x < 7 \\\\ 1 x \\text{greater} \\text{or} \\text{equal} \\text{than} 7 \\end{gathered} )$\n\n(i) Explain why $b=2a$.\n\n(ii) Show that $c=66$.\n\n(iii) Show that $4a-b=2$ and hence find the values of $a$ and $b$.",
      "solution_md": "![](assets/037-img.png)",
      "equations": [
       {
@@ -1761,7 +1761,7 @@
      },
      "spec_point_ids": [],
      "part_tier": "a_level_only",
-     "problem_md": "The continuous random variable, $X$, has probability density function `straight f open parentheses x close parentheses` given by\n\n`straight f left parenthesis x right parenthesis equals open curly brackets table row cell x over 5 end cell cell 0 less than x less or equal than 2 end cell row cell fraction numerator 10 minus 2 x over denominator 15 end fraction end cell cell 2 less than x less or equal than 5 end cell row 0 cell otherwise. end cell end table close`\n\nSketch the probability density function of $X$.",
+     "problem_md": "The continuous random variable, $X$, has probability density function $\\mathrm{f} ( x )$ given by\n\n$\\mathrm{f} ( x ) = \\{ \\begin{gathered} \\frac{x}{5} & 0 < x \\text{less} \\text{or} \\text{equal} \\text{than} 2 \\\\ \\frac{10 - 2 x}{15} & 2 < x \\text{less} \\text{or} \\text{equal} \\text{than} 5 \\\\ 0 otherwise. \\end{gathered} )$\n\nSketch the probability density function of $X$.",
      "solution_md": "![](assets/041-img.png)",
      "equations": [
       {
@@ -1816,7 +1816,7 @@
       "spcpt_QTHzFn6gZrVKcRdG"
      ],
      "part_tier": "a_level_only",
-     "problem_md": "Fully define the cumulative distribution function `straight F open parentheses x close parentheses` of $X$.",
+     "problem_md": "Fully define the cumulative distribution function $\\mathrm{F} ( x )$ of $X$.",
      "solution_md": "![](assets/043-img.png)",
      "equations": [
       {
@@ -1914,7 +1914,7 @@
       "spcpt_fpRcGzr3vWBCjwQV"
      ],
      "part_tier": "a_level_only",
-     "problem_md": "The continuous random variable, $X$, has a cumulative distribution function `straight F open parentheses x close parentheses` given by\n\n`straight F open parentheses x close parentheses equals open curly brackets table row 0 cell x less than a end cell row cell fraction numerator 2 x plus 3 over denominator 11 end fraction end cell cell a less or equal than x less or equal than b end cell row 1 cell x greater than b end cell end table close`\n\nShow that $X$ follows a continuous uniform distribution on the interval `open square brackets a comma b close square brackets` and state the values of $a$ and $b$.",
+     "problem_md": "The continuous random variable, $X$, has a cumulative distribution function $\\mathrm{F} ( x )$ given by\n\n$\\mathrm{F} ( x ) = \\{ \\begin{gathered} 0 x < a \\\\ \\frac{2 x + 3}{11} & a \\text{less} \\text{or} \\text{equal} \\text{than} x \\text{less} \\text{or} \\text{equal} \\text{than} b \\\\ 1 x > b \\end{gathered} )$\n\nShow that $X$ follows a continuous uniform distribution on the interval $[ a , b ]$ and state the values of $a$ and $b$.",
      "solution_md": "![](assets/056-img.png)",
      "equations": [
       {
@@ -2027,7 +2027,7 @@
       "spcpt_QTHzFn6gZrVKcRdG"
      ],
      "part_tier": "a_level_only",
-     "problem_md": "The continuous random variable, $X$, has a cumulative distribution function `straight F open parentheses x close parentheses` given by\n\n`straight F open parentheses x close parentheses equals open curly brackets table row 0 cell x less than 3 end cell row cell a x squared plus b x end cell cell 3 less or equal than x less or equal than 5 end cell row 1 cell x greater than 5 end cell end table close`\n\nShow that $a=\\frac{1}{10}$ and find the value of $b$.",
+     "problem_md": "The continuous random variable, $X$, has a cumulative distribution function $\\mathrm{F} ( x )$ given by\n\n$\\mathrm{F} ( x ) = \\{ \\begin{gathered} 0 x < 3 \\\\ a x^{2} + b x & 3 \\text{less} \\text{or} \\text{equal} \\text{than} x \\text{less} \\text{or} \\text{equal} \\text{than} 5 \\\\ 1 x > 5 \\end{gathered} )$\n\nShow that $a=\\frac{1}{10}$ and find the value of $b$.",
      "solution_md": "![](assets/050-img.png)",
      "equations": [
       {
@@ -2066,7 +2066,7 @@
       "spcpt_QTHzFn6gZrVKcRdG"
      ],
      "part_tier": "a_level_only",
-     "problem_md": "Fully define the probability density function `straight f open parentheses x close parentheses`.",
+     "problem_md": "Fully define the probability density function $\\mathrm{f} ( x )$.",
      "solution_md": "![](assets/051-img.png)",
      "spec_point_codes": [
       "2.2"
@@ -2122,7 +2122,7 @@
       "spcpt_QTHzFn6gZrVKcRdG"
      ],
      "part_tier": "a_level_only",
-     "problem_md": "Every morning, Simon jogs for an hour and records his distance, $D$ km. $D$ can be modelled as a continuous random variable with a cumulative distribution function `straight F open parentheses d close parentheses` given by\n\n`F open parentheses d close parentheses equals open curly brackets table row 0 cell d less than 8 end cell row cell k open parentheses d minus 8 close parentheses cubed end cell cell 8 less or equal than d less than 9 end cell row cell fraction numerator 55 d squared minus 3600 over denominator 19 d squared end fraction end cell cell 9 less or equal than d less than 10 end cell row 1 cell d greater or equal than 10 end cell end table close`\n\nwhere $k$ is a constant.\n\nFind the value of $k$.",
+     "problem_md": "Every morning, Simon jogs for an hour and records his distance, $D$ km. $D$ can be modelled as a continuous random variable with a cumulative distribution function $\\mathrm{F} ( d )$ given by\n\n$F ( d ) = \\{ \\begin{gathered} 0 d < 8 \\\\ k ( d - 8 )^{3} & 8 \\text{less} \\text{or} \\text{equal} \\text{than} d < 9 \\\\ \\frac{55 d^{2} - 3600}{19 d^{2}} & 9 \\text{less} \\text{or} \\text{equal} \\text{than} d < 10 \\\\ 1 d \\text{greater} \\text{or} \\text{equal} \\text{than} 10 \\end{gathered} )$\n\nwhere $k$ is a constant.\n\nFind the value of $k$.",
      "solution_md": "![](assets/046-img.png)",
      "equations": [
       {
@@ -2188,7 +2188,7 @@
       "spcpt_QTHzFn6gZrVKcRdG"
      ],
      "part_tier": "a_level_only",
-     "problem_md": "Specify fully the probability density function `straight f open parentheses d close parentheses` of $D$.",
+     "problem_md": "Specify fully the probability density function $\\mathrm{f} ( d )$ of $D$.",
      "solution_md": "![](assets/048-img.png)",
      "equations": [
       {
@@ -2249,7 +2249,7 @@
       "spcpt_QTHzFn6gZrVKcRdG"
      ],
      "part_tier": "a_level_only",
-     "problem_md": "Mrs Wiltshire teaches college students on the *Advanced Integration* course. Students are given a percentage score, `S percent sign`,  at the end of the course. The score $S$ can be modelled using a continuous random variable with cumulative distribution function `straight F open parentheses x close parentheses` given by\n\n`straight F open parentheses s close parentheses equals open curly brackets table row 0 cell s less than 0 end cell row cell 3 over 10000 s squared minus 1 over 500000 s cubed end cell cell 0 less or equal than s less or equal than 100 end cell row 1 cell s greater than 100 end cell end table close`\n\nShow that for $0\\leqs\\leq100$, the probability density function can be written in the form\n\n$f(s)=\\frac{3}{500000}s(k-s)$\n\nwhere $k$ is an integer to be found.",
+     "problem_md": "Mrs Wiltshire teaches college students on the *Advanced Integration* course. Students are given a percentage score, $S \\%$,  at the end of the course. The score $S$ can be modelled using a continuous random variable with cumulative distribution function $\\mathrm{F} ( x )$ given by\n\n$\\mathrm{F} ( s ) = \\{ \\begin{gathered} 0 s < 0 \\\\ \\frac{3}{10000} s^{2} - \\frac{1}{500000} s^{3} & 0 \\text{less} \\text{or} \\text{equal} \\text{than} s \\text{less} \\text{or} \\text{equal} \\text{than} 100 \\\\ 1 s > 100 \\end{gathered} )$\n\nShow that for $0\\leqs\\leq100$, the probability density function can be written in the form\n\n$f(s)=\\frac{3}{500000}s(k-s)$\n\nwhere $k$ is an integer to be found.",
      "solution_md": "![](assets/053-img.png)",
      "equations": [
       {
@@ -2342,7 +2342,7 @@
       "spcpt_QTHzFn6gZrVKcRdG"
      ],
      "part_tier": "a_level_only",
-     "problem_md": "The continuous random variable, $X$, has a cumulative distribution function `straight F open parentheses x close parentheses` given by\n\n`straight F open parentheses x close parentheses equals open curly brackets table row 0 cell x less than 0 end cell row cell k open parentheses 300 x plus 3 x squared minus x cubed minus x to the power of 4 close parentheses end cell cell 0 less or equal than x less or equal than 4 end cell row 1 cell x greater than 4 end cell end table close`\n\nShow that $k=\\frac{1}{928}.$",
+     "problem_md": "The continuous random variable, $X$, has a cumulative distribution function $\\mathrm{F} ( x )$ given by\n\n$\\mathrm{F} ( x ) = \\{ \\begin{gathered} 0 x < 0 \\\\ k ( 300 x + 3 x^{2} - x^{3} - x^{4} ) & 0 \\text{less} \\text{or} \\text{equal} \\text{than} x \\text{less} \\text{or} \\text{equal} \\text{than} 4 \\\\ 1 x > 4 \\end{gathered} )$\n\nShow that $k=\\frac{1}{928}.$",
      "solution_md": "![](assets/028-img.png)",
      "equations": [
       {
@@ -2502,7 +2502,7 @@
       "spcpt_QTHzFn6gZrVKcRdG"
      ],
      "part_tier": "a_level_only",
-     "problem_md": "The continuous random variable, $X$, has a cumulative distribution function `straight F open parentheses x close parentheses`  given by\n\n`straight F open parentheses x close parentheses equals open curly brackets table row 0 cell x less than 1 end cell row cell a x squared plus c end cell cell 1 less or equal than x less than 2 end cell row cell b x plus c end cell cell 2 less or equal than x less than 5 end cell row 1 cell x greater or equal than 5 end cell end table close`\n\nFind the values of $a,b$ and $c$.",
+     "problem_md": "The continuous random variable, $X$, has a cumulative distribution function $\\mathrm{F} ( x )$  given by\n\n`F ( x ) = { | 0 x less than 1 | | a x ^2 + c | 1 <= x less than 2 | | b x + c | 2 <= x less than 5 | | 1 x >= 5 | | close`\n\nFind the values of $a,b$ and $c$.",
      "solution_md": "![](assets/033-img.png)",
      "equations": [
       {
@@ -2638,7 +2638,7 @@
       "spcpt_QTHzFn6gZrVKcRdG"
      ],
      "part_tier": "a_level_only",
-     "problem_md": "Constance is a motivational speaker who delivers talks to employees at different companies to promote teamwork, her talks last for at least $k$ minutes. The length, in minutes, of a talk made by Constance is modelled by the continuous random variable, $L$, which has a cumulative distribution function given by\n\n`straight F open parentheses L close parentheses equals open curly brackets table row 0 cell l less than k end cell row cell 1 over 88 open parentheses l squared minus l minus a close parentheses end cell cell k less or equal than l less or equal than 10 end cell row 1 cell l greater than 10 end cell end table close`\n\nwhere $a$ is a constant.\n\nFind the values of $a$ and $k$.",
+     "problem_md": "Constance is a motivational speaker who delivers talks to employees at different companies to promote teamwork, her talks last for at least $k$ minutes. The length, in minutes, of a talk made by Constance is modelled by the continuous random variable, $L$, which has a cumulative distribution function given by\n\n$\\mathrm{F} ( L ) = \\{ \\begin{gathered} 0 l < k \\\\ \\frac{1}{88} ( l^{2} - l - a ) & k \\text{less} \\text{or} \\text{equal} \\text{than} l \\text{less} \\text{or} \\text{equal} \\text{than} 10 \\\\ 1 l > 10 \\end{gathered} )$\n\nwhere $a$ is a constant.\n\nFind the values of $a$ and $k$.",
      "solution_md": "![](assets/021-img.png)",
      "equations": [
       {
@@ -2765,7 +2765,7 @@
       "spcpt_QTHzFn6gZrVKcRdG"
      ],
      "part_tier": "a_level_only",
-     "problem_md": "The continuous random variable, $Y$, has probability density function `g open parentheses x close parentheses` given by\n\n`g open parentheses y close parentheses equals open curly brackets table row cell 1 over 8 y to the power of n end cell cell 0 less or equal than y less or equal than 2 end cell row cell fraction numerator a over denominator 5 y cubed end fraction end cell cell y greater than 2 end cell row 0 cell otherwise. end cell end table close`\n\nwhere $a$ and $n$ are constants.\n\nThe cumulative distribution function `G open parentheses y close parentheses` is given by\n\n`G open parentheses y close parentheses equals open curly brackets table row 0 cell y less than 0 end cell row cell r y to the power of 5 end cell cell 0 less or equal than y less or equal than 2 end cell row cell s minus t over y to the power of m end cell cell y greater than 2 end cell end table close`\n\nwhere $r,s,t$ and $m$ are constants.\n\nFind the values of $a,m,n,r,s\\mathrm{and}t$.",
+     "problem_md": "The continuous random variable, $Y$, has probability density function $g ( x )$ given by\n\n$g ( y ) = \\{ \\begin{gathered} \\frac{1}{8} y^{n} & 0 \\text{less} \\text{or} \\text{equal} \\text{than} y \\text{less} \\text{or} \\text{equal} \\text{than} 2 \\\\ \\frac{a}{5 y^{3}} & y > 2 \\\\ 0 otherwise. \\end{gathered} )$\n\nwhere $a$ and $n$ are constants.\n\nThe cumulative distribution function $G ( y )$ is given by\n\n$G ( y ) = \\{ \\begin{gathered} 0 y < 0 \\\\ r y^{5} & 0 \\text{less} \\text{or} \\text{equal} \\text{than} y \\text{less} \\text{or} \\text{equal} \\text{than} 2 \\\\ s - \\frac{t}{y^{m}} & y > 2 \\end{gathered} )$\n\nwhere $r,s,t$ and $m$ are constants.\n\nFind the values of $a,m,n,r,s\\mathrm{and}t$.",
      "solution_md": "![](assets/020-img.png)",
      "equations": [
       {
@@ -2829,7 +2829,7 @@
       "spcpt_QTHzFn6gZrVKcRdG"
      ],
      "part_tier": "a_level_only",
-     "problem_md": "Glen attends the annual *Soaring Sunflowers* event where thousands of people gather and compare the sizes of their sunflowers. The continuous random variable $H$ represents the heights, in metres, of the sunflowers at the event. The probability density function of $H$ is given by\n\n`straight f open parentheses h close parentheses equals open curly brackets table row cell fraction numerator 16 h minus 4 h squared minus 15 over denominator 2 end fraction end cell cell 1.5 less or equal than h less than 2 end cell row cell fraction numerator 5 open parentheses h minus 2 close parentheses over denominator 3 end fraction end cell cell 2 less or equal than h less than 3 end cell row 0 cell otherwise. end cell end table close`\n\nSpecify fully the cumulative distribution function `straight F open parentheses h close parentheses`  of $H$.",
+     "problem_md": "Glen attends the annual *Soaring Sunflowers* event where thousands of people gather and compare the sizes of their sunflowers. The continuous random variable $H$ represents the heights, in metres, of the sunflowers at the event. The probability density function of $H$ is given by\n\n$\\mathrm{f} ( h ) = \\{ \\begin{gathered} \\frac{16 h - 4 h^{2} - 15}{2} & 1.5 \\text{less} \\text{or} \\text{equal} \\text{than} h < 2 \\\\ \\frac{5 ( h - 2 )}{3} & 2 \\text{less} \\text{or} \\text{equal} \\text{than} h < 3 \\\\ 0 otherwise. \\end{gathered} )$\n\nSpecify fully the cumulative distribution function $\\mathrm{F} ( h )$  of $H$.",
      "solution_md": "![](assets/018-img.png)",
      "equations": [
       {
@@ -2900,7 +2900,7 @@
       "spcpt_QTHzFn6gZrVKcRdG"
      ],
      "part_tier": "a_level_only",
-     "problem_md": "An amusement park has a challenge where guests attempt to remain on a mechanical bull for as long as possible. The times, in seconds, that the guests stay on the mechanical bull can be modelled using a continuous random variable, $T$, with probability density function `straight f open parentheses t close parentheses`.\n\n`straight f open parentheses t close parentheses equals open curly brackets table row 0 cell t less than 0 end cell row cell 3 over 50 end cell cell 0 less or equal than t less than 5 end cell row cell fraction numerator 6 t minus 15 over denominator 250 end fraction end cell cell 5 less or equal than t less than 10 end cell row cell 1 over t squared end cell cell t greater or equal than 10 end cell end table close`\n\nSpecify fully the cumulative distribution function `straight F open parentheses t close parentheses` .",
+     "problem_md": "An amusement park has a challenge where guests attempt to remain on a mechanical bull for as long as possible. The times, in seconds, that the guests stay on the mechanical bull can be modelled using a continuous random variable, $T$, with probability density function $\\mathrm{f} ( t )$.\n\n$\\mathrm{f} ( t ) = \\{ \\begin{gathered} 0 t < 0 \\\\ \\frac{3}{50} & 0 \\text{less} \\text{or} \\text{equal} \\text{than} t < 5 \\\\ \\frac{6 t - 15}{250} & 5 \\text{less} \\text{or} \\text{equal} \\text{than} t < 10 \\\\ \\frac{1}{t^{2}} & t \\text{greater} \\text{or} \\text{equal} \\text{than} 10 \\end{gathered} )$\n\nSpecify fully the cumulative distribution function $\\mathrm{F} ( t )$ .",
      "solution_md": "![](assets/025-img.png)",
      "equations": [
       {

@@ -19,7 +19,7 @@ State whether each one would represent exponential growth or exponential decay.
 
 (i)    $y=3^{-2x}$
 
-(ii)    `y equals 20 open parentheses 2 close parentheses to the power of x`
+(ii)    $y = 20 ( 2 )^{x}$
 
 (iii)   $y=30a^{-x}$ where $a>0$
 
@@ -53,7 +53,7 @@ Write the following in the form $a+b\mathrm{In}2,$ where $a$ and $b$ are integer
 
 (iii) $\mathrm{log}1000+3\mathrm{In}16$
 
-(iv) `5 open parentheses 3 squared plus space In space 64 close parentheses`
+(iv) $5 ( 3 ^{2} + In 64 )$
 
 ## Q7 — easy — 4 marks · exam-questions
 
@@ -135,7 +135,7 @@ On the same axes, sketch the graphs of $y=e^{x}$ and $y=e^{-x}$. Label any point
 Write down the equations of any asymptotes.
 
 ### 2() — 1 mark — structured
-Write down the gradient of $y=e^{x}$ at the point `open parentheses 0 comma 1 close parentheses`.
+Write down the gradient of $y=e^{x}$ at the point $( 0 , 1 )$.
 
 ## Q16 — medium — 5 marks · exam-questions
 
@@ -163,16 +163,16 @@ Find the gradient $y=3e^{-2x}$ of at the point where $x=3$. Give your answer in 
 ## Q18 — medium — 5 marks · exam-questions
 
 ### 1() — 3 marks — structured
-The function `straight f open parentheses x close parentheses` is defined by `straight f open parentheses x close parentheses`$=2e^{3x}$ for $x\inℝ$
+The function $\mathrm{f} ( x )$ is defined by $\mathrm{f} ( x )$$=2e^{3x}$ for $x\inℝ$
 
-(i) Find `straight f open parentheses negative x close parentheses`.
+(i) Find $\mathrm{f} ( - x )$.
 
-(ii) On the same axes, sketch the graphs of `y equals straight f open parentheses x close parentheses` and `y equals straight f open parentheses negative x close parentheses`.
+(ii) On the same axes, sketch the graphs of $y = \mathrm{f} ( x )$ and $y = \mathrm{f} ( - x )$.
 
 Label any points where the graphs intersect the coordinate axes.
 
 ### 2() — 2 marks — structured
-Describe the transformation from `y equals straight f open parentheses x close parentheses` to `y equals negative straight f open parentheses x close parentheses`.
+Describe the transformation from $y = \mathrm{f} ( x )$ to $y = - \mathrm{f} ( x )$.
 
 ## Q19 — medium — 3 marks · exam-questions
 
@@ -266,12 +266,12 @@ Write down the gradient of $y=12e^{-x}$ at the point where $x=0$.
 ## Q28 — hard — 4 marks · exam-questions
 
 ### 1() — 2 marks — structured
-The function `straight f open parentheses x close parentheses` is defined by `straight f open parentheses x close parentheses equals 3 straight e to the power of 2 straight x end exponent` for $x\inℝ$.
+The function $\mathrm{f} ( x )$ is defined by $\mathrm{f} ( x ) = 3 \mathrm{e}^{2 \mathrm{x} }$ for $x\inℝ$.
 
-Find `straight f open parentheses italic 2 x close parentheses`.
+Find $\mathrm{f} ( 2 x )$.
 
 ### 2() — 2 marks — structured
-Find `straight f apostrophe open parentheses italic 2 x close parentheses`.
+Find $\mathrm{f} ' ( 2 x )$.
 
 ## Q29 — hard — 3 marks · exam-questions
 
@@ -284,7 +284,7 @@ Solve $2e^{2x}=e^{x}+10$, giving your answer to 3 significant figures.
 Find the gradient of the curve $y=ae^{bx}$,  where and $a$ and $b$ are constants.
 
 ### 2() — 2 marks — structured
-At the point `open parentheses 0 comma a close parentheses` the gradient is 12, find $b$in terms of $a$.
+At the point $( 0 , a )$ the gradient is 12, find $b$in terms of $a$.
 
 ### 3() — 1 mark — structured
 Hence write down y in terms of $a$ (and $x$) only.
@@ -333,7 +333,7 @@ giving your answer in the form $a\mathrm{In}b$, where $a$ and $b$ are integers t
 ### 2() — 2 marks — structured
 Write
 
-`2 log subscript a x space plus space 3 space log subscript a open parentheses x plus 1 close parentheses space minus space log subscript a space 4 open parentheses x plus 2 close parentheses`
+$2 log_{a} x + 3 log_{a} ( x + 1 ) - log_{a} 4 ( x + 2 )$
 
 as a single algorithm.
 
@@ -362,9 +362,9 @@ giving your answer in the form $\frac{\mathrm{In}a}{\mathrm{In}b'}$ where $a$ an
 ### 1() — 4 marks — structured
 A ship sets from a harbour.
 
-After some time, the ship's position is `open parentheses 4 In space 3 close parentheses` $\mathrm{km}$ east of the harbour and `open parentheses 3 In space 3 close parentheses` $\mathrm{km}$ north of the harbour.
+After some time, the ship's position is $( 4 In 3 )$ $\mathrm{km}$ east of the harbour and $( 3 In 3 )$ $\mathrm{km}$ north of the harbour.
 
-Find the direct distance between the ship and the harbour at this time giving your answer in the form `open parentheses p In space 3 close parentheses space km`.
+Find the direct distance between the ship and the harbour at this time giving your answer in the form $( p In 3 ) km$.
 
 ## Q38 — hard — 3 marks · exam-questions
 
@@ -410,12 +410,12 @@ Write down the initial population.
 ## Q42 — very_hard — 4 marks · exam-questions
 
 ### 1() — 2 marks — structured
-The function `straight f open parentheses x close parentheses` is defined by `straight f open parentheses x close parentheses`$=5e^{3x}$ for $x\inℝ$.
+The function $\mathrm{f} ( x )$ is defined by $\mathrm{f} ( x )$$=5e^{3x}$ for $x\inℝ$.
 
-Find `straight f open parentheses 4 x close parentheses`.
+Find $\mathrm{f} ( 4 x )$.
 
 ### 2() — 2 marks — structured
-Find `straight f apostrophe open parentheses 5 x close parentheses`.
+Find $\mathrm{f} ' ( 5 x )$.
 
 ## Q43 — very_hard — 4 marks · exam-questions
 
@@ -426,7 +426,7 @@ Find the gradient of the curve $y=\frac{1}{a}e^{-bx}$ where $a$ and $b$ are cons
 State a condition on $b$ to ensure $y$represents exponential decay.
 
 ### 3() — 2 marks — structured
-At the point `open parentheses 0 comma a close parentheses` the gradient is 10. Find $y$ in terms of $a$ (and $x$) only.
+At the point $( 0 , a )$ the gradient is 10. Find $y$ in terms of $a$ (and $x$) only.
 
 ## Q44 — very_hard — 7 marks · exam-questions
 
@@ -448,7 +448,7 @@ State a problem with the model for large values of $t$
 ## Q45 — very_hard — 4 marks · exam-questions
 
 ### 1() — 4 marks — structured
-Solve `open parentheses e to the power of x minus e to the power of negative x end exponent close parentheses squared equals 0`.
+Solve $( e^{x - e^{-x} } )^{2} = 0$.
 
 ## Q46 — very_hard — 5 marks · exam-questions
 
@@ -477,7 +477,7 @@ Solve the following equations, giving your answers correct to 3 significant figu
 $8e^{3x^{2-1}}=12$
 
 ### 2() — 3 marks — structured
-`e to the power of 3 x end exponent minus 42 space equals space 2 e to the power of x open parentheses 6 e to the power of x space end exponent minus 7 close parentheses`
+$e^{3 x} - 42 = 2 e^{x ( 6 e^{x} } - 7 )$
 
 ## Q49 — very_hard — 5 marks · exam-questions
 
@@ -500,7 +500,7 @@ Show that $4-\mathrm{In}16$ can be written in the form $4\mathrm{In}$($\frac{e}{
 ### 1() — 5 marks — structured
 A triangle is drawn inside a circle such that one side of the triangle is the diameter and all three vertices of the triangle lie on the circumference.
 
-The radius of the circle is `open parentheses 3 space In space 2 close parentheses space cm`.
+The radius of the circle is $( 3 In 2 ) cm$.
 
 The two smallest angles in the triangle are $α$ and $β$ respectively where  $β=2α$.
 
@@ -511,4 +511,4 @@ Find all three sides of the triangle, giving your answers in the form $a\mathrm{
 ### 1() — 3 marks — structured
 How many real solutions does the equations have? Justify your answer.
 
-`3 space log subscript x open parentheses x plus 1 close parentheses equals space In space e cubed`
+$3 log_{x} ( x + 1 ) = \text{In} e^{3}$

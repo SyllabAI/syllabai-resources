@@ -45,29 +45,29 @@ guided_study: false
 
   - Use the index law to rewrite $b^{g(x)}$
   
-    - `b to the power of straight g left parenthesis x right parenthesis end exponent equals open parentheses a to the power of k close parentheses to the power of straight g left parenthesis x right parenthesis end exponent equals a to the power of k straight g open parentheses x close parentheses blank end exponent`
-  - Write `a to the power of straight f open parentheses x close parentheses end exponent equals a to the power of k straight g open parentheses x close parentheses blank end exponent`
+    - $b^{ \mathrm{g} ( x )} = ( a^{k )^{g} ( x )} = a^{k \mathrm{g} ( x ) }$
+  - Write $a^{ \mathrm{f} ( x )} = a^{k \mathrm{g} ( x ) }$
   - Solve $f(x)=kg(x)$
 - If the value of *b *can not be written as a power of *a*
 
   - Apply logs of the same base (any base will work) to both sides to get:
   
-    - `log invisible function application open parentheses a to the power of straight f open parentheses x close parentheses end exponent close parentheses equals log invisible function application open parentheses b to the power of straight g open parentheses x close parentheses end exponent close parentheses`
+    - $\log ( a^{ \mathrm{f} ( x )} ) = \log ( b^{ \mathrm{g} ( x )} )$
   - Use the laws of logarithms to bring the power to the front:
   
-    - `straight f open parentheses x close parentheses log invisible function application a equals straight g open parentheses x close parentheses log invisible function application b`
+    - $\mathrm{f} ( x ) \log a = \mathrm{g} ( x ) \log b$
   - log *a* and log *b* are just numbers so rearrange and solve for *x*
 - If either side is multiplied by a constant ($pa^{f(x)}$ )
 
   - Do **not** write as $(pa)^{f(x)}$ – this is **incorrect**
   - Still take logs of both sides but you will need to use another law of logs
   
-    - `log invisible function application open parentheses p a to the power of straight f open parentheses x close parentheses end exponent close parentheses equals log invisible function application p plus log invisible function application p a to the power of straight f open parentheses x close parentheses end exponent`
+    - $\log ( p a^{ \mathrm{f} ( x )} ) = \log p + \log p a^{ \mathrm{f} ( x )}$
   - log *p *is just a constant so can be solved in the same way as above
 
 ### How do I solve exponential equations with three terms?
 
-- If the equation has three terms such as `a to the power of straight f open parentheses x close parentheses end exponent plus a to the power of straight g open parentheses x close parentheses end exponent plus c equals 0`
+- If the equation has three terms such as $a^{ \mathrm{f} ( x )} + a^{ \mathrm{g} ( x )} + c = 0$
 
   - Use the index laws in reverse to split up the powers
   

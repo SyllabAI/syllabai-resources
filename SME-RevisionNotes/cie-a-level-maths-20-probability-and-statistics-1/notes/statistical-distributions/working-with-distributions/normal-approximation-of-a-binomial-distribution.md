@@ -19,7 +19,7 @@ guided_study: true
 
 #### When can I use a normal distribution to approximate a binomial distribution?
 
-- A binomial distribution `begin mathsize 16px style X tilde straight B left parenthesis n comma p right parenthesis end style` can be **approximated** by a normal distribution `X subscript N tilde straight N left parenthesis mu comma sigma squared right parenthesis`  provided
+- A binomial distribution $X \sim \mathrm{B} ( n , p )$ can be **approximated** by a normal distribution $X_{N} \sim \mathrm{N} ( \\mu , \\sigma ^{2} )$  provided
 
   - ***n***** is large**
   - ***p***** is close to 0.5**
@@ -95,7 +95,7 @@ guided_study: true
     - $np>5$** where **$q=1-p$
 
 > **Worked Example**
-> The random variable `X tilde B left parenthesis 1250 comma space 0.4 right parenthesis.`
+> The random variable $X \sim B ( 1250 , 0.4 ).$
 > 
 > Use a suitable approximating distribution to approximate $P(485\leqX\leq530)$.
 > 

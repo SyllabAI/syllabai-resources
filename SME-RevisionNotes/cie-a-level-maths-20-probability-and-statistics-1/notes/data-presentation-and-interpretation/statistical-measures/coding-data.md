@@ -73,7 +73,7 @@ Then the standard deviation of the coded data, $σ_{y}$would be
 
 The original standard deviation,* *$σ_{x}$, will be
 
-`sigma subscript x equals fraction numerator sigma subscript y over denominator open vertical bar a close vertical bar end fraction`
+$\sigma_{x} = \frac{\sigma_{y} }{\left| a \right|}$
 
 #### What will summary statistics and formulae look like with an assumed mean?
 
@@ -85,9 +85,9 @@ The original standard deviation,* *$σ_{x}$, will be
     - Be careful not to mix this up with the square of the sum of the coded data $(Σ(x-a))^{2}$
   - If an **assumed mean,** *a, *has been subtracted from all data values, *x, *then the formulae for the mean and standard deviation for the coded data will be
 
-** **`top enclose left parenthesis x minus a right parenthesis end enclose equals fraction numerator capital sigma left parenthesis x minus a right parenthesis over denominator n end fraction`
+** **`top ( x - a ) = (capital sigma ( x - a ))/(n)`
 
-`sigma subscript x minus a end subscript equals square root of fraction numerator capital sigma left parenthesis x minus a right parenthesis squared over denominator n end fraction minus open parentheses fraction numerator capital sigma left parenthesis x minus a right parenthesis over denominator n end fraction close parentheses end root squared`** **
+$\sigma_{x - a} = \sqrt{ \frac{\\Sigma ( x - a )^{2}}{n} - ( \frac{\\Sigma ( x - a )}{n} )}^{2}$** **
 
 - Most questions will give you either the summary statistics or the mean of the coded data and expect you to work with these formulae to find original information about the data
 

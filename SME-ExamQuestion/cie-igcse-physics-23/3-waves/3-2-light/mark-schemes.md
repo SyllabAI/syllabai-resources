@@ -79,16 +79,16 @@ $\mathrm{distance} \mathrm{of} \mathrm{image}=3\times6.0=18.0\text{cm}$
 > **[exam-tip]**
 > Remember the key rule: when light passes from a denser to a less dense medium, it bends away from the normal. Always compare the angle of incidence to the critical angle first:
 > 
-> - if the angle of incidence is less than the critical angle `open parentheses i space less than space c close parentheses`, refraction occurs
-> - if the angle of incidence is equal to the critical angle `open parentheses i space equals space c close parentheses`, light travels along the boundary
-> - if the angle of incidence exceeds the critical angle `open parentheses i space greater than space c close parentheses`, total internal reflection occurs
+> - if the angle of incidence is less than the critical angle $( i < c )$, refraction occurs
+> - if the angle of incidence is equal to the critical angle $( i = c )$, light travels along the boundary
+> - if the angle of incidence exceeds the critical angle $( i > c )$, total internal reflection occurs
 
 ### Q5
 **Final answer:** **The correct answer is ****A**** because:**
 
 - The refractive index of a material is given by:
 
-`refractive space index space equals space fraction numerator sin space open parentheses angle space of space incidence close parentheses over denominator sin open parentheses angle space of space refraction close parentheses end fraction space or space straight n space equals space fraction numerator sin space straight i over denominator sin space straight r end fraction`
+$\text{refractive} \text{index} = \frac{ \text{sin} ( \text{angle} of \text{incidence} ) }{ \text{sin} ( \text{angle} of \text{refraction} ) } or \mathrm{n} = \frac{ \text{sin} \mathrm{i} }{ \text{sin} \mathrm{r} }$
 
 - These angles must be measured from the normal, the dotted line at right angles to the surface.
 - The angle of incidence (the incoming ray) is 90°− 50° = 40°
@@ -321,8 +321,8 @@ It would be useful to learn this definition by heart, so that you are entirely c
 
 - $n=\frac{sini}{sinr}$
 - $sinr=\frac{sini}{n}$
-- `r space equals s i n to the power of negative 1 end exponent open parentheses fraction numerator s i n space i over denominator n end fraction close parentheses`
-- `r space equals space s i n to the power of negative 1 end exponent open parentheses fraction numerator s i n space 27 over denominator 1.33 end fraction close parentheses`
+- $r = s i n^{- 1} ( \frac{s i n i}{n} )$
+- $r = s i n^{- 1} ( \frac{s i n 27}{1.33} )$
 - $r=19.95^{\circ}$
 
 Each of the other answers contains a common mistake made by students.
@@ -441,7 +441,7 @@ The diagram shows how the ray diagram should be constructed:
 ### Q33
 **Final answer:** **The correct answer is ****A**** because:**
 
-- `n equals. fraction numerator sin open parentheses a n g l e space o f space i n c i d e n c e close parentheses over denominator sin open parentheses a n g l e space o f space r e f r a c t i o n close parentheses end fraction`
+- $n =. \frac{\sin ( a n g l e o f i n c i d e n c e )}{\sin ( a n g l e o f r e f r a c t i o n )}$
 - P is the correct angle of incidence
 - S is the correct angle of refraction
 

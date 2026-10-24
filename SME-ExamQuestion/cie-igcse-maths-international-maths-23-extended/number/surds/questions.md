@@ -39,7 +39,7 @@ Use this information to find the value of
 
 **Q3** [4 marks]
 
-Show that `fraction numerator open parentheses 4 space plus space 2 square root of 5 close parentheses over denominator square root of 5 space minus space 1 end fraction` can be simplified to $\frac{3\sqrt{5}+7}{2}$
+Show that $\frac{( 4 + 2 \sqrt{5} )}{ \sqrt{5} - 1}$ can be simplified to $\frac{3\sqrt{5}+7}{2}$
 
 *Source: Nov 2017 J560/04 Q15*
 
@@ -48,7 +48,7 @@ Show that `fraction numerator open parentheses 4 space plus space 2 square root 
 
 **Q4** [3 marks]
 
-`table row a equals cell square root of 8 plus 4 end cell row b equals cell square root of 8 minus 4 end cell end table`
+$\begin{gathered} a = \sqrt{8} + 4 \\ b = \sqrt{8} - 4 \end{gathered}$
 
 $(a--b)(a+b)$ can be written in the form $y\sqrt{4y}$
 
@@ -75,7 +75,7 @@ Show each stage of your working clearly and give the value of a and the value of
 
 In the following equation, $n$ is an integer greater than 1.
 
-`open parentheses square root of 2 close parentheses to the power of n space equals space k square root of 2`
+$( \sqrt{2} )^{n} = k \sqrt{2}$
 
 i) Find $k$ when $n$ = 7.
 
@@ -150,7 +150,7 @@ Show your working clearly.
 
 The area of a rectangle is $18$ $\mathrm{cm}^{2}$
 
-The length of the rectangle is `open parentheses square root of 7 space end root plus space 1 close parentheses` $\mathrm{cm}$.
+The length of the rectangle is $( \sqrt{7 } + 1 )$ $\mathrm{cm}$.
 
 Without using a calculator and showing each stage of your working, find the width of the rectangle.
 
@@ -233,7 +233,7 @@ Find the $n$th term.
 
 **Q18** [3 marks]
 
-Show that `open parentheses 6 space plus 2 root index blank of 12 close parentheses squared space equals space 12 open parentheses 7 space plus space 4 square root of 3 close parentheses`
+Show that `( 6 + 2 sqrt index _ of 12 ) ^2 = 12 ( 7 + 4 sqrt( 3 )`
 
 Show each stage of your working.
 
@@ -244,7 +244,7 @@ Show each stage of your working.
 
 **Q19** [3 marks]
 
-Simplify fully  `fraction numerator open parentheses 6 minus square root of 5 close parentheses open parentheses 6 plus square root of 5 close parentheses over denominator square root of 31 end fraction`
+Simplify fully  $\frac{( 6 - \sqrt{5} ) ( 6 + \sqrt{5} )}{ \sqrt{31} }$
 
 You must show your working.
 
@@ -262,7 +262,7 @@ Rationalise the denominator of $\frac{12}{\sqrt{3}}$.
 
 **Q20** [2 marks]
 
-Work out the value of  `open parentheses square root of 2 space plus space square root of 8 close parentheses squared`.
+Work out the value of  $( \sqrt{2} + \sqrt{8} )^{2}$.
 
 *Source: 2014	June 1MA0/1H Q25B*
 
@@ -318,7 +318,7 @@ Rationalise the denominator of $\frac{5}{\sqrt{2}}$.
 
 **Q25** [2 marks]
 
-Expand and simplify `open parentheses 2 space plus square root of 3 close parentheses squared minus open parentheses 2 minus square root of 3 close parentheses squared`.
+Expand and simplify $( 2 + \sqrt{3} )^{2} - ( 2 - \sqrt{3} )^{2}$.
 
 *Source: 2012	November 1MA0/1H Q26B*
 
@@ -374,7 +374,7 @@ Express  $\sqrt{3}+\sqrt{12}$ in the form $a\sqrt{3}$ where $a$ is an integer.
 
 **Q30** [3 marks]
 
-Express `open parentheses fraction numerator 1 over denominator square root of 3 end fraction close parentheses to the power of 7` in the form $\frac{\sqrt{b}}{c}$ where $b$ and $c$ are integers.
+Express $( \frac{1}{ \sqrt{3} } )^{7}$ in the form $\frac{\sqrt{b}}{c}$ where $b$ and $c$ are integers.
 
 *Source: June 2019 1MA1/1H Q18B*
 
@@ -390,7 +390,7 @@ Martin did this question.
 
 Here is how he answered the question.
 
-`table row cell fraction numerator 14 over denominator 2 space plus space square root of 3 end fraction end cell equals cell fraction numerator 14 space cross times space open parentheses 2 minus space square root of 3 close parentheses over denominator open parentheses 2 space plus space square root of 3 close parentheses open parentheses 2 space minus space square root of 3 close parentheses end fraction end cell row blank blank blank row blank equals cell space fraction numerator 28 space minus space 14 square root of 3 over denominator 4 space plus space 2 square root of 3 space minus space 2 square root of 3 plus 3 end fraction end cell row blank equals cell space fraction numerator 28 space minus space 14 square root of 3 over denominator 7 end fraction end cell row blank equals cell space 4 minus space 2 square root of 3 end cell end table`
+$\begin{gathered} \frac{14}{2 + \sqrt{3} } & = \frac{14 \times ( 2 - \sqrt{3} )}{( 2 + \sqrt{3} ) ( 2 - \sqrt{3} )} \\ \\ = \frac{28 - 14 \sqrt{3} }{4 + 2 \sqrt{3} - 2 \sqrt{3} + 3} \\ = \frac{28 - 14 \sqrt{3} }{7} \\ = 4 - 2 \sqrt{3} \end{gathered}$
 
 Martin's answer is wrong.
 
@@ -408,7 +408,7 @@ Sian did this question.
 
 Here is how she answered the question.
 
-`table row cell fraction numerator 5 over denominator square root of 12 end fraction space end cell equals cell space fraction numerator 5 square root of 12 over denominator square root of 12 space cross times square root of 12 end fraction end cell row blank blank blank row blank equals cell space fraction numerator 5 space cross times 3 square root of 2 over denominator 12 end fraction end cell row blank equals cell space fraction numerator 5 square root of 2 over denominator 4 end fraction end cell end table`
+$\begin{gathered} \frac{5}{ \sqrt{12} } & = \frac{5 \sqrt{12} }{ \sqrt{12} \times \sqrt{12} } \\ \\ = \frac{5 \times 3 \sqrt{2} }{12} \\ = \frac{5 \sqrt{2} }{4} \end{gathered}$
 
 Sian's answer is wrong.
 
@@ -421,7 +421,7 @@ Find Sian's mistake.
 
 **Q32** [2 marks]
 
-Expand   `open parentheses 1 plus square root of 2 close parentheses open parentheses 3 minus square root of 2 close parentheses` 
+Expand   $( 1 + \sqrt{2} ) ( 3 - \sqrt{2} )$ 
 Give your answer in the form $a+b\sqrt{2}$ where $a$ and $b$ are integers.
 
 *Source: 2014	November 1MA0/1H Q21*
@@ -431,7 +431,7 @@ Give your answer in the form $a+b\sqrt{2}$ where $a$ and $b$ are integers.
 
 **Q33** [3 marks]
 
-Write  `open parentheses 1 space plus space square root of 3 close parentheses squared`   in the form  $a+b\sqrt{3}$.
+Write  $( 1 + \sqrt{3} )^{2}$   in the form  $a+b\sqrt{3}$.
 
 *Source: Specimen 2015 J560/05 Q15B*
 
@@ -502,7 +502,7 @@ Give your answer as an integer.
 
 **Q40** [2 marks]
 
-Show that    `fraction numerator open parentheses 4 minus square root of 3 close parentheses open parentheses 4 plus square root of 3 close parentheses over denominator square root of 13 end fraction` simplifies to  $\sqrt{13}$.
+Show that    $\frac{( 4 - \sqrt{3} ) ( 4 + \sqrt{3} )}{ \sqrt{13} }$ simplifies to  $\sqrt{13}$.
 
 *Source: 2015	Spec2 1MA1/1H Q14*
 
@@ -531,7 +531,7 @@ Show that $\frac{14}{\sqrt{7}}$  can be written in the form $a\sqrt{b}$ where $a
 
 **Q43** [3 marks]
 
-`square root of 5 open parentheses square root of 8 space plus square root of 18 close parentheses`    can be written in the form  $a\sqrt{10}$ where $a$ is an integer.
+$\sqrt{5} ( \sqrt{8} + \sqrt{18} )$    can be written in the form  $a\sqrt{10}$ where $a$ is an integer.
 
 Find the value of $a$.
 
@@ -610,7 +610,7 @@ Give your answer in the form $a+b\sqrt{5}$ where $a$ and $b$ are fractions in th
 
 **Q50** [3 marks]
 
-Show that  `open parentheses 5 square root of 3 minus square root of 12 close parentheses squared`  simplifies to an integer.
+Show that  $( 5 \sqrt{3} - \sqrt{12} )^{2}$  simplifies to an integer.
 
 *Source: June 2019 8300/2H Q22*
 
@@ -619,7 +619,7 @@ Show that  `open parentheses 5 square root of 3 minus square root of 12 close pa
 
 **Q51** [2 marks]
 
-Work out the value of        `open parentheses square root of 12 space minus square root of 3 close parentheses squared`.
+Work out the value of        $( \sqrt{12} - \sqrt{3} )^{2}$.
 
 *Source: 2015	June 1MA0/1H Q22C*
 

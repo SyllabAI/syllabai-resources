@@ -59,7 +59,7 @@ $\overline{x}-z\times\frac{σ}{\sqrt{n}}<μ<\overline{x}+z\times\frac{σ}{\sqrt{
 - *n* is the size of the sample
 - σ is the standard deviation of the population
 - $\overline{x}$ is the mean of the sample
-- $z$ is the value such that `straight P left parenthesis negative z less than Z less than z right parenthesis equals alpha percent sign` where *α* is the confidence level
+- $z$ is the value such that $\mathrm{P} ( - z < Z < z ) = \\alpha \%$ where *α* is the confidence level
 
 - The width of the confidence interval is
 
@@ -69,9 +69,9 @@ $2\timesz\times\frac{σ}{\sqrt{n}}$
 
 #### How do I find the z-value for a confidence interval?
 
-- You use the standard normal distribution `Z tilde N left parenthesis 0 comma 1 squared right parenthesis`
+- You use the standard normal distribution $Z \sim N ( 0 , 1^{2} )$
 - If the confidence level is % we find such that $P(-z<Z<z)=α$%
-- To do this find $P(Z<z)$- it can be shown that this is `open parentheses fraction numerator alpha plus 100 over denominator 2 end fraction close parentheses`%
+- To do this find $P(Z<z)$- it can be shown that this is $( \frac{\\alpha + 100}{2} )$%
 
 ![1-2-2-confidence-intervals-diagram-1-1](../../../assets/5a506f9c71af-1-2-2-confidence-intervals-diagram-1-1.png)
 
@@ -118,19 +118,19 @@ $2\timesz\times\frac{σ}{\sqrt{n}}$
 - For this course we only construct **symmetrical confidence intervals** for the proportion of a population provided that the **sample size is large** enough to use the **Central Limit Theorem**
 - The confidence interval can be found using the formula
 
-`p with hat on top minus z cross times square root of fraction numerator p with hat on top open parentheses 1 minus p with hat on top close parentheses over denominator n end fraction end root less than p less than p with hat on top plus z cross times square root of fraction numerator p with hat on top left parenthesis 1 minus p with hat on top right parenthesis over denominator n end fraction end root`
+$\hat{p} - z \times \sqrt{ \frac{ \hat{p} ( 1 - \hat{p} )}{n} } < p < \hat{p} + z \times \sqrt{ \frac{ \hat{p} ( 1 - \hat{p} )}{n} }$
 
 - *n* is the size of the sample
-- `p with hat on top` (or p<sub>s</sub>) is the proportion of the sample
-- z is the value such that `straight P left parenthesis negative z less than Z less than z right parenthesis equals alpha percent sign` where $α$ is the confidence level
+- $\hat{p}$ (or p<sub>s</sub>) is the proportion of the sample
+- z is the value such that $\mathrm{P} ( - z < Z < z ) = \\alpha \%$ where $α$ is the confidence level
 
 - In the **formula booklet** you are given the **distribution of the sample proportion** which might help you remember the formula for the confidence interval
 
-`N open parentheses p comma fraction numerator p left parenthesis 1 minus p right parenthesis over denominator n end fraction close parentheses`
+$N ( p , \frac{p ( 1 - p )}{n} )$
 
 - The **width** of the confidence interval is
 
-`2 cross times z cross times square root of fraction numerator p with hat on top left parenthesis 1 minus p with hat on top right parenthesis over denominator n end fraction end root`
+$2 \times z \times \sqrt{ \frac{ \hat{p} ( 1 - \hat{p} )}{n} }$
 
 - Note that the sample proportion is the midpoint of the confidence interval but it **also affects** the width
 

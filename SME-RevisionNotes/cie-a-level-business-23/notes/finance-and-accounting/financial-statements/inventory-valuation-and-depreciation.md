@@ -86,22 +86,22 @@ $\mathrm{Net} \mathrm{realisable} \mathrm{value}=\mathrm{Anticipated} \mathrm{se
 > 
 > **Step 1: Calculate the stock's historic cost**
 > 
-> `begin mathsize 16px style equals space 240 space cross times space £ 3.40
+> $= 240 \times \pounds 3.40
 > 
-> equals space £ 816
-> end style`**   ****[1]**
+> = \pounds 816
+>$**   ****[1]**
 > 
 > **Step 2: Calculate a reduction of 80% of the purchase price **
 > 
-> `begin mathsize 16px style equals space 0.80 space cross times space £ 16
+> $= 0.80 \times \pounds 16
 > 
-> equals space £ 3.20 end style`**   ****[1]**
+> = \pounds 3.20$**   ****[1]**
 > 
 > **Step 3: Calculate the net realisable value**
 > 
-> `equals space 240 space cross times space £ 3.20
+> $= 240 \times \pounds 3.20
 > 
-> equals space £ 768`**   ****[1]**
+> = \pounds 768$**   ****[1]**
 > 
 > **Step 4: Explain which value should be recorded as the stock's value in the statement of financial position**
 > 
@@ -160,15 +160,15 @@ $\mathrm{Annual} \mathrm{depreciation}=\frac{\mathrm{Historic} \mathrm{cost}-\ma
 > 
 > **Step 1: Deduct the residual value from the historic cost**
 > 
-> `equals space space € 280 comma 000 space space minus space space € 52 comma 500 space
+> $= \text{€} 280 , 000 - \text{€} 52 , 500 
 > 
-> equals space space € 227 comma 500`      **(1)**
+> = \text{€} 227 , 500$      **(1)**
 > 
 > **Step 2: Divide the result by the life expectancy**
 > 
-> `equals space fraction numerator € 227 comma 500 over denominator 7 space years end fraction space
+> $= \frac{\text{€} 227 , 500}{7 years} 
 > 
-> equals space € 32 comma 500`      **(1)**
+> = \text{€} 32 , 500$      **(1)**
 
 - Once the annual rate of depreciation has been calculated,** until the end of its life expectancy**
 
@@ -207,9 +207,7 @@ $\mathrm{Annual} \mathrm{depreciation}=\frac{\mathrm{Historic} \mathrm{cost}-\ma
 > 
 > **Step 3**: **Calculate Year 1 by deducting the annual rate of depreciation**
 > 
-> `Year space 1 space equals space € 280 comma 000 space minus space € 32 comma 500 space
-> 
-> equals space € 247 comma 500`**    ****(2)**
+> $Year 1 = \text{€} 280 , 000 - \text{€} 32 , 500 > > = \text{€} 247 , 500$**    ****(2)**
 > 
 > **Step 4: Record these values in the table**
 > 

@@ -6,7 +6,7 @@
 ## Q1 — very_hard — 4 marks · exam-questions
 
 ### 23((a)) — 3 marks — command: write — structured — from paper Spec2 2015 · 1MA1/3H
-Write $2x^{2}+16x+35$ in the form `a open parentheses x plus b close parentheses squared space plus space c` where $a,b,$ and $c$ are integers.
+Write $2x^{2}+16x+35$ in the form $a ( x + b )^{2} + c$ where $a,b,$ and $c$ are integers.
 
 ### 23((b)) — 1 mark — command: write — structured — from paper Spec2 2015 · 1MA1/3H
 Hence, or otherwise, write down the coordinates of the turning point of the graph of $y=2x^{2}+16x+35$
@@ -14,7 +14,7 @@ Hence, or otherwise, write down the coordinates of the turning point of the grap
 ## Q2 — hard — 4 marks · exam-questions
 
 ### 25((a)) — 3 marks — command: find — structured — from paper June 2013 · 1MA0/1H
-The expression $x^{2}---8x+21$ can be written in the form `open parentheses x minus a close parentheses squared space plus b` for all values of $x$.
+The expression $x^{2}---8x+21$ can be written in the form $( x - a )^{2} + b$ for all values of $x$.
 
 Find the value of $a$ and the value of $b$.
 
@@ -30,7 +30,7 @@ Write down the coordinates of $M$.
 ## Q3 — medium — 2 marks · exam-questions
 
 ### 13() — 2 marks — command: write — structured — from paper November 2017 · 1MA1/3H
-Write  $x^{2}+6x-7$   in the form `open parentheses x plus a close parentheses squared space plus space b`   where $a$ and $b$are integers.
+Write  $x^{2}+6x-7$   in the form $( x + a )^{2} + b$   where $a$ and $b$are integers.
 
 ## Q4 — very_hard — 4 marks · exam-questions
 
@@ -47,7 +47,7 @@ Use your answer to part (a) to write down the coordinates of $A$
 ## Q5 — hard — 3 marks · exam-questions
 
 ### 19() — 3 marks — command: multiple — structured — from paper June 2019 · 1MA1/1H
-Given that `x to the power of 2 space end exponent minus space 6 x space plus space 1 space equals space open parentheses x space minus space a close parentheses to the power of 2 space end exponent minus space b` for all values of $x$.
+Given that $x^{2 } - 6 x + 1 = ( x - a )^{2 } - b$ for all values of $x$.
 
 (i) Find the value of $a$ and the value of $b$.
 
@@ -60,14 +60,14 @@ Given that `x to the power of 2 space end exponent minus space 6 x space plus sp
 ## Q6 — medium — 2 marks · exam-questions
 
 ### 11() — 2 marks — command: write — structured — from paper Spec1 2015 · 1MA1/3H
-Write $x^{2}+2x-8$ in the form `open parentheses x space plus thin space m close parentheses squared space plus space n`
+Write $x^{2}+2x-8$ in the form $( x + m )^{2} + n$
 
 where $m$ and $n$are integers.
 
 ## Q7 — very_hard — 3 marks · exam-questions
 
 ### 23() — 3 marks — command: express — structured — from paper Jan 2020 · 4MA1/2HR
-Express $7-12x-2x^{2}$ in the form `a space plus b open parentheses x plus c close parentheses squared` where $a$ , $b$ and $c$ are integers.
+Express $7-12x-2x^{2}$ in the form $a + b ( x + c )^{2}$ where $a$ , $b$ and $c$ are integers.
 
 ## Q8 — hard — 2 marks · exam-questions
 
@@ -84,7 +84,7 @@ Express $x^{2}--10x+40$ in the form  $(x+a)^{2}+b$, where $a$ and $b$ are intege
 ## Q10 — very_hard — 2 marks · exam-questions
 
 ### 27((a)) — 2 marks — command: express — structured — from paper Nov 2020 · 4MA1/2H
-The function$f$ is such that $f(x)=5+6x--x^{2}$      for `x space less-than or slanted equal to space 3`
+The function$f$ is such that $f(x)=5+6x--x^{2}$      for $x \text{less} - \text{than} or \text{slanted} \text{equal} to 3$
 
 Express $5+6x--x^{2}$ in the form $p--(x--q)^{2}$ where $p$ and $q$ are constants.
 
@@ -121,7 +121,7 @@ Using your answer to part (a) or otherwise, write down an equation of $L$.
 ## Q15 — medium — 3 marks · exam-questions
 
 ### 19((a)) — 3 marks — command: write — structured — from paper Nov 2020 · J560/05
-Write  $x^{2}-10x+22$  in the form  `begin mathsize 16px style open parentheses x minus a close parentheses squared minus b end style`
+Write  $x^{2}-10x+22$  in the form  $( x - a )^{2} - b$
 
 ## Q16 — very_hard — 2 marks · exam-questions
 
@@ -138,7 +138,7 @@ Show your working clearly.
 ## Q18 — medium — 3 marks · exam-questions
 
 ### 20((a)) — 3 marks — command: write — structured — from paper Nov 2019 · J560/05
-Write $x^{2}-6x+11$ in the form `open parentheses x minus a close parentheses squared plus b`
+Write $x^{2}-6x+11$ in the form $( x - a )^{2} + b$
 
 ## Q19 — very_hard — 3 marks · exam-questions
 
@@ -147,7 +147,7 @@ $2x^{2}-6x+5$ can be written in the form $a(x-b)^{2}+c$
 
 where $a,b$ and$c$ are positive numbers. Work out the values of  $a,b$ and $c$.
 
-`table attributes columnalign right center left columnspacing 0px end attributes row a equals cell................... end cell row b equals cell................... end cell row c equals cell................... end cell end table`
+$\begin{array}{rcl} a = ................... \\ b = ................... \\ c = ................... \end{array}$
 
 ## Q20 — hard — 3 marks · exam-questions
 
@@ -172,7 +172,7 @@ Find the turning point of  $y=x^{2}+4x-3$  by completing the square.
 ## Q23 — hard — 7 marks · exam-questions
 
 ### 18((a)) — 7 marks — command: multiple — structured — from paper Nov 2018 · J560/05
-(i) Write $x^{2}+4x-16$ in the form `open parentheses x plus a close parentheses squared space minus space b`.
+(i) Write $x^{2}+4x-16$ in the form $( x + a )^{2} - b$.
 
 [3]
 
@@ -184,7 +184,7 @@ $x$ = ........... or $x$ = .......... [4]
 ## Q24 — medium — 3 marks · exam-questions
 
 ### 16() — 3 marks — command: write — structured — from paper June 2017 · J560/04
-Write $x^{2}-10x+16$ in the form `begin mathsize 16px style open parentheses x plus a close parentheses squared plus b end style`
+Write $x^{2}-10x+16$ in the form $( x + a )^{2} + b$
 
 ## Q25 — hard — 3 marks · exam-questions
 
@@ -200,12 +200,12 @@ $b$ = ...............................................
 ## Q26 — medium — 2 marks · exam-questions
 
 ### 8((c)) — 2 marks — command: write — structured — from paper 2020	May/June · 0580/41
-Write  $x^{2}+10x+14$  in the form  `open parentheses x plus a close parentheses squared space plus b.`
+Write  $x^{2}+10x+14$  in the form  $( x + a )^{2} + b.$
 
 ## Q27 — hard — 4 marks · exam-questions
 
 ### 9((a)) — 4 marks — command: multiple — structured — from paper 2020 May/June · 0580/42
-(i) Write $x^{2}+8x-9$ in the form `space open parentheses x plus k close parentheses squared plus h`.
+(i) Write $x^{2}+8x-9$ in the form $( x + k )^{2} + h$.
 
 [2]
 
@@ -227,7 +227,7 @@ $b$ = ............................................
 ## Q29 — hard — 4 marks · exam-questions
 
 ### 18((a)) — 2 marks — command: write — structured — from paper 2020 May/June · 0580/23
-Write $x^{2}-18x-27$ in the form `space open parentheses x plus k close parentheses squared plus h`.
+Write $x^{2}-18x-27$ in the form $( x + k )^{2} + h$.
 
 ### 18((b)) — 2 marks — command: solve — structured — from paper 2020 May/June · 0580/23
 Use your answer to **part (a)** to solve the equation $x^{2}-18x-27=0.$
@@ -237,7 +237,7 @@ $x=$.................... or $x=$....................
 ## Q30 — hard — 5 marks · exam-questions
 
 ### 8((c)) — 2 marks — command: write — structured — from paper 2020	May/June · 0580/41
-Write  $x^{2}+10x+14$  in the form  `open parentheses x plus a close parentheses squared space plus b.`
+Write  $x^{2}+10x+14$  in the form  $( x + a )^{2} + b.$
 
 ### 8((c)) — 3 marks — command: sketch — structured — from paper 2020	May/June · 0580/41
 Sketch the graph of  $y=x^{2}+10x+14$,  indicating the coordinates of the turning point.

@@ -22,7 +22,7 @@ guided_study: true
   - Close to the Earth's surface, within the Earth's atmosphere, *g = *9.81 N kg<sup>−1</sup>
 - *g *can be approximated as constant because the Earth's radius, *R* is much larger than the distance between the Earth's surface and the position of an object in the Earth's atmosphere, *h*
 
-`R space much greater-than space h`
+$R \text{much} greater-than h$
 
 - Where small changes in height do not affect the total height of an object, *h*
 
@@ -47,7 +47,7 @@ $g\propto\frac{1}{r^{2}}$
 
 - Therefore, small changes in *r *result in small changes in *g*
 
-`g space equals fraction numerator space G M over denominator open parentheses R space plus space h close parentheses squared end fraction space asymptotically equal to space fraction numerator G M over denominator R squared end fraction`
+$g = \frac{ G M}{( R + h )^{2}} \text{asymptotically} \text{equal} \text{to} \frac{G M}{R^{2}}$
 
 > **Worked Example**
 > The highest point above the Earth's surface is at the peak of Mount Everest, a distance of 8850 m above the Earth's surface.
@@ -74,14 +74,14 @@ $g\propto\frac{1}{r^{2}}$
 > 
 > - At the Earth's surface:
 > 
-> `g subscript 0 space equals space fraction numerator open parentheses 6.67 cross times 10 to the power of negative 11 end exponent close parentheses cross times open parentheses 5.97 cross times 10 to the power of 24 close parentheses over denominator open parentheses 6370 cross times 10 cubed close parentheses squared end fraction space equals space 9.8134 space straight N space kg to the power of negative 1 end exponent`
+> $g_{0} = \frac{( 6.67 \times 10^{- 11} ) \times ( 5.97 \times 10^{24 )}{( 6370 \times 10^{3} )^{2}} = 9.8134 \mathrm{N} kg^{-1} }$
 > 
 > - At the height of Mt Everest:
 > 
-> `g apostrophe space equals space fraction numerator open parentheses 6.67 cross times 10 to the power of negative 11 end exponent close parentheses space cross times space open parentheses 5.97 cross times 10 to the power of 24 close parentheses over denominator open parentheses 6378.85 cross times 10 cubed close parentheses squared end fraction space equals space 9.7862 space straight N thin space kg to the power of negative 1 end exponent`
+> $g ' = \frac{( 6.67 \times 10^{- 11} ) \times ( 5.97 \times 10^{24 )}{( 6378.85 \times 10^{3} )^{2}} = 9.7862 \mathrm{N} kg^{-1} }$
 > 
 > **Step 4: Calculate the percentage decrease**
 > 
-> `percent sign space g space equals space fraction numerator g subscript 0 space minus space g apostrophe over denominator g subscript 0 end fraction cross times 100 percent sign`
+> $\% g = \frac{g_{0} - g '}{g_{0} } \times 100 \%$
 > 
-> `percent sign space g space equals space fraction numerator 9.8134 space minus space 9.7862 over denominator 9.8134 end fraction cross times 100 space equals space 0.28 percent sign space almost equal to space 0.3 percent sign`
+> $\% g = \frac{9.8134 - 9.7862}{9.8134} \times 100 = 0.28 \% \approx 0.3 \%$

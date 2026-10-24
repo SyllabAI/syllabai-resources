@@ -95,7 +95,7 @@ $λ=\frac{ax}{D}$
 > 
 > **Step 5: Rearrange the equation and substitute in the known values to calculate**
 > 
-> `a space equals fraction numerator space lambda D over denominator x end fraction space equals space fraction numerator open parentheses 4 space cross times space 10 to the power of negative 7 end exponent close parentheses space cross times space 4.5 space over denominator 1.667 cross times 10 to the power of negative 3 end exponent end fraction space equals space 1.08 space cross times space 10 to the power of negative 3 end exponent space equals space 1.1 space mm space open parentheses 2 space straight s. straight f close parentheses`
+> $a = \frac{ \\lambda D}{x} = \frac{( 4 \times 10^{- 7} ) \times 4.5 }{1.667 \times 10^{- 3} } = 1.08 \times 10^{- 3} = 1.1 \text{mm} ( 2 \mathrm{s} . \mathrm{f} )$
 
 > **Exam Hint**
 > Since *a*, *x* and *D* are all distances, it's easy to mix up which they refer to. Labelling the double slit diagram in the way given in the notes above will help to remember the order i.e. *a* and *x* in the numerator and *D* underneath in the denominator.

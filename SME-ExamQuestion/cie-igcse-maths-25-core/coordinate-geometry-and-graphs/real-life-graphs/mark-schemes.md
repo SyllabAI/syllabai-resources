@@ -151,7 +151,7 @@ Round to a suitable degree of accuracy
 > **[mark-scheme]**
 > **B1**: For 5.153... or 5 hours 9 minutes.
 > 
-> **M1**: For `fraction numerator 60 over denominator 4 plus your space open parentheses straight b close parentheses open parentheses straight i close parentheses space answer space in space hours end fraction`.
+> **M1**: For $\frac{60}{4 + \text{your} ( \mathrm{b} ) ( \mathrm{i} ) \text{answer} \text{in} hours}$.
 > 
 > **A1**: For 11.6 or 11.7 or 11.64 to 11.66.
 (i)
@@ -293,7 +293,7 @@ $4\div0.2$
 
 **[1]**
 
-`bold 20 bold space bold km bold ⁄ bold h`* ***[1]**
+$20 km ⁄ h$* ***[1]**
 
 ** **ii) *Using the graph, the arrival times for Anand and Rahul at the park are*
 
@@ -568,7 +568,7 @@ $c=2d+k$
 
 ** **iic) *The line intersects the vertical axis at*
 
-`open parentheses 0 comma space 5 close parentheses`
+$( 0 , 5 )$
 
 > *For each kilometre, the cost increases by *$2$*.*
 *Start at point (0, 5), then find another point on the line by moving 2 units up for every 1 unit across.*
@@ -609,13 +609,13 @@ $5h+8p=80$
 
 > *Multiply the first equation by 5 to make the coefficients of *$h$* the same*
 
-`open parentheses 5 cross times 3 h close parentheses plus open parentheses 5 cross times 10 p close parentheses equals open parentheses 5 cross times 61 close parentheses`
+$( 5 \times 3 h ) + ( 5 \times 10 p ) = ( 5 \times 61 )$
 
 $15h+50p=305$
 
 > *Multiply the second equation by 3 to make the coefficients of *$h$* the same*
 
-*  *`open parentheses 3 cross times 5 h close parentheses plus open parentheses 3 cross times 8 p close parentheses equals open parentheses 3 cross times 80 close parentheses`
+*  *$( 3 \times 5 h ) + ( 3 \times 8 p ) = ( 3 \times 80 )$
 
 $15h+24p=240$
 
@@ -641,7 +641,7 @@ $p=65\div26=2.5$
 
 > *Substitute *$p=2.5$* into either of the two original equations and solve for *$h$
 
-`table row cell 3 h plus open parentheses 10 cross times 2.5 close parentheses end cell equals 61 end table`
+$\begin{gathered} 3 h + ( 10 \times 2.5 ) & = 61 \end{gathered}$
 
 $3h+25=61$
 

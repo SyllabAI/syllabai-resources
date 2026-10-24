@@ -10,7 +10,7 @@
 
 **Q1** [4 marks]
 
-A curve is given by `y equals ln open parentheses 1 plus x to the power of 4 close parentheses`.
+A curve is given by $y = \ln ( 1 + x^{4} )$.
 
 Use calculus to find the approximate change in $y$ as $x$ increases from $-1$ to $-1+k$ where $k$ is small.
 
@@ -24,11 +24,11 @@ A sector from a circle of radius $r$ has an internal angle of $θ$ radians, as s
 
 The perimeter of the sector is 4 units and the area of the sector is $A$ square units.
 
-Show that `A equals fraction numerator 8 theta over denominator open parentheses 2 plus theta close parentheses squared end fraction`.
+Show that $A = \frac{8 \\theta }{( 2 + \\theta )^{2}}$.
 
 **Q2** [3 marks]
 
-Show that `fraction numerator straight d A over denominator straight d theta end fraction equals fraction numerator p open parentheses q minus theta close parentheses over denominator open parentheses 2 plus theta close parentheses cubed end fraction` where $p$ and $q$ are constants to be found.
+Show that $\frac{ \mathrm{d} A}{ \mathrm{d} \\theta } = \frac{p ( q - \\theta )}{( 2 + \\theta )^{3}}$ where $p$ and $q$ are constants to be found.
 
 **Q2** [4 marks]
 
@@ -38,19 +38,19 @@ Find the maximum area of the sector. You must show that this area is a maximum.
 
 **Q3** [2 marks]
 
-A curve has the equation `y equals straight e to the power of open parentheses 4 x minus x squared close parentheses end exponent`.
+A curve has the equation $y = \mathrm{e}^{( 4 x - x^{2} )}$.
 
 Find and factorise an expression for $\frac{dy}{dx}$.
 
 **Q3** [2 marks]
 
-Hence find `integral fraction numerator open parentheses 2 minus x close parentheses straight e to the power of 4 x end exponent over denominator straight e to the power of x squared end exponent end fraction straight d x`.
+Hence find $\int \frac{( 2 - x ) \mathrm{e}^{4 x} }{ \mathrm{e}^{x^{2}} } \mathrm{d} x$.
 
 **Q3** [4 marks]
 
-Show that the second derivative of the curve `y equals straight e to the power of open parentheses 4 x minus x squared close parentheses end exponent` satisfies the relationship
+Show that the second derivative of the curve $y = \mathrm{e}^{( 4 x - x^{2} )}$ satisfies the relationship
 
-`fraction numerator straight d squared y over denominator straight d x squared end fraction equals open parentheses p plus q x plus r x squared close parentheses y`
+$\frac{ \mathrm{d}^{2} y}{ \mathrm{d} x^{2}} = ( p + q x + r x^{2} ) y$
 
 where $p$, $q$ and $r$ are constants to be found.
 
@@ -68,7 +68,7 @@ Find the exact rate at which the radius is increasing when the sphere reaches a 
 
 A curve has equation $y=(2x-1)\sqrt{4x+3}$.
 
-Show that `fraction numerator straight d y over denominator straight d x end fraction equals fraction numerator 4 open parentheses A x plus B close parentheses over denominator square root of 4 x plus 3 end root end fraction`, where $A$ and $B$ are constants.
+Show that $\frac{ \mathrm{d} y}{ \mathrm{d} x} = \frac{4 ( A x + B )}{ \sqrt{4 x + 3} }$, where $A$ and $B$ are constants.
 
 *Source: Nov 2020 0606/12 Q9A*
 
@@ -116,7 +116,7 @@ Find the exact coordinates of the stationary point of the curve.
 
 **Q6** [5 marks]
 
-Find `fraction numerator straight d over denominator straight d x end fraction open parentheses 16 minus x squared close parentheses to the power of 3 over 2 end exponent`and hence evaluate the area enclosed by the curve $y=x\sqrt{16-x^{2}}$ and the lines $y=0,x=1\mathrm{and}x=3$.
+Find $\frac{ \mathrm{d} }{ \mathrm{d} x} ( 16 - x^{2} )^{ \frac{3}{2} }$and hence evaluate the area enclosed by the curve $y=x\sqrt{16-x^{2}}$ and the lines $y=0,x=1\mathrm{and}x=3$.
 
 *Source: Nov 2020 0606/21 Q11B*
 
@@ -179,7 +179,7 @@ Find the value of $x$ for which $\frac{dy}{dx}=-\frac{1}{2}$.
 
 **Q9** [5 marks]
 
-Given that `y equals open parentheses x squared minus 1 close parentheses square root of 5 x plus 2 end root`, show that $\frac{dy}{dx}=\frac{Ax^{2}+Bx+C}{2\sqrt{5x+2}}$, where $A,B$ and $C$ are integers.
+Given that $y = ( x^{2} - 1 ) \sqrt{5 x + 2}$, show that $\frac{dy}{dx}=\frac{Ax^{2}+Bx+C}{2\sqrt{5x+2}}$, where $A,B$ and $C$ are integers.
 
 *Source: june 2020 0606/12 Q7A*
 
@@ -192,7 +192,7 @@ Given that y equals open parentheses x squared minus 1 close parentheses square 
 
 The derivative is: fraction numerator straight d y over denominator straight d x end fraction equals fraction numerator 25 x squared plus 8 x minus 5 over denominator 2 square root of 5 x plus 2 end root end fraction
 
-Find the coordinates of the stationary point of the curve `y equals open parentheses x squared minus 1 close parentheses square root of 5 x plus 2 end root space for space x greater than 0`. Give each coordinate correct to 2 significant figures.
+Find the coordinates of the stationary point of the curve $y = ( x^{2} - 1 ) \sqrt{5 x + 2} \text{for} x > 0$. Give each coordinate correct to 2 significant figures.
 
 *Source: june 2020 0606/12 Q7B*
 
@@ -303,7 +303,7 @@ The volume, $V$, of a sphere of radius $r$ is given by $V=\frac{4}{3}\mathrm{πr
 
 **Q15** [6 marks]
 
-The tangent to the curve `y equals ln open parentheses 3 x squared minus 4 close parentheses minus x cubed over 6`, at the point where $x=2$, meets the $y$-axis at the point $P$. Find the exact coordinates of $P$.
+The tangent to the curve $y = \ln ( 3 x^{2} - 4 ) - \frac{x^{3}}{6}$, at the point where $x=2$, meets the $y$-axis at the point $P$. Find the exact coordinates of $P$.
 
 *Source: March 2020 Paper 12 Q4*
 
@@ -330,7 +330,7 @@ Variables $x$ and $y$ are such that $y=\frac{e^{3x}\mathrm{sin}x}{x^{2}}$ .Use d
 
 **Q18** [3 marks]
 
-Find the $x$-coordinate of the stationary point on the curve `y space equals open parentheses 2 minus space square root of 3 close parentheses x squared space plus space x minus 1`, giving your answer in the form $a+b\sqrt{3}$,where $a$ and $b$ are rational numbers.
+Find the $x$-coordinate of the stationary point on the curve $y = ( 2 - \sqrt{3} ) x^{2} + x - 1$, giving your answer in the form $a+b\sqrt{3}$,where $a$ and $b$ are rational numbers.
 
 *Source: june 2021 paper 11 Q8B*
 
@@ -354,7 +354,7 @@ In this question all lengths are in centimetres. The volume, $V$, of a cone of h
 
 The diagram shows a large hollow cone from which a smaller cone of height 180 and base radius 90 has been removed. The remainder has been fitted with a circular base of radius 90 to form a container for water. The depth of water in the container is w and the surface of the water is a circle of radius $R$.
 
-Find an expression for $R$ in terms of $w$ and show that the volume $V$ of the water in the container is given by `V equals space straight pi over 12 open parentheses w plus 180 close parentheses cubed space minus 486000 straight pi`.
+Find an expression for $R$ in terms of $w$ and show that the volume $V$ of the water in the container is given by `V = pi / 12 ( w + 180 ) ^3 - 486000 pi`.
 
 *Source: june 2020 0606/23 Q11A*
 
@@ -440,7 +440,7 @@ Differentiate $y=\mathrm{tan}(x+4)-3\mathrm{sin}x$ with respect to $x$.
 
 **Q24** [6 marks]
 
-Variables $x$ and $y$ are such that `y equals fraction numerator ln open parentheses 2 x plus 5 close parentheses over denominator 2 e to the power of 3 x end exponent end fraction`. Use differentiation to find the approximate change in $y$ as $x$ increases from $1\mathrm{to}1+h$, where $h$ is small.
+Variables $x$ and $y$ are such that $y = \frac{\ln ( 2 x + 5 )}{2 e^{3 x} }$. Use differentiation to find the approximate change in $y$ as $x$ increases from $1\mathrm{to}1+h$, where $h$ is small.
 
 *Source: june 2020 0606/23 Q8B*
 
@@ -460,7 +460,7 @@ A container is a circular cylinder, open at one end, with a base radius of $r$ c
 
 **Q26** [6 marks]
 
-A curve has equation `y equals fraction numerator ln open parentheses 3 x squared minus 5 close parentheses over denominator 2 x plus 1 end fraction space for space 3 x squared greater than 5`
+A curve has equation $y = \frac{\ln ( 3 x^{2} - 5 )}{2 x + 1} \text{for} 3 x^{2} > 5$
 
 Find the equation of the normal to the curve at the point where $x=\sqrt{2}$.
 
@@ -597,7 +597,7 @@ The diagram shows a solid cuboid with height $h$ and a rectangular base measurin
 
 **Q30** [6 marks]
 
-Find the equation of the tangent to the curve `y equals fraction numerator ln open parentheses 3 x squared minus 1 close parentheses over denominator x plus 2 end fraction` at the point where $x=1$. Give your answer in the form$y=mx+c$, where $m$ and $c$ are constants correct to 3 decimal places.
+Find the equation of the tangent to the curve $y = \frac{\ln ( 3 x^{2} - 1 )}{x + 2}$ at the point where $x=1$. Give your answer in the form$y=mx+c$, where $m$ and $c$ are constants correct to 3 decimal places.
 
 *Source: june 2020 0606/11 Q5*
 

@@ -148,9 +148,9 @@ Rearrange the wave speed equation for wavelength
 
 Use the intensity reflection coefficient equation:
 
-- Intensity reflection coefficient:  `I subscript R over I subscript 0 space equals space open parentheses Z subscript 1 space minus space Z subscript 2 close parentheses squared over open parentheses Z subscript 1 space plus space Z subscript 2 close parentheses squared`
-- Cyst:  `I subscript R over I subscript 0 space equals space open parentheses 1.629 cross times 10 to the power of 6 space minus space 1.601 cross times 10 to the power of 6 close parentheses squared over open parentheses 1.629 cross times 10 to the power of 6 space plus space 1.601 cross times 10 to the power of 6 close parentheses squared space equals space 7.5 cross times 10 to the power of negative 5 end exponent` **[1 mark]**
-- Tumour:  `I subscript R over I subscript 0 space equals space open parentheses 1.629 cross times 10 to the power of 6 space minus space 1.549 cross times 10 to the power of 6 close parentheses squared over open parentheses 1.629 cross times 10 to the power of 6 space plus space 1.549 cross times 10 to the power of 6 close parentheses squared space equals space 6.3 cross times 10 to the power of negative 4 end exponent` **[1 mark]**
+- Intensity reflection coefficient:  `I _ R / I _ 0 = ( Z _ 1 - Z _ 2 ) ^2 / ( Z _ 1 + Z _ 2 ) ^2`
+- Cyst:  `I _ R / I _ 0 = ( 1.629 x 10 ^ 6 - 1.601 x 10 ^ 6 ) ^2 / ( 1.629 x 10 ^ 6 + 1.601 x 10 ^ 6 ) ^2 = 7.5 x 10 ^ - 5` **[1 mark]**
+- Tumour:  `I _ R / I _ 0 = ( 1.629 x 10 ^ 6 - 1.549 x 10 ^ 6 ) ^2 / ( 1.629 x 10 ^ 6 + 1.549 x 10 ^ 6 ) ^2 = 6.3 x 10 ^ - 4` **[1 mark]**
 
 Compare the ratios to the ratio given in the question to identify the medium:
 
@@ -169,7 +169,7 @@ Calculate the length of the cyst:
 
 - The difference in times is due to the longer signal passing through the cyst, then reflecting
 - Length of cyst:  $d=\frac{1}{2}c\Deltat$
-- `d space equals space 1 half cross times 1570 cross times open parentheses 43.2 minus 27.5 close parentheses cross times 10 to the power of negative 6 end exponent` **[1 mark]**
+- $d = 1 \frac{1}{2} \times 1570 \times ( 43.2 - 27.5 ) \times 10^{- 6}$ **[1 mark]**
 - $d=0.01232m=1.2\mathrm{cm}$ **[1 mark]**
 
 **[Total: 6 marks]**
@@ -187,17 +187,17 @@ List the known quantities:
 Calculate the intensity of the X-ray beam at the cyst:
 
 - Intensity of a beam in tissue:  $I=I_{0}e^{-μx}$
-- `I space equals space open parentheses 4.6 space cross times space 10 cubed close parentheses e to the power of negative open parentheses 0.85 space cross times space 2.1 close parentheses end exponent space equals space 771.9 space straight W space straight m to the power of negative 2 end exponent` **[1 mark]**
+- $I = ( 4.6 \times 10^{3} ) e^{- ( 0.85 \times 2.1 )} = 771.9 \mathrm{W} \mathrm{m}^{- 2}$ **[1 mark]**
 
 Determine the cross-sectional area of the front surface of the cyst:
 
-- Cross-sectional area of the cyst:  `A space equals space straight pi r squared space equals space straight pi cross times open parentheses fraction numerator 0.012 over denominator 2 end fraction close parentheses squared` = 1.13 × 10<sup>–4</sup> m<sup>2</sup> **AND**
+- Cross-sectional area of the cyst:  $A = \mathrm{\pi } r^{2} = \mathrm{\pi } \times ( \frac{0.012}{2} )^{2}$ = 1.13 × 10<sup>–4</sup> m<sup>2</sup> **AND**
 - Assumption: the front surface is circular; **[1 mark]**
 
 Calculate the power and energy incident on the cyst:
 
 - Intensity of a wave:  $I=\frac{P}{A}\RightarrowP=IA$
-- Incident power:  `P space equals space 771.9 space cross times space open parentheses 1.13 space cross times space 10 to the power of negative 4 end exponent close parentheses space equals space 0.087 space straight W`
+- Incident power:  $P = 771.9 \times ( 1.13 \times 10^{- 4} ) = 0.087 \mathrm{W}$
 - Energy transferred each second:  $E=Pt=0.087J$ **[1 mark]**
 
 **[Total: 3 marks]**
@@ -216,14 +216,14 @@ List the known quantities:
 Use the attenuation equation:
 
 - X-ray attenuation:  $I=I_{0}e^{-μx}$
-- Final intensity of beam X:  `I subscript straight X space equals space open parentheses 4.6 cross times 10 cubed close parentheses space e to the power of negative 0.85 cross times 4.8 end exponent`
-- Final intensity of beam Y:  `I subscript straight Y space equals space open parentheses 4.6 cross times 10 cubed close parentheses space open square brackets open parentheses e to the power of negative 0.85 cross times 2.1 end exponent close parentheses open parentheses e to the power of negative 1.2 mu end exponent close parentheses open parentheses e to the power of negative 0.85 cross times open parentheses 4.8 minus 1.2 minus 2.1 close parentheses end exponent close parentheses close square brackets` **[1 mark]**
+- Final intensity of beam X:  $I_{X} = ( 4.6 \times 10^{3} ) e^{- 0.85 \times 4.8}$
+- Final intensity of beam Y:  $I_{Y} = ( 4.6 \times 10^{3} ) [ ( e^{- 0.85 \times 2.1} ) ( e^{- 1.2 \\mu } ) ( e^{- 0.85 \times ( 4.8 - 1.2 - 2.1 )} ) ]$ **[1 mark]**
 
 Substitute into the ratio given in the question:
 
 - Ratio of the emergent intensities:  $\frac{I_{Y}}{I_{X}}=0.94$
-- Substitute:  `fraction numerator open parentheses 4.6 cross times 10 cubed close parentheses space open square brackets open parentheses e to the power of negative 0.85 cross times 2.1 end exponent close parentheses open parentheses e to the power of negative 1.2 mu end exponent close parentheses open parentheses e to the power of negative 0.85 cross times open parentheses 4.8 minus 1.2 minus 2.1 close parentheses end exponent close parentheses close square brackets over denominator open parentheses 4.6 cross times 10 cubed close parentheses space e to the power of negative 0.85 cross times 4.8 end exponent end fraction space equals space 0.94` **[1 mark]**
-- Simplify:  `e to the power of 0.85 open parentheses 4.8 minus 2.1 minus 1.5 close parentheses minus 1.2 mu end exponent space equals space 0.94 space space space space space rightwards double arrow space space space space space e to the power of 1.02 minus 1.2 mu end exponent space equals space 0.94`
+- Substitute:  $\frac{( 4.6 \times 10^{3} ) [ ( e^{- 0.85 \times 2.1} ) ( e^{- 1.2 \\mu } ) ( e^{- 0.85 \times ( 4.8 - 1.2 - 2.1 )} ) ]}{( 4.6 \times 10^{3} ) e^{- 0.85 \times 4.8} } = 0.94$ **[1 mark]**
+- Simplify:  $e^{0.85 ( 4.8 - 2.1 - 1.5 ) - 1.2 \\mu } = 0.94 \Leftrightarrow e^{1.02 - 1.2 \\mu } = 0.94$
 - Take natural logs:  $1.02-1.2μ=\mathrm{ln}0.94\Rightarrowμ=\frac{1.02-\mathrm{ln}0.94}{1.2}$
 - Attenuation coefficient of cyst:  $μ$ = 0.90 cm<sup>–1</sup> **[1 mark]**
 
@@ -253,7 +253,7 @@ For the ultrasound image...
 - The positive / negative charges are attracted to the negative / positive terminal **OR** charges in the lattice (of the PZT crystal) separate; **[1 mark]**
 - The movement of the central positive charge (along the central axis) causes the PZT crystal to deform / change shape / expand and contract; **[1 mark]**
 - When the p.d. changes direction, the central positive charge moves in the opposite direction, causing the crystal to deform (in the opposite direction); **[1 mark]**
-- The repeated crystal deformations lead to oscillations **OR** demonstrate on diagram e.g. `open parentheses 1 close parentheses space space stack rightwards arrow space with e x p a n d i n g on top space open parentheses 2 close parentheses space space stack rightwards arrow space with c o n t r a c t i n g on top space open parentheses 1 close parentheses space space stack rightwards arrow space with e x p a n d i n g on top space open parentheses 3 close parentheses space space stack rightwards arrow space with c o n t r a c t i n g on top space open parentheses 1 close parentheses` **[1 mark]**
+- The repeated crystal deformations lead to oscillations **OR** demonstrate on diagram e.g. `( 1 ) -> with e x p a n d i n g on top ( 2 ) -> with c o n t r a c t i n g on top ( 1 ) -> with e x p a n d i n g on top ( 3 ) -> with c o n t r a c t i n g on top ( 1 )` **[1 mark]**
 - The alternating p.d. causes the crystal to oscillate at the same frequency (as the applied field); **[1 mark]**
 - The oscillations are transferred to the surrounding air molecules to produce ultrasound (if frequency >20 000 Hz); **[1 mark]** ![24-1-1a-h-24-1-h-piezoelectric-ma](assets/005-24-1-1a-h-24-1-h-piezoelectric-ma.png)
 
@@ -303,7 +303,7 @@ List the known quantities:
 Calculate the thickness of the lens:
 
 - Lens thickness = $\frac{1}{2}c_{lens}\Deltat$ **[1 mark]**
-- Lens thickness = `1 half cross times 1670 cross times open parentheses 5.5 cross times 10 to the power of negative 6 end exponent close parentheses`
+- Lens thickness = $1 \frac{1}{2} \times 1670 \times ( 5.5 \times 10^{- 6} )$
 - Lens thickness = 4.59 × 10<sup>–3</sup> m = 4.6 mm **[1 mark]**
 
 (ii) Calculate the thickness of the eye :
@@ -316,9 +316,9 @@ Calculate the thickness of the lens:
 Calculate the distances before and after the lens:
 
 - Distance **A** → **L**<sub>**1**</sub> = $\frac{1}{2}c_{eye}\Deltat_{A}$
-- Distance **A** → **L**<sub>**1**</sub> = `1 half cross times 1520 cross times open parentheses 3.0 cross times 10 to the power of negative 6 end exponent close parentheses space equals space 2.28 cross times 10 to the power of negative 3 end exponent space straight m` **[1 mark]**
+- Distance **A** → **L**<sub>**1**</sub> = $1 \frac{1}{2} \times 1520 \times ( 3.0 \times 10^{- 6} ) = 2.28 \times 10^{- 3} \mathrm{m}$ **[1 mark]**
 - Distance **L**<sub>**2**</sub> → **B** = $\frac{1}{2}c_{eye}\Deltat_{B}$
-- Distance **L**<sub>**2**</sub> → **B** = `1 half cross times 1520 cross times open parentheses 17.5 cross times 10 to the power of negative 6 end exponent close parentheses space equals space 1.33 cross times 10 to the power of negative 2 end exponent space straight m` **[1 mark]**
+- Distance **L**<sub>**2**</sub> → **B** = $1 \frac{1}{2} \times 1520 \times ( 17.5 \times 10^{- 6} ) = 1.33 \times 10^{- 2} \mathrm{m}$ **[1 mark]**
 
 Calculate the thickness of the eye:
 
@@ -344,9 +344,9 @@ List the known quantities:
 
 Calculate the intensity reflection coefficient at each boundary:
 
-- Intensity reflection coefficient:  `I subscript R over I subscript 0 space equals space open parentheses Z subscript 1 space minus space Z subscript 2 close parentheses squared over open parentheses Z subscript 1 space plus space Z subscript 2 close parentheses squared`
-- Eye-lens boundary:  `I subscript R over I subscript 0 space equals space open parentheses 1.84 cross times 10 to the power of 6 space minus space 1.52 cross times 10 to the power of 6 close parentheses squared over open parentheses 1.84 cross times 10 to the power of 6 space plus space 1.52 cross times 10 to the power of 6 close parentheses squared space equals space 9.1 cross times 10 to the power of negative 3 end exponent` **[1 mark]**
-- Eye-tissue boundary:  `I subscript R over I subscript 0 space equals space open parentheses 1.69 cross times 10 to the power of 6 space minus space 1.52 cross times 10 to the power of 6 close parentheses squared over open parentheses 1.69 cross times 10 to the power of 6 space plus space 1.52 cross times 10 to the power of 6 close parentheses squared space equals space 2.8 cross times 10 to the power of negative 3 end exponent` **[1 mark]**
+- Intensity reflection coefficient:  `I _ R / I _ 0 = ( Z _ 1 - Z _ 2 ) ^2 / ( Z _ 1 + Z _ 2 ) ^2`
+- Eye-lens boundary:  `I _ R / I _ 0 = ( 1.84 x 10 ^ 6 - 1.52 x 10 ^ 6 ) ^2 / ( 1.84 x 10 ^ 6 + 1.52 x 10 ^ 6 ) ^2 = 9.1 x 10 ^ - 3` **[1 mark]**
+- Eye-tissue boundary:  `I _ R / I _ 0 = ( 1.69 x 10 ^ 6 - 1.52 x 10 ^ 6 ) ^2 / ( 1.69 x 10 ^ 6 + 1.52 x 10 ^ 6 ) ^2 = 2.8 x 10 ^ - 3` **[1 mark]**
 
 Determine the total energy lost by reflection between A and B:
 
@@ -407,7 +407,7 @@ Determine the linear attenuation coefficient:
 
 - Attenuation of ultrasound:  $I=I_{0}e^{-μx}$ **[1 mark]**
 - $0.75I_{0}=I_{0}e^{-9.4μ}\Rightarrow0.75=e^{-9.4μ}$ **[1 mark]**
-- `ln space open parentheses 0.75 close parentheses space equals space minus 9.4 mu space space space space space rightwards double arrow space space space space space mu space equals space minus fraction numerator ln space open parentheses 0.75 close parentheses over denominator 9.4 end fraction`
+- $\ln ( 0.75 ) = - 9.4 \\mu \Leftrightarrow \\mu = - \frac{\ln ( 0.75 )}{9.4}$
 - μ = 0.0306 = 0.03 cm<sup>–1</sup> **[1 mark]**
 
 Conclusion:
@@ -504,17 +504,17 @@ List the known quantities:
 
 (i) Calculate the % transmitted into the skin for the air−skin boundary:
 
-- Intensity reflection equation:  `I subscript R over I subscript 0 space equals space open parentheses Z subscript 1 space minus space Z subscript 2 close parentheses squared over open parentheses Z subscript 1 space plus space Z subscript 2 close parentheses squared`
-- `I subscript R over I subscript 0 space equals space open parentheses Z subscript s space minus space Z subscript a close parentheses squared over open parentheses Z subscript s space plus space Z subscript a close parentheses squared space equals space open parentheses 1.65 cross times 10 to the power of 6 space minus space 4.29 cross times 10 squared close parentheses squared over open parentheses 1.65 cross times 10 to the power of 6 space plus space 4.29 cross times 10 squared close parentheses squared`
+- Intensity reflection equation:  `I _ R / I _ 0 = ( Z _ 1 - Z _ 2 ) ^2 / ( Z _ 1 + Z _ 2 ) ^2`
+- `I _ R / I _ 0 = ( Z _ s - Z _ a ) ^2 / ( Z _ s + Z _ a ) ^2 = ( 1.65 x 10 ^ 6 - 4.29 x 10 ^2 ) ^2 / ( 1.65 x 10 ^ 6 + 4.29 x 10 ^2 ) ^2`
 - Fraction reflected:  $\frac{I_{R}}{I_{0}}$ = 0.99896 **[1 mark]**
 - % transmitted = (1 − 0.99896) × 100% = 0.1% **[1 mark]**
 
 (ii) Calculate the % transmitted into the skin for the gel−skin boundary:
 
-- `I subscript R over I subscript 0 space equals space open parentheses Z subscript s space minus space Z subscript g close parentheses squared over open parentheses Z subscript s space plus space Z subscript g close parentheses squared space equals space open parentheses 1.65 cross times 10 to the power of 6 space minus space 1.48 cross times 10 to the power of 6 close parentheses squared over open parentheses 1.65 cross times 10 to the power of 6 space plus space 1.48 cross times 10 to the power of 6 close parentheses squared`
+- `I _ R / I _ 0 = ( Z _ s - Z _ g ) ^2 / ( Z _ s + Z _ g ) ^2 = ( 1.65 x 10 ^ 6 - 1.48 x 10 ^ 6 ) ^2 / ( 1.65 x 10 ^ 6 + 1.48 x 10 ^ 6 ) ^2`
 - Fraction reflected:  $\frac{I_{R}}{I_{0}}$ = 2.9499 × 10<sup>–3</sup> **[1 mark]**
 - % transmitted = (1 − 2.9499 × 10<sup>–3</sup>) × 100% = 99.7% **[1 mark]**
 
 **[Total: 4 marks]**
 
-> *Since the equation has the difference in acoustic impedance **squared**, it doesn't actually matter which boundary you use as **Z*<sub>*1*</sub>* and **Z*<sub>*2*</sub>* , as *`open parentheses Z subscript 2 space minus space Z subscript 1 close parentheses squared space equals space open parentheses Z subscript 1 space minus space Z subscript 2 close parentheses squared`*. Therefore, focus on making sure you've put in the correct numbers into your calculator and **squared** them too, as this is easy to forget!*
+> *Since the equation has the difference in acoustic impedance **squared**, it doesn't actually matter which boundary you use as **Z*<sub>*1*</sub>* and **Z*<sub>*2*</sub>* , as *$( Z_{2} - Z_{1} )^{2} = ( Z_{1} - Z_{2} )^{2}$*. Therefore, focus on making sure you've put in the correct numbers into your calculator and **squared** them too, as this is easy to forget!*

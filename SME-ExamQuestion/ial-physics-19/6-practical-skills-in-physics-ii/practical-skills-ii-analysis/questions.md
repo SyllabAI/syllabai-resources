@@ -362,7 +362,7 @@ Mean value of *x* = ............................ mm ± ........................m
 ### 4((c)) — 11 marks — command: multiple — structured — from paper 2021 June · WPH16/01
 The refractive index $n$ of the material of the lens can be determined using
 
-`n equals 1 plus fraction numerator d squared plus open parentheses t minus x close parentheses squared over denominator 8 f open parentheses t minus x close parentheses end fraction`
+$n = 1 + \frac{d^{2} + ( t - x )^{2}}{8 f ( t - x )}$
 
 where *f*$f$* *is the focal length of the lens.
 
@@ -376,11 +376,11 @@ $f$ = 9.8 cm ± 0.3 cm
 
 n = .......................................................**(2)**
 
-ii) Show that the percentage uncertainty in `open parentheses t minus x close parentheses` is approximately 0.5 %.
+ii) Show that the percentage uncertainty in $( t - x )$ is approximately 0.5 %.
 
 **(2)**
 
-iii) Show that the uncertainty in `d squared plus open parentheses t minus x close parentheses squared` is approximately 0.11 cm.
+iii) Show that the uncertainty in $d^{2} + ( t - x )^{2}$ is approximately 0.11 cm.
 
 **(4)**
 

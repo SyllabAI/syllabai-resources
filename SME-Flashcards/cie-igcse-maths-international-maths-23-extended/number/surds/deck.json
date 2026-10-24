@@ -102,17 +102,17 @@
    "front_blocks": [
     {
      "type": "paragraph",
-     "md": "**Simplify **`open parentheses square root of a close parentheses squared`."
+     "md": "**Simplify **$( \\sqrt{a} )^{2}$."
     }
    ],
    "back_blocks": [
     {
      "type": "paragraph",
-     "md": "`open parentheses square root of a close parentheses squared` **simplifies **to $a$."
+     "md": "$( \\sqrt{a} )^{2}$ **simplifies **to $a$."
     }
    ],
-   "front_md": "**Simplify **`open parentheses square root of a close parentheses squared`.\n",
-   "back_md": "`open parentheses square root of a close parentheses squared` **simplifies **to $a$.\n",
+   "front_md": "**Simplify **$( \\sqrt{a} )^{2}$.\n",
+   "back_md": "$( \\sqrt{a} )^{2}$ **simplifies **to $a$.\n",
    "spec_links": [],
    "flags": []
   },
@@ -226,7 +226,7 @@
     },
     {
      "type": "paragraph",
-     "md": "E.g. `open parentheses 2 plus square root of 3 close parentheses open parentheses 4 plus square root of 2 close parentheses`"
+     "md": "E.g. $( 2 + \\sqrt{3} ) ( 4 + \\sqrt{2} )$"
     }
    ],
    "back_blocks": [
@@ -236,11 +236,11 @@
     },
     {
      "type": "paragraph",
-     "md": "E.g. `table row blank blank cell open parentheses 2 plus square root of 3 close parentheses open parentheses 4 plus square root of 2 close parentheses end cell end table`\n`table row blank equals cell 2 cross times 4 plus 2 cross times square root of 2 plus square root of 3 cross times 4 plus square root of 3 cross times square root of 2 end cell row blank equals cell 8 plus 2 square root of 2 plus 4 square root of 3 plus square root of 6 end cell end table`"
+     "md": "E.g. $\\begin{gathered} ( 2 + \\sqrt{3} ) ( 4 + \\sqrt{2} ) \\end{gathered}$\n$\\begin{gathered} = 2 \\times 4 + 2 \\times \\sqrt{2} + \\sqrt{3} \\times 4 + \\sqrt{3} \\times \\sqrt{2} \\\\ = 8 + 2 \\sqrt{2} + 4 \\sqrt{3} + \\sqrt{6} \\end{gathered}$"
     }
    ],
-   "front_md": "How do you **expand two brackets** with expressions containing surds?\n\nE.g. `open parentheses 2 plus square root of 3 close parentheses open parentheses 4 plus square root of 2 close parentheses`\n",
-   "back_md": "To **expand two brackets** with expressions containing surds, you **multiply each term **in one bracket **by each term** in the other bracket.\n\nE.g. `table row blank blank cell open parentheses 2 plus square root of 3 close parentheses open parentheses 4 plus square root of 2 close parentheses end cell end table`\n`table row blank equals cell 2 cross times 4 plus 2 cross times square root of 2 plus square root of 3 cross times 4 plus square root of 3 cross times square root of 2 end cell row blank equals cell 8 plus 2 square root of 2 plus 4 square root of 3 plus square root of 6 end cell end table`\n",
+   "front_md": "How do you **expand two brackets** with expressions containing surds?\n\nE.g. $( 2 + \\sqrt{3} ) ( 4 + \\sqrt{2} )$\n",
+   "back_md": "To **expand two brackets** with expressions containing surds, you **multiply each term **in one bracket **by each term** in the other bracket.\n\nE.g. $\\begin{gathered} ( 2 + \\sqrt{3} ) ( 4 + \\sqrt{2} ) \\end{gathered}$\n$\\begin{gathered} = 2 \\times 4 + 2 \\times \\sqrt{2} + \\sqrt{3} \\times 4 + \\sqrt{3} \\times \\sqrt{2} \\\\ = 8 + 2 \\sqrt{2} + 4 \\sqrt{3} + \\sqrt{6} \\end{gathered}$\n",
    "spec_links": [],
    "flags": []
   },
@@ -256,7 +256,7 @@
     },
     {
      "type": "paragraph",
-     "md": "`open parentheses a plus square root of b close parentheses squared equals a squared plus b`."
+     "md": "$( a + \\sqrt{b} )^{2} = a^{2} + b$."
     }
    ],
    "back_blocks": [
@@ -266,19 +266,19 @@
     },
     {
      "type": "paragraph",
-     "md": "`open parentheses a plus square root of b close parentheses squared not equal to a squared plus b`."
+     "md": "$( a + \\sqrt{b} )^{2} \\text{eq} a^{2} + b$."
     },
     {
      "type": "paragraph",
-     "md": "You need to **expand **using **double brackets**, `open parentheses a plus square root of b close parentheses open parentheses a plus square root of b close parentheses`."
+     "md": "You need to **expand **using **double brackets**, $( a + \\sqrt{b} ) ( a + \\sqrt{b} )$."
     },
     {
      "type": "paragraph",
      "md": "This expands and simplifies to $a^{2}+b+2a\\sqrt{b}$."
     }
    ],
-   "front_md": "**True or False?**\n\n`open parentheses a plus square root of b close parentheses squared equals a squared plus b`.\n",
-   "back_md": "**False.**\n\n`open parentheses a plus square root of b close parentheses squared not equal to a squared plus b`.\n\nYou need to **expand **using **double brackets**, `open parentheses a plus square root of b close parentheses open parentheses a plus square root of b close parentheses`.\n\nThis expands and simplifies to $a^{2}+b+2a\\sqrt{b}$.\n",
+   "front_md": "**True or False?**\n\n$( a + \\sqrt{b} )^{2} = a^{2} + b$.\n",
+   "back_md": "**False.**\n\n$( a + \\sqrt{b} )^{2} \\text{eq} a^{2} + b$.\n\nYou need to **expand **using **double brackets**, $( a + \\sqrt{b} ) ( a + \\sqrt{b} )$.\n\nThis expands and simplifies to $a^{2}+b+2a\\sqrt{b}$.\n",
    "spec_links": [],
    "flags": []
   },
@@ -290,21 +290,21 @@
    "front_blocks": [
     {
      "type": "paragraph",
-     "md": "**Simplify **`open parentheses a plus square root of b close parentheses open parentheses a minus square root of b close parentheses`."
+     "md": "**Simplify **$( a + \\sqrt{b} ) ( a - \\sqrt{b} )$."
     }
    ],
    "back_blocks": [
     {
      "type": "paragraph",
-     "md": "`open parentheses a plus square root of b close parentheses open parentheses a minus square root of b close parentheses` **simplifies **to $a^{2}-b$."
+     "md": "$( a + \\sqrt{b} ) ( a - \\sqrt{b} )$ **simplifies **to $a^{2}-b$."
     },
     {
      "type": "paragraph",
      "md": "This is an example of the **difference of two squares**."
     }
    ],
-   "front_md": "**Simplify **`open parentheses a plus square root of b close parentheses open parentheses a minus square root of b close parentheses`.\n",
-   "back_md": "`open parentheses a plus square root of b close parentheses open parentheses a minus square root of b close parentheses` **simplifies **to $a^{2}-b$.\n\nThis is an example of the **difference of two squares**.\n",
+   "front_md": "**Simplify **$( a + \\sqrt{b} ) ( a - \\sqrt{b} )$.\n",
+   "back_md": "$( a + \\sqrt{b} ) ( a - \\sqrt{b} )$ **simplifies **to $a^{2}-b$.\n\nThis is an example of the **difference of two squares**.\n",
    "spec_links": [],
    "flags": []
   },
@@ -462,17 +462,17 @@
    "front_blocks": [
     {
      "type": "paragraph",
-     "md": "To** rationalise a denominator **`open parentheses p plus square root of q close parentheses`, you **multiply **the **numerator **and the **denominator **by what expression?"
+     "md": "To** rationalise a denominator **$( p + \\sqrt{q} )$, you **multiply **the **numerator **and the **denominator **by what expression?"
     }
    ],
    "back_blocks": [
     {
      "type": "paragraph",
-     "md": "To** rationalise a denominator** `open parentheses p plus square root of q close parentheses`, you **multiply **the **numerator **and the **denominator **by `open parentheses p minus square root of q close parentheses`."
+     "md": "To** rationalise a denominator** $( p + \\sqrt{q} )$, you **multiply **the **numerator **and the **denominator **by $( p - \\sqrt{q} )$."
     }
    ],
-   "front_md": "To** rationalise a denominator **`open parentheses p plus square root of q close parentheses`, you **multiply **the **numerator **and the **denominator **by what expression?\n",
-   "back_md": "To** rationalise a denominator** `open parentheses p plus square root of q close parentheses`, you **multiply **the **numerator **and the **denominator **by `open parentheses p minus square root of q close parentheses`.\n",
+   "front_md": "To** rationalise a denominator **$( p + \\sqrt{q} )$, you **multiply **the **numerator **and the **denominator **by what expression?\n",
+   "back_md": "To** rationalise a denominator** $( p + \\sqrt{q} )$, you **multiply **the **numerator **and the **denominator **by $( p - \\sqrt{q} )$.\n",
    "spec_links": [],
    "flags": []
   }

@@ -67,7 +67,7 @@ Show that the average translational kinetic energy is $E_{K}=\frac{3}{2}kT$:
 
 - Ideal gas equation:  $pV=NkT$  and  $pV=\frac{1}{3}Nm<c^{2}>$
 - ∴ $NkT=\frac{1}{3}Nm<c^{2}>$ **[1 mark]**
-- `up diagonal strike N k T space equals space 1 third up diagonal strike N m less than c squared greater than space space space space space rightwards double arrow space space space space space 3 k T space equals space m less than c squared greater than`
+- $\cancel{N} k T = 1 \frac{1}{3} \cancel{N} m < c^{2} > \Leftrightarrow 3 k T = m < c^{2} >$
 - Divide both sides by 2:  $\frac{3}{2}kT=\frac{1}{2}m<c^{2}>$ **[1 mark]**
 - $E_{K}=\frac{1}{2}m<c^{2}>$ therefore,** **$E_{K}=\frac{3}{2}kT$
 
@@ -90,8 +90,8 @@ Rearrange and substitute into the expression from **(b) **to find *u*:
 
 - $\frac{1}{2}m<c^{2}>=\frac{3}{2}kT\Rightarrowmu^{2}=3kT$
 - $mu^{2}=3kT\Rightarrowu=\sqrt{\frac{3kT}{m}}$
-- `u space equals space square root of fraction numerator 3 space cross times space open parentheses 1.38 space cross times space 10 to the power of negative 23 end exponent close parentheses space cross times space 293 over denominator open parentheses 4.65 space cross times space 10 to the power of negative 26 end exponent close parentheses end fraction end root` **[1 mark]**
-- `u space equals space 510.75 space straight m space straight s to the power of negative 1 end exponent space equals space 511 space straight m space straight s to the power of negative 1 end exponent space open parentheses 3 space straight s. straight f. close parentheses space`**[1 mark]**
+- $u = \sqrt{ \frac{3 \times ( 1.38 \times 10^{- 23} ) \times 293}{( 4.65 \times 10^{- 26} )} }$ **[1 mark]**
+- $u = 510.75 \mathrm{m} \mathrm{s}^{- 1} = 511 \mathrm{m} \mathrm{s}^{- 1} ( 3 \mathrm{s} . \mathrm{f} . )$**[1 mark]**
 
 **[Total: 3 marks]**
 
@@ -111,7 +111,7 @@ The graph of pressure with the r.m.s. speed is as follows:
 Consider the change in momentum of the molecule as it hits the wall perpendicularly:
 
 - Change in momentum = momentum after − momentum before
-- `increment p space equals space minus m c space minus space open parentheses plus m c close parentheses`
+- $\Delta p = - m c - ( + m c )$
 - $\Deltap=-2mc$** [1 mark]**
 
 **[Total: 1 mark]**
@@ -131,7 +131,7 @@ Obtain an expression for the time between collisions:
 (ii) Write an expression for the rate of change in momentum:
 
 - Rate of change of momentum:  $\frac{changeinmomentum}{timebetweencollisions}=\frac{\Deltap}{\Deltat}$ **[1 mark]**
-- Rate of change of momentum:  `fraction numerator increment p over denominator increment t end fraction space equals space fraction numerator 2 m c over denominator open parentheses fraction numerator 2 l over denominator c end fraction close parentheses end fraction space equals space fraction numerator m c squared over denominator l end fraction` **[1 mark]**
+- Rate of change of momentum:  $\frac{\Delta p}{\Delta t} = \frac{2 m c}{( \frac{2 l}{c} )} = \frac{m c^{2}}{l}$ **[1 mark]**
 
 **[Total: 4 marks]**
 The total pressure from the *N *particles in the box is:
@@ -142,7 +142,7 @@ The total pressure from the *N *particles in the box is:
 Obtain an expression for pressure and substitute for force and area:
 
 - Force = rate of change of momentum
-- `p r e s s u r e space equals space fraction numerator f o r c e over denominator a r e a end fraction space equals space fraction numerator open parentheses fraction numerator m c squared over denominator l end fraction close parentheses over denominator l squared end fraction` **[1 mark]**
+- $p r e s s u r e = \frac{f o r c e}{a r e a} = \frac{( \frac{m c^{2}}{l} )}{l^{2}}$ **[1 mark]**
 
 Obtain an expression that considers the different velocities of the molecules:
 
@@ -153,9 +153,9 @@ Obtain an expression that considers the different velocities of the molecules:
 **[Total: 4 marks]**
 Show that the kinetic theory of gases equation is $pV=\frac{1}{3}Nm<c^{2}>$:
 
-- Velocity components in 3 dimensions:  `c squared space equals space open parentheses c subscript x close parentheses squared space plus space open parentheses c subscript y close parentheses squared space plus open parentheses space c subscript z close parentheses squared`
-- Because of symmetry, it can be assumed that  `less than open parentheses c subscript x close parentheses squared greater than space equals space less than open parentheses c subscript y close parentheses squared greater than space equals space less than open parentheses space c subscript z close parentheses squared greater than`
-- Mean square speed:  `less than open parentheses c subscript x close parentheses squared greater than space equals space 1 third less than c squared greater than` **[1 mark]**
+- Velocity components in 3 dimensions:  $c^{2} = ( c_{x} )^{2} + ( c_{y} )^{2} + ( c_{z} )^{2}$
+- Because of symmetry, it can be assumed that  $< ( c_{x} )^{2} > = < ( c_{y} )^{2} > = < ( c_{z} )^{2} >$
+- Mean square speed:  $< ( c_{x} )^{2} > = 1 \frac{1}{3} < c^{2} >$ **[1 mark]**
 
 Consider the volume of the cube:
 
@@ -220,16 +220,16 @@ Calculate the mass of one molecule, $m$
 Calculate the RMS speed, $c_{rms}$
 
 - $c_{rms}=\sqrt{\frac{3kT}{m}}$
-- `c subscript r m s end subscript space equals space square root of fraction numerator 3 space cross times space open parentheses 1.38 cross times 10 to the power of negative 23 end exponent close parentheses space cross times space 282.15 over denominator 7.325 cross times 10 to the power of negative 26 end exponent end fraction end root`
+- $c_{r m s} = \sqrt{ \frac{3 \times ( 1.38 \times 10^{- 23} ) \times 282.15}{7.325 \times 10^{- 26} } }$
 - $c_{rms}=399.20ms^{-1}$ **[1 mark]**
 
 Compare to the measured value
 
 - Measured value = 399.00 m s<sup>-1</sup>
 - Calculated value = 399.20 m s<sup>-1</sup>
-- `percent sign space uncertainty space equals space fraction numerator calculated space velocity space minus space known space velocity space over denominator known space velocity space end fraction space cross times space 100`
-- `percent sign space uncertainty space equals space fraction numerator 399.20 space minus space 399.00 over denominator 399.00 end fraction space cross times space 100`
-- `percent sign space uncertainty space equals space 0.05 percent sign` **[1 mark]**
+- $\% \text{uncertainty} = \frac{calculated \text{velocity} - \text{known} \text{velocity} }{known \text{velocity} } \times 100$
+- $\% \text{uncertainty} = \frac{399.20 - 399.00}{399.00} \times 100$
+- $\% \text{uncertainty} = 0.05 \%$ **[1 mark]**
 - The difference between the theoretical and measured speeds is about 0.05%, which is much smaller than the 0.5% experimental uncertainty, therefore, the measured speed is consistent with the value predicted for an ideal gas; **[1 mark]**
 
 **[Total: 4 marks]**
@@ -254,7 +254,7 @@ The correct assumptions of kinetic theory are:
 **[Total: 5 marks]**
 The symbol for the mean square speed of molecules in an ideal gas is:
 
-- `open angle brackets c squared close angle brackets` **[1 mark]**
+- `< c ^2 >` **[1 mark]**
 
 **[Total: 1 mark]**
 The units for the mean square speed of the molecules in an ideal gas are:
@@ -266,15 +266,15 @@ Calculate the average root mean square speed of the particles travelling at the 
 
 Calculate the sum of the square of the velocities:
 
-- `sum from blank to blank of c squared space equals space 350 squared space plus space open parentheses negative 356 close parentheses squared space plus space 346 squared space plus space open parentheses negative 351 close parentheses squared space plus space 339 squared space equals space 607 space 074` **[1 mark]**
+- $\sum_{ }^{ } c^{2} = 350^{2} + ( - 356 )^{2} + 346^{2} + ( - 351 )^{2} + 339^{2} = 607 074$ **[1 mark]**
 
 Calculate the mean of the square of the velocities:
 
-- `open angle brackets c squared close angle brackets space equals space fraction numerator 607 space 074 over denominator 5 end fraction space equals space 121 space 415` **[1 mark]**
+- $( \text{angle} \text{brackets} c^{2} ) \text{angle} \text{brackets} = \frac{607 074}{5} = 121 415$ **[1 mark]**
 
 Calculate the root of the mean of the square of the velocities:
 
-- `square root of open angle brackets c squared close angle brackets end root space equals space square root of 121 space 415 end root space equals space 348 space straight m space straight s to the power of negative 1 end exponent` **[1 mark]**
+- $\sqrt{( \text{angle} \text{brackets} c^{2} ) \text{angle} brackets} = \sqrt{121 415} = 348 \mathrm{m} \mathrm{s}^{- 1}$ **[1 mark]**
 
 **[Total: 3 marks]**
 
@@ -283,7 +283,7 @@ Obtain an expression in terms of* F,* *n *and *T *for the height of the containe
 
 - Surface pressure:  $P=\frac{F}{A}$
 - Ideal gas equation:  $PV=nRT$
-- Combine the equations:  `open parentheses F over A close parentheses V space equals space n R T` **[1 mark]**
+- Combine the equations:  $( \frac{F}{A} ) V = n R T$ **[1 mark]**
 
 Substitute and rearrange the dimensions *l*, *h*, and *w *into the equation:
 
@@ -307,7 +307,7 @@ List the known quantities:
 Write expressions in terms of the ideal gas equation for the gas contained in A and B:
 
 - Gas in container A:  $P_{A}V_{A}=n_{A}RT_{A}$
-- Gas in container B:  `P subscript B V subscript B space equals space n subscript B R T subscript B space space space space space rightwards double arrow space space space space space open parentheses P subscript A over 4 close parentheses space cross times space open parentheses 5 V subscript A close parentheses space equals space open parentheses n subscript A over 2 close parentheses space R space cross times space 800` **[1 mark]**
+- Gas in container B:  `P _ B V _ B = n _ B R T _ B <-> ( P _ A / 4 ) x ( 5 V _ A ) = ( n _ A / 2 ) R x 800` **[1 mark]**
 - Simplify:  $\frac{5}{4}P_{A}V_{A}=400n_{A}R\RightarrowP_{A}V_{A}=320n_{A}R$
 
 Equate the equations in terms of *R *to find the temperature in container A:
@@ -320,7 +320,7 @@ Equate the equations in terms of *R *to find the temperature in container A:
 Calculate the average translational kinetic energy of the molecules in the gas of container A:
 
 - Average kinetic energy:  $E_{k}=\frac{3}{2}kT$
-- `E subscript k space equals space 3 over 2 space cross times space open parentheses 1.38 space cross times space 10 to the power of negative 23 end exponent close parentheses space cross times space 320`
+- $E_{k} = \frac{3}{2} \times ( 1.38 \times 10^{- 23} ) \times 320$
 - $E_{k}=6.624\times10^{-21}J$** [1 mark]**
 
 **[Total: 3 marks]**
@@ -338,7 +338,7 @@ List the known quantities:
 State the ideal gas equation, rearrange and substitute the known quantities:
 
 - $pV=nRT\Rightarrown=\frac{pV}{RT}$
-- `n space equals space fraction numerator open parentheses 2.1 space cross times space 10 to the power of 5 close parentheses space cross times space open parentheses 3.3 space cross times space 10 to the power of negative 3 end exponent close parentheses over denominator 8.31 space cross times space 297 end fraction` **[1 mark]**
+- $n = \frac{( 2.1 \times 10^{5 ) \times ( 3.3 \times 10^{-3} } )}{8.31 \times 297}$ **[1 mark]**
 - $n=0.28$ **[1 mark]**
 
 **[Total: 2 marks]**
@@ -354,8 +354,8 @@ Use the equation for the average kinetic energy of one molecule of a gas:
 
 - $\frac{1}{2}m<c^{2}>=\frac{3}{2}kT$ **[1 mark]**
 - $c=\sqrt{\frac{3kT}{m}}$
-- `c space equals space square root of fraction numerator 3 space cross times space open parentheses 1.38 space cross times space 10 to the power of negative 23 end exponent close parentheses space cross times space 297 over denominator open parentheses 4.98 space cross times space 10 to the power of negative 26 end exponent close parentheses end fraction end root` **[1 mark]**
-- `c space equals space 496.9 space straight m space straight s to the power of negative 1 end exponent space equals space 497 space straight m space straight s to the power of negative 1 end exponent space open parentheses 3 space straight s. straight f. close parentheses`** [1 mark]**
+- $c = \sqrt{ \frac{3 \times ( 1.38 \times 10^{- 23} ) \times 297}{( 4.98 \times 10^{- 26} )} }$ **[1 mark]**
+- $c = 496.9 \mathrm{m} \mathrm{s}^{- 1} = 497 \mathrm{m} \mathrm{s}^{- 1} ( 3 \mathrm{s} . \mathrm{f} . )$** [1 mark]**
 
 **[Total: 3 marks]**
 
@@ -403,13 +403,13 @@ Calculate the translational kinetic energy of one molecule in the gas, *E*<sub>*
 - The gas contains 3 moles, so *n *= 3
 - Each mole of gas contains Avogadro's number of molecules, *N*<sub>*A*</sub>
 - Therefore, the translational kinetic energy of one molecule in the gas is given by the equation: $E_{k}=\frac{E_{k-total}}{nN_{A}}$
-- `E subscript k space equals space fraction numerator 1 space cross times space 10 to the power of 4 space over denominator 3 space cross times space open parentheses 6.02 space cross times space 10 to the power of 23 close parentheses end fraction`
+- $E_{k} = \frac{1 \times 10^{4} }{3 \times ( 6.02 \times 10^{23} )}$
 - $E_{k}=5.537\times10^{-21}J$ **[1 mark]**
 
 Calculate the temperature of the gas:
 
 - Average kinetic energy:  $E_{k}=\frac{3}{2}kT\RightarrowT=\frac{2E_{k}}{3k}$
-- `T space equals space fraction numerator 2 E subscript k over denominator 3 k end fraction space equals space fraction numerator 2 space cross times space open parentheses 5.537 space cross times space 10 to the power of negative 21 end exponent close parentheses over denominator 3 cross times space open parentheses 1.38 space cross times space 10 to the power of negative 23 end exponent close parentheses end fraction space equals space 267.5 space straight K` **[1 mark]**
+- $T = \frac{2 E_{k} }{3 k} = \frac{2 \times ( 5.537 \times 10^{- 21} )}{3 \times ( 1.38 \times 10^{- 23} )} = 267.5 \mathrm{K}$ **[1 mark]**
 
 **[Total: 2 marks]**
 Calculate the magnitude of the impulse when a gas atom collides with the walls of the box:
@@ -424,14 +424,14 @@ List the known quantities:
 Calculate the mass of one molecule, *m*:
 
 - $m=\frac{M_{r}}{N_{A}}$
-- `m space equals space fraction numerator open parentheses 5.9 space cross times space 10 to the power of negative 3 end exponent close parentheses over denominator open parentheses 6.02 space cross times space 10 to the power of 23 close parentheses end fraction`
+- $m = \frac{( 5.9 \times 10^{- 3} )}{( 6.02 \times 10^{23} )}$
 - $m=9.8\times10^{-27}\mathrm{kg}$ **[1 mark]**
 
 Use the average translational kinetic energy of one molecule to calculate the average velocity, *c*:
 
-- `E subscript k space equals space 1 half m open angle brackets c squared close angle brackets space`
+- $E_{k} = 1 \frac{1}{2} m ( \text{angle} \text{brackets} c^{2} ) \text{angle} \text{brackets}$
 - $c=\sqrt{\frac{2E_{k}}{m}}$
-- `c space equals space square root of fraction numerator 2 space cross times space open parentheses 5.54 space cross times space 10 to the power of negative 21 end exponent close parentheses over denominator 9.8 space cross times space 10 to the power of negative 27 end exponent end fraction end root`
+- $c = \sqrt{ \frac{2 \times ( 5.54 \times 10^{- 21} )}{9.8 \times 10^{- 27} } }$
 - $c=1063ms^{-1}$ **[1 mark]**
 
 Calculate the magnitude of the impulse of the gas atoms:
@@ -463,12 +463,12 @@ List the known quantities:
 Calculate the new number of moles, *n*:
 
 - Ideal gas equation: $pV=nRT\Rightarrown=\frac{p_{2}V}{RT_{2}}$
-- `n space equals space fraction numerator open parentheses 1.22 space cross times space 10 to the power of 4 close parentheses space cross times space 0.819 over denominator 8.31 space cross times space 370 end fraction space equals 3.25 space space mol`** [1 mark]**
+- $n = \frac{( 1.22 \times 10^{4} ) \times 0.819}{8.31 \times 370} = 3.25 \text{mol}$** [1 mark]**
 
 Calculate *y*:
 
-- `y space equals space fraction numerator d i f f e r e n c e space i n space m o l e s over denominator o r i g i n a l space n u m b e r space o f space m o l e s end fraction space cross times 100 percent sign`
-- `y space equals space fraction numerator 3.25 space minus space 3 over denominator 3 end fraction space cross times space 100 space equals space 8.3 space percent sign`** [1 mark]**
+- $y = \frac{d i f f e r e n c e i n m o l e s}{o r i g i n a l n u m b e r o f m o l e s} \times 100 \%$
+- $y = \frac{3.25 - 3}{3} \times 100 = 8.3 \%$** [1 mark]**
 
 **[Total: 2 marks]**
 
@@ -499,8 +499,8 @@ A gas exerts a pressure on the sides of its container because:
 **[Total: 3 marks]**
 Calculate the r.m.s. of the four speeds:
 
-- Mean square speed:  `less than c squared greater than space equals space fraction numerator s u m space o f space open parentheses 4 space v a l u e s close parentheses squared over denominator 4 end fraction`
-- `less than c squared greater than space equals space fraction numerator open parentheses 1420 close parentheses squared plus open parentheses 1510 close parentheses squared plus open parentheses 1560 close parentheses squared plus open parentheses 1540 close parentheses squared over denominator 4 end fraction` **[1 mark]**
+- Mean square speed:  $< c^{2} > = \frac{s u m o f ( 4 v a l u e s )^{2}}{4}$
+- $< c^{2} > = \frac{( 1420 )^{2} + ( 1510 )^{2} + ( 1560 )^{2} + ( 1540 )^{2}}{4}$ **[1 mark]**
 - $<c^{2}>$ = 2.275 × 10<sup>6</sup> m<sup>2</sup> s<sup>−2</sup>** [1 mark]**
 
 Calculate the r.m.s. speed:
@@ -526,8 +526,8 @@ List the known quantities:
 Use the ideal gas equation to determine $T$:
 
 - $pV=nRT$ **[1 mark]**
-- `T space equals space fraction numerator p V over denominator n R end fraction space equals space fraction numerator open parentheses 5.6 space cross times space 10 to the power of 5 close parentheses space cross times space open parentheses 3.8 space cross times space 10 to the power of negative 2 end exponent close parentheses over denominator 5.12 space cross times space 8.31 end fraction`
-- `T space equals space 500.15 space straight K space equals space 500 space straight K space open parentheses 3 space s. f. close parentheses` **[1 mark]**
+- $T = \frac{p V}{n R} = \frac{( 5.6 \times 10^{5 ) \times ( 3.8 \times 10^{-2} } )}{5.12 \times 8.31}$
+- $T = 500.15 \mathrm{K} = 500 \mathrm{K} ( 3 s. f. )$ **[1 mark]**
 
 **[Total: 2 marks]**
 
@@ -536,7 +536,7 @@ Use the ideal gas equation to determine $T$:
 ### Q11
 The kinetic theory of gases equation is:
 
-- $pV=$**[1 mark] **`1 third N m open angle brackets c squared close angle brackets` **[1 mark]**
+- $pV=$**[1 mark] **$1 \frac{1}{3} N m ( \text{angle} \text{brackets} c^{2} ) \text{angle} \text{brackets}$ **[1 mark]**
 
 **[Total: 2 marks]**
 Calculate the average kinetic energy of the particles in the gas:

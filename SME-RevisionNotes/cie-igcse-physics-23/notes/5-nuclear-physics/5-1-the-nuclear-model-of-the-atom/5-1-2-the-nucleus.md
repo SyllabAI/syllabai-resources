@@ -179,7 +179,7 @@ $\mathrm{number} \mathrm{of} \mathrm{neutrons}=\mathrm{nucleon} \mathrm{number}-
 > 
 > | **A** | `Cl presubscript 17 presuperscript 35` and `Cl presubscript 18 presuperscript 35` |
 > |---|---|
-> | **B** | `straight U presubscript 92 presuperscript 238` and `straight U presubscript 92 presuperscript 235` |
+> | **B** | `U _ 92 ^ 238` and `U _ 92 ^ 235` |
 > | **C** | `C presubscript 6 presuperscript 12` and `C presubscript 8 presuperscript 14` |
 > | **D** | `O presubscript 8 presuperscript 16` and `N presubscript 7 presuperscript 14` |
 > 

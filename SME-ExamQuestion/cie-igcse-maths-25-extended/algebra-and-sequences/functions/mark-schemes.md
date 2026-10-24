@@ -10,15 +10,15 @@ The range of a function is the set of all output values that correspond to the i
 
 - Substitute the domain values in, one by one
 
-`table row cell straight f open parentheses negative 2 close parentheses end cell equals cell 2 open parentheses negative 2 close parentheses minus 7 end cell row blank equals cell negative 4 minus 7 end cell row blank equals cell negative 11 end cell end table`
+$\begin{gathered} \mathrm{f} ( - 2 ) & = 2 ( - 2 ) - 7 \\ = - 4 - 7 \\ = - 11 \end{gathered}$
 
-`table row cell straight f open parentheses 0 close parentheses end cell equals cell 2 open parentheses 0 close parentheses minus 7 end cell row blank equals cell 0 minus 7 end cell row blank equals cell negative 7 end cell end table`
+$\begin{gathered} \mathrm{f} ( 0 ) & = 2 ( 0 ) - 7 \\ = 0 - 7 \\ = - 7 \end{gathered}$
 
-`table row cell straight f open parentheses 5 close parentheses end cell equals cell 2 open parentheses 5 close parentheses minus 7 end cell row blank equals cell 10 minus 7 end cell row blank equals 3 end table`
+$\begin{gathered} \mathrm{f} ( 5 ) & = 2 ( 5 ) - 7 \\ = 10 - 7 \\ = 3 \end{gathered}$
 
 Those three values give the range
 
-`open curly brackets negative 11 comma space minus 7 comma space 3 close curly brackets`
+$\{ - 11 , - 7 , 3 \}$
 
 **[B1 B1]**
 
@@ -31,12 +31,12 @@ Those three values give the range
 > *Substitute *$x=\frac{1}{4}$* into the expression for *$g(x).$* *
 *Remember the brackets around the value.*
 
-`straight g open parentheses 1 fourth close parentheses equals 8 open parentheses 1 fourth close parentheses minus 5`
+$\mathrm{g} ( 1 \frac{1}{4} ) = 8 ( 1 \frac{1}{4} ) - 5$
 
 > *Work out the value using your calculator.*
 
 $g(\frac{1}{4})=-3$ **[1]**
-$\mathrm{ff}(2)$* means *`straight f open parentheses straight f left parenthesis 2 right parenthesis close parentheses`*.* 
+$\mathrm{ff}(2)$* means *$\mathrm{f} ( \mathrm{f} ( 2 ) )$*.* 
 *First work out *$f(2)$* by substituting *$x=2$* into *$f(x)$*.*
 
 $f(2)=\frac{3}{(2)+2}=0.75$
@@ -49,7 +49,7 @@ $\mathrm{ff}(2)=f(0.75)=\frac{3}{(0.75)+2}$
 
 $\mathrm{ff}(2)=\frac{12}{11}$ **[1]** 
 **Rounding to 3sf is also acceptable: 1.10**
-$\mathrm{gg}(x)$* means *`straight g open parentheses straight g left parenthesis x right parenthesis close parentheses`*.* 
+$\mathrm{gg}(x)$* means *$\mathrm{g} ( \mathrm{g} ( x ) )$*.* 
 *Substitute *$g(x)$* into *$g(x)$* as *$x$*.*
 
 $g(g(x))=8(g(x))-5$
@@ -87,22 +87,22 @@ $y=\frac{x+5}{8}$
 $g^{-1}(x)=\frac{x+5}{8}$ **[1]**
 
 ### Q3
-> *i) Substitute *$x=-3$* into *`straight f open parentheses x close parentheses`*.*
+> *i) Substitute *$x=-3$* into *$\mathrm{f} ( x )$*.*
 
-`straight f open parentheses negative 3 close parentheses equals 7 minus 2 open parentheses negative 3 close parentheses`
+$\mathrm{f} ( - 3 ) = 7 - 2 ( - 3 )$
 
-`f open parentheses negative 3 close parentheses equals 7 plus 6`
+$f ( - 3 ) = 7 + 6$
 
 $f(-3)=13$** ****[1]**
 
 > *ii) To work out a composite function, start with the function closest to the *$x$*. *
-*Start by substituting *$x=30$* into *`straight g open parentheses x close parentheses`*.*
+*Start by substituting *$x=30$* into *$\mathrm{g} ( x )$*.*
 
-> `straight g open parentheses 30 close parentheses equals fraction numerator 10 over denominator open parentheses 30 close parentheses end fraction`* *`straight g open parentheses 30 close parentheses equals 1 third`
+> $\mathrm{g} ( 30 ) = \frac{10}{( 30 )}$* *$\mathrm{g} ( 30 ) = 1 \frac{1}{3}$
 
-> *Substitute the result into *`straight h open parentheses x close parentheses`* to work out *`hg open parentheses 30 close parentheses`*.*
+> *Substitute the result into *$\mathrm{h} ( x )$* to work out *$hg ( 30 )$*.*
 
-`hg open parentheses 30 close parentheses equals 27 to the power of 1 third end exponent`
+$\text{hg} ( 30 ) = 27^{1 \frac{1}{3}}$
 
 **[1]**
 
@@ -131,34 +131,34 @@ $x=\frac{7-y}{2}$
 $f^{-1}(x)=\frac{7-x}{2}$* ***[1]**
 
 ### Q4
-i) $\mathrm{hg}(x)$* means *`straight h open parentheses straight g left parenthesis x right parenthesis close parentheses`*.*
+i) $\mathrm{hg}(x)$* means *$\mathrm{h} ( \mathrm{g} ( x ) )$*.*
  *Substitute *$g(x)$* into *$h$*.*
 
-`hg left parenthesis x right parenthesis equals open parentheses straight g left parenthesis x right parenthesis close parentheses squared plus 6`
+$\text{hg} ( x ) = ( \mathrm{g} ( x ) )^{2} + 6$
 
 > *Substitute *$8x-5$* into *$g$*.*
 
-`hg left parenthesis x right parenthesis equals open parentheses 8 x minus 5 close parentheses squared plus 6`
+$\text{hg} ( x ) = ( 8 x - 5 )^{2} + 6$
 
 > *Remember that *$(8x-5)^{2}$* means *$(8x-5)(8x-5)$*. Use this to expand and simplify.*
 
-`table attributes columnalign right center left columnspacing 0px end attributes row cell hg left parenthesis x right parenthesis end cell equals cell 64 x squared minus 40 x minus 40 x plus 25 plus 6 end cell row cell hg left parenthesis x right parenthesis end cell equals cell 64 x squared minus 80 x plus 31 end cell end table`
+$\begin{array}{rcl} \text{hg} ( x ) & = 64 x^{2} - 40 x - 40 x + 25 + 6 \\ \text{hg} ( x ) & = 64 x^{2} - 80 x + 31 \end{array}$
 
 **[1]**
 
 > *Set *$\mathrm{hg}(x)$* equal to 19.*
 
-`table row cell hg left parenthesis x right parenthesis end cell equals 19 row cell 64 x squared minus 80 x plus 31 end cell equals 19 end table`
+$\begin{gathered} \text{hg} ( x ) & = 19 \\ 64 x^{2} - 80 x + 31 & = 19 \end{gathered}$
 
 **[1]**
 
 > *Subtract 19 from both sides to make the right hand side equal to zero.*
 
-`table attributes columnalign right center left columnspacing 0px end attributes row cell 64 x squared minus 80 x plus 12 end cell equals 0 end table`
+$\begin{array}{rcl} 64 x^{2} - 80 x + 12 & = 0 \end{array}$
 
 > *Each term has a factor of 4 so factorise it out.*
 
-`table row cell 4 left parenthesis 16 x squared minus 20 x plus 3 right parenthesis end cell equals 0 end table`
+$\begin{gathered} 4 ( 16 x^{2} - 20 x + 3 ) & = 0 \end{gathered}$
 
 > *Divide both sides by 4.*
 
@@ -172,7 +172,7 @@ $a=16,b=-20,c=3$
 
 > *Substitute the values into the formula. Put brackets around negative values.*
 
-`x equals fraction numerator negative left parenthesis negative 20 right parenthesis plus-or-minus square root of open parentheses negative 20 close parentheses squared minus 4 left parenthesis 16 right parenthesis left parenthesis 3 right parenthesis end root over denominator 2 left parenthesis 16 right parenthesis end fraction`
+$x = \frac{- ( - 20 ) \pm \sqrt{( - 20 )^{2} - 4 ( 16 ) ( 3 )} }{2 ( 16 )}$
 
 ** ****Correct expression under the square root**** [1]**
 
@@ -184,7 +184,7 @@ $x=\frac{5\pm\sqrt{13}}{8}$
 
 > *Use your calculator to write them as decimals.*
 
-`table attributes columnalign right center left columnspacing 0px end attributes row x equals cell fraction numerator 5 plus square root of 13 over denominator 8 end fraction equals 1.0756... end cell row x equals cell fraction numerator 5 minus square root of 13 over denominator 8 end fraction equals 0.1743... end cell end table`
+$\begin{array}{rcl} x = \frac{5 + \sqrt{13} }{8} = 1.0756... \\ x = \frac{5 - \sqrt{13} }{8} = 0.1743... \end{array}$
 
 > *Round your answers to 2 decimal places.*
 
@@ -194,7 +194,7 @@ $x=1.08\mathrm{or}x=0.17$** **
 ### Q5
 > *The only "input" numbers are −3, 0 and 2. So put them in and see what comes out*
 
-`table row cell straight f left parenthesis negative 3 right parenthesis space end cell equals cell space 3 open parentheses negative 3 close parentheses minus 5 equals negative 9 minus 5 equals negative 14 end cell row cell straight f left parenthesis 0 right parenthesis space end cell equals cell space 3 open parentheses 0 close parentheses minus 5 space space space equals 0 minus 5 space space space space equals negative 5 end cell row cell straight f left parenthesis 2 right parenthesis space end cell equals cell space 3 open parentheses 2 close parentheses minus 5 space space space equals 6 minus 5 space space space space equals 1 end cell end table`
+$\begin{gathered} \mathrm{f} ( - 3 ) & = 3 ( - 3 ) - 5 = - 9 - 5 = - 14 \\ \mathrm{f} ( 0 ) & = 3 ( 0 ) - 5 = 0 - 5 = - 5 \\ \mathrm{f} ( 2 ) & = 3 ( 2 ) - 5 = 6 - 5 = 1 \end{gathered}$
 
 **any two correct 'outputs'**** [1]**
 
@@ -203,23 +203,23 @@ $x=1.08\mathrm{or}x=0.17$** **
 ### Q6
 > *Substitute *$x=6$* into the expression for *$g(x).$* Remember the brackets around the value.*
 
-`straight g open parentheses 6 close parentheses equals fraction numerator 2 open parentheses 6 close parentheses over denominator open parentheses 6 close parentheses minus 3 end fraction`
+$\mathrm{g} ( 6 ) = \frac{2 ( 6 )}{( 6 ) - 3}$
 
 > *Work out the value using your calculator.*
 
 $g(6)=4$ **[1]**
-$\mathrm{fg}(4)$* means *`straight f open parentheses straight g left parenthesis 4 right parenthesis close parentheses`*.* *First work out *$g(4)$* by substituting *$x=4$* into *$g(x)$*.*
+$\mathrm{fg}(4)$* means *$\mathrm{f} ( \mathrm{g} ( 4 ) )$*.* *First work out *$g(4)$* by substituting *$x=4$* into *$g(x)$*.*
 
-`straight g left parenthesis 4 right parenthesis equals fraction numerator 2 open parentheses 4 close parentheses over denominator left parenthesis 4 right parenthesis minus 3 end fraction equals 8`
+$\mathrm{g} ( 4 ) = \frac{2 ( 4 )}{( 4 ) - 3} = 8$
 
 > *Therefore *$\mathrm{fg}(4))=f(8)$* so substitute *$x=8$* into *$f(x)$*.*
 
-`fg left parenthesis 4 right parenthesis equals straight f left parenthesis 8 right parenthesis equals 7 open parentheses 8 close parentheses minus 4`
+$\text{fg} ( 4 ) = \mathrm{f} ( 8 ) = 7 ( 8 ) - 4$
 
 **[1]**
 
 $\mathrm{fg}(4)=52$ **[1]**
-$\mathrm{fh}(x)$* means *`straight f open parentheses straight h left parenthesis x right parenthesis close parentheses`*.* *Substitute *$h(x)$* into *$f(x)$* as *$x$*.*
+$\mathrm{fh}(x)$* means *$\mathrm{f} ( \mathrm{h} ( x ) )$*.* *Substitute *$h(x)$* into *$f(x)$* as *$x$*.*
 
 $f(h(x))=7(h(x))-4$
 
@@ -238,7 +238,7 @@ $h(0.3)=0.3^{0.3}$
 
 **[1]**
 
-> *Use your calculator to evaluate *`straight h open parentheses 0.3 close parentheses`
+> *Use your calculator to evaluate *$\mathrm{h} ( 0.3 )$
 
 $=0.6968453019...$
 
@@ -248,21 +248,21 @@ $=0.70$* ***[1] **
 **The question specifies 2 decimal places in the answer- so "0.7" or an answer to 3 or more significant figures will not achieve full marks!**
 
 ii) *Method 1 *
-*If *`straight h open parentheses x close parentheses equals 256`*, then *$x^{x}=256$*. There is no specific method for solving this equation on the IGCSE syllabus apart from trial-and-error. *
-*Evaluate *`straight h open parentheses 2 close parentheses`* (or even *`straight h open parentheses 1 close parentheses`*) then *`straight h open parentheses 3 close parentheses`*, *`straight h open parentheses 4 close parentheses`*, and so on, until 256 is found.*
+*If *$\mathrm{h} ( x ) = 256$*, then *$x^{x}=256$*. There is no specific method for solving this equation on the IGCSE syllabus apart from trial-and-error. *
+*Evaluate *$\mathrm{h} ( 2 )$* (or even *$\mathrm{h} ( 1 )$*) then *$\mathrm{h} ( 3 )$*, *$\mathrm{h} ( 4 )$*, and so on, until 256 is found.*
 
-`table row cell straight h open parentheses 2 close parentheses end cell equals cell 2 squared equals 4 comma space space space space space space fail end cell row cell straight h open parentheses 3 close parentheses end cell equals cell 3 cubed equals 27 comma space space space space fail end cell row cell straight h open parentheses 2 close parentheses end cell equals cell 4 to the power of 4 equals 256 comma space space success end cell end table`
+$\begin{gathered} \mathrm{h} ( 2 ) & = 2^{2} = 4 , \text{fail} \\ \mathrm{h} ( 3 ) & = 3^{3} = 27 , \text{fail} \\ \mathrm{h} ( 2 ) & = 4^{4} = 256 , \text{success} \end{gathered}$
 
 $x=4$** ****[1]**
 
 > *Method 2 *
-*If *`straight h open parentheses x close parentheses equals 256`*, then *$x^{x}=256$*. There is no specific method for solving this equation on the IGCSE syllabus, however you might recognise 256 as a power of 2.*
+*If *$\mathrm{h} ( x ) = 256$*, then *$x^{x}=256$*. There is no specific method for solving this equation on the IGCSE syllabus, however you might recognise 256 as a power of 2.*
 
-`table row 256 equals cell 2 to the power of 8 end cell row blank equals cell 2 cross times 2 cross times 2 cross times 2 cross times 2 cross times 2 cross times 2 cross times 2 end cell end table`
+$\begin{gathered} 256 = 2^{8} \\ = 2 \times 2 \times 2 \times 2 \times 2 \times 2 \times 2 \times 2 \end{gathered}$
 
 > *We see that 256 is 2 times by itself 8 times, or...*
 
-`equals open parentheses 2 cross times 2 close parentheses cross times open parentheses 2 cross times 2 close parentheses cross times open parentheses 2 cross times 2 close parentheses cross times open parentheses 2 cross times 2 close parentheses`
+$= ( 2 \times 2 ) \times ( 2 \times 2 ) \times ( 2 \times 2 ) \times ( 2 \times 2 )$
 
 > *256 is 4 times by itself 4 times...*
 
@@ -272,33 +272,33 @@ $x=4$* ***[1] **
 **Note that this solution is just a suggestion and trial-and-error is also appropriate. This is an unusual question and the above is not a method you need to learn!**
 
 ### Q8
-i) *Replace *$x$* by *$x-3$* in *`straight f open parentheses x close parentheses`*.*
+i) *Replace *$x$* by *$x-3$* in *$\mathrm{f} ( x )$*.*
 
-`table row cell straight f open parentheses x minus 3 close parentheses end cell equals cell 4 open parentheses x minus 3 close parentheses minus 1 end cell row blank equals cell 4 x minus 12 minus 1 end cell row blank equals cell 4 x minus 13 end cell end table`
+$\begin{gathered} \mathrm{f} ( x - 3 ) & = 4 ( x - 3 ) - 1 \\ = 4 x - 12 - 1 \\ = 4 x - 13 \end{gathered}$
 
 $f(x-3)=4x-13$* ***[1]**
 
-ii) *Replace *$x$* by *$5x$* in *`straight g open parentheses x close parentheses`*.*
+ii) *Replace *$x$* by *$5x$* in *$\mathrm{g} ( x )$*.*
 
-`table attributes columnalign right center left columnspacing 0px end attributes row cell straight g open parentheses 5 x close parentheses end cell equals cell open parentheses 5 x close parentheses squared end cell row blank equals cell 25 x squared end cell end table`
+$\begin{array}{rcl} \mathrm{g} ( 5 x ) & = ( 5 x )^{2} \\ = 25 x^{2} \end{array}$
 
 $g(5x)=25x^{2}$* ***[1]**
-> *Write *`x equals straight f open parentheses y close parentheses`* and rearrange to make y the subject. (Alternatively, start with *`y equals straight f open parentheses x close parentheses`* and make *$x$* the subject, swapping *$y$*'s for *$x$*'s at the end.)*
+> *Write *$x = \mathrm{f} ( y )$* and rearrange to make y the subject. (Alternatively, start with *$y = \mathrm{f} ( x )$* and make *$x$* the subject, swapping *$y$*'s for *$x$*'s at the end.)*
 
 $x=4y-1$
 
 **[1]**
 
-`table attributes columnalign right center left columnspacing 0px end attributes row cell 4 y end cell equals cell x plus 1 end cell row y equals cell fraction numerator x plus 1 over denominator 4 end fraction end cell end table`
+$\begin{array}{rcl} 4 y & = x + 1 \\ y = \frac{x + 1}{4} \end{array}$
 
 $f^{-1}(x)=\frac{x+1}{4}$** ****[1]**
-> `hh open parentheses x close parentheses`* is the compound function "*$h$* of *`straight h open parentheses x close parentheses`*".*
+> $hh ( x )$* is the compound function "*$h$* of *$\mathrm{h} ( x )$*".*
 
-`hh open parentheses x close parentheses equals 3 to the power of negative open parentheses 3 to the power of negative x end exponent close parentheses end exponent`
+$\text{hh} ( x ) = 3^{- ( 3^{- x} )}$
 
 **[1]**
 
-`table row cell hh open parentheses 1 close parentheses end cell equals cell 3 to the power of negative open parentheses 3 to the power of negative 1 end exponent close parentheses end exponent end cell row blank equals cell 3 to the power of negative open parentheses 1 third close parentheses end exponent end cell row blank equals cell fraction numerator 1 over denominator cube root of 3 end fraction equals 0.693 space 361 space... end cell end table`
+$\begin{gathered} \text{hh} ( 1 ) & = 3^{- ( 3^{- 1} )} \\ = 3^{- ( 1 \frac{1}{3} )} \\ = \frac{1}{ \sqrt[3]{3} } = 0.693 361 ... \end{gathered}$
 
 $3^{-\frac{1}{3}}$** ****or 0.693 361 ... ****[1]**
 
@@ -309,36 +309,36 @@ $3^{-\frac{1}{3}}$** ****or 0.693 361 ... ****[1]**
 ### Q9
 > *Substitute *$x=4$* into the expression for *$h(x).$
 
-`straight h open parentheses 4 close parentheses equals 4 to the power of 4`
+$\mathrm{h} ( 4 ) = 4^{4}$
 
 > *Work out the value using your calculator.*
 
 $h(4)=256$ **[1]**
-$\mathrm{fg}(1)$* means *`straight f open parentheses straight g left parenthesis 1 right parenthesis close parentheses`*.* 
+$\mathrm{fg}(1)$* means *$\mathrm{f} ( \mathrm{g} ( 1 ) )$*.* 
 *First work out *$g(1)$* by substituting *$x=1$* into *$g(x)$*.*
 
-`straight g left parenthesis 1 right parenthesis equals open parentheses 1 close parentheses squared plus 1 equals 2`
+$\mathrm{g} ( 1 ) = ( 1 )^{2} + 1 = 2$
 
 > *Therefore *$\mathrm{fg}(1)=f(2)$* so substitute *$x=2$* into *$f(x)$*.*
 
-`fg left parenthesis 1 right parenthesis equals straight f left parenthesis 2 right parenthesis equals 3 open parentheses 2 close parentheses plus 2`
+$\text{fg} ( 1 ) = \mathrm{f} ( 2 ) = 3 ( 2 ) + 2$
 
 **[1]**
 
 $\mathrm{fg}(1)=8$ **[1]**
-$\mathrm{gf}(x)$* means *`straight g open parentheses straight f left parenthesis x right parenthesis close parentheses`*.*
+$\mathrm{gf}(x)$* means *$\mathrm{g} ( \mathrm{f} ( x ) )$*.*
 
 > *Substitute *$f(x)$* into *$g(x)$* as *$x$*.*
 
-`straight g left parenthesis straight f left parenthesis x right parenthesis right parenthesis equals open parentheses straight f open parentheses x close parentheses close parentheses squared plus 1`
+$\mathrm{g} ( \mathrm{f} ( x ) ) = ( \mathrm{f} ( x ) )^{2} + 1$
 
 > *Substitute *$3x+2$* as *$f(x)$*.*
 
-`gf left parenthesis x right parenthesis equals open parentheses 3 x plus 2 close parentheses squared plus 1`
+$\text{gf} ( x ) = ( 3 x + 2 )^{2} + 1$
 
 **[1]**
 
-> *Expand by writing *`open parentheses 3 x plus 2 close parentheses squared equals open parentheses 3 x plus 2 close parentheses open parentheses 3 x plus 2 close parentheses.`
+> *Expand by writing *$( 3 x + 2 )^{2} = ( 3 x + 2 ) ( 3 x + 2 ).$
 
 $\mathrm{gf}(x)=9x^{2}+6x+6x+4+1$
 
@@ -347,11 +347,11 @@ $\mathrm{gf}(x)=9x^{2}+6x+6x+4+1$
 > *Simplify by collecting like terms and write in the required form.*
 
 $\mathrm{gf}(x)=9x^{2}+12x+5$ **[1]**
-> *Work out *`straight g open parentheses 7 close parentheses`* by substituting *$x=7$* into *`straight g open parentheses x close parentheses.`
+> *Work out *$\mathrm{g} ( 7 )$* by substituting *$x=7$* into *$\mathrm{g} ( x ).$
 
-`straight g open parentheses 7 close parentheses equals open parentheses 7 close parentheses squared plus 1 equals 50`
+$\mathrm{g} ( 7 ) = ( 7 )^{2} + 1 = 50$
 
-> *Set the expression for *`straight f open parentheses x close parentheses`* equal to 50.*
+> *Set the expression for *$\mathrm{f} ( x )$* equal to 50.*
 
 $3x+2=50$
 
@@ -359,7 +359,7 @@ $3x+2=50$
 
 > *Solve the equation by subtracting 2 from both sides and then dividing both sides by 3.*
 
-`table row cell 3 x end cell equals cell 50 minus 2 end cell row cell 3 x end cell equals 48 row x equals cell 48 over 3 end cell end table`
+$\begin{gathered} 3 x & = 50 - 2 \\ 3 x & = 48 \\ x = \frac{48}{3} \end{gathered}$
 
 $x=16$ **[1]**
 > $f^{-1}(x)$* is the inverse of *$f(x).$
@@ -383,43 +383,43 @@ $y=\frac{x-2}{3}$
 $f^{-1}(x)=\frac{x-2}{3}$ **[1]**
 
 ### Q10
-> *Let  *`y space equals space straight h open parentheses x close parentheses`*. *
+> *Let  *$y = \mathrm{h} ( x )$*. *
 
-`table row cell y space end cell equals cell space 2 to the power of x end cell end table`
+$\begin{gathered} y & = 2^{x} \end{gathered}$
 
 > *Swap the *$x$* and the *$y$*.*
 
-`table row cell x space end cell equals cell space 2 to the power of y end cell end table`
+$\begin{gathered} x & = 2^{y} \end{gathered}$
 
 > *Let *$y=0.5$*.   *
 
-`table attributes columnalign right center left columnspacing 0px end attributes row cell x space end cell equals cell space 2 to the power of 0.5 end exponent end cell row blank equals cell space 2 to the power of 1 half end exponent end cell end table`
+$\begin{array}{rcl} x & = 2^{0.5} \\ = 2^{1 \frac{1}{2}} \end{array}$
 
-`table row cell bold italic x bold space end cell bold equals cell square root of bold 2 end cell end table`*  ***[1] **
+$\begin{array}{ccc} x & = & \sqrt{ 2}\end{array}$*  ***[1] **
 **The decimal value of 1.414... is also accepted.**
-> *Substitute *`straight h open parentheses x close parentheses space`*into the equation *`fraction numerator 1 over denominator straight h open parentheses straight x close parentheses end fraction space equals space 2 to the power of k x end exponent.`
+> *Substitute *$\mathrm{h} ( x )$*into the equation *$\frac{1}{ \mathrm{h} ( \mathrm{x} )} = 2^{k x} .$
 
-`table row cell 1 over 2 to the power of x space end cell equals cell space 2 to the power of k x end exponent space end cell end table`
+$\begin{gathered} \frac{1}{2^{x & = 2^{k}} x} \end{gathered}$
 
 > *Use the law of negative indices *$a^{-b}=\frac{1}{a^{b}}.$
 
-`table row cell 2 to the power of negative x end exponent space end cell equals cell space 2 to the power of k x end exponent space end cell end table`
+$\begin{gathered} 2^{- x} & = 2^{k x} \end{gathered}$
 
-`table row cell bold italic k bold space end cell bold equals cell bold space bold minus bold 1 end cell end table`** ****[1]**
+$\begin{gathered} k & = - 1 \end{gathered}$** ****[1]**
 
 ### Q11
-> *Replace *$x$* by *$3x-2$* in *`straight g open parentheses x close parentheses`* and work out the value of *`straight h open parentheses negative 3 close parentheses`*.*
+> *Replace *$x$* by *$3x-2$* in *$\mathrm{g} ( x )$* and work out the value of *$\mathrm{h} ( - 3 )$*.*
 
-`straight g open parentheses 3 x minus 2 close parentheses minus straight h open parentheses negative 3 close parentheses equals open parentheses 3 x minus 2 close parentheses squared minus 3 to the power of negative open parentheses negative 3 close parentheses end exponent`
+$\mathrm{g} ( 3 x - 2 ) - \mathrm{h} ( - 3 ) = ( 3 x - 2 )^{2} - 3^{- ( - 3 )}$
 
 **[1]**
 
-`table row cell straight g open parentheses 3 x minus 2 close parentheses minus straight h open parentheses negative 3 close parentheses end cell equals cell 9 x to the power of italic 2 minus 6 x minus 6 x plus 4 minus 27 end cell row blank equals cell 9 x squared minus 12 x minus 23 end cell end table`
+`| g ( 3 x - 2 ) - h ( - 3 ) | = 9 x ^ 2 - 6 x - 6 x + 4 - 27 | | _ = 9 x ^2 - 12 x - 23 | |`
 
 $g(3x-2)-h(-3)=9x^{2}-12x-23$* ***[1]**
-> *Work out the value of *`straight f open parentheses 61 close parentheses`*, then set up and solve the equation.*
+> *Work out the value of *$\mathrm{f} ( 61 )$*, then set up and solve the equation.*
 
-> `straight f open parentheses 61 close parentheses equals 4 open parentheses 61 close parentheses minus 1 equals 243`* *
+> $\mathrm{f} ( 61 ) = 4 ( 61 ) - 1 = 243$* *
 $\therefore243=3^{-x}$
 
 **[1]**
@@ -430,14 +430,14 @@ $3^{2}=9,3^{3}=27,3^{4}=81,3^{5}=243$
 
 > *Now the equation can be solved by comparing the powers.*
 
-`table attributes columnalign right center left columnspacing 0px end attributes row cell 3 to the power of 5 end cell equals cell 3 to the power of negative x end exponent end cell row cell negative x end cell equals 5 row x equals cell negative 5 end cell end table`
+$\begin{array}{rcl} 3^{5 & = 3^{-x} } \\ - x & = 5 \\ x = - 5 \end{array}$
 
 $x=-5$** [1]**
 
 ### Q12
-> *If *`straight h to the power of negative 1 end exponent open parentheses x close parentheses equals 2`* then *`x equals straight h open parentheses 2 close parentheses`* as you can get rid of an inverse function by applying the original function to both sides.*
+> *If *$\mathrm{h}^{- 1} ( x ) = 2$* then *$x = \mathrm{h} ( 2 )$* as you can get rid of an inverse function by applying the original function to both sides.*
 
-> *Find *`straight h open parentheses 2 close parentheses`* by substituting *$x=2$* into *`straight h open parentheses x close parentheses`*.*
+> *Find *$\mathrm{h} ( 2 )$* by substituting *$x=2$* into *$\mathrm{h} ( x )$*.*
 
 $x=4^{2}$
 
@@ -446,7 +446,7 @@ $x=16$** [1]**
 ### Q13
 *Substitute** x** = -5 into f(**x**) (putting brackets around the negative number)*
 
-`straight f open parentheses negative 5 close parentheses equals 2 over open parentheses negative 5 close parentheses squared`
+$\mathrm{f} ( - 5 ) = \frac{2}{( - 5 )^{2}}$
 
 > *Work out this value (either using a calculator or by using that (-5) × (-5) = 25)*
 
@@ -454,52 +454,52 @@ $\frac{2}{25}$ **[1]**
 *fg(1) means f(g(1))* 
 *Find g(1) by substituting **x** = 1 into g(**x**)* * *
 
-`table row cell straight g open parentheses 1 close parentheses end cell equals cell 4 cross times 1 cubed end cell row blank equals 4 end table`
+$\begin{gathered} \mathrm{g} ( 1 ) & = 4 \times 1^{3} \\ = 4 \end{gathered}$
 
 **[1]**
 
 *If g(1) = 4 then f(g(1)) = f(4)* 
 *Find f(4) by substituting **x **= 4 into f(**x**)* * *
 
-> `straight f open parentheses straight g open parentheses 1 close parentheses close parentheses equals f open parentheses 4 close parentheses equals 2 over 4 squared`*  *
+> $\mathrm{f} ( \mathrm{g} ( 1 ) ) = f ( 4 ) = \frac{2}{4^{2}}$*  *
 
 > *Write 4*<sup>*2*</sup>* as 16 (from 4 × 4) and cancel *$\frac{2}{16}$* (by dividing top-and-bottom by 2)*
 
 $\frac{1}{8}$* ***[1]**
 
 ### Q14
-> *Find *`hh open parentheses x close parentheses`* by substituting the function *`straight h open parentheses x close parentheses space`*into the function *`straight h open parentheses x close parentheses`*. *
+> *Find *$hh ( x )$* by substituting the function *$\mathrm{h} ( x )$*into the function *$\mathrm{h} ( x )$*. *
 
-`table row cell hh open parentheses x close parentheses space end cell equals cell fraction numerator 1 over denominator straight h open parentheses x close parentheses end fraction end cell row blank equals cell fraction numerator space 1 over denominator 1 over x end fraction end cell row blank equals cell space 1 space divided by space 1 over x end cell end table`
+`| hh ( x ) | = (1)/( h ( x )) | | _ = ( 1)/(1 / x) | | _ = 1 / 1 / x | |`
 
 > *Dividing by a fraction is the same as multiplying by its reciprocal.*
 
-`table row cell 1 space divided by space 1 over x space end cell equals cell space 1 space cross times space x over 1 space equals space x end cell end table`
+$\begin{gathered} 1 \div \frac{1}{x} & = 1 \times \frac{x}{1} = x \end{gathered}$
 
 `Error converting from MathML to accessible text.`* ***[1]**
-> *Substitute 5 into the function *`straight j open parentheses x close parentheses`*.*
+> *Substitute 5 into the function *$\mathrm{j} ( x )$*.*
 
-`table row cell straight j open parentheses 5 close parentheses space end cell equals cell space 5 to the power of 5 space end exponent end cell end table`
+$\begin{gathered} \mathrm{j} ( 5 ) & = 5^{5 } \end{gathered}$
 
 > *Use your calculator to find the answer.*
 
-`table row cell bold j stretchy left parenthesis 5 stretchy right parenthesis bold space end cell bold equals cell bold space bold 3125 end cell end table`* ***[1]**
-> *Find *`straight g open parentheses negative 12 close parentheses`* by substituting -12 into the function *`straight g open parentheses x close parentheses. space`
+$\begin{gathered} j ( 5 ) & = 3125 \end{gathered}$* ***[1]**
+> *Find *$\mathrm{g} ( - 12 )$* by substituting -12 into the function *$\mathrm{g} ( x ).$
 
-`table row cell straight g open parentheses negative 12 close parentheses space end cell equals cell 1 space minus space 2 open parentheses negative 12 close parentheses end cell row blank equals cell space 1 space minus space open parentheses negative 24 close parentheses end cell row blank equals cell space 25 end cell end table`** *** *
+$\begin{gathered} \mathrm{g} ( - 12 ) & = 1 - 2 ( - 12 ) \\ = 1 - ( - 24 ) \\ = 25 \end{gathered}$** *** *
 
-> *Find *`hg open parentheses negative 12 close parentheses`* by substituting *`straight g open parentheses negative 12 close parentheses space`*into the function *`straight h open parentheses x close parentheses`*. *
+> *Find *$hg ( - 12 )$* by substituting *$\mathrm{g} ( - 12 )$*into the function *$\mathrm{h} ( x )$*. *
 
-`table row cell hg open parentheses negative 12 close parentheses space end cell equals cell fraction numerator 1 over denominator straight g open parentheses negative 12 close parentheses end fraction end cell row blank equals cell fraction numerator 1 over denominator 25 end fraction end cell end table`
+$\begin{gathered} \text{hg} ( - 12 ) & = \frac{1}{ \mathrm{g} ( - 12 )} \\ = \frac{1}{25} \end{gathered}$
 
 **[1]**
 
-> *Let *`hg open parentheses negative 12 close parentheses`* be equal to the function *`straight j open parentheses x close parentheses. space`
+> *Let *$hg ( - 12 )$* be equal to the function *$\mathrm{j} ( x ).$
 
 $\frac{1}{25}=5^{x}$
 
 > *Use the law of negative indices, *$\frac{1}{a^{b}}=a^{-b}$*.*
 
-`table row cell 1 over 25 space end cell equals cell space 1 over 5 squared space equals space 5 to the power of negative 2 end exponent end cell end table`
+$\begin{gathered} \frac{1}{25} & = \frac{1}{5^{2}} = 5^{- 2} \end{gathered}$
 
-`table attributes columnalign right center left columnspacing 0px end attributes row cell bold space bold italic x bold space end cell bold equals cell bold space bold minus bold 2 end cell end table`* ***[1]**
+$\begin{array}{rcl} x & = - 2 \end{array}$* ***[1]**

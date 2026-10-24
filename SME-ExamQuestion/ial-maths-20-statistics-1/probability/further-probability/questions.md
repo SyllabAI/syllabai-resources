@@ -26,14 +26,14 @@ Write the following probabilities in context:
 
 (i) $P(A\cupB)$
 
-(ii) `P left parenthesis B vertical line A right parenthesis`
+(ii) $P ( B \vert A )$
 
 (iii) $P(A')$
 
 (iv) $P((A\capB)^{'}).$
 
 ### 2() — 2 marks — structured
-Find the value of `P left parenthesis B vertical line A right parenthesis.`
+Find the value of $P ( B \vert A ).$
 
 ## Q3 — easy — 5 marks · exam-questions
 
@@ -60,21 +60,21 @@ One of the children is selected at random.  Find the probability that
 ## Q4 — easy — 6 marks · exam-questions
 
 ### 1() — 2 marks — structured
-$A$ and $B$ are two independent events such that `P open parentheses A close parentheses equals 0.3` and $P(B)=0.8$
+$A$ and $B$ are two independent events such that $P ( A ) = 0.3$ and $P(B)=0.8$
 
 (i) Complete this formula for independent events: $P(A\capB)=____\timesP(B)$
 
 (ii) Use the formula to find  $P(A\capB)$.
 
 ### 2() — 3 marks — structured
-Another formula for independent events is `P left parenthesis A intersection B right parenthesis equals P left parenthesis A right parenthesis cross times P left parenthesis B vertical line A right parenthesis` where `P left parenthesis B vertical line A right parenthesis`   means the probability of $B$ happening given that $A$ has already happened.
+Another formula for independent events is $P ( A \cap B ) = P ( A ) \times P ( B \vert A )$ where $P ( B \vert A )$   means the probability of $B$ happening given that $A$ has already happened.
 
-(i) Use the formula to find `P left parenthesis B vertical line A right parenthesis`
+(i) Use the formula to find $P ( B \vert A )$
 
-(ii) Deduce a similar formula involving `P left parenthesis A vertical line B right parenthesis` and use it to find `P left parenthesis A vertical line B right parenthesis`.
+(ii) Deduce a similar formula involving $P ( A \vert B )$ and use it to find $P ( A \vert B )$.
 
 ### 3() — 1 mark — structured
-Briefly explain why, for independent events A and B, `P left parenthesis A vertical line B right parenthesis equals P left parenthesis A right parenthesis`.
+Briefly explain why, for independent events A and B, $P ( A \vert B ) = P ( A )$.
 
 ## Q5 — easy — 4 marks · exam-questions
 
@@ -105,9 +105,9 @@ Two events, $A$and $B$ are mutually exclusive.
  $P(A\cupB)=P(A)+P(B)--P(A\capB)$to show that, for mutually exclusive events, $P(A\cupB)=P(A)+P(B)$.
 
 ### 2() — 3 marks — structured
-Two events, $D$ and $E$ are such that `P left parenthesis D right parenthesis equals 0.2 comma space space P left parenthesis E right parenthesis equals 0.4 space space and space space P left parenthesis E vertical line D right parenthesis equals 0.7`.
+Two events, $D$ and $E$ are such that `P ( D ) = 0.2 , P ( E ) = 0.4 and P ( E | D ) = 0.7`.
 
-(i) Use the formula `P left parenthesis D intersection E right parenthesis equals space P left parenthesis D right parenthesis space space cross times space P left parenthesis E vertical line D right parenthesis` to find $P(D\capE)$.
+(i) Use the formula $P ( D \cap E ) = P ( D ) \times P ( E \vert D )$ to find $P(D\capE)$.
 
 (ii) Use the formula $P(D\capE)=P(D)+P(E)-P(D\cupE)$ to find  $P(D\cupE)$.
 
@@ -180,9 +180,9 @@ Write down the values of:
 
 (i) $P(R')$
 
-(ii) `P left parenthesis T apostrophe vertical line R right parenthesis`
+(ii) $P ( T ' \vert R )$
 
-(iii) `P left parenthesis T apostrophe vertical line R apostrophe right parenthesis`
+(iii) $P ( T ' \vert R ' )$
 
 ### 2() — 2 marks — structured
 Use the probability tree diagram, or otherwise to find the probability that Suresh arrives at work on time.
@@ -234,12 +234,12 @@ S is the event ‘the sum of the two numbers is a square number’ and E is the 
 
 (iii) $P(S\capE)$
 
-(iv) `P left parenthesis S vertical line E right parenthesis`
+(iv) $P ( S \vert E )$
 
 ### 3() — 1 mark — structured
 Use your answers to part (b) to show that
 
-`P left parenthesis S vertical line E right parenthesis equals fraction numerator P left parenthesis S intersection E right parenthesis over denominator P left parenthesis E right parenthesis end fraction`
+$P ( S \vert E ) = \frac{P ( S \cap E )}{P ( E )}$
 
 ## Q14 — medium — 7 marks · exam-questions
 
@@ -251,11 +251,11 @@ Given that $P((A\cupB\cupC)^{'})=0.43$, draw a Venn diagram to show the probabil
 ### 2() — 3 marks — structured
 Find:
 
-(i) `P left parenthesis B vertical line A right parenthesis`
+(i) $P ( B \vert A )$
 
-(ii) `P left parenthesis A vertical line B to the power of apostrophe right parenthesis`
+(ii) $P ( A \vert B^{'} )$
 
-(iii) `P left parenthesis A vertical line left parenthesis B union C right parenthesis right parenthesis`
+(iii) $P ( A \vert ( B \cup C ) )$
 
 ## Q15 — medium — 5 marks · exam-questions
 
@@ -270,7 +270,7 @@ Find
 
 (iii) $P(H\capC)$
 
-(iv) `P left parenthesis H vertical line C right parenthesis`
+(iv) $P ( H \vert C )$
 
 ### 2() — 1 mark — structured
 Use your answers to part (a) to show that the events *C* and *H* are independent events.
@@ -282,7 +282,7 @@ Given that $P(A)=0.27,P(B)=0.39$ and $P(A\capB)=0.21$, find:
 
 (i) $P(A\cupB)$
 
-(ii) `P left parenthesis B vertical line A right parenthesis`
+(ii) $P ( B \vert A )$
 
 ### 2() — 2 marks — structured
 The event $C$ has $P(C)=0.19$. The events $A$ and $C$  are mutually exclusive.
@@ -323,18 +323,18 @@ Given that Ichabod sleeps well, find the probability that his chess game did not
 ## Q19 — hard — 7 marks · exam-questions
 
 ### 1() — 4 marks — structured
-*A,B*  and *C *are three events with  `straight P open parentheses B close parentheses equals 0.3`, `straight P open parentheses A intersection B close parentheses equals 0.01`, `P open parentheses B intersection C close parentheses equals 0.12` and  `straight P open parentheses open parentheses A union B union C close parentheses to the power of apostrophe close parentheses equals 0.13` .
+*A,B*  and *C *are three events with  $\mathrm{P} ( B ) = 0.3$, $\mathrm{P} ( A \cap B ) = 0.01$, $P ( B \cap C ) = 0.12$ and  $\mathrm{P} ( ( A \cup B \cup C )^{'} ) = 0.13$ .
 
 Given that events *A* and *C* are mutually exclusive, and that events *B *and* C* are independent, draw a Venn diagram to illustrate the probabilities.
 
 ### 2() — 3 marks — structured
 Find:
 
-(i) `straight P open parentheses A intersection B to the power of apostrophe close parentheses`
+(i) $\mathrm{P} ( A \cap B^{'} )$
 
-(ii) `straight P open parentheses open parentheses A to the power of apostrophe intersection C to the power of apostrophe close parentheses union A close parentheses`
+(ii) $\mathrm{P} ( ( A^{'} \cap C^{'} ) \cup A )$
 
-(iii) `straight P open parentheses open parentheses open parentheses A intersection B to the power of apostrophe close parentheses union open parentheses B to the power of apostrophe intersection C close parentheses close parentheses to the power of apostrophe close parentheses`
+(iii) $\mathrm{P} ( ( ( A \cap B^{'} ) \cup ( B^{'} \cap C ) )^{'} )$
 
 ## Q20 — hard — 5 marks · exam-questions
 
@@ -361,22 +361,22 @@ Given that the chess player chosen enjoys playing at least one of the three open
 ## Q21 — hard — 8 marks · exam-questions
 
 ### 1() — 5 marks — structured
-Three events,$A$, $B$ and $C$, are such that $A$and $B$ are independent $B$and $C$ and  are mutually exclusive. `straight P open parentheses C close parentheses equals 0.55`,  `P open parentheses open parentheses A intersection B close parentheses union open parentheses A intersection C close parentheses close parentheses equals 0.07`, and the following two relations also hold:
+Three events,$A$, $B$ and $C$, are such that $A$and $B$ are independent $B$and $C$ and  are mutually exclusive. $\mathrm{P} ( C ) = 0.55$,  $P ( ( A \cap B ) \cup ( A \cap C ) ) = 0.07$, and the following two relations also hold:
 
-`8 space straight P open parentheses A close parentheses equals 25 space straight P open parentheses B close parentheses`
+$8 \mathrm{P} ( A ) = 25 \mathrm{P} ( B )$
 
-`straight P open parentheses A to the power of apostrophe intersection C close parentheses equals 10 space straight P open parentheses A intersection C close parentheses`
+$\mathrm{P} ( A^{'} \cap C ) = 10 \mathrm{P} ( A \cap C )$
 
 Using the above information, draw a Venn diagram to show the probabilities for events $A$,$B$ and $C$.
 
 ### 2() — 3 marks — structured
 Find:
 
-(i) `straight P open parentheses C vertical line A close parentheses`
+(i) $\mathrm{P} ( C \vert A )$
 
-(ii) `straight P open parentheses B vertical line A to the power of apostrophe close parentheses`
+(ii) $\mathrm{P} ( B \vert A^{'} )$
 
-(iii) `straight P open parentheses open parentheses A union B union C close parentheses to the power of apostrophe vertical line open parentheses A union B close parentheses to the power of apostrophe close parentheses`
+(iii) $\mathrm{P} ( ( A \cup B \cup C )^{'} \vert ( A \cup B )^{'} )$
 
 ## Q22 — hard — 6 marks · exam-questions
 
@@ -403,16 +403,16 @@ Given that Olivia opened the shop for a short week, Monday to Thursday, on a par
 ## Q24 — hard — 7 marks · exam-questions
 
 ### 1() — 4 marks — structured
-Given that  `straight P open parentheses A close parentheses equals 0.34`, `P open parentheses A union B close parentheses equals 0.67`  and `straight P open parentheses A intersection B close parentheses equals 0.02` , find:
+Given that  $\mathrm{P} ( A ) = 0.34$, $P ( A \cup B ) = 0.67$  and $\mathrm{P} ( A \cap B ) = 0.02$ , find:
 
-(i) `straight P open parentheses B close parentheses`
+(i) $\mathrm{P} ( B )$
 
-(ii) `straight P open parentheses A vertical line B to the power of apostrophe close parentheses`
+(ii) $\mathrm{P} ( A \vert B^{'} )$
 
 ### 2() — 3 marks — structured
-The event $C$ has `straight P open parentheses C close parentheses equals 0.2`. The events $B$ and $C$ are mutually exclusive.
+The event $C$ has $\mathrm{P} ( C ) = 0.2$. The events $B$ and $C$ are mutually exclusive.
 
-Given that $A$ and  $C$ are independent, find  `P open parentheses A union B union C close parentheses`.
+Given that $A$ and  $C$ are independent, find  $P ( A \cup B \cup C )$.
 
 ## Q25 — hard — 7 marks · exam-questions
 
@@ -469,8 +469,8 @@ Determine the probability that on that day Rosco will not end up covered in othe
 ### 1() — 5 marks — structured
 $A,B$and $C$ are three events such that $P(C)=0.37,P(A^{'}\capB^{'}\capC)=0.18,P(A\capB\capC)=0.09,$ and $P((A\cupB\cupC)^{'})=0.21$. In addition the following two relations hold:
 
-`P left parenthesis A intersection B intersection C to the power of apostrophe right parenthesis ∶ P left parenthesis A intersection B to the power of apostrophe intersection C right parenthesis ∶ P left parenthesis A to the power of apostrophe intersection B intersection C right parenthesis equals 3 colon 4 colon 1
-P left parenthesis A right parenthesis ∶ P left parenthesis B right parenthesis equals 9 colon 10`
+$P ( A \cap B \cap C^{'} ) ∶ P ( A \cap B^{'} \cap C ) ∶ P ( A^{'} \cap B \cap C ) = 3 : 4 : 1
+P ( A ) ∶ P ( B ) = 9 : 10$
 
 Draw a Venn diagram to illustrate the probabilities.
 
@@ -479,9 +479,9 @@ Find:
 
 (i) $P(A\cupB^{'}\cupC)$
 
-(ii) `P left parenthesis A union left parenthesis B intersection C to the power of apostrophe right parenthesis vertical line A union C right parenthesis`
+(ii) $P ( A \cup ( B \cap C^{'} ) \vert A \cup C )$
 
-(iii) `P left parenthesis B union C vertical line left parenthesis A union B union C right parenthesis union left parenthesis A union B union C right parenthesis to the power of apostrophe right parenthesis`
+(iii) $P ( B \cup C \vert ( A \cup B \cup C ) \cup ( A \cup B \cup C )^{'} )$
 
 ## Q29 — very_hard — 8 marks · exam-questions
 
@@ -503,17 +503,17 @@ One of the historians who was polled is selected at random.  Given that the hist
 ## Q30 — very_hard — 8 marks · exam-questions
 
 ### 1() — 3 marks — structured
-Events $A$and $B$ are such that  `straight P open parentheses A close parentheses equals 0.23`  and  `straight P open parentheses B close parentheses equals 0.72`.
+Events $A$and $B$ are such that  $\mathrm{P} ( A ) = 0.23$  and  $\mathrm{P} ( B ) = 0.72$.
 
-Given that `P open parentheses A to the power of apostrophe intersection B close parentheses equals p`, find the range of possible values of * *$p$.
+Given that $P ( A^{'} \cap B ) = p$, find the range of possible values of * *$p$.
 
 ### 2() — 2 marks — structured
-Additionally, event $C$ is such that `straight P open parentheses C close parentheses equals 0.53`  and `P open parentheses A intersection B intersection C close parentheses equals 0.17` .
+Additionally, event $C$ is such that $\mathrm{P} ( C ) = 0.53$  and $P ( A \cap B \cap C ) = 0.17$ .
 
 Determine whether this additional information would change your answer to part (a), and if it would then give the modified range of possible values of $p$ when this additional information is taken into account.
 
 ### 3() — 3 marks — structured
-Given that `P open parentheses A to the power of apostrophe intersection B intersection C close parentheses equals q`, find the range of possible values of $q$.
+Given that $P ( A^{'} \cap B \cap C ) = q$, find the range of possible values of $q$.
 
 ## Q31 — very_hard — 7 marks · exam-questions
 
@@ -549,15 +549,15 @@ Find the probability Lucy chose to go the The Seivom, given that she spent less 
 ## Q33 — very_hard — 4 marks · exam-questions
 
 ### 1() — 4 marks — structured
-$A$and $B$ are events such that  `P open parentheses A union B close parentheses equals x`, `P open parentheses A intersection B to the power of apostrophe close parentheses equals y` and `P open parentheses A to the power of apostrophe intersection B close parentheses equals z`,  where  $x\neqz$  and  $y\neq0$.
+$A$and $B$ are events such that  $P ( A \cup B ) = x$, $P ( A \cap B^{'} ) = y$ and $P ( A^{'} \cap B ) = z$,  where  $x\neqz$  and  $y\neq0$.
 
 Find the following probabilities in terms of $x,y$and $z$:
 
-(i) `straight P open parentheses A intersection B close parentheses`
+(i) $\mathrm{P} ( A \cap B )$
 
-(ii) `P open parentheses B vertical line A close parentheses`
+(ii) $P ( B \vert A )$
 
-(iii) `P open parentheses A vertical line B to the power of apostrophe close parentheses`
+(iii) $P ( A \vert B^{'} )$
 
 ## Q34 — very_hard — 7 marks · exam-questions
 

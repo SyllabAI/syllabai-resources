@@ -52,7 +52,7 @@ guided_study: false
 
 #### How do I find the centre of mass of a framework?
 
-- In short, find the **length** and **position** of the **centre** of **mass** for each **individual** rod, then treating these each as a ***particle*** with **mass** **equal** to the **length** of the rod, use the equation  `sum for blank of m subscript i r subscript i space equals top enclose r space stack sum m subscript i with blank below` to find the position vector of the centre of mass of the framework (Revision Note 2.1.1)
+- In short, find the **length** and **position** of the **centre** of **mass** for each **individual** rod, then treating these each as a ***particle*** with **mass** **equal** to the **length** of the rod, use the equation  $\sum m_{i} r_{i} = \vec{r} \sum m_{i}$ to find the position vector of the centre of mass of the framework (Revision Note 2.1.1)
 
 STEP 1   Sketch a diagram, or add to a diagram if one has been given
 
@@ -74,15 +74,15 @@ The length of the diagonal rod (Rod 3) is found by Pythagoras’ Theorem, $\sqrt
 
 STEP 3   Treat the **midpoints** as the positions of **particles** with **masses** the length of the rods.
 
-Use `begin mathsize 16px style sum for blank of m subscript i r subscript i space equals top enclose r sum for blank of m subscript i end style` to find the ***position vector*** of the centre of mass (G) of the framework.
+Use $\sum m_{i} r_{i} = \vec{r} \sum m_{i}$ to find the ***position vector*** of the centre of mass (G) of the framework.
 
 Remember to give the final answer in the required format.
 
-e.g.  `8 left parenthesis 2 bold i space plus 6 bold j right parenthesis space plus space 6 left parenthesis 5 bold i space plus 10 bold j right parenthesis plus 10 left parenthesis 5 bold i plus 6 bold j right parenthesis space equals space 24 left parenthesis top enclose x bold i plus top enclose y bold j right parenthesis`
+e.g.  $8 ( 2 i + 6 j ) + 6 ( 5 i + 10 j ) + 10 ( 5 i + 6 j ) = 24 ( \vec{x} i + \vec{y} j )$
 
-`24 left parenthesis top enclose x bold i plus top enclose y bold j right parenthesis equals 96 bold i bold space plus 168 bold j`
+$24 ( \vec{x} i + \vec{y} j ) = 96 i + 168 j$
 
-`top enclose straight r space equals open parentheses top enclose x bold i plus top enclose y bold j close parentheses space equals 4 bold i plus 7 bold j`
+$\vec{r} = ( \vec{x} i + \vec{y} j ) = 4 i + 7 j$
 
 So the coordinates of the centre of mass (*G*) of the framework are (4, 7)
 

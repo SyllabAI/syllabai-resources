@@ -169,7 +169,7 @@ Explain why.
 ## Q9 — easy — 3 marks · exam-questions
 
 ### 4((a)) — 2 marks — command: list — structured — from paper Jan 2020 · 4MA1/1HR
-`table attributes columnalign right center left columnspacing 0px end attributes row B equals cell open curly brackets straight b comma straight l comma straight u comma straight e close curly brackets end cell row G equals cell open curly brackets straight g comma straight r comma straight e comma straight y close curly brackets end cell row W equals cell open curly brackets straight w comma straight h comma straight i comma straight t comma straight e close curly brackets end cell end table`
+$\begin{array}{rcl} B = \{ \mathrm{b} , \mathrm{l} , \mathrm{u} , \mathrm{e} \} \\ G = \{ \mathrm{g} , \mathrm{r} , \mathrm{e} , \mathrm{y} \} \\ W = \{ \mathrm{w} , \mathrm{h} , \mathrm{i} , \mathrm{t} , \mathrm{e} \} \end{array}$
 
 List all the members of the set
 
@@ -205,7 +205,7 @@ ii) List the members of the set $Bʹ$
 ## Q11 — easy — 4 marks · exam-questions
 
 ### 3((a)) — 1 mark — command: explain — structured — from paper June 2019 · 4MA1/2H
-`table attributes columnalign right center left columnspacing 0px end attributes row cell calligraphic E space end cell equals cell space open curly brackets 1 comma 2 comma 3 comma 4 comma 5 comma 6 comma 7 comma 8 comma 9 comma 10 close curly brackets end cell row cell A space end cell equals cell space open curly brackets 2 comma 3 comma 5 comma 7 close curly brackets end cell row cell B space end cell equals cell thin space open curly brackets 4 comma 6 comma 8 comma 10 close curly brackets end cell end table`
+$\begin{array}{rcl} \text{calligraphic} E & = \{ 1 , 2 , 3 , 4 , 5 , 6 , 7 , 8 , 9 , 10 \} \\ A & = \{ 2 , 3 , 5 , 7 \} \\ B & = \{ 4 , 6 , 8 , 10 \} \end{array}$
 
 Explain why $A\capB=\emptyset$
 
@@ -217,7 +217,7 @@ Write down the **two** possible values of $x$.
 ### 3((c)) — 2 marks — command: list — structured — from paper June 2019 · 4MA1/2H
 Set $C$ is such that
 
-`table row cell A space union space B space union space C space end cell equals cell space calligraphic E end cell row cell A space intersection space C space end cell equals cell space open curly brackets 2 close curly brackets end cell row cell B space intersection space C apostrophe space end cell equals cell space open curly brackets 4 space comma space 6 space comma space 10 close curly brackets end cell row blank blank blank end table`
+$\begin{gathered} A \cup B \cup C & = \text{calligraphic} E \\ A \cap C & = \{ 2 \} \\ B \cap C ' & = \{ 4 , 6 , 10 \} \\ \end{gathered}$
 
 List all the members of set $C$.
 
@@ -234,7 +234,7 @@ List the members of the set $A$.
 List the members of the set $A\capB$.
 
 ### 1((c)) — 1 mark — command: list — structured — from paper 2023 Nov · 4MA1/1H
-List the members of the set `open parentheses A union B close parentheses apostrophe`.
+List the members of the set $( A \cup B ) '$.
 
 ## Q13 — medium — 2 marks · exam-questions
 
@@ -527,7 +527,7 @@ ii) $n(Aʹ\capBʹ)$
 
 [1]
 
-iii) `n left parenthesis left square bracket A space intersection space B right square bracket space union space C right parenthesis`
+iii) $n ( [ A \text{intersection} B ] \text{union} C )$
 
 [1]
 
@@ -830,12 +830,12 @@ The numbers and the letter $x$ represent **numbers** of elements.
 
 ![Three-circle Venn diagram with circles A, B, C. Numbers 9, 12, 5, 7, 10, 3, x are distributed within and outside the circles.](assets/004-three-circle-venn-diagram-with-circles-a-b-c-num.png)
 
-Given that `straight n open parentheses A union B close parentheses` = 42
+Given that $\mathrm{n} ( A \cup B )$ = 42
 
 find the value of $x$.
 
 ### 16((b)) — 1 mark — command: find — structured — from paper 2023 June · 4MA1/1H
-Find  `n open parentheses A apostrophe close parentheses`
+Find  $n ( A ' )$
 
 ### 16((c)) — 1 mark — command: find — structured — from paper 2023 June · 4MA1/1H
-Find `straight n open parentheses B apostrophe intersection C close parentheses`
+Find $\mathrm{n} ( B ' \cap C )$

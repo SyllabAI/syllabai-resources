@@ -25,16 +25,13 @@ guided_study: false
   - First choose the most appropriate parts of the expression to assign to *a *and *b*
   - Then use the formula for the binomial theorem:
 
-`open parentheses a plus b close parentheses to the power of n equals a to the power of n plus blank open parentheses straight n
-1 close parentheses a to the power of n minus 1 space end exponent b space plus blank open parentheses n
-2 close parentheses a to the power of n minus 2 space end exponent b squared space plus horizontal ellipsis space plus space open parentheses n
-r close parentheses a blank to the power of n minus r end exponent space b blank to the power of r space end exponent plus space horizontal ellipsis space plus space b to the power of n`
+`( a + b ) ^ n = a ^ n + _ ( n 1 ) a ^ n - 1 b + _ ( n 2 ) a ^ n - 2 b ^2 + horizontal ellipsis + ( n r ) a _ ^ n - r b _ ^ r + horizontal ellipsis + b ^ n`
 
-- where $n$ is a positive integer and  `open parentheses n
-r close parentheses equals fraction numerator n factorial over denominator open parentheses n minus r close parentheses factorial r factorial end fraction`
+- where $n$ is a positive integer and  $( n
+r ) = \frac{n factorial}{( n - r ) \text{factorial} r factorial}$
 
-  - You may also see `open parentheses n
-  r close parentheses`  written as `scriptbase straight C subscript r end scriptbase presubscript blank presuperscript n` or `straight C presubscript space n end presubscript subscript r`
+  - You may also see $( n
+ r )$  written as `C _ r _ _ ^ n` or `C _ n _ r`
 - You will usually be asked to find the first three or four terms of an expansion
 
 ### What is Pascal’s Triangle?
@@ -50,14 +47,14 @@ r close parentheses equals fraction numerator n factorial over denominator open 
 
 ### How does Pascal’s Triangle relate to the binomial expansion?
 
-- Pascal’s triangle is an alternative way of finding the binomial coefficients, `open parentheses n
-r close parentheses`
+- Pascal’s triangle is an alternative way of finding the binomial coefficients, $( n
+r )$
 
   - It can be useful for finding for smaller values of $n$ without a calculator
   - However for larger values of $n$ it is slow and prone to arithmetic errors
 
-- Taking the first row as the 0th row, `open parentheses 0
-0 close parentheses space equals space 1`, each row corresponds to the $n^{th}$* *row and the term within that row corresponds to the $r^{th}$* *term
+- Taking the first row as the 0th row, $( 0
+0 ) = 1$, each row corresponds to the $n^{th}$* *row and the term within that row corresponds to the $r^{th}$* *term
 
   - The first term, which will be a 1, will be the 0th term
 - In the non-calculator exam Pascal's triangle can be helpful if you need to get the coefficients of an expansion quickly, provided the value of *n *is not too big
@@ -67,8 +64,8 @@ r close parentheses`
 - Most of the time you will be asked to find the coefficient of a term, rather than carry out the whole expansion
 - Use the formula for the general term
 
-`open parentheses n
-r close parentheses space a to the power of n minus r end exponent space b to the power of r`
+$( n
+r ) a^{n - r} b^{r}$
 
 - The question will give you the power of *x* of the term you are looking for
 
@@ -79,7 +76,7 @@ r close parentheses space a to the power of n minus r end exponent space b to th
     - For $(a+bx)^{n}$* *to find the coefficient of $x^{r}$* *use $a^{n-r}(bx)^{r}$
     - For $(a+bx^{2})^{n}$ to find the coefficient of $x^{r}$* *use <sup>* *</sup>$a^{n-\frac{r}{2}}(bx^{2})^{\frac{r}{2}}$
     - For $(a+\frac{b}{x})^{n}$ look at how the powers will cancel out to decide which value of $r$ to use
-  - So for `open parentheses 3 x blank plus 2 over x close parentheses to the power of 8` to find the coefficient of $x^{2}$ use the term with $r=3$ and to find the constant term use the term with $r=4$
+  - So for $( 3 x + \frac{2}{x} )^{8}$ to find the coefficient of $x^{2}$ use the term with $r=3$ and to find the constant term use the term with $r=4$
   
     - There are a lot of variations of this so it is usually easier to see this by inspection of the powers
 - You may also be given the coefficient of a particular term and asked to find an unknown in the brackets
@@ -96,16 +93,13 @@ r close parentheses space a to the power of n minus r end exponent space b to th
 > 
 > $a=3,b=-2x,n=5$
 > 
-> > *Substitute values into the formula for (**a** + **b**)*<sup>*n*</sup>*. The question asks for ascending powers of **x**, so start with the constant term, **a*<sup>*n*</sup>*. *`stretchy left parenthesis a plus b stretchy right parenthesis to the power of n equals a to the power of n plus blank open parentheses n
-> 1 close parentheses a to the power of n minus 1 space end exponent b space plus blank open parentheses n
-> 2 close parentheses a to the power of n minus 2 space end exponent b squared space plus horizontal ellipsis space plus space open parentheses n
-> r close parentheses a blank to the power of n minus r end exponent space b blank to the power of r space end exponent plus space horizontal ellipsis space plus space b to the power of n`*.*
+> > *Substitute values into the formula for (**a** + **b**)*<sup>*n*</sup>*. The question asks for ascending powers of **x**, so start with the constant term, **a*<sup>*n*</sup>*. *`stretchy ( a + b stretchy ) ^ n = a ^ n + _ ( n > 1 ) a ^ n - 1 b + _ ( n > 2 ) a ^ n - 2 b ^2 + horizontal ellipsis + ( n > r ) a _ ^ n - r b _ ^ r + horizontal ellipsis + b ^ n`*.*
 > 
 > > *Pay attention to the negative term for **b. *
 > 
-> `table row cell stretchy left parenthesis 3 minus 2 x stretchy right parenthesis to the power of 5 end cell equals cell 3 to the power of 5 plus blank open parentheses 5
-> 1 close parentheses stretchy left parenthesis 3 stretchy right parenthesis to the power of 5 minus 1 space end exponent stretchy left parenthesis negative 2 x stretchy right parenthesis space plus blank open parentheses 5
-> 2 close parentheses stretchy left parenthesis 3 stretchy right parenthesis to the power of 5 minus 2 space end exponent stretchy left parenthesis negative 2 x stretchy right parenthesis squared space plus horizontal ellipsis space end cell row blank equals cell 243 space plus space stretchy left parenthesis 5 stretchy right parenthesis stretchy left parenthesis 81 stretchy right parenthesis stretchy left parenthesis negative 2 x stretchy right parenthesis space plus space stretchy left parenthesis 10 stretchy right parenthesis stretchy left parenthesis 27 stretchy right parenthesis stretchy left parenthesis 4 x squared stretchy right parenthesis end cell row blank equals cell space 243 space plus space stretchy left parenthesis 405 stretchy right parenthesis stretchy left parenthesis negative 2 x stretchy right parenthesis space plus space 270 stretchy left parenthesis 4 x squared stretchy right parenthesis end cell end table`
+> $\begin{gathered} ( 3 - 2 x )^{5} & = 3^{5} + ( 5
+> 1 ) ( 3 )^{5 - 1 } ( - 2 x ) + ( 5
+> 2 ) ( 3 )^{5 - 2 } ( - 2 x )^{2} + \text{horizontal} \text{ellipsis} \\ = 243 + ( 5 ) ( 81 ) ( - 2 x ) + ( 10 ) ( 27 ) ( 4 x^{2} ) \\ = 243 + ( 405 ) ( - 2 x ) + 270 ( 4 x^{2} ) \end{gathered}$
 > 
 > $(3-2x)^{5}=243-810x+1080x^{2}+...$
 

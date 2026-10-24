@@ -41,7 +41,7 @@ guided_study: false
 - Recall that vectors may be written using $i,j,k$**reference unit vectors** or as **column vectors**
 - It follows that in a vector equation of a line either form can be employed – for example,
 
-`r equals 3 i plus j minus 7 k plus t open parentheses i minus 2 j close parentheses`  and  `r equals open parentheses table row 3 row 1 row cell negative 7 end cell end table close parentheses plus t open parentheses table row 1 row cell negative 2 end cell row 0 end table close parentheses`
+$r = 3 i + j - 7 k + t ( i - 2 j )$  and  $r = ( \begin{gathered} 3 \\ 1 \\ - 7 \end{gathered} ) + t ( \begin{gathered} 1 \\ - 2 \\ 0 \end{gathered} )$
 
 show the same equation written using the two different forms
 
@@ -67,7 +67,7 @@ show the same equation written using the two different forms
   - $x-2y=5$ and $3x-6y=15$
 - For vector equations this is not true – two equations might look different but still represent the same line:
 
-  - `bold r equals open parentheses table row 5 row 0 end table close parentheses plus t open parentheses table row 2 row 1 end table close parentheses` and `bold r equals open parentheses table row 1 row cell negative 2 end cell end table close parentheses plus t open parentheses table row cell negative 2 end cell row cell negative 1 end cell end table close parentheses`
+  - $r = ( \begin{gathered} 5 \\ 0 \end{gathered} ) + t ( \begin{gathered} 2 \\ 1 \end{gathered} )$ and $r = ( \begin{gathered} 1 \\ - 2 \end{gathered} ) + t ( \begin{gathered} - 2 \\ - 1 \end{gathered} )$
 
 > **Worked Example**
 > ![7-3-1-equation-of-a-line-in-vector-form-we-solution-part-1](assets/ee896e47f4c0-7-3-1-equation-of-a-line-in-vector-form-we-solut.png)

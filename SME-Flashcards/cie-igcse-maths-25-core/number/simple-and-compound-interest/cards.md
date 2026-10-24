@@ -58,7 +58,7 @@ E.g. Simple interest is added to an investment of \$600 at a rate of 3.5% per ye
 
 Given an original amount, the final amount and the rate of simple interest, you can calculate the number of time periods over which the interest is paid by **subtracting** **the original amount from the final amount** (finding the total interest) and **dividing** the result by the** original amount** and the **rate of simple interest**.
 
-E.g. `equation``fraction numerator 684 minus 600 over denominator 600 cross times open parentheses fraction numerator 3.5 over denominator 100 end fraction close parentheses space end fraction equals 4`
+E.g. `equation`$\frac{684 - 600}{600 \times ( \frac{3.5}{100} ) } = 4$
 
 
 

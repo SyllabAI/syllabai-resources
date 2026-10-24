@@ -60,7 +60,7 @@ $1+2^{x}>x+3$
 
 The solutions in part (b) are also solutions to the equation below, where $p$ and $q$ are positive integers.
 
-`x equals log subscript p open parentheses x plus q close parentheses`
+$x = log_{p} ( x + q )$
 
 Find $p$ and $q$.
 
@@ -68,7 +68,7 @@ Find $p$ and $q$.
 
 **Q3** [4 marks]
 
-On the diagram, sketch the graphs of  `table row y equals cell fraction numerator 1 over denominator x squared plus 1 end fraction end cell end table`  and  `table row y equals cell x cubed minus 2 x end cell end table`.
+On the diagram, sketch the graphs of  $\begin{gathered} y = \frac{1}{x^{2} + 1} \end{gathered}$  and  $\begin{gathered} y = x^{3} - 2 x \end{gathered}$.
 
 ![Axes labelled -2.5 to 3 on the x axis and -1.5 to 2 on the y axis](assets/009-axes-labelled-2-5-to-3-on-the-x-axis-and-1-5-to-.png)
 
@@ -76,13 +76,13 @@ On the diagram, sketch the graphs of  `table row y equals cell fraction numerato
 
 Solve.
 
-`table row cell fraction numerator 1 over denominator x squared plus 1 end fraction end cell equals cell x cubed minus 2 x end cell end table`
+$\begin{gathered} \frac{1}{x^{2} + 1} & = x^{3} - 2 x \end{gathered}$
 
 **Q3** [2 marks]
 
 Solve.
 
-`table row cell fraction numerator 1 over denominator x squared plus 1 end fraction space end cell less than cell space x cubed minus 2 x end cell end table`
+$\begin{gathered} \frac{1}{x^{2} + 1} & < x^{3} - 2 x \end{gathered}$
 
 **Q3** [1 mark]
 
@@ -111,9 +111,9 @@ $y=$ ..................................................
 
 ![Graph with x and y axes, centred at zero. x-axis ranges from -5 to 5, y-axis from -9 to 8, both with arrows indicating positive direction.](assets/014-graph-with-x-and-y-axes-centred-at-zero-x-axis-r.png)
 
-`space straight f open parentheses x close parentheses equals x plus fraction numerator 5 over denominator open parentheses x minus 2 close parentheses open parentheses x plus 3 close parentheses end fraction`
+$\mathrm{f} ( x ) = x + \frac{5}{( x - 2 ) ( x + 3 )}$
 
-Sketch the graph of `space y equals straight f open parentheses x close parentheses` for values of $x$ between $-5$ and $5$.
+Sketch the graph of $y = \mathrm{f} ( x )$ for values of $x$ between $-5$ and $5$.
 
 *Source: Nov 22 0607/42 Q11A*
 
@@ -143,7 +143,7 @@ f(x) = x + \frac{5}{(x-2)(x+3)}
 
 (............ , ............) [2]
 
-(iii) Write down the range of values of $k$ for which `straight f open parentheses x close parentheses equals k` has exactly one solution.
+(iii) Write down the range of values of $k$ for which $\mathrm{f} ( x ) = k$ has exactly one solution.
 
 [2]
 
@@ -157,13 +157,13 @@ f(x) = x + \frac{5}{(x-2)(x+3)}
 f(x) = x + 5/[(x-2)(x+3)]
 g(x) = -4 - x
 
-`straight g open parentheses x close parentheses equals negative 4 minus x`
+$\mathrm{g} ( x ) = - 4 - x$
 
-(i) Solve the equation `straight f open parentheses x close parentheses equals straight g open parentheses x close parentheses.`
+(i) Solve the equation $\mathrm{f} ( x ) = \mathrm{g} ( x ).$
 
 [3]
 
-(ii) Find the solutions to the inequality `straight f open parentheses x close parentheses greater than straight g open parentheses x close parentheses.`
+(ii) Find the solutions to the inequality $\mathrm{f} ( x ) > \mathrm{g} ( x ).$
 
 [3]
 
@@ -208,7 +208,7 @@ Use your graphs to solve $x^{3}-2x>1$.
 
 $f(x)=x^{3}-5x+3$  for  $-3\leqx\leq3$
 
-On the diagram, sketch the graph of `y equals straight f open parentheses x close parentheses`.
+On the diagram, sketch the graph of $y = \mathrm{f} ( x )$.
 
 *Source: June 2022 0607/43 Q5A*
 
@@ -287,9 +287,9 @@ Write down a reason why the visibility given by the model might be different to 
 
 ![Graph with a horizontal x-axis from 0 to 360 and a vertical y-axis from -1 to 1. Both axes are labelled x and y respectively.](assets/025-graph-with-a-horizontal-x-axis-from-0-to-360-and.png)
 
-`straight f open parentheses x close parentheses equals open parentheses cos space x degree close parentheses squared`                   `straight g open parentheses x close parentheses equals 0.5 minus 0.001 x`
+$\mathrm{f} ( x ) = ( \cos x^{\circ} )^{2}$                   $\mathrm{g} ( x ) = 0.5 - 0.001 x$
 
-On the diagram, sketch the graph of `space y equals straight f open parentheses x close parentheses` for  $0\leqx\leq360.$
+On the diagram, sketch the graph of $y = \mathrm{f} ( x )$ for  $0\leqx\leq360.$
 
 **Q9** [2 marks]
 
@@ -307,7 +307,7 @@ On the same diagram, sketch the graph of $y=g(x)$ for  $0\leqx\leq360.$
 f(x) = (cos x°)^2
 g(x) = 0.5 - 0.001x
 
-Solve `straight f open parentheses x close parentheses equals straight g open parentheses x close parentheses`  for  $0\leqx\leq360.$
+Solve $\mathrm{f} ( x ) = \mathrm{g} ( x )$  for  $0\leqx\leq360.$
 
 **Q9** [3 marks]
 
@@ -317,7 +317,7 @@ f(x) = (cos x°)^2
 g(x) = 0.5 - 0.001x
 for 0 ≤ x ≤ 360
 
-Solve `straight f open parentheses x close parentheses less than straight g open parentheses x close parentheses`  for  $0\leqx\leq360.$
+Solve $\mathrm{f} ( x ) < \mathrm{g} ( x )$  for  $0\leqx\leq360.$
 
 ### Q10 — very_hard — 14 marks
 
@@ -325,9 +325,9 @@ Solve `straight f open parentheses x close parentheses less than straight g open
 
 ![Cartesian coordinate plane with x-axis ranging from -6 to 6 and y-axis from -9 to 9, intersecting at the origin (0, 0).](assets/029-cartesian-coordinate-plane-with-x-axis-ranging-f.png)
 
-`straight f open parentheses x close parentheses equals fraction numerator x squared plus 3 x over denominator open parentheses x minus 2 close parentheses open parentheses x plus 1 close parentheses end fraction`
+$\mathrm{f} ( x ) = \frac{x^{2} + 3 x}{( x - 2 ) ( x + 1 )}$
 
-On the diagram sketch the graph of  `y equals straight f open parentheses x close parentheses`  for values of $x$ between $-6$ and $6.$
+On the diagram sketch the graph of  $y = \mathrm{f} ( x )$  for values of $x$ between $-6$ and $6.$
 
 *Source: June 2023 0607/42 Q6A*
 
@@ -349,7 +349,7 @@ Write down the equations of the asymptotes parallel to the $y$‑axis.
 
 f(x) = (x^2 + 3x)/[(x - 2)(x + 1)]
 
-Find the zeros of the graph of `y equals straight f open parentheses x close parentheses`.
+Find the zeros of the graph of $y = \mathrm{f} ( x )$.
 
 *Source: June 2023 0607/42 Q6C*
 
@@ -361,17 +361,17 @@ Find the zeros of the graph of `y equals straight f open parentheses x close par
 f(x) = (x^2 + 3x)/[(x - 2)(x + 1)]
 On the diagram sketch the graph of y = f(x) for values of x between -6 and 6.
 
-`straight g open parentheses x close parentheses equals x minus 3`
+$\mathrm{g} ( x ) = x - 3$
 
-(i)   On the diagram, sketch the graph of  `y equals straight g open parentheses x close parentheses`  for  $-6\leqx\leq6.$
+(i)   On the diagram, sketch the graph of  $y = \mathrm{g} ( x )$  for  $-6\leqx\leq6.$
 
 [1]
 
-(ii)  Use your graphs to solve  `straight f open parentheses x close parentheses equals straight g open parentheses x close parentheses`.
+(ii)  Use your graphs to solve  $\mathrm{f} ( x ) = \mathrm{g} ( x )$.
 
 [3]
 
-(iii) Solve  `straight g open parentheses x close parentheses greater than straight f open parentheses x close parentheses`.
+(iii) Solve  $\mathrm{g} ( x ) > \mathrm{f} ( x )$.
 
 [3]
 
@@ -397,9 +397,9 @@ $x=$.......................
 
 ![A Cartesian coordinate plane with x-axis ranging from -1 to 4.7 and y-axis ranging from -10 to 9.](assets/034-a-cartesian-coordinate-plane-with-x-axis-ranging.png)
 
-`straight f left parenthesis x right parenthesis equals open parentheses x minus 2 close parentheses cubed minus 5 x plus 12`  for  $-1\leqx\leq4.7$
+$\mathrm{f} ( x ) = ( x - 2 )^{3} - 5 x + 12$  for  $-1\leqx\leq4.7$
 
-On the diagram, sketch the graph of `y equals straight f open parentheses x close parentheses`.
+On the diagram, sketch the graph of $y = \mathrm{f} ( x )$.
 
 *Source: Nov 2023 0607/42 Q5B(I)*
 
@@ -417,7 +417,7 @@ Write down the coordinates of the local maximum.
 
 f(x) = (x - 2)^3 - 5x + 12
 
-The equation `open parentheses x minus 2 close parentheses cubed minus 5 x plus 12 equals k` has exactly 2 solutions.
+The equation $( x - 2 )^{3} - 5 x + 12 = k$ has exactly 2 solutions.
 
 Find the values of $k$.
 
@@ -426,9 +426,9 @@ Find the values of $k$.
 
 **Q12** [2 marks]
 
-`straight g left parenthesis x right parenthesis equals negative open parentheses x minus 1 close parentheses squared`  for  $-1\leqx\leq4.7$
+$\mathrm{g} ( x ) = - ( x - 1 )^{2}$  for  $-1\leqx\leq4.7$
 
-On the diagram, sketch the graph of `y equals straight g open parentheses x close parentheses`.
+On the diagram, sketch the graph of $y = \mathrm{g} ( x )$.
 
 *Source: Nov 2023 0607/42 Q5B(IV)*
 
@@ -440,7 +440,7 @@ On the diagram, sketch the graph of `y equals straight g open parentheses x clos
 f(x) = (x - 2)^3 - 5x + 12 for -1 ≤ x ≤ 4.7
 g(x) = -(x - 1)^2 for -1 ≤ x ≤ 4.7
 
-Solve `straight f left parenthesis x right parenthesis equals straight g open parentheses x close parentheses`.
+Solve $\mathrm{f} ( x ) = \mathrm{g} ( x )$.
 
 *Source: Nov 2023 0607/42 Q5B(V)*
 
@@ -451,9 +451,9 @@ Solve `straight f left parenthesis x right parenthesis equals straight g open pa
 
 ![Graph with x-axis labeled from 0 to 360 and y-axis labeled from -10 to 10. Both axes have arrows indicating positive direction.](assets/038-graph-with-x-axis-labeled-from-0-to-360-and-y-ax.png)
 
-`straight f open parentheses x close parentheses equals fraction numerator 1 over denominator sin x degree end fraction` for $0\leqx\leq360$
+$\mathrm{f} ( x ) = \frac{1}{\sin x^{\circ}}$ for $0\leqx\leq360$
 
-On the diagram, sketch the graph of `y equals straight f open parentheses x close parentheses`.
+On the diagram, sketch the graph of $y = \mathrm{f} ( x )$.
 
 *Source: November  2023 0607/41 Q2A*
 
@@ -486,7 +486,7 @@ Write down the equations of the three asymptotes of the graph of $y=f(x)$.
 
 f(x) = 1/sin(x°) for 0 ≤ x ≤ 360
 
-The equation `straight f open parentheses x close parentheses equals k` has no solutions.
+The equation $\mathrm{f} ( x ) = k$ has no solutions.
 
 Write down the range of values of $k$.
 
@@ -501,7 +501,7 @@ Graph with x-axis labeled from 0 to 360 and y-axis labeled from -10 to 10. Both 
 y = f(x) = 1/sin(x) for 0 ≤ x ≤ 360
 On the diagram, sketch the graph of y = f(x).
 
-By sketching another graph on the diagram, solve the equation `fraction numerator 1 over denominator sin space x degree end fraction equals 5 sin open parentheses x over 2 close parentheses degree` for $0\leqx\leq360^{\circ}$.
+By sketching another graph on the diagram, solve the equation $\frac{1}{\sin x^{\circ}} = 5 \sin ( \frac{x}{2} )^{\circ}$ for $0\leqx\leq360^{\circ}$.
 
 *Source: November 2023 0607/41 Q2E*
 
@@ -525,9 +525,9 @@ $2^{x}+x>5$
 
 ![A coordinate plane with the x-axis labelled from 0 to 4 and the y-axis labelled from -1 to 5. Both axes have arrows indicating positive directions.](assets/043-a-coordinate-plane-with-the-x-axis-labelled-from.png)
 
-`straight f open parentheses x close parentheses equals 5 minus 1.25 x space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space straight g open parentheses x close parentheses space equals 1.5 x minus 1`
+$\mathrm{f} ( x ) = 5 - 1.25 x \mathrm{g} ( x ) = 1.5 x - 1$
 
-On the diagram, sketch the graph of `y equals straight f open parentheses x close parentheses`  for  $0\leqx\leq4.$
+On the diagram, sketch the graph of $y = \mathrm{f} ( x )$  for  $0\leqx\leq4.$
 
 *Source: 2025 Specimen Q2A*
 
@@ -538,7 +538,7 @@ On the diagram, sketch the graph of `y equals straight f open parentheses x clos
 
 g(x) = 1.5 x - 1
 
-On the diagram, sketch the graph of `y equals straight g open parentheses x close parentheses` for $0\leqx\leq4.$
+On the diagram, sketch the graph of $y = \mathrm{g} ( x )$ for $0\leqx\leq4.$
 
 *Source: 2025 Specimen Q2B*
 

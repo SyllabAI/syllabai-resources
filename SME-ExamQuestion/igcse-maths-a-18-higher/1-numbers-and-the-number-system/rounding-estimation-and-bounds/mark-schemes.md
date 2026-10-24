@@ -16,7 +16,7 @@
 $12.5\leqL<13.5$* *
 **One mark for each**** [2]**
 
-`13.4 9 with dot on top`** is accepted for the higher bound.**
+$13.4 \dot{9}$** is accepted for the higher bound.**
 
 ## Q2 — easy — 2 marks · exam-questions
 
@@ -103,7 +103,7 @@ ii) *19 000 is what numbers would round to after 18 000. The upper bound will be
 
 > *Estimate the value of the calculation using the approximations.*
 
-`table row cell fraction numerator 326.8 space cross times open parentheses 6.94 space minus space 3.4 close parentheses over denominator 59.4 end fraction end cell equals cell fraction numerator 300 cross times open parentheses 7 minus 3 close parentheses over denominator 60 end fraction end cell row blank equals cell fraction numerator 300 cross times 4 over denominator 60 end fraction end cell row blank equals cell 1200 over 60 end cell row blank equals 20 end table`
+$\begin{gathered} \frac{326.8 \times ( 6.94 - 3.4 )}{59.4} & = \frac{300 \times ( 7 - 3 )}{60} \\ = \frac{300 \times 4}{60} \\ = \frac{1200}{60} \\ = 20 \end{gathered}$
 
 > *Check whether Asha's answer is near the estimate.*
 
@@ -137,7 +137,7 @@ $r=4.35+\frac{1}{0.35}=\frac{1009}{140}$
 
 $\frac{1009}{140}$* ***[1]**
 
-**The exact decimal answer is **`7.20 7 with dot on top 1428 5 with dot on top`** but any answer in the range 7.20 - 7.21 is accepted.**
+**The exact decimal answer is **$7.20 \dot{7} 1428 \dot{5}$** but any answer in the range 7.20 - 7.21 is accepted.**
 
 ## Q8 — medium — 3 marks · exam-questions
 
@@ -152,7 +152,7 @@ $\frac{1009}{140}$* ***[1]**
 
 > *Use your calculator to find *$I$*.*
 
-`I equals 5 open parentheses 14.5 minus 8.65 close parentheses equals 29.25`
+$I = 5 ( 14.5 - 8.65 ) = 29.25$
 
 **[1]**
 
@@ -250,11 +250,11 @@ $\sqrt{63.5\times101.7}=\sqrt{64\times100}=\sqrt{6400}=80$
 ### 8((b)) — 1 marks
 > *Consider that 0.23 is ten times smaller than 2.3. In full,*
 
-`table row cell left parenthesis 2.3 right parenthesis to the power of 6 end cell equals cell 2.3 cross times 2.3 cross times 2.3 cross times 2.3 cross times 2.3 cross times 2.3 end cell row cell left parenthesis 0.23 right parenthesis to the power of 6 space end cell equals cell 0.23 cross times 0.23 cross times 0.23 cross times 0.23 cross times 0.23 cross times 0.23 end cell end table`
+$\begin{gathered} ( 2.3 )^{6} & = 2.3 \times 2.3 \times 2.3 \times 2.3 \times 2.3 \times 2.3 \\ ( 0.23 )^{6} & = 0.23 \times 0.23 \times 0.23 \times 0.23 \times 0.23 \times 0.23 \end{gathered}$
 
-> *So *`open parentheses 0.23 close parentheses to the power of 6`* will be ten times smaller than *`open parentheses 2.3 close parentheses to the power of 6`* for every power.*
+> *So *$( 0.23 )^{6}$* will be ten times smaller than *$( 2.3 )^{6}$* for every power.*
 
-`therefore open parentheses 0.23 close parentheses to the power of 6 equals open parentheses 2.3 close parentheses to the power of 6 over open parentheses 10 close parentheses to the power of 6 almost equal to fraction numerator 148 over denominator 1 space 000 space 000 end fraction equals 0.000148`
+$\text{therefore} ( 0.23 ) ^{6} = ( 2.3 ) ^{\frac{6}{open}} \text{parentheses} 10 ) ^{6} \approx \frac{148}{1 000 000} = 0.000148$
 
 > *(Dividing by 1 000 000 moves digits six places to the right.)*
 
@@ -403,13 +403,13 @@ Round down
 
 | ***Value*** | ***Lower bound*** | ***Upper bound*** |
 |---|---|---|
-| `C equals 170 space mm space open parentheses nearest space mm close parentheses` | *169.5   (170 - 0.5)* | *170.5    (170 + 0.5)* |
-| `d equals 54 space mm space open parentheses nearest space millimetre close parentheses` | *53.5    (54 - 0.5)* | *54.5     (54 + 0.5)* |
+| $C = 170 mm ( \text{nearest} mm )$ | *169.5   (170 - 0.5)* | *170.5    (170 + 0.5)* |
+| $d = 54 mm ( \text{nearest} \text{millimetre} )$ | *53.5    (54 - 0.5)* | *54.5     (54 + 0.5)* |
 
 **One correct bound**** [1]**
 
-*Upper bound: *`straight pi equals fraction numerator 170.5 over denominator 53.5 end fraction equals 341 over 107 open parentheses equals 3.186 space 915 space... close parentheses`* *
-*Lower bound: *`straight pi equals fraction numerator 169.5 over denominator 54.5 end fraction equals 339 over 109 open parentheses equals 3.110 space 091 space... close parentheses`
+*Upper bound: *$\mathrm{\pi } = \frac{170.5}{53.5} = \frac{341}{107} ( = 3.186 915 ... )$* *
+*Lower bound: *$\mathrm{\pi } = \frac{169.5}{54.5} = \frac{339}{109} ( = 3.110 091 ... )$
 
 **One correct calculation**** [1]**
 
@@ -424,7 +424,7 @@ Round down
 ### 24() — 4 marks
 > *The formula connecting average speed, distance and time is*
 
-`open parentheses Average close parentheses space Speed equals Distance over Time`
+$( \text{Average} ) \text{Speed} = \frac{Distance}{Time}$
 
 > *This is a **division** calculation so for the lower bound for average speed we will need **distance** to be as **small** as possible - its **lower** bound, and **time** to be as **large** as possible - its **upper** bound.*
 
@@ -439,7 +439,7 @@ $\frac{202.5}{60}=3.375$
 
 **[1]**
 
-*∴ lower bound for average speed is *`fraction numerator 232.5 over denominator 3.375 end fraction equals 68.8 with dot on top`
+*∴ lower bound for average speed is *$\frac{232.5}{3.375} = 68. \dot{8}$
 
 **[1]**
 
@@ -464,7 +464,7 @@ $b=5.2\mathrm{cm}=52\mathrm{mm}$* so the lower bound of *$b$* is *$51.5\mathrm{m
 
 > *Substitute these bounds into the given formula.*
 
-`1 half cross times 7.75 cross times 5.15 cross times sin open parentheses 62.5 degree close parentheses equals 17.701 space 409 space....`
+$1 \frac{1}{2} \times 7.75 \times 5.15 \times \sin ( 62.5^{\circ} ) = 17.701 409 ....$
 
 **[1]**
 
@@ -490,7 +490,7 @@ $b=6.1\mathrm{cm}=61\mathrm{mm}$* so the lower bound is *$60.5\mathrm{mm}=6.05\m
 
 > *Substitute these into the rearranged Pythagoras' theorem.*
 
-`table row cell c squared end cell equals cell open parentheses 8.35 close parentheses squared minus open parentheses 6.05 close parentheses squared end cell row c equals cell square root of open parentheses 8.35 close parentheses squared minus open parentheses 6.05 close parentheses squared end root equals 5.754 space 997 space... end cell end table`
+$\begin{gathered} c^{2} & = ( 8.35 )^{2} - ( 6.05 )^{2} \\ c = \sqrt{( 8.35 )^{2} - ( 6.05 )^{2}} = 5.754 997 ... \end{gathered}$
 
 **Using correct bounds**** [1] **
 **Using Pythagoras' theorem ****[1]**
@@ -502,7 +502,7 @@ $b=6.1\mathrm{cm}=61\mathrm{mm}$* so the lower bound is *$60.5\mathrm{mm}=6.05\m
 ### 17((a)) — 4 marks
 > *The question suggests an **upper** bound - we need to find the largest possible average speed of the train and compare this to 160 km/h. The formula connecting average speed, distance and time is*
 
-`open parentheses Average close parentheses space Speed equals Distance over Time`
+$( \text{Average} ) \text{Speed} = \frac{Distance}{Time}$
 
 > *This is a **division** calculation so for the **upper** bound of average speed we will need **distance** to be as **large** as possible - its **upper** bound, and **time** to be as **small** as possible - its **lower** bound.*
 
@@ -513,11 +513,11 @@ $b=6.1\mathrm{cm}=61\mathrm{mm}$* so the lower bound is *$60.5\mathrm{mm}=6.05\m
 
 > *Time given is in minutes so convert this to hours by dividing by 60.*
 
-`fraction numerator 107.5 over denominator 60 end fraction equals 1.791 6 with dot on top`
+$\frac{107.5}{60} = 1.791 \dot{6}$
 
 **[1]**
 
-*∴ upper bound for average speed is *`fraction numerator 275 over denominator 1.791 6 with dot on top end fraction equals 153.488 space 372 space...`
+*∴ upper bound for average speed is *$\frac{275}{1.791 \dot{6} } = 153.488 372 ...$
 
 **[1]**
 
@@ -559,7 +559,7 @@ $100\times\frac{11.85}{147.5}=8.033898...$
 > *In general, to estimate, round each value in the question to one significant figure but bear in mind that we want the calculation to be quick and easy to do mentally. *
 *There are **three** to estimate - **volume**, **radius** and** π**.*
 
-`table row 98 almost equal to 100 row cell 5.13 end cell almost equal to 5 row straight pi almost equal to 3 end table`
+$\begin{gathered} 98 \approx 100 \\ 5.13 & \approx 5 \\ \mathrm{\pi } \approx 3 \end{gathered}$
 
 > *Substitute these into the given formula.*
 
@@ -653,7 +653,7 @@ $\mathrm{Number} \mathrm{of} \mathrm{bottles} \mathrm{of} \mathrm{milk}=6000\tim
 *Note that we have a mixture of units - seconds and hours - so change the number of hours to seconds.* 
 *(This involves multiplication which is easier than changing seconds to hours which would be division).*
 
-`table row cell 20 space hours end cell equals cell 20 cross times 60 equals 1200 space minutes end cell row cell 1200 space miunutes end cell equals cell 1200 cross times 60 equals 72 space 000 space seconds end cell end table`
+$\begin{gathered} 20 \text{hours} & = 20 \times 60 = 1200 \text{minutes} \\ 1200 \text{miunutes} & = 1200 \times 60 = 72 000 \text{seconds} \end{gathered}$
 
 **[1]**
 
@@ -733,7 +733,7 @@ $D=\frac{26.25^{2}}{2\times4.25}=81.066176...$
 
 > *Find the upper bound of the total mass by multiplying each item by the quantity and then adding together.*
 
-`table row cell 30 cross times 25.5 plus 20 cross times 7.55 end cell equals cell 765 plus 151 end cell row blank equals cell 916 space kg end cell end table`
+$\begin{gathered} 30 \times 25.5 + 20 \times 7.55 & = 765 + 151 \\ = 916 \text{kg} \end{gathered}$
 
 **Multiplying a bound by the correct quantity**** [1] **
 **Adding the two totals together**** [1]**
@@ -782,13 +782,13 @@ $\mathrm{Speed}=\frac{\mathrm{Distance}}{\mathrm{Time}}.$
 
 > *To find the smallest possible speed you need to use the smallest possible distance and the largest possible time.*
 
-`table row cell Lower space bound space for space speed end cell equals cell fraction numerator 52.5 over denominator 2.75 end fraction end cell row blank equals cell 210 over 11 end cell row blank equals cell 19.0909... end cell end table`
+$\begin{gathered} \text{Lower} \text{bound} \text{for} \text{speed} & = \frac{52.5}{2.75} \\ = \frac{210}{11} \\ = 19.0909... \end{gathered}$
 
 **[1]**
 
 > *To find the largest possible speed you need to use the largest possible distance and the smallest possible time.*
 
-`table row cell Upper space bound space for space speed end cell equals cell fraction numerator 53.5 over denominator 2.65 end fraction end cell row blank equals cell 1070 over 53 end cell row blank equals cell 20.1886... end cell end table`
+$\begin{gathered} \text{Upper} \text{bound} \text{for} \text{speed} & = \frac{53.5}{2.65} \\ = \frac{1070}{53} \\ = 20.1886... \end{gathered}$
 
 **[1]**
 
@@ -850,13 +850,13 @@ $125\div10=12.5$*cm*
 
 > *Calculate the greatest volume of the cube using the upper bound*
 
-`table row cell 12.55 cross times 12.55 cross times 12.55 end cell equals cell 12.55 cubed end cell row blank equals cell 1976.656... end cell end table`
+$\begin{gathered} 12.55 \times 12.55 \times 12.55 & = 12.55^{3} \\ = 1976.656... \end{gathered}$
 
 **[M1]**
 
 > *Calculate the greatest number of spheres by dividing the volume of the cube by the lower bound volume of the sphere*
 
-`table row cell fraction numerator UB space cube space volume over denominator LB thin space sphere space volume end fraction end cell equals cell fraction numerator 1976.656... over denominator 135 end fraction end cell row blank equals cell 14.641... end cell row blank blank blank end table`
+$\begin{gathered} \frac{UB \text{cube} volume}{LB \text{sphere} volume} & = \frac{1976.656...}{135} \\ = 14.641... \\ \end{gathered}$
 
 **[M1]**
 
@@ -893,9 +893,9 @@ $125\div10=12.5$*cm*
 
 > *Find the lower bound for the volume of the sphere by using the lower bound of the radius*
 
-`V equals 4 over 3 pi r cubed
-V italic equals 4 over 3 pi open parentheses 2.75 close parentheses cubed
-V italic equals 1331 over 48 pi`
+$V = \frac{4}{3} \pi r^{3}
+V = \frac{4}{3} \pi ( 2.75 )^{3}
+V = \frac{1331}{48} \pi$
 
 **[M1]**
 
@@ -903,7 +903,7 @@ V italic equals 1331 over 48 pi`
 
 $\mathrm{Density}=\frac{\mathrm{mass}}{\mathrm{volume}}$
 
-`straight D equals fraction numerator 265 pi over denominator 4 over 3 pi open parentheses 2.75 close parentheses cubed end fraction equals 9.55672......`
+$\mathrm{D} = \frac{265 pi}{\frac{4}{3} pi ( 2.75 ) ^{3} } = 9.55672......$
 
 **[M1]**
 
@@ -940,7 +940,7 @@ $12.5\leqy<17.5$
 > **[exam-tip]**
 > You need to use the upper bounds because the calculation involves multiplication and addition so you need it to be as big as possible.
 
-`P space equals space 8.35 open parentheses 2.5 space plus space 17.5 close parentheses`
+$P = 8.35 ( 2.5 + 17.5 )$
 
 **[M1]**
 
@@ -997,7 +997,7 @@ $\thereforem=0.229$** to three significant figures - this is the highest degree 
 ### 23() — 4 marks
 > *The question suggests an **upper** bound - we need to find the largest possible average speed for Kirsty and compare this to 80 km/h. The formula connecting average speed, distance and time is*
 
-`open parentheses Average close parentheses space Speed equals Distance over Time`
+$( \text{Average} ) \text{Speed} = \frac{Distance}{Time}$
 
 > *This is a **division** calculation so we will need **distance** to be as **large** as possible - its **upper** bound, and **time** to be as **small** as possible - its **lower** bound.*
 
@@ -1008,7 +1008,7 @@ $\thereforem=0.229$** to three significant figures - this is the highest degree 
 
 > *Be careful - the distance is given in metres and the time given is in seconds, the value we are comparing to is in kilometres per hour. Convert distance to kilometres by dividing by 1000 and convert seconds to hours by dividing by 60 twice. Then apply the formula for average speed.*
 
-`fraction numerator 4535 divided by 1000 over denominator 202.5 divided by 60 divided by 60 end fraction equals 80.6 2 with dot on top`
+$\frac{4535 \div 1000}{202.5 \div 60 \div 60} = 80.6 \dot{2}$
 
 **Time and distance conversion**** [1] **
 **Correct calculation for bound**** [1]**
@@ -1024,7 +1024,7 @@ $\thereforem=0.229$** to three significant figures - this is the highest degree 
 ### 21() — 5 marks
 > *Both upper and lower bounds (of density) are required. The formulae for density and volume are*
 
-`table row Density equals cell Mass over Volume end cell row cell Volume space open parentheses of space straight a space cuboid close parentheses end cell equals cell length cross times width cross times height end cell end table`
+$\begin{array}{ccc}Density = & \frac{Mass}{Volume} \\ Volume ( of \mathrm{a} \text{cuboid} ) & = & \text{length} \times \text{width} \times \text{height} \end{array}$
 
 > *So we need the upper and lower bounds of the length, width, height and mass of the cuboid.*
 * With lots of values around, keep them organised using a table*
@@ -1075,7 +1075,7 @@ $0.425367...<m<0.434382...$
 *The formula for the volume of a cylinder is *$V=πr^{2}h$*.* 
 *π also needs rounding to one significant figure.*
 
-`V equals 3 cross times open parentheses 30 close parentheses squared cross times 100 equals 270 space 000 space cm cubed`
+$V = 3 \times ( 30 )^{2} \times 100 = 270 000 cm^{3}$
 
 **[1]**
 
@@ -1099,7 +1099,7 @@ $270000\mathrm{cm}^{3}=\frac{270000}{1000}=270\mathrm{litres}$
 
 > *Next work out an estimate for the number of miles Juan completes in a day using *$\mathrm{Average} \mathrm{speed}=\frac{\mathrm{Distance}}{\mathrm{Time}}$*.*
 
-`table attributes columnalign right center left columnspacing 0px end attributes row cell therefore Distance space open parentheses per space day close parentheses end cell equals cell Average space speed space per space hour cross times Hours space per space day end cell row cell Distance space open parentheses per space day close parentheses end cell equals cell 15 cross times 8 equals 120 end cell end table`
+`table columnalign right center left columnspacing 0px end | therefore Distance ( per day ) | = Average speed per hour x Hours per day | | Distance ( per day ) | = 15 x 8 = 120 | |`
 
 **Using a correctly rounded value**** [1]**
 
@@ -1138,7 +1138,7 @@ $\mathrm{Number} \mathrm{of} \mathrm{atoms}=\frac{\mathrm{Mass} \mathrm{of} \mat
 
 $\mathrm{Number} \mathrm{of} \mathrm{atoms}=\frac{1000}{4\times10^{-22}}$
 
-`table row cell fraction numerator 1000 over denominator 4 cross times 10 to the power of negative 22 end exponent end fraction end cell equals cell 0.25 cross times 10 to the power of 25 end cell row blank blank blank end table`
+$\begin{gathered} \frac{1000}{4 \times 10^{- 22} } & = 0.25 \times 10^{25} \\ \end{gathered}$
 
 **[1]**
 

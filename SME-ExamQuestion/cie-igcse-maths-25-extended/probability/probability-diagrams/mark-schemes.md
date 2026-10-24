@@ -90,7 +90,7 @@ $0.0795$
 > 
 > **M1**: For a complete method to find the probability.
 > 
-> **A1**: Correct answer. You can also write `7.95 percent sign` or $\frac{159}{2000}$.
+> **A1**: Correct answer. You can also write $7.95 \%$ or $\frac{159}{2000}$.
 
 ### Q3
 > *Start by labelling the circles in the diagram.*
@@ -118,7 +118,7 @@ $0.0795$
 **1 mark for the 'only A' part, the 'only B' part, or the 'outside the circles' part being correct. **
 **2 marks for ALL those numbers being in the correct place.**
 > *There are 15 numbers in the universal set. *
-$A\cupB$* is all the numbers that are in either or both of the circles. So *`A union B space equals space open curly brackets 3 comma space 5 comma space 9 comma space 15 comma space 21 comma space 25 comma space 27 close curly brackets`*, with 7 numbers in that set.*
+$A\cupB$* is all the numbers that are in either or both of the circles. So *$A \cup B = \{ 3 , 5 , 9 , 15 , 21 , 25 , 27 \}$*, with 7 numbers in that set.*
 
 $\frac{7}{15}$**  [2]**
 
@@ -207,14 +207,14 @@ $\frac{4}{9}$ **[1]**
 
 > *Multiply the probabilities with the same colour together and add the products.*
 
-`open parentheses 1 over 6 cross times 1 over 6 close parentheses space plus open parentheses 2 over 6 cross times 2 over 6 close parentheses space plus open parentheses 3 over 6 cross times 3 over 6 close parentheses`
+$( \frac{1}{6} \times \frac{1}{6} ) + ( \frac{2}{6} \times \frac{2}{6} ) + ( \frac{3}{6} \times \frac{3}{6} )$
 
 ** At least one of the probabilities correct**** [1] **
 **Correct method ****[1]**
 
 > *Use your calculator to find the solutions.*
 
-`space open parentheses 1 over 6 close parentheses squared plus space open parentheses 2 over 6 close parentheses squared plus space open parentheses 3 over 6 close parentheses squared space equals space 14 over 36`
+$( \frac{1}{6} )^{2} + ( \frac{2}{6} )^{2} + ( \frac{3}{6} )^{2} = \frac{14}{36}$
 
 $\frac{7}{18}$** [1] **
 **Unsimplified fraction or equivalent correct decimal accepted.**
@@ -246,7 +246,7 @@ $1-0.931=0.069$
 
 **0.069 *** ***[1]**
 
-**You can also do this by multiplying to get the probabilities for 'faulty AND faulty', 'faulty AND not faulty', and 'not faulty AND faulty', and then adding those together to get the answer. I.e., **`open parentheses 0.02 space cross times space 0.05 close parentheses space plus space open parentheses 0.02 space cross times space 0.95 close parentheses space plus space open parentheses 0.98 space cross times space 0.05 close parentheses space equals space 0.069`
+**You can also do this by multiplying to get the probabilities for 'faulty AND faulty', 'faulty AND not faulty', and 'not faulty AND faulty', and then adding those together to get the answer. I.e., **$( 0.02 \times 0.05 ) + ( 0.02 \times 0.95 ) + ( 0.98 \times 0.05 ) = 0.069$
 
 ### Q9
 > *The expected frequency is the probability times by the number of trials. In this case,*
@@ -291,7 +291,7 @@ $\frac{1}{3}\times\frac{3}{5}+\frac{2}{3}\times\frac{3}{4}$
 *Therefore the probability for all 3 possibilities are the same.*
 * Find the probability of one possibility by multiplying the three probabilities together.*
 
-`table row cell straight P open parentheses Bob space plays close parentheses cross times straight P open parentheses Bob space plays close parentheses cross times straight P open parentheses Bob space does space not space play close parentheses end cell equals cell 2 over 5 cross times 2 over 5 cross times 3 over 5 equals 12 over 125 end cell end table`
+$\begin{gathered} \mathrm{P} ( \text{Bob} \text{plays} ) \times \mathrm{P} ( \text{Bob} \text{plays} ) \times \mathrm{P} ( \text{Bob} \text{does} \text{not} \text{play} ) & = \frac{2}{5} \times \frac{2}{5} \times \frac{3}{5} = \frac{12}{125} \end{gathered}$
 
 **[1]**
 
@@ -332,9 +332,9 @@ $1-\frac{5}{8}=\frac{3}{8}\mathrm{and}1-\frac{1}{6}=\frac{5}{6}\mathrm{and}1-\fr
 ![cie-igcse-2018-may-jun-1-p4-q9a2](assets/021-cie-igcse-2018-may-jun-1-p4-q9a2.png)
 
 **1 mark for each correct pair of probabilities on diagram**** [3]**
-*Let the probability it will rain tomorrow be *`P open parentheses R close parentheses`* and the probability Rafael walks to school be *`P open parentheses W close parentheses`*.* *Using the "and" rule: *`P open parentheses A space and space B close parentheses equals P open parentheses A close parentheses cross times P open parentheses B close parentheses`
+*Let the probability it will rain tomorrow be *$P ( R )$* and the probability Rafael walks to school be *$P ( W )$*.* *Using the "and" rule: *`P ( A and B ) = P ( A ) x P ( B )`
 
-`P open parentheses R space and space W close parentheses equals 5 over 8 cross times 1 over 6`
+`P ( R and W ) = 5 / 8 x 1 / 6`
 
 **[1]**
 
@@ -346,18 +346,18 @@ $\frac{5}{48}$** [1] **
 
 > *It can rain and Rafael does not walk to school...*
 
-`P open parentheses R space and space W apostrophe close parentheses space equals 5 over 8 cross times 5 over 6 equals 25 over 48`
+`P ( R and W ' ) = 5 / 8 x 5 / 6 = 25 / 48`
 
 > *...or it can not rain and Rafael does not walk to school*
 
-`space P open parentheses R apostrophe space and space straight W apostrophe close parentheses equals 3 over 8 cross times 3 over 10 equals 9 over 80`
+`P ( R ' and W ' ) = 3 / 8 x 3 / 10 = 9 / 80`
 
 ** ****calculating either of the above correctly ****[1]**
 
 *That it rains or does not rain are mutually exclusive events- they cannot both happen.* 
-*The "or" rule for mutually exclusive events states *`P open parentheses A space o r space B close parentheses equals P open parentheses A close parentheses plus P open parentheses B close parentheses`
+*The "or" rule for mutually exclusive events states *$P ( A o r B ) = P ( A ) + P ( B )$
 
-`P open parentheses R space and space W apostrophe close parentheses space or space P open parentheses R apostrophe space and space straight W apostrophe close parentheses equals 25 over 48 plus 9 over 80`
+`P ( R and W ' ) or P ( R ' and W ' ) = 25 / 48 + 9 / 80`
 
 **[1]**
 
@@ -384,7 +384,7 @@ $1-0.45=0.551-0.67=0.331-0.35=0.65$
 *'Wins exactly one match' is the same as 'wins on Saturday AND does not win on Sunday' OR 'does not win on Saturday AND wins on Sunday'. *
 *So multiply the probabilities from the corresponding parts of the tree diagram, and then add the products together to get the answer.*
 
-`open parentheses 0.45 space cross times space 0.33 close parentheses space plus space open parentheses 0.55 space cross times space 0.35 close parentheses space equals space 0.341`
+$( 0.45 \times 0.33 ) + ( 0.55 \times 0.35 ) = 0.341$
 
 **  [2]**** **
 **1 mark for one correct product.  **
@@ -396,7 +396,7 @@ $1-0.45=0.551-0.67=0.331-0.35=0.65$
 ### Q13
 > *5 do not study any languages, so place 5 in the Venn diagram outside of both bubbles.*
 
-> *Find the intersection of both bubbles *`open parentheses G intersection S close parentheses`* by finding how many students have been counted twice in German and Spanish.*
+> *Find the intersection of both bubbles *$( G \cap S )$* by finding how many students have been counted twice in German and Spanish.*
 
 > * *
 
@@ -431,7 +431,7 @@ $1-0.45=0.551-0.67=0.331-0.35=0.65$
 
 > *Find the probability by dividing this by the total number of students.*
 
-`straight P open parentheses Spanish close parentheses space equals space 12 over 32`
+$\mathrm{P} ( \text{Spanish} ) = \frac{12}{32}$
 
 $\frac{3}{8}$** [1] **
 **The unsimplified fraction is accepted.**
@@ -439,7 +439,7 @@ $\frac{3}{8}$** [1] **
 
 > *Find the probability by dividing the number who study both by the total number of students who study German.*
 
-`straight P space open parentheses Student space who space studies space German space also space studies space Spanish close parentheses equals space 6 over 15`
+$\mathrm{P} ( \text{Student} \text{who} \text{studies} \text{German} \text{also} \text{studies} \text{Spanish} ) = \frac{6}{15}$
 
 $\frac{2}{5}$** [1]**
 ** The unsimplified fraction is accepted.**
@@ -449,13 +449,13 @@ $\frac{2}{5}$** [1]**
 
 > *Find the probability of choosing one red bead.  *
 
-> `straight P open parentheses Red close parentheses space equals space fraction numerator 15 over denominator 15 space plus space 10 end fraction space equals space 15 over 25`*   *
+> $\mathrm{P} ( \text{Red} ) = \frac{15}{15 + 10} = \frac{15}{25}$*   *
 
 > *To find the probability of two things both happening, multiply the probabilities. *
 *You could draw a tree diagram to help. *
 *P(Both red) = P(first red) and P(second red)  = P(first red) × P(second red).  *
 
-`straight P open parentheses Both space red close parentheses space space equals space 15 over 25 space cross times space 15 over 25`
+$\mathrm{P} ( \text{Both} \text{red} ) = \frac{15}{25} \times \frac{15}{25}$
 
 ** [1]**
 
@@ -469,7 +469,7 @@ $\frac{9}{25}$** [1] **
 *The probabilities of mutually exclusive events add up to 1. *
 *The probability of not picking two red beads will be 1 - the probability of picking two red beads. *
 
-`straight P open parentheses Not space both space red close parentheses space equals space 1 space minus space 9 over 25`
+$\mathrm{P} ( \text{Not} \text{both} \text{red} ) = 1 - \frac{9}{25}$
 
 $\frac{16}{25}$** [1]**
 
@@ -511,7 +511,7 @@ $\frac{16}{25}$** [1]**
 > *A**' is the set of all numbers that **aren't** in **A**.  (It's called the 'complement' of** A.**) *
 *Basically, the question is asking you 'What's the probability that the number isn't in set **A**?'*
 
-`A apostrophe space equals space open curly brackets 10 comma space 11 comma space 13 comma space 14 comma space 16 comma space 17 comma space 19 close curly brackets`
+$A ' = \{ 10 , 11 , 13 , 14 , 16 , 17 , 19 \}$
 
 **[1] ****You can also get this mark for indicating where set A' is on the Venn diagram.**
 
@@ -526,17 +526,17 @@ $\frac{7}{10}$**  [1]**
 
 > *For two events *$R$* **and *$Q$*,  *$P(R\mathrm{and}Q)=P(R)\timesP(Q)$* **so*
 
-`8 over 15 equals 2 over 3 cross times straight P open parentheses Q close parentheses`
+$\frac{8}{15} = \frac{2}{3} \times \mathrm{P} ( Q )$
 
 **[1]**
 
 > *Divide both sides by *$\frac{2}{3}$* to find *$P(Q)$
 
-`table row cell straight P open parentheses Q close parentheses end cell equals cell 8 over 15 divided by 2 over 3 end cell row blank equals cell 4 over 5 end cell end table`
+$\begin{gathered} \mathrm{P} ( Q ) & = \frac{8}{15} \div \frac{2}{3} \\ = \frac{4}{5} \end{gathered}$
 
 > *Remember that you can use your calculator to divide the fractions.*
 
-`table row blank blank cell bold 4 over bold 5 end cell end table` **[1]**
+`| _ _ 4 / 5 | |` **[1]**
 
 **Equivalent fractions, a decimal (0.8) or a percentage (80%) are also accepted**
 > *Let *$R$* **be the probability that Raphael picks a blue pen and *$Q$* be the probability that Paulo picks a blue pen.*
@@ -545,16 +545,16 @@ $\frac{7}{10}$**  [1]**
 *The same logic is true for Paulo. *
 *We are told *$P(R)=\frac{2}{3}$*. And from part (a), *$P(Q)=\frac{4}{5}$*. Therefore*
 
-`straight P open parentheses R apostrophe close parentheses equals 1 minus 2 over 3 equals 1 third`*  **and**  *`straight P open parentheses Q apostrophe close parentheses equals 1 minus 4 over 5 equals 1 fifth`
+$\mathrm{P} ( R ' ) = 1 - \frac{2}{3} = 1 \frac{1}{3}$*  **and**  *$\mathrm{P} ( Q ' ) = 1 - \frac{4}{5} = 1 \frac{1}{5}$
 
 **either of these results**** [1]**
 
 > *You could draw a tree diagram to see this. Multiply the two probabilities to find the probability they both happen*
 
-`table row cell straight P open parentheses R apostrophe space and italic space Q apostrophe close parentheses end cell equals cell 1 third cross times 1 fifth end cell end table`
+`| P ( R ' and Q ' ) | = 1 third x 1 fifth | |`
 
 **[1]**
 
-**Answer = **`table attributes columnalign right center left columnspacing 0px end attributes row blank blank cell bold 1 over bold 15 end cell end table` **[1]**
+**Answer = **`table columnalign right center left columnspacing 0px end | _ _ 1 / 15 | |` **[1]**
 
 **It is best to leave this answer as a fraction to avoid rounding it as a decimal**

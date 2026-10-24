@@ -137,7 +137,7 @@ change in Fe<sup>3+</sup> = +0.56 mol
 
   - Ag (s) is omitted from the *K*<sub>c</sub> expression (pure solid)
 
-*K*<sub>c</sub> = `fraction numerator left square bracket Fe to the power of 3 plus end exponent right square bracket over denominator left square bracket Ag to the power of plus right square bracket left square bracket Fe to the power of 2 plus end exponent right square bracket end fraction`
+*K*<sub>c</sub> = $\frac{[ Fe^{3} + ]}{[ Ag^{ + } ] [ Fe^{2} + ]}$
 
 - Substitute equilibrium values:
 
@@ -509,13 +509,13 @@ equilibrium concentration of C = **0.04 mol dm**<sup>**-3**</sup>
 
 - Write the *K*<sub>c</sub> expression for this reaction:
 
-*K*<sub>c</sub> = `fraction numerator left square bracket straight H subscript 2 space left parenthesis straight g right parenthesis right square bracket cubed left square bracket straight C subscript 2 straight H subscript 2 space left parenthesis straight g right parenthesis right square bracket over denominator left square bracket CH subscript 4 space left parenthesis straight g right parenthesis right square bracket squared end fraction`
+*K*<sub>c</sub> = `(left square bracket H _ 2 ( g ) right square bracket ^3 left square bracket C _ 2 H _ 2 ( g ) right square bracket)/(left square bracket CH _ 4 ( g ) right square bracket ^2)`
 
 - The unit of each concentration term is mol dm<sup>-3</sup>:
 
-*K*<sub>c</sub> = `fraction numerator left square bracket mol space dm to the power of negative 3 end exponent right parenthesis right square bracket cubed left square bracket mol space dm to the power of negative 3 end exponent right square bracket over denominator left square bracket mol space dm to the power of negative 3 end exponent right square bracket squared end fraction`
+*K*<sub>c</sub> = $\frac{[ \text{mol} dm^{ - } 3 ) ] ^{3} [ \text{mol} dm^{ - } 3 ]}{[ \text{mol} dm^{ - } 3 ] ^{2} }$
 
-*K*<sub>c</sub> = `left square bracket mol space dm to the power of negative 3 end exponent right parenthesis right square bracket space left square bracket mol space dm to the power of negative 3 end exponent right square bracket`
+*K*<sub>c</sub> = $[ \text{mol} dm^{ - } 3 ) ] [ \text{mol} dm^{ - } 3 ]$
 
 *K*<sub>c</sub> = mol<sup>2</sup> dm<sup>-6</sup>
 

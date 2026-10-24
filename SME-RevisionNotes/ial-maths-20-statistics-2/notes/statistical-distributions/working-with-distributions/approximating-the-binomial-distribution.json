@@ -131,7 +131,7 @@
   },
   {
    "type": "bullets",
-   "md": "- A binomial distribution `begin mathsize 16px style X tilde straight B left parenthesis n comma p right parenthesis end style` can be **approximated** by a normal distribution `begin mathsize 16px style X subscript N tilde straight N left parenthesis mu comma sigma squared right parenthesis end style`  provided\n\n  - ***n***** is large**\n  - ***p***** is close to 0.5**\n- The mean and variance of a binomial distribution can be calculated by:\n\n  - $μ=np$\n  - $σ^{2}=np(1-p)$"
+   "md": "- A binomial distribution $X \\sim \\mathrm{B} ( n , p )$ can be **approximated** by a normal distribution $X_{N} \\sim \\mathrm{N} ( \\\\mu , \\\\sigma ^{2} )$  provided\n\n  - ***n***** is large**\n  - ***p***** is close to 0.5**\n- The mean and variance of a binomial distribution can be calculated by:\n\n  - $μ=np$\n  - $σ^{2}=np(1-p)$"
   },
   {
    "type": "figure",
@@ -171,7 +171,7 @@
    "type": "callout",
    "variant": "worked-example",
    "label": "Worked Example",
-   "md": "The random variable `X tilde straight B left parenthesis 1250 comma 0.4 right parenthesis`.\n\nUse a suitable approximating distribution to approximate $P(485\\leqX\\leq530)$.\n\n**Answer:**\n\n![1-5-3-normal-approx-to-binomial-we-solution](assets/21c52e223f45-image.bin)"
+   "md": "The random variable $X \\sim \\mathrm{B} ( 1250 , 0.4 )$.\n\nUse a suitable approximating distribution to approximate $P(485\\leqX\\leq530)$.\n\n**Answer:**\n\n![1-5-3-normal-approx-to-binomial-we-solution](assets/21c52e223f45-image.bin)"
   },
   {
    "type": "spec_point",
@@ -192,7 +192,7 @@
   },
   {
    "type": "bullets",
-   "md": "- A binomial distribution X~B(*n, p*)can be **approximated** by a Poisson distribution `X subscript p tilde P o open parentheses lambda close parentheses` provided\n\n  - ***n***** is large **( typically >  50 )\n  - ***p***** is small**\n- The mean of a binomial distribution can be calculated by:\n\n  - $λ=np$\n- The Poisson distribution is derived from the binomial distribution for conditions where *n* is becoming infinitely large and *p* is becoming infinitely small"
+   "md": "- A binomial distribution X~B(*n, p*)can be **approximated** by a Poisson distribution $X_{p} \\sim P o ( \\\\lambda )$ provided\n\n  - ***n***** is large **( typically >  50 )\n  - ***p***** is small**\n- The mean of a binomial distribution can be calculated by:\n\n  - $λ=np$\n- The Poisson distribution is derived from the binomial distribution for conditions where *n* is becoming infinitely large and *p* is becoming infinitely small"
   },
   {
    "type": "heading",

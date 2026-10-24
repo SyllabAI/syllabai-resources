@@ -24,7 +24,7 @@ guided_study: false
   - This means how much the function varies when the variable increases by one unit
 - To **differentiate** a function (f(*x*)) with respect to the variable *x *we use the **notation**
 
-  - `fraction numerator straight d over denominator straight d x end fraction open parentheses straight f open parentheses x close parentheses close parentheses`
+  - $\frac{ \mathrm{d} }{ \mathrm{d} x} ( \mathrm{f} ( x ) )$
 - The result is called the **derivative**
 
 ### What is the link between derivatives and gradients?
@@ -53,12 +53,12 @@ guided_study: false
   - Pick a **second point** on the curve close to the first point (call it *x* + *h*)
   - Calculate the **gradient of the chord** joining the two points
   
-    - `fraction numerator straight f open parentheses x plus h close parentheses minus straight f left parenthesis x right parenthesis over denominator open parentheses x plus h close parentheses minus x end fraction equals fraction numerator straight f open parentheses x plus h close parentheses minus straight f left parenthesis x right parenthesis over denominator h end fraction`
+    - $\frac{ \mathrm{f} ( x + h ) - \mathrm{f} ( x )}{( x + h ) - x} = \frac{ \mathrm{f} ( x + h ) - \mathrm{f} ( x )}{h}$
   - Move the **second point closer to the first point** (make *h *get close to zero)
   - Examine what **happens to the gradient **of the chord
   - The gradient of the tangent will be the **limit of the gradients of the chords**
   
-    - `straight f to the power of apostrophe open parentheses x close parentheses equals limit as h rightwards arrow 0 of invisible function application fraction numerator straight f open parentheses x plus h close parentheses minus straight f left parenthesis x right parenthesis over denominator h end fraction`
+    - $\mathrm{f}^{'} ( x ) = \lim_{h \to 0} \frac{ \mathrm{f} ( x + h ) - \mathrm{f} ( x )}{h}$
     - You do **not** need to remember this formula
 
 ![5-1-2-definiton-of-derivatives-diagram-1](../../../assets/553cc9aa87d4-5-1-2-definiton-of-derivatives-diagram-1.png)

@@ -22,17 +22,17 @@ guided_study: false
 - Two vectors are **parallel **if one is a **scalar multiple** of the other
 
   - This means that **all components** of the vector have been multiplied by a **common constant (scalar)**
-  - For example, `open parentheses table row 1 row 3 end table close parentheses` and `open parentheses table row 2 row 6 end table close parentheses` are scalar multiples
+  - For example, $( \begin{gathered} 1 \\ 3 \end{gathered} )$ and $( \begin{gathered} 2 \\ 6 \end{gathered} )$ are scalar multiples
   
     - The numbers in the first vector have each been multiplied by 2 to get the numbers in the second vector
 - **Multiplying **the components of a vector by a **positive scalar **changes the **magnitude **of the vector but not the **direction**
 
-  - For example, `open parentheses table row 2 row 6 end table close parentheses`  is double the length of `open parentheses table row 1 row 3 end table close parentheses` but in the same direction
+  - For example, $( \begin{gathered} 2 \\ 6 \end{gathered} )$  is double the length of $( \begin{gathered} 1 \\ 3 \end{gathered} )$ but in the same direction
 - **Multiplying **the components of a vector by a **negative scalar **reverses the direction
 - You can **factorise **a vector to help spot if two vectors are **parallel**
 
-  - `open parentheses table row 9 row cell negative 3 end cell end table close parentheses equals 3 open parentheses table row 3 row cell negative 1 end cell end table close parentheses`
-  - `open parentheses table row cell negative 6 end cell row 2 end table close parentheses equals negative 2 open parentheses table row 3 row cell negative 1 end cell end table close parentheses`
+  - $( \begin{gathered} 9 \\ - 3 \end{gathered} ) = 3 ( \begin{gathered} 3 \\ - 1 \end{gathered} )$
+  - $( \begin{gathered} - 6 \\ 2 \end{gathered} ) = - 2 ( \begin{gathered} 3 \\ - 1 \end{gathered} )$
   
     - They are scalar multiples of the same vector so they are parallel
 
@@ -44,7 +44,7 @@ guided_study: false
 > If you are told that two vectors ($a$ and $b$) are parallel, then it can be helpful to define a scalar to form an equation $a=kb$ .
 
 > **Worked Example**
-> Show that the vectors `bold a equals open parentheses table row 2 row cell negative 4 end cell end table close parentheses` and `bold b equals open parentheses table row cell negative 3 end cell row 6 end table close parentheses`** **are parallel**.**
+> Show that the vectors $a = ( \begin{gathered} 2 \\ - 4 \end{gathered} )$ and $b = ( \begin{gathered} - 3 \\ 6 \end{gathered} )$** **are parallel**.**
 > 
 > **Answer:**
 > 
@@ -52,7 +52,7 @@ guided_study: false
 > 
 > > *Show that one vector is a multiple of the other*
 > 
-> `table row cell negative 1.5 bold a end cell equals cell negative 1.5 open parentheses table row 2 row cell negative 4 end cell end table close parentheses end cell row blank equals cell open parentheses table row cell negative 1.5 cross times 2 end cell row cell negative 1.5 cross times negative 4 end cell end table close parentheses end cell row blank equals cell open parentheses table row cell negative 3 end cell row 6 end table close parentheses end cell row blank equals bold b end table`
+> $\begin{gathered} - 1.5 a & = - 1.5 ( \begin{gathered} 2 \\ - 4 \end{gathered} ) \\ = ( \begin{gathered} - 1.5 \times 2 \\ - 1.5 \times - 4 \end{gathered} ) \\ = ( \begin{gathered} - 3 \\ 6 \end{gathered} ) \\ = b \end{gathered}$
 > 
 > **Final answer:** $b=-1.5a$**, so the two vectors are parallel**
 > 
@@ -60,11 +60,11 @@ guided_study: false
 > 
 > > *Show that both vectors are multiples of another vector*
 > 
-> `bold a equals open parentheses table row 2 row cell negative 4 end cell end table close parentheses equals 2 open parentheses table row 1 row cell negative 2 end cell end table close parentheses`
+> $a = ( \begin{gathered} 2 \\ - 4 \end{gathered} ) = 2 ( \begin{gathered} 1 \\ - 2 \end{gathered} )$
 > 
-> `bold b equals open parentheses table row cell negative 3 end cell row 6 end table close parentheses equals negative 3 open parentheses table row 1 row cell negative 2 end cell end table close parentheses`
+> $b = ( \begin{gathered} - 3 \\ 6 \end{gathered} ) = - 3 ( \begin{gathered} 1 \\ - 2 \end{gathered} )$
 > 
-> **Final answer:** $a$** and **$b$** are both scalar multiples of **`open parentheses table row 1 row cell negative 2 end cell end table close parentheses`**, so they are parallel to each other**
+> **Final answer:** $a$** and **$b$** are both scalar multiples of **$( \begin{gathered} 1 \\ - 2 \end{gathered} )$**, so they are parallel to each other**
 
 ## Unit vectors
 
@@ -78,20 +78,20 @@ guided_study: false
 - To find a unit vector that is in the **same direction** as the vector $a$
 
   - **divide **the components of the vector by the **modulus **of the vector
-  - I.e. `fraction numerator bold a over denominator open vertical bar bold a close vertical bar end fraction` is a unit vector in the direction of vector $a$
-- For example, a unit vector in the direction `open parentheses table row 3 row cell negative 4 end cell end table close parentheses` is
+  - I.e. $\frac{a}{\left| a \right|}$ is a unit vector in the direction of vector $a$
+- For example, a unit vector in the direction $( \begin{gathered} 3 \\ - 4 \end{gathered} )$ is
 
-`table row cell fraction numerator 1 over denominator square root of 3 squared plus open parentheses negative 4 close parentheses squared end root end fraction open parentheses table row 3 row cell negative 4 end cell end table close parentheses end cell equals cell 1 fifth open parentheses table row 3 row cell negative 4 end cell end table close parentheses end cell row blank equals cell open parentheses table row cell 3 over 5 end cell row cell negative 4 over 5 end cell end table close parentheses end cell end table`
+$\begin{gathered} \frac{1}{ \sqrt{3^{2} + ( - 4 )^{2}} } ( \begin{gathered} 3 \\ - 4 \end{gathered} ) & = 1 \frac{1}{5} ( \begin{gathered} 3 \\ - 4 \end{gathered} ) \\ = ( \begin{gathered} \frac{3}{5} \\ - \frac{4}{5} \end{gathered} ) \end{gathered}$
 
 > **Worked Example**
-> Find a unit vector in the same direction as  `open parentheses table row cell negative 2 end cell row 5 end table close parentheses`.
+> Find a unit vector in the same direction as  $( \begin{gathered} - 2 \\ 5 \end{gathered} )$.
 > 
 > **Answer:**
 > 
 > > *Find the modulus of the vector*
 > 
-> `square root of open parentheses negative 2 close parentheses squared plus 5 squared end root equals square root of 4 plus 25 end root equals square root of 29`
+> $\sqrt{( - 2 )^{2} + 5^{2}} = \sqrt{4 + 25} = \sqrt{29}$
 > 
 > > *Divide each of the vector components by the modulus*
 > 
-> `open parentheses table row cell negative fraction numerator 2 over denominator square root of 29 end fraction end cell row cell fraction numerator 5 over denominator square root of 29 end fraction end cell end table close parentheses`
+> $( \begin{gathered} - \frac{2}{ \sqrt{29} } \\ \frac{5}{ \sqrt{29} } \end{gathered} )$

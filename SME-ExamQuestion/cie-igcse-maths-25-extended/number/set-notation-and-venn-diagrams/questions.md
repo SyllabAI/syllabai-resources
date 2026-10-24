@@ -12,10 +12,10 @@
 
 ![A Venn diagram with two overlapping circles, labelled A and B, displaying a 2 in the part of B not in the intersection, within a rectangle labelled script E.](assets/001-a-venn-diagram-with-two-overlapping-circles-labe.png)
 
-`straight n open parentheses calligraphic E close parentheses equals 30`, `straight n open parentheses A apostrophe intersection B close parentheses equals 2`, `straight n open parentheses A intersection B apostrophe close parentheses equals 9` and `straight n open parentheses A union B close parentheses equals 23`.
+$\mathrm{n} ( \text{calligraphic} E ) = 30$, $\mathrm{n} ( A ' \cap B ) = 2$, $\mathrm{n} ( A \cap B ' ) = 9$ and $\mathrm{n} ( A \cup B ) = 23$.
 The Venn diagram shows some of this information.
 
-Find `straight n open parentheses A intersection B close parentheses`.
+Find $\mathrm{n} ( A \cap B )$.
 
 **Q1** [1 mark]
 
@@ -23,7 +23,7 @@ Find `straight n open parentheses A intersection B close parentheses`.
 
 n(ε) = 30, n(A' ∩ B) = 2, n(A ∩ B') = 9 and n(A ∪ B) = 23.
 
-Find `straight n open parentheses A union B close parentheses apostrophe`.
+Find $\mathrm{n} ( A \cup B ) '$.
 
 ### Q2 — hard — 3 marks
 
@@ -98,11 +98,9 @@ $n(A'\cupB'\cupC')$
 
 **Q4** [4 marks]
 
-`calligraphic E equals left curly bracket x space colon space x space`is an integer and `1 less or equal than x less or equal than 10 right curly bracket`
- `A equals left curly bracket x space colon space x space`is even`right curly bracket` 
-`4 element of A intersection B
-straight n left parenthesis A intersection B right parenthesis equals 1
-left parenthesis A union B right parenthesis apostrophe equals left curly bracket 1 comma 7 comma 9 right curly bracket`
+`calligraphic E = left curly bracket x colon x`is an integer and `1 less or equal than x less or equal than 10 right curly bracket`
+ `A = left curly bracket x colon x`is even`right curly bracket` 
+`4 in A AND B n ( A AND B ) = 1 ( A OR B ) ' = left curly bracket 1 , 7 , 9 right curly bracket`
 
 ![cie-igcse-2018-oct-nov-p4-tz1-q6b](assets/013-cie-igcse-2018-oct-nov-p4-tz1-q6b.png)
 
@@ -463,9 +461,9 @@ ii) Complete the Venn diagram.
 
 i) Use set notation to complete this statement.
 
-`open parentheses G union M union H close parentheses apostrophe equals`....................... [1]
+$( G \cup M \cup H ) ' =$....................... [1]
 
-ii) Find `space straight n open parentheses G intersection open parentheses M union H close parentheses close parentheses`.
+ii) Find $\mathrm{n} ( G \cap ( M \cup H ) )$.
 
 [1]
 
@@ -495,7 +493,7 @@ i) $d$...................$A$
 
 [1]
 
-ii) `left curly bracket f comma space g right curly bracket equals`...............................
+ii) `left curly bracket f , g right curly bracket =`...............................
 
 [1]
 
@@ -510,7 +508,7 @@ $n(.........................)=6$ [1]
 
 **Q14** [2 marks]
 
-`table attributes columnalign right center left columnspacing 0px end attributes row B equals cell open curly brackets straight b comma straight l comma straight u comma straight e close curly brackets end cell row G equals cell open curly brackets straight g comma straight r comma straight e comma straight y close curly brackets end cell row W equals cell open curly brackets straight w comma straight h comma straight i comma straight t comma straight e close curly brackets end cell end table`
+$\begin{array}{rcl} B = \{ \mathrm{b} , \mathrm{l} , \mathrm{u} , \mathrm{e} \} \\ G = \{ \mathrm{g} , \mathrm{r} , \mathrm{e} , \mathrm{y} \} \\ W = \{ \mathrm{w} , \mathrm{h} , \mathrm{i} , \mathrm{t} , \mathrm{e} \} \end{array}$
 
 List all the members of the set
 
@@ -585,13 +583,13 @@ ii) Find the number of members using the swimming pool.
 
 $x$ is an integer.
 
-`ℰ equals open curly brackets x space colon space 41 less or equal than x less or equal than 50 close curly brackets`
+`ℰ = { x colon 41 <= x <= 50 }`
 
-`A equals left curly bracket x space colon space x space`is an odd number`right curly bracket`
+`A = left curly bracket x colon x`is an odd number`right curly bracket`
 
-`B equals left curly bracket x space colon space x space`is a multiple of 3`right curly bracket`
+`B = left curly bracket x colon x`is a multiple of 3`right curly bracket`
 
-`C equals left curly bracket x space colon space x space`is a prime number`right curly bracket`
+`C = left curly bracket x colon x`is a prime number`right curly bracket`
 
 Complete the Venn diagram to show this information.
 
@@ -616,7 +614,7 @@ i) $A\capC,$
 
 [1]
 
-ii) `open parentheses B union C close parentheses apostrophe.`
+ii) $( B \cup C ) '.$
 
 [1]
 
@@ -632,7 +630,7 @@ A equals left curly bracket x : x is an odd number right curly bracket
 B equals left curly bracket x : x is a multiple of 3 right curly bracket
 C equals left curly bracket x : x is a prime number right curly bracket
 
-Find `straight n open parentheses A intersection B intersection C close parentheses.`
+Find $\mathrm{n} ( A \cap B \cap C ).$
 
 *Source: 2020	May/June 0580/41 Q5C*
 

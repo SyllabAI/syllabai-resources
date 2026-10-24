@@ -165,7 +165,7 @@
       "spcpt_GKtcZwdYPVpT9kGZ"
      ],
      "part_tier": null,
-     "problem_md": "Show that, for all values of $k$,\n\n`C presuperscript k subscript 1 space equals k`",
+     "problem_md": "Show that, for all values of $k$,\n\n$C pre^{k}_{1} = k$",
      "solution_md": "![](assets/008-img.png)",
      "equations": [
       {
@@ -420,7 +420,7 @@
      ],
      "part_tier": null,
      "problem_md": "Find the first three terms in the expansion of $(5+2x)^{5}$.",
-     "solution_md": "> *Use the binomial expansion formula*\n\n`open parentheses a plus b close parentheses to the power of n equals a to the power of n plus open parentheses table row n row 1 end table close parentheses a to the power of n minus 1 end exponent b plus open parentheses table row n row 2 end table close parentheses a to the power of n minus 2 end exponent b squared... plus open parentheses table row n row r end table close parentheses a to the power of n minus r end exponent b to the power of r plus... plus b to the power of n`\n\n> *Substitute *$a=5$*, *`b equals open parentheses 2 x close parentheses`* and *$n=5$* into the first three terms of the formula*\n\n`open parentheses 5 plus 2 x close parentheses to the power of 5 equals 5 to the power of 5 plus open parentheses table row 5 row 1 end table close parentheses 5 to the power of 5 minus 1 end exponent open parentheses 2 x close parentheses plus open parentheses table row 5 row 2 end table close parentheses 5 to the power of 5 minus 2 end exponent open parentheses 2 x close parentheses squared plus...`\n\n> *Find the binomial coefficients e.g. using the *`scriptbase straight C subscript r end scriptbase presubscript blank presuperscript n`* button on your calculator or Pascal's triangle*\n\n`open parentheses table row 5 row 1 end table close parentheses equals 5\nopen parentheses table row 5 row 2 end table close parentheses equals 10`\n\n**[M1]**\n\n> *Substitute these into the formula and simplify*\n\n> *Remember to use index laws, e.g. *`open parentheses 2 x close parentheses squared equals 2 squared x squared equals 4 x squared`\n\n`table row cell open parentheses 5 plus 2 x close parentheses to the power of 5 end cell equals cell 5 to the power of 5 plus 5 cross times 5 to the power of 4 open parentheses 2 x close parentheses plus 10 cross times 5 cubed open parentheses 2 x close parentheses squared plus... end cell row blank equals cell 5 to the power of 5 plus 5 cross times 5 to the power of 4 cross times 2 x plus 10 cross times 5 cubed cross times 4 x squared plus... end cell end table`\n\n$3125+6250x+5000x^{2}$\n\n**[M1 A1]**",
+     "solution_md": "> *Use the binomial expansion formula*\n\n$( a + b )^{n = a^{n} + ( \\begin{gathered} n \\\\ 1 \\end{gathered} ) a^{n} - 1} b + ( \\begin{gathered} n \\\\ 2 \\end{gathered} ) a^{n - 2} b^{2}... + ( \\begin{gathered} n \\\\ r \\end{gathered} ) a^{n - r} b^{r} +... + b^{n}$\n\n> *Substitute *$a=5$*, *$b = ( 2 x )$* and *$n=5$* into the first three terms of the formula*\n\n$( 5 + 2 x )^{5 = 5^{5} + ( \\begin{gathered} 5 \\\\ 1 \\end{gathered} ) 5^{5} - 1} ( 2 x ) + ( \\begin{gathered} 5 \\\\ 2 \\end{gathered} ) 5^{5 - 2} ( 2 x )^{2} +...$\n\n> *Find the binomial coefficients e.g. using the *`C _ r _ _ ^ n`* button on your calculator or Pascal's triangle*\n\n$( \\begin{gathered} 5 \\\\ 1 \\end{gathered} ) = 5\n( \\begin{gathered} 5 \\\\ 2 \\end{gathered} ) = 10$\n\n**[M1]**\n\n> *Substitute these into the formula and simplify*\n\n> *Remember to use index laws, e.g. *$( 2 x )^{2} = 2^{2} x^{2} = 4 x^{2}$\n\n$\\begin{gathered} ( 5 + 2 x )^{5} & = 5^{5} + 5 \\times 5^{4} ( 2 x ) + 10 \\times 5^{3} ( 2 x )^{2} +... \\\\ = 5^{5} + 5 \\times 5^{4} \\times 2 x + 10 \\times 5^{3} \\times 4 x^{2} +... \\end{gathered}$\n\n$3125+6250x+5000x^{2}$\n\n**[M1 A1]**",
      "equations": [
       {
        "latex": "(5+2x)^{5}",
@@ -464,7 +464,7 @@
      ],
      "part_tier": null,
      "problem_md": "Use your answer to part (a) to estimate the value of $(5.04)^{5}$.",
-     "solution_md": "> *Use the expansion from part (a) of *$(5+2x)^{5}$\n\n> *Think of *`open parentheses 5.04 close parentheses to the power of 5`* as *`open parentheses 5 plus 0.04 close parentheses to the power of 5`* i.e.  *$2x=0.04$* so *$x=0.02$\n\n> *Substitute *$x=0.04$* into *$3125+6250x+5000x^{2}$* and simplify*\n\n$3125+6250\\times0.02+5000\\times0.02^{2}$\n\n**Final answer:** **3252**\n\n**[M1 A1]**\n\n> **[mark-scheme]**\n> \"3250 to 3 s.f.\" is also accepted.\n\n> **[exam-tip]**\n> You can check $(5.04)^{5}$ directly on your calculator, $3252.016...$ to see if your estimate is along the right lines!",
+     "solution_md": "> *Use the expansion from part (a) of *$(5+2x)^{5}$\n\n> *Think of *$( 5.04 )^{5}$* as *$( 5 + 0.04 )^{5}$* i.e.  *$2x=0.04$* so *$x=0.02$\n\n> *Substitute *$x=0.04$* into *$3125+6250x+5000x^{2}$* and simplify*\n\n$3125+6250\\times0.02+5000\\times0.02^{2}$\n\n**Final answer:** **3252**\n\n**[M1 A1]**\n\n> **[mark-scheme]**\n> \"3250 to 3 s.f.\" is also accepted.\n\n> **[exam-tip]**\n> You can check $(5.04)^{5}$ directly on your calculator, $3252.016...$ to see if your estimate is along the right lines!",
      "equations": [
       {
        "latex": "(5.04)^{5}",

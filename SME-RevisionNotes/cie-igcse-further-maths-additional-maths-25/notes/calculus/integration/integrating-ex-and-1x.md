@@ -21,7 +21,7 @@ guided_study: false
 
 - The **integrals** involving$e^{x}$ and$\mathrm{ln}x$ are
 
-`bold space bold integral bold space bold e to the power of bold italic x bold space bold d bold italic x bold equals bold space bold e to the power of bold italic x bold plus bold italic c`
+$\text{integral} e^{ } x d x = e^{ } x + c$
 
 `equation`
 
@@ -29,7 +29,7 @@ where $c$ is the **constant** of **integration**
 
 - For the **linear** function$(ax+b)$, where$a$ and$b$ are constants,
 
-** **`bold space bold integral bold e to the power of bold italic a bold italic x bold plus bold italic b end exponent bold space bold d bold italic x bold equals bold 1 over bold italic a bold e to the power of bold italic a bold italic x bold plus bold italic b end exponent bold plus bold italic c`
+** **$\text{integral} e^{ } a x + b d x = \frac{1}{ } a e^{ } a x + b + c$
 
 `equation`
 
@@ -49,22 +49,22 @@ where $c$ is the **constant** of **integration**
 > 
 > Given the exact value of$f(1)$ is$\mathrm{ln}10-e^{3}$ find an expression for$f(x)$.
 > 
-> > *To find *`f open parentheses x close parentheses`*, we need to integrate the expression for *`f apostrophe open parentheses x close parentheses.`*   *
+> > *To find *$f ( x )$*, we need to integrate the expression for *$f ' ( x ).$*   *
 > 
-> `f open parentheses x close parentheses equals integral fraction numerator 3 over denominator 3 x plus 2 end fraction plus e to the power of 4 minus x end exponent space d x`
+> $f ( x ) = \int \frac{3}{3 x + 2} + e^{4 - x} d x$
 > 
 > > *Rewrite as two separate integrals which can be found individually, and factor out any constants.  *
 > 
-> `f open parentheses x close parentheses equals 3 integral fraction numerator 1 over denominator 3 x plus 2 end fraction d x space plus space integral e to the power of 4 minus x end exponent space d x`
+> $f ( x ) = 3 \int \frac{1}{3 x + 2} d x + \int e^{4 - x} d x$
 > 
-> *Use the two results:* `integral fraction numerator 1 over denominator a x plus b end fraction d x equals 1 over a ln vertical line a x plus b vertical line space plus space c` `integral e to the power of a x plus b end exponent d x space equals fraction numerator space 1 over denominator a end fraction space e to the power of a x plus b end exponent space plus c`
+> *Use the two results:* $\int \frac{1}{a x + b} d x = \frac{1}{a} \ln \vert a x + b \vert + c$ $\int e^{a x + b} d x = \frac{ 1}{a} e^{a x + b} + c$
 > 
-> `f open parentheses x close parentheses equals 3 open parentheses 1 third ln vertical line 3 x plus 2 vertical line close parentheses space plus space minus 1 e to the power of 4 minus x end exponent space plus c
-> f open parentheses x close parentheses equals ln vertical line 3 x plus 2 vertical line space minus space e to the power of 4 minus x end exponent space plus c`
+> $f ( x ) = 3 ( 1 \frac{1}{3} \ln \vert 3 x + 2 \vert ) + - 1 e^{4 - x} + c
+> f ( x ) = \ln \vert 3 x + 2 \vert - e^{4 - x} + c$
 > 
-> > *The question states that *`f open parentheses 1 close parentheses equals ln 10 space minus space e cubed`*, so substitute in *$x=1$* and equate to the given expression.  *
+> > *The question states that *$f ( 1 ) = \ln 10 - e^{3}$*, so substitute in *$x=1$* and equate to the given expression.  *
 > 
-> `ln space 10 space minus space e cubed space equals space ln vertical line 3 open parentheses 1 close parentheses plus 2 vertical line space minus space e to the power of 4 minus 1 end exponent plus c`
+> $\ln 10 - e^{3} = \ln \vert 3 ( 1 ) + 2 \vert - e^{4 - 1} + c$
 > 
 > > *Simplify and solve to find *$c.$*  *
 > 
@@ -74,7 +74,7 @@ where $c$ is the **constant** of **integration**
 > 
 > $c=\mathrm{ln}\frac{10}{5}=\mathrm{ln}2$
 > 
-> > *Rewrite the full expression for *`f open parentheses x close parentheses.`*  *
+> > *Rewrite the full expression for *$f ( x ).$*  *
 > 
 > `equation`  
-> **or by combining logs, this could be written as **`f open parentheses x close parentheses equals ln space open parentheses 2 vertical line 3 x plus 2 vertical line close parentheses space minus space e to the power of 4 minus x end exponent`
+> **or by combining logs, this could be written as **$f ( x ) = \ln ( 2 \vert 3 x + 2 \vert ) - e^{4 - x}$

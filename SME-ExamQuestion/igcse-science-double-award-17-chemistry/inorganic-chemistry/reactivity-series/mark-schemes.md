@@ -498,7 +498,7 @@ The percentage of oxygen in the sample of air is:
 - *The volume of oxygen in the air = 100 - 25 = 75 cm*<sup>*3*</sup>
 - *To calculate the percentage of oxygen in the air, use the equation:*
 
-`fraction numerator volume space of space oxygen space in space the space air over denominator volume space of space air end fraction space cross times space 100 space equals space 75 over 365 space cross times space 100 space equals space 20.5 percent sign`
+`(volume of oxygen in the air)/(volume of air) x 100 = 75 / 365 x 100 = 20.5 %`
 
 - *A common error would be to use the volume of gas in the conical flask and connecting tube instead of the total volume of gas, i.e. divide by 265 instead of 365*
 

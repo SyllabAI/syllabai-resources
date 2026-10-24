@@ -343,7 +343,7 @@ i) To calculate the concentration, in mol dm<sup>−3</sup>, of caffeine in this
 
 ii) To calculate the **minimum** time needed for the amount of caffeine in their body to drop to 20 mg:
 
-- Calculation of number of half-lives `begin mathsize 14px style 20 over 160 space equals space 1 over 8 space equals space open parentheses 1 half close parentheses to the power of n space n equals space 3 space end style` OR 160 → 80 → 40 → 20 (3 half lives); **[1 mark] **
+- Calculation of number of half-lives $\frac{20}{160} = \frac{1}{8} = ( 1 \frac{1}{2} )^{n} n = 3$ OR 160 → 80 → 40 → 20 (3 half lives); **[1 mark] **
 - Applies half-lives to three hours time = 3 x 3 = 9 hours;** [1 mark] **
 
 **Final answer:** **[Total: 6 marks] **

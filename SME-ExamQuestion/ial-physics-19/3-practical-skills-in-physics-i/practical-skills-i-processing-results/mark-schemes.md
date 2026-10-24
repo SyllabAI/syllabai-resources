@@ -11,7 +11,7 @@ The student could determine *θ* using a metre rule by:
 
 Calculate *θ* using trigonometry:
 
-- `theta space equals space sin to the power of – 1 end exponent open parentheses fraction numerator B C over denominator A B end fraction close parentheses` **OR** `theta space equals space cos to the power of – 1 end exponent open parentheses fraction numerator A C over denominator A B end fraction close parentheses` **OR** `theta space equals space t a n to the power of – 1 end exponent open parentheses fraction numerator B C over denominator A C end fraction close parentheses` **[1 mark]**
+- $\\theta = \sin ^{- 1} ( \frac{B C}{A B} )$ **OR** $\\theta = \cos ^{- 1} ( \frac{A C}{A B} )$ **OR** $\\theta = t a n^{- 1} ( \frac{B C}{A C} )$ **[1 mark]**
 
 **[Total: 2 marks]**
 
@@ -62,7 +62,7 @@ ii) To evaluate the student’s conclusion:
 
 Calculate the difference between the values of g:
 
-- `Percentage space difference space equals space fraction numerator 9.81 minus 9.64 over denominator 9.81 end fraction cross times 100 space equals space 1.7 percent sign` **[1 mark]**
+- $\text{Percentage} \text{difference} = \frac{9.81 - 9.64}{9.81} \times 100 = 1.7 \%$ **[1 mark]**
 
 Form a judgement based on the calculation:
 
@@ -99,7 +99,7 @@ The graph will be checked and should look like:
 
 - Calculates gradient using large triangle (at least three quarters of the grid); **[1 mark]**
 - Gradient calculation, $\mathrm{gradient}=\frac{ρl}{t}=4.82\times10^{5}\mathrm{Ωm}$ (on this graph) **[1 mark]**
-- Thickness calculation, `t space equals space fraction numerator rho l over denominator g r a d i e n t end fraction equals fraction numerator open parentheses 4.0 cross times 10 cubed close parentheses cross times 0.1 over denominator 482 space 000 end fraction space equals space 0.83 space mm` (answer in the range 0.81-0.87 mm) **[1 mark]**
+- Thickness calculation, $t = \frac{\\rho l}{g r a d i e n t} = \frac{( 4.0 \times 10^{3} ) \times 0.1}{482 000} = 0.83 \text{mm}$ (answer in the range 0.81-0.87 mm) **[1 mark]**
 
 **[Total: 9 marks]**
 
@@ -145,7 +145,7 @@ Calculate time:
 
 - There are 7.2 divisions between peaks (answer in range 7.1 - 7.3); **[1 mark]**
 - Time per division = 0.5 × 10<sup>−3</sup> s
-- Therefore `t space equals space N space cross times space t i m e space p e r space d i v i s i o n space equals space 7.2 space cross times open parentheses 0.5 cross times 10 to the power of negative 3 end exponent close parentheses equals 3.6 space cross times 10 to the power of negative 3 end exponent space straight s` **[1 mark]**
+- Therefore $t = N \times t i m e p e r d i v i s i o n = 7.2 \times ( 0.5 \times 10^{- 3} ) = 3.6 \times 10^{- 3} \mathrm{s}$ **[1 mark]**
 
 Calculate speed:
 
@@ -188,7 +188,7 @@ To assess the most significant source of uncertainty:
 
 Calculate the percentage uncertainty of the Young Modulus:
 
-- `percent sign U subscript E space equals space fraction numerator 0.5 space G P a over denominator space 11.2 space G P a end fraction space cross times space 100 space equals space 4.46 percent sign space equals space 4 percent sign space open parentheses 1 space straight s. straight f. close parentheses`; **[1 mark]**
+- $\% U_{E} = \frac{0.5 G P a}{ 11.2 G P a} \times 100 = 4.46 \% = 4 \% ( 1 \mathrm{s} . \mathrm{f} . )$; **[1 mark]**
 
 Compare with uncertainty on density to draw a conclusion:
 
@@ -217,19 +217,19 @@ ii) Calculate the percentage uncertainty in *l:*
 
 Calculate the absolute uncertainty in *l*:
 
-- `a b s o l u t e space u n c e r t a i n t y space i n space l italic space equals italic space plus-or-minus 1 half open parentheses r a n g e close parentheses space equals plus-or-minus 1 half open parentheses 19.4 space minus space 18.0 close parentheses space equals space 0.7 space cm`* ***[1 mark]**
+- $a b s o l u t e u n c e r t a i n t y i n l = \pm 1 \frac{1}{2} ( r a n g e ) = \pm 1 \frac{1}{2} ( 19.4 - 18.0 ) = 0.7 \text{cm}$* ***[1 mark]**
 
 Calculate the % uncertainty in *l*:
 
-- `percent sign space u n c e r t a i n t y space i n space l equals space fraction numerator a b s o l u t e space u n c e r t a i n t y space over denominator m e a s u r e d space v a l u e end fraction space cross times space 100 space percent sign space equals space fraction numerator space 0.7 over denominator 18.8 end fraction space cross times space 100 percent sign`
-- `percent sign space u n c e r t a i n t y space i n space l space equals space 3.723 space equals space 4 space percent sign space`**[1 mark]**
+- $\% u n c e r t a i n t y i n l = \frac{a b s o l u t e u n c e r t a i n t y }{m e a s u r e d v a l u e} \times 100 \% = \frac{ 0.7}{18.8} \times 100 \%$
+- $\% u n c e r t a i n t y i n l = 3.723 = 4 \%$**[1 mark]**
 
 **[Total: 4 marks]**
 
 - *You can also calculate the % uncertainty in **l** through calculating the difference between the lowest value and the mean *
 
   - *Difference from mean = 18.8 – 18.0 = 0.8 cm*
-  - *Percentage uncertainty = *`percent sign space u n c e r t a i n t y space i n space l space equals fraction numerator space 0.8 over denominator 18.8 end fraction space cross times space 100 percent sign space equals space 4.3 space percent sign`
+  - *Percentage uncertainty = *$\% u n c e r t a i n t y i n l = \frac{ 0.8}{18.8} \times 100 \% = 4.3 \%$
 - *Your value for the % uncertainty should be given to **1 s.f*
 
   - *This is because the value with the lowest number of significant figures used to calculate this (0.7) is to 1 s.f. so we cannot be more accurate than this*
@@ -246,7 +246,7 @@ List the known quantities:
 Calculate the speed of sound in air, *v*:
 
 - $v=fλ=f\times4l$
-- `v space equals space 440 space cross times space 4 space open parentheses 0.188 close parentheses` **[1 mark]**
+- $v = 440 \times 4 ( 0.188 )$ **[1 mark]**
 - $v=330.88=331ms^{-1}$ **[1 mark]**
 
 **[Total: 2 marks]**
@@ -266,8 +266,8 @@ List the known quantities:
 
 Calculate the upper limit of the speed of sound from *l*:
 
-- `u p p e r space l i m i t space o f space l space equals space open parentheses 0.188 close parentheses space cross times space open parentheses 1 space plus space 0.04 close parentheses space equals space 0.19552 space straight m`
-- `v space equals space f space cross times space 4 l space equals space 440 space cross times space 4 open parentheses 0.19552 close parentheses`
+- $u p p e r l i m i t o f l = ( 0.188 ) \times ( 1 + 0.04 ) = 0.19552 \mathrm{m}$
+- $v = f \times 4 l = 440 \times 4 ( 0.19552 )$
 - $v=344.1152=344ms^{-1}$ **[1 mark]**
 
 Write a conclusion:
@@ -298,12 +298,12 @@ Calculate the value from the diameter:
 
 Determine the absolute uncertainty:
 
-- `a b s o l u t e space u n c e r t a i n t y space equals space plus-or-minus 1 half open parentheses r e s o l u t i o n close parentheses equals space plus-or-minus 1 half open parentheses 0.01 space mm close parentheses equals plus-or-minus 0.005 space mm` **[1 mark]**
+- $a b s o l u t e u n c e r t a i n t y = \pm 1 \frac{1}{2} ( r e s o l u t i o n ) = \pm 1 \frac{1}{2} ( 0.01 \text{mm} ) = \pm 0.005 \text{mm}$ **[1 mark]**
 
 Determine the percentage uncertainty:
 
-- `percent sign space u n c e r t a i n t y space equals space fraction numerator a b s o l u t e space u n c e r t a i n t y space over denominator m e a s u r e d space v a l u e end fraction space cross times space 100 space percent sign`
-- `percent sign space u n c e r t a i n t y space equals space fraction numerator 0.005 space over denominator 17.90 end fraction space cross times space 100 space percent sign space equals space 0.02793 space equals space 0.03 space percent sign` **[1 mark]**
+- $\% u n c e r t a i n t y = \frac{a b s o l u t e u n c e r t a i n t y }{m e a s u r e d v a l u e} \times 100 \%$
+- $\% u n c e r t a i n t y = \frac{0.005 }{17.90} \times 100 \% = 0.02793 = 0.03 \%$ **[1 mark]**
 
 **[Total: 3 marks]**
 
@@ -345,7 +345,7 @@ Calculate the drag force, *D*:
 Calculate the viscosity of the liquid, *η:*
 
 - $F=6πηrv\Rightarrowη=\frac{F}{6πrv}$
-- `eta italic space equals space fraction numerator 0.09 italic space over denominator italic 6 pi space cross times space open parentheses fraction numerator 17.9 space cross times space 10 to the power of negative 3 end exponent over denominator 2 end fraction close parentheses space cross times space 0.32 end fraction`* ***[1 mark]**
+- $\\eta = \frac{0.09 }{6 \pi \times ( \frac{17.9 \times 10^{- 3} }{2} ) \times 0.32}$* ***[1 mark]**
 - $η=1.6671=1.67\mathrm{Pa}s$* ***[1 mark]**
 
 **[Total: 3 marks]**
@@ -372,20 +372,20 @@ List the known quantities:
 
 Assess the uncertainty in the force:
 
-- `percent sign space u n c e r t a i n t y space i n thin space F space equals space fraction numerator 0.01 space over denominator 0.09 end fraction space cross times space 100 space percent sign space equals space 11 space percent sign` **AND**
+- $\% u n c e r t a i n t y i n F = \frac{0.01 }{0.09} \times 100 \% = 11 \%$ **AND**
 - The force is difficult to keep constant, so the variation is likely to be larger than 0.01 N **[1 mark]**
 
 Assess the uncertainty in the distance:
 
 - A meter ruler has a resolution of 1 mm so the absolute uncertainty on a reading is $\frac{1}{2}=0.5\mathrm{mm}$
-- `percent sign space u n c e r t a i n t y space i n space d i s t a n c e space equals space fraction numerator 0.5 space cross times space 10 to the power of negative 3 end exponent over denominator 25.0 space cross times space 10 to the power of negative 2 end exponent end fraction space cross times space 100 space percent sign space equals space 0.2 space percent sign` **AND**
+- $\% u n c e r t a i n t y i n d i s t a n c e = \frac{0.5 \times 10^{- 3} }{25.0 \times 10^{- 2} } \times 100 \% = 0.2 \%$ **AND**
 - Therefore, the percentage uncertainty is small; **[1 mark]**
 
 Assess the uncertainty in the time:
 
 - A stopwatch has a resolution of 0.01 s so its absolute uncertainty for a reading is $\frac{0.01}{2}=0.005s$
-- `percent sign space u n c e r t a i n t y space i n space t i m e space equals space fraction numerator 0.005 space over denominator 0.78 end fraction space cross times space 100 space percent sign space equals space 0.6 space percent sign` **AND**
-- The time is short, so the reaction time (0.2 s) will be a significant percentage (`fraction numerator 0.2 over denominator 0.78 end fraction space cross times space 100 space percent sign space equals space 26 space percent sign`) of the time measured; **[1 mark]**
+- $\% u n c e r t a i n t y i n t i m e = \frac{0.005 }{0.78} \times 100 \% = 0.6 \%$ **AND**
+- The time is short, so the reaction time (0.2 s) will be a significant percentage ($\frac{0.2}{0.78} \times 100 \% = 26 \%$) of the time measured; **[1 mark]**
 
 Final conclusion:
 
@@ -434,21 +434,21 @@ Calculate the gradient:
 
 ![img-36083810b438-1](assets/016-img-36083810b438-1.jpeg)
 
-- `g r a d i e n t space equals space fraction numerator increment V subscript a space space over denominator increment 1 over lambda end fraction space equals space fraction numerator 2.55 space minus space 1.8 space over denominator open parentheses 2.1 space minus space 1.5 close parentheses space cross times space 10 to the power of 6 end fraction space equals space 1.25 space cross times space 10 to the power of negative 6 end exponent space straight V space straight m` **[1 mark]**
+- $g r a d i e n t = \frac{\Delta V_{a} }{\Delta \frac{1}{ \lambda }} = \frac{2.55 - 1.8 }{ ( 2.1 - 1.5 ) \times 10^{6}} = 1.25 \times 10^{ - } 6 \mathrm{V} \mathrm{m}$ **[1 mark]**
 
 Calculate the value of the Planck constant, *h*:
 
 - $gradient=\frac{hc}{e}\Rightarrowh=\frac{e\timesgradient}{c}$
-- `h space equals space fraction numerator open parentheses 1.60 space cross times space 10 to the power of negative 9 end exponent close parentheses space cross times space open parentheses 1.25 space cross times space 10 to the power of negative 6 end exponent close parentheses space over denominator 3.00 space cross times space 10 to the power of 8 end fraction space`**[1 mark]**
+- $h = \frac{( 1.60 \times 10^{- 9} ) \times ( 1.25 \times 10^{- 6} ) }{3.00 \times 10^{8} }$**[1 mark]**
 - $h=6.67\times10^{-34}Js$ **[1 mark]**
 
   - *Accepted answers are between* 6.65 × 10<sup>–34</sup> Js to 6.85 × 10<sup>–34</sup> J s
 
 iv) Evaluate the student’s statement
 
-- The difference between the values from the gradient and the accepted value (6.63 × 10<sup>–34</sup> J s) is `open parentheses 6.67 space cross times space 10 to the power of negative 34 end exponent close parentheses space minus space open parentheses 6.63 space cross times space 10 to the power of negative 34 end exponent close parentheses space equals space 0.04 space cross times space 10 to the power of negative 34 end exponent space straight J space straight s`  **[1 mark]**
+- The difference between the values from the gradient and the accepted value (6.63 × 10<sup>–34</sup> J s) is $( 6.67 \times 10^{- 34} ) - ( 6.63 \times 10^{- 34} ) = 0.04 \times 10^{- 34} \mathrm{J} \mathrm{s}$  **[1 mark]**
 - This is a very small difference so the method is accurate;  **[1 mark]** **OR**
-- The percentage difference between the values from the gradient and the accepted value (6.63 × 10<sup>–34</sup> J s) is `fraction numerator open parentheses 6.67 space cross times space 10 to the power of negative 34 end exponent close parentheses space minus space open parentheses 6.63 space cross times 10 to the power of negative 34 end exponent close parentheses over denominator 6.63 space cross times space 10 to the power of negative 34 end exponent end fraction space cross times space 100 thin space percent sign space equals space 0.6 space percent sign`  **[1 mark]**
+- The percentage difference between the values from the gradient and the accepted value (6.63 × 10<sup>–34</sup> J s) is $\frac{( 6.67 \times 10^{- 34} ) - ( 6.63 \times 10^{- 34} )}{6.63 \times 10^{- 34} } \times 100 \% = 0.6 \%$  **[1 mark]**
 - This is a very small percentage difference so the method is accurate;  **[1 mark]**
 
 **[Total: 12 marks]**
@@ -461,7 +461,7 @@ iv) Evaluate the student’s statement
   - *Your gradient triangle should cover more than half the graph*
 - *Don't lose easy marks for things such as labelling the graph*
 
-- *To calculate the % difference, this is the *`fraction numerator m e a s u r e d space v a l u e space minus space t r u e space v a l u e over denominator t r u e space v a l u e end fraction space cross times 100 space percent sign`
+- *To calculate the % difference, this is the *$\frac{m e a s u r e d v a l u e - t r u e v a l u e}{t r u e v a l u e} \times 100 \%$
 
 ### 4((c)) — 4 marks
 Discuss whether this affects the accuracy of the value of the Planck constant obtained.
@@ -543,7 +543,7 @@ i) Equate kinetic and gravitational potential energy:
 
 At X, initial velocity = *u* when height = *h*
 
-- `1 half up diagonal strike m u squared space equals space up diagonal strike m g h`
+- $1 \frac{1}{2} \cancel{m} u^{2} = \cancel{m} g h$
 - $u^{2}=2gh$
 - $u=\sqrt{2gh}$ **[1 mark]**
 
@@ -607,8 +607,8 @@ Calculate the percentage uncertainty in the value on the voltmeter:
 
 - Value on the voltmeter = 6.85 V
 - Uncertainty in reading =  ½ × smallest division = ±0.005 V **[1 mark]**
-- % uncertainty = `fraction numerator u n c e r t a i n t y over denominator v a l u e end fraction cross times 100 percent sign`
-- % uncertainty = `fraction numerator 0.005 over denominator 6.85 end fraction cross times 100 percent sign` = 0.073 %
+- % uncertainty = $\frac{u n c e r t a i n t y}{v a l u e} \times 100 \%$
+- % uncertainty = $\frac{0.005}{6.85} \times 100 \%$ = 0.073 %
 - % uncertainty = 0.07 % **[1 mark]**
 
 **[Total: 2 marks]**
@@ -634,7 +634,7 @@ Use the potential divider equation to determine $R_{therm}$:
 
 - Potential divider equation: $V_{out}=\frac{R_{2}}{R_{1}+R_{2}}V_{in}\RightarrowV_{fixed}=\frac{R_{fixed}}{R_{fixed}+R_{therm}}\timesε$
 - $3.6=\frac{4700}{4700+R_{therm}}\times12$
-- `R subscript t h e r m end subscript space equals space open parentheses 4700 cross times fraction numerator 12 over denominator 3.6 end fraction close parentheses space minus space 4700 space equals space 10 space 970 space straight capital omega` **[1 mark]**
+- `R _ t h e r m end _ = ( 4700 x (12)/(3.6) ) - 4700 = 10 970 capital omega` **[1 mark]**
 - Resistance = 1.1 × 10<sup>4</sup> Ω **[1 mark]**
 
 **[Total: 5 marks]**

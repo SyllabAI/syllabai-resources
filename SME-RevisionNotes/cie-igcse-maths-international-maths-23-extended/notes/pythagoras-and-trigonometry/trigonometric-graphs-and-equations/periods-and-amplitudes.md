@@ -53,8 +53,8 @@ guided_study: true
 
 - An oscillating function has **equation**
 
-  - `space straight f open parentheses x close parentheses equals a space sin space left parenthesis b x right parenthesis`
-  - `space straight f open parentheses x close parentheses equals a space cos space open parentheses b x close parentheses`
+  - $\mathrm{f} ( x ) = a \sin ( b x )$
+  - $\mathrm{f} ( x ) = a \cos ( b x )$
 - The $a$ represents the **amplitude** of the function
 
   - The bigger the value of $a$ the bigger the **range** of values of the function
@@ -72,12 +72,12 @@ guided_study: true
   - The period is $\frac{360^{\circ}}{b}$
   
     - A **larger value** of $b$ produces a **shorter period**
-  - E.g. For the graph `y equals sin open parentheses 2 x close parentheses`
+  - E.g. For the graph $y = \sin ( 2 x )$
   
     - The period is $\frac{360}{2}=180^{\circ}$
     - The graph has been 'squashed' by a factor of 2 horizontally
     - Two complete cycles will occur in an interval of $360^{\circ}$
-  - E.g. For the graph `y equals sin open parentheses 1 half x close parentheses`
+  - E.g. For the graph $y = \sin ( 1 \frac{1}{2} x )$
   
     - The period is $\frac{360}{\frac{1}{2}}=360\times\frac{2}{1}=720^{\circ}$
     - The graph has been 'stretched'
@@ -87,7 +87,7 @@ guided_study: true
 > - You can use your **graphic display calculator **to help you interpret or compare trigonometric graphs
 
 > **Worked Example**
-> The diagram below shows the graph with equation `y equals a space sin space open parentheses b x close parentheses`, where $a$ and $b$ are integer values.
+> The diagram below shows the graph with equation $y = a \sin ( b x )$, where $a$ and $b$ are integer values.
 > 
 > ![Graph of the function y = a sin (bx)](assets/ae8cb425d31b-21736-trig-graph-1.png)
 > 
@@ -111,11 +111,11 @@ guided_study: true
 > 
 > > *The period is *$\frac{360^{\circ}}{b}$* *
 > 
-> `table row 90 equals cell 360 over b end cell row b equals cell 360 over 90 end cell row b equals 4 end table`
+> $\begin{gathered} 90 = \frac{360}{b} \\ b = \frac{360}{90} \\ b = 4 \end{gathered}$
 > 
 > $a=3\,b=4$
 > 
-> (d) Give a reason as to why the picture cannot be modelled by `y equals a space cos space open parentheses b x close parentheses`.
+> (d) Give a reason as to why the picture cannot be modelled by $y = a \cos ( b x )$.
 > 
 > **Final answer:** **The curve in the diagram goes through the origin **$(0,0)$
 > ** but a curve with equation of the form **$y=a\mathrm{cos}(bx)$

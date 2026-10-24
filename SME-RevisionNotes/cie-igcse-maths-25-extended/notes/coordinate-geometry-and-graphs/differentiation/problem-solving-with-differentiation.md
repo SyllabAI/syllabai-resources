@@ -32,12 +32,12 @@ guided_study: true
 
 ![Diagram of a cuboid with the width, length and height labelled.](../../../assets/2ba4ddf36d6d-40685-dan-2.png)
 
-- Find the **maximum volume**, $V$ m<sup>3</sup>, of the cuboid shown with width 2 m, length $x$ m and height `open parentheses 10 minus x close parentheses` m
+- Find the **maximum volume**, $V$ m<sup>3</sup>, of the cuboid shown with width 2 m, length $x$ m and height $( 10 - x )$ m
 
   - Find a** formula** for its volume in terms of $x$
   - Volume = width $\times$ length $\times$ height
   
-    - `V equals 2 x open parentheses 10 minus x close parentheses`
+    - $V = 2 x ( 10 - x )$
   - **Expand** this into individual terms in $x$
   
     - $V=20x-2x^{2}$
@@ -49,7 +49,7 @@ guided_study: true
     - $\frac{dV}{dx}=20-4x$
   - Set this **equal to zero **and solve
   
-    - `table row cell 20 minus 4 x end cell equals 0 end table` so $4x=20$ giving $x=5$
+    - $\begin{gathered} 20 - 4 x & = 0 \end{gathered}$ so $4x=20$ giving $x=5$
     - This is the value of $x$ at the maximum point (not the value of $V$)
   - **Substitute **this value of $x$ back into the equation for $V$
   
@@ -89,7 +89,7 @@ guided_study: true
   
     - Therefore $x+y=10$
     - Make $y$ the subject, $y=10-x$
-    - Substitute it into $V$ to get `V equals 2 x open parentheses 10 minus x close parentheses`
+    - Substitute it into $V$ to get $V = 2 x ( 10 - x )$
 
 > **Worked Example**
 > A farmer has  60 metres of fencing and wants to fence off the biggest rectangular area possible next to an existing wall.
@@ -128,7 +128,7 @@ guided_study: true
 > 
 > > *Substitute this into the area formula*
 > 
-> `A equals x open parentheses 60 minus 2 x close parentheses`
+> $A = x ( 60 - 2 x )$
 > 
 > > *This is now all in terms of *$x$
 > 
@@ -148,13 +148,13 @@ guided_study: true
 > 
 > > *Set this equal to zero and solve*
 > 
-> `table row cell 60 minus 4 x end cell equals 0 row cell 4 x end cell equals 60 row x equals cell 60 over 4 end cell row x equals 15 end table`
+> $\begin{gathered} 60 - 4 x & = 0 \\ 4 x & = 60 \\ x = \frac{60}{4} \\ x = 15 \end{gathered}$
 > 
 > > *This is the value of *$x$* at the maximum point (but not the maximum of *$A$*)*
 > 
 > > *Substitute this value of *$x$* back into *$A$
 > 
-> `table row A equals cell 60 cross times 15 minus 2 cross times 15 squared end cell row blank equals 450 end table`
+> $\begin{gathered} A = 60 \times 15 - 2 \times 15^{2} \\ = 450 \end{gathered}$
 > 
 > **The maximum area is 450 m**<sup>**2**</sup><sup> </sup>
 > 

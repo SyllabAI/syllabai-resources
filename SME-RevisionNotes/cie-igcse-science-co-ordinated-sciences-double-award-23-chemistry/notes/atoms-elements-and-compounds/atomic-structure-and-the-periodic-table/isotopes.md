@@ -21,7 +21,7 @@ guided_study: false
 - The symbol for an isotope is the chemical symbol (or word) followed by a dash and then the mass number
 - So C-14 ( or carbon-14) is the isotope of carbon which contains 6 protons, 6 electrons and 14 - 6 = 8 neutrons
 
-  - It can also be written as <sup>14</sup>C or `begin mathsize 14px style straight C presubscript 6 presuperscript 14 end style`
+  - It can also be written as <sup>14</sup>C or `C _ 6 ^ 14`
 
 #### Table to show the structures of isotopes of hydrogen
 

@@ -42,7 +42,7 @@ guided_study: false
   - This may require **rewriting** the expression
   
     - and then **factorising out a *****k***
-  - For example, `7 n squared plus 14 n equals 7 open parentheses n squared plus 2 n close parentheses` is a multiple of 7
+  - For example, $7 n^{2} + 14 n = 7 ( n^{2} + 2 n )$ is a multiple of 7
 
 ### How do I show that a result is a square number?
 
@@ -51,7 +51,7 @@ guided_study: false
   - This may require **rewriting** the expression
   
     - and then **factorising**
-  - For example, `open parentheses 2 n squared plus 7 close parentheses plus open parentheses 6 n plus 2 minus n squared close parentheses equals n squared plus 6 n plus 9 equals open parentheses n plus 3 close parentheses squared` is a square number
+  - For example, $( 2 n^{2} + 7 ) + ( 6 n + 2 - n^{2} ) = n^{2} + 6 n + 9 = ( n + 3 )^{2}$ is a square number
 
 ### How do I show that a result is odd or even?
 
@@ -62,18 +62,18 @@ guided_study: false
     - and then **factorising out a 2**
   - For example, $2n$ is even
   
-    - and so is `2 open parentheses n squared minus 3 n close parentheses`
+    - and so is $2 ( n^{2} - 3 n )$
 - To prove something is **odd,** show that it  can be written as `Error converting from MathML to accessible text.` or  `Error converting from MathML to accessible text.`
 
   - For example, $2n+1$ is odd
   
-    - and so is `2 n plus 2 open parentheses n minus 1 half close parentheses equals 2 n plus 2 n minus 1 equals 2 open parentheses 2 n close parentheses minus 1`
+    - and so is $2 n + 2 ( n - 1 \frac{1}{2} ) = 2 n + 2 n - 1 = 2 ( 2 n ) - 1$
   - This is because one more or one less than an even number is an odd number
 
 > **Exam Hint**
 > For the examples above, make sure the part inside the brackets marked as `Error converting from MathML to accessible text.` really is an integer.
 > 
-> - For example, `2 open parentheses n plus 1 half close parentheses` is **not **even as $\frac{1}{2}$ is not an integer
+> - For example, $2 ( n + 1 \frac{1}{2} )$ is **not **even as $\frac{1}{2}$ is not an integer
 
 ### How do I show that a result is (or isn't) an integer?
 
@@ -91,7 +91,7 @@ guided_study: false
   - show that it can be written as **an integer plus or minus something that isn't an integer**
   
     - For example $\frac{6n+1}{2}=3n+\frac{1}{2}$ is not an integer
-    - Neither is `7 open parentheses n minus 2 close parentheses plus pi`
+    - Neither is $7 ( n - 2 ) + \pi$
   - or show that it can be written as **an odd number divided by (a multiple of) 2**
   
     - For example $\frac{2n+1}{2}$ is an odd number
@@ -108,7 +108,7 @@ guided_study: false
 > - For example, "this proves that $7n^{2}+14n$ is a multiple of 7"
 
 > **Worked Example**
-> Prove that `open parentheses 6 n plus 5 close parentheses squared minus open parentheses 6 n minus 5 close parentheses squared` is a multiple of 20 for all positive integer values of $n$.
+> Prove that $( 6 n + 5 )^{2} - ( 6 n - 5 )^{2}$ is a multiple of 20 for all positive integer values of $n$.
 > 
 > **Answer:**
 > 
@@ -116,44 +116,44 @@ guided_study: false
 > 
 > > *Start by expanding the brackets*
 > 
-> `table row cell open parentheses 6 n plus 5 close parentheses squared end cell equals cell open parentheses 6 n plus 5 close parentheses open parentheses 6 n plus 5 close parentheses end cell row blank equals cell open parentheses 6 n close parentheses squared plus 6 n cross times 5 plus 5 cross times 6 n plus 5 squared end cell row blank equals cell 36 n squared plus 60 n plus 25 end cell end table`
+> $\begin{gathered} ( 6 n + 5 )^{2} & = ( 6 n + 5 ) ( 6 n + 5 ) \\ = ( 6 n )^{2} + 6 n \times 5 + 5 \times 6 n + 5^{2} \\ = 36 n^{2} + 60 n + 25 \end{gathered}$
 > 
-> `table row cell open parentheses 6 n minus 5 close parentheses squared end cell equals cell open parentheses 6 n minus 5 close parentheses open parentheses 6 n minus 5 close parentheses end cell row blank equals cell open parentheses 6 n close parentheses squared minus 6 n cross times 5 minus 5 cross times 6 n plus open parentheses negative 5 close parentheses squared end cell row blank equals cell 36 n squared minus 60 n plus 25 end cell end table`
+> $\begin{gathered} ( 6 n - 5 )^{2} & = ( 6 n - 5 ) ( 6 n - 5 ) \\ = ( 6 n )^{2} - 6 n \times 5 - 5 \times 6 n + ( - 5 )^{2} \\ = 36 n^{2} - 60 n + 25 \end{gathered}$
 > 
 > > *Substitute that back into the expression*
 > 
-> `table row cell open parentheses 6 n plus 5 close parentheses squared minus open parentheses 6 n minus 5 close parentheses squared end cell equals cell open parentheses 36 n squared plus 60 n plus 25 close parentheses minus open parentheses 36 n squared minus 60 n plus 25 close parentheses end cell row blank equals cell 36 n squared plus 60 n plus 25 minus 36 n squared plus 60 n minus 25 end cell row blank equals cell 120 n end cell end table`
+> $\begin{gathered} ( 6 n + 5 )^{2} - ( 6 n - 5 )^{2} & = ( 36 n^{2} + 60 n + 25 ) - ( 36 n^{2} - 60 n + 25 ) \\ = 36 n^{2} + 60 n + 25 - 36 n^{2} + 60 n - 25 \\ = 120 n \end{gathered}$
 > 
 > > *Factorise out a 20*
 > 
-> `equals 20 open parentheses 6 n close parentheses`
+> $= 20 ( 6 n )$
 > 
 > > *That algebraically proves your result*
 > 
 > - *But to get full marks explain your reasoning and state your conclusion*
 > 
-> **Final answer:** `open parentheses 6 n plus 5 close parentheses squared minus open parentheses 6 n minus 5 close parentheses squared equals 20 open parentheses 6 n close parentheses`
-> **This proves that **`open parentheses 6 n plus 5 close parentheses squared minus open parentheses 6 n minus 5 close parentheses squared`** is a multiple of 20.**
+> **Final answer:** $( 6 n + 5 )^{2} - ( 6 n - 5 )^{2} = 20 ( 6 n )$
+> **This proves that **$( 6 n + 5 )^{2} - ( 6 n - 5 )^{2}$** is a multiple of 20.**
 > ** **
 > 
 > **Method 2 (Difference of two squares)**
 > 
-> > *Use the difference of two squares, *`a squared minus b squared equals open parentheses a plus b close parentheses open parentheses a minus b close parentheses`
+> > *Use the difference of two squares, *$a^{2} - b^{2} = ( a + b ) ( a - b )$
 > 
 > - *Here *$a=6n+5$* and *$b=6n-5$
 > 
-> `table row cell open parentheses 6 n plus 5 close parentheses squared minus open parentheses 6 n minus 5 close parentheses squared end cell equals cell open parentheses open parentheses 6 n plus 5 close parentheses plus open parentheses 6 n minus 5 close parentheses close parentheses open parentheses open parentheses 6 n plus 5 close parentheses minus open parentheses 6 n minus 5 close parentheses close parentheses end cell row blank equals cell open parentheses 12 n close parentheses open parentheses 10 close parentheses end cell row blank equals cell 120 n end cell end table`
+> $\begin{gathered} ( 6 n + 5 )^{2} - ( 6 n - 5 )^{2} & = ( ( 6 n + 5 ) + ( 6 n - 5 ) ) ( ( 6 n + 5 ) - ( 6 n - 5 ) ) \\ = ( 12 n ) ( 10 ) \\ = 120 n \end{gathered}$
 > 
 > > *Factorise out a 20*
 > 
-> `equals 20 open parentheses 6 n close parentheses`
+> $= 20 ( 6 n )$
 > 
 > > *That algebraically proves your result*
 > 
 > - *But to get full marks explain your reasoning and state your conclusion*
 > 
-> **Final answer:** `open parentheses 6 n plus 5 close parentheses squared minus open parentheses 6 n minus 5 close parentheses squared equals 20 open parentheses 6 n close parentheses`
-> **This proves that **`open parentheses 6 n plus 5 close parentheses squared minus open parentheses 6 n minus 5 close parentheses squared`** is a multiple of 20.**
+> **Final answer:** $( 6 n + 5 )^{2} - ( 6 n - 5 )^{2} = 20 ( 6 n )$
+> **This proves that **$( 6 n + 5 )^{2} - ( 6 n - 5 )^{2}$** is a multiple of 20.**
 
 > **Worked Example**
 > The $n$th term of a sequence is $a_{n}$, where $a_{n}=\frac{2n^{2}+5n+2}{2n+4}$
@@ -171,11 +171,11 @@ guided_study: false
 > 
 > > *Start by factorising the top and bottom of the expression*
 > 
-> `table row cell a subscript n end cell equals cell fraction numerator 2 n squared plus 5 n plus 2 over denominator 2 n plus 4 end fraction end cell row blank equals cell fraction numerator open parentheses 2 n plus 1 close parentheses open parentheses n plus 2 close parentheses over denominator 2 open parentheses n plus 2 close parentheses end fraction end cell end table`
+> $\begin{gathered} a_{n} & = \frac{2 n^{2} + 5 n + 2}{2 n + 4} \\ = \frac{( 2 n + 1 ) ( n + 2 )}{2 ( n + 2 )} \end{gathered}$
 > 
 > > *Cancel common factors*
 > 
-> `table row blank equals cell fraction numerator open parentheses 2 n plus 1 close parentheses up diagonal strike open parentheses n plus 2 close parentheses end strike over denominator 2 up diagonal strike open parentheses n plus 2 close parentheses end strike end fraction end cell row blank equals cell fraction numerator 2 n plus 1 over denominator 2 end fraction end cell end table`
+> $\begin{gathered} = \frac{( 2 n + 1 ) \cancel{( n + 2 )} }{2 \cancel{( n + 2 )} } \\ = \frac{2 n + 1}{2} \end{gathered}$
 > 
 > > *From here there are two ways to write your conclusion*
 > 
@@ -191,8 +191,8 @@ guided_study: false
 > 
 > > *Split the expression into two fractions and simplify*
 > 
-> `table row cell a subscript n end cell equals cell fraction numerator 2 n plus 1 over denominator 2 end fraction end cell row blank equals cell fraction numerator 2 n over denominator 2 end fraction plus 1 half end cell row blank equals cell n plus 1 half end cell end table`
+> $\begin{gathered} a_{n} & = \frac{2 n + 1}{2} \\ = \frac{2 n}{2} + 1 \frac{1}{2} \\ = n + 1 \frac{1}{2} \end{gathered}$
 > 
-> > *That is equal to an integer (*$n$*) plus something that is not an integer *`open parentheses 1 half close parentheses`
+> > *That is equal to an integer (*$n$*) plus something that is not an integer *$( 1 \frac{1}{2} )$
 > 
 > **Final answer:** $a_{n}=n+\frac{1}{2}$**. **$n$** is an integer, so **$n+\frac{1}{2}$** is not an integer. Therefore **$a_{n}$** is not an integer for any value of **$n$**.**

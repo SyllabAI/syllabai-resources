@@ -51,7 +51,7 @@ guided_study: true
 > 
 > E.g.
 > 
-> `table row space A colon B space row space 3 colon 4 space row cell table row cell cross times 5 end cell downwards arrow end table end cell space space space cell table row downwards arrow cell cross times 5 end cell end table end cell row space 15 colon 20 space end table`
+> $\begin{gathered} A : B \\ 3 : 4 \\ \begin{gathered} \times 5 & \downarrow \end{gathered} \begin{gathered} \downarrow \times 5 \end{gathered} \\ 15 : 20 \end{gathered}$
 
 > **Worked Example**
 > The ratio of cabbage leaves eaten by two rabbits, Alfred and Bob, is 7 : 5.
@@ -70,7 +70,7 @@ guided_study: true
 > 
 > > *Answer the question by multiplying each part of the ratio by this multiplier*
 > 
-> `table row space A colon B space row space 7 colon 5 space row cell table row cell cross times 4 end cell downwards arrow end table end cell space space space cell table row downwards arrow cell cross times 4 end cell end table end cell row space 28 colon 20 space end table`
+> $\begin{gathered} A : B \\ 7 : 5 \\ \begin{gathered} \times 4 & \downarrow \end{gathered} \begin{gathered} \downarrow \times 4 \end{gathered} \\ 28 : 20 \end{gathered}$
 > 
 > **Final answer:** **28 : 20**
 > 
@@ -84,7 +84,7 @@ guided_study: true
 > 
 > > *Now multiply Alfred's part of the ratio by the multiplier to answer the question*
 > 
-> `table row space A colon B space row space 7 colon 5 space row cell table row cell cross times 7 end cell downwards arrow end table end cell space space space cell table row downwards arrow cell cross times 7 end cell end table end cell row space 49 colon 35 space end table`
+> $\begin{gathered} A : B \\ 7 : 5 \\ \begin{gathered} \times 7 & \downarrow \end{gathered} \begin{gathered} \downarrow \times 7 \end{gathered} \\ 49 : 35 \end{gathered}$
 > 
 > **Final answer:** **Alfred eats 49 cabbage leaves**
 
@@ -142,6 +142,6 @@ guided_study: true
 > *6 is the highest common factor*
 > *Divide both parts of the fraction by 6*
 > 
-> `table row space A colon N space row space 30 colon 18 space row cell table row cell divided by 6 end cell downwards arrow end table end cell space space space cell table row downwards arrow cell divided by 6 end cell end table end cell row space 5 colon 3 space end table`
+> $\begin{gathered} A : N \\ 30 : 18 \\ \begin{gathered} \div 6 & \downarrow \end{gathered} \begin{gathered} \downarrow \div 6 \end{gathered} \\ 5 : 3 \end{gathered}$
 > 
 > **Final answer:** **5 : 3**

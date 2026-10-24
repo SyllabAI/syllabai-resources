@@ -8,7 +8,7 @@
 ### 19((a)) — 6 marks — command: multiple — structured — from paper Oct 2021 · WCH14/01
 Ethanol may be manufactured by the hydration of ethene.
 
-C<sub>2</sub>H<sub>4 </sub>(g) + H<sub>2</sub>O (g) ⇌ C<sub>2</sub>H<sub>5</sub>OH (g)     ∆`H to the power of ⦵`= −45.3 kJ mol<sup>−1</sup>
+C<sub>2</sub>H<sub>4 </sub>(g) + H<sub>2</sub>O (g) ⇌ C<sub>2</sub>H<sub>5</sub>OH (g)     ∆`H ^ ⦵`= −45.3 kJ mol<sup>−1</sup>
 
 In a laboratory investigation of this reaction, 1.00 mol of ethene was mixed with 1.00 mol of steam at 150 °C. At equilibrium, when the total pressure of the system was 50.0 atm, 0.450 mol of ethanol had formed.
 
@@ -275,13 +275,13 @@ What are the units of the equilibrium constant, *K*<sub>c</sub>?
 ### 6((a)) — 1 mark — multiple_choice — from paper Oct 2021 · WCH14/01
 The water gas reaction is used in the manufacture of hydrogen.
 
-C (s) + H<sub>2</sub>O (g) ⇌ CO (g) + H<sub>2 </sub>(g)    ∆`H to the power of ⦵`= +131.2 kJ mol<sup>−1</sup>
+C (s) + H<sub>2</sub>O (g) ⇌ CO (g) + H<sub>2 </sub>(g)    ∆`H ^ ⦵`= +131.2 kJ mol<sup>−1</sup>
 
 What is the equilibrium constant, *K*<sub>c</sub> , for this reaction?
 - **A.** *K*<sub>c</sub> = [CO][H<sub>2</sub>]
-- **B.** *K*<sub>c</sub> = `begin mathsize 16px style fraction numerator open square brackets C O close square brackets open square brackets H subscript 2 close square brackets over denominator open square brackets C close square brackets end fraction end style`
-- **C.** *K*<sub>c</sub> = `begin mathsize 16px style fraction numerator open square brackets C O close square brackets open square brackets H subscript 2 close square brackets over denominator open square brackets H subscript 2 O close square brackets end fraction end style`
-- **D.** *K*<sub>c</sub> = `fraction numerator open square brackets CO close square brackets open square brackets straight H subscript 2 close square brackets over denominator open square brackets straight H subscript 2 straight O close square brackets open square brackets straight C close square brackets end fraction`
+- **B.** *K*<sub>c</sub> = $\frac{[ C O ] [ H_{2} ]}{[ C ]}$
+- **C.** *K*<sub>c</sub> = $\frac{[ C O ] [ H_{2} ]}{[ H_{2} O ]}$
+- **D.** *K*<sub>c</sub> = $\frac{[ \text{CO} ] [ \mathrm{H}_{2} ]}{[ \mathrm{H}_{2} \mathrm{O} ] [ \mathrm{C} ]}$
 
 ### 6((b)) — 1 mark — multiple_choice — from paper Oct 2021 · WCH14/01
 What happens to the equilibrium constants of the forward and reverse reactions when the temperature is **increased?**

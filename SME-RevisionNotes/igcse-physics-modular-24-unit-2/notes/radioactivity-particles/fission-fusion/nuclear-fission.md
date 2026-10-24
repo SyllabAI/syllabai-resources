@@ -85,17 +85,17 @@ guided_study: false
 > **Worked Example**
 > During a particular spontaneous fission reaction, plutonium-239 splits as shown in the equation below:
 > 
-> `Pu presubscript 94 presuperscript 239 space rightwards arrow space Pd presubscript 46 presuperscript 112 space plus space Cd presubscript 48 presuperscript 124 space plus space. presubscript... end presubscript presuperscript... end presuperscript..`
+> `Pu _ 94 ^ 239 -> Pd _ 46 ^ 112 + Cd _ 48 ^ 124 + . _... ^... ..`
 > 
 > Which answer shows the section missing from this equation?
 > 
 > **A.  ** `n presubscript 0 presuperscript 3`
 > 
-> **B.  ** `straight gamma presubscript 0 presuperscript 0`
+> **B.  ** $\ \\gamma pre_{0} pre^{0}$
 > 
-> **C.  ** `straight alpha presubscript 2 presuperscript 4`
+> **C.  ** $\ \\alpha pre_{2} pre^{4}$
 > 
-> **D.  ** `3 straight n presubscript 0 presuperscript 1`
+> **D.  ** `3 n _ 0 ^ 1`
 > 
 > **ANSWER:  D**
 > 

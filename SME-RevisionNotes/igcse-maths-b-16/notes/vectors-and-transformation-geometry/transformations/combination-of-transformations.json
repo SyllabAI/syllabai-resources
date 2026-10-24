@@ -148,7 +148,7 @@
   },
   {
    "type": "bullets",
-   "md": "- **Translation**\n\n  - A translation is a movement which does not change the orientation or size of the shape, it simply moves location\n  - A translation is described by a vector in the form `open parentheses x\n  y close parentheses\n  `\n  \n    - This represents a movement of *x* units to the right and *y *units vertically upwards"
+   "md": "- **Translation**\n\n  - A translation is a movement which does not change the orientation or size of the shape, it simply moves location\n  - A translation is described by a vector in the form $( x\n y )$\n  \n    - This represents a movement of *x* units to the right and *y *units vertically upwards"
   },
   {
    "type": "figure",
@@ -164,7 +164,7 @@
   },
   {
    "type": "bullets",
-   "md": "- A combination of** two reflections** can be the same as a **single rotation**\n\n  - One reflection using the line $x=a$ and the other using the line $y=b$\n  - This is the same as a **180° rotation** about the centre `open parentheses a comma space b close parentheses`\n- The **order of the combination** can be important to the** overall effect**\n\n  - A reflection in the line ***y***** = *****x***** followed by** a reflection in the ***x*****-axis** is the same as a 90° rotation **clockwise** about the origin\n  - A reflection in the ***x*****-axis followed by** a reflection in the line ***y***** = *****x*** is the same as a 90° rotation **anticlockwise** about the origin"
+   "md": "- A combination of** two reflections** can be the same as a **single rotation**\n\n  - One reflection using the line $x=a$ and the other using the line $y=b$\n  - This is the same as a **180° rotation** about the centre $( a , b )$\n- The **order of the combination** can be important to the** overall effect**\n\n  - A reflection in the line ***y***** = *****x***** followed by** a reflection in the ***x*****-axis** is the same as a 90° rotation **clockwise** about the origin\n  - A reflection in the ***x*****-axis followed by** a reflection in the line ***y***** = *****x*** is the same as a 90° rotation **anticlockwise** about the origin"
   },
   {
    "type": "heading",
@@ -177,7 +177,7 @@
   },
   {
    "type": "table",
-   "md": "| **Transformation from A to B** | **Transformation from B to A** |\n|---|---|\n| Translation by vector `open parentheses table row x row y end table close parentheses` | Translation by vector `open parentheses table row cell negative x end cell row cell negative y end cell end table close parentheses` |\n| Reflection in a given line | Reflection in the same line |\n| Rotation by θ° in a direction about the centre `open parentheses x comma space y close parentheses` | Rotation by θ° in the opposite direction about the centre `open parentheses x comma space y close parentheses` |\n| Enlargement of scale factor $k$ about the centre `open parentheses x comma space y close parentheses` | Enlargement of scale factor $\\frac{1}{k}$ about the centre `open parentheses x comma space y close parentheses` |"
+   "md": "| **Transformation from A to B** | **Transformation from B to A** |\n|---|---|\n| Translation by vector $( \\begin{gathered} x \\\\ y \\end{gathered} )$ | Translation by vector $( \\begin{gathered} - x \\\\ - y \\end{gathered} )$ |\n| Reflection in a given line | Reflection in the same line |\n| Rotation by θ° in a direction about the centre $( x , y )$ | Rotation by θ° in the opposite direction about the centre $( x , y )$ |\n| Enlargement of scale factor $k$ about the centre $( x , y )$ | Enlargement of scale factor $\\frac{1}{k}$ about the centre $( x , y )$ |"
   },
   {
    "type": "callout",

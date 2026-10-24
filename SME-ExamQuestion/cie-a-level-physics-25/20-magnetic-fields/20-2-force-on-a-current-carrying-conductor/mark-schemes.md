@@ -232,7 +232,7 @@ List the known quantities:
 Calculate the volume of the section of the wire:
 
 - Volume of a cylinder:  $V = π r^{2} L$ (area of a circle × length)
-- `V equals straight pi cross times open parentheses fraction numerator 1.1 cross times 10 to the power of negative 3 end exponent over denominator 2 end fraction close parentheses squared cross times open parentheses 85 cross times 10 to the power of negative 3 end exponent close parentheses equals 8.078 cross times 10 to the power of negative 8 end exponent space straight m cubed` **[1 mark]**
+- $V = \mathrm{\pi } \times ( \frac{1.1 \times 10^{- 3} }{2} )^{2} \times ( 85 \times 10^{- 3} ) = 8.078 \times 10^{- 8} \mathrm{m}^{3}$ **[1 mark]**
 
 Calculate the number of free electrons in the section of wire:
 
@@ -258,12 +258,12 @@ Recall the magnetic flux density equation and rearrange for flux density, B:
 Determine the net force acting on the wire:
 
 - In the section of wire, *n* electrons each experience a force *F*
-- Therefore, the net force is `n F space equals space open parentheses 6.8 cross times 10 to the power of 21 close parentheses cross times open parentheses 5.5 cross times 10 to the power of negative 24 end exponent close parentheses space`
+- Therefore, the net force is $n F = ( 6.8 \times 10^{21 ) \times ( 5.5 \times 10^{-24} } )$
 
 Substitute in the known values to calculate *B*:
 
-- `B space equals space fraction numerator open parentheses 6.8 cross times 10 to the power of 21 close parentheses cross times open parentheses 5.5 cross times 10 to the power of negative 24 end exponent close parentheses space over denominator 0.42 cross times open parentheses 85 cross times 10 to the power of negative 3 end exponent close parentheses end fraction`** [1 mark]**
-- `B space equals space 1.0 space straight T space open parentheses 2 space straight s. straight f. close parentheses` **[1 mark]**
+- $B = \frac{( 6.8 \times 10^{21 ) \times ( 5.5 \times 10^{-24} } ) }{0.42 \times ( 85 \times 10^{- 3} )}$** [1 mark]**
+- $B = 1.0 \mathrm{T} ( 2 \mathrm{s} . \mathrm{f} . )$ **[1 mark]**
 
 **[Total: 3 marks]**
 

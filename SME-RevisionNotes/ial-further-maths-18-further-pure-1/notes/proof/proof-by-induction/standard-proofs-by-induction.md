@@ -19,33 +19,31 @@ guided_study: false
 
 ### What are the steps for proof by induction with series?
 
-- For example: prove that `sum from r equals 1 to n of r squared equals 1 over 6 n left parenthesis n plus 1 right parenthesis left parenthesis 2 n plus 1 right parenthesis`* *
+- For example: prove that $\sum_{r = 1}^{n} r^{2} = \frac{1}{6} n ( n + 1 ) ( 2 n + 1 )$* *
 
-  - It has a** left-hand** side, `L H S equals sum from r equals 1 to n of r squared`
+  - It has a** left-hand** side, $L H S = \sum_{r = 1}^{n} r^{2}$
   - and a **right-hand** side, $RHS=\frac{1}{6}n(n+1)(2n+1)$
 
 - **STEP 1** **The basic step:** Show result is true for** **$n=1$
 
-  - **Substitute*** *$n=1$ into both sides **individually** `L H S equals space sum from r equals 1 to 1 of r squared equals 1 squared equals 1
-  R H S equals 1 over 6 cross times 1 cross times left parenthesis 1 plus 1 right parenthesis left parenthesis 2 cross times 1 plus 1 right parenthesis equals 1 over 6 cross times 2 cross times 3 equals 1`
+  - **Substitute*** *$n=1$ into both sides **individually** $L H S = \sum_{r = 1}^{1} r^{2} = 1^{2} = 1
+ R H S = \frac{1}{6} \times 1 \times ( 1 + 1 ) ( 2 \times 1 + 1 ) = \frac{1}{6} \times 2 \times 3 = 1$
 
 - **STEP 2** **The assumption step: **Assume the *LHS  *and *RHS*  are equal for some $n=k$* *where $k$* *is some integer
 
   - Replace $n$ with $k$ in the statement
-  - Write: "Assume `sum from r equals 1 to k of r squared equals 1 over 6 k left parenthesis k plus 1 right parenthesis left parenthesis 2 k plus 1 right parenthesis` is true"
+  - Write: "Assume $\sum_{r = 1}^{k} r^{2} = \frac{1}{6} k ( k + 1 ) ( 2 k + 1 )$ is true"
 
 - **STEP 3** **The inductive step: **You need to **prove **that the* LHS  *and *RHS*  are equal for $n=k+1$
 
   - **Start** with the ***LHS**** * for $n=k+1$
   
-    - Take the** last** term out: `sum from r equals 1 to k plus 1 of r to the power of 2 space end exponent equals sum from r equals 1 to k of r squared space plus open parentheses k plus 1 close parentheses squared`
+    - Take the** last** term out: $\sum_{r = 1}^{k + 1} r^{2 } = \sum_{r = 1}^{k} r^{2} + ( k + 1 )^{2}$
     - **Substitute** in the **assumption **(STEP 2) :
-    - `sum from r equals 1 to k plus 1 of r to the power of 2 space end exponent equals 1 over 6 k left parenthesis k plus 1 right parenthesis left parenthesis 2 k plus 1 right parenthesis space plus open parentheses k plus 1 close parentheses squared`
+    - $\sum_{r = 1}^{k + 1} r^{2 } = \frac{1}{6} k ( k + 1 ) ( 2 k + 1 ) + ( k + 1 )^{2}$
     - **Factorise**: 
-    `1 over 6 open parentheses k plus 1 close parentheses left square bracket k left parenthesis 2 k plus 1 right parenthesis plus 6 open parentheses k plus 1 close parentheses right square bracket
-    equals 1 over 6 open parentheses k plus 1 close parentheses left square bracket 2 k squared plus 7 k plus 6 right square bracket
-    equals 1 over 6 open parentheses k plus 1 close parentheses open parentheses k plus 2 close parentheses open parentheses 2 k plus 3 close parentheses`
-  - **Check** if it is the **same** as the** *****RHS***** ** for $n=k+1$ `table row cell R H S end cell equals cell 1 over 6 open parentheses k plus 1 close parentheses open parentheses open parentheses k plus 1 close parentheses plus 1 close parentheses open parentheses 2 open parentheses k plus 1 close parentheses plus 1 close parentheses end cell row blank equals cell 1 over 6 open parentheses k plus 1 close parentheses open parentheses k plus 2 close parentheses open parentheses 2 k plus 3 close parentheses end cell end table`
+    $\frac{1}{6} ( k + 1 ) [ k ( 2 k + 1 ) + 6 ( k + 1 ) ] = \frac{1}{6} ( k + 1 ) [ 2 k ^{2} + 7 k + 6 ] = \frac{1}{6} ( k + 1 ) ( k + 2 ) ( 2 k + 3 )$
+  - **Check** if it is the **same** as the** *****RHS***** ** for $n=k+1$ $\begin{gathered} R H S & = \frac{1}{6} ( k + 1 ) ( ( k + 1 ) + 1 ) ( 2 ( k + 1 ) + 1 ) \\ = \frac{1}{6} ( k + 1 ) ( k + 2 ) ( 2 k + 3 ) \end{gathered}$
   - So** *****LHS*****  = *****RHS*****  **for $n=k+1$, as long as the **assumption** is true
 
 - **STEP 4** **The conclusion step: **Explain in** words** how the above steps make the result** true** for **all** integers, using the following **two **sentences:
@@ -54,16 +52,16 @@ guided_study: false
   - "**As** it is true for $n=1$, the** **statement** **is true **for all** $n\inℤ^{+}$."
 
 > **Worked Example**
-> Prove by induction that `sum from r equals 1 to n of r open parentheses r minus 3 close parentheses equals 1 third n open parentheses n minus 4 close parentheses open parentheses n plus 1 close parentheses` for $n\inℤ^{+}$.
+> Prove by induction that $\sum_{r = 1}^{n} r ( r - 3 ) = 1 \frac{1}{3} n ( n - 4 ) ( n + 1 )$ for $n\inℤ^{+}$.
 > 
 > > *STE P 1: The basic step*
 > *Find the LHS when *$n=1$
 > 
-> `sum from r equals 1 to 1 of r open parentheses r minus 3 close parentheses equals 1 open parentheses 1 minus 3 close parentheses equals negative 2`* *
+> $\sum_{r = 1}^{1} r ( r - 3 ) = 1 ( 1 - 3 ) = - 2$* *
 > 
 > > *Find the RHS when** *$n=1$
 > 
-> `1 third cross times 1 cross times open parentheses 1 minus 4 close parentheses open parentheses 1 plus 1 close parentheses equals 1 third cross times open parentheses negative 6 close parentheses equals negative 2`* *
+> $1 \frac{1}{3} \times 1 \times ( 1 - 4 ) ( 1 + 1 ) = 1 \frac{1}{3} \times ( - 6 ) = - 2$* *
 > 
 > > *The LHS and RHS are equal, which shows the statement is true for *$n=1$
 > *State this*
@@ -75,35 +73,35 @@ guided_study: false
 > > *STEP 2: The assumption step*
 > *Assume the statement is true for some *$n=k$* where *$k$* **is a positive integer*
 > 
-> *Assume that *`sum from r equals 1 to k of r open parentheses r minus 3 close parentheses equals 1 third k open parentheses k minus 4 close parentheses open parentheses k plus 1 close parentheses`
+> *Assume that *$\sum_{r = 1}^{k} r ( r - 3 ) = 1 \frac{1}{3} k ( k - 4 ) ( k + 1 )$
 > 
 > > * *
 > 
 > > *STEP 3: The inductive step*
 > *Find the RHS when *$n=k+1$
 > 
-> > `1 third open parentheses k plus 1 close parentheses open parentheses k plus 1 minus 4 close parentheses open parentheses k plus 1 plus 1 close parentheses equals 1 third open parentheses k plus 1 close parentheses open parentheses k minus 3 close parentheses open parentheses k plus 2 close parentheses`* *
+> > $1 \frac{1}{3} ( k + 1 ) ( k + 1 - 4 ) ( k + 1 + 1 ) = 1 \frac{1}{3} ( k + 1 ) ( k - 3 ) ( k + 2 )$* *
 > 
 > > *Find the LHS when *$n=k+1$
 > 
-> `sum from r equals 1 to k plus 1 of r open parentheses r minus 3 close parentheses`
+> $\sum_{r = 1}^{k + 1} r ( r - 3 )$
 > 
 > > *Prove that the LHS when *$n=k+1$* equals the RHS when *$n=k+1$
 > *Start by pulling out the final term in the sum*
 > 
-> `table row cell sum from r equals 1 to k plus 1 of r open parentheses r minus 3 close parentheses end cell equals cell sum from r equals 1 to k of r open parentheses r minus 3 close parentheses plus open parentheses k plus 1 close parentheses open parentheses k plus 1 minus 3 close parentheses end cell row blank equals cell sum from r equals 1 to k of r open parentheses r minus 3 close parentheses plus open parentheses k plus 1 close parentheses open parentheses k minus 2 close parentheses end cell end table`
+> $\begin{gathered} \sum_{r = 1}^{k + 1} r ( r - 3 ) & = \sum_{r = 1}^{k} r ( r - 3 ) + ( k + 1 ) ( k + 1 - 3 ) \\ = \sum_{r = 1}^{k} r ( r - 3 ) + ( k + 1 ) ( k - 2 ) \end{gathered}$
 > 
 > > *Now use the assumption in STEP 2 to replace the sum from 1 to *$k$* with its answer *
 > 
-> `table row cell sum from r equals 1 to k plus 1 of r open parentheses r minus 3 close parentheses end cell equals cell 1 third k open parentheses k minus 4 close parentheses open parentheses k plus 1 close parentheses plus open parentheses k plus 1 close parentheses open parentheses k minus 2 close parentheses end cell end table`
+> $\begin{gathered} \sum_{r = 1}^{k + 1} r ( r - 3 ) & = 1 \frac{1}{3} k ( k - 4 ) ( k + 1 ) + ( k + 1 ) ( k - 2 ) \end{gathered}$
 > 
 > > *Now factorise the right-hand side*
 > 
-> `table row cell sum from r equals 1 to k plus 1 of r open parentheses r minus 3 close parentheses end cell equals cell open parentheses k plus 1 close parentheses open square brackets 1 third k open parentheses k minus 4 close parentheses plus open parentheses k minus 2 close parentheses close square brackets end cell row blank equals cell 1 third open parentheses k plus 1 close parentheses open square brackets k open parentheses k minus 4 close parentheses plus 3 open parentheses k minus 2 close parentheses close square brackets end cell end table`
+> $\begin{gathered} \sum_{r = 1}^{k + 1} r ( r - 3 ) & = ( k + 1 ) [ 1 \frac{1}{3} k ( k - 4 ) + ( k - 2 ) ] \\ = 1 \frac{1}{3} ( k + 1 ) [ k ( k - 4 ) + 3 ( k - 2 ) ] \end{gathered}$
 > 
 > > *Expand inside the square brackets then continue to factorise*
 > 
-> `table row cell sum from r equals 1 to k plus 1 of r open parentheses r minus 3 close parentheses end cell equals cell 1 third open parentheses k plus 1 close parentheses open square brackets k squared minus 4 k plus 3 k minus 6 close square brackets end cell row blank equals cell 1 third open parentheses k plus 1 close parentheses open square brackets k squared minus k minus 6 close square brackets end cell row blank equals cell 1 third open parentheses k plus 1 close parentheses open parentheses k minus 3 close parentheses open parentheses k plus 2 close parentheses end cell end table`
+> $\begin{gathered} \sum_{r = 1}^{k + 1} r ( r - 3 ) & = 1 \frac{1}{3} ( k + 1 ) [ k^{2} - 4 k + 3 k - 6 ] \\ = 1 \frac{1}{3} ( k + 1 ) [ k^{2} - k - 6 ] \\ = 1 \frac{1}{3} ( k + 1 ) ( k - 3 ) ( k + 2 ) \end{gathered}$
 > 
 > > *This is the same as the RHS when *$n=k+1$
 > *The LHS and RHS are equal, which shows that the statement is true for *$n=k+1$
@@ -136,13 +134,13 @@ guided_study: false
 - **STEP 1** **The basic step:** Show result is true for** **$n=1$
 
   - **Substitute*** *$n=1$ into the function
-  - `straight f open parentheses 1 close parentheses equals 4 to the power of 1 minus 1 equals 3`which is divisible by 3
+  - $\mathrm{f} ( 1 ) = 4^{1} - 1 = 3$which is divisible by 3
 
 - **STEP 2** **The assumption step: **Assume $f(k)=4^{k}-1$ is divisible by 3 for some $n=k$* *where $k$* *is some integer
 
   - Replace $n$ with $k$ in the statement
   - Write "divisible by 3" as "$=3m$" where $m$ is a positive integer
-  - So`straight f open parentheses k close parentheses equals 4 to the power of k minus 1 equals 3 m` where $m\inℤ^{+}$
+  - So$\mathrm{f} ( k ) = 4^{k} - 1 = 3 m$ where $m\inℤ^{+}$
   - It helps to make $4^{k}$ the **subject**: $4^{k}=1+3m$
 
 - **STEP 3** **The inductive step (method 1): **You need to show that the $n=k+1$ case is divisible by 3
@@ -152,13 +150,13 @@ guided_study: false
     - $f(k+1)=4^{k+1}-1$
   - Use** index laws** to substitute in the **assumption **(STEP 2)  $4^{k}=1+3m$
   
-    - `straight f left parenthesis k plus 1 right parenthesis equals 4 open parentheses 4 to the power of k close parentheses minus 1 equals 4 open parentheses 1 plus 3 m close parentheses minus 1 equals 3 open parentheses 4 m plus 1 close parentheses`which is a multiple of 3
+    - $\mathrm{f} ( k + 1 ) = 4 ( 4^{k} ) - 1 = 4 ( 1 + 3 m ) - 1 = 3 ( 4 m + 1 )$which is a multiple of 3
   - So $f(k+1)$is divisible by 3 (as long as the **assumption** is true)
 
 - **STEP 3** **The inductive step (method 2): **An **alternative method ** is to show that the **difference** $f(k+1)-f(k)$  is a multiple of 3
 
   - i.e.  $f(k+1)-f(k)=3\times...$
-  - Making $f(k+1)$the subject gives `straight f left parenthesis k plus 1 right parenthesis equals straight f open parentheses k close parentheses plus 3 cross times...`
+  - Making $f(k+1)$the subject gives $\mathrm{f} ( k + 1 ) = \mathrm{f} ( k ) + 3 \times...$
   - So $f(k+1)$ is divisible by 3 (as long as the **assumption** is true, i.e. that  $f(k)$ is divisible by 3)
   - This method does not always work
   
@@ -175,7 +173,7 @@ guided_study: false
 > > *STE P 1: The basic step*
 > *Prove that it is true for *$n=0$
 > 
-> `table row cell straight f open parentheses 0 close parentheses end cell equals cell 6 to the power of 0 plus 13 to the power of 0 plus 1 end exponent end cell row blank equals cell 1 plus 13 end cell row blank equals 14 row blank equals cell 7 cross times 2 end cell end table`
+> $\begin{gathered} \mathrm{f} ( 0 ) & = 6^{0 + 13^{0} + 1} \\ = 1 + 13 \\ = 14 \\ = 7 \times 2 \end{gathered}$
 > 
 > > *State that it is true for *$n=0$
 > 
@@ -197,25 +195,25 @@ guided_study: false
 > > *STEP 3: The inductive step*
 > *Substitute *$n=k+1$* into the function*
 > 
-> `table row cell straight f left parenthesis k plus 1 right parenthesis end cell equals cell 6 to the power of k plus 1 end exponent plus 13 to the power of open parentheses k plus 1 close parentheses plus 1 end exponent end cell row blank equals cell 6 to the power of k plus 1 end exponent plus 13 to the power of k plus 2 end exponent end cell end table`
+> $\begin{gathered} \mathrm{f} ( k + 1 ) & = 6^{k + 1} + 13^{( k + 1 ) + 1} \\ = 6^{k + 1} + 13^{k + 2} \end{gathered}$
 > 
 > > *Now make either *$6^{k}$* or *$13^{k+1}$* the subject of STEP 2 and substitute it in*
 > *It helps to use index laws first*
 > 
-> `table row cell straight f left parenthesis k plus 1 right parenthesis end cell equals cell 6 to the power of k cross times 6 plus 13 to the power of k plus 2 end exponent end cell row blank equals cell open parentheses 7 m minus 13 to the power of k plus 1 end exponent close parentheses cross times 6 plus 13 to the power of k plus 2 end exponent end cell end table`
+> $\begin{gathered} \mathrm{f} ( k + 1 ) & = 6^{k \times 6 + 13^{k} + 2} \\ = ( 7 m - 13^{k + 1} ) \times 6 + 13^{k + 2} \end{gathered}$
 > 
 > > *Simplify the terms, using index laws to group the *$13^{k+1}$* terms*
 > 
-> `table row cell straight f left parenthesis k plus 1 right parenthesis end cell equals cell 42 m minus 6 cross times 13 to the power of k plus 1 end exponent plus 13 to the power of k plus 2 end exponent end cell row blank equals cell 42 m minus 6 cross times 13 to the power of k plus 1 end exponent plus 13 cross times 13 to the power of k plus 1 end exponent end cell row blank equals cell 42 m plus left parenthesis negative 6 plus 13 right parenthesis cross times 13 to the power of k plus 1 end exponent end cell row blank equals cell 42 m plus 7 cross times 13 to the power of k plus 1 end exponent end cell end table`
+> $\begin{gathered} \mathrm{f} ( k + 1 ) & = 42 m - 6 \times 13^{k + 1} + 13^{k + 2} \\ = 42 m - 6 \times 13^{k + 1} + 13 \times 13^{k + 1} \\ = 42 m + ( - 6 + 13 ) \times 13^{k + 1} \\ = 42 m + 7 \times 13^{k + 1} \end{gathered}$
 > 
 > > *The goal is to show that this result is divisible by 7*
 > *Factorise out a 7 to show this*
 > 
-> `table row cell straight f left parenthesis k plus 1 right parenthesis end cell equals cell 7 cross times open parentheses 6 m plus 13 to the power of k plus 1 end exponent close parentheses end cell end table`
+> $\begin{gathered} \mathrm{f} ( k + 1 ) & = 7 \times ( 6 m + 13^{k + 1} ) \end{gathered}$
 > 
 > > *State that it is true for *$n=k+1$
 > 
-> `straight f open parentheses k plus 1 close parentheses`* is divisible by 7, so it is true for *$n=k+1$
+> $\mathrm{f} ( k + 1 )$* is divisible by 7, so it is true for *$n=k+1$
 > 
 > > * *
 > 
@@ -255,7 +253,7 @@ guided_study: false
   - Use the recursive formula to write $u_{k+1}=3u_{k}+4$
   - Substitute in the **assumption** (STEP 2) and simplify
   
-    - `u subscript k plus 1 end subscript equals 3 open parentheses 3 to the power of k minus 2 close parentheses plus 4 equals 3 to the power of k plus 1 end exponent minus 2`
+    - $u_{k + 1} = 3 ( 3^{k - 2 ) + 4 = 3^{k} + 1} - 2$
   - **Check** this is the same as the* n*th term formula when $n=k+1$
   
     - $u_{k+1}=3^{k+1}-2$
@@ -281,7 +279,7 @@ guided_study: false
 > 
 > > *Find *$u_{1}$* from the **n*<sup>*th*</sup>* term formula*
 > 
-> `table row cell u subscript 1 end cell equals cell 5 to the power of 1 minus 1 end exponent plus 1 end cell row blank equals cell 5 to the power of 0 plus 1 end cell row blank equals cell 1 plus 1 end cell row blank equals 2 end table`
+> $\begin{gathered} u_{1} & = 5^{1 - 1} + 1 \\ = 5^{0} + 1 \\ = 1 + 1 \\ = 2 \end{gathered}$
 > 
 > > *These two terms are equal*
 > *State that it is true for *$n=1$
@@ -300,15 +298,15 @@ guided_study: false
 > > *STEP 3: The inductive step*
 > *Use the recursive sequence to write *$u_{k+1}$* in terms of *$u_{k}$
 > 
-> `table row cell u subscript k plus 1 end subscript end cell equals cell 5 u subscript k minus 4 end cell end table`
+> $\begin{gathered} u_{k + 1} & = 5 u_{k} - 4 \end{gathered}$
 > 
 > > *Replace *$u_{k}$* with the assumption in STEP 2 and simplify*
 > 
-> `table row cell u subscript k plus 1 end subscript end cell equals cell 5 open parentheses 5 to the power of k minus 1 end exponent plus 1 close parentheses minus 4 end cell row blank equals cell 5 to the power of k plus 5 minus 4 end cell row blank equals cell 5 to the power of k plus 1 end cell end table`
+> $\begin{gathered} u_{k + 1} & = 5 ( 5^{k - 1} + 1 ) - 4 \\ = 5^{k} + 5 - 4 \\ = 5^{k} + 1 \end{gathered}$
 > 
 > > *Check that this is the same as substituting *$n=k+1$* into the **n*<sup>*th*</sup>* term formula *
 > 
-> `table row cell u subscript k plus 1 end subscript end cell equals cell 5 to the power of open parentheses k plus 1 close parentheses minus 1 end exponent plus 1 end cell row blank equals cell 5 to the power of k plus 1 end cell end table`
+> $\begin{gathered} u_{k + 1} & = 5^{( k + 1 ) - 1} + 1 \\ = 5^{k} + 1 \end{gathered}$
 > 
 > > *State that the result is true for *$n=k+1$
 > 
@@ -332,27 +330,27 @@ guided_study: false
 
 ### What are the steps for proof by induction with matrices?
 
-- For example: prove that `bold M to the power of n equals open parentheses table row cell 2 to the power of n end cell 0 row cell 1 minus 2 to the power of n end cell 1 end table close parentheses` where `bold M equals open parentheses table row 2 0 row cell negative 1 end cell 1 end table close parentheses` for all integers $n\geq1$.
+- For example: prove that $M^{n} = ( \begin{gathered} 2^{n} & 0 \\ 1 - 2^{n} & 1 \end{gathered} )$ where $M = ( \begin{gathered} 2 0 \\ - 1 & 1 \end{gathered} )$ for all integers $n\geq1$.
 
 - **STEP 1** **The basic step:** Show result is true for** **$n=1$
 
   - **Substitute*** *$n=1$ into formula
-  - `bold M to the power of 1 equals end exponent open parentheses table row cell 2 to the power of 1 end cell 0 row cell 1 minus 2 to the power of 1 end cell 1 end table close parentheses equals open parentheses table row 2 0 row cell negative 1 end cell 1 end table close parentheses equals bold M`
+  - $M^{1 =} ( \begin{gathered} 2^{1} & 0 \\ 1 - 2^{1} & 1 \end{gathered} ) = ( \begin{gathered} 2 0 \\ - 1 & 1 \end{gathered} ) = M$
 
-- **STEP 2** **The assumption step: **Assume `bold M to the power of k equals open parentheses table row cell 2 to the power of k end cell 0 row cell 1 minus 2 to the power of k end cell 1 end table close parentheses` is true for some $n=k$* *where $k$* *is some integer
+- **STEP 2** **The assumption step: **Assume $M^{k} = ( \begin{gathered} 2^{k} & 0 \\ 1 - 2^{k} & 1 \end{gathered} )$ is true for some $n=k$* *where $k$* *is some integer
 
   - Replace $n$ with $k$ in the statement
 
 - **STEP 3** **The inductive step: **You need to show that the $n=k+1$ case is true
 
   - Use **index laws** to write $M^{k+1}=\mathrm{MM}^{k}$
-  - Substitute in the** assumption**: `bold M to the power of k plus 1 end exponent equals bold M open parentheses table row cell 2 to the power of k end cell 0 row cell 1 minus 2 to the power of k end cell 1 end table close parentheses equals open parentheses table row 2 0 row cell negative 1 end cell 1 end table close parentheses open parentheses table row cell 2 to the power of k end cell 0 row cell 1 minus 2 to the power of k end cell 1 end table close parentheses`
+  - Substitute in the** assumption**: $M^{k + 1} = M ( \begin{gathered} 2^{k} & 0 \\ 1 - 2^{k} & 1 \end{gathered} ) = ( \begin{gathered} 2 0 \\ - 1 & 1 \end{gathered} ) ( \begin{gathered} 2^{k} & 0 \\ 1 - 2^{k} & 1 \end{gathered} )$
   - **Multiply** the matrices
   
-    - `bold M to the power of k plus 1 end exponent equals open parentheses table row cell 2 to the power of k plus 1 end exponent end cell 0 row cell 1 minus 2 cross times 2 to the power of k end cell 1 end table close parentheses equals open parentheses table row cell 2 to the power of k plus 1 end exponent end cell 0 row cell 1 minus 2 to the power of k plus 1 end exponent end cell 1 end table close parentheses`
+    - $M^{k + 1} = ( \begin{gathered} 2^{k + 1} & 0 \\ 1 - 2 \times 2^{k & 1 \end{gathered} ) = ( \begin{gathered} 2^{k} + 1} & 0 \\ 1 - 2^{k + 1} & 1 \end{gathered} )$
   - **Check** if it is the same as the formula with $n=k+1$
   
-    - `bold M to the power of k plus 1 end exponent equals open parentheses table row cell 2 to the power of k plus 1 end exponent end cell 0 row cell 1 minus 2 to the power of k plus 1 end exponent end cell 1 end table close parentheses`
+    - $M^{k + 1} = ( \begin{gathered} 2^{k + 1} & 0 \\ 1 - 2^{k + 1} & 1 \end{gathered} )$
     - It is the same
 
 - **STEP 4** **The conclusion step: **Explain in** words** how the above steps make the result** true** for **all** integers, using the following **two **sentences:
@@ -361,14 +359,14 @@ guided_study: false
   - "**As** it is true for $n=1$, the** **statement** **is true **for all** $n\inℤ^{+}$."
 
 > **Worked Example**
-> The matrix $M$ is given by `bold M equals open parentheses table row 2 2 row 0 1 end table close parentheses`.
+> The matrix $M$ is given by $M = ( \begin{gathered} 2 2 \\ 0 1 \end{gathered} )$.
 > 
-> Prove, using mathematical induction, that `bold M to the power of n equals open parentheses table row cell 2 to the power of n end cell cell 2 left parenthesis 2 to the power of n minus 1 right parenthesis end cell row 0 1 end table close parentheses` for all integers satisfying $n\geq1$.
+> Prove, using mathematical induction, that $M^{n} = ( \begin{gathered} 2^{n} & 2 ( 2^{n} - 1 ) \\ 0 1 \end{gathered} )$ for all integers satisfying $n\geq1$.
 > 
 > > *STE P 1: The basic step*
 > *Prove that it is true for *$n=1$
 > 
-> `table row cell bold M to the power of 1 end cell equals cell open parentheses table row cell 2 to the power of 1 end cell cell 2 open parentheses 2 to the power of 1 minus 1 close parentheses end cell row 0 1 end table close parentheses end cell row blank equals cell open parentheses table row 2 2 row 0 1 end table close parentheses end cell row blank equals bold M end table`
+> $\begin{gathered} M^{1} & = ( \begin{gathered} 2^{1} & 2 ( 2^{1} - 1 ) \\ 0 1 \end{gathered} ) \\ = ( \begin{gathered} 2 2 \\ 0 1 \end{gathered} ) \\ = M \end{gathered}$
 > 
 > > *State that it is true for *$n=1$
 > 
@@ -379,27 +377,27 @@ guided_study: false
 > > *STEP 2: The assumption step*
 > *Assume the formula is true for some *$n=k$* where *$k$* is a positive integer*
 > 
-> *Assume that *`bold M to the power of k equals open parentheses table row cell 2 to the power of k end cell cell 2 left parenthesis 2 to the power of k minus 1 right parenthesis end cell row 0 1 end table close parentheses`* *
+> *Assume that *$M^{k} = ( \begin{gathered} 2^{k} & 2 ( 2^{k} - 1 ) \\ 0 1 \end{gathered} )$* *
 > 
 > > * *
 > 
 > > *STEP 3: The inductive step*
 > *Look at the power of *$n=k+1$
 > 
-> `table row blank blank cell bold M to the power of k plus 1 end exponent end cell end table`
+> $\begin{gathered} M^{k + 1} \end{gathered}$
 > 
 > > *Use index laws, then substitute in the assumption from STEP 2*
 > 
-> `table row cell bold M to the power of k plus 1 end exponent end cell equals cell bold M to the power of k bold M to the power of bold 1 end cell row blank equals cell open parentheses table row cell 2 to the power of k end cell cell 2 left parenthesis 2 to the power of k minus 1 right parenthesis end cell row 0 1 end table close parentheses open parentheses table row 2 2 row 0 1 end table close parentheses end cell end table`
+> `| M ^ k + 1 | = M ^ k M ^ 1 | | _ = ( | 2 ^ k | 2 ( 2 ^ k - 1 ) | | 0 1 | ) ( | 2 2 | 0 1 | ) | |`
 > 
 > > *Use matrix multiplication to work out the right-hand side*
 > *Simplify the terms*
 > 
-> * *`table row cell bold M to the power of k plus 1 end exponent end cell equals cell open parentheses table row cell 2 to the power of k cross times 2 plus 0 end cell cell space space 2 to the power of k cross times 2 plus 2 left parenthesis 2 to the power of k plus 1 end exponent minus 1 right parenthesis cross times 1 end cell row cell 0 plus 0 end cell cell 0 plus 1 end cell end table close parentheses end cell row blank equals cell open parentheses table row cell 2 to the power of k plus 1 end exponent end cell cell space space 2 cross times 2 to the power of k plus 1 end exponent minus 2 end cell row 0 1 end table close parentheses end cell end table`
+> * *$\begin{gathered} M^{k + 1} & = ( \begin{gathered} 2^{k \times 2 + 0 & 2^{k} \times 2 + 2 ( 2^{k} + 1} - 1 ) \times 1 \\ 0 + 0 & 0 + 1 \end{gathered} ) \\ = ( \begin{gathered} 2^{k + 1} & 2 \times 2^{k + 1} - 2 \\ 0 1 \end{gathered} ) \end{gathered}$
 > 
 > > *Check that this is the same as substituting *$n=k+1$* into the formula for *$M^{n}$
 > 
-> * *`table row cell bold M to the power of k plus 1 end exponent end cell equals cell open parentheses table row cell 2 to the power of k plus 1 end exponent end cell cell 2 left parenthesis 2 to the power of k plus 1 end exponent minus 1 right parenthesis end cell row 0 1 end table close parentheses end cell row blank equals cell open parentheses table row cell 2 to the power of k plus 1 end exponent end cell cell 2 cross times 2 to the power of k plus 1 end exponent minus 2 end cell row 0 1 end table close parentheses end cell end table`
+> * *$\begin{gathered} M^{k + 1} & = ( \begin{gathered} 2^{k + 1} & 2 ( 2^{k + 1} - 1 ) \\ 0 1 \end{gathered} ) \\ = ( \begin{gathered} 2^{k + 1} & 2 \times 2^{k + 1} - 2 \\ 0 1 \end{gathered} ) \end{gathered}$
 > 
 > > *State that the result is true for *$n=k+1$
 > 

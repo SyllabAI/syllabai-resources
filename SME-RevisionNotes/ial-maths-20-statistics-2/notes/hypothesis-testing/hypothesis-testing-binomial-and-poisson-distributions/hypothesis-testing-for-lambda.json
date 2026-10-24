@@ -82,7 +82,7 @@
   },
   {
    "type": "bullets",
-   "md": "- The **critical value** will be the **first value **to fall within the** critical region**\n\n  - The Poisson distribution is a** discrete **distribution** **so the probability of the observed value being within the critical region, given a true null hypothesis may be less than the** significance level**\n  - This is the **actual significance level** and is the probability of **incorrectly **rejecting the null hypothesis (a Type I error)\n- For a **one-tailed test **use the formula to find the first value for which the probability of that **or a more extreme value** is less than the given significance level\n\n  - Check that the next value would cause this probability to be greater than the significance level\n  \n    - For H<sub>1</sub> : λ < ...   if `straight P left parenthesis X less or equal than c right parenthesis less or equal than alpha percent sign` and `straight P left parenthesis X less or equal than c plus 1 right parenthesis greater than alpha percent sign` then *c *is the critical value\n    - For H<sub>1</sub> : λ > ... if `straight P left parenthesis X greater or equal than c right parenthesis less or equal than alpha percent sign` and `straight P left parenthesis X greater or equal than c minus 1 right parenthesis greater than alpha percent sign` then *c *is the critical value\n- For a **two-tailed test **you will need to find **both critical values, **one at each end of the distribution"
+   "md": "- The **critical value** will be the **first value **to fall within the** critical region**\n\n  - The Poisson distribution is a** discrete **distribution** **so the probability of the observed value being within the critical region, given a true null hypothesis may be less than the** significance level**\n  - This is the **actual significance level** and is the probability of **incorrectly **rejecting the null hypothesis (a Type I error)\n- For a **one-tailed test **use the formula to find the first value for which the probability of that **or a more extreme value** is less than the given significance level\n\n  - Check that the next value would cause this probability to be greater than the significance level\n  \n    - For H<sub>1</sub> : λ < ...   if $\\mathrm{P} ( X \\le c ) \\le \\alpha \\%$ and $\\mathrm{P} ( X \\le c + 1 ) > \\alpha \\%$ then *c *is the critical value\n    - For H<sub>1</sub> : λ > ... if $\\mathrm{P} ( X \\ge c ) \\le \\alpha \\%$ and $\\mathrm{P} ( X \\ge c - 1 ) > \\alpha \\%$ then *c *is the critical value\n- For a **two-tailed test **you will need to find **both critical values, **one at each end of the distribution"
   },
   {
    "type": "heading",
@@ -107,7 +107,7 @@
   },
   {
    "type": "paragraph",
-   "md": "**Step 3.  **Define the distribution, usually `begin mathsize 16px style X tilde Po left parenthesis lambda right parenthesis end style`  where *λ *is the mean to be tested"
+   "md": "**Step 3.  **Define the distribution, usually $X \\sim \\text{Po} ( \\\\lambda )$  where *λ *is the mean to be tested"
   },
   {
    "type": "paragraph",

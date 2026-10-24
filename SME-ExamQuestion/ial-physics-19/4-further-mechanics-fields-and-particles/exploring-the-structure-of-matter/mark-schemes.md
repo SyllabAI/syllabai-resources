@@ -109,7 +109,7 @@ List the known quantities:
 Use the equation for charged particle in a magnetic field to find *r*:
 
 - In a magnetic field: $r=\frac{p}{BQ}$
-- `r space equals space fraction numerator 1.2 cross times 10 to the power of negative 19 end exponent over denominator 3.5 cross times open parentheses 1.6 cross times 10 to the power of negative 19 end exponent close parentheses end fraction` **[1 mark]**
+- $r = \frac{1.2 \times 10^{- 19} }{3.5 \times ( 1.6 \times 10^{- 19} )}$ **[1 mark]**
 - Radius = 0.21 m **[1 mark]**
 
 **[Total: 3 marks]**
@@ -139,7 +139,7 @@ Write a concluding statement:
 
 *Example of alternate calculation & conclusion*
 
-- Measured angle between pion and neutrino is 25° which is consistent with the sine rule `fraction numerator sin space A over denominator A end fraction space equals space fraction numerator sin space B over denominator B end fraction space space space rightwards double arrow space space space B space equals space sin to the power of negative 1 end exponent space open parentheses fraction numerator 7.5 over denominator 5.4 end fraction cross times sin space 18 degree close parentheses space equals space 25.4 degree`
+- Measured angle between pion and neutrino is 25° which is consistent with the sine rule $\frac{\sin A}{A} = \frac{\sin B}{B} \Leftrightarrow B = \sin ^{- 1} ( \frac{7.5}{5.4} \times \sin 18^{\circ} ) = 25.4^{\circ}$
 
 **[Total: 6 marks]**
 
@@ -156,9 +156,9 @@ Derive the energy-momentum relation:
 - Start with kinetic energy:  $E_{k}=\frac{1}{2}mv^{2}$
 - Multiply $E_{k}$ by $\frac{m}{m}$
 
-  - `E subscript k space equals space m over m cross times space open parentheses 1 half m v squared close parentheses space equals space fraction numerator m cross times m v squared over denominator 2 cross times m end fraction space equals space fraction numerator m squared v squared over denominator 2 m end fraction` **[1 mark]**
+  - $E_{k} = \frac{m}{m} \times ( 1 \frac{1}{2} m v^{2} ) = \frac{m \times m v^{2}}{2 \times m} = \frac{m^{2} v^{2}}{2 m}$ **[1 mark]**
 - Substitute in momentum: $p=mv$
-- `E subscript k space equals space fraction numerator open parentheses m v close parentheses squared over denominator 2 m end fraction space equals space fraction numerator p squared over denominator 2 m end fraction` **[1 mark]**
+- $E_{k} = \frac{( m v )^{2}}{2 m} = \frac{p^{2}}{2 m}$ **[1 mark]**
 
 **[Total: 2 marks]**
 
@@ -187,7 +187,7 @@ Determine the kinetic energy of the ion when it reaches the next tube:
 Use the energy-momentum relation:
 
 - $E_{k}=\frac{p^{2}}{2m}\Rightarrowp=\sqrt{2mE_{k}}$
-- `p space equals space square root of 2 space cross times space open parentheses 3.32 cross times 10 to the power of negative 25 end exponent close parentheses space cross times space open parentheses 1.31 cross times 10 to the power of negative 14 end exponent close parentheses end root` **[1 mark]**
+- $p = \sqrt{2 \times ( 3.32 \times 10^{- 25} ) \times ( 1.31 \times 10^{- 14} )}$ **[1 mark]**
 - Momentum = 9.33 × 10<sup>–20</sup> kg m s<sup>−1</sup> **[1 mark]**
 
 **[Total: 4 marks]**
@@ -238,15 +238,15 @@ i) Show that the positron must have been travelling at a relativistic speed:
 
 - Convert from eV to J:  *E*<sub>*k*</sub> = (23 × 10<sup>6</sup>) × (1.6 × 10<sup>−19</sup>) **[1 mark]**
 - Kinetic energy:  $E_{k}=\frac{1}{2}mv^{2}\Rightarrowv=\sqrt{\frac{2E_{k}}{m}}$
-- `v space equals space square root of fraction numerator 2 cross times open parentheses 23 cross times 10 to the power of 6 close parentheses cross times open parentheses 1.6 cross times 10 to the power of negative 19 end exponent close parentheses over denominator 9.11 cross times 10 to the power of negative 31 end exponent end fraction end root` = 2.8 × 10<sup>9</sup> m s<sup>−1</sup> **[1 mark]**
+- $v = \sqrt{ \frac{2 \times ( 23 \times 10^{6 ) \times ( 1.6 \times 10^{-19} } )}{9.11 \times 10^{- 31} } }$ = 2.8 × 10<sup>9</sup> m s<sup>−1</sup> **[1 mark]**
 - The speed of the positron (2.8 × 10<sup>9</sup> m s<sup>−1</sup>) is greater than the speed of light (3.0 × 10<sup>8</sup> m s<sup>−1</sup>) hence it must be relativistic; **[1 mark]**
 
 ii) Determine the magnetic flux density of the magnetic field:
 
 - Relativistic energy-momentum:  $E=pc$
-- `p space equals space E over c space equals space fraction numerator open parentheses 23 cross times 10 to the power of 6 close parentheses cross times open parentheses 1.6 cross times 10 to the power of negative 19 end exponent close parentheses over denominator 3.0 cross times 10 to the power of 8 end fraction` = 1.2 × 10<sup>−20</sup> N s **[1 mark]**
+- $p = \frac{E}{c} = \frac{( 23 \times 10^{6 ) \times ( 1.6 \times 10^{-19} } )}{3.0 \times 10^{8} }$ = 1.2 × 10<sup>−20</sup> N s **[1 mark]**
 - Radius of a particle in a magnetic field:  $r=\frac{p}{BQ}$
-- `B space equals space fraction numerator p over denominator r Q end fraction space equals space fraction numerator 1.2 cross times 10 to the power of negative 20 end exponent over denominator 0.037 cross times open parentheses 1.6 cross times 10 to the power of negative 19 end exponent close parentheses end fraction` = 2.072 **[1 mark]**
+- $B = \frac{p}{r Q} = \frac{1.2 \times 10^{- 20} }{0.037 \times ( 1.6 \times 10^{- 19} )}$ = 2.072 **[1 mark]**
 - Magnetic flux density = 2.1 T **[1 mark]**
 
 **[Total: 6 marks]**
@@ -263,13 +263,13 @@ List the known quantities:
 
 Determine the kinetic energy of the electron and positron:
 
-- Kinetic energy:  `E subscript k space equals space 1 half m v squared space space space space space rightwards double arrow space space space space space E subscript k space equals space stack stack open parentheses 1 half m subscript e v squared close parentheses with underbrace below with e l e c t r o n below space space plus space space stack stack open parentheses 1 half m subscript e v squared close parentheses with underbrace below with p o s i t r o n below`
-- `E subscript k space equals space 2 space cross times space 1 half space cross times space open parentheses 9.11 cross times 10 to the power of negative 31 end exponent close parentheses space cross times space open parentheses 1.5 cross times 10 to the power of 7 close parentheses squared` = 2.0 × 10<sup>−16</sup> J **[1 mark]**
+- Kinetic energy:  `E _ k = 1 half m v ^2 <-> E _ k = ( 1 half m _ e v ^2 ) with underbrace below with e l e c t r o n below + ( 1 half m _ e v ^2 ) with underbrace below with p o s i t r o n below`
+- $E_{k} = 2 \times 1 \frac{1}{2} \times ( 9.11 \times 10^{- 31} ) \times ( 1.5 \times 10^{7} )^{2}$ = 2.0 × 10<sup>−16</sup> J **[1 mark]**
 
 Use mass-energy equivalence to determine the total energy available:
 
 - Mass-energy equivalence:  $\DeltaE=c^{2}\Deltam$
-- `increment E space equals space open parentheses 3.0 cross times 10 to the power of 8 close parentheses squared cross times 2 cross times open parentheses 9.11 cross times 10 to the power of negative 31 end exponent close parentheses` = 1.64 × 10<sup>−13</sup> J **[1 mark]**
+- $\Delta E = ( 3.0 \times 10^{8 )^{2} \times 2 \times ( 9.11 \times 10^{-31} } )$ = 1.64 × 10<sup>−13</sup> J **[1 mark]**
 - Total energy = (1.64 × 10<sup>−13</sup>) + (2.0 × 10<sup>−16</sup>) = 1.642 × 10<sup>−13</sup> J
 
 Determine the energy and frequency of one gamma photon:
@@ -336,7 +336,7 @@ Total charge $=-1$ before and after, therefore, charge is conserved
 
 $π^{-}\rightarrowμ^{-}+\overline{ν}_{μ}$
 
-`0 space rightwards arrow space 1 space plus space open parentheses negative 1 close parentheses`
+$0 \rightarrow 1 + ( - 1 )$
 
 Total lepton number $=0$ before and after, therefore, lepton number is conserved
 
@@ -346,7 +346,7 @@ Total lepton number $=0$ before and after, therefore, lepton number is conserved
 > Any **two** from (1 mark per point):
 > 
 > - Charge: $-1\rightarrow-1+0$
-> - Lepton number: `0 space rightwards arrow space 1 space plus space open parentheses negative 1 close parentheses`
+> - Lepton number: $0 \rightarrow 1 + ( - 1 )$
 > - Baryon number: $0\rightarrow0+0$
 > 
 > To score each mark, the conservation law must be named **AND** correctly applied to the decay $π^{-}\rightarrowμ^{-}+\overline{ν}_{μ}$
@@ -363,7 +363,7 @@ To calculate the mass of the $π^{-}$ particle in kg:
 
 $1 \text{MeV} = 1 . 60 \times 10^{-13} \text{J}$
 
-`E space equals space 139.57 cross times open parentheses 1.60 cross times 10 to the power of negative 13 end exponent close parentheses space equals space 2.23 cross times 10 to the power of negative 11 end exponent text  J end text` **[1 mark]**
+$E = 139.57 \times ( 1.60 \times 10^{- 13} ) = 2.23 \times 10^{- 11} \text{ J}$ **[1 mark]**
 
 - Use energy-mass equivalence and rearrange for mass:
 
@@ -371,7 +371,7 @@ $\DeltaE=c^{2}\Deltam$
 
 $m=\frac{E}{c^{2}}$
 
-`m space equals space fraction numerator 139.57 cross times open parentheses 1.60 cross times 10 to the power of negative 13 end exponent close parentheses over denominator left parenthesis 3.00 cross times 10 to the power of 8 right parenthesis squared end fraction` **[1 mark]**
+$m = \frac{139.57 \times ( 1.60 \times 10^{- 13} )}{( 3.00 \times 10^{8} )^{2}}$ **[1 mark]**
 
 $m=$ $2.48\times10^{-28}\text{kg}$ **[1 mark]**
 
@@ -397,7 +397,7 @@ $m=$ $2.48\times10^{-28}\text{kg}$ **[1 mark]**
 ### 5() — 4 marks
 The time taken for a muon to travel $10\text{km}$ is predicted to be:
 
-`t space equals space d over v space equals space fraction numerator 10   000 over denominator 0.99 cross times open parentheses 3.00 cross times 10 to the power of 8 close parentheses end fraction space almost equal to space 3.4 cross times 10 to the power of negative 5 end exponent text  s end text` **[1 mark]**
+$t = \frac{d}{v} = \frac{10   000}{0.99 \times ( 3.00 \times 10^{8 )} \approx 3.4 \times 10^{-5} } \text{ s}$ **[1 mark]**
 
 The average lifetime of a muon is $2.2\times10^{-6}\text{s}$, which is much shorter than $3.4\times10^{-5}\text{s}$. So, according to classical mechanics, most muons should decay before reaching sea level.
 

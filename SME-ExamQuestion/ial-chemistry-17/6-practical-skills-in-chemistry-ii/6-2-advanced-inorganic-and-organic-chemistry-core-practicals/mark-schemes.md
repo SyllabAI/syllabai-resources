@@ -133,9 +133,9 @@ Barium chloride (solution) / BaCl<sub>2</sub> (aq) **OR** barium nitrate solutio
 ### 1((c)) — 4 marks
 An electrochemical cell was made from the electrode systems represented by these half-equations:
 
-Cu<sup>2+</sup>(aq) + 2e<sup>– </sup>⇌ Cu(s)  `E to the power of ⦵`= +0.34V Fe<sup>3+</sup>(aq) + e<sup>−         </sup>⇌ Fe<sup>2+</sup>(aq) `E to the power of ⦵`= +0.77V
+Cu<sup>2+</sup>(aq) + 2e<sup>– </sup>⇌ Cu(s)  `E ^ ⦵`= +0.34V Fe<sup>3+</sup>(aq) + e<sup>−         </sup>⇌ Fe<sup>2+</sup>(aq) `E ^ ⦵`= +0.77V
 
-i) `begin mathsize 14px style italic E subscript cell superscript ⦵ end style` for the electrochemical cell is:
+i) $E_{cell} ^{\circ}$ for the electrochemical cell is:
 
 - 0.43 (v); **[1 mark]**
 
@@ -644,7 +644,7 @@ iii) The relative molecular mass of the compound is:
 
 iv) The molecular formula of the compound is:
 
-- (x = `fraction numerator M subscript straight r over denominator M subscript straight r space open parentheses straight C subscript 2 straight H subscript 4 straight O close parentheses end fraction space equals space 88 over 44 space equals space 2`) Molecular formula is C<sub>4</sub>H<sub>8</sub>O<sub>2</sub>; **[1 mark]**
+- (x = $\frac{M_{r} }{M_{r} ( \mathrm{C}_{2} \mathrm{H}_{4} \mathrm{O} )} = \frac{88}{44} = 2$) Molecular formula is C<sub>4</sub>H<sub>8</sub>O<sub>2</sub>; **[1 mark]**
 
 v) The identity of the compound is:
 
@@ -1861,11 +1861,11 @@ To calculate the concentration of KClO<sub>3</sub> in the solution, in mol dm<su
 
 **Final answer:** **[Total: 2 marks] **
 
-- *To calculate the concentration you must first determine the number of moles by using moles = *`fraction numerator mass space open parentheses straight g close parentheses over denominator M subscript straight r end fraction`
+- *To calculate the concentration you must first determine the number of moles by using moles = *$\frac{mass ( \mathrm{g} )}{M_{r} }$
 - *Now you have the number of moles the concentration can be found by multiplying the number of moles by 10, as 100 cm*<sup>*3 *</sup>*of solution was used*
 - *Or you could use*
 
-  - *concentration = *`fraction numerator moles over denominator volume space open parentheses dm cubed close parentheses end fraction`* or concentration = *`fraction numerator moles space over denominator volume space open parentheses cm cubed close parentheses end fraction cross times 1000`
+  - *concentration = *$\frac{moles}{volume ( dm^{3} )}$* or concentration = *$\frac{moles }{volume ( cm^{3} )} \times 1000$
 
 ### 2((c)) — 2 marks
 An explanation of **one** possible source of experimental error which might lead to this result is:
@@ -1936,11 +1936,11 @@ To calculate the concentration, in mol dm<sup>–3</sup>, of the potassium chlor
 - Calculation of the number of moles of Fe<sup>2+</sup> remaining after the reactions (answer 2) × 5 = 0.0023125 / 2.3125 × 10<sup>-3</sup> (mol) (answer 3); **[1 mark]**
 - Calculation of the number of moles of Fe<sup>2+</sup> that have reacted (answer 1) – (answer 3) 0.01125 – 0.0023125 = 0.0089375 / 8.9375 × 10<sup>-3</sup> (mol) (answer 4); **[1 mark]**
 - Calculation of the number of moles of chlorate ions that have reacted $\frac{(\mathrm{answer}4)}{6}$ $\frac{0.008375}{6}$ = 0.0014895833 / 1.48958 × 10<sup>-3</sup> (mol) (answer 5); **[1 mark]**
-- Calculation of the concentration of the solution `fraction numerator open parentheses answer space 5 close parentheses over denominator 0.050 end fraction`  $\frac{0.0014895833}{0.050}$= 0.0297917 / 2.97917 × 10<sup>-2</sup>;** [1 mark] **
+- Calculation of the concentration of the solution $\frac{( \text{answer} 5 )}{0.050}$  $\frac{0.0014895833}{0.050}$= 0.0297917 / 2.97917 × 10<sup>-2</sup>;** [1 mark] **
 
 **Final answer:** **[Total: 6 marks] **
 
-- *Remember:** moles = concentration x volume (dm*<sup>*3*</sup>*) and concentration = *`fraction numerator moles over denominator volume space open parentheses dm cubed close parentheses end fraction`
+- *Remember:** moles = concentration x volume (dm*<sup>*3*</sup>*) and concentration = *$\frac{moles}{volume ( dm^{3} )}$
 - *If you are stuck at the start of a calculation then the best thing to do is calculate the number of moles of what you have been given*
 
   - *Notice there are 2 marks for calculating the number of moles of Fe*<sup>*2+*</sup>* ions and potassium manganate(VII) *
@@ -2063,7 +2063,7 @@ To calculate the percentage by mass of iron in each tablet:
 
 moles = concentration x volume (dm<sup>3</sup>)
 
-moles of KMnO<sub>4</sub> = 0.00500 × `open parentheses fraction numerator 18.50 over denominator 1000 end fraction close parentheses`
+moles of KMnO<sub>4</sub> = 0.00500 × $( \frac{18.50}{1000} )$
 
 moles of KMnO<sub>4</sub> = 9.25 × 10<sup>−5</sup> mol **[1 mark]**
 
@@ -2077,7 +2077,7 @@ moles of Fe<sup>2+</sup> in aliquot = 4.625 × 10<sup>−4</sup> mol
 
 - Scale up to find moles of Fe<sup>2+</sup> in the 250.0 cm<sup>3</sup> solution:
 
-total moles of Fe<sup>2+</sup> = 4.625 × 10<sup>−4</sup> × `open parentheses fraction numerator 250.0 over denominator 25.0 end fraction close parentheses`
+total moles of Fe<sup>2+</sup> = 4.625 × 10<sup>−4</sup> × $( \frac{250.0}{25.0} )$
 
 total moles of Fe<sup>2+</sup> = 4.625 × 10<sup>−3</sup> mol **[1 mark]**
 
@@ -2192,9 +2192,9 @@ To calculate the first acid dissociation constant, *K*<sub>a</sub>1:
 > 
 > *K*<sub>a</sub> has units of mol dm<sup>−3</sup>. This comes from the expression:
 > 
-> *K*<sub>a</sub> = `fraction numerator left square bracket straight H to the power of plus right square bracket left square bracket straight A to the power of minus right square bracket over denominator left square bracket HA right square bracket end fraction`
+> *K*<sub>a</sub> = $\frac{[ \mathrm{H} ^{ + } ] [ \mathrm{A} ^{ - } ]}{[ HA ]}$
 > 
-> *K*<sub>a</sub> = `fraction numerator left parenthesis mol space dm to the power of negative 3 end exponent right parenthesis up diagonal strike left parenthesis mol space dm to the power of negative 3 end exponent right parenthesis end strike over denominator up diagonal strike left parenthesis mol space dm to the power of negative 3 end exponent right parenthesis end strike end fraction`
+> *K*<sub>a</sub> = $\frac{( \text{mol} dm^{- 3} ) \cancel{( \text{mol} dm^{- 3} )} }{ \cancel{( \text{mol} dm^{- 3} )} }$
 > 
 > *K*<sub>a</sub> = mol dm<sup>−3</sup>
 > 

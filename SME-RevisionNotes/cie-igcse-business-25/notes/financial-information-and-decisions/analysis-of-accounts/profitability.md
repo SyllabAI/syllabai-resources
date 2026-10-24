@@ -57,17 +57,17 @@ $\mathrm{Gross} \mathrm{profit} \mathrm{margin}=\frac{\mathrm{Gross} \mathrm{pro
 > 
 > **Step 1: Substitute the values into the formula**
 > 
-> `Gross space profit space equals space fraction numerator Gross space profit space over denominator Sales space revenue end fraction space cross times space 100 space space space
+> $\text{Gross} \text{profit} = \frac{Gross \text{profit} }{Sales revenue} \times 100 
 > 
-> equals space fraction numerator $ 105 comma 731 over denominator space $ 124 comma 653 space end fraction
+> = \frac{\$ 105 , 731}{ \$ 124 , 653 } 
 > 
-> equals space space 0.8482 space`   **[1]**
+> = 0.8482$   **[1]**
 > 
 > **Step 2: Multiply the outcome by 100 to find the percentage**
 > 
-> `equals space 0.8482 space cross times space 100
+> $= 0.8482 \times 100
 > 
-> equals space 84.82 percent sign`**       ** **[1]**
+> = 84.82 \%$**       ** **[1]**
 > 
 > - **84.82% **of Head to Toe Wellbeing’s revenue was converted into gross profit during 2024
 
@@ -124,17 +124,17 @@ $\text{Profit margin =}\frac{\mathrm{Profit}}{\mathrm{Sales} \mathrm{revenue}}
 > 
 > **Step 1: Substitute the values into the formula**
 > 
-> `text Profit margin =  end text fraction numerator Profit over denominator Sales space revenue end fraction cross times 100
+> $\text{Profit \text{margin} = } \frac{Profit}{Sales revenue} \times 100
 > 
-> equals space fraction numerator $ 65 comma 864 over denominator $ 124 comma 653 end fraction
+> = \frac{\$ 65 , 864}{\$ 124 , 653} 
 > 
-> equals space 0.5284`    **[1]**
+> = 0.5284$    **[1]**
 > 
 > **Step 2: Multiply the outcome by 100 to find the percentage**
 > 
-> `equals space 0.5284 space cross times space 100
+> $= 0.5284 \times 100
 > 
-> equals space 52.84 percent sign`     **[1]**
+> = 52.84 \%$     **[1]**
 > 
 > - In 2024,** 52.84%** of Head to Toe Wellbeing’s revenue was converted into profit
 
@@ -197,26 +197,16 @@ $\mathrm{Return} \mathrm{on} \mathrm{capital} \mathrm{employed}=\frac{\mathrm{Pr
 > 
 > ** Step 1: Calculate capital employed**
 > 
-> `begin mathsize 16px style Capital space employed space equals space Non minus current space liabilities space plus space Equity
-> 
-> Capital space employed space equals space € 1.5 space straight m space plus space € 15.4 space straight m
-> 
-> Capital space employed space equals space € 16.9 space straight m end style`   **[1]**
+> $Capital \text{employed} = Non - \text{current} \text{liabilities} + Equity > > Capital \text{employed} = \text{€} 1.5 \mathrm{m} + \text{€} 15.4 \mathrm{m} > > Capital \text{employed} = \text{€} 16.9 \mathrm{m}$   **[1]**
 > 
 > **Step 2: Divide profit by capital employed**
 > 
-> `RoCE space equals fraction numerator space Profit space before space interest space and space tax over denominator Capital space employed end fraction space cross times space 100
-> 
-> equals space fraction numerator € 2.2 space straight m over denominator € 16.9 space straight m end fraction space cross times space 100
-> 
-> equals space 0.13
-> 
-> `   **[1]**
+> `RoCE = ( Profit before interest and tax)/(Capital employed) x 100 > > = (\text{€} 2.2 m)/(\text{€} 16.9 m) x 100 > > = 0.13 > >`   **[1]**
 > 
 > **Step 3: Multiply the result by 100 and express the outcome as a percentage**
 > 
-> `equals space 0.13 space cross times space 100
-> equals space 13 percent sign`**   ****[1 ]**
+> $= 0.13 \times 100
+> = 13 \%$**   ****[1 ]**
 > 
 > - Capital employed in Keals Cosmetics has generated a return of** ****13% **
 

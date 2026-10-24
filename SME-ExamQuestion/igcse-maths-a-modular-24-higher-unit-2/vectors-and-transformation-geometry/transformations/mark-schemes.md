@@ -66,7 +66,7 @@
 ### 5((b)) — 1 marks
 > *A translation moves the shape.*
 
-> *The vector *`open parentheses table row cell negative 1 end cell row cell negative 3 end cell end table close parentheses`* represents 1 unit to the left and 3 units down.*
+> *The vector *$( \begin{gathered} - 1 \\ - 3 \end{gathered} )$* represents 1 unit to the left and 3 units down.*
 
 > *Move the shape left 1 and down 3.*
 
@@ -124,7 +124,7 @@
 
 > *Write as a vector. The horizontal displacement goes at the top (right is positive, left is negative). The vertical displacement goes at the bottom (up is positive, down is negative).*
 
-**Translation by**** **`stretchy left parenthesis table row 4 row cell negative 3 end cell end table stretchy right parenthesis`** **
+**Translation by**** **$( \begin{gathered} 4 \\ - 3 \end{gathered} )$** **
 **Writing "Translation"**** [1]** 
 **Correct vector**** [1]**
 
@@ -159,17 +159,17 @@ $A=\frac{1}{2}\times2\times1.5$
 
 > *Find the area of the new triangle using the formula *$A=\frac{1}{2}\timesb\timesh$*, where **b** is the base and **h** is the perpendicular height.*
 
-`table row A equals cell 1 half cross times 4 cross times 3 end cell row blank equals cell 6 space cm squared end cell end table`
+$\begin{gathered} A = 1 \frac{1}{2} \times 4 \times 3 \\ = 6 cm^{2} \end{gathered}$
 
 **[1]**
 
 > *Find scale factor of the enlargement will be the length scale factor between the original triangle and the enlarged triangle. The area scale factor can be found by squaring the length scale factor.*
 
-`Area space scale space factor space equals space open parentheses 1 half close parentheses squared equals 1 fourth`
+$\text{Area} \text{scale} \text{factor} = ( 1 \frac{1}{2} )^{2} = 1 \frac{1}{4}$
 
 > *Multiply the original area by the area scale factor.*
 
-`table row cell 6 cross times 1 fourth end cell equals cell 6 over 4 end cell end table`
+$\begin{gathered} 6 \times 1 \frac{1}{4} & = \frac{6}{4} \end{gathered}$
 
 **[1]**
 
@@ -212,7 +212,7 @@ $A=\frac{1}{2}\times2\times1.5$
 
 > *Write as a vector. The horizontal displacement goes at the top (right is positive, left is negative). The vertical displacement goes at the bottom (up is positive, down is negative).*
 
-**Translation by**** **`stretchy left parenthesis table row 5 row cell negative 3 end cell end table stretchy right parenthesis` 
+**Translation by**** **$( \begin{gathered} 5 \\ - 3 \end{gathered} )$ 
 **Writing "Translation"**** [1]** 
 **Correct vector**** [1]**
 
@@ -271,7 +271,7 @@ $A=\frac{1}{2}\times2\times1.5$
 
 > *Write as a vector. The horizontal displacement goes at the top (right is positive, left is negative). The vertical displacement goes at the bottom (up is positive, down is negative).*
 
-**Translation by** `begin bold style stretchy left parenthesis table row 6 row cell negative 1 end cell end table stretchy right parenthesis end style` 
+**Translation by** $\text{begin} \text{style} ( \begin{gathered} 6 \\ - 1 \end{gathered} )$ 
 **Writing "Translation"**** [1]** 
 **Correct vector**** [1]**
 
@@ -329,7 +329,7 @@ $A=\frac{1}{2}\times2\times1.5$
 
 > *Write as a vector. The horizontal displacement goes at the top (right is positive, left is negative). The vertical displacement goes at the bottom (up is positive, down is negative).*
 
-**Translation by**** **`stretchy left parenthesis table row 4 row cell negative 1 end cell end table stretchy right parenthesis`** **
+**Translation by**** **$( \begin{gathered} 4 \\ - 1 \end{gathered} )$** **
 **Writing "Translation"**** [1]** 
 **Correct vector**** [1]**
 
@@ -349,7 +349,7 @@ $A=\frac{1}{2}\times2\times1.5$
 ### 6((a)) — 1 marks
 > *A translation moves the shape.*
 
-> *The vector *`open parentheses table row cell negative 3 end cell row 2 end table close parentheses`* represents 3 units to the left and 2 units up.*
+> *The vector *$( \begin{gathered} - 3 \\ 2 \end{gathered} )$* represents 3 units to the left and 2 units up.*
 
 > *Move the shape left 3 and up 2.*
 
@@ -397,7 +397,7 @@ $A=\frac{1}{2}\times2\times1.5$
 
 > *Write as a vector. The horizontal displacement goes at the top (right is positive, left is negative). The vertical displacement goes at the bottom (up is positive, down is negative).*
 
-**Translation by** `stretchy left parenthesis table row cell negative 2 end cell row cell negative 4 end cell end table stretchy right parenthesis` 
+**Translation by** $( \begin{gathered} - 2 \\ - 4 \end{gathered} )$ 
 **Writing "Translation"**** [1]** 
 **Correct vector**** [1]**
 
@@ -430,7 +430,7 @@ $A=\frac{1}{2}\times2\times1.5$
 ### 7((a)) — 2 marks
 > *A translation moves the shape.*
 
-> *The vector *`open parentheses table row 5 row cell negative 2 end cell end table close parentheses`* represents 5 units to the right and 2 units down.*
+> *The vector *$( \begin{gathered} 5 \\ - 2 \end{gathered} )$* represents 5 units to the right and 2 units down.*
 
 > *Move the shape right 5 and down 2.*
 
@@ -554,7 +554,7 @@ $A=\frac{1}{2}\times2\times1.5$
 ## Q25 — easy — 1 marks · exam-questions
 
 ### 5((b)) — 1 marks
-*A translation by *`open parentheses table row a row b end table close parentheses`* moves the shape **a** units to the right and **b** units up*
+*A translation by *$( \begin{gathered} a \\ b \end{gathered} )$* moves the shape **a** units to the right and **b** units up*
 
 *Move the shape 10 units to the right and 8 units up* 
 *Label the new shape ***R**
@@ -584,8 +584,8 @@ $A=\frac{1}{2}\times2\times1.5$
 ## Q27 — easy — 1 marks · exam-questions
 
 ### 3((b)) — 1 marks
-*A translation by *`open parentheses table row a row b end table close parentheses`* moves the shape **a** units to the right and **b** units up *
-*The negative signs in *`open parentheses table row cell negative 4 end cell row cell negative 6 end cell end table close parentheses`*  reverse the directions* * *
+*A translation by *$( \begin{gathered} a \\ b \end{gathered} )$* moves the shape **a** units to the right and **b** units up *
+*The negative signs in *$( \begin{gathered} - 4 \\ - 6 \end{gathered} )$*  reverse the directions* * *
 
 *Move the shape 4 units to the left and 6 units down* *Label the new shape ***T**
 
@@ -612,7 +612,7 @@ $A=\frac{1}{2}\times2\times1.5$
 
 > *Write as a vector. The horizontal displacement goes at the top (right is positive, left is negative). The vertical displacement goes at the bottom (up is positive, down is negative).*
 
-`open parentheses table row cell negative 6 end cell row cell negative 1 end cell end table close parentheses`
+$( \begin{gathered} - 6 \\ - 1 \end{gathered} )$
 
 $c=-6\,d=-1$
 
@@ -621,17 +621,17 @@ $c=-6\,d=-1$
 ## Q29 — easy — 1 marks · exam-questions
 
 ### 1() — 1 marks
-*The vector *`open parentheses table row a row b end table close parentheses`* translate an object **a** units to the right and **b** units up*
+*The vector *$( \begin{gathered} a \\ b \end{gathered} )$* translate an object **a** units to the right and **b** units up*
 
-`open parentheses table row 0 row 4 end table close parentheses`* is 0 units right and 4 units up*
+$( \begin{gathered} 0 \\ 4 \end{gathered} )$* is 0 units right and 4 units up*
 
 **the ****first ****option, ****up** **[1]**
 
-> *An example of the second option is *`open parentheses table row 0 row cell negative 4 end cell end table close parentheses`
+> *An example of the second option is *$( \begin{gathered} 0 \\ - 4 \end{gathered} )$
 
-> *An example of the third option is *`open parentheses table row cell negative 4 end cell row 0 end table close parentheses`
+> *An example of the third option is *$( \begin{gathered} - 4 \\ 0 \end{gathered} )$
 
-> *An example of the fourth option is *`open parentheses table row 4 row 0 end table close parentheses`
+> *An example of the fourth option is *$( \begin{gathered} 4 \\ 0 \end{gathered} )$
 
 ## Q30 — medium — 8 marks · exam-questions
 
@@ -713,13 +713,13 @@ $c=-6\,d=-1$
 ## Q31 — easy — 1 marks · exam-questions
 
 ### 2() — 1 marks
-*The vector *`open parentheses table row a row b end table close parentheses`* translate an object **a** units to the right and **b** units up*
+*The vector *$( \begin{gathered} a \\ b \end{gathered} )$* translate an object **a** units to the right and **b** units up*
 
-`open parentheses table row cell negative 2 end cell row 3 end table close parentheses`* is 2 units to the left and 3 units up  *
+$( \begin{gathered} - 2 \\ 3 \end{gathered} )$* is 2 units to the left and 3 units up  *
 
 > *The reverse direction is 2 units to the right and 3 units down Change the signs of the numbers*
 
-**the ****fourth ****option, **`stretchy left parenthesis table row 2 row cell negative 3 end cell end table stretchy right parenthesis` **[1]**
+**the ****fourth ****option, **$( \begin{gathered} 2 \\ - 3 \end{gathered} )$ **[1]**
 
 > *The first option is the same translation of **A** to **B**, not **B** to **A*
 
@@ -731,7 +731,7 @@ $c=-6\,d=-1$
 > *Draw the line *$y=x$
 
 > **[exam-tip]**
-> Remember that this is a diagonal line passing through `open parentheses 0 comma 0 close parentheses comma space open parentheses 1 comma 1 close parentheses comma space open parentheses 2 comma 2 close parentheses` etc.
+> Remember that this is a diagonal line passing through $( 0 , 0 ) , ( 1 , 1 ) , ( 2 , 2 )$ etc.
 
 > *From each vertex on the original shape, *
 
@@ -776,7 +776,7 @@ $3\div1=3$
 
 **[B1]**
 
-**Final answer:** **Centre of enlargement at **`open parentheses 7 comma 2 close parentheses`
+**Final answer:** **Centre of enlargement at **$( 7 , 2 )$
 
 **[B1]**
 
@@ -786,7 +786,7 @@ $3\div1=3$
 ## Q33 — easy — 2 marks · exam-questions
 
 ### 1((a)) — 2 marks
-*The vector *`open parentheses table row p row q end table close parentheses`* represents a translation of **p** units right and **q** units up* 
+*The vector *$( \begin{gathered} p \\ q \end{gathered} )$* represents a translation of **p** units right and **q** units up* 
 *Pick a corner of the shape and count the number of units it takes to get from **S** to **T*
 
 *5 units right and 5 units down (-5 up)*

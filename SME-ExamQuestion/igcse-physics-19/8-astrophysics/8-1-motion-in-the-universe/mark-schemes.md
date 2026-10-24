@@ -791,7 +791,7 @@ Calculate radius from the diameter:
 Substitute in known values into the equation for density:
 
 - $ρ=\frac{m}{V}=\frac{m}{\frac{4πr^{3}}{3}}=\frac{3m}{4πr^{3}}$
-- `rho equals fraction numerator 3 m over denominator 4 pi r cubed end fraction equals fraction numerator 3 cross times open parentheses 100 cross times 10 to the power of 24 close parentheses over denominator 4 cross times pi cross times open parentheses 25 space 000 close parentheses cubed end fraction` **[1 mark]**
+- $\\rho = \frac{3 m}{4 \pi r^{3}} = \frac{3 \times ( 100 \times 10^{24} )}{4 \times \pi \times ( 25 000 )^{3}}$ **[1 mark]**
 
 Calculate density:
 

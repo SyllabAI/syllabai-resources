@@ -26,14 +26,14 @@ Mass flow rate = 1000 × 15 = 15 000 kg s<sup>-1</sup>
 
 - Power from flowing water is
 
-`P space equals fraction numerator text energy end text over denominator text time end text end fraction equals fraction numerator m v squared over denominator 2 t end fraction equals 1 half open parentheses m over t close parentheses v squared`
+$P = \frac{ \text{energy} }{ \text{time} } = \frac{m v^{2}}{2 t} = 1 \frac{1}{2} ( \frac{m}{t} ) v^{2}$
 
 - Efficiency = 40%, so only 40% of the power of the flowing water is converted to electrical power
 - Electrical power is
 
-`P space equals space 0.40 cross times open parentheses 0.5 cross times 15000 cross times 8.0 squared close parentheses equals 192 space 000 text  W end text equals 192 text  kW end text`
+$P = 0.40 \times ( 0.5 \times 15000 \times 8.0^{2} ) = 192 000 \text{ W} = 192 \text{ kW}$
 
-`P space almost equal to space 190 text  kW end text space open parentheses 2 space straight s. straight f. close parentheses`
+$P \approx 190 \text{ kW} ( 2 \mathrm{s} . \mathrm{f} . )$
 
 ### Q2
 **Final answer:** **The correct answer is ****A**** because:**
@@ -43,15 +43,15 @@ Mass flow rate = 1000 × 15 = 15 000 kg s<sup>-1</sup>
   - $Power=\frac{energy}{time}$
 - Water in the lake possesses gravitational potential energy
 
-  - `P o w e r equals fraction numerator increment E subscript p over denominator t end fraction equals fraction numerator m g increment h over denominator t end fraction equals open parentheses m over t close parentheses g increment h`
-- The mass flow rate of the water `open parentheses m over t close parentheses` is 2400 kg min<sup>–1</sup>
+  - $P o w e r = \frac{\Delta E_{p} }{t} = \frac{m g \Delta h}{t} = ( \frac{m}{t} ) g \Delta h$
+- The mass flow rate of the water $( \frac{m}{t} )$ is 2400 kg min<sup>–1</sup>
 - This means that every minute, 2400 kg of water flows through the turbine
 
   - In 60 s, 2400 kg of water flows
   - Therefore, in 1 s, $\frac{2400}{60}=40\mathrm{kg}$ of water flows
 - The mass flow rate is equal to $\frac{m}{t}$ = 40 kg s<sup>-1</sup>
 
-  - Power of water = `open parentheses m over t close parentheses g increment h equals 40 cross times 9.81 cross times 90 equals 35 space 316` W
+  - Power of water = $( \frac{m}{t} ) g \Delta h = 40 \times 9.81 \times 90 = 35 316$ W
 - This is the maximum power available from the turbine, however, the turbine has an efficiency of 75%
 
   - Power output of the turbine = $0.75\times35316=26487=26\mathrm{kW}$
@@ -116,10 +116,10 @@ Mass flow rate = 1000 × 15 = 15 000 kg s<sup>-1</sup>
   - $\mathrm{sin}θ=\frac{O}{H}=\frac{30}{60}=0.5$
   - The component of the weight force acting parallel to the slope is mg sin*θ *or* *0.5*mg*
 - Work needs to be done against forces. Additionally, work should be done against the component of weight acting down the slope
-- `P space equals E over t space equals fraction numerator space W over denominator t end fraction space equals fraction numerator space F d over denominator t end fraction space equals F open parentheses d over t close parentheses space equals space F v`
+- $P = \frac{E}{t} = \frac{ W}{t} = \frac{ F d}{t} = F ( \frac{d}{t} ) = F v$
 - $P=2000+Fv$
 - $P=2000+20mgv\mathrm{sin}θ$
-- `P equals 2000 plus open parentheses 20 cross times 60 cross times 9.81 cross times 0.5 close parentheses open parentheses 0.75 close parentheses` $=6414.5W=6.4\mathrm{kW}$
+- $P = 2000 + ( 20 \times 60 \times 9.81 \times 0.5 ) ( 0.75 )$ $=6414.5W=6.4\mathrm{kW}$
 
 Therefore, the power required by the escalator is 6.4 kW
 
@@ -135,9 +135,9 @@ Therefore, the power required by the escalator is 6.4 kW
 - Gain in GPE = $mgy$
 - Work done by ball = $Averageforce\timesdisplacement=F_{av}y$
 
-  - `open parentheses 1 half m v squared minus 0 close parentheses plus m g y equals F subscript a v end subscript y`
+  - $( 1 \frac{1}{2} m v^{2} - 0 ) + m g y = F_{a v} y$
   - $F_{av}=\frac{\frac{1}{2}mv^{2}+mgy}{y}$
-  - `F subscript a v end subscript equals fraction numerator m over denominator 2 y end fraction open parentheses v squared plus 2 g y close parentheses`
+  - $F_{a v} = \frac{m}{2 y} ( v^{2} + 2 g y )$
 
 ### Q8
 **Final answer:** **The correct answer is ****B**** because:**
@@ -156,10 +156,10 @@ Therefore, the power required by the escalator is 6.4 kW
 - The mass of air passing the blades per second = density × volume of air per second
 - Mass of air passing the blades per second : $\frac{m}{t}=1.3\times20000=26000\mathrm{kg}s^{-1}$
 
-  - Power from wind = `fraction numerator e n e r g y over denominator w i n d end fraction equals fraction numerator m v squared over denominator 2 t end fraction equals 1 half open parentheses m over t close parentheses v squared`
+  - Power from wind = $\frac{e n e r g y}{w i n d} = \frac{m v^{2}}{2 t} = 1 \frac{1}{2} ( \frac{m}{t} ) v^{2}$
 - Efficiency = 50%, so, only 50% of the power of the wind is converted to electrical power
 
-  - Electrical Power = `0.50 cross times open parentheses 0.5 cross times 26 space 000 cross times 10 squared close parentheses equals 650 space 000 equals 650 space kW`
+  - Electrical Power = $0.50 \times ( 0.5 \times 26 000 \times 10^{2} ) = 650 000 = 650 \text{kW}$
 
 Therefore, the electrical power output of the turbine is 650 kW
 
@@ -183,7 +183,7 @@ Therefore, the electrical power output of the turbine is 650 kW
 - We must divide by time to get the equivalent mass flow rate :
 
   - $\frac{\Deltam}{t}=\frac{ρV}{t}=1000\times5.67=5670\mathrm{kg}s^{-1}$
-  - Input Power = `fraction numerator m g increment h over denominator t end fraction equals open parentheses fraction numerator increment m over denominator t end fraction close parentheses space g increment h`
+  - Input Power = $\frac{m g \Delta h}{t} = ( \frac{\Delta m}{t} ) g \Delta h$
   - Input Power $5670\times9.81\times30=1.67\times10^{6}W=1.67\mathrm{MW}$
 - The overall efficiency of the system is 90%
 - Therefore, output power = 0.90 × 1.67 = 1.5 MW
@@ -251,21 +251,21 @@ Therefore, the electrical power output of the turbine is 650 kW
 - From conservation of energy:
 - The potential energy (PE) lost in falling from P to T = Kinetic energy (KE) of mass at T
 
-  - `E equals 1 fourth m open parentheses 4 close parentheses squared equals 8 space m`
+  - $E = 1 \frac{1}{4} m ( 4 )^{2} = 8 m$
 - Since the mass is at rest at P, its KE is zero and its PE is at a maximum
 - Since T is the lowest point, PE is zero here
 - So, the total energy of the mass in the system is *E*
 - In general, PE lost at a point = KE at that point
 - From above, *E* = 8*m*, so, a PE loss of $\frac{E}{4}=2m$
 
-  - At R : `E subscript k equals 1 half m open parentheses 2 close parentheses squared equals 2 space m equals E subscript p space l o s t`
+  - At R : $E_{k} = 1 \frac{1}{2} m ( 2 )^{2} = 2 m = E_{p} l o s t$
 - Therefore, when the mass is at R, it has half the final speed and so has gained a kinetic energy of $\frac{E}{4}$, this is when it has lost a potential energy of  $\frac{E}{4}$
 
-**A **is incorrect because  At Q : `E subscript k equals 1 half m open parentheses 1 close parentheses squared equals 0.5 m equals E subscript p space l o s t` , this is a loss of $\frac{E}{16}$
+**A **is incorrect because  At Q : $E_{k} = 1 \frac{1}{2} m ( 1 )^{2} = 0.5 m = E_{p} l o s t$ , this is a loss of $\frac{E}{16}$
 
-**C **is incorrect because At S :`E subscript k equals 1 half m open parentheses 3 close parentheses squared equals 9 over 2 equals E subscript p space l o s t`, this is a loss of $\frac{16E}{9}$
+**C **is incorrect because At S :$E_{k} = 1 \frac{1}{2} m ( 3 )^{2} = \frac{9}{2} = E_{p} l o s t$, this is a loss of $\frac{16E}{9}$
 
-**D **is incorrect because At R : `K E equals 1 half m open parentheses 2 close parentheses squared equals 2 m equals P E space l o s t`, this is a loss of  $\frac{E}{4}$
+**D **is incorrect because At R : $K E = 1 \frac{1}{2} m ( 2 )^{2} = 2 m = P E l o s t$, this is a loss of  $\frac{E}{4}$
 
 ### Q14
 **Final answer:** **The correct answer is ****A**** because:**
@@ -293,7 +293,7 @@ Therefore, the electrical power output of the turbine is 650 kW
 ### Q16
 **Final answer:** **The correct answer is ****C**** because:**
 
-- Efficiency`equals fraction numerator u s e f u l space m e c h a n i c a l space o u t p u t space p o w e r over denominator t o t a l space e l e c t r i c a l space p o w e r end fraction equals 80 percent sign`
+- Efficiency$= \frac{u s e f u l m e c h a n i c a l o u t p u t p o w e r}{t o t a l e l e c t r i c a l p o w e r} = 80 \%$
 - Useful mechanical output power = 120 W
 - Input power $=\frac{usefulmechanicaloutputpower}{efficiency}=\frac{120}{0.8}=150W$
 - Waste heat power = input – output = 150 – 120 = 30 W
@@ -306,7 +306,7 @@ Therefore, the electrical power output of the turbine is 650 kW
 - Useful energy output = *U*
 - Total energy input = *E*<sub>*in*</sub>
 
-  - % Efficiency `equals U over E subscript i n end subscript cross times 100 percent sign`
+  - % Efficiency $= \frac{U}{E} _{i n} \times 100 \%$
 
 ### Q18
 **Final answer:** **The correct answer is ****B**** because:**
@@ -411,9 +411,9 @@ Therefore, the electrical power output of the turbine is 650 kW
 - Force is defined as the rate of change of momentum, so, we first need to find an expression for force in order to find the power
 - sand drops vertically on to the belt at a rate of $m\mathrm{kg}s^{-1}$
 
-  - Therefore, the rate at which the sand falls is = `fraction numerator increment m a s s over denominator t i m e end fraction equals open parentheses fraction numerator increment m over denominator t end fraction close parentheses equals straight m space kg space straight s to the power of negative 1 end exponent`
+  - Therefore, the rate at which the sand falls is = $\frac{\Delta m a s s}{t i m e} = ( \frac{\Delta m}{t} ) = \mathrm{m} \text{kg} \mathrm{s}^{- 1}$
 - Next, consider the momentum : $p=Mv$
-- Rate of change of momentum = `fraction numerator increment p over denominator t end fraction equals fraction numerator M v over denominator t end fraction equals open parentheses fraction numerator increment M over denominator t end fraction close parentheses v equals m v`
+- Rate of change of momentum = $\frac{\Delta p}{t} = \frac{M v}{t} = ( \frac{\Delta M}{t} ) v = m v$
 
   - Therefore, in one second, the momentum of mass m of sand increases from Zero to mv
 - Recall the force is defined as the rate of change of momentum, so the force involved is mv
@@ -428,7 +428,7 @@ Therefore, the electrical power output of the turbine is 650 kW
 - The track is frictionless, so, no frictional force acts on the mass
 - If the track was horizontal the power required to give the mass *m* a forward acceleration *a* when it is moving with velocity *v* is given by
 
-  - Power `P equals F v equals open parentheses m a close parentheses cross times v equals m a v`              **(1)**
+  - Power $P = F v = ( m a ) \times v = m a v$              **(1)**
 - But in this case, the track is inclined at an angle *θ* to the horizontal
 - The component of the weight of the mass (against motion) along the track is equal to $=mg\mathrm{sin}θ$
 - Therefore, a force is required to keep the mass stationary and prevent it from moving down along the inclined track
@@ -448,11 +448,11 @@ Therefore, the electrical power output of the turbine is 650 kW
 - Power output = $32\times230=7360$
 - Water in the top section possesses gravitational potential energy
 
-  - `P o w e r equals fraction numerator increment E subscript p over denominator t end fraction equals fraction numerator m g increment h over denominator t end fraction equals open parentheses m over t close parentheses g increment h`
+  - $P o w e r = \frac{\Delta E_{p} }{t} = \frac{m g \Delta h}{t} = ( \frac{m}{t} ) g \Delta h$
 - The mass flow rate is equal to $\frac{m}{t}=200\mathrm{kg}s^{-1}$
 
-  - Power input of water = `open parentheses m over t close parentheses g increment h equals 200 cross times 9.81 cross times 8 equals 15 space 696 space straight W`
-- % Efficiency = `fraction numerator p o w e r space o u t p u t over denominator p o w e r space i n p u t end fraction cross times 100 percent sign equals fraction numerator 7360 over denominator 15 space 696 end fraction cross times 100 equals 46.9 percent sign`
+  - Power input of water = $( \frac{m}{t} ) g \Delta h = 200 \times 9.81 \times 8 = 15 696 \mathrm{W}$
+- % Efficiency = $\frac{p o w e r o u t p u t}{p o w e r i n p u t} \times 100 \% = \frac{7360}{15 696} \times 100 = 46.9 \%$
 - Therefore, the efficiency of the system is 47%
 
 ### Q27
@@ -490,8 +490,8 @@ Therefore, the electrical power output of the turbine is 650 kW
 - Useful power output $=240\times1200=288000$
 - Total power input = $11000\times28=308000$
 
-  - % Efficiency = `fraction numerator u s e f u l space p o w e r space o u t p u t over denominator t o t a l space p o w e r space i n p u t end fraction cross times 100 percent sign`
-  - % Efficiency = `288000 over 308000 cross times 100 percent sign equals 93.5 percent sign`
+  - % Efficiency = $\frac{u s e f u l p o w e r o u t p u t}{t o t a l p o w e r i n p u t} \times 100 \%$
+  - % Efficiency = $\frac{288000}{308000} \times 100 \% = 93.5 \%$
 - Therefore, the efficiency of the transformer is 94%
 
 ### Q30
@@ -520,15 +520,15 @@ Therefore, the electrical power output of the turbine is 650 kW
   - $F=kv^{2}$     where k is constant
 - When F=800 N, V = 20 m s<sup>−1</sup>
 
-  - `k equals F over v squared equals 800 over open parentheses 20 close parentheses squared equals 2`
+  - $k = \frac{F}{v^{2}} = \frac{800}{( 20 )^{2}} = 2$
 - so, $F=2v^{2}$
 - Power output is equal to $P=Fv$
 - Since $F=2v^{2}$ we have :
 
-  - Output power `P equals F v equals open parentheses 2 v squared close parentheses cross times v equals 2 v cubed`
+  - Output power $P = F v = ( 2 v^{2} ) \times v = 2 v^{3}$
 - So, when $V=40ms^{-1}$
 
-  - Output power `P equals 2 v cubed equals 2 cross times open parentheses 40 close parentheses cubed equals 128 space 000 straight W`
+  - Output power $P = 2 v^{3} = 2 \times ( 40 )^{3} = 128 000 \mathrm{W}$
 - Therefore, the effective power output is 128 kW
 
 ### Q32
@@ -544,8 +544,8 @@ Therefore, the electrical power output of the turbine is 650 kW
 - So, the force required to move the car up the slope is equal to the component of weight which acts along the slope
 
   - Component of weight against $F=mg\mathrm{sin}α$
-  - Work done to move car a distance `s space equals space open parentheses m g space sin space alpha close parentheses s`
-- Efficiency `equals fraction numerator useful space energy space output over denominator total space energy space input end fraction equals fraction numerator open parentheses m g space sin space alpha close parentheses s over denominator F s end fraction equals fraction numerator m g space sin space alpha over denominator F end fraction`
+  - Work done to move car a distance $s = ( m g \sin \\alpha ) s$
+- Efficiency $= \frac{useful \text{energy} output}{total \text{energy} input} = \frac{( m g \sin \\alpha ) s}{F s} = \frac{m g \sin \\alpha }{F}$
 
 ### Q33
 **Final answer:** **The correct answer is ****D**** because:**

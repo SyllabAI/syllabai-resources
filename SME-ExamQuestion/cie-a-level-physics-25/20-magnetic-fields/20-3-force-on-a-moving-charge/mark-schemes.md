@@ -61,7 +61,7 @@ Rearrange to make radius *R* the subject and simplify:
 
 - $mv^{2}=RqvB$
 - $\frac{mv^{2}}{qvB}=R$
-- `fraction numerator m v to the power of up diagonal strike 2 end exponent over denominator q up diagonal strike v B end fraction space equals space R`
+- $\frac{m v^{ \cancel{2} } }{q \cancel{v} B} = R$
 - $R=\frac{mv}{qB}$* ***[1 mark]**** **
 
 **[Total: 3 marks]**
@@ -162,7 +162,7 @@ The motion of the electron would be:
 
 This is because:
 
-- From $F_{B}=qvB$, magnetic force is directly proportional to speed `open parentheses F subscript B space proportional to space v close parentheses`
+- From $F_{B}=qvB$, magnetic force is directly proportional to speed $( F_{B} \propto v )$
 - (Since *B *and *q *are unchanged) magnetic force $F_{B}$ will half; **[1 mark]**
 - Hence, the magnetic and electric forces will not be balanced, so, the electron will deflect (upwards); **[1 mark]**** **
 
@@ -401,7 +401,7 @@ List the known quantities:
 Use the equation from part (i):
 
 - $r=\frac{mv}{Bq}$
-- `r space equals space fraction numerator open parentheses 9.11 cross times 10 to the power of negative 31 end exponent close parentheses cross times open parentheses 3.0 cross times 10 to the power of 6 close parentheses over denominator open parentheses 3.2 cross times 10 to the power of negative 3 end exponent close parentheses cross times open parentheses 1.60 cross times 10 to the power of negative 19 end exponent close parentheses end fraction` **[1 mark]**
+- $r = \frac{( 9.11 \times 10^{- 31} ) \times ( 3.0 \times 10^{6 )}{( 3.2 \times 10^{-3} } ) \times ( 1.60 \times 10^{- 19} )}$ **[1 mark]**
 - $r$ = 5.3 × 10<sup>–3</sup> m **[1 mark]**
 
 **[Total: 5 marks]**

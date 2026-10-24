@@ -7,9 +7,9 @@
 ### 18((a)) — 3 marks
 Show that, for Earth and for Mars, *K* has a value of about 3.0 × 10<sup>–19</sup> s<sup>2</sup> m<sup>–3</sup>:
 
-- For Earth:  `K space equals space T squared over R cubed space equals space open parentheses 3.16 space cross times space 10 to the power of 7 close parentheses squared over open parentheses 1.5 space cross times space 10 to the power of 11 close parentheses cubed` **[1 mark]**
+- For Earth:  $K = \frac{T^{2}}{R^{3}} = \frac{( 3.16 \times 10^{7} )^{2}}{( 1.5 \times 10^{11} )^{3}}$ **[1 mark]**
 - For Earth:  $K=2.959\times10^{-19}s^{2}m^{-3}$ **[1 mark]**
-- For Mars:  `K space equals space T squared over R cubed space equals space open parentheses 5.93 space cross times space 10 to the power of 7 close parentheses squared over open parentheses 2.28 space cross times space 10 to the power of 11 close parentheses cubed`
+- For Mars:  $K = \frac{T^{2}}{R^{3}} = \frac{( 5.93 \times 10^{7} )^{2}}{( 2.28 \times 10^{11} )^{3}}$
 - For Mars:** ** $K=2.967\times10^{-19}s^{2}m^{-3}$** [1 mark]**
 
 **[Total: 3 marks]**
@@ -27,8 +27,8 @@ Combine expressions for $K$ for Ganymede and Io:
 
 - $K=\frac{T^{2}}{R^{3}}$
 - $\frac{T_{G}^{2}}{R_{G}^{3}}=\frac{T_{I}^{2}}{R_{I}^{3}}$
-- `open parentheses 172 close parentheses squared over open parentheses 1.07 space cross times space 10 to the power of 9 close parentheses cubed space equals space T subscript I squared over open parentheses 4.22 space cross times space 10 to the power of 8 close parentheses cubed` **[1 mark]**
-- `T subscript I space equals space square root of fraction numerator open parentheses 4.22 space cross times space 10 to the power of 8 close parentheses cubed space cross times space 172 squared over denominator open parentheses 1.07 space cross times space 10 to the power of 9 close parentheses cubed end fraction end root space equals space 42.6 space hours` **[1 mark]**
+- $( 172 ) \frac{ ^{2} }{open} \text{parentheses} 1.07 \times 10^{9} ) ^{3} = T_{I} \frac{ ^{2} }{open} \text{parentheses} 4.22 \times 10^{8} ) ^{3}$ **[1 mark]**
+- $T_{I} = \sqrt{ \frac{( 4.22 \times 10^{8} )^{3} \times 172^{2}}{( 1.07 \times 10^{9} )^{3}} } = 42.6 \text{hours}$ **[1 mark]**
 
 **[Total: 2 marks]**
 
@@ -49,7 +49,7 @@ i) Show that the gravitational potential at this height is about −5.5 × 10<su
 Calculate the gravitational potential at this height, *V*<sub>grav</sub>:
 
 - $V_{grav}=-\frac{GM}{r}=-\frac{GM}{r_{E}+h}$
-- `V subscript g r a v end subscript space equals space minus fraction numerator open parentheses 6.67 space cross times space 10 to the power of negative 11 end exponent close parentheses space cross times space open parentheses 5.98 space cross times space 10 to the power of 24 close parentheses over denominator open parentheses 6360 space cross times space 10 cubed close parentheses space plus space open parentheses 8.50 space cross times space 10 to the power of 5 close parentheses end fraction` **[1 mark]**
+- $V_{g r a v} = - \frac{( 6.67 \times 10^{- 11} ) \times ( 5.98 \times 10^{24} )}{( 6360 \times 10^{3} ) + ( 8.50 \times 10^{5} )}$ **[1 mark]**
 - $V_{grav}=-5.532\times10^{7}J\mathrm{kg}^{-1}=-5.5\times10^{7}J\mathrm{kg}^{-1}$**[1 mark]**
 
 ** **
@@ -62,8 +62,8 @@ ii) Calculate the increase in gravitational potential energy when the satellite 
 
 Determine the equation for the increase in gravitational potential energy, Δ*E*<sub>grav</sub>:
 
-- `increment E subscript g r a v end subscript space equals space m increment V space equals space m space open parentheses V subscript h e i g h t end subscript space minus space V subscript s u r f a c e end subscript close parentheses`
-- `increment E subscript g r a v end subscript space equals space 4990 space cross times space open parentheses – 5.532 space – space left parenthesis negative 6.27 close parentheses right parenthesis space cross times space 10 to the power of 7` **[1 mark]**
+- $\Delta E_{g r a v} = m \Delta V = m ( V_{h e i g h t} - V_{s u r f a c e} )$
+- $\Delta E_{g r a v} = 4990 \times ( - 5.532 - ( - 6.27 ) ) \times 10^{7}$ **[1 mark]**
 - $\DeltaE_{grav}=3.69\times10^{10}=3.7\times10^{10}J$ **[1 mark]**
 
 **[Total: 4 marks]**
@@ -92,12 +92,12 @@ Equate the gravitational and centripetal force:
 Determine the equation for the time period, *T*:
 
 - $ω=\frac{2π}{T}$
-- `fraction numerator G M over denominator r squared end fraction space equals space open parentheses fraction numerator 2 pi over denominator T end fraction close parentheses squared r space equals space fraction numerator 4 pi squared space over denominator T squared end fraction r` **[1 mark]**
-- `T squared space equals space fraction numerator 4 pi squared r cubed over denominator G M end fraction space equals space fraction numerator 4 pi squared open parentheses r subscript E space plus space h close parentheses cubed over denominator G M end fraction`
+- $\frac{G M}{r^{2}} = ( \frac{2 \pi }{T} )^{2} r = \frac{4 \pi ^{2} }{T^{2}} r$ **[1 mark]**
+- $T^{2} = \frac{4 \pi ^{2} r^{3}}{G M} = \frac{4 \pi ^{2} ( r_{E} + h )^{3}}{G M}$
 
 Substitute in the values and calculate *T*:
 
-- `T space equals space square root of fraction numerator 4 pi squared space cross times space open parentheses open parentheses 6360 space cross times space 10 cubed close parentheses space plus space open parentheses 8.50 space cross times space 10 to the power of 5 close parentheses close parentheses cubed space over denominator open parentheses 6.67 space cross times space 10 to the power of negative 11 end exponent close parentheses space cross times space open parentheses 5.98 space cross times space 10 to the power of 24 close parentheses end fraction end root` **[1 mark]**
+- $T = \sqrt{ \frac{4 \pi ^{2} \times ( ( 6360 \times 10^{3} ) + ( 8.50 \times 10^{5 ) )^{3} }{( 6.67 \times 10^{-11} } ) \times ( 5.98 \times 10^{24} )} }$ **[1 mark]**
 - $T=6090.729=6091s$ **OR** 1.69 hours** ****[1 mark]**
 
 Conclusion:
@@ -158,12 +158,12 @@ Combine the equations for force, $F$ and calculate the angular velocity, $ω$:
 - $\frac{Gm_{1}m_{2}}{r^{2}}=m_{2}rω^{2}$
 - $\sqrt{\frac{Gm_{1}}{r^{3}}}=ω$
 - $r=R+h$
-- `omega space equals space square root of fraction numerator open parentheses 6.67 space cross times space 10 to the power of negative 11 end exponent close parentheses space cross times space open parentheses 6.0 space cross times space 10 to the power of 24 close parentheses over denominator open parentheses open parentheses 550 space cross times space 10 cubed close parentheses space plus space open parentheses 6.4 space cross times space 10 to the power of 6 close parentheses close parentheses cubed end fraction end root space equals space 1.09 space cross times space 10 to the power of negative 3 end exponent space rad space straight s to the power of negative 1 end exponent` **[1 mark]**
+- $\\omega = \sqrt{ \frac{( 6.67 \times 10^{- 11} ) \times ( 6.0 \times 10^{24 )}{( ( 550 \times 10^{3} ) + ( 6.4 \times 10^{6} ) )^{3}} } = 1.09 \times 10^{-3} } \text{rad} \mathrm{s}^{- 1}$ **[1 mark]**
 
 Calculate the orbital time of a Starlink satellite:
 
 - $T=\frac{2π}{ω}=\frac{2π}{1.09\times10^{-3}}$ **[1 mark]**
-- `T space equals space 5764 space straight s equals space 5800 space straight s space open parentheses 2 straight s. straight f. close parentheses` **[1 mark]**
+- $T = 5764 \mathrm{s} = 5800 \mathrm{s} ( 2 \mathrm{s} . \mathrm{f} . )$ **[1 mark]**
 
 **[Total: 3 marks]**
 
@@ -197,13 +197,13 @@ From the data booklet:
 Calculate the gravitational potential energy at the lower and upper height, $\DeltaE_{p}$:
 
 - $\DeltaE_{p}=\frac{-Gm_{1}m_{2}}{r}$
-- At the Earth's surface, `increment E subscript 1 space equals space fraction numerator open parentheses 6.67 space cross times space 10 to the power of negative 11 end exponent close parentheses space cross times space open parentheses 6 space cross times space 10 to the power of 24 close parentheses space cross times space open parentheses 227 close parentheses over denominator open parentheses 6.4 space cross times space 10 to the power of 6 close parentheses end fraction space equals space 1.42 space cross times space 10 to the power of 10 space straight J`
-- At the orbital height, `increment E subscript 2 space equals space fraction numerator open parentheses 6.67 space cross times space 10 to the power of negative 11 end exponent close parentheses space cross times space open parentheses 6 space cross times space 10 to the power of 24 close parentheses space cross times space open parentheses 227 close parentheses over denominator open parentheses open parentheses 6.4 space cross times space 10 to the power of 6 close parentheses space plus space open parentheses 550 space cross times space 10 cubed close parentheses close parentheses end fraction space equals space 1.3 space cross times space 10 to the power of 10 space straight J` **[1 mark]**
+- At the Earth's surface, $\Delta E_{1} = \frac{( 6.67 \times 10^{- 11} ) \times ( 6 \times 10^{24} ) \times ( 227 )}{( 6.4 \times 10^{6} )} = 1.42 \times 10^{10} \mathrm{J}$
+- At the orbital height, $\Delta E_{2} = \frac{( 6.67 \times 10^{- 11} ) \times ( 6 \times 10^{24} ) \times ( 227 )}{( ( 6.4 \times 10^{6} ) + ( 550 \times 10^{3} ) )} = 1.3 \times 10^{10} \mathrm{J}$ **[1 mark]**
 
 Calculate the change in kinetic energy, $\DeltaE_{k}$:
 
 - $\DeltaE_{k}=E_{1}-E_{2}$ **[1 mark]**
-- `increment E subscript k space equals space open parentheses 1.42 space cross times space 10 to the power of 10 close parentheses space minus space open parentheses 1.3 space cross times space 10 to the power of 10 close parentheses space equals space 1.12 space cross times space 10 to the power of 9 space straight J` **[1 mark]**
+- $\Delta E_{k} = ( 1.42 \times 10^{10} ) - ( 1.3 \times 10^{10} ) = 1.12 \times 10^{9} \mathrm{J}$ **[1 mark]**
 
 **[Total: 3 marks]**
 
@@ -228,9 +228,9 @@ Equate the expressions for gravitational and centripetal force:
 Determine the value of $K$:
 
 - Period-angular velocity relation:  $T=\frac{2π}{ω}$
-- `fraction numerator G M over denominator R cubed end fraction space equals space open parentheses fraction numerator 2 pi over denominator T end fraction close parentheses squared`
+- $\frac{G M}{R^{3}} = ( \frac{2 \pi }{T} )^{2}$
 - $\frac{T^{2}}{R^{3}}=\frac{4π^{2}}{GM}=K$ **[1 mark]**
-- `K space equals space fraction numerator 4 pi squared over denominator G M end fraction space equals space fraction numerator 4 pi squared over denominator open parentheses 6.67 space cross times space 10 to the power of negative 11 end exponent close parentheses space cross times space open parentheses 1.99 space cross times space 10 to the power of 30 close parentheses end fraction`
+- $K = \frac{4 \pi ^{2}}{G M} = \frac{4 \pi ^{2}}{( 6.67 \times 10^{- 11} ) \times ( 1.99 \times 10^{30} )}$
 - $K=2.97\times10^{-19}s^{2}m^{-3}$ **[1 mark]**
 
 **[Total: 3 marks]**
@@ -258,12 +258,12 @@ Combine the equations for force, $F$ and calculate the angular velocity, $ω$:
 - $\frac{Gm_{1}m_{2}}{r^{2}}=m_{2}rω^{2}$
 - $\sqrt{\frac{Gm_{1}}{r^{3}}}=ω$
 - $r=R+h$
-- `omega space equals space square root of fraction numerator open parentheses 6.67 space cross times space 10 to the power of negative 11 end exponent close parentheses space cross times space open parentheses 6.0 space cross times space 10 to the power of 24 close parentheses over denominator open parentheses open parentheses 550 space cross times space 10 cubed close parentheses space plus space open parentheses 6.4 space cross times space 10 to the power of 6 close parentheses close parentheses cubed end fraction end root space equals space 1.09 space cross times space 10 to the power of negative 3 end exponent space rad space straight s to the power of negative 1 end exponent` **[1 mark]**
+- $\\omega = \sqrt{ \frac{( 6.67 \times 10^{- 11} ) \times ( 6.0 \times 10^{24 )}{( ( 550 \times 10^{3} ) + ( 6.4 \times 10^{6} ) )^{3}} } = 1.09 \times 10^{-3} } \text{rad} \mathrm{s}^{- 1}$ **[1 mark]**
 
 Calculate the orbital time of a Starlink satellite:
 
 - $T=\frac{2π}{ω}=\frac{2π}{1.09\times10^{-3}}$ **[1 mark]**
-- `T space equals space 5764 space straight s equals space 5800 space straight s space open parentheses 2 straight s. straight f. close parentheses` **[1 mark]**
+- $T = 5764 \mathrm{s} = 5800 \mathrm{s} ( 2 \mathrm{s} . \mathrm{f} . )$ **[1 mark]**
 
 **[Total: 3 marks]**
 
@@ -283,19 +283,19 @@ To calculate the distance of the SOHO satellite from Earth:
   - Gravitational constant, $G=6.67\times10^{-11}\text{N m}^{2}\text{kg}^{-2}$
 - The work done against the Earth's gravitational field equals the change in gravitational potential energy:
 
-`increment E subscript p space equals space E subscript p open parentheses straight L 1 close parentheses end subscript space minus space E subscript p open parentheses Earth close parentheses end subscript`
+$\Delta E_{p = E_{p} ( \mathrm{L} 1 )} - E_{p ( \text{Earth} )}$
 
-`increment E subscript p space equals space m open parentheses V subscript straight L 1 end subscript minus V subscript Earth close parentheses`
+$\Delta E_{p = m ( V_{L} 1} - V_{Earth} )$
 
-`increment E subscript p space equals space minus fraction numerator G M m over denominator r end fraction minus open parentheses negative fraction numerator G M m over denominator R end fraction close parentheses`
+$\Delta E_{p} = - \frac{G M m}{r} - ( - \frac{G M m}{R} )$
 
-`increment E subscript p space equals space G M m open parentheses 1 over R minus 1 over r close parentheses` **[1 mark]**
+$\Delta E_{p} = G M m ( \frac{1}{R} - \frac{1}{r} )$ **[1 mark]**
 
 - Rearrange for $\frac{1}{r}$ and substitute the values:
 
 $\frac{1}{r}=\frac{1}{R}-\frac{\DeltaE_{p}}{GMm}$
 
-`1 over r space equals space fraction numerator 1 over denominator 6378 cross times 10 cubed end fraction minus fraction numerator 1.158 cross times 10 to the power of 11 over denominator open parentheses 6.67 cross times 10 to the power of negative 11 end exponent close parentheses cross times open parentheses 5.972 cross times 10 to the power of 24 close parentheses cross times 1862 end fraction` **[1 mark]**
+$\frac{1}{r} = \frac{1}{6378 \times 10^{3}} - \frac{1.158 \times 10^{11}{( 6.67 \times 10^{-11} } ) \times ( 5.972 \times 10^{24} ) \times 1862}$ **[1 mark]**
 
 $\frac{1}{r}=6.601\times10^{-10}$
 
@@ -304,7 +304,7 @@ $r=\frac{1}{6.601\times10^{-10}}=1.51\times10^{9}\text{m}\approx1.5\times10^{9}\
 > **[mark-scheme]**
 > 1 mark for use of $E_{p}=GMm/r$
 > 
-> 1 mark for calculating `increment E subscript p equals E subscript p open parentheses straight L 1 close parentheses end subscript minus E subscript p open parentheses Earth close parentheses end subscript`
+> 1 mark for calculating $\Delta E_{p = E_{p} ( \mathrm{L} 1 )} - E_{p ( \text{Earth} )}$
 > 
 > 1 mark for obtaining an answer that rounds to $1 . 5 \times 10^{9}  \text{m}$
 > 
@@ -335,9 +335,9 @@ $r_{S}=1.496\times10^{11}-1.51\times10^{9}=1.481\times10^{11}\text{m}$
 
 $F_{net}=\frac{GM_{S}m}{r_{S}^{2}}-\frac{GM_{E}m}{r_{E}^{2}}$
 
-`F subscript n e t end subscript space equals space G m open parentheses fraction numerator M subscript S over denominator r subscript S superscript 2 end fraction minus fraction numerator M subscript E over denominator r subscript E superscript 2 end fraction close parentheses`
+$F_{n e t} = G m ( \frac{M_{S} }{r_{S}^{2} } - \frac{M_{E} }{r_{E}^{2} } )$
 
-`F subscript n e t end subscript space equals space 6.67 cross times 10 to the power of negative 11 end exponent cross times 1862 cross times open parentheses fraction numerator 1.989 cross times 10 to the power of 30 over denominator open parentheses 1.481 cross times 10 to the power of 11 close parentheses squared end fraction minus fraction numerator 5.972 cross times 10 to the power of 24 over denominator open parentheses 1.51 cross times 10 to the power of 9 close parentheses squared end fraction close parentheses`
+$F_{n e t} = 6.67 \times 10^{- 11} \times 1862 \times ( \frac{1.989 \times 10^{30} }{( 1.481 \times 10^{11} )^{2}} - \frac{5.972 \times 10^{24} }{( 1.51 \times 10^{9} )^{2}} )$
 
 $F_{net}=10.94\text{N}$ **[1 mark]**
 
@@ -368,7 +368,7 @@ The net gravitational force (`tilde 11 text  N end text`) provides the centripe
 > **[mark-scheme]**
 > 1 mark for stating net gravitational force on SOHO = Sun's gravitational force − Earth's gravitational force
 > 
-> - Accept `F subscript n e t end subscript equals G m open parentheses M subscript S divided by r subscript S superscript 2 minus M subscript E divided by r subscript E superscript 2 close parentheses` or equivalent
+> - Accept $F_{n e t} = G m ( M_{S} \div r_{S}^{2} - M_{E} \div r_{E}^{2} )$ or equivalent
 > 
 > 1 mark for use of $F=mω^{2}r$ to calculate $ω$ ($1.99\times10^{-7}\text{rad s}^{-1}$)
 > 
@@ -430,7 +430,7 @@ The net gravitational force (`tilde 11 text  N end text`) provides the centripe
 ## Q9 — medium — 1 marks · multiple-choice-questions
 
 ### 1() — 1 marks
-**Correct answer: A** — `g open parentheses fraction numerator R over denominator R plus h end fraction close parentheses squared`
+**Correct answer: A** — $g ( \frac{R}{R + h} )^{2}$
 
 **Final answer:** **The correct answer is A**
 
@@ -440,7 +440,7 @@ $g\propto\frac{1}{r^{2}}$
 
 - The ratio of the field strengths can be found using:
 
-`g subscript 1 over g subscript 2 space equals space open parentheses r subscript 2 over r subscript 1 close parentheses squared`
+$\frac{g_{1}}{g_{2}} = ( \frac{r_{2}}{r_{1}} ) ^{2}$
 
 - Where:
 
@@ -448,8 +448,8 @@ $g\propto\frac{1}{r^{2}}$
   - The field strength is $g$ at the surface ($r_{2}=R$)
 - The field strength at the satellite is:
 
-`g subscript s over g space equals space open parentheses fraction numerator R over denominator R plus h end fraction close parentheses squared`
+$g_\frac{{s}}{g} = ( \frac{R}{R + h} ) ^{2}$
 
-`g subscript s space equals space g open parentheses fraction numerator R over denominator R plus h end fraction close parentheses squared`
+$g_{s} = g ( \frac{R}{R + h} )^{2}$
 
 - This is option **A**

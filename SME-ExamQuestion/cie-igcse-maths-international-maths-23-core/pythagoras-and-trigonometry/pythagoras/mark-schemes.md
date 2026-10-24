@@ -14,7 +14,7 @@ $\sqrt{10^{2}-6^{2}}$
 
 > *Simplify*
 
-`table row blank equals cell square root of 100 minus 36 end root end cell row blank equals cell square root of 64 end cell row blank equals cell 8 space cm end cell end table`
+$\begin{gathered} = \sqrt{100 - 36} \\ = \sqrt{64} \\ = 8 \text{cm} \end{gathered}$
 
 **[M1]**
 
@@ -83,7 +83,7 @@ $=2.954657341$
 ** or 2.954 to 2.955**
 
 ### Q4
-*First find the length of the diagonal side using Pythagoras' theorem *`open parentheses a squared plus b squared equals c squared close parentheses` *It may help to label the diagram first*
+*First find the length of the diagonal side using Pythagoras' theorem *$( a^{2} + b^{2} = c^{2} )$ *It may help to label the diagram first*
 
 ![Labelled triangle](assets/005-labelled-triangle.png)
 
@@ -91,7 +91,7 @@ $8.5^{2}+10.8^{2}=c^{2}$
 
 **[1]**
 
-`table row cell c squared end cell equals cell 188.89 end cell row c equals cell 13.743 space 725 space... end cell end table`
+$\begin{gathered} c^{2} & = 188.89 \\ c = 13.743 725 ... \end{gathered}$
 
 > *Do not round but store the number using your calculator's memory to keep accuracy Add up the three sides to find the perimeter*
 
@@ -145,7 +145,7 @@ $AD=\sqrt{30^{2}+90^{2}}=94.86832981...m$
 
 > *We need to find one of the shorter sides of the triangle, so substitute into *$a=\sqrt{c^{2}-b^{2}}$* *
 
-`a equals square root of open parentheses 13 close parentheses squared minus open parentheses 12 close parentheses squared end root equals 5`
+$a = \sqrt{( 13 )^{2} - ( 12 )^{2}} = 5$
 
 * ***[1]**
 
@@ -179,19 +179,19 @@ $w=18.2$* ***[1]**
 ### Q8
 > *Use Pythagoras' Theorem, which states that *$a^{2}+b^{2}=c^{2}$*, where **c** is the hypotenuse of a right-angled triangle.*
 
-`23.4 squared space plus thin space open parentheses B C close parentheses to the power of 2 space end exponent equals space 35.1 squared`
+$23.4^{2} + ( B C )^{2 } = 35.1^{2}$
 
 **[1]**
 
 > *Subtract 23.4*<sup>*2 *</sup>*from both sides*
 
-`open parentheses B C close parentheses squared space equals space 35.1 squared space minus space 23.4 squared`
+$( B C )^{2} = 35.1^{2} - 23.4^{2}$
 
 **[1]**
 
 > *Type this into your calculator*
 
-`open parentheses B C close parentheses squared equals 684.45`
+$( B C )^{2} = 684.45$
 
 > *Square root both sides*
 
@@ -221,7 +221,7 @@ $AB=\sqrt{7.4^{2}+2.3^{2}}=7.749193506$
 
 *PQ** is one of the short sides, so use *$a=\sqrt{c^{2}-b^{2}}$* *
 
-`table row cell P Q end cell equals cell square root of 11.5 squared minus 7.2 squared end root end cell end table`
+$\begin{gathered} P Q & = \sqrt{11.5^{2} - 7.2^{2}} \end{gathered}$
 
 **[2]**
 
@@ -318,13 +318,13 @@ $AC=3.22m$** [1]**
 
 $k$* is the longest side, the hypotenuse, so use *$c=\sqrt{a^{2}+b^{2}}$
 
-`table row k equals cell square root of 8 squared plus 15 squared end root end cell end table`
+$\begin{gathered} k = \sqrt{8^{2} + 15^{2}} \end{gathered}$
 
 **[1]**
 
 > *Enter into a calculator.*
 
-`table row k equals cell square root of 289 end cell row blank blank blank row k equals 17 end table`
+$\begin{gathered} k = \sqrt{289} \\ \\ k = 17 \end{gathered}$
 
 $17\mathrm{cm}$* ***[1]**
 

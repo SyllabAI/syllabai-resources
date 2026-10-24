@@ -72,7 +72,7 @@ guided_study: false
 > 
 > *n*<sub>*1*</sub> sin *θ*<sub>*1*</sub> = *n*<sub>*2*</sub> sin *θ*<sub>*2 *</sub>
 > 
-> `sin open parentheses C close parentheses space equals space n subscript 2 over n subscript 1 sin open parentheses theta subscript 2 close parentheses`
+> $\text{sin} ( C ) = \frac{n_{2}}{n_{1}} \text{sin} ( theta_{2} )$
 > 
 > **Step 2: Substitute in the known quantities**
 > 
@@ -81,9 +81,9 @@ guided_study: false
 > - *θ*<sub>*1*</sub> = *C*
 > - *θ*<sub>*2*</sub> = 90° (The angle of refraction is 90° when at the critical angle)
 > 
-> `sin open parentheses C close parentheses space equals space n subscript 2 over n subscript 1 sin open parentheses theta subscript 2 close parentheses`
+> $\text{sin} ( C ) = \frac{n_{2}}{n_{1}} \text{sin} ( theta_{2} )$
 > 
-> `C space equals space sin to the power of negative 1 end exponent space open parentheses fraction numerator 1.32 over denominator 1.45 end fraction close parentheses space`
+> $C = \sin ^{- 1} ( \frac{1.32}{1.45} )$
 > 
 > **Step 3: Calculate the critical angle**
 > 

@@ -45,7 +45,7 @@ guided_study: false
 > 
 > ![definition-of-gradient-ma](assets/b0318701826a-definition-of-gradient-ma.png)
 > 
-> `fraction numerator 4 minus open parentheses negative 2 close parentheses over denominator 3 minus 1 end fraction`
+> $\frac{4 - ( - 2 )}{3 - 1}$
 > 
 > **Final answer:** **The gradient is 3**
 
@@ -66,18 +66,18 @@ guided_study: false
 
   - For example, the derivative of  $y=x^{2}$  is  $2x$
   
-    - This means that when $x=1$, the gradient of $y=x^{2}$  is  `2 open parentheses 1 close parentheses equals 2`
-    - And when $x=5$, the gradient of $y=x^{2}$  is  `2 open parentheses 5 close parentheses equals 10`
+    - This means that when $x=1$, the gradient of $y=x^{2}$  is  $2 ( 1 ) = 2$
+    - And when $x=5$, the gradient of $y=x^{2}$  is  $2 ( 5 ) = 10$
 - The derivative is also called the **gradient** **function**
 
 > **Worked Example**
 > The derivative of $y=x^{3}-2x^{2}-x+3$ is $3x^{2}-4x-1$.
 > 
-> Use the derivative to find the gradient of $y=x^{3}-2x^{2}-x+3$ at the point `A open parentheses 2 comma space 1 close parentheses`.
+> Use the derivative to find the gradient of $y=x^{3}-2x^{2}-x+3$ at the point $A ( 2 , 1 )$.
 > 
 > > *Substitute *$x=2$* into the derivative, *$3x^{2}-4x-1$
 > 
-> `3 open parentheses 2 close parentheses squared minus 4 open parentheses 2 close parentheses minus 1 equals 12 minus 8 minus 1`
+> $3 ( 2 )^{2} - 4 ( 2 ) - 1 = 12 - 8 - 1$
 > 
 > **Final answer:** **gradient = 3**
 > 
@@ -120,7 +120,7 @@ guided_study: false
 
 - The formulae for differentiating powers of $x$ work for a **sum** or **difference** of **powers** of $x$
 
-  - e.g.  If$y=5x^{4}+3x^{-2}+4$ then `fraction numerator d y over denominator d x end fraction equals 5 cross times 4 x to the power of 4 minus 1 end exponent plus 3 cross times open parentheses negative 2 close parentheses x to the power of negative 2 minus 1 end exponent plus 0` $\frac{dy}{dx}=20x^{3}-6x^{-3}$
+  - e.g.  If$y=5x^{4}+3x^{-2}+4$ then $\frac{d y}{d x} = 5 \times 4 x^{4 - 1} + 3 \times ( - 2 ) x^{- 2 - 1} + 0$ $\frac{dy}{dx}=20x^{3}-6x^{-3}$
   - This is sometimes referred to differentiating 'term-by-term'
 - **Products** and **quotients (divisions) cannot** be differentiated in this way so they need **expanding/simplifying** first
 
@@ -141,7 +141,7 @@ guided_study: false
 > **Worked Example**
 > Find the derivative of
 > 
-> (a)`table row blank row blank row blank end table`$y=5x^{3}+2x+\frac{3}{x^{2}}+8$
+> (a)$\begin{gathered} \\ \\ \end{gathered}$$y=5x^{3}+2x+\frac{3}{x^{2}}+8$
 > 
 > > *Rewrite the *$\frac{3}{x^{2}}$* term*
 > 
@@ -155,11 +155,11 @@ guided_study: false
 > 
 > $\frac{dy}{dx}=15x^{2}+2-\frac{6}{x^{3}}$
 > 
-> (b) `y equals open parentheses 2 x plus 3 close parentheses squared`
+> (b) $y = ( 2 x + 3 )^{2}$
 > 
 > > *This is a product of two (equal) brackets so cannot be differentiated directly Expand the brackets to get an expression in powers of *$x$* Take time to get the expansion correct, writing stages out in full if necessary*
 > 
-> `table row y equals cell open parentheses 2 x plus 3 close parentheses open parentheses 2 x plus 3 close parentheses end cell row y equals cell 4 x squared plus 6 x plus 6 x plus 9 end cell row y equals cell 4 x squared plus 12 x plus 9 end cell end table`
+> $\begin{gathered} y = ( 2 x + 3 ) ( 2 x + 3 ) \\ y = 4 x^{2} + 6 x + 6 x + 9 \\ y = 4 x^{2} + 12 x + 9 \end{gathered}$
 > 
 > > *Differentiate 'term-by-term', looking out for those special cases*
 > 
@@ -169,7 +169,7 @@ guided_study: false
 > 
 > $\frac{dy}{dx}=8x+12$
 > 
-> (c)`begin mathsize 12px style table row blank row blank row blank end table end style` $y=\frac{8x^{6}-x^{3}}{2x^{4}}$
+> (c)$\begin{gathered} \\ \\ \end{gathered}$ $y=\frac{8x^{6}-x^{3}}{2x^{4}}$
 > 
 > > *This is a quotient so cannot be differentiated directly Spot the single denominator which means we can split the fraction by the two terms on the numerator*
 > 

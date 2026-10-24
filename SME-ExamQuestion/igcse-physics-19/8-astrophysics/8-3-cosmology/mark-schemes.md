@@ -335,7 +335,7 @@ Calculate the change in wavelength, $\Deltaλ$:
 Rearrange the equation to make *v* the subject:
 
 - $\frac{Δλ}{λ_{0}}=\frac{v}{c}\Rightarrowv=c\times\frac{Δλ}{λ_{0}}$
-- `v space equals space fraction numerator 5.3 space cross times space open parentheses 3.0 cross times 10 to the power of 8 close parentheses over denominator 530 end fraction` **[1 mark]**
+- $v = \frac{5.3 \times ( 3.0 \times 10^{8} )}{530}$ **[1 mark]**
 - Relative speed of the galaxy = 3.0 × 10<sup>6</sup> m/s **[1 mark]**
 
 **[Total: 3 marks]**
@@ -428,11 +428,11 @@ List the known quantities:
 
 Substitute the known quantities into the equation:
 
-- `100 over 300 space equals space fraction numerator v over denominator open parentheses 3 space cross times space 10 to the power of 8 close parentheses end fraction` **[1 mark]**
+- $\frac{100}{300} = \frac{v}{( 3 \times 10^{8} )}$ **[1 mark]**
 
 Rearrange the equation to make $v$ the subject:
 
-- `v space equals space fraction numerator 100 space cross times space open parentheses 3 space cross times space 10 to the power of 8 close parentheses over denominator 300 end fraction` **[1 mark]**
+- $v = \frac{100 \times ( 3 \times 10^{8} )}{300}$ **[1 mark]**
 - Relative speed of the galaxy = 1 × 10<sup>8</sup> m/s **[1 mark]**
 
 **[Total: 5 marks]**
@@ -449,8 +449,8 @@ List the known quantities:
 Determine the change in wavelength:
 
 - $\frac{\Deltaλ}{λ_{0}}=\frac{v}{c}$
-- `fraction numerator increment lambda over denominator 450 end fraction space equals space fraction numerator open parentheses 2.0 cross times 10 to the power of 4 close parentheses over denominator open parentheses 3.0 cross times 10 to the power of 8 close parentheses end fraction` **[1 mark]**
-- `increment lambda space equals space 450 space cross times space fraction numerator open parentheses 2.0 cross times 10 to the power of 4 close parentheses over denominator open parentheses 3.0 cross times 10 to the power of 8 close parentheses end fraction` **[1 mark]**
+- $\frac{\Delta \\lambda }{450} = \frac{( 2.0 \times 10^{4} )}{( 3.0 \times 10^{8} )}$ **[1 mark]**
+- $\Delta \\lambda = 450 \times \frac{( 2.0 \times 10^{4} )}{( 3.0 \times 10^{8} )}$ **[1 mark]**
 - $\Deltaλ$ = 0.03 nm **[1 mark]**
 
 Determine the observed wavelength of light on Earth:
@@ -500,11 +500,11 @@ $\frac{\Deltaλ}{λ_{0}}=\frac{v}{c}$
 
 $v=\frac{\Deltaλc}{λ_{0}}$
 
-`v space equals space fraction numerator 31.0 space cross times space open parentheses 3.00 cross times 10 to the power of 5 close parentheses over denominator 500.0 end fraction` **[1 mark]**
+$v = \frac{31.0 \times ( 3.00 \times 10^{5} )}{500.0}$ **[1 mark]**
 
 $v=18600\mathrm{km}/s$ **[1 mark]**
 
-`v space equals space 18 space 600 space km divided by straight s space equals space 19 space 000 space space km divided by straight s space open parentheses 2 space straight s. straight f. close parentheses` **[1 mark]**
+$v = 18 600 \text{km} \div \mathrm{s} = 19 000 \text{km} \div \mathrm{s} ( 2 \mathrm{s} . \mathrm{f} . )$ **[1 mark]**
 
 > **[mark-scheme]**
 > In a show that question, you must show all your working to gain full marks.
@@ -565,7 +565,7 @@ Calculate the change in wavelength, Δ*λ*
 Rearrange the equation and substitute values, to calculate *v*:
 
 - $\frac{Δλ}{λ_{0}}=\frac{v}{c}\Rightarrowv=c\times\frac{Δλ}{λ_{0}}$ **[1 mark]**
-- `v space equals space open parentheses 3.0 cross times 10 to the power of 8 close parentheses space cross times space fraction numerator 1.29 over denominator 486.14 end fraction` **[1 mark]**
+- $v = ( 3.0 \times 10^{8} ) \times \frac{1.29}{486.14}$ **[1 mark]**
 - Speed of galaxy Y = 796 067 = 7.96 × 10<sup>5</sup> m/s **[1 mark]**
 
 **[Total: 4 marks]**
@@ -585,7 +585,7 @@ Rearrange the equation and substitute values, to calculate *v*:
 - Rearranging to make velocity the subject, and substituting the values
 
   - $v=\frac{λ-λ_{0}}{λ_{0}}\timesc$
-  - `v space equals space fraction numerator open parentheses 610 space minus space 590 close parentheses over denominator 590 end fraction cross times c` = 0.033898 × *c*
+  - $v = \frac{( 610 - 590 )}{590} \times c$ = 0.033898 × *c*
 
 - This answer rounds to 0.0339 *c*, which is option **B**
 
@@ -669,7 +669,7 @@ It can be useful to annotate diagrams to try and visualise what is going on. For
 ![hydrogen-spectrum-lab-mcq-igcse-comm](assets/010-hydrogen-spectrum-lab-mcq-igcse-comm.png)
 
 ### 2() — 1 marks
-**Correct answer: A** — `H subscript 0 space end subscript equals space fraction numerator c open parentheses lambda subscript 2 space end subscript minus space lambda subscript 1 close parentheses over denominator d space lambda subscript 1 end fraction`
+**Correct answer: A** — $H_{0 } = \frac{c ( \lambda_{2 } - \lambda_{1} )}{d \lambda_{1} }$
 
 **Final answer:** **The correct answer is ****A ****because: **
 
@@ -687,11 +687,11 @@ It can be useful to annotate diagrams to try and visualise what is going on. For
 
   - $v=H_{0}d$
   - $\frac{\Deltaλ}{λ}=\frac{v}{c}=\frac{H_{0}d}{c}$
-  - `fraction numerator open parentheses lambda subscript 2 minus lambda subscript 1 close parentheses over denominator lambda subscript 1 end fraction space equals space fraction numerator H subscript 0 d over denominator c end fraction`
+  - $\frac{( \lambda_{2} - \lambda_{1} )}{\lambda_{1} } = \frac{H_{0} d}{c}$
 
 - Rearranging for the Hubble constant, *H*<sub>0</sub> gives:
 
-  - `H subscript 0 space end subscript space equals space space fraction numerator c open parentheses lambda subscript 2 space end subscript minus space lambda subscript 1 close parentheses over denominator d space lambda subscript 1 end fraction`
+  - $H_{0 } = \frac{c ( \lambda_{2 } - \lambda_{1} )}{d \lambda_{1} }$
 
 - This is option **A**
 
@@ -737,7 +737,7 @@ Calculate the change in wavelength, Δ*λ*
 Rearrange the equation and substitute values, to calculate *v*:
 
 - $\frac{Δλ}{λ_{0}}=\frac{v}{c}\Rightarrowv=c\times\frac{Δλ}{λ_{0}}$ **[1 mark]**
-- `v space equals space open parentheses 3.0 cross times 10 to the power of 8 close parentheses space cross times space fraction numerator 0.07 over denominator 656.61 end fraction` **[1 mark]**
+- $v = ( 3.0 \times 10^{8} ) \times \frac{0.07}{656.61}$ **[1 mark]**
 - Speed of the star = 31 982 = 3.2 × 10<sup>4</sup> m/s **[1 mark]**
 
 (ii) Determine if the star is moving away from or towards the Earth:

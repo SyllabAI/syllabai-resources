@@ -80,7 +80,7 @@ $u_{n}=a+(n-1)d$
   - For the arithmetic sequence 1, 4, 7, 10, … the arithmetic series is 1 + 4 + 7 + 10 + …
 - Use the following formula to find the sum of the first $n$ terms of an arithmetic series:
 
-`S subscript n equals n over 2 open square brackets 2 a plus space left parenthesis n minus 1 right parenthesis d close square brackets`*   *
+$S_{n} = \frac{n}{2} [ 2 a + ( n - 1 ) d ]$*   *
 
 - $a$<sub>* *</sub>is the **first term**
 - $d$ is the **common difference**
@@ -103,24 +103,24 @@ $u_{n}=a+(n-1)d$
 > **Worked Example**
 > The fourth term of an arithmetic series is 10 and the ninth term is 25.  Find the first term and the common difference of the series.
 > 
-> > *Put the information for the fourth and ninth terms into the **n*<sup>*th*</sup>* term formula  *`u subscript n equals a plus open parentheses n minus 1 close parentheses d`
+> > *Put the information for the fourth and ninth terms into the **n*<sup>*th*</sup>* term formula  *$u_{n} = a + ( n - 1 ) d$
 > 
 > > *For *$u_{4}$
 > 
-> `table row cell a plus open parentheses 4 minus 1 close parentheses d end cell equals 10 row cell a plus 3 d end cell equals 10 end table`
+> $\begin{gathered} a + ( 4 - 1 ) d & = 10 \\ a + 3 d & = 10 \end{gathered}$
 > 
 > > *For *$u_{9}$
 > 
-> `table row cell a plus open parentheses 9 minus 1 close parentheses d end cell equals 25 row cell a plus 8 d end cell equals 25 end table`
+> $\begin{gathered} a + ( 9 - 1 ) d & = 25 \\ a + 8 d & = 25 \end{gathered}$
 > 
 > > *That gives us two simultaneous equations in *$a$* and *$d$
 > *Subtract the *$u_{4}$* equation from the *$u_{9}$* equation to eliminate *$a$
 > 
-> > `table attributes columnalign right center left columnspacing 0px end attributes row cell 5 d end cell equals 15 row d equals 3 end table`
+> > $\begin{array}{rcl} 5 d & = 15 \\ d = 3 \end{array}$
 > 
 > *Substitute that value into the first equation to find *$a$
 > 
-> > `table row cell a plus 3 open parentheses 3 close parentheses end cell equals 10 row cell a plus 9 end cell equals 10 row a equals 1 end table`
+> > $\begin{gathered} a + 3 ( 3 ) & = 10 \\ a + 9 & = 10 \\ a = 1 \end{gathered}$
 > 
 > *That is all the information we need to answer the question*
 > 
@@ -133,13 +133,13 @@ $u_{n}=a+(n-1)d$
 > 
 > a) Find the common difference, $d$, of the series.
 > 
-> > *Use the arithmetic series formula  *`S subscript n equals n over 2 open square brackets 2 a plus open parentheses n minus 1 close parentheses d close square brackets`
+> > *Use the arithmetic series formula  *$S_{n} = \frac{n}{2} [ 2 a + ( n - 1 ) d ]$
 > 
 > > *Here  *$n=10$*,  *$S_{10}=630$*  and  *$a=18$
 > 
 > > *Substitute in and solve for *$d$
 > 
-> `table row 630 equals cell 10 over 2 open square brackets 2 open parentheses 18 close parentheses plus open parentheses 10 minus 1 close parentheses d close square brackets end cell row 630 equals cell 5 open square brackets 36 plus 9 d close square brackets end cell row 630 equals cell 180 plus 45 d end cell row 450 equals cell 45 d end cell row d equals cell 450 divided by 45 end cell end table`
+> $\begin{gathered} 630 = \frac{10}{2} [ 2 ( 18 ) + ( 10 - 1 ) d ] \\ 630 = 5 [ 36 + 9 d ] \\ 630 = 180 + 45 d \\ 450 = 45 d \\ d = 450 \div 45 \end{gathered}$
 > 
 > $d=10$
 > 
@@ -151,6 +151,6 @@ $u_{n}=a+(n-1)d$
 > 
 > > *Here  *$n=10$*,  *$S_{10}=630$*  and  *$d=11$
 > 
-> `table row 630 equals cell 10 over 2 open square brackets 2 a plus open parentheses 10 minus 1 close parentheses 11 close square brackets end cell row 630 equals cell 5 open square brackets 2 a plus 99 close square brackets end cell row 630 equals cell 10 a plus 495 end cell row 135 equals cell 10 a end cell row a equals cell 135 divided by 10 end cell end table`
+> $\begin{gathered} 630 = \frac{10}{2} [ 2 a + ( 10 - 1 ) 11 ] \\ 630 = 5 [ 2 a + 99 ] \\ 630 = 10 a + 495 \\ 135 = 10 a \\ a = 135 \div 10 \end{gathered}$
 > 
 > $a=13.5$

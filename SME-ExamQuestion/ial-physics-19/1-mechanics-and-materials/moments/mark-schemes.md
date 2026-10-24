@@ -41,7 +41,7 @@ anticlockwise moment $=F\times50$ **[1 mark]**
 
 - The moment due to weight $W$ about the pivot is:
 
-clockwise moment `equals space W cross times open parentheses 80 minus 50 close parentheses`
+clockwise moment $= W \times ( 80 - 50 )$
 
 clockwise moment $=mg\times30$ **[1 mark]**
 
@@ -97,12 +97,12 @@ Calculate *R*<sub>1</sub> by taking moments about the rear axle:
 
 - $moment=Fx$
 - Clockwise moments = anticlockwise moments (since the car is in equilibrium) **[1 mark]**
-- `open parentheses 1.23 cross times 10 to the power of 4 close parentheses cross times 1.80 equals R subscript 1 cross times 6.00` **[1 mark]**
+- $( 1.23 \times 10^{4} ) \times 1.80 = R_{1} \times 6.00$ **[1 mark]**
 - *R*<sub>1</sub> = 3.69 × 10<sup>3</sup> N
 
 Calculate *R*<sub>2</sub> by taking moments about the front axle:
 
-- `R subscript 2 cross times 6.00 equals open parentheses 1.23 cross times 10 to the power of 4 close parentheses cross times 4.20`
+- $R_{2} \times 6.00 = ( 1.23 \times 10^{4} ) \times 4.20$
 - *R*<sub>2</sub> = 8.61 × 10<sup>3</sup> N **[1 mark]**
 
 **[Total: 3 marks]**
@@ -158,7 +158,7 @@ List the known quantities:
 Use the moment equation:
 
 - $\mathrm{moment}=Fx$
-- `A n t i minus c l o c k w i s e space open parentheses A C W close parentheses space moment space from space wind space equals space F h space equals space 14 space cross times space 1.80` **[1 mark]**
+- $A n t i - c l o c k w i s e ( A C W ) \text{moment} \text{from} \text{wind} = F h = 14 \times 1.80$ **[1 mark]**
 
 Calculate the clockwise (CW) and anticlockwise (ACW) moments:
 
@@ -199,18 +199,18 @@ List the known quantities:
 
 Write the horizontal component of tension, $T_{hor}$, in terms of $T$:
 
-- `T subscript h o r end subscript space equals space T sin open parentheses 44 degree close parentheses` **[1 mark]**
+- $T_{h o r} = T \sin ( 44^{\circ} )$ **[1 mark]**
 
 Equate moments about the centre of the base to determine $T$:
 
-- `CW space moment space space equals space T subscript h o r end subscript l subscript v e r t end subscript space equals space 1.50 T sin open parentheses 44 degree close parentheses`
+- $\text{CW} \text{moment} = T_{h o r} l_{v e r t} = 1.50 T \sin ( 44^{\circ} )$
 - $\mathrm{ACW} \mathrm{moment}=Fh=45Nm$
-- `45 space equals space 1.50 T sin open parentheses 44 degree close parentheses` **[1 mark]**
-- `T space equals space fraction numerator 45 over denominator 1.50 sin open parentheses 44 degree close parentheses end fraction space equals space 43.2 space straight N`
+- $45 = 1.50 T \sin ( 44^{\circ} )$ **[1 mark]**
+- $T = \frac{45}{1.50 \sin ( 44^{\circ} )} = 43.2 \mathrm{N}$
 
 Determine the vertical component of tension, $T_{vert}$:
 
-- `T subscript v e r t end subscript space equals space T cos open parentheses 44 degree close parentheses space equals space 43.2 cos open parentheses 44 degree close parentheses space equals space 31.1 space straight N` **[1 mark]**
+- $T_{v e r t} = T \cos ( 44^{\circ} ) = 43.2 \cos ( 44^{\circ} ) = 31.1 \mathrm{N}$ **[1 mark]**
 
 Determine the total force on the ground:
 

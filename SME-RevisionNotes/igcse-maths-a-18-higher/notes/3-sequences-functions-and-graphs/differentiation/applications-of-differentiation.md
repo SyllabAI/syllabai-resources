@@ -54,10 +54,10 @@ Set the** gradient function **(derivative) **equal to** **zero** and** solve for
 **Substitute** the *x*-coordinate into the original equation of the **graph**
 
   - This will find the ***y*****-coordinate** of the turning point
-  - E.g. `y equals 4 open parentheses 1 close parentheses squared minus 8 open parentheses 1 close parentheses plus 9 equals 5`
+  - E.g. $y = 4 ( 1 )^{2} - 8 ( 1 ) + 9 = 5$
 - **STEP 4** Write out the** coordinates** of the turning point
 
-  - E.g. The turning point is at `open parentheses 1 comma space 5 close parentheses`
+  - E.g. The turning point is at $( 1 , 5 )$
 
 > **Exam Hint**
 > - Remember to read the questions carefully
@@ -75,13 +75,13 @@ Set the** gradient function **(derivative) **equal to** **zero** and** solve for
 > 
 > > *Set the derivative equal to 0 and solve for **x*
 > 
-> `table row 0 equals cell 4 x plus 8 end cell row cell negative 8 end cell equals cell 4 x end cell row cell negative 2 end cell equals x end table`
+> $\begin{gathered} 0 = 4 x + 8 \\ - 8 & = 4 x \\ - 2 & = x \end{gathered}$
 > 
 > > *Substitute the **x**-coordinate into the origination equation of the curve and solve for **y*
 > 
-> `y equals 2 open parentheses negative 2 close parentheses squared plus 8 open parentheses negative 2 close parentheses minus 9
-> y equals 8 minus 16 minus 9
-> y equals negative 17`
+> $y = 2 ( - 2 )^{2} + 8 ( - 2 ) - 9
+> y = 8 - 16 - 9
+> y = - 17$
 > 
 > > *Form a set of coordinates*
 > 

@@ -50,7 +50,7 @@ Calculate the mean of *d*:
 
 Calculate the uncertainty in *d*:
 
-- `u n c e r t a i n t y space i n space d italic space italic equals italic space plus-or-minus 1 half open parentheses r a n g e close parentheses space equals plus-or-minus 1 half open parentheses 2.37 space minus space 2.33 close parentheses space equals space 0.02 space mm space`**[1 mark]**
+- $u n c e r t a i n t y i n d = \pm 1 \frac{1}{2} ( r a n g e ) = \pm 1 \frac{1}{2} ( 2.37 - 2.33 ) = 0.02 \text{mm}$**[1 mark]**
 
 **[Total: 6 marks]**
 
@@ -58,7 +58,7 @@ Calculate the uncertainty in *d*:
 - *To calculate the % uncertainty in the micrometer screw gauge:*
 
   - *The absolute uncertainty in the micrometer is *$\frac{1}{2}$* the smallest reading (0.01 mm) = 0.005 mm*
-  - *The % uncertainty is therefore *`fraction numerator 0.005 over denominator 2 end fraction space cross times space 100 thin space percent sign equals space 0.25 space percent sign`
+  - *The % uncertainty is therefore *$\frac{0.005}{2} \times 100 \% = 0.25 \%$
 
 ### 4((c)) — 2 marks
 Determine a value of *G* for steel in N m<sup>−2</sup>
@@ -73,7 +73,7 @@ List the known quantities:
 
 Substitute the values into the equation for *G*:
 
-- `G space equals fraction numerator 32 m g l x squared over denominator pi y d to the power of 4 end fraction space equals space fraction numerator 32 space cross times space open parentheses 100 space cross times space 10 to the power of negative 3 end exponent close parentheses space cross times space 9.81 space cross times space open parentheses 58.9 space cross times space 10 to the power of negative 2 end exponent close parentheses space cross times space open parentheses 10.3 space cross times space 10 to the power of negative 2 end exponent close parentheses squared space over denominator straight pi space cross times space open parentheses 26 space cross times space 10 to the power of negative 3 end exponent close parentheses space cross times open parentheses space 2.35 space cross times space 10 to the power of negative 3 end exponent close parentheses to the power of 4 end fraction`**[1 mark]**
+- $G = \frac{32 m g l x^{2}}{\pi y d^{4} = \frac{32 \times ( 100 \times 10^{-3} } ) \times 9.81 \times ( 58.9 \times 10^{- 2} ) \times ( 10.3 \times 10^{- 2} )^{2} }{ \mathrm{\pi } \times ( 26 \times 10^{- 3} ) \times ( 2.35 \times 10^{- 3} )^{4} }$**[1 mark]**
 - $G=7.874\times10^{10}=7.9\times10^{10}Nm^{-2}$ **[1 mark]**
 
 **[Total: 2 marks]**
@@ -99,17 +99,17 @@ List the known quantities:
 Calculate the uncertainty in *G*:
 
 - The only values with an uncertainty are *l*, *x*, *y* and *d*
-- `percent sign increment G space equals space percent sign increment l space plus space 2 space percent sign increment x space plus space percent sign increment y space plus space 4 percent sign increment d`
-- `percent sign increment G space equals open parentheses space open parentheses fraction numerator 0.1 over denominator 58.9 end fraction close parentheses space plus space 2 space open parentheses fraction numerator 0.1 over denominator 10.3 end fraction close parentheses space plus space open parentheses 1 over 26 close parentheses space plus space 4 open parentheses fraction numerator 0.02 over denominator 2.35 end fraction close parentheses space close parentheses space cross times space 100 space percent sign` **[1 mark]**
-- `percent sign increment G space equals space 9.362 space equals space 9.4 space percent sign` **[1 mark]**
+- $\% \Delta G = \% \Delta l + 2 \% \Delta x + \% \Delta y + 4 \% \Delta d$
+- $\% \Delta G = ( ( \frac{0.1}{58.9} ) + 2 ( \frac{0.1}{10.3} ) + ( \frac{1}{26} ) + 4 ( \frac{0.02}{2.35} ) ) \times 100 \%$ **[1 mark]**
+- $\% \Delta G = 9.362 = 9.4 \%$ **[1 mark]**
 
 Calculate the upper and lower limits of *G*:
 
-- `u p p e r space l i m i t space equals space open parentheses 7.87 space cross times space 10 to the power of 10 close parentheses space cross times space open parentheses 1 space plus space 0.094 close parentheses space equals space 86.1 space cross times space 10 to the power of 9 space straight N space straight m squared`
+- $u p p e r l i m i t = ( 7.87 \times 10^{10} ) \times ( 1 + 0.094 ) = 86.1 \times 10^{9} \mathrm{N} \mathrm{m}^{2}$
 
 **AND**
 
-- `l o w e r space l i m i t space equals space open parentheses 7.87 space cross times space 10 to the power of 10 close parentheses space cross times space open parentheses 1 space minus space 0.094 close parentheses space equals space 71.3 space cross times space 10 to the power of 9 space straight N space straight m squared` **[1 mark]**
+- $l o w e r l i m i t = ( 7.87 \times 10^{10} ) \times ( 1 - 0.094 ) = 71.3 \times 10^{9} \mathrm{N} \mathrm{m}^{2}$ **[1 mark]**
 
 Conclusion:
 
@@ -123,7 +123,7 @@ Conclusion:
 - *You must be confident in calculating uncertainties*
 
   - *When values are **multiplied** or **divided** you must **add** their **percentage **uncertainties (%Δ)*
-  - `percent sign space u n c e r t a i n t y space space equals space fraction numerator u n c e r t a i n t y space over denominator m e a s u r e d space v a l u e end fraction space cross times space 100 space percent sign`
+  - $\% u n c e r t a i n t y = \frac{u n c e r t a i n t y }{m e a s u r e d v a l u e} \times 100 \%$
 - *However, when you want to find the upper and lower limits, you must change these back into decimals*
 
   - *9.4 % = 0.094*
@@ -200,7 +200,7 @@ Conclusion:
 
 - *Relating equations to the form **y** = **mx** + **c** is a **very** common practical skill and you must be confident working with logs to achieve this*
 
-  - *The log rules used in this question are: *`l o g space open parentheses a space cross times space b close parentheses space equals space l o g a space plus thin space l o g b`* and *$logx^{a}=alogx$
+  - *The log rules used in this question are: *$l o g ( a \times b ) = l o g a + l o g b$* and *$logx^{a}=alogx$
 - *The reason log **k** is **c** is because we are told **k **is a constant (so log **k** must also be a constant)*
 
   - *Also, **y** must be the variable on the **y** axis plotted and the same for **x*
@@ -331,7 +331,7 @@ Calculate the mean value:
 
 Calculate its uncertainty:
 
-- `u n c e r t a i n t y space i n space t italic space italic equals italic space plus-or-minus 1 half open parentheses r a n g e close parentheses space equals plus-or-minus 1 half open parentheses 2.10 space minus space 1.86 close parentheses space equals space 0.12 space straight s space`**[1 mark]**
+- $u n c e r t a i n t y i n t = \pm 1 \frac{1}{2} ( r a n g e ) = \pm 1 \frac{1}{2} ( 2.10 - 1.86 ) = 0.12 \mathrm{s}$**[1 mark]**
 
 ** **
 
@@ -371,7 +371,7 @@ List the known quantities:
 Calculate *g*:
 
 - $t^{2}=\frac{4s^{2}}{g\Deltah}\Rightarrowg=\frac{4s^{2}}{\Deltaht^{2}}$
-- `g space equals space fraction numerator 4 space cross times space open parentheses 80 space cross times space 10 squared close parentheses squared space over denominator open parentheses 43 space cross times space 10 to the power of negative 3 end exponent close parentheses space cross times space open parentheses 2.44 close parentheses squared end fraction` **[1 mark]**
+- $g = \frac{4 \times ( 80 \times 10^{2} )^{2} }{( 43 \times 10^{- 3} ) \times ( 2.44 )^{2}}$ **[1 mark]**
 - $g=9.9998=10.0ms^{-2}$ **[1 mark]**
 
 ii) Determine the percentage uncertainty in the value of *g*
@@ -384,15 +384,15 @@ List the known quantities:
 
 Calculate percentage uncertainty in *g*:
 
-- `percent sign increment g space equals space 2 percent sign increment s space plus space space percent sign increment open parentheses increment h close parentheses space plus space 2 percent sign increment t space`
-- `percent sign increment g space equals open parentheses space 2 open parentheses fraction numerator 0.1 over denominator 80.0 end fraction close parentheses space plus space open parentheses 1 over 43 close parentheses space plus space 2 open parentheses fraction numerator 0.04 over denominator 2.44 end fraction close parentheses space close parentheses space cross times space 100 space percent sign` **[1 mark]**
-- `percent sign increment g space equals space 5.854 space equals space 5.9 space percent sign` **[1 mark]**
+- $\% \Delta g = 2 \% \Delta s + \% \Delta ( \Delta h ) + 2 \% \Delta t$
+- $\% \Delta g = ( 2 ( \frac{0.1}{80.0} ) + ( \frac{1}{43} ) + 2 ( \frac{0.04}{2.44} ) ) \times 100 \%$ **[1 mark]**
+- $\% \Delta g = 5.854 = 5.9 \%$ **[1 mark]**
 
 iii) Deduce whether the value of *g* is accurate
 
 Calculate the lower limit of *g*:
 
-- `l o w e r space l i m i t space equals space open parentheses 10.0 close parentheses space cross times space open parentheses 1 space minus space 0.059 close parentheses space equals space 9.41 space straight m space straight s to the power of negative 2 end exponent` **[1 mark]**
+- $l o w e r l i m i t = ( 10.0 ) \times ( 1 - 0.059 ) = 9.41 \mathrm{m} \mathrm{s}^{- 2}$ **[1 mark]**
 
 Write a conclusion:
 
@@ -406,7 +406,7 @@ Write a conclusion:
 - *You must be confident in calculating uncertainties*
 
   - *When values are **multiplied** or **divided** you must **add** their **percentage **uncertainties (%Δ)*
-  - `percent sign space u n c e r t a i n t y space space equals space fraction numerator u n c e r t a i n t y space over denominator m e a s u r e d space v a l u e end fraction space cross times space 100 space percent sign`
+  - $\% u n c e r t a i n t y = \frac{u n c e r t a i n t y }{m e a s u r e d v a l u e} \times 100 \%$
 - *However, when you want to find the upper and lower limits, you must change these back into decimals*
 
   - *5.9 % = 0.059*
@@ -438,7 +438,7 @@ List the known quantities:
 Calculate the time for one complete rotation of the wheel:
 
 - $T=\frac{2π}{ω}$and $v=ωr$
-- Therefore, `T equals fraction numerator 2 pi over denominator v over r end fraction equals fraction numerator 2 pi r over denominator v end fraction equals fraction numerator 2 pi cross times open parentheses fraction numerator 25.4 over denominator 2 end fraction close parentheses over denominator 22.2 end fraction`**[1 mark]**
+- Therefore, $T = \frac{2 pi}{\frac{v}{r}} = \frac{2 pi r}{v} = \frac{2 pi \times ( \frac{25.4}{2} ) }{22.2}$**[1 mark]**
 - *T* = 35.9 ms **[1 mark]**
 
 Comment on the link between number of divisions on the screen and the time period:
@@ -496,20 +496,20 @@ ii) Discuss the validity of the prediction:
 
 Take logs of both sides of the equation $T=2π\sqrt{\frac{M}{k}}$
 
-- `log space open parentheses T close parentheses equals log space open parentheses fraction numerator 2 pi over denominator square root of k end fraction close parentheses plus 1 half log space open parentheses M close parentheses` **[1 mark]**
+- $\log ( T ) = \log ( \frac{2 \pi }{ \sqrt{k} } ) + 1 \frac{1}{2} \log ( M )$ **[1 mark]**
 - This is in the form $y=mx+c$ with a gradient of 0.5 **[1 mark]**
 
-  - `y equals log space open parentheses T close parentheses`
+  - $y = \log ( T )$
   - $m=0.5$
-  - `x equals log space open parentheses M close parentheses`
-  - $c=$`log space open parentheses fraction numerator 2 pi over denominator square root of k end fraction close parentheses`
+  - $x = \log ( M )$
+  - $c=$$\log ( \frac{2 \pi }{ \sqrt{k} } )$
 
 Calculate the gradient from the graph:
 
 ![graph-2-q3b-](assets/010-graph-2-q3b.png)
 
 - Large triangle used; **[1 mark]**
-- `g r a d i e n t equals fraction numerator open parentheses 0.195 minus negative 0.10 close parentheses over denominator open parentheses 0.5 minus negative 0.08 close parentheses end fraction equals 0.51` (range 0.47 to 0.54) **[1 mark]**
+- $g r a d i e n t = \frac{( 0.195 - - 0.10 )}{( 0.5 - - 0.08 )} = 0.51$ (range 0.47 to 0.54) **[1 mark]**
 
 Comment on this value:
 
@@ -525,7 +525,7 @@ Calculate k:
 
 - $\mathrm{log}\frac{2π}{\sqrt{k}}=-0.06$
 - $\frac{2π}{\sqrt{k}}=10^{-0.06}=0.87$ **[1 mark]**
-- `k equals open parentheses fraction numerator 2 pi over denominator 0.087 end fraction close parentheses squared`
+- $k = ( \frac{2 \pi }{0.087} )^{2}$
 - k = 52 kg s<sup>−1</sup> **[1 mark]**
 
 **[Total: 14 marks]**
@@ -548,7 +548,7 @@ Calculate k:
 
 - *Relating equations to the form **y** = **mx** + **c** is a **very** common practical skill and you must be confident working with logs to achieve this*
 
-  - *The log rules used in this question are: *`l o g space open parentheses a space cross times space b close parentheses space equals space l o g a space plus thin space l o g b`* and *$logx^{a}=alogx$
+  - *The log rules used in this question are: *$l o g ( a \times b ) = l o g a + l o g b$* and *$logx^{a}=alogx$
 
 ![logs-calc](assets/011-logs-calc.png)
 
@@ -579,7 +579,7 @@ Calculate the mean:
 
 Determine the uncertainty:
 
-- `U n c e r t a i n t y space i n space x equals plus-or-minus 1 half open parentheses r a n g e close parentheses equals plus-or-minus fraction numerator 2.14 minus 2.10 over denominator 2 end fraction equals plus-or-minus 0.02 space mm space` **[1 mark]**
+- $U n c e r t a i n t y i n x = \pm 1 \frac{1}{2} ( r a n g e ) = \pm \frac{2.14 - 2.10}{2} = \pm 0.02 \text{mm}$ **[1 mark]**
 
 **[Total: 2 marks]**
 
@@ -597,36 +597,36 @@ List the known quantities:
 
 Substitute in known values and calculate *n*:
 
-- `n equals 1 plus fraction numerator d squared plus open parentheses t minus x close parentheses squared over denominator 8 f open parentheses t minus x close parentheses end fraction equals 1 plus fraction numerator 5.10 squared plus open parentheses 0.830 minus 0.212 close parentheses squared over denominator 8 cross times 9.8 cross times open parentheses 0.830 minus 0.212 close parentheses end fraction` **[1 mark]**
+- $n = 1 + \frac{d^{2} + ( t - x )^{2}}{8 f ( t - x )} = 1 + \frac{5.10^{2} + ( 0.830 - 0.212 )^{2}}{8 \times 9.8 \times ( 0.830 - 0.212 )}$ **[1 mark]**
 - n = 1.54 **[1 mark]**
 
 ii) Show that the percentage uncertainty in is approximately 0.5 %:
 
 - $U_{Tot}=U_{T}+U_{x}=0.01+0.02=0.03$ **[1 mark]**
-- `percent sign U subscript T o t end subscript equals fraction numerator 0.03 over denominator 8.30 minus 2.12 end fraction cross times 100 space percent sign equals 0.49 space percent sign` **[1 mark]**
+- $\% U_{T o t} = \frac{0.03}{8.30 - 2.12} \times 100 \% = 0.49 \%$ **[1 mark]**
 
-iii) Show that the uncertainty in `d squared plus open parentheses t minus x close parentheses squared` is approximately 0.11 cm:
+iii) Show that the uncertainty in $d^{2} + ( t - x )^{2}$ is approximately 0.11 cm:
 
 Calculate the uncertainty in $d^{2}$:
 
-- `percent sign U subscript d squared end subscript equals 2 cross times open parentheses fraction numerator 0.01 over denominator 5.1 end fraction cross times 100 space percent sign close parentheses equals 0.392 space percent sign`
+- $\% U_{d^{2}} = 2 \times ( \frac{0.01}{5.1} \times 100 \% ) = 0.392 \%$
 - $U_{d^{2}}=5.1^{2}\times\frac{0.392}{100}=0.102$ **[1 mark]**
 
-Calculate the uncertainty in `open parentheses t minus x close parentheses squared`:
+Calculate the uncertainty in $( t - x )^{2}$:
 
-- `percent sign U subscript open parentheses t minus x close parentheses squared end subscript equals 2 cross times 0.49 equals 0.98 space percent sign`
-- `U subscript open parentheses t minus x close parentheses squared end subscript equals 0.618 squared cross times fraction numerator 0.98 over denominator 100 end fraction equals 0.04` **[1 mark]**
+- $\% U_{( t - x )^{2}} = 2 \times 0.49 = 0.98 \%$
+- $U_{( t - x )^{2}} = 0.618^{2} \times \frac{0.98}{100} = 0.04$ **[1 mark]**
 
-Calculate uncertainty in `d squared plus open parentheses t minus x close parentheses squared`:
+Calculate uncertainty in $d^{2} + ( t - x )^{2}$:
 
-- `U subscript d squared plus open parentheses t minus x close parentheses squared end subscript equals 0.102 plus 0.04` **[1 mark]**
-- `U subscript d squared plus open parentheses t minus x close parentheses squared end subscript equals 0.106` **[1 mark]**
+- $U_{d^{2} + ( t - x )^{2}} = 0.102 + 0.04$ **[1 mark]**
+- $U_{d^{2} + ( t - x )^{2}} = 0.106$ **[1 mark]**
 
 iv) Deduce whether this lens could be made from one of these materials:
 
 Calculate percentage uncertainty in $n$:
 
-- `percent sign U subscript n equals left parenthesis fraction numerator 0.106 over denominator 26.4 end fraction cross times 100 right parenthesis plus 0.485 plus left parenthesis fraction numerator 0.3 space over denominator 9.8 end fraction cross times 100 right parenthesis equals 0.402 plus 0.485 plus 3.06 equals 3.95 percent sign` **[1 mark]**
+- $\% U_{n} = ( \frac{0.106}{26.4} \times 100 ) + 0.485 + ( \frac{0.3 }{9.8} \times 100 ) = 0.402 + 0.485 + 3.06 = 3.95 \%$ **[1 mark]**
 
 Calculate the upper and lower limits of $n$:
 
@@ -688,7 +688,7 @@ To plot a graph of $\mathrm{log}T$ against $\mathrm{log}L$:
 
 - Record values of $\mathrm{log}L$ and $\mathrm{log}T$ in the table:
 
-| $L$ / $\text{cm}$ | $T$ / $\text{s}$ | `log space open parentheses L   text / cm end text close parentheses` | `log space open parentheses T   text / s end text close parentheses` |
+| $L$ / $\text{cm}$ | $T$ / $\text{s}$ | $\log ( L   \text{/ cm} )$ | $\log ( T   \text{/ s} )$ |
 |---|---|---|---|
 | 85.0 | 1.789 | **1.929** | **0.253** |
 | 75.0 | 1.473 | **1.875** | **0.168** |
@@ -712,8 +712,8 @@ To plot a graph of $\mathrm{log}T$ against $\mathrm{log}L$:
 > 
 > 1 mark for axes labelled with quantities and units
 > 
-> - Accept `log space open parentheses T text /s end text close parentheses` and `log space open parentheses L text /cm end text close parentheses` or `log space open parentheses L text /m end text close parentheses`
-> - Accept `ln space open parentheses T text /s end text close parentheses` and `ln space open parentheses L text /cm end text close parentheses` or `ln space open parentheses L text /m end text close parentheses`
+> - Accept $\log ( T \text{/s} )$ and $\log ( L \text{/cm} )$ or $\log ( L \text{/m} )$
+> - Accept $\ln ( T \text{/s} )$ and $\ln ( L \text{/cm} )$ or $\ln ( L \text{/m} )$
 > 
 > 1 mark for using appropriate scales
 > 
@@ -734,7 +734,7 @@ To plot a graph of $\mathrm{log}T$ against $\mathrm{log}L$:
 > **Graph axes labelled with quantities and units**
 > 
 > - This means they will check the labels you put on each axis and the units that you include
-> - In this case, they will be looking to see if you have `log space open parentheses T text /s end text close parentheses` on the y-axis and `log space open parentheses L text /cm end text close parentheses` on the x-axis (or equivalent)
+> - In this case, they will be looking to see if you have $\log ( T \text{/s} )$ on the y-axis and $\log ( L \text{/cm} )$ on the x-axis (or equivalent)
 > - They will ignore any labels you put in the table
 > 
 > **Appropriate scales used**
@@ -766,7 +766,7 @@ To determine values for $k$ and $n$:
 
 gradient$=n$
 
-`n space equals space fraction numerator increment log space T over denominator increment log space L end fraction space equals space fraction numerator 0.29 minus open parentheses negative 0.26 close parentheses over denominator 1.95 minus 1.61 end fraction`
+$n = \frac{\Delta \log T}{\Delta \log L} = \frac{0.29 - ( - 0.26 )}{1.95 - 1.61}$
 
 $n=1.618=$ $1.62$ **[1 mark]**
 
@@ -778,7 +778,7 @@ $\mathrm{log}T=\mathrm{log}k+n\mathrm{log}L$
 
 when $\mathrm{log}T=0$, $\mathrm{log}L=1.770$
 
-`0 space equals space log   k space plus space open parentheses 1.618   cross times 1.770 close parentheses`
+$0 = \log   k + ( 1.618   \times 1.770 )$
 
 $\mathrm{log}k=-2.86$
 
@@ -827,7 +827,7 @@ $L=25.06\text{mm}=0.02506\text{m}$ **[1 mark]**
 
 - Calculate the volume of the cube:
 
-`V equals L cubed equals open parentheses 0.02506 close parentheses cubed`
+$V = L^{3} = ( 0.02506 )^{3}$
 
 $V=$ $1.57\times10^{-5}\text{m}^{3}$ **[1 mark]**
 
@@ -835,13 +835,13 @@ $V=$ $1.57\times10^{-5}\text{m}^{3}$ **[1 mark]**
 
 Half range $=\frac{25.1-25.04}{2}=0.03\text{mm}$ **[1 mark]**
 
-% uncertainty in `L equals fraction numerator 0.03 over denominator 25.06 end fraction cross times 100 equals 0.12 percent sign`
+% uncertainty in $L = \frac{0.03}{25.06} \times 100 = 0.12 \%$
 
 - Determine the percentage uncertainty in $V$:
 
-% uncertainty in `V space equals space 3 cross times 0.12 percent sign`
+% uncertainty in $V = 3 \times 0.12 \%$
 
-% uncertainty in $V=$ `0.36 percent sign` **[1 mark]**
+% uncertainty in $V=$ $0.36 \%$ **[1 mark]**
 
 > **[mark-scheme]**
 > 1 mark for calculating the mean value of $L$
@@ -850,7 +850,7 @@ Half range $=\frac{25.1-25.04}{2}=0.03\text{mm}$ **[1 mark]**
 > 
 > 1 mark for use of half range to calculate % uncertainty in $L$
 > 
-> 1 mark for % uncertainty in $V=3\times$% uncertainty in $L$ (`0.36 percent sign`)
+> 1 mark for % uncertainty in $V=3\times$% uncertainty in $L$ ($0.36 \%$)
 
 > **[exam-tip]**
 > Raising a quantity to a power multiplies its percentage uncertainty by that power, so for $V = L^{3}$ the side's percentage uncertainty triples. Forgetting the factor of 3 is the most common slip on cube-density questions.
@@ -862,7 +862,7 @@ To determine whether the data is consistent with the standard value for the dens
 
   - Mass of the cube, $m=43.7\text{g}=43.7\times10^{-3}\text{kg}$
   - Volume of cube, $V=1.57\times10^{-5}\text{m}^{3}$ (from part b)
-  - % uncertainty in `V equals 0.36 percent sign` (from part b)
+  - % uncertainty in $V = 0.36 \%$ (from part b)
   - Standard value for density of aluminium $=2700\text{kg m}^{-3}$
 - Calculate the density of the aluminium cube:
 
@@ -874,11 +874,11 @@ $ρ=\frac{43.7\times10^{-3}}{1.57\times10^{-5}}=2780\text{kg m}^{-3}$ **[1 mark]
 
 Half resolution $=\frac{0.1}{2}=0.05\text{g}$
 
-% uncertainty in `m equals fraction numerator 0.05 over denominator 43.7 end fraction cross times 100 equals 0.11 percent sign`
+% uncertainty in $m = \frac{0.05}{43.7} \times 100 = 0.11 \%$
 
 - Determine the absolute uncertainty in $ρ$:
 
-% uncertainty in `rho space equals space 0.36 percent sign plus 0.11 percent sign space equals space 0.47 percent sign`
+% uncertainty in $\\rho = 0.36 \% + 0.11 \% = 0.47 \%$
 
 uncertainty in $ρ=2780\times\frac{0.47}{100}$
 
@@ -886,7 +886,7 @@ uncertainty in $ρ=\pm10\text{kg m}^{-3}$ **[1 mark]**
 
 - Write a concluding statement:
 
-**The measured density is **`open parentheses 2780 plus-or-minus 10 close parentheses text  kg m end text to the power of negative 3 end exponent`**, so the minimum value is **$2770\text{kg m}^{-3}$**, which is higher than the standard value (**$2700 \text{kg m}^{-3}$**)** **[1 mark]**
+**The measured density is **$( 2780 \pm 10 ) \text{ \text{kg} m}^{- 3}$**, so the minimum value is **$2770\text{kg m}^{-3}$**, which is higher than the standard value (**$2700 \text{kg m}^{-3}$**)** **[1 mark]**
 
 > **[mark-scheme]**
 > 1 mark for use of $ρ=m/V$ to calculate density ($2780\text{kg m}^{-3}$)

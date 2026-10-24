@@ -27,7 +27,7 @@ You now know how to do lots of operations with complex numbers: add, subtract, m
   - $e^{iθ}$ is the **complex number** with **modulus 1** and **argument θ**
 - This works with our current rules of exponents
 
-  - `straight e to the power of 0 equals straight e to the power of 0 straight i end exponent equals cos invisible function application 0 plus isin invisible function application 0 equals 1`
+  - $\mathrm{e}^{0 = \mathrm{e}^{0} \mathrm{i} } = \cos 0 + \text{isin} 0 = 1$
   
     - This shows e to the power 0 would still give the answer of 1
   - $e^{iθ_{1}}\timese^{iθ_{2}}=e^{i(θ_{1}+θ_{2})}$
@@ -41,7 +41,7 @@ You now know how to do lots of operations with complex numbers: add, subtract, m
 
 ### What is the exponential form of a complex number?
 
-- Any complex number $z=a+bi$ can be written in **polar form **`z equals r open parentheses cos invisible function application theta plus isin invisible function application theta close parentheses`
+- Any complex number $z=a+bi$ can be written in **polar form **$z = r ( \cos \\theta + \text{isin} \\theta )$
 
   - *r *is the modulus
   - θ* *is the argument
@@ -56,10 +56,10 @@ You now know how to do lots of operations with complex numbers: add, subtract, m
 - It makes it easier to remember what happens with the moduli and arguments when multiplying and dividing
 - If $z_{1}=r_{1}e^{iθ_{1}}$ and $z_{2}=r_{2}e^{iθ_{2}}$ then
 
-  - `z subscript 1 cross times z subscript 2 equals r subscript 1 r subscript 2 straight e to the power of straight i open parentheses theta subscript 1 plus theta subscript 2 close parentheses end exponent`
+  - $z_{1} \times z_{2} = r_{1} r_{2} \mathrm{e}^{ \mathrm{i} ( \theta_{1} + \theta_{2} )}$
   
     - You can clearly see that the **moduli have been multiplied** and the **arguments have been added**
-  - `z subscript 1 over z subscript 2 equals r subscript 1 over r subscript 2 straight e to the power of straight i open parentheses theta subscript 1 minus theta subscript 2 close parentheses end exponent`
+  - `z _ 1 / z _ 2 = r _ 1 / r _ 2 e ^ i ( theta _ 1 - theta _ 2 )`
   
     - You can clearly see that the **moduli have been divided** and the **arguments have been subtracted**
 
@@ -71,11 +71,11 @@ You now know how to do lots of operations with complex numbers: add, subtract, m
 - Using the same idea you can write:
 
   - $1=e^{0}=e^{2πi}=e^{4πi}=e^{6πi}=e^{2kπi}$ where *k *is any integer
-- As `cos invisible function application open parentheses pi close parentheses equals negative 1` and `sin invisible function application left parenthesis pi right parenthesis equals 0` you can write:
+- As $\cos ( \pi ) = - 1$ and $\sin ( \pi ) = 0$ you can write:
 
   - $e^{πi}=-1$
   - Or more commonly written as $e^{\mathrm{iπ}}+1=0$
-- As `cos invisible function application open parentheses pi over 2 close parentheses equals 0` and `sin invisible function application open parentheses pi over 2 close parentheses equals 1` you can write:
+- As $\cos ( \frac{\pi }{2} ) = 0$ and $\sin ( \frac{\pi }{2} ) = 1$ you can write:
 
   - $i=e^{\frac{π}{2}i}$
 

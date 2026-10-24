@@ -24,7 +24,7 @@ The diagram shows part of the curve with equation $y=f(x)$. The coordinates of t
 
 Write down the coordinates of the maximum point of the curve with equation
 
-(i) `y space equals space straight f open parentheses x plus 3 close parentheses`
+(i) $y = \mathrm{f} ( x + 3 )$
 
 [1]
 
@@ -57,12 +57,12 @@ The graph of $y=f(x)$ is shown on both grids below
 
 ![q2a-hard-2-23-transformation-of-graphs-edexcel-gcse-maths](assets/003-q2a-hard-2-23-transformation-of-graphs-edexcel-g.png)
 
-On the grid above, sketch the graph of `y space equals space straight f open parentheses negative x close parentheses`
+On the grid above, sketch the graph of $y = \mathrm{f} ( - x )$
 
 ### 19((b)) — 1 mark — command: sketch — structured — from paper 2015	Sample · 1MA1/2H
 ![q2b-hard-2-23-transformation-of-graphs-edexcel-gcse-maths](assets/005-q2b-hard-2-23-transformation-of-graphs-edexcel-g.png)
 
-On this grid, sketch the graph of `y space equals negative straight f open parentheses x close parentheses plus 3`
+On this grid, sketch the graph of $y = - \mathrm{f} ( x ) + 3$
 
 ## Q5 — medium — 2 marks · exam-questions
 
@@ -102,19 +102,19 @@ The only minimum point of the curve is at $P(3,---4)$.
 
 ![q3a-hard-2-23-transformation-of-graphs-edexcel-gcse-maths](assets/023-q3a-hard-2-23-transformation-of-graphs-edexcel-g.png)
 
-Write down the coordinates of the minimum point of the curve with the equation `y space equals space straight f open parentheses x minus 2 close parentheses`
+Write down the coordinates of the minimum point of the curve with the equation $y = \mathrm{f} ( x - 2 )$
 
 ### 24((b)) — 2 marks — command: write — structured — from paper 2009	November · 1380/3H
-Write down the coordinates of the minimum point of the curve with the equation  `y space equals space straight f open parentheses x plus 5 close parentheses plus 6`
+Write down the coordinates of the minimum point of the curve with the equation  $y = \mathrm{f} ( x + 5 ) + 6$
 
 ## Q8 — medium — 2 marks · exam-questions
 
 ### 18() — 2 marks — command: sketch — structured — from paper 2018	June · 1MA1/1H
-Here is the graph of $y=\mathrm{sin}x^{\circ}$ for  `negative 180 space less-than or slanted equal to x less-than or slanted equal to 180`
+Here is the graph of $y=\mathrm{sin}x^{\circ}$ for  $- 180 \text{less} - \text{than} or \text{slanted} \text{equal} to x \text{less} - \text{than} or \text{slanted} \text{equal} to 180$
 
 ![q3-medium-2-23-transformation-of-graphs-edexcel-gcse-maths](assets/043-q3-medium-2-23-transformation-of-graphs-edexcel-.png)
 
-On the grid, sketch the graph of $y=\mathrm{sin}x^{\circ}-2$ for `long dash 180 space less-than or slanted equal to space x space less-than or slanted equal to space 180`
+On the grid, sketch the graph of $y=\mathrm{sin}x^{\circ}-2$ for $\text{long} \text{dash} 180 \text{less} - \text{than} or \text{slanted} \text{equal} to x \text{less} - \text{than} or \text{slanted} \text{equal} to 180$
 
 ## Q9 — easy — 3 marks · exam-questions
 
@@ -126,15 +126,15 @@ The coordinates of the minimum point of this curve are $(3,-4)$
 
 Write down the coordinates of the minimum point of the curve with equation
 
-(i) `y equals straight f open parentheses x close parentheses plus 3`
+(i) $y = \mathrm{f} ( x ) + 3$
 
 [1]
 
-(ii) `y equals straight f open parentheses x plus 2 close parentheses`
+(ii) $y = \mathrm{f} ( x + 2 )$
 
 [1]
 
-(iii) `y equals straight f open parentheses negative x close parentheses`
+(iii) $y = \mathrm{f} ( - x )$
 
 [1]
 
@@ -152,18 +152,18 @@ Find the coordinates of point $P$.
 ## Q11 — medium — 4 marks · exam-questions
 
 ### 23((a)) — 2 marks — command: sketch — structured — from paper 2015	November · 1MA0/2H
-Here is the graph of $y=\mathrm{sin}x^{\circ}$ for  `negative 180 space less-than or slanted equal to x less-than or slanted equal to 180`
+Here is the graph of $y=\mathrm{sin}x^{\circ}$ for  $- 180 \text{less} - \text{than} or \text{slanted} \text{equal} to x \text{less} - \text{than} or \text{slanted} \text{equal} to 180$
 
 ![q4-medium-2-23-transformation-of-graphs-edexcel-gcse-maths](assets/064-q4-medium-2-23-transformation-of-graphs-edexcel-.png)
 
-On the grid above, sketch the graph of $y=\mathrm{sin}x^{\circ}+2$ for `long dash 180 space less-than or slanted equal to space x space less-than or slanted equal to space 180`
+On the grid above, sketch the graph of $y=\mathrm{sin}x^{\circ}+2$ for $\text{long} \text{dash} 180 \text{less} - \text{than} or \text{slanted} \text{equal} to x \text{less} - \text{than} or \text{slanted} \text{equal} to 180$
 
 ### 23((b)) — 2 marks — command: sketch — structured — from paper 2015	November · 1MA0/2H
-Here is the graph of $y=\mathrm{cos}x^{\circ}$ for  `negative 180 space less-than or slanted equal to x less-than or slanted equal to 180`
+Here is the graph of $y=\mathrm{cos}x^{\circ}$ for  $- 180 \text{less} - \text{than} or \text{slanted} \text{equal} to x \text{less} - \text{than} or \text{slanted} \text{equal} to 180$
 
 ![q4b-medium-2-23-transformation-of-graphs-edexcel-gcse-maths](assets/066-q4b-medium-2-23-transformation-of-graphs-edexcel.png)
 
-On the grid above, sketch the graph of $y=-\mathrm{cos}x^{\circ}$ for `long dash 180 space less-than or slanted equal to space x space less-than or slanted equal to space 180`
+On the grid above, sketch the graph of $y=-\mathrm{cos}x^{\circ}$ for $\text{long} \text{dash} 180 \text{less} - \text{than} or \text{slanted} \text{equal} to x \text{less} - \text{than} or \text{slanted} \text{equal} to 180$
 
 ## Q12 — easy — 3 marks · exam-questions
 
@@ -195,7 +195,7 @@ Find the coordinates of $Q$.
 ### 27((a)) — 2 marks — command: sketch — structured — from paper 2010	November · 1380/4H
 The graph of $y=f(x)$ is shown on the grids.
 
-On this grid, sketch the graph of `y space equals space straight f open parentheses x minus 3 close parentheses`
+On this grid, sketch the graph of $y = \mathrm{f} ( x - 3 )$
 
 ![q6a-medium-2-23-transformation-of-graphs-edexcel-gcse-maths](assets/047-q6a-medium-2-23-transformation-of-graphs-edexcel.png)
 
@@ -281,7 +281,7 @@ The point $A$ is the maximum point on $C$.
 Write down the coordinates of $A$.
 
 ### 21((b)) — 1 mark — command: find — structured — from paper Nov 2021 · 4MA1/2H
-The curve $C$ is transformed to the curve $S$ by a translation of `open parentheses table row 4 row 0 end table close parentheses` Find an equation for the curve $S$.
+The curve $C$ is transformed to the curve $S$ by a translation of $( \begin{gathered} 4 \\ 0 \end{gathered} )$ Find an equation for the curve $S$.
 
 ### 21((c)) — 1 mark — command: describe — structured — from paper Nov 2021 · 4MA1/2H
 The curve $C$ is transformed to the curve $T$. 
@@ -292,7 +292,7 @@ Describe fully the transformation that maps curve $C$ onto curve $T$.
 ## Q20 — medium — 2 marks · exam-questions
 
 ### 21((b)) — 2 marks — command: find — structured — from paper Jan 2021 · 4MA1/1H
-The graph of  $y=a\mathrm{cos}(x+b)^{\circ}$  for `0 space less-than or slanted equal to space x space less-than or slanted equal to space 360` is drawn on the grid below.
+The graph of  $y=a\mathrm{cos}(x+b)^{\circ}$  for $0 \text{less} - \text{than} or \text{slanted} \text{equal} to x \text{less} - \text{than} or \text{slanted} \text{equal} to 360$ is drawn on the grid below.
 
 ![q21-4ma1-1h-qp-jan21-paper1-igcse-maths](assets/045-q21-4ma1-1h-qp-jan21-paper1-igcse-maths.png)
 
@@ -300,7 +300,7 @@ Given that $a>0$ and that $0<b<360$
 
 find the value of a and the value of $b$.
 
-`table row cell a space end cell equals cell space................................... space end cell row cell b space end cell equals cell space................................... end cell end table`
+$\begin{gathered} a & = ................................... \\ b & = ................................... \end{gathered}$
 
 ## Q21 — easy — 2 marks · exam-questions
 
@@ -336,7 +336,7 @@ The graph of $y=g(x)$ is shown on the grid below.
 
 ![q20a-4ma1-1hr-qp-jan22-paper1-igcse-maths](assets/031-q20a-4ma1-1hr-qp-jan22-paper1-igcse-maths.png)
 
-On the grid, sketch the graph of $y=2g(x)$ for `– 1 space less-than or slanted equal to space x space less-than or slanted equal to space 7`
+On the grid, sketch the graph of $y=2g(x)$ for $- 1 \text{less} - \text{than} or \text{slanted} \text{equal} to x \text{less} - \text{than} or \text{slanted} \text{equal} to 7$
 
 ## Q24 — easy — 2 marks · exam-questions
 
@@ -361,7 +361,7 @@ Write down the coordinates of the maximum point on the curve with equation
 ## Q25 — hard — 3 marks · exam-questions
 
 ### 21((d)) — 3 marks — command: find — structured — from paper Nov 2021 · 4MA1/2H
-The graph of$y=a\mathrm{cos}(x--b)^{\circ}+c$ for `space minus 180 space less-than or slanted equal to space x space less-than or slanted equal to space 360 space`is drawn on the grid below.
+The graph of$y=a\mathrm{cos}(x--b)^{\circ}+c$ for $- 180 \text{less} - \text{than} or \text{slanted} \text{equal} to x \text{less} - \text{than} or \text{slanted} \text{equal} to 360$is drawn on the grid below.
 
 ![q21c-4ma1-2h-qp-nov21-paper2-igcse-maths](assets/009-q21c-4ma1-2h-qp-nov21-paper2-igcse-maths.png)
 
@@ -378,7 +378,7 @@ The graph of $y=f(x)$ is shown on the grid.
 
 ![q18-paper1h-jan2019-edexcel-igcse-maths](assets/033-q18-paper1h-jan2019-edexcel-igcse-maths.png)
 
-On the grid above, sketch the graph of `y space equals space straight f open parentheses 1 half x close parentheses`
+On the grid above, sketch the graph of $y = \mathrm{f} ( 1 \frac{1}{2} x )$
 
 ### 22((b)) — 1 mark — command: write — structured — from paper Jan 2019 · 4MA1/1H
 The graph of $y=f(x+k)$ is shown on the grid below.
@@ -407,7 +407,7 @@ Write down the coordinates of the minimum point of the curve with equation
 ## Q28 — hard — 2 marks · exam-questions
 
 ### 21((b)) — 2 marks — command: find — structured — from paper Jan 2020 · 4MA1/2H
-The equation of a curve $C$is $y=x^{2}+3x+4$ The curve $C$is transformed to curve $S$under the translation `open parentheses table row 4 row 6 end table close parentheses`
+The equation of a curve $C$is $y=x^{2}+3x+4$ The curve $C$is transformed to curve $S$under the translation $( \begin{gathered} 4 \\ 6 \end{gathered} )$
 
 Find an equation of curve $S$.
 
@@ -432,7 +432,7 @@ Write down the coordinates of the minimum point on the curve with equation
 
 [1]
 
-(iii) `y space equals space straight f open parentheses 1 half x close parentheses`
+(iii) $y = \mathrm{f} ( 1 \frac{1}{2} x )$
 
 [1]
 
@@ -459,51 +459,51 @@ Describe fully the transformation $T.$
 ### 1() — 3 marks — command: find — structured
 The function f($x$) is defined as ƒ ($x$) = 3 − 8$x$ − 2$x^{2}$
 
-Find the coordinates of the turning point on the graph of $y$ = `f open parentheses x close parentheses`
+Find the coordinates of the turning point on the graph of $y$ = $f ( x )$
 
 ### 2() — 6 marks — command: write — structured
 Using your result from part (a) write down the coordinates of the turning point on the following graphs:
 
-(i) $y$ = `f open parentheses x close parentheses` +2
+(i) $y$ = $f ( x )$ +2
 
 [1]
 
-(ii) `y equals f open parentheses x minus 3 close parentheses`
+(ii) $y = f ( x - 3 )$
 
 [1]
 
-(iii) `y equals f open parentheses 4 x close parentheses`
+(iii) $y = f ( 4 x )$
 
 [1]
 
-(iv) `y equals negative f open parentheses x close parentheses`
+(iv) $y = - f ( x )$
 
 [1]
 
-(v) `y equals 3 f open parentheses x plus 1 close parentheses`
+(v) $y = 3 f ( x + 1 )$
 
 [2]
 
 ## Q32 — medium — 3 marks · exam-questions
 
 ### 28((a)) — 1 mark — command: draw — structured — from paper Nov 2021 · 8300/1H
-Here is the graph of $y=\mathrm{cos}x$for `0 degree space less-than or slanted equal to space x space less-than or slanted equal to space 360 degree`
+Here is the graph of $y=\mathrm{cos}x$for $0 ^{\circ} \text{less} - \text{than} or \text{slanted} \text{equal} to x \text{less} - \text{than} or \text{slanted} \text{equal} to 360 ^{\circ}$
 
 ![q28-paper-1h-nov-2021-aqa-gcse-maths-1](assets/056-q28-paper-1h-nov-2021-aqa-gcse-maths-1.png)
 
 In parts (a) and (b) the graph of $y=\mathrm{cos}x$ is shown as a dashed line.
 
-On the grid below, draw the graph of $y=\mathrm{cos}(x--90^{\circ})$ for `0 degree space less-than or slanted equal to space x space less-than or slanted equal to space 360 degree`
+On the grid below, draw the graph of $y=\mathrm{cos}(x--90^{\circ})$ for $0 ^{\circ} \text{less} - \text{than} or \text{slanted} \text{equal} to x \text{less} - \text{than} or \text{slanted} \text{equal} to 360 ^{\circ}$
 
 ![q28a-paper-1h-nov-2021-aqa-gcse-maths](assets/057-q28a-paper-1h-nov-2021-aqa-gcse-maths.png)
 
 ### 28((b)) — 1 mark — command: draw — structured — from paper Nov 2021 · 8300/1H
-On the grid below, draw the graph of `y equals 1 plus cos space x space space for space space 0 degree space less-than or slanted equal to space x space less-than or slanted equal to space 360 degree`
+On the grid below, draw the graph of $y = 1 + \text{cos} x \text{for} 0 ^{\circ} \text{less} - \text{than} or \text{slanted} \text{equal} to x \text{less} - \text{than} or \text{slanted} \text{equal} to 360 ^{\circ}$
 
 ![q28b-paper-1h-nov-2021-aqa-gcse-maths](assets/060-q28b-paper-1h-nov-2021-aqa-gcse-maths.png)
 
 ### 28((c)) — 1 mark — command: give — structured — from paper Nov 2021 · 8300/1H
-Rita tries to draw the graph of$y=\mathrm{cos}(--x)$ for`space 0 degree space less-than or slanted equal to space x space less-than or slanted equal to space 360 degree` Here is her graph.
+Rita tries to draw the graph of$y=\mathrm{cos}(--x)$ for$0 ^{\circ} \text{less} - \text{than} or \text{slanted} \text{equal} to x \text{less} - \text{than} or \text{slanted} \text{equal} to 360 ^{\circ}$ Here is her graph.
 
 ![q28c-paper-1h-nov-2021-aqa-gcse-maths](assets/063-q28c-paper-1h-nov-2021-aqa-gcse-maths.png)
 
@@ -543,7 +543,7 @@ On the grid, sketch the curve $y=f(x+2)$
 ## Q36 — easy — 1 marks · exam-questions
 
 ### 22() — 1 mark — command: circle — structured — from paper Nov 2020 · 8300/2H
-One of these is the graph of $y=1+\mathrm{sin}x$ for `0 degree space less-than or slanted equal to space x space less-than or slanted equal to space 360 degree`
+One of these is the graph of $y=1+\mathrm{sin}x$ for $0 ^{\circ} \text{less} - \text{than} or \text{slanted} \text{equal} to x \text{less} - \text{than} or \text{slanted} \text{equal} to 360 ^{\circ}$
 
 Circle the letter above the correct graph.
 
@@ -588,14 +588,14 @@ For all values of $x$
 
 $f(x)=\mathrm{sin}x\,g(x)=x+90$
 
-On the grid, draw the graph of the composite function  `y equals fg open parentheses x close parentheses`  for  `0 degree space less-than or slanted equal to space x space less-than or slanted equal to space 360 degree`
+On the grid, draw the graph of the composite function  $y = \text{fg} ( x )$  for  $0 ^{\circ} \text{less} - \text{than} or \text{slanted} \text{equal} to x \text{less} - \text{than} or \text{slanted} \text{equal} to 360 ^{\circ}$
 
 ![q27b-paper2h-june2017-aqa-gcse-maths](assets/013-q27b-paper2h-june2017-aqa-gcse-maths.png)
 
 ## Q41 — medium — 2 marks · exam-questions
 
 ### 13((b)) — 2 marks — command: write — structured — from paper Nov 2020 · J560/05
-The graph of `begin mathsize 16px style y equals cos open parentheses x minus 30 close parentheses end style` for  `0 degree less-than or slanted equal to x less-than or slanted equal to 360 degree` crosses the $x$-axis in two places.
+The graph of $y = \cos ( x - 30 )$ for  `0 degree less-than or slanted equal to x less-than or slanted equal to 360 degree` crosses the $x$-axis in two places.
 
 Write down the values of $x$ where this occurs.
 
@@ -604,7 +604,7 @@ $x=$...........................
 ## Q42 — hard — 4 marks · exam-questions
 
 ### 18((a)) — 3 marks — command: write — structured — from paper Specimen paper · 4MA1/2H
-The diagram shows part of the curve with equation `y equals straight f open parentheses x close parentheses`
+The diagram shows part of the curve with equation $y = \mathrm{f} ( x )$
 
 ![Graph of a parabola with vertex at (3, -4), labelled y=f(x), crossing the y-axis. Note: Diagram not accurately drawn.](assets/001-graph-of-a-parabola-with-vertex-at-3-4-labelled-.png)
 
@@ -616,10 +616,10 @@ Write down the coordinates of the minimum point on the curve with equation
 
 (ii)  $y=3f(x)$
 
-(iii)  `y equals straight f open parentheses 1 half x close parentheses`
+(iii)  $y = \mathrm{f} ( 1 \frac{1}{2} x )$
 
 ### 18((b)) — 1 mark — command: write — structured — from paper Specimen paper · 4MA1/2H
-The curve with equation  `y equals straight f open parentheses x close parentheses` is translated to give curve  $C$.
+The curve with equation  $y = \mathrm{f} ( x )$ is translated to give curve  $C$.
 
 $C$ has a minimum at the point with coordinates (3, 5)
 The equation of   $C$ is $y=f(x)+k$
@@ -636,14 +636,14 @@ Sketch the graph of $y=-\mathrm{sin}x$ for `0 degree less-than or slanted equal 
 ## Q44 — hard — 2 marks · exam-questions
 
 ### 21((a)) — 1 mark — command: write — structured — from paper 2023 June · 4MA1/1H
-A curve has equation `y equals straight f open parentheses x close parentheses`
+A curve has equation $y = \mathrm{f} ( x )$
 
 There is only one turning point on the curve. 
 The coordinates of this turning point are (6, 5)
 
 Write down the coordinates of the turning point on the curve with equation
 
-`y equals straight f open parentheses x minus 4 close parentheses`
+$y = \mathrm{f} ( x - 4 )$
 
 ### 21((b)) — 1 mark — command: write — structured — from paper 2023 June · 4MA1/1H
 $y=f(3x)$
@@ -651,12 +651,12 @@ $y=f(3x)$
 ## Q45 — hard — 4 marks · exam-questions
 
 ### 24((a)) — 2 marks — command: write — structured — from paper 2023 Nov · 4MA1/1H
-The curve with equation `straight f open parentheses x close parentheses equals 5 x squared plus 9 x plus 2` is transformed to the curve with equation `straight g open parentheses x close parentheses equals 5 open parentheses x plus 4 close parentheses squared plus 9 open parentheses x plus 4 close parentheses plus 8` by the translation `open parentheses table row a row b end table close parentheses`
+The curve with equation $\mathrm{f} ( x ) = 5 x^{2} + 9 x + 2$ is transformed to the curve with equation $\mathrm{g} ( x ) = 5 ( x + 4 )^{2} + 9 ( x + 4 ) + 8$ by the translation $( \begin{gathered} a \\ b \end{gathered} )$
 
 Write down the value of $a$ and the value of  $b$
 
 ### 24((b)) — 2 marks — command: find — structured — from paper 2023 Nov · 4MA1/1H
-The graph of  `y equals p cos open parentheses x plus q close parentheses to the power of degree`   for `0 less-than or slanted equal to x less-than or slanted equal to 360` is drawn on the grid below
+The graph of  $y = p \text{cos} ( x + q ) ^{ ^{\circ} }$   for `0 less-than or slanted equal to x less-than or slanted equal to 360` is drawn on the grid below
 
 ![A graph showing a sine wave from 0 to 360 degrees, with peaks at 3 and troughs at -3, crossing the origin, on a grid with labelled axes.](assets/002-a-graph-showing-a-sine-wave-from-0-to-360-degree.png)
 

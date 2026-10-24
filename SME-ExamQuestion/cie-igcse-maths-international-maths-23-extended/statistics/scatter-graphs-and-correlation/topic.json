@@ -300,7 +300,7 @@
       "spcpt_b7NJ2fgyz9vSppx6"
      ],
      "part_tier": "extended_only",
-     "problem_md": "A data point `open parentheses x comma space y close parentheses` is removed from the table.\n\nA student calculates the regression line for the remaining data and claims that it has the equation $y=140+0.27x$.\n\nWithout further calculation, explain why their answer cannot be correct.",
+     "problem_md": "A data point $( x , y )$ is removed from the table.\n\nA student calculates the regression line for the remaining data and claims that it has the equation $y=140+0.27x$.\n\nWithout further calculation, explain why their answer cannot be correct.",
      "solution_md": "> *The data has a clear negative correlation (as distance increases, download speed decreases)*\n\n> *Even if a data point is removed, the correlation is still negative*\n\n> *Yet the student's regression line has a positive gradient *\n\n**Final answer:** **The student's regression line cannot be correct as it has a positive gradient but the data has a negative correlation**\n\n**[B1]**\n\n> **[mark-scheme]**\n> This mark is for an answer that refers either directly or indirectly to the negative correlation of the data.",
      "equations": [
       {
@@ -439,7 +439,7 @@
      ],
      "part_tier": "extended_only",
      "problem_md": "Interpret the meaning of the constant $b$ in the context of the scenario.",
-     "solution_md": "> *In the regression line *$y=a+bx$*, *$y$* is the fuel used in litres and *$x$* is the distance travelled in kilometres*\n\n> $b$* is the gradient of the straight line*\n\n`gradient equals b equals fraction numerator change space in space y space open parentheses litres close parentheses over denominator change space in space x space open parentheses kilometres close parentheses end fraction`\n\n**Final answer:** $b$** is the number of litres of fuel used for each kilometre travelled**\n\n**[B1]**\n\n> **[mark-scheme]**\n> **B1**: Must include reference to the context, i.e. litres of fuel and kilometres travelled. Can be numerical, e.g. \"0.195 litres used per kilometre travelled\".",
+     "solution_md": "> *In the regression line *$y=a+bx$*, *$y$* is the fuel used in litres and *$x$* is the distance travelled in kilometres*\n\n> $b$* is the gradient of the straight line*\n\n$\\text{gradient} = b = \\frac{change \\text{in} y ( \\text{litres} )}{change \\text{in} x ( \\text{kilometres} )}$\n\n**Final answer:** $b$** is the number of litres of fuel used for each kilometre travelled**\n\n**[B1]**\n\n> **[mark-scheme]**\n> **B1**: Must include reference to the context, i.e. litres of fuel and kilometres travelled. Can be numerical, e.g. \"0.195 litres used per kilometre travelled\".",
      "equations": [
       {
        "latex": "b",
@@ -490,7 +490,7 @@
      ],
      "part_tier": "extended_only",
      "problem_md": "The racing car completes a race which is a total distance of 38 km.\n\nUse your regression line to predict the amount of fuel used to complete the the race.",
-     "solution_md": "> *The regression line found in part (a) was *$y=0.28+0.194857142...x$\n\n> *Substitute in *$x=38$* and find *$y$\n\n> *Make sure you use the unrounded version of the line of regression, for maximum accuracy*\n\n`y equals 0.28 plus 0.194857142... open parentheses 38 close parentheses\ny equals 7.68457139...`\n\n> *Round to 3 significant figures*\n\n**Final answer:** **7.68 litres**\n\n**[B1]**\n\n> **[mark-scheme]**\n> **B1**: Answers between 7.68 and 7.69 inclusive receive this mark.",
+     "solution_md": "> *The regression line found in part (a) was *$y=0.28+0.194857142...x$\n\n> *Substitute in *$x=38$* and find *$y$\n\n> *Make sure you use the unrounded version of the line of regression, for maximum accuracy*\n\n$y = 0.28 + 0.194857142... ( 38 )\ny = 7.68457139...$\n\n> *Round to 3 significant figures*\n\n**Final answer:** **7.68 litres**\n\n**[B1]**\n\n> **[mark-scheme]**\n> **B1**: Answers between 7.68 and 7.69 inclusive receive this mark.",
      "equations": [
       {
        "latex": "y=0.28+0.194857142...x",
@@ -607,7 +607,7 @@
      ],
      "part_tier": null,
      "problem_md": "**Extract:**\n\nFind the equation of the regression line for y in terms of x. y equals ...................................\n\nUse your equation to estimate the Spanish mark when\n\n(i)  the French mark is 50\n\n[1]\n\n(ii)  the French mark is 6\n\n[1]",
-     "solution_md": "(i)  *Substitute *$x=50$* into your linear regression line*\n\n`table row y equals cell 0.791 open parentheses 50 close parentheses plus 13.2 end cell row blank equals cell 52.75 end cell end table`\n\n> *Rounding your answer to the nearest integer is best as this matches the data in the table*\n\n$53$ **[1]**\n**Unrounded answers 52.7 to 52.8 accepted**\n\n(ii) *Substitute *$x=6$* into your linear regression line*\n\n`table row y equals cell 0.791 open parentheses 6 close parentheses plus 13.2 end cell row blank equals cell 17.946 end cell end table`\n\n> *Rounding your answer to the nearest integer is best as this matches the data in the table*\n\n$18$ **[1]**\n**Unrounded answers 17.90 to 17.95 accepted**",
+     "solution_md": "(i)  *Substitute *$x=50$* into your linear regression line*\n\n$\\begin{gathered} y = 0.791 ( 50 ) + 13.2 \\\\ = 52.75 \\end{gathered}$\n\n> *Rounding your answer to the nearest integer is best as this matches the data in the table*\n\n$53$ **[1]**\n**Unrounded answers 52.7 to 52.8 accepted**\n\n(ii) *Substitute *$x=6$* into your linear regression line*\n\n$\\begin{gathered} y = 0.791 ( 6 ) + 13.2 \\\\ = 17.946 \\end{gathered}$\n\n> *Rounding your answer to the nearest integer is best as this matches the data in the table*\n\n$18$ **[1]**\n**Unrounded answers 17.90 to 17.95 accepted**",
      "equations": [
       {
        "latex": "x=50",
@@ -863,7 +863,7 @@
      ],
      "part_tier": null,
      "problem_md": "**Extract:**\n\nFind the equation of the line of regression. \n\nGive your answer in the form y = mx + c.\n\nOn Tuesday, each person spends the same time listening to the news as they did on Monday. \nThey each spend 5 minutes longer reading the news than they did on Monday.\n\nWrite down the equation of the line of regression for Tuesday.",
-     "solution_md": "> *Each value in the top row of the table (*$x$* value) for Tuesday will be the same as for Monday*\n*Each value in the bottom row of the table (*$y$* value) will be 5 minutes greater than in the table for Monday*\n\n> *If only the *$y$* values have increased then every value in the scatter graph will have moved vertically upwards by 5*\n\n> *Therefore the linear regression line will also move vertically upwards by 5*\n\n> *The gradient (*$m$*) of the line of regression remains the same, but the *$y$*-intercept (*$c$*) will increase by 5*\n\n`y equals negative 0.323 x plus open parentheses 7.48 plus 5 close parentheses`\n\n$y=-0.323x+12.48$** ****[1]**",
+     "solution_md": "> *Each value in the top row of the table (*$x$* value) for Tuesday will be the same as for Monday*\n*Each value in the bottom row of the table (*$y$* value) will be 5 minutes greater than in the table for Monday*\n\n> *If only the *$y$* values have increased then every value in the scatter graph will have moved vertically upwards by 5*\n\n> *Therefore the linear regression line will also move vertically upwards by 5*\n\n> *The gradient (*$m$*) of the line of regression remains the same, but the *$y$*-intercept (*$c$*) will increase by 5*\n\n$y = - 0.323 x + ( 7.48 + 5 )$\n\n$y=-0.323x+12.48$** ****[1]**",
      "equations": [
       {
        "latex": "x",

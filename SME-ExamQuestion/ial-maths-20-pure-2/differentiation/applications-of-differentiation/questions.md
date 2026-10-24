@@ -125,7 +125,7 @@ Find the coordinates of $P$ and determine its nature.
 ### 1() — 3 marks — structured
 The diagram below shows a part of the curve with equation $y=f(x)$, where
 
-`f open parentheses x close parentheses equals 460 minus x cubed over 300 minus 8100 over x`,   $x>0$
+$f ( x ) = 460 - \frac{x^{3}}{300} - \frac{8100}{x}$,   $x>0$
 
 Point $A$ is the maximum point of the curve.
 
@@ -173,7 +173,7 @@ Find the values of $x$ for which $f(x)=4x+\frac{3}{x}$ is a decreasing function,
 ## Q20 — very_hard — 4 marks · exam-questions
 
 ### 1() — 4 marks — structured
-Show that the function `straight f open parentheses x close parentheses equals square root of x minus fraction numerator 7 over denominator square root of x end fraction` , $x>0$,  is increasing for all $x$ in its domain.
+Show that the function $\mathrm{f} ( x ) = \sqrt{x} - \frac{7}{ \sqrt{x} }$ , $x>0$,  is increasing for all $x$ in its domain.
 
 ## Q21 — very_hard — 7 marks · exam-questions
 

@@ -51,13 +51,13 @@ guided_study: true
     - This is equivalent to multiplying by 1, so does not change the value of the fraction
   - Multiply the fractions as you would usually (use brackets to help)
   
-    - `fraction numerator 2 over denominator 3 plus square root of 5 end fraction equals fraction numerator 2 open parentheses 3 minus square root of 5 close parentheses over denominator open parentheses 3 plus square root of 5 close parentheses open parentheses 3 minus square root of 5 close parentheses end fraction`
+    - $\frac{2}{3 + \sqrt{5} } = \frac{2 ( 3 - \sqrt{5} )}{( 3 + \sqrt{5} ) ( 3 - \sqrt{5} )}$
   - Expand any brackets, and simplify
   
-    - `fraction numerator 2 over denominator 3 plus square root of 5 end fraction equals fraction numerator 6 minus 2 square root of 5 over denominator open parentheses 3 cross times 3 close parentheses plus 3 square root of 5 minus 3 square root of 5 minus open parentheses square root of 5 square root of 5 close parentheses end fraction equals fraction numerator 6 minus 2 square root of 5 over denominator 9 minus open parentheses 5 close parentheses end fraction`
+    - $\frac{2}{3 + \sqrt{5} } = \frac{6 - 2 \sqrt{5} }{( 3 \times 3 ) + 3 \sqrt{5} - 3 \sqrt{5} - ( \sqrt{5} \sqrt{5} )} = \frac{6 - 2 \sqrt{5} }{9 - ( 5 )}$
   - You can use the ***difference of two squares*** to expand the denominator quickly
   
-    - `open parentheses a plus square root of b close parentheses open parentheses a minus square root of b close parentheses equals a squared minus open parentheses square root of b close parentheses squared equals a squared minus b`
+    - $( a + \sqrt{b} ) ( a - \sqrt{b} ) = a^{2} - ( \sqrt{b} )^{2} = a^{2} - b$
     - This is what makes the denominator **rational**
   - Simplify
   
@@ -77,12 +77,12 @@ guided_study: true
 > 
 > > *Multiply the fractions as you would usually*
 > 
-> `fraction numerator 4 over denominator square root of 6 minus 2 end fraction equals space fraction numerator 4 open parentheses square root of 6 space plus space 2 close parentheses over denominator open parentheses square root of 6 space minus space 2 close parentheses open parentheses square root of 6 space plus space 2 close parentheses end fraction`
+> $\frac{4}{ \sqrt{6} - 2} = \frac{4 ( \sqrt{6} + 2 )}{( \sqrt{6} - 2 ) ( \sqrt{6} + 2 )}$
 > 
 > > *Expand the brackets*
 > *The denominator can be expanded using the difference of two squares*
 > 
-> `fraction numerator 4 over denominator square root of 6 minus 2 end fraction equals fraction numerator 4 square root of 6 plus 8 over denominator open parentheses square root of 6 close parentheses squared minus open parentheses 2 close parentheses squared end fraction equals fraction numerator 4 square root of 6 plus 8 over denominator 6 minus 4 end fraction`
+> $\frac{4}{ \sqrt{6} - 2} = \frac{4 \sqrt{6} + 8}{( \sqrt{6} )^{2} - ( 2 )^{2}} = \frac{4 \sqrt{6} + 8}{6 - 4}$
 > 
 > > *Simplify*
 > 

@@ -58,7 +58,7 @@
 ## Q4 — easy — 2 marks · exam-questions
 
 ### 5() — 2 marks
-> *Type the equation in to your calculator as seen, your calculator should have a button which looks like *`box enclose cross times 10 to the power of x end enclose`* or similar to help input standard form*
+> *Type the equation in to your calculator as seen, your calculator should have a button which looks like *`box x 10 ^ x`* or similar to help input standard form*
 
 **5 830 000*** ***[2]**
 
@@ -74,7 +74,7 @@ $\sqrt{100000000}$
 ## Q6 — easy — 4 marks · exam-questions
 
 ### 1((a)) — 2 marks
-> *You should be able to use the square root button, *`box enclose square root of box enclose blank end enclose end root end enclose`*, on your calculator and type this question in directly, you can also make use of the power (index) button, *`box enclose x to the power of box enclose blank end enclose end exponent end enclose`* and the fraction button *`box enclose fraction numerator box enclose blank end enclose over denominator box enclose blank end enclose end fraction end enclose`
+> *You should be able to use the square root button, *`box sqrt( box _ )`*, on your calculator and type this question in directly, you can also make use of the power (index) button, *`box x ^ box _`* and the fraction button *`box (box _ )/(box _ )`
 
 > *If you work the problem out in stages,*
 
@@ -83,8 +83,8 @@ $\sqrt{\frac{4.8^{2}+3.6^{2}}{4}}=\sqrt{\frac{36}{4}}=\sqrt{9}$
 **3** **[2]**
 
 ### 1((b)) — 2 marks
-> *You should be able to use the standard form button,*`box enclose cross times 10 to the power of x end enclose`* , on your calculator and type this question in directly *
-*You can also make use of the fraction button, *`box enclose fraction numerator box enclose blank end enclose over denominator box enclose blank end enclose end fraction end enclose`*, and be sure to use brackets as they are presented in the question*
+> *You should be able to use the standard form button,*`box x 10 ^ x`* , on your calculator and type this question in directly *
+*You can also make use of the fraction button, *`box (box _ )/(box _ )`*, and be sure to use brackets as they are presented in the question*
 
 $4\times10^{-5}$* ***[2] **
 **Your calculator may give you a fraction as the answer, **$\frac{1}{2500}$**, as the question does not specify a form for your answer, this would be correct too. You should always check to see if the question asks for the answer to be presented as a fraction or decimal, or in standard form**
@@ -129,7 +129,7 @@ $4.2\times10^{3}+5.3\times10^{2}=4730$
 > *Perform the calculation using your calculator. *
 *Use the fraction button on your calculator and use the arrow keys to move around the calculator screen to make it look just like the given calculation.*
 
-`5 over 8 plus cube root of 340 equals 7.60453204...`
+$\frac{5}{8} + \sqrt[3]{340} = 7.60453204...$
 
 **[1]**
 
@@ -223,11 +223,11 @@ $7.60$* ***[1]**
 ## Q17 — medium — 2 marks · exam-questions
 
 ### 6((b)) — 2 marks
-> *Type the equation in to your calculator as seen, your calculator should have a button which looks like *`box enclose cross times 10 to the power of x end enclose`* or similar to help input standard form*
+> *Type the equation in to your calculator as seen, your calculator should have a button which looks like *`box x 10 ^ x`* or similar to help input standard form*
 
 > *You could also use brackets to help you:*
 
-`fraction numerator open parentheses 5.6 cross times 10 to the power of 4 close parentheses plus open parentheses 7 cross times 10 cubed close parentheses over denominator open parentheses 2.8 cross times 10 to the power of negative 3 end exponent close parentheses end fraction equals space 22 space 500 space 000`
+$\frac{( 5.6 \times 10^{4 ) + ( 7 \times 10^{3} )}{( 2.8 \times 10^{-3} } )} = 22 500 000$
 
 **[1]**
 
@@ -238,11 +238,11 @@ $7.60$* ***[1]**
 ## Q18 — medium — 2 marks · exam-questions
 
 ### 6() — 2 marks
-> *Type the equation in to your calculator as seen, your calculator should have a button which looks like *`box enclose cross times 10 to the power of x end enclose`* or similar to help input standard form*
+> *Type the equation in to your calculator as seen, your calculator should have a button which looks like *`box x 10 ^ x`* or similar to help input standard form*
 
 > *You could also use brackets to help you:*
 
-`fraction numerator open parentheses 3 cross times 10 to the power of 5 close parentheses minus open parentheses 2.7 cross times 10 to the power of 4 close parentheses over denominator open parentheses 6 cross times 10 to the power of negative 2 end exponent close parentheses end fraction equals space space 4 space 550 space 000`
+$\frac{( 3 \times 10^{5 ) - ( 2.7 \times 10^{4} )}{( 6 \times 10^{-2} } )} = 4 550 000$
 
 **[1]**
 
@@ -253,28 +253,28 @@ $7.60$* ***[1]**
 ## Q19 — medium — 2 marks · exam-questions
 
 ### 11() — 2 marks
-> *You should be able to type this expression into your calculator directly using the fraction button *`box enclose fraction numerator box enclose space space space end enclose over denominator box enclose space space space end enclose end fraction end enclose`* and brackets*
+> *You should be able to type this expression into your calculator directly using the fraction button *`box (box )/(box )`* and brackets*
 
-`4 open parentheses 1 minus 22 over 57 plus 22 over 85 minus 22 over 105 plus 22 over 117 minus 22 over 242 close parentheses space equals space 3.041839619...`
+$4 ( 1 - \frac{22}{57} + \frac{22}{85} - \frac{22}{105} + \frac{22}{117} - \frac{22}{242} ) = 3.041839619...$
 
 **[1]**
 
-*Show that this is within 0.1 of 3.14* *Use the *`box enclose Ans`* button to help here; *`3.14 space minus space box enclose Ans`
+*Show that this is within 0.1 of 3.14* *Use the *`box enclose Ans`* button to help here; *`3.14 - box Ans`
 
 **3.14 - 3.041839619 = 0.09816038107 which is less than 0.1** **[1]** **Full working must be shown**
 
 ## Q20 — medium — 2 marks · exam-questions
 
 ### 7((b)) — 2 marks
-> *Type the expression in to your calculator as seen, your calculator should have a button which looks like *`box enclose cross times 10 to the power of x end enclose`* or similar to help input standard form*
+> *Type the expression in to your calculator as seen, your calculator should have a button which looks like *`box x 10 ^ x`* or similar to help input standard form*
 
 > *You could also use brackets to help you:*
 
-`fraction numerator open parentheses 3.2 cross times 10 cubed close parentheses plus open parentheses 5.1 cross times 10 to the power of negative 2 end exponent close parentheses over denominator open parentheses 4.3 cross times 10 to the power of negative 4 end exponent close parentheses end fraction equals 7 space 441 space 979.07`
+$\frac{( 3.2 \times 10^{3} ) + ( 5.1 \times 10^{- 2} )}{( 4.3 \times 10^{- 4} )} = 7 441 979.07$
 
 **[1]**
 
-> *Write in standard form, correct to 3 significant figures; you can round after the '4' ;  *`7 space 44 left enclose 1 space 979.07 end enclose`*.*
+> *Write in standard form, correct to 3 significant figures; you can round after the '4' ;  *`7 44 left 1 979.07`*.*
 
 **7.44 × 10**<sup>**6**</sup>** [1]**
 
@@ -317,7 +317,7 @@ $6$* ***[1]**
 > *Type into calculator exactly as seen and write down entire calculator display *
 *Be careful with the powers and make sure all decimal points are in the right places*
 
-> `cube root of 8.1 squared minus 1.3 to the power of 0.8 end exponent end root space equals space 4.007827504`* *
+> $\sqrt[3]{8.1^{2} - 1.3^{0.8} } = 4.007827504$* *
 
 > *round to 3 significant figures for final answer*
 
@@ -329,7 +329,7 @@ $4.01$* ***[1]   **
 ### 6((b)) — 1 marks
 > *Use a calculator here, but be careful to use cube root rather than square root*
 
-`cube root of 2 cubed plus 2 end root space equals space 2.15443469...`
+$\sqrt[3]{2^{3} + 2} = 2.15443469...$
 
 **2.15**** ****[1]** 
 **Rounded to 3 significant figures**
@@ -410,11 +410,11 @@ $\sqrt{\frac{2.5\times\mathrm{sin}43}{8.2^{2}-50.5}}=0.319141...$
 ## Q30 — hard — 3 marks · exam-questions
 
 ### 8((a)) — 1 marks
-*You should be able to type this directly into your calculator* *Make sure you use cube-root, *`box enclose cube root of box enclose blank end enclose end root end enclose`* rather than just square-root *`box enclose square root of box enclose blank end enclose end root end enclose` 
+*You should be able to type this directly into your calculator* *Make sure you use cube-root, *`box cbrt( box _ )`* rather than just square-root *`box sqrt( box _ )` 
 *Whilst you can type it into your calculator as seen, it may be worth recalling the rules for BIDMAS, where the cube-root and power will be applied first, then the division, and then the subtraction* 
 *You can also use brackets to help make your calculation clear when typing into your calculator*
 
-`open parentheses 19.42 squared close parentheses space – space open parentheses open parentheses cube root of 1006 close parentheses space divided by space 4.95 close parentheses space equals space 375.1121656...`
+$( 19.42^{2} ) - ( ( \sqrt[3]{1006} ) \div 4.95 ) = 375.1121656...$
 
 > *The question requests you write down your full calculator display*
 
@@ -423,7 +423,7 @@ $\sqrt{\frac{2.5\times\mathrm{sin}43}{8.2^{2}-50.5}}=0.319141...$
 ### 8((b)) — 2 marks
 > *Round each value to 1 significant figure when estimating*
 
-`19.42 squared space – space cube root of 1006 space divided by space 4.95 space almost equal to space 20 squared minus cube root of 1000 divided by 5`
+$19.42^{2} - \sqrt[3]{1006} \div 4.95 \approx 20^{2} - \sqrt[3]{1000} \div 5$
 
 **[1]**
 
@@ -440,7 +440,7 @@ $400-10\div5=400-2=398$
 
 > *Be careful to make sure that the power of 3 on the 1.9 is within the square root, using brackets can sometimes help*
 
-`fraction numerator 29 squared minus 4.6 over denominator square root of open parentheses 35 minus 1.9 cubed close parentheses end root end fraction`
+$\frac{29^{2} - 4.6}{ \sqrt{( 35 - 1.9^{3} )} }$
 
 > *Write down the full answer shown on your calculator display, as requested in the question*
 
@@ -463,7 +463,7 @@ $400-10\div5=400-2=398$
 ### 2() — 1 marks
 > *Type into calculator as seen, use brackets and be careful with exactly where you put the 2*
 
-`square root of 1 minus open parentheses sin open parentheses 33 close parentheses close parentheses squared end root space equals space 0.8386705679...`
+$\sqrt{1 - ( \sin ( 33 ) )^{2}} = 0.8386705679...$
 
 $0.839$ **[1]** 
 **Round to 3 significant figures**

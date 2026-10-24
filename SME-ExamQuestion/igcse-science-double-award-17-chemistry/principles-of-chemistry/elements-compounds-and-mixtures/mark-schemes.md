@@ -1107,7 +1107,7 @@ The calculation to show that the empirical formula of this compound is PbO<sub>2
 
 - Lead: $\frac{86.6}{207}$ **AND **Oxygen: $\frac{13.4}{16}$; **[1 mark]**
 - Lead: 0.42 **AND **Oxygen: 0.84; **[1 mark]**
-- Lead: `begin mathsize 14px style open parentheses fraction numerator 0.42 over denominator 0.42 end fraction close parentheses end style` = 1 **AND **Lead: `begin mathsize 14px style open parentheses fraction numerator 0.84 over denominator 0.42 end fraction close parentheses end style`= 2; **[1 mark]**
+- Lead: $( \frac{0.42}{0.42} )$ = 1 **AND **Lead: $( \frac{0.84}{0.42} )$= 2; **[1 mark]**
 
 **[Total: 3 marks]**
 

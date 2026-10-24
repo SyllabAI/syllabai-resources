@@ -69,17 +69,17 @@ $3x+46+4x-27=180$
 
 > *Collect terms on the left-hand side*
 
-`table row cell 7 x plus 19 end cell equals 180 end table`
+$\begin{gathered} 7 x + 19 & = 180 \end{gathered}$
 
 > *Solve the equation*
 
 > *First subtract 19 from each side*
 
-`table row cell 7 x end cell equals cell 180 minus 19 end cell row cell 7 x end cell equals 161 end table`
+$\begin{gathered} 7 x & = 180 - 19 \\ 7 x & = 161 \end{gathered}$
 
 > *Then divide both sides by 7*
 
-`table row x equals cell 161 divided by 7 end cell row x equals 23 end table`
+$\begin{gathered} x = 161 \div 7 \\ x = 23 \end{gathered}$
 
 **[A1]**
 
@@ -93,7 +93,7 @@ $3\times23+46=115$
 
 > *Co-interior angles sum to 180° so subtract angle CDA to get angle BCD*
 
-`180 minus open parentheses 3 cross times 23 plus 10 close parentheses equals 101`
+$180 - ( 3 \times 23 + 10 ) = 101$
 
 > *Therefore angle ABC is the largest*
 
@@ -153,13 +153,13 @@ $13$
 
 > *Work out an expression for the area of the rectangle*
 
-`open parentheses x space plus thin space 2 close parentheses space cross times space 25 space equals space 25 x space plus thin space 50`
+$( x + 2 ) \times 25 = 25 x + 50$
 
 > *Work out the area of the trapezium*
 
-`1 half open parentheses 7 space plus thin space 17 close parentheses space cross times space 4 space
-equals 1 half space cross times space 24 space cross times space 4 space
-equals space 48`
+$1 \frac{1}{2} ( 7 + 17 ) \times 4 
+= 1 \frac{1}{2} \times 24 \times 4 
+= 48$
 
 **[M1]**
 
@@ -223,13 +223,13 @@ $x=1750$
 ### 1() — 3 marks
 An exterior angle of a triangle is equal to the sum of the other two interior angles of the triangle
 
-`open parentheses 8 x plus 2 close parentheses plus open parentheses 11 x plus 10 close parentheses equals 15 x plus 32`
+$( 8 x + 2 ) + ( 11 x + 10 ) = 15 x + 32$
 
 **[M1]**
 
 Simplify the equation
 
-*  *`table row cell 19 x plus 12 space end cell equals cell space 15 x space plus space 32 end cell row cell 4 x space end cell equals 20 end table`
+*  *$\begin{gathered} 19 x + 12 & = 15 x + 32 \\ 4 x & = 20 \end{gathered}$
 
 **[M1]**
 

@@ -30,20 +30,20 @@
 
 List the known quantities:
 
-- Nuclear rest mass of oxygen−16 `open parentheses straight O presubscript 8 presuperscript 16 close parentheses` = 15.994914 u
+- Nuclear rest mass of oxygen−16 `( O _ 8 ^ 16 )` = 15.994914 u
 - Proton rest mass,* m*<sub>*p*</sub>* *= 1.007276 u
 - Neutron rest mass,* m*<sub>*n*</sub>* *= 1.008665 u
 
 Determine the numbers of protons and neutrons in oxygen−16
 
-- From `straight O presubscript 8 presuperscript 16`:
+- From `O _ 8 ^ 16`:
 - Number of protons, $Z$ = 8 **AND**
 - Number of protons, $N$ = 16 − 8 = 8 **[1 mark]**
 
 Substitute the known values into the equation:
 
 - $\Deltam=Zm_{p}+Nm_{n}-m_{total}$
-- `increment m space equals space open parentheses 8 cross times 1.007276 space straight u close parentheses space plus space open parentheses 8 cross times 1.008665 space straight u space close parentheses space minus space 15.994914 space straight u` **[1 mark]**
+- $\Delta m = ( 8 \times 1.007276 \mathrm{u} ) + ( 8 \times 1.008665 \mathrm{u} ) - 15.994914 \mathrm{u}$ **[1 mark]**
 - $\Deltam=0.132614u$ **[1 mark]**
 
 **[Total: 5 marks]**
@@ -81,7 +81,7 @@ List the known quantities:
 Determine the binding energy per nucleon:
 
 - Binding energy per nucleon = $\frac{\mathrm{Binding} \mathrm{energy}}{\mathrm{Number} \mathrm{of} \mathrm{nucleons}}$
-- Binding energy per nucleon = `fraction numerator open parentheses 1.981 space cross times space 10 to the power of negative 11 end exponent close parentheses over denominator 16 end fraction` **[1 mark]**
+- Binding energy per nucleon = $\frac{( 1.981 \times 10^{- 11} )}{16}$ **[1 mark]**
 - Binding energy per nucleon = $1.238\times10^{-12}J$ **[1 mark]**
 
 Convert the energy into MeV:
@@ -125,7 +125,7 @@ List the known quantities:
 
 Determine the mass defect:
 
-- Mass defect:  `increment m space equals space 2 m subscript 2 space minus space open parentheses m subscript 3 space plus space m subscript 1 close parentheses`
+- Mass defect:  $\Delta m = 2 m_{2} - ( m_{3} + m_{1} )$
 - $\Deltam$ = [(2 × 2.0135) – (3.0160 + 1.0078)] *u*
 - $\Deltam$ = 0.0032 u **[1 mark]**
 
@@ -261,7 +261,7 @@ The graph can be used to find the binding energy per nucleon by drawing arrows a
 - *Helium (He), Carbon (C), and Oxygen (O), do not fit the general trend of the graph*
 
 ### Q4
-Complete the equation `straight U presubscript 92 presuperscript 235 space plus space straight n presubscript 0 presuperscript 1 space rightwards arrow with blank on top space Mo presubscript 42 presuperscript 95 space plus space La presubscript 57 presuperscript 139 space plus space 2 straight n presubscript 0 presuperscript 1 space plus space................ plus energy`:
+Complete the equation `U _ 92 ^ 235 + n _ 0 ^ 1 -> with _ on top Mo _ 42 ^ 95 + La _ 57 ^ 139 + 2 n _ 0 ^ 1 + ................ + energy`:
 
 Balance the nucleon numbers in the equation:
 
@@ -275,7 +275,7 @@ Balance the proton numbers in the equation:
 
 The missing term in the equation in nuclide notation is:
 
-- `7 space straight e presubscript negative 1 end presubscript presuperscript 0`** [1 mark]**
+- `7 e _ - 1 ^ 0`** [1 mark]**
 
 **[Total: 1 mark]**
 (i) Show that the energy equivalent to 1.00 u is 934 MeV:
@@ -288,13 +288,13 @@ List the known quantities:
 Use the mass-energy equivalence equation to calculate the energy, $E$ in J:
 
 - $E=mc^{2}$ **[1 mark]**
-- `E space equals space open parentheses 1.661 space cross times space 10 to the power of negative 27 end exponent close parentheses space cross times space open parentheses 3 space cross times space 10 to the power of 8 close parentheses squared space equals space 1.495 space cross times space 10 to the power of negative 10 end exponent space straight J` **[1 mark]**
+- $E = ( 1.661 \times 10^{- 27} ) \times ( 3 \times 10^{8 )^{2} = 1.495 \times 10^{-10} } \mathrm{J}$ **[1 mark]**
 
 Convert the energy from J to MeV:
 
 - $E=\frac{1.495\times10^{-10}}{1.6\times10^{-13}}=934\mathrm{MeV}$ **[1 mark]**
 
-(ii) Calculate the binding energy per nucleon, in MeV, of lanthanum-139 `open parentheses La presubscript 57 presuperscript 139 close parentheses`:
+(ii) Calculate the binding energy per nucleon, in MeV, of lanthanum-139 $( La_{57}^{139} )$:
 
 List the known quantities:
 
@@ -308,7 +308,7 @@ List the known quantities:
 Calculate the mass defect, $\Deltam$ of `La presubscript 57 presuperscript 139`:
 
 - $\Deltam=82m_{n}+57m_{p}-massofnuclide$
-- `increment m space equals space open parentheses 82 space cross times space 1.00863 close parentheses u space plus space open parentheses 57 space cross times space 1.00728 close parentheses u space minus space 138.955 u`
+- $\Delta m = ( 82 \times 1.00863 ) u + ( 57 \times 1.00728 ) u - 138.955 u$
 - $\Deltam=1.16762u$ **[1 mark]**
 
 Calculate the binding energy per nucleon:
@@ -324,11 +324,11 @@ Calculate the binding energy per nucleon:
   - *J and eV*
   - *u and kg*
 - *Read** the **question carefully** to apply the correct conversions*
-State and explain whether the binding energy per nucleon of uranium-235 (`straight U presubscript 92 presuperscript 235`) is greater, equal to or less than the binding energy per nucleon of lanthanum-139 (`La presubscript 57 presuperscript 139`):
+State and explain whether the binding energy per nucleon of uranium-235 (`U _ 92 ^ 235`) is greater, equal to or less than the binding energy per nucleon of lanthanum-139 (`La presubscript 57 presuperscript 139`):
 
 State:
 
-- The binding energy per nucleon of `straight U presubscript 92 presuperscript 235` is less; **[1 mark]**
+- The binding energy per nucleon of `U _ 92 ^ 235` is less; **[1 mark]**
 
 Explanation:
 
@@ -389,7 +389,7 @@ List the known quantities:
 Substitute the known values into the equation:
 
 - Mass-energy equivalence:  $\DeltaE=\Deltamc^{2}$
-- `increment E space equals space open parentheses 3.95 cross times 10 to the power of negative 25 end exponent close parentheses cross times open parentheses 3.00 cross times 10 to the power of 8 close parentheses squared` **[1 mark]**
+- $\Delta E = ( 3.95 \times 10^{- 25} ) \times ( 3.00 \times 10^{8} )^{2}$ **[1 mark]**
 - $\DeltaE$ = 3.56 × 10<sup>−8</sup> J (3 s.f.) **[1 mark]**
 
 **[Total: 2 marks]**
@@ -425,7 +425,7 @@ Calculate the supplied energy per year:
 Calculate the number of uranium−235 nuclei in 1 kg of fuel:
 
 - Amount (moles) of U-235:  $n=\frac{mass}{molarmass}=\frac{N}{N_{A}}$
-- Number of U-235 nuclei per kg:  *N* = `open parentheses 6.02 cross times 10 to the power of 23 close parentheses space cross times space fraction numerator 1 space kg over denominator 0.235 end fraction` = 2.56 × 10<sup>24</sup> **[1 mark]**
+- Number of U-235 nuclei per kg:  *N* = $( 6.02 \times 10^{23} ) \times \frac{1 kg}{0.235}$ = 2.56 × 10<sup>24</sup> **[1 mark]**
 
 Calculate the energy released per kilogram of fuel:
 
@@ -463,7 +463,7 @@ Calculate the energy supplied per day to achieve the power output:
 Calculate the number of fission reactions generating this energy in a day:
 
 - Number of fission reactions = $\frac{energysuppliedperday}{energyreleasedperfission}\,$
-- Number of fission reactions per day = `fraction numerator 4.8 cross times 10 to the power of 14 over denominator open parentheses 210.5 cross times 10 to the power of 6 close parentheses cross times open parentheses 1.60 cross times 10 to the power of negative 19 end exponent close parentheses end fraction space equals space 1.4 cross times 10 to the power of 25`** [1 mark]**
+- Number of fission reactions per day = $\frac{4.8 \times 10^{14}{( 210.5 \times 10^{6} ) \times ( 1.60 \times 10^{-19} } )} = 1.4 \times 10^{25}$** [1 mark]**
 
 **[Total: 2 marks]**
 Fusion of nuclei heavier than iron-56 cannot provide energy because:
@@ -486,7 +486,7 @@ It would not be a viable energy resource because:
 ### Q7
 Calculate the energy released during this fission process:
 
-- Fission reaction:  `straight U presubscript blank presuperscript 235 space plus space straight n presubscript blank presuperscript 1 space rightwards arrow space straight U presubscript blank presuperscript 236 space rightwards arrow space Ba presubscript blank presuperscript 141 space plus space Kr presubscript blank presuperscript 92`
+- Fission reaction:  $\mathrm{U} pre_{ } pre^{235} + \mathrm{n} pre_{ } pre^{1} \rightarrow \mathrm{U} pre_{ } pre^{236} \rightarrow \text{Ba} pre_{ } pre^{141} + \text{Kr} pre_{ } pre^{92}$
 
 ![8-4-s-q--q2a-ma-hard-aqa-a-level-physics](assets/011-8-4-s-q-q2a-ma-hard-aqa-a-level-physics.png)
 
@@ -560,7 +560,7 @@ Calculate the total energy released as gamma photons:
 Calculate the frequency of the photons:
 
 - Energy of one photon:  $E=hf=\frac{hc}{λ}$
-- Energy of one photon:  `E space equals space fraction numerator open parentheses 6.63 cross times 10 to the power of negative 34 end exponent close parentheses open parentheses 3.00 cross times 10 to the power of 8 close parentheses over denominator 2.5 cross times 10 to the power of negative 12 end exponent end fraction` = 7.956 × 10<sup>–14</sup> J **[1 mark]**
+- Energy of one photon:  $E = \frac{( 6.63 \times 10^{- 34} ) ( 3.00 \times 10^{8 )}{2.5 \times 10^{-12} } }$ = 7.956 × 10<sup>–14</sup> J **[1 mark]**
 
 Calculate the total number of photons:
 
@@ -620,7 +620,7 @@ Calculate the ratio of speeds using the ratio of masses:
 ** ****[Total: 5 marks]**
 (i) The value of $x$ is:
 
-- `straight n presubscript 0 presuperscript 1 space plus space straight U presubscript 92 presuperscript 235 space rightwards arrow space Sr presubscript 38 presuperscript 90 space plus space Xe presubscript 54 presuperscript 143 space plus space x straight n presubscript 0 presuperscript 1`
+- `n _ 0 ^ 1 + U _ 92 ^ 235 -> Sr _ 38 ^ 90 + Xe _ 54 ^ 143 + x n _ 0 ^ 1`
 - Number of nucleons on LHS:  1 + 235 = 236
 - Number of nucleons on RHS:  90 + 143 + $x$ = 233 + $x$
 - Hence, $x$ = 236 − 233 = 3 **[1 mark]** ** **
@@ -635,14 +635,14 @@ List the known quantities:
 
 The amount of energy released during the fission reaction:
 
-- Energy released:  `increment E space equals space open parentheses 90 E subscript S space plus space 143 E subscript X close parentheses space minus space 235 E subscript U`
+- Energy released:  $\Delta E = ( 90 E_{S} + 143 E_{X} ) - 235 E_{U}$
 - Energy released:  $\DeltaE$ = (90 × 8.70) + (143 × 8.20) − (235 × 7.59) **[1 mark]**
 - Energy released: * *$\DeltaE$* = *172 MeV **[1 mark]**
 
 **[Total: 3 marks]**
 (i) The nuclear equation for this reaction is:
 
-- `straight H presuperscript 2 space plus space straight H presuperscript 1 space rightwards arrow space He presuperscript 3` **[1 mark]**
+- $\mathrm{H} pre^{2} + \mathrm{H} pre^{1} \rightarrow \text{He} pre^{3}$ **[1 mark]**
 
 (ii) The binding energy per nucleon of hydrogen-1 is zero because:
 
@@ -675,13 +675,13 @@ List the known quantities:
 Calculate the energy available per 1 kg of hydrogen-2:
 
 - Mass of <u>two</u> <sup>2</sup>H nuclei = 2 × 2.013553 u
-- Number of <sup>2</sup>H nuclei in 1 kg = `fraction numerator 1 space kg over denominator 2 cross times 2.013553 cross times open parentheses 1.66 cross times 10 to the power of negative 27 end exponent close parentheses end fraction` = 1.496 × 10<sup>26</sup> **[1 mark]**
+- Number of <sup>2</sup>H nuclei in 1 kg = $\frac{1 kg}{2 \times 2.013553 \times ( 1.66 \times 10^{- 27} )}$ = 1.496 × 10<sup>26</sup> **[1 mark]**
 - Energy per kg = (1.496 × 10<sup>26</sup>) × (3.6 × 10<sup>−12</sup>) = 5.39 × 10<sup>14</sup> J **[1 mark]**
 
 Calculate the energy available per 1 kg of uranium-235:
 
 - Mass of <u>one</u> <sup>235</sup>U nucleus = 235.0439 u
-- Number of <sup>235</sup>U nuclei in 1 kg = `fraction numerator 1 space kg over denominator 235.0439 cross times open parentheses 1.66 cross times 10 to the power of negative 27 end exponent close parentheses end fraction` = 2.562 × 10<sup>24</sup>
+- Number of <sup>235</sup>U nuclei in 1 kg = $\frac{1 kg}{235.0439 \times ( 1.66 \times 10^{- 27} )}$ = 2.562 × 10<sup>24</sup>
 - Convert energy to J:  172 MeV = (172 × 10<sup>6</sup>) × (1.6 × 10<sup>−19</sup>)
 - Energy per kg = (2.562 × 10<sup>24</sup>) × (172 × 10<sup>6</sup>) × (1.6 × 10<sup>−19</sup>) = 7.05 × 10<sup>13</sup> J **[1 mark]**
 

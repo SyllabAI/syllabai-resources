@@ -8,7 +8,7 @@
 ### 3((a)) — 3 marks — structured — from paper Specimen · Paper 2
 $O,A$ and $B$ are fixed points such that
 
-$\overset{\rightarrow}{OA}=4i+3j\overset{\rightarrow}{OB}=8i+pj$ and     `open vertical bar stack A B with rightwards arrow on top close vertical bar space equals space 2 square root of 13`
+$\overset{\rightarrow}{OA}=4i+3j\overset{\rightarrow}{OB}=8i+pj$ and     $\left| \vec{AB} \right| = 2 \sqrt{13}$
 
 Find the possible values of $p$.
 
@@ -42,13 +42,13 @@ find the vector $\overset{\rightarrow}{AE}$ in the form $Xa+Yb$ where $X$and $Y$
 
 Figure 2 shows triangle $AOB$
 
-$\overset{\rightarrow}{OA}=4a+5b\overset{\rightarrow}{OB}=8a-b\overset{\rightarrow}{OD}=15a+10b$      where `vertical line bold a vertical line equals vertical line bold b vertical line equals 1`
+$\overset{\rightarrow}{OA}=4a+5b\overset{\rightarrow}{OB}=8a-b\overset{\rightarrow}{OD}=15a+10b$      where $\vert a \vert = \vert b \vert = 1$
 
 (i) Find $\overset{\rightarrow}{AB}$ in terms of $a$ and $b$
 
 [2]
 
-(ii) Find, in its simplest form, the exact value of `vertical line stack A B with rightwards arrow on top vertical line`
+(ii) Find, in its simplest form, the exact value of $\vert \vec{AB} \vert$
 
 [1]
 
@@ -57,7 +57,7 @@ $\overset{\rightarrow}{OA}=4a+5b\overset{\rightarrow}{OB}=8a-b\overset{\rightarr
 
 Figure 2 shows triangle $AOB$
 
-$\overset{\rightarrow}{OA}=4a+5b\overset{\rightarrow}{OB}=8a-b\overset{\rightarrow}{OD}=15a+10b$      where `vertical line bold a vertical line equals vertical line bold b vertical line equals 1`
+$\overset{\rightarrow}{OA}=4a+5b\overset{\rightarrow}{OB}=8a-b\overset{\rightarrow}{OD}=15a+10b$      where $\vert a \vert = \vert b \vert = 1$
 
 Find the area of triangle $AOB$
 
@@ -66,7 +66,7 @@ Find the area of triangle $AOB$
 
 Figure 2 shows triangle $AOB$
 
-$\overset{\rightarrow}{OA}=4a+5b\overset{\rightarrow}{OB}=8a-b\overset{\rightarrow}{OD}=15a+10b$      where `vertical line bold a vertical line equals vertical line bold b vertical line equals 1`
+$\overset{\rightarrow}{OA}=4a+5b\overset{\rightarrow}{OB}=8a-b\overset{\rightarrow}{OD}=15a+10b$      where $\vert a \vert = \vert b \vert = 1$
 
 The point $C$ lies on $AB$ and $OD$ such that $O$, $C$ and $D$ are collinear.
 
@@ -79,7 +79,7 @@ $O$, $A$ and $B$ are fixed points such that
 
 $\overset{\rightarrow}{OA}=(b+1)i+bj$
 $\overset{\rightarrow}{AB}=3i$
-The unit vector parallel to $\overset{\rightarrow}{OB}$ is `fraction numerator square root of 17 over denominator 34 end fraction   left square bracket left parenthesis 3 a plus 2 right parenthesis bold i plus b bold j right square bracket`
+The unit vector parallel to $\overset{\rightarrow}{OB}$ is $\frac{\sqrt{17}}{34} [ ( 3 a + 2 ) i + b j ]$
 
 Given that $a$ and $b$ re constants where  $a>0$ and  $b>0$
 

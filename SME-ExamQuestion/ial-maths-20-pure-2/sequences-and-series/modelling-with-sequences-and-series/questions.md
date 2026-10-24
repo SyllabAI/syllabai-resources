@@ -37,7 +37,7 @@ In week 2 Bernie adds £2 to the money box, £3 in week 3 and so on.
 Find the total amount of money in Bernie’s money box after 10 weeks
 
 ### 2() — 2 marks — structured
-Show that the total amount of money in Bernie’s money box at the end of week $n$ is `£ n over 2 space left parenthesis n plus 1 right parenthesis`.
+Show that the total amount of money in Bernie’s money box at the end of week $n$ is $\pounds \frac{n}{2} ( n + 1 )$.
 
 ### 3() — 2 marks — structured
 The computer Bernie wishes to buy costs £250. Will he have saved enough money after 20 weeks?
@@ -50,7 +50,7 @@ Give a reason why this might this not be the best way for Bernie to save money?
 ### 1() — 3 marks — structured
 A ball is dropped from the top of a building and is allowed to bounce until it comes to rest.  The height the ball reaches after each bounce is modelled by the geometric sequence
 
-`u subscript n equals 2 cross times open parentheses 0.8 close parentheses to the power of n minus 1 end exponent`
+$u_{n} = 2 \times ( 0.8 )^{n - 1}$
 
 [i] Write down the height the ball reaches after its first bounce and the common  ratio between subsequent bounces.
 

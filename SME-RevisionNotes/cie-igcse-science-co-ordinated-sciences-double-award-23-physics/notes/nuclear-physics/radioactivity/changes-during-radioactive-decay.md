@@ -112,9 +112,9 @@ guided_study: false
 
 - All alpha decay equations have the following form for isotopes X and Y:
 
-`straight X presubscript straight Z presuperscript straight A space rightwards arrow space straight Y presubscript straight Z space minus space 2 end presubscript presuperscript straight A space minus space 4 end presuperscript space plus space straight alpha presubscript 2 presuperscript 4`
+`X _ Z ^ A -> Y _ Z - 2 ^ A - 4 + alpha _ 2 ^ 4`
 
-- The following decay equation shows polonium-212 undergoing alpha decay `Po presubscript 84 presuperscript 212 space rightwards arrow space Pb presubscript 82 presuperscript 208 space plus space straight alpha presubscript 2 presuperscript 4`
+- The following decay equation shows polonium-212 undergoing alpha decay $Po_{84}^{212} \rightarrow Pb_{82}^{208} + \ \\alpha pre_{2} pre^{4}$
 
   - It forms lead-208 and an alpha particle
   - An alpha particle can also be written as a helium (He) nucleus
@@ -123,13 +123,13 @@ guided_study: false
 
 - All beta decay equations have the following form for isotopes X and Y:
 
-`straight X presubscript straight Z presuperscript straight A space rightwards arrow space straight Y presubscript straight Z space plus space 1 end presubscript presuperscript straight A space plus space straight beta presubscript negative 1 end presubscript presuperscript 0`
+`X _ Z ^ A -> Y _ Z + 1 ^ A + beta _ - 1 ^ 0`
 
 ### Gamma decay equation
 
 - All gamma decay equations have the following form for isotope X
 
-`straight X presubscript straight Z presuperscript straight A space rightwards arrow space straight X presubscript straight Z presuperscript straight A space plus space straight gamma presubscript 0 presuperscript 0`
+$\mathrm{X} pre_{Z} pre^{A} \rightarrow \mathrm{X} pre_{Z} pre^{A} + \ \\gamma pre_{0} pre^{0}$
 
 > **Worked Example**
 > A nucleus with 84 protons and 126 neutrons undergoes alpha decay. It forms lead, which has the element symbol Pb.

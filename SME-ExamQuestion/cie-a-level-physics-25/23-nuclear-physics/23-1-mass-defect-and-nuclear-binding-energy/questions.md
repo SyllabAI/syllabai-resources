@@ -22,7 +22,7 @@ State the meaning of the terms
 
 **Q1** [5 marks]
 
-The nuclear rest mass $m_{total}$ of oxygen−16 `open parentheses straight O presubscript 8 presuperscript 16 close parentheses` is 15.994914 u.
+The nuclear rest mass $m_{total}$ of oxygen−16 `( O _ 8 ^ 16 )` is 15.994914 u.
 
 The following equation describes the relationship between mass defect $\Deltam$* *and the mass of the constituents of a nucleus
 
@@ -73,9 +73,9 @@ Define the terms
 
 **Q2** [6 marks]
 
-If deuterium `open parentheses straight H presubscript 1 presuperscript 2 close parentheses` nuclei undergo fusion, a possible reaction is
+If deuterium `( H _ 1 ^ 2 )` nuclei undergo fusion, a possible reaction is
 
-`straight H presubscript 1 presuperscript 2 space plus space straight H presubscript 1 presuperscript 2 space rightwards arrow space straight H presubscript 1 presuperscript 3 space plus space straight H presubscript 1 presuperscript 1`
+`H _ 1 ^ 2 + H _ 1 ^ 2 -> H _ 1 ^ 3 + H _ 1 ^ 1`
 
 The masses of the nuclei involved in the reaction are given in Table 1.1.
 
@@ -83,9 +83,9 @@ The masses of the nuclei involved in the reaction are given in Table 1.1.
 
 |   | **mass / u** |
 |---|---|
-| `straight H presubscript 1 presuperscript 1` | 1.0078 |
-| `straight H presubscript 1 presuperscript 2` | 2.0135 |
-| `straight H presubscript 1 presuperscript 3` | 3.0160 |
+| `H _ 1 ^ 1` | 1.0078 |
+| `H _ 1 ^ 2` | 2.0135 |
+| `H _ 1 ^ 3` | 3.0160 |
 
 (i) Explain what is meant by nuclear fusion.
 
@@ -137,7 +137,7 @@ On Fig. 1.1, mark
 
 - the region in which fusion occurs
 - the region in which fission occurs
-- an X to show the location of iron-56 `open parentheses Fe presubscript 26 presuperscript 56 close parentheses`
+- an X to show the location of iron-56 $( Fe_{26}^{56} )$
 
 **Q3** [4 marks]
 
@@ -196,15 +196,15 @@ Data for a nucleus and some particles are given in Table 9.1.
 | **nucleus or particle** | **mass / u** |
 |---|---|
 | `La presubscript 57 presuperscript 139` | 138.955 |
-| `straight n presubscript 0 presuperscript 1` | 1.00863 |
-| `straight p presubscript 1 presuperscript 1` | 1.00728 |
+| `n _ 0 ^ 1` | 1.00863 |
+| `p _ 1 ^ 1` | 1.00728 |
 | `e presubscript negative 1 end presubscript presuperscript 0` | 5.49 × 10<sup>–4</sup> |
 
 One nuclear reaction that can take place in a nuclear reactor may be represented, in part, by the equation shown below.
 
 Complete the equation.
 
-`straight U presubscript 92 presuperscript 235 space plus space straight n presubscript 0 presuperscript 1 space rightwards arrow with blank on top space Mo presubscript 42 presuperscript 95 space plus space La presubscript 57 presuperscript 139 space plus space 2 straight n presubscript 0 presuperscript 1 space plus space................ plus energy`
+`U _ 92 ^ 235 + n _ 0 ^ 1 -> with _ on top Mo _ 42 ^ 95 + La _ 57 ^ 139 + 2 n _ 0 ^ 1 + ................ + energy`
 
 *Source: Specimen 2022 Paper 4 Q9A*
 
@@ -235,7 +235,7 @@ binding energy per nucleon = ..................................... MeV [3]
 
 **Q4** [2 marks]
 
-State and explain whether the binding energy per nucleon of uranium-235 ( `begin mathsize 16px style U presubscript 92 presuperscript 235 end style` ) is greater, equal to or less than the binding energy per nucleon of lanthanum-139 ( `begin mathsize 16px style La presubscript 57 presuperscript 139 end style` ).
+State and explain whether the binding energy per nucleon of uranium-235 ( $U_{92}^{235}$ ) is greater, equal to or less than the binding energy per nucleon of lanthanum-139 ( $La_{57}^{139}$ ).
 
 *Source: Specimen 2022 Paper 4 Q9C*
 
@@ -287,7 +287,7 @@ Calculate the energy released, in J, if all of the mass in the nucleus of uraniu
 
 When a uranium–235 nucleus undergoes fission, one possible reaction is:
 
-`straight U presubscript 92 presuperscript 235 space plus space straight n presubscript 0 presuperscript 1 space rightwards arrow space Xe presubscript 54 presuperscript 139 space plus space Sr presubscript 38 presuperscript 95 space plus space 2 straight n presubscript 0 presuperscript 1 space plus space energy`
+`U _ 92 ^ 235 + n _ 0 ^ 1 -> Xe _ 54 ^ 139 + Sr _ 38 ^ 95 + 2 n _ 0 ^ 1 + energy`
 
 The binding energy per nucleon *E* is given in Table 1.1 below:
 
@@ -297,7 +297,7 @@ The binding energy per nucleon *E* is given in Table 1.1 below:
 |---|---|
 | `Sr presubscript 38 presuperscript 95` | 8.74 |
 | `Xe presubscript 54 presuperscript 139` | 8.39 |
-| `straight U presubscript 92 presuperscript 235` | 7.60 |
+| `U _ 92 ^ 235` | 7.60 |
 
 A nuclear reactor, operating at 27% efficiency, outputs 1500 MW. It uses enriched fuel containing 2% uranium–235 and 98% uranium–238.
 
@@ -345,19 +345,19 @@ Identify the other fission products in this process and justify why they can be 
 
 A different fission process occurs. Fission of uranium-235 is triggered again by the absorption of a slow-moving neutron. Gamma-ray photons of wavelength 2.5 × 10<sup>–12</sup> m are released. The process is described by the equation below:
 
-`begin mathsize 20px style straight U presubscript 92 presuperscript 235 space plus space straight n presubscript 0 presuperscript 1 space rightwards arrow space Te presubscript 52 presuperscript 138 space plus space Zr presubscript 40 presuperscript 98 space plus space straight gamma end style`
+`U _ 92 ^ 235 + n _ 0 ^ 1 -> Te _ 52 ^ 138 + Zr _ 40 ^ 98 + gamma`
 
 In this process, 90% of the energy released is carried away as kinetic energy of the two daughter nuclei.
 
 Show that approximately 32 gamma-ray photons are released in this process.
 
-Mass of `straight U presubscript 92 presuperscript 235` = 235.0439u
+Mass of `U _ 92 ^ 235` = 235.0439u
 
 Mass of `Te presubscript 52 presuperscript 138` = 137.9603u
 
 Mass of `Zr presubscript 40 presuperscript 98` = 97.9197u
 
-Mass of `straight n presubscript 0 presuperscript 1` = 1.0087u
+Mass of `n _ 0 ^ 1` = 1.0087u
 
 You may use the fact that 1 u is the equivalent of 931.5 MeV c<sup>–2</sup>.
 
@@ -393,7 +393,7 @@ Assuming the uranium nucleus is initially at rest, show that the `Zr presubscrip
 
 A nuclear fission reaction occurs that has the following equation
 
-`straight n presubscript 0 presuperscript 1 space plus space straight U presubscript 92 presuperscript 235 space rightwards arrow space Sr presubscript 38 presuperscript 90 space plus space Xe presubscript 54 presuperscript 143 space plus space x straight n presubscript 0 presuperscript 1`
+`n _ 0 ^ 1 + U _ 92 ^ 235 -> Sr _ 38 ^ 90 + Xe _ 54 ^ 143 + x n _ 0 ^ 1`
 
 (i) Determine, for this nuclear reaction, the value of $x$.
 
@@ -407,7 +407,7 @@ Use the data to calculate the energy, in MeV, released in this reaction.
 
 |   | **binding energy per nucleon / MeV** |
 |---|---|
-| `straight U presubscript 92 presuperscript 235` | 7.59 |
+| `U _ 92 ^ 235` | 7.59 |
 | `Sr presubscript 38 presuperscript 90` | 8.70 |
 | `Xe presubscript 54 presuperscript 143` | 8.20 |
 
@@ -415,13 +415,13 @@ Use the data to calculate the energy, in MeV, released in this reaction.
 
 **Q8** [4 marks]
 
-Under the right conditions, a hydrogen-2 `straight H presuperscript 2` nucleus can fuse with a hydrogen-1 `straight H presuperscript 1` to make a helium-3 `He presuperscript 3` nucleus. The values of binding energy per nucleon for these nuclei are shown in Table 1.3.
+Under the right conditions, a hydrogen-2 $\mathrm{H} pre^{2}$ nucleus can fuse with a hydrogen-1 $\mathrm{H} pre^{1}$ to make a helium-3 `He presuperscript 3` nucleus. The values of binding energy per nucleon for these nuclei are shown in Table 1.3.
 
 **Table 1.3**
 
 | **Nuclei** | **binding energy per nucleon / MeV** |
 |---|---|
-| `straight H presuperscript 2` | 0.864 |
+| $\mathrm{H} pre^{2}$ | 0.864 |
 | `He presuperscript 3` | 2.235 |
 
 (i) Write down the nuclear equation for this reaction.
@@ -444,7 +444,7 @@ Energy released: ΔE = (90 × 8.70) + (143 × 8.20) − (235 × 7.59) = 172 MeV 
 
 When two hydrogen-2 nuclei fuse into a helium-4 nucleus, 3.6 × 10<sup>−12</sup> J of energy is released. This reaction is shown below
 
-`straight H presuperscript 2 space plus space straight H presuperscript 2 space rightwards arrow space He presuperscript 4`
+$\mathrm{H} pre^{2} + \mathrm{H} pre^{2} \rightarrow \text{He} pre^{4}$
 
 Show that the fusion of 1 kg of two hydrogen-2 nuclei releases about 8 times more energy per kg than the fission of 1 kg of uranium-235.
 
@@ -454,5 +454,5 @@ The masses of hydrogen-2 and uranium-235 are shown in Table 1.4.
 
 |   | **mass / u** |
 |---|---|
-| `straight H presubscript 1 presuperscript 2` | 2.013553 |
-| `straight U presubscript 92 presuperscript 235` | 235.0439 |
+| `H _ 1 ^ 2` | 2.013553 |
+| `U _ 92 ^ 235` | 235.0439 |

@@ -233,9 +233,9 @@ What is the range of validity of the expansion of $( a + b x )^{n}$?
 
 **BACK**
 
-`open vertical bar b over a x close vertical bar less than 1`, which rearranges to `vertical line x vertical line less than open vertical bar a over b close vertical bar`.
+`open vertical bar b over a x close vertical bar less than 1`, which rearranges to $\vert x \vert < \left| \frac{a}{b} \right|$.
 
-It comes from the bracket after factorising, not from the original expression. For `left parenthesis 8 minus 3 x right parenthesis to the power of negative 1 third end exponent equals 8 to the power of negative 1 third end exponent open parentheses 1 minus 3 over 8 x close parentheses to the power of negative 1 third end exponent` it gives `vertical line x vertical line less than 8 over 3`.
+It comes from the bracket after factorising, not from the original expression. For $( 8 - 3 x )^{- 1 \frac{1}{3}} = 8^{- 1 \frac{1}{3}} ( 1 - \frac{3}{8} x )^{- 1 \frac{1}{3}}$ it gives $\vert x \vert < \frac{8}{3}$.
 
 
 Spec links: `spcpt_f9PhGNgtDD7ss4X9`
@@ -256,7 +256,7 @@ The expansions of $( 3 + 2 x )^{-4}$ and $( 1 + 2 x )^{-4}$ are valid for the sa
 
 The range of validity depends on $\frac{b}{a}$, so changing $a$ changes it.
 
-`left parenthesis 3 plus 2 x right parenthesis to the power of negative 4 end exponent equals 3 to the power of negative 4 end exponent open parentheses 1 plus 2 over 3 x close parentheses to the power of negative 4 end exponent` is valid for `vertical line x vertical line less than 3 over 2`, while $(1+2x)^{-4}$ is valid for `vertical line x vertical line less than 1 half`.
+$( 3 + 2 x )^{- 4} = 3^{- 4} ( 1 + \frac{2}{3} x )^{- 4}$ is valid for $\vert x \vert < \frac{3}{2}$, while $(1+2x)^{-4}$ is valid for $\vert x \vert < 1 \frac{1}{2}$.
 
 
 Spec links: `spcpt_f9PhGNgtDD7ss4X9`
@@ -321,7 +321,7 @@ Spec links: `spcpt_NTrg5qZWvkW2Qvvk`
 
 **FRONT**
 
-Expanding $\frac{\sqrt{1+x}}{3+2x}$ uses $(1+x)^{\frac{1}{2}}$, valid for `vertical line x vertical line less than 1`, and $(3+2x)^{-1}$, valid for `vertical line x vertical line less than 3 over 2`.
+Expanding $\frac{\sqrt{1+x}}{3+2x}$ uses $(1+x)^{\frac{1}{2}}$, valid for $\vert x \vert < 1$, and $(3+2x)^{-1}$, valid for $\vert x \vert < \frac{3}{2}$.
 
 The whole expansion is valid for `\_\_\_\_\_\_`
 

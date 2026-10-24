@@ -37,7 +37,7 @@ $m=\frac{y_{2}-y_{1}}{x_{2}-x_{1}}$
 
   - This is the **gradient-intercept form**
   - It clearly shows the gradient *m *and the *y*-intercept (0, *c*)
-- `space y minus y subscript 1 equals m open parentheses x minus x subscript 1 close parentheses`
+- $y - y_{1} = m ( x - x_{1} )$
 - This is the **point-gradient form**
 
   - It clearly shows the gradient *m *and a point on the line (*x*<sub>*1*</sub>*, y*<sub>*1*</sub>)
@@ -77,9 +77,9 @@ $m=\frac{y_{2}-y_{1}}{x_{2}-x_{1}}$
 > 
 > > *To find the value of **c**, substitute (5, 4) into the equation*
 > 
-> `4 equals 3 open parentheses 5 close parentheses plus c
-> 4 equals 15 plus c
-> c equals negative 11`
+> $4 = 3 ( 5 ) + c
+> 4 = 15 + c
+> c = - 11$
 > 
 > > *Replace **c** with −11 to complete the equation of the line*
 > 
@@ -93,17 +93,17 @@ $m=\frac{y_{2}-y_{1}}{x_{2}-x_{1}}$
 > 
 > > *First find **m**, the gradient*
 > 
-> `table attributes columnalign right center left columnspacing 0px end attributes row m equals cell fraction numerator 6 minus 1 over denominator negative 2 minus 8 end fraction end cell row blank equals cell fraction numerator 5 over denominator negative 10 end fraction end cell row blank equals cell negative 1 half end cell end table`
+> $\begin{array}{rcl} m = \frac{6 - 1}{- 2 - 8} \\ = \frac{5}{- 10} \\ = - 1 \frac{1}{2} \end{array}$
 > 
 > > *We know that the line takes the form *
 > 
-> `table attributes columnalign right center left columnspacing 0px end attributes row y equals cell negative 1 half x plus c end cell end table`
+> $\begin{array}{rcl} y = - 1 \frac{1}{2} x + c \end{array}$
 > 
 > > *To find the value of **c**, substitute either of the given points into this equation. Here we will pick (8, 1) as it is doesn't contain negative numbers so is easier to work with*
 > 
-> `1 equals negative 1 half open parentheses 8 close parentheses plus c
-> 1 equals negative 4 plus c
-> c equals 5`
+> $1 = - 1 \frac{1}{2} ( 8 ) + c
+> 1 = - 4 + c
+> c = 5$
 > 
 > > *Replace **c** with −11 to complete the equation of the line*
 > 
@@ -121,9 +121,9 @@ $m=\frac{y_{2}-y_{1}}{x_{2}-x_{1}}$
 
 - The midpoint of a line will be the same distance from both endpoints
 - You can think of a midpoint as being the average (mean) of two coordinates
-- The midpoint of `open parentheses x subscript 1 comma space y subscript 1 close parentheses` and `open parentheses x subscript 2 comma space y subscript 2 close parentheses` is
+- The midpoint of $( x_{1} , y_{1} )$ and $( x_{2} , y_{2} )$ is
 
-`open parentheses fraction numerator x subscript 1 plus x subscript 2 over denominator 2 end fraction space comma space fraction numerator y subscript 1 plus y subscript 2 over denominator 2 end fraction close parentheses`
+$( \frac{x_{1} + x_{2} }{2} , \frac{y_{1} + y_{2} }{2} )$
 
 ![Midpoint of a line segment](../../../assets/0231e3ac2a05-3-1-1-basic-coordinate-geometry-notes-diagram-5.png)
 
@@ -135,11 +135,11 @@ $m=\frac{y_{2}-y_{1}}{x_{2}-x_{1}}$
 > 
 > Find *M*, the midpoint of *AB*.
 > 
-> > *The midpoint can be found using **M** = *`open parentheses fraction numerator x subscript 1 plus x subscript 2 over denominator 2 end fraction space comma space fraction numerator y subscript 1 plus y subscript 2 over denominator 2 end fraction close parentheses`
+> > *The midpoint can be found using **M** = *$( \frac{x_{1} + x_{2} }{2} , \frac{y_{1} + y_{2} }{2} )$
 > 
 > > *Fill in the values of **x** and **y ** from each coordinate*
 > 
-> `open parentheses fraction numerator negative 4 plus 8 over denominator 2 end fraction space comma space fraction numerator 3 plus negative 12 over denominator 2 end fraction close parentheses equals open parentheses 4 over 2 comma space fraction numerator negative 9 over denominator 2 end fraction close parentheses`
+> $( \frac{- 4 + 8}{2} , \frac{3 + - 12}{2} ) = ( \frac{4}{2} , \frac{- 9}{2} )$
 > 
 > > *Simplify*
 > 
@@ -153,9 +153,9 @@ $m=\frac{y_{2}-y_{1}}{x_{2}-x_{1}}$
 
 ### How do I calculate the length of a line segment?
 
-- The distance between two points with coordinates `open parentheses x subscript 1 space comma space y subscript 1 close parentheses` and `open parentheses x subscript 2 space comma space y subscript 2 close parentheses` can be found using the formula
+- The distance between two points with coordinates $( x_{1} , y_{1} )$ and $( x_{2} , y_{2} )$ can be found using the formula
 
-`d equals square root of open parentheses x subscript 1 minus x subscript 2 close parentheses squared plus open parentheses y subscript 1 minus y subscript 2 close parentheses squared end root`
+$d = \sqrt{( x_{1} - x_{2} )^{2} + ( y_{1} - y_{2} )^{2}}$
 
 - This formula is really just Pythagoras’ Theorem  $a^{2}=b^{2}+c^{2}$, applied to the difference in the $x$-coordinates and the difference in the $y$-coordinates;
 
@@ -176,14 +176,14 @@ $m=\frac{y_{2}-y_{1}}{x_{2}-x_{1}}$
 > 
 > Calculate the distance of the line segment *AB*.
 > 
-> > *Using the formula for the distance between two points, *`d equals square root of open parentheses x subscript 1 minus x subscript 2 close parentheses squared plus open parentheses y subscript 1 minus y subscript 2 close parentheses squared end root`* *
+> > *Using the formula for the distance between two points, *$d = \sqrt{( x_{1} - x_{2} )^{2} + ( y_{1} - y_{2} )^{2}}$* *
 > 
 > > *Substituting in the two given coordinates:*
 > 
-> `d equals square root of open parentheses 3 minus negative 5 close parentheses squared plus open parentheses negative 4 minus 2 close parentheses squared end root`
+> $d = \sqrt{( 3 - - 5 )^{2} + ( - 4 - 2 )^{2}}$
 > 
 > *Simplify:*
 > 
-> `d equals square root of open parentheses 8 close parentheses squared plus open parentheses negative 6 close parentheses squared end root space equals space square root of 64 plus 36 end root equals square root of 100 equals 10`
+> $d = \sqrt{( 8 )^{2} + ( - 6 )^{2}} = \sqrt{64 + 36} = \sqrt{100} = 10$
 > 
 > **Final answer:** **Answer = 10 units**

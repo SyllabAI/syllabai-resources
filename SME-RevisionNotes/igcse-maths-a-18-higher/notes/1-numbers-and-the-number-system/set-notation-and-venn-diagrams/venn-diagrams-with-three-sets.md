@@ -39,7 +39,7 @@ guided_study: false
   - A region **outside the three circles**
   
     - $A'\capB'\capC'$
-    - This can also be written as `open parentheses A union B union C close parentheses apostrophe`
+    - This can also be written as $( A \cup B \cup C ) '$
 
 ![Venn diagram with three overlapping circles labelled A, B, C. Regions are marked with formulas like AnBnC and A'nB'nC for set operations.](../../../assets/04a0063db139-3484-intersections.png)
 
@@ -100,7 +100,7 @@ guided_study: false
   - This is the total number of elements minus the number of elements in all the intersections
 
 > **Worked Example**
-> Some students were asked whether they like studying statistics `open parentheses S close parentheses`, algebra `open parentheses A close parentheses` and geometry `open parentheses G close parentheses`.
+> Some students were asked whether they like studying statistics $( S )$, algebra $( A )$ and geometry $( G )$.
 > 
 > - 5 said they like studying all three of statistics, algebra and geometry
 > - 11 said they like studying statistics and algebra
@@ -158,6 +158,6 @@ guided_study: false
 > 
 > > *Set this equal to 30 and solve for *$x$
 > 
-> `table row cell x plus 8 end cell equals 30 row x equals 22 end table`
+> $\begin{gathered} x + 8 & = 30 \\ x = 22 \end{gathered}$
 > 
 > **Final answer:** **22 students said they like studying statistics**

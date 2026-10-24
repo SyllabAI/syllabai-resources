@@ -36,7 +36,7 @@ $x=1.93$** [1]**
 **Unrounded answers accepted**
 
 ### Q2
-> *Start a new graph on your graphic display calculator and enter *`straight f open parentheses x close parentheses equals 0.1 x cubed plus 0.25 x squared minus 2 x minus 1`* to generate the graph*
+> *Start a new graph on your graphic display calculator and enter *$\mathrm{f} ( x ) = 0.1 x^{3} + 0.25 x^{2} - 2 x - 1$* to generate the graph*
 
 > *Changing the values of the **x-**axis to a value less than -7 and greater than 5, and the values of the **y-**axis to be from -10 to 8 will help  *
 
@@ -48,7 +48,7 @@ $P=-1$
 
 > *This is  the *$y$*-coordinate, the *$x$*-coordinate will be zero*
 
-`P equals open parentheses 0 comma space minus 1 close parentheses`**[1]**
+$P = ( 0 , - 1 )$**[1]**
 
 > *On your calculator navigate to the *$x$*-intersections of the graph, looking for the point where *$Q$* is*
 
@@ -58,7 +58,7 @@ $Q=3.6776...$
 
 > *Round your answer to 3 significant figures*
 
-`Q equals open parentheses 3.68 comma space 0 close parentheses`**[1]**
+$Q = ( 3.68 , 0 )$**[1]**
 **Unrounded answer accepted**
 > *Select the option to analyse the graph and *
 
@@ -92,19 +92,19 @@ $-3.21<a<4.78$** [2]**
 **Follow through from (b)**
 
 ### Q3
-> *Input each of the values of *$x$* in the mapping diagram into the given function, *`straight f open parentheses x close parentheses equals fraction numerator 3 open parentheses x plus 4 close parentheses over denominator 2 end fraction`* separately*
+> *Input each of the values of *$x$* in the mapping diagram into the given function, *$\mathrm{f} ( x ) = \frac{3 ( x + 4 )}{2}$* separately*
 
 > *For *$x=0$*:*
 
-`straight f open parentheses 0 close parentheses equals fraction numerator 3 cross times open parentheses 0 plus 4 close parentheses over denominator 2 end fraction equals 12 over 2 equals 6`
+$\mathrm{f} ( 0 ) = \frac{3 \times ( 0 + 4 )}{2} = \frac{12}{2} = 6$
 
 > *For *$x=1$*:*
 
-`straight f open parentheses 1 close parentheses equals fraction numerator 3 cross times open parentheses 1 plus 4 close parentheses over denominator 2 end fraction equals 15 over 2 equals 7.5`
+$\mathrm{f} ( 1 ) = \frac{3 \times ( 1 + 4 )}{2} = \frac{15}{2} = 7.5$
 
 > *For *$x=2$*:*
 
-`straight f open parentheses 2 close parentheses equals fraction numerator 3 cross times open parentheses 2 plus 4 close parentheses over denominator 2 end fraction equals 18 over 2 equals 9`
+$\mathrm{f} ( 2 ) = \frac{3 \times ( 2 + 4 )}{2} = \frac{18}{2} = 9$
 
 ![Mapping diagram from question with the numbers 6, 7.5 and 9 added to the f(x) column](assets/006-mapping-diagram-from-question-with-the-numbers-6.png)
 
@@ -157,23 +157,23 @@ $60\div3=12$
 **[1]**
 
 ### Q6
-> *Input each of the values of *$x$* in the mapping diagram into the given function, *`straight f open parentheses x close parentheses equals 3 x minus 5`* separately*
+> *Input each of the values of *$x$* in the mapping diagram into the given function, *$\mathrm{f} ( x ) = 3 x - 5$* separately*
 
 > *For *$x=0$*:*
 
-`straight f open parentheses 0 close parentheses equals 3 cross times 0 minus 5 equals negative 5`
+$\mathrm{f} ( 0 ) = 3 \times 0 - 5 = - 5$
 
 > *For *$x=1$*:*
 
-`straight f open parentheses 1 close parentheses equals 3 cross times 1 minus 5 equals negative 2`
+$\mathrm{f} ( 1 ) = 3 \times 1 - 5 = - 2$
 
 > *For *$x=2$*:*
 
-`straight f open parentheses 2 close parentheses equals 3 cross times 2 minus 5 equals 1`
+$\mathrm{f} ( 2 ) = 3 \times 2 - 5 = 1$
 
 > *For *$x=3$*:*
 
-`straight f open parentheses 3 close parentheses equals 3 cross times 3 minus 5 equals 4`
+$\mathrm{f} ( 3 ) = 3 \times 3 - 5 = 4$
 
 ![Mapping diagram from question with the numbers -5, -2, 1 and 4 added to the f(x) column](assets/011-mapping-diagram-from-question-with-the-numbers-5.png)
 
@@ -181,7 +181,7 @@ $60\div3=12$
 **All correct [1]**
 
 ### Q7
-> *Start a new graph on your calculator and enter *`straight f subscript 1 open parentheses x close parentheses equals x cubed minus 4 x`* and *`straight f subscript 2 open parentheses x close parentheses equals x squared minus 4`* to generate the two graphs on the same axes*
+> *Start a new graph on your calculator and enter *$\mathrm{f}_{1} ( x ) = x^{3} - 4 x$* and *$\mathrm{f}_{2} ( x ) = x^{2} - 4$* to generate the two graphs on the same axes*
 
 > *It helps to change the axis to *$-2.5\leqx\leq2.5$* and *$-6\leqy\leq6$
 
@@ -204,7 +204,7 @@ $60\div3=12$
 **All three solutions correct [1]**
 
 ### Q8
-> *Start a new graph on your calculator and enter *`straight f open parentheses x close parentheses equals x cubed`* to generate the graph*
+> *Start a new graph on your calculator and enter *$\mathrm{f} ( x ) = x^{3}$* to generate the graph*
 
 > *It helps to change the axis to *$-2\leqx\leq2$* and *$-8\leqy\leq8$
 
@@ -213,7 +213,7 @@ $60\div3=12$
 **Correct cubic shape [1]**
 
 **Going through origin [1]**
-> *On the same axes on your calculator, sketch the graph of *`straight f subscript 2 open parentheses x close parentheses equals 2 minus x`
+> *On the same axes on your calculator, sketch the graph of *$\mathrm{f}_{2} ( x ) = 2 - x$
 
 > *This is a straight line graph with a *$y$*-intercept of 2 and a gradient of -1*
 
@@ -224,7 +224,7 @@ $60\div3=12$
 
 > *Give your answer as a set of coordinates*
 
-`open parentheses 1 comma space 1 close parentheses`
+$( 1 , 1 )$
 
 **correct **$x$** coordinate [1]**
 
@@ -234,7 +234,7 @@ $60\div3=12$
 $x=1$** [1]**
 
 ### Q9
-> *Start a new graph on your calculator and enter *`straight f open parentheses x close parentheses equals x cubed minus 12 x`* to generate the graph*
+> *Start a new graph on your calculator and enter *$\mathrm{f} ( x ) = x^{3} - 12 x$* to generate the graph*
 
 > *It helps to change the axis to *$-4\leqx\leq4$* and *$-20\leqy\leq20$
 
@@ -247,7 +247,7 @@ $x=1$** [1]**
 
 > *Write these as coordinates and round to 2 decimal places*
 
-**Final answer:** `open parentheses negative 3.46 comma space 0 close parentheses`**, **`open parentheses 0 comma space 0 close parentheses`** and **`open parentheses 3.46 comma space 0 close parentheses`
+**Final answer:** $( - 3.46 , 0 )$**, **$( 0 , 0 )$** and **$( 3.46 , 0 )$
 
 **3.46(41...) seen [1]**
 
@@ -258,7 +258,7 @@ $x=1$** [1]**
 
 > *From the sketch, the maximum point should have a negative *$x$* coordinate*
 
-`open parentheses negative 2 comma space 16 close parentheses`
+$( - 2 , 16 )$
 
 **correct **$x$** coordinate [1]**
 
@@ -269,14 +269,14 @@ $x=1$** [1]**
 
 > *From the sketch, the minimum point should have a positive *$x$* coordinate*
 
-`open parentheses 2 comma space minus 16 close parentheses`
+$( 2 , - 16 )$
 
 **correct **$x$** coordinate [1]**
 
 **correct **$y$** coordinate [1]**
 
 ### Q10
-> *Start a new graph on your calculator and enter *`straight f open parentheses x close parentheses equals 2 minus open parentheses x minus 1 close parentheses squared`* to generate the graph*
+> *Start a new graph on your calculator and enter *$\mathrm{f} ( x ) = 2 - ( x - 1 )^{2}$* to generate the graph*
 
 > *It helps to change the axis to *$-1\leqx\leq3$* and *$-2\leqy\leq2$
 
@@ -287,7 +287,7 @@ $x=1$** [1]**
 **Maximum to the right of the **$y$**-axis [1]**
 
 ### Q11
-> *Start a new graph on your calculator and enter *`straight f open parentheses x close parentheses equals 0.25 x to the power of 4`* to generate the graph*
+> *Start a new graph on your calculator and enter *$\mathrm{f} ( x ) = 0.25 x^{4}$* to generate the graph*
 
 > *Select the option to analyse the graph (this may be labelled as G-Solv) and check for any *$x$*-** and *$y$*-intercepts*
 
@@ -300,7 +300,7 @@ $x=1$** [1]**
 **Correct minimum point at the origin [1]**
 
 ### Q12
-> *Start a new graph on your calculator and enter *`straight f open parentheses x close parentheses equals x cubed minus 4 x`* to generate the graph*
+> *Start a new graph on your calculator and enter *$\mathrm{f} ( x ) = x^{3} - 4 x$* to generate the graph*
 
 > *Select the option to analyse the graph (this may be labelled as G-Solv) and check for any *$x$*-** and *$y$*-intercepts*
 

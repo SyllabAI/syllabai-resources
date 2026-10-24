@@ -95,9 +95,9 @@ $\frac{4}{3}πr^{3}ρ_{s}g=6πηrv+\frac{4}{3}πr^{3}ρ_{f}g$
 
 $\frac{4}{3}πr^{3}ρ_{s}g-\frac{4}{3}πr^{3}ρ_{f}g=6πηrv$
 
-`eta space equals space fraction numerator 4 straight pi r cubed g italic space open parentheses rho subscript s italic minus italic space rho subscript f close parentheses over denominator 3 cross times 6 straight pi r v end fraction`
+$\\eta = \frac{4 \mathrm{\pi } r^{3} g ( \rho_{s} - \rho_{f} )}{3 \times 6 \mathrm{\pi } r v}$
 
-`italic space eta space equals space fraction numerator 2 r squared g open parentheses rho subscript s italic minus italic space rho subscript f close parentheses over denominator 9 v end fraction`
+$\\eta = \frac{2 r^{2} g ( \rho_{s} - \rho_{f} )}{9 v}$
 
 #### Evaluating the Experiment
 

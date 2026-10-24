@@ -7,25 +7,25 @@
 ### 1() — 2 marks
 *Factorise the easier quadratic in the numerator (by taking out a common factor of **x**)* * *
 
-`fraction numerator x open parentheses x plus 3 close parentheses over denominator 2 x squared plus 5 x minus 3 end fraction`
+$\frac{x ( x + 3 )}{2 x^{2} + 5 x - 3}$
 
 *The harder quadratic on the denominator is likely to have (**x** + 3) as a factor*
 
 *Try factorising with (x + 3)* * *
 
-`2 x squared plus 5 x minus 3 equals open parentheses 2 x plus-or-minus... close parentheses open parentheses x plus 3 close parentheses ?` * *
+$2 x^{2} + 5 x - 3 = ( 2 x \pm... ) ( x + 3 ) ?$ * *
 
 > *The whole number -1 in the first bracket would multiply by +3 in the second bracket to give -3 on the left *
 
 *Expanding this attempt shows it is correct* * *
 
-`open parentheses 2 x minus 1 close parentheses open parentheses x plus 3 close parentheses equals 2 x squared plus 5 x minus 3`
+$( 2 x - 1 ) ( x + 3 ) = 2 x^{2} + 5 x - 3$
 
 **[1]**
 
 *Cancel common brackets from top-and-bottom* * *
 
-`table attributes columnalign right center left columnspacing 0px end attributes row blank blank cell fraction numerator x up diagonal strike open parentheses x plus 3 close parentheses end strike over denominator open parentheses 2 x minus 1 close parentheses up diagonal strike open parentheses x plus 3 close parentheses end strike end fraction end cell row blank equals cell fraction numerator x over denominator 2 x minus 1 end fraction end cell end table`
+$\begin{array}{rcl} \frac{x \cancel{( x + 3 )} }{( 2 x - 1 ) \cancel{( x + 3 )} } \\ = \frac{x}{2 x - 1} \end{array}$
 
 > *This is of the form *$\frac{x}{kx-1}$* where **k** = 2*
 
@@ -46,7 +46,7 @@ $x=\frac{y}{2y-1}$
 
 *Remove fractions (by multiplying both sides by 2**y** - 1)* * *
 
-`table attributes columnalign right center left columnspacing 0px end attributes row cell x open parentheses 2 y minus 1 close parentheses end cell equals y end table`
+$\begin{array}{rcl} x ( 2 y - 1 ) & = y \end{array}$
 
 > *Expand the brackets  *
 
@@ -54,13 +54,13 @@ $2xy-x=y$
 
 > *Get the **y** terms on one side (by example, by adding **x** to both sides and subtracting **y** from both sides)  *
 
-`table attributes columnalign right center left columnspacing 0px end attributes row cell 2 x y end cell equals cell y plus x end cell row cell 2 x y minus y end cell equals x end table`
+$\begin{array}{rcl} 2 x y & = y + x \\ 2 x y - y & = x \end{array}$
 
 **[1]**
 
 > *Factorise out** y** from the two terms on the left  *
 
-> `y open parentheses 2 x minus 1 close parentheses equals x`*  *
+> $y ( 2 x - 1 ) = x$*  *
 
 > *Get **y** on its own (by dividing both sides by 2**x** - 1)  *
 
@@ -77,13 +77,13 @@ $f^{-1}(x)=\frac{x}{2x-1}$* ***[1]**
 ### 17((b)) — 3 marks
 > *Although this may at first appear to be a quadratic equations question, it's actually a linear equations question "in disguise"!*
 
-> *First rewrite *`fg open parentheses x close parentheses space equals space straight f open parentheses x close parentheses`* in terms of *$x$* using composite functions.*
+> *First rewrite *$\text{fg} ( x ) = \mathrm{f} ( x )$* in terms of *$x$* using composite functions.*
 
-`open parentheses x space minus space 10 close parentheses squared space plus space 6 space equals space x squared space plus space 6`
+$( x - 10 )^{2} + 6 = x^{2} + 6$
 
 **[1]**
 
-> *Expand the brackets; *`open parentheses x space minus space 10 close parentheses squared space equals space open parentheses x space minus space 10 close parentheses open parentheses x space minus space 10 close parentheses`*.*
+> *Expand the brackets; *$( x - 10 )^{2} = ( x - 10 ) ( x - 10 )$*.*
 
 $x^{2}-20x+100+6=x^{2}+6$
 
@@ -95,15 +95,15 @@ $x^{2}-20x+106=x^{2}+6$
 
 > *Now subtract *$x^{2}$* from both sides, to reveal the linear equation!*
 
-`table row cell x squared space minus space 20 x space plus space 106 space end cell equals cell space x squared space plus space 6 end cell row cell negative x squared space space space space space space space space space space space space space space space space space space space space space space space space space space space end cell equals cell space space space space space space space space space space space minus x squared end cell row cell negative 20 x space plus space 106 space end cell equals cell space 6 end cell end table`
+$\begin{gathered} x^{2} - 20 x + 106 & = x^{2} + 6 \\ - x^{2} & = - x^{2} \\ - 20 x + 106 & = 6 \end{gathered}$
 
 > *Subtract 106 from both sides.*
 
-`table row cell negative 20 x space end cell equals cell space minus 100 end cell end table`
+$\begin{gathered} - 20 x & = - 100 \end{gathered}$
 
 > *And divide both sides by -20.*
 
-`table row cell x space end cell equals cell space fraction numerator negative 100 over denominator negative 20 end fraction space equals space 5 end cell end table`
+$\begin{gathered} x & = \frac{- 100}{- 20} = 5 \end{gathered}$
 
 $x=5$ ** [1]**
 
@@ -112,7 +112,7 @@ $x=5$ ** [1]**
 ### 11((a)) — 1 marks
 *Substitute** x** = -5 into f(**x**) (putting brackets around the negative number)*
 
-`straight f open parentheses negative 5 close parentheses equals 2 over open parentheses negative 5 close parentheses squared`
+$\mathrm{f} ( - 5 ) = \frac{2}{( - 5 )^{2}}$
 
 > *Work out this value (either using a calculator or by using that (-5) × (-5) = 25)*
 
@@ -123,7 +123,7 @@ $\frac{2}{25}$ **[1]**
 
 *Find g(1) by substituting **x** = 1 into g(**x**)* * *
 
-`table row cell straight g open parentheses 1 close parentheses end cell equals cell 4 cross times 1 cubed end cell row blank equals 4 end table`
+$\begin{gathered} \mathrm{g} ( 1 ) & = 4 \times 1^{3} \\ = 4 \end{gathered}$
 
 **[1]**
 
@@ -131,7 +131,7 @@ $\frac{2}{25}$ **[1]**
 
 *Find f(4) by substituting **x **= 4 into f(**x**)* * *
 
-> `straight f open parentheses straight g open parentheses 1 close parentheses close parentheses equals f open parentheses 4 close parentheses equals 2 over 4 squared`*  *
+> $\mathrm{f} ( \mathrm{g} ( 1 ) ) = f ( 4 ) = \frac{2}{4^{2}}$*  *
 
 > *Write 4*<sup>*2*</sup>* as 16 (from 4 × 4) and cancel *$\frac{2}{16}$* (by dividing top-and-bottom by 2)*
 
@@ -144,7 +144,7 @@ $\frac{1}{8}$* ***[1]**
 
 *If g(3) = 20 then substitute x = 3 into g(x) and set this equal to 20* * *
 
-`table row cell a cross times 3 plus b end cell equals 20 row cell 3 a plus b end cell equals 20 end table`
+$\begin{gathered} a \times 3 + b & = 20 \\ 3 a + b & = 20 \end{gathered}$
 
 **[1]**
 
@@ -160,7 +160,7 @@ $x=5y+3$
 
 *Now make **y** the subject of this new equation (by subtracting 3 from both sides then dividing both sides by 5)* * *
 
-`table row cell x minus 3 end cell equals cell 5 y end cell row cell fraction numerator x minus 3 over denominator 5 end fraction end cell equals y end table` * *
+$\begin{gathered} x - 3 & = 5 y \\ \frac{x - 3}{5} & = y \end{gathered}$ * *
 
 *The function on the left-hand side is the inverse function, f*<sup>*-1*</sup>*(**x**)* *Replace **y** with f*<sup>*-1*</sup>*(**x**)*
 
@@ -170,11 +170,11 @@ $f^{-1}(x)=\frac{x-3}{5}$
 
 > *Find f*<sup>*-1*</sup>*(33) by substituting **x** = 33 into f*<sup>*-1*</sup>*(**x**)  *
 
-`table row cell straight f to the power of negative 1 end exponent open parentheses 33 close parentheses end cell equals cell fraction numerator 33 minus 3 over denominator 5 end fraction end cell row blank equals cell 30 over 5 end cell row blank equals 6 end table`
+$\begin{gathered} \mathrm{f}^{- 1} ( 33 ) & = \frac{33 - 3}{5} \\ = \frac{30}{5} \\ = 6 \end{gathered}$
 
 > *Find g(1) by substituting 1 into g(**x**)  *
 
-`straight g open parentheses 1 close parentheses equals a plus b`
+$\mathrm{g} ( 1 ) = a + b$
 
 **[1]**
 
@@ -188,15 +188,15 @@ $6=a+b$
 
 > *Write down the two simultaneous equations for **a** and **b**  *
 
-> `table row cell 3 a plus b end cell equals 20 row cell a plus b end cell equals 6 end table`*  *
+> $\begin{gathered} 3 a + b & = 20 \\ a + b & = 6 \end{gathered}$*  *
 
 > *Solve to find **a** (for example, by subtracting the second equations from the first)  *
 
-> `table attributes columnalign right center left columnspacing 0px end attributes row cell 2 a end cell equals 14 row a equals cell 14 over 2 end cell row a equals 7 end table`*  *
+> $\begin{array}{rcl} 2 a & = 14 \\ a = \frac{14}{2} \\ a = 7 \end{array}$*  *
 
 > *Find **b** (for example, by substituting **a** = 7 into the second equation then solving for** b**)  *
 
-> `table row cell 7 plus b end cell equals 6 row b equals cell negative 1 end cell end table`*  *
+> $\begin{gathered} 7 + b & = 6 \\ b = - 1 \end{gathered}$*  *
 
 > *Write out the two solutions together*
 
@@ -207,27 +207,27 @@ $6=a+b$
 ### 18() — 3 marks
 *Replace every **x** in f(**x**) with (**x** + 2) in brackets* * *
 
-`straight f open parentheses x plus 2 close parentheses equals 3 open parentheses x plus 2 close parentheses squared minus 2 open parentheses x plus 2 close parentheses minus 8`
+$\mathrm{f} ( x + 2 ) = 3 ( x + 2 )^{2} - 2 ( x + 2 ) - 8$
 
 **[1]**
 
 *Expand the brackets (**x** + 2)*<sup>*2*</sup>* and collect like terms* * *
 
-`table row cell open parentheses x plus 2 close parentheses squared end cell equals cell open parentheses x plus 2 close parentheses open parentheses x plus 2 close parentheses end cell row blank equals cell x squared plus 2 x plus 2 x plus 4 end cell row blank equals cell x squared plus 4 x plus 4 end cell end table` * *
+$\begin{gathered} ( x + 2 )^{2} & = ( x + 2 ) ( x + 2 ) \\ = x^{2} + 2 x + 2 x + 4 \\ = x^{2} + 4 x + 4 \end{gathered}$ * *
 
 *Replace (**x** + 2)*<sup>*2*</sup>* in the original expression with the result above in brackets* * *
 
-`straight f open parentheses x plus 2 close parentheses equals 3 open parentheses x squared plus 4 x plus 4 close parentheses minus 2 open parentheses x plus 2 close parentheses minus 8`
+$\mathrm{f} ( x + 2 ) = 3 ( x^{2} + 4 x + 4 ) - 2 ( x + 2 ) - 8$
 
 **[1]**
 
 *Expand the brackets (by multiplying all terms in the first bracket by 3 and all terms in the second bracket by -2)* * *
 
-`straight f open parentheses x plus 2 close parentheses equals 3 x squared plus 12 x plus 12 minus 2 x minus 4 minus 8`
+$\mathrm{f} ( x + 2 ) = 3 x^{2} + 12 x + 12 - 2 x - 4 - 8$
 
 *Collect like terms* * *
 
-`straight f open parentheses x plus 2 close parentheses equals 3 x squared plus 10 x` * *
+$\mathrm{f} ( x + 2 ) = 3 x^{2} + 10 x$ * *
 
 > *This is now in the form **ax*<sup>*2*</sup>* + **bx** where **a** = 3 and **b** = 10*
 
@@ -248,7 +248,7 @@ $x=3y-2$
 
 *Now make **y** the subject of this new equation (by adding 2 to both sides then dividing both sides by 3)* * *
 
-`table row cell x plus 2 end cell equals cell 3 y end cell row cell fraction numerator x plus 2 over denominator 3 end fraction end cell equals y end table` * *
+$\begin{gathered} x + 2 & = 3 y \\ \frac{x + 2}{3} & = y \end{gathered}$ * *
 
 *The function on the left-hand side is the inverse function, f*<sup>*-1*</sup>*(**x**)* *Replace **y** with f*<sup>*-1*</sup>*(**x**) to write down the final answer*
 
@@ -259,17 +259,17 @@ $f^{-1}(x)=\frac{x+2}{3}$**[1]**
 
 *Write the expression for f(**x**) inside g(...)* * *
 
-`straight g open parentheses straight f open parentheses x close parentheses close parentheses equals straight g open parentheses 3 x minus 2 close parentheses` * *
+$\mathrm{g} ( \mathrm{f} ( x ) ) = \mathrm{g} ( 3 x - 2 )$ * *
 
 *Find g(3**x** - 2) by replacing the **x**'s in g(**x**) with the brackets (3**x** - 2)* * *
 
-`g open parentheses 3 x minus 2 close parentheses equals fraction numerator 10 over denominator open parentheses 3 x minus 2 close parentheses plus 2 end fraction`
+$g ( 3 x - 2 ) = \frac{10}{( 3 x - 2 ) + 2}$
 
 **[1]**
 
 *Expand the brackets and collect like terms in the denominator* * *
 
-`table attributes columnalign right center left columnspacing 0px end attributes row cell g open parentheses 3 x minus 2 close parentheses end cell equals cell fraction numerator 10 over denominator 3 x minus 2 plus 2 end fraction end cell row blank equals cell fraction numerator 10 over denominator 3 x end fraction end cell end table` * *
+$\begin{array}{rcl} g ( 3 x - 2 ) & = \frac{10}{3 x - 2 + 2} \\ = \frac{10}{3 x} \end{array}$ * *
 
 > *Write your final answer as gf(**x**) = ...*
 
@@ -280,7 +280,7 @@ $\mathrm{gf}(x)=\frac{10}{3x}$* ***[1]**
 ### 1() — 1 marks
 *Substitute** x** = 10 into f(**x**) *
 
-`straight f open parentheses 10 close parentheses space equals space square root of 10 space minus space 6 end root space equals space square root of 4`
+$\mathrm{f} ( 10 ) = \sqrt{10 - 6} = \sqrt{4}$
 
 **2** **[1]**
 
@@ -309,11 +309,11 @@ $x<6$* ***[1]**
 $g(2)=7$* ***[1]**
 
 ### 4() — 2 marks
-> *To find the value of *`fg open parentheses 0 close parentheses`*, put the output of *`straight g open parentheses 0 close parentheses`* into *`straight f open parentheses x close parentheses`*. *
+> *To find the value of *$fg ( 0 )$*, put the output of *$\mathrm{g} ( 0 )$* into *$\mathrm{f} ( x )$*. *
 
-> *Use the graph of *`straight g open parentheses x close parentheses`* to find the value of *`straight g open parentheses 0 close parentheses`*. *
+> *Use the graph of *$\mathrm{g} ( x )$* to find the value of *$\mathrm{g} ( 0 )$*. *
 
-> *The value of *`straight g open parentheses 0 close parentheses`* is the **y **value when the **x **value is 0.*
+> *The value of *$\mathrm{g} ( 0 )$* is the **y **value when the **x **value is 0.*
 
 $g(0)=15$
 
@@ -321,9 +321,9 @@ $g(0)=15$
 
 > *The output of g(0) is 15. *
 
-> *Substitute this into the expression for *`straight f open parentheses x close parentheses`*.*
+> *Substitute this into the expression for *$\mathrm{f} ( x )$*.*
 
-`table row cell straight f open parentheses 15 close parentheses space end cell equals cell space square root of 15 space minus space 6 end root space end cell row blank equals cell space square root of 9 end cell end table`
+$\begin{gathered} \mathrm{f} ( 15 ) & = \sqrt{15 - 6} \\ = \sqrt{9} \end{gathered}$
 
 $\mathrm{fg}(0)=3$* ***[1]**
 
@@ -332,13 +332,13 @@ $\mathrm{fg}(0)=3$* ***[1]**
 
 > *Draw a line to the graph from *$x=1$* and then along to the **y-**axis to find the value of *$k.$
 
-> *Draw a horizontal line across the graph extending across all of *`straight g open parentheses x close parentheses.`
+> *Draw a horizontal line across the graph extending across all of *$\mathrm{g} ( x ).$
 
 **[1]**
 
 ![edexcel-igcse-tq-ma-functions-veryhard-q3e](assets/012-edexcel-igcse-tq-ma-functions-veryhard-q3e.png)
 
-> *Read the values off the **x**- axis from the points where the graphs of *$y=k$* and *`y space equals space straight g open parentheses x close parentheses`* intersect. *
+> *Read the values off the **x**- axis from the points where the graphs of *$y=k$* and *$y = \mathrm{g} ( x )$* intersect. *
 
 **[1]**
 
@@ -351,11 +351,11 @@ $x=-0.8\mathrm{and}x=3.8$ **[1]**
 
 *Write the expression for g(**x**) inside f(...)* * *
 
-`straight f open parentheses straight g open parentheses x close parentheses close parentheses equals straight f open parentheses fraction numerator 1 over denominator x minus 2 end fraction close parentheses` * *
+$\mathrm{f} ( \mathrm{g} ( x ) ) = \mathrm{f} ( \frac{1}{x - 2} )$ * *
 
-*Find *`straight f open parentheses fraction numerator 1 over denominator x minus 2 end fraction close parentheses`* by replacing the **x**'s in f(**x**) with the brackets *`open parentheses fraction numerator 1 over denominator x minus 2 end fraction close parentheses` * *
+*Find *$\mathrm{f} ( \frac{1}{x - 2} )$* by replacing the **x**'s in f(**x**) with the brackets *$( \frac{1}{x - 2} )$ * *
 
-`table attributes columnalign right center left columnspacing 0px end attributes row cell straight f open parentheses fraction numerator 1 over denominator x minus 2 end fraction close parentheses end cell equals cell open parentheses fraction numerator 1 over denominator x minus 2 end fraction close parentheses plus 3 end cell row blank equals cell fraction numerator 1 over denominator x minus 2 end fraction plus 3 end cell end table`
+$\begin{array}{rcl} \mathrm{f} ( \frac{1}{x - 2} ) & = ( \frac{1}{x - 2} ) + 3 \\ = \frac{1}{x - 2} + 3 \end{array}$
 
 **[1]**
 
@@ -363,17 +363,17 @@ $x=-0.8\mathrm{and}x=3.8$ **[1]**
 
 *Find the lowest common denominator by multiplying 1 by (**x** - 2)*
 
-*lowest common denominator is *`open parentheses x minus 2 close parentheses`
+*lowest common denominator is *$( x - 2 )$
 
 *Multiply top-and-bottom of each fraction by the brackets needed to form this denominator*
 
-`fraction numerator 1 over denominator x minus 2 end fraction plus fraction numerator 3 open parentheses x minus 2 close parentheses over denominator x minus 2 end fraction`
+$\frac{1}{x - 2} + \frac{3 ( x - 2 )}{x - 2}$
 
 > *Write as one single fraction over the common denominator *
 
 *Add the numerators* * *
 
-`fraction numerator 1 plus 3 open parentheses x minus 2 close parentheses over denominator x minus 2 end fraction`
+$\frac{1 + 3 ( x - 2 )}{x - 2}$
 
 **[1]**
 
@@ -400,7 +400,7 @@ $x=\frac{1}{y-2}$
 
 *Remove fractions (by multiplying both sides by **y** - 2)* * *
 
-`table row cell x open parentheses y minus 2 close parentheses end cell equals 1 end table`
+$\begin{gathered} x ( y - 2 ) & = 1 \end{gathered}$
 
 > *Get (**y** - 2) on its own (by dividing both sides by** x**)  *
 
@@ -423,7 +423,7 @@ $\frac{1+2x}{x}$** is also accepted**
 ### 1() — 1 marks
 *Substitute** x** = *$\frac{1}{2}$* into f(**x**) *
 
-`straight f open parentheses 1 half close parentheses equals fraction numerator 1 over denominator open parentheses begin display style 1 half end style close parentheses squared plus 1 end fraction`
+$\mathrm{f} ( 1 \frac{1}{2} ) = \frac{1}{( 1 \frac{1}{2} )^{2} + 1}$
 
 > *Work out this value using a calculator *
 
@@ -434,17 +434,17 @@ $\frac{4}{5}$ **[1]**
 
 *Write the expression for g(**x**) inside f(...)* * *
 
-`straight f open parentheses straight g open parentheses x close parentheses close parentheses equals straight f open parentheses square root of x minus 1 end root close parentheses` * *
+$\mathrm{f} ( \mathrm{g} ( x ) ) = \mathrm{f} ( \sqrt{x - 1} )$ * *
 
-*Find *`straight f open parentheses square root of x minus 1 end root close parentheses`* by replacing the **x**'s in f(**x**) with the brackets *`open parentheses square root of x minus 1 end root close parentheses` * *
+*Find *$\mathrm{f} ( \sqrt{x - 1} )$* by replacing the **x**'s in f(**x**) with the brackets *$( \sqrt{x - 1} )$ * *
 
-`straight f open parentheses square root of x minus 1 end root close parentheses equals fraction numerator 1 over denominator open parentheses square root of x minus 1 end root close parentheses squared plus 1 end fraction`
+$\mathrm{f} ( \sqrt{x - 1} ) = \frac{1}{( \sqrt{x - 1} )^{2} + 1}$
 
 **[1]**
 
 *Squaring a square-root cancels it out Collect like terms* * *
 
-`table row cell straight f open parentheses square root of x minus 1 end root close parentheses end cell equals cell fraction numerator 1 over denominator open parentheses square root of x minus 1 end root close parentheses squared plus 1 end fraction end cell row blank equals cell fraction numerator 1 over denominator x minus 1 plus 1 end fraction end cell row blank equals cell 1 over x end cell end table` * *
+$\begin{gathered} \mathrm{f} ( \sqrt{x - 1} ) & = \frac{1}{( \sqrt{x - 1} )^{2} + 1} \\ = \frac{1}{x - 1 + 1} \\ = \frac{1}{x} \end{gathered}$ * *
 
 > *Write your final answer as fg(**x**) = ...*
 
@@ -453,7 +453,7 @@ $\mathrm{fg}(x)=\frac{1}{x}$* ***[1]**
 ## Q10 — very_hard — 9 marks · exam-questions
 
 ### 1() — 1 marks
-> *The value of *`straight f open parentheses 0 close parentheses`* is the **y **value when the **x **value is 0.*
+> *The value of *$\mathrm{f} ( 0 )$* is the **y **value when the **x **value is 0.*
 
 ![edexcel-igcse-tq-ma-functions-veryhard-q4a](assets/005-edexcel-igcse-tq-ma-functions-veryhard-q4a.png)
 
@@ -483,7 +483,7 @@ $k<5\mathrm{or}k>13$** [1]**
 
 > *Use the two coordinates or the right-angled triangle to calculate the gradient. *
 
-`Gradient space equals space rise over run space equals space fraction numerator 17 space minus space 5 over denominator open parentheses negative 1.8 close parentheses space minus space open parentheses negative 3.2 close parentheses end fraction`
+$\text{Gradient} = \frac{rise}{run} = \frac{17 - 5}{( - 1.8 ) - ( - 3.2 )}$
 
 **[1]**
 
@@ -511,7 +511,7 @@ $x\neq-2$* ***[1]**
 
 > *Find g(-3) by substituting **x** = -3 into g(**x**). *
 
-`table row cell straight g open parentheses negative 3 close parentheses space end cell equals cell space fraction numerator 1 over denominator 2 space plus space open parentheses negative 3 close parentheses end fraction space equals fraction numerator space 1 over denominator 2 space minus space 3 end fraction space equals fraction numerator space 1 over denominator negative 1 end fraction space equals space minus 1 end cell end table`
+$\begin{gathered} \mathrm{g} ( - 3 ) & = \frac{1}{2 + ( - 3 )} = \frac{ 1}{2 - 3} = \frac{ 1}{- 1} = - 1 \end{gathered}$
 
 **[1]**
 
@@ -538,7 +538,7 @@ $x=4y-1$
 
 *Now make **y** the subject of this new equation (by adding 1 to both sides then dividing both sides by 4)* * *
 
-`table row cell x plus 1 end cell equals cell 4 y end cell row cell fraction numerator x plus 1 over denominator 4 end fraction end cell equals y end table` * *
+$\begin{gathered} x + 1 & = 4 y \\ \frac{x + 1}{4} & = y \end{gathered}$ * *
 
 *The function on the left-hand side is the inverse function, f*<sup>*-1*</sup>*(**x**)* *Replace **y** with f*<sup>*-1*</sup>*(**x**) to write down the final answer*
 
@@ -549,19 +549,19 @@ $f^{-1}(x)=\frac{x+1}{4}$**[1]**
 
 *Find g(2) by substituting **x** = 2 into g(**x**)* * *
 
-`table row cell straight g open parentheses 2 close parentheses end cell equals cell k cross times 2 squared end cell row blank equals cell 4 k end cell end table`
+$\begin{gathered} \mathrm{g} ( 2 ) & = k \times 2^{2} \\ = 4 k \end{gathered}$
 
 *If g(2) = 4**k** then f(g(2)) = f(4**k**)*
 
 *Find f(4**k**) by replacing **x** in f(**x**) by (4**k**) in brackets* * *
 
-`straight f open parentheses straight g open parentheses 2 close parentheses close parentheses equals f open parentheses 4 k close parentheses equals 4 open parentheses 4 k close parentheses minus 1`
+$\mathrm{f} ( \mathrm{g} ( 2 ) ) = f ( 4 k ) = 4 ( 4 k ) - 1$
 
 **[1]**
 
 > *Form an equation for** k** (by setting the expression above equal to 12)  *
 
-> `4 open parentheses 4 k close parentheses minus 1 equals 12`*  *
+> $4 ( 4 k ) - 1 = 12$*  *
 
 *Simplify the equation (by multiplying 4 x 4  x **k**)* * *
 
@@ -569,7 +569,7 @@ $16k-1=12$ * *
 
 *Solve the equation (by adding 1 to both sides then dividing both sides by 16)*
 
-`table attributes columnalign right center left columnspacing 0px end attributes row cell 16 k end cell equals 13 row k equals cell 13 over 16 end cell end table`
+$\begin{array}{rcl} 16 k & = 13 \\ k = \frac{13}{16} \end{array}$
 
 $\frac{13}{16}$* ***[1]**
 
@@ -578,7 +578,7 @@ $\frac{13}{16}$* ***[1]**
 ### 1() — 1 marks
 *Substitute** x** = 3 into f(**x**) *
 
-`straight f open parentheses 3 close parentheses equals 2 cross times 3 plus 5`
+$\mathrm{f} ( 3 ) = 2 \times 3 + 5$
 
 > *Work out this value (by adding 6 and 5)*
 
@@ -597,7 +597,7 @@ $x=2y+5$
 
 *Now make **y** the subject of this new equation (by subtracting 5 from both sides then dividing both sides by 2)* * *
 
-`table row cell x minus 5 end cell equals cell 2 y end cell row cell fraction numerator x minus 5 over denominator 2 end fraction end cell equals y end table` * *
+$\begin{gathered} x - 5 & = 2 y \\ \frac{x - 5}{2} & = y \end{gathered}$ * *
 
 *The function on the left-hand side is the inverse function, f*<sup>*-1*</sup>*(**x**)* *Replace **y** with f*<sup>*-1*</sup>*(**x**) to write down the final answer*
 
@@ -606,34 +606,34 @@ $f^{-1}(x)=\frac{x-5}{2}$**[1]**
 ### 3() — 1 marks
 *Substitute** x** = -3 into g(**x**) (putting brackets around the negative number)*
 
-`straight g open parentheses negative 3 close parentheses equals open parentheses negative 3 close parentheses squared minus 25`
+$\mathrm{g} ( - 3 ) = ( - 3 )^{2} - 25$
 
 > *Use that (-3) × (-3) = 9  *
 
-`straight g open parentheses negative 3 close parentheses equals 9 minus 25`
+$\mathrm{g} ( - 3 ) = 9 - 25$
 
 **-16** **[1]**
 
 ### 4() — 5 marks
 i) *gf(**x**) means g(f(**x**))* *Write the expression for f(**x**) inside g(...)* * *
 
-`straight g open parentheses straight f open parentheses x close parentheses close parentheses equals straight g open parentheses 2 x plus 5 close parentheses` * *
+$\mathrm{g} ( \mathrm{f} ( x ) ) = \mathrm{g} ( 2 x + 5 )$ * *
 
 *Find g(2**x** + 5) by replacing the **x**'s in g(**x**) with the brackets (2**x** + 5)* * *
 
-`straight g open parentheses 2 x plus 5 close parentheses equals open parentheses 2 x plus 5 close parentheses squared minus 25`
+$\mathrm{g} ( 2 x + 5 ) = ( 2 x + 5 )^{2} - 25$
 
 **[1]**
 
 *Expand the brackets and collect like terms *
 
-`table row cell open parentheses 2 x plus 5 close parentheses squared end cell equals cell open parentheses 2 x plus 5 close parentheses open parentheses 2 x plus 5 close parentheses end cell row blank equals cell 4 x squared plus 10 x plus 10 x plus 25 end cell row blank equals cell 4 x squared plus 20 x plus 25 end cell end table`
+$\begin{gathered} ( 2 x + 5 )^{2} & = ( 2 x + 5 ) ( 2 x + 5 ) \\ = 4 x^{2} + 10 x + 10 x + 25 \\ = 4 x^{2} + 20 x + 25 \end{gathered}$
 
 **[1]*** *
 
 > *Substitute this result back in g(2x + 5) and cancel the 25s  *
 
-> `table attributes columnalign right center left columnspacing 0px end attributes row cell straight g open parentheses 2 x plus 5 close parentheses end cell equals cell 4 x squared plus 20 x plus 25 minus 25 end cell row blank equals cell 4 x squared plus 20 x end cell end table`*  *
+> $\begin{array}{rcl} \mathrm{g} ( 2 x + 5 ) & = 4 x^{2} + 20 x + 25 - 25 \\ = 4 x^{2} + 20 x \end{array}$*  *
 
 > *Write your final answer as gf(**x**) = ...*
 
@@ -645,17 +645,17 @@ $4x^{2}+20x=0$ * *
 
 *Do not divide by **x **(this loses a solution)* *Factorise out 4**x**  *
 
-`4 x open parentheses x plus 5 close parentheses equals 0`
+$4 x ( x + 5 ) = 0$
 
 **[1]**
 
 *Solve 4**x** = 0 (by dividing by 4, or by seeing **x **= 0 is the solution)* * *
 
-`table row cell 4 x end cell equals 0 row x equals 0 end table` * *
+$\begin{gathered} 4 x & = 0 \\ x = 0 \end{gathered}$ * *
 
 *Solve **x** + 5 = 0 (by subtracting 5 from both sides)* * *
 
-`table row cell x plus 5 end cell equals 0 row x equals cell negative 5 end cell end table` * *
+$\begin{gathered} x + 5 & = 0 \\ x = - 5 \end{gathered}$ * *
 
 > *Present both solutions together*
 
@@ -676,35 +676,35 @@ $y=-x^{2}+6x+5\,x=-y^{2}+6y+5$
 
 *This is only necessary for the **y*<sup>*2*</sup>* and **y** terms so leave 5 as it is.*
 
-`negative y to the power of 2 space end exponent plus space 6 y space plus space 5 space equals space minus open parentheses y squared space minus space 6 y close parentheses space plus space 5`
+$- y^{2 } + 6 y + 5 = - ( y^{2} - 6 y ) + 5$
 
 > *Complete the square for the part in brackets.*
 
-`negative open parentheses y squared space minus space 6 y close parentheses space plus space 5 space equals space minus open square brackets open parentheses y space minus space 3 close parentheses squared space space minus space 9 close square brackets space plus space 5`
+$- ( y^{2} - 6 y ) + 5 = - [ ( y - 3 )^{2} - 9 ] + 5$
 
 **[1]**
 
 > *Expand and rearrange into the required completed square form.*
 
-`table row cell negative open square brackets open parentheses y space plus space 3 close parentheses squared space space minus space 9 close square brackets space plus space 5 space end cell equals cell space minus open parentheses y space plus space 3 close parentheses squared space plus space 9 space plus space 5 end cell row blank equals cell space 14 space minus space open parentheses y space plus space 3 close parentheses squared end cell end table`
+$\begin{gathered} - [ ( y + 3 )^{2} - 9 ] + 5 & = - ( y + 3 )^{2} + 9 + 5 \\ = 14 - ( y + 3 )^{2} \end{gathered}$
 
 **[1]**
 
 > *Set equal to *$x$* and rearrange to make *$y$* the subject.*
 
-`x space equals space 14 space minus space open parentheses y space minus space 3 close parentheses squared space`
+$x = 14 - ( y - 3 )^{2}$
 
 > *Rearrange **the expression to make *$y$* the subject again.*
 
-`table row cell x space minus space 14 space end cell equals cell space minus open parentheses y space minus space 3 close parentheses squared end cell row cell 14 space minus space x space end cell equals cell space open parentheses y space minus space 3 close parentheses squared end cell row cell y space minus space 3 space end cell equals cell space plus-or-minus square root of 14 space minus space x end root end cell row cell y space end cell equals cell 3 space plus-or-minus space square root of 14 space minus space x end root space end cell end table`
+$\begin{gathered} x - 14 & = - ( y - 3 )^{2} \\ 14 - x & = ( y - 3 )^{2} \\ y - 3 & = \pm \sqrt{14 - x} \\ y & = 3 \pm \sqrt{14 - x} \end{gathered}$
 
 **[1]**
 
-*The domain of g is *`open curly brackets x space colon space x greater or equal than 3 close curly brackets`* so this must be the range of the inverse, taking the positive square root will give *$y\geq3$*.*
+*The domain of g is *`{ x colon x >= 3 }`* so this must be the range of the inverse, taking the positive square root will give *$y\geq3$*.*
 
 > *Rewrite using the correct notation as instructed in the question.*
 
-`bold g to the power of bold minus bold 1 end exponent bold space bold colon bold space bold x bold space bold rightwards arrow from bar bold space bold 3 bold space bold plus square root of bold 14 bold space bold minus bold space bold italic x end root` **[1]**
+$g^{- 1} : x \rightarrow \text{from} \text{bar} 3 + \sqrt{ 14 - x}$ **[1]**
 
 ### 25((b)) — 1 marks
 > *The domain of g*<sup>*-1*</sup>* is the set of values that can be input into the function.*
@@ -715,7 +715,7 @@ $y=-x^{2}+6x+5\,x=-y^{2}+6y+5$
 
 > *The values of *$x$* that must be excluded are found by solving  *$14-x\geq0$*.*
 
-`table row cell 14 space minus space x space end cell greater or equal than cell space 0 end cell row cell 14 space end cell greater or equal than cell space x end cell end table`
+$\begin{array}{ccc}14 - x & \ge & 0 \\ 14 & \ge & x\end{array}$
 
 `equation`**[1]**
 
@@ -734,7 +734,7 @@ $x=3y-1$
 
 *Now make **y** the subject of this new equation (by adding 1 to both sides then dividing both sides by 3)* * *
 
-`table row cell x plus 1 end cell equals cell 3 y end cell row cell fraction numerator x plus 1 over denominator 3 end fraction end cell equals y end table` * *
+$\begin{gathered} x + 1 & = 3 y \\ \frac{x + 1}{3} & = y \end{gathered}$ * *
 
 *The function on the left-hand side is the inverse function, f*<sup>*-1*</sup>*(**x**)* *Replace **y** with f*<sup>*-1*</sup>*(**x**) to write down the final answer*
 
@@ -745,35 +745,35 @@ $f^{-1}(x)=\frac{x+1}{3}$**[1]**
 
 *Write the expression for g(**x**) inside f(...)* * *
 
-`straight f open parentheses straight g open parentheses x close parentheses close parentheses equals straight f open parentheses x squared plus 4 close parentheses` * *
+$\mathrm{f} ( \mathrm{g} ( x ) ) = \mathrm{f} ( x^{2} + 4 )$ * *
 
-*Find *`straight f open parentheses x squared plus 4 close parentheses`* by replacing the **x**'s in f(**x**) with the brackets *`open parentheses x squared plus 4 close parentheses` * *
+*Find *$\mathrm{f} ( x^{2} + 4 )$* by replacing the **x**'s in f(**x**) with the brackets *$( x^{2} + 4 )$ * *
 
-`table attributes columnalign right center left columnspacing 0px end attributes row cell straight f open parentheses straight g open parentheses x close parentheses close parentheses end cell equals cell 3 open parentheses x squared plus 4 close parentheses minus 1 end cell end table`
+$\begin{array}{rcl} \mathrm{f} ( \mathrm{g} ( x ) ) & = 3 ( x^{2} + 4 ) - 1 \end{array}$
 
 **[1]**
 
 *gf(**x**) means g(f(**x**))* *Write the expression for f(**x**) inside g(...)* * *
 
-`straight g open parentheses straight f open parentheses x close parentheses close parentheses equals straight g open parentheses 3 x minus 1 close parentheses` * *
+$\mathrm{g} ( \mathrm{f} ( x ) ) = \mathrm{g} ( 3 x - 1 )$ * *
 
-> *Find *`straight g open parentheses 3 x minus 1 close parentheses`* by replacing the **x**'s in g(**x**) with the brackets *`open parentheses 3 x minus 1 close parentheses`*  *
+> *Find *$\mathrm{g} ( 3 x - 1 )$* by replacing the **x**'s in g(**x**) with the brackets *$( 3 x - 1 )$*  *
 
-`straight g open parentheses straight f open parentheses x close parentheses close parentheses equals open parentheses 3 x minus 1 close parentheses squared plus 4`
+$\mathrm{g} ( \mathrm{f} ( x ) ) = ( 3 x - 1 )^{2} + 4$
 
 **[1]**
 
 > *Set fg(**x**) equal to 2 × gf(**x**)  *
 
-`3 open parentheses x squared plus 4 close parentheses minus 1 equals 2 open square brackets open parentheses 3 x minus 1 close parentheses squared plus 4 close square brackets`
+$3 ( x^{2} + 4 ) - 1 = 2 [ ( 3 x - 1 )^{2} + 4 ]$
 
 **[1]**
 
 > *Expand the curved brackets on either side  *
 
-`3 x squared plus 12 minus 1 equals 2 open square brackets open parentheses 3 x minus 1 close parentheses open parentheses 3 x minus 1 close parentheses plus 4 close square brackets
-3 x squared plus 11 equals 2 open square brackets 9 x squared minus 6 x plus 1 plus 4 close square brackets
-3 x squared plus 11 equals 2 open square brackets 9 x squared minus 6 x plus 5 close square brackets`
+$3 x^{2} + 12 - 1 = 2 [ ( 3 x - 1 ) ( 3 x - 1 ) + 4 ]
+3 x^{2} + 11 = 2 [ 9 x^{2} - 6 x + 1 + 4 ]
+3 x^{2} + 11 = 2 [ 9 x^{2} - 6 x + 5 ]$
 
 **(3x - 1)**<sup>**2**</sup>** expanded correctly**** [1]**
 
@@ -792,7 +792,7 @@ $15x^{2}-12x-1=0$* ***[1]**
 ### 1() — 1 marks
 *Substitute** x** = 6 into f(**x**) *
 
-`straight f open parentheses 6 close parentheses equals 1 half cross times 6 plus 4`
+$\mathrm{f} ( 6 ) = 1 \frac{1}{2} \times 6 + 4$
 
 > *Work out this value (by adding 3 and 4)*
 
@@ -803,11 +803,11 @@ $15x^{2}-12x-1=0$* ***[1]**
 
 *Find g(-3) by substituting **x** = -3 into g(**x**) (putting it in brackets as it's negative)* * *
 
-`table row cell straight g open parentheses negative 3 close parentheses end cell equals cell fraction numerator 2 cross times open parentheses negative 3 close parentheses over denominator open parentheses negative 3 close parentheses plus 1 end fraction end cell row blank blank blank end table`
+$\begin{gathered} \mathrm{g} ( - 3 ) & = \frac{2 \times ( - 3 )}{( - 3 ) + 1} \\ \end{gathered}$
 
 > *Work out this value (either on a calculator, or by doing -6 divided by -2)  *
 
-`straight g open parentheses negative 3 close parentheses equals fraction numerator negative 6 over denominator negative 2 end fraction equals 3`
+$\mathrm{g} ( - 3 ) = \frac{- 6}{- 2} = 3$
 
 **[1]**
 
@@ -815,7 +815,7 @@ $15x^{2}-12x-1=0$* ***[1]**
 
 *Find f(3) by substituting **x **= 3 into f(**x**)* * *
 
-`table row cell straight f open parentheses straight g open parentheses negative 3 close parentheses close parentheses end cell equals cell f open parentheses 3 close parentheses equals 1 half cross times 3 plus 4 end cell row blank equals cell 3 over 2 plus 4 end cell end table`
+$\begin{gathered} \mathrm{f} ( \mathrm{g} ( - 3 ) ) & = f ( 3 ) = 1 \frac{1}{2} \times 3 + 4 \\ = \frac{3}{2} + 4 \end{gathered}$
 
 $\frac{11}{2}$* ***[1]**
 
@@ -824,7 +824,7 @@ $\frac{11}{2}$* ***[1]**
 ### 3() — 2 marks
 *Write down an expression for g(**a**) by substituting **x** = **a** into the expression for g(**x**)* * *
 
-`straight g open parentheses a close parentheses equals fraction numerator 2 a over denominator a plus 1 end fraction`
+$\mathrm{g} ( a ) = \frac{2 a}{a + 1}$
 
 > * *
 
@@ -836,7 +836,7 @@ $\frac{2a}{a+1}=-2$
 
 *Multiply both sides by** a** + 1* * *
 
-`2 a equals negative 2 open parentheses a plus 1 close parentheses` * *
+$2 a = - 2 ( a + 1 )$ * *
 
 *Expand the brackets and add 2**a** to both sides* * *
 
@@ -861,7 +861,7 @@ $x=\frac{1}{2}y+4$
 
 *Now make **y** the subject of this new equation (by subtracting 4 from both sides then multiplying both sides by 2)* * *
 
-`table row cell x minus 4 end cell equals cell 1 half y end cell row cell 2 open parentheses x minus 4 close parentheses end cell equals y end table`
+$\begin{gathered} x - 4 & = 1 \frac{1}{2} y \\ 2 ( x - 4 ) & = y \end{gathered}$
 
 **attempt to rearrange for y**** [1]*** *
 
@@ -876,41 +876,41 @@ $f^{-1}(x)=2(x-4)$ **[1]**
 
 > *Write the algebraic expression for g(**x**) inside f(...).*
 
-`straight h open parentheses x close parentheses space equals space straight f open parentheses straight g open parentheses x close parentheses close parentheses equals straight f open parentheses x squared space minus 12 x close parentheses` * *
+$\mathrm{h} ( x ) = \mathrm{f} ( \mathrm{g} ( x ) ) = \mathrm{f} ( x^{2} - 12 x )$ * *
 
-> *Find *`straight f open parentheses x squared minus 12 x close parentheses`* by replacing the **x**'s in f(**x**) with the brackets *`open parentheses x squared minus 12 x close parentheses`*.*
+> *Find *$\mathrm{f} ( x^{2} - 12 x )$* by replacing the **x**'s in f(**x**) with the brackets *$( x^{2} - 12 x )$*.*
 
-`straight h open parentheses x close parentheses space equals space straight f open parentheses x squared minus 12 x close parentheses space equals space open parentheses x squared minus 12 x close parentheses space plus space 25 space equals space x squared space minus 12 x space plus 25`
+$\mathrm{h} ( x ) = \mathrm{f} ( x^{2} - 12 x ) = ( x^{2} - 12 x ) + 25 = x^{2} - 12 x + 25$
 
 **[1]**
 
 > *Find the inverse of h(**x**) by completing the square.*
 
-> *Write the function in the form *`y space equals space straight h open parentheses x close parentheses`* and then swap the *$x$* and *$y.$
+> *Write the function in the form *$y = \mathrm{h} ( x )$* and then swap the *$x$* and *$y.$
 
 $y=x^{2}-12x+25\,x=y^{2}-12y+25$
 
 > *Rearrange **the expression to make *$y$* the subject again by first completing the square. *
 
-> *The formula for completing the square for a quadratic in the form*$x^{2}+bx+c$*is*`space space open parentheses x space plus space b over 2 close parentheses squared space space minus space open parentheses b over 2 close parentheses squared space plus space c`*.*
+> *The formula for completing the square for a quadratic in the form*$x^{2}+bx+c$*is*$( x + \frac{b}{2} )^{2} - ( \frac{b}{2} )^{2} + c$*.*
 
 > *Complete the square by dividing the middle term (-12) by 2.*
 
-`table row cell y squared space minus space 12 y space plus space 25 space end cell equals cell space open parentheses y space minus space 12 over 2 close parentheses to the power of 2 space end exponent minus open parentheses 12 over 2 close parentheses squared space plus space 25 space end cell row blank equals cell space open parentheses y space minus space 6 close parentheses squared space minus space 6 squared space plus space 25 end cell end table`
+$\begin{gathered} y^{2} - 12 y + 25 & = ( y - \frac{12}{2} )^{2 } - ( \frac{12}{2} )^{2} + 25 \\ = ( y - 6 )^{2} - 6^{2} + 25 \end{gathered}$
 
 **Correct first step to complete square**** [1]**
 
 > *Simplify.*
 
-`table row cell open parentheses y space minus space 6 close parentheses squared space minus space 6 squared space plus space 25 space end cell equals cell space open parentheses y space minus space 6 close parentheses squared space minus space 36 space plus space 25 space end cell row blank equals cell space open parentheses y space minus space 6 close parentheses squared space minus space 11 end cell end table`
+$\begin{gathered} ( y - 6 )^{2} - 6^{2} + 25 & = ( y - 6 )^{2} - 36 + 25 \\ = ( y - 6 )^{2} - 11 \end{gathered}$
 
 > *Set equal to *$x$* and rearrange to make *$y$* the subject.*
 
-`x space equals space open parentheses y space minus space 6 close parentheses squared space minus space 11`
+$x = ( y - 6 )^{2} - 11$
 
 > *Rearrange **the expression to make *$y$* the subject again.*
 
-`table row cell x space plus space 11 space end cell equals cell space open parentheses y space minus space 6 close parentheses squared end cell row cell y space minus space 6 space end cell equals cell space plus-or-minus square root of x space plus space 11 end root end cell row cell y space end cell equals cell plus-or-minus square root of x space plus space 11 end root space plus space 6 end cell row cell y space end cell equals cell space 6 space plus-or-minus square root of x space plus space 11 end root end cell end table`
+$\begin{gathered} x + 11 & = ( y - 6 )^{2} \\ y - 6 & = \pm \sqrt{x + 11} \\ y & = \pm \sqrt{x + 11} + 6 \\ y & = 6 \pm \sqrt{x + 11} \end{gathered}$
 
 **[1]**
 
@@ -925,7 +925,7 @@ $h^{-1}(x)=6-\sqrt{x+11}$ **[1]**
 ### 1() — 1 marks
 *Substitute** x** = 8 into f(**x**) *
 
-`straight f open parentheses 8 close parentheses equals fraction numerator 8 minus 6 over denominator 2 end fraction equals 2 over 2`
+$\mathrm{f} ( 8 ) = \frac{8 - 6}{2} = \frac{2}{2}$
 
 **1** **[1]**
 
@@ -942,7 +942,7 @@ $x=\frac{y-6}{2}$
 
 *Now make **y** the subject of this new equation (by multiplying both sides by 2 then adding 6 to both sides)* * *
 
-`table attributes columnalign right center left columnspacing 0px end attributes row cell 2 x end cell equals cell y minus 6 end cell row cell 2 x plus 6 end cell equals y end table` * *
+$\begin{array}{rcl} 2 x & = y - 6 \\ 2 x + 6 & = y \end{array}$ * *
 
 *The function on the left-hand side is the inverse function, f*<sup>*-1*</sup>*(**x**)* *Replace **y** with f*<sup>*-1*</sup>*(**x**) to write down the final answer*
 
@@ -953,7 +953,7 @@ $f^{-1}(x)=2x+6$ **[1]**
 
 *Find the values of **x** which make **x** - 4 negative (by solving the inequality **x **- 4 < 0) * * *
 
-`table row cell x minus 4 end cell less than 0 row x less than 4 end table` * *
+$\begin{gathered} x - 4 & < 0 \\ x < 4 \end{gathered}$ * *
 
 > *These are the "inputs" that must be excluded from any domain*
 
@@ -964,11 +964,11 @@ $f^{-1}(x)=2x+6$ **[1]**
 *gf(**x**) means g(f(**x**))* 
 *Write the algebraic expression for f(**x**) inside g(...)* * *
 
-`straight g open parentheses straight f open parentheses x close parentheses close parentheses equals straight g open parentheses fraction numerator x minus 6 over denominator 2 end fraction close parentheses` * *
+$\mathrm{g} ( \mathrm{f} ( x ) ) = \mathrm{g} ( \frac{x - 6}{2} )$ * *
 
-*Find *`straight g open parentheses fraction numerator x minus 6 over denominator 2 end fraction close parentheses`* by replacing the **x**'s in g(**x**) with the brackets *`open parentheses fraction numerator x minus 6 over denominator 2 end fraction close parentheses` * *
+*Find *$\mathrm{g} ( \frac{x - 6}{2} )$* by replacing the **x**'s in g(**x**) with the brackets *$( \frac{x - 6}{2} )$ * *
 
-`table row cell straight g open parentheses fraction numerator x minus 6 over denominator 2 end fraction close parentheses end cell equals cell square root of open parentheses fraction numerator x minus 6 over denominator 2 end fraction close parentheses minus 4 end root end cell row blank equals cell square root of fraction numerator x minus 6 over denominator 2 end fraction minus 4 end root end cell end table`
+$\begin{gathered} \mathrm{g} ( \frac{x - 6}{2} ) & = \sqrt{( \frac{x - 6}{2} ) - 4} \\ = \sqrt{ \frac{x - 6}{2} - 4} \end{gathered}$
 
 **[1]**
 
@@ -976,16 +976,16 @@ $f^{-1}(x)=2x+6$ **[1]**
 
 > *Subtract the two fractions (by writing both over a lowest common denominator of 2 and subtracting their numerators)  *
 
-> * *`table row cell square root of fraction numerator x minus 6 over denominator 2 end fraction minus 4 end root end cell equals cell square root of fraction numerator x minus 6 over denominator 2 end fraction minus 4 over 1 end root end cell row blank equals cell square root of fraction numerator x minus 6 over denominator 2 end fraction minus 8 over 2 end root end cell row blank equals cell square root of fraction numerator x minus 6 space minus 8 over denominator 2 end fraction end root end cell end table`*  *
+> * *$\begin{gathered} \sqrt{ \frac{x - 6}{2} - 4} & = \sqrt{ \frac{x - 6}{2} - \frac{4}{1} } \\ = \sqrt{ \frac{x - 6}{2} - \frac{8}{2} } \\ = \sqrt{ \frac{x - 6 - 8}{2} } \end{gathered}$*  *
 
-** **`table row blank blank cell square root of fraction numerator bold italic x bold minus bold 14 over denominator bold 2 end fraction end root end cell end table`** [1]**
+** **$\begin{gathered} \sqrt{ \frac{x - 14}{2} } \end{gathered}$** [1]**
 
 ## Q18 — medium — 9 marks · exam-questions
 
 ### 1() — 1 marks
 *Substitute** x** = 4 into f(**x**) *
 
-`straight f open parentheses 4 close parentheses equals 2 cross times 4 minus 5`
+$\mathrm{f} ( 4 ) = 2 \times 4 - 5$
 
 **3** **[1]**
 
@@ -994,7 +994,7 @@ $f^{-1}(x)=2x+6$ **[1]**
 
 *Find g(-4) by substituting **x** = -4 into g(**x**) (putting it in brackets as it's negative)* * *
 
-`table row cell straight g open parentheses negative 4 close parentheses end cell equals cell open parentheses negative 4 close parentheses squared minus 10 end cell row blank equals cell 16 minus 10 end cell row blank equals 6 end table`
+$\begin{gathered} \mathrm{g} ( - 4 ) & = ( - 4 )^{2} - 10 \\ = 16 - 10 \\ = 6 \end{gathered}$
 
 **[1]**
 
@@ -1002,7 +1002,7 @@ $f^{-1}(x)=2x+6$ **[1]**
 
 *Find f(6) by substituting **x **= 6 into f(**x**)* * *
 
-`straight f open parentheses straight g open parentheses negative 4 close parentheses close parentheses equals f open parentheses 6 close parentheses equals 2 cross times 6 minus 5`
+$\mathrm{f} ( \mathrm{g} ( - 4 ) ) = f ( 6 ) = 2 \times 6 - 5$
 
 **7*** ***[1]**
 
@@ -1019,7 +1019,7 @@ $x=2y-5$
 
 *Now make **y** the subject of this new equation (by adding 5 to both sides then dividing both sides by 2)* * *
 
-`table row cell x plus 5 end cell equals cell 2 y end cell row cell fraction numerator x plus 5 over denominator 2 end fraction end cell equals y end table` * *
+$\begin{gathered} x + 5 & = 2 y \\ \frac{x + 5}{2} & = y \end{gathered}$ * *
 
 *The function on the left-hand side is the inverse function, f*<sup>*-1*</sup>*(**x**)* *Replace **y** with f*<sup>*-1*</sup>*(**x**) to write down the final answer*
 
@@ -1030,17 +1030,17 @@ $f^{-1}(x)=\frac{x+5}{2}$**[1]**
 
 *Write the expression for f(**x**) inside g(...)* * *
 
-`straight g open parentheses straight f open parentheses x close parentheses close parentheses equals straight g open parentheses 2 x minus 5 close parentheses` * *
+$\mathrm{g} ( \mathrm{f} ( x ) ) = \mathrm{g} ( 2 x - 5 )$ * *
 
 *Find g(2**x** - 5) by replacing the **x**'s in g(**x**) with the brackets (2**x** - 5)* * *
 
-`g open parentheses 2 x minus 5 close parentheses equals open parentheses 2 x minus 5 close parentheses squared minus 10`
+$g ( 2 x - 5 ) = ( 2 x - 5 )^{2} - 10$
 
 **[1]**
 
 > *Form an equation for **x** by setting this expression equal to -1  *
 
-> * *`open parentheses 2 x minus 5 close parentheses squared minus 10 equals negative 1`*  *
+> * *$( 2 x - 5 )^{2} - 10 = - 1$*  *
 
 **[1]**
 
@@ -1050,7 +1050,7 @@ $f^{-1}(x)=\frac{x+5}{2}$**[1]**
 
 > *Start by adding 10 to both sides  *
 
-> `open parentheses 2 x minus 5 close parentheses squared equals 9`*  *
+> $( 2 x - 5 )^{2} = 9$*  *
 
 > *Take square roots of both sides and include a ± sign  *
 
@@ -1070,11 +1070,11 @@ $2x-5=3\,2x=8\,x=4$* **and**   *$2x-5=-3\,2x=2\,x=1$
 
 > *Start by expanding (2**x** - 5)2  *
 
-> `table row cell open parentheses 2 x minus 5 close parentheses squared end cell equals cell open parentheses 2 x minus 5 close parentheses open parentheses 2 x minus 5 close parentheses end cell row blank equals cell 4 x squared minus 10 x minus 10 x plus 25 end cell row blank equals cell 4 x squared minus 20 x plus 25 end cell end table`*  *
+> $\begin{gathered} ( 2 x - 5 )^{2} & = ( 2 x - 5 ) ( 2 x - 5 ) \\ = 4 x^{2} - 10 x - 10 x + 25 \\ = 4 x^{2} - 20 x + 25 \end{gathered}$*  *
 
 > *Write the result back in the equation  *
 
-`table row cell 4 x squared minus 20 x plus 25 minus 10 end cell equals cell negative 1 end cell row cell 4 x squared minus 20 x plus 15 end cell equals cell negative 1 end cell end table`
+$\begin{gathered} 4 x^{2} - 20 x + 25 - 10 & = - 1 \\ 4 x^{2} - 20 x + 15 & = - 1 \end{gathered}$
 
 **[1]**
 
@@ -1088,41 +1088,41 @@ $2x-5=3\,2x=8\,x=4$* **and**   *$2x-5=-3\,2x=2\,x=1$
 
 > *Factorise the quadratic expression (for example, by finding two numbers that multiply to give 4 and add to give -5)  *
 
-> `open parentheses x minus 4 close parentheses open parentheses x minus 1 close parentheses equals 0`*  *
+> $( x - 4 ) ( x - 1 ) = 0$*  *
 
 > *Solve the first bracket equal to zero (by adding 4 to both sides)  *
 
-> `table attributes columnalign right center left columnspacing 0px end attributes row cell x minus 4 end cell equals 0 row x equals 4 end table`*  *
+> $\begin{array}{rcl} x - 4 & = 0 \\ x = 4 \end{array}$*  *
 
 > *Solve the second bracket equal to zero (by adding 1 to both sides)  *
 
-`table row cell x minus 1 end cell equals 0 row x equals 1 end table`
+$\begin{gathered} x - 1 & = 0 \\ x = 1 \end{gathered}$
 
 **x**** = 1 or ****x**** = 4*** ***[1]**
 
 ## Q19 — very_hard — 6 marks · exam-questions
 
 ### 24((a)) — 2 marks
-> *To find the value of *`fg open parentheses 2 close parentheses`*, put the output of *`straight g open parentheses 2 close parentheses`* into *`straight f open parentheses x close parentheses`*. *
+> *To find the value of *$fg ( 2 )$*, put the output of *$\mathrm{g} ( 2 )$* into *$\mathrm{f} ( x )$*. *
 
-> *Find the value of *`straight g open parentheses 2 close parentheses`* by substituting 2 into *`straight g open parentheses x close parentheses`*.*
+> *Find the value of *$\mathrm{g} ( 2 )$* by substituting 2 into *$\mathrm{g} ( x )$*.*
 
-`straight g left parenthesis 2 right parenthesis space equals space 7 open parentheses 2 close parentheses space minus 6 space equals space 14 space minus space 6 space equals space 8`
+$\mathrm{g} ( 2 ) = 7 ( 2 ) - 6 = 14 - 6 = 8$
 
 **[1]**
 
-> *The output of *`straight g open parentheses 2 close parentheses`* is 8. *
+> *The output of *$\mathrm{g} ( 2 )$* is 8. *
 
-> *Substitute this into the expression for *`straight f open parentheses x close parentheses`*.*
+> *Substitute this into the expression for *$\mathrm{f} ( x )$*.*
 
-`table row cell straight f open parentheses 8 close parentheses space end cell equals cell space 5 open parentheses 8 close parentheses squared space minus 10 open parentheses 8 close parentheses space plus 7 space end cell row blank equals cell space 5 cross times 64 space minus space 80 space plus space 7 end cell row blank equals cell space 320 space minus space 80 space plus space 7 end cell end table`
+$\begin{gathered} \mathrm{f} ( 8 ) & = 5 ( 8 )^{2} - 10 ( 8 ) + 7 \\ = 5 \times 64 - 80 + 7 \\ = 320 - 80 + 7 \end{gathered}$
 
 $\mathrm{fg}(8)=247$* ***[1]**
 
 ### 24((b)) — 4 marks
 > *Finding the inverse of a quadratic function requires completing the square.*
 
-> *Write the function in the form *`y space equals space straight f open parentheses x close parentheses`* and then swap the *$x$* and *$y.$
+> *Write the function in the form *$y = \mathrm{f} ( x )$* and then swap the *$x$* and *$y.$
 
 $y=5x^{2}-10x+7\,x=5y^{2}-10y+7$
 
@@ -1130,25 +1130,25 @@ $y=5x^{2}-10x+7\,x=5y^{2}-10y+7$
 
 > *To complete the square, first factorise 5 from the first two terms, then complete the square on the terms inside the brackets.*
 
-`table row cell x space end cell equals cell space 5 y squared space minus space 10 y space plus space 7 space equals space 5 open parentheses y squared space minus space 2 y close parentheses plus 7 end cell end table`
+$\begin{gathered} x & = 5 y^{2} - 10 y + 7 = 5 ( y^{2} - 2 y ) + 7 \end{gathered}$
 
 ** [1]**
 
 > *Complete the square on the terms inside the brackets.*
 
-`table row cell x space end cell equals cell space 5 open square brackets open parentheses y space minus space 1 close parentheses squared space minus space 1 squared close square brackets space plus space 7 space end cell row blank equals cell space 5 open parentheses y space minus space 1 close parentheses squared space minus 5 open parentheses 1 squared close parentheses space plus 7 end cell row blank equals cell space 5 open parentheses y space minus space 1 close parentheses squared space minus space 5 space plus space 7 end cell row blank equals cell space 5 open parentheses y space minus space 1 close parentheses squared space plus space 2 end cell end table`
+$\begin{gathered} x & = 5 [ ( y - 1 )^{2} - 1^{2} ] + 7 \\ = 5 ( y - 1 )^{2} - 5 ( 1^{2} ) + 7 \\ = 5 ( y - 1 )^{2} - 5 + 7 \\ = 5 ( y - 1 )^{2} + 2 \end{gathered}$
 
 **Correct first step to complete square**** [1]**
 
 > *Rearrange to make *$y$* the subject by first dividing by 5.*
 
-`table row cell x space minus space 2 space end cell equals cell space 5 open parentheses y space minus space 1 close parentheses squared end cell row cell fraction numerator x space minus space 2 over denominator 5 end fraction space end cell equals cell space open parentheses y space minus space 1 close parentheses squared end cell end table`
+$\begin{gathered} x - 2 & = 5 ( y - 1 )^{2} \\ \frac{x - 2}{5} & = ( y - 1 )^{2} \end{gathered}$
 
 **[1]**
 
 > *Take the square root of both sides, remember a square root could be positive or negative.*
 
-`table row cell space y space minus space 1 space end cell equals cell plus-or-minus square root of fraction numerator x space minus space 2 over denominator 5 end fraction end root space end cell row cell y space end cell equals cell 1 plus-or-minus square root of fraction numerator x space minus space 2 over denominator 5 end fraction end root space end cell end table`
+$\begin{gathered} y - 1 & = \pm \sqrt{ \frac{x - 2}{5} } \\ y & = 1 \pm \sqrt{ \frac{x - 2}{5} } \end{gathered}$
 
 > *The domain of f(x) is *$x\geq1$* so this must be the range of the inverse, taking the positive square root will give *$y\geq1$*. *
 
@@ -1163,7 +1163,7 @@ $f^{-1}(x)=1+\sqrt{\frac{x-2}{5}}$ **[1]**
 
 *Find the inputs that cause the function to divide by 0 (by solving the denominators equal to 0)* * *
 
-`table row cell x plus 1 end cell equals 0 row x equals cell negative 1 end cell end table`*   **and**    *`table attributes columnalign right center left columnspacing 0px end attributes row cell x minus 2 end cell equals 0 row x equals 2 end table`
+$\begin{gathered} x + 1 & = 0 \\ x = - 1 \end{gathered}$*   **and**    *$\begin{array}{rcl} x - 2 & = 0 \\ x = 2 \end{array}$
 
 > * *
 
@@ -1174,7 +1174,7 @@ $f^{-1}(x)=1+\sqrt{\frac{x-2}{5}}$ **[1]**
 ### 2() — 1 marks
 *Substitute** x** = 0 into f(**x**)*
 
-`table attributes columnalign right center left columnspacing 0px end attributes row cell straight f open parentheses 0 close parentheses end cell equals cell fraction numerator 3 over denominator 0 plus 1 end fraction plus fraction numerator 1 over denominator 0 minus 2 end fraction end cell row blank equals cell 3 over 1 minus 1 half end cell end table`
+$\begin{array}{rcl} \mathrm{f} ( 0 ) & = \frac{3}{0 + 1} + \frac{1}{0 - 2} \\ = \frac{3}{1} - 1 \frac{1}{2} \end{array}$
 
 > *Work out this value *
 
@@ -1191,17 +1191,17 @@ $\frac{3}{x+1}+\frac{1}{x-2}=0$
 
 *For example, multiply both sides by (**x** + 1)(**x** - 2) and cancel common brackets* * *
 
-`table row cell up diagonal strike open parentheses x plus 1 close parentheses end strike open parentheses x minus 2 close parentheses cross times fraction numerator 3 over denominator up diagonal strike open parentheses x plus 1 close parentheses end strike end fraction plus open parentheses x plus 1 close parentheses up diagonal strike open parentheses x minus 2 close parentheses end strike cross times fraction numerator 1 over denominator up diagonal strike open parentheses x minus 2 close parentheses end strike end fraction end cell equals cell open parentheses x plus 1 close parentheses open parentheses x minus 2 close parentheses cross times 0 end cell row cell 3 open parentheses x minus 2 close parentheses plus open parentheses x plus 1 close parentheses end cell equals 0 end table`
+$\begin{gathered} \cancel{( x + 1 )} ( x - 2 ) \times \frac{3}{ \cancel{( x + 1 )} } + ( x + 1 ) \cancel{( x - 2 )} \times \frac{1}{ \cancel{( x - 2 )} } & = ( x + 1 ) ( x - 2 ) \times 0 \\ 3 ( x - 2 ) + ( x + 1 ) & = 0 \end{gathered}$
 
 **[1]*** *
 
 *Expand and simplify* * *
 
-`table attributes columnalign right center left columnspacing 0px end attributes row cell 3 x minus 6 plus x plus 1 end cell equals 0 row cell 4 x minus 5 end cell equals 0 end table` * *
+$\begin{array}{rcl} 3 x - 6 + x + 1 & = 0 \\ 4 x - 5 & = 0 \end{array}$ * *
 
 *Solve to find **x*
 
-`table attributes columnalign right center left columnspacing 0px end attributes row cell 4 x end cell equals 5 row x equals cell 5 over 4 end cell end table`
+$\begin{array}{rcl} 4 x & = 5 \\ x = \frac{5}{4} \end{array}$
 
 $\frac{5}{4}$** [1]**
 
@@ -1210,7 +1210,7 @@ $\frac{5}{4}$** [1]**
 ### 9((a)) — 1 marks
 *Substitute** x** = 10 into f(**x**) *
 
-`straight f open parentheses 3 close parentheses equals 2 cross times 3 plus 5`
+$\mathrm{f} ( 3 ) = 2 \times 3 + 5$
 
 **18** **[1]**
 
@@ -1227,7 +1227,7 @@ $x=\frac{y}{5}+1$
 
 *Now make **y** the subject of this new equation (by subtracting 1 from both sides then multiplying both sides by 5)* * *
 
-> `table row cell x minus 1 end cell equals cell y over 5 end cell row cell 5 open parentheses x minus 1 close parentheses end cell equals y end table`*  *
+> $\begin{gathered} x - 1 & = \frac{y}{5} \\ 5 ( x - 1 ) & = y \end{gathered}$*  *
 
 *The function on the left-hand side is the inverse function, g*<sup>*-1*</sup>*(**x**)* *Replace **y** with g*<sup>*-1*</sup>*(**x**) to write down the final answer*
 
@@ -1238,21 +1238,21 @@ $g^{-1}(x)=5(x-1)$ **[1]**
 
 *Write the expression for f(**x**) inside f(...)* * *
 
-`straight f open parentheses straight f open parentheses x close parentheses close parentheses equals straight f open parentheses 3 open parentheses x minus 4 close parentheses close parentheses` * *
+$\mathrm{f} ( \mathrm{f} ( x ) ) = \mathrm{f} ( 3 ( x - 4 ) )$ * *
 
 > *At this point it helps to write 3(**x** - 4) as 3**x** - 12 (by expanding the brackets)  *
 
-> `straight f open parentheses straight f open parentheses x close parentheses close parentheses equals straight f open parentheses 3 x minus 12 close parentheses`*  *
+> $\mathrm{f} ( \mathrm{f} ( x ) ) = \mathrm{f} ( 3 x - 12 )$*  *
 
 *Find f(3**x** - 12) by replacing the **x**'s in f(**x**) with the brackets (3**x** - 12)* * *
 
-`straight f open parentheses 3 x minus 12 close parentheses equals 3 open parentheses open parentheses 3 x minus 12 close parentheses minus 4 close parentheses`
+$\mathrm{f} ( 3 x - 12 ) = 3 ( ( 3 x - 12 ) - 4 )$
 
 **[1]**
 
 > *Expand the inner brackets and collect like terms  *
 
-`table attributes columnalign right center left columnspacing 0px end attributes row cell straight f open parentheses 3 x minus 12 close parentheses end cell equals cell 3 open parentheses 3 x minus 12 minus 4 close parentheses end cell row blank equals cell 3 open parentheses 3 x minus 16 close parentheses end cell end table` * *
+$\begin{array}{rcl} \mathrm{f} ( 3 x - 12 ) & = 3 ( 3 x - 12 - 4 ) \\ = 3 ( 3 x - 16 ) \end{array}$ * *
 
 > *Expand these last brackets (by multiplying all terms inside by 3)*
 
@@ -1265,11 +1265,11 @@ $\mathrm{ff}(x)=9x-48$* ***[1]**
 
 > *Write the algebraic expression for g(**x**) inside f(...).*
 
-`straight h open parentheses x close parentheses space equals space straight f open parentheses straight g open parentheses x close parentheses close parentheses equals straight f open parentheses x plus 3 close parentheses` * *
+$\mathrm{h} ( x ) = \mathrm{f} ( \mathrm{g} ( x ) ) = \mathrm{f} ( x + 3 )$ * *
 
-> *Find *`straight f open parentheses x plus 3 close parentheses`* by replacing the **x**'s in f(**x**) with the brackets *`open parentheses x plus 3 close parentheses`*.*
+> *Find *$\mathrm{f} ( x + 3 )$* by replacing the **x**'s in f(**x**) with the brackets *$( x + 3 )$*.*
 
-`table row cell straight h open parentheses x close parentheses space end cell equals cell space straight f open parentheses x plus 3 close parentheses space end cell row blank equals cell space open parentheses x plus 3 close parentheses squared minus 2 open parentheses x plus 3 close parentheses end cell row space equals cell space x squared space plus 6 x plus 9 minus 2 x minus 6 end cell row blank equals cell x squared plus 4 x plus 3 end cell end table`
+$\begin{gathered} \mathrm{h} ( x ) & = \mathrm{f} ( x + 3 ) \\ = ( x + 3 )^{2} - 2 ( x + 3 ) \\ = x^{2} + 6 x + 9 - 2 x - 6 \\ = x^{2} + 4 x + 3 \end{gathered}$
 
 **substituting x + 3 into f(x) ****[1]**
 
@@ -1277,31 +1277,31 @@ $\mathrm{ff}(x)=9x-48$* ***[1]**
 
 > *Finding the inverse of h(**x**) will require completing the square*
 
-> *First, write the function in the form *`y space equals space straight h open parentheses x close parentheses`* and then swap the** x** and **y*
+> *First, write the function in the form *$y = \mathrm{h} ( x )$* and then swap the** x** and **y*
 
 $y=x^{2}+4x+3\,x=y^{2}+4y+3$
 
 > *Rearrange** **the expression to make *$y$* the subject again by completing the square *
 
-> *The formula for completing the square for a quadratic in the form*$x^{2}+bx+c$*is*`space space open parentheses x space plus space b over 2 close parentheses squared space space minus space open parentheses b over 2 close parentheses squared space plus space c`*.*
+> *The formula for completing the square for a quadratic in the form*$x^{2}+bx+c$*is*$( x + \frac{b}{2} )^{2} - ( \frac{b}{2} )^{2} + c$*.*
 
 > *Completing the square requires dividing the middle term, 4, by 2*
 
-`table row cell y squared space plus space 4 y space plus space 3 space end cell equals cell space open parentheses y space plus fraction numerator space 4 over denominator 2 end fraction close parentheses to the power of 2 space end exponent minus open parentheses 4 over 2 close parentheses squared space plus space 3 space end cell row blank equals cell space open parentheses y space plus space 2 close parentheses squared space minus space 2 squared space plus space 3 end cell end table`
+$\begin{gathered} y^{2} + 4 y + 3 & = ( y + \frac{ 4}{2} )^{2 } - ( \frac{4}{2} )^{2} + 3 \\ = ( y + 2 )^{2} - 2^{2} + 3 \end{gathered}$
 
 **[1]**
 
 > *Simplify*
 
-`table row cell open parentheses y space plus space 2 close parentheses squared space minus space 2 squared space plus space 3 space end cell equals cell space open parentheses y space plus space 2 close parentheses squared space minus space 4 space plus space 3 end cell row blank equals cell space open parentheses y space plus space 2 close parentheses squared space minus space 1 end cell end table`
+$\begin{gathered} ( y + 2 )^{2} - 2^{2} + 3 & = ( y + 2 )^{2} - 4 + 3 \\ = ( y + 2 )^{2} - 1 \end{gathered}$
 
 > *Set equal to *$x$* and rearrange to make *$y$* the subject*
 
-`x space equals space open parentheses y space plus space 2 close parentheses squared space minus space 1`
+$x = ( y + 2 )^{2} - 1$
 
 > *Rearrange** **the expression to make *$y$* the subject again*
 
-`table row cell x space plus space 1 space end cell equals cell space open parentheses y space plus space 2 close parentheses squared end cell row cell y space plus space 2 space end cell equals cell space plus-or-minus square root of x space plus space 1 end root end cell row cell y space end cell equals cell plus-or-minus square root of x space plus space 1 end root space minus space 2 end cell row cell y space end cell equals cell space minus 2 space plus-or-minus square root of x space plus space 1 end root end cell end table`
+$\begin{gathered} x + 1 & = ( y + 2 )^{2} \\ y + 2 & = \pm \sqrt{x + 1} \\ y & = \pm \sqrt{x + 1} - 2 \\ y & = - 2 \pm \sqrt{x + 1} \end{gathered}$
 
 **[1]**
 
@@ -1348,7 +1348,7 @@ $h^{-1}(x)=-2+\sqrt{x+1}$ **[1]**
 ### 1() — 1 marks
 *Substitute** x** = 1 into f(**x**)*
 
-`straight f open parentheses 1 close parentheses equals fraction numerator 3 over denominator 4 plus 1 end fraction`
+$\mathrm{f} ( 1 ) = \frac{3}{4 + 1}$
 
 > *Work out this value *
 
@@ -1357,7 +1357,7 @@ $\frac{3}{5}$ **[1]**
 ### 2() — 1 marks
 *Inputting a value must never result in dividing by zero* *Find the input that causes the function to divide by 0 (by solving the denominator equal to 0)* * *
 
-`table attributes columnalign right center left columnspacing 0px end attributes row cell 4 plus x end cell equals 0 row x equals cell negative 4 end cell end table`
+$\begin{array}{rcl} 4 + x & = 0 \\ x = - 4 \end{array}$
 
 > * *
 
@@ -1368,24 +1368,24 @@ $\frac{3}{5}$ **[1]**
 ### 3() — 1 marks
 *If g(**a**) = 7, the input is **a** and the output is 7* *Find g(**a**) by substituting **x** = **a** into g(**x**)* * *
 
-`straight g open parentheses a close parentheses equals 5 plus a` * *
+$\mathrm{g} ( a ) = 5 + a$ * *
 
 *Set 5 + **a** equal to 7 and solve for **a*
 
-`table row cell 5 plus a end cell equals 7 row a equals cell 7 minus 5 end cell end table`
+$\begin{gathered} 5 + a & = 7 \\ a = 7 - 5 \end{gathered}$
 
 **a**** = 2** **[1]**
 
 ### 4() — 2 marks
 *fg(1) means f(g(1))* *Find g(1) by substituting **x** = 1 into g(**x**)* * *
 
-`table row cell g open parentheses 1 close parentheses end cell equals cell 5 plus 1 end cell row blank equals 6 end table`
+$\begin{gathered} g ( 1 ) & = 5 + 1 \\ = 6 \end{gathered}$
 
 **[1]**
 
 *If g(1) = 6 then f(g(1)) means f(6)* *Find f(6) by substituting **x **= 6 into f(**x**)* * *
 
-`table attributes columnalign right center left columnspacing 0px end attributes row cell straight f open parentheses straight g open parentheses 1 close parentheses close parentheses end cell equals cell f open parentheses 6 close parentheses equals fraction numerator 3 over denominator 4 plus 6 end fraction end cell end table`
+$\begin{array}{rcl} \mathrm{f} ( \mathrm{g} ( 1 ) ) & = f ( 6 ) = \frac{3}{4 + 6} \end{array}$
 
 $\frac{3}{10}$* ***[1]**
 
@@ -1394,17 +1394,17 @@ $\frac{3}{10}$* ***[1]**
 ### 5() — 2 marks
 *fg(**x**) means f(g(**x**))* *Write the algebraic expression for g(**x**) inside f(...)* * *
 
-`straight f open parentheses straight g open parentheses x close parentheses close parentheses equals straight f open parentheses 5 plus x close parentheses` * *
+$\mathrm{f} ( \mathrm{g} ( x ) ) = \mathrm{f} ( 5 + x )$ * *
 
-*Find *`straight f open parentheses 5 plus x close parentheses`* by replacing the **x**'s in f(**x**) with the brackets *`open parentheses 5 plus x close parentheses` * *
+*Find *$\mathrm{f} ( 5 + x )$* by replacing the **x**'s in f(**x**) with the brackets *$( 5 + x )$ * *
 
-`straight f open parentheses x plus 5 close parentheses equals fraction numerator 3 over denominator 4 plus open parentheses 5 plus x close parentheses end fraction`
+$\mathrm{f} ( x + 5 ) = \frac{3}{4 + ( 5 + x )}$
 
 **[1]**
 
 *Simplify the denominator* * *
 
-`table row cell straight f open parentheses x plus 5 close parentheses end cell equals cell fraction numerator 3 over denominator 4 plus 5 plus x end fraction end cell row blank equals cell fraction numerator 3 over denominator 9 plus x end fraction end cell end table` * *
+$\begin{gathered} \mathrm{f} ( x + 5 ) & = \frac{3}{4 + 5 + x} \\ = \frac{3}{9 + x} \end{gathered}$ * *
 
 > *Write your final answer as fg(**x**) = ...*
 
@@ -1421,38 +1421,38 @@ $\mathrm{fg}(x)=\frac{3}{9+x}$* ***[1]**
 
 > *This is only necessary for the x*<sup>*2*</sup>* and **x** terms so leave 5 as it is  *
 
-`negative x to the power of 2 space end exponent plus space 6 x space plus space 5 space equals space minus open parentheses x squared space minus space 6 x close parentheses space plus space 5`
+$- x^{2 } + 6 x + 5 = - ( x^{2} - 6 x ) + 5$
 
 > *Complete the square for the part in brackets  *
 
-`negative open parentheses x squared space minus space 6 x close parentheses space plus space 5 space equals space minus open square brackets open parentheses x space minus space 3 close parentheses squared space space minus space 9 close square brackets space plus space 5`
+$- ( x^{2} - 6 x ) + 5 = - [ ( x - 3 )^{2} - 9 ] + 5$
 
 **[1]**
 
 > *Expand and rearrange into the required completed square form.*
 
-`table row cell negative open square brackets open parentheses x space minus space 3 close parentheses squared space space minus space 9 close square brackets space plus space 5 space end cell equals cell space minus open parentheses x space minus space 3 close parentheses squared space plus space 9 space plus space 5 end cell row blank equals cell space 14 space minus space open parentheses x space minus space 3 close parentheses squared end cell end table`
+$\begin{gathered} - [ ( x - 3 )^{2} - 9 ] + 5 & = - ( x - 3 )^{2} + 9 + 5 \\ = 14 - ( x - 3 )^{2} \end{gathered}$
 
 > *This is in the form **p** - (**x** - **q**)*<sup>*2*</sup>* where **p** = 14 and **q** = 3*
 
 $14-(x-3)^{2}$* ***[1]**
 
 ### 27((b)) — 5 marks
-> *Use the result in part (a) to rewrite *`straight f open parentheses x close parentheses equals space 5 space plus space 6 x space minus space x squared`*  *
+> *Use the result in part (a) to rewrite *$\mathrm{f} ( x ) = 5 + 6 x - x^{2}$*  *
 
-`straight f open parentheses x close parentheses equals 14 minus open parentheses x minus 3 close parentheses squared`
+$\mathrm{f} ( x ) = 14 - ( x - 3 )^{2}$
 
 > *To find the inverse function, first write f(x) as** y**  *
 
-> `y equals 14 minus open parentheses x minus 3 close parentheses squared`*  *
+> $y = 14 - ( x - 3 )^{2}$*  *
 
 > *Then, without rearranging, swap the **x** and **y **around  *
 
-`x space equals space 14 space minus space open parentheses y space minus space 3 close parentheses squared space`
+$x = 14 - ( y - 3 )^{2}$
 
 > *Rearrange** **the expression to make *$y$* the subject again*
 
-`table row cell x space minus space 14 space end cell equals cell space minus open parentheses y space minus space 3 close parentheses squared end cell row cell 14 space minus space x space end cell equals cell space open parentheses y space minus space 3 close parentheses squared end cell row cell y space minus space 3 space end cell equals cell space plus-or-minus square root of 14 space minus space x end root end cell row cell y space end cell equals cell 3 space plus-or-minus space square root of 14 space minus space x end root space end cell end table`
+$\begin{gathered} x - 14 & = - ( y - 3 )^{2} \\ 14 - x & = ( y - 3 )^{2} \\ y - 3 & = \pm \sqrt{14 - x} \\ y & = 3 \pm \sqrt{14 - x} \end{gathered}$
 
 **first two lines of working**** [1]**
 
@@ -1462,7 +1462,7 @@ $14-(x-3)^{2}$* ***[1]**
 
 > *Replace **y** with f*<sup>*-1*</sup>*(**x**)  *
 
-`straight f to the power of negative 1 end exponent open parentheses x close parentheses equals 3 minus square root of 14 minus x end root`
+$\mathrm{f}^{- 1} ( x ) = 3 - \sqrt{14 - x}$
 
 **[1]**
 
@@ -1484,7 +1484,7 @@ $3-\sqrt{14-x}>0\,3>\sqrt{14-x}\,9>14-x\,x>14-9\,x>5$
 *An input must never result in dividing by zero* 
 *Find the input that cause the functions to divide by 0 (by setting the denominators equal to 0)* * *
 
-> `table attributes columnalign right center left columnspacing 0px end attributes row x equals 0 end table`*    *
+> $\begin{array}{rcl} x = 0 \end{array}$*    *
 
 > *The input **x** = 0 must be excluded from the domain*
 
@@ -1494,12 +1494,12 @@ $3-\sqrt{14-x}>0\,3>\sqrt{14-x}\,9>14-x\,x>14-9\,x>5$
 *gf(**a**) means g(f(**a**))* 
 *Find f(**a**) by substituting **x** = **a** into f(**x**)* * *
 
-`straight f open parentheses a close parentheses equals 2 over a` * *
+$\mathrm{f} ( a ) = \frac{2}{a}$ * *
 
-*g(f(**a**)) is the same as *`straight g open parentheses 2 over a close parentheses` 
-*Substitute *$x=\frac{2}{a}$* into *`straight g open parentheses x close parentheses` * *
+*g(f(**a**)) is the same as *$\mathrm{g} ( \frac{2}{a} )$ 
+*Substitute *$x=\frac{2}{a}$* into *$\mathrm{g} ( x )$ * *
 
-`straight g open parentheses 2 over a close parentheses italic equals fraction numerator 2 over a plus 1 over denominator 2 over a end fraction`
+$\mathrm{g} ( \frac{2}{a} ) = \frac{\frac{2}{a} + 1}{\frac{2}{a}}$
 
 **[1]**
 
@@ -1511,13 +1511,13 @@ $\frac{\frac{2}{a}+1}{\frac{2}{a}}=3$ * *
 
 *For example, multiply both sides by *$\frac{2}{a}$ * *
 
-`table row cell 2 over a plus 1 end cell equals cell 3 cross times 2 over a end cell row cell 2 over a plus 1 end cell equals cell 6 over a end cell end table`
+$\begin{gathered} \frac{2}{a} + 1 & = 3 \times \frac{2}{a} \\ \frac{2}{a} + 1 & = \frac{6}{a} \end{gathered}$
 
 **[1]**
 
 *Multiply both sides by **a* * *
 
-`table row cell a open parentheses 2 over a plus 1 close parentheses end cell equals cell up diagonal strike a cross times fraction numerator 6 over denominator up diagonal strike a end fraction end cell row cell 2 plus a end cell equals 6 end table` * *
+$\begin{gathered} a ( \frac{2}{a} + 1 ) & = \cancel{a} \times \frac{6}{ \cancel{a} } \\ 2 + a & = 6 \end{gathered}$ * *
 
 *Solve to find **a*
 
@@ -1538,7 +1538,7 @@ $x=\frac{y+1}{y}$
 
 *Remove fractions (by multiplying both sides by **y**)* * *
 
-`table row cell x y end cell equals cell y plus 1 end cell end table`
+$\begin{gathered} x y & = y + 1 \end{gathered}$
 
 **[1]**
 
@@ -1548,7 +1548,7 @@ $x=\frac{y+1}{y}$
 
 > *Factorise **y** out of the two terms on the left  *
 
-`y open parentheses x minus 1 close parentheses equals 1`
+$y ( x - 1 ) = 1$
 
 **[1]*** *
 
@@ -1584,17 +1584,17 @@ $xy=2y-4$
 
 > *Collect the **y** terms onto one side of the equation and the other terms to the other side.*
 
-`table row cell x y space minus space 2 y space end cell equals cell negative 4 end cell end table`
+$\begin{gathered} x y - 2 y & = - 4 \end{gathered}$
 
 > *To make **y** the subject, it will need to be factorised.*
 
-> `table row cell y open parentheses x space minus space 2 close parentheses space end cell equals cell negative 4 end cell end table`* *
+> $\begin{gathered} y ( x - 2 ) & = - 4 \end{gathered}$* *
 
 **[1]**
 
 > *Divide by (**x** - 2) to make **y** the subject.*
 
-> `table row cell y space end cell equals cell space fraction numerator negative 4 over denominator x space minus space 2 end fraction end cell end table`* *
+> $\begin{gathered} y & = \frac{- 4}{x - 2} \end{gathered}$* *
 
 *The function on the left-hand side is the inverse function, h*<sup>*-1*</sup>*(**x**)* *Replace **y** with h*<sup>*-1*</sup>*(**x**) to write down the final answer.*
 
@@ -1614,31 +1614,31 @@ $h^{-1}(x)=\frac{4}{2-x}$ **[1] **
 ### 23((b)) — 4 marks
 > *Finding the inverse of g(**x**) will require completing the square*
 
-> *First, write the function in the form *`y space equals space straight g open parentheses x close parentheses`* and then swap the **x** and **y*
+> *First, write the function in the form *$y = \mathrm{g} ( x )$* and then swap the **x** and **y*
 
 $y=x^{2}+6x\,x=y^{2}+6y$
 
 > *Rearrange** **the expression to make *$y$* the subject again by completing the square *
 
-> *The formula for completing the square for a quadratic in the form*$x^{2}+bx+c$*is*`space space open parentheses x space plus space b over 2 close parentheses squared space space minus space open parentheses b over 2 close parentheses squared space plus space c`*.*
+> *The formula for completing the square for a quadratic in the form*$x^{2}+bx+c$*is*$( x + \frac{b}{2} )^{2} - ( \frac{b}{2} )^{2} + c$*.*
 
 > *Completing the square requires dividing the middle term, 6, by 2*
 
-`table row cell y squared space plus space 6 y space end cell equals cell space open parentheses y space plus fraction numerator space 6 over denominator 2 end fraction close parentheses to the power of 2 space end exponent minus open parentheses 6 over 2 close parentheses squared end cell row blank equals cell space open parentheses y space plus space 3 close parentheses squared space minus space 3 squared end cell end table`
+$\begin{gathered} y^{2} + 6 y & = ( y + \frac{ 6}{2} )^{2 } - ( \frac{6}{2} )^{2} \\ = ( y + 3 )^{2} - 3^{2} \end{gathered}$
 
 **[1]**
 
 > *Simplify*
 
-`table row cell open parentheses y space plus space 3 close parentheses squared space minus space 3 squared space end cell equals cell space open parentheses y space plus space 3 close parentheses squared space minus space 9 end cell end table`**  **
+$\begin{gathered} ( y + 3 )^{2} - 3^{2} & = ( y + 3 )^{2} - 9 \end{gathered}$**  **
 
 > *Set equal to *$x$* and rearrange to make *$y$* the subject*
 
-`x space equals space open parentheses y space plus space 3 close parentheses squared space minus space 9`
+$x = ( y + 3 )^{2} - 9$
 
 > *Rearrange** **the expression to make *$y$* the subject again*
 
-`table row cell x space plus space 9 space end cell equals cell space open parentheses y space plus space 3 close parentheses squared end cell row cell y space plus space 3 space end cell equals cell space plus-or-minus square root of x space plus space 9 end root end cell row cell y space end cell equals cell plus-or-minus square root of x space plus space 9 end root space minus space 3 end cell row cell y space end cell equals cell space minus 3 space plus-or-minus square root of x space plus space 9 end root end cell end table`
+$\begin{gathered} x + 9 & = ( y + 3 )^{2} \\ y + 3 & = \pm \sqrt{x + 9} \\ y & = \pm \sqrt{x + 9} - 3 \\ y & = - 3 \pm \sqrt{x + 9} \end{gathered}$
 
 **first line of working correct**** [1]**
 
@@ -1655,27 +1655,27 @@ $g^{-1}:x\rightarrow-3+\sqrt{x+9}$ **[1]**
 ### 1() — 2 marks
 > *It helps to rewrite these functions back in the form f(**x**) and g(**x**)*
 
-`straight f open parentheses x close parentheses equals 2 x squared plus 1 space space space space space space space space straight g open parentheses x close parentheses equals fraction numerator 2 x over denominator x minus 1 end fraction`
+$\mathrm{f} ( x ) = 2 x^{2} + 1 \mathrm{g} ( x ) = \frac{2 x}{x - 1}$
 
 *gf : **x** is the same as gf(**x**) which means g(f(**x**))*
 
 *Write the algebraic expression for f(**x**) inside g(...)* * *
 
-`straight g open parentheses straight f open parentheses x close parentheses close parentheses equals straight g open parentheses 2 x squared plus 1 close parentheses` * *
+$\mathrm{g} ( \mathrm{f} ( x ) ) = \mathrm{g} ( 2 x^{2} + 1 )$ * *
 
-*Find *`straight g open parentheses 2 x squared plus 1 close parentheses`* by replacing the **x**'s in g(**x**) with the brackets *`open parentheses 2 x squared plus 1 close parentheses` * *
+*Find *$\mathrm{g} ( 2 x^{2} + 1 )$* by replacing the **x**'s in g(**x**) with the brackets *$( 2 x^{2} + 1 )$ * *
 
-`straight g open parentheses 2 x squared plus 1 close parentheses equals fraction numerator 2 open parentheses 2 x squared plus 1 close parentheses over denominator open parentheses 2 x squared plus 1 close parentheses minus 1 end fraction`
+$\mathrm{g} ( 2 x^{2} + 1 ) = \frac{2 ( 2 x^{2} + 1 )}{( 2 x^{2} + 1 ) - 1}$
 
 **[1]**
 
 *Expand the brackets in the numerator and simplify the denominator* * *
 
-`table attributes columnalign right center left columnspacing 0px end attributes row cell fg open parentheses 2 x squared plus 1 close parentheses end cell equals cell fraction numerator 4 x squared plus 2 over denominator 2 x squared end fraction end cell end table`* *
+$\begin{array}{rcl} \text{fg} ( 2 x^{2} + 1 ) & = \frac{4 x^{2} + 2}{2 x^{2}} \end{array}$* *
 
 > *The top and bottom have a factor of 2 which can be cancelled  *
 
-> * *`table row cell fraction numerator 4 x squared plus 2 over denominator 2 x squared end fraction end cell equals cell fraction numerator up diagonal strike 2 open parentheses 2 x squared plus 1 close parentheses over denominator up diagonal strike 2 x squared end fraction end cell row blank equals cell fraction numerator 2 x squared plus 1 over denominator x squared end fraction end cell end table`
+> * *$\begin{gathered} \frac{4 x^{2} + 2}{2 x^{2}} & = \frac{ \cancel{2} ( 2 x^{2} + 1 )}{ \cancel{2} x^{2}} \\ = \frac{2 x^{2} + 1}{x^{2}} \end{gathered}$
 
 > *Write your final answer as gf : **x**  →  ...*
 
@@ -1694,7 +1694,7 @@ $x=\frac{2y}{y-1}$
 
 *Remove fractions (by multiplying both sides by **y** - 1)* * *
 
-`table row cell x open parentheses y minus 1 close parentheses end cell equals cell 2 y end cell end table`
+$\begin{gathered} x ( y - 1 ) & = 2 y \end{gathered}$
 
 **[1]**
 
@@ -1704,11 +1704,11 @@ $xy-x=2y$
 
 > *Get the **y** terms on one side (for example, by subtracting 2**y** and adding **x** to both sides)  *
 
-> `table row cell x y minus x minus 2 y end cell equals 0 row cell x y minus 2 y end cell equals x end table`*  *
+> $\begin{gathered} x y - x - 2 y & = 0 \\ x y - 2 y & = x \end{gathered}$*  *
 
 > *Factorise **y** out of the two terms on the left  *
 
-`y open parentheses x minus 2 close parentheses equals x`
+$y ( x - 2 ) = x$
 
 **[1]**
 
@@ -1725,13 +1725,13 @@ $g^{-1}(x)=\frac{x}{x-2}$* ***[1]**
 ### 17((a)) — 1 marks
 *Substitute **x** = 1 into f(**x**)*
 
-`table attributes columnalign right center left columnspacing 0px end attributes row cell straight f open parentheses 1 close parentheses end cell equals cell open parentheses 1 minus 4 close parentheses squared end cell row blank equals cell open parentheses negative 3 close parentheses squared end cell row blank equals 9 end table`
+$\begin{array}{rcl} \mathrm{f} ( 1 ) & = ( 1 - 4 )^{2} \\ = ( - 3 )^{2} \\ = 9 \end{array}$
 
 **9** **[1]**
 
 ### 17((b)) — 1 marks
 *The range is the set of all possible outputs* 
-`open parentheses x minus 4 close parentheses squared`* will always be the square of a value, so no negative outputs can arise (**x** = 4 gives an output of 0)*
+$( x - 4 )^{2}$* will always be the square of a value, so no negative outputs can arise (**x** = 4 gives an output of 0)*
 
 **f(x) ≥ 0** **[1]**
 
@@ -1742,15 +1742,15 @@ $g^{-1}(x)=\frac{x}{x-2}$* ***[1]**
 
 *Find g(2) by substituting **x** = 2 into g(**x**) * * *
 
-`table attributes columnalign right center left columnspacing 0px end attributes row cell straight g open parentheses 2 close parentheses end cell equals cell fraction numerator 4 over denominator 2 plus 3 end fraction end cell row blank equals cell 4 over 5 end cell end table`
+$\begin{array}{rcl} \mathrm{g} ( 2 ) & = \frac{4}{2 + 3} \\ = \frac{4}{5} \end{array}$
 
 **[1]**
 
-*If g(2) = *$\frac{4}{5}$* then *`straight f open parentheses straight g open parentheses 2 close parentheses close parentheses equals straight f open parentheses 4 over 5 close parentheses`
+*If g(2) = *$\frac{4}{5}$* then *$\mathrm{f} ( \mathrm{g} ( 2 ) ) = \mathrm{f} ( \frac{4}{5} )$
 
-*Find *`straight f open parentheses 4 over 5 close parentheses`* by substituting *$x=\frac{4}{5}$* into f(**x**)* * *
+*Find *$\mathrm{f} ( \frac{4}{5} )$* by substituting *$x=\frac{4}{5}$* into f(**x**)* * *
 
-`table row cell straight f open parentheses 4 over 5 close parentheses end cell equals cell open parentheses 4 over 5 minus 4 close parentheses squared end cell row blank equals cell open parentheses negative 16 over 5 close parentheses squared end cell row blank equals cell 256 over 25 end cell end table`
+$\begin{gathered} \mathrm{f} ( \frac{4}{5} ) & = ( \frac{4}{5} - 4 )^{2} \\ = ( - \frac{16}{5} )^{2} \\ = \frac{256}{25} \end{gathered}$
 
 > $\frac{256}{25}$* [1]*
 
@@ -1771,7 +1771,7 @@ $x=\frac{\sqrt{y^{2}+k^{2}}}{y}$
 
 *Now make **y** the subject of this new equation (for example, by squaring both sides then multiplying both sides by y*<sup>*2*</sup>*)* * *
 
-`table attributes columnalign right center left columnspacing 0px end attributes row cell x squared end cell equals cell fraction numerator y squared plus k squared over denominator y squared end fraction end cell row cell x squared y squared end cell equals cell y squared plus k squared end cell row cell x squared y squared minus y squared end cell equals cell k squared end cell row cell y squared open parentheses x squared minus 1 close parentheses end cell equals cell k squared end cell row cell y squared end cell equals cell fraction numerator k squared over denominator x squared minus 1 end fraction end cell end table`
+$\begin{array}{rcl} x^{2} & = \frac{y^{2} + k^{2}}{y^{2}} \\ x^{2} y^{2} & = y^{2} + k^{2} \\ x^{2} y^{2} - y^{2} & = k^{2} \\ y^{2} ( x^{2} - 1 ) & = k^{2} \\ y^{2} & = \frac{k^{2}}{x^{2} - 1} \end{array}$
 
 **[1]**
 
@@ -1781,7 +1781,7 @@ $x=\frac{\sqrt{y^{2}+k^{2}}}{y}$
 
 *The sign on the right-hand side must be chosen to give us f*<sup>*-1*</sup>*(**x**) The domain of f(**x**) is all positive values (**x** > 0) so the range of f*<sup>*-1*</sup>*(**x**) must be all positive values (take the positive square root)*
 
-`straight f to the power of negative 1 end exponent open parentheses x close parentheses equals square root of fraction numerator k squared over denominator x squared minus 1 end fraction end root`
+$\mathrm{f}^{- 1} ( x ) = \sqrt{ \frac{k^{2}}{x^{2} - 1} }$
 
 *Create the equation* *f*<sup>*-1*</sup>*(**x**) = **k **by substituting **x** = **p** into f*<sup>*-1*</sup>*(**x**) and setting it equal to **k**  *
 
@@ -1791,7 +1791,7 @@ $\sqrt{\frac{k^{2}}{p^{2}-1}}=k$
 
 > *Solve this equation for **p** (make **p** the subject)  *
 
-`table row cell fraction numerator k squared over denominator p squared minus 1 end fraction end cell equals cell k squared end cell row cell up diagonal strike k squared end strike end cell equals cell up diagonal strike k squared end strike open parentheses p squared minus 1 close parentheses end cell row 1 equals cell p squared minus 1 end cell row 2 equals cell p squared end cell row cell plus-or-minus square root of 2 end cell equals p end table`
+$\begin{gathered} \frac{k^{2}}{p^{2} - 1} & = k^{2} \\ \cancel{k^{2}} & = \cancel{k^{2}} ( p^{2} - 1 ) \\ 1 = p^{2} - 1 \\ 2 = p^{2} \\ \pm \sqrt{2} & = p \end{gathered}$
 
 > * *
 
@@ -1803,13 +1803,13 @@ $p=\sqrt{2}$* ***[1]**
 
 *Apply the function f to both sides of the equation f*<sup>*-1*</sup>*(**p**) = **k* * *
 
-`ff to the power of negative 1 end exponent open parentheses p close parentheses equals straight f open parentheses k close parentheses` * *
+$ff^{- 1} ( p ) = \mathrm{f} ( k )$ * *
 
 > *The input **p **on the left first goes through the function f*<sup>*-1*</sup>*, but then has this immediately "undone" by going through the function f *
 
 *The f and the f*<sup>*-1*</sup>* cancel each other out (they are inverses of each other)* * *
 
-`p equals straight f open parentheses k close parentheses`
+$p = \mathrm{f} ( k )$
 
 **[1]*** *
 
@@ -1821,8 +1821,8 @@ $p=\frac{\sqrt{k^{2}+k^{2}}}{k}$
 
 *Simplify the right-hand side*
 
-`p equals fraction numerator square root of 2 k squared end root over denominator k end fraction
-p equals fraction numerator square root of 2 space up diagonal strike k over denominator up diagonal strike k end fraction`
+$p = \frac{ \sqrt{2 k^{2}} }{k} 
+p = \frac{ \sqrt{2} \cancel{k} }{ \cancel{k} }$
 
 $p=\sqrt{2}$ **[1]**
 
@@ -1831,23 +1831,23 @@ $p=\sqrt{2}$ **[1]**
 
 *Find f(**a**) by substituting **x** = **a** into f(**x**)* * *
 
-> `straight f open parentheses a close parentheses equals fraction numerator square root of a squared plus k squared end root over denominator a end fraction`*  *
+> $\mathrm{f} ( a ) = \frac{ \sqrt{a^{2} + k^{2}} }{a}$*  *
 
 *Now substitute *$x=\frac{\sqrt{a^{2}+k^{2}}}{a}$* into g(**x**) and simplify* * *
 
-`table attributes columnalign right center left columnspacing 0px end attributes row cell gf open parentheses a close parentheses end cell equals cell open parentheses fraction numerator square root of a squared plus k squared end root over denominator a end fraction close parentheses squared end cell row blank equals cell fraction numerator a squared plus k squared over denominator a squared end fraction end cell end table`
+$\begin{array}{rcl} \text{gf} ( a ) & = ( \frac{ \sqrt{a^{2} + k^{2}} }{a} )^{2} \\ = \frac{a^{2} + k^{2}}{a^{2}} \end{array}$
 
 **[1]**
 
 *Set this equal to **k** and solve to find **a** (make **a** the subject)* * *
 
-`table attributes columnalign right center left columnspacing 0px end attributes row cell fraction numerator a squared plus k squared over denominator a squared end fraction end cell equals k row cell a squared plus k squared end cell equals cell k a squared end cell row cell k squared end cell equals cell k a squared minus a squared end cell end table`
+$\begin{array}{rcl} \frac{a^{2} + k^{2}}{a^{2}} & = k \\ a^{2} + k^{2} & = k a^{2} \\ k^{2} & = k a^{2} - a^{2} \end{array}$
 
 **[1]**
 
 *Factorise out **a*<sup>*2*</sup>* on the right-hand side to continue* * *
 
-`table row cell k squared end cell equals cell a squared open parentheses k minus 1 close parentheses end cell row cell fraction numerator k squared over denominator k minus 1 end fraction end cell equals cell a squared end cell row cell plus-or-minus square root of fraction numerator k squared over denominator k minus 1 end fraction end root end cell equals a end table` * *
+$\begin{gathered} k^{2} & = a^{2} ( k - 1 ) \\ \frac{k^{2}}{k - 1} & = a^{2} \\ \pm \sqrt{ \frac{k^{2}}{k - 1} } & = a \end{gathered}$ * *
 
 *k** > 1 so the denominator *$\sqrt{k-1}$* never square roots a negative number, and the numerator can be simplified using *$\sqrt{k^{2}}=k$ * *
 
@@ -1876,13 +1876,13 @@ $x=3y+7$
 
 *Now make **y** the subject of this new equation* * *
 
-`table row cell x minus 7 end cell equals cell 3 y end cell row cell fraction numerator x minus 7 over denominator 3 end fraction end cell equals y end table`
+$\begin{gathered} x - 7 & = 3 y \\ \frac{x - 7}{3} & = y \end{gathered}$
 
 **x - 7 = 3y ****[1]**
 
 *The function on the left-hand side is the inverse function, g*<sup>*-1*</sup>*(**x**)* *Replace **y** with g*<sup>*-1*</sup>*(**x**)  *
 
-`straight g to the power of negative 1 end exponent open parentheses x close parentheses equals fraction numerator x minus 7 over denominator 3 end fraction`
+$\mathrm{g}^{- 1} ( x ) = \frac{x - 7}{3}$
 
 **[1]**
 
@@ -1892,7 +1892,7 @@ $x=3y+7$
 
 > *Solve this equation to find **x**  *
 
-`table row cell x minus 7 end cell equals cell 6 x end cell row cell negative 7 end cell equals cell 5 x end cell row cell negative 7 over 5 end cell equals x end table`
+$\begin{gathered} x - 7 & = 6 x \\ - 7 & = 5 x \\ - \frac{7}{5} & = x \end{gathered}$
 
 **x**** = -1.4*** ***[1]**
 
@@ -1902,7 +1902,7 @@ $x=3y+7$
 
 *This means putting an input of 2**x** into the original function must give an output of **x***  **
 
-`straight g open parentheses 2 x close parentheses equals x`**  **
+$\mathrm{g} ( 2 x ) = x$**  **
 
 > *Work out an expression for g(2**x**) on the left by replacing all **x**'s in g(**x**) with 2**x**  *
 
@@ -1912,7 +1912,7 @@ $3\times2x+7=x$
 
 *Solve this equation to find **x***  **
 
-`table attributes columnalign right center left columnspacing 0px end attributes row cell 6 x plus 7 end cell equals x row cell 5 x end cell equals cell negative 7 end cell row x equals cell negative 7 over 5 end cell end table`
+$\begin{array}{rcl} 6 x + 7 & = x \\ 5 x & = - 7 \\ x = - \frac{7}{5} \end{array}$
 
 **6x + 7 = x seen ****[1]**
 
@@ -1923,7 +1923,7 @@ $3\times2x+7=x$
 ### 1() — 1 marks
 *Substitute **x** = 1 into g(**x**)*
 
-`table row cell straight g open parentheses 1 close parentheses end cell equals cell fraction numerator 1 over denominator 2 cross times 1 minus 5 end fraction end cell row blank equals cell fraction numerator 1 over denominator 2 minus 5 end fraction end cell end table`
+$\begin{gathered} \mathrm{g} ( 1 ) & = \frac{1}{2 \times 1 - 5} \\ = \frac{1}{2 - 5} \end{gathered}$
 
 $-\frac{1}{3}$ **[1]**
 
@@ -1932,7 +1932,7 @@ $-\frac{1}{3}$ **[1]**
 
 *Find the input that causes the function to divide by 0 (by solving the denominator equal to 0)* * *
 
-`table row cell 2 x minus 5 end cell equals 0 row cell 2 x end cell equals 5 row x equals cell 5 over 2 end cell end table`
+$\begin{gathered} 2 x - 5 & = 0 \\ 2 x & = 5 \\ x = \frac{5}{2} \end{gathered}$
 
 > * *
 
@@ -1945,17 +1945,17 @@ $x=\frac{5}{2}$ **[1]**
 
 *Write the algebraic expression for h(**x**) inside g(...)* * *
 
-`straight g open parentheses straight h open parentheses x close parentheses close parentheses equals straight g open parentheses x plus 4 close parentheses` * *
+$\mathrm{g} ( \mathrm{h} ( x ) ) = \mathrm{g} ( x + 4 )$ * *
 
-*Find *`straight g open parentheses x plus 4 close parentheses`* by replacing the **x**'s in g(**x**) with the brackets *`open parentheses x plus 4 close parentheses` * *
+*Find *$\mathrm{g} ( x + 4 )$* by replacing the **x**'s in g(**x**) with the brackets *$( x + 4 )$ * *
 
-`straight g open parentheses x plus 4 close parentheses equals fraction numerator open parentheses x plus 4 close parentheses over denominator 2 open parentheses x plus 4 close parentheses minus 5 end fraction`
+$\mathrm{g} ( x + 4 ) = \frac{( x + 4 )}{2 ( x + 4 ) - 5}$
 
 **[1]**
 
 *Expand the brackets and collect like terms* * *
 
-`table row cell straight g open parentheses x plus 4 close parentheses end cell equals cell fraction numerator x plus 4 over denominator 2 x plus 8 minus 5 end fraction end cell row blank equals cell fraction numerator x plus 4 over denominator 2 x plus 3 end fraction end cell end table` * *
+$\begin{gathered} \mathrm{g} ( x + 4 ) & = \frac{x + 4}{2 x + 8 - 5} \\ = \frac{x + 4}{2 x + 3} \end{gathered}$ * *
 
 > *Write your final answer as gh(**x**) = ...*
 
@@ -1974,7 +1974,7 @@ $x=\frac{y}{2y-5}$
 
 *Remove fractions (by multiplying both sides by 2**y** - 5)* * *
 
-`table row cell x open parentheses 2 y minus 5 close parentheses end cell equals y end table`
+$\begin{gathered} x ( 2 y - 5 ) & = y \end{gathered}$
 
 **[1]**
 
@@ -1984,11 +1984,11 @@ $2xy-5x=y$
 
 > *Get the **y** terms on one side (for example, by subtracting **y** and adding 5**x** to both sides)  *
 
-> `table row cell 2 x y minus 5 x minus y end cell equals 0 row cell 2 x y minus y end cell equals cell 5 x end cell end table`*  *
+> $\begin{gathered} 2 x y - 5 x - y & = 0 \\ 2 x y - y & = 5 x \end{gathered}$*  *
 
 > *Factorise **y** out of the two terms on the left  *
 
-`y open parentheses 2 x minus 1 close parentheses equals 5 x`
+$y ( 2 x - 1 ) = 5 x$
 
 **[1]**
 
@@ -2013,28 +2013,28 @@ $x\div3$
 
 > *The second option assumes you made the **mistake** that "dividing by 3" means *$\frac{3}{x}$
 
-> *The third option assumes you made the **mistake** that  f*<sup>*-1*</sup>*(**x**) means *`fraction numerator 1 over denominator straight f open parentheses x close parentheses end fraction`* (from negative indices)*
+> *The third option assumes you made the **mistake** that  f*<sup>*-1*</sup>*(**x**) means *$\frac{1}{ \mathrm{f} ( x )}$* (from negative indices)*
 
 ## Q35 — very_hard — 4 marks · exam-questions
 
 ### 30() — 4 marks
-> *Find *`straight f to the power of negative 1 end exponent open parentheses x close parentheses`* by setting *`straight f open parentheses x close parentheses`* equal to *$y$*, swapping the variables and rearranging to make *$y$* the subject.*
+> *Find *$\mathrm{f}^{- 1} ( x )$* by setting *$\mathrm{f} ( x )$* equal to *$y$*, swapping the variables and rearranging to make *$y$* the subject.*
 
-`table row cell y space end cell equals cell space 1 half x end cell row cell x space end cell equals cell space 1 half y end cell row cell y space end cell equals cell space 2 x end cell row cell straight f to the power of negative 1 space end exponent open parentheses x close parentheses space end cell equals cell space 2 x end cell end table`
-
-**[1]**
-
-> `gf open parentheses x close parentheses`* means *`straight g open parentheses straight f open parentheses x close parentheses close parentheses`*. *
-
-> *Find *`gf open parentheses x close parentheses`* by substituting *`straight f open parentheses x close parentheses`* into *`g open parentheses x close parentheses.`*  *
-
-`gf open parentheses x close parentheses equals straight g open parentheses 1 half x close parentheses space equals space open parentheses 1 half x close parentheses space minus space open parentheses 1 half x close parentheses squared space`
+$\begin{gathered} y & = 1 \frac{1}{2} x \\ x & = 1 \frac{1}{2} y \\ y & = 2 x \\ \mathrm{f}^{- 1 } ( x ) & = 2 x \end{gathered}$
 
 **[1]**
 
-> *Set *`gf open parentheses x close parentheses`* equal to*`straight f to the power of negative 1 end exponent open parentheses x close parentheses`*.  *
+> $gf ( x )$* means *$\mathrm{g} ( \mathrm{f} ( x ) )$*. *
 
-`space open parentheses 1 half x close parentheses space minus space open parentheses 1 half x close parentheses squared space equals space 2 x`
+> *Find *$gf ( x )$* by substituting *$\mathrm{f} ( x )$* into *$g ( x ).$*  *
+
+$\text{gf} ( x ) = \mathrm{g} ( 1 \frac{1}{2} x ) = ( 1 \frac{1}{2} x ) - ( 1 \frac{1}{2} x )^{2}$
+
+**[1]**
+
+> *Set *$gf ( x )$* equal to*$\mathrm{f}^{- 1} ( x )$*.  *
+
+$( 1 \frac{1}{2} x ) - ( 1 \frac{1}{2} x )^{2} = 2 x$
 
 > *Simplify.  *
 
@@ -2050,7 +2050,7 @@ $x^{2}+6x=0$
 
 > *Factorise.*
 
-`x open parentheses x space plus space 6 close parentheses equals space 0`
+$x ( x + 6 ) = 0$
 
 **[1]**
 
@@ -2065,7 +2065,7 @@ $x=0\mathrm{and}x=-6$* ***[1]**
 ### 1() — 1 marks
 *Substitute **x** = 11 into f(**x**)*
 
-`table row cell straight f open parentheses 11 close parentheses end cell equals cell fraction numerator 2 cross times 11 over denominator 11 minus 1 end fraction end cell row blank equals cell 22 over 10 end cell end table`
+$\begin{gathered} \mathrm{f} ( 11 ) & = \frac{2 \times 11}{11 - 1} \\ = \frac{22}{10} \end{gathered}$
 
 $\frac{11}{5}$ **[1]**
 
@@ -2076,7 +2076,7 @@ $\frac{11}{5}$ **[1]**
 
 *Find the input that causes the function to divide by 0 (by solving the denominator equal to 0)* * *
 
-`table attributes columnalign right center left columnspacing 0px end attributes row cell x minus 1 end cell equals 0 row x equals 1 end table`
+$\begin{array}{rcl} x - 1 & = 0 \\ x = 1 \end{array}$
 
 > * *
 
@@ -2097,7 +2097,7 @@ $y=\frac{2x}{x-1}$ * *
 
 *Remove fractions (by multiplying both sides by **y** - 1)* * *
 
-`table attributes columnalign right center left columnspacing 0px end attributes row cell x open parentheses y minus 1 close parentheses end cell equals cell 2 y end cell end table`
+$\begin{array}{rcl} x ( y - 1 ) & = 2 y \end{array}$
 
 **[1]**
 
@@ -2107,11 +2107,11 @@ $xy-x=2y$
 
 > *Get the **y** terms on one side (for example, by subtracting 2**y** and adding **x** to both sides)  *
 
-> `table row cell x y minus x minus 2 y end cell equals 0 row cell x y minus 2 y end cell equals x end table`*  *
+> $\begin{gathered} x y - x - 2 y & = 0 \\ x y - 2 y & = x \end{gathered}$*  *
 
 > *Factorise **y** out of the two terms on the left  *
 
-`y open parentheses x minus 2 close parentheses equals x`
+$y ( x - 2 ) = x$
 
 **[1]**
 
@@ -2128,13 +2128,13 @@ $f^{-1}(x)=\frac{x}{x-2}$* ***[1]**
 
 > *Instead, use the rule that "the outputs of f(**x**)" are the same as "the inputs of f*<sup>*-1*</sup>*(**x**)"*
 
-`straight f to the power of negative 1 end exponent open parentheses x close parentheses equals fraction numerator x over denominator x minus 2 end fraction` * *
+$\mathrm{f}^{- 1} ( x ) = \frac{x}{x - 2}$ * *
 
 *The possible inputs of f*<sup>*-1*</sup>*(**x**) are any values of **x** that do not end up dividing by zero*
 
 *Solve the denominator equal to zero to see which values are not allowed* * *
 
-`table row cell x minus 2 end cell equals 0 row x equals 2 end table` * *
+$\begin{gathered} x - 2 & = 0 \\ x = 2 \end{gathered}$ * *
 
 > *Excluding 2 from the inputs of f*<sup>*-1*</sup>*(**x**)  means excluding 2 from the outputs of f(**x**)*
 
@@ -2153,8 +2153,8 @@ $f^{-1}(x)=\frac{x}{x-2}$* ***[1]**
 
 > *Number the equations so that they are easier to solve.*
 
-> `3 x space minus space y space equals space 5 space space space space space space space space space space space open parentheses 1 close parentheses
-7 x space minus space y space equals space 25 space space space space space space space space space open parentheses 2 close parentheses`* *
+> $3 x - y = 5 ( 1 )
+7 x - y = 25 ( 2 )$* *
 
 **[1]**
 
@@ -2164,27 +2164,25 @@ $f^{-1}(x)=\frac{x}{x-2}$* ***[1]**
 
 > *The coefficients of **y** are the same with the same signs, so subtract them.*
 
-`space space space space space space space 7 x space minus space y space equals space 25 space space space
-bottom enclose negative space space space open parentheses 3 x space minus space y space equals space 5 close parentheses end enclose
-space space space space space space space space 4 x space space space space space space space space space space equals space 20`
+`7 x - y = 25 bottom - ( 3 x - y = 5 ) 4 x = 20`
 
 **[1]**
 
 > *Solve the equation to find** x **by dividing both sides by 4.*
 
-`table row cell x space end cell equals cell space 20 over 4 space equals space 5 end cell end table`
+$\begin{gathered} x & = \frac{20}{4} = 5 \end{gathered}$
 
 > *Substitute *$x=5$*  into either of the two original equations**.*
 
-`open parentheses 1 close parentheses space space space space space 3 open parentheses 5 close parentheses space minus space y space equals space 5`
+$( 1 ) 3 ( 5 ) - y = 5$
 
 > *Solve this equation to find** y.*
 
-`table row cell 15 space minus space y space end cell equals cell space 5 end cell row cell y space end cell equals cell space 10 end cell end table`
+$\begin{gathered} 15 - y & = 5 \\ y & = 10 \end{gathered}$
 
 > *Substitute *$x=5$* and *$y=10$* into the other equation to check that they are correct.*
 
-`table row cell open parentheses 2 close parentheses space space space space space space space space space 7 x space minus space y space end cell equals cell space 25 end cell row cell 7 open parentheses 5 close parentheses space minus space 10 space end cell equals cell space 25 end cell row cell space 35 space minus space 10 space space end cell equals cell space 25 end cell row cell 25 space end cell equals cell space 25 end cell end table`
+$\begin{gathered} ( 2 ) 7 x - y & = 25 \\ 7 ( 5 ) - 10 & = 25 \\ 35 - 10 & = 25 \\ 25 & = 25 \end{gathered}$
 
 ![34U_8gdZ_ocr-gcse-tq-ma-functions-hard-q3-diagram-2](assets/017-34u-8gdz-ocr-gcse-tq-ma-functions-hard-q3-diagra.png)
 
@@ -2238,29 +2236,29 @@ $-5=x$
 ## Q39 — very_hard — 5 marks · exam-questions
 
 ### 27() — 5 marks
-> *Find *`straight f to the power of negative 1 end exponent open parentheses 3 close parentheses`* by setting *`straight f open parentheses x close parentheses`* equal to 3. (This is the easiest way to find the inverse of an input without finding the inverse function first).*
+> *Find *$\mathrm{f}^{- 1} ( 3 )$* by setting *$\mathrm{f} ( x )$* equal to 3. (This is the easiest way to find the inverse of an input without finding the inverse function first).*
 
-`table row cell fraction numerator 2 x over denominator 5 end fraction space minus space 1 space end cell equals cell space 3 end cell end table`
+$\begin{gathered} \frac{2 x}{5} - 1 & = 3 \end{gathered}$
 
 **[1]**
 
-> *Solve to find the value of *$x$*, this will be the input of *`straight f open parentheses x close parentheses`* that gives the output of 3, which is the same as the output of *`straight f to the power of negative 1 end exponent open parentheses x close parentheses`* when the input is 3. *
+> *Solve to find the value of *$x$*, this will be the input of *$\mathrm{f} ( x )$* that gives the output of 3, which is the same as the output of *$\mathrm{f}^{- 1} ( x )$* when the input is 3. *
 
-`table row cell fraction numerator 2 x over denominator 5 end fraction space end cell equals cell space 4 end cell row cell 2 x space end cell equals cell space 20 end cell row cell x space end cell equals cell space 10 end cell end table`
+$\begin{gathered} \frac{2 x}{5} & = 4 \\ 2 x & = 20 \\ x & = 10 \end{gathered}$
 
 ** Method to solve correct**** [1]**** **
 
 **Answer correct**** [1]**
 
-> *Find *`straight f open parentheses negative 0.5 close parentheses`* by replacing the *$x$* **values in *`straight f open parentheses x close parentheses`* with -0.5 and simplifying.  *
+> *Find *$\mathrm{f} ( - 0.5 )$* by replacing the *$x$* **values in *$\mathrm{f} ( x )$* with -0.5 and simplifying.  *
 
-`straight f open parentheses negative 0.5 close parentheses space equals fraction numerator space 2 open parentheses negative 0.5 close parentheses over denominator 5 end fraction space minus space 1 space equals space fraction numerator negative 1 over denominator 5 end fraction space minus space 1 space equals space minus space 0.2 space minus space 1 space equals space minus 1.2`
+$\mathrm{f} ( - 0.5 ) = \frac{ 2 ( - 0.5 )}{5} - 1 = \frac{- 1}{5} - 1 = - 0.2 - 1 = - 1.2$
 
 **[1]**
 
-> *Add *`straight f open parentheses negative 0.5 close parentheses`* to *`straight f to the power of negative 1 end exponent open parentheses 3 close parentheses`*.  *
+> *Add *$\mathrm{f} ( - 0.5 )$* to *$\mathrm{f}^{- 1} ( 3 )$*.  *
 
-`straight f to the power of negative 1 end exponent open parentheses 3 close parentheses space plus space straight f open parentheses negative 0.5 close parentheses space equals space 10 space plus space open parentheses negative 1.2 close parentheses`
+$\mathrm{f}^{- 1} ( 3 ) + \mathrm{f} ( - 0.5 ) = 10 + ( - 1.2 )$
 
 $f^{-1}(3)+f(-0.5)=8.8$* ***[1]**
 
@@ -2269,7 +2267,7 @@ $f^{-1}(3)+f(-0.5)=8.8$* ***[1]**
 ### 1() — 1 marks
 *Substitute **x** = 0.5 into f(**x**)*
 
-`table row cell straight f open parentheses 0.5 close parentheses end cell equals cell fraction numerator 0.5 over denominator 3 cross times 0.5 plus 1 end fraction end cell row blank equals cell fraction numerator 0.5 over denominator 2.5 end fraction end cell end table`
+$\begin{gathered} \mathrm{f} ( 0.5 ) & = \frac{0.5}{3 \times 0.5 + 1} \\ = \frac{0.5}{2.5} \end{gathered}$
 
 $\frac{1}{5}$ **[1]**
 
@@ -2280,13 +2278,13 @@ $\frac{1}{5}$ **[1]**
 
 *Find f(-1) but substituting **x** = -1 into f(**x**) (putting brackets around the negative value)* * *
 
-`table row cell straight f open parentheses negative 1 close parentheses end cell equals cell fraction numerator open parentheses negative 1 close parentheses over denominator 3 open parentheses negative 1 close parentheses plus 1 end fraction end cell row blank equals cell fraction numerator negative 1 over denominator negative 3 plus 1 end fraction end cell row blank equals cell fraction numerator negative 1 over denominator negative 2 end fraction end cell row blank equals cell 1 half end cell end table`
+$\begin{gathered} \mathrm{f} ( - 1 ) & = \frac{( - 1 )}{3 ( - 1 ) + 1} \\ = \frac{- 1}{- 3 + 1} \\ = \frac{- 1}{- 2} \\ = 1 \frac{1}{2} \end{gathered}$
 
 **[1]**
 
-*f(f(-1)) is the same as *`straight f open parentheses 1 half close parentheses` *Find *`straight f open parentheses 1 half close parentheses`* but substituting *$x=\frac{1}{2}$* into f(**x**)* * *
+*f(f(-1)) is the same as *$\mathrm{f} ( 1 \frac{1}{2} )$ *Find *$\mathrm{f} ( 1 \frac{1}{2} )$* but substituting *$x=\frac{1}{2}$* into f(**x**)* * *
 
-`straight f open parentheses 1 half close parentheses equals fraction numerator 1 half over denominator 3 cross times 1 half plus 1 end fraction` * *
+$\mathrm{f} ( 1 \frac{1}{2} ) = \frac{1 \frac{1}{2}}{3 \times 1 \frac{1}{2} + 1}$ * *
 
 > *Work out this value (for example, using a calculator)*
 
@@ -2299,7 +2297,7 @@ $\frac{1}{5}$* ***[1]**
 
 *Find the input that causes the function to divide by 0 (by solving the denominator equal to 0)* * *
 
-`table attributes columnalign right center left columnspacing 0px end attributes row cell 3 x plus 1 end cell equals 0 row cell 3 x end cell equals cell negative 1 end cell row x equals cell negative 1 third end cell end table`
+$\begin{array}{rcl} 3 x + 1 & = 0 \\ 3 x & = - 1 \\ x = - 1 \frac{1}{3} \end{array}$
 
 > * *
 
@@ -2318,7 +2316,7 @@ $x=\frac{y}{3y+1}$
 
 *We must make **y** the subject of this new equation Remove fractions (by multiplying both sides by 3**y** + 1)* * *
 
-`table attributes columnalign right center left columnspacing 0px end attributes row cell x open parentheses 3 y plus 1 close parentheses end cell equals y end table`
+$\begin{array}{rcl} x ( 3 y + 1 ) & = y \end{array}$
 
 **[1]**
 
@@ -2328,11 +2326,11 @@ $3xy+x=y$
 
 > *Get the **y** terms on one side (for example, by subtracting 3**xy** from both sides)  *
 
-> `table row x equals cell y minus 3 x y end cell end table`*  *
+> $\begin{gathered} x = y - 3 x y \end{gathered}$*  *
 
 > *Factorise **y** out of the two terms on the right  *
 
-`x equals y open parentheses 1 minus 3 x close parentheses`
+$x = y ( 1 - 3 x )$
 
 **[1]**
 
@@ -2351,7 +2349,7 @@ $f^{-1}(x)=\frac{x}{1-3x}$* ***[1]**
 
 *Find f(4) by substituting **x** = 4 into f(**x**)* * *
 
-`table row cell straight f open parentheses 4 close parentheses end cell equals cell c cross times 4 plus d end cell row blank equals cell 4 c plus d end cell end table` * *
+$\begin{gathered} \mathrm{f} ( 4 ) & = c \times 4 + d \\ = 4 c + d \end{gathered}$ * *
 
 *Set this expression equal to 7* * *
 
@@ -2359,7 +2357,7 @@ $4c+d=7$ * *
 
 *Find f(10) by substituting **x** = 10 into f(**x**)* * *
 
-`table row cell straight f open parentheses 10 close parentheses end cell equals cell c cross times 10 plus d end cell row blank equals cell 10 c plus d end cell end table` * *
+$\begin{gathered} \mathrm{f} ( 10 ) & = c \times 10 + d \\ = 10 c + d \end{gathered}$ * *
 
 *Set this expression equal to 22* * *
 
@@ -2367,7 +2365,7 @@ $10c+d=22$ * *
 
 *You now have two simultaneous equations* * *
 
-`table row cell 10 c plus d end cell equals 22 row cell 4 c plus d end cell equals 7 end table`
+$\begin{gathered} 10 c + d & = 22 \\ 4 c + d & = 7 \end{gathered}$
 
 **[1]**
 
@@ -2379,7 +2377,7 @@ $6c=15\,c=\frac{15}{6}\,c=\frac{5}{2}$
 
 *Substitute this value back into either equation to find** d* * *
 
-`table row cell 4 cross times 5 over 2 plus d end cell equals 7 row cell 10 plus d end cell equals 7 row d equals cell negative 3 end cell end table`
+$\begin{gathered} 4 \times \frac{5}{2} + d & = 7 \\ 10 + d & = 7 \\ d = - 3 \end{gathered}$
 
 **c**** = 2.5 and ****d**** = -3*** ***[1]**
 
@@ -2397,7 +2395,7 @@ $\frac{22-7}{10-4}=2.5$
 
 *Work out the y-intercept of this line, **d**, for example using f(4) = 7* * *
 
-`table attributes columnalign right center left columnspacing 0px end attributes row cell straight f open parentheses x close parentheses end cell equals cell 2.5 x plus d end cell row cell straight f open parentheses 4 close parentheses end cell equals cell 2.5 cross times 4 plus d end cell row 7 equals cell 2.5 cross times 4 plus d end cell row 7 equals cell 10 plus d end cell row cell negative 3 end cell equals d end table`
+$\begin{array}{rcl} \mathrm{f} ( x ) & = 2.5 x + d \\ \mathrm{f} ( 4 ) & = 2.5 \times 4 + d \\ 7 = 2.5 \times 4 + d \\ 7 = 10 + d \\ - 3 & = d \end{array}$
 
 **c**** = 2.5 and ****d**** = -3*** ***[1]**
 
@@ -2408,7 +2406,7 @@ $\frac{22-7}{10-4}=2.5$
 
 *To find this composite function, replace all **x**'s in h(**x**) with 2**x*
 
-`hg open parentheses x close parentheses equals fraction numerator 2 x minus 1 over denominator 2 end fraction`
+$\text{hg} ( x ) = \frac{2 x - 1}{2}$
 
 **The ****second**** option is therefore correct, **$\frac{2x-1}{2}$ **[1]**
 
@@ -2432,27 +2430,27 @@ $x=\frac{5}{2}\mathrm{or}2.5$
 ### 17((b)) — 3 marks
 > *Substitute the function h into the function g*
 
-`gh open parentheses x close parentheses equals fraction numerator 11 over denominator 2 open parentheses x squared plus 4 close parentheses space minus 5 end fraction`
+$\text{gh} ( x ) = \frac{11}{2 ( x^{2} + 4 ) - 5}$
 
 **[M1]**
 
 > *Set this equal to 1 and solve the equation*
 
-`table row cell fraction numerator 11 over denominator 2 open parentheses x squared plus 4 close parentheses space minus 5 end fraction end cell equals 1 row blank blank blank end table`
+$\begin{gathered} \frac{11}{2 ( x^{2} + 4 ) - 5} & = 1 \\ \end{gathered}$
 
 > *Simplify the denominator and multiply both sides by it*
 
-`table row cell fraction numerator 11 over denominator 2 x squared plus 3 end fraction end cell equals 1 row cell 11 space end cell equals cell space 2 x squared plus 3 end cell end table`
+$\begin{gathered} \frac{11}{2 x^{2} + 3} & = 1 \\ 11 & = 2 x^{2} + 3 \end{gathered}$
 
 > *Subtract 11 to get a quadratic equal to zero and solve*
 
-`table row cell 0 space end cell equals cell space 2 x squared plus 3 space minus space 11 end cell row cell 0 space end cell equals cell space 2 x squared space minus space 8 end cell row 8 equals cell 2 x squared end cell end table`
+$\begin{gathered} 0 & = 2 x^{2} + 3 - 11 \\ 0 & = 2 x^{2} - 8 \\ 8 = 2 x^{2} \end{gathered}$
 
 **[M1]**
 
-`table row 4 equals cell x squared end cell end table`
+$\begin{gathered} 4 = x^{2} \end{gathered}$
 
-`table row x equals cell plus-or-minus 2 end cell end table`
+$\begin{gathered} x = \pm 2 \end{gathered}$
 
 > *Due to the domain of h(*$x$*) being *$x\geq0$*, *$x$*must be positive*
 
@@ -2465,23 +2463,23 @@ $x=\frac{5}{2}\mathrm{or}2.5$
 ### 28((a)) — 3 marks
 *To find f(2**x**), replace the **x**'s in f(**x**) with 2**x* * *
 
-`straight f open parentheses 2 x close parentheses equals 5 minus 2 x`
+$\mathrm{f} ( 2 x ) = 5 - 2 x$
 
 **[1]*** *
 
 *To find g(**x** - 1), replace the **x**'s in g(**x**) with (**x** - 1) in brackets* * *
 
-`straight g open parentheses x minus 1 close parentheses equals 3 open parentheses x minus 1 close parentheses plus 7`
+$\mathrm{g} ( x - 1 ) = 3 ( x - 1 ) + 7$
 
 **[1]*** *
 
 *Add the two results above* * *
 
-`straight f open parentheses 2 x close parentheses plus straight g open parentheses x minus 1 close parentheses equals 5 minus 2 x plus 3 open parentheses x minus 1 close parentheses plus 7` * *
+$\mathrm{f} ( 2 x ) + \mathrm{g} ( x - 1 ) = 5 - 2 x + 3 ( x - 1 ) + 7$ * *
 
 *Expand and simplified the right-hand side* * *
 
-`table row cell straight f open parentheses 2 x close parentheses plus straight g open parentheses x minus 1 close parentheses end cell equals cell 5 minus 2 x plus 3 x minus 3 plus 7 end cell row blank equals cell 9 plus x end cell end table`
+$\begin{gathered} \mathrm{f} ( 2 x ) + \mathrm{g} ( x - 1 ) & = 5 - 2 x + 3 x - 3 + 7 \\ = 9 + x \end{gathered}$
 
 **9 + ****x**** ****[1]**
 
@@ -2496,25 +2494,25 @@ $y=x^{2}-8x+5\,x=y^{2}-8y+5$
 
 > *Rearrange **the expression to make *$y$* the subject again by first completing the square.  *
 
-> *The formula for completing the square for a quadratic in the form*$x^{2}+bx+c$*is*`space space open parentheses x space plus space b over 2 close parentheses squared space space minus space open parentheses b over 2 close parentheses squared space plus space c`*.*
+> *The formula for completing the square for a quadratic in the form*$x^{2}+bx+c$*is*$( x + \frac{b}{2} )^{2} - ( \frac{b}{2} )^{2} + c$*.*
 
 > *Complete the square by dividing the middle term (-8) by 2.*
 
-`table row cell y squared space minus space 8 y space plus space 5 space end cell equals cell space open parentheses y space minus space 8 over 2 close parentheses to the power of 2 space end exponent minus open parentheses 8 over 2 close parentheses squared space plus space 5 space end cell row blank equals cell space open parentheses y space minus space 4 close parentheses squared space minus space 4 squared space plus space 5 end cell end table`
+$\begin{gathered} y^{2} - 8 y + 5 & = ( y - \frac{8}{2} )^{2 } - ( \frac{8}{2} )^{2} + 5 \\ = ( y - 4 )^{2} - 4^{2} + 5 \end{gathered}$
 
 **Correct first step to complete square**** [1]**
 
 > *Simplify.*
 
-`table row cell open parentheses y space minus space 4 close parentheses squared space minus space 4 squared space plus space 5 space end cell equals cell space open parentheses y space minus space 4 close parentheses squared space minus space 16 space plus space 5 space end cell row blank equals cell space open parentheses y space minus space 4 close parentheses squared space minus space 11 end cell end table`
+$\begin{gathered} ( y - 4 )^{2} - 4^{2} + 5 & = ( y - 4 )^{2} - 16 + 5 \\ = ( y - 4 )^{2} - 11 \end{gathered}$
 
 > *Set equal to *$x$* and rearrange to make *$y$* the subject.*
 
-`x space equals space open parentheses y space minus space 4 close parentheses squared space minus space 11`
+$x = ( y - 4 )^{2} - 11$
 
 > *Rearrange **the expression to make *$y$* the subject again.*
 
-`table row cell x space plus space 11 space end cell equals cell space open parentheses y space minus space 4 close parentheses squared end cell row cell y space minus space 4 space end cell equals cell space plus-or-minus square root of x space plus space 11 end root end cell row cell y space end cell equals cell plus-or-minus square root of x space plus space 11 end root space plus space 4 end cell row cell y space end cell equals cell space 4 space plus-or-minus square root of x space plus space 11 end root end cell end table`
+$\begin{gathered} x + 11 & = ( y - 4 )^{2} \\ y - 4 & = \pm \sqrt{x + 11} \\ y & = \pm \sqrt{x + 11} + 4 \\ y & = 4 \pm \sqrt{x + 11} \end{gathered}$
 
 **[1]**
 
@@ -2541,17 +2539,17 @@ $x=4.5$
 **[B1]**
 
 ### 19((b)) — 2 marks
-> *Work out *`straight g open parentheses 4 close parentheses`* by substituting 4 into the function for *$g$
+> *Work out *$\mathrm{g} ( 4 )$* by substituting 4 into the function for *$g$
 
-`straight g open parentheses 4 close parentheses space equals fraction numerator space 5 over denominator 2 open parentheses 4 close parentheses minus 9 end fraction space equals fraction numerator 5 over denominator 8 space minus space 9 end fraction space equals fraction numerator 5 over denominator negative 1 end fraction space equals space minus 5`
+$\mathrm{g} ( 4 ) = \frac{ 5}{2 ( 4 ) - 9} = \frac{5}{8 - 9} = \frac{5}{- 1} = - 5$
 
 **[M1]**
 
 > *Substitute this value into the function for *$f$
 
-`straight f open parentheses negative 5 close parentheses space equals space 5 open parentheses negative 5 close parentheses thin space plus thin space 7 space equals space minus 25 space plus thin space 7 space equals space minus 18`
+$\mathrm{f} ( - 5 ) = 5 ( - 5 ) + 7 = - 25 + 7 = - 18$
 
-`fg open parentheses 4 close parentheses space equals space minus 18`
+$fg ( 4 ) = - 18$
 
 **[A1]**
 
@@ -2560,23 +2558,23 @@ $x=4.5$
 
 $y=3x^{2}-12x+8$
 
-> *To make *$x$* the subject, write it in the form *`a open parentheses x minus p close parentheses squared space plus thin space q`* so that *$x$* will only appear once*
+> *To make *$x$* the subject, write it in the form *$a ( x - p )^{2} + q$* so that *$x$* will only appear once*
 
-`y space equals space 3 open parentheses x squared space minus space 4 x close parentheses space plus thin space 8`
+$y = 3 ( x^{2} - 4 x ) + 8$
 
 **[M1]**
 
-`y space equals space 3 open square brackets open parentheses x space minus space 2 close parentheses squared space minus space 4 close square brackets space plus thin space 8
-y space equals space 3 open parentheses x space minus space 2 close parentheses squared space minus space 12 space plus thin space 8
-y space equals space 3 open parentheses x space minus space 2 close parentheses squared space minus space 4`
+$y = 3 [ ( x - 2 )^{2} - 4 ] + 8
+y = 3 ( x - 2 )^{2} - 12 + 8
+y = 3 ( x - 2 )^{2} - 4$
 
 **[M1]**
 
 > *Now use the reverse order of operations to make *$x$* the subject*
 
-`y space plus thin space 4 space equals space 3 open parentheses x space minus space 2 close parentheses squared`
+$y + 4 = 3 ( x - 2 )^{2}$
 
-`fraction numerator y space plus thin space 4 over denominator 3 end fraction space equals space open parentheses x space minus space 2 close parentheses squared`
+$\frac{y + 4}{3} = ( x - 2 )^{2}$
 
 **[M1]**
 
@@ -2591,7 +2589,7 @@ $y=2\pm\sqrt{\frac{x+4}{3}}$
 > **[exam-tip]**
 > The domain of the original function tells us the range of the inverse function. $y>2$ so ignore the minus.
 
-`straight h to the power of negative 1 end exponent open parentheses x close parentheses space equals space 2 space plus thin space square root of fraction numerator x space plus thin space 4 over denominator 3 end fraction end root`
+$\mathrm{h}^{- 1} ( x ) = 2 + \sqrt{ \frac{x + 4}{3} }$
 
 **[A1]**
 
@@ -2600,7 +2598,7 @@ $y=2\pm\sqrt{\frac{x+4}{3}}$
 ### 27((a)) — 2 marks
 *The inverse of cube-rooting is cubing*
 
-`straight h to the power of negative 1 end exponent open parentheses x close parentheses equals x cubed`
+$\mathrm{h}^{- 1} ( x ) = x^{3}$
 
 [1]
 
@@ -2625,23 +2623,23 @@ $y=2\pm\sqrt{\frac{x+4}{3}}$
 ### 23() — 4 marks
 > *It helps to rewrite these functions back in the form f(**x**) and g(**x**)*
 
-`straight f open parentheses x close parentheses equals 1 plus 1 over x space space space space space space space space space space straight g open parentheses x close parentheses equals fraction numerator x plus 1 over denominator 2 end fraction`
+$\mathrm{f} ( x ) = 1 + \frac{1}{x} \mathrm{g} ( x ) = \frac{x + 1}{2}$
 
 *fg is the same as fg(**x**) which means f(g(**x**))*
 
 *Write the algebraic expression for g(**x**) inside f(...)* * *
 
-`straight h open parentheses x close parentheses equals straight f open parentheses fraction numerator x plus 1 over denominator 2 end fraction close parentheses` * *
+$\mathrm{h} ( x ) = \mathrm{f} ( \frac{x + 1}{2} )$ * *
 
-*Find *`straight f open parentheses fraction numerator x plus 1 over denominator 2 end fraction close parentheses`* by replacing the **x**'s in g(**x**) with the brackets *`open parentheses fraction numerator x plus 1 over denominator 2 end fraction close parentheses` * *
+*Find *$\mathrm{f} ( \frac{x + 1}{2} )$* by replacing the **x**'s in g(**x**) with the brackets *$( \frac{x + 1}{2} )$ * *
 
-`straight h open parentheses x close parentheses equals 1 plus fraction numerator 1 over denominator open parentheses fraction numerator x plus 1 over denominator 2 end fraction close parentheses end fraction`
+$\mathrm{h} ( x ) = 1 + \frac{1}{( \frac{x + 1}{2} )}$
 
 **[1]**
 
 *The algebraic fraction can be simplified by either multiplying top-and-bottom by 2 or using that *$1\div\frac{x+1}{2}=1\times\frac{2}{x+1}$ * *
 
-`table attributes columnalign right center left columnspacing 0px end attributes row cell straight h open parentheses x close parentheses end cell equals cell 1 plus fraction numerator 2 over denominator x plus 1 end fraction end cell end table`* *
+$\begin{array}{rcl} \mathrm{h} ( x ) & = 1 + \frac{2}{x + 1} \end{array}$* *
 
 *To find the inverse function h*<sup>*-1*</sup>*(**x**), first replace h(**x**) with **y* * *
 
@@ -2682,11 +2680,11 @@ $\frac{3-x}{x-1}$** or **$\frac{x-3}{1-x}$** or **$-1-\frac{2}{1-x}$**are also a
 ## Q49 — very_hard — 2 marks · exam-questions
 
 ### 27((b)) — 2 marks
-> *Write the composite function *`y equals fg open parentheses x close parentheses`*.*
+> *Write the composite function *$y = \text{fg} ( x )$*.*
 
-`y equals sin open parentheses x plus 90 close parentheses`
+$y = \sin ( x + 90 )$
 
-> `y equals sin open parentheses x plus 90 close parentheses`* is a translation of *$y=\mathrm{sin}x$* by 90° **left**.*
+> $y = \sin ( x + 90 )$* is a translation of *$y=\mathrm{sin}x$* by 90° **left**.*
 
 > *Start by lightly sketching the graph of *$y=\mathrm{sin}x$*. *
 
@@ -2709,23 +2707,23 @@ $\frac{3-x}{x-1}$** or **$\frac{x-3}{1-x}$** or **$-1-\frac{2}{1-x}$**are also a
 ## Q50 — hard — 4 marks · exam-questions
 
 ### 28() — 4 marks
-> *Find *`straight f to the power of negative 1 end exponent open parentheses 55 close parentheses`* by setting f(**x**) equal to 55.*
+> *Find *$\mathrm{f}^{- 1} ( 55 )$* by setting f(**x**) equal to 55.*
 
-`table row cell 2 x space minus space 3 space end cell equals cell space 55 end cell end table`
+$\begin{gathered} 2 x - 3 & = 55 \end{gathered}$
 
 **[1]**
 
 > *Solve to find the value of *$x$*, this will be the input of f(**x**) that gives the output of 55, which is the same as the output of the inverse of f(**x**) when the input is 55. *
 
-`table row cell 2 x space end cell equals cell space 55 space plus space 3 end cell row cell x space end cell equals cell space fraction numerator 55 space plus space 3 over denominator 2 end fraction end cell row cell x space end cell equals cell space 29 end cell end table`
+$\begin{gathered} 2 x & = 55 + 3 \\ x & = \frac{55 + 3}{2} \\ x & = 29 \end{gathered}$
 
 **[1]*** *
 
-> `fg open parentheses 4 close parentheses`* means *`straight f open parentheses straight g open parentheses 4 close parentheses close parentheses`*. *
+> $fg ( 4 )$* means *$\mathrm{f} ( \mathrm{g} ( 4 ) )$*. *
 
-> *Find *`fg open parentheses 4 close parentheses`* by replacing the **x**'s in g(**x**) with 4 and then substituting this into f(**x**).  *
+> *Find *$fg ( 4 )$* by replacing the **x**'s in g(**x**) with 4 and then substituting this into f(**x**).  *
 
-`straight f open parentheses straight g open parentheses 4 close parentheses close parentheses equals straight f open parentheses 4 squared close parentheses space equals space straight f open parentheses 16 close parentheses space equals space 2 space cross times 16 space minus 3 space equals space 29`
+$\mathrm{f} ( \mathrm{g} ( 4 ) ) = \mathrm{f} ( 4^{2} ) = \mathrm{f} ( 16 ) = 2 \times 16 - 3 = 29$
 
 **[1]**
 
@@ -2750,22 +2748,22 @@ $x^{2}+6$
 
 *Write an expression for the output of **B* * *
 
-`open parentheses x minus 3 close parentheses squared` * *
+$( x - 3 )^{2}$ * *
 
 *Set the output of **A** to be less than the output of **B** (using an inequality sign)* * *
 
-`x squared plus 6 less than open parentheses x minus 3 close parentheses squared` * *
+$x^{2} + 6 < ( x - 3 )^{2}$ * *
 
 *Expand the brackets on the right-hand side* * *
 
-`x squared plus 6 less than open parentheses x minus 3 close parentheses open parentheses x minus 3 close parentheses
-x squared plus 6 less than x squared minus 6 x plus 9`
+$x^{2} + 6 < ( x - 3 ) ( x - 3 )
+x^{2} + 6 < x^{2} - 6 x + 9$
 
 **brackets expanded correctly ****[1]**
 
 *Simplify and solve the inequality* * *
 
-`table row cell up diagonal strike x squared end strike plus 6 end cell less than cell up diagonal strike x squared end strike minus 6 x plus 9 end cell row 6 less than cell negative 6 x plus 9 end cell row cell 6 x end cell less than cell 9 minus 6 end cell row cell 6 x end cell less than 3 row x less than cell 3 over 6 end cell end table`
+$\begin{gathered} \cancel{x^{2}} + 6 & < \cancel{x^{2}} - 6 x + 9 \\ 6 < - 6 x + 9 \\ 6 x & < 9 - 6 \\ 6 x & < 3 \\ x < \frac{3}{6} \end{gathered}$
 
 **6x < 3**** [1]**
 
@@ -2774,17 +2772,17 @@ $x<\frac{1}{2}$* ***[1]**
 ## Q52 — hard — 2 marks · exam-questions
 
 ### 30() — 2 marks
-> `fg open parentheses x close parentheses`* means *`straight f open parentheses straight g open parentheses x close parentheses close parentheses`*.*
+> $fg ( x )$* means *$\mathrm{f} ( \mathrm{g} ( x ) )$*.*
 
-> * Find *`fg open parentheses x close parentheses`* by substituting *`straight g open parentheses x close parentheses`* into *`straight f open parentheses x close parentheses.`*  *
+> * Find *$fg ( x )$* by substituting *$\mathrm{g} ( x )$* into *$\mathrm{f} ( x ).$*  *
 
-`fg open parentheses x close parentheses equals straight f open parentheses 6 x squared space plus space 3 close parentheses space equals space fraction numerator open parentheses 6 x squared space plus space 3 close parentheses over denominator 3 end fraction plus space 4`
+$\text{fg} ( x ) = \mathrm{f} ( 6 x^{2} + 3 ) = \frac{( 6 x^{2} + 3 )}{3} + 4$
 
 **[1]**
 
 > *Factorise the numerator of the fraction and simplify. *
 
-`fraction numerator up diagonal strike 3 open parentheses 2 x squared space plus space 1 close parentheses over denominator up diagonal strike 3 end fraction plus space 4 space equals space 2 x squared space plus space 1 space plus space 4`
+$\frac{ \cancel{3} ( 2 x^{2} + 1 )}{ \cancel{3} } + 4 = 2 x^{2} + 1 + 4$
 
 > *Simplify.*
 
@@ -2797,13 +2795,13 @@ $\mathrm{fg}(x)=2x^{2}+5$* ***[1]**
 
 *fg(**x**) is f(g(**x**)), so replace all **x**'s in f(**x**) with (**cx** + 5) in brackets* * *
 
-`fg open parentheses x close parentheses equals 2 open parentheses c x plus 5 close parentheses plus c`
+$\text{fg} ( x ) = 2 ( c x + 5 ) + c$
 
 **[1]**
 
 *Expand the right-hand side* * *
 
-`fg open parentheses x close parentheses equals 2 c x plus 10 plus c` * *
+$\text{fg} ( x ) = 2 c x + 10 + c$ * *
 
 *This expression needs to be identical to fg(**x**) = 6**x** + **d*
 
@@ -2826,17 +2824,17 @@ $c=3$ *so* $10+3=d$
 
 *Find f(10) by substituting **x **= 10 into f(**x**)* * *
 
-`table row cell straight f open parentheses 10 close parentheses end cell equals cell 3 cross times 10 squared minus 4 cross times 10 plus 8 end cell row blank equals cell 3 cross times 100 minus 40 plus 8 end cell row blank equals cell 300 minus 40 plus 8 end cell row blank equals 268 end table`
+$\begin{gathered} \mathrm{f} ( 10 ) & = 3 \times 10^{2} - 4 \times 10 + 8 \\ = 3 \times 100 - 40 + 8 \\ = 300 - 40 + 8 \\ = 268 \end{gathered}$
 
 **[1]**
 
 *Find f(5) by substituting **x** = 5 into f(**x**)* * *
 
-`table row cell straight f open parentheses 5 close parentheses end cell equals cell 3 cross times 5 squared minus 4 cross times 5 plus 8 end cell row blank equals cell 3 cross times 25 minus 20 plus 8 end cell row blank equals cell 75 minus 20 plus 8 end cell row blank equals 63 end table` * *
+$\begin{gathered} \mathrm{f} ( 5 ) & = 3 \times 5^{2} - 4 \times 5 + 8 \\ = 3 \times 25 - 20 + 8 \\ = 75 - 20 + 8 \\ = 63 \end{gathered}$ * *
 
 *Find 2 × f(5) by multiplying the result by 2* * *
 
-`2 cross times straight f open parentheses 5 close parentheses equals 2 cross times 63 equals 126` * *
+$2 \times \mathrm{f} ( 5 ) = 2 \times 63 = 126$ * *
 
 > *Jenny is not correct, as the value of f(10) is not equal to the value of 2 × f(5)*
 
@@ -2851,19 +2849,19 @@ $c=3$ *so* $10+3=d$
 
 *Replace the **x**'s in g(**x**) with **x*<sup>*3*</sup> * *
 
-`gh open parentheses x close parentheses equals 16 minus x cubed`
+$\text{gh} ( x ) = 16 - x^{3}$
 
 **[1]**
 
 *Set this expression equal to 24 and solve to find **x* * *
 
-`table row cell 16 minus x cubed end cell equals 24 row 16 equals cell 24 plus x cubed end cell row cell 16 minus 24 end cell equals cell x cubed end cell row cell negative 8 end cell equals cell x cubed end cell end table`
+$\begin{gathered} 16 - x^{3} & = 24 \\ 16 = 24 + x^{3} \\ 16 - 24 & = x^{3} \\ - 8 & = x^{3} \end{gathered}$
 
 **[1]**
 
 *Take the cube-root of both sides (you can cube-root a negative number)*
 
-`table row cell cube root of negative 8 end root end cell equals x row cell negative 2 end cell equals x end table`
+$\begin{gathered} \sqrt[3]{- 8} & = x \\ - 2 & = x \end{gathered}$
 
 **x**** = -2 ****[1]**
 
@@ -2874,19 +2872,19 @@ $c=3$ *so* $10+3=d$
 
 *To find this function, replace all **x**'s in f(**x**) with (**x*<sup>*2*</sup>* - 2) and simplify* * *
 
-`table row cell fg open parentheses x close parentheses end cell equals cell fraction numerator open parentheses x squared minus 2 close parentheses over denominator open parentheses x squared minus 2 close parentheses plus 2 end fraction end cell row blank equals cell fraction numerator x squared minus 2 over denominator x squared minus 2 plus 2 end fraction end cell row blank equals cell fraction numerator x squared minus 2 over denominator x squared end fraction end cell end table`
+$\begin{gathered} \text{fg} ( x ) & = \frac{( x^{2} - 2 )}{( x^{2} - 2 ) + 2} \\ = \frac{x^{2} - 2}{x^{2} - 2 + 2} \\ = \frac{x^{2} - 2}{x^{2}} \end{gathered}$
 
 **[1]**
 
 *Split the algebraic fraction up into two separate fractions* * *
 
-`fg open parentheses x close parentheses equals x squared over x squared minus 2 over x squared`
+$\text{fg} ( x ) = \frac{x^{2}}{x^{2}} - \frac{2}{x^{2}}$
 
 **[1]**
 
 *Simplify the first fraction by cancelling **x*<sup>*2*</sup>* from top-and-bottom* * *
 
-`table row cell fg open parentheses x close parentheses end cell equals cell fraction numerator up diagonal strike x squared end strike over denominator up diagonal strike x squared end strike end fraction minus 2 over x squared end cell row blank equals cell 1 minus 2 over x squared end cell end table` * *
+$\begin{gathered} \text{fg} ( x ) & = \frac{ \cancel{x^{2}} }{ \cancel{x^{2}} } - \frac{2}{x^{2}} \\ = 1 - \frac{2}{x^{2}} \end{gathered}$ * *
 
 *The final answer must be in the form **a** + **bx*<sup>*n*</sup>* **where **a**, **b** and **c** are integers (not necessarily positive integers)*
 
@@ -2911,7 +2909,7 @@ $x=\frac{2y+3}{y-4}$
 
 *Now make **y** the subject of this new equation (start by multiplying both sides by **y **- 4)* * *
 
-`table row cell x open parentheses y minus 4 close parentheses end cell equals cell 2 y plus 3 end cell end table`
+$\begin{gathered} x ( y - 4 ) & = 2 y + 3 \end{gathered}$
 
 **[1]**
 
@@ -2927,7 +2925,7 @@ $xy-4x=2y+3$
 
 > *Factorise out the **y** on the left-hand side  *
 
-`y open parentheses x minus 2 close parentheses equals 4 x plus 3`
+$y ( x - 2 ) = 4 x + 3$
 
 **[1]**
 

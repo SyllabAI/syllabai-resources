@@ -19,9 +19,9 @@ guided_study: false
 
 ### How do I perform calculations in standard form using a calculator?
 
-- Make **use of brackets** around each number, and use the `box enclose cross times 10 to the power of x end enclose` button to enter numbers in standard form
+- Make **use of brackets** around each number, and use the `box x 10 ^ x` button to enter numbers in standard form
 
-  - e.g. `open parentheses 3 cross times 10 to the power of 8 close parentheses cross times open parentheses 2 cross times 10 to the power of negative 3 end exponent close parentheses`
+  - e.g. $( 3 \times 10^{8 ) \times ( 2 \times 10^{-3} } )$
   - You can instead use the standard multiplication and index buttons
 - If your calculator answer is **not in standard form**, but the question requires it:
 
@@ -39,7 +39,7 @@ guided_study: false
 
 #### Multiplication
 
-- Consider the example `open parentheses 3 cross times 10 to the power of 112 close parentheses space cross times space open parentheses 4 cross times 10 to the power of 235 close parentheses`
+- Consider the example $( 3 \times 10^{112} ) \times ( 4 \times 10^{235} )$
 - **STEP 1**
 **Multiply **the **ordinary **numbers
 
@@ -59,7 +59,7 @@ Write the ordinary number in **standard form** and simplify the powers of 10 by 
 
 #### Division
 
-- Consider the example `open parentheses 2 cross times 10 to the power of negative 150 end exponent close parentheses space divided by space open parentheses 8 cross times 10 to the power of negative 131 end exponent close parentheses`
+- Consider the example $( 2 \times 10^{- 150} ) \div ( 8 \times 10^{- 131} )$
 - **STEP 1**
 **Divide **the **first ordinary **number by the **second ordinary** number
 
@@ -67,7 +67,7 @@ Write the ordinary number in **standard form** and simplify the powers of 10 by 
 - **STEP 2**
 **Divide **the **first power **of 10 by the **second power **of 10 by **subtracting **the indices
 
-  - e.g. `10 to the power of negative 150 end exponent divided by 10 to the power of negative 131 end exponent equals 10 to the power of negative 150 minus open parentheses negative 131 close parentheses end exponent equals 10 to the power of negative 19 end exponent`
+  - e.g. $10^{- 150} \div 10^{- 131} = 10^{- 150 - ( - 131 )} = 10^{- 19}$
   
     - Be careful with negatives!
 - **STEP 3**
@@ -81,7 +81,7 @@ Write the ordinary number in **standard form** and simplify the powers of 10 by 
 
 ### How do I add and subtract numbers in standard form using index laws?
 
-- Consider the example `open parentheses 4 cross times 10 to the power of 150 close parentheses minus open parentheses 2 cross times 10 to the power of 148 close parentheses`
+- Consider the example $( 4 \times 10^{150} ) - ( 2 \times 10^{148} )$
 - **STEP 1**
 **Rewrite **the number with the **biggest power **of 10 so that it has the same power of 10 as the number with the **lowest power **of 10
 
@@ -91,7 +91,7 @@ Write the ordinary number in **standard form** and simplify the powers of 10 by 
 - **STEP 2**
 **Collect like terms** by adding or subtracting the **ordinary **numbers
 
-  - e.g. `open parentheses 400 cross times 10 to the power of 148 close parentheses minus open parentheses 2 cross times 10 to the power of 148 close parentheses equals 398 cross times 10 to the power of 148`
+  - e.g. $( 400 \times 10^{148} ) - ( 2 \times 10^{148} ) = 398 \times 10^{148}$
   
     - Do not change the power of 10
 - **STEP 3**
@@ -100,14 +100,14 @@ Write the ordinary number in **standard form** and simplify the powers of 10 by 
   - e.g. $398=3.98\times10^{2}$ and $3.98\times10^{2}\times10^{148}=3.98\times10^{150}$
 - This method works for** negative powers** too
 
-  - e.g. consider `open parentheses 8 cross times 10 to the power of negative 120 end exponent close parentheses minus open parentheses 5 cross times 10 to the power of negative 121 end exponent close parentheses`
+  - e.g. consider $( 8 \times 10^{- 120} ) - ( 5 \times 10^{- 121} )$
   
     - $8\times10^{-120}=8\times10^{1}\times10^{-121}=80\times10^{-121}$
-    - `open parentheses 80 cross times 10 to the power of negative 121 end exponent close parentheses minus open parentheses 5 cross times 10 to the power of negative 121 end exponent close parentheses equals 75 cross times 10 to the power of negative 121 end exponent`
+    - $( 80 \times 10^{- 121} ) - ( 5 \times 10^{- 121} ) = 75 \times 10^{- 121}$
     - $75=7.5\times10^{1}$ and $7.5\times10^{1}\times10^{-121}=10^{-120}$
 
 > **Worked Example**
-> Show how  `open parentheses 45 cross times 10 to the power of negative 123 end exponent close parentheses space divided by space open parentheses 0.9 cross times 10 to the power of 105 close parentheses` can be written in the form $A\times10^{n}$, where $1\leqA<10$ and $n$ is an integer.
+> Show how  $( 45 \times 10^{- 123} ) \div ( 0.9 \times 10^{105} )$ can be written in the form $A\times10^{n}$, where $1\leqA<10$ and $n$ is an integer.
 > 
 > **Answer:**
 > 
@@ -125,7 +125,7 @@ Write the ordinary number in **standard form** and simplify the powers of 10 by 
 > 
 > > *Combine back together*
 > 
-> `open parentheses 45 cross times 10 to the power of negative 123 end exponent close parentheses space divided by space open parentheses 0.9 cross times 10 to the power of 105 close parentheses equals 50 cross times 10 to the power of negative 228 end exponent`
+> $( 45 \times 10^{- 123} ) \div ( 0.9 \times 10^{105 ) = 50 \times 10^{-228} }$
 > 
 > > *Rewrite in standard form, where *$a$* is between 1 and 10*
 > 

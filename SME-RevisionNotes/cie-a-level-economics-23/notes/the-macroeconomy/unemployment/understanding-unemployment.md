@@ -24,7 +24,7 @@ guided_study: false
 - Unemployment is distinct from **economic inactivity** - those who are neither employed nor actively seeking work, such as full-time students, stay-at-home parents, or those who have given up looking for work, are not counted as unemployed
 - The **unemployment rate** is expressed as a percentage of the labour force:
 
-`Unemployment space rate space left parenthesis percent sign right parenthesis space equals space fraction numerator number space unemployed space over denominator labour space force end fraction space straight x space 100`
+$\text{Unemployment} \text{rate} ( \% ) = \frac{number \text{unemployed} }{labour force} \mathrm{x} 100$
 
 > **Worked Example**
 > The table shows labour market data for a country.

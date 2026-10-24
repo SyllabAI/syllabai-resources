@@ -72,7 +72,7 @@ $\mathrm{refractive} \mathrm{index},n=\frac{\mathrm{speed} \mathrm{of} \mathrm{l
 > 
 > $\mathrm{sin}r=\frac{\mathrm{sin}i}{n}$
 > 
-> `sin space r italic space equals space fraction numerator sin open parentheses 15 close parentheses over denominator 1.53 end fraction`
+> $\sin r = \frac{\sin ( 15 )}{1.53}$
 > 
 > $\mathrm{sin}r=0.1692$
 > 

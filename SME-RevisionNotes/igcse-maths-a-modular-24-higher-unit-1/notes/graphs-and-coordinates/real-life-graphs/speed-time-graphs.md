@@ -96,8 +96,8 @@ guided_study: true
 > 
 > > *In a speed-time graph the distance travelled is equal to the area under the graph*
 > 
-> > * The graph is a trapezium so use the formula   *`Area space equals space fraction numerator open parentheses a space plus space b close parentheses h over denominator 2 end fraction`
+> > * The graph is a trapezium so use the formula   *$\text{Area} = \frac{( a + b ) h}{2}$
 > 
-> *  *`Area space equals space fraction numerator open parentheses 9 space plus thin space 20 close parentheses space cross times space 9 over denominator 2 end fraction space equals space 261 over 2 space equals space 130.5 space`
+> *  *$\text{Area} = \frac{( 9 + 20 ) \times 9}{2} = \frac{261}{2} = 130.5$
 > 
 > **Final answer:** **  ****Distance travelled = 130.5 m**

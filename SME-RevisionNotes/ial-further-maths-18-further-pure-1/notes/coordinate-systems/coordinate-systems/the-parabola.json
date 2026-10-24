@@ -277,7 +277,7 @@
    "type": "callout",
    "variant": "worked-example",
    "label": "Worked Example",
-   "md": "A parabola has the parametric equations $x=at^{2}$* *and $y=2at$ where $a>0$.\n\nShow that its Cartesian equation is $y^{2}=4ax$.\n\n> *To find the Cartesian equation, eliminate *$t$* from the parametric equations*\n*It is easier to make *$t$* the subject of *$y=2at$\n\n$t=\\frac{y}{2a}$\n\n> *Substitute this into the equation for *$x$* and simplify*\n\n`table row x equals cell a open parentheses fraction numerator y over denominator 2 a end fraction close parentheses squared end cell row x equals cell fraction numerator a y squared over denominator 4 a squared end fraction end cell row x equals cell fraction numerator y squared over denominator 4 a end fraction end cell end table`\n\n> *Make *$y^{2}$* the subject*\n\n$y^{2}=4ax$"
+   "md": "A parabola has the parametric equations $x=at^{2}$* *and $y=2at$ where $a>0$.\n\nShow that its Cartesian equation is $y^{2}=4ax$.\n\n> *To find the Cartesian equation, eliminate *$t$* from the parametric equations*\n*It is easier to make *$t$* the subject of *$y=2at$\n\n$t=\\frac{y}{2a}$\n\n> *Substitute this into the equation for *$x$* and simplify*\n\n$\\begin{gathered} x = a ( \\frac{y}{2 a} )^{2} \\\\ x = \\frac{a y^{2}}{4 a^{2}} \\\\ x = \\frac{y^{2}}{4 a} \\end{gathered}$\n\n> *Make *$y^{2}$* the subject*\n\n$y^{2}=4ax$"
   },
   {
    "type": "spec_point",
@@ -297,7 +297,7 @@
   },
   {
    "type": "bullets",
-   "md": "- The **focus** of the parabola $y^{2}=4ax$ is the **point**  `open parentheses a comma space 0 close parentheses` on the $x$-axis\n- The **directrix** is the **vertical line **$x=-a$\n- For example, the parabola $y^{2}=12x$ where $a=3$ has\n\n  - a focus at `open parentheses 3 comma space 0 close parentheses`\n  - the directrix  $x=-3$"
+   "md": "- The **focus** of the parabola $y^{2}=4ax$ is the **point**  $( a , 0 )$ on the $x$-axis\n- The **directrix** is the **vertical line **$x=-a$\n- For example, the parabola $y^{2}=12x$ where $a=3$ has\n\n  - a focus at $( 3 , 0 )$\n  - the directrix  $x=-3$"
   },
   {
    "type": "heading",
@@ -318,7 +318,7 @@
    "type": "callout",
    "variant": "worked-example",
    "label": "Worked Example",
-   "md": "The diagram shows the point* *`S open parentheses a comma 0 close parentheses`, the vertical line $x=-a$ and a general point `P open parentheses x comma y close parentheses` that can move in the plane.\n\n![The focus S, directrix x=-a and a general point P](assets/cbed40e72a55-we-focus-directrix-property.bin)\n\nIf $P$ is restricted to always be the same distance from $S$ as it is horizontally from the vertical line, use coordinate geometry to prove that it must lie on the parabola $y^{2}=4ax$.\n\n> *It helps to add the point **X ** on to the diagram, on the line *$x=-a$*  horizontally from **P*\n*The question says that **PS  **= **PX*\n*The distance **PS**  can be found using Pythagoras' theorem *\n\n![Using the focus-directrix property to prove its a parabola](assets/8a14e1257fc8-we-focus-directrix-property-parabola.png)\n\n`P S squared equals open parentheses x minus a close parentheses squared plus y squared`\n\n> *The distance **PX ** can be found from the diagram*\n\n$PX=x+a$\n\n> *Square **PS  **= **PX  **and substitute in the results above*\n\n`table row cell P S squared end cell equals cell P X squared end cell row cell open parentheses x minus a close parentheses squared plus y squared end cell equals cell open parentheses x plus a close parentheses squared end cell end table`\n\n> *Expand and simplify both sides*\n\n`table row cell x squared minus 2 a x plus a squared plus y squared end cell equals cell x squared plus 2 a x plus a squared end cell row cell negative 2 a x plus y squared end cell equals cell 2 a x end cell row cell y squared end cell equals cell 4 a x end cell end table`\n\n> `P open parentheses x comma space y close parentheses`* must lie on this curve*\n\n$y^{2}=4ax$"
+   "md": "The diagram shows the point* *$S ( a , 0 )$, the vertical line $x=-a$ and a general point $P ( x , y )$ that can move in the plane.\n\n![The focus S, directrix x=-a and a general point P](assets/cbed40e72a55-we-focus-directrix-property.bin)\n\nIf $P$ is restricted to always be the same distance from $S$ as it is horizontally from the vertical line, use coordinate geometry to prove that it must lie on the parabola $y^{2}=4ax$.\n\n> *It helps to add the point **X ** on to the diagram, on the line *$x=-a$*  horizontally from **P*\n*The question says that **PS  **= **PX*\n*The distance **PS**  can be found using Pythagoras' theorem *\n\n![Using the focus-directrix property to prove its a parabola](assets/8a14e1257fc8-we-focus-directrix-property-parabola.png)\n\n$P S^{2} = ( x - a )^{2} + y^{2}$\n\n> *The distance **PX ** can be found from the diagram*\n\n$PX=x+a$\n\n> *Square **PS  **= **PX  **and substitute in the results above*\n\n$\\begin{gathered} P S^{2} & = P X^{2} \\\\ ( x - a )^{2} + y^{2} & = ( x + a )^{2} \\end{gathered}$\n\n> *Expand and simplify both sides*\n\n$\\begin{gathered} x^{2} - 2 a x + a^{2} + y^{2} & = x^{2} + 2 a x + a^{2} \\\\ - 2 a x + y^{2} & = 2 a x \\\\ y^{2} & = 4 a x \\end{gathered}$\n\n> $P ( x , y )$* must lie on this curve*\n\n$y^{2}=4ax$"
   }
  ]
 }

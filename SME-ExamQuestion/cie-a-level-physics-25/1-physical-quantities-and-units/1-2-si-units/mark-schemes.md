@@ -18,7 +18,7 @@ $10^{-4} \times 10^{-12} = 10^{(-12-4)} = 10^{-16}$
 
 - Determine the ratio
 
-`10 to the power of 14 over 10 to the power of negative 16 end exponent equals 10 to the power of 14 minus open parentheses negative 16 close parentheses end exponent equals 10 to the power of 30`
+$10^{ \frac{14}{10^{-16}} } = 10^{14 - ( - 16 )} = 10^{30}$
 
 - This is answer **D**
 
@@ -53,20 +53,20 @@ $10^{-4} \times 10^{-12} = 10^{(-12-4)} = 10^{-16}$
 - The unit of charge $q$ is the coulomb C, which in SI base units is:
 
   - $q=I\timest$
-  - `open square brackets q close square brackets space equals space straight A space straight s`
+  - $[ q ] = \mathrm{A} \mathrm{s}$
 - The unit of potential difference $V$ is the volt V, which in SI base units is:
 
   - $V=\frac{W}{q}$
-  - the unit of work done is `open square brackets W close square brackets space equals space straight J space equals space kg space straight m squared space straight s to the power of negative 2 end exponent`
-  - `open square brackets V close square brackets space equals space straight J space straight C to the power of negative 1 end exponent`
-  - `open square brackets V close square brackets space equals space kg space straight m squared space straight s to the power of negative 2 end exponent space open parentheses straight A space straight s close parentheses to the power of negative 1 end exponent`
-  - `open square brackets V close square brackets space equals space kg space straight m squared space straight s to the power of negative 3 end exponent space straight A to the power of negative 1 end exponent`
+  - the unit of work done is $[ W ] = \mathrm{J} = \text{kg} \mathrm{m}^{2} \mathrm{s}^{- 2}$
+  - $[ V ] = \mathrm{J} \mathrm{C}^{- 1}$
+  - $[ V ] = \text{kg} \mathrm{m}^{2} \mathrm{s}^{- 2} ( \mathrm{A} \mathrm{s} )^{- 1}$
+  - $[ V ] = \text{kg} \mathrm{m}^{2} \mathrm{s}^{- 3} \mathrm{A}^{- 1}$
 - The unit of temperature $T$ is the Kelvin K, which is an SI base unit
 - Therefore, the unit of $n$ is:
 
   - $n\propto\frac{qV}{T}$
-  - `open square brackets n close square brackets space equals space straight A space straight s space open parentheses kg space straight m squared space straight s to the power of negative 3 end exponent space straight A to the power of negative 1 end exponent close parentheses space straight K to the power of negative 1 end exponent`
-  - `open square brackets n close square brackets space equals space kg space straight m squared space straight s to the power of negative 2 end exponent space straight K to the power of negative 1 end exponent`
+  - $[ n ] = \mathrm{A} \mathrm{s} ( \text{kg} \mathrm{m}^{2} \mathrm{s}^{- 3} \mathrm{A}^{- 1} ) \mathrm{K}^{- 1}$
+  - $[ n ] = \text{kg} \mathrm{m}^{2} \mathrm{s}^{- 2} \mathrm{K}^{- 1}$
 
 ### Q4
 **Final answer:** **The correct answer is ****B**** because:**
@@ -94,11 +94,11 @@ Therefore, pressure and Young Modulus have the same base units.
 
 - $T=\mathrm{tera}=10^{12}$
 
-  - `10 to the power of negative 3 end exponent space cross times space 10 to the power of 12 space equals space 10 to the power of open parentheses 12 minus 3 close parentheses end exponent space equals space 10 to the power of 9`
+  - $10^{ - } 3 \times 10^{12} = 10^{open} \text{parentheses} 12 - 3 ) = 10^{9}$
 - $k=\mathrm{kilo}=10^{3}$
 
-  - `10 cubed space cross times space 10 cubed space equals space 10 to the power of open parentheses 3 plus 3 close parentheses end exponent space equals space 10 to the power of 6`
-- `10 to the power of 9 over 10 to the power of 6 space equals space 10 to the power of open parentheses 9 minus 6 close parentheses space end exponent equals space 10 cubed`
+  - $10^{3} \times 10^{3} = 10^{( 3 + 3 )} = 10^{6}$
+- $10^{ \frac{9}{10^{6}} = 10^{(} \text{parentheses} 9 - 6 ) } = 10^{3}$
 
 ### Q6
 **Final answer:** **The correct answer is ****B**** because:**
@@ -106,9 +106,9 @@ Therefore, pressure and Young Modulus have the same base units.
 - Once any constants are removed, $F\proptorηv$
 
   - * *$η\propto\frac{F}{rv}$
-- `open square brackets eta close square brackets space equals space straight N space straight m to the power of negative 1 end exponent open parentheses straight m space straight s to the power of negative 1 end exponent close parentheses to the power of negative 1 end exponent`
-- `open square brackets eta close square brackets space equals space kg space straight m space straight s to the power of negative 2 end exponent space straight m to the power of negative 2 end exponent space straight s`
-- `open square brackets eta close square brackets space equals space kg space straight m to the power of negative 1 end exponent space straight s to the power of negative 1 end exponent`
+- $[ \\eta ] = \mathrm{N} \mathrm{m}^{- 1} ( \mathrm{m} \mathrm{s}^{- 1} )^{- 1}$
+- $[ \\eta ] = \text{kg} \mathrm{m} \mathrm{s}^{- 2} \mathrm{m}^{- 2} \mathrm{s}$
+- $[ \\eta ] = \text{kg} \mathrm{m}^{- 1} \mathrm{s}^{- 1}$
 - Therefore, the units for *η* are $\mathrm{kg}m^{-1}s^{-1}$
 
 ### Q7
@@ -163,14 +163,14 @@ You are expected to know the following prefixes:
   - *λ* is $m$
 - The unit of g*λ* is
 
-  - `open parentheses straight m space straight s to the power of negative 2 end exponent straight m close parentheses to the power of 1 half end exponent equals space open parentheses straight m squared straight s to the power of negative 2 end exponent close parentheses to the power of 1 half end exponent space equals space space straight m space straight s to the power of negative 1 end exponent`
+  - $( \mathrm{m} \mathrm{s}^{- 2} \mathrm{m} )^{1 \frac{1}{2}} = ( \mathrm{m}^{2} \mathrm{s}^{- 2} )^{1 \frac{1}{2}} = \mathrm{m} \mathrm{s}^{- 1}$
 - The units of the LHS and the RHS match so the correct answer is C
 
-**A** is incorrect because  the unit of $\sqrt{ρgh}$ is `open parentheses open square brackets kg space straight m to the power of negative 3 end exponent close square brackets open square brackets straight m space straight s to the power of negative 2 end exponent close square brackets open square brackets straight m close square brackets close parentheses to the power of 1 half space end exponent equals space open parentheses kg space straight m to the power of negative 1 end exponent straight s to the power of negative 2 end exponent close parentheses to the power of 1 half end exponent`
+**A** is incorrect because  the unit of $\sqrt{ρgh}$ is $( [ \text{kg} \mathrm{m}^{- 3} ] [ \mathrm{m} \mathrm{s}^{- 2} ] [ \mathrm{m} ] )^{1 \frac{1}{2} } = ( \text{kg} \mathrm{m}^{- 1} \mathrm{s}^{- 2} )^{1 \frac{1}{2}}$
 
-**B** is incorrect because the unit of $\sqrt{\frac{g}{h}}$ is `open parentheses open square brackets straight m space straight s to the power of negative 2 end exponent close square brackets open square brackets straight m to the power of negative 1 end exponent close square brackets close parentheses to the power of 1 half end exponent equals space straight s to the power of negative 1 end exponent`
+**B** is incorrect because the unit of $\sqrt{\frac{g}{h}}$ is $( [ \mathrm{m} \mathrm{s}^{- 2} ] [ \mathrm{m}^{- 1} ] )^{1 \frac{1}{2}} = \mathrm{s}^{- 1}$
 
-**D** is incorrect because the unit of $\sqrt{\frac{g}{ρ}}$ is `open parentheses open square brackets straight m space straight s to the power of negative 2 end exponent close square brackets open square brackets kg to the power of negative 1 end exponent straight m cubed close square brackets close parentheses to the power of 1 half end exponent equals space open parentheses kg to the power of negative 1 end exponent straight m to the power of 4 straight s to the power of negative 2 end exponent close parentheses to the power of 1 half end exponent`
+**D** is incorrect because the unit of $\sqrt{\frac{g}{ρ}}$ is $( [ \mathrm{m} \mathrm{s}^{- 2} ] [ kg^{- 1} \mathrm{m}^{3} ] )^{1 \frac{1}{2}} = ( kg^{- 1} \mathrm{m}^{4 \mathrm{s}^{-2} } )^{1 \frac{1}{2}}$
 
 ### Q9
 **Final answer:** **The correct answer is ****C**** because:**
@@ -194,7 +194,7 @@ You are expected to know the following prefixes:
 
 **A** is incorrect because:
 
-- `straight m space straight s to the power of negative 1 end exponent equals fraction numerator open parentheses straight m space straight s to the power of negative 2 end exponent close parentheses left parenthesis straight m to the power of 1 half end exponent right parenthesis left parenthesis kg space straight m to the power of negative 3 end exponent right parenthesis over denominator kg space straight m to the power of negative 1 end exponent straight s to the power of negative 1 end exponent end fraction`
+- $\mathrm{m} \mathrm{s}^{- 1} = \frac{( \mathrm{m} \mathrm{s}^{- 2} ) ( \mathrm{m}^{1 \frac{1}{2}} ) ( \text{kg} \mathrm{m}^{- 3} )}{kg \mathrm{m}^{- 1} \mathrm{s}^{- 1} }$
 - $ms^{-1}=m^{-1}s^{-1}m^{\frac{1}{2}}$
 - $ms^{-1}=m^{-\frac{1}{2}}s^{-1}$
 
@@ -219,7 +219,7 @@ Make sure to substitute the units of all of the terms into the equations. Then s
 - So, the unit of the volt is J C<sup>-1</sup>
 - The base unit of energy $E=\frac{1}{2}mv^{2}$ is
 
-  - `straight J space equals space kg open parentheses ms to the power of negative 1 end exponent close parentheses squared space equals space kgm squared straight s to the power of negative 2 end exponent`
+  - $\mathrm{J} = \text{kg} ( ms^{- 1} )^{2} = kgm^{2} \mathrm{s}^{- 2}$
 - The base unit of charge $Q=It$ is
 
   - $C=\mathrm{As}$
@@ -272,15 +272,15 @@ Make sure to substitute the units of all of the terms into the equations. Then s
 
 - Pressure is equal to
 
-  - `P space equals space F over A space equals space straight N space straight m to the power of negative 2 end exponent space equals space open parentheses kg space ms to the power of negative 2 end exponent close parentheses straight m to the power of negative 2 end exponent space equals space kg space straight m to the power of negative 1 end exponent space straight s to the power of negative 2 end exponent`
+  - $P = \frac{F}{A} = \mathrm{N} \mathrm{m}^{- 2} = ( \text{kg} ms^{- 2} ) \mathrm{m}^{- 2} = \text{kg} \mathrm{m}^{- 1} \mathrm{s}^{- 2}$
 - On the RHS we can combine units to give
 
-  - `open square brackets kg space straight m to the power of negative 3 end exponent close square brackets open square brackets straight m close square brackets open square brackets straight m space straight s to the power of negative 2 end exponent close square brackets space equals space kg space straight m to the power of negative 1 end exponent space straight s to the power of negative 2 end exponent`
+  - $[ \text{kg} \mathrm{m}^{- 3} ] [ \mathrm{m} ] [ \mathrm{m} \mathrm{s}^{- 2} ] = \text{kg} \mathrm{m}^{- 1} \mathrm{s}^{- 2}$
 - The LHS matches the RHS so the correct answer is C
 
 **A** is incorrect as the $Nm^{-1}$ on the LHS is the incorrect unit for pressure
 
-**B** is incorrect as the units are correct on the LHS, but on the RHS `open square brackets kg space straight m to the power of negative 2 end exponent close square brackets open square brackets straight m space straight s to the power of negative 2 end exponent close square brackets open square brackets straight m close square brackets` simplifies to* *$\mathrm{kg}s^{-1}$* *which is incorrect
+**B** is incorrect as the units are correct on the LHS, but on the RHS $[ \text{kg} \mathrm{m}^{- 2} ] [ \mathrm{m} \mathrm{s}^{- 2} ] [ \mathrm{m} ]$ simplifies to* *$\mathrm{kg}s^{-1}$* *which is incorrect
 
 **D** is incorrect as the $\mathrm{kg}m^{-1}s^{-1}$ on the LHS is the incorrect base unit for pressure
 
@@ -313,22 +313,22 @@ The base units you need to be familiar with are:
 
   - $ρ=\frac{m}{v}$$=\mathrm{kg}m^{-3}$
   - $\frac{\DeltaP}{ρ}=\frac{\mathrm{kg}m^{-1}s^{-2}}{\mathrm{kg}m^{-3}}=m^{3}m^{-1}s^{-2}=m^{2}s^{-2}$
-  - `straight m space straight s to the power of negative 1 space end exponent equals space open parentheses straight m squared straight s to the power of negative 2 end exponent close parentheses to the power of straight n`
+  - $\mathrm{m} \mathrm{s}^{- 1 } = ( \mathrm{m}^{2} \mathrm{s}^{- 2} )^{n}$
 - Therefore $n=\frac{1}{2}$
 
 ### Q17
 **Final answer:** **The correct answer is ****D**** because:**
 
-- The base unit of energy is `straight J space equals space kg open parentheses ms to the power of negative 1 end exponent close parentheses squared space equals space kg space straight m squared space straight s to the power of negative 2 end exponent`
+- The base unit of energy is $\mathrm{J} = \text{kg} ( ms^{- 1} )^{2} = \text{kg} \mathrm{m}^{2} \mathrm{s}^{- 2}$
 
-  - `table row cell g rho h V space end cell equals cell space open square brackets ms to the power of negative 2 end exponent close square brackets open square brackets kg space straight m to the power of negative 3 end exponent close square brackets open square brackets straight m close square brackets open square brackets straight m cubed close square brackets end cell end table` `table row blank equals cell space straight N space straight m end cell row blank equals cell space open parentheses kg space straight m space straight s to the power of negative 2 end exponent close parentheses straight m end cell row blank equals cell space kg space straight m to the power of 2 space end exponent straight s to the power of negative 2 end exponent end cell end table`
+  - $\begin{gathered} g \\rho h V & = [ ms^{- 2} ] [ \text{kg} \mathrm{m}^{- 3} ] [ \mathrm{m} ] [ \mathrm{m}^{3} ] \end{gathered}$ $\begin{gathered} = \mathrm{N} \mathrm{m} \\ = ( \text{kg} \mathrm{m} \mathrm{s}^{- 2} ) \mathrm{m} \\ = \text{kg} \mathrm{m}^{2 } \mathrm{s}^{- 2} \end{gathered}$
 - Therefore, $gρhV$ has the same units as energy
 
-**A** is incorrect as the units of `rho g squared h space equals space open square brackets kg space straight m to the power of negative 3 end exponent close square brackets open square brackets straight m space straight s to the power of negative 2 end exponent close square brackets squared open square brackets straight m close square brackets space equals space kg space straight s to the power of negative 4 end exponent`
+**A** is incorrect as the units of $\\rho g^{2} h = [ \text{kg} \mathrm{m}^{- 3} ] [ \mathrm{m} \mathrm{s}^{- 2} ]^{2} [ \mathrm{m} ] = \text{kg} \mathrm{s}^{- 4}$
 
-**B** is incorrect as the units of `fraction numerator rho h V over denominator g end fraction space equals space open square brackets kg space straight m to the power of negative 3 end exponent close square brackets open square brackets straight m close square brackets open square brackets straight m cubed close square brackets open square brackets straight m space straight s to the power of negative 2 end exponent close square brackets to the power of negative 1 space end exponent equals kg space straight s squared`
+**B** is incorrect as the units of $\frac{\\rho h V}{g} = [ \text{kg} \mathrm{m}^{- 3} ] [ \mathrm{m} ] [ \mathrm{m}^{3} ] [ \mathrm{m} \mathrm{s}^{- 2} ]^{- 1 } = \text{kg} \mathrm{s}^{2}$
 
-**C** is incorrect as the units of `fraction numerator rho g over denominator h V end fraction space equals space open square brackets kg space straight m to the power of negative 3 end exponent close square brackets open square brackets straight m space straight s to the power of negative 2 end exponent close square brackets open square brackets straight m close square brackets to the power of negative 1 end exponent open square brackets straight m cubed close square brackets to the power of negative 1 space end exponent equals space kg space straight m to the power of negative 6 end exponent space straight s to the power of negative 2 end exponent`
+**C** is incorrect as the units of $\frac{\\rho g}{h V} = [ \text{kg} \mathrm{m}^{- 3} ] [ \mathrm{m} \mathrm{s}^{- 2} ] [ \mathrm{m} ]^{- 1} [ \mathrm{m}^{3} ]^{- 1 } = \text{kg} \mathrm{m}^{- 6} \mathrm{s}^{- 2}$
 
 ### Q18
 **Final answer:** **The correct answer is ****B**** because:**
@@ -336,8 +336,8 @@ The base units you need to be familiar with are:
 - Since *C*<sub>*d*</sub> is a quantity with no units we can disregard it for this question
 - That leaves us with F $αρv^{n}A$
 - So, $v^{n}α\frac{F}{ρA}$
-- `open parentheses ms to the power of negative 1 end exponent close parentheses to the power of straight n space equals space open square brackets straight N close square brackets open square brackets kg space straight m to the power of negative 3 end exponent close square brackets to the power of negative 1 end exponent open square brackets straight m squared close square brackets to the power of negative 1 end exponent` *= *$\mathrm{kg}ms^{-2}\mathrm{kg}^{-1}m^{3}m^{-2}$ *=  *$m^{2}s^{-2}$
-- Comparing `open parentheses straight m space straight s to the power of negative 1 end exponent close parentheses to the power of straight n space equals space straight m squared straight s to the power of negative 2 end exponent` we can see that *n *=  2
+- $( ms^{- 1} )^{ \mathrm{n} = [ \mathrm{N} ] [ \text{kg} \mathrm{m}^{-3} } ]^{- 1} [ \mathrm{m}^{2} ]^{- 1}$ *= *$\mathrm{kg}ms^{-2}\mathrm{kg}^{-1}m^{3}m^{-2}$ *=  *$m^{2}s^{-2}$
+- Comparing $( \mathrm{m} \mathrm{s}^{- 1} )^{ \mathrm{n} = \mathrm{m}^{2} \mathrm{s}^{-2} }$ we can see that *n *=  2
 
 ### Q19
 **Final answer:** **The correct answer is ****D**** because:**
@@ -346,7 +346,7 @@ The base units you need to be familiar with are:
 - $k\propto\frac{E}{T}$ so, the unit will be along the lines of J K <sup>−1</sup>
 - We can reduce J to its SI unit by considering the equation for kinetic energy $E_{k}\proptomv^{2}$
 
-  - `straight J space equals space kg space open parentheses straight m space straight s to the power of negative 1 end exponent close parentheses squared equals space kg space straight m squared space straight s to the power of negative 2 end exponent`
+  - $\mathrm{J} = \text{kg} ( \mathrm{m} \mathrm{s}^{- 1} )^{2} = \text{kg} \mathrm{m}^{2} \mathrm{s}^{- 2}$
 - The units of *k* are
 
   - $JK^{-1}=\mathrm{kg}m^{2}s^{-2}K^{-1}$
@@ -378,11 +378,11 @@ The base units you need to be familiar with are:
 
 - When $d=k_{1}v^{2}$ the unit of *k*<sub>*1*</sub> is
 
-  - `d over v squared space equals space open square brackets straight m close square brackets open square brackets straight m space straight s to the power of negative 1 end exponent close square brackets space equals space straight m to the power of negative 1 end exponent space straight s squared`
+  - $\frac{d}{v^{2}} = [ \mathrm{m} ] [ \mathrm{m} \mathrm{s}^{- 1} ] = \mathrm{m}^{- 1} \mathrm{s}^{2}$
 
 - When $d=kv^{2}$ the unit of *k* is
 
-  - `d over v squared open parentheses straight m close parentheses open square brackets km space straight h to the power of negative 1 end exponent close square brackets space equals space straight m open parentheses straight m space straight s to the power of negative 1 end exponent close parentheses to the power of negative 2 space end exponent open parentheses fraction numerator 1000 over denominator 60 cross times 60 end fraction close parentheses to the power of negative 2 end exponent equals space 13.0 space straight m to the power of negative 1 end exponent space straight s squared`
+  - $\frac{d}{v^{2}} ( \mathrm{m} ) [ \text{km} \mathrm{h}^{- 1} ] = \mathrm{m} ( \mathrm{m} \mathrm{s}^{- 1} )^{- 2 } ( \frac{1000}{60 \times 60} )^{- 2} = 13.0 \mathrm{m}^{- 1} \mathrm{s}^{2}$
 
 - Comparing the two units we can see *k*<sub>*1*</sub> = 13.0*k*, so *k* = 0.077$k_{1}$
 

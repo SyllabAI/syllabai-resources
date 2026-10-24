@@ -29,11 +29,11 @@ guided_study: false
 
 - **PES can be calculated** using the following formula:
 
-`text PES =  end text fraction numerator percent sign space change space in space quantity space supplied over denominator percent sign space change space in space price end fraction space equals space fraction numerator percent sign triangle space in thin space QS over denominator percent sign triangle in space straight P end fraction`
+$\text{PES = } \frac{\% \text{change} \text{in} \text{quantity} supplied}{\% \text{change} \text{in} price} = \frac{\% \Delta \text{in} QS}{\% \Delta \text{in} \mathrm{P} }$
 
 - **To calculate a % change**, use the following formula:
 
-`percent sign space Change space equals space fraction numerator new space value space minus space old space value over denominator old space value end fraction space cross times space 100`
+$\% \text{Change} = \frac{new \text{value} - \text{old} value}{old value} \times 100$
 
 > **Worked Example**
 > Recently, the **price of avocados** has increased from £0.90 to £1.45. *Bewdley Farm Shop* in Wales has sought to **maximise their profits** by increasing the **quantity supplied **to market. They have been able to increase the supply of avocados from 110 units a week to 120 units a week.
@@ -42,24 +42,24 @@ guided_study: false
 > 
 > **Step 1:  Calculate the % change in QS**
 > 
-> **  **`percent sign triangle Q S space equals space fraction numerator 120 minus 110 over denominator 110 end fraction space cross times 100
+> **  **$\% \Delta Q S = \frac{120 - 110}{110} \times 100
 > 
-> percent sign triangle Q S space equals space 9.1 percent sign`** **
+> \% \Delta Q S = 9.1 \%$** **
 > 
 > **Step 2: Calculate the % change in P**
 > 
-> `percent sign triangle straight P space equals space fraction numerator 1.45 space minus space 0.90 over denominator 0.90 end fraction space straight x space 100
+> $\% \Delta \mathrm{P} = \frac{1.45 - 0.90}{0.90} \mathrm{x} 100
 > 
-> percent sign triangle straight P space equals space 61 percent sign`
+> \% \Delta \mathrm{P} = 61 \%$
 > 
 > **Step 3: Insert the above values in the PES formula**
 > 
-> `PE S space equals space fraction numerator percent sign triangle space in thin space Q S over denominator percent sign triangle in space straight P end fraction
+> $\text{PE} S = \frac{\% \Delta \text{in} Q S}{\% \Delta \text{in} \mathrm{P} } 
 > 
-> PE S space equals space fraction numerator 9.1 percent sign over denominator 61 percent sign end fraction
+> \text{PE} S = \frac{9.1 \%}{61 \%} 
 > 
-> PE S space equals space space 0.15
-> `
+> \text{PE} S = 0.15
+>$
 > 
 > **Step 4: Explain one reason for the value**
 > 

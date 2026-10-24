@@ -18,7 +18,7 @@ Write down the integer values of $x$ that satisfy the inequality $-3\leqx<1$.
 
 Solve the inequality
 
-`3 x minus 2 less or equal than fraction numerator 2 open parentheses 12 plus 6 x close parentheses over denominator 3 end fraction`
+$3 x - 2 \text{less} \text{or} \text{equal} \text{than} \frac{2 ( 12 + 6 x )}{3}$
 
 **Q2** [1 mark]
 
@@ -74,7 +74,7 @@ $x$ = ...................................................
 
 Solve.
 
-`4 open parentheses 5 minus 3 x close parentheses equals 23`
+$4 ( 5 - 3 x ) = 23$
 
 $x=$ ................................................
 

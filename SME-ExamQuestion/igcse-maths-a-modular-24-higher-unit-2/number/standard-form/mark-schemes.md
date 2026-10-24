@@ -20,7 +20,7 @@
 ### 16((b)) — 2 marks
 > *You should be able to type directly into your calculator.*
 
-`table row cell open parentheses 3 cross times 10 to the power of 7 close parentheses space divided by open parentheses 6 cross times 10 to the power of 4 close parentheses space end cell equals cell space 500 end cell end table`
+$\begin{gathered} ( 3 \times 10^{7} ) \div ( 6 \times 10^{4} ) & = 500 \end{gathered}$
 
 **[1]**
 
@@ -33,11 +33,11 @@ $5\times10^{2}$* ***[1]**
 ## Q2 — medium — 2 marks · exam-questions
 
 ### 6() — 2 marks
-> *Type the equation in to your calculator as seen, your calculator should have a button which looks like *`box enclose cross times 10 to the power of x end enclose`* or similar to help input standard form*
+> *Type the equation in to your calculator as seen, your calculator should have a button which looks like *`box x 10 ^ x`* or similar to help input standard form*
 
 > *You could also use brackets to help you:*
 
-`fraction numerator open parentheses 3 cross times 10 to the power of 5 close parentheses minus open parentheses 2.7 cross times 10 to the power of 4 close parentheses over denominator open parentheses 6 cross times 10 to the power of negative 2 end exponent close parentheses end fraction equals space space 4 space 550 space 000`
+$\frac{( 3 \times 10^{5 ) - ( 2.7 \times 10^{4} )}{( 6 \times 10^{-2} } )} = 4 550 000$
 
 **[1]**
 
@@ -119,13 +119,13 @@ $3.2\div10000=0.00032$
 ## Q5 — medium — 2 marks · exam-questions
 
 ### 11() — 2 marks
-> *You should be able to type this expression into your calculator directly using the fraction button *`box enclose fraction numerator box enclose space space space end enclose over denominator box enclose space space space end enclose end fraction end enclose`* and brackets*
+> *You should be able to type this expression into your calculator directly using the fraction button *`box (box )/(box )`* and brackets*
 
-`4 open parentheses 1 minus 22 over 57 plus 22 over 85 minus 22 over 105 plus 22 over 117 minus 22 over 242 close parentheses space equals space 3.041839619...`
+$4 ( 1 - \frac{22}{57} + \frac{22}{85} - \frac{22}{105} + \frac{22}{117} - \frac{22}{242} ) = 3.041839619...$
 
 **[1]**
 
-*Show that this is within 0.1 of 3.14* *Use the *`box enclose Ans`* button to help here; *`3.14 space minus space box enclose Ans`
+*Show that this is within 0.1 of 3.14* *Use the *`box enclose Ans`* button to help here; *`3.14 - box Ans`
 
 **3.14 - 3.041839619 = 0.09816038107 which is less than 0.1** **[1]** **Full working must be shown**
 
@@ -140,7 +140,7 @@ $7.5\times10^{4}\times2.5\times10^{3}=187500000$
 
 > *Convert to standard form. Standard form will be written as **a** × 10*<sup>*n*</sup>*, **where 1 ≤ **a **< 10, therefore **a **= 1.875.*
 
-`table row cell 187500000 space end cell equals cell space 1.875 space cross times space 100000000 end cell row blank equals cell 1.875 space cross times space 10 to the power of 8 end cell end table`
+$\begin{gathered} 187500000 & = 1.875 \times 100000000 \\ = 1.875 \times 10^{8} \end{gathered}$
 
 **1.875 × 10**<sup>**8**</sup>** ****[1]**
 
@@ -169,7 +169,7 @@ $\frac{2.52\times10^{5}}{4\times10^{-3}}$
 
 > *Evaluate the powers using the law of indices **a*<sup>*m*</sup>* ÷ a*<sup>*n *</sup>*= **a*<sup>*m-n*</sup>*.*
 
-`0.63 space cross times fraction numerator space 10 to the power of 5 over denominator 10 to the power of negative 3 end exponent end fraction space equals 0.63 space cross times space 10 to the power of 5 space end exponent divided by space 10 to the power of negative 3 end exponent space equals space 0.63 space cross times 10 to the power of open parentheses 5 minus negative 3 close parentheses end exponent space equals 0.63 space cross times space 10 to the power of 8`
+$0.63 \times \frac{ 10^{5}{10^{-3} } } = 0.63 \times 10^{5 } \div 10^{- 3} = 0.63 \times 10^{( 5 - - 3 )} = 0.63 \times 10^{8}$
 
 > *This is not in standard form as **a** is not in the interval 1 ≤ **a **< 10. Convert to standard form by first converting 0.63 to standard form.*
 
@@ -212,11 +212,11 @@ $p=\sqrt{\frac{x-y}{xy}}$
 
 > *Substitute the values given for **x **and **y **into the expression for p.*
 
-`p space equals square root of fraction numerator space 8.5 space cross times space 10 to the power of 9 space minus space 4 space cross times 10 to the power of 8 over denominator open parentheses 8.5 space cross times space 10 to the power of 9 close parentheses open parentheses 4 space cross times space 10 to the power of 8 close parentheses end fraction end root`
+$p = \sqrt{ \frac{ 8.5 \times 10^{9} - 4 \times 10^{8} }{( 8.5 \times 10^{9} ) ( 4 \times 10^{8} )} }$
 
 > *Type the problem into your calculator, use the square root, fraction, standard form buttons and the arrow keys to type the whole expression in in one go.*
 
-`square root of fraction numerator space 8.5 space cross times space 10 to the power of 9 space minus space 4 space cross times 10 to the power of 8 over denominator open parentheses 8.5 space cross times space 10 to the power of 9 close parentheses open parentheses 4 space cross times space 10 to the power of 8 close parentheses end fraction end root space equals space 4.880935... space cross times space 10 to the power of negative 5 end exponent`
+$\sqrt{ \frac{ 8.5 \times 10^{9 - 4 \times 10^{8} }{( 8.5 \times 10^{9} ) ( 4 \times 10^{8} )} } = 4.880935... \times 10^{-5} }$
 
 ** Either part of the fraction evaluated correctly ****[1] **** **
 **Both parts of the fraction evaluated correctly ****[1]**
@@ -257,17 +257,17 @@ $4.5\times10000=45000$
 ### 9((a)) — 2 marks
 > *Substitute the values given for **w **and **d **into the expression for **T**.*
 
-`T space equals square root of fraction numerator space 5.6 space cross times space 10 to the power of negative 5 end exponent over denominator open parentheses 1.4 space cross times space 10 to the power of negative 4 end exponent close parentheses cubed end fraction end root`
+$T = \sqrt{ \frac{ 5.6 \times 10^{- 5} }{( 1.4 \times 10^{- 4} )^{3}} }$
 
 > *Type the problem into your calculator, use the square root, fraction, standard form buttons and the arrow keys to type the whole expression in in one go.*
 
-`square root of fraction numerator space 5.6 space cross times space 10 to the power of negative 5 end exponent over denominator open parentheses 1.4 space cross times space 10 to the power of negative 4 end exponent close parentheses cubed end fraction end root equals space 4517.5395...`
+$\sqrt{ \frac{ 5.6 \times 10^{- 5} }{( 1.4 \times 10^{- 4} )^{3}} } = 4517.5395...$
 
 ** ****[1]**
 
 > *Convert to standard form.*
 
-`table row cell 4517.5395... space end cell equals cell space 4.517539... space cross times space 1000 end cell row blank equals cell 4.517539... space cross times space 10 cubed end cell end table`
+$\begin{gathered} 4517.5395... & = 4.517539... \times 1000 \\ = 4.517539... \times 10^{3} \end{gathered}$
 
 ** ****[1]**
 
@@ -281,7 +281,7 @@ $4.5\times10000=45000$
 
 > *Therefore **T **will become:*
 
-> `T space equals space square root of fraction numerator w space cross times space 1.1 over denominator open parentheses d space cross times space 1.05 close parentheses cubed end fraction end root space equals space square root of fraction numerator 5.6 space cross times space 10 to the power of negative 5 end exponent space cross times space 1.1 over denominator open parentheses 1.4 space cross times space 10 to the power of negative 4 end exponent space cross times space 1.05 close parentheses cubed end fraction end root space equals space 4403.66....`* *
+> $T = \sqrt{ \frac{w \times 1.1}{( d \times 1.05 )^{3}} } = \sqrt{ \frac{5.6 \times 10^{- 5} \times 1.1}{( 1.4 \times 10^{- 4} \times 1.05 )^{3}} } = 4403.66....$* *
 
 **[1]**
 
@@ -353,7 +353,7 @@ $\frac{2.3}{4.6}=\frac{23}{46}=\frac{1}{2}$
 
 > *Evaluate the powers using the law of indices **a*<sup>*m*</sup>* ÷ a*<sup>*n *</sup>*= **a*<sup>*m-n*</sup>*.*
 
-`1 half cross times space open parentheses 10 to the power of 12 space end exponent divided by space 10 cubed close parentheses equals 1 half cross times 10 to the power of open parentheses 12 minus 3 close parentheses end exponent space equals 0.5 space cross times space 10 to the power of 9`
+$1 \frac{1}{2} \times ( 10^{12 } \div 10^{3} ) = 1 \frac{1}{2} \times 10^{( 12 - 3 )} = 0.5 \times 10^{9}$
 
 > *This is not in standard form as **a** is not in the interval 1 ≤ **a **< 10. Convert to standard form by first converting 0.5 to standard form.*
 
@@ -401,7 +401,7 @@ $\frac{3.5\times10^{6}}{5\times10^{-3}}$
 
 > *Evaluate the powers using the law of indices **a*<sup>*m*</sup>* ÷ a*<sup>*n *</sup>*= **a*<sup>*m-n*</sup>*.*
 
-`0.7 space cross times space open parentheses 10 to the power of 6 space end exponent divided by space 10 to the power of negative 3 end exponent close parentheses equals 0.7 cross times 10 to the power of open parentheses 6 minus negative 3 close parentheses end exponent space equals 0.7 space cross times space 10 to the power of 9`
+$0.7 \times ( 10^{6 } \div 10^{- 3} ) = 0.7 \times 10^{( 6 - - 3 )} = 0.7 \times 10^{9}$
 
 > *This is not in standard form as **a** is not in the interval 1 ≤ **a **< 10. Convert to standard form by first converting 0.7 to standard form.*
 
@@ -474,7 +474,7 @@ $1.8\times10^{156}$
 ### 1((b)) — 1 marks
 > *You should be able to enter this calculation directly into your calculator, but you may also wish to rewrite it as follows to make it easier to work out*
 
-`open parentheses 4.2 space cross times 10 to the power of 5 close parentheses cross times open parentheses 1.8 cross times 10 to the power of negative 2 end exponent close parentheses space equals space 4.2 space cross times space 1.8 space cross times space 10 to the power of 5 space cross times space 10 to the power of negative 2 end exponent`
+$( 4.2 \times 10^{5 ) \times ( 1.8 \times 10^{-2} } ) = 4.2 \times 1.8 \times 10^{5 \times 10^{-2} }$
 
 > *Combining the first two terms*
 
@@ -598,7 +598,7 @@ $8.4\times10^{7}$
 ### 9((c)) — 2 marks
 > $K$* is the number of times the number of neurons in a monkey brain needs to be multiplied to get the number of neurons in a human brain. Use the inverse operation to work it out*
 
-`open parentheses 8.5 space cross times space 10 to the power of 10 close parentheses space divided by space open parentheses 1.47 space cross times space 10 to the power of 9 close parentheses`
+$( 8.5 \times 10^{10} ) \div ( 1.47 \times 10^{9} )$
 
 **[M1]**
 
@@ -613,7 +613,7 @@ $57.8$
 ## Q25 — easy — 2 marks · exam-questions
 
 ### 5() — 2 marks
-> *Type the equation in to your calculator as seen, your calculator should have a button which looks like *`box enclose cross times 10 to the power of x end enclose`* or similar to help input standard form*
+> *Type the equation in to your calculator as seen, your calculator should have a button which looks like *`box x 10 ^ x`* or similar to help input standard form*
 
 **5 830 000*** ***[2]**
 
@@ -750,13 +750,13 @@ $\frac{4.35\times10^{9}}{4.14\times10^{7}}=105.072...$
 ### 7() — 2 marks
 > *You should be able to type directly into your calculator.*
 
-`table row cell open parentheses 13.8 cross times 10 to the power of 7 close parentheses space cross times open parentheses 5.4 cross times 10 to the power of negative 12 end exponent close parentheses space end cell equals cell space 7.452 cross times 10 to the power of negative 4 end exponent end cell end table`
+$\begin{gathered} ( 13.8 \times 10^{7 ) \times ( 5.4 \times 10^{-12} } ) & = 7.452 \times 10^{- 4} \end{gathered}$
 
 **[1]**
 
 > *Convert to an ordinary number.*
 
-`table row cell 7.452 cross times 10 to the power of negative 4 end exponent space end cell equals cell space 7.452 space cross times space 0.0001 space equals space 0.0007452 end cell end table`
+$\begin{gathered} 7.452 \times 10^{- 4} & = 7.452 \times 0.0001 = 0.0007452 \end{gathered}$
 
 $0.0007452$**[1]**
 
@@ -775,13 +775,13 @@ $6.7\times0.00001=0.000067$
 ### 17((c)) — 2 marks
 > *Evaluate the number parts first by multiplying 3 by 9.*
 
-`table row cell open parentheses 3 space cross times space 10 to the power of 7 close parentheses space cross times space open parentheses 9 space cross times space 10 to the power of 6 close parentheses space end cell equals cell space open parentheses 3 space cross times space 9 close parentheses space cross times space open parentheses 10 to the power of 7 space cross times space 10 to the power of 6 close parentheses end cell row blank equals cell space 27 space cross times space open parentheses 10 to the power of 7 space cross times space 10 to the power of 6 close parentheses end cell end table`
+$\begin{gathered} ( 3 \times 10^{7} ) \times ( 9 \times 10^{6} ) & = ( 3 \times 9 ) \times ( 10^{7} \times 10^{6} ) \\ = 27 \times ( 10^{7} \times 10^{6} ) \end{gathered}$
 
 **[1]**
 
 > *Evaluate the powers using the law of indices **a*<sup>*m*</sup>* × a*<sup>*n *</sup>*= **a*<sup>*m+n*</sup>*.*
 
-`27 cross times space open parentheses 10 to the power of 7 space end exponent cross times space 10 to the power of 6 close parentheses equals 27 cross times 10 to the power of open parentheses 7 plus 6 close parentheses end exponent space equals 27 space cross times space 10 to the power of 13`
+$27 \times ( 10^{7 } \times 10^{6 ) = 27 \times 10^{(} \text{parentheses} 7 + 6 )} = 27 \times 10^{13}$
 
 > *This is not in standard form as **a** is not in the interval 1 ≤ **a **< 10. Convert to standard form by first converting 27 to standard form.*
 
@@ -796,13 +796,13 @@ $6.7\times0.00001=0.000067$
 ### 14((c)) — 2 marks
 > *Evaluate the number parts first by multiplying 3 by 9.*
 
-`table row cell 9 space cross times space 10 to the power of 4 space cross times space 3 space cross times space 10 cubed space end cell equals cell space 9 space cross times space 3 space cross times space 10 to the power of 4 space cross times space 10 cubed end cell row blank equals cell space 27 space cross times space open parentheses 10 to the power of 4 space cross times space 10 cubed close parentheses end cell end table`
+$\begin{gathered} 9 \times 10^{4} \times 3 \times 10^{3} & = 9 \times 3 \times 10^{4} \times 10^{3} \\ = 27 \times ( 10^{4} \times 10^{3} ) \end{gathered}$
 
 **[1]**
 
 > *Evaluate the powers using the law of indices **a*<sup>*m*</sup>* × a*<sup>*n *</sup>*= **a*<sup>*m+n*</sup>*.*
 
-`27 cross times space open parentheses 10 to the power of 4 space end exponent cross times space 10 cubed close parentheses equals 27 cross times 10 to the power of open parentheses 4 plus 3 close parentheses end exponent space equals 27 space cross times space 10 to the power of 7`
+$27 \times ( 10^{4 } \times 10^{3} ) = 27 \times 10^{( 4 + 3 )} = 27 \times 10^{7}$
 
 > *This is not in standard form as **a** is not in the interval 1 ≤ **a **< 10. Convert to standard form by first converting 27 to standard form.*
 
@@ -817,13 +817,13 @@ $6.7\times0.00001=0.000067$
 ### 9() — 2 marks
 > *Evaluate the number parts first by multiplying 3 by 9.*
 
-`table row cell open parentheses 9 space cross times space 10 to the power of negative 4 end exponent close parentheses space cross times space open parentheses 3 space cross times space 10 to the power of 7 close parentheses space end cell equals cell space open parentheses 9 space cross times space 3 close parentheses space cross times space open parentheses 10 to the power of negative 4 end exponent space cross times space 10 to the power of 7 close parentheses end cell row blank equals cell space 27 space cross times space open parentheses 10 to the power of negative 4 end exponent space cross times space 10 to the power of 7 close parentheses end cell end table`
+$\begin{gathered} ( 9 \times 10^{- 4} ) \times ( 3 \times 10^{7 ) & = ( 9 \times 3 ) \times ( 10^{-4} } \times 10^{7 ) \\ = 27 \times ( 10^{-4} } \times 10^{7} ) \end{gathered}$
 
 **[1]**
 
 > *Evaluate the powers using the law of indices **a*<sup>*m*</sup>* × a*<sup>*n *</sup>*= **a*<sup>*m+n*</sup>*.*
 
-`27 cross times space open parentheses 10 to the power of negative 4 end exponent cross times space 10 to the power of 7 close parentheses equals 27 cross times 10 to the power of open parentheses negative 4 plus 7 close parentheses end exponent space equals 27 space cross times space 10 cubed`
+$27 \times ( 10^{- 4} \times 10^{7 ) = 27 \times 10^{(} \text{parentheses} - 4 + 7 )} = 27 \times 10^{3}$
 
 > *This is not in standard form as **a** is not in the interval 1 ≤ **a **< 10. Convert to standard form by first converting 27 to standard form.*
 
@@ -875,19 +875,19 @@ $4.2875\times10^{7}$**[1]**
 ### 10((b)) — 1 marks
 > *Form an equation from the information.*
 
-`table row cell surface space area space of space Pacific space Ocean end cell equals cell k cross times open square brackets surface space area space of space Arctic space Ocean close square brackets end cell row cell 1.56 cross times 10 to the power of 8 end cell equals cell k open parentheses 1.41 cross times 10 to the power of 7 close parentheses end cell end table`
+$\begin{array}{ccc} \text{surface} \text{area} of Pacific Ocean & = & k \times [ \text{surface} \text{area} of Arctic Ocean ] \\ 1.56 \times 10^{8} & = & k ( 1.41 \times 10^{7} ) \end{array}$
 
 > *Solve the equation by dividing both sides by 1.41 × 10*<sup>*7*</sup>*.*
 
-`table row k equals cell fraction numerator 1.56 cross times 10 to the power of 8 over denominator 1.41 cross times 10 to the power of 7 end fraction equals open parentheses 1.56 cross times 10 to the power of 8 close parentheses divided by open parentheses 1.41 cross times 10 to the power of 7 close parentheses end cell end table`
+$\begin{gathered} k = \frac{1.56 \times 10^{8} }{1.41 \times 10^{7} } = ( 1.56 \times 10^{8} ) \div ( 1.41 \times 10^{7} ) \end{gathered}$
 
 > *Type this directly into your calculator, in either of the two forms above.*
 
-`table attributes columnalign right center left columnspacing 0px end attributes row k equals cell 11.06382979... end cell end table`
+$\begin{array}{rcl} k = 11.06382979... \end{array}$
 
 > *Round your answer to the nearest whole number as requested.*
 
-`table row bold italic k bold equals bold 11 end table`* ***[1]**
+$\begin{gathered} k = 11 \end{gathered}$* ***[1]**
 
 ## Q37 — medium — 9 marks · exam-questions
 

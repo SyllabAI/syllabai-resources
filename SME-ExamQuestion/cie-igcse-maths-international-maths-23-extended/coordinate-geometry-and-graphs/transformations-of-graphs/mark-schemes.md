@@ -20,22 +20,22 @@ $a=-7$
 $b=4$
 
 **[B1]**
-> *The vector *`open parentheses table row 5 row 0 end table close parentheses`* means the graph has translated 5 units right*
+> *The vector *$( \begin{gathered} 5 \\ 0 \end{gathered} )$* means the graph has translated 5 units right*
 
 > *The transformation *$y=g(x+b)$* corresponds to a translation horizontally left by *$b$* units*
 
 > *The new equation will be *$y=g(x-5)$
 
-> *Replace all the *$x$* terms with *`open parentheses x minus 5 close parentheses`
+> *Replace all the *$x$* terms with *$( x - 5 )$
 
-`y equals a open parentheses x minus 5 close parentheses cubed plus b open parentheses x minus 5 close parentheses squared plus c open parentheses x minus 5 close parentheses plus d`
+$y = a ( x - 5 )^{3} + b ( x - 5 )^{2} + c ( x - 5 ) + d$
 
 **[B1 B1]**
 
 > **[mark-scheme]**
-> **B1**: At least one $x$ term replaced with `open parentheses x minus 5 close parentheses`.
+> **B1**: At least one $x$ term replaced with $( x - 5 )$.
 > 
-> **B1**: Fully correct answer; all $x$ terms replaced with `open parentheses x minus 5 close parentheses`.
+> **B1**: Fully correct answer; all $x$ terms replaced with $( x - 5 )$.
 
 ### Q2
 > *A translation of the graph *$j(x)$* to the graph *$j(x+2)$* will be a movement 2 units to the left*
@@ -59,7 +59,7 @@ $b=4$
 
 > *Add 4 to the equation of the translated graph*
 
-`table row y equals cell x squared minus x minus 10 plus 4 end cell row blank equals cell x squared minus x minus 6 end cell end table`
+$\begin{gathered} y = x^{2} - x - 10 + 4 \\ = x^{2} - x - 6 \end{gathered}$
 
 **[1]**
 
@@ -67,17 +67,17 @@ $b=4$
 
 > *Replace both *$x$*'s with *$x+2$* in the new equation of the translated graph  *
 
-`y equals open parentheses x plus 2 close parentheses squared minus open parentheses x plus 2 close parentheses minus 6`
+$y = ( x + 2 )^{2} - ( x + 2 ) - 6$
 
 **[1]**
 
 > *Expand the double brackets and simplify*
 
-`table row y equals cell open parentheses x plus 2 close parentheses open parentheses x plus 2 close parentheses minus open parentheses x plus 2 close parentheses minus 6 end cell row blank equals cell open parentheses x squared plus 2 x plus 2 x plus 4 close parentheses minus open parentheses x plus 2 close parentheses minus 6 end cell row blank equals cell x squared plus 4 x plus 4 minus open parentheses x plus 2 close parentheses minus 6 end cell row blank equals cell x squared plus 4 x minus 2 minus open parentheses x plus 2 close parentheses end cell end table`
+$\begin{gathered} y = ( x + 2 ) ( x + 2 ) - ( x + 2 ) - 6 \\ = ( x^{2} + 2 x + 2 x + 4 ) - ( x + 2 ) - 6 \\ = x^{2} + 4 x + 4 - ( x + 2 ) - 6 \\ = x^{2} + 4 x - 2 - ( x + 2 ) \end{gathered}$
 
 > *Expand the single brackets and simplify*
 
-`table row y equals cell x squared plus 4 x minus 2 minus x minus 2 end cell row blank equals cell x squared plus 3 x minus 4 end cell end table`
+$\begin{gathered} y = x^{2} + 4 x - 2 - x - 2 \\ = x^{2} + 3 x - 4 \end{gathered}$
 
 > *Compare the *$x$* coefficients*
 
@@ -95,7 +95,7 @@ $a=3,b=-4$** ****[1]**
 
 > *Replace both *$x$*'s with *$x-2$* in the equation of the graph *
 
-`y equals open parentheses x minus 2 close parentheses squared plus a open parentheses x minus 2 close parentheses plus b`
+$y = ( x - 2 )^{2} + a ( x - 2 ) + b$
 
 **[1]**
 
@@ -103,21 +103,21 @@ $a=3,b=-4$** ****[1]**
 
 > *Subtract 4 from the equation of the graph *
 
-`y equals open parentheses x minus 2 close parentheses squared plus a open parentheses x minus 2 close parentheses plus b minus 4`
+$y = ( x - 2 )^{2} + a ( x - 2 ) + b - 4$
 
 **[1]**
 
 > *Expand the double brackets and simplify*
 
-`table row y equals cell open parentheses x minus 2 close parentheses open parentheses x minus 2 close parentheses plus a open parentheses x minus 2 close parentheses plus b minus 4 end cell row blank equals cell open parentheses x squared minus 2 x minus 2 x plus 4 close parentheses plus a open parentheses x minus 2 close parentheses plus b minus 4 end cell row blank equals cell x squared minus 4 x plus 4 plus a open parentheses x minus 2 close parentheses plus b minus 4 end cell row blank equals cell x squared minus 4 x plus a open parentheses x minus 2 close parentheses plus b end cell end table`
+$\begin{gathered} y = ( x - 2 ) ( x - 2 ) + a ( x - 2 ) + b - 4 \\ = ( x^{2} - 2 x - 2 x + 4 ) + a ( x - 2 ) + b - 4 \\ = x^{2} - 4 x + 4 + a ( x - 2 ) + b - 4 \\ = x^{2} - 4 x + a ( x - 2 ) + b \end{gathered}$
 
 > *Expand the single brackets*
 
-`table row y equals cell x squared minus 4 x plus a x minus 2 a plus b end cell end table`
+$\begin{gathered} y = x^{2} - 4 x + a x - 2 a + b \end{gathered}$
 
 > *Collect like terms*
 
-`y equals x squared plus open parentheses a minus 4 close parentheses x plus open parentheses b minus 2 a close parentheses`
+$y = x^{2} + ( a - 4 ) x + ( b - 2 a )$
 
 > *Compare the *$x$* coefficients*
 
@@ -125,7 +125,7 @@ $a-4=-1$
 
 > *Solve for *$a$* *
 
-`table row a equals cell negative 1 plus 4 end cell row a equals 3 end table`
+$\begin{gathered} a = - 1 + 4 \\ a = 3 \end{gathered}$
 
 > *Compare the constant terms*
 
@@ -133,11 +133,11 @@ $b-2a=-10$
 
 > *Substitute in your value of *$a$* *
 
-`b minus 2 open parentheses 3 close parentheses equals negative 10`
+$b - 2 ( 3 ) = - 10$
 
 > *Solve for *$b$* *
 
-`table row cell b minus 6 end cell equals cell negative 10 end cell row b equals cell negative 10 plus 6 end cell end table`
+$\begin{gathered} b - 6 & = - 10 \\ b = - 10 + 6 \end{gathered}$
 
 $a=3,b=-4$** ****[1]**
 
@@ -161,13 +161,13 @@ $(8,2)$** [2]**
 > *The top number in the translation vector is -3*
 *The bottom number in the translation vector is 4*
 
-> $y=f(x+a)+b$* is a horizontal translation by the vector *`open parentheses table row cell negative a end cell row b end table close parentheses`
+> $y=f(x+a)+b$* is a horizontal translation by the vector *$( \begin{gathered} - a \\ b \end{gathered} )$
 
-`y equals straight f open parentheses x plus 3 close parentheses plus 4` **[2]**
+$y = \mathrm{f} ( x + 3 ) + 4$ **[2]**
 **1 mark for each correct value**
 
 ### Q5
-> *From your knowledge of trig graphs you should know that the graph of *`y equals cos open parentheses x close parentheses`* cuts the *$x$*-axis at *$90^{\circ}$* and *$270^{\circ}$
+> *From your knowledge of trig graphs you should know that the graph of *$y = \cos ( x )$* cuts the *$x$*-axis at *$90^{\circ}$* and *$270^{\circ}$
 
 $y=\mathrm{cos}(x-35)$* represents a translation of *$y=\mathrm{cos}(x)$* in the *$x$*-axis by *$+35^{\circ}$* *
 
@@ -177,21 +177,21 @@ $90^{\circ}+35^{\circ}=125^{\circ}\,270^{\circ}+35^{\circ}=305^{\circ}$* *
 
 > *Write your final answers as coordinates*
 
-**    **`open parentheses 125 comma space 0 close parentheses space comma space open parentheses 305 comma space 0 close parentheses`**[1]**
+**    **$( 125 , 0 ) , ( 305 , 0 )$**[1]**
 
 ### Q6
 > *A translation of a graph *$f(x)$* by 3 units to the right will be *$f(x-3)$
 
 > *Replace *$x$* with *$x-3$* in the equation of the graph*
 
-`y equals open parentheses x minus 3 close parentheses squared plus 2`
+$y = ( x - 3 )^{2} + 2$
 
 **[1]**
 
 > *Expand the brackets*
 
-`y equals open parentheses x minus 3 close parentheses open parentheses x minus 3 close parentheses plus 2
-equals open parentheses x squared minus 3 x minus 3 x plus 9 close parentheses plus 2`
+$y = ( x - 3 ) ( x - 3 ) + 2
+= ( x^{2} - 3 x - 3 x + 9 ) + 2$
 
 > *Simplify*
 
@@ -204,7 +204,7 @@ $y=x^{2}-6x+11$** ****[1]**
 
 > *Replace both *$x$*'s with *$x+1$* in the equation of the graph *
 
-`y equals open parentheses x plus 1 close parentheses squared minus 4 open parentheses x plus 1 close parentheses`
+$y = ( x + 1 )^{2} - 4 ( x + 1 )$
 
 **[1]**
 
@@ -212,17 +212,17 @@ $y=x^{2}-6x+11$** ****[1]**
 
 > *Add 5 to the equation of the graph *
 
-`y equals open parentheses x plus 1 close parentheses squared minus 4 open parentheses x plus 1 close parentheses plus 5`
+$y = ( x + 1 )^{2} - 4 ( x + 1 ) + 5$
 
 **[1]**
 
 > *Expand the double brackets and simplify*
 
-`table row y equals cell open parentheses x plus 1 close parentheses open parentheses x plus 1 close parentheses minus 4 open parentheses x plus 1 close parentheses plus 5 end cell row blank equals cell open parentheses x squared plus x plus x plus 1 close parentheses minus 4 open parentheses x plus 1 close parentheses plus 5 end cell row blank equals cell x squared plus 2 x plus 1 minus 4 open parentheses x plus 1 close parentheses plus 5 end cell end table`
+$\begin{gathered} y = ( x + 1 ) ( x + 1 ) - 4 ( x + 1 ) + 5 \\ = ( x^{2} + x + x + 1 ) - 4 ( x + 1 ) + 5 \\ = x^{2} + 2 x + 1 - 4 ( x + 1 ) + 5 \end{gathered}$
 
 > *Expand the single brackets, be careful with the negative sign*
 
-`table row y equals cell x squared plus 2 x plus 1 minus 4 x minus 4 plus 5 end cell end table`
+$\begin{gathered} y = x^{2} + 2 x + 1 - 4 x - 4 + 5 \end{gathered}$
 
 > *Simplify by collecting like terms*
 
@@ -233,35 +233,35 @@ $y=x^{2}-2x+2$** ****[1]**
 ### Q8
 > *The point has moved 5 units vertically downwards, so the translation is -5 units in the *$y$* direction*
 
-`y equals straight f open parentheses x close parentheses minus 5` **[1]**
+$y = \mathrm{f} ( x ) - 5$ **[1]**
 
 ### Q9
-> *A transformation in the form *`y equals straight f open parentheses x close parentheses plus a`* represents a translation of *$a$* units up the ** *$y$*-axis*
+> *A transformation in the form *$y = \mathrm{f} ( x ) + a$* represents a translation of *$a$* units up the ** *$y$*-axis*
 
 > *This is a translation by 2 units vertically downwards on the *$y$*-axis*
 
 > *The *$x$*-coordinates will stay the same but the *$y$*-coordinates will decrease by 2 units*
 
-`table row cell 7 plus 0 end cell equals 7 row cell 13 minus 2 end cell equals 11 end table`
+$\begin{gathered} 7 + 0 & = 7 \\ 13 - 2 & = 11 \end{gathered}$
 
-`open parentheses 7 comma space 11 close parentheses`** ****[1]**
+$( 7 , 11 )$** ****[1]**
 
 ### Q10
-(i)  `straight f open parentheses x close parentheses plus 3`* represents a translation of 3 units vertically upwards*
+(i)  $\mathrm{f} ( x ) + 3$* represents a translation of 3 units vertically upwards*
 
 > *The *$x$*-coordinate of every point will stay the same but the *$y$*-coordinate will increase by 3*
 
-`table row cell negative 4 plus 3 end cell equals cell negative 1 end cell end table`
+$\begin{gathered} - 4 + 3 & = - 1 \end{gathered}$
 
-`open parentheses 3 comma negative 1 close parentheses`** ****[1]**
+$( 3 , - 1 )$** ****[1]**
 
-(ii)  `straight f open parentheses x plus 2 close parentheses`* represents a translation of 2 units to the left*
+(ii)  $\mathrm{f} ( x + 2 )$* represents a translation of 2 units to the left*
 
 > *The *$x$*-coordinate of every point will  decrease by 2 but the *$y$*-coordinate will stay the same*
 
-`table row cell 3 minus 2 end cell equals 1 end table`
+$\begin{gathered} 3 - 2 & = 1 \end{gathered}$
 
-`open parentheses 1 comma negative 4 close parentheses`** ****[1]**
+$( 1 , - 4 )$** ****[1]**
 
 ### Q11
 (i)   *The point has moved 4 units to the right, so the whole curve has translated 4 units in the positive *$x$* direction*
@@ -270,28 +270,28 @@ $y=x^{2}-2x+2$** ****[1]**
 
 > *The curve has not moved up or down so the bottom number in the translation vector is 0*
 
-`open parentheses 4
-0 close parentheses`** ****[1]**
+$( 4
+0 )$** ****[1]**
 
-(ii)  * *$y=f(x-a)$* is a horizontal translation by the vector *`open parentheses table row a row 0 end table close parentheses`
+(ii)  * *$y=f(x-a)$* is a horizontal translation by the vector *$( \begin{gathered} a \\ 0 \end{gathered} )$
 
-`y equals straight f open parentheses x minus 4 close parentheses` **[1]**
+$y = \mathrm{f} ( x - 4 )$ **[1]**
 
 ### Q12
-> *A translation vector *`open parentheses a
-b close parentheses`* moves a point *$a$* units in the *$x$* direction and *$b$* units in the *$y$* direction*
+> *A translation vector *$( a
+b )$* moves a point *$a$* units in the *$x$* direction and *$b$* units in the *$y$* direction*
 
 > *The *$x$*-coordinate changes from *$-3$* to *$0$* so it moves *$3$* units to the right, or *$3$* units in the *$x$* direction*
 
 > *The *$y$*-coordinate changes from *$6$* to *$2$* so it moves *$4$* units downwards, or *$-4$* units in the *$y$* direction*
 
-`open parentheses space space space space 3
-minus 4 close parentheses`
+$( 3
+- 4 )$
 **1 mark for each [2]**
 
 ### Q13
-> *A translation vector *`open parentheses a
-b close parentheses`* moves a point *$a$* units in the *$x$* direction and *$b$* units in the *$y$* direction*
+> *A translation vector *$( a
+b )$* moves a point *$a$* units in the *$x$* direction and *$b$* units in the *$y$* direction*
 
 > *The *$x$*-coordinate starts at *$5$* and moves *$-1$* units in the *$x$* direction, which is *$1$* unit to the left*
 
@@ -301,16 +301,16 @@ $5-1=4$
 
 $7+3=10$
 
-`open parentheses 4 comma space 10 close parentheses`** ****[1]**
+$( 4 , 10 )$** ****[1]**
 
 ### Q14
-> *A translation vector *`open parentheses a
-b close parentheses`* moves a point *$a$* units in the *$x$* direction and *$b$* units in the *$y$* direction*
+> *A translation vector *$( a
+b )$* moves a point *$a$* units in the *$x$* direction and *$b$* units in the *$y$* direction*
 
 > *The *$x$*-coordinate changes from *$1$* to *$-1$* so it moves *$2$* units to the left, or *$-2$* units in the *$x$* direction*
 
 > *The *$y$*-coordinate changes from *$5$* to *$7$* so it moves *$2$* units upwards, or *$2$* units in the *$y$* direction*
 
-`open parentheses negative 2
-space space space 2 close parentheses`
+$( - 2
+ 2 )$
 **1 mark for each [2]**

@@ -235,7 +235,7 @@ The percentage of oxygen in air using these results is:
 
 - Calculation of volume of oxygen used; **[1 mark] **
 - Calculation of original volume of air; **[1 mark] **
-- Calculation of percentage; **[1 mark] ***Example calculation: *80 − 43 = 37 (cm<sup>3</sup>) 100 + 10 + 80 = 190 (cm<sup>3</sup>) `fraction numerator open parentheses 37 space cross times space 100 close parentheses over denominator 190 end fraction space equals space 19`% / 19.47% / 19.5%
+- Calculation of percentage; **[1 mark] ***Example calculation: *80 − 43 = 37 (cm<sup>3</sup>) 100 + 10 + 80 = 190 (cm<sup>3</sup>) $\frac{( 37 \times 100 )}{190} = 19$% / 19.47% / 19.5%
 
 **[Total: 3 marks] **
 

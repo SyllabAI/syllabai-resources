@@ -10,7 +10,7 @@
 
 > *Find the probability of choosing one blue marble*
 
-`straight P open parentheses Blue close parentheses equals fraction numerator 6 over denominator 6 plus 4 end fraction equals 6 over 10 equals 3 over 5`
+$\mathrm{P} ( \text{Blue} ) = \frac{6}{6 + 4} = \frac{6}{10} = \frac{3}{5}$
 
 > *To find the probability of two events happening, multiply their probabilities*
 
@@ -18,7 +18,7 @@
 
 > *P(Both blue) = P(First blue and second blue) = P(First blue) × P(Second blue)*
 
-`straight P open parentheses Both space blue close parentheses equals 3 over 5 cross times 3 over 5`
+$\mathrm{P} ( \text{Both} \text{blue} ) = \frac{3}{5} \times \frac{3}{5}$
 
 **[M1]**
 
@@ -37,23 +37,23 @@ $\frac{9}{25}$
 
 > *Find the probability of picking a green marble, then a blue marble*
 
-`straight P open parentheses Green space then space Blue close parentheses equals 4 over 10 cross times 6 over 10`
+$\mathrm{P} ( \text{Green} \text{then} \text{Blue} ) = \frac{4}{10} \times \frac{6}{10}$
 
 **[M1]**
 
-`straight P open parentheses Green space then space Blue close parentheses equals 24 over 100 equals 6 over 25`
+$\mathrm{P} ( \text{Green} \text{then} \text{Blue} ) = \frac{24}{100} = \frac{6}{25}$
 
 **[A1]**
 
 > *Find the probability of picking a blue marble, then a green marble*
 
-`straight P open parentheses Blue space then space Green close parentheses equals 6 over 10 cross times 4 over 10 equals 24 over 100 equals 6 over 25`
+$\mathrm{P} ( \text{Blue} \text{then} \text{Green} ) = \frac{6}{10} \times \frac{4}{10} = \frac{24}{100} = \frac{6}{25}$
 
 > *Notice that these probabilities are the same, as the marble is replaced each time*
 
 > *Add together the probability of "green then blue", and "blue then green"*
 
-`table row cell straight P open parentheses one space green space one space blue close parentheses end cell equals cell straight P open parentheses green space then space blue close parentheses plus straight P open parentheses blue space then space green close parentheses end cell row blank equals cell 6 over 25 plus 6 over 25 end cell end table`
+$\begin{gathered} \mathrm{P} ( \text{one} \text{green} \text{one} \text{blue} ) & = \mathrm{P} ( \text{green} \text{then} \text{blue} ) + \mathrm{P} ( \text{blue} \text{then} \text{green} ) \\ = \frac{6}{25} + \frac{6}{25} \end{gathered}$
 
 $\frac{12}{25}$
 
@@ -83,13 +83,13 @@ $\frac{3}{14}$**  [2]**
 
 > *Find the probability of choosing one red bead*
 
-> `straight P open parentheses Red close parentheses space equals space fraction numerator 15 over denominator 15 space plus space 10 end fraction space equals space 15 over 25`*   *
+> $\mathrm{P} ( \text{Red} ) = \frac{15}{15 + 10} = \frac{15}{25}$*   *
 
 > *To find the probability of two things both happening, multiply the probabilities*
 *You could draw a tree diagram to help*
 *P(Both red) = P(first red) and P(second red)  = P(first red) × P(second red)*
 
-`straight P open parentheses Both space red close parentheses space space equals space 15 over 25 space cross times space 15 over 25`
+$\mathrm{P} ( \text{Both} \text{red} ) = \frac{15}{25} \times \frac{15}{25}$
 
 ** [1]**
 
@@ -104,7 +104,7 @@ $\frac{9}{25}$** [1] **
 
 > *The probability of not picking two red beads will be 1 - the probability of picking two red beads*
 
-`straight P open parentheses Not space both space red close parentheses space equals space 1 space minus space 9 over 25`
+$\mathrm{P} ( \text{Not} \text{both} \text{red} ) = 1 - \frac{9}{25}$
 
 $\frac{16}{25}$** [1]**
 
@@ -367,12 +367,12 @@ $\frac{12}{25}$ **[1]**
 > *The probability that Arun plays football on a Saturday is *$\frac{3}{4}$*, the only other option for Arun is that he does not play football. *
 *To find the probability that Arun does not play, subtract the probability that he does plays from 1.*
 
-`straight P open parentheses Arun space does space not space play close parentheses equals 1 minus 3 over 4 equals 1 fourth`
+$\mathrm{P} ( \text{Arun} \text{does} \text{not} \text{play} ) = 1 - \frac{3}{4} = 1 \frac{1}{4}$
 
 > *The probability that Bob plays football on a Saturday is *$\frac{2}{5}$*, the only other option for Bob is that he does not play football. *
 *To find the probability that Bob does not play, subtract the probability that he does plays from 1.*
 
-`straight P open parentheses Bob space does space not space play close parentheses equals 1 minus 2 over 5 equals 3 over 5`
+$\mathrm{P} ( \text{Bob} \text{does} \text{not} \text{play} ) = 1 - \frac{2}{5} = \frac{3}{5}$
 
 > *The probability that Bob plays is not affected by whether or not Arun plays football.*
 
@@ -396,9 +396,9 @@ $\frac{3}{10}$** [1]**
 
 > *Find the probability of each route by multiplying the two probabilities together along the route.*
 
-`straight P open parentheses Arun space plays space and space Bob space does space not space play close parentheses equals 3 over 4 cross times 3 over 5 equals 9 over 20`
+`P ( Arun plays and Bob does not play ) = 3 / 4 x 3 / 5 = 9 / 20`
 
-`straight P open parentheses Arun space does space not space play space and space Bob space plays close parentheses equals 1 fourth cross times 2 over 5 equals 1 over 10`
+`P ( Arun does not play and Bob plays ) = 1 fourth x 2 / 5 = 1 / 10`
 
 **1 route correct ****[1]**
 

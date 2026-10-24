@@ -22,16 +22,16 @@ guided_study: true
 - Look at the quadratic expression *x*<sup>2</sup> + *bx* + *c *
 - The first** two terms** can be written as the **difference of two squares** using the following rule
 
-$x^{2}+bx$ is the same as `open parentheses x plus p close parentheses squared minus p squared` where $p$ is **half** of $b$
+$x^{2}+bx$ is the same as $( x + p )^{2} - p^{2}$ where $p$ is **half** of $b$
 
 - Check this is true by expanding the right-hand side
 
-  - Is $x^{2}+2x$ the same as `open parentheses x plus 1 close parentheses squared minus 1 squared`?
+  - Is $x^{2}+2x$ the same as $( x + 1 )^{2} - 1^{2}$?
   
     - Yes: (*x* + 1)(*x* + 1) - 1<sup>2</sup> = *x*<sup>2</sup> + 2*x* + 1 - 1 = *x*<sup>2</sup> + 2*x*
 - This works for **negative** values of *b* too
 
-  - $x^{2}-20x$ can be written as `open parentheses x minus 10 close parentheses squared minus open parentheses negative 10 close parentheses squared` which is `open parentheses x minus 10 close parentheses squared minus 100`
+  - $x^{2}-20x$ can be written as $( x - 10 )^{2} - ( - 10 )^{2}$ which is $( x - 10 )^{2} - 100$
   - A negative *b* does not change the sign at the end
 
 ### How do I complete the square?
@@ -49,20 +49,20 @@ $x^{2}+bx$ is the same as `open parentheses x plus p close parentheses squared m
 - You first need to take $a$ out as a **factor** of the *x*<sup>2</sup> and *x* terms only
 
   - **Factorise** the** first two terms**
-  - `a x squared plus b x plus c equals a open square brackets x squared plus b over a x close square brackets plus c`
+  - $a x^{2} + b x + c = a [ x^{2} + \frac{b}{a} x ] + c$
   
     - Use **square-shaped** **brackets** here to avoid confusion with round brackets later
 - Then complete the square on the bit **inside** the brackets: $x^{2}+\frac{b}{a}x$
 
-  - This gives `a open square brackets open parentheses x plus p close parentheses squared minus p squared close square brackets plus c`
+  - This gives $a [ ( x + p )^{2} - p^{2} ] + c$
   
     - where *p* is half of $\frac{b}{a}$
 - Finally **multiply** this expression through by *a* (from outside the square brackets) and **add the c** on to the end
 
-  - `a open parentheses x plus p close parentheses squared minus a p squared plus c`
+  - $a ( x + p )^{2} - a p^{2} + c$
   
     - This looks far more complicated than it is in practice!
-  - Usually you are asked to give your final answer in the form  `a open parentheses x plus p close parentheses squared plus q`
+  - Usually you are asked to give your final answer in the form  $a ( x + p )^{2} + q$
   - For example,  *y *= 4*x*<sup>2</sup> + 16*x* + 5
   
     - Factorise out '*a*' on the right-hand side (use square brackets)
@@ -86,12 +86,12 @@ $x^{2}+bx$ is the same as `open parentheses x plus p close parentheses squared m
 
 - Completing the square helps us find the **turning** **point** on a quadratic graph
 
-  - If `y equals open parentheses x plus p close parentheses squared plus q` then the turning point is at `open parentheses negative p comma q close parentheses`
+  - If $y = ( x + p )^{2} + q$ then the turning point is at $( - p , q )$
   
     - Notice the negative sign in the *x*-coordinate
     - This links to transformations of graphs
     - A translation of $y=x^{2}$ by *p* to the left and *q *up
-  - If `y equals a open parentheses x plus p close parentheses squared plus q` then the turning point is still at `open parentheses negative p comma q close parentheses`
+  - If $y = a ( x + p )^{2} + q$ then the turning point is still at $( - p , q )$
   
     - The *a* does **not change** the coordinates
     - The turning point is a minimum point if *a* > 0
@@ -121,48 +121,48 @@ $x^{2}+bx$ is the same as `open parentheses x plus p close parentheses squared m
 > 
 > > *Write **x*<sup>*2*</sup>* + 6**x** in the form (**x** + **p**)*<sup>*2*</sup>* - **p*<sup>*2*</sup>
 > 
-> $x^{2}+6x$* is the same as *`open parentheses x plus 3 close parentheses squared minus 3 squared`
+> $x^{2}+6x$* is the same as *$( x + 3 )^{2} - 3^{2}$
 > 
 > > *Put this result into the equation of the curve*
 > 
-> `y equals open parentheses x plus 3 close parentheses squared minus 3 squared minus 11`
+> $y = ( x + 3 )^{2} - 3^{2} - 11$
 > 
 > > *Simplify the numbers*
 > 
-> `y equals open parentheses x plus 3 close parentheses squared minus 20`
+> $y = ( x + 3 )^{2} - 20$
 > 
-> > *Use the fact that the turning point of *`y equals open parentheses x plus p close parentheses squared plus q`* is at *`open parentheses negative p comma q close parentheses`* *
+> > *Use the fact that the turning point of *$y = ( x + p )^{2} + q$* is at *$( - p , q )$* *
 > *Here **p** = 3 and **q **= -20*
 > 
 > **Final answer:** **turning point at (-3, -20)**
 > 
-> (b)  Write $-3x^{2}+12x+24$ in the form `a open parentheses x plus p close parentheses squared plus q`.
+> (b)  Write $-3x^{2}+12x+24$ in the form $a ( x + p )^{2} + q$.
 > 
 > **Answer:**
 > 
 > > *Factorise -3 out of the first two terms only*
 > *Use square-shaped brackets*
 > 
-> `negative 3 open square brackets x squared minus 4 x close square brackets plus 24`
+> $- 3 [ x^{2} - 4 x ] + 24$
 > 
 > > *Complete the square on the **x*<sup>*2*</sup>* - 4**x** inside the brackets*
 > *Write in the form (**x** + **p**)*<sup>*2*</sup>* - **p*<sup>*2*</sup>* where **p** is half of -4*
 > 
-> `negative 3 open square brackets open parentheses x minus 2 close parentheses squared minus open parentheses negative 2 close parentheses squared close square brackets plus 24`
+> $- 3 [ ( x - 2 )^{2} - ( - 2 )^{2} ] + 24$
 > 
 > > *Simplify the numbers inside the brackets*
 > *(-2)*<sup>*2*</sup>* is 4*
 > 
-> `negative 3 open square brackets open parentheses x minus 2 close parentheses squared minus 4 close square brackets plus 24`
+> $- 3 [ ( x - 2 )^{2} - 4 ] + 24$
 > 
 > *Multiply -3 by all the terms inside the square brackets*
 > (*You do not multiply -3 by the 24)*
 > 
-> `negative 3 open parentheses x minus 2 close parentheses squared plus 12 plus 24`
+> $- 3 ( x - 2 )^{2} + 12 + 24$
 > 
 > > *Simplify the numbers*
 > 
-> `negative 3 open parentheses x minus 2 close parentheses squared plus 36`
+> $- 3 ( x - 2 )^{2} + 36$
 > 
 > > *This is now in the form **a**(**x** + **p**)*<sup>*2*</sup>* + **q** where **a **= -3, **p** = -2 and **q** = 36*
 > 
@@ -224,7 +224,7 @@ $x^{2}+bx$ is the same as `open parentheses x plus p close parentheses squared m
   - i.e. when there is no "=0"
   - For that, you must **factorise out** the *a* (but not divide by it)
   
-    - `a x squared plus b x plus c equals a open square brackets x squared plus b over a x close square brackets plus c` and so on
+    - $a x^{2} + b x + c = a [ x^{2} + \frac{b}{a} x ] + c$ and so on
 
 ### How does completing the square link to the quadratic formula?
 
@@ -252,15 +252,15 @@ $x^{2}+bx$ is the same as `open parentheses x plus p close parentheses squared m
 > > *Halve the middle number, -4, to get -2*
 > *Replace the first two terms, **x*<sup>*2*</sup>* - 4**x**, with (**x** - 2)*<sup>*2*</sup>* - (-2)*<sup>*2*</sup>
 > 
-> `open parentheses x minus 2 close parentheses squared minus open parentheses negative 2 close parentheses squared minus 12 equals 0`
+> $( x - 2 )^{2} - ( - 2 )^{2} - 12 = 0$
 > 
 > > *Simplify the numbers*
 > 
-> `table attributes columnalign right center left columnspacing 0px end attributes row cell open parentheses x minus 2 close parentheses squared minus 4 minus 12 end cell equals 0 row cell open parentheses x minus 2 close parentheses squared minus 16 end cell equals 0 end table`
+> $\begin{array}{rcl} ( x - 2 )^{2} - 4 - 12 & = 0 \\ ( x - 2 )^{2} - 16 & = 0 \end{array}$
 > 
 > > *Add 16 to both sides*
 > 
-> `open parentheses x minus 2 close parentheses squared equals 16`
+> $( x - 2 )^{2} = 16$
 > 
 > > *Take the square root of both sides*
 > *Include the ± sign to get two solutions*

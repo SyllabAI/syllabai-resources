@@ -67,6 +67,6 @@ guided_study: true
 > 
 > *Using the fact that the internal angles in a triangle sum to 180, we can find angle *$x$
 > 
-> `table row cell x plus 37 plus 37 end cell equals 180 row cell x plus 74 end cell equals 180 row x equals cell 180 minus 74 end cell end table`
+> $\begin{gathered} x + 37 + 37 & = 180 \\ x + 74 & = 180 \\ x = 180 - 74 \end{gathered}$
 > 
 > **Final answer:** ** **$x=106$

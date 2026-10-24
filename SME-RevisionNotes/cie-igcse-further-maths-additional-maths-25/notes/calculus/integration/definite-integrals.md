@@ -73,23 +73,23 @@ guided_study: false
 
   - taking **constant** factors outside the integral
   
-    - `integral subscript a superscript b k straight f left parenthesis x right parenthesis space straight d x equals k integral subscript a superscript b straight f left parenthesis x right parenthesis space straight d x` where$k$ is a constant
+    - $\int_{a}^{b} k \mathrm{f} ( x ) \mathrm{d} x = k \int_{a}^{b} \mathrm{f} ( x ) \mathrm{d} x$ where$k$ is a constant
     - useful when fractional and/or negative values involved
   - integrating term by term
   
-    - `space integral subscript a superscript b left square bracket straight f left parenthesis x right parenthesis plus straight g left parenthesis x right parenthesis right square bracket space straight d x equals integral subscript a superscript b straight f left parenthesis x right parenthesis space straight d x plus integral subscript a superscript b straight g left parenthesis x right parenthesis space straight d x`
+    - $integral_{a}^{b} [ \mathrm{f} ( x ) + \mathrm{g} ( x ) ] \mathrm{d} x = integral_{a}^{b} \mathrm{f} ( x ) \mathrm{d} x + integral_{a}^{b} \mathrm{g} ( x ) \mathrm{d} x$
     - the above works for subtraction of terms/functions too
   - equal upper and lower limits
   
-    - `integral subscript a superscript a straight f left parenthesis x right parenthesis space d x equals 0`
+    - $\int_{a}^{a} \mathrm{f} ( x ) d x = 0$
     - on evaluating, this would be a value subtracted from itself!
   - swapping limits gives the same, but negative, result
   
-    - `integral subscript a superscript b straight f left parenthesis x right parenthesis space straight d x equals negative integral subscript b superscript a straight f left parenthesis x right parenthesis space straight d x`
+    - $\int_{a}^{b} \mathrm{f} ( x ) \mathrm{d} x = - \int_{b}^{a} \mathrm{f} ( x ) \mathrm{d} x$
     - compare 8 subtract 5 say, with 5 subtract 8 …
   - splitting the interval
   
-    - `space integral subscript a superscript b straight f left parenthesis x right parenthesis space straight d x equals integral subscript a superscript c straight f left parenthesis x right parenthesis space straight d x plus integral subscript c superscript b straight f left parenthesis x right parenthesis space straight d x` where$a\leqc\leqb$
+    - $\int_{a}^{b} \mathrm{f} ( x ) \mathrm{d} x = \int_{a}^{c} \mathrm{f} ( x ) \mathrm{d} x + \int_{c}^{b} \mathrm{f} ( x ) \mathrm{d} x$ where$a\leqc\leqb$
     - this is particularly useful for areas under multiple curves or areas under the$x$-axis
 
 > **Exam Hint**
@@ -98,23 +98,23 @@ guided_study: false
 > **Worked Example**
 > Find the value of
 > 
-> `integral subscript 2 superscript 4 3 x left parenthesis x squared minus 2 right parenthesis space straight d x`
+> $\int_{2}^{4} 3 x ( x^{2} - 2 ) \mathrm{d} x$
 > 
 > **Answer:**
 > 
 > > *Start by expanding the brackets inside the integral*
 > 
-> `integral subscript 2 superscript 4 open parentheses 3 x cubed minus 6 x close parentheses space straight d x`
+> $\int_{2}^{4} ( 3 x^{3} - 6 x ) \mathrm{d} x$
 > 
 > > *Integrate as usual (here it's a 'powers of *$x$*' integration)*
 > 
 > > *Write the answer in square brackets with the integration limits outside*
 > 
-> `table row cell integral subscript 2 superscript 4 open parentheses 3 x cubed minus 6 x close parentheses space straight d x end cell equals cell open square brackets 3 open parentheses fraction numerator x to the power of 3 plus 1 end exponent over denominator 3 plus 1 end fraction close parentheses minus 6 open parentheses fraction numerator x to the power of 1 plus 1 end exponent over denominator 1 plus 1 end fraction close parentheses close square brackets subscript 2 superscript 4 end cell row blank equals cell open square brackets 3 over 4 x to the power of 4 minus 3 x squared close square brackets subscript 2 superscript 4 end cell end table`
+> $\begin{gathered} \int_{2}^{4} ( 3 x^{3} - 6 x ) \mathrm{d} x & = [ 3 ( \frac{x^{3 + 1} }{3 + 1} ) - 6 ( \frac{x^{1 + 1} }{1 + 1} ) ]_{2}^{4} \\ = [ \frac{3}{4} x^{4} - 3 x^{2} ]_{2}^{4} \end{gathered}$
 > 
 > > *Now substitute 4 into that function *
 > *And subtract from it the function with 2 substituted in*
 > 
-> `table attributes columnalign right center left columnspacing 0px end attributes row cell open square brackets 3 over 4 x to the power of 4 minus 3 x squared close square brackets subscript 2 superscript 4 end cell equals cell open parentheses 3 over 4 open parentheses 4 close parentheses to the power of 4 minus 3 open parentheses 4 close parentheses squared close parentheses minus open parentheses 3 over 4 open parentheses 2 close parentheses to the power of 4 minus 3 open parentheses 2 squared close parentheses close parentheses end cell row blank equals cell open parentheses 192 minus 48 close parentheses minus open parentheses 12 minus 12 close parentheses end cell row blank equals cell 144 minus 0 end cell row blank equals 144 end table`
+> $\begin{array}{rcl} [ \frac{3}{4} x^{4} - 3 x^{2} ]_{2}^{4} & = ( \frac{3}{4} ( 4 )^{4} - 3 ( 4 )^{2} ) - ( \frac{3}{4} ( 2 )^{4} - 3 ( 2^{2} ) ) \\ = ( 192 - 48 ) - ( 12 - 12 ) \\ = 144 - 0 \\ = 144 \end{array}$
 > 
 > `Error converting from MathML to accessible text.`

@@ -16,7 +16,7 @@ Without using a calculator, write down:
 
 (iv) $\frac{5π}{6}radiansindegrees$
 
-(iv) `cos invisible function application space 0`
+(iv) $\cos 0$
 
 ## Q2 — easy — 4 marks · exam-questions
 
@@ -46,7 +46,7 @@ Find the radius of the circle.
 ## Q5 — easy — 4 marks · exam-questions
 
 ### 1() — 4 marks — structured
-Find all the solutions to the equation  `2 space sin invisible function application space theta equals square root of 3`  for $-2π\leqθ\leq2π$.
+Find all the solutions to the equation  $2 \sin \\theta = \sqrt{3}$  for $-2π\leqθ\leq2π$.
 
 ## Q6 — easy — 2 marks · exam-questions
 
@@ -174,13 +174,13 @@ Additionally, $CD$ is parallel to $AB$, so that $AD=BC$ and $OD=OC$.
 
 ![screenshot-2023-07-20-at-9-15-16-am](assets/047-screenshot-2023-07-20-at-9-15-16-am.png)
 
-Show that the area of the sector $OAB$ is `straight pi over 6 open parentheses p plus 8 close parentheses to the power of 2 space end exponent c m squared`  .
+Show that the area of the sector $OAB$ is `pi / 6 ( p + 8 ) ^ 2 c m ^2`  .
 
 ### 2() — 2 marks — structured
 Show that the area of the triangle $OCD$ is $16\sqrt{3}cm^{2}$.
 
 ### 3() — 4 marks — structured
-Given that the area of the shaded shape $ABCD$ is `open parentheses fraction numerator 50 straight pi over denominator 3 end fraction space minus space 16 square root of 3 close parentheses space c m squared`,  find the value of $p$.
+Given that the area of the shaded shape $ABCD$ is $( \frac{50 \mathrm{\pi } }{3} - 16 \sqrt{3} ) c m^{2}$,  find the value of $p$.
 
 ## Q17 — hard — 4 marks · exam-questions
 
@@ -237,10 +237,10 @@ Additionally,$CD$ is parallel to AB , so that $AD=BC$and $OD=OC$.
 
 ![XF-0EZjO_screenshot-2023-07-20-at-12-29-00-pm](assets/036-xf-0ezjo-screenshot-2023-07-20-at-12-29-00-pm.png)
 
-In the case when $AD=BC=1$cm, show that the area of the shaded shape $ABCD$ is given by `1 half theta r squared space minus space 1 half open parentheses r minus 1 close parentheses to the power of 2 space space end exponent sin space theta`.
+In the case when $AD=BC=1$cm, show that the area of the shaded shape $ABCD$ is given by $1 \frac{1}{2} \\theta r^{2} - 1 \frac{1}{2} ( r - 1 )^{2 } \sin \\theta$.
 
 ### 2() — 3 marks — structured
-Show that for small values of $θ$, the area of $ABCD$ is approximately `1 half theta open parentheses 2 r space minus space 1 close parentheses`.
+Show that for small values of $θ$, the area of $ABCD$ is approximately $1 \frac{1}{2} \\theta ( 2 r - 1 )$.
 
 ## Q22 — hard — 5 marks · exam-questions
 
@@ -249,7 +249,7 @@ Show that for small values of $θ$, the area of $ABCD$ is approximately `1 half 
 
 The diagram shows a prism with cross-section in the shape of a sector of a circle.
 
-The radius of the sector is `open parentheses 2 a space minus space 3 close parentheses` cm, and the angle at the centre is $1.7$ radians.
+The radius of the sector is $( 2 a - 3 )$ cm, and the angle at the centre is $1.7$ radians.
 
 The height of the prism is $4$ cm.
 
@@ -297,7 +297,7 @@ The diagram below shows the sector of a circle .
 
 ![screenshot-2023-07-20-at-4-18-20-pm](assets/016-screenshot-2023-07-20-at-4-18-20-pm.png)
 
-Show that the area of the shaded segment is given by `1 half r squared open parentheses theta space minus space sin space theta close parentheses space c m squared`.
+Show that the area of the shaded segment is given by $1 \frac{1}{2} r^{2} ( \\theta - \sin \\theta ) c m^{2}$.
 
 ### 2() — 2 marks — structured
 Find, in terms of $θ$, the percentage of the sector that the segment occupies.
@@ -326,7 +326,7 @@ Solve the wizard’s problem and save the unicorn.
 ### 1() — 2 marks — structured
 A sector of a circle, $OST$, is such that it has radius $r$ cm and the angle at its centre, $O$, is $θ$ radians.  The chord $ST$ has length $a$cm.
 
-Show that `a to the power of 2 space end exponent equals space 2 r to the power of 2 space end exponent open parentheses 1 space minus space cos space theta close parentheses`
+Show that $a^{2 } = 2 r^{2 } ( 1 - \cos \\theta )$
 
 ### 2() — 5 marks — structured
 Given that $r=4θ$ and that the area of the sector is $\frac{8π^{3}}{27}\mathrm{cm}^{2}$, find the value of $a$.
@@ -340,4 +340,4 @@ The diagram below shows the sector of a circle with centre $O$.  The radii $OA$ 
 
 Given that  $BC$$:CO=2:3$, show that the area of the shaded shape $ABCD$ is given by
 
-`1 over 50 r squared open parentheses 25 straight theta minus 9 space tan space theta close parentheses`cm<sup>2</sup>.
+$\frac{1}{50} r^{2} ( 25 \ \\theta - 9 \tan \\theta )$cm<sup>2</sup>.

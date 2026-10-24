@@ -131,7 +131,7 @@ Adding the two 8-bit binary numbers gives an answer of:
 
 *Working ***[1 mark]**
 
-`blank subscript stack attributes charalign center stackalign right end attributes 00110011 row plus 01100001 end row horizontal line 10010100 row 11 none none none 11 none end row end stack end subscript`
+`_ _ charalign center stackalign right end 00110011 | + 01100001 end | horizontal line 10010100 | 11 none none none 11 none end | end end _`
 
 > **[mark-scheme]**
 > - One mark per each correct nibble

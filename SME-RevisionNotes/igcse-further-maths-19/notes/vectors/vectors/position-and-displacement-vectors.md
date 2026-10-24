@@ -62,12 +62,12 @@ guided_study: false
 > > *Substitute in **p** and **q*
 > * *
 > 
-> > `stack P Q with rightwards arrow on top equals open parentheses 6 bold i minus 10 bold j close parentheses minus open parentheses 3 bold i plus 2 bold j close parentheses`
+> > $\vec{PQ} = ( 6 i - 10 j ) - ( 3 i + 2 j )$
 > * *
 > 
 > > *Expand and simplify*
 > * *
 > 
-> `table row blank equals cell 6 bold i minus 10 bold j minus 3 bold i minus 2 bold j end cell row blank equals cell 3 bold i minus 12 bold j end cell end table`
+> $\begin{gathered} = 6 i - 10 j - 3 i - 2 j \\ = 3 i - 12 j \end{gathered}$
 > 
 > $\overset{\rightarrow}{PQ}=3i-12j$

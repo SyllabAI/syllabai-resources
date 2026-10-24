@@ -322,7 +322,7 @@ C<sub>3</sub>H<sub>7</sub>OH + 4½O<sub>2</sub> → 3CO<sub>2</sub> + 4H<sub>2</
 To calculate the percentage by mass of carbon:
 
 - Compound A = C<sub>6</sub>H<sub>14</sub>O; **[1 mark] **
-- % of carbon = `fraction numerator open parentheses 6 space cross times space 12 close parentheses over denominator 102 end fraction cross times 100` = 70.6%; **[1 mark] **
+- % of carbon = $\frac{( 6 \times 12 )}{102} \times 100$ = 70.6%; **[1 mark] **
 
 **[Total: 2 marks] **
 

@@ -6,7 +6,7 @@
 ## Q1 — medium — 11 marks · exam-questions
 
 ### 7((a)) — 3 marks — structured — from paper Specimen · WFM01/01
-`bold P equals open parentheses table row cell 5 over 13 end cell cell negative 12 over 13 end cell row cell 12 over 13 end cell cell 5 over 13 end cell end table close parentheses`
+$P = ( \begin{gathered} \frac{5}{13} & - \frac{12}{13} \\ \frac{12}{13} & \frac{5}{13} \end{gathered} )$
 
 Describe fully the single geometrical transformation $U$ represented by the matrix $P$.
 
@@ -28,7 +28,7 @@ Show that there is a value of $k$ for which the transformation $T$ maps each poi
 ### 1() — 2 marks — structured — from paper June 2024 · WFM01/01
 The matrix **B** is defined by
 
-`bold B equals open parentheses table row p 0 row 0 q end table close parentheses`
+$B = ( \begin{gathered} p 0 \\ 0 q \end{gathered} )$
 
 where $p$ and $q$ are integers.
 
@@ -47,16 +47,16 @@ State the value of $p$ and the value of $q$ when **B** represents
 ### 6((a)) — 4 marks — structured — from paper June 2024 · WFM01/01
 Prove by induction that for $n\inℤ^{+}$
 
-`open parentheses table row 1 r row 0 2 end table close parentheses to the power of n equals open parentheses table row 1 cell left parenthesis 2 to the power of n minus 1 right parenthesis r end cell row 0 cell 2 to the power of n end cell end table close parentheses`
+$( \begin{gathered} 1 r \\ 0 2 \end{gathered} )^{n} = ( \begin{gathered} 1 ( 2^{n} - 1 ) r \\ 0 2^{n} \end{gathered} )$
 
 where $r$ is a constant.
 
 ### 6() — 3 marks — structured — from paper June 2024 · WFM01/01
-`bold M equals open parentheses table row 4 0 row 0 5 end table close parentheses`                `bold N equals open parentheses table row 1 cell negative 2 end cell row 0 2 end table close parentheses to the power of 4`
+$M = ( \begin{gathered} 4 0 \\ 0 5 \end{gathered} )$                $N = ( \begin{gathered} 1 - 2 \\ 0 2 \end{gathered} )^{4}$
 
 The transformation represented by matrix **M** followed by the transformation represented by matrix **N** is represented by the matrix **B**
 
-(i) Determine **N** in the form `open parentheses table row a b row c d end table close parentheses` where $a$, $b$, $c$ and $d$ are integers.
+(i) Determine **N** in the form $( \begin{gathered} a b \\ c d \end{gathered} )$ where $a$, $b$, $c$ and $d$ are integers.
 
 [1]
 
@@ -72,7 +72,7 @@ Given that the area of `equation`$S'$ is 720 square units, determine the area of
 ## Q4 — medium — 7 marks · exam-questions
 
 ### 4((a)) — 2 marks — structured — from paper January 2024 · WFM01/01
-`bold A equals open parentheses table row 1 0 row 0 3 end table close parentheses`
+$A = ( \begin{gathered} 1 0 \\ 0 3 \end{gathered} )$
 
 Describe the single geometrical transformation represented by the matrix **A**.
 
@@ -94,7 +94,7 @@ Given that the area of hexagon  $H$ is 5 square units, determine the area of hex
 ## Q5 — medium — 4 marks · exam-questions
 
 ### 4() — 4 marks — structured — from paper June 2023 · WFM01/01
-`bold A equals open parentheses table row cell negative 3 end cell 8 row cell negative 3 end cell k end table close parentheses`        where $k$ is a constant.
+$A = ( \begin{gathered} - 3 & 8 \\ - 3 & k \end{gathered} )$        where $k$ is a constant.
 
 The transformation represented by $A$ transforms triangle $T$ to triangle $T'$.
 
@@ -107,7 +107,7 @@ Determine the possible values of $k$.
 ### 7() — 6 marks — structured — from paper January 2023 · WFM01/01
 (i)
 
-`bold P equals open parentheses table row 0 cell negative 1 end cell row cell negative 1 end cell 0 end table close parentheses`
+$P = ( \begin{gathered} 0 - 1 \\ - 1 & 0 \end{gathered} )$
 
 The matrix **P** represents a geometrical transformation $U$
 
@@ -130,14 +130,14 @@ Given that $U$ followed by $V$ is the transformation $T$, which is represented b
 ### 7() — 5 marks — structured — from paper January 2023 · WFM01/01
 The transformation $W$ is represented by the matrix
 
-`open parentheses table row cell negative 2 end cell cell 2 square root of 3 end cell row cell 2 square root of 3 end cell 2 end table close parentheses`
+$( \begin{gathered} - 2 & 2 \sqrt{3} \\ 2 \sqrt{3} & 2 \end{gathered} )$
 
 Show that there is a real number $λ$ for which $W$ maps the point $(λ,1)$ onto the point $(4λ,4)$, giving the exact value of $λ$
 
 ## Q7 — medium — 9 marks · exam-questions
 
 ### 7((a)) — 1 mark — structured — from paper June 2022 · WFM01/01
-`bold A equals open parentheses table row cell negative fraction numerator square root of 3 over denominator 2 end fraction end cell cell negative 1 half end cell row cell 1 half end cell cell negative fraction numerator square root of 3 over denominator 2 end fraction end cell end table close parentheses`
+$A = ( \begin{gathered} - \frac{ \sqrt{3} }{2} & - 1 \frac{1}{2} \\ 1 \frac{1}{2} & - \frac{ \sqrt{3} }{2} \end{gathered} )$
 
 Determine the matrix $A^{2}$
 
@@ -165,7 +165,7 @@ Given that the area of parallelogram $P'$ is 20 square units, determine the area
 ## Q8 — medium — 8 marks · exam-questions
 
 ### 5((a)) — 2 marks — structured — from paper Jan 2022 · Paper 1
-`bold P equals open parentheses table row cell 1 half end cell cell negative fraction numerator square root of 3 over denominator 2 end fraction end cell row cell fraction numerator square root of 3 over denominator 2 end fraction end cell cell 1 half end cell end table close parentheses`
+$P = ( \begin{gathered} 1 \frac{1}{2} & - \frac{ \sqrt{3} }{2} \\ \frac{ \sqrt{3} }{2} & 1 \frac{1}{2} \end{gathered} )$
 
 The matrix  $P$ represents the transformation $U$
 
@@ -210,7 +210,7 @@ The transformation $T$ is a rotation of  $210^{\circ}$ anticlockwise about the o
 [2]
 
 ### 7() — 5 marks — structured — from paper Nov 2021 · Paper 1
-`bold italic M equals open parentheses table row k cell k plus 3 end cell row cell negative 5 end cell cell 1 minus k end cell end table close parentheses    text where  end text k text  is a constant end text`
+$M = ( \begin{gathered} k k + 3 \\ - 5 & 1 - k \end{gathered} ) \text{where } k \text{ \text{is} a constant}$
 
 (a) Find det $M$, giving your answer in simplest form in terms of $k$.
 
@@ -231,7 +231,7 @@ The triangle  $T$ has vertices $A(2,1)$, $B(2,3)$ and $C(0,1)$.
 
 The triangle $T'$ is the image of $T$ under the transformation represented by the matrix
 
-`bold P equals open parentheses table row 0 1 row cell negative 1 end cell 0 end table close parentheses`
+$P = ( \begin{gathered} 0 1 \\ - 1 & 0 \end{gathered} )$
 
 Find the coordinates of the vertices of $T'$.
 
@@ -254,7 +254,7 @@ Give a full geometrical description of the single transformation represented by 
 ### 7((a)) — 2 marks — structured — from paper Jan 2021 · Paper 1
 The matrix **A** is defined by
 
-`bold A equals open parentheses table row 4 cell negative 5 end cell row cell negative 3 end cell 2 end table close parentheses`
+$A = ( \begin{gathered} 4 - 5 \\ - 3 & 2 \end{gathered} )$
 
 The transformation represented by **A** maps triangle  $T$onto triangle $T'$.
 
@@ -270,7 +270,7 @@ Determine the value of $p$.
 ### 7((c)) — 2 marks — structured — from paper Jan 2021 · Paper 1
 Given that
 
-`bold B equals open parentheses table row 0 1 row cell negative 1 end cell 0 end table close parentheses`
+$B = ( \begin{gathered} 0 1 \\ - 1 & 0 \end{gathered} )$
 
 describe fully the single geometrical transformation represented by matrix **B**.
 
@@ -282,7 +282,7 @@ Determine **C**.
 ## Q12 — medium — 10 marks · exam-questions
 
 ### 6() — 5 marks — structured — from paper October 2020 · WFM01/01
-`bold A equals open parentheses table row 1 0 row 0 3 end table close parentheses`
+$A = ( \begin{gathered} 1 0 \\ 0 3 \end{gathered} )$
 
 (a) Describe fully the single transformation represented by the matrix $A$.
 
@@ -303,6 +303,6 @@ The transformation represented by matrix $A$ followed by the transformation repr
 ### 6() — 5 marks — structured — from paper October 2020 · Paper 1
 The trapezium $T$ has vertices at the points $(-2,0)$, $(-2,k)$, $(5,8)$ and $(5,0)$, where $k$ is a positive constant. Trapezium $T$ is transformed onto the trapezium $T'$ by the matrix
 
-`open parentheses table row 5 1 row cell negative 2 end cell 3 end table close parentheses`
+$( \begin{gathered} 5 1 \\ - 2 & 3 \end{gathered} )$
 
 Given that the area of trapezium $T'$ is 510 square units, calculate the exact value of  $k$.

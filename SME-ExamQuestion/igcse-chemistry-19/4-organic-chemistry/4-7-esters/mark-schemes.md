@@ -130,7 +130,7 @@ The amount, in moles, of ethanoic acid neutralised is:
 
 **[Total: 3 marks]**
 
-- *The number of moles is calculated by the equation: *`moles space equals space concentration space cross times space volume space open parentheses in space dm cubed close parentheses space OR space concentration space cross times space fraction numerator volume space open parentheses in space cm cubed close parentheses over denominator 1000 end fraction`
+- *The number of moles is calculated by the equation: *$\text{moles} = \text{concentration} \times \text{volume} ( \text{in} dm^{3} ) \text{OR} \text{concentration} \times \frac{volume ( \text{in} cm^{3} )}{1000}$
 - *Once the number of moles of barium hydroxide has been found, the number of moles of ethanoic needed to neutralise this is determined by the reacting ratio from the balanced symbol equation:*
 
   - *1 mole of barium hydroxide reacts with 2 moles of ethanoic acid*

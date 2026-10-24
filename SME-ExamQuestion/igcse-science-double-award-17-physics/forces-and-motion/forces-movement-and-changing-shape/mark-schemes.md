@@ -280,7 +280,7 @@ Any **one** from:
 
 Any **one** from:
 
-- `a c c e l e r a t i o n equals fraction numerator c h a n g e space i n space v e l o c i t y over denominator t i m e space open parentheses t a k e n close parentheses end fraction`**[1 mark]**
+- $a c c e l e r a t i o n = \frac{c h a n g e i n v e l o c i t y}{t i m e ( t a k e n )}$**[1 mark]**
 - $a=\frac{Δv}{t}$**[1 mark]**
 - $a=\frac{v-u}{t}$**[1 mark]**
 
@@ -326,7 +326,7 @@ Calculate total distance:
 
 (ii) The equation linking average speed, distance move and time taken is:
 
-- `open parentheses a v e r a g e close parentheses space s p e e d equals fraction numerator d i s t a n c e italic thin space stretchy left parenthesis m o v e d stretchy right parenthesis over denominator t i m e space open parentheses t a k e n close parentheses end fraction` **[1 mark]** **OR**
+- $( a v e r a g e ) s p e e d = \frac{d i s t a n c e ( m o v e d )}{t i m e ( t a k e n )}$ **[1 mark]** **OR**
 - $v=\frac{s}{t}$ **[1 mark]**
 
 (iii) The average speed of the sledge for the whole journey is:

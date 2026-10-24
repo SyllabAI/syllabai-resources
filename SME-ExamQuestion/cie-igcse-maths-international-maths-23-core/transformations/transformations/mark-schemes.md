@@ -59,9 +59,9 @@
 
 (iii) *Triangle A has been moved to get Triangle D. This is called a **translation**.*
 
-*The triangle has been moved 1 to left and 7 up, so the vector is* `open parentheses table row cell negative 1 end cell row 7 end table close parentheses`*. *
+*The triangle has been moved 1 to left and 7 up, so the vector is* $( \begin{gathered} - 1 \\ 7 \end{gathered} )$*. *
 
-**Translation,**** **`stretchy left parenthesis table row cell negative 1 end cell row 7 end table stretchy right parenthesis` **[2]**
+**Translation,**** **$( \begin{gathered} - 1 \\ 7 \end{gathered} )$ **[2]**
 
 **one mark for each**
 > *A scale factor of 0.5 means all the lengths of the triangle will halve.*
@@ -148,9 +148,9 @@ iib) *The line *$y=6$* is a horizontal line that intersects the *$y-$*axis at *$
 
 $(5,10)$* ***[2]**
 
-**1 mark for an **$x-$**value of 5 or the point **`open parentheses 7 comma space 2 close parentheses`
+**1 mark for an **$x-$**value of 5 or the point **$( 7 , 2 )$
 
-iii) *Determine the horizontal and vertical movements by calculating the difference between each respective value of *$P$* and *`open parentheses 49 comma negative 12 close parentheses`
+iii) *Determine the horizontal and vertical movements by calculating the difference between each respective value of *$P$* and *$( 49 , - 12 )$
 
 *Horizontal: *$49-5=44$
 
@@ -158,7 +158,7 @@ iii) *Determine the horizontal and vertical movements by calculating the differe
 
 > *Write as a column vector*
 
-`stretchy left parenthesis table row 44 row cell negative 14 end cell end table stretchy right parenthesis`** [2]**
+$( \begin{gathered} 44 \\ - 14 \end{gathered} )$** [2]**
 
 **1 mark for either 44 or -14**
 i) *The shape has changed size*
@@ -190,7 +190,7 @@ ii) *The shape has changed direction*
 $180^{\circ}$ **[1]**
 
 ### Q5
-(ia) `open parentheses table row 3 row cell negative 7 end cell end table close parentheses`* is a translation 3 units to the right and 7 units down. Move each vertex of the triangle and join the points.*
+(ia) $( \begin{gathered} 3 \\ - 7 \end{gathered} )$* is a translation 3 units to the right and 7 units down. Move each vertex of the triangle and join the points.*
 
 > * *
 
@@ -233,7 +233,7 @@ $180^{\circ}$ **[1]**
 **one mark for each**
 
 ### Q6
-ia) *Locate the centre of enlargement at *`open parentheses 3 comma negative 5 close parentheses`
+ia) *Locate the centre of enlargement at *$( 3 , - 5 )$
 
 ![igcse-cie-mar-20-paper-3-q6aia-1](assets/021-igcse-cie-mar-20-paper-3-q6aia-1.png)
 
@@ -298,7 +298,7 @@ i) *The shape has moved position without changing direction*
 
 > *Write this as a vector*
 
-`begin bold style stretchy left parenthesis table row cell negative 9 end cell row cell negative 8 end cell end table stretchy right parenthesis end style` **[1]**
+$\text{begin} \text{style} ( \begin{gathered} - 9 \\ - 8 \end{gathered} )$ **[1]**
 
 ii) *The shape has changed direction*
 
@@ -374,7 +374,7 @@ $(0,0)$ **[1]**
 $6\div2$
 
 **Scale Factor**** **$=3$** [1]**
-> *The vector *`open parentheses table row 3 row 1 end table close parentheses`* is a movement 3 right and 1 up*
+> *The vector *$( \begin{gathered} 3 \\ 1 \end{gathered} )$* is a movement 3 right and 1 up*
 
 ![igcse-cie-may-2019-q7c](assets/037-igcse-cie-may-2019-q7c.png)
 
@@ -399,7 +399,7 @@ $6\div2$
 
 > *The points of the reflected image are:*
 
-`open parentheses negative 2 comma space 5 close parentheses comma space open parentheses negative 6 comma space 5 close parentheses comma space open parentheses negative 2 comma space 7 close parentheses comma space open parentheses negative 4 comma space 5 close parentheses comma space open parentheses negative 4 comma space 7 close parentheses`
+$( - 2 , 5 ) , ( - 6 , 5 ) , ( - 2 , 7 ) , ( - 4 , 5 ) , ( - 4 , 7 )$
 
 **[1]**
 
@@ -408,9 +408,9 @@ $6\div2$
 
 > *The shape has moved** 4 to the right **and **9 up**, write this as a vector.  *
 
-`open parentheses table row 4 row 9 end table close parentheses`
+$( \begin{gathered} 4 \\ 9 \end{gathered} )$
 
-** ****Translation, **`stretchy left parenthesis table row 4 row 9 end table stretchy right parenthesis`** ****[2]**
+** ****Translation, **$( \begin{gathered} 4 \\ 9 \end{gathered} )$** ****[2]**
 
 **one mark for each**
 
@@ -452,7 +452,7 @@ $6\div2$
 ### Q10
 (i) *The transformation that maps triangle **A **onto triangle **B **is a **rotation**, since the shape has been turned.   *
 
-> *The **centre of rotation **(the point it has been turned around) is the point where the two triangles meet, *`open parentheses 2 comma space minus 2 close parentheses`*.  *
+> *The **centre of rotation **(the point it has been turned around) is the point where the two triangles meet, *$( 2 , - 2 )$*.  *
 
 > *It has been rotated *$90^{\circ}$* **anticlockwise** (to the right). *
 
@@ -462,9 +462,9 @@ $6\div2$
 
 (ii) *The transformation that maps triangle **A** onto triangle **C **is a **translation **(since it has just been moved).  *
 
-> *It has been translated four squares to the left and three squares up. This is written as *`begin bold style stretchy left parenthesis table row cell negative 4 end cell row 3 end table stretchy right parenthesis end style`* as a vector.*
+> *It has been translated four squares to the left and three squares up. This is written as *$\text{begin} \text{style} ( \begin{gathered} - 4 \\ 3 \end{gathered} )$* as a vector.*
 
-**Translation, **`begin bold style stretchy left parenthesis table row cell negative 4 end cell row 3 end table stretchy right parenthesis end style`** ****[2]**
+**Translation, **$\text{begin} \text{style} ( \begin{gathered} - 4 \\ 3 \end{gathered} )$** ****[2]**
 
 **Final answer:** **one mark for each**
 
@@ -478,7 +478,7 @@ $6\div2$
 
 > * *
 
-> *The centre of enlargement is *`open parentheses negative 2 comma space minus 5 close parentheses`*. *
+> *The centre of enlargement is *$( - 2 , - 5 )$*. *
 
 ** ****Enlargement,   scale factor 2,   centre **$(-2,-5)$*  ***[3]**
 
@@ -591,7 +591,7 @@ iii) *The shape has changed size*
 **Centre of enlargement:**** **$(6,11)$** [1] **
 
 **Scale factor:**$2$** [1]**
-> *A translation by the vector *`open parentheses table row cell negative 3 end cell row 2 end table close parentheses`* is a movement 3 left and 2 up*
+> *A translation by the vector *$( \begin{gathered} - 3 \\ 2 \end{gathered} )$* is a movement 3 left and 2 up*
 
 ![igce-cie-spec-2020-paper-3-q9b](assets/057-igce-cie-spec-2020-paper-3-q9b.png)
 
@@ -618,7 +618,7 @@ ii)*The shape has moved but remained in the same orientation*
 
 **Translation** **[1]**
 
-`stretchy left parenthesis table row cell negative 4 end cell row 2 end table stretchy right parenthesis` **[1]**
+$( \begin{gathered} - 4 \\ 2 \end{gathered} )$ **[1]**
 
 ** **
 
@@ -676,7 +676,7 @@ $4\div2=2$
 
 > *The horizontal component is on the top (with 'to the left' being negative), and the vertical component is on the bottom (with 'down' being negative).  *
 
-**Translation, **`stretchy left parenthesis table row cell negative 6 end cell row cell negative 3 end cell end table stretchy right parenthesis`** ****[2]**
+**Translation, **$( \begin{gathered} - 6 \\ - 3 \end{gathered} )$** ****[2]**
 
 **one mark for each**
 

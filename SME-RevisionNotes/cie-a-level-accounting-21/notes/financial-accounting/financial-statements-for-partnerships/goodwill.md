@@ -110,23 +110,23 @@ guided_study: false
 > 
 > Calculate the average profit of the last three years
 > 
-> `fraction numerator $ 42 space 000 plus $ 38 space 000 plus $ 31 space 000 over denominator 3 end fraction equals $ 37 space 000`
+> $\frac{\$ 42 000 + \$ 38 000 + \$ 31 000}{3} = \$ 37 000$
 > 
 > Find the value of the goodwill
 > 
-> `2 cross times $ 37 space 000 equals $ 74 space 000`
+> $2 \times \$ 37 000 = \$ 74 000$
 > 
 > Calculate the share of the goodwill using the old ratio
 > 
-> *Tom: *`$ 74 space 000 divided by 2 equals $ 37 space 000`
+> *Tom: *$\$ 74 000 \div 2 = \$ 37 000$
 > 
-> *Jerry: *`$ 74 space 000 divided by 2 equals $ 37 space 000`
+> *Jerry: *$\$ 74 000 \div 2 = \$ 37 000$
 > 
 > Calculate the share of the goodwill using the new ratio
 > 
-> *Tom: *`$ 74 space 000 cross times 40 percent sign equals $ 29 space 600`
+> *Tom: *$\$ 74 000 \times 40 \% = \$ 29 600$
 > 
-> *Jerry: *`$ 74 space 000 cross times 60 percent sign equals $ 44 space 400`
+> *Jerry: *$\$ 74 000 \times 60 \% = \$ 44 400$
 > 
 > Calculate the new capital balances
 > 

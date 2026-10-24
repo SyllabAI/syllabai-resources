@@ -12,7 +12,7 @@
 
 The continuous random variable $X$ has probability density function
 
-`f left parenthesis x right parenthesis equals open curly brackets table row cell k over x cubed space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space 2 less or equal than x less or equal than a end cell row cell 0 space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space o t h e r w i s e end cell end table close`
+$f ( x ) = \{ \begin{gathered} \frac{k}{x^{3}} 2 \text{less} \text{or} \text{equal} \text{than} x \text{less} \text{or} \text{equal} \text{than} a \\ 0 o t h e r w i s e \end{gathered} )$
 
 Show that $k=\frac{8a²}{a^{2}-4}$.
 
@@ -30,7 +30,7 @@ Find the exact value of $Var(X)$.
 
 A meeting at a company lasts $T$ hours. The random variable $T$ can be modelled by the probability density function
 
-`f left parenthesis t right parenthesis equals open curly brackets table row cell 3 over 4 t open parentheses t minus 2 close parentheses squared space space space space space space space space space space space space space space space space space 0 less or equal than t less or equal than 2 end cell row cell 0 space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space o t h e r w i s e end cell end table close`
+$f ( t ) = \{ \begin{gathered} \frac{3}{4} t ( t - 2 )^{2} 0 \text{less} \text{or} \text{equal} \text{than} t \text{less} \text{or} \text{equal} \text{than} 2 \\ 0 o t h e r w i s e \end{gathered} )$
 
 Find the mean time of a meeting and find the standard deviation of times.
 
@@ -46,7 +46,7 @@ By using differentiation, find the mode of the times.
 
 **Q3** [1 mark]
 
-The diagram below shows the probability density function, `g open parentheses y close parentheses`, of a random variable $Y$.
+The diagram below shows the probability density function, $g ( y )$, of a random variable $Y$.
 
 ![vhq3](assets/007-vhq3.png)
 
@@ -70,7 +70,7 @@ Find $E(Y)$.
 
 Paul is travelling around France to try to find the perfect baguette. The random variable $C$ represents the cost, in euros, of a baguette. It can be modelled by the probability density function
 
-`f left parenthesis c right parenthesis equals open curly brackets table row cell 1 over 36 open parentheses 14 c minus c squared minus 40 close parentheses space space space space space space space space space space space space space space space space 4 less or equal than c less or equal than 10 end cell row cell 0 space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space o t h e r w i s e end cell end table close`
+$f ( c ) = \{ \begin{gathered} \frac{1}{36} ( 14 c - c^{2} - 40 ) 4 \text{less} \text{or} \text{equal} \text{than} c \text{less} \text{or} \text{equal} \text{than} 10 \\ 0 o t h e r w i s e \end{gathered} )$
 
 Sketch the graph of $y=f(c)$.
 
@@ -88,7 +88,7 @@ Given that $P(C<9)=\frac{25}{27}$, find the value of $P(5<C<9)$.
 
 The random variable, $U$, follows a continuous uniform distribution on the interval `left square bracket a comma b right square bracket`. The probability density function $g$ is defined by:
 
-`g left parenthesis u right parenthesis equals open curly brackets table row cell k space space space space space space space space space space space space space space space space space space space space space a less or equal than u less or equal than b end cell row cell 0 space space space space space space space space space space space space space space space space space space space space space o t h e r w i s e end cell end table close`
+$g ( u ) = \{ \begin{gathered} k a \text{less} \text{or} \text{equal} \text{than} u \text{less} \text{or} \text{equal} \text{than} b \\ 0 o t h e r w i s e \end{gathered} )$
 
 (i) Write down an expression for $k$ in terms of $a\mathrm{and}b$.
 
@@ -104,7 +104,7 @@ Given that $E(U)=8.5\mathrm{and}Var(U)=6.75$, find the values of $a\mathrm{and}b
 
 **Q6** [2 marks]
 
-The diagram below shows the probability density function, `f open parentheses x close parentheses`, of a random variable $X$.
+The diagram below shows the probability density function, $f ( x )$, of a random variable $X$.
 
 ![vhq--](assets/017-vhq.png)
 
@@ -122,7 +122,7 @@ Find the interquartile range of $X$.
 
 **Q7** [2 marks]
 
-A computer takes $T$ seconds to start up. The random variable, $T$, can be modelled by the probability distribution, `f open parentheses t close parentheses`, shown below.
+A computer takes $T$ seconds to start up. The random variable, $T$, can be modelled by the probability distribution, $f ( t )$, shown below.
 
 ![vhq](assets/021-vhq.png)
 
@@ -148,13 +148,13 @@ Given that $P(4\leqT\leq8)=\sqrt{\frac{3}{2π}}+\frac{1}{3}$, find the exact val
 
 Evaluate the following definite integral, giving your answer in terms of $k$.
 
-`integral subscript 3 superscript 9 k left parenthesis x squared plus 3 right parenthesis space d x`
+$\int_{3}^{9} k ( x^{2} + 3 ) d x$
 
 **Q8** [2 marks]
 
-Hence find the value of $k$ given that `f open parentheses x close parentheses` is a probability density function where
+Hence find the value of $k$ given that $f ( x )$ is a probability density function where
 
-`f left parenthesis x right parenthesis equals open curly brackets table row cell k open parentheses x squared plus 3 close parentheses space space space space space space space space space space space space space space space space space space 3 less or equal than x less or equal than 9 end cell row cell 0 space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space o t h e r w i s e end cell end table close`
+$f ( x ) = \{ \begin{gathered} k ( x^{2} + 3 ) 3 \text{less} \text{or} \text{equal} \text{than} x \text{less} \text{or} \text{equal} \text{than} 9 \\ 0 o t h e r w i s e \end{gathered} )$
 
 ### Q9 — easy — 6 marks
 
@@ -180,11 +180,11 @@ Find the value of the median of the continuous random variables which have proba
 
 **Q10** [1 mark]
 
-The continuous uniform (rectangular) distribution over the interval `open parentheses a comma b close parentheses` has probability density function
+The continuous uniform (rectangular) distribution over the interval $( a , b )$ has probability density function
 
-`f left parenthesis x right parenthesis equals open curly brackets table row cell fraction numerator 1 over denominator b minus a end fraction space space space space space space space space space space space space space space space space space space space space space space space space space space space space a less than x less than b end cell row cell 0 space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space o t h e r w i s e end cell end table close`
+$f ( x ) = \{ \begin{gathered} \frac{1}{b - a} a < x < b \\ 0 o t h e r w i s e \end{gathered} )$
 
-The random variable $X$ follows a rectangular distribution over the interval `open parentheses 2 comma 18 close parentheses`.
+The random variable $X$ follows a rectangular distribution over the interval $( 2 , 18 )$.
 
 The graph below shows the probability density function of $X$. Write down the values of $a,b\mathrm{and}c$.
 
@@ -196,7 +196,7 @@ Write down
 
 (i) the median of $X$
 
-(ii) the value of `E open parentheses X close parentheses`
+(ii) the value of $E ( X )$
 
 (iii)  $P(14<X<18)$
 
@@ -206,25 +206,25 @@ Write down
 
 The continuous random variable $X$ has probability density function
 
-`f open parentheses x close parentheses equals space open curly brackets table row cell 3 over 16 open parentheses x squared minus 1 close parentheses space space space space space space space space space space space space space space space space space space space 2 less or equal than x less or equal than 3 space end cell row cell 0 space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space o t h e r w i s e end cell end table close`
+$f ( x ) = \{ \begin{gathered} \frac{3}{16} ( x^{2} - 1 ) 2 \text{less} \text{or} \text{equal} \text{than} x \text{less} \text{or} \text{equal} \text{than} 3 \\ 0 o t h e r w i s e \end{gathered} )$
 
-Find `integral 3 over 16 space x left parenthesis x squared minus 1 right parenthesis space d x`
+Find $\int \frac{3}{16} x ( x^{2} - 1 ) d x$
 
 **Q11** [1 mark]
 
-Hence find the value of `E open parentheses X close parentheses` using the formula
+Hence find the value of $E ( X )$ using the formula
 
-`E left parenthesis X right parenthesis equals integral x space f left parenthesis x right parenthesis space space d x`
+$E ( X ) = \int x f ( x ) d x$
 
 **Q11** [2 marks]
 
-Find `integral 3 over 16 space x ² left parenthesis x squared minus 1 right parenthesis space d x`
+Find $\int \frac{3}{16} x ² ( x^{2} - 1 ) d x$
 
 **Q11** [1 mark]
 
-Hence find the value of `E open parentheses X squared close parentheses` using the formula
+Hence find the value of $E ( X^{2} )$ using the formula
 
-`E left parenthesis X squared right parenthesis equals integral x squared space f left parenthesis x right parenthesis space space d x`
+$E ( X^{2} ) = \int x^{2} f ( x ) d x$
 
 **Q11** [1 mark]
 
@@ -234,17 +234,17 @@ Hence find the value of $Var(X)$ using the formula $Var(X)=E(X^{2})-(E(X))^{2}$.
 
 **Q12** [6 marks]
 
-If `f open parentheses x close parentheses` is the probability density function for a random variable, $X$ which takes values in the interval `open parentheses a comma b close parentheses` then:
+If $f ( x )$ is the probability density function for a random variable, $X$ which takes values in the interval $( a , b )$ then:
 
-`integral subscript a superscript b f left parenthesis x right parenthesis space d x equals 1`
+$\int_{a}^{b} f ( x ) d x = 1$
 
 Use integration to decide whether the following functions could represent probability distribution functions.
 
-(i) `f left parenthesis x right parenthesis equals open curly brackets table row cell 2 x space space space space space space space space space space space space space space space space space space space space space space space 0 less or equal than x less or equal than 1 end cell row cell 0 space space space space space space space space space space space space space space space space space space space space space space space space space space o t h e r w i s e end cell end table close`
+(i) $f ( x ) = \{ \begin{gathered} 2 x 0 \text{less} \text{or} \text{equal} \text{than} x \text{less} \text{or} \text{equal} \text{than} 1 \\ 0 o t h e r w i s e \end{gathered} )$
 
-(ii) `f left parenthesis x right parenthesis equals open curly brackets table row cell 1 third x squared space space space space space space space space space space space space space space space space space space space space 1 less or equal than x less or equal than 4 end cell row cell 0 space space space space space space space space space space space space space space space space space space space space space space space space space space o t h e r w i s e end cell end table close`
+(ii) $f ( x ) = \{ \begin{gathered} 1 \frac{1}{3} x^{2} 1 \text{less} \text{or} \text{equal} \text{than} x \text{less} \text{or} \text{equal} \text{than} 4 \\ 0 o t h e r w i s e \end{gathered} )$
 
-(iii) `f left parenthesis x right parenthesis equals open curly brackets table row cell 4 over 27 open parentheses x cubed plus 1 close parentheses space space space space space space space space minus 1 less or equal than x less or equal than 2 end cell row cell 0 space space space space space space space space space space space space space space space space space space space space space space space space space space o t h e r w i s e end cell end table close`
+(iii) $f ( x ) = \{ \begin{gathered} \frac{4}{27} ( x^{3} + 1 ) - 1 \text{less} \text{or} \text{equal} \text{than} x \text{less} \text{or} \text{equal} \text{than} 2 \\ 0 o t h e r w i s e \end{gathered} )$
 
 ### Q13 — easy — 7 marks
 
@@ -252,17 +252,17 @@ Use integration to decide whether the following functions could represent probab
 
 The continuous random variable, $X$, has probability density function
 
-`f left parenthesis x right parenthesis equals open curly brackets table row cell 1 over 24 open parentheses x cubed plus 2 close parentheses space space space space space space space space space space space space space space space space 1 less or equal than x less or equal than 3 end cell row cell 0 space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space o t h e r w i s e end cell end table close`
+$f ( x ) = \{ \begin{gathered} \frac{1}{24} ( x^{3} + 2 ) 1 \text{less} \text{or} \text{equal} \text{than} x \text{less} \text{or} \text{equal} \text{than} 3 \\ 0 o t h e r w i s e \end{gathered} )$
 
 The value of $P(a<X<b)$ is equal to
 
-`integral subscript a superscript b space f left parenthesis x right parenthesis space d x`
+$\int_{a}^{b} f ( x ) d x$
 
 Find $P(1<X<2)$.
 
 **Q13** [3 marks]
 
-(i) Explain why `P left parenthesis X greater than 2.5 right parenthesis equals integral subscript 2.5 end subscript superscript 3 1 over 24 left parenthesis x cubed plus 2 right parenthesis d x`
+(i) Explain why $P ( X > 2.5 ) = \int_{2.5}^{3} \frac{1}{24} ( x^{3} + 2 ) d x$
 
 (ii) Hence find $P(X>2.5)$
 
@@ -278,7 +278,7 @@ State, with a reason, the value of
 
 **Q14** [4 marks]
 
-If `f open parentheses x close parentheses` is the probability density function for a random variable, $X$ then the area under the graph of the probability density function must equal 1.
+If $f ( x )$ is the probability density function for a random variable, $X$ then the area under the graph of the probability density function must equal 1.
 
 State, with a reason, whether each of the following could be graphs of probability density functions.
 
@@ -336,7 +336,7 @@ By finding relevant areas under the graph, find:
 
 The continuous random variable, $X$, has probability density function
 
-`f left parenthesis x right parenthesis equals open curly brackets table row cell 1 fourth space x left parenthesis x minus 1 right parenthesis left parenthesis x plus 1 right parenthesis space space space space space space space space space space space space space space space space 1 less or equal than x less or equal than k end cell row cell 0 space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space o t h e r w i s e end cell end table close`
+$f ( x ) = \{ \begin{gathered} 1 \frac{1}{4} x ( x - 1 ) ( x + 1 ) 1 \text{less} \text{or} \text{equal} \text{than} x \text{less} \text{or} \text{equal} \text{than} k \\ 0 o t h e r w i s e \end{gathered} )$
 
 Find the exact value for $k$.
 
@@ -348,7 +348,7 @@ Find $P(X<E(X))$.
 
 **Q18** [1 mark]
 
-The diagram below shows the probability density function, `f open parentheses x close parentheses`, of a random variable $X$.
+The diagram below shows the probability density function, $f ( x )$, of a random variable $X$.
 
 ![hq6](assets/059-hq6.png)
 
@@ -368,17 +368,17 @@ Find the median of $X$.
 
 Find the mode of the continuous random variable, $X$, which has probability density function defined by:
 
-(i) `f left parenthesis x right parenthesis equals open curly brackets table row cell 3 over 140 left parenthesis 5 minus 6 x minus x squared right parenthesis space space space space space space space space space space space space space space space space space space space space space space space minus 4 less or equal than x less or equal than 0 end cell row cell 0 space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space o t h e r w i s e end cell end table close`
+(i) $f ( x ) = \{ \begin{gathered} \frac{3}{140} ( 5 - 6 x - x^{2} ) - 4 \text{less} \text{or} \text{equal} \text{than} x \text{less} \text{or} \text{equal} \text{than} 0 \\ 0 o t h e r w i s e \end{gathered} )$
 
-(ii) `f left parenthesis x right parenthesis equals open curly brackets table row cell 3 over 34 left parenthesis 10 minus left parenthesis x minus 2 right parenthesis squared right parenthesis space space space space space space space space space space space space space space space space space space space space space space space 3 less or equal than x less or equal than 5 end cell row cell 0 space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space o t h e r w i s e end cell end table close`
+(ii) $f ( x ) = \{ \begin{gathered} \frac{3}{34} ( 10 - ( x - 2 )^{2} ) 3 \text{less} \text{or} \text{equal} \text{than} x \text{less} \text{or} \text{equal} \text{than} 5 \\ 0 o t h e r w i s e \end{gathered} )$
 
-(iii) `f left parenthesis x right parenthesis equals open curly brackets table row cell 1 half left parenthesis sin left parenthesis x right parenthesis plus cos left parenthesis x right parenthesis right parenthesis space space space space space space space space space space space space space space space space space space space space space space 0 less or equal than x less or equal than pi over 2 end cell row cell 0 space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space o t h e r w i s e end cell end table close`
+(iii) $f ( x ) = \{ \begin{gathered} 1 \frac{1}{2} ( \sin ( x ) + \cos ( x ) ) 0 \text{less} \text{or} \text{equal} \text{than} x \text{less} \text{or} \text{equal} \text{than} \frac{\pi }{2} \\ 0 o t h e r w i s e \end{gathered} )$
 
 ### Q20 — hard — 9 marks
 
 **Q20** [2 marks]
 
-The diagram below shows the probability density function, `f open parentheses t close parentheses`, of a random variable $T$.
+The diagram below shows the probability density function, $f ( t )$, of a random variable $T$.
 
 ![hq7](assets/064-hq7.png)
 
@@ -402,7 +402,7 @@ Given that $P(4\leqT\leq6)=\frac{11}{16}$, find $P(T\geq6)$.
 
 **Q21** [2 marks]
 
-Geoff is taking part in a quiz where he has 4 seconds to answer each question. The time, in seconds, it takes Geoff to answer a question is denoted $T$ which can be modelled by the probability density function, `f open parentheses t close parentheses` shown below.
+Geoff is taking part in a quiz where he has 4 seconds to answer each question. The time, in seconds, it takes Geoff to answer a question is denoted $T$ which can be modelled by the probability density function, $f ( t )$ shown below.
 
 ![hq8](assets/069-hq8.png)
 
@@ -420,7 +420,7 @@ There are 10 questions in the quiz. Find the probability that for at least one o
 
 **Q22** [1 mark]
 
-The diagram below shows the probability density function, `f open parentheses x close parentheses`, of a random variable $X$. $f(x)=k$ when $0\leqx\leqa$, otherwise $f(x)=0$.
+The diagram below shows the probability density function, $f ( x )$, of a random variable $X$. $f(x)=k$ when $0\leqx\leqa$, otherwise $f(x)=0$.
 
 ![hq4](assets/073-hq4.png)
 
@@ -428,11 +428,11 @@ Write down an expression for $k$ in terms of $a$.
 
 **Q22** [1 mark]
 
-Write down an expression for `E open parentheses X close parentheses` in terms of $a$.
+Write down an expression for $E ( X )$ in terms of $a$.
 
 **Q22** [3 marks]
 
-Find a simplified expression for `V a r open parentheses X close parentheses` in terms of $a$.
+Find a simplified expression for $V a r ( X )$ in terms of $a$.
 
 **Q22** [2 marks]
 
@@ -444,11 +444,11 @@ Given that $P(X>5)=0.6$ find the value of $a$.
 
 State, with a reason, whether the following functions could represent probability distribution functions.
 
-(i) `f left parenthesis x right parenthesis equals open curly brackets table row cell 1 third left parenthesis x squared minus 2 right parenthesis space space space space space space space space space space 1 less or equal than x less or equal than 2 end cell row cell 0 space space space space space space space space space space space space space space space space space space space space space space space space space space o t h e r w i s e end cell end table close`
+(i) $f ( x ) = \{ \begin{gathered} 1 \frac{1}{3} ( x^{2} - 2 ) 1 \text{less} \text{or} \text{equal} \text{than} x \text{less} \text{or} \text{equal} \text{than} 2 \\ 0 o t h e r w i s e \end{gathered} )$
 
-(ii) `f left parenthesis x right parenthesis equals open curly brackets table row cell fraction numerator 4 over denominator x to the power of 5 space end fraction space space space space space space space space space space space space space space space space space space space space space space x greater or equal than 1 end cell row cell 0 space space space space space space space space space space space space space space space space space space space space space space space space space space o t h e r w i s e end cell end table close`
+(ii) $f ( x ) = \{ \begin{gathered} \frac{4}{x^{5} } x \text{greater} \text{or} \text{equal} \text{than} 1 \\ 0 o t h e r w i s e \end{gathered} )$
 
-(iii) `f left parenthesis x right parenthesis equals open curly brackets table row cell 2 over x squared space space space space space space space space space space space space space space space space space space space space space minus 1 less or equal than x less or equal than 2 end cell row cell 0 space space space space space space space space space space space space space space space space space space space space space space space space space space o t h e r w i s e end cell end table close`
+(iii) $f ( x ) = \{ \begin{gathered} \frac{2}{x^{2}} - 1 \text{less} \text{or} \text{equal} \text{than} x \text{less} \text{or} \text{equal} \text{than} 2 \\ 0 o t h e r w i s e \end{gathered} )$
 
 ### Q24 — hard — 5 marks
 
@@ -456,7 +456,7 @@ State, with a reason, whether the following functions could represent probabilit
 
 Harry is trying to draw specific lengths without measuring equipment. He draws a straight line and stops when he thinks it is 10 cm long. The actual length of Harry’s line, $L$ cm, can be modelled by the probability density function
 
-`f left parenthesis l right parenthesis equals open curly brackets table row cell 20 over 421 open parentheses l minus 10.5 close parentheses to the power of 4 space space space space space space space space space space space space space space space space 8 less or equal than l less or equal than 12 end cell row cell 0 space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space o t h e r w i s e end cell end table close`
+$f ( l ) = \{ \begin{gathered} \frac{20}{421} ( l - 10.5 )^{4} 8 \text{less} \text{or} \text{equal} \text{than} l \text{less} \text{or} \text{equal} \text{than} 12 \\ 0 o t h e r w i s e \end{gathered} )$
 
 Estimate the lower quartile of the lengths of Harry’s lines.
 
@@ -472,7 +472,7 @@ Write down how many of Harry’s line you would expect to be less than the lower
 
 May calls her nephew Peter each day to check on him. May enjoys talking so much so that Peter has programmed his phone to disconnect from a call after 15 minutes. The length of a call, in minutes, between May and Peter is denoted by the continuous random variable $T$. It is modelled by the probability density function
 
-`f left parenthesis t right parenthesis equals open curly brackets table row cell 1 over 1125 t squared space space space space space space space space space space space space space space space space space space space space space space space space space space space space space 0 less than t less than 15 end cell row cell 0 space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space o t h e r w i s e end cell end table close`
+$f ( t ) = \{ \begin{gathered} \frac{1}{1125} t^{2} 0 < t < 15 \\ 0 o t h e r w i s e \end{gathered} )$
 
 Find the mean length of a call.
 
@@ -494,7 +494,7 @@ Out of the next 100 calls between May and Peter, estimate the number of them tha
 
 The mass, in kilograms, of a wrestler in a local club is denoted by the continuous random variable $M$. It is modelled by the probability density function
 
-`f left parenthesis m right parenthesis equals open curly brackets table row cell k minus 1 over 9000 left parenthesis m minus 80 right parenthesis ² space space space space space space space space space space space space space space space space space space space space space space 70 less than m less than 100 end cell row cell 0 space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space o t h e r w i s e end cell end table close`
+$f ( m ) = \{ \begin{gathered} k - \frac{1}{9000} ( m - 80 ) ² 70 < m < 100 \\ 0 o t h e r w i s e \end{gathered} )$
 
 Show that $k=\frac{4}{90}$.
 
@@ -534,7 +534,7 @@ State, with a reason, whether each of the following could be graphs of probabili
 
 The continuous random variable $X$ follows a continuous uniform distribution over the interval $(3,28)$ so that its probability density function is
 
-`f left parenthesis x right parenthesis equals open curly brackets table row cell 1 over 25 space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space 3 less or equal than x less or equal than 28 end cell row cell 0 space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space o t h e r w i s e end cell end table close`
+$f ( x ) = \{ \begin{gathered} \frac{1}{25} 3 \text{less} \text{or} \text{equal} \text{than} x \text{less} \text{or} \text{equal} \text{than} 28 \\ 0 o t h e r w i s e \end{gathered} )$
 
 Find
 
@@ -546,9 +546,9 @@ Find
 
 **Q28** [3 marks]
 
-(i) Write down `E open parentheses X close parentheses`.
+(i) Write down $E ( X )$.
 
-(ii) Find `V a r space open parentheses X close parentheses`.
+(ii) Find $V a r ( X )$.
 
 ### Q29 — medium — 6 marks
 
@@ -556,7 +556,7 @@ Find
 
 The continuous random variable, $X$, has probability density function
 
-`f left parenthesis x right parenthesis equals open curly brackets table attributes columnalign left end attributes row cell k open parentheses 3 x to the power of 4 minus 2 x close parentheses space space space space space space space space space space space space space space space space space space space space space space space 1 less or equal than x less or equal than 2 end cell row cell 0 space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space o t h e r w i s e end cell end table close`
+$f ( x ) = \{ \begin{array}{l} k ( 3 x^{4} - 2 x ) 1 \text{less} \text{or} \text{equal} \text{than} x \text{less} \text{or} \text{equal} \text{than} 2 \\ 0 o t h e r w i s e \end{array} )$
 
 Show that $k=\frac{5}{78}$.
 
@@ -572,11 +572,11 @@ Show that $k=\frac{5}{78}$.
 
 State, with a reason, whether the following functions could represent probability distribution functions.
 
-(i) `f left parenthesis x right parenthesis equals open curly brackets table row cell 3 left parenthesis x to the power of 5 minus 2 x cubed right parenthesis space space space space space space space space space space space space space space space space space space space space space space space 1 less or equal than x less or equal than 2 end cell row cell 0 space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space o t h e r w i s e end cell end table close`
+(i) $f ( x ) = \{ \begin{gathered} 3 ( x^{5} - 2 x^{3} ) 1 \text{less} \text{or} \text{equal} \text{than} x \text{less} \text{or} \text{equal} \text{than} 2 \\ 0 o t h e r w i s e \end{gathered} )$
 
-(ii) `f left parenthesis x right parenthesis equals open curly brackets table row cell 3 over 8 open parentheses x plus 1 close parentheses squared space space space space space space space space space space space space space space space space space space space space space space space minus 1 less or equal than x less or equal than 1 end cell row cell 0 space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space o t h e r w i s e end cell end table close`
+(ii) $f ( x ) = \{ \begin{gathered} \frac{3}{8} ( x + 1 )^{2} - 1 \text{less} \text{or} \text{equal} \text{than} x \text{less} \text{or} \text{equal} \text{than} 1 \\ 0 o t h e r w i s e \end{gathered} )$
 
-(iii) `f left parenthesis x right parenthesis equals open curly brackets table row cell 6 over x squared space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space minus 3 less or equal than x less or equal than negative 2 end cell row cell 0 space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space o t h e r w i s e end cell end table close`
+(iii) $f ( x ) = \{ \begin{gathered} \frac{6}{x^{2}} - 3 \text{less} \text{or} \text{equal} \text{than} x \text{less} \text{or} \text{equal} \text{than} - 2 \\ 0 o t h e r w i s e \end{gathered} )$
 
 ### Q31 — medium — 7 marks
 
@@ -584,17 +584,17 @@ State, with a reason, whether the following functions could represent probabilit
 
 The continuous random variable $X$ has probability density function
 
-`f left parenthesis x right parenthesis equals open curly brackets table row cell k open parentheses 2 plus square root of x close parentheses space space space space space space space space space space space space space space space space space space space space space space space space space 4 less or equal than x less or equal than 9 end cell row cell 0 space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space o t h e r w i s e end cell end table close`
+$f ( x ) = \{ \begin{gathered} k ( 2 + \sqrt{x} ) 4 \text{less} \text{or} \text{equal} \text{than} x \text{less} \text{or} \text{equal} \text{than} 9 \\ 0 o t h e r w i s e \end{gathered} )$
 
 Show that $k=\frac{3}{68}$.
 
 **Q31** [2 marks]
 
-Find `E open parentheses X close parentheses`.
+Find $E ( X )$.
 
 **Q31** [3 marks]
 
-Find `V a r open parentheses X close parentheses`.
+Find $V a r ( X )$.
 
 ### Q32 — medium — 5 marks
 
@@ -602,11 +602,11 @@ Find `V a r open parentheses X close parentheses`.
 
 The continuous random variable, $X$, has probability density function
 
-`f left parenthesis x right parenthesis equals open curly brackets table row cell 5 over 62 square root of x cubed end root space space space space space space space space space space space space space space space space space space space space space space space space space space space space 1 less or equal than x less or equal than 4 end cell row cell 0 space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space o t h e r w i s e end cell end table close`
+$f ( x ) = \{ \begin{gathered} \frac{5}{62} \sqrt{x^{3}} 1 \text{less} \text{or} \text{equal} \text{than} x \text{less} \text{or} \text{equal} \text{than} 4 \\ 0 o t h e r w i s e \end{gathered} )$
 
 Find an expression, in terms of $m$, for
 
-`integral subscript 1 superscript m 5 over 62 square root of x cubed space end root space d x`
+$\int_{1}^{m} \frac{5}{62} \sqrt{x^{3} } d x$
 
 **Q32** [3 marks]
 
@@ -618,8 +618,8 @@ Hence find the median of $X$.
 
 Find the mode of the continuous random variable, $X$, which has probability density function defined by:
 
-(i) `f left parenthesis x right parenthesis equals open curly brackets table row cell 2 over 21 x space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space 2 less or equal than x less or equal than 5 end cell row cell 0 space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space o t h e r w i s e end cell end table close`
+(i) $f ( x ) = \{ \begin{gathered} \frac{2}{21} x 2 \text{less} \text{or} \text{equal} \text{than} x \text{less} \text{or} \text{equal} \text{than} 5 \\ 0 o t h e r w i s e \end{gathered} )$
 
-(ii) `f left parenthesis x right parenthesis equals open curly brackets table row cell 1 over 9 left parenthesis 4 minus left parenthesis x plus 1 right parenthesis squared right parenthesis space space space space space space space space space space space space space space minus 2 less or equal than x less or equal than 1 end cell row cell 0 space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space o t h e r w i s e end cell end table close`
+(ii) $f ( x ) = \{ \begin{gathered} \frac{1}{9} ( 4 - ( x + 1 )^{2} ) - 2 \text{less} \text{or} \text{equal} \text{than} x \text{less} \text{or} \text{equal} \text{than} 1 \\ 0 o t h e r w i s e \end{gathered} )$
 
-(iii) `f left parenthesis x right parenthesis equals open curly brackets table row cell 1 half sin open parentheses x close parentheses space space space space space space space space space space space space space space space space space space space space space space space space space space space space 0 less or equal than x less or equal than pi end cell row cell 0 space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space o t h e r w i s e end cell end table close`
+(iii) $f ( x ) = \{ \begin{gathered} 1 \frac{1}{2} \sin ( x ) 0 \text{less} \text{or} \text{equal} \text{than} x \text{less} \text{or} \text{equal} \text{than} \pi \\ 0 o t h e r w i s e \end{gathered} )$

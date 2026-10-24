@@ -123,16 +123,13 @@ to or invest in a business"
 > 
 > **Step 1: Apply the formula to calculate the RoCE for each branch**
 > 
-> **      **`RoCE equals space fraction numerator Profit space before space interest space and space tax over denominator Capital space employed end fraction space space cross times space 100
+> **      **`RoCE = (Profit before interest and tax)/(Capital employed) x 100 > > RoCE Sevenoaks = (\pounds 0.37 m)/(\pounds 2.4 m) x 100 = 15.42 %`**         ****[1]**
 > 
-> RoCE space Sevenoaks space equals space fraction numerator £ 0.37 straight m over denominator £ 2.4 straight m end fraction space space cross times space 100 space equals space 15.42 percent sign space space`**         ****[1]**
+> $> \text{RoCE} \text{Whitstable} = \frac{\pounds 0.57 \mathrm{m} }{\pounds 3.1 \mathrm{m} } \times 100 = 18.39 \%
+>$**         ****[1]**
 > 
-> `
-> RoCE space Whitstable space equals space fraction numerator £ 0.57 straight m over denominator £ 3.1 straight m end fraction space space cross times space 100 space equals space 18.39 percent sign
-> `**         ****[1]**
-> 
-> `RoCE space Rochester space equals space fraction numerator £ 0.51 straight m over denominator £ 2.9 straight m end fraction space space cross times space 100 space equals space 17.59 percent sign
-> `**         ****[1]**
+> $\text{RoCE} \text{Rochester} = \frac{\pounds 0.51 \mathrm{m} }{\pounds 2.9 \mathrm{m} } \times 100 = 17.59 \%
+>$**         ****[1]**
 > 
 > **Step 2: Identify the least profitable branch for closure**
 > 

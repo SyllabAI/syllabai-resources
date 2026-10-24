@@ -14,38 +14,38 @@ Expand    $3(2y-5)$
 Expand  $4(3x+5)$
 
 ### 11((b)) — 2 marks — command: simplify — structured — from paper 2012	November · 1MA0/1H
-Expand and simplify      `2 open parentheses x minus 4 close parentheses space plus thin space 3 open parentheses x plus 5 close parentheses`
+Expand and simplify      $2 ( x - 4 ) + 3 ( x + 5 )$
 
 ## Q3 — easy — 3 marks · exam-questions
 
 ### 4((a)) — 1 mark — command: expand — structured — from paper 2013	June · 1MA0/1H
-Expand       `3 open parentheses 2 plus t close parentheses`
+Expand       $3 ( 2 + t )$
 
 ### 4((b)) — 2 marks — command: expand — structured — from paper 2013	June · 1MA0/1H
-Expand    `3 x open parentheses 2 x plus 5 close parentheses`
+Expand    $3 x ( 2 x + 5 )$
 
 ## Q4 — easy — 1 marks · exam-questions
 
 ### 4((c)) — 1 mark — command: expand — structured — from paper 2013	November · 1MA0/1H
-Expand      `4 open parentheses x plus 2 close parentheses`
+Expand      $4 ( x + 2 )$
 
 ## Q5 — easy — 1 marks · exam-questions
 
 ### 6((a)) — 1 mark — command: expand — structured — from paper 2014	June · 1MA0/1H
-Expand       `2 m open parentheses m plus 3 close parentheses`
+Expand       $2 m ( m + 3 )$
 
 ## Q6 — easy — 2 marks · exam-questions
 
 ### 3((c)) — 2 marks — command: simplify — structured — from paper 2014	November · 1MA0/2H
-Expand and simplify      `5 open parentheses y minus 2 close parentheses space plus space 2 open parentheses y minus 3 close parentheses`
+Expand and simplify      $5 ( y - 2 ) + 2 ( y - 3 )$
 
 ## Q7 — easy — 3 marks · exam-questions
 
 ### 10((a)) — 1 mark — command: expand — structured — from paper 2015	November · 1MA0/1H
-Expand      `x open parentheses x plus 2 close parentheses`
+Expand      $x ( x + 2 )$
 
 ### 10((b)) — 2 marks — command: simplify — structured — from paper 2015	November · 1MA0/1H
-Expand and simplify        `3 open parentheses y plus 2 close parentheses space plus thin space 4 open parentheses x minus 1 close parentheses`
+Expand and simplify        $3 ( y + 2 ) + 4 ( x - 1 )$
 
 ## Q8 — easy — 1 marks · exam-questions
 
@@ -55,7 +55,7 @@ Expand      $x(x-3)$
 ## Q9 — easy — 2 marks · exam-questions
 
 ### 3((a)) — 2 marks — command: simplify — structured — from paper 2015	Spec2 · 1MA1/2H
-Expand and simplify       `3 open parentheses y minus 2 close parentheses space plus space 5 open parentheses 2 y plus 1 close parentheses`
+Expand and simplify       $3 ( y - 2 ) + 5 ( 2 y + 1 )$
 
 ## Q10 — easy — 1 marks · exam-questions
 
@@ -65,7 +65,7 @@ Expand     $3y(4y-3)$
 ## Q11 — easy — 2 marks · exam-questions
 
 ### 11((a)) — 2 marks — command: simplify — structured — from paper 2013	March · 1MA0/2H
-Expand and simplify       `3 open parentheses x plus 4 close parentheses space plus space 2 open parentheses 5 x minus 1 close parentheses`
+Expand and simplify       $3 ( x + 4 ) + 2 ( 5 x - 1 )$
 
 ## Q12 — easy — 1 marks · exam-questions
 
@@ -99,22 +99,22 @@ Circle the term which is part of the answer.
 ## Q16 — easy — 2 marks · exam-questions
 
 ### 5() — 2 marks — command: simplify — structured — from paper Nov 2017 · 8300/3H
-Multiply out and simplify `open parentheses x minus 8 close parentheses squared`
+Multiply out and simplify $( x - 8 )^{2}$
 
 ## Q17 — medium — 2 marks · exam-questions
 
 ### 4((d)) — 2 marks — command: simplify — structured — from paper 2016	June · 1MA0/1H
-Expand and simplify       `3 open parentheses m plus 4 close parentheses minus space 2 left parenthesis 4 m space plus space 1 right parenthesis`
+Expand and simplify       $3 ( m + 4 ) - 2 ( 4 m + 1 )$
 
 ## Q18 — medium — 2 marks · exam-questions
 
 ### 2() — 2 marks — command: simplify — structured — from paper 2018	June · 1MA1/3H
-Expand and simplify         `5 open parentheses p plus 3 close parentheses space minus space 2 open parentheses 1 minus 2 p close parentheses`
+Expand and simplify         $5 ( p + 3 ) - 2 ( 1 - 2 p )$
 
 ## Q19 — medium — 2 marks · exam-questions
 
 ### 14((a)) — 2 marks — command: simplify — structured — from paper 2012	June · 1MA0/2H
-Expand and simplify     `open parentheses p plus 9 close parentheses open parentheses p minus 4 close parentheses`
+Expand and simplify     $( p + 9 ) ( p - 4 )$
 
 ## Q20 — medium — 2 marks · exam-questions
 
@@ -124,57 +124,57 @@ Expand and simplify        $(x+4)(x+6)$
 ## Q21 — medium — 2 marks · exam-questions
 
 ### 4((c)) — 2 marks — command: simplify — structured — from paper 2013	June · 1MA0/1H
-Expand and simplify  `open parentheses m plus 3 close parentheses open parentheses m plus 10 close parentheses`
+Expand and simplify  $( m + 3 ) ( m + 10 )$
 
 ## Q22 — medium — 2 marks · exam-questions
 
 ### 1() — 2 marks — command: simplify — structured
-Expand and simplify `open parentheses p minus 6 close parentheses open parentheses p plus 11 close parentheses`
+Expand and simplify $( p - 6 ) ( p + 11 )$
 
 ## Q23 — medium — 2 marks · exam-questions
 
 ### 4((d)) — 2 marks — command: simplify — structured — from paper 2013	November · 1MA0/1H
-Expand and simplify         `open parentheses x minus 5 close parentheses open parentheses x plus 3 close parentheses`
+Expand and simplify         $( x - 5 ) ( x + 3 )$
 
 ## Q24 — medium — 2 marks · exam-questions
 
 ### 21((a)) — 2 marks — command: simplify — structured — from paper 2014	June · 1MA0/2H
-Expand and simplify            `open parentheses y minus 2 close parentheses open parentheses y minus 5 close parentheses`
+Expand and simplify            $( y - 2 ) ( y - 5 )$
 
 ## Q25 — medium — 2 marks · exam-questions
 
 ### 19((a)) — 2 marks — command: simplify — structured — from paper 2016	November · 1MA0/2H
-Expand and simplify           `open parentheses y plus 2 close parentheses open parentheses y plus 5 close parentheses`
+Expand and simplify           $( y + 2 ) ( y + 5 )$
 
 ## Q26 — medium — 2 marks · exam-questions
 
 ### 2() — 2 marks — command: simplify — structured — from paper 2015	Sample · 1MA1/1H
-Expand and simplify        `open parentheses m plus 7 close parentheses open parentheses m plus 3 close parentheses`
+Expand and simplify        $( m + 7 ) ( m + 3 )$
 
 ## Q27 — medium — 2 marks · exam-questions
 
 ### 11((b)) — 2 marks — command: simplify — structured — from paper 2013	March · 1MA0/2H
-Expand and simplify                        `open parentheses 2 x plus 1 close parentheses open parentheses x minus 4 close parentheses`
+Expand and simplify                        $( 2 x + 1 ) ( x - 4 )$
 
 ## Q28 — medium — 2 marks · exam-questions
 
 ### 12((c)) — 2 marks — command: simplify — structured — from paper 2014	November · 1MA0/1H
-Expand and simplify      `open parentheses 2 x plus 3 close parentheses open parentheses x minus 8 close parentheses`
+Expand and simplify      $( 2 x + 3 ) ( x - 8 )$
 
 ## Q29 — medium — 2 marks · exam-questions
 
 ### 10((c)) — 2 marks — command: simplify — structured — from paper 2015	November · 1MA0/1H
-Expand and simplify                `open parentheses 2 t minus 3 close parentheses open parentheses t plus 5 close parentheses`
+Expand and simplify                $( 2 t - 3 ) ( t + 5 )$
 
 ## Q30 — medium — 2 marks · exam-questions
 
 ### 8((e)) — 2 marks — command: simplify — structured — from paper 2017	June · 1MA0/2H
-Expand and simplify               `open parentheses w minus 5 close parentheses squared`
+Expand and simplify               $( w - 5 )^{2}$
 
 ## Q31 — medium — 2 marks · exam-questions
 
 ### 1((a)) — 2 marks — command: simplify — structured — from paper Jan 2022 · 4MA1/2H
-Expand and simplify  `open parentheses y plus 4 close parentheses open parentheses 2 minus y close parentheses`
+Expand and simplify  $( y + 4 ) ( 2 - y )$
 
 ## Q32 — medium — 2 marks · exam-questions
 
@@ -189,7 +189,7 @@ Expand and simplify fully  $4(2c+3)--(5c--1)$
 ## Q34 — medium — 2 marks · exam-questions
 
 ### 1() — 2 marks — command: expand — structured
-Expand and simplify  `open parentheses m plus 9 close parentheses open parentheses m – 5 close parentheses`
+Expand and simplify  $( m + 9 ) ( m - 5 )$
 
 ## Q35 — hard — 3 marks · exam-questions
 
@@ -201,14 +201,14 @@ Show that $(x+1)(x+2)(x+3)$ can be written in the form $ax^{3}+bx^{2}+cx+d$ wher
 ### 13() — 3 marks — command: prove — structured — from paper 2015	Spec1 · 1MA1/2H
 Show that
 
-`open parentheses 3 x minus 1 close parentheses open parentheses x plus 5 close parentheses open parentheses 4 x minus 3 close parentheses space equals space 12 x cubed space plus space 47 x squared space minus space 62 x space plus space 15`
+$( 3 x - 1 ) ( x + 5 ) ( 4 x - 3 ) = 12 x^{3} + 47 x^{2} - 62 x + 15$
 
 for all values of $x$.
 
 ## Q37 — hard — 3 marks · exam-questions
 
 ### 18() — 3 marks — command: simplify — structured — from paper 2015	Spec2 · 1MA1/2H
-Simplify fully `open parentheses square root of a plus square root of 4 b end root space close parentheses open parentheses square root of a minus 2 square root of b close parentheses`
+Simplify fully $( \sqrt{a + \sqrt{4} b} ) ( \sqrt{a} - 2 \sqrt{b} )$
 
 ## Q38 — hard — 6 marks · exam-questions
 
@@ -216,7 +216,7 @@ Simplify fully `open parentheses square root of a plus square root of 4 b end ro
 Show that $(2x+1)(x+3)(3x+7)$ can be written in the form $ax^{3}+bx^{2}+cx+d$   where $a,b,c$ and $d$ are integers.
 
 ### 18((b)) — 3 marks — command: solve — structured — from paper June 2019 · 1MA1/3H
-Solve           `open parentheses 1 minus x close parentheses squared space less than space 9 over 25`
+Solve           $( 1 - x )^{2} < \frac{9}{25}$
 
 ## Q39 — hard — 3 marks · exam-questions
 
@@ -230,12 +230,12 @@ Show that $x^{2}+6x=1$
 ## Q40 — hard — 3 marks · exam-questions
 
 ### 13((a)) — 3 marks — command: simplify — structured — from paper Jan 2022 · 4MA1/1H
-Expand and simplify            `5 x open parentheses x plus 2 close parentheses open parentheses 3 x minus 4 close parentheses`
+Expand and simplify            $5 x ( x + 2 ) ( 3 x - 4 )$
 
 ## Q41 — hard — 3 marks · exam-questions
 
 ### 18() — 3 marks — command: find — structured — from paper Jan 2021 · 4MA1/1H
-Given that `open parentheses 8 minus square root of x close parentheses open parentheses 5 plus square root of x close parentheses equals y square root of x plus 21`  where $x$ is a prime number and $y$ is an integer,
+Given that $( 8 - \sqrt{x} ) ( 5 + \sqrt{x} ) = y \sqrt{x} + 21$  where $x$ is a prime number and $y$ is an integer,
 
 find the value of $x$ and the value of $y$.
 
@@ -257,7 +257,7 @@ $x=$ ......................................
 ### 17((b)) — 3 marks — command: solve — structured — from paper Jan 2021 · 4MA1/2HR
 The functions $f$and $g$ are defined as
 
-`table row cell straight f left parenthesis x right parenthesis space end cell equals cell space x squared space plus space 6 space end cell row cell straight g left parenthesis x right parenthesis space end cell equals cell space x space – space 10 end cell end table`
+$\begin{gathered} \mathrm{f} ( x ) & = x^{2} + 6 \\ \mathrm{g} ( x ) & = x - 10 \end{gathered}$
 
 Solve the equation $\mathrm{fg}(x)=f(x)$
 
@@ -271,12 +271,12 @@ Expand and simplify $(4x+1)(x--3)(5x+6)$
 ## Q45 — hard — 1 marks · exam-questions
 
 ### 24((a)) — 1 mark — command: prove — structured — from paper June 2018 · 4MA1/1HR
-Show that `x left parenthesis x space minus space 1 right parenthesis space open parentheses x space plus space 1 close parentheses equals space x cubed space minus space x`
+Show that $x ( x - 1 ) ( x + 1 ) = x^{3} - x$
 
 ## Q46 — hard — 3 marks · exam-questions
 
 ### 25() — 3 marks — command: simplify — structured — from paper Nov 2021 · 8300/3H
-Expand and simplify fully `open parentheses x minus 3 close parentheses open parentheses x plus 2 close parentheses open parentheses x plus 5 close parentheses`
+Expand and simplify fully $( x - 3 ) ( x + 2 ) ( x + 5 )$
 
 ## Q47 — hard — 3 marks · exam-questions
 
@@ -294,7 +294,7 @@ $(x+5)(x+2)(x+a)\equivx^{3}+bx^{2}+cx--30$
 
 Work out the values of the integers $a,b$and $c$.
 
-`table row cell a space end cell equals cell space space...................... end cell row cell b space end cell equals cell space space...................... end cell row cell c space end cell equals cell space space...................... end cell end table`
+$\begin{gathered} a & = ...................... \\ b & = ...................... \\ c & = ...................... \end{gathered}$
 
 ## Q49 — hard — 4 marks · exam-questions
 
@@ -306,7 +306,7 @@ Expand and simplify $(3x^{2}+2)(2x+5)--6x(x^{2}--3)$
 ### 17() — 3 marks — command: simplify — structured — from paper Nov 2020 · J560/04
 Expand and simplify.
 
-`open parentheses x plus 1 close parentheses open parentheses x minus 1 close parentheses open parentheses x plus 2 close parentheses`
+$( x + 1 ) ( x - 1 ) ( x + 2 )$
 
 ## Q51 — hard — 4 marks · exam-questions
 
@@ -323,4 +323,4 @@ Expand and simplify $(x+6)(3x--2)(x+6)$
 ## Q53 — hard — 3 marks · exam-questions
 
 ### 16() — 3 marks — command: expand — structured — from paper 2023 Nov · 4MA1/2H
-Expand and simplify `open parentheses 2 x plus 3 close parentheses open parentheses x minus 5 close parentheses open parentheses x plus 4 close parentheses`
+Expand and simplify $( 2 x + 3 ) ( x - 5 ) ( x + 4 )$

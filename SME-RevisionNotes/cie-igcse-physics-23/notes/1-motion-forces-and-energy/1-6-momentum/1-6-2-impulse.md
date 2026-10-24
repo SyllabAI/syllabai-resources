@@ -42,7 +42,7 @@ $\mathrm{impulse}=F\Deltat=\Deltap$
 
 - [Change in momentum](https://www.savemyexams.com/igcse/physics/cie/23/revision-notes/1-motion-forces-and-energy/1-6-momentum/1-6-1-momentum/?_ai=internal-linking) can also be described as:
 
-`increment p space equals space increment open parentheses m v close parentheses`
+$\Delta p = \Delta ( m v )$
 
 $\Deltap=mv-mu$
 
@@ -99,9 +99,9 @@ $\mathrm{impulse}=F\Deltat=\Deltap=mv-mu$
 > 
 > **Step 3: Substitute in the values**
 > 
-> `impulse space equals space m open parentheses v space minus space u close parentheses`
+> $\text{impulse} = m ( v - u )$
 > 
-> `impulse space equals space 58 cross times 10 to the power of negative 3 end exponent space open parentheses negative 20 space minus space 30 close parentheses` **[1 mark]**
+> $\text{impulse} = 58 \times 10^{ - } 3 ( - 20 - 30 )$ **[1 mark]**
 > 
 > $\mathrm{impulse}=-2.9Ns$ **[1 mark]**
 > 

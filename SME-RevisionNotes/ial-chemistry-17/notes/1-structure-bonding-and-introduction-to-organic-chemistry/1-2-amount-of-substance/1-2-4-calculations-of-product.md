@@ -59,7 +59,7 @@ $percentageyield=\frac{actualyield}{theoreticalyield}\times100$
 > 
 > **   Step 5: **Calculate the percentage yield of copper
 > 
-> `p e r c e n t a g e space y i e l d space equals space fraction numerator 4.8 space g over denominator 6.4 space g end fraction space cross times space 100 space equals space 75 percent sign`
+> $p e r c e n t a g e y i e l d = \frac{4.8 g}{6.4 g} \times 100 = 75 \%$
 
 > **Exam Hint**
 > It is possible to calculate a percentage yield that is greater than 100%. This would be an error which could occur when preparing crystals due to:
@@ -114,7 +114,7 @@ CH<sub>2</sub>=CH<sub>2</sub> + Br<sub>2</sub> → CH<sub>2</sub>BrCH2Br
 > 
 > **   Step 2: **Substitute values and evaluate:
 > 
-> `A t o m space e c o n o m y equals fraction numerator 2 cross times 55.8 over denominator 159.6 plus left parenthesis 3 cross times 28.0 right parenthesis end fraction cross times 100 equals 45.9 percent sign`
+> $A t o m e c o n o m y = \frac{2 \times 55.8}{159.6 + ( 3 \times 28.0 )} \times 100 = 45.9 \%$
 
 > **Exam Hint**
 > **Careful:** Sometimes a question may ask you to show your working when calculating atom economy.

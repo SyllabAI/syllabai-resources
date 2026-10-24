@@ -235,7 +235,7 @@ $1\frac{3}{5}$ **[1]**
 ### 9() — 3 marks
 > *Convert the mixed numbers to improper fractions*
 
-`table row cell 3 1 half end cell equals cell 7 over 2 end cell row cell 1 3 over 5 end cell equals cell 8 over 5 end cell end table`
+$\begin{gathered} 3 1 \frac{1}{2} & = \frac{7}{2} \\ 1 \frac{3}{5} & = \frac{8}{5} \end{gathered}$
 
 **At least one correct [1]**
 
@@ -476,7 +476,7 @@ $\frac{5}{8}=\frac{15}{24}$* and *$\frac{2}{3}=\frac{16}{24}$
 
 > *To find a number halfway between 14 and 18*
 
-`14 space 15 space circle enclose 16 space 17 space 18`
+$14 15 \textcircled{16} 17 18$
 
 > *So the answer is *$\frac{16}{24}$* which is *$\frac{2}{3}$
 
@@ -539,7 +539,7 @@ $\frac{1}{6}=\frac{1}{7}+\frac{1}{42}$** ****[1]**
 *Dividing (by any number) is the same as multiplying by the reciprocal ("1 over") of that number.* 
 *With fractions this can be thought of as changing the sign and flipping the second fraction upside down.*
 
-`15 over 28 divided by 4 over 7 equals fraction numerator 15 over denominator table row cell up diagonal strike 28 end cell row 4 end table end fraction cross times fraction numerator table row 1 row cell up diagonal strike 7 end cell end table over denominator 4 end fraction`
+$\frac{15}{28} \div \frac{4}{7} = \frac{15}{ \begin{gathered} \cancel{28} \\ 4 \end{gathered} } \times \frac{ \begin{gathered} 1 \\ \cancel{7} \end{gathered} }{4}$
 
 **[1]**
 
@@ -556,7 +556,7 @@ $\frac{15}{4}\times\frac{1}{4}=\frac{15}{16}$
 *Multiply the second two fractions together first, multiply the numerators and multiply the denominators. * 
 *Remember to pre-cancel common factors.*
 
-`2 over 3 plus fraction numerator 1 cross times up diagonal strike 2 to the power of 1 over denominator scriptbase up diagonal strike 4 end scriptbase presubscript 2 cross times 3 end fraction` 
+`2 / 3 + (1 x / 2 ^ 1)/( / 4 _ 2 x 3)` 
 $\frac{2}{3}+\frac{1}{6}$
 
 ** Multiplication [1] **
@@ -644,7 +644,7 @@ $\frac{1}{15}+\frac{2\times3}{5\times3}\,\frac{1}{15}+\frac{6}{15}$
 
 *Add the fractions (by adding the numerators and writing over one single denominator)*
 
-`1 over 15 plus 6 over 15 equals fraction numerator open parentheses 1 plus 6 close parentheses over denominator 15 end fraction equals 7 over 15`
+$\frac{1}{15} + \frac{6}{15} = \frac{( 1 + 6 )}{15} = \frac{7}{15}$
 
 > *Check that the fraction does not cancel any further*
 
@@ -677,7 +677,7 @@ $\frac{3}{8}$ **[1]**
 *We know that Collette has \$136 *
 *Calculate half of \$136, and one fifth of \$136*
 
-`$ 136 cross times 1 half equals $ 68 space space space and space space space $ 136 cross times 1 fifth equals $ 27.20 space space`
+`$ 136 x 1 half = $ 68 and $ 136 x 1 fifth = $ 27.20`
 
 **either of these calculations ****[1]**
 
@@ -697,14 +697,14 @@ $\frac{3}{8}$ **[1]**
 *We know that Collette has \$136 *
 *Add one half and one fifth together to know the total fraction that Collette spends, and multiply this by \$136*
 
-`open parentheses 1 half plus 1 fifth close parentheses cross times $ 136 space space`
+$( 1 \frac{1}{2} + 1 \frac{1}{5} ) \times \$ 136$
 
 **[1]**
 
 > *Subtract this amount from \$136*
 
-`$ 136 minus open parentheses 1 half plus 1 fifth close parentheses cross times $ 136
-equals $ 136 minus $ 95.20 space space`
+$\$ 136 - ( 1 \frac{1}{2} + 1 \frac{1}{5} ) \times \$ 136
+= \$ 136 - \$ 95.20$
 
 **[1]**
 
@@ -715,13 +715,13 @@ equals $ 136 minus $ 95.20 space space`
 ### 6() — 2 marks
 > *The Lowest Common Denominator is 12. So write both fractions with denominator 12.*
 
-`table row blank blank cell 2 over 3 minus 1 over 12 end cell row blank equals cell 8 over 12 minus 1 over 12 end cell end table`
+$\begin{gathered} \frac{2}{3} - \frac{1}{12} \\ = \frac{8}{12} - \frac{1}{12} \end{gathered}$
 
 **[1]**
 
 > *Subtract. Remember when adding/ subtracting fractions with the same denominator, we only add/ subtract the numerator.*
 
-`table row blank equals cell 7 over 12 end cell end table`
+$\begin{gathered} = \frac{7}{12} \end{gathered}$
 
 $\frac{7}{12}$** [1]**
 
@@ -835,11 +835,11 @@ $7\frac{1}{2}$ **[1]**
 ### 6((b)) — 1 marks
 > *Whole numbers will have a bigger effect on the final sum than fractions, so put the biggest numbers, 5 and 6, in the whole number boxes*
 
-`box enclose 6 fraction numerator 1 over denominator box enclose blank end enclose end fraction plus box enclose 5 fraction numerator 2 over denominator box enclose blank end enclose end fraction`
+`box 6 (1)/(box _ ) + box 5 (2)/(box _ )`
 
 > $\frac{2}{3}$* is larger than *$\frac{2}{4}$* (one half), so for the biggest sum we can write*
 
-`box enclose bold 6 fraction numerator bold 1 over denominator box enclose bold 4 end fraction bold plus box enclose bold 5 fraction numerator bold 2 over denominator box enclose bold 3 end fraction` **[1] **
+`box 6 ( 1)/(box 4) + box 5 ( 2)/(box 3)` **[1] **
 **Switching the 6 and the 5 will produce the same final sum**
 
 ## Q33 — hard — 3 marks · exam-questions
@@ -946,13 +946,13 @@ $1-\frac{8}{15}=\frac{7}{15}$* spent on other living expenses*
 
 > *We are told that \$420 is spent on other living expenses, and we know this represents *$\frac{7}{15}$* of Edna's income*
 
-`Income space cross times space 7 over 15 space equals space $ 420`
+$\text{Income} \times \frac{7}{15} = \$ 420$
 
 **Method to find income, working backwards from 7/15 ****[1]**
 
 > *Multiply both sides by 15, and then divide both sides by 7 to find her income*
 
-`table row cell Income space cross times space 7 space end cell equals cell space $ 6300 end cell row cell Income space end cell equals cell space $ 900 end cell end table`
+$\begin{gathered} \text{Income} \times 7 & = \$ 6300 \\ \text{Income} & = \$ 900 \end{gathered}$
 
 **\$900** **[1]**
 
@@ -1004,7 +1004,7 @@ $\frac{5\times3}{6\times4}$
 
 > *3 is the highest common factor of 3 and 6 so this can be cancelled out.*
 
-`fraction numerator 5 space cross times space up diagonal strike 3 over denominator up diagonal strike 6 space end strike cross times space 4 end fraction equals fraction numerator 5 over denominator 2 space cross times space 4 end fraction`
+$\frac{5 \times \cancel{3}{ \cancel{6} } \times 4} = \frac{5}{2 \times 4}$
 
 > *Work out the denominator.*
 
@@ -1026,7 +1026,7 @@ $\frac{8}{3}\times\frac{11}{4}=\frac{8\times11}{3\times4}$
 
 > *Notice that this can be made easier at this stage by cancelling out the common factor of 4 from the 8 on the numerator and the 4 on the denominator.*
 
-`table row cell fraction numerator 8 space cross times space 11 over denominator 3 space cross times space 4 space end fraction end cell equals cell fraction numerator open parentheses 2 space cross times space up diagonal strike 2 space cross times space up diagonal strike 2 close parentheses space cross times space 11 over denominator 3 space cross times space open parentheses up diagonal strike 2 space cross times space up diagonal strike 2 close parentheses end fraction end cell row blank equals cell space fraction numerator 2 space cross times space 11 over denominator 3 end fraction space end cell row blank equals cell space 22 over 3 end cell end table`
+$\begin{gathered} \frac{8 \times 11}{3 \times 4 } & = \frac{( 2 \times \cancel{2} \times \cancel{2} ) \times 11}{3 \times ( \cancel{2} \times \cancel{2} )} \\ = \frac{2 \times 11}{3} \\ = \frac{22}{3} \end{gathered}$
 
 **[1]**
 
@@ -1057,7 +1057,7 @@ $\frac{8\times21}{7\times10}=\frac{168}{70}=\frac{12}{5}$
 
 > *Simplifying first could make this easier.*
 
-`fraction numerator 8 space cross times space up diagonal strike 21 over denominator up diagonal strike 7 space cross times space 10 end fraction space equals space fraction numerator 8 space cross times space 3 over denominator 10 end fraction space equals space fraction numerator up diagonal strike 8 space cross times space 3 over denominator up diagonal strike 10 end fraction space equals space fraction numerator 4 space cross times space 3 over denominator 5 end fraction space equals space 12 over 5`
+$\frac{8 \times \cancel{21} }{ \cancel{7} \times 10} = \frac{8 \times 3}{10} = \frac{ \cancel{8} \times 3}{ \cancel{10} } = \frac{4 \times 3}{5} = \frac{12}{5}$
 
 > *Convert back to a mixed number.*
 
@@ -1081,9 +1081,9 @@ $2\frac{1}{3}=\frac{7}{3}$
 > *Now we have *$\frac{7}{3}-\frac{7}{8}$* inside the bracket. *
 *The lowest common denominator of 3 and 8 is 24. So multiply the numerator and denominator of *$\frac{7}{3}$* by 8 and of *$\frac{7}{8}$* by 3*
 
-`7 over 3 minus 7 over 8
-open parentheses equals fraction numerator 7 cross times 8 over denominator 3 cross times 8 end fraction minus fraction numerator 7 cross times 3 over denominator 8 cross times 3 end fraction close parentheses
-space space equals 56 over 24 minus 21 over 24`
+$\frac{7}{3} - \frac{7}{8} 
+( = \frac{7 \times 8}{3 \times 8} - \frac{7 \times 3}{8 \times 3} )
+ = \frac{56}{24} - \frac{21}{24}$
 
 **[1]**
 
@@ -1096,7 +1096,7 @@ $=\frac{35}{24}$
 *Method 1* 
 *Cancel diagonally first*
 
-`fraction numerator scriptbase up diagonal strike 35 end scriptbase presuperscript 7 over denominator scriptbase up diagonal strike 24 end scriptbase presubscript 4 end fraction cross times up diagonal strike 6 to the power of 1 over up diagonal strike 25 subscript 5 equals 7 over 4 cross times 1 fifth`
+`( / 35 ^ 7)/( / 24 _ 4) x / 6 ^ 1 / / 25 _ 5 = 7 / 4 x 1 fifth`
 
 **multiplying the two fractions ****[1]**
 
@@ -1146,7 +1146,7 @@ $\frac{21}{12}-\frac{11}{12}=\frac{10}{12}$
 
 > *Simplify the fraction by cancelling out the highest common factor. The highest common factor of 10 and 12 is 2.*
 
-`10 over 12 equals fraction numerator up diagonal strike 2 cross times 5 over denominator up diagonal strike 2 cross times 6 end fraction`
+$\frac{10}{12} = \frac{ \cancel{2} \times 5}{ \cancel{2} \times 6}$
 
 > *Although the question said "without using a calculator", you should still use your calculator to check your answer.*
 
@@ -1171,7 +1171,7 @@ $\frac{9}{12}-\frac{11}{12}=-\frac{2}{12}$
 
 > *Simplify the fraction by cancelling out the highest common factor. The highest common factor of 2 and 12 is 2.*
 
-`negative 2 over 12 equals negative fraction numerator up diagonal strike 2 cross times 1 over denominator up diagonal strike 2 cross times 6 end fraction equals negative 1 over 6`
+$- \frac{2}{12} = - \frac{ \cancel{2} \times 1}{ \cancel{2} \times 6} = - \frac{1}{6}$
 
 > *Combine the whole number and fraction.*
 
@@ -1254,23 +1254,23 @@ $1\frac{7}{12}=\frac{19}{12}$
 
 > *Find the lowest common denominator.*
 
-`table row cell 12 space cross times space 5 space end cell equals cell space 60 end cell row cell 20 space cross times space 3 space end cell equals cell space 60 end cell row cell LCD thin space end cell equals cell space 60 end cell end table`
+$\begin{gathered} 12 \times 5 & = 60 \\ 20 \times 3 & = 60 \\ \text{LCD} & = 60 \end{gathered}$
 
 **[1]**
 
 > *Change the numerators by multiplying 19 by 5 and 13 by 3.*
 
-> *      *`table row cell 19 over 12 plus 13 over 20 space end cell equals cell space fraction numerator 19 cross times 5 over denominator 60 end fraction plus space fraction numerator 13 cross times 3 over denominator 60 end fraction end cell row blank blank blank end table`
+> *      *$\begin{gathered} \frac{19}{12} + \frac{13}{20} & = \frac{19 \times 5}{60} + \frac{13 \times 3}{60} \\ \end{gathered}$
 
 > *Add the fractions by only adding the numerators.*
 
-`table row cell 95 over 60 plus space 39 over 60 space end cell equals cell space 134 over 60 end cell end table`
+$\begin{gathered} \frac{95}{60} + \frac{39}{60} & = \frac{134}{60} \end{gathered}$
 
 **[1]**
 
 > *Simplify and write as a mixed number.*
 
-`table row blank blank cell 134 over 60 end cell end table space equals space table row blank blank cell 67 over 30 end cell end table space equals space 2 space 7 over 30`
+$\begin{gathered} \frac{134}{60} \end{gathered} = \begin{gathered} \frac{67}{30} \end{gathered} = 2 \frac{7}{30}$
 
 > *You must show all the steps of your working, but it is still a good idea to check your answer with a calculator.*
 
@@ -1282,12 +1282,12 @@ $1\frac{7}{12}+\frac{13}{20}=2\frac{7}{30}$* ***[1]**
 > *Convert the mixed number into an improper (top-heavy) fraction. *
 *Multiply the whole part by the denominator and add to the numerator to find the new numerator.*
 
-`1 1 over 7 equals fraction numerator open parentheses 1 cross times 7 close parentheses plus 1 over denominator 7 end fraction equals 8 over 7`
+$1 \frac{1}{7} = \frac{( 1 \times 7 ) + 1}{7} = \frac{8}{7}$
 
 > *Pre-cancel common factors. *
 *Multiply the two fractions together, multiply the numerators and multiply the denominators.*
 
-`fraction numerator 5 over denominator scriptbase up diagonal strike 16 end scriptbase presubscript 2 end fraction cross times up diagonal strike 8 to the power of 1 over 7 equals fraction numerator 5 cross times 1 over denominator 2 cross times 7 end fraction`
+`(5)/( / 16 _ 2) x / 8 ^ 1 / 7 = (5 x 1)/(2 x 7)`
 
 **[1]**
 
@@ -1299,8 +1299,8 @@ $\frac{5}{14}$* ***[1]**
 > *Convert the mixed numbers into improper (top-heavy) fractions. *
 *Multiply the whole part by the denominator and add to the numerator to find the new numerator.*
 
-`3 5 over 8 equals fraction numerator open parentheses 3 cross times 8 close parentheses plus 5 over denominator 8 end fraction equals 29 over 8
-1 2 over 3 equals fraction numerator open parentheses 1 cross times 3 close parentheses plus 2 over denominator 3 end fraction equals 5 over 3`
+$3 \frac{5}{8} = \frac{( 3 \times 8 ) + 5}{8} = \frac{29}{8} 
+1 \frac{2}{3} = \frac{( 1 \times 3 ) + 2}{3} = \frac{5}{3}$
 
 **[1]**
 
@@ -1382,7 +1382,7 @@ $\frac{5\times5\times4\times3}{4\times2\times5}$
 
 > *Cancel out pairs of common factors. One from the numerator and one from the denominator.*
 
-`fraction numerator up diagonal strike 5 cross times 5 cross times up diagonal strike 4 cross times 3 over denominator up diagonal strike 4 cross times 2 cross times up diagonal strike 5 end fraction equals fraction numerator 5 cross times 3 over denominator 2 end fraction`
+$\frac{ \cancel{5} \times 5 \times \cancel{4} \times 3}{ \cancel{4} \times 2 \times \cancel{5} } = \frac{5 \times 3}{2}$
 
 > *Work out the numerator.*
 
@@ -1439,7 +1439,7 @@ $\frac{7}{4}\times\frac{6}{35}$
 
 > *Its a good idea to cancel down the fractions at this point, so you can multiply smaller numbers in the next step*
 
-`fraction numerator scriptbase up diagonal strike 7 end scriptbase presuperscript 1 over denominator 4 end fraction cross times 6 over up diagonal strike 35 subscript 5 equals fraction numerator 1 over denominator scriptbase up diagonal strike 4 end scriptbase presubscript 2 end fraction cross times up diagonal strike 6 cubed over 5`
+`( / 7 ^ 1)/(4) x 6 / / 35 _ 5 = (1)/( / 4 _ 2) x / 6 ^3 / 5`
 
 **[1]**
 
@@ -1477,13 +1477,13 @@ $1\frac{1}{5}=\frac{6}{5}$
 
 > *To divide two fractions, swap the numerator and the denominator of the second fraction and multiply *
 
-`table row cell 2 over 3 divided by 6 over 5 end cell equals cell 2 over 3 cross times 5 over 6 end cell end table`
+$\begin{gathered} \frac{2}{3} \div \frac{6}{5} & = \frac{2}{3} \times \frac{5}{6} \end{gathered}$
 
 **[1]**
 
 > *To multiply two fractions, multiply numerator by numerator and denominator by denominator*
 
-`table row cell fraction numerator 2 cross times 5 over denominator 3 cross times 6 end fraction end cell equals cell 10 over 18 end cell end table`
+$\begin{gathered} \frac{2 \times 5}{3 \times 6} & = \frac{10}{18} \end{gathered}$
 
 > *Simplify the answer by cancelling down (10 and 18 are both divisible by 2).*
 *The question asks for the answer in its simplest form, so *$\frac{10}{18}$* would not achieve full marks*

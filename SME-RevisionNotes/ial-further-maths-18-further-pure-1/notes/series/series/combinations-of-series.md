@@ -21,22 +21,22 @@ guided_study: false
 
 - Use the **three formulae**:
 
-  - `sum from r equals 1 to n of r equals 1 half n open parentheses n plus 1 close parentheses`
-  - `sum from r equals 1 to n of r squared equals 1 over 6 n open parentheses n plus 1 close parentheses open parentheses 2 n plus 1 close parentheses`
-  - `sum from r equals 1 to n of r cubed equals 1 fourth n squared open parentheses n plus 1 close parentheses squared`
+  - $\sum_{r = 1}^{n} r = 1 \frac{1}{2} n ( n + 1 )$
+  - $\sum_{r = 1}^{n} r^{2} = \frac{1}{6} n ( n + 1 ) ( 2 n + 1 )$
+  - $\sum_{r = 1}^{n} r^{3} = 1 \frac{1}{4} n^{2} ( n + 1 )^{2}$
 - **Coefficients **of $r$, $r^{2}$ and $r^{3}$ can come out of the sum
 
-  - `sum from r equals 1 to n of open parentheses a r cubed plus b r squared plus c r plus d close parentheses equals a sum from r equals 1 to n of r cubed space plus b sum from r equals 1 to n of r squared plus c sum from r equals 1 to n of r plus d n`
+  - $\sum_{r = 1}^{n} ( a r^{3} + b r^{2} + c r + d ) = a \sum_{r = 1}^{n} r^{3} + b \sum_{r = 1}^{n} r^{2} + c \sum_{r = 1}^{n} r + d n$
   
     - **Constants **are **multiplied** by $n$
   - You may have to **expand** expressions in $r$
   
-    - `sum from r equals 1 to n of open parentheses r plus 3 close parentheses open parentheses r plus 4 close parentheses equals sum from r equals 1 to n of open parentheses r squared plus 7 r plus 12 close parentheses`
+    - $\sum_{r = 1}^{n} ( r + 3 ) ( r + 4 ) = \sum_{r = 1}^{n} ( r^{2} + 7 r + 12 )$
 - It is often possible to **factorise final** **answers**, in particular taking out:
 
   - fractional coefficients
   - $n$
-  - `open parentheses n plus 1 close parentheses`
+  - $( n + 1 )$
 - You may be required to write series as the **difference of two sums**
 
   - `sum from r equals 5 to 10 of r equals sum from r equals 1 to 10 of r minus sum from r equals 1 to 4 of r`
@@ -47,59 +47,59 @@ guided_study: false
 > **Worked Example**
 > (a)  Using standard summation formulae, show that
 > 
-> `sum from r equals 1 to n of open parentheses r minus 1 close parentheses r open parentheses r plus 1 close parentheses equals 1 fourth open parentheses n minus 1 close parentheses n open parentheses n plus 1 close parentheses open parentheses n plus 2 close parentheses`
+> $\sum_{r = 1}^{n} ( r - 1 ) r ( r + 1 ) = 1 \frac{1}{4} ( n - 1 ) n ( n + 1 ) ( n + 2 )$
 > 
 > > *Expand and simplify the left-hand side*
 > 
-> `table row cell open parentheses r minus 1 close parentheses r open parentheses r plus 1 close parentheses end cell equals cell r open parentheses r squared minus 1 close parentheses end cell row blank equals cell r cubed minus r end cell end table`
+> $\begin{gathered} ( r - 1 ) r ( r + 1 ) & = r ( r^{2} - 1 ) \\ = r^{3} - r \end{gathered}$
 > 
-> > *Substitute in the formulae *`sum from r equals 1 to n of r cubed equals 1 fourth n squared open parentheses n plus 1 close parentheses squared`* and *`sum from r equals 1 to n of r equals 1 half n open parentheses n plus 1 close parentheses`
+> > *Substitute in the formulae *$\sum_{r = 1}^{n} r^{3} = 1 \frac{1}{4} n^{2} ( n + 1 )^{2}$* and *$\sum_{r = 1}^{n} r = 1 \frac{1}{2} n ( n + 1 )$
 > 
-> `table row cell sum from r equals 1 to n of open parentheses r cubed minus r close parentheses end cell equals cell sum from r equals 1 to n of r cubed minus sum from r equals 1 to n of r end cell row blank equals cell 1 fourth n squared open parentheses n plus 1 close parentheses squared minus 1 half n open parentheses n plus 1 close parentheses end cell end table`* *
+> $\begin{gathered} \sum_{r = 1}^{n} ( r^{3} - r ) & = \sum_{r = 1}^{n} r^{3} - \sum_{r = 1}^{n} r \\ = 1 \frac{1}{4} n^{2} ( n + 1 )^{2} - 1 \frac{1}{2} n ( n + 1 ) \end{gathered}$* *
 > 
-> > *Factorise out the quarter, *$n$* and *`open parentheses n plus 1 close parentheses`* then simplify*
+> > *Factorise out the quarter, *$n$* and *$( n + 1 )$* then simplify*
 > 
-> `table row cell sum from r equals 1 to n of open parentheses r cubed minus r close parentheses end cell equals cell 1 fourth n open parentheses n plus 1 close parentheses open square brackets n open parentheses n plus 1 close parentheses minus 2 close square brackets end cell row blank equals cell 1 fourth n open parentheses n plus 1 close parentheses open parentheses n squared plus n minus 2 close parentheses end cell end table`
+> $\begin{gathered} \sum_{r = 1}^{n} ( r^{3} - r ) & = 1 \frac{1}{4} n ( n + 1 ) [ n ( n + 1 ) - 2 ] \\ = 1 \frac{1}{4} n ( n + 1 ) ( n^{2} + n - 2 ) \end{gathered}$
 > 
 > > *Factorise the quadratic on the right-hand side *
 > 
-> `table row cell sum from r equals 1 to n of open parentheses r cubed minus r close parentheses end cell equals cell equals 1 fourth n open parentheses n plus 1 close parentheses open parentheses n plus 2 close parentheses open parentheses n minus 1 close parentheses end cell row blank blank blank end table`
+> $\begin{gathered} \sum_{r = 1}^{n} ( r^{3} - r ) & = = 1 \frac{1}{4} n ( n + 1 ) ( n + 2 ) ( n - 1 ) \\ \end{gathered}$
 > 
 > > *Rearrange into the form asked for by the question*
 > 
-> `table row cell sum from r equals 1 to n of open parentheses r minus 1 close parentheses r open parentheses r plus 1 close parentheses end cell equals cell 1 fourth open parentheses n minus 1 close parentheses n open parentheses n plus 1 close parentheses open parentheses n plus 2 close parentheses end cell end table`
+> $\begin{gathered} \sum_{r = 1}^{n} ( r - 1 ) r ( r + 1 ) & = 1 \frac{1}{4} ( n - 1 ) n ( n + 1 ) ( n + 2 ) \end{gathered}$
 > 
 > (b)  Hence find the value of
 > 
 > $0\times1\times2+1\times2\times3+2\times3\times4+...+20\times21\times22$
 > 
-> > *It helps to write out the first few terms in the series *`table row blank blank cell sum from r equals 1 to n of open parentheses r minus 1 close parentheses r open parentheses r plus 1 close parentheses end cell end table`
+> > *It helps to write out the first few terms in the series *$\begin{gathered} \sum_{r = 1}^{n} ( r - 1 ) r ( r + 1 ) \end{gathered}$
 > 
-> `table row blank blank cell open parentheses 1 minus 1 close parentheses cross times 1 cross times open parentheses 1 plus 1 close parentheses space space plus space space open parentheses 2 minus 1 close parentheses cross times 2 cross times open parentheses 2 plus 1 close parentheses space space plus space space open parentheses 3 minus 1 close parentheses cross times 3 cross times open parentheses 3 plus 1 close parentheses space space plus... end cell row blank equals cell 0 cross times 1 cross times 2 space space plus space space 1 cross times 2 cross times 3 space space plus space space 2 cross times 3 cross times 4 space space plus... end cell end table`
+> $\begin{gathered} ( 1 - 1 ) \times 1 \times ( 1 + 1 ) + ( 2 - 1 ) \times 2 \times ( 2 + 1 ) + ( 3 - 1 ) \times 3 \times ( 3 + 1 ) +... \\ = 0 \times 1 \times 2 + 1 \times 2 \times 3 + 2 \times 3 \times 4 +... \end{gathered}$
 > 
 > > *The question stops at 20 x 21 x 22*
 > *This is actually the 21*<sup>*st*</sup>* term (not the 20*<sup>*th*</sup>* term)*
 > *To find the sum of the first 21 terms, substitute *$n=21$* into part (a)*
 > 
-> `table row cell sum from r equals 1 to 21 of open parentheses r minus 1 close parentheses r open parentheses r plus 1 close parentheses end cell equals cell 1 fourth open parentheses 21 minus 1 close parentheses cross times 21 cross times open parentheses 21 plus 1 close parentheses open parentheses 21 plus 2 close parentheses end cell row blank equals cell 1 fourth cross times 20 cross times 21 cross times 22 cross times 23 end cell end table`
+> $\begin{gathered} \sum_{r = 1}^{21} ( r - 1 ) r ( r + 1 ) & = 1 \frac{1}{4} ( 21 - 1 ) \times 21 \times ( 21 + 1 ) ( 21 + 2 ) \\ = 1 \frac{1}{4} \times 20 \times 21 \times 22 \times 23 \end{gathered}$
 > 
 > **Final answer:** **53130**
 > 
-> (c)  If `sum from r equals 1 to n of open parentheses r minus 1 close parentheses r open parentheses r plus 1 close parentheses equals 10 space sum from r equals 1 to n of r squared`, find $n$.
+> (c)  If $\sum_{r = 1}^{n} ( r - 1 ) r ( r + 1 ) = 10 \sum_{r = 1}^{n} r^{2}$, find $n$.
 > 
 > > *Substitute the answer from part (a) into the left-hand side*
-> *Substitute the standard formula *`sum from r equals 1 to n of r squared equals 1 over 6 n open parentheses n plus 1 close parentheses open parentheses 2 n plus 1 close parentheses`* into the right-hand side*
+> *Substitute the standard formula *$\sum_{r = 1}^{n} r^{2} = \frac{1}{6} n ( n + 1 ) ( 2 n + 1 )$* into the right-hand side*
 > 
-> `table row cell 1 fourth open parentheses n minus 1 close parentheses n open parentheses n plus 1 close parentheses open parentheses n plus 2 close parentheses end cell equals cell 10 cross times 1 over 6 n open parentheses n plus 1 close parentheses open parentheses 2 n plus 1 close parentheses end cell end table`* *
+> $\begin{gathered} 1 \frac{1}{4} ( n - 1 ) n ( n + 1 ) ( n + 2 ) & = 10 \times \frac{1}{6} n ( n + 1 ) ( 2 n + 1 ) \end{gathered}$* *
 > 
-> > *Cancel the terms *$n$* and *`open parentheses n plus 1 close parentheses`* from both sides*
+> > *Cancel the terms *$n$* and *$( n + 1 )$* from both sides*
 > *It also helps to multiply both sides by 12 to remove fractions*
 > 
-> `3 table row blank blank cell open parentheses n minus 1 close parentheses open parentheses n plus 2 close parentheses end cell end table table row blank equals blank end table table row blank blank 20 end table table row blank blank cell open parentheses 2 n plus 1 close parentheses end cell end table`
+> $3 \begin{gathered} ( n - 1 ) ( n + 2 ) \end{gathered} \begin{gathered} = \end{gathered} \begin{gathered} 20 \end{gathered} \begin{gathered} ( 2 n + 1 ) \end{gathered}$
 > 
 > > *Expand, then form and solve a quadratic in *`equation`
 > 
-> `table row cell 3 open parentheses n squared plus n minus 2 close parentheses end cell equals cell 40 n plus 20 end cell row cell 3 n squared minus 37 n minus 26 end cell equals 0 row cell open parentheses 3 n plus 2 close parentheses open parentheses n minus 13 close parentheses end cell equals 0 row n equals cell negative 2 over 3 space space or space space n equals 13 end cell end table`
+> $\begin{gathered} 3 ( n^{2} + n - 2 ) & = 40 n + 20 \\ 3 n^{2} - 37 n - 26 & = 0 \\ ( 3 n + 2 ) ( n - 13 ) & = 0 \\ n = - \frac{2}{3} \text{or} n = 13 \end{gathered}$
 > 
 > > $n$* must be a positive integer (as it is used in sigma notation, *`sum from r equals 1 to n of`*)*
 > 

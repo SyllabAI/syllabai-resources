@@ -51,7 +51,7 @@ $W=Fvt$
 
 - And substituting this into the power equation gives:
 
-`P space equals space fraction numerator F v down diagonal strike t over denominator down diagonal strike t end fraction`
+`P = (F v / t)/(/ t)`
 
 $P=Fv$
 
@@ -82,7 +82,7 @@ $P=Fv$
 > 
 > $F=mg\mathrm{sin}θ$
 > 
-> `F space equals space 3500 space cross times space 9.81 space cross times space sin open parentheses 14.5 close parentheses`
+> $F = 3500 \times 9.81 \times \sin ( 14.5 )$
 > 
 > $F=8596.8N$
 > 
@@ -90,7 +90,7 @@ $P=Fv$
 > 
 > $P=8596.8\times9.4$
 > 
-> `P space equals space 81 space 000 space straight W space open parentheses 2 space straight s. straight f. close parentheses`
+> $P = 81 000 \mathrm{W} ( 2 \mathrm{s} . \mathrm{f} . )$
 
 > **Exam Hint**
 > The force represented in exam questions will often be a drag force. Whilst this is in the opposite direction to its velocity, remember the force needed to calculate the power is equal to (or above) this drag force to overcome it therefore you equate it to that value.

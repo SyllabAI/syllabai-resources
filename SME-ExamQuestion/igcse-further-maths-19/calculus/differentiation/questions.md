@@ -6,21 +6,21 @@
 ## Q1 — medium — 8 marks · exam-questions
 
 ### 6() — 8 marks — structured — from paper Specimen · 4PM1/01
-`y space equals space straight e to the power of x open parentheses x to the power of 2 space end exponent minus 3 x close parentheses`
+$y = \mathrm{e}^{x ( x^{2} } - 3 x )$
 
 Show that $y-2\frac{dy}{dx}+\frac{d^{2}y}{dx^{2}}=2e^{x}$
 
 ## Q2 — medium — 7 marks · exam-questions
 
 ### 5() — 7 marks — structured — from paper June 2024 · Paper 2
-`y space equals space straight e to the power of 2 x end exponent space open parentheses x squared minus space 5 x close parentheses`
+$y = \mathrm{e}^{2 x} ( x^{2} - 5 x )$
 
 Show that   $2e^{2x}=\frac{d^{2}y}{dx^{2}}-4\frac{dy}{dx}+4y$
 
 ## Q3 — medium — 5 marks · exam-questions
 
 ### 3() — 5 marks — structured — from paper November 2024 · Paper 2
-The curve $C$ has equation `y equals straight e to the power of 3 x end exponent open parentheses 2 x minus 1 close parentheses to the power of 4`
+The curve $C$ has equation $y = \mathrm{e}^{3 x} ( 2 x - 1 )^{4}$
 
 Using calculus, find the exact value of the gradient of the tangent to $C$ when $x=1$
 
@@ -44,7 +44,7 @@ Give your answer in the form  $\frac{Ae^{3x+1}(Bx-A)}{Cx^{3}}$ where $A$, $B$ an
 The value of $x$ increases by 2%
 
 Use your answer to part (a) to find an estimate, in terms of $x$ , for the percentage change in $y$ 
-Give your answer in the form `open parentheses P x minus Q close parentheses` where $P$ and $Q$ are integers.
+Give your answer in the form $( P x - Q )$ where $P$ and $Q$ are integers.
 
 ## Q6 — medium — 9 marks · exam-questions
 

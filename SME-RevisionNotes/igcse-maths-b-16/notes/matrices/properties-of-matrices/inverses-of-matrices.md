@@ -32,7 +32,7 @@ guided_study: false
   - Change the signs of the other two entries
   - Divide by the determinant $ad-bc$
 
-`bold A equals open parentheses table row a b row c d end table close parentheses space space rightwards double arrow space space bold A to the power of bold minus bold 1 end exponent equals fraction numerator 1 over denominator a d minus b c end fraction open parentheses table row d cell negative b end cell row cell negative c end cell a end table close parentheses`
+$A = ( \begin{gathered} a b \\ c d \end{gathered} ) \Leftrightarrow A^{- 1} = \frac{1}{a d - b c} ( \begin{gathered} d - b \\ - c & a \end{gathered} )$
 
 > **Exam Hint**
 > The formula for the inverse is on the course Formulae sheet, and will be provided for you in Paper 2 questions where it is needed.
@@ -45,7 +45,7 @@ guided_study: false
   - You will not need to deal with this situation on the exam
 
 > **Worked Example**
-> `bold A equals open parentheses table row 1 3 row 2 7 end table close parentheses space space space space space space space bold B equals open parentheses table row 7 cell negative 3 end cell row cell negative 2 end cell 1 end table close parentheses`
+> $A = ( \begin{gathered} 1 3 \\ 2 7 \end{gathered} ) B = ( \begin{gathered} 7 - 3 \\ - 2 & 1 \end{gathered} )$
 > 
 > Show that $B$ is the inverse of $A$.
 > 
@@ -55,9 +55,9 @@ guided_study: false
 > 
 > > *If you know the inverse formula, you can use it to calculate the inverse of *$A$* directly*
 > 
-> - *The inverse of *`space open parentheses table row a b row c d end table close parentheses space`* is *`space fraction numerator 1 over denominator a d minus b c end fraction open parentheses table row d cell negative b end cell row cell negative c end cell a end table close parentheses`
+> - *The inverse of *$( \begin{gathered} a b \\ c d \end{gathered} )$* is *$\frac{1}{a d - b c} ( \begin{gathered} d - b \\ - c & a \end{gathered} )$
 > 
-> `table row cell bold A to the power of bold minus bold 1 end exponent end cell equals cell fraction numerator 1 over denominator 1 cross times 7 minus 3 cross times 2 end fraction open parentheses table row 7 cell negative 3 end cell row cell negative 2 end cell 1 end table close parentheses end cell row blank equals cell fraction numerator 1 over denominator 7 minus 6 end fraction open parentheses table row 7 cell negative 3 end cell row cell negative 2 end cell 1 end table close parentheses end cell row blank equals cell 1 open parentheses table row 7 cell negative 3 end cell row cell negative 2 end cell 1 end table close parentheses end cell row blank equals cell open parentheses table row 7 cell negative 3 end cell row cell negative 2 end cell 1 end table close parentheses end cell row blank equals bold B end table`
+> $\begin{gathered} A^{- 1} & = \frac{1}{1 \times 7 - 3 \times 2} ( \begin{gathered} 7 - 3 \\ - 2 & 1 \end{gathered} ) \\ = \frac{1}{7 - 6} ( \begin{gathered} 7 - 3 \\ - 2 & 1 \end{gathered} ) \\ = 1 ( \begin{gathered} 7 - 3 \\ - 2 & 1 \end{gathered} ) \\ = ( \begin{gathered} 7 - 3 \\ - 2 & 1 \end{gathered} ) \\ = B \end{gathered}$
 > 
 > **Final answer:** $B$** is the inverse of **$A$
 > ** **
@@ -73,6 +73,6 @@ guided_study: false
 > - *either that *$\mathrm{AB}=I$
 > - *or that *$\mathrm{BA}=I$
 > 
-> `table row bold AB equals cell open parentheses table row 1 3 row 2 7 end table close parentheses open parentheses table row 7 cell negative 3 end cell row cell negative 2 end cell 1 end table close parentheses end cell row blank equals cell open parentheses table row cell 1 cross times 7 plus 3 cross times open parentheses negative 2 close parentheses end cell cell 1 cross times open parentheses negative 3 close parentheses plus 3 cross times 1 end cell row cell 2 cross times 7 plus 7 cross times open parentheses negative 2 close parentheses end cell cell 2 cross times open parentheses negative 3 close parentheses plus 7 cross times 1 end cell end table close parentheses end cell row blank equals cell open parentheses table row cell 7 minus 6 end cell cell negative 3 plus 3 end cell row cell 14 minus 14 end cell cell negative 6 plus 7 end cell end table close parentheses end cell row blank equals cell open parentheses table row 1 0 row 0 1 end table close parentheses end cell row blank equals bold I end table`
+> $\begin{gathered} \text{AB} = ( \begin{gathered} 1 3 \\ 2 7 \end{gathered} ) ( \begin{gathered} 7 - 3 \\ - 2 & 1 \end{gathered} ) \\ = ( \begin{gathered} 1 \times 7 + 3 \times ( - 2 ) & 1 \times ( - 3 ) + 3 \times 1 \\ 2 \times 7 + 7 \times ( - 2 ) & 2 \times ( - 3 ) + 7 \times 1 \end{gathered} ) \\ = ( \begin{gathered} 7 - 6 & - 3 + 3 \\ 14 - 14 & - 6 + 7 \end{gathered} ) \\ = ( \begin{gathered} 1 0 \\ 0 1 \end{gathered} ) \\ = I \end{gathered}$
 > 
 > **Final answer:** $\mathrm{AB}$** is equal to the identity matrix, so **$B$** is the inverse of **$A$

@@ -57,6 +57,6 @@ $\mathrm{Area}=\frac{1}{2}ab\mathrm{sin}C$
 > 
 > > *You can either re-label the sides and angles to match the formula, or you can use the formula *$\mathrm{Area}=\frac{1}{2}bc\mathrm{sin}A$* which is equivalent*
 > 
-> `table row Area equals cell 1 half open parentheses 1.1 close parentheses open parentheses 0.32 close parentheses space sin space 74 end cell row blank equals cell 0.16918... end cell end table`
+> $\begin{gathered} \text{Area} = 1 \frac{1}{2} ( 1.1 ) ( 0.32 ) \sin 74 \\ = 0.16918... \end{gathered}$
 > 
 > **Final answer:** **The area is 0.169 m**<sup>**2**</sup>** (to 3 s.f.)**

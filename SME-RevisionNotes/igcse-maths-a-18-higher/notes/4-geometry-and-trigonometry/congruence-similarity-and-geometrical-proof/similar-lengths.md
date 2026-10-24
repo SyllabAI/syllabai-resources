@@ -99,11 +99,11 @@ Use the scale factor to find the **length **you need
 > > *The second shape is smaller than the first shape so the scale factor will be between 0 and 1 *
 > *Divide the known length on the second shape by the corresponding length on the first shape to find the scale factor*
 > 
-> `table row cell Scale space Factor space end cell equals cell 3 over 6 equals 1 half end cell end table`
+> $\begin{gathered} \text{Scale} \text{Factor} & = \frac{3}{6} = 1 \frac{1}{2} \end{gathered}$
 > 
 > > *Multiply the length **AD**  by the scale factor to find its corresponding length **PS**  on the second shape*
 > 
-> `table attributes columnalign right center left columnspacing 0px end attributes row cell P S space end cell equals cell 1 half cross times 15 equals 15 over 2 end cell row blank blank blank end table`
+> $\begin{array}{rcl} P S & = 1 \frac{1}{2} \times 15 = \frac{15}{2} \\ \end{array}$
 > 
 > $PS=7.5\mathrm{cm}$
 > 
@@ -111,7 +111,7 @@ Use the scale factor to find the **length **you need
 > 
 > > *Divide the known length on the bigger shape by the corresponding length on the smaller shape to find the scale factor*
 > 
-> `table row cell Scale space Factor space end cell equals cell 6 over 3 equals 2 end cell end table`
+> $\begin{gathered} \text{Scale} \text{Factor} & = \frac{6}{3} = 2 \end{gathered}$
 > 
 > > *The missing length is on the smaller shape*
 > 

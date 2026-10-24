@@ -69,16 +69,16 @@ guided_study: false
 > 
 > > *Substitute either coordinate in and rearrange to find *$c$*.*
 > 
-> `table row cell negative 0.9 space end cell equals cell space minus 1.2 open parentheses 1 close parentheses space plus space c end cell row cell c space end cell equals cell space minus 0.9 space plus space 1.2 end cell row cell c space end cell equals cell space 0.3 end cell end table`
+> $\begin{gathered} - 0.9 & = - 1.2 ( 1 ) + c \\ c & = - 0.9 + 1.2 \\ c & = 0.3 \end{gathered}$
 > 
 > > *Compare this to the linearised form of *$t=ah^{b}$*. Take logarithms of both sides first and rearrange if you can't remember the correct form. *
 > 
-> > `ln space t space equals space ln space open parentheses a h to the power of b close parentheses
-> ln space t space equals space ln a space plus space b ln space h`* *
+> > $\ln t = \ln ( a h^{b} )
+> \ln t = \ln a + b \ln h$* *
 > 
 > > *So *$b$* is the value in front of *$\mathrm{ln}h$* and *$\mathrm{ln}a=0.3$*. Solve *$\mathrm{ln}a=0.3$* by taking *$e$* of both sides.*
 > 
-> `table row cell ln space a space end cell equals cell space 0.3 end cell row cell straight e to the power of ln space a space end exponent end cell equals cell space straight e to the power of 0.3 end exponent end cell row cell a space end cell equals cell space straight e to the power of 0.3 end exponent end cell end table`
+> $\begin{gathered} \ln a & = 0.3 \\ \mathrm{e}^{\ln a } & = \mathrm{e}^{0.3} \\ a & = \mathrm{e}^{0.3} \end{gathered}$
 > 
 > $a=e^{0.3},b=-1.2$
 
@@ -113,8 +113,8 @@ guided_study: false
 
 - After linearising the function it will be in the form $\mathrm{log}y=\mathrm{log}A+x\mathrm{log}b$
 
-  - $\mathrm{log}b$ is the gradient of the straight line graph `open parentheses m close parentheses`
-  - $\mathrm{log}A$ is the $y$-intercept of the straight line graph `open parentheses c close parentheses`
+  - $\mathrm{log}b$ is the gradient of the straight line graph $( m )$
+  - $\mathrm{log}A$ is the $y$-intercept of the straight line graph $( c )$
 - You will need to find the value of $A$ by solving the equation $\mathrm{log}A=c$
 
   - The value of $c$ will either be given or will need to be found
@@ -144,14 +144,14 @@ guided_study: false
 > 
 > > *Substitute either coordinate in and rearrange to find *$c$*.*
 > 
-> `table row cell 5 space end cell equals cell space 2 space plus space c end cell row cell c space end cell equals cell space 3 end cell end table`
+> $\begin{gathered} 5 & = 2 + c \\ c & = 3 \end{gathered}$
 > 
 > $\mathrm{lg}y=x+3$
 > 
 > > *Linearise *$y=A\timesb^{x}$*.*
 > * Take logarithms of both sides first and rearrange if you can't remember the correct form.  Take logarithms of both sides. *
 > 
-> > `lg space y equals space lg space open parentheses A b to the power of x close parentheses`* *
+> > $lg y = lg ( A b^{x} )$* *
 > 
 > > *Split the right-hand side into the sum of two logarithms.*
 > 
@@ -167,10 +167,10 @@ guided_study: false
 > 
 > > *Solve *$\mathrm{lg}b=1$* by raising 10 to the power of both sides.*
 > 
-> `table row cell lg space b space end cell equals cell space 1 end cell row cell 10 to the power of lg space b end exponent space end cell equals cell space 10 to the power of 1 end cell row cell b space end cell equals cell space 10 end cell end table`
+> $\begin{gathered} \text{lg} b & = 1 \\ 10^{lg b} & = 10^{1} \\ b & = 10 \end{gathered}$
 > 
 > > *Solve *$\mathrm{lg}A=3$* by raising 10 to the power of both sides.*
 > 
-> `table row cell lg space A space end cell equals cell space 3 end cell row cell 10 to the power of lg space A end exponent space end cell equals cell space 10 cubed end cell row cell A space end cell equals cell space 1000 end cell end table`
+> $\begin{gathered} \text{lg} A & = 3 \\ 10^{lg A} & = 10^{3} \\ A & = 1000 \end{gathered}$
 > 
 > $y=1000\times10^{x}$

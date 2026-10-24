@@ -42,7 +42,7 @@ ii)  **The actual total value of these 29 parcels is less than the answer in par
 *4.085 = 4 (1 s.f.) *
 *2.35 = 2 (1 s.f.)*
 
-`fraction numerator 4 box enclose 9.2 space minus space 9. box enclose 5 0 over denominator 4. box enclose 0 85 space cross times space 2. box enclose 3 5 end fraction equals space fraction numerator 50 space minus space 10 over denominator 4 space cross times space 2 end fraction`
+`(4 box 9.2 - 9. box 5 0)/(4. box 0 85 x 2. box 3 5) = (50 - 10)/(4 x 2)`
 
 **[1]**
 
@@ -55,7 +55,7 @@ $\frac{50-10}{4\times2}=\frac{40}{8}$
 ### Q4
 > *The first digit is the first significant figure, so the fourth digit (underlined below) is the fourth significant figure*
 
-`5 space 7 space. space 3 space bottom enclose 9 space left enclose space 9 space 7 end enclose`
+`5 7 . 3 bottom 9 left 9 7`
 
 > *Look at the next digit, which is 9. As 9 is greater than 5, we need to round the fourth significant figure up*
 

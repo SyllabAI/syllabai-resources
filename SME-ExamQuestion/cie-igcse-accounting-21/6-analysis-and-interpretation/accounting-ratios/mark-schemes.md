@@ -31,10 +31,10 @@
 
   - That means that
   
-    - `open parentheses fraction numerator TR subscript 2023 over denominator 120 space 450 end fraction cross times 365 close parentheses minus open parentheses fraction numerator TR subscript 2022 over denominator 120 space 450 end fraction cross times 365 close parentheses equals 3`
+    - $( \frac{TR_{2023} }{120 450} \times 365 ) - ( \frac{TR_{2022} }{120 450} \times 365 ) = 3$
   - Multiply both sides by 120 450 (i.e., 'multiply the 120 450 across')
   
-    - `open parentheses TR subscript 2023 cross times 365 close parentheses minus open parentheses TR subscript 2022 cross times 365 close parentheses equals 361 space 350`
+    - $( TR_{2023} \times 365 ) - ( TR_{2022} \times 365 ) = 361 350$
   - Dividing both sides by 365
   
     - $\mathrm{TR}_{2023}-\mathrm{TR}_{2022}=990$
@@ -246,10 +246,10 @@ $\frac{\mathrm{Trade} \mathrm{payables}}{\mathrm{Credit} \mathrm{purchases}}\tim
 - Multiply both sides by 15 000 (i.e. multiply the 15 000 across the equation)
 
   - This gets rid of the fraction
-  - `table row cell Current space assets space minus space 8 space 000 end cell equals cell 2.2 cross times 15000 end cell row cell Current space assets space minus space 8 space 000 end cell equals cell 33 space 000 end cell end table`
+  - $\begin{gathered} \text{Current} \text{assets} - 8 000 & = 2.2 \times 15000 \\ \text{Current} \text{assets} - 8 000 & = 33 000 \end{gathered}$
 - Add 8 000 to both sides (i.e. the -8 000 on the left-hand side becomes a +8 000 on the right)
 
-  - `table row cell Current space assets space end cell equals cell 33 space 000 plus 8 space 000 end cell row cell Current space assets space end cell equals cell 41 space 000 end cell end table`
+  - $\begin{array}{ccc}Current \text{assets} & = & 33 000 + 8 000 \\ Current \text{assets} & = & 41 000\end{array}$
 
 **A** is incorrect; this is what you would get if you multiplied the inventory (\$8 000) by 2.2
 
@@ -318,8 +318,8 @@ $\frac{\mathrm{Trade} \mathrm{payables}}{\mathrm{Credit} \mathrm{purchases}}\tim
 
   - That means that credit sales are 100-20=80% of total sales
   - So 80% of total sales = \$48 000
-  - That means 10% of total sales = `fraction numerator $ 48 space 000 over denominator 8 end fraction`=\$6 000
-  - And 20% of total sales is `$ 6 space 000 cross times 2` = \$12 000
+  - That means 10% of total sales = $\frac{\$ 48 000}{8}$=\$6 000
+  - And 20% of total sales is $\$ 6 000 \times 2$ = \$12 000
   - So cash sales = \$12 000
 - Revenue = credit sales + cash sales = \$48 000 + \$12 000 = \$60 000
 - Therefore net profit = 25% of \$60 000 = \$15 000
@@ -424,7 +424,7 @@ $\frac{\mathrm{Trade} \mathrm{payables}}{\mathrm{Credit} \mathrm{purchases}}\tim
 - Calculate the average inventory
 
   - $\frac{\mathrm{Opening} \mathrm{inventory}+\mathrm{Closing} \mathrm{inventory}}{2}$
-  - `fraction numerator $ 9 space 000 space plus space $ 15 space 000 over denominator 2 end fraction equals $ 12 space 000`
+  - $\frac{\$ 9 000 + \$ 15 000}{2} = \$ 12 000$
 - Calculate the rate of inventory turnover
 
   - $\frac{\mathrm{Cost} \mathrm{of} \mathrm{sales}}{\mathrm{Average} \mathrm{inventory}}$

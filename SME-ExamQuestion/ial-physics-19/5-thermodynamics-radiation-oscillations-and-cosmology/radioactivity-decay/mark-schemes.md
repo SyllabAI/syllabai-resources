@@ -7,7 +7,7 @@
 ### 19((a)) — 3 marks
 i) Complete the nuclear equation for the decay of cobalt-60 to nickel
 
-`Co presubscript 27 presuperscript 60 space rightwards arrow space Ni presubscript bold 28 presuperscript bold 60 space plus space straight beta presubscript bold minus bold 1 end presubscript presuperscript bold 0 superscript minus space plus space scriptbase straight v with bar on top end scriptbase presubscript 0 presuperscript 0 subscript straight e`
+`Co _ 27 ^ 60 -> Ni _ 28 ^ 60 + beta _ - 1 ^ 0 ^ - + v -bar _ 0 ^ 0 _ e`
 
 - Top line correct; **[1 mark]**
 - Bottom line correct; **[1 mark]**
@@ -30,12 +30,12 @@ List the known quantities:
 
 Calculate the decay constant, *λ*:
 
-- `lambda space equals fraction numerator space ln space 2 over denominator t subscript 1 half end subscript end fraction space equals space fraction numerator ln space 2 space over denominator 5.27 space cross times space open parentheses 3.16 space cross times space 10 to the power of 7 close parentheses end fraction space equals space 4.16 space cross times space 10 to the power of negative 9 end exponent space straight s to the power of negative 1 end exponent` **[1 mark]**
+- $\\lambda = \frac{ \ln 2}{t_{1 \frac{1}{2}} } = \frac{\ln 2 }{5.27 \times ( 3.16 \times 10^{7 )} = 4.16 \times 10^{-9} } \mathrm{s}^{- 1}$ **[1 mark]**
 
 Use the activity decay equation to calculate the time, *t *in seconds:
 
 - $A=A_{0}e^{-λt}$
-- `t space equals negative fraction numerator space ln open parentheses A over A subscript 0 close parentheses over denominator lambda end fraction space equals space minus fraction numerator ln open parentheses fraction numerator 1.85 space cross times space 10 to the power of 14 over denominator 4.07 space cross times space 10 to the power of 14 end fraction close parentheses over denominator 4.16 space cross times space 10 to the power of negative 9 end exponent end fraction space equals 189.53 space cross times space 10 to the power of 6 space straight s` **[1 mark]**
+- `t = - ( ln ( A / A _ 0 ))/(lambda) = - (ln ( (1.85 x 10 ^ 14)/(4.07 x 10 ^ 14) ))/(4.16 x 10 ^ - 9 ) = 189.53 x 10 ^ 6 s` **[1 mark]**
 
 Convert the time from seconds into years:
 
@@ -53,7 +53,7 @@ Convert the time from seconds into years:
 - *You may have come across logarithms earlier in school, 'ln' (natural log) works in a similar way, except:*
 
   - $\mathrm{ln}=log_{e}$
-  - *Therefore, *`ln open parentheses e to the power of x close parentheses space equals space log subscript e open parentheses e to the power of x close parentheses space equals space x`
+  - *Therefore, *$\ln ( e^{x} ) = log_{e} ( e^{x} ) = x$
 - *If you're still confused with natural logs and exponentials, take a look at the maths revision notes *
 
 ### 19((c)) — 3 marks
@@ -67,7 +67,7 @@ List the known quantities:
 
 Calculate the required % transmission:
 
-- `r e q u i r e d thin space percent sign space t r a n s m i s s i o n space equals space fraction numerator 1.2 space cross times space 10 to the power of 14 space over denominator 4.0 space cross times space 10 to the power of 14 space end fraction space cross times space 100 space percent sign space equals space 30 thin space percent sign` **[1 mark]**
+- $r e q u i r e d \% t r a n s m i s s i o n = \frac{1.2 \times 10^{14} }{4.0 \times 10^{14} } \times 100 \% = 30 \%$ **[1 mark]**
 
 Calculate the thickness from the graph for this required transmission:
 
@@ -110,8 +110,8 @@ Calculate the mass difference in kg from the data in the table:
 
 Calculate the energy released, $\DeltaE$ in MeV:
 
-- `increment E space equals space open parentheses 3 space cross times space 10 to the power of 8 close parentheses squared space cross times space open parentheses 9.9683 space cross times space 10 to the power of negative 39 end exponent close parentheses space equals space 8.9715 space cross times space 10 to the power of negative 13 end exponent space straight J` **[1 mark]**
-- $\DeltaE$ in eV = `fraction numerator open parentheses 8.9715 space cross times space 10 to the power of negative 13 end exponent close parentheses over denominator open parentheses 1.60 space cross times space 10 to the power of negative 19 end exponent close parentheses end fraction space equals space 5.607 space cross times space 10 to the power of 6 space eV` **[1 mark]**
+- $\Delta E = ( 3 \times 10^{8 )^{2} \times ( 9.9683 \times 10^{-39} } ) = 8.9715 \times 10^{- 13} \mathrm{J}$ **[1 mark]**
+- $\DeltaE$ in eV = $\frac{( 8.9715 \times 10^{- 13} )}{( 1.60 \times 10^{- 19} )} = 5.607 \times 10^{6} \text{eV}$ **[1 mark]**
 - $\DeltaE$ in MeV = $5.607\mathrm{MeV}$  **[1 mark]**
 
 **[Total: 5 marks]**
@@ -177,9 +177,9 @@ $A_{0}=\frac{12.5}{0.05}=250\text{Bq kg}^{-1}$ **[1 mark]**
 
 $A=A_{0}e^{-λt}$
 
-`t space equals space 1 over lambda ln open parentheses A subscript 0 over A close parentheses`
+$t = \frac{1}{ \lambda } ln ( A_\frac{{0}}{A} )$
 
-`t space equals space fraction numerator 1 over denominator 1.21 cross times 10 to the power of negative 4 end exponent end fraction cross times ln open parentheses 250 over 180 close parentheses` **[1 mark]**
+$t = \frac{1}{1.21 \times 10^{- 4} } \times \ln ( \frac{250}{180} )$ **[1 mark]**
 
 $t=2714.9=$ $2700\text{years}$ **[1 mark]**
 
@@ -290,7 +290,7 @@ List the known quantities:
 
 From the data booklet:
 
-- `lambda space equals space fraction numerator ln space open parentheses 2 close parentheses over denominator t subscript 1 divided by 2 end subscript end fraction`
+- $\\lambda = \frac{\ln ( 2 )}{t_{1 \div 2} }$
 - $A=λN$
 - $A=A_{0}e^{-λt}$
 - $P=\frac{E}{t}$
@@ -298,23 +298,23 @@ From the data booklet:
 
 Calculate the decay constant, $λ$:
 
-- `lambda space equals space fraction numerator ln open parentheses 2 close parentheses over denominator 87.7 end fraction space equals space 7.90 space cross times space 10 to the power of negative 3 end exponent space year to the power of negative 1 end exponent` **[1 mark]**
+- $\\lambda = \frac{\ln ( 2 )}{87.7} = 7.90 \times 10^{- 3} year^{- 1}$ **[1 mark]**
 
 Calculate the initial activity of Pu-238, $A_{0}$:
 
-- `open parentheses 6.75 space cross times space 10 to the power of 10 close parentheses space equals space A subscript 0 e to the power of negative open parentheses 7.9 space cross times space 10 to the power of negative 3 end exponent close parentheses space cross times space open parentheses 40 close parentheses end exponent`
-- `fraction numerator open parentheses 6.75 space cross times space 10 to the power of 10 close parentheses over denominator e to the power of negative open parentheses 7.9 space cross times space 10 to the power of negative 3 end exponent close parentheses space cross times space open parentheses 40 close parentheses end exponent end fraction space equals space A subscript 0`
+- $( 6.75 \times 10^{10 ) = A_{0} e^{- ( 7.9 \times 10^{-3} } ) \times ( 40 )}$
+- $\frac{( 6.75 \times 10^{10 )}{e^{- ( 7.9 \times 10^{-3} } ) \times ( 40 )} } = A_{0}$
 - $A_{0}=9.26\times10^{10}\mathrm{Bq}$ **[1 mark]**
 
 Calculate the energy of the α-particle in J, $E$:
 
 - $E=5.6\mathrm{MeV}=5.6\times10^{6}\mathrm{eV}$
-- `E space equals space open parentheses 5.6 space cross times space 10 to the power of 6 close parentheses space cross times space open parentheses 1.6 space cross times space 10 to the power of negative 19 end exponent close parentheses space equals space 8.96 space cross times space 10 to the power of negative 13 end exponent space straight J` **[1 mark]**
+- $E = ( 5.6 \times 10^{6 ) \times ( 1.6 \times 10^{-19} } ) = 8.96 \times 10^{- 13} \mathrm{J}$ **[1 mark]**
 
 Calculate the power generated by the source, $P$:
 
 - $P=\frac{E}{t}=EA$
-- `P space equals space open parentheses 8.96 space cross times space 10 to the power of negative 13 end exponent close parentheses space cross times space open parentheses 9.26 space cross times space 10 to the power of 10 close parentheses` **[1 mark]**
+- $P = ( 8.96 \times 10^{- 13} ) \times ( 9.26 \times 10^{10} )$ **[1 mark]**
 - $P=0.0830W$** [1 mark]**
 
 **[Total: 5 marks]**
@@ -332,7 +332,7 @@ Calculate the power generated by the source, $P$:
 ### 1() — 2 marks
 Complete the nuclear equation:
 
-`straight U presubscript 92 presuperscript 238 space rightwards arrow with blank on top space space straight U presubscript 92 presuperscript 234 space plus space 1 cross times straight alpha presubscript 2 presuperscript 4 space plus space 2 cross times straight beta presubscript negative 1 end presubscript presuperscript 0`
+`U _ 92 ^ 238 -> with _ on top U _ 92 ^ 234 + 1 x alpha _ 2 ^ 4 + 2 x beta _ - 1 ^ 0`
 
 **[2 marks]**
 
@@ -344,7 +344,7 @@ Complete the nuclear equation:
 > **[exam-tip]**
 > You may find it easier to work out the decay chain by writing it out in the following way:
 > 
-> `straight U presubscript 92 presuperscript 238 space rightwards arrow with straight alpha on top space Th presubscript 90 presuperscript 234 space rightwards arrow with beta on top space Pa presubscript 91 presuperscript 234 space rightwards arrow with beta on top space straight U presubscript 92 presuperscript 234`
+> `U _ 92 ^ 238 -> with alpha on top Th _ 90 ^ 234 -> with beta on top Pa _ 91 ^ 234 -> with beta on top U _ 92 ^ 234`
 
 ### 2() — 2 marks
 > **[mark-scheme]**

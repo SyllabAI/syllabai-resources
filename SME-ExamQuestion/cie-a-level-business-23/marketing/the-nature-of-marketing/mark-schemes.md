@@ -574,9 +574,9 @@ Another part of the 4Cs is communication, which means having a two-way conversat
 
 Formula: $\frac{\mathrm{Total} \mathrm{sales} \mathrm{of} \mathrm{business}}{\mathrm{Total} \mathrm{market} \mathrm{sales}}\times100$     **[1]**
 
-`Total space sales space equals space fraction numerator $ 15 comma 000 over denominator $ 500 comma 000 end fraction cross times 100 space
+$\text{Total} \text{sales} = \frac{\$ 15 , 000}{\$ 500 , 000} \times 100 
 
-equals space 3 percent sign`      **[2]**
+= 3 \%$      **[2]**
 
 > **[mark-scheme]**
 > - Up to 2 marks for valid workings
@@ -587,17 +587,9 @@ equals space 3 percent sign`      **[2]**
 ### Q19
 **\$90,000 ****[3]**
 
-`BH apostrophe straight s space market space share space equals space 100 space minus space Total space market space share space of space competitors
+$BH \text{apostrophe} \mathrm{s} \text{market} \text{share} = 100 - Total \text{market} \text{share} of \text{competitors} = 100 - 85 \% = 15 \%$     **[1]**
 
-equals space 100 space minus space 85 percent sign
-
-equals space 15 percent sign`     **[1]**
-
-`Market space share space value space equals space percent sign space market space share space cross times space Total space market space value
-
-equals space 15 percent sign space cross times space $ 600 comma 000
-
-equals space $ 90 comma 000`      **[2]**
+`Market share value = % market share x Total market value = 15 % x $ 600 , 000 = $ 90 , 000`      **[2]**
 
 > **[mark-scheme]**
 > - Up to 2 marks for valid workings

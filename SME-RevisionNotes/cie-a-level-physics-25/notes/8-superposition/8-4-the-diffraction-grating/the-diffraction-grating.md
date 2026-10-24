@@ -32,7 +32,7 @@ guided_study: true
 - Just like for single and double-slit diffraction the regions where **constructive interference** occurs are also the regions of **maximum intensity**
 - Their location can be calculated using the **diffraction grating equation**
 
-`d sin open parentheses theta close parentheses space equals space n lambda`
+$d \sin ( \\theta ) = n \\lambda$
 
 - Where:
 
@@ -100,19 +100,19 @@ $n=\frac{d}{λ}$
 > 
 > **Step 2: Rearrange for *****β***** and substitute in the values**
 > 
-> `d sin open parentheses theta close parentheses space equals space n lambda`
+> $d \sin ( \\theta ) = n \\lambda$
 > 
-> `sin open parentheses beta close parentheses space equals space fraction numerator n lambda over denominator d end fraction`
+> $\sin ( \\beta ) = \frac{n \\lambda }{d}$
 > 
-> `sin open parentheses beta close parentheses space equals space fraction numerator 2 space cross times space open parentheses 550 space cross times space 10 to the power of negative 9 end exponent close parentheses space over denominator 1.7 space cross times space 10 to the power of negative 6 end exponent end fraction space equals space 0.64706`
+> $\sin ( \\beta ) = \frac{2 \times ( 550 \times 10^{- 9} ) }{1.7 \times 10^{- 6} } = 0.64706$
 > 
-> `beta space equals space sin to the power of negative 1 end exponent open parentheses 0.64706 close parentheses space equals space 40.32 to the power of degree`
+> $\beta = \text{sin} ^{ - } 1 ( 0.64706 ) = 40.32^{ ^{\circ} }$
 > 
 > **Step 3: Calculate α**
 > 
 > - *β *is the angle from the centre to the second-order line
 > 
-> `alpha space equals space 2 beta space equals space 2 cross times 40.32 space equals space 81 degree space open parentheses 2 space straight s. straight f close parentheses`
+> $\\alpha = 2 \\beta = 2 \times 40.32 = 81^{\circ} ( 2 \mathrm{s} . \mathrm{f} )$
 
 > **Exam Hint**
 > Take care that the angle *θ* is the correct angle taken from the centre and not the angle taken between two orders of maxima.
@@ -127,7 +127,7 @@ $n=\frac{d}{λ}$
 
 - The **wavelength** of light can be determined by **rearranging** the grating equation to make the wavelength *λ *the subject
 
-`d sin open parentheses theta close parentheses space equals space n lambda space rightwards arrow space lambda space equals space fraction numerator d sin open parentheses theta close parentheses over denominator n end fraction`
+$d \sin ( \\theta ) = n \\lambda \rightarrow \\lambda = \frac{d \sin ( \\theta )}{n}$
 
 - The value of *θ*, the angle to the specific order of maximum measured from the centre, can be calculated through **trigonometry**
 - Create a **right angled triangle **to determine the** angle **of diffraction,* θ*
@@ -143,7 +143,7 @@ $n=\frac{d}{λ}$
 
 ***The wavelength of light is calculated by the angle to the order of maximum***
 
-- Calculate the inverse of tan to find `theta space equals space tan to the power of negative 1 end exponent open parentheses h over D close parentheses`
+- Calculate the inverse of tan to find $\\theta = \tan ^{- 1} ( \frac{h}{D} )$
 - Substitute for *θ* back into the diffraction grating equation to find the value of the wavelength (with the corresponding order *n*)
 
 ### Improving the experiment and reducing uncertainties

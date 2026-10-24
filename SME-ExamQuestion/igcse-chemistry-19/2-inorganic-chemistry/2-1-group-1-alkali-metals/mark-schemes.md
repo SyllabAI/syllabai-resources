@@ -56,7 +56,7 @@ amount of Na = $\frac{0.225}{23}$ = 0.00978 mol **[1 mark]**
 
 2 moles of Na $\Rightarrow$ 1 mol of H<sub>2</sub> gas
 
-therefore, 0.00978 mol of Na $\Rightarrow$ `open parentheses fraction numerator 0.00978 over denominator 2 end fraction close parentheses` mol of H<sub>2 </sub>gas
+therefore, 0.00978 mol of Na $\Rightarrow$ $( \frac{0.00978}{2} )$ mol of H<sub>2 </sub>gas
 
 = 0.0489 mol of H<sub>2 </sub>gas **[1 mark]**
 

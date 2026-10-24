@@ -86,7 +86,7 @@ $v=\frac{2πr}{T}$
 > 
 > **Step 5: Substitute values into the orbital speed equation**
 > 
-> `v space equals space fraction numerator 2 straight pi cross times open parentheses 6 space 960 space 000 close parentheses over denominator 5760 end fraction`
+> $v = \frac{2 \mathrm{\pi } \times ( 6 960 000 )}{5760}$
 > 
 > $v=7592.18=7590m/s$
 

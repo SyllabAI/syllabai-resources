@@ -75,13 +75,13 @@ $30$ **[1]**
 ### Q5
 > *Round each value to the first significant figure*
 
-`1.6 equals 2 space open parentheses 1 s f close parentheses`
+$1.6 = 2 ( 1 s f )$
 
-`9.6 equals 10 space open parentheses 1 s f close parentheses`
+$9.6 = 10 ( 1 s f )$
 
-`5.9 equals 6 space open parentheses 1 s f close parentheses`
+$5.9 = 6 ( 1 s f )$
 
-`4.3 equals 4 space open parentheses 1 s f close parentheses`
+$4.3 = 4 ( 1 s f )$
 
 > *Write the original calculation with each value rounded to 1 significant figure*
 
@@ -126,7 +126,7 @@ $\frac{50-10}{4\times2}=\frac{40}{8}=5$
 
 > * *
 
-`table row cell 115 straight g space plus space 2.5 straight g space end cell equals cell space 117.5 straight g end cell row cell 115 straight g space minus space 2.5 straight g space end cell equals cell space 112.5 straight g end cell end table`
+$\begin{gathered} 115 \mathrm{g} + 2.5 \mathrm{g} & = 117.5 \mathrm{g} \\ 115 \mathrm{g} - 2.5 \mathrm{g} & = 112.5 \mathrm{g} \end{gathered}$
 
 $112.5\leqm<117.5$* ***[2]**
 
@@ -187,7 +187,7 @@ $0.1\div2=0.05$
 
 *Higher limit: *$8.2+0.05=8.25$
 
-`bold 8 bold. bold 15 bold space bold less-than or slanted equal to bold space bold italic L bold space bold less than bold space bold 8 bold. bold 25`** [2]*** *
+$8 . 15 \text{less} - \text{than} or \text{slanted} \text{equal} to L < 8 . 25$** [2]*** *
 
 ### Q12
 > *To find the upper and lower bound for an error interval, go "half up, half down". The number has been rounded to the nearest 0.1 litre so find half of 0.1 and add this on to the number to find the upper bound, and take it away from the number to find the lower bound.*
@@ -222,11 +222,11 @@ $78.25\leql<78.75$
 ### Q14
 > *Round each value to 1 significant figure*
 
-`104.3 almost equal to 100 space open parentheses 1 sf close parentheses`
+$104.3 \approx 100 ( 1 \text{sf} )$
 
-`8.72 almost equal to 9 space open parentheses 1 sf close parentheses`
+$8.72 \approx 9 ( 1 \text{sf} )$
 
-`7.389 almost equal to 7 space open parentheses 1 sf close parentheses`
+$7.389 \approx 7 ( 1 \text{sf} )$
 
 > *Substitute these values in place of the original and evaluate*
 

@@ -112,13 +112,13 @@ Calculate the **accounting rate of return**
 > 
 > - Divide by the number of years
 > 
-> `Average space profit equals fraction numerator $ 20 space 000 over denominator 4 end fraction equals $ 5 space 000`
+> $\text{Average} \text{profit} = \frac{\$ 20 000}{4} = \$ 5 000$
 > 
 > Calculate the average investment
 > 
 > - Divide the initial cost by 2
 > 
-> `Average space investment equals fraction numerator $ 220 space 000 over denominator 2 end fraction equals $ 110 space 000`
+> $\text{Average} \text{investment} = \frac{\$ 220 000}{2} = \$ 110 000$
 > 
 > Calculate the ARR
 > 

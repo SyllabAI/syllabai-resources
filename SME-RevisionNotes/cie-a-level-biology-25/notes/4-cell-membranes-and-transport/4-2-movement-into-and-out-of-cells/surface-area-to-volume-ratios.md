@@ -67,7 +67,7 @@ guided_study: true
 > 
 > > *The SA:V ratio is the surface area divided by the volume, so*
 > 
-> `SA colon straight V space ratio space equals space fraction numerator 3.84 over denominator 0.512 end fraction equals fraction numerator 7.5 over denominator 1 end fraction equals 7.5 space colon space 1 space open parentheses or space simply space 7.5 close parentheses`
+> $\text{SA} : \mathrm{V} \text{ratio} = \frac{3.84}{0.512} = \frac{7.5}{1} = 7.5 : 1 ( \text{or} \text{simply} 7.5 )$
 > 
 > ___________
 > 
@@ -81,7 +81,7 @@ guided_study: true
 > = π × 0.5<sup>2</sup> × 5 
 > = 3.927 µm<sup>3</sup>
 > 
-> `SA colon straight V space ratio space equals space fraction numerator 17.278 over denominator 3.927 end fraction equals fraction numerator 4.4 over denominator 1 end fraction equals 4.4 space colon space 1 space open parentheses or space simply space 4.4 close parentheses`
+> $\text{SA} : \mathrm{V} \text{ratio} = \frac{17.278}{3.927} = \frac{4.4}{1} = 4.4 : 1 ( \text{or} \text{simply} 4.4 )$
 > 
 > > *The cuboid cell of **Staphylococcus aureus** has a surface area-to-volume ratio of **7.5 : 1*
 > 

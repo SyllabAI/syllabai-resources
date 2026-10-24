@@ -11,11 +11,11 @@
 
 > *Calculate the area of each of the rectangles and add together to find the total area of the cross-sectional area.*
 
-`table row A equals cell 4 cross times 7 plus 5 cross times 2 end cell end table`
+$\begin{gathered} A = 4 \times 7 + 5 \times 2 \end{gathered}$
 
 **[1]**
 
-`table row A equals cell 28 plus 10 end cell row blank equals cell 38 space cm squared end cell end table`
+$\begin{gathered} A = 28 + 10 \\ = 38 cm^{2} \end{gathered}$
 
 > *Multiply the cross-sectional area by the length of the prism to calculate the volume of the object.*
 
@@ -30,11 +30,11 @@ $380\mathrm{cm}^{3}$* ***[1]**
 ### 3() — 4 marks
 > *Calculate the area of the triangular cross-sectional area, using the formula: *$A=\frac{1}{2}bh$*, where *$b$* is the length of the base and *$h$* is the perpendicular height.*
 
-`table row A equals cell 1 half cross times 3 cross times 4 end cell end table`
+$\begin{gathered} A = 1 \frac{1}{2} \times 3 \times 4 \end{gathered}$
 
 **[1]**
 
-`table row A equals cell 6 space cm squared end cell end table`
+$\begin{gathered} A = 6 cm^{2} \end{gathered}$
 
 > *Calculate the volume of the prism by multiplying the cross-sectional area by the length of the object.*
 
@@ -76,7 +76,7 @@ $750\mathrm{cm}^{3}$
 
 > *Add together each of the faces and multiply by two to take into account that for each face, the opposite face has the same area.*
 
-*Total area = *`2 cross times open parentheses 9 plus 9 plus 2.25 close parentheses`
+*Total area = *$2 \times ( 9 + 9 + 2.25 )$
 
 **[1]**
 
@@ -89,7 +89,7 @@ $40.5\mathrm{cm}^{2}$* ***[1]**
 
 > *Substitute **V** = 270, **l** = 12, **w** = 5  and **h** = **x **into the formula and solve for **x**.*
 
-`table row 270 equals cell 12 cross times 5 cross times x end cell row 270 equals cell 60 x end cell row cell 270 over 60 end cell equals x row cell 4.5 end cell equals x end table`
+$\begin{gathered} 270 = 12 \times 5 \times x \\ 270 = 60 x \\ \frac{270}{60} & = x \\ 4.5 & = x \end{gathered}$
 
 **[1]*** *
 
@@ -97,7 +97,7 @@ $40.5\mathrm{cm}^{2}$* ***[1]**
 
 > *Substitute **r** = 4.5 and **h** = 2(4.5) = 9 into the formula.*
 
-> `table row V equals cell straight pi cross times 4.5 squared cross times 9 end cell row blank equals cell 729 over 4 straight pi end cell row blank equals cell 572.555261... end cell end table`*  *
+> $\begin{gathered} V = \mathrm{\pi } \times 4.5^{2} \times 9 \\ = \frac{729}{4} \mathrm{\pi } \\ = 572.555261... \end{gathered}$*  *
 
 **[1]*** *
 
@@ -112,7 +112,7 @@ $40.5\mathrm{cm}^{2}$* ***[1]**
 
 > *Substitute **r** = 14 ÷ 2 = 7 and **h** = 20 into the formula.*
 
-> `table row V equals cell straight pi cross times 7 squared cross times 20 end cell row blank equals cell 980 straight pi end cell row blank equals cell 3078.76080... end cell end table`*  *
+> $\begin{gathered} V = \mathrm{\pi } \times 7^{2} \times 20 \\ = 980 \mathrm{\pi } \\ = 3078.76080... \end{gathered}$*  *
 
 **[1]**
 
@@ -127,11 +127,11 @@ $40.5\mathrm{cm}^{2}$* ***[1]**
 
 > *Find the circumference of the base of the cylinder using the formula *$C=2πr$* where **r** is the radius.*
 
-> `table row cell circumference space end cell equals cell space 2 straight pi cross times 0.56 end cell end table`*  *
+> $\begin{gathered} \text{circumference} & = 2 \mathrm{\pi } \times 0.56 \end{gathered}$*  *
 
 > *Find the curved surface area of the cylinder by multiplying the circumference with the height.*
 
-> `table row cell C S A space end cell equals cell space 2 straight pi cross times 0.56 space cross times 1.6 end cell end table`*  *
+> $\begin{gathered} C S A & = 2 \mathrm{\pi } \times 0.56 \times 1.6 \end{gathered}$*  *
 
 **[1]**
 
@@ -151,7 +151,7 @@ $40.5\mathrm{cm}^{2}$* ***[1]**
 
 > *Apply Pythagoras' theorem ("*$a^{2}=b^{2}+c^{2}$*", where **a** is the hypotenuse).*
 
-`table row cell 11.2 squared end cell equals cell h squared plus 7.4 squared end cell row cell h squared end cell equals cell 11.2 squared minus 7.4 squared end cell row h equals cell square root of 70.68 end root end cell row h equals cell 8.407 space 139 space... end cell end table`
+$\begin{gathered} 11.2^{2} & = h^{2} + 7.4^{2} \\ h^{2} & = 11.2^{2} - 7.4^{2} \\ h = \sqrt{70.68} \\ h = 8.407 139 ... \end{gathered}$
 
 **First step to finding h ****[1] **
 **Complete method for finding h**** [1]**
@@ -160,11 +160,11 @@ $40.5\mathrm{cm}^{2}$* ***[1]**
 
 > *Now we can find the cross-sectional area using the area of a triangle formula.*
 
-`table row A equals cell 1 half cross times 7.4 cross times 8.4007 space 139 space... end cell end table`
+$\begin{gathered} A = 1 \frac{1}{2} \times 7.4 \times 8.4007 139 ... \end{gathered}$
 
 **[1]**
 
-`table row A equals cell 31.106 space 417 space... space cm squared end cell end table`
+$\begin{gathered} A = 31.106 417 ... cm^{2} \end{gathered}$
 
 > *Again, do not round!  Only do so for the final answer. *
 
@@ -183,7 +183,7 @@ $V=467\mathrm{cm}^{3}$ **[1]**
 ### 2() — 1 marks
 > *The volume of a cylinder with radius *$r$* and height *$h$* is *$πr^{2}h$*.*
 
-`table row V equals cell straight pi cross times 5 squared cross times 8 end cell row blank equals cell 200 straight pi end cell end table`
+$\begin{gathered} V = \mathrm{\pi } \times 5^{2} \times 8 \\ = 200 \mathrm{\pi } \end{gathered}$
 
 **The third option, **$200π$**, is therefore correct**** ****[1]**
 
@@ -194,7 +194,7 @@ $V=467\mathrm{cm}^{3}$ **[1]**
 
 > *The 1.2 m dimension can only fit 2 boxes, so we would have to consider this as a 1 m space, with the 0.2 m space leftover.*
 
-`table row cell volume space of space crate space end cell equals cell space 2.5 space cross times space 2 space cross times space 1 end cell row blank equals cell space 5 space straight m to the power of 3 space space end exponent end cell row cell volume space of space one space box space end cell equals cell space 0.5 space cross times space 0.5 space cross times space 0.5 space end cell row blank equals cell space 0.125 space straight m cubed space end cell row cell number space of space boxes space end cell equals cell space 5 space divided by space 0.125 space end cell row blank equals cell space 40 end cell end table`
+`| volume of crate | = 2.5 x 2 x 1 | | _ = 5 m ^ 3 | | volume of one box | = 0.5 x 0.5 x 0.5 | | _ = 0.125 m ^3 | | number of boxes | = 5 / 0.125 | | _ = 40 | |`
 
 **Ashraf's method does not work as 50 cm does not go into 1.2 m**** [1]**** **
 
@@ -207,13 +207,13 @@ $V=467\mathrm{cm}^{3}$ **[1]**
 
 > *Substitute the radius and the volume in to form an equation in terms of *$h.$
 
-`table row V equals cell straight pi cross times r squared cross times h end cell row cell 3.8 space end cell equals cell space straight pi cross times 0.5 squared cross times h end cell row cell 3.8 space end cell equals cell space 0.25 straight pi h end cell end table`
+$\begin{gathered} V = \mathrm{\pi } \times r^{2} \times h \\ 3.8 & = \mathrm{\pi } \times 0.5^{2} \times h \\ 3.8 & = 0.25 \mathrm{\pi } h \end{gathered}$
 
 **[1]**
 
 > *Solve the equation to find the value of *$h.$
 
-`table row cell 0.25 straight pi h space end cell equals cell space 3.8 end cell row cell h space end cell equals cell space fraction numerator 3.8 over denominator 0.25 straight pi end fraction end cell row blank equals cell space 4.838310... end cell end table`
+$\begin{gathered} 0.25 \mathrm{\pi } h & = 3.8 \\ h & = \frac{3.8}{0.25 \mathrm{\pi } } \\ = 4.838310... \end{gathered}$
 
 > *Round the answer to 3 significant figures.*
 
@@ -271,9 +271,9 @@ $2.5^{3}=15.625$
 ### 18() — 2 marks
 > *Calculate the area of the triangular cross-sectional area, using the formula: *$A=\frac{1}{2}bh$*, where *$b$* is the length of the base and *$h$* is the perpendicular height.*
 
-`table row A equals cell 1 half cross times 10 cross times 6 end cell end table`
+$\begin{gathered} A = 1 \frac{1}{2} \times 10 \times 6 \end{gathered}$
 
-`table row A equals cell 30 space cm squared end cell end table`
+$\begin{gathered} A = 30 cm^{2} \end{gathered}$
 
 > *Calculate the volume of the prism by multiplying the cross-sectional area by the length of the object.*
 
@@ -290,21 +290,21 @@ $330\mathrm{cm}^{3}$ **[1]**
 
 > *Find the area of the circular base using the formula for the area of a circle, *$A=πr^{2}$*, and the radius 5 cm.*
 
-`table row cell A subscript b a s e space end subscript end cell equals cell space straight pi cross times 5 squared end cell row blank equals cell space 25 straight pi space cm squared end cell end table`
+$\begin{gathered} A_{b a s e } & = \mathrm{\pi } \times 5^{2} \\ = 25 \mathrm{\pi } cm^{2} \end{gathered}$
 
 > *Find the curved surface area using the formula given in the question, a slant height of 12 cm and the radius 5 cm.*
 
-`table row cell C S A space end cell equals cell space straight pi cross times 5 cross times 12 end cell row blank equals cell space 60 straight pi space cm squared end cell end table`
+$\begin{gathered} C S A & = \mathrm{\pi } \times 5 \times 12 \\ = 60 \mathrm{\pi } cm^{2} \end{gathered}$
 
 **Either area found correctly ****[1]**
 
 > *Add together the curved surface area and the area of the circle to find the total surface area of the cone.*
 
-`table attributes columnalign right center left columnspacing 0px end attributes row cell A subscript t o t a l end subscript end cell equals cell space 25 straight pi space plus space 60 straight pi end cell end table`
+$\begin{array}{rcl} A_{t o t a l} & = 25 \mathrm{\pi } + 60 \mathrm{\pi } \end{array}$
 
 **[1]**
 
-`table row cell A subscript t o t a l end subscript space end cell equals cell space 85 straight pi space end cell row blank equals cell space 267.03537... space cm squared end cell end table`
+$\begin{gathered} A_{t o t a l} & = 85 \mathrm{\pi } \\ = 267.03537... cm^{2} \end{gathered}$
 
 > *Leave as an exact value in terms of π (best) or round to 3 significant figures.*
 
@@ -330,7 +330,7 @@ $85π\mathrm{cm}^{2}(=267\mathrm{cm}^{2})$* ***[1]**
 
 > *The tabletop can be modeled as a prism with the area found in part (a) as its cross-section and its thickness will be the height of the prism, *$h$*. *
 
-> *Substitute the volume and the area found in part (a) into the formula for the volume of a prism: *`V equals open parentheses area space cross minus section close parentheses h`*.*
+> *Substitute the volume and the area found in part (a) into the formula for the volume of a prism: *$V = ( \text{area} \text{cross} - \text{section} ) h$*.*
 
 $17150π=4900πh$
 
@@ -338,7 +338,7 @@ $17150π=4900πh$
 
 > *Divide both sides by 4900π.*
 
-`table row cell h space end cell equals cell space fraction numerator 17150 straight pi over denominator 4900 straight pi end fraction end cell end table`
+$\begin{gathered} h & = \frac{17150 \mathrm{\pi } }{4900 \mathrm{\pi } } \end{gathered}$
 
 > *Type into your calculator to find the answer.*
 
@@ -350,13 +350,13 @@ $\mathrm{Thickness}=3.5\mathrm{cm}$* ***[1]**
 
 > *Substitute the volume and radius into the formula for the volume of a cylinder: *$V=πr^{2}h$*.*
 
-`17 space 150 straight pi equals straight pi open parentheses 70 close parentheses squared h`
+$17 150 \mathrm{\pi } = \mathrm{\pi } ( 70 )^{2} h$
 
 **[1]**
 
 > *Divide both sides by *$π$*. *
 
-`17 space 150 equals open parentheses 70 close parentheses squared h`
+$17 150 = ( 70 )^{2} h$
 
 > *Use your calculator to find the value of 70*<sup>*2*</sup>*.*
 
@@ -364,7 +364,7 @@ $17150=4900h$
 
 > *Divide both sides by 4900.*
 
-`table row cell h space end cell equals cell space 17150 over 4900 end cell end table`
+$\begin{gathered} h & = \frac{17150}{4900} \end{gathered}$
 
 > *Type into your calculator to find the answer.*
 
@@ -375,19 +375,19 @@ $\mathrm{Thickness}=3.5\mathrm{cm}$* ***[1]**
 ### 9() — 4 marks
 > *Calculate the volume of the cylinder using volume of a cylinder = *$πr^{2}h$*.*
 
-`table row cell V subscript c y l i n d e r end subscript end cell equals cell straight pi cross times 4 squared cross times 10 end cell row blank equals cell 160 straight pi end cell end table`
+$\begin{gathered} V_{c y l i n d e r} & = \mathrm{\pi } \times 4^{2} \times 10 \\ = 160 \mathrm{\pi } \end{gathered}$
 
 **[1]**
 
 > *Calculate the volume of the hemisphere using volume of a sphere = *$\frac{4}{3}πr^{3}$*.*
 
-`table row cell V subscript h e m i s p h e r e end subscript end cell equals cell 1 half cross times 4 over 3 straight pi cross times 6 cubed end cell end table`
+$\begin{gathered} V_{h e m i s p h e r e} & = 1 \frac{1}{2} \times \frac{4}{3} \mathrm{\pi } \times 6^{3} \end{gathered}$
 
 **[1]**
 
 > *Evaluate using your calculator*
 
-`table row blank equals cell 144 straight pi end cell end table`
+$\begin{gathered} = 144 \mathrm{\pi } \end{gathered}$
 
 **[1]**
 
@@ -404,7 +404,7 @@ $d=\frac{6}{100}=0.06m$
 
 > *Calculate the volume of the space in the driveway that is to be filled with gravel, using the formula: *$V=l\timesw\timesd$*, where *$l$* is the length of the cuboid *$w$* is the width and *$d$* is the depth.*
 
-`table row V equals cell 11 cross times 4 cross times 0.06 end cell row blank equals cell 2.64 space straight m cubed end cell end table`
+$\begin{gathered} V = 11 \times 4 \times 0.06 \\ = 2.64 \mathrm{m}^{3} \end{gathered}$
 
 **[1]**
 
@@ -418,7 +418,7 @@ $\frac{2.64}{0.4}=6.6$
 
 > *Find the normal cost of the gravel that Martin needs by multiplying the number of bags that he requires by the price of each bag.*
 
-`table row blank blank cell 7 cross times 38 end cell row blank equals cell £ 266 end cell end table`
+$\begin{gathered} 7 \times 38 \\ = \pounds 266 \end{gathered}$
 
 **[1]**
 
@@ -426,22 +426,22 @@ $\frac{2.64}{0.4}=6.6$
 
 > *Calculate 70% of the normal cost by converting the percentage to a decimal and multiplying it by the normal cost.*
 
-`table row blank blank cell 0.7 cross times 266 end cell end table`
+$\begin{gathered} 0.7 \times 266 \end{gathered}$
 
 **[1]**
 
-`table row blank blank cell bold £ bold 186 bold. bold 20 end cell end table`* ***[1]**
+$\begin{gathered} \pounds 186 . 20 \end{gathered}$* ***[1]**
 
 ## Q19 — medium — 4 marks · exam-questions
 
 ### 9() — 4 marks
 > *Calculate the volume of the container, using the formula: *$V=l\timesw\timesh$*, where *$l$* is the length of the cuboid *$w$* is the width and *$h$* is the height.*
 
-`table row V equals cell 50 cross times 40 cross times 30 end cell end table`
+$\begin{gathered} V = 50 \times 40 \times 30 \end{gathered}$
 
 **[1]**
 
-`table row V equals cell 5 cross times 4 cross times 3 cross times 1000 end cell row blank equals cell 60 space 000 space cm cubed end cell end table`
+$\begin{gathered} V = 5 \times 4 \times 3 \times 1000 \\ = 60 000 cm^{3} \end{gathered}$
 
 > *Find the total number of bottles of oil required to fill the container by dividing the volume of the container by the amount of oil in each bottle.*
 
@@ -453,7 +453,7 @@ $\frac{60000}{3000}$
 
 > *Find the cost of filling the container with oil by multiplying the cost per bottle of oil by the number of bottles required.*
 
-`table row blank blank cell 3.5 cross times 20 end cell end table`
+$\begin{gathered} 3.5 \times 20 \end{gathered}$
 
 **[1]**
 
@@ -468,11 +468,11 @@ $\frac{60000}{3000}$
 
 ![4-7-5](assets/070-4-7-5.png)
 
-`table row V equals cell 10 cross times 6 cross times 8 end cell end table`
+$\begin{gathered} V = 10 \times 6 \times 8 \end{gathered}$
 
 **[1]**
 
-`table row V equals cell 480 space cm cubed end cell end table`
+$\begin{gathered} V = 480 cm^{3} \end{gathered}$
 
 > *Sketch a diagram with the container turned over onto its shaded face.*
 
@@ -480,7 +480,7 @@ $\frac{60000}{3000}$
 
 > *Substitute the volume of the juice and the known lengths into the formula for the volume of a cuboid and solve to find the new depth of the juice.*
 
-`table row 480 equals cell 20 cross times 6 cross times d end cell row 480 equals cell 120 d end cell row cell 480 over 120 end cell equals d end table`
+$\begin{gathered} 480 = 20 \times 6 \times d \\ 480 = 120 d \\ \frac{480}{120} & = d \end{gathered}$
 
 **[1]**
 
@@ -538,7 +538,7 @@ $16πt=\frac{1}{4}\times\frac{656}{3}π\,16πt=\frac{164}{3}π$
 
 Find t
 
-`table row cell 16 t end cell equals cell 164 over 3 end cell row t equals cell 41 over 12 end cell row blank equals cell 3.41666... end cell end table`
+$\begin{gathered} 16 t & = \frac{164}{3} \\ t = \frac{41}{12} \\ = 3.41666... \end{gathered}$
 
 **Final answer:** **t= 3.42cm**
 
@@ -593,7 +593,7 @@ $14.4\mathrm{cm}$* ***[1]**
 ### 25() — 3 marks
 > *Work out the perpendicular height of the cone by subtracting the radius of the hemisphere from the total height of the object.*
 
-`table row h equals cell 14 minus 4 end cell row blank equals cell 10 space cm end cell end table`
+$\begin{gathered} h = 14 - 4 \\ = 10 \text{cm} \end{gathered}$
 
 ![4-7-8](assets/079-4-7-8.png)
 
@@ -619,7 +619,7 @@ $V_{Cone}=\frac{160}{3}π$
 
 $V_{Solid}=\frac{128}{3}π+\frac{160}{3}π$
 
-`table row cell V subscript S o l i d end subscript end cell equals cell 96 straight pi end cell row blank equals cell 301.59289... end cell end table`
+$\begin{gathered} V_{S o l i d} & = 96 \mathrm{\pi } \\ = 301.59289... \end{gathered}$
 
 > *Round to 3 significant figures.*
 
@@ -632,11 +632,11 @@ $302\mathrm{cm}^{3}$* ***[1]**
 ### 5() — 3 marks
 > *Calculate the volume of the cheese, using the formula: *$V=l\timesw\timesh$*, where *$l$* is the length of the cuboid, *$w$*is the width and *$h$* is the height.*
 
-`table row V equals cell 15 cross times 10 cross times 2 end cell end table`
+$\begin{gathered} V = 15 \times 10 \times 2 \end{gathered}$
 
 **[1]**
 
-`table row V equals cell 300 space cm cubed end cell end table`
+$\begin{gathered} V = 300 cm^{3} \end{gathered}$
 
 > *Substitute the resultant volume and the known dimensions of the new cheese into the formula for the volume of a cuboid and solve to find the length of the new cheese.*
 
@@ -663,11 +663,11 @@ $r=\frac{40}{2}=20\mathrm{cm}$
 
 > *If there are twelve hemispherical hanging baskets, the volume of these would be equivalent to six spheres of the same radius. Calculate the volume of six spheres of radius 20 cm, using the formula: *$V=\frac{4}{3}πr^{3}$*.*
 
-`table row V equals cell 6 cross times 4 over 3 cross times straight pi cross times 20 cubed end cell end table`
+$\begin{gathered} V = 6 \times \frac{4}{3} \times \mathrm{\pi } \times 20^{3} \end{gathered}$
 
 **[1]**
 
-`table row V equals cell 64 space 000 space straight pi space end cell row blank equals cell 201061.929... space cm cubed end cell end table`
+$\begin{gathered} V = 64 000 \mathrm{\pi } \\ = 201061.929... cm^{3} \end{gathered}$
 
 > *Convert the amount of compost in one bag from litres to cm*<sup>*3*</sup>*.*
 
@@ -692,19 +692,19 @@ $4\times50000=200000\mathrm{cm}^{3}$
 
 > *Calculate the curved surface area, using the formula *$A=4πr^{2}$*, where *$r$* is the radius, and dividing the result by 2.*
 
-`table row A equals cell 1 half cross times 4 cross times straight pi cross times 5 squared end cell end table`
+$\begin{gathered} A = 1 \frac{1}{2} \times 4 \times \mathrm{\pi } \times 5^{2} \end{gathered}$
 
 **[1]**
 
-`table row A equals cell 2 cross times straight pi cross times 25 end cell row blank equals cell 50 straight pi space cm squared end cell end table`
+$\begin{gathered} A = 2 \times \mathrm{\pi } \times 25 \\ = 50 \mathrm{\pi } cm^{2} \end{gathered}$
 
 > *Calculate the area of the bottom circular face, using the formula: *$A=πr^{2}$*.*
 
-`table row A equals cell straight pi cross times 5 squared end cell end table`
+$\begin{gathered} A = \mathrm{\pi } \times 5^{2} \end{gathered}$
 
 **[1]**
 
-`table row A equals cell 25 straight pi space cm squared end cell end table`
+$\begin{gathered} A = 25 \mathrm{\pi } cm^{2} \end{gathered}$
 
 > *Add the two areas together to find the total surface area of the hemisphere.*
 
@@ -727,7 +727,7 @@ $\frac{4πr^{2}}{2}=32π$
 
 > *Solve to find the radius*
 
-`table row cell 2 up diagonal strike pi r squared end cell equals cell 32 up diagonal strike pi end cell row cell 2 r squared end cell equals 32 row cell r squared end cell equals 16 row r equals 4 end table`
+$\begin{gathered} 2 \cancel{\pi } r^{2} & = 32 \cancel{\pi } \\ 2 r^{2} & = 32 \\ r^{2} & = 16 \\ r = 4 \end{gathered}$
 
 **[1]**
 
@@ -754,7 +754,7 @@ $32π+80π+16π=128π$
 ### 5() — 5 marks
 > *Calculate the amount of sand that Sally will need by calculating the volume of the sand pit, using the formula: *$V=l\timesw\timesh$*, where *$l$* is the length, *$w$* is the width and *$h$* is the height.*
 
-`table row V equals cell 100 cross times 60 cross times 40 end cell row blank equals cell 240 space 000 space cm cubed end cell end table`
+$\begin{gathered} V = 100 \times 60 \times 40 \\ = 240 000 cm^{3} \end{gathered}$
 
 **[1]**
 
@@ -774,11 +774,11 @@ $\frac{240000}{8000}$
 
 > *Multiply the cost of each bag of sand by the number of bags required to work out the total cost of filling up the sand pit.*
 
-`table row blank blank cell 2.5 cross times 30 end cell end table`
+$\begin{gathered} 2.5 \times 30 \end{gathered}$
 
 **[1]**
 
-`table row blank equals cell 2.5 cross times 3 cross times 10 end cell row blank equals cell 7.5 cross times 10 end cell row blank equals cell £ 75 end cell end table`
+$\begin{gathered} = 2.5 \times 3 \times 10 \\ = 7.5 \times 10 \\ = \pounds 75 \end{gathered}$
 
 **Sally is wrong, it will cost £75 for the sand, which is more than £70**** ****[1]**
 
@@ -880,25 +880,25 @@ $7\times5=35$
 
 ![4-7-20](assets/066-4-7-20.png)
 
-`table row cell A M squared plus 30 squared end cell equals cell 50 squared end cell row cell A M squared end cell equals cell 50 squared minus 30 squared end cell row cell A M squared end cell equals cell 2500 minus 900 end cell row cell A M squared end cell equals 1600 row cell A M end cell equals cell 40 space cm end cell end table`
+$\begin{gathered} A M^{2} + 30^{2} & = 50^{2} \\ A M^{2} & = 50^{2} - 30^{2} \\ A M^{2} & = 2500 - 900 \\ A M^{2} & = 1600 \\ A M & = 40 \text{cm} \end{gathered}$
 
 > *Calculate the area of the front triangular face, using the formula: *$A=\frac{1}{2}bh$*.*
 
-`table row A equals cell 1 half cross times 60 cross times 40 end cell row blank equals cell 1200 space cm squared end cell end table`
+$\begin{gathered} A = 1 \frac{1}{2} \times 60 \times 40 \\ = 1200 cm^{2} \end{gathered}$
 
 > *Calculate the area of the rectangular face **ARPC**.*
 
-`table row A equals cell 50 cross times 80 end cell row blank equals cell 4000 space cm squared end cell end table`
+$\begin{gathered} A = 50 \times 80 \\ = 4000 cm^{2} \end{gathered}$
 
 **Correct method to calculate at least two different faces**** [1]**
 
 > *Calculate the area of the rectangular base **BCPQ**.*
 
-`table row A equals cell 60 cross times 80 end cell row blank equals cell 4800 space cm squared end cell end table`
+$\begin{gathered} A = 60 \times 80 \\ = 4800 cm^{2} \end{gathered}$
 
 > *Find the total surface area by adding together the base, two of the rectangular side faces and two of the triangular faces.*
 
-`table row cell A subscript t o t a l end subscript end cell equals cell 4800 space plus space 2 cross times 4000 plus 2 cross times 1200 end cell row blank equals cell 4800 plus 8000 plus 2400 end cell end table`
+$\begin{gathered} A_{t o t a l} & = 4800 + 2 \times 4000 + 2 \times 1200 \\ = 4800 + 8000 + 2400 \end{gathered}$
 
 **Adding at least four correct areas**** [1]**
 
@@ -911,7 +911,7 @@ Write an expression for the volume of the cone
 
 - Let *h* be the height and 3*h* be the radius
 
-`1 third straight pi open parentheses 3 h close parentheses squared h equals 128.625 straight pi`
+$1 \frac{1}{3} \mathrm{\pi } ( 3 h )^{2} h = 128.625 \mathrm{\pi }$
 
 **[M1]**
 
@@ -923,7 +923,7 @@ $3h^{3}=128.625$
 
 Rearrange to find h
 
-`table row cell 3 h cubed end cell equals cell 128.625 end cell row cell h cubed end cell equals cell 42.875 end cell row h equals cell 3.5 space cm end cell end table`
+$\begin{gathered} 3 h^{3} & = 128.625 \\ h^{3} & = 42.875 \\ h = 3.5 \text{cm} \end{gathered}$
 
 **[M1]**
 
@@ -953,11 +953,11 @@ Round to 3 significant figures
 
 > *Leave your answer in terms of *$π$*.*
 
-`V equals straight pi cross times open parentheses 2 x close parentheses squared cross times 9 x`
+$V = \mathrm{\pi } \times ( 2 x )^{2} \times 9 x$
 
 **[1]**
 
-`table row V equals cell straight pi cross times 4 x squared cross times 9 x end cell row blank equals cell 36 straight pi x cubed space cm cubed end cell end table`
+$\begin{gathered} V = \mathrm{\pi } \times 4 x^{2} \times 9 x \\ = 36 \mathrm{\pi } x^{3} cm^{3} \end{gathered}$
 
 > *Using the formula for the volume of a sphere: *$V=\frac{4}{3}πr^{3}$*, where *$r$* is the radius of the sphere, substitute the calculated value for the volume and rearrange to find an expression for the radius of the sphere.*
 
@@ -990,17 +990,17 @@ $3x$* ***[1]**
 ### 22() — 4 marks
 > *Find the radius of the large cone, given that the radius is half of the diameter.*
 
-`table row r equals cell 30 over 2 end cell row blank equals cell 15 space cm end cell end table`
+$\begin{gathered} r = \frac{30}{2} \\ = 15 \text{cm} \end{gathered}$
 
 **[1]**
 
 > *Calculate the volume of the large cone, using the formula: *$V=\frac{1}{3}πr^{2}h$*, where *$r$* is the radius of the cone and *$h$* is the perpendicular height.*
 
-`table row cell V subscript L end cell equals cell 1 third cross times straight pi cross times 15 squared cross times 40 end cell end table`
+$\begin{gathered} V_{L} & = 1 \frac{1}{3} \times \mathrm{\pi } \times 15^{2} \times 40 \end{gathered}$
 
 **[1]**
 
-`table row cell V subscript L end cell equals cell 3000 straight pi space cm cubed end cell end table`
+$\begin{gathered} V_{L} & = 3000 \mathrm{\pi } cm^{3} \end{gathered}$
 
 > *The large and small cones are similar objects.*
 
@@ -1010,7 +1010,7 @@ $\mathrm{LSF}=\frac{40}{20}=2$
 
 > *Divide the radius of the large cone by the LSF to work out the radius of the small cone.*
 
-`table row r equals cell 15 over 2 end cell row blank equals cell 7.5 space cm end cell end table`
+$\begin{gathered} r = \frac{15}{2} \\ = 7.5 \text{cm} \end{gathered}$
 
 > *Calculate the volume of the small cone.*
 
@@ -1020,11 +1020,11 @@ $V_{S}=375π\mathrm{cm}^{3}$
 
 > *Work out the volume of the frustum by subtracting the volume of the small cone from the volume of the large cone.*
 
-`table row V equals cell 3000 straight pi minus 375 straight pi end cell end table`
+$\begin{gathered} V = 3000 \mathrm{\pi } - 375 \mathrm{\pi } \end{gathered}$
 
 **[1]**
 
-`table row V equals cell 2625 straight pi end cell row blank equals cell 8246.68071... space cm cubed end cell end table`
+$\begin{gathered} V = 2625 \mathrm{\pi } \\ = 8246.68071... cm^{3} \end{gathered}$
 
 > *Round to 3 significant figures.*
 
@@ -1039,13 +1039,13 @@ $8250\mathrm{cm}^{3}$* ***[1]**
 
 ![z~VekcDQ_4-7-13](assets/049-z-vekcdq-4-7-13.png)
 
-`table attributes columnalign right center left columnspacing 0px end attributes row blank blank cell open parentheses x plus 2 close parentheses minus 2 x end cell row blank equals cell x plus 2 minus 2 x end cell row blank equals cell 2 minus x end cell end table`
+$\begin{array}{rcl} ( x + 2 ) - 2 x \\ = x + 2 - 2 x \\ = 2 - x \end{array}$
 
 **[1]**
 
 > *Find the area of each of the three triangles in terms of *$x$* and add together to find an expression for the total area of the cross-section.*
 
-`A equals open parentheses x cross times 2 x close parentheses plus open parentheses x cross times 2 x close parentheses plus open parentheses 4 x minus 1 close parentheses open parentheses 2 minus x close parentheses`
+$A = ( x \times 2 x ) + ( x \times 2 x ) + ( 4 x - 1 ) ( 2 - x )$
 
 **Correct expression for one area from the cross-section ****[1]**
 
@@ -1059,7 +1059,7 @@ $A=9x-2$
 
 > *Find an expression for the volume of the prism by multiplying the area of the cross-section by the length of the prism.*
 
-`V equals open parentheses 9 x minus 2 close parentheses open parentheses x plus 1 close parentheses`
+$V = ( 9 x - 2 ) ( x + 1 )$
 
 **[1]**
 
@@ -1076,7 +1076,7 @@ $V=9x^{2}+7x-2$* ***[1]**
 ### 19() — 5 marks
 > *Multiply the volume of the quarter sphere by 4 to find the volume of a whole sphere in terms of *$π$*.*
 
-`table row blank blank cell 4 cross times 576 straight pi end cell row blank equals cell 2304 straight pi space cm cubed end cell end table`
+$\begin{gathered} 4 \times 576 \mathrm{\pi } \\ = 2304 \mathrm{\pi } cm^{3} \end{gathered}$
 
 **[1]**
 
@@ -1096,7 +1096,7 @@ $r=12\mathrm{cm}$
 
 > *Substitute the radius of the sphere into the formula for the surface area of a sphere: *$A=4πr^{2}$*.*
 
-`table row cell A subscript s p h e r e end subscript end cell equals cell 4 cross times straight pi cross times 12 squared end cell row blank equals cell 576 straight pi space cm squared end cell end table`
+$\begin{gathered} A_{s p h e r e} & = 4 \times \mathrm{\pi } \times 12^{2} \\ = 576 \mathrm{\pi } cm^{2} \end{gathered}$
 
 > *Divide by 4 to find the curved surface area of the quarter sphere.*
 
@@ -1108,15 +1108,15 @@ $A_{quartersphere}=144π\mathrm{cm}^{2}$
 
 > *Calculate the area of the circle using the formula: *$A=πr^{2}$*.*
 
-`table row cell A subscript c i r c l e end subscript end cell equals cell straight pi cross times 12 squared end cell row blank equals cell 144 straight pi space cm squared end cell end table`
+$\begin{gathered} A_{c i r c l e} & = \mathrm{\pi } \times 12^{2} \\ = 144 \mathrm{\pi } cm^{2} \end{gathered}$
 
 > *Add together the curved surface area of the quarter circle and the area of the circle to find the total surface area of the quarter sphere.*
 
-`table row cell A subscript t o t a l end subscript end cell equals cell 144 straight pi plus 144 straight pi end cell end table`
+$\begin{gathered} A_{t o t a l} & = 144 \mathrm{\pi } + 144 \mathrm{\pi } \end{gathered}$
 
 **[1]**
 
-`table row cell A subscript t o t a l end subscript end cell equals cell 288 straight pi space end cell row blank equals cell 904.778684... space cm squared end cell end table`
+$\begin{gathered} A_{t o t a l} & = 288 \mathrm{\pi } \\ = 904.778684... cm^{2} \end{gathered}$
 
 > *Round to 3 significant figures.*
 
@@ -1132,7 +1132,7 @@ $905\mathrm{cm}^{2}$* ***[1]**
 
 ![p8VmM8GE_4-7-13](assets/055-p8vmm8ge-4-7-13.png)
 
-`table row cell A O squared end cell equals cell 10 squared plus 10 squared end cell row cell A O squared end cell equals 200 row cell A O end cell equals cell 10 square root of 2 end cell end table`
+$\begin{gathered} A O^{2} & = 10^{2} + 10^{2} \\ A O^{2} & = 200 \\ A O & = 10 \sqrt{2} \end{gathered}$
 
 **[1]**
 
@@ -1142,31 +1142,31 @@ $905\mathrm{cm}^{2}$* ***[1]**
 
 ![4-7-14](assets/056-4-7-14.png)
 
-> * *`table row cell tan 55 end cell equals cell fraction numerator V O over denominator 10 square root of 2 end fraction end cell row cell 10 square root of 2 cross times tan 55 end cell equals cell V O end cell end table`
+> * *$\begin{gathered} \tan 55 & = \frac{V O}{10 \sqrt{2} } \\ 10 \sqrt{2} \times \tan 55 & = V O \end{gathered}$
 
 **[1]**
 
-`table row cell V O end cell equals cell 20.19706... space cm end cell end table`
+$\begin{gathered} V O & = 20.19706... \text{cm} \end{gathered}$
 
 > *Work out the perpendicular height of one of the triangular faces by using Pythagoras' theorem on the right-angled triangle **VOM**.*
 
 ![1rt7wH2J_4-7-15](assets/057-1rt7wh2j-4-7-15.png)
 
-`table row cell 10 squared plus open parentheses 20.1... close parentheses squared end cell equals cell V M squared end cell row cell 507.921345... end cell equals cell V M squared end cell row cell V M end cell equals cell 22.537110... space cm end cell end table`
+$\begin{gathered} 10^{2} + ( 20.1... )^{2} & = V M^{2} \\ 507.921345... & = V M^{2} \\ V M & = 22.537110... \text{cm} \end{gathered}$
 
 **[1]**
 
 *Calculate the area of one of the triangular faces, using the formula*: $A=\frac{1}{2}bh$*, where *$b$* is the base of the triangle and *$h$* is the perpendicular height.*
 
-`table row cell A subscript t r i a n g l e end subscript end cell equals cell 1 half cross times 20 cross times 22.5... end cell end table`
+$\begin{gathered} A_{t r i a n g l e} & = 1 \frac{1}{2} \times 20 \times 22.5... \end{gathered}$
 
 **[1]**
 
-`table row cell A subscript t r i a n g l e end subscript end cell equals cell 225.371104... space cm to the power of 2 space end exponent end cell end table`
+$\begin{gathered} A_{t r i a n g l e} & = 225.371104... cm^{2 } \end{gathered}$
 
 > *Calculate the total surface area by adding together the area of the square base and four of the triangular faces.*
 
-`table row cell A subscript t o t a l end subscript end cell equals cell 20 cross times 20 plus 4 cross times 225.371104... end cell row blank equals cell 1301.48441... space cm squared end cell end table`
+$\begin{gathered} A_{t o t a l} & = 20 \times 20 + 4 \times 225.371104... \\ = 1301.48441... cm^{2} \end{gathered}$
 
 > *Round to 2 significant figures.*
 
@@ -1179,7 +1179,7 @@ $1300\mathrm{cm}^{2}$* ***[1]**
 ### 18() — 4 marks
 > *Multiply the given value for the volume of the hemisphere by 2 to give the volume of a sphere with the same radius.*
 
-`table row blank blank cell 250 over 3 straight pi cross times 2 end cell row blank equals cell 500 over 3 straight pi space cm cubed end cell end table`
+$\begin{gathered} \frac{250}{3} \mathrm{\pi } \times 2 \\ = \frac{500}{3} \mathrm{\pi } cm^{3} \end{gathered}$
 
 > *Substitute the volume of the sphere into the formula: *$V=\frac{4}{3}πr^{3}$*.*
 
@@ -1215,15 +1215,15 @@ $A_{curved}=50π\mathrm{cm}^{2}$
 
 > *Calculate the area of the flat circular face, using the formula: *$A=πr^{2}$*.*
 
-`table row cell A subscript c i r c l e end subscript end cell equals cell straight pi cross times 5 squared end cell row blank equals cell 25 straight pi space cm squared end cell end table`
+$\begin{gathered} A_{c i r c l e} & = \mathrm{\pi } \times 5^{2} \\ = 25 \mathrm{\pi } cm^{2} \end{gathered}$
 
 > *Add the curved and flat areas together to find the total surface area of the hemisphere.*
 
-`table row cell A subscript t o t a l end subscript end cell equals cell 50 straight pi plus 25 straight pi end cell end table`
+$\begin{gathered} A_{t o t a l} & = 50 \mathrm{\pi } + 25 \mathrm{\pi } \end{gathered}$
 
 **[1]**
 
-`table row blank blank cell bold 75 bold pi bold space bold cm to the power of bold 2 end cell end table`** [1]**
+`| _ _ 75 pi cm ^ 2 | |`** [1]**
 
 ## Q41 — hard — 4 marks · exam-questions
 
@@ -1232,27 +1232,27 @@ $A_{curved}=50π\mathrm{cm}^{2}$
 
 ![4-7-16](assets/059-4-7-16.png)
 
-`table attributes columnalign right center left columnspacing 0px end attributes row cell 5 squared plus 7 squared end cell equals cell B F squared end cell end table`
+$\begin{array}{rcl} 5^{2} + 7^{2} & = B F^{2} \end{array}$
 
 **[1]**
 
-`table row 74 equals cell B F squared end cell row cell B F end cell equals cell square root of 74 space cm end cell end table`
+$\begin{gathered} 74 = B F^{2} \\ B F & = \sqrt{74} \text{cm} \end{gathered}$
 
 > *Use Pythagoras' theorem on the right-angled triangle **BCF** to find the length **BC**.*
 
 ![4-7-17](assets/060-4-7-17.png)
 
-`table row cell open parentheses square root of 74 close parentheses squared plus B C squared end cell equals cell 15 squared end cell row cell 74 plus B C squared end cell equals 225 row cell B C squared end cell equals 151 row cell B C end cell equals cell square root of 151 space cm end cell end table`
+$\begin{gathered} ( \sqrt{74} )^{2} + B C^{2} & = 15^{2} \\ 74 + B C^{2} & = 225 \\ B C^{2} & = 151 \\ B C & = \sqrt{151} \text{cm} \end{gathered}$
 
 **[1]**
 
 > *Calculate the volume of the cuboid, using the formula: *$V=l\timesw\timesh$*, where *$l$* is the length, *$w$* is the width and *$h$* is the height of the cuboid.*
 
-`table row V equals cell square root of 151 cross times 7 cross times 5 end cell end table`
+$\begin{gathered} V = \sqrt{151} \times 7 \times 5 \end{gathered}$
 
 **[1]**
 
-`table row V equals cell 430.087200... end cell end table`
+$\begin{gathered} V = 430.087200... \end{gathered}$
 
 $430\mathrm{cm}^{3}$** ****[1]**
 
@@ -1269,17 +1269,17 @@ $270π=\frac{1}{3}\timesπ\timesr^{2}\times10$
 
 > *Solve to find the radius.*
 
-`table row cell 270 straight pi end cell equals cell 10 over 3 straight pi r squared end cell row 270 equals cell 10 over 3 r squared end cell row 27 equals cell 1 third r squared end cell row 81 equals cell r squared end cell row r equals cell 9 space cm end cell end table`
+$\begin{gathered} 270 \mathrm{\pi } & = \frac{10}{3} \mathrm{\pi } r^{2} \\ 270 = \frac{10}{3} r^{2} \\ 27 = 1 \frac{1}{3} r^{2} \\ 81 = r^{2} \\ r = 9 \text{cm} \end{gathered}$
 
 **[1]**
 
 > *Calculate the volume of the volume of the hemisphere by substituting the value for the radius into the formula for the volume of a sphere and multiplying the result by *$\frac{1}{2}$*.*
 
-`table row V equals cell 1 half cross times 4 over 3 cross times straight pi cross times 9 cubed end cell end table`
+$\begin{gathered} V = 1 \frac{1}{2} \times \frac{4}{3} \times \mathrm{\pi } \times 9^{3} \end{gathered}$
 
 **[1]**
 
-`table row V equals cell 2 over 3 cross times straight pi cross times 729 end cell row blank equals cell 2 cross times straight pi cross times 243 end cell row blank equals cell 486 straight pi space cm cubed end cell end table`
+$\begin{gathered} V = \frac{2}{3} \times \mathrm{\pi } \times 729 \\ = 2 \times \mathrm{\pi } \times 243 \\ = 486 \mathrm{\pi } cm^{3} \end{gathered}$
 
 > *Add the volume of the hemisphere to the volume of the cone to find the total volume of the shape.*
 
@@ -1292,23 +1292,23 @@ $756π\mathrm{cm}^{3}$* ***[1]**
 ## Q43 — hard — 6 marks · exam-questions
 
 ### 8((a)) — 5 marks
-> *Calculate the area of the cross-section of the tank, using the formula for the area of a trapezium: *`A equals 1 half open parentheses a plus b close parentheses h`*, where *$a$* and *$b$* are the lengths of the parallel sides and *$h$* is the perpendicular height.*
+> *Calculate the area of the cross-section of the tank, using the formula for the area of a trapezium: *$A = 1 \frac{1}{2} ( a + b ) h$*, where *$a$* and *$b$* are the lengths of the parallel sides and *$h$* is the perpendicular height.*
 
-`table row A equals cell 1 half cross times open parentheses 3 plus 1.4 close parentheses cross times 2.4 end cell end table`
+$\begin{gathered} A = 1 \frac{1}{2} \times ( 3 + 1.4 ) \times 2.4 \end{gathered}$
 
 **[1]**
 
-`table row A equals cell 5.28 space straight m squared end cell end table`
+$\begin{gathered} A = 5.28 \mathrm{m}^{2} \end{gathered}$
 
 > *Calculate the volume of the tank by multiplying the cross-sectional area by the length of the tank.*
 
-`table row V equals cell 5.28 cross times 2.5 end cell row blank equals cell 13.2 space straight m cubed end cell end table`
+$\begin{gathered} V = 5.28 \times 2.5 \\ = 13.2 \mathrm{m}^{3} \end{gathered}$
 
 **[1]**
 
 > *Divide the given percentage by 100 and multiply it by the volume to calculate the volume of oil required to fill the tank up to 85% capacity.*
 
-`table row cell V subscript 85 percent sign end subscript end cell equals cell 85 over 100 cross times 13.2 end cell row blank equals cell 11.22 space straight m cubed end cell end table`
+$\begin{gathered} V_{85 \%} & = \frac{85}{100} \times 13.2 \\ = 11.22 \mathrm{m}^{3} \end{gathered}$
 
 **[1]**
 
@@ -1316,11 +1316,11 @@ $756π\mathrm{cm}^{3}$* ***[1]**
 
 *1000 litres = 1 m**<sup>3</sup>*
 
-`table row cell V subscript 85 percent sign end subscript end cell equals cell 11.22 cross times 1000 end cell row blank equals cell 11220 space litres end cell end table`
+$\begin{gathered} V_{85 \%} & = 11.22 \times 1000 \\ = 11220 \text{litres} \end{gathered}$
 
 > *Work out the volume of oil required to fill the tank up to 85% after the initial 300 litres by subtracting 300 from the 85% volume.*
 
-`table attributes columnalign right center left columnspacing 0px end attributes row cell V subscript r e m a i n i n g end subscript end cell equals cell 11220 minus 300 end cell row blank equals 10920 end table`
+$\begin{array}{rcl} V_{r e m a i n i n g} & = 11220 - 300 \\ = 10920 \end{array}$
 
 > *Calculate the time taken, in minutes, for the remaining oil to flow into the tank by dividing the volume by 300.*
 
@@ -1344,35 +1344,35 @@ $36.4\mathrm{minutes}$ **[1]**
 
 > *Calculate the area of the triangle, using the formula: *$A=\frac{1}{2}bh$*, where *$b$* is the base of the triangle and *$h$* is the perpendicular height.*
 
-`table row A equals cell 1 half cross times 1 cross times 9 end cell row blank equals cell 4.5 space straight m squared end cell end table`
+$\begin{gathered} A = 1 \frac{1}{2} \times 1 \times 9 \\ = 4.5 \mathrm{m}^{2} \end{gathered}$
 
 **[1]**
 
 > *Calculate the total area of the cross-section by adding together the area of the triangle and the rectangle.*
 
-`table row A equals cell 1 cross times 15 plus 4.5 end cell row blank equals cell 19.5 space straight m squared end cell end table`
+$\begin{gathered} A = 1 \times 15 + 4.5 \\ = 19.5 \mathrm{m}^{2} \end{gathered}$
 
 **[1]**
 
 > *Calculate the volume of the prism by multiplying the cross-sectional area by the length of the prism.*
 
-`table row V equals cell 19.5 cross times 10 end cell row blank equals cell 195 space straight m cubed end cell end table`
+$\begin{gathered} V = 19.5 \times 10 \\ = 195 \mathrm{m}^{3} \end{gathered}$
 
 **[1]**
 
 > *Convert the volume of the swimming from m*<sup>*3*</sup>* into litres by multiplying by 1000.*
 
-`table row blank blank cell 195 cross times 1000 end cell row blank equals cell 195 space 000 space litres end cell end table`
+$\begin{gathered} 195 \times 1000 \\ = 195 000 \text{litres} \end{gathered}$
 
 > *Divide the volume, in litres, by 50 to work out how many minutes it will take for the water to fill the swimming pool.*
 
-`table row blank blank cell fraction numerator 195 space 000 over denominator 50 end fraction end cell row blank equals cell 3900 space minutes end cell end table`
+$\begin{gathered} \frac{195 000}{50} \\ = 3900 \text{minutes} \end{gathered}$
 
 **[1]**
 
 > *Convert the time to hours by dividing by 60.*
 
-`table row blank blank cell 3900 over 60 end cell end table`
+$\begin{gathered} \frac{3900}{60} \end{gathered}$
 
 $65\mathrm{hours}$ **[1]**
 
@@ -1386,13 +1386,13 @@ $65\mathrm{hours}$ **[1]**
 ## Q45 — hard — 6 marks · exam-questions
 
 ### 17() — 6 marks
-> *Calculate the area of the trapezoidal cross-section, using the formula: *`A equals 1 half open parentheses a plus b close parentheses h`*, where *$a$* and *$b$* are the parallel edges and *$h$* is the perpendicular height of the trapezium.*
+> *Calculate the area of the trapezoidal cross-section, using the formula: *$A = 1 \frac{1}{2} ( a + b ) h$*, where *$a$* and *$b$* are the parallel edges and *$h$* is the perpendicular height of the trapezium.*
 
-`table row A equals cell 1 half cross times open parentheses 1.3 plus 0.5 close parentheses cross times 2 end cell row blank equals cell 1.8 space straight m squared end cell end table`
+$\begin{gathered} A = 1 \frac{1}{2} \times ( 1.3 + 0.5 ) \times 2 \\ = 1.8 \mathrm{m}^{2} \end{gathered}$
 
 > *Calculate the volume of the pond by multiplying the trapezoidal cross-sectional area by the length of the prism.*
 
-`table row V equals cell 1.8 cross times 1 end cell row blank equals cell 1.8 space straight m cubed end cell end table`
+$\begin{gathered} V = 1.8 \times 1 \\ = 1.8 \mathrm{m}^{3} \end{gathered}$
 
 **[1]**
 
@@ -1402,29 +1402,29 @@ $65\mathrm{hours}$ **[1]**
 
 ![4-7-21](assets/051-4-7-21.png)
 
-`table attributes columnalign right center left columnspacing 0px end attributes row V equals cell 0.2 cross times 1 cross times 2 end cell row blank equals cell 0.4 space straight m cubed end cell end table`
+$\begin{array}{rcl} V = 0.2 \times 1 \times 2 \\ = 0.4 \mathrm{m}^{3} \end{array}$
 
 **[1]**
 
 > *Calculate the flow rate in m*<sup>*3*</sup>* per hour, by dividing the volume pumped out by the time taken to do it in hours.*
 
-`table row cell Flow space rate space end cell equals cell fraction numerator space 0.4 over denominator 0.5 end fraction end cell row blank equals cell 0.8 space straight m cubed divided by straight h end cell end table`
+$\begin{gathered} \text{Flow} \text{rate} & = \frac{ 0.4}{0.5} \\ = 0.8 \mathrm{m}^{3} \div \mathrm{h} \end{gathered}$
 
 **[1]**
 
 > *Calculate the volume of the water still to be pumped out by subtracting the volume of water that has already been pumped out from the total volume of the pond.*
 
-`table row cell V subscript r e m a i n i n g end subscript end cell equals cell 1.8 minus 0.4 end cell row blank equals cell 1.4 space straight m cubed end cell end table`
+$\begin{gathered} V_{r e m a i n i n g} & = 1.8 - 0.4 \\ = 1.4 \mathrm{m}^{3} \end{gathered}$
 
 **[1]**
 
 > *Calculate the time it will take to pump the remaining water out by dividing the volume of the remaining water by the flow rate.*
 
-`table row T equals cell fraction numerator 1.4 over denominator 0.8 end fraction end cell end table`
+$\begin{gathered} T = \frac{1.4}{0.8} \end{gathered}$
 
 **[1]**
 
-`table attributes columnalign right center left columnspacing 0px end attributes row T equals cell 14 over 8 end cell row blank equals cell 1.75 end cell end table`
+$\begin{array}{rcl} T = \frac{14}{8} \\ = 1.75 \end{array}$
 
 > *Convert to hours and minutes.*
 
@@ -1435,7 +1435,7 @@ $1\mathrm{hour}45\mathrm{minutes}$* ***[1]**
 ### 6() — 4 marks
 > *Find the volume of the cuboid by multiplying the length by the width by the height.*
 
-`table row cell V space end cell equals cell space 6 space cross times space 8 space cross times space 15 space equals space 720 space cm cubed end cell end table`
+$\begin{gathered} V & = 6 \times 8 \times 15 = 720 cm^{3} \end{gathered}$
 
 **[1]**
 
@@ -1446,7 +1446,7 @@ $x^{3}=720$
 
 > *Solve to find the side length.*
 
-`table row cell x space end cell equals cell space cube root of 720 space equals space 8.9628094... space space cm end cell end table`
+$\begin{gathered} x & = \sqrt[3]{720} = 8.9628094... \text{cm} \end{gathered}$
 
 **[1]**
 
@@ -1455,7 +1455,7 @@ $x^{3}=720$
 
 > *Use either the exact value or the answer button or memory function on your calculator.*
 
-*Surface area  *`table row blank equals cell space 6 x squared space space equals space space 6 open parentheses cube root of 720 close parentheses squared space space equals space 481.991724... end cell end table`
+*Surface area  *$\begin{gathered} = 6 x^{2} = 6 ( \sqrt[3]{720} )^{2} = 481.991724... \end{gathered}$
 
 **[1]**
 
@@ -1476,19 +1476,19 @@ $x^{3}=720$
 
 > *Use Pythagoras' theorem for 3D shapes, *$x^{2}+y^{2}+z^{2}=d^{2}$*, to find an expression for the square of the length of the longest diagonal in terms of *$x.$
 
-`table row cell x squared space plus space x squared space plus space x squared space end cell equals cell space 3 x squared end cell end table`
+$\begin{gathered} x^{2} + x^{2} + x^{2} & = 3 x^{2} \end{gathered}$
 
 **[1]**
 
 > *Form an equation by setting *$3x^{2}$* equal to the square of the longest diagonal, 25 cm.*
 
-`table attributes columnalign right center left columnspacing 0px end attributes row cell 3 x squared space end cell equals cell space 25 squared end cell row cell 3 x squared space end cell equals 625 end table`
+$\begin{array}{rcl} 3 x^{2} & = 25^{2} \\ 3 x^{2} & = 625 \end{array}$
 
 **[1]**
 
-> *At this point you can solve the equation to find *`table row blank blank x end table`*, however it is not necessary as the surface area of a cube is 6 multiplied by the area of one of the squares, so the surface area of the cube = *`table attributes columnalign right center left columnspacing 0px end attributes row blank blank cell 6 x squared end cell end table`*.*
+> *At this point you can solve the equation to find *$\begin{gathered} x \end{gathered}$*, however it is not necessary as the surface area of a cube is 6 multiplied by the area of one of the squares, so the surface area of the cube = *$\begin{array}{rcl} 6 x^{2} \end{array}$*.*
 
-`table row cell SA space end cell equals cell space 6 x squared space equals space 2 open parentheses 3 x squared close parentheses space equals space 2 open parentheses 625 close parentheses space end cell end table`
+$\begin{gathered} \text{SA} & = 6 x^{2} = 2 ( 3 x^{2} ) = 2 ( 625 ) \end{gathered}$
 
 **Correct formula for surface area**** [1] **
 
@@ -1506,11 +1506,11 @@ $x^{3}=720$
 
 > *Use Pythagoras' theorem, *$a^{2}+b^{2}=c^{2}$*, on the right-angled triangle on the base of the crate to find length of the diagonal on the base in terms of *$x.$
 
-`table row cell x squared space plus space x squared space end cell equals cell space 2 x squared end cell end table`
+$\begin{gathered} x^{2} + x^{2} & = 2 x^{2} \end{gathered}$
 
 **[1]**
 
-`table row cell c squared space end cell equals cell space 2 x squared space end cell row cell c space end cell equals cell square root of 2 x squared end root space end cell row blank equals cell space x square root of 2 space cm end cell end table`
+$\begin{gathered} c^{2} & = 2 x^{2} \\ c & = \sqrt{2 x^{2}} \\ = x \sqrt{2} \text{cm} \end{gathered}$
 
 > *Add this to the diagram.*
 
@@ -1518,23 +1518,23 @@ $x^{3}=720$
 
 > *Use Pythagoras' theorem on the right-angled triangle made up of the diagonal at the base, the side with length *$x$* cm and the longest diagonal, 25 cm.*
 
-`table row cell open parentheses x square root of 2 close parentheses squared space plus space x squared space end cell equals cell space 25 squared end cell row cell 2 x squared space plus space x squared space end cell equals cell space 25 squared end cell row cell 3 x squared space end cell equals 625 end table`
+$\begin{gathered} ( x \sqrt{2} )^{2} + x^{2} & = 25^{2} \\ 2 x^{2} + x^{2} & = 25^{2} \\ 3 x^{2} & = 625 \end{gathered}$
 
 **[1]**
 
-> *Solve the equation to find *`table row blank blank x end table`*.*
+> *Solve the equation to find *$\begin{gathered} x \end{gathered}$*.*
 
-`table row cell x squared space end cell equals cell space 625 over 3 end cell row cell x space end cell equals cell space square root of 625 over 3 end root space equals space fraction numerator 25 over denominator square root of 3 end fraction end cell end table`
+`| x ^2 | = 625 / 3 | | x | = sqrt( 625 / 3 ) = (25)/(sqrt( 3) | |`
 
 **[1]**
 
 > *Find the area of one face of the cube.*
 
-`table row cell Area space end cell equals cell space x squared space equals space open parentheses fraction numerator 25 over denominator square root of 3 end fraction close parentheses squared space equals space 625 over 3 end cell end table`
+$\begin{gathered} \text{Area} & = x^{2} = ( \frac{25}{ \sqrt{3} } )^{2} = \frac{625}{3} \end{gathered}$
 
-> *The surface area of a cube is 6 multiplied by the area of one of the squares, so the surface area of the cube = *`table row blank blank cell 6 x squared end cell end table`*.*
+> *The surface area of a cube is 6 multiplied by the area of one of the squares, so the surface area of the cube = *$\begin{gathered} 6 x^{2} \end{gathered}$*.*
 
-`table row cell SA space end cell equals cell space 6 x squared space equals space 6 open parentheses 625 over 3 close parentheses end cell end table`
+$\begin{gathered} \text{SA} & = 6 x^{2} = 6 ( \frac{625}{3} ) \end{gathered}$
 
 ** [1]**
 
@@ -1561,17 +1561,17 @@ $\frac{1}{3}\timesπ\timesr^{2}\times3r=2100$
 
 > *Simplify and divide both sides by π.*
 
-`table row cell 1 third cross times 3 r cubed space cross times pi end cell equals 2100 row cell pi r to the power of 3 space end exponent end cell equals cell space 2100 end cell row cell r cubed space end cell equals cell space 2100 over pi end cell end table`
+$\begin{gathered} 1 \frac{1}{3} \times 3 r^{3} \times \pi & = 2100 \\ \pi r^{3 } & = 2100 \\ r^{3} & = \frac{2100}{\pi } \end{gathered}$
 
 > *Find the cube-root of both sides.*
 
-`r space equals space cube root of 2100 over pi space end root`
+$r = \sqrt[3]{\frac{2100}{pi} }$
 
 **[1]**
 
 > *Round the answer to 3 significant figures.*
 
-`r space equals space cube root of 2100 over pi space end root equals space 8.7435904...`
+$r = \sqrt[3]{\frac{2100}{pi} } = 8.7435904...$
 
 **r ****= 8.74 cm** **[1]**
 
@@ -1607,7 +1607,7 @@ $3240=r^{3}$
 
 > *Take the cube root of both sides.*
 
-`r space equals space cube root of 3240 space equals space 14.79727... space cm`
+$r = \sqrt[3]{3240} = 14.79727... \text{cm}$
 
 > *Round your answer to 3 significant figures.*
 
@@ -1629,7 +1629,7 @@ $π\times6^{2}\times10=360π$
 
 > *Calculate the volume of the hemisphere, using the formula of a sphere *$\frac{4}{3}πr^{3}$* and dividing it by 2*
 
-`open parentheses 4 over 3 cross times pi cross times 6 cubed close parentheses divided by 2 equals 144 straight pi`
+$( \frac{4}{3} \times \pi \times 6^{3} ) \div 2 = 144 \mathrm{\pi }$
 
 > *Calculate the total volume of the shape*
 
@@ -1660,23 +1660,23 @@ $t=7$
 
 > *Substitute the known values and variables  into the formula for the volume of a cone, *$\frac{1}{3}πr^{2}h$* to form an equation*
 
-`1 third cross times pi cross times open parentheses 2 h close parentheses squared cross times h equals 562.5 pi`
+$1 \frac{1}{3} \times \pi \times ( 2 h )^{2} \times h = 562.5 \pi$
 
 **[M1]**
 
 > *Simplify terms on the left side of the equation*
 
-`table row cell 1 third cross times pi cross times 4 h squared cross times h end cell equals cell 562.5 pi end cell row cell 1 third cross times pi cross times 4 h cubed end cell equals cell 562.5 pi end cell row cell 4 over 3 pi h cubed end cell equals cell 562.5 pi end cell end table`
+$\begin{gathered} 1 \frac{1}{3} \times \pi \times 4 h^{2} \times h & = 562.5 \pi \\ 1 \frac{1}{3} \times \pi \times 4 h^{3} & = 562.5 \pi \\ \frac{4}{3} \pi h^{3} & = 562.5 \pi \end{gathered}$
 
 **[M1]**
 
 > *Divide through by *$π$
 
-`table row cell 4 over 3 h cubed end cell equals cell 562.5 end cell end table`
+$\begin{gathered} \frac{4}{3} h^{3} & = 562.5 \end{gathered}$
 
 > *Continue to solve the equation for *$h$
 
-`table row cell 4 h cubed end cell equals cell 3 cross times 562.5 end cell row cell h cubed end cell equals cell fraction numerator 1687.5 over denominator 4 end fraction end cell row h equals cell cube root of 421.875 end root end cell row h equals cell 7.5 end cell end table`
+$\begin{gathered} 4 h^{3} & = 3 \times 562.5 \\ h^{3} & = \frac{1687.5}{4} \\ h = \sqrt[3]{421.875} \\ h = 7.5 \end{gathered}$
 
 **[M1]**
 
@@ -1686,7 +1686,7 @@ $t=7$
 
 ![Diagram of a right circular cone with a height of 7.5 units and a base radius of 15 units, showing a perpendicular from the vertex to the base.](assets/003-diagram-of-a-right-circular-cone-with-a-height-o.png)
 
-`table row cell 7.5 squared plus 15 squared end cell equals cell l squared end cell row cell 56.25 plus 225 end cell equals cell l squared end cell row cell 281.25 end cell equals cell l squared end cell row cell square root of 281.25 end root end cell equals l row l equals cell 16.770... end cell end table`
+$\begin{gathered} 7.5^{2} + 15^{2} & = l^{2} \\ 56.25 + 225 & = l^{2} \\ 281.25 & = l^{2} \\ \sqrt{281.25} & = l \\ l = 16.770... \end{gathered}$
 
 **[M1]**
 
@@ -1706,41 +1706,41 @@ $π\times15\times\sqrt{281.25}=790.291...$
 ## Q52 — very_hard — 5 marks · exam-questions
 
 ### 23() — 5 marks
-> *Calculate the volume of grain that is poured into the container in the first 5 hours, by adding together the volume of the cone *`open parentheses V equals 1 third straight pi r squared h close parentheses`* and the volume of a cylinder, *`open parentheses V equals straight pi r squared h close parentheses`*, of height 2m.*
+> *Calculate the volume of grain that is poured into the container in the first 5 hours, by adding together the volume of the cone *$( V = 1 \frac{1}{3} \mathrm{\pi } r^{2} h )$* and the volume of a cylinder, *$( V = \mathrm{\pi } r^{2} h )$*, of height 2m.*
 
 ![4-7-2](assets/034-4-7-2.png)
 
-`table row V equals cell 1 third straight pi open parentheses 3 close parentheses squared open parentheses 4 close parentheses plus straight pi open parentheses 3 close parentheses squared open parentheses 2 close parentheses end cell end table`
+$\begin{gathered} V = 1 \frac{1}{3} \mathrm{\pi } ( 3 )^{2} ( 4 ) + \mathrm{\pi } ( 3 )^{2} ( 2 ) \end{gathered}$
 
 **For correct substitution into the volume formula for either the cone or the cylinder ****[1]**
 
-`table row V equals cell 1 third straight pi cross times 36 plus straight pi cross times 18 end cell row blank equals cell 12 straight pi plus 18 straight pi end cell end table`
+$\begin{gathered} V = 1 \frac{1}{3} \mathrm{\pi } \times 36 + \mathrm{\pi } \times 18 \\ = 12 \mathrm{\pi } + 18 \mathrm{\pi } \end{gathered}$
 
 **[1]**
 
-`table row V equals cell 30 straight pi space straight m cubed end cell end table`
+$\begin{gathered} V = 30 \mathrm{\pi } \mathrm{m}^{3} \end{gathered}$
 
 > *Calculate the rate of flow of the grain by dividing the volume of grain by the time taken to pour it.*
 
-`table row blank blank cell fraction numerator 30 straight pi over denominator 5 end fraction end cell row blank equals cell 6 straight pi space space straight m cubed straight h to the power of negative 1 end exponent end cell end table`
+$\begin{gathered} \frac{30 \mathrm{\pi } }{5} \\ = 6 \mathrm{\pi } \mathrm{m}^{3} \mathrm{h}^{- 1} \end{gathered}$
 
 > *Calculate the volume of grain that will be poured in 4 hours by multiplying the rate of flow of the grain by 4.*
 
-`table row blank blank cell 6 straight pi cross times 4 end cell row blank equals cell 24 straight pi space space straight m cubed end cell end table`
+$\begin{gathered} 6 \mathrm{\pi } \times 4 \\ = 24 \mathrm{\pi } \mathrm{m}^{3} \end{gathered}$
 
 **[1]**
 
 > *The grain poured in the last 4 hours will just fill the remainder of the cylinder, so calculate the height of the remainder of the cylinder that is filled by substituting the volume into the formula for the volume of a cylinder.*
 
-`table row cell 24 straight pi end cell equals cell straight pi open parentheses 3 close parentheses squared h end cell end table`
+$\begin{gathered} 24 \mathrm{\pi } & = \mathrm{\pi } ( 3 )^{2} h \end{gathered}$
 
 **[1]**
 
-`table row cell 24 straight pi end cell equals cell 9 straight pi h end cell row cell 24 over 9 end cell equals h row h equals cell 8 over 3 space straight m end cell end table`
+$\begin{gathered} 24 \mathrm{\pi } & = 9 \mathrm{\pi } h \\ \frac{24}{9} & = h \\ h = \frac{8}{3} \mathrm{m} \end{gathered}$
 
 > *Work out the value of *$h$* by adding together the height of the cylindrical parts from the two volumes.*
 
-`table row h equals cell 2 plus 8 over 3 end cell end table`
+$\begin{gathered} h = 2 + \frac{8}{3} \end{gathered}$
 
 $\frac{14}{3}m$* ***[1]**
 
@@ -1751,7 +1751,7 @@ $\frac{14}{3}m$* ***[1]**
 ### 27() — 5 marks
 > *Calculate the surface area of the sphere, using the formula: *$A=4πr^{2}$*.*
 
-`table row cell A subscript s p h end subscript end cell equals cell 4 straight pi open parentheses 6 close parentheses squared end cell row blank equals cell 144 straight pi space cm squared end cell end table`
+$\begin{gathered} A_{s p h} & = 4 \mathrm{\pi } ( 6 )^{2} \\ = 144 \mathrm{\pi } cm^{2} \end{gathered}$
 
 **[1]**
 
@@ -1761,29 +1761,29 @@ $A_{cyl}=144π\times2=288π\mathrm{cm}^{2}$
 
 **[1]**
 
-> *Using the formula for the surface area of a cylinder *`open parentheses A equals 2 straight pi r squared plus 2 straight pi r h close parentheses`*, calculate the height of the cylinder.*
+> *Using the formula for the surface area of a cylinder *$( A = 2 \mathrm{\pi } r^{2} + 2 \mathrm{\pi } r h )$*, calculate the height of the cylinder.*
 
-`table row cell 288 straight pi end cell equals cell 2 straight pi open parentheses 3 close parentheses squared plus 2 straight pi open parentheses 3 close parentheses h end cell row cell 288 straight pi end cell equals cell 18 straight pi plus 6 straight pi h end cell row cell 270 straight pi end cell equals cell 6 straight pi h end cell row cell 270 over 6 end cell equals h row h equals cell 45 space cm end cell end table`
+$\begin{gathered} 288 \mathrm{\pi } & = 2 \mathrm{\pi } ( 3 )^{2} + 2 \mathrm{\pi } ( 3 ) h \\ 288 \mathrm{\pi } & = 18 \mathrm{\pi } + 6 \mathrm{\pi } h \\ 270 \mathrm{\pi } & = 6 \mathrm{\pi } h \\ \frac{270}{6} & = h \\ h = 45 \text{cm} \end{gathered}$
 
 **[1]**
 
 > *Calculate the volume of the sphere, using the formula: *$V=\frac{4}{3}πr^{3}$*.*
 
-`table row cell V subscript s p h end subscript end cell equals cell 4 over 3 straight pi open parentheses 6 close parentheses cubed end cell row blank equals cell 288 straight pi space cm cubed end cell end table`
+$\begin{gathered} V_{s p h} & = \frac{4}{3} \mathrm{\pi } ( 6 )^{3} \\ = 288 \mathrm{\pi } cm^{3} \end{gathered}$
 
 > *Calculate the volume of the cylinder, using the formula: *$V=πr^{2}h$*.*
 
-`table row cell V subscript c y l end subscript end cell equals cell straight pi open parentheses 3 close parentheses squared open parentheses 45 close parentheses end cell row blank equals cell 405 straight pi space cm cubed end cell end table`
+$\begin{gathered} V_{c y l} & = \mathrm{\pi } ( 3 )^{2} ( 45 ) \\ = 405 \mathrm{\pi } cm^{3} \end{gathered}$
 
 **Correct expression for the volume of the sphere and the cylinder**** [1]**
 
 > *Find the ratio of the volume of the sphere to the volume of the cylinder.*
 
-`table row blank blank cell 288 straight pi space colon space 405 straight pi end cell end table`
+$\begin{gathered} 288 \mathrm{\pi } : 405 \mathrm{\pi } \end{gathered}$
 
 > *Simplify.*
 
-`table row blank blank cell 288 space colon space 405 end cell end table`
+$\begin{gathered} 288 : 405 \end{gathered}$
 
 $32:45$* ***[1]**
 
@@ -1796,41 +1796,41 @@ $32:45$* ***[1]**
 
 ![4-7-3](assets/025-4-7-3.png)
 
-> *Calculate the area of the rectangle, *`open parentheses A equals l cross times w close parentheses`*, and the area of the trapezium, *`open parentheses A equals 1 half open parentheses a plus b close parentheses h close parentheses`*, then add them together to work out the cross-sectional area.*
+> *Calculate the area of the rectangle, *$( A = l \times w )$*, and the area of the trapezium, *$( A = 1 \frac{1}{2} ( a + b ) h )$*, then add them together to work out the cross-sectional area.*
 
-`table row A equals cell 1 cross times 10 plus 1 half open parentheses 6 plus 2 close parentheses cross times 1 end cell end table`
+$\begin{gathered} A = 1 \times 10 + 1 \frac{1}{2} ( 6 + 2 ) \times 1 \end{gathered}$
 
 **Correct method to split up the cross-section and find the area of one part**** [1] **
 
 **Correct complete method to find the total area of the cross-section**** [1]**
 
-`table row A equals cell 14 space straight m squared end cell end table`
+$\begin{gathered} A = 14 \mathrm{m}^{2} \end{gathered}$
 
 > *Work out the volume of the swimming pool by multiplying the cross-sectional area by the width.*
 
-`table row cell V subscript P o o l end subscript end cell equals cell 14 cross times 5 end cell end table`
+$\begin{gathered} V_{P o o l} & = 14 \times 5 \end{gathered}$
 
 **[1]**
 
-`table row cell V subscript P o o l end subscript end cell equals cell 70 space straight m cubed end cell end table`
+$\begin{gathered} V_{P o o l} & = 70 \mathrm{m}^{3} \end{gathered}$
 
 > *Convert the volume of water from the three tankers from litres to m*<sup>*3*</sup>* by dividing the total number of litres by 1000.*
 
-`table row cell V subscript W a t e r end subscript end cell equals cell fraction numerator 20000 cross times 3 over denominator 1000 end fraction end cell row blank equals cell 60 space straight m cubed end cell end table`
+$\begin{gathered} V_{W a t e r} & = \frac{20000 \times 3}{1000} \\ = 60 \mathrm{m}^{3} \end{gathered}$
 
 > *Subtract the volume of the water from the volume of the swimming pool to find out the the volume that will not be filled with water.*
 
-`table row cell V subscript E m p t y end subscript end cell equals cell 70 minus 60 end cell row blank equals cell 10 space straight m cubed end cell end table`
+$\begin{gathered} V_{E m p t y} & = 70 - 60 \\ = 10 \mathrm{m}^{3} \end{gathered}$
 
 > *Assuming that the part of the swimming pool that is not filled by water is a cuboid, with length 10 m and width 5 m, calculate the height of the cuboid.*
 
 ![4-7-4](assets/026-4-7-4.png)
 
-`table row 10 equals cell 10 cross times 5 cross times h end cell end table`
+$\begin{gathered} 10 = 10 \times 5 \times h \end{gathered}$
 
 **[1]**
 
-`table row 10 equals cell 50 h end cell row h equals cell 0.2 space straight m end cell end table`
+$\begin{gathered} 10 = 50 h \\ h = 0.2 \mathrm{m} \end{gathered}$
 
 **Sam is incorrect****, the surface of the water will be ****20 cm**** below the top of the pool ****[1]**
 
@@ -1839,15 +1839,15 @@ $32:45$* ***[1]**
 ### 22() — 5 marks
 > *Find the radius of the large cone, given that the radius is half of the diameter.*
 
-`table row r equals cell 12 over 2 end cell row blank equals cell 6 space cm end cell end table`
+$\begin{gathered} r = \frac{12}{2} \\ = 6 \text{cm} \end{gathered}$
 
 > *Calculate the volume of the large cone, using the formula: *$V=\frac{1}{3}πr^{2}h$*, where *$r$* is the radius of the cone and *$h$* is the perpendicular height.*
 
-`table row cell V subscript L end cell equals cell 1 third cross times straight pi cross times 6 squared cross times 15 end cell end table`
+$\begin{gathered} V_{L} & = 1 \frac{1}{3} \times \mathrm{\pi } \times 6^{2} \times 15 \end{gathered}$
 
 **[1]**
 
-`table row cell V subscript L end cell equals cell 180 straight pi space cm cubed end cell end table`
+$\begin{gathered} V_{L} & = 180 \mathrm{\pi } cm^{3} \end{gathered}$
 
 > *Work out the height of the small cone by subtracting the height of the frustum from the height of the large cone.*
 
@@ -1860,7 +1860,7 @@ $\mathrm{LSF}=\frac{15}{5}=3$
 
 > *Divide the radius of the large cone by the LSF to work out the radius of the small cone.*
 
-`table row r equals cell 6 over 3 end cell row blank equals cell 2 space cm end cell end table`
+$\begin{gathered} r = \frac{6}{3} \\ = 2 \text{cm} \end{gathered}$
 
 **[1]**
 
@@ -1872,13 +1872,13 @@ $V_{S}=\frac{20}{3}π\mathrm{cm}^{3}$
 
 > *Work out the volume of the frustum by subtracting the volume of the small cone from the volume of the large cone.*
 
-`table row V equals cell 180 straight pi minus 20 over 3 straight pi end cell end table`
+$\begin{gathered} V = 180 \mathrm{\pi } - \frac{20}{3} \mathrm{\pi } \end{gathered}$
 
 **[1]**
 
-`table row V equals cell 520 over 3 straight pi space cm cubed end cell end table`
+$\begin{gathered} V = \frac{520}{3} \mathrm{\pi } cm^{3} \end{gathered}$
 
-> *Calculate the mass of the frustum by multiplying the density of the glass by the volume of the frustum, *`open parentheses M a s s equals D e n s i t y cross times V o l u m e close parentheses`*.*
+> *Calculate the mass of the frustum by multiplying the density of the glass by the volume of the frustum, *$( M a s s = D e n s i t y \times V o l u m e )$*.*
 
 $M=2.5\times\frac{520}{3}π$
 
@@ -1899,7 +1899,7 @@ $1400g$* ***[1]**
 
 ![4-7-18](assets/029-4-7-18.png)
 
-`table row cell open parentheses 16 x close parentheses squared plus open parentheses 12 x close parentheses squared end cell equals cell l squared end cell row cell 256 x squared plus 144 x squared end cell equals cell l squared end cell row cell 400 x squared end cell equals cell l squared end cell row l equals cell 20 x end cell end table`
+$\begin{gathered} ( 16 x )^{2} + ( 12 x )^{2} & = l^{2} \\ 256 x^{2} + 144 x^{2} & = l^{2} \\ 400 x^{2} & = l^{2} \\ l = 20 x \end{gathered}$
 
 **[1]**
 
@@ -1911,13 +1911,13 @@ $2160π=π\times12x\times20x$
 
 > *Solve to find the value of *$x$*.*
 
-`table row cell 2160 straight pi end cell equals cell 240 straight pi x squared end cell row 2160 equals cell 240 x squared end cell row 9 equals cell x squared end cell row x equals 3 end table`
+$\begin{gathered} 2160 \mathrm{\pi } & = 240 \mathrm{\pi } x^{2} \\ 2160 = 240 x^{2} \\ 9 = x^{2} \\ x = 3 \end{gathered}$
 
 **[1]**
 
 > *Substitute the relevant values into the formula for the volume of a cone, *$V=\frac{1}{3}πr^{2}h$*.*
 
-`V equals 1 third cross times open parentheses 12 cross times 3 close parentheses squared cross times open parentheses 16 cross times 3 close parentheses`
+$V = 1 \frac{1}{3} \times ( 12 \times 3 )^{2} \times ( 16 \times 3 )$
 
 **[1]**
 
@@ -1934,15 +1934,15 @@ $20736$** [1]*** *
 ### 11() — 5 marks
 > *Find an expression for the volume of the hemisphere in terms of *$x$*, by substituting the expression for the radius, *$r$*, into the formula for the volume of a sphere, *$V=\frac{4}{3}πr^{3}$*, and multiplying the result by *$\frac{1}{2}$*.*
 
-`table row cell V subscript h e m i s p h e r e end subscript end cell equals cell 1 half cross times 4 over 3 cross times straight pi cross times x cubed end cell end table`
+$\begin{gathered} V_{h e m i s p h e r e} & = 1 \frac{1}{2} \times \frac{4}{3} \times \mathrm{\pi } \times x^{3} \end{gathered}$
 
 **[1]**
 
-`table row cell V subscript h e m i s p h e r e end subscript end cell equals cell 2 over 3 straight pi x cubed end cell end table`
+$\begin{gathered} V_{h e m i s p h e r e} & = \frac{2}{3} \mathrm{\pi } x^{3} \end{gathered}$
 
 > *Write down the perpendicular height, *$h$*, of the cone.*
 
-`table row h equals cell 5 x minus x end cell row blank equals cell 4 x end cell end table`
+$\begin{gathered} h = 5 x - x \\ = 4 x \end{gathered}$
 
 > *Find an expression for the volume of the cone in terms of *$x$*, using the formula for the volume of a cone: *$V=\frac{1}{3}πr^{2}h$*.*
 
@@ -1950,15 +1950,15 @@ $V_{cone}=\frac{1}{3}\timesπ\timesx^{2}\times4x$
 
 > *Calculate the total volume of the solid by adding together the volume of the hemisphere and the cone.*
 
-`table row cell V subscript t o t a l end subscript end cell equals cell 2 over 3 straight pi x cubed plus 4 over 3 straight pi x cubed end cell end table`
+$\begin{gathered} V_{t o t a l} & = \frac{2}{3} \mathrm{\pi } x^{3} + \frac{4}{3} \mathrm{\pi } x^{3} \end{gathered}$
 
 **[1]**
 
-`table attributes columnalign right center left columnspacing 0px end attributes row cell V subscript t o t a l end subscript end cell equals cell 2 straight pi x cubed space cm cubed end cell end table`
+$\begin{array}{rcl} V_{t o t a l} & = 2 \mathrm{\pi } x^{3} cm^{3} \end{array}$
 
 *Find an expression for the volume of the cylinder, using the formula for the volume of a cylinder: *$V=πr^{2}h$.
 
-`V subscript c y l i n d e r end subscript equals straight pi cross times open parentheses 2 x close parentheses squared cross times h`
+$V_{c y l i n d e r} = \mathrm{\pi } \times ( 2 x )^{2} \times h$
 
 **[1]**
 
@@ -1966,11 +1966,11 @@ $V_{cylinder}=4x^{2}πh$
 
 > *The cylinder has the same volume as the solid, so make the two volumes equal and rearrange to find an expression for the perpendicular height in terms of *$x$*. *
 
-`table row cell 2 straight pi x cubed end cell equals cell 4 x squared straight pi h end cell end table`
+$\begin{gathered} 2 \mathrm{\pi } x^{3} & = 4 x^{2} \mathrm{\pi } h \end{gathered}$
 
 **[1]**
 
-`table row cell 2 x cubed end cell equals cell 4 x squared h end cell row cell 1 half x cubed end cell equals cell x squared h end cell end table`
+$\begin{gathered} 2 x^{3} & = 4 x^{2} h \\ 1 \frac{1}{2} x^{3} & = x^{2} h \end{gathered}$
 
 $h=\frac{1}{2}x$* ***[1]**
 
@@ -1993,7 +1993,7 @@ $1-\frac{98}{125}=\frac{27}{125}$
 
 > *Therefore if we cube root *$\frac{27}{125}$*, we have the length scale factor of the small cone to the large cone*
 
-`cube root of 27 over 125 end root equals 3 over 5`
+$\sqrt[3]{\frac{27}{125}} = \frac{3}{5}$
 
 **[1]**
 
@@ -2003,11 +2003,11 @@ $H=\frac{3}{5}h$
 
 > *And*
 
-`table row f equals cell h minus H end cell row blank equals cell h minus 3 over 5 h end cell end table`
+$\begin{gathered} f = h - H \\ = h - \frac{3}{5} h \end{gathered}$
 
 **[1]**
 
-**The height of the frustum is **`table row blank blank cell bold 2 over bold 5 bold italic h end cell end table`** ****[1]**
+**The height of the frustum is **`| _ _ 2 / 5 h | |`** ****[1]**
 
 ## Q59 — very_hard — 6 marks · exam-questions
 
@@ -2040,25 +2040,25 @@ $r=\sqrt{61.11549...}=7.817640...$
 
 > *It is a right angled triangle so you can use Pythagoras' Theorem: *$a^{2}+b^{2}=c^{2}$*, where **c** is the length of the hypotenuse (the slant height) and **a** and **b **are the height and the radius. *
 
-`table row cell l squared space end cell equals cell space 7.81764... squared space plus space 25 squared end cell row cell l space end cell equals cell space square root of 7.81764... squared space plus space 25 squared end root end cell row blank equals cell space 26.193806... end cell end table`
+$\begin{gathered} l^{2} & = 7.81764...^{2} + 25^{2} \\ l & = \sqrt{7.81764...^{2} + 25^{2}} \\ = 26.193806... \end{gathered}$
 
 **[1]**
 
 > *Substitute the values of *$l$* and *$r$* into the formula for the curved surface area of a cone.*
 
-`table row cell C S A space end cell equals cell space pi r l italic space equals space pi open parentheses 7.817640... close parentheses open parentheses 26.193806... close parentheses space equals 643.313706... end cell end table`
+$\begin{gathered} C S A & = \pi r l = \pi ( 7.817640... ) ( 26.193806... ) = 643.313706... \end{gathered}$
 
 **[1]**
 
 > *The area of the sector is equal to the curved surface area of the cone. Use the formula for area of a sector *$\frac{θ}{360^{\circ}}\timesπr^{2}$*, where the radius of the sector is equal to the slant height of the cone, to find the value of the angle, *$x$*.*
 
-`space x over 360 space space cross times space pi space space cross times space table row blank blank 26 end table table row blank blank. end table table row blank blank 193806 end table... squared space equals space table row blank blank 643 end table table row blank blank. end table table row blank blank 313706 end table table row blank blank. end table table row blank blank. end table table row blank blank. end table`
+$\frac{x}{360} \times \pi \times \begin{gathered} 26 \end{gathered} \begin{gathered} . \end{gathered} \begin{gathered} 193806 \end{gathered} ...^{2} = \begin{gathered} 643 \end{gathered} \begin{gathered} . \end{gathered} \begin{gathered} 313706 \end{gathered} \begin{gathered} . \end{gathered} \begin{gathered} . \end{gathered} \begin{gathered} . \end{gathered}$
 
 **[1]**
 
 > *Rearrange and solve to find *$x$*.*
 
-`table row cell x over 360 space space end cell equals cell space fraction numerator 643.313706... over denominator space 26.193806... squared cross times space pi space space end fraction space end cell row cell x over 360 end cell equals cell space 0.298452... end cell row cell x space end cell equals cell space 0.298452... space cross times space 360 space equals space 107.4430... end cell end table`
+$\begin{gathered} \frac{x}{360} & = \frac{643.313706...}{ 26.193806...^{2} \times \pi } \\ \frac{x}{360} & = 0.298452... \\ x & = 0.298452... \times 360 = 107.4430... \end{gathered}$
 
 $x=107^{\circ}$ **[1]**
 
@@ -2069,28 +2069,28 @@ $x=107^{\circ}$ **[1]**
 ### 17() — 5 marks
 > *Find the volume of S by adding together the volume of a cylinder ("*$V=πr^{2}h$*") and the volume of the hemisphere (half the volume of a sphere so "*$V=\frac{1}{2}\times\frac{4}{3}πr^{3}$*").*
 
-`V equals straight pi open parentheses x close parentheses squared open parentheses 20 minus 4 x close parentheses plus 1 half open parentheses 4 over 3 straight pi open parentheses x close parentheses cubed close parentheses`
+$V = \mathrm{\pi } ( x )^{2} ( 20 - 4 x ) + 1 \frac{1}{2} ( \frac{4}{3} \mathrm{\pi } ( x )^{3} )$
 
 **[1]**
 
 > *Equate this to the given expression for the volume of S, and simplify to make things easier.*
 
-`table row cell 1 third straight pi y end cell equals cell straight pi open parentheses x close parentheses squared open parentheses 20 minus 4 x close parentheses plus 1 half open parentheses 4 over 3 straight pi open parentheses x close parentheses cubed close parentheses end cell end table`
+$\begin{gathered} 1 \frac{1}{3} \mathrm{\pi } y & = \mathrm{\pi } ( x )^{2} ( 20 - 4 x ) + 1 \frac{1}{2} ( \frac{4}{3} \mathrm{\pi } ( x )^{3} ) \end{gathered}$
 
 **[1]**
 
-`table attributes columnalign right center left columnspacing 0px end attributes row cell 1 third straight pi y end cell equals cell 20 straight pi x squared minus 4 straight pi x cubed plus 2 over 3 straight pi x cubed end cell row cell 1 third straight pi y end cell equals cell 20 straight pi x squared minus 10 over 3 straight pi x cubed end cell row cell straight pi y end cell equals cell 60 straight pi x squared minus 10 straight pi x cubed end cell row cell up diagonal strike straight pi y end cell equals cell 10 up diagonal strike straight pi x squared open parentheses 6 minus x close parentheses end cell row y equals cell 10 x squared open parentheses 6 minus x close parentheses end cell end table`
+`table columnalign right center left columnspacing 0px end | 1 third pi y | = 20 pi x ^2 - 4 pi x ^3 + 2 / 3 pi x ^3 | | 1 third pi y | = 20 pi x ^2 - 10 / 3 pi x ^3 | | pi y | = 60 pi x ^2 - 10 pi x ^3 | | / pi y | = 10 / pi x ^2 ( 6 - x ) | | y = 10 x ^2 ( 6 - x ) | |`
 
 **[1]**
 
 > *To find the maximum value of y we need to use differentiation.*
 
-`table row y equals cell 60 x squared minus 10 x cubed end cell row cell fraction numerator straight d y over denominator straight d x end fraction end cell equals cell 120 x minus 30 x squared end cell row cell fraction numerator straight d y over denominator straight d x end fraction end cell equals cell 30 x open parentheses 4 minus x close parentheses end cell end table`
+$\begin{gathered} y = 60 x^{2} - 10 x^{3} \\ \frac{ \mathrm{d} y}{ \mathrm{d} x} & = 120 x - 30 x^{2} \\ \frac{ \mathrm{d} y}{ \mathrm{d} x} & = 30 x ( 4 - x ) \end{gathered}$
 
 > *At a maximum value, *$\frac{dy}{dx}=0$*.*
 
-`30 x open parentheses 4 minus x close parentheses equals 0
-up diagonal strike x equals 0 end strike comma space space x equals 4`
+$30 x ( 4 - x ) = 0
+ \cancel{x = 0} , x = 4$
 
 **[1]**
 
@@ -2098,7 +2098,7 @@ up diagonal strike x equals 0 end strike comma space space x equals 4`
 
 > *So *$x=4$* (we can assume) is the **x** value at the maximum for **y**. Substitute this into our equation for **y** in terms of **x**.*
 
-`table row y equals cell 10 cross times 4 squared cross times open parentheses 6 minus 4 close parentheses end cell row y equals cell 10 cross times 16 cross times 2 end cell row y equals 320 end table`
+$\begin{gathered} y = 10 \times 4^{2} \times ( 6 - 4 ) \\ y = 10 \times 16 \times 2 \\ y = 320 \end{gathered}$
 
 **Therefore the maximum value of ****y**** is 320*** ***[1]**
 
@@ -2117,7 +2117,7 @@ up diagonal strike x equals 0 end strike comma space space x equals 4`
 
 > *So using the standard formulae for the area of trapeziums and rectangles we can write down a formula for the total surface area, **S** say, of the prism.*
 
-`table row S equals cell 2 cross times open parentheses 1 half cross times 20 cross times open parentheses 37 plus 28 close parentheses close parentheses plus 2 cross times open parentheses 24 cross times x close parentheses plus open parentheses 24 cross times 28 close parentheses plus open parentheses 24 cross times 37 close parentheses end cell row S equals cell 1300 plus 48 x plus 672 plus 888 end cell row S equals cell 2860 plus 48 x end cell end table`
+$\begin{gathered} S = 2 \times ( 1 \frac{1}{2} \times 20 \times ( 37 + 28 ) ) + 2 \times ( 24 \times x ) + ( 24 \times 28 ) + ( 24 \times 37 ) \\ S = 1300 + 48 x + 672 + 888 \\ S = 2860 + 48 x \end{gathered}$
 
 **Method for area of a trapezium ****[1]** 
 **Method for total surface area ****[1]**
@@ -2132,13 +2132,13 @@ $\frac{37-28}{2}=4.5$
 
 ![4dyd4fS-_edx-igcse-pptq-vol-surf-area-vh-q10-2](assets/021-4dyd4fs-edx-igcse-pptq-vol-surf-area-vh-q10-2.png)
 
-`table row cell therefore x squared end cell equals cell 20 squared plus 4.5 squared end cell row cell x squared end cell equals cell 420.25 end cell row x equals cell 20.5 end cell end table`
+$\begin{gathered} \therefore x^{2} & = 20^{2} + 4.5^{2} \\ x^{2} & = 420.25 \\ x = 20.5 \end{gathered}$
 
 **[1]**
 
 > *Now we can complete our calculation to find the total surface area of the prism.*
 
-`table row S equals cell 2860 plus 48 x end cell row S equals cell 2860 plus 48 cross times 20.5 end cell row S equals 3844 end table`
+$\begin{gathered} S = 2860 + 48 x \\ S = 2860 + 48 \times 20.5 \\ S = 3844 \end{gathered}$
 
 **The total surface area of the prism is 3844 cm**<sup>**3**</sup> **[1]**
 
@@ -2161,7 +2161,7 @@ $M=5.73\times1000=5730g$
 
 > *Now we can find the volume of the statue. (You can use the 'cover up method' to deduce how to rearrange the formula.)*
 
-`table row cell 19.32 end cell equals cell 5730 over V end cell row V equals cell fraction numerator 5730 over denominator 19.32 end fraction end cell row V equals cell 296.583 space 850 space... end cell end table`
+$\begin{gathered} 19.32 & = \frac{5730}{V} \\ V = \frac{5730}{19.32} \\ V = 296.583 850 ... \end{gathered}$
 
 **Correct use of density formula**** [1]**
 
@@ -2194,37 +2194,37 @@ $\frac{296.583850...}{24}=12.357660...$
 
 > *Calculate the area of the larger semi-circle, using: *$A=\frac{1}{2}πr^{2}$*.*
 
-`table row A equals cell 1 half open parentheses straight pi cross times open parentheses 10 close parentheses squared close parentheses end cell row blank equals cell 100 over 2 straight pi space cm squared end cell row blank equals cell space 50 straight pi space cm squared end cell end table`
+$\begin{gathered} A = 1 \frac{1}{2} ( \mathrm{\pi } \times ( 10 )^{2} ) \\ = \frac{100}{2} \mathrm{\pi } cm^{2} \\ = 50 \mathrm{\pi } cm^{2} \end{gathered}$
 
 > *The question asks for the answer as a multiple of π, so it is best to leave your working as a multiple of π.*
 
 > *Calculate the area of the smaller semi-circle, using: *$A=\frac{1}{2}πr^{2}$*.*
 
-`table row A equals cell 1 half open parentheses straight pi cross times open parentheses 7 close parentheses squared close parentheses end cell row blank equals cell 49 over 2 straight pi space cm squared end cell row blank equals cell space 24.5 straight pi space cm squared end cell end table`
+$\begin{gathered} A = 1 \frac{1}{2} ( \mathrm{\pi } \times ( 7 )^{2} ) \\ = \frac{49}{2} \mathrm{\pi } cm^{2} \\ = 24.5 \mathrm{\pi } cm^{2} \end{gathered}$
 
 > *Find the area of the shaded section by subtracting the area of the smaller semi-circle from the area of the larger semi-circle.*
 
-`table row A equals cell 50 straight pi space minus space 24.5 straight pi end cell row blank equals cell 25.5 straight pi end cell end table`
+$\begin{gathered} A = 50 \mathrm{\pi } - 24.5 \mathrm{\pi } \\ = 25.5 \mathrm{\pi } \end{gathered}$
 
 **[1]**
 
 > *The curved surface areas of the tunnel are rectangles, with the width equal to the length of the tunnel and the length equal to the arc-lengths of the semicircles.*
 
-> *Find the arc length of the larger semicircle using the formula *`1 half open parentheses 2 straight pi r close parentheses`* where **r** is the radius.*
+> *Find the arc length of the larger semicircle using the formula *$1 \frac{1}{2} ( 2 \mathrm{\pi } r )$* where **r** is the radius.*
 
-> `table row cell arc space length subscript larger space end cell equals cell space 1 half cross times 2 cross times straight pi cross times 10 space equals space 10 straight pi end cell end table`*  *
+> $\begin{gathered} \text{arc} length_{larger} & = 1 \frac{1}{2} \times 2 \times \mathrm{\pi } \times 10 = 10 \mathrm{\pi } \end{gathered}$*  *
 
 > *Find the curved surface area of the top of the tunnel by multiplying the arc length by the length of the tunnel.*
 
-> `table row cell CSA subscript larger space end cell equals cell space 10 pi space cross times space 30 space equals space 300 pi end cell end table`*  *
+> $\begin{gathered} CSA_{larger} & = 10 \pi \times 30 = 300 \pi \end{gathered}$*  *
 
-> *Find the arc length of the smaller semicircle using the formula *`1 half open parentheses 2 straight pi r close parentheses`* where **r** is the radius.*
+> *Find the arc length of the smaller semicircle using the formula *$1 \frac{1}{2} ( 2 \mathrm{\pi } r )$* where **r** is the radius.*
 
-> `table row cell arc space length subscript smaller space end cell equals cell space 1 half cross times 2 cross times straight pi cross times 7 space equals space 7 straight pi end cell end table`*  *
+> $\begin{gathered} \text{arc} length_{smaller} & = 1 \frac{1}{2} \times 2 \times \mathrm{\pi } \times 7 = 7 \mathrm{\pi } \end{gathered}$*  *
 
 > *Find the curved surface area of the underneath of the tunnel by multiplying the arc length by the length of the tunnel.*
 
-> `table row cell CSA subscript smaller space end cell equals cell space 7 pi space cross times space 30 space equals space 210 pi end cell end table`*  *
+> $\begin{gathered} CSA_{smaller} & = 7 \pi \times 30 = 210 \pi \end{gathered}$*  *
 
 **Either curved surface area found**** [1]**
 
@@ -2259,27 +2259,27 @@ $\frac{296.583850...}{24}=12.357660...$
 
 > *Solve**.*
 
-`table row cell A C to the power of space end cell equals cell square root of 5 squared space plus space 12 squared end root end cell row blank equals cell square root of 169 space end cell row blank equals cell space 13 end cell end table`
+$\begin{gathered} A C^{ } & = \sqrt{5^{2} + 12^{2}} \\ = \sqrt{169} \\ = 13 \end{gathered}$
 
 > *Use Pythagoras'  theorem with triangle **ACM **to find the length of **CM**.*
 
-**  **`table row cell A M to the power of space 2 space end exponent end cell equals cell space A C to the power of space 2 space end exponent plus space C M to the power of space 2 end exponent end cell row cell 16 to the power of space 2 space end exponent end cell equals cell 13 squared space plus space C M squared end cell end table`
+**  **$\begin{gathered} A M^{ 2 } & = A C^{ 2 } + C M^{ 2} \\ 16^{ 2 } & = 13^{2} + C M^{2} \end{gathered}$
 
 **[1]**
 
 > *Rearrange and solve to find **CM.*
 
-`table row cell C M squared to the power of space end cell equals cell space 16 squared space minus space 13 squared end cell row cell C M space end cell equals cell square root of 16 squared space minus space 13 squared end root space end cell row blank equals cell space square root of 87 end cell end table`
+`| C M ^2 ^ | = 16 ^2 - 13 ^2 | | C M | = sqrt( 16 ^2 - 13 ^2 ) | | _ = sqrt( 87 | |`
 
 > *It is better to use the exact value of **CM** in the next part.*
 
 > *Find the length of the prism by multiplying **CM **by 2.*
 
-**  **`table row cell C F space end cell equals cell space 2 C M space equals space 2 square root of 87 end cell end table`
+**  **$\begin{gathered} C F & = 2 C M = 2 \sqrt{87} \end{gathered}$
 
 > *Find the volume of the prism by multiplying the area of the cross-section (triangle **ABC**) by the length of the prism (**CF**). The area of a right-angled triangle can be found multiplying the base by the height and dividing by 2. *
 
-`table row cell Volume to the power of space end cell equals cell space 1 half open parentheses 5 close parentheses open parentheses 12 close parentheses cross times 2 square root of 87 space equals space 559.6427... space cm cubed end cell end table`
+$\begin{gathered} Volume^{ } & = 1 \frac{1}{2} ( 5 ) ( 12 ) \times 2 \sqrt{87} = 559.6427... cm^{3} \end{gathered}$
 
 **[1]**
 
@@ -2292,15 +2292,15 @@ $\frac{296.583850...}{24}=12.357660...$
 ### 9() — 4 marks
 > *Find the volume of the cuboid by multiplying the length by the width by the height.*
 
-`table row cell V space end cell equals cell space 1 space cross times space 0.5 space cross times space 0.2 space equals space 0.1 space straight m cubed end cell end table`
+$\begin{gathered} V & = 1 \times 0.5 \times 0.2 = 0.1 \mathrm{m}^{3} \end{gathered}$
 
 > *The density is given in g/cm*<sup>*3*</sup>*, so convert the volume into cm before finding the mass of the marble.*
 
-`table row cell V space end cell equals cell space 0.1 space cross times space 100 cubed space space cm cubed end cell row blank equals cell space 100 space 000 space cm cubed end cell end table`
+$\begin{gathered} V & = 0.1 \times 100^{3} cm^{3} \\ = 100 000 cm^{3} \end{gathered}$
 
 **[1]**
 
-> *Calculate the mass of the cuboid by multiplying the volume of the cuboid by its density *`open parentheses M a s s equals space D e n s i t y cross times V o l u m e close parentheses`*.*
+> *Calculate the mass of the cuboid by multiplying the volume of the cuboid by its density *$( M a s s = D e n s i t y \times V o l u m e )$*.*
 
 $M=100000\times2.7=270000g$
 
@@ -2308,7 +2308,7 @@ $M=100000\times2.7=270000g$
 
 > *Convert the mass back into kg by multiplying it by 1000 (1000 grams = 1 kg).*
 
-`table row cell M space end cell equals cell space 270 space 000 space divided by space 1000 space end cell row blank equals cell 270 space kg space end cell end table`
+$\begin{gathered} M & = 270 000 \div 1000 \\ = 270 \text{kg} \end{gathered}$
 
 **[1]**
 
@@ -2326,13 +2326,13 @@ $V=\frac{4}{3}\timesπ\times15^{3}=4500π$
 
 > *Subtract the initial volume of the ball (5000 cm*<sup>*3*</sup>*) from the full volume to find the amount of air that is pumped into the ball.  *
 
-`table row cell 4500 pi minus space 5000 space end cell equals cell space 9137.1669 space cm cubed end cell end table`
+$\begin{gathered} 4500 \pi - 5000 & = 9137.1669 cm^{3} \end{gathered}$
 
 **[1]**
 
 > *The air is pumped in at a rate of 160 cm*<sup>*3 *</sup>*per second, so divide the amount of air that is pumped in by the rate to find the number of seconds taken to fill the ball.*
 
-`table row cell 9137.1669 space divided by space 160 space end cell equals cell space 57.107293... space seconds end cell end table`
+$\begin{gathered} 9137.1669 \div 160 & = 57.107293... \text{seconds} \end{gathered}$
 
 **[1]**
 
@@ -2351,15 +2351,15 @@ $V=\frac{4}{3}\timesπ\times15^{3}=4500π$
 
 > *The total surface area of the solid shape is made up of the two curved surface areas of each cone added together.  Substitute the radius and slant height for each into the given formula for the curved surface area, *$πrl$*.*
 
-`table row cell CSA subscript smaller space cone end subscript end cell equals cell pi cross times r cross times 2 r space equals space 2 r squared pi end cell end table`
+$\begin{gathered} CSA_{smaller cone} & = \pi \times r \times 2 r = 2 r^{2} \pi \end{gathered}$
 
-`table row cell CSA subscript bigger space cone end subscript end cell equals cell pi cross times r cross times 3 r space equals 3 r squared pi end cell end table`
+$\begin{gathered} CSA_{bigger cone} & = \pi \times r \times 3 r = 3 r^{2} \pi \end{gathered}$
 
 **Either expression correct ****[1]**
 
 > *Add the two curved surface areas together to form an expression for the total surface area of the shape.*
 
-`table row cell 2 pi r squared space plus space 3 pi r squared space end cell equals cell space 5 pi r squared end cell end table`
+$\begin{gathered} 2 \pi r^{2} + 3 \pi r^{2} & = 5 \pi r^{2} \end{gathered}$
 
 > *Form an equation by setting this expression equal to the value given for the total surface area of the shape.*
 
@@ -2369,15 +2369,15 @@ $5πr^{2}=57.8π$
 
 > *Solve by first dividing both sides by **π.*
 
-`table row cell 5 r squared space end cell equals cell space 57.8 end cell end table`
+$\begin{gathered} 5 r^{2} & = 57.8 \end{gathered}$
 
 > *Divide both sides by 5.*
 
-`table row cell r squared space end cell equals cell space fraction numerator 57.8 over denominator 5 end fraction space equals space 11.56 end cell end table`
+$\begin{gathered} r^{2} & = \frac{57.8}{5} = 11.56 \end{gathered}$
 
 > *Square root both sides.*
 
-`table row cell r space end cell equals cell space square root of 11.56 end root space equals space 3.4 end cell end table`
+$\begin{gathered} r & = \sqrt{11.56} = 3.4 \end{gathered}$
 
 $r=3.4\mathrm{cm}$* ***[1]**
 
@@ -2386,45 +2386,45 @@ $r=3.4\mathrm{cm}$* ***[1]**
 ### 14() — 5 marks
 > *The height of the cylinder is *$6r-5r=r$*. Find an expression for the volume of the cylinder in terms of *$r$*, by substituting the expression for the radius, *$r$*, and the height, *$r$*, into the formula for the volume of a cylinder, *$V=πr^{2}h$*.*
 
-`table row cell straight V subscript cylinder space end cell equals cell space pi space cross times space r squared space cross times space r space equals space pi r cubed end cell end table`
+$\begin{gathered} \mathrm{V}_{cylinder} & = \pi \times r^{2} \times r = \pi r^{3} \end{gathered}$
 
 **[1]**
 
 > *Find an expression for the volume of the cone in terms of *$r$*, by substituting the expression for the radius, *$r$*, and the height, *$5r$*, into the formula for the volume of a cone, *$V=\frac{1}{3}πr^{2}h$*.*
 
-`table row cell straight V subscript cone space end cell equals cell space 1 third cross times pi space cross times space r squared space cross times space 5 r space equals space 5 over 3 pi r cubed end cell end table`
+$\begin{gathered} \mathrm{V}_{cone} & = 1 \frac{1}{3} \times \pi \times r^{2} \times 5 r = \frac{5}{3} \pi r^{3} \end{gathered}$
 
 > *Find an expression for the total volume of the decoration in terms of *$r$*, by adding the expression for the volume of the cone to the expression for the volume of the cylinder. *
 
-`table row cell straight V space end cell equals cell space pi r cubed space plus space 5 over 3 pi r cubed end cell end table`
+$\begin{gathered} \mathrm{V} & = \pi r^{3} + \frac{5}{3} \pi r^{3} \end{gathered}$
 
 **[1]**
 
 > *Simplify.*
 
-`table row cell straight V space end cell equals cell space 8 over 3 pi r cubed end cell end table`
+$\begin{gathered} \mathrm{V} & = \frac{8}{3} \pi r^{3} \end{gathered}$
 
 > *Form an equation for the total volume of the decoration by setting this expression equal to 225 cm*<sup>*3*</sup>*. *
 
-`table row cell 8 over 3 pi r cubed space end cell equals cell space 225 end cell end table`
+$\begin{gathered} \frac{8}{3} \pi r^{3} & = 225 \end{gathered}$
 
 **[1]**
 
 > *Solve the equation by multiplying by 3 and dividing by 8.  *
 
-`table row cell pi r cubed space end cell equals cell space fraction numerator 225 space cross times space 3 over denominator 8 end fraction equals 675 over 8 space end cell end table`
+$\begin{gathered} \pi r^{3} & = \frac{225 \times 3}{8} = \frac{675}{8} \end{gathered}$
 
 > *Divide both sides by **π**.*
 
-`table row cell r cubed space end cell equals cell fraction numerator 675 over denominator 8 pi end fraction space end cell end table`
+$\begin{gathered} r^{3} & = \frac{675}{8 \pi } \end{gathered}$
 
 > *Take the cube root of both sides.*
 
-`table row cell r space end cell equals cell space root index space 3 of fraction numerator 675 over denominator 8 pi end fraction space end root end cell end table`
+`| r | = sqrt index 3 of (675)/(8 pi) ) | |`
 
 **[1]**
 
-`table row cell r space end cell equals cell space 2.99470906.... end cell end table`
+$\begin{gathered} r & = 2.99470906.... \end{gathered}$
 
 > *Round the final answer to 3 significant figures.*
 
@@ -2467,7 +2467,7 @@ $r^{3}=27$
 
 > *Find the cube-root of both sides*
 
-`r equals cube root of 27 equals 3`
+$r = \sqrt[3]{27} = 3$
 
 **3 cm** **[1]**
 
@@ -2484,37 +2484,37 @@ $\frac{v}{\frac{4}{3}π}=r^{3}$
 
 > *Simplify the left-hand side.*
 
-`table row cell v space divided by space fraction numerator 4 straight pi space over denominator 3 end fraction end cell equals cell space r cubed end cell row cell v space cross times space fraction numerator 3 over denominator 4 straight pi end fraction space end cell equals cell space r cubed end cell row cell r cubed space end cell equals cell space fraction numerator space 3 v over denominator 4 straight pi end fraction end cell end table`
+$\begin{gathered} v \div \frac{4 \mathrm{\pi } }{3} & = r^{3} \\ v \times \frac{3}{4 \mathrm{\pi } } & = r^{3} \\ r^{3} & = \frac{ 3 v}{4 \mathrm{\pi } } \end{gathered}$
 
 > *Take the cube root of both sides.*
 
-`table row cell r space end cell equals cell space cube root of fraction numerator space 3 v over denominator 4 straight pi end fraction end root end cell end table`
+$\begin{gathered} r & = \sqrt[3]{ \frac{ 3 v}{4 \mathrm{\pi } } } \end{gathered}$
 
 **[1]**
 
 > *Substitute the volume of Earth into the formula found for the radius.*
 
-`table row cell r subscript E space end cell equals cell space cube root of fraction numerator space 3 open parentheses 1.08 space cross times space 10 to the power of 12 close parentheses space over denominator 4 pi end fraction end root end cell end table`
+$\begin{gathered} r_{E} & = \sqrt[3]{ \frac{ 3 ( 1.08 \times 10^{12} ) }{4 \pi } } \end{gathered}$
 
 > *Type directly into your calculator using the cube root, fraction and **π** button.*
 
-`table row cell straight r subscript straight E space end cell equals cell space cube root of fraction numerator space 3 open parentheses 1.08 space cross times space 10 to the power of 12 close parentheses space over denominator 4 straight pi end fraction end root space equals space 6364.7065... end cell end table`
+$\begin{gathered} \mathrm{r}_{E} & = \sqrt[3]{ \frac{ 3 ( 1.08 \times 10^{12} ) }{4 \mathrm{\pi } } } = 6364.7065... \end{gathered}$
 
 **[1]**
 
 > *Substitute the volume of Jupiter into the formula found for the radius.*
 
-`table row cell r subscript J space end cell equals cell space cube root of fraction numerator space 3 open parentheses 1.43 space cross times space 10 to the power of 15 close parentheses space over denominator 4 pi end fraction end root end cell end table`
+$\begin{gathered} r_{J} & = \sqrt[3]{ \frac{ 3 ( 1.43 \times 10^{15} ) }{4 \pi } } \end{gathered}$
 
 > *Type directly into your calculator using the cube root, fraction and **π** button.*
 
-`table row cell r subscript J space end cell equals cell space cube root of fraction numerator space 3 open parentheses 1.43 space cross times space 10 to the power of 15 close parentheses space over denominator 4 pi end fraction end root space equals space 69890.1237... end cell end table`
+$\begin{gathered} r_{J} & = \sqrt[3]{ \frac{ 3 ( 1.43 \times 10^{15} ) }{4 \pi } } = 69890.1237... \end{gathered}$
 
 **[1]**
 
 > *Find how many times bigger the radius of Jupiter is than the radius of Earth by dividing the radius of Jupiter by the radius of Earth. *
 
-`table row blank blank cell fraction numerator r subscript J space over denominator r subscript E end fraction end cell end table space table row blank equals blank end table table row blank blank space end table table row blank blank cell fraction numerator 69890.1237... over denominator 6364.7065... end fraction end cell end table table row blank blank space end table table row blank equals blank end table table row blank blank space end table table row blank blank 10 end table table row blank blank. end table table row blank blank 98 end table table row blank blank. end table table row blank blank. end table table row blank blank. end table`
+$\begin{gathered} \frac{r_{J} }{r_{E} } \end{gathered} \begin{gathered} = \end{gathered} \begin{gathered} \end{gathered} \begin{gathered} \frac{69890.1237...}{6364.7065...} \end{gathered} \begin{gathered} \end{gathered} \begin{gathered} = \end{gathered} \begin{gathered} \end{gathered} \begin{gathered} 10 \end{gathered} \begin{gathered} . \end{gathered} \begin{gathered} 98 \end{gathered} \begin{gathered} . \end{gathered} \begin{gathered} . \end{gathered} \begin{gathered} . \end{gathered}$
 
 > *Rounding to 3 significant figures here gives 11.0, so an answer of 11 is acceptable.*
 
@@ -2539,7 +2539,7 @@ $39^{2}+13^{2}=1690$
 
 > *Calculate the perpendicular height of one of the triangular faces of the large pyramid using Pythagoras' theorem*
 
-`table row cell 45 squared space plus space open parentheses 39 divided by 2 close parentheses squared space end cell equals cell space h squared end cell row cell square root of 45 squared space plus space 19.5 squared end root space end cell equals cell space h end cell row cell 49.0433... space end cell equals cell space h end cell end table`
+$\begin{gathered} 45^{2} + ( 39 \div 2 )^{2} & = h^{2} \\ \sqrt{45^{2} + 19.5^{2}} & = h \\ 49.0433... & = h \end{gathered}$
 
 **[M1]**
 
@@ -2547,9 +2547,9 @@ $39^{2}+13^{2}=1690$
 
 > *Calculate the area of one of the trapezium faces*
 
-`A space equals fraction numerator space 1 over denominator 2 end fraction open parentheses a space plus thin space b close parentheses h
-A space equals fraction numerator space 1 over denominator 2 end fraction open parentheses 13 space plus thin space 39 close parentheses space cross times open parentheses 2 over 3 cross times 49.0433... close parentheses
-A space equals space 850.0847...`
+$A = \frac{ 1}{2} ( a + b ) h
+A = \frac{ 1}{2} ( 13 + 39 ) \times ( \frac{2}{3} \times 49.0433... )
+A = 850.0847...$
 
 **[M1]**
 
@@ -2583,7 +2583,7 @@ $x:h=6:15$
 
 > *Form a formula for *$x$* and *$h$
 
-`table row cell 6 h space end cell equals cell space 15 x end cell row cell space space h space end cell equals cell fraction numerator space 15 x over denominator 6 end fraction space end cell row blank equals cell fraction numerator space 5 x over denominator 2 end fraction end cell end table`
+$\begin{gathered} 6 h & = 15 x \\ h & = \frac{ 15 x}{6} \\ = \frac{ 5 x}{2} \end{gathered}$
 
 **[M1]**
 
@@ -2605,7 +2605,7 @@ $\frac{4212}{25}=180-\frac{5}{6}x^{3}$
 
 > *Rearrange*
 
-`table row cell 5 over 6 x cubed space end cell equals cell space 180 space minus space 4212 over 25 end cell row blank equals cell fraction numerator space 288 over denominator 25 end fraction end cell end table`
+$\begin{gathered} \frac{5}{6} x^{3} & = 180 - \frac{4212}{25} \\ = \frac{ 288}{25} \end{gathered}$
 
 > *Divide both sides by *$\frac{5}{6}$
 

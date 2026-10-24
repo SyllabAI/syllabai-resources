@@ -69,7 +69,7 @@ ii) Write down the maximum possible number of people at the festival.
 ## Q6 — easy — 3 marks · exam-questions
 
 ### 3() — 3 marks — command: write — structured — from paper June 2018 · J560/06
-Asha worked out `fraction numerator 326.8 space cross times open parentheses 6.94 space minus space 3.4 close parentheses over denominator 59.4 end fraction`
+Asha worked out $\frac{326.8 \times ( 6.94 - 3.4 )}{59.4}$
 
 She got an answer of 19.5, correct to 3 significant figures.
 
@@ -106,7 +106,7 @@ You must show your working.
 ### 22() — 3 marks — command: show — structured — from paper 2017	June · 1MA0/2H
 $a=\frac{v-u}{t}$
 
-`table row cell v space end cell equals cell space 37.6 space correct space to space 3 space significant space figures. end cell row cell u space end cell equals cell space 11.3 space correct space to space 3 space significant space figures. end cell row cell t space end cell equals cell space 8.4 space correct space to space 2 space significant space figures. end cell end table`
+$\begin{array}{ccc}v & = & 37.6 \text{correct} to 3 \text{significant} \text{figures} . \\ u & = & 11.3 \text{correct} to 3 \text{significant} \text{figures} . \\ t & = & 8.4 \text{correct} to 2 \text{significant} \text{figures} .\end{array}$
 
 Work out the upper bound for the value of $a$. 
 Show your working clearly.
@@ -168,7 +168,7 @@ Show your working clearly.
 ### 20((a)) — 2 marks — command: show — structured — from paper Jan 2019 · 4MA1/2HR
 $P=ef$
 
-`table row cell e space end cell equals cell space 4.8 space correct space to space 2 space significant space figures. space end cell row cell f space end cell equals cell space 0.26 space correct space to space 2 space significant space figures. end cell end table`
+$\begin{gathered} e & = 4.8 \text{correct} \text{to} 2 \text{significant} figures. \\ f & = 0.26 \text{correct} \text{to} 2 \text{significant} figures. \end{gathered}$
 
 Work out the lower bound for the value of $P$. 
 Show your working clearly. 
@@ -176,7 +176,7 @@ Give your answer correct to $3$ significant figures.
 
 ### 20((b)) — 2 marks — command: show — structured — from paper Jan 2019 · 4MA1/2HR
 $Q=\frac{t}{w}$
- `table row cell t space end cell equals cell space 2.73 space correct space to space 3 space significant space figures. space end cell row cell w space end cell equals cell space 0.04 space correct space to space 1 space significant space figure. end cell end table`
+ $\begin{array}{ccc}t & = & 2.73 \text{correct} to 3 \text{significant} \text{figures} . \\ w & = & 0.04 \text{correct} to 1 \text{significant} \text{figure} .\end{array}$
 
 Work out the upper bound for the value of $Q$. 
 Show your working clearly. 
@@ -324,7 +324,7 @@ Work out an estimate for the number of prizes won in 24 hours. You must show you
 ### 19((a)) — 3 marks — command: calculate — structured — from paper June 2019 · 1MA1/3H
 $D=\frac{u^{2}}{2a}$
 
-`table row cell u space end cell equals cell space 26.2 space correct space to space 3 space significant space figures space end cell row cell a space end cell equals cell space 4.3 space correct space to space 2 space significant space figures end cell end table`
+$\begin{array}{ccc}u & = & 26.2 \text{correct} to 3 \text{significant} \text{figures} \\ a & = & 4.3 \text{correct} to 2 \text{significant} \text{figures} \end{array}$
 
 Calculate the upper bound for the value of $D$. 
 Give your answer correct to $6$ significant figures. 
@@ -409,7 +409,7 @@ Give your answer in g / cm<sup>3</sup> correct to 2 decimal places. Show your wo
 ## Q35 — hard — 3 marks · exam-questions
 
 ### 17() — 3 marks — command: show — structured — from paper 2023 Nov · 4MA1/2H
-`P equals a open parentheses c plus y close parentheses`
+$P = a ( c + y )$
 
 $a=$8.3 correct to 2 significant figures
 

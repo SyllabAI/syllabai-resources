@@ -46,7 +46,7 @@ What is **cancelling** in algebraic fractions?
 
 Cancelling in algebraic fractions means** removing common factors **that appear in both the numerator and denominator.
 
-E.g. The algebraic fraction `fraction numerator 2 open parentheses x plus 3 close parentheses over denominator 6 end fraction` can have the common factor of $2$ removed from both the numerator and denominator, leaving $\frac{x+3}{3}$.
+E.g. The algebraic fraction $\frac{2 ( x + 3 )}{6}$ can have the common factor of $2$ removed from both the numerator and denominator, leaving $\frac{x+3}{3}$.
 
 
 
@@ -76,7 +76,7 @@ What are the common steps for** simplifying** an algebraic fraction such as $\fr
 
 To **simplify** an algebraic fraction such as $\frac{6x-24}{5x-20}$, you should:
 
-1. Factorise fully top and bottom, `fraction numerator 6 open parentheses x minus 4 close parentheses over denominator 5 open parentheses x minus 4 close parentheses end fraction`.
+1. Factorise fully top and bottom, $\frac{6 ( x - 4 )}{5 ( x - 4 )}$.
 2. Then cancel common factors (including common brackets), $\frac{6}{5}$.
 
 
@@ -111,11 +111,11 @@ How can you find the **lowest common denominator (LCD)** for a pair of algebraic
 
 With algebraic fractions, the lowest common denominator (LCD) is found by **multiplying the denominators** together if they **do not share any factors**.
 
-E.g. The LCD of $\frac{3}{x+2}$ and $\frac{5x}{x-3}$ is `open parentheses x plus 2 close parentheses open parentheses x minus 3 close parentheses`.
+E.g. The LCD of $\frac{3}{x+2}$ and $\frac{5x}{x-3}$ is $( x + 2 ) ( x - 3 )$.
 
 If they do share factors, find the lowest common denominator by taking the **denominator that already includes the other(s)**.
 
-E.g. The LCD of $\frac{4}{x}$ and `fraction numerator 9 over denominator x open parentheses x plus 1 close parentheses end fraction` is `x open parentheses x plus 1 close parentheses`.
+E.g. The LCD of $\frac{4}{x}$ and $\frac{9}{x ( x + 1 )}$ is $x ( x + 1 )$.
 
 
 
@@ -151,10 +151,10 @@ E.g. $\frac{3x}{x+5}+\frac{4x+2}{x}$.
 
 The process for **adding **two algebraic fractions is:
 
-1. Find the lowest common denominator, `x open parentheses x plus 5 close parentheses`
-2. Write each fraction as an equivalent fraction over the lowest common denominator, `fraction numerator 3 x over denominator open parentheses x plus 5 close parentheses end fraction cross times x over x plus fraction numerator 4 x plus 2 over denominator x end fraction cross times fraction numerator open parentheses x plus 5 close parentheses over denominator open parentheses x plus 5 close parentheses end fraction equals fraction numerator 3 x squared over denominator x open parentheses x plus 5 close parentheses end fraction plus fraction numerator open parentheses x plus 5 close parentheses open parentheses 4 x plus 2 close parentheses over denominator x open parentheses x plus 5 close parentheses end fraction`
-3. Add the numerators, `fraction numerator 3 x squared plus open parentheses x plus 5 close parentheses open parentheses 4 x plus 2 close parentheses over denominator x open parentheses x plus 5 close parentheses end fraction`.
-4. Simplify, `fraction numerator 7 x squared plus 22 x plus 10 over denominator x open parentheses x plus 5 close parentheses end fraction`.
+1. Find the lowest common denominator, $x ( x + 5 )$
+2. Write each fraction as an equivalent fraction over the lowest common denominator, $\frac{3 x}{( x + 5 )} \times \frac{x}{x} + \frac{4 x + 2}{x} \times \frac{( x + 5 )}{( x + 5 )} = \frac{3 x^{2}}{x ( x + 5 )} + \frac{( x + 5 ) ( 4 x + 2 )}{x ( x + 5 )}$
+3. Add the numerators, $\frac{3 x^{2} + ( x + 5 ) ( 4 x + 2 )}{x ( x + 5 )}$.
+4. Simplify, $\frac{7 x^{2} + 22 x + 10}{x ( x + 5 )}$.
 
 
 
@@ -171,10 +171,10 @@ E.g. $\frac{x+6}{x}-\frac{3}{x-1}$.
 
 The process for **subtracting **two algebraic fractions is:
 
-1. Find the lowest common denominator, `x open parentheses x minus 1 close parentheses`
-2. Write each fraction as an equivalent fraction over the lowest common denominator, `fraction numerator x plus 6 over denominator x end fraction cross times fraction numerator open parentheses x minus 1 close parentheses over denominator open parentheses x minus 1 close parentheses end fraction minus fraction numerator 3 over denominator x minus 1 end fraction cross times x over x equals fraction numerator open parentheses x plus 6 close parentheses open parentheses x minus 1 close parentheses over denominator x open parentheses x minus 1 close parentheses end fraction minus fraction numerator 3 x over denominator x open parentheses x minus 1 close parentheses end fraction`
-3. Subtract the numerators, `fraction numerator open parentheses x plus 6 close parentheses open parentheses x minus 1 close parentheses minus 3 x over denominator x open parentheses x minus 1 close parentheses end fraction`.
-4. Simplify, `fraction numerator x squared plus 2 x minus 6 over denominator x open parentheses x minus 1 close parentheses end fraction`.
+1. Find the lowest common denominator, $x ( x - 1 )$
+2. Write each fraction as an equivalent fraction over the lowest common denominator, $\frac{x + 6}{x} \times \frac{( x - 1 )}{( x - 1 )} - \frac{3}{x - 1} \times \frac{x}{x} = \frac{( x + 6 ) ( x - 1 )}{x ( x - 1 )} - \frac{3 x}{x ( x - 1 )}$
+3. Subtract the numerators, $\frac{( x + 6 ) ( x - 1 ) - 3 x}{x ( x - 1 )}$.
+4. Simplify, $\frac{x^{2} + 2 x - 6}{x ( x - 1 )}$.
 
 
 
@@ -191,10 +191,10 @@ E.g.$\frac{6x}{x+1}\times\frac{2x-4}{3x^{2}-6x}$.
 
 To **multiply** algebraic fractions:
 
-1. Simplify both fractions first by factorising and cancelling common factors`fraction numerator 6 x over denominator x plus 1 end fraction cross times fraction numerator 2 open parentheses x minus 2 close parentheses over denominator 3 x open parentheses x minus 2 close parentheses end fraction equals fraction numerator 6 x over denominator x plus 1 end fraction cross times fraction numerator 2 over denominator 3 x end fraction`.
+1. Simplify both fractions first by factorising and cancelling common factors$\frac{6 x}{x + 1} \times \frac{2 ( x - 2 )}{3 x ( x - 2 )} = \frac{6 x}{x + 1} \times \frac{2}{3 x}$.
 2. Multiply the numerators together, $6x\times2=12x$.
-3. Multiply the denominators together, `open parentheses x plus 1 close parentheses cross times 3 x equals 3 x squared plus 3 x`.
-4. Check for further factorising and cancelling, `fraction numerator 12 x over denominator 3 x squared plus 3 x end fraction equals fraction numerator 12 x over denominator 3 x open parentheses x plus 1 close parentheses end fraction equals fraction numerator 4 over denominator x plus 1 end fraction`.
+3. Multiply the denominators together, $( x + 1 ) \times 3 x = 3 x^{2} + 3 x$.
+4. Check for further factorising and cancelling, $\frac{12 x}{3 x^{2} + 3 x} = \frac{12 x}{3 x ( x + 1 )} = \frac{4}{x + 1}$.
 
 
 
@@ -246,8 +246,8 @@ E.g. $\frac{2}{x+1}+\frac{x}{x-3}=2$.
 
 The **two main methods **for solving equations with algebraic fractions are:
 
-1. **Adding/subtract **the fractions first,`fraction numerator 2 open parentheses x minus 3 close parentheses plus x open parentheses x plus 1 close parentheses over denominator open parentheses x plus 1 close parentheses open parentheses x minus 3 close parentheses end fraction equals 2`. Then solve the resulting equation.
-2. **Multiply everything** by the **common denominator **to eliminate fractions first,  `2 open parentheses x minus 3 close parentheses plus x open parentheses x plus 1 close parentheses equals 2 open parentheses x plus 1 close parentheses open parentheses x minus 3 close parentheses`.
+1. **Adding/subtract **the fractions first,$\frac{2 ( x - 3 ) + x ( x + 1 )}{( x + 1 ) ( x - 3 )} = 2$. Then solve the resulting equation.
+2. **Multiply everything** by the **common denominator **to eliminate fractions first,  $2 ( x - 3 ) + x ( x + 1 ) = 2 ( x + 1 ) ( x - 3 )$.
 Then solve the resulting equation.
 
 

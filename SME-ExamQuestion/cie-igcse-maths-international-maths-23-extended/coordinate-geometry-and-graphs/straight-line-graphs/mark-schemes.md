@@ -12,7 +12,7 @@
 
 > *The graph crosses the **y**-axis when **x **= 0.*
 
-`x equals 0 rightwards double arrow y equals 1 half open parentheses 0 close parentheses plus 1 equals 1`
+$x = 0 \Leftrightarrow y = 1 \frac{1}{2} ( 0 ) + 1 = 1$
 
 > *The graph crosses the **x**-axis when **y **= 0.*
 
@@ -20,7 +20,7 @@ $y=0\Rightarrow0=\frac{1}{2}x+1$
 
 > *Subtract 1 from both sides and then multiply both sides by 2.*
 
-`table row cell 1 half x end cell equals cell negative 1 end cell row x equals cell negative 2 end cell end table`
+$\begin{gathered} 1 \frac{1}{2} x & = - 1 \\ x = - 2 \end{gathered}$
 
 > *Draw the straight line by drawing a line which goes through the points (0, 1) and (-2, 0).*
 
@@ -34,13 +34,13 @@ $y=0\Rightarrow0=\frac{1}{2}x+1$
 
 > *Form an equation by letting  *$y=0$*.*
 
-`table row cell space 5 x space plus space 12 space end cell equals cell space 0 end cell end table`
+$\begin{gathered} 5 x + 12 & = 0 \end{gathered}$
 
 **[1]**
 
 > *Solve the equation by subtracting 12 and then dividing by 5.*
 
-`table row cell 5 x space end cell equals cell space 0 space minus space 12 end cell row cell x space end cell equals cell space space fraction numerator negative 12 space over denominator 5 end fraction space end cell end table`
+$\begin{gathered} 5 x & = 0 - 12 \\ x & = \frac{- 12 }{5} \end{gathered}$
 
 > *Write both the **x** and the **y** coordinates in your answer.*
 
@@ -49,26 +49,26 @@ $(-\frac{12}{5},0)$** ****[****1****]**
 
 > *Find the gradient of a line perpendicular to *$l$* by finding the negative reciprocal of the gradient.*
 
-`m equals negative fraction numerator 1 over denominator grad open parentheses l close parentheses end fraction`
+$m = - \frac{1}{grad ( l )}$
 
 $m=-\frac{1}{5}$ **[1]**
 
 ### Q3
 *The perpendicular bisector of **PQ** is a line that is perpendicular to the line **PQ**.* *If a line has gradient *$m$* then the gradient of a perpendicular line is the negative reciprocal,   *$-\frac{1}{m}$*.*
 
-`table row m equals cell negative fraction numerator 1 over denominator open parentheses negative 5 over 6 close parentheses end fraction end cell row blank equals cell 6 over 5 end cell row cell therefore y end cell equals cell 6 over 5 x plus c end cell end table`
+`| m = - (1)/(( - 5 / 6 )) | | _ = 6 / 5 | | therefore y | = 6 / 5 x + c | |`
 
 **[1]**
 
-> *The perpendicular bisector of **PQ** passes through the midpoint of **PQ**. Find the midpoint by finding the average of the coordinates using the formula *`open parentheses fraction numerator x subscript 1 plus x subscript 2 over denominator 2 end fraction comma space fraction numerator y subscript 1 plus y subscript 2 over denominator 2 end fraction close parentheses`*.*
+> *The perpendicular bisector of **PQ** passes through the midpoint of **PQ**. Find the midpoint by finding the average of the coordinates using the formula *$( \frac{x_{1} + x_{2} }{2} , \frac{y_{1} + y_{2} }{2} )$*.*
 
-`table row Midpoint equals cell open parentheses fraction numerator open parentheses negative 3 close parentheses plus 9 over denominator 2 end fraction comma space fraction numerator 8 plus open parentheses negative 2 close parentheses over denominator 2 end fraction close parentheses end cell row blank equals cell open parentheses 3 comma space 3 close parentheses end cell end table`
+$\begin{gathered} \text{Midpoint} = ( \frac{( - 3 ) + 9}{2} , \frac{8 + ( - 2 )}{2} ) \\ = ( 3 , 3 ) \end{gathered}$
 
 **[1]**
 
 > *Substitute **x** = 3 and **y** = 3 into **y **= **mx** + **c** and solve to find **c**.*
 
-`table row 3 equals cell 6 over 5 cross times 3 plus c end cell row 3 equals cell 18 over 5 plus c end cell row cell 3 minus 18 over 5 end cell equals c row cell therefore c end cell equals cell negative 3 over 5 end cell end table`
+$\begin{gathered} 3 = \frac{6}{5} \times 3 + c \\ 3 = \frac{18}{5} + c \\ 3 - \frac{18}{5} & = c \\ \therefore c & = - \frac{3}{5} \end{gathered}$
 
 **[1]**
 
@@ -77,7 +77,7 @@ $m=-\frac{1}{5}$ **[1]**
 $y=\frac{6}{5}x-\frac{3}{5}$ **[1]**
 > *Find the gradient between **P **and **Q** using the formula *$m=\frac{y_{2}-y_{1}}{x_{2}-x_{1}}.$
 
-`table row cell m subscript P Q end subscript end cell equals cell fraction numerator open parentheses negative 2 close parentheses minus 8 over denominator 9 minus open parentheses negative 3 close parentheses end fraction end cell row blank equals cell negative 5 over 6 end cell end table`
+$\begin{gathered} m_{P Q} & = \frac{( - 2 ) - 8}{9 - ( - 3 )} \\ = - \frac{5}{6} \end{gathered}$
 
 **[1]**
 
@@ -91,7 +91,7 @@ $y=-\frac{5}{6}x+c$
 
 > *(6, -1) lies on the line so substitute **x** = 6 and **y** = -1 into the equation and solve to find **c**.*
 
-`table row cell negative 1 end cell equals cell negative 5 over 6 cross times 6 plus c end cell row cell negative 1 end cell equals cell negative 5 plus c end cell row cell negative 1 plus 5 end cell equals c row cell therefore c end cell equals 4 end table`
+$\begin{gathered} - 1 & = - \frac{5}{6} \times 6 + c \\ - 1 & = - 5 + c \\ - 1 + 5 & = c \\ \therefore c & = 4 \end{gathered}$
 
 **[1]**
 
@@ -100,19 +100,19 @@ $y=-\frac{5}{6}x+c$
 $y=-\frac{5}{6}x+4$ **[1]**
 
 ### Q4
-> *First find the gradient of **PQ **using the formula gradient =*$\frac{y_{1}-y_{2}}{x_{1}-x_{2}}$* given two coordinates *`open parentheses x subscript 1 comma space y subscript 1 close parentheses`* and *`open parentheses x subscript 2 comma space y subscript 2 close parentheses`
+> *First find the gradient of **PQ **using the formula gradient =*$\frac{y_{1}-y_{2}}{x_{1}-x_{2}}$* given two coordinates *$( x_{1} , y_{1} )$* and *$( x_{2} , y_{2} )$
 
 *gradient of ***PQ ***= *$\frac{24-9}{22-16}$* or *$\frac{9-24}{16-22}$
 
 **[1]**
 
-> *Notice that whether you use **P **as *`open parentheses x subscript 1 comma space y subscript 1 close parentheses`* and **Q **as *`open parentheses x subscript 2 comma space y subscript 2 close parentheses`*, or the other way round, the gradient of **PQ** will be the same if you use the formula correctly. A common mistake to avoid is substituting values in as *$"\frac{y_{1}-x_{1}}{y_{2}-x_{2}}"$
+> *Notice that whether you use **P **as *$( x_{1} , y_{1} )$* and **Q **as *$( x_{2} , y_{2} )$*, or the other way round, the gradient of **PQ** will be the same if you use the formula correctly. A common mistake to avoid is substituting values in as *$"\frac{y_{1}-x_{1}}{y_{2}-x_{2}}"$
 
 *gradient of ***PQ ***= *$\frac{15}{6}$* or *$\frac{-15}{-6}$
 
 *         =*$\frac{5}{2}$
 
-> *If two lines are perpendicular, the gradient of the second line is the **negative reciprocal** of the gradient of the first line *`open parentheses m subscript 2 equals negative 1 over m subscript 1 close parentheses`*. Therefore*
+> *If two lines are perpendicular, the gradient of the second line is the **negative reciprocal** of the gradient of the first line *$( m_{2} = - \frac{1}{m} _{1} )$*. Therefore*
 
 * gradient of line perpendicular to ***PQ*** is *$-\frac{2}{5}$*.*
 
@@ -134,15 +134,15 @@ $y=-\frac{2}{5}x+3$* ***[1]**
 **Don't forget to write out the final equation, to get full marks!**
 
 ### Q5
-i) *Using the distance of a line formula, *`" d equals square root of open parentheses x subscript 2 minus x subscript 1 close parentheses squared plus open parentheses y subscript 2 minus y subscript 1 close parentheses squared end root "`*to find the length **AC**.*
+i) *Using the distance of a line formula, *$" d = \sqrt{( x_{2} - x_{1} )^{2} + ( y_{2} - y_{1} )^{2}} "$*to find the length **AC**.*
 
-`A C equals square root of open parentheses 4 minus negative 3 close parentheses squared plus open parentheses negative 4 minus 10 close parentheses squared end root`
+$A C = \sqrt{( 4 - - 3 )^{2} + ( - 4 - 10 )^{2}}$
 
 **Part under the square root ****[1] ****Including the square root**** [1]**
 
-`A C equals square root of open parentheses 7 close parentheses squared plus open parentheses negative 14 close parentheses squared end root
-A C equals square root of 245
-A C equals 15.652 space 475 space...`
+$A C = \sqrt{( 7 )^{2} + ( - 14 )^{2}} 
+A C = \sqrt{245} 
+A C = 15.652 475 ...$
 
 **The length ****AC**** is 15.7 units**** [1]**
 
@@ -154,7 +154,7 @@ ii) *To find the equation of a line we need the gradient and a point the line pa
 
 > *The equation of the line **AC**, so far, is *$y=-2x+c$*.  To find *$c$*, use either point **A** or point **C;** we've used point **A**.*
 
-*At *`table row cell A open parentheses negative 3 comma space 10 close parentheses comma space space 10 space end cell equals cell space minus 2 open parentheses negative 3 close parentheses plus c comma space space therefore space c equals 10 minus 6 equals 4 end cell end table`
+*At *$\begin{gathered} A ( - 3 , 10 ) , 10 & = - 2 ( - 3 ) + c , \therefore c = 10 - 6 = 4 \end{gathered}$
 
 $y=-2x+4$** [1]**
 > *The line **BD** will be the other diagonal of the rhombus.*
@@ -163,7 +163,7 @@ $y=-2x+4$** [1]**
 
 > *Find the midpoint of the diagonal **AC**.*
 
-*Midpoint of ***AC*** *`equals open parentheses fraction numerator negative 3 plus 4 over denominator 2 end fraction comma space fraction numerator 10 plus negative 4 over denominator 2 end fraction close parentheses equals open parentheses 1 half comma space 3 close parentheses`
+*Midpoint of ***AC*** *$= ( \frac{- 3 + 4}{2} , \frac{10 + - 4}{2} ) = ( 1 \frac{1}{2} , 3 )$
 
 **[1]**
 
@@ -173,10 +173,10 @@ $y=-2x+4$** [1]**
 
 **[1]**
 
-> *So the line **BD** has gradient *$\frac{1}{2}$* and passes through the point *`open parentheses 1 half comma space 3 close parentheses`*.*
+> *So the line **BD** has gradient *$\frac{1}{2}$* and passes through the point *$( 1 \frac{1}{2} , 3 )$*.*
 
-`therefore y equals 1 half x plus c
-3 equals 1 half open parentheses 1 half close parentheses plus c`
+$\therefore y = 1 \frac{1}{2} x + c
+3 = 1 \frac{1}{2} ( 1 \frac{1}{2} ) + c$
 
 **[1]**
 
@@ -185,7 +185,7 @@ $c=3-\frac{1}{4}=\frac{11}{4}$
 $y=\frac{1}{2}x+\frac{11}{4}$* ***[1]**
 
 ### Q6
-> *In *$y=mx+c$*, *$m$* is the gradient *`open parentheses fraction numerator change space in space y over denominator change space in space x end fraction close parentheses`* and *$c$* is the **y**-intercept*
+> *In *$y=mx+c$*, *$m$* is the gradient *$( \frac{change \text{in} y}{change \text{in} x} )$* and *$c$* is the **y**-intercept*
 
 > *Finding the gradient*
 
@@ -194,10 +194,10 @@ $m=\frac{9--3}{1--2}=4$
 **[1]**
 
 *So we now know the equation is in the form *$y=4x+c$ *To find the *$c$*, substitute in one of the coordinates* 
-*Substituting in (1,9) for *`open parentheses x comma y close parentheses`
+*Substituting in (1,9) for *$( x , y )$
 
-`9 equals 4 open parentheses 1 close parentheses plus c
-9 equals 4 plus c`
+$9 = 4 ( 1 ) + c
+9 = 4 + c$
 
 **[1]**
 
@@ -212,7 +212,7 @@ i) *Sketch the given points and the line found previously*
 
 ![cie-igcse-2019-may-jun-p4-tz2-q7c](assets/003-cie-igcse-2019-may-jun-p4-tz2-q7c.png)
 
-> *As *$AC$* and *$BD$* are perpendicular to each other, we can use the equation of *$AC$* *`open parentheses y equals 4 x plus 5 close parentheses`* to find *$BD$
+> *As *$AC$* and *$BD$* are perpendicular to each other, we can use the equation of *$AC$* *$( y = 4 x + 5 )$* to find *$BD$
 
 > *As they are perpendicular, the gradients will be negative reciprocals of one another e.g. *$\frac{2}{3}$* and *$-\frac{3}{2}$
 
@@ -222,9 +222,9 @@ $y=-\frac{1}{4}x+c$
 
 **[1]**
 
-> *We can then substitute in a point on the line; *`B space open parentheses 3.5 comma space 2 close parentheses`* to find *$c$
+> *We can then substitute in a point on the line; *$B ( 3.5 , 2 )$* to find *$c$
 
-`2 equals negative 1 fourth open parentheses 3.5 close parentheses plus c`
+$2 = - 1 \frac{1}{4} ( 3.5 ) + c$
 
 **[1]**
 
@@ -239,15 +239,15 @@ $c=\frac{23}{8}$
 $y=-\frac{1}{4}x+\frac{23}{8}$ **[1]** 
 **or equivalent e.g. **$y=-0.25x+2.875$** or **$8y=-x+23$
 
-ii) *The diagonals intersect at the midpoint of the line *$BD$* which we are told is *`open parentheses negative 0.5 comma space 3 close parentheses`
+ii) *The diagonals intersect at the midpoint of the line *$BD$* which we are told is *$( - 0.5 , 3 )$
 
-> *From *`B space open parentheses 3.5 comma space 2 close parentheses`* to the midpoint *`open parentheses negative 0.5 comma space 3 close parentheses`* is 4 units left, and 1 unit up, or a vector of *`open parentheses table row cell negative 4 end cell row 1 end table close parentheses`
+> *From *$B ( 3.5 , 2 )$* to the midpoint *$( - 0.5 , 3 )$* is 4 units left, and 1 unit up, or a vector of *$( \begin{gathered} - 4 \\ 1 \end{gathered} )$
 
-*Use of** *`begin italic style stretchy left parenthesis table row cell negative 4 end cell row 1 end table stretchy right parenthesis end style`* **or** *`begin italic style stretchy left parenthesis table row cell negative 8 end cell row 2 end table stretchy right parenthesis end style`* ***[1]**
+*Use of** *$\text{begin} \text{style} ( \begin{gathered} - 4 \\ 1 \end{gathered} )$* **or** *$\text{begin} \text{style} ( \begin{gathered} - 8 \\ 2 \end{gathered} )$* ***[1]**
 
 > *Repeating this from the midpoint to find point *$D$
 
-`open parentheses negative 0.5 minus 4 space comma space 3 plus 1 space close parentheses`
+$( - 0.5 - 4 , 3 + 1 )$
 
 $(-4.5,4)$ **[1]**
 
@@ -295,13 +295,13 @@ $y=\frac{5}{8}x+c$
 
 > *The line goes through the point **A**(2, 3) so substitute *$x=2,y=3$* to form an equation.*
 
-`table attributes columnalign right center left columnspacing 0px end attributes row 3 equals cell 5 over 8 left parenthesis 2 right parenthesis plus c end cell row 3 equals cell 10 over 8 plus c end cell row 3 equals cell 5 over 4 plus c end cell end table`
+$\begin{array}{rcl} 3 = \frac{5}{8} ( 2 ) + c \\ 3 = \frac{10}{8} + c \\ 3 = \frac{5}{4} + c \end{array}$
 
 **[1]**
 
 > *Solve the equation to find the value of **c**.*
 
-`table row cell c plus 5 over 4 end cell equals 3 row c equals cell 3 minus 5 over 4 end cell row c equals cell 7 over 4 end cell end table`
+$\begin{gathered} c + \frac{5}{4} & = 3 \\ c = 3 - \frac{5}{4} \\ c = \frac{7}{4} \end{gathered}$
 
 > *Write out the equation of the line.*
 
@@ -322,7 +322,7 @@ $m=-\frac{1}{\frac{1}{3}}=-3$
 
 > *Substitute the coordinate (2, 3) into the equation to find the value of *$c$*.*
 
-`table attributes columnalign right center left columnspacing 0px end attributes row cell y space end cell equals cell space minus 3 x space plus space c end cell row cell open parentheses 3 close parentheses space end cell equals cell space minus 3 space open parentheses 2 close parentheses space plus space c end cell row blank equals cell space minus 6 space plus space c end cell row blank blank blank row cell c space end cell equals cell space 9 end cell end table`
+$\begin{array}{rcl} y & = - 3 x + c \\ ( 3 ) & = - 3 ( 2 ) + c \\ = - 6 + c \\ \\ c & = 9 \end{array}$
 
 **[1]**
 
@@ -338,11 +338,11 @@ $\frac{1}{3}x+1=-3x+9$
 
 > *Simplify by bringing the *$x$* **terms to one side and the constant terms to the other.*
 
-`table row cell 1 third x space plus space 3 x space end cell equals cell space 9 space minus 1 end cell row cell 10 over 3 x space end cell equals cell space 8 end cell row cell x space end cell equals cell 12 over 5 end cell end table`
+$\begin{gathered} 1 \frac{1}{3} x + 3 x & = 9 - 1 \\ \frac{10}{3} x & = 8 \\ x & = \frac{12}{5} \end{gathered}$
 
 > *Find *$y$* by substituting this into either of the equations.*
 
-`table attributes columnalign right center left columnspacing 0px end attributes row cell y space end cell equals cell space 1 third open parentheses 12 over 5 close parentheses space plus space 1 space end cell row blank equals cell 4 over 5 space plus space 1 end cell row blank equals cell 9 over 5 end cell end table`
+$\begin{array}{rcl} y & = 1 \frac{1}{3} ( \frac{12}{5} ) + 1 \\ = \frac{4}{5} + 1 \\ = \frac{9}{5} \end{array}$
 
 **[1]**
 
@@ -351,7 +351,7 @@ $(2.4,1.8)$ **[1]**
 ### Q10
 > *Rearrange *$l_{1}$* into the form *$y=mx+c$* to find the gradient, *$m$
 
-`table attributes columnalign right center left columnspacing 0px end attributes row cell 2 x plus 12 end cell equals cell 3 y end cell row y equals cell 2 over 3 x plus 4 end cell end table`
+$\begin{array}{rcl} 2 x + 12 & = 3 y \\ y = \frac{2}{3} x + 4 \end{array}$
 
 $m=\frac{2}{3}$
 
@@ -362,9 +362,9 @@ $m=-\frac{3}{2}$
 
 **[1]**
 
-> *From (a), we also know that the equation of *$l_{1}$* is *$y=\frac{2}{3}x+4$* which tells us **B**, its *$y$*-intercept, is *`open parentheses 0 comma space 4 close parentheses`* *
+> *From (a), we also know that the equation of *$l_{1}$* is *$y=\frac{2}{3}x+4$* which tells us **B**, its *$y$*-intercept, is *$( 0 , 4 )$* *
 
-`B equals open parentheses 0 comma space 4 close parentheses`
+$B = ( 0 , 4 )$
 
 **[1]**
 
@@ -383,7 +383,7 @@ $l_{1}:0=\frac{2}{3}x+4$         $l_{2}:0=-\frac{3}{2}x+4$
 
 **[1]**
 
-`table row cell l subscript 1 colon space space 2 over 3 x end cell equals cell negative 4 end cell row x equals cell negative 4 divided by 2 over 3 end cell row blank equals cell negative 6 end cell end table`.           `table row cell l subscript 2 colon space space 3 over 2 x end cell equals 4 row x equals cell 4 divided by 3 over 2 end cell row blank equals cell 8 over 3 end cell end table`
+$\begin{gathered} l_{1} : \frac{2}{3} x & = - 4 \\ x = - 4 \div \frac{2}{3} \\ = - 6 \end{gathered}$.           $\begin{gathered} l_{2} : \frac{3}{2} x & = 4 \\ x = 4 \div \frac{3}{2} \\ = \frac{8}{3} \end{gathered}$
 
 **[1]**
 
@@ -391,9 +391,9 @@ $l_{1}:0=\frac{2}{3}x+4$         $l_{2}:0=-\frac{3}{2}x+4$
 
 > *The base width of the triangle is *
 
-`table row cell 6 plus 8 over 3 end cell equals cell 26 over 3 end cell end table`
+$\begin{gathered} 6 + \frac{8}{3} & = \frac{26}{3} \end{gathered}$
 
-`table row cell Area space of space triangle space A B C space end cell equals cell 1 half cross times 26 over 3 cross times 4 end cell row blank equals cell 52 over 3 end cell end table`
+`| Area of \Delta A B C | = 1 half x 26 / 3 x 4 | | _ = 52 / 3 | |`
 
 $\frac{52}{3}$ **[1]**
 
@@ -494,9 +494,9 @@ $\frac{7}{4}=c$
 $y=\frac{5}{4}x+\frac{7}{4}$* ***[1]**
 
 ### Q14
-> *First find the gradient of **AB** using gradient = *$\frac{y_{1}-y_{2}}{x_{1}-x_{2}}$*. It doesn't matter which point you use as *`open parentheses x subscript 1 comma space y subscript 1 close parentheses`* but make sure you subtract **y **from** y **and** x **from** x** in the same order*
+> *First find the gradient of **AB** using gradient = *$\frac{y_{1}-y_{2}}{x_{1}-x_{2}}$*. It doesn't matter which point you use as *$( x_{1} , y_{1} )$* but make sure you subtract **y **from** y **and** x **from** x** in the same order*
 
-`gradient space of space A B equals fraction numerator 2 minus 8 over denominator 7 minus open parentheses negative 5 close parentheses end fraction space space space or space space space equals fraction numerator 8 minus 2 over denominator negative 5 minus 7 end fraction`
+$\text{gradient} of A B = \frac{2 - 8}{7 - ( - 5 ) } or = \frac{8 - 2}{ - 5 - 7}$
 
 **[1]**
 
@@ -508,13 +508,13 @@ $y=\frac{5}{4}x+\frac{7}{4}$* ***[1]**
 
 > *Gradients of perpendicular lines are negative reciprocals. Put another way, *$m$*, the gradient of the line perpendicular to **AB**, is *$\frac{-1}{\mathrm{gradient} \mathrm{of}AB}$
 
-`table row m equals cell fraction numerator negative 1 over denominator negative 1 half end fraction equals negative 1 cross times open parentheses negative 2 over 1 close parentheses end cell row blank equals 2 end table`
+$\begin{gathered} m = \frac{- 1}{- 1 \frac{1}{2}} = - 1 \times ( - \frac{2}{1} ) \\ = 2 \end{gathered}$
 
 **[1]**
 
-> *Now we know that the line perpendicular to **AB** through *`open parentheses negative 1 comma space 3 close parentheses`* has equation *$y=2x+c$*. To find *$c$*, replace *$x$* and *$y$* with *$-1$* and *$3$* respectively*
+> *Now we know that the line perpendicular to **AB** through *$( - 1 , 3 )$* has equation *$y=2x+c$*. To find *$c$*, replace *$x$* and *$y$* with *$-1$* and *$3$* respectively*
 
-`3 equals 2 open parentheses negative 1 close parentheses plus c`
+$3 = 2 ( - 1 ) + c$
 
 **[1]**
 

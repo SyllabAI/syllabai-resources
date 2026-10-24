@@ -108,7 +108,7 @@ guided_study: true
 > > *Now find the **y**-intercept*
 > *The line cuts the **y**-axis at 5*
 > 
-> **y***-intercept,  *`table attributes columnalign right center left columnspacing 0px end attributes row c equals 5 end table`
+> **y***-intercept,  *$\begin{array}{rcl} c = 5 \end{array}$
 > 
 > > *Substitute the gradient, **m**, and the **y**-intercept, **c**, into **y ** = **mx ** + **c*
 > 
@@ -126,7 +126,7 @@ guided_study: true
 > > *Substitute **x ** = 5 and **y ** = 4 into the equation*
 > *Solve the equation to find **c*
 > 
-> `table attributes columnalign right center left columnspacing 0px end attributes row 4 equals cell 3 cross times 5 plus c end cell row 4 equals cell 15 plus c end cell row cell negative 11 end cell equals c end table`
+> $\begin{array}{rcl} 4 = 3 \times 5 + c \\ 4 = 15 + c \\ - 11 & = c \end{array}$
 > 
 > > *You now know **c*
 > *Replace **c**  with −11 to complete the equation of the line*

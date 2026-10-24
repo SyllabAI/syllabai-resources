@@ -45,8 +45,8 @@ Combine the two equations and rearrange to make acceleration $a$ the subject:
 
 Substitute the known quantities into the equation to calculate acceleration $a$:
 
-- `a space equals space fraction numerator open parentheses 3 space cross times space 10 cubed close parentheses space cross times space open parentheses 1.6 space cross times space 10 to the power of negative 19 end exponent close parentheses over denominator 1.67 space cross times space 10 to the power of negative 27 end exponent end fraction`
-- `a space equals space 2.87 space cross times space 10 to the power of 11 space straight m space straight s to the power of negative 2 end exponent space equals space 2.9 space cross times space 10 to the power of 11 space straight m space straight s to the power of negative 2 end exponent space open parentheses 2 straight s. straight f. close parentheses` **[1 mark]**
+- $a = \frac{( 3 \times 10^{3} ) \times ( 1.6 \times 10^{- 19} )}{1.67 \times 10^{- 27} }$
+- $a = 2.87 \times 10^{11 \mathrm{m} \mathrm{s}^{-2} } = 2.9 \times 10^{11 \mathrm{m} \mathrm{s}^{-2} } ( 2 \mathrm{s} . \mathrm{f} . )$ **[1 mark]**
 
 **[Total: 5 marks]**
 
@@ -109,7 +109,7 @@ Calculate the closest distance of approach:
 - The kinetic energy lost by the alpha particle = gain in electric potential energy as it approaches the gold nucleus
 - Gain in potential energy, *E*<sub>*P*</sub>  =$\frac{Q_{α}Q_{gold}}{4\mathrm{πε}_{0}r}$ = loss in *E*<sub>*k*</sub>* ***[1 mark]**
 - *E*<sub>*k*</sub>* *=$\frac{Q_{α}Q_{gold}}{4\mathrm{πε}_{0}r}$ therefore, *r *=$\frac{Q_{α}Q_{gold}}{4\mathrm{πε}_{0}E_{k}}$
-- *r* =`begin mathsize 16px style fraction numerator 2 cross times 79 cross times open parentheses 1.60 cross times 10 to the power of negative 19 end exponent close parentheses squared over denominator 4 straight pi cross times open parentheses 8.85 cross times 10 to the power of negative 12 end exponent close parentheses cross times open parentheses 4.09 cross times 10 to the power of negative 12 end exponent close parentheses end fraction end style` **[1 mark]**
+- *r* =$\frac{2 \times 79 \times ( 1.60 \times 10^{- 19} )^{2}}{4 \mathrm{\pi } \times ( 8.85 \times 10^{- 12} ) \times ( 4.09 \times 10^{- 12} )}$ **[1 mark]**
 - *r* = 8.89 × 10<sup>–15</sup> m = 8.89 fm **[1 mark]**
 
 **[Total: 4 marks]**
@@ -206,17 +206,17 @@ Draw a diagram of the situation:
 Use the equation for the electric potential to obtain an expression for the electric potential when it is zero:
 
 - $V=\frac{Q}{4πε_{0}r}$
-- Potential due to −22.1 μC charge is: `fraction numerator open parentheses negative 22.1 space cross times space 10 to the power of negative 6 end exponent close parentheses over denominator open parentheses 8.99 space cross times space 10 to the power of 9 close parentheses space x end fraction`
-- Potential due to +5.4 μC charge is: `fraction numerator open parentheses plus 5.4 space cross times space 10 to the power of negative 6 end exponent close parentheses over denominator open parentheses 8.99 space cross times space 10 to the power of 9 close parentheses space open parentheses 0.23 space minus space x close parentheses end fraction`
-- So, `fraction numerator open parentheses negative 22.1 space cross times space 10 to the power of negative 6 end exponent close parentheses over denominator open parentheses 8.99 space cross times space 10 to the power of 9 close parentheses space x end fraction space plus space fraction numerator open parentheses plus 5.4 space cross times space 10 to the power of negative 6 end exponent close parentheses over denominator open parentheses 8.99 space cross times space 10 to the power of 9 close parentheses space open parentheses 0.23 space minus space x close parentheses end fraction space equals space 0` **[1 mark]**
+- Potential due to −22.1 μC charge is: $\frac{( - 22.1 \times 10^{- 6} )}{( 8.99 \times 10^{9} ) x}$
+- Potential due to +5.4 μC charge is: $\frac{( + 5.4 \times 10^{- 6} )}{( 8.99 \times 10^{9} ) ( 0.23 - x )}$
+- So, $\frac{( - 22.1 \times 10^{- 6} )}{( 8.99 \times 10^{9 ) x} + \frac{( + 5.4 \times 10^{-6} } )}{( 8.99 \times 10^{9} ) ( 0.23 - x )} = 0$ **[1 mark]**
 
 Rearrange the equation to obtain a value for *x*:
 
-- `fraction numerator open parentheses negative 22.1 space cross times space 10 to the power of negative 6 end exponent close parentheses over denominator space x end fraction space equals space fraction numerator open parentheses negative 5.4 space cross times space 10 to the power of negative 6 end exponent close parentheses over denominator space open parentheses 0.23 space minus space x close parentheses end fraction`
-- `open parentheses negative 22.1 space cross times space 10 to the power of negative 6 end exponent close parentheses space open parentheses 0.23 space minus space x close parentheses space equals space open parentheses negative 5.4 space cross times space 10 to the power of negative 6 end exponent close parentheses space x`
-- `open parentheses negative 5.083 space cross times space 10 to the power of negative 6 end exponent close parentheses space plus space open parentheses 22.1 space cross times space 10 to the power of negative 6 end exponent close parentheses space x space equals space open parentheses negative 5.4 space cross times space 10 to the power of negative 6 end exponent close parentheses space x`
-- `open parentheses negative 5.083 space cross times space 10 to the power of negative 6 end exponent close parentheses space equals space open parentheses negative 2.75 space cross times space 10 to the power of negative 5 end exponent close parentheses space x` **[1 mark]**
-- So, `x space equals space fraction numerator open parentheses negative 5.083 space cross times space 10 to the power of negative 6 end exponent close parentheses over denominator open parentheses negative 2.75 space cross times space 10 to the power of negative 5 end exponent close parentheses end fraction space equals space 0.184 space straight m space equals space 184 space mm`** [1 mark]**
+- $\frac{( - 22.1 \times 10^{- 6} )}{ x} = \frac{( - 5.4 \times 10^{- 6} )}{ ( 0.23 - x )}$
+- $( - 22.1 \times 10^{- 6} ) ( 0.23 - x ) = ( - 5.4 \times 10^{- 6} ) x$
+- $( - 5.083 \times 10^{- 6} ) + ( 22.1 \times 10^{- 6} ) x = ( - 5.4 \times 10^{- 6} ) x$
+- $( - 5.083 \times 10^{- 6} ) = ( - 2.75 \times 10^{- 5} ) x$ **[1 mark]**
+- So, $x = \frac{( - 5.083 \times 10^{- 6} )}{( - 2.75 \times 10^{- 5} )} = 0.184 \mathrm{m} = 184 \text{mm}$** [1 mark]**
 
 **[Total: 3 marks]**
 
@@ -254,8 +254,8 @@ Use Pythagoras to calculate the distance between X and the +5.4 μC:
 Use the electric potential equation at point P:
 
 - $V=\frac{Q}{4πε_{0}r}$
-- `V space equals space open parentheses 8.99 space cross times space 10 to the power of 9 close parentheses space cross times space fraction numerator open parentheses 5.4 space cross times space 10 to the power of negative 6 end exponent close parentheses over denominator 0.46 end fraction` **[1 mark]**
-- `V space equals space 105535 space equals space 1.06 space cross times space 10 to the power of 5 space straight V space open parentheses 3 space straight s. straight f. close parentheses` **[1 mark]**
+- $V = ( 8.99 \times 10^{9 ) \times \frac{( 5.4 \times 10^{-6} } )}{0.46}$ **[1 mark]**
+- $V = 105535 = 1.06 \times 10^{5} \mathrm{V} ( 3 \mathrm{s} . \mathrm{f} . )$ **[1 mark]**
 
 **[Total: 3 marks]**
 Calculate the total electric potential at point X:
@@ -269,7 +269,7 @@ List the known quantities:
 
 Calculate electric potential due to −22.1 μC:
 
-- `V subscript 1 space equals open parentheses 8.99 space cross times space 10 to the power of 9 close parentheses space fraction numerator open parentheses negative 22.1 space cross times space 10 to the power of negative 6 end exponent close parentheses over denominator 0.4 end fraction`
+- $V_{1} = ( 8.99 \times 10^{9 ) \frac{( - 22.1 \times 10^{-6} } )}{0.4}$
 - $V_{1}=-496697.5=-4.97\times10^{5}V$ **[1 mark]**
 
 Calculate the total potential at point X:
@@ -325,12 +325,12 @@ List the known quantities:
 Use the equation for change in electric potential:
 
 - Electric potential:  $V=\frac{q}{4πε_{0}r}$ (from the data page)
-- Change in electric potential:  `increment V space equals space fraction numerator q over denominator 4 straight pi epsilon subscript 0 end fraction open parentheses 1 over r subscript 1 space minus space 1 over r subscript 2 close parentheses` **[1 mark]**
+- Change in electric potential:  $\Delta V = \frac{q}{4 \mathrm{\pi } \epsilon_{0} } ( \frac{1}{r} _{1} - \frac{1}{r} _{2} )$ **[1 mark]**
 
 Rearrange the equation and substitute the values to calculate the charge:
 
-- `q space equals space fraction numerator 4 straight pi epsilon subscript 0 increment V over denominator open parentheses 1 over r subscript 1 space minus space 1 over r subscript 2 close parentheses end fraction`
-- `q space equals space fraction numerator 23 over denominator open parentheses 8.99 cross times 10 to the power of 9 close parentheses open parentheses fraction numerator 1 over denominator 0.1 cross times 10 to the power of negative 9 end exponent end fraction space minus space fraction numerator 1 over denominator 0.5 cross times 10 to the power of negative 9 end exponent end fraction close parentheses end fraction` **[1 mark]**
+- $q = \frac{4 \mathrm{\pi } \epsilon_{0} \Delta V}{( \frac{1}{r} _{1} - \frac{1}{r} _{2} )}$
+- $q = \frac{23}{( 8.99 \times 10^{9 ) ( \frac{1}{0.1 \times 10^{-9} } } - \frac{1}{0.5 \times 10^{- 9} } )}$ **[1 mark]**
 - $q=3.2\times10^{-19}C$ **AND**
 - The charge of a proton is $e=1.6\times10^{-19}C$, so $q=2e$; **[1 mark]**
 
@@ -353,16 +353,16 @@ From the data sheet:
 
 Calculate the distance from each charge to point P, *h*:
 
-- (2*h*)<sup>2</sup> = *d*<sup>2</sup> + *d*<sup>2</sup> **OR** *h*<sup>2</sup> = `begin mathsize 16px style open parentheses d over 2 close parentheses squared plus open parentheses d over 2 close parentheses squared end style`
+- (2*h*)<sup>2</sup> = *d*<sup>2</sup> + *d*<sup>2</sup> **OR** *h*<sup>2</sup> = $( \frac{d}{2} )^{2} + ( \frac{d}{2} )^{2}$
 - *h*<sup>2</sup> =$\frac{2d^{2}}{4}$
 - *h* =$\frac{\sqrt{2}d}{2}$  **[1 mark]**
 
 Calculate the total electric potential at the point P, $V_{p}$ :
 
 - $V_{p}$= $V_{1}+V_{2}+V_{3}$
-- $V_{p}$ =  `begin mathsize 16px style open parentheses negative fraction numerator 2 Q over denominator 4 pi epsilon subscript 0 open parentheses bevelled fraction numerator square root of 2 d over denominator 2 end fraction close parentheses end fraction close parentheses plus open parentheses fraction numerator 4 Q over denominator 4 pi epsilon subscript 0 open parentheses bevelled fraction numerator square root of 2 d over denominator 2 end fraction close parentheses end fraction close parentheses plus open parentheses negative fraction numerator 6 Q over denominator 4 pi epsilon subscript 0 open parentheses bevelled fraction numerator square root of 2 d over denominator 2 end fraction close parentheses end fraction close parentheses end style`  **[1 mark]**
-- $V_{p}$ =  `open parentheses negative fraction numerator 2 Q over denominator 2 square root of 2 d straight pi straight epsilon subscript 0 end fraction close parentheses plus open parentheses fraction numerator 4 Q over denominator 2 square root of 2 d straight pi straight epsilon subscript 0 end fraction close parentheses plus open parentheses negative fraction numerator 6 Q over denominator 2 square root of 2 d straight pi straight epsilon subscript 0 end fraction close parentheses`
-- $V_{p}$= `begin mathsize 16px style open parentheses negative fraction numerator 4 Q over denominator 2 square root of 2 d straight pi straight epsilon subscript 0 end fraction close parentheses end style` =`open parentheses negative fraction numerator 2 Q over denominator square root of 2 d straight pi straight epsilon subscript 0 end fraction close parentheses`  **[1 mark]**
+- $V_{p}$ =  $( - \frac{2 Q}{4 \pi \epsilon_{0} ( \text{bevelled} \frac{ \sqrt{2} d}{2} )} ) + ( \frac{4 Q}{4 \pi \epsilon_{0} ( \text{bevelled} \frac{ \sqrt{2} d}{2} )} ) + ( - \frac{6 Q}{4 \pi \epsilon_{0} ( \text{bevelled} \frac{ \sqrt{2} d}{2} )} )$  **[1 mark]**
+- $V_{p}$ =  $( - \frac{2 Q}{2 \sqrt{2} d \mathrm{\pi } \ \epsilon_{0} } ) + ( \frac{4 Q}{2 \sqrt{2} d \mathrm{\pi } \ \epsilon_{0} } ) + ( - \frac{6 Q}{2 \sqrt{2} d \mathrm{\pi } \ \epsilon_{0} } )$
+- $V_{p}$= $( - \frac{4 Q}{2 \sqrt{2} d \mathrm{\pi } \ \epsilon_{0} } )$ =$( - \frac{2 Q}{ \sqrt{2} d \mathrm{\pi } \ \epsilon_{0} } )$  **[1 mark]**
 
 **[Total: 3 marks]**
 
@@ -387,7 +387,7 @@ Work done bringing second electron into the triangle, $\DeltaW_{2}$ :
 - Work done, ∆*W* = *q*∆*V*
 - Electric potential, *V* = $\frac{1}{4\mathrm{πε}_{0}}\frac{Q}{r}$
 - ∆*V =*$V_{2}-V_{\infty}$* *– where $V_{2}$ is the electric potential at the second vertex due to the existing electron
-- $\DeltaW_{2}$= `1 third e cross times open parentheses fraction numerator 1 third e over denominator 4 straight pi straight epsilon subscript 0 r end fraction minus 0 close parentheses`
+- $\DeltaW_{2}$= $1 \frac{1}{3} e \times ( \frac{1 \frac{1}{3} e}{4 \mathrm{\pi } \ \epsilon_{0} r} - 0 )$
 - $\DeltaW_{2}$ = $\frac{\frac{e^{2}}{9}}{4\mathrm{πε}_{0}r}$ **[1 mark]**
 
 Calculate the electric potential at the third vertex due to the other two electrons, $V_{3}$:
@@ -398,7 +398,7 @@ Calculate the electric potential at the third vertex due to the other two electr
 Work done bringing third electron into the triangle, $\DeltaW_{3}$:
 
 - $\DeltaW_{3}$ = *q*($V_{3}-V_{\infty}$)
-- $\DeltaW_{3}$ =`1 third e cross times open parentheses fraction numerator 2 over 3 e over denominator 4 straight pi straight epsilon subscript 0 r end fraction minus 0 close parentheses`
+- $\DeltaW_{3}$ =`1 third e x ( (2 / 3 e)/(4 pi epsilon _ 0 r) - 0 )`
 - $\DeltaW_{3}$ =$\frac{\frac{2}{9}e^{2}}{4\mathrm{πε}_{0}r}$  **[1 mark]**
 
 Calculate total work done in forming the electron:
@@ -425,7 +425,7 @@ From data page:
 
 Calculate the kinetic energy of the electrons when they leave the electron gun, $E_{k}$ :
 
-- $E_{k}$ = $\frac{1}{2}$m`open parentheses v subscript e close parentheses squared`
+- $E_{k}$ = $\frac{1}{2}$m$( v_{e} )^{2}$
 - $E_{k}$ =$\frac{1}{2}$ (9.11 × 10<sup>−31</sup>) × (0.1 × 3.00 × 10<sup>8</sup>)<sup>2</sup>
 - $E_{k}$ = 4.10 × 10<sup>−16 </sup>J **[1 mark]**
 
@@ -470,7 +470,7 @@ Draw lines on the graph to determine the electric potential, *V* at the surface 
 Use the equation for electric potential:
 
 - $V=\frac{Q}{4πε_{0}r}$
-- `Q space equals fraction numerator open parentheses minus close parentheses space 1700 space cross times space 0.12 over denominator open parentheses 8.99 space cross times space 10 to the power of 9 close parentheses space end fraction`** [1 mark]**
+- $Q = \frac{( - ) 1700 \times 0.12}{( 8.99 \times 10^{9} ) }$** [1 mark]**
 - $Q=-2.27\times10^{-8}C$ **[1 mark]**
 
 **[Total: 3 marks]**
@@ -479,7 +479,7 @@ Use the equation for electric potential:
 
 > $\frac{1}{4πε_{0}}=8.99\times10^{9}$* and not *$4πε_{0}$
 
-> *So, *`Q space equals space V space cross times space open parentheses 4 pi epsilon subscript 0 close parentheses space cross times space r space equals space V space cross times space r space divided by space open parentheses fraction numerator 1 over denominator 4 pi epsilon subscript 0 end fraction close parentheses`
+> *So, *$Q = V \times ( 4 \pi \epsilon_{0} ) \times r = V \times r \div ( \frac{1}{4 \pi \epsilon_{0} } )$
 Calculate the electric potential energy *E*<sub>*p*</sub> of the two spheres:
 
 List the known quantities:
@@ -490,7 +490,7 @@ List the known quantities:
 Use the equation for electric potential energy:
 
 - $E_{p}=\frac{Q^{2}}{4πε_{0}x}$
-- `E subscript p space equals space open parentheses 8.99 space cross times space 10 to the power of 9 close parentheses space cross times space fraction numerator open parentheses negative 2.27 space cross times space 10 to the power of negative 8 end exponent close parentheses squared over denominator 0.52 end fraction` **[1 mark]**
+- $E_{p} = ( 8.99 \times 10^{9 ) \times \frac{( - 2.27 \times 10^{-8} } )^{2}}{0.52}$ **[1 mark]**
 - $E_{p}=8.9\times10^{-6}J$ **[1 mark]**
 
 **[Total: 2 marks]**

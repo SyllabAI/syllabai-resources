@@ -113,7 +113,7 @@ guided_study: true
 > | *70* | *7000* | *3500* | *490* |
 > | *8* | *800* | *400* | *56* |
 > 
-> `stack attributes charalign center stackalign right end attributes 7000 row plus 3500 end row 490 800 400 56 horizontal line 12246 end stack`
+> `charalign center stackalign right end 7000 | + 3500 end | 490 800 400 56 horizontal line 12246 end`
 > 
 > *157 × 78 = 12 246*
 > 
@@ -137,7 +137,7 @@ guided_study: true
 > | *70* | *7000* | *3500* | *490* |
 > | *8* | *800* | *400* | *56* |
 > 
-> `stack attributes charalign center stackalign right end attributes 7000 row plus 3500 end row 490 800 400 56 horizontal line 12246 end stack`
+> `charalign center stackalign right end 7000 | + 3500 end | 490 800 400 56 horizontal line 12246 end`
 > 
 > *157 × 78 = 12 246*
 > 
@@ -193,7 +193,7 @@ guided_study: true
 > 
 > > *Use short division (bus stop method)*
 > 
-> `long division by 7 yields 0986 pile 6 to the power of 6 9 to the power of 6 0 to the power of 4 2 end pile end long division`
+> `long division by 7 yields 0986 pile 6 ^ 6 9 ^ 6 0 ^ 4 2 end pile end long division`
 > 
 > $\frac{6902}{7}=986$
 > 
@@ -213,7 +213,7 @@ guided_study: true
 > 
 > > *Use short division (bus stop method)*
 > 
-> `long division by 7 yields 0986 pile 6 to the power of 6 9 to the power of 6 0 to the power of 4 2 end pile end long division`
+> `long division by 7 yields 0986 pile 6 ^ 6 9 ^ 6 0 ^ 4 2 end pile end long division`
 > 
 > *6902 ÷ 7 = 986*
 > 

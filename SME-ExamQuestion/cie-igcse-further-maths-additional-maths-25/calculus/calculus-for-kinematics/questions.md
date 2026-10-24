@@ -12,7 +12,7 @@
 
 A particle travels along a straight line with a velocity, $v$ ms<sup>-1</sup>, given by
 
-`v equals 6 open parentheses t minus 1 half close parentheses squared plus 5 over 2`
+$v = 6 ( t - 1 \frac{1}{2} )^{2} + \frac{5}{2}$
 
 for  $t\geq0$ where $t$ is time in seconds. The particle has an initial displacement of $-1$ metres.
 
@@ -52,7 +52,7 @@ Find the distance travelled by $P$ in the 3rd second.
 
 **Q3** [3 marks]
 
-At time $ts$, a particle travelling in a straight line has acceleration `open parentheses 2 t plus 1 close parentheses to the power of negative 1 half end exponent space ms to the power of negative 2 end exponent`. When $t=0$, the particle is $4m$ from a fixed point $O$ and is travelling with velocity $8\mathrm{ms}^{-1}$ away from $O$.
+At time $ts$, a particle travelling in a straight line has acceleration $( 2 t + 1 )^{- 1 \frac{1}{2}} ms^{- 2}$. When $t=0$, the particle is $4m$ from a fixed point $O$ and is travelling with velocity $8\mathrm{ms}^{-1}$ away from $O$.
 
 Find the velocity of the particle at time $ts$.
 
@@ -74,7 +74,7 @@ Find the displacement of the particle from $O$ at time $ts$.
 
 **Q4** [3 marks]
 
-In this question, the units are metres and seconds. A particle $P$ is travelling in a straight line. Its acceleration, $a$, away from a fixed point $O$, at time $t$, is given by `a space equals space open parentheses 3 t space plus space 2 close parentheses to the power of negative 1 third end exponent`, where `t space greater-than or slanted equal to space 0`. When$t=2$, $P$ is travelling with a velocity of 8 and has a displacement of $--4.8$ from $O$.
+In this question, the units are metres and seconds. A particle $P$ is travelling in a straight line. Its acceleration, $a$, away from a fixed point $O$, at time $t$, is given by $a = ( 3 t + 2 )^{- 1 \frac{1}{3}}$, where $t \text{greater} - \text{than} or \text{slanted} \text{equal} to 0$. When$t=2$, $P$ is travelling with a velocity of 8 and has a displacement of $--4.8$ from $O$.
 
 Find an expression for the velocity of $P$ at time $t$.
 
@@ -154,11 +154,11 @@ In this question, all lengths are in metres and time, $t$, is in seconds.
 
 ![q7ai-june-2021-cie-igcse-additional-maths](assets/004-q7ai-june-2021-cie-igcse-additional-maths.png)
 
-The diagram shows the displacement–time graph for a runner, for `0 space less-than or slanted equal to space t space less-than or slanted equal to space 40`.
+The diagram shows the displacement–time graph for a runner, for $0 \text{less} - \text{than} or \text{slanted} \text{equal} to t \text{less} - \text{than} or \text{slanted} \text{equal} to 40$.
 
 (i) Find the distance the runner has travelled when $t=40$.
 
-(ii) On the axes, draw the corresponding velocity–time graph for the runner, for `0 space less-than or slanted equal to space t space less-than or slanted equal to space 40.`
+(ii) On the axes, draw the corresponding velocity–time graph for the runner, for $0 \text{less} - \text{than} or \text{slanted} \text{equal} to t \text{less} - \text{than} or \text{slanted} \text{equal} to 40.$
 
 *Source: june 2021 paper 11 Q7A*
 
@@ -273,7 +273,7 @@ The diagram shows the velocity–time graph for a particle $Q$ travelling in a s
 
 A particle, $P$, moves in a straight line such that its displacement from a fixed point at time $t$ is s.
 
-The acceleration of $P$ is given by `open parentheses 2 t space plus space 4 close parentheses to the power of negative 1 half end exponent comma space for space t greater than 0`
+The acceleration of $P$ is given by $( 2 t + 4 )^{- 1 \frac{1}{2}} , \text{for} t > 0$
 
 (i) Given that $P$ has a velocity of 9 when $t=6$, find the velocity of $P$ at time $t$.
 
@@ -321,7 +321,7 @@ Find the deceleration in the last 5 seconds.
 
 **Q14** [3 marks]
 
-The displacement,$xm$, of a particle from a fixed point at time$ts$ is given by `x equals space 6 space cos open parentheses 3 t plus straight pi over 3 close parentheses`.
+The displacement,$xm$, of a particle from a fixed point at time$ts$ is given by `x = 6 cos ( 3 t + pi / 3 )`.
  Find the acceleration of the particle when $t=\frac{2π}{3}$.
 
 *Source: Nov 2020 0606/13 Q4B*

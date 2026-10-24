@@ -24,7 +24,7 @@ guided_study: false
 
   - *r *can take any value such that $-1\leqr\leq1$
   
-    - Can be written as `vertical line r vertical line less or equal than 1`
+    - Can be written as $\mid r \mid \le 1$
   - A positive value of *r *describes positive correlation
   - A negative value of *r * describes negative correlation
   - If *r = 0* there is no correlation
@@ -38,15 +38,15 @@ guided_study: false
 
 - For *n* pairs of bivariate data (*x*, *y*) we define the following statistics
 
-  - `begin mathsize 16px style S subscript x x end subscript equals straight capital sigma x squared minus open parentheses straight capital sigma x close parentheses squared over n end style`
-  - `begin mathsize 16px style S subscript y y end subscript equals Σy squared minus open parentheses Σy close parentheses squared over n end style`
-  - `begin mathsize 16px style S subscript x y end subscript equals straight capital sigma x y minus fraction numerator open parentheses straight capital sigma x close parentheses open parentheses straight capital sigma y close parentheses over denominator n end fraction end style`
+  - `S _ x x end _ = capital sigma x ^2 - ( capital sigma x ) ^2 / n`
+  - $S_{y y} = Σy^{2} - \frac{( Σy )^{2}}{n}$
+  - `S _ x y end _ = capital sigma x y - (( capital sigma x ) ( capital sigma y ))/(n)`
   - These are given in the formula booklet
 - These are related to variance and can be written in several different ways:
 
   - $S_{xx}$
   
-    - `begin mathsize 16px style straight capital sigma open parentheses x minus x with bar on top close parentheses squared end style`
+    - `capital sigma ( x - x -bar ) ^2`
     - $Σx^{2}-n\overline{x}^{2}$
     - $nσ_{x}^{2}$
   - $S_{xy}$
@@ -76,7 +76,7 @@ If the PMCC is close to 1 or -1 then this suggests the data follows a linear mod
 
   - $a=\overline{y}-b\overline{x}$
   - This is given in the formulae booklet
-  - This is found using the fact that the point `open parentheses x with bar on top comma space y with bar on top close parentheses` lies on the regression line
+  - This is found using the fact that the point $( \bar{x} , \bar{y} )$ lies on the regression line
 - If you are asked to find the equation of the regression line of ***x***** on *****y***
 
   - *x = c + dy *

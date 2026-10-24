@@ -28,9 +28,7 @@ $\frac{3}{2}πr+r\sqrt{2}=21$
 
 > *Factor out the *$r$* and divide*
 
-`r open parentheses 3 over 2 straight pi plus square root of 2 close parentheses equals 21
-r equals fraction numerator 21 over denominator open parentheses 3 over 2 straight pi plus square root of 2 close parentheses end fraction
-r equals 3.428...`
+`r ( 3 / 2 pi + sqrt( 2 ) = 21 r = (21)/(( 3 / 2 pi + sqrt( 2 )) r = 3.428...`
 
 **[M1]**
 
@@ -68,7 +66,7 @@ $\frac{11}{36}πr=5$
 
 > *Solve the equation to find the radius of the circle.*
 
-`table row cell 11 over 36 pi space r space end cell equals cell space 5 end cell row cell pi space r space end cell equals cell fraction numerator 5 cross times 36 over denominator 11 end fraction end cell row cell space space r space end cell equals cell space fraction numerator 180 over denominator 11 pi end fraction end cell row cell r space end cell equals cell space 5.208707.... end cell end table`
+$\begin{gathered} \frac{11}{36} \pi r & = 5 \\ \pi r & = \frac{5 \times 36}{11} \\ r & = \frac{180}{11 \pi } \\ r & = 5.208707.... \end{gathered}$
 
 > *Find the area of the circle using the formula for the area of a circle, *$A=πr^{2}$*.*
 
@@ -78,13 +76,13 @@ $\mathrm{Area}=π\times5.208707...^{2}$
 
 > *Use your calculator to find the answer, using the answer button to keep accuracy. *
 
-`table row cell Area space end cell equals cell space 85.233391... space cm squared end cell end table`
+$\begin{gathered} \text{Area} & = 85.233391... cm^{2} \end{gathered}$
 
 > *Round the answer to one decimal place.*
 
 > *The first digit after the decimal point is 2 and the digit following it is 3, which is less than 5, so you do not need to round the 2 up*
 
-`85. right enclose 2 bottom enclose 3 3391... space equals space 85.2 space open parentheses 1 space d. p. close parentheses`
+`85. right 2 bottom 3 3391... = 85.2 ( 1 d. p. )`
 
 **Area = 85.2 cm**<sup>**2 **</sup>**(1 d.p.)**** [1]**
 
@@ -99,44 +97,44 @@ $\frac{110}{360}\timesπ\times7.1^{2}$
 
 > *Use your calculator to find the answer. *
 
-`table row cell 11 over 36 open parentheses 7.1 squared close parentheses pi space space end cell equals cell space space 48.39012... space space end cell end table`
+$\begin{gathered} \frac{11}{36} ( 7.1^{2} ) \pi & = 48.39012... \end{gathered}$
 
 > *Round the answer to 1 decimal place by looking at the second digit, it is greater than 4 so round the first digit after the decimal point up. *
 
-`table row blank blank cell 48. bottom enclose right enclose 3 9 end enclose 3012... space end cell end table`
+`| _ _ 48. bottom right 3 9 3012... | |`
 
 **Area = 48.4 cm**<sup>**2 **</sup>**(1 d.p.)**** [1]**
 
 ### Q5
 > *Calculate the length **AC** from the right-angled triangle **ACD** using Pythagoras' theorem, *$a^{2}+b^{2}=c^{2}$*.*
 
-`table row cell 17 squared end cell equals cell 15 squared plus A C squared end cell end table`
+$\begin{gathered} 17^{2} & = 15^{2} + A C^{2} \end{gathered}$
 
 **[1]**
 
-`table row 289 equals cell 225 plus A C squared end cell row 64 equals cell A C squared end cell end table`
+$\begin{gathered} 289 = 225 + A C^{2} \\ 64 = A C^{2} \end{gathered}$
 
 **[1]**
 
-`table row cell A C end cell equals 8 end table`
+$\begin{gathered} A C & = 8 \end{gathered}$
 
 > *The diameter of the semi-circle is therefore 8 cm.*
 
 > *Calculate the arc length of the semi-circle by using the formula for the circumference of a circle, *$C=πd$*, and multiplying it by *$\frac{1}{2}$*.*
 
-> * *`table row cell A r c space l e n g t h space end cell equals cell 1 half cross times straight pi cross times 8 end cell end table`
+> * *$\begin{gathered} A r c l e n g t h & = 1 \frac{1}{2} \times \mathrm{\pi } \times 8 \end{gathered}$
 
 **[1]**
 
-`table row cell A r c space l e n g t h space end cell equals cell 4 straight pi end cell end table`
+$\begin{gathered} A r c l e n g t h & = 4 \mathrm{\pi } \end{gathered}$
 
 > *Work out the perimeter of the shaded shape by adding together the arc length of the semi-circle and the lengths of the sides **AD** and **CD**.*
 
-`table row cell P e r i m e t e r end cell equals cell 4 straight pi plus 17 plus 15 end cell end table`
+$\begin{gathered} P e r i m e t e r & = 4 \mathrm{\pi } + 17 + 15 \end{gathered}$
 
 **[1]**
 
-`table attributes columnalign right center left columnspacing 0px end attributes row cell P e r i m e t e r end cell equals cell 44.5663... end cell end table`
+$\begin{array}{rcl} P e r i m e t e r & = 44.5663... \end{array}$
 
 > *Round to 3 significant figures.*
 
@@ -145,23 +143,23 @@ $\frac{110}{360}\timesπ\times7.1^{2}$
 ### Q6
 > *Calculate the area of the quarter circle, by using the formula for the area of a circle: *$A=πr^{2}$*, where *$r$* radius of the circle, and multiplying the result by *$\frac{1}{4}$*.*
 
-`table row cell A subscript q u a r t e r space c i r c l e end subscript end cell equals cell 1 fourth cross times straight pi cross times 4.8 squared end cell end table`
+$\begin{gathered} A_{q u a r t e r c i r c l e} & = 1 \frac{1}{4} \times \mathrm{\pi } \times 4.8^{2} \end{gathered}$
 
 **[1]**
 
-`table row cell A subscript q u a r t e r space c i r c l e end subscript end cell equals cell 5.76 straight pi space cm squared end cell end table`
+$\begin{gathered} A_{q u a r t e r c i r c l e} & = 5.76 \mathrm{\pi } cm^{2} \end{gathered}$
 
 > *Calculate the area of the triangle, using the formula: *$A=\frac{1}{2}bh$*, where *$b$* is the base of the triangle and *$h$* is the perpendicular height.*
 
-`table row cell A subscript t r i a n g l e end subscript end cell equals cell 1 half cross times 4.8 cross times 4.8 end cell row blank equals cell 11.52 space cm squared end cell end table`
+$\begin{gathered} A_{t r i a n g l e} & = 1 \frac{1}{2} \times 4.8 \times 4.8 \\ = 11.52 cm^{2} \end{gathered}$
 
 > *Calculate the shaded segment by subtracting the area of the triangle from the area of the quarter circle.*
 
-`table row cell A subscript s h a d e d end subscript end cell equals cell 5.76 straight pi minus 11.52 end cell end table`
+$\begin{gathered} A_{s h a d e d} & = 5.76 \mathrm{\pi } - 11.52 \end{gathered}$
 
 **[1]**
 
-`table row cell A subscript s h a d e d end subscript end cell equals cell 6.57557... space cm squared end cell end table`
+$\begin{gathered} A_{s h a d e d} & = 6.57557... cm^{2} \end{gathered}$
 
 > *Round to 3 significant figures.*
 
@@ -174,7 +172,7 @@ $6.58\mathrm{cm}^{2}$* ***[1]**
 
 ![cie-igcse-2019-oct-nov-p4-tz2-q8b1](assets/008-cie-igcse-2019-oct-nov-p4-tz2-q8b1.png)
 
-`table row cell A B squared end cell equals cell open parentheses 5 minus 4 close parentheses squared plus open parentheses 0 minus negative 3 close parentheses squared end cell row cell A B squared end cell equals 10 row cell A B end cell equals cell square root of 10 end cell end table`
+$\begin{gathered} A B^{2} & = ( 5 - 4 )^{2} + ( 0 - - 3 )^{2} \\ A B^{2} & = 10 \\ A B & = \sqrt{10} \end{gathered}$
 
 **[1]**
 
@@ -190,7 +188,7 @@ $\mathrm{cos}A=\frac{4}{5}$
 
 > *Take the cos*<sup>*-1*</sup>* of both sides.*
 
-`A equals cos to the power of negative 1 end exponent open parentheses 4 over 5 close parentheses`
+$A = \cos ^{- 1} ( \frac{4}{5} )$
 
 $A=36.86989...$
 
@@ -224,7 +222,7 @@ $\mathrm{tan}A=\frac{3}{4}$
 
 > *Take tan*<sup>*-1*</sup>* of both sides.*
 
-`A equals tan to the power of negative 1 end exponent open parentheses 3 over 4 close parentheses`
+$A = \tan ^{- 1} ( \frac{3}{4} )$
 
 $A=36.86989...$
 
@@ -249,7 +247,7 @@ $\mathrm{Arc} \mathrm{length}=3.21750...$
 ### Q8
 > *The diameter of the cake is given in inches and the ribbon length is given in cm. Use the given ratio (1 inch = 2.54 cm) to convert the diameter of the cake into cm. *
 
-`d subscript open parentheses c m close parentheses end subscript space equals space 7 space cross times space 2.54 space cm space space equals 17.78 space cm`
+$d_{( c m )} = 7 \times 2.54 \text{cm} = 17.78 \text{cm}$
 
 **[1]**
 
@@ -273,35 +271,35 @@ $55.85751...\mathrm{cm}>50\mathrm{cm}$
 ### Q9
 > *Find the radius, *$r$*, of the large semi-circle by dividing the diameter by 2.*
 
-`table row r equals cell 9 over 2 end cell row blank equals cell 4.5 space straight m end cell end table`
+$\begin{gathered} r = \frac{9}{2} \\ = 4.5 \mathrm{m} \end{gathered}$
 
 > *Calculate the arc length of the larger semi-circle, using the formula for the circumference of a circle: *$C=2πr$*, and multiplying the result by *$\frac{1}{2}$*.*
 
-`table row cell Arc space length end cell equals cell 1 half cross times 2 cross times straight pi cross times 4.5 end cell end table`
+$\begin{gathered} \text{Arc} \text{length} & = 1 \frac{1}{2} \times 2 \times \mathrm{\pi } \times 4.5 \end{gathered}$
 
 **[1]**
 
-`table row cell Arc space length end cell equals cell 4.5 straight pi space straight m end cell end table`
+$\begin{gathered} \text{Arc} \text{length} & = 4.5 \mathrm{\pi } \mathrm{m} \end{gathered}$
 
 > *Find the radius of the smaller semi-circle by dividing its diameter by 2.*
 
-`table row r equals cell 5 over 2 end cell row blank equals cell 2.5 space straight m end cell end table`
+$\begin{gathered} r = \frac{5}{2} \\ = 2.5 \mathrm{m} \end{gathered}$
 
 > *Calculate the arc length of the smaller semi-circle.*
 
-`table row cell Arc space length space end cell equals cell 1 half cross times 2 cross times straight pi cross times 2.5 end cell row blank equals cell 2.5 straight pi space straight m end cell end table`
+$\begin{gathered} \text{Arc} \text{length} & = 1 \frac{1}{2} \times 2 \times \mathrm{\pi } \times 2.5 \\ = 2.5 \mathrm{\pi } \mathrm{m} \end{gathered}$
 
 > *Work out the perimeter of the lawn by adding together the arc length of both semi-circles and the lengths of the straight edges connecting them.*
 
-`table attributes columnalign right center left columnspacing 0px end attributes row P equals cell 4.5 straight pi plus 2.5 straight pi plus 2 plus 2 end cell end table`
+$\begin{array}{rcl} P = 4.5 \mathrm{\pi } + 2.5 \mathrm{\pi } + 2 + 2 \end{array}$
 
 **[1]**
 
-`table row P equals cell 7 straight pi plus 4 end cell row blank equals cell 25.991148... end cell end table`
+$\begin{gathered} P = 7 \mathrm{\pi } + 4 \\ = 25.991148... \end{gathered}$
 
 > *Work out the number of rolls that Brian needs by dividing the perimeter of his lawn by the length of edging in 1 roll.*
 
-`table row blank blank cell fraction numerator 25.991148... over denominator 2.4 end fraction end cell row blank equals cell 10.8296... end cell end table`
+$\begin{gathered} \frac{25.991148...}{2.4} \\ = 10.8296... \end{gathered}$
 
 **[1]**
 
@@ -334,15 +332,15 @@ $\mathrm{tan}(AOB)=\frac{15}{8}$
 
 **[1]**
 
-`A O B equals tan to the power of negative 1 end exponent open parentheses 15 over 8 close parentheses equals 61.92... degree` * *
+$A O B = \tan ^{- 1} ( \frac{15}{8} ) = 61.92...^{\circ}$ * *
 
 *Find angle** BOC** (using the tan ratio)* * *
 
-`tan open parentheses B O C close parentheses equals fraction numerator 22.4 over denominator 8 end fraction`
+$\tan ( B O C ) = \frac{22.4}{8}$
 
 **[1]**
 
-`B O C equals tan to the power of negative 1 end exponent open parentheses fraction numerator 22.4 over denominator 8 end fraction close parentheses equals 70.34... degree` * *
+$B O C = \tan ^{- 1} ( \frac{22.4}{8} ) = 70.34...^{\circ}$ * *
 
 *Find angle **XOY** by adding angle **AOB** to angle** BOC**  *
 
@@ -362,7 +360,7 @@ $\frac{132.3}{360}\times2\timesπ\times8$
 **Arc ****XBY**** = 18.5 cm** **[1]** **The following are accepted (based on previous rounding): 18.4, 18.5, or between 18.43 and 18.48**
 *The two shaded regions are formed by removing the sector **OYBX  **from the triangle **AOC* *Find the area of triangle **AOC **(using *$\frac{1}{2}\times$*base*$\times$*height)* * *
 
-`1 half cross times open parentheses 15 plus 22.4 close parentheses cross times 8`
+$1 \frac{1}{2} \times ( 15 + 22.4 ) \times 8$
 
 **[1]**
 
@@ -374,7 +372,7 @@ $\frac{132.3}{360}\timesπ\times8^{2}$
 
 *Subtract the area of sector **OYBX **from the area of triangle** AOC**  *
 
-`1 half cross times open parentheses 15 plus 22.4 close parentheses cross times 8 space minus space fraction numerator 132.3 over denominator 360 end fraction cross times straight pi cross times 8 squared`
+$1 \frac{1}{2} \times ( 15 + 22.4 ) \times 8 - \frac{132.3}{360} \times \mathrm{\pi } \times 8^{2}$
 
 ** 75.7 cm** **[1]** **Answers between 75.7 and 75.9 are accepted**
 
@@ -388,19 +386,19 @@ $\frac{132.3}{360}\timesπ\times8^{2}$
 
 *Recognition that AOD is a right angle*** [1]**
 
-`table row cell cos theta end cell equals cell 5 over 9 end cell end table`
+$\begin{gathered} \cos \\theta & = \frac{5}{9} \end{gathered}$
 
 **[1]**
 
-`table row theta equals cell cos to the power of negative 1 end exponent open parentheses 5 over 9 close parentheses end cell end table`
+$\begin{gathered} \\theta = \cos ^{- 1} ( \frac{5}{9} ) \end{gathered}$
 
 **[1]**
 
-`table row theta equals cell 56.251011... degree end cell end table`
+$\begin{gathered} \\theta = 56.251011...^{\circ} \end{gathered}$
 
 > *Find the reflex angle **AOC**, by subtracting two lots of *$θ$* from 360*<sup>*o*</sup>*, because angles around a point add up to 360*<sup>*o*</sup>*.*
 
-`table row cell Reflex space Angle space A O C end cell italic equals cell 360 minus 2 cross times 56.251011... end cell row blank equals cell 247.497977... degree end cell end table`
+$\begin{gathered} \text{Reflex} \text{Angle} A O C & = 360 - 2 \times 56.251011... \\ = 247.497977...^{\circ} \end{gathered}$
 
 > *Work out the arc length of sector **AOC**, using the formula for the arc length of a sector: *$\mathrm{Arc} \mathrm{length}=\frac{θ^{\circ}}{360^{\circ}}\times2πr$*, where *$r$* is the radius and *$θ$* is the angle of the sector.*
 
@@ -417,23 +415,23 @@ $21.6\mathrm{cm}$* ***[1]**
 ### Q12
 > *Calculate the arc length of the large sector **OAB**, by using the formula for the arc length of a sector: *$\mathrm{Arc} \mathrm{length}=\frac{θ^{\circ}}{360^{\circ}}\times2πr$*, where *$r$* radius of the circle and *$θ$* is the angle of the sector.*
 
-`table row cell Arc space length subscript l a r g e space s e c t o r end subscript end cell equals cell 75 over 360 cross times 2 cross times straight pi cross times 10 end cell end table`
+$\begin{gathered} \text{Arc} length_{l a r g e s e c t o r} & = \frac{75}{360} \times 2 \times \mathrm{\pi } \times 10 \end{gathered}$
 
 **[1]**
 
-`table row cell Arc space length subscript l a r g e space s e c t o r end subscript end cell equals cell 25 over 6 straight pi space cm end cell end table`
+$\begin{gathered} \text{Arc} length_{l a r g e s e c t o r} & = \frac{25}{6} \mathrm{\pi } \text{cm} \end{gathered}$
 
 > *Calculate the arc length of the smaller sector **OCD**. *
 
-`table row cell Arc space length subscript s m a l l space s e c t o r end subscript end cell equals cell 75 over 360 cross times 2 cross times straight pi cross times 6 end cell row blank equals cell 5 over 2 straight pi space cm end cell end table`
+$\begin{gathered} \text{Arc} length_{s m a l l s e c t o r} & = \frac{75}{360} \times 2 \times \mathrm{\pi } \times 6 \\ = \frac{5}{2} \mathrm{\pi } \text{cm} \end{gathered}$
 
 > *Calculate the perimeter of the shaded segment by adding the arc lengths together along with the lengths of the straight edges joining them. *
 
-`table row P equals cell 25 over 6 straight pi plus 5 over 2 straight pi plus 4 plus 4 end cell end table`
+$\begin{gathered} P = \frac{25}{6} \mathrm{\pi } + \frac{5}{2} \mathrm{\pi } + 4 + 4 \end{gathered}$
 
 **[1]**
 
-`table row P equals cell 28.943951... space cm end cell end table`
+$\begin{gathered} P = 28.943951... \text{cm} \end{gathered}$
 
 > *Round to 3 significant figures.*
 
@@ -448,11 +446,11 @@ $28.9\mathrm{cm}$* ***[1]**
 
 > * Calculate the area of the sector **ONQ**, using the formula: *$A=\frac{θ^{\circ}}{360^{\circ}}\timesπr^{2}$*, where *$r$* is the radius and *$θ$* is the angle of the sector.*
 
-`table row A equals cell 60 over 360 cross times straight pi cross times 11 squared end cell end table`
+$\begin{gathered} A = \frac{60}{360} \times \mathrm{\pi } \times 11^{2} \end{gathered}$
 
 **[1]**
 
-`table row A equals cell 121 over 6 straight pi space cm squared end cell end table`
+$\begin{gathered} A = \frac{121}{6} \mathrm{\pi } cm^{2} \end{gathered}$
 
 *Calculate the area of the triangle **ABO**, using the formula:** *$A=\frac{1}{2}ab\mathrm{sin}C$*, where *$a$* and *$b$* are two sides of the triangle and *$C$* is the angle between the two sides.*
 
@@ -464,19 +462,19 @@ $A=\frac{49\sqrt{3}}{4}\mathrm{cm}^{2}$
 
 > *Work out the area of the shaded section by subtracting the area of triangle **ABO** from the area of the sector **QON.*
 
-`table row cell A subscript s h a d e d end subscript end cell equals cell 121 over 6 straight pi minus fraction numerator 49 square root of 3 over denominator 4 end fraction end cell row blank equals cell 42.1378... space cm squared end cell end table`
+$\begin{gathered} A_{s h a d e d} & = \frac{121}{6} \mathrm{\pi } - \frac{49 \sqrt{3} }{4} \\ = 42.1378... cm^{2} \end{gathered}$
 
 > *Divide the shaded area by the total area of the sector **ONQ** and multiply by 100% to find the percentage of the total shape that is shaded.*
 
-`table row blank blank cell fraction numerator 42.1378... over denominator 121 over 6 straight pi end fraction cross times 100 end cell end table`
+`| _ _ (42.1378...)/(121 / 6 pi) x 100 | |`
 
 **[1]**
 
-`table attributes columnalign right center left columnspacing 0px end attributes row blank equals cell 66.510186... end cell end table`
+$\begin{array}{rcl} = 66.510186... \end{array}$
 
 > *Round to 1 decimal place.*
 
-`bold 66 bold. bold 5 bold percent sign`* ***[1]**
+$66 . 5 \%$* ***[1]**
 
 ### Q14
 > *We have "SAS" and are finding a missing side so use the version of the cosine rule: *$a^{2}=b^{2}+c^{2}-2bc\mathrm{cos}A$*. *
@@ -487,7 +485,7 @@ $A=\frac{49\sqrt{3}}{4}\mathrm{cm}^{2}$
 
 > *Thus, according to the letters in the formula, *$b=8,c=7\mathrm{and}A=78$*.*
 
-`open parentheses O A close parentheses squared equals 8 squared plus 7 squared minus 2 cross times 8 cross times 7 cross times text cos end text 78`
+$( O A )^{2} = 8^{2} + 7^{2} - 2 \times 8 \times 7 \times \text{\cos } 78$
 
 **correct substitution ****[2]**
 
@@ -508,13 +506,13 @@ $OA=9.471741689...=9.47(2d.p.)$
 **The question asks you to "show that ... to two decimal places" - so you must show the above result to ****more than 2 decimal places**** before rounding, to get the final mark for this question!**
 *We can use the sine rule to find angle *$OAC$* as we have two pairs of opposite sides and angles; angle *$OAC$* is opposite 7 cm, and angle 78° is opposite 9.47 cm (from part (a)).* *Using sine rule *$\frac{a}{\mathrm{sin}A}=\frac{b}{\mathrm{sin}B}$*,*
 
-`fraction numerator sin open parentheses O A C close parentheses over denominator 7 end fraction equals fraction numerator sin 78 over denominator 9.47 end fraction`
+$\frac{\sin ( O A C )}{7} = \frac{\sin 78}{9.47}$
 
 **[1]**
 
-> *Make *`sin open parentheses O A C close parentheses`* the subject by multiplying by 7.*
+> *Make *$\sin ( O A C )$* the subject by multiplying by 7.*
 
-`sin open parentheses O A C close parentheses equals fraction numerator 7 sin 78 over denominator 9.47 end fraction equals 0.723023569...`
+$\sin ( O A C ) = \frac{7 \sin 78}{9.47} = 0.723023569...$
 
 **[1]**
 
@@ -529,13 +527,13 @@ $OA=9.471741689...=9.47(2d.p.)$
 
 > *We can find *$CB$* by subtracting all the remaining lengths from the given perimeter, 29.5 cm*
 
-`C B equals 29.5 minus open parentheses 8 plus 9.47 plus 7 close parentheses equals 5.03 space cm`
+$C B = 29.5 - ( 8 + 9.47 + 7 ) = 5.03 \text{cm}$
 
 **[1]**
 
-> *We can use the formula for an arc length to find the angle *$COB$*. Arc length = *`theta over 360 cross times 2 straight pi r space open parentheses or space fraction numerator theta straight pi r over denominator 180 end fraction close parentheses`* where *$r$* is the radius and *$θ$*is the angle bound by the radii. Therefore*
+> *We can use the formula for an arc length to find the angle *$COB$*. Arc length = *`theta / 360 x 2 pi r ( or (theta pi r)/(180) )`* where *$r$* is the radius and *$θ$*is the angle bound by the radii. Therefore*
 
-`5.03 equals fraction numerator angle C O B over denominator 360 end fraction cross times 2 straight pi cross times 7`
+$5.03 = \frac{angle C O B}{360} \times 2 \mathrm{\pi } \times 7$
 
 *using the arc length formula correctly*** [1] **
 
@@ -543,13 +541,13 @@ $OA=9.471741689...=9.47(2d.p.)$
 
 > *Rearrange to find angle *$COB$
 
-`table row cell 5.03 end cell equals cell fraction numerator angle C O B over denominator 360 end fraction cross times 2 straight pi cross times 7 end cell row cell 5.03 cross times 360 end cell equals cell angle C O B cross times 2 straight pi cross times 7 end cell row cell fraction numerator 5.03 cross times 360 over denominator 2 straight pi cross times 7 end fraction end cell equals cell angle C O B end cell end table`
+$\begin{gathered} 5.03 & = \frac{angle C O B}{360} \times 2 \mathrm{\pi } \times 7 \\ 5.03 \times 360 & = \text{angle} C O B \times 2 \mathrm{\pi } \times 7 \\ \frac{5.03 \times 360}{2 \mathrm{\pi } \times 7} & = \text{angle} C O B \end{gathered}$
 
 **[1]**
 
 > *"Show that ... to 1 decimal place" so to achieve the final mark you must **show angle *$COB$* to more than one decimal place*
 
-`table row cell bold angle bold italic C bold italic O bold italic B end cell bold equals cell bold space bold 41 bold. bold 17111014 bold. bold. bold. bold degree bold space stretchy left parenthesis equals space 41.2 degree space to space 1 space d. p. stretchy right parenthesis end cell end table`** [1]**
+$\begin{gathered} \text{angle} C O B & = 41 . 17111014 . . .^{\circ} ( = 41.2^{\circ} \text{to} 1 d. p. ) \end{gathered}$** [1]**
 
 **The final mark will be withheld if you do not state at least "41.17..."**
 > *The shape is already split into a non-right-angle triangle and a sector. Sector area = *$\frac{θ}{360}\timesπr^{2}$* where *$r$* is the radius, 7 cm and *$θ$* is the angle bound by the radii, 41.2° (given in part (c))*
@@ -597,7 +595,7 @@ $7.7=\frac{y}{360}\times2\timesπ\times3.8$
 
 $2772=y\times2\timesπ\times3.8$
 
-> *Divide both sides by *`open parentheses 2 cross times straight pi cross times 3.8 close parentheses`* (or 23.876... , but it is best to use accurate values)*
+> *Divide both sides by *$( 2 \times \mathrm{\pi } \times 3.8 )$* (or 23.876... , but it is best to use accurate values)*
 
 $\frac{2772}{2\timesπ\times3.8}=y$
 
@@ -630,23 +628,23 @@ $14.6\mathrm{cm}^{2}$* ***[1]*** *
 ### Q16
 > *Calculate the space available on one table for seating by finding the circumference of one table, using the formula: *$C=πd$*, where *$d$* is the diameter of the table.*
 
-`table row cell Total space space space end cell equals cell straight pi cross times 140 end cell end table`
+$\begin{gathered} \text{Total} & = \mathrm{\pi } \times 140 \end{gathered}$
 
 **[1]**
 
-`table row blank equals cell 439.82297... space cm end cell end table`
+$\begin{gathered} = 439.82297... \text{cm} \end{gathered}$
 
 *Circumference between 439 - 440*** [1]**
 
 > *Divide the space available by the space required for one person to work out how many people can be seated at each table.*
 
-`table attributes columnalign right center left columnspacing 0px end attributes row blank blank cell fraction numerator 439.82287... over denominator 60 end fraction end cell row blank equals cell 7.33038... end cell end table`
+$\begin{array}{rcl} \frac{439.82287...}{60} \\ = 7.33038... \end{array}$
 
 *7 people can be seated at each table*
 
 > *Multiply the number of people that can be seated at each table by the number of tables to find the total number of people that can be seated.*
 
-`table row blank blank cell 12 cross times 7 end cell row blank equals 84 end table`
+$\begin{gathered} 12 \times 7 \\ = 84 \end{gathered}$
 
 **[1]**
 
@@ -699,7 +697,7 @@ $\frac{60}{360}\timesπ\times7.5^{2}$
 
 > *Use your calculator to find the answer. *
 
-`table row cell 1 over 6 open parentheses 56.25 close parentheses pi space space end cell equals cell space space 9.375 pi italic space end cell row blank equals cell 29.452... space space end cell end table`
+$\begin{gathered} \frac{1}{6} ( 56.25 ) \pi & = 9.375 \pi \\ = 29.452... \end{gathered}$
 
 **Area = 29.5 cm**<sup>**2  **</sup>**(3 s.f.)**** [1] **
 
@@ -712,15 +710,15 @@ $\frac{60}{360}\timesπ\times7.5^{2}$
 
 > *To help find the angle of the sector, first find the acute angle **DOE**. *
 
-> *Triangle **ODE** is right-angled and we have the hypotenuse (**DO** = 0.5) and the adjacent side (**OE** = 0.25). So we can use *`cos open parentheses D O E close parentheses equals Adjacent over Hypotenuse.`
+> *Triangle **ODE** is right-angled and we have the hypotenuse (**DO** = 0.5) and the adjacent side (**OE** = 0.25). So we can use *$\text{cos} ( D O E ) = \frac{Adjacent}{Hypotenuse}.$
 
-`cos open parentheses D O E close parentheses equals fraction numerator 0.25 over denominator 0.5 end fraction equals 1 half`
+$\cos ( D O E ) = \frac{0.25}{0.5} = 1 \frac{1}{2}$
 
 **[1]**
 
 > *Use inverse cos on your calculator to find the size of the angle.*
 
-`D O E equals cos to the power of negative 1 end exponent open parentheses 1 half close parentheses equals 60`
+$D O E = \cos ^{- 1} ( 1 \frac{1}{2} ) = 60$
 
 > *Subtract angle **DOE** from 270° to get the size of the angle of the sector.*
 
@@ -740,7 +738,7 @@ $l=\frac{210}{360}\times2π\times0.5\,l=\frac{7}{12}π$
 
 > *Add together the lengths.*
 
-`table row blank blank cell 1.5 plus 0.5 plus 1.5 plus 7 over 12 straight pi plus 0.5 end cell row blank equals cell 4 plus 7 over 12 straight pi end cell row blank equals cell 5.8325... end cell end table`
+$\begin{gathered} 1.5 + 0.5 + 1.5 + \frac{7}{12} \mathrm{\pi } + 0.5 \\ = 4 + \frac{7}{12} \mathrm{\pi } \\ = 5.8325... \end{gathered}$
 
 **[1]**
 
@@ -785,7 +783,7 @@ $\frac{260}{360}\times2π\times4=\frac{52}{9}π=18.15142...$
 
 > *The third non-zero digit is 1 and the digit following it is 5, which is 5 or more so you will need to round the 1 up. *
 
-`18. right enclose 1 bottom enclose 5 142... space equals space 18.2 space open parentheses 3 space s. f. close parentheses`
+`18. right 1 bottom 5 142... = 18.2 ( 3 s. f. )`
 
 **18.2 cm ****[1]**
 
@@ -820,11 +818,11 @@ $π\times5.1^{2}=81.7128...$* *
 
 > *Factorise out the **r.*
 
-*Perimeter =* `open parentheses straight pi plus 2 close parentheses r`
+*Perimeter =* $( \mathrm{\pi } + 2 ) r$
 
 > *Make the expression for the perimeter equal to 19.02.*
 
-`open parentheses straight pi plus 2 close parentheses r equals 19.02`
+$( \mathrm{\pi } + 2 ) r = 19.02$
 
 > *Divide both sides by π+2.*
 
@@ -859,11 +857,11 @@ $\frac{\frac{6.4}{16π}\times360}{360}\timesπ\times8^{2}$
 
 > *Cancel out the 360 from the numerator and denominator of the fraction.*
 
-`fraction numerator fraction numerator 6.4 over denominator 16 straight pi end fraction cross times up diagonal strike 360 over denominator up diagonal strike 360 end fraction cross times straight pi cross times 8 squared equals fraction numerator 6.4 over denominator 16 straight pi end fraction cross times straight pi cross times 8 squared`
+$\frac{\frac{6.4}{16 \mathrm{\pi } } \times \cancel{360} }{ \cancel{360} } \times \mathrm{\pi } \times 8^{2} = \frac{6.4}{16 \mathrm{\pi } } \times \mathrm{\pi } \times 8^{2}$
 
 > *Cancel out the π.*
 
-`fraction numerator 6.4 over denominator 16 up diagonal strike straight pi end fraction cross times up diagonal strike straight pi cross times 8 squared equals fraction numerator 6.4 over denominator 16 end fraction cross times 8 squared`
+`(6.4)/(16 / pi) x / pi x 8 ^2 = (6.4)/(16) x 8 ^2`
 
 > *Work out the value of the expression using your calculator.*
 
@@ -873,7 +871,7 @@ $\frac{\frac{6.4}{16π}\times360}{360}\timesπ\times8^{2}$
 ### Q25
 > *Use *$\frac{θ}{360}\timesπr^{2}$* to find the angle*
 
-`table row cell theta over 360 cross times pi cross times 7 squared end cell equals 40 row theta equals cell fraction numerator 40 cross times 360 over denominator pi cross times 7 squared end fraction end cell row blank equals cell 93.54... end cell end table`
+`| theta / 360 x pi x 7 ^2 | = 40 | theta = (40 x 360)/(pi x 7 ^2) | | _ = 93.54... | |`
 
 **correct equation [1]**
 
@@ -881,7 +879,7 @@ $\frac{\frac{6.4}{16π}\times360}{360}\timesπ\times8^{2}$
 
 > *Use *$\frac{θ}{360}\times2πr$* to find the arc length*
 
-`table row cell fraction numerator 93.54... over denominator 360 end fraction cross times 2 pi cross times 7 end cell equals cell 80 over 7 end cell row blank equals cell 11.42... end cell end table`
+$\begin{gathered} \frac{93.54...}{360} \times 2 \pi \times 7 & = \frac{80}{7} \\ = 11.42... \end{gathered}$
 
 **[1]**
 
@@ -896,13 +894,13 @@ $11.42...+7+7=25.42...$
 ### Q26
 > *Calculate the area of the semi-circle using the formula *$A=\frac{1}{2}\mathrm{πr}^{2}$*.*
 
-`table row cell Area space end cell equals cell 1 half cross times straight pi cross times 7.2 squared end cell row blank equals cell 25.92 straight pi space straight m squared end cell end table`
+$\begin{gathered} \text{Area} & = 1 \frac{1}{2} \times \mathrm{\pi } \times 7.2^{2} \\ = 25.92 \mathrm{\pi } \mathrm{m}^{2} \end{gathered}$
 
 **[1]**
 
 > *Work out the number of boxes of seed that Yuen needs by dividing the area of his garden by the area that each box can cover.*
 
-`table row cell fraction numerator 25.92 straight pi over denominator 6 end fraction equals space 4.32 straight pi space equals space 13.57... end cell end table`
+$\begin{gathered} \frac{25.92 \mathrm{\pi } }{6} = 4.32 \mathrm{\pi } = 13.57... \end{gathered}$
 
 **[1]**
 
@@ -925,18 +923,18 @@ $\frac{x}{360}\times2\timesπ\times9.5$
 
 > *Find an expression for the perimeter of the sector in terms of *$x$*, **by adding this to 2 × the radius.*
 
-`open parentheses space x over 360 space space cross times space 2 space cross times space pi space space cross times space 9.5 space close parentheses space plus space 9.5 space plus space 9.5 space
-equals space x over 360 space space cross times space 19 pi space space plus space 19`
+$( \frac{x}{360} \times 2 \times \pi \times 9.5 ) + 9.5 + 9.5 
+= \frac{x}{360} \times 19 \pi + 19$
 
 > *Form an equation by setting this equal to the perimeter of the square. *
 
-`table row cell x over 360 space space cross times space 19 pi space space plus space 19 space end cell equals cell space 32 end cell end table`
+$\begin{gathered} \frac{x}{360} \times 19 \pi + 19 & = 32 \end{gathered}$
 
 **[1]**
 
 > *Solve the equation.*
 
-`table row cell x over 360 space space cross times space 19 pi space end cell equals cell space 32 space minus space 19 end cell row cell x over 360 space space cross times space 19 pi space end cell equals 13 row cell x over 360 space space end cell equals cell space fraction numerator 13 over denominator 19 pi end fraction end cell row cell x space end cell equals cell space 360 space cross times space fraction numerator 13 over denominator 19 pi end fraction end cell row blank equals cell space 78.40415... end cell row blank blank blank end table`
+$\begin{gathered} \frac{x}{360} \times 19 \pi & = 32 - 19 \\ \frac{x}{360} \times 19 \pi & = 13 \\ \frac{x}{360} & = \frac{13}{19 \pi } \\ x & = 360 \times \frac{13}{19 \pi } \\ = 78.40415... \\ \end{gathered}$
 
 $x=78.4^{\circ}$<sup>** **</sup>**(1 d.p.)**** [1] **
 **Answers in the range 78.37 to 78.41 accepted.**
@@ -959,11 +957,11 @@ $θ=360-48=312$
 
 **[1]**
 
-`table row cell Arc space length end cell equals cell 312 over 360 cross times 2 pi cross times 5.4 end cell end table`
+$\begin{gathered} \text{Arc} \text{length} & = \frac{312}{360} \times 2 \pi \times 5.4 \end{gathered}$
 
 **[1]**
 
-`table row blank equals cell 29.40530724... end cell end table`
+$\begin{gathered} = 29.40530724... \end{gathered}$
 
 $\mathrm{Arc} \mathrm{length}=29.4\mathrm{cm}$**[1]**
 **Round your answer to at least 3 significant figures**
@@ -1019,8 +1017,7 @@ $r^{3}=\frac{\frac{1}{9}\times1885}{\frac{4}{3}π}\,$ * *
 
 *Find *$r$* (by cube-rooting both sides)* * *
 
-`r equals cube root of fraction numerator begin display style 1 over 9 cross times 1885 end style over denominator begin display style 4 over 3 straight pi end style end fraction end root
-`
+$r = cbrt( ( 1 / 9 x 1885 )/( 4 / 3 \pi ) )$
 
 **3.68 cm*** ***[1]**
 
@@ -1028,17 +1025,17 @@ $r^{3}=\frac{\frac{1}{9}\times1885}{\frac{4}{3}π}\,$ * *
 *The ratio of radii is 1: 2 so write the smaller sphere radius as *$r$* and the bigger sphere radius as *$2r$ 
 *Form an equation in *$r$* (the sum of the volumes of the two spheres equals *$1885$*)* * *
 
-`4 over 3 straight pi r cubed plus 4 over 3 straight pi open parentheses 2 r close parentheses cubed equals 1885`
+$\frac{4}{3} \mathrm{\pi } r^{3} + \frac{4}{3} \mathrm{\pi } ( 2 r )^{3} = 1885$
 
 **[1]**
 
-*Collect like terms, using *`open parentheses 2 r close parentheses cubed equals 8 r cubed` * *
+*Collect like terms, using *$( 2 r )^{3} = 8 r^{3}$ * *
 
 $\frac{4}{3}πr^{3}+\frac{4}{3}π\times8r^{3}=1885\,\frac{36}{3}πr^{3}=1885\,12πr^{3}=1885$ * *
 
 *Find *$r$* (by dividing both sides by *$12π$* then cube-rooting)*
 
-`r equals cube root of fraction numerator 1885 over denominator 12 straight pi end fraction end root`
+$r = \sqrt[3]{ \frac{1885}{12 \mathrm{\pi } } }$
 
 **[1]**
 

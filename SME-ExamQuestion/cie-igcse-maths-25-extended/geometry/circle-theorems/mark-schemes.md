@@ -17,11 +17,11 @@ $a=58$
 
 > *Find the value of **b **by using the fact that interior angles in a triangle add up to 180°. *
 
-`table row cell b plus 58 plus 27 end cell equals 180 row b equals cell 180 minus 58 minus 27 end cell row b equals 95 end table`
+$\begin{gathered} b + 58 + 27 & = 180 \\ b = 180 - 58 - 27 \\ b = 95 \end{gathered}$
 
 > * Angles that form a straight line add up to 180°. Therefore **b **and **x** add up to 180°.*
 
-> * *`table row cell x plus 95 end cell equals 180 row x equals cell 180 minus 95 end cell end table`
+> * *$\begin{gathered} x + 95 & = 180 \\ x = 180 - 95 \end{gathered}$
 
 $x=85$ **[1]**
 
@@ -169,15 +169,15 @@ ii) *Method 1  *
 
 > *EC **= **EB  **so triangle** BCE **is isosceles and angle **CBE** = angle **BCE**. *
 
-`table row cell w degree end cell equals cell space 80 degree end cell end table`
+$\begin{gathered} w^{\circ} & = 80^{\circ} \end{gathered}$
 
 > *ABCE **is a cyclic quadrilateral. This theorem states that opposite angles in a cyclic quadrilateral add up to 180°.*
 
-`table row cell y space plus space 80 space end cell equals cell space 180 end cell row cell y space end cell equals cell space 180 space minus space 80 end cell row cell y degree end cell equals cell space 100 degree end cell end table`
+$\begin{gathered} y + 80 & = 180 \\ y & = 180 - 80 \\ y^{\circ} & = 100^{\circ} \end{gathered}$
 
 > *BCDE **is also a cyclic quadrilateral. *
 
-`table row cell x space plus space z space plus space w space end cell equals cell space 180 end cell row cell space 40 space plus space z space plus space 80 space end cell equals cell space 180 end cell row cell z space end cell equals cell space 180 space minus space 120 end cell row cell z degree end cell equals cell space 60 degree end cell end table`
+$\begin{gathered} x + z + w & = 180 \\ 40 + z + 80 & = 180 \\ z & = 180 - 120 \\ z^{\circ} & = 60^{\circ} \end{gathered}$
 
 $v=40^{\circ}w=80^{\circ}x=40^{\circ}y=100^{\circ}z=60^{\circ}$ **[5] **
 *1 mark for each correct answer*
@@ -189,7 +189,7 @@ $v=40^{\circ}w=80^{\circ}x=40^{\circ}y=100^{\circ}z=60^{\circ}$ **[5] **
 *Exterior angles in any polygon add up to 360°.*
 *A regular pentagon has 5 equal exterior angles.*
 
-> * *`T S with hat on top U space equals 360 over 5 equals space 72 degree`
+> * *$T \hat{S} U = \frac{360}{5} = 72^{\circ}$
 
 **[1]**
 
@@ -199,7 +199,7 @@ $v=40^{\circ}w=80^{\circ}x=40^{\circ}y=100^{\circ}z=60^{\circ}$ **[5] **
 
 > *TP** and **TR **are also tangents to the circle, so by the circle theorem 'A tangent always meets a radius at 90°', angles **ORQ **and **OTP **are both 90°. *
 
-`O R with hat on top Q space equals space O T with hat on top P space equals 90 degree`* **(angle between tangent and radius)*
+$O \hat{R} Q = O \hat{T} P = 90^{\circ}$* **(angle between tangent and radius)*
 
 **[1]**
 
@@ -208,9 +208,9 @@ $v=40^{\circ}w=80^{\circ}x=40^{\circ}y=100^{\circ}z=60^{\circ}$ **[5] **
 ![QLY1pOQ2_4-8-edexcel-gcse-vh-q3-diagram-2](assets/017-qly1poq2-4-8-edexcel-gcse-vh-q3-diagram-2.png)
 
 > *The sum of the interior angles in any polygon can be found using the formula 180°(n - 2). *
-*A regular pentagon has 5 equal interior angles, therefore these can be found using the formula *`fraction numerator 180 open parentheses 5 space minus space 2 close parentheses over denominator 5 end fraction`*.*
+*A regular pentagon has 5 equal interior angles, therefore these can be found using the formula *$\frac{180 ( 5 - 2 )}{5}$*.*
 
-> * *`T P with hat on top Q space equals P Q with hat on top R space equals space fraction numerator 3 open parentheses 180 close parentheses over denominator 5 end fraction equals space 108 degree`
+> * *$T \hat{P} Q = P \hat{Q} R = \frac{3 ( 180 )}{5} = 108^{\circ}$
 
 > *Add these angles to the diagram.*
 
@@ -220,19 +220,19 @@ $v=40^{\circ}w=80^{\circ}x=40^{\circ}y=100^{\circ}z=60^{\circ}$ **[5] **
 
 > *The sum of the interior angles in any polygon can be found using the formula 180°(n - 2).*
 
-`R O with hat on top T space plus O T with hat on top P space plus space T P with hat on top Q space plus space P Q with hat on top R space plus space Q R with hat on top O space equals space 180 open parentheses 5 space minus space 2 close parentheses degree space equals space 540 degree`
+$R \hat{O} T + O \hat{T} P + T \hat{P} Q + P \hat{Q} R + Q \hat{R} O = 180 ( 5 - 2 )^{\circ} = 540^{\circ}$
 
 > *Substitute in the angles you know to find angle **ROT**.*
 
-`table row cell R O with hat on top T space plus space 90 degree space plus space 90 degree space plus space 108 degree space plus space 108 degree space end cell equals cell space 540 degree end cell row cell R O with hat on top T space plus space 396 degree space end cell equals cell space 540 degree end cell row cell R O with hat on top T space space end cell equals cell space 144 degree end cell end table`
+$\begin{gathered} R \hat{O} T + 90^{\circ} + 90^{\circ} + 108^{\circ} + 108^{\circ} & = 540^{\circ} \\ R \hat{O} T + 396^{\circ} & = 540^{\circ} \\ R \hat{O} T & = 144^{\circ} \end{gathered}$
 
 **[1]**
 
 > *By the circle theorem, the angle at the centre is twice the angle at the circumference, angle **ROT **is twice angle **RUT.*
 
-`R O with hat on top T space equals 2 open parentheses R U with hat on top T close parentheses space equals space 2 open parentheses S U with hat on top T close parentheses`
+$R \hat{O} T = 2 ( R \hat{U} T ) = 2 ( S \hat{U} T )$
 
-`S U with hat on top T space equals fraction numerator R O with hat on top T over denominator 2 end fraction equals space 144 over 2 space equals space 72 degree`
+$S \hat{U} T = \frac{R \hat{O} T}{2} = \frac{144}{2} = 72^{\circ}$
 
 **[1]**
 
@@ -257,7 +257,7 @@ $v=40^{\circ}w=80^{\circ}x=40^{\circ}y=100^{\circ}z=60^{\circ}$ **[5] **
 
 ![cie-igcse-2018-oct-nov-p4-tz3-q8b-ma2](assets/021-cie-igcse-2018-oct-nov-p4-tz3-q8b-ma2.png)
 
-`w equals fraction numerator open parentheses 180 minus 150 close parentheses over denominator 2 end fraction`
+$w = \frac{( 180 - 150 )}{2}$
 
 **[1]**
 
@@ -366,7 +366,7 @@ $v=40^{\circ}w=80^{\circ}x=40^{\circ}y=100^{\circ}z=60^{\circ}$ **[5] **
 
 ![cie-igcse-2019-oct-nov-p4-tz3-q6aii1](assets/031-cie-igcse-2019-oct-nov-p4-tz3-q6aii1.png)
 
-*Angle ***CAD*** *`table row blank equals cell 180 minus open parentheses 128 plus 28 close parentheses end cell end table``table row blank equals 24 end table`
+*Angle ***CAD*** *$\begin{gathered} = 180 - ( 128 + 28 ) \end{gathered}$$\begin{gathered} = 24 \end{gathered}$
 
 **[1]**
 
@@ -386,7 +386,7 @@ $v=40^{\circ}w=80^{\circ}x=40^{\circ}y=100^{\circ}z=60^{\circ}$ **[5] **
 
 $\mathrm{Angle}BAD+\mathrm{Angle}BCD=180$
 
-`open parentheses Angle space B A O plus 38 plus 24 close parentheses plus open parentheses 28 plus 38 plus 30 close parentheses equals 180`
+$( Angle B A O + 38 + 24 ) + ( 28 + 38 + 30 ) = 180$
 
 > *Simplify.*
 
@@ -430,17 +430,17 @@ $\mathrm{cos}θ=\frac{\mathrm{Adj}}{\mathrm{Hyp}}\,\mathrm{cos}21^{\circ}=\frac{
 
 > *Solve by multiplying both sides by **AC **and dividing both sides by 12.   *
 
-`table row cell A C space cos space 21 degree space end cell equals cell space 12 end cell row cell A C space space end cell equals cell fraction numerator 12 over denominator cos space 21 degree end fraction end cell row blank equals cell space 12.85373... end cell end table`
+$\begin{gathered} A C \cos 21^{\circ} & = 12 \\ A C & = \frac{12}{\cos 21^{\circ}} \\ = 12.85373... \end{gathered}$
 
 *   ***[1]**
 
 > *The radius is half the diameter.*
 
-`table attributes columnalign right center left columnspacing 0px end attributes row cell r space end cell equals cell space fraction numerator 12.85373... over denominator 2 end fraction space equals space 6.42686... end cell end table`
+$\begin{array}{rcl} r & = \frac{12.85373...}{2} = 6.42686... \end{array}$
 
 > *Substitute into the formula for the area of a circle.*
 
-`table row cell straight pi open parentheses space 6.42686... close parentheses squared space end cell equals cell space 129.7624.... end cell end table`
+$\begin{gathered} \mathrm{\pi } ( 6.42686... )^{2} & = 129.7624.... \end{gathered}$
 
 * ***Area = 130 cm**<sup>**2**</sup>** (3 s.f.) ****[1]**
 **If not rounded to 3 s.f., answers in the range 129.6 to 129.8 accepted.*** *
@@ -480,7 +480,7 @@ i) *By the circle theorem, the angle at the centre of a circle is twice the angl
 
 ![L~_VfDCE_cie-igcse-2020-oct-nov-p4-tz3-q5ai-working](assets/040-l-vfdce-cie-igcse-2020-oct-nov-p4-tz3-q5ai-worki.png)
 
-`table row cell 2 C A D space end cell equals cell space C O D end cell row cell 2 x space end cell equals cell space 162 end cell row cell x space end cell equals cell space 162 over 2 end cell end table`
+$\begin{gathered} 2 C A D & = C O D \\ 2 x & = 162 \\ x & = \frac{162}{2} \end{gathered}$
 
 $x=81^{\circ}$ **[1] **
 **The angle at the centre is twice the angle at the circumference**** [1]**
@@ -491,7 +491,7 @@ ii) *The alternate segment theorem states that an angle inside a triangle with a
 
 ![4V2x2VJ7_cie-igcse-2020-oct-nov-p4-tz3-q5aii-working](assets/041-4v2x2vj7-cie-igcse-2020-oct-nov-p4-tz3-q5aii-wor.png)
 
-`table row cell y space end cell equals cell space x end cell row space equals cell space 81 degree end cell end table`
+$\begin{gathered} y & = x \\ = 81^{\circ} \end{gathered}$
 
 $y=81^{\circ}$ **[1] **
 **The alternate segment theorem**** [1]**
@@ -510,7 +510,7 @@ iii) *ABCD **is a cyclic quadrilateral as it has all four vertices on the circum
 
 > *Opposite angles in a cyclic quadrilateral add up to 180°**.*
 
-`table row cell z space plus space 57 space end cell equals cell space 180 end cell row cell z space end cell equals cell space 180 space minus space 57 end cell end table`
+$\begin{gathered} z + 57 & = 180 \\ z & = 180 - 57 \end{gathered}$
 
 $z=123^{\circ}$ **[1] **
 **Angles on a straight line and opposite angles in a cyclic quadrilateral add up to 180° **** ****[1]**
@@ -539,7 +539,7 @@ $z=123^{\circ}$ **[1] **
 
 > *FGHJ** is a cyclic quadrilateral (all the corners lie on the circle). The circle theorem states that opposite angles in a cyclic quadrilateral add up to 180°. Angles **FJH** and **FGH** are opposite so add up to 180°.*
 
-`table row cell y plus 108 end cell equals 180 row y equals cell 180 minus 108 end cell end table`
+$\begin{gathered} y + 108 & = 180 \\ y = 180 - 108 \end{gathered}$
 
 $y=72$ **[1]**
 
@@ -604,7 +604,7 @@ $y=75^{\circ}$ **[1]**
 
 ![cie-igcse-2020-may-jun-p4-tz3-q8bi-ma](assets/053-cie-igcse-2020-may-jun-p4-tz3-q8bi-ma.png)
 
-`table row cell 45 plus z end cell equals 90 row z equals cell 90 minus 45 end cell end table`
+$\begin{gathered} 45 + z & = 90 \\ z = 90 - 45 \end{gathered}$
 
 $z=45$ **[1]**
 
@@ -676,6 +676,6 @@ $y=40^{\circ}$ **[1]**
 
 > *And angles in a triangle sum to 180° so*
 
-*Angle** *`C D B equals open parentheses 180 minus 90 minus 58 close parentheses degree`
+*Angle** *$C D B = ( 180 - 90 - 58 )^{\circ}$
 
 **Angle **$CDB=32^{\circ}$** [1]**

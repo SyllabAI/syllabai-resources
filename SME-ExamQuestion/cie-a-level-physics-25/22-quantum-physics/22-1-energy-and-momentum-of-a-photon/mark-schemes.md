@@ -41,7 +41,7 @@ Recall the equation for photon energy, *E* :
 
 Substitute the known quantities:
 
-- `E space equals space open parentheses 6.63 space cross times space 10 to the power of negative 34 end exponent close parentheses space cross times space open parentheses 8.6 space cross times space 10 to the power of 20 close parentheses` **[1 mark]**
+- $E = ( 6.63 \times 10^{- 34} ) \times ( 8.6 \times 10^{20} )$ **[1 mark]**
 - $E=5.7\times10^{-13}J$ **[1 mark]**
 
 **[Total: 2 marks]**
@@ -58,12 +58,12 @@ List the known quantities:
 Calculate the kinetic energy, *E*<sub>*k*</sub> , in joules:
 
 - $E_{k}=\frac{1}{2}m_{e}v^{2}$
-- `E subscript k space equals space 1 half space cross times space 9.11 space cross times space 10 to the power of negative 31 end exponent space cross times space open parentheses 1.5 space cross times space 10 to the power of 6 close parentheses squared` **[1 mark]**
+- $E_{k} = 1 \frac{1}{2} \times 9.11 \times 10^{- 31} \times ( 1.5 \times 10^{6} )^{2}$ **[1 mark]**
 - $E_{k}=1.02\times10^{-18}J$
 
 Convert this to eV:
 
-- `1 space straight J space equals space open parentheses fraction numerator 1 over denominator 1.60 space cross times space 10 to the power of negative 19 end exponent end fraction close parentheses space eV`
+- $1 \mathrm{J} = ( \frac{1}{1.60 \times 10^{- 19} } ) \text{eV}$
 - $E_{k}=1.02\times10^{-18}J=\frac{1.02\times10^{-18}}{1.60\times10^{-19}}\mathrm{eV}$ **[1 mark]**
 - $E_{k}=6.4\mathrm{eV}$ **[1 mark]**
 
@@ -97,7 +97,7 @@ Determine the final kinetic energy, *E*<sub>*k,f *</sub> in eV:
 Convert this energy to joules:
 
 - $1\mathrm{eV}=1.60\times10^{-19}J$
-- `E subscript k comma f end subscript space equals space 21.4 space eV space equals space 21.4 space cross times space open parentheses 1.60 space cross times space 10 to the power of negative 19 end exponent close parentheses space straight J`
+- $E_{k , f} = 21.4 \text{eV} = 21.4 \times ( 1.60 \times 10^{- 19} ) \mathrm{J}$
 - $E_{k,f}=3.4\times10^{-18}J$ **[1 mark]**
 
 **[Total: 3 marks]**
@@ -115,12 +115,12 @@ Rearrange the equation for kinetic energy to make speed the subject:
 
 Substitute the known quantities:
 
-- `v space equals space square root of fraction numerator 2 space cross times space open parentheses 3.4 space cross times space 10 to the power of negative 18 end exponent close parentheses over denominator 9.11 space cross times space 10 to the power of negative 31 end exponent end fraction end root` **[1 mark]**
+- $v = \sqrt{ \frac{2 \times ( 3.4 \times 10^{- 18} )}{9.11 \times 10^{- 31} } }$ **[1 mark]**
 - $v=2.73\times10^{6}ms^{-1}$
 
 Calculate momentum, *p *:
 
-- `p space equals space m v space equals space open parentheses 9.11 space cross times space 10 to the power of negative 31 end exponent close parentheses space cross times space open parentheses 2.73 space cross times space 10 to the power of 6 close parentheses`
+- $p = m v = ( 9.11 \times 10^{- 31} ) \times ( 2.73 \times 10^{6} )$
 - $p=2.49\times10^{-24}\mathrm{kg}ms^{-1}=2.5\times10^{-24}\mathrm{kg}ms^{-1}$ **[1 mark]**
 
 **[Total: 2 marks]**
@@ -135,7 +135,7 @@ List the known quantities:
 
 Determine the energy of one photon:
 
-- `E space equals space h f space equals space open parentheses 6.63 space cross times space 10 to the power of negative 34 end exponent close parentheses space cross times space open parentheses 3.62 space cross times space 10 to the power of 14 close parentheses` **[1 mark]**
+- $E = h f = ( 6.63 \times 10^{- 34} ) \times ( 3.62 \times 10^{14} )$ **[1 mark]**
 - $E=2.40\times10^{-19}J$
 
 Determine the momentum of one photon, *p *:
@@ -173,7 +173,7 @@ List the known quantities:
 
 Use the photon energy equation:
 
-- `E space equals space h f space equals space open parentheses 6.63 space cross times space 10 to the power of negative 34 end exponent close parentheses space cross times space open parentheses 6.0 space cross times space 10 to the power of 14 close parentheses` **[1 mark]**
+- $E = h f = ( 6.63 \times 10^{- 34} ) \times ( 6.0 \times 10^{14} )$ **[1 mark]**
 - $E=3.98\times10^{-19}J=4.0\times10^{-19}J$ **[1 mark]**
 
 **[Total: 2 marks]**
@@ -250,13 +250,13 @@ List the known quantities:
 Calculate the kinetic energy of the electron, *E*<sub>*e*</sub>:
 
 - $E_{e}=\frac{1}{2}m_{e}v_{e}^{2}$
-- `E subscript e space equals space 1 half space cross times space open parentheses 9.11 space cross times space 10 to the power of negative 31 end exponent close parentheses space cross times space 1822 squared`
+- $E_{e} = 1 \frac{1}{2} \times ( 9.11 \times 10^{- 31} ) \times 1822^{2}$
 - $E_{e}=1.51\times10^{-24}$ J **[1 mark]**
 
 Calculate the photon energy, *E*<sub>*p*</sub>:
 
 - $E_{p}=\frac{hc}{λ}$
-- `E subscript p space equals space fraction numerator open parentheses 6.63 space cross times space 10 to the power of negative 34 end exponent close parentheses space cross times space open parentheses 3.00 space cross times space 10 to the power of 8 close parentheses over denominator open parentheses 400 space cross times space 10 to the power of negative 9 end exponent close parentheses end fraction`
+- $E_{p} = \frac{( 6.63 \times 10^{- 34} ) \times ( 3.00 \times 10^{8 )}{( 400 \times 10^{-9} } )}$
 - $E_{p}=4.97\times10^{-19}$ J **[1 mark]**
 
 Determine the ratio of photon energy to electron energy, $\frac{E_{p}}{E_{e}}$:
@@ -282,7 +282,7 @@ Obtain an equation in terms of the momentum of *n *photons:
 
 Substitute the known quantities into the equation to calculate the momentum of *n *photons:
 
-- `p space equals space open parentheses 5.00 space cross times space 10 to the power of 27 close parentheses space cross times space fraction numerator open parentheses 6.63 space cross times space 10 to the power of negative 34 end exponent close parentheses space cross times space open parentheses 3.95 space cross times space 10 to the power of 14 close parentheses over denominator open parentheses 3.00 space cross times space 10 to the power of 8 close parentheses end fraction`
+- $p = ( 5.00 \times 10^{27 ) \times \frac{( 6.63 \times 10^{-34} } ) \times ( 3.95 \times 10^{14} )}{( 3.00 \times 10^{8} )}$
 - $p=4.365$ kg m s<sup>−1</sup>
 
 **AND**
@@ -299,7 +299,7 @@ Recall the equation from part a) and the units normally used:
 
 Substitute for SI base units as J and Hz:
 
-- `k g space m space s to the power of negative 1 end exponent space equals space fraction numerator open parentheses k g space m squared space s to the power of negative 2 end exponent close parentheses space s space cross times space open parentheses s to the power of negative 1 end exponent close parentheses over denominator m space s to the power of negative 1 end exponent end fraction`
+- $k g m s^{- 1} = \frac{( k g m^{2} s^{- 2} ) s \times ( s^{- 1} )}{m s^{- 1} }$
 - $kgms^{-1}=\frac{kgm^{2}s^{-2}}{ms^{-1}}$
 - $kgms^{-1}=\frac{kgm}{s}=kgms^{-1}$ **[1 mark]**
 
@@ -320,7 +320,7 @@ List the known quantities:
 Calculate the energy of one photon, *E*:
 
 - Recall: $E=hf$
-- `E space equals space open parentheses 6.63 space cross times space 10 to the power of negative 34 end exponent close parentheses space cross times space open parentheses 3.95 space cross times space 10 to the power of 14 close parentheses`
+- $E = ( 6.63 \times 10^{- 34} ) \times ( 3.95 \times 10^{14} )$
 - $E=2.62\times10^{-19}$ J** [1 mark]**
 
 Convert the energy in J to energy in eV:
@@ -356,7 +356,7 @@ Recall the equation for photon energy:
 
 Substitute the known quantities:
 
-- `E space equals space fraction numerator open parentheses 6.63 space cross times space 10 to the power of negative 34 end exponent close parentheses space cross times space open parentheses 3.00 space cross times space 10 to the power of 8 close parentheses over denominator 2.50 space cross times space 10 to the power of negative 12 end exponent end fraction` **[1 mark]**
+- $E = \frac{( 6.63 \times 10^{- 34} ) \times ( 3.00 \times 10^{8 )}{2.50 \times 10^{-12} } }$ **[1 mark]**
 - $E=7.96\times10^{-14}J$ **[1 mark]**
 
 **[Total: 2 marks]**
@@ -389,7 +389,7 @@ List the known quantities:
 
 Calculate the momentum of photons every second, *p*<sub>*sec *</sub>:
 
-- `p subscript s e c end subscript space equals space open parentheses 2.65 space cross times space 10 to the power of negative 22 end exponent close parentheses space cross times open parentheses 7.5 space cross times space 10 to the power of 25 close parentheses`
+- $p_{s e c} = ( 2.65 \times 10^{- 22} ) \times ( 7.5 \times 10^{25} )$
 - $p_{sec}=19900\mathrm{kg}ms^{-1}$ **[1 mark]**
 
 (ii) To find the force applied to the spaceship:
@@ -441,7 +441,7 @@ Recall and rearrange the equation for uniform acceleration:
 Find the speed after an hour:
 
 - 1 hour = 3600 s
-- `v space equals space open parentheses 1.62 space cross times space 10 to the power of negative 2 end exponent close parentheses space cross times space 3600` **[1 mark]**
+- $v = ( 1.62 \times 10^{- 2} ) \times 3600$ **[1 mark]**
 - $v=58ms^{-1}$ **[1 mark]**
 
 **[Total: 3 marks]**
@@ -481,7 +481,7 @@ Recall the equation relating photon wavelength *λ* and energy:
 
 Rearrange for *λ*  and substitute the known quantities:
 
-- `lambda space equals space fraction numerator h c over denominator E end fraction space equals space fraction numerator open parentheses 6.63 space cross times space 10 to the power of negative 34 end exponent close parentheses space cross times space open parentheses 3.00 space cross times space 10 to the power of 8 close parentheses over denominator 2.848 space cross times space 10 to the power of negative 19 end exponent end fraction` **[1 mark]**
+- $\\lambda = \frac{h c}{E} = \frac{( 6.63 \times 10^{- 34} ) \times ( 3.00 \times 10^{8 )}{2.848 \times 10^{-19} } }$ **[1 mark]**
 - $λ=6.98\times10^{-7}m$ **[1 mark]**
 
 **[Total: 2 marks]**
@@ -496,7 +496,7 @@ List the known quantities:
 
 Calculate the energy transferred per second, *E*<sub>*sec*</sub>* *:
 
-- `E subscript s e c end subscript space equals space N space cross times space E space equals space open parentheses 3.80 space cross times space 10 to the power of 18 close parentheses space cross times space open parentheses 2.848 space cross times space 10 to the power of negative 19 end exponent close parentheses`
+- $E_{s e c} = N \times E = ( 3.80 \times 10^{18 ) \times ( 2.848 \times 10^{-19} } )$
 - $E_{sec}=1.08224J$ **[1 mark]**
 
 Calculate the energy transferred every hour, *E*<sub>*hour *</sub>:

@@ -32,7 +32,7 @@ guided_study: false
 > **Worked Example**
 > A reaction that is proposed to create antiprotons in a laboratory is shown below:
 > 
-> `p presubscript 1 presuperscript 1 plus p presubscript 1 presuperscript 1 rightwards arrow p presubscript 1 presuperscript 1 plus p presubscript 1 presuperscript 1 plus pi presubscript 1 presuperscript 0 superscript plus plus scriptbase p with bar on top end scriptbase presubscript negative 1 end presubscript presuperscript negative 1 end presuperscript`
+> `p _ 1 ^ 1 + p _ 1 ^ 1 -> p _ 1 ^ 1 + p _ 1 ^ 1 + pi _ 1 ^ 0 ^ + + p -bar _ - 1 ^ - 1`
 > 
 > Determine whether this reaction is permitted.
 > 

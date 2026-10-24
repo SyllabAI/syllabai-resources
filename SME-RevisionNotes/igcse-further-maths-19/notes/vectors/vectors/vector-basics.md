@@ -50,7 +50,7 @@ guided_study: false
 
   - either a **column vector**
   
-    - `open parentheses table row 3 row 2 end table close parentheses` is 3 right and 2 up
+    - $( \begin{gathered} 3 \\ 2 \end{gathered} )$ is 3 right and 2 up
   - or in **i and** **j** **notation**
   
     - $3i+2j$
@@ -83,7 +83,7 @@ guided_study: false
 
   - For** column vectors**, add the tops together and bottoms together
   
-    - `open parentheses 2 over 1 close parentheses plus open parentheses 1 fourth close parentheses equals blank open parentheses 3 over 5 close parentheses`
+    - $( \frac{2}{1} ) + ( 1 \frac{1}{4} ) = ( \frac{3}{5} )$
 - In **i and** **j** **notation**, add **i** and **j** parts separately
 
   - (2**i **+ **j**)** **+ (**i** + 4**j**) = (3**i** + 5**j)**
@@ -98,7 +98,7 @@ guided_study: false
 
 - To **subtract **vectors you subtract their **components**
 
-  - `open parentheses 2 over 1 close parentheses minus open parentheses 1 fourth close parentheses equals blank open parentheses fraction numerator 1 over denominator negative 3 end fraction close parentheses`
+  - $( \frac{2}{1} ) - ( 1 \frac{1}{4} ) = ( \frac{1}{- 3} )$
 - In **i and** **j** **notation**, subtract **i** and **j** parts separately
 
   - Be careful with** brackets** and **negatives**
@@ -149,7 +149,7 @@ guided_study: false
 
   - For example
   
-    - `2 open parentheses table row 4 row 5 end table close parentheses equals open parentheses table row 8 row 10 end table close parentheses`
+    - $2 ( \begin{gathered} 4 \\ 5 \end{gathered} ) = ( \begin{gathered} 8 \\ 10 \end{gathered} )$
     - 2(4**i** + 5**j**) = 8**i** + 10**j**
 
 ![A diagram showing multiplying a vector by a positive scalar](../../../assets/e6211363f784-vector-mult-by-scalar.png)

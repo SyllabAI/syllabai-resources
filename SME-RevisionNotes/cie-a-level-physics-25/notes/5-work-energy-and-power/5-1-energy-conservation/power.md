@@ -74,7 +74,7 @@ $P=\frac{E}{t}=\frac{W}{t}$
 > 
 > **Step 3: Substitute the known values to calculate**
 > 
-> `P space equals space fraction numerator 500 space cross times space open parentheses 1.0 cross times 10 cubed close parentheses over denominator 200 end fraction`
+> $P = \frac{500 \times ( 1.0 \times 10^{3} )}{200}$
 > 
 > $P=2500W$
 

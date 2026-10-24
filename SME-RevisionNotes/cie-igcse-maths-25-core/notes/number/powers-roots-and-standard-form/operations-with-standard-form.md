@@ -20,9 +20,9 @@ guided_study: true
 ### How do I perform calculations with numbers in standard form?
 
 - Your **calculator **can be used to help you carry out calculations with numbers written in standard form
-- Make **use of brackets** around each number, and use the `box enclose cross times 10 to the power of x end enclose` button to enter numbers in standard form
+- Make **use of brackets** around each number, and use the `box x 10 ^ x` button to enter numbers in standard form
 
-  - e.g. `open parentheses 3 cross times 10 to the power of 8 close parentheses cross times open parentheses 2 cross times 10 to the power of negative 3 end exponent close parentheses`
+  - e.g. $( 3 \times 10^{8 ) \times ( 2 \times 10^{-3} } )$
   - You can instead use the standard multiplication and index buttons
 - If the answer produced by your calculator is **not in standard form**, but the answer requires it:
 

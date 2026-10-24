@@ -60,13 +60,13 @@ $\mathrm{Value} \mathrm{of} \mathrm{currency}1\times\mathrm{Exchange} \mathrm{ra
 > 
 > **Step 1: Multiply the cost in £ by the exchange rate**
 > 
-> `begin mathsize 16px style equals space £ 8 comma 500 space cross times space 1.18
+> $= \pounds 8 , 500 \times 1.18
 > 
-> equals space 10 comma 030 end style`**     ****(1)**
+> = 10 , 030$**     ****(1)**
 > 
 > **Step 2: Express the outcome in €**
 > 
-> `equals space € 10 comma 030`**        ****(1)**
+> $= \text{€} 10 , 030$**        ****(1)**
 
 > **Exam Hint**
 > If you'd been asked to calculate the value in £ from the value in € in the worked example above, you could simply reverse the formula

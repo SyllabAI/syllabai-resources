@@ -10,13 +10,13 @@
 
 > *Find 6% of \$500 by finding easier percentages first*
 
-`table row cell 10 percent sign thin space of space $ 500 end cell equals cell $ 50 end cell row cell 5 percent sign space of space $ 500 end cell equals cell $ 25 end cell row cell 1 percent sign space of space $ 500 end cell equals cell $ 5 end cell end table`
+`| 10 % of $ 500 | = $ 50 | | 5 % of $ 500 | = $ 25 | | 1 % of $ 500 | = $ 5 | |`
 
 **[M1]**
 
 > *Use 5% + 1% to find 6%*
 
-`6 percent sign thin space of space $ 500 equals $ 25 plus $ 5`
+`6 % of $ 500 = $ 25 + $ 5`
 
 > *Write down the total interest earned*
 
@@ -35,13 +35,13 @@
 ### Q2
 > *Simple interest means the same amount is being paid in interest every year.*
 
-`$ 90 space divided by space 10 space equals space $ 9`
+$\$ 90 \div 10 = \$ 9$
 
 **[1]**
 
 > *\$9 interest is being earned each year. Work this out as a percentage of \$600. Write as a fraction and multiply by 100.*
 
-`9 over 600 space cross times 100 space equals space 1.5 percent sign`
+$\frac{9}{600} \times 100 = 1.5 \%$
 
 **1.5%**** ****[1]**
 
@@ -77,27 +77,27 @@ $\frac{300}{12000}\times100=2.5$
 ### Q4
 > *Work out the total amount as a percentage*
 
-`100 percent sign space plus thin space 3.5 percent sign space equals space 103.5 percent sign`
+$100 \% + 3.5 \% = 103.5 \%$
 
 > *Divide by 100 to convert to a decimal*
 
-`103.5 percent sign space divided by space 100 space equals space 1.035`
+$103.5 \% \div 100 = 1.035$
 
 > *The amount is invested for 2 years so the power is 2.*
 
-`8400 space cross times space 1.035 squared space equals space $ 8998.29...`
+$8400 \times 1.035^{2} = \$ 8998.29...$
 
 **correct calculation ****[1]**
 ** ****\$8998.29**** [1]**
 
 > *Subtract the original amount to find the amount of interest.*
 
-`$ 8998.29 space minus space $ 8400 space equals space $ 598.29`
+$\$ 8998.29 - \$ 8400 = \$ 598.29$
 
 **\$598.29**** ****[1]**
 
 ### Q5
-i) *Use the compound interest formula: *`A equals P cross times open parentheses 1 plus r over 100 close parentheses to the power of n`* where *$P$* is the current amount, *$r$* is the percentage interest, and *$n$* is the number of repetitions  *
+i) *Use the compound interest formula: *$A = P \times ( 1 + \frac{r}{100} )^{n}$* where *$P$* is the current amount, *$r$* is the percentage interest, and *$n$* is the number of repetitions  *
 
 $P=3750$
 
@@ -109,7 +109,7 @@ $n=6$
 
 > * *
 
-`A equals 3750 cross times open parentheses 1 plus 4 over 100 close parentheses to the power of 6`
+$A = 3750 \times ( 1 + \frac{4}{100} )^{6}$
 
 **[1]**
 
@@ -170,7 +170,7 @@ $96\times0.18$
 `bold $ bold 17 bold. bold 28`* ***[1]**
 
 ### Q6
-> *The compound interest formula is *`A equals P cross times open parentheses 1 plus r over 100 close parentheses to the power of n`* where *$P$* is the initial amount, *$r$* is the percentage interest, and *$n$* is the number of repetitions (usually years), giving the amount after interest, *$A$*.*
+> *The compound interest formula is *$A = P \times ( 1 + \frac{r}{100} )^{n}$* where *$P$* is the initial amount, *$r$* is the percentage interest, and *$n$* is the number of repetitions (usually years), giving the amount after interest, *$A$*.*
 
 > *Here,*
 
@@ -182,7 +182,7 @@ $n=7$
 
 > *Substitute these values into the compound interest formula and evaluate*
 
-`A equals 30 space 000 cross times open parentheses 1 plus fraction numerator 2.5 over denominator 100 end fraction close parentheses to the power of 7`
+$A = 30 000 \times ( 1 + \frac{2.5}{100} )^{7}$
 
 **[1]**
 
@@ -194,10 +194,10 @@ $=35660.57261...$
 
 > *Round this value to the nearest integer*
 
-`bold $ bold 35 bold space bold 661`** [1]**
+$\$ 35 661$** [1]**
 
 ### Q7
-> *The compound interest formula is: *`A equals P cross times open parentheses 1 plus r over 100 close parentheses to the power of n`* where *$P$* is the original amount, *$r$* is the percentage interest, and *$n$* is the number of repetitions. Here, *
+> *The compound interest formula is: *$A = P \times ( 1 + \frac{r}{100} )^{n}$* where *$P$* is the original amount, *$r$* is the percentage interest, and *$n$* is the number of repetitions. Here, *
 
 $P=800$
 
@@ -207,7 +207,7 @@ $n=2$
 
 > *Substitute these values into the compound interest formula to determine the value of the amount after the interest*
 
-`A equals 800 cross times open parentheses 1 plus 3 over 100 close parentheses squared`
+$A = 800 \times ( 1 + \frac{3}{100} )^{2}$
 
 **[1]**
 
@@ -246,7 +246,7 @@ $5000\times1.035^{6}=6146.2766...$
 
 > * *
 
-`Bank space straight A space equals space $ 6146.28`
+$\text{Bank} \mathrm{A} = \$ 6146.28$
 
 **[1]**
 
@@ -270,7 +270,7 @@ $5000\times1.22=6100$
 
 * ***[1]**
 
-`Bank space straight B space equals space $ 6100`
+$\text{Bank} \mathrm{B} = \$ 6100$
 
 **[1]**
 
@@ -289,7 +289,7 @@ $6146.28-6100=46.28$
 **Bank ****A**** will give ****\$ 46.28**** more money**. **[1]**
 
 ### Q9
-> *Substitute the required values into the compound interest formula *`A equals P cross times open parentheses 1 plus r over 100 close parentheses to the power of n`* where *$P$* is the original amount, *$r$* is the percentage interest and *$n$* is the number of repetitions*
+> *Substitute the required values into the compound interest formula *$A = P \times ( 1 + \frac{r}{100} )^{n}$* where *$P$* is the original amount, *$r$* is the percentage interest and *$n$* is the number of repetitions*
 
 > * *
 
@@ -303,7 +303,7 @@ $n=3$
 
 > * *
 
-`A equals 5000 cross times open parentheses 1 plus fraction numerator 2.5 over denominator 100 end fraction close parentheses cubed`
+$A = 5000 \times ( 1 + \frac{2.5}{100} )^{3}$
 
 **[1]**
 
@@ -318,13 +318,13 @@ $A=5384.453125...$
 ### Q10
 > *The increase is 1.2% so add 1.2% to the original 100% and divide by 100 to find the decimal multiplier*
 
-`1.2 percent sign space plus thin space 100 percent sign space equals space 101.2 percent sign`
+$1.2 \% + 100 \% = 101.2 \%$
 
 $101.2\div100=1.012$
 
 > *Multiply the original amount by the decimal multiplier to the power of 3 to find the amount after 3 years.*
 
-`$ 4000 space cross times space 1.012 cubed space equals space $ 4145.7349...`
+$\$ 4000 \times 1.012^{3} = \$ 4145.7349...$
 
 ** c****orrect multiplier with power of 3 ****[1]**
 
@@ -360,7 +360,7 @@ $=6368.7443$
 `bold $ bold 6369`* ***[1]**
 
 ### Q12
-> *Use the compound interest formula *`A equals P cross times open parentheses 1 plus r over 100 close parentheses to the power of n`* where *$P$* is the initial amount, *$r$* is the percentage interest, and *$n$* is the number of repetitions (usually years), giving the amount after interest, *$A$*.*
+> *Use the compound interest formula *$A = P \times ( 1 + \frac{r}{100} )^{n}$* where *$P$* is the initial amount, *$r$* is the percentage interest, and *$n$* is the number of repetitions (usually years), giving the amount after interest, *$A$*.*
 
 > *Here,*
 
@@ -372,7 +372,7 @@ $n=3$
 
 > *Substitute these values into the compound interest formula and evaluate*
 
-`A equals 750 cross times open parentheses 1 plus fraction numerator 3.5 over denominator 100 end fraction close parentheses cubed`
+$A = 750 \times ( 1 + \frac{3.5}{100} )^{3}$
 
 **[1]**
 
@@ -387,12 +387,12 @@ $=831.5384063$
 ### Q13
 > *To work out the decimal multiplier, add the interest rate to the original 100% and divide by 100.*
 
-`1.8 percent sign space plus space 100 percent sign space equals space 101.8 percent sign
-101.8 percent sign space divided by space 100 space equals space 1.018`
+$1.8 \% + 100 \% = 101.8 \%
+101.8 \% \div 100 = 1.018$
 
 > *Multiply the amount invested by the decimal multiplier raised to the power of the number of years*
 
-`750 space cross times space 1.018 cubed space equals space $ 791.23...`
+$750 \times 1.018^{3} = \$ 791.23...$
 
 **correct multiplier with power of 3 ****[1]**
 
@@ -486,7 +486,7 @@ $6400+499.20=6899.2$
 **\$6899.20** **[1]**
 
 ### Q17
-> *Use the compound interest formula: *`A equals P cross times open parentheses 1 plus r over 100 close parentheses to the power of n`* where *$P$* is the initial amount, *$r$* is the percentage interest and *$n$* is the number of repetitions. *
+> *Use the compound interest formula: *$A = P \times ( 1 + \frac{r}{100} )^{n}$* where *$P$* is the initial amount, *$r$* is the percentage interest and *$n$* is the number of repetitions. *
 
 > *Here,*
 
@@ -498,7 +498,7 @@ $n=3$
 
 > *Substitute these values into the compound interest formula and evaluate*
 
-`A equals 12000 cross times open parentheses 1 plus 5 over 100 close parentheses cubed`
+$A = 12000 \times ( 1 + \frac{5}{100} )^{3}$
 
 **[1]**
 
@@ -554,7 +554,7 @@ $0.03\times800=24$
 
 > *This is added onto the initial amount, each year for 4 years*
 
-`800 plus open parentheses 4 cross times 24 close parentheses equals 896`
+$800 + ( 4 \times 24 ) = 896$
 
 **[1]**
 

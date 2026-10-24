@@ -55,7 +55,7 @@ guided_study: true
 >   - This is present in 25.0 cm<sup>3</sup> of the solution (25.0 cm<sup>3</sup> = 0.025 dm<sup>3</sup>)
 > - **Step 4: **Find the concentration of the acid
 > 
->   - Concentration = `fraction numerator moles over denominator volume space open parentheses dm cubed close parentheses end fraction`
+>   - Concentration = $\frac{moles}{volume ( dm^{3} )}$
 >   - Concentration of HCl = $\frac{1.21\times10^{-3}\mathrm{mol}}{0.025\mathrm{dm}^{3}}$=** 0.0484 mol/dm**<sup>**3**</sup>
 
 > **Worked Example**

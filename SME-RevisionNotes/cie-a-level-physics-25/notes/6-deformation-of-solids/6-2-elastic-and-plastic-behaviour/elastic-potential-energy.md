@@ -52,17 +52,17 @@ guided_study: true
 > 
 > - Calculate *A*<sub>*X *</sub>, remembering to convert length to metres
 > 
-> `A subscript straight X space equals space 1 half space cross times space open parentheses 11.0 space cross times space 10 to the power of negative 3 end exponent close parentheses space cross times space 450 space equals space 2.475 space straight J`
+> $A_{X} = 1 \frac{1}{2} \times ( 11.0 \times 10^{- 3} ) \times 450 = 2.475 \mathrm{J}$
 > 
 > **Step 3: Calculate the area between X and Y:**
 > 
 > - Assuming the line XY is a straight line, the area under this region of the graph forms a trapezium
-> - Recall the equation for a trapezium of width *h*  and side lengths *a * and *b* `A subscript XY space equals space open parentheses fraction numerator a space plus space b over denominator 2 end fraction close parentheses h`
+> - Recall the equation for a trapezium of width *h*  and side lengths *a * and *b* $A_{XY} = ( \frac{a + b}{2} ) h$
 > 
 >   - Here, *h* is the change in extension from X to Y, 2.5 mm
 >   - *a*  is the load at point X and *b * is the load at point Y
 > 
-> `A subscript XY space equals space open parentheses fraction numerator 450 space plus space 600 over denominator 2 end fraction close parentheses space cross times space open parentheses 2.5 space cross times space 10 to the power of negative 3 end exponent close parentheses space equals space 1.313 space straight J`
+> $A_{XY} = ( \frac{450 + 600}{2} ) \times ( 2.5 \times 10^{- 3} ) = 1.313 \mathrm{J}$
 > 
 > **Step 4: Calculate total area:**
 > 
@@ -107,7 +107,7 @@ guided_study: true
 > - At 40 mm, the load is approximately 8.3 N
 > - Converting length into metres gives an area of
 > 
-> `A space equals space 1 half space cross times space open parentheses 40 space cross times space 10 to the power of negative 3 end exponent close parentheses space cross times space 8.3 space equals space 0.166 space straight J`
+> $A = 1 \frac{1}{2} \times ( 40 \times 10^{- 3} ) \times 8.3 = 0.166 \mathrm{J}$
 > 
 > - This is equal to the energy stored in the spring, which should be given to 2 significant figures
 > 

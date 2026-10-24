@@ -23,7 +23,7 @@ guided_study: false
 
   - The first calculates the number of units which need to be sold to break-even
 
-`space Breakeven space space point space in space units space equals space fraction numerator Fixed space cost over denominator open parentheses Selling space price space minus space variable space cost close parentheses end fraction`
+$\text{Breakeven} \text{point} \text{in} \text{units} = \frac{Fixed cost}{( \text{Selling} \text{price} - \text{variable} \text{cost} )}$
 
 - The second calculates the value of the costs and revenue at which point the firm breaks even
 
@@ -43,11 +43,7 @@ $\mathrm{Break}-\mathrm{even} \mathrm{point} \mathrm{value}=\mathrm{break}-\math
 > 
 > **Step 1: Calculate the variable costs per burger**
 > 
-> **Final answer:** `Variable space cost space per space burger space equals space Raw space materials space plus space Packaging
-> 
-> Variable space cost space per space burger space equals space € 2.10 space plus space € 0.20 space
-> 
-> equals space € 2.30`** **
+> **Final answer:** $Variable \text{cost} \text{per} \text{burger} = Raw \text{materials} + Packaging > > Variable \text{cost} \text{per} \text{burger} = \text{€} 2.10 + \text{€} 0.20 > > = \text{€} 2.30$** **
 > 
 > ** ****(1 mark)**
 > 

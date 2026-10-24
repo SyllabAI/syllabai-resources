@@ -66,7 +66,7 @@ From the data sheet:
 
 Calculate the energy available from incident light:
 
-- *hf* = *h* × $\frac{c}{λ}$ = (6.63 × 10<sup>–34</sup>) × `open parentheses fraction numerator 3 cross times 10 to the power of 8 over denominator 255 cross times 10 to the power of negative 9 end exponent end fraction close parentheses` = 7.8 × 10<sup>–19</sup> J **[1 mark]**
+- *hf* = *h* × $\frac{c}{λ}$ = (6.63 × 10<sup>–34</sup>) × $( \frac{3 \times 10^{8}{255 \times 10^{-9} } } )$ = 7.8 × 10<sup>–19</sup> J **[1 mark]**
 
 Calculate the maximum kinetic energy of photoelectrons released to the surface:
 
@@ -91,10 +91,10 @@ Calculate the total maximum kinetic energy of photoelectrons reaching plate **A*
 
 Calculate the maximum speed of photoelectrons:
 
-- $KE_{total}$ = $\frac{1}{2}$*m*`open parentheses v subscript m a x end subscript close parentheses squared`
-- 9.9 × 10<sup>–19  </sup>= $\frac{1}{2}$ × (9.11 × 10<sup>–31</sup>) × `open parentheses v subscript m a x end subscript close parentheses squared`
-- 19.8 × 10<sup>–19</sup> = (9.11 × 10<sup>–31</sup>) × `open parentheses v subscript m a x end subscript close parentheses squared`
-- `open parentheses v subscript m a x end subscript close parentheses squared` = 2.17 × 10<sup>12</sup>
+- $KE_{total}$ = $\frac{1}{2}$*m*$( v_{m a x} )^{2}$
+- 9.9 × 10<sup>–19  </sup>= $\frac{1}{2}$ × (9.11 × 10<sup>–31</sup>) × $( v_{m a x} )^{2}$
+- 19.8 × 10<sup>–19</sup> = (9.11 × 10<sup>–31</sup>) × $( v_{m a x} )^{2}$
+- $( v_{m a x} )^{2}$ = 2.17 × 10<sup>12</sup>
 - $v_{max}$= $\sqrt{2.17\times10^{12}}$ = 1.474 × 10<sup>6</sup> m s<sup>–1 </sup>= 1.5 × 10<sup>6</sup> m s<sup>–1 </sup>(2 s. f.) **[1 mark]**
 
 **[Total: 6 marks]**** **
@@ -134,7 +134,7 @@ Calculate the work function using the threshold wavelength, $λ_{0}$ :
 
 - *hf* = *ϕ* + $KE_{max}$
 - When $KE_{max}$= 0, the work function *ϕ *= *h*$f_{0}$
-- *ϕ *= *h*$f_{0}$ = *h × *$\frac{c}{λ_{0}}$ = (6.63 × 10<sup>–34</sup>) × `open parentheses fraction numerator 3 cross times 10 to the power of 8 over denominator 590 cross times 10 to the power of negative 9 end exponent end fraction close parentheses` = 3.4 × 10<sup>–19</sup> J **[1 mark]**
+- *ϕ *= *h*$f_{0}$ = *h × *$\frac{c}{λ_{0}}$ = (6.63 × 10<sup>–34</sup>) × $( \frac{3 \times 10^{8}{590 \times 10^{-9} } } )$ = 3.4 × 10<sup>–19</sup> J **[1 mark]**
 
 Calculate the work function in electronvolts, *ϕ*:
 
@@ -178,16 +178,16 @@ Convert the <sub>­ </sub>from eV to J:
 
 Calculate the velocity of the emitted photoelectrons:
 
-- $KE_{max}$= $\frac{1}{2}$*m *`open parentheses v subscript m a x end subscript close parentheses squared`
-- 3.2 × 10<sup>–20</sup>= $\frac{1}{2}$ × (9.11 × 10<sup>–31</sup>) × `open parentheses v subscript m a x end subscript close parentheses squared`
-- 6.4 × 10<sup>–20</sup> = (9.11 × 10<sup>–31</sup>) ×`open parentheses v subscript m a x end subscript close parentheses squared`
-- `open parentheses v subscript m a x end subscript close parentheses squared` = 7.03 × 10<sup>10</sup>
+- $KE_{max}$= $\frac{1}{2}$*m *$( v_{m a x} )^{2}$
+- 3.2 × 10<sup>–20</sup>= $\frac{1}{2}$ × (9.11 × 10<sup>–31</sup>) × $( v_{m a x} )^{2}$
+- 6.4 × 10<sup>–20</sup> = (9.11 × 10<sup>–31</sup>) ×$( v_{m a x} )^{2}$
+- $( v_{m a x} )^{2}$ = 7.03 × 10<sup>10</sup>
 - $v_{max}$= $\sqrt{7.03\times10^{10}}$ = 2.7 × 10<sup>5</sup> m s<sup>–1 </sup>**[1 mark]**
 
 Calculate the de Broglie wavelength of the emitted photoelectrons:
 
 - $λ=\frac{h}{mv}$
-- $λ$= `fraction numerator 6.63 cross times 10 to the power of negative 34 end exponent over denominator open parentheses 9.11 cross times 10 to the power of negative 31 end exponent close parentheses cross times open parentheses 2.7 cross times 10 to the power of 5 close parentheses end fraction` = 2.7 × 10<sup>–9</sup> m **[1 mark]**
+- $λ$= $\frac{6.63 \times 10^{- 34} }{( 9.11 \times 10^{- 31} ) \times ( 2.7 \times 10^{5} )}$ = 2.7 × 10<sup>–9</sup> m **[1 mark]**
 
 **[Total: 4 marks]**
 
@@ -200,7 +200,7 @@ Link an increase in maximum velocity to an increase in $KE_{max}$:
 
 - An increase in maximum velocity is achieved by an increase in $KE_{max}$; **[1 mark]**
 
-  - This is shown by the equation $KE_{max}$ = $\frac{1}{2}$*m* `open parentheses v subscript m a x end subscript close parentheses squared`
+  - This is shown by the equation $KE_{max}$ = $\frac{1}{2}$*m* $( v_{m a x} )^{2}$
 
 Suggest experimental changes to increase the $KE_{max}$ of emitted photoelectrons:
 
@@ -253,7 +253,7 @@ $KE_{max}=hf-Φ$
 
 > *at the threshold frequency KE = 0*
 
-`capital phi space equals space h f space equals space open parentheses 6.63 space cross times space 10 to the power of negative 34 end exponent close parentheses space cross times space open parentheses 1.6 space cross times space 10 to the power of 14 close parentheses`
+$\\Phi = h f = ( 6.63 \times 10^{- 34} ) \times ( 1.6 \times 10^{14} )$
 
 > *Read the question carefully, KE is the **KE **of the **photoelectrons** (electrons) emitted from the** surface** of the **metal*
 (i) When the same metal is used but the intensity of the radiation is halved the graph would:
@@ -313,8 +313,8 @@ From the data sheet:
 
 State the equation to calculate the threshold frequency:
 
-- The photoelectric equation:  `h f space equals space ϕ space plus space E subscript k open parentheses m a x close parentheses end subscript`
-- At the threshold frequency, `E subscript k open parentheses m a x close parentheses end subscript space equals space 0` so the photoelectric equation becomes $hf_{0}=ϕ$ **[1 mark]**
+- The photoelectric equation:  $h f = ϕ + E_{k ( m a x )}$
+- At the threshold frequency, $E_{k ( m a x )} = 0$ so the photoelectric equation becomes $hf_{0}=ϕ$ **[1 mark]**
 
 Calculate the threshold frequency:
 
@@ -325,7 +325,7 @@ Calculate the threshold frequency:
 
 > *Since incident light on the surface of the metal is only **just** at the threshold frequency, which is the minimum frequency required to release an electron to the metal surface, it has no energy left over from the photon to transfer to kinetic energy. *
 
-> *Therefore, in the photoelectric equation, we can say that *`E subscript k open parentheses m a x close parentheses end subscript`*= 0. Therefore, the threshold frequency is given by the equation:**  *
+> *Therefore, in the photoelectric equation, we can say that *$E_{k ( m a x )}$*= 0. Therefore, the threshold frequency is given by the equation:**  *
 
 > *h*$f_{0}$* = ϕ*
 
@@ -366,8 +366,7 @@ From the data booklet:
 
 Match the equation for $E_{max}$* *to the standard equation of a straight line:
 
-- `E subscript m a x end subscript equals h c open parentheses 1 over lambda minus 1 over lambda subscript o close parentheses
-space space space space y space equals space m space space space space x space space plus space c`
+- `E _ m a x end _ = h c ( 1 / lambda - 1 / lambda _ o ) y = m x + c`
 - $E_{max}$ is the $y$-axis and $\frac{1}{λ}$ the $x$-axis
 - Hence, the gradient of the straight line, $m$ is $hc$** [1 mark]**
 
@@ -380,15 +379,15 @@ Draw lines on the graph to obtain a gradient triangle:
 
 Calculate the gradient of the line, $m$:
 
-- `m space equals space fraction numerator increment y over denominator increment x end fraction space equals space fraction numerator y subscript 2 space minus space y subscript 1 over denominator x subscript 2 space minus space x subscript 1 end fraction space equals space fraction numerator open parentheses 1 space cross times space 10 to the power of negative 19 end exponent close parentheses space minus space open parentheses 3 space cross times space 10 to the power of negative 19 end exponent close parentheses over denominator open parentheses 2.7 space cross times space 10 to the power of 6 close parentheses space minus space open parentheses 3.7 space cross times space 10 to the power of 6 close parentheses end fraction`
+- $m = \frac{\Delta y}{\Delta x} = \frac{y_{2} - y_{1} }{x_{2} - x_{1} } = \frac{( 1 \times 10^{- 19} ) - ( 3 \times 10^{- 19} )}{( 2.7 \times 10^{6} ) - ( 3.7 \times 10^{6} )}$
 - $m=2\times10^{-25}$ **[1 mark]**
 
 Rearrange to make Planck's constant $h$ the subject and substitute for $c$into the expression for the gradient, $m$:
 
 - $m=hc$
 - $h=\frac{m}{c}$
-- `h space equals space fraction numerator open parentheses 2 space cross times space 10 to the power of negative 25 end exponent close parentheses over denominator open parentheses 3 space cross times space 10 to the power of 8 close parentheses end fraction`
-- `h space equals space 6.66 space cross times space 10 to the power of negative 34 end exponent space straight J space straight s space equals space 6.7 space cross times space 10 to the power of negative 34 end exponent space straight J space straight s space open parentheses 2 space s. f. close parentheses` **[1 mark]**
+- $h = \frac{( 2 \times 10^{- 25} )}{( 3 \times 10^{8} )}$
+- $h = 6.66 \times 10^{- 34} \mathrm{J} \mathrm{s} = 6.7 \times 10^{- 34} \mathrm{J} \mathrm{s} ( 2 s. f. )$ **[1 mark]**
 
 **[Total: 5 marks]**
 
@@ -432,7 +431,7 @@ List the known quantities:
 Use the equation for photon energy:
 
 - $E=hf$** [1 mark]**
-- `E space equals space open parentheses 6.63 space cross times space 10 to the power of negative 34 end exponent close parentheses space cross times space open parentheses 8.5 space cross times space 10 to the power of 14 close parentheses`
+- $E = ( 6.63 \times 10^{- 34} ) \times ( 8.5 \times 10^{14} )$
 - $E=5.64\times10^{-19}J$
 
 Obtain an expression and calculate the number of photons per unit time:
@@ -457,7 +456,7 @@ Use the photoelectric equation:
 
 - $hf=Φ+E_{max}$ **[1 mark]**
 - $Φ=hf-E_{max}$
-- `capital phi space equals space open parentheses 5.64 space cross times space 10 to the power of negative 19 end exponent close parentheses space minus space open parentheses 2.1 space cross times space 10 to the power of negative 19 end exponent close parentheses`
+- $\\Phi = ( 5.64 \times 10^{- 19} ) - ( 2.1 \times 10^{- 19} )$
 - $Φ=3.54\times10^{-19}J$** [1 mark]**
 
 **[Total: 2 marks]**

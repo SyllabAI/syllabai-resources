@@ -43,12 +43,12 @@ $a=\frac{\Deltav}{\Deltat}=\frac{(-v\mathrm{sin}θ)-(v\mathrm{sin}θ)}{t}=\frac{
 
 - Recalling the equations for angular velocity *ω *= θ /*t* and *v* = *rω*, then:
 
-`t equals theta over omega equals fraction numerator theta over denominator open parentheses v over r close parentheses end fraction equals fraction numerator r theta over denominator v end fraction`
+$t = \frac{ \theta }{ \omega } = \frac{ \theta }{ ( \frac{v}{r} ) } = \frac{r \theta }{v}$
 
 - The object's angular displacement is actually 2*θ,* therefore, the time *t* is given by $t=\frac{2rθ}{v}$
 - Therefore, substituting this into the equation for acceleration gives:
 
-`a equals fraction numerator negative 2 v space sin theta over denominator open parentheses fraction numerator 2 r theta over denominator v end fraction close parentheses end fraction equals fraction numerator negative v squared space sin theta over denominator r theta end fraction`
+$a = \frac{- 2 v \sin \\theta }{( \frac{2 r \\theta }{v} )} = \frac{- v^{2} \sin \\theta }{r \\theta }$
 
 - This equation is the acceleration of the object between points A and B
 

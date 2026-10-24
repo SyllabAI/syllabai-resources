@@ -104,7 +104,7 @@ guided_study: true
 > 
 > *Solve the equation (subtract 5 then divide by 2)*
 > 
-> `table row cell 2 x end cell equals cell 29 minus 5 end cell row cell 2 x end cell equals 24 row x equals cell 24 over 2 end cell row x equals 12 end table`
+> $\begin{gathered} 2 x & = 29 - 5 \\ 2 x & = 24 \\ x = \frac{24}{2} \\ x = 12 \end{gathered}$
 > 
 > > *This is not the answer to the question asked*
 > *The number of yellow flowers is 3**x** so multiply this answer by 3*

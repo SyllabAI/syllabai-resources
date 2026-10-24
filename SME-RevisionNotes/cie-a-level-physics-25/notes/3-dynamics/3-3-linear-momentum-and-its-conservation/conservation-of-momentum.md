@@ -112,7 +112,7 @@ $p_{after}=-m_{A}v_{A}+m_{B}v_{B}$
 > 
 > $p_{before}=m_{A}v_{A}+m_{B}v_{B}$
 > 
-> `p subscript b e f o r e end subscript space equals space open parentheses 0.80 space cross times space 3.0 close parentheses space plus space 0`
+> $p_{b e f o r e} = ( 0.80 \times 3.0 ) + 0$
 > 
 > $p_{before}=2.4\mathrm{kg}ms^{-1}$
 > 
@@ -120,9 +120,9 @@ $p_{after}=-m_{A}v_{A}+m_{B}v_{B}$
 > 
 > **Step 3: Determine the momentum after the collision**
 > 
-> `p subscript a f t e r end subscript space equals space open parentheses m subscript A space plus space m subscript B close parentheses space cross times space v subscript A plus B end subscript`
+> $p_{a f t e r} = ( m_{A + m_{B} ) \times v_{A} + B}$
 > 
-> `p subscript a f t e r end subscript space equals space open parentheses 0.80 space plus space 1.60 close parentheses space cross times space v subscript A plus B end subscript`
+> $p_{a f t e r} = ( 0.80 + 1.60 ) \times v_{A + B}$
 > 
 > $p_{after}=2.4\timesv_{A+B}$
 > 
@@ -144,9 +144,9 @@ $p_{after}=-m_{A}v_{A}+m_{B}v_{B}$
 > 
 > **Step 1: Calculate the kinetic energy of the system before the collision**
 > 
-> `E subscript k space b e f o r e end subscript space equals space 1 half m subscript A open parentheses v subscript A close parentheses squared space plus space 1 half m subscript B open parentheses v subscript B close parentheses squared`
+> $E_{k b e f o r e} = 1 \frac{1}{2} m_{A} ( v_{A} )^{2} + 1 \frac{1}{2} m_{B} ( v_{B} )^{2}$
 > 
-> `E subscript k space b e f o r e end subscript space equals space 0.5 space cross times space 0.80 space cross times space open parentheses 3.0 close parentheses squared space plus space 0`
+> $E_{k b e f o r e} = 0.5 \times 0.80 \times ( 3.0 )^{2} + 0$
 > 
 > $E_{kbefore}=3.6J$
 > 
@@ -154,9 +154,9 @@ $p_{after}=-m_{A}v_{A}+m_{B}v_{B}$
 > 
 > **Step 2: Calculate the kinetic energy of the system after the collision**
 > 
-> `E subscript k space a f t e r end subscript space equals space 1 half m subscript A plus B end subscript open parentheses v subscript A plus B end subscript close parentheses squared`
+> $E_{k a f t e r} = 1 \frac{1}{2} m_{A + B} ( v_{A + B} )^{2}$
 > 
-> `E subscript k space a f t e r end subscript space equals space 0.5 space cross times space open parentheses 0.8 space plus space 1.6 close parentheses space cross times space open parentheses 1.0 close parentheses squared`
+> $E_{k a f t e r} = 0.5 \times ( 0.8 + 1.6 ) \times ( 1.0 )^{2}$
 > 
 > $E_{kafter}=1.2J$
 > 
@@ -198,21 +198,21 @@ $p_{after}=-m_{A}v_{A}+m_{B}v_{B}$
 > 
 > **Step 2: State the change in momentum equation**
 > 
-> `increment p space equals space m open parentheses v subscript f space minus space v subscript i close parentheses`
+> $\Delta p = m ( v_{f} - v_{i} )$
 > 
 > **Step 3: Calculate the initial velocity**
 > 
 > - A change in momentum is only due to the horizontal velocity component for projectile motion
 > 
-> `v subscript i space equals space 15.0 space cross times space cos open parentheses 60 close parentheses`
+> $v_{i} = 15.0 \times \cos ( 60 )$
 > 
 > $v_{i}=7.5ms^{-1}$
 > 
 > **Step 4: Calculate the change in momentum**
 > 
-> `increment p space equals space m open parentheses v subscript f space minus space v subscript i close parentheses`
+> $\Delta p = m ( v_{f} - v_{i} )$
 > 
-> `increment p space equals space open parentheses 60 cross times 10 to the power of negative 3 end exponent close parentheses space cross times space open parentheses negative 4.6 space minus space 7.5 close parentheses`
+> $\Delta p = ( 60 \times 10^{- 3} ) \times ( - 4.6 - 7.5 )$
 > 
 > $\Deltap=-0.73Ns$
 > 

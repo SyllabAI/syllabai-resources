@@ -277,11 +277,11 @@ The principles of PET: A positron / beta-plus emitting tracer / source is used; 
 
 Three tracer isotopes, rubidium-82, fluorine-18 and iodine-131, are being considered for use in a PET scanner. The incomplete nuclear decay equations are shown below.
 
-`Rb presubscript 37 presuperscript 82 space rightwards arrow space Kr presubscript 36 presuperscript 82 space plus space. presubscript... end presubscript presuperscript... end presuperscript... space plus space. presubscript... end presubscript presuperscript... end presuperscript...`
+`Rb _ 37 ^ 82 -> Kr _ 36 ^ 82 + . _... ^... ... + . _... ^... ...`
 
-`straight I presubscript 53 presuperscript 131 space rightwards arrow space Xe presubscript 54 presuperscript 131 space plus space. presubscript... end presubscript presuperscript... end presuperscript... space plus space. presubscript... end presubscript presuperscript... end presuperscript...`
+`I _ 53 ^ 131 -> Xe _ 54 ^ 131 + . _... ^... ... + . _... ^... ...`
 
-`straight F presubscript 9 presuperscript 18 space rightwards arrow space straight O presubscript 8 presuperscript 18 space plus space space. presubscript... end presubscript presuperscript... end presuperscript... space space plus space space. presubscript... end presubscript presuperscript... end presuperscript...`
+`F _ 9 ^ 18 -> O _ 8 ^ 18 + . _... ^... ... + . _... ^... ...`
 
 (i) Complete the nuclear decay equations for rubidium-82, iodine-131 and fluorine-18.
 
@@ -315,11 +315,11 @@ A positron is emitted by the radiotracer that interacts with an electron in the 
 
 **Q7** [4 marks]
 
-The tracer commonly used in PET scanning is the isotope fluorine-18 `open parentheses straight F presubscript 9 presuperscript 18 close parentheses`, which is a β<sup>+</sup> emitter.
+The tracer commonly used in PET scanning is the isotope fluorine-18 `( F _ 9 ^ 18 )`, which is a β<sup>+</sup> emitter.
 
 The isotope is tagged onto glucose molecules before injecting it into the patient.
 
-(i) Write an equation for the decay of fluorine-18 `open parentheses straight F presubscript 9 presuperscript 18 close parentheses` into oxygen (symbol $O$).
+(i) Write an equation for the decay of fluorine-18 `( F _ 9 ^ 18 )` into oxygen (symbol $O$).
 
 [3]
 

@@ -87,7 +87,7 @@ $v_{avg}=\frac{\Deltax}{\Deltat}$
 
 - If the initial velocity *u* and final velocity *v* are known, the average velocity can also be calculated using:
 
-`v subscript a v g end subscript space equals space fraction numerator open parentheses u space plus space v close parentheses over denominator 2 end fraction`
+$v_{a v g} = \frac{( u + v )}{2}$
 
 > **Exam Hint**
 > Velocity is speed in a given direction, but average velocity is not average speed in a given direction. This is because speed uses distance, and velocity uses displacement, and the magnitudes of these values can be very different for the same motion.
@@ -115,7 +115,7 @@ $a=\frac{\Deltav}{\Deltat}$
 
 **change in velocity = final velocity − initial velocity**
 
-`increment v space equals space open parentheses v space minus space u close parentheses`
+$\Delta v = ( v - u )$
 
 > **Worked Example**
 > A professor walks around her garden following the path ABCDA.

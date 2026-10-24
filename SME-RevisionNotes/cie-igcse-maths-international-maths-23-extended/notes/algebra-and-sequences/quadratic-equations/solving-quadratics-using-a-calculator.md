@@ -70,14 +70,14 @@ guided_study: true
 > Solving a quadratic on your calculator can also help factorise a quadratic:
 > 
 > - If the solutions to a quadratic equation are $x=-3$ and $x=2$
-> - Then the equation can be written as `open parentheses x plus 3 close parentheses open parentheses x minus 2 close parentheses equals 0`
+> - Then the equation can be written as $( x + 3 ) ( x - 2 ) = 0$
 
 > **Worked Example**
 > Use your calculator to solve the equation $10x=19-6x^{2}$ giving your solutions to four significant figures.
 > 
 > > *Rearrange the equation to the form *$ax^{2}+bx+c=0$
 > 
-> `table row cell 10 x end cell equals cell 19 minus 6 x squared end cell row cell 6 x squared plus 10 x end cell equals 19 row cell 6 x squared plus 10 x minus 19 end cell equals 0 end table`
+> $\begin{gathered} 10 x & = 19 - 6 x^{2} \\ 6 x^{2} + 10 x & = 19 \\ 6 x^{2} + 10 x - 19 & = 0 \end{gathered}$
 > 
 > > *On your calculator, enter the menu and select the polynomial solver*
 > *Enter the coefficients of 6, 10 and -19, and solve*

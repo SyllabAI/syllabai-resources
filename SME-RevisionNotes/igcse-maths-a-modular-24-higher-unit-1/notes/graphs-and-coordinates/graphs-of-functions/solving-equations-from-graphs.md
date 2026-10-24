@@ -121,11 +121,11 @@ guided_study: true
 > 
 > > *We are given a different equation to the one plotted so we must rearrange it to *$\mathrm{graph}=mx+c$*, in this case *$x^{3}+x^{2}-3x-1=mx+c$
 > 
-> `table attributes columnalign right center left columnspacing 0px end attributes row cell x cubed plus x squared minus 4 x end cell equals 0 end table`
+> $\begin{array}{rcl} x^{3} + x^{2} - 4 x & = 0 \end{array}$
 > 
-> `table row blank blank cell plus x minus 1 space space space space space space space space space space space space space space space space space space space space space space space space plus x minus 1 end cell end table`
+> $\begin{gathered} + x - 1 + x - 1 \end{gathered}$
 > 
-> `table attributes columnalign right center left columnspacing 0px end attributes row cell x cubed plus x squared minus 3 x plus 1 end cell equals cell x minus 1 end cell end table`
+> $\begin{array}{rcl} x^{3} + x^{2} - 3 x + 1 & = x - 1 \end{array}$
 > 
 > > *Now plot *$y=x-1$* on the same axes*
 > 

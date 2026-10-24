@@ -31,7 +31,7 @@ Rotate trapezium **T** $180^{\circ}$ about the origin.
 Label the new trapezium **A**.
 
 ### 5((b)) — 1 mark — command: label — structured — from paper November 2017 · 1MA1/2H
-Translate trapezium **T** by the vector  `open parentheses table row cell negative 1 end cell row cell negative 3 end cell end table close parentheses` 
+Translate trapezium **T** by the vector  $( \begin{gathered} - 1 \\ - 3 \end{gathered} )$ 
 Label the new trapezium **B**.
 
 ## Q4 — hard — 3 marks · exam-questions
@@ -133,7 +133,7 @@ ABC is a right-angled triangle.
 
 Here is Sarah's method to find the length of $BC$.
 
-`table row cell B C squared space end cell equals cell space A B squared plus A C squared end cell row blank equals cell space 6 squared plus 8 squared end cell row blank equals cell space 100 end cell row cell B C space end cell equals cell space 10 end cell end table`
+$\begin{gathered} B C^{2} & = A B^{2} + A C^{2} \\ = 6^{2} + 8^{2} \\ = 100 \\ B C & = 10 \end{gathered}$
 
 What mistake has Sarah made in her method?
 
@@ -180,7 +180,7 @@ Label the new shape $Q$.
 ### 6((a)) — 1 mark — structured — from paper November 2013 · 1MA0/1H
 ![q6a-4-14-medium-edexcel-gcse-maths](assets/059-q6a-4-14-medium-edexcel-gcse-maths.png)
 
-Translate shape **A** by the vector `open parentheses table row cell negative 3 end cell row 2 end table close parentheses.`
+Translate shape **A** by the vector $( \begin{gathered} - 3 \\ 2 \end{gathered} ).$
 
 ### 6((b)) — 3 marks — command: describe — structured — from paper November 2013 · 1MA0/1H
 ![q6b-4-14-medium-edexcel-gcse-maths](assets/061-q6b-4-14-medium-edexcel-gcse-maths.png)
@@ -211,7 +211,7 @@ Describe fully the single transformation that maps triangle $A$ onto triangle $B
 ### 7((a)) — 2 marks — structured — from paper June 2013 · 1MA0/1H
 ![q7a-4-14-medium-edexcel-gcse-maths](assets/055-q7a-4-14-medium-edexcel-gcse-maths.png)
 
-Translate shape **P** by the vector `open parentheses table row 5 row cell negative 2 end cell end table close parentheses`
+Translate shape **P** by the vector $( \begin{gathered} 5 \\ - 2 \end{gathered} )$
 
 ### 7((b)) — 3 marks — command: describe — structured — from paper June 2013 · 1MA0/1H
 ![q7b-4-14-medium-edexcel-gcse-maths](assets/057-q7b-4-14-medium-edexcel-gcse-maths.png)
@@ -265,7 +265,7 @@ Here is a shape $P$drawn on a grid of squares.
 
 ![q5-4ma1-2hr-qp-jan21-paper2-igcse-maths](assets/012-q5-4ma1-2hr-qp-jan21-paper2-igcse-maths.png)
 
-On the grid, translate shape $P$ by the vector `open parentheses table row 10 row 8 end table close parentheses`
+On the grid, translate shape $P$ by the vector $( \begin{gathered} 10 \\ 8 \end{gathered} )$
 
 Label the new shape $R$.
 
@@ -281,7 +281,7 @@ Describe fully the single transformation that maps shape **P** onto shape **Q**.
 ### 3((b)) — 1 mark — command: draw — structured — from paper June 2018 · 4MA1/1HR
 ![q3-paper1hr-june2018-edexcel-igcse-maths](assets/090-q3-paper1hr-june2018-edexcel-igcse-maths.png)
 
-Translate triangle $S$ by the vector `open parentheses table row cell negative 4 end cell row cell negative 6 end cell end table close parentheses`
+Translate triangle $S$ by the vector $( \begin{gathered} - 4 \\ - 6 \end{gathered} )$
 
 Label the new triangle $T$.
 
@@ -290,13 +290,13 @@ Label the new triangle $T$.
 ### 5() — 3 marks — command: find — structured — from paper June 2019 · 1MA1/1H
 ![q12-4-14-medium-edexcel-gcse-maths](assets/046-q12-4-14-medium-edexcel-gcse-maths.png)
 
-Shape **A** can be transformed to shape **B** by a reflection in the x-axis followed by a translation `open parentheses table row c row d end table close parentheses` 
+Shape **A** can be transformed to shape **B** by a reflection in the x-axis followed by a translation $( \begin{gathered} c \\ d \end{gathered} )$ 
 Find the value of c and the value of $d$.
 
 ## Q29 — easy — 1 marks · exam-questions
 
 ### 1() — 1 mark — command: circle — structured — from paper Nov 2018 · 8300/3H
-A shape is translated by the vector `open parentheses table row 0 row 4 end table close parentheses`
+A shape is translated by the vector $( \begin{gathered} 0 \\ 4 \end{gathered} )$
 
 In which direction does the shape move? Circle your answer.
 
@@ -326,11 +326,11 @@ Label your shape **R**
 ## Q31 — easy — 1 marks · exam-questions
 
 ### 2() — 1 mark — command: circle — structured — from paper June 2018 · 8300/1H
-The vector `open parentheses table row cell negative 2 end cell row 3 end table close parentheses` translates A to B.
+The vector $( \begin{gathered} - 2 \\ 3 \end{gathered} )$ translates A to B.
 
 Circle the vector that translates B to A.
 
-| `open parentheses table row cell negative 2 end cell row 3 end table close parentheses` | `open parentheses table row cell negative 3 end cell row 2 end table close parentheses` | `open parentheses table row 3 row cell negative 2 end cell end table close parentheses` | `open parentheses table row 2 row cell negative 3 end cell end table close parentheses` |
+| $( \begin{gathered} - 2 \\ 3 \end{gathered} )$ | $( \begin{gathered} - 3 \\ 2 \end{gathered} )$ | $( \begin{gathered} 3 \\ - 2 \end{gathered} )$ | $( \begin{gathered} 2 \\ - 3 \end{gathered} )$ |
 |---|---|---|---|
 
 ## Q32 — medium — 5 marks · exam-questions
@@ -352,7 +352,7 @@ Here is a coordinate grid.
 
 ![q1a-paper5-spec2015-ocr-gcse-maths](assets/071-q1a-paper5-spec2015-ocr-gcse-maths.png)
 
-Shape S is translated to Shape T using vector  `open parentheses table row p row q end table close parentheses`
+Shape S is translated to Shape T using vector  $( \begin{gathered} p \\ q \end{gathered} )$
 
 Write down the values of $p$ and $q$.
 

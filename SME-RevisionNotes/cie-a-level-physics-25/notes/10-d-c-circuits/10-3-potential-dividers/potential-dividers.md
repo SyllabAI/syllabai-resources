@@ -68,15 +68,15 @@ $V_{out}=\frac{R_{2}}{R_{1}+R_{2}}V_{in}$
 > 
 > - The *R*<sub>1</sub> is on the numerator as this is the resistor that *V*<sub>out</sub> is from
 > 
-> `V subscript o u t end subscript space equals space open parentheses fraction numerator R subscript 1 over denominator R subscript 1 space plus thin space R subscript 2 end fraction close parentheses V subscript i n end subscript`
+> $V_{o u t} = ( \frac{R_{1}{R_{1} + R_{2} } ) V_{i} n}$
 > 
 > **Step 3: Rearrange for the input voltage, *****V***<sub>**in**</sub>
 > 
-> `V subscript i n end subscript space equals space fraction numerator V subscript o u t end subscript space over denominator open parentheses fraction numerator R subscript 1 over denominator R subscript 1 space plus thin space R subscript 2 end fraction close parentheses end fraction space equals space open parentheses fraction numerator R subscript 1 space plus thin space R subscript 2 over denominator R subscript 1 end fraction close parentheses V subscript o u t end subscript`
+> $V_{i n} = \frac{V_{o u t} }{( \frac{R_{1}{R_{1} + R_{2} } )} = ( \frac{R_{1} + R_{2} }{R_{1} } ) V_{o} u t}$
 > 
 > **Step 4: Substitute in values**
 > 
-> `V subscript i n end subscript space equals space open parentheses fraction numerator 12 space plus thin space 20 over denominator 20 end fraction close parentheses space cross times space 5.3 space equals space 8.5 space straight V space open parentheses 2 space straight s. straight f. close parentheses`
+> $V_{i n} = ( \frac{12 + 20}{20} ) \times 5.3 = 8.5 \mathrm{V} ( 2 \mathrm{s} . \mathrm{f} . )$
 
 > **Exam Hint**
 > Always make sure the correct resistance is in the numerator of the potential divider equation. This will be the resistance of the component you want to find the output voltage of.

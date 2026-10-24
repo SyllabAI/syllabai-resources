@@ -33,9 +33,9 @@ guided_study: true
 > **Worked Example**
 > When uranium-235 nuclei undergo fission by absorbing slow-moving neutrons, two reactions are possible:
 > 
-> `Reaction space 1 colon space straight U presubscript 92 presuperscript 235 space plus space straight n presubscript 0 presuperscript 1 space rightwards arrow space Xe presubscript 54 presuperscript 139 space plus space Sr presubscript 38 presuperscript 95 space plus space 2 straight n presubscript 0 presuperscript 1 space plus space energy`
+> `Reaction 1 colon U _ 92 ^ 235 + n _ 0 ^ 1 -> Xe _ 54 ^ 139 + Sr _ 38 ^ 95 + 2 n _ 0 ^ 1 + energy`
 > 
-> `Reaction space 2 colon space straight U presubscript 92 presuperscript 235 space plus space straight n presubscript 0 presuperscript 1 space rightwards arrow space 2 Pd presubscript 46 presuperscript 116 space plus space x straight c space plus space energy`
+> `Reaction 2 colon U _ 92 ^ 235 + n _ 0 ^ 1 -> 2 Pd _ 46 ^ 116 + x c + energy`
 > 
 > (a) For reaction 2, identify the particle *c*, and state the number, *x*, of such particles produced in the reaction.
 > 
@@ -47,7 +47,7 @@ guided_study: true
 > |---|---|
 > | `Sr presubscript 38 presuperscript 95` | 8.74 |
 > | `Xe presubscript 54 presuperscript 139` | 8.39 |
-> | `straight U presubscript 92 presuperscript 235` | 7.60 |
+> | `U _ 92 ^ 235` | 7.60 |
 > 
 > **Answer:**
 > 

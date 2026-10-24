@@ -7,7 +7,7 @@
 ### 21((b)) — 4 marks
 *Remove the fraction (by multiplying both sides by **y** + 2)* * *
 
-`t open parentheses y plus 2 close parentheses equals 2 minus 3 y`
+$t ( y + 2 ) = 2 - 3 y$
 
 **[1]**
 
@@ -17,13 +17,13 @@ $ty+2t=2-3y$ * *
 
 *Collect the **y** terms on one side (for example, by adding 3**y** to both sides then subtracting 2**t **from both sides)* * *
 
-`table row cell t y plus 2 t plus 3 y end cell equals 2 row cell t y plus 3 y end cell equals cell 2 minus 2 t end cell end table`
+$\begin{gathered} t y + 2 t + 3 y & = 2 \\ t y + 3 y & = 2 - 2 t \end{gathered}$
 
 **[1]**
 
 *Factorise** y** out of the terms on the left* * *
 
-`y open parentheses t plus 3 close parentheses equals 2 minus 2 t`
+$y ( t + 3 ) = 2 - 2 t$
 
 **[1]**
 
@@ -74,7 +74,7 @@ $h=\frac{10t}{g}$ **[1]**
 ### 14((b)) — 3 marks
 *Remove fractions (by multiplying both sides by **v**)* * *
 
-`w v equals 15 open parentheses t minus 2 v close parentheses`
+$w v = 15 ( t - 2 v )$
 
 **[1]**
 
@@ -88,7 +88,7 @@ $wv+30v=15t$ * *
 
 *Factorise **v** out of the terms on the left* * *
 
-`v open parentheses w plus 30 close parentheses equals 15 t`
+$v ( w + 30 ) = 15 t$
 
 **[1]**
 
@@ -143,7 +143,7 @@ $t=\frac{w-11}{3}$**[1]**
 ### 17() — 3 marks
 *Remove fractions (by multiplying both sides by **r**)* * *
 
-`r open parentheses a plus 3 close parentheses equals 2 a plus 7`
+$r ( a + 3 ) = 2 a + 7$
 
 **[1]**
 
@@ -161,7 +161,7 @@ $ra-2a=7-3r$ * *
 
 *Factorise **a** out of the terms on the left* * *
 
-`a open parentheses r minus 2 close parentheses equals 7 minus 3 r`
+$a ( r - 2 ) = 7 - 3 r$
 
 **[1]**
 
@@ -201,7 +201,7 @@ $y+2a=\frac{t}{3}$
 
 > *Get **t** on its own (by multiplying both sides by 3)  *
 
-`3 open parentheses y plus 2 a close parentheses equals t`
+$3 ( y + 2 a ) = t$
 
 $t=3(y+2a)$* ***[1]**
 
@@ -226,11 +226,11 @@ $4m^{2}-1=k^{3}$ * *
 
 *Get **k** on its own (by cube-rooting both sides)* * *
 
-`cube root of 4 m squared minus 1 end root equals k`
+$\sqrt[3]{4 m^{2} - 1} = k$
 
 **attempting to cube root**** [1]**
 
-`bold italic k bold equals root index bold 3 of bold 4 bold italic m to the power of bold 2 bold minus bold 1 end root`** [1]**
+`k = sqrt index 3 of 4 m ^ 2 - 1 )`** [1]**
 
 ## Q11 — medium — 3 marks · exam-questions
 
@@ -258,7 +258,7 @@ $p=\pm\sqrt{\frac{y+4}{3}}$* ***[1]**
 ### 12((b)) — 3 marks
 *Get 5(**F** - 32) on its own (by multiplying both sides by 9)* * *
 
-`9 C equals 5 open parentheses F minus 32 close parentheses`
+$9 C = 5 ( F - 32 )$
 
 **[1]**
 
@@ -301,7 +301,7 @@ $F=\frac{9C+160}{5}$** [1]**
 ### 20() — 4 marks
 *Remove fractions (by multiplying both sides by (4 - **a**)* * *
 
-`p open parentheses 4 minus a close parentheses equals 3 a plus 5`
+$p ( 4 - a ) = 3 a + 5$
 
 **[1]**
 
@@ -311,13 +311,13 @@ $4p-pa=3a+5$ * *
 
 *Get the **a** terms on one side (for example, by adding **pa** to both sides then subtracting 5 from both sides)* * *
 
-`table row cell 4 p end cell equals cell 3 a plus 5 plus a p end cell row cell 4 p minus 5 end cell equals cell 3 a plus a p end cell end table`
+$\begin{gathered} 4 p & = 3 a + 5 + a p \\ 4 p - 5 & = 3 a + a p \end{gathered}$
 
 **[1]**
 
 *Factorise **a** out of the terms on the right* * *
 
-`4 p minus 5 equals a open parentheses 3 plus p close parentheses`
+$4 p - 5 = a ( 3 + p )$
 
 **[1]**
 
@@ -372,7 +372,7 @@ $\thereforet=\frac{p+d}{a}$* ***[1]**
 ### 24() — 4 marks
 *Remove fractions (by multiplying both sides by 4 + **t**)* * *
 
-`p open parentheses 4 plus t close parentheses equals 3 minus 2 t`
+$p ( 4 + t ) = 3 - 2 t$
 
 **[1]**
 
@@ -382,13 +382,13 @@ $4p+pt=3-2t$ * *
 
 *Move the **t** terms to one side (for example, by adding 2**t** to both sides then subtracting 4**p** from both sides)* * *
 
-`table attributes columnalign right center left columnspacing 0px end attributes row cell 4 p plus p t plus 2 t end cell equals 3 row cell p t plus 2 t end cell equals cell 3 minus 4 p end cell end table`
+$\begin{array}{rcl} 4 p + p t + 2 t & = 3 \\ p t + 2 t & = 3 - 4 p \end{array}$
 
 **[1]**
 
 *Factorise **t** out of the terms on the left* * *
 
-`t open parentheses p plus 2 close parentheses equals 3 minus 4 p`
+$t ( p + 2 ) = 3 - 4 p$
 
 **[1]**
 
@@ -413,7 +413,7 @@ $g-5=am+3m$
 
 *am** and 3**m** are not "like" terms* *Factorise **m** out of these two terms* * *
 
-`g minus 5 equals m open parentheses a plus 3 close parentheses`
+$g - 5 = m ( a + 3 )$
 
 **[1]**
 
@@ -445,7 +445,7 @@ $\thereforea=\frac{d-g}{2c}$* ***[1]**
 ### 22((b)) — 4 marks
 *Get rid of fractions (by multiplying both sides by **bvR**)* * *
 
-`table row cell b v R open parentheses m over v minus t over b close parentheses end cell equals cell b v R cross times fraction numerator open parentheses m minus t close parentheses over denominator R end fraction end cell row blank blank space row cell fraction numerator b up diagonal strike v R m over denominator up diagonal strike v end fraction minus fraction numerator up diagonal strike b v R t over denominator up diagonal strike b end fraction end cell equals cell fraction numerator b v up diagonal strike R open parentheses m minus t close parentheses over denominator up diagonal strike R end fraction end cell row blank blank space row cell b R m minus v R t end cell equals cell b v open parentheses m minus t close parentheses end cell end table`
+$\begin{gathered} b v R ( \frac{m}{v} - \frac{t}{b} ) & = b v R \times \frac{( m - t )}{R} \\ \\ \frac{b \cancel{v} R m}{ \cancel{v} } - \frac{ \cancel{b} v R t}{ \cancel{b} } & = \frac{b v \cancel{R} ( m - t )}{ \cancel{R} } \\ \\ b R m - v R t & = b v ( m - t ) \end{gathered}$
 
 **[1]**
 
@@ -455,13 +455,13 @@ $bRm-vRt=bvm-bvt$ * *
 
 *Move all the **m** terms on to one side (for example, by subtracting **bvm** from both sides then adding **vRt** to both sides)* * *
 
-`table attributes columnalign right center left columnspacing 0px end attributes row cell b R m minus v R t minus b v m end cell equals cell negative b v t end cell row cell b R m minus b v m end cell equals cell v R t minus b v t end cell end table`
+$\begin{array}{rcl} b R m - v R t - b v m & = - b v t \\ b R m - b v m & = v R t - b v t \end{array}$
 
 **[1]**
 
 *Factorise **m** out of the terms on the left* * *
 
-`m open parentheses b R minus b v close parentheses equals v R t minus b v t`
+$m ( b R - b v ) = v R t - b v t$
 
 **[1]**
 
@@ -482,7 +482,7 @@ $A+5z=\frac{c}{y}$
 
 > *Isolate **c** by multiplying both sides by **y**.*
 
-`y open parentheses A plus 5 z close parentheses equals c`
+$y ( A + 5 z ) = c$
 
 $\thereforec=y(A+5z)$* ***[1]**
 
@@ -510,7 +510,7 @@ $\thereforea=\frac{M+bd}{c}$* ***[1]**
 ### 15() — 3 marks
 *Remove fractions (by multiplying both sides by **m** - 1)* * *
 
-`f open parentheses m minus 1 close parentheses equals 3 m plus 4`
+$f ( m - 1 ) = 3 m + 4$
 
 **[1]**
 
@@ -520,13 +520,13 @@ $fm-f=3m+4$ * *
 
 *Get all the **m** terms on one side (for example, by subtracting 3**m** from both sides then adding **f **to both sides)* * *
 
-`table attributes columnalign right center left columnspacing 0px end attributes row cell f m minus f minus 3 m end cell equals 4 row cell f m minus 3 m end cell equals cell 4 plus f end cell end table`
+$\begin{array}{rcl} f m - f - 3 m & = 4 \\ f m - 3 m & = 4 + f \end{array}$
 
 **[1]**
 
 *Factorise **m** out of the terms on the left* * *
 
-`m open parentheses f minus 3 close parentheses equals 4 plus f`
+$m ( f - 3 ) = 4 + f$
 
 *Get **m** on its own (by dividing both sides by **f** - 3)* * *
 
@@ -539,7 +539,7 @@ $m=\frac{-f-4}{3-f}$** is also accepted**
 ### 13() — 2 marks
 > *Isolate the term involving **f**, the *$\frac{1}{3}ef$* term, by squaring both sides.*
 
-`table row cell m squared end cell equals cell 1 third e f end cell end table`
+$\begin{gathered} m^{2} & = 1 \frac{1}{3} e f \end{gathered}$
 
 **[1]**
 
@@ -570,7 +570,7 @@ $\frac{h-f}{3}=e$
 
 $\thereforee=\frac{h-f}{3}$* ***[1]**
 
-**Equivalent expressions allowed such as **`e equals 1 third open parentheses h minus f close parentheses`**.**
+**Equivalent expressions allowed such as **$e = 1 \frac{1}{3} ( h - f )$**.**
 
 ## Q25 — hard — 4 marks · exam-questions
 
@@ -587,19 +587,19 @@ $t^{3}n^{2}-t^{3}=4d$ * *
 
 *'Factorise out' the the **t*<sup>*3*</sup> * *
 
-`table row cell t cubed open parentheses n squared minus 1 close parentheses end cell equals cell 4 d end cell end table`
+$\begin{gathered} t^{3} ( n^{2} - 1 ) & = 4 d \end{gathered}$
 
 **[1]**
 
 *And divide both sides by '**n*<sup>*2*</sup>* − 1' to leave **t*<sup>*3*</sup>* on its own on the left hand side* * *
 
-`table attributes columnalign right center left columnspacing 0px end attributes row cell t cubed end cell equals cell fraction numerator 4 d over denominator n squared minus 1 end fraction end cell end table`
+$\begin{array}{rcl} t^{3} & = \frac{4 d}{n^{2} - 1} \end{array}$
 
 **[1]**
 
 *Take the cube root of both sides* * *
 
-`bold italic t bold equals root index bold 3 of fraction numerator bold 4 bold italic d over denominator bold italic n to the power of bold 2 bold minus bold 1 end fraction end root`* ***[1]**
+`t = sqrt index 3 of ( 4 d)/( n ^ 2 - 1) )`* ***[1]**
 
 ## Q26 — medium — 1 marks · exam-questions
 
@@ -610,9 +610,9 @@ $y^{2}=w^{3}$
 
 > *Take the cube root of both sides.*
 
-`cube root of y squared end root equals w`
+$\sqrt[3]{y^{2}} = w$
 
-`bold italic w bold equals root index bold 3 of bold italic y to the power of bold 2 end root` **[1]**
+`w = sqrt index 3 of y ^ 2 )` **[1]**
 
 > *If you square both sides and then multiply the powers together on the *$y$*, you will get the incorrect answer of *$w=y^{6}$*.*
 
@@ -631,11 +631,11 @@ $c+8v=t^{3}$
 
 > *Isolate **t** by taking the cube root of both sides.*
 
-`cube root of c plus 8 v end root equals t`
+$\sqrt[3]{c + 8 v} = t$
 
-`bold therefore bold italic t bold equals root index bold 3 of bold c bold plus bold 8 bold v end root`* ***[1]**
+`therefore t = sqrt index 3 of c + 8 v )`* ***[1]**
 
-**Equivalent expressions allowed such as **`t equals open parentheses c plus 8 v close parentheses to the power of 1 third end exponent`**.**
+**Equivalent expressions allowed such as **$t = ( c + 8 v )^{1 \frac{1}{3}}$**.**
 
 ## Q28 — hard — 4 marks · exam-questions
 
@@ -648,7 +648,7 @@ $p^{2}=\frac{ac+8}{3+c}$
 
 > *Remove fractions by multiplying (both sides) by 3 + **c.*
 
-`space p squared open parentheses 3 plus c close parentheses equals a c plus 8`
+$p^{2} ( 3 + c ) = a c + 8$
 
 > *Expand the brackets by multiplying each term inside by p*<sup>*2*</sup>*. *
 
@@ -658,13 +658,13 @@ $3p^{2}+cp^{2}=ac+8$
 
 *Being all the **c** terms to one side (for example, by subtracting **ac** from both sides then adding 3**p*<sup>*2*</sup>* **to both sides)* * *
 
-`table row cell 3 p squared plus c p squared minus a c end cell equals 8 row cell c p squared minus a c end cell equals cell 8 minus 3 p squared end cell end table`
+$\begin{gathered} 3 p^{2} + c p^{2} - a c & = 8 \\ c p^{2} - a c & = 8 - 3 p^{2} \end{gathered}$
 
 **[1]**
 
 *Factorise **c** from the terms on the left-hand side.* * *
 
-`c open parentheses p squared minus a close parentheses equals 8 minus 3 p squared`
+$c ( p^{2} - a ) = 8 - 3 p^{2}$
 
 > *Isolate **c** by dividing (both sides) by **p*<sup>*2*</sup>* - a.*
 
@@ -687,7 +687,7 @@ $a-5=\frac{b}{c}$
 
 > *Multiply both sides by c to remove the fraction.*
 
-`c open parentheses a minus 5 close parentheses equals b`
+$c ( a - 5 ) = b$
 
 **[1]**
 
@@ -729,13 +729,13 @@ $y^{2}=\frac{x+1}{x-4}$
 
 *Remove the fraction by multiplying both sides by the denominator (**x** - 4).* * *
 
-`y squared open parentheses x minus 4 close parentheses equals x plus 1`
+$y^{2} ( x - 4 ) = x + 1$
 
 **[1]*** *
 
 > *Expand the brackets on the left hand side of the formula.*
 
-`table row cell x y squared minus 4 y squared end cell equals cell x plus 1 end cell end table`
+$\begin{gathered} x y^{2} - 4 y^{2} & = x + 1 \end{gathered}$
 
 > *Collect x terms on the same side of the formula - and everything else on the other side (by subtracting **x** from, and adding 4**y*<sup>*2*</sup>* to, both sides)*
 
@@ -745,7 +745,7 @@ $xy^{2}-x=4y^{2}+1$
 
 *Factorise **x** out of the terms on the left hand side* * *
 
-`x open parentheses y squared minus 1 close parentheses equals 4 y squared plus 1`
+$x ( y^{2} - 1 ) = 4 y^{2} + 1$
 
 *Get **x** on its own (by dividing both sides by **y*<sup>*2*</sup>* - 1)* * *
 
@@ -762,13 +762,13 @@ $s-ut=\frac{1}{2}at^{2}$
 
 > *Remove the fraction by multiplying both sides by its denominator, 2.*
 
-`2 open parentheses s minus u t close parentheses equals a t squared`
+$2 ( s - u t ) = a t^{2}$
 
 **[1]**
 
 > *Finally, to isolate **a**, divide both sides by **t*<sup>*2*</sup>*.*
 
-`fraction numerator 2 open parentheses s minus u t close parentheses over denominator t squared end fraction equals a`
+$\frac{2 ( s - u t )}{t^{2}} = a$
 
 $a=\frac{2(s-ut)}{t^{2}}$ **[1]**
 
@@ -797,17 +797,17 @@ $\thereforet=\frac{v-u}{a}$ **[1]**
 
 > *The inverse of *$\frac{1}{2}$* is to multiply both sides by 2 giving:*
 
-`table row s equals cell 1 half a t squared end cell row cell 2 s end cell equals cell a t squared end cell end table`
+$\begin{gathered} s = 1 \frac{1}{2} a t^{2} \\ 2 s & = a t^{2} \end{gathered}$
 
 **[M1]**
 
 > *Divide both sides by *$a$
 
-`table row cell fraction numerator 2 s over denominator a end fraction end cell equals cell t squared end cell end table`
+$\begin{gathered} \frac{2 s}{a} & = t^{2} \end{gathered}$
 
 > *Square root both sides*
 
-`table row cell plus-or-minus square root of fraction numerator 2 s over denominator a end fraction end root end cell equals t end table`
+$\begin{gathered} \pm \sqrt{ \frac{2 s}{a} } & = t \end{gathered}$
 
 $t=\pm\sqrt{\frac{2s}{a}}$
 
@@ -835,7 +835,7 @@ $yn^{2}-n^{2}=d$
 
 > *Factorise **n*<sup>*2*</sup>* out of the terms on the left hand side.*
 
-`n squared open parentheses y minus 1 close parentheses equals d`
+$n^{2} ( y - 1 ) = d$
 
 **[1]**
 
@@ -852,17 +852,17 @@ $n=\sqrt{\frac{d}{y-1}}$* ***[1]**
 ### 9() — 2 marks
 > *Subtract 7 from both sides.*
 
-`table row cell x space minus space 7 space end cell equals cell space y squared end cell end table`
+$\begin{gathered} x - 7 & = y^{2} \end{gathered}$
 
 **[1]**
 
 > *It may be easier here to swap the left and right sides, although it is not necessary.*
 
-`table row cell y squared space end cell equals cell space x space minus space 7 space end cell end table`
+$\begin{gathered} y^{2} & = x - 7 \end{gathered}$
 
 > *Take the square root of both sides, remember that a square root can be both positive or negative.*
 
-`table row cell space y squared space end cell equals cell space x space minus space 7 end cell row cell square root of blank end root space space space space space space space space space space space space space space space space space space space space end cell equals cell space space space space space space space space space space space space space space space space space space space space space space space square root of blank end root end cell row cell y space end cell equals cell plus-or-minus space square root of x space minus space 7 end root end cell end table`
+$\begin{gathered} y^{2} & = x - 7 \\ \sqrt{ } & = \sqrt{ } \\ y & = \pm \sqrt{x - 7} \end{gathered}$
 
 $y=\pm\sqrt{x-7}$** [1]**
 
@@ -873,13 +873,13 @@ $y=\pm\sqrt{x-7}$** [1]**
 ### 23() — 3 marks
 > *First square both sides of the formula to remove the square root.*
 
-`table attributes columnalign right center left columnspacing 0px end attributes row cell y squared end cell equals cell open parentheses fraction numerator 1 over denominator square root of x plus 1 end root end fraction close parentheses squared end cell row cell y squared end cell equals cell open parentheses 1 close parentheses squared over open parentheses square root of x plus 1 end root close parentheses squared end cell row cell y squared end cell equals cell fraction numerator 1 over denominator x plus 1 end fraction end cell end table`
+$\begin{array}{rcl} y^{2} & = ( \frac{1}{ \sqrt{x + 1} } )^{2} \\ y^{2} & = \frac{( 1 )^{2}}{( \sqrt{x + 1} )^{2}} \\ y^{2} & = \frac{1}{x + 1} \end{array}$
 
 **[1]**
 
 > *Multiply both sides by the denominator to remove the fraction.*
 
-`y squared open parentheses x plus 1 close parentheses equals 1`
+$y^{2} ( x + 1 ) = 1$
 
 **[1]**
 
@@ -917,25 +917,25 @@ $x=\frac{y+3}{7}$ **[1]**
 ### 17((b)) — 4 marks
 > *Square both sides*
 
-`table row w equals cell square root of fraction numerator e plus g over denominator e f minus d end fraction end root end cell row cell w squared end cell equals cell fraction numerator e plus g over denominator e f minus d end fraction end cell end table`
+$\begin{gathered} w = \sqrt{ \frac{e + g}{e f - d} } \\ w^{2} & = \frac{e + g}{e f - d} \end{gathered}$
 
 **[M1]**
 
 > *Multiply by the denominator and expand the brackets*
 
-`table row cell w squared open parentheses e f minus d close parentheses end cell equals cell e plus g end cell row cell e f w squared minus d w squared end cell equals cell e plus g end cell end table`
+$\begin{gathered} w^{2} ( e f - d ) & = e + g \\ e f w^{2} - d w^{2} & = e + g \end{gathered}$
 
 **[M1]**
 
 > *Rearrange to have all the terms containing *$e$* on one side*
 
-`table row cell e f w squared minus d w squared minus e end cell equals g row cell e f w squared minus e end cell equals cell g plus d w squared end cell end table`
+$\begin{gathered} e f w^{2} - d w^{2} - e & = g \\ e f w^{2} - e & = g + d w^{2} \end{gathered}$
 
 **[M1]**
 
 > *Take out a factor of *$e$* on the left side*
 
-`e open parentheses f w squared minus 1 close parentheses equals g plus d w squared`
+$e ( f w^{2} - 1 ) = g + d w^{2}$
 
 > *Divide by the term in the brackets to leave *$e$* on the left*
 
@@ -955,7 +955,7 @@ $e=\frac{g+dw^{2}}{fw^{2}-1}$
 ### 15() — 3 marks
 > *Remove the fraction by multiplying both sides by the denominator*
 
-`x open parentheses 3 n space minus space 4 close parentheses space equals space 3 p space plus thin space n`
+$x ( 3 n - 4 ) = 3 p + n$
 
 > *Expand the brackets*
 
@@ -977,7 +977,7 @@ $3nx-n=3p+4x$
 
 > *Take out a factor of *$n$
 
-`n open parentheses 3 x space minus space 1 close parentheses space equals space 3 p space plus thin space 4 x`
+$n ( 3 x - 1 ) = 3 p + 4 x$
 
 > *Divide by the bracket to leave *$n$* as the subject*
 

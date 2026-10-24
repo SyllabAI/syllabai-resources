@@ -590,7 +590,7 @@ List the known quantities:
 
 Substitute the known quantities into the equation from part c, $ΔE=Δmc^{2}$:
 
-- `straight capital delta E equals open parentheses 2.8 cross times 10 to the power of negative 30 end exponent close parentheses cross times open parentheses 3.00 cross times 10 to the power of 8 close parentheses squared` **[1 mark]**
+- `capital delta E = ( 2.8 x 10 ^ - 30 ) x ( 3.00 x 10 ^ 8 ) ^2` **[1 mark]**
 - $ΔE=2.5\times10^{-13}$ **[1 mark]**
 
 Suggest a unit:

@@ -165,7 +165,7 @@
   },
   {
    "type": "bullets",
-   "md": "- $y=mx+c$\n\n  - This is the **gradient-intercept form**\n  - It clearly shows the gradient *m *and the *y*-intercept (0, *c*)\n- `space y minus y subscript 1 equals m open parentheses x minus x subscript 1 close parentheses`\n- This is the **point-gradient form**\n\n  - It clearly shows the gradient *m *and a point on the line (*x*<sub>*1*</sub>*, y*<sub>*1*</sub>)\n- $ax+by+d=0$\n\n  - This is the **general form**\n  - You can quickly get the *x*-intercept$(-\\frac{d}{a},0)$ and *y*-intercept$(0,-\\frac{d}{b})$"
+   "md": "- $y=mx+c$\n\n  - This is the **gradient-intercept form**\n  - It clearly shows the gradient *m *and the *y*-intercept (0, *c*)\n- $y - y_{1} = m ( x - x_{1} )$\n- This is the **point-gradient form**\n\n  - It clearly shows the gradient *m *and a point on the line (*x*<sub>*1*</sub>*, y*<sub>*1*</sub>)\n- $ax+by+d=0$\n\n  - This is the **general form**\n  - You can quickly get the *x*-intercept$(-\\frac{d}{a},0)$ and *y*-intercept$(0,-\\frac{d}{b})$"
   },
   {
    "type": "figure",
@@ -200,7 +200,7 @@
    "type": "callout",
    "variant": "worked-example",
    "label": "Worked Example",
-   "md": "(a) Find the equation of the straight line with gradient 3 that passes through (5, 4).\n\n> *We know that the gradient is 3 so the line takes the form *\n\n$y=3x+c$\n\n> *To find the value of **c**, substitute (5, 4) into the equation*\n\n`4 equals 3 open parentheses 5 close parentheses plus c\n4 equals 15 plus c\nc equals negative 11`\n\n> *Replace **c** with −11 to complete the equation of the line*\n\n**Final answer:** **y**** = 3****x**** − 11**\n\n(b) Find the equation of the straight line that passes through (-2, 6) and (8, 1).\n\n> *You may find it helpful to sketch the information given*\n\n![XXg8k5ry_2-13-1-finding-equations-of-straight-lines](assets/81e5f1122a3c-xxg8k5ry-2-13-1-finding-equations-of-straight-li.png)\n\n> *First find **m**, the gradient*\n\n`table attributes columnalign right center left columnspacing 0px end attributes row m equals cell fraction numerator 6 minus 1 over denominator negative 2 minus 8 end fraction end cell row blank equals cell fraction numerator 5 over denominator negative 10 end fraction end cell row blank equals cell negative 1 half end cell end table`\n\n> *We know that the line takes the form *\n\n`table attributes columnalign right center left columnspacing 0px end attributes row y equals cell negative 1 half x plus c end cell end table`\n\n> *To find the value of **c**, substitute either of the given points into this equation. Here we will pick (8, 1) as it is doesn't contain negative numbers so is easier to work with*\n\n`1 equals negative 1 half open parentheses 8 close parentheses plus c\n1 equals negative 4 plus c\nc equals 5`\n\n> *Replace **c** with −11 to complete the equation of the line*\n\n$y=-\\frac{1}{2}x+5$\n\n> *We can check against our sketch that this equation looks correct- it has a negative gradient and it crosses the **y**-axis between 1 and 6*"
+   "md": "(a) Find the equation of the straight line with gradient 3 that passes through (5, 4).\n\n> *We know that the gradient is 3 so the line takes the form *\n\n$y=3x+c$\n\n> *To find the value of **c**, substitute (5, 4) into the equation*\n\n$4 = 3 ( 5 ) + c\n4 = 15 + c\nc = - 11$\n\n> *Replace **c** with −11 to complete the equation of the line*\n\n**Final answer:** **y**** = 3****x**** − 11**\n\n(b) Find the equation of the straight line that passes through (-2, 6) and (8, 1).\n\n> *You may find it helpful to sketch the information given*\n\n![XXg8k5ry_2-13-1-finding-equations-of-straight-lines](assets/81e5f1122a3c-xxg8k5ry-2-13-1-finding-equations-of-straight-li.png)\n\n> *First find **m**, the gradient*\n\n$\\begin{array}{rcl} m = \\frac{6 - 1}{- 2 - 8} \\\\ = \\frac{5}{- 10} \\\\ = - 1 \\frac{1}{2} \\end{array}$\n\n> *We know that the line takes the form *\n\n$\\begin{array}{rcl} y = - 1 \\frac{1}{2} x + c \\end{array}$\n\n> *To find the value of **c**, substitute either of the given points into this equation. Here we will pick (8, 1) as it is doesn't contain negative numbers so is easier to work with*\n\n$1 = - 1 \\frac{1}{2} ( 8 ) + c\n1 = - 4 + c\nc = 5$\n\n> *Replace **c** with −11 to complete the equation of the line*\n\n$y=-\\frac{1}{2}x+5$\n\n> *We can check against our sketch that this equation looks correct- it has a negative gradient and it crosses the **y**-axis between 1 and 6*"
   },
   {
    "type": "spec_point",
@@ -220,11 +220,11 @@
   },
   {
    "type": "bullets",
-   "md": "- The midpoint of a line will be the same distance from both endpoints\n- You can think of a midpoint as being the average (mean) of two coordinates\n- The midpoint of `open parentheses x subscript 1 comma space y subscript 1 close parentheses` and `open parentheses x subscript 2 comma space y subscript 2 close parentheses` is"
+   "md": "- The midpoint of a line will be the same distance from both endpoints\n- You can think of a midpoint as being the average (mean) of two coordinates\n- The midpoint of $( x_{1} , y_{1} )$ and $( x_{2} , y_{2} )$ is"
   },
   {
    "type": "paragraph",
-   "md": "`open parentheses fraction numerator x subscript 1 plus x subscript 2 over denominator 2 end fraction space comma space fraction numerator y subscript 1 plus y subscript 2 over denominator 2 end fraction close parentheses`"
+   "md": "$( \\frac{x_{1} + x_{2} }{2} , \\frac{y_{1} + y_{2} }{2} )$"
   },
   {
    "type": "figure",
@@ -241,7 +241,7 @@
    "type": "callout",
    "variant": "worked-example",
    "label": "Worked Example",
-   "md": "The coordinates of *A *are (−4, 3) and the coordinates of *B *are (8, −12).\n\nFind *M*, the midpoint of *AB*.\n\n> *The midpoint can be found using **M** = *`open parentheses fraction numerator x subscript 1 plus x subscript 2 over denominator 2 end fraction space comma space fraction numerator y subscript 1 plus y subscript 2 over denominator 2 end fraction close parentheses`\n\n> *Fill in the values of **x** and **y ** from each coordinate*\n\n`open parentheses fraction numerator negative 4 plus 8 over denominator 2 end fraction space comma space fraction numerator 3 plus negative 12 over denominator 2 end fraction close parentheses equals open parentheses 4 over 2 comma space fraction numerator negative 9 over denominator 2 end fraction close parentheses`\n\n> *Simplify*\n\n**Final answer:** **M**** = (2, −4.5)**"
+   "md": "The coordinates of *A *are (−4, 3) and the coordinates of *B *are (8, −12).\n\nFind *M*, the midpoint of *AB*.\n\n> *The midpoint can be found using **M** = *$( \\frac{x_{1} + x_{2} }{2} , \\frac{y_{1} + y_{2} }{2} )$\n\n> *Fill in the values of **x** and **y ** from each coordinate*\n\n$( \\frac{- 4 + 8}{2} , \\frac{3 + - 12}{2} ) = ( \\frac{4}{2} , \\frac{- 9}{2} )$\n\n> *Simplify*\n\n**Final answer:** **M**** = (2, −4.5)**"
   },
   {
    "type": "spec_point",
@@ -261,11 +261,11 @@
   },
   {
    "type": "bullets",
-   "md": "- The distance between two points with coordinates `open parentheses x subscript 1 space comma space y subscript 1 close parentheses` and `open parentheses x subscript 2 space comma space y subscript 2 close parentheses` can be found using the formula"
+   "md": "- The distance between two points with coordinates $( x_{1} , y_{1} )$ and $( x_{2} , y_{2} )$ can be found using the formula"
   },
   {
    "type": "paragraph",
-   "md": "`d equals square root of open parentheses x subscript 1 minus x subscript 2 close parentheses squared plus open parentheses y subscript 1 minus y subscript 2 close parentheses squared end root`"
+   "md": "$d = \\sqrt{( x_{1} - x_{2} )^{2} + ( y_{1} - y_{2} )^{2}}$"
   },
   {
    "type": "bullets",
@@ -292,7 +292,7 @@
    "type": "callout",
    "variant": "worked-example",
    "label": "Worked Example",
-   "md": "Point *A* has coordinates (3, -4) and point *B* has coordinates (-5, 2).\n\nCalculate the distance of the line segment *AB*.\n\n> *Using the formula for the distance between two points, *`d equals square root of open parentheses x subscript 1 minus x subscript 2 close parentheses squared plus open parentheses y subscript 1 minus y subscript 2 close parentheses squared end root`* *\n\n> *Substituting in the two given coordinates:*\n\n`d equals square root of open parentheses 3 minus negative 5 close parentheses squared plus open parentheses negative 4 minus 2 close parentheses squared end root`\n\n*Simplify:*\n\n`d equals square root of open parentheses 8 close parentheses squared plus open parentheses negative 6 close parentheses squared end root space equals space square root of 64 plus 36 end root equals square root of 100 equals 10`\n\n**Final answer:** **Answer = 10 units**"
+   "md": "Point *A* has coordinates (3, -4) and point *B* has coordinates (-5, 2).\n\nCalculate the distance of the line segment *AB*.\n\n> *Using the formula for the distance between two points, *$d = \\sqrt{( x_{1} - x_{2} )^{2} + ( y_{1} - y_{2} )^{2}}$* *\n\n> *Substituting in the two given coordinates:*\n\n$d = \\sqrt{( 3 - - 5 )^{2} + ( - 4 - 2 )^{2}}$\n\n*Simplify:*\n\n$d = \\sqrt{( 8 )^{2} + ( - 6 )^{2}} = \\sqrt{64 + 36} = \\sqrt{100} = 10$\n\n**Final answer:** **Answer = 10 units**"
   }
  ]
 }

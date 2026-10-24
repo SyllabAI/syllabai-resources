@@ -61,21 +61,21 @@ guided_study: true
 > 
 > > *Write an equation for the first customer's purchases, and label it equation 1*
 > 
-> `circle enclose 1 space space space 6 b plus 12 s equals 9`
+> $\textcircled{1} 6 b + 12 s = 9$
 > 
 > > *Write an equation for the second customer's purchases, and label it equation 2*
 > 
-> `circle enclose 2 space space space 9 b plus 10 s equals 12.3`
+> $\textcircled{2} 9 b + 10 s = 12.3$
 > 
 > *We will choose to eliminate the *$b$* **terms*
 > *Make the *$b$* terms equal by multiplying all parts of equation 1 by 3 and all parts of equation 2 by 2*
 > *Label these as equations 3 and 4*
 > 
-> `table row cell circle enclose 1 cross times 3 space space space 18 b plus 36 s end cell equals cell 27 space space space space space space space space space space circle enclose 3 end cell row cell circle enclose 2 cross times 2 space space space 18 b plus 20 s end cell equals cell 24.6 space space space space space space space circle enclose 4 end cell end table`
+> $\begin{gathered} \textcircled{1} \times 3 18 b + 36 s & = 27 \textcircled{3} \\ \textcircled{2} \times 2 18 b + 20 s & = 24.6 \textcircled{4} \end{gathered}$
 > 
 > > *To eliminate *$b$*, subtract equation 4 from equation 3*
 > 
-> `circle enclose 3 minus circle enclose 4 space space space space space 16 s equals 2.4`
+> $\textcircled{3} - \textcircled{4} 16 s = 2.4$
 > 
 > > *Solve for *$s$
 > 
@@ -83,12 +83,12 @@ guided_study: true
 > 
 > > *Substitute this into either equation to find *$b$*, we will use equation 1*
 > 
-> `table row cell circle enclose 1 space space space 6 b plus 12 open parentheses 0.15 close parentheses end cell equals 9 row cell 6 b plus 1.8 end cell equals 9 row cell 6 b end cell equals cell 7.2 end cell row b equals cell 1.2 end cell end table`
+> $\begin{gathered} \textcircled{1} 6 b + 12 ( 0.15 ) & = 9 \\ 6 b + 1.8 & = 9 \\ 6 b & = 7.2 \\ b = 1.2 \end{gathered}$
 > 
 > > *So sausage rolls cost £0.15 each and bagels cost £1.20 each*
 > 
 > > *Use these values to find the price of 5 bagels and 15 sausage rolls*
 > 
-> `open parentheses 5 cross times 1.2 close parentheses plus open parentheses 15 cross times 0.15 close parentheses equals 8.25`
+> $( 5 \times 1.2 ) + ( 15 \times 0.15 ) = 8.25$
 > 
 > **Final answer:** **£8.25**

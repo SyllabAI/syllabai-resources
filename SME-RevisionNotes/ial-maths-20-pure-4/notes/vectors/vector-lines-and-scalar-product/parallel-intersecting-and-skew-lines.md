@@ -26,19 +26,19 @@ In three dimensions, there is a further possibility: a pair of lines might not b
 - Two lines are parallel if, and only if, their **direction vectors **are ***parallel***
 
   - This means the direction vectors will be **scalar multiples** of each other
-  - For example, the lines whose equations are `bold r equals open parentheses table row 2 row 1 row cell negative 7 end cell end table close parentheses plus s open parentheses table row 2 row 0 row cell negative 8 end cell end table close parentheses`  and  `bold r equals open parentheses table row 1 row cell negative 1 end cell row 5 end table close parentheses plus t open parentheses table row cell negative 1 end cell row 0 row 4 end table close parentheses`  are parallel since their direction vectors `open parentheses table row 2 row 0 row cell negative 8 end cell end table close parentheses`  and `open parentheses table row cell negative 1 end cell row 0 row 4 end table close parentheses` are parallel vectors as `open parentheses table row 2 row 0 row cell negative 8 end cell end table close parentheses equals negative 2 open parentheses table row cell negative 1 end cell row 0 row 4 end table close parentheses`
+  - For example, the lines whose equations are $r = ( \begin{gathered} 2 \\ 1 \\ - 7 \end{gathered} ) + s ( \begin{gathered} 2 \\ 0 \\ - 8 \end{gathered} )$  and  $r = ( \begin{gathered} 1 \\ - 1 \\ 5 \end{gathered} ) + t ( \begin{gathered} - 1 \\ 0 \\ 4 \end{gathered} )$  are parallel since their direction vectors $( \begin{gathered} 2 \\ 0 \\ - 8 \end{gathered} )$  and $( \begin{gathered} - 1 \\ 0 \\ 4 \end{gathered} )$ are parallel vectors as $( \begin{gathered} 2 \\ 0 \\ - 8 \end{gathered} ) = - 2 ( \begin{gathered} - 1 \\ 0 \\ 4 \end{gathered} )$
 
 - There are two possibilities for two parallel lines: either they **never intersect** or they are the** identical**
 
-  - Recall that the vector equation of a line can take **many forms** – for example, the lines represented by the equations   `bold r equals open parentheses table row 1 row cell negative 8 end cell end table close parentheses plus s open parentheses table row cell negative 4 end cell row 8 end table close parentheses`  and  `bold r equals open parentheses table row cell negative 3 end cell row 0 end table close parentheses plus t open parentheses table row 1 row cell negative 2 end cell end table close parentheses`    are actually the same line even though the equations look entirely different
+  - Recall that the vector equation of a line can take **many forms** – for example, the lines represented by the equations   $r = ( \begin{gathered} 1 \\ - 8 \end{gathered} ) + s ( \begin{gathered} - 4 \\ 8 \end{gathered} )$  and  $r = ( \begin{gathered} - 3 \\ 0 \end{gathered} ) + t ( \begin{gathered} 1 \\ - 2 \end{gathered} )$    are actually the same line even though the equations look entirely different
 
 - To see that the lines are identical, first check that they are **parallel**
 
-  - they are because `open parentheses table row cell negative 4 end cell row 8 end table close parentheses equals negative 4 open parentheses table row 1 row cell negative 2 end cell end table close parentheses` and so the direction vectors are parallel
+  - they are because $( \begin{gathered} - 4 \\ 8 \end{gathered} ) = - 4 ( \begin{gathered} 1 \\ - 2 \end{gathered} )$ and so the direction vectors are parallel
 
 - Next, determine whether **any point **on one of the lines also lies on the other.
 
-  - In the example above, is the position vector of a point on the first line – does it also lie on the second line? Yes, because `open parentheses table row 1 row cell negative 8 end cell end table close parentheses equals open parentheses table row cell negative 3 end cell row 0 end table close parentheses plus 4 open parentheses table row 1 row cell negative 2 end cell end table close parentheses`
+  - In the example above, is the position vector of a point on the first line – does it also lie on the second line? Yes, because $( \begin{gathered} 1 \\ - 8 \end{gathered} ) = ( \begin{gathered} - 3 \\ 0 \end{gathered} ) + 4 ( \begin{gathered} 1 \\ - 2 \end{gathered} )$
 
 - If two parallel lines share **any point**, then they share **all points** – i.e. they are **identical**
 

@@ -42,7 +42,7 @@ The first three terms, K_1, K_2 and K_3, are shown in the table below.
 | H_n | 1 | 6 | 15 |   | 45 | 66 |
 | K_n | 2 | 8 | 18 |   |   |   |
 
-A fraction is said to be a perfect square if it can be written in the form `open parentheses a over b close parentheses squared` where $a$ and $b$ are non-zero integers.
+A fraction is said to be a perfect square if it can be written in the form $( \frac{a}{b} )^{2}$ where $a$ and $b$ are non-zero integers.
 
 Terms in the sequence of $K_{n}$ can be made into fractions by dividing the previous term, $K_{n-1}$, by the current term:
 
@@ -52,13 +52,13 @@ Use the table below to show that fractions formed in this way are perfect square
 
 The first example has been done for you, as follows:
 
-`K subscript 1 over K subscript 2 equals 2 over 8 equals 1 fourth equals open parentheses 1 half close parentheses squared`
+$\frac{K_{1}}{K_{2}} = \frac{2}{8} = 1 \text{fourth} = ( 1 \text{half} ) ^{2}$
 
 | $n$ | 1 | 2 | 3 | 4 | 5 | 6 |
 |---|---|---|---|---|---|---|
 | $H_{n}$ | 1 | 6 | 15 | 28 | 45 | 66 |
 | $K_{n}$ | 2 | 8 | 18 |   |   |   |
-| $\frac{K_{n-1}}{K_{n}}$ | No previous term | `open parentheses 1 half close parentheses squared` |   |   |   |   |
+| $\frac{K_{n-1}}{K_{n}}$ | No previous term | $( 1 \frac{1}{2} )^{2}$ |   |   |   |   |
 
 **Q1** [3 marks]
 
@@ -89,7 +89,7 @@ $K_{n}=n+H_{n}$
 
 and simplifying, use algebra to prove that
 
-`K subscript n minus 1 end subscript over K subscript n equals open parentheses n minus 1 close parentheses squared over n squared`
+`K _ n - 1 end _ / K _ n = ( n - 1 ) ^2 / n ^2`
 
 ### Q2 — medium — 4 marks
 
@@ -129,7 +129,7 @@ If the output is a positive integer, then it is a hexagonal number.
 
 For example, to test if 6 is a hexagonal number, substitute in $x=6$:
 
-`table row cell fraction numerator 1 plus square root of 8 cross times 6 plus 1 end root over denominator 4 end fraction end cell equals cell fraction numerator 1 plus square root of 48 plus 1 end root over denominator 4 end fraction end cell row blank equals cell fraction numerator 1 plus square root of 49 over denominator 4 end fraction end cell row blank equals cell fraction numerator 1 plus 7 over denominator 4 end fraction end cell row blank equals cell 8 over 4 end cell row blank equals 2 end table`
+$\begin{gathered} \frac{1 + \sqrt{8 \times 6 + 1} }{4} & = \frac{1 + \sqrt{48 + 1} }{4} \\ = \frac{1 + \sqrt{49} }{4} \\ = \frac{1 + 7}{4} \\ = \frac{8}{4} \\ = 2 \end{gathered}$
 
 The output is 2, which is a positive integer, so 6 is a hexagonal number.
 

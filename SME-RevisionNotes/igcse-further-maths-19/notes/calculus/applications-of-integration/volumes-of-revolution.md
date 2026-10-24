@@ -36,7 +36,7 @@ guided_study: false
 
 The **volume of revolution** of a solid rotated $2π$ radians ($360^{\circ}$) about the $x$-axis between $x=a$ and $x=b$ is given by:
 
-- `V equals pi integral subscript a superscript b y squared space d x`
+- $V = \pi \int_{a}^{b} y^{2} d x$
 
 - This is **not** given on the exam formula sheet, so you need to remember it
 
@@ -44,7 +44,7 @@ The **volume of revolution** of a solid rotated $2π$ radians ($360^{\circ}$) ab
   - That might help you remember the form of the volume integral
 - $y$ is a **function of **$x$
 
-  - i.e.  `y equals straight f open parentheses x close parentheses`
+  - i.e.  $y = \mathrm{f} ( x )$
 - $x=a$ and $x=b$ are the equations of the (vertical) lines **bounding** the area
 
   - $a<b$  ($a$ is the 'left boundary' and $b$ is the 'right boundary')
@@ -62,19 +62,19 @@ Identify the **limits** $a$ and $b$
     - or be indicated on a **graph** in the question
   - **Sketching** the graph of $y=f(x)$ can help if the graph is not provided
 - **STEP 2**
-**Square** the function  `y equals straight f open parentheses x close parentheses`
+**Square** the function  $y = \mathrm{f} ( x )$
 
-  - e.g.  `y equals x squared plus 1 space space rightwards double arrow space space y squared equals open parentheses x squared plus 1 close parentheses squared equals x to the power of 4 plus 2 x squared plus 1`
-  - or  `y equals square root of 4 minus x end root space space rightwards double arrow space space y squared equals open parentheses square root of 4 minus x end root close parentheses squared equals 4 minus x`
+  - e.g.  $y = x^{2} + 1 \Leftrightarrow y^{2} = ( x^{2} + 1 )^{2} = x^{4} + 2 x^{2} + 1$
+  - or  $y = \sqrt{4 - x} \Leftrightarrow y^{2} = ( \sqrt{4 - x} )^{2} = 4 - x$
 - **STEP 3**
-**Evaluate** the integral in the volume formula `V equals pi integral subscript a superscript b y squared space d x`
+**Evaluate** the integral in the volume formula $V = \pi \int_{a}^{b} y^{2} d x$
 
   - An answer may be required in **exact form**
   
     - i.e. as a multiple of $π$
 
 > **Exam Hint**
-> - Don't panic if  `y equals straight f open parentheses x close parentheses`  involves a square root
+> - Don't panic if  $y = \mathrm{f} ( x )$  involves a square root
 > 
 >   - The square root will disappear when you find $y^{2}$
 > - Don't forget to bring $π$ back in after working out the integral
@@ -94,17 +94,17 @@ Identify the **limits** $a$ and $b$
 > 
 > ![Sketch of function for volume of revolution](assets/5565c07492cb-edexcel-fpure-vols-of-rev-we.png)
 > 
-> > *Now square the function *`y equals straight f open parentheses x close parentheses`
+> > *Now square the function *$y = \mathrm{f} ( x )$
 > 
-> `y squared equals open parentheses square root of 3 x squared plus 2 end root close parentheses squared equals 3 x squared plus 2`
+> $y^{2} = ( \sqrt{3 x^{2} + 2} )^{2} = 3 x^{2} + 2$
 > 
-> > *Substitute everything into  *`V equals pi integral subscript a superscript b y squared space straight d x`
+> > *Substitute everything into  *$V = \pi \int_{a}^{b} y^{2} \mathrm{d} x$
 > 
-> `V equals pi integral subscript 0 superscript 3 open parentheses 3 x squared plus 2 close parentheses space straight d x`
+> $V = \pi \int_{0}^{3} ( 3 x^{2} + 2 ) \mathrm{d} x$
 > 
 > > *Work out the definite integral*
 > 
-> `table row cell integral subscript 0 superscript 3 open parentheses 3 x squared plus 2 close parentheses space straight d x end cell equals cell open square brackets 3 open parentheses fraction numerator x to the power of 2 plus 1 end exponent over denominator 2 plus 1 end fraction close parentheses plus 2 x close square brackets subscript 0 superscript 3 end cell row blank equals cell open square brackets x cubed plus 2 x close square brackets subscript 0 superscript 3 end cell row blank equals cell open parentheses open parentheses 3 close parentheses cubed plus 2 open parentheses 3 close parentheses close parentheses minus open parentheses open parentheses 0 close parentheses cubed plus 2 open parentheses 0 close parentheses close parentheses end cell row blank equals cell 33 minus 0 end cell row blank equals 33 end table`
+> $\begin{gathered} \int_{0}^{3} ( 3 x^{2} + 2 ) \mathrm{d} x & = [ 3 ( \frac{x^{2 + 1} }{2 + 1} ) + 2 x ]_{0}^{3} \\ = [ x^{3} + 2 x ]_{0}^{3} \\ = ( ( 3 )^{3} + 2 ( 3 ) ) - ( ( 0 )^{3} + 2 ( 0 ) ) \\ = 33 - 0 \\ = 33 \end{gathered}$
 > 
 > > *Put that value back into the volume formula*
 > 

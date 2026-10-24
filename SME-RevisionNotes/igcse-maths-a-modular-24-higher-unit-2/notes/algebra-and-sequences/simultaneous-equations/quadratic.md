@@ -49,20 +49,20 @@ guided_study: true
 - E.g. To solve $x^{2}+y^{2}=25$ and $y-2x=5$
 
   - **Rearrange** the **linear** equation into $y=2x+5$
-  - **Substitute** this into the quadratic equation, replacing all *y*'s with `open parentheses 2 x plus 5 close parentheses`
+  - **Substitute** this into the quadratic equation, replacing all *y*'s with $( 2 x + 5 )$
   
-    - `x squared plus open parentheses 2 x plus 5 close parentheses squared equals 25`
+    - $x^{2} + ( 2 x + 5 )^{2} = 25$
 - Expand and **solve** this **quadratic** equation
 
-  - `x squared plus open parentheses 2 x plus 5 close parentheses open parentheses 2 x plus 5 close parentheses equals 25`
-  - `table row cell x squared plus 4 x squared plus 20 x plus 25 end cell equals 25 end table`
-  - `table row cell 5 x squared plus 20 x end cell equals 0 end table`
-  - `table row cell 5 x open parentheses x plus 4 close parentheses end cell equals 0 end table`
+  - $x^{2} + ( 2 x + 5 ) ( 2 x + 5 ) = 25$
+  - $\begin{gathered} x^{2} + 4 x^{2} + 20 x + 25 & = 25 \end{gathered}$
+  - $\begin{gathered} 5 x^{2} + 20 x & = 0 \end{gathered}$
+  - $\begin{gathered} 5 x ( x + 4 ) & = 0 \end{gathered}$
   - $x=0$ and $x=-4$
 - Substitute **each** value of *x* into the **linear** equation, $y=2x+5$, to find the corresponding *y* values
 
-  - `y equals 2 open parentheses 0 close parentheses plus 5 equals 5`
-  - `y equals 2 open parentheses negative 4 close parentheses plus 5 equals negative 3`
+  - $y = 2 ( 0 ) + 5 = 5$
+  - $y = 2 ( - 4 ) + 5 = - 3$
 - Present your solutions in a way that makes it obvious which* x* belongs to which *y*
 
   - *x* = 0, *y* = 5 or *x* = -4, *y* = -3
@@ -93,7 +93,7 @@ guided_study: true
 
   - Rearrange the second equation to $y=4-x$ and substitute into $xy=3$
   
-    - `x open parentheses 4 minus x close parentheses equals 3`
+    - $x ( 4 - x ) = 3$
     - Expanding produces a quadratic that can be solved for $x$
     - $4x-x^{2}=3$
   - Or rearrange the first equation to $y=\frac{3}{x}$  and substitute into $x+y=4$
@@ -108,13 +108,13 @@ guided_study: true
 > **Worked Example**
 > Solve the equations
 > 
-> `table row cell x squared plus y squared end cell equals 36 row cell x minus 2 y end cell equals 6 end table`
+> $\begin{gathered} x^{2} + y^{2} & = 36 \\ x - 2 y & = 6 \end{gathered}$
 > 
 > **Answer:**
 > 
 > > *Number the equations*
 > 
-> `table row cell x squared plus y squared end cell equals cell 36 space space space space space space space space space space space space end cell row cell x minus 2 y end cell equals cell 6 space space space space space space space space space space space space space space space end cell end table``circle enclose 1
+> $\begin{gathered} x^{2} + y^{2} & = 36 \\ x - 2 y & = 6 \end{gathered}$`circle enclose 1
 > circle enclose 2`* *
 > 
 > > *There is one quadratic equation and one linear equation so this must be done by substitution*
@@ -129,25 +129,25 @@ guided_study: true
 > 
 > > *Substituting into equation 1*
 > 
-> `open parentheses 2 y plus 6 close parentheses squared plus y squared equals 36`
+> $( 2 y + 6 )^{2} + y^{2} = 36$
 > 
 > > *Expand the brackets*
 > *Remember that a bracket squared should be treated the same as double brackets*
 > 
-> `table row cell open parentheses 2 y plus 6 close parentheses open parentheses 2 y plus 6 close parentheses plus y squared end cell equals 36 row cell 4 y squared plus 6 open parentheses 2 y close parentheses plus 6 open parentheses 2 y close parentheses plus 6 squared plus y to the power of 2 space end exponent end cell equals 36 end table`
+> $\begin{gathered} ( 2 y + 6 ) ( 2 y + 6 ) + y^{2} & = 36 \\ 4 y^{2} + 6 ( 2 y ) + 6 ( 2 y ) + 6^{2} + y^{2 } & = 36 \end{gathered}$
 > 
 > > *Simplify*
 > 
-> `table row cell 4 y squared plus 12 y plus 12 y plus 36 plus y squared end cell equals 36 row cell 5 y squared plus 24 y plus 36 end cell equals 36 end table`
+> $\begin{gathered} 4 y^{2} + 12 y + 12 y + 36 + y^{2} & = 36 \\ 5 y^{2} + 24 y + 36 & = 36 \end{gathered}$
 > 
 > > *Rearrange to form a quadratic equation that is equal to zero*
 > *Do this by subtracting 36 from both sides*
 > 
-> `table row cell 5 y squared plus 24 y end cell equals 0 end table`
+> $\begin{gathered} 5 y^{2} + 24 y & = 0 \end{gathered}$
 > 
-> > *Take out the common factor of *`table attributes columnalign right center left columnspacing 0px end attributes row blank blank y end table`
+> > *Take out the common factor of *$\begin{array}{rcl} y \end{array}$
 > 
-> `table row cell y open parentheses 5 y plus 24 close parentheses end cell equals 0 end table`
+> $\begin{gathered} y ( 5 y + 24 ) & = 0 \end{gathered}$
 > 
 > > *Solve to find the values of *$y$* by equating each factor to zero*
 > 
@@ -159,13 +159,13 @@ guided_study: true
 > 
 > > *So the two *$y$* values are*
 > 
-> `table row cell y subscript 1 end cell equals cell 0 space end cell row cell y subscript 2 end cell equals cell negative 24 over 5 end cell end table`
+> $\begin{gathered} y_{1} & = 0 \\ y_{2} & = - \frac{24}{5} \end{gathered}$
 > 
 > > *Substitute the values of *$y$* **into one of the equations (the linear equation is easiest) to find the values of *$x$
 > 
 > $x=2y+6$
 > 
-> `x subscript 1 equals 2 left parenthesis 0 right parenthesis plus 6 equals 6 space space space space space space space space space space space space x subscript 2 equals 2 open parentheses negative 24 over 5 close parentheses plus 6 equals negative 18 over 5`
+> $x_{1} = 2 ( 0 ) + 6 = 6 x_{2} = 2 ( - \frac{24}{5} ) + 6 = - \frac{18}{5}$
 > 
 > > *Write the final solutions in clear pairs*
 > 

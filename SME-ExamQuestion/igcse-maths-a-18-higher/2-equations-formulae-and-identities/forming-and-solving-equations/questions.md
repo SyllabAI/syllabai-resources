@@ -112,7 +112,7 @@ Each metal bar is gold or silver or zinc.
 
 - $y$ metal bars are gold.
 - $(3y+7)$ metal bars are silver.
-- `open parentheses 2 y minus 5 close parentheses` metal bars are zinc.
+- $( 2 y - 5 )$ metal bars are zinc.
 
 Work out the number of metal bars that are zinc. 
 Show clear algebraic working
@@ -263,9 +263,9 @@ You must show all your working.
 ### 1() — 3 marks — command: find — structured
 The diagram below shows a triangle $PRQ$ and straight line $PQS$. The diagram is not drawn to scale.
 
-- Angle `P R Q equals open parentheses 8 x plus 2 close parentheses degree`
-- Angle `Q P R equals open parentheses 11 x plus 10 close parentheses degree`
-- Angle `R Q S equals open parentheses 15 x plus 32 close parentheses degree`
+- Angle $P R Q = ( 8 x + 2 )^{\circ}$
+- Angle $Q P R = ( 11 x + 10 )^{\circ}$
+- Angle $R Q S = ( 15 x + 32 )^{\circ}$
 
 ![Triangle PQR with angles P (11x+10)° and R (8x+2)° and angle Q is missing. Angle (15x+32)°is adjacent to angle Q.](assets/001-triangle-pqr-with-angles-p-11x-10-and-r-8x-2-and.png)
 
@@ -313,7 +313,7 @@ Is her answer correct?
 
 Tick a box.
 
-`square` Yes         `begin mathsize 26px style square end style` No
+`square` Yes         $\text{square}$ No
 
 Give a reason for your answer.
 
@@ -491,7 +491,7 @@ Work out the length of  $ST$.
 ### 17() — 4 marks — command: find — structured — from paper June 2019 · 1MA1/1H
 Given that
 
-`x squared space colon space open parentheses 3 x plus 5 close parentheses space equals space 1 space colon space 2`
+$x^{2} : ( 3 x + 5 ) = 1 : 2$
 
 find the possible values of $x$.
 
@@ -708,7 +708,7 @@ $AB=x\mathrm{cm}BC=y\mathrm{cm}$
 The perimeter of $ABCED$is 100 cm. 
 The area of $ABCED$is $R$ cm<sup>2</sup>
 
-Show that `R equals x over 4 open parentheses 200 minus open square brackets 6 minus square root of 3 close square brackets x close parentheses`
+Show that $R = \frac{x}{4} ( 200 - [ 6 - \sqrt{3} ] x )$
 
 ## Q54 — very_hard — 6 marks · exam-questions
 

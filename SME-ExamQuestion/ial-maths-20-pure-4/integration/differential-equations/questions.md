@@ -26,7 +26,7 @@ $\frac{dy}{dx}=2xy,y>0$
 
 can be found by solving
 
-`integral 1 over y space space straight d y equals integral 2 x space space d x.`
+$\int \frac{1}{y} \mathrm{d} y = \int 2 x d x.$
 
 ### 2() — 3 marks — structured
 Show that the general solution to the differential equation in part (a) is
@@ -75,7 +75,7 @@ Explain the use of a negative sign on the right-hand side of the differential eq
 ### 2() — 3 marks — structured
 Show that
 
-`integral 1 over V space d V equals k integral space straight d t`
+$\int \frac{1}{V} d V = k \int \mathrm{d} t$
 
 and hence find the general solution to the differential equation.
 
@@ -102,7 +102,7 @@ $\frac{dy}{dx}=9(y+2)x^{\frac{1}{2}}$
 
 giving your answer in the form
 
-`y equals A e to the power of straight f open parentheses x close parentheses end exponent minus 2.`
+$y = A e^{ \mathrm{f} ( x )} - 2.$
 
 ## Q6 — easy — 9 marks · exam-questions
 
@@ -156,7 +156,7 @@ where *k* is a positive constant, is used to model the number of infected trees,
 
 Show that
 
-`integral 5 space space straight d N equals integral 2 e to the power of k t end exponent space space straight d t.`
+$\int 5 \mathrm{d} N = \int 2 e^{k t} \mathrm{d} t.$
 
 ### 2() — 2 marks — structured
 Hence show that
@@ -516,7 +516,7 @@ $\frac{dy}{dx}=2xy+2x-y-1,y>-1$
 ### 1() — 4 marks — structured
 Using the standard integral result
 
-`integral s e c space k theta space space d theta equals 1 over k ln open vertical bar space tan space open parentheses fraction numerator k theta over denominator 2 end fraction plus pi over 4 close parentheses space close vertical bar plus c`
+$\int s e c k \\theta d \\theta = \frac{1}{k} \ln \left| \tan ( \frac{k \\theta }{2} + \frac{\pi }{4} ) \right| + c$
 
 (where *k* is a constant, and *c* is a constant of integration), show that the solution to the differential equation
 
@@ -524,12 +524,12 @@ $\mathrm{cos}x\frac{dy}{dx}=\mathrm{cos}y$
 
 with boundary condition$x=0$,  $y=π$,  may be written in the form
 
-`open vertical bar tan space open parentheses y over 2 plus pi over 4 close parentheses space close vertical bar equals open vertical bar tan space open parentheses x over 2 plus pi over 4 close parentheses close vertical bar`
+$\left| \tan ( \frac{y}{2} + \frac{\pi }{4} ) \right| = \left| \tan ( \frac{x}{2} + \frac{\pi }{4} ) \right|$
 
 ### 2() — 6 marks — structured
-(i) Show that the relationship between *x* and *y* in  `open vertical bar tan space open parentheses y over 2 plus pi over 4 close parentheses close vertical bar space equals open vertical bar tan open parentheses space x over 2 plus pi over 4 close parentheses close vertical bar` may also be expressed by the set of all equations of the forms
+(i) Show that the relationship between *x* and *y* in  $\left| \tan ( \frac{y}{2} + \frac{\pi }{4} ) \right| = \left| \tan ( \frac{x}{2} + \frac{\pi }{4} ) \right|$ may also be expressed by the set of all equations of the forms
 
-`y equals x plus 2 n pi space space space space space space o r space space space space space space y equals negative x plus open parentheses 2 n minus 1 close parentheses pi`
+$y = x + 2 n \pi o r y = - x + ( 2 n - 1 ) \pi$
 
 where *n* is an integer.
 
@@ -542,7 +542,7 @@ A tree disease is spreading throughout a large forested area.
 
 The rate of increase in the number of infected trees is modelled by the differential equation
 
-`fraction numerator straight d N over denominator straight d t end fraction equals k N open parentheses N minus 1 close parentheses comma space space space N greater than 1`
+$\frac{ \mathrm{d} N}{ \mathrm{d} t} = k N ( N - 1 ) , N > 1$
 
 where *N* is the number of infected trees, *t* is the time in days since the disease was first identified and *k* is a positive constant.
 

@@ -64,22 +64,22 @@ Take the mean average of all four readings:
 
 Calculate half of the range **or **find the maximum difference from the mean:
 
-- $U=\frac{(2.10-1.84)}{2}=0.13\mathrm{ms}^{-1}$ **or  **`U space equals space fraction numerator open parentheses 1.98 space minus space 1.84 close parentheses over denominator 2 end fraction space equals space 0.14 space ms to the power of negative 1 end exponent` **[1 mark]**
+- $U=\frac{(2.10-1.84)}{2}=0.13\mathrm{ms}^{-1}$ **or  **$U = \frac{( 1.98 - 1.84 )}{2} = 0.14 ms^{- 1}$ **[1 mark]**
 
 Find percentage uncertainty:
 
-- `percent sign U space equals fraction numerator U over denominator m e a n space v end fraction space cross times space 100 equals space fraction numerator 0.13 over denominator 1.98 end fraction space cross times space 100 equals space 6.6 space percent sign` **or **`percent sign U space equals fraction numerator U over denominator m e a n space v end fraction space cross times space 100 equals space fraction numerator 0.14 over denominator 1.98 end fraction space cross times space 100 space equals space 7.1 space percent sign`
+- $\% U = \frac{U}{m e a n v} \times 100 = \frac{0.13}{1.98} \times 100 = 6.6 \%$ **or **$\% U = \frac{U}{m e a n v} \times 100 = \frac{0.14}{1.98} \times 100 = 7.1 \%$
 
 State percentage uncertainty to 1 s.f.:
 
-- `U space equals space 7 space percent sign` **[1 mark]**
+- $U = 7 \%$ **[1 mark]**
 
 ii) To determine the acceleration of the trolley on the ramp:
 
 Select the correct SUVAT equation and calculate:
 
 - $v^{2}=u^{2}+2as$
-- `a space equals space fraction numerator v squared space minus space u squared over denominator 2 cross times s end fraction space equals fraction numerator negative 1.98 squared over denominator open parentheses 2 cross times 1.5 close parentheses end fraction` **[1 mark]**
+- $a = \frac{v^{2} - u^{2}}{2 \times s} = \frac{- 1.98^{2}}{( 2 \times 1.5 )}$ **[1 mark]**
 - $a=1.31\mathrm{ms}^{-2}$ **[1 mark]**
 
 iii) Achieving similar results does not show that the results are reproducible because:
@@ -136,7 +136,7 @@ Determine the uncertainty in the mean diameter
 **EITHER**
 
 - Uncertainty in mean *d* = ±(half the range)
-- Uncertainty in mean *d* = `fraction numerator open parentheses 0.57 space minus space 0.53 close parentheses over denominator 2 end fraction` = ±0.02 mm **[1 mark]**
+- Uncertainty in mean *d* = $\frac{( 0.57 - 0.53 )}{2}$ = ±0.02 mm **[1 mark]**
 
 **OR**
 
@@ -145,7 +145,7 @@ Determine the uncertainty in the mean diameter
 
 Determine the % uncertainty:
 
-- % uncertainty in *d* = `fraction numerator 0.02 over denominator 0.55 end fraction cross times 100 percent sign` = 3.6 % **[1 mark]**
+- % uncertainty in *d* = $\frac{0.02}{0.55} \times 100 \%$ = 3.6 % **[1 mark]**
 
 ii) Evaluate the student's results and compare them with the article's values:
 
@@ -159,18 +159,18 @@ List the known quantities:
 Calculate the tensile stress before absorbing water:
 
 - *A* = π*r*<sup>*2*</sup> = π × (2.25 × 10<sup>–4</sup>)<sup>2</sup> **[1 mark]**
-- `sigma space equals space F over A space equals space fraction numerator 65.8 over denominator straight pi cross times open parentheses 2.25 cross times 10 to the power of negative 4 end exponent close parentheses squared end fraction`
+- $\\sigma = \frac{F}{A} = \frac{65.8}{ \mathrm{\pi } \times ( 2.25 \times 10^{- 4} )^{2}}$
 - Tensile stress before, σ = 4.1 × 10<sup>8</sup> Pa **[1 mark]**
 
 Calculate the tensile stress after absorbing water:
 
 - *A* = π*r*<sup>*2*</sup> = π × (2.3 × 10<sup>–4</sup>)<sup>2</sup>
-- `sigma space equals space F over A space equals space fraction numerator 57.8 over denominator straight pi cross times open parentheses 2.3 cross times 10 to the power of negative 4 end exponent close parentheses squared end fraction`
+- $\\sigma = \frac{F}{A} = \frac{57.8}{ \mathrm{\pi } \times ( 2.3 \times 10^{- 4} )^{2}}$
 - Tensile stress after, σ = 3.5 × 10<sup>8</sup> Pa **[1 mark]**
 
 Determine the percentage change in tensile stress:
 
-- % difference = `fraction numerator open parentheses 4.1 minus 3.5 close parentheses cross times 10 to the power of 8 over denominator 4.1 cross times 10 to the power of 8 end fraction cross times 100 percent sign` = 15% **[1 mark]**
+- % difference = $\frac{( 4.1 - 3.5 ) \times 10^{8} }{4.1 \times 10^{8} } \times 100 \%$ = 15% **[1 mark]**
 
 Write a concluding statement:
 

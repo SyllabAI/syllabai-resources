@@ -36,13 +36,13 @@ If $\overset{\rightarrow}{YX}$ is parallel to $a+b$, find $k$.
 
 The unit vectors $i$ and $j$ represent due east and due north respectively.
 
-Person A starts at a position of `open parentheses negative 4 bold i plus bold j close parentheses` metres and walks with a constant velocity of `open parentheses 3 bold i minus bold j close parentheses` metres per second.
+Person A starts at a position of $( - 4 i + j )$ metres and walks with a constant velocity of $( 3 i - j )$ metres per second.
 
 Find the position vector of person A after 5 seconds.
 
 **Q2** [5 marks]
 
-Person B walks with a constant velocity of `open parentheses 2 bold i plus 2 square root of 3 bold j close parentheses` metres per second.
+Person B walks with a constant velocity of $( 2 i + 2 \sqrt{3} j )$ metres per second.
 
 Find
 
@@ -272,7 +272,7 @@ Show that $\overset{\rightarrow}{OB}=k\overset{\rightarrow}{DE}$ , where $k$ is 
 
 Relative to an origin $O$, the position vectors of the points $A,B,C$ and $D$ are
 
-`stack O A with rightwards arrow on top space equals open parentheses table row 6 row cell negative 5 end cell end table close parentheses comma space stack O B space with rightwards arrow on top equals open parentheses table row 10 row 3 end table close parentheses comma space stack O C with rightwards arrow on top space equals space open parentheses table row x row y end table close parentheses space a n d space stack O D with rightwards arrow on top space equals space open parentheses table row 12 row 7 end table close parentheses`
+$\vec{OA} = ( \begin{gathered} 6 \\ - 5 \end{gathered} ) , \vec{OBspace} = ( \begin{gathered} 10 \\ 3 \end{gathered} ) , \vec{OC} = ( \begin{gathered} x \\ y \end{gathered} ) a n d \vec{OD} = ( \begin{gathered} 12 \\ 7 \end{gathered} )$
 
 Find the unit vector in the direction of $\overset{\rightarrow}{AB}$.
 
@@ -310,7 +310,7 @@ The point $E$ lies on $OD$ such that $OE:OD$ is $1:1+λ$. Find the value of $λ$
 **Q8** [1 mark]
 
 In this question all distances are in km. 
-A ship $P$ sails from a point $A$, which has position vector `open parentheses table row 0 row 0 end table close parentheses`, with a speed of $52\mathrm{kmh}^{-1}$ in the direction of `open parentheses table row cell negative 5 end cell row 12 end table close parentheses`
+A ship $P$ sails from a point $A$, which has position vector $( \begin{gathered} 0 \\ 0 \end{gathered} )$, with a speed of $52\mathrm{kmh}^{-1}$ in the direction of $( \begin{gathered} - 5 \\ 12 \end{gathered} )$
 
 Find the velocity vector of the ship.
 
@@ -334,7 +334,7 @@ Write down the position vector of $P$ at a time $t$ hours after leaving $A$.
 
 **Q8** [1 mark]
 
-At the same time that ship $P$ sails from $A$, a ship $Q$ sails from a point $B$, which has position vector `open parentheses table row 12 row 8 end table close parentheses`, with velocity vector `open parentheses table row cell negative 25 end cell row 45 end table close parentheses space kmh to the power of negative 1 end exponent`.
+At the same time that ship $P$ sails from $A$, a ship $Q$ sails from a point $B$, which has position vector $( \begin{gathered} 12 \\ 8 \end{gathered} )$, with velocity vector $( \begin{gathered} - 25 \\ 45 \end{gathered} ) kmh^{- 1}$.
 
 Write down the position vector of $Q$ at a time $t$ hours after leaving $B$.
 
@@ -384,7 +384,7 @@ Find the value of $t$ when $P$ and $Q$ are first $2\mathrm{km}$ apart.
 
 **Q9** [5 marks]
 
-The position vectors of three points, $A,B\mathrm{and}C$, relative to an origin $O$, are `open parentheses table row cell negative 5 end cell row cell negative 7 end cell end table close parentheses comma space open parentheses table row 10 row cell negative 4 end cell end table close parentheses space and space open parentheses table row x row y end table close parentheses` respectively. Given that $\overset{\rightarrow}{AC}$ = $4\overset{\rightarrow}{BC}$, find the unit vector in the direction of $\overset{\rightarrow}{OC}$.
+The position vectors of three points, $A,B\mathrm{and}C$, relative to an origin $O$, are `( | - 5 | | - 7 | | ) , ( | 10 | - 4 | | ) and ( | x | y | )` respectively. Given that $\overset{\rightarrow}{AC}$ = $4\overset{\rightarrow}{BC}$, find the unit vector in the direction of $\overset{\rightarrow}{OC}$.
 
 *Source: March 2020 0606/22 Q4*
 
@@ -393,7 +393,7 @@ The position vectors of three points, $A,B\mathrm{and}C$, relative to an origin 
 
 **Q10** [3 marks]
 
-A particle $P$ is initially at the point with position vector `open parentheses table row 30 row 10 end table close parentheses` and moves with a constant speed of $10\mathrm{ms}^{-1}$ in the same direction as `open parentheses table row cell negative 4 end cell row 3 end table close parentheses`.
+A particle $P$ is initially at the point with position vector $( \begin{gathered} 30 \\ 10 \end{gathered} )$ and moves with a constant speed of $10\mathrm{ms}^{-1}$ in the same direction as $( \begin{gathered} - 4 \\ 3 \end{gathered} )$.
 
 Find the position vector of $P$ after $ts$.
 
@@ -402,7 +402,7 @@ Find the position vector of $P$ after $ts$.
 
 **Q10** [1 mark]
 
-As $P$ starts moving, a particle $Q$ starts to move such that its position vector after$ts$ is given by  `open parentheses table row cell negative 80 end cell row 90 end table close parentheses plus t open parentheses table row 5 row 12 end table close parentheses`.
+As $P$ starts moving, a particle $Q$ starts to move such that its position vector after$ts$ is given by  $( \begin{gathered} - 80 \\ 90 \end{gathered} ) + t ( \begin{gathered} 5 \\ 12 \end{gathered} )$.
 
 Write down the speed of $Q$.
 
@@ -428,14 +428,14 @@ Find the exact distance between $P$ and $Q$ when $t=10$, giving your answer in i
 
 **Q11** [1 mark]
 
-Find the unit vector in the direction of `open parentheses table row 5 row cell negative 12 end cell end table close parentheses`.
+Find the unit vector in the direction of $( \begin{gathered} 5 \\ - 12 \end{gathered} )$.
 
 *Source: june 2020 0606/13 Q6A*
 
 
 **Q11** [3 marks]
 
-Given that `open parentheses table row 4 row 1 end table close parentheses plus k open parentheses table row cell negative 2 end cell row 3 end table close parentheses equals r open parentheses table row cell negative 10 end cell row 5 end table close parentheses`, find the value of each of the constants $k$ and $r$.
+Given that $( \begin{gathered} 4 \\ 1 \end{gathered} ) + k ( \begin{gathered} - 2 \\ 3 \end{gathered} ) = r ( \begin{gathered} - 10 \\ 5 \end{gathered} )$, find the value of each of the constants $k$ and $r$.
 
 *Source: june 2020 0606/13 Q6B*
 

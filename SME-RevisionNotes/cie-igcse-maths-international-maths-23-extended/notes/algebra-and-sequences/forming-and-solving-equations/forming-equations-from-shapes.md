@@ -84,7 +84,7 @@ guided_study: true
 > 
 > > *Solve this equation by adding 8 then dividing by 10*
 > 
-> `table row cell 10 x end cell equals cell 22 plus 8 end cell row cell 10 x end cell equals 30 row x equals cell 30 over 10 end cell row x equals 3 end table`
+> $\begin{gathered} 10 x & = 22 + 8 \\ 10 x & = 30 \\ x = \frac{30}{10} \\ x = 3 \end{gathered}$
 > 
 > $x=3$
 > 

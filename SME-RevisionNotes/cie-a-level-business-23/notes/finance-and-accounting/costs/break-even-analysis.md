@@ -93,17 +93,13 @@ $\mathrm{Break} \mathrm{Even} \mathrm{Point}=\frac{\mathrm{Fixed} \mathrm{Costs}
 > 
 > **Step 2: Calculate the contribution**
 > 
-> `Contribution space equals space Selling space price space minus space Variable space cost space per space unit space space
-> 
-> equals space £ 95 space minus space £ 19
-> 
-> equals space £ 76`**(1)**
+> $Contribution = Selling \text{price} - Variable \text{cost} \text{per} \text{unit} > > = \pounds 95 - \pounds 19 > > = \pounds 76$**(1)**
 > 
 > **Step 3: Apply the formula to calculate the breakeven point**
 > 
-> `equals space fraction numerator £ 55 comma 000 over denominator £ 76 end fraction
+> $= \frac{\pounds 55 , 000}{\pounds 76} 
 > 
-> equals space 723.68`                **  ****(1)**
+> = 723.68$                **  ****(1)**
 > 
 > **Step 4: Always round UP to the nearest whole number because only whole products can be sold**
 > 

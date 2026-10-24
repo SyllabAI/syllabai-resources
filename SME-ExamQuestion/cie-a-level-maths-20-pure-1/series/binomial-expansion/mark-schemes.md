@@ -114,7 +114,7 @@ $p = \frac{3}{4}$
 ### Q4
 Expand using the binomial expansion, with $a = 2 x$, $b = - 3$ and $n = 6$
 
-`left parenthesis 2 x minus 3 right parenthesis to the power of 6 equals C presuperscript 6 subscript 0 left parenthesis 2 x right parenthesis to the power of 6 plus C presuperscript 6 subscript 1 left parenthesis 2 x right parenthesis to the power of 5 left parenthesis negative 3 right parenthesis plus C presuperscript 6 subscript 2 left parenthesis 2 x right parenthesis to the power of 4 left parenthesis negative 3 right parenthesis squared plus C presuperscript 6 subscript 3 left parenthesis 2 x right parenthesis cubed left parenthesis negative 3 right parenthesis cubed plus C presuperscript 6 subscript 4 left parenthesis 2 x right parenthesis squared left parenthesis negative 3 right parenthesis to the power of 4 plus C presuperscript 6 subscript 5 left parenthesis 2 x right parenthesis left parenthesis negative 3 right parenthesis to the power of 5 plus C presuperscript 6 subscript 6 left parenthesis negative 3 right parenthesis to the power of 6`
+$( 2 x - 3 )^{6} = C pre^{6}_{0} ( 2 x )^{6} + C pre^{6}_{1} ( 2 x )^{5} ( - 3 ) + C pre^{6}_{2} ( 2 x )^{4} ( - 3 )^{2} + C pre^{6}_{3} ( 2 x )^{3} ( - 3 )^{3} + C pre^{6}_{4} ( 2 x )^{2} ( - 3 )^{4} + C pre^{6}_{5} ( 2 x ) ( - 3 )^{5} + C pre^{6}_{6} ( - 3 )^{6}$
 
 Evaluate the coefficients $1 , 6 , 15 , 20 , 15 , 6 , 1$ and simplify each term
 
@@ -316,15 +316,15 @@ Collect the terms in $x$ and $x^{2}$
 ### Q11
 The term in $x^{3}$ is the $r = 3$ term, with $a = 1$, $b = - 3 x$ and power $n$
 
-`C presuperscript n subscript 3   left parenthesis 1 right parenthesis to the power of n minus 3 end exponent left parenthesis negative 3 x right parenthesis cubed equals negative 27 cross times   C presuperscript n subscript 3   x cubed`
+$C pre^{n}_{3}   ( 1 )^{n - 3} ( - 3 x )^{3} = - 27 \times   C pre^{n}_{3}   x^{3}$
 
-So the coefficient of $x^{3}$ is `negative 27   cross times C presuperscript n subscript 3`
+So the coefficient of $x^{3}$ is $- 27   \times C pre^{n}_{3}$
 
 **[B1]**
 
 Set this equal to $- 3240$ and divide by $- 27$
 
-`negative 27 cross times   C presuperscript n subscript 3 equals negative 3240`
+$- 27 \times   C pre^{n}_{3} = - 3240$
 
 `{}^{n}C_{3} = 120`
 

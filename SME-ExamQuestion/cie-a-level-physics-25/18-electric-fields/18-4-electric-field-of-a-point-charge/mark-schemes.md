@@ -24,11 +24,11 @@ Determine the equation for the electric field strength of the gold nucleus, *E*:
 
 Determine *Q*, the charge of the gold nucleus:
 
-- `Q space equals space 79 e space equals space 79 space cross times space open parentheses 1.60 cross times 10 to the power of negative 19 end exponent close parentheses space equals space 1.264 cross times 10 to the power of negative 17 end exponent space straight C` **[1 mark]**
+- $Q = 79 e = 79 \times ( 1.60 \times 10^{- 19} ) = 1.264 \times 10^{- 17} \mathrm{C}$ **[1 mark]**
 
 Substitute the values into the electric field equation:
 
-- `E space equals space fraction numerator open parentheses 8.99 cross times 10 to the power of 9 close parentheses space cross times space open parentheses 1.264 cross times 10 to the power of negative 17 end exponent close parentheses space over denominator open parentheses 0.75 cross times 10 to the power of negative 14 end exponent close parentheses squared end fraction` **[1 mark]**
+- $E = \frac{( 8.99 \times 10^{9 ) \times ( 1.264 \times 10^{-17} } ) }{( 0.75 \times 10^{- 14} )^{2}}$ **[1 mark]**
 - $E=2.02\times10^{21}Vm^{-1}=2.0\times10^{21}Vm^{-1}$ **OR **$NC^{-1}$**[1 mark]**
 
 **[Total: 3 marks]**
@@ -52,7 +52,7 @@ Determine the charge of the α–particle:
 
 Calculate the electric field strength experienced by the gold nucleus (from the α–particle):
 
-- `E subscript alpha equals fraction numerator 2 e over denominator 4 straight pi ϵ subscript 0 r squared end fraction equals fraction numerator open parentheses 8.99 cross times 10 to the power of 9 close parentheses cross times 2 cross times open parentheses 1.60 cross times 10 to the power of negative 19 end exponent close parentheses over denominator open parentheses 0.75 cross times 10 to the power of negative 14 end exponent close parentheses squared end fraction`
+- `E _ alpha = (2 e)/(4 pi ϵ _ 0 r ^2) = (( 8.99 x 10 ^ 9 ) x 2 x ( 1.60 x 10 ^ - 19 ))/(( 0.75 x 10 ^ - 14 ) ^2)`
 - $E_{α}=5.11\times10^{19}Vm^{-1}$
 
 Determine the ratio of the electric field strengths:
@@ -114,7 +114,7 @@ List the known quantities:
 
 - Electric field strength:  $E=\frac{Q}{4πε_{0}r^{2}}$
 - Rearrange:  $r^{2}=\frac{Q}{4πε_{0}E}\Rightarrowr=\sqrt{\frac{Q}{4πε_{0}E}}$ **[1 mark]**
-- Substitute:  `r subscript B space equals space square root of fraction numerator open parentheses 8.99 cross times 10 to the power of 9 close parentheses cross times open parentheses 7.5 cross times 10 to the power of negative 6 end exponent close parentheses over denominator 1.3 cross times 10 cubed end fraction end root`
+- Substitute:  $r_{B} = \sqrt{ \frac{( 8.99 \times 10^{9 ) \times ( 7.5 \times 10^{-6} } )}{1.3 \times 10^{3}} }$
 - Radius of B:  $r_{B}$ = 7.2 cm ≈ 7 cm **[1 mark]**
 
 (ii) Calculate the magnitude of the charge stored on the surface of sphere A:
@@ -158,8 +158,8 @@ Determine the equation for the charge of the sphere:
 
 Substitute in the values:
 
-- `Q space equals space open parentheses – 6.2 cross times 10 to the power of 6 close parentheses space cross times space 4 straight pi space cross times space open parentheses 8.85 cross times 10 to the power of negative 12 end exponent close parentheses space cross times space open parentheses 0.40 close parentheses squared` **[1 mark]**
-- `Q space equals space open parentheses minus close parentheses 1.1 space cross times space 10 to the power of negative 4 end exponent space straight C` **[1 mark]**
+- $Q = ( - 6.2 \times 10^{6 ) \times 4 \mathrm{\pi } \times ( 8.85 \times 10^{-12} } ) \times ( 0.40 )^{2}$ **[1 mark]**
+- $Q = ( - ) 1.1 \times 10^{- 4} \mathrm{C}$ **[1 mark]**
 
 **[Total: 3 marks]**
 
@@ -189,14 +189,14 @@ List the known quantities:
 
 - Electric field strength:  $E=\frac{Q}{4πε_{0}r^{2}}$ **[1 mark]**
 - Distance from charge = 2 cm = 0.02 m
-- Substitute:  `E space equals space fraction numerator open parentheses 8.99 cross times 10 to the power of 9 close parentheses open parentheses 2.0 cross times 10 to the power of negative 9 end exponent close parentheses over denominator 0.02 squared end fraction`
+- Substitute:  $E = \frac{( 8.99 \times 10^{9 ) ( 2.0 \times 10^{-9} } )}{0.02^{2}}$
 - $E$ = 44 950 = 45 000 V m<sup>–1</sup> (45 kV m<sup>–1</sup>) **[1 mark]**
 
 (ii) Calculate the electric field strength at a distance of 10 cm:
 
 - Electric field strength:  $E=\frac{Q}{4πε_{0}r^{2}}$
 - Distance from charge = 10 cm = 0.1 m
-- Substitute:  `E space equals space fraction numerator open parentheses 8.99 cross times 10 to the power of 9 close parentheses open parentheses 2.0 cross times 10 to the power of negative 9 end exponent close parentheses over denominator 0.1 squared end fraction`
+- Substitute:  $E = \frac{( 8.99 \times 10^{9 ) ( 2.0 \times 10^{-9} } )}{0.1^{2}}$
 - $E$ = 1798 = 1800 V m<sup>–1</sup> (1.8 kV m<sup>–1</sup>) **[1 mark]**
 
 **[Total: 3 marks]**
@@ -257,8 +257,8 @@ Determine the equation for the distance *d*:
 
 Substitute in the values:
 
-- `d space equals space square root of fraction numerator open parentheses 8.99 space cross times space 10 to the power of 9 close parentheses space cross times space open parentheses 6.0 space cross times space 10 to the power of negative 6 end exponent close parentheses over denominator 96 space cross times space 10 cubed end fraction end root`** [1 mark]**
-- `d space equals space 0.7496 space straight m space equals space 0.75 space straight m space open parentheses 75 space cm close parentheses`** [1 mark]**
+- $d = \sqrt{ \frac{( 8.99 \times 10^{9 ) \times ( 6.0 \times 10^{-6} } )}{96 \times 10^{3}} }$** [1 mark]**
+- $d = 0.7496 \mathrm{m} = 0.75 \mathrm{m} ( 75 \text{cm} )$** [1 mark]**
 
 **[Total: 3 marks]**
 Determine the value of distance $x$:

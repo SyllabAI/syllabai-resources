@@ -15,7 +15,7 @@
 
 Substitute the information from the question into the sine formula for triangle area
 
-`102 equals 1 half open parentheses 17 close parentheses open parentheses x close parentheses open parentheses 3 over 5 close parentheses`
+$102 = 1 \frac{1}{2} ( 17 ) ( x ) ( \frac{3}{5} )$
 
 **[M1]**
 
@@ -53,7 +53,7 @@ Rearrange, then use $\mathrm{sin}^{-1}$ on your calculator to find angle $CAD$
 
 $\mathrm{sin}CAD=29\times\frac{\mathrm{sin}26}{13}$
 
-`table row cell C A D end cell equals cell sin to the power of negative 1 end exponent open parentheses 29 cross times fraction numerator sin 26 over denominator 13 end fraction close parentheses end cell row blank equals cell 77.933290... end cell end table`
+$\begin{gathered} C A D & = \sin ^{- 1} ( 29 \times \frac{\sin 26}{13} ) \\ = 77.933290... \end{gathered}$
 
 Round to a sensible degree of accuracy
 
@@ -86,13 +86,13 @@ So you know two sides and the angle between them, and want to know the third sid
 > **[exam-tip]**
 > The Cosine Rule formula is on the on the formula sheet in the exam paper.
 
-`open parentheses B D close parentheses squared equals 18 squared plus 13 squared minus 2 cross times 18 cross times 13 cross times cos open parentheses 114.933290... close parentheses`
+$( B D )^{2} = 18^{2} + 13^{2} - 2 \times 18 \times 13 \times \cos ( 114.933290... )$
 
 **[M1]**
 
 Take the square root of both sides
 
-`B D equals square root of 18 squared plus 13 squared minus 2 cross times 18 cross times 13 cross times cos open parentheses 114.933290... close parentheses end root`
+$B D = \sqrt{18^{2} + 13^{2} - 2 \times 18 \times 13 \times \cos ( 114.933290... )}$
 
 **[M1]**
 
@@ -122,19 +122,19 @@ Use the formula   $A=\frac{1}{2}ab\mathrm{sin}C$
 - $b=5$
 - $C=60^{\circ}$
 
-`Area equals 1 half cross times 4 cross times 5 cross times sin open parentheses 60 degree close parentheses`
+$\text{Area} = 1 \frac{1}{2} \times 4 \times 5 \times \sin ( 60^{\circ} )$
 
 **[M1]**
 
 Use the exact trig value
 
-`sin open parentheses 60 degree close parentheses equals fraction numerator square root of 3 over denominator 2 end fraction`
+$\sin ( 60^{\circ} ) = \frac{ \sqrt{3} }{2}$
 
 **[M1]**
 
 Simplify
 
-`table row Area equals cell 1 half cross times 4 cross times 5 cross times fraction numerator square root of 3 over denominator 2 end fraction end cell row blank equals cell fraction numerator 20 square root of 3 over denominator 4 end fraction end cell end table`
+$\begin{gathered} \text{Area} = 1 \frac{1}{2} \times 4 \times 5 \times \frac{ \sqrt{3} }{2} \\ = \frac{20 \sqrt{3} }{4} \end{gathered}$
 
 **Final answer:** $5\sqrt{3}\mathrm{cm}^{2}$** **
 
@@ -152,7 +152,7 @@ Simplify
 
 > *Find the area of one triangle using *$\frac{1}{2}ab\mathrm{sin}C$
 
-`1 half cross times 15 cross times 15 cross times sin open parentheses 60 close parentheses equals 97.42...`
+$1 \frac{1}{2} \times 15 \times 15 \times \sin ( 60 ) = 97.42...$
 
 **[M1 A1]**
 
@@ -200,15 +200,15 @@ $585\mathrm{cm}^{2}$
 ### Q5
 > *Use sine rule to find angle at *$A$
 
-`fraction numerator sin open parentheses A close parentheses over denominator 14 end fraction equals fraction numerator sin open parentheses 25 close parentheses over denominator 7 end fraction
-sin open parentheses A close parentheses equals fraction numerator 14 cross times sin open parentheses 25 close parentheses over denominator 7 end fraction`
+$\frac{\sin ( A )}{14} = \frac{\sin ( 25 )}{7} 
+\sin ( A ) = \frac{14 \times \sin ( 25 )}{7}$
 
 **[M1]**
 
 > *Substitute correct values into the formula*
 
-`A equals sin to the power of negative 1 end exponent open parentheses 2 cross times sin open parentheses 25 close parentheses close parentheses
-A equals 57.69...`
+$A = \sin ^{- 1} ( 2 \times \sin ( 25 ) )
+A = 57.69...$
 
 **[M1]**
 
@@ -220,10 +220,10 @@ $C+25+57.69...=180\,C=180-25-57.69...\,C=97.30...$
 
 > *Use cosine rule to find the length of *$c$
 
-`c squared equals a squared plus b squared minus 2 a b cos open parentheses C close parentheses
-c squared equals 7 squared plus 14 squared minus 2 cross times 7 cross times 14 cross times cos open parentheses 97.30... close parentheses
-c equals square root of 7 squared plus 14 squared minus 2 cross times 7 cross times 14 cross times cos open parentheses 97.30... close parentheses end root
-c equals 16.42...`
+$c^{2} = a^{2} + b^{2} - 2 a b \cos ( C )
+c^{2} = 7^{2} + 14^{2} - 2 \times 7 \times 14 \times \cos ( 97.30... )
+c = \sqrt{7^{2} + 14^{2} - 2 \times 7 \times 14 \times \cos ( 97.30... )} 
+c = 16.42...$
 
 **[M1]**
 
@@ -235,8 +235,8 @@ $c=16.4$
 > Remember to leave rounding until the very end. Use the ANS button on your calculator, or store the values in your calculator.
 > *Work out the area of triangle *$ABC$
 
-`1 half a b sin open parentheses C close parentheses
-1 half cross times 16.4 cross times 14 cross times sin open parentheses 25 close parentheses`
+$1 \frac{1}{2} a b \sin ( C )
+1 \frac{1}{2} \times 16.4 \times 14 \times \sin ( 25 )$
 
 **[M1]**
 
@@ -271,13 +271,13 @@ $31.1\mathrm{cm}^{2}$
 > *The formula for the area of a triangle is *$\mathrm{Area}=\frac{1}{2}ab\mathrm{sin}C$*, where **a** and **b** are the lengths of the two sides that form angle **C**.*
 *Substitute Area = 100, **a** = **y**, **b** = 8.4 and **C** = 40 into the formula.*
 
-`table row 100 equals cell 1 half cross times y cross times 8.4 cross times sin open parentheses 40 close parentheses end cell end table`
+$\begin{gathered} 100 = 1 \frac{1}{2} \times y \times 8.4 \times \sin ( 40 ) \end{gathered}$
 
 **[1]**
 
 > *Rearrange to get **y** by itself by multiplying both sides by 2 and dividing both sides by 8.4sin(40). Type into your calculator.*
 
-`table row y equals cell fraction numerator 100 cross times 2 over denominator 8.4 cross times sin open parentheses 40 close parentheses end fraction end cell row blank equals cell 37.041043... end cell end table`
+$\begin{gathered} y = \frac{100 \times 2}{8.4 \times \sin ( 40 )} \\ = 37.041043... \end{gathered}$
 
 **[1]**
 
@@ -286,7 +286,7 @@ $31.1\mathrm{cm}^{2}$
 > *The formula for the cosine rule is *$a^{2}=b^{2}+c^{2}-2bc\mathrm{cos}A$*, where **b** and **c** are the lengths of the two sides that form angle **A** and **a** is the length of the side opposite **A**.*
 *Substitute **a** = **x**, **b** = 8.4, **c** = 37.041043... (using the answer button) and **A** = 40 into the formula.*
 
-`x squared equals 8.4 squared plus 37.041043... squared minus 2 open parentheses 8.4 close parentheses open parentheses 37.041043... close parentheses cos open parentheses 40 close parentheses`
+$x^{2} = 8.4^{2} + 37.041043...^{2} - 2 ( 8.4 ) ( 37.041043... ) \cos ( 40 )$
 
 **[1]**
 
@@ -298,7 +298,7 @@ $x^{2}=965.897466...$
 
 > *Take the positive square root of both sides.*
 
-`table row x equals cell square root of 965.897466... end root end cell row blank equals cell 31.078891... end cell end table`
+$\begin{gathered} x = \sqrt{965.897466...} \\ = 31.078891... \end{gathered}$
 
 > *Round to 3 significant figures. Remember to include units for the length.*
 
@@ -325,7 +325,7 @@ $\frac{x}{\mathrm{sin}(53)}=\frac{7.4}{\mathrm{sin}(97)}$
 
 > *Solve for *$x$* by multiplying both sides by sin53.*
 
-`table row x equals cell fraction numerator 7.4 over denominator sin left parenthesis 97 right parenthesis end fraction cross times sin left parenthesis 53 right parenthesis end cell row x equals cell 5.95428... end cell end table`
+$\begin{gathered} x = \frac{7.4}{\sin ( 97 )} \times \sin ( 53 ) \\ x = 5.95428... \end{gathered}$
 
 **[1]**
 
@@ -356,7 +356,7 @@ $y^{2}=13.9417...$
 
 > *Solve for *$y$* by square rooting both sides. Use the answer button or type the exact expression in your calculator.*
 
-`table attributes columnalign right center left columnspacing 0px end attributes row y equals cell square root of 7.4 squared plus 8.5 squared minus 2 left parenthesis 7.4 right parenthesis left parenthesis 8.5 right parenthesis cos left parenthesis 26 right parenthesis end root equals square root of 13.9417... end root end cell row y equals cell 3.73385... end cell end table`
+$\begin{array}{rcl} y = \sqrt{7.4^{2} + 8.5^{2} - 2 ( 7.4 ) ( 8.5 ) \cos ( 26 )} = \sqrt{13.9417...} \\ y = 3.73385... \end{array}$
 
 **[1]**
 
@@ -377,34 +377,34 @@ $y^{2}=13.9417...$
 
 > *We can find angle *$DAE$* using right-angle trigonometry, SOHCAHTOA. We have the hypotenuse and the opposite sides so use sine.*
 
-`table row cell sin open parentheses angle D A E close parentheses end cell equals cell 6 over 12 end cell end table`
+$\begin{gathered} \sin ( \text{angle} D A E ) & = \frac{6}{12} \end{gathered}$
 
 **[1]**
 
-`table row cell angle D A E end cell equals cell sin to the power of negative 1 end exponent open parentheses 6 over 12 close parentheses equals 30 degree end cell end table`
+$\begin{gathered} \text{angle} D A E & = \sin ^{- 1} ( \frac{6}{12} ) = 30^{\circ} \end{gathered}$
 
 > *We can find angle *$BAC$* using right-angle trigonometry, SOHCAHTOA. We have the adjacent and the opposite sides so use tangent.*
 
-`table row cell tan open parentheses angle B A C close parentheses end cell equals cell 6 over 12 end cell end table`
+$\begin{gathered} \tan ( \text{angle} B A C ) & = \frac{6}{12} \end{gathered}$
 
 **[1]**
 
-`table row cell angle D A C end cell equals cell tan to the power of negative 1 end exponent open parentheses 6 over 12 close parentheses equals 26.56505118... degree end cell end table`
+$\begin{gathered} \text{angle} D A C & = \tan ^{- 1} ( \frac{6}{12} ) = 26.56505118...^{\circ} \end{gathered}$
 
 > *Now add the three found angles to get angle *$BAE$*. *
 
-`table row cell angle B A E end cell equals cell 60 plus 30 plus 26.56505118... equals 116.56505118... end cell end table`
+$\begin{gathered} \text{angle} B A E & = 60 + 30 + 26.56505118... = 116.56505118... \end{gathered}$
 
 **Angle **$BAE=116.6^{\circ}$ **[1]**
 
 **Give answers in degrees to at least one decimal place**
 i) *Triangle *$ABC$* is right-angled so we can find *$AB$* using Pythagoras' theorem, *$h^{2}=a^{2}+b^{2}$* where we have two shorter sides, *$a$* and *$b$*.*
 
-`table attributes columnalign right center left columnspacing 0px end attributes row cell open parentheses A B close parentheses squared end cell equals cell 6 squared plus 12 squared end cell end table`
+$\begin{array}{rcl} ( A B )^{2} & = 6^{2} + 12^{2} \end{array}$
 
 **[1]**
 
-`table attributes columnalign right center left columnspacing 0px end attributes row cell A B end cell equals cell square root of 6 squared plus 12 squared end root end cell row blank equals cell square root of 180 end cell row blank equals cell 13.41640786... end cell end table`
+$\begin{array}{rcl} A B & = \sqrt{6^{2} + 12^{2}} \\ = \sqrt{180} \\ = 13.41640786... \end{array}$
 
 > *Give your final answer to at least 3 significant figures.*
 
@@ -412,17 +412,17 @@ $AB=13.4$** ****cm** **[1]**
 
 ii) *Triangle *$AED$* is right-angled so we can find *$AE$* using Pythagoras' theorem, *$h^{2}=a^{2}+b^{2}$* where we have the hypotenuse, *$h$* and a shorter side, *$a$*.*
 
-`table row cell 12 squared end cell equals cell 6 squared plus open parentheses A E close parentheses squared end cell end table`
+$\begin{gathered} 12^{2} & = 6^{2} + ( A E )^{2} \end{gathered}$
 
 **[1]**
 
-`table attributes columnalign right center left columnspacing 0px end attributes row cell b squared end cell equals cell 12 squared minus 6 squared end cell row blank equals cell square root of 12 squared minus 6 squared end root end cell end table`
+$\begin{array}{rcl} b^{2} & = 12^{2} - 6^{2} \\ = \sqrt{12^{2} - 6^{2}} \end{array}$
 
 **[1]**
 
 > *Evaluate and give your final answer to at least 3 significant figures.*
 
-`table attributes columnalign right center left columnspacing 0px end attributes row blank equals cell 10.39230485... end cell end table`
+$\begin{array}{rcl} = 10.39230485... \end{array}$
 
 $AE=10.4$** ****cm** **[1]**
 > *We need to treat the pentagon as 3 separate triangles, *$ADE$*, *$ACD$* and *$ABC$*. All the lengths and angles needed are marked on the diagram below.*
@@ -439,23 +439,23 @@ $=62.35382907...$** ***cm**<sup>2</sup>*
 
 > *Triangle *$ADE$* is right-angled so we can use area*$=\frac{1}{2}\times\mathrm{base}\times\mathrm{height}$*. The base is *$AD$*, which we know from part (iii) is 10.4 cm, and the height is *$ED$*= 6 cm.*
 
-`table row cell A D E end cell equals cell 1 half cross times 10.4 cross times 6 end cell end table`
+$\begin{gathered} A D E & = 1 \frac{1}{2} \times 10.4 \times 6 \end{gathered}$
 
 **[1]**
 
-`table attributes columnalign right center left columnspacing 0px end attributes row blank equals cell 31.2 end cell end table` *cm**<sup>2</sup>*
+$\begin{array}{rcl} = 31.2 \end{array}$ *cm**<sup>2</sup>*
 
 > *Triangle *$ABC$* is right-angled so we can use area*$=\frac{1}{2}\times\mathrm{base}\times\mathrm{height}$*. The base is *$AC$* = 12 cm and the height is *$BC$* = 6 cm.*
 
-`table row cell A B C end cell equals cell 1 half cross times 12 cross times 6 end cell end table`
+$\begin{gathered} A B C & = 1 \frac{1}{2} \times 12 \times 6 \end{gathered}$
 
 **[1]**
 
-`table row blank equals 36 end table` *cm**<sup>2</sup>*
+$\begin{gathered} = 36 \end{gathered}$ *cm**<sup>2</sup>*
 
 > *Now add the three found angles to get the final answer. *
 
-`table row cell angle B A E end cell equals cell 62.35382907... plus 31.2 plus 36 equals 129.55382907... end cell end table` *cm**<sup>2</sup>*
+$\begin{gathered} \text{angle} B A E & = 62.35382907... + 31.2 + 36 = 129.55382907... \end{gathered}$ *cm**<sup>2</sup>*
 
 **Answer = 130 cm**<sup>**2**</sup>** ****or 129.5... to 129.6 cm**<sup>**2**</sup> **[1]**
 
@@ -468,7 +468,7 @@ $=62.35382907...$** ***cm**<sup>2</sup>*
 
 > *The formula for the cosine rule is *$a^{2}=b^{2}+c^{2}-2bc\mathrm{cos}A$*, where **b** and **c** are the lengths of the two sides that form angle **A** and **a** is the length of the side opposite **A**. Substitute **a** = **PR**, **b** = 8, **c** = 8 and **A** = 140 into the formula.*
 
-`P R squared equals 8 squared plus 8 squared minus 2 open parentheses 8 close parentheses open parentheses 8 close parentheses cos open parentheses 140 close parentheses`
+$P R^{2} = 8^{2} + 8^{2} - 2 ( 8 ) ( 8 ) \cos ( 140 )$
 
 **[1]**
 
@@ -480,7 +480,7 @@ $PR^{2}=226.053688...$
 
 > *Take the positive square root of both sides. Use the answer button or your calculator's memory function.*
 
-`table attributes columnalign right center left columnspacing 0px end attributes row cell P R end cell equals cell square root of 226.053688... end root end cell row blank equals cell 15.035081... end cell end table`
+$\begin{array}{rcl} P R & = \sqrt{226.053688...} \\ = 15.035081... \end{array}$
 
 > *Round to 3 significant figures. Remember to include units for the length.*
 
@@ -515,11 +515,11 @@ ii) *Looking at triangle *$PQS$*, we have two sides and the angle between them. 
 
 ![ma-cie-igcse-2020-march-p4-tz2-q8aii](assets/019-ma-cie-igcse-2020-march-p4-tz2-q8aii.png)
 
-`open parentheses P S close parentheses squared equals 6 squared plus 7.4 squared minus 2 cross times 6 cross times 7.4 cross times cos space 34 degree`
+$( P S )^{2} = 6^{2} + 7.4^{2} - 2 \times 6 \times 7.4 \times \cos 34^{\circ}$
 
 **[1]**
 
-`open parentheses P S close parentheses squared equals 17.141 space 463 space...`
+$( P S )^{2} = 17.141 463 ...$
 
 **[1]**
 
@@ -535,7 +535,7 @@ iii) *Split quadrilateral *$PQRS$* into two triangles and apply the area formula
 
 > *We know the length of *$QR$* from our answer to part i), but we do need to find angle *$RQS$* - marked *$x$*° on the diagram.*
 
-*Angle *`R Q S equals x degree equals 180 degree minus open parentheses 25 degree plus 72 degree close parentheses equals 83 degree`
+*Angle *$R Q S = x^{\circ} = 180^{\circ} - ( 25^{\circ} + 72^{\circ} ) = 83^{\circ}$
 
 **[1]**
 
@@ -564,25 +564,25 @@ $20.4\mathrm{cm}^{2}$* ***[1]**
 
 > *Cosine Rule:  *$c^{2}=a^{2}+b^{2}-2ab\mathrm{cos}C$*, where *$C$* is the angle opposite side *$c.$*   *
 
-`table row cell C D to the power of 2 space end exponent end cell equals cell space B C to the power of 2 space end exponent plus space B D to the power of 2 space end exponent minus space 2 open parentheses B C close parentheses open parentheses B D close parentheses space cos space C B D end cell row cell 287.9 to the power of 2 space end exponent end cell equals cell space 192 squared space plus space 168 to the power of 2 space end exponent minus space 2 open parentheses 192 close parentheses open parentheses 168 close parentheses cos space C B D end cell end table`
+$\begin{gathered} C D^{2 } & = B C^{2 } + B D^{2 } - 2 ( B C ) ( B D ) \cos C B D \\ 287.9^{2 } & = 192^{2} + 168^{2 } - 2 ( 192 ) ( 168 ) \cos C B D \end{gathered}$
 
 **[1]**
 
 > *Rearrange to make*$\mathrm{cos}CBD$* the subject.*
 
-`table row cell 287.9 to the power of 2 space end exponent minus open parentheses space 192 squared space plus space 168 to the power of 2 space end exponent close parentheses end cell equals cell negative space 2 open parentheses 192 close parentheses open parentheses 168 close parentheses cos space C B D end cell row cell cos space C B D space end cell equals cell space fraction numerator 287.9 to the power of 2 space end exponent minus space 192 squared space space minus space 168 to the power of 2 space end exponent over denominator negative 2 open parentheses 192 close parentheses open parentheses 168 close parentheses end fraction end cell end table`
+$\begin{gathered} 287.9^{2 } - ( 192^{2} + 168^{2 } ) & = - 2 ( 192 ) ( 168 ) \cos C B D \\ \cos C B D & = \frac{287.9^{2 } - 192^{2} - 168^{2 } }{- 2 ( 192 ) ( 168 )} \end{gathered}$
 
 ** ****[1]**
 
 > *Use your calculator to find the value of *$\mathrm{cos}CBD$*.*
 
-`table row cell cos space C B D space end cell equals cell space minus 0.275893... end cell end table`
+$\begin{gathered} \cos C B D & = - 0.275893... \end{gathered}$
 
 **[1]**
 
 > *Use the cos*<sup>*-1*</sup>* button on your calculator to find the value of *$CBD$*.*
 
-`table row cell C B D to the power of space end cell equals cell cos to the power of negative 1 end exponent space open parentheses negative 0.275893... close parentheses end cell row blank equals cell space 106.0152.... end cell end table`
+$\begin{gathered} C B D^{ & = \cos ^{-1} } ( - 0.275893... ) \\ = 106.0152.... \end{gathered}$
 
 $CBD=106.0^{\circ}(1d.p.)$* ***[1]**
 
@@ -595,14 +595,14 @@ $CBD=106.0^{\circ}(1d.p.)$* ***[1]**
 
 > *Cosine Rule:  *$c^{2}=a^{2}+b^{2}-2ab\mathrm{cos}C$*.*
 
-`B C to the power of 2 space end exponent equals space B X to the power of 2 space end exponent plus space C X to the power of 2 space end exponent minus space 2 open parentheses B X close parentheses open parentheses C X close parentheses space cos space B X C
-8 to the power of 2 space end exponent equals space 5 squared space plus space 7 to the power of 2 space end exponent minus space 2 open parentheses 5 close parentheses open parentheses 7 close parentheses space cos space B X C`
+$B C^{2 } = B X^{2 } + C X^{2 } - 2 ( B X ) ( C X ) \cos B X C
+8^{2 } = 5^{2} + 7^{2 } - 2 ( 5 ) ( 7 ) \cos B X C$
 
 **Correct use of equation**** [1]**
 
 > *Rearrange the equation to make *$\mathrm{cos}BXC$* the subject.*
 
-`table row cell 8 to the power of 2 space end exponent end cell equals cell space 5 squared space plus space 7 to the power of 2 space end exponent minus space 70 space cos space B X C end cell row cell 70 cos space B X C space end cell equals cell space space 5 to the power of 2 space end exponent plus space 7 to the power of 2 space end exponent minus space 8 squared end cell row cell cos space B X C space end cell equals cell space fraction numerator space 5 to the power of 2 space end exponent plus space 7 to the power of 2 space end exponent minus space 8 squared over denominator 70 end fraction end cell end table`
+$\begin{gathered} 8^{2 } & = 5^{2} + 7^{2 } - 70 \cos B X C \\ 70 \cos B X C & = 5^{2 } + 7^{2 } - 8^{2} \\ \cos B X C & = \frac{ 5^{2 } + 7^{2 } - 8^{2}}{70} \end{gathered}$
 
 **Equation rearranged**** ****[1]  **
 
@@ -614,7 +614,7 @@ $\mathrm{cos}BXC^{}=\frac{10}{70}=\frac{1}{7}$
 
 > *Use the cos*<sup>*-1*</sup>* button on your calculator to find the value of *$BXC$*.    *
 
-`table row cell B X C to the power of space end cell equals cell cos to the power of negative 1 end exponent open parentheses 1 over 7 close parentheses end cell row blank equals cell space 81.7867... end cell end table`
+$\begin{gathered} B X C^{ & = \cos ^{-1} } ( \frac{1}{7} ) \\ = 81.7867... \end{gathered}$
 
 $BXC=81.8^{\circ}(1d.p.)$* ***[1]**
 
@@ -674,13 +674,13 @@ $\mathrm{sin}y=\frac{928\mathrm{sin}67}{991}$
 
 *Find *$y$* (by taking inverse sin of both sides)* * *
 
-`y equals sin to the power of negative 1 end exponent open parentheses fraction numerator 928 sin space 67 over denominator 991 end fraction close parentheses equals 59.5 degree`
+$y = \sin ^{- 1} ( \frac{928 \sin 67}{991} ) = 59.5^{\circ}$
 
 **[1] **
 
 *Find the bearing (by adding *$x=20$* to *$y=59.5$*)* * *
 
-`table row cell x plus y end cell equals cell 20 plus 59.5 end cell row blank equals cell 79.5 end cell end table` * *
+$\begin{gathered} x + y & = 20 + 59.5 \\ = 79.5 \end{gathered}$ * *
 
 > *Give the final bearing as three digits (and to one decimal place)*
 
@@ -693,18 +693,18 @@ $\mathrm{sin}y=\frac{928\mathrm{sin}67}{991}$
 
 > *Use the cosine formula, *$\mathrm{cos}A=\frac{b^{2}+c^{2}-a^{2}}{2bc}$*.*
 
-`table row cell cos space x end cell equals cell fraction numerator 150 squared plus 120 squared minus 180 squared over denominator 2 cross times 150 cross times 120 end fraction end cell end table`
+$\begin{gathered} \cos x & = \frac{150^{2} + 120^{2} - 180^{2}}{2 \times 150 \times 120} \end{gathered}$
 
 *Correct substitution into either form of the cosine formula ***[1]** *Correct form of the cosine formula used*** [1]**
 
-`table row cell cos space x end cell equals cell 4500 over 36000 end cell end table`
+$\begin{gathered} \cos x & = \frac{4500}{36000} \end{gathered}$
 
 **[1]**
 
 > *Take the inverse cos of both sides.*
 
-`x equals cos to the power of negative 1 end exponent open parentheses 4500 over 36000 close parentheses
-x equals 82.81924...`
+$x = \cos ^{- 1} ( \frac{4500}{36000} )
+x = 82.81924...$
 
 **Angle ****BAC**** = **$82.8^{\circ}$** ****[1]**
 
@@ -713,13 +713,13 @@ x equals 82.81924...`
 ### Q15
 > *Find the length **AH** by using Pythagoras on the triangle **ADH**.*
 
-`table attributes columnalign right center left columnspacing 0px end attributes row cell A H squared end cell equals cell A D squared plus D H squared end cell row blank equals cell 6 squared plus 6 squared end cell row blank equals 72 row cell A H end cell equals cell square root of 72 end cell end table`
+$\begin{array}{rcl} A H^{2} & = A D^{2} + D H^{2} \\ = 6^{2} + 6^{2} \\ = 72 \\ A H & = \sqrt{72} \end{array}$
 
 **[1]**
 
 > *Find the length **AF** by using Pythagoras on the triangle **ABF**. Note that **BF** = **DH** = 6 cm.*
 
-`table row cell A F squared end cell equals cell A B squared plus B F squared end cell row blank equals cell 8 squared plus 6 squared end cell row blank equals 100 row cell A F end cell equals 10 end table`
+$\begin{gathered} A F^{2} & = A B^{2} + B F^{2} \\ = 8^{2} + 6^{2} \\ = 100 \\ A F & = 10 \end{gathered}$
 
 **[1]**
 
@@ -731,29 +731,29 @@ $FH=10$
 
 ![cie-igcse-2020-may-jun-p2-tz2-q27-ma](assets/028-cie-igcse-2020-may-jun-p2-tz2-q27-ma.png)
 
-`table row cell F H squared end cell equals cell A F squared plus A H squared minus 2 cross times A F cross times A H cross times cos open parentheses H A F close parentheses end cell row 100 equals cell 100 plus 72 minus 2 cross times 10 cross times square root of 72 cross times cos open parentheses H A F close parentheses end cell end table`
+$\begin{gathered} F H^{2} & = A F^{2} + A H^{2} - 2 \times A F \times A H \times \cos ( H A F ) \\ 100 = 100 + 72 - 2 \times 10 \times \sqrt{72} \times \cos ( H A F ) \end{gathered}$
 
 **[1]**
 
 > *Simplify each term. Leave each term as exact values.*
 
-`table row 100 equals cell 172 minus 20 square root of 72 cos open parentheses H A F close parentheses end cell end table`
+$\begin{gathered} 100 = 172 - 20 \sqrt{72} \cos ( H A F ) \end{gathered}$
 
 **[1]**
 
 > *Subtract 172 from both sides.*
 
-`table row cell negative 72 end cell equals cell negative 20 square root of 72 cos open parentheses H A F close parentheses end cell end table`
+$\begin{gathered} - 72 & = - 20 \sqrt{72} \cos ( H A F ) \end{gathered}$
 
 > *Divide both sides by *$-20\sqrt{72}$*.*
 
-`fraction numerator negative 72 over denominator negative 20 square root of 72 end fraction equals cos open parentheses H A F close parentheses`
+$\frac{- 72}{- 20 \sqrt{72} } = \cos ( H A F )$
 
 **[1]**
 
 > *Use inverse cos on your calculator to find the angle **HAF**.*
 
-`H A F equals cos to the power of negative 1 end exponent open parentheses fraction numerator negative 72 over denominator negative 20 square root of 72 end fraction close parentheses equals 64.8959...`
+$H A F = \cos ^{- 1} ( \frac{- 72}{- 20 \sqrt{72} } ) = 64.8959...$
 
 > *Round angles to 1 decimal place.*
 
@@ -762,7 +762,7 @@ $FH=10$
 ### Q16
 > *You can find the angle between the sides **AC** and **AB** by spotting that the three interior angles of the triangle should add up to 180°.*
 
-`table row cell Angle space B A C end cell equals cell 180 minus 64 minus 49 end cell row blank equals 67 end table`
+$\begin{gathered} \text{Angle} B A C & = 180 - 64 - 49 \\ = 67 \end{gathered}$
 
 > *To find the area of a triangle you need to know the lengths of two sides and the angle between them.*
 
@@ -770,13 +770,13 @@ $FH=10$
 
 > *The formula for the sine rule is *$\frac{a}{\mathrm{sin}A}=\frac{b}{\mathrm{sin}B}$*, where **a** and **b** are the lengths of the two sides that are opposite the angles **A **and **B **respectively. Substitute **a** = **AC**, **b** = 8.7, **A** = 49 and **B** = 64 into the formula.*
 
-`fraction numerator A C over denominator sin open parentheses 49 close parentheses end fraction equals fraction numerator 8.7 over denominator sin open parentheses 64 close parentheses end fraction`
+$\frac{A C}{\sin ( 49 )} = \frac{8.7}{\sin ( 64 )}$
 
 **[1]**
 
 > *Multiply both sides by sin(49) and type into your calculator.*
 
-`table row cell A C end cell equals cell fraction numerator 8.7 over denominator sin open parentheses 64 close parentheses end fraction cross times sin open parentheses 49 close parentheses end cell row blank equals cell 7.305314... end cell end table`
+$\begin{gathered} A C & = \frac{8.7}{\sin ( 64 )} \times \sin ( 49 ) \\ = 7.305314... \end{gathered}$
 
 *Rearranging correctly** ***[1] **
 
@@ -784,34 +784,34 @@ $FH=10$
 
 > *The formula for the area of a triangle is *$\mathrm{Area}=\frac{1}{2}ab\mathrm{sin}C$*, where **a** and **b** are the lengths of the two sides that form angle **C**. Substitute **a** = 7.305314... (using the answer button), **b** = 8.7 and **C** = 67 into the formula.*
 
-`table row Area equals cell 1 half cross times 7.305314... cross times 8.7 cross times sin open parentheses 67 close parentheses end cell end table`
+$\begin{gathered} \text{Area} = 1 \frac{1}{2} \times 7.305314... \times 8.7 \times \sin ( 67 ) \end{gathered}$
 
 **[1]**
 
 > *Type into your calculator.*
 
-`table attributes columnalign right center left columnspacing 0px end attributes row Area equals cell 29.251912... end cell end table`
+$\begin{array}{rcl} \text{Area} = 29.251912... \end{array}$
 
 > *Round to 3 significant figures. Remember to include the units for the area.*
 
 $\mathrm{Area}=29.3\mathrm{cm}^{2}(3\mathrm{sf})$ **[1]**
 
 ### Q17
-> *The formula for the area of a triangle is *$\mathrm{Area}=\frac{1}{2}ab\mathrm{sin}C$*, where **a** and **b** are the lengths of the two sides that form angle **C**. Substitute Area = *$6\sqrt{2}$*, **a** = *`open parentheses x plus 3 close parentheses`*, **b** = *`open parentheses 2 x minus 1 close parentheses`* and **C** = 45 into the formula.*
+> *The formula for the area of a triangle is *$\mathrm{Area}=\frac{1}{2}ab\mathrm{sin}C$*, where **a** and **b** are the lengths of the two sides that form angle **C**. Substitute Area = *$6\sqrt{2}$*, **a** = *$( x + 3 )$*, **b** = *$( 2 x - 1 )$* and **C** = 45 into the formula.*
 
-`table row cell 6 square root of 2 end cell equals cell 1 half cross times open parentheses x plus 3 close parentheses cross times open parentheses 2 x minus 1 close parentheses cross times sin open parentheses 45 close parentheses end cell end table`
+$\begin{gathered} 6 \sqrt{2} & = 1 \frac{1}{2} \times ( x + 3 ) \times ( 2 x - 1 ) \times \sin ( 45 ) \end{gathered}$
 
 *Correct expression on the right hand side*** [1] **
 
 *Forming a correct equation ***[1]**
 
-> *Use the fact that *`sin open parentheses 45 close parentheses equals fraction numerator square root of 2 over denominator 2 end fraction`*.*
+> *Use the fact that *$\sin ( 45 ) = \frac{ \sqrt{2} }{2}$*.*
 
-`table row cell 6 square root of 2 end cell equals cell 1 half cross times open parentheses x plus 3 close parentheses cross times open parentheses 2 x minus 1 close parentheses cross times fraction numerator square root of 2 over denominator 2 end fraction end cell end table`
+$\begin{gathered} 6 \sqrt{2} & = 1 \frac{1}{2} \times ( x + 3 ) \times ( 2 x - 1 ) \times \frac{ \sqrt{2} }{2} \end{gathered}$
 
 > *Divide both sides by √2 and multiply both sides by 4 to get rid of the surds and denominators.*
 
-`table row 24 equals cell open parentheses x plus 3 close parentheses open parentheses 2 x minus 1 close parentheses end cell end table`
+$\begin{gathered} 24 = ( x + 3 ) ( 2 x - 1 ) \end{gathered}$
 
 > *Expand the brackets then simplify.*
 
@@ -827,13 +827,13 @@ $2x^{2}+5x-27=0$
 
 > *Substitute **a** = 2, **b** = 5 and **c =** -27 into the formula.*
 
-`table row x equals cell fraction numerator negative 5 plus-or-minus square root of 5 squared minus 4 open parentheses 2 close parentheses open parentheses negative 27 close parentheses end root over denominator 2 open parentheses 2 close parentheses end fraction end cell end table`
+$\begin{gathered} x = \frac{- 5 \pm \sqrt{5^{2} - 4 ( 2 ) ( - 27 )} }{2 ( 2 )} \end{gathered}$
 
 **[1]**
 
 > *Simplify using your calculator.*
 
-`table row x equals cell fraction numerator negative 5 plus square root of 241 over denominator 4 end fraction equals 2.631043... end cell row blank blank or row x equals cell fraction numerator negative 5 minus square root of 241 over denominator 4 end fraction equals negative 5.131043... end cell end table`
+$\begin{gathered} x = \frac{- 5 + \sqrt{241} }{4} = 2.631043... \\ \text{or} \\ x = \frac{- 5 - \sqrt{241} }{4} = - 5.131043... \end{gathered}$
 
 > *As **x** + 3 is a length then it can not be negative, so **x** > -3. Therefore reject **x** = -5.131043... *
 
@@ -850,17 +850,17 @@ $x=2.63(3sf)$* ***[1]**
 
 > *We can find the area of one triangle using the sine area rule, Area *$=\frac{1}{2}ab\mathrm{sin}C$*, where *$a$* and *$b$* are adjacent sides and *$C$* is the included angle*
 
-`table row cell Area triangle end cell equals cell 1 half cross times 7.4 cross times 7.4 cross times sin 60 end cell end table`
+$\begin{gathered} \text{Area} \Delta & = 1 \frac{1}{2} \times 7.4 \times 7.4 \times \sin 60 \end{gathered}$
 
 **[1]**
 
 > *Multiply by 6 to find the area of the hexagon*
 
-`table row cell Area space hexagon end cell equals cell 6 cross times 1 half cross times 7.4 cross times 7.4 cross times sin 60 end cell end table`
+$\begin{gathered} \text{Area} \text{hexagon} & = 6 \times 1 \frac{1}{2} \times 7.4 \times 7.4 \times \sin 60 \end{gathered}$
 
 **[1]**
 
-`table row blank equals cell 3 cross times 7.4 squared cross times sin 60 end cell row blank equals cell 142.2706533... end cell end table`
+$\begin{gathered} = 3 \times 7.4^{2} \times \sin 60 \\ = 142.2706533... \end{gathered}$
 
 > *Round your answer to at least 3 significant figures*
 
@@ -869,11 +869,11 @@ $x=2.63(3sf)$* ***[1]**
 ### Q19
 > *According to the labeling in the question, the sine rule would be*
 
-`fraction numerator sin open parentheses A B C close parentheses over denominator 5.9 end fraction equals fraction numerator sin open parentheses 84.6 close parentheses over denominator 17.8 end fraction`
+$\frac{\sin ( A B C )}{5.9} = \frac{\sin ( 84.6 )}{17.8}$
 
 **[1]**
 
-`sin left parenthesis A B C right parenthesis equals 5.9 cross times fraction numerator sin open parentheses 84.6 close parentheses over denominator 17.8 end fraction`
+$\sin ( A B C ) = 5.9 \times \frac{\sin ( 84.6 )}{17.8}$
 
 **[1]**
 
@@ -894,7 +894,7 @@ $\mathrm{Angle}ABC=19.3^{\circ}$** ****[1]**
 
 > *Cosine Rule:  *$c^{2}=a^{2}+b^{2}-2ab\mathrm{cos}C$*.*
 
-> `c to the power of 2 space end exponent equals space 55 to the power of 2 space end exponent plus space 70 to the power of 2 space end exponent minus space 2 open parentheses 55 close parentheses open parentheses 70 close parentheses space cos space 40`*  *
+> $c^{2 } = 55^{2 } + 70^{2 } - 2 ( 55 ) ( 70 ) \cos 40$*  *
 
 **Correct use of equation**** [1] **
 
@@ -908,7 +908,7 @@ $c^{2}=2026.45778...$
 
 > *Square root to find the value of *$c$*.*
 
-`table row cell c to the power of space end cell equals cell square root of space 2026.45778... end root end cell row blank equals cell space 45.0161... end cell end table`
+$\begin{gathered} c^{ } & = \sqrt{ 2026.45778...} \\ = 45.0161... \end{gathered}$
 
 $c=45.0m(3s.f.)$* ***[1] **
 
@@ -919,11 +919,11 @@ $c=45.0m(3s.f.)$* ***[1] **
 
 > *The lines *$AB$* and *$DC$* are parallel so angle *$BDC$* is an alternate to angle *$ABD$*. Alternate angles are equal.*
 
-`B D with hat on top C space equals space 40 degree`
+$B \hat{D} C = 40^{\circ}$
 
 **[1]**
 
-> *Substitute the values of  *`B D space equals space 70 comma space space B D with hat on top C space equals space 40 space space and space space B C with hat on top D space equals space 32 degree`* into the sine rule. *
+> *Substitute the values of  *`B D = 70 , B D -hat C = 40 and B C -hat D = 32 deg`* into the sine rule. *
 
 > *Sine Rule:  *$\frac{a}{\mathrm{sin}A}=\frac{b}{\mathrm{sin}B}=\frac{c}{\mathrm{sin}C}$*.*
 
@@ -933,7 +933,7 @@ $\frac{BC}{\mathrm{sin}40^{\circ}}=\frac{70}{\mathrm{sin}32^{\circ}}$
 
 > *Rearrange the equation to find the value of *$BC.$
 
-`table row cell B C space end cell equals cell space fraction numerator space 70 space sin space 40 degree over denominator sin space 32 degree end fraction end cell row blank equals cell space 84.90941... end cell end table`
+$\begin{gathered} B C & = \frac{ 70 \sin 40^{\circ}}{\sin 32^{\circ}} \\ = 84.90941... \end{gathered}$
 
 ** ****[1]**
 
@@ -944,25 +944,25 @@ $BC=84.9m(3s.f.)$* ***[1] **
 
 > *Find the area of triangle *$ABD$*.*
 
-`table row cell A B D space end cell equals cell 1 half space open parentheses A B close parentheses open parentheses A D close parentheses space sin space open parentheses A B with hat on top D close parentheses end cell row blank equals cell space 1 half space open parentheses 55 close parentheses open parentheses 70 close parentheses sin open parentheses 40 degree close parentheses end cell row blank equals cell space 1925 space sin space 40 degree end cell row blank equals cell space 1237.366... end cell end table`
+$\begin{gathered} A B D & = 1 \frac{1}{2} ( A B ) ( A D ) \sin ( A \hat{B} D ) \\ = 1 \frac{1}{2} ( 55 ) ( 70 ) \sin ( 40^{\circ} ) \\ = 1925 \sin 40^{\circ} \\ = 1237.366... \end{gathered}$
 
 **[1]**
 
 > *To find the area of triangle *$BCD$* the third angle in the triangle will be needed.*
 
-`table row cell D B with hat on top C space end cell equals cell space 180 space minus space B C with hat on top D space minus space B D with hat on top C space end cell row blank equals cell space 180 space minus space 32 space minus space 40 space end cell row blank equals cell space 108 degree end cell end table`
+$\begin{gathered} D \hat{B} C & = 180 - B \hat{C} D - B \hat{D} C \\ = 180 - 32 - 40 \\ = 108^{\circ} \end{gathered}$
 
-> *Area of triangle *`B C D space table row blank equals blank end table table row blank blank space end table table row blank blank cell 1 half end cell end table table row blank blank space end table table row blank blank cell open parentheses B C close parentheses end cell end table table row blank blank cell open parentheses A D close parentheses end cell end table table row blank blank space end table table row blank blank straight s end table table row blank blank straight i end table table row blank blank straight n end table table row blank blank space end table table row blank blank cell open parentheses B C D close parentheses end cell end table`*. *
+> *Area of triangle *$B C D \begin{gathered} = \end{gathered} \begin{gathered} \end{gathered} \begin{gathered} 1 \frac{1}{2} \end{gathered} \begin{gathered} \end{gathered} \begin{gathered} ( B C ) \end{gathered} \begin{gathered} ( A D ) \end{gathered} \begin{gathered} \end{gathered} \begin{gathered} \mathrm{s} \end{gathered} \begin{gathered} \mathrm{i} \end{gathered} \begin{gathered} \mathrm{n} \end{gathered} \begin{gathered} \end{gathered} \begin{gathered} ( B C D ) \end{gathered}$*. *
 
-`table row cell B C D space end cell equals cell 1 half space open parentheses 84.90941... close parentheses open parentheses 70 close parentheses sin open parentheses 108 degree close parentheses end cell row blank equals cell space 2826.377... end cell end table`
+$\begin{gathered} B C D & = 1 \frac{1}{2} ( 84.90941... ) ( 70 ) \sin ( 108^{\circ} ) \\ = 2826.377... \end{gathered}$
 
 **[1]**
 
 > *Add the areas of the two triangles together.*
 
-`table row cell Area space A B C D space end cell equals cell space 1237.366... space plus space 2826.377... space end cell row blank equals cell space 4063.743... end cell end table`
+$\begin{gathered} \text{Area} A B C D & = 1237.366... + 2826.377... \\ = 4063.743... \end{gathered}$
 
-`table row cell bold Area bold space bold italic A bold italic B bold italic C bold italic D bold space end cell bold equals cell bold space bold space bold 4060 bold space bold cm to the power of bold 2 bold space bold space stretchy left parenthesis 3 space s. f. stretchy right parenthesis end cell end table`* ***[1] **
+$\begin{array}{ccc} Area A B C D & = & 4060 cm^{ } 2 \text{stretchy} ( 3 s. f. \text{stretchy} )\end{array}$* ***[1] **
 
 **Answers in the range 4063 to 4064 cm**<sup>**2**</sup>** will gain full marks.**
 
@@ -975,25 +975,25 @@ $BC=84.9m(3s.f.)$* ***[1] **
 
 > *Substitute **a** = **12.8**, **b** = 15.7, **A** = **MLN** and **B** = 136 into the formula.*
 
-`fraction numerator sin open parentheses M L N close parentheses over denominator 12.8 end fraction equals fraction numerator sin open parentheses 136 close parentheses over denominator 15.7 end fraction`
+$\frac{\sin ( M L N )}{12.8} = \frac{\sin ( 136 )}{15.7}$
 
 **[1]**
 
 > *Multiply both sides by 12.8 and then find the angle by using the inverse sin function.*
 
-`table row cell sin open parentheses M L N close parentheses end cell equals cell fraction numerator sin open parentheses 136 close parentheses over denominator 15.7 end fraction cross times 12.8 end cell row cell M L N end cell equals cell sin to the power of negative 1 end exponent open parentheses fraction numerator sin open parentheses 136 close parentheses over denominator 15.7 end fraction cross times 12.8 close parentheses end cell end table`
+$\begin{gathered} \sin ( M L N ) & = \frac{\sin ( 136 )}{15.7} \times 12.8 \\ M L N & = \sin ^{- 1} ( \frac{\sin ( 136 )}{15.7} \times 12.8 ) \end{gathered}$
 
 **[1]**
 
 > *Type into your calculator.*
 
-`table row cell M L N end cell equals cell 34.495789... end cell end table`
+$\begin{gathered} M L N & = 34.495789... \end{gathered}$
 
 **[1]**
 
 > *You can find the angle between the sides **LM** and **MN** by spotting that the three interior angles of the triangle should add up to 180°. Use the answer button on your calculator.*
 
-`table row cell Angle space L M N end cell equals cell 180 minus 136 minus 34.495789... end cell row blank equals cell 9.504210... end cell end table`
+$\begin{gathered} \text{Angle} L M N & = 180 - 136 - 34.495789... \\ = 9.504210... \end{gathered}$
 
 > *You now have enough information to find the side **LN** using either the sine rule or the cosine rule.*
 
@@ -1003,13 +1003,13 @@ $BC=84.9m(3s.f.)$* ***[1] **
 
 > *Substitute **a** = **LN**, **b** = 15.7, **A** = 9.504210... (using the answer button) and **B** = 136 into the formula.*
 
-`fraction numerator L N over denominator sin open parentheses 9.504210... close parentheses end fraction equals fraction numerator 15.7 over denominator sin open parentheses 136 close parentheses end fraction`
+$\frac{L N}{\sin ( 9.504210... )} = \frac{15.7}{\sin ( 136 )}$
 
 **[1]**
 
 > *Multiply both sides by sin(9.504210...) and type into your calculator.*
 
-`table row cell L N end cell equals cell fraction numerator 15.7 over denominator sin open parentheses 136 close parentheses end fraction cross times sin open parentheses 9.504210... close parentheses end cell row blank equals cell 3.731885... end cell end table`
+$\begin{gathered} L N & = \frac{15.7}{\sin ( 136 )} \times \sin ( 9.504210... ) \\ = 3.731885... \end{gathered}$
 
 > *Round to 3 significant figures. Remember to include the units for the length.*
 
@@ -1021,7 +1021,7 @@ $LN=3.73\mathrm{cm}(3\mathrm{sf})$** [1]**
 
 > *Substitute **a** = **LN**, **b** = 15.7, **c** = 12.8 and **A** = 9.504210... (using the answer button) into the formula.*
 
-`L N squared equals 15.7 squared plus 12.8 squared minus 2 open parentheses 15.7 close parentheses open parentheses 12.8 close parentheses cos open parentheses 9.504210... close parentheses`
+$L N^{2} = 15.7^{2} + 12.8^{2} - 2 ( 15.7 ) ( 12.8 ) \cos ( 9.504210... )$
 
 **[1]**
 
@@ -1031,7 +1031,7 @@ $LN^{2}=13.926966...$
 
 > *Take the positive square root of both sides.*
 
-`table row cell L N end cell equals cell square root of 13.926966... end root end cell row blank equals cell 3.731885... end cell end table`
+$\begin{gathered} L N & = \sqrt{13.926966...} \\ = 3.731885... \end{gathered}$
 
 > *Round to 3 significant figures. Remember to include the units for the length.*
 
@@ -1057,7 +1057,7 @@ $CD=\sqrt{170^{2}-150^{2}}=80m$
 $100+50+130+80+170$
 
 $530m$ **[1]**
-> *Considering the triangle *$ABD$*, we have 3 known sides and 1 unknown angle, so we will use the cosine rule: *`a squared equals b squared plus c squared minus 2 b c cos open parentheses A close parentheses`
+> *Considering the triangle *$ABD$*, we have 3 known sides and 1 unknown angle, so we will use the cosine rule: *$a^{2} = b^{2} + c^{2} - 2 b c \cos ( A )$
 
 *The labels currently on the triangle in the question don't work for this formula, as we need the angle to be labelled *$A$*, so we will re-label the diagram as below* *Recall that angles use upper case letters, whilst the side directly opposite them is given the lower case label of the same letter*
 
@@ -1065,21 +1065,21 @@ $530m$ **[1]**
 
 > *Substitute the values of the sides and angle into the cosine rule formula*
 
-`120 squared equals 150 squared plus 100 squared minus open parentheses 2 cross times 150 cross times 100 cross times cos space x close parentheses`
+$120^{2} = 150^{2} + 100^{2} - ( 2 \times 150 \times 100 \times \cos x )$
 
 **[1]**
 
 > *Rearrange to make *$cosx$* the subject*
 
-`table row cell 120 squared minus 150 squared minus 100 squared end cell equals cell negative open parentheses 2 cross times 150 cross times 100 cross times cos space x close parentheses end cell row cell fraction numerator 120 squared minus 150 squared minus 100 squared over denominator 2 cross times 150 cross times 100 end fraction end cell equals cell negative open parentheses cos space x close parentheses end cell row cell negative fraction numerator 120 squared minus 150 squared minus 100 squared over denominator 2 cross times 150 cross times 100 end fraction end cell equals cell cos space x end cell end table`
+$\begin{gathered} 120^{2} - 150^{2} - 100^{2} & = - ( 2 \times 150 \times 100 \times \cos x ) \\ \frac{120^{2} - 150^{2} - 100^{2}}{2 \times 150 \times 100} & = - ( \cos x ) \\ - \frac{120^{2} - 150^{2} - 100^{2}}{2 \times 150 \times 100} & = \cos x \end{gathered}$
 
 **[1]**
 
 *To find angle *$x$*, use the inverse cos function on your calculator (usually shift+cos)* *To maintain accuracy, type in the whole expression rather than a decimal*
 
-`table row x equals cell cos to the power of negative 1 end exponent open parentheses negative fraction numerator 120 squared minus 150 squared minus 100 squared over denominator 2 cross times 150 cross times 100 end fraction close parentheses end cell row x equals cell 52.89099505... end cell end table`
+$\begin{gathered} x = \cos ^{- 1} ( - \frac{120^{2} - 150^{2} - 100^{2}}{2 \times 150 \times 100} ) \\ x = 52.89099505... \end{gathered}$
 
-*Correct fraction or decimal within the *`cos to the power of negative 1 end exponent open parentheses blank close parentheses`*; 0.603... or *$\frac{181}{300}$* ***[1]**
+*Correct fraction or decimal within the *$\cos ^{- 1} ( )$*; 0.603... or *$\frac{181}{300}$* ***[1]**
 
 $\mathrm{Angle}ABD=52.9^{\circ}$ **[1]**
 
@@ -1094,7 +1094,7 @@ $\mathrm{cos}B=\frac{150}{170}$
 
 > *Use the inverse cos function on calculator (usually shift+cos)*
 
-`B equals cos to the power of negative 1 end exponent open parentheses 150 over 170 close parentheses equals 28.07248694...`
+$B = \cos ^{- 1} ( \frac{150}{170} ) = 28.07248694...$
 
 *For using inverse cos correctly*** [1]**
 
@@ -1117,19 +1117,19 @@ $331.9^{\circ}$ **[1]**
 
 ![cie-igcse-2019-may-jun-p4-tz1-q3d](assets/039-cie-igcse-2019-may-jun-p4-tz1-q3d.png)
 
-> *Triangles *$ADE$* and *$BCD$* are both right-angled, so their areas can be found using *`Area equals 1 half open parentheses base cross times height close parentheses`
+> *Triangles *$ADE$* and *$BCD$* are both right-angled, so their areas can be found using *$\text{Area} = 1 \frac{1}{2} ( \text{base} \times \text{height} )$
 
-`Area space A D E space equals space 1 half open parentheses 50 cross times 120 close parentheses equals 3000 space straight m squared`
-
-**[1]**
-
-`Area space B C D space equals space 1 half open parentheses 150 cross times 80 close parentheses equals 6000 space straight m squared`
+$\text{Area} A D E = 1 \frac{1}{2} ( 50 \times 120 ) = 3000 \mathrm{m}^{2}$
 
 **[1]**
 
-> *Triangle *$ABD$* is not right-angled, so we can instead use the formula *`Area space equals space 1 half ab space sin open parentheses C close parentheses`* where sides *$a$* and *$b$* are either side of angle *$C$
+$\text{Area} B C D = 1 \frac{1}{2} ( 150 \times 80 ) = 6000 \mathrm{m}^{2}$
 
-`Area space A B D space equals space 1 half open parentheses 150 cross times 100 cross times sin open parentheses 52.9 close parentheses close parentheses space equals space 5981.879466... space straight m squared`
+**[1]**
+
+> *Triangle *$ABD$* is not right-angled, so we can instead use the formula *$\text{Area} = 1 \frac{1}{2} \text{ab} \sin ( C )$* where sides *$a$* and *$b$* are either side of angle *$C$
+
+$\text{Area} A B D = 1 \frac{1}{2} ( 150 \times 100 \times \sin ( 52.9 ) ) = 5981.879466... \mathrm{m}^{2}$
 
 **[1]**
 
@@ -1178,7 +1178,7 @@ $\mathrm{cos}x=\frac{64}{104}$
 
 *Find **x** (by taking inverse cos of both sides)* * *
 
-`x equals cos to the power of negative 1 end exponent open parentheses 64 over 104 close parentheses`
+$x = \cos ^{- 1} ( \frac{64}{104} )$
 
 **[1]**
 
@@ -1205,7 +1205,7 @@ $\frac{8}{\mathrm{sin}y}=\frac{13}{\mathrm{sin}80}$
 
 *Find **y** (by taking inverse sin of both sides)* * *
 
-`table row cell sin to the power of negative 1 end exponent open parentheses fraction numerator 8 space sin space 80 over denominator 13 end fraction close parentheses end cell equals y row cell 37.30... end cell equals y end table` * *
+$\begin{gathered} \sin ^{- 1} ( \frac{8 \sin 80}{13} ) & = y \\ 37.30... & = y \end{gathered}$ * *
 
 *Angles in a triangle add up to 180°*
 
@@ -1261,13 +1261,13 @@ $\frac{1}{2}\times13\times8\times\mathrm{sin}62.7+\frac{1}{2}\times4\times13\tim
 
 > *Substitute Area = 18, **a** = 8, **b** = 7 and **C** = **z** into the formula.*
 
-`table row 18 equals cell 1 half cross times 8 cross times 7 cross times sin open parentheses z close parentheses end cell end table`
+$\begin{gathered} 18 = 1 \frac{1}{2} \times 8 \times 7 \times \sin ( z ) \end{gathered}$
 
 **[1]**
 
 > *Simplify the equation. Then rearrange to find the value of **z**.*
 
-`table row cell 28 sin open parentheses z close parentheses end cell equals 18 row cell sin open parentheses z close parentheses end cell equals cell 18 over 28 end cell row z equals cell sin to the power of negative 1 end exponent open parentheses 18 over 28 close parentheses end cell row z equals cell 40.005200... end cell end table`
+$\begin{gathered} 28 \sin ( z ) & = 18 \\ \sin ( z ) & = \frac{18}{28} \\ z = \sin ^{- 1} ( \frac{18}{28} ) \\ z = 40.005200... \end{gathered}$
 
 **[1]**
 
@@ -1277,7 +1277,7 @@ $\frac{1}{2}\times13\times8\times\mathrm{sin}62.7+\frac{1}{2}\times4\times13\tim
 
 > * Substitute **a** = **y**, **b** = 8, **c** = 8 and **A** = 40.005200... (using the answer button) into the formula.*
 
-`y squared equals 8 squared plus 7 squared minus 2 open parentheses 8 close parentheses open parentheses 8 close parentheses cos open parentheses 40.005200... close parentheses`
+$y^{2} = 8^{2} + 7^{2} - 2 ( 8 ) ( 8 ) \cos ( 40.005200... )$
 
 **[1]**
 
@@ -1289,19 +1289,19 @@ $y^{2}=27.209557...$
 
 > *Take the positive square root of both sides.*
 
-`table row y equals cell square root of 27.209557... end root end cell row blank equals cell 5.216278... end cell end table`
+$\begin{gathered} y = \sqrt{27.209557...} \\ = 5.216278... \end{gathered}$
 
 > *Now you can find the size of angle **BAC** using the formula for the triangle but this time using the sides **AB** and **AC**.*
 
 > *Substitute Area = 18, **a** = 7, **b** = 5.216278... (using the answer button)  and **C** = **x** into the formula.*
 
-`table attributes columnalign right center left columnspacing 0px end attributes row 18 equals cell 1 half cross times 7 cross times 5.216278... cross times sin open parentheses x close parentheses end cell end table`
+$\begin{array}{rcl} 18 = 1 \frac{1}{2} \times 7 \times 5.216278... \times \sin ( x ) \end{array}$
 
 **[1]**
 
 > *Rearrange to find the value of **x**.*
 
-`table row cell sin open parentheses x close parentheses end cell equals cell fraction numerator 18 cross times 2 over denominator 7 cross times 5.216278... end fraction end cell row x equals cell sin to the power of negative 1 end exponent open parentheses fraction numerator 18 cross times 2 over denominator 7 cross times 5.216278... end fraction close parentheses end cell row x equals cell 80.375501... end cell end table`
+$\begin{gathered} \sin ( x ) & = \frac{18 \times 2}{7 \times 5.216278...} \\ x = \sin ^{- 1} ( \frac{18 \times 2}{7 \times 5.216278...} ) \\ x = 80.375501... \end{gathered}$
 
 > *Round to 3 significant figures. Remember to include units for the angle.*
 
@@ -1318,26 +1318,26 @@ $\frac{8}{\mathrm{sin}x^{\circ}}=\frac{9}{\mathrm{sin}100^{\circ}}$
 
 > *Rearrange the equation to find the value of *$\mathrm{sin}x$*.*
 
-`table row cell space 8 space sin space 100 space end cell equals cell space 9 space s in space x end cell row cell sin space x space end cell equals cell space fraction numerator space 8 space sin space 100 over denominator 9 end fraction end cell end table`
+$\begin{gathered} 8 \sin 100 & = 9 s \text{in} x \\ \sin x & = \frac{ 8 \sin 100}{9} \end{gathered}$
 
 ** ****[1]**
 
 > *Use the *$\mathrm{sin}^{-1}$* button on your calculator to find the value of *$x$*.*
 
-`table row cell space x space end cell equals cell sin to the power of negative 1 end exponent space open parentheses fraction numerator space 8 space sin space 100 over denominator 9 end fraction close parentheses end cell row blank equals cell space 61.0905... end cell end table`
+$\begin{gathered} x & = \sin ^{- 1} ( \frac{ 8 \sin 100}{9} ) \\ = 61.0905... \end{gathered}$
 
 $x=61.1^{\circ}(1d.p.)$* ***[1]**
 > *The formula for the area of a triangle (if the vertical height is not known) is *$\frac{1}{2}ab\mathrm{sin}C$*.*
 
 > *The angle needs to be between the two known sides, so find the third angle in the triangle by subtracting the two known angles from 180°.*
 
-`180 space minus space open parentheses 100 space plus space 61.0905... close parentheses space equals space 18.9 degree`
+$180 - ( 100 + 61.0905... ) = 18.9^{\circ}$
 
 **[1]**
 
 > *Substitute the angle found and the two given sides into the formula for the area of a triangle. *
 
-`1 half space open parentheses 8 close parentheses open parentheses 9 close parentheses sin space 18.9 space equals space 11.66665...`
+$1 \frac{1}{2} ( 8 ) ( 9 ) \sin 18.9 = 11.66665...$
 
 **[1]**
 
@@ -1346,13 +1346,13 @@ $x=61.1^{\circ}(1d.p.)$* ***[1]**
 ### Q26
 > *In triangle **BAC**, we have the opposite and adjacent sides to angle **BAC**. Therefore use the tangent ratio*
 
-`tan open parentheses angle B A C close parentheses equals 14 over 12`
+$\tan ( \text{angle} B A C ) = \frac{14}{12}$
 
 **[1]**
 
 > *Find angle **BAC** by inverse cosine (SHIFT-cos on your calculator) 14/12*
 
-`angle B A C equals tan to the power of negative 1 end exponent open parentheses 14 over 12 close parentheses equals 49.3987054...`
+$\text{angle} B A C = \tan ^{- 1} ( \frac{14}{12} ) = 49.3987054...$
 
 > *Give non-exact answers in degrees correct to one decimal place*
 
@@ -1369,7 +1369,7 @@ $x=61.1^{\circ}(1d.p.)$* ***[1]**
 
 > *Therefore we can use the version of the cosine rule given to you on the formula sheet, *$a^{2}=b^{2}+c^{2}-2bc\mathrm{cos}A$*, taking *$BD$* as *$a$
 
-`a squared equals 12 squared plus 15 squared minus 2 cross times 12 cross times 15 cos open parentheses 62 plus 49.4 close parentheses`
+$a^{2} = 12^{2} + 15^{2} - 2 \times 12 \times 15 \cos ( 62 + 49.4 )$
 
 **[1]**
 
@@ -1391,13 +1391,13 @@ $a=\sqrt{500.355642...}=22.3686308...$
 
 > *The formula for the area of a triangle is *$\mathrm{Area}=\frac{1}{2}ab\mathrm{sin}C$*, where **a** and **b** are the lengths of the two sides that form angle **C**. Substitute Area = 56, **a** = **z**, **b** = 11 and **C** = 105 into the formula.*
 
-`table row 56 equals cell 1 half cross times z cross times 11 cross times sin open parentheses 105 close parentheses end cell end table`
+$\begin{gathered} 56 = 1 \frac{1}{2} \times z \times 11 \times \sin ( 105 ) \end{gathered}$
 
 **[1]**
 
 > *Rearrange to get **z** by itself by multiplying both sides by 2 and dividing both sides by 11sin(105). Type into your calculator.*
 
-`table row z equals cell fraction numerator 56 cross times 2 over denominator 11 cross times sin open parentheses 105 close parentheses end fraction end cell row blank equals cell 10.540993... end cell end table`
+$\begin{gathered} z = \frac{56 \times 2}{11 \times \sin ( 105 )} \\ = 10.540993... \end{gathered}$
 
 **[1]**
 
@@ -1407,7 +1407,7 @@ $a=\sqrt{500.355642...}=22.3686308...$
 
 > *Substitute **a** = **y**, **b** = 11, **c** = 10.540993... (using the answer button) and **A** = 105 into the formula.*
 
-`y squared equals 11 squared plus 10.540993... squared minus 2 open parentheses 11 close parentheses open parentheses 10.540993... close parentheses cos open parentheses 105 close parentheses`
+$y^{2} = 11^{2} + 10.540993...^{2} - 2 ( 11 ) ( 10.540993... ) \cos ( 105 )$
 
 **[1]**
 
@@ -1417,7 +1417,7 @@ $y^{2}=292.133170...$
 
 > *Take the positive square root of both sides.*
 
-`table attributes columnalign right center left columnspacing 0px end attributes row y equals cell square root of 292.133170... end root end cell row blank equals cell 17.091903... end cell end table`
+$\begin{array}{rcl} y = \sqrt{292.133170...} \\ = 17.091903... \end{array}$
 
 > *Now use triangle **ABC**. You know the length of a side and the angle opposite it. You also know another angle so you can use the sine rule to find the length of the side opposite it.*
 
@@ -1427,13 +1427,13 @@ $y^{2}=292.133170...$
 
 > *Substitute **a** = **x**, **b** = 17.091903... (using the answer button), **A** = 48 and **B** = 118 into the formula.*
 
-`fraction numerator x over denominator sin open parentheses 48 close parentheses end fraction equals fraction numerator 17.091903... over denominator sin open parentheses 118 close parentheses end fraction`
+$\frac{x}{\sin ( 48 )} = \frac{17.091903...}{\sin ( 118 )}$
 
 **[1]**
 
 > *Multiply both sides by sin(48) and type into your calculator.*
 
-`table row x equals cell fraction numerator 17.091903... over denominator sin open parentheses 118 close parentheses end fraction cross times sin open parentheses 48 close parentheses end cell row blank equals cell 14.385632... end cell end table`
+$\begin{gathered} x = \frac{17.091903...}{\sin ( 118 )} \times \sin ( 48 ) \\ = 14.385632... \end{gathered}$
 
 > *Round to 1 decimal place. Remember to include units for the length.*
 
@@ -1496,7 +1496,7 @@ $201^{\circ}-127^{\circ}=74^{\circ}$
 
 > *We have one side-angle pair (*$m$* and *$M$*) and the angle for the side we are trying to find (**LM**) so apply sine rule.*
 
-`table row cell fraction numerator p over denominator sin space P end fraction end cell identical to cell fraction numerator m over denominator sin space M end fraction end cell row cell fraction numerator p over denominator sin space 74 degree end fraction end cell equals cell fraction numerator 248 over denominator sin space 42 degree end fraction end cell end table`
+$\begin{gathered} \frac{p}{\sin P} & \equiv \frac{m}{\sin M} \\ \frac{p}{\sin 74^{\circ}} & = \frac{248}{\sin 42^{\circ}} \end{gathered}$
 
 **[1]**
 
@@ -1523,13 +1523,13 @@ $\mathrm{Angle}MLP=180^{\circ}-74^{\circ}-42^{\circ}=64^{\circ}$
 
 > *We now know the length of two sides and the angle between them so can work out the area of triangle **LPM** using the formula *$"A=\frac{1}{2}ab\mathrm{sin}C"$*.*
 
-`table row cell Area space of space increment L P M end cell equals cell 1 half cross times 248 cross times 356.272 space... cross times sin space 64 degree end cell row blank equals cell 39 space 706.745 space... end cell end table`
+`| Area of \Delta L P M | = 1 half x 248 x 356.272 ... x sin 64 deg | | _ = 39 706.745 ... | |`
 
 **[1]**
 
 > *Using the two area formulae we can set up and solve an equation for *$h$*.*
 
-`table row cell 124 h end cell equals cell 39 space 706.745... end cell row h equals cell 320.215 space 691 space... end cell end table`
+$\begin{gathered} 124 h & = 39 706.745... \\ h = 320.215 691 ... \end{gathered}$
 
 **Shortest distance from ****M**** to ****LP**** is 320 km*** ***[1]**
 
@@ -1542,7 +1542,7 @@ $\mathrm{Angle}MLP=180^{\circ}-74^{\circ}-42^{\circ}=64^{\circ}$
 
 > *Thus, according to the letters in the formula, *$b=8,c=7\mathrm{and}A=78$*.*
 
-`open parentheses O A close parentheses squared equals 8 squared plus 7 squared minus 2 cross times 8 cross times 7 cross times text cos end text 78`
+$( O A )^{2} = 8^{2} + 7^{2} - 2 \times 8 \times 7 \times \text{\cos } 78$
 
 *correct substitution ***[2]**
 
@@ -1565,13 +1565,13 @@ $OA=9.471741689...=9.47(2d.p.)$
 
 > *Using sine rule *$\frac{a}{\mathrm{sin}A}=\frac{b}{\mathrm{sin}B}$*,*
 
-`fraction numerator sin open parentheses O A C close parentheses over denominator 7 end fraction equals fraction numerator sin 78 over denominator 9.47 end fraction`
+$\frac{\sin ( O A C )}{7} = \frac{\sin 78}{9.47}$
 
 **[1]**
 
-> *Make *`sin open parentheses O A C close parentheses`* the subject by multiplying by 7.*
+> *Make *$\sin ( O A C )$* the subject by multiplying by 7.*
 
-`sin open parentheses O A C close parentheses equals fraction numerator 7 sin 78 over denominator 9.47 end fraction equals 0.723023569...`
+$\sin ( O A C ) = \frac{7 \sin 78}{9.47} = 0.723023569...$
 
 **[1]**
 
@@ -1588,13 +1588,13 @@ $OA=9.471741689...=9.47(2d.p.)$
 
 > *We can find *$CB$* by subtracting all the remaining lengths from the given perimeter, 29.5 cm*
 
-`C B equals 29.5 minus open parentheses 8 plus 9.47 plus 7 close parentheses equals 5.03 space cm`
+$C B = 29.5 - ( 8 + 9.47 + 7 ) = 5.03 \text{cm}$
 
 **[1]**
 
-> *We can use the formula for an arc length to find the angle *$COB$*. Arc length = *`theta over 360 cross times 2 straight pi r space open parentheses or space fraction numerator theta straight pi r over denominator 180 end fraction close parentheses`* where *$r$* is the radius and *$θ$*is the angle bound by the radii. Therefore*
+> *We can use the formula for an arc length to find the angle *$COB$*. Arc length = *`theta / 360 x 2 pi r ( or (theta pi r)/(180) )`* where *$r$* is the radius and *$θ$*is the angle bound by the radii. Therefore*
 
-`5.03 equals fraction numerator angle C O B over denominator 360 end fraction cross times 2 straight pi cross times 7`
+$5.03 = \frac{angle C O B}{360} \times 2 \mathrm{\pi } \times 7$
 
 *using the arc length formula correctly*** [1] **
 
@@ -1602,13 +1602,13 @@ $OA=9.471741689...=9.47(2d.p.)$
 
 > *Rearrange to find angle *$COB$
 
-`table row cell 5.03 end cell equals cell fraction numerator angle C O B over denominator 360 end fraction cross times 2 straight pi cross times 7 end cell row cell 5.03 cross times 360 end cell equals cell angle C O B cross times 2 straight pi cross times 7 end cell row cell fraction numerator 5.03 cross times 360 over denominator 2 straight pi cross times 7 end fraction end cell equals cell angle C O B end cell end table`
+$\begin{gathered} 5.03 & = \frac{angle C O B}{360} \times 2 \mathrm{\pi } \times 7 \\ 5.03 \times 360 & = \text{angle} C O B \times 2 \mathrm{\pi } \times 7 \\ \frac{5.03 \times 360}{2 \mathrm{\pi } \times 7} & = \text{angle} C O B \end{gathered}$
 
 **[1]**
 
 > *"Show that ... to 1 decimal place" so to achieve the final mark you must **show angle *$COB$* to more than one decimal place*
 
-`table row cell bold angle bold italic C bold italic O bold italic B end cell bold equals cell bold space bold 41 bold. bold 17111014 bold. bold. bold. bold degree bold space stretchy left parenthesis equals space 41.2 degree space to space 1 space d. p. stretchy right parenthesis end cell end table`** [1]**
+$\begin{gathered} \text{angle} C O B & = 41 . 17111014 . . .^{\circ} ( = 41.2^{\circ} \text{to} 1 d. p. ) \end{gathered}$** [1]**
 
 **The final mark will be withheld if you do not state at least "41.17..."**
 > *The shape is already split into a non-right-angle triangle and a sector. Sector area = *$\frac{θ}{360}\timesπr^{2}$* where *$r$* is the radius, 7 cm and *$θ$* is the angle bound by the radii, 41.2° (given in part (c))*
@@ -1640,34 +1640,34 @@ $=17.61735347...+27.38813282...\,=45.00548629...$
 ### Q32
 > *The formula for the area of a triangle is *$\mathrm{Area}=\frac{1}{2}ab\mathrm{sin}C$*, where **a** and **b** are the lengths of the two sides that form angle **C**. Substitute **a** = 7, **b** = 6 and **C** = 60 into the formula.*
 
-`table row Area equals cell 1 half cross times 7 cross times 6 cross times sin open parentheses 60 close parentheses end cell row blank equals cell 21 sin open parentheses 60 close parentheses end cell end table`
+$\begin{gathered} \text{Area} = 1 \frac{1}{2} \times 7 \times 6 \times \sin ( 60 ) \\ = 21 \sin ( 60 ) \end{gathered}$
 
 **[1]**
 
-> `sin open parentheses 60 close parentheses equals fraction numerator square root of 3 over denominator 2 end fraction`*.*
+> $\sin ( 60 ) = \frac{ \sqrt{3} }{2}$*.*
 
-`table row Area equals cell 21 cross times fraction numerator square root of 3 over denominator 2 end fraction end cell row blank blank blank end table`
+$\begin{gathered} \text{Area} = 21 \times \frac{ \sqrt{3} }{2} \\ \end{gathered}$
 
 > *Remember to include square units for the area.*
 
-`bold Area bold space bold equals table row blank blank cell fraction numerator bold 21 square root of bold 3 over denominator bold 2 end fraction end cell end table bold space bold cm to the power of bold 2` **[1]**
+`Area = | _ _ ( 21 sqrt( 3)/( 2) | | cm ^ 2` **[1]**
 > *You know the lengths of two sides and the angle between them and you want to find the length of the third side. Therefore you need to use the cosine rule.*
 
 > *The formula for the cosine rule is *$a^{2}=b^{2}+c^{2}-2bc\mathrm{cos}A$*, where **b** and **c** are the lengths of the two sides that form angle **A** and **a** is the length of the side opposite **A**. Substitute **a** = **AB**, **b** = 6, **c** = 7 and **A** = 60 into the formula.*
 
-`table row cell A B squared end cell equals cell 6 squared plus 7 squared minus 2 open parentheses 6 close parentheses open parentheses 7 close parentheses cos open parentheses 60 close parentheses end cell row blank equals cell 36 plus 49 minus 84 cos open parentheses 60 close parentheses end cell row blank equals cell 85 minus 84 cos open parentheses 60 close parentheses end cell end table`
+$\begin{gathered} A B^{2} & = 6^{2} + 7^{2} - 2 ( 6 ) ( 7 ) \cos ( 60 ) \\ = 36 + 49 - 84 \cos ( 60 ) \\ = 85 - 84 \cos ( 60 ) \end{gathered}$
 
 **[1]**
 
-`cos open parentheses 60 close parentheses equals 1 half`
+$\cos ( 60 ) = 1 \frac{1}{2}$
 
-`table row cell A B squared end cell equals cell 85 minus 84 cross times 1 half end cell row blank equals cell 85 minus 42 end cell row blank equals 43 end table`
+$\begin{gathered} A B^{2} & = 85 - 84 \times 1 \frac{1}{2} \\ = 85 - 42 \\ = 43 \end{gathered}$
 
 **[1]**
 
 > *Take the positive square root of both sides. Remember to include units for the length.*
 
-`bold italic A bold italic B bold equals table row blank blank cell square root of bold 43 end cell end table bold space bold cm`* ***[1]**
+`A B = | _ _ sqrt( 43 | | cm`* ***[1]**
 
 ### Q33
 i) *The sine rule is *$\frac{a}{\mathrm{sin}A}=\frac{b}{\mathrm{sin}B}=\frac{c}{\mathrm{sin}C}$* where*
@@ -1686,13 +1686,13 @@ $\frac{21.3}{\mathrm{sin}123.5}=\frac{11.6}{\mathrm{sin}x}$
 
 *Make *$\mathrm{sin}x$* the subject (by multiplying both sides by the denominators then dividing by 21.3)* * *
 
-`table row cell 21.3 space sin space x end cell equals cell 11.6 space sin space 123.5 end cell row cell sin space x end cell equals cell fraction numerator 11.6 space sin space 123.5 over denominator 21.3 end fraction end cell end table`
+$\begin{gathered} 21.3 \sin x & = 11.6 \sin 123.5 \\ \sin x & = \frac{11.6 \sin 123.5}{21.3} \end{gathered}$
 
 **[1]*** *
 
 *Find *$x$* (by taking inverse sine of both sides)* * *
 
-`x equals sin to the power of negative 1 end exponent open parentheses table row blank blank cell fraction numerator 11.6 space sin space 123.5 over denominator 21.3 end fraction end cell end table close parentheses` * *
+$x = \sin ^{- 1} ( \begin{gathered} \frac{11.6 \sin 123.5}{21.3} \end{gathered} )$ * *
 
 > *Use a calculator find angle *$x$*, giving your answer to 1 decimal place*
 
@@ -1737,13 +1737,13 @@ $AD=15.9$** ****cm ****[1]**
 ### Q34
 *Substitute the given values from triangle **ABC **into the cosine rule,* $\mathrm{cos}A=\frac{b^{2}+c^{2}-a^{2}}{2bc}$*.*
 
-`cos space open parentheses B A C close parentheses equals fraction numerator 158 squared plus 132 squared minus 107 squared over denominator 2 cross times 158 cross times 132 end fraction`
+$\cos ( B A C ) = \frac{158^{2} + 132^{2} - 107^{2}}{2 \times 158 \times 132}$
 
 * Correct substitution in to the cosine rule ***[1] **
 
 *Correct version of the cosine rule used*** [1]**
 
-`cos space open parentheses B A C close parentheses equals 0.74172...`
+$\cos ( B A C ) = 0.74172...$
 
 **[1]**
 
@@ -1756,17 +1756,17 @@ $BAC=42.12109...$
 **Answers of 42.12... will also be accepted.**
 *Substitute the given values from triangle **CAD** into the sine rule.* *Make sure you use the version of the sine rule with the angles in the numerators, *$\frac{\mathrm{sin}A}{a}=\frac{\mathrm{sin}B}{b}=\frac{\mathrm{sin}C}{c}$*.*
 
-`fraction numerator sin space open parentheses C A D close parentheses over denominator 86 end fraction equals fraction numerator sin space 116 over denominator 132 end fraction`
+$\frac{\sin ( C A D )}{86} = \frac{\sin 116}{132}$
 
 **[1]**
 
 > *Multiply both sides by 86.*
 
-`sin space open parentheses C A D close parentheses equals fraction numerator sin space 116 over denominator 132 end fraction cross times 86`
+$\sin ( C A D ) = \frac{\sin 116}{132} \times 86$
 
 **[1]**
 
-`sin space open parentheses C A D close parentheses equals 0.58557...`
+$\sin ( C A D ) = 0.58557...$
 
 > *Take sin*<sup>*-1*</sup>* of both sides.*
 
@@ -1779,8 +1779,8 @@ $CAD=35.84382...$
 
 > *Substitute the values from the diagram and from part b).*
 
-`A equals 1 half cross times 158 cross times 132 cross times sin open parentheses 42.12109... close parentheses
-A equals 6994.05650...`
+$A = 1 \frac{1}{2} \times 158 \times 132 \times \sin ( 42.12109... )
+A = 6994.05650...$
 
 **[1]**
 
@@ -1792,8 +1792,8 @@ $180-116-35.84382...=28.15617...$
 
 > *Substitute the values from the diagram and from part b).*
 
-* *`A equals 1 half cross times 132 cross times 86 cross times sin open parentheses 28.15617... close parentheses
-A equals 2678.37078...`
+* *$A = 1 \frac{1}{2} \times 132 \times 86 \times \sin ( 28.15617... )
+A = 2678.37078...$
 
 **[1]**
 
@@ -1816,13 +1816,13 @@ $6994.05650...+2678.37078...=9672.42728...$
 
 > * Substitute **a** = **y**, **b** = 7.4, **A** = 45 and **B** = 80 into the formula.*
 
-`fraction numerator y over denominator sin open parentheses 45 close parentheses end fraction equals fraction numerator 7.4 over denominator sin open parentheses 80 close parentheses end fraction`
+$\frac{y}{\sin ( 45 )} = \frac{7.4}{\sin ( 80 )}$
 
 **[1]**
 
 > *Multiply both sides by sin(45) and type into your calculator.*
 
-`table row y equals cell fraction numerator 7.4 over denominator sin open parentheses 80 close parentheses end fraction cross times sin open parentheses 45 close parentheses end cell row blank equals cell 5.313311... end cell end table`
+$\begin{gathered} y = \frac{7.4}{\sin ( 80 )} \times \sin ( 45 ) \\ = 5.313311... \end{gathered}$
 
 **[1]**
 
@@ -1836,7 +1836,7 @@ $6994.05650...+2678.37078...=9672.42728...$
 
 > *Substitute **a** = **x**, **b** = 5.8, **c** = 5.313311... (using the answer button) and **A** = 100 into the formula.*
 
-`x squared equals 5.8 squared plus 5.313311... squared minus 2 open parentheses 5.8 close parentheses open parentheses 5.313311... close parentheses cos open parentheses 100 close parentheses`
+$x^{2} = 5.8^{2} + 5.313311...^{2} - 2 ( 5.8 ) ( 5.313311... ) \cos ( 100 )$
 
 **[1]**
 
@@ -1848,7 +1848,7 @@ $x^{2}=72.573980...$
 
 > *Take the positive square root of both sides.*
 
-`table attributes columnalign right center left columnspacing 0px end attributes row x equals cell square root of 72.573980... end root end cell row blank equals cell 8.519036... end cell end table`
+$\begin{array}{rcl} x = \sqrt{72.573980...} \\ = 8.519036... \end{array}$
 
 > *Round to 3 significant figures. Remember to include units for the length.*
 
@@ -1857,7 +1857,7 @@ $BC=8.52\mathrm{cm}(3\mathrm{sf})$* ***[1]**
 ### Q36
 > *i) Substitute the values from the diagram into the cosine rule, *$a^{2}=b^{2}+c^{2}-2bc\mathrm{cos}A$*, where *$a$* is the unknown side, *$b$* and *$c$* are the known sides and *$A$* is the included angle.*
 
-`a squared equals 8 squared plus 13 squared minus 2 cross times 8 cross times 13 cross times cos space open parentheses 79 close parentheses`
+$a^{2} = 8^{2} + 13^{2} - 2 \times 8 \times 13 \times \cos ( 79 )$
 
 *Correct formula*** [1] **
 
@@ -1877,17 +1877,17 @@ $a=13.90365...$
 
 > *ii) To find a missing angle substitute the known sides and angles into the sine rule. Use the sine rule with the angles on the numerators, *$\frac{\mathrm{sin}A}{a}=\frac{\mathrm{sin}B}{b}=\frac{\mathrm{sin}C}{c}$*. Use the length of **BC** from part i).*
 
-`fraction numerator sin space open parentheses A C B close parentheses over denominator 13 end fraction equals fraction numerator sin space open parentheses 79 close parentheses over denominator 13.90365... end fraction`
+$\frac{\sin ( A C B )}{13} = \frac{\sin ( 79 )}{13.90365...}$
 
 **[1]**
 
 > *Multiply both sides by 13.*
 
-`sin space open parentheses A C B close parentheses equals 13 cross times fraction numerator sin space open parentheses 79 close parentheses over denominator 13.90365... end fraction`
+$\sin ( A C B ) = 13 \times \frac{\sin ( 79 )}{13.90365...}$
 
 **[1]**
 
-`sin space open parentheses A C B close parentheses equals 0.91782...`
+$\sin ( A C B ) = 0.91782...$
 
 > *Take sin*<sup>*-1*</sup>* of both sides.*
 
@@ -1906,13 +1906,13 @@ $ACB=66.61044...$
 
 ![ma-cie-igcse-2020-may-jun-p4-tz1-q7a](assets/068-ma-cie-igcse-2020-may-jun-p4-tz1-q7a.png)
 
-`open parentheses B C close parentheses squared equals 115 squared plus 80 squared minus 2 cross times 115 cross times 80 cross times cos space 72 degree`
+$( B C )^{2} = 115^{2} + 80^{2} - 2 \times 115 \times 80 \times \cos 72^{\circ}$
 
 **[1]**
 
 > *Avoid rounding before your final answer - store the exact value in your calculator's memory.*
 
-`open parentheses B C close parentheses squared equals 13 space 939.087 space...` 
+$( B C )^{2} = 13 939.087 ...$ 
 $BC=118.063911...$
 
 > *Final answer is to be shown to **one decimal place.*
@@ -1938,20 +1938,20 @@ $\mathrm{sin}ABC=\frac{115\mathrm{sin}72^{\circ}}{118.063...}$
 
 > *Use inverse sine (sin*<sup>*-1*</sup>*) to find angle **ABC**.*
 
-`table row cell A B C end cell equals cell sin to the power of negative 1 end exponent open parentheses fraction numerator 115 sin space 72 degree over denominator 118.063 space... end fraction close parentheses end cell row cell A B C end cell equals cell 67.876 space 670 space... end cell end table`
+$\begin{gathered} A B C & = \sin ^{- 1} ( \frac{115 \sin 72^{\circ}}{118.063 ...} ) \\ A B C & = 67.876 670 ... \end{gathered}$
 
 **Angle ****ABC**** = 67.9° (1 d.p.)*** ***[1]**
 
 ### Q38
 > *Formula for the area of a triangle: *$\mathrm{Area}=\frac{1}{2}ab\mathrm{sin}C$*. Substitute the values for the two sides adjacent to the angle in triangle **BCD.*
 
-`table row cell area space B C D space end cell equals cell 1 half space open parentheses B C close parentheses open parentheses B D close parentheses space sin space open parentheses C B D close parentheses end cell row blank equals cell space 1 half space open parentheses 192 close parentheses open parentheses 168 close parentheses sin open parentheses 106 degree close parentheses end cell end table`
+$\begin{gathered} \text{area} B C D & = 1 \frac{1}{2} ( B C ) ( B D ) \sin ( C B D ) \\ = 1 \frac{1}{2} ( 192 ) ( 168 ) \sin ( 106^{\circ} ) \end{gathered}$
 
 **[1]**
 
 > *Use your calculator to find the area.*
 
-> `table row cell space 1 half space open parentheses 192 close parentheses open parentheses 168 close parentheses sin open parentheses 106 degree close parentheses space end cell equals cell space 15503.2286... end cell end table`*   *
+> $\begin{gathered} 1 \frac{1}{2} ( 192 ) ( 168 ) \sin ( 106^{\circ} ) & = 15503.2286... \end{gathered}$*   *
 
 `equation`* ***[1] **
 
@@ -1991,7 +1991,7 @@ $QR^{2}=4272.9196...$
 
 > *Solve for **QR** by square rooting both sides. Use the answer button or type the exact expression in your calculator.*
 
-`table row cell Q R end cell equals cell square root of 150 squared plus 120 squared minus 2 left parenthesis 150 right parenthesis left parenthesis 120 right parenthesis cos left parenthesis 25 right parenthesis end root equals square root of 4272.9196... end root end cell row cell Q R end cell equals cell 65.3675... end cell end table`
+$\begin{gathered} Q R & = \sqrt{150^{2} + 120^{2} - 2 ( 150 ) ( 120 ) \cos ( 25 )} = \sqrt{4272.9196...} \\ Q R & = 65.3675... \end{gathered}$
 
 > *Round to 3 significant figures.*
 
@@ -2000,7 +2000,7 @@ $QR^{2}=4272.9196...$
 
 > *You are given two angles so find the 3rd angle by subtracting the other two from 180°.*
 
-`table row cell Angle space P S R end cell equals cell 180 degree minus 45 degree minus 55 degree end cell row blank equals cell 80 degree end cell end table`
+$\begin{gathered} \text{Angle} P S R & = 180^{\circ} - 45^{\circ} - 55^{\circ} \\ = 80^{\circ} \end{gathered}$
 
 **[1]**
 
@@ -2014,7 +2014,7 @@ $\frac{RS}{\mathrm{sin}(55)}=\frac{150}{\mathrm{sin}(80)}$
 
 > *Solve for **RS** by multiplying both sides by sin55.*
 
-`table row x equals cell fraction numerator 150 over denominator sin left parenthesis 80 right parenthesis end fraction cross times sin left parenthesis 55 right parenthesis end cell row x equals cell 124.7683... end cell end table`
+$\begin{gathered} x = \frac{150}{\sin ( 80 )} \times \sin ( 55 ) \\ x = 124.7683... \end{gathered}$
 
 **[1]**
 
@@ -2025,13 +2025,13 @@ $\frac{RS}{\mathrm{sin}(55)}=\frac{150}{\mathrm{sin}(80)}$
 
 > *Find the area of triangle **PQR** by using **a** = **PR** = 150, **b **= **PQ** = 120 and **C** = **QPR ** = 25.*
 
-`1 half open parentheses 150 close parentheses open parentheses 120 close parentheses sin open parentheses 25 close parentheses equals 3803.5643...`
+$1 \frac{1}{2} ( 150 ) ( 120 ) \sin ( 25 ) = 3803.5643...$
 
 **[1]**
 
 > *Find the area of triangle **PSR** by using **a** = **PR** = 150, **b **= **RS** = 124.7683... and **C** = **PRS ** = 45. Try to use the exact answer for **RS**, if it is still in your calculator then you can use the answer button.*
 
-`1 half open parentheses 150 close parentheses open parentheses 124.7683... close parentheses sin open parentheses 45 close parentheses equals 6616.8392...`
+$1 \frac{1}{2} ( 150 ) ( 124.7683... ) \sin ( 45 ) = 6616.8392...$
 
 **[1]**
 
@@ -2054,23 +2054,23 @@ $3803.5643...+6616.8392...=10420.4036...$
 
 > *Using the formula for the area of a triangle; *$\mathrm{Area}=\frac{1}{2}ab\mathrm{sin}C$* where *$a$* and *$b$* are either side of angle *$C$
 
-`70 equals 1 half cross times x cross times 2 x cross times sin open parentheses 40 close parentheses`
+$70 = 1 \frac{1}{2} \times x \times 2 x \times \sin ( 40 )$
 
 **[1]**
 
 > *Simplify*
 
-`70 equals x squared cross times sin open parentheses 40 close parentheses`
+$70 = x^{2} \times \sin ( 40 )$
 
 **[1]**
 
-> *Divide both sides by *`sin open parentheses 40 close parentheses`
+> *Divide both sides by *$\sin ( 40 )$
 
-`fraction numerator 70 over denominator sin open parentheses 40 close parentheses end fraction equals x squared`
+$\frac{70}{\sin ( 40 )} = x^{2}$
 
 > *Square root both sides*
 
-`x equals square root of fraction numerator 70 over denominator sin open parentheses 40 close parentheses end fraction end root equals 10.43554828...`
+$x = \sqrt{ \frac{70}{\sin ( 40 )} } = 10.43554828...$
 
 **[1]**
 
@@ -2093,7 +2093,7 @@ $70=108.16\times\mathrm{sin}θ$
 
 $\mathrm{sin}θ=\frac{70}{108.16}=0.647...$
 
-`theta equals sin to the power of negative 1 end exponent open parentheses fraction numerator 70 over denominator 108.16 end fraction close parentheses equals 40`
+$\\theta = \sin ^{- 1} ( \frac{70}{108.16} ) = 40$
 
 > *There are two solutions for *$θ$* in this equation, one of them is 40 (used in the triangle for part i) and we must find the other*
 
@@ -2147,13 +2147,13 @@ $-101.48=-116.6\mathrm{cos}x$
 
 > *Divide both sides by -116.6. Leave as a fraction but you can cancel out the negative signs*
 
-`table row cell fraction numerator negative 101.48 over denominator negative 116.6 end fraction end cell equals cell cos x end cell row cell cos x end cell equals cell fraction numerator 101.48 over denominator 116.6 end fraction end cell end table`
+$\begin{gathered} \frac{- 101.48}{- 116.6} & = \cos x \\ \cos x & = \frac{101.48}{116.6} \end{gathered}$
 
 **[1]**
 
 > *Use inverse cos on your calculator to find the angle.*
 
-`x equals cos to the power of negative 1 end exponent open parentheses fraction numerator 101.48 over denominator 116.6 end fraction close parentheses equals 29.5034...`
+$x = \cos ^{- 1} ( \frac{101.48}{116.6} ) = 29.5034...$
 
 **[1]**
 
@@ -2162,19 +2162,19 @@ $-101.48=-116.6\mathrm{cos}x$
 $x=29.5$ **[1]**
 > *Look at triangle **ABC**. You can work out angle angle **ABC** by forming an equation using the fact that the interior angles in a triangle add up 180°. Angle ACB is 54 + **x**, so use the full value for **x** (using the answer button on your calculator) rather than the rounded answer. *
 
-`table row cell 42 plus open parentheses 54 plus 29.5034... close parentheses plus A B C end cell equals 180 row cell 125.5034... plus A B C end cell equals 180 row cell A B C end cell equals cell 180 minus 125.5034... end cell row cell A B C end cell equals cell 54.4965... end cell end table`
+$\begin{gathered} 42 + ( 54 + 29.5034... ) + A B C & = 180 \\ 125.5034... + A B C & = 180 \\ A B C & = 180 - 125.5034... \\ A B C & = 54.4965... \end{gathered}$
 
 **[1]**
 
 > *You know an angle and the side opposite (**CAB** and **BC**). You know the angle **ABC** and want to find the side opposite (**AC**). This involves two pairs of opposite angles and sides so you can use the sine rule *$\frac{a}{\mathrm{sin}A}=\frac{b}{\mathrm{sin}B}$* with **a** as side **AC**, **b** as side **BC**, **A** as angle **ABC** and **B** as angle **CAB**.*
 
-`fraction numerator A C over denominator sin open parentheses 54.4965... close parentheses end fraction equals fraction numerator 11 over denominator sin open parentheses 42 close parentheses end fraction`
+$\frac{A C}{\sin ( 54.4965... )} = \frac{11}{\sin ( 42 )}$
 
 **[1]**
 
 > *Multiply both sides by sin(54.4965...).*
 
-`A C equals fraction numerator 11 over denominator sin open parentheses 42 close parentheses end fraction cross times sin open parentheses 54.4965... close parentheses equals 13.3828...`
+$A C = \frac{11}{\sin ( 42 )} \times \sin ( 54.4965... ) = 13.3828...$
 
 **[1]**
 
@@ -2193,7 +2193,7 @@ i) *To find length *$AB$* we can consider triangle *$ABD$* and use the cosine ru
 
 > *Using the cosine rule*
 
-`a squared equals 12.4 squared plus 16.5 squared minus open parentheses 2 cross times 12.4 cross times 16.5 cross times cos open parentheses 64 close parentheses close parentheses`
+$a^{2} = 12.4^{2} + 16.5^{2} - ( 2 \times 12.4 \times 16.5 \times \cos ( 64 ) )$
 
 **[2]**
 
@@ -2223,11 +2223,11 @@ $180-95-53=32$
 
 > *Applying the sine rule to *$BDC$* (we are trying to find *$BC$*, labelled as *$d$*)*
 
-`fraction numerator d over denominator sin open parentheses 53 close parentheses end fraction equals fraction numerator 12.4 over denominator sin open parentheses 32 close parentheses end fraction`
+$\frac{d}{\sin ( 53 )} = \frac{12.4}{\sin ( 32 )}$
 
-> *Multiply both sides by *`sin open parentheses 53 close parentheses`
+> *Multiply both sides by *$\sin ( 53 )$
 
-`d equals fraction numerator 12.4 over denominator sin open parentheses 32 close parentheses end fraction cross times sin open parentheses 53 close parentheses`
+$d = \frac{12.4}{\sin ( 32 )} \times \sin ( 53 )$
 
 **[2]**
 
@@ -2260,11 +2260,11 @@ $ACD=180-26-108=46$
 
 > *Applying the sine rule to the triangle *$ACD$
 
-`fraction numerator A C over denominator sin open parentheses 108 close parentheses end fraction equals fraction numerator 58 over denominator sin open parentheses 46 close parentheses end fraction`
+$\frac{A C}{\sin ( 108 )} = \frac{58}{\sin ( 46 )}$
 
-> *Multiplying both sides by *`sin open parentheses 108 close parentheses`
+> *Multiplying both sides by *$\sin ( 108 )$
 
-`A C equals fraction numerator 58 over denominator sin open parentheses 46 close parentheses end fraction cross times sin open parentheses 108 close parentheses`
+$A C = \frac{58}{\sin ( 46 )} \times \sin ( 108 )$
 
 **[2]**
 
@@ -2278,15 +2278,15 @@ ii) *Considering the right-angled triangle *$ABC$
 
 ![cie-igcse-2019-may-jun-p4-tz2-q9a-3](assets/082-cie-igcse-2019-may-jun-p4-tz2-q9a-3.png)
 
-> *As we know the hypotenuse and the angle, we can find the adjacent *`open parentheses A B close parentheses`* using the cosine ratio; *$\mathrm{cos}θ=\frac{\mathrm{adjacent}}{\mathrm{hypotenuse}}$
+> *As we know the hypotenuse and the angle, we can find the adjacent *$( A B )$* using the cosine ratio; *$\mathrm{cos}θ=\frac{\mathrm{adjacent}}{\mathrm{hypotenuse}}$
 
-`cos open parentheses 26 close parentheses equals fraction numerator A B over denominator 76.7 end fraction`
+$\cos ( 26 ) = \frac{A B}{76.7}$
 
 **[1]**
 
 > *Multiply both sides by 76.7*
 
-`76.7 cross times cos open parentheses 26 close parentheses equals A B`
+$76.7 \times \cos ( 26 ) = A B$
 
 $AB=68.93750335...$
 
@@ -2311,23 +2311,23 @@ $68.93750335-58=10.93750335...$
 
 > *Substitute **a** = **9**, **b** = 11, **A** = **y** and **B** = 100 into the formula.*
 
-`fraction numerator sin open parentheses y close parentheses over denominator 9 end fraction equals fraction numerator sin open parentheses 100 close parentheses over denominator 11 end fraction`
+$\frac{\sin ( y )}{9} = \frac{\sin ( 100 )}{11}$
 
 **[1]**
 
 > *Multiply both sides by 9 and then find the angle by using the inverse sin function.*
 
-`table row cell sin open parentheses y close parentheses end cell equals cell fraction numerator sin open parentheses 100 close parentheses over denominator 11 end fraction cross times 9 end cell row y equals cell sin to the power of negative 1 end exponent open parentheses fraction numerator sin open parentheses 100 close parentheses over denominator 11 end fraction cross times 9 close parentheses end cell end table`
+$\begin{gathered} \sin ( y ) & = \frac{\sin ( 100 )}{11} \times 9 \\ y = \sin ^{- 1} ( \frac{\sin ( 100 )}{11} \times 9 ) \end{gathered}$
 
 **[1]**
 
 > *Type into your calculator.*
 
-`table row y equals cell 53.682923... end cell end table`
+$\begin{gathered} y = 53.682923... \end{gathered}$
 
 > *You can find the third angle by spotting that the three interior angles of the triangle should add up to 180°. Use the answer button on your calculator.*
 
-`table row x equals cell 180 minus 100 minus 53.682923... end cell row blank equals cell 26.317076... end cell end table`
+$\begin{gathered} x = 180 - 100 - 53.682923... \\ = 26.317076... \end{gathered}$
 
 **[1]**
 
@@ -2335,13 +2335,13 @@ $68.93750335-58=10.93750335...$
 
 > *The formula for the area of a triangle is *$\mathrm{Area}=\frac{1}{2}ab\mathrm{sin}C$*, where **a** and **b** are the lengths of the two sides that form angle **C**. Substitute **a** = 9, **b** = 11 and **C** = 26.317076... (using the answer button) into the formula.*
 
-`table row Area equals cell 1 half cross times 9 cross times 11 cross times sin open parentheses 26.317076... close parentheses end cell row blank equals cell 21.945249... end cell end table`
+$\begin{gathered} \text{Area} = 1 \frac{1}{2} \times 9 \times 11 \times \sin ( 26.317076... ) \\ = 21.945249... \end{gathered}$
 
 **[1]**
 
 > *Multiply by 2 to find the area of the parallelogram.*
 
-`table row cell 2 cross times 21.945249... end cell equals cell 43.890498... end cell end table`
+$\begin{gathered} 2 \times 21.945249... & = 43.890498... \end{gathered}$
 
 > *Round to 3 significant figures. Remember to include square units for the area.*
 
@@ -2362,7 +2362,7 @@ $\frac{1}{2}\times10\times10\times\mathrm{sin}60\,=50\mathrm{sin}60$
 
 **[1]**
 
-`sin open parentheses 60 close parentheses equals fraction numerator square root of 3 over denominator 2 end fraction`
+$\sin ( 60 ) = \frac{ \sqrt{3} }{2}$
 
 $=50\times\frac{\sqrt{3}}{2}\,=25\sqrt{3}$
 
@@ -2399,13 +2399,13 @@ $(25\sqrt{3}-\frac{25}{6}π)$** cm**<sup>**2**</sup> **[1]**
 
 > *Substitute **a** = **y**, **b** = 12.5, **A** = 34 and **B** = 109 into the formula.*
 
-`fraction numerator y over denominator sin open parentheses 34 close parentheses end fraction equals fraction numerator 12.5 over denominator sin open parentheses 109 close parentheses end fraction`
+$\frac{y}{\sin ( 34 )} = \frac{12.5}{\sin ( 109 )}$
 
 **[1]**
 
 > *Multiply both sides by sin(34) and type into your calculator.*
 
-`table row y equals cell fraction numerator 12.5 over denominator sin open parentheses 109 close parentheses end fraction cross times sin open parentheses 34 close parentheses end cell row blank equals cell 7.392674... end cell end table`
+$\begin{gathered} y = \frac{12.5}{\sin ( 109 )} \times \sin ( 34 ) \\ = 7.392674... \end{gathered}$
 
 **[1]**
 
@@ -2419,7 +2419,7 @@ $(25\sqrt{3}-\frac{25}{6}π)$** cm**<sup>**2**</sup> **[1]**
 
 > *Substitute **a** = **x**, **b** = 11.4, **c** = 7.392674... (using the answer button) and **A** = 86 into the formula.*
 
-`x squared equals 11.4 squared plus 7.392674... squared minus 2 open parentheses 11.4 close parentheses open parentheses 7.392674... close parentheses cos open parentheses 86 close parentheses`
+$x^{2} = 11.4^{2} + 7.392674...^{2} - 2 ( 11.4 ) ( 7.392674... ) \cos ( 86 )$
 
 **[1]**
 
@@ -2431,7 +2431,7 @@ $x^{2}=172.853978...$
 
 > *Take the positive square root of both sides.*
 
-`table attributes columnalign right center left columnspacing 0px end attributes row x equals cell square root of 172.853978... end root end cell row blank equals cell 13.147394... end cell end table`
+$\begin{array}{rcl} x = \sqrt{172.853978...} \\ = 13.147394... \end{array}$
 
 > *Round to 3 significant figures. Remember to include units for the length.*
 
@@ -2440,7 +2440,7 @@ $AD=13.1\mathrm{cm}(3\mathrm{sf})$* ***[1]**
 ### Q48
 > *Use the formula for the area of a triangle, *$A=\frac{1}{2}ab\mathrm{sin}C$*.*
 
-`A equals 1 half cross times 11 cross times 13 cross times sin open parentheses 39 close parentheses`
+$A = 1 \frac{1}{2} \times 11 \times 13 \times \sin ( 39 )$
 
 **[1]**
 
@@ -2455,7 +2455,7 @@ $45.0$** ****cm**<sup>**2**</sup>** ****[1]**
 
 > *When applying the cosine rule to find an angle, always set *$a$* to be the side opposite the angle (*$b$* and *$c$* are interchangeable)*
 
-`cos open parentheses x close parentheses equals fraction numerator 11 squared plus 5 squared minus 13 squared over denominator 2 cross times 11 cross times 5 end fraction`
+$\cos ( x ) = \frac{11^{2} + 5^{2} - 13^{2}}{2 \times 11 \times 5}$
 
 **correct substitution into cosine rule in any form**** ****[1] **
 
@@ -2463,11 +2463,11 @@ $45.0$** ****cm**<sup>**2**</sup>** ****[1]**
 
 > *It's advisable to calculate the numerator and the denominator separately.*
 
-`cos open parentheses x close parentheses equals fraction numerator negative 23 over denominator 110 end fraction`
+$\cos ( x ) = \frac{- 23}{110}$
 
 > *If you prefer to work out cos(*$x$*) on one line of your calculator, remember to put brackets around the numerator and the denominator:*
 
-`table row cell cos open parentheses x close parentheses end cell equals cell open parentheses 11 squared plus 5 squared minus 13 squared close parentheses divided by open parentheses 2 cross times 11 cross times 5 close parentheses end cell row blank equals cell negative 0.209090909... end cell end table`
+$\begin{gathered} \cos ( x ) & = ( 11^{2} + 5^{2} - 13^{2} ) \div ( 2 \times 11 \times 5 ) \\ = - 0.209090909... \end{gathered}$
 
 **  **$\frac{-23}{110}$** or **$-0.209090909...$** [1]**
 
@@ -2480,17 +2480,17 @@ $x=102.1^{\circ}$* *** [1]**
 ### Q50
 > *i) Substitute the values in the diagram into the area of a triangle formula, *$A=\frac{1}{2}ab\mathrm{sin}C$*, where *$a$* and *$b$* are the two known sides and *$C$* is the included angle.*
 
-`70 equals 1 half cross times open parentheses x plus 4 close parentheses cross times open parentheses 4 x minus 5 close parentheses cross times sin open parentheses 30 close parentheses`
+$70 = 1 \frac{1}{2} \times ( x + 4 ) \times ( 4 x - 5 ) \times \sin ( 30 )$
 
 **[1]**
 
 > *Simplify the right hand side.*
 
-`70 equals 1 fourth open parentheses x plus 4 close parentheses open parentheses 4 x minus 5 close parentheses`
+$70 = 1 \frac{1}{4} ( x + 4 ) ( 4 x - 5 )$
 
 > *Multiply both sides by 4.*
 
-`280 equals open parentheses x plus 4 close parentheses open parentheses 4 x minus 5 close parentheses`
+$280 = ( x + 4 ) ( 4 x - 5 )$
 
 **[1]**
 
@@ -2547,13 +2547,13 @@ $7.39372...+4=11.39372...$
 
 > *Substitute your values, *$a=12,A=x^{\circ},b=8$* and *$B=39^{\circ}$* into the sine rule, *$\frac{\mathrm{sin}A}{a}=\frac{\mathrm{sin}B}{b}=\frac{\mathrm{sin}C}{c}$*.*
 
-`table row cell fraction numerator sin open parentheses x close parentheses over denominator 12 end fraction end cell equals cell fraction numerator sin open parentheses 39 close parentheses over denominator 8 end fraction end cell end table`
+$\begin{gathered} \frac{\sin ( x )}{12} & = \frac{\sin ( 39 )}{8} \end{gathered}$
 
 **[1]**
 
 > *Multiply both sides by 12.*
 
-`table attributes columnalign right center left columnspacing 0px end attributes row cell sin left parenthesis x right parenthesis end cell equals cell fraction numerator 12 sin left parenthesis 39 right parenthesis over denominator 8 end fraction end cell end table`
+$\begin{array}{rcl} \sin ( x ) & = \frac{12 \sin ( 39 )}{8} \end{array}$
 
 **[1]**
 

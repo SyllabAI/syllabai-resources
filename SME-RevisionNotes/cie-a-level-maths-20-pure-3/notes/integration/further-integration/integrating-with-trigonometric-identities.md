@@ -27,8 +27,8 @@ guided_study: true
 - You may need to use the compound angle formulae or the double angle formulae
 - Note the difference between the **±** and **∓** symbols!
 - $\mathrm{sin}(A\pmB)\equiv\mathrm{sin}A\mathrm{cos}B\pm\mathrm{cos}A\mathrm{sin}B$
-- `cos left parenthesis A plus-or-minus B right parenthesis space identical to cos A cos B space minus-or-plus space sin A sin B`
-- `tan left parenthesis A plus-or-minus B right parenthesis space identical to fraction numerator tan A space plus-or-minus space tan B over denominator 1 space minus-or-plus space tan A tan B end fraction`  $(A\pmB\neq(k+\frac{1}{2})π)$
+- $\cos ( A \pm B ) \equiv \cos A \cos B --or-+ \sin A \sin B$
+- $\tan ( A \pm B ) \equiv \frac{\tan A \pm \tan B}{1 --or-+ \tan A \tan B}$  $(A\pmB\neq(k+\frac{1}{2})π)$
 - $\mathrm{sin}2A\equiv2\mathrm{sin}A\mathrm{cos}A$
 - $\mathrm{cos}2A\equiv\mathrm{cos}^{2}A-\mathrm{sin}^{2}A\equiv2\mathrm{cos}^{2}A-1\equiv1-2\mathrm{sin}^{2}A$
 - $\mathrm{tan}2A\equiv\frac{2\mathrm{tan}A}{1-\mathrm{tan}^{2}A}$
@@ -82,9 +82,9 @@ guided_study: true
 
 ### How do I integrate tan x?
 
-- `integral tan space x space d x space equals space ln open vertical bar sec space x close vertical bar space plus space c`
+- $\int \tan x d x = \ln \left| \sec x \right| + c$
 - This is **not in** the formula booklet
-- It can be derived from writing $\mathrm{tan}x$ as $\frac{\mathrm{sin}x}{\mathrm{cos}x}$ and recognising that `integral space fraction numerator f apostrophe left parenthesis x right parenthesis over denominator f left parenthesis x right parenthesis end fraction d x space equals space ln open vertical bar space f left parenthesis x right parenthesis close vertical bar`
+- It can be derived from writing $\mathrm{tan}x$ as $\frac{\mathrm{sin}x}{\mathrm{cos}x}$ and recognising that $\int \frac{f ' ( x )}{f ( x )} d x = \ln \left| f ( x ) \right|$
 
   - Note that this is in the formula booklet
 

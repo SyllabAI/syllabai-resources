@@ -65,9 +65,9 @@ $\mathrm{Labour} \mathrm{turnover}=\frac{\mathrm{Number} \mathrm{of} \mathrm{sta
 > 
 > **Step 3 - Calculate the percentage difference between the two years ((new-old) / old)**
 > 
-> `equals space fraction numerator space 1 comma 150 space minus space 920 space units over denominator 920 space units end fraction space space space cross times space space space space space 100 space space space
+> $= \frac{ 1 , 150 - 920 units}{920 units} \times 100 
 > 
-> equals space 25 space percent sign space`    **(1)**
+> = 25 \%$    **(1)**
 > 
 > **Step 4 - Identify whether the percentage difference is an increase or decrease**
 > 
@@ -97,9 +97,9 @@ $\mathrm{Absenteeism} \mathrm{rate}=\frac{\mathrm{Number} \mathrm{of} \mathrm{st
 > 
 > **Step 1: Substitute the values into the formula**
 > 
-> `equals space 22 over 189 space cross times space 100
+> $= \frac{22}{189} \times 100
 > 
-> equals space 11.64 percent sign`      **(2)**
+> = 11.64 \%$      **(2)**
 
 ### 3. Employee costs as a percentage of turnover
 
@@ -108,7 +108,7 @@ $\mathrm{Absenteeism} \mathrm{rate}=\frac{\mathrm{Number} \mathrm{of} \mathrm{st
   - It helps assess how efficiently the workforce is being used
 - It is calculated using the formula:
 
-`Employee space costs space as space percent sign space of space turnover equals space fraction numerator Employee space costs over denominator Turnover end fraction space straight x space 100`
+$Employee \text{costs} as \% of \text{turnover} = \frac{Employee costs}{Turnover} \mathrm{x} 100$
 
 > **Worked Example**
 > In the 2022–2023 financial year, Tesla had:
@@ -122,9 +122,9 @@ $\mathrm{Absenteeism} \mathrm{rate}=\frac{\mathrm{Number} \mathrm{of} \mathrm{st
 > 
 > **Step 1 - Substitute the values into the formula**
 > 
-> `equals fraction numerator space 2 comma 894 space million over denominator 5 comma 297 space million end fraction space straight x space 100
+> $= \frac{ 2 , 894 million}{5 , 297 million} \mathrm{x} 100
 > 
-> equals space 54.6 percent sign`          **(1)**
+> = 54.6 \%$          **(1)**
 > 
 > **Step 2 - Present the final answer**
 > 

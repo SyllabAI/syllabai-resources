@@ -95,11 +95,11 @@ guided_study: true
 > 
 > **Answer:**
 > 
-> > *Use the table function on your calculator for *`straight f open parentheses x close parentheses equals 10 minus 8 x squared`
+> > *Use the table function on your calculator for *$\mathrm{f} ( x ) = 10 - 8 x^{2}$
 > *Start at -1.5, end at 1.5 and use steps of 0.5*
 > *On a non-calculator paper, substitute the **x**-values into the equation, for example** x** = -1.5*
 > 
-> `table row y equals cell 10 minus 8 open parentheses negative 1.5 close parentheses squared end cell row blank equals cell 10 minus 8 cross times 2.25 end cell row blank equals cell 10 minus 18 end cell row blank equals cell negative 8 end cell end table`
+> $\begin{gathered} y = 10 - 8 ( - 1.5 )^{2} \\ = 10 - 8 \times 2.25 \\ = 10 - 18 \\ = - 8 \end{gathered}$
 > 
 > | $x$ | $-1.5$ | $-1$ | $-0.5$ | $0$ | $0.5$ | $1$ | $1.5$ |
 > |---|---|---|---|---|---|---|---|

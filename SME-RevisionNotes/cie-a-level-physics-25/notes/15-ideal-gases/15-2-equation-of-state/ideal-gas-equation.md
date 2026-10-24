@@ -61,11 +61,11 @@ $pV=NkT$
 > 
 > **Step 3:** **Substitute in values**
 > 
-> `V space equals space 8.3 space cross times space 10 cubed space cm cubed space equals space open parentheses 8.3 space cross times space 10 cubed close parentheses space cross times space 10 to the power of negative 6 end exponent space equals space 8.3 space cross times space 10 to the power of negative 3 end exponent space straight m cubed space`
+> $V = 8.3 \times 10^{3} cm^{3} = ( 8.3 \times 10^{3} ) \times 10^{- 6} = 8.3 \times 10^{- 3} \mathrm{m}^{3}$
 > 
 > $T=15^{\circ}C+273.15=288.15K$
 > 
-> `n space equals space fraction numerator open parentheses 4.5 space cross times space 10 to the power of 7 close parentheses space cross times space open parentheses 8.3 space cross times space 10 to the power of negative 3 end exponent close parentheses space over denominator 8.31 space cross times space 288.15 end fraction space equals space 155.98 space equals space 160 space moles`
+> $n = \frac{( 4.5 \times 10^{7 ) \times ( 8.3 \times 10^{-3} } ) }{8.31 \times 288.15} = 155.98 = 160 \text{moles}$
 
 > **Exam Hint**
 > Don’t worry about remembering the values of R and k, they will both be given in the equation sheet in your exam.

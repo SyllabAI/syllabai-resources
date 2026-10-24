@@ -58,17 +58,17 @@ guided_study: false
 > 
 > **Step 1: Substitute the values into the formula**
 > 
-> `Gross space profit space equals space fraction numerator Gross space profit space over denominator Revenue end fraction space cross times space 100 space space space
+> $\text{Gross} \text{profit} = \frac{Gross \text{profit} }{Revenue} \times 100 
 > 
-> equals space fraction numerator $ 105 comma 731 over denominator space $ 124 comma 653 space end fraction
+> = \frac{\$ 105 , 731}{ \$ 124 , 653 } 
 > 
-> equals space space 0.8482 space`   **[1 mark]**
+> = 0.8482$   **[1 mark]**
 > 
 > **Step 2: Multiply the outcome by 100 to find the percentage**
 > 
-> `equals space 0.8482 space cross times space 100
+> $= 0.8482 \times 100
 > 
-> equals space 84.82 percent sign`**        ****[1 mark]**
+> = 84.82 \%$**        ****[1 mark]**
 > 
 > > *84.82% of **Head to Toe Wellbeing’s** revenue was converted into gross profit during 2022*
 
@@ -103,17 +103,17 @@ $\text{Operating profit margin =}\frac{\mathrm{Operating} \mathrm{profit}}{\m
 > 
 > **Step 1: Substitute the values into the formula**
 > 
-> `text Operating profit margin =  end text fraction numerator Operating space profit over denominator Revenue end fraction cross times 100
+> $\text{Operating \text{profit} \text{margin} = } \frac{Operating profit}{Revenue} \times 100
 > 
-> equals space fraction numerator $ 65 comma 864 over denominator $ 124 comma 653 end fraction
+> = \frac{\$ 65 , 864}{\$ 124 , 653} 
 > 
-> equals space 0.5284`   ** ****[1 mark]**
+> = 0.5284$   ** ****[1 mark]**
 > 
 > **Step 2: Multiply the outcome by 100 to find the percentage**
 > 
-> `equals space 0.5284 space cross times space 100
+> $= 0.5284 \times 100
 > 
-> equals space 52.84 percent sign`                 ** ****[1 mark]**
+> = 52.84 \%$                 ** ****[1 mark]**
 > 
 > > *In 2022, 52.84% of Head to Toe Wellbeing’s revenue was converted into operating profit *
 
@@ -150,21 +150,21 @@ $\mathrm{Markup}=\frac{\mathrm{Profit} \mathrm{per} \mathrm{item}}{\mathrm{Cost}
 > 
 > **Step 1: Calculate the profit per item**
 > 
-> `equals space space $ 20 space minus space $ 12.13
+> $= \$ 20 - \$ 12.13
 > 
-> equals space $ 7.87`    **[1 mark]**
+> = \$ 7.87$    **[1 mark]**
 > 
 > **Step 2: Divide profit per item by cost per item**
 > 
-> `equals space $ 7.87 space divided by space $ 12.13
+> $= \$ 7.87 \div \$ 12.13
 > 
-> equals space 0.6488`
+> = 0.6488$
 > 
 > **Step 3: Multiply the outcome by 100**
 > 
-> `equals space 0.6488 space cross times space 100
+> $= 0.6488 \times 100
 > 
-> equals space 64.88 percent sign`**         ****[1 mark]**** **
+> = 64.88 \%$**         ****[1 mark]**** **
 
 ## Return on capital employed
 
@@ -203,25 +203,21 @@ $\mathrm{Capital} \mathrm{employed}=\mathrm{Non}-\mathrm{current} \mathrm{liabil
 > 
 > ** Step 1: Calculate the capital employed**
 > 
-> `Capital space employed space equals space Non minus current space liabilities space plus space Equity
-> 
-> Capital space employed space equals space € 1.5 space straight m space plus space € 15.4 space straight m
-> 
-> Capital space employed space equals space € 16.9 space straight m`**         ****[1 mark]**** **
+> $Capital \text{employed} = Non - \text{current} \text{liabilities} + Equity > > Capital \text{employed} = \text{€} 1.5 \mathrm{m} + \text{€} 15.4 \mathrm{m} > > Capital \text{employed} = \text{€} 16.9 \mathrm{m}$**         ****[1 mark]**** **
 > 
 > **Step 2: Divide Operating Profit by Capital Employed**
 > 
-> `equals fraction numerator space Operating space profit over denominator Capital space employed end fraction space
+> $= \frac{ \text{Operating} profit}{Capital employed} 
 > 
-> equals space fraction numerator € 2.2 space straight m over denominator € 16.9 space straight m end fraction
+> = \frac{\text{€} 2.2 \mathrm{m} }{\text{€} 16.9 \mathrm{m} } 
 > 
-> equals space 0.13`**   ****[1 mark]**** **
+> = 0.13$**   ****[1 mark]**** **
 > 
 > **Step 3: Multiply the result by 100 and express the outcome as a percentage**
 > 
-> `equals space 0.13 space cross times space 100
+> $= 0.13 \times 100
 > 
-> equals space 13 percent sign`**   ****[1 mark]**** **
+> = 13 \%$**   ****[1 mark]**** **
 > 
 > **The capital employed in Keals Cosmetics has generated a return of 13% **
 
@@ -257,14 +253,7 @@ $\mathrm{Capital} \mathrm{employed}=\mathrm{Non}-\mathrm{current} \mathrm{liabil
 > 
 > **Step 1: Apply the formula to calculate the RoCE for each branch**
 > 
-> **      **`RoCE equals space fraction numerator Operating space Profit over denominator Capital space Employed end fraction space space cross times space 100
-> 
-> RoCE space Sevenoaks space equals space fraction numerator £ 0.37 straight m over denominator £ 2.4 straight m end fraction space space cross times space 100 space equals space 15.42 percent sign space space space left square bracket 1 space mark right square bracket space space space
-> 
-> RoCE space Whitstable space equals space fraction numerator £ 0.57 straight m over denominator £ 3.1 straight m end fraction space space cross times space 100 space equals space 18.39 percent sign space space left square bracket 1 space mark right square bracket
-> 
-> RoCE space Rochester space equals space fraction numerator £ 0.51 straight m over denominator £ 2.9 straight m end fraction space space cross times space 100 space equals space 17.59 percent sign space space left square bracket 1 space mark right square bracket
-> `
+> **      **$RoCE = \frac{Operating Profit}{Capital Employed} \times 100 > > RoCE Sevenoaks = \frac{\pounds 0.37 \mathrm{m} }{\pounds 2.4 \mathrm{m} } \times 100 = 15.42 \% [ 1 \text{mark} ] > > RoCE Whitstable = \frac{\pounds 0.57 \mathrm{m} }{\pounds 3.1 \mathrm{m} } \times 100 = 18.39 \% [ 1 \text{mark} ] > > RoCE Rochester = \frac{\pounds 0.51 \mathrm{m} }{\pounds 2.9 \mathrm{m} } \times 100 = 17.59 \% [ 1 \text{mark} ] >$
 > 
 > **Step 2: Identify the least profitable branch for closure**
 > 

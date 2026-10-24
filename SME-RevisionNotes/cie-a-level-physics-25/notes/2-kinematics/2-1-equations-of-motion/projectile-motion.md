@@ -69,7 +69,7 @@ guided_study: true
 > 
 > $L=\frac{1}{2}gt^{2}$
 > 
-> `L space equals space 1 half space cross times space 9.81 space cross times space open parentheses 0.5 close parentheses squared space equals space 1.2 space straight m`
+> $L = 1 \frac{1}{2} \times 9.81 \times ( 0.5 )^{2} = 1.2 \mathrm{m}$
 
 > **Worked Example**
 > A motorcycle stunt-rider moving horizontally takes off from a point 1.25 m above the ground, landing 10 m away as shown.
@@ -142,7 +142,7 @@ guided_study: true
 > 
 > **Step 4: Substitute in the values**
 > 
-> `s space equals space fraction numerator open parentheses 12 sin open parentheses 50 close parentheses close parentheses squared space over denominator 19.62 end fraction space equals space 4.3 space straight m`
+> $s = \frac{( 12 \sin ( 50 ) )^{2} }{19.62} = 4.3 \mathrm{m}$
 
 > **Exam Hint**
 > In the last question, the final velocity can be set to zero because we are only concerned with the object's motion up until it reaches point Q. This is a mathematical trick that simplifies the calculation.

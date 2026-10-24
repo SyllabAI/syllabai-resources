@@ -28,12 +28,12 @@ It only **moves **the graph **up**/**down**/**left**/**right**.
 
 **FRONT**
 
-When a graph is **translated **by the vector `open parentheses table row a row b end table close parentheses`, how many units does it move and in which direction(s)?
+When a graph is **translated **by the vector $( \begin{gathered} a \\ b \end{gathered} )$, how many units does it move and in which direction(s)?
 
 
 **BACK**
 
-When a graph is **translated **by the vector `open parentheses table row a row b end table close parentheses`, it moves $a$ units **right **and $b$ units **upwards**.
+When a graph is **translated **by the vector $( \begin{gathered} a \\ b \end{gathered} )$, it moves $a$ units **right **and $b$ units **upwards**.
 
 If $a$ is negative then it moves left, and if $b$ is negative it moves downwards.
 
@@ -43,12 +43,12 @@ If $a$ is negative then it moves left, and if $b$ is negative it moves downwards
 
 **FRONT**
 
-A graph is transformed from `straight f open parentheses x close parentheses` to `straight f open parentheses x minus a close parentheses`. Describe the transformation fully.
+A graph is transformed from $\mathrm{f} ( x )$ to $\mathrm{f} ( x - a )$. Describe the transformation fully.
 
 
 **BACK**
 
-If a graph is transformed from `straight f open parentheses x close parentheses` to `straight f open parentheses x minus a close parentheses`, this is a **translation **of $a$ units **right**.
+If a graph is transformed from $\mathrm{f} ( x )$ to $\mathrm{f} ( x - a )$, this is a **translation **of $a$ units **right**.
 
 
 
@@ -56,12 +56,12 @@ If a graph is transformed from `straight f open parentheses x close parentheses`
 
 **FRONT**
 
-A graph is transformed from `straight f open parentheses x close parentheses` to `straight f open parentheses x close parentheses plus b`. Describe the transformation fully.
+A graph is transformed from $\mathrm{f} ( x )$ to $\mathrm{f} ( x ) + b$. Describe the transformation fully.
 
 
 **BACK**
 
-If a graph is transformed from `straight f open parentheses x close parentheses` to `straight f open parentheses x close parentheses plus b`, it has been **translated vertically upwards **by $b$ units.
+If a graph is transformed from $\mathrm{f} ( x )$ to $\mathrm{f} ( x ) + b$, it has been **translated vertically upwards **by $b$ units.
 
 
 
@@ -93,11 +93,11 @@ Outline how would you find a **new equation** for a graph which has been **trans
 
 To find a **new equation** for a graph which has been **translated horizontally**, consider how the **function **has been changed.
 
-It has changed from `straight f open parentheses x close parentheses` to `straight f open parentheses x minus a close parentheses`, this is a translation of $a$ units right.
+It has changed from $\mathrm{f} ( x )$ to $\mathrm{f} ( x - a )$, this is a translation of $a$ units right.
 
-Therefore in the equation of the graph, you can simply **replace **$x$ with `open parentheses x minus a close parentheses`.
+Therefore in the equation of the graph, you can simply **replace **$x$ with $( x - a )$.
 
-E.g. $y=x^{2}$ becomes `y equals open parentheses x minus a close parentheses squared`.
+E.g. $y=x^{2}$ becomes $y = ( x - a )^{2}$.
 
 
 
@@ -112,7 +112,7 @@ Outline how would you find a **new equation** for a graph which has been **trans
 
 To find a **new equation** for a graph which has been **translated vertically**, consider how the **function **has been changed.
 
-It has changed from `straight f open parentheses x close parentheses` to `straight f open parentheses x close parentheses plus a`, this is a translation of $a$ units **upwards**.
+It has changed from $\mathrm{f} ( x )$ to $\mathrm{f} ( x ) + a$, this is a translation of $a$ units **upwards**.
 
 Therefore in the equation of the graph, you can simply **add on **$a$
 
@@ -124,14 +124,14 @@ E.g. $y=x^{2}$ becomes $y=x^{2}+a$.
 
 **FRONT**
 
-Describe the transformation that has occurred when $y=x^{2}$ is transformed to `open parentheses x minus p close parentheses squared plus q`.
+Describe the transformation that has occurred when $y=x^{2}$ is transformed to $( x - p )^{2} + q$.
 
 
 **BACK**
 
-When $y=x^{2}$ is transformed to `open parentheses x minus p close parentheses squared plus q`, it has been **translated **$p$ units **right**, and $q$ units **upwards**.
+When $y=x^{2}$ is transformed to $( x - p )^{2} + q$, it has been **translated **$p$ units **right**, and $q$ units **upwards**.
 
-This is why when **completing the square**, the **vertex **is at `open parentheses p comma space q close parentheses`.
+This is why when **completing the square**, the **vertex **is at $( p , q )$.
 
 
 
@@ -139,14 +139,14 @@ This is why when **completing the square**, the **vertex **is at `open parenthes
 
 **FRONT**
 
-The graph of `y equals straight f open parentheses x close parentheses` is transformed to `y equals negative straight f open parentheses x close parentheses`.
+The graph of $y = \mathrm{f} ( x )$ is transformed to $y = - \mathrm{f} ( x )$.
 
 Describe the transformation that has occurred.
 
 
 **BACK**
 
-When the graph of `y equals straight f open parentheses x close parentheses` is transformed to `y equals negative straight f open parentheses x close parentheses`, the graph has been **reflected in the *****x*****-axis**.
+When the graph of $y = \mathrm{f} ( x )$ is transformed to $y = - \mathrm{f} ( x )$, the graph has been **reflected in the *****x*****-axis**.
 
 
 
@@ -154,14 +154,14 @@ When the graph of `y equals straight f open parentheses x close parentheses` is 
 
 **FRONT**
 
-The graph of `y equals straight f open parentheses x close parentheses` is transformed to `y equals straight f open parentheses negative x close parentheses`.
+The graph of $y = \mathrm{f} ( x )$ is transformed to $y = \mathrm{f} ( - x )$.
 
 Describe the transformation that has occurred.
 
 
 **BACK**
 
-When the graph of `y equals straight f open parentheses x close parentheses` is transformed to `y equals straight f open parentheses negative x close parentheses`, the graph has been **reflected in the *****y*****-axis**.
+When the graph of $y = \mathrm{f} ( x )$ is transformed to $y = \mathrm{f} ( - x )$, the graph has been **reflected in the *****y*****-axis**.
 
 
 
@@ -195,11 +195,11 @@ Outline how would you find a **new equation** for a graph which has been **refle
 
 To find a **new equation** for a graph which has been **reflected in the *****x*****-axis**, consider how the **function **has been changed.
 
-It has changed from `straight f open parentheses x close parentheses` to `negative straight f open parentheses x close parentheses`.
+It has changed from $\mathrm{f} ( x )$ to $- \mathrm{f} ( x )$.
 
 Therefore you **multiply the whole equation of the graph by -1**.
 
-E.g. $y=x^{2}-7x+10$ becomes `y equals negative open parentheses x squared minus 7 x plus 10 close parentheses` or $y=-x^{2}+7x-10$.
+E.g. $y=x^{2}-7x+10$ becomes $y = - ( x^{2} - 7 x + 10 )$ or $y=-x^{2}+7x-10$.
 
 
 
@@ -214,11 +214,11 @@ Outline how would you find a **new equation** for a graph which has been **refle
 
 To find a **new equation** for a graph which has been **reflected in the *****y*****-axis**, consider how the **function **has been changed.
 
-It has changed from `straight f open parentheses x close parentheses` to `straight f open parentheses negative x close parentheses`.
+It has changed from $\mathrm{f} ( x )$ to $\mathrm{f} ( - x )$.
 
 Therefore you **replace all the **$x$'s **with **$-x$.
 
-E.g. $y=x^{2}-7x+10$ becomes `y equals open parentheses negative x close parentheses squared minus 7 open parentheses negative x close parentheses plus 10` or $y=x^{2}+7x+10$.
+E.g. $y=x^{2}-7x+10$ becomes $y = ( - x )^{2} - 7 ( - x ) + 10$ or $y=x^{2}+7x+10$.
 
 
 
@@ -239,12 +239,12 @@ In the context of transformations of graphs, a stretch is a transformation that 
 
 **FRONT**
 
-What **transformation** of the graph of `y equals straight f open parentheses x close parentheses` is indicated by the equation `y equals straight f open parentheses a x close parentheses ?`
+What **transformation** of the graph of $y = \mathrm{f} ( x )$ is indicated by the equation $y = \mathrm{f} ( a x ) ?$
 
 
 **BACK**
 
-`y equals straight f open parentheses a x close parentheses` is a **horizontal stretch** (stretch in the $x$-direction) by a **scale factor of **$\frac{1}{a}$.
+$y = \mathrm{f} ( a x )$ is a **horizontal stretch** (stretch in the $x$-direction) by a **scale factor of **$\frac{1}{a}$.
 
 
 
@@ -252,12 +252,12 @@ What **transformation** of the graph of `y equals straight f open parentheses x 
 
 **FRONT**
 
-What **transformation** of the graph of `y equals f open parentheses x close parentheses` is indicated by the equation `y equals a straight f open parentheses x close parentheses ?`
+What **transformation** of the graph of $y = f ( x )$ is indicated by the equation $y = a \mathrm{f} ( x ) ?$
 
 
 **BACK**
 
-`y equals a straight f open parentheses x close parentheses` is a **vertical stretch **(stretch in the $y$-direction) by a **scale factor of **$a$.
+$y = a \mathrm{f} ( x )$ is a **vertical stretch **(stretch in the $y$-direction) by a **scale factor of **$a$.
 
 
 
@@ -267,14 +267,14 @@ What **transformation** of the graph of `y equals f open parentheses x close par
 
 **True or False? **
 
-The equation `y equals straight f open parentheses 2 x close parentheses` represents a** horizontal stretch** by a **factor of **$2$.
+The equation $y = \mathrm{f} ( 2 x )$ represents a** horizontal stretch** by a **factor of **$2$.
 
 
 **BACK**
 
 **False. **
 
-`y equals straight f open parentheses 2 x close parentheses` represents a **horizontal stretch** by a **factor of **$\frac{1}{2}$.
+$y = \mathrm{f} ( 2 x )$ represents a **horizontal stretch** by a **factor of **$\frac{1}{2}$.
 
 Remember that the scale factor of a stretch in the $x$-direction is the** reciprocal** of the coefficient of $x$.
 
@@ -297,12 +297,12 @@ Invariant points are **points on a graph that do not change** during a particula
 
 **FRONT**
 
-What is the **equation** for a** horizontal stretch** of `y equals straight f open parentheses x close parentheses` by a **factor of **$\frac{1}{3}$?
+What is the **equation** for a** horizontal stretch** of $y = \mathrm{f} ( x )$ by a **factor of **$\frac{1}{3}$?
 
 
 **BACK**
 
-The equation for a horizontal stretch of `y equals straight f open parentheses x close parentheses` by a factor of $\frac{1}{3}$ is `y equals straight f open parentheses 3 x close parentheses`.
+The equation for a horizontal stretch of $y = \mathrm{f} ( x )$ by a factor of $\frac{1}{3}$ is $y = \mathrm{f} ( 3 x )$.
 
 
 
@@ -312,14 +312,14 @@ The equation for a horizontal stretch of `y equals straight f open parentheses x
 
 **True or False? **
 
-`y equals 3 straight f open parentheses x close parentheses` represents a **vertical stretch **by a **factor of 3**.
+$y = 3 \mathrm{f} ( x )$ represents a **vertical stretch **by a **factor of 3**.
 
 
 **BACK**
 
 **True. **
 
-`y equals 3 straight f open parentheses x close parentheses` represents a vertical stretch by a factor of 3.
+$y = 3 \mathrm{f} ( x )$ represents a vertical stretch by a factor of 3.
 
 
 
@@ -327,12 +327,12 @@ The equation for a horizontal stretch of `y equals straight f open parentheses x
 
 **FRONT**
 
-What is the **equation** for a** vertical stretch** of `y equals straight f open parentheses x close parentheses` by a **factor of **$4$?
+What is the **equation** for a** vertical stretch** of $y = \mathrm{f} ( x )$ by a **factor of **$4$?
 
 
 **BACK**
 
-The equation for a vertical stretch of `y equals straight f open parentheses x close parentheses` by a factor of $4$ is `y equals 4 straight f open parentheses x close parentheses`.
+The equation for a vertical stretch of $y = \mathrm{f} ( x )$ by a factor of $4$ is $y = 4 \mathrm{f} ( x )$.
 
 
 

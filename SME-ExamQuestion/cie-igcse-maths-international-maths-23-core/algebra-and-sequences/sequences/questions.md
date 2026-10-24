@@ -329,7 +329,7 @@ iii)  Find a formula, in terms of  $n$, for the total number of small triangles,
 
 $t$ = ................................................... [1]
 
-iv) The formula for the number of white triangles, $w$, in Diagram $n$ is `w equals begin inline style 1 half end style n open parentheses n plus 1 close parentheses`. 
+iv) The formula for the number of white triangles, $w$, in Diagram $n$ is $w = 1 \frac{1}{2} n ( n + 1 )$. 
 Show that this formula gives the correct number of white triangles when $n$ = 3.
 
 [2]

@@ -8,14 +8,14 @@
 ### Q1
 > *Substitute *$x=-1$*, *$x=0$* and *$x=3$* into the equation *$y=7+2x-x^{2}$*. *
 
-`y equals 7 plus open parentheses 2 cross times negative 1 close parentheses minus open parentheses negative 1 close parentheses squared
-bold italic y bold equals bold 4
+$y = 7 + ( 2 \times - 1 ) - ( - 1 )^{2}
+ y = 4
 
-y equals 7 plus open parentheses 2 cross times 0 close parentheses minus open parentheses 0 close parentheses squared
-bold italic y bold equals bold 7
+y = 7 + ( 2 \times 0 ) - ( 0 )^{2}
+ y = 7
 
-y equals 7 plus open parentheses 2 cross times 3 close parentheses minus open parentheses 3 close parentheses squared
-bold italic y bold equals bold 4`
+y = 7 + ( 2 \times 3 ) - ( 3 )^{2}
+ y = 4$
 
 > *Put the values into the table in the correct places.*
 
@@ -124,20 +124,20 @@ $x=1.6$ **[1]**
 ### Q4
 > *Substitute *$x=-3$*, *$x=0$*, *$x=1$*, *$x=3$* and *$x=4$* into the equation to find the corresponding *$y$* values. *
 
-`y equals negative open parentheses negative 3 close parentheses squared plus open parentheses negative 3 close parentheses plus 5
-bold italic y bold equals bold minus bold 7
+$y = - ( - 3 )^{2} + ( - 3 ) + 5
+ y = - 7
 
-y equals negative open parentheses 0 close parentheses squared plus open parentheses 0 close parentheses plus 5
-bold italic y bold equals bold 5
+y = - ( 0 )^{2} + ( 0 ) + 5
+ y = 5
 
-y equals negative open parentheses 1 close parentheses squared plus open parentheses 1 close parentheses plus 5
-bold italic y bold equals bold 5
+y = - ( 1 )^{2} + ( 1 ) + 5
+ y = 5
 
-y equals negative open parentheses 3 close parentheses squared plus open parentheses 3 close parentheses plus 5
-bold italic y bold equals bold minus bold 1
+y = - ( 3 )^{2} + ( 3 ) + 5
+ y = - 1
 
-y equals negative open parentheses 4 close parentheses squared plus open parentheses 4 close parentheses plus 5
-bold italic y bold equals bold minus bold 7`
+y = - ( 4 )^{2} + ( 4 ) + 5
+ y = - 7$
 
 > * *
 
@@ -224,7 +224,7 @@ $y=\frac{15}{5}\,y=3$
 **2 marks for 4 or 5 correct values**
 > *Plot the coordinates from part (a). Each pair of *$x$* and *$y$* values make a coordinate.*
 
-> `open parentheses negative 5 comma negative 3 close parentheses`*  *`open parentheses negative 3 comma negative 5 close parentheses`*  *`open parentheses negative 2 comma negative 7.5 close parentheses`*  *`open parentheses negative 1 comma negative 15 close parentheses`*  *`open parentheses 1 comma space 15 close parentheses`*  *`open parentheses 2 comma space 7.5 close parentheses`*  *`open parentheses 3 comma space 5 close parentheses`* and *`open parentheses 5 comma space 3 close parentheses`*. *
+> $( - 5 , - 3 )$*  *$( - 3 , - 5 )$*  *$( - 2 , - 7.5 )$*  *$( - 1 , - 15 )$*  *$( 1 , 15 )$*  *$( 2 , 7.5 )$*  *$( 3 , 5 )$* and *$( 5 , 3 )$*. *
 
 ![oct-nov-2020-0580-31-q9b](assets/021-oct-nov-2020-0580-31-q9b.gif)
 
@@ -254,13 +254,13 @@ $x=2.5$* ***[1]**
 **Answers in the range 2.4 - 2.6 will be accepted**
 
 ### Q6
-> *The *$y-$*intercept *$c$* is at *`open parentheses 0 comma space 6 close parentheses`* as seen on the graph so when *$x=0,y=6$*.*
+> *The *$y-$*intercept *$c$* is at *$( 0 , 6 )$* as seen on the graph so when *$x=0,y=6$*.*
 
 $y=mx+6$
 
 **[1]**
 
-> *The *$x-$*intercept is at *`open parentheses 1.2 comma space 0 close parentheses`* as seen on the graph so when *$x=1.2,y=0$*.*
+> *The *$x-$*intercept is at *$( 1.2 , 0 )$* as seen on the graph so when *$x=1.2,y=0$*.*
 
 > *Substitute these two pairs of coordinates into the formula for the gradient of a straight line *$m=$$\frac{\mathrm{rise}}{\mathrm{run}}$*.*
 
@@ -277,7 +277,7 @@ $=-5$
 $y=-5x+6$* ***[1]**
 i) *Substitute *$x=-1$* and *$x=2$* into the equation and solve for *$y$*.*
 
-`y equals open parentheses negative 1 close parentheses squared plus 2 cross times open parentheses negative 1 close parentheses plus 4 equals 3`
+$y = ( - 1 )^{2} + 2 \times ( - 1 ) + 4 = 3$
 
 $y=2^{2}+2\times2+4=12$
 
@@ -348,11 +348,11 @@ $x=0.5$ **[1]**
 ### Q8
 > *Substitute the values of *$x=-2,2,3$* into the equation and evaluate for *$y$*.*
 
-`x equals negative 2 colon space 5 plus 2 cross times open parentheses negative 2 close parentheses minus open parentheses negative 2 close parentheses squared equals negative 3`
+$x = - 2 : 5 + 2 \times ( - 2 ) - ( - 2 )^{2} = - 3$
 
-`x equals 2 colon space 5 plus 2 cross times open parentheses 2 close parentheses minus open parentheses 2 close parentheses squared equals 5`
+$x = 2 : 5 + 2 \times ( 2 ) - ( 2 )^{2} = 5$
 
-`x equals 3 colon space 5 plus 2 cross times open parentheses 3 close parentheses minus open parentheses 3 close parentheses squared equals 2`
+$x = 3 : 5 + 2 \times ( 3 ) - ( 3 )^{2} = 2$
 
 **[2] **
 **1 mark for any 2 correct**
@@ -414,15 +414,15 @@ $y=2x+4$** [1]**
 ### Q9
 i) *Substitute *$x=-4,x=-1$* and *$x=2$* into the equation and solve for *$y$*.*
 
-`x equals negative 4 colon space y equals negative 4 cross times open parentheses 3 minus negative 4 close parentheses equals negative 4 cross times 7 equals negative 28`
+$x = - 4 : y = - 4 \times ( 3 - - 4 ) = - 4 \times 7 = - 28$
 
 **[1]**
 
-`x equals negative 1 colon space y equals negative 1 cross times open parentheses 3 minus negative 1 close parentheses equals negative 1 cross times 4 equals negative 4`
+$x = - 1 : y = - 1 \times ( 3 - - 1 ) = - 1 \times 4 = - 4$
 
 **[1]**
 
-`x equals 2 colon space y equals 2 cross times open parentheses 3 minus 2 close parentheses equals 2 cross times 1 equals 2`
+$x = 2 : y = 2 \times ( 3 - 2 ) = 2 \times 1 = 2$
 
 **[1]**
 
@@ -451,14 +451,14 @@ $(1.5,2.25)$ **[1]**
 
 > * *
 
-`y equals 1 plus open parentheses 5 cross times negative 1 close parentheses minus open parentheses negative 1 close parentheses squared
-bold italic y bold equals bold minus bold 5
+$y = 1 + ( 5 \times - 1 ) - ( - 1 )^{2}
+ y = - 5
 
-y equals 1 plus open parentheses 5 cross times 2 close parentheses minus open parentheses 2 close parentheses squared
-bold italic y bold equals bold 7
+y = 1 + ( 5 \times 2 ) - ( 2 )^{2}
+ y = 7
 
-y equals 1 plus open parentheses 5 cross times 4 close parentheses minus open parentheses 4 close parentheses squared
-bold italic y bold equals bold 5`
+y = 1 + ( 5 \times 4 ) - ( 4 )^{2}
+ y = 5$
 
 > *Write into the table in the correct places. *
 
@@ -497,9 +497,9 @@ $x=0.4\mathrm{or}x=4.6$** ****[2]**
 ### Q11
 i) *Work out the missing values *
 
-`y space equals space 3 squared space minus space 2 open parentheses 3 close parentheses space equals space 3`
+$y = 3^{2} - 2 ( 3 ) = 3$
 
-`y space equals space open parentheses negative 1 close parentheses squared space minus space 2 open parentheses negative 1 close parentheses space equals space 3`
+$y = ( - 1 )^{2} - 2 ( - 1 ) = 3$
 
 | $x$ | -2 | -1 | 0 | 1 | 2 | 3 | 4 |
 |---|---|---|---|---|---|---|---|
@@ -519,9 +519,9 @@ ii)
 ### Q12
 i) *Substitute *$x=-3$*, *$x=0$*, and *$x=9$* into the equation and solve for *$y$*. *
 
-`y equals open parentheses negative 3 close parentheses squared minus 10 cross times open parentheses negative 3 close parentheses equals 9 plus 30 equals 39`
-`y equals open parentheses 0 close parentheses squared minus 10 cross times open parentheses 0 close parentheses equals 0 minus 0 equals 0`
-`y equals open parentheses 9 close parentheses squared minus 10 cross times open parentheses 9 close parentheses equals 81 minus 90 equals negative 9`
+$y = ( - 3 )^{2} - 10 \times ( - 3 ) = 9 + 30 = 39$
+$y = ( 0 )^{2} - 10 \times ( 0 ) = 0 - 0 = 0$
+$y = ( 9 )^{2} - 10 \times ( 9 ) = 81 - 90 = - 9$
 
 > *Complete the table of values.*
 
@@ -555,7 +555,7 @@ $(5,-25)$ **[1]**
 ### Q13
 > *Substitute *$x=-2$* into the equation.  *
 
-> `y equals open parentheses negative 2 close parentheses squared minus open parentheses 4 cross times negative 2 close parentheses minus 3`*   *
+> $y = ( - 2 )^{2} - ( 4 \times - 2 ) - 3$*   *
 
 > *Evaluate.  *
 
@@ -563,7 +563,7 @@ $(5,-25)$ **[1]**
 
 > *Substitute *$x=2$* into the equation.  *
 
-> `y equals open parentheses 2 close parentheses squared minus open parentheses 4 cross times 2 close parentheses minus 3`*   *
+> $y = ( 2 )^{2} - ( 4 \times 2 ) - 3$*   *
 
 > *Evaluate.  *
 
@@ -599,9 +599,9 @@ $-0.6\mathrm{and}4.6$* ***[2] **
 > *Substitute the given values into the equation to find the values of **y.  *
 *Use brackets to avoid mistakes with negative numbers.  *
 
-`y space equals space open parentheses negative 1 close parentheses to the power of 2 space end exponent minus space 5 open parentheses negative 1 close parentheses space plus thin space 3 space equals space 9
-y space equals space open parentheses 0 close parentheses to the power of 2 space end exponent minus space 5 open parentheses 0 close parentheses space plus thin space 3 space equals space 3
-y space equals space open parentheses 6 close parentheses to the power of 2 space end exponent minus space 5 open parentheses 6 close parentheses space plus thin space 3 space equals space 9`*  *
+$y = ( - 1 )^{2 } - 5 ( - 1 ) + 3 = 9
+y = ( 0 )^{2 } - 5 ( 0 ) + 3 = 3
+y = ( 6 )^{2 } - 5 ( 6 ) + 3 = 9$*  *
 
 | $x$ | -1 | 0 | 1 | 2 | 3 | 4 | 5 | 6 |
 |---|---|---|---|---|---|---|---|---|
@@ -629,23 +629,23 @@ y space equals space open parentheses 6 close parentheses to the power of 2 spac
 
 > * *
 
-`y equals open parentheses negative 2 close parentheses squared minus open parentheses 3 cross times negative 2 close parentheses minus 6
-bold italic y bold equals bold 4
+$y = ( - 2 )^{2} - ( 3 \times - 2 ) - 6
+ y = 4
 
-y equals open parentheses 0 close parentheses squared minus open parentheses 3 cross times 0 close parentheses minus 6
-bold italic y bold equals bold minus bold 6
+y = ( 0 )^{2} - ( 3 \times 0 ) - 6
+ y = - 6
 
-y equals open parentheses 1 close parentheses squared minus open parentheses 3 cross times 1 close parentheses minus 6
-bold italic y bold equals bold minus bold 8
+y = ( 1 )^{2} - ( 3 \times 1 ) - 6
+ y = - 8
 
-y equals open parentheses 2 close parentheses squared minus open parentheses 3 cross times 2 close parentheses minus 6
-bold italic y bold equals bold minus bold 8
+y = ( 2 )^{2} - ( 3 \times 2 ) - 6
+ y = - 8
 
-y equals open parentheses 3 close parentheses squared minus open parentheses 3 cross times 3 close parentheses minus 6
-bold italic y bold equals bold minus bold 6
+y = ( 3 )^{2} - ( 3 \times 3 ) - 6
+ y = - 6
 
-y equals open parentheses 5 close parentheses squared minus open parentheses 3 cross times 5 close parentheses minus 6
-bold italic y bold equals bold 4`
+y = ( 5 )^{2} - ( 3 \times 5 ) - 6
+ y = 4$
 
 > * *
 

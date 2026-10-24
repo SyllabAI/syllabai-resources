@@ -52,7 +52,7 @@ guided_study: false
 
 - The **displacement** of an object, $s$ metres, can be written as a **function of time**, $t$ seconds
 
-  - `s equals straight f open parentheses t close parentheses`
+  - $s = \mathrm{f} ( t )$
 - **Substitute **a value of time in to **find its displacement **at that time
 
   - For example, $s=2t-t^{2}+1$
@@ -129,7 +129,7 @@ guided_study: false
 > > *Initial means *$t=0$
 > *Substitute *$t=0$* into *$s$* to find the initial displacement*
 > 
-> `table row s equals cell 0 cubed minus 6 cross times 0 squared minus 3 end cell row blank equals cell negative 3 end cell end table`
+> $\begin{gathered} s = 0^{3} - 6 \times 0^{2} - 3 \\ = - 3 \end{gathered}$
 > 
 > > *Distance is always positive, so convert -3 into 3*
 > 
@@ -154,9 +154,9 @@ guided_study: false
 > > *The particle is at rest when *$v=0$
 > *Set *$v=0$* and solve to find *$t$
 > 
-> `0 equals 3 t squared minus 12 t
-> 0 equals t squared minus 4 t
-> 0 equals t open parentheses t minus 4 close parentheses`
+> $0 = 3 t^{2} - 12 t
+> 0 = t^{2} - 4 t
+> 0 = t ( t - 4 )$
 > 
 > $t=0$* or *$t=4$
 > 

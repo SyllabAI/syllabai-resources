@@ -6,11 +6,11 @@
 
 
 ### Q1
-> *Use the TABLE function on your calculator for *`f open parentheses x close parentheses equals x squared minus 2 x`*, starting at -2, ending at 4 and with steps of 1*
+> *Use the TABLE function on your calculator for *$f ( x ) = x^{2} - 2 x$*, starting at -2, ending at 4 and with steps of 1*
 
 > *If your calculator does not have a TABLE function then substitute the values of *$x$* into the function one by one for the missing values, being careful to put negative numbers in brackets, e.g.*
 
-`x equals negative 2 comma space y equals open parentheses negative 2 close parentheses squared minus 2 open parentheses negative 2 close parentheses equals 8`
+$x = - 2 , y = ( - 2 )^{2} - 2 ( - 2 ) = 8$
 
 | $x$ | $-2$ | $-1$ | $0$ | $1$ | $2$ | $3$ | $4$ |
 |---|---|---|---|---|---|---|---|
@@ -23,7 +23,7 @@
 **Before writing your answers in the table, double check that the **$y$**-values the calculator gives you match the values that are already in the table**
 > *Carefully plot the points from your table of values in (a) on the grid, noting the different scales on the *$x$* and *$y$* axes*
 
-*For example, the first column represents the point *`open parentheses negative 2 comma space 8 close parentheses`
+*For example, the first column represents the point *$( - 2 , 8 )$
 
 > *After plotting the points, join them with a smooth curve- do not use a ruler!*
 
@@ -40,7 +40,7 @@
 
 > *In this case, add 2 to both sides*
 
-`table attributes columnalign right center left columnspacing 0px end attributes row cell x squared minus 2 x minus 2 end cell equals 1 row cell x squared minus 2 x end cell equals 3 end table`
+$\begin{array}{rcl} x^{2} - 2 x - 2 & = 1 \\ x^{2} - 2 x & = 3 \end{array}$
 
 > *Now draw the line *$y=3$* on the graph and read the *$x$* values where this line and *$y=x^{2}-2x$* intersect*
 
@@ -60,23 +60,23 @@ $x^{2}-2x-3=0$
 
 > *Factorise*
 
-`open parentheses x minus 3 close parentheses open parentheses x plus 1 close parentheses equals 0`
+$( x - 3 ) ( x + 1 ) = 0$
 
 **[1]**
 
 > *If A × B = 0, either A = 0 or B = 0 therefore*
 
-`table row cell x minus 3 end cell equals cell 0 space space space space space or space space space space x plus 1 equals 0 end cell end table`
+$\begin{gathered} x - 3 & = 0 \text{or} x + 1 = 0 \end{gathered}$
 
 **x**** = −1, ****x ****= 3 ****[1]**
 **Both possible ****x**** values must be stated to achieve full marks**
 
 ### Q2
-> *Use the TABLE function on your calculator for *`f open parentheses x close parentheses equals x squared minus x minus 6`*, starting at -3, ending at 3 and with steps of 1*
+> *Use the TABLE function on your calculator for *$f ( x ) = x^{2} - x - 6$*, starting at -3, ending at 3 and with steps of 1*
 
 > *If your calculator does not have a TABLE function then substitute the values of *$x$* into the function one by one for the missing values, being careful to put negative numbers in brackets, e.g.*
 
-`x equals negative 2 comma space y equals open parentheses negative 2 close parentheses squared minus open parentheses negative 2 close parentheses minus 6 equals 0`
+$x = - 2 , y = ( - 2 )^{2} - ( - 2 ) - 6 = 0$
 
 | $x$ | $-3$ | $-2$ | $-1$ | $0$ | $1$ | $2$ | $3$ |
 |---|---|---|---|---|---|---|---|
@@ -89,7 +89,7 @@ $x^{2}-2x-3=0$
 **Before writing your answers in the table, double check that the **$y$**-values the calculator gives you match the values that are already in the table**
 > *Carefully plot the points from your table of values in (a) on the grid, noting the different scales on the *$x$* and *$y$* axes*
 
-*For example, the first column represents the point *`open parentheses negative 3 comma space minus 6 close parentheses`
+*For example, the first column represents the point *$( - 3 , - 6 )$
 
 > *After plotting the points, join them with a smooth curve- do not use a ruler!*
 
@@ -190,13 +190,13 @@ $y=0$* ***[1]**
 
 *Find the *$y$* coordinate when *$x=2$* (by substituting *$x=2$* into the equation)* * *
 
-`table row y equals cell 2 cubed minus 3 cross times 2 squared plus 2 end cell row blank equals cell 8 minus 12 plus 2 end cell end table`
+$\begin{gathered} y = 2^{3} - 3 \times 2^{2} + 2 \\ = 8 - 12 + 2 \end{gathered}$
 
 $y=-2$* ***[1]**
 
 *Find the *$y$* coordinate when *$x=2.75$* (by substituting *$x=2.75$* into the equation)* * *
 
-`table row y equals cell 2.75 cubed minus 3 cross times 2.75 squared plus 2.75 end cell row blank equals cell 0.859365 end cell end table` * *
+$\begin{gathered} y = 2.75^{3} - 3 \times 2.75^{2} + 2.75 \\ = 0.859365 \end{gathered}$ * *
 
 > *Round this value of *$y$* to 1 decimal place (as this is used in the table)*
 
@@ -228,11 +228,11 @@ $-0.4<x<1$** [2]**
 **Values between -0.45 to -0.35 are accepted for the lower point and 2.35 to 2.45 for the upper point**
 i) *The equation *$x^{3}-3x^{2}+2x-1=0$* must be changed into the form *$x^{3}-3x^{2}+x=...$* (making the graph the subject) Form the correct *$x$* term (by subtracting *$x$*from both sides)  *
 
-> `table attributes columnalign right center left columnspacing 0px end attributes row cell x cubed minus 3 x squared plus 2 x minus 1 minus x end cell equals cell 0 minus x end cell row cell x cubed minus 3 x squared plus x minus 1 end cell equals cell negative x end cell end table`*  *
+> $\begin{array}{rcl} x^{3} - 3 x^{2} + 2 x - 1 - x & = 0 - x \\ x^{3} - 3 x^{2} + x - 1 & = - x \end{array}$*  *
 
 > *Form the correct number term (by adding 1 to both sides)  *
 
-> `table row cell x cubed minus 3 x squared plus x minus 1 plus 1 end cell equals cell negative x plus 1 end cell row cell x cubed minus 3 x squared plus x end cell equals cell negative x plus 1 end cell end table`*  *
+> $\begin{gathered} x^{3} - 3 x^{2} + x - 1 + 1 & = - x + 1 \\ x^{3} - 3 x^{2} + x & = - x + 1 \end{gathered}$*  *
 
 > *The straight-line graph to draw is *$y=$*"right-hand side" Write down the equation of this line*
 
@@ -275,9 +275,9 @@ $\frac{2.4}{0.9}=2.666...$
 ### Q6
 > *Substitute *$x=1$* and *$x=2$* into the equation given for *$y$*. Use your calculator to make sure you get the correct answers. *
 
-`x space equals space 1 comma space space space y space equals space open parentheses 1 close parentheses to the power of 2 space end exponent plus space 1 over 1 space equals space 2`
+$x = 1 , y = ( 1 )^{2 } + \frac{1}{1} = 2$
 
-`x space equals space 2 comma space space space y space equals space open parentheses 2 close parentheses to the power of 2 space end exponent plus space 1 half space equals space 4.5`
+$x = 2 , y = ( 2 )^{2 } + 1 \frac{1}{2} = 4.5$
 
 > *You could also use your calculator's TABLE function to get the missing values if your calculator has this*
 
@@ -302,7 +302,7 @@ $x=-0.46$** ****[1]**
 
 ii) *Rearrange the equation to get the equation of the curve on one side.*
 
-`table row cell space x to the power of 2 space end exponent plus space 1 over x space plus space x space minus space 1 space end cell equals cell space 0 end cell row cell negative open parentheses x space minus space 1 close parentheses space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space end cell equals cell space space space space space space space space space space space space space space space space space space space space space space space minus open parentheses x space minus space 1 close parentheses space space space end cell row cell space x to the power of 2 space end exponent plus space 1 over x space space end cell equals cell space minus open parentheses x space minus 1 close parentheses end cell row cell space x to the power of 2 space end exponent plus space 1 over x space space end cell equals cell space minus x space plus space 1 end cell end table`
+$\begin{gathered} x^{2 } + \frac{1}{x} + x - 1 & = 0 \\ - ( x - 1 ) & = - ( x - 1 ) \\ x^{2 } + \frac{1}{x} & = - ( x - 1 ) \\ x^{2 } + \frac{1}{x} & = - x + 1 \end{gathered}$
 
 **[1]**
 
@@ -326,11 +326,11 @@ $x=-1.8$** ****[1] **
 ### Q7
 > *Substitute "*$x=-0.5$*, *$x=1$* and *$x=2$* into the equation using your calculator, taking care to put brackets around the negative values.*
 
-> * *`space x equals negative 0.5 comma space space space y equals open parentheses negative 0.5 close parentheses cubed over 3 minus fraction numerator 1 over denominator 2 open parentheses negative 0.5 close parentheses squared end fraction equals negative 2.041 6 with dot on top`
+> * *$x = - 0.5 , y = \frac{( - 0.5 )^{3}}{3} - \frac{1}{2 ( - 0.5 )^{2}} = - 2.041 \dot{6}$
 
-`space x equals 1 comma space space space y equals 1 cubed over 3 minus fraction numerator 1 over denominator 2 cross times 1 squared end fraction equals minus 0.1 6 with dot on top`
+$x = 1 , y = \frac{1^{3}}{3} - \frac{1}{2 \times 1^{2}} = - 0.1 \dot{6}$
 
-`space x equals 2 comma space space space y equals 2 cubed over 3 minus fraction numerator 1 over denominator 2 cross times 2 squared end fraction equals 2.541 6 with dot on top`
+$x = 2 , y = \frac{2^{3}}{3} - \frac{1}{2 \times 2^{2}} = 2.541 \dot{6}$
 
 > *You could also use your calculator's TABLE function to get the missing values if your calculator has it *
 
@@ -362,7 +362,7 @@ i) *The tangent must be a straight line touching the curve at *$x=-2$*. There sh
 
 > *Whichever version of the gradient formula we use, we need to pick two points, such as the two** **marked on the diagram, (-3, -6.5) and (0, 5).*
 
-*Gradient** **=** *`fraction numerator 5 minus open parentheses negative 6.5 close parentheses over denominator 0 minus open parentheses negative 3 close parentheses end fraction equals fraction numerator 11.5 over denominator 3 end fraction equals 3.8 3 with dot on top`
+*Gradient** **=** *$\frac{5 - ( - 6.5 )}{0 - ( - 3 )} = \frac{11.5}{3} = 3.8 \dot{3}$
 
 *using the gradient formula with two points from the tangent line ***[1]**
 
@@ -420,7 +420,7 @@ $\frac{x^{3}}{3}-\frac{1}{2x^{2}}=-4$
 
 ![cie-igcse-2019-march-p2-q16-2](assets/028-cie-igcse-2019-march-p2-q16-2.png)
 
-`open parentheses x subscript 1 comma space y subscript 1 close parentheses equals open parentheses 0 comma space 1.9 close parentheses` *and* `open parentheses x subscript 2 comma space y subscript 2 close parentheses equals open parentheses 2 comma space 1 close parentheses`
+$( x_{1} , y_{1} ) = ( 0 , 1.9 )$ *and* $( x_{2} , y_{2} ) = ( 2 , 1 )$
 
 > *Find the gradient between the two points using the formula *$m=\frac{y_{2}-y_{1}}{x_{2}-x_{1}}.$* *
 
@@ -440,21 +440,21 @@ $m=\frac{1-1.9}{2-0}$
 
 $x=-1:$
 
-`y equals open parentheses negative 1 close parentheses squared over 2 plus 1 over open parentheses negative 1 close parentheses squared minus fraction numerator 2 over denominator open parentheses negative 1 close parentheses end fraction
-y equals 1 half plus 1 plus 2
-y equals 3.5`
+$y = \frac{( - 1 )^{2}}{2} + \frac{1}{( - 1 )^{2}} - \frac{2}{( - 1 )} 
+y = 1 \frac{1}{2} + 1 + 2
+y = 3.5$
 
 $x=0.2:$
 
-`y equals open parentheses 0.2 close parentheses squared over 2 plus 1 over open parentheses 0.2 close parentheses squared minus fraction numerator 2 over denominator open parentheses 0.2 close parentheses end fraction
-y equals fraction numerator 0.04 over denominator 2 end fraction plus fraction numerator 1 over denominator 0.04 end fraction minus 10
-y equals 15.02`
+$y = \frac{( 0.2 )^{2}}{2} + \frac{1}{( 0.2 )^{2}} - \frac{2}{( 0.2 )} 
+y = \frac{0.04}{2} + \frac{1}{0.04} - 10
+y = 15.02$
 
 $x=3:$
 
-`y equals open parentheses 3 close parentheses squared over 2 plus 1 over open parentheses 3 close parentheses squared minus fraction numerator 2 over denominator open parentheses 3 close parentheses end fraction
-y equals 9 over 2 plus 1 over 9 minus 2 over 3
-y equals 3.94444...`
+$y = \frac{( 3 )^{2}}{2} + \frac{1}{( 3 )^{2}} - \frac{2}{( 3 )} 
+y = \frac{9}{2} + \frac{1}{9} - \frac{2}{3} 
+y = 3.94444...$
 
 > *You could also use your calculator's TABLE function to get the missing values if your calculator has it *
 
@@ -532,21 +532,21 @@ $x=0.35$** [1]**
 
 $x=-1:$
 
-`y equals open parentheses negative 1 close parentheses cubed plus open parentheses negative 1 close parentheses squared minus 5 open parentheses negative 1 close parentheses
-y equals negative 1 plus 1 plus 5
-y equals 5`
+$y = ( - 1 )^{3} + ( - 1 )^{2} - 5 ( - 1 )
+y = - 1 + 1 + 5
+y = 5$
 
 $x=1:$
 
-`y equals open parentheses 1 close parentheses cubed plus open parentheses 1 close parentheses squared minus 5 open parentheses 1 close parentheses
-y equals 1 plus 1 minus 5
-y equals negative 3`
+$y = ( 1 )^{3} + ( 1 )^{2} - 5 ( 1 )
+y = 1 + 1 - 5
+y = - 3$
 
 $x=3:$
 
-`y equals open parentheses 3 close parentheses cubed plus open parentheses 3 close parentheses squared minus 5 open parentheses 3 close parentheses
-y equals 27 plus 9 minus 15
-y equals 21`
+$y = ( 3 )^{3} + ( 3 )^{2} - 5 ( 3 )
+y = 27 + 9 - 15
+y = 21$
 
 > *You could also use your calculator's TABLE function to get the missing values if your calculator has it *
 
@@ -615,7 +615,7 @@ $m=11.42857...$
 ### Q11
 i) *Substitute each *$x$*-value into the equation *$y=x^{3}+3x+4$
 
-`table row x equals cell negative 1 comma space space space space space y equals open parentheses negative 1 close parentheses cubed plus 3 left parenthesis negative 1 right parenthesis plus 4 space space space space space space equals negative 1 minus 3 plus 4 space space space space space space space space space space space space space equals 0 end cell row x equals cell negative 0.5 comma space y equals open parentheses negative 0.5 close parentheses cubed plus 3 left parenthesis negative 0.5 right parenthesis plus 4 equals negative 0.125 minus 1.5 plus 4 space equals 2.375 end cell row x equals cell 0 comma space space space space space space space space space y equals open parentheses 0 close parentheses cubed plus 3 left parenthesis 0 right parenthesis plus 4 space space space space space space space space space space space space space equals 0 plus 0 plus 4 space space space space space space space space space space space space space space space space space equals 4 end cell row blank blank blank end table`
+$\begin{gathered} x = - 1 , y = ( - 1 )^{3} + 3 ( - 1 ) + 4 = - 1 - 3 + 4 = 0 \\ x = - 0.5 , y = ( - 0.5 )^{3} + 3 ( - 0.5 ) + 4 = - 0.125 - 1.5 + 4 = 2.375 \\ x = 0 , y = ( 0 )^{3} + 3 ( 0 ) + 4 = 0 + 0 + 4 = 4 \\ \end{gathered}$
 
 > *You could also use your calculator's TABLE function to get the missing values if your calculator has it  *
 
@@ -652,11 +652,11 @@ $x^{3}+8x^{2}+3x-6=0$
 
 > *First by subtracting *$2x$* from both sides*
 
-`table attributes columnalign right center left columnspacing 0px end attributes row cell x cubed plus 5 x plus 2 end cell equals 0 row cell x cubed plus 3 x plus 2 end cell equals cell negative 2 x end cell end table`
+$\begin{array}{rcl} x^{3} + 5 x + 2 & = 0 \\ x^{3} + 3 x + 2 & = - 2 x \end{array}$
 
 > *Next we add 2 to both sides*
 
-`table attributes columnalign right center left columnspacing 0px end attributes row cell x cubed plus 3 x plus 4 end cell equals cell negative 2 x plus 2 end cell end table`
+$\begin{array}{rcl} x^{3} + 3 x + 4 & = - 2 x + 2 \end{array}$
 
 **"**$y=-2x+2$**" ****seen ****[1]**
 
@@ -675,9 +675,9 @@ $x^{3}+8x^{2}+3x-6=0$
 ### Q12
 > *Using your calculator, substitute the values of *$x$* into the equation *$y=2x+\frac{1}{x}-3$*.*
 
-`x equals 0.5 comma space space y equals 2 cross times 0.5 plus fraction numerator 1 over denominator 0.5 end fraction minus 3 equals 0
-x equals 0.75 comma space space y equals 2 cross times 0.75 plus fraction numerator 1 over denominator 0.75 end fraction minus 3 equals negative 0.1 6 with dot on top
-x equals 2.5 comma space space y equals 2 cross times 2.5 plus fraction numerator 1 over denominator 2.5 end fraction minus 3 equals 2.4`
+$x = 0.5 , y = 2 \times 0.5 + \frac{1}{0.5} - 3 = 0
+x = 0.75 , y = 2 \times 0.75 + \frac{1}{0.75} - 3 = - 0.1 \dot{6} 
+x = 2.5 , y = 2 \times 2.5 + \frac{1}{2.5} - 3 = 2.4$
 
 > *You could also use your calculator's TABLE function to get the missing values if your calculator has it *
 
@@ -723,11 +723,11 @@ i)*We have the graph of *$y=2x+\frac{1}{x}-3$*. So we need to rearrange the equa
 
 > *Start by adding *$2x$* to both sides*
 
-`table row cell 1 over x end cell equals cell 7 minus 3 x end cell row cell 2 x plus 1 over x end cell equals cell 7 minus x space end cell end table`
+$\begin{gathered} \frac{1}{x} & = 7 - 3 x \\ 2 x + \frac{1}{x} & = 7 - x \end{gathered}$
 
 > *Next subtract 3 from both sides*
 
-`table row cell 2 x plus 1 over x minus 3 end cell equals cell 4 minus x space end cell end table`
+$\begin{gathered} 2 x + \frac{1}{x} - 3 & = 4 - x \end{gathered}$
 
 **Final answer:** **Answer: **** **$y=4-x\mathrm{or}y=-x+4$** **
 
@@ -755,7 +755,7 @@ ii)*Plot *$y=-x+4$* on the grid using the fact that the *$y$*-intercept is (0, 4
 ### Q13
 > *Substitute the **x** values into the expression. Remember to use brackets around negatives.*
 
-`table row x equals cell negative 3 comma space y equals 3 over 10 left parenthesis negative 3 right parenthesis cubed minus 2 left parenthesis negative 3 right parenthesis space end cell row x equals cell negative 2 comma space y equals 3 over 10 left parenthesis negative 2 right parenthesis cubed minus 2 left parenthesis negative 2 right parenthesis space end cell row x equals cell 1 comma space y equals 3 over 10 left parenthesis 1 right parenthesis cubed minus 2 left parenthesis 1 right parenthesis space end cell row x equals cell 3 comma space y equals 3 over 10 left parenthesis 3 right parenthesis cubed minus 2 left parenthesis 3 right parenthesis space end cell end table`
+$\begin{gathered} x = - 3 , y = \frac{3}{10} ( - 3 )^{3} - 2 ( - 3 ) \\ x = - 2 , y = \frac{3}{10} ( - 2 )^{3} - 2 ( - 2 ) \\ x = 1 , y = \frac{3}{10} ( 1 )^{3} - 2 ( 1 ) \\ x = 3 , y = \frac{3}{10} ( 3 )^{3} - 2 ( 3 ) \end{gathered}$
 
 > *You could also use your calculator's TABLE function to get the missing values if your calculator has it *
 
@@ -778,7 +778,7 @@ ii)*Plot *$y=-x+4$* on the grid using the fact that the *$y$*-intercept is (0, 4
 **All points and curve correct**** [****1]**** **
 *You have already drawn the graph of *$y=\frac{3}{10}x^{3}-2x$*. To find the solutions of  *$\frac{3}{10}x^{3}-2x=\frac{1}{2}(1-x)$* draw the curve*$y=\frac{1}{2}(1-x).$ *This is the equation of a straight line. To draw the straight line, plot two points and draw a straight line going through them.*
 
-`table row x equals cell negative 3 rightwards double arrow space y equals 1 half left parenthesis 1 minus left parenthesis negative 3 right parenthesis right parenthesis equals 2 end cell row x equals cell 3 rightwards double arrow y equals 1 half left parenthesis 1 minus 3 right parenthesis equals negative 1 end cell end table`
+$\begin{gathered} x = - 3 \Leftrightarrow y = 1 \frac{1}{2} ( 1 - ( - 3 ) ) = 2 \\ x = 3 \Leftrightarrow y = 1 \frac{1}{2} ( 1 - 3 ) = - 1 \end{gathered}$
 
 ![cie-igcse-2019-march-p4-q5c](assets/047-cie-igcse-2019-march-p4-q5c.png)
 
@@ -844,7 +844,7 @@ $\mathrm{Gradient}=\frac{-6.6}{2}=-3.3$
 **-4.5 to -2.5 allowed**
 i) *Substitute each value of **x** into *$y=2^{-x}$* using your calculator, taking care to put negative **x** values in brackets*
 
-*e.g. *`x equals negative 3 comma space y equals 2 to the power of negative open parentheses negative 3 close parentheses end exponent equals 8`
+*e.g. *$x = - 3 , y = 2^{- ( - 3 )} = 8$
 
 > *You could also use your calculator's TABLE function to get the missing values if your calculator has it *
 
@@ -862,7 +862,7 @@ ii)
 **6 or 7 correct points**** [1]**
 ** ****All correct points**** ****[1]**
 
-iii) *The solutions to *`text f end text open parentheses x close parentheses equals text g end text open parentheses x close parentheses`* are the intersections of the graphs*
+iii) *The solutions to *$\text{f} ( x ) = \text{g} ( x )$* are the intersections of the graphs*
 
 > *Only one of these has a positive **x**-value*
 
@@ -966,7 +966,7 @@ $y$**-axis intercept can be from -2.2 to -1.8.**
 
 ![cie-igcse-2020-may-jun-p4-tz3-q10b-2-ma](assets/064-cie-igcse-2020-may-jun-p4-tz3-q10b-2-ma.png)
 
-`open parentheses x subscript 1 comma space y subscript 1 close parentheses equals open parentheses 0 comma space 0 close parentheses` *and* `open parentheses x subscript 2 comma space y subscript 2 close parentheses equals open parentheses 2 comma space 2.7 close parentheses`
+$( x_{1} , y_{1} ) = ( 0 , 0 )$ *and* $( x_{2} , y_{2} ) = ( 2 , 2.7 )$
 
 > *Find the gradient between the two points using the formula *$m=\frac{y_{2}-y_{1}}{x_{2}-x_{1}}.$* *
 

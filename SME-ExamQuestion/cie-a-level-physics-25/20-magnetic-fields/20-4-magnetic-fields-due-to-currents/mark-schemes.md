@@ -67,7 +67,7 @@ Determine the force, in terms of *F*, that acts on the second wire:
 
 Write an expression for the force on the second wire:
 
-- Force on second wire:  `F subscript 2 space equals space open parentheses 4 B close parentheses cross times open parentheses 0.75 I close parentheses cross times l space equals space 3 B I l`
+- Force on second wire:  $F_{2} = ( 4 B ) \times ( 0.75 I ) \times l = 3 B I l$
 - Force on second wire:  $F_{2}=3F$  **[1 mark]**** **
 
 **[Total: 2 marks]**** **
@@ -137,7 +137,7 @@ Plan a laboratory experiment to test the relationship between *E* and *x*. Draw 
 
 - Plot a graph of ln *E* against x; **[1 mark]**
 - The gradient of the graph is −*k*; **[1 mark]**
-- The y-intercept = ln *IZ*  **or ** `Z space equals space e to the power of y italic short dash i n t e r c e p t end exponent over I`; **[1 mark]**
+- The y-intercept = ln *IZ*  **or ** $Z = e^{y} \text{short} \text{dash} i n t e r c e p \frac{t}{I}$; **[1 mark]**
 
 ***Additional detail including safety procedures:***
 
@@ -175,7 +175,7 @@ Plan a laboratory experiment to test the relationship between *E* and *x*. Draw 
 
   - Gradient = −*k *
   - y-intercept = ln *IZ*
-4. Determine a value for *k* using *k* = −gradient and *Z* using `Z space equals space e to the power of y short dash i n t e r c e p t end exponent over I` **[14]**.
+4. Determine a value for *k* using *k* = −gradient and *Z* using $Z = e^{y} \text{short} \text{dash} i n t e r c e p \frac{t}{I}$ **[14]**.
 
 <u>Safety considerations:</u>
 

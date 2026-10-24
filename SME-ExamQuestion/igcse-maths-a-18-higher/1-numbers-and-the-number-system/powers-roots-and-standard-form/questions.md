@@ -74,7 +74,7 @@ Write down the value of $m$, given that  $3^{4}\times3^{5}=3^{m}$
 $m=$..................................
 
 ### 1((b)) — 1 mark — command: write — structured — from paper Nov 2021 · 4MA1/2H
-Write down the value of $n$, given that `open parentheses 5 cubed close parentheses to the power of 7 equals 5 to the power of n`
+Write down the value of $n$, given that $( 5^{3} )^{7} = 5^{n}$
 
 $n=$.............................
 
@@ -121,7 +121,7 @@ ii) 0.0584
 [1]
 
 ### 1((b)) — 1 mark — command: work_out — structured — from paper Nov 2020 · J560/04
-Work out `open parentheses 4.2 space cross times 10 to the power of 5 close parentheses cross times open parentheses 1.8 cross times 10 to the power of negative 2 end exponent close parentheses` giving your answer in standard form.
+Work out $( 4.2 \times 10^{5 ) \times ( 1.8 \times 10^{-2} } )$ giving your answer in standard form.
 
 ## Q16 — easy — 3 marks · exam-questions
 
@@ -354,7 +354,7 @@ $k=$...........................
 ## Q35 — medium — 3 marks · exam-questions
 
 ### 14() — 3 marks — command: write — structured — from paper Nov 2019 · J560/06
-Write `open parentheses fourth root of 8 close parentheses to the power of 5` as a power of 2.
+Write $( \sqrt[4]{8} )^{5}$ as a power of 2.
 
 ## Q36 — medium — 3 marks · exam-questions
 
@@ -438,7 +438,7 @@ Find the value of $k$.
 Show that $81^{-\frac{1}{2}}=\frac{1}{9}$
 
 ### 12((b)) — 2 marks — structured — from paper 2017	June · 1MA1/1H
-Show that `open parentheses 64 over 125 close parentheses to the power of 2 over 3 end exponent equals 16 over 25`
+Show that $( \frac{64}{125} )^{ \frac{2}{3} } = \frac{16}{25}$
 
 ## Q41 — hard — 3 marks · exam-questions
 
@@ -446,12 +446,12 @@ Show that `open parentheses 64 over 125 close parentheses to the power of 2 over
 Write down the value of $64^{\frac{1}{2}}$.
 
 ### 10((b)) — 2 marks — command: prove — structured — from paper 2015	Sample · 1MA1/1H
-Show that `open parentheses 8 over 125 close parentheses to the power of negative 2 over 3 end exponent` = $\frac{25}{4}$
+Show that $( \frac{8}{125} )^{- \frac{2}{3} }$ = $\frac{25}{4}$
 
 ## Q42 — hard — 5 marks · exam-questions
 
 ### 15((a)) — 1 mark — command: prove — structured — from paper 2015 Spec2 · 1MA1/1H
-Show that `cube root of 8 cross times 10 to the power of 6 end root` = 200
+Show that $\sqrt[3]{8 \times 10^{6} }$ = 200
 
 ### 15((b)) — 2 marks — command: prove — structured — from paper 2015 Spec2 · 1MA1/1H
 Show that $144^{\frac{1}{2}}\times64^{-\frac{1}{3}}=3$
@@ -513,8 +513,8 @@ Work out the value of $T$.
 Give your answer in standard form correct to $3$ significant figures.
 
 ### 9((b)) — 2 marks — command: explain — structured — from paper 2018	June · 1MA1/3H
-$w$ is increased by `10 percent sign` 
-$d$ is increased by `5 percent sign`
+$w$ is increased by $10 \%$ 
+$d$ is increased by $5 \%$
 
 Lottie says,
           "The value of $T$ will increase because both $w$ and $d$ are increased."
@@ -543,7 +543,7 @@ Give your answer in standard form.
 ## Q50 — hard — 3 marks · exam-questions
 
 ### 19((a)) — 3 marks — command: simplify — structured — from paper Jan 2021 · 4MA1/2HR
-Simplify  `8 squared space cross times cube root of 4 to the power of 6 end root`
+Simplify  $8^{2} \times \sqrt[3]{4^{6} }$
 
 Give your answer in the form 2<sup>a</sup> where $a$ is an integer.
 
@@ -561,7 +561,7 @@ Give your answer in standard form.
 ## Q52 — hard — 3 marks · exam-questions
 
 ### 17() — 3 marks — command: prove — structured — from paper June 2017 · J560/06
-Show that  `fraction numerator cube root of 81 over denominator 3 end fraction` can be written as $3^{\frac{1}{3}}$
+Show that  $\frac{ \sqrt[3]{81} }{3}$ can be written as $3^{\frac{1}{3}}$
 
 ## Q53 — hard — 3 marks · exam-questions
 

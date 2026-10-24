@@ -16,19 +16,19 @@ $π\times8.5^{2}=72.25π$
 
 **[M1]**
 
-> *Substitute known values into the formula for the area of a trapezium,*`1 half open parentheses a plus b close parentheses h`
+> *Substitute known values into the formula for the area of a trapezium,*$1 \frac{1}{2} ( a + b ) h$
 
-`1 half open parentheses 20 plus 25 close parentheses h`
+$1 \frac{1}{2} ( 20 + 25 ) h$
 
 **[M1]**
 
 > *Form an equation by, equating the expression for the area of the trapezium to the area of the circle, and solve to find the value of *$h$
 
-`1 half open parentheses 20 plus 25 close parentheses h equals 72.25 pi`
+$1 \frac{1}{2} ( 20 + 25 ) h = 72.25 \pi$
 
 > *Simplify*
 
-`table row cell 1 half cross times 45 cross times h end cell equals cell 72.25 pi end cell row cell 22.5 h end cell equals cell 72.25 pi end cell end table`
+$\begin{gathered} 1 \frac{1}{2} \times 45 \times h & = 72.25 \pi \\ 22.5 h & = 72.25 \pi \end{gathered}$
 
 > *Solve to find the value of *$h$
 
@@ -53,13 +53,13 @@ $h=10.1$
 
 > *Calculate the area of each of the rectangles.*
 
-`table row cell A subscript 1 end cell equals cell 7 cross times 10 equals 70 space straight m squared end cell row cell A subscript 2 end cell equals cell 9 cross times 6 equals 54 space straight m squared end cell end table`
+$\begin{gathered} A_{1} & = 7 \times 10 = 70 \mathrm{m}^{2} \\ A_{2} & = 9 \times 6 = 54 \mathrm{m}^{2} \end{gathered}$
 
 **At least one correct area**** [1]**
 
 > *Add the areas together to find the total area of the field.*
 
-`table row A equals cell 70 plus 54 equals 124 space straight m squared end cell end table`
+$\begin{gathered} A = 70 + 54 = 124 \mathrm{m}^{2} \end{gathered}$
 
 **[1]**
 
@@ -76,9 +76,9 @@ $124\div36=3.4444...$
 ## Q3 — medium — 2 marks · exam-questions
 
 ### 3() — 2 marks
-> *Calculate the area of the trapezium using: *`A equals 1 half open parentheses a plus b close parentheses h`*, where *$a$* and *$b$* are the lengths of the parallel sides and *$h$* is the perpendicular height of the trapezium.*
+> *Calculate the area of the trapezium using: *$A = 1 \frac{1}{2} ( a + b ) h$*, where *$a$* and *$b$* are the lengths of the parallel sides and *$h$* is the perpendicular height of the trapezium.*
 
-`table row A equals cell 1 half cross times open parentheses 2 plus 7 close parentheses cross times 4 end cell row blank equals cell 18 space cm squared end cell end table`
+$\begin{gathered} A = 1 \frac{1}{2} \times ( 2 + 7 ) \times 4 \\ = 18 cm^{2} \end{gathered}$
 
 **[1]**
 
@@ -93,9 +93,9 @@ $124\div36=3.4444...$
 ## Q4 — medium — 4 marks · exam-questions
 
 ### 1() — 4 marks
-> *Calculate the area of the trapezium using: *`A equals 1 half open parentheses a plus b close parentheses h`*, where *$a$* and *$b$* are the lengths of the parallel sides and *$h$* is the perpendicular height of the trapezium.*
+> *Calculate the area of the trapezium using: *$A = 1 \frac{1}{2} ( a + b ) h$*, where *$a$* and *$b$* are the lengths of the parallel sides and *$h$* is the perpendicular height of the trapezium.*
 
-`table row A equals cell 1 half cross times open parentheses 28 plus 12 close parentheses cross times 14 end cell row blank equals cell 280 space cm squared end cell end table`
+$\begin{gathered} A = 1 \frac{1}{2} \times ( 28 + 12 ) \times 14 \\ = 280 cm^{2} \end{gathered}$
 
 **[1]**
 
@@ -103,22 +103,22 @@ $124\div36=3.4444...$
 
 ![4-5-5](assets/083-4-5-5.png)
 
-`table row r equals cell 12 divided by 4 end cell row r equals cell 3 space cm end cell end table`
+$\begin{gathered} r = 12 \div 4 \\ r = 3 \text{cm} \end{gathered}$
 
 **[1]**
 
 > *Calculate the area of a circle (two semi-circles) using: *$A=πr^{2}$*.*
 
-`A equals straight pi open parentheses 3 close parentheses squared
-A equals 9 straight pi`
+$A = \mathrm{\pi } ( 3 )^{2}
+A = 9 \mathrm{\pi }$
 
 > *Calculate the area that is shaded by subtracting the area of the circle from the area of the trapezium.*
 
-`table row A equals cell 280 minus 9 straight pi end cell end table`
+$\begin{gathered} A = 280 - 9 \mathrm{\pi } \end{gathered}$
 
 **[1]**
 
-`table row A equals cell 251.725666... end cell end table`
+$\begin{gathered} A = 251.725666... \end{gathered}$
 
 > *Round the answer to 3 significant figures.*
 
@@ -127,22 +127,22 @@ $252\mathrm{cm}^{2}$**[1]**
 ## Q5 — medium — 7 marks · exam-questions
 
 ### 5((a)) — 5 marks
-> *Calculate the area of the trapezium using: *`A equals 1 half open parentheses a plus b close parentheses h`*, where *$a$* and *$b$* are the lengths of the parallel edges and *$h$* is the perpendicular height.*
+> *Calculate the area of the trapezium using: *$A = 1 \frac{1}{2} ( a + b ) h$*, where *$a$* and *$b$* are the lengths of the parallel edges and *$h$* is the perpendicular height.*
 
-`table row A equals cell 1 half cross times open parentheses 1.8 plus 2.7 close parentheses cross times 0.8 end cell row blank equals cell 1.8 space straight m squared end cell end table`
+$\begin{gathered} A = 1 \frac{1}{2} \times ( 1.8 + 2.7 ) \times 0.8 \\ = 1.8 \mathrm{m}^{2} \end{gathered}$
 
 **[1]**
 
 > *Convert the lengths of the tile from cm to m by dividing by 100.*
 
-`table attributes columnalign right center left columnspacing 0px end attributes row blank blank cell 15 over 100 end cell end table equals 0.15
-table attributes columnalign right center left columnspacing 0px end attributes row blank blank cell fraction numerator 7.5 over denominator 100 end fraction end cell end table equals 0.075`
+$\begin{array}{rcl} \frac{15}{100} \end{array} = 0.15
+ \begin{array}{rcl} \frac{7.5}{100} \end{array} = 0.075$
 
 **[1]**
 
 > *Calculate the area of a single tile in m*<sup>*2*</sup>*.*
 
-`table row A equals cell 0.15 cross times 0.075 end cell row blank equals cell 0.01125 space straight m squared space end cell end table`
+$\begin{gathered} A = 0.15 \times 0.075 \\ = 0.01125 \mathrm{m}^{2} \end{gathered}$
 
 > *Calculate the number of tiles required by dividing the total area of the wall by the area of an individual tile.*
 
@@ -198,19 +198,19 @@ $\frac{16}{2}=8\mathrm{cm}$
 
 > *Calculate the area of the circle, using: *$A=πr^{2}$*.*
 
-`table row A equals cell straight pi cross times open parentheses 8 close parentheses squared end cell row blank equals cell 64 straight pi space cm squared end cell end table`
+$\begin{gathered} A = \mathrm{\pi } \times ( 8 )^{2} \\ = 64 \mathrm{\pi } cm^{2} \end{gathered}$
 
 **Correct process to find EITHER the area of the rectangle OR the area of the circle**** [1]**
 
 > *Find the area of the shaded section by subtracting the area of half of the circle from the area of the rectangle.*
 
-`table row A equals cell 304 minus 1 half cross times 64 straight pi end cell row blank equals cell 203.469035... end cell end table`
+$\begin{gathered} A = 304 - 1 \frac{1}{2} \times 64 \mathrm{\pi } \\ = 203.469035... \end{gathered}$
 
 **[1]**
 
 > *Calculate the percentage of the rectangle that is shaded by dividing the shaded area by the area of the rectangle and multiplying the result by 100%.*
 
-`fraction numerator 203.469035... over denominator 304 end fraction cross times 100 percent sign equals 66.930603...`*%*
+$\frac{203.469035...}{304} \times 100 \% = 66.930603...$*%*
 
 **[1]**
 
@@ -272,17 +272,17 @@ $r=\frac{3.8}{2}=1.9m$
 
 > *Calculate the area of one pond, using *$A=πr^{2}$*.*
 
-`table row A equals cell straight pi open parentheses 1.9 close parentheses squared end cell row blank equals cell space 11.341149... straight m squared end cell end table`
+$\begin{gathered} A = \mathrm{\pi } ( 1.9 )^{2} \\ = 11.341149... \mathrm{m}^{2} \end{gathered}$
 
 **[1]**
 
 > *Calculate the area of the grass by subtracting the areas of the patio and two ponds from the area of the entire garden.*
 
-`table row A equals cell 161.5 minus 26.6 minus 2 cross times 11.341149... end cell end table`
+$\begin{gathered} A = 161.5 - 26.6 - 2 \times 11.341149... \end{gathered}$
 
 **[1]**
 
-`A table row blank equals blank end table table row blank blank 112 end table table row blank blank. end table table row blank blank 2177 end table table row blank blank. end table table row blank blank. end table table row blank blank. end table table row blank blank space end table table row blank blank straight m end table squared`
+$A \begin{gathered} = \end{gathered} \begin{gathered} 112 \end{gathered} \begin{gathered} . \end{gathered} \begin{gathered} 2177 \end{gathered} \begin{gathered} . \end{gathered} \begin{gathered} . \end{gathered} \begin{gathered} . \end{gathered} \begin{gathered} \end{gathered} \begin{gathered} \mathrm{m} \end{gathered}^{2}$
 
 **Values between 112 - 113 are accepted**** [1]**
 
@@ -303,17 +303,17 @@ $\frac{112.2177...}{25}=4.4887...$
 
 **[1]**
 
-> *Calculate the area of the trapezium: *`A space equals 1 half open parentheses a plus b close parentheses h`
+> *Calculate the area of the trapezium: *$A = 1 \frac{1}{2} ( a + b ) h$
 
-`table row cell A subscript T end cell equals cell 1 half open parentheses 30 plus 60 close parentheses cross times 40 end cell row blank equals 1800 end table`
+$\begin{gathered} A_{T} & = 1 \frac{1}{2} ( 30 + 60 ) \times 40 \\ = 1800 \end{gathered}$
 
 > *Calculate the area of the rectangle.*
 
-`table row cell A subscript R end cell equals cell 60 cross times 40 end cell row blank equals 2400 end table`
+$\begin{gathered} A_{R} & = 60 \times 40 \\ = 2400 \end{gathered}$
 
 > *Add the area of the trapezium and the rectangle to calculate the total area of the playground*
 
-`table row A equals cell 1800 plus 2400 end cell row blank equals cell 4200 space straight m squared end cell end table`
+$\begin{gathered} A = 1800 + 2400 \\ = 4200 \mathrm{m}^{2} \end{gathered}$
 
 **[1]**
 
@@ -403,17 +403,17 @@ $\frac{112.2177...}{25}=4.4887...$
 *Calculate the length of the diagonal bar. *
 *Substitute the given lengths into Pythagoras' theorem,* $a^{2}+b^{2}=c^{2}$*, where *$a$* and *$b$* are the length of the two shorter sides of a right-angled triangle and *$c$* is the length of the longest side.*
 
-`table attributes columnalign right center left columnspacing 0px end attributes row cell 12 squared plus 5 squared end cell equals cell c squared end cell end table`
+$\begin{array}{rcl} 12^{2} + 5^{2} & = c^{2} \end{array}$
 
 **[1]**
 
 > *Simplify.*
 
-`table row 169 equals cell c squared end cell end table`
+$\begin{gathered} 169 = c^{2} \end{gathered}$
 
 > *Square root both sides.*
 
-`table row 13 equals c end table`
+$\begin{gathered} 13 = c \end{gathered}$
 
 **[1]**
 
@@ -500,13 +500,13 @@ $17\div2=8.5$
 
 > *Use Pythagoras' theorem to calculate the shorter side of each of the triangles.*
 
-`table row cell x to the power of 2 space end exponent plus space 12.8 squared space end cell equals cell space 16 squared end cell end table`
+$\begin{gathered} x^{2 } + 12.8^{2} & = 16^{2} \end{gathered}$
 
 **[1]**
 
 > *Rearrange and solve to find **x.*
 
-`table row cell x squared space end cell equals cell space 16 squared space minus space 12.8 squared space end cell row cell x squared space end cell equals cell space 92.16 end cell row cell x space end cell equals cell space square root of 92.16 end root space equals space 9.6 end cell end table`
+$\begin{gathered} x^{2} & = 16^{2} - 12.8^{2} \\ x^{2} & = 92.16 \\ x & = \sqrt{92.16} = 9.6 \end{gathered}$
 
 **[1]**
 
@@ -516,7 +516,7 @@ $17\div2=8.5$
 
 > *The perimeter is the sum of the lengths of the sides around the outside. *
 
-`straight P space equals space 9.6 space plus space 9.6 space plus space 16 space plus space open parentheses 12.8 space minus space 9.6 close parentheses space plus thin space 16 space plus space 16`
+$\mathrm{P} = 9.6 + 9.6 + 16 + ( 12.8 - 9.6 ) + 16 + 16$
 
 **[1]**
 
@@ -543,9 +543,9 @@ $17\div2=8.5$
 
 *Height of trapezium ***B*** = 24 - 14 = 10 cm*
 
-> *The formula for the area of a trapezium is *`A space equals space 1 half open parentheses a space plus space b close parentheses h`*, where **a **and **b **are the parallel sides and **h **is the perpendicular height.*
+> *The formula for the area of a trapezium is *$A = 1 \frac{1}{2} ( a + b ) h$*, where **a **and **b **are the parallel sides and **h **is the perpendicular height.*
 
-*Area of trapezium ***B *** = *`table row cell 1 half open parentheses 20 space plus space 16 close parentheses cross times 10 space end cell equals cell space 180 space end cell end table`*cm**<sup>2</sup>*
+*Area of trapezium ***B *** = *$\begin{gathered} 1 \frac{1}{2} ( 20 + 16 ) \times 10 & = 180 \end{gathered}$*cm**<sup>2</sup>*
 
 **[1]**
 
@@ -562,7 +562,7 @@ $17\div2=8.5$
 ### 8() — 3 marks
 > *Find the perimeter by multiplying the length of the shorter side by 9.*
 
-*Perimeter = *`6.5 space cross times space 9 space equals space open parentheses 6 space cross times space 9 close parentheses space plus space open parentheses 0.5 space cross times space 9 close parentheses space equals space 54 space plus space 4.5 space equals space 58.5`* cm.*
+*Perimeter = *$6.5 \times 9 = ( 6 \times 9 ) + ( 0.5 \times 9 ) = 54 + 4.5 = 58.5$* cm.*
 
 **[1]**
 
@@ -574,7 +574,7 @@ $6.5+x+6.5+x=58.5$
 
 > *Simplify and solve to find *$x$*.*
 
-`table row cell 13 space plus space 2 x space end cell equals cell space 58.5 end cell row cell 2 x space end cell equals cell space 58.5 space minus space 13 space end cell row cell 2 x space end cell equals cell space 45.5 end cell row cell x space end cell equals cell space fraction numerator 45.5 over denominator 2 end fraction end cell end table`
+$\begin{gathered} 13 + 2 x & = 58.5 \\ 2 x & = 58.5 - 13 \\ 2 x & = 45.5 \\ x & = \frac{45.5}{2} \end{gathered}$
 
 **[1]**
 
@@ -583,28 +583,28 @@ $6.5+x+6.5+x=58.5$
 ## Q17 — medium — 3 marks · exam-questions
 
 ### 13() — 3 marks
-> *Substitute into the formula for the area of the trapezium: *`A space equals 1 half open parentheses a plus b close parentheses h`*, *
+> *Substitute into the formula for the area of the trapezium: *$A = 1 \frac{1}{2} ( a + b ) h$*, *
 *where** a** and **b **are the parallel sides and **h **is the** **perpendicular height.*
 
-`table row cell A space end cell equals cell space 1 half open parentheses 2.8 space plus space 2.1 close parentheses h end cell end table`
+$\begin{gathered} A & = 1 \frac{1}{2} ( 2.8 + 2.1 ) h \end{gathered}$
 
 **[1]**
 
 > *Form an equation by setting the expression for the area equal to 39.2 m*<sup>*2*</sup>*.*
 
-`table row cell 1 half open parentheses 2.8 space plus space 2.1 close parentheses h space end cell equals cell space 39.2 end cell end table`
+$\begin{gathered} 1 \frac{1}{2} ( 2.8 + 2.1 ) h & = 39.2 \end{gathered}$
 
 **[1]**
 
 > *Simplify.*
 
-`table row cell 1 half open parentheses 4.9 close parentheses h space end cell equals cell space 39.2 end cell row cell 2.45 h space end cell equals cell space 39.2 space end cell end table`
+$\begin{gathered} 1 \frac{1}{2} ( 4.9 ) h & = 39.2 \\ 2.45 h & = 39.2 \end{gathered}$
 
 **[1]**
 
 > *Solve by dividing both sides by 2.45.*
 
-`table row cell h space end cell equals cell space fraction numerator 39.2 space over denominator 2.45 end fraction end cell end table`
+$\begin{gathered} h & = \frac{39.2 }{2.45} \end{gathered}$
 
 $h=16m$** [1]**
 
@@ -636,7 +636,7 @@ $\sqrt{7.2^{2}+5.4^{2}}=9$
 ### 16() — 4 marks
 > *Form an equation for the perimeter of the triangle in terms of *$x$*.*
 
-`open parentheses x minus 1 close parentheses plus open parentheses 3 x plus 1 close parentheses plus 3 x equals 56`
+$( x - 1 ) + ( 3 x + 1 ) + 3 x = 56$
 
 **[1]**
 
@@ -652,8 +652,8 @@ $x=8$
 
 > *Substitute *$x=8$* into the expressions for the base and the perpendicular height of the triangle.*
 
-*Base: *`3 open parentheses 8 close parentheses equals 24`* *
-*Perpendicular height: *`open parentheses 8 close parentheses minus 1 equals 7`
+*Base: *$3 ( 8 ) = 24$* *
+*Perpendicular height: *$( 8 ) - 1 = 7$
 
 > *Calculate the area of the triangle, using *$A=\frac{1}{2}bh$*, where *$b$*is the base *$h$* and is the perpendicular height.*
 
@@ -714,7 +714,7 @@ $\mathrm{Height}=24\sqrt{3}+48$
 
 > *Calculate the area of the rectangle.*
 
-> `A equals 96 cross times open parentheses 24 square root of 3 plus 48 close parentheses`* *$A=8598.6450...$
+> $A = 96 \times ( 24 \sqrt{3} + 48 )$* *$A=8598.6450...$
 
 > *Round to 3 significant figures.*
 
@@ -735,17 +735,17 @@ $A=8600\mathrm{mm}$* ***[1]**
 
 > *Substitute the lengths of the edges into the formula.*
 
-`table row cell x squared plus y squared end cell equals cell A D squared end cell end table`
+$\begin{gathered} x^{2} + y^{2} & = A D^{2} \end{gathered}$
 
 > *Take the square root of both sides.*
 
-`table row cell square root of x squared plus y squared end root end cell equals cell A D end cell end table`
+$\begin{gathered} \sqrt{x^{2} + y^{2}} & = A D \end{gathered}$
 
 **[1]**
 
 > *Calculate the area of the square **ABCD**.*
 
-`table row cell Area space end cell equals cell space A D cross times A B end cell row blank equals cell square root of x squared plus y squared end root cross times square root of x squared plus y squared end root end cell end table`
+$\begin{gathered} \text{Area} & = A D \times A B \\ = \sqrt{x^{2} + y^{2}} \times \sqrt{x^{2} + y^{2}} \end{gathered}$
 
 **[1]**
 
@@ -761,7 +761,7 @@ $x^{2}+y^{2}$ **[1]**
 
 > *Calculate area of the larger square.*
 
-`Area space equals open parentheses x plus y close parentheses open parentheses x plus y close parentheses`
+$\text{Area} = ( x + y ) ( x + y )$
 
 **[1]**
 
@@ -771,7 +771,7 @@ $\mathrm{Area}=\frac{1}{2}xy$
 
 > *Find the area of the square **ABCD** by subtracting the area of four triangles from the area of the larger square.*
 
-`table row cell Area space end cell equals cell space open parentheses x plus y close parentheses open parentheses x plus y close parentheses minus 4 cross times 1 half x y end cell end table`
+$\begin{gathered} \text{Area} & = ( x + y ) ( x + y ) - 4 \times 1 \frac{1}{2} x y \end{gathered}$
 
 **[1]**
 
@@ -786,9 +786,9 @@ $x^{2}+y^{2}$ **[1]**
 ## Q22 — hard — 4 marks · exam-questions
 
 ### 7() — 4 marks
-> *Calculate the area of the garden using the formula for the area of a trapezium: *`A equals 1 half open parentheses a plus b close parentheses h`*, where *$a$* and *$b$* are the lengths of the parallel sides and *$h$* is the perpendicular height.*
+> *Calculate the area of the garden using the formula for the area of a trapezium: *$A = 1 \frac{1}{2} ( a + b ) h$*, where *$a$* and *$b$* are the lengths of the parallel sides and *$h$* is the perpendicular height.*
 
-`table row A equals cell 1 half open parentheses 12 plus 18 close parentheses cross times 9 end cell row blank equals 135 end table`
+$\begin{gathered} A = 1 \frac{1}{2} ( 12 + 18 ) \times 9 \\ = 135 \end{gathered}$
 
 **[1]**
 
@@ -809,9 +809,9 @@ $\mathrm{Cost}=7\times4.99$
 ## Q23 — hard — 5 marks · exam-questions
 
 ### 15((a)) — 2 marks
-> *Calculate the area of the trapezium **QRST**, using the formula: *`A equals 1 half open parentheses a plus b close parentheses h`*, where *$a$* and *$b$* are the lengths of the parallel lines and *$h$* is the perpendicular height.*
+> *Calculate the area of the trapezium **QRST**, using the formula: *$A = 1 \frac{1}{2} ( a + b ) h$*, where *$a$* and *$b$* are the lengths of the parallel lines and *$h$* is the perpendicular height.*
 
-`table row A equals cell 1 half open parentheses 4 plus 12 close parentheses cross times 10 end cell end table`
+$\begin{gathered} A = 1 \frac{1}{2} ( 4 + 12 ) \times 10 \end{gathered}$
 
 **[1]**
 
@@ -832,7 +832,7 @@ $LSF=\frac{12}{4}=3$
 
 ![4-5-21](assets/066-4-5-21.png)
 
-`fraction numerator open parentheses x plus 10 close parentheses over denominator 3 end fraction equals x`
+$\frac{( x + 10 )}{3} = x$
 
 **[1]**
 
@@ -860,11 +860,11 @@ $5=x$
 > *Calculate the perpendicular height of the triangle, using SOHCAHTOA. *
 *Use *$\mathrm{tan}θ=\frac{Opp}{Adj}$* because you know the length of the adjacent side and you want to work out the length of the opposite side.*
 
-`tan open parentheses 54 close parentheses space equals fraction numerator space h over denominator 6 end fraction`
+$\tan ( 54 ) = \frac{ h}{6}$
 
 **[1]**
 
-`h equals 6 space tan open parentheses 54 close parentheses`
+$h = 6 \tan ( 54 )$
 
 **[1]**
 
@@ -872,11 +872,11 @@ $h=8.258291...$
 
 > *Calculate the area of the triangle, using the formula: *$A=\frac{1}{2}bh$*.*
 
-`table row A equals cell 1 half cross times 12 cross times 8.258291... end cell end table`
+$\begin{gathered} A = 1 \frac{1}{2} \times 12 \times 8.258291... \end{gathered}$
 
 **[1]**
 
-`table attributes columnalign right center left columnspacing 0px end attributes row A equals cell 49.549749... end cell end table`
+$\begin{array}{rcl} A = 49.549749... \end{array}$
 
 $49.5\mathrm{cm}^{2}$* ***[1]**
 
@@ -892,23 +892,23 @@ $49.5\mathrm{cm}^{2}$* ***[1]**
 > *Calculate the perpendicular height of the triangle (and parallelogram) using SOHCAHTOA. *
 *Use *$\mathrm{sin}θ=\frac{Opp}{Hyp}$*, as you know the hypotenuse and you want to find the opposite.*
 
-`sin open parentheses 40 close parentheses equals h over 5`
+$\sin ( 40 ) = \frac{h}{5}$
 
 > *Multiply both sides by 5.*
 
-`table attributes columnalign right center left columnspacing 0px end attributes row cell 5 sin open parentheses 40 close parentheses end cell equals h end table`
+$\begin{array}{rcl} 5 \sin ( 40 ) & = h \end{array}$
 
 **[1]**
 
-`table attributes columnalign right center left columnspacing 0px end attributes row cell 3.213938... end cell equals h end table`
+$\begin{array}{rcl} 3.213938... & = h \end{array}$
 
 > *Calculate the area of the parallelogram by using the formula: *$A=bh$*, where *$b$* is the base and *$h$* is the perpendicular height.*
 
-`table row A equals cell 7 cross times 3.213938... end cell end table`
+$\begin{gathered} A = 7 \times 3.213938... \end{gathered}$
 
 **[1]**
 
-`table attributes columnalign right center left columnspacing 0px end attributes row A equals cell 22.497566... end cell end table`
+$\begin{array}{rcl} A = 22.497566... \end{array}$
 
 > *Round to 1 decimal place.*
 
@@ -923,11 +923,11 @@ $22.5\mathrm{cm}^{2}$* ***[1]**
 
 ![4-5-24](assets/049-4-5-24.png)
 
-`x squared plus 2 squared equals open parentheses 2 square root of 10 close parentheses squared`
+$x^{2} + 2^{2} = ( 2 \sqrt{10} )^{2}$
 
 > *Rearrange.*
 
-`x squared equals open parentheses 2 square root of 10 close parentheses squared minus 2 squared`
+$x^{2} = ( 2 \sqrt{10} )^{2} - 2^{2}$
 
 **[1]**
 
@@ -947,11 +947,11 @@ $4\times6=24$
 
 > *Calculate the area of the triangle **CDF**, using: *$A=\frac{1}{2}bh$*.*
 
-`table row A equals cell 1 half cross times 2 cross times 6 end cell row blank equals 6 end table`
+$\begin{gathered} A = 1 \frac{1}{2} \times 2 \times 6 \\ = 6 \end{gathered}$
 
 > *Calculate the area of the triangle **BEF**.*
 
-`table row A equals cell 1 half cross times 2 cross times 2 end cell row blank equals 2 end table`
+$\begin{gathered} A = 1 \frac{1}{2} \times 2 \times 2 \\ = 2 \end{gathered}$
 
 > *Find the length **AE**.*
 
@@ -959,7 +959,7 @@ $AE=6-2=4$
 
 > *Calculate the area of the triangle **ADE**.*
 
-`table row A equals cell 1 half cross times 4 cross times 4 end cell row blank equals 8 end table`
+$\begin{gathered} A = 1 \frac{1}{2} \times 4 \times 4 \\ = 8 \end{gathered}$
 
 > *Calculate the area of triangle **DEF** by subtracting the areas of triangles **CDF**,** BEF **and **ADE **from the rectangle** ABCD**.*
 
@@ -998,15 +998,15 @@ $x=8$
 
 **[1]**
 
-> *Calculate the area of the trapezium **BCED,** using the formula: *`A equals 1 half open parentheses a plus b close parentheses h`*, where *$a$* and *$b$* are the lengths of the parallel sides and *$h$* is the perpendicular height.*
+> *Calculate the area of the trapezium **BCED,** using the formula: *$A = 1 \frac{1}{2} ( a + b ) h$*, where *$a$* and *$b$* are the lengths of the parallel sides and *$h$* is the perpendicular height.*
 
 ![4-5-26](assets/059-4-5-26.png)
 
-`table row A equals cell 1 half open parentheses 3 plus 6 close parentheses cross times 4 end cell end table`
+$\begin{gathered} A = 1 \frac{1}{2} ( 3 + 6 ) \times 4 \end{gathered}$
 
 **[1]**
 
-`table row A equals cell 1 half cross times 9 cross times 4 end cell end table`
+$\begin{gathered} A = 1 \frac{1}{2} \times 9 \times 4 \end{gathered}$
 
 $18\mathrm{cm}^{2}$* ***[1]**
 
@@ -1031,7 +1031,7 @@ $3\times6=18\mathrm{cm}4\times6=24\mathrm{cm}5\times6=30\mathrm{cm}$
 *In a right-angled triangle the two sides that are **not **the hypotenuse are the 'base' and 'height' for that formula. *
 *And the longest side is the hypotenuse, so use 18 and 24 as the base and height.*
 
-`table row cell Area space end cell equals cell space 1 half space cross times space 18 space cross times space 24 space end cell row blank equals cell space 216 end cell end table`
+$\begin{gathered} \text{Area} & = 1 \frac{1}{2} \times 18 \times 24 \\ = 216 \end{gathered}$
 
 **[1]**
 
@@ -1052,25 +1052,25 @@ $\frac{16}{4}=4$
 
 ![W_fAZCAH_4-5-27](assets/054-w-fazcah-4-5-27.png)
 
-`table row A equals cell 1 half cross times 1 cross times 4 end cell end table`
+$\begin{gathered} A = 1 \frac{1}{2} \times 1 \times 4 \end{gathered}$
 
 **[1]**
 
-`table row A equals cell 2 space cm squared end cell end table`
+$\begin{gathered} A = 2 cm^{2} \end{gathered}$
 
 > *Calculate the area of the first triangle marked **B**.*
 
-`table row A equals cell 1 half cross times 4 cross times 2 end cell row blank equals cell 4 space cm squared end cell end table`
+$\begin{gathered} A = 1 \frac{1}{2} \times 4 \times 2 \\ = 4 cm^{2} \end{gathered}$
 
 **[1]**
 
 > *Calculate the area of the square.*
 
-`table row A equals cell 4 cross times 4 end cell row blank equals cell 16 space cm squared end cell end table`
+$\begin{gathered} A = 4 \times 4 \\ = 16 cm^{2} \end{gathered}$
 
 > *Calculate the area of the shaded part by subtracting the area of triangles **A** and **B** from the area of the square.*
 
-`table row A equals cell 16 minus 2 minus 4 end cell row blank equals cell 10 space cm squared end cell end table`
+$\begin{gathered} A = 16 - 2 - 4 \\ = 10 cm^{2} \end{gathered}$
 
 **[1]**
 
@@ -1091,12 +1091,12 @@ $\frac{5}{8}$* ***or ****0.625*** ***[1]**
 
 > *Calculate the area of each of the rectangles and add them together to find the total area of the floor.*
 
-`table row A equals cell 9 cross times 8 plus 7 cross times 6 end cell end table`
+$\begin{gathered} A = 9 \times 8 + 7 \times 6 \end{gathered}$
 
 **Splitting up the shape and correct method for one part of the area of the shape**** [1] **
 **Complete correct method for finding the area of the whole shape**** [1]**
 
-`table attributes columnalign right center left columnspacing 0px end attributes row A equals cell 72 plus 42 end cell row blank equals 114 end table`
+$\begin{array}{rcl} A = 72 + 42 \\ = 114 \end{array}$
 
 > *Calculate how many tins of polish are required to cover the floor by dividing the total area of the floor by the number of square metres that one tin can cover. Round your answer up to the next integer.*
 
@@ -1126,17 +1126,17 @@ $\frac{70}{100}\times190=133$
 
 > *Calculate the area of the rectangle.*
 
-`table row A equals cell 2.2 cross times 3 end cell row blank equals cell 6.6 space straight m squared end cell end table`
+$\begin{gathered} A = 2.2 \times 3 \\ = 6.6 \mathrm{m}^{2} \end{gathered}$
 
 **[1]**
 
-> *Calculate the area of the trapezium, using the formula: *`A equals 1 half open parentheses a plus b close parentheses h`*, where *$a$* and *$b$* are the lengths of the parallel sides and *$h$*is the perpendicular height.*
+> *Calculate the area of the trapezium, using the formula: *$A = 1 \frac{1}{2} ( a + b ) h$*, where *$a$* and *$b$* are the lengths of the parallel sides and *$h$*is the perpendicular height.*
 
-`table row A equals cell 1 half open parentheses 3 plus 1 close parentheses cross times 1.2 end cell row blank equals cell 2.4 space straight m squared end cell end table`
+$\begin{gathered} A = 1 \frac{1}{2} ( 3 + 1 ) \times 1.2 \\ = 2.4 \mathrm{m}^{2} \end{gathered}$
 
 > *Calculate the total area of the floor by adding together the area of the rectangle and the trapezium.*
 
-`table row A equals cell 6.6 plus 2.4 end cell row blank equals cell 9 space straight m squared end cell end table`
+$\begin{gathered} A = 6.6 + 2.4 \\ = 9 \mathrm{m}^{2} \end{gathered}$
 
 **[1]**
 
@@ -1149,11 +1149,11 @@ $\frac{9}{2}=4.5$* *
 
 > *A pack of tiles discounted by 25% will be 100% - 25% = 75% of its original cost. Convert this to a decimal by dividing by 100. Calculate the discounted cost of a pack of tiles by multiplying the normal cost by 0.75.*
 
-`table row cell 24.80 cross times 0.75 end cell equals cell 18.60 end cell end table`
+$\begin{gathered} 24.80 \times 0.75 & = 18.60 \end{gathered}$
 
 > *Find the total cost of tiling the floor by multiplying the cost of the discounted packs of tiles by the number of packs required.*
 
-`table row cell 5 cross times 18.60 end cell equals 93 end table`
+$\begin{gathered} 5 \times 18.60 & = 93 \end{gathered}$
 
 **[1]**
 
@@ -1170,7 +1170,7 @@ $r=\frac{12}{2}=6\mathrm{cm}$
 
 > *Calculate the area of the semicircle, using *$A=\frac{1}{2}πr^{2}$*.*
 
-`table row cell A subscript S C end subscript end cell equals cell space 1 half pi open parentheses 6 close parentheses squared end cell row blank equals cell space 36 over 2 pi space end cell row blank equals cell space 18 pi space cm squared end cell end table`
+$\begin{gathered} A_{S C} & = 1 \frac{1}{2} \pi ( 6 )^{2} \\ = \frac{36}{2} \pi \\ = 18 \pi cm^{2} \end{gathered}$
 
 > *The width of the rectangle is equal to the radius of the semicircle.*
 
@@ -1186,7 +1186,7 @@ $r=\frac{12}{2}=6\mathrm{cm}$
 
 > *Calculate the area of the shaded area by subtracting the area of the semicircle  from the area of the rectangle.*
 
-`table row cell A space end cell equals cell space 72 space minus space 18 pi space equals space 15.4513322... end cell end table`* **cm**<sup>2</sup>*
+$\begin{gathered} A & = 72 - 18 \pi = 15.4513322... \end{gathered}$* **cm**<sup>2</sup>*
 
 **[1]**
 
@@ -1206,7 +1206,7 @@ $r=\frac{12}{2}=6\mathrm{cm}$
 > *Calculate the area of each of the rectangles and add them together. *
 *The area of rectangle **B **is found in terms of **x.*
 
-`table row cell A space end cell equals cell space 9 cross times 12 space plus space 3 cross times x space equals space 108 space plus space 3 x end cell end table`
+$\begin{gathered} A & = 9 \times 12 + 3 \times x = 108 + 3 x \end{gathered}$
 
 **Area for either rectangle found**** [1]**
 
@@ -1218,7 +1218,7 @@ $108+3x=129$
 
 > *Solve the equation by subtracting 108 and dividing by 3.*
 
-`table row cell 3 x space end cell equals cell space 129 space minus space 108 end cell row cell 3 x space end cell equals cell space 21 end cell row cell x space end cell equals cell space 21 over 7 end cell end table`
+$\begin{gathered} 3 x & = 129 - 108 \\ 3 x & = 21 \\ x & = \frac{21}{7} \end{gathered}$
 
 **[1]**
 
@@ -1255,9 +1255,7 @@ $4:x\,1:2\,\,x=4\div1\times2=8$
 
 > *Write as a ratio, putting shaded area first.*
 
-`shaded space colon space unshaded space
-space 52 space space colon space open parentheses 12 space plus space 56 close parentheses
-52 space colon space 68 space space space space space space space space space space space space space space`
+$\text{shaded} : \text{unshaded} 52 : ( 12 + 56 ) 52 : 68$
 
 > *Simplify by dividing both parts by their highest common factor, 4.*
 
@@ -1284,7 +1282,7 @@ $2x+x+2x+x=15$
 
 > *Simplify and solve to find *$x$*.*
 
-`table row cell 6 x space end cell equals cell space 15 end cell row cell x space end cell equals cell space 15 over 6 space equals space 2.5 space cm end cell end table`
+$\begin{gathered} 6 x & = 15 \\ x & = \frac{15}{6} = 2.5 \text{cm} \end{gathered}$
 
 **[1]**
 
@@ -1348,7 +1346,7 @@ $200-8=192$
 > **[exam-tip]**
 > Remember the area for any triangle can be found using the formula $\frac{1}{2}ab\mathrm{sin}C$. It is an equilateral triangle, so the angles are all equal to 60°.
 
-`table row cell 1 half space cross times space 10 space cross times space 10 space cross times space sin open parentheses 60 close parentheses space end cell equals cell space 25 square root of 3 end cell row blank equals cell 43.30... cm squared end cell end table`
+$\begin{gathered} 1 \frac{1}{2} \times 10 \times 10 \times \sin ( 60 ) & = 25 \sqrt{3} \\ = 43.30... cm^{2} \end{gathered}$
 
 **[M1]**
 
@@ -1358,9 +1356,9 @@ $200-8=192$
 
 > *Use SOHCAHTOA to find *$r$
 
-`tan open parentheses 30 close parentheses space equals fraction numerator space r over denominator 5 end fraction`
+$\tan ( 30 ) = \frac{ r}{5}$
 
-`5 space cross times space tan open parentheses 30 close parentheses space equals space r`
+$5 \times \tan ( 30 ) = r$
 
 $r=\frac{5\sqrt{3}}{3}$
 
@@ -1368,7 +1366,7 @@ $r=\frac{5\sqrt{3}}{3}$
 
 > *Find the area of the circle*
 
-`table row cell straight pi space cross times space open parentheses fraction numerator 5 square root of 3 over denominator 3 end fraction close parentheses squared space end cell equals cell fraction numerator space 25 over denominator 3 end fraction straight pi end cell row blank equals cell 26.17... space cm squared end cell end table`
+$\begin{gathered} \mathrm{\pi } \times ( \frac{5 \sqrt{3} }{3} )^{2} & = \frac{ 25}{3} \mathrm{\pi } \\ = 26.17... cm^{2} \end{gathered}$
 
 **[A1]**
 
@@ -1443,11 +1441,11 @@ $5x^{2}$* ***[1]**
 
 > *Substitute the given values into the formula.*
 
-> `x squared plus open parentheses 2 x close parentheses squared equals N M squared`* *
+> $x^{2} + ( 2 x )^{2} = N M^{2}$* *
 
 > *Simplify.*
 
-`table attributes columnalign right center left columnspacing 0px end attributes row cell x squared plus 4 x squared end cell equals cell N M squared end cell row cell 5 x squared end cell equals cell N M squared end cell end table`
+$\begin{array}{rcl} x^{2} + 4 x^{2} & = N M^{2} \\ 5 x^{2} & = N M^{2} \end{array}$
 
 > *Take the square root of both sides.*
 
@@ -1461,11 +1459,11 @@ $\sqrt{5}x=NM$
 
 > *Substitute the given values into Pythagoras' theorem.*
 
-> `open parentheses 2 x close parentheses squared plus open parentheses 4 x close parentheses squared equals B M squared`* *
+> $( 2 x )^{2} + ( 4 x )^{2} = B M^{2}$* *
 
 > *Simplify.*
 
-`table attributes columnalign right center left columnspacing 0px end attributes row cell 4 x squared plus 16 x squared end cell equals cell B M squared end cell row cell 20 x squared end cell equals cell B M squared end cell end table`
+$\begin{array}{rcl} 4 x^{2} + 16 x^{2} & = B M^{2} \\ 20 x^{2} & = B M^{2} \end{array}$
 
 > *Take the square root of both sides.*
 
@@ -1495,26 +1493,26 @@ $5x^{2}$* ***[1]**
 > *The formula for a triangle is *$A=\frac{1}{2}ab\mathrm{sin}C$* where **a **and **b **are the lengths of two sides that form angle **C**.** *
 *Let **x** denote the length **PQ**. Triangle **PQR** is an equilateral triangle so all the lengths are equal and all the angles are 60°. Find the area by substituting **a** = **x**, **b** = **x **and **C** = 60. Simplify the expression,*
 
-`table row cell Area space of space P Q R end cell equals cell 1 half cross times x cross times x cross times sin open parentheses 60 close parentheses end cell row blank equals cell 1 half cross times x cross times x cross times fraction numerator square root of 3 over denominator 2 end fraction end cell row blank equals cell fraction numerator square root of 3 over denominator 4 end fraction x squared end cell end table`
+`| Area of P Q R | = 1 half x x x x x sin ( 60 ) | | _ = 1 half x x x x x (sqrt( 3)/(2) | | _ = (sqrt( 3)/(4) x ^2 | |`
 
 **[1]**
 
 > *The length **PQ** = 1.5**x**. A regular hexagon is made up of 6 equilateral triangles. *
 *Find the area of the hexagon by finding substituting **a** = 1.5**x**, **b** = 1.5**x** and **C** = 60 into the formula and multiplying by 6.*
 
-`table row cell Area space of space A B C D E F end cell equals cell 1 half cross times 1.5 x cross times 1.5 x cross times sin open parentheses 60 close parentheses cross times 6 end cell row blank equals cell 1 half cross times 1.5 x cross times 1.5 x cross times fraction numerator square root of 3 over denominator 2 end fraction cross times 6 end cell row blank equals cell fraction numerator 27 square root of 3 over denominator 8 end fraction x squared end cell end table`
+`| Area of A B C D E F | = 1 half x 1.5 x x 1.5 x x sin ( 60 ) x 6 | | _ = 1 half x 1.5 x x 1.5 x x (sqrt( 3)/(2) x 6 | | _ = (27 sqrt( 3)/(8) x ^2 | |`
 
 **[1]**
 
 > *Form an equation using the fact that the difference between the area of the triangle and the hexagon is equal to *$72\sqrt{3}$* cm*<sup>*2*</sup>*.*
 
-`table row cell fraction numerator 27 square root of 3 over denominator 8 end fraction x squared minus fraction numerator square root of 3 over denominator 4 end fraction x squared end cell equals cell 72 square root of 3 end cell end table`
+$\begin{gathered} \frac{27 \sqrt{3} }{8} x^{2} - \frac{ \sqrt{3} }{4} x^{2} & = 72 \sqrt{3} \end{gathered}$
 
 **[1]**
 
 > *Divide both sides √3 and multiply both sides by 8. Then solve the equation to find **x **(which is a positive value so you can ignore the negative square root).*
 
-`table row cell 27 x squared minus 2 x squared end cell equals 576 row cell 25 x squared end cell equals 576 row cell x squared end cell equals cell 576 over 25 end cell row x equals cell square root of 576 over 25 end root end cell row x equals cell 24 over 5 end cell end table`
+$\begin{array}{ccc}27 x ^{2} - 2 x ^{2} & = 576 \\ 25 x ^{2} & = 576 \\ x ^{2} & = & \frac{576}{25} \\ x = & \sqrt{\frac{576}{25}} \\ x = & \frac{24}{5}\end{array}$
 
 **The length of ****PQ**** is 4.8 cm ****[1]**
 
@@ -1527,22 +1525,22 @@ $5x^{2}$* ***[1]**
 
 > *Find the area of the rectangle by multiplying the lengths of the two perpendicular sides.*
 
-`table row cell Area space of space rectangle end cell equals cell 10 cross times 6 end cell row blank equals cell 60 space straight m squared end cell end table`
+`| Area of rectangle | = 10 x 6 | | _ = 60 m ^2 | |`
 
 > *The length of the base of the triangle is 5 m. The triangle is right angled therefore the perpendicular height can be found using Pythagoras' theorem.*
 
-`table attributes columnalign right center left columnspacing 0px end attributes row cell h squared plus 5 squared end cell equals cell 7 squared end cell row cell h squared end cell equals cell 7 squared minus 5 squared end cell row h equals cell square root of 7 squared minus 5 squared end root end cell row h equals cell square root of 24 end cell end table`
+$\begin{array}{rcl} h^{2} + 5^{2} & = 7^{2} \\ h^{2} & = 7^{2} - 5^{2} \\ h = \sqrt{7^{2} - 5^{2}} \\ h = \sqrt{24} \end{array}$
 
 **Correct Pythagoras equation**** [1] **
 **Correct height**** [1]**
 
 > *Find the area of the triangle by using the formula *$A=\frac{1}{2}bh$* where **b** and **h** are the lengths of the base and the perpendicular height.*
 
-`table row cell Area space of space triangle end cell equals cell 1 half cross times 5 cross times square root of 24 end cell row blank equals cell 5 square root of 6 space straight m squared end cell end table`
+`| Area of \Delta | = 1 half x 5 x sqrt( 24 | | _ = 5 sqrt( 6 m ^2 | |`
 
 > *Add the areas together.*
 
-`table row cell Total space area end cell equals cell 60 plus 5 square root of 6 plus 5 square root of 6 end cell row blank equals cell 84.494897... space straight m squared end cell end table`
+$\begin{gathered} \text{Total} \text{area} & = 60 + 5 \sqrt{6} + 5 \sqrt{6} \\ = 84.494897... \mathrm{m}^{2} \end{gathered}$
 
 **[1]**
 
@@ -1561,7 +1559,7 @@ $84.494897...\div16=5.280931...$
 ### 8() — 4 marks
 > *The formula for the area of a triangle is *$A=\frac{1}{2}bh$* where **b** and **h **are the lengths of the base and the perpendicular height. Substitute **A** = 12 and **b** = 5** **into the formula and solve for **h**.*
 
-`table row 12 equals cell 1 half cross times 5 cross times h end cell row cell fraction numerator 12 cross times 2 over denominator 5 end fraction end cell equals h row cell 4.8 end cell equals h end table`
+$\begin{gathered} 12 = 1 \frac{1}{2} \times 5 \times h \\ \frac{12 \times 2}{5} & = h \\ 4.8 & = h \end{gathered}$
 
 **[1]**
 
@@ -1570,7 +1568,7 @@ $84.494897...\div16=5.280931...$
 
 ![area-and-perimeter-vhq4](assets/019-area-and-perimeter-vhq4.png)
 
-`table row cell x squared end cell equals cell 2.5 squared plus 4.8 squared end cell row x equals cell square root of 2.5 squared plus 4.8 squared end root end cell row x equals cell 5.412023... end cell end table`
+$\begin{gathered} x^{2} & = 2.5^{2} + 4.8^{2} \\ x = \sqrt{2.5^{2} + 4.8^{2}} \\ x = 5.412023... \end{gathered}$
 
 **[1]**
 
@@ -1592,19 +1590,19 @@ $x=15.8(3sf)$ **[1]**
 *2 long lengths and one short length make up the length of 67 cm.* 
 *Form two equations with this information.*
 
-`table attributes columnalign right center left columnspacing 0px end attributes row cell 4 x plus y end cell equals 123 row cell 2 x plus y end cell equals 67 end table`
+$\begin{array}{rcl} 4 x + y & = 123 \\ 2 x + y & = 67 \end{array}$
 
 **[1]**
 
 > *Subtract the equations to eliminate the **y** variable. Then solve for **x**.*
 
-`stack attributes charalign center stackalign right end attributes row 4 x plus up diagonal strike y equals 123 none end row row minus left parenthesis 2 x plus up diagonal strike y equals none 67 right parenthesis end row horizontal line row 2 x none none equals none 56 none end row none row x none none equals none 28 none end row end stack space`
+`charalign center stackalign right end | 4 x + / y = 123 none end | | - ( 2 x + / y = none 67 ) end | horizontal line | 2 x none none = none 56 none end | none | x none none = none 28 none end | end`
 
 **[1]**
 
 > *Substitute the value of **x** back into one of the equations to find **y**.*
 
-`table row cell 4 open parentheses 28 close parentheses plus y end cell equals 123 row cell 112 plus y end cell equals 123 row y equals 11 end table`
+$\begin{gathered} 4 ( 28 ) + y & = 123 \\ 112 + y & = 123 \\ y = 11 \end{gathered}$
 
 **[1]**
 
@@ -1623,15 +1621,15 @@ $123\times67-12\times28\times11=4545$
 ### 2() — 4 marks
 > *Calculate the area of the circle, using *$A=πr^{2}$*.*
 
-`table row cell A subscript S C end subscript end cell equals cell space pi open parentheses 8.5 close parentheses squared end cell row blank equals cell space 72.25 pi space space cm squared end cell end table`
+$\begin{gathered} A_{S C} & = \pi ( 8.5 )^{2} \\ = 72.25 \pi cm^{2} \end{gathered}$
 
 **[1]**
 
 > *It is best to leave the area of the circle in terms of π for accuracy.*
 
-> *FInd an expression for the area of the trapezium, using the formula: *`A equals 1 half open parentheses a plus b close parentheses h`*, where *$a$* and *$b$* are the lengths of the parallel sides and *$h$*is the perpendicular height.*
+> *FInd an expression for the area of the trapezium, using the formula: *$A = 1 \frac{1}{2} ( a + b ) h$*, where *$a$* and *$b$* are the lengths of the parallel sides and *$h$*is the perpendicular height.*
 
-`table row A equals cell 1 half open parentheses 20 space plus space 25 close parentheses cross times h end cell row blank equals cell 22.5 h space cm squared end cell end table`
+$\begin{gathered} A = 1 \frac{1}{2} ( 20 + 25 ) \times h \\ = 22.5 h cm^{2} \end{gathered}$
 
 **[1]**
 
@@ -1641,7 +1639,7 @@ $22.5h=72.25π$
 
 > *Rearrange and solve for **h**.*
 
-`table row cell h space end cell equals cell space 72.25 straight pi space divided by space 22.5 space equals space 10.088... end cell end table`
+$\begin{gathered} h & = 72.25 \mathrm{\pi } \div 22.5 = 10.088... \end{gathered}$
 
 **[1]**
 
@@ -1652,9 +1650,9 @@ $22.5h=72.25π$
 ## Q44 — very_hard — 6 marks · exam-questions
 
 ### 22() — 6 marks
-> *Find the interior angle of the regular octagon using: *`size space of space interior space angle space equals fraction numerator 180 open parentheses n minus 2 close parentheses over denominator n end fraction`*, where *$n$* is the number of sides of the polygon.*
+> *Find the interior angle of the regular octagon using: *$\text{size} of \text{interior} \text{angle} = \frac{180 ( n - 2 ) }{n}$*, where *$n$* is the number of sides of the polygon.*
 
-`fraction numerator 180 open parentheses 8 minus 2 close parentheses over denominator 8 end fraction equals 135 degree`
+$\frac{180 ( 8 - 2 )}{8} = 135^{\circ}$
 
 **[1]**
 
@@ -1678,13 +1676,13 @@ $22.5h=72.25π$
 
 > *The formula for the sine rule is *$\frac{a}{\mathrm{sin}A}=\frac{b}{\mathrm{sin}B}$*, where **a** and **b** are the lengths of the two sides that are opposite the angles **A **and **B **respectively. Substitute **a** = **AD**, **b** = 10, **A** = 112.5 and **B** = 22.5 into the formula.*
 
-`fraction numerator A D over denominator sin open parentheses 112.5 close parentheses end fraction equals fraction numerator 10 over denominator sin open parentheses 22.5 close parentheses end fraction`
+$\frac{A D}{\sin ( 112.5 )} = \frac{10}{\sin ( 22.5 )}$
 
 **[1]**
 
 > *Multiply both sides by sin(112.5) and type into your calculator.*
 
-`table row cell A D end cell equals cell fraction numerator 10 over denominator sin open parentheses 22.5 close parentheses end fraction cross times sin open parentheses 112.5 close parentheses end cell row blank equals cell 24.14213... end cell end table`
+$\begin{gathered} A D & = \frac{10}{\sin ( 22.5 )} \times \sin ( 112.5 ) \\ = 24.14213... \end{gathered}$
 
 > *Now find the area of rectangle **ADEH.*
 
@@ -1702,19 +1700,19 @@ $22.5h=72.25π$
 
 > *The formula for the area of a triangle is *$\mathrm{Area}=\frac{1}{2}ab\mathrm{sin}C$*, where **a** and **b** are the lengths of the two sides that form angle **C**. Substitute **a** = 24.14213..., **b** = 10 and **C** = 45 into the formula.*
 
-`table row Area equals cell 1 half cross times 24.14213... cross times 10 cross times sin open parentheses 45 close parentheses end cell end table`
+$\begin{gathered} \text{Area} = 1 \frac{1}{2} \times 24.14213... \times 10 \times \sin ( 45 ) \end{gathered}$
 
 **[1]**
 
 > *Type into your calculator.*
 
-`table row cell Area subscript A C D end subscript end cell equals cell space 85.35531... space cm squared end cell end table`
+$\begin{gathered} Area_{A C D} & = 85.35531... cm^{2} \end{gathered}$
 
 **[1]**
 
 > *Find the shaded area by adding the area of the rectangle to the area of the triangle.*
 
-`table row cell Area space end cell equals cell space 241.4213... space plus space 85.35531... space equals space 326.776... space cm squared end cell end table`
+$\begin{gathered} \text{Area} & = 241.4213... + 85.35531... = 326.776... cm^{2} \end{gathered}$
 
 > *Round to 3 significant figures. Remember to include the units for the area.*
 
@@ -1745,17 +1743,17 @@ $r=\frac{AC}{2}=\frac{17}{2}=8.5\mathrm{cm}$
 
 > *Calculate the area of the circle, using *$A=πr^{2}$*.*
 
-`table row cell A subscript C i r c l e end subscript end cell equals cell space pi open parentheses 8.5 close parentheses squared end cell row blank equals cell space 289 over 4 pi space end cell row blank equals cell space 72.25 pi space cm squared end cell end table`
+$\begin{gathered} A_{C i r c l e} & = \pi ( 8.5 )^{2} \\ = \frac{289}{4} \pi \\ = 72.25 \pi cm^{2} \end{gathered}$
 
 > *Calculate the area of the triangle.*
 
-*Area triangle = *`table row blank blank cell 1 half end cell end table b h space equals space 1 half cross times 8 cross times 15 space equals space 60 space cm squared`
+*Area triangle = *$\begin{gathered} 1 \frac{1}{2} \end{gathered} b h = 1 \frac{1}{2} \times 8 \times 15 = 60 cm^{2}$
 
 **Either area found ****[1]**
 
 > *Calculate the area of the shaded area by subtracting the area of the triangle from the area of the circle.*
 
-`table row cell A space end cell equals cell space 72.25 pi space minus space 60 space equals space 166.9800... end cell end table`* **cm**<sup>2</sup>*
+$\begin{gathered} A & = 72.25 \pi - 60 = 166.9800... \end{gathered}$* **cm**<sup>2</sup>*
 
 **[1]**
 
@@ -1768,33 +1766,33 @@ $r=\frac{AC}{2}=\frac{17}{2}=8.5\mathrm{cm}$
 ### 11() — 5 marks
 > *Calculate the length **AC** from the right-angled triangle **ACD** using Pythagoras' theorem, *$a^{2}+b^{2}=c^{2}$*.*
 
-`table row cell 17 squared end cell equals cell 15 squared plus A C squared end cell end table`
+$\begin{gathered} 17^{2} & = 15^{2} + A C^{2} \end{gathered}$
 
 **[1]**
 
-`table row 289 equals cell 225 plus A C squared end cell row 64 equals cell A C squared end cell end table`
+$\begin{gathered} 289 = 225 + A C^{2} \\ 64 = A C^{2} \end{gathered}$
 
 **[1]**
 
-`table row cell A C end cell equals 8 end table`
+$\begin{gathered} A C & = 8 \end{gathered}$
 
 > *The diameter of the semi-circle is therefore 8 cm.*
 
 > *Calculate the arc length of the semi-circle by using the formula for the circumference of a circle, *$C=πd$*, and multiplying it by *$\frac{1}{2}$*.*
 
-> * *`table row cell A r c space l e n g t h space end cell equals cell 1 half cross times straight pi cross times 8 end cell end table`
+> * *$\begin{gathered} A r c l e n g t h & = 1 \frac{1}{2} \times \mathrm{\pi } \times 8 \end{gathered}$
 
 **[1]**
 
-`table row cell A r c space l e n g t h space end cell equals cell 4 straight pi end cell end table`
+$\begin{gathered} A r c l e n g t h & = 4 \mathrm{\pi } \end{gathered}$
 
 > *Work out the perimeter of the shaded shape by adding together the arc length of the semi-circle and the lengths of the sides **AD** and **CD**.*
 
-`table row cell P e r i m e t e r end cell equals cell 4 straight pi plus 17 plus 15 end cell end table`
+$\begin{gathered} P e r i m e t e r & = 4 \mathrm{\pi } + 17 + 15 \end{gathered}$
 
 **[1]**
 
-`table attributes columnalign right center left columnspacing 0px end attributes row cell P e r i m e t e r end cell equals cell 44.5663... end cell end table`
+$\begin{array}{rcl} P e r i m e t e r & = 44.5663... \end{array}$
 
 > *Round to 3 significant figures.*
 
@@ -1811,7 +1809,7 @@ $r=\frac{AC}{2}=\frac{17}{2}=8.5\mathrm{cm}$
 
 > *Find the area of triangle **AOB** using the area of a triangle formula, *$A=\frac{1}{2}ab\mathrm{sin}C$*, where *$a$* and *$b$* are the two known sides and *$C$* is the included angle. **OA **and **OB **are both radii so are both equal to 5 cm.*
 
-`A r e a subscript t r i a n g l e space A O B end subscript space equals 1 half cross times open parentheses 5 close parentheses cross times open parentheses 5 close parentheses cross times sin open parentheses 50 close parentheses space equals space 25 over 2 sin space 50`
+$A r e a_{t r i a n g l e A O B} = 1 \frac{1}{2} \times ( 5 ) \times ( 5 ) \times \sin ( 50 ) = \frac{25}{2} \sin 50$
 
 > *It is best to leave working as exact values as you work through the problem, but if you choose to round make sure you use at least 4 significant figures throughout. *
 
@@ -1835,24 +1833,24 @@ $\frac{50}{360}\timesπ\times5^{2}=\frac{125}{36}π$
 
 > *Use the sine rule with the angles on the numerators, *$\frac{\mathrm{sin}A}{a}=\frac{\mathrm{sin}B}{b}=\frac{\mathrm{sin}C}{c}$*.*
 
-`fraction numerator sin space open parentheses A P O close parentheses over denominator 5 end fraction equals fraction numerator sin space open parentheses 25 close parentheses over denominator 4 end fraction`
+$\frac{\sin ( A P O )}{5} = \frac{\sin ( 25 )}{4}$
 
 **[1]**
 
 > *Multiply both sides by 5 and use the inverse sin to find the angle **APO**.*
 
-`sin space A P O space equals space 5 cross times fraction numerator sin space 25 over denominator 4 end fraction space equals space 0.528272...
-angle space A P O space equals space sin to the power of negative 1 end exponent open parentheses space 0.528272... close parentheses space equals space 31.88883...`
+$\sin A P O = 5 \times \frac{\sin 25}{4} = 0.528272...
+\text{angle} A P O = \sin ^{- 1} ( 0.528272... ) = 31.88883...$
 
 **[1]**
 
 > *Angle **APB **= 2 × angle **APO**.*
 
-`A P B space equals space 2 open parentheses 31.88883... close parentheses space equals space 63.77766...`
+$A P B = 2 ( 31.88883... ) = 63.77766...$
 
 > *Find the area of triangle **APB** using the area of a triangle formula, *$A=\frac{1}{2}ab\mathrm{sin}C$*.*
 
-`A r e a subscript t r i a n g l e space A P B end subscript space equals 1 half cross times open parentheses 4 close parentheses cross times open parentheses 4 close parentheses cross times sin open parentheses 63.77766... close parentheses space equals space 7.176689...`
+$A r e a_{t r i a n g l e A P B} = 1 \frac{1}{2} \times ( 4 ) \times ( 4 ) \times \sin ( 63.77766... ) = 7.176689...$
 
 > *Find the area of the sector **APB **using the formula for area of a sector *$=\frac{θ}{360^{\circ}}\timesπr^{2}$*.*
 
@@ -1866,7 +1864,7 @@ $\frac{63.77766...}{360}\timesπ\times4^{2}=8.905041...$
 
 > *Find the area of the shaded section by adding the area of the two segments together.*
 
-*Area shaded = *`open parentheses 125 over 36 pi space minus space 25 over 2 sin space 50 close parentheses plus 1.728352... space equals space 3.061104...`
+*Area shaded = *$( \frac{125}{36} \pi - \frac{25}{2} \sin 50 ) + 1.728352... = 3.061104...$
 
 **[1]**
 
@@ -1886,33 +1884,33 @@ $\frac{63.77766...}{360}\timesπ\times4^{2}=8.905041...$
 
 > *The height of the top rectangle is unknown but we can write it in terms of **x **and simplify:*
 
-`table attributes columnalign right center left columnspacing 0px end attributes row cell 9 minus open parentheses 3 x plus 1 close parentheses end cell equals cell 9 minus 3 x minus 1 end cell row blank equals cell 8 minus 3 x end cell end table`
+$\begin{array}{rcl} 9 - ( 3 x + 1 ) & = 9 - 3 x - 1 \\ = 8 - 3 x \end{array}$
 
 > *Write the area of the top rectangle in terms of **x**:*
 
-`table attributes columnalign right center left columnspacing 0px end attributes row cell Area subscript 1 end cell equals cell x open parentheses 8 minus 3 x close parentheses end cell end table`
+$\begin{array}{rcl} Area_{1} & = x ( 8 - 3 x ) \end{array}$
 
 > *The area of the bottom rectangle in terms of **x** is:*
 
-`table attributes columnalign right center left columnspacing 0px end attributes row cell Area subscript 2 end cell equals cell 10 open parentheses 3 x plus 1 close parentheses end cell end table`
+$\begin{array}{rcl} Area_{2} & = 10 ( 3 x + 1 ) \end{array}$
 
 **either of the two areas above expressed in terms of x ****[1]**
 
 > *The area of the shape is 65 cm*<sup>*2*</sup>* so add theareas of the two rectangles together and equate to 65.*
 
-> `table attributes columnalign right center left columnspacing 0px end attributes row cell x open parentheses 8 minus 3 x close parentheses plus 10 open parentheses 3 x plus 1 close parentheses end cell equals 65 end table`* *
+> $\begin{array}{rcl} x ( 8 - 3 x ) + 10 ( 3 x + 1 ) & = 65 \end{array}$* *
 
 **[1]**
 
 > *Expand the brackets and collect like terms (on the left hand side).*
 
-`table attributes columnalign right center left columnspacing 0px end attributes row cell 8 x minus 3 x squared plus 30 x plus 10 end cell equals 65 row cell negative 3 x squared plus 38 x plus 10 end cell equals 65 end table`
+$\begin{array}{rcl} 8 x - 3 x^{2} + 30 x + 10 & = 65 \\ - 3 x^{2} + 38 x + 10 & = 65 \end{array}$
 
 **left hand side fully expanded and simplified ****[1]**
 
 > *Now rearrange into the form *$ax^{2}+bx+c=0$* (where **a** is a positive number) in order to solve the quadratic equation.*
 
-`table attributes columnalign right center left columnspacing 0px end attributes row cell negative 3 x squared plus 38 x minus 55 end cell equals 0 row cell 3 x squared minus 38 x plus 55 end cell equals 0 end table`
+$\begin{array}{rcl} - 3 x^{2} + 38 x - 55 & = 0 \\ 3 x^{2} - 38 x + 55 & = 0 \end{array}$
 
 **[1]**
 
@@ -1920,11 +1918,11 @@ $\frac{63.77766...}{360}\timesπ\times4^{2}=8.905041...$
 
 > *Be careful with the negative numbers.*
 
-`table row x equals cell fraction numerator negative open parentheses negative 38 close parentheses plus-or-minus square root of open parentheses negative 38 close parentheses squared minus 4 cross times 3 cross times 55 end root over denominator 2 cross times 3 end fraction end cell end table`
+$\begin{gathered} x = \frac{- ( - 38 ) \pm \sqrt{( - 38 )^{2} - 4 \times 3 \times 55} }{2 \times 3} \end{gathered}$
 
 **quadratic formula correctly applied, or left-hand-side of equation factorised ****[1]**
 
-`table row blank equals cell fraction numerator 38 plus-or-minus square root of 1444 minus 660 end root over denominator 6 end fraction end cell row blank equals cell fraction numerator 38 plus-or-minus square root of 784 over denominator 6 end fraction end cell row x equals cell 5 over 3 comma space up diagonal strike x equals 11 end strike end cell end table`
+$\begin{gathered} = \frac{38 \pm \sqrt{1444 - 660} }{6} \\ = \frac{38 \pm \sqrt{784} }{6} \\ x = \frac{5}{3} , \cancel{x = 11} \end{gathered}$
 
 > *If **x** = 11 was a solution, then the short side on the diagram marked **x** would be longer than the side marked 10- so 11 would be smaller than 10! This is clearly a contradiction so **x** is not a valid answer. *
 *You can acknowledge that **x **= 11** **is a solution to the equation by writing it down, but make sure you cross it out to show that you understand that it cannot be an answer to the question!*
@@ -1941,33 +1939,33 @@ $x=\frac{5}{3}$ **[1]**
 
 > *The length of the right-hand rectangle can be written in terms of **x**:*
 
-`table row blank blank cell 10 minus x end cell end table`
+$\begin{gathered} 10 - x \end{gathered}$
 
 > *Write the area of the right-hand rectangle in terms of **x**:*
 
-`table attributes columnalign right center left columnspacing 0px end attributes row cell Area subscript 1 end cell equals cell open parentheses 3 x plus 1 close parentheses open parentheses 10 minus x close parentheses end cell end table`
+$\begin{array}{rcl} Area_{1} & = ( 3 x + 1 ) ( 10 - x ) \end{array}$
 
 > *The area of the left-hand rectangle in terms of **x** is:*
 
-`table attributes columnalign right center left columnspacing 0px end attributes row cell Area subscript 2 end cell equals cell 9 x end cell end table`
+$\begin{array}{rcl} Area_{2} & = 9 x \end{array}$
 
 **either of the two areas above expressed in terms of x ****[1]**
 
 > *The area of the shape is 65 cm*<sup>*2*</sup>* so add theareas of the two rectangles together and equate to 65.*
 
-> `table attributes columnalign right center left columnspacing 0px end attributes row cell open parentheses 3 x plus 1 close parentheses open parentheses 10 minus x close parentheses plus 9 x end cell equals 65 end table`* *
+> $\begin{array}{rcl} ( 3 x + 1 ) ( 10 - x ) + 9 x & = 65 \end{array}$* *
 
 **[1]**
 
 > *Expand the brackets and collect like terms (on the left hand side).*
 
-`table row cell 30 x minus 3 x squared plus 10 minus x plus 9 x end cell equals 65 row cell negative 3 x squared plus 38 x plus 10 end cell equals 65 end table`
+$\begin{gathered} 30 x - 3 x^{2} + 10 - x + 9 x & = 65 \\ - 3 x^{2} + 38 x + 10 & = 65 \end{gathered}$
 
 **left hand side fully expanded and simplified ****[1]**
 
 > *Now rearrange into the form *$ax^{2}+bx+c=0$* (where **a** is a positive number) in order to solve the quadratic equation.*
 
-`table attributes columnalign right center left columnspacing 0px end attributes row cell negative 3 x squared plus 38 x minus 55 end cell equals 0 row cell 3 x squared minus 38 x plus 55 end cell equals 0 end table`
+$\begin{array}{rcl} - 3 x^{2} + 38 x - 55 & = 0 \\ 3 x^{2} - 38 x + 55 & = 0 \end{array}$
 
 **[1]**
 
@@ -1975,11 +1973,11 @@ $x=\frac{5}{3}$ **[1]**
 
 > *Be careful with the negative numbers.*
 
-`table row x equals cell fraction numerator negative open parentheses negative 38 close parentheses plus-or-minus square root of open parentheses negative 38 close parentheses squared minus 4 cross times 3 cross times 55 end root over denominator 2 cross times 3 end fraction end cell end table`
+$\begin{gathered} x = \frac{- ( - 38 ) \pm \sqrt{( - 38 )^{2} - 4 \times 3 \times 55} }{2 \times 3} \end{gathered}$
 
 **quadratic formula correctly applied, or left-hand-side of equation factorised ****[1]**
 
-`table row blank equals cell fraction numerator 38 plus-or-minus square root of 1444 minus 660 end root over denominator 6 end fraction end cell row blank equals cell fraction numerator 38 plus-or-minus square root of 784 over denominator 6 end fraction end cell row x equals cell 5 over 3 comma space up diagonal strike x equals 11 end strike end cell end table`
+$\begin{gathered} = \frac{38 \pm \sqrt{1444 - 660} }{6} \\ = \frac{38 \pm \sqrt{784} }{6} \\ x = \frac{5}{3} , \cancel{x = 11} \end{gathered}$
 
 > *If **x** = 11 was a solution, then the short side on the diagram marked **x** would be longer than the side marked 10- so 11 would be smaller than 10! This is clearly a contradiction so **x** is not a valid answer.*
 * You can acknowledge that **x **= 11** **is a solution to the equation by writing it down, but make sure you cross it out to show that you understand that it cannot be an answer to the question!*
@@ -1995,7 +1993,7 @@ $x=\frac{5}{3}$ **[1]**
 
 > *Find the area of the triangles using the area of a triangle formula, *$A=\frac{1}{2}ab\mathrm{sin}C$*, where *$a$* and *$b$* are the two known sides and *$C$* is the included angle. The triangles are congruent, which means identical, so the calculation is the same for both of them.*
 
-`Area subscript triangle space equals 1 half cross times open parentheses 15 close parentheses cross times open parentheses 26 close parentheses cross times sin open parentheses 38 close parentheses space equals space 195 space sin space 38`
+`Area _ \Delta = 1 half x ( 15 ) x ( 26 ) x sin ( 38 ) = 195 sin 38`
 
 **[1]**
 
@@ -2003,25 +2001,25 @@ $x=\frac{5}{3}$ **[1]**
 
 > *To find the area of the sector, you will first need to find its radius. You know the lengths of two sides and the angle between them of the triangle and the radius of the sector is the side opposite the angle, so you can use the cosine rule, *$a^{2}=b^{2}+c^{2}-2bc\mathrm{cos}A$*, where **b** and **c** are the lengths of the two sides that form angle **A** and **a** is the length of the side opposite **A**.*
 
-`r squared space equals space 26 squared space plus space 15 squared space minus space 2 open parentheses 26 close parentheses open parentheses 15 close parentheses cos open parentheses 38 close parentheses
-r space equals space square root of 26 squared space plus space 15 squared space minus space 2 open parentheses 26 close parentheses open parentheses 15 close parentheses cos open parentheses 38 close parentheses end root`
+$r^{2} = 26^{2} + 15^{2} - 2 ( 26 ) ( 15 ) \cos ( 38 )
+r = \sqrt{26^{2} + 15^{2} - 2 ( 26 ) ( 15 ) \cos ( 38 )}$
 
 **[1]**
 
 > *Type the expression into your calculator altogether as one line to get a value for **r.*
 
-`table row cell r space end cell equals cell space 16.921926... end cell end table`
+$\begin{gathered} r & = 16.921926... \end{gathered}$
 
 > *Find the area of the sector** **using the formula for area of a sector *$=\frac{θ}{360^{\circ}}\timesπr^{2}$*, the angle for the sector is *$θ=108$* and use the unrounded value found for **r.** *
 
-`A r e a subscript s e c t o r end subscript equals space space 108 over 360 space space cross times space pi space space cross times space open parentheses 16.921926 close parentheses squared space equals space 269.880036...`
+$A r e a_{s e c t o r} = \frac{108}{360} \times \pi \times ( 16.921926 )^{2} = 269.880036...$
 
 **Correct fraction**** [1] **
 **Correct method to find area**** [1]**
 
 > *Find the area of the logo by adding 2 lots of the area of the triangle to the area of the sector**.*
 
-*Area logo = *`2 open parentheses 195 space sin space 38 close parentheses space plus space 269.880036...`
+*Area logo = *$2 ( 195 \sin 38 ) + 269.880036...$
 
 **Final answer:** **Area = **$509.988...=510\mathrm{cm}^{2}(2s.f.)$** ****[1]**
 
@@ -2037,7 +2035,7 @@ $A_{sq}=36\times36=36^{2}=1296m^{2}$
 **[1]**
 
 > *Calculate the area of one semi-circle using *$A=\frac{1}{2}πr^{2}$*, where *$r$* is the radius of the semi-circle. *
-* The diameter of one semi-circle is equal to the side of the square, and the radius is half of the diameter, so *`r space equals space 1 half open parentheses 36 close parentheses space equals space 18`* m.*
+* The diameter of one semi-circle is equal to the side of the square, and the radius is half of the diameter, so *$r = 1 \frac{1}{2} ( 36 ) = 18$* m.*
 
 $A_{SC}=\frac{1}{2}\timesπ\times18^{2}=162πm^{2}$
 
@@ -2045,7 +2043,7 @@ $A_{SC}=\frac{1}{2}\timesπ\times18^{2}=162πm^{2}$
 
 > *The area of the lawn = area square + 3(area semi-circle).*
 
-`A equals A subscript s q space end subscript plus space 3 A subscript S C end subscript space equals space 1296 space plus space 3 open parentheses 162 pi close parentheses space equals space 2822.8140... space straight m squared`
+$A = A_{s q } + 3 A_{S C} = 1296 + 3 ( 162 \pi ) = 2822.8140... \mathrm{m}^{2}$
 
 > *Multiply the area of the lawn by the amount of fertiliser per m*<sup>*2*</sup>* to find the total amount of fertiliser.*
 
@@ -2094,7 +2092,7 @@ $\mathrm{AD}=5\times2=10\mathrm{cm}\,\mathrm{AB}=12\times2=24\mathrm{cm}\,\mathr
 
 **[1]**
 
-> *The area of a trapezium can be found using the formula *`A equals 1 half open parentheses a space plus space b close parentheses h`*, where *$a$* and *$b$* are the parallel sides and *$h$* is the **perpendicular **height.  *
+> *The area of a trapezium can be found using the formula *$A = 1 \frac{1}{2} ( a + b ) h$*, where *$a$* and *$b$* are the parallel sides and *$h$* is the **perpendicular **height.  *
 *The perpendicular height is not known, but can be found using Pythagoras' theorem. The trapezium is an isosceles trapezium so the property that there is a line of symmetry down the middle can be used.*
 
 ![_Fylc3vx_ocr-gcse-tq-ma-are-and-perimeter-vh-q4-diagram-1](assets/025-fylc3vx-ocr-gcse-tq-ma-are-and-perimeter-vh-q4-d.png)
@@ -2107,19 +2105,19 @@ $XB=\frac{24-12}{2}=6\mathrm{cm}$
 
 > *Use Pythagoras' theorem *$a^{2}+b^{2}=c^{2}$* with the sides XB, CX and BC to find the perpendicular height of the trapezium.*
 
-`table row cell h to the power of 2 space end exponent plus space X straight B squared space end cell equals cell space BC squared end cell row cell h to the power of 2 space end exponent plus space 6 squared space end cell equals cell space 10 squared end cell end table`
+$\begin{gathered} h^{2 } + X \mathrm{B}^{2} & = BC^{2} \\ h^{2 } + 6^{2} & = 10^{2} \end{gathered}$
 
 **[1]**
 
 > *Rearrange and solve to find **h.*
 
-`table row cell h to the power of 2 space end exponent end cell equals cell space 10 squared space minus space 6 squared end cell row blank equals cell space 100 space minus space 36 end cell row blank equals cell space 64 end cell row cell h space end cell equals cell space square root of 64 end cell row blank equals cell space 8 space cm end cell end table`
+$\begin{gathered} h^{2 } & = 10^{2} - 6^{2} \\ = 100 - 36 \\ = 64 \\ h & = \sqrt{64} \\ = 8 \text{cm} \end{gathered}$
 
 **[1]**
 
-> *Substitute into the formula for the area of a trapezium,  *`A equals 1 half open parentheses a space plus space b close parentheses h`*, where *$a=\mathrm{AB}=24\mathrm{cm}$*, *$b=\mathrm{CD}=12\mathrm{cm}$*and *$h=8\mathrm{cm}$*.*
+> *Substitute into the formula for the area of a trapezium,  *$A = 1 \frac{1}{2} ( a + b ) h$*, where *$a=\mathrm{AB}=24\mathrm{cm}$*, *$b=\mathrm{CD}=12\mathrm{cm}$*and *$h=8\mathrm{cm}$*.*
 
-`A space equals space 1 half open parentheses 24 space plus space 12 close parentheses cross times 8`
+$A = 1 \frac{1}{2} ( 24 + 12 ) \times 8$
 
 **[1]**
 
@@ -2132,23 +2130,23 @@ $XB=\frac{24-12}{2}=6\mathrm{cm}$
 
 $\mathrm{Area}_{\mathrm{square}}=x^{2}$
 
-> *The area of a trapezium can be found using the formula *`A equals 1 half open parentheses a space plus space b close parentheses h`*, where *$a$* and *$b$* are the parallel sides and *$h$* is the **perpendicular **height. *
+> *The area of a trapezium can be found using the formula *$A = 1 \frac{1}{2} ( a + b ) h$*, where *$a$* and *$b$* are the parallel sides and *$h$* is the **perpendicular **height. *
 
 > *Write an expression for the area of the trapezium in terms of **x.*
 
-`Area subscript trapezium space equals space fraction numerator open parentheses 10 space plus space x close parentheses cross times 6 over denominator 2 end fraction space equals space 6 over 2 open parentheses 10 space plus space x close parentheses space equals space 3 open parentheses 10 space plus space x close parentheses space`
+$Area_{trapezium} = \frac{( 10 + x ) \times 6}{2} = \frac{6}{2} ( 10 + x ) = 3 ( 10 + x )$
 
 **[1]**
 
 > *Form an equation by setting the area of the square equal to the area of the trapezium.*
 
-`table row cell Area subscript square space end subscript end cell equals cell space Area subscript trapezium end cell row cell x squared space end cell equals cell space 3 open parentheses 10 space plus space x close parentheses end cell end table`
+$\begin{gathered} Area_{square } & = Area_{trapezium} \\ x^{2} & = 3 ( 10 + x ) \end{gathered}$
 
 **[1]**
 
 > *Rearrange to form a quadratic equation in the form *$ax^{2}+bx+c=0$*.*
 
-`table row cell x to the power of 2 space end exponent end cell equals cell space 30 space plus space 3 x end cell row cell x to the power of 2 space end exponent minus space 3 x space minus space 30 space end cell equals cell space 0 end cell end table`
+$\begin{gathered} x^{2 } & = 30 + 3 x \\ x^{2 } - 3 x - 30 & = 0 \end{gathered}$
 
 **[1]**
 
@@ -2156,7 +2154,7 @@ $\mathrm{Area}_{\mathrm{square}}=x^{2}$
 
 $a=1,b=-3,c=-30$
 
-`x equals fraction numerator negative open parentheses negative 3 close parentheses plus-or-minus square root of open parentheses negative 3 close parentheses squared space minus space 4 space cross times space 1 space cross times space open parentheses negative 30 close parentheses end root over denominator 2 space cross times space 1 end fraction`
+$x = \frac{- ( - 3 ) \pm \sqrt{( - 3 )^{2} - 4 \times 1 \times ( - 30 )} }{2 \times 1}$
 
 **[1]**
 

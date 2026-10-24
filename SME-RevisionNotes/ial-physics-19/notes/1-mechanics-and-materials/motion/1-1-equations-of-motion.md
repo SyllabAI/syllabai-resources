@@ -88,7 +88,7 @@ guided_study: false
 > 
 > **Step 4: Substitute the values into the equation and calculate *****s***
 > 
-> `s equals fraction numerator 0 squared minus 40 squared over denominator 2 cross times open parentheses negative 2 close parentheses end fraction`= 400 m
+> $s = \frac{0^{2} - 40^{2}}{2 \times ( - 2 )}$= 400 m
 > 
 > **Step 5: Write the full answer to the question**
 > 

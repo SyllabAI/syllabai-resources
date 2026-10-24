@@ -20,7 +20,7 @@ Describe fully the single transformation that maps shape A onto shape B.
 
 ![Graph showing a right-angled triangle in the first quadrant, vertices at (2,1), (2,4), and (4,1), with axes labelled x and y, grid lines visible.](assets/003-graph-showing-a-right-angled-triangle-in-the-fir.png)
 
-Rotate the triangle above clockwise by 90° about the point `open parentheses 0 comma space 0 close parentheses` and label it A.
+Rotate the triangle above clockwise by 90° about the point $( 0 , 0 )$ and label it A.
 
 **Q2** [2 marks]
 
@@ -125,7 +125,7 @@ ii) Describe fully the **single **transformation that maps triangle $C$ onto tri
 
 On the grid, draw the image of
 
-ia) triangle $A$ after a translation by the vector `open parentheses table row 3 row cell negative 7 end cell end table close parentheses`,
+ia) triangle $A$ after a translation by the vector $( \begin{gathered} 3 \\ - 7 \end{gathered} )$,
 
 [2]
 
@@ -173,7 +173,7 @@ Triangles A, B and C are shown on the grid.
 
 On the grid,
 
-i) translate triangle $A$by the vector `open parentheses table row 6 row cell negative 2 end cell end table close parentheses`,
+i) translate triangle $A$by the vector $( \begin{gathered} 6 \\ - 2 \end{gathered} )$,
 
 [2]
 
@@ -279,7 +279,7 @@ Describe fully the **single **transformation that maps shape $A$ onto shape $C$.
 
 ![q7-058031-mayjune2019-cie-igcse-maths-core](https://cdn.savemyexams.com/uploads/2023/02/q7-058031-mayjune2019-cie-igcse-maths-core.png)
 
-On the grid, draw the image of shape $A$ after a translation by the vector `open parentheses table row 3 row 1 end table close parentheses`.
+On the grid, draw the image of shape $A$ after a translation by the vector $( \begin{gathered} 3 \\ 1 \end{gathered} )$.
 
 *Source: June 2019 0580/31 Q7C*
 
@@ -322,7 +322,7 @@ iii) shape $D$.
 
 The diagram shows four shapes A, B, C and D.
 
-On the grid, draw the image of shape A after a translation by the vector `open parentheses table row cell negative 3 end cell row 2 end table close parentheses`
+On the grid, draw the image of shape A after a translation by the vector $( \begin{gathered} - 3 \\ 2 \end{gathered} )$
 
 *Source: Specimen 2020 0580/03 Q9B*
 
@@ -381,7 +381,7 @@ i) Describe fully the **single **transformation that maps triangle $A$ onto tria
 
 [3]
 
-ii)On the grid, draw the image of triangle A after a translation by the vector`open parentheses table row 4 row cell negative 2 end cell end table close parentheses`
+ii)On the grid, draw the image of triangle A after a translation by the vector$( \begin{gathered} 4 \\ - 2 \end{gathered} )$
 
 [2]
 
@@ -416,7 +416,7 @@ Describe fully the **single **transformation that maps triangle $A$ onto triangl
 
 [qp3-0580-33-paper-3-oct-nov-2019-cie-igcse-maths.png] (the diagram showing triangle A)
 
-On the grid, draw the image of triangle $A$ after a translation by the vector `open parentheses table row cell negative 2 end cell row cell negative 3 end cell end table close parentheses`
+On the grid, draw the image of triangle $A$ after a translation by the vector $( \begin{gathered} - 2 \\ - 3 \end{gathered} )$
 
 *Source: Nov 2019 0580/33 Q3C*
 

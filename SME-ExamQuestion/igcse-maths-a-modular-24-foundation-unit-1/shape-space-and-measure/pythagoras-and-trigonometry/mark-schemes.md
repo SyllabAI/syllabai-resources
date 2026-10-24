@@ -10,11 +10,11 @@
 
 > *Use the labelled triangle to select the trigonometric ratio to use (sine, cosine or tangent)*
 
-`tan open parentheses x close parentheses equals opposite over adjacent`
+$\tan ( x ) = \frac{opposite}{adjacent}$
 
 > *Substitute values into the equation and solve for *$x$
 
-`table row cell tan open parentheses x close parentheses end cell equals cell 8 over 12 end cell row x equals cell tan to the power of negative 1 end exponent open parentheses 8 over 12 close parentheses end cell row x equals cell 33.690... end cell end table`
+$\begin{gathered} \tan ( x ) & = \frac{8}{12} \\ x = \tan ^{- 1} ( \frac{8}{12} ) \\ x = 33.690... \end{gathered}$
 
 **[M1 M1]**
 
@@ -40,7 +40,7 @@ $\mathrm{cos}BAD=\frac{8}{14}$
 
 **[M1]**
 
-`B A D equals cos to the power of negative 1 end exponent open parentheses 8 over 14 close parentheses space equals 55.1500...`
+$B A D = \cos ^{- 1} ( \frac{8}{14} ) = 55.1500...$
 
 **[M1]**
 
@@ -74,7 +74,7 @@ $CD=8\times\mathrm{tan}17.1500...=2.4687...$
 
 ![Isosceles triangle with equal sides of 14.5 cm, base 10 cm, altitude with right angle to base. Label states the diagram is not accurately drawn.](assets/003-isosceles-triangle-with-equal-sides-of-14-5-cm-b.png)
 
-`open parentheses height close parentheses squared equals 14.5 squared minus 10 squared equals 110.25`
+$( \text{height} ) ^{2} = 14.5 ^{2} - 10 ^{2} = 110.25$
 
 $\mathrm{height}=\sqrt{110.25}=10.5$
 
@@ -104,7 +104,7 @@ $\frac{1}{2}\times20\times10.5=105$
 ### 18() — 4 marks
 > *Use Pythagoras' Theorem with *$ABC$* to work out the length of *$BC$
 
-`table row cell 8 squared space plus space B C squared space end cell equals cell space 10 squared end cell row cell B C squared space end cell equals cell space 10 squared space minus space 8 squared end cell row cell B C squared space end cell equals cell space 36 end cell end table`
+$\begin{gathered} 8^{2} + B C^{2} & = 10^{2} \\ B C^{2} & = 10^{2} - 8^{2} \\ B C^{2} & = 36 \end{gathered}$
 
 **[M1]**
 
@@ -137,13 +137,13 @@ $17.8\mathrm{cm}$
 ### 20() — 4 marks
 > *Calculate the length AB, which is equal to DC, using Pythagoras' theorem*
 
-`7.2 squared plus 5.4 squared equals open parentheses A B close parentheses squared`
+$7.2^{2} + 5.4^{2} = ( A B )^{2}$
 
 **[M1]**
 
 > *Square root both sides to get the length AB*
 
-`table row cell square root of 7.2 squared plus 5.4 squared end root space end cell equals cell space A B end cell row cell square root of 81 end cell equals cell A B end cell row 9 equals cell A B end cell end table`
+$\begin{gathered} \sqrt{7.2^{2} + 5.4^{2}} & = A B \\ \sqrt{81} & = A B \\ 9 = A B \end{gathered}$
 
 **[M1]**
 

@@ -73,7 +73,7 @@ Find the** total** for the ***fx***** column **
 - **STEP 4**
 Estimate the **mean **by using the **formula**
 
-  - `estimated space mean equals fraction numerator total space of space open parentheses midpoints cross times frequencies close parentheses space over denominator total space frequency end fraction`
+  - $\text{estimated} \text{mean} = \frac{ \text{total} of ( \text{midpoints} \times \text{frequencies} ) }{ \text{total} frequency}$
   - i.e. **divide** the total of the *fx* column by the total number of data values
 
 ### How do I find the modal class?
@@ -88,7 +88,7 @@ Estimate the **mean **by using the **formula**
 ### How do I find the class interval that the median lies in?
 
 - Find the **position** of the median using $\frac{n+1}{2}$, where $n$ is the number of data values (total of the frequency column)
-- Use the table to deduce the **class interval **containing the `open parentheses fraction numerator n plus 1 over denominator 2 end fraction close parentheses to the power of th` value
+- Use the table to deduce the **class interval **containing the $( \frac{n + 1}{2} )^{th}$ value
 
   - e.g. if the median is the 7<sup>th</sup> value and the frequency of the first two class intervals are 4 and 7
   
@@ -135,7 +135,7 @@ Estimate the **mean **by using the **formula**
 > 
 > > *Now we can find the mean using*
 > 
-> `estimated space mean equals fraction numerator total space of space open parentheses midpoints space cross times frequencies close parentheses over denominator total space frequency end fraction`
+> $\text{estimated} \text{mean} = \frac{ \text{total} of ( \text{midpoints} \times \text{frequencies} ) }{ \text{total} frequency}$
 > 
 > $\mathrm{estimated} \mathrm{mean}=\frac{87}{20}=4.35$
 > 

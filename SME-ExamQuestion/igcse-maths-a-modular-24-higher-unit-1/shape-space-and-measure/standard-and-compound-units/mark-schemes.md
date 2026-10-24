@@ -332,7 +332,7 @@ $20\times25=500$
 > *Use  Time = Distance ÷ Speed  to find Aysha's times from **A** to **B **and from **B** to **C**. *
 *It's easiest to convert to minutes at this point.  (Remember there are 60 minutes in an hour!)*
 
-`table row cell A space to space B colon space space 25 over 50 space end cell equals cell space 1 half space hour space equals space 30 space minutes end cell row blank blank blank row cell B space to space C colon space space 25 over 60 space end cell equals cell space 5 over 12 space hours end cell row cell 5 over 12 space hours space end cell equals cell space 5 over 12 space cross times space 60 space equals space 25 space minutes end cell end table`
+$\begin{gathered} A \text{to} B : \frac{25}{50} & = 1 \frac{1}{2} \text{hour} = 30 \text{minutes} \\ \\ B \text{to} C : \frac{25}{60} & = \frac{5}{12} \text{hours} \\ \frac{5}{12} \text{hours} & = \frac{5}{12} \times 60 = 25 \text{minutes} \end{gathered}$
 
 **[1]**
 
@@ -349,7 +349,7 @@ $30-25=5$
 ### 6() — 3 marks
 > *Use  Time = Distance ÷ Speed  to find how long Sue was driving on the motorway.*
 
-`table row cell 240 space divided by space 60 space end cell equals cell space 4 space hours end cell end table`
+$\begin{gathered} 240 \div 60 & = 4 \text{hours} \end{gathered}$
 
 **[1]**
 
@@ -373,7 +373,7 @@ $20+25+30=75\mathrm{minutes}=1h15m\,\,1h15m+4h=5h15m$
 *But be careful here!  The density is given in g/cm*<sup>*3*</sup>*, so 12.5 kg must first be converted to grams. *
 *(Remember there are 1000 g in a kg.)*
 
-`table row cell 12.5 space cross times space 1000 space end cell equals cell space 12500 space straight g end cell row blank blank blank row cell 12500 space divided by space 19.3 space end cell equals cell space 647.668393... end cell end table`
+$\begin{gathered} 12.5 \times 1000 & = 12500 \mathrm{g} \\ \\ 12500 \div 19.3 & = 647.668393... \end{gathered}$
 
 **[2] **
 **1 mark for using Volume = Mass ÷ Density.  1 mark for converting kg to g.**
@@ -454,7 +454,7 @@ $30\div26=\frac{15}{13}\mathrm{miles} \mathrm{per} \mathrm{minute}$
 
 > *So they would need to travel 15/13 miles every minute. And there are 60 minutes in an hour. So **multiply** that speed by 60 to convert to miles per hour.*
 
-`15 over 13 space cross times space 60 space equals space 69.230769... space equals space 69.2 space mph space open parentheses 3 space straight s. straight f. close parentheses`
+$\frac{15}{13} \times 60 = 69.230769... = 69.2 \text{mph} ( 3 \mathrm{s} . \mathrm{f} . )$
 
 **[1]**
 
@@ -470,17 +470,17 @@ $30\div26=\frac{15}{13}\mathrm{miles} \mathrm{per} \mathrm{minute}$
 *Convert each unit separately.* 
 *There are 60 seconds in a minute. Multiply by 60 to find how many metres are travelled in a minute.*
 
-`table row cell 50 space metres space per space second space end cell equals cell space 50 space cross times 60 space metres space per space minute end cell row blank equals cell 3000 space metres space per space minute end cell end table`
+`| 50 metres per second | = 50 x 60 metres per minute | | _ = 3000 metres per minute | |`
 
 **[1]**
 
 > *There are 60 minutes in an hour. Multiply by 60 to find how many metres are travelled in an hour.*
 
-`table row cell 3000 space metres space per space minute end cell equals cell space 3000 space cross times 60 space metres space per space hour end cell row blank equals cell 180000 space metres space per space hour end cell end table`
+`| 3000 metres per minute | = 3000 x 60 metres per hour | | _ = 180000 metres per hour | |`
 
 > *There are 1000 metres in a kilometre. Divide by 1000 to find how many kilometres are travelled in an hour.*
 
-`table row cell 18000 space metres space per space hour end cell equals cell 180000 over 1000 space kilometres space per space hour end cell end table`
+$\begin{gathered} 18000 \text{metres} \text{per} \text{hour} & = \frac{180000}{1000} \text{kilometres} \text{per} \text{hour} \end{gathered}$
 
 **[1]**
 
@@ -498,7 +498,7 @@ $0.65=\frac{3.5}{\mathrm{Volume}}$
 
 > *Multiply both sides by the volume and divide both sides by 0.65.*
 
-`table row Volume equals cell fraction numerator 3.5 over denominator 0.65 end fraction end cell row blank equals cell 70 over 13 end cell row blank equals cell 5.384615... end cell end table`
+$\begin{gathered} \text{Volume} = \frac{3.5}{0.65} \\ = \frac{70}{13} \\ = 5.384615... \end{gathered}$
 
 **[1]**
 
@@ -512,17 +512,17 @@ $0.65=\frac{3.5}{\mathrm{Volume}}$
 *Convert each unit separately.* 
 *There are 60 seconds in a minute. Divide by 60 to find how many kilometres are travelled in a minute.*
 
-`table row cell 630 space kilometres space per space hour space end cell equals cell fraction numerator space 630 space over denominator 60 end fraction space kilometres space per space minute end cell row blank equals cell 10.5 space kilometres space per space minute end cell end table`
+$\begin{gathered} 630 \text{kilometres} \text{per} \text{hour} & = \frac{ 630 }{60} \text{kilometres} \text{per} \text{minute} \\ = 10.5 \text{kilometres} \text{per} \text{minute} \end{gathered}$
 
 **[1]**
 
 > *There are 60 minutes in an hour. Divide by 60 to find how many kilometres are travelled in a second.*
 
-`table row cell 10.5 space kilometres space per space minute end cell equals cell fraction numerator space 10.5 space over denominator 60 end fraction space kilometres space per space second end cell row blank equals cell 0.175 space kilometres space per space second end cell end table`
+$\begin{gathered} 10.5 \text{kilometres} \text{per} \text{minute} & = \frac{ 10.5 }{60} \text{kilometres} \text{per} \text{second} \\ = 0.175 \text{kilometres} \text{per} \text{second} \end{gathered}$
 
 > *There are 1000 metres in a kilometre. Multiply by 1000 to find how many metres are travelled in a second.*
 
-`table row cell 0.175 space kilometres space per space second end cell equals cell 1000 cross times 0.175 space metres space per space second end cell end table`
+$\begin{array}{ccc}0.175 \text{kilometres} \text{per} \text{second} & = & 1000 \times 0.175 \text{metres} \text{per} \text{second} \end{array}$
 
 **[1]**
 
@@ -575,7 +575,7 @@ $2.2=\frac{5000}{\mathrm{Time}}$
 
 > *Rearrange by multiplying both sides by the time and dividing both sides by 2.2. The units for the time will be seconds.*
 
-`table row Time equals cell fraction numerator 5000 over denominator 2.2 end fraction end cell row blank equals cell 2272.727... space straight s end cell end table`
+$\begin{gathered} \text{Time} = \frac{5000}{2.2} \\ = 2272.727... \mathrm{s} \end{gathered}$
 
 **[1]**
 
@@ -652,19 +652,19 @@ $180\div1000=0.18\mathrm{cubic} \mathrm{metres}$
 
 > *Now multiply by 91.22p to find the cost per day with the water meter.*
 
-`0.18 space cross times space 91.22 space equals space 16.4196 space straight p space equals space £ 0.164196`
+$0.18 \times 91.22 = 16.4196 \mathrm{p} = \pounds 0.164196$
 
 **[1]**
 
 > *Then multiply by 365 (the number of days in a normal year) to find the price for water used per year. (You don't need to worry about leap years here!)*
 
-`0.164196 space cross times space 365 space equals space £ 59.93154`
+$0.164196 \times 365 = \pounds 59.93154$
 
 **[1]**
 
 > *Add £28.20 to find the total cost with a water meter per year.*
 
-`59.93154 space plus space 28.20 space equals space 88.13154 space equals space £ 88.13 space open parentheses nearest space penny close parentheses`
+$59.93154 + 28.20 = 88.13154 = \pounds 88.13 ( \text{nearest} \text{penny} )$
 
 **[1]**
 

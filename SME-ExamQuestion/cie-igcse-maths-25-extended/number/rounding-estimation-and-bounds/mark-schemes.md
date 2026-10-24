@@ -111,7 +111,7 @@ $149.5\leqw<150.5$
 
 > *Find the upper bound of the total mass by multiplying each item by the quantity and then adding together.*
 
-`table row cell 30 cross times 25.5 plus 20 cross times 7.55 end cell equals cell 765 plus 151 end cell row blank equals cell 916 space kg end cell end table`
+$\begin{gathered} 30 \times 25.5 + 20 \times 7.55 & = 765 + 151 \\ = 916 \text{kg} \end{gathered}$
 
 *Multiplying a bound by the correct quantity** ***[1] **
 *Adding the two totals together*** [1]**
@@ -125,7 +125,7 @@ $149.5\leqw<150.5$
 
 > *The formula connecting average speed, distance and time is*
 
-`open parentheses Average close parentheses space Speed equals Distance over Time`
+$( \text{Average} ) \text{Speed} = \frac{Distance}{Time}$
 
 > *This is a **division** calculation so we will need **distance** to be as **large** as possible - its **upper** bound, and **time** to be as **small** as possible - its **lower** bound.*
 
@@ -140,7 +140,7 @@ $149.5\leqw<150.5$
 
 > *Then apply the formula for average speed.*
 
-`fraction numerator 4535 divided by 1000 over denominator 202.5 divided by 60 divided by 60 end fraction equals 80.6 2 with dot on top`
+$\frac{4535 \div 1000}{202.5 \div 60 \div 60} = 80.6 \dot{2}$
 
 *Time and distance conversion*** [1] **
 *Correct calculation for bound** ***[1]**
@@ -193,13 +193,13 @@ $\mathrm{Speed}=\frac{\mathrm{Distance}}{\mathrm{Time}}.$
 
 > *To find the smallest possible speed you need to use the smallest possible distance and the largest possible time.*
 
-`table row cell Lower space bound space for space speed end cell equals cell fraction numerator 52.5 over denominator 2.75 end fraction end cell row blank equals cell 210 over 11 end cell row blank equals cell 19.0909... end cell end table`
+$\begin{gathered} \text{Lower} \text{bound} \text{for} \text{speed} & = \frac{52.5}{2.75} \\ = \frac{210}{11} \\ = 19.0909... \end{gathered}$
 
 **[1]**
 
 > *To find the largest possible speed you need to use the largest possible distance and the smallest possible time.*
 
-`table row cell Upper space bound space for space speed end cell equals cell fraction numerator 53.5 over denominator 2.65 end fraction end cell row blank equals cell 1070 over 53 end cell row blank equals cell 20.1886... end cell end table`
+$\begin{gathered} \text{Upper} \text{bound} \text{for} \text{speed} & = \frac{53.5}{2.65} \\ = \frac{1070}{53} \\ = 20.1886... \end{gathered}$
 
 **[1]**
 
@@ -269,21 +269,21 @@ $s=\frac{1}{2}\times2.5\times9.5^{2}$
 **112.8125**** [1]**
 
 ### Q11
-> *Time is distance divided by speed. If unsure, use the units of speed (e.g. km/h, kilometers divided by hours) as a clue that speed is distance divided by time *`open parentheses straight s equals straight d over straight t close parentheses`* and rearrange.*
+> *Time is distance divided by speed. If unsure, use the units of speed (e.g. km/h, kilometers divided by hours) as a clue that speed is distance divided by time *`( s = d / t )`* and rearrange.*
 
 > *However for the upper bound (UB) of a division, we need to divide an Upper Bound (UB) by a Lower Bound (LB). *
 
 > *So we need the UB of the distance and the LB of the speed.*
 
-`table row cell UB space of space distance end cell equals cell 31 plus 0.5 end cell row blank equals cell 31.5 space km end cell end table`
+`| UB of distance | = 31 + 0.5 | | _ = 31.5 km | |`
 
-`table row cell LB space of space speed end cell equals cell 5 minus 0.5 end cell row blank equals cell 4.5 space km text /h end text end cell end table`
+`| LB of speed | = 5 - 0.5 | | _ = 4.5 km text /h end text | |`
 
 * calculating 31.5 km or 3.5 km/h** ***[1]**
 
 > *Calculate the UB of the time.*
 
-`table row cell UB space of space time space end cell equals cell fraction numerator 31.5 over denominator 4.5 end fraction end cell row blank equals cell 7 space hours end cell end table`
+`| UB of time | = (31.5)/(4.5) | | _ = 7 hours | |`
 
 ** 7 hours**** ****[1]**
 
@@ -313,7 +313,7 @@ $s=\frac{1}{2}\times2.5\times9.5^{2}$
 
 > *Find the bounds of the length of a square (by square-rooting the values above)*
 
-* *`table attributes columnalign right center left columnspacing 0px end attributes row cell square root of 42.25 end root end cell equals cell 6.5 end cell row cell square root of 42.75 end root end cell equals cell 6.538... end cell end table`
+* *$\begin{array}{rcl} \sqrt{42.25} & = 6.5 \\ \sqrt{42.75} & = 6.538... \end{array}$
 
 > *Write down the lower bound (by choosing the lowest value)*
 
@@ -336,11 +336,11 @@ $s=\frac{1}{2}\times2.5\times9.5^{2}$
 
 **8.35 cm ≤ length < 8.45 cm****  **
 *1 mark for each in the correct position*** ****[2] **
-**It is acceptable to write **`8.44 9 with dot on top`** for the upper bound**
+**It is acceptable to write **$8.44 \dot{9}$** for the upper bound**
 > *The shape is a regular pentagon so it has 5 equal lengths. Multiply both bounds by 5 to find the error interval for the perimeter.*
 
 **41.75 cm ≤ perimeter < 42.25 cm** **[1] **
-**It is acceptable to write **`42.24 9 with dot on top`** for the upper bound**
+**It is acceptable to write **$42.24 \dot{9}$** for the upper bound**
 
 ### Q15
 > *Find the upper bound of the side of the square.*
@@ -374,7 +374,7 @@ $8.5+0.05=8.55$
 
 > *Find the upper bound of the perimeter by adding two of the upper bounds for the lengths to two of the upper bounds for the widths.*
 
-`straight P italic space equals space 2 open parentheses 10.75 close parentheses space plus space 2 open parentheses 8.55 close parentheses`
+$\mathrm{P} = 2 ( 10.75 ) + 2 ( 8.55 )$
 
 * **Correct method ***[1]**
 **Upper bound of perimeter = 38.6 cm**** [1]**

@@ -8,7 +8,7 @@
 ### 7((a)) — 2 marks — structured — from paper Specimen · 4PM1/01
 Complete the table of values for
 
-`y space equals space 2 to the power of open parentheses x over 2 plus 1 close parentheses end exponent plus 1`
+$y = 2^{( \frac{x}{2} + 1 )} + 1$
 
 giving your answers to 2 decimal places where appropriate.
 
@@ -17,12 +17,12 @@ giving your answers to 2 decimal places where appropriate.
 | $y$ | 3 |   |   |   | 9 | 12.31 |
 
 ### 7((b)) — 2 marks — structured — from paper Specimen · 4PM1/01
-On the grid, draw the graph of `y space equals space 2 to the power of open parentheses x over 2 plus 1 close parentheses end exponent plus 1` for `space 0 less-than or slanted equal to x space less-than or slanted equal to space 5`
+On the grid, draw the graph of $y = 2^{( \frac{x}{2} + 1 )} + 1$ for $0 \text{less} - \text{than} or \text{slanted} \text{equal} to x \text{less} - \text{than} or \text{slanted} \text{equal} to 5$
 
 ![Graph paper with x and y axes centred. X-axis ranges from -5 to 5, y-axis from -5 to 14, with grid squares visible.](assets/020-graph-paper-with-x-and-y-axes-centred-x-axis-ran.png)
 
 ### 7((c)) — 4 marks — structured — from paper Specimen · 4PM1/01
-By drawing a suitable straight line on the grid, obtain an estimate, to 1 decimal place, of the root of the equation $\mathrm{log}_{2}(4x--6)^{2}--x=2$ in the interval `0 space less-than or slanted equal to space x space less-than or slanted equal to space 5`
+By drawing a suitable straight line on the grid, obtain an estimate, to 1 decimal place, of the root of the equation $\mathrm{log}_{2}(4x--6)^{2}--x=2$ in the interval $0 \text{less} - \text{than} or \text{slanted} \text{equal} to x \text{less} - \text{than} or \text{slanted} \text{equal} to 5$
 
 ## Q2 — medium — 8 marks · exam-questions
 
@@ -78,7 +78,7 @@ Use calculus to find the exact area of $R$
 ### 10((a)) — 2 marks — structured — from paper June 2024 · Paper 1
 The curve $C$ has equation $y=\frac{ax-5}{b-x}$ where $a$ and $b$ are integers and $x\neqb$
 
-One intersection of $C$ with the coordinate axes is at the point with coordinates `open parentheses 5 over 4 comma space 0 close parentheses`
+One intersection of $C$ with the coordinate axes is at the point with coordinates $( \frac{5}{4} , 0 )$
 
 The asymptote parallel to the $y$-axis has equation $x=3$
 
@@ -108,14 +108,14 @@ By drawing a suitable straight line on the grid, obtain estimates, to one decima
 ## Q6 — medium — 8 marks · exam-questions
 
 ### 4((a)) — 2 marks — structured — from paper November 2024 · Paper 2
-Complete the table of values for  `y equals log subscript 10 open parentheses 6 x minus 1 close parentheses minus x` giving your answers to 2 decimal places.
+Complete the table of values for  $y = log_{10} ( 6 x - 1 ) - x$ giving your answers to 2 decimal places.
 
 | $x$ | 0.25 | 0.5 | 1 | 1.5 | 2 | 2.5 | 3 |
 |---|---|---|---|---|---|---|---|
 | $y$ |   | -0.20 | -0.30 | -0.60 |   |   |   |
 
 ### 4((b)) — 2 marks — structured — from paper November 2024 · Paper 2
-On the grid opposite, draw the graph of `y equals log subscript 10 open parentheses 6 x minus 1 close parentheses minus x` for `0.25 less-than or slanted equal to x less-than or slanted equal to 3`
+On the grid opposite, draw the graph of $y = log_{10} ( 6 x - 1 ) - x$ for `0.25 less-than or slanted equal to x less-than or slanted equal to 3`
 
 ![Graph with X-axis from 0 to 3 and Y-axis from -2 to 0.5, both labelled and marked at intervals of 0.5. Grid lines provide reference points.](assets/011-graph-with-x-axis-from-0-to-3-and-y-axis-from-2-.png)
 
@@ -243,7 +243,7 @@ Using the axes below, sketch $C$, showing clearly the asymptotes and the coordin
 ### 7((a)) — 2 marks — structured — from paper January 2023 · Paper 1
 Complete the table of values for
 
-`y equals 0.5 to the power of open parentheses x over 3 plus 1 close parentheses end exponent plus 2`
+$y = 0.5^{( \frac{x}{3} + 1 )} + 2$
 
 giving each value to 2 decimal places where appropriate.
 
@@ -252,7 +252,7 @@ giving each value to 2 decimal places where appropriate.
 | $y$ | 4 | 3.59 | 3.26 |   |   |   | 2.5 |
 
 ### 7((b)) — 2 marks — structured — from paper January 2023 · Paper 1
-On the grid opposite, draw the graph of `y equals 0.5 to the power of open parentheses x over 3 plus 1 close parentheses end exponent plus 2`  for  `negative 6 less-than or slanted equal to x less-than or slanted equal to 0`
+On the grid opposite, draw the graph of $y = 0.5^{( \frac{x}{3} + 1 )} + 2$  for  `negative 6 less-than or slanted equal to x less-than or slanted equal to 0`
 
 ### 7((c)) — 6 marks — structured — from paper January 2023 · Paper 1
 By drawing a suitable straight line on the grid, obtain an estimate, to one decimal place, of the root of the equation

@@ -536,7 +536,7 @@ Any **four** of the following:
 
 - Correct values substituted into formula; **[1 mark]**
 
-`r subscript s equals space 1 space minus space fraction numerator 6 open parentheses 159.5 close parentheses over denominator 9 open parentheses 81 minus 1 close parentheses end fraction`
+$r_{s} = 1 - \frac{6 ( 159.5 )}{9 ( 81 - 1 )}$
 
 - Correct r<sub>s</sub> value: = -0.329 / -0.33 / -0.3; **[1 mark]**
 

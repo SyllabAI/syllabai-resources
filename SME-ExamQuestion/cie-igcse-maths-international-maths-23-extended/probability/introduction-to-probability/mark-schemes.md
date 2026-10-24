@@ -10,14 +10,14 @@
 *Call the probability of landing on 1 **'p'**. *
 *Then set up and solve an equation with the total of all the probabilities:*
 
-`table row cell p space plus space 0.17 space plus space 0.18 space plus space 0.09 space plus space 0.15 space plus space 0.1 space end cell equals cell space 1 end cell row cell p space end cell equals cell space 1 space minus space open parentheses 0.17 space plus space 0.18 space plus space 0.09 space plus space 0.15 space plus space 0.1 close parentheses end cell row cell p space end cell equals cell space 0.31 end cell end table`*                          *
+$\begin{gathered} p + 0.17 + 0.18 + 0.09 + 0.15 + 0.1 & = 1 \\ p & = 1 - ( 0.17 + 0.18 + 0.09 + 0.15 + 0.1 ) \\ p & = 0.31 \end{gathered}$*                          *
 
 **[1]**
 
 > *The probability of landing on 1 OR 3 is the sum of the probability of landing on 1 and the probability of landing on 3. *
 *To work out an estimate for the number of times the dice will land on 1 or 3, multiply that total probability by the number of times Neymar rolls the biased dice:  *
 
-`200 space cross times space open parentheses 0.31 space plus space 0.18 close parentheses`
+$200 \times ( 0.31 + 0.18 )$
 
 **[1]**
 
@@ -52,7 +52,7 @@ $\frac{1}{30}$* *** [1]**
 
 > *Find the probability of taking a green disc. *
 
-`straight P open parentheses green close parentheses space equals space fraction numerator straight n open parentheses green close parentheses over denominator straight n open parentheses total close parentheses end fraction equals space fraction numerator 5 over denominator 7 space plus space 5 space plus space 2 end fraction space equals space fraction numerator space 5 space over denominator 14 end fraction`
+$\mathrm{P} ( \text{green} ) = \frac{ \mathrm{n} ( \text{green} )}{ \mathrm{n} ( \text{total} )} = \frac{5}{7 + 5 + 2} = \frac{ 5 }{14}$
 
 **[1]**
 
@@ -70,17 +70,17 @@ $\frac{5}{14}\times140$
 
 > *Use this to form an equation for the probability of taking a green disc.*
 
-`fraction numerator 14 over denominator 7 space plus space 14 space plus space open parentheses 2 space plus space n close parentheses end fraction space equals space fraction numerator space 2 over denominator space 7 end fraction`
+$\frac{14}{7 + 14 + ( 2 + n )} = \frac{ 2}{ 7}$
 
 **[1]**
 
 > *Simplify.*
 
-`table row cell fraction numerator 14 over denominator 23 space plus space n end fraction space end cell equals cell space fraction numerator space 2 over denominator space 7 end fraction end cell end table`
+$\begin{gathered} \frac{14}{23 + n} & = \frac{ 2}{ 7} \end{gathered}$
 
 > *Solve by first multiplying both sides by 7(23 + **n**).*
 
-`table row cell 14 space cross times space 7 space end cell equals cell space 2 open parentheses 23 space plus space n close parentheses end cell row cell 98 space end cell equals cell space 46 space plus space 2 n end cell row cell 52 space end cell equals cell space 2 n end cell row cell 52 over 2 end cell equals cell space n end cell end table`
+$\begin{gathered} 14 \times 7 & = 2 ( 23 + n ) \\ 98 & = 46 + 2 n \\ 52 & = 2 n \\ \frac{52}{2} & = n \end{gathered}$
 
 **26 pink discs**** ****[1]**
 
@@ -89,13 +89,13 @@ $\frac{5}{14}\times140$
 *The ratio of the probabilities for red and green will be the same as the ratio of red counters to green counters (i.e., 4:1). *
 *So if the probability of taking a green counter is **'p'**, then the probability of taking a red counter will be **'4p'**. Set up an equation with all the probabilities:*
 
-`table row cell 0.4 space plus space p space plus space 4 p space plus space 0.15 space end cell equals cell space 1 end cell row cell space p space plus space 4 p space end cell equals cell space 1 space minus space open parentheses 0.4 space plus space 0.15 close parentheses end cell end table`*                          *
+$\begin{gathered} 0.4 + p + 4 p + 0.15 & = 1 \\ p + 4 p & = 1 - ( 0.4 + 0.15 ) \end{gathered}$*                          *
 
 **[1]**
 
 > *Solve the equation to find the values of **p** and 4**p:*
 
-`table row cell 5 p space end cell equals cell space 0.45 end cell row cell p space end cell equals cell space 0.45 space divided by space 5 end cell row cell p space end cell equals cell space 0.09 end cell row blank blank blank row cell 4 p space end cell equals cell space 4 space cross times space 0.09 end cell row cell 4 p space end cell equals cell space 0.36 end cell end table`
+$\begin{gathered} 5 p & = 0.45 \\ p & = 0.45 \div 5 \\ p & = 0.09 \\ \\ 4 p & = 4 \times 0.09 \\ 4 p & = 0.36 \end{gathered}$
 
 **[1]**
 
@@ -117,9 +117,9 @@ $\mathrm{Paul} \mathrm{heads}:\mathrm{tails}=80:40=2:1=\mathrm{twice} \mathrm{as
 **Paul's statement is true for his own results, but it is not true for the other friends' results.  Therefore Paul is not correct.****  ****[1]**
 > *First find the relative frequency (i.e., experimental probability) for 'heads', by dividing the total number of times the coin landed on heads by the total number of times it was thrown. Then multiply that relative frequency by itself to determine an estimate for the probability the coin will land on heads the first time and then on heads again the second time.*
 
-`straight P open parentheses heads close parentheses space equals space fraction numerator 34 plus 66 plus 80 plus 120 over denominator 34 plus 66 plus 80 plus 120 plus 8 plus 12 plus 40 plus 40 end fraction space equals space 300 over 400 space equals space 3 over 4
+$\mathrm{P} ( \text{heads} ) = \frac{34 + 66 + 80 + 120}{34 + 66 + 80 + 120 + 8 + 12 + 40 + 40} = \frac{300}{400} = \frac{3}{4} 
 
-3 over 4 space cross times space 3 over 4 space equals space 9 over 16`*                          *
+ \frac{3}{4} \times \frac{3}{4} = \frac{9}{16}$*                          *
 
 **[1]**
 
@@ -128,19 +128,19 @@ $\frac{9}{16}$**  ****[1]**
 ### Q7
 > *Use the fact that all probabilities must sum to 1 to set up an equation in **x**.*
 
-`table row cell 2 x space plus space 0.18 space plus space 2 x space plus space 3 x space plus 0.26 space plus space x space end cell equals cell space 1 end cell end table`
+$\begin{gathered} 2 x + 0.18 + 2 x + 3 x + 0.26 + x & = 1 \end{gathered}$
 
 **[1]**
 
 > *Now collect terms and solve the equation to find the value of **x**.*
 
-`table row cell 8 x space plus space 0.44 space end cell equals cell space 1 end cell row cell 8 x space end cell equals cell space 1 space minus space 0.44 end cell row cell 8 x space end cell equals cell space 0.56 end cell row cell x space end cell equals cell space 0.56 space divided by space 8 end cell row cell x space end cell equals cell space 0.07 end cell end table`
+$\begin{gathered} 8 x + 0.44 & = 1 \\ 8 x & = 1 - 0.44 \\ 8 x & = 0.56 \\ x & = 0.56 \div 8 \\ x & = 0.07 \end{gathered}$
 
 **[1]**
 
 > *The probability of getting an even number is equal to the sum of the probabilities for 2, 4 and 6.*
 
-`table row cell straight P open parentheses even close parentheses space end cell equals cell space 0.18 space plus space 3 x space plus space x end cell row blank equals cell space 0.18 space plus space 4 x end cell row blank equals cell space 0.18 space plus space 4 open parentheses 0.07 close parentheses end cell row blank equals cell space 0.46 end cell end table`
+$\begin{gathered} \mathrm{P} ( \text{even} ) & = 0.18 + 3 x + x \\ = 0.18 + 4 x \\ = 0.18 + 4 ( 0.07 ) \\ = 0.46 \end{gathered}$
 
 > *Now we can estimate the number of times Becky gets an even number by multiplying the number of times she is going to throw the dice by the probability that the dice will land on an even number.*
 
@@ -161,15 +161,15 @@ $\frac{9}{160}$ **[1]**
 *The probability of taking a red counter is twice the probability of taking a white counter. *
 *So if the probability of taking a white counter is '**p'**, then the probability of taking a red counter will be '2**p'**. Set up an equation with all the probabilities:*
 
-`table row cell 2 p space plus space p space plus space 0.45 space plus space 0.25 space end cell equals cell space 1 end cell row cell space 2 p space plus space p space end cell equals cell space 1 space minus space open parentheses 0.45 space plus space 0.25 close parentheses end cell end table`*                          *
+$\begin{gathered} 2 p + p + 0.45 + 0.25 & = 1 \\ 2 p + p & = 1 - ( 0.45 + 0.25 ) \end{gathered}$*                          *
 
 **[1]**
 
 > *Solve the equation to find the values of **p** and 2**p:*
 
-> `table row cell 3 p space end cell equals cell space 0.3 end cell row cell p space end cell equals cell space 0.3 space divided by space 3 end cell row cell p space end cell equals cell space 0.1 end cell end table`* *
+> $\begin{gathered} 3 p & = 0.3 \\ p & = 0.3 \div 3 \\ p & = 0.1 \end{gathered}$* *
 
-`table row cell straight P open parentheses red close parentheses space end cell equals cell space 2 p space equals space 2 space cross times space 0.1 space equals space 0.2 end cell end table`
+$\begin{gathered} \mathrm{P} ( \text{red} ) & = 2 p = 2 \times 0.1 = 0.2 \end{gathered}$
 
 **[1]**
 
@@ -177,7 +177,7 @@ $\frac{9}{160}$ **[1]**
 *We don't know the number of red counters, so call that **n**. We know that the probability of taking a red counter is 0.2. *
 *Write down the ratio, turn it into an equation with fractions, and solve for **n**.*
 
-`table row cell n space colon space 18 space end cell equals cell space 0.2 space colon space 0.45 end cell row cell n over 18 space end cell equals cell space fraction numerator 0.2 over denominator 0.45 end fraction end cell row cell n space end cell equals cell space 18 space cross times space fraction numerator 0.2 over denominator 0.45 end fraction end cell row cell n space end cell equals cell space 8 end cell end table`
+$\begin{gathered} n : 18 & = 0.2 : 0.45 \\ \frac{n}{18} & = \frac{0.2}{0.45} \\ n & = 18 \times \frac{0.2}{0.45} \\ n & = 8 \end{gathered}$
 
 **[1]**
 
@@ -206,7 +206,7 @@ $\frac{5}{9}$ **[1]**
 
 > *Find the probability of getting a selecting a red bead from the bag. There are 7 red beads out of the 15 beads.*
 
-`straight P open parentheses red close parentheses equals 7 over 15`
+$\mathrm{P} ( \text{red} ) = \frac{7}{15}$
 
 > *Expected Frequency = Total Frequency × Probability*
 
@@ -236,7 +236,7 @@ $\frac{36}{N}=\frac{2}{5}$
 
 > *Solve for **N **by multiplying both sides by **N** and then dividing by 2/5:*
 
-`table row cell 36 space end cell equals cell space 2 over 5 space cross times space N end cell row cell 36 space divided by space 2 over 5 space end cell equals cell space N end cell row cell 90 space end cell equals cell space N end cell end table`
+$\begin{gathered} 36 & = \frac{2}{5} \times N \\ 36 \div \frac{2}{5} & = N \\ 90 & = N \end{gathered}$
 
 **90 teachers****  ****[1]**
 
@@ -245,13 +245,13 @@ $\frac{36}{N}=\frac{2}{5}$
 * Call the probability that she will win **'w'**. *
 *Then set up an equation with all the probabilities and solve for **w**:*
 
-`table row cell 0.32 space plus space 0.05 space plus space w space end cell equals cell space 1 end cell row cell w space end cell equals cell space 1 space minus space open parentheses 0.32 space plus space 0.05 close parentheses end cell row cell w space end cell equals cell space 0.63 end cell end table`*                         *
+$\begin{gathered} 0.32 + 0.05 + w & = 1 \\ w & = 1 - ( 0.32 + 0.05 ) \\ w & = 0.63 \end{gathered}$*                         *
 
 **[1]**
 
 > *To find an estimate for the number of times Rhiana will win the game, multiply the number of times she is going to play the game by the probability that she will win:*
 
-> `table row blank blank cell 200 space cross times space 0.63 end cell end table`*                            *
+> $\begin{gathered} 200 \times 0.63 \end{gathered}$*                            *
 
 **[1]**
 

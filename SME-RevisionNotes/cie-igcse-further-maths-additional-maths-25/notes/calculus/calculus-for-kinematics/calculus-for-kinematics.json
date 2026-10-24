@@ -220,7 +220,7 @@
    "type": "callout",
    "variant": "worked-example",
    "label": "Worked Example",
-   "md": "The displacement, $x$ m, of a particle at $t$ seconds, is modelled by the function $x(t)=2t^{3}-27t^{2}+84t$.\n\nFind expressions for `x apostrophe open parentheses t close parentheses` and `x apostrophe apostrophe open parentheses t close parentheses`, and state what these expressions represent.\n\n$x=2t^{3}-27t^{2}+84t$\n\n> `x apostrophe open parentheses t close parentheses`* means the same as *$\\frac{dx}{dt}$\n\n`x apostrophe open parentheses t close parentheses space equals space 6 t squared minus 54 t plus 84\nx apostrophe open parentheses t close parentheses space equals space 6 open parentheses t squared minus 9 t plus 14 close parentheses`\n\n$x'(t)=6(t-2)(t-7)$\n **This expression represents the velocity of the particle.** \n**Answers may or may not need to be factorised, depending on the question**\n\n> `x apostrophe apostrophe open parentheses t close parentheses`* means the same as *$\\frac{d^{2}x}{dt^{2}}$\n\n`x apostrophe apostrophe open parentheses t close parentheses space equals space 12 t minus 54`\n\n$x''(t)=6(2t-9)$ \n**This expression represents the acceleration of the particle.**"
+   "md": "The displacement, $x$ m, of a particle at $t$ seconds, is modelled by the function $x(t)=2t^{3}-27t^{2}+84t$.\n\nFind expressions for $x ' ( t )$ and $x '' ( t )$, and state what these expressions represent.\n\n$x=2t^{3}-27t^{2}+84t$\n\n> $x ' ( t )$* means the same as *$\\frac{dx}{dt}$\n\n$x ' ( t ) = 6 t^{2} - 54 t + 84\nx ' ( t ) = 6 ( t^{2} - 9 t + 14 )$\n\n$x'(t)=6(t-2)(t-7)$\n **This expression represents the velocity of the particle.** \n**Answers may or may not need to be factorised, depending on the question**\n\n> $x '' ( t )$* means the same as *$\\frac{d^{2}x}{dt^{2}}$\n\n$x '' ( t ) = 12 t - 54$\n\n$x''(t)=6(2t-9)$ \n**This expression represents the acceleration of the particle.**"
   },
   {
    "type": "spec_point",
@@ -244,7 +244,7 @@
   },
   {
    "type": "paragraph",
-   "md": "`space s equals integral v space straight d t`"
+   "md": "$s = \\int v \\mathrm{d} t$"
   },
   {
    "type": "bullets",
@@ -252,7 +252,7 @@
   },
   {
    "type": "paragraph",
-   "md": "`space v equals integral a space straight d t`"
+   "md": "$v = \\int a \\mathrm{d} t$"
   },
   {
    "type": "heading",
@@ -270,7 +270,7 @@
   },
   {
    "type": "bullets",
-   "md": "- Definite integrals can be used to find the displacement of a particle between two points in time\n\n  - `space integral subscript t subscript 1 end subscript superscript t subscript 2 end superscript space v left parenthesis t right parenthesis space straight d t` would give the **displacement** of the particle **between** the times$t=t_{1}$ and$t=t_{2}$\n  \n    - This can be found using a velocity-time graph by **subtracting** the **total area below** the horizontal axis from the **total area above**\n    - You could think of this as the \"net area\" e.g. 4 m - 1 m = 3 m\n  - `space integral subscript t subscript 1 end subscript superscript t subscript 2 end superscript open vertical bar v left parenthesis t right parenthesis close vertical bar space straight d t` gives the **distance **a particle has **travelled** between the times$t=t_{1}$ and$t=t_{2}$\n  \n    - This can be found using a velocity velocity-time graph by **adding** the **total area below** the horizontal axis to the **total area above**\n    - You could think of this as the \"gross area\" e.g. 4 m + 1 m = 5 m"
+   "md": "- Definite integrals can be used to find the displacement of a particle between two points in time\n\n  - $\\int_{t_{1} }^{t_{2} } v ( t ) \\mathrm{d} t$ would give the **displacement** of the particle **between** the times$t=t_{1}$ and$t=t_{2}$\n  \n    - This can be found using a velocity-time graph by **subtracting** the **total area below** the horizontal axis from the **total area above**\n    - You could think of this as the \"net area\" e.g. 4 m - 1 m = 3 m\n  - $\\int_{t_{1} }^{t_{2} } \\left| v ( t ) \\right| \\mathrm{d} t$ gives the **distance **a particle has **travelled** between the times$t=t_{1}$ and$t=t_{2}$\n  \n    - This can be found using a velocity velocity-time graph by **adding** the **total area below** the horizontal axis to the **total area above**\n    - You could think of this as the \"gross area\" e.g. 4 m + 1 m = 5 m"
   },
   {
    "type": "callout",
@@ -282,7 +282,7 @@
    "type": "callout",
    "variant": "worked-example",
    "label": "Worked Example",
-   "md": "A particle moving in a straight horizontal line has velocity $v$ ms<sup>-1</sup> at time $t$ seconds modelled by $v(t)=8t^{3}-12t^{2}-2t$.\n\na) Given that the initial position of the particle is at the origin, find an expression for its displacement from the origin at time $t$ seconds.\n\n> *The integral of the velocity gives the displacement*\n\n`s open parentheses t close parentheses space equals integral v open parentheses t close parentheses space d t space space equals space integral open parentheses 8 t cubed minus 12 t squared minus 2 t close parentheses space d t\ns open parentheses t close parentheses space equals space 2 t to the power of 4 minus 4 t cubed minus t squared plus c`\n\n> *\"Initial\" means when *$t=0$* and \"at the origin\" means *$s=0$\n\n> *Substitute these values in to find *$c$\n\n`0 space equals space 2 open parentheses 0 close parentheses to the power of 4 minus 4 open parentheses 0 close parentheses cubed minus open parentheses 0 close parentheses squared plus c\nc equals 0`\n\n`bold italic s open parentheses t close parentheses space equals space 2 bold italic t to the power of 4 minus 4 bold italic t cubed minus bold italic t squared`\n\nb) Find the displacement of the particle from the origin after the first five seconds of its motion.\n\n> *To find the displacement after 5 seconds, integrate the velocity between 0 and 5*\n\n`integral subscript 0 superscript 5 8 t cubed minus 12 t squared minus 2 t space d t\nopen square brackets 2 t to the power of 4 minus 4 t cubed minus t squared close square brackets subscript 0 superscript 5 space\nequals space open square brackets 2 open parentheses 5 close parentheses to the power of 4 minus 4 open parentheses 5 close parentheses cubed minus open parentheses 5 close parentheses squared close square brackets minus open square brackets 2 open parentheses 0 close parentheses to the power of 4 minus 4 open parentheses 0 close parentheses cubed minus open parentheses 0 close parentheses squared close square brackets\nequals 725 minus 0`\n\n$725m$\n\nc) Explain why this value is not the same as the distance travelled during the first 5 seconds.\n\n**Final answer:** ** **\n\n**Final answer:** **When finding the displacement, any negative displacements are taken into account. e.g. 3m - 1m = 2m. When finding the distance, we are looking for the total of all the areas, ignoring their direction/sign. e.g. 3m + 1m = 4m. This function for velocity has some regions underneath the x-axis, and some regions above the x-axis between 0 and 5 seconds, so the displacement and distance covered in this time will be different.**\n\n**Final answer:** ** **"
+   "md": "A particle moving in a straight horizontal line has velocity $v$ ms<sup>-1</sup> at time $t$ seconds modelled by $v(t)=8t^{3}-12t^{2}-2t$.\n\na) Given that the initial position of the particle is at the origin, find an expression for its displacement from the origin at time $t$ seconds.\n\n> *The integral of the velocity gives the displacement*\n\n$s ( t ) = \\int v ( t ) d t = \\int ( 8 t^{3} - 12 t^{2} - 2 t ) d t\ns ( t ) = 2 t^{4} - 4 t^{3} - t^{2} + c$\n\n> *\"Initial\" means when *$t=0$* and \"at the origin\" means *$s=0$\n\n> *Substitute these values in to find *$c$\n\n$0 = 2 ( 0 )^{4} - 4 ( 0 )^{3} - ( 0 )^{2} + c\nc = 0$\n\n$s ( t ) = 2 t^{4} - 4 t^{3} - t^{2}$\n\nb) Find the displacement of the particle from the origin after the first five seconds of its motion.\n\n> *To find the displacement after 5 seconds, integrate the velocity between 0 and 5*\n\n$\\int_{0}^{5} 8 t^{3} - 12 t^{2} - 2 t d t\n[ 2 t^{4} - 4 t^{3} - t^{2} ]_{0}^{5} \n= [ 2 ( 5 )^{4} - 4 ( 5 )^{3} - ( 5 )^{2} ] - [ 2 ( 0 )^{4} - 4 ( 0 )^{3} - ( 0 )^{2} ]\n= 725 - 0$\n\n$725m$\n\nc) Explain why this value is not the same as the distance travelled during the first 5 seconds.\n\n**Final answer:** ** **\n\n**Final answer:** **When finding the displacement, any negative displacements are taken into account. e.g. 3m - 1m = 2m. When finding the distance, we are looking for the total of all the areas, ignoring their direction/sign. e.g. 3m + 1m = 4m. This function for velocity has some regions underneath the x-axis, and some regions above the x-axis between 0 and 5 seconds, so the displacement and distance covered in this time will be different.**\n\n**Final answer:** ** **"
   }
  ]
 }

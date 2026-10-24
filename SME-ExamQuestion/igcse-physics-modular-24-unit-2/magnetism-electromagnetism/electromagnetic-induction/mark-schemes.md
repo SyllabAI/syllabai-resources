@@ -215,7 +215,7 @@ Calculate the output current, *I*<sub>*s*</sub>:
 
 To state the equation linking input voltage, output voltage and turns ratio for the transformer:
 
-- `fraction numerator Input space open parentheses primary close parentheses space voltage over denominator Output space open parentheses secondary close parentheses space voltage end fraction space equals space fraction numerator number space of space turns space on space the space primary space coil over denominator number space of space turns space on space the space secondary space coil end fraction`
+- `(Input ( primary ) voltage)/(Output ( secondary ) voltage) = (number of turns on the primary coil)/(number of turns on the secondary coil)`
 
 **   OR**
 

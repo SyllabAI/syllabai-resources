@@ -74,11 +74,11 @@ $\mathrm{CPI}=\frac{\mathrm{Cost} \mathrm{of} \mathrm{basket} \mathrm{in} \mathr
 > 
 > **Step 3: Calculate the percentage difference between the CPI for 2021 and 2020**
 > 
-> `Inflation space rate space equals space fraction numerator New space CPI space minus space Old space CPI over denominator Old space CPI end fraction space straight x space 100
+> $\text{Inflation} \text{rate} = \frac{New \text{CPI} - \text{Old} CPI}{Old CPI} \mathrm{x} 100
 > 
-> space space space space space space space space space space space space space space space space space space space space space space space space space space equals space fraction numerator 136.01 space minus space 108.75 over denominator 108.75 end fraction space straight x space 100
+> = \frac{136.01 - 108.75}{108.75} \mathrm{x} 100
 > 
-> space space space space space space space space space space space space space space space space space space space space space space space space space space equals space 25.07 percent sign`
+> = 25.07 \%$
 > 
 > (**3 marks** for the correct answer or **1 mark **for any correct working. Answers should be rounded to 2 decimal places to be correct)
 > 
@@ -86,12 +86,12 @@ $\mathrm{CPI}=\frac{\mathrm{Cost} \mathrm{of} \mathrm{basket} \mathrm{in} \mathr
 > 
 > The same inflation rate can be calculated directly from the basket costs without first converting to a CPI index:
 > 
-> `CPI space equals fraction numerator left parenthesis basket space cost space in space current space year space minus space basket space cost space in space previous space year right parenthesis over denominator 435.00 end fraction space straight x space 100
+> $\text{CPI} = \frac{( \text{basket} \text{cost} \text{in} \text{current} \text{year} - \text{basket} \text{cost} \text{in} \text{previous} \text{year} )}{435.00} \mathrm{x} 100
 > 
-> space space space space space space space equals space fraction numerator 544.05 space minus space 435 over denominator 435 end fraction space straight x space 100
+> = \frac{544.05 - 435}{435} \mathrm{x} 100
 > 
-> space space space space space space space equals 25.07 percent sign
-> `
+> = 25.07 \%
+>$
 > 
 > Both methods give the same answer. CIE may present the question either way - if basket costs are given directly, the direct comparison method is quicker. If a price index is given, use the CPI percentage change method. Always check which data you have been given before choosing your approach.
 

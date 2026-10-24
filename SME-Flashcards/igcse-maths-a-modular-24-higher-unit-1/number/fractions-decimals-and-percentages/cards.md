@@ -50,7 +50,7 @@ E.g. Find 12 as a percentage of 80.
 
 To find one number as a percentage of another number, **divide** the **first number by the second number** then **multiply by 100**.
 
-E.g. To find 12 as a percentage of 80, `12 over 80 cross times 100 equals 15 percent sign`.
+E.g. To find 12 as a percentage of 80, $\frac{12}{80} \times 100 = 15 \%$.
 
 
 
@@ -183,17 +183,16 @@ E.g. `equation`2 ÷ 5 = 0.4,   0.4 × 100 = 40%
 
 **True or False?**
 
-The method for **converting **`0.3 with dot on top 2 with dot on top` into a fraction involves **multiplying it by 10 once** and then **subtracting **the original decimal.
+The method for **converting **$0. \dot{3} \dot{2}$ into a fraction involves **multiplying it by 10 once** and then **subtracting **the original decimal.
 
 
 **BACK**
 
 **False.**
 
-The method for **converting **`0.3 with dot on top 2 with dot on top` into a fraction involves **multiplying it by 100 **(not 10) and then **subtracting **the original decimal.
+The method for **converting **$0. \dot{3} \dot{2}$ into a fraction involves **multiplying it by 100 **(not 10) and then **subtracting **the original decimal.
 
-`stack attributes charalign center stackalign right end attributes row 100 x equals 32.32 end row row minus x equals none 0.32 end row horizontal line row 99 x equals 32 none none none end row end stack
-space space x equals 32 over 99`
+`charalign center stackalign right end | 100 x = 32.32 end | | - x = none 0.32 end | horizontal line | 99 x = 32 none none none end | end x = 32 / 99`
 
 
 
@@ -201,18 +200,18 @@ space space x equals 32 over 99`
 
 **FRONT**
 
-`x equals 0.4 5 with dot on top`
+$x = 0.4 \dot{5}$
 
-What is the **next **step to **convert **`0.4 5 with dot on top` into a **fraction**?
+What is the **next **step to **convert **$0.4 \dot{5}$ into a **fraction**?
 
 
 **BACK**
 
-`x equals 0.4 5 with dot on top`
+$x = 0.4 \dot{5}$
 
-The **next **step to **convert **`0.4 5 with dot on top` into a **fraction** is to **multiply **both sides of the equation by 10 to get the recurring part by itself.
+The **next **step to **convert **$0.4 \dot{5}$ into a **fraction** is to **multiply **both sides of the equation by 10 to get the recurring part by itself.
 
-`10 x equals 4.5 with dot on top`
+$10 x = 4. \dot{5}$
 
 
 
@@ -220,16 +219,16 @@ The **next **step to **convert **`0.4 5 with dot on top` into a **fraction** is 
 
 **FRONT**
 
-`table row x equals cell 0.8 with dot on top 7 with dot on top end cell row cell 100 x end cell equals cell 87.8 with dot on top 7 with dot on top end cell end table`
+$\begin{gathered} x = 0. \dot{8} \dot{7} \\ 100 x & = 87. \dot{8} \dot{7} \end{gathered}$
 
-What is the **next **step to **convert **`0.8 with dot on top 7 with dot on top` into a **fraction**?
+What is the **next **step to **convert **$0. \dot{8} \dot{7}$ into a **fraction**?
 
 
 **BACK**
 
-`table row x equals cell 0.8 with dot on top 7 with dot on top end cell row cell 100 x end cell equals cell 87.8 with dot on top 7 with dot on top end cell end table`
+$\begin{gathered} x = 0. \dot{8} \dot{7} \\ 100 x & = 87. \dot{8} \dot{7} \end{gathered}$
 
-The **next **step to **convert **`0.8 with dot on top 7 with dot on top` into a **fraction** is to **subtract **the first equation from the second to **cancel out** the recurring parts.
+The **next **step to **convert **$0. \dot{8} \dot{7}$ into a **fraction** is to **subtract **the first equation from the second to **cancel out** the recurring parts.
 
 $99x=87$
 
@@ -239,16 +238,16 @@ $99x=87$
 
 **FRONT**
 
-`x equals 0.7 1 with dot on top`
+$x = 0.7 \dot{1}$
 
-Which **two multiples** of $x$ do you need in order to **convert **`0.7 1 with dot on top` into a **fraction**?
+Which **two multiples** of $x$ do you need in order to **convert **$0.7 \dot{1}$ into a **fraction**?
 
 
 **BACK**
 
-`x equals 0.7 1 with dot on top`
+$x = 0.7 \dot{1}$
 
-To **convert **`0.7 1 with dot on top` into a **fraction,** you need the multiples `10 x equals 7.1 with dot on top` and `100 x equals 71.1 with dot on top`.
+To **convert **$0.7 \dot{1}$ into a **fraction,** you need the multiples $10 x = 7. \dot{1}$ and $100 x = 71. \dot{1}$.
 
 The recurring value after the decimal place needs to be **identical**.
 

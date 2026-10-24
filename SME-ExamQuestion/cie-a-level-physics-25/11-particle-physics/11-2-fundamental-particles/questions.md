@@ -12,7 +12,7 @@
 
 The equation for β<sup>–</sup> decay is
 
-`n rightwards arrow p plus e to the power of minus plus top enclose v subscript e`
+$n \rightarrow p + e^{-} + \vec{v}_{e}$
 
 Using your knowledge of antiparticles and the weak interaction, what is the equation for β<sup>+</sup> decay?
 
@@ -142,10 +142,10 @@ Which row in the table gives the correct quark combination for the particle?
 
 |   | **Particle** | **Category** | **Quark combination** |
 |---|---|---|---|
-| **A** | neutron | baryon | `top enclose u d` |
+| **A** | neutron | baryon | $\vec{u} d$ |
 | **B** | neutron | meson | $udd$ |
 | **C** | proton | baryon | $uud$ |
-| **D** | positive pion | meson | `top enclose u d` |
+| **D** | positive pion | meson | $\vec{u} d$ |
 
 ### Q18 — hard — 1 marks
 

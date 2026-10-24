@@ -50,11 +50,11 @@ $10,20,30,...\,4,8,12,16,20,...$
 
 > *Work out the equivalent fractions so that they are both out of 20*
 
-`table row cell 7 over 10 end cell equals cell fraction numerator 7 cross times 2 over denominator 10 cross times 2 end fraction equals 14 over 20 end cell end table`
+$\begin{gathered} \frac{7}{10} & = \frac{7 \times 2}{10 \times 2} = \frac{14}{20} \end{gathered}$
 
 *  and*
 
-*  *`table row cell 1 fourth end cell equals cell fraction numerator 1 cross times 5 over denominator 4 cross times 5 end fraction equals 5 over 20 end cell end table`
+*  *$\begin{gathered} 1 \frac{1}{4} & = \frac{1 \times 5}{4 \times 5} = \frac{5}{20} \end{gathered}$
 
 **[M1]**
 
@@ -69,7 +69,7 @@ $10,20,30,...\,4,8,12,16,20,...$
 ### 19() — 3 marks
 > *Calculate the proportions of rectangle A and rectangle C that are unshaded*
 
-`table row cell 1 minus 5 over 8 end cell equals cell 3 over 8 end cell row cell 100 percent sign minus 80 percent sign end cell equals cell 20 percent sign end cell end table`
+$\begin{gathered} 1 - \frac{5}{8} & = \frac{3}{8} \\ 100 \% - 80 \% & = 20 \% \end{gathered}$
 
 **[M1]**
 
@@ -79,7 +79,7 @@ $10,20,30,...\,4,8,12,16,20,...$
 
 > *Use the diagram to work out the calculation that gives the shaded section for rectangle B*
 
-`5 over 8 minus 20 percent sign`
+$\frac{5}{8} - 20 \%$
 
 **[M1]**
 
@@ -130,7 +130,7 @@ $\frac{4}{5}$
 
 > *Find an equivalent fraction to *$\frac{1}{6}$*which is out of 18*
 
-`table row cell 1 over 6 end cell equals cell fraction numerator 1 cross times 3 over denominator 6 cross times 3 end fraction end cell row blank equals cell 3 over 18 end cell end table`
+$\begin{gathered} \frac{1}{6} & = \frac{1 \times 3}{6 \times 3} \\ = \frac{3}{18} \end{gathered}$
 
 **Final answer:** **Shade in any 3 squares**
 
@@ -193,7 +193,7 @@ $\frac{4}{5}=4\times3=12$
 
 > *Divide by that number*
 
-`table row cell 27 divided by 9 end cell equals 3 row cell 36 divided by 9 end cell equals 4 end table`
+$\begin{gathered} 27 \div 9 & = 3 \\ 36 \div 9 & = 4 \end{gathered}$
 
 > *Write these as your fraction*
 
@@ -286,7 +286,7 @@ $6\frac{4}{7}$
 
 > *Convert the denominator to a power of 10, for example 10, by using equivalent fractions*
 
-`table row cell 1 fifth end cell equals cell fraction numerator 1 cross times 2 over denominator 5 cross times 2 end fraction end cell row blank equals cell 2 over 10 end cell end table`
+$\begin{gathered} 1 \frac{1}{5} & = \frac{1 \times 2}{5 \times 2} \\ = \frac{2}{10} \end{gathered}$
 
 > *The fraction is equivalent to 2 tenths and is written as 2 in the tenths column in decimal form*
 
@@ -304,7 +304,7 @@ $0.2$
 
 > *Use equivalent fractions to write *$\frac{7}{10}$* as a fraction with a denominator of 100*
 
-`table row cell 7 over 10 end cell equals cell fraction numerator 7 cross times 10 over denominator 10 cross times 10 end fraction end cell row blank equals cell 70 over 100 end cell end table`
+$\begin{gathered} \frac{7}{10} & = \frac{7 \times 10}{10 \times 10} \\ = \frac{70}{100} \end{gathered}$
 
 > *The fraction is 70 parts out of 100 and is therefore equivalent to 70%*
 
@@ -377,7 +377,7 @@ $\frac{7}{50}=\frac{14}{100}$
 ### 5((b)) — 1 marks
 > *"Per-cent" means "out of 100" so write an equivalent fraction out of 100*
 
-`3 over 10 space equals 30 over 100 space equals space 30 percent sign`
+$\frac{3}{10} = \frac{30}{100} = 30 \%$
 
 **Final answer:** **30%**
 
@@ -418,14 +418,14 @@ $\frac{3}{100}$
 
 - *Of these two, look for the smallest number in the hundredths column*
 
-`0.2 bottom enclose 0 4 comma space 0.24`
+`0.2 bottom 0 4 , 0.24`
 
 > *For the three numbers with a 4 in the tenths column, look at the numbers in the hundredths column*
 
 > **[exam-tip]**
 > You can use a placeholder if needed. For example, 0.4 is the same as 0.40 and 0.400.
 
-`0.4 bottom enclose 0 comma space 0.4 bottom enclose 0 8 comma space 0.48`
+`0.4 bottom 0 , 0.4 bottom 0 8 , 0.48`
 
 **Final answer:** **0.204, 0.24, 0.4, 0.408, 0.48**
 
@@ -438,9 +438,7 @@ $\frac{7}{10}=0.7$
 
 > *Add the decimals together*
 
-`space space space space space 0.93
-bottom enclose plus thin space 0.70 end enclose
-space space space space 1.63`
+`0.93 bottom + 0.70 1.63`
 
 **Final answer:** **1.63**
 

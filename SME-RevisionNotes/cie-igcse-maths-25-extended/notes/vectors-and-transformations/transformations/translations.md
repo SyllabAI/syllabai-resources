@@ -42,7 +42,7 @@ guided_study: true
 
 - The movement of a translation is described by a **vector**
 - You need to know how to write a translation using a vector (rather than words)
-- Vectors are written as **column vectors** in the form  `stretchy left parenthesis table row bold italic x row bold italic y end table stretchy right parenthesis`  where:
+- Vectors are written as **column vectors** in the form  $( \begin{gathered} x \\ y \end{gathered} )$  where:
 
   - $x$ is the distance moved **horizontally**
   
@@ -57,7 +57,7 @@ guided_study: true
 
 - **STEP 1** **Interpret** the translation vector
 
-  - `open parentheses table row 3 row cell negative 1 end cell end table close parentheses`  means 3 to the **right** and 1 **down**
+  - $( \begin{gathered} 3 \\ - 1 \end{gathered} )$  means 3 to the **right** and 1 **down**
 - **STEP 2**
 **Move each vertex** on the **original object **according to the vector
 - **STEP 3**
@@ -67,7 +67,7 @@ guided_study: true
 - In some cases the **image** can overlap the **object**
 
 > **Worked Example**
-> On the grid below translate shape P using the vector `open parentheses table row cell negative 4 end cell row 5 end table close parentheses`.
+> On the grid below translate shape P using the vector $( \begin{gathered} - 4 \\ 5 \end{gathered} )$.
 > 
 > Label your translated shape P'.
 > 
@@ -102,7 +102,7 @@ guided_study: true
     - If you go **down** then $y$ will be a **negative number**
   - Write these numbers as a vector
   
-    - `open parentheses table row x row y end table close parentheses`
+    - $( \begin{gathered} x \\ y \end{gathered} )$
 
 > **Exam Hint**
 > The vector is how the shape moves, **not** the size of the gap between the object and the image. Watch out for this common error!
@@ -132,11 +132,11 @@ guided_study: true
   - the **horizontal **and **vertical** translations must **both **be **reversed**
 - The** column vector** to **reverse a translation** is simply the same as the original vector, but with the **sign of both values changed**
 
-  - E.g. For a translation described by the column vector `open parentheses table row cell negative 2 end cell row 7 end table close parentheses`
-  - The column vector for the reverse translation is `open parentheses table row 2 row cell negative 7 end cell end table close parentheses`
+  - E.g. For a translation described by the column vector $( \begin{gathered} - 2 \\ 7 \end{gathered} )$
+  - The column vector for the reverse translation is $( \begin{gathered} 2 \\ - 7 \end{gathered} )$
 
 > **Worked Example**
-> A shape has been translated from A to B using the translation vector `open parentheses table row 6 row cell negative 8 end cell end table close parentheses`.
+> A shape has been translated from A to B using the translation vector $( \begin{gathered} 6 \\ - 8 \end{gathered} )$.
 > 
 > **Answer:**
 > 

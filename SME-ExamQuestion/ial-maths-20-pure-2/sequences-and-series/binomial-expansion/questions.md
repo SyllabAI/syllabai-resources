@@ -19,7 +19,7 @@ Evaluate
 ### 1() — 2 marks — structured
 Show that, for all values of $k$,
 
-`C presuperscript k subscript 1 space equals k`
+$C pre^{k}_{1} = k$
 
 ## Q3 — easy — 3 marks · exam-questions
 

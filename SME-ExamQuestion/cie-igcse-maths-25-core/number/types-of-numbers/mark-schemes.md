@@ -437,7 +437,7 @@ $\sqrt{13}$ **[1]**
 ### Q22
 > *Find pairs of numbers which multiply to give 12.*
 
-`table row blank blank cell 1 cross times 12 end cell row blank blank cell 2 cross times 6 end cell row blank blank cell 3 cross times 4 end cell end table`
+$\begin{gathered} 1 \times 12 \\ 2 \times 6 \\ 3 \times 4 \end{gathered}$
 
 **Final answer:** **1, 2, 3, 4, 6, 12**
 
@@ -467,15 +467,15 @@ $30,31,32,33,34,35,36,37,38,39,40$
 
 > *Cross out all of the even numbers because these are in the two times table so are not prime*
 
-`up diagonal strike 30 comma space 31 comma up diagonal strike space 32 end strike comma space 33 comma up diagonal strike space 34 end strike comma space 35 comma up diagonal strike space 36 end strike comma space 37 comma space up diagonal strike 38 comma space 39 comma space up diagonal strike 40`
+$\cancel{30 , 31 , \cancel{ } 32} , 33 , \cancel{ 34} , 35 , \cancel{ 36} , 37 , \cancel{38} , 39 , \cancel{40}$
 
 > *Cross out the numbers in the 3 times table*
 
-`up diagonal strike 30 comma space 31 comma up diagonal strike space 32 end strike comma space up diagonal strike 33 comma up diagonal strike space 34 end strike comma space 35 comma up diagonal strike space 36 end strike comma space 37 comma space up diagonal strike 38 comma space up diagonal strike 39 comma space up diagonal strike 40`
+$\cancel{30 , 31 , \cancel{ } 32} , \cancel{33 , \cancel{ } 34} , 35 , \cancel{ 36} , 37 , \cancel{38} , \cancel{39} , \cancel{40}$
 
 > *Numbers ending in 5 or 0 are in the 5 times table so cross these out*
 
-`up diagonal strike 30 comma space 31 comma up diagonal strike space 32 end strike comma space up diagonal strike 33 comma up diagonal strike space 34 end strike comma space up diagonal strike 35 comma up diagonal strike space 36 end strike comma space 37 comma space up diagonal strike 38 comma space up diagonal strike 39 comma space up diagonal strike 40`
+$\cancel{30 , 31 , \cancel{ } 32} , \cancel{33 , \cancel{ } 34} , \cancel{35 , \cancel{ } 36} , 37 , \cancel{38} , \cancel{39} , \cancel{40}$
 
 > *The numbers that are left cannot be divided by anything else except themselves or 1 so must be prime*
 

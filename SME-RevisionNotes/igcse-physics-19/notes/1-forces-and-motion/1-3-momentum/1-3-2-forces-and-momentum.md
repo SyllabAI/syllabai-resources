@@ -41,7 +41,7 @@ $\Deltap=mv-mu$
 
 $\mathrm{force}=\frac{\mathrm{change} \mathrm{in} \mathrm{momentum}}{\mathrm{time}}$
 
-`F space equals space fraction numerator open parentheses m v space minus space m u close parentheses over denominator t end fraction`
+$F = \frac{( m v - m u )}{t}$
 
 - Where:
 
@@ -150,7 +150,7 @@ $\mathrm{force}=\frac{\mathrm{change} \mathrm{in} \mathrm{momentum}}{\mathrm{tim
 > 
 > **Step 4: Substitute in the known values to calculate force**
 > 
-> `F space equals space fraction numerator open parentheses 1500 space cross times space minus 5 close parentheses space minus space open parentheses 1500 space cross times space 15 close parentheses over denominator 3 end fraction`
+> $F = \frac{( 1500 \times - 5 ) - ( 1500 \times 15 )}{3}$
 > 
 > $F=\frac{-7500-22500}{3}$
 > 

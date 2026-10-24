@@ -33,7 +33,7 @@ guided_study: true
 > 
 > - **Step 1: **Calculate the amount of ethyl ethanoate formed in mol:
 > 
->   - Moles = `fraction numerator mass space open parentheses straight g close parentheses over denominator molar space mass space open parentheses straight g space mol to the power of negative 1 end exponent close parentheses end fraction`
+>   - Moles = $\frac{mass ( \mathrm{g} )}{molar \text{mass} ( \mathrm{g} mol^{- 1} )}$
 >   - Moles = $\frac{0.0440g}{88.0g\mathrm{mol}^{-1}}$
 >   - Moles = 0.0005 mol
 > 
@@ -43,7 +43,7 @@ guided_study: true
 > 
 > - **Step 3: **Calculate the concentration change of product formed:
 > 
->   - Concentration = `fraction numerator amount space open parentheses mol close parentheses over denominator volume space open parentheses dm cubed close parentheses end fraction`
+>   - Concentration = $\frac{amount ( \text{mol} )}{volume ( dm^{3} )}$
 >   - Concentration = $\frac{0.0005\mathrm{mol}}{0.400\mathrm{dm}^{3}}$
 >   - Concentration =** **0.00125 mol dm<sup>-3</sup>
 > 

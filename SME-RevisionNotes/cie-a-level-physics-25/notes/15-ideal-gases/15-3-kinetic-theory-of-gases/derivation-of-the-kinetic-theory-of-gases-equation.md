@@ -47,7 +47,7 @@ guided_study: true
 
 $\Deltap=p_{f}-p_{i}$
 
-`increment p space equals space minus m c space minus space open parentheses plus m c close parentheses space equals space minus m c space minus space m c space equals space minus 2 m c`
+$\Delta p = - m c - ( + m c ) = - m c - m c = - 2 m c$
 
 **     2. Calculate the number of collisions per second by the molecule on a wall**
 
@@ -82,10 +82,10 @@ $p=\frac{\frac{mc^{2}}{l}}{l^{2}}=\frac{mc^{2}}{l^{3}}$
 $p=\frac{Nmc^{2}}{l^{3}}$
 
 - Each molecule has a different velocity and they all contribute to the pressure
-- The mean square speed $c^{2}$ is written with left and right-angled brackets `open angle brackets c squared close angle brackets`
+- The mean square speed $c^{2}$ is written with left and right-angled brackets `< c ^2 >`
 - The pressure is now defined as:
 
-`space p space equals space fraction numerator N m open angle brackets c squared close angle brackets space over denominator l cubed end fraction`
+$p = \frac{N m ( \text{angle} \text{brackets} c^{2} ) \text{angle} \text{brackets} }{l^{3}}$
 
 **     5. Consider the effect of the molecule moving in 3D space**
 
@@ -100,11 +100,11 @@ $c^{2}=c_{x}^{2}+c_{y}^{2}+c_{z}^{2}$
 - Since pressure is due to the force exerted on one face of the cube, only the component of velocity **perpendicular **to that face (e.g. the $x$-direction) matters
 - For a gas with molecules moving randomly in all directions, the mean square speed is evenly distributed among all three directions:
 
-`open angle brackets c subscript x superscript 2 close angle brackets space equals space open angle brackets c subscript y superscript 2 close angle brackets space equals space open angle brackets c subscript z superscript 2 close angle brackets`
+`< c _ x ^ 2 > = < c _ y ^ 2 > = < c _ z ^ 2 >`
 
-- Therefore, the mean square speed in the $x$-direction `open angle brackets c subscript x superscript 2 close angle brackets` accounts for a third of the total mean square speed `open angle brackets c squared close angle brackets`
+- Therefore, the mean square speed in the $x$-direction `open angle brackets c subscript x superscript 2 close angle brackets` accounts for a third of the total mean square speed `< c ^2 >`
 
-`open angle brackets c subscript x superscript 2 close angle brackets space equals 1 third open angle brackets c squared close angle brackets`
+$( \text{angle} \text{brackets} c_{x}^{2} ) \text{angle} \text{brackets} = 1 \frac{1}{3} ( \text{angle} \text{brackets} c^{2} ) \text{angle} \text{brackets}$
 
 - This is why only one-third of the total mean square speed contributes to the pressure on one wall
 
@@ -113,9 +113,9 @@ $c^{2}=c_{x}^{2}+c_{y}^{2}+c_{z}^{2}$
 - The box is a cube, and all the sides are of length $l$
 
   - This means the volume $V$ of the cube is equal to $l^{3}$
-- Substituting the new values for `open angle brackets c squared close angle brackets`  and $l^{3}$ back into the pressure equation obtains the final equation:
+- Substituting the new values for `< c ^2 >`  and $l^{3}$ back into the pressure equation obtains the final equation:
 
-`space p V space space equals space 1 third N m open angle brackets c squared close angle brackets`
+$p V = 1 \frac{1}{3} N m ( \text{angle} \text{brackets} c^{2} ) \text{angle} \text{brackets}$
 
 - Where:
 
@@ -123,7 +123,7 @@ $c^{2}=c_{x}^{2}+c_{y}^{2}+c_{z}^{2}$
   - $V$ = volume (m<sup>3</sup>)
   - $N$ = number of molecules
   - $m$ = mass of one molecule (kg)
-  - `open angle brackets c squared close angle brackets` = mean square speed of the molecules (m<sup>2</sup> s<sup>–2</sup>)
+  - `< c ^2 >` = mean square speed of the molecules (m<sup>2</sup> s<sup>–2</sup>)
 
 - This can also be written using the density *ρ *of the gas:
 
@@ -131,7 +131,7 @@ $ρ=\frac{\mathrm{mass}}{\mathrm{volume}}=\frac{Nm}{V}$
 
 - Rearranging the pressure equation for $p$ and substituting the density $ρ$:
 
-`space p space equals space 1 third rho open angle brackets c squared close angle brackets`
+$p = 1 \frac{1}{3} \\rho ( \text{angle} \text{brackets} c^{2} ) \text{angle} \text{brackets}$
 
 > **Worked Example**
 > An ideal gas has a density of 4.5 kg m<sup>-3</sup> at a pressure of 9.3 × 10<sup>5</sup> Pa and a temperature of 504 K.
@@ -150,11 +150,11 @@ $ρ=\frac{\mathrm{mass}}{\mathrm{volume}}=\frac{Nm}{V}$
 > 
 > **Step 3: Substitute in values**
 > 
-> `less than c squared greater than space equals space fraction numerator 3 space cross times open parentheses 9.3 space cross times space 10 to the power of 5 close parentheses space over denominator 4.5 end fraction space equals space 6.2 space cross times space 10 to the power of 5 space straight m squared space straight s to the power of negative 2 end exponent`
+> $< c^{2} > = \frac{3 \times ( 9.3 \times 10^{5 ) }{4.5} = 6.2 \times 10^{5} \mathrm{m}^{2} \mathrm{s}^{-2} }$
 > 
 > **Step 4: To find the r.m.s value, take the square root of the mean square speed**
 > 
-> `c subscript r. m. s end subscript space equals space square root of less than c squared greater than end root space equals space square root of 6.2 space cross times space 10 to the power of 5 end root space equals space 787.4 space equals space 790 space straight m space straight s to the power of negative 1 end exponent space open parentheses 2 space straight s. straight f. close parentheses`
+> $c_{r. m. s} = \sqrt{< c^{2} >} = \sqrt{6.2 \times 10^{5} = 787.4 = 790 \mathrm{m} \mathrm{s}^{-1} } ( 2 \mathrm{s} . \mathrm{f} . )$
 
 ## Root-Mean-Square Speed
 
@@ -164,22 +164,22 @@ $ρ=\frac{\mathrm{mass}}{\mathrm{volume}}=\frac{Nm}{V}$
 
 - The equation for the kinetic theory of ideal gases contains the **mean square speed** of the molecules:
 
-`open angle brackets c squared close angle brackets`
+`< c ^2 >`
 
 - Where
 
   - $c$ = velocity of **one **gas molecule (m s<sup>-1</sup>)
   - `open angle brackets c close angle brackets` = **average **velocity of the molecules in a gas (m s<sup>-1</sup>)
-  - `open angle brackets c squared close angle brackets` = **average **of the **square **of the** **speeds of the molecules in a gas (m<sup>2</sup> s<sup>-2</sup>)
+  - `< c ^2 >` = **average **of the **square **of the** **speeds of the molecules in a gas (m<sup>2</sup> s<sup>-2</sup>)
 - Since there are a large number of molecules in a gas, travelling in all directions in 3D space, this results in a large range of values of $c$
 - The average velocity `open angle brackets c close angle brackets` of all the molecules in a gas gives a net zero value overall
 
   - This is because velocity is a vector, so some molecules will have a negative direction and others a positive direction
 - Squaring the velocities gives positive values only
-- Averaging the values of $c^{2}$ gives `open angle brackets c squared close angle brackets`, the **mean square speed**
+- Averaging the values of $c^{2}$ gives `< c ^2 >`, the **mean square speed**
 - Then, taking the square root of the mean square speed gives:
 
-`c subscript r. m. s end subscript space equals space square root of open angle brackets c squared close angle brackets end root`
+$c_{r. m. s} = \sqrt{( \text{angle} \text{brackets} c^{2} ) \text{angle} brackets}$
 
 - $c_{r.m.s}$ is known as the** root-mean-square** speed and has units of **m s**<sup>**-1**</sup>
 

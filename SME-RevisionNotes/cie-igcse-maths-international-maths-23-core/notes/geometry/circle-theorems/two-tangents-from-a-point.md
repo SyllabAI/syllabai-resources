@@ -48,7 +48,7 @@ guided_study: true
 > 
 > > *Use Pythagoras' theorem on the right-angled triangle **OST** to calculate the length **ST*
 > 
-> `table row cell 3 squared plus open parentheses S T close parentheses squared end cell equals cell 11 squared end cell row cell 9 plus open parentheses S T close parentheses squared end cell equals 121 row cell open parentheses S T close parentheses squared end cell equals 112 row cell S T end cell equals cell square root of 112 equals 10.58300... end cell end table`
+> $\begin{gathered} 3^{2} + ( S T )^{2} & = 11^{2} \\ 9 + ( S T )^{2} & = 121 \\ ( S T )^{2} & = 112 \\ S T & = \sqrt{112} = 10.58300... \end{gathered}$
 > 
 > **Final answer:** `equation`**ST**** = 10.6 cm (3 s.f.)**
 > 

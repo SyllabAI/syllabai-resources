@@ -11,19 +11,19 @@
 
 > *Make the coefficient of *$y$* the same by multiplying the second equation by 4*
 
-`table row cell 5 x plus y end cell equals cell 3 space space space space space open parentheses cross times 4 close parentheses end cell end table`* *
+$\begin{gathered} 5 x + y & = 3 ( \times 4 ) \end{gathered}$* *
 
 *gives:*
 
-`table row cell 20 x plus 4 y end cell equals 12 end table`
+$\begin{gathered} 20 x + 4 y & = 12 \end{gathered}$
 
 > *Write the first equation in the question underneath this equation*
 
-`table row cell 20 x plus 4 y end cell equals 12 row cell 6 x plus 4 y end cell equals 19 end table`
+$\begin{gathered} 20 x + 4 y & = 12 \\ 6 x + 4 y & = 19 \end{gathered}$
 
 > *Subtract the second equation from the first equation to eliminate the *$y$* variable*
 
-`table row cell 20 x plus 4 y end cell equals cell 12 space space space minus end cell row cell 6 x plus 4 y end cell equals 19 end table`
+$\begin{gathered} 20 x + 4 y & = 12 - \\ 6 x + 4 y & = 19 \end{gathered}$
 
 *___________*
 
@@ -33,13 +33,13 @@ $14x=-7$
 
 > *Solve for *$x$* by dividing both sides by 14*
 
-`table row cell fraction numerator 14 x over denominator 14 end fraction end cell equals cell fraction numerator negative 7 over denominator 14 end fraction end cell row x equals cell negative 0.5 end cell end table`
+$\begin{gathered} \frac{14 x}{14} & = \frac{- 7}{14} \\ x = - 0.5 \end{gathered}$
 
 **[M1]**
 
 > *Substitute the value of *$x$* into *$5x+y=3$*, using either of the original equations will work*
 
-`table row cell 5 open parentheses negative 0.5 close parentheses plus y end cell equals 3 row cell negative 2.5 plus y end cell equals 3 end table`
+$\begin{gathered} 5 ( - 0.5 ) + y & = 3 \\ - 2.5 + y & = 3 \end{gathered}$
 
 > *Solve for *$y$* by adding 2.5 to both sides*
 
@@ -56,7 +56,7 @@ $x=-0.5,y=5.5$
 
 > *Substitute the values for *$x$* and *$y$* into *$6x+4y=19$
 
-`6 open parentheses negative 0.5 close parentheses plus 4 open parentheses 5.5 close parentheses equals 19`
+$6 ( - 0.5 ) + 4 ( 5.5 ) = 19$
 
 > *Calculate the left hand side to check if it equals 19*
 

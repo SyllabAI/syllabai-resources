@@ -31,7 +31,7 @@ $σ = \frac{210}{0.05\times10^{-6}} = 4 . 2 \times 10^{9}  \text{Pa}$
 - From the graph:
 
   - Stress = 2 × 10<sup>6</sup> N m<sup>−2</sup>
-  - Strain`equals 1 percent sign equals 1 over 100 equals 0.01`
+  - Strain$= 1 \% = \frac{1}{100} = 0.01$
 - Young modulus $=\frac{2\times10^{6}}{0.01}=2\times10^{8}Nm^{-2}$ ** **
 
 **Exam Tip: **a common error students make is that they tend to forget to check the units on the graph’s axes. It would be an easy mistake to make to take the percentage strain from the graph and not convert it back to the ratio extension/original length.
@@ -49,10 +49,10 @@ $σ = \frac{210}{0.05\times10^{-6}} = 4 . 2 \times 10^{9}  \text{Pa}$
   - Area $A=0.02\mathrm{mm}^{2}=0.02\times10^{-6}m^{2}$
 - The wire increases in length by 0.3 %, this is equal to the strain, so:
 
-  - `S t r a i n equals 0.3 percent sign equals fraction numerator 0.3 over denominator 100 end fraction equals 0.0030`
+  - $S t r a i n = 0.3 \% = \frac{0.3}{100} = 0.0030$
 - Young modulus = stress / strain
 
-  - `E equals fraction numerator 84 over denominator open parentheses 0.02 cross times 10 to the power of negative 6 end exponent close parentheses cross times 0.003 end fraction equals 1.4 cross times 10 to the power of 12 space Pa`
+  - $E = \frac{84}{( 0.02 \times 10^{- 6} ) \times 0.003} = 1.4 \times 10^{12} \text{Pa}$
 - Therefore, the Young modulus of the metal wire is 1.4 × 10<sup>12</sup> Pa
 
 ### Q4
@@ -87,15 +87,15 @@ $σ = \frac{210}{0.05\times10^{-6}} = 4 . 2 \times 10^{9}  \text{Pa}$
 - The strain of the metal wire is equal to $ε=\frac{extension}{originallength}=\frac{\DeltaL}{L}$
 - The percentage of the length that contracts = strain × 100%
 
-  - So, the percentage of the length that contracts`equals fraction numerator increment L over denominator L end fraction cross times 100 percent sign`
+  - So, the percentage of the length that contracts$= \frac{\Delta L}{L} \times 100 \%$
 - The Young modulus is given by $E=\frac{stress}{strain}=\frac{σ}{ε}$
 
   - Stress is equal to $σ=\frac{force}{area}=\frac{F}{A}$
 - The cross-sectional area of the wire $A=\frac{\mathrm{πd}^{2}}{4}$
 - So, strain is equal to
 
-  - `epsilon equals sigma over E equals 1 over E open parentheses F over A close parentheses equals F over E open parentheses 4 over πd squared close parentheses`
-  - `epsilon equals fraction numerator 20 over denominator 2.0 cross times 10 to the power of 11 end fraction cross times fraction numerator 4 over denominator straight pi open parentheses 5.0 cross times 10 to the power of negative 4 end exponent close parentheses squared end fraction equals 5.09 cross times 10 to the power of negative 4 end exponent`
+  - `epsilon = sigma / E = 1 / E ( F / A ) = F / E ( 4 / πd ^2 )`
+  - $\\epsilon = \frac{20}{2.0 \times 10^{11} \times \frac{4}{ \mathrm{\pi } ( 5.0 \times 10^{-4} } )^{2}} = 5.09 \times 10^{- 4}$
 - So, as a percentage this is:
 
   - Strain × 100% = 5.09 × 10<sup>–4</sup> × 100% = 5.09 × 10<sup>–2 </sup>%
@@ -106,8 +106,8 @@ $σ = \frac{210}{0.05\times10^{-6}} = 4 . 2 \times 10^{9}  \text{Pa}$
 
 - The Young modulus is given by $E=\frac{stress}{strain}=\frac{σ}{ε}$
 
-  - Stress is equal to `sigma equals fraction numerator f o r c e over denominator a r e a end fraction equals F over A equals open square brackets straight N close square brackets open square brackets straight m squared close square brackets to the power of negative 1 end exponent equals straight N space straight m to the power of negative 2 end exponent`
-  - Strain is equal to `epsilon equals fraction numerator e x t e n s i o n over denominator o r i g i n a l space l e n g t h end fraction equals fraction numerator increment L over denominator L end fraction equals open square brackets straight m close square brackets open square brackets straight m close square brackets to the power of negative 1 end exponent equals 1`
+  - Stress is equal to $\\sigma = \frac{f o r c e}{a r e a} = \frac{F}{A} = [ \mathrm{N} ] [ \mathrm{m}^{2} ]^{- 1} = \mathrm{N} \mathrm{m}^{- 2}$
+  - Strain is equal to $\\epsilon = \frac{e x t e n s i o n}{o r i g i n a l l e n g t h} = \frac{\Delta L}{L} = [ \mathrm{m} ] [ \mathrm{m} ]^{- 1} = 1$
 - Strain is dimensionless, so, the units for the Young modulus are N m<sup>−2</sup>
 
 ### Q8
@@ -222,7 +222,7 @@ Your answer will be more accurate if you use the entire line to calculate the gr
   - where $F$ = force (load), $A$ = area, $L$ = length, and $x$ = extension
 - For a wire, the cross-sectional area $A$ is:
 
-  - `A space equals space straight pi r squared italic space equals space straight pi open parentheses d over 2 close parentheses squared space equals space fraction numerator straight pi d to the power of italic 2 over denominator 4 end fraction`
+  - `A = pi r ^2 = pi ( d / 2 ) ^2 = ( pi d ^ 2)/(4)`
   - where $d$ = diameter
 - To find the percentage uncertainty in $E$, we add the percentage uncertainties in the measurements
 
@@ -273,11 +273,11 @@ Example of working:
 
   - Stress is equal to $σ=\frac{force}{area}=\frac{F}{A}$
   - Strain is equal to $ε=\frac{extension}{originallength}=\frac{\DeltaL}{L}$
-- Therefore, Young modulus `E equals fraction numerator open parentheses begin display style bevelled F over A end style close parentheses over denominator open parentheses begin display style bevelled x over L end style close parentheses end fraction equals fraction numerator F L over denominator A x end fraction`
+- Therefore, Young modulus $E = \frac{ ( \text{begin} \text{display} \text{style} \text{bevelled} \frac{F}{A} ) }{ ( \text{begin} \text{display} \text{style} \text{bevelled} \frac{x}{L} ) } = \frac{F L}{A x}$
 - Hooke’s law states that $F=kx$  , so $k=\frac{F}{x}$
 - Therefore, Young modulus is equal to
 
-  - `E equals fraction numerator F L over denominator A e end fraction equals L over A open parentheses F over e close parentheses equals fraction numerator k L over denominator A end fraction`
+  - $E = \frac{F L}{A e} = \frac{L}{A} ( \frac{F}{e} ) = \frac{k L}{A}$
 
 ### Q19
 **Final answer:** **The correct answer is ****A**** because:**
@@ -286,11 +286,11 @@ Example of working:
 
   - Stress is equal to $σ=\frac{force}{area}=\frac{F}{A}$
   - Strain is equal to $ε=\frac{extension}{originallength}=\frac{\DeltaL}{L}$
-- Therefore, Young modulus `E equals fraction numerator open parentheses begin display style bevelled F over A end style close parentheses over denominator open parentheses begin display style bevelled x over L end style close parentheses end fraction equals fraction numerator F L over denominator A x end fraction`
+- Therefore, Young modulus $E = \frac{ ( \text{begin} \text{display} \text{style} \text{bevelled} \frac{F}{A} ) }{ ( \text{begin} \text{display} \text{style} \text{bevelled} \frac{x}{L} ) } = \frac{F L}{A x}$
 - Hooke’s law states *F* = *ke*, where *k* is the spring constant
 - A metal wire will obey Hooke’s law up to a point, the spring constant depends on the force, and this can be found in the equation for the Young modulus:
 
-  - `E equals fraction numerator open parentheses k e close parentheses L over denominator A x end fraction equals fraction numerator k L over denominator A end fraction`
+  - $E = \frac{( k e ) L}{A x} = \frac{k L}{A}$
 - So, the **spring constant** depends on the Young modulus
 
 **B **is incorrect because not all materials are ductile, but all materials can have a Young modulus
@@ -308,9 +308,9 @@ The Young modulus, E, is determined by the atomic bonding in the material. A wir
 - Let the original length = *l*
 - When the force *F* = 25 N, the extension $x=55cm-l=0.55m-l$
 
-  - `F equals k cross times open parentheses 0.55 minus l close parentheses`
+  - $F = k \times ( 0.55 - l )$
   - $\frac{F}{k}=0.55-l$
-  - `l equals 0.55 minus open parentheses F over k close parentheses equals 0.55 minus open parentheses 25 over 150 close parentheses equals 0.383 space straight m`
+  - $l = 0.55 - ( \frac{F}{k} ) = 0.55 - ( \frac{25}{150} ) = 0.383 \mathrm{m}$
 - Therefore, the original length of the spring is 0.38 m
 
 ### Q21
@@ -321,7 +321,7 @@ The Young modulus, E, is determined by the atomic bonding in the material. A wir
   - Stress is equal to $σ=\frac{force}{area}=\frac{F}{A}$
   - Strain is equal to $ε=\frac{extension}{originallength}=\frac{\DeltaL}{L}$
 - In a material the Young modulus remains constant
-- As the load and cross-sectional area are the same, the stress `open parentheses fraction numerator f o r c e over denominator a r e a end fraction close parentheses`  is going to be the same
+- As the load and cross-sectional area are the same, the stress $( \frac{f o r c e}{a r e a} )$  is going to be the same
 - Metal S
 
   - 1<sup>st</sup> experiment, $E=\frac{3}{1.5}$
@@ -349,12 +349,12 @@ The Young modulus, E, is determined by the atomic bonding in the material. A wir
   - $E=\frac{4Fl}{πd^{2}x}$
 - The percentage uncertainty in the diameter needs to be doubled as it is squared in the equation
 
-  - `fraction numerator increment E over denominator E end fraction equals open parentheses fraction numerator increment F over denominator F end fraction close parentheses plus open parentheses fraction numerator increment l over denominator l end fraction close parentheses plus 2 open parentheses fraction numerator increment d over denominator d end fraction close parentheses plus open parentheses fraction numerator increment x over denominator x end fraction close parentheses`
+  - $\frac{\Delta E}{E} = ( \frac{\Delta F}{F} ) + ( \frac{\Delta l}{l} ) + 2 ( \frac{\Delta d}{d} ) + ( \frac{\Delta x}{x} )$
   
-    - `open parentheses fraction numerator increment F over denominator F end fraction close parentheses equals fraction numerator 0.01 over denominator 19.62 end fraction equals 0.00051`
-    - `open parentheses fraction numerator increment l over denominator l end fraction close parentheses equals fraction numerator 0.002 over denominator 2.043 end fraction equals 0.00098`
-    - `2 open parentheses fraction numerator increment d over denominator d end fraction close parentheses equals 2 open parentheses fraction numerator 0.02 over denominator 0.54 end fraction close parentheses equals 0.07407`
-    - `open parentheses fraction numerator increment x over denominator x end fraction close parentheses equals fraction numerator 0.2 over denominator 5.2 end fraction equals 0.03846`
+    - $( \frac{\Delta F}{F} ) = \frac{0.01}{19.62} = 0.00051$
+    - $( \frac{\Delta l}{l} ) = \frac{0.002}{2.043} = 0.00098$
+    - $2 ( \frac{\Delta d}{d} ) = 2 ( \frac{0.02}{0.54} ) = 0.07407$
+    - $( \frac{\Delta x}{x} ) = \frac{0.2}{5.2} = 0.03846$
   - Therefore, the diameter has the largest effect on the uncertainty of the Young modulus
 
 ### Q23
@@ -364,7 +364,7 @@ The Young modulus, E, is determined by the atomic bonding in the material. A wir
 
   - Stress is equal to $σ=\frac{force}{area}=\frac{F}{A}$
   - Strain is equal to $ε=\frac{extension}{originallength}=\frac{\DeltaL}{L}$
-- Therefore, Young modulus `E equals fraction numerator open parentheses begin display style bevelled F over A end style close parentheses over denominator open parentheses begin display style bevelled e over L end style close parentheses end fraction equals fraction numerator F L over denominator A e end fraction`
+- Therefore, Young modulus $E = \frac{ ( \text{begin} \text{display} \text{style} \text{bevelled} \frac{F}{A} ) }{ ( \text{begin} \text{display} \text{style} \text{bevelled} \frac{e}{L} ) } = \frac{F L}{A e}$
 - Where:
 
   - Area $A=l^{2}$
@@ -383,9 +383,9 @@ The Young modulus, E, is determined by the atomic bonding in the material. A wir
   - Stress is equal to $σ=\frac{force}{area}=\frac{F}{A}$
   - Strain is equal to $ε=\frac{extension}{originallength}=\frac{x}{L}$
 - As both wires are made of steel they have the same Young modulus, *E*
-- Young modulus `E equals fraction numerator open parentheses bevelled F over A close parentheses over denominator open parentheses bevelled x over L close parentheses end fraction equals fraction numerator F L over denominator A x end fraction`
+- Young modulus $E = \frac{ ( \text{bevelled} \frac{F}{A} ) }{ ( \text{bevelled} \frac{x}{L} ) } = \frac{F L}{A x}$
 - So, tension is equal to $F=\frac{EAx}{l}$
 
   - For wire X : $F_{X}=\frac{EAx}{l}$
-  - For wire Y : `F subscript Y equals fraction numerator E open parentheses bevelled A over 2 close parentheses x over denominator 2 l end fraction equals fraction numerator E A x over denominator 4 l end fraction equals F subscript X over 4`
-- So, the ratio `equals F subscript X over F subscript Y equals fraction numerator F subscript X over denominator open parentheses begin display style bevelled F subscript X over 4 end style close parentheses end fraction equals 4 over 1`
+  - For wire Y : $F_{Y} = \frac{E ( \text{bevelled} \frac{A}{2} ) x}{2 l} = \frac{E A x}{4 l} = F_\frac{{X}}{4}$
+- So, the ratio `= F _ X / F _ Y = (F _ X)/(( begin display style bevelled F _ X / 4 )) = 4 / 1`

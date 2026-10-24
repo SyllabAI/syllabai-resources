@@ -11,11 +11,11 @@ $\overset{\rightarrow}{AB}=\overset{\rightarrow}{AO}+\overset{\rightarrow}{OB}$
 
 > *Use the property that reversing the direction of the vector is the same as multiplying it by -1.*
 
-`table row cell stack A O with rightwards arrow on top end cell equals cell negative stack O A with rightwards arrow on top end cell row cell stack A B with rightwards arrow on top end cell equals cell negative stack O A with rightwards arrow on top plus stack O B with rightwards arrow on top end cell row cell stack A B with rightwards arrow on top end cell equals cell stack O B with rightwards arrow on top minus stack O A with rightwards arrow on top end cell end table`
+$\begin{gathered} \vec{AO} & = - \vec{OA} \\ \vec{AB} & = - \vec{OA} + \vec{OB} \\ \vec{AB} & = \vec{OB} - \vec{OA} \end{gathered}$
 
 > *Use the given vectors.*
 
-`table row cell stack A B with rightwards arrow on top end cell equals cell bottom enclose straight b minus bottom enclose straight a end cell end table`
+`| A B -vec | = bottom b - bottom a | |`
 
 *Use the ratio to write **AN **as a fraction of **AB**.* *AN** : **NB**  = 2 : 1 therefore **AN** is *$\frac{2}{2+1}$* of the length **AB**.*
 
@@ -23,7 +23,7 @@ $\overset{\rightarrow}{AN}=\frac{2}{3}\times\overset{\rightarrow}{AB}$
 
 > *Use the vector for *$\overset{\rightarrow}{AB}.$
 
-`table row cell stack A N with rightwards arrow on top end cell equals cell 2 over 3 cross times open parentheses bottom enclose straight b minus bottom enclose straight a close parentheses end cell row blank equals cell 2 over 3 bottom enclose straight b minus 2 over 3 bottom enclose straight a end cell end table`
+`| A N -vec | = 2 / 3 x ( bottom b - bottom a ) | | _ = 2 / 3 bottom b - 2 / 3 bottom a | |`
 
 **[1]**
 
@@ -35,13 +35,13 @@ $\overset{\rightarrow}{ON}=\overset{\rightarrow}{OA}+\overset{\rightarrow}{AN}$
 
 > *Substitute the expressions for the vectors.*
 
-`table row cell stack O N with rightwards arrow on top end cell equals cell bottom enclose straight a plus 2 over 3 bottom enclose straight b minus 2 over 3 bottom enclose straight a end cell row blank equals cell bottom enclose straight a minus 2 over 3 bottom enclose straight a plus 2 over 3 bottom enclose straight b end cell end table`
+`| O N -vec | = bottom a + 2 / 3 bottom b - 2 / 3 bottom a | | _ = bottom a - 2 / 3 bottom a + 2 / 3 bottom b | |`
 
 > *Simplify.*
 
-`table row cell stack bold italic O bold italic N with bold rightwards arrow on top end cell bold equals cell bold 1 over bold 3 bottom enclose bold a bold plus bold 2 over bold 3 bottom enclose bold b end cell end table`* ***[1]**
+`| O N -vec | = 1 / 3 bottom a + 2 / 3 bottom b | |`* ***[1]**
 
-**It is acceptable to write in factorised form:*** *`table row cell stack O N with rightwards arrow on top end cell equals cell 1 third open parentheses bottom enclose straight a plus 2 bottom enclose straight b close parentheses end cell end table`
+**It is acceptable to write in factorised form:*** *`| O N -vec | = 1 third ( bottom a + 2 bottom b ) | |`
 
 ### 24((b)) — 3 marks
 > *To show that three points form a straight line you need to choose two pairs of points and show that the two vectors between these points are parallel. As there are three points, the two vectors will share a common point and therefore form a straight line.*
@@ -52,13 +52,13 @@ $\overset{\rightarrow}{OD}=\overset{\rightarrow}{OA}+\overset{\rightarrow}{AC}+\
 
 > *AC** is parallel to **OB** therefore *$\overset{\rightarrow}{AC}=\overset{\rightarrow}{CD}=\overset{\rightarrow}{OB}=b$*.*
 
-`table row cell stack O D with rightwards arrow on top end cell equals cell bottom enclose straight a plus bottom enclose straight b plus bottom enclose straight b end cell row blank equals cell bottom enclose straight a plus 2 bottom enclose straight b end cell end table`
+`| O D -vec | = bottom a + bottom b + bottom b | | _ = bottom a + 2 bottom b | |`
 
 **[1]**
 
 > *Two vectors are parallel if one is a scalar multiple of the other.*
 
-`table row cell stack O N with rightwards arrow on top end cell equals cell 1 third open parentheses bottom enclose straight a plus 2 bottom enclose straight b close parentheses equals 1 third stack O D with rightwards arrow on top end cell row blank blank cell therefore O N space & space O D space are space parallel end cell end table`
+`| O N -vec | = 1 third ( bottom a + 2 bottom b ) = 1 third O D -vec | | _ _ therefore O N & O D are parallel | |`
 
 **[1]**
 
@@ -73,11 +73,11 @@ $\overset{\rightarrow}{PB}=\overset{\rightarrow}{PN}+\overset{\rightarrow}{NA}+\
 
 > *Use the property that reversing the direction of the vector is the same as multiplying it by -1.*
 
-`table row cell stack P B with rightwards arrow on top end cell equals cell negative stack N P with rightwards arrow on top minus stack A N with rightwards arrow on top plus stack A B with rightwards arrow on top end cell row blank equals cell negative bottom enclose straight b minus 2 bottom enclose straight b plus bottom enclose straight a end cell end table`
+`| P B -vec | = - N P -vec - A N -vec + A B -vec | | _ = - bottom b - 2 bottom b + bottom a | |`
 
 > *Simplify.*
 
-`stack bold italic P bold italic B with bold rightwards harpoon with barb upwards on top bold equals bottom enclose bold a bold minus bold 3 bottom enclose bold b` **[1]**
+`P B with rightwards harpoon with barb upwards on top = bottom a - 3 bottom b` **[1]**
 
 ### 28((b)) — 4 marks
 > *To show that three points form a straight line you need to choose two pairs of points and show that the two vectors between these points are parallel. As there are three points, the two vectors will share a common point and therefore form a straight line.*
@@ -88,7 +88,7 @@ $\overset{\rightarrow}{NM}=\overset{\rightarrow}{NP}+\overset{\rightarrow}{PM}$
 
 > *M** is the midpoint of **PB** therefore *$\overset{\rightarrow}{PM}=\frac{1}{2}\times\overset{\rightarrow}{PB}.$
 
-`table row cell stack N M with rightwards arrow on top end cell equals cell stack N P with rightwards arrow on top plus 1 half cross times stack P B with rightwards arrow on top end cell row blank equals cell bottom enclose straight b plus 1 half open parentheses bottom enclose straight a minus 3 bottom enclose straight b close parentheses end cell row blank equals cell bottom enclose straight b plus 1 half bottom enclose straight a minus 3 over 2 bottom enclose straight b end cell row blank equals cell 1 half bottom enclose straight a minus 1 half bottom enclose straight b end cell row blank equals cell 1 half open parentheses bottom enclose straight a minus bottom enclose straight b close parentheses end cell end table`
+`| N M -vec | = N P -vec + 1 half x P B -vec | | _ = bottom b + 1 half ( bottom a - 3 bottom b ) | | _ = bottom b + 1 half bottom a - 3 / 2 bottom b | | _ = 1 half bottom a - 1 half bottom b | | _ = 1 half ( bottom a - bottom b ) | |`
 
 **[1]**
 
@@ -96,15 +96,15 @@ $\overset{\rightarrow}{NM}=\overset{\rightarrow}{NP}+\overset{\rightarrow}{PM}$
 
 $\overset{\rightarrow}{MC}=\overset{\rightarrow}{MB}+\overset{\rightarrow}{BC}$
 
-*M** is the midpoint of **PB** therefore *`stack M B with rightwards arrow on top equals 1 half cross times stack P B with rightwards arrow on top equals 1 half bottom enclose straight a minus 3 over 2 bottom enclose straight b`*.* *B** is the midpoint of AC therefore *`stack A B with rightwards arrow on top equals stack B C with rightwards arrow on top equals bottom enclose straight a`*.*
+*M** is the midpoint of **PB** therefore *`M B -vec = 1 half x P B -vec = 1 half bottom a - 3 / 2 bottom b`*.* *B** is the midpoint of AC therefore *`A B -vec = B C -vec = bottom a`*.*
 
-`table row cell stack M C with rightwards arrow on top end cell equals cell 1 half bottom enclose straight a minus 3 over 2 bottom enclose straight b plus bottom enclose straight a end cell row blank equals cell 3 over 2 bottom enclose straight a minus 3 over 2 bottom enclose straight b end cell row blank equals cell 3 over 2 open parentheses bottom enclose straight a minus bottom enclose straight b close parentheses end cell end table`
+`| M C -vec | = 1 half bottom a - 3 / 2 bottom b + bottom a | | _ = 3 / 2 bottom a - 3 / 2 bottom b | | _ = 3 / 2 ( bottom a - bottom b ) | |`
 
 **[1]**
 
 > *Two vectors are parallel if one of them is a scalar multiple of the other.*
 
-`table row cell stack M C with rightwards arrow on top end cell equals cell 3 over 2 open parentheses bottom enclose straight a minus bottom enclose straight b close parentheses equals 3 cross times 1 half open parentheses bottom enclose straight a minus bottom enclose straight b close parentheses equals 3 stack N M with rightwards arrow on top end cell row blank blank cell therefore M C space & space N M space are space parallel end cell end table`
+`| M C -vec | = 3 / 2 ( bottom a - bottom b ) = 3 x 1 half ( bottom a - bottom b ) = 3 N M -vec | | _ _ therefore M C & N M are parallel | |`
 
 **[1]**
 
@@ -128,17 +128,17 @@ $\overset{\rightarrow}{MC}=\overset{\rightarrow}{MB}+\overset{\rightarrow}{BC}$
 *a goes 1 to the right and 2 up.* 
 *b goes 1 to the right and 3 down.*
 
-`bottom enclose straight a equals open parentheses table row 1 row 2 end table close parentheses space space space bottom enclose straight b equals open parentheses table row 1 row cell negative 3 end cell end table close parentheses`
+`bottom a = ( | 1 | 2 | ) bottom b = ( | 1 | - 3 | | )`
 
 > *Substitute the column vectors into the expression.*
 
-`table row cell bottom enclose straight a plus 2 bottom enclose straight b end cell equals cell open parentheses table row 1 row 2 end table close parentheses plus 2 cross times open parentheses table row 1 row cell negative 3 end cell end table close parentheses end cell end table`
+`| bottom a + 2 bottom b | = ( | 1 | 2 | ) + 2 x ( | 1 | - 3 | | ) | |`
 
 **[1]**
 
-`table attributes columnalign right center left columnspacing 0px end attributes row cell bottom enclose straight a plus 2 bottom enclose straight b end cell equals cell open parentheses table row 1 row 2 end table close parentheses plus open parentheses table row 2 row cell negative 6 end cell end table close parentheses end cell row blank equals cell open parentheses table row cell 1 plus 2 end cell row cell 2 minus 6 end cell end table close parentheses end cell end table`
+`table columnalign right center left columnspacing 0px end | bottom a + 2 bottom b | = ( | 1 | 2 | ) + ( | 2 | - 6 | | ) | | _ = ( | 1 + 2 | | 2 - 6 | | ) | |`
 
-`bottom enclose bold a bold plus bold 2 bottom enclose bold b bold equals stretchy left parenthesis table row 3 row cell negative 4 end cell end table stretchy right parenthesis` **[1]**
+`bottom a + 2 bottom b = stretchy ( | 3 | - 4 | | stretchy )` **[1]**
 
 > *Method 2*
 
@@ -150,14 +150,14 @@ $\overset{\rightarrow}{MC}=\overset{\rightarrow}{MB}+\overset{\rightarrow}{BC}$
 
 > *Write the resultant vector (from start of **a** to the end of the second **b**) as a column vector. It goes 3 to the right and 4 down,.*
 
-`bottom enclose bold a bold plus bold 2 bottom enclose bold b bold equals stretchy left parenthesis table row 3 row cell negative 4 end cell end table stretchy right parenthesis` **[1]**
+`bottom a + 2 bottom b = stretchy ( | 3 | - 4 | | stretchy )` **[1]**
 
 ## Q4 — very_hard — 4 marks · exam-questions
 
 ### 27() — 4 marks
 > *Find the vector *$\overset{\rightarrow}{AB}$* by finding a path from **A** to **B**.*
 
-`table row cell stack A B with rightwards arrow on top end cell equals cell negative stack O A with rightwards arrow on top plus stack O B with rightwards arrow on top end cell row blank equals cell negative open parentheses 2 bottom enclose straight a plus bottom enclose straight b close parentheses plus 3 bottom enclose straight a plus 2 bottom enclose straight b end cell row blank equals cell negative 2 bottom enclose straight a plus 3 bottom enclose straight a minus bottom enclose straight b plus 2 bottom enclose straight b end cell row blank equals cell bottom enclose straight a plus bottom enclose straight b end cell end table`
+`| A B -vec | = - O A -vec + O B -vec | | _ = - ( 2 bottom a + bottom b ) + 3 bottom a + 2 bottom b | | _ = - 2 bottom a + 3 bottom a - bottom b + 2 bottom b | | _ = bottom a + bottom b | |`
 
 **[1]**
 
@@ -167,21 +167,21 @@ $\overset{\rightarrow}{AB}=\frac{2}{7}\times\overset{\rightarrow}{AC}$
 
 > *Rearrange to find *$\overset{\rightarrow}{AC}$*.*
 
-`table row cell stack A C with rightwards arrow on top end cell equals cell 7 over 2 cross times stack A B with rightwards arrow on top end cell row blank equals cell 7 over 2 left parenthesis bottom enclose straight a plus bottom enclose straight b right parenthesis end cell row blank equals cell 7 over 2 bottom enclose straight a plus 7 over 2 bottom enclose straight b end cell end table`
+`| A C -vec | = 7 / 2 x A B -vec | | _ = 7 / 2 ( bottom a + bottom b ) | | _ = 7 / 2 bottom a + 7 / 2 bottom b | |`
 
 **[1]**
 
 > *Find the vector *$\overset{\rightarrow}{OC}$* by finding a path from **O** to **C**.*
 
-`table row cell stack O C with rightwards arrow on top end cell equals cell stack O A with rightwards arrow on top plus stack A C with rightwards arrow on top end cell row blank equals cell 2 bottom enclose straight a plus bottom enclose straight b plus 7 over 2 bottom enclose straight a plus 7 over 2 bottom enclose straight b end cell end table`
+`| O C -vec | = O A -vec + A C -vec | | _ = 2 bottom a + bottom b + 7 / 2 bottom a + 7 / 2 bottom b | |`
 
 **[1]**
 
 > *Simplify.*
 
-`stack bold italic O bold italic C with bold rightwards arrow on top bold equals bold 11 over bold 2 bottom enclose bold a bold plus bold 9 over bold 2 bottom enclose bold b` **[1]**
+`O C -vec = 11 / 2 bottom a + 9 / 2 bottom b` **[1]**
 
-**It is acceptable to write in factorised form: **`stack O C with rightwards arrow on top equals 1 half open parentheses 11 bottom enclose straight a plus 9 bottom enclose straight b close parentheses`
+**It is acceptable to write in factorised form: **`O C -vec = 1 half ( 11 bottom a + 9 bottom b )`
 
 ## Q5 — hard — 6 marks · exam-questions
 
@@ -190,7 +190,7 @@ $\overset{\rightarrow}{AB}=\frac{2}{7}\times\overset{\rightarrow}{AC}$
 
 $\overset{\rightarrow}{OT}=\overset{\rightarrow}{OP}+\overset{\rightarrow}{PT}$
 
-`stack bold italic O bold italic T with bold rightwards arrow on top bold equals bottom enclose bold a bold plus bottom enclose bold b` **[1]**
+`O T -vec = bottom a + bottom b` **[1]**
 
 (ii) *Find a path from **P** to **R** using known vectors.*
 
@@ -198,10 +198,10 @@ $\overset{\rightarrow}{PR}=\overset{\rightarrow}{PO}+\overset{\rightarrow}{OR}$
 
 > *Use the property that reversing the direction of the vector is the same as multiplying it by -1.*
 
-`table row cell stack P R with rightwards arrow on top end cell equals cell negative stack O P with rightwards arrow on top plus stack O R with rightwards arrow on top end cell end table`
+$\begin{gathered} \vec{PR} & = - \vec{OP} + \vec{OR} \end{gathered}$
 
-`stack bold italic P bold italic R with bold rightwards arrow on top bold equals bold minus bottom enclose bold a bold plus bold 3 bottom enclose bold b`* ***[1] **
-**It is also acceptable to write: **`stack P R with rightwards arrow on top equals 3 bottom enclose straight b minus bottom enclose straight a`
+`P R -vec = - bottom a + 3 bottom b`* ***[1] **
+**It is also acceptable to write: **`P R -vec = 3 bottom b - bottom a`
 
 ### 23((b)) — 2 marks
 *Use the ratio to write **PS** as a fraction of **PR**.* *PS** : **SR**  = 1 : 3 therefore **PS** is *$\frac{1}{1+3}$* of the length **PR**.*
@@ -210,7 +210,7 @@ $\overset{\rightarrow}{PS}=\frac{1}{4}\times\overset{\rightarrow}{PR}$
 
 > *Use the vector for *$\overset{\rightarrow}{PR}.$
 
-`table row cell stack P S with rightwards arrow on top end cell equals cell 1 fourth cross times open parentheses 3 bottom enclose straight b minus bottom enclose straight a close parentheses end cell row blank equals cell 3 over 4 bottom enclose straight b minus 1 fourth bottom enclose straight a end cell end table`
+`| P S -vec | = 1 fourth x ( 3 bottom b - bottom a ) | | _ = 3 / 4 bottom b - 1 fourth bottom a | |`
 
 > *Find a path starting at **O** and ending at **S**.*
 
@@ -220,16 +220,16 @@ $\overset{\rightarrow}{OS}=\overset{\rightarrow}{OP}+\overset{\rightarrow}{PS}$
 
 > *Substitute the expressions for the vectors.*
 
-`table row cell stack O S with rightwards arrow on top end cell equals cell bottom enclose straight a plus 3 over 4 bottom enclose straight b minus 1 fourth bottom enclose straight a end cell row blank equals cell bottom enclose straight a minus 1 fourth bottom enclose straight a plus 3 over 4 bottom enclose straight b end cell end table`
+`| O S -vec | = bottom a + 3 / 4 bottom b - 1 fourth bottom a | | _ = bottom a - 1 fourth bottom a + 3 / 4 bottom b | |`
 
 > *Simplify.*
 
-`table row cell stack bold italic O bold italic S with bold rightwards arrow on top end cell bold equals cell bold 3 over bold 4 bottom enclose bold a bold plus bold 3 over bold 4 bottom enclose bold b end cell end table` **[1]**
+`| O S -vec | = 3 / 4 bottom a + 3 / 4 bottom b | |` **[1]**
 
-**Factorising is acceptable:** `table row cell stack O P with rightwards arrow on top end cell equals cell 3 over 4 open parentheses bottom enclose straight a plus bottom enclose straight b close parentheses end cell end table`
+**Factorising is acceptable:** `| O P -vec | = 3 / 4 ( bottom a + bottom b ) | |`
 
 ### 23((c)) — 2 marks
-> *Compare the vectors *`stack O T with rightwards arrow on top equals bottom enclose straight a plus bottom enclose straight b`* and *`stack O S with rightwards arrow on top equals 3 over 4 open parentheses bottom enclose straight a plus bottom enclose straight b close parentheses.`
+> *Compare the vectors *`O T -vec = bottom a + bottom b`* and *`O S -vec = 3 / 4 ( bottom a + bottom b ).`
 
 $\overset{\rightarrow}{OS}=\frac{3}{4}\overset{\rightarrow}{OT}$
 
@@ -250,11 +250,11 @@ $\overset{\rightarrow}{AB}=\overset{\rightarrow}{AO}+\overset{\rightarrow}{OB}$
 
 > *Use the property that reversing the direction of the vector is the same as multiplying it by -1.*
 
-`table row cell stack A O with rightwards arrow on top end cell equals cell negative stack O A with rightwards arrow on top end cell row cell stack A B with rightwards arrow on top end cell equals cell negative stack O A with rightwards arrow on top plus stack O B with rightwards arrow on top end cell row cell stack A B with rightwards arrow on top end cell equals cell stack O B with rightwards arrow on top minus stack O A with rightwards arrow on top end cell end table`
+$\begin{gathered} \vec{AO} & = - \vec{OA} \\ \vec{AB} & = - \vec{OA} + \vec{OB} \\ \vec{AB} & = \vec{OB} - \vec{OA} \end{gathered}$
 
 > *Use the given vectors.*
 
-`stack bold italic A bold italic B with bold rightwards harpoon with barb upwards on top bold equals bottom enclose bold b bold minus bottom enclose bold a` **[1]**
+`A B with rightwards harpoon with barb upwards on top = bottom b - bottom a` **[1]**
 
 ### 26((b)) — 3 marks
 *Use the ratio to write **AP** as a fraction of **AB**.*
@@ -264,7 +264,7 @@ $\overset{\rightarrow}{AP}=\frac{3}{4}\times\overset{\rightarrow}{AB}$
 
 > *Use the vector for *$\overset{\rightarrow}{AB}.$
 
-`table row cell stack A P with rightwards arrow on top end cell equals cell 3 over 4 cross times open parentheses bottom enclose straight b minus bottom enclose straight a close parentheses end cell row blank equals cell 3 over 4 bottom enclose straight b minus 3 over 4 bottom enclose straight a end cell end table`
+`| A P -vec | = 3 / 4 x ( bottom b - bottom a ) | | _ = 3 / 4 bottom b - 3 / 4 bottom a | |`
 
 **[1]**
 
@@ -276,13 +276,13 @@ $\overset{\rightarrow}{OP}=\overset{\rightarrow}{OA}+\overset{\rightarrow}{AP}$
 
 > *Substitute the expressions for the vectors.*
 
-`table attributes columnalign right center left columnspacing 0px end attributes row cell stack O P with rightwards arrow on top end cell equals cell bottom enclose straight a plus 3 over 4 bottom enclose straight b minus 3 over 4 bottom enclose straight a end cell row blank equals cell bottom enclose straight a minus 3 over 4 bottom enclose straight a plus 3 over 4 bottom enclose straight b end cell end table`
+`table columnalign right center left columnspacing 0px end | O P -vec | = bottom a + 3 / 4 bottom b - 3 / 4 bottom a | | _ = bottom a - 3 / 4 bottom a + 3 / 4 bottom b | |`
 
 > *Simplify.*
 
-`table row cell stack bold italic O bold italic P with bold rightwards arrow on top end cell bold equals cell bold 1 over bold 4 bottom enclose bold a bold plus bold 3 over bold 4 bottom enclose bold b end cell end table` **[1]**
+`| O P -vec | = 1 / 4 bottom a + 3 / 4 bottom b | |` **[1]**
 
-**Factorising is acceptable:** `table attributes columnalign right center left columnspacing 0px end attributes row cell stack O P with rightwards arrow on top end cell equals cell 1 fourth open parentheses bottom enclose straight a plus 3 bottom enclose straight b close parentheses end cell end table`
+**Factorising is acceptable:** `table columnalign right center left columnspacing 0px end | O P -vec | = 1 fourth ( bottom a + 3 bottom b ) | |`
 
 ## Q7 — very_hard — 5 marks · exam-questions
 
@@ -295,29 +295,29 @@ $\overset{\rightarrow}{DA}=\overset{\rightarrow}{DC}+\overset{\rightarrow}{CB}+\
 
 > *B** is the midpoint of **AC **therefore *$\overset{\rightarrow}{CB}=\overset{\rightarrow}{BA}=a$*.*
 
-`table row cell stack D A with rightwards arrow on top end cell equals cell 2 bottom enclose straight b plus bottom enclose straight a plus bottom enclose straight a end cell row blank equals cell 2 bottom enclose straight a plus 2 bottom enclose straight b end cell end table`
+`| D A -vec | = 2 bottom b + bottom a + bottom a | | _ = 2 bottom a + 2 bottom b | |`
 
 **[1]**
 
 > *Find the vector *$\overset{\rightarrow}{EB}$* by finding a path between **E** and **B**.*
 
-`table row cell stack E B with rightwards arrow on top end cell equals cell stack E D with rightwards arrow on top plus stack D C with rightwards arrow on top plus stack C B with rightwards arrow on top end cell row blank equals cell bottom enclose straight b plus 2 bottom enclose straight b plus bottom enclose straight a end cell row blank equals cell bottom enclose straight a plus 3 bottom enclose straight b end cell end table`
+`| E B -vec | = E D -vec + D C -vec + C B -vec | | _ = bottom b + 2 bottom b + bottom a | | _ = bottom a + 3 bottom b | |`
 
 > *M** is the midpoint of **BE** therefore *$\overset{\rightarrow}{MB}=\frac{1}{2}\times\overset{\rightarrow}{EB}$*.*
 
-`table row cell stack M B with rightwards arrow on top end cell equals cell 1 half open parentheses bottom enclose straight a plus 3 bottom enclose straight b close parentheses end cell row blank equals cell 1 half bottom enclose straight a plus 3 over 2 bottom enclose straight b end cell end table`
+`| M B -vec | = 1 half ( bottom a + 3 bottom b ) | | _ = 1 half bottom a + 3 / 2 bottom b | |`
 
 **[1]**
 
 > *Find the vector *$\overset{\rightarrow}{MA}$* by finding a path between **M** and **A**.*
 
-`table row cell stack M A with rightwards arrow on top end cell equals cell stack M B with rightwards arrow on top plus stack B A with rightwards arrow on top end cell row blank equals cell 1 half bottom enclose straight a plus 3 over 2 bottom enclose straight b plus bottom enclose straight a end cell row blank equals cell 3 over 2 bottom enclose straight a plus 3 over 2 bottom enclose straight b end cell end table`
+`| M A -vec | = M B -vec + B A -vec | | _ = 1 half bottom a + 3 / 2 bottom b + bottom a | | _ = 3 / 2 bottom a + 3 / 2 bottom b | |`
 
 **[1]**
 
 > *Two vectors are parallel if they are scalar multiples of a common vector.*
 
-`table row cell stack D A with rightwards arrow on top end cell equals cell 2 open parentheses bottom enclose straight a plus bottom enclose straight b close parentheses space & space stack M A with rightwards arrow on top equals 3 over 2 open parentheses bottom enclose straight a plus bottom enclose straight b close parentheses end cell row blank blank cell therefore D A space & space M A space are space parallel end cell end table`
+`| D A -vec | = 2 ( bottom a + bottom b ) & M A -vec = 3 / 2 ( bottom a + bottom b ) | | _ _ therefore D A & M A are parallel | |`
 
 **[1]**
 
@@ -334,11 +334,11 @@ $\overset{\rightarrow}{AB}=\overset{\rightarrow}{AO}+\overset{\rightarrow}{OB}$
 
 > *Use the property that reversing the direction of the vector is the same as multiplying it by -1.*
 
-`table row cell stack A O with rightwards arrow on top end cell equals cell negative stack O A with rightwards arrow on top end cell row cell stack A B with rightwards arrow on top end cell equals cell negative stack O A with rightwards arrow on top plus stack O B with rightwards arrow on top end cell row cell stack A B with rightwards arrow on top end cell equals cell stack O B with rightwards arrow on top minus stack O A with rightwards arrow on top end cell end table`
+$\begin{gathered} \vec{AO} & = - \vec{OA} \\ \vec{AB} & = - \vec{OA} + \vec{OB} \\ \vec{AB} & = \vec{OB} - \vec{OA} \end{gathered}$
 
 > *Use the given vectors.*
 
-`table row cell stack A B with rightwards arrow on top end cell equals cell 2 bottom enclose straight b minus 5 bottom enclose straight a end cell end table`
+`| A B -vec | = 2 bottom b - 5 bottom a | |`
 
 **[1]**
 
@@ -348,7 +348,7 @@ $\overset{\rightarrow}{AT}=\frac{5}{6}\times\overset{\rightarrow}{AB}$
 
 > *Use the vector for *$\overset{\rightarrow}{AB}.$
 
-`table row cell stack A T with rightwards arrow on top end cell equals cell 5 over 6 cross times open parentheses 2 bottom enclose straight b minus 5 bottom enclose straight a close parentheses end cell row blank equals cell 5 over 3 bottom enclose straight b minus 25 over 6 bottom enclose straight a end cell end table`
+`| A T -vec | = 5 / 6 x ( 2 bottom b - 5 bottom a ) | | _ = 5 / 3 bottom b - 25 / 6 bottom a | |`
 
 > *Find a path starting at **O** and ending at **T**.*
 
@@ -358,19 +358,19 @@ $\overset{\rightarrow}{OT}=\overset{\rightarrow}{OA}+\overset{\rightarrow}{AT}$
 
 > *Substitute the expressions for the vectors.*
 
-`table row cell stack O T with rightwards arrow on top end cell equals cell 5 bottom enclose straight a plus 5 over 3 bottom enclose straight b minus 25 over 6 bottom enclose straight a end cell row blank equals cell 5 bottom enclose straight a minus 25 over 6 bottom enclose straight a plus 5 over 3 bottom enclose straight b end cell end table`
+`| O T -vec | = 5 bottom a + 5 / 3 bottom b - 25 / 6 bottom a | | _ = 5 bottom a - 25 / 6 bottom a + 5 / 3 bottom b | |`
 
 **[1]**
 
 > *Simplify.*
 
-`table row cell stack O T with rightwards arrow on top end cell equals cell 5 over 6 bottom enclose straight a plus 5 over 3 bottom enclose straight b end cell end table`
+`| O T -vec | = 5 / 6 bottom a + 5 / 3 bottom b | |`
 
 > *Factorise out the *$\frac{5}{6}$*. It will help to write *$\frac{5}{3}$* as *$\frac{10}{6}$*.*
 
-`table row cell stack O T with rightwards arrow on top end cell equals cell 5 over 6 bottom enclose straight a plus 10 over 6 bottom enclose straight b end cell row blank equals cell 5 over 6 open parentheses bottom enclose straight a plus 2 bottom enclose straight b close parentheses end cell end table`
+`| O T -vec | = 5 / 6 bottom a + 10 / 6 bottom b | | _ = 5 / 6 ( bottom a + 2 bottom b ) | |`
 
-`stack bold italic O bold italic T with bold rightwards arrow on top bold equals bold 5 over bold 6 stretchy left parenthesis bottom enclose a plus 2 bottom enclose b stretchy right parenthesis`** ****therefore ****OT**** is parallel to **`bottom enclose bold a bold plus bold 2 bottom enclose bold b`** ****[1]**
+`O T -vec = 5 / 6 stretchy ( bottom a + 2 bottom b stretchy )`** ****therefore ****OT**** is parallel to **`bottom a + 2 bottom b`** ****[1]**
 
 ## Q9 — medium — 4 marks · exam-questions
 
@@ -381,11 +381,11 @@ $\overset{\rightarrow}{SQ}=\overset{\rightarrow}{SP}+\overset{\rightarrow}{PQ}$
 
 > *Use the property that reversing the direction of the vector is the same as multiplying it by -1.*
 
-`table row cell stack S P with rightwards arrow on top end cell equals cell negative stack P S with rightwards arrow on top end cell row cell stack S Q with rightwards arrow on top end cell equals cell negative stack P S with rightwards arrow on top plus stack P Q with rightwards arrow on top end cell row cell stack S Q with rightwards arrow on top end cell equals cell stack P Q with rightwards arrow on top minus stack P S with rightwards arrow on top end cell end table`
+$\begin{gathered} \vec{SP} & = - \vec{PS} \\ \vec{SQ} & = - \vec{PS} + \vec{PQ} \\ \vec{SQ} & = \vec{PQ} - \vec{PS} \end{gathered}$
 
 > *Use the given vectors.*
 
-`stack bold italic S bold italic Q with bold rightwards harpoon with barb upwards on top bold equals bottom enclose bold a bold minus bottom enclose bold b` **[1]**
+`S Q with rightwards harpoon with barb upwards on top = bottom a - bottom b` **[1]**
 
 ### 27((b)) — 3 marks
 *Use the ratio to write **NQ** as a fraction of **SQ**.* 
@@ -395,7 +395,7 @@ $\overset{\rightarrow}{NQ}=\frac{2}{5}\times\overset{\rightarrow}{SQ}$
 
 > *Use the vector for *$\overset{\rightarrow}{SQ}.$
 
-`table row cell stack N Q with rightwards arrow on top end cell equals cell 2 over 5 cross times open parentheses bottom enclose straight a minus bottom enclose straight b close parentheses end cell row blank equals cell 2 over 5 bottom enclose straight a minus 2 over 5 bottom enclose straight b end cell end table`
+`| N Q -vec | = 2 / 5 x ( bottom a - bottom b ) | | _ = 2 / 5 bottom a - 2 / 5 bottom b | |`
 
 **[1]**
 
@@ -407,15 +407,15 @@ $\overset{\rightarrow}{NR}=\overset{\rightarrow}{NQ}+\overset{\rightarrow}{QR}$
 
 > *QR** is parallel and equal in length to **PS** therefore *$\overset{\rightarrow}{QR}=\overset{\rightarrow}{PS}=b.$* Substitute the expressions for the vectors.*
 
-`table row cell stack N R with rightwards arrow on top end cell equals cell 2 over 5 bottom enclose straight a minus 2 over 5 bottom enclose straight b plus bottom enclose straight b end cell end table`
+`| N R -vec | = 2 / 5 bottom a - 2 / 5 bottom b + bottom b | |`
 
 > *Simplify.*
 
-`table row cell stack N R with rightwards arrow on top end cell equals cell 2 over 5 bottom enclose straight a minus 2 over 5 bottom enclose straight b plus bottom enclose 5 over 5 straight b end enclose end cell end table`
+`| N R -vec | = 2 / 5 bottom a - 2 / 5 bottom b + bottom 5 / 5 b | |`
 
-`table row cell stack bold italic N bold italic R with bold rightwards arrow on top end cell bold equals cell bold 2 over bold 5 bottom enclose bold a bold plus bold 3 over bold 5 bottom enclose bold b end cell end table` **[1]**
+`| N R -vec | = 2 / 5 bottom a + 3 / 5 bottom b | |` **[1]**
 
-**Factorising is acceptable:** `table row cell stack N R with rightwards arrow on top end cell equals cell 1 fifth open parentheses 2 bottom enclose straight a plus 3 bottom enclose straight b close parentheses end cell end table`
+**Factorising is acceptable:** `| N R -vec | = 1 fifth ( 2 bottom a + 3 bottom b ) | |`
 
 ## Q10 — very_hard — 4 marks · exam-questions
 
@@ -426,25 +426,23 @@ $\overset{\rightarrow}{NR}=\overset{\rightarrow}{NQ}+\overset{\rightarrow}{QR}$
 
 > *Find the vector *$\overset{\rightarrow}{CA}$* by finding a path starting at **C** and ending at **A** using known vectors.*
 
-`table row cell stack C A with rightwards arrow on top end cell equals cell stack C O with rightwards arrow on top plus stack O A with rightwards arrow on top end cell row blank equals cell negative bottom enclose straight c plus bottom enclose straight a end cell row blank equals cell bottom enclose straight a minus bottom enclose straight c end cell end table`
+`| C A -vec | = C O -vec + O A -vec | | _ = - bottom c + bottom a | | _ = bottom a - bottom c | |`
 
 **[1]**
 
 > *X** is the midpoint of **AC** therefore *$\overset{\rightarrow}{CX}=\frac{1}{2}\times\overset{\rightarrow}{CA}$*.*
 
-`table row cell stack C X with rightwards arrow on top end cell equals cell 1 half open parentheses bottom enclose straight a minus bottom enclose straight c close parentheses end cell row blank equals cell 1 half bottom enclose straight a minus 1 half bottom enclose straight c end cell end table`
+`| C X -vec | = 1 half ( bottom a - bottom c ) | | _ = 1 half bottom a - 1 half bottom c | |`
 
 > *Find the vector *$\overset{\rightarrow}{CD}$* by finding a path starting at **C** and ending at **D** using known vectors.*
 
-`table row cell stack C D with rightwards arrow on top end cell equals cell stack C X with rightwards arrow on top plus stack X D with rightwards arrow on top end cell row blank equals cell 1 half bottom enclose straight a minus 1 half bottom enclose straight c plus 3 bottom enclose straight c minus 1 half bottom enclose straight a end cell row blank equals cell 5 over 2 bottom enclose straight c end cell end table`
+`| C D -vec | = C X -vec + X D -vec | | _ = 1 half bottom a - 1 half bottom c + 3 bottom c - 1 half bottom a | | _ = 5 / 2 bottom c | |`
 
 **[1]**
 
 > *Compare the vectors *$\overset{\rightarrow}{OC}$* and *$\overset{\rightarrow}{CD}$* and use the ratio given in the question to form an equation.*
 
-`stack O C with rightwards arrow on top equals bottom enclose straight c space & space stack C D with rightwards arrow on top equals 5 over 2 bottom enclose straight c
-therefore O C colon C D equals 1 colon 5 over 2
-therefore k colon 1 equals 1 colon 5 over 2`
+`O C -vec = bottom c & C D -vec = 5 / 2 bottom c therefore O C colon C D = 1 colon 5 / 2 therefore k colon 1 = 1 colon 5 / 2`
 
 **[1]**
 
@@ -454,7 +452,7 @@ $k:1=\frac{2}{5}:1$
 
 > *You can now compare the ratios to write down the value of **k**.*
 
-`table row bold italic k bold equals cell bold 2 over bold 5 end cell end table` **[1]**
+$\begin{array}{cc} k = & \frac{2}{ } 5\end{array}$ **[1]**
 
 **It is acceptable to write as a decimal: **$k=0.4$
 
@@ -463,15 +461,15 @@ $k:1=\frac{2}{5}:1$
 ### 24((a)) — 2 marks
 > *Method 1*
 
-> *The position vector of the midpoint of the line **AB** is found using the formula *`1 half open parentheses stack O A with rightwards arrow on top plus stack O B with rightwards arrow on top close parentheses`*.*
+> *The position vector of the midpoint of the line **AB** is found using the formula *$1 \frac{1}{2} ( \vec{OA} + \vec{OB} )$*.*
 
-`stack O M with rightwards arrow on top equals 1 half open parentheses 6 bottom enclose straight a plus 6 bottom enclose straight b close parentheses`
+`O M -vec = 1 half ( 6 bottom a + 6 bottom b )`
 
 **[1]**
 
 > *Simplify.*
 
-`stack bold italic O bold italic M with bold rightwards arrow on top bold equals bold 3 bottom enclose bold a bold plus bold 3 bottom enclose bold b` **[1]**
+`O M -vec = 3 bottom a + 3 bottom b` **[1]**
 
 > *Method 2*
 
@@ -481,25 +479,25 @@ $\overset{\rightarrow}{AB}=\overset{\rightarrow}{AO}+\overset{\rightarrow}{OB}$
 
 > *Use the property that reversing the direction of the vector is the same as multiplying it by -1.*
 
-`table row cell stack A O with rightwards arrow on top end cell equals cell negative stack O A with rightwards arrow on top end cell row cell stack A B with rightwards arrow on top end cell equals cell negative stack O A with rightwards arrow on top plus stack O B with rightwards arrow on top end cell row cell stack A B with rightwards arrow on top end cell equals cell stack O B with rightwards arrow on top minus stack O A with rightwards arrow on top end cell end table`
+$\begin{gathered} \vec{AO} & = - \vec{OA} \\ \vec{AB} & = - \vec{OA} + \vec{OB} \\ \vec{AB} & = \vec{OB} - \vec{OA} \end{gathered}$
 
 > *Use the given vectors.*
 
-`table row cell stack A B with rightwards arrow on top end cell equals cell 6 bottom enclose straight b minus 6 bottom enclose straight a end cell end table`
+`| A B -vec | = 6 bottom b - 6 bottom a | |`
 
 **[1]**
 
 > *M** is the midpoint of **AB** therefore *$\overset{\rightarrow}{AM}=\frac{1}{2}\times\overset{\rightarrow}{AB}$*.*
 
-`table row cell stack A M with rightwards arrow on top end cell equals cell 1 half cross times open parentheses 6 bottom enclose straight b minus 6 bottom enclose straight a close parentheses end cell row blank equals cell 3 bottom enclose straight b minus 3 bottom enclose straight a end cell end table`
+`| A M -vec | = 1 half x ( 6 bottom b - 6 bottom a ) | | _ = 3 bottom b - 3 bottom a | |`
 
 > *Find a path from **O** to **M**.*
 
-`table row cell stack O M with rightwards arrow on top end cell equals cell stack O A with rightwards arrow on top plus stack A M with rightwards arrow on top end cell row blank equals cell 6 bottom enclose straight a plus 3 bottom enclose straight b minus 3 bottom enclose straight a end cell end table`
+`| O M -vec | = O A -vec + A M -vec | | _ = 6 bottom a + 3 bottom b - 3 bottom a | |`
 
 > *Simplify.*
 
-** **`stack bold italic O bold italic M with bold rightwards arrow on top bold equals bold 3 bottom enclose bold a bold plus bold 3 bottom enclose bold b`** [1]**
+** **`O M -vec = 3 bottom a + 3 bottom b`** [1]**
 
 ### 24((b)) — 4 marks
 > *To show that three points form a straight line you need to choose two pairs of points and show that the two vectors between these points are parallel. As there are three points, the two vectors will share a common point and therefore form a straight line.*
@@ -510,7 +508,7 @@ $\overset{\rightarrow}{AN}=\overset{\rightarrow}{AO}+\overset{\rightarrow}{ON}$
 
 > *N** is the midpoint of **OB** therefore *$\overset{\rightarrow}{ON}=\frac{1}{2}\times\overset{\rightarrow}{OB}.$* Reversing the direction of a vector is the same as multiplying the vector by -1, therefore *$\overset{\rightarrow}{AO}=-\overset{\rightarrow}{OA}.$
 
-`table row cell stack A N with rightwards arrow on top end cell equals cell negative stack O A with rightwards arrow on top plus 1 half cross times stack O B with rightwards arrow on top end cell row blank equals cell negative 6 bottom enclose straight a plus 1 half cross times 6 bottom enclose straight b end cell row blank equals cell negative 6 bottom enclose straight a plus 3 bottom enclose straight b end cell row blank equals cell 3 open parentheses negative 2 bottom enclose straight a plus bottom enclose straight b close parentheses end cell end table`
+`| A N -vec | = - O A -vec + 1 half x O B -vec | | _ = - 6 bottom a + 1 half x 6 bottom b | | _ = - 6 bottom a + 3 bottom b | | _ = 3 ( - 2 bottom a + bottom b ) | |`
 
 **[1]**
 
@@ -520,19 +518,19 @@ $\overset{\rightarrow}{AG}=\overset{\rightarrow}{AO}+\overset{\rightarrow}{OG}$
 
 > *G** splits **OM **in the ratio 2:1 therefore **OG** is *$\frac{2}{2+1}$* of the length **OM**.*
 
-`table row cell stack O G with rightwards arrow on top end cell equals cell 2 over 3 cross times stack O M with rightwards arrow on top end cell row blank equals cell 2 over 3 open parentheses 3 bottom enclose straight a plus 3 bottom enclose straight b close parentheses end cell row blank equals cell 2 bottom enclose straight a plus 2 bottom enclose straight b end cell end table`
+`| O G -vec | = 2 / 3 x O M -vec | | _ = 2 / 3 ( 3 bottom a + 3 bottom b ) | | _ = 2 bottom a + 2 bottom b | |`
 
 **[1]**
 
 > *Substitute in to the find vector *$\overset{\rightarrow}{AG}$*.*
 
-`table attributes columnalign right center left columnspacing 0px end attributes row cell stack A G with rightwards arrow on top end cell equals cell negative stack O A with rightwards arrow on top plus stack O G with rightwards arrow on top end cell row blank equals cell negative 6 bottom enclose straight a plus 2 bottom enclose straight a plus 2 bottom enclose straight b end cell row blank equals cell negative 4 bottom enclose straight a plus 2 bottom enclose straight b end cell row blank equals cell 2 open parentheses negative 2 bottom enclose straight a plus bottom enclose straight b close parentheses end cell end table`
+`table columnalign right center left columnspacing 0px end | A G -vec | = - O A -vec + O G -vec | | _ = - 6 bottom a + 2 bottom a + 2 bottom b | | _ = - 4 bottom a + 2 bottom b | | _ = 2 ( - 2 bottom a + bottom b ) | |`
 
 **[1]**
 
 > *Two vectors are parallel if they are both scalar multiples of a common vector.*
 
-`table row cell stack A N with rightwards arrow on top end cell equals cell 3 open parentheses negative 2 bottom enclose straight a plus bottom enclose straight b close parentheses space & space table row blank blank cell stack A G with rightwards arrow on top end cell end table table row blank equals blank end table table row blank blank 2 end table table row blank blank cell open parentheses negative 2 bottom enclose straight a plus bottom enclose straight b close parentheses end cell end table table row blank blank space end table table row blank blank space end table end cell row blank blank cell therefore A N space & space A G space are space parallel end cell end table`
+`| A N -vec | = 3 ( - 2 bottom a + bottom b ) & | _ _ A G -vec | | | _ = _ | | _ _ 2 | | _ _ ( - 2 bottom a + bottom b ) | | | _ _ | | _ _ | | | _ _ therefore A N & A G are parallel | |`
 
 **AGN**** is a straight line as ****AN**** and ****AG**** are ****parallel**** lines that have a ****common point**** ****A**** ****[1]**
 
@@ -549,11 +547,11 @@ $\overset{\rightarrow}{MN}=\overset{\rightarrow}{MO}+\overset{\rightarrow}{ON}$
 
 > *Use the property that reversing the direction of the vector is the same as multiplying it by -1.*
 
-`table row cell stack M O with rightwards arrow on top end cell equals cell negative stack O M with rightwards arrow on top end cell row cell stack M N with rightwards arrow on top end cell equals cell negative stack O M with rightwards arrow on top plus stack O N with rightwards arrow on top end cell row cell stack M N with rightwards arrow on top end cell equals cell stack O N with rightwards arrow on top minus stack O M with rightwards arrow on top end cell end table`
+$\begin{gathered} \vec{MO} & = - \vec{OM} \\ \vec{MN} & = - \vec{OM} + \vec{ON} \\ \vec{MN} & = \vec{ON} - \vec{OM} \end{gathered}$
 
 > *Use the given vectors.*
 
-`table row cell stack M N with rightwards arrow on top end cell equals cell bottom enclose straight n minus bottom enclose straight m end cell end table`
+`| M N -vec | = bottom n - bottom m | |`
 
 > *Find the vector *$\overset{\rightarrow}{AB}$* by finding a path from **A** to **B**.*
 
@@ -561,13 +559,13 @@ $\overset{\rightarrow}{AB}=\overset{\rightarrow}{AO}+\overset{\rightarrow}{OB}\,
 
 > *M and N are midpoints therefore *$\overset{\rightarrow}{OA}=2\overset{\rightarrow}{OM}$* and *$\overset{\rightarrow}{OB}=2\overset{\rightarrow}{ON}$*.*
 
-`table row cell stack A B with rightwards arrow on top end cell equals cell 2 stack O N with rightwards arrow on top minus 2 stack O M with rightwards arrow on top end cell row blank equals cell 2 bottom enclose straight n minus 2 bottom enclose straight m end cell end table`
+`| A B -vec | = 2 O N -vec - 2 O M -vec | | _ = 2 bottom n - 2 bottom m | |`
 
 **[1]**
 
 > *Factorise.*
 
-`table row cell stack A B with rightwards arrow on top end cell equals cell 2 open parentheses bottom enclose straight n minus bottom enclose straight m close parentheses end cell end table`
+`| A B -vec | = 2 ( bottom n - bottom m ) | |`
 
 $\overset{\rightarrow}{AB}=2\overset{\rightarrow}{MN}$* ***therefore ****AB**** is parallel to ****MN ****[1]**
 
@@ -582,45 +580,45 @@ $\overset{\rightarrow}{MN}=\overset{\rightarrow}{MO}+\overset{\rightarrow}{OA}+\
 
 > *M** is the midpoint of **OB** therefore *$\overset{\rightarrow}{OM}=\frac{1}{2}\times\overset{\rightarrow}{OB}=\frac{1}{2}b$*. **AN** = 2**OA** therefore *$\overset{\rightarrow}{AN}=2\times\overset{\rightarrow}{OA}=2a$*.*
 
-`table row cell stack M N with rightwards arrow on top end cell equals cell negative 1 half bottom enclose straight b plus bottom enclose straight a plus 2 bottom enclose straight a end cell row blank equals cell 3 bottom enclose straight a minus 1 half bottom enclose straight b end cell end table`
+`| M N -vec | = - 1 half bottom b + bottom a + 2 bottom a | | _ = 3 bottom a - 1 half bottom b | |`
 
 **[1]**
 
 > *Find the vector *$\overset{\rightarrow}{AB}$* by finding a path between **A** and **B**.*
 
-`table row cell stack A B with rightwards arrow on top end cell equals cell stack A O with rightwards arrow on top plus stack O B with rightwards arrow on top end cell row blank equals cell negative bottom enclose straight a plus bottom enclose straight b end cell row blank equals cell bottom enclose straight b minus bottom enclose straight a end cell end table`
+`| A B -vec | = A O -vec + O B -vec | | _ = - bottom a + bottom b | | _ = bottom b - bottom a | |`
 
 **[1]**
 
 > *Find the vector *$\overset{\rightarrow}{AP}$* using *$\overset{\rightarrow}{AP}=k\overset{\rightarrow}{AB}$
 
-`table row cell stack A P with rightwards arrow on top end cell equals cell k open parentheses bottom enclose straight b minus bottom enclose straight a close parentheses end cell row blank equals cell k bottom enclose straight b minus k bottom enclose straight a end cell end table`
+`| A P -vec | = k ( bottom b - bottom a ) | | _ = k bottom b - k bottom a | |`
 
 > *Find the vector *$\overset{\rightarrow}{PN}$* by finding a path between **P** and **N**.*
 
-`table row cell stack P N with rightwards arrow on top end cell equals cell stack P A with rightwards arrow on top plus stack A N with rightwards arrow on top end cell row blank equals cell negative open parentheses k bottom enclose straight b minus k bottom enclose straight a close parentheses plus 2 bottom enclose straight a end cell row blank equals cell negative k bottom enclose straight b plus k bottom enclose straight a plus 2 bottom enclose straight a end cell row blank equals cell open parentheses k plus 2 close parentheses bottom enclose straight a minus k bottom enclose straight b end cell end table`
+`| P N -vec | = P A -vec + A N -vec | | _ = - ( k bottom b - k bottom a ) + 2 bottom a | | _ = - k bottom b + k bottom a + 2 bottom a | | _ = ( k + 2 ) bottom a - k bottom b | |`
 
 **[1]**
 
 > *Two vectors are parallel if one is a scalar multiple of the other. **PN** and **MN **are part of the same line so are parallel therefore their vectors are scalar multiples. Multiply one vector by a constant (call it **q**) and make it equal to the other vector.*
 
-`table row cell stack P N with rightwards arrow on top end cell equals cell q cross times stack M N with rightwards arrow on top end cell row blank blank cell therefore open parentheses k plus 2 close parentheses bottom enclose straight a minus k bottom enclose straight b equals q open parentheses 3 bottom enclose straight a minus 1 half bottom enclose straight b close parentheses end cell end table`
+`| P N -vec | = q x M N -vec | | _ _ therefore ( k + 2 ) bottom a - k bottom b = q ( 3 bottom a - 1 half bottom b ) | |`
 
 > *The coefficients of **a** for both vectors must be equal. Also the coefficients for **b** for both vectors must be equal. Form two equations.*
 
-`circle enclose 1 space k plus 2 equals 3 q space
-circle enclose 2 space minus k equals negative 1 half q`
+$\textcircled{1} k + 2 = 3 q 
+\textcircled{2} - k = - 1 \frac{1}{2} q$
 
 **[1]**
 
 > *Multiply both sides of the second equation by -6 so that the coefficient of **q** is the same for both equations.*
 
-`circle enclose 1 space k plus 2 equals 3 q space
-circle enclose 2 space 6 k equals 3 q`
+$\textcircled{1} k + 2 = 3 q 
+\textcircled{2} 6 k = 3 q$
 
 > *As the right hand sides of both equations are equal, the left hand sides must also be equal. Form an equation and solve it to find **k**.*
 
-`table attributes columnalign right center left columnspacing 0px end attributes row cell k plus 2 end cell equals cell 6 k end cell row 2 equals cell 5 k end cell row cell 2 over 5 end cell equals k end table`
+$\begin{array}{rcl} k + 2 & = 6 k \\ 2 = 5 k \\ \frac{2}{5} & = k \end{array}$
 
 $k=\frac{2}{5}$** ****[1]**
 
@@ -635,11 +633,11 @@ $\overset{\rightarrow}{AB}=\overset{\rightarrow}{AC}+\overset{\rightarrow}{CB}$
 
 > *Use the property that reversing the direction of the vector is the same as multiplying it by -1.*
 
-`table row cell stack A C with rightwards arrow on top end cell equals cell negative stack C A with rightwards arrow on top end cell row cell stack A B with rightwards arrow on top end cell equals cell negative stack C A with rightwards arrow on top plus stack C B with rightwards arrow on top end cell row cell stack A B with rightwards arrow on top end cell equals cell stack C B with rightwards arrow on top minus stack C A with rightwards arrow on top end cell end table`
+$\begin{gathered} \vec{AC} & = - \vec{CA} \\ \vec{AB} & = - \vec{CA} + \vec{CB} \\ \vec{AB} & = \vec{CB} - \vec{CA} \end{gathered}$
 
 > *Use the given vectors.*
 
-`stack A B with rightwards harpoon with barb upwards on top equals 6 bottom enclose straight b minus 3 bottom enclose straight a`
+`A B with rightwards harpoon with barb upwards on top = 6 bottom b - 3 bottom a`
 
 **[1]**
 
@@ -651,7 +649,7 @@ $\overset{\rightarrow}{AX}=\frac{1}{3}\times\overset{\rightarrow}{AB}$
 
 > *Use the vector for *$\overset{\rightarrow}{AB}.$
 
-`table row cell stack A X with rightwards arrow on top end cell equals cell 1 third cross times open parentheses 6 bottom enclose straight b minus 3 bottom enclose straight a close parentheses end cell row blank equals cell 2 bottom enclose straight b minus bottom enclose straight a end cell end table`
+`| A X -vec | = 1 third x ( 6 bottom b - 3 bottom a ) | | _ = 2 bottom b - bottom a | |`
 
 > *Find the vector *$\overset{\rightarrow}{CX}$* by finding a path starting at **C** and ending at **X**.*
 
@@ -659,13 +657,13 @@ $\overset{\rightarrow}{CX}=\overset{\rightarrow}{CA}+\overset{\rightarrow}{AX}$
 
 > *Substitute the expressions for the vectors.*
 
-`table row cell stack C X with rightwards arrow on top end cell equals cell bottom enclose 3 straight a end enclose plus 2 bottom enclose straight b minus bottom enclose straight a end cell row blank equals cell 2 bottom enclose straight a plus 2 bottom enclose straight b end cell end table`
+`| C X -vec | = bottom 3 a + 2 bottom b - bottom a | | _ = 2 bottom a + 2 bottom b | |`
 
 **[1]**
 
 > *Find the vector *$\overset{\rightarrow}{CY}$* by finding a path from **C** to **Y**.*
 
-`table row cell stack C Y with rightwards arrow on top end cell equals cell stack C B with rightwards arrow on top plus stack B Y with rightwards arrow on top end cell row blank equals cell 6 bottom enclose straight b plus 5 bottom enclose straight a minus bottom enclose straight b end cell row blank equals cell 5 bottom enclose straight b plus 5 bottom enclose straight a end cell end table`
+`| C Y -vec | = C B -vec + B Y -vec | | _ = 6 bottom b + 5 bottom a - bottom b | | _ = 5 bottom b + 5 bottom a | |`
 
 **[1]**
 
@@ -680,11 +678,11 @@ $\overset{\rightarrow}{AB}=\overset{\rightarrow}{AO}+\overset{\rightarrow}{OB}$
 
 > *Use the property that reversing the direction of the vector is the same as multiplying it by -1.*
 
-`table row cell stack A O with rightwards arrow on top end cell equals cell negative stack O A with rightwards arrow on top end cell row cell stack A B with rightwards arrow on top end cell equals cell negative stack O A with rightwards arrow on top plus stack O B with rightwards arrow on top end cell row cell stack A B with rightwards arrow on top end cell equals cell stack O B with rightwards arrow on top minus stack O A with rightwards arrow on top end cell end table`
+$\begin{gathered} \vec{AO} & = - \vec{OA} \\ \vec{AB} & = - \vec{OA} + \vec{OB} \\ \vec{AB} & = \vec{OB} - \vec{OA} \end{gathered}$
 
 > *Use the given vectors.*
 
-`stack bold italic A bold italic B with bold rightwards harpoon with barb upwards on top bold equals bold 6 bottom enclose bold b bold minus bold 3 bottom enclose bold a` **[1]**
+`A B with rightwards harpoon with barb upwards on top = 6 bottom b - 3 bottom a` **[1]**
 
 ### 26((b)) — 4 marks
 *Use the ratio to write **AX** as a fraction of **AB**.* *AX** : **XB**  = 1 : 2 therefore **AX** is *$\frac{1}{1+2}$* of the length **AB**.*
@@ -695,7 +693,7 @@ $\overset{\rightarrow}{AX}=\frac{1}{3}\times\overset{\rightarrow}{AB}$
 
 > *Use the vector for *$\overset{\rightarrow}{AB}.$
 
-`table row cell stack A X with rightwards arrow on top end cell equals cell 1 third cross times open parentheses 6 bottom enclose straight b minus 3 bottom enclose straight a close parentheses end cell row blank equals cell 2 bottom enclose straight b minus bottom enclose straight a end cell end table`
+`| A X -vec | = 1 third x ( 6 bottom b - 3 bottom a ) | | _ = 2 bottom b - bottom a | |`
 
 > *Find the vector *$\overset{\rightarrow}{OX}$* by finding a path starting at **O** and ending at **X**.*
 
@@ -703,13 +701,13 @@ $\overset{\rightarrow}{OX}=\overset{\rightarrow}{OA}+\overset{\rightarrow}{AX}$
 
 > *Substitute the expressions for the vectors.*
 
-`table row cell stack O X with rightwards arrow on top end cell equals cell bottom enclose 3 straight a end enclose plus 2 bottom enclose straight b minus bottom enclose straight a end cell row blank equals cell 2 bottom enclose straight a plus 2 bottom enclose straight b end cell end table`
+`| O X -vec | = bottom 3 a + 2 bottom b - bottom a | | _ = 2 bottom a + 2 bottom b | |`
 
 **[1]**
 
 > *Find the vector *$\overset{\rightarrow}{OY}$* by finding a path from **O** to **Y**.*
 
-`table row cell stack O Y with rightwards arrow on top end cell equals cell stack O B with rightwards arrow on top plus stack B Y with rightwards arrow on top end cell row blank equals cell 6 bottom enclose straight b plus 5 bottom enclose straight a minus bottom enclose straight b end cell row blank equals cell 5 bottom enclose straight b plus 5 bottom enclose straight a end cell end table`
+`| O Y -vec | = O B -vec + B Y -vec | | _ = 6 bottom b + 5 bottom a - bottom b | | _ = 5 bottom b + 5 bottom a | |`
 
 **[1]**
 
@@ -722,38 +720,38 @@ $\overset{\rightarrow}{OX}=\overset{\rightarrow}{OA}+\overset{\rightarrow}{AX}$
 
 > *Find the vector *$\overset{\rightarrow}{AB}$* by finding a path between **A** and **B**.*
 
-`table row cell stack A B with rightwards arrow on top end cell equals cell stack A O with rightwards arrow on top plus stack O B with rightwards arrow on top end cell row blank equals cell negative 6 bottom enclose straight a plus 6 bottom enclose straight b end cell row blank equals cell 6 bottom enclose straight b minus 6 bottom enclose straight a end cell end table`
+`| A B -vec | = A O -vec + O B -vec | | _ = - 6 bottom a + 6 bottom b | | _ = 6 bottom b - 6 bottom a | |`
 
 **[1]**
 
 > *Find the vector *$\overset{\rightarrow}{MC}$* by finding a path between **M** and **C**.*
 
-`table row cell stack M C with rightwards arrow on top end cell equals cell stack M A with rightwards arrow on top plus stack A B with rightwards arrow on top plus stack B C with rightwards arrow on top end cell end table`
+$\begin{gathered} \vec{MC} & = \vec{MA} + \vec{AB} + \vec{BC} \end{gathered}$
 
 > *M** is the midpoint of **OA** therefore *$\overset{\rightarrow}{MA}=\frac{1}{2}\times\overset{\rightarrow}{OA}$*.*
 
-`stack M A with rightwards arrow on top equals 1 half cross times 6 bottom enclose straight a equals 3 bottom enclose straight a`
+`M A -vec = 1 half x 6 bottom a = 3 bottom a`
 
 **[1]**
 
 > *B** is the midpoint of **AC** therefore *$\overset{\rightarrow}{AB}=\overset{\rightarrow}{BC}=6b-6a$*.*
 
-`table row cell stack M C with rightwards arrow on top end cell equals cell 3 bottom enclose straight a plus open parentheses 6 bottom enclose straight b minus 6 bottom enclose straight a close parentheses plus open parentheses 6 bottom enclose straight b minus 6 bottom enclose straight a close parentheses end cell row blank equals cell 12 bottom enclose straight b minus 9 bottom enclose straight a end cell end table`
+`| M C -vec | = 3 bottom a + ( 6 bottom b - 6 bottom a ) + ( 6 bottom b - 6 bottom a ) | | _ = 12 bottom b - 9 bottom a | |`
 
 > *Find the vector *$\overset{\rightarrow}{MN}$* by finding a path between **M** and **N**.*
 
-`table row cell stack M N with rightwards arrow on top end cell equals cell stack M O with rightwards arrow on top plus stack O N with rightwards arrow on top end cell row blank equals cell negative 3 bottom enclose straight a plus k bottom enclose straight b end cell row blank equals cell k bottom enclose straight b minus 3 bottom enclose straight a end cell end table`
+`| M N -vec | = M O -vec + O N -vec | | _ = - 3 bottom a + k bottom b | | _ = k bottom b - 3 bottom a | |`
 
 **[1]**
 
 > *Two vectors are parallel if one is a scalar multiple of the other. **MC** and **MN** are on the same straight line so must be scalar multiples. Multiply one vector by a constant (call it **q**) and make it equal to the other vector.*
 
-`table row cell stack M C with rightwards arrow on top end cell equals cell q cross times stack M N with rightwards arrow on top end cell row cell therefore 12 bottom enclose straight b minus 9 bottom enclose straight a end cell equals cell q open parentheses k bottom enclose straight b minus 3 bottom enclose straight a close parentheses end cell end table`
+`| M C -vec | = q x M N -vec | | therefore 12 bottom b - 9 bottom a | = q ( k bottom b - 3 bottom a ) | |`
 
 > *The coefficients of **a** for both vectors must be equal. Also the coefficients for **b** for both vectors must be equal. Form two equations.*
 
-`circle enclose 1 space 12 equals q k space
-circle enclose 2 space minus 9 equals negative 3 q`
+$\textcircled{1} 12 = q k 
+\textcircled{2} - 9 = - 3 q$
 
 **[1]**
 
@@ -763,7 +761,7 @@ $q=3$
 
 > *Substitute the value of **q** into the first equation to find **k**.*
 
-`table row 12 equals cell 3 k end cell row cell 12 over 3 end cell equals k end table`
+$\begin{gathered} 12 = 3 k \\ \frac{12}{3} & = k \end{gathered}$
 
 $k=4$** ****[1]**
 
@@ -776,11 +774,11 @@ $\overset{\rightarrow}{AB}=\overset{\rightarrow}{AO}+\overset{\rightarrow}{OB}$
 
 > *Use the property that reversing the direction of the vector is the same as multiplying it by -1.*
 
-`table row cell stack A O with rightwards arrow on top end cell equals cell negative stack O A with rightwards arrow on top end cell row cell stack A B with rightwards arrow on top end cell equals cell negative stack O A with rightwards arrow on top plus stack O B with rightwards arrow on top end cell row cell stack A B with rightwards arrow on top end cell equals cell stack O B with rightwards arrow on top minus stack O A with rightwards arrow on top end cell end table`
+$\begin{gathered} \vec{AO} & = - \vec{OA} \\ \vec{AB} & = - \vec{OA} + \vec{OB} \\ \vec{AB} & = \vec{OB} - \vec{OA} \end{gathered}$
 
 > *Use the given vectors.*
 
-`table attributes columnalign right center left columnspacing 0px end attributes row cell stack A B with rightwards arrow on top end cell equals cell 2 bottom enclose straight b minus 2 bottom enclose straight a end cell end table`
+`table columnalign right center left columnspacing 0px end | A B -vec | = 2 bottom b - 2 bottom a | |`
 
 **[1]**
 
@@ -790,7 +788,7 @@ $\overset{\rightarrow}{AP}=\frac{5}{8}\times\overset{\rightarrow}{AB}$
 
 > *Use the vector for *$\overset{\rightarrow}{AB}.$
 
-`table row cell stack A P with rightwards arrow on top end cell equals cell 5 over 8 cross times open parentheses 2 bottom enclose straight b minus 2 bottom enclose straight a close parentheses end cell row blank equals cell 5 over 4 bottom enclose straight b minus 5 over 4 bottom enclose straight a end cell end table`
+`| A P -vec | = 5 / 8 x ( 2 bottom b - 2 bottom a ) | | _ = 5 / 4 bottom b - 5 / 4 bottom a | |`
 
 **[1]**
 
@@ -802,17 +800,17 @@ $\overset{\rightarrow}{OP}=\overset{\rightarrow}{OA}+\overset{\rightarrow}{AP}$
 
 > *Substitute the expressions for the vectors.*
 
-`table row cell stack O P with rightwards arrow on top end cell equals cell 2 bottom enclose straight a plus 5 over 4 bottom enclose straight b minus 5 over 4 bottom enclose straight a end cell row blank equals cell 2 bottom enclose straight a minus 5 over 4 bottom enclose straight a plus 5 over 4 bottom enclose straight b end cell end table`
+`| O P -vec | = 2 bottom a + 5 / 4 bottom b - 5 / 4 bottom a | | _ = 2 bottom a - 5 / 4 bottom a + 5 / 4 bottom b | |`
 
 > *Simplify.*
 
-`table row cell stack O P with rightwards arrow on top end cell equals cell 3 over 4 bottom enclose straight a plus 5 over 4 bottom enclose straight b end cell end table`
+`| O P -vec | = 3 / 4 bottom a + 5 / 4 bottom b | |`
 
 > *Factorise out the *$\frac{1}{4}.$
 
-`table row cell stack O P with rightwards arrow on top end cell equals cell 1 fourth open parentheses 3 bottom enclose straight a plus 5 bottom enclose straight b close parentheses end cell end table`
+`| O P -vec | = 1 fourth ( 3 bottom a + 5 bottom b ) | |`
 
-`table row bold italic k bold equals cell bold 1 over bold 4 end cell end table` **[1]**
+$\begin{array}{cc} k = & \frac{1}{ } 4\end{array}$ **[1]**
 
 ## Q18 — medium — 2 marks · exam-questions
 
@@ -827,7 +825,7 @@ $\overset{\rightarrow}{AC}=\overset{\rightarrow}{AB}-\overset{\rightarrow}{CB}$ 
 
 *Substitute the vectors from the question into the line above*
 
-`table row cell stack A C with rightwards arrow on top end cell equals cell open parentheses table row 5 row 3 end table close parentheses minus open parentheses table row cell negative 2 end cell row 4 end table close parentheses end cell row blank equals cell open parentheses table row cell 5 plus 2 end cell row cell 3 minus 4 end cell end table close parentheses end cell end table`
+$\begin{gathered} \vec{AC} & = ( \begin{gathered} 5 \\ 3 \end{gathered} ) - ( \begin{gathered} - 2 \\ 4 \end{gathered} ) \\ = ( \begin{gathered} 5 + 2 \\ 3 - 4 \end{gathered} ) \end{gathered}$
 
 **[1]**
 
@@ -838,65 +836,63 @@ $\overset{\rightarrow}{AC}=\overset{\rightarrow}{AB}-\overset{\rightarrow}{CB}$ 
 ### 20((a)) — 2 marks
 > *Find the vector *$\overset{\rightarrow}{FE}$* by finding a path starting at **F** and ending at **E** using known vectors.*
 
-`table row cell stack F E with rightwards arrow on top end cell equals cell stack F C with rightwards arrow on top plus stack C D with rightwards arrow on top plus stack D E with rightwards arrow on top end cell row blank equals cell open parentheses bottom enclose straight a minus bottom enclose straight b close parentheses plus bottom enclose straight a plus bottom enclose straight b end cell end table`
+`| F E -vec | = F C -vec + C D -vec + D E -vec | | _ = ( bottom a - bottom b ) + bottom a + bottom b | |`
 
 **[1]**
 
 > *Simplify.*
 
-`table row cell stack bold italic F bold italic E with bold rightwards arrow on top end cell bold equals cell bold 2 bottom enclose bold a end cell end table`* ***[1]**
+`| F E -vec | = 2 bottom a | |`* ***[1]**
 
 ### 20((b)) — 4 marks
 > *Vectors between any two points on a line must be parallel to each other. Find any two of the vectors: *$\overset{\rightarrow}{CE},\overset{\rightarrow}{CX},\overset{\rightarrow}{XE}$*.*
 
 > *Find the vector *$\overset{\rightarrow}{CE}$* by finding a path between **C** and **E**.*
 
-`table row cell stack C E with rightwards arrow on top end cell equals cell stack C D with rightwards arrow on top plus stack D E with rightwards arrow on top end cell row blank equals cell bottom enclose straight a plus bottom enclose straight b end cell end table`
+`| C E -vec | = C D -vec + D E -vec | | _ = bottom a + bottom b | |`
 
 **[1]**
 
 > *Find the vector *$\overset{\rightarrow}{FM}$* by finding a path between **F** and **M**.*
 
-`table row cell stack F M with rightwards arrow on top end cell equals cell stack F E with rightwards arrow on top plus stack E M with rightwards arrow on top end cell end table`
+$\begin{gathered} \vec{FM} & = \vec{FE} + \vec{EM} \end{gathered}$
 
 > *M** is the midpoint of **DE** therefore *$\overset{\rightarrow}{EM}=\frac{1}{2}\times\overset{\rightarrow}{ED}=\frac{1}{2}\times-\overset{\rightarrow}{DE}$*.*
 
-`stack F M with rightwards arrow on top equals 2 bottom enclose straight a minus 1 half bottom enclose straight b`
+`F M -vec = 2 bottom a - 1 half bottom b`
 
 *Use the ratio to write **XM** as a fraction of **FM**.* *FX** : **XM**  = **n** : 1 therefore **XM** is *$\frac{1}{n+1}$* of the length **FM**.*
 
-`table row cell stack X M with rightwards arrow on top end cell equals cell fraction numerator 1 over denominator n plus 1 end fraction cross times stack F M with rightwards arrow on top end cell row blank equals cell fraction numerator 1 over denominator n plus 1 end fraction open parentheses 2 bottom enclose straight a minus 1 half bottom enclose straight b close parentheses end cell row blank equals cell fraction numerator 2 over denominator n plus 1 end fraction bottom enclose straight a minus fraction numerator 1 over denominator 2 open parentheses n plus 1 close parentheses end fraction bottom enclose straight b end cell end table`
+`| X M -vec | = (1)/(n + 1) x F M -vec | | _ = (1)/(n + 1) ( 2 bottom a - 1 half bottom b ) | | _ = (2)/(n + 1) bottom a - (1)/(2 ( n + 1 )) bottom b | |`
 
 > *Find the vector *$\overset{\rightarrow}{XE}$* by finding a path between **X** and **E**.*
 
-`table row cell stack X E with rightwards arrow on top end cell equals cell stack X M with rightwards arrow on top plus stack M E with rightwards arrow on top end cell row blank equals cell open parentheses fraction numerator 2 over denominator n plus 1 end fraction bottom enclose straight a minus fraction numerator 1 over denominator 2 open parentheses n plus 1 close parentheses end fraction bottom enclose straight b close parentheses plus 1 half bottom enclose straight b end cell row blank equals cell fraction numerator 2 over denominator n plus 1 end fraction bottom enclose straight a plus open parentheses 1 half minus fraction numerator 1 over denominator 2 open parentheses n plus 1 close parentheses end fraction close parentheses bottom enclose straight b end cell end table`
+`| X E -vec | = X M -vec + M E -vec | | _ = ( (2)/(n + 1) bottom a - (1)/(2 ( n + 1 )) bottom b ) + 1 half bottom b | | _ = (2)/(n + 1) bottom a + ( 1 half - (1)/(2 ( n + 1 )) ) bottom b | |`
 
 > *Add the fractions by writing each as an equivalent fraction with a common denominator.*
 
-`table row cell stack X E with rightwards arrow on top end cell equals cell fraction numerator 2 over denominator n plus 1 end fraction bottom enclose straight a plus open parentheses fraction numerator n plus 1 over denominator 2 open parentheses n plus 1 close parentheses end fraction minus fraction numerator 1 over denominator 2 open parentheses n plus 1 close parentheses end fraction close parentheses bottom enclose straight b end cell row blank equals cell fraction numerator 2 over denominator n plus 1 end fraction bottom enclose straight a plus fraction numerator n plus 1 minus 1 over denominator 2 open parentheses n plus 1 close parentheses end fraction bottom enclose straight b end cell row blank equals cell fraction numerator 2 over denominator n plus 1 end fraction bottom enclose straight a plus fraction numerator n over denominator 2 open parentheses n plus 1 close parentheses end fraction bottom enclose straight b end cell end table`
+`| X E -vec | = (2)/(n + 1) bottom a + ( (n + 1)/(2 ( n + 1 )) - (1)/(2 ( n + 1 )) ) bottom b | | _ = (2)/(n + 1) bottom a + (n + 1 - 1)/(2 ( n + 1 )) bottom b | | _ = (2)/(n + 1) bottom a + (n)/(2 ( n + 1 )) bottom b | |`
 
 **[1]**
 
 > *Two vectors are parallel if one is a scalar multiple of the other. **CE** and **XE** are on the same straight line so must be scalar multiples. Multiply one vector by a constant (call it **q**) and make it equal to the other vector.*
 
-`stack X E with rightwards arrow on top equals q cross times stack C E with rightwards arrow on top
-therefore fraction numerator 2 over denominator n plus 1 end fraction bottom enclose straight a plus fraction numerator n over denominator 2 open parentheses n plus 1 close parentheses end fraction bottom enclose straight b equals q open parentheses bottom enclose straight a plus bottom enclose straight b close parentheses`
+`X E -vec = q x C E -vec therefore (2)/(n + 1) bottom a + (n)/(2 ( n + 1 )) bottom b = q ( bottom a + bottom b )`
 
 > *The coefficients of **a** for both vectors must be equal. Also the coefficients for **b** for both vectors must be equal. Form two equations.*
 
-`circle enclose 1 space fraction numerator 2 over denominator n plus 1 end fraction equals q
-circle enclose 2 space fraction numerator n over denominator 2 open parentheses n plus 1 close parentheses end fraction equals q
-`
+$\textcircled{1} \frac{2}{n + 1} = q
+\textcircled{2} \frac{n}{2 ( n + 1 )} = q$
 
 **[1]**
 
 > *As the right hand sides of both equations are equal, the left hand sides must also be equal. Form an equation and solve it to find **n**.*
 
-`fraction numerator 2 over denominator n plus 1 end fraction equals fraction numerator n over denominator 2 open parentheses n plus 1 close parentheses end fraction`
+$\frac{2}{n + 1} = \frac{n}{2 ( n + 1 )}$
 
 > *Multiply the numerator and denominator of the first fraction by 2 so that the denominators are the same for both fractions. Once the denominators are it, then the numerators must be equal.*
 
-`table attributes columnalign right center left columnspacing 0px end attributes row cell fraction numerator 4 over denominator up diagonal strike 2 open parentheses n plus 1 close parentheses end strike end fraction end cell equals cell fraction numerator n over denominator up diagonal strike 2 open parentheses n plus 1 close parentheses end strike end fraction end cell row 4 equals n end table`
+$\begin{array}{rcl} \frac{4}{ \cancel{2 ( n + 1 )} } & = \frac{n}{ \cancel{2 ( n + 1 )} } \\ 4 = n \end{array}$
 
 $n=4$** ****[1]**
 
@@ -905,23 +901,23 @@ $n=4$** ****[1]**
 ### 23() — 3 marks
 *Find *$\overset{\rightarrow}{PM}$*, for example by going from **P** to **A** to** B **to **M* *It is useful to use that *$\overset{\rightarrow}{BC}=-4a+2b$ * *
 
-`table row cell stack P M with rightwards arrow on top end cell equals cell stack P A with rightwards arrow on top plus stack A B with rightwards arrow on top plus stack B M with rightwards arrow on top end cell row blank equals cell open parentheses negative stack A P with rightwards arrow on top close parentheses plus stack A B with rightwards arrow on top plus 1 half stack B C with rightwards arrow on top end cell row blank equals cell negative open parentheses 3 over 2 bold a plus 3 over 4 bold b close parentheses plus 4 bold a plus 1 half open parentheses negative 4 bold a plus 2 bold b close parentheses end cell end table`
+$\begin{gathered} \vec{PM} & = \vec{PA} + \vec{AB} + \vec{BM} \\ = ( - \vec{AP} ) + \vec{AB} + 1 \frac{1}{2} \vec{BC} \\ = - ( \frac{3}{2} a + \frac{3}{4} b ) + 4 a + 1 \frac{1}{2} ( - 4 a + 2 b ) \end{gathered}$
 
 **[1]**
 
 *Expand and collect like terms* * *
 
-`table row cell stack P M with rightwards arrow on top end cell equals cell negative 3 over 2 bold a minus 3 over 4 bold b plus 4 bold a minus 2 bold a plus bold b end cell row blank equals cell 1 half bold a plus 1 fourth bold b end cell end table` * *
+$\begin{gathered} \vec{PM} & = - \frac{3}{2} a - \frac{3}{4} b + 4 a - 2 a + b \\ = 1 \frac{1}{2} a + 1 \frac{1}{4} b \end{gathered}$ * *
 
-*AP** = *`vertical line table row blank blank cell stack A P with rightwards arrow on top end cell end table vertical line`* and **PM** = *`vertical line table row blank blank cell stack P M with rightwards arrow on top end cell end table vertical line`*, as **AP** and **PM** are both lengths* *Find **AP** : **PM  *
+*AP** = *$\vert \begin{gathered} \vec{AP} \end{gathered} \vert$* and **PM** = *$\vert \begin{gathered} \vec{PM} \end{gathered} \vert$*, as **AP** and **PM** are both lengths* *Find **AP** : **PM  *
 
-`space open vertical bar 3 over 2 bold a plus 3 over 4 bold b close vertical bar colon open vertical bar 1 half bold a plus 1 fourth bold b close vertical bar`
+$\left| \frac{3}{2} a + \frac{3}{4} b \right| : \left| 1 \frac{1}{2} a + 1 \frac{1}{4} b \right|$
 
 **[1]**
 
 *Factorise out a 3 on the left-hand side and cancel the common factor on both sides* * *
 
-`table row cell 3 space up diagonal strike open vertical bar 1 half bold a plus 1 fourth bold b close vertical bar end strike space colon space up diagonal strike open vertical bar 1 half bold a plus 1 fourth bold b close vertical bar end strike end cell equals cell 3 colon 1 end cell end table`
+$\begin{gathered} 3 \cancel{ \left| 1 \frac{1}{2} a + 1 \frac{1}{4} b \right| } : \cancel{ \left| 1 \frac{1}{2} a + 1 \frac{1}{4} b \right| } & = 3 : 1 \end{gathered}$
 
 **3 : 1*** ***[1]**
 
@@ -930,13 +926,13 @@ $n=4$** ****[1]**
 ### 14() — 1 marks
 *(i) **Go from **A** to **O** to **B*
 
-`table row cell stack A B with rightwards arrow on top end cell equals cell stack A O with rightwards arrow on top plus stack O B with rightwards arrow on top end cell row blank equals cell negative stack O A with rightwards arrow on top plus stack O B with rightwards arrow on top end cell end table`
+$\begin{gathered} \vec{AB} & = \vec{AO} + \vec{OB} \\ = - \vec{OA} + \vec{OB} \end{gathered}$
 
 $\overset{\rightarrow}{AB}=-a+b$ **[1]**
 
 *(ii) **Go from **K** to **J** to **I* *K** to **J** is double **A** to **B**, found in part (i)* *J** to **I** is double **O** to **B*
 
-`table row cell stack K I with rightwards arrow on top end cell equals cell stack K J with rightwards arrow on top plus stack J I with rightwards arrow on top end cell row blank equals cell 2 stack A B with rightwards arrow on top plus 2 stack O B with rightwards arrow on top end cell row blank equals cell 2 open parentheses negative bold a plus bold b close parentheses plus 2 bold b end cell end table`
+$\begin{gathered} \vec{KI} & = \vec{KJ} + \vec{JI} \\ = 2 \vec{AB} + 2 \vec{OB} \\ = 2 ( - a + b ) + 2 b \end{gathered}$
 
 **[1]**
 
@@ -948,7 +944,7 @@ $\overset{\rightarrow}{KI}=-2a+4b$ **[1]**
 
 *(iii) **Go from **L** to** F** to **E** to **D* *L** to** F** and **E** to **D** are both the same as **A** to **B**, found in part (i)* *F** to **E** is the negative of **O** to **A  *
 
-`table row cell stack L D with rightwards arrow on top end cell equals cell stack L F with rightwards arrow on top plus stack F E with rightwards arrow on top plus stack E D with rightwards arrow on top end cell row blank equals cell stack A B with rightwards arrow on top minus stack O A with rightwards arrow on top plus stack A B with rightwards arrow on top end cell row blank equals cell open parentheses negative bold a plus bold b close parentheses minus bold a plus open parentheses negative bold a plus bold b close parentheses end cell end table`
+$\begin{gathered} \vec{LD} & = \vec{LF} + \vec{FE} + \vec{ED} \\ = \vec{AB} - \vec{OA} + \vec{AB} \\ = ( - a + b ) - a + ( - a + b ) \end{gathered}$
 
 **[1]**
 
@@ -969,11 +965,11 @@ $\overset{\rightarrow}{OM}=\frac{1}{3}\overset{\rightarrow}{OB}=\frac{1}{3}\time
 
 *You would next go from **M** to **P,** but this distance is unknown* $\overset{\rightarrow}{MP}$* is some smaller "amount" of the vector *$\overset{\rightarrow}{MA}$*(parallel vectors) so write *$\overset{\rightarrow}{MP}=k\overset{\rightarrow}{MA}$*(where **k** is a scalar multiple that you need to find later)* * *
 
-`stack M P with rightwards arrow on top equals k space stack M A with rightwards arrow on top equals k open parentheses negative 2 bold b plus 8 bold a close parentheses`
+$\vec{MP} = k \vec{MA} = k ( - 2 b + 8 a )$
 
 *Write down this total journey as one vector, *$\overset{\rightarrow}{OP}$ * *
 
-`stack O P with rightwards arrow on top equals stack O M with rightwards arrow on top plus stack M P with rightwards arrow on top equals 2 bold b plus k open parentheses negative 2 bold b plus 8 bold a close parentheses`
+$\vec{OP} = \vec{OM} + \vec{MP} = 2 b + k ( - 2 b + 8 a )$
 
 **[1]**
 
@@ -982,23 +978,23 @@ $\overset{\rightarrow}{OP}$* is some smaller "amount" of the vector *$\overset{\
 $\overset{\rightarrow}{OP}=l\overset{\rightarrow}{ON}$* (where **l** is a scalar multiple, different to **k **used previously)* 
 *Find *$\overset{\rightarrow}{ON}$* by going from **O** to** A** then half of **A** to **B* * *
 
-> `table row cell stack O N with rightwards arrow on top end cell equals cell stack O A with rightwards arrow on top plus 1 half stack A B with rightwards arrow on top end cell row blank equals cell 8 bold a plus 1 half open parentheses negative 8 bold a plus 6 bold b close parentheses end cell row blank equals cell 4 bold a plus 3 bold b end cell end table`* *
+> $\begin{gathered} \vec{ON} & = \vec{OA} + 1 \frac{1}{2} \vec{AB} \\ = 8 a + 1 \frac{1}{2} ( - 8 a + 6 b ) \\ = 4 a + 3 b \end{gathered}$* *
 
 **[1]**
 
 *Write down *$\overset{\rightarrow}{OP}$* (using *$\overset{\rightarrow}{OP}=l\overset{\rightarrow}{ON}$*from above)* * *
 
-`stack O P with rightwards arrow on top equals l open parentheses 4 bold a plus 3 bold b close parentheses`
+$\vec{OP} = l ( 4 a + 3 b )$
 
 **[1]**
 
 *Compare the previous version of *$\overset{\rightarrow}{OP}$* to this version of *$\overset{\rightarrow}{OP}$ * *
 
-`2 bold b plus k open parentheses negative 2 bold b plus 8 bold a close parentheses`*  **and ** *`l open parentheses 4 bold a plus 3 bold b close parentheses` * *
+$2 b + k ( - 2 b + 8 a )$*  **and ** *$l ( 4 a + 3 b )$ * *
 
 *Expand the expressions and collect the **a**'s and **b**'s* * *
 
-`8 k bold a plus open parentheses 2 minus 2 k close parentheses bold b`*  **and  *$4la+3lb$ * *
+$8 k a + ( 2 - 2 k ) b$*  **and  *$4la+3lb$ * *
 
 *Both expressions represent the same journey, *$\overset{\rightarrow}{OP}$*, so the amount of **a**'s and **b**'s must be equal* 
 *Form two equations by setting the amount of **a**'s equal and the amount of **b**'s equal*
@@ -1009,7 +1005,7 @@ $8k=4l$* ** and ** *$2-2k=3l$
 
 *Solve these equations simultaneously, for example by substituting *$2k=l$* into the second equation* * *
 
-`table row cell 2 minus l end cell equals cell 3 l end cell row 2 equals cell 4 l end cell row cell 1 half end cell equals cell l space space and space space k equals 1 fourth end cell end table`
+`| 2 - l | = 3 l | | 2 = 4 l | | 1 half | = l and k = 1 fourth | |`
 
 > * *
 
@@ -1068,13 +1064,13 @@ $\overset{\rightarrow}{ED}=\overset{\rightarrow}{AB}=a$ * *
 
 > * *
 
-`stack D C with rightwards arrow on top equals bold a plus open parentheses negative bold b close parentheses`
+$\vec{DC} = a + ( - b )$
 
 **[1]**
 
 *C** to **X** is the same as **D** to **C* * *
 
-`table row cell stack E X with rightwards arrow on top end cell equals cell stack E D with rightwards arrow on top plus stack D C with rightwards arrow on top plus stack C X with rightwards arrow on top end cell row blank equals cell bold a plus bold a plus open parentheses negative bold b close parentheses plus bold a plus open parentheses negative bold b close parentheses end cell end table`
+$\begin{gathered} \vec{EX} & = \vec{ED} + \vec{DC} + \vec{CX} \\ = a + a + ( - b ) + a + ( - b ) \end{gathered}$
 
 $\overset{\rightarrow}{EX}=3a-2b$* ***[1]**
 
@@ -1089,13 +1085,13 @@ $\overset{\rightarrow}{EX}=3a-2b$* ***[1]**
 $\overset{\rightarrow}{MN}$* is some smaller "amount" of the vector *$\overset{\rightarrow}{MZ}$*(parallel vectors) so write *
 $\overset{\rightarrow}{MN}=k\overset{\rightarrow}{MZ}$*(where **k** is a scalar multiple that you can find later)* * *
 
-`stack M N with rightwards arrow on top equals k space stack M Z with rightwards arrow on top equals k open parentheses negative 1 half bold a plus 3 bold b close parentheses`
+$\vec{MN} = k \vec{MZ} = k ( - 1 \frac{1}{2} a + 3 b )$
 
 **[1]**
 
 *Write down this total journey as one vector, *$\overset{\rightarrow}{ON}$ * *
 
-`stack O N with rightwards arrow on top equals stack O M with rightwards arrow on top plus stack M N with rightwards arrow on top equals 1 half bold a plus k open parentheses negative 1 half bold a plus 3 bold b close parentheses`
+$\vec{ON} = \vec{OM} + \vec{MN} = 1 \frac{1}{2} a + k ( - 1 \frac{1}{2} a + 3 b )$
 
 **[1]**
 
@@ -1103,17 +1099,17 @@ $\overset{\rightarrow}{MN}=k\overset{\rightarrow}{MZ}$*(where **k** is a scalar 
 $\overset{\rightarrow}{ON}$* is **λ** "amounts" of the vector *$\overset{\rightarrow}{OY}$* (parallel vectors) so write *$\overset{\rightarrow}{OP}=λ\overset{\rightarrow}{ON}$* *
 *(where** λ** is a scalar multiple, different to **k **used previously)* * *
 
-`stack O N with rightwards arrow on top equals lambda space stack O Y with rightwards arrow on top equals lambda open parentheses bold a plus bold b close parentheses`
+$\vec{ON} = \\lambda \vec{OY} = \\lambda ( a + b )$
 
 **[1]**
 
 *Compare the previous version of *$\overset{\rightarrow}{ON}$* to this version of *$\overset{\rightarrow}{ON}$ * *
 
-`1 half bold a plus k open parentheses negative 1 half bold a plus 3 bold b close parentheses`*  **and ** *`lambda open parentheses bold a plus bold b close parentheses` * *
+$1 \frac{1}{2} a + k ( - 1 \frac{1}{2} a + 3 b )$*  **and ** *$\\lambda ( a + b )$ * *
 
 *Expand the expressions and collect the **a**'s and **b**'s* * *
 
-`open parentheses 1 half minus 1 half k close parentheses bold a plus 3 k bold b`*  **and  *$λa+λb$ * *
+$( 1 \frac{1}{2} - 1 \frac{1}{2} k ) a + 3 k b$*  **and  *$λa+λb$ * *
 
 *Both expressions represent the same journey, *$\overset{\rightarrow}{ON}$*, so the amount of **a**'s and **b**'s must be equal* 
 *Form two equations by setting the amount of **a**'s equal and the amount of **b**'s equal*
@@ -1124,7 +1120,7 @@ $\frac{1}{2}-\frac{1}{2}k=λ$* ** and ** *$3k=λ$
 
 *Solve these equations simultaneously, for example by substituting *$3k=λ$* into the first equation* * *
 
-`table attributes columnalign right center left columnspacing 0px end attributes row cell 1 half minus 1 half k end cell equals cell 3 k end cell row cell 1 minus k end cell equals cell 6 k end cell row 1 equals cell 7 k end cell row cell 1 over 7 end cell equals cell k space space and space space lambda equals 3 over 7 end cell end table`
+`table columnalign right center left columnspacing 0px end | 1 half - 1 half k | = 3 k | | 1 - k | = 6 k | | 1 = 7 k | | 1 / 7 | = k and lambda = 3 / 7 | |`
 
 $λ=\frac{3}{7}$* ***[1]**
 
@@ -1155,13 +1151,13 @@ $λ=\frac{3}{7}$* ***[1]**
 *If** ABE** is a straight line, then the vectors *$\overset{\rightarrow}{AE}$* and *$\overset{\rightarrow}{AB}$* must be parallel*
  *Find *$\overset{\rightarrow}{AE}$* by moving from **A**(3, 1) in part (a) to **E**(63, 211)* * *
 
-`stack A E with rightwards arrow on top equals open parentheses table row cell 63 minus 3 end cell row cell 211 minus 1 end cell end table close parentheses equals open parentheses table row 60 row 210 end table close parentheses`
+$\vec{AE} = ( \begin{gathered} 63 - 3 \\ 211 - 1 \end{gathered} ) = ( \begin{gathered} 60 \\ 210 \end{gathered} )$
 
 **[1]**
 
 *Parallel vectors are scalar multiples of each other, *$\overset{\rightarrow}{AE}=k\overset{\rightarrow}{AB}$ *Prove that *$\overset{\rightarrow}{AE}$* is a scalar multiple of *$\overset{\rightarrow}{AB}$
 
-`stack A E with rightwards arrow on top equals open parentheses table row 60 row 210 end table close parentheses equals 30 cross times open parentheses table row 2 row 7 end table close parentheses equals 30 stack A B with rightwards arrow on top`
+$\vec{AE} = ( \begin{gathered} 60 \\ 210 \end{gathered} ) = 30 \times ( \begin{gathered} 2 \\ 7 \end{gathered} ) = 30 \vec{AB}$
 
 $\overset{\rightarrow}{AE}=30\overset{\rightarrow}{AB}$** so ****ABE**** is a straight line ****[1]**
 
@@ -1180,13 +1176,13 @@ $\overset{\rightarrow}{AC}=\overset{\rightarrow}{AB}-\overset{\rightarrow}{CB}$ 
 
 *Substitute the vectors from the question into the line above*
 
-`table row cell stack A C with rightwards arrow on top end cell equals cell open parentheses table row 6 row cell negative 9 end cell end table close parentheses minus open parentheses table row 1 row 3 end table close parentheses end cell row blank equals cell open parentheses table row cell 6 minus 1 end cell row cell negative 9 minus 3 end cell end table close parentheses end cell row blank equals cell open parentheses table row 5 row cell negative 12 end cell end table close parentheses end cell end table`
+$\begin{gathered} \vec{AC} & = ( \begin{gathered} 6 \\ - 9 \end{gathered} ) - ( \begin{gathered} 1 \\ 3 \end{gathered} ) \\ = ( \begin{gathered} 6 - 1 \\ - 9 - 3 \end{gathered} ) \\ = ( \begin{gathered} 5 \\ - 12 \end{gathered} ) \end{gathered}$
 
 **[1]**
 
-*The magnitude (length) of a vector is given by *`open vertical bar open parentheses table row x row y end table close parentheses close vertical bar equals square root of x squared plus y squared end root`**  **
+*The magnitude (length) of a vector is given by *$\left| ( \begin{gathered} x \\ y \end{gathered} ) \right| = \sqrt{x^{2} + y^{2}}$**  **
 
-`table row cell open vertical bar stack A C with rightwards arrow on top close vertical bar end cell equals cell square root of 5 squared plus open parentheses negative 12 close parentheses squared end root end cell row blank equals cell square root of 25 plus 144 end root end cell row blank equals cell square root of 169 end cell end table`
+$\begin{gathered} \left| \vec{AC} \right| & = \sqrt{5^{2} + ( - 12 )^{2}} \\ = \sqrt{25 + 144} \\ = \sqrt{169} \end{gathered}$
 
 **13**** [1]**
 
@@ -1199,11 +1195,11 @@ $\overset{\rightarrow}{AC}=\overset{\rightarrow}{AB}-\overset{\rightarrow}{CB}$ 
 
 *You would next go from **A** to **P,** but this distance is unknown* $\overset{\rightarrow}{AP}$* is some smaller "amount" of the vector *$\overset{\rightarrow}{AB}$*(parallel vectors) so write *$\overset{\rightarrow}{AP}=k\overset{\rightarrow}{AB}$*(where **k** is a scalar multiple that you need to find later)* * *
 
-`stack A P with rightwards arrow on top equals k space stack A B with rightwards arrow on top equals k open parentheses negative 2 bold a plus 5 bold b close parentheses`
+$\vec{AP} = k \vec{AB} = k ( - 2 a + 5 b )$
 
 *Write down this total journey as one vector, *$\overset{\rightarrow}{OP}$ * *
 
-`stack O P with rightwards arrow on top equals stack O A with rightwards arrow on top plus stack A P with rightwards arrow on top equals 2 bold a plus k open parentheses negative 2 bold a plus 5 bold b close parentheses`
+$\vec{OP} = \vec{OA} + \vec{AP} = 2 a + k ( - 2 a + 5 b )$
 
 **[1]**
 
@@ -1212,21 +1208,21 @@ $\overset{\rightarrow}{OP}$* is some smaller "amount" of the vector *$\overset{\
 * *$\overset{\rightarrow}{OP}=l\overset{\rightarrow}{OC}$* (where **l** is a scalar multiple, different to **k **used previously)* 
 *Find *$\overset{\rightarrow}{OC}$* by going from **O** to** A** then **A** to **B* * *
 
-> `table row cell stack O C with rightwards arrow on top end cell equals cell stack O A with rightwards arrow on top plus stack A C with rightwards arrow on top end cell row blank equals cell 2 bold a plus 3 bold b end cell end table`* *
+> $\begin{gathered} \vec{OC} & = \vec{OA} + \vec{AC} \\ = 2 a + 3 b \end{gathered}$* *
 
 *Write down *$\overset{\rightarrow}{OP}$* (using *$\overset{\rightarrow}{OP}=l\overset{\rightarrow}{OC}$*from above)* * *
 
-`stack O P with rightwards arrow on top equals l open parentheses 2 bold a plus 3 bold b close parentheses`
+$\vec{OP} = l ( 2 a + 3 b )$
 
 **[1]**
 
 *Compare the previous version of *$\overset{\rightarrow}{OP}$* to this version of *$\overset{\rightarrow}{OP}$ * *
 
-`2 bold a plus k open parentheses negative 2 bold a plus 5 bold b close parentheses`*  **and ** *`l open parentheses 2 bold a plus 3 bold b close parentheses` * *
+$2 a + k ( - 2 a + 5 b )$*  **and ** *$l ( 2 a + 3 b )$ * *
 
 *Expand the expressions and collect the **a**'s and **b**'s* * *
 
-`open parentheses 2 minus 2 k close parentheses bold a plus 5 k bold b`*  **and  *$2la+3lb$ * *
+$( 2 - 2 k ) a + 5 k b$*  **and  *$2la+3lb$ * *
 
 *Both expressions represent the same journey, *$\overset{\rightarrow}{OP}$*, so the amount of **a**'s and **b**'s must be equal* 
 *Form two equations by setting the amount of **a**'s equal and the amount of **b**'s equal*
@@ -1237,7 +1233,7 @@ $2-2k=2l$* ** and ** *$5k=3l$
 
 *Solve these equations simultaneously, for example substituting *$k=\frac{3}{5}l$* into the first equation* * *
 
-`table row cell 2 minus 6 over 5 l end cell equals cell 2 l end cell row cell 10 minus 6 l end cell equals cell 10 l end cell row 10 equals cell 16 l end cell row cell 5 over 8 end cell equals cell l space space space and space space k equals 3 over 5 cross times 5 over 8 equals 3 over 8 end cell end table`
+`| 2 - 6 / 5 l | = 2 l | | 10 - 6 l | = 10 l | | 10 = 16 l | | 5 / 8 | = l and k = 3 / 5 x 5 / 8 = 3 / 8 | |`
 
 **[1]*** *
 
@@ -1252,7 +1248,7 @@ $\overset{\rightarrow}{OP}=\frac{5}{4}a+\frac{15}{8}b$* ***[1]**
 ### 19((a)) — 3 marks
 *(i) **For example, go from **B** to **A** to **C** to **D*
 
-`table row cell stack B D with rightwards arrow on top end cell equals cell stack B A with rightwards arrow on top plus stack A C with rightwards arrow on top plus stack C D with rightwards arrow on top end cell row blank equals cell negative bold p plus bold q plus bold q end cell end table`
+$\begin{gathered} \vec{BD} & = \vec{BA} + \vec{AC} + \vec{CD} \\ = - p + q + q \end{gathered}$
 
 $\overset{\rightarrow}{BD}=-p+2q$ **[1]**
 
@@ -1263,11 +1259,11 @@ $\overset{\rightarrow}{MB}=\frac{1}{4}p$
 
 *B **to **N** is half of **B** to **C** (where **B** to **C** can be thought of as **B** to **A** to **C**)* * *
 
-> `stack B N with rightwards arrow on top equals 1 half open parentheses negative bold p plus bold q close parentheses`* *
+> $\vec{BN} = 1 \frac{1}{2} ( - p + q )$* *
 
 *Add together the two results above* * *
 
-`stack M N with rightwards arrow on top equals 1 fourth bold p plus 1 half open parentheses negative bold p plus bold q close parentheses`
+$\vec{MN} = 1 \frac{1}{4} p + 1 \frac{1}{2} ( - p + q )$
 
 **[1]**
 
@@ -1281,7 +1277,7 @@ $\overset{\rightarrow}{MN}=-\frac{1}{4}p+\frac{1}{2}q$ **[1]**
 *Two vectors, **a** and **b**, are parallel if they are scalar multiples of each other, **a** = **k**b* 
 *Show that *$\overset{\rightarrow}{MN}$* and *$\overset{\rightarrow}{BD}$* are parallel*
 
-`table row cell stack M N with rightwards arrow on top end cell equals cell negative 1 fourth bold p plus 1 half bold q end cell row blank equals cell 1 fourth open parentheses negative bold p plus 2 bold q close parentheses end cell row blank equals cell 1 fourth stack B D with rightwards arrow on top end cell end table`
+$\begin{gathered} \vec{MN} & = - 1 \frac{1}{4} p + 1 \frac{1}{2} q \\ = 1 \frac{1}{4} ( - p + 2 q ) \\ = 1 \frac{1}{4} \vec{BD} \end{gathered}$
 
 > *MN** and **BD** are parallel and **MN** is a quarter of **BD*
 
@@ -1293,20 +1289,20 @@ $\overset{\rightarrow}{MN}=-\frac{1}{4}p+\frac{1}{2}q$ **[1]**
 ## Q30 — medium — 4 marks · exam-questions
 
 ### 7() — 2 marks
-*The column vector *`open parentheses table row a row b end table close parentheses`* represents **a** units to the right and **b** units up* *Vector **a** shown is 4 units to the right and 2 units down (-2 up)*
+*The column vector *$( \begin{gathered} a \\ b \end{gathered} )$* represents **a** units to the right and **b** units up* *Vector **a** shown is 4 units to the right and 2 units down (-2 up)*
 
 **one component correct**** [1]**
 
-`bold a bold equals stretchy left parenthesis table row 4 row cell negative 2 end cell end table stretchy right parenthesis` **[1]**
+$a = ( \begin{gathered} 4 \\ - 2 \end{gathered} )$ **[1]**
 
 ### 7((b)) — 2 marks
-*The column vector *`open parentheses table row a row b end table close parentheses`* represents **a** units to the right and **b** units up* *Vector 4**b** shown is 4 units to the right and 9 units up  *
+*The column vector *$( \begin{gathered} a \\ b \end{gathered} )$* represents **a** units to the right and **b** units up* *Vector 4**b** shown is 4 units to the right and 9 units up  *
 
-> `4 bold b equals open parentheses table row 4 row 9 end table close parentheses`*  *
+> $4 b = ( \begin{gathered} 4 \\ 9 \end{gathered} )$*  *
 
 > *To find **b**, divide each component by 4  *
 
-`bold b equals open parentheses table row cell 4 over 4 end cell row cell 9 over 4 end cell end table close parentheses`
+$b = ( \begin{gathered} \frac{4}{4} \\ \frac{9}{4} \end{gathered} )$
 
 **one component correct**** [1]**
 
@@ -1347,13 +1343,13 @@ $-3a+4b$
 
 > *Find one expression for *$\overset{\rightarrow}{AP}$
 
-`stack A P with rightwards arrow on top space equals space minus 3 bold a space plus space x open parentheses 2 bold a space plus thin space 2 bold b close parentheses
-stack A P with rightwards arrow on top space equals space minus 3 bold a space plus space 2 x bold a space plus thin space 2 x bold b`
+$\vec{AP} = - 3 a + x ( 2 a + 2 b )
+ \vec{AP} = - 3 a + 2 x a + 2 x b$
 
 > *P** is also partway along the vector *$\overset{\rightarrow}{AB}$* so there it will also be a scalar multiple of the vector for *$\overset{\rightarrow}{AB}$
 
-`stack A P with rightwards arrow on top space equals space y open parentheses negative 3 bold a space plus thin space 4 bold b close parentheses
-stack A P with rightwards arrow on top space equals space minus 3 y bold a space plus space 4 y bold b`
+$\vec{AP} = y ( - 3 a + 4 b )
+ \vec{AP} = - 3 y a + 4 y b$
 
 **[M1]**
 
@@ -1408,17 +1404,17 @@ $\overset{\rightarrow}{HE}=-b+a$
 
 *Now, find **H** to **X** (a quarter of **H** to **E**)* * *
 
-`stack H X with rightwards arrow on top equals 1 fourth stack H E with rightwards arrow on top equals 1 fourth open parentheses negative bold b plus bold a close parentheses` * *
+$\vec{HX} = 1 \frac{1}{4} \vec{HE} = 1 \frac{1}{4} ( - b + a )$ * *
 
 *Substitute this, and *$\overset{\rightarrow}{DH}=b$*, into the expression for *$\overset{\rightarrow}{DX}$* above* * *
 
-`table row cell stack D X with rightwards arrow on top end cell equals cell stack D H with rightwards arrow on top plus stack H X with rightwards arrow on top end cell row blank equals cell bold b plus 1 fourth open parentheses bold a minus bold b close parentheses end cell end table` * *
+$\begin{gathered} \vec{DX} & = \vec{DH} + \vec{HX} \\ = b + 1 \frac{1}{4} ( a - b ) \end{gathered}$ * *
 
 *Expand and simplify*
 
-`table row cell stack D X with rightwards arrow on top end cell equals cell bold b plus 1 fourth open parentheses bold a minus bold b close parentheses end cell row blank equals cell bold b plus 1 fourth bold a minus 1 fourth bold b end cell end table`
+$\begin{gathered} \vec{DX} & = b + 1 \frac{1}{4} ( a - b ) \\ = b + 1 \frac{1}{4} a - 1 \frac{1}{4} b \end{gathered}$
 
-`table row cell stack bold italic D bold italic X with bold rightwards arrow on top end cell bold equals cell bold 1 over bold 4 bold a bold plus bold 3 over bold 4 bold b end cell end table`** [1]**
+`| D X -vec | = 1 / 4 a + 3 / 4 b | |`** [1]**
 
 ### 27((b)) — 4 marks
 *To show** DXF** is a straight line using vectors, find *$\overset{\rightarrow}{DX}$* and *$\overset{\rightarrow}{DF}$* and show that they are parallel* 
@@ -1428,17 +1424,17 @@ $\overset{\rightarrow}{DF}=\overset{\rightarrow}{DE}+\overset{\rightarrow}{EF}$ 
 
 > *D** to **E** is **a** and **E** to** F** is a quarter of **E** to **G  *
 
-> `table row cell stack D F with rightwards arrow on top end cell equals cell stack D E with rightwards arrow on top plus stack E F with rightwards arrow on top end cell row blank equals cell bold a plus 1 fourth stack E G with rightwards arrow on top end cell end table`*  *
+> $\begin{gathered} \vec{DF} & = \vec{DE} + \vec{EF} \\ = a + 1 \frac{1}{4} \vec{EG} \end{gathered}$*  *
 
 *Find **E** to **G** (by going **E** to **D** to **H** to **G**)* * *
 
-`table row cell stack E G with rightwards arrow on top end cell equals cell negative bold a plus bold b plus 8 bold b end cell row blank equals cell negative bold a plus 9 bold b end cell end table`
+$\begin{gathered} \vec{EG} & = - a + b + 8 b \\ = - a + 9 b \end{gathered}$
 
 **[1]**
 
 *Substitute this result into the expression for *$\overset{\rightarrow}{DF}$*, expand and simplify* * *
 
-`table row cell stack D F with rightwards arrow on top end cell equals cell bold a plus 1 fourth open parentheses negative bold a plus 9 bold b close parentheses end cell row blank equals cell bold a minus 1 fourth bold a plus 9 over 4 bold b end cell row blank equals cell 3 over 4 bold a plus 9 over 4 bold b end cell end table`
+$\begin{gathered} \vec{DF} & = a + 1 \frac{1}{4} ( - a + 9 b ) \\ = a - 1 \frac{1}{4} a + \frac{9}{4} b \\ = \frac{3}{4} a + \frac{9}{4} b \end{gathered}$
 
 **correct unsimplified**** [1]**
 
@@ -1447,7 +1443,7 @@ $\overset{\rightarrow}{DF}=\overset{\rightarrow}{DE}+\overset{\rightarrow}{EF}$ 
 *Two vectors are parallel is one can be written as a scalar multiple of the other, **p** = **k**q* 
 *Show that *$\overset{\rightarrow}{DX}$* and *$\overset{\rightarrow}{DF}$* are parallel (by finding a constant **k** such that *$\overset{\rightarrow}{DF}=k\overset{\rightarrow}{DX}$*)* * *
 
-`table row cell stack D F with rightwards arrow on top end cell equals cell 3 over 4 bold a plus 9 over 4 bold b end cell row blank equals cell 3 open parentheses 1 fourth bold a plus 3 over 4 bold b close parentheses end cell row blank equals cell 3 stack D X with rightwards arrow on top end cell end table` * *
+$\begin{gathered} \vec{DF} & = \frac{3}{4} a + \frac{9}{4} b \\ = 3 ( 1 \frac{1}{4} a + \frac{3}{4} b ) \\ = 3 \vec{DX} \end{gathered}$ * *
 
 $\overset{\rightarrow}{DF}=3\overset{\rightarrow}{DX}$** so ****DF**** and ****DX**** are parallel and share a common point (****D****) so ****DXF**** is a straight line*** ***[1]**
 
@@ -1466,20 +1462,20 @@ $\overset{\rightarrow}{JK}=\overset{\rightarrow}{JN}+\overset{\rightarrow}{NL}+\
 
 *L** to **K** is the negative of **K** to **L* * *
 
-`table row cell stack J K with rightwards arrow on top end cell equals cell stack J N with rightwards arrow on top plus stack N L with rightwards arrow on top plus open parentheses negative stack K L with rightwards arrow on top close parentheses end cell row blank equals cell stack J N with rightwards arrow on top plus stack N L with rightwards arrow on top minus 7 bold a end cell end table`
+$\begin{gathered} \vec{JK} & = \vec{JN} + \vec{NL} + ( - \vec{KL} ) \\ = \vec{JN} + \vec{NL} - 7 a \end{gathered}$
 
 *JN** : **NL** is 3 : 2 which is equivalent to 6 : 4* *If *$\overset{\rightarrow}{NL}$* = 4**b**, then *$\overset{\rightarrow}{JN}$* = 6**b* * *
 
-`table row cell stack J K with rightwards arrow on top end cell equals cell stack J N with rightwards arrow on top plus stack N L with rightwards arrow on top minus 7 bold a end cell row blank equals cell 6 bold b plus 4 bold b minus 7 bold a end cell row blank equals cell 10 bold b minus 7 bold a end cell end table`
+$\begin{gathered} \vec{JK} & = \vec{JN} + \vec{NL} - 7 a \\ = 6 b + 4 b - 7 a \\ = 10 b - 7 a \end{gathered}$
 
 **seeing **$\overset{\rightarrow}{JN}=6b$** [1]** 
 **all correct**** [1]**
 
 *Substitute this result into *$\overset{\rightarrow}{JM}$* and expand*
 
-`stack J M with rightwards arrow on top equals 1 half stack J K with rightwards arrow on top
-equals 1 half open parentheses 10 bold b minus 7 bold a close parentheses
-equals 5 bold b minus 3.5 bold a`
+$\vec{JM} = 1 \frac{1}{2} \vec{JK} 
+= 1 \frac{1}{2} ( 10 b - 7 a )
+= 5 b - 3.5 a$
 
 $\overset{\rightarrow}{JM}=5b-3.5a$ **[1]**
 
@@ -1488,9 +1484,9 @@ $5b-\frac{7}{2}a$** is also accepted**
 ## Q34 — medium — 3 marks · exam-questions
 
 ### 9((b)) — 3 marks
-*The vector *`bold a equals open parentheses table row 3 row cell negative 1 end cell end table close parentheses`* represents 3 units to the right and 1 unit down, which is the bottom-left line of the triangle* *Draw a vector arrow pointing in this direction and label it **a*
+*The vector *$a = ( \begin{gathered} 3 \\ - 1 \end{gathered} )$* represents 3 units to the right and 1 unit down, which is the bottom-left line of the triangle* *Draw a vector arrow pointing in this direction and label it **a*
 
-*The vector *`bold italic 2 bold b equals 2 open parentheses table row 1 row 3 end table close parentheses equals open parentheses table row 2 row 6 end table close parentheses`* represents 2 units to the right and 6 units up, which is the bottom-right line of the triangle* *Draw a vector arrow pointing in this direction and label it 2**b*
+*The vector *$2 b = 2 ( \begin{gathered} 1 \\ 3 \end{gathered} ) = ( \begin{gathered} 2 \\ 6 \end{gathered} )$* represents 2 units to the right and 6 units up, which is the bottom-right line of the triangle* *Draw a vector arrow pointing in this direction and label it 2**b*
 
 > *The vector **a** + 2**b** joins the beginning of **a** to the end of 2**b** (draw this on, label it and include the vector arrow)  *
 
@@ -1516,13 +1512,13 @@ $\overset{\rightarrow}{XY}=\overset{\rightarrow}{XS}+\overset{\rightarrow}{SR}+\
 
 $\overset{\rightarrow}{XS}$* is two-thirds of *$\overset{\rightarrow}{PS}$*, *$\overset{\rightarrow}{SR}=b$* and *$\overset{\rightarrow}{RY}$* is two-thirds of *$\overset{\rightarrow}{RQ}$ * *
 
-`table row cell stack X Y with rightwards arrow on top end cell equals cell stack X S with rightwards arrow on top plus stack S R with rightwards arrow on top plus stack R Y with rightwards arrow on top end cell row blank equals cell 2 over 3 stack P S with rightwards arrow on top plus bold b plus 2 over 3 stack R Q with rightwards arrow on top end cell row blank equals cell 2 over 3 bold a plus bold b plus 2 over 3 bold c end cell end table`
+$\begin{gathered} \vec{XY} & = \vec{XS} + \vec{SR} + \vec{RY} \\ = \frac{2}{3} \vec{PS} + b + \frac{2}{3} \vec{RQ} \\ = \frac{2}{3} a + b + \frac{2}{3} c \end{gathered}$
 
 **[1]**
 
 *Factorise out *$\frac{2}{3}$* to see if *$\overset{\rightarrow}{XY}$* can be written as a scalar multiple of *$\overset{\rightarrow}{PQ}=a+b+c$ * *
 
-`table row cell stack X Y with rightwards arrow on top end cell equals cell 2 over 3 open parentheses bold a plus 3 over 2 bold b plus bold c close parentheses end cell row blank not equal to cell 2 over 3 stack P Q with rightwards arrow on top end cell end table`
+$\begin{gathered} \vec{XY} & = \frac{2}{3} ( a + \frac{3}{2} b + c ) \\ \text{eq} \frac{2}{3} \vec{PQ} \end{gathered}$
 
 **No they are not parallel as **$\overset{\rightarrow}{XY}$** is not a scalar multiple of **$\overset{\rightarrow}{PQ}$* ***[1]**
 
@@ -1549,23 +1545,23 @@ $\overset{\rightarrow}{RQ}=-\frac{1}{3}a$ **[1]**
 ## Q37 — medium — 3 marks · exam-questions
 
 ### 20((a)) — 3 marks
-> *Any multiple of *`open parentheses table row 2 row 1 end table close parentheses`* is parallel to *`open parentheses table row 2 row 1 end table close parentheses`*, *
+> *Any multiple of *$( \begin{gathered} 2 \\ 1 \end{gathered} )$* is parallel to *$( \begin{gathered} 2 \\ 1 \end{gathered} )$*, *
 
-`open parentheses table row 4 row 2 end table close parentheses comma space open parentheses table row 6 row 3 end table close parentheses comma space open parentheses table row 8 row 4 end table close parentheses comma space...`
+$( \begin{gathered} 4 \\ 2 \end{gathered} ) , ( \begin{gathered} 6 \\ 3 \end{gathered} ) , ( \begin{gathered} 8 \\ 4 \end{gathered} ) , ...$
 
-**any multiple of**** **`open parentheses table row 2 row 1 end table close parentheses`** ****seen**** [1]**
+**any multiple of**** **$( \begin{gathered} 2 \\ 1 \end{gathered} )$** ****seen**** [1]**
 
-*Find a vector, **b**, such that *`bold b plus open parentheses table row 5 row 2 end table close parentheses`* is a multiple of *`open parentheses table row 2 row 1 end table close parentheses`
+*Find a vector, **b**, such that *$b + ( \begin{gathered} 5 \\ 2 \end{gathered} )$* is a multiple of *$( \begin{gathered} 2 \\ 1 \end{gathered} )$
 
-`open parentheses table row 1 row 1 end table close parentheses plus open parentheses table row 5 row 2 end table close parentheses equals open parentheses table row 6 row 3 end table close parentheses`* which is a multiple of* `open parentheses table row 2 row 1 end table close parentheses`
+$( \begin{gathered} 1 \\ 1 \end{gathered} ) + ( \begin{gathered} 5 \\ 2 \end{gathered} ) = ( \begin{gathered} 6 \\ 3 \end{gathered} )$* which is a multiple of* $( \begin{gathered} 2 \\ 1 \end{gathered} )$
 
 *Find another vector, **b**, that gives a different multiple*
 
-`open parentheses table row 3 row 2 end table close parentheses plus open parentheses table row 5 row 2 end table close parentheses equals open parentheses table row 8 row 4 end table close parentheses` *which is a multiple of *`open parentheses table row 2 row 1 end table close parentheses`*  *
+$( \begin{gathered} 3 \\ 2 \end{gathered} ) + ( \begin{gathered} 5 \\ 2 \end{gathered} ) = ( \begin{gathered} 8 \\ 4 \end{gathered} )$ *which is a multiple of *$( \begin{gathered} 2 \\ 1 \end{gathered} )$*  *
 
-`begin bold style stretchy left parenthesis table row 1 row 1 end table stretchy right parenthesis end style`** ****and**** **`stretchy left parenthesis table row 3 row 2 end table stretchy right parenthesis`* ***[2]**
+$\text{begin} \text{style} ( \begin{gathered} 1 \\ 1 \end{gathered} )$** ****and**** **$( \begin{gathered} 3 \\ 2 \end{gathered} )$* ***[2]**
 
-**any two that work, for example **`open parentheses table row 5 row 3 end table close parentheses comma space open parentheses table row cell negative 1 end cell row 0 end table close parentheses comma space open parentheses table row cell negative 3 end cell row cell negative 1 end cell end table close parentheses comma space open parentheses table row cell negative 7 end cell row cell negative 3 end cell end table close parentheses comma space open parentheses table row cell negative 9 end cell row cell negative 4 end cell end table close parentheses comma space open parentheses table row cell negative 11 end cell row cell negative 5 end cell end table close parentheses comma space open parentheses table row cell negative 13 end cell row cell negative 6 end cell end table close parentheses comma space open parentheses table row cell negative 15 end cell row cell negative 7 end cell end table close parentheses`
+**any two that work, for example **$( \begin{gathered} 5 \\ 3 \end{gathered} ) , ( \begin{gathered} - 1 \\ 0 \end{gathered} ) , ( \begin{gathered} - 3 \\ - 1 \end{gathered} ) , ( \begin{gathered} - 7 \\ - 3 \end{gathered} ) , ( \begin{gathered} - 9 \\ - 4 \end{gathered} ) , ( \begin{gathered} - 11 \\ - 5 \end{gathered} ) , ( \begin{gathered} - 13 \\ - 6 \end{gathered} ) , ( \begin{gathered} - 15 \\ - 7 \end{gathered} )$
 
 ## Q38 — very_hard — 3 marks · exam-questions
 
@@ -1573,19 +1569,19 @@ $\overset{\rightarrow}{RQ}=-\frac{1}{3}a$ **[1]**
 *If **BCDE** is a parallelogram, then the vector *$\overset{\rightarrow}{BC}$* must be equal and parallel to *$\overset{\rightarrow}{ED}$ 
 *Find *$\overset{\rightarrow}{BC}$* by going from **B** to **A** to **E** to **C* * *
 
-`table row cell stack B C with rightwards arrow on top end cell equals cell stack B A with rightwards arrow on top plus stack A E with rightwards arrow on top plus stack E C with rightwards arrow on top end cell row blank equals cell bold a plus 2 bold b plus open parentheses bold b minus 2 bold a close parentheses end cell end table`
+$\begin{gathered} \vec{BC} & = \vec{BA} + \vec{AE} + \vec{EC} \\ = a + 2 b + ( b - 2 a ) \end{gathered}$
 
 **[1]**
 
 *Expand and simplify* * *
 
-`table row cell stack B C with rightwards arrow on top end cell equals cell bold a plus 2 bold b plus bold b minus 2 bold a end cell row blank equals cell negative bold a plus 3 bold b end cell end table`
+$\begin{gathered} \vec{BC} & = a + 2 b + b - 2 a \\ = - a + 3 b \end{gathered}$
 
 **[1]**
 
 *Find *$\overset{\rightarrow}{ED}$* by making *$\overset{\rightarrow}{DE}$* negative* * *
 
-`table row cell stack E D with rightwards arrow on top end cell equals cell negative stack D E with rightwards arrow on top end cell row blank equals cell negative open parentheses bold a minus 3 bold b close parentheses end cell row blank equals cell negative bold a plus 3 bold b end cell end table`
+$\begin{gathered} \vec{ED} & = - \vec{DE} \\ = - ( a - 3 b ) \\ = - a + 3 b \end{gathered}$
 
 $\overset{\rightarrow}{BC}=\overset{\rightarrow}{ED}$** so ****BC**** and ****ED**** are parallel and equal in length, making ****BCDE**** a parallelogram**** [1]**
 
@@ -1596,37 +1592,37 @@ $\overset{\rightarrow}{BC}=\overset{\rightarrow}{ED}$** so ****BC**** and ****ED
 ### 11((a)) — 2 marks
 *Add the top rows and add the bottom rows*
 
-`open parentheses table row 6 row cell negative 10 end cell end table close parentheses plus open parentheses table row cell negative 1 end cell row 2 end table close parentheses plus open parentheses table row cell negative 4 end cell row 7 end table close parentheses
-equals open parentheses table row cell 6 minus 1 minus 4 end cell row cell negative 10 plus 2 plus 7 end cell end table close parentheses`
+$( \begin{gathered} 6 \\ - 10 \end{gathered} ) + ( \begin{gathered} - 1 \\ 2 \end{gathered} ) + ( \begin{gathered} - 4 \\ 7 \end{gathered} )
+= ( \begin{gathered} 6 - 1 - 4 \\ - 10 + 2 + 7 \end{gathered} )$
 
 **top or bottom correct ****[1]**
 
 > *Give your final answer as a vector*
 
-`stretchy left parenthesis table row 1 row cell negative 1 end cell end table stretchy right parenthesis` **[1]**
+$( \begin{gathered} 1 \\ - 1 \end{gathered} )$ **[1]**
 
 ### 11((b)) — 2 marks
 > *To show two vectors, **p** and **q**, are parallel, show that **p** is a scalar multiple of **q**, i.e. **p** = **k**q *
 *Work out **a** + 2**c*
 
-`table row cell bold a plus 2 bold c end cell equals cell open parentheses table row 6 row cell negative 10 end cell end table close parentheses plus 2 open parentheses table row cell negative 4 end cell row 7 end table close parentheses end cell row blank equals cell open parentheses table row 6 row cell negative 10 end cell end table close parentheses plus open parentheses table row cell negative 8 end cell row 14 end table close parentheses end cell row blank equals cell open parentheses table row cell 6 minus 8 end cell row cell negative 10 plus 14 end cell end table close parentheses end cell row blank equals cell open parentheses table row cell negative 2 end cell row 4 end table close parentheses end cell end table`
+$\begin{gathered} a + 2 c & = ( \begin{gathered} 6 \\ - 10 \end{gathered} ) + 2 ( \begin{gathered} - 4 \\ 7 \end{gathered} ) \\ = ( \begin{gathered} 6 \\ - 10 \end{gathered} ) + ( \begin{gathered} - 8 \\ 14 \end{gathered} ) \\ = ( \begin{gathered} 6 - 8 \\ - 10 + 14 \end{gathered} ) \\ = ( \begin{gathered} - 2 \\ 4 \end{gathered} ) \end{gathered}$
 
 **[1]**
 
 *Show that **a** + 2**c** is a multiple of** b**, for example by factorising out a 2 from top-and-bottom*
 
-`table row cell bold a plus 2 bold c end cell equals cell open parentheses table row cell negative 2 end cell row 4 end table close parentheses equals 2 open parentheses table row cell negative 1 end cell row 2 end table close parentheses equals 2 bold b end cell end table`
+$\begin{gathered} a + 2 c & = ( \begin{gathered} - 2 \\ 4 \end{gathered} ) = 2 ( \begin{gathered} - 1 \\ 2 \end{gathered} ) = 2 b \end{gathered}$
 
 **a + 2c = 2b, so a + 2c is a scalar multiple of b, which makes a + 2c and b parallel**** [1]**
 
 ## Q40 — medium — 1 marks · exam-questions
 
 ### 2() — 1 marks
-*The vector *`open parentheses table row a row b end table close parentheses`* means **a** units to the right and **b** units up*
+*The vector *$( \begin{gathered} a \\ b \end{gathered} )$* means **a** units to the right and **b** units up*
 
 *The arrow moves 3 units right, and 2 units down*
 
-**The**** third ****option****, **`stretchy left parenthesis table row 3 row cell negative 2 end cell end table stretchy right parenthesis`** ****is therefore correct** **[1]**
+**The**** third ****option****, **$( \begin{gathered} 3 \\ - 2 \end{gathered} )$** ****is therefore correct** **[1]**
 
 > *The first option would mean 3 units right, and 2 units upwards*
 
@@ -1639,21 +1635,21 @@ equals open parentheses table row cell 6 minus 1 minus 4 end cell row cell negat
 ### 20() — 4 marks
 *Find 2**m** by multiplying each component in **m** by 2* * *
 
-`table row cell 2 bold m end cell equals cell 2 open parentheses table row 2 row k end table close parentheses end cell row blank equals cell open parentheses table row 4 row cell 2 k end cell end table close parentheses end cell end table`
+$\begin{gathered} 2 m & = 2 ( \begin{gathered} 2 \\ k \end{gathered} ) \\ = ( \begin{gathered} 4 \\ 2 k \end{gathered} ) \end{gathered}$
 
 **[1]**
 
 *Find 2**m** + **n** by adding the components* * *
 
-`table attributes columnalign right center left columnspacing 0px end attributes row cell 2 bold m plus bold n end cell equals cell open parentheses table row 4 row cell 2 k end cell end table close parentheses plus open parentheses table row 3 row 11 end table close parentheses end cell row blank equals cell open parentheses table row 7 row cell 2 k plus 11 end cell end table close parentheses end cell end table`
+`table columnalign right center left columnspacing 0px end | 2 m + n | = ( | 4 | 2 k | | ) + ( | 3 | 11 | ) | | _ = ( | 7 | 2 k + 11 | | ) | |`
 
 **[1]**
 
-*This vector needs to be parallel to *`open parentheses table row 1 row cell negative 1 end cell end table close parentheses` * *
+*This vector needs to be parallel to *$( \begin{gathered} 1 \\ - 1 \end{gathered} )$ * *
 
 *Method 1* 
-*The vector *`open parentheses table row 1 row cell negative 1 end cell end table close parentheses`* means 1 step to the right then 1 step down* 
-*The vector *`open parentheses table row 7 row cell 2 k plus 11 end cell end table close parentheses`* means 7 steps to the right then (2**k** + 11) steps up* 
+*The vector *$( \begin{gathered} 1 \\ - 1 \end{gathered} )$* means 1 step to the right then 1 step down* 
+*The vector *$( \begin{gathered} 7 \\ 2 k + 11 \end{gathered} )$* means 7 steps to the right then (2**k** + 11) steps up* 
 *Make these directions match, by forcing (2k + 11) to represents 7 steps down* * *
 
 $2k+11=-7$
@@ -1669,7 +1665,7 @@ $2k=-18\,k=-9$
 *Method 2* 
 *Two vectors, **p **and **q**, are parallel if they are scalar multiples, **p** = **b**q**  *
 
-> `open parentheses table row 7 row cell 2 k plus 11 end cell end table close parentheses equals b open parentheses table row 1 row cell negative 1 end cell end table close parentheses equals open parentheses table row b row cell negative b end cell end table close parentheses`*  *
+> $( \begin{gathered} 7 \\ 2 k + 11 \end{gathered} ) = b ( \begin{gathered} 1 \\ - 1 \end{gathered} ) = ( \begin{gathered} b \\ - b \end{gathered} )$*  *
 
 > *Read off two simultaneous equations  *
 
@@ -1697,30 +1693,30 @@ $\overset{\rightarrow}{BC}=\overset{\rightarrow}{BA}+\overset{\rightarrow}{AC}$*
 
 > *A** to **C** is the negative of **C** to **A**  *
 
-`table row cell stack B C with rightwards arrow on top end cell equals cell stack B A with rightwards arrow on top plus stack A C with rightwards arrow on top end cell row blank equals cell stack B A with rightwards arrow on top minus stack C A with rightwards arrow on top end cell row blank equals cell open parentheses 5 bold a minus 2 bold b close parentheses minus open parentheses 3 bold a plus bold b close parentheses end cell end table`
+$\begin{gathered} \vec{BC} & = \vec{BA} + \vec{AC} \\ = \vec{BA} - \vec{CA} \\ = ( 5 a - 2 b ) - ( 3 a + b ) \end{gathered}$
 
 > *Expand and simplify*
 
-`table row cell stack B C with rightwards arrow on top end cell equals cell open parentheses 5 bold a minus 2 bold b close parentheses minus open parentheses 3 bold a plus bold b close parentheses end cell row blank equals cell 5 bold a minus 2 bold b minus 3 bold a minus bold b end cell row blank equals cell 2 bold a minus 3 bold b end cell end table`
+$\begin{gathered} \vec{BC} & = ( 5 a - 2 b ) - ( 3 a + b ) \\ = 5 a - 2 b - 3 a - b \\ = 2 a - 3 b \end{gathered}$
 
 **[1]*** *
 
 *Find **B** to **D** by going from **B** to **A** to **D* * *
 
-`stack B D with rightwards arrow on top equals stack B A with rightwards arrow on top plus stack A D with rightwards arrow on top
-equals open parentheses 5 bold a minus 2 bold b close parentheses plus open parentheses 3 bold a minus 9 bold b close parentheses`* *
+$\vec{BD} = \vec{BA} + \vec{AD} 
+= ( 5 a - 2 b ) + ( 3 a - 9 b )$* *
 
 > *Expand and simplify*
 
-`table row cell stack B D with rightwards arrow on top end cell equals cell open parentheses 5 bold a minus 2 bold b close parentheses plus open parentheses 3 bold a minus 9 bold b close parentheses end cell row blank equals cell 5 bold a minus 2 bold b plus 3 bold a minus 9 bold b end cell row blank equals cell 8 bold a minus 11 bold b end cell end table`
+$\begin{gathered} \vec{BD} & = ( 5 a - 2 b ) + ( 3 a - 9 b ) \\ = 5 a - 2 b + 3 a - 9 b \\ = 8 a - 11 b \end{gathered}$
 
 **[1]*** *
 
-`table row cell stack B D with rightwards arrow on top end cell equals cell 8 bold a minus 11 bold b end cell end table`* and *`table row cell stack B C with rightwards arrow on top end cell equals cell 2 bold a minus 3 bold b end cell end table`* Two vectors, **p** and **q**, are parallel is one can be written as a scalar multiple of the other, **p** = **k**q* $\overset{\rightarrow}{BD}$* and *$\overset{\rightarrow}{BC}$* cannot be written in the form *$\overset{\rightarrow}{BD}=k\overset{\rightarrow}{BC}$*, for example* * *
+$\begin{gathered} \vec{BD} & = 8 a - 11 b \end{gathered}$* and *$\begin{gathered} \vec{BC} & = 2 a - 3 b \end{gathered}$* Two vectors, **p** and **q**, are parallel is one can be written as a scalar multiple of the other, **p** = **k**q* $\overset{\rightarrow}{BD}$* and *$\overset{\rightarrow}{BC}$* cannot be written in the form *$\overset{\rightarrow}{BD}=k\overset{\rightarrow}{BC}$*, for example* * *
 
-`table row cell 4 stack B C with rightwards arrow on top end cell equals cell 4 open parentheses 2 bold a minus 3 bold b close parentheses equals 8 bold a minus 12 bold b not equal to stack B D with rightwards arrow on top end cell end table` * *
+$\begin{gathered} 4 \vec{BC} & = 4 ( 2 a - 3 b ) = 8 a - 12 b \text{eq} \vec{BD} \end{gathered}$ * *
 
-**No, **`table row blank blank cell stack bold italic B bold italic C with bold rightwards arrow on top end cell end table`** is not a scalar multiple of **`table row blank blank cell stack bold italic B bold italic D with bold rightwards arrow on top end cell end table`** ****[1]**
+**No, **`| _ _ B C -vec | |`** is not a scalar multiple of **`| _ _ B D -vec | |`** ****[1]**
 
 **This question could also be done by showing **$\overset{\rightarrow}{BC}$** ****is not a scalar multiple of **$\overset{\rightarrow}{CD}$
 
@@ -1729,9 +1725,9 @@ equals open parentheses 5 bold a minus 2 bold b close parentheses plus open pare
 ### 17() — 1 marks
 > *Work out **a** - 3**b **as follows*
 
-`table attributes columnalign right center left columnspacing 0px end attributes row cell bold a minus 3 bold b end cell equals cell open parentheses table row cell negative 3 end cell row 2 end table close parentheses minus 3 open parentheses table row 1 row cell negative 5 end cell end table close parentheses end cell row blank equals cell open parentheses table row cell negative 3 end cell row 2 end table close parentheses minus open parentheses table row 3 row cell negative 15 end cell end table close parentheses end cell row blank equals cell open parentheses table row cell negative 3 minus 3 end cell row cell 2 minus negative 15 end cell end table close parentheses end cell row blank equals cell open parentheses table row cell negative 6 end cell row 17 end table close parentheses end cell end table`
+`table columnalign right center left columnspacing 0px end | a - 3 b | = ( | - 3 | | 2 | ) - 3 ( | 1 | - 5 | | ) | | _ = ( | - 3 | | 2 | ) - ( | 3 | - 15 | | ) | | _ = ( | - 3 - 3 | | 2 - - 15 | | ) | | _ = ( | - 6 | | 17 | ) | |`
 
-**The ****first**** option is therefore correct, **`stretchy left parenthesis table row cell negative 6 end cell row 17 end table stretchy right parenthesis`** [1]**
+**The ****first**** option is therefore correct, **$( \begin{gathered} - 6 \\ 17 \end{gathered} )$** [1]**
 
 ## Q44 — very_hard — 5 marks · exam-questions
 
@@ -1747,32 +1743,32 @@ $\overset{\rightarrow}{\mathrm{AB}}=-3a+3b$
 *A to C is two-thirds of A to B* 
 *Find *$\overset{\rightarrow}{\mathrm{OC}}$* * * *
 
-`table row cell OC with rightwards arrow on top end cell equals cell OA with rightwards arrow on top plus AC with rightwards arrow on top end cell row blank equals cell OA with rightwards arrow on top plus 2 over 3 AB with rightwards arrow on top end cell row blank equals cell 3 bold a plus fraction numerator space 2 space over denominator 3 end fraction open parentheses negative 3 bold a plus 3 bold b close parentheses end cell end table`
+$\begin{gathered} O \vec{C} & = O \vec{A} + A \vec{C} \\ = O \vec{A} + \frac{2}{3} A \vec{B} \\ = 3 a + \frac{ 2 }{3} ( - 3 a + 3 b ) \end{gathered}$
 
 **[1]**
 
 *Expand and simplify* * *
 
-`table row cell OC with rightwards arrow on top end cell equals cell 3 bold a minus 2 bold a plus 2 bold b end cell row blank equals cell bold a plus 2 bold b end cell end table`
+$\begin{gathered} O \vec{C} & = 3 a - 2 a + 2 b \\ = a + 2 b \end{gathered}$
 
 **[1]**
 
-*Find *`table row blank blank cell OD with rightwards arrow on top end cell end table`* by going from O to B to D* * *
+*Find *$\begin{gathered} O \vec{D} \end{gathered}$* by going from O to B to D* * *
 
-`table row cell OD with rightwards arrow on top end cell equals cell OB with rightwards arrow on top plus BD with rightwards arrow on top end cell row blank equals cell 3 bold b plus open parentheses 2 bold a plus bold b close parentheses end cell end table`
+$\begin{gathered} O \vec{D} & = O \vec{B} + B \vec{D} \\ = 3 b + ( 2 a + b ) \end{gathered}$
 
 **[1]**
 
 *Expand and simplify* * *
 
-`table row cell OD with rightwards arrow on top end cell equals cell 3 bold b plus 2 bold a plus bold b end cell row blank equals cell 4 bold b plus 2 bold a end cell end table` * *
+$\begin{gathered} O \vec{D} & = 3 b + 2 a + b \\ = 4 b + 2 a \end{gathered}$ * *
 
 *Two vectors, **p** and **q**, are parallel if they are scalar multiples of each other, **p** = **k**q* 
-*Show that *`table row blank blank cell OD with rightwards arrow on top end cell end table`* is a scalar multiple of *`table attributes columnalign right center left columnspacing 0px end attributes row blank blank cell OB with rightwards arrow on top end cell end table`* (by factorising out a 2)* * *
+*Show that *$\begin{gathered} O \vec{D} \end{gathered}$* is a scalar multiple of *$\begin{array}{rcl} O \vec{B} \end{array}$* (by factorising out a 2)* * *
 
-`table row cell OD with rightwards arrow on top end cell equals cell 2 open parentheses 2 bold b plus bold a close parentheses equals 2 OC with rightwards arrow on top end cell end table` * *
+$\begin{gathered} O \vec{D} & = 2 ( 2 b + a ) = 2 O \vec{C} \end{gathered}$ * *
 
-`table attributes columnalign right center left columnspacing 0px end attributes row cell bold OD with bold rightwards arrow on top end cell bold equals cell bold 2 bold OC with bold rightwards arrow on top end cell end table`* ***so OD and OC are ****parallel**** and share a common point, O, so**** OCD is a straight line*** ***[1]**
+$\begin{array}{rcl} O \vec{D} & = 2 O \vec{C} \end{array}$* ***so OD and OC are ****parallel**** and share a common point, O, so**** OCD is a straight line*** ***[1]**
 
 ## Q45 — hard — 5 marks · exam-questions
 
@@ -1783,7 +1779,7 @@ $\overset{\rightarrow}{\mathrm{AB}}=-3a+3b$
 *The 'top row' would give as an equation in **m** and **n** by considering the **x**-direction of the vector.* 
 *The 'bottom row' would give us an equation in **m** and **n** by considering the **y**-direction of the vector.*
 
-`table attributes columnalign right center left columnspacing 0px end attributes row cell 4 m plus 5 n end cell equals 12 row cell m plus 2 n end cell equals 6 end table`
+$\begin{array}{rcl} 4 m + 5 n & = 12 \\ m + 2 n & = 6 \end{array}$
 
 **One for each equation ****[2]**
 
@@ -1791,19 +1787,19 @@ $\overset{\rightarrow}{\mathrm{AB}}=-3a+3b$
 
 $m=6-2n$
 
-`therefore 4 open parentheses 6 minus 2 n close parentheses plus 5 n equals 12`
+$\therefore 4 ( 6 - 2 n ) + 5 n = 12$
 
 **[1]**
 
 > *Expand, simplify and solve this equation to find **n**.*
 
-`table row cell 24 minus 8 n plus 5 n end cell equals 12 row cell 24 minus 3 n end cell equals 12 row cell 3 n end cell equals 12 row n equals 4 end table`
+$\begin{gathered} 24 - 8 n + 5 n & = 12 \\ 24 - 3 n & = 12 \\ 3 n & = 12 \\ n = 4 \end{gathered}$
 
 **[1]**
 
 > *Substitute **n** = 4 into either of the original equations (second one is easiest) to find **m**.*
 
-`table attributes columnalign right center left columnspacing 0px end attributes row cell m plus 2 open parentheses 4 close parentheses end cell equals 6 row m equals cell 6 minus 8 end cell row m equals cell negative 2 end cell end table`
+$\begin{array}{rcl} m + 2 ( 4 ) & = 6 \\ m = 6 - 8 \\ m = - 2 \end{array}$
 
 $\thereforem=-2,n=4$** ****[1]**
 
@@ -1812,7 +1808,7 @@ $\thereforem=-2,n=4$** ****[1]**
 ### 11((a)) — 2 marks
 *Calculate 2**a** and **a** + **b* * *
 
-`2 bold a equals 2 open parentheses table row 2 row 1 end table close parentheses equals open parentheses table row 4 row 2 end table close parentheses`*  **and  *`bold a plus bold b equals open parentheses table row 2 row 1 end table close parentheses plus open parentheses table row cell negative 2 end cell row 1 end table close parentheses equals open parentheses table row 0 row 2 end table close parentheses` * *
+$2 a = 2 ( \begin{gathered} 2 \\ 1 \end{gathered} ) = ( \begin{gathered} 4 \\ 2 \end{gathered} )$*  **and  *$a + b = ( \begin{gathered} 2 \\ 1 \end{gathered} ) + ( \begin{gathered} - 2 \\ 1 \end{gathered} ) = ( \begin{gathered} 0 \\ 2 \end{gathered} )$ * *
 
 *Draw these two vectors* * *
 
@@ -1835,31 +1831,31 @@ $\thereforem=-2,n=4$** ****[1]**
 *You need to show that *$\overset{\rightarrow}{\mathrm{EF}}$* is a scalar multiple of *$\overset{\rightarrow}{\mathrm{AG}}$
 *To find *$\overset{\rightarrow}{\mathrm{EF}}$*, go from E to B to F (and use that E to B is a quarter of A to B)  *
 
-> `EF with rightwards arrow on top equals EB with rightwards arrow on top plus BF with rightwards arrow on top
-equals 1 fourth AB with rightwards arrow on top plus 1 half BC with rightwards arrow on top
-equals 1 fourth open parentheses bold b minus bold a close parentheses plus 1 half bold b`*  *
+> $E \vec{F} = E \vec{B} + B \vec{F} 
+= 1 \frac{1}{4} A \vec{B} + 1 \frac{1}{2} B \vec{C} 
+= 1 \frac{1}{4} ( b - a ) + 1 \frac{1}{2} b$*  *
 
 > *Expand and simplify  *
 
-`table row cell EF with rightwards arrow on top end cell equals cell 1 fourth bold b minus 1 fourth bold a plus 1 half bold b end cell row blank equals cell negative 1 fourth bold a plus 3 over 4 bold b end cell end table`
+$\begin{gathered} E \vec{F} & = 1 \frac{1}{4} b - 1 \frac{1}{4} a + 1 \frac{1}{2} b \\ = - 1 \frac{1}{4} a + \frac{3}{4} b \end{gathered}$
 
 **[1]**
 
 > *To find *$\overset{\rightarrow}{\mathrm{AG}}$* go from A to D to G  *
 
-> `table row cell AG with rightwards arrow on top end cell equals cell AD with rightwards arrow on top plus DG with rightwards arrow on top end cell row blank equals cell AD with rightwards arrow on top plus 1 half AB with rightwards arrow on top end cell row blank equals cell bold b plus 1 half open parentheses bold b minus bold a close parentheses end cell end table`*  *
+> $\begin{gathered} A \vec{G} & = A \vec{D} + D \vec{G} \\ = A \vec{D} + 1 \frac{1}{2} A \vec{B} \\ = b + 1 \frac{1}{2} ( b - a ) \end{gathered}$*  *
 
 > *Expand and simplify  *
 
-`table row cell AG with rightwards arrow on top end cell equals cell bold b plus 1 half bold b minus 1 half bold a end cell row blank equals cell negative 1 half bold a plus 3 over 2 bold b end cell end table`
+$\begin{gathered} A \vec{G} & = b + 1 \frac{1}{2} b - 1 \frac{1}{2} a \\ = - 1 \frac{1}{2} a + \frac{3}{2} b \end{gathered}$
 
 **[1]**
 
 > *Show that *$\overset{\rightarrow}{\mathrm{EF}}$*  is a scalar multiple of *$\overset{\rightarrow}{\mathrm{AG}}$* (by factorising out a half)  *
 
-`table row cell EF with rightwards arrow on top end cell equals cell 1 half open parentheses negative 1 half bold a plus 3 over 2 bold b close parentheses equals 1 half AG with rightwards arrow on top end cell end table`
+$\begin{gathered} E \vec{F} & = 1 \frac{1}{2} ( - 1 \frac{1}{2} a + \frac{3}{2} b ) = 1 \frac{1}{2} A \vec{G} \end{gathered}$
 
-`table row blank blank cell bold EF with bold rightwards arrow on top end cell end table bold equals bold 1 over bold 2 table row blank blank cell stack bold A bold G with bold rightwards arrow on top end cell end table`** so **`table row blank blank cell bold EF with bold rightwards arrow on top end cell end table`** and **`table row blank blank cell bold AG with bold rightwards arrow on top end cell end table`** are parallel ****[1]**
+`| _ _ EF -vec | | = 1 / 2 | _ _ A G -vec | |`** so **$\begin{gathered} E \vec{F} \end{gathered}$** and **$\begin{gathered} A \vec{G} \end{gathered}$** are parallel ****[1]**
 
 ## Q48 — hard — 3 marks · exam-questions
 
@@ -1896,21 +1892,21 @@ equals 1 fourth open parentheses bold b minus bold a close parentheses plus 1 ha
 ### 11((c)) — 2 marks
 *Find **a** - **b** by subtracting components* * *
 
-`bold a minus bold b equals open parentheses table row 2 row 1 end table close parentheses minus open parentheses table row cell negative 2 end cell row 1 end table close parentheses equals open parentheses table row 4 row 0 end table close parentheses` * *
+$a - b = ( \begin{gathered} 2 \\ 1 \end{gathered} ) - ( \begin{gathered} - 2 \\ 1 \end{gathered} ) = ( \begin{gathered} 4 \\ 0 \end{gathered} )$ * *
 
 *Substitute **a** - **b** and **c** into **k**(**a** - **b**) = **c* * *
 
-`k open parentheses table row 4 row 0 end table close parentheses equals open parentheses table row cell negative 12 end cell row 0 end table close parentheses`
+$k ( \begin{gathered} 4 \\ 0 \end{gathered} ) = ( \begin{gathered} - 12 \\ 0 \end{gathered} )$
 
 **[1]**
 
 *Multiply the components on the left by **k* * *
 
-`open parentheses table row cell 4 k end cell row 0 end table close parentheses equals open parentheses table row cell negative 12 end cell row 0 end table close parentheses` * *
+$( \begin{gathered} 4 k \\ 0 \end{gathered} ) = ( \begin{gathered} - 12 \\ 0 \end{gathered} )$ * *
 
 *Read off the equation from the top components and solve it*
 
-`table row cell 4 k end cell equals cell negative 12 end cell row k equals cell negative 12 over 4 end cell end table`
+$\begin{gathered} 4 k & = - 12 \\ k = - \frac{12}{4} \end{gathered}$
 
 **k**** = -3**** ****[1]**
 
@@ -1921,32 +1917,32 @@ equals 1 fourth open parentheses bold b minus bold a close parentheses plus 1 ha
 *You need to show that *$\overset{\rightarrow}{\mathrm{PQ}}$* is a scalar multiple of *$\overset{\rightarrow}{\mathrm{SR}}$ 
 *To find *$\overset{\rightarrow}{\mathrm{PQ}}$* you can go from P to X to Q  *
 
-`table row cell PQ with rightwards arrow on top end cell equals cell PX with rightwards arrow on top plus XQ with rightwards arrow on top end cell row blank equals cell bold a plus bold b end cell end table`
+$\begin{gathered} P \vec{Q} & = P \vec{X} + X \vec{Q} \\ = a + b \end{gathered}$
 
 **[1]**
 
 > *To find *$\overset{\rightarrow}{\mathrm{SR}}$* you can go from S to Z to R*
 * It helps to find *$\overset{\rightarrow}{\mathrm{ZY}}$* first, by going from Z to S to O to P to X to Q to Y  *
 
-`table row cell ZY with rightwards arrow on top end cell equals cell ZS with rightwards arrow on top plus SO with rightwards arrow on top plus OP with rightwards arrow on top plus PX with rightwards arrow on top plus XQ with rightwards arrow on top plus QY with rightwards arrow on top end cell row blank equals cell negative bold c minus bold c plus bold a plus bold a plus bold b plus bold b end cell row blank equals cell negative 2 bold c plus 2 bold a plus 2 bold b end cell end table`
+$\begin{gathered} Z \vec{Y} & = Z \vec{S} + S \vec{O} + O \vec{P} + P \vec{X} + X \vec{Q} + Q \vec{Y} \\ = - c - c + a + a + b + b \\ = - 2 c + 2 a + 2 b \end{gathered}$
 
 **[1]**
 
 *Now use this to help find *$\overset{\rightarrow}{\mathrm{SR}}$
 
-`table row cell SR with rightwards arrow on top end cell equals cell SZ with rightwards arrow on top plus ZR with rightwards arrow on top end cell row blank equals cell SZ with rightwards arrow on top plus 1 half ZY with rightwards arrow on top end cell row blank equals cell bold c plus 1 half open parentheses negative 2 bold c plus 2 bold a plus 2 bold b close parentheses end cell end table`
+$\begin{gathered} S \vec{R} & = S \vec{Z} + Z \vec{R} \\ = S \vec{Z} + 1 \frac{1}{2} Z \vec{Y} \\ = c + 1 \frac{1}{2} ( - 2 c + 2 a + 2 b ) \end{gathered}$
 
 **[1]**
 
 *Expand and simplify*
 
-`table row cell SR with rightwards arrow on top end cell equals cell bold c minus bold c plus bold a plus bold b end cell row blank equals cell bold a plus bold b end cell end table`
+$\begin{gathered} S \vec{R} & = c - c + a + b \\ = a + b \end{gathered}$
 
 **[1]**
 
 > *The vector *$\overset{\rightarrow}{\mathrm{PQ}}$* is identical to *$\overset{\rightarrow}{\mathrm{SR}}$* so they must be parallel*
 
-`table row cell bold PQ with bold rightwards arrow on top end cell bold equals cell bold SR with bold rightwards arrow on top end cell end table`** so PQ and SR are ****parallel ****[1]**
+$\begin{gathered} P \vec{Q} & = S \vec{R} \end{gathered}$** so PQ and SR are ****parallel ****[1]**
 
 ## Q52 — hard — 5 marks · exam-questions
 
@@ -1988,16 +1984,16 @@ $\overset{\rightarrow}{MB}=\frac{1}{4}p$
 
 > *Work out *$\overset{\rightarrow}{BN}$*, using** N** is the midpoint of **BC** to state:*
 
-`stack B N with rightwards arrow on top equals 1 half stack B C with rightwards arrow on top
-stack B N with rightwards arrow on top equals 1 half open parentheses stack B A with rightwards arrow on top plus stack A C with rightwards arrow on top close parentheses`
+$\vec{BN} = 1 \frac{1}{2} \vec{BC} 
+ \vec{BN} = 1 \frac{1}{2} ( \vec{BA} + \vec{AC} )$
 
 > *Express *$\overset{\rightarrow}{BN}$* in terms of** p **and q*
 
-`table row cell stack B N with rightwards arrow on top end cell equals cell 1 half open parentheses negative bold p plus bold q close parentheses end cell end table`
+$\begin{gathered} \vec{BN} & = 1 \frac{1}{2} ( - p + q ) \end{gathered}$
 
 > *Use the calculated vectors to work out *$\overset{\rightarrow}{MN}$* in terms of p and q and simplify*
 
-`table row cell stack M N with rightwards arrow on top end cell equals cell stack M B with rightwards arrow on top plus stack B M with rightwards arrow on top end cell row blank equals cell space 1 fourth bold p plus 1 half open parentheses negative bold p plus bold q close parentheses end cell row blank equals cell 1 fourth bold p minus 1 half bold p plus 1 half bold q end cell row blank equals cell negative 1 fourth bold p plus 1 half bold q end cell end table`
+$\begin{gathered} \vec{MN} & = \vec{MB} + \vec{BM} \\ = 1 \frac{1}{4} p + 1 \frac{1}{2} ( - p + q ) \\ = 1 \frac{1}{4} p - 1 \frac{1}{2} p + 1 \frac{1}{2} q \\ = - 1 \frac{1}{4} p + 1 \frac{1}{2} q \end{gathered}$
 
 **[A1]**
 
@@ -2015,7 +2011,7 @@ $\overset{\rightarrow}{MN}=\frac{1}{2}q-\frac{1}{4}p$
 
 > *Multiplying *$\overset{\rightarrow}{MN}$* by 4 gives *$\overset{\rightarrow}{BD}$*, therefore the vectors are parallel*
 
-`4 open parentheses 1 half bold q minus 1 fourth bold p close parentheses equals 2 bold q minus bold p`* *
+$4 ( 1 \frac{1}{2} q - 1 \frac{1}{4} p ) = 2 q - p$* *
 
 **Final answer:** **Therefore **$\overset{\rightarrow}{BD}=4\overset{\rightarrow}{MN}$** and **$\overset{\rightarrow}{BD}$** is parallel to **$\overset{\rightarrow}{MN}$
 
@@ -2041,27 +2037,27 @@ $\overset{\rightarrow}{AN}=-2a+b$
 
 > *Path through A*
 
-`stack O P with rightwards arrow on top space equals space stack O A with rightwards arrow on top plus stack A P with rightwards arrow on top
-stack O P with rightwards arrow on top space equals space stack O A with rightwards arrow on top plus x stack A N with rightwards arrow on top
-stack O P with rightwards arrow on top space equals space 2 bold italic a space plus space x open parentheses negative 2 bold italic a space plus space bold italic b close parentheses`
+$\vec{OP} = \vec{OA} + \vec{AP} 
+ \vec{OP} = \vec{OA} + x \vec{AN} 
+ \vec{OP} = 2 a + x ( - 2 a + b )$
 
 **[M1]**
 
 > *Path  through M*
 
-`stack O P with rightwards arrow on top space equals space stack O M with rightwards arrow on top plus stack M P with rightwards arrow on top
-stack O P with rightwards arrow on top space equals space stack O M with rightwards arrow on top plus y stack M B with rightwards arrow on top
-stack O P with rightwards arrow on top space equals space bold italic a space plus space y open parentheses negative bold italic a space plus space 6 bold italic b close parentheses`
+$\vec{OP} = \vec{OM} + \vec{MP} 
+ \vec{OP} = \vec{OM} + y \vec{MB} 
+ \vec{OP} = a + y ( - a + 6 b )$
 
 **[M1]**
 
 > *Put the two vectors for  *$\overset{\rightarrow}{OP}$* equal to each other*
 
-`bold italic a space plus space y open parentheses negative bold italic a space plus space 6 bold italic b close parentheses space equals space 2 bold italic a space plus space x open parentheses negative 2 bold italic a space plus space bold italic b close parentheses`
+$a + y ( - a + 6 b ) = 2 a + x ( - 2 a + b )$
 
 > *Rewrite it to see the coefficients of **a** and **b*
 
-`open parentheses 1 space minus space y close parentheses bold italic a space plus space 6 y bold italic b space equals space open parentheses 2 space minus space 2 x close parentheses bold italic a space plus space x bold italic b`
+$( 1 - y ) a + 6 y b = ( 2 - 2 x ) a + x b$
 
 > *Equate coefficients to create simultaneous equations*
 
@@ -2071,9 +2067,9 @@ $a:1-y=2-2x\,b:6y=x$
 
 > *Solve simultaneously by substituting the second equation into the first*
 
-`table row cell 1 minus y end cell equals cell 2 minus 2 open parentheses 6 y close parentheses end cell row cell 1 minus y end cell equals cell 2 minus 12 y end cell row cell 11 y space end cell equals cell space 1 end cell row cell y space end cell equals cell fraction numerator space 1 over denominator 11 end fraction end cell end table`
+$\begin{gathered} 1 - y & = 2 - 2 ( 6 y ) \\ 1 - y & = 2 - 12 y \\ 11 y & = 1 \\ y & = \frac{ 1}{11} \end{gathered}$
 
-`table row x equals cell 6 open parentheses 1 over 11 close parentheses equals 6 over 11 end cell end table`
+$\begin{gathered} x = 6 ( \frac{1}{11} ) = \frac{6}{11} \end{gathered}$
 
 > *As **x** is the fraction of  *$\overset{\rightarrow}{AN}$* that gives  *$\overset{\rightarrow}{AP}$* , that means *$\overset{\rightarrow}{AP}$* is *$\frac{6}{11}$* of *$\overset{\rightarrow}{AN}$* *
 

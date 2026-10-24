@@ -66,7 +66,7 @@ guided_study: true
 > 
 > > *Use SOHCAHTOA on triangle **OMQ** to find the length **MQ*
 > 
-> `table row cell cos space 40 end cell equals cell fraction numerator M Q over denominator 6 end fraction end cell row cell 6 space cos space 40 space end cell equals cell space M Q end cell row cell M Q end cell equals cell 4.59626... end cell end table`* *
+> $\begin{gathered} \cos 40 & = \frac{M Q}{6} \\ 6 \cos 40 & = M Q \\ M Q & = 4.59626... \end{gathered}$* *
 > 
 > > *Double **MQ** to find the length **PQ*
 > 

@@ -519,13 +519,13 @@
    "type": "callout",
    "variant": "worked-example",
    "label": "Worked Example",
-   "md": "The sixth term of a geometric series is 486 and the seventh term is 1458.\n\nFind\n\n(a) the common ratio of the series\n\n> *Find the common ratio by dividing a term by the term immediately before it*\n*Here *$r=\\frac{7^{\\mathrm{th}}\\mathrm{term}}{6^{\\mathrm{th}}\\mathrm{term}}$\n\n$r=\\frac{1458}{486}$\n\n$r=3$\n\n(b) the first term of the series.\n\n> *Use the **n*<sup>*th*</sup>* term formula  *$u_{n}=ar^{n-1}$\n\n> *For the 6*<sup>*th*</sup>* term, we know  *$u_{6}=486$*,  *$r=3$*  and  *$n=6$\n\n`table row 486 equals cell a cross times 3 to the power of open parentheses 6 minus 1 close parentheses end exponent end cell row 486 equals cell a cross times 3 to the power of 5 end cell row 486 equals cell 243 a end cell row a equals cell 486 over 243 end cell end table`\n\n$a=2$"
+   "md": "The sixth term of a geometric series is 486 and the seventh term is 1458.\n\nFind\n\n(a) the common ratio of the series\n\n> *Find the common ratio by dividing a term by the term immediately before it*\n*Here *$r=\\frac{7^{\\mathrm{th}}\\mathrm{term}}{6^{\\mathrm{th}}\\mathrm{term}}$\n\n$r=\\frac{1458}{486}$\n\n$r=3$\n\n(b) the first term of the series.\n\n> *Use the **n*<sup>*th*</sup>* term formula  *$u_{n}=ar^{n-1}$\n\n> *For the 6*<sup>*th*</sup>* term, we know  *$u_{6}=486$*,  *$r=3$*  and  *$n=6$\n\n$\\begin{gathered} 486 = a \\times 3^{( 6 - 1 )} \\\\ 486 = a \\times 3^{5} \\\\ 486 = 243 a \\\\ a = \\frac{486}{243} \\end{gathered}$\n\n$a=2$"
   },
   {
    "type": "callout",
    "variant": "worked-example",
    "label": "Worked Example",
-   "md": "The first term of a geometric series is 25, and the common ratio is 0.8.\n\nFind the value of the fifth term, as well as the sum of the first 5 terms.\n\n> *To find the fifth term, use the **n*<sup>*th*</sup>* term formula  *$u_{n}=ar^{n-1}$\n*Here  *$n=5$*,  *$a=25$*  and  *$r=0.8$* *\n\n`table row cell fifth space term end cell equals cell 25 cross times 0.8 to the power of open parentheses 5 minus 1 close parentheses end exponent end cell row blank equals cell 25 cross times 0.8 to the power of 4 end cell end table`\n\n> $\\mathrm{fifth} \\mathrm{term}=10.24$\n\n*To find the sum of the first 5 terms, use the sum of a geometric series formula  *$S_{n}=\\frac{a(1-r^{n})}{1-r}$\n*Again,  *$a=25$*  and  *$r=0.8$* *\n\n`S subscript 5 equals fraction numerator 25 open parentheses 1 minus 0.8 to the power of 5 close parentheses over denominator 1 minus 0.8 end fraction`\n\n> *Use your calculator to work this out  *\n\n$S_{5}=84.04$"
+   "md": "The first term of a geometric series is 25, and the common ratio is 0.8.\n\nFind the value of the fifth term, as well as the sum of the first 5 terms.\n\n> *To find the fifth term, use the **n*<sup>*th*</sup>* term formula  *$u_{n}=ar^{n-1}$\n*Here  *$n=5$*,  *$a=25$*  and  *$r=0.8$* *\n\n$\\begin{gathered} \\frac{1}{5} \\text{term} & = 25 \\times 0.8^{( 5 - 1 )} \\\\ = 25 \\times 0.8^{4} \\end{gathered}$\n\n> $\\mathrm{fifth} \\mathrm{term}=10.24$\n\n*To find the sum of the first 5 terms, use the sum of a geometric series formula  *$S_{n}=\\frac{a(1-r^{n})}{1-r}$\n*Again,  *$a=25$*  and  *$r=0.8$* *\n\n$S_{5} = \\frac{25 ( 1 - 0.8^{5} )}{1 - 0.8}$\n\n> *Use your calculator to work this out  *\n\n$S_{5}=84.04$"
   },
   {
    "type": "spec_point",
@@ -558,11 +558,11 @@
   },
   {
    "type": "bullets",
-   "md": "- First you need to consider the **value of **$r$\n\n  - If  `open vertical bar r close vertical bar less than space 1`  then the sequence **converges**\n  \n    - `open vertical bar r close vertical bar less than 1`**  **is the same as   $-1<r<1$\n    - In this case the sum to infinity can be calculated\n  - If  `open vertical bar r close vertical bar greater or equal than 1`  then the sequence **does not converge**\n  \n    - `open vertical bar r close vertical bar greater or equal than 1`  is the same as  $r\\leq-1$  or  $r\\geq1$\n    - In this case the sum to infinity cannot be calculated\n- If `vertical line r vertical line space less than space 1`, then the sum **converges** to a finite value given by the formula"
+   "md": "- First you need to consider the **value of **$r$\n\n  - If  $\\left| r \\right| < 1$  then the sequence **converges**\n  \n    - `open vertical bar r close vertical bar less than 1`**  **is the same as   $-1<r<1$\n    - In this case the sum to infinity can be calculated\n  - If  `open vertical bar r close vertical bar greater or equal than 1`  then the sequence **does not converge**\n  \n    - `open vertical bar r close vertical bar greater or equal than 1`  is the same as  $r\\leq-1$  or  $r\\geq1$\n    - In this case the sum to infinity cannot be calculated\n- If $\\vert r \\vert < 1$, then the sum **converges** to a finite value given by the formula"
   },
   {
    "type": "paragraph",
-   "md": "`S subscript infinity equals fraction numerator a over denominator 1 minus r end fraction space comma space blank open vertical bar r close vertical bar less than 1`"
+   "md": "`S _ inf = (a)/(1 - r) , _ | r | less than 1`"
   },
   {
    "type": "bullets",
@@ -578,7 +578,7 @@
    "type": "callout",
    "variant": "worked-example",
    "label": "Worked Example",
-   "md": "The first three terms of a geometric sequence are  $6,2,\\frac{2}{3}$.  Show that the sum to infinity of the series exists, and then find the sum to infinity.\n\n> *To show the sum to infinity exists we need to know the value of the common ratio *$r$\n\n> *We can find this by dividing a term by the term immediately before it *\n\n$r=\\frac{2}{6}=\\frac{1}{3}$\n\n> *This satisfies *`open vertical bar r close vertical bar less than 1`*, so the series converges and the sum to infinity exists*\n\n`stretchy vertical line r stretchy vertical line bold less than bold 1`*, ***so the series converges**\n\n> *Now use the sum to infinity formula  *$S_{\\infty}=\\frac{a}{1-r}$\n\n> *Here  *$a=6$*  and  *$r=\\frac{1}{3}$\n\n`table row cell S subscript infinity end cell equals cell fraction numerator 6 over denominator 1 minus 1 third end fraction end cell row blank equals cell fraction numerator 6 over denominator open parentheses 2 over 3 close parentheses end fraction end cell row blank equals cell 6 cross times 3 over 2 end cell end table`\n\n$S_{\\infty}=9$"
+   "md": "The first three terms of a geometric sequence are  $6,2,\\frac{2}{3}$.  Show that the sum to infinity of the series exists, and then find the sum to infinity.\n\n> *To show the sum to infinity exists we need to know the value of the common ratio *$r$\n\n> *We can find this by dividing a term by the term immediately before it *\n\n$r=\\frac{2}{6}=\\frac{1}{3}$\n\n> *This satisfies *`open vertical bar r close vertical bar less than 1`*, so the series converges and the sum to infinity exists*\n\n$\\text{stretchy} \\mid r \\text{stretchy} \\mid < 1$*, ***so the series converges**\n\n> *Now use the sum to infinity formula  *$S_{\\infty}=\\frac{a}{1-r}$\n\n> *Here  *$a=6$*  and  *$r=\\frac{1}{3}$\n\n`| S _ inf | = (6)/(1 - 1 third) | | _ = (6)/(( 2 / 3 )) | | _ = 6 x 3 / 2 | |`\n\n$S_{\\infty}=9$"
   }
  ]
 }

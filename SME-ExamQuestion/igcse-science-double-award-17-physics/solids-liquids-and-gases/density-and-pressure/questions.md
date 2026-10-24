@@ -411,7 +411,7 @@ When the pressure of this trapped air reaches 104 kPa, the pressure switch turns
 
 The pressure of the trapped air is given by this relationship
 
-`table row cell table row cell pressure space of space the end cell row cell trapped space air end cell end table space equals space end cell end table table row atmospheric row pressure end table space plus space table row cell pressure space difference end cell row cell caused space by space water end cell end table`
+`| | pressure of the | | trapped air | | = | | | atmospheric | pressure | + | pressure difference | | caused by water | |`
 
 State the equation linking pressure difference, height, density and *g*.
 

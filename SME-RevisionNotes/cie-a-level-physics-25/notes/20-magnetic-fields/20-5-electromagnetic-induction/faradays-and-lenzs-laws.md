@@ -115,11 +115,11 @@ $ε=-N\frac{\DeltaΦ}{\Deltat}$
 > 
 > **Step 3:** **Write out the equation for flux linkage**
 > 
-> `N capital phi space equals space B A N cos open parentheses theta close parentheses`
+> $N \\Phi = B A N \cos ( \\theta )$
 > 
 > **Step 4: Substitute values into flux linkage equation:**
 > 
-> `N capital phi space equals space open parentheses 80 cross times 10 to the power of negative 3 end exponent close parentheses cross times open parentheses 4.9 cross times 10 to the power of negative 4 end exponent close parentheses cross times 350 cross times cos space 50 degree space equals space 8.82 cross times 10 to the power of negative 3 end exponent space Wb`
+> $N \\Phi = ( 80 \times 10^{- 3} ) \times ( 4.9 \times 10^{- 4} ) \times 350 \times \cos 50^{\circ} = 8.82 \times 10^{- 3} \text{Wb}$
 > 
 > **Step 5: Substitute flux linkage and time into Faraday’s law equation**
 > 

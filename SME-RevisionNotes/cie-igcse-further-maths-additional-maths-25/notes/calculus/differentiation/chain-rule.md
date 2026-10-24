@@ -92,7 +92,7 @@ How do I differentiate (*ax* + *b*)<sup>n</sup>?
     - $\frac{dy}{dx}=\frac{dy}{du}\times\frac{du}{dx}=a\times\frac{1}{2}u^{-\frac{1}{2}}=\frac{a}{2}u^{-\frac{1}{2}}$
   - **Substitute** *u = ax + b *back into your answer
   
-    - `fraction numerator straight d y over denominator straight d x end fraction equals blank a over 2 open parentheses a x plus b close parentheses to the power of negative 1 half end exponent blank equals fraction numerator a over denominator 2 square root of a x plus b end root end fraction`
+    - $\frac{ \mathrm{d} y}{ \mathrm{d} x} = \frac{a}{2} ( a x + b )^{- 1 \frac{1}{2}} = \frac{a}{2 \sqrt{a x + b} }$
 - This method can be used for any **fractional power** of any linear or non-linear expression
 
   - Provided you know how to differentiate the non-linear expression
@@ -101,14 +101,14 @@ How do I differentiate (*ax* + *b*)<sup>n</sup>?
 
 - The following general results are particularly useful
 
-  - If`size 16px space size 16px y size 16px equals begin mathsize 16px style stretchy left parenthesis straight f open parentheses x close parentheses stretchy right parenthesis end style to the power of size 16px n` then$\frac{dy}{dx}=nf^{'}(x)f(x)^{n-1}$
+  - If$\text{size} 16px \text{size} 16px y \text{size} 16px = ( \mathrm{f} ( x ) )^{size} 16px n$ then$\frac{dy}{dx}=nf^{'}(x)f(x)^{n-1}$
 
 - If$y=e^{f(x)}$ then$\frac{dy}{dx}=f^{'}(x)e^{f(x)}$
 
-  - If`space y equals ln stretchy left parenthesis straight f open parentheses x close parentheses stretchy right parenthesis` then$\frac{dy}{dx}=\frac{f^{'}(x)}{f(x)}$
-  - If`space y equals sin stretchy left parenthesis straight f open parentheses x close parentheses stretchy right parenthesis` then`space fraction numerator straight d y over denominator straight d x end fraction equals straight f to the power of straight apostrophe stretchy left parenthesis x stretchy right parenthesis cos stretchy left parenthesis straight f open parentheses x close parentheses stretchy right parenthesis`
-  - If`space y equals cos stretchy left parenthesis straight f open parentheses x close parentheses stretchy right parenthesis` then`space fraction numerator straight d y over denominator straight d x end fraction equals negative straight f to the power of apostrophe stretchy left parenthesis x stretchy right parenthesis sin stretchy left parenthesis straight f open parentheses x close parentheses stretchy right parenthesis`
-  - If `size 16px y size 16px equals size 16px tan begin mathsize 16px style stretchy left parenthesis straight f open parentheses x close parentheses stretchy right parenthesis end style` then `Alternative text not available`
+  - If$y = \ln ( \mathrm{f} ( x ) )$ then$\frac{dy}{dx}=\frac{f^{'}(x)}{f(x)}$
+  - If$y = \sin ( \mathrm{f} ( x ) )$ then$\frac{ \mathrm{d} y}{ \mathrm{d} x} = \mathrm{f}^{'} ( x ) \cos ( \mathrm{f} ( x ) )$
+  - If$y = \cos ( \mathrm{f} ( x ) )$ then$\frac{ \mathrm{d} y}{ \mathrm{d} x} = - \mathrm{f}^{'} ( x ) \sin ( \mathrm{f} ( x ) )$
+  - If $\text{size} 16px y \text{size} 16px = \text{size} 16px \tan ( \mathrm{f} ( x ) )$ then `Alternative text not available`
 
 > **Exam Hint**
 > - You should aim to be able to spot and carry out the chain rule mentally (rather than use substitution)
@@ -128,11 +128,11 @@ How do I differentiate (*ax* + *b*)<sup>n</sup>?
 > 
 > > *STEP 3   Apply the chain rule, *$\frac{dy}{dx}=\frac{dy}{du}\times\frac{du}{dx}$
 > 
-> `fraction numerator straight d y over denominator straight d x end fraction equals 7 u to the power of 6 open parentheses 2 x minus 5 close parentheses space`
+> $\frac{ \mathrm{d} y}{ \mathrm{d} x} = 7 u^{6} ( 2 x - 5 )$
 > 
 > > *Substitute *$u$* in terms of *$x$* back in*
 > 
-> `space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space equals 7 open parentheses x squared minus 5 x plus 7 close parentheses to the power of 6 open parentheses 2 x minus 5 close parentheses`
+> $= 7 ( x^{2} - 5 x + 7 )^{6} ( 2 x - 5 )$
 > 
 > $\frac{dy}{dx}=7(2x-5)(x^{2}-5x+7)^{6}$
 > 
@@ -140,12 +140,12 @@ How do I differentiate (*ax* + *b*)<sup>n</sup>?
 > 
 > > *(In this solution, we will be applying the mental method discussed in the Exam Tip above)*
 > 
-> > *"... differentiate *`sin space box enclose blank end enclose`*, ignore *$e^{2x}$*"*
+> > *"... differentiate *`sin box _`*, ignore *$e^{2x}$*"*
 > 
-> `fraction numerator straight d y over denominator straight d x end fraction equals cos open parentheses straight e to the power of 2 x end exponent close parentheses cross times box enclose space space space space space space space space space end enclose`
+> `( d y)/( d x) = cos ( e ^ 2 x ) x box`
 > 
 > > *"... multiply by the derivative of *$e^{2x}$*": differentiate *$e^{2x}$* using the result "if *$y=e^{f(x)}$*, then *$\frac{dy}{dx}=f^{'}(x)e^{f(x)}$*"*
 > 
-> `fraction numerator straight d y over denominator straight d x end fraction equals cos open parentheses straight e to the power of 2 x end exponent close parentheses cross times 2 straight e to the power of 2 x end exponent`
+> $\frac{ \mathrm{d} y}{ \mathrm{d} x} = \cos ( \mathrm{e}^{2 x} ) \times 2 \mathrm{e}^{2 x}$
 > 
 > $\frac{dy}{dx}=2e^{2x}\mathrm{cos}(e^{2x})$

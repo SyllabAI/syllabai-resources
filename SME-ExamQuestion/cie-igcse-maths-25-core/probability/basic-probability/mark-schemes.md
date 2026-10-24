@@ -39,17 +39,17 @@ $0.32$
 ### Q2
 > *Recognise that the sum of mutually exclusive events is always 1*
 
-`0.8 plus straight P open parentheses R apostrophe close parentheses equals 1
-straight P open parentheses R apostrophe close parentheses equals 1 minus 0.8`
+$0.8 + \mathrm{P} ( R ' ) = 1
+ \mathrm{P} ( R ' ) = 1 - 0.8$
 
-`straight P open parentheses R apostrophe close parentheses equals 0.2`
+$\mathrm{P} ( R ' ) = 0.2$
 
 **[B1]**
 > *The total probability of picking a blue toy or a green toy is 0.2*
 
 > *Let *$n$* be the total number of toys*
 
-`table row cell fraction numerator 3 plus 2 over denominator n end fraction end cell equals cell 0.2 end cell row cell 5 over n end cell equals cell 0.2 end cell end table`
+$\begin{gathered} \frac{3 + 2}{n} & = 0.2 \\ \frac{5}{n} & = 0.2 \end{gathered}$
 
 **[M1]**
 
@@ -67,7 +67,7 @@ $25-3-2=20$
 
 > *Find the missing probabilities*
 
-`table row cell straight P open parentheses Blue close parentheses end cell equals cell 3 over 25 equals 0.12 end cell row cell straight P open parentheses Red close parentheses end cell equals cell 2 over 25 equals 0.08 end cell end table`
+$\begin{gathered} \mathrm{P} ( \text{Blue} ) & = \frac{3}{25} = 0.12 \\ \mathrm{P} ( \text{Red} ) & = \frac{2}{25} = 0.08 \end{gathered}$
 
 > **[exam-tip]**
 > Check to see if the total probability adds up to 1 to confirm that you have been correct to this point.
@@ -308,7 +308,7 @@ $\frac{2}{12}$
 > *"There are 12 letters" also accepted*
 > *Add up the probabilities and subtract from 1. *
 
-`1 minus open parentheses 0.12 plus 0.09 plus 0.4 close parentheses equals 0.39`
+$1 - ( 0.12 + 0.09 + 0.4 ) = 0.39$
 
 * ***[1]**
 
@@ -341,7 +341,7 @@ $19-14=5$
 
 > *Add together all the numbers inside the circles and subtract from the total number of students, 40. *
 
-> `40 minus open parentheses 10 plus 14 plus 5 close parentheses equals 11`* *
+> $40 - ( 10 + 14 + 5 ) = 11$* *
 
 > *Put 11 into the box, outside the circles.*
 
@@ -520,14 +520,14 @@ $\frac{5}{8}$* ***[1]**
 ### Q24
 > *There are 8 balls in total and 4 of the balls are red. This means that*
 
-`straight P open parentheses red close parentheses space equals 4 over 8 space equals 1 half`
+$\mathrm{P} ( \text{red} ) = \frac{4}{8} = 1 \frac{1}{2}$
 
 > *0.5 is equivalent to *$\frac{1}{2}$* so find the arrow pointing to this.*
 
 **E**** ****[1]**
 > *7 of the balls are colours other than blue, therefore*
 
-`straight P open parentheses not space blue close parentheses space equals 7 over 8`
+$\mathrm{P} ( \text{not} \text{blue} ) = \frac{7}{8}$
 
 > *The probability scale is split into eighths so each mark represents *$\frac{1}{8}$*. Counting up to *$\frac{7}{8}$* we can find the letter*
 

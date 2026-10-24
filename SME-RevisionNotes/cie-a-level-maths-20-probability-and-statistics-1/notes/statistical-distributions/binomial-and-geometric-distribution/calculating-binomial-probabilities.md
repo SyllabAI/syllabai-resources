@@ -17,19 +17,19 @@ guided_study: true
 
 ## Calculating Binomial Probabilities
 
-Throughout this section we will use the random variable `begin mathsize 16px style X tilde straight B left parenthesis n comma p right parenthesis end style`. For binomial, the probability of a *X* taking a non-integer or negative value is always zero. Therefore any values mentioned in this section will be assumed to be non-negative integers.
+Throughout this section we will use the random variable $X \sim \mathrm{B} ( n , p )$. For binomial, the probability of a *X* taking a non-integer or negative value is always zero. Therefore any values mentioned in this section will be assumed to be non-negative integers.
 
 #### Where does the formula for a binomial distribution come from?
 
 - The formula for calculating an individual **binomial probability **is
 
-  - `begin mathsize 16px style straight P left parenthesis X equals r right parenthesis equals p subscript r equals open parentheses table row n row r end table close parentheses p to the power of r open parentheses 1 minus p close parentheses to the power of n minus r end exponent end style`
+  - $\mathrm{P} ( X = r ) = p_{r} = ( \begin{gathered} n \\ r \end{gathered} ) p^{r ( 1 - p )^{n} - r}$
   
-    - If there are *r* successes then there are `open parentheses n minus r close parentheses` failures
+    - If there are *r* successes then there are $( n - r )$ failures
     - The number of times this can happen is calculated by the **binomial coefficient**
-    - `open parentheses table row n row r end table close parentheses equals C presuperscript n subscript r equals fraction numerator n factorial over denominator r factorial left parenthesis n minus r right parenthesis factorial end fraction`
+    - $( \begin{gathered} n \\ r \end{gathered} ) = C pre^{n}_{r} = \frac{n factorial}{r \text{factorial} ( n - r ) factorial}$
 - This can be seen by considering a **probability tree diagram** with *n *trials, where *p* is the probability of success and the tree diagram is being used to find *r *successes
-- `stretchy left parenthesis table row n row r end table stretchy right parenthesis` is the number of pathways through the tree there would be exactly *r* successes within the *n* trials
+- $( \begin{gathered} n \\ r \end{gathered} )$ is the number of pathways through the tree there would be exactly *r* successes within the *n* trials
 - The formula allows statisticians to quickly find probabilities for larger values of *n* without needing to draw the whole tree diagram
 - Your calculator may have a function that would allow you to calculate binomial probabilities
 
@@ -69,7 +69,7 @@ Throughout this section we will use the random variable `begin mathsize 16px sty
     - You want the integers 5 to 10
 
 > **Worked Example**
-> If $X$ is the random variable `X tilde straight B left parenthesis 10 comma 0.35 right parenthesis`. Find:
+> If $X$ is the random variable $X \sim \mathrm{B} ( 10 , 0.35 )$. Find:
 > 
 > (i) $P(X=3)$
 > 

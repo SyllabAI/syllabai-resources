@@ -184,7 +184,7 @@ given that $V = 2$ when $x = 0$, giving $V$ in terms of $x$.
 
 A tree disease is spreading throughout a large forested area. The rate of increase in the number of infected trees is modelled by the differential equation
 
-`fraction numerator text d end text N over denominator text d end text t end fraction equals k N open parentheses N minus 1 close parentheses comma space space space space N greater than 1`
+$\frac{ \text{d} N}{ \text{d} t} = k N ( N - 1 ) , N > 1$
 
 where $N$ is the number of infected trees, $t$ is the time in days since the disease was first identified and $k$ is a positive constant.
 

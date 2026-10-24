@@ -56,7 +56,7 @@ guided_study: false
 
 - An **alternative method** is to use the **following formula** to calculate the final balance
 
-  - Final balance = `P open parentheses 1 plus r over 100 close parentheses to the power of n space end exponent` where
+  - Final balance = $P ( 1 + \frac{r}{100} )^{n }$ where
   
     - *P* is the original amount,
     - *r* is the % increase,
@@ -82,7 +82,7 @@ guided_study: false
   - Solve for $P$,
   
     - Divide both sides by $1.20^{3}$
-    - `table row cell 432 divided by 1.20 cubed end cell equals P end table`
+    - $\begin{gathered} 432 \div 1.20^{3} & = P \end{gathered}$
     - `P equals £ 250`
 - In general, to find the original amount:
 
@@ -110,16 +110,16 @@ guided_study: false
 > 
 > > *Therefore the final value after 7 years will be*
 > 
-> `1200 cross times 1.04 to the power of 7 equals $ 1579.118135...`
+> $1200 \times 1.04^{7} = \$ 1579.118135...$
 > 
 > > *Round to the nearest dollar*
 > 
 > `bold $ bold 1579`
 > 
 > **Method 2**
-> *Using the formula for the final amount   *`P open parentheses 1 plus r over 100 close parentheses to the power of n space end exponent`
+> *Using the formula for the final amount   *$P ( 1 + \frac{r}{100} )^{n }$
 > *Substitute **P** is 1200, **r** = 4 and **n** = 7 into the formula *
 > 
-> `1200 open parentheses 1 plus 4 over 100 close parentheses to the power of 7`
+> $1200 ( 1 + \frac{4}{100} )^{7}$
 > 
 > `bold $ bold 1579`

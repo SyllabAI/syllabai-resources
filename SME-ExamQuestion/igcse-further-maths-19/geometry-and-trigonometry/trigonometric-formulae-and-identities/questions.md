@@ -46,9 +46,9 @@ Show that $\mathrm{cos}(A-B)--\mathrm{cos}(A+B)=2\mathrm{sin}A\mathrm{sin}B$
 Hence express $2\mathrm{sin}5x\mathrm{sin}3x$ in the form  $\mathrm{cos}mx-\mathrm{cos}nx$where $m$ and  $n$ are integers, giving the value of $m$ and the value of $n$,
 
 ### 5((c)) — 4 marks — structured — from paper Specimen · Paper 2
-(i) Find `integral 4 sin space 5 theta space sin 3 theta space straight d theta`
+(i) Find $\int 4 \sin 5 \\theta \sin 3 \\theta \mathrm{d} \\theta$
 
-(ii) Hence evaluate `integral subscript 0 superscript straight pi over 6 end superscript 4 sin space 5 theta space sin 3 theta space straight d theta`, giving your answer in the form  $\frac{a\sqrt{b}}{c}$ where $a$, $b$ and  $c$ are integers.
+(ii) Hence evaluate `integral _ 0 ^ pi / 6 end ^ 4 sin 5 theta sin 3 theta d theta`, giving your answer in the form  $\frac{a\sqrt{b}}{c}$ where $a$, $b$ and  $c$ are integers.
 
 ## Q4 — medium — 4 marks · exam-questions
 
@@ -68,7 +68,7 @@ Figure 5 shows a right triangular prism $ABCDEF$where $ABCD$ is a rectangle.
 
 $AF=DEBF=CEAD=FE=BCAB=DC=24$ cm
 
-`angle A B F space equals space angle D C E space equals space 45 degree     angle B A F space equals space angle C D E space equals 60 degree`
+$\text{angle} A B F = \text{angle} D C E = 45 ^{\circ} \text{angle} B A F = \text{angle} C D E = 60 ^{\circ}$
 
 Using a formula from page 2,
 
@@ -77,7 +77,7 @@ show that $\mathrm{sin}AFB=\frac{\sqrt{2}+\sqrt{6}}{4}$
 ### 9((b)) — 5 marks — structured — from paper June 2024 · Paper 2
 Without using a calculator,
 
-show that `B F space equals space 12 open parentheses 3 square root of 2 space minus space square root of 6 close parentheses`cm
+show that $B F = 12 ( 3 \sqrt{2} - \sqrt{6} )$cm
 
 ### 9((c)) — 3 marks — structured — from paper June 2024 · Paper 2
 The angle between the plane $AEB$and the plane $ABCD$is $65^{\circ}$
@@ -106,12 +106,12 @@ Show that $\mathrm{cos}^{3}A=\frac{\mathrm{cos}3A+3\mathrm{cos}A}{4}$
 ### 11((c)) — 4 marks — structured — from paper June 2024 · Paper 2
 Hence, or otherwise, solve, giving exact values in terms of $π$
 
-`8 space cos cubed space open parentheses theta over 2 close parentheses space minus space 6 space cos space open parentheses theta over 2 close parentheses space minus space 1 space equals space 0`   for `0 space less-than or slanted equal to space theta space less-than or slanted equal to space 2 straight pi`
+$8 \text{cos} ^{3} ( \frac{ \theta }{2} ) - 6 \text{cos} ( \frac{ \theta }{2} ) - 1 = 0$   for `0 less-than or slanted equal to theta less-than or slanted equal to 2 pi`
 
 ### 11((d)) — 4 marks — structured — from paper June 2024 · Paper 2
 Use algebraic integration to find the exact value of
 
-`integral subscript 0 superscript straight pi over 6 end superscript open parentheses 4 space cos cubed space theta space minus space sin space 2 theta close parentheses space straight d theta`
+`integral _ 0 ^ pi / 6 end ^ ( 4 cos ^3 theta - sin 2 theta ) d theta`
 
 ## Q7 — medium — 5 marks · exam-questions
 
@@ -139,7 +139,7 @@ $\mathrm{tan}A^{\circ}-\mathrm{tan}2A^{\circ}=0$              for `0 less-than o
 ### 8((c)) — 4 marks — structured — from paper November 2024 · Paper 1
 Using a formula given on page 2, solve, giving your solutions as exact values
 
-`cos open parentheses x minus pi over 6 close parentheses equals sin x`        for `negative pi less-than or slanted equal to x less-than or slanted equal to 2 pi`
+$\cos ( x - \frac{\pi }{6} ) = \sin x$        for `negative pi less-than or slanted equal to x less-than or slanted equal to 2 pi`
 
 ## Q9 — medium — 12 marks · exam-questions
 
@@ -148,13 +148,13 @@ Using a formula given on page 2, solve, giving your solutions as exact values
 
 Figure 2 shows triangle $AOB$
 
-$\overset{\rightarrow}{OA}=4a+5b\overset{\rightarrow}{OB}=8a-b\overset{\rightarrow}{OD}=15a+10b$      where `vertical line bold a vertical line equals vertical line bold b vertical line equals 1`
+$\overset{\rightarrow}{OA}=4a+5b\overset{\rightarrow}{OB}=8a-b\overset{\rightarrow}{OD}=15a+10b$      where $\vert a \vert = \vert b \vert = 1$
 
 (i) Find $\overset{\rightarrow}{AB}$ in terms of $a$ and $b$
 
 [2]
 
-(ii) Find, in its simplest form, the exact value of `vertical line stack A B with rightwards arrow on top vertical line`
+(ii) Find, in its simplest form, the exact value of $\vert \vec{AB} \vert$
 
 [1]
 
@@ -163,7 +163,7 @@ $\overset{\rightarrow}{OA}=4a+5b\overset{\rightarrow}{OB}=8a-b\overset{\rightarr
 
 Figure 2 shows triangle $AOB$
 
-$\overset{\rightarrow}{OA}=4a+5b\overset{\rightarrow}{OB}=8a-b\overset{\rightarrow}{OD}=15a+10b$      where `vertical line bold a vertical line equals vertical line bold b vertical line equals 1`
+$\overset{\rightarrow}{OA}=4a+5b\overset{\rightarrow}{OB}=8a-b\overset{\rightarrow}{OD}=15a+10b$      where $\vert a \vert = \vert b \vert = 1$
 
 Find the area of triangle $AOB$
 
@@ -172,7 +172,7 @@ Find the area of triangle $AOB$
 
 Figure 2 shows triangle $AOB$
 
-$\overset{\rightarrow}{OA}=4a+5b\overset{\rightarrow}{OB}=8a-b\overset{\rightarrow}{OD}=15a+10b$      where `vertical line bold a vertical line equals vertical line bold b vertical line equals 1`
+$\overset{\rightarrow}{OA}=4a+5b\overset{\rightarrow}{OB}=8a-b\overset{\rightarrow}{OD}=15a+10b$      where $\vert a \vert = \vert b \vert = 1$
 
 The point $C$ lies on $AB$ and $OD$ such that $O$, $C$ and $D$ are collinear.
 
@@ -192,7 +192,7 @@ $\mathrm{cos}2θ=2\mathrm{cos}^{2}θ-1$
 
 Hence show that
 
-`integral subscript pi over 3 end subscript superscript fraction numerator 3 pi over denominator 4 end fraction end superscript open parentheses 2 space cos to the power of 2 space end exponent theta minus 1 close parentheses   d theta equals negative fraction numerator a plus square root of b over denominator c end fraction`
+$\int_{ \frac{\pi }{3} }^{\frac{3 \pi }{4}} ( 2 \cos ^{2 } \\theta - 1 )   d \\theta = - \frac{a + \sqrt{b} }{c}$
 
 where $a$, $b$ and $c$ are integers to be found.
 
@@ -203,9 +203,9 @@ Figure 3 shows part of the curve $C_{1}$ with equation $y=2\mathrm{cos}^{2}θ-1$
 
 Point $B$ is the intersection of  $C_{1}$ and $C_{2}$ as shown in Figure 3
 
-Point $A$`open parentheses fraction numerator 3 straight pi over denominator 4 end fraction comma 0 close parentheses` is the intersection of  $C_{1}$ with the $θ$-axis as shown in Figure 3
+Point $A$$( \frac{3 \mathrm{\pi } }{4} , 0 )$ is the intersection of  $C_{1}$ with the $θ$-axis as shown in Figure 3
 
-Point $E$ `open parentheses pi over 2 comma 0 close parentheses` is the intersection of  $C_{2}$ with the $θ$-axis as shown in Figure 3
+Point $E$ $( \frac{\pi }{2} , 0 )$ is the intersection of  $C_{2}$ with the $θ$-axis as shown in Figure 3
 
 The finite region $R$, shown shaded in Figure 3, is bounded by the $θ$-axis, $C_{1}$ and $C_{2}$
 
@@ -265,19 +265,19 @@ Using [formulae](https://cdn.savemyexams.com/uploads/2026/02/33569-EDX%20IGCSE%2
 (ii) $\mathrm{cos}2A=2\mathrm{cos}^{2}A-1$
 
 ### 10((b)) — 4 marks — structured — from paper November 2023 · Paper 1
-`straight f open parentheses theta close parentheses equals fraction numerator 2 tan theta over denominator 1 plus tan squared theta end fraction`
+$\mathrm{f} ( \\theta ) = \frac{2 \tan \\theta }{1 + \tan ^{2} \\theta }$
 
 Show that $f(θ)=\mathrm{sin}2θ$
 
 ### 10((c)) — 6 marks — structured — from paper November 2023 · Paper 1
 Solve, in radians to 3 significant figures, for `negative pi over 2 less-than or slanted equal to x less-than or slanted equal to pi over 2`, the equation
 
-`5 space tan open parentheses x plus pi over 6 close parentheses equals open square brackets 1 plus tan squared open parentheses x plus pi over 6 close parentheses close square brackets open square brackets 1 minus 2 space cos squared open parentheses x plus pi over 6 close parentheses close square brackets`
+$5 \tan ( x + \frac{\pi }{6} ) = [ 1 + \tan ^{2} ( x + \frac{\pi }{6} ) ] [ 1 - 2 \cos ^{2} ( x + \frac{\pi }{6} ) ]$
 
 ### 10((d)) — 4 marks — structured — from paper November 2023 · Paper 1
 Using calculus, find the exact value of
 
-`integral subscript 0 superscript pi over 2 end superscript open parentheses fraction numerator 4 space tan space theta over denominator 1 plus tan squared space theta end fraction minus cos space 5 theta plus 2 close parentheses   straight d theta`
+$\int_{0}^{ \frac{\pi }{2} } ( \frac{4 \tan \\theta }{1 + \tan ^{2} \\theta } - \cos 5 \\theta + 2 )   \mathrm{d} \\theta$
 
 ## Q14 — medium — 7 marks · exam-questions
 
@@ -300,7 +300,7 @@ Find, to 3 significant figures, the value of $x$
 
 Figure 1 shows triangle $XYZ$ in which
 
-`X Y equals left parenthesis x plus 2 right parenthesis text  cm end text      X Z equals left parenthesis 2 x plus 4 right parenthesis text  cm end text      Y Z equals left parenthesis 2 x minus 1 right parenthesis text  cm end text      and space space angle Y X Z equals 60 degree`
+`X Y = ( x + 2 ) text cm end text X Z = ( 2 x + 4 ) text cm end text Y Z = ( 2 x - 1 ) text cm end text and angle Y X Z = 60 deg`
 
 Find the value of $x$
 

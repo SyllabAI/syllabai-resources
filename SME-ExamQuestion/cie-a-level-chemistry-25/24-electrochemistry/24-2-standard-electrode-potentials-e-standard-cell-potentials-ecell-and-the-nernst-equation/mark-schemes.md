@@ -86,7 +86,7 @@ To calculate the electrode potential of the Fe<sup>3+</sup>/Fe<sup>2+</sup> half
   - *z* = 1 (one electron transferred: Fe<sup>3+</sup> + e<sup>-</sup> ⇌ Fe<sup>2+</sup>)
 - Substitute into the Nernst equation:
 
-*E* = *E*<sup>θ</sup> + `open parentheses fraction numerator 0.059 over denominator z end fraction close parentheses` log<sub>10</sub> `fraction numerator left square bracket oxidised space species right square bracket over denominator left square bracket reduced space species right square bracket end fraction`
+*E* = *E*<sup>θ</sup> + $( \frac{0.059}{z} )$ log<sub>10</sub> $\frac{[ \text{oxidised} \text{species} ]}{[ \text{reduced} \text{species} ]}$
 
 *E* = 0.77 + $\frac{0.059}{1}$ log<sub>10</sub> $\frac{0.50}{0.01}$ **[1 mark]**
 

@@ -87,7 +87,7 @@ guided_study: false
 > 
 > subject to
 > 
-> `table row cell x plus y end cell less or equal than 10 row cell 3 x plus 2 y end cell less or equal than 24 row cell x plus 2 y end cell less or equal than 18 row cell x comma space y end cell greater or equal than 0 end table`
+> $\begin{array}{cc}x + y & \le 10 \\ 3 x + 2 y & \le 24 \\ x + 2 y & \le 18 \\ x , y & \ge 0\end{array}$
 > 
 > Show graphically the feasible region, $R$, of the linear programming problem.
 > 

@@ -10,25 +10,25 @@
 
 > *Square both sides*
 
-`4 open parentheses x minus 1 close parentheses squared less or equal than open parentheses 2 minus x close parentheses squared`
+$4 ( x - 1 ) ^{2} \le ( 2 - x ) ^{2}$
 
 **[M1]**
 
 > *Expand and collect terms on one side*
 
-`table row cell 4 open parentheses x squared minus 2 x plus 1 close parentheses end cell less or equal than cell 4 minus 4 x plus x squared end cell row cell 4 x squared minus 8 x plus 4 end cell less or equal than cell 4 minus 4 x plus x squared end cell row cell 3 x squared minus 4 x end cell less or equal than 0 end table`
+$\begin{array}{ccc}4 ( x ^{2} - 2 x + 1 ) & \le & 4 - 4 x + x ^{2} \\ 4 x ^{2} - 8 x + 4 & \le & 4 - 4 x + x ^{2} \\ 3 x ^{2} - 4 x & \le 0\end{array}$
 
 **[A1]**
 
 > *Solve the quadratic inequality, e..g by factorising to find the critical points*
 
-`x open parentheses 3 x minus 4 close parentheses less or equal than 0`
+$x ( 3 x - 4 ) \le 0$
 
 *critical points are *$x=0$* and *$x=\frac{4}{3}$
 
 **[A1]**
 
-> *The curve *`y equals x open parentheses 3 x minus 4 close parentheses`* is a positive quadratic (so goes below the *$x$*-axis between *$x=0$* and *$x=\frac{4}{3}$*)*
+> *The curve *$y = x ( 3 x - 4 )$* is a positive quadratic (so goes below the *$x$*-axis between *$x=0$* and *$x=\frac{4}{3}$*)*
 
 $0\leqx\leq\frac{4}{3}$
 
@@ -36,7 +36,7 @@ $0\leqx\leq\frac{4}{3}$
 
 **Method 2**
 
-> *Sketch *`y equals 2 vertical line x minus 1 vertical line`* (graph 1) and *`y equals vertical line 2 minus x vertical line`* (graph 2) on the same axes*
+> *Sketch *$y = 2 \vert x - 1 \vert$* (graph 1) and *$y = \vert 2 - x \vert$* (graph 2) on the same axes*
 
 ![Graph with lines y=2|x-1| and y=|2-x| intersecting y-axis at 2. Each line has a V shape, intersecting x-axis at 1 and 2, respectively.](assets/001-graph-with-lines-y-2-x-1-and-y-2-x-intersecting-.png)
 
@@ -47,15 +47,15 @@ $0\leqx\leq\frac{4}{3}$
 > 
 > **B1: **For sketching both graphs correctly, intersecting each other on the positive $y$-axis (numerical values not needed).
 
-> *Find where the line *`y equals 2 vertical line x minus 1 vertical line`* is always below the line *`y equals vertical line 2 minus x vertical line`
+> *Find where the line *$y = 2 \vert x - 1 \vert$* is always below the line *$y = \vert 2 - x \vert$
 
 ![Graph of functions with absolute values. Equations: y=2|x-1|, y=|2-x|, and different branches labelled with their equations. Part of the line y=-(2-x) that lies above the line y=(2-x) is shaded.](assets/002-graph-of-functions-with-absolute-values-equation.png)
 
 > *Find the *$x$*-coordinates of this region (the first *$x$*-coordinate must be 0)*
 
-> *The second *$x$*-coordinate is the intersection of *`y equals 2 open parentheses x minus 1 close parentheses`* with *$y=2-x$
+> *The second *$x$*-coordinate is the intersection of *$y = 2 ( x - 1 )$* with *$y=2-x$
 
-`table row cell 2 open parentheses x minus 1 close parentheses end cell equals cell 2 minus x end cell end table`
+$\begin{gathered} 2 ( x - 1 ) & = 2 - x \end{gathered}$
 
 **[M1]**
 
@@ -64,7 +64,7 @@ $0\leqx\leq\frac{4}{3}$
 
 > *Solve*
 
-`table row cell 2 open parentheses x minus 1 close parentheses end cell equals cell 2 minus x end cell row cell 2 x minus 2 end cell equals cell 2 minus x end cell row cell 3 x end cell equals 4 row x equals cell 4 over 3 end cell end table`
+$\begin{gathered} 2 ( x - 1 ) & = 2 - x \\ 2 x - 2 & = 2 - x \\ 3 x & = 4 \\ x = \frac{4}{3} \end{gathered}$
 
 > *Give the *$x$*-values for the region above as an inequality*
 
@@ -73,26 +73,19 @@ $0\leqx\leq\frac{4}{3}$
 **[A1]**
 
 ### Q2
-> *You are told that *`open parentheses 1 comma space 0 close parentheses`* is an *$x$*-intercept so substitute in *$x=1$* and *$y=0$* to find *$a$
+> *You are told that *$( 1 , 0 )$* is an *$x$*-intercept so substitute in *$x=1$* and *$y=0$* to find *$a$
 
-`table row 0 equals cell 5 open parentheses 1 close parentheses cubed minus 17 open parentheses 1 close parentheses squared plus 16 open parentheses 1 close parentheses plus a end cell row 0 equals cell 5 minus 17 plus 16 plus a end cell row 0 equals cell 4 plus a end cell row a equals cell negative 4 end cell end table`
+$\begin{gathered} 0 = 5 ( 1 )^{3} - 17 ( 1 )^{2} + 16 ( 1 ) + a \\ 0 = 5 - 17 + 16 + a \\ 0 = 4 + a \\ a = - 4 \end{gathered}$
 
 **[B1]**
 
-> *Given that *$x=1$* is a solution to *`straight p open parentheses x close parentheses equals 0`*, the Factor theorem says that *`open parentheses x minus 1 close parentheses`* is a factor*
+> *Given that *$x=1$* is a solution to *$\mathrm{p} ( x ) = 0$*, the Factor theorem says that *$( x - 1 )$* is a factor*
 
-*If *`p open parentheses 1 close parentheses equals 0`* then *`open parentheses x minus 1 close parentheses`* is a factor of *`straight p open parentheses x close parentheses equals 5 x cubed minus 17 x squared plus 16 x minus 4`
+*If *$p ( 1 ) = 0$* then *$( x - 1 )$* is a factor of *$\mathrm{p} ( x ) = 5 x^{3} - 17 x^{2} + 16 x - 4$
 
-> *Use polynomial division to divide *`straight p open parentheses x close parentheses`* by *`open parentheses x minus 1 close parentheses`* to find the quadratic factor*
+> *Use polynomial division to divide *$\mathrm{p} ( x )$* by *$( x - 1 )$* to find the quadratic factor*
 
-`space space space space space space space space space space space space space space space space space space space space space space space space 5 x squared minus 12 x plus 4
-open parentheses x minus 1 close parentheses top enclose left enclose 5 x cubed minus 17 x squared plus 16 x minus 4 end enclose end enclose
-space space space space space space space space space space space space space bottom enclose 5 x cubed minus 5 x squared end enclose
-space space space space space space space space space space space space space space space space space space space minus 12 x squared plus 16 x
-space space space space space space space space space space space space space space space space space space space space bottom enclose negative 12 x squared plus 12 x end enclose
-space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space 4 x minus 4
-space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space bottom enclose 4 x minus 4 end enclose
-space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space 0 space space space space space space space space space space space`
+`5 x ^2 - 12 x + 4 ( x - 1 ) top left 5 x ^3 - 17 x ^2 + 16 x - 4 bottom 5 x ^3 - 5 x ^2 - 12 x ^2 + 16 x bottom - 12 x ^2 + 12 x 4 x - 4 bottom 4 x - 4 0`
 
 **[M1]**
 
@@ -102,20 +95,20 @@ $5x^{2}-12x+4$
 
 > *This means the cubic has the form*
 
-`y equals k open parentheses x minus 1 close parentheses open parentheses 5 x squared minus 12 x plus 4 close parentheses`
+$y = k ( x - 1 ) ( 5 x^{2} - 12 x + 4 )$
 
 > *The *$x$*-intercepts are found when *$y=0$
 
 > *Solve *$5x^{2}-12x+4=0$* to find the remaining two *$x$*-intercepts*
 
-`open parentheses 5 x minus 2 close parentheses open parentheses x minus 2 close parentheses`
+$( 5 x - 2 ) ( x - 2 )$
 
 **[M1]**
 
 > **[mark-scheme]**
 > This mark is for using a correct method to solve your 3-term quadratic factor equal to zero.
 
-> *Recall that the question labels them *`open parentheses b comma space 0 close parentheses`*, *`open parentheses 1 comma space 0 close parentheses`* and *`open parentheses c comma space 0 close parentheses`* where *$b<c$
+> *Recall that the question labels them *$( b , 0 )$*, *$( 1 , 0 )$* and *$( c , 0 )$* where *$b<c$
 
 $b=\frac{2}{5}$* and *$c=2$
 
@@ -124,20 +117,20 @@ $b=\frac{2}{5}$* and *$c=2$
 > *Present all your answers from above*
 
 **Final answer:** $a=-4$**, **$b=\frac{2}{5}$** and **$c=2$
-> *It helps to imagine the cubic *`y equals straight p open parentheses x close parentheses`* with the information given*
+> *It helps to imagine the cubic *$y = \mathrm{p} ( x )$* with the information given*
 
 ![Graph of a positive cubic function showing the curve with a maximum at (2/3, 16/27) and a minimum at (8/5, -36/25) on a Cartesian plane with x and y axes. It cuts the x-axis at 2/5, 1 and 2.](assets/003-graph-of-a-positive-cubic-function-showing-the-c.png)
 
-> *Then imagine the modulus of this cubic equation, *`y equals vertical line straight p open parentheses x close parentheses vertical line`
+> *Then imagine the modulus of this cubic equation, *$y = \vert \mathrm{p} ( x ) \vert$
 
 ![The modulus of a cubic graph showing a maximum at 16/27 and another maximum at 36/25 and two dashed horizontal lines at heights 36/25 and 16/27 intersecting the curve.](assets/004-the-modulus-of-a-cubic-graph-showing-a-maximum-a.png)
 
 **[M1]**
 
 > **[mark-scheme]**
-> This mark is for attempting to sketch `y equals vertical line straight p open parentheses x close parentheses vertical line` with the peaks in the correct size order (no numerical values are needed for this mark)
+> This mark is for attempting to sketch $y = \vert \mathrm{p} ( x ) \vert$ with the peaks in the correct size order (no numerical values are needed for this mark)
 
-> *You need to find the horizontal line, *$y=d$*, that intersects the graph *`y equals vertical line straight p open parentheses x close parentheses vertical line`* exactly 5 times*
+> *You need to find the horizontal line, *$y=d$*, that intersects the graph *$y = \vert \mathrm{p} ( x ) \vert$* exactly 5 times*
 
 > *This only happens with the line *$y=\frac{16}{27}$
 
@@ -146,7 +139,7 @@ $d=\frac{16}{27}$
 **[A1]**
 
 ### Q3
-> *Sketch the lines *`y equals vertical line 3 x minus 2 vertical line`* and *$y=4+x$* on the same axes to identify how many intersections there are.*
+> *Sketch the lines *$y = \vert 3 x - 2 \vert$* and *$y=4+x$* on the same axes to identify how many intersections there are.*
 
 > *  *
 
@@ -158,7 +151,7 @@ $d=\frac{16}{27}$
 
 > * *
 
-`table row cell 3 x minus 2 end cell equals cell 4 plus x end cell row cell 3 x minus x end cell equals cell 4 plus 2 end cell row cell 2 x end cell equals 6 row x equals 3 end table`
+$\begin{gathered} 3 x - 2 & = 4 + x \\ 3 x - x & = 4 + 2 \\ 2 x & = 6 \\ x = 3 \end{gathered}$
 
 > *  *
 
@@ -168,11 +161,11 @@ $d=\frac{16}{27}$
 
 > *Therefore,*
 
-`table row cell negative 3 x plus 2 end cell equals cell 4 plus x end cell end table`
+$\begin{gathered} - 3 x + 2 & = 4 + x \end{gathered}$
 
 **[1]**
 
-`table row cell negative 3 x minus x end cell equals cell 4 minus 2 end cell row cell negative 4 x end cell equals 2 row x equals cell negative 0.5 end cell end table`
+$\begin{gathered} - 3 x - x & = 4 - 2 \\ - 4 x & = 2 \\ x = - 0.5 \end{gathered}$
 
 $x=3$* ***[1]**
 
@@ -193,7 +186,7 @@ $x>3$
 
 > *Solving the negative bracket*
 
-`negative open parentheses 3 x space plus thin space 2 close parentheses space greater than thin space 8 space plus thin space x`
+$- ( 3 x + 2 ) > 8 + x$
 
 > *Multiplying out the bracket*
 
@@ -210,7 +203,7 @@ $x<-\frac{5}{2}$ **[1]**
 $x>3$ **[1]**
 
 ### Q5
-> *Sketch the graph *`y equals open parentheses x minus 2 close parentheses open parentheses x plus 1 close parentheses open parentheses x plus 2 close parentheses`* first*
+> *Sketch the graph *$y = ( x - 2 ) ( x + 1 ) ( x + 2 )$* first*
 
 > *This will be a positive cubic graph since *$x\timesx\timesx=x^{3}$
 
@@ -218,7 +211,7 @@ $x>3$ **[1]**
 
 *When** *$y=0$*,*
 
-`0 equals open parentheses x minus 2 close parentheses open parentheses x plus 1 close parentheses open parentheses x plus 2 close parentheses`
+$0 = ( x - 2 ) ( x + 1 ) ( x + 2 )$
 
 $x=2,-1\mathrm{or}-2$
 
@@ -226,15 +219,15 @@ $x=2,-1\mathrm{or}-2$
 
 *When *$x=0$*,*
 
-`y equals open parentheses 0 minus 2 close parentheses open parentheses 0 plus 1 close parentheses open parentheses 0 plus 2 close parentheses`
+$y = ( 0 - 2 ) ( 0 + 1 ) ( 0 + 2 )$
 
 $y=-4$
 
-> *Sketch the graph of *`y equals open parentheses x minus 2 close parentheses open parentheses x plus 1 close parentheses open parentheses x plus 2 close parentheses`
+> *Sketch the graph of *$y = ( x - 2 ) ( x + 1 ) ( x + 2 )$
 
 ![SRaMGsCS_olevel-cie-june-20-paper-1-q1-pic1](assets/007-sramgscs-olevel-cie-june-20-paper-1-q1-pic1.png)
 
-> *The modulus graph *`y equals open vertical bar open parentheses x minus 2 close parentheses open parentheses x plus 1 close parentheses open parentheses x plus 2 close parentheses close vertical bar`* will be similar to the graph above, but any parts below the *$x$*-axis will be reflected up above the *$x$*-axis*
+> *The modulus graph *$y = \left| ( x - 2 ) ( x + 1 ) ( x + 2 ) \right|$* will be similar to the graph above, but any parts below the *$x$*-axis will be reflected up above the *$x$*-axis*
 
 ![olevel-cie-june-20-paper-1-q1-pic2](assets/008-olevel-cie-june-20-paper-1-q1-pic2.png)
 
@@ -247,38 +240,38 @@ $y=-4$
 ### Q6
 > *Factorise the first two terms to make the coefficient of *$x^{2}$* equal 1 inside the brackets.*
 
-`2 open square brackets x squared plus 3 over 2 x close square brackets minus 4`
+$2 [ x^{2} + \frac{3}{2} x ] - 4$
 
 **[1]**
 
-> *Complete the square for the expression in the brackets. To complete the square, *`x squared plus b x plus c space equals space open parentheses x plus b over 2 close parentheses squared minus open parentheses b over 2 close parentheses squared plus c`
+> *Complete the square for the expression in the brackets. To complete the square, *$x^{2} + b x + c = ( x + \frac{b}{2} )^{2} - ( \frac{b}{2} )^{2} + c$
 
-`2 open square brackets open parentheses x plus 3 over 4 close parentheses squared minus open parentheses 3 over 4 close parentheses squared close square brackets minus 4`
+$2 [ ( x + \frac{3}{4} )^{2} - ( \frac{3}{4} )^{2} ] - 4$
 
 **[1]**
 
 > *Simplify.*
 
-`2 open square brackets open parentheses x plus 3 over 4 close parentheses squared minus 9 over 16 close square brackets minus 4`
+$2 [ ( x + \frac{3}{4} )^{2} - \frac{9}{16} ] - 4$
 
 > *Expand the outer brackets only and simplify.*
 
-`2 open parentheses x plus 3 over 4 close parentheses squared minus open parentheses 2 close parentheses open parentheses 9 over 16 close parentheses minus 4`
+$2 ( x + \frac{3}{4} )^{2} - ( 2 ) ( \frac{9}{16} ) - 4$
 
 > $2(x+\frac{3}{4})^{2}-\frac{41}{8}$* [1]*
-> *The minimum point on the curve *`y equals open parentheses x plus a close parentheses squared plus b`* is  *`open parentheses negative a comma space b close parentheses`*.*
+> *The minimum point on the curve *$y = ( x + a )^{2} + b$* is  *$( - a , b )$*.*
 
-> *For *`y equals open parentheses x plus 3 over 4 close parentheses squared minus 41 over 8`*,*
+> *For *$y = ( x + \frac{3}{4} )^{2} - \frac{41}{8}$*,*
 
 $(-\frac{3}{4},-\frac{41}{8})$* *
 **1 mark for each coordinate**** [2]**
-> *Solve *`y equals 2 open parentheses x plus 3 over 4 close parentheses squared minus 41 over 8`*when *$y=0$* to find the *$x$*intercepts.*
+> *Solve *$y = 2 ( x + \frac{3}{4} )^{2} - \frac{41}{8}$*when *$y=0$* to find the *$x$*intercepts.*
 
-`table row cell 2 open parentheses x plus 3 over 4 close parentheses squared minus 41 over 8 end cell equals 0 row cell 2 open parentheses x plus 3 over 4 close parentheses squared end cell equals cell 41 over 8 end cell row cell open parentheses x plus 3 over 4 close parentheses squared end cell equals cell 41 over 16 end cell row cell x plus 3 over 4 end cell equals cell plus-or-minus square root of 41 over 16 end root end cell row x equals cell fraction numerator plus-or-minus square root of 41 over denominator 4 end fraction minus 3 over 4 end cell row x equals cell fraction numerator negative 3 plus-or-minus square root of 41 over denominator 4 end fraction end cell end table`
+$\begin{array}{ccc}2 ( x + \frac{3}{4} ) ^{2} - \frac{41}{8} & = 0 \\ 2 ( x + \frac{3}{4} ) ^{2} & = & \frac{41}{8} \\ ( x + \frac{3}{4} ) ^{2} & = & \frac{41}{16} \\ x + \frac{3}{4} & = & \pm \sqrt{\frac{41}{16}} \\ x = & \frac{ \pm \sqrt{41}}{4} - \frac{3}{4} \\ x = & \frac{ - 3 \pm \sqrt{41}}{4}\end{array}$
 
-> *Solve *`y equals open vertical bar 2 x squared plus 3 x minus 4 close vertical bar`* when *$x=0$* to find the *$y$*intercept.*
+> *Solve *$y = \left| 2 x^{2} + 3 x - 4 \right|$* when *$x=0$* to find the *$y$*intercept.*
 
-`table row y equals cell open vertical bar 2 open parentheses 0 close parentheses squared plus 3 open parentheses 0 close parentheses minus 4 close vertical bar end cell row y equals cell open vertical bar negative 4 close vertical bar end cell row y equals 4 end table`
+$\begin{gathered} y = \left| 2 ( 0 )^{2} + 3 ( 0 ) - 4 \right| \\ y = \left| - 4 \right| \\ y = 4 \end{gathered}$
 
 > $y=2x^{2}+3x-4$* is a parabola. Since we are taking the modulus, everything below the *$x$*axis will be reflected above the *$x$* axis.*
 
@@ -300,7 +293,7 @@ $\frac{41}{8}$** [1]**
 
 > *Therefore, we can start with:*
 
-`y equals open parentheses x plus 5 close parentheses open parentheses x plus 1 close parentheses open parentheses x minus 2 close parentheses`
+$y = ( x + 5 ) ( x + 1 ) ( x - 2 )$
 
 > *  *
 
@@ -320,8 +313,8 @@ $y=-\frac{1}{2}(x+5)(x+1)(x-2)$
 
 **for **$\frac{1}{2}$**[1]**
 
-**correct factors **`open parentheses x plus 5 close parentheses open parentheses x plus 1 close parentheses open parentheses x minus 2 close parentheses`** ****[1]**
-> `straight f open parentheses x close parentheses less than 0`* when the graph under the *$x$*axis.*
+**correct factors **$( x + 5 ) ( x + 1 ) ( x - 2 )$** ****[1]**
+> $\mathrm{f} ( x ) < 0$* when the graph under the *$x$*axis.*
 
 > *Examine the graph to decide between which values of *$x$* the graph is negative.*
 
@@ -332,13 +325,13 @@ $-5<x<-1$* ***[1]**
 ### Q8
 > *If we expand the brackets of the equation, the highest power of *$x$* we would get would be *$x^{3}$*. Therefore, the graph is cubic.*
 
-> *Solve *`5 open parentheses x plus 1 close parentheses open parentheses 3 x minus 2 close parentheses open parentheses x minus 2 close parentheses equals 0`* to find where the the curve will cross the *$x$* axis.*
+> *Solve *$5 ( x + 1 ) ( 3 x - 2 ) ( x - 2 ) = 0$* to find where the the curve will cross the *$x$* axis.*
 
 $x=-1,x=\frac{2}{3},x=2$
 
-> *Substitute *$x=0$* into *`y equals 5 open parentheses x plus 1 close parentheses open parentheses 3 x minus 2 close parentheses open parentheses x minus 2 close parentheses`* to find where the curve will cross the *$y$* axis.*
+> *Substitute *$x=0$* into *$y = 5 ( x + 1 ) ( 3 x - 2 ) ( x - 2 )$* to find where the curve will cross the *$y$* axis.*
 
-`y equals 5 open parentheses 1 close parentheses open parentheses negative 2 close parentheses open parentheses negative 2 close parentheses`
+$y = 5 ( 1 ) ( - 2 ) ( - 2 )$
 
 $y=20$
 
@@ -353,7 +346,7 @@ $y=20$
 **Correct y-intercet at **$y=20$** ****[1]**
 > $y>0$* above the *$x$* axis.*
 
-> *Look at the graph from part *`open parentheses a close parentheses`* to identify the *$x$* values where the curve is above the *$x$* axis.*
+> *Look at the graph from part *$( a )$* to identify the *$x$* values where the curve is above the *$x$* axis.*
 
 $-1<x<\frac{2}{3}$* ***[1]**
 
@@ -364,15 +357,15 @@ $x>2$* ***[1]**
 
 > `equation`* *
 
-**'**`open parentheses x plus 1 close parentheses open parentheses 2 x minus 1 close parentheses open parentheses x minus 2 close parentheses`**' or an equivalent factorisation**** [1]**
+**'**$( x + 1 ) ( 2 x - 1 ) ( x - 2 )$**' or an equivalent factorisation**** [1]**
 
-> *The **y**-intercept of the function is (0, 10) so substitute *$x=0$* and *`straight f open parentheses x close parentheses equals 10`* into the above, and solve to find *$a$*.*
+> *The **y**-intercept of the function is (0, 10) so substitute *$x=0$* and *$\mathrm{f} ( x ) = 10$* into the above, and solve to find *$a$*.*
 
-`table row 10 equals cell a open parentheses 0 plus 1 close parentheses open parentheses 2 open parentheses 0 close parentheses minus 1 close parentheses open parentheses 0 minus 2 close parentheses end cell row 10 equals cell a open parentheses 1 close parentheses open parentheses negative 1 close parentheses open parentheses negative 2 close parentheses end cell row 10 equals cell 2 a end cell row a equals 5 end table`
+$\begin{gathered} 10 = a ( 0 + 1 ) ( 2 ( 0 ) - 1 ) ( 0 - 2 ) \\ 10 = a ( 1 ) ( - 1 ) ( - 2 ) \\ 10 = 2 a \\ a = 5 \end{gathered}$
 
 ** ****[1]**
 
-> *Remember that the graph is of the modulus of *`straight f open parentheses x close parentheses`* so *$a$* could be positive or negative 5*
+> *Remember that the graph is of the modulus of *$\mathrm{f} ( x )$* so *$a$* could be positive or negative 5*
 
 $f(x)=\pm5(x+1)(2x-1)(x-2)$** [1]**
 
@@ -390,18 +383,18 @@ $x=-1.45,x=-0.4,x=0.85$
 $x\leq-1.45\mathrm{and}-0.4\leqx\leq0.85$* ***[2]*** *
 **one mark for each correct inequality**
 
-**Take care to use "or equals to" inequalities, corresponding to the condition **`straight f open parentheses x close parentheses less or equal than negative 1`
+**Take care to use "or equals to" inequalities, corresponding to the condition **$\mathrm{f} ( x ) \le - 1$
 
 ### Q11
 > *If we expand the brackets of the equation, the highest power of *$x$* we would get would be *$x^{3}$*. Therefore, the graph is cubic. Since one of the *$x$* in the brackets is negative, we will have an inverted cubic shape.*
 
-> *Solve *`open parentheses x minus 2 close parentheses open parentheses x plus 1 close parentheses open parentheses 3 minus x close parentheses equals 0`* to find where the the curve will cross the *$x$* axis.*
+> *Solve *$( x - 2 ) ( x + 1 ) ( 3 - x ) = 0$* to find where the the curve will cross the *$x$* axis.*
 
 $x=2,x=-1,x=3$
 
-> *Substitute *$x=0$* into *`y equals open parentheses x minus 2 close parentheses open parentheses x plus 1 close parentheses open parentheses 3 minus x close parentheses`* to find where the curve will cross the *$y$* axis.*
+> *Substitute *$x=0$* into *$y = ( x - 2 ) ( x + 1 ) ( 3 - x )$* to find where the curve will cross the *$y$* axis.*
 
-`y equals open parentheses negative 2 close parentheses open parentheses 1 close parentheses open parentheses 3 close parentheses`
+$y = ( - 2 ) ( 1 ) ( 3 )$
 
 $y=-6$
 
@@ -416,7 +409,7 @@ $y=-6$
 **correct **$y$**axis intercept ****[1]**
 > $y>0$* is above the *$x$* axis.*
 
-> *Look at the graph from part *`open parentheses a close parentheses`* to identify the *$x$* values where the curve is above the *$x$* axis.*
+> *Look at the graph from part *$( a )$* to identify the *$x$* values where the curve is above the *$x$* axis.*
 
 $2<x<3$* ***[1]**
 
@@ -427,7 +420,7 @@ $x<-1$* ***[1]**
 
 > *Find where the graph will cross the *$x$*-axis. This is true when *$y=0$*.*
 
-`0 equals negative 3 open parentheses x minus 2 close parentheses open parentheses x minus 4 close parentheses open parentheses x plus 1 close parentheses`
+$0 = - 3 ( x - 2 ) ( x - 4 ) ( x + 1 )$
 
 *Either *$x-2=0,x-4=0\mathrm{or}x+1=0$
 
@@ -437,13 +430,13 @@ $x<-1$* ***[1]**
 
 > *Substitute *$x=0$* into the equation giving:*
 
-`y equals negative 3 open parentheses 0 minus 2 close parentheses open parentheses 0 minus 4 close parentheses open parentheses 0 plus 1 close parentheses`
+$y = - 3 ( 0 - 2 ) ( 0 - 4 ) ( 0 + 1 )$
 
 $y=-24$
 
 > *Plot the intercepts onto the graph which will be:*
 
-`open parentheses 2 comma space 0 close parentheses comma space open parentheses 4 comma space 0 close parentheses comma space open parentheses negative 1 comma space 0 close parentheses space and space open parentheses 0 comma negative 24 close parentheses`
+`( 2 , 0 ) , ( 4 , 0 ) , ( - 1 , 0 ) and ( 0 , - 24 )`
 
 ![293aI669_olevel-cie-mar-20-paper-1-q1](assets/020-293ai669-olevel-cie-mar-20-paper-1-q1.png)
 
@@ -466,7 +459,7 @@ $x<-1\mathrm{or}2<x<4$
 
 > *To find the values of x when the two graphs are equation form two equtions.*
 
-`table attributes columnalign right center left columnspacing 0px end attributes row cell 4 x minus 1 end cell equals 9 row cell negative open parentheses 4 x minus 1 close parentheses end cell equals 9 end table`
+$\begin{array}{rcl} 4 x - 1 & = 9 \\ - ( 4 x - 1 ) & = 9 \end{array}$
 
 **[1]**
 
@@ -483,23 +476,23 @@ $x<-2$** ****or **$x>\frac{5}{2}$* ***[1]**
 ### Q14
 > *First isolate the modulus*
 
-`table row cell 5 open vertical bar 5 x minus 2 close vertical bar end cell equals 15 row cell open vertical bar 5 x minus 2 close vertical bar end cell equals 3 end table`
+$\begin{gathered} 5 \left| 5 x - 2 \right| & = 15 \\ \left| 5 x - 2 \right| & = 3 \end{gathered}$
 
 > *To obtain the first solution, assume the contents of the modulus brackets are positive and solve*
 
-`table row cell 5 x minus 2 end cell equals 3 row cell 5 x end cell equals 5 end table`
+$\begin{gathered} 5 x - 2 & = 3 \\ 5 x & = 5 \end{gathered}$
 
 $x=1$** [1]**
 
 > *To obtain the second solution, assume the contents of the modulus brackets are negative*
 
-`table row cell 5 x minus 2 end cell equals cell negative 3 space space space space open parentheses or space minus 5 x plus 2 equals 3 close parentheses end cell end table`
+$\begin{gathered} 5 x - 2 & = - 3 ( \text{or} - 5 x + 2 = 3 ) \end{gathered}$
 
 **[1]**
 
 > *And solve*
 
-`table row cell 5 x end cell equals cell negative 1 end cell end table`
+$\begin{gathered} 5 x & = - 1 \end{gathered}$
 
 $x=-\frac{1}{5}$ **[1]**
 
@@ -510,13 +503,13 @@ $x=-2,x=-1.x=4$
 
 > *This means that the brackets must be *
 
-`straight f open parentheses x close parentheses space equals space open parentheses x space plus thin space 2 close parentheses open parentheses x space plus thin space 1 close parentheses open parentheses x space minus space 4 close parentheses`
+$\mathrm{f} ( x ) = ( x + 2 ) ( x + 1 ) ( x - 4 )$
 
 * ***correct brackets** **[1]**
 
 > *If we expand the brackets, we get *
 
-`straight f open parentheses x close parentheses thin space equals space x to the power of 3 space end exponent minus space x to the power of 2 space end exponent minus space 10 x space minus space 8`
+$\mathrm{f} ( x ) = x^{3 } - x^{2 } - 10 x - 8$
 
 > *We can see from the graph that it has a y-intercept of 24, therefore, we need to multiply the whole function by 3 to give the positive cubic graph.*
 
@@ -524,13 +517,13 @@ $x=-2,x=-1.x=4$
 
 ![Wlz3b-Cc_oct-2020-paper-11-graph-q1](assets/023-wlz3b-cc-oct-2020-paper-11-graph-q1.png)
 
-> *The graph of *`y equals open vertical bar p open parentheses x close parentheses close vertical bar`* means means anything below the x-axis gets reflected above the x-axis.*
+> *The graph of *$y = \left| p ( x ) \right|$* means means anything below the x-axis gets reflected above the x-axis.*
 
 > *We could also multiply the function by -3 to give the negative cubic graph.*
 
 ![oct-2020-paper-11-graph-q1-2](assets/024-oct-2020-paper-11-graph-q1-2.png)
 
-> *As before, the graph of *`y space equals space open vertical bar p open parentheses x close parentheses close vertical bar`* means anything below the x-axis gets reflected above the x-axis.*
+> *As before, the graph of *$y = \left| p ( x ) \right|$* means anything below the x-axis gets reflected above the x-axis.*
 
 > *Therefore, the final expression for the function would be*
 
@@ -539,13 +532,13 @@ $p(x)=\pm3(x+2)(x+1)(x-4)$ **[1]**
 ### Q16
 > *Find where the graph intersects the *$x$*axis by substituting in *$y=0$
 
-`0 equals negative open parentheses x plus 2 close parentheses open parentheses x minus 1 close parentheses open parentheses x minus 6 close parentheses`
+$0 = - ( x + 2 ) ( x - 1 ) ( x - 6 )$
 
 > $x=-2$*        *$x=1$*         *$x=6$
 
 > *Find the *$y$* intercept by substituting in *$x=0$
 
-`y equals negative open parentheses 2 close parentheses open parentheses negative 1 close parentheses open parentheses negative 6 close parentheses`
+$y = - ( 2 ) ( - 1 ) ( - 6 )$
 
 $y=-12$
 
@@ -559,10 +552,10 @@ $y=-12$
 
 **correct shape ****[1]**
 
-**correct coordinates **`open parentheses negative 2 comma space 0 close parentheses`**, **`open parentheses 1 comma space 0 close parentheses`**, **`open parentheses 6 comma space 0 close parentheses`** and **`open parentheses 0 comma space minus 12 close parentheses`** ****[1]**
+**correct coordinates **$( - 2 , 0 )$**, **$( 1 , 0 )$**, **$( 6 , 0 )$** and **$( 0 , - 12 )$** ****[1]**
 > $y\leq0$* on and below the *$x$* axis.*
 
-> *Look at the graph from part *`open parentheses a close parentheses`* to identify the range of *$x$* values for which the curve is on or below the *$x$* axis.*
+> *Look at the graph from part *$( a )$* to identify the range of *$x$* values for which the curve is on or below the *$x$* axis.*
 
 $-2\leqx\leq1$* ***[1]**
 
@@ -573,13 +566,13 @@ $x\geq6$* ***[1]**
 
 $x=-2,x=-1,x=5$
 
-`straight f open parentheses x close parentheses space equals space a open parentheses x space plus thin space 2 close parentheses open parentheses x space plus thin space 1 close parentheses open parentheses x space minus space 5 close parentheses`
+$\mathrm{f} ( x ) = a ( x + 2 ) ( x + 1 ) ( x - 5 )$
 
 **correct factors**** [1]**
 
 > *This would give us a y-intercept of *$-10$*, but the graph shows us that the y-intercept is *$5$*, so we need to adjust our expression with a reflection in the **x **axis and a vertical stretch of *$-\frac{1}{2}$
 
-* *`straight f open parentheses x close parentheses space equals space minus 1 half open parentheses x space plus thin space 2 close parentheses open parentheses x space plus thin space 1 close parentheses open parentheses x space minus space 5 close parentheses`
+* *$\mathrm{f} ( x ) = - 1 \frac{1}{2} ( x + 2 ) ( x + 1 ) ( x - 5 )$
 
 $f(x)=-\frac{1}{2}(x+2)(x+1)(x-5)$**[1]**
 > *We are looking for the parts of the graph that are below the **x**-axis. This happens when:*
@@ -594,7 +587,7 @@ $-2\leqx\leq-1,x\geq5$** **
 **1 mark for each statement**** [2]**
 
 ### Q18
-> *The line *$y=5x-7$* would have *$y$*-intercept *`open parentheses 0 comma space minus 7 close parentheses`* and would intersect the *$x$*-axis at *`open parentheses 7 over 5 comma space 0 close parentheses`
+> *The line *$y=5x-7$* would have *$y$*-intercept *$( 0 , - 7 )$* and would intersect the *$x$*-axis at *$( \frac{7}{5} , 0 )$
 
 > *Sketch this on the axes*
 
@@ -610,9 +603,9 @@ $-2\leqx\leq-1,x\geq5$** **
 
 **correct V shape with vertex on positive **$x$**-axis**** [1]**
 
-** correct coordinate**** **`open parentheses 0 comma space 7 close parentheses`** [1]**
+** correct coordinate**** **$( 0 , 7 )$** [1]**
 
-**correct coordinate**** **`open parentheses 7 over 5 comma space 0 close parentheses`** [1]**
+**correct coordinate**** **$( \frac{7}{5} , 0 )$** [1]**
 > *Add 1 to both sides and then divide by 5*
 
 `5 open vertical bar 5 x minus 7 close vertical bar minus 1 equals 14`

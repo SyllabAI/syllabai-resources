@@ -224,9 +224,9 @@ $7x+35$ **[1]**
 ### 1((c)) — 2 marks
 *Multiply the term outside the bracket by each of the terms inside the bracket.*
 
-> *Be careful with the second term being negative - we would assume this is *`plus 4 t cross times open parentheses negative 2 close parentheses`* and so a positive multiplied by a negative would result in a negative.*
+> *Be careful with the second term being negative - we would assume this is *$+ 4 t \times ( - 2 )$* and so a positive multiplied by a negative would result in a negative.*
 
-`table row cell 4 t open parentheses 3 t minus 2 close parentheses end cell equals cell 4 t cross times 3 t minus 4 t cross times 2 end cell row blank equals cell 12 t squared minus 8 t end cell end table`
+$\begin{gathered} 4 t ( 3 t - 2 ) & = 4 t \times 3 t - 4 t \times 2 \\ = 12 t^{2} - 8 t \end{gathered}$
 
 **Final answer:** $4t(3t-2)=12t^{2}-8t$** **
 
@@ -280,7 +280,7 @@ $-2x$* ***[1]**
 ### 5() — 2 marks
 > *Write out the squared brackets as a set of identical double brackets.*
 
-`open parentheses x minus 8 close parentheses open parentheses x minus 8 close parentheses`
+$( x - 8 ) ( x - 8 )$
 
 > *Multiply everything in the first bracket by everything in the second bracket.*
 
@@ -326,7 +326,7 @@ $-5m+10$ **[1]**
 ### 2() — 2 marks
 *Multiply the terms inside the first bracket by 5 and the second bracket by -2*
 
-`5 cross times p plus 5 cross times 3 minus 2 cross times 1 minus 2 cross times open parentheses negative 2 p close parentheses`
+$5 \times p + 5 \times 3 - 2 \times 1 - 2 \times ( - 2 p )$
 
 *Simplify the terms (by multiplying their parts together and being careful with signs)*
 
@@ -351,7 +351,7 @@ $9p+13$ **[1]**
 ### 14((a)) — 2 marks
 *Multiply all terms in the first bracket by all terms in the second bracket* * *
 
-`p cross times p plus p cross times open parentheses negative 4 close parentheses plus 9 cross times p plus 9 cross times open parentheses negative 4 close parentheses` * *
+$p \times p + p \times ( - 4 ) + 9 \times p + 9 \times ( - 4 )$ * *
 
 *Simplify the terms (by multiplying their parts together)* * *
 
@@ -429,7 +429,7 @@ $p^{2}+5p-66$
 ### 4((d)) — 2 marks
 *Multiply all terms in the first bracket by all terms in the second bracket* * *
 
-`x cross times x plus x cross times 3 plus open parentheses negative 5 close parentheses cross times x plus open parentheses negative 5 close parentheses cross times 3` * *
+$x \times x + x \times 3 + ( - 5 ) \times x + ( - 5 ) \times 3$ * *
 
 *Simplify the terms (by multiplying their parts together)* * *
 
@@ -450,7 +450,7 @@ $x^{2}-2x-15$** ****[1]**
 ### 21((a)) — 2 marks
 *Multiply all terms in the first bracket by all terms in the second bracket* * *
 
-`y cross times y plus y cross times open parentheses negative 5 close parentheses plus open parentheses negative 2 close parentheses cross times y plus open parentheses negative 2 close parentheses cross times open parentheses negative 5 close parentheses` * *
+$y \times y + y \times ( - 5 ) + ( - 2 ) \times y + ( - 2 ) \times ( - 5 )$ * *
 
 *Simplify the terms (by multiplying their parts together)* * *
 
@@ -513,7 +513,7 @@ $m^{2}+10m+21$ **[1]**
 ### 11((b)) — 2 marks
 *Multiply all terms in the first bracket by all terms in the second bracket* * *
 
-`2 x cross times x plus 2 x cross times open parentheses negative 4 close parentheses plus 1 cross times x plus 1 cross times open parentheses negative 4 close parentheses` * *
+$2 x \times x + 2 x \times ( - 4 ) + 1 \times x + 1 \times ( - 4 )$ * *
 
 *Simplify the terms (by multiplying their parts together)* * *
 
@@ -534,7 +534,7 @@ $2x^{2}-7x-4$ **[1]**
 ### 12((c)) — 2 marks
 *Multiply all terms in the first bracket by all terms in the second bracket* * *
 
-`2 x cross times x plus 2 x cross times open parentheses negative 8 close parentheses plus 3 cross times x plus 3 cross times open parentheses negative 8 close parentheses` * *
+$2 x \times x + 2 x \times ( - 8 ) + 3 \times x + 3 \times ( - 8 )$ * *
 
 *Simplify the terms (by multiplying their parts together)* * *
 
@@ -555,7 +555,7 @@ $2x^{2}-13x-24$ **[1]**
 ### 10((c)) — 2 marks
 *Multiply all terms in the first bracket by all terms in the second bracket* * *
 
-`2 t cross times t plus 2 t cross times 5 plus open parentheses negative 3 close parentheses cross times t plus open parentheses negative 3 close parentheses cross times 5` * *
+$2 t \times t + 2 t \times 5 + ( - 3 ) \times t + ( - 3 ) \times 5$ * *
 
 *Simplify the terms (by multiplying their parts together)* * *
 
@@ -576,11 +576,11 @@ $2t^{2}+7t-15$ **[1]**
 ### 8((e)) — 2 marks
 > *Write the squared bracket out as two brackets multiplied together  *
 
-> `open parentheses w minus 5 close parentheses open parentheses w minus 5 close parentheses`*  *
+> $( w - 5 ) ( w - 5 )$*  *
 
 *Multiply all terms in the first bracket by all terms in the second bracket* * *
 
-`w cross times w plus w cross times open parentheses negative 5 close parentheses plus open parentheses negative 5 close parentheses cross times w plus open parentheses negative 5 close parentheses cross times open parentheses negative 5 close parentheses` * *
+$w \times w + w \times ( - 5 ) + ( - 5 ) \times w + ( - 5 ) \times ( - 5 )$ * *
 
 *Simplify the terms (by multiplying their parts together)* * *
 
@@ -610,7 +610,7 @@ $w^{2}-10w+25$ **[1]**
 
 > *Add together the terms inside the grid and collect like terms to simplify.*
 
-`table row cell open parentheses y plus 4 close parentheses open parentheses 2 minus y close parentheses end cell equals cell 2 y plus 8 minus y squared minus 4 y end cell row blank equals cell 8 minus 2 y minus y squared end cell end table`
+$\begin{gathered} ( y + 4 ) ( 2 - y ) & = 2 y + 8 - y^{2} - 4 y \\ = 8 - 2 y - y^{2} \end{gathered}$
 
 $(y+4)(2-y)=8-2y-y^{2}$** [1]**
 
@@ -621,7 +621,7 @@ $(y+4)(2-y)=8-2y-y^{2}$** [1]**
 
 *"3**x**" will be multiplied by both terms in the first bracket.* *"-**x**" will be multiplied by both terms in the second bracket.*
 
-`table row cell 3 x open parentheses 2 x plus 3 close parentheses minus x open parentheses 3 x plus 5 close parentheses end cell equals cell 3 x cross times 2 x plus 3 x cross times 3 plus open parentheses negative x close parentheses cross times 3 x plus open parentheses negative x close parentheses cross times 5 end cell row blank equals cell 6 x squared plus 9 x minus 3 x squared minus 5 x end cell end table`
+$\begin{gathered} 3 x ( 2 x + 3 ) - x ( 3 x + 5 ) & = 3 x \times 2 x + 3 x \times 3 + ( - x ) \times 3 x + ( - x ) \times 5 \\ = 6 x^{2} + 9 x - 3 x^{2} - 5 x \end{gathered}$
 
 **At least 3 correct terms**** [1]**
 
@@ -636,7 +636,7 @@ $3x(2x+3)-x(3x+5)=3x^{2}+4x$**[1]**
 ### 10() — 2 marks
 > *Expand both sets of brackets by multiplying everything inside the first bracket by 4 and everything inside the second bracket by -1.*
 
-`4 cross times 2 c plus 4 cross times 3 plus open parentheses negative 1 close parentheses cross times 5 c plus open parentheses negative 1 close parentheses cross times open parentheses negative 1 close parentheses`
+$4 \times 2 c + 4 \times 3 + ( - 1 ) \times 5 c + ( - 1 ) \times ( - 1 )$
 
 > *Simplify by completing the multiplications.*
 
@@ -668,7 +668,7 @@ $m^{2}+4m-45$
 ### 10() — 3 marks
 *Expand the last two brackets (by multiplying all terms in the second bracket by all terms in the third bracket)*
 
-`open parentheses x plus 2 close parentheses open parentheses x plus 3 close parentheses equals x squared plus 2 x plus 3 x plus 6`
+$( x + 2 ) ( x + 3 ) = x^{2} + 2 x + 3 x + 6$
 
 **3 out of 4 terms correct**** [1]**
 
@@ -678,7 +678,7 @@ $x^{2}+5x+6$
 
 > *Put the result above in brackets and multiply it by the first (unused) bracket  *
 
-> `open parentheses x plus 1 close parentheses open parentheses x squared plus 5 x plus 6 close parentheses`*  *
+> $( x + 1 ) ( x^{2} + 5 x + 6 )$*  *
 
 > *Expand these brackets (by multiplying all terms in the first bracket by all terms in the second)  *
 
@@ -702,7 +702,7 @@ $x^{3}+6x^{2}+11x+6$ **[1]**
 ### 13() — 3 marks
 *Expand the last two brackets (by multiplying all terms in the second bracket by all terms in the third bracket)* * *
 
-`open parentheses x plus 5 close parentheses open parentheses 4 x minus 3 close parentheses equals 4 x squared minus 3 x plus 20 x minus 15`
+$( x + 5 ) ( 4 x - 3 ) = 4 x^{2} - 3 x + 20 x - 15$
 
 **3 out of 4 terms correct**** [1]**
 
@@ -712,7 +712,7 @@ $4x^{2}+17x-15$ * *
 
 > *Put the result above in brackets and multiply it by the first (unused) bracket  *
 
-> `open parentheses 3 x minus 1 close parentheses open parentheses 4 x squared plus 17 x minus 15 close parentheses`*  *
+> $( 3 x - 1 ) ( 4 x^{2} + 17 x - 15 )$*  *
 
 > *Expand these brackets (by multiplying all terms in the first bracket by all terms in the second)  *
 
@@ -731,8 +731,8 @@ $12x^{3}+47x^{2}-62x+15$ **[1]**
 
 *Expand the brackets (by multiplying all terms in the first bracket by all terms in the second)* * *
 
-`square root of a cross times square root of a plus square root of a cross times open parentheses negative 2 square root of b close parentheses plus square root of 4 b end root cross times square root of a plus square root of 4 b end root cross times open parentheses negative 2 square root of b close parentheses
-equals square root of a square root of a minus 2 square root of a square root of b plus square root of 4 b end root square root of a minus 2 square root of 4 b end root square root of b` * *
+$\sqrt{a \times \sqrt{a} + \sqrt{a} \times ( - 2 \sqrt{b} ) + \sqrt{4} b} \times \sqrt{a + \sqrt{4} b} \times ( - 2 \sqrt{b} )
+= \sqrt{a \sqrt{a} - 2 \sqrt{a} \sqrt{b} + \sqrt{4} b} \sqrt{a - 2 \sqrt{4} b} \sqrt{b}$ * *
 
 *Simplify *$\sqrt{4b}$* using the surd rule that *$\sqrt{xy}=\sqrt{x}\sqrt{y}$ * *
 
@@ -742,10 +742,10 @@ $\sqrt{4b}=\sqrt{4}\sqrt{b}=2\sqrt{b}$
 
 *Replace *$\sqrt{4b}$*with *$2\sqrt{b}$*in the expansion above and cancel the middle terms* * *
 
-`square root of a square root of a minus up diagonal strike 2 square root of a square root of b end strike plus up diagonal strike 2 square root of b square root of a end strike minus 4 square root of b square root of b
-equals square root of a square root of a minus 4 square root of b square root of b` * *
+$\sqrt{a} \sqrt{a} - \cancel{2 \sqrt{a} \sqrt{b} } + \cancel{2 \sqrt{b} \sqrt{a} } - 4 \sqrt{b} \sqrt{b} 
+= \sqrt{a} \sqrt{a} - 4 \sqrt{b} \sqrt{b}$ * *
 
-*Simplify *$\sqrt{a}\sqrt{a}$* using the surd rule that *`square root of x square root of x equals open parentheses square root of x close parentheses squared equals x` * *
+*Simplify *$\sqrt{a}\sqrt{a}$* using the surd rule that *$\sqrt{x} \sqrt{x} = ( \sqrt{x} )^{2} = x$ * *
 
 $\sqrt{a}\sqrt{a}=a$
 
@@ -765,11 +765,11 @@ $\sqrt{4b}=\sqrt{4}\sqrt{b}=2\sqrt{b}$
 
 *Replace *$\sqrt{4b}$*with *$2\sqrt{b}$*in the question* * *
 
-`open parentheses square root of a plus 2 square root of b close parentheses open parentheses square root of a minus 2 square root of b close parentheses` * *
+$( \sqrt{a} + 2 \sqrt{b} ) ( \sqrt{a} - 2 \sqrt{b} )$ * *
 
 *This is the "difference of two squares", (**p** + **q**)(**p** - **q**) = **p*<sup>*2*</sup>* - **q*<sup>*2*</sup> *Use the "difference of two squares" to expand the brackets* * *
 
-`open parentheses square root of a close parentheses squared minus open parentheses 2 square root of b close parentheses squared` * *
+$( \sqrt{a} )^{2} - ( 2 \sqrt{b} )^{2}$ * *
 
 *Square the terms* * *
 
@@ -784,7 +784,7 @@ $a-4b$**[1]**
 ### 18((a)) — 3 marks
 *Expand the last two brackets (by multiplying all terms in the second bracket by all terms in the third bracket)* * *
 
-`open parentheses x plus 3 close parentheses open parentheses 3 x plus 7 close parentheses equals 3 x squared plus 7 x plus 9 x plus 21`
+$( x + 3 ) ( 3 x + 7 ) = 3 x^{2} + 7 x + 9 x + 21$
 
 **3 out of 4 terms correct**** [1]**
 
@@ -794,7 +794,7 @@ $3x^{2}+16x+21$ * *
 
 > *Put the result above in brackets and multiply it by the first (unused) bracket  *
 
-> `open parentheses 2 x plus 1 close parentheses open parentheses 3 x squared plus 16 x plus 21 close parentheses`*  *
+> $( 2 x + 1 ) ( 3 x^{2} + 16 x + 21 )$*  *
 
 > *Expand these brackets (by multiplying all terms in the first bracket by all terms in the second)  *
 
@@ -835,7 +835,7 @@ $25x^{2}-50x+16<0$ * *
 
 *Either "see" the factorisation or use solutions from a calculator that solves quadratic equations to skip to the next line* * *
 
-`open parentheses 5 x minus 8 close parentheses open parentheses 5 x minus 2 close parentheses less than 0`
+$( 5 x - 8 ) ( 5 x - 2 ) < 0$
 
 *Find the critical points (the values of **x** that make each bracket zero)* * *
 
@@ -843,7 +843,7 @@ $\frac{8}{5}$* **and** *$\frac{2}{5}$
 
 **[1]*** *
 
-*These are the **x**-intercepts of the positive quadratic graph *`y equals open parentheses 5 x minus 8 close parentheses open parentheses 5 x minus 2 close parentheses`
+*These are the **x**-intercepts of the positive quadratic graph *$y = ( 5 x - 8 ) ( 5 x - 2 )$
 
 > *Find where the graph is below the **x**-axis, "< 0"*
 
@@ -884,27 +884,27 @@ $AB=AD=3+x$
 
 > *The total area of the square will be this expression squared. Form an expression for the total area of the square.*
 
-`Total space area space equals open parentheses 3 space plus space x close parentheses squared`
+$Total \text{area} = ( 3 + x ) ^{2}$
 
 ** ****[1]**
 
 > *Expand the brackets, remember to multiply each term in the first by each term in the second.*
 
-`table row cell open parentheses 3 space plus space x close parentheses open parentheses 3 space plus space x close parentheses space end cell equals cell space 9 space plus space 3 x space plus space 3 x space plus space x squared end cell end table`
+$\begin{gathered} ( 3 + x ) ( 3 + x ) & = 9 + 3 x + 3 x + x^{2} \end{gathered}$
 
 > *Simplify.*
 
-`table row cell Total space area space end cell equals cell space x squared space plus space 6 x space plus space 9 space end cell end table`
+$\begin{gathered} \text{Total} \text{area} & = x^{2} + 6 x + 9 \end{gathered}$
 
 > *Form an equation by setting this equal to 10.*
 
-`table row cell x squared space plus space 6 x space plus space 9 space end cell equals cell space 10 end cell end table`
+$\begin{gathered} x^{2} + 6 x + 9 & = 10 \end{gathered}$
 
 **[1]**
 
 > *Reach the equation given in the question by subtracting 9 from each side.*
 
-`table row cell x squared space plus space 6 x space plus space 9 space end cell equals cell space 10 end cell row cell negative 9 space space space space space space space space space space space space space space space space space space space space space space space space space space space end cell equals cell space space space space space space space space space space space space space space space space space space space minus 9 end cell row cell x squared space plus space 6 x space end cell equals cell space 1 end cell end table`
+$\begin{gathered} x^{2} + 6 x + 9 & = 10 \\ - 9 & = - 9 \\ x^{2} + 6 x & = 1 \end{gathered}$
 
 $x^{2}+6x=1$** [1]**
 
@@ -924,17 +924,17 @@ $\mathrm{Total} \mathrm{area}=9+3x+3x+x^{2}$
 
 > *Form an equation by setting the total area equal to 10.*
 
-`table attributes columnalign right center left columnspacing 0px end attributes row cell 9 space plus space 3 x space plus space 3 x space plus space x squared space end cell equals cell space 10 end cell end table`
+$\begin{array}{rcl} 9 + 3 x + 3 x + x^{2} & = 10 \end{array}$
 
 **[1]**
 
 > *Simplify.*
 
-`table row cell x squared space plus space 6 x space plus space 9 space end cell equals cell space 10 end cell end table`
+$\begin{gathered} x^{2} + 6 x + 9 & = 10 \end{gathered}$
 
 > *Reach the equation given in the question by subtracting 9 from each side.*
 
-`table row cell x squared space plus space 6 x space plus space 9 space end cell equals cell space 10 end cell row cell negative 9 space space space space space space space space space space space space space space space space space space space space space space space space space space space end cell equals cell space space space space space space space space space space space space space space space space space space space minus 9 end cell row cell x squared space plus space 6 x space end cell equals cell space 1 end cell end table`
+$\begin{gathered} x^{2} + 6 x + 9 & = 10 \\ - 9 & = - 9 \\ x^{2} + 6 x & = 1 \end{gathered}$
 
 $x^{2}+6x=1$** [1]**
 
@@ -945,13 +945,13 @@ $x^{2}+6x=1$** [1]**
 
 > *The order of expanding brackets does not matter but it is easier here to start with the last two brackets.*
 
-`table row cell 5 x open parentheses x plus 2 close parentheses open parentheses 3 x minus 4 close parentheses end cell equals cell 5 x open parentheses 3 x squared minus 4 x plus 6 x minus 8 close parentheses end cell row blank equals cell 5 x open parentheses 3 x squared plus 2 x minus 8 close parentheses end cell end table`
+$\begin{gathered} 5 x ( x + 2 ) ( 3 x - 4 ) & = 5 x ( 3 x^{2} - 4 x + 6 x - 8 ) \\ = 5 x ( 3 x^{2} + 2 x - 8 ) \end{gathered}$
 
 **Expanding two brackets/factors**** [1]**
 
 > *Now expand the "third" bracket, which in this case would be like expanding one bracket.*
 
-`5 x open parentheses 3 x squared plus 2 x minus 8 close parentheses equals 15 x cubed plus 10 x squared minus 40 x`
+$5 x ( 3 x^{2} + 2 x - 8 ) = 15 x^{3} + 10 x^{2} - 40 x$
 
 **Expanding the third bracket/factor**** [1]**
 
@@ -962,11 +962,11 @@ $5x(x+2)(3x-4)=15x^{3}+10x^{2}-40x$ **[1]**
 ### 18() — 3 marks
 > *Expand the two brackets/factors on the left hand side.*
 
-`open parentheses 8 minus square root of x close parentheses open parentheses 5 plus square root of x close parentheses equals 40 plus 8 square root of x minus 5 square root of x minus open parentheses square root of x close parentheses squared`
+$( 8 - \sqrt{x} ) ( 5 + \sqrt{x} ) = 40 + 8 \sqrt{x} - 5 \sqrt{x} - ( \sqrt{x} )^{2}$
 
 > *Simplify as far as possible.*
 
-`40 plus 8 square root of x minus 5 square root of x minus open parentheses square root of x close parentheses squared equals 40 plus 3 square root of x minus x`
+$40 + 8 \sqrt{x} - 5 \sqrt{x} - ( \sqrt{x} )^{2} = 40 + 3 \sqrt{x} - x$
 
 **[1]**
 
@@ -976,13 +976,13 @@ $40+3\sqrt{x}-x=y\sqrt{x}+21$
 
 > *The constant parts should be equal.*
 
-`table row cell 40 minus x end cell equals 21 row x equals 19 end table`
+$\begin{gathered} 40 - x & = 21 \\ x = 19 \end{gathered}$
 
 **[1]**
 
 *(This meets the requirement that **x** is a prime number.)* *The "*$\sqrt{x}$*" terms should also be equal.*
 
-`table attributes columnalign right center left columnspacing 0px end attributes row cell 3 square root of x end cell equals cell y square root of x end cell row y equals 3 end table`
+$\begin{array}{rcl} 3 \sqrt{x} & = y \sqrt{x} \\ y = 3 \end{array}$
 
 $x=19,y=3$** [1]**
 
@@ -991,7 +991,7 @@ $x=19,y=3$** [1]**
 ### 9((b)) — 3 marks
 > *Although this may at first appear to be a quadratic equations question, it's actually a linear equations question "in disguise"!*
 
-> *Expand the brackets, noting that *`open parentheses 2 x space plus space 5 close parentheses squared space equals space open parentheses 2 x space plus 5 close parentheses open parentheses 2 x space plus 5 close parentheses`*.*
+> *Expand the brackets, noting that *$( 2 x + 5 )^{2} = ( 2 x + 5 ) ( 2 x + 5 )$*.*
 
 $4x^{2}+10x+10x+25=4x^{2}-2x+6x-3$
 
@@ -1003,21 +1003,21 @@ $4x^{2}+20x+25=4x^{2}+4x-3$
 
 > *Now subtract *$4x^{2}$* from both sides, to reveal the linear equation!*
 
-`table row cell 4 x squared space plus space 20 x space plus space 25 space end cell equals cell space 4 x squared space plus space 4 x space minus space 3 end cell row cell negative 4 x to the power of 2 space space space end exponent space space space space space space space space space space space space space space space space space space space space space space space space space space space end cell equals cell space space space space space space space space space space space space space space space space space space space space space space space space space minus 4 x squared end cell row cell 20 x space plus space 25 space end cell equals cell space 4 x space minus space 3 end cell end table`
+$\begin{gathered} 4 x^{2} + 20 x + 25 & = 4 x^{2} + 4 x - 3 \\ - 4 x^{2 } & = - 4 x^{2} \\ 20 x + 25 & = 4 x - 3 \end{gathered}$
 
 > *Solve the linear equation. Subtract *$4x$* from both sides.*
 
-`table row cell 16 x space plus space 25 space end cell equals cell space minus 3 end cell end table`
+$\begin{gathered} 16 x + 25 & = - 3 \end{gathered}$
 
 > *Subtract 25 from both sides.*
 
-`table row cell 16 x space end cell equals cell space minus 28 end cell end table`
+$\begin{gathered} 16 x & = - 28 \end{gathered}$
 
 **[1]**
 
 > *Divide both sides by 16.*
 
-`table row cell x space end cell equals cell space fraction numerator negative 28 over denominator 16 end fraction space equals space minus 7 over 4 end cell end table`
+$\begin{gathered} x & = \frac{- 28}{16} = - \frac{7}{4} \end{gathered}$
 
 $x=-\frac{7}{4}$ ** [1]**
 
@@ -1028,13 +1028,13 @@ $x=-\frac{7}{4}$ ** [1]**
 ### 17((b)) — 3 marks
 > *Although this may at first appear to be a quadratic equations question, it's actually a linear equations question "in disguise"!*
 
-> *First rewrite *`fg open parentheses x close parentheses space equals space straight f open parentheses x close parentheses`* in terms of *$x$* using composite functions.*
+> *First rewrite *$\text{fg} ( x ) = \mathrm{f} ( x )$* in terms of *$x$* using composite functions.*
 
-`open parentheses x space minus space 10 close parentheses squared space plus space 6 space equals space x squared space plus space 6`
+$( x - 10 )^{2} + 6 = x^{2} + 6$
 
 **[1]**
 
-> *Expand the brackets; *`open parentheses x space minus space 10 close parentheses squared space equals space open parentheses x space minus space 10 close parentheses open parentheses x space minus space 10 close parentheses`*.*
+> *Expand the brackets; *$( x - 10 )^{2} = ( x - 10 ) ( x - 10 )$*.*
 
 $x^{2}-20x+100+6=x^{2}+6$
 
@@ -1046,15 +1046,15 @@ $x^{2}-20x+106=x^{2}+6$
 
 > *Now subtract *$x^{2}$* from both sides, to reveal the linear equation!*
 
-`table row cell x squared space minus space 20 x space plus space 106 space end cell equals cell space x squared space plus space 6 end cell row cell negative x squared space space space space space space space space space space space space space space space space space space space space space space space space space space space end cell equals cell space space space space space space space space space space space minus x squared end cell row cell negative 20 x space plus space 106 space end cell equals cell space 6 end cell end table`
+$\begin{gathered} x^{2} - 20 x + 106 & = x^{2} + 6 \\ - x^{2} & = - x^{2} \\ - 20 x + 106 & = 6 \end{gathered}$
 
 > *Subtract 106 from both sides.*
 
-`table row cell negative 20 x space end cell equals cell space minus 100 end cell end table`
+$\begin{gathered} - 20 x & = - 100 \end{gathered}$
 
 > *And divide both sides by -20.*
 
-`table row cell x space end cell equals cell space fraction numerator negative 100 over denominator negative 20 end fraction space equals space 5 end cell end table`
+$\begin{gathered} x & = \frac{- 100}{- 20} = 5 \end{gathered}$
 
 $x=5$ ** [1]**
 
@@ -1063,13 +1063,13 @@ $x=5$ ** [1]**
 ### 14() — 3 marks
 > *Expand the first two brackets by multiplying all terms in the first bracket by all terms in the second bracket.*
 
-`open parentheses 4 x squared plus x minus 12 x minus 3 close parentheses open parentheses 5 x plus 6 close parentheses`
+$( 4 x^{2} + x - 12 x - 3 ) ( 5 x + 6 )$
 
 **At least 3 out of 4 terms correct**** [1]**
 
 > *Simplify the first bracket by collecting the "like" terms.*
 
-`open parentheses 4 x squared minus 11 x minus 3 close parentheses open parentheses 5 x plus 6 close parentheses`
+$( 4 x^{2} - 11 x - 3 ) ( 5 x + 6 )$
 
 > *Now there are two sets of brackets, expand these two brackets (multiply all the terms in the first bracket by all the terms in the second bracket).*
 
@@ -1086,11 +1086,11 @@ $20x^{3}-31x^{2}-81x-18$ **[1]**
 ### 24((a)) — 1 marks
 > *Expand the two brackets on the left hand side (multiply everything in the first bracket by everything in the second bracket).*
 
-`x open parentheses x squared minus x plus x minus 1 close parentheses equals x cubed minus x`
+$x ( x^{2} - x + x - 1 ) = x^{3} - x$
 
 > *Simplify inside the bracket by collecting "like" terms.*
 
-`x open parentheses x squared minus 1 close parentheses equals x cubed minus x`
+$x ( x^{2} - 1 ) = x^{3} - x$
 
 > *Expand the single bracket on the left hand side by multiplying everything inside the bracket by the value outside the bracket.*
 
@@ -1103,21 +1103,21 @@ $x^{3}-x$* ***[1]**
 ### 25() — 3 marks
 > *Expand the first two brackets by multiplying everything in the first bracket by everything in the second bracket.*
 
-`open parentheses x cross times x plus open parentheses negative 3 close parentheses cross times x plus x cross times 2 plus open parentheses negative 3 close parentheses cross times 2 close parentheses open parentheses x plus 5 close parentheses`
+$( x \times x + ( - 3 ) \times x + x \times 2 + ( - 3 ) \times 2 ) ( x + 5 )$
 
 > *Simplify by completing the multiplications.*
 
-`open parentheses x squared minus 3 x plus 2 x minus 6 close parentheses open parentheses x plus 5 close parentheses`
+$( x^{2} - 3 x + 2 x - 6 ) ( x + 5 )$
 
 **4 terms in the first bracket with at least 3 of them correct**** [1]**
 
 > *Simplify the terms inside the first bracket by collecting "like" terms.*
 
-`open parentheses x squared minus x minus 6 close parentheses open parentheses x plus 5 close parentheses`
+$( x^{2} - x - 6 ) ( x + 5 )$
 
 > *Expand the two remaining brackets by multiplying all three terms inside the first bracket by each of the terms inside the second bracket.*
 
-`x squared cross times x plus x squared cross times 5 plus open parentheses negative x close parentheses cross times x plus open parentheses negative x close parentheses cross times 5 plus open parentheses negative 6 close parentheses cross times x plus open parentheses negative 6 close parentheses cross times 5`
+$x^{2} \times x + x^{2} \times 5 + ( - x ) \times x + ( - x ) \times 5 + ( - 6 ) \times x + ( - 6 ) \times 5$
 
 > *Simplify by completing the multiplications.*
 
@@ -1134,7 +1134,7 @@ $x^{3}+4x^{2}-11x-30$* ***[1]**
 ### 8() — 3 marks
 > *Expand the brackets on the left hand side.*
 
-`table row cell a cross times 3 x plus a cross times open parentheses negative 10 close parentheses end cell identical to cell 21 x plus 2 b end cell row cell 3 a x minus 10 a end cell identical to cell 21 x plus 2 b end cell end table`
+$\begin{gathered} a \times 3 x + a \times ( - 10 ) & \equiv 21 x + 2 b \\ 3 a x - 10 a & \equiv 21 x + 2 b \end{gathered}$
 
 **[1]**
 
@@ -1144,7 +1144,7 @@ $3ax=21x$
 
 > *Solve the equation to find the value of *$a$*.*
 
-`table attributes columnalign right center left columnspacing 0px end attributes row cell 3 a end cell equals 21 row a equals cell 21 over 3 end cell end table`
+$\begin{array}{rcl} 3 a & = 21 \\ a = \frac{21}{3} \end{array}$
 
 $a=7$* ***[1]**
 
@@ -1158,24 +1158,24 @@ $-10\times7=2b$
 
 > *Solve to find the value of *$b$*.*
 
-`table row cell negative 70 end cell equals cell 2 b end cell row cell negative 35 end cell equals b end table`
+$\begin{gathered} - 70 & = 2 b \\ - 35 & = b \end{gathered}$
 
-`table attributes columnalign right center left columnspacing 0px end attributes row bold italic b bold equals cell bold minus bold 35 end cell end table`* ***[1]**
+$\begin{array}{rcl} b = - 35 \end{array}$* ***[1]**
 
 ## Q48 — hard — 3 marks · exam-questions
 
 ### 26() — 3 marks
 > *Expand the first two brackets by multiplying everything in the first bracket by everything in the second bracket.*
 
-`open parentheses x cross times x plus 5 cross times x plus x cross times 2 plus 5 cross times 2 close parentheses open parentheses x plus a close parentheses`
+$( x \times x + 5 \times x + x \times 2 + 5 \times 2 ) ( x + a )$
 
 > *Simplify by completing the multiplications.*
 
-`open parentheses x squared plus 5 x plus 2 x plus 10 close parentheses open parentheses x plus a close parentheses`
+$( x^{2} + 5 x + 2 x + 10 ) ( x + a )$
 
 > *Simplify the terms inside the first bracket by collecting "like" terms.*
 
-`open parentheses x squared plus 7 x plus 10 close parentheses open parentheses x plus a close parentheses`
+$( x^{2} + 7 x + 10 ) ( x + a )$
 
 > *Expand the two remaining brackets by multiplying all three terms inside the first bracket by each of the terms inside the second bracket.*
 
@@ -1187,11 +1187,11 @@ $x^{3}+ax^{2}+7x^{2}+7ax+10x+10a$
 
 > *Simplify by collecting "like terms".*
 
-`x cubed plus open parentheses a plus 7 close parentheses x squared plus open parentheses 7 a plus 10 close parentheses x plus 10 a`
+$x^{3} + ( a + 7 ) x^{2} + ( 7 a + 10 ) x + 10 a$
 
 > *Equate the expanded expression to the given result.*
 
-`x cubed plus open parentheses a plus 7 close parentheses x squared plus open parentheses 7 a plus 10 close parentheses x plus 10 a identical to x cubed plus b x squared plus c x minus 30`
+$x^{3} + ( a + 7 ) x^{2} + ( 7 a + 10 ) x + 10 a \equiv x^{3} + b x^{2} + c x - 30$
 
 > *Compare the constant term on both sides.*
 
@@ -1205,21 +1205,21 @@ $a=-3$* ***[1]**
 
 > *Compare the *$x^{2}$* term on both sides.*
 
-`table row cell open parentheses a plus 7 close parentheses x squared end cell equals cell b x squared end cell row cell a plus 7 end cell equals b end table`
+$\begin{gathered} ( a + 7 ) x^{2} & = b x^{2} \\ a + 7 & = b \end{gathered}$
 
 > *Substitute *$a=-3$* into the equation and solve to find the value of *$b$*.*
 
-`open parentheses negative 3 close parentheses plus 7 equals b`
+$( - 3 ) + 7 = b$
 
 $b=4$* ***[1]**
 
 > *Compare the *$x$* term on both sides.*
 
-`table attributes columnalign right center left columnspacing 0px end attributes row cell open parentheses 7 a plus 10 close parentheses x end cell equals cell c x end cell row cell 7 a plus 10 end cell equals c end table`
+$\begin{array}{rcl} ( 7 a + 10 ) x & = c x \\ 7 a + 10 & = c \end{array}$
 
 > *Substitute *$a=-3$* into the equation and solve to find the value of *$c$*.*
 
-`table row cell 7 cross times open parentheses negative 3 close parentheses plus 10 end cell equals c row cell negative 21 plus 10 end cell equals c end table`
+$\begin{gathered} 7 \times ( - 3 ) + 10 & = c \\ - 21 + 10 & = c \end{gathered}$
 
 $c=-11$** [1]**
 
@@ -1228,7 +1228,7 @@ $c=-11$** [1]**
 ### 18() — 4 marks
 > *Expand the double brackets by multiplying everything inside the first bracket by everything inside the second bracket.*
 
-`open parentheses 3 x squared plus 2 close parentheses open parentheses 2 x plus 5 close parentheses equals 3 x squared cross times 2 x plus 2 cross times 2 x plus 3 x squared cross times 5 plus 2 cross times 5`
+$( 3 x^{2} + 2 ) ( 2 x + 5 ) = 3 x^{2} \times 2 x + 2 \times 2 x + 3 x^{2} \times 5 + 2 \times 5$
 
 > *Simplify.*
 
@@ -1238,7 +1238,7 @@ $6x^{3}+4x+15x^{2}+10$
 
 > *Expand the second term in the original expression by multiplying everything inside the bracket by the value outside the bracket.*
 
-`negative 6 x open parentheses x squared minus 3 close parentheses equals negative 6 x cross times x squared minus 6 x cross times negative 3`
+$- 6 x ( x^{2} - 3 ) = - 6 x \times x^{2} - 6 x \times - 3$
 
 > *Simplify.*
 
@@ -1261,22 +1261,22 @@ $15x^{2}+22x+10$* ***[1]**
 ### 17() — 3 marks
 > *Expand the first two brackets by multiplying all of the terms in the first bracket by all of the terms in the second bracket.*
 
-`open parentheses x cross times x plus 1 cross times x plus x cross times open parentheses negative 1 close parentheses plus 1 cross times open parentheses negative 1 close parentheses close parentheses open parentheses x plus 2 close parentheses`
+$( x \times x + 1 \times x + x \times ( - 1 ) + 1 \times ( - 1 ) ) ( x + 2 )$
 
 > *Simplify.*
 
-`open parentheses x squared plus x minus x minus 1 close parentheses open parentheses x plus 2 close parentheses`
+$( x^{2} + x - x - 1 ) ( x + 2 )$
 
 **At least 3 out of 4 correct terms in expanded expression**** [1] **
 **All 4 correct terms in expanded expression**** [1]**
 
 > *Collect "like" terms.*
 
-`open parentheses x squared minus 1 close parentheses open parentheses x plus 2 close parentheses`
+$( x^{2} - 1 ) ( x + 2 )$
 
 > *Expand the remaining two brackets by multiplying all of the terms in the first bracket by all of the terms in the second bracket*
 
-`open parentheses x squared cross times x plus open parentheses negative 1 close parentheses cross times x plus x squared cross times 2 plus open parentheses negative 1 close parentheses cross times 2 close parentheses`
+$( x^{2} \times x + ( - 1 ) \times x + x^{2} \times 2 + ( - 1 ) \times 2 )$
 
 > *Simplify.*
 
@@ -1291,22 +1291,22 @@ $x^{3}+2x^{2}-x-2$ **[1]**
 ### 13((b)) — 4 marks
 > *Expand the first two brackets by multiplying all of the terms in the first bracket by all of the terms in the second bracket.*
 
-`open parentheses 2 x cross times x plus open parentheses negative 1 close parentheses cross times x plus 2 x cross times 5 plus open parentheses negative 1 close parentheses cross times 5 close parentheses open parentheses 3 x minus 2 close parentheses`
+$( 2 x \times x + ( - 1 ) \times x + 2 x \times 5 + ( - 1 ) \times 5 ) ( 3 x - 2 )$
 
 > *Simplify.*
 
-`open parentheses 2 x squared minus x plus 10 x minus 5 close parentheses open parentheses 3 x minus 2 close parentheses`
+$( 2 x^{2} - x + 10 x - 5 ) ( 3 x - 2 )$
 
 **At least 3 out of 4 correct terms in expanded expression**** [1] **
 **All 4 correct terms in expanded expression**** [1]**
 
 > *Collect "like" terms.*
 
-`open parentheses 2 x squared plus 9 x minus 5 close parentheses open parentheses 3 x minus 2 close parentheses`
+$( 2 x^{2} + 9 x - 5 ) ( 3 x - 2 )$
 
 > *Expand the remaining two brackets by multiplying everything in the first bracket by everything in the second bracket.*
 
-`2 x squared cross times 3 x plus 2 x squared cross times open parentheses negative 2 close parentheses plus 9 x cross times 3 x plus 9 x cross times open parentheses negative 2 close parentheses plus open parentheses negative 5 close parentheses cross times 3 x plus open parentheses negative 5 close parentheses cross times open parentheses negative 2 close parentheses`
+$2 x^{2} \times 3 x + 2 x^{2} \times ( - 2 ) + 9 x \times 3 x + 9 x \times ( - 2 ) + ( - 5 ) \times 3 x + ( - 5 ) \times ( - 2 )$
 
 > *Simplify.*
 
@@ -1324,13 +1324,13 @@ $6x^{3}+23x^{2}-33x+10$ **[1]**
 
 > *Multiply a pair of brackets together*
 
-`table row cell open parentheses x plus 6 close parentheses open parentheses x plus 6 close parentheses open parentheses 3 x minus 2 close parentheses end cell equals cell open parentheses x squared plus 6 x plus 6 x plus 36 close parentheses open parentheses 3 x minus 2 close parentheses end cell row blank equals cell open parentheses x squared plus 12 x plus 36 close parentheses open parentheses 3 x minus 2 close parentheses end cell end table`
+$\begin{gathered} ( x + 6 ) ( x + 6 ) ( 3 x - 2 ) & = ( x^{2} + 6 x + 6 x + 36 ) ( 3 x - 2 ) \\ = ( x^{2} + 12 x + 36 ) ( 3 x - 2 ) \end{gathered}$
 
 **[M1]**
 
 > *Multiply the quadratic by the 3rd bracket*
 
-`table row cell open parentheses x squared plus 12 x plus 36 close parentheses open parentheses 3 x minus 2 close parentheses end cell equals cell 3 x open parentheses x squared plus 12 x plus 36 close parentheses minus 2 open parentheses x squared plus 12 x plus 36 close parentheses end cell row blank equals cell 3 x cubed plus 36 x squared plus 108 x minus 2 x squared minus 24 x minus 72 end cell end table`
+$\begin{gathered} ( x^{2} + 12 x + 36 ) ( 3 x - 2 ) & = 3 x ( x^{2} + 12 x + 36 ) - 2 ( x^{2} + 12 x + 36 ) \\ = 3 x^{3} + 36 x^{2} + 108 x - 2 x^{2} - 24 x - 72 \end{gathered}$
 
 **[M1]**
 
@@ -1345,15 +1345,15 @@ $3x^{3}+34x^{2}+84x-72$
 ### 16() — 3 marks
 > *Start by expanding a pair of brackets *
 
-`open parentheses x space minus space 5 close parentheses open parentheses x space plus thin space 4 close parentheses space
-equals space x squared space plus space 4 x space minus space 5 x space minus space 20 space
-equals space x squared space minus space x space minus space 20`
+$( x - 5 ) ( x + 4 ) 
+= x^{2} + 4 x - 5 x - 20 
+= x^{2} - x - 20$
 
 **[M1]**
 
 > *Multiply by the remaining bracket*
 
-`open parentheses 2 x space plus thin space 3 close parentheses open parentheses x squared space minus space x space minus space 20 close parentheses`
+$( 2 x + 3 ) ( x^{2} - x - 20 )$
 
 $=2x^{3}-2x^{2}-40x+3x^{2}-3x-60$
 

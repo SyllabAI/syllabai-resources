@@ -84,16 +84,16 @@ guided_study: true
 
 ***K***<sub>**w**</sub>** = [H**<sup>**+**</sup>**] [OH**<sup>**-**</sup>**]**
 
-**[H**<sup>**+**</sup>**] = **`fraction numerator bold K subscript bold w over denominator stretchy left square bracket OH to the power of minus stretchy right square bracket end fraction`
+**[H**<sup>**+**</sup>**] = **$\frac{ K_{ } w}{ \text{stretchy} [ OH^{ - } \text{stretchy} ]}$
 
 - Since *K*<sub>w</sub> is 1.00 x 10<sup>-14</sup> mol<sup>2</sup> dm<sup>-6</sup>
 
-**[H**<sup>**+**</sup>**] = **`fraction numerator bold 1 bold. bold 00 bold cross times bold 10 to the power of bold minus bold 14 end exponent over denominator stretchy left square bracket OH to the power of minus stretchy right square bracket end fraction`
+**[H**<sup>**+**</sup>**] = **$\frac{1 . 00 \times 10^{- 14} }{[ OH^{-} ]}$
 
 - Once the [H<sup>+</sup>] has been determined, the pH of the strong alkali can be found using pH = -log[H<sup>+</sup>]
 - Similarly, the ionic product of water can be used to find the concentration of OH<sup>-</sup> ions in solution if [H<sup>+</sup>] is known
 
-**[OH**<sub>**–**</sub>**] = **`fraction numerator bold 1 bold. bold 00 bold cross times bold 10 to the power of bold minus bold 14 end exponent over denominator stretchy left square bracket H to the power of plus stretchy right square bracket end fraction`
+**[OH**<sub>**–**</sub>**] = **$\frac{1 . 00 \times 10^{- 14} }{[ H^{+} ]}$
 
 > **Worked Example**
 > **pH calculations of a strong alkali**
@@ -135,7 +135,7 @@ guided_study: true
 > 
 > *K*<sub>w</sub> = [H<sup>+</sup>] [OH<sup>-</sup>]
 > 
-> [OH<sup>–</sup>] = `begin mathsize 14px style fraction numerator K subscript straight w over denominator open square brackets straight H to the power of plus close square brackets end fraction end style`
+> [OH<sup>–</sup>] = $\frac{K_{w} }{[ \mathrm{H}^{+} ]}$
 > 
 > - **Step 3: **Substitute the values into the expression to find the concentration of hydroxide ions:
 > 
@@ -163,7 +163,7 @@ guided_study: true
 > 
 > - **Step 1: **Write down the equilibrium expression to find *K*<sub>a</sub>:
 > 
-> *K*<sub>a</sub> = `fraction numerator open square brackets straight H plus close square brackets space open square brackets CH subscript 3 COO to the power of minus close square brackets over denominator open square brackets CH subscript 3 COOH close square brackets end fraction`
+> *K*<sub>a</sub> = $\frac{[ \mathrm{H} + ] [ CH_{3} COO^{-} ]}{[ CH_{3} \text{COOH} ]}$
 > 
 > - **Step 2: **Simplify the expression:
 > 
@@ -171,15 +171,15 @@ guided_study: true
 >   - Therefore the concentration of H<sup>+</sup> and CH<sub>3</sub>COO<sup>-</sup> ions are the same
 >   - So, the expression can be simplified to:
 > 
-> *K*<sub>a</sub> = `fraction numerator open square brackets straight H plus close square brackets squared over denominator open square brackets CH subscript 3 COOH close square brackets end fraction`
+> *K*<sub>a</sub> = $\frac{[ \mathrm{H} + ]^{2}}{[ CH_{3} \text{COOH} ]}$
 > 
 > - **Step 3: **Rearrange the expression to find [H<sup>+</sup>]:
 > 
-> [H<sup>+</sup>] = `square root of K subscript straight a cross times open square brackets CH subscript 3 COOH close square brackets end root`
+> [H<sup>+</sup>] = $\sqrt{K_{a} \times [ CH_{3} \text{COOH} ]}$
 > 
 > - **Step 4: **Substitute the values into the expression to find [H<sup>+</sup>]:
 > 
-> [H<sup>+</sup>] = `square root of open parentheses 1.74 cross times 10 to the power of negative 5 end exponent close parentheses cross times 0.100 end root`
+> [H<sup>+</sup>] = $\sqrt{( 1.74 \times 10^{- 5} ) \times 0.100}$
 > 
 > [H<sup>+</sup>] = 1.32 x 10<sup>-3</sup> mol dm<sup>-3</sup>
 > 

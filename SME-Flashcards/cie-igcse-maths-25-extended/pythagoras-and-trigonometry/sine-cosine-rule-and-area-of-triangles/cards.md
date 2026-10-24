@@ -14,7 +14,7 @@ State the **equation** for the **sine rule**.
 
 **BACK**
 
-The equation for the** sine rule** is `fraction numerator a over denominator sin open parentheses A close parentheses end fraction equals fraction numerator b over denominator sin open parentheses B close parentheses end fraction equals fraction numerator c over denominator sin open parentheses C close parentheses end fraction`
+The equation for the** sine rule** is $\frac{a}{\sin ( A )} = \frac{b}{\sin ( B )} = \frac{c}{\sin ( C )}$
 
 Where:
 
@@ -22,7 +22,7 @@ Where:
 - $b$ is the length of the side opposite angle $B$
 - $c$ is the length of the side opposite angle $C$
 
-It can also be used in the form `fraction numerator sin open parentheses A close parentheses over denominator a end fraction equals fraction numerator sin open parentheses B close parentheses over denominator b end fraction equals fraction numerator sin open parentheses C close parentheses over denominator c end fraction`
+It can also be used in the form $\frac{\sin ( A )}{a} = \frac{\sin ( B )}{b} = \frac{\sin ( C )}{c}$
 
 
 
@@ -56,7 +56,7 @@ The** sine rule **can be used to find **missing side lengths** in **non right-an
 
 The sine rule can be used to find **missing side lengths **in **non-right angled triangles**.
 
-It is easiest to do this when the equation is in the form with the angles in the numerators, `fraction numerator sin open parentheses A close parentheses over denominator a end fraction equals fraction numerator sin open parentheses B close parentheses over denominator b end fraction equals fraction numerator sin open parentheses C close parentheses over denominator c end fraction`.
+It is easiest to do this when the equation is in the form with the angles in the numerators, $\frac{\sin ( A )}{a} = \frac{\sin ( B )}{b} = \frac{\sin ( C )}{c}$.
 
 
 
@@ -116,7 +116,7 @@ State the **equation** for the **cosine rule** in the form used to find a** **mi
 
 **BACK**
 
-The **equation** for the **cosine rule** in the form used to find a missing **angle **is `cos open parentheses A close parentheses equals fraction numerator b squared plus c squared minus a squared over denominator 2 b c end fraction`
+The **equation** for the **cosine rule** in the form used to find a missing **angle **is $\cos ( A ) = \frac{b^{2} + c^{2} - a^{2}}{2 b c}$
 
 Where:
 
@@ -134,7 +134,7 @@ State the **equation** for the **cosine rule** in the form used to find a missin
 
 **BACK**
 
-The equation for the **cosine rule** in the form used to find a missing **side** is `a squared equals b squared plus c squared minus 2 b c space cos space open parentheses A close parentheses`
+The equation for the **cosine rule** in the form used to find a missing **side** is $a^{2} = b^{2} + c^{2} - 2 b c \cos ( A )$
 
 Where:
 
@@ -190,7 +190,7 @@ What is the** formula** for the **area of a triangle**?
 
 **BACK**
 
-The **area of a triangle** is given by the formula `A equals 1 half a b space sin open parentheses C close parentheses`
+The **area of a triangle** is given by the formula $A = 1 \frac{1}{2} a b \sin ( C )$
 
 Where:
 
@@ -217,7 +217,7 @@ Where:
 - $b$ is the length of the base
 - $h$ is the perpendicular height of the triangle
 
-(This is because `sin open parentheses 90 degree close parentheses equals 1`.)
+(This is because $\sin ( 90^{\circ} ) = 1$.)
 
 
 

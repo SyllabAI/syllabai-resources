@@ -76,7 +76,7 @@ $L=4πr^{2}σT^{4}$
 > 
 > **Step 4: Rearrange for r and calculate the stellar radius of Betelgeuse**
 > 
-> `r subscript B space equals space square root of fraction numerator L over denominator 4 straight pi sigma T to the power of 4 end fraction end root space equals space square root of fraction numerator 4.49 space cross times space 10 to the power of 31 over denominator 4 straight pi space cross times space open parentheses 5.67 space cross times space 10 to the power of negative 8 end exponent close parentheses space cross times space open parentheses 3410 close parentheses to the power of 4 end fraction end root space equals space 6.83 space cross times space 10 to the power of 11 space straight m space`
+> $r_{B} = \sqrt{ \frac{L}{4 \mathrm{\pi } \\sigma T^{4} } = \sqrt{ \frac{4.49 \times 10^{31} }{4 \mathrm{\pi } \times ( 5.67 \times 10^{-8} } ) \times ( 3410 )^{4} } } = 6.83 \times 10^{11} \mathrm{m}$
 > 
 > **Step 5:** **Calculate the ratio** $\frac{r_{B}}{r_{s}}$
 > 

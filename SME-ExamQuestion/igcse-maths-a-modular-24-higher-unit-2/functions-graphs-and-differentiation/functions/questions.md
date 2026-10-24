@@ -13,7 +13,7 @@ State the value of $k$.
 ### 2() — 3 marks — command: show — structured
 $f(x)=\frac{x}{2x-1}$
 
-Find the inverse function $f^{-1}$  in the form `straight f space to the power of negative 1 end exponent open parentheses x close parentheses space equals space.......`
+Find the inverse function $f^{-1}$  in the form $\mathrm{f}^{- 1} ( x ) = .......$
 
 Show your working clearly.
 
@@ -22,7 +22,7 @@ Show your working clearly.
 ### 17((b)) — 3 marks — command: show — structured — from paper Jan 2021 · 4MA1/2HR
 The functions $f$and $g$ are defined as
 
-`table row cell straight f left parenthesis x right parenthesis space end cell equals cell space x squared space plus space 6 space end cell row cell straight g left parenthesis x right parenthesis space end cell equals cell space x space – space 10 end cell end table`
+$\begin{gathered} \mathrm{f} ( x ) & = x^{2} + 6 \\ \mathrm{g} ( x ) & = x - 10 \end{gathered}$
 
 Solve the equation $\mathrm{fg}(x)=f(x)$
 
@@ -33,12 +33,12 @@ Show clear algebraic working.
 ### 11((a)) — 1 mark — command: find — structured — from paper 2018	June · 1MA1/2H
 $f$ and $g$ are functions such that
 
-`straight f open parentheses x close parentheses space equals space 2 over x squared space space space space space space space space space space and space space space space space space straight g open parentheses x close parentheses space equals space 4 x cubed`
+`f ( x ) = 2 / x ^2 and g ( x ) = 4 x ^3`
 
 Find $f(-5)$
 
 ### 11((b)) — 2 marks — command: find — structured — from paper 2018	June · 1MA1/2H
-Find `fg open parentheses 1 close parentheses`
+Find $fg ( 1 )$
 
 ## Q4 — very_hard — 5 marks · exam-questions
 
@@ -61,10 +61,10 @@ Express $f(x+2)$ in the form $ax^{2}+bx$
 ## Q6 — medium — 4 marks · exam-questions
 
 ### 1() — 2 marks — command: express — structured
-`straight f open parentheses x close parentheses space equals space 3 x space minus space 2
-straight g open parentheses x close parentheses space equals fraction numerator space 10 over denominator x plus 2 end fraction`
+$\mathrm{f} ( x ) = 3 x - 2
+ \mathrm{g} ( x ) = \frac{ 10}{x + 2}$
 
-Express the inverse function $f^{-1}$ in the form `straight f to the power of negative 1 end exponent open parentheses x close parentheses space equals space...`
+Express the inverse function $f^{-1}$ in the form $\mathrm{f}^{- 1} ( x ) = ...$
 
 ### 2() — 2 marks — command: simplify — structured
 Find $\mathrm{gf}(x)$ 
@@ -73,7 +73,7 @@ Simplify your answer.
 ## Q7 — very_hard — 9 marks · exam-questions
 
 ### 1() — 1 mark — command: find — structured
-`straight f open parentheses x close parentheses equals square root of x minus 6 end root`
+$\mathrm{f} ( x ) = \sqrt{x - 6}$
 
 Find f(10)
 
@@ -81,17 +81,17 @@ Find f(10)
 State which values of $x$ must be excluded from a domain of f
 
 ### 3() — 1 mark — command: find — structured — from paper PRE 2017
-The diagram shows part of the graph of `y equals straight g open parentheses x close parentheses`
+The diagram shows part of the graph of $y = \mathrm{g} ( x )$
 
 ![Graph on a grid showing a curve with peaks and troughs, crossing the y-axis at 10 and x-axis at zero, ranging from -2 to 4 on the x-axis.](assets/010-graph-on-a-grid-showing-a-curve-with-peaks-and-t.jpg)
 
-Find `straight g open parentheses 2 close parentheses`
+Find $\mathrm{g} ( 2 )$
 
 ### 4() — 2 marks — command: find — structured
-Find `fg open parentheses 0 close parentheses`
+Find $fg ( 0 )$
 
 ### 5() — 3 marks — command: find — structured
-One of the solutions of `straight g open parentheses x close parentheses equals k`, where $k$ is a number, is $x=1$
+One of the solutions of $\mathrm{g} ( x ) = k$, where $k$ is a number, is $x=1$
 
 Find the other solutions 
 Give your answers correct to 1 decimal place
@@ -99,29 +99,29 @@ Give your answers correct to 1 decimal place
 ## Q8 — hard — 6 marks · exam-questions
 
 ### 1() — 3 marks — command: find — structured
-The functions $f$ and $g$ are such that $f(x)=x+3$     and       `straight g open parentheses x close parentheses space equals space fraction numerator 1 over denominator x minus 2 end fraction`
+The functions $f$ and $g$ are such that $f(x)=x+3$     and       $\mathrm{g} ( x ) = \frac{1}{x - 2}$
 
 Find $\mathrm{fg}(x)$ 
 Give your answer as a single algebraic fraction expressed as simply as possible.
 
 ### 2() — 3 marks — command: express — structured
-Express the inverse function $g^{-1}$ in the form `straight g to the power of negative 1 end exponent open parentheses x close parentheses space equals space...`
+Express the inverse function $g^{-1}$ in the form $\mathrm{g}^{- 1} ( x ) = ...$
 
 ## Q9 — medium — 3 marks · exam-questions
 
 ### 1() — 1 mark — command: find — structured
 f is a function such that
 
-`straight f open parentheses x close parentheses space equals space fraction numerator 1 over denominator x squared space plus space 1 end fraction`
+$\mathrm{f} ( x ) = \frac{1}{x^{2} + 1}$
 
-Find `straight f open parentheses begin inline style 1 half end style close parentheses`
+Find $\mathrm{f} ( 1 \frac{1}{2} )$
 
 ### 2() — 2 marks — command: find — structured
 $g$ is a function such that
 
-`straight g open parentheses x close parentheses space equals space square root of x minus 1 end root space space space space space space space space space x greater-than or slanted equal to 1`
+$\mathrm{g} ( x ) = \sqrt{x - 1} x greater-than \text{or} \text{slanted} \text{equal} \text{to} 1$
 
-Find `straight f g open parentheses x close parentheses`
+Find $\mathrm{f} g ( x )$
 
 Give your answer as simply as possible.
 
@@ -132,16 +132,16 @@ The diagram shows the graph of $y=f(x)$  for  `negative 3.5 less-than or slanted
 
 ![Graph with curve on a grid, y-axis (0 to 20) and x-axis (-3 to 1). Curve rises and falls from -3 to 1, passing through origin.](assets/004-graph-with-curve-on-a-grid-y-axis-0-to-20-and-x-.jpg)
 
-Use the graph of `straight f open parentheses x close parentheses` to find the value of `straight f open parentheses 0 close parentheses`.
+Use the graph of $\mathrm{f} ( x )$ to find the value of $\mathrm{f} ( 0 )$.
 
 ### 2() — 2 marks — command: which — structured
-For which values of $k$ does the equation `straight f open parentheses x close parentheses equals k` have only one solution?
+For which values of $k$ does the equation $\mathrm{f} ( x ) = k$ have only one solution?
 
 ### 3() — 3 marks — command: find — structured
 Find an estimate for the gradient of the curve at the point where $x$ = −2.5
 
 ### 4() — 1 mark — command: state — structured
-`straight g open parentheses x close parentheses equals fraction numerator 1 over denominator 2 plus x end fraction`
+$\mathrm{g} ( x ) = \frac{1}{2 + x}$
 
 State which value of $x$ must be excluded from any domain of $g$
 
@@ -174,7 +174,7 @@ $f$is the function $f(x)=2x+5$
 Find $f(3)$
 
 ### 2() — 2 marks — command: express — structured
-Express the inverse function $f^{-1}$ in the form `straight f to the power of negative 1 end exponent open parentheses x close parentheses` =
+Express the inverse function $f^{-1}$ in the form $\mathrm{f}^{- 1} ( x )$ =
 
 ### 3() — 1 mark — command: find — structured
 $g$ is the function $g(x)=x^{2}---25$
@@ -195,11 +195,11 @@ Find $g(---3)$
 ### 25((a)) — 4 marks — command: express — structured — from paper Jan 2022 · 4MA1/2H
 The function $g$ is defined as
 
-`g colon space x space rightwards arrow from bar space 5 space plus space 6 x space minus space x squared`       with domain `open curly brackets x colon x greater-than or slanted equal to 3 close curly brackets`
+$g : x \rightarrow \text{from} \text{bar} 5 + 6 x - x^{2}$       with domain `{ x colon x greater-than or slanted equal to 3 }`
 
-Express the inverse function g<sup>−1</sup> in the form `g to the power of negative 1 end exponent space colon space x space rightwards arrow from bar space...`
+Express the inverse function g<sup>−1</sup> in the form $g^{- 1} : x \rightarrow \text{from} \text{bar} ...$
 
-`g to the power of negative 1 end exponent space colon space x space rightwards arrow from bar`...................................................
+$g^{- 1} : x \rightarrow \text{from} \text{bar}$...................................................
 
 ### 25((b)) — 1 mark — command: state — structured — from paper Jan 2022 · 4MA1/2H
 State the domain of  $g^{-1}$
@@ -209,7 +209,7 @@ State the domain of  $g^{-1}$
 ### 21((a)) — 2 marks — command: find — structured — from paper June 2019 · 1MA1/1H
 The functions $f$ and $g$ are such that
 
-`straight f open parentheses x close parentheses space equals space 3 x space minus 1 space space space space and space space space space space space space straight g open parentheses x close parentheses space equals space x squared plus 4`
+`f ( x ) = 3 x - 1 and g ( x ) = x ^2 + 4`
 
 Find $f^{-1}(x)$
 
@@ -223,9 +223,8 @@ show that $15x^{2}-12x---1=0$
 ### 1() — 1 mark — command: work_out — structured
 The functions $f$ and $g$ are defined as
 
-`straight f open parentheses x close parentheses space equals space 1 half x space plus 4
-straight g open parentheses x close parentheses space equals space fraction numerator 2 x over denominator x plus 1 end fraction
-`
+$\mathrm{f} ( x ) = 1 \frac{1}{2} x + 4
+ \mathrm{g} ( x ) = \frac{2 x}{x + 1}$
 
 Work out $f(6)$
 
@@ -249,7 +248,7 @@ $f(x)=x+25g(x)=x^{2}--12x$
 
 The function $h$ is such that $h(x)=\mathrm{fg}(x)$
 
-The domain of $h$ is `open curly brackets x space colon space x less-than or slanted equal to 6 close curly brackets`
+The domain of $h$ is `{ x colon x less-than or slanted equal to 6 }`
 
 Express the inverse function $h^{--1}$ in the form $h^{--1}(x)=...$
 
@@ -265,7 +264,7 @@ $f(x)=\frac{x-6}{2}$
 Find f (8)
 
 ### 2() — 2 marks — command: express — structured
-Express the inverse function $f^{-1}$in the form `straight f to the power of negative 1 end exponent open parentheses x close parentheses` = ......
+Express the inverse function $f^{-1}$in the form $\mathrm{f}^{- 1} ( x )$ = ......
 
 ### 3() — 2 marks — command: which — structured
 The function $g$ is defined as
@@ -275,7 +274,7 @@ $g(x)=\sqrt{x-4}$
 Which values of $x$ cannot be included in a domain of $g$?
 
 ### 4() — 2 marks — command: express — structured
-Express the function $\mathrm{gf}$ in the form `gf space open parentheses x close parentheses`= .......
+Express the function $\mathrm{gf}$ in the form $gf ( x )$= .......
 
 Give your answer as simply as possible.
 
@@ -302,7 +301,7 @@ Solve gf (*x*) = -1
 ### 24((a)) — 2 marks — command: find — structured — from paper June 2021 · 4MA1/1H
 The functions $f$ and $g$ are defined as
 
-`table row cell straight f left parenthesis x right parenthesis space end cell equals cell space 5 x squared space minus space 10 x space plus space 7 space space space space space space space space space where space space space space space x greater-than or slanted equal to 1 end cell row cell straight g open parentheses x close parentheses end cell equals cell 7 x italic minus 6 end cell end table`
+$\begin{gathered} \mathrm{f} ( x ) & = 5 x^{2} - 10 x + 7 \text{where} x greater-than \text{or} \text{slanted} \text{equal} \text{to} 1 \\ \mathrm{g} ( x ) & = 7 x - 6 \end{gathered}$
 
 Find $\mathrm{fg}(2)$
 
@@ -314,7 +313,7 @@ $f^{-1}(x)=$...............................
 ## Q20 — hard — 5 marks · exam-questions
 
 ### 1() — 1 mark — command: state — structured
-`straight f open parentheses x close parentheses space equals fraction numerator 3 over denominator x space plus space 1 end fraction plus fraction numerator 1 over denominator x minus 2 end fraction`
+$\mathrm{f} ( x ) = \frac{3}{x + 1} + \frac{1}{x - 2}$
 
 State one value of $x$ which cannot be included in any domain of f.
 
@@ -322,7 +321,7 @@ State one value of $x$ which cannot be included in any domain of f.
 Find the value of f(0)
 
 ### 3() — 3 marks — command: show — structured
-Find the value of $x$ for which `straight f open parentheses x close parentheses space equals 0`
+Find the value of $x$ for which $\mathrm{f} ( x ) = 0$
 
 Show clear algebraic working.
 
@@ -333,10 +332,10 @@ The functions $f$ and $g$ are such that
 
 $f(x)=3(x---4)\mathrm{and}g(x)=\frac{x}{5}+1$
 
-Find the value of `straight f open parentheses 10 close parentheses`
+Find the value of $\mathrm{f} ( 10 )$
 
 ### 9((b)) — 2 marks — command: find — structured — from paper 2015	Spec2 · 1MA1/2H
-Find  `straight g to the power of negative 1 end exponent open parentheses x close parentheses`
+Find  $\mathrm{g}^{- 1} ( x )$
 
 ### 9((c)) — 2 marks — command: show — structured — from paper 2015	Spec2 · 1MA1/2H
 Show that $\mathrm{ff}(x)=9x---48$
@@ -348,7 +347,7 @@ The functions $f$ and $g$are such that
 
 $f(x)=x^{2}-2xg(x)=x+3$
 
-The function $h$ is such that `straight h left parenthesis x right parenthesis space equals space fg left parenthesis x right parenthesis space for space x space greater-than or slanted equal to space minus 2`
+The function $h$ is such that $\mathrm{h} ( x ) = \text{fg} ( x ) \text{for} x greater-than \text{or} \text{slanted} \text{equal} \text{to} - 2$
 
 Express the inverse function $h^{-1}(x)$ in the form $h^{-1}(x)$ = .........
 
@@ -357,7 +356,7 @@ $h^{-1}(x)$ = ................
 ## Q23 — hard — 3 marks · exam-questions
 
 ### 1() — 1 mark — command: find — structured
-The diagram shows parts of the graphs of `y equals straight f open parentheses x close parentheses space`and `y equals g open parentheses x close parentheses`.
+The diagram shows parts of the graphs of $y = \mathrm{f} ( x )$and $y = g ( x )$.
 
 ![Graph showing two intersecting curves, y=f(x) and y=g(x), on a grid. The x-axis ranges from -4 to 8 and the y-axis from -8 to 10.](assets/018-graph-showing-two-intersecting-curves-y-f-x-and-.png)
 
@@ -385,12 +384,12 @@ Given that $g(a)$ = 7, find the value of $a$.
 Calculate $fg$(1)
 
 ### 5() — 2 marks — command: simplify — structured
-Find `fg open parentheses x close parentheses` Simplify your answer.
+Find $fg ( x )$ Simplify your answer.
 
 ## Q25 — very_hard — 7 marks · exam-questions
 
 ### 27((a)) — 2 marks — command: express — structured — from paper Nov 2020 · 4MA1/2H
-The function$f$ is such that $f(x)=5+6x--x^{2}$      for `x space less-than or slanted equal to space 3`
+The function$f$ is such that $f(x)=5+6x--x^{2}$      for $x \text{less} - \text{than} or \text{slanted} \text{equal} to 3$
 
 Express $5+6x--x^{2}$ in the form $p--(x--q)^{2}$ where $p$ and $q$ are constants.
 
@@ -402,22 +401,22 @@ Using your answer to part (a), find the range of values of $x$ for which $f^{-1}
 ### 1() — 1 mark — command: state — structured
 $f(x)=\frac{2}{x}$
 
-`straight g open parentheses x close parentheses equals fraction numerator x plus 1 over denominator x end fraction`
+$\mathrm{g} ( x ) = \frac{x + 1}{x}$
 
 State which value of $x$cannot be included in the domain of f or $g$.
 
 ### 2() — 3 marks — command: solve — structured
-Solve `gf open parentheses a close parentheses equals 3`
+Solve $gf ( a ) = 3$
 
 ### 3() — 3 marks — command: express — structured
-Express the inverse function $g^{-1}$ in the form `straight g to the power of negative 1 end exponent open parentheses x close parentheses`
+Express the inverse function $g^{-1}$ in the form $\mathrm{g}^{- 1} ( x )$
 
 ## Q27 — medium — 4 marks · exam-questions
 
 ### 17((c)) — 1 mark — command: state — structured — from paper Jan 2021 · 4MA1/2HR
 The function $h$ is defined as
 
-`straight h open parentheses x close parentheses equals fraction numerator 2 x minus 4 over denominator x end fraction`
+$\mathrm{h} ( x ) = \frac{2 x - 4}{x}$
 
 State the value of $x$ that cannot be included in the domain of h
 
@@ -429,14 +428,14 @@ $h^{--1}(x)=$....................
 ## Q28 — very_hard — 5 marks · exam-questions
 
 ### 23((a)) — 1 mark — command: write — structured — from paper Jan 2019 · 4MA1/1H
-$g$ is the function with domain `x space greater-than or slanted equal to space – 3` such that $g(x)=x^{2}+6x$
+$g$ is the function with domain $x \text{greater} - \text{than} or \text{slanted} \text{equal} to - 3$ such that $g(x)=x^{2}+6x$
 
 Write down the range of $g^{-1}$
 
 ### 23((b)) — 4 marks — command: express — structured — from paper Jan 2019 · 4MA1/1H
-Express the inverse function $g^{-1}$ in the form `g to the power of negative 1 end exponent space colon space x space rightwards arrow from bar horizontal ellipsis`
+Express the inverse function $g^{-1}$ in the form `g ^ - 1 colon x -> from bar horizontal ellipsis`
 
-`g to the power of negative 1 end exponent space colon space x space rightwards arrow from bar`
+$g^{- 1} : x \rightarrow \text{from} \text{bar}$
 
 ## Q29 — hard — 5 marks · exam-questions
 
@@ -448,7 +447,7 @@ Express the composite function gf in the form $g$f:$x$ → .....
 Give your answer as simply as possible.
 
 ### 2() — 3 marks — command: express — structured
-Express the inverse function $g^{-1}$in the form `straight g to the power of negative 1 end exponent ∶ space x space`→ ......
+Express the inverse function $g^{-1}$in the form $\mathrm{g}^{- 1} ∶ x$→ ......
 
 ## Q30 — medium — 4 marks · exam-questions
 
@@ -461,7 +460,7 @@ Find $f(1)$
 State the range of the function $f$
 
 ### 17((c)) — 2 marks — command: work_out — structured — from paper Jan 2020 · 4MA1/1HR
-The function $g$ is such that `straight g open parentheses x close parentheses space equals space fraction numerator 4 over denominator x plus space 3 end fraction space space space space space space space space space space x space not equal to space minus 3`
+The function $g$ is such that $\mathrm{g} ( x ) = \frac{4}{x + 3} x \text{eq} - 3$
 
 Work out $\mathrm{fg}(2)$
 
@@ -484,7 +483,7 @@ $a=$
 ## Q32 — hard — 3 marks · exam-questions
 
 ### 28((b)) — 3 marks — command: solve — structured — from paper June 2018 · 8300/2H
-`straight g open parentheses x close parentheses space equals space 3 x plus 7`
+$\mathrm{g} ( x ) = 3 x + 7$
 
 Solve  $g^{--1}(x)=2x$
 
@@ -495,9 +494,9 @@ $x$ = ....................
 ### 1() — 1 mark — command: find — structured
 The functions $g$ and h are defined as
 
-`straight g open parentheses x close parentheses equals fraction numerator x over denominator 2 x minus 5 end fraction`
+$\mathrm{g} ( x ) = \frac{x}{2 x - 5}$
 
-`straight h open parentheses x close parentheses equals x plus 4`
+$\mathrm{h} ( x ) = x + 4$
 
 Find the value of $g$(1)
 
@@ -505,12 +504,12 @@ Find the value of $g$(1)
 State which value of $x$ must be excluded from any domain of $g$
 
 ### 3() — 2 marks — command: simplify — structured
-Find `gh open parentheses x close parentheses`
+Find $gh ( x )$
 
 Simplify your answer
 
 ### 4() — 3 marks — command: express — structured
-Express the inverse function $g^{-1}$ in the form `straight g to the power of negative 1 end exponent open parentheses x close parentheses` = .....
+Express the inverse function $g^{-1}$ in the form $\mathrm{g}^{- 1} ( x )$ = .....
 
 ## Q34 — medium — 1 marks · exam-questions
 
@@ -525,7 +524,7 @@ Circle the expression for$f^{-1}(x)$
 ## Q35 — very_hard — 4 marks · exam-questions
 
 ### 30() — 4 marks — command: solve — structured — from paper Nov 2020 · 8300/3H
-`straight f open parentheses x close parentheses equals 1 half x`      `straight g open parentheses x close parentheses equals x minus x squared`
+$\mathrm{f} ( x ) = 1 \frac{1}{2} x$      $\mathrm{g} ( x ) = x - x^{2}$
 
 Solve  $f^{--1}(x)=\mathrm{gf}(x)$
 
@@ -534,13 +533,13 @@ Solve  $f^{--1}(x)=\mathrm{gf}(x)$
 ### 1() — 1 mark — command: find — structured
 $f(x)=\frac{2x}{x-1}$
 
-Find the value of `straight f open parentheses 11 close parentheses`
+Find the value of $\mathrm{f} ( 11 )$
 
 ### 2() — 1 mark — command: state — structured
 State which value of $x$must be excluded from any domain of f
 
 ### 3() — 3 marks — command: find — structured
-Find `straight f to the power of negative 1 end exponent open parentheses x close parentheses`
+Find $\mathrm{f}^{- 1} ( x )$
 
 ### 4() — 1 mark — command: state — structured
 State the value which cannot be in any range of f
@@ -580,7 +579,7 @@ Work out the number.
 ## Q39 — very_hard — 5 marks · exam-questions
 
 ### 27() — 5 marks — command: work_out — structured — from paper June 2019 · 8300/2H
-`straight f open parentheses x close parentheses equals fraction numerator 2 x over denominator 5 end fraction minus 1`
+$\mathrm{f} ( x ) = \frac{2 x}{5} - 1$
 
 Work out the value of  $f^{--1}(3)+f(--0.5)$
 
@@ -589,7 +588,7 @@ Work out the value of  $f^{--1}(3)+f(--0.5)$
 ### 1() — 1 mark — command: find — structured
 f is the function such that
 
-`straight f open parentheses x close parentheses equals fraction numerator x over denominator 3 x plus 1 end fraction`
+$\mathrm{f} ( x ) = \frac{x}{3 x + 1}$
 
 Find f(0.5)
 
@@ -600,14 +599,14 @@ Find ff(−1)
 Find the value of $x$ that cannot be included in any domain of f
 
 ### 4() — 3 marks — command: show — structured
-Express the inverse function $f^{-1}$ in the form `straight f to the power of negative 1 end exponent open parentheses x close parentheses`= ......
+Express the inverse function $f^{-1}$ in the form $\mathrm{f}^{- 1} ( x )$= ......
 
 Show clear algebraic working.
 
 ## Q41 — hard — 3 marks · exam-questions
 
 ### 24((a)) — 3 marks — command: work_out — structured — from paper Nov 2021 · 8300/1H
-`table attributes columnalign right center left columnspacing 0px end attributes row cell straight f open parentheses x close parentheses end cell equals cell c x plus d end cell row cell straight f open parentheses 4 close parentheses end cell equals 7 row cell straight f open parentheses 10 close parentheses end cell equals 22 end table`
+$\begin{array}{rcl} \mathrm{f} ( x ) & = c x + d \\ \mathrm{f} ( 4 ) & = 7 \\ \mathrm{f} ( 10 ) & = 22 \end{array}$
 
 Work out the values of $c$ and $d$.
 
@@ -618,7 +617,7 @@ $d=$.........................
 ## Q42 — medium — 1 marks · exam-questions
 
 ### 24((b)) — 1 mark — command: circle — structured — from paper Nov 2021 · 8300/1H
-`straight g open parentheses x close parentheses equals 2 x` and  `straight h open parentheses x close parentheses equals fraction numerator x minus 1 over denominator 2 end fraction`
+$\mathrm{g} ( x ) = 2 x$ and  $\mathrm{h} ( x ) = \frac{x - 1}{2}$
 
 Circle the expression for $\mathrm{hg}(x)$
 
@@ -630,9 +629,9 @@ Circle the expression for $\mathrm{hg}(x)$
 ### 17((a)) — 1 mark — command: what — structured — from paper 2023 June · 4MA1/1H
 The functions $g$ and $h$ are such that
 
-`straight g open parentheses x close parentheses equals fraction numerator 11 over denominator 2 x minus 5 end fraction`
+$\mathrm{g} ( x ) = \frac{11}{2 x - 5}$
 
-`straight h open parentheses x close parentheses equals x squared plus 4 space space space space space space space space space x greater-than or slanted equal to 0`
+$\mathrm{h} ( x ) = x^{2} + 4 x greater-than \text{or} \text{slanted} \text{equal} \text{to} 0$
 
 What value of $x$ must be excluded from any domain of $g$?
 
@@ -642,14 +641,14 @@ Solve $\mathrm{gh}(x)=1$
 ## Q44 — very_hard — 3 marks · exam-questions
 
 ### 28((a)) — 3 marks — command: simplify — structured — from paper June 2018 · 8300/2H
-`straight f open parentheses x close parentheses space equals space 5 minus x`  and     `straight g open parentheses x close parentheses space equals space 3 x plus 7`
+$\mathrm{f} ( x ) = 5 - x$  and     $\mathrm{g} ( x ) = 3 x + 7$
 
 Simplify $f(2x)+g(x--1)$
 
 ## Q45 — hard — 3 marks · exam-questions
 
 ### 22() — 3 marks — command: express — structured — from paper Jan 2021 · 4MA1/1H
-The function f is such that $f(x)=x^{2}--8x+5$ where `x space less-than or slanted equal to space 4` Express the inverse function $f^{-1}$ in the form $f^{--1}(x)=...$
+The function f is such that $f(x)=x^{2}--8x+5$ where $x \text{less} - \text{than} or \text{slanted} \text{equal} to 4$ Express the inverse function $f^{-1}$ in the form $f^{--1}(x)=...$
 
 $f^{--1}(x)=................$
 
@@ -658,8 +657,8 @@ $f^{--1}(x)=................$
 ### 19((a)) — 1 mark — command: state — structured — from paper 2023 Nov · 4MA1/2H
 The functions $f$ and $g$ are such that
 
-`straight f colon x rightwards arrow from bar 5 x plus 7
-straight g colon x rightwards arrow from bar fraction numerator 5 over denominator 2 x minus 9 end fraction`
+$\mathrm{f} : x \rightarrow \text{from} \text{bar} 5 x + 7
+ \mathrm{g} : x \rightarrow \text{from} \text{bar} \frac{5}{2 x - 9}$
 
 State which value of $x$ cannot be included in any domain of $g$
 
@@ -669,16 +668,16 @@ Find $\mathrm{fg}(4)$
 ### 19((c)) — 4 marks — command: express — structured — from paper 2023 Nov · 4MA1-2H
 The function $h$ is such that
 
-`straight h colon x rightwards arrow from bar 3 x squared minus 12 x plus 8` where $x>2$
+$\mathrm{h} : x \rightarrow \text{from} \text{bar} 3 x^{2} - 12 x + 8$ where $x>2$
 
-Express the inverse function $h^{-1}$ in the form `straight h to the power of negative 1 end exponent colon x rightwards arrow from bar....`
+Express the inverse function $h^{-1}$ in the form $\mathrm{h}^{- 1} : x \rightarrow \text{from} bar....$
 
 ## Q47 — very_hard — 2 marks · exam-questions
 
 ### 27((a)) — 2 marks — command: draw — structured — from paper June 2017 · 8300/2H
-`straight h left parenthesis x right parenthesis space equals space cube root of x`   for all values of $x$
+$\mathrm{h} ( x ) = \sqrt[3]{x}$   for all values of $x$
 
-On the grid, draw the graph of the inverse function `y equals straight h to the power of negative 1 end exponent open parentheses x close parentheses`  for  `negative 2 less-than or slanted equal to x less-than or slanted equal to 2`
+On the grid, draw the graph of the inverse function $y = \mathrm{h}^{- 1} ( x )$  for  `negative 2 less-than or slanted equal to x less-than or slanted equal to 2`
 
 ![q27a-paper2h-june2017-aqa-gcse-maths](assets/013-q27a-paper2h-june2017-aqa-gcse-maths.png)
 
@@ -687,13 +686,13 @@ On the grid, draw the graph of the inverse function `y equals straight h to the 
 ### 23() — 4 marks — command: express — structured — from paper June 2018 · 4MA1/1HR
 Two functions, $f$ and $g$ are defined as
 
-`straight f space colon space x space rightwards arrow from bar space 1 plus space 1 over x space space for space x space greater than space 0
-straight g space colon space x space rightwards arrow from bar space fraction numerator x plus 1 over denominator 2 end fraction space space for space x space greater than space 0`
+$\mathrm{f} : x \rightarrow \text{from} \text{bar} 1 + \frac{1}{x} \text{for} x > 0
+ \mathrm{g} : x \rightarrow \text{from} \text{bar} \frac{x + 1}{2} \text{for} x > 0$
 
 Given that $h=\mathrm{fg}$ 
-express the inverse function $h^{-1}$ in the form `straight h to the power of negative 1 end exponent space colon space x space rightwards arrow from bar space...`
+express the inverse function $h^{-1}$ in the form $\mathrm{h}^{- 1} : x \rightarrow \text{from} \text{bar} ...$
 
-`straight h to the power of negative 1 end exponent space colon space x space rightwards arrow from bar space`.....................
+$\mathrm{h}^{- 1} : x \rightarrow \text{from} \text{bar}$.....................
 
 ## Q49 — very_hard — 2 marks · exam-questions
 
@@ -702,16 +701,16 @@ For all values of $x$
 
 $f(x)=\mathrm{sin}x\,g(x)=x+90$
 
-On the grid, draw the graph of the composite function  `y equals fg open parentheses x close parentheses`  for  `0 degree space less-than or slanted equal to space x space less-than or slanted equal to space 360 degree`
+On the grid, draw the graph of the composite function  $y = \text{fg} ( x )$  for  $0 ^{\circ} \text{less} - \text{than} or \text{slanted} \text{equal} to x \text{less} - \text{than} or \text{slanted} \text{equal} to 360 ^{\circ}$
 
 ![q27b-paper2h-june2017-aqa-gcse-maths](assets/001-q27b-paper2h-june2017-aqa-gcse-maths.png)
 
 ## Q50 — hard — 4 marks · exam-questions
 
 ### 28() — 4 marks — command: show — structured — from paper Nov 2019 · 8300/3H
-`straight f open parentheses x close parentheses equals 2 x minus 3` and `straight g open parentheses x close parentheses equals x squared`
+$\mathrm{f} ( x ) = 2 x - 3$ and $\mathrm{g} ( x ) = x^{2}$
 
-Show that  `straight f to the power of negative 1 end exponent open parentheses 55 close parentheses equals straight f g open parentheses 4 close parentheses`
+Show that  $\mathrm{f}^{- 1} ( 55 ) = \mathrm{f} g ( 4 )$
 
 ## Q51 — very_hard — 4 marks · exam-questions
 
@@ -766,7 +765,7 @@ Is Jenny correct? Show working to support your answer.
 ### 26() — 3 marks — command: solve — structured — from paper June 2019 · 8300/3H
 $g(x)=16--xh(x)=x^{3}$
 
-Solve    `gh open parentheses x close parentheses equals 24`
+Solve    $gh ( x ) = 24$
 
 ## Q56 — hard — 3 marks · exam-questions
 

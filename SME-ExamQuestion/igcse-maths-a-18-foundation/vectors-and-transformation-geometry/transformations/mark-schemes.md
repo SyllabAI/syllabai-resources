@@ -40,12 +40,12 @@
 
 *Shape P has translated 1 left and 5 down*
 
-> *Write this as a vector in the form *`open parentheses table row x row y end table close parentheses`
+> *Write this as a vector in the form *$( \begin{gathered} x \\ y \end{gathered} )$
 
 - $x$* is -1 as it moved 1 horizontally in the negative direction*
 - $y$* is -5 as it moved 5 vertically in the negative direction*
 
-**Final answer:** **It is a translation by the vector **`open parentheses table row cell negative 1 end cell row cell negative 5 end cell end table close parentheses`
+**Final answer:** **It is a translation by the vector **$( \begin{gathered} - 1 \\ - 5 \end{gathered} )$
 
 **[B1 B1]**
 
@@ -151,7 +151,7 @@ Name the transformation and the line of reflection
 > *Draw the line *$y=x$
 
 > **[exam-tip]**
-> Remember that this is a diagonal line passing through `open parentheses 0 comma 0 close parentheses comma space open parentheses 1 comma 1 close parentheses comma space open parentheses 2 comma 2 close parentheses` etc.
+> Remember that this is a diagonal line passing through $( 0 , 0 ) , ( 1 , 1 ) , ( 2 , 2 )$ etc.
 
 > *From each vertex on the original shape, *
 
@@ -196,7 +196,7 @@ $3\div1=3$
 
 **[B1]**
 
-**Final answer:** **Centre of enlargement at **`open parentheses 7 comma 2 close parentheses`
+**Final answer:** **Centre of enlargement at **$( 7 , 2 )$
 
 **[B1]**
 

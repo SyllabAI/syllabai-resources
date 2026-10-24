@@ -89,19 +89,19 @@ $m_{f}=ρ_{f}V=\frac{4}{3}πr^{3}ρ_{f}$
   - $ρ_{f}$ = density of the fluid (kg m<sup>–3</sup>)
 - Substituting the expressions for mass back into the original equation:
 
-`open parentheses 4 over 3 straight pi r cubed rho subscript s close parentheses g space equals space open parentheses 4 over 3 straight pi r cubed rho subscript f close parentheses g space plus space 6 straight pi eta r v subscript term`
+$( \frac{4}{3} \mathrm{\pi } r^{3} \rho_{s} ) g = ( \frac{4}{3} \mathrm{\pi } r^{3} \rho_{f} ) g + 6 \mathrm{\pi } \\eta r v_{term}$
 
 - Rearrange to make terminal velocity the subject of the equation
 
-`6 straight pi eta r v subscript term space equals space 4 over 3 straight pi r cubed g open parentheses rho subscript s minus rho subscript f close parentheses`
+$6 \mathrm{\pi } \\eta r v_{term} = \frac{4}{3} \mathrm{\pi } r^{3} g ( \rho_{s} - \rho_{f} )$
 
-`v subscript term space equals space fraction numerator 4 over 3 straight pi r cubed g open parentheses rho subscript s minus rho subscript f close parentheses over denominator 6 straight pi eta r end fraction`
+`v _ term = (4 / 3 pi r ^3 g ( rho _ s - rho _ f ))/(6 pi eta r)`
 
-`v subscript term space equals space fraction numerator 2 straight pi r cubed g open parentheses rho subscript s minus rho subscript f close parentheses over denominator 9 straight pi eta r end fraction`
+$v_{term} = \frac{2 \mathrm{\pi } r^{3} g ( \rho_{s} - \rho_{f} )}{9 \mathrm{\pi } \\eta r}$
 
 - Finally, cancel out *r* from the top and bottom to find an expression for **terminal velocity** in terms of the **radius of the sphere** and the **coefficient of viscosity**
 
-`v subscript term space equals space fraction numerator 2 r squared g open parentheses rho subscript s minus rho subscript f close parentheses over denominator 9 eta end fraction`
+$v_{term} = \frac{2 r^{2} g ( \rho_{s} - \rho_{f} )}{9 \\eta }$
 
 - This final equation shows that terminal velocity is:
 

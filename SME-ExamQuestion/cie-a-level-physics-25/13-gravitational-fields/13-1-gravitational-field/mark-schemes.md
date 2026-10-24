@@ -37,7 +37,7 @@ Determine the equation for the mass of Saturn, *M:*
 
 Substitute in the values:
 
-- `M space equals space fraction numerator 10.5 space cross times space open parentheses 58 space 000 space cross times 10 cubed close parentheses squared space over denominator 6.67 space cross times space 10 to the power of negative 11 end exponent end fraction` **[1 mark]**
+- $M = \frac{10.5 \times ( 58 000 \times 10^{3} )^{2} }{6.67 \times 10^{- 11} }$ **[1 mark]**
 - $M=5.296\times10^{26}=5.3\times10^{26}\mathrm{kg}$ **[1 mark]**
 
 **[Total: 4 marks]**
@@ -110,7 +110,7 @@ Calculate the mass of the astronaut:
 Calculate the value of $g$ on the Moon:
 
 - $g=\frac{128}{78.5}$ **[1 mark]**
-- `g space equals space 1.63 space straight N space kg to the power of negative 1 end exponent space open parentheses 3 space straight s. straight f. close parentheses` **[1 mark]**
+- $g = 1.63 \mathrm{N} kg^{- 1} ( 3 \mathrm{s} . \mathrm{f} . )$ **[1 mark]**
 
 **[Total: 4 marks]**
 Suggest what this implies about the gravitational field strength on Mars:
@@ -187,8 +187,8 @@ List the known quantities:
 To calculate the gravitational field strength on Venus:
 
 - Gravitational field strength, $g=\frac{F_{g}}{m}=\frac{W}{m}$
-- `g space equals space fraction numerator 270 cross times 10 to the power of 6 over denominator 0.95 space cross times space open parentheses 3.24 cross times 10 to the power of 7 close parentheses end fraction` **[1 mark]**
-- `g space equals space 8.8 space straight N space kg to the power of negative 1 end exponent space open parentheses 2 space straight s. straight f. close parentheses` **[1 mark]**
+- $g = \frac{270 \times 10^{6} }{0.95 \times ( 3.24 \times 10^{7} )}$ **[1 mark]**
+- $g = 8.8 \mathrm{N} kg^{- 1} ( 2 \mathrm{s} . \mathrm{f} . )$ **[1 mark]**
 
 **[Total: 2 marks]**
 List the known quantities:
@@ -203,19 +203,19 @@ Construct an equation to find the gravitational force on the shuttle at altitude
 
 - $F\propto\frac{1}{r^{2}}$
 - $\frac{F_{A}}{F_{S}}=\frac{1}{r^{2}}\div\frac{1}{R_{V}^{2}}=\frac{1}{r^{2}}\times\frac{R_{V}^{2}}{1}=\frac{R_{V}^{2}}{r^{2}}$
-- `F subscript A space equals space fraction numerator F subscript S open parentheses R subscript V close parentheses squared over denominator r squared end fraction`** [1 mark]**
+- $F_{A} = \frac{F_{S} ( R_{V} )^{2}}{r^{2}}$** [1 mark]**
 
 Substitute in the known values to calculate the force on the shuttle at altitude:
 
-- `F subscript A space equals space fraction numerator open parentheses 270 cross times 10 to the power of 6 close parentheses space cross times space open parentheses 6.3 cross times 10 to the power of 6 close parentheses squared over denominator open parentheses open parentheses 6.3 cross times 10 to the power of 6 close parentheses space plus space open parentheses 250 cross times 10 cubed close parentheses close parentheses squared end fraction` **[1 mark]**
+- $F_{A} = \frac{( 270 \times 10^{6} ) \times ( 6.3 \times 10^{6} )^{2}}{( ( 6.3 \times 10^{6} ) + ( 250 \times 10^{3} ) )^{2}}$ **[1 mark]**
 
   - The total *r* is the radius of Venus plus the altitude
 - $F_{A}=2.49\times10^{8}N$ **OR** 249 MN **[1 mark]**
 
 Use this value of force to calculate *g* at altitude:
 
-- `g space equals fraction numerator space F subscript g over denominator m end fraction space equals space fraction numerator 2.49 cross times 10 to the power of 8 over denominator 0.95 space cross times space open parentheses 3.24 cross times 10 to the power of 7 close parentheses end fraction`
-- `g space equals space 8.1 space straight N space kg to the power of negative 1 end exponent space open parentheses 2 space straight s. straight f. close parentheses` **[1 mark]**
+- $g = \frac{ F_{g} }{m} = \frac{2.49 \times 10^{8} }{0.95 \times ( 3.24 \times 10^{7} )}$
+- $g = 8.1 \mathrm{N} kg^{- 1} ( 2 \mathrm{s} . \mathrm{f} . )$ **[1 mark]**
 
 **[Total: 4 marks]*** *
 

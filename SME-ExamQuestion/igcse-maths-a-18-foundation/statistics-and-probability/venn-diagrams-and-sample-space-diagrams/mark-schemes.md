@@ -91,19 +91,19 @@
 ### 4() — 5 marks
 > *We are told there are 60 students in total, so all the values (or in this case expressions) in the circles must sum to 60*
 
-`table attributes columnalign right center left columnspacing 0px end attributes row cell x plus 2 x plus open parentheses x minus 1 close parentheses plus open parentheses 5 x minus 2 close parentheses end cell equals 60 end table`
+$\begin{array}{rcl} x + 2 x + ( x - 1 ) + ( 5 x - 2 ) & = 60 \end{array}$
 
 **Forming equation**** [1]**
 
 > *Simplify and solve the equation*
 
-`table row cell 9 x minus 3 end cell equals 60 row cell 9 x end cell equals 63 row x equals 7 end table`
+$\begin{gathered} 9 x - 3 & = 60 \\ 9 x & = 63 \\ x = 7 \end{gathered}$
 
 **Simplifying and solving ****[2]**
 
 *The students who have a bank account are those in the left circle, *$2x$*, and the students in the middle overlapping section, *$x-1$ *We now know that *$x=7$
 
-*Number of students who have a bank account: *`2 x space plus thin space open parentheses x minus 1 close parentheses space equals space 2 open parentheses 7 close parentheses plus open parentheses 7 minus 1 close parentheses equals 20`
+*Number of students who have a bank account: *$2 x + ( x - 1 ) = 2 ( 7 ) + ( 7 - 1 ) = 20$
 
 **[1]**
 

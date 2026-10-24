@@ -34,7 +34,7 @@ List the known quantities:
 Use trigonometry to determine the resultant:
 
 - $\mathrm{tan}θ=\frac{p_{spacecraft}}{p_{asteroid}}=\frac{1.1\times10^{7}}{7.6\times10^{13}}$
-- `theta space equals space tan to the power of negative 1 end exponent space open parentheses fraction numerator 1.1 cross times 10 to the power of 7 over denominator 7.6 cross times 10 to the power of 13 end fraction close parentheses` = 1.447 × 10<sup>−7 </sup>**[1 mark]**
+- $\\theta = \tan ^{- 1} ( \frac{1.1 \times 10^{7} }{7.6 \times 10^{13} } )$ = 1.447 × 10<sup>−7 </sup>**[1 mark]**
 - Angle, *θ* = 1.45 × 10<sup>−7</sup> rad (minimum 2 s.f.) **[1 mark]**
 
 **[Total: 2 marks]**
@@ -44,12 +44,12 @@ Calculate the velocity component in the original direction of the spacecraft aft
 
 - Conservation of momentum:  momentum before collision = momentum after collision
 - Momentum before (↑) =$p_{spacecraft}$
-- Momentum after (↑) = `open parentheses m subscript s p a c e c r a f t end subscript space plus space m subscript a s t e r o i d end subscript close parentheses space cross times space v subscript upwards arrow`
+- Momentum after (↑) = $( m_{s p a c e c r a f t} + m_{a s t e r o i d} ) \times v_{upwards} \text{arrow}$
 
 Determine the velocity component:
 
-- Component of velocity (↑), `v subscript upwards arrow space equals space fraction numerator M o m e n t u m space a f t e r over denominator open parentheses m subscript s p a c e c r a f t end subscript space plus space m subscript a s t e r o i d end subscript close parentheses end fraction space equals space fraction numerator p subscript s p a c e c r a f t end subscript over denominator open parentheses m subscript s p a c e c r a f t end subscript space plus space m subscript a s t e r o i d end subscript close parentheses end fraction`
-- Component of velocity (↑), `v subscript upwards arrow space equals space fraction numerator 1.1 cross times 10 to the power of 7 over denominator 920 space plus space open parentheses 2.8 cross times 10 to the power of 9 close parentheses end fraction` **[1 mark]**
+- Component of velocity (↑), $v_{\uparrow = \frac{M o m e n t u m a f t e r}{( m_{s} p a c e c r a f t} + m_{a s t e r o i d} )} = \frac{p_{s p a c e c r a f t} }{( m_{s p a c e c r a f t} + m_{a s t e r o i d} )}$
+- Component of velocity (↑), $v_{upwards} \text{arrow} = \frac{1.1 \times 10^{7} }{920 + ( 2.8 \times 10^{9} )}$ **[1 mark]**
 - Component of velocity = 3.9 × 10<sup>−3</sup> m s<sup>–1</sup> **[1 mark]**
 
 **[Total: 2 marks]**
@@ -93,7 +93,7 @@ Write a conclusion comparing the two methods:
 
 - The energy-momentum relation is given by $E_{k}=\frac{p^{2}}{2m}$
 - Particle 1 has momentum $p=\sqrt{2mE_{k}}$
-- Particle 2 has momentum `space p subscript 2 space equals space square root of 2 open parentheses 2 m close parentheses open parentheses 2 E subscript k close parentheses end root`
+- Particle 2 has momentum $p_{2} = \sqrt{2 ( 2 m ) ( 2 E_{k} )}$
 - Therefore,$p_{2}$ in terms of$p$:
 
   - $p_{2}=\sqrt{4\times2mE_{k}}=\sqrt{4}\sqrt{2mE_{k}}=2\sqrt{2mE_{k}}=2p$
@@ -132,7 +132,7 @@ Write a conclusion comparing the two methods:
 
 - After the collision, each sphere will have half of the original kinetic energy
 - Since $KE_{i}=\frac{1}{2}mv_{i}^{2}$ then $KE_{f}=\frac{1}{2}KE_{i}$
-- `1 half m v subscript f squared space equals space 1 half cross times space open parentheses 1 half m v subscript i squared close parentheses`
+- $1 \frac{1}{2} m v_{f}^{2} = 1 \frac{1}{2} \times ( 1 \frac{1}{2} m v_{i}^{2} )$
 - $\frac{v_{i}^{2}}{2}=v_{f}^{2}$ therefore $v_{f}=\frac{v}{\sqrt{2}}$
 
 ## Q6 — medium — 1 marks · multiple-choice-questions

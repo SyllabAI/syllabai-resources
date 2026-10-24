@@ -6,7 +6,7 @@
 ## Q1 — easy — 4 marks · exam-questions
 
 ### 1() — 4 marks — structured
-A curve has equation `y equals straight f open parentheses x close parentheses`.
+A curve has equation $y = \mathrm{f} ( x )$.
 
 Describe the transformation of the curve given by the equations below:
 
@@ -21,11 +21,11 @@ Describe the transformation of the curve given by the equations below:
 ## Q2 — easy — 4 marks · exam-questions
 
 ### 1() — 4 marks — structured
-A curve has equation `y equals straight f open parentheses x close parentheses`.
+A curve has equation $y = \mathrm{f} ( x )$.
 
-Write down the equations of the curves, in terms of $f$`open parentheses x close parentheses`, given by the following transformations:
+Write down the equations of the curves, in terms of $f$$( x )$, given by the following transformations:
 
-(i) Translation by the vector `open parentheses table row 3 row 0 end table close parentheses`,
+(i) Translation by the vector $( \begin{gathered} 3 \\ 0 \end{gathered} )$,
 
 (ii) Horizontal stretch, scale factor 2,
 
@@ -36,20 +36,20 @@ Write down the equations of the curves, in terms of $f$`open parentheses x close
 ## Q3 — easy — 3 marks · exam-questions
 
 ### 1() — 3 marks — structured
-The point `P open parentheses 2 comma 6 close parentheses` lies on the curve with equation $y=f(x)$.
+The point $P ( 2 , 6 )$ lies on the curve with equation $y=f(x)$.
 
 State the coordinates of the image of point $P$ on the curves with the following equations:
 
-(i) `y equals straight f open parentheses x close parentheses plus 1`
+(i) $y = \mathrm{f} ( x ) + 1$
 
-(ii) `y equals negative straight f open parentheses x close parentheses`
+(ii) $y = - \mathrm{f} ( x )$
 
 (iii) $y=f(\frac{1}{4}x).$
 
 ## Q4 — easy — 3 marks · exam-questions
 
 ### 1() — 3 marks — structured
-A point `P open parentheses negative 2 comma 8 close parentheses`, on the graph of `y equals straight f open parentheses x close parentheses`, is mapped to the point $P^{'}$ under a single transformation.
+A point $P ( - 2 , 8 )$, on the graph of $y = \mathrm{f} ( x )$, is mapped to the point $P^{'}$ under a single transformation.
 
 For the following coordinates of $P^{'}$ write down what the transformation could have been:
 
@@ -66,7 +66,7 @@ Point $P$ has coordinates $(3,-4)$ and lies on the curve with equation $y=f(x).$
 
 Write down the value of $a$ given that:
 
-(i) On the graph of `y equals straight f open parentheses x italic plus straight a close parentheses`, point $P$ is mapped to point $P^{'}(-3,-4),$
+(i) On the graph of $y = \mathrm{f} ( x + \mathrm{a} )$, point $P$ is mapped to point $P^{'}(-3,-4),$
 
 (ii) On the graph of $y=af(x),$, point $P$ is mapped to point $P^{'}(3,-12),$
 
@@ -93,7 +93,7 @@ In each case clearly show the coordinates of the points where the graph intersec
 ### 1() — 3 marks — structured
 The diagram below shows the graph of $y=f(x).$.
 
-The point $P$ has coordinates `open parentheses a comma b close parentheses`, where $a,b>0.$
+The point $P$ has coordinates $( a , b )$, where $a,b>0.$
 
 ![q7-2-9-transformations-of-functions-edexcel-a-level-pure-maths-easy](assets/005-q7-2-9-transformations-of-functions-edexcel-a-le.png)
 
@@ -204,7 +204,7 @@ The graph of $y=f(x+a)$ has an asymptote at one of the coordinate axes.  Find th
 Sketch the graph of  $y=\frac{1}{x}+3$, showing clearly the points where the curve crosses the coordinate axes and stating the equations of the asymptotes.
 
 ### 2() — 1 mark — structured
-The graph of `y equals fraction numerator space 1 over denominator open parentheses x plus a close parentheses end fraction plus 3 space`  passes through the origin.  Find the value of $a$.
+The graph of $y = \frac{ 1}{( x + a )} + 3$  passes through the origin.  Find the value of $a$.
 
 ## Q15 — medium — 6 marks · exam-questions
 
@@ -319,7 +319,7 @@ The graph of $y=af(x)$ has an asymptote with equation $y=2$.  Find the value of 
 Sketch the graph of  $y=2-\frac{8}{x^{2}}$, showing clearly the points where the curve crosses the coordinate axes and stating the equations of the asymptotes.
 
 ### 2() — 2 marks — structured
-The graph of  `y equals 2 minus 8 over open parentheses x plus a close parentheses squared`  passes through the origin.  Find the two possible values of $a$.
+The graph of  $y = 2 - \frac{8}{( x + a )^{2}}$  passes through the origin.  Find the two possible values of $a$.
 
 ## Q24 — hard — 6 marks · exam-questions
 
@@ -456,7 +456,7 @@ The graph of $y=f(ax)$ has an asymptote with equation $x=k$, where $1<k<100$.  F
 ### 1() — 6 marks — structured
 The function $f(x)$ is defined by the equation
 
-`straight f left parenthesis x right parenthesis equals 9 minus 16 over open parentheses x minus 2 close parentheses squared`
+$\mathrm{f} ( x ) = 9 - \frac{16}{( x - 2 )^{2}}$
 
 Sketch the graph of $y=f(x)$, showing clearly the points where the curve crosses the coordinate axes and stating the equations of the asymptotes.
 

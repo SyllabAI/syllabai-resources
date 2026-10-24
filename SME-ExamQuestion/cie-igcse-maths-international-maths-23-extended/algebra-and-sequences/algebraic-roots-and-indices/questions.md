@@ -23,7 +23,7 @@ $x=$.......................
 
 **Q2** [3 marks]
 
-Simplify completely      `open parentheses fraction numerator 16 w to the power of 8 over denominator y to the power of 20 end fraction close parentheses to the power of begin inline style negative 3 over 4 end style end exponent`
+Simplify completely      `( (16 w ^ 8)/(y ^ 20) ) ^ begin inline style - 3 / 4`
 
 *Source: Jan 2022 4MA1/1H Q13B*
 
@@ -34,7 +34,7 @@ Simplify completely      `open parentheses fraction numerator 16 w to the power 
 
 Simplify.
 
-`open parentheses x cubed over 8 close parentheses to the power of negative 4 over 3 end exponent`
+$( \frac{x^{3}}{8} )^{- \frac{4}{3} }$
 
 *Source: 2019	Oct/Nov 0580/21 Q10-*
 
@@ -43,7 +43,7 @@ Simplify.
 
 **Q4** [3 marks]
 
-Simplify `open parentheses 256 x to the power of 256 close parentheses to the power of 3 over 8 end exponent`.
+Simplify $( 256 x^{256} ) ^{\frac{3}{8}}$.
 
 *Source: 2020 May/June 0580/22 Q22*
 
@@ -52,7 +52,7 @@ Simplify `open parentheses 256 x to the power of 256 close parentheses to the po
 
 **Q5** [2 marks]
 
-Simplify `cube root of 27 t to the power of 27 end root`.
+Simplify $\sqrt[3]{27 t^{27} }$.
 
 *Source: 2018	May/June 0580/23 Q17B*
 
@@ -74,7 +74,7 @@ $x$ = ...................................................
 
 **Q7** [2 marks]
 
-`cube root of y squared end root equals root index 6 of x` and `space y equals n-th root of x`.
+`cbrt( y ^2 ) = sqrt index 6 of x` and `space y equals n-th root of x`.
 
 Find the value of $n$.
 
@@ -134,7 +134,7 @@ Simplify $m^{15}\divm^{5}$.
 
 **Q11** [1 mark]
 
-Simplify `space open parentheses k cubed close parentheses to the power of 5`.
+Simplify $( k^{3} )^{5}$.
 
 *Source: 2020 May/June 0580/23 Q6C*
 
@@ -143,7 +143,7 @@ Simplify `space open parentheses k cubed close parentheses to the power of 5`.
 
 **Q12** [2 marks]
 
-Simplify `open parentheses fraction numerator 16 a to the power of 8 over denominator c to the power of 12 end fraction close parentheses to the power of 3 over 4 end exponent`.
+Simplify `( (16 a ^ 8)/(c ^ 12) ) ^ 3 / 4`.
 
 *Source: 2018	Oct/Nov 0580/42 Q2C*
 
@@ -154,7 +154,7 @@ Simplify `open parentheses fraction numerator 16 a to the power of 8 over denomi
 
 Simplify.
 
-`open parentheses x to the power of 8 y to the power of 7 close parentheses space divided by space open parentheses x to the power of negative 1 end exponent y cubed close parentheses`
+$( x^{8 y^{7} ) \div ( x^{-1} } y^{3} )$
 
 *Source: Specimen 2025 0580/04 Q3*
 
@@ -186,7 +186,7 @@ Simplify $18x^{2}y^{6}\div2xy^{2}$.
 
 **Q15** [1 mark]
 
-Simplify `open parentheses 5 over m close parentheses to the power of negative 2 end exponent`.
+Simplify $( \frac{5}{m} )^{- 2}$.
 
 *Source: 2018	May/June 0580/42 Q4A*
 
@@ -197,7 +197,7 @@ Simplify `open parentheses 5 over m close parentheses to the power of negative 2
 
 Simplify.
 
-`open parentheses 27 x to the power of 9 close parentheses to the power of 2 over 3 end exponent`
+$( 27 x^{9} ) ^{\frac{2}{3}}$
 
 *Source: 2019	Oct/Nov 0580/43 Q2D*
 

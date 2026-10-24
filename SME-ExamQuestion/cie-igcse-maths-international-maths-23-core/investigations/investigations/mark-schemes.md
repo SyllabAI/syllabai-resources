@@ -10,68 +10,68 @@
 
 > *To check if 28 is perfect, find the factors of 28 (considering factor pairs could help with this)*
 
-`table row cell 1 cross times 28 end cell equals 28 row cell 2 cross times 14 end cell equals 28 row cell 4 cross times 7 end cell equals 28 end table`
+$\begin{gathered} 1 \times 28 & = 28 \\ 2 \times 14 & = 28 \\ 4 \times 7 & = 28 \end{gathered}$
 
 **[1]**
 
 > *List all the factors of 28 except 28 itself*
 
-`table row blank blank cell 1 comma space 2 comma space 4 comma space 7 comma space 14 end cell end table`
+$\begin{gathered} 1 , 2 , 4 , 7 , 14 \end{gathered}$
 
 **[1]**
 
 > *Find the sum of these factors*
 
-`table row cell 1 plus 2 plus 4 plus 7 plus 14 end cell equals 28 end table`
+$\begin{gathered} 1 + 2 + 4 + 7 + 14 & = 28 \end{gathered}$
 
 ** 28 is a perfect hexagonal number ****[1]**
 > *If 496 is a perfect number, then the sum of its factors is equal to 496*
 
 > *One way to find *$k$* is to form and simplify an equation*
 
-`table row cell 1 plus 2 plus 4 plus 8 plus 16 plus 31 plus k plus 124 plus 248 end cell equals 496 row cell 434 plus k end cell equals 496 end table`
+$\begin{gathered} 1 + 2 + 4 + 8 + 16 + 31 + k + 124 + 248 & = 496 \\ 434 + k & = 496 \end{gathered}$
 
 > *Solve this to find *$k$
 
 $k=496-434$
 
 $k=62$** [1]**
-> *Substitute *$p=7$* into *`2 to the power of p minus 1 end exponent open parentheses 2 to the power of p minus 1 close parentheses`
+> *Substitute *$p=7$* into *$2^{p - 1} ( 2^{p} - 1 )$
 
-`2 to the power of 7 minus 1 end exponent open parentheses 2 to the power of 7 minus 1 close parentheses`
+$2^{7 - 1} ( 2^{7} - 1 )$
 
 **[1]**
 
 > *Use your calculator to find the answer*
 
-`table row cell 2 to the power of 6 open parentheses 2 to the power of 7 minus 1 close parentheses end cell equals cell 64 open parentheses 128 minus 1 close parentheses end cell row blank equals cell 64 cross times 127 end cell row blank equals 8128 end table`
+$\begin{gathered} 2^{6} ( 2^{7} - 1 ) & = 64 ( 128 - 1 ) \\ = 64 \times 127 \\ = 8128 \end{gathered}$
 
 **[1]**
 
-> *The *$n$*th term of a hexagonal number is  *`H subscript n equals n open parentheses 2 n minus 1 close parentheses`
+> *The *$n$*th term of a hexagonal number is  *$H_{n} = n ( 2 n - 1 )$
 
-> *Substitute *$n=64$* into *`n open parentheses 2 n minus 1 close parentheses`* to find the 64th hexagonal number*
+> *Substitute *$n=64$* into *$n ( 2 n - 1 )$* to find the 64th hexagonal number*
 
-`table row cell 64 open parentheses 2 cross times 64 minus 1 close parentheses end cell equals cell 64 open parentheses 128 minus 1 close parentheses end cell row blank equals cell 64 cross times 127 end cell row blank equals 8128 end table`
+$\begin{gathered} 64 ( 2 \times 64 - 1 ) & = 64 ( 128 - 1 ) \\ = 64 \times 127 \\ = 8128 \end{gathered}$
 
 **They both equal 8128 ****[1]**
 
 ### Q2
 > *Substitute *$n=14$* into the formula given above*
 
-`H subscript n equals n open parentheses 2 n minus 1 close parentheses
-H subscript 14 equals 14 open parentheses 2 cross times 14 minus 1 close parentheses`
+$H_{n} = n ( 2 n - 1 )
+H_{14} = 14 ( 2 \times 14 - 1 )$
 
 **[1]**
 
 > *Use your calculator to find the answer*
 
-`table row cell H subscript 14 end cell equals cell 14 open parentheses 28 minus 1 close parentheses end cell row blank equals cell 14 cross times 27 end cell end table`
+$\begin{gathered} H_{14} & = 14 ( 28 - 1 ) \\ = 14 \times 27 \end{gathered}$
 
 $H_{14}=378$** ****[1]**
-> *Set *`n open parentheses 2 n minus 1 close parentheses`* equal to 780 *
+> *Set *$n ( 2 n - 1 )$* equal to 780 *
 
-`n open parentheses 2 n minus 1 close parentheses equals 780`
+$n ( 2 n - 1 ) = 780$
 
 **[1]**
 
@@ -92,11 +92,11 @@ $2\times20^{2}-20-780$
 
 > *Simplify your answer, showing your working for each term clearly*
 
-`table row blank equals cell 2 cross times 400 minus 20 minus 780 end cell row blank equals cell 800 minus 20 minus 780 end cell row blank equals cell 780 minus 780 end cell row blank equals 0 end table`
+$\begin{gathered} = 2 \times 400 - 20 - 780 \\ = 800 - 20 - 780 \\ = 780 - 780 \\ = 0 \end{gathered}$
 
 > *This is equal to the right-hand side of the equation, so *$n=20$* satisfies the equation*
 
-** **`2 cross times open parentheses 20 close parentheses squared minus open parentheses 20 close parentheses minus 780 equals 0`* ***[1]**
+** **$2 \times ( 20 )^{2} - ( 20 ) - 780 = 0$* ***[1]**
 
 ### Q3
 > *There are four hexagonal numbers given in the table, you must use these numbers to answer this question *
@@ -155,7 +155,7 @@ $n^{2}$
 ** **$2n^{2}$** ****[1]**
 > *The quickest way is to substitute *$n=11$* into the formula found for the sequence in part (d), *$K_{n}=2n^{2}$
 
-`2 open parentheses 11 close parentheses squared`
+$2 ( 11 )^{2}$
 
 **[1]**
 
@@ -166,24 +166,24 @@ $K_{11}=242$** ****[1]**
 ### Q5
 > *To test if 120 is a hexagonal number, substitute "*$\mathrm{number}=120$*" into the formula given above*
 
-`table row cell fraction numerator 1 plus square root of 8 cross times number plus 1 end root over denominator 4 end fraction end cell equals cell fraction numerator 1 plus square root of 8 cross times 120 plus 1 end root over denominator 4 end fraction end cell end table`
+$\begin{gathered} \frac{1 + \sqrt{8 \times \text{number} + 1} }{4} & = \frac{1 + \sqrt{8 \times 120 + 1} }{4} \end{gathered}$
 
 **[1]**
 
 > *Simplify*
 
-`table row cell fraction numerator 1 plus square root of 960 plus 1 end root over denominator 4 end fraction end cell equals cell fraction numerator 1 plus square root of 961 over denominator 4 end fraction end cell row blank equals cell fraction numerator 1 plus 31 over denominator 4 end fraction end cell row blank equals cell 32 over 4 end cell row blank equals 8 end table`
+$\begin{gathered} \frac{1 + \sqrt{960 + 1} }{4} & = \frac{1 + \sqrt{961} }{4} \\ = \frac{1 + 31}{4} \\ = \frac{32}{4} \\ = 8 \end{gathered}$
 
 **[1]**
 
 **The output is 8, which is a whole number, so 120 is a hexagonal number ****[1]**
 > *To show that 236 cannot be a hexagonal number, substitute "*$\mathrm{number}=236$*" into the formula given above*
 
-`table row cell fraction numerator 1 plus square root of 8 cross times number plus 1 end root over denominator 4 end fraction end cell equals cell fraction numerator 1 plus square root of 8 cross times 236 plus 1 end root over denominator 4 end fraction end cell end table`
+$\begin{gathered} \frac{1 + \sqrt{8 \times \text{number} + 1} }{4} & = \frac{1 + \sqrt{8 \times 236 + 1} }{4} \end{gathered}$
 
 > *Simplify*
 
-`table row cell fraction numerator 1 plus square root of 1888 plus 1 end root over denominator 4 end fraction end cell equals cell fraction numerator 1 plus square root of 1889 over denominator 4 end fraction end cell row blank equals cell fraction numerator 1 plus 43.462627... over denominator 4 end fraction end cell row blank equals cell fraction numerator 44.462627... over denominator 4 end fraction end cell row blank equals cell 11.115.... end cell end table`
+$\begin{gathered} \frac{1 + \sqrt{1888 + 1} }{4} & = \frac{1 + \sqrt{1889} }{4} \\ = \frac{1 + 43.462627...}{4} \\ = \frac{44.462627...}{4} \\ = 11.115.... \end{gathered}$
 
 **The output is 11.11... which is not a whole number, so 236 is not a hexagonal number ****[1]**
 
@@ -194,7 +194,7 @@ $K_{11}=242$** ****[1]**
 
 > *The third hexagonal number is 15, which is the same as the fifth triangular number*
 
-`H subscript 1 equals T subscript 1 open parentheses equals 1 close parentheses`**, **`H subscript 2 equals T subscript 3 open parentheses equals 6 close parentheses`** and **`H subscript 3 equals T subscript 5 open parentheses equals 15 close parentheses`**[1] **
+$H_{1} = T_{1} ( = 1 )$**, **$H_{2} = T_{3} ( = 6 )$** and **$H_{3} = T_{5} ( = 15 )$**[1] **
 > *The fourth hexagonal number is 28*
 
 > *Find the next triangular number by adding 7 to the 6th triangular number given in the diagram*

@@ -43,7 +43,7 @@ Explain why the fin will leave the gap with a much slower speed than it entered 
 ## Q3 — medium — 14 marks · structured-questions
 
 ### 18((a)) — 2 marks — command: state — structured — from paper 2022 Jan · WPH14/01
-Faraday’s law can be written as `xi space equals space fraction numerator negative d open parentheses N ϕ close parentheses over denominator d t end fraction`
+Faraday’s law can be written as $\\xi = \frac{- d ( N ϕ )}{d t}$
 
 State the name of the term $Nϕ$ and its unit.
 
@@ -128,7 +128,7 @@ The resolution of the balance was $0.001\text{g}$.
 
 $l$ was measured with a metre rule of resolution $1\text{mm}$.
 
-The percentage uncertainty in the ammeter reading was `0.3 percent sign`.
+The percentage uncertainty in the ammeter reading was $0.3 \%$.
 
 Assess which of these measurements was the most significant source of uncertainty in the measured value of $B$.
 

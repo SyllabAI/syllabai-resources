@@ -33,7 +33,7 @@ Use Wien's Law to calculate the temperature of Procyon:
 Use the Stefan-Boltzmann Law to calculate the area of Procyon:
 
 - $A=\frac{L}{σT^{4}}$
-- `A space equals space fraction numerator open parentheses 2.65 space cross times space 10 to the power of 27 close parentheses over denominator open parentheses 5.67 space cross times space 10 to the power of negative 8 end exponent close parentheses space cross times open parentheses 6101 close parentheses to the power of 4 end fraction`
+- $A = \frac{( 2.65 \times 10^{27 )}{( 5.67 \times 10^{-8} } ) \times ( 6101 )^{4} }$
 - $A=3.37\times10^{19}m^{2}$ **[1 mark]**
 
 Calculate the radius of Procyon:
@@ -45,8 +45,8 @@ Calculate the radius of Procyon:
 
 Compare the diameter of the Sun and the diameter of Procyon:
 
-- `D subscript p space equals space 2 space cross times space r subscript p space equals space 2 space cross times space open parentheses 1.64 space cross times space 10 to the power of 9 close parentheses space equals space 3.28 space cross times space 10 to the power of 9 space straight m`
-- `D subscript p over D subscript S u n end subscript space equals space fraction numerator open parentheses 3.28 space cross times space 10 to the power of 9 close parentheses over denominator open parentheses 6.96 space cross times space 10 to the power of 8 close parentheses end fraction space equals space 4.7`
+- $D_{p} = 2 \times r_{p} = 2 \times ( 1.64 \times 10^{9} ) = 3.28 \times 10^{9} \mathrm{m}$
+- $D_{ \frac{p}{D} _{S} u n} = \frac{( 3.28 \times 10^{9} )}{( 6.96 \times 10^{8} )} = 4.7$
 - Hence, this is more than twice the diameter of the Sun, so the website is not correct; **[1 mark]**
 
 **[Total: 5 marks]**
@@ -80,7 +80,7 @@ Rearrange the luminosity equation for the radius, *r*:
 
 Substitute in the values and calculate *r*:
 
-- `r space equals space square root of fraction numerator 3.83 space cross times space 10 to the power of 26 over denominator open parentheses 5.67 space cross times space 10 to the power of negative 8 end exponent close parentheses space cross times space 4 pi cross times space 5780 to the power of 4 end fraction end root` **[1 mark]**
+- $r = \sqrt{ \frac{3.83 \times 10^{26}{( 5.67 \times 10^{-8} } ) \times 4 \pi \times 5780^{4} } }$ **[1 mark]**
 - $r=6.9398\times10^{8}=6.94\times10^{8}m$ **[1 mark]**
 
 ii) Show that when the Sun is in its red giant stage, *λ*<sub>max</sub> is about 1 × 10<sup>−6 </sup>m
@@ -92,7 +92,7 @@ ii) Show that when the Sun is in its red giant stage, *λ*<sub>max</sub> is abou
 Calculate the surface temperature of the red giant, *T*:
 
 - $L=σAT^{4}=σ4πr^{2}T^{4}$
-- `T space equals space fourth root of fraction numerator L over denominator sigma 4 pi r squared end fraction end root space equals space fourth root of fraction numerator 1600 space cross times space open parentheses 3.83 space cross times space 10 to the power of 26 close parentheses over denominator open parentheses 5.67 space cross times space 10 to the power of negative 8 end exponent close parentheses space cross times space 4 pi space cross times space open parentheses 150 space cross times space open parentheses 7.0 space cross times space 10 to the power of 8 close parentheses close parentheses end fraction end root space equals space 2872 space straight K` **[1 mark]**
+- $T = \sqrt[4]{ \frac{L}{\\sigma 4 \pi r^{2}} } = \sqrt[4]{ \frac{1600 \times ( 3.83 \times 10^{26 )}{( 5.67 \times 10^{-8} } ) \times 4 \pi \times ( 150 \times ( 7.0 \times 10^{8} ) )} } = 2872 \mathrm{K}$ **[1 mark]**
 
 Calculate *λ*<sub>max </sub>using Wein's law:
 
@@ -136,7 +136,7 @@ The orbital period of a planet would change as the mass of the Sun decreases by:
 
 *Example answer*:
 
-- `F space equals fraction numerator space G M m over denominator r squared end fraction space equals space m omega squared r space equals space m open parentheses fraction numerator 2 pi over denominator T end fraction close parentheses squared r`
+- $F = \frac{ G M m}{r^{2}} = m \\omega ^{2} r = m ( \frac{2 \pi }{T} )^{2} r$
 - $\frac{GM}{r^{2}}=\frac{4π^{2}}{T^{2}}r$
 - $T=\sqrt{\frac{4π^{2}r^{3}}{GM}}$
 - Therefore, as *M* (the mass of the Sun) decreases, *T* will increase
@@ -209,7 +209,7 @@ The wavelengths in each spectrum are different, so a wavelength shift, $v$ can b
 
 - $\frac{\Deltaλ}{λ}\approx\frac{v}{c}$
 - $v=c\times\frac{\Deltaλ}{λ}$
-- `v space equals space open parentheses 3 space cross times space 10 to the power of 8 close parentheses space cross times space fraction numerator 26 space cross times space 10 to the power of negative 9 end exponent over denominator 454 space cross times space 10 to the power of negative 9 end exponent end fraction`** [1 mark]**
+- $v = ( 3 \times 10^{8 ) \times \frac{26 \times 10^{-9} } }{454 \times 10^{- 9} }$** [1 mark]**
 - $v=1.72\times10^{-7}ms^{-1}$ **[1 mark]**
 
 Conclusion:

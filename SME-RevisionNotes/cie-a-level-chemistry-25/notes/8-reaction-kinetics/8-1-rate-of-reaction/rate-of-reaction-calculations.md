@@ -88,7 +88,7 @@ guided_study: true
 
 - Rate of reaction = $\frac{\mathrm{change} \mathrm{in} \mathrm{the} \mathrm{amount} \mathrm{of} \mathrm{reactants} \mathrm{or} \mathrm{products}(\mathrm{mol} \mathrm{dm}^{-3})}{\mathrm{time}(s)}$
 
-  - Rate of reaction =`begin mathsize 14px style fraction numerator open parentheses 0.83 close parentheses minus open parentheses 0.68 close parentheses over denominator open parentheses 1200 close parentheses minus open parentheses 900 close parentheses end fraction end style`
+  - Rate of reaction =$\frac{( 0.83 ) - ( 0.68 )}{( 1200 ) - ( 900 )}$
   - Rate of reaction = $\frac{0.14}{300}$
   - Rate of reaction = 0.0005 mol dm<sup>-3</sup> s<sup>-1</sup>
 

@@ -134,7 +134,7 @@ The property of the aluminium alloy that makes it suitable to use for aeroplane 
 To calculate the percentage by mass of aluminium in aluminium oxide:
 
 - *M*<sub>r</sub> of Al<sub>2</sub>O<sub>3</sub> = (27 x 2) + (16 x 3) = 102;** [1 mark] **
-- Percentage of aluminium = `fraction numerator open parentheses 2 cross times 27 close parentheses over denominator 102 end fraction`x 100 = 52.9 / 53 %;** [1 mark] **
+- Percentage of aluminium = $\frac{( 2 \times 27 )}{102}$x 100 = 52.9 / 53 %;** [1 mark] **
 
 **[Total: 2 marks] **
 

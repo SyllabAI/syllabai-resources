@@ -45,24 +45,24 @@ The method used will depend on the value of the *coefficient* of the $x^{2}$ ter
 
 > **Exam Hint**
 > - Sometimes a question will explicitly use the phrase **complete the square**
-> - Sometimes a question will use the form `a open parentheses x plus p close parentheses squared plus q` without using the phrase completing the square
+> - Sometimes a question will use the form $a ( x + p )^{2} + q$ without using the phrase completing the square
 
 > **Worked Example**
-> Write $3x^{2}-12x+k$ in the form `a open parentheses x plus p close parentheses squared plus k plus q`, where $a,p$ and $q$ are constants to be found, and $k$ is an unknown constant.
+> Write $3x^{2}-12x+k$ in the form $a ( x + p )^{2} + k + q$, where $a,p$ and $q$ are constants to be found, and $k$ is an unknown constant.
 > 
 > > *The form required is 'completing the square' (do not be put off by the *$k$*, it is just a constant!).*
 > 
 > > *STEP 1 - Take a factor of 3 out of the *$x^{2}$* and *$x$* terms - leaving *$k$* avoids awkward fractions.*
 > 
-> `3 x squared minus 12 x plus k equals 3 open parentheses x squared minus 4 x close parentheses plus k`
+> $3 x^{2} - 12 x + k = 3 ( x^{2} - 4 x ) + k$
 > 
-> > *STEPS 2 and 3 - Complete the square on the *`open parentheses x squared minus 4 x close parentheses`* part only. "*$p=-\frac{4}{2}=-2$*" and "*`q equals 0 minus open parentheses negative 2 close parentheses squared equals 4`*".*
+> > *STEPS 2 and 3 - Complete the square on the *$( x^{2} - 4 x )$* part only. "*$p=-\frac{4}{2}=-2$*" and "*$q = 0 - ( - 2 )^{2} = 4$*".*
 > 
-> `3 open square brackets open parentheses x minus 2 close parentheses squared minus 4 close square brackets plus k`
+> $3 [ ( x - 2 )^{2} - 4 ] + k$
 > 
 > > *STEP 4 - Expand and simplify.*
 > 
-> `3 open parentheses x minus 2 close parentheses squared minus 12 plus k`
+> $3 ( x - 2 )^{2} - 12 + k$
 > 
 > $3(x-2)^{2}+k-12$
 > 
@@ -114,15 +114,15 @@ The method used will depend on the value of the *coefficient* of the $x^{2}$ ter
 > *Halve the middle number, -4, to get -2 *
 > *Replace the first two terms, **x*<sup>*2*</sup>* - 4**x**, with (**x** - 2)*<sup>*2*</sup>* - (-2)*<sup>*2*</sup> * *
 > 
-> `open parentheses x minus 2 close parentheses squared minus open parentheses negative 2 close parentheses squared minus 12 equals 0` * *
+> $( x - 2 )^{2} - ( - 2 )^{2} - 12 = 0$ * *
 > 
 > *Simplify the numbers* * *
 > 
-> `table attributes columnalign right center left columnspacing 0px end attributes row cell open parentheses x minus 2 close parentheses squared minus 4 minus 12 end cell equals 0 row cell open parentheses x minus 2 close parentheses squared minus 16 end cell equals 0 end table` * *
+> $\begin{array}{rcl} ( x - 2 )^{2} - 4 - 12 & = 0 \\ ( x - 2 )^{2} - 16 & = 0 \end{array}$ * *
 > 
 > *Add 16 to both sides* * *
 > 
-> `open parentheses x minus 2 close parentheses squared equals 16` * *
+> $( x - 2 )^{2} = 16$ * *
 > 
 > *Square root both sides *
 > *Include the ± sign to get two solutions* * *

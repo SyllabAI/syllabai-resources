@@ -148,7 +148,7 @@ i) To show that the empirical formula of the compound is CH<sub>2</sub>F:
 
 - Divide percentages by relative atomic masses; **[1 mark]** | C | H | F |
 |---|---|---|
-| `space fraction numerator 36.36 over denominator 12 end fraction space<br>open parentheses equals 3.03 close parentheses` | `space space fraction numerator 6.06 over denominator 1 end fraction<br>open parentheses equals 6.06 close parentheses` | `space fraction numerator 57.58 over denominator 19 end fraction<br>open parentheses equals 3.03 close parentheses` |
+| $\frac{36.36}{12} \\ ( = 3.03 )$ | $\frac{6.06}{1} \\ ( = 6.06 )$ | $\frac{57.58}{19} \\ ( = 3.03 )$ |
 - Divide results by smallest value to obtain ratio; **[1 mark]** | C | H | F |
 |---|---|---|
 | $\frac{3.03}{3.03}$ | $\frac{6.06}{3.03}$ | $\frac{3.03}{3.03}$ |
@@ -298,7 +298,7 @@ Answer given to a minimum of 2 significant figures;** [1 mark]**
 - **Step 3: ** Calculate the percentage yield using the formula
 
   - $\mathrm{percentage} \mathrm{yield}=\frac{\mathrm{actual} \mathrm{yield}}{\mathrm{theorectical} \mathrm{yield}}\times100$
-  - `percentage space yield space equals space fraction numerator 15.3 over denominator 18.9 end fraction space cross times space 100 space equals space 80.9 space percent sign` rounded to 81%
+  - $\text{percentage} \text{yield} = \frac{15.3}{18.9} \times 100 = 80.9 \%$ rounded to 81%
 
 ## Q7 — medium — 11 marks · exam-questions
 
@@ -705,13 +705,13 @@ The percentage yield of copper(II) nitrate is:
 
 - **Calculate the amount, in moles, of copper(II) nitrate**: n Cu(NO<sub>3</sub>)<sub>2</sub> formed = mass ÷ molar mass = 15.3 ÷ 187.5 **OR** 0.0816; **[1 mark]**
 - **Calculate the theoretical yield, in moles, of copper(II) nitrate**: Theoretical n Cu(NO<sub>3</sub>)<sub>2</sub> = 0.200 ÷ 2 **OR **0.100; **[1 mark]**
-- **Calculate the percentage yield:** `fraction numerator 0.0816 over denominator 0.100 end fraction space cross times space 100 space equals space 81.6 space open parentheses percent sign close parentheses`; **[1 mark]**
+- **Calculate the percentage yield:** $\frac{0.0816}{0.100} \times 100 = 81.6 ( \% )$; **[1 mark]**
 
 **Alternative method**:
 
 - **Calculate the theoretical yield, in moles, of copper(II) nitrate**: Theoretical n Cu(NO<sub>3</sub>)<sub>2</sub> = 0.200 ÷ 2 **OR **0.100; **[1 mark]**
 - **Calculate the theoretical mass of copper nitrate that should be formed** = (moles x *M*<sub>r</sub> = ) 0.1 x 187.5 = 18.75 / 18.8 (g); **[1 mark]**
-- **Calculate the percentage yield**: `fraction numerator 15.3 over denominator 18.75 end fraction space cross times space 100 space equals space 81.6 space open parentheses percent sign close parentheses`; **[1 mark]** *Accept 82%*
+- **Calculate the percentage yield**: $\frac{15.3}{18.75} \times 100 = 81.6 ( \% )$; **[1 mark]** *Accept 82%*
 
 **[Total: 3 marks]**
 

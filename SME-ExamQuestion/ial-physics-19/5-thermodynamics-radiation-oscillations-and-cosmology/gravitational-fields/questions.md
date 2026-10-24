@@ -199,7 +199,7 @@ What is the gravitational field strength on the surface of Callisto?
 The gravitational field strength at Earth's surface is $g$ and the radius of the Earth is $R$. A satellite orbits at height $h$ above Earth's surface.
 
 Which of the following expressions gives the gravitational field strength at the satellite?
-- **A.** `g open parentheses fraction numerator R over denominator R plus h end fraction close parentheses squared`
-- **B.** `g open parentheses R over h close parentheses squared`
-- **C.** `g   open parentheses fraction numerator R over denominator R plus h end fraction close parentheses`
+- **A.** $g ( \frac{R}{R + h} )^{2}$
+- **B.** $g ( \frac{R}{h} )^{2}$
+- **C.** $g   ( \frac{R}{R + h} )$
 - **D.** $\frac{g}{R+h}$

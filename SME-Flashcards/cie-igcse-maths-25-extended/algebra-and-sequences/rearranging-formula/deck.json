@@ -117,7 +117,7 @@
     },
     {
      "type": "paragraph",
-     "md": "`x to the power of 5 equals y plus 3\nx equals fifth root of y plus 3 end root`"
+     "md": "`x ^ 5 = y + 3 x = fifth sqrt of y + 3 )`"
     },
     {
      "type": "paragraph",
@@ -125,7 +125,7 @@
     }
    ],
    "front_md": "**True or False?**\n\nIf a formula contains the **power *****n***, e.g. $x^{5}=y+3$,you can use the ***n*****th root** to **reverse** this operation.\n",
-   "back_md": "**True.**\n\nIf a formula contains the **power *****n***, you can use the ***n*****th root** to **reverse** this operation.\n\nE.g.\n\n`x to the power of 5 equals y plus 3\nx equals fifth root of y plus 3 end root`\n\nJust be careful if *n* is an even number as you need a $\\pm$** sign**, for example if $x^{2}=...$  then $x=\\pm\\sqrt{...}$\n",
+   "back_md": "**True.**\n\nIf a formula contains the **power *****n***, you can use the ***n*****th root** to **reverse** this operation.\n\nE.g.\n\n`x ^ 5 = y + 3 x = fifth sqrt of y + 3 )`\n\nJust be careful if *n* is an even number as you need a $\\pm$** sign**, for example if $x^{2}=...$  then $x=\\pm\\sqrt{...}$\n",
    "spec_links": [],
    "flags": []
   },
@@ -163,11 +163,11 @@
     },
     {
      "type": "paragraph",
-     "md": "`table row cell fraction numerator 2 a over denominator 7 end fraction plus b end cell equals c row cell 2 a plus 7 b end cell equals cell 7 c end cell end table`"
+     "md": "$\\begin{gathered} \\frac{2 a}{7} + b & = c \\\\ 2 a + 7 b & = 7 c \\end{gathered}$"
     }
    ],
    "front_md": "**True or False?**\n\nTo **rearrange** a formula with **fractions**, e.g. $\\frac{2a}{7}+b=c$, you should first **multiply both sides **of the equation by the **denominator(s)**.\n",
-   "back_md": "**True.**\n\nTo **rearrange** a formula with **fractions**, you should first **multiply both sides **of the equation by the **denominator(s)**.\n\nThis gets rid of the fractions and makes the formula easier to rearrange.\n\nE.g.\n\n`table row cell fraction numerator 2 a over denominator 7 end fraction plus b end cell equals c row cell 2 a plus 7 b end cell equals cell 7 c end cell end table`\n",
+   "back_md": "**True.**\n\nTo **rearrange** a formula with **fractions**, you should first **multiply both sides **of the equation by the **denominator(s)**.\n\nThis gets rid of the fractions and makes the formula easier to rearrange.\n\nE.g.\n\n$\\begin{gathered} \\frac{2 a}{7} + b & = c \\\\ 2 a + 7 b & = 7 c \\end{gathered}$\n",
    "spec_links": [],
    "flags": []
   },
@@ -205,11 +205,11 @@
     },
     {
      "type": "bullets",
-     "md": "- Multiply both sides by $c-a$:   `b open parentheses c minus a close parentheses equals 2 a`\n- Expand the brackets:   $bc-ab=2a$\n- Get the terms with $a$ onto one side:   $bc=2a+ab$\n- **Factorise** the right-hand side:   `b c equals a open parentheses 2 plus b close parentheses`\n- Divide both sides by $2+b$:   $\\frac{bc}{2+b}=a$"
+     "md": "- Multiply both sides by $c-a$:   $b ( c - a ) = 2 a$\n- Expand the brackets:   $bc-ab=2a$\n- Get the terms with $a$ onto one side:   $bc=2a+ab$\n- **Factorise** the right-hand side:   $b c = a ( 2 + b )$\n- Divide both sides by $2+b$:   $\\frac{bc}{2+b}=a$"
     }
    ],
    "front_md": "**True or False?**\n\nIf the letter you want to make the **subject **appears** twice** in a formula,\n\ne.g. $b=\\frac{2a}{c-a}$, you will **not **need to **factorise **to **change the subject**.\n",
-   "back_md": "**False.**\n\nIf the letter you want to make the **subject **appears** twice** in a formula, you will often need to **factorise **to **change the subject**.\n\nFor example, to make $a$ the subject of $b=\\frac{2a}{c-a}$:\n\n- Multiply both sides by $c-a$:   `b open parentheses c minus a close parentheses equals 2 a`\n- Expand the brackets:   $bc-ab=2a$\n- Get the terms with $a$ onto one side:   $bc=2a+ab$\n- **Factorise** the right-hand side:   `b c equals a open parentheses 2 plus b close parentheses`\n- Divide both sides by $2+b$:   $\\frac{bc}{2+b}=a$\n",
+   "back_md": "**False.**\n\nIf the letter you want to make the **subject **appears** twice** in a formula, you will often need to **factorise **to **change the subject**.\n\nFor example, to make $a$ the subject of $b=\\frac{2a}{c-a}$:\n\n- Multiply both sides by $c-a$:   $b ( c - a ) = 2 a$\n- Expand the brackets:   $bc-ab=2a$\n- Get the terms with $a$ onto one side:   $bc=2a+ab$\n- **Factorise** the right-hand side:   $b c = a ( 2 + b )$\n- Divide both sides by $2+b$:   $\\frac{bc}{2+b}=a$\n",
    "spec_links": [],
    "flags": []
   }

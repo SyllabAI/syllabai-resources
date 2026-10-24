@@ -48,7 +48,7 @@ Step 3: Add the totals together.
 
 - Ions that have **not changed state **are spectator ions and can be crossed out:
 
-[Mg<sup>2+</sup>(aq) + `horizontal strike 2 NO end strike subscript horizontal strike 3 end subscript to the power of minus`(aq)] + [`horizontal strike 2 Na end strike`<sup>+</sup>(aq) + CO<sub>3</sub><sup>2-</sup>(aq)] → [Mg<sup>2+</sup>(s) + CO<sub>3</sub><sup>2-</sup>(s)] + [`horizontal strike 2 Na end strike`<sup>+</sup>(aq) + `horizontal strike NO subscript horizontal strike 3 end subscript to the power of minus`(aq)]
+[Mg<sup>2+</sup>(aq) + `-- 2 NO _ -- 3 end _ ^ -`(aq)] + [`-- 2 Na`<sup>+</sup>(aq) + CO<sub>3</sub><sup>2-</sup>(aq)] → [Mg<sup>2+</sup>(s) + CO<sub>3</sub><sup>2-</sup>(s)] + [`-- 2 Na`<sup>+</sup>(aq) + `-- NO _ -- 3 end _ ^ -`(aq)]
 
 - The remaining ions **have changed state **and thus form the net ionic equation:
 
@@ -77,7 +77,7 @@ Mg<sup>2+</sup>(aq)  + CO<sub>3</sub><sup>2-</sup>(aq) → MgCO<sub>3</sub>(s)
 
 - Ions that have **not changed state **are spectator ions and can be crossed out:
 
-[H<sup>+</sup>(aq) + `horizontal strike NO subscript horizontal strike 3 end subscript`<sup>-</sup>(aq)] + [`horizontal strike straight K`<sup>+</sup>(aq) + OH<sup>-</sup>(aq)] → [`horizontal strike straight K`<sup>+</sup>(aq) + `horizontal strike NO subscript horizontal strike 3 end subscript`<sup>-</sup>(aq)] + [H<sup>+</sup>(l) + OH<sup>-</sup>(l)]
+[H<sup>+</sup>(aq) + `-- NO _ -- 3 end _`<sup>-</sup>(aq)] + [`-- K`<sup>+</sup>(aq) + OH<sup>-</sup>(aq)] → [`-- K`<sup>+</sup>(aq) + `-- NO _ -- 3 end _`<sup>-</sup>(aq)] + [H<sup>+</sup>(l) + OH<sup>-</sup>(l)]
 
 - The remaining ions **have changed state **and thus form the net ionic equation:
 

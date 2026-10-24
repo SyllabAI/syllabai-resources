@@ -56,7 +56,7 @@ $x=\frac{2.97}{1.08}=2.75$
 
 > *Multiply the answer by 510 100 000.  *
 
-`table row blank blank cell fraction numerator 70.8 over denominator 100 end fraction end cell end table cross times table row blank blank 510 end table table row blank blank space end table table row blank blank 100 end table table row blank blank space end table table row blank blank 000 end table`
+$\begin{gathered} \frac{70.8}{100} \end{gathered} \times \begin{gathered} 510 \end{gathered} \begin{gathered} \end{gathered} \begin{gathered} 100 \end{gathered} \begin{gathered} \end{gathered} \begin{gathered} 000 \end{gathered}$
 
 *Correct method ***[1]**
 
@@ -71,11 +71,11 @@ $82,500-77,500$
 
 > *Calculate this reduction as a percentage of the original*
 
-`fraction numerator 82 comma 500 minus 77 comma 500 over denominator 82 comma 500 end fraction cross times 100 percent sign`
+$\frac{82 , 500 - 77 , 500}{82 , 500} \times 100 \%$
 
 **[1]**
 
-`bold 6 bold. bold 06 bold percent sign`** ****[1] **
+$6 . 06 \%$** ****[1] **
 
 **Remember to give your answer to at least 3 significant figures**
 
@@ -103,7 +103,7 @@ $82,500-77,500$
 
 > *Find the percentage of students who are present*
 
-`1092 over 1210 cross times 100 equals 90.24793388... space percent sign`
+$\frac{1092}{1210} \times 100 = 90.24793388... \%$
 
 **[1]**
 
@@ -126,9 +126,9 @@ $\frac{0.16}{0.97}=0.1649484536...$
 
 > *This is equivalent to (can multiply by 100 to show this)*
 
-`16.49484536... space percent sign`
+$16.49484536... \%$
 
-`bold 16 bold. bold 5 bold space bold percent sign` **[1]**
+$16 . 5 \%$ **[1]**
 
 **Rounded to 3 significant figures**
 
@@ -142,7 +142,7 @@ $\frac{1.13}{0.97}=1.164948454...$
 
 > *This means 1.13 is 116.49...% of 0.97 So this is an increase of 16.49...%*
 
-`bold 16 bold. bold 5 bold space bold percent sign`* ***[2]**
+$16 . 5 \%$* ***[2]**
 
 ### Q8
 > *Method 1*
@@ -188,7 +188,7 @@ $42\times\frac{116}{100}$
 
 > *Express the saving as a percentage of the total cost of buying separately*
 
-`fraction numerator £ 127 over denominator £ 552 end fraction cross times 100 equals 23.00724638...`
+$\frac{\pounds 127}{\pounds 552} \times 100 = 23.00724638...$
 
 **[1]**
 
@@ -201,7 +201,7 @@ $\frac{1.20}{16}=0.075$
 
 > *Writing 0.075 as a percentage by multiplying by 100*
 
-`bold 7 bold. bold 5 bold space bold percent sign` **[1]**
+$7 . 5 \%$ **[1]**
 
 ### Q11
 *An increase of 6% is equivalent to multiplying by 1.06.* 
@@ -239,27 +239,27 @@ $1962-1962\times0.15$
 
 > *If there has been a 12 % reduction in price, then this means the sale price is 88 % of the original price*
 
-`88 space percent sign thin space equals space 435.60`
+$88 \% = 435.60$
 
 **[1]**
 
 *We are aiming to find the original price (100%)* *Divide both sides by 88*
 
-`1 space percent sign space equals space 4.95`
+$1 \% = 4.95$
 
 *or other equivalent steps to 'work backwards' to find 100%*** [1]**
 
 > *Multiply both sides by 100 to find the original price*
 
-`100 space percent sign space equals space 495`
+$100 \% = 495$
 
-`bold $ bold space bold 495` **[1]**
+$\$ 495$ **[1]**
 
 > *Method 2*
 
 > *If there has been a 12 % reduction in price, then this means the sale price is 88 % of the original price*
 
-`88 space percent sign thin space equals space 435.60`
+$88 \% = 435.60$
 
 **[1]**
 
@@ -275,7 +275,7 @@ $x=\frac{435.60}{0.88}=495$
 
 **[1]**
 
-`bold $ bold space bold 495` **[1]**
+$\$ 495$ **[1]**
 
 ### Q14
 > *£28.80 is equal to 20%*
@@ -305,7 +305,7 @@ $\frac{67}{645}=0.103875...$
 
 > *Convert to a percentage by multiplying by 100. Use the answer button or type in the exact expression.*
 
-`65 over 645 cross times 100 percent sign equals 10.3875... percent sign`
+$\frac{65}{645} \times 100 \% = 10.3875... \%$
 
 > *Round to 3 significant figures.*
 
@@ -324,7 +324,7 @@ $\frac{67}{645}=0.103875...$
 
 > *Express the profit as a percentage of the money Emily spent on the water, this is the "percentage profit"*
 
-`fraction numerator £ 0.36 over denominator £ 5.64 end fraction cross times 100 equals 6.382978723... space percent sign`
+$\frac{\pounds 0.36}{\pounds 5.64} \times 100 = 6.382978723... \%$
 
 **[1]**
 
@@ -354,12 +354,12 @@ $87+4\times52=295$
 
 ii) *Write the mass of the locomotive as a fraction out of the mass of the whole train. Multiply by 100% to convert from a fraction/decimal to a percentage.*
 
-`87 over 295 cross times 100 percent sign equals 29.491 space 525 space... percent sign`
+$\frac{87}{295} \times 100 \% = 29.491 525 ... \%$
 
 **29.5%**** [1]**
 
 ### Q19
-`percent sign thin space change space equals fraction numerator change space over denominator original end fraction cross times 100`
+$\% \text{change} = \frac{change }{original} \times 100$
 
 $\frac{64.8-59.3}{64.8}\times100=8.487654321...$
 
@@ -382,7 +382,7 @@ $P_{2}=\frac{70+10}{20+10}=\frac{8}{3}=2.666666...$
 
 > *Find the percentage decrease using *$\frac{\mathrm{Difference}}{\mathrm{Original}}\times100$
 
-`fraction numerator 3.5 minus 2.666... over denominator 3.5 end fraction cross times 100 equals 23.8 space percent sign`
+$\frac{3.5 - 2.666...}{3.5} \times 100 = 23.8 \%$
 
 **[1]**
 
@@ -454,7 +454,7 @@ $114-96.90=17.10$
 $\frac{17.10}{114}\times100$
 
 * **Correct method*** ****[1] **
-`bold 15 bold percent sign` **[1]**
+$15 \%$ **[1]**
 
 > *Method 2*
 
@@ -468,7 +468,7 @@ $\frac{96.90}{114}\times100=85$
 
 $100-85$
 
-`bold 15 bold percent sign`** [1]**
+$15 \%$** [1]**
 
 ### Q24
 *Be careful - this is a reverse percentage question!* 
@@ -479,13 +479,13 @@ $\frac{112.5}{100}=1.125$
 
 > *We can now write an equation for the original cost (\$*$x$*) of the magazine.*
 
-`table row cell x cross times 1.125 end cell equals cell 2.70 end cell end table`
+$\begin{gathered} x \times 1.125 & = 2.70 \end{gathered}$
 
 **[1]**
 
 > *Solve the equation to find the orginal cost (\$*$x$*).*
 
-`table row x equals cell fraction numerator 2.70 over denominator 1.125 end fraction end cell row x equals cell 2.4 end cell end table`
+$\begin{gathered} x = \frac{2.70}{1.125} \\ x = 2.4 \end{gathered}$
 
 **\$2.40**** [1]**
 
@@ -525,7 +525,7 @@ $\frac{24.20}{220}\times100$
 
 **[1]**
 
-`bold 11 bold percent sign` **[1]**
+$11 \%$ **[1]**
 
 > *Method 2*
 
@@ -541,7 +541,7 @@ $100-89$
 
 **[1]**
 
-`bold 11 bold percent sign`** [1]**
+$11 \%$** [1]**
 
 ### Q27
 i) *Method 1*
@@ -601,7 +601,7 @@ $\frac{2.25}{6}$ * *
 
 $\frac{2.25}{6}\times100$
 
-`bold 37 bold. bold 5 bold percent sign` **[1]**
+$37 . 5 \%$ **[1]**
 
 ### Q29
 > *Find the multiplier for a 4.5% decrease by subtracting 4.5% from 1.*
@@ -621,7 +621,7 @@ $\frac{37054}{0.955}=38800$
 ### Q30
 > *Find 3 out of 80 as a fraction and then convert to a percentage by multiplying by 100.*
 
-`3 over 80 cross times 100 percent sign space equals space 3.75 percent sign`
+$\frac{3}{80} \times 100 \% = 3.75 \%$
 
 **3.75 % ****[1]**
 
@@ -675,7 +675,7 @@ $\frac{2.3}{1.38}=1.66666...$
 
 > *Subtract 1 from the decimal multiplier and multiply by 100% to find the percentage profit.*
 
-`open parentheses 1.66666... negative 1 close parentheses cross times 100 equals 66.66666...`
+$( 1.66666... - 1 ) \times 100 = 66.66666...$
 
 **[1]**
 
@@ -703,7 +703,7 @@ $\frac{2.5}{1.5}=1.66666...$
 
 > *Subtract 1 from the decimal multiplier and multiply by 100% to find the percentage profit.*
 
-`open parentheses 1.66666... negative 1 close parentheses cross times 100 equals 66.66666...`
+$( 1.66666... - 1 ) \times 100 = 66.66666...$
 
 **[1]**
 
@@ -716,7 +716,7 @@ $\frac{2.5}{1.5}=1.66666...$
 
 > *Subtract the discount from 100% to find out what the sale price is as a percentage of the original price.*
 
-`100 percent sign minus 25 percent sign equals 75 percent sign`
+$100 \% - 25 \% = 75 \%$
 
 > *Divide it by 100 to turn it into a decimal.*
 
@@ -756,7 +756,7 @@ $\frac{1.51\times10^{9}}{6.02\times10^{9}}\times100=25.08305...$** **
 
 *Correct method ***[1] **
 
-`bold 25 bold. bold 1 bold percent sign` **[1]**
+$25 . 1 \%$ **[1]**
 
 ### Q35
 i) *Method 1*
@@ -829,13 +829,13 @@ $1.65\times100$
 ii) *"Calculate the rate before" means this is a reverse percentage question, so call the rate before *$x$ 
 *Write down an expression for an increase of 45% on *$x$* (by multiplying it by 1 + 0.45)* * *
 
-`x cross times open parentheses 1 plus 0.45 close parentheses` * *
+$x \times ( 1 + 0.45 )$ * *
 
 *This amount is equal to 74 240*
 
 *Form an equation in *$x$* (by setting the expression equal to 74 240)* * *
 
-> `x cross times open parentheses 1 plus 0.45 close parentheses equals 74 space 240`* *
+> $x \times ( 1 + 0.45 ) = 74 240$* *
 
 **[1]**
 
@@ -887,7 +887,7 @@ $288-192=96$
 
 > *Write the remaining amount as a fraction of \$360 and multiply by 100 to convert to a percentage.*
 
-`96 over 360 cross times 100 equals 26.6 with dot on top`
+$\frac{96}{360} \times 100 = 26. \dot{6}$
 
 **[1]**
 
@@ -896,7 +896,7 @@ $288-192=96$
 ### Q39
 > *Write 5% as a decimal by dividing by 100*
 
-`5 percent sign equals 0.05`
+$5 \% = 0.05$
 
 > *Multiply the \$25 by the decimal*
 
@@ -934,13 +934,13 @@ $\frac{109}{100}=1.09$
 
 > *We can now write an equation for the original cost (\$*$x$*) of the magazine.*
 
-`table row cell x cross times 1.09 end cell equals cell 36 space 515 end cell end table`
+$\begin{gathered} x \times 1.09 & = 36 515 \end{gathered}$
 
 **[1]**
 
 > *Solve the equation to find the orginal cost (\$*$x$*).*
 
-`table row x equals cell fraction numerator 36 space 515 over denominator 1.09 end fraction end cell row x equals cell 33 space 500 end cell end table`
+$\begin{gathered} x = \frac{36 515}{1.09} \\ x = 33 500 \end{gathered}$
 
 **\$33 500** **[1]**
 
@@ -964,15 +964,15 @@ $\frac{1.45}{72.50}\times100$
 
 > *Let their original wage, *$x$*, be 100%, then Adil's new wage is (100 - 7)% = 93%.*
 
-`table row cell 93 percent sign space space of space space x space end cell equals cell space $ 427.80 end cell end table`
+`| 93 % of x | = $ 427.80 | |`
 
 > *Convert 93% to a fraction or decimal by dividing by 100.*
 
-`table row cell 93 percent sign space space end cell equals cell space 93 over 100 space equals space 0.93 end cell end table`
+$\begin{gathered} 93 \% & = \frac{93}{100} = 0.93 \end{gathered}$
 
 > *Form an equation using 93% of *$x$* = 427.8 and solve.*
 
-`table row cell 0.93 space cross times space x space end cell equals cell space 427.8 end cell row cell x space end cell equals cell space fraction numerator 427.8 over denominator 0.93 end fraction end cell row blank equals cell space 460 end cell end table`
+$\begin{gathered} 0.93 \times x & = 427.8 \\ x & = \frac{427.8}{0.93} \\ = 460 \end{gathered}$
 
 **[1]**
 
@@ -980,7 +980,7 @@ $\frac{1.45}{72.50}\times100$
 
 > *Brian's wage has been increased by 7%, so he now has 107% of his original wage.*
 
-> `107 percent sign space equals space 107 over 100 space equals space 1.07`* so to find 107% of 460, multiply 460 by 1.07.*
+> $107 \% = \frac{107}{100} = 1.07$* so to find 107% of 460, multiply 460 by 1.07.*
 
 > $460\times1.07$* *
 
@@ -994,13 +994,13 @@ $\frac{1.45}{72.50}\times100$
 *"Calculate the original price" means this is a reverse percentage question* 
 *Write the original price as \$*$x$* and reduce it by 8% (multiply by 1 - 0.08)* * *
 
-`x cross times open parentheses 1 minus 0.08 close parentheses` * *
+$x \times ( 1 - 0.08 )$ * *
 
 > *This expression is the sale price of the camera, \$483*
 
 *Form an equation in *$x$* (by setting the expression above to equal 483)* * *
 
-`x cross times open parentheses 1 minus 0.08 close parentheses equals 483`
+$x \times ( 1 - 0.08 ) = 483$
 
 **[1] **
 
@@ -1017,17 +1017,17 @@ $x=\frac{483}{1-0.08}$
 ### Q45
 > *First find the percentage remaining after the reduction.*
 
-`100 percent sign minus 15 percent sign equals 85 percent sign`
+$100 \% - 15 \% = 85 \%$
 
 **[1]**
 
 > *Now convert the percentage to a decimal and multiply.*
 
-`table row cell 85 percent sign end cell equals cell 0.85 end cell row cell 0.85 cross times 220 end cell equals 187 end table`
+$\begin{gathered} 85 \% & = 0.85 \\ 0.85 \times 220 & = 187 \end{gathered}$
 
 **187 litres ****[1]**
 
-**Alternatively you can use the % button on your calculator: **`220 cross times 85 percent sign equals 187`
+**Alternatively you can use the % button on your calculator: **$220 \times 85 \% = 187$
 
 ### Q46
 > *First write \$1.92 as a fraction out of \$1.60 by writing 1.92 as the numerator and 1.60 as the denominator.*
@@ -1043,15 +1043,15 @@ $\frac{1.92}{1.60}\times100=120$
 ### Q47
 > *Let the cost without tax, *$x$*,** be 100%, then the cost with tax is 106%.*
 
-`table attributes columnalign right center left columnspacing 0px end attributes row cell 106 percent sign space space of space space x space end cell equals cell space $ 26.50 end cell end table`
+`table columnalign right center left columnspacing 0px end | 106 % of x | = $ 26.50 | |`
 
 > *Convert 106% to a decimal by dividing by 100.*
 
-`table row cell 106 percent sign space space end cell equals cell space 106 over 100 space equals space 1.06 end cell end table`
+$\begin{gathered} 106 \% & = \frac{106}{100} = 1.06 \end{gathered}$
 
 > *Form an equation and solve.*
 
-`table row cell 1.06 space cross times space x space end cell equals cell space 26.5 end cell row cell x space end cell equals cell space fraction numerator 26.5 over denominator 1.06 end fraction end cell end table`
+$\begin{gathered} 1.06 \times x & = 26.5 \\ x & = \frac{26.5}{1.06} \end{gathered}$
 
 **[1]**
 

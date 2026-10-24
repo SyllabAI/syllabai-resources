@@ -77,13 +77,13 @@ iii) *"f(−x)" represents a **reflection in the **y**-axis**. In (3, −4), the
 ## Q5 — easy — 2 marks · exam-questions
 
 ### 23() — 2 marks
-i) *"*`straight f open parentheses x plus 9 close parentheses`*" represents a **translation** of 3 units **left**. In (5, 7), the **y-**coordinate remains the same, but subtract 9 from the **x**-coordinate.*
+i) *"*$\mathrm{f} ( x + 9 )$*" represents a **translation** of 3 units **left**. In (5, 7), the **y-**coordinate remains the same, but subtract 9 from the **x**-coordinate.*
 
 **(-4, 7)*** ***[1]**
 
 **a common mistake is to add 9 to the ****x****-coordinate, stating "(14, 7)" **
 
-ii) *"*`straight f open parentheses x close parentheses plus 3`*" represents a **translation** of 3 units **up**. In (5, 7), the **x-**coordinate remains the same, but add 3 to the **y**-coordinate*
+ii) *"*$\mathrm{f} ( x ) + 3$*" represents a **translation** of 3 units **up**. In (5, 7), the **x-**coordinate remains the same, but add 3 to the **y**-coordinate*
 
 **(5, 10)*** ***[1]**
 
@@ -94,7 +94,7 @@ ii) *"*`straight f open parentheses x close parentheses plus 3`*" represents a *
 
 *In this case the axes intercepts are unclear, but there are clear points at (-2. -1), (1, 3) and (4, -1).*
 
-> *"*`2 straight f open parentheses x close parentheses`*" is a **vertical stretch, scale factor** **2**.  So **x**-coordinates remain unchanged and **y**-coordinates get multiplied by 2.*
+> *"*$2 \mathrm{f} ( x )$*" is a **vertical stretch, scale factor** **2**.  So **x**-coordinates remain unchanged and **y**-coordinates get multiplied by 2.*
 
 *(-2, -1) will transform to (-2, -2)** *
 
@@ -115,7 +115,7 @@ ii) *"*`straight f open parentheses x close parentheses plus 3`*" represents a *
 
 > *In this case the axes intercepts are unclear, but there are clear points at (-2. -1), (1, 3) and (4, -1).*
 
-> *"*`straight f open parentheses negative x close parentheses`*" is a **reflection** in the **y**-axis**.  So **y**-coordinates remain unchanged and **x**-coordinates** will have their **signs reversed** (or multiplied by -1).*
+> *"*$\mathrm{f} ( - x )$*" is a **reflection** in the **y**-axis**.  So **y**-coordinates remain unchanged and **x**-coordinates** will have their **signs reversed** (or multiplied by -1).*
 
 *(-2, -1) will transform to (2, -1)** *
 *(1, 3) will transform to (-1, 3)** *
@@ -131,13 +131,13 @@ ii) *"*`straight f open parentheses x close parentheses plus 3`*" represents a *
 ## Q7 — easy — 2 marks · exam-questions
 
 ### 24() — 2 marks
-i) *"*`straight f open parentheses x close parentheses space minus space 6`*" represents a **translation** of 6 units **down**, or** **−6 in the **y**-axis. In (−3, 4), the **x-**coordinate remains the same, but subtract 6 from the **y**-coordinate.*
+i) *"*$\mathrm{f} ( x ) - 6$*" represents a **translation** of 6 units **down**, or** **−6 in the **y**-axis. In (−3, 4), the **x-**coordinate remains the same, but subtract 6 from the **y**-coordinate.*
 
 **y***-coordinate*$=4-6=-2$
 
 **(−3, −2)*** ***[1]**
 
-ii) *"*`straight f open parentheses 2 x close parentheses`*" represents a **stretch** by a factor of *$\frac{1}{2}$* in the **x-**axis**.*
+ii) *"*$\mathrm{f} ( 2 x )$*" represents a **stretch** by a factor of *$\frac{1}{2}$* in the **x-**axis**.*
 
 > *In (−3, 4), the **y-**coordinate remains the same, but the **x**-coordinate is multiplied by *$\frac{1}{2}$*.*
 
@@ -150,7 +150,7 @@ ii) *"*`straight f open parentheses 2 x close parentheses`*" represents a **stre
 ## Q8 — easy — 2 marks · exam-questions
 
 ### 21((a)) — 2 marks
-i) *"*`straight f open parentheses x space plus space 4 close parentheses`*" represents a **translation** of 4 units **left**, or** **−4 in the **x**-axis. In (4, 6), the **y-**coordinate remains the same, but subtract 4 from the **x**-coordinate.*
+i) *"*$\mathrm{f} ( x + 4 )$*" represents a **translation** of 4 units **left**, or** **−4 in the **x**-axis. In (4, 6), the **y-**coordinate remains the same, but subtract 4 from the **x**-coordinate.*
 
 **x***-coordinate*$=4-4=0$
 
@@ -158,7 +158,7 @@ i) *"*`straight f open parentheses x space plus space 4 close parentheses`*" rep
 
 **A common mistake is to add 4 to the ****x****-coordinate**
 
-ii)*"*`straight f open parentheses 2 x close parentheses`*" represents a **stretch** by a factor of *$\frac{1}{2}$* in the **x-**axis**.*
+ii)*"*$\mathrm{f} ( 2 x )$*" represents a **stretch** by a factor of *$\frac{1}{2}$* in the **x-**axis**.*
 
 > *In (4, 6), the **y-**coordinate remains the same, but the **x**-coordinate is multiplied by *$\frac{1}{2}$*.*
 
@@ -171,7 +171,7 @@ ii)*"*`straight f open parentheses 2 x close parentheses`*" represents a **stret
 ## Q9 — easy — 2 marks · exam-questions
 
 ### 22((b)) — 2 marks
-i) *"*`straight f open parentheses 2 x close parentheses`*" represents a **stretch** by a factor of *$\frac{1}{2}$* in the **x-**axis**.*
+i) *"*$\mathrm{f} ( 2 x )$*" represents a **stretch** by a factor of *$\frac{1}{2}$* in the **x-**axis**.*
 
 > *In (4, 5), the **y-**coordinate remains the same, but the **x**-coordinate is multiplied by *$\frac{1}{2}$*.*
 
@@ -181,7 +181,7 @@ i) *"*`straight f open parentheses 2 x close parentheses`*" represents a **stret
 
 **A common mistake is to multiply the ****x****- (or ****y****-) coordinate by 2.**
 
-ii) *"*`straight f open parentheses x close parentheses space minus space 7`*" represents a **translation** of 7 units **down**, or** **−7 in the **y**-axis. In (4, 5), the **x-**coordinate remains the same, but subtract 7 from the **y**-coordinate.*
+ii) *"*$\mathrm{f} ( x ) - 7$*" represents a **translation** of 7 units **down**, or** **−7 in the **y**-axis. In (4, 5), the **x-**coordinate remains the same, but subtract 7 from the **y**-coordinate.*
 
 **y***-coordinate*$=5-7=-2$
 
@@ -190,7 +190,7 @@ ii) *"*`straight f open parentheses x close parentheses space minus space 7`*" r
 ## Q10 — easy — 1 marks · exam-questions
 
 ### 28() — 1 marks
-> *The '−' represents a reflection and it is before the '*`straight g open parentheses x close parentheses`*' so we have a reflection up/down in the **x**-axis.*
+> *The '−' represents a reflection and it is before the '*$\mathrm{g} ( x )$*' so we have a reflection up/down in the **x**-axis.*
 
 **A reflection in the ****x****-axis ****[1]**
 
@@ -203,7 +203,7 @@ ii) *"*`straight f open parentheses x close parentheses space minus space 7`*" r
 
 ![gcse-aqa-transformations-of-graphs-e7-1-](assets/078-gcse-aqa-transformations-of-graphs-e7-1.png)
 
-> `y equals straight f open parentheses x close parentheses minus 2`* is a translation of *`y equals straight f open parentheses x close parentheses`* by −2 in the **y**-axis. Sketch a translation of your curve 2 units down. Label the new curve with its equation and **mark where the curve crosses the **y**-axis at (0, −2)** to show that it has been translated 2 down.*
+> $y = \mathrm{f} ( x ) - 2$* is a translation of *$y = \mathrm{f} ( x )$* by −2 in the **y**-axis. Sketch a translation of your curve 2 units down. Label the new curve with its equation and **mark where the curve crosses the **y**-axis at (0, −2)** to show that it has been translated 2 down.*
 
 ![gcse-aqa-transformations-of-graphs-e7-3-](assets/079-gcse-aqa-transformations-of-graphs-e7-3.png)
 
@@ -213,7 +213,7 @@ ii) *"*`straight f open parentheses x close parentheses space minus space 7`*" r
 ## Q12 — easy — 1 marks · exam-questions
 
 ### 22() — 1 marks
-*A transformation of a function in the form *`y space equals space straight f open parentheses x close parentheses space plus space a`* represents a translation of *$a$* units on the **y- **axis. * 
+*A transformation of a function in the form *$y = \mathrm{f} ( x ) + a$* represents a translation of *$a$* units on the **y- **axis. * 
 *The number outside the function (not in a bracket) is 1 so this is a translation by 1 unit on the y-axis.*
 
 > *The **y**- values on the graph of *$y=\mathrm{sin}x$* are in the range *$-1\leqy\leq1$*, so adding 1 unit to this will give the range *$0\leqy\leq2$*.*
@@ -224,28 +224,28 @@ ii) *"*`straight f open parentheses x close parentheses space minus space 7`*" r
 
 > *Option 2 cannot be correct as it is a stretch of the graph of *$y=\mathrm{sin}x$* along the **y**-axis and is represented by the function *$y=2\mathrm{sin}x$*. *
 
-> *Option 3 cannot be correct as it is a translation of the graph of *$y=\mathrm{sin}x$* along the **x**-axis and is represented by the function *`y space equals space sin space open parentheses x space minus space 90 degree close parentheses`*. *
+> *Option 3 cannot be correct as it is a translation of the graph of *$y=\mathrm{sin}x$* along the **x**-axis and is represented by the function *$y = \sin ( x - 90^{\circ} )$*. *
 
-> *Option 4 cannot be correct as it is a translation of the graph of *$y=\mathrm{sin}x$* along the **x**-axis by 90° and along the **y**-axis by 1 unit and is represented by the function *`y space equals 1 space plus space sin open parentheses x plus 90 close parentheses`*. *
+> *Option 4 cannot be correct as it is a translation of the graph of *$y=\mathrm{sin}x$* along the **x**-axis by 90° and along the **y**-axis by 1 unit and is represented by the function *$y = 1 + \sin ( x + 90 )$*. *
 
 ## Q13 — easy — 1 marks · exam-questions
 
 ### 20() — 1 marks
-*A transformation of a function in the form *`y space equals space straight f open parentheses x close parentheses space plus space a`* represents a translation of *$a$* units on the **y- **axis. *
+*A transformation of a function in the form *$y = \mathrm{f} ( x ) + a$* represents a translation of *$a$* units on the **y- **axis. *
 
 > *The number outside the function (not in a bracket) is 2 so this is a translation by 2 units upwards on the y-axis.*
 
-> *The **y**- values on the graph of *`y space equals space straight f open parentheses x close parentheses`* will all increase by 2 units and the **x**- values will all stay the same.*
+> *The **y**- values on the graph of *$y = \mathrm{f} ( x )$* will all increase by 2 units and the **x**- values will all stay the same.*
 
-`open parentheses 7 comma space 28 space plus space 2 close parentheses`
+$( 7 , 28 + 2 )$
 
 **Option 2 is the correct answer, (7, 30) ****[1]**
 
-> *Option 1 cannot be correct as it is a translation of the graph of *`y space equals space straight f open parentheses x close parentheses`* **downwards** along the **y**-axis and is represented by the function *`y space equals space straight f open parentheses x close parentheses space minus space 2`*. *
+> *Option 1 cannot be correct as it is a translation of the graph of *$y = \mathrm{f} ( x )$* **downwards** along the **y**-axis and is represented by the function *$y = \mathrm{f} ( x ) - 2$*. *
 
-> *Option 3 cannot be correct as it is a translation of the graph of *`y space equals space straight f open parentheses x close parentheses`* along the **x**-axis in the negative direction and is represented by the function *`y space equals space straight f open parentheses x space plus space 2 close parentheses`*. *
+> *Option 3 cannot be correct as it is a translation of the graph of *$y = \mathrm{f} ( x )$* along the **x**-axis in the negative direction and is represented by the function *$y = \mathrm{f} ( x + 2 )$*. *
 
-> *Option 4 cannot be correct as it is a translation of the graph of *`y space equals space straight f open parentheses x close parentheses`* along the **x**-axis in the positive direction and is represented by the function *`y space equals space straight f open parentheses x space minus space 2 close parentheses`*. *
+> *Option 4 cannot be correct as it is a translation of the graph of *$y = \mathrm{f} ( x )$* along the **x**-axis in the positive direction and is represented by the function *$y = \mathrm{f} ( x - 2 )$*. *
 
 ## Q14 — medium — 4 marks · exam-questions
 
@@ -275,7 +275,7 @@ iii) *"−f(x)" represents a **reflection** of f(x) **in the** **y**-axis**. If 
 **(−3, 5)*** ***[1]**
 
 ### 24((b)) — 1 marks
-**translation 4 units down**** or t****ranslation −4 units in the ****y-****axis**** or ****translation by **`begin bold style stretchy left parenthesis table row 0 row cell negative 4 end cell end table stretchy right parenthesis end style` **[1]**
+**translation 4 units down**** or t****ranslation −4 units in the ****y-****axis**** or ****translation by **$\text{begin} \text{style} ( \begin{gathered} 0 \\ - 4 \end{gathered} )$ **[1]**
 
 **"translation", direction and distance must all be stated to achieve the mark**
 
@@ -411,24 +411,24 @@ iii) *"−f(x)" represents a **reflection** of f(x) **in the** **y**-axis**. If 
 ## Q20 — medium — 2 marks · exam-questions
 
 ### 21((b)) — 2 marks
-> *The graph of *`y space equals space cos open parentheses x close parentheses degree`* has a minimum at **y** = -1 and maximum at **y** = 1 (we can also say it has an amplitude of 1). The graph you are given has minimum at -2 and maximum at **y** = 2 (we can also say it has amplitude of 2).*
+> *The graph of *$y = \cos ( x )^{\circ}$* has a minimum at **y** = -1 and maximum at **y** = 1 (we can also say it has an amplitude of 1). The graph you are given has minimum at -2 and maximum at **y** = 2 (we can also say it has amplitude of 2).*
 
 > *So the **y** values have been multiplied by 2/ there has been a stretch in the **y**-axis by a factor 2. This tells us that;*
 
 $a=2$** [1]**
 
-> `y space equals space 2 cos open parentheses x close parentheses degree`* would look like the red curve below.*
+> $y = 2 \cos ( x )^{\circ}$* would look like the red curve below.*
 
 ![otFs~H89_igcse-edexcel-transformations-of-graphs-h7](assets/041-otfs-h89-igcse-edexcel-transformations-of-graphs.png)
 
-> *We can see that to go from *`y space equals space 2 cos open parentheses x close parentheses degree`* to the given curve, we need to translate the curve by 90° to the left (or 270° to the right). A translation by **−90** in the **x-**axis means that **b** is **+90**.*
+> *We can see that to go from *$y = 2 \cos ( x )^{\circ}$* to the given curve, we need to translate the curve by 90° to the left (or 270° to the right). A translation by **−90** in the **x-**axis means that **b** is **+90**.*
 
 $b=90$ **[1]**
 
 ## Q21 — medium — 2 marks · exam-questions
 
 ### 20((b)) — 2 marks
-> *"*`2 straight g open parentheses x close parentheses`*" is a **vertical stretch, scale factor** **2**.  So **x**-coordinates remain unchanged and **y**-coordinates get multiplied by 2.*
+> *"*$2 \mathrm{g} ( x )$*" is a **vertical stretch, scale factor** **2**.  So **x**-coordinates remain unchanged and **y**-coordinates get multiplied by 2.*
 
 > *Picking the 2 endpoints (-4, 6) and (8, 4), and the minimum point (3, -1);*
 
@@ -440,7 +440,7 @@ $b=90$ **[1]**
 
 > *We have a problem! The transformed endpoints (-4, 12) and (8, 8) cannot be plotted on the grid provided. So we need to pick some other points.*
 
-> *As the **y**-axis goes up to 6, the points with **y** = 3 would be the extremes of *`y equals straight g open parentheses x close parentheses`* that we can transform. So we could pick (-1, 3) and (7, 3);*
+> *As the **y**-axis goes up to 6, the points with **y** = 3 would be the extremes of *$y = \mathrm{g} ( x )$* that we can transform. So we could pick (-1, 3) and (7, 3);*
 
 *(-1, 3) will transform to (-1, 6)*
 
@@ -458,7 +458,7 @@ $b=90$ **[1]**
 ## Q22 — medium — 3 marks · exam-questions
 
 ### 22((a)) — 2 marks
-> *"*`straight f open parentheses 1 half x close parentheses`*" represents a **stretch** in the **x**-axis by factor 2.*
+> *"*$\mathrm{f} ( 1 \frac{1}{2} x )$*" represents a **stretch** in the **x**-axis by factor 2.*
 
 > *The **y**-coordinates do not change but the **x**-coordinates are multiplied by 2. Pick the integer coordinates;*
 
@@ -485,11 +485,11 @@ $b=90$ **[1]**
 **The curve must go through the points (-4, 5), (-2, 0), (0, -3), (2, -4), (4, -3), (6, 0) and (8, 5)*** ***to achieve full marks**
 
 ### 22((b)) — 1 marks
-> *By comparing the graph of *`y equals space straight f open parentheses x space plus space k close parentheses`* to the graph of *`y equals space straight f open parentheses x close parentheses`* shown in red below, we can see that it is a translation by 3 units to the left, or by −3 in the **x**-axis.*
+> *By comparing the graph of *$y = \mathrm{f} ( x + k )$* to the graph of *$y = \mathrm{f} ( x )$* shown in red below, we can see that it is a translation by 3 units to the left, or by −3 in the **x**-axis.*
 
 ![jB5GIOw5_igcse-edexcel-transformations-of-graphs-m9b](assets/062-jb5giow5-igcse-edexcel-transformations-of-graphs.png)
 
-> *A translation by −3 in the **x**-axis is represented by *`y equals space straight f open parentheses x space plus 3 close parentheses`* thus *$k=3$*.*
+> *A translation by −3 in the **x**-axis is represented by *$y = \mathrm{f} ( x + 3 )$* thus *$k=3$*.*
 
 $k=3$* ***[1]**
 
@@ -504,7 +504,7 @@ ii) *"3f(x)" represents a **stretch** by a factor of 3 in the **y**-axis**, so m
 
 **(3, −12)*** ***[1]**
 
-iii) *"*`straight f open parentheses 1 half x close parentheses`*" represents a **stretch** by a factor of **2 **in the **x**-axis**, so multiply the **x**-coordinate by 2.*
+iii) *"*$\mathrm{f} ( 1 \frac{1}{2} x )$*" represents a **stretch** by a factor of **2 **in the **x**-axis**, so multiply the **x**-coordinate by 2.*
 
 **(6, −4)*** ***[1] **
 
@@ -513,7 +513,7 @@ iii) *"*`straight f open parentheses 1 half x close parentheses`*" represents a 
 ### 18((b)) — 1 marks
 > *From (3, −4) to (3, 5), the **x**-coordinate has remained the same and the **y**-coordinate has increased by 9. Therefore there was a translation by +9 units in the **y**-axis.*
 
-> *A translation by +9 units in the **y**-axis is represented by *`y equals space f open parentheses x close parentheses space plus space 9`* therefore *$k=9$*.*
+> *A translation by +9 units in the **y**-axis is represented by *$y = f ( x ) + 9$* therefore *$k=9$*.*
 
 $k=9$ **[1]**
 
@@ -526,7 +526,7 @@ $y=\mathrm{cos}(x--90^{\circ})$ *is a translation of *$y=\mathrm{cos}x$* by 90°
 
 ![C1l~13d7_gcse-aqa-transformations-of-graphs-m8a-1-](assets/047-c1l-13d7-gcse-aqa-transformations-of-graphs-m8a-.png)
 
-> *Join the translated points with a smooth line, but don't draw your line past *$x=360^{\circ}$* as the question asks for the graph for *`0 degree space less-than or slanted equal to space x space less-than or slanted equal to space 360 degree`* only.*
+> *Join the translated points with a smooth line, but don't draw your line past *$x=360^{\circ}$* as the question asks for the graph for *$0 ^{\circ} \text{less} - \text{than} or \text{slanted} \text{equal} to x \text{less} - \text{than} or \text{slanted} \text{equal} to 360 ^{\circ}$* only.*
 
 > *Similarly, you need to complete the curve between *$x=0^{\circ}$* and *$x=90^{\circ}$*.*
 
@@ -569,11 +569,11 @@ $y=1+\mathrm{cos}x$ *(or *$y=\mathrm{cos}x+1$* if you prefer) is a translation o
 ## Q26 — medium — 1 marks · exam-questions
 
 ### 27() — 1 marks
-> *A reflection of a function in the form *`y space equals space straight f open parentheses x close parentheses`* in the **x**- axis is represented by the graph of *`y space equals space minus straight f open parentheses x close parentheses`*. *
+> *A reflection of a function in the form *$y = \mathrm{f} ( x )$* in the **x**- axis is represented by the graph of *$y = - \mathrm{f} ( x )$*. *
 
-> *Consider the equation of the graph of *`y space equals negative straight f open parentheses x close parentheses`*.*
+> *Consider the equation of the graph of *$y = - \mathrm{f} ( x )$*.*
 
-`negative y space equals space minus open parentheses x squared space minus 5 x space plus 2 close parentheses space equals space minus x squared space minus open parentheses negative 5 x close parentheses space minus 2 space equals space minus x squared space plus 5 x space minus 2`
+$- y = - ( x^{2} - 5 x + 2 ) = - x^{2} - ( - 5 x ) - 2 = - x^{2} + 5 x - 2$
 
 **Option 3 is the correct answer, **$y=-x^{2}+5x-2$** ****[1]**
 
@@ -769,7 +769,7 @@ $y=1+\mathrm{cos}x$ *(or *$y=\mathrm{cos}x+1$* if you prefer) is a translation o
 ## Q34 — hard — 2 marks · exam-questions
 
 ### 20((c)) — 2 marks
-> `y equals h open parentheses x space plus space a close parentheses`* represents a translation of *`y equals h open parentheses x close parentheses`* by *$-a$* units in the *$x$*-axis.*
+> $y = h ( x + a )$* represents a translation of *$y = h ( x )$* by *$-a$* units in the *$x$*-axis.*
 
 > *Either (-1, 0) has translated to (2, 0), or (6, 0) has.*
 
@@ -785,9 +785,9 @@ $a=-3$ **[1] **
 ## Q35 — hard — 3 marks · exam-questions
 
 ### 21((a)) — 1 marks
-> *Write *`straight f open parentheses x close parentheses`* in the form *`y equals a open parentheses x plus p close parentheses squared plus q`*. *`open parentheses negative p comma space q close parentheses`* is the turning point.*
+> *Write *$\mathrm{f} ( x )$* in the form *$y = a ( x + p )^{2} + q$*. *$( - p , q )$* is the turning point.*
 
-`y equals negative 3 open parentheses x plus 2 close parentheses squared plus 9`
+$y = - 3 ( x + 2 )^{2} + 9$
 
 > *From this we can derive the turning point, **A.*
 
@@ -796,27 +796,27 @@ $A=(-2,9)$* ***[1]**
 ### 21((b)) — 1 marks
 > *Method 1: Using "transformations of functions"*
 
-> *A translation by *`open parentheses table row 4 row 0 end table close parentheses`* (or a translation +4 in the **x-**axis), means that *`y equals straight f open parentheses x close parentheses`* becomes *`y equals straight f open parentheses x minus 4 close parentheses`*; 4 is subtracted inside the bracket.*
+> *A translation by *$( \begin{gathered} 4 \\ 0 \end{gathered} )$* (or a translation +4 in the **x-**axis), means that *$y = \mathrm{f} ( x )$* becomes *$y = \mathrm{f} ( x - 4 )$*; 4 is subtracted inside the bracket.*
 
-> *As *`straight f open parentheses x close parentheses equals 9 minus 3 open parentheses x plus 2 close parentheses squared`*, then;*
+> *As *$\mathrm{f} ( x ) = 9 - 3 ( x + 2 )^{2}$*, then;*
 
-`table row cell straight f open parentheses x minus 4 close parentheses end cell equals cell 9 minus 3 open parentheses x plus 2 minus 4 close parentheses squared end cell row blank equals cell 9 minus 3 open parentheses x minus 2 close parentheses squared end cell end table`
+$\begin{gathered} \mathrm{f} ( x - 4 ) & = 9 - 3 ( x + 2 - 4 )^{2} \\ = 9 - 3 ( x - 2 )^{2} \end{gathered}$
 
 **An equation for the curve S is **$y=9-3(x-2)^{2}$*  ***[1] **
 
-**Equivalent equations such as '**$y=-3x^{2}+12x-3$**' are accepted '**`y equals straight f open parentheses x minus 4 close parentheses`**' was also accepted as an answer; but the answer above is what was intended by the question**
+**Equivalent equations such as '**$y=-3x^{2}+12x-3$**' are accepted '**$y = \mathrm{f} ( x - 4 )$**' was also accepted as an answer; but the answer above is what was intended by the question**
 
 > *Method 2: Using "turning point by completing the square"*
 
-> *After translation by *`open parentheses table row 4 row 0 end table close parentheses`* (or a translation +4 in the **x-**axis), the turning point (−2, 9) becomes;*
+> *After translation by *$( \begin{gathered} 4 \\ 0 \end{gathered} )$* (or a translation +4 in the **x-**axis), the turning point (−2, 9) becomes;*
 
 *(2, 9)*
 
 > *So the equation takes the form;*
 
-`table row straight y equals cell a open parentheses x minus 2 close parentheses squared plus 9 end cell end table`
+$\begin{gathered} \mathrm{y} = a ( x - 2 )^{2} + 9 \end{gathered}$
 
-> *And as the curve has not been stretched or reflected, the value of *`table attributes columnalign right center left columnspacing 0px end attributes row blank blank a end table`* remains the same as in curve *`table row blank blank C end table`*. i.e. *`table attributes columnalign right center left columnspacing 0px end attributes row a equals 3 end table`*.*
+> *And as the curve has not been stretched or reflected, the value of *$\begin{array}{rcl} a \end{array}$* remains the same as in curve *$\begin{gathered} C \end{gathered}$*. i.e. *$\begin{array}{rcl} a = 3 \end{array}$*.*
 
 **An equation for the curve S is **$y=-3(x-2)^{2}+9$*  ***[1]**
 
@@ -825,11 +825,11 @@ $A=(-2,9)$* ***[1]**
 ### 21((c)) — 1 marks
 > *Method 1: Using "transformations of functions"*
 
-> *Curve *$C$* has the equation *`y equals straight f open parentheses x close parentheses`* where  *`straight f open parentheses x close parentheses equals negative 3 open parentheses x plus 2 close parentheses squared plus 9`*. Therefore;*
+> *Curve *$C$* has the equation *$y = \mathrm{f} ( x )$* where  *$\mathrm{f} ( x ) = - 3 ( x + 2 )^{2} + 9$*. Therefore;*
 
-`table row cell negative straight f open parentheses x close parentheses end cell equals cell negative open parentheses negative 3 open parentheses x plus 2 close parentheses squared plus 9 close parentheses end cell row blank equals cell 3 open parentheses x plus 2 close parentheses squared minus 9 end cell end table`
+$\begin{gathered} - \mathrm{f} ( x ) & = - ( - 3 ( x + 2 )^{2} + 9 ) \\ = 3 ( x + 2 )^{2} - 9 \end{gathered}$
 
-> *This is the same equation as curve *$T$*. And *`negative straight f open parentheses x close parentheses`* represents a reflection in the **x**-axis.*
+> *This is the same equation as curve *$T$*. And *$- \mathrm{f} ( x )$* represents a reflection in the **x**-axis.*
 
 **A reflection in the ****x****-axis*** ***[1]**
 
@@ -837,9 +837,9 @@ $A=(-2,9)$* ***[1]**
 
 > *Using your knowledge of **quadratic graphs** and **turning point by completing the square**, sketch the curve *$C$* and curve *$T$*.*
 
-> *The equation *`y equals negative 3 open parentheses x plus 2 close parentheses squared plus 9`* tells us curve *$C$* is a n-shaped parabola with a turning point (−2, 9).*
+> *The equation *$y = - 3 ( x + 2 )^{2} + 9$* tells us curve *$C$* is a n-shaped parabola with a turning point (−2, 9).*
 
-> *The equation *`y equals 3 open parentheses x plus 2 close parentheses squared minus 9`* tells us curve *$T$* is a u-shaped parabola, the same "width" as curve *$C$* and with a turning point (−2, −9).*
+> *The equation *$y = 3 ( x + 2 )^{2} - 9$* tells us curve *$T$* is a u-shaped parabola, the same "width" as curve *$C$* and with a turning point (−2, −9).*
 
 ![3Xp6_wOV_igcse-edexcel-transformations-of-graphs-h7c](assets/014-3xp6-wov-igcse-edexcel-transformations-of-graphs.png)
 
@@ -850,30 +850,30 @@ $A=(-2,9)$* ***[1]**
 ## Q36 — hard — 4 marks · exam-questions
 
 ### 22() — 4 marks
-> *Write *`straight g open parentheses x close parentheses`* in the form required by completing the square.*
+> *Write *$\mathrm{g} ( x )$* in the form required by completing the square.*
 
-`table row cell g open parentheses x close parentheses end cell equals cell 2 open parentheses x squared minus 6 x close parentheses plus 13 end cell row blank equals cell 2 open parentheses open parentheses x minus 3 close parentheses squared minus 9 close parentheses plus 13 end cell row blank equals cell 2 open parentheses x minus 3 close parentheses squared minus 18 plus 13 end cell row blank equals cell 2 open parentheses x minus 3 close parentheses squared minus 5 end cell end table`
+$\begin{gathered} g ( x ) & = 2 ( x^{2} - 6 x ) + 13 \\ = 2 ( ( x - 3 )^{2} - 9 ) + 13 \\ = 2 ( x - 3 )^{2} - 18 + 13 \\ = 2 ( x - 3 )^{2} - 5 \end{gathered}$
 
 **either a = 2, b = 3 or c = 5 ****[1]** 
 **completed square form fully correct**** [1]**
 
-> `straight f open parentheses x close parentheses equals x squared`* so *`2 straight f open parentheses x close parentheses equals 2 x squared`*. This is a stretch by scale factor 2.*
+> $\mathrm{f} ( x ) = x^{2}$* so *$2 \mathrm{f} ( x ) = 2 x^{2}$*. This is a stretch by scale factor 2.*
 
-> *From *$2x^{2}$* to *`2 open parentheses x minus 3 close parentheses squared`* is a translation by +3 in the **x**-axis.*
+> *From *$2x^{2}$* to *$2 ( x - 3 )^{2}$* is a translation by +3 in the **x**-axis.*
 
-> *And from *`2 open parentheses x minus 3 close parentheses squared`* to *`2 open parentheses x minus 3 close parentheses squared minus 5`* is a translation by −5 in the **y**-axis.*
+> *And from *$2 ( x - 3 )^{2}$* to *$2 ( x - 3 )^{2} - 5$* is a translation by −5 in the **y**-axis.*
 
 > *Put these together and we have;*
 
-**Final answer:** **A stretch in the ****y****-axis by scale factor 2 followed by a translation by **`stretchy left parenthesis table row 3 row cell negative 5 end cell end table stretchy right parenthesis`
+**Final answer:** **A stretch in the ****y****-axis by scale factor 2 followed by a translation by **$( \begin{gathered} 3 \\ - 5 \end{gathered} )$
 
 **a stretch in y-axis by scale factor 2 or a translation by**** **`Error converting from MathML to accessible text.`** [1]** **both transformations in the correct order**** [1]**
 
 **The translations can be given separately but the stretch must come before the translation in the ****y****-axis**
 
-> *Note that if the translation *`open parentheses table row 3 row cell negative 5 end cell end table close parentheses`* is performed first then *`straight f open parentheses x minus 3 close parentheses minus 5 equals``open parentheses x minus 3 close parentheses squared minus 5`*. Let's call this new function *`straight h open parentheses x close parentheses`*.*
+> *Note that if the translation *$( \begin{gathered} 3 \\ - 5 \end{gathered} )$* is performed first then *$\mathrm{f} ( x - 3 ) - 5 =$$( x - 3 )^{2} - 5$*. Let's call this new function *$\mathrm{h} ( x )$*.*
 
-> `straight h open parentheses x close parentheses equals open parentheses x minus 3 close parentheses squared minus 5`* so performing the stretch, *`2 straight h open parentheses x close parentheses equals 2 open parentheses open parentheses x minus 3 close parentheses squared minus 5 close parentheses equals 2 open parentheses x minus 3 close parentheses squared minus 10`*. This is the wrong function! We want *`2 open parentheses x minus 3 close parentheses squared minus 5`* so if the translation is performed first, the translation must be *`open parentheses table row 3 row cell negative 2.5 end cell end table close parentheses`*.*
+> $\mathrm{h} ( x ) = ( x - 3 )^{2} - 5$* so performing the stretch, *$2 \mathrm{h} ( x ) = 2 ( ( x - 3 )^{2} - 5 ) = 2 ( x - 3 )^{2} - 10$*. This is the wrong function! We want *$2 ( x - 3 )^{2} - 5$* so if the translation is performed first, the translation must be *$( \begin{gathered} 3 \\ - 2.5 \end{gathered} )$*.*
 
 > *Two alternative correct answers are;*
 
@@ -884,18 +884,18 @@ $A=(-2,9)$* ***[1]**
 ## Q37 — hard — 3 marks · exam-questions
 
 ### 21((d)) — 3 marks
-> *Start by sketching the graph of *`y space equals space cos space open parentheses x close parentheses degree`* on the same axes, noting the maximums and minimums.*
+> *Start by sketching the graph of *$y = \cos ( x )^{\circ}$* on the same axes, noting the maximums and minimums.*
 
-> *Starting with *$b$*, the maximum of *`y equals cos open parentheses x close parentheses degree`* at *$x=0$* has been translated 90° to the left- the given curve has a maximum at *$x=-90^{\circ}$*.*
+> *Starting with *$b$*, the maximum of *$y = \cos ( x )^{\circ}$* at *$x=0$* has been translated 90° to the left- the given curve has a maximum at *$x=-90^{\circ}$*.*
 
 ![igcse-edexcel-transformations-of-graphs-h9-1](assets/007-igcse-edexcel-transformations-of-graphs-h9-1.png)
 
-> *A translation of 90 left leads to *`y equals cos open parentheses x plus 90 close parentheses degree`*. Note that in the question, the given form is *`y equals... cos open parentheses x space minus space b close parentheses degree space plus space...`* and *`cos open parentheses x plus 90 close parentheses space equals space cos open parentheses x space minus space open parentheses negative 90 close parentheses space close parentheses`* therefore;*
+> *A translation of 90 left leads to *$y = \cos ( x + 90 )^{\circ}$*. Note that in the question, the given form is *$y =... \cos ( x - b )^{\circ} + ...$* and *$\cos ( x + 90 ) = \cos ( x - ( - 90 ) )$* therefore;*
 
 $b=-90$* ***[1]**
 $b=270$** ****is also accepted**
 
-> *Now looking at *$a$*, the maximum and minimum of *`y equals cos open parentheses x close parentheses degree`* have a difference of 2 on the *$y$*-axis (the amplitude is 1). The maximum and minimum of the given curve have a difference of 6 on the *$y$*-axis (the amplitude is 3).*
+> *Now looking at *$a$*, the maximum and minimum of *$y = \cos ( x )^{\circ}$* have a difference of 2 on the *$y$*-axis (the amplitude is 1). The maximum and minimum of the given curve have a difference of 6 on the *$y$*-axis (the amplitude is 3).*
 
 ![igcse-edexcel-transformations-of-graphs-h9-2](assets/008-igcse-edexcel-transformations-of-graphs-h9-2.png)
 
@@ -903,7 +903,7 @@ $b=270$** ****is also accepted**
 
 $a=3$* ***[1]**
 
-> *Finally looking at *$c$*, the centre line of *`y equals cos open parentheses x close parentheses degree`* is *$y=0$*. The centre line of the given graph is *$y=2$*.*
+> *Finally looking at *$c$*, the centre line of *$y = \cos ( x )^{\circ}$* is *$y=0$*. The centre line of the given graph is *$y=2$*.*
 
 ![igcse-edexcel-transformations-of-graphs-h9-3](assets/009-igcse-edexcel-transformations-of-graphs-h9-3.png)
 
@@ -916,23 +916,23 @@ $a=3$* ***[1]**
 ### 21((b)) — 2 marks
 > *Method 1 *
 
-> `space y equals straight f open parentheses x close parentheses`* under translation by *`open parentheses table row 4 row 6 end table close parentheses`* becomes *`space y equals straight f open parentheses x minus 4 close parentheses plus 6`*. Apply this to *$y=x^{2}+3x+4$*.*
+> $y = \mathrm{f} ( x )$* under translation by *$( \begin{gathered} 4 \\ 6 \end{gathered} )$* becomes *$y = \mathrm{f} ( x - 4 ) + 6$*. Apply this to *$y=x^{2}+3x+4$*.*
 
-`table attributes columnalign right center left columnspacing 0px end attributes row y equals cell open parentheses x minus 4 close parentheses squared plus 3 open parentheses x minus 4 close parentheses plus 4 plus 6 end cell end table`
+$\begin{array}{rcl} y = ( x - 4 )^{2} + 3 ( x - 4 ) + 4 + 6 \end{array}$
 
-**translating 4 right, i.e. "...**`table row blank blank cell open parentheses x minus 4 close parentheses squared plus 3 open parentheses x minus 4 close parentheses end cell end table`**..."  or translating 6 up, i.e. "...**`table attributes columnalign right center left columnspacing 0px end attributes row blank blank cell x squared plus 3 x plus 4 plus 6 end cell end table`**" ****[1]**
+**translating 4 right, i.e. "...**$\begin{gathered} ( x - 4 )^{2} + 3 ( x - 4 ) \end{gathered}$**..."  or translating 6 up, i.e. "...**$\begin{array}{rcl} x^{2} + 3 x + 4 + 6 \end{array}$**" ****[1]**
 
 `equation`**  ****or  **`equation`** ****[1] There is no need to simplify; but any equivalent versions of this equation are accepted**
 
 > *Method 2 *
 
-> *Rewrite *$C$* in the form *`y equals a open parentheses x plus p close parentheses squared plus q`* by completing the square.*
+> *Rewrite *$C$* in the form *$y = a ( x + p )^{2} + q$* by completing the square.*
 
-`table row y equals cell open parentheses x plus 3 over 2 close parentheses squared minus 9 over 4 plus 4 end cell row blank equals cell open parentheses x plus 3 over 2 close parentheses squared plus 7 over 4 end cell end table`
+$\begin{gathered} y = ( x + \frac{3}{2} )^{2} - \frac{9}{4} + 4 \\ = ( x + \frac{3}{2} )^{2} + \frac{7}{4} \end{gathered}$
 
-> *Translating by *`open parentheses table row 4 row 6 end table close parentheses`* changes *`y equals straight f open parentheses x close parentheses`* to *`y equals straight f open parentheses x minus 4 close parentheses plus 6`*. So subtract 4 inside the bracket and add 6 outside the bracket.*
+> *Translating by *$( \begin{gathered} 4 \\ 6 \end{gathered} )$* changes *$y = \mathrm{f} ( x )$* to *$y = \mathrm{f} ( x - 4 ) + 6$*. So subtract 4 inside the bracket and add 6 outside the bracket.*
 
-`table attributes columnalign right center left columnspacing 0px end attributes row blank equals cell open parentheses x plus 3 over 2 minus 4 close parentheses squared plus 7 over 4 plus 6 end cell end table`
+$\begin{array}{rcl} = ( x + \frac{3}{2} - 4 )^{2} + \frac{7}{4} + 6 \end{array}$
 
 **equation in completed square form, followed by subtracting 4 inside the bracket or adding 6 outside the bracket**** [1]**
 
@@ -945,9 +945,9 @@ $a=3$* ***[1]**
 ### 1() — 3 marks
 > *Method 1*
 
-> *Complete the square to rearrange *`f open parentheses x close parentheses`* into the form *`y equals a open parentheses x plus p close parentheses squared plus q`*, as the turning point is *`open parentheses negative p comma space q close parentheses`
+> *Complete the square to rearrange *$f ( x )$* into the form *$y = a ( x + p )^{2} + q$*, as the turning point is *$( - p , q )$
 
-`table row y equals cell negative 2 open parentheses x squared plus 4 x close parentheses plus 3 end cell row blank equals cell negative 2 open square brackets open parentheses x plus 2 close parentheses squared minus 4 close square brackets plus 3 end cell row blank equals cell negative 2 open parentheses x plus 2 close parentheses squared plus 8 plus 3 end cell row blank equals cell negative 2 open parentheses x plus 2 close parentheses squared plus 11 end cell end table`
+$\begin{gathered} y = - 2 ( x^{2} + 4 x ) + 3 \\ = - 2 [ ( x + 2 )^{2} - 4 ] + 3 \\ = - 2 ( x + 2 )^{2} + 8 + 3 \\ = - 2 ( x + 2 )^{2} + 11 \end{gathered}$
 
 **at least one correct step in completing the square ****[1] ****completing the square correctly ****[1]**
 
@@ -957,9 +957,9 @@ $(-2,11)$** [1]**
 
 > *Method 2*
 
-`f apostrophe open parentheses x close parentheses`* is the functions notation for *$\frac{dy}{dx}$ *Differentiate*
+$f ' ( x )$* is the functions notation for *$\frac{dy}{dx}$ *Differentiate*
 
-`f apostrophe open parentheses x close parentheses equals negative 8 minus 4 x`
+$f ' ( x ) = - 8 - 4 x$
 
 **[1]**
 
@@ -971,11 +971,11 @@ $-8-4x=0$
 
 > *Solve*
 
-`table row cell negative 8 end cell equals cell 4 x end cell row x equals cell negative 2 end cell end table`
+$\begin{gathered} - 8 & = 4 x \\ x = - 2 \end{gathered}$
 
 > *Note that the question asks for the coordinates, so we need the **y** coordinate too*
 
-`table attributes columnalign right center left columnspacing 0px end attributes row y equals cell 3 minus 8 open parentheses negative 2 close parentheses minus 2 open parentheses negative 2 close parentheses squared end cell row blank equals 11 end table`
+$\begin{array}{rcl} y = 3 - 8 ( - 2 ) - 2 ( - 2 )^{2} \\ = 11 \end{array}$
 
 $(-2,11)$** [1]**
 
@@ -984,27 +984,27 @@ $(-2,11)$** [1]**
 
 ![differentiation-vh3b](assets/019-differentiation-vh3b.png)
 
-(i)`y equals f open parentheses x close parentheses plus 2`* represents a **translation** by *`open parentheses table row 0 row 2 end table close parentheses`*; the y-coordinate is increased by 2*
+(i)$y = f ( x ) + 2$* represents a **translation** by *$( \begin{gathered} 0 \\ 2 \end{gathered} )$*; the y-coordinate is increased by 2*
 
 $(-2,13)$* ***[1]**
 
-(ii)`y equals f open parentheses x minus 3 close parentheses`* represents a **translation** by *`open parentheses table row 3 row 0 end table close parentheses`*; the x-coordinate is increased by 3*
+(ii)$y = f ( x - 3 )$* represents a **translation** by *$( \begin{gathered} 3 \\ 0 \end{gathered} )$*; the x-coordinate is increased by 3*
 
 $(1,11)$* ***[1]**
 
-(iii)`y equals f open parentheses 4 x close parentheses`* represents a **stretch** in the x-axis by a factor of  *$\frac{1}{4}$*; the x-coordinate is multiplied by *$\frac{1}{4}$
+(iii)$y = f ( 4 x )$* represents a **stretch** in the x-axis by a factor of  *$\frac{1}{4}$*; the x-coordinate is multiplied by *$\frac{1}{4}$
 
 $(-\frac{1}{2},11)$* ***[1]**
 
-(iv) `y equals negative f open parentheses x close parentheses`* represents a **reflection** in the x-axis; the y-coordinate is multiplied by -1*
+(iv) $y = - f ( x )$* represents a **reflection** in the x-axis; the y-coordinate is multiplied by -1*
 
 $(-2,-11)$* ***[1]**
 
-(v)`y equals 3 f open parentheses x plus 1 close parentheses`* represents a **translation** by *`open parentheses table row cell negative 1 end cell row 0 end table close parentheses`* followed by a stretch in the y-axis by scale factor 3*
+(v)$y = 3 f ( x + 1 )$* represents a **translation** by *$( \begin{gathered} - 1 \\ 0 \end{gathered} )$* followed by a stretch in the y-axis by scale factor 3*
 
 > *Following the order of operations (BIDMAS), the "+1" inside the bracket comes first so perform the translation first. The x-coordinate is decreased by 1*
 
-`open parentheses negative 3 comma space 11 close parentheses`
+$( - 3 , 11 )$
 
 > *And for the stretch, the y-coordinate is multiplied by 3*
 
@@ -1018,16 +1018,16 @@ $(-3,33)$
 ## Q40 — hard — 4 marks · exam-questions
 
 ### 29() — 4 marks
-> *A translation 4 units to the right changes *`y equals straight f open parentheses x close parentheses`* to *`y equals straight f open parentheses x minus 4 close parentheses`*. Therefore *$y=x^{3}+6$* becomes;*
+> *A translation 4 units to the right changes *$y = \mathrm{f} ( x )$* to *$y = \mathrm{f} ( x - 4 )$*. Therefore *$y=x^{3}+6$* becomes;*
 
-`y equals open parentheses x minus 4 close parentheses cubed plus 6`
+$y = ( x - 4 )^{3} + 6$
 
 **[1]**
 
-> *Expand the brackets remembering that *`open parentheses x minus 4 close parentheses cubed equals open parentheses x minus 4 close parentheses open parentheses x minus 4 close parentheses open parentheses x minus 4 close parentheses`*. Expand the first two brackets first.*
+> *Expand the brackets remembering that *$( x - 4 )^{3} = ( x - 4 ) ( x - 4 ) ( x - 4 )$*. Expand the first two brackets first.*
 
-`equals open parentheses x minus 4 close parentheses open parentheses x minus 4 close parentheses open parentheses x minus 4 close parentheses plus 6
-equals open parentheses x squared minus 8 x plus 16 close parentheses open parentheses x minus 4 close parentheses plus 6`
+$= ( x - 4 ) ( x - 4 ) ( x - 4 ) + 6
+= ( x^{2} - 8 x + 16 ) ( x - 4 ) + 6$
 
 **[1]**
 
@@ -1046,56 +1046,56 @@ $x^{3}-12x^{2}+48x-58$ **[1]**
 ### 20() — 3 marks
 > *Method 1*
 
-> *A reflection in the *$y$*-axis changes *`y equals straight f open parentheses x close parentheses`* to *`y equals straight f open parentheses negative x close parentheses`*. This changes *`y equals 2 open parentheses x minus 1 close parentheses squared minus 5`* to;*
+> *A reflection in the *$y$*-axis changes *$y = \mathrm{f} ( x )$* to *$y = \mathrm{f} ( - x )$*. This changes *$y = 2 ( x - 1 )^{2} - 5$* to;*
 
-`y equals 2 open parentheses negative x minus 1 close parentheses squared minus 5`
+$y = 2 ( - x - 1 )^{2} - 5$
 
 **[1]**
 
 > *Expand the squared brackets.*
 
-`table attributes columnalign right center left columnspacing 0px end attributes row y equals cell 2 open parentheses negative x minus 1 close parentheses open parentheses negative x minus 1 close parentheses minus 5 end cell row blank equals cell 2 open parentheses x squared plus x plus x plus 1 close parentheses minus 5 end cell row blank equals cell 2 open parentheses x squared plus 2 x plus 1 close parentheses minus 5 end cell end table`
+$\begin{array}{rcl} y = 2 ( - x - 1 ) ( - x - 1 ) - 5 \\ = 2 ( x^{2} + x + x + 1 ) - 5 \\ = 2 ( x^{2} + 2 x + 1 ) - 5 \end{array}$
 
 **[1]**
 
 > *Expand the remaining bracket and collect like terms.*
 
-`table attributes columnalign right center left columnspacing 0px end attributes row blank equals cell 2 x squared plus 4 x plus 2 minus 5 end cell row blank equals cell 2 x squared plus 4 x minus 3 end cell end table`
+$\begin{array}{rcl} = 2 x^{2} + 4 x + 2 - 5 \\ = 2 x^{2} + 4 x - 3 \end{array}$
 
-`table row bold italic y bold equals cell bold 2 bold italic x to the power of bold 2 bold plus bold 4 bold italic x bold minus bold 3 end cell end table` **[1]**
+$\begin{array}{cc} y = & 2 x^{ } 2 + 4 x - 3\end{array}$ **[1]**
 
 > *Method 2*
 
-> *A quadratic equation in completed square form *`y equals a open parentheses x minus p close parentheses squared plus q`* has turning point at *`open parentheses p comma space q close parentheses`*.*
+> *A quadratic equation in completed square form *$y = a ( x - p )^{2} + q$* has turning point at *$( p , q )$*.*
 
-`y equals 2 open parentheses x minus 1 close parentheses squared minus 5`* **has a turning point at *`open parentheses 1 comma space minus 5 close parentheses`
+$y = 2 ( x - 1 )^{2} - 5$* **has a turning point at *$( 1 , - 5 )$
 
 > *Reflect the turning point in the *$y$*-axis, keeping the value of '*$a$*' the same.*
 
-*turning point at *`open parentheses negative 1 comma space minus 5 close parentheses space space rightwards arrow space y equals 2 open parentheses x plus 1 close parentheses squared minus 5`
+*turning point at *$( - 1 , - 5 ) \rightarrow y = 2 ( x + 1 )^{2} - 5$
 
 **[1]**
 
 > *Expand the squared brackets.*
 
-`table row y equals cell 2 open parentheses x plus 1 close parentheses open parentheses x plus 1 close parentheses minus 5 end cell row blank equals cell 2 open parentheses x squared plus x plus x plus 1 close parentheses minus 5 end cell row blank equals cell 2 open parentheses x squared plus 2 x plus 1 close parentheses minus 5 end cell end table`
+$\begin{gathered} y = 2 ( x + 1 ) ( x + 1 ) - 5 \\ = 2 ( x^{2} + x + x + 1 ) - 5 \\ = 2 ( x^{2} + 2 x + 1 ) - 5 \end{gathered}$
 
 **[1]**
 
 > *Expand the remaining bracket and collect like terms.*
 
-`table row blank equals cell 2 x squared plus 4 x plus 2 minus 5 end cell row blank equals cell 2 x squared plus 4 x minus 3 end cell end table`
+$\begin{gathered} = 2 x^{2} + 4 x + 2 - 5 \\ = 2 x^{2} + 4 x - 3 \end{gathered}$
 
-`table row bold italic y bold equals cell bold 2 bold italic x to the power of bold 2 bold plus bold 4 bold italic x bold minus bold 3 end cell end table` **[1]**
+$\begin{array}{cc} y = & 2 x^{ } 2 + 4 x - 3\end{array}$ **[1]**
 
 ## Q42 — hard — 2 marks · exam-questions
 
 ### 27((b)) — 2 marks
-> *Write the composite function *`y equals fg open parentheses x close parentheses`*.*
+> *Write the composite function *$y = \text{fg} ( x )$*.*
 
-`y equals sin open parentheses x plus 90 close parentheses`
+$y = \sin ( x + 90 )$
 
-> `y equals sin open parentheses x plus 90 close parentheses`* is a translation of *$y=\mathrm{sin}x$* by 90° **left**.*
+> $y = \sin ( x + 90 )$* is a translation of *$y=\mathrm{sin}x$* by 90° **left**.*
 
 > *Start by lightly sketching the graph of *$y=\mathrm{sin}x$*. It should pass through (0, 0), (90, 1), (180, 0), (270, -1) and (360, 0). *
 
@@ -1117,36 +1117,36 @@ $x^{3}-12x^{2}+48x-58$ **[1]**
 ### 18((a)) — 3 marks
 (i)
 
-> *The transformation from f*`open parentheses x close parentheses`* to f*`open parentheses x minus 4 close parentheses`* is a translation parallel to the *$x$*axis by 4 units, meaning that the *$x$*coordinate will increase by 4*
+> *The transformation from f*$( x )$* to f*$( x - 4 )$* is a translation parallel to the *$x$*axis by 4 units, meaning that the *$x$*coordinate will increase by 4*
 
-`open parentheses 7 comma negative 4 close parentheses`
+$( 7 , - 4 )$
 
 **[B1]**
 
 (ii)
 
-> *The transformation from f*`open parentheses x close parentheses`* to 3f*`open parentheses x close parentheses`* is a stretch parallel to the *$y$*axis with a scale factor 3, meaning that the *$y$*coordinate will be multiplied by 3*
+> *The transformation from f*$( x )$* to 3f*$( x )$* is a stretch parallel to the *$y$*axis with a scale factor 3, meaning that the *$y$*coordinate will be multiplied by 3*
 
-`open parentheses 3 comma space minus 12 close parentheses`
+$( 3 , - 12 )$
 
 **[B1]**
 
 (iii)
 
-> *The transformation from f*`open parentheses x close parentheses`* to f*`open parentheses 1 half x close parentheses`* is a stretch parallel to the *$x$*axis with a scale factor 2, meaning that the *$x$*coordinate will be multiplied by 2*
+> *The transformation from f*$( x )$* to f*$( 1 \frac{1}{2} x )$* is a stretch parallel to the *$x$*axis with a scale factor 2, meaning that the *$x$*coordinate will be multiplied by 2*
 
-`open parentheses 6 comma space minus 4 close parentheses`
+$( 6 , - 4 )$
 
 **[B1]**
 
 ### 18((b)) — 1 marks
-> *The transformation of *`y equals straight f open parentheses x close parentheses`* to *`y equals straight f open parentheses x close parentheses plus k`* means that the graph has been translated parallel to the *$y$*axis by *$k$* units*
+> *The transformation of *$y = \mathrm{f} ( x )$* to *$y = \mathrm{f} ( x ) + k$* means that the graph has been translated parallel to the *$y$*axis by *$k$* units*
 
-> *Compare the coordinates of the minimum points for *`y equals straight f open parentheses x close parentheses`* and curve *$C$* and find difference in the *$y$* coordinates*
+> *Compare the coordinates of the minimum points for *$y = \mathrm{f} ( x )$* and curve *$C$* and find difference in the *$y$* coordinates*
 
 *(3, -4) and (3,5)*
 
-`5 minus open parentheses negative 4 close parentheses equals 9`
+$5 - ( - 4 ) = 9$
 
 $k=9$
 
@@ -1171,16 +1171,16 @@ $k=9$
 ## Q45 — hard — 4 marks · exam-questions
 
 ### 24((a)) — 2 marks
-> *Compare the equations for *`straight f open parentheses x close parentheses`* and *`straight g open parentheses x close parentheses`
+> *Compare the equations for *$\mathrm{f} ( x )$* and *$\mathrm{g} ( x )$
 
 - *The *$x$* values have been increased by 4 *
 - *The *$y$* value has been increased by 6*
 
-`straight g open parentheses x close parentheses space equals space straight f open parentheses x space plus thin space 4 close parentheses space plus thin space 6`
+$\mathrm{g} ( x ) = \mathrm{f} ( x + 4 ) + 6$
 
 > *This is the same as a translation by 4 units to the left, and 6 units up*
 
-`open parentheses table row cell negative 4 end cell row 6 end table close parentheses`
+$( \begin{gathered} - 4 \\ 6 \end{gathered} )$
 
 $a=-4$
 
@@ -1191,11 +1191,11 @@ $b=6$
 **[B1]**
 
 ### 24((b)) — 2 marks
-> *The original graph of *`y space equals space cos open parentheses x close parentheses`* would pass through *$90$* and *$270$* on the x-axis, and would have a maximum height of *$1$*, and a minimum height of *$-1$
+> *The original graph of *$y = \cos ( x )$* would pass through *$90$* and *$270$* on the x-axis, and would have a maximum height of *$1$*, and a minimum height of *$-1$
 
 > *This graph has been translated to the left by *$45$* units and has been stretched by a factor of *$3$
 
-`y space equals space 3 cos open parentheses x space plus thin space 45 close parentheses degree`
+$y = 3 \cos ( x + 45 )^{\circ}$
 
 $p=3$
 

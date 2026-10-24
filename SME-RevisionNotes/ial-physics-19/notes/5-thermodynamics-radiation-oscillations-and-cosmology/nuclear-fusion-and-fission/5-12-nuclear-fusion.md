@@ -25,7 +25,7 @@ guided_study: false
 - On Earth, research is focused on achieving the deuterium-tritium (D-T) reaction
 - This involves fusing a *deuterium* nucleus and a *tritium* nucleus together to produce a helium nucleus and a neutron
 
-`straight H presubscript 1 presuperscript 2 space plus thin space straight H presubscript 1 presuperscript 3 space rightwards arrow space He presubscript 2 presuperscript 4 space plus thin space straight n presubscript 0 presuperscript 1`
+`H _ 1 ^ 2 + H _ 1 ^ 3 -> He _ 2 ^ 4 + n _ 0 ^ 1`
 
 #### Deuterium-tritium fusion
 
@@ -54,9 +54,9 @@ guided_study: false
 
   - A positron and an electron neutrino are also produced as one of the protons converts into a neutron through beta-plus decay
 
-`straight H presubscript 1 presuperscript 1 space plus thin space straight H presubscript 1 presuperscript 1 space rightwards arrow space straight H presubscript 1 presuperscript 2 space plus thin space straight e to the power of plus space plus thin space straight nu subscript straight e`
+`H _ 1 ^ 1 + H _ 1 ^ 1 -> H _ 1 ^ 2 + e ^ + + nu _ e`
 
-- In the centres of stars, four hydrogen nuclei `open parentheses straight H presubscript 1 presuperscript 1 close parentheses` fuse to produce a helium nucleus `open parentheses He presubscript 2 presuperscript 4 close parentheses`, plus the release of energy
+- In the centres of stars, four hydrogen nuclei `( H _ 1 ^ 1 )` fuse to produce a helium nucleus $( He_{2}^{4} )$, plus the release of energy
 
   - This provides fuel for the star to continue burning
 

@@ -81,7 +81,7 @@ guided_study: false
 
 - The percentage by mass of an element in a compound can be calculated using the following equation:
 
-`percent sign space mass space of space an space element space equals space fraction numerator A subscript straight r cross times space number space of space atoms space of space the space element over denominator M subscript straight r space of space the space compound end fraction space cross times space 100`
+`% mass of an element = (A _ r x number of atoms of the element)/(M _ r of the compound) x 100`
 
 > **Worked Example**
 > Calculate the percentage by mass of calcium in calcium carbonate, CaCO<sub>3</sub>

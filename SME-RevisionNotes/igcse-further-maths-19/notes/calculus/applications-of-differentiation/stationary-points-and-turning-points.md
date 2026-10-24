@@ -71,11 +71,11 @@ Find the corresponding $y$**-coordinates** (if necessary)
 - A **local** **minimum** point,$(x,f(x))$
 
   - will have the **lowest** value of $f(x)$ in the **local** vicinity of the $x$ value
-  - But `straight f open parentheses x close parentheses` may reach a **lower** value further away
+  - But $\mathrm{f} ( x )$ may reach a **lower** value further away
 - A **local** **maximum** point, $(x,f(x))$
 
   - will have the **highest** value of $f(x)$ in the **local** vicinity of the $x$ value
-  - But `straight f open parentheses x close parentheses` may reach a **higher** value further away
+  - But $\mathrm{f} ( x )$ may reach a **higher** value further away
 - A **global** **maximum** (or **global minimum**) point
 
   - has the **highest** (or **lowest)** value of$f(x)$ for **all values** of$x$ in the domain of $f$
@@ -115,16 +115,16 @@ Find the **sign of the derivative** just either side of each stationary point
 
   - (i.e. if it is positive on both sides or negative on both sides)
   - then the point is **not** a local minimum or a local maximum
-  - But it is still a **stationary point** if `straight f to the power of apostrophe open parentheses x close parentheses equals 0` there
+  - But it is still a **stationary point** if $\mathrm{f}^{'} ( x ) = 0$ there
 
 ### What is the second derivative?
 
 - It is possible to differentiate a function **more than once**
 
-  - If you differentiate `y equals straight f open parentheses x close parentheses`, you find its **(first) derivative**  `fraction numerator straight d y over denominator straight d x end fraction equals straight f to the power of apostrophe open parentheses x close parentheses`
+  - If you differentiate $y = \mathrm{f} ( x )$, you find its **(first) derivative**  $\frac{ \mathrm{d} y}{ \mathrm{d} x} = \mathrm{f}^{'} ( x )$
   
     - e.g. the (first) derivative of $2x^{3}$ is $6x^{2}$
-  - Then you can differentiate the derivative **again** to find the **second derivative  **`fraction numerator straight d squared y over denominator straight d x squared end fraction equals straight f to the power of apostrophe apostrophe end exponent open parentheses x close parentheses`
+  - Then you can differentiate the derivative **again** to find the **second derivative  **$\frac{ \mathrm{d}^{2} y}{ \mathrm{d} x^{2}} = \mathrm{f}^{''} ( x )$
   
     - e.g. the derivative of $6x^{2}$ is $12x$
     - so the second derivative of $2x^{3}$ is $12x$
@@ -137,13 +137,13 @@ Find the **sign of the derivative** just either side of each stationary point
 
   - The solutions are the the $x$-coordinates of any **stationary points**
 - **STEP 2**
-Find the **second derivative** `straight f to the power of apostrophe apostrophe end exponent open parentheses x close parentheses`
+Find the **second derivative** $\mathrm{f}^{''} ( x )$
 
-  - Do this by differentiating `straight f to the power of apostrophe open parentheses x close parentheses` from Step 1
+  - Do this by differentiating $\mathrm{f}^{'} ( x )$ from Step 1
 - **STEP 3**
-Find the **value** of `straight f to the power of apostrophe apostrophe end exponent open parentheses x close parentheses` at each of the **stationary points**
+Find the **value** of $\mathrm{f}^{''} ( x )$ at each of the **stationary points**
 
-  - i.e., by **substituting** the $x$-coordinate of each point into `straight f to the power of apostrophe apostrophe end exponent open parentheses x close parentheses`
+  - i.e., by **substituting** the $x$-coordinate of each point into $\mathrm{f}^{''} ( x )$
 
 - **If ** $f^{''}(x)>0$
 
@@ -171,55 +171,55 @@ Find the **value** of `straight f to the power of apostrophe apostrophe end expo
 > **Worked Example**
 > Find the coordinates and determine the nature of any stationary points on the graph of $y=f(x)$, where $f$ is the function defined by  $f(x)=2x^{3}-3x^{2}-36x+25$.
 > 
-> > *Start by finding *`straight f to the power of apostrophe open parentheses x close parentheses`
+> > *Start by finding *$\mathrm{f}^{'} ( x )$
 > 
-> `straight f to the power of apostrophe open parentheses x close parentheses equals 6 x squared minus 6 x minus 36`
+> $\mathrm{f}^{'} ( x ) = 6 x^{2} - 6 x - 36$
 > 
-> > *Solve *`straight f to the power of apostrophe open parentheses x close parentheses equals 0`* to find the *$x$*-coordinates of any stationary points*
+> > *Solve *$\mathrm{f}^{'} ( x ) = 0$* to find the *$x$*-coordinates of any stationary points*
 > 
-> `table row cell 6 x squared minus 6 x minus 36 end cell equals 0 row cell 6 open parentheses x squared minus x minus 6 close parentheses end cell equals 0 row cell x squared minus x minus 6 end cell equals 0 row cell open parentheses x minus 3 close parentheses open parentheses x plus 2 close parentheses end cell equals 0 end table`
+> $\begin{gathered} 6 x^{2} - 6 x - 36 & = 0 \\ 6 ( x^{2} - x - 6 ) & = 0 \\ x^{2} - x - 6 & = 0 \\ ( x - 3 ) ( x + 2 ) & = 0 \end{gathered}$
 > 
 > $x=-2\mathrm{or}x=3$
 > 
-> > *Substitute into *`straight f open parentheses x close parentheses`* to find the corresponding *$y$*-coordinates*
+> > *Substitute into *$\mathrm{f} ( x )$* to find the corresponding *$y$*-coordinates*
 > 
-> `table row cell straight f open parentheses negative 2 close parentheses end cell equals cell 2 open parentheses negative 2 close parentheses cubed minus 3 open parentheses negative 2 close parentheses squared minus 36 open parentheses negative 2 close parentheses plus 25 end cell row blank equals cell negative 16 minus 12 plus 72 plus 25 end cell row blank equals 69 end table`
+> $\begin{gathered} \mathrm{f} ( - 2 ) & = 2 ( - 2 )^{3} - 3 ( - 2 )^{2} - 36 ( - 2 ) + 25 \\ = - 16 - 12 + 72 + 25 \\ = 69 \end{gathered}$
 > 
-> `table row cell straight f open parentheses 3 close parentheses end cell equals cell 2 open parentheses 3 close parentheses cubed minus 3 open parentheses 3 close parentheses squared minus 36 open parentheses 3 close parentheses plus 25 end cell row blank equals cell 54 minus 27 minus 108 plus 25 end cell row blank equals cell negative 56 end cell end table`
+> $\begin{gathered} \mathrm{f} ( 3 ) & = 2 ( 3 )^{3} - 3 ( 3 )^{2} - 36 ( 3 ) + 25 \\ = 54 - 27 - 108 + 25 \\ = - 56 \end{gathered}$
 > 
-> > *So the stationary points are *`open parentheses negative 2. space 69 close parentheses`* and *`open parentheses 3 comma space minus 56 close parentheses`
+> > *So the stationary points are *$( - 2. 69 )$* and *$( 3 , - 56 )$
 > 
 > > *Method 1: using the second derivative to test the points*
 > 
-> > *Differentiate *`straight f to the power of apostrophe open parentheses x close parentheses`* to find the second derivative *`straight f to the power of apostrophe apostrophe end exponent open parentheses x close parentheses`
+> > *Differentiate *$\mathrm{f}^{'} ( x )$* to find the second derivative *$\mathrm{f}^{''} ( x )$
 > 
-> `table row cell straight f to the power of apostrophe apostrophe end exponent open parentheses x close parentheses end cell equals cell fraction numerator straight d over denominator straight d x end fraction open parentheses 6 x squared minus 6 x minus 36 close parentheses end cell row blank equals cell 12 x minus 6 end cell end table`
+> $\begin{gathered} \mathrm{f}^{''} ( x ) & = \frac{ \mathrm{d} }{ \mathrm{d} x} ( 6 x^{2} - 6 x - 36 ) \\ = 12 x - 6 \end{gathered}$
 > 
 > > *Now substitute in the *$x$*-coordinates of the two stationary points*
 > *This will give the value of the second derivative at those points*
 > 
-> `straight f to the power of apostrophe apostrophe end exponent open parentheses negative 2 close parentheses equals 12 open parentheses negative 2 close parentheses minus 6 equals negative 30 less than 0`
+> $\mathrm{f}^{''} ( - 2 ) = 12 ( - 2 ) - 6 = - 30 < 0$
 > 
-> > *That is less than zero, so *`open parentheses negative 2 comma space 69 close parentheses`* is a local maximum point*
+> > *That is less than zero, so *$( - 2 , 69 )$* is a local maximum point*
 > 
-> `straight f to the power of apostrophe apostrophe end exponent open parentheses 3 close parentheses equals 12 open parentheses 3 close parentheses minus 6 equals 30 greater than 0`
+> $\mathrm{f}^{''} ( 3 ) = 12 ( 3 ) - 6 = 30 > 0$
 > 
-> > *That is greater than zero, so *`open parentheses 3 comma space minus 56 close parentheses`* is a local minimum point*
+> > *That is greater than zero, so *$( 3 , - 56 )$* is a local minimum point*
 > 
 > > *Method 2: using the first derivative to test the points*
 > 
-> > *Test the values of *`straight f to the power of apostrophe open parentheses x close parentheses`* at either side of the stationary points*
+> > *Test the values of *$\mathrm{f}^{'} ( x )$* at either side of the stationary points*
 > *(Note that, where applicable, *$x=0$* is a very convenient test value!)*
 > 
-> `table row cell straight f to the power of apostrophe open parentheses negative 3 close parentheses end cell equals cell 6 open parentheses negative 3 close parentheses squared minus 6 open parentheses negative 3 close parentheses minus 36 end cell row blank equals cell 54 plus 18 minus 36 end cell row blank equals 36 row blank greater than 0 end table`
+> $\begin{gathered} \mathrm{f}^{'} ( - 3 ) & = 6 ( - 3 )^{2} - 6 ( - 3 ) - 36 \\ = 54 + 18 - 36 \\ = 36 \\ > 0 \end{gathered}$
 > 
-> `table row cell straight f to the power of apostrophe open parentheses 0 close parentheses end cell equals cell 6 open parentheses 0 close parentheses squared minus 6 open parentheses 0 close parentheses minus 36 end cell row blank equals cell 0 plus 0 minus 36 end cell row blank equals cell negative 36 end cell row blank less than 0 end table`
+> $\begin{gathered} \mathrm{f}^{'} ( 0 ) & = 6 ( 0 )^{2} - 6 ( 0 ) - 36 \\ = 0 + 0 - 36 \\ = - 36 \\ < 0 \end{gathered}$
 > 
-> `table attributes columnalign right center left columnspacing 0px end attributes row cell straight f to the power of apostrophe open parentheses 4 close parentheses end cell equals cell 6 open parentheses 4 close parentheses squared minus 6 open parentheses 4 close parentheses minus 36 end cell row blank equals cell 96 minus 24 minus 36 end cell row blank equals 36 row blank greater than 0 end table`
+> $\begin{array}{rcl} \mathrm{f}^{'} ( 4 ) & = 6 ( 4 )^{2} - 6 ( 4 ) - 36 \\ = 96 - 24 - 36 \\ = 36 \\ > 0 \end{array}$
 > 
-> > *At  *`open parentheses negative 2 comma space 69 close parentheses`*  the derivative changes from positive to negative, so that is a local maximum point*
+> > *At  *$( - 2 , 69 )$*  the derivative changes from positive to negative, so that is a local maximum point*
 > 
-> > *At  *`open parentheses 3 comma space minus 56 close parentheses`*  the derivative changes from negative to positive, so that is a local minimum point*
+> > *At  *$( 3 , - 56 )$*  the derivative changes from negative to positive, so that is a local minimum point*
 > 
 > > *Note that for this function both stationary points are also turning points*
 > 

@@ -26,7 +26,7 @@ guided_study: true
 
 - *K*<sub>c</sub> is defined as:
 
-`K subscript straight c equals fraction numerator open square brackets straight C close square brackets to the power of straight c space open square brackets straight D close square brackets to the power of straight d over denominator open square brackets straight A close square brackets to the power of straight a space open square brackets straight B close square brackets to the power of straight b end fraction`
+$K_{c} = \frac{[ \mathrm{C} ]^{c} [ \mathrm{D} ]^{d} }{[ \mathrm{A} ]^{a} [ \mathrm{B} ]^{b} }$
 
 - Where:
 
@@ -48,15 +48,15 @@ guided_study: true
 > 
 > 1. Ag<sup>+</sup> (aq) + Fe<sup>2+</sup> (aq) $\rightleftharpoons$ Ag (s) + Fe<sup>3+</sup> (aq)
 > 
-> *K*<sub>c</sub> = `fraction numerator open square brackets Fe to the power of 3 plus end exponent space open parentheses aq close parentheses close square brackets over denominator open square brackets Fe to the power of 2 plus end exponent space open parentheses aq close parentheses close square brackets space open square brackets Ag to the power of plus space open parentheses aq close parentheses close square brackets end fraction`
+> *K*<sub>c</sub> = $\frac{[ Fe^{3 +} ( \text{aq} ) ]}{[ Fe^{2 +} ( \text{aq} ) ] [ Ag^{+} ( \text{aq} ) ]}$
 > 
 > 2. N<sub>2</sub> (g) + 3H<sub>2</sub> (g) $\rightleftharpoons$ 2NH<sub>3</sub> (g)
 > 
-> *K*<sub>c</sub> = `fraction numerator open square brackets NH subscript 3 space open parentheses straight g close parentheses close square brackets squared over denominator stretchy left square bracket straight N subscript 2 space open parentheses straight g close parentheses stretchy right square bracket space stretchy left square bracket straight H subscript 2 space open parentheses straight g close parentheses stretchy right square bracket cubed end fraction`
+> *K*<sub>c</sub> = $\frac{[ NH_{3} ( \mathrm{g} ) ]^{2}}{[ \mathrm{N}_{2} ( \mathrm{g} ) ] [ \mathrm{H}_{2} ( \mathrm{g} ) ]^{3}}$
 > 
 > 3. 2SO<sub>2</sub> (g) + O<sub>2</sub> (g) $\rightleftharpoons$ 2SO<sub>3</sub> (g)
 > 
-> *K*<sub>c</sub> = `fraction numerator open square brackets SO subscript 3 space open parentheses straight g close parentheses close square brackets squared over denominator stretchy left square bracket SO subscript 2 space stretchy left parenthesis straight g stretchy right parenthesis stretchy right square bracket squared space stretchy left square bracket straight O subscript 2 space stretchy left parenthesis straight g stretchy right parenthesis stretchy right square bracket end fraction`
+> *K*<sub>c</sub> = $\frac{[ SO_{3} ( \mathrm{g} ) ]^{2}}{[ SO_{2} ( \mathrm{g} ) ]^{2} [ \mathrm{O}_{2} ( \mathrm{g} ) ]}$
 
 ## Mole Fraction & Partial Pressure
 

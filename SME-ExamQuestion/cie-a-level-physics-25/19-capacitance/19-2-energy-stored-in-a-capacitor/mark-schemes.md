@@ -20,7 +20,7 @@ Determine the correct energy stored equation:
 
 Calculate the change in energy stored in the capacitor:
 
-- `increment W space equals space 1 half C open parentheses V subscript 2 superscript 2 minus V subscript 1 superscript 2 close parentheses space equals space 1 half cross times open parentheses 20 cross times 10 to the power of negative 9 end exponent close parentheses cross times open parentheses 90 squared minus 75 squared close parentheses`** [1 mark]**
+- $\Delta W = 1 \frac{1}{2} C ( V_{2}^{2} - V_{1}^{2} ) = 1 \frac{1}{2} \times ( 20 \times 10^{- 9} ) \times ( 90^{2} - 75^{2} )$** [1 mark]**
 - $\DeltaW=2.475\times10^{-5}=2.5\times10^{-5}J$** [1 mark]**
 
 **[Total: 3 marks]**
@@ -36,7 +36,7 @@ Determine the equation for the charge, *Q*:
 
 Calculate the change in charge:
 
-- `increment Q space equals space C open parentheses V subscript 2 minus V subscript 1 close parentheses space equals space open parentheses 20 cross times 10 to the power of negative 9 end exponent close parentheses space cross times space open parentheses 90 minus 75 close parentheses` **[1 mark]**
+- $\Delta Q = C ( V_{2} - V_{1} ) = ( 20 \times 10^{- 9} ) \times ( 90 - 75 )$ **[1 mark]**
 - $\DeltaQ=3\times10^{-7}C$ **[1 mark]**
 
 **[Total: 3 marks]**
@@ -110,7 +110,7 @@ List the known quantities:
 Determine the fractional change in *E *due to change in *V*:
 
 - *E *∝ *V*<sup>*2*</sup> **[1 mark]**
-- So, `open parentheses V over 2 close parentheses squared space equals space V squared over 4`
+- So, $( \frac{V}{2} )^{2} = \frac{V^{2}}{4}$
 - Hence, $\frac{E}{4}\propto\frac{V^{2}}{4}$ **[1 mark]**
 
 State the new value of energy stored in the capacitor, *E*:
@@ -145,7 +145,7 @@ Calculate the energy stored:
 
 - The energy stored is the **area under** the *V-Q* graph
 - $W=\frac{1}{2}QV$
-- `W space equals space 1 half space cross times space open parentheses 8.0 space cross times space 10 to the power of negative 6 end exponent close parentheses space cross times space 4` **[1 mark]**
+- $W = 1 \frac{1}{2} \times ( 8.0 \times 10^{- 6} ) \times 4$ **[1 mark]**
 - $W=1.6\times10^{-5}J=16µJ$ **[1 mark]**
 
 **[Total: 3 marks]**
@@ -176,12 +176,12 @@ Determine the pd when the charge is 10.0 µC from graph in Fig 1.1:
 
 Calculate the energy stored at 10.0 µC:
 
-- `W subscript 10.0 end subscript space equals space 1 half Q subscript 10.0 end subscript V subscript 10.0 end subscript space equals space 1 half space cross times space open parentheses 10.0 space cross times space 10 to the power of negative 6 end exponent close parentheses space cross times space 5`
+- $W_{10.0} = 1 \frac{1}{2} Q_{10.0} V_{10.0} = 1 \frac{1}{2} \times ( 10.0 \times 10^{- 6} ) \times 5$
 - $W_{10.0}=2.5\times10^{-5}J$ **[1 mark]**
 
 Calculate the increase in energy stored:
 
-- `W subscript 10.0 end subscript space minus space W subscript 8.0 end subscript space equals space space open parentheses 2.5 space cross times space 10 to the power of negative 5 end exponent close parentheses space minus space open parentheses 1.6 space cross times space 10 to the power of negative 5 end exponent close parentheses`
+- $W_{10.0} - W_{8.0} = ( 2.5 \times 10^{- 5} ) - ( 1.6 \times 10^{- 5} )$
 - $W_{10.0}-W_{8.0}=9.0\times10^{-6}J$ **[1 mark]**
 
 **[Total: 3 marks]**
@@ -202,7 +202,7 @@ Because:
 
 - Current is directly proportional to p.d. (*I ∝ V*), so as p.d. decreases so does the current through the resistor; **[1 mark]**
 - If the current decreases, the rate at which charge leaves the capacitor decreases since current = $\frac{\DeltaQ}{\Deltat}$; **[1 mark]**
-- The rate of change of charge `open parentheses fraction numerator increment Q over denominator increment t end fraction close parentheses` is proportional to the rate of change of potential difference `open parentheses fraction numerator increment V over denominator increment t end fraction close parentheses`; **[1 mark]**** **
+- The rate of change of charge $( \frac{\Delta Q}{\Delta t} )$ is proportional to the rate of change of potential difference $( \frac{\Delta V}{\Delta t} )$; **[1 mark]**** **
 
 **[Total: 3 marks]**
 
@@ -231,7 +231,7 @@ Calculate final energy stored, $W_{f}$:
 
 Calculate percentage of energy remaining:
 
-- % energy remaining =$\frac{W_{f}}{W_{i}}$ × 100% **or** `begin mathsize 16px style open parentheses V subscript f close parentheses squared over open parentheses V subscript i close parentheses squared end style`× 100%
+- % energy remaining =$\frac{W_{f}}{W_{i}}$ × 100% **or** $\frac{( V_{f} )^{2}}{( V_{i} )^{2}}$× 100%
 - $\frac{W_{f}}{W_{i}}$ = $\frac{2.8\times10^{-6}}{3.43\times10^{-5}}$ × 100% = 8.16 % **OR** $\frac{W_{f}}{W_{i}}$ = $\frac{0.2^{2}}{0.7^{2}}$× 100% = 8.16 %**[1 mark] **
 
 Calculate % energy lost:

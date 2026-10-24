@@ -6,44 +6,44 @@
 
 
 ### Q1
-*"*$y$* varies inversely with the square of *`open parentheses x plus 2 close parentheses`*" means*
+*"*$y$* varies inversely with the square of *$( x + 2 )$*" means*
 
-`y equals k over open parentheses x plus 2 close parentheses squared`
+$y = \frac{k}{( x + 2 )^{2}}$
 
 **[1]**
 
 *Form an equation for *$k$* (by substituting *$x=3$* and *$y=2$* into the formula)*
 
-`table row 2 equals cell k over open parentheses 3 plus 2 close parentheses squared end cell row 2 equals cell k over 5 squared end cell row 2 equals cell k over 25 end cell end table`
+$\begin{gathered} 2 = \frac{k}{( 3 + 2 )^{2}} \\ 2 = \frac{k}{5^{2}} \\ 2 = \frac{k}{25} \end{gathered}$
 
 *Solve the equation to find *$k$* (by multiplying both sides by 25)*
 
-`table row cell 2 cross times 25 end cell equals k row 50 equals k end table`
+$\begin{gathered} 2 \times 25 & = k \\ 50 = k \end{gathered}$
 
 **[1] **
 
 *Write out the formula with this value of *$k$
 
-`y equals 50 over open parentheses x plus 2 close parentheses squared`
+$y = \frac{50}{( x + 2 )^{2}}$
 
 *Use the formula to find *$y$* when *$x=8$* (by substituting *$x=8$* into the formula)*
 
-`y equals 50 over open parentheses 8 plus 2 close parentheses squared
-y equals 50 over 10 squared
-y equals 50 over 100 equals 1 half`
+$y = \frac{50}{( 8 + 2 )^{2}} 
+y = \frac{50}{10^{2}} 
+y = \frac{50}{100} = 1 \frac{1}{2}$
 
 $y=\frac{1}{2}$ **[1]**
 
 ### Q2
-> *As *$y$* is inversely proportional to *`open parentheses x plus 3 close parentheses squared`*, it means that *$y$* is equal to a constant divided by *`open parentheses x plus 3 close parentheses squared`
+> *As *$y$* is inversely proportional to *$( x + 3 )^{2}$*, it means that *$y$* is equal to a constant divided by *$( x + 3 )^{2}$
 
-`y equals k over open parentheses x plus 3 close parentheses squared`
+$y = \frac{k}{( x + 3 )^{2}}$
 
 **[1]**
 
 > *Substitute *$x=2$* and *$y=8$* to form an equation to find *$k$
 
-`8 equals k over open parentheses 2 plus 3 close parentheses squared`
+$8 = \frac{k}{( 2 + 3 )^{2}}$
 
 > *Simplify the equation*
 
@@ -55,11 +55,11 @@ $k=25\times8=200$
 
 > *Substitute **k** = 200 into the formula*
 
-`y equals 200 over open parentheses x plus 3 close parentheses squared`
+$y = \frac{200}{( x + 3 )^{2}}$
 
 > *Substitute *$x=7$* to find the value of *$y$
 
-`y equals 200 over open parentheses 7 plus 3 close parentheses squared`
+$y = \frac{200}{( 7 + 3 )^{2}}$
 
 **[1]**
 
@@ -74,15 +74,15 @@ $y=\frac{k}{\sqrt{x+1}}$
 
 > *Substitute in the given values; *$x=8,y=2$
 
-`table attributes columnalign right center left columnspacing 0px end attributes row 2 equals cell fraction numerator k over denominator square root of 8 plus 1 end root end fraction end cell end table`
+$\begin{array}{rcl} 2 = \frac{k}{ \sqrt{8 + 1} } \end{array}$
 
 > *Simplify*
 
-`table row 2 equals cell fraction numerator k over denominator square root of 9 end fraction end cell row 2 equals cell k over 3 end cell end table`
+$\begin{gathered} 2 = \frac{k}{ \sqrt{9} } \\ 2 = \frac{k}{3} \end{gathered}$
 
 > *Multiply both sides by 3 to find *$k$
 
-`table attributes columnalign right center left columnspacing 0px end attributes row 6 equals k end table`
+$\begin{array}{rcl} 6 = k \end{array}$
 
 > *So now we know the equation is*
 
@@ -111,7 +111,7 @@ $m=\frac{k}{(p-1)^{2}}$
 
 > *Now substitute in the first given values for *$m$* and *$p$*, and solve to find *$k$
 
-`table row 5 equals cell k over left parenthesis 4 minus 1 right parenthesis squared end cell row 5 equals cell k over 9 end cell row k equals 45 end table`
+$\begin{gathered} 5 = \frac{k}{( 4 - 1 )^{2}} \\ 5 = \frac{k}{9} \\ k = 45 \end{gathered}$
 
 > *Now we can replace *$k$* with *$45$* in the inverse proportion formula*
 
@@ -121,9 +121,9 @@ $m=\frac{45}{(p-1)^{2}}$
 
 > *Now substitute the given value *$p=6$*, into the inverse proportion formula, to find *$m$
 
-`table row m equals cell 45 over left parenthesis 6 minus 1 right parenthesis squared end cell row blank equals cell 45 over 25 end cell row blank equals cell 9 over 5 end cell end table`
+$\begin{gathered} m = \frac{45}{( 6 - 1 )^{2}} \\ = \frac{45}{25} \\ = \frac{9}{5} \end{gathered}$
 
-`table row bold italic m bold equals cell bold 9 over bold 5 bold space bold space bold or bold space bold space bold 1 bold 4 over bold 5 bold space bold space bold or bold space bold space bold 1 bold. bold 8 end cell end table`** [1]**
+$\begin{array}{cc} m = & \frac{9}{ } 5 or 1 \frac{4}{ } 5 or 1 . 8\end{array}$** [1]**
 
 ### Q5
 > *Rewrite the direct proportion statement in terms of *$x,y$* and *$k$*, the constant of proportionality*
@@ -134,7 +134,7 @@ $y=k(x-1)^{2}$
 
 > *Now substitute in the first given values *$x=3$* and *$y=24$*, and solve to find *$k$
 
-`table row 24 equals cell k left parenthesis 3 minus 1 right parenthesis squared end cell row 24 equals cell k cross times 2 squared end cell row 24 equals cell 4 k end cell row k equals cell 24 over 4 equals 6 end cell end table`
+$\begin{gathered} 24 = k ( 3 - 1 )^{2} \\ 24 = k \times 2^{2} \\ 24 = 4 k \\ k = \frac{24}{4} = 6 \end{gathered}$
 
 > *Now we can replace *$k$* with *$6$* in the general formula*
 
@@ -144,9 +144,9 @@ $y=6(x-1)^{2}$
 
 > *Now substitute your second given value, *$x=6$*, back into the general formula, to find *$y$
 
-`table row y equals cell 6 left parenthesis 6 minus 1 right parenthesis squared end cell row blank equals cell 6 cross times 5 squared end cell row blank equals cell 6 cross times 25 end cell end table`
+$\begin{gathered} y = 6 ( 6 - 1 )^{2} \\ = 6 \times 5^{2} \\ = 6 \times 25 \end{gathered}$
 
-`table row bold italic y bold equals bold 150 end table`** [1]**
+$\begin{gathered} y = 150 \end{gathered}$** [1]**
 
 ### Q6
 > *Inverse proportion links *$y$* to *$x^{3}$* by*
@@ -158,11 +158,11 @@ $y=\frac{k}{x^{3}}$
 *We need to find the value of *$k$ 
 *Substitute *$x=2$* and *$y=0.5$* into the equation*
 
-`table attributes columnalign right center left columnspacing 0px end attributes row cell 0.5 end cell equals cell k over 2 cubed end cell row cell 0.5 end cell equals cell k over 8 end cell end table`
+$\begin{array}{rcl} 0.5 & = \frac{k}{2^{3}} \\ 0.5 & = \frac{k}{8} \end{array}$
 
 > *Solve to find *$k$* (by multiplying both sides by 8)*
 
-`table row cell 8 cross times 0.5 end cell equals k row 4 equals k end table`
+$\begin{gathered} 8 \times 0.5 & = k \\ 4 = k \end{gathered}$
 
 > *Substitute *$k=4$* into the original equation*
 
@@ -173,17 +173,17 @@ $y=\frac{4}{x^{3}}$**[1]**
 ### Q7
 > *As *$y$* and *$(x-4)$*are directly proportional, a formula for *$y$* can be found by multiplying a constant (of proportionality) by  *$(x-4)$
 
-`y equals k open parentheses x minus 4 close parentheses`
+$y = k ( x - 4 )$
 
 **[1]**
 
 > *Substitute *$x=16$* and*$y=3$* into the formula to form an equation*
 
-`table row 3 equals cell k left parenthesis 16 minus 4 right parenthesis end cell row 3 equals cell 12 k end cell end table`
+$\begin{gathered} 3 = k ( 16 - 4 ) \\ 3 = 12 k \end{gathered}$
 
 > *Solve the equation to find the value of *$k$
 
-`table attributes columnalign right center left columnspacing 0px end attributes row cell 12 k end cell equals 3 row k equals cell 3 over 12 equals 1 fourth end cell end table`
+$\begin{array}{rcl} 12 k & = 3 \\ k = \frac{3}{12} = 1 \frac{1}{4} \end{array}$
 
 > *Substitute the value of *$k$* back into the formula for *$y$
 
@@ -193,13 +193,13 @@ $y=\frac{1}{4}(x-4)$ **[1] **
 ### Q8
 > *This is an **inverse** proportion question*
 
-`table row y proportional to cell 1 over x end cell row y equals cell k over x end cell end table`
+$\begin{gathered} y \propto \frac{1}{x} \\ y = \frac{k}{x} \end{gathered}$
 
 **[1]**
 
 > *Use the given result to set up, then solve, an equation in *$k$
 
-`table row 9 equals cell k over 8 end cell row k equals cell 9 cross times 8 end cell row k equals 72 end table`
+$\begin{gathered} 9 = \frac{k}{8} \\ k = 9 \times 8 \\ k = 72 \end{gathered}$
 
 > *Now we can answer the question*
 
@@ -220,11 +220,11 @@ $y=k\sqrt{x}$
 *We need to find the value of *$k$ 
 *Substitute *$x=9$* and *$y=6$* into the equation  *
 
-> `table row 6 equals cell k square root of 9 end cell row 6 equals cell k cross times 3 end cell row 6 equals cell 3 k end cell end table`*  *
+> $\begin{gathered} 6 = k \sqrt{9} \\ 6 = k \times 3 \\ 6 = 3 k \end{gathered}$*  *
 
 > *Solve to find *$k$* (by dividing both sides by 3)*
 
-`table attributes columnalign right center left columnspacing 0px end attributes row cell 6 over 3 end cell equals k row 2 equals k end table`***  ***
+$\begin{array}{rcl} \frac{6}{3} & = k \\ 2 = k \end{array}$***  ***
 
 > *Substitute *$k=2$* into the original equation  *
 
@@ -232,7 +232,7 @@ $y=k\sqrt{x}$
 
 > *Use this equation to find *$y$* when *$x=25$* (by substituting in *$x=25$*) *
 
-`table row y equals cell 2 square root of 25 end cell row y equals cell 2 cross times 5 end cell end table`
+$\begin{gathered} y = 2 \sqrt{25} \\ y = 2 \times 5 \end{gathered}$
 
 **For seeing **$2\sqrt{25}$** [1]**
 
@@ -286,14 +286,14 @@ $4=\frac{k}{30}$
 
 > *Solve the equation to find *$k$
 
-`table row k equals cell 4 cross times 30 end cell row blank equals 120 end table`
+$\begin{gathered} k = 4 \times 30 \\ = 120 \end{gathered}$
 
 > *So the full equation of the variation model is*
 
 $t=\frac{120}{s}$**[1]**
 > *Substitute *$s=50$* into the model found in part (b) to find *$a$
 
-`table row t equals cell 120 over 50 end cell end table`
+$\begin{gathered} t = \frac{120}{50} \end{gathered}$
 
 $a=2.4$** ****[1]**
 > *For each data entry the distance can be calculated using the formula *
@@ -305,13 +305,13 @@ $\mathrm{distance}=\mathrm{speed}\times\mathrm{time}$
 **120 miles ****[1]**
 > *Substitute *$t=0.5$* into the model found in part (b) *
 
-`table row cell 0.5 end cell equals cell 120 over s end cell end table`
+$\begin{gathered} 0.5 & = \frac{120}{s} \end{gathered}$
 
 **[1]**
 
 > *Solve to find *$s$* *
 
-`table row s equals cell 120 cross times 0.5 end cell end table`
+$\begin{gathered} s = 120 \times 0.5 \end{gathered}$
 
 **240 miles per hour ****[1]**
 > *Any **one **of the following answers*
@@ -338,13 +338,13 @@ $y=\frac{1}{5}x^{2}$
 
 > *Substitute *$x=1$* in to find *$a$
 
-`table row y equals cell 1 fifth open parentheses 1 close parentheses squared end cell row blank equals cell 1 fifth end cell end table`
+$\begin{gathered} y = 1 \frac{1}{5} ( 1 )^{2} \\ = 1 \frac{1}{5} \end{gathered}$
 
 $a=\frac{1}{5}$**[1]**
 
 > *Substitute *$y=20$* in to find *$b$
 
-`table row 20 equals cell 1 fifth open parentheses b close parentheses squared end cell row 100 equals cell b squared end cell row b equals cell square root of 100 equals plus-or-minus 10 end cell end table`
+$\begin{gathered} 20 = 1 \frac{1}{5} ( b )^{2} \\ 100 = b^{2} \\ b = \sqrt{100} = \pm 10 \end{gathered}$
 
 > *We know that *$b$* represents the area of a shape, so it must be positive*
 
@@ -365,7 +365,7 @@ $5=\frac{k}{\sqrt{8+1}}$
 
 > *Rearrange to find the value of  *$k$
 
-`table row 5 equals cell fraction numerator k over denominator square root of 9 end fraction end cell row 5 equals cell k over 3 end cell row k equals 15 end table`
+$\begin{gathered} 5 = \frac{k}{ \sqrt{9} } \\ 5 = \frac{k}{3} \\ k = 15 \end{gathered}$
 
 > *Substitute this value of  *$k$* back into the formula*
 

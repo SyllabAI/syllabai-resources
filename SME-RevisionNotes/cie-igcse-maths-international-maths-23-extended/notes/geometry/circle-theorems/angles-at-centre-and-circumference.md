@@ -89,11 +89,11 @@ guided_study: true
 > 
 > > *Form an equation for *$x$
 > 
-> `2 open parentheses x space plus space 60 close parentheses space equals space 150`
+> $2 ( x + 60 ) = 150$
 > 
 > > *Expand the brackets and solve the equation*
 > 
-> `table attributes columnalign right center left columnspacing 0px end attributes row cell 2 x space plus space 120 space end cell equals cell space 150 end cell row cell 2 x space end cell equals cell space 30 end cell row cell x space end cell equals cell space 15 end cell end table`
+> $\begin{array}{rcl} 2 x + 120 & = 150 \\ 2 x & = 30 \\ x & = 15 \end{array}$
 > 
 > $x=15$
 > 

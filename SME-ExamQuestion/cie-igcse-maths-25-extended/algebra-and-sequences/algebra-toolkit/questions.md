@@ -130,7 +130,7 @@ $y$ = ..............................................
 
 $x=0.7$
 
-Work out the value of  `fraction numerator open parentheses x plus 1 close parentheses squared over denominator 2 x end fraction`
+Work out the value of  $\frac{( x + 1 )^{2}}{2 x}$
 
 Write down all the figures on your calculator display.
 

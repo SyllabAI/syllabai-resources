@@ -98,7 +98,7 @@ guided_study: false
 > 
 > **Step 1**: Find the number of moles of carbon dioxide released using the volume produced at room temperature and pressure:
 > 
-> - number of moles of CO<sub>2</sub> = `fraction numerator volume space of space gas space open parentheses dm cubed close parentheses over denominator molar space gas space volume space open parentheses dm cubed close parentheses end fraction`
+> - number of moles of CO<sub>2</sub> = $\frac{ \text{volume} of \text{gas} ( dm ^{3} ) }{ \text{molar} \text{gas} \text{volume} ( dm ^{3} ) }$
 > 
 >   - n(CO<sub>2</sub>) = $\frac{0.226}{24}$ = **0.009417 mol**
 > 

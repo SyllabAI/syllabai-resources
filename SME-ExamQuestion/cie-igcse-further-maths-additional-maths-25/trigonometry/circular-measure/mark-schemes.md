@@ -10,7 +10,7 @@
 
 > *Find an expression for the total perimeter and set it equal to 4*
 
-`table row cell r plus r theta plus r end cell equals 4 row cell 2 r plus r theta end cell equals cell 4 space space space space space space space space space space circle enclose 1 end cell end table`
+$\begin{gathered} r + r \\theta + r & = 4 \\ 2 r + r \\theta & = 4 \textcircled{1} \end{gathered}$
 
 **[B1]**
 
@@ -21,23 +21,23 @@
 
 > *Find an expression for the area *$A$
 
-`A equals 1 half r squared theta table row blank blank space end table table row blank blank space end table table row blank blank space end table table row blank blank space end table table row blank blank space end table table row blank blank space end table table row blank blank space end table table row blank blank space end table table row blank blank space end table table row blank blank space end table table row blank blank cell circle enclose 2 end cell end table`
+$A = 1 \frac{1}{2} r^{2} \\theta \begin{gathered} \end{gathered} \begin{gathered} \end{gathered} \begin{gathered} \end{gathered} \begin{gathered} \end{gathered} \begin{gathered} \end{gathered} \begin{gathered} \end{gathered} \begin{gathered} \end{gathered} \begin{gathered} \end{gathered} \begin{gathered} \end{gathered} \begin{gathered} \end{gathered} \begin{gathered} \textcircled{2} \end{gathered}$
 
 > *Eliminate *$r$*, e.g. make *$r$* the subject of equation 1 by first factorising it out*
 
-`table row cell r open parentheses 2 plus theta close parentheses end cell equals 4 row r equals cell fraction numerator 4 over denominator 2 plus theta end fraction end cell end table`
+$\begin{gathered} r ( 2 + \\theta ) & = 4 \\ r = \frac{4}{2 + \\theta } \end{gathered}$
 
 **[M1]**
 
 > *Then substitute this into equation 2*
 
-`A equals 1 half open parentheses fraction numerator 4 over denominator 2 plus theta end fraction close parentheses squared cross times theta`
+$A = 1 \frac{1}{2} ( \frac{4}{2 + \\theta } )^{2} \times \\theta$
 
 > *Simplify*
 
-`A equals 1 half cross times 16 over open parentheses 2 plus theta close parentheses squared cross times theta`
+$A = 1 \frac{1}{2} \times \frac{16}{( 2 + \\theta )^{2}} \times \\theta$
 
-`A equals fraction numerator 8 theta over denominator open parentheses 2 plus theta close parentheses squared end fraction`
+$A = \frac{8 \\theta }{( 2 + \\theta )^{2}}$
 
 **[A1]**
 
@@ -57,25 +57,25 @@ $\mathrm{Angle}BOC=1.5\mathrm{radians}$
 
 > *  *
 
-`sin space open parentheses 0.75 close parentheses equals fraction numerator bevelled fraction numerator B C over denominator 2 end fraction over denominator r end fraction`
+$\sin ( 0.75 ) = \frac{bevelled \frac{B C}{2}}{r}$
 
 **[1]**
 
 > *Rearrange to make *$BC$* the subject.*
 
-`B C equals 2 r space cross times space sin space open parentheses 0.75 close parentheses`
+$B C = 2 r \times \sin ( 0.75 )$
 
 **[1]**
 
 > *Add together the lengths around the perimeter of the shaded area.*
 
-`2 r space plus space 4 r space plus space 1.5 r space plus space open parentheses 2 r space sin space open parentheses 0.75 close parentheses close parentheses`
+$2 r + 4 r + 1.5 r + ( 2 r \sin ( 0.75 ) )$
 
 **[1]**
 
 > *Simplify.*
 
-`7.5 r plus 2 r space sin space open parentheses 0.75 close parentheses`
+$7.5 r + 2 r \sin ( 0.75 )$
 
 > *Factorise by pulling out a factor of *$r$*.*
 
@@ -84,33 +84,33 @@ $(7.5+2\mathrm{sin}0.75)r$* ***[1]**
 
 > *  *
 
-`Area space open parentheses rectangle close parentheses equals open parentheses r plus 2 r space sin space 0.75 plus r close parentheses cross times r`
+$Area ( \text{rectangle} ) = ( r + 2 r \text{sin} 0.75 + r ) \times r$
 
 > *Simplify.*
 
-`equals open parentheses 2 r plus 2 r space sin space 0.75 close parentheses r`
+$= ( 2 r + 2 r \sin 0.75 ) r$
 
 **[1]**
 
 > *Write in terms of *$r^{2}$
 
-`equals 2 r squared plus 2 r squared open parentheses sin space 0.75 close parentheses
-equals r squared open parentheses 2 plus 2 space sin space 0.75 close parentheses
-equals 3.36 r squared`
+$= 2 r^{2} + 2 r^{2} ( \sin 0.75 )
+= r^{2} ( 2 + 2 \sin 0.75 )
+= 3.36 r^{2}$
 
 > *Find the area of the segment by subtracting the area of triangle **BOC **from the area of the sector.*
 
 > *  *
 
-`table row cell Area space open parentheses sector close parentheses end cell equals cell 1 half r squared theta end cell row blank equals cell 1 half r squared open parentheses 1.5 close parentheses end cell end table`
+$\begin{gathered} \text{Area} ( \text{sector} ) & = 1 \frac{1}{2} r^{2} \\theta \\ = 1 \frac{1}{2} r^{2} ( 1.5 ) \end{gathered}$
 
-`table row cell Area space open parentheses triangle close parentheses end cell equals cell 1 half a b space sin space C end cell row blank equals cell 1 half r squared open parentheses sin space 1.5 close parentheses end cell end table`
+$\begin{gathered} \text{Area} ( \Delta ) & = 1 \frac{1}{2} a b \sin C \\ = 1 \frac{1}{2} r^{2} ( \sin 1.5 ) \end{gathered}$
 
-`Area space open parentheses segment close parentheses equals 1 half r squared open parentheses 1.5 close parentheses minus 1 half r squared open parentheses sin space 1.5 close parentheses`
+$\text{Area} ( \text{segment} ) = 1 \frac{1}{2} r^{2} ( 1.5 ) - 1 \frac{1}{2} r^{2} ( \sin 1.5 )$
 
 > *Factorise by pulling out a factor of *$\frac{1}{2}r^{2}$* and simplify to write in terms of *$r^{2}$
 
-`table row cell Area space open parentheses segment close parentheses end cell equals cell 1 half r squared open parentheses 1.5 minus sin space 1.5 close parentheses end cell row blank equals cell 0.251 r squared end cell end table`
+$\begin{gathered} \text{Area} ( \text{segment} ) & = 1 \frac{1}{2} r^{2} ( 1.5 - \sin 1.5 ) \\ = 0.251 r^{2} \end{gathered}$
 
 **[1]**
 
@@ -118,7 +118,7 @@ equals 3.36 r squared`
 
 > *  *
 
-`table row cell Area space open parentheses shaded close parentheses end cell equals cell 3.36 r squared minus 0.251 r squared end cell end table`
+$\begin{gathered} \text{Area} ( \text{shaded} ) & = 3.36 r^{2} - 0.251 r^{2} \end{gathered}$
 
 **[1]**
 
@@ -139,11 +139,11 @@ $=17$
 
 > *We can find *$α$* using right-angle trigonometry. *$θ$* is in radians so remember to set your calculator to radians*
 
-`alpha equals tan to the power of negative 1 end exponent open parentheses 8 over 15 close parentheses equals 0.489957326...`
+$\\alpha = \tan ^{- 1} ( \frac{8}{15} ) = 0.489957326...$
 
 > *Now find *$θ$* by subtracting *$2α$* from *$π$
 
-`theta equals pi minus 2 open parentheses 0.489957326... close parentheses`
+$\\theta = \pi - 2 ( 0.489957326... )$
 
 **[1]**
 
@@ -153,17 +153,17 @@ $=2.16167800...$
 
 > *(It's worth saving this result in your calculator as it will be used more than once in this question)*
 
-> *Now find the length of the arc using arc length = *$θr$* (or *`fraction numerator theta over denominator 2 pi end fraction open parentheses 2 pi r close parentheses`* )*
+> *Now find the length of the arc using arc length = *$θr$* (or *$\frac{\\theta }{2 \pi } ( 2 \pi r )$* )*
 
 *arc length = *$2.16167800...\times17$
 
 > *And finally find the perimeter of *$ADOCBX$* by adding the 3 straight lengths to the arc length*
 
-`table row cell perimeter space end cell equals cell space 8 plus 8 plus 30 plus 2.16167800... cross times 17 end cell end table`
+$\begin{gathered} \text{perimeter} & = 8 + 8 + 30 + 2.16167800... \times 17 \end{gathered}$
 
 **[1]**
 
-`table row blank equals cell space 82.748560... end cell end table`
+$\begin{gathered} = 82.748560... \end{gathered}$
 
 **Final answer:** ** 82.7 cm (3 s.f.) ****[1]**
 > *We know from part (a) that *$θ=2.16167800...$
@@ -178,7 +178,7 @@ $\frac{1}{2}\times15\times8=60$
 
 > *Add together the area of the sector and the area of the two triangles*
 
-`table row cell Total space area end cell equals cell 1 half cross times 17 squared cross times 2.16167800... plus 60 plus 60 end cell row blank equals cell 432.362471... end cell end table`
+$\begin{gathered} \text{Total} \text{area} & = 1 \frac{1}{2} \times 17^{2} \times 2.16167800... + 60 + 60 \\ = 432.362471... \end{gathered}$
 
 ** ****[1]**
 
@@ -195,7 +195,7 @@ $\mathrm{tan}θ=\frac{4}{3}$
 
 > *Using the inverse tan function*
 
-`theta space equals space tan to the power of negative 1 end exponent open parentheses 4 over 3 close parentheses`
+$\\theta = \tan ^{- 1} ( \frac{4}{3} )$
 
 $θ=0.927$ **[1]**
 > *To find the perimeter, we need to use the formula for arc length, *$l=r\timesθ$*.*
@@ -204,7 +204,7 @@ $θ=0.927$ **[1]**
 
 $\mathrm{tan}θ=\frac{3}{4}$
 
-`theta space equals space tan to the power of negative 1 end exponent open parentheses 3 over 4 close parentheses space equals space 0.6435...`
+$\\theta = \tan ^{- 1} ( \frac{3}{4} ) = 0.6435...$
 
 **[1]**
 
@@ -239,11 +239,11 @@ $33.3\mathrm{cm}$* ***[1]**
 
 > *The area of the larger sector is *
 
-`A space equals 1 half space cross times space 4 squared space cross times space open parentheses 2 straight pi space minus space 2 space cross times space 0.644 close parentheses space equals space 39.96... cm squared`
+$A = 1 \frac{1}{2} \times 4^{2} \times ( 2 \mathrm{\pi } - 2 \times 0.644 ) = 39.96... cm^{2}$
 
 > *The area of the smaller sector is*
 
-`A space equals 1 half space cross times space 3 squared space cross times space open parentheses 2 straight pi space minus space 2 space cross times space 0.927 close parentheses space equals space 19.93... cm squared`
+$A = 1 \frac{1}{2} \times 3^{2} \times ( 2 \mathrm{\pi } - 2 \times 0.927 ) = 19.93... cm^{2}$
 
 **for either sector correct ****[1]**
 
@@ -266,14 +266,14 @@ $71.9\mathrm{cm}^{2}$* ***[1]**
 
 > *Therefore,*
 
-`table row cell 1.45 r end cell equals cell r cross times theta end cell row theta equals cell 1.45 end cell end table`
+$\begin{gathered} 1.45 r & = r \times \\theta \\ \\theta = 1.45 \end{gathered}$
 
 > *  *
 
 **Angle ****AOB**$=1.45$** ****radians*** ***[1]**
 > *Find the area of the sector.*
 
-`table row Area equals cell 1 half r squared theta end cell row blank blank blank row blank equals cell 1 half open parentheses r squared close parentheses open parentheses 1.45 close parentheses end cell end table`
+$\begin{gathered} \text{Area} = 1 \frac{1}{2} r^{2} \\theta \\ \\ = 1 \frac{1}{2} ( r^{2} ) ( 1.45 ) \end{gathered}$
 
 **[1]**
 
@@ -291,30 +291,30 @@ $\mathrm{Angle}COA=π-1.45$
 
 > *Therefore,*
 
-`Area space triangle space equals 1 half open parentheses r close parentheses open parentheses 0.5 r close parentheses open parentheses sin open parentheses pi minus 1.45 close parentheses close parentheses`
+$\text{Area} \Delta = 1 \frac{1}{2} ( r ) ( 0.5 r ) ( \sin ( \pi - 1.45 ) )$
 
 **[1]**
 
-`Area space triangle space equals open parentheses 0.25 close parentheses open parentheses sin open parentheses pi minus 1.45 close parentheses close parentheses r squared`
+$\text{Area} \Delta = ( 0.25 ) ( \sin ( \pi - 1.45 ) ) r^{2}$
 
 > *Add together the area of the sector and the area of the triangle.*
 
-`table row cell Total space area end cell equals cell 1 half open parentheses 1.45 close parentheses r squared plus open parentheses 0.25 close parentheses open parentheses sin open parentheses pi minus 1.45 close parentheses close parentheses r squared end cell row blank blank blank row blank equals cell 0.973178... r squared end cell end table`
+$\begin{gathered} \text{Total} \text{area} & = 1 \frac{1}{2} ( 1.45 ) r^{2} + ( 0.25 ) ( \sin ( \pi - 1.45 ) ) r^{2} \\ \\ = 0.973178... r^{2} \end{gathered}$
 
 $0.973r^{2}$* ***[1]**
 > *Find the length **AC **using the Cosine rule.*
 
-`A C squared equals open parentheses r close parentheses squared plus open parentheses 0.5 r close parentheses squared minus open parentheses 2 close parentheses open parentheses r close parentheses open parentheses 0.5 r close parentheses open parentheses cos open parentheses pi minus 1.45 close parentheses close parentheses`
+$A C^{2} = ( r )^{2} + ( 0.5 r )^{2} - ( 2 ) ( r ) ( 0.5 r ) ( \cos ( \pi - 1.45 ) )$
 
 **[1]**
 
-`A C squared equals r squared plus 0.25 r squared minus r squared open parentheses negative 0.1205 close parentheses
+$A C^{2} = r^{2} + 0.25 r^{2} - r^{2} ( - 0.1205 )
 
-A C squared equals 1.3705 r squared
+A C^{2} = 1.3705 r^{2}
 
-A C equals square root of 1.3705 r squared end root
+A C = \sqrt{1.3705 r^{2}} 
 
-A C equals 1.17 r`
+A C = 1.17 r$
 
 **[1]**
 
@@ -328,7 +328,7 @@ $0.5r+r+1.45r+1.17r=4.12r$
 
 > *  *
 
-`table row cell 4.12 r end cell equals 12 row r equals cell fraction numerator 12 over denominator 4.12 end fraction end cell end table`
+$\begin{gathered} 4.12 r & = 12 \\ r = \frac{12}{4.12} \end{gathered}$
 
 $r=2.91\mathrm{cm}$* ***[1]**
 
@@ -352,7 +352,7 @@ $\mathrm{Angle}AOB=1.696$
 $AOB=1.70\mathrm{to}2\mathrm{dp}$* ***[1]**
 > *Use the Cosine rule to work out the length **AC**.*
 
-`table row cell A C squared end cell equals cell 10 squared plus 25 squared minus stretchy left parenthesis 2 cross times 10 cross times 25 cross times cos space stretchy left parenthesis A O C stretchy right parenthesis stretchy right parenthesis end cell row blank equals cell 725 minus stretchy left parenthesis 500 cross times cos space stretchy left parenthesis 0.848 stretchy right parenthesis stretchy right parenthesis end cell end table`
+$\begin{gathered} A C^{2} & = 10^{2} + 25^{2} - ( 2 \times 10 \times 25 \times \cos ( A O C ) ) \\ = 725 - ( 500 \times \cos ( 0.848 ) ) \end{gathered}$
 
 **[1]**
 
@@ -366,13 +366,13 @@ $AC=19.857$
 
 $πd\times\frac{\mathrm{angle} \mathrm{of} \mathrm{sector}}{2π}$
 
-`20 pi cross times fraction numerator open parentheses 2 pi minus 1.7 close parentheses over denominator 2 pi end fraction space equals space 45.832`
+$20 \pi \times \frac{( 2 \pi - 1.7 )}{2 \pi } = 45.832$
 
 ** ****[1]**
 
 > *Add together the length of major arc **AB**, and *$2\times$*length **AC** (since **AC** = **BC**).  *
 
-`45.832 plus open parentheses 2 cross times 19.857 close parentheses space equals space 85.546`
+$45.832 + ( 2 \times 19.857 ) = 85.546$
 
 $=85.55\mathrm{to}2\mathrm{dp}$ **[1]**
 
@@ -381,7 +381,7 @@ $=85.55\mathrm{to}2\mathrm{dp}$ **[1]**
 
 $πr^{2}\times\frac{\mathrm{angle} \mathrm{of} \mathrm{sector}}{2π}$
 
-`pi cross times open parentheses 10 close parentheses squared cross times fraction numerator open parentheses 2 pi minus 1.7 close parentheses over denominator 2 pi end fraction`
+$\pi \times ( 10 )^{2} \times \frac{( 2 \pi - 1.7 )}{2 \pi }$
 
 **[1]**
 
@@ -463,7 +463,7 @@ $\mathrm{area} \mathrm{of} \mathrm{sector}AC_{1}B=3π$
 
 ![olevel-cie-june-20-paper-2-q11-pic3](assets/012-olevel-cie-june-20-paper-2-q11-pic3.png)
 
-`area space of space triangle equals 1 half cross times 3 cross times 3 cross times sin open parentheses fraction numerator 2 straight pi over denominator 3 end fraction close parentheses`
+`area of \Delta = 1 half x 3 x 3 x sin ( (2 pi)/(3) )`
 
 **[1]**
 
@@ -477,7 +477,7 @@ $3π-\frac{9\sqrt{3}}{4}$
 
 > *We need 2 of these so double your answer to get the total shaded area*
 
-`2 open parentheses 3 straight pi minus fraction numerator 9 square root of 3 over denominator 4 end fraction close parentheses`
+$2 ( 3 \mathrm{\pi } - \frac{9 \sqrt{3} }{4} )$
 
 $6π-\frac{9\sqrt{3}}{2}$ **[1]**
 
@@ -486,11 +486,11 @@ $6π-\frac{9\sqrt{3}}{2}$ **[1]**
 
 > *Substitute known values into the equation.*
 
-`35 equals 1 half open parentheses 10 close parentheses squared cross times theta`
+$35 = 1 \frac{1}{2} ( 10 )^{2} \times \\theta$
 
 > *Rearrange and solve for *$θ$*.*
 
-`table row 35 equals cell 50 cross times theta end cell row theta equals cell 35 over 50 end cell row theta equals cell 0.7 end cell end table`
+$\begin{gathered} 35 = 50 \times \\theta \\ \\theta = \frac{35}{50} \\ \\theta = 0.7 \end{gathered}$
 
 $0.7$** [1]**
 > *Find the arc length *$CD$*.*
@@ -501,13 +501,13 @@ $CD=rθ\,CD=10\times0.7\,CD=7cm$
 
 > *Work out length** *$\frac{AB}{2}$* **by using trigonometry.*
 
-`table row cell sin open parentheses 0.35 close parentheses end cell equals cell fraction numerator bevelled fraction numerator A B over denominator 2 end fraction over denominator 12 end fraction end cell row cell fraction numerator A B over denominator 2 end fraction end cell equals cell 4.11477 end cell end table`
+$\begin{gathered} \sin ( 0.35 ) & = \frac{bevelled \frac{A B}{2}}{12} \\ \frac{A B}{2} & = 4.11477 \end{gathered}$
 
 **[1]**
 
 > *Double to find *$AB$*.*
 
-`table row cell A B end cell equals cell 8.229547 c m end cell end table`
+$\begin{gathered} A B & = 8.229547 c m \end{gathered}$
 
 > *  *
 
@@ -524,8 +524,8 @@ $19.2\mathrm{cm}$**[1]**
 
 > *Find the area of the triangle **AOB.*
 
-`Area space equals 1 half a b space sin space C
-Area space equals fraction numerator space 1 over denominator 2 end fraction open parentheses 12 close parentheses squared space cross times sin space open parentheses 0.7 close parentheses`
+$\text{Area} = 1 \frac{1}{2} a b \sin C
+\text{Area} = \frac{ 1}{2} ( 12 )^{2} \times \sin ( 0.7 )$
 
 **[1]**
 
@@ -559,7 +559,7 @@ $A=\frac{1}{2}\times12^{2}\times0.8=57.6\mathrm{cm}^{2}$
 
 > *Calculating the length of the base of the right-angled triangle OAM, using the fact that the length of the radius would also be the length of the perpendicular height, and the angle is half of 0.8,*
 
-`tan open parentheses 0.4 close parentheses space equals space fraction numerator A M over denominator 12 end fraction`
+$\tan ( 0.4 ) = \frac{A M}{12}$
 
 $AM=5.074$
 
@@ -569,7 +569,7 @@ $AM=5.074$
 
 > *Calculating the area of triangle OAB*
 
-`1 half open parentheses 10.148 close parentheses space cross times space 12 space equals space 60.88`
+$1 \frac{1}{2} ( 10.148 ) \times 12 = 60.88$
 
 **[1]**
 
@@ -580,7 +580,7 @@ $60.88-57.6$
 $3.28\mathrm{cm}^{2}$ **[1]**
 > *Calculating the length of OA*
 
-`cos open parentheses 0.4 close parentheses space equals space fraction numerator 12 over denominator O A end fraction`
+$\cos ( 0.4 ) = \frac{12}{O A}$
 
 **[1]**
 
@@ -613,19 +613,19 @@ $\mathrm{arc} \mathrm{length}=\frac{7π}{4}$
 
 > *Use the sin ratio to find length *$x$
 
-`sin open parentheses straight pi over 8 close parentheses equals x over 7`
+`sin ( pi / 8 ) = x / 7`
 
-`x equals 7 sin open parentheses straight pi over 8 close parentheses`
+`x = 7 sin ( pi / 8 )`
 
 > *The length of the chord is double this so multiply by 2*
 
-`chord space length equals 14 sin open parentheses straight pi over 8 close parentheses`
+`chord length = 14 sin ( pi / 8 )`
 
 **[1]**
 
 > *The perimeter of the shaded region is the arc length added to the chord length*
 
-`perimeter space of space shaded space region equals 14 sin open parentheses straight pi over 8 close parentheses plus fraction numerator 7 straight pi over denominator 4 end fraction`
+`perimeter of shaded region = 14 sin ( pi / 8 ) + (7 pi)/(4)`
 
 ** ****[1]**
 
@@ -636,7 +636,7 @@ $\mathrm{arc} \mathrm{length}=\frac{7π}{4}$
 
 > *Calculate the length of the arc*
 
-`arc space length equals 2 open parentheses 6 plus 5 straight pi close parentheses minus open parentheses 2 cross times 6 close parentheses`
+$\text{arc} \text{length} = 2 ( 6 + 5 \mathrm{\pi } ) - ( 2 \times 6 )$
 
 $\mathrm{arc} \mathrm{length}=12+10π-12$
 

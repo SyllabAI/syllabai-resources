@@ -6,17 +6,17 @@
 ## Q1 — easy — 4 marks · exam-questions
 
 ### 1() — 2 marks — structured
-The equation of a line is given in vector form as follows `bold r equals 2 bold i plus 6 bold j plus t open parentheses 7 bold i plus 3 bold j close parentheses. space`
+The equation of a line is given in vector form as follows $r = 2 i + 6 j + t ( 7 i + 3 j ).$
 
-Explain briefly what the vectors  `open parentheses space 2 bold i plus 6 bold j space space close parentheses`and  `open parentheses 7 bold i plus 3 bold j close parentheses`**  **in the equation above tell us, respectively, about the line.
+Explain briefly what the vectors  $( 2 i + 6 j )$and  $( 7 i + 3 j )$**  **in the equation above tell us, respectively, about the line.
 
 ### 2() — 2 marks — structured
-Write down, in vector form, the equation of the line passing through `space open parentheses 1 comma space 4 close parentheses` in the same direction as $(i\mathrm{+3}j).$
+Write down, in vector form, the equation of the line passing through $( 1 , 4 )$ in the same direction as $(i\mathrm{+3}j).$
 
 ## Q2 — easy — 4 marks · exam-questions
 
 ### 1() — 4 marks — structured
-A line passes through the two points  `A open parentheses 3 comma space minus 2 close parentheses`  and `space B open parentheses 5 comma space 7 close parentheses`.
+A line passes through the two points  $A ( 3 , - 2 )$  and $B ( 5 , 7 )$.
 
 (i) Write down the position vectors  $\overset{\rightarrow}{OA}$and $\overset{\rightarrow}{OB}$ of the two points.
 
@@ -27,26 +27,26 @@ A line passes through the two points  `A open parentheses 3 comma space minus 2 
 ## Q3 — easy — 5 marks · exam-questions
 
 ### 1() — 2 marks — structured
-Write down in vector form the equation of the line through the point  `open parentheses 1 comma space 3 comma space minus 6 close parentheses`  in the direction  $4i-j+2k$.
+Write down in vector form the equation of the line through the point  $( 1 , 3 , - 6 )$  in the direction  $4i-j+2k$.
 
 ### 2() — 3 marks — structured
-By first calculating the vectors  $\overset{\rightarrow}{OA},\overset{\rightarrow}{OB}$  and  $\overset{\rightarrow}{AB}$,  find a vector equation of the line passing through the two points  `A open parentheses 1 comma space 3 comma space 1 space close parentheses` and `space B open parentheses 3 comma space 4 comma space minus 3 close parentheses`
+By first calculating the vectors  $\overset{\rightarrow}{OA},\overset{\rightarrow}{OB}$  and  $\overset{\rightarrow}{AB}$,  find a vector equation of the line passing through the two points  $A ( 1 , 3 , 1 )$ and $B ( 3 , 4 , - 3 )$
 
 ## Q4 — easy — 4 marks · exam-questions
 
 ### 1() — 4 marks — structured
-$A$ and $B$ are the points on the line `bold space bold r equals open parentheses table row 2 row cell negative 1 end cell row 3 end table close parentheses space plus t open parentheses table row 0 row 4 row cell negative 3 end cell end table close parentheses`with $t=1$ and $t=3$ respectively.
+$A$ and $B$ are the points on the line $r = ( \begin{gathered} 2 \\ - 1 \\ 3 \end{gathered} ) + t ( \begin{gathered} 0 \\ 4 \\ - 3 \end{gathered} )$with $t=1$ and $t=3$ respectively.
 
 (i) Find the position vectors $\overset{\rightarrow}{OA}$and $\overset{\rightarrow}{OB}$.
 
-(ii) By first finding the vector  $\overset{\rightarrow}{AB}$,  calculate the modulus  `open vertical bar stack A B with rightwards arrow on top close vertical bar`.
+(ii) By first finding the vector  $\overset{\rightarrow}{AB}$,  calculate the modulus  $\left| \vec{AB} \right|$.
 
 ## Q5 — easy — 6 marks · exam-questions
 
 ### 1() — 3 marks — structured
-The coordinates of three points are  `A open parentheses 2 comma space minus 1 comma space 3 close parentheses`,  `space B open parentheses 1 comma space minus 2 comma space 5 space space close parentheses`and  `C open parentheses 6 comma space 3 comma space 1 close parentheses`.
+The coordinates of three points are  $A ( 2 , - 1 , 3 )$,  $B ( 1 , - 2 , 5 )$and  $C ( 6 , 3 , 1 )$.
 
-Find  $\overset{\rightarrow}{AB}$  and  $\overset{\rightarrow}{AC}$, and calculate  `open vertical bar stack A B with rightwards arrow on top close vertical bar`  and  `open vertical bar stack A C with rightwards arrow on top close vertical bar` .
+Find  $\overset{\rightarrow}{AB}$  and  $\overset{\rightarrow}{AC}$, and calculate  $\left| \vec{AB} \right|$  and  $\left| \vec{AC} \right|$ .
 
 ### 2() — 1 mark — structured
 For two vectors $a=a_{1}i+a_{2}j+a_{3}k$  and $b=b_{1}i+b_{2}j+b_{3}k$,  the *scalar product*  $a.b$  can be calculated using the formula
@@ -58,7 +58,7 @@ Calculate the scalar product  $\overset{\rightarrow}{AB.}\overset{\rightarrow}{A
 ### 3() — 2 marks — structured
 A defining property of the scalar product of two vectors  $a$  and  $b$  is
 
-`bold a bold. bold b equals stretchy vertical line a stretchy vertical line stretchy vertical line b stretchy vertical line cos space theta`
+$a . b = \text{stretchy} \mid a \text{stretchy} \mid \text{stretchy} \mid b \text{stretchy} \mid \text{cos} \theta$
 
 where $θ$ is the angle between the two vectors.
 
@@ -73,7 +73,7 @@ For two vectors  $a$  and $b$**,**  the definition of the *scalar product * $a.b
 
 `equation`
 
-Write down  `cos space open parentheses 90 degree close parentheses` ,  and explain why this value of cosine shows that if  $a$  and  $b$  are perpendicular then  $a.b=0.$
+Write down  $\cos ( 90^{\circ} )$ ,  and explain why this value of cosine shows that if  $a$  and  $b$  are perpendicular then  $a.b=0.$
 
 ### 2() — 2 marks — structured
 For  $a=a_{1}i+a_{2}j+a_{3}k$  and $b=b_{1}i+b_{2}j+b_{3}k$,  the scalar product can be calculated using the formula
@@ -87,11 +87,11 @@ Use the above results to prove that the vectors $\overset{\rightarrow}{AB}=-3i+j
 ## Q7 — easy — 6 marks · exam-questions
 
 ### 1() — 2 marks — structured
-Two lines $l$ and $m$ have equations `space bold r equals bold i plus bold j plus 3 bold k plus s open parentheses bold i minus bold j plus bold k space space close parentheses` and `bold r equals bold i minus 2 bold j plus 2 bold k plus t open parentheses bold 2 bold i plus bold j plus 3 bold k close parentheses`  respectively.  The two lines intersect at a point $P$.
+Two lines $l$ and $m$ have equations $r = i + j + 3 k + s ( i - j + k )$ and $r = i - 2 j + 2 k + t ( 2 i + j + 3 k )$  respectively.  The two lines intersect at a point $P$.
 
 Explain why, at point $P$, the values of the parameters $s$ and $t$ must satisfy the vector equation
 
-`open parentheses table row cell 1 plus s end cell row cell 1 minus s end cell row cell 3 plus s end cell end table close parentheses equals open parentheses table row cell 1 plus 2 t end cell row cell negative 2 plus t end cell row cell 2 plus 3 t end cell end table close parentheses`
+$( \begin{gathered} 1 + s \\ 1 - s \\ 3 + s \end{gathered} ) = ( \begin{gathered} 1 + 2 t \\ - 2 + t \\ 2 + 3 t \end{gathered} )$
 
 ### 2() — 3 marks — structured
 Solve the simultaneous equations $1+s=1+2t$and  $1-s=-2+t,$and show that the values found for $s$ and $t$also satisfy the equation  $3+s=2+3t.$
@@ -102,11 +102,11 @@ Hence, find the coordinates of the point $P$.
 ## Q8 — easy — 6 marks · exam-questions
 
 ### 1() — 2 marks — structured
-Two lines $l$ and $m$ have equations `bold space bold r equals 6 bold i minus 2 bold j plus bold k plus s open parentheses bold i plus bold j minus bold k close parentheses`  and `space bold space bold r equals 3 bold i plus 3 bold j minus 2 bold k plus straight t open parentheses bold 3 bold i minus bold j plus bold k space close parentheses` respectively.
+Two lines $l$ and $m$ have equations $r = 6 i - 2 j + k + s ( i + j - k )$  and $r = 3 i + 3 j - 2 k + \mathrm{t} ( 3 i - j + k )$ respectively.
 
 Show that if the two lines intersect, then at the point of intersection the parameters $s$ and $t$ must satisfy the vector equation
 
-`open parentheses table row cell 6 plus s end cell row cell negative 2 plus s end cell row cell 1 minus s end cell end table close parentheses space equals space open parentheses table row cell 3 plus 3 t end cell row cell 3 minus t space end cell row cell negative 2 plus t end cell end table close parentheses`
+$( \begin{gathered} 6 + s \\ - 2 + s \\ 1 - s \end{gathered} ) = ( \begin{gathered} 3 + 3 t \\ 3 - t \\ - 2 + t \end{gathered} )$
 
 ### 2() — 3 marks — structured
 Solve the simultaneous equations  $6+s=3+3t$ and  $-2+s=3-t,$  and show that the values found for $s$ and $t$do **not** also satisfy the equation $1-s=-2+t.$
@@ -117,28 +117,26 @@ What do the results of part (b) tell you about the lines $l$ and $m$?
 ## Q9 — easy — 9 marks · exam-questions
 
 ### 1() — 2 marks — structured
-The line $l$ has equation  `space bold r equals open parentheses table row 2 row cell negative 3 end cell row 4 end table close parentheses plus s space open parentheses table row 1 row 2 row cell negative 1 end cell end table close parentheses
-`.
+The line $l$ has equation  $r = ( \begin{gathered} 2 \\ - 3 \\ 4 \end{gathered} ) + s ( \begin{gathered} 1 \\ 2 \\ - 1 \end{gathered} )$.
 
-Point $N$ is the point on line $l$ such that the line connecting $N$ and the point  `P open parentheses 1 comma space 7 comma space 5 close parentheses` is perpendicular to $l$.
+Point $N$ is the point on line $l$ such that the line connecting $N$ and the point  $P ( 1 , 7 , 5 )$ is perpendicular to $l$.
 
-Explain why  `stack O N with rightwards arrow on top equals open parentheses 2 plus s space
-minus 3 plus 2 s space
-4 minus s space space close parentheses
-` for some value of the parameter  $s,$  and use that expression for $\overset{\rightarrow}{ON}$  to show that the vector  $\overset{\rightarrow}{NP}$  is given in terms of  $s$  by
+Explain why  $\vec{ON} = ( 2 + s 
+- 3 + 2 s 
+4 - s )$ for some value of the parameter  $s,$  and use that expression for $\overset{\rightarrow}{ON}$  to show that the vector  $\overset{\rightarrow}{NP}$  is given in terms of  $s$  by
 
-`stack N P with rightwards arrow on top equals open parentheses negative 1 minus s space
-10 minus 2 s space
-1 plus s close parentheses`
+$\vec{NP} = ( - 1 - s 
+10 - 2 s 
+1 + s )$
 
 ### 2() — 2 marks — structured
 Using the properties of the scalar product, explain why the value of  $s$  corresponding to point  $N$  must satisfy the equation
 
-`open parentheses negative 1 minus s space
-10 minus 2 s space
-1 plus s close parentheses. open parentheses space 1 space
-2 space
-minus 1 space close parentheses equals 0`
+$( - 1 - s 
+10 - 2 s 
+1 + s ). ( 1 
+2 
+- 1 ) = 0$
 
 ### 3() — 3 marks — structured
 By solving the equation in part (b), determine the coordinates of point  $N$.
@@ -161,7 +159,7 @@ The line passing through $(2,5)$ in the same direction as $2i+j$.
 ### 1() — 5 marks — structured
 Find the equation of each of these lines in vector form.
 
-(i) Through $(3,1,-2)$ in the direction `open parentheses table row 0 row 1 row 5 end table close parentheses`
+(i) Through $(3,1,-2)$ in the direction $( \begin{gathered} 0 \\ 1 \\ 5 \end{gathered} )$
 
 (ii) Through $(2,0,7)$ and $(5,2,-3)$.
 
@@ -171,11 +169,11 @@ Show that the point $(-4,-4,27)$ lies on the line found in part (a) (ii).
 ## Q12 — medium — 4 marks · exam-questions
 
 ### 1() — 4 marks — structured
-$A$ and $B$ are the points on the line `bold italic r equals open parentheses table row 3 row cell negative 2 end cell row 5 end table close parentheses plus t open parentheses table row 1 row 3 row cell negative 1 end cell end table close parentheses`   with $t=4$ and $t=7$ respectively.
+$A$ and $B$ are the points on the line $r = ( \begin{gathered} 3 \\ - 2 \\ 5 \end{gathered} ) + t ( \begin{gathered} 1 \\ 3 \\ - 1 \end{gathered} )$   with $t=4$ and $t=7$ respectively.
 
 (i) Find the position vectors $\overset{\rightarrow}{OA}$ and $\overset{\rightarrow}{OB}$.
 
-(ii) Find `open vertical bar stack A B with rightwards arrow on top close vertical bar`.
+(ii) Find $\left| \vec{AB} \right|$.
 
 ## Q13 — medium — 7 marks · exam-questions
 
@@ -185,7 +183,7 @@ The coordinates of three points are $A(1,0,-4),B(3,-1,6)$and  $C(-2,5,7)$.
 Find $\overset{\rightarrow}{AB}$ and  $\overset{\rightarrow}{AC}$.
 
 ### 2() — 3 marks — structured
-Calculate `open vertical bar stack A B with rightwards arrow on top close vertical bar` and  `open vertical bar stack A C with rightwards arrow on top close vertical bar`,  and the scalar product  $\overset{\rightarrow}{AB}\cdot\overset{\rightarrow}{AC}$.
+Calculate $\left| \vec{AB} \right|$ and  $\left| \vec{AC} \right|$,  and the scalar product  $\overset{\rightarrow}{AB}\cdot\overset{\rightarrow}{AC}$.
 
 ### 3() — 2 marks — structured
 Hence, find the angle between the vectors $\overset{\rightarrow}{AB}$ and $\overset{\rightarrow}{AC}$.
@@ -220,7 +218,7 @@ Two lines $l$ and $m$ have equations $r=8i-5j-6k+s(-i+2j+k)$ and $r=2i+2j-2k+t(2
 ## Q17 — medium — 6 marks · exam-questions
 
 ### 1() — 4 marks — structured
-The line $l$ has equation `r equals open parentheses table row 1 row cell negative 4 end cell row 10 end table close parentheses plus s open parentheses table row 1 row cell negative 1 end cell row 3 end table close parentheses.`
+The line $l$ has equation $r = ( \begin{gathered} 1 \\ - 4 \\ 10 \end{gathered} ) + s ( \begin{gathered} 1 \\ - 1 \\ 3 \end{gathered} ).$
 
 Point $N$ is the point on line $l$ such that the line connecting $N$ and the point $P(3,4,1)$ is perpendicular to $l$.
 
@@ -272,7 +270,7 @@ Show that the point $(10,-6,5)$ does **not** lie on the line found in part (a) (
 ## Q21 — hard — 5 marks · exam-questions
 
 ### 1() — 5 marks — structured
-$A$ and $B$ are the points on the line `r equals open parentheses table row 1 row cell negative 4 end cell row 3 end table close parentheses plus t open parentheses table row 2 row a row cell negative 1 end cell end table close parentheses` with $t=-1$ and $t=2$ respectively.  Given that the distance from $A$ to $B$ is 9 units, find the possible values of $a$.
+$A$ and $B$ are the points on the line $r = ( \begin{gathered} 1 \\ - 4 \\ 3 \end{gathered} ) + t ( \begin{gathered} 2 \\ a \\ - 1 \end{gathered} )$ with $t=-1$ and $t=2$ respectively.  Given that the distance from $A$ to $B$ is 9 units, find the possible values of $a$.
 
 ## Q22 — hard — 5 marks · exam-questions
 
@@ -282,14 +280,14 @@ The coordinates of three points are $A(2,-1,5),B(4,1,1)$ and  $C(-2,-5,9)$.
 Find $\overset{\rightarrow}{BA}$ and $\overset{\rightarrow}{BC}$.
 
 ### 2() — 3 marks — structured
-By considering the scalar product `stack B A with rightwards arrow on top times stack B C with rightwards arrow on top`, or otherwise, calculate the angle between $\overset{\rightarrow}{BA}$ and  $\overset{\rightarrow}{BC}$.  Give your answer in degrees, accurate to 1 decimal place.
+By considering the scalar product $\vec{BA} \times \vec{BC}$, or otherwise, calculate the angle between $\overset{\rightarrow}{BA}$ and  $\overset{\rightarrow}{BC}$.  Give your answer in degrees, accurate to 1 decimal place.
 
 ## Q23 — hard — 5 marks · exam-questions
 
 ### 1() — 5 marks — structured
 The vertices of triangle $ABC$ are the points with coordinates $A(5,-3,0),B(-2,0,-1)$ and  $C(1,2,1)$.
 
-(i) Calculate the scalar products `stack A B with rightwards arrow on top times stack A C with rightwards arrow on top comma space space space stack B A with rightwards arrow on top times stack B C with rightwards arrow on top` and  `stack C A with rightwards arrow on top times stack C B. with rightwards arrow on top`
+(i) Calculate the scalar products $\vec{AB} \times \vec{AC} , \vec{BA} \times \vec{BC}$ and  $\vec{CA} \times \vec{CB.}$
 
 (ii) What does the result of part (i) tell you about the triangle $ABC$?
 
@@ -327,44 +325,44 @@ Determine whether or not the prince will reach Cloud City successfully, using cl
 ## Q27 — very_hard — 6 marks · exam-questions
 
 ### 1() — 6 marks — structured
-Given that the coordinates of $A$ and $B$ are  `open parentheses negative 1 comma space 7 close parentheses`  and  `open parentheses space minus 7 comma space minus 5 space close parentheses`respectively, find the equation of each of the following lines in vector form.
+Given that the coordinates of $A$ and $B$ are  $( - 1 , 7 )$  and  $( - 7 , - 5 )$respectively, find the equation of each of the following lines in vector form.
 
-(i) The line joining  `open parentheses 5 comma space minus 6 space close parentheses` to the midpoint of  $AB$.
+(i) The line joining  $( 5 , - 6 )$ to the midpoint of  $AB$.
 
 (ii) The line passing through $B$, parallel to the line in part (i).
 
 ## Q28 — very_hard — 8 marks · exam-questions
 
 ### 1() — 5 marks — structured
-Given that the coordinates of $A,B$ and $C$are  `open parentheses 6 comma space 1 comma space minus 3 close parentheses comma space space open parentheses negative 2 comma space minus 7 comma space 5 space close parentheses` and  `open parentheses 3 comma space 12 comma space minus 9 close parentheses` respectively, find the equation of each of the following lines in vector form.
+Given that the coordinates of $A,B$ and $C$are  $( 6 , 1 , - 3 ) , ( - 2 , - 7 , 5 )$ and  $( 3 , 12 , - 9 )$ respectively, find the equation of each of the following lines in vector form.
 
 (i) The line through $A$ and $B$.
 
 (ii) The line through $B$, parallel to  $\overset{\rightarrow}{OC}$.
 
 ### 2() — 3 marks — structured
-Determine whether the point  `open parentheses space 1 comma space 5 comma space minus 4 space space close parentheses` lies on either of the lines found in part (a).
+Determine whether the point  $( 1 , 5 , - 4 )$ lies on either of the lines found in part (a).
 
 ## Q29 — very_hard — 6 marks · exam-questions
 
 ### 1() — 6 marks — structured
-The coordinates of three points are  `A open parentheses negative 2 comma space 3 comma space minus 5 close parentheses`,  `B open parentheses 2 comma space minus 5 comma space minus 9 close parentheses`  and  `C open parentheses negative 10 comma space minus 1 comma space minus 1 close parentheses`.
+The coordinates of three points are  $A ( - 2 , 3 , - 5 )$,  $B ( 2 , - 5 , - 9 )$  and  $C ( - 10 , - 1 , - 1 )$.
 
 The point $M$ is the midpoint of $AB$, and the point $N$ lies on $BC$.
 
-Given that `open vertical bar stack B N with rightwards arrow on top close vertical bar equals 3 open vertical bar stack N C with rightwards arrow on top close vertical bar`, find the equation of the line through points $M$ and $N$ in vector form.
+Given that $\left| \vec{BN} \right| = 3 \left| \vec{NC} \right|$, find the equation of the line through points $M$ and $N$ in vector form.
 
 ## Q30 — very_hard — 5 marks · exam-questions
 
 ### 1() — 5 marks — structured
-The coordinates of three points are  `A open parentheses negative 3 comma space 4 comma space 0 close parentheses comma space space B open parentheses 2 comma space minus 2 comma space minus 3 close parentheses space space and space space C open parentheses negative 1 comma space minus 1 comma space minus 4 close parentheses`.
+The coordinates of three points are  `A ( - 3 , 4 , 0 ) , B ( 2 , - 2 , - 3 ) and C ( - 1 , - 1 , - 4 )`.
 
 Calculate the angle between $\overset{\rightarrow}{CA}$ and $\overset{\rightarrow}{CB}$.  Give your answer in degrees, accurate to 1 decimal place.
 
 ## Q31 — very_hard — 4 marks · exam-questions
 
 ### 1() — 4 marks — structured
-The vertices of triangle $ABC$are the points with coordinates `space A open parentheses negative 2 comma space 5 comma space 4 close parentheses comma space space B open parentheses 3 comma space 1 comma space 0 close parentheses space space and space space C open parentheses negative 1 comma space minus 3 comma space minus 1 close parentheses.`
+The vertices of triangle $ABC$are the points with coordinates `A ( - 2 , 5 , 4 ) , B ( 3 , 1 , 0 ) and C ( - 1 , - 3 , - 1 ).`
 
 Use a vector method to prove that $ABC$ is a right-angled triangle.
 
@@ -373,16 +371,16 @@ Use a vector method to prove that $ABC$ is a right-angled triangle.
 ### 1() — 14 marks — structured
 Determine whether each of the following pairs of lines intersect, are parallel, or are skew.  For any lines that intersect, determine the point(s) of intersection.
 
-(i) `bold r equals 3 bold i minus 5 bold j plus bold k plus straight s open parentheses bold i plus 3 bold j minus 2 bold k space close parentheses` and  `italic r equals italic i plus 2 italic j plus 2 italic k and t open parentheses italic i minus sign italic j minus sign italic k close parentheses.`
+(i) $r = 3 i - 5 j + k + \mathrm{s} ( i + 3 j - 2 k )$ and  `r = i + 2 j + 2 k and t ( i - j - k ).`
 
-(ii) `bold r equals bold i minus 2 bold j plus 3 bold k plus straight s open parentheses bold 2 bold i plus 6 bold j minus 2 bold k space close parentheses` and  `bold r equals 4 bold i bold space plus 7 bold j plus straight t open parentheses negative bold 5 bold i bold space minus 15 bold j plus 5 bold k space close parentheses`
+(ii) $r = i - 2 j + 3 k + \mathrm{s} ( 2 i + 6 j - 2 k )$ and  $r = 4 i + 7 j + \mathrm{t} ( - 5 i - 15 j + 5 k )$
 
-(iii) `bold r equals negative bold i minus 4 bold j minus 4 bold k plus straight s open parentheses bold 2 bold i minus 2 bold j minus 4 bold k space close parentheses`and  `bold r equals negative 4 bold i bold space minus bold j minus 2 bold k space plus straight t open parentheses 3 bold i bold space minus 3 bold j plus 6 bold k space close parentheses`
+(iii) $r = - i - 4 j - 4 k + \mathrm{s} ( 2 i - 2 j - 4 k )$and  $r = - 4 i - j - 2 k + \mathrm{t} ( 3 i - 3 j + 6 k )$
 
 ## Q33 — very_hard — 6 marks · exam-questions
 
 ### 1() — 6 marks — structured
-Find the coordinates of the point on the line `bold r equals 2 bold i minus 12 bold j plus 3 bold k plus s open parentheses bold i minus 6 bold j plus 4 bold k close parentheses space`** **that is closest to the point  `P open parentheses 2 comma space 3 comma space minus 1 close parentheses comma`  and hence determine the minimum distance from point $P$ to the line.
+Find the coordinates of the point on the line $r = 2 i - 12 j + 3 k + s ( i - 6 j + 4 k )$** **that is closest to the point  $P ( 2 , 3 , - 1 ) ,$  and hence determine the minimum distance from point $P$ to the line.
 
 ## Q34 — very_hard — 11 marks · exam-questions
 

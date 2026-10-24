@@ -27,11 +27,11 @@ $12e^{9}f^{2}$
 ### 1((b)) — 2 marks
 > *Raise each part of the bracketed expression to the power *$\frac{2}{3}$
 
-`open parentheses 27 close parentheses to the power of 2 over 3 end exponent cross times open parentheses a to the power of 12 close parentheses to the power of 2 over 3 end exponent`
+$( 27 ) ^{\frac{2}{3}} \times ( a^{12} ) ^{\frac{2}{3}}$
 
 > *Use laws of indices to simplify each part of the expression*
 
-`table row cell open parentheses 27 close parentheses to the power of 2 over 3 end exponent cross times open parentheses a to the power of 12 close parentheses to the power of 2 over 3 end exponent end cell equals cell space open parentheses cube root of 27 close parentheses squared cross times a to the power of 8 end cell row blank equals cell 3 squared cross times a to the power of 8 end cell row blank equals cell 9 cross times a to the power of 8 end cell row blank equals cell 9 a to the power of 8 end cell end table`
+`| ( 27 ) ^ 2 / 3 x ( a ^ 12 ) ^ 2 / 3 | = ( cbrt( 27 ) ^2 x a ^ 8 | | _ = 3 ^2 x a ^ 8 | | _ = 9 x a ^ 8 | | _ = 9 a ^ 8 | |`
 
 $9a^{8}$
 
@@ -51,33 +51,33 @@ $\frac{2}{1}-\frac{x+2}{x-3}-\frac{x-6}{x+3}$
 
 *Find the lowest common denominator of 1, (**x** - 3) and (**x** + 3) by multiplying them together* * *
 
-*lowest common denominator is *`open parentheses x minus 3 close parentheses open parentheses x plus 3 close parentheses`
+*lowest common denominator is *$( x - 3 ) ( x + 3 )$
 
 **[1]**
 
 *Multiply top-and-bottom of each fraction by the brackets needed to form this denominator* * *
 
-`fraction numerator 2 open parentheses x minus 3 close parentheses open parentheses x plus 3 close parentheses over denominator open parentheses x minus 3 close parentheses open parentheses x plus 3 close parentheses end fraction minus fraction numerator open parentheses x plus 2 close parentheses open parentheses x plus 3 close parentheses over denominator open parentheses x minus 3 close parentheses open parentheses x plus 3 close parentheses end fraction minus fraction numerator open parentheses x minus 3 close parentheses open parentheses x minus 6 close parentheses over denominator open parentheses x minus 3 close parentheses open parentheses x plus 3 close parentheses end fraction` * *
+$\frac{2 ( x - 3 ) ( x + 3 )}{( x - 3 ) ( x + 3 )} - \frac{( x + 2 ) ( x + 3 )}{( x - 3 ) ( x + 3 )} - \frac{( x - 3 ) ( x - 6 )}{( x - 3 ) ( x + 3 )}$ * *
 
 *Write as one single fraction over the common denominator Subtract the numerators* * *
 
-`fraction numerator 2 open parentheses x minus 3 close parentheses open parentheses x plus 3 close parentheses minus open parentheses x plus 2 close parentheses open parentheses x plus 3 close parentheses minus open parentheses x minus 3 close parentheses open parentheses x minus 6 close parentheses over denominator open parentheses x minus 3 close parentheses open parentheses x plus 3 close parentheses end fraction`
+$\frac{2 ( x - 3 ) ( x + 3 ) - ( x + 2 ) ( x + 3 ) - ( x - 3 ) ( x - 6 )}{( x - 3 ) ( x + 3 )}$
 
 **[1]**
 
 *Expand the brackets in the numerator (keeping their results in brackets)* * *
 
-`fraction numerator 2 open parentheses x squared minus 9 close parentheses minus open parentheses x squared plus 5 x plus 6 close parentheses minus open parentheses x squared minus 9 x plus 18 close parentheses over denominator open parentheses x minus 3 close parentheses open parentheses x plus 3 close parentheses end fraction`
+$\frac{2 ( x^{2} - 9 ) - ( x^{2} + 5 x + 6 ) - ( x^{2} - 9 x + 18 )}{( x - 3 ) ( x + 3 )}$
 
 > * *
 
 *Expand the next layer of brackets (being careful to multiply all terms by -1 in the second and third brackets)* * *
 
-`fraction numerator 2 x squared minus 18 minus x squared minus 5 x minus 6 minus x squared plus 9 x minus 18 over denominator open parentheses x minus 3 close parentheses open parentheses x plus 3 close parentheses end fraction` * *
+$\frac{2 x^{2} - 18 - x^{2} - 5 x - 6 - x^{2} + 9 x - 18}{( x - 3 ) ( x + 3 )}$ * *
 
 > *Collect "like" terms in the numerator  *
 
-`fraction numerator 4 x minus 42 over denominator open parentheses x minus 3 close parentheses open parentheses x plus 3 close parentheses end fraction`
+$\frac{4 x - 42}{( x - 3 ) ( x + 3 )}$
 
 **[1]**
 
@@ -96,27 +96,27 @@ $\frac{4x-42}{x^{2}-9}$* ***where ****a**** = 4 and ****b**** = - 42 ****[1]**
 ### 22((a)) — 3 marks
 *"Simplify" for algebraic fractions means factorise and cancel* *Factorise the easier quadratic on the denominator * * *
 
-`fraction numerator 2 x squared minus 5 x plus 3 over denominator open parentheses x plus 6 close parentheses open parentheses x minus 1 close parentheses end fraction`
+$\frac{2 x^{2} - 5 x + 3}{( x + 6 ) ( x - 1 )}$
 
 **[1]**
 
 *The harder quadratic on the numerator is likely to have (**x** + 6) or (**x** - 1) as a factor* *Try factorising with (**x** + 6)* * *
 
-`2 x squared minus 5 x plus 3 equals open parentheses 2 x plus-or-minus... close parentheses open parentheses x plus 6 close parentheses ?` * *
+$2 x^{2} - 5 x + 3 = ( 2 x \pm... ) ( x + 6 ) ?$ * *
 
 *No whole number in the first bracket can complete this factorisation* *Try factorising with (**x** - 1)* * *
 
-`2 x squared minus 5 x plus 3 equals open parentheses 2 x plus-or-minus... close parentheses open parentheses x minus 1 close parentheses ?` * *
+$2 x^{2} - 5 x + 3 = ( 2 x \pm... ) ( x - 1 ) ?$ * *
 
 *The whole number -3 in the first bracket would multiply by -1 in the second bracket to give +3 on the left* * *
 
-`2 x squared minus 5 x plus 3 equals open parentheses 2 x minus 3 close parentheses open parentheses x minus 1 close parentheses`
+$2 x^{2} - 5 x + 3 = ( 2 x - 3 ) ( x - 1 )$
 
 **[1]**
 
 *This factorisation is now correct (expand and check)* *Cancel common brackets from top-and-bottom* * *
 
-`fraction numerator open parentheses 2 x minus 3 close parentheses up diagonal strike open parentheses x minus 1 close parentheses end strike over denominator open parentheses x plus 6 close parentheses up diagonal strike open parentheses x minus 1 close parentheses end strike end fraction`
+$\frac{( 2 x - 3 ) \cancel{( x - 1 )} }{( x + 6 ) \cancel{( x - 1 )} }$
 
 $\frac{2x-3}{x+6}$* ***[1]**
 
@@ -125,23 +125,23 @@ $\frac{2x-3}{x+6}$* ***[1]**
 ### 20((b)) — 3 marks
 *Find the lowest common denominator by multiplying (**y** + 3) by (**y** - 6)* * *
 
-*lowest common denominator is *`open parentheses y plus 3 close parentheses open parentheses y minus 6 close parentheses`
+*lowest common denominator is *$( y + 3 ) ( y - 6 )$
 
 **[1]**
 
 *Multiply top-and-bottom of each fraction by the brackets needed to form this denominator* * *
 
-`fraction numerator 2 open parentheses y minus 6 close parentheses over denominator open parentheses y plus 3 close parentheses open parentheses y minus 6 close parentheses end fraction minus fraction numerator open parentheses y plus 3 close parentheses over denominator open parentheses y plus 3 close parentheses open parentheses y minus 6 close parentheses end fraction` * *
+$\frac{2 ( y - 6 )}{( y + 3 ) ( y - 6 )} - \frac{( y + 3 )}{( y + 3 ) ( y - 6 )}$ * *
 
 *Write as one single fraction over the common denominator Subtract the numerators* * *
 
-`fraction numerator 2 open parentheses y minus 6 close parentheses minus open parentheses y plus 3 close parentheses over denominator open parentheses y plus 3 close parentheses open parentheses y minus 6 close parentheses end fraction`
+$\frac{2 ( y - 6 ) - ( y + 3 )}{( y + 3 ) ( y - 6 )}$
 
 **[1]**
 
 *Expand the brackets in the numerator* * *
 
-`fraction numerator 2 y minus 12 minus y minus 3 over denominator open parentheses y plus 3 close parentheses open parentheses y minus 6 close parentheses end fraction` * *
+$\frac{2 y - 12 - y - 3}{( y + 3 ) ( y - 6 )}$ * *
 
 > *Collect "like" terms in the numerator*
 
@@ -158,41 +158,41 @@ $\frac{1}{6x^{2}+7x-5}\times\frac{4x^{2}-1}{1}$ * *
 
 *"Simplify" for algebraic fractions means factorise and cancel* *Factorise the numerator of the second fraction using the "difference of two squares" **a*<sup>*2*</sup>* - **b*<sup>*2*</sup>* = (**a **+ **b**)(**a **- **b**)   *
 
-`table row cell 4 x squared minus 1 end cell equals cell open parentheses 2 x close parentheses squared minus 1 squared end cell row blank equals cell open parentheses 2 x plus 1 close parentheses open parentheses 2 x minus 1 close parentheses end cell end table`
+$\begin{gathered} 4 x^{2} - 1 & = ( 2 x )^{2} - 1^{2} \\ = ( 2 x + 1 ) ( 2 x - 1 ) \end{gathered}$
 
 **[1]*** *
 
 *The calculation is now*
 
-`fraction numerator 1 over denominator 6 x squared plus 7 x minus 5 end fraction cross times fraction numerator open parentheses 2 x plus 1 close parentheses open parentheses 2 x minus 1 close parentheses over denominator 1 end fraction`
+$\frac{1}{6 x^{2} + 7 x - 5} \times \frac{( 2 x + 1 ) ( 2 x - 1 )}{1}$
 
 > *The harder quadratic on the denominator is likely to have (2**x** + 1) or (2**x** - 1) as a factor*
 
 *Try factorising with (2**x** + 1)* * *
 
-`6 x squared plus 7 x minus 5 equals open parentheses 3 x plus-or-minus... close parentheses open parentheses 2 x plus 1 close parentheses ?` * *
+$6 x^{2} + 7 x - 5 = ( 3 x \pm... ) ( 2 x + 1 ) ?$ * *
 
 > *The whole number -5 in the first bracket would multiply by +1 in the second bracket to give -5 on the left *
 
 *But expanding this attempt gives an incorrect middle term* * *
 
-> `open parentheses 3 x minus 5 close parentheses open parentheses 2 x plus 1 close parentheses equals 6 x squared bottom enclose negative 7 x end enclose minus 5`*  *
+> `( 3 x - 5 ) ( 2 x + 1 ) = 6 x ^2 bottom - 7 x - 5`*  *
 
 *Try factorising with (2**x** - 1)* * *
 
-`6 x squared plus 7 x minus 5 equals open parentheses 3 x plus-or-minus... close parentheses open parentheses 2 x minus 1 close parentheses ?` * *
+$6 x^{2} + 7 x - 5 = ( 3 x \pm... ) ( 2 x - 1 ) ?$ * *
 
 > *The whole number +5 in the first bracket would multiply by -1 in the second bracket to give -5 on the left *
 
 *Expanding this attempt shows it is correct* * *
 
-`open parentheses 3 x plus 5 close parentheses open parentheses 2 x minus 1 close parentheses equals 6 x squared plus 7 x minus 5`
+$( 3 x + 5 ) ( 2 x - 1 ) = 6 x^{2} + 7 x - 5$
 
 **[1]**
 
 *Cancel common brackets from top-and-bottom (this is possible across the × sign)* * *
 
-> `fraction numerator 1 over denominator open parentheses 3 x plus 5 close parentheses up diagonal strike open parentheses 2 x minus 1 close parentheses end strike end fraction cross times fraction numerator open parentheses 2 x plus 1 close parentheses up diagonal strike open parentheses 2 x minus 1 close parentheses end strike over denominator 1 end fraction`*  *
+> $\frac{1}{( 3 x + 5 ) \cancel{( 2 x - 1 )} } \times \frac{( 2 x + 1 ) \cancel{( 2 x - 1 )} }{1}$*  *
 
 > *Combine into one single fraction by multiplying the numerators together and multiplying the denominators together *
 
@@ -205,23 +205,23 @@ $\frac{2x+1}{3x+5}$* ***[1]**
 ### 21((a)) — 3 marks
 *Find the lowest common denominator by multiplying (2 - **x**) by **x* * *
 
-*lowest common denominator is *`x open parentheses 2 minus x close parentheses`
+*lowest common denominator is *$x ( 2 - x )$
 
 **[1]**
 
 *Multiply top-and-bottom of each fraction by the terms needed to form this denominator* * *
 
-`fraction numerator 5 x over denominator x open parentheses 2 minus x close parentheses end fraction minus fraction numerator 4 open parentheses 2 minus x close parentheses over denominator x open parentheses 2 minus x close parentheses end fraction` * *
+$\frac{5 x}{x ( 2 - x )} - \frac{4 ( 2 - x )}{x ( 2 - x )}$ * *
 
 *Write as one single fraction over the common denominator Subtract the numerators* * *
 
-`fraction numerator 5 x minus 4 open parentheses 2 minus x close parentheses over denominator x open parentheses 2 minus x close parentheses end fraction`
+$\frac{5 x - 4 ( 2 - x )}{x ( 2 - x )}$
 
 **[1]**
 
 *Expand the brackets in the numerator* * *
 
-`fraction numerator 5 x minus 8 plus 4 x over denominator x open parentheses 2 minus x close parentheses end fraction` * *
+$\frac{5 x - 8 + 4 x}{x ( 2 - x )}$ * *
 
 > *Collect "like" terms in the numerator*
 
@@ -232,23 +232,23 @@ $\frac{9x-8}{x(2-x)}$* ***[1]**
 ### 22((c)) — 3 marks
 *Find the lowest common denominator by multiplying (**x** - 3) by (**x** + 3)* * *
 
-*lowest common denominator is *`open parentheses x minus 3 close parentheses open parentheses x plus 3 close parentheses`
+*lowest common denominator is *$( x - 3 ) ( x + 3 )$
 
 **[1]**
 
 *Multiply top-and-bottom of each fraction by the brackets needed to form this denominator* * *
 
-`fraction numerator 5 open parentheses x plus 3 close parentheses over denominator open parentheses x minus 3 close parentheses open parentheses x plus 3 close parentheses end fraction minus fraction numerator 4 open parentheses x minus 3 close parentheses over denominator open parentheses x minus 3 close parentheses open parentheses x plus 3 close parentheses end fraction` * *
+$\frac{5 ( x + 3 )}{( x - 3 ) ( x + 3 )} - \frac{4 ( x - 3 )}{( x - 3 ) ( x + 3 )}$ * *
 
 *Write as one single fraction over the common denominator Subtract the numerators* * *
 
-`fraction numerator 5 open parentheses x plus 3 close parentheses minus 4 open parentheses x minus 3 close parentheses over denominator open parentheses x plus 3 close parentheses open parentheses x minus 3 close parentheses end fraction`
+$\frac{5 ( x + 3 ) - 4 ( x - 3 )}{( x + 3 ) ( x - 3 )}$
 
 **[1]**
 
 *Expand the brackets in the numerator* * *
 
-`fraction numerator 5 x plus 15 minus 4 x plus 12 over denominator open parentheses x plus 3 close parentheses open parentheses x minus 3 close parentheses end fraction` * *
+$\frac{5 x + 15 - 4 x + 12}{( x + 3 ) ( x - 3 )}$ * *
 
 > *Collect "like" terms in the numerator*
 
@@ -273,58 +273,58 @@ $3x^{2}-9x+4x-12$
 
 *Factorise fully the first pair of terms and the second pair of terms *
 
-`3 x open parentheses x minus 3 close parentheses plus 4 open parentheses x minus 3 close parentheses`
+$3 x ( x - 3 ) + 4 ( x - 3 )$
 
 *Factorise out the whole (**x** - 3) bracket as if it were one term, leaving 3**x** and +4 in their own bracket*
 
-`open parentheses x minus 3 close parentheses open parentheses 3 x plus 4 close parentheses`
+$( x - 3 ) ( 3 x + 4 )$
 
 **[1]**
 
 > *Write the fraction with the denominator factorised  *
 
-> `fraction numerator 3 minus x over denominator open parentheses x minus 3 close parentheses open parentheses 3 x plus 4 close parentheses end fraction`*  *
+> $\frac{3 - x}{( x - 3 ) ( 3 x + 4 )}$*  *
 
 > *The 3 - **x** almost cancels with the **x** - 3 but the signs are wrong*
 
 > * A good trick here is to factorise out -1 from 3 - **x**  *
 
-> `3 minus x equals negative 1 open parentheses negative 3 plus x close parentheses`*  *
+> $3 - x = - 1 ( - 3 + x )$*  *
 
 > *Reorder the two terms inside the bracket (write the **x** first)  *
 
-> `3 minus x equals negative 1 open parentheses x minus 3 close parentheses`*  *
+> $3 - x = - 1 ( x - 3 )$*  *
 
 > *Write the algebraic fraction with this new form of the numerator  *
 
-> `fraction numerator negative 1 open parentheses x minus 3 close parentheses over denominator open parentheses x minus 3 close parentheses open parentheses 3 x plus 4 close parentheses end fraction`*  *
+> $\frac{- 1 ( x - 3 )}{( x - 3 ) ( 3 x + 4 )}$*  *
 
 > *The brackets can now be more clearly cancelled on top-and-bottom  *
 
-`fraction numerator negative 1 up diagonal strike open parentheses x minus 3 close parentheses end strike over denominator up diagonal strike open parentheses x minus 3 close parentheses end strike open parentheses 3 x plus 4 close parentheses end fraction`
+$\frac{- 1 \cancel{( x - 3 )} }{ \cancel{( x - 3 )} ( 3 x + 4 )}$
 
 $\frac{-1}{3x+4}$ **[1]**
 
 ### 24((b)) — 3 marks
 *Find the lowest common denominator by multiplying (**x** - 1) by (**x** + 1)* * *
 
-*lowest common denominator is *`open parentheses x minus 1 close parentheses open parentheses x plus 1 close parentheses`
+*lowest common denominator is *$( x - 1 ) ( x + 1 )$
 
 **[1]**
 
 *Multiply top-and-bottom of each fraction by the brackets needed to form this denominator* * *
 
-`fraction numerator x open parentheses x plus 1 close parentheses over denominator open parentheses x minus 1 close parentheses open parentheses x plus 1 close parentheses end fraction minus fraction numerator x open parentheses x minus 1 close parentheses over denominator open parentheses x minus 1 close parentheses open parentheses x plus 1 close parentheses end fraction` * *
+$\frac{x ( x + 1 )}{( x - 1 ) ( x + 1 )} - \frac{x ( x - 1 )}{( x - 1 ) ( x + 1 )}$ * *
 
 *Write as one single fraction over the common denominator Subtract the numerators* * *
 
-`fraction numerator x open parentheses x plus 1 close parentheses minus x open parentheses x minus 1 close parentheses over denominator open parentheses x minus 1 close parentheses open parentheses x plus 1 close parentheses end fraction`
+$\frac{x ( x + 1 ) - x ( x - 1 )}{( x - 1 ) ( x + 1 )}$
 
 **[1]**
 
 *Expand the brackets in the numerator* * *
 
-`fraction numerator x squared plus x minus x squared plus x over denominator open parentheses x minus 1 close parentheses open parentheses x plus 1 close parentheses end fraction` * *
+$\frac{x^{2} + x - x^{2} + x}{( x - 1 ) ( x + 1 )}$ * *
 
 > *Collect "like" terms in the numerator*
 
@@ -335,7 +335,7 @@ $\frac{2x}{(x-1)(x+1)}$* ***[1]**
 ### 14((a)) — 3 marks
 *"Simplify" for algebraic fractions means factorise and cancel* *Factorise the easier quadratic in the numerator, using the "difference of two squares" **a*<sup>*2*</sup>* - **b*<sup>*2*</sup>* = (**a **+ **b**)(**a **- **b**)* * *
 
-`fraction numerator open parentheses x plus 4 close parentheses open parentheses x minus 4 close parentheses over denominator 2 x squared minus 5 x minus 12 end fraction`
+$\frac{( x + 4 ) ( x - 4 )}{2 x^{2} - 5 x - 12}$
 
 **[1]**
 
@@ -343,29 +343,29 @@ $\frac{2x}{(x-1)(x+1)}$* ***[1]**
 
 *Try factorising with (**x** + 4)* * *
 
-`2 x squared minus 5 x minus 12 equals open parentheses 2 x plus-or-minus... close parentheses open parentheses x plus 4 close parentheses ?` * *
+$2 x^{2} - 5 x - 12 = ( 2 x \pm... ) ( x + 4 ) ?$ * *
 
 > *The whole number -3 in the first bracket would multiply by +4 in the second bracket to give -12 on the left *
 
 *But expanding this attempt gives an incorrect middle term* * *
 
-> `open parentheses 2 x minus 3 close parentheses open parentheses x plus 4 close parentheses equals 2 x squared bottom enclose plus 5 x end enclose minus 12`*  *
+> `( 2 x - 3 ) ( x + 4 ) = 2 x ^2 bottom + 5 x - 12`*  *
 
 *Try factorising with (**x** - 4)* * *
 
-`2 x squared minus 5 x minus 12 equals open parentheses 2 x plus-or-minus... close parentheses open parentheses x minus 4 close parentheses ?` * *
+$2 x^{2} - 5 x - 12 = ( 2 x \pm... ) ( x - 4 ) ?$ * *
 
 > *The whole number +3 in the first bracket would multiply by -4 in the second bracket to give -12 on the left *
 
 *Expanding this attempt shows it is correct* * *
 
-`open parentheses 2 x plus 3 close parentheses open parentheses x minus 4 close parentheses equals 2 x squared minus 5 x minus 12`
+$( 2 x + 3 ) ( x - 4 ) = 2 x^{2} - 5 x - 12$
 
 **[1]**
 
 *Cancel common brackets from top-and-bottom* * *
 
-`fraction numerator open parentheses x plus 4 close parentheses up diagonal strike open parentheses x minus 4 close parentheses end strike over denominator open parentheses 2 x plus 3 close parentheses up diagonal strike open parentheses x minus 4 close parentheses end strike end fraction`
+$\frac{( x + 4 ) \cancel{( x - 4 )} }{( 2 x + 3 ) \cancel{( x - 4 )} }$
 
 $\frac{x+4}{2x+3}$* ***[1]**
 
@@ -380,13 +380,13 @@ $\frac{x+4}{2x+3}$* ***[1]**
 
 *Multiply top-and-bottom of each fraction by the numbers needed to form this denominator* * *
 
-`fraction numerator 3 open parentheses x plus 1 close parentheses over denominator 6 end fraction plus fraction numerator 2 open parentheses x plus 3 close parentheses over denominator 6 end fraction` * *
+$\frac{3 ( x + 1 )}{6} + \frac{2 ( x + 3 )}{6}$ * *
 
 > *Write as one single fraction over the common denominator *
 
 *Add the numerators* * *
 
-`fraction numerator 3 open parentheses x plus 1 close parentheses plus 2 open parentheses x plus 3 close parentheses over denominator 6 end fraction`
+$\frac{3 ( x + 1 ) + 2 ( x + 3 )}{6}$
 
 **[1]**
 
@@ -403,45 +403,45 @@ $\frac{5x+9}{6}$* ***[1]**
 ### 14() — 4 marks
 > *Write 4 and (**x** + 3) as fractions (by putting them over 1)  *
 
-`4 over 1 minus open square brackets fraction numerator open parentheses x plus 3 close parentheses over denominator 1 end fraction divided by fraction numerator x squared plus 5 x plus 6 over denominator x minus 2 end fraction close square brackets`
+$\frac{4}{1} - [ \frac{( x + 3 )}{1} \div \frac{x^{2} + 5 x + 6}{x - 2} ]$
 
 *Dividing by *$\frac{a}{b}$* is the same as multiplying by *$\frac{b}{a}$
 
 *Flip the second fraction in the division and change ÷ into ×* * *
 
-`4 over 1 minus open square brackets fraction numerator open parentheses x plus 3 close parentheses over denominator 1 end fraction cross times fraction numerator x minus 2 over denominator x squared plus 5 x plus 6 end fraction close square brackets`
+$\frac{4}{1} - [ \frac{( x + 3 )}{1} \times \frac{x - 2}{x^{2} + 5 x + 6} ]$
 
 **[1]*** *
 
 > *Factorise the quadratic in the denominator  *
 
-`table row blank blank cell 4 over 1 minus open square brackets fraction numerator open parentheses x plus 3 close parentheses over denominator 1 end fraction cross times fraction numerator x minus 2 over denominator open parentheses x plus 3 close parentheses open parentheses x plus 2 close parentheses end fraction close square brackets end cell end table`
+$\begin{gathered} \frac{4}{1} - [ \frac{( x + 3 )}{1} \times \frac{x - 2}{( x + 3 ) ( x + 2 )} ] \end{gathered}$
 
 **[1]*** *
 
 *Cancel common brackets from top-and-bottom of the multiplication*
 
-`table row blank blank cell 4 over 1 minus open square brackets fraction numerator up diagonal strike open parentheses x plus 3 close parentheses end strike over denominator 1 end fraction cross times fraction numerator x minus 2 over denominator up diagonal strike open parentheses x plus 3 close parentheses end strike open parentheses x plus 2 close parentheses end fraction close square brackets end cell end table`
+$\begin{gathered} \frac{4}{1} - [ \frac{ \cancel{( x + 3 )} }{1} \times \frac{x - 2}{ \cancel{( x + 3 )} ( x + 2 )} ] \end{gathered}$
 
 > *Write the resulting algebraic fraction  *
 
-`table row blank blank cell 4 over 1 minus fraction numerator x minus 2 over denominator x plus 2 end fraction end cell end table`
+$\begin{gathered} \frac{4}{1} - \frac{x - 2}{x + 2} \end{gathered}$
 
 > *The final answer must be given as a single fraction *
 
 *Find the lowest common denominator by multiplying 1 by (**x** + 2)* * *
 
-*lowest common denominator is *`open parentheses x plus 2 close parentheses`
+*lowest common denominator is *$( x + 2 )$
 
 *Multiply top-and-bottom of the first fraction by (**x** + 2)* * *
 
-`fraction numerator 4 open parentheses x plus 2 close parentheses over denominator x plus 2 end fraction minus fraction numerator x minus 2 over denominator x plus 2 end fraction`
+$\frac{4 ( x + 2 )}{x + 2} - \frac{x - 2}{x + 2}$
 
 **[1]*** *
 
 *Write as one single fraction over the common denominator Subtract the numerators (putting brackets around the second numerator)* * *
 
-`fraction numerator 4 open parentheses x plus 2 close parentheses minus open parentheses x minus 2 close parentheses over denominator x plus 2 end fraction`
+$\frac{4 ( x + 2 ) - ( x - 2 )}{x + 2}$
 
 *Expand the brackets in the numerator* * *
 
@@ -456,7 +456,7 @@ $\frac{3x+10}{x+2}$* ***[1]**
 ### 17() — 3 marks
 *"Simplify" for algebraic fractions means factorise and cancel* *Factorise the easier quadratic in the denominator (by taking out a common factor of 2**x**)* * *
 
-`fraction numerator 3 x squared minus 8 x minus 3 over denominator 2 x open parentheses x minus 3 close parentheses end fraction`
+$\frac{3 x^{2} - 8 x - 3}{2 x ( x - 3 )}$
 
 **[1]**
 
@@ -464,19 +464,19 @@ $\frac{3x+10}{x+2}$* ***[1]**
 
 *Try factorising with (**x** - 3)* * *
 
-`3 x squared minus 8 x minus 3 equals open parentheses 3 x plus-or-minus... close parentheses open parentheses x minus 3 close parentheses ?` * *
+$3 x^{2} - 8 x - 3 = ( 3 x \pm... ) ( x - 3 ) ?$ * *
 
 > *The whole number +1 in the first bracket would multiply by -3 in the second bracket to give -3 on the left *
 
 *Expanding this attempt shows it is correct* * *
 
-`open parentheses 3 x plus 1 close parentheses open parentheses x minus 3 close parentheses equals 3 x squared minus 5 x minus 3`
+$( 3 x + 1 ) ( x - 3 ) = 3 x^{2} - 5 x - 3$
 
 **[1]**
 
 *Cancel common brackets from top-and-bottom* * *
 
-`fraction numerator open parentheses 3 x plus 1 close parentheses up diagonal strike open parentheses x minus 3 close parentheses end strike over denominator 2 x up diagonal strike open parentheses x minus 3 close parentheses end strike end fraction`
+$\frac{( 3 x + 1 ) \cancel{( x - 3 )} }{2 x \cancel{( x - 3 )} }$
 
 $\frac{3x+1}{2x}$* ***[1]**
 
@@ -489,13 +489,13 @@ $\frac{3x+1}{2x}$* ***[1]**
 
 *One factor is likely to be (**x** + 5)* * *
 
-`fraction numerator 4 open parentheses x plus 5 close parentheses over denominator open parentheses x plus 5 close parentheses open parentheses x minus 3 close parentheses end fraction`
+$\frac{4 ( x + 5 )}{( x + 5 ) ( x - 3 )}$
 
 **[1]**
 
 *Cancel any common brackets from top-and-bottom* * *
 
-`fraction numerator 4 up diagonal strike open parentheses x plus 5 close parentheses end strike over denominator up diagonal strike open parentheses x plus 5 close parentheses end strike open parentheses x minus 3 close parentheses end fraction`
+$\frac{4 \cancel{( x + 5 )} }{ \cancel{( x + 5 )} ( x - 3 )}$
 
 $\frac{4}{x-3}$* ***[1]**
 
@@ -512,19 +512,19 @@ $\frac{3x+6}{x^{2}-3x-10}\times\frac{x^{3}-25x}{x+5}$
 
 *"Simplify" for algebraic fractions means factorise and cancel* *Factorise **x **out of the numerator of the second fraction then use the "difference of two squares" **a*<sup>*2*</sup>* - **b*<sup>*2*</sup>* = (**a **+ **b**)(**a **- **b**)   *
 
-`table attributes columnalign right center left columnspacing 0px end attributes row cell x cubed minus 25 x end cell equals cell x open parentheses x squared minus 25 close parentheses end cell row blank equals cell x open parentheses x squared minus 5 squared close parentheses end cell row blank equals cell x open parentheses x plus 5 close parentheses open parentheses x minus 5 close parentheses end cell end table`
+$\begin{array}{rcl} x^{3} - 25 x & = x ( x^{2} - 25 ) \\ = x ( x^{2} - 5^{2} ) \\ = x ( x + 5 ) ( x - 5 ) \end{array}$
 
 **[1]*** *
 
 *Factorise the top and bottom of the first algebraic fraction*
 
-`fraction numerator 3 open parentheses x plus 2 close parentheses over denominator open parentheses x minus 5 close parentheses open parentheses x plus 2 close parentheses end fraction cross times fraction numerator x open parentheses x plus 5 close parentheses open parentheses x minus 5 close parentheses over denominator x plus 5 end fraction`
+$\frac{3 ( x + 2 )}{( x - 5 ) ( x + 2 )} \times \frac{x ( x + 5 ) ( x - 5 )}{x + 5}$
 
 **[1]**
 
 *Cancel common brackets from top-and-bottom (this is possible across the × sign)* * *
 
-> `fraction numerator 3 up diagonal strike open parentheses x plus 2 close parentheses end strike over denominator down diagonal strike open parentheses x minus 5 close parentheses end strike up diagonal strike open parentheses x plus 2 close parentheses end strike end fraction cross times fraction numerator x up diagonal strike open parentheses x plus 5 close parentheses end strike down diagonal strike open parentheses x minus 5 close parentheses end strike over denominator up diagonal strike x plus 5 end strike end fraction`*  *
+> `(3 / ( x + 2 ) )/(/ ( x - 5 ) / ( x + 2 ) ) x (x / ( x + 5 ) / ( x - 5 ) )/(/ x + 5 )`*  *
 
 > *Combine into one single fraction by multiplying the numerators together and multiplying the denominators together*
 
@@ -539,7 +539,7 @@ $3x$* ***[1]**
 ### 15() — 3 marks
 *"Simplify" for algebraic fractions means factorise and cancel* *Factorise the easier quadratic on the denominator * * *
 
-`fraction numerator 2 x squared minus 3 x minus 5 over denominator open parentheses x plus 5 close parentheses open parentheses x plus 1 close parentheses end fraction`
+$\frac{2 x^{2} - 3 x - 5}{( x + 5 ) ( x + 1 )}$
 
 **[1]**
 
@@ -547,29 +547,29 @@ $3x$* ***[1]**
 
 *Try factorising with (**x** + 5)* * *
 
-`2 x squared minus 3 x minus 5 equals open parentheses 2 x plus-or-minus... close parentheses open parentheses x plus 5 close parentheses ?` * *
+$2 x^{2} - 3 x - 5 = ( 2 x \pm... ) ( x + 5 ) ?$ * *
 
 > *The whole number -1 in the first bracket would multiply by +5 in the second bracket to give -5 on the left *
 
 *But expanding this attempt gives an incorrect middle term* * *
 
-> `open parentheses 2 x minus 1 close parentheses open parentheses x plus 5 close parentheses equals 2 x squared bottom enclose plus 9 x end enclose minus 5`*  *
+> `( 2 x - 1 ) ( x + 5 ) = 2 x ^2 bottom + 9 x - 5`*  *
 
 *Try factorising with (**x** + 1)* * *
 
-`2 x squared minus 3 x minus 5 equals open parentheses 2 x plus-or-minus... close parentheses open parentheses x plus 1 close parentheses ?` * *
+$2 x^{2} - 3 x - 5 = ( 2 x \pm... ) ( x + 1 ) ?$ * *
 
 > *The whole number -5 in the first bracket would multiply by +1 in the second bracket to give -5 on the left *
 
 *Expanding this attempt shows it is correct* * *
 
-`open parentheses 2 x minus 5 close parentheses open parentheses x plus 1 close parentheses equals 2 x squared minus 3 x minus 5`
+$( 2 x - 5 ) ( x + 1 ) = 2 x^{2} - 3 x - 5$
 
 **[1]**
 
 *Cancel common brackets from top-and-bottom* * *
 
-`fraction numerator open parentheses 2 x minus 5 close parentheses up diagonal strike open parentheses x plus 1 close parentheses end strike over denominator open parentheses x plus 5 close parentheses up diagonal strike open parentheses x plus 1 close parentheses end strike end fraction`
+$\frac{( 2 x - 5 ) \cancel{( x + 1 )} }{( x + 5 ) \cancel{( x + 1 )} }$
 
 > *This is now in the form *$\frac{ax+b}{cx+d}$* where **a**, **b**, **c** and **d** are integers (whole numbers)*
 
@@ -580,11 +580,11 @@ $\frac{2x-5}{x+5}$* ***[1]**
 ### 17((a)) — 1 marks
 *Write out the denominator as the product of two brackets* * *
 
-`fraction numerator 3 open parentheses x plus 1 close parentheses over denominator open parentheses x plus 1 close parentheses open parentheses x plus 1 close parentheses end fraction` * *
+$\frac{3 ( x + 1 )}{( x + 1 ) ( x + 1 )}$ * *
 
 *Cancel the common brackets from top-and-bottom*
 
-`fraction numerator 3 up diagonal strike open parentheses x plus 1 close parentheses end strike over denominator open parentheses x plus 1 close parentheses up diagonal strike open parentheses x plus 1 close parentheses end strike end fraction`
+$\frac{3 \cancel{( x + 1 )} }{( x + 1 ) \cancel{( x + 1 )} }$
 
 $\frac{3}{x+1}$ **[1]**
 
@@ -593,45 +593,45 @@ $\frac{3}{x+1}$ **[1]**
 ### 13() — 4 marks
 > *Write 6 and (**x** + 5) as fractions (by putting them over 1)  *
 
-`6 over 1 plus open square brackets fraction numerator open parentheses x plus 5 close parentheses over denominator 1 end fraction divided by fraction numerator x squared plus 3 x minus 10 over denominator x minus 1 end fraction close square brackets`
+$\frac{6}{1} + [ \frac{( x + 5 )}{1} \div \frac{x^{2} + 3 x - 10}{x - 1} ]$
 
 *Dividing by *$\frac{a}{b}$* is the same as multiplying by *$\frac{b}{a}$
 
 *Flip the second fraction in the division and change ÷ into ×* * *
 
-`6 over 1 plus open square brackets fraction numerator open parentheses x plus 5 close parentheses over denominator 1 end fraction cross times fraction numerator x minus 1 over denominator x squared plus 3 x minus 10 end fraction close square brackets`
+$\frac{6}{1} + [ \frac{( x + 5 )}{1} \times \frac{x - 1}{x^{2} + 3 x - 10} ]$
 
 **[1]*** *
 
 > *Factorise the quadratic in the denominator  *
 
-`6 over 1 plus open square brackets fraction numerator open parentheses x plus 5 close parentheses over denominator 1 end fraction cross times fraction numerator x minus 1 over denominator open parentheses x plus 5 close parentheses open parentheses x minus 2 close parentheses end fraction close square brackets`
+$\frac{6}{1} + [ \frac{( x + 5 )}{1} \times \frac{x - 1}{( x + 5 ) ( x - 2 )} ]$
 
 **[1]*** *
 
 *Cancel common brackets from top-and-bottom of the multiplication*
 
-`6 over 1 plus open square brackets fraction numerator up diagonal strike open parentheses x plus 5 close parentheses end strike over denominator 1 end fraction cross times fraction numerator x minus 1 over denominator up diagonal strike open parentheses x plus 5 close parentheses end strike open parentheses x minus 2 close parentheses end fraction close square brackets`
+$\frac{6}{1} + [ \frac{ \cancel{( x + 5 )} }{1} \times \frac{x - 1}{ \cancel{( x + 5 )} ( x - 2 )} ]$
 
 > *Write the resulting algebraic fraction  *
 
-`table row cell 6 over 1 plus fraction numerator x minus 1 over denominator x minus 2 end fraction end cell end table`
+$\begin{gathered} \frac{6}{1} + \frac{x - 1}{x - 2} \end{gathered}$
 
 > *The final answer must be given as a single fraction *
 
 *Find the lowest common denominator by multiplying 1 by (**x** - 2)* * *
 
-*lowest common denominator is *`open parentheses x minus 2 close parentheses`
+*lowest common denominator is *$( x - 2 )$
 
 *Multiply top-and-bottom of the first fraction by (**x** - 2)* * *
 
-`fraction numerator 6 open parentheses x minus 2 close parentheses over denominator x minus 2 end fraction plus fraction numerator x minus 1 over denominator x minus 2 end fraction`
+$\frac{6 ( x - 2 )}{x - 2} + \frac{x - 1}{x - 2}$
 
 **[1]*** *
 
 *Write as one single fraction over the common denominator Subtract the numerators (putting brackets around the second numerator)* * *
 
-`fraction numerator 6 open parentheses x minus 2 close parentheses plus open parentheses x minus 1 close parentheses over denominator x minus 2 end fraction`
+$\frac{6 ( x - 2 ) + ( x - 1 )}{x - 2}$
 
 *Expand the brackets in the numerator* * *
 
@@ -648,7 +648,7 @@ $\frac{7x-13}{x-2}$* ***[1]**
 ### 23((a)) — 3 marks
 *"Simplify" for algebraic fractions means factorise and cancel* *Factorise the easier quadratic on the numerator* * *
 
-`fraction numerator open parentheses x plus 4 close parentheses open parentheses x minus 1 close parentheses over denominator 2 x squared minus 5 x plus 3 end fraction`
+$\frac{( x + 4 ) ( x - 1 )}{2 x^{2} - 5 x + 3}$
 
 **[1]**
 
@@ -656,50 +656,50 @@ $\frac{7x-13}{x-2}$* ***[1]**
 
 *Try factorising with (**x** + 4)* * *
 
-`2 x squared minus 5 x plus 3 equals open parentheses 2 x plus-or-minus... close parentheses open parentheses x plus 4 close parentheses ?` * *
+$2 x^{2} - 5 x + 3 = ( 2 x \pm... ) ( x + 4 ) ?$ * *
 
 > *No whole number in the first bracket would multiply by +4 to give +3 on the left *
 
 *Try factorising with (**x** - 1)* * *
 
-`2 x squared minus 5 x plus 3 equals open parentheses 2 x plus-or-minus... close parentheses open parentheses x minus 1 close parentheses ?` * *
+$2 x^{2} - 5 x + 3 = ( 2 x \pm... ) ( x - 1 ) ?$ * *
 
 > *The whole number -3 in the first bracket would multiply by -1 in the second bracket to give +3 on the left *
 
 *Expanding this attempt shows it is correct* * *
 
-`open parentheses 2 x minus 3 close parentheses open parentheses x minus 1 close parentheses equals 2 x squared minus 5 x plus 3`
+$( 2 x - 3 ) ( x - 1 ) = 2 x^{2} - 5 x + 3$
 
 **[1]**
 
 *Cancel common brackets from top-and-bottom* * *
 
-`fraction numerator open parentheses x plus 4 close parentheses up diagonal strike open parentheses x minus 1 close parentheses end strike over denominator open parentheses 2 x minus 3 close parentheses up diagonal strike open parentheses x minus 1 close parentheses end strike end fraction`
+$\frac{( x + 4 ) \cancel{( x - 1 )} }{( 2 x - 3 ) \cancel{( x - 1 )} }$
 
 $\frac{x+4}{2x-3}$* ***[1]**
 
 ### 23((b)) — 3 marks
 *Find the lowest common denominator by multiplying (**x** + 2) by (**x** - 2)* * *
 
-*lowest common denominator is *`open parentheses x plus 2 close parentheses open parentheses x minus 2 close parentheses`
+*lowest common denominator is *$( x + 2 ) ( x - 2 )$
 
 **[1]**
 
 *Multiply top-and-bottom of each fraction by the brackets needed to form this denominator* * *
 
-`fraction numerator 4 open parentheses x minus 2 close parentheses over denominator open parentheses x plus 2 close parentheses open parentheses x minus 2 close parentheses end fraction plus fraction numerator 3 open parentheses x plus 2 close parentheses over denominator open parentheses x plus 2 close parentheses open parentheses x minus 2 close parentheses end fraction` * *
+$\frac{4 ( x - 2 )}{( x + 2 ) ( x - 2 )} + \frac{3 ( x + 2 )}{( x + 2 ) ( x - 2 )}$ * *
 
 > *Write as one single fraction over the common denominator *
 
 *Add the numerators* * *
 
-`fraction numerator 4 open parentheses x minus 2 close parentheses plus 3 open parentheses x plus 2 close parentheses over denominator open parentheses x plus 2 close parentheses open parentheses x minus 2 close parentheses end fraction`
+$\frac{4 ( x - 2 ) + 3 ( x + 2 )}{( x + 2 ) ( x - 2 )}$
 
 **[1]**
 
 *Expand the brackets in the numerator* * *
 
-`fraction numerator 4 x minus 8 plus 3 x plus 6 over denominator open parentheses x plus 2 close parentheses open parentheses x minus 2 close parentheses end fraction` * *
+$\frac{4 x - 8 + 3 x + 6}{( x + 2 ) ( x - 2 )}$ * *
 
 > *Collect "like" terms in the numerator*
 
@@ -714,7 +714,7 @@ $\mathrm{lcd} \mathrm{of}x,2x\mathrm{and}4=4x$
 
 > *Rewrite each fraction over the lcd.*
 
-`table row cell 3 over x end cell equals cell fraction numerator 3 cross times 4 over denominator 4 x end fraction equals fraction numerator 12 over denominator 4 x end fraction end cell row cell fraction numerator x plus 2 over denominator 2 x end fraction end cell equals cell fraction numerator open parentheses x plus 2 close parentheses cross times 2 over denominator 4 x end fraction equals fraction numerator 2 x plus 4 over denominator 4 x end fraction end cell row cell 1 fourth end cell equals cell fraction numerator 1 cross times x over denominator 4 x end fraction equals fraction numerator x over denominator 4 x end fraction end cell end table`
+$\begin{gathered} \frac{3}{x} & = \frac{3 \times 4}{4 x} = \frac{12}{4 x} \\ \frac{x + 2}{2 x} & = \frac{( x + 2 ) \times 2}{4 x} = \frac{2 x + 4}{4 x} \\ 1 \frac{1}{4} & = \frac{1 \times x}{4 x} = \frac{x}{4 x} \end{gathered}$
 
 **[1]**
 
@@ -739,28 +739,28 @@ $\therefore\frac{3}{x}+\frac{x+2}{2x}+\frac{1}{4}=\frac{3x+16}{4x}$ **[1]**
 
 > * Factorise these expressions as this will make them easier to multiply.*
 
-`table attributes columnalign right center left columnspacing 0px end attributes row cell 25 x squared minus 64 end cell equals cell open parentheses 5 x minus 8 close parentheses open parentheses 5 x plus 8 close parentheses end cell row cell 5 x squared minus 13 x minus 6 end cell equals cell open parentheses 5 x plus 2 close parentheses open parentheses x minus 3 close parentheses end cell row cell x squared minus 8 x plus 15 end cell equals cell open parentheses x minus 5 close parentheses open parentheses x minus 3 close parentheses end cell end table`
+$\begin{array}{rcl} 25 x^{2} - 64 & = ( 5 x - 8 ) ( 5 x + 8 ) \\ 5 x^{2} - 13 x - 6 & = ( 5 x + 2 ) ( x - 3 ) \\ x^{2} - 8 x + 15 & = ( x - 5 ) ( x - 3 ) \end{array}$
 
 **One quadratic correctly factorise****d [1]**
 **Two quadratics correctly factorised**** [1]**
 
 > *Rewrite the product of the fractions.*
 
-`fraction numerator 25 x squared minus 64 over denominator 5 x squared minus 13 x minus 6 end fraction cross times fraction numerator x squared minus 8 x plus 15 over denominator 5 x plus 8 end fraction equals fraction numerator open parentheses 5 x minus 8 close parentheses open parentheses 5 x plus 8 close parentheses over denominator open parentheses 5 x plus 2 close parentheses open parentheses x minus 3 close parentheses end fraction cross times fraction numerator open parentheses x minus 5 close parentheses open parentheses x minus 3 close parentheses over denominator open parentheses 5 x plus 8 close parentheses end fraction`
+$\frac{25 x^{2} - 64}{5 x^{2} - 13 x - 6} \times \frac{x^{2} - 8 x + 15}{5 x + 8} = \frac{( 5 x - 8 ) ( 5 x + 8 )}{( 5 x + 2 ) ( x - 3 )} \times \frac{( x - 5 ) ( x - 3 )}{( 5 x + 8 )}$
 
 > *Look to cancel any factors before multiplying.*
 
-`fraction numerator open parentheses 5 x minus 8 close parentheses up diagonal strike open parentheses 5 x plus 8 close parentheses end strike over denominator open parentheses 5 x plus 2 close parentheses down diagonal strike open parentheses x minus 3 close parentheses end strike end fraction cross times fraction numerator open parentheses x minus 5 close parentheses down diagonal strike open parentheses x minus 3 close parentheses end strike over denominator up diagonal strike open parentheses 5 x plus 8 close parentheses end strike end fraction equals fraction numerator open parentheses 5 x minus 8 close parentheses open parentheses x minus 5 close parentheses over denominator open parentheses 5 x plus 2 close parentheses end fraction`
+`(( 5 x - 8 ) / ( 5 x + 8 ) )/(( 5 x + 2 ) / ( x - 3 ) ) x (( x - 5 ) / ( x - 3 ) )/(/ ( 5 x + 8 ) ) = (( 5 x - 8 ) ( x - 5 ))/(( 5 x + 2 ))`
 
-> *Now we need to include the third term, *`negative open parentheses x minus 7 close parentheses`*, and make a common denominator.*
+> *Now we need to include the third term, *$- ( x - 7 )$*, and make a common denominator.*
 
-`fraction numerator open parentheses 5 x minus 8 close parentheses open parentheses x minus 5 close parentheses over denominator open parentheses 5 x plus 2 close parentheses end fraction minus open parentheses x minus 7 close parentheses equals fraction numerator open parentheses 5 x minus 8 close parentheses open parentheses x minus 5 close parentheses minus open parentheses x minus 7 close parentheses open parentheses 5 x plus 2 close parentheses over denominator open parentheses 5 x plus 2 close parentheses end fraction`
+$\frac{( 5 x - 8 ) ( x - 5 )}{( 5 x + 2 )} - ( x - 7 ) = \frac{( 5 x - 8 ) ( x - 5 ) - ( x - 7 ) ( 5 x + 2 )}{( 5 x + 2 )}$
 
 **[1]**
 
 > *Expand and simplify the numerator.*
 
-`table attributes columnalign right center left columnspacing 0px end attributes row cell fraction numerator open parentheses 5 x minus 8 close parentheses open parentheses x minus 5 close parentheses minus open parentheses x minus 7 close parentheses open parentheses 5 x plus 2 close parentheses over denominator open parentheses 5 x plus 2 close parentheses end fraction end cell equals cell fraction numerator 5 x squared minus 33 x plus 40 minus open parentheses 5 x squared minus 33 x minus 14 close parentheses over denominator open parentheses 5 x plus 2 close parentheses end fraction end cell row blank equals cell fraction numerator 5 x squared minus 33 x plus 40 minus 5 x squared plus 33 x plus 14 over denominator open parentheses 5 x plus 2 close parentheses end fraction end cell row blank equals cell fraction numerator 54 over denominator open parentheses 5 x plus 2 close parentheses end fraction end cell end table`
+$\begin{array}{rcl} \frac{( 5 x - 8 ) ( x - 5 ) - ( x - 7 ) ( 5 x + 2 )}{( 5 x + 2 )} & = \frac{5 x^{2} - 33 x + 40 - ( 5 x^{2} - 33 x - 14 )}{( 5 x + 2 )} \\ = \frac{5 x^{2} - 33 x + 40 - 5 x^{2} + 33 x + 14}{( 5 x + 2 )} \\ = \frac{54}{( 5 x + 2 )} \end{array}$
 
 > *Nothing else can be simplified or cancelled.*
 
@@ -771,21 +771,21 @@ $\frac{25x^{2}-64}{5x^{2}-13x-6}\times\frac{x^{2}-8x+15}{5x+8}=\frac{54}{5x+2}$*
 ### 15() — 2 marks
 *The lowest common denominator of (**b** + 1) and (**b** + 1)*<sup>*2*</sup>* is (**b **+ 1)*<sup>*2*</sup>* For example, the lowest common denominator of 3 and 9 is 9* * *
 
-*lowest common denominator is** *`open parentheses b plus 1 close parentheses squared` * *
+*lowest common denominator is** *$( b + 1 )^{2}$ * *
 
 *Multiply the top-and-bottom of the first fraction by (**b** + 1)*
 
-`fraction numerator a open parentheses b plus 1 close parentheses over denominator open parentheses b plus 1 close parentheses squared end fraction minus a over open parentheses b plus 1 close parentheses squared`
+$\frac{a ( b + 1 )}{( b + 1 )^{2}} - \frac{a}{( b + 1 )^{2}}$
 
 *Write as one single fraction over the common denominator Subtract the numerators* * *
 
-`fraction numerator a open parentheses b plus 1 close parentheses minus a over denominator open parentheses b plus 1 close parentheses squared end fraction`
+$\frac{a ( b + 1 ) - a}{( b + 1 )^{2}}$
 
 **[1]**
 
 *Expand the brackets in the numerator* * *
 
-`fraction numerator a b plus a minus a over denominator open parentheses b plus 1 close parentheses squared end fraction` * *
+$\frac{a b + a - a}{( b + 1 )^{2}}$ * *
 
 > *Collect "like" terms in the numerator*
 
@@ -797,21 +797,21 @@ $\frac{ab}{(b+1)^{2}}$* ***[1***]*
 > *First we need the lowest common denominator (lcd) of **x **- 2 and **x** + 1. *
 *Since these share no common factors, the lcd will be their product.*
 
-`lcd space of space x minus 2 space and space x plus 1 space equals space open parentheses x minus 2 close parentheses open parentheses x plus 1 close parentheses`
+`lcd of x - 2 and x + 1 = ( x - 2 ) ( x + 1 )`
 
 > *Rewrite each fraction over the lcd.*
 
-`table row cell fraction numerator 4 over denominator x minus 2 end fraction end cell equals cell fraction numerator 4 open parentheses x plus 1 close parentheses over denominator open parentheses x minus 2 close parentheses open parentheses x plus 1 close parentheses end fraction end cell row cell fraction numerator 3 over denominator x plus 1 end fraction end cell equals cell fraction numerator 3 open parentheses x minus 2 close parentheses over denominator open parentheses x minus 2 close parentheses open parentheses x plus 1 close parentheses end fraction end cell end table`
+$\begin{gathered} \frac{4}{x - 2} & = \frac{4 ( x + 1 )}{( x - 2 ) ( x + 1 )} \\ \frac{3}{x + 1} & = \frac{3 ( x - 2 )}{( x - 2 ) ( x + 1 )} \end{gathered}$
 
 **[1]**
 
 > *Now subtract the fractions by subtracting the numerators over the denominator (lcd).*
 
-`fraction numerator 4 over denominator open parentheses x minus 2 close parentheses end fraction minus fraction numerator 3 over denominator open parentheses x plus 1 close parentheses end fraction equals fraction numerator 4 open parentheses x plus 1 close parentheses minus 3 open parentheses x minus 2 close parentheses over denominator open parentheses x minus 2 close parentheses open parentheses x plus 1 close parentheses end fraction`
+$\frac{4}{( x - 2 )} - \frac{3}{( x + 1 )} = \frac{4 ( x + 1 ) - 3 ( x - 2 )}{( x - 2 ) ( x + 1 )}$
 
 > *Expand the brackets on the numerator and collect like terms.*
 
-`table attributes columnalign right center left columnspacing 0px end attributes row cell fraction numerator 4 open parentheses x plus 1 close parentheses minus 3 open parentheses x minus 2 close parentheses over denominator open parentheses x minus 2 close parentheses open parentheses x plus 1 close parentheses end fraction end cell equals cell fraction numerator 4 x plus 4 minus 3 x plus 6 over denominator open parentheses x minus 2 close parentheses open parentheses x plus 1 close parentheses end fraction end cell row blank equals cell fraction numerator x plus 10 over denominator open parentheses x minus 2 close parentheses open parentheses x plus 1 close parentheses end fraction end cell end table`
+$\begin{array}{rcl} \frac{4 ( x + 1 ) - 3 ( x - 2 )}{( x - 2 ) ( x + 1 )} & = \frac{4 x + 4 - 3 x + 6}{( x - 2 ) ( x + 1 )} \\ = \frac{x + 10}{( x - 2 ) ( x + 1 )} \end{array}$
 
 **[1]**
 
@@ -824,34 +824,34 @@ $\therefore\frac{4}{x-2}-\frac{3}{x+1}=\frac{x+10}{(x-2)(x+1)}$ **[1]**
 ### 21() — 4 marks
 > *Substitute the second equation into the the first.*
 
-`x equals fraction numerator 5 over denominator 9 open parentheses begin display style fraction numerator 5 over denominator 5 a minus 2 end fraction end style close parentheses plus 5 end fraction`
+$x = \frac{5}{9 ( \frac{5}{5 a - 2} ) + 5}$
 
 **[1]**
 
 > *Work carefully as you will be dealing with fractions within fractions - to deal with this you can write the 'main' fraction as a division statement, as below.*
 
-`x equals 5 divided by open square brackets 9 open parentheses fraction numerator 5 over denominator 5 a minus 2 end fraction close parentheses plus 5 close square brackets`
+$x = 5 \div [ 9 ( \frac{5}{5 a - 2} ) + 5 ]$
 
 > *Multiply out the (round) brackets.*
 
-`x equals 5 divided by open square brackets fraction numerator 45 over denominator 5 a minus 2 end fraction plus 5 close square brackets`
+$x = 5 \div [ \frac{45}{5 a - 2} + 5 ]$
 
 > *Make a common denominator within the square brackets.*
 
-`x equals 5 divided by open square brackets fraction numerator 45 plus 5 open parentheses 5 a minus 2 close parentheses over denominator 5 a minus 2 end fraction close square brackets`
+$x = 5 \div [ \frac{45 + 5 ( 5 a - 2 )}{5 a - 2} ]$
 
 **[1]**
 
 > *Simplify the numerator.*
 
-`table row x equals cell 5 divided by open square brackets fraction numerator 45 plus 25 a minus 10 over denominator 5 a minus 2 end fraction close square brackets end cell row x equals cell 5 divided by open square brackets fraction numerator 35 plus 25 a over denominator 5 a minus 2 end fraction close square brackets end cell row x equals cell 5 divided by open square brackets fraction numerator 5 open parentheses 7 plus 5 a close parentheses over denominator 5 a minus 2 end fraction close square brackets end cell end table`
+$\begin{gathered} x = 5 \div [ \frac{45 + 25 a - 10}{5 a - 2} ] \\ x = 5 \div [ \frac{35 + 25 a}{5 a - 2} ] \\ x = 5 \div [ \frac{5 ( 7 + 5 a )}{5 a - 2} ] \end{gathered}$
 
 **[1]**
 
 > *This is 'dividing by a fraction' so use the shortcut of switching ÷ to × and flipping the (second) fraction.*
 
-`x equals up diagonal strike 5 cross times fraction numerator 5 a minus 2 over denominator up diagonal strike 5 open parentheses 7 plus 5 a close parentheses end fraction
-x equals fraction numerator 5 a minus 2 over denominator 7 plus 5 a end fraction`
+$x = \cancel{5} \times \frac{5 a - 2}{ \cancel{5} ( 7 + 5 a )} 
+x = \frac{5 a - 2}{7 + 5 a}$
 
 > *There isn't anything else that can be simplified or cancelled.*
 
@@ -862,7 +862,7 @@ $x=\frac{5a-2}{7+5a}$* ***[1]**
 ### 22((b)) — 3 marks
 *"Simplify" for algebraic fractions means factorise and cancel* *Factorise the easier quadratic in the numerator, using the "difference of two squares" **a*<sup>*2*</sup>* - **b*<sup>*2*</sup>* = (**a **+ **b**)(**a **- **b**)* * *
 
-`fraction numerator open parentheses x plus 3 close parentheses open parentheses x minus 3 close parentheses over denominator 2 x squared plus 5 x minus 3 end fraction`
+$\frac{( x + 3 ) ( x - 3 )}{2 x^{2} + 5 x - 3}$
 
 **[1]**
 
@@ -870,19 +870,19 @@ $x=\frac{5a-2}{7+5a}$* ***[1]**
 
 *Try factorising with (**x** + 3)* * *
 
-`2 x squared plus 5 x minus 3 equals open parentheses 2 x plus-or-minus... close parentheses open parentheses x plus 3 close parentheses ?` * *
+$2 x^{2} + 5 x - 3 = ( 2 x \pm... ) ( x + 3 ) ?$ * *
 
 > *The whole number -1 in the first bracket would multiply by +3 in the second bracket to give -3 on the left *
 
 *Expanding this attempt shows it is correct* * *
 
-`open parentheses 2 x minus 1 close parentheses open parentheses x plus 3 close parentheses equals 2 x squared plus 5 x minus 3`
+$( 2 x - 1 ) ( x + 3 ) = 2 x^{2} + 5 x - 3$
 
 **[1]**
 
 *Cancel common brackets from top-and-bottom* * *
 
-`fraction numerator up diagonal strike open parentheses x plus 3 close parentheses end strike open parentheses x minus 3 close parentheses over denominator open parentheses 2 x minus 1 close parentheses up diagonal strike open parentheses x plus 3 close parentheses end strike end fraction`
+$\frac{ \cancel{( x + 3 )} ( x - 3 )}{( 2 x - 1 ) \cancel{( x + 3 )} }$
 
 $\frac{x-3}{2x-1}$* ***[1]**
 
@@ -895,13 +895,13 @@ $\frac{x-3}{2x-1}$* ***[1]**
 
 > *Multiply top-and-bottom of each fraction by the numbers needed to form this denominator*
 
-`fraction numerator 3 open parentheses 2 x plus 1 close parentheses over denominator 12 end fraction plus fraction numerator 4 open parentheses x minus 2 close parentheses over denominator 12 end fraction`
+$\frac{3 ( 2 x + 1 )}{12} + \frac{4 ( x - 2 )}{12}$
 
 **[1]**
 
 > *Write as one single fraction over the common denominator Add the numerators*
 
-`fraction numerator 3 open parentheses 2 x plus 1 close parentheses plus 4 open parentheses x minus 2 close parentheses over denominator 12 end fraction`
+$\frac{3 ( 2 x + 1 ) + 4 ( x - 2 )}{12}$
 
 > *Expand the brackets in the numerator*
 
@@ -924,7 +924,7 @@ $\frac{5(2x-1)}{12}$* ***[1]**
 
 > *Spot that the denominator on the left-hand side is the difference of two squares.*
 
-`table row cell fraction numerator 1 over denominator 9 x squared minus 25 end fraction end cell equals cell fraction numerator 1 over denominator open parentheses 3 x minus 5 close parentheses open parentheses 3 x plus 5 close parentheses end fraction end cell row cell fraction numerator 1 over denominator 6 x plus 10 end fraction end cell equals cell fraction numerator 1 over denominator 2 open parentheses 3 x plus 5 close parentheses end fraction end cell end table`
+$\begin{gathered} \frac{1}{9 x^{2} - 25} & = \frac{1}{( 3 x - 5 ) ( 3 x + 5 )} \\ \frac{1}{6 x + 10} & = \frac{1}{2 ( 3 x + 5 )} \end{gathered}$
 
 > *Now look for the lowest common denominator (lcd) of (3**x** - 5)(3**x** + 5) and 2(3**x** + 5).*
 
@@ -932,7 +932,7 @@ $\frac{5(2x-1)}{12}$* ***[1]**
 
 > *Write the difference over a single denominator.*
 
-`fraction numerator 1 over denominator 9 x squared minus 25 end fraction minus fraction numerator 1 over denominator 6 x plus 10 end fraction equals fraction numerator 1 cross times 2 minus 1 cross times open parentheses 3 x minus 5 close parentheses over denominator 2 open parentheses 3 x plus 5 close parentheses open parentheses 3 x minus 5 close parentheses end fraction`
+$\frac{1}{9 x^{2} - 25} - \frac{1}{6 x + 10} = \frac{1 \times 2 - 1 \times ( 3 x - 5 )}{2 ( 3 x + 5 ) ( 3 x - 5 )}$
 
 > *Simplify the numerator.*
 
@@ -954,19 +954,19 @@ $\mathrm{lcd} \mathrm{of}5\mathrm{and}2=10$
 
 > *Rewrite the left-hand side of the equation as a single fraction over the lcd and simplify the numerator.*
 
-`table row cell fraction numerator 4 minus 3 x over denominator 5 end fraction minus fraction numerator 3 x minus 5 over denominator 2 end fraction end cell equals cell fraction numerator 2 open parentheses 4 minus 3 x close parentheses minus 5 open parentheses 3 x minus 5 close parentheses over denominator 10 end fraction end cell row blank equals cell fraction numerator 8 minus 6 x minus 15 x plus 25 over denominator 10 end fraction end cell row blank equals cell fraction numerator 33 minus 21 x over denominator 10 end fraction end cell end table`
+$\begin{gathered} \frac{4 - 3 x}{5} - \frac{3 x - 5}{2} & = \frac{2 ( 4 - 3 x ) - 5 ( 3 x - 5 )}{10} \\ = \frac{8 - 6 x - 15 x + 25}{10} \\ = \frac{33 - 21 x}{10} \end{gathered}$
 
 **[1]**
 
 > *Now bring the right-hand side of the equation in and multiply through by 10 to remove the fraction.*
 
-`table attributes columnalign right center left columnspacing 0px end attributes row cell fraction numerator 33 minus 21 x over denominator 10 end fraction end cell equals cell negative 3 end cell row cell 33 minus 21 x end cell equals cell negative 30 end cell end table`
+$\begin{array}{rcl} \frac{33 - 21 x}{10} & = - 3 \\ 33 - 21 x & = - 30 \end{array}$
 
 **[1]**
 
 > *Solve this linear equation to find **x**.*
 
-`table attributes columnalign right center left columnspacing 0px end attributes row cell 33 minus 21 x end cell equals cell negative 30 end cell row cell 21 x end cell equals cell 33 plus 30 end cell row cell 21 x end cell equals 63 row x equals 3 end table`
+$\begin{array}{rcl} 33 - 21 x & = - 30 \\ 21 x & = 33 + 30 \\ 21 x & = 63 \\ x = 3 \end{array}$
 
 $x=3$ **[1]**
 
@@ -981,7 +981,7 @@ $\mathrm{lcd} \mathrm{of}3x,5x\mathrm{and}10x=30x$
 
 > *Rewrite each fraction over the lcd.*
 
-`table row cell fraction numerator 2 over denominator 3 x end fraction end cell equals cell fraction numerator 2 cross times 10 over denominator 30 x end fraction equals fraction numerator 20 over denominator 30 x end fraction end cell row cell fraction numerator 4 over denominator 5 x end fraction end cell equals cell fraction numerator 4 cross times 6 over denominator 30 x end fraction equals fraction numerator 24 over denominator 30 x end fraction end cell row cell fraction numerator 9 over denominator 10 x end fraction end cell equals cell fraction numerator 9 cross times 3 over denominator 30 x end fraction equals fraction numerator 27 over denominator 30 x end fraction end cell end table`
+$\begin{gathered} \frac{2}{3 x} & = \frac{2 \times 10}{30 x} = \frac{20}{30 x} \\ \frac{4}{5 x} & = \frac{4 \times 6}{30 x} = \frac{24}{30 x} \\ \frac{9}{10 x} & = \frac{9 \times 3}{30 x} = \frac{27}{30 x} \end{gathered}$
 
 **[1]**
 
@@ -1002,19 +1002,19 @@ $\therefore\frac{2}{3x}+\frac{4}{5x}-\frac{9}{10x}=\frac{17}{30x}$ **[1]**
 
 > *However we can manipulate 4*<sup>*n*</sup>* using the laws of indices.*
 
-> *Rewrite 4 as 2*<sup>*2*</sup>* and use the law of indices "*`open parentheses a to the power of m close parentheses to the power of n equals a to the power of m n end exponent`*".*
+> *Rewrite 4 as 2*<sup>*2*</sup>* and use the law of indices "*$( a^{m )^{n} = a^{m} n}$*".*
 
-`fraction numerator 2 to the power of n minus 1 over denominator open parentheses 2 squared close parentheses to the power of n minus 1 end fraction equals fraction numerator 2 to the power of n minus 1 over denominator open parentheses 2 to the power of n close parentheses squared minus 1 end fraction`
+$\frac{2^{n} - 1}{( 2^{2} )^{n} - 1} = \frac{2^{n} - 1}{( 2^{n} )^{2} - 1}$
 
 > *The denominator is of the form "*$a^{2}-b^{2}$*" and so is the difference of two squares.*
 
-`fraction numerator 2 to the power of n minus 1 over denominator open parentheses 2 to the power of n minus 1 close parentheses open parentheses 2 to the power of n plus 1 close parentheses end fraction`
+$\frac{2^{n} - 1}{( 2^{n} - 1 ) ( 2^{n} + 1 )}$
 
 **[1]**
 
 > *There is now a factor of *$2^{n}-1$*on the numerator and denominator.*
 
-`fraction numerator up diagonal strike open parentheses 2 to the power of n minus 1 close parentheses end strike over denominator up diagonal strike open parentheses 2 to the power of n minus 1 close parentheses end strike open parentheses 2 to the power of n plus 1 close parentheses end fraction`
+$\frac{ \cancel{( 2^{n} - 1 )} }{ \cancel{( 2^{n} - 1 )} ( 2^{n} + 1 )}$
 
 $\therefore\frac{2^{n}-1}{4^{n}-1}=\frac{1}{2^{n}+1}$* ***[1]**
 
@@ -1027,33 +1027,33 @@ $\therefore\frac{2^{n}-1}{4^{n}-1}=\frac{1}{2^{n}+1}$* ***[1]**
 
 > *Spot that *$x^{2}+2x$* can be factorised as that makes the lcd easier to spot.*
 
-`x squared plus 2 x equals x open parentheses x plus 2 close parentheses` `lcd space of space x plus 2 space and space x open parentheses x plus 2 close parentheses space equals space x open parentheses x plus 2 close parentheses`
+$x^{2} + 2 x = x ( x + 2 )$ `lcd of x + 2 and x ( x + 2 ) = x ( x + 2 )`
 
 > *Rewrite the left-hand side of the equation as a single fraction over the lcd.*
 
-`table attributes columnalign right center left columnspacing 0px end attributes row cell fraction numerator 5 over denominator x plus 2 end fraction plus fraction numerator 3 over denominator x squared plus 2 x end fraction end cell equals cell fraction numerator 5 x plus 3 over denominator x open parentheses x plus 2 close parentheses end fraction end cell end table`
+$\begin{array}{rcl} \frac{5}{x + 2} + \frac{3}{x^{2} + 2 x} & = \frac{5 x + 3}{x ( x + 2 )} \end{array}$
 
 **[1]**
 
-> *Now bring the right-hand side of the equation in and multiply through by *`x open parentheses x plus 2 close parentheses`* to remove the fraction.*
+> *Now bring the right-hand side of the equation in and multiply through by *$x ( x + 2 )$* to remove the fraction.*
 
-`table attributes columnalign right center left columnspacing 0px end attributes row cell fraction numerator 5 x plus 3 over denominator x open parentheses x plus 2 close parentheses end fraction end cell equals 2 row cell 5 x plus 3 end cell equals cell 2 x open parentheses x plus 2 close parentheses end cell end table`
+$\begin{array}{rcl} \frac{5 x + 3}{x ( x + 2 )} & = 2 \\ 5 x + 3 & = 2 x ( x + 2 ) \end{array}$
 
 **[1]**
 
 > *Expand and simplify, taking all terms to one side.*
 
-`table row cell 5 x plus 3 end cell equals cell 2 x open parentheses x plus 2 close parentheses end cell row cell 5 x plus 3 end cell equals cell 2 x squared plus 4 x end cell row cell 2 x squared minus x minus 3 end cell equals 0 end table`
+$\begin{gathered} 5 x + 3 & = 2 x ( x + 2 ) \\ 5 x + 3 & = 2 x^{2} + 4 x \\ 2 x^{2} - x - 3 & = 0 \end{gathered}$
 
 **[1]**
 
 > *Solve the resulting quadratic equation by factorising to find **x**.*
 
-`table attributes columnalign right center left columnspacing 0px end attributes row cell 2 x squared minus x minus 3 end cell equals 0 row cell open parentheses 2 x minus 3 close parentheses open parentheses x plus 1 close parentheses end cell equals 0 end table`
+$\begin{array}{rcl} 2 x^{2} - x - 3 & = 0 \\ ( 2 x - 3 ) ( x + 1 ) & = 0 \end{array}$
 
 **[1]**
 
-`table row x equals cell 1.5 space and space x equals negative 1 end cell end table`
+`| x = 1.5 and x = - 1 | |`
 
 $x=-1,x=1.5$ **[1]**
 
@@ -1064,7 +1064,7 @@ $x=-1,x=1.5$ **[1]**
 
 > *These can be factorised but notice in particular that the denominator is the difference of two squares.*
 
-`fraction numerator 10 x squared plus 23 x plus 12 over denominator 4 x squared minus 9 end fraction equals fraction numerator open parentheses 5 x plus 4 close parentheses up diagonal strike open parentheses 2 x plus 3 close parentheses end strike over denominator up diagonal strike open parentheses 2 x plus 3 close parentheses end strike open parentheses 2 x minus 3 close parentheses end fraction`
+$\frac{10 x^{2} + 23 x + 12}{4 x^{2} - 9} = \frac{( 5 x + 4 ) \cancel{( 2 x + 3 )} }{ \cancel{( 2 x + 3 )} ( 2 x - 3 )}$
 
 **Factorising numerator**** [1] **
 **Factorising denominator**** [1]**
@@ -1094,23 +1094,23 @@ $\frac{731}{x}+\frac{287}{x-24}=2$
 
 > *Now write the left-hand side of the equation such that both fractions have the same denominator; the first will need both numerator and denominator multiplying by (**x** - 24); the second will need both multiplying by **x**.*
 
-`731 over x plus fraction numerator 287 over denominator x minus 24 end fraction equals fraction numerator 731 open parentheses x minus 24 close parentheses over denominator x open parentheses x minus 24 close parentheses end fraction plus fraction numerator 287 x over denominator x open parentheses x minus 24 close parentheses end fraction`
+$\frac{731}{x} + \frac{287}{x - 24} = \frac{731 ( x - 24 )}{x ( x - 24 )} + \frac{287 x}{x ( x - 24 )}$
 
 **[1]**
 
 > *Now the left-hand side can be written as a single fraction. Expand the bracket and simplify the numerator.*
 
-`table row cell fraction numerator 731 open parentheses x minus 24 close parentheses over denominator x open parentheses x minus 24 close parentheses end fraction plus fraction numerator 287 x over denominator x open parentheses x minus 24 close parentheses end fraction end cell equals cell fraction numerator 731 x minus 17 space 544 plus 287 x over denominator x open parentheses x minus 24 close parentheses end fraction end cell row blank equals cell fraction numerator 1018 x minus 17 space 544 over denominator x open parentheses x minus 24 close parentheses end fraction end cell end table`
+$\begin{gathered} \frac{731 ( x - 24 )}{x ( x - 24 )} + \frac{287 x}{x ( x - 24 )} & = \frac{731 x - 17 544 + 287 x}{x ( x - 24 )} \\ = \frac{1018 x - 17 544}{x ( x - 24 )} \end{gathered}$
 
 > *Now bring in the right-hand side of the equation. *
 
 > *To remove the fraction, multiply both sides of the equation by its denominator (**x**(**x** - 24)).*
 
-`table row cell fraction numerator 1018 x minus 17 space 544 over denominator x open parentheses x minus 24 close parentheses end fraction end cell equals 2 row cell 1018 x minus 17 space 544 end cell equals cell 2 x open parentheses x minus 24 close parentheses end cell end table`
+$\begin{gathered} \frac{1018 x - 17 544}{x ( x - 24 )} & = 2 \\ 1018 x - 17 544 & = 2 x ( x - 24 ) \end{gathered}$
 
 > *Expand the brackets and rearrange to form a quadratic equation.*
 
-`table row cell 1018 x minus 17 space 544 end cell equals cell 2 x squared minus 48 x end cell row cell 2 x squared minus 1066 x plus 17 space 544 end cell equals 0 end table`
+$\begin{gathered} 1018 x - 17 544 & = 2 x^{2} - 48 x \\ 2 x^{2} - 1066 x + 17 544 & = 0 \end{gathered}$
 
 **[1]**
 
@@ -1120,7 +1120,7 @@ $x^{2}-533x+8772=0$
 
 > *This does factorise!  But as the values are awkward you may find it easier to use the quadratic formula.*
 
-`table row x equals cell fraction numerator 533 plus-or-minus square root of open parentheses negative 533 close parentheses squared minus 4 open parentheses 1 close parentheses open parentheses 8772 close parentheses end root over denominator 2 end fraction end cell row x equals cell fraction numerator 533 plus-or-minus 499 over denominator 2 end fraction end cell row x equals cell 516 space space or space space x equals 17 end cell end table`
+$\begin{gathered} x = \frac{533 \pm \sqrt{( - 533 )^{2} - 4 ( 1 ) ( 8772 )} }{2} \\ x = \frac{533 \pm 499}{2} \\ x = 516 \text{or} x = 17 \end{gathered}$
 
 **[1]**
 
@@ -1137,13 +1137,13 @@ $\thereforex=516$* ***[1]**
 
 > *The numerator has a factor of **x*<sup>*3*</sup>* and the denominator has a factor of 3.*
 
-`fraction numerator x to the power of 5 minus 4 x cubed over denominator 3 x minus 6 end fraction equals fraction numerator x cubed open parentheses x squared minus 4 close parentheses over denominator 3 open parentheses x minus 2 close parentheses end fraction`
+$\frac{x^{5} - 4 x^{3}}{3 x - 6} = \frac{x^{3} ( x^{2} - 4 )}{3 ( x - 2 )}$
 
 **[1]**
 
 > *Beware! The numerator can still be factorised further; (**x*<sup>*2*</sup>* - 4) is the difference of two squares.*
 
-`fraction numerator x cubed open parentheses x squared minus 4 close parentheses over denominator 3 open parentheses x minus 2 close parentheses end fraction equals fraction numerator x cubed open parentheses x plus 2 close parentheses open parentheses x minus 2 close parentheses over denominator 3 open parentheses x minus 2 close parentheses end fraction`
+$\frac{x^{3} ( x^{2} - 4 )}{3 ( x - 2 )} = \frac{x^{3} ( x + 2 ) ( x - 2 )}{3 ( x - 2 )}$
 
 **[1]**
 
@@ -1160,11 +1160,11 @@ $\therefore\frac{x^{5}-4x^{3}}{3x-6}=\frac{x^{3}(x+2)}{3}$* ***[1] **
 
 > *So we only need add the numerators.*
 
-`table row cell 3 over x plus 4 over x end cell equals cell fraction numerator 3 plus 4 over denominator x end fraction end cell row blank equals cell 7 over x end cell end table`
+$\begin{gathered} \frac{3}{x} + \frac{4}{x} & = \frac{3 + 4}{x} \\ = \frac{7}{x} \end{gathered}$
 
 > *The first option should be circled.*
 
-| `circle enclose bold 7 over bold italic x end enclose` | $\frac{7}{2x}$ | $\frac{12}{x}$ | $\frac{12}{x^{2}}$ |
+| `circle 7 / x` | $\frac{7}{2x}$ | $\frac{12}{x}$ | $\frac{12}{x^{2}}$ |
 |---|---|---|---|
 
 **[1]**
@@ -1176,13 +1176,13 @@ $\therefore\frac{x^{5}-4x^{3}}{3x-6}=\frac{x^{3}(x+2)}{3}$* ***[1] **
 
 *To remove fractions, we multiply both sides of the equation by its denominator.* *So first, multiply both sides of the equation by (4**x** + 1) to remove the fraction on the left-hand side.*
 
-`5 equals fraction numerator 2 x open parentheses 4 x plus 1 close parentheses over denominator x squared plus 3 end fraction`
+$5 = \frac{2 x ( 4 x + 1 )}{x^{2} + 3}$
 
 **[1]**
 
 > *Next multiply both sides by (**x*<sup>*2*</sup>* + 3) to remove the fraction on the right-hand side.*
 
-`5 open parentheses x squared plus 3 close parentheses equals 2 x open parentheses 4 x plus 1 close parentheses`
+$5 ( x^{2} + 3 ) = 2 x ( 4 x + 1 )$
 
 **[1]**
 
@@ -1190,15 +1190,15 @@ $\therefore\frac{x^{5}-4x^{3}}{3x-6}=\frac{x^{3}(x+2)}{3}$* ***[1] **
 
 > *Expand, collect like terms and rearrange to obtain a quadratic equation.*
 
-`table row cell 5 x squared plus 15 end cell equals cell 8 x squared plus 2 x end cell row cell 3 x squared plus 2 x minus 15 end cell equals 0 end table`
+$\begin{gathered} 5 x^{2} + 15 & = 8 x^{2} + 2 x \\ 3 x^{2} + 2 x - 15 & = 0 \end{gathered}$
 
 **[1]**
 
 > *Solve the equation using the quadratic formula - the fact the question requires solutions to 3 significant figures suggests this equation will not factorise (easily).*
 
-`x equals fraction numerator negative 2 plus-or-minus square root of open parentheses 2 close parentheses squared minus 4 open parentheses 3 close parentheses open parentheses negative 15 close parentheses end root over denominator 2 cross times 3 end fraction
-x equals fraction numerator negative 2 plus-or-minus 2 square root of 46 over denominator 6 end fraction
-x equals 1.927 space 443 space... space space or space space x equals negative 2.594 space 109 space...`
+$x = \frac{- 2 \pm \sqrt{( 2 )^{2} - 4 ( 3 ) ( - 15 )} }{2 \times 3} 
+x = \frac{- 2 \pm 2 \sqrt{46} }{6} 
+x = 1.927 443 ... \text{or} x = - 2.594 109 ...$
 
 **[1]**
 
@@ -1213,7 +1213,7 @@ $x=1.93,x=-2.59$**  (3 s.f.)*** ***[1]**
 
 > *The numerator has a factor of 8 and the denominator has a factor of 4.*
 
-`fraction numerator 8 x squared minus 8 over denominator 4 x plus 4 end fraction equals fraction numerator 8 open parentheses x squared minus 1 close parentheses over denominator 4 open parentheses x plus 1 close parentheses end fraction`
+$\frac{8 x^{2} - 8}{4 x + 4} = \frac{8 ( x^{2} - 1 )}{4 ( x + 1 )}$
 
 **[1]**
 
@@ -1221,7 +1221,7 @@ $x=1.93,x=-2.59$**  (3 s.f.)*** ***[1]**
 
 > *The numerator can still be factorised further; (**x*<sup>*2*</sup>* - 1) is the difference of two squares.*
 
-`fraction numerator 8 open parentheses x squared minus 1 close parentheses over denominator 4 open parentheses x plus 1 close parentheses end fraction equals fraction numerator 8 open parentheses x plus 1 close parentheses open parentheses x minus 1 close parentheses over denominator 4 open parentheses x plus 1 close parentheses end fraction`
+$\frac{8 ( x^{2} - 1 )}{4 ( x + 1 )} = \frac{8 ( x + 1 ) ( x - 1 )}{4 ( x + 1 )}$
 
 **[1]**
 
@@ -1229,7 +1229,7 @@ $x=1.93,x=-2.59$**  (3 s.f.)*** ***[1]**
 
 > *There are common factors of 4 and (**x** + 1) on the numerator and denominator.*
 
-`table row cell fraction numerator table row 2 row cell down diagonal strike 8 up diagonal strike open parentheses x plus 1 close parentheses end strike open parentheses x minus 1 close parentheses end cell end table over denominator table row cell down diagonal strike 4 up diagonal strike open parentheses x plus 1 close parentheses end strike end cell row 1 end table end fraction end cell equals cell fraction numerator 2 open parentheses x minus 1 close parentheses over denominator 1 end fraction end cell row blank equals cell 2 open parentheses x minus 1 close parentheses end cell end table`
+`| (| 2 | / 8 / ( x + 1 ) ( x - 1 ) | |)/(| / 4 / ( x + 1 ) | | 1 |) | = (2 ( x - 1 ))/(1) | | _ = 2 ( x - 1 ) | |`
 
 > *Finally, expand the bracket to get the final answer in the correct form.*
 
@@ -1245,7 +1245,7 @@ $\therefore\frac{8x^{2}-8}{4x+4}=2x-2$*,  ***i.e.**** a ****= 2, ****b**** = -2*
 *25 and 5 share a common factor 5* 
 *2 and 8 share a common factor 2*
 
-`fraction numerator table row 5 row cell up diagonal strike 25 a end cell end table over denominator table row cell up diagonal strike 8 end cell row 4 end table end fraction cross times fraction numerator table row 1 row cell up diagonal strike 2 a end cell end table over denominator table row cell up diagonal strike 5 end cell row 1 end table end fraction`
+$\frac{ \begin{gathered} 5 \\ \cancel{25} a \end{gathered} }{ \begin{gathered} \cancel{8} \\ 4 \end{gathered} } \times \frac{ \begin{gathered} 1 \\ \cancel{2} a \end{gathered} }{ \begin{gathered} \cancel{5} \\ 1 \end{gathered} }$
 
 > *Be careful if there is lots of crossing out and if it helps, rewrite the simplified fractions, then multiply.*
 
@@ -1267,11 +1267,11 @@ $\therefore\frac{25a}{8}\times\frac{2a}{5}=\frac{5a^{2}}{4}$
 
 > *So first, multiply both sides of the equation by (**x** + 4) to remove the first fraction on the left-hand side.*
 
-`x plus fraction numerator 7 open parentheses x plus 4 close parentheses over denominator x minus 2 end fraction equals open parentheses x plus 4 close parentheses`
+$x + \frac{7 ( x + 4 )}{x - 2} = ( x + 4 )$
 
 > *Next multiply both sides by (**x** - 2) to remove the other fraction.*
 
-`x open parentheses x minus 2 close parentheses plus 7 open parentheses x plus 4 close parentheses equals open parentheses x plus 4 close parentheses open parentheses x minus 2 close parentheses`
+$x ( x - 2 ) + 7 ( x + 4 ) = ( x + 4 ) ( x - 2 )$
 
 **For **$x(x-2)or7(x+4)$** [1] **
 **For full correct equation**** [1]**
@@ -1280,7 +1280,7 @@ $\therefore\frac{25a}{8}\times\frac{2a}{5}=\frac{5a^{2}}{4}$
 
 > *Expand, collect like terms and rearrange to obtain a linear equation.*
 
-`table attributes columnalign right center left columnspacing 0px end attributes row cell x squared minus 2 x plus 7 x plus 28 end cell equals cell x squared plus 2 x minus 8 end cell row cell 3 x plus 36 end cell equals 0 end table`
+$\begin{array}{rcl} x^{2} - 2 x + 7 x + 28 & = x^{2} + 2 x - 8 \\ 3 x + 36 & = 0 \end{array}$
 
 **[1]**
 
@@ -1295,15 +1295,15 @@ $x=-12$* ***[1]**
 ### 16() — 4 marks
 > *First spot that x2 - 1 is the difference of two squares.*
 
-`x squared minus 1 equals open parentheses x plus 1 close parentheses open parentheses x minus 1 close parentheses`
+$x^{2} - 1 = ( x + 1 ) ( x - 1 )$
 
 > *We now require the lowest common denominator of (**x** + 1)(**x** - 1) and (**x** + 1).*
 
-*lowest common denominator is** *`open parentheses x plus 1 close parentheses open parentheses x minus 1 close parentheses`
+*lowest common denominator is** *$( x + 1 ) ( x - 1 )$
 
 > *The first fraction already has this denominator (in completed square form) so we need to multiply the numerator and denominator of the second fraction by (**x** - 1).*
 
-`fraction numerator x plus 9 over denominator open parentheses x plus 1 close parentheses open parentheses x minus 1 close parentheses end fraction plus fraction numerator 4 open parentheses x minus 1 close parentheses over denominator open parentheses x plus 1 close parentheses open parentheses x minus 1 close parentheses end fraction`
+$\frac{x + 9}{( x + 1 ) ( x - 1 )} + \frac{4 ( x - 1 )}{( x + 1 ) ( x - 1 )}$
 
 **[1]**
 
@@ -1311,21 +1311,21 @@ $x=-12$* ***[1]**
 
 > *Add the numerators.*
 
-`fraction numerator x plus 9 plus 4 open parentheses x minus 1 close parentheses over denominator open parentheses x plus 1 close parentheses open parentheses x minus 1 close parentheses end fraction`
+$\frac{x + 9 + 4 ( x - 1 )}{( x + 1 ) ( x - 1 )}$
 
 > *Expand the brackets in the numerator.*
 
-`fraction numerator x plus 9 plus 4 x minus 4 over denominator open parentheses x plus 1 close parentheses open parentheses x minus 1 close parentheses end fraction`
+$\frac{x + 9 + 4 x - 4}{( x + 1 ) ( x - 1 )}$
 
 **[1]*** *
 
 > *Collect "like" terms in the numerator.*
 
-`fraction numerator 5 x plus 5 over denominator open parentheses x plus 1 close parentheses open parentheses x minus 1 close parentheses end fraction`
+$\frac{5 x + 5}{( x + 1 ) ( x - 1 )}$
 
 > *The numerator factorises.*
 
-`fraction numerator 5 open parentheses x plus 1 close parentheses over denominator open parentheses x plus 1 close parentheses open parentheses x minus 1 close parentheses end fraction`
+$\frac{5 ( x + 1 )}{( x + 1 ) ( x - 1 )}$
 
 **[1]**
 
@@ -1344,18 +1344,18 @@ $\frac{x+9}{x^{2}-1}+\frac{4}{x+1}=\frac{5}{x-1},i.e.a=5$* ***[1***]*
 
 > *Now rewrite the fractions with the common denominator.*
 
-`table row cell fraction numerator x plus 4 over denominator 3 x end fraction minus fraction numerator 5 over denominator 2 x end fraction end cell equals cell fraction numerator 2 open parentheses x plus 4 close parentheses over denominator 6 x end fraction minus fraction numerator 3 cross times 5 over denominator 6 x end fraction end cell end table`
+$\begin{gathered} \frac{x + 4}{3 x} - \frac{5}{2 x} & = \frac{2 ( x + 4 )}{6 x} - \frac{3 \times 5}{6 x} \end{gathered}$
 
 **One correct fraction**** [1] **
 **Both correct**** [1]**
 
 > *Now we can write this as a single fraction, subtracting the numerators.*
 
-`fraction numerator 2 open parentheses x plus 4 close parentheses over denominator 6 x end fraction minus fraction numerator 3 cross times 5 over denominator 6 x end fraction equals fraction numerator 2 open parentheses x plus 4 close parentheses minus 15 over denominator 6 x end fraction`
+$\frac{2 ( x + 4 )}{6 x} - \frac{3 \times 5}{6 x} = \frac{2 ( x + 4 ) - 15}{6 x}$
 
 > *Expand and simplify the numerator.*
 
-`table attributes columnalign right center left columnspacing 0px end attributes row cell fraction numerator 2 open parentheses x plus 4 close parentheses minus 15 over denominator 6 x end fraction end cell equals cell fraction numerator 2 x plus 8 minus 15 over denominator 6 x end fraction end cell row blank equals cell fraction numerator 2 x minus 7 over denominator 6 x end fraction end cell end table`
+$\begin{array}{rcl} \frac{2 ( x + 4 ) - 15}{6 x} & = \frac{2 x + 8 - 15}{6 x} \\ = \frac{2 x - 7}{6 x} \end{array}$
 
 > *Nothing else can be factorised/simplified/cancelled.*
 
@@ -1374,37 +1374,37 @@ $\frac{x+4}{3x}-\frac{5}{2x}=\frac{2x-7}{6x}$**,  i.e. ****a**** = 2, ****b**** 
 
 > *The first fraction will need its numerator multiplying by (**x** + 2) and the second fraction by 4.*
 
-`x over 4 minus fraction numerator 2 x over denominator x plus 2 end fraction equals fraction numerator x open parentheses x plus 2 close parentheses over denominator 4 open parentheses x plus 2 close parentheses end fraction minus fraction numerator 2 x cross times 4 over denominator 4 open parentheses x plus 2 close parentheses end fraction`
+$\frac{x}{4} - \frac{2 x}{x + 2} = \frac{x ( x + 2 )}{4 ( x + 2 )} - \frac{2 x \times 4}{4 ( x + 2 )}$
 
 **[1]**
 
 > *Write as a single fraction over the common denominator;  expand and simplify the numerator.*
 
-`table row cell fraction numerator x open parentheses x plus 2 close parentheses over denominator 4 open parentheses x plus 2 close parentheses end fraction minus fraction numerator 2 x cross times 4 over denominator 4 open parentheses x plus 2 close parentheses end fraction end cell equals cell fraction numerator x squared plus 2 x minus 8 x over denominator 4 open parentheses x plus 2 close parentheses end fraction end cell row blank equals cell fraction numerator x squared minus 6 x over denominator 4 open parentheses x plus 2 close parentheses end fraction end cell end table`
+$\begin{gathered} \frac{x ( x + 2 )}{4 ( x + 2 )} - \frac{2 x \times 4}{4 ( x + 2 )} & = \frac{x^{2} + 2 x - 8 x}{4 ( x + 2 )} \\ = \frac{x^{2} - 6 x}{4 ( x + 2 )} \end{gathered}$
 
 **[1]**
 
 > *Factorise the numerator and cancel any common factors.*
 
-`fraction numerator x squared minus 6 x over denominator 4 open parentheses x plus 2 close parentheses end fraction equals fraction numerator x open parentheses x minus 6 close parentheses over denominator 4 open parentheses x plus 2 close parentheses end fraction`
+$\frac{x^{2} - 6 x}{4 ( x + 2 )} = \frac{x ( x - 6 )}{4 ( x + 2 )}$
 
 *There are no common factors to cancel.*
 
 > *Bring in the right-hand side of the equation and remove the fraction by multiplying both sides of the equation by the denominator.*
 
-`table attributes columnalign right center left columnspacing 0px end attributes row cell fraction numerator x open parentheses x minus 6 close parentheses over denominator 4 open parentheses x plus 2 close parentheses end fraction end cell equals 1 row cell x open parentheses x minus 6 close parentheses end cell equals cell 4 open parentheses x plus 2 close parentheses end cell end table`
+$\begin{array}{rcl} \frac{x ( x - 6 )}{4 ( x + 2 )} & = 1 \\ x ( x - 6 ) & = 4 ( x + 2 ) \end{array}$
 
 **[1]**
 
 > *Expand and rearrange to get a quadratic equation.*
 
-`table row cell x squared minus 6 x end cell equals cell 4 x plus 8 end cell row cell x squared minus 10 x minus 8 end cell equals 0 end table`
+$\begin{gathered} x^{2} - 6 x & = 4 x + 8 \\ x^{2} - 10 x - 8 & = 0 \end{gathered}$
 
 **[1]**
 
 > *The question suggests this quadratic will not factorise. (easily) as it is asking for answers to 2 decimal places so use the quadratic formula.*
 
-`table row x equals cell fraction numerator 10 plus-or-minus square root of open parentheses negative 10 close parentheses squared minus 4 open parentheses 1 close parentheses open parentheses negative 8 close parentheses end root over denominator 2 cross times 1 end fraction end cell row x equals cell 5 plus-or-minus square root of 33 end cell row x equals cell 10.744 space 562 space... space space or space space x equals negative 0.744 space 562 space... end cell end table`
+$\begin{gathered} x = \frac{10 \pm \sqrt{( - 10 )^{2} - 4 ( 1 ) ( - 8 )} }{2 \times 1} \\ x = 5 \pm \sqrt{33} \\ x = 10.744 562 ... \text{or} x = - 0.744 562 ... \end{gathered}$
 
 **[1]**
 
@@ -1417,40 +1417,40 @@ $x=10.74,x=-0.74$  **(2 d.p.)** **[1]**
 ### 21() — 6 marks
 > *First we need the lowest common denominator of (**x** + 5)(**x** - 7) and (**x** + 5)(**x** - 7).*
 
-*lowest common denominator is** *`open parentheses x plus 5 close parentheses open parentheses x minus 7 close parentheses`
+*lowest common denominator is** *$( x + 5 ) ( x - 7 )$
 
 > *The last fraction already has this denominator so we need to multiply the numerator and denominator of the first fraction by (**x** + 5) and similarly for the second fraction by (**x** - 7).*
 
-`fraction numerator 5 x open parentheses x minus 7 close parentheses over denominator open parentheses x plus 5 close parentheses open parentheses x minus 7 close parentheses end fraction plus fraction numerator 25 open parentheses x plus 5 close parentheses over denominator open parentheses x plus 5 close parentheses open parentheses x minus 7 close parentheses end fraction minus fraction numerator 300 over denominator open parentheses x plus 5 close parentheses open parentheses x minus 7 close parentheses end fraction`
+$\frac{5 x ( x - 7 )}{( x + 5 ) ( x - 7 )} + \frac{25 ( x + 5 )}{( x + 5 ) ( x - 7 )} - \frac{300}{( x + 5 ) ( x - 7 )}$
 
 **Common denominator**** [1] **
 **Both of the first two numerators**** [1]**
 
 > *Write as one single fraction over the common denominator. Add/subtract the numerators accordingly.*
 
-`fraction numerator 5 x open parentheses x minus 7 close parentheses plus 25 open parentheses x plus 5 close parentheses minus 300 over denominator open parentheses x plus 5 close parentheses open parentheses x minus 7 close parentheses end fraction`
+$\frac{5 x ( x - 7 ) + 25 ( x + 5 ) - 300}{( x + 5 ) ( x - 7 )}$
 
 > *Expand the brackets in the numerator.*
 
-`fraction numerator 5 x squared minus 35 x plus 25 x plus 125 minus 300 over denominator open parentheses x plus 5 close parentheses open parentheses x minus 7 close parentheses end fraction`
+$\frac{5 x^{2} - 35 x + 25 x + 125 - 300}{( x + 5 ) ( x - 7 )}$
 
 **[1]**
 
 > *Collect "like" terms in the numerator.*
 
-`fraction numerator 5 x squared minus 10 x minus 175 over denominator open parentheses x plus 5 close parentheses open parentheses x minus 7 close parentheses end fraction`
+$\frac{5 x^{2} - 10 x - 175}{( x + 5 ) ( x - 7 )}$
 
 **[1]**
 
 > *The numerator factorises.  Taking a factor of 5 out first will make the (remaining) quadratic easier to deal with.*
 
-`fraction numerator 5 open parentheses x squared minus 2 x minus 35 close parentheses over denominator open parentheses x plus 5 close parentheses open parentheses x minus 7 close parentheses end fraction equals fraction numerator 5 open parentheses x minus 7 close parentheses open parentheses x plus 5 close parentheses over denominator open parentheses x plus 5 close parentheses open parentheses x minus 7 close parentheses end fraction`
+$\frac{5 ( x^{2} - 2 x - 35 )}{( x + 5 ) ( x - 7 )} = \frac{5 ( x - 7 ) ( x + 5 )}{( x + 5 ) ( x - 7 )}$
 
 **[1]**
 
 > *There are now factors of (**x** - 7) and (**x** + 5) on both the numerator and the denominator, so these cancel.*
 
-`fraction numerator 5 up diagonal strike open parentheses x minus 7 close parentheses end strike down diagonal strike open parentheses x plus 5 close parentheses end strike over denominator down diagonal strike open parentheses x plus 5 close parentheses end strike up diagonal strike open parentheses x minus 7 close parentheses end strike end fraction equals 5`
+`(5 / ( x - 7 ) / ( x + 5 ) )/(/ ( x + 5 ) / ( x - 7 ) ) = 5`
 
 $\therefore\frac{5x}{x+5}+\frac{25}{x-7}-\frac{300}{(x+5)(x-7)}=5$* ***[1***]*
 
@@ -1461,17 +1461,17 @@ $\therefore\frac{5x}{x+5}+\frac{25}{x-7}-\frac{300}{(x+5)(x-7)}=5$* ***[1***]*
 
 > *In this case the denominator can be.*
 
-`fraction numerator 3 x squared over denominator 6 x squared plus 3 end fraction equals fraction numerator 3 x squared over denominator 3 open parentheses 2 x squared plus 1 close parentheses end fraction`
+$\frac{3 x^{2}}{6 x^{2} + 3} = \frac{3 x^{2}}{3 ( 2 x^{2} + 1 )}$
 
 > *We can now see there is a factor of 3 on both the numerator and denominator so these will cancel.*
 
-`fraction numerator 3 x squared over denominator 3 open parentheses 2 x squared plus 1 close parentheses end fraction equals fraction numerator x squared over denominator 2 x squared plus 1 end fraction`
+$\frac{3 x^{2}}{3 ( 2 x^{2} + 1 )} = \frac{x^{2}}{2 x^{2} + 1}$
 
 *Nothing else can be simplified.*
 
 > *The third option should be circled.*
 
-| $\frac{x^{2}}{2x^{2}+3}$ | $\frac{x^{2}}{6x^{2}+1}$ | `circle enclose fraction numerator bold italic x to the power of bold 2 over denominator bold 2 bold italic x to the power of bold 2 bold plus bold space bold 1 end fraction end enclose` | $\frac{1}{2}+x^{2}$ |
+| $\frac{x^{2}}{2x^{2}+3}$ | $\frac{x^{2}}{6x^{2}+1}$ | `circle ( x ^ 2)/( 2 x ^ 2 + 1)` | $\frac{1}{2}+x^{2}$ |
 |---|---|---|---|
 
 **[1]**
@@ -1483,13 +1483,13 @@ $\therefore\frac{5x}{x+5}+\frac{25}{x-7}-\frac{300}{(x+5)(x-7)}=5$* ***[1***]*
 
 > $2\times3\times5=30$* so*
 
-`table row cell 30 cross times fraction numerator 1 minus 2 y over denominator 3 end fraction end cell equals cell 30 cross times 4 over 5 minus 30 cross times fraction numerator 2 y minus 1 over denominator 2 end fraction end cell row cell 10 open parentheses 1 minus 2 y close parentheses end cell equals cell 24 minus 15 open parentheses 2 y minus 1 close parentheses end cell end table`
+$\begin{gathered} 30 \times \frac{1 - 2 y}{3} & = 30 \times \frac{4}{5} - 30 \times \frac{2 y - 1}{2} \\ 10 ( 1 - 2 y ) & = 24 - 15 ( 2 y - 1 ) \end{gathered}$
 
 **[M1]**
 
 > *Expand the brackets and rearrange to have all the **y** terms on the same side*
 
-`table row cell 10 minus 20 y end cell equals cell 24 minus 30 y plus 15 end cell row cell 30 y minus 20 y end cell equals cell 24 plus 15 minus 10 end cell row cell 10 y end cell equals 29 end table`
+$\begin{gathered} 10 - 20 y & = 24 - 30 y + 15 \\ 30 y - 20 y & = 24 + 15 - 10 \\ 10 y & = 29 \end{gathered}$
 
 **[M1]**
 
@@ -1504,41 +1504,41 @@ $y=2.9$
 ### 20() — 6 marks
 > *First we need the lowest common denominator of (**x** + 2) and (**x** - 3) on the left-hand side of the equation*
 
-*lowest common denominator is** *`open parentheses x plus 2 close parentheses open parentheses x minus 3 close parentheses`
+*lowest common denominator is** *$( x + 2 ) ( x - 3 )$
 
 **[1]**
 
 > *Multiply the numerators and denominators of the fractions on the left-hand side by the factor required to create a coommon denominator.*
 
-`fraction numerator 5 open parentheses x minus 3 close parentheses over denominator open parentheses x plus 2 close parentheses open parentheses x minus 3 close parentheses end fraction plus fraction numerator 3 open parentheses x plus 2 close parentheses over denominator open parentheses x plus 2 close parentheses open parentheses x minus 3 close parentheses end fraction equals 2`
+$\frac{5 ( x - 3 )}{( x + 2 ) ( x - 3 )} + \frac{3 ( x + 2 )}{( x + 2 ) ( x - 3 )} = 2$
 
 > *Write the left-hand side as one single fraction over the common denominator. *
 
 > *Expand and simplify the numerators*
 
-`table attributes columnalign right center left columnspacing 0px end attributes row cell fraction numerator 5 open parentheses x minus 3 close parentheses plus 3 open parentheses x plus 2 close parentheses over denominator open parentheses x plus 2 close parentheses open parentheses x minus 3 close parentheses end fraction end cell equals 2 row cell fraction numerator 5 x minus 15 plus 3 x plus 6 over denominator open parentheses x plus 2 close parentheses open parentheses x minus 3 close parentheses end fraction end cell equals 2 row cell fraction numerator 8 x minus 9 over denominator open parentheses x plus 2 close parentheses open parentheses x minus 3 close parentheses end fraction end cell equals 2 end table`
+$\begin{array}{rcl} \frac{5 ( x - 3 ) + 3 ( x + 2 )}{( x + 2 ) ( x - 3 )} & = 2 \\ \frac{5 x - 15 + 3 x + 6}{( x + 2 ) ( x - 3 )} & = 2 \\ \frac{8 x - 9}{( x + 2 ) ( x - 3 )} & = 2 \end{array}$
 
 ** Numerator**** [1]**
 
 > *Multiply both sides of the equation by the denominator to remove the fraction.*
 
-`8 x minus 9 equals 2 open parentheses x plus 2 close parentheses open parentheses x minus 3 close parentheses`
+$8 x - 9 = 2 ( x + 2 ) ( x - 3 )$
 
 > *Expand the brackets, collect 'like' terms and rearrange so the equation" equals zero ".*
 
-`table row cell 8 x minus 9 end cell equals cell 2 open parentheses x squared minus x minus 6 close parentheses end cell row 0 equals cell 2 x squared minus 2 x minus 12 minus 8 x plus 9 end cell row cell 2 x squared minus 10 x minus 3 end cell equals 0 end table`
+$\begin{gathered} 8 x - 9 & = 2 ( x^{2} - x - 6 ) \\ 0 = 2 x^{2} - 2 x - 12 - 8 x + 9 \\ 2 x^{2} - 10 x - 3 & = 0 \end{gathered}$
 
 **[1]**
 
 > *Solve this quadratic equation.  As the question asks for answer to be given to 1 decimal place, it is unlikely to factorise.*
 
-`table row x equals cell fraction numerator negative open parentheses negative 10 close parentheses plus-or-minus square root of open parentheses negative 10 close parentheses squared minus 4 open parentheses 2 close parentheses open parentheses negative 3 close parentheses end root over denominator 2 open parentheses 2 close parentheses end fraction end cell row x equals cell fraction numerator 10 plus-or-minus square root of 100 plus 24 end root over denominator 4 end fraction end cell row x equals cell 10 over 4 plus-or-minus fraction numerator 2 square root of 31 over denominator 4 end fraction end cell row x equals cell 5 over 2 plus-or-minus fraction numerator square root of 31 over denominator 2 end fraction end cell end table`
+$\begin{gathered} x = \frac{- ( - 10 ) \pm \sqrt{( - 10 )^{2} - 4 ( 2 ) ( - 3 )} }{2 ( 2 )} \\ x = \frac{10 \pm \sqrt{100 + 24} }{4} \\ x = \frac{10}{4} \pm \frac{2 \sqrt{31} }{4} \\ x = \frac{5}{2} \pm \frac{ \sqrt{31} }{2} \end{gathered}$
 
 **Method of solving quadratic**** [1]**
 
 > *Decimals are required for the final answers.*
 
-`table row x equals cell 5 over 2 plus fraction numerator square root of 31 over denominator 2 end fraction equals 5.283 space 882 space... end cell row x equals cell 5 over 2 minus fraction numerator square root of 31 over denominator 2 end fraction equals negative 0.283 space 882 space... end cell end table`
+$\begin{gathered} x = \frac{5}{2} + \frac{ \sqrt{31} }{2} = 5.283 882 ... \\ x = \frac{5}{2} - \frac{ \sqrt{31} }{2} = - 0.283 882 ... \end{gathered}$
 
 $\thereforex=5.3\mathrm{or}x=-0.3(1d.p.)$
 **One mark for each**** [2]**
@@ -1552,23 +1552,23 @@ $\thereforex=5.3\mathrm{or}x=-0.3(1d.p.)$
 
 > *Multiply top-and-bottom of each fraction by the factor needed to form this denominator.*
 
-`fraction numerator 3 open parentheses x plus 2 close parentheses over denominator open parentheses x minus 1 close parentheses open parentheses x plus 2 close parentheses end fraction plus fraction numerator 4 open parentheses x minus 1 close parentheses over denominator open parentheses x minus 1 close parentheses open parentheses x plus 2 close parentheses end fraction`
+$\frac{3 ( x + 2 )}{( x - 1 ) ( x + 2 )} + \frac{4 ( x - 1 )}{( x - 1 ) ( x + 2 )}$
 
 **[1]**
 
 > *Write as one single fraction over the common denominator. Add the numerators.*
 
-`fraction numerator 3 open parentheses x plus 2 close parentheses plus 4 open parentheses x minus 1 close parentheses over denominator open parentheses x minus 1 close parentheses open parentheses x plus 2 close parentheses end fraction`
+$\frac{3 ( x + 2 ) + 4 ( x - 1 )}{( x - 1 ) ( x + 2 )}$
 
 **[1]**
 
 > *Expand the brackets in the numerator.*
 
-`fraction numerator 3 x plus 6 plus 4 x minus 4 over denominator open parentheses x minus 1 close parentheses open parentheses x plus 2 close parentheses end fraction`
+$\frac{3 x + 6 + 4 x - 4}{( x - 1 ) ( x + 2 )}$
 
 > *Collect "like" terms in the numerator.*
 
-`fraction numerator 7 x plus 2 over denominator open parentheses x minus 1 close parentheses open parentheses x plus 2 close parentheses end fraction`
+$\frac{7 x + 2}{( x - 1 ) ( x + 2 )}$
 
 > *There is nothing else that factorises or cancels.*
 
@@ -1586,7 +1586,7 @@ $\therefore\frac{3}{x-1}+\frac{4}{x+2}=\frac{7x+2}{(x-1)(x+2)}$* ***[1]**
 
 > $4x^{2}-25$* is a difference of two squares*
 
-`4 x squared minus 25 equals open parentheses 2 x plus 5 close parentheses open parentheses 2 x minus 5 close parentheses`
+$4 x^{2} - 25 = ( 2 x + 5 ) ( 2 x - 5 )$
 
 > $4x^{2}+16x+15$* can be factorised into double brackets*
 
@@ -1596,7 +1596,7 @@ $4\times15=60$
 
 - *List the factor pairs of this product and identify the factor pair that add up to the value of the coefficient of the *$x$* term*
 
-`table row 60 equals cell 1 cross times 60 end cell row blank equals cell 2 cross times 30 end cell row blank equals cell 3 cross times 20 end cell row blank equals cell 4 cross times 15 end cell row blank equals cell 5 cross times 12 end cell row blank equals cell 6 cross times 10 end cell end table`
+$\begin{gathered} 60 = 1 \times 60 \\ = 2 \times 30 \\ = 3 \times 20 \\ = 4 \times 15 \\ = 5 \times 12 \\ = 6 \times 10 \end{gathered}$
 
 *In this case *$6+10=16$* so this is the pair of values to use*
 
@@ -1606,39 +1606,39 @@ $4x^{2}+16x+15=4x^{2}+6x+10x+15$
 
 > *Factorise the first two terms and the last two terms of the expression separately into single brackets*
 
-`4 x squared plus 6 x plus 10 x plus 15 equals 2 x open parentheses 2 x plus 3 close parentheses plus 5 open parentheses 2 x plus 3 close parentheses`
+$4 x^{2} + 6 x + 10 x + 15 = 2 x ( 2 x + 3 ) + 5 ( 2 x + 3 )$
 
 > *The bracketed expression is the same in both parts*
 
 > *Factor out this term*
 
-`4 x squared plus 16 x plus 15 equals open parentheses 2 x plus 3 close parentheses open parentheses 2 x plus 5 close parentheses`
+$4 x^{2} + 16 x + 15 = ( 2 x + 3 ) ( 2 x + 5 )$
 
 > *Rewrite the original question with the quadratic expressions replaced with the factorised form*
 
-`fraction numerator 5 over denominator open parentheses 2 x plus 5 close parentheses open parentheses 2 x minus 5 close parentheses end fraction minus open parentheses 2 x plus 3 close parentheses divided by fraction numerator open parentheses 2 x plus 3 close parentheses open parentheses 2 x plus 5 close parentheses over denominator 7 end fraction`
+$\frac{5}{( 2 x + 5 ) ( 2 x - 5 )} - ( 2 x + 3 ) \div \frac{( 2 x + 3 ) ( 2 x + 5 )}{7}$
 
 > *Applying the order of operations means that the division must be calculated first*
 
-`open parentheses 2 x plus 3 close parentheses divided by fraction numerator open parentheses 2 x plus 3 close parentheses open parentheses 2 x plus 5 close parentheses over denominator 7 end fraction`
+$( 2 x + 3 ) \div \frac{( 2 x + 3 ) ( 2 x + 5 )}{7}$
 
 > *Multiplying by the reciprocal of the divisor is equivalent to dividing*
 
-`open parentheses 2 x plus 3 close parentheses cross times fraction numerator 7 over denominator open parentheses 2 x plus 3 close parentheses open parentheses 2 x plus 5 close parentheses end fraction`
+$( 2 x + 3 ) \times \frac{7}{( 2 x + 3 ) ( 2 x + 5 )}$
 
 **[M1]**
 
 > *Multiply the numerators and multiply the denominators to give:*
 
-`fraction numerator 7 open parentheses 2 x plus 3 close parentheses over denominator open parentheses 2 x plus 3 close parentheses open parentheses 2 x plus 5 close parentheses end fraction`
+$\frac{7 ( 2 x + 3 )}{( 2 x + 3 ) ( 2 x + 5 )}$
 
 > *Simplify the fraction by dividing through by the common factor *$2x+3$
 
-`fraction numerator 7 over denominator open parentheses 2 x plus 5 close parentheses end fraction`
+$\frac{7}{( 2 x + 5 )}$
 
 > *Put this back into the question to solve the subtraction part*
 
-`fraction numerator 5 over denominator open parentheses 2 x plus 5 close parentheses open parentheses 2 x minus 5 close parentheses end fraction minus fraction numerator 7 over denominator open parentheses 2 x plus 5 close parentheses end fraction`
+$\frac{5}{( 2 x + 5 ) ( 2 x - 5 )} - \frac{7}{( 2 x + 5 )}$
 
 **[M1]**
 
@@ -1648,29 +1648,29 @@ $4x^{2}+16x+15=4x^{2}+6x+10x+15$
 
 > *Multiplying the second fraction by 1 in the form *$\frac{2x-5}{2x-5}$* will result in a common denominator*
 
-`fraction numerator 5 over denominator open parentheses 2 x plus 5 close parentheses open parentheses 2 x minus 5 close parentheses end fraction minus fraction numerator 7 over denominator open parentheses 2 x plus 5 close parentheses end fraction cross times fraction numerator open parentheses 2 x minus 5 close parentheses over denominator open parentheses 2 x minus 5 close parentheses end fraction`
+$\frac{5}{( 2 x + 5 ) ( 2 x - 5 )} - \frac{7}{( 2 x + 5 )} \times \frac{( 2 x - 5 )}{( 2 x - 5 )}$
 
-`equals fraction numerator 5 over denominator open parentheses 2 x plus 5 close parentheses open parentheses 2 x minus 5 close parentheses end fraction minus fraction numerator 7 open parentheses 2 x minus 5 close parentheses over denominator open parentheses 2 x plus 5 close parentheses open parentheses 2 x minus 5 close parentheses end fraction`
+$= \frac{5}{( 2 x + 5 ) ( 2 x - 5 )} - \frac{7 ( 2 x - 5 )}{( 2 x + 5 ) ( 2 x - 5 )}$
 
 > *Subtract the numerators now that the denominators are the same*
 
-`fraction numerator 5 minus 7 open parentheses 2 x minus 5 close parentheses over denominator open parentheses 2 x plus 5 close parentheses open parentheses 2 x minus 5 close parentheses end fraction`
+$\frac{5 - 7 ( 2 x - 5 )}{( 2 x + 5 ) ( 2 x - 5 )}$
 
 **[M1]**
 
 > *Expand and simplify the numerator*
 
-`fraction numerator 5 minus 14 x plus 35 over denominator open parentheses 2 x plus 5 close parentheses open parentheses 2 x minus 5 close parentheses end fraction equals fraction numerator 40 minus 14 x over denominator open parentheses 2 x plus 5 close parentheses open parentheses 2 x minus 5 close parentheses end fraction`
+$\frac{5 - 14 x + 35}{( 2 x + 5 ) ( 2 x - 5 )} = \frac{40 - 14 x}{( 2 x + 5 ) ( 2 x - 5 )}$
 
 **[A1]**
 
 > *Factorise the numerator to check if any further simplifying can take place*
 
-`fraction numerator 2 open parentheses 20 minus 7 x close parentheses over denominator open parentheses 2 x plus 5 close parentheses open parentheses 2 x minus 5 close parentheses end fraction`
+$\frac{2 ( 20 - 7 x )}{( 2 x + 5 ) ( 2 x - 5 )}$
 
 > *There are no common factors of the numerator and denominator so it cannot be simplified any further*
 
-`fraction numerator 2 open parentheses 20 minus 7 x close parentheses over denominator open parentheses 2 x plus 5 close parentheses open parentheses 2 x minus 5 close parentheses end fraction`
+$\frac{2 ( 20 - 7 x )}{( 2 x + 5 ) ( 2 x - 5 )}$
 
 > **[mark-scheme]**
 > Any equivalent expression will get the final mark (e.g. $\frac{40-14x}{4x^{2}-25}$)
@@ -1684,21 +1684,21 @@ $4x^{2}+16x+15=4x^{2}+6x+10x+15$
 
 > *Multiply top-and-bottom of each fraction by the factor needed to form this denominator.*
 
-`fraction numerator open parentheses m plus 1 close parentheses n over denominator n open parentheses n plus 1 close parentheses end fraction minus fraction numerator m open parentheses n plus 1 close parentheses over denominator n open parentheses n plus 1 close parentheses end fraction`
+$\frac{( m + 1 ) n}{n ( n + 1 )} - \frac{m ( n + 1 )}{n ( n + 1 )}$
 
 > *Write as one single fraction over the common denominator. Subtract the numerators.*
 
-`fraction numerator n open parentheses m plus 1 close parentheses minus m open parentheses n plus 1 close parentheses over denominator n open parentheses n plus 1 close parentheses end fraction`
+$\frac{n ( m + 1 ) - m ( n + 1 )}{n ( n + 1 )}$
 
 **[1]**
 
 > *Expand the brackets in the numerator.*
 
-`fraction numerator m n plus n minus m n minus m over denominator n open parentheses n plus 1 close parentheses end fraction`
+$\frac{m n + n - m n - m}{n ( n + 1 )}$
 
 > *Collect "like" terms in the numerator.*
 
-`fraction numerator n minus m over denominator n open parentheses n plus 1 close parentheses end fraction`
+$\frac{n - m}{n ( n + 1 )}$
 
 > *Nothing else factorises or cancels.*
 
@@ -1709,19 +1709,19 @@ $\therefore\frac{m+1}{n+1}-\frac{m}{n}=\frac{n-m}{n(n+1)}$* ***[1]**
 ### 11() — 4 marks
 > *Simplify the algebraic fractions in the equation by finding a common denominator (cross-cancelling is a useful method for this)*
 
-`fraction numerator 2 open parentheses 3 x minus 2 close parentheses minus 5 open parentheses 3 minus 4 x close parentheses over denominator 10 end fraction equals 2`
+$\frac{2 ( 3 x - 2 ) - 5 ( 3 - 4 x )}{10} = 2$
 
 **[M1]**
 
 > *Expand the brackets and then simplify terms of the numerator*
 
-`table row cell fraction numerator 6 x minus 4 minus open parentheses 15 minus 20 x close parentheses over denominator 10 end fraction end cell equals 2 row cell fraction numerator 6 x minus 4 minus 15 plus 20 x over denominator 10 end fraction end cell equals 2 row cell fraction numerator 26 x minus 19 over denominator 10 end fraction end cell equals 2 end table`
+$\begin{gathered} \frac{6 x - 4 - ( 15 - 20 x )}{10} & = 2 \\ \frac{6 x - 4 - 15 + 20 x}{10} & = 2 \\ \frac{26 x - 19}{10} & = 2 \end{gathered}$
 
 **[M1]**
 
 > *Solve for *$x$*using the balance method, or a similar method*
 
-`table row cell fraction numerator 26 x minus 19 over denominator 10 end fraction end cell equals 2 row cell 26 x minus 19 end cell equals cell 2 cross times 10 end cell row cell 26 x minus 19 end cell equals 20 row cell 26 x end cell equals cell 20 plus 19 end cell row cell 26 x end cell equals 39 row x equals cell 39 over 26 end cell end table`
+$\begin{gathered} \frac{26 x - 19}{10} & = 2 \\ 26 x - 19 & = 2 \times 10 \\ 26 x - 19 & = 20 \\ 26 x & = 20 + 19 \\ 26 x & = 39 \\ x = \frac{39}{26} \end{gathered}$
 
 **[M1]**
 
@@ -1737,44 +1737,43 @@ $x=\frac{3}{2}$
 ### 24() — 5 marks
 > *First add together the fractions in the bracket using a common denominator*
 
-`fraction numerator 1 over denominator 3 x space minus space 4 end fraction space plus thin space 1 over x space equals space fraction numerator x space plus thin space 3 x space minus space 4 over denominator x open parentheses 3 x space minus space 4 close parentheses end fraction space
-`
+$\frac{1}{3 x - 4} + \frac{1}{x} = \frac{x + 3 x - 4}{x ( 3 x - 4 )}$
 
 > *Factorise the numerator*
 
-`fraction numerator 4 x space minus space 4 over denominator x open parentheses 3 x space minus space 4 close parentheses end fraction space equals space fraction numerator 4 open parentheses x space minus space 1 close parentheses over denominator x open parentheses 3 x space minus space 4 close parentheses end fraction`
+$\frac{4 x - 4}{x ( 3 x - 4 )} = \frac{4 ( x - 1 )}{x ( 3 x - 4 )}$
 
 **[M1]**
 
 > *Factorise the expressions in the first fraction as much as possible*
 
-`fraction numerator 5 x open parentheses 9 x squared space minus space 16 close parentheses over denominator open parentheses 3 x space plus thin space 4 close parentheses open parentheses x space minus space 1 close parentheses end fraction space`
+$\frac{5 x ( 9 x^{2} - 16 )}{( 3 x + 4 ) ( x - 1 )}$
 
-`fraction numerator 5 x open parentheses 3 x space plus space 4 close parentheses open parentheses 3 x space minus space 4 close parentheses over denominator open parentheses 3 x space plus thin space 4 close parentheses open parentheses x space minus space 1 close parentheses end fraction`
+$\frac{5 x ( 3 x + 4 ) ( 3 x - 4 )}{( 3 x + 4 ) ( x - 1 )}$
 
 **[M1]**
 
 > *Divide top and bottom by *$3x+4$
 
-`fraction numerator 5 x open parentheses 3 x space minus space 4 close parentheses over denominator x space minus space 1 end fraction`
+$\frac{5 x ( 3 x - 4 )}{x - 1}$
 
 > *Rewrite the original equation with the simplified terms*
 
-`fraction numerator 5 x open parentheses 3 x space minus space 4 close parentheses over denominator x space minus space 1 end fraction space cross times space fraction numerator 4 open parentheses x space minus space 1 close parentheses over denominator x open parentheses 3 x space minus space 4 close parentheses end fraction space equals space fraction numerator 4 open parentheses x space plus space 2 close parentheses over denominator 5 x space minus space 8 end fraction`
+$\frac{5 x ( 3 x - 4 )}{x - 1} \times \frac{4 ( x - 1 )}{x ( 3 x - 4 )} = \frac{4 ( x + 2 )}{5 x - 8}$
 
 **[M1]**
 
 > *Cross cancel *
 
-`fraction numerator 5 up diagonal strike x up diagonal strike open parentheses 3 x space minus space 4 close parentheses end strike over denominator up diagonal strike x space minus space 1 end strike end fraction space cross times space fraction numerator 4 up diagonal strike open parentheses x space minus space 1 close parentheses end strike over denominator up diagonal strike x up diagonal strike open parentheses 3 x space minus space 4 close parentheses end strike end fraction space equals space fraction numerator 4 open parentheses x space plus space 2 close parentheses over denominator 5 x space minus space 8 end fraction`
+$\frac{5 \cancel{x \cancel{(} \text{parentheses} 3 x - 4 )} }{ \cancel{x - 1} } \times \frac{4 \cancel{( x - 1 )} }{ \cancel{x \cancel{(} \text{parentheses} 3 x - 4 )} } = \frac{4 ( x + 2 )}{5 x - 8}$
 
-`20 space equals space fraction numerator 4 open parentheses x space plus thin space 2 close parentheses over denominator 5 x space minus space 8 end fraction`
+$20 = \frac{4 ( x + 2 )}{5 x - 8}$
 
 **[M1]**
 
 > *Multiply both sides by *$5x-8$
 
-`20 open parentheses 5 x space minus space 8 close parentheses space equals space 4 open parentheses x space plus thin space 2 close parentheses`
+$20 ( 5 x - 8 ) = 4 ( x + 2 )$
 
 > *Expand and simplify*
 
@@ -1801,7 +1800,7 @@ $\mathrm{LCM} \mathrm{of}4\mathrm{and}6x=12x$
 
 > *Rewrite the fractions using the lowest common denominator*
 
-`3 over 4 space plus thin space fraction numerator 5 space minus space x over denominator 6 x end fraction space equals space fraction numerator 3 space cross times space 3 x over denominator 4 space cross times space 3 x end fraction space plus space fraction numerator 2 open parentheses 5 space minus space x close parentheses over denominator 2 space cross times space 6 x end fraction`
+$\frac{3}{4} + \frac{5 - x}{6 x} = \frac{3 \times 3 x}{4 \times 3 x} + \frac{2 ( 5 - x )}{2 \times 6 x}$
 
 **[M1]**
 

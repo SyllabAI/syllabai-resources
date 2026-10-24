@@ -200,7 +200,7 @@
   },
   {
    "type": "bullets",
-   "md": "- The product moment correlation coefficient (PMCC) is a way of giving a numerical value to **linear correlation** of bivariate data\n- The PMCC of a sample is denoted by the letter *r*\n\n  - *r *can take any value such that $-1\\leqr\\leq1$\n  \n    - Can be written as `vertical line r vertical line less or equal than 1`\n  - A positive value of *r *describes positive correlation\n  - A negative value of *r * describes negative correlation\n  - If *r = 0* there is no correlation\n  - *r = 1 *means perfect positive correlation and *r = -1* means perfect negative correlation\n  - The closer to 1 or -1, the stronger the correlation\n- The gradient of the regression line does not change the value of *r*"
+   "md": "- The product moment correlation coefficient (PMCC) is a way of giving a numerical value to **linear correlation** of bivariate data\n- The PMCC of a sample is denoted by the letter *r*\n\n  - *r *can take any value such that $-1\\leqr\\leq1$\n  \n    - Can be written as $\\mid r \\mid \\le 1$\n  - A positive value of *r *describes positive correlation\n  - A negative value of *r * describes negative correlation\n  - If *r = 0* there is no correlation\n  - *r = 1 *means perfect positive correlation and *r = -1* means perfect negative correlation\n  - The closer to 1 or -1, the stronger the correlation\n- The gradient of the regression line does not change the value of *r*"
   },
   {
    "type": "figure",
@@ -216,7 +216,7 @@
   },
   {
    "type": "bullets",
-   "md": "- For *n* pairs of bivariate data (*x*, *y*) we define the following statistics\n\n  - `begin mathsize 16px style S subscript x x end subscript equals straight capital sigma x squared minus open parentheses straight capital sigma x close parentheses squared over n end style`\n  - `begin mathsize 16px style S subscript y y end subscript equals Σy squared minus open parentheses Σy close parentheses squared over n end style`\n  - `begin mathsize 16px style S subscript x y end subscript equals straight capital sigma x y minus fraction numerator open parentheses straight capital sigma x close parentheses open parentheses straight capital sigma y close parentheses over denominator n end fraction end style`\n  - These are given in the formula booklet\n- These are related to variance and can be written in several different ways:\n\n  - $S_{xx}$\n  \n    - `begin mathsize 16px style straight capital sigma open parentheses x minus x with bar on top close parentheses squared end style`\n    - $Σx^{2}-n\\overline{x}^{2}$\n    - $nσ_{x}^{2}$\n  - $S_{xy}$\n  \n    - $Σ(x-\\overline{x})(y-\\overline{y})$\n    - $Σxy-n\\overline{x}\\overline{y}$\n- The product moment correlation coefficient (PMCC) is then calculated using the formula\n\n  - $r=\\frac{S_{xy}}{\\sqrt{S_{xx}S_{yy}}}$\n  - This is given in the formula booklet"
+   "md": "- For *n* pairs of bivariate data (*x*, *y*) we define the following statistics\n\n  - `S _ x x end _ = capital sigma x ^2 - ( capital sigma x ) ^2 / n`\n  - $S_{y y} = Σy^{2} - \\frac{( Σy )^{2}}{n}$\n  - `S _ x y end _ = capital sigma x y - (( capital sigma x ) ( capital sigma y ))/(n)`\n  - These are given in the formula booklet\n- These are related to variance and can be written in several different ways:\n\n  - $S_{xx}$\n  \n    - `capital sigma ( x - x -bar ) ^2`\n    - $Σx^{2}-n\\overline{x}^{2}$\n    - $nσ_{x}^{2}$\n  - $S_{xy}$\n  \n    - $Σ(x-\\overline{x})(y-\\overline{y})$\n    - $Σxy-n\\overline{x}\\overline{y}$\n- The product moment correlation coefficient (PMCC) is then calculated using the formula\n\n  - $r=\\frac{S_{xy}}{\\sqrt{S_{xx}S_{yy}}}$\n  - This is given in the formula booklet"
   },
   {
    "type": "spec_point",
@@ -241,7 +241,7 @@
   },
   {
    "type": "bullets",
-   "md": "- The **gradient *****b*** of the **regression line** is calculated using the formula\n\n  - $b=\\frac{S_{xy}}{S_{xx}}$\n  - This is given in the formulae booklet\n- The **y-intercept** *a* of the **regression line** is calculated using the formula\n\n  - $a=\\overline{y}-b\\overline{x}$\n  - This is given in the formulae booklet\n  - This is found using the fact that the point `open parentheses x with bar on top comma space y with bar on top close parentheses` lies on the regression line\n- If you are asked to find the equation of the regression line of ***x***** on *****y***\n\n  - *x = c + dy *\n  - $d=\\frac{S_{xy}}{S_{yy}}$\n  - $c=\\overline{x}-d\\overline{y}$\n  - These are not given in the formulae booklet"
+   "md": "- The **gradient *****b*** of the **regression line** is calculated using the formula\n\n  - $b=\\frac{S_{xy}}{S_{xx}}$\n  - This is given in the formulae booklet\n- The **y-intercept** *a* of the **regression line** is calculated using the formula\n\n  - $a=\\overline{y}-b\\overline{x}$\n  - This is given in the formulae booklet\n  - This is found using the fact that the point $( \\bar{x} , \\bar{y} )$ lies on the regression line\n- If you are asked to find the equation of the regression line of ***x***** on *****y***\n\n  - *x = c + dy *\n  - $d=\\frac{S_{xy}}{S_{yy}}$\n  - $c=\\overline{x}-d\\overline{y}$\n  - These are not given in the formulae booklet"
   },
   {
    "type": "callout",

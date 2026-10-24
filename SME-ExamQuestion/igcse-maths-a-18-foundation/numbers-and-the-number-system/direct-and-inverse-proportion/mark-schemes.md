@@ -11,7 +11,7 @@ $2\mathrm{kg}=2\times1000g\,2\mathrm{kg}=2000g$
 
 > *Calculate the cost of 500g of grapes using the fact that 2000g cost £6.20*
 
-`table row cell 2000 straight g end cell equals cell £ 6.20 end cell row blank blank cell Dividing space by space 2 space gives colon end cell row cell 1000 straight g end cell equals cell £ 3.10 end cell row blank blank cell Dividing space by space 2 space gives end cell row cell 500 straight g end cell equals cell £ 1.55 end cell end table`
+$\begin{gathered} 2000 \mathrm{g} & = \pounds 6.20 \\ \text{Dividing} \text{by} 2 \text{gives} : \\ 1000 \mathrm{g} & = \pounds 3.10 \\ \text{Dividing} \text{by} 2 \text{gives} \\ 500 \mathrm{g} & = \pounds 1.55 \end{gathered}$
 
 **[M1]**
 
@@ -88,7 +88,7 @@ $4.20\div3=1.40$
 
 Multiply by 5 and subtract from the total cost to find the cost of 700g cherries
 
-`table row cell 1.40 space cross times 5 end cell equals 7 row cell 10.40 space minus space 7 space end cell equals cell space 3.40 space end cell end table`
+$\begin{gathered} 1.40 \times 5 & = 7 \\ 10.40 - 7 & = 3.40 \end{gathered}$
 
 **[M1]**
 
@@ -96,7 +96,7 @@ Divide by 7 and multiply by 10 to find the cost of 1kg of cherries
 
 - Alternatively, you can divide by 700 and then multiply by 1000
 
-`table row cell 3.40 space divided by 7 end cell equals cell 0.4857... end cell row cell 0.4857... space cross times 10 space end cell equals cell space 4.857... end cell end table`
+$\begin{gathered} 3.40 \div 7 & = 0.4857... \\ 0.4857... \times 10 & = 4.857... \end{gathered}$
 
 **[M1]**
 

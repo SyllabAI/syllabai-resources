@@ -133,7 +133,7 @@
       "spcpt_QxWTPpG7ytN8DXtk"
      ],
      "part_tier": null,
-     "problem_md": "Given that\n\n`bold A equals open parentheses table row k 3 row cell negative 1 end cell cell k plus 2 end cell end table close parentheses comma    text where  end text k text  is a constant end text`\n\nshow that $\\mathrm{det}(A)>0$ for all real values of `equation`$k$,",
+     "problem_md": "Given that\n\n$A = ( \\begin{gathered} k 3 \\\\ - 1 & k + 2 \\end{gathered} ) , \\text{where } k \\text{ \\text{is} a constant}$\n\nshow that $\\mathrm{det}(A)>0$ for all real values of `equation`$k$,",
      "solution_md": "> **[mark-scheme]**\n> ![Matrix maths problem showing methods to find determinant. Three approaches include completing the square, using b²-4ac, and differentiation.](assets/038-matrix-maths-problem-showing-methods-to-find-det.png)\n> \n> ![Mathematical notes describing methods for proving inequalities related to quadratic functions and determinants, with explanations and scoring guidance.](assets/039-mathematical-notes-describing-methods-for-provin.png)",
      "equations": [
       {
@@ -212,7 +212,7 @@
       "spcpt_7B4b9yCcrc9JWHbc"
      ],
      "part_tier": null,
-     "problem_md": "(i) The matrix **A** is defined by\n\n`bold A equals open parentheses table row cell 3 k end cell cell 4 k minus 1 end cell row 2 6 end table close parentheses`\n\nwhere $k$ is a constant.\n\n(a) Determine the value of $k$ for which **A** is singular.\n\nGiven that **A** is non-singular,\n\n[2]\n\n(b) determine $A^{-1}$ in terms of $k$, giving your answer in simplest form.\n\n[2]",
+     "problem_md": "(i) The matrix **A** is defined by\n\n$A = ( \\begin{gathered} 3 k & 4 k - 1 \\\\ 2 6 \\end{gathered} )$\n\nwhere $k$ is a constant.\n\n(a) Determine the value of $k$ for which **A** is singular.\n\nGiven that **A** is non-singular,\n\n[2]\n\n(b) determine $A^{-1}$ in terms of $k$, giving your answer in simplest form.\n\n[2]",
      "solution_md": "> **[mark-scheme]**\n> ![Matrix determinant calculation with solution steps for finding 'k'. Includes formation of determinant, algebraic manipulations, and final value of k as -1/5.](assets/035-matrix-determinant-calculation-with-solution-ste.png)\n> \n> ![Mathematical notation and text detailing steps for calculating the inverse of matrix A. It includes comments and conditions for marking and notation.](assets/036-mathematical-notation-and-text-detailing-steps-f.png)",
      "equations": [
       {
@@ -268,7 +268,7 @@
       "spcpt_6NkRppSFKD89hB3j"
      ],
      "part_tier": null,
-     "problem_md": "Prove by induction that for $n\\inℤ^{+}$\n\n`open parentheses table row 1 r row 0 2 end table close parentheses to the power of n equals open parentheses table row 1 cell left parenthesis 2 to the power of n minus 1 right parenthesis r end cell row 0 cell 2 to the power of n end cell end table close parentheses`\n\nwhere $r$ is a constant.",
+     "problem_md": "Prove by induction that for $n\\inℤ^{+}$\n\n$( \\begin{gathered} 1 r \\\\ 0 2 \\end{gathered} )^{n} = ( \\begin{gathered} 1 ( 2^{n} - 1 ) r \\\\ 0 2^{n} \\end{gathered} )$\n\nwhere $r$ is a constant.",
      "solution_md": "> **[mark-scheme]**\n> ![Mathematical proof with equations and matrices demonstrating induction for \\( n = k \\), algebraic steps, boxed instructions, and narratives for conclusion.](assets/012-mathematical-proof-with-equations-and-matrices-d.png)",
      "equations": [
       {
@@ -304,7 +304,7 @@
       "spcpt_DFnsnvP295B5FmbK"
      ],
      "part_tier": null,
-     "problem_md": "`bold M equals open parentheses table row 4 0 row 0 5 end table close parentheses`                `bold N equals open parentheses table row 1 cell negative 2 end cell row 0 2 end table close parentheses to the power of 4`\n\nThe transformation represented by matrix **M** followed by the transformation represented by matrix **N** is represented by the matrix **B**\n\n(i) Determine **N** in the form `open parentheses table row a b row c d end table close parentheses` where $a$, $b$, $c$ and $d$ are integers.\n\n[1]\n\n(ii) Determine **B**\n\n[2]",
+     "problem_md": "$M = ( \\begin{gathered} 4 0 \\\\ 0 5 \\end{gathered} )$                $N = ( \\begin{gathered} 1 - 2 \\\\ 0 2 \\end{gathered} )^{4}$\n\nThe transformation represented by matrix **M** followed by the transformation represented by matrix **N** is represented by the matrix **B**\n\n(i) Determine **N** in the form $( \\begin{gathered} a b \\\\ c d \\end{gathered} )$ where $a$, $b$, $c$ and $d$ are integers.\n\n[1]\n\n(ii) Determine **B**\n\n[2]",
      "solution_md": "> **[mark-scheme]**\n> (i)\n> \n> ![Matrix calculation showing \\((1 -2; 0 2)^4 = (1 -30; 0 16)\\). Comment: Correct matrix N. Could be manual or calculated. Label: B1.](assets/013-matrix-calculation-showing-1-2-0-2-4-1-30-0-16-c.png)\n> \n> (ii)\n> \n> ![Matrix calculation with conditions for forming B=NM. Includes matrix elements and rules. Correct matrix B shown below conditions, highlighting required structure.](assets/014-matrix-calculation-with-conditions-for-forming-b.png)",
      "equations": [
       {
@@ -403,7 +403,7 @@
       "spcpt_QxWTPpG7ytN8DXtk"
      ],
      "part_tier": null,
-     "problem_md": "`bold M equals open parentheses table row cell 2 k plus 1 end cell k row cell k plus 7 end cell cell k plus 4 end cell end table close parentheses` where `equation`$k$ is a constant\n\nShow that **M** is non-singular for all real values of $k$.",
+     "problem_md": "$M = ( \\begin{gathered} 2 k + 1 & k \\\\ k + 7 & k + 4 \\end{gathered} )$ where `equation`$k$ is a constant\n\nShow that **M** is non-singular for all real values of $k$.",
      "solution_md": "> **[mark-scheme]**\n> ![Mathematical derivation table showing determinant calculations and conditions for matrix M with respect to variable k, proving it non-singular for all k.](assets/031-mathematical-derivation-table-showing-determinan.png)\n> \n> ![Table of notes with instructions for evaluating mathematical determinants. Includes criteria for M1 and A1 marks, strategies, and reasoning requirements.](assets/032-table-of-notes-with-instructions-for-evaluating-.png)",
      "equations": [
       {
@@ -482,7 +482,7 @@
       "spcpt_7B4b9yCcrc9JWHbc"
      ],
      "part_tier": null,
-     "problem_md": "`bold B equals open parentheses table row a cell negative 4 end cell row 2 3 end table close parentheses`   `bold BC equals open parentheses table row 2 5 1 row 1 4 2 end table close parentheses`     where $a$ is a constant\n\nDetermine, in terms of $a$, the matrix $C$",
+     "problem_md": "$B = ( \\begin{gathered} a - 4 \\\\ 2 3 \\end{gathered} )$   $\\text{BC} = ( \\begin{gathered} 2 5 1 \\\\ 1 4 2 \\end{gathered} )$     where $a$ is a constant\n\nDetermine, in terms of $a$, the matrix $C$",
      "solution_md": "> **[mark-scheme]**\n> ![Matrix operations calculating determinant, inverse, and product of matrices B and C. Includes correct expressions and step-by-step instructions with conditions.](assets/010-matrix-operations-calculating-determinant-invers.png)\n> \n> ![Matrix multiplication and solving simultaneous equations to express variables in terms of 'a', including detailed calculations and expressions in a tabular format.](assets/011-matrix-multiplication-and-solving-simultaneous-e.png)",
      "equations": [
       {
@@ -532,7 +532,7 @@
       "spcpt_DFnsnvP295B5FmbK"
      ],
      "part_tier": null,
-     "problem_md": "Given that\n\n`bold A equals open parentheses table row 2 cell negative 1 end cell 3 row cell negative 2 end cell 3 0 end table close parentheses` and `bold B equals open parentheses table row 1 k row 0 cell negative 3 end cell row cell 2 k end cell 2 end table close parentheses`\n\nwhere `equation`$k$ is a non-zero constant,\n\ndetermine the matrix **AB**",
+     "problem_md": "Given that\n\n$A = ( \\begin{gathered} 2 - 1 & 3 \\\\ - 2 & 3 0 \\end{gathered} )$ and $B = ( \\begin{gathered} 1 k \\\\ 0 - 3 \\\\ 2 k & 2 \\end{gathered} )$\n\nwhere `equation`$k$ is a non-zero constant,\n\ndetermine the matrix **AB**",
      "solution_md": "> **[mark-scheme]**\n> ![Matrix multiplication of a 2x3 matrix by a 3x2 matrix resulting in a 2x2 matrix, with labels M1 and A1cao in a table.](assets/027-matrix-multiplication-of-a-2x3-matrix-by-a-3x2-m.png)\n> \n> ![Table with notes on matrix criteria: M1 requires a 2x2 matrix with two correct entries, unsimplified; A1cao requires a correct matrix with simplified terms.](assets/028-table-with-notes-on-matrix-criteria-m1-requires-.png)",
      "equations": [
       {
@@ -601,7 +601,7 @@
       "spcpt_7B4b9yCcrc9JWHbc"
      ],
      "part_tier": null,
-     "problem_md": "`bold M equals open parentheses table row k k row 3 5 end table close parentheses`      where $k$ is a non-zero constant\n\nDetermine $M^{-1}$ , giving your answer in simplest form in terms of  $k$ .",
+     "problem_md": "$M = ( \\begin{gathered} k k \\\\ 3 5 \\end{gathered} )$      where $k$ is a non-zero constant\n\nDetermine $M^{-1}$ , giving your answer in simplest form in terms of  $k$ .",
      "solution_md": "> **[mark-scheme]**\n> ![Matrix calculation steps showing the inverse. Top half includes the formula with variables, attempts, and notes. Bottom half shows the correct result and condition.](assets/022-matrix-calculation-steps-showing-the-inverse-top.png)",
      "equations": [
       {
@@ -642,7 +642,7 @@
       "spcpt_7B4b9yCcrc9JWHbc"
      ],
      "part_tier": null,
-     "problem_md": "Hence, given that `bold N to the power of negative 1 end exponent equals open parentheses table row k k row 4 cell negative 1 end cell end table close parentheses`\n\ndetermine $(\\mathrm{MN})^{-1}$, giving your answer in simplest form in terms of  $k$.",
+     "problem_md": "Hence, given that $N^{- 1} = ( \\begin{gathered} k k \\\\ 4 - 1 \\end{gathered} )$\n\ndetermine $(\\mathrm{MN})^{-1}$, giving your answer in simplest form in terms of  $k$.",
      "solution_md": "> **[mark-scheme]**\n> ![Mathematical solution showing matrix inversion and multiplication with steps, including the correct matrix result. Contains labels M1 and A1.](assets/023-mathematical-solution-showing-matrix-inversion-a.png)\n> \n> **Alt**\n> \n> ![Matrix inversion problem showing steps to find inverse of a matrix product. Includes required method and correct matrix with notes and scoring criteria.](assets/024-matrix-inversion-problem-showing-steps-to-find-i.png)",
      "equations": [
       {
@@ -687,7 +687,7 @@
       "spcpt_DFnsnvP295B5FmbK"
      ],
      "part_tier": null,
-     "problem_md": "`bold A equals open parentheses table row cell negative fraction numerator square root of 3 over denominator 2 end fraction end cell cell negative 1 half end cell row cell 1 half end cell cell negative fraction numerator square root of 3 over denominator 2 end fraction end cell end table close parentheses`\n\nDetermine the matrix $A^{2}$",
+     "problem_md": "$A = ( \\begin{gathered} - \\frac{ \\sqrt{3} }{2} & - 1 \\frac{1}{2} \\\\ 1 \\frac{1}{2} & - \\frac{ \\sqrt{3} }{2} \\end{gathered} )$\n\nDetermine the matrix $A^{2}$",
      "solution_md": "> **[mark-scheme]**\n> ![Matrix A squared with elements 1/2 and square root of 3 over 2, labelled as correct matrix, with identifier B1 on the right.](assets/016-matrix-a-squared-with-elements-1-2-and-square-ro.png)",
      "equations": [
       {
@@ -886,7 +886,7 @@
       "spcpt_QxWTPpG7ytN8DXtk"
      ],
      "part_tier": null,
-     "problem_md": "`bold M equals open parentheses table row cell 3 x end cell 7 row cell 4 x plus 1 end cell cell 2 minus x end cell end table close parentheses`\n\nFind the range of values of $x$ for which the determinant of the matrix $M$ is positive.",
+     "problem_md": "$M = ( \\begin{gathered} 3 x & 7 \\\\ 4 x + 1 & 2 - x \\end{gathered} )$\n\nFind the range of values of $x$ for which the determinant of the matrix $M$ is positive.",
      "solution_md": "> **[mark-scheme]**\n> ![Mathematics problem showing steps to solve a quadratic inequality, complete with notes on marking criteria, with a total of 5 marks available.](assets/037-mathematics-problem-showing-steps-to-solve-a-qua.png)",
      "equations": [
       {
@@ -931,7 +931,7 @@
       "spcpt_7B4b9yCcrc9JWHbc"
      ],
      "part_tier": null,
-     "problem_md": "`A equals open parentheses table row 3 a row cell negative 2 end cell cell negative 2 end cell end table close parentheses`\n\nwhere $a$ is a non-zero constant and $a\\neq3$\n\nDetermine $A^{-1}$ giving your answer in terms of $a$",
+     "problem_md": "$A = ( \\begin{gathered} 3 a \\\\ - 2 & - 2 \\end{gathered} )$\n\nwhere $a$ is a non-zero constant and $a\\neq3$\n\nDetermine $A^{-1}$ giving your answer in terms of $a$",
      "solution_md": "> **[mark-scheme]**\n> ![Matrix equation showing inverse calculation, with conditions. Feedback on math method and accuracy. Marks noted as M1 for method, A1 for accuracy, total 2 marks.](assets/025-matrix-equation-showing-inverse-calculation-with.png)",
      "equations": [
       {
@@ -1115,7 +1115,7 @@
       "spcpt_DdchQvsnwcKxhX8Q"
      ],
      "part_tier": null,
-     "problem_md": "`bold italic M equals open parentheses table row k cell k plus 3 end cell row cell negative 5 end cell cell 1 minus k end cell end table close parentheses    text where  end text k text  is a constant end text`\n\n(a) Find det $M$, giving your answer in simplest form in terms of $k$.\n\n[2]\n\nA closed shape $R$ is transformed to a closed shape $R'$ by the transformation represented by the matrix $M$.\n\nGiven that the area of $R$ is 2 square units and that the area of $R'$ is $16k$ square units,\n\n(b) determine the possible values of $k$.\n\n[3]",
+     "problem_md": "$M = ( \\begin{gathered} k k + 3 \\\\ - 5 & 1 - k \\end{gathered} ) \\text{where } k \\text{ \\text{is} a constant}$\n\n(a) Find det $M$, giving your answer in simplest form in terms of $k$.\n\n[2]\n\nA closed shape $R$ is transformed to a closed shape $R'$ by the transformation represented by the matrix $M$.\n\nGiven that the area of $R$ is 2 square units and that the area of $R'$ is $16k$ square units,\n\n(b) determine the possible values of $k$.\n\n[3]",
      "solution_md": "> **[mark-scheme]**\n> (a)\n> \n> ![Matrix multiplication problem; includes two 2x2 matrices with descriptive text about correct methods and solutions. Marks: M1 and A1.](assets/008-matrix-multiplication-problem-includes-two-2x2-m.png)\n> \n> (b)\n> \n> ![Mathematics marking scheme showing quadratic equation solutions for variable k, correct strategies, justifications, and mark allocations in a table format.](assets/009-mathematics-marking-scheme-showing-quadratic-equ.png)",
      "equations": [
       {
@@ -1199,7 +1199,7 @@
       "spcpt_QxWTPpG7ytN8DXtk"
      ],
      "part_tier": null,
-     "problem_md": "The matrix **M** is defined by\n\n`bold M equals open parentheses table row cell k plus 5 end cell cell negative 2 end cell row cell negative 3 end cell k end table close parentheses`\n\nDetermine the values of $k$ for which **M** is singular.",
+     "problem_md": "The matrix **M** is defined by\n\n$M = ( \\begin{gathered} k + 5 & - 2 \\\\ - 3 & k \\end{gathered} )$\n\nDetermine the values of $k$ for which **M** is singular.",
      "solution_md": "> **[mark-scheme]**\n> ![Mathematical solution showing factorisation: \\( k(k+5)-6=0 \\), becoming \\( k^2+5k-6=0 \\), factors to \\( (k-1)(k+6)=0 \\), so \\( k=1, -6 \\).](assets/001-mathematical-solution-showing-factorisation-k-k-.png)\n> \n> **Notes**\n> \n> ![Text on solving quadratics: set determinant to zero, find quadratic equation, solve for k using any valid method.](assets/002-text-on-solving-quadratics-set-determinant-to-ze.png)",
      "equations": [
       {

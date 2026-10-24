@@ -707,11 +707,11 @@ ii) The element whose atoms have the electronic configuration 2.8.5 is:
 
 **[Total: 2 marks]**
 
-- *The element with 10 neutrons and 9 electrons has an atomic mass of 19, which corresponds to *`straight F presubscript 9 presuperscript 19`* *
+- *The element with 10 neutrons and 9 electrons has an atomic mass of 19, which corresponds to *`F _ 9 ^ 19`* *
 - *The element with the electronic configuration 2.8.5 has 15 electrons (2 + 8 + 5 = 15)*
 
   - *You are not told any other information so you have to assume that it is electronically neutral and, therefore, has 15 protons*
-  - *15 protons means an atomic / proton number of 15, which corresponds to *`straight P presubscript 15 presuperscript 31`
+  - *15 protons means an atomic / proton number of 15, which corresponds to *`P _ 15 ^ 31`
 
 ### 2() — 1 marks
 The name of the compound formed between the element with an electronic configuration of 2.8.6 and the non-metallic element in Group 3 is:

@@ -196,7 +196,7 @@ Below is a proof by contradiction that $\mathrm{log}_{2}7$ is irrational.
 | Line 1: | Assume $\mathrm{log}_{2}7$ is a rational number.  Therefore it can be written in the form $\mathrm{log}_{2}7=\frac{a}{b}$, where *a* and *b* are integers, and $b\neq0$.  As $\mathrm{log}_{2}4=2\mathrm{and} \mathrm{log}_{2}8=3$, we may assume as well that $a>b>0$. |
 |---|---|
 | Line 2: | $\therefore2^{\frac{a}{b}}=7$ |
-| Line 3: | `open parentheses 2 to the power of a over b end exponent close parentheses to the power of b equals 7 to the power of b` |
+| Line 3: | $( 2^{ \frac{a}{b} } )^{b} = 7^{b}$ |
 | Line 4: | $2^{b}=7^{a}$ |
 | Line 5: | No power of 2 (all even) is equal to a power of 7 (all odd). |
 | Line 6: | $\therefore2^{a}\neq7^{b}$ unless $a=b=0$ but this is a contradiction of the original assumption. |

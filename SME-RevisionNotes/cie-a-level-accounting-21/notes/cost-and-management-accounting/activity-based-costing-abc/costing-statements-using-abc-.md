@@ -50,7 +50,7 @@ Calculate the **cost driver rate**
   
     - Let's say the cost pool is machine set up with an overall cost of **\$50 000**
     - The number of set up's needed for the machine is **250** (this is the cost driver)
-    - Therefore the cost driver rate will be :`fraction numerator $ 50 space 000 over denominator 250 space end fraction space equals space $ 200 space per space machine space set space up`
+    - Therefore the cost driver rate will be :$\frac{\$ 50 000}{250 } = \$ 200 \text{per} \text{machine} \text{set} \text{up}$
     - So **each time** the machine is set up for production, it will cost** \$200**
 
 - **STEP 3**
@@ -102,21 +102,21 @@ Calculate the **selling price**
 > 
 > - Find the proportion of the machine set up cost that is for tables
 > 
-> `fraction numerator $ 70 space 000 over denominator 20 end fraction cross times 8 space equals space $ 28 space 000`
+> $\frac{\$ 70 000}{20} \times 8 = \$ 28 000$
 > 
 > - Find the set up cost per unit per table
 > 
-> `fraction numerator $ 28 space 000 over denominator 8 space 000 space units end fraction space equals space $ 3.50 space machine space set space up space cost space per space unit`
+> $\frac{\$ 28 000}{8 000 units} = \$ 3.50 \text{machine} \text{set} \text{up} \text{cost} \text{per} \text{unit}$
 > 
 > Work out the machine set up cost per chair
 > 
 > - Find the proportion of the machine set up cost that is for chairs
 > 
-> `fraction numerator $ 70 space 000 over denominator 20 end fraction cross times 12 space equals space $ 42 space 000`
+> $\frac{\$ 70 000}{20} \times 12 = \$ 42 000$
 > 
 > - Find the cost drive rate
 > 
-> `fraction numerator $ 42 space 000 over denominator 2 space 400 space units end fraction space equals space $ 17.50 space machine space set space up space cost space per space unit`
+> $\frac{\$ 42 000}{2 400 units} = \$ 17.50 \text{machine} \text{set} \text{up} \text{cost} \text{per} \text{unit}$
 > 
 > |   | Tables<br><br>\$ | Chairs<br><br>\$ |
 > |---|---|---|

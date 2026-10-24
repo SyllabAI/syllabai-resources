@@ -67,7 +67,7 @@ guided_study: false
   - i.e. when there is no "=0"
   - For that, you must **factorise out** the *a* (but not divide by it)
   
-    - `a x squared plus b x plus c equals a open square brackets x squared plus b over a x close square brackets plus c` and so on
+    - $a x^{2} + b x + c = a [ x^{2} + \frac{b}{a} x ] + c$ and so on
 
 ### How does completing the square link to the quadratic formula?
 
@@ -95,15 +95,15 @@ guided_study: false
 > > *Halve the middle number, -4, to get -2*
 > *Replace the first two terms, **x*<sup>*2*</sup>* - 4**x**, with (**x** - 2)*<sup>*2*</sup>* - (-2)*<sup>*2*</sup>
 > 
-> `open parentheses x minus 2 close parentheses squared minus open parentheses negative 2 close parentheses squared minus 12 equals 0`
+> $( x - 2 )^{2} - ( - 2 )^{2} - 12 = 0$
 > 
 > > *Simplify the numbers*
 > 
-> `table attributes columnalign right center left columnspacing 0px end attributes row cell open parentheses x minus 2 close parentheses squared minus 4 minus 12 end cell equals 0 row cell open parentheses x minus 2 close parentheses squared minus 16 end cell equals 0 end table`
+> $\begin{array}{rcl} ( x - 2 )^{2} - 4 - 12 & = 0 \\ ( x - 2 )^{2} - 16 & = 0 \end{array}$
 > 
 > > *Add 16 to both sides*
 > 
-> `open parentheses x minus 2 close parentheses squared equals 16`
+> $( x - 2 )^{2} = 16$
 > 
 > > *Take the square root of both sides*
 > *Include the ± sign to get two solutions*

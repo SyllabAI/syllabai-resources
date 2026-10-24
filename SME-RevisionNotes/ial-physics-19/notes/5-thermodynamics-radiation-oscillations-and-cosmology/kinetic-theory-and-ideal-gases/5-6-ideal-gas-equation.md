@@ -125,9 +125,9 @@ $k=\frac{8.31}{6.02\times10^{23}}=1.38\times10^{-23}JK^{-1}$
 > 
 > $V=8.3\times10^{3}cm^{3}=(8.3\times10^{3})\times10^{-6}=8.3\times10^{-3}m^{3}$
 > 
-> `T space equals space 15 space C presuperscript o space plus space 273.15 space equals space 288.15 space K`
+> $T = 15 C pre^{o} + 273.15 = 288.15 K$
 > 
-> `N space equals space fraction numerator left parenthesis 4.5 space cross times space 10 to the power of 7 right parenthesis space cross times space left parenthesis 8.3 space cross times space 10 to the power of negative 3 end exponent right parenthesis over denominator open parentheses 1.38 space cross times space 10 to the power of negative 23 end exponent close parentheses space cross times space 288.15 end fraction space equals space 9.4 space cross times space 10 to the power of 25 space end exponent molecules space left parenthesis 2 space s f right parenthesis`
+> $N = \frac{( 4.5 \times 10^{7 ) \times ( 8.3 \times 10^{-3} } )}{( 1.38 \times 10^{- 23} ) \times 288.15} = 9.4 \times 10^{25 } \text{molecules} ( 2 s f )$
 
 > **Exam Hint**
 > After you solve a problem using any of the gas laws (or all of them combined), always check whether your final result makes physical sense - e.g. if you are asked to calculate the final pressure of a fixed mass of gas being heated at constant volume, your result must be greater than the initial pressure given in the problem (since Gay- Lussac's law states that pressure and absolute temperature are directly proportional at constant volume).

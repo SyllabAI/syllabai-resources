@@ -61,7 +61,7 @@ guided_study: true
 ### How do I integrate $\frac{1}{1+x^{2}}$ and $\frac{1}{a^{2}+x^{2}}$?
 
 - Recall that $\frac{d}{dx}(\mathrm{tan}^{-1}x)=\frac{1}{1+x^{2}}$
-- Then `integral fraction numerator 1 over denominator 1 space plus space x squared end fraction space straight d x space equals space tan to the power of negative 1 end exponent x space plus space c` and `integral fraction numerator 1 over denominator a squared space plus space x squared end fraction space straight d x space equals space 1 over a tan to the power of negative 1 end exponent open parentheses x over a close parentheses space plus space c`
+- Then $\int \frac{1}{1 + x^{2}} \mathrm{d} x = \tan ^{- 1} x + c$ and $\int \frac{1}{a^{2} + x^{2}} \mathrm{d} x = \frac{1}{a} \tan ^{- 1} ( \frac{x}{a} ) + c$
 
 > **Exam Hint**
 > - Make sure you have a copy of the formula booklet during revision but don't try to remember everything in the formula booklet.

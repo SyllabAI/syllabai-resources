@@ -16,12 +16,12 @@ List the known quantities:
 Since upthrust is equal to the weight, combine the two equations:
 
 - Density:$ρ=\frac{m}{V}$ and weight: $W=mg\Rightarrowm=\frac{W}{g}$
-- `rho space equals space fraction numerator open parentheses U over g close parentheses over denominator V end fraction space equals space fraction numerator U over denominator g V end fraction`
+- $\text{rho} = \frac{ ( \frac{U}{g} ) }{V} = \frac{U}{g V}$
 - $U=ρgV$ **[1 mark]**
 
 Substitute in known values and calculate upthrust:
 
-- `U space equals space open parentheses 1.03 cross times 10 cubed close parentheses cross times 9.81 cross times open parentheses 5.83 cross times 10 cubed close parentheses`
+- $U = ( 1.03 \times 10^{3} ) \times 9.81 \times ( 5.83 \times 10^{3} )$
 - Upthrust = 5.89 × 10<sup>7 </sup>N **[1 mark]**
 
 ii) The mass of the submarine must be 6.0 × 10<sup>6</sup> kg because:
@@ -36,7 +36,7 @@ Use a calculation to justify a mass of 6.0 × 10<sup>6</sup> kg:
 
 **OR **using** **$m=ρV$
 
-- `m space equals space open parentheses 1.03 cross times 10 cubed close parentheses cross times open parentheses 5.83 cross times 10 cubed close parentheses`** **= 6.0 × 10<sup>6</sup> kg** [1 mark]**
+- $m = ( 1.03 \times 10^{3} ) \times ( 5.83 \times 10^{3} )$** **= 6.0 × 10<sup>6</sup> kg** [1 mark]**
 
 **[Total: 4 marks]**
 
@@ -59,11 +59,11 @@ List the known quantities:
 Calculate the new upthrust:
 
 - $U=ρgV$
-- `U space equals space open parentheses 1.01 cross times 10 cubed close parentheses cross times 9.81 cross times open parentheses 5.83 cross times 10 cubed close parentheses space equals space 5.78 cross times 10 to the power of 7 space straight N` **[1 mark]**
+- $U = ( 1.01 \times 10^{3} ) \times 9.81 \times ( 5.83 \times 10^{3} ) = 5.78 \times 10^{7} \mathrm{N}$ **[1 mark]**
 
 Use the net downward force to calculate the required mass to be lost:
 
-- `F space equals space open parentheses 5.89 cross times 10 to the power of 7 close parentheses minus open parentheses 5.78 cross times 10 to the power of 7 close parentheses space equals space 1.1 cross times 10 to the power of 6 space straight N`
+- $F = ( 5.89 \times 10^{7} ) - ( 5.78 \times 10^{7} ) = 1.1 \times 10^{6} \mathrm{N}$
 - $m=\frac{W}{g}=\frac{1.1\times10^{6}}{9.81}=1.12\times10^{5}\mathrm{kg}$ **[1 mark]**
 
 **[Total: 5 marks]**
@@ -98,14 +98,14 @@ List the known quantities:
 i) Show that the mass of the cylinder is about 9 × 10<sup>−3</sup> kg:
 
 - Volume of brass cylinder:  $V=πr^{2}l$
-- `V space equals space straight pi space cross times space open parentheses fraction numerator 2.1 cross times 10 to the power of negative 2 end exponent over denominator 2 end fraction close parentheses squared space cross times space open parentheses 4.0 cross times 10 to the power of negative 2 end exponent close parentheses space equals space 1.39 cross times 10 to the power of negative 5 end exponent space straight m cubed` **[1 mark]**
-- Volume that is submerged: `V subscript s u b end subscript space equals space 0.63 space cross times space open parentheses 1.39 cross times 10 to the power of negative 5 end exponent close parentheses space equals space 8.76 cross times 10 to the power of negative 6 end exponent space straight m cubed` **[1 mark]**
+- $V = \mathrm{\pi } \times ( \frac{2.1 \times 10^{- 2} }{2} )^{2} \times ( 4.0 \times 10^{- 2} ) = 1.39 \times 10^{- 5} \mathrm{m}^{3}$ **[1 mark]**
+- Volume that is submerged: $V_{s u b} = 0.63 \times ( 1.39 \times 10^{- 5} ) = 8.76 \times 10^{- 6} \mathrm{m}^{3}$ **[1 mark]**
 
 Calculate the mass of the cylinder:
 
 - Mass of cylinder = mass of water displaced
 - $ρ=\frac{m}{V}\Rightarrowm=ρV$
-- Mass of water displaced:  `m space equals space open parentheses 1 cross times 10 cubed close parentheses space cross times space open parentheses 8.76 cross times 10 to the power of negative 6 end exponent close parentheses space`**[1 mark]**
+- Mass of water displaced:  $m = ( 1 \times 10^{3} ) \times ( 8.76 \times 10^{- 6} )$**[1 mark]**
 - Mass of cylinder:  $m=8.76\times10^{-3}\mathrm{kg}$ **[1 mark]**
 
 ii) Deduce whether an identical hollow cylinder made of gold would also float:
@@ -117,7 +117,7 @@ ii) Deduce whether an identical hollow cylinder made of gold would also float:
 Calculate the volume of water required to float the gold cylinder:
 
 - Mass of gold cylinder:  $m=ρV$
-- Mass of gold cylinder:  `m space equals space open parentheses 1.01 cross times 10 to the power of negative 6 end exponent close parentheses space cross times space open parentheses 19.3 cross times 10 cubed close parentheses space equals space 0.0194 space kg` **[1 mark]**
+- Mass of gold cylinder:  $m = ( 1.01 \times 10^{- 6} ) \times ( 19.3 \times 10^{3} ) = 0.0194 \text{kg}$ **[1 mark]**
 - Minimum volume of water required to float cylinder:  $V=\frac{m}{ρ}$
 - $V=\frac{0.0194}{1.00\times10^{3}}=1.94\times10^{-5}m^{3}$ **[1 mark]**
 
@@ -159,16 +159,16 @@ List the known quantities:
 
 Calculate the volume of the sphere:
 
-- `V equals 4 over 3 pi r cubed equals 4 over 3 pi cross times open parentheses fraction numerator 35 cross times 10 to the power of negative 3 end exponent over denominator 2 end fraction close parentheses cubed equals 2.24 cross times 10 to the power of negative 5 end exponent space straight m cubed` **[1 mark]**
+- $V = \frac{4}{3} \pi r^{3} = \frac{4}{3} \pi \times ( \frac{35 \times 10^{- 3} }{2} )^{3} = 2.24 \times 10^{- 5} \mathrm{m}^{3}$ **[1 mark]**
 
 Calculate the upthrust, $U$:
 
 - Upthrust, $U$= weight of fluid displaced
-- `U equals V rho subscript straight s g equals open parentheses 2.24 cross times 10 to the power of negative 5 end exponent close parentheses cross times open parentheses 1.43 cross times 10 cubed close parentheses cross times 9.81 equals 0.314 space straight N` **[1 mark]**
+- $U = V \rho_{s} g = ( 2.24 \times 10^{- 5} ) \times ( 1.43 \times 10^{3} ) \times 9.81 = 0.314 \mathrm{N}$ **[1 mark]**
 
 Calculate the weight of the glass ball, $W$:
 
-- `W equals V rho subscript g g equals open parentheses 2.24 cross times 10 to the power of negative 5 end exponent close parentheses cross times open parentheses 2.52 cross times 10 cubed close parentheses cross times 9.81 equals 0.554 space straight N` **[1 mark]**
+- $W = V \rho_{g} g = ( 2.24 \times 10^{- 5} ) \times ( 2.52 \times 10^{3} ) \times 9.81 = 0.554 \mathrm{N}$ **[1 mark]**
 
 Calculate drag force, $D$:
 
@@ -213,8 +213,8 @@ List the known quantities:
 
 Calculate *η:*
 
-- `k equals fraction numerator open parentheses rho subscript g minus rho subscript s close parentheses g over denominator 18 eta end fraction`
-- `eta equals fraction numerator open parentheses rho subscript g minus rho subscript s close parentheses g over denominator 18 k end fraction equals fraction numerator open parentheses open parentheses 2.52 cross times 10 cubed close parentheses minus 1.43 cross times 10 cubed close parentheses cross times 9.81 over denominator 18 cross times 6.0 end fraction` **[1 mark]**
+- $k = \frac{( \rho_{g} - \rho_{s} ) g}{18 \\eta }$
+- $\\eta = \frac{( \rho_{g} - \rho_{s} ) g}{18 k} = \frac{( ( 2.52 \times 10^{3} ) - 1.43 \times 10^{3} ) \times 9.81}{18 \times 6.0}$ **[1 mark]**
 - *η *= 99.0 Pa s **[1 mark]**
 
 **[Total: 8 marks]**
@@ -262,7 +262,7 @@ ii) Calculate the maximum speed of the sphere in the horizontal direction:
   - Drag force, $F$ = 2.3 × 10<sup>−5</sup> N (equal and opposite to the applied horizontal force)
 - $F=6πηrv$
 - $v=\frac{F}{6πηr}$
-- `v space equals space fraction numerator 2.3 cross times 10 to the power of negative 5 end exponent over denominator 6 straight pi cross times open parentheses 7.1 cross times 10 to the power of negative 2 end exponent close parentheses cross times open parentheses 2.25 cross times 10 to the power of negative 3 end exponent close parentheses end fraction` **[1 mark]**
+- $v = \frac{2.3 \times 10^{- 5} }{6 \mathrm{\pi } \times ( 7.1 \times 10^{- 2} ) \times ( 2.25 \times 10^{- 3} )}$ **[1 mark]**
 - $v$ = 7.64 × 10<sup>−3</sup> m s<sup>−1</sup> **[1 mark]**
 
 **[Total: 5 marks]**
@@ -378,12 +378,12 @@ List the known quantities:
 Use the density equation to calculate the droplet's mass:
 
 - $ρ=\frac{m}{V}$
-- `m space equals space rho V space equals space open parentheses 1.00 space cross times space 10 cubed close parentheses space cross times space open parentheses 3.35 space cross times space 10 to the power of negative 8 end exponent close parentheses` **[1 mark]**
+- $m = \\rho V = ( 1.00 \times 10^{3} ) \times ( 3.35 \times 10^{- 8} )$ **[1 mark]**
 - $m=3.35\times10^{-5}\mathrm{kg}$
 
 Use the equation relating mass and weight to calculate weight:
 
-- `W space equals space m g space equals space open parentheses 3.35 space cross times space 10 to the power of negative 5 end exponent close parentheses space cross times space 9.81` **[1 mark]**
+- $W = m g = ( 3.35 \times 10^{- 5} ) \times 9.81$ **[1 mark]**
 - $W=3.29\times10^{-4}N$
 - $\mathrm{weight}=3.3\times10^{-4}N$ (2 s.f.) **[1 mark]**
 
@@ -397,13 +397,13 @@ List the known quantities:
 
 Determine the mass of oil displaced:
 
-- `m space equals space rho subscript o i l end subscript V space equals space open parentheses 0.94 space cross times space 10 cubed close parentheses space cross times space open parentheses 3.35 space cross times space 10 to the power of negative 8 end exponent close parentheses`
+- $m = \rho_{o i l} V = ( 0.94 \times 10^{3} ) \times ( 3.35 \times 10^{- 8} )$
 - $m=3.15\times10^{-5}\mathrm{kg}$
 
 Apply archimedes' principle to find upthrust:
 
 - Upthrust = weight of fluid displaced
-- `U space equals space m g space equals space open parentheses 3.15 space cross times space 10 to the power of negative 5 end exponent close parentheses space cross times space 9.81` **[1 mark]**
+- $U = m g = ( 3.15 \times 10^{- 5} ) \times 9.81$ **[1 mark]**
 - $U=3.09\times10^{-4}N$
 - $\mathrm{upthrust}=3.1\times10^{-4}N$ (2 s.f.) **[1 mark]**
 
@@ -422,19 +422,19 @@ Apply Newton's first law to determine viscous force, $F$:
 
 - At terminal velocity, resultant force is zero
 - $W=U+F$
-- `F space equals space W space minus space U space equals space open parentheses 3.29 space cross times space 10 to the power of negative 4 end exponent close parentheses space minus space open parentheses 3.09 space cross times space 10 to the power of negative 4 end exponent close parentheses` **[1 mark]**
+- $F = W - U = ( 3.29 \times 10^{- 4} ) - ( 3.09 \times 10^{- 4} )$ **[1 mark]**
 - $F=2.0\times10^{-5}N$
 
 Use the droplet's volume to calculate its radius:
 
 - $V=\frac{4}{3}πr^{3}$
-- `r space equals space cube root of fraction numerator 3 V over denominator 4 straight pi end fraction end root space equals space cube root of fraction numerator 3 space cross times space open parentheses 3.35 space cross times space 10 to the power of negative 8 end exponent close parentheses over denominator 4 straight pi end fraction end root` **[1 mark]**
+- $r = \sqrt[3]{ \frac{3 V}{4 \mathrm{\pi } } } = \sqrt[3]{ \frac{3 \times ( 3.35 \times 10^{- 8} )}{4 \mathrm{\pi } } }$ **[1 mark]**
 - $r=2.0\times10^{-3}m$
 
 Use Stokes' law to determine terminal velocity:
 
 - $F=6πηrv$
-- `v space equals space fraction numerator F over denominator 6 straight pi eta r end fraction space equals space fraction numerator 2.0 space cross times space 10 to the power of negative 5 end exponent over denominator 6 pi space cross times space 0.11 space cross times space open parentheses 2.0 space cross times space 10 to the power of negative 3 end exponent close parentheses end fraction` **[1 mark]**
+- $v = \frac{F}{6 \mathrm{\pi } \\eta r} = \frac{2.0 \times 10^{- 5} }{6 \pi \times 0.11 \times ( 2.0 \times 10^{- 3} )}$ **[1 mark]**
 - $v=4.82\times10^{-3}ms^{-1}$
 - $\mathrm{Terminal} \mathrm{velocity}=4.8\times10^{-3}ms^{-1}$ **[1 mark]**
 
@@ -477,7 +477,7 @@ Use Stokes' law to determine terminal velocity:
   - $W=mg$
 - Combining these gives:
 
-  - `p equals fraction numerator open parentheses W over g close parentheses over denominator V end fraction equals fraction numerator W over denominator g V end fraction`
+  - $p = \frac{ ( \frac{W}{g} ) }{V} = \frac{W}{g V}$
 - Substituting in the values gives:
 
   - $p=\frac{35.0}{9.81\times1.32\times10^{-3}}$

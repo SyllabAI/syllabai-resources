@@ -19,7 +19,7 @@
 
 *We can find the total number of pieces of data by summing the frequencies*
 
-`Mean equals fraction numerator open parentheses 50 cross times 5 close parentheses plus open parentheses 85 cross times 12.5 close parentheses plus open parentheses 100 cross times 17.5 close parentheses plus open parentheses 120 cross times 22.5 close parentheses plus open parentheses 10 cross times 30 close parentheses over denominator 50 plus 85 plus 100 plus 120 plus 10 end fraction`
+$\text{Mean} = \frac{( 50 \times 5 ) + ( 85 \times 12.5 ) + ( 100 \times 17.5 ) + ( 120 \times 22.5 ) + ( 10 \times 30 )}{50 + 85 + 100 + 120 + 10}$
 
 **[2]**
 
@@ -37,13 +37,13 @@ $\mathrm{Mean}=16.6^{\circ}C$ **[1]**
 
 > *Find the value of the sum of all the midpoints multiplied by the frequencies (*$Σfx$*) by multiplying each midpoint by its corresponding frequency and adding them together*
 
-`table row cell straight capital sigma f x space end cell equals cell space open parentheses 40 space cross times space 32 close parentheses space plus space open parentheses 80 space cross times space 64 close parentheses space plus space open parentheses 125 space cross times space 80 close parentheses space plus space open parentheses 200 space cross times space 24 close parentheses end cell row blank equals cell space 21200 end cell end table`
+`| capital sigma f x | = ( 40 x 32 ) + ( 80 x 64 ) + ( 125 x 80 ) + ( 200 x 24 ) | | _ = 21200 | |`
 
 **[1]**
 
 > *Find the mean by dividing your answer by the total number of students (200)*
 
-`x with bar on top space equals table row blank blank cell fraction numerator space straight capital sigma f x space over denominator straight capital sigma f end fraction end cell end table table row blank equals blank end table table row blank blank cell fraction numerator space 21200 over denominator 200 end fraction end cell end table table row blank blank space end table`
+`x -bar = | _ _ ( capital sigma f x )/( capital sigma f) | | | _ = _ | | _ _ ( 21200)/(200) | | | _ _ |`
 
 $106m^{2}$** ****[1]**
 
@@ -59,13 +59,13 @@ $106m^{2}$** ****[1]**
 
 > *Find the value of the sum of the midpoints multiplied by the frequencies (*$Σfx$*) by multiplying each of the midpoints by its corresponding frequency and adding them together*
 
-`table row cell straight capital sigma f x space end cell equals cell space open parentheses 30 space cross times space 41 close parentheses space plus space open parentheses 80 space cross times space 24 close parentheses space plus space open parentheses 130 space cross times space 23 close parentheses space plus space open parentheses 190 space cross times space 8 close parentheses space plus space open parentheses 270 space cross times space 4 close parentheses end cell row blank equals cell space 8740 end cell end table`
+`| capital sigma f x | = ( 30 x 41 ) + ( 80 x 24 ) + ( 130 x 23 ) + ( 190 x 8 ) + ( 270 x 4 ) | | _ = 8740 | |`
 
 **[1]**
 
 > *Find the mean by dividing your answer by the total number of children (100)*
 
-`x with bar on top space equals table row blank blank cell fraction numerator space straight capital sigma f x space over denominator straight capital sigma f end fraction end cell end table table row blank equals blank end table table row blank blank cell fraction numerator space 8740 over denominator 100 end fraction end cell end table table row blank blank space end table`
+`x -bar = | _ _ ( capital sigma f x )/( capital sigma f) | | | _ = _ | | _ _ ( 8740)/(100) | | | _ _ |`
 
 $87.4\mathrm{min}$** ****[1]**
 **Working must be shown for all of the marks to be gained**
@@ -82,11 +82,11 @@ $87.4\mathrm{min}$** ****[1]**
 
 > *Find the value of *$Σfx$* by multiplying the midpoints by the frequencies and adding them together*
 
-`table row cell straight capital sigma f x space end cell equals cell space open parentheses 5 space cross times space 9 close parentheses space plus space open parentheses 12.5 space cross times space 18 close parentheses space plus space open parentheses 17.5 space cross times space 22 close parentheses space plus space open parentheses 30 space cross times space 30 close parentheses space plus space open parentheses 57.5 space cross times space 21 close parentheses end cell row blank equals cell space 2762.5 end cell end table`**[1]**
+`| capital sigma f x | = ( 5 x 9 ) + ( 12.5 x 18 ) + ( 17.5 x 22 ) + ( 30 x 30 ) + ( 57.5 x 21 ) | | _ = 2762.5 | |`**[1]**
 
 > *Find the mean by dividing the answer by the total number of students (100).*
 
-`x with bar on top space equals table row blank blank cell fraction numerator space straight capital sigma f x space over denominator straight capital sigma f end fraction end cell end table table row blank equals blank end table table row blank blank cell fraction numerator space 2762.5 over denominator 100 end fraction end cell end table table row blank blank space end table`
+`x -bar = | _ _ ( capital sigma f x )/( capital sigma f) | | | _ = _ | | _ _ ( 2762.5)/(100) | | | _ _ |`
 
 $\overline{x}=27.6s$** (3 s.f) ****[1]**
 
@@ -122,7 +122,7 @@ $\frac{7x+179}{x+45}=4.28$
 
 > *Multiply both sides by *$x+45$* and expand*
 
-`table row cell 7 x plus 179 end cell equals cell 4.28 left parenthesis x plus 45 right parenthesis end cell row cell 7 x plus 179 end cell equals cell 4.28 x plus 192.6 end cell end table`
+$\begin{gathered} 7 x + 179 & = 4.28 ( x + 45 ) \\ 7 x + 179 & = 4.28 x + 192.6 \end{gathered}$
 
 > *Rearrange to get all the **x** terms on one side by themselves*
 
@@ -130,7 +130,7 @@ $\frac{7x+179}{x+45}=4.28$
 
 > *Simplify both sides*
 
-`table row cell 7 x minus 4.28 x end cell equals cell 192.6 minus 179 end cell row cell 2.72 x end cell equals cell 13.6 end cell end table`
+$\begin{gathered} 7 x - 4.28 x & = 192.6 - 179 \\ 2.72 x & = 13.6 \end{gathered}$
 
 > *Divide both sides by 2.72*
 
@@ -189,7 +189,7 @@ $=\frac{16037.5}{100}$
 | Height, *h* cm | $0<h\leq10$ | $10<h\leq20$ | $20<h\leq30$ | $30<h\leq50$ |
 |---|---|---|---|---|
 | *Midpoint (*$x$*)* | *5* | *15* | *25* | *40* |
-| Frequency `open parentheses f close parentheses` | 2 | 18 | 62 | 38 |
+| Frequency $( f )$ | 2 | 18 | 62 | 38 |
 
 **[1]**
 
@@ -201,7 +201,7 @@ $=\frac{16037.5}{100}$
 
 > *It is a good idea to write down the calculation if you can*
 
-`x with bar on top space equals table row blank blank cell fraction numerator space straight capital sigma f x space over denominator straight capital sigma f end fraction end cell end table table row blank equals blank end table table row blank blank cell fraction numerator space 3350 over denominator 120 end fraction end cell end table table row blank blank space end table space equals space 27.9166....`
+`x -bar = | _ _ ( capital sigma f x )/( capital sigma f) | | | _ = _ | | _ _ ( 3350)/(120) | | | _ _ | = 27.9166....`
 
 **Estimated mean height = 27.9 cm (3 s.f.)**** **** ****[1]**
 
@@ -210,7 +210,7 @@ $=\frac{16037.5}{100}$
 
 $20<t\leq25$  **[1]**
 **Be careful not to write "44" as the answer**
-> *There are 120 students so the median time is between the 60*<sup>*th*</sup>* and 61*<sup>*st*</sup>* time (the *`open parentheses fraction numerator n plus 1 over denominator 2 end fraction close parentheses to the power of th`*time) *
+> *There are 120 students so the median time is between the 60*<sup>*th*</sup>* and 61*<sup>*st*</sup>* time (the *$( \frac{n + 1}{2} )^{th}$*time) *
 *It is useful to add a cumulative frequency row to the table*
 
 | Time ($t$ minutes) | $20<t\leq25$ | $25<t\leq30$ | $30<t\leq35$ | $35<t\leq40$ | $40<t\leq45$ |
@@ -237,7 +237,7 @@ $25<t\leq30$** ****[1]**
 
 > *Open the statistics function, you may need to choose 'one variable statistics' and choose the option for the mean, *$\overline{x}$
 
-`mu equals 28.3 with dot on top`
+$\\mu = 28. \dot{3}$
 
 **28.3 min ****[1]**
 
@@ -334,7 +334,7 @@ $\frac{5135}{120}$
 
 > *It is a good idea to write down the calculation for the mean*
 
-`table row cell fraction numerator open parentheses 25 cross times 2 close parentheses plus open parentheses 75 cross times 5 close parentheses plus open parentheses 112.5 cross times 4 close parentheses plus open parentheses 137.5 cross times 6 close parentheses plus open parentheses 175 cross times 3 close parentheses over denominator 20 end fraction end cell equals cell 2225 over 20 end cell end table`
+$\begin{gathered} \frac{( 25 \times 2 ) + ( 75 \times 5 ) + ( 112.5 \times 4 ) + ( 137.5 \times 6 ) + ( 175 \times 3 )}{20} & = \frac{2225}{20} \end{gathered}$
 
 **111.25 g ****[1]**
 
@@ -353,7 +353,7 @@ $8+2+12+2+0+1=25$
 
 > *Divide the total number of marks by the total number of students to get the mean mark*
 
-`fraction numerator open parentheses 5 cross times 8 close parentheses plus open parentheses 6 cross times 2 close parentheses plus open parentheses 7 cross times 12 close parentheses plus open parentheses 8 cross times 2 close parentheses plus open parentheses 9 cross times 0 close parentheses plus open parentheses 10 cross times 1 close parentheses over denominator 25 end fraction`
+$\frac{( 5 \times 8 ) + ( 6 \times 2 ) + ( 7 \times 12 ) + ( 8 \times 2 ) + ( 9 \times 0 ) + ( 10 \times 1 )}{25}$
 
 **[1]**
 
@@ -376,7 +376,7 @@ $8+2+12+2+0+1=25$
 
 > *It is a good idea to write down the calculation for the mean*
 
-`Mean equals fraction numerator open parentheses 38 cross times 25 close parentheses plus open parentheses 27 cross times 32.5 close parentheses plus open parentheses 21 cross times 37.5 close parentheses plus open parentheses 16 cross times 50 close parentheses plus open parentheses 18 cross times 80 close parentheses over denominator 38 plus 27 plus 21 plus 16 plus 18 end fraction`
+$\text{Mean} = \frac{( 38 \times 25 ) + ( 27 \times 32.5 ) + ( 21 \times 37.5 ) + ( 16 \times 50 ) + ( 18 \times 80 )}{38 + 27 + 21 + 16 + 18}$
 
 $\mathrm{Mean}=40.4583333...$
 
@@ -430,11 +430,11 @@ $\overline{x}=1.623333...$
 
 > *Multiply the midpoints by the frequencies and add them together *
 
-`open parentheses 1.35 cross times 7 close parentheses plus open parentheses 1.45 cross times 18 close parentheses plus open parentheses 1.55 cross times 30 close parentheses plus open parentheses 1.65 cross times 24 close parentheses plus open parentheses 1.75 cross times 27 close parentheses plus open parentheses 1.85 cross times 14 close parentheses`
+$( 1.35 \times 7 ) + ( 1.45 \times 18 ) + ( 1.55 \times 30 ) + ( 1.65 \times 24 ) + ( 1.75 \times 27 ) + ( 1.85 \times 14 )$
 
 > *Divide this by the total (120)*
 
-`fraction numerator open parentheses 1.35 cross times 7 close parentheses plus open parentheses 1.45 cross times 18 close parentheses plus open parentheses 1.55 cross times 30 close parentheses plus open parentheses 1.65 cross times 24 close parentheses plus open parentheses 1.75 cross times 27 close parentheses plus open parentheses 1.85 cross times 14 close parentheses over denominator 120 end fraction`$\overline{x}=\frac{194.8}{120}=1.623333...$
+$\frac{( 1.35 \times 7 ) + ( 1.45 \times 18 ) + ( 1.55 \times 30 ) + ( 1.65 \times 24 ) + ( 1.75 \times 27 ) + ( 1.85 \times 14 )}{120}$$\overline{x}=\frac{194.8}{120}=1.623333...$
 
 **1.62 m (3 s.f.) ****[1]**
 
@@ -468,7 +468,7 @@ $\frac{\sumfx}{\sumf}=\frac{128}{40}$
 
 > *The word 'calculate' is written in this question, so a method mark can be gained from writing down the calculation to find the mean*
 
-`fraction numerator open parentheses 5 cross times 8 close parentheses plus open parentheses 6 cross times 5 close parentheses plus open parentheses 7 cross times 11 close parentheses plus open parentheses 8 cross times 7 close parentheses plus open parentheses 9 cross times 5 close parentheses plus open parentheses 10 cross times 4 close parentheses over denominator 40 end fraction`
+$\frac{( 5 \times 8 ) + ( 6 \times 5 ) + ( 7 \times 11 ) + ( 8 \times 7 ) + ( 9 \times 5 ) + ( 10 \times 4 )}{40}$
 
 **[1]**
 
@@ -570,7 +570,7 @@ $27-20=7$
 *If it isn't easy to spot, find the value halfway between two numbers by adding them together and dividing by 2. *
 *You could also find the middle of the data by crossing out the numbers from each end alternately.*
 
-`up diagonal strike 20 space space space up diagonal strike 21 space space space up diagonal strike 21 space space space up diagonal strike 21 space space space up diagonal strike 21 space space space up diagonal strike 21 space space space 22 space space space 23 space space space up diagonal strike 23 space space space up diagonal strike 23 space space space up diagonal strike 24 space space space up diagonal strike 25 space space space up diagonal strike 26 space space space up diagonal strike 27`
+$\cancel{20} \cancel{21} \cancel{21} \cancel{21} \cancel{21} \cancel{21} 22 23 \cancel{23} \cancel{23} \cancel{24} \cancel{25} \cancel{26} \cancel{27}$
 
 *Halfway between 22 and 23 will be 22.5, which is the median*
 
@@ -636,7 +636,7 @@ $3+1+3+2+4+2=15$
 
 > *Add one to the total and then divide by 2.*
 
-`open parentheses 15 plus 1 close parentheses divided by 2 equals 8`
+$( 15 + 1 ) \div 2 = 8$
 
 > *Starting from the lowest value coin, find the value of the 8*<sup>*th*</sup>* coin.*
 
@@ -646,7 +646,7 @@ $3+1+3+2+4+2=15$
 
 iv) *Multiply the value of each coin by how many there are of that type.*
 
-`open parentheses 1 cross times 3 close parentheses plus open parentheses 2 cross times 1 close parentheses plus open parentheses 5 cross times 3 close parentheses plus open parentheses 10 cross times 2 close parentheses plus open parentheses 20 cross times 4 close parentheses plus open parentheses 50 cross times 2 close parentheses`
+$( 1 \times 3 ) + ( 2 \times 1 ) + ( 5 \times 3 ) + ( 10 \times 2 ) + ( 20 \times 4 ) + ( 50 \times 2 )$
 
 **220 cents** **[1]**
 
@@ -687,10 +687,10 @@ $\frac{220}{15}=14.66666...$
 
 > *Multiply the midpoints by the frequencies and add them together *
 
-`open parentheses 9.5 cross times 7 close parentheses plus open parentheses 10.25 cross times 48 close parentheses plus open parentheses 10.75 cross times 35 close parentheses plus open parentheses 11.75 cross times 6 close parentheses plus open parentheses 13.75 cross times 4 close parentheses`
+$( 9.5 \times 7 ) + ( 10.25 \times 48 ) + ( 10.75 \times 35 ) + ( 11.75 \times 6 ) + ( 13.75 \times 4 )$
 
 > *Divide this by the total number of students (100)*
 
-`fraction numerator open parentheses 9.5 cross times 7 close parentheses plus open parentheses 10.25 cross times 48 close parentheses plus open parentheses 10.75 cross times 35 close parentheses plus open parentheses 11.75 cross times 6 close parentheses plus open parentheses 13.75 cross times 4 close parentheses over denominator 100 end fraction`
+$\frac{( 9.5 \times 7 ) + ( 10.25 \times 48 ) + ( 10.75 \times 35 ) + ( 11.75 \times 6 ) + ( 13.75 \times 4 )}{100}$
 
 **10.6025 cm ****[1]**

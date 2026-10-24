@@ -198,7 +198,7 @@ What is the** formula** for $y$ in terms of $x$ if $y$ is **inversely proportion
 
 **BACK**
 
-If $y$ is** inversely proportiona**l to the **cube root** of $x$, then `y equals fraction numerator k over denominator cube root of x end fraction`.
+If $y$ is** inversely proportiona**l to the **cube root** of $x$, then $y = \frac{k}{ \sqrt[3]{x} }$.
 
 Using laws of indices that can also be written as $y=\frac{k}{x^{\frac{1}{3}}}$ or $y=kx^{-\frac{1}{3}}$.
 

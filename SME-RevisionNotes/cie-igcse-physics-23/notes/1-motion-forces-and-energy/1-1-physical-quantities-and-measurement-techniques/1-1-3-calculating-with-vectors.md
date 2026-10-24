@@ -96,7 +96,7 @@ $F_{R}^{2}=F_{1}^{2}+F_{2}^{2}$
 *Trigonometry relates the side lengths to the angles of right-angled triangles*
 
 - Two vectors at right angles to each other represent the opposite and adjacent sides of a right-angled triangle $\mathrm{tan}θ=\frac{\mathrm{opposite}}{\mathrm{adjacent}}$ $\mathrm{tan}θ=\frac{F_{1}}{F_{2}}$
-`theta space equals space tan to the power of negative 1 end exponent open parentheses F subscript 1 over F subscript 2 close parentheses`
+$\theta = \text{tan} ^{ - } 1 ( \frac{F_{1}}{F_{2}} )$
 
   - The tangent function relates the opposite and adjacent sides of a right-angled triangle by
 
@@ -133,7 +133,7 @@ $F_{R}^{2}=F_{1}^{2}+F_{2}^{2}$
 > 
 > $\mathrm{tan}θ=\frac{100}{60}$
 > 
-> `theta space equals space tan to the power of negative 1 end exponent open parentheses 100 over 60 close parentheses space equals space 59 degree` **[1 mark]**
+> $\\theta = \tan ^{- 1} ( \frac{100}{60} ) = 59^{\circ}$ **[1 mark]**
 > 
 > **Step 4: State the final answer, complete with magnitude and direction**
 > 

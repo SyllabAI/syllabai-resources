@@ -245,10 +245,10 @@ Which of the following can be used to calculate *d*?
 A moving electron has a de Broglie wavelength of 656 nm.
 
 Which of the following could be used to determine the speed of the electron?
-- **A.** `fraction numerator 6.63 space cross times 10 to the power of negative 34 end exponent over denominator open parentheses 656 cross times 10 to the power of negative 9 end exponent close parentheses open parentheses 9.11 cross times 10 to the power of negative 31 end exponent close parentheses end fraction`
-- **B.** `fraction numerator open parentheses 656 cross times 10 to the power of negative 9 end exponent close parentheses open parentheses 9.11 cross times 10 to the power of negative 31 end exponent close parentheses over denominator 6.63 space cross times 10 to the power of negative 34 end exponent end fraction`
-- **C.** `fraction numerator open parentheses 656 cross times 10 to the power of negative 9 end exponent close parentheses open parentheses 6.63 space cross times 10 to the power of negative 34 end exponent close parentheses over denominator 9.11 cross times 10 to the power of negative 31 end exponent end fraction`
-- **D.** `fraction numerator 9.11 cross times 10 to the power of negative 31 end exponent over denominator open parentheses 656 cross times 10 to the power of negative 9 end exponent close parentheses open parentheses 6.63 space cross times 10 to the power of negative 34 end exponent close parentheses end fraction`
+- **A.** $\frac{6.63 \times 10^{- 34} }{( 656 \times 10^{- 9} ) ( 9.11 \times 10^{- 31} )}$
+- **B.** $\frac{( 656 \times 10^{- 9} ) ( 9.11 \times 10^{- 31} )}{6.63 \times 10^{- 34} }$
+- **C.** $\frac{( 656 \times 10^{- 9} ) ( 6.63 \times 10^{- 34} )}{9.11 \times 10^{- 31} }$
+- **D.** $\frac{9.11 \times 10^{- 31} }{( 656 \times 10^{- 9} ) ( 6.63 \times 10^{- 34} )}$
 
 ## Q12 — medium — 1 marks · multiple-choice-questions
 
@@ -256,10 +256,10 @@ Which of the following could be used to determine the speed of the electron?
 The de Broglie wavelength for a moving electron is 5.47 × 10<sup>–10</sup> m.
 
 Which of the following expressions gives the speed of the electron in m s<sup>–1</sup>?
-- **A.** `fraction numerator open parentheses 6.63 space cross times space 10 to the power of negative 34 end exponent close parentheses over denominator open parentheses 9.11 space cross times space 10 to the power of negative 31 end exponent close parentheses open parentheses 5.47 space cross times 10 to the power of negative 10 end exponent close parentheses end fraction`
-- **B.** `fraction numerator open parentheses 6.63 space cross times space 10 to the power of negative 34 end exponent close parentheses over denominator open parentheses 1.60 space cross times space 10 to the power of negative 19 end exponent close parentheses open parentheses 5.47 space cross times 10 to the power of negative 10 end exponent close parentheses end fraction`
-- **C.** `fraction numerator open parentheses 9.11 space cross times space 10 to the power of negative 31 end exponent close parentheses open parentheses 5.47 space cross times 10 to the power of negative 10 end exponent close parentheses over denominator open parentheses 6.63 space cross times space 10 to the power of negative 34 end exponent close parentheses end fraction`
-- **D.** `fraction numerator open parentheses 1.60 space cross times space 10 to the power of negative 19 end exponent close parentheses open parentheses 5.47 space cross times 10 to the power of negative 10 end exponent close parentheses over denominator open parentheses 6.63 space cross times space 10 to the power of negative 34 end exponent close parentheses end fraction`
+- **A.** $\frac{( 6.63 \times 10^{- 34} )}{( 9.11 \times 10^{- 31} ) ( 5.47 \times 10^{- 10} )}$
+- **B.** $\frac{( 6.63 \times 10^{- 34} )}{( 1.60 \times 10^{- 19} ) ( 5.47 \times 10^{- 10} )}$
+- **C.** $\frac{( 9.11 \times 10^{- 31} ) ( 5.47 \times 10^{- 10} )}{( 6.63 \times 10^{- 34} )}$
+- **D.** $\frac{( 1.60 \times 10^{- 19} ) ( 5.47 \times 10^{- 10} )}{( 6.63 \times 10^{- 34} )}$
 
 ## Q13 — medium — 1 marks · multiple-choice-questions
 

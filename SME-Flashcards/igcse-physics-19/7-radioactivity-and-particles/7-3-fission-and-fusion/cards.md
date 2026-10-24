@@ -92,14 +92,14 @@ Neutrons and gamma radiation **can **be released in nuclear fission reactions.
 
 **True or False?**
 
-In a nuclear equation to represent a nuclear fission reaction, a neutron can be represented by `straight n presubscript 1 presuperscript 0`.
+In a nuclear equation to represent a nuclear fission reaction, a neutron can be represented by `n _ 1 ^ 0`.
 
 
 **BACK**
 
 **False.**
 
-In a nuclear equation to represent a nuclear fission reaction, a neutron can be represented by `straight n presubscript 0 presuperscript 1`.
+In a nuclear equation to represent a nuclear fission reaction, a neutron can be represented by `n _ 0 ^ 1`.
 
 
 
@@ -273,7 +273,7 @@ Nuclear fusion is the** joining **of two smaller nuclei to form one larger nucle
 
 The equation below shows a nuclear fission reaction.
 
-`straight H presubscript 1 presuperscript 2 space plus space straight H presubscript 1 presuperscript 1 space rightwards arrow space He presubscript 2 presuperscript 3`
+`H _ 1 ^ 2 + H _ 1 ^ 1 -> He _ 2 ^ 3`
 
 
 **BACK**
@@ -324,7 +324,7 @@ The amount of energy released during nuclear fusion is **huge**.
 
 What type of reaction is shown in the nuclear equation below, nuclear fission or nuclear fusion?
 
-`straight U presubscript 92 presuperscript 235 space plus space straight n presubscript 0 presuperscript 1 space rightwards arrow space Kr presubscript 36 presuperscript 92 space plus space Ba presubscript 56 presuperscript 141 space plus thin space 3 space straight n presubscript 0 presuperscript 1`
+`U _ 92 ^ 235 + n _ 0 ^ 1 -> Kr _ 36 ^ 92 + Ba _ 56 ^ 141 + 3 n _ 0 ^ 1`
 
 
 **BACK**

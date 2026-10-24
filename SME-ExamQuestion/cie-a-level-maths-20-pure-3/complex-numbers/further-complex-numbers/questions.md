@@ -326,7 +326,7 @@ Express each of the following complex numbers in the form $r e^{iθ}$, where $r 
 
 The complex numbers $z$ and $w$ satisfy
 
-`table row z equals cell 5 minus 5 i end cell row cell text Re end text open parentheses z w close parentheses end cell equals 0 row cell open vertical bar z w close vertical bar end cell equals cell 4 open vertical bar z close vertical bar end cell end table`
+$\begin{gathered} z = 5 - 5 i \\ \text{Re} ( z w ) & = 0 \\ \left| z w \right| & = 4 \left| z \right| \end{gathered}$
 
 By considering the position of $z$ in an Argand diagram and using geometrical reasoning, find the two possibilities for $w$, giving your answers in exponential form.
 

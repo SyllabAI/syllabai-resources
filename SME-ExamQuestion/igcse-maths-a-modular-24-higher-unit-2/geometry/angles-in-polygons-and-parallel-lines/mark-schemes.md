@@ -5,13 +5,13 @@
 ## Q1 — very_hard — 4 marks · exam-questions
 
 ### 12() — 4 marks
-> *Calculate the size of an interior angle of a regular pentagon using: *`s i z e space o f space i n t e r i o r space a n g l e space equals space fraction numerator 180 open parentheses n minus 2 close parentheses over denominator n end fraction`*, where *$n$* is the number of sides of the polygon.*
+> *Calculate the size of an interior angle of a regular pentagon using: *$s i z e o f i n t e r i o r a n g l e = \frac{180 ( n - 2 )}{n}$*, where *$n$* is the number of sides of the polygon.*
 
-`table row blank blank cell fraction numerator 180 open parentheses 5 minus 2 close parentheses over denominator 5 end fraction end cell end table`
+$\begin{gathered} \frac{180 ( 5 - 2 )}{5} \end{gathered}$
 
 **[1]**
 
-`table row blank equals cell 108 degree end cell end table`
+$\begin{gathered} = 108^{\circ} \end{gathered}$
 
 > *CD** and **AB** are both lines of symmetry of a regular pentagon, so they each bisect an edge at right-angles.*
 
@@ -19,9 +19,9 @@
 
 **[1]**
 
-> *An irregular pentagon is formed, calculate the sum of the interior angles of a pentagon using: *`s u m space o f space i n t e r i o r space a n g l e s space equals space 180 open parentheses n minus 2 close parentheses`
+> *An irregular pentagon is formed, calculate the sum of the interior angles of a pentagon using: *$s u m o f i n t e r i o r a n g l e s = 180 ( n - 2 )$
 
-`180 open parentheses 5 minus 2 close parentheses equals 540 degree`
+$180 ( 5 - 2 ) = 540^{\circ}$
 
 > *Form an equation for the sum of the interior angles in the irregular pentagon.*
 
@@ -44,7 +44,7 @@ $x=144^{\circ}$** [1]**
 
 *Angle ***DEC*** + Angle ***CEB  ***= 180**<sup>o</sup>*  *(Angles on a straight line)*
 
-`table row cell Angle space D E C space end cell equals cell space 180 minus 41 end cell row blank equals cell space 139 degree end cell end table`
+$\begin{gathered} \text{Angle} D E C & = 180 - 41 \\ = 139^{\circ} \end{gathered}$
 
 **[1]**
 
@@ -54,7 +54,7 @@ $x=144^{\circ}$** [1]**
 
 *Angle ***DAB ***+ Angle ***CDA*** = 180**<sup>o</sup>** (Co-interior angles)*
 
-`table row cell 120 plus 38 plus Angle space E D C space end cell equals cell space 180 end cell row cell Angle space E D C end cell equals cell 180 minus 120 minus 38 end cell row cell Angle space E D C end cell equals cell 22 degree end cell end table`
+$\begin{gathered} 120 + 38 + \text{Angle} E D C & = 180 \\ \text{Angle} E D C & = 180 - 120 - 38 \\ \text{Angle} E D C & = 22^{\circ} \end{gathered}$
 
 **[1]**
 
@@ -64,7 +64,7 @@ $x=144^{\circ}$** [1]**
 
 *Angle ***CDE*** + Angle ***DEC*** + Angle ***DCE ***= 180**<sup>o</sup>**   (Angles in a triangle)*
 
-`table row cell 22 plus 139 plus x end cell equals 180 row x equals cell 180 minus 22 minus 139 end cell end table`
+$\begin{gathered} 22 + 139 + x & = 180 \\ x = 180 - 22 - 139 \end{gathered}$
 
 $x=19^{\circ}$ **[1]**
 
@@ -85,7 +85,7 @@ $x=19^{\circ}$ **[1]**
 
 *Angle ***ABE*** + Angle ***CBE*** = 180**<sup>o</sup>**   (Angles on a straight line)*
 
-`table row cell x plus 47 end cell equals 180 row x equals cell 180 minus 47 end cell end table`
+$\begin{gathered} x + 47 & = 180 \\ x = 180 - 47 \end{gathered}$
 
 **[1]**
 
@@ -105,7 +105,7 @@ $x=133^{\circ}$ **[1]**
 
 *Angle ***ABE*** + Angle ***BED*** = 180**<sup>o</sup>**   (Co-interior angles)*
 
-`table row cell x plus 47 end cell equals 180 row x equals cell 180 minus 47 end cell end table`
+$\begin{gathered} x + 47 & = 180 \\ x = 180 - 47 \end{gathered}$
 
 **[1]**
 
@@ -122,7 +122,7 @@ $x=133^{\circ}$** [1]**
 
 *Angle ***AED*** + Angle ***EDB *** + Angle ***DBA ***+ Angle ***BAE*** = 360**<sup>o</sup>** (Angles in a quadrilateral)*
 
-`table row cell 40 plus 130 plus Angle space D B A plus 130 end cell equals 360 row cell Angle space D B A end cell equals cell 360 minus 40 minus 130 minus 130 end cell row cell Angle space D B A end cell equals cell 60 degree end cell end table`
+$\begin{gathered} 40 + 130 + \text{Angle} D B A + 130 & = 360 \\ \text{Angle} D B A & = 360 - 40 - 130 - 130 \\ \text{Angle} D B A & = 60^{\circ} \end{gathered}$
 
 **[1]**
 
@@ -140,7 +140,7 @@ $x=133^{\circ}$** [1]**
 
 *Angle ***CBD ***+ Angle ***BDC*** + Angle ***BCD*** = 180**<sup>o</sup>**   (Angles in a triangle sum to 180**<sup>o</sup>**)*
 
-`table row cell Angle space C B D plus 72 plus 72 end cell equals 180 row cell Angle space C B D end cell equals cell 180 minus 72 minus 72 end cell row cell Angle space C B D end cell equals cell 36 degree end cell end table`
+$\begin{gathered} \text{Angle} C B D + 72 + 72 & = 180 \\ \text{Angle} C B D & = 180 - 72 - 72 \\ \text{Angle} C B D & = 36^{\circ} \end{gathered}$
 
 ![F1ea3_w7_4-2-17](assets/016-f1ea3-w7-4-2-17.png)
 
@@ -150,7 +150,7 @@ $x=133^{\circ}$** [1]**
 
 > *Form an equation for the sum of interior angles of a triangle and solve.*
 
-`table attributes columnalign right center left columnspacing 0px end attributes row cell 2 x plus 96 end cell equals 180 row cell 2 x end cell equals 84 end table`
+$\begin{array}{rcl} 2 x + 96 & = 180 \\ 2 x & = 84 \end{array}$
 
 **[1]**
 
@@ -177,13 +177,13 @@ $\mathrm{Angle}ACB=42^{\circ}$** [1]**
 
 *Angle ***BFG*** + Angle ***FBG*** + Angle ***BGF*** = 180**<sup>o</sup>**   (Angles in a triangle)*
 
-`table row cell 65 plus 65 plus Angle space B G F end cell equals 180 row cell Angle space B G F end cell equals cell 180 minus 65 minus 65 end cell row cell Angle space B G F end cell equals cell 50 degree end cell end table`
+$\begin{gathered} 65 + 65 + \text{Angle} B G F & = 180 \\ \text{Angle} B G F & = 180 - 65 - 65 \\ \text{Angle} B G F & = 50^{\circ} \end{gathered}$
 
 > *Find angle *$x$*.*
 
 *Angle ***FGB*** + Angle ***BGH***  = 180**<sup>o</sup>**  (Angles on a straight line)*
 
-`table attributes columnalign right center left columnspacing 0px end attributes row cell 50 plus x end cell equals 180 end table`
+$\begin{array}{rcl} 50 + x & = 180 \end{array}$
 
 **[1]**
 
@@ -203,7 +203,7 @@ $x=130^{\circ}$* *
 
 **[1]**
 
-`table row cell Angle space A B Q plus 35 plus 90 end cell equals 180 row cell Angle space A B Q end cell equals cell 180 minus 35 minus 90 end cell row cell Angle space A B Q end cell equals cell 55 degree end cell end table`
+$\begin{gathered} \text{Angle} A B Q + 35 + 90 & = 180 \\ \text{Angle} A B Q & = 180 - 35 - 90 \\ \text{Angle} A B Q & = 55^{\circ} \end{gathered}$
 
 **[1]**
 
@@ -220,9 +220,9 @@ $x=130^{\circ}$* *
 ### 15() — 4 marks
 > *Method 1:*
 
-> *Calculate the size of an interior angle in a regular 9-sided polygon using: *`s i z e space o f space i n t e r i o r space a n g l e space equals space fraction numerator 180 open parentheses n minus 2 close parentheses over denominator n end fraction`*, where *$n$* is the number of sides of the polygon.*
+> *Calculate the size of an interior angle in a regular 9-sided polygon using: *$s i z e o f i n t e r i o r a n g l e = \frac{180 ( n - 2 )}{n}$*, where *$n$* is the number of sides of the polygon.*
 
-`fraction numerator 180 open parentheses 9 minus 2 close parentheses over denominator 9 end fraction equals 140 degree`
+$\frac{180 ( 9 - 2 )}{9} = 140^{\circ}$
 
 **180(9-2) ****[1] **
 **Division by 9 ****[1]**
@@ -241,7 +241,7 @@ $x=130^{\circ}$* *
 
 *Angles in a quadrilateral sum to 360**<sup>o</sup>*
 
-`table row cell x plus x plus 140 plus 140 end cell equals 360 row cell 2 x plus 280 end cell equals 360 row cell 2 x end cell equals 80 row x equals cell 40 degree end cell end table`
+$\begin{gathered} x + x + 140 + 140 & = 360 \\ 2 x + 280 & = 360 \\ 2 x & = 80 \\ x = 40^{\circ} \end{gathered}$
 
 > *Angle **BEF** and Angle **BED** sum to the total of one interior angle of the regular 9-sided polygon.*
 
@@ -249,7 +249,7 @@ $x=130^{\circ}$* *
 
 > *Form an equation and solve to find *$y$*.*
 
-`table row cell y plus 40 end cell equals 140 end table`
+$\begin{gathered} y + 40 & = 140 \end{gathered}$
 
 **[1]**
 
@@ -279,11 +279,11 @@ $\frac{360}{9}=40^{\circ}$
 
 > *Form an equation and solve to find *$y$*.*
 
-`table row cell y plus 40 end cell equals 140 end table`
+$\begin{gathered} y + 40 & = 140 \end{gathered}$
 
 **[1]**
 
-`table row y equals 100 end table`
+$\begin{gathered} y = 100 \end{gathered}$
 
 ** **$\mathrm{Angle}BEF=100^{\circ}$* ***[1]**
 
@@ -314,7 +314,7 @@ $\frac{360}{9}=40^{\circ}$
 
 *Angle ***FBC*** + Angle ***CFB*** + Angle ***BCF*** = 180**<sup>o</sup>**   (Angles in a triangle)*
 
-`table attributes columnalign right center left columnspacing 0px end attributes row cell 70 plus 70 plus x end cell equals 180 row x equals cell 180 minus 70 minus 70 end cell end table`
+$\begin{array}{rcl} 70 + 70 + x & = 180 \\ x = 180 - 70 - 70 \end{array}$
 
 $x=40^{\circ}$** [1]**
 
@@ -337,7 +337,7 @@ $x=40^{\circ}$** [1]**
 
 *Angle ***PRW***  + Angle ***WRS*** = 180**<sup>o</sup>** (Angles on a straight line)*
 
-`table attributes columnalign right center left columnspacing 0px end attributes row cell x plus 126 end cell equals 180 row x equals cell 180 minus 126 end cell end table`
+$\begin{array}{rcl} x + 126 & = 180 \\ x = 180 - 126 \end{array}$
 
 $x=54^{\circ}$**[1]**
 
@@ -358,9 +358,9 @@ $x=54^{\circ}$**[1]**
 
 **[1]**
 
-> *Find the sum of the interior angles using *`open parentheses n minus 2 close parentheses cross times 180`
+> *Find the sum of the interior angles using *$( n - 2 ) \times 180$
 
-`open parentheses 6 minus 2 close parentheses cross times 180 equals 720`
+$( 6 - 2 ) \times 180 = 720$
 
 **[1]**
 
@@ -368,11 +368,11 @@ $x=54^{\circ}$**[1]**
 
 > *Set up an equation*
 
-`2 open parentheses 117 plus x plus 2 x close parentheses equals 720`
+$2 ( 117 + x + 2 x ) = 720$
 
 > *Solve for *$x$
 
-`table row cell 117 plus 3 x end cell equals 360 row cell 3 x end cell equals 243 row x equals 81 end table`
+$\begin{gathered} 117 + 3 x & = 360 \\ 3 x & = 243 \\ x = 81 \end{gathered}$
 
 **[1]**
 
@@ -411,7 +411,7 @@ $2\times81=162$
 
 *Angle ***BAE*** + Angle ***AEB*** + Angle ***ABE*** = 180**<sup>o</sup>**   (Angles in a triangle)*
 
-`table attributes columnalign right center left columnspacing 0px end attributes row cell 54 plus 70 plus Angle space A B E end cell equals 180 row cell Angle space A B E end cell equals cell 180 minus 54 minus 70 end cell row cell Angle space A B E end cell equals cell 56 degree end cell end table`
+$\begin{array}{rcl} 54 + 70 + \text{Angle} A B E & = 180 \\ \text{Angle} A B E & = 180 - 54 - 70 \\ \text{Angle} A B E & = 56^{\circ} \end{array}$
 
 ![hH2-8iLM_4-2-31](assets/062-hh2-8ilm-4-2-31.png)
 
@@ -447,7 +447,7 @@ $x=124^{\circ}$** ****[1]**
 
 **[1]**
 
-`table row cell 60 plus x plus 80 end cell equals 180 row x equals cell 180 minus 60 minus 80 end cell end table`
+$\begin{gathered} 60 + x + 80 & = 180 \\ x = 180 - 60 - 80 \end{gathered}$
 
 $x=40^{\circ}$ **[1]**
 
@@ -460,7 +460,7 @@ $x=40^{\circ}$ **[1]**
 *Exterior angles in any polygon add up to 360°. *
 *A regular pentagon has 5 equal exterior angles.*
 
-> * *`T S with hat on top U space equals 360 over 5 equals space 72 degree`
+> * *$T \hat{S} U = \frac{360}{5} = 72^{\circ}$
 
 **[1]**
 
@@ -470,7 +470,7 @@ $x=40^{\circ}$ **[1]**
 
 > *TP** and **TR **are also tangents to the circle, so by the circle theorem 'A tangent always meets a radius at 90°', angles **ORQ **and **OTP **are both 90°. *
 
-`O R with hat on top Q space equals space O T with hat on top P space equals 90 degree`* **(angle between tangent and radius)*
+$O \hat{R} Q = O \hat{T} P = 90^{\circ}$* **(angle between tangent and radius)*
 
 **[1]**
 
@@ -478,9 +478,9 @@ $x=40^{\circ}$ **[1]**
 
 ![QLY1pOQ2_4-8-edexcel-gcse-vh-q3-diagram-2](assets/025-qly1poq2-4-8-edexcel-gcse-vh-q3-diagram-2.png)
 
-> *The sum of the interior angles in any polygon can be found using the formula 180°(n - 2). A regular pentagon has 5 equal interior angles, therefore these can be found using the formula *`fraction numerator 180 open parentheses 5 space minus space 2 close parentheses over denominator 5 end fraction`*.*
+> *The sum of the interior angles in any polygon can be found using the formula 180°(n - 2). A regular pentagon has 5 equal interior angles, therefore these can be found using the formula *$\frac{180 ( 5 - 2 )}{5}$*.*
 
-> * *`T P with hat on top Q space equals P Q with hat on top R space equals space fraction numerator 3 open parentheses 180 close parentheses over denominator 5 end fraction equals space 108 degree`
+> * *$T \hat{P} Q = P \hat{Q} R = \frac{3 ( 180 )}{5} = 108^{\circ}$
 
 > *Add these angles to the diagram.*
 
@@ -490,19 +490,19 @@ $x=40^{\circ}$ **[1]**
 
 > *The sum of the interior angles in any polygon can be found using the formula 180°(n - 2).*
 
-`R O with hat on top T space plus O T with hat on top P space plus space T P with hat on top Q space plus space P Q with hat on top R space plus space Q R with hat on top O space equals space 180 open parentheses 5 space minus space 2 close parentheses degree space equals space 540 degree`
+$R \hat{O} T + O \hat{T} P + T \hat{P} Q + P \hat{Q} R + Q \hat{R} O = 180 ( 5 - 2 )^{\circ} = 540^{\circ}$
 
 > *Substitute in the angles you know to find angle **ROT**.*
 
-`table row cell R O with hat on top T space plus space 90 degree space plus space 90 degree space plus space 108 degree space plus space 108 degree space end cell equals cell space 540 degree end cell row cell R O with hat on top T space plus space 396 degree space end cell equals cell space 540 degree end cell row cell R O with hat on top T space space end cell equals cell space 144 degree end cell end table`
+$\begin{gathered} R \hat{O} T + 90^{\circ} + 90^{\circ} + 108^{\circ} + 108^{\circ} & = 540^{\circ} \\ R \hat{O} T + 396^{\circ} & = 540^{\circ} \\ R \hat{O} T & = 144^{\circ} \end{gathered}$
 
 **[1]**
 
 > *By the circle theorem, the angle at the centre is twice the angle at the circumference, angle **ROT **is twice angle **RUT.*
 
-`R O with hat on top T space equals 2 open parentheses R U with hat on top T close parentheses space equals space 2 open parentheses S U with hat on top T close parentheses`
+$R \hat{O} T = 2 ( R \hat{U} T ) = 2 ( S \hat{U} T )$
 
-`S U with hat on top T space equals fraction numerator R O with hat on top T over denominator 2 end fraction equals space 144 over 2 space equals space 72 degree`
+$S \hat{U} T = \frac{R \hat{O} T}{2} = \frac{144}{2} = 72^{\circ}$
 
 **[1]**
 
@@ -518,7 +518,7 @@ $x=40^{\circ}$ **[1]**
 
 *Angle ***CBD*** + Angle ***ABD*** = 180**<sup>o</sup>**   (Angles on a straight line)*
 
-`table row cell Angle italic space C B D plus 125 end cell equals 180 row cell Angle space C B D end cell equals cell 180 minus 125 end cell row cell Angle italic space C B D end cell equals cell 55 degree end cell end table`
+$\begin{gathered} \text{Angle} C B D + 125 & = 180 \\ \text{Angle} C B D & = 180 - 125 \\ \text{Angle} C B D & = 55^{\circ} \end{gathered}$
 
 **[1]**
 
@@ -528,7 +528,7 @@ $x=40^{\circ}$ **[1]**
 
 *Angle ***BDC*** + Angle ***BCD*** + Angle ***DBC*** = 180**<sup>o</sup>**   (Angles in a triangle)*
 
-`table row cell Angle space B D C plus 30 plus 55 end cell equals 180 row cell Angle space B D C end cell equals cell 180 minus 30 minus 55 end cell row cell Angle space B D C end cell equals cell 95 degree end cell end table`
+$\begin{gathered} \text{Angle} B D C + 30 + 55 & = 180 \\ \text{Angle} B D C & = 180 - 30 - 55 \\ \text{Angle} B D C & = 95^{\circ} \end{gathered}$
 
 ![4-2-33](assets/046-4-2-33.png)
 
@@ -546,15 +546,15 @@ $x=95^{\circ}$** [1]**
 ### 25() — 3 marks
 > *Method 1:*
 
-> *Find the interior angle of the regular octagon, using, *`s i z e space o f space i n t e r i o r space a n g l e space equals space fraction numerator 180 open parentheses n minus 2 close parentheses over denominator n end fraction`*, where *$n$*is the number of sides of the polygon.*
+> *Find the interior angle of the regular octagon, using, *$s i z e o f i n t e r i o r a n g l e = \frac{180 ( n - 2 )}{n}$*, where *$n$*is the number of sides of the polygon.*
 
-`fraction numerator 180 open parentheses 8 minus 2 close parentheses over denominator 8 end fraction equals 135 degree`
+$\frac{180 ( 8 - 2 )}{8} = 135^{\circ}$
 
 **[1]**
 
 > *Find the interior angle of the regular hexagon.*
 
-`fraction numerator 180 open parentheses 6 minus 2 close parentheses over denominator 6 end fraction equals 120 degree`
+$\frac{180 ( 6 - 2 )}{6} = 120^{\circ}$
 
 **[1]**
 
@@ -562,7 +562,7 @@ $x=95^{\circ}$** [1]**
 
 > *Angles around a point are equal to 360*<sup>*o*</sup>*.*
 
-`table attributes columnalign right center left columnspacing 0px end attributes row cell 135 plus 120 plus x end cell equals 360 row x equals cell 360 minus 135 minus 120 end cell end table`
+$\begin{array}{rcl} 135 + 120 + x & = 360 \\ x = 360 - 135 - 120 \end{array}$
 
 $x=105^{\circ}$** ****[1]**
 
@@ -592,28 +592,28 @@ $180-60=120^{\circ}$
 
 > *Angles around a point are equal to 360*<sup>*o*</sup>*.*
 
-`table attributes columnalign right center left columnspacing 0px end attributes row cell 135 plus 120 plus x end cell equals 360 row x equals cell 360 minus 135 minus 120 end cell end table`
+$\begin{array}{rcl} 135 + 120 + x & = 360 \\ x = 360 - 135 - 120 \end{array}$
 
 $x=105^{\circ}$* ***[1]**
 
 ## Q16 — very_hard — 4 marks · exam-questions
 
 ### 11() — 4 marks
-> *Find the size of an interior angle of the regular 10-sided polygon using the formula: *`Interior space Angle equals fraction numerator open parentheses n minus 2 close parentheses cross times 180 degree over denominator n end fraction.`
+> *Find the size of an interior angle of the regular 10-sided polygon using the formula: *$\text{Interior} \text{Angle} = \frac{( n - 2 ) \times 180^{\circ}}{n} .$
 
-`fraction numerator open parentheses 10 minus 2 close parentheses cross times 180 degree over denominator 10 end fraction equals 144 degree`
+$\frac{( 10 - 2 ) \times 180^{\circ}}{10} = 144^{\circ}$
 
 **[1]**
 
-> *Consider the 5-sided polygon **AGHIJ**. Find the sum of the angles using the formula: *`Sum space of space Interior space Angle equals open parentheses n minus 2 close parentheses cross times 180 degree.`
+> *Consider the 5-sided polygon **AGHIJ**. Find the sum of the angles using the formula: *$Sum of Interior Angle = ( n - 2 ) \times 180 ^{\circ} .$
 
 ![angles-vhq6-1](assets/028-angles-vhq6-1.png)
 
-`open parentheses 5 minus 2 close parentheses cross times 180 degree equals 540 degree`
+$( 5 - 2 ) \times 180^{\circ} = 540^{\circ}$
 
 > *The angle at **A** is the same as the angle at **G** by symmetry. The other three angles are 144°. Form an equation and solve it to find **x**.*
 
-`table attributes columnalign right center left columnspacing 0px end attributes row cell x plus x plus 144 plus 144 plus 144 end cell equals 540 row cell 2 x plus 432 end cell equals 540 row cell 2 x end cell equals 108 row x equals 54 end table`
+$\begin{array}{rcl} x + x + 144 + 144 + 144 & = 540 \\ 2 x + 432 & = 540 \\ 2 x & = 108 \\ x = 54 \end{array}$
 
 **[1]**
 
@@ -621,13 +621,13 @@ $x=105^{\circ}$* ***[1]**
 
 ![angles-vhq6-2](assets/029-angles-vhq6-2.png)
 
-`table attributes columnalign right center left columnspacing 0px end attributes row cell z plus z plus 144 plus 144 end cell equals 360 row cell 2 z plus 288 end cell equals 360 row cell 2 z end cell equals 72 row z equals 36 end table`
+$\begin{array}{rcl} z + z + 144 + 144 & = 360 \\ 2 z + 288 & = 360 \\ 2 z & = 72 \\ z = 36 \end{array}$
 
 **[1]**
 
 > *The three angles in the 10-sdied polygon at A add up to 144°. Form an equation and solve it to find **y**.*
 
-`table attributes columnalign right center left columnspacing 0px end attributes row cell 54 plus y plus 36 end cell equals 144 row cell y plus 90 end cell equals 144 row y equals 54 end table`
+$\begin{array}{rcl} 54 + y + 36 & = 144 \\ y + 90 & = 144 \\ y = 54 \end{array}$
 
 $x=y=54$* ***[1]**
 
@@ -656,7 +656,7 @@ $x=y=54$* ***[1]**
 
 *Angle ***BAF ***+ Angle ***AFB*** + Angle ***ABF*** = 180**<sup>o</sup>**   (Angles in a triangle)*
 
-`table row cell 75 plus 35 plus Angle space A B F end cell equals 180 row cell Angle space A B F space end cell equals cell space 180 minus 75 minus 35 end cell end table`
+$\begin{gathered} 75 + 35 + \text{Angle} A B F & = 180 \\ \text{Angle} A B F & = 180 - 75 - 35 \end{gathered}$
 
 **[1]**
 
@@ -670,9 +670,9 @@ $x=y=54$* ***[1]**
 ## Q18 — medium — 3 marks · exam-questions
 
 ### 14() — 3 marks
-*Find the interior angle of the regular pentagon* *using, *`s i z e space o f space i n t e r i o r space a n g l e space equals space fraction numerator 180 open parentheses n minus 2 close parentheses over denominator n end fraction`*, where *$n$*is the number of sides of the polygon.*
+*Find the interior angle of the regular pentagon* *using, *$s i z e o f i n t e r i o r a n g l e = \frac{180 ( n - 2 )}{n}$*, where *$n$*is the number of sides of the polygon.*
 
-`fraction numerator 180 open parentheses 5 minus 2 close parentheses over denominator 5 end fraction equals 108 degree`
+$\frac{180 ( 5 - 2 )}{5} = 108^{\circ}$
 
 **[1]**
 
@@ -684,7 +684,7 @@ $x=y=54$* ***[1]**
 
 > *Angles around a point sum to 360*<sup>*o*</sup>*.*
 
-`table attributes columnalign right center left columnspacing 0px end attributes row cell 108 plus 2 x end cell equals 360 row x equals cell fraction numerator 360 minus 108 over denominator 2 end fraction end cell end table`
+$\begin{array}{rcl} 108 + 2 x & = 360 \\ x = \frac{360 - 108}{2} \end{array}$
 
 **[1]**
 
@@ -693,25 +693,25 @@ $x=y=54$* ***[1]**
 ## Q19 — very_hard — 4 marks · exam-questions
 
 ### 4() — 4 marks
-> *Find the size of an interior angle of the regular octagon using the formula: *`Interior space Angle equals fraction numerator open parentheses n minus 2 close parentheses cross times 180 degree over denominator n end fraction.`
+> *Find the size of an interior angle of the regular octagon using the formula: *$\text{Interior} \text{Angle} = \frac{( n - 2 ) \times 180^{\circ}}{n} .$
 
-`fraction numerator open parentheses 8 minus 2 close parentheses cross times 180 degree over denominator 8 end fraction equals 135 degree`
+$\frac{( 8 - 2 ) \times 180^{\circ}}{8} = 135^{\circ}$
 
 > *Find the size of an interior angle of the regular pentagon.*
 
-`fraction numerator open parentheses 5 minus 2 close parentheses cross times 180 degree over denominator 5 end fraction equals 108 degree`
+$\frac{( 5 - 2 ) \times 180^{\circ}}{5} = 108^{\circ}$
 
 **Finding the interior angle for one polygon**** [1]**
 
 > *The angle **CBI** is the difference between the interior angles of the two regular polygons.*
 
-`table row cell A n g l e space C B I end cell equals cell 135 degree minus 108 degree end cell row blank equals cell 27 degree end cell end table`
+$\begin{gathered} A n g l e C B I & = 135^{\circ} - 108^{\circ} \\ = 27^{\circ} \end{gathered}$
 
 **[1]**
 
 > *As the octagon and pentagon are regular polygons which share a side (**AB**) all the lengths must be equal. Therefore the triangle **BCI** is isosceles. Angles **BIC** and **BCI** are equal. Form an equation and solve it to find **x**.*
 
-`table row cell x plus x plus 27 end cell equals 180 row cell 2 x plus 27 end cell equals 180 row cell 2 x end cell equals 153 row x equals cell 153 over 2 end cell end table`
+$\begin{gathered} x + x + 27 & = 180 \\ 2 x + 27 & = 180 \\ 2 x & = 153 \\ x = \frac{153}{2} \end{gathered}$
 
 **[1]**
 
@@ -742,7 +742,7 @@ $\mathrm{Angle}x=76.5^{\circ}$* ***[1]**
 
 *Angle ***CDB*** + Angle ***CBD*** + Angle ***BCD*** = 180**<sup>o</sup>**   (Angles in a triangle)*
 
-`table row cell Angle space C D B plus 38 plus 38 end cell equals 180 row cell Angle space C D B end cell equals cell 180 minus 38 minus 38 end cell row cell Angle space C D B end cell equals cell 104 degree end cell end table`
+$\begin{gathered} \text{Angle} C D B + 38 + 38 & = 180 \\ \text{Angle} C D B & = 180 - 38 - 38 \\ \text{Angle} C D B & = 104^{\circ} \end{gathered}$
 
 **[1]**
 
@@ -758,7 +758,7 @@ $\mathrm{Angle}x=76.5^{\circ}$* ***[1]**
 
 *Angle ***CDA*** + Angle ***ADB*** + Angle ***BDC*** = 360**<sup>o</sup>**   (Angles around a point)*
 
-`table row cell x plus 104 plus 104 end cell equals 360 row x equals cell 360 minus 104 minus 104 end cell end table`
+$\begin{gathered} x + 104 + 104 & = 360 \\ x = 360 - 104 - 104 \end{gathered}$
 
 $x=152^{\circ}$ **[1]**
 
@@ -783,7 +783,7 @@ $180-30=150^{\circ}$
 
 > *Angles in a triangle sum to 180*<sup>*o*</sup>*.*
 
-`table attributes columnalign right center left columnspacing 0px end attributes row cell 150 plus 2 x end cell equals 180 row cell 2 x end cell equals 30 row x equals 15 end table`
+$\begin{array}{rcl} 150 + 2 x & = 180 \\ 2 x & = 30 \\ x = 15 \end{array}$
 
 **[1]**
 
@@ -792,19 +792,19 @@ $180-30=150^{\circ}$
 ## Q22 — very_hard — 3 marks · exam-questions
 
 ### 20() — 3 marks
-> *The formula for the interior angle of a regular **n**-sided polygon is *`fraction numerator open parentheses n minus 2 close parentheses cross times 180 degree over denominator n end fraction.`* A decagon has 10 sides so substitute **n** = 10 into the formula.*
+> *The formula for the interior angle of a regular **n**-sided polygon is *$\frac{( n - 2 ) \times 180^{\circ}}{n} .$* A decagon has 10 sides so substitute **n** = 10 into the formula.*
 
-`fraction numerator open parentheses 10 minus 2 close parentheses cross times 180 degree over denominator 10 end fraction equals 144 degree`
+$\frac{( 10 - 2 ) \times 180^{\circ}}{10} = 144^{\circ}$
 
 **[1]**
 
 > *The given shape has 5 sides so substitute **n** = 5 into the formula to find the sum of its interior angles.*
 
-`open parentheses 5 minus 2 close parentheses cross times 180 degree equals 540 degree`
+$( 5 - 2 ) \times 180^{\circ} = 540^{\circ}$
 
 > *3 of the angles are 144° and 2 are **w°. **Use this to form an equation and solve it.*
 
-`table row cell 2 w plus 3 cross times 144 end cell equals 540 row cell 2 w plus 432 end cell equals 540 row cell 2 w end cell equals 108 row w equals cell 108 over 2 end cell end table`
+$\begin{gathered} 2 w + 3 \times 144 & = 540 \\ 2 w + 432 & = 540 \\ 2 w & = 108 \\ w = \frac{108}{2} \end{gathered}$
 
 **[1]**
 
@@ -817,11 +817,11 @@ $180-30=150^{\circ}$
 
 > *Let one of these angles be labelled *$x$*. Form an equation for the angles around a point and solve for *$x$*.*
 
-`table attributes columnalign right center left columnspacing 0px end attributes row 360 equals cell x plus x plus x plus x plus 25 plus 25 plus 25 plus 25 end cell row 360 equals cell 4 x plus 100 end cell row 260 equals cell 4 x end cell end table`
+$\begin{array}{rcl} 360 = x + x + x + x + 25 + 25 + 25 + 25 \\ 360 = 4 x + 100 \\ 260 = 4 x \end{array}$
 
 **[1]**
 
-`table attributes columnalign right center left columnspacing 0px end attributes row x equals 65 end table`
+$\begin{array}{rcl} x = 65 \end{array}$
 
 **[1]**
 
@@ -829,7 +829,7 @@ $180-30=150^{\circ}$
 
 > *Adjacent angles in a rhombus are co-interior because of parallel lines.*
 
-`table attributes columnalign right center left columnspacing 0px end attributes row cell a plus 65 end cell equals 180 row a equals cell 180 minus 65 end cell end table`
+$\begin{array}{rcl} a + 65 & = 180 \\ a = 180 - 65 \end{array}$
 
 **[1]**
 
@@ -856,13 +856,13 @@ $a=115^{\circ}$** [1]**
 
 *Angle ***ADE*** + Angle ***DAE*** + Angle ***DEA*** = 180**<sup>o</sup>** (Angles in a triangle equal 180**<sup>o</sup>**)*
 
-`table row cell 2 y plus 38 end cell equals 180 row cell 2 y end cell equals 142 row y equals 71 end table`
+$\begin{gathered} 2 y + 38 & = 180 \\ 2 y & = 142 \\ y = 71 \end{gathered}$
 
 **[1]**
 
 > *Angles on a straight line sum to 180*<sup>*o*</sup>*.*
 
-`table row cell x plus 71 end cell equals 180 row x equals cell 180 minus 71 end cell end table`
+$\begin{gathered} x + 71 & = 180 \\ x = 180 - 71 \end{gathered}$
 
 $x=109^{\circ}$** ****[1]**
 
@@ -898,7 +898,7 @@ $180-70=110$
 ### 10((b)) — 3 marks
 > *w** = 60 and 2**x**+10 are vertically opposite angles so are equal. Form an equation and solve it.*
 
-`table attributes columnalign right center left columnspacing 0px end attributes row cell 2 x plus 10 end cell equals 60 row cell 2 x end cell equals 50 row x equals 25 end table`
+$\begin{array}{rcl} 2 x + 10 & = 60 \\ 2 x & = 50 \\ x = 25 \end{array}$
 
 **[1]**
 
@@ -917,9 +917,9 @@ $y\mathrm{is} \mathrm{bigger} \mathrm{by}15^{\circ}$ **[1]**
 ## Q26 — hard — 4 marks · exam-questions
 
 ### 17() — 4 marks
-> *Find the interior angle of the regular octagon using: *`s i z e space o f space i n t e r i o r space a n g l e space equals fraction numerator 180 open parentheses n minus 2 close parentheses over denominator n end fraction`*, where *$n$* is the number of sides of the polygon.*
+> *Find the interior angle of the regular octagon using: *$s i z e o f i n t e r i o r a n g l e = \frac{180 ( n - 2 )}{n}$*, where *$n$* is the number of sides of the polygon.*
 
-`fraction numerator 180 open parentheses 8 minus 2 close parentheses over denominator 8 end fraction equals 135 degree`
+$\frac{180 ( 8 - 2 )}{8} = 135^{\circ}$
 
 **[1]**
 
@@ -931,13 +931,13 @@ $y\mathrm{is} \mathrm{bigger} \mathrm{by}15^{\circ}$ **[1]**
 
 *Angle ***JBC*** = Angle ***BCK*** = Angle ***JGF*** = Angle ***GFK**
 
-> *Find the sum of the interior angles of the hexagon using: *`s u m space o f space i n t e r i o r space a n g l e s space equals 180 open parentheses n minus 2 close parentheses`* where *$n$* is the number of sides of the polygon.*
+> *Find the sum of the interior angles of the hexagon using: *$s u m o f i n t e r i o r a n g l e s = 180 ( n - 2 )$* where *$n$* is the number of sides of the polygon.*
 
-`180 open parentheses 6 minus 2 close parentheses equals 720 degree`
+$180 ( 6 - 2 ) = 720^{\circ}$
 
 *Form an equation for the sum of the interior angles of the hexagon and solve for *$x$.
 
-`table row cell x plus x plus x plus x plus 140 plus 140 end cell equals 720 row cell 4 x plus 280 end cell equals 720 row cell 4 x end cell equals 440 row x equals cell 110 degree end cell end table`
+$\begin{gathered} x + x + x + x + 140 + 140 & = 720 \\ 4 x + 280 & = 720 \\ 4 x & = 440 \\ x = 110^{\circ} \end{gathered}$
 
 **[1]**
 
@@ -947,7 +947,7 @@ $y\mathrm{is} \mathrm{bigger} \mathrm{by}15^{\circ}$ **[1]**
 
 *Angle ***KFE*** + Angle ***GFK*** = interior angle of the regular octagon*
 
-`table row cell Angle space K F E plus 110 end cell equals 135 row cell Angle space K F E end cell equals cell 135 minus 110 end cell end table`
+$\begin{gathered} \text{Angle} K F E + 110 & = 135 \\ \text{Angle} K F E & = 135 - 110 \end{gathered}$
 
 **[1]**
 
@@ -960,9 +960,9 @@ $\mathrm{Angle}KFE=25^{\circ}$* ***[1]**
 
 ![SNImkehg_4-2-13](assets/098-snimkehg-4-2-13.png)
 
-> *Find the sum of interior angles of a pentagon using: *`s u m space o f space i n t e r i o r space a n g l e s space equals space 180 open parentheses n minus 2 close parentheses`*, where *$n$* is the number of sides of the polygon.*
+> *Find the sum of interior angles of a pentagon using: *$s u m o f i n t e r i o r a n g l e s = 180 ( n - 2 )$*, where *$n$* is the number of sides of the polygon.*
 
-*Sum of interior angles = *`180 open parentheses 5 minus 2 close parentheses`
+*Sum of interior angles = *$180 ( 5 - 2 )$
 
 **[1]**
 
@@ -1001,13 +1001,13 @@ $x=70^{\circ}$
 ### 16() — 4 marks
 > *The angles **x**+25 and 2**x**+35 form a straight line so add up to 180°. Form an equation.*
 
-`open parentheses x plus 25 close parentheses plus open parentheses 2 x plus 35 close parentheses equals 180`
+$( x + 25 ) + ( 2 x + 35 ) = 180$
 
 **[1]**
 
 > *Simplify the left hand side and then solve.*
 
-`table row cell 3 x plus 60 end cell equals 180 row cell 3 x end cell equals 120 row x equals 40 end table`
+$\begin{gathered} 3 x + 60 & = 180 \\ 3 x & = 120 \\ x = 40 \end{gathered}$
 
 **[1]**
 
@@ -1032,7 +1032,7 @@ $2\times40+35=115\,5\times40-85=115$
 
 > *Find the interior angle of Tile A, given angles around a point = 360*<sup>*o*</sup>*.*
 
-`table row cell 2 straight A plus 60 end cell equals 360 row cell 2 straight A end cell equals 300 row straight A equals cell 150 degree end cell end table`
+$\begin{gathered} 2 \mathrm{A} + 60 & = 360 \\ 2 \mathrm{A} & = 300 \\ \mathrm{A} = 150^{\circ} \end{gathered}$
 
 **[1]**
 
@@ -1044,26 +1044,26 @@ $180-150=30^{\circ}$
 
 > *Find the number of sides of the polygon for Tile A using:  *$sizeofexteriorangle=\frac{360}{n}$
 
-`table attributes columnalign right center left columnspacing 0px end attributes row 30 equals cell 360 over n end cell end table`
+$\begin{array}{rcl} 30 = \frac{360}{n} \end{array}$
 
 **[1]**
 
-`table attributes columnalign right center left columnspacing 0px end attributes row n equals cell 360 over 30 end cell row n equals 12 end table`
+$\begin{array}{rcl} n = \frac{360}{30} \\ n = 12 \end{array}$
 
 **12 sides ****[1]**
 
 ## Q30 — medium — 4 marks · exam-questions
 
 ### 11() — 4 marks
-> *Find the sum of the interior angles of a 10-sided polygon using the formula: *`Sum space of space Interior space Angles equals open parentheses n minus 2 close parentheses cross times 180 degree.`
+> *Find the sum of the interior angles of a 10-sided polygon using the formula: *$Sum of Interior Angles = ( n - 2 ) \times 180 ^{\circ} .$
 
-`open parentheses 10 minus 2 close parentheses cross times 180 degree equals 1440 degree`
+$( 10 - 2 ) \times 180^{\circ} = 1440^{\circ}$
 
 **[1]**
 
 > *Form an equation and solve it to find the missing interior angle in the polygon.*
 
-`table row cell y plus 148 plus 2 cross times open parentheses 150 plus 168 plus 134 plus 125 close parentheses end cell equals 1440 row cell y plus 1302 end cell equals 1440 row y equals 138 end table`
+$\begin{gathered} y + 148 + 2 \times ( 150 + 168 + 134 + 125 ) & = 1440 \\ y + 1302 & = 1440 \\ y = 138 \end{gathered}$
 
 **[1]**
 
@@ -1097,10 +1097,10 @@ $a=132^{\circ}$ **[1]**
 
 > *Method 2*
 
-> *Find the interior angle for each regular polygon using the formula *`Interior space Angle equals fraction numerator open parentheses n minus 2 close parentheses cross times 180 degree over denominator n end fraction.`* Substitute **n** = 5 into the formula for the pentagon and **n** = 6 for the hexagon.*
+> *Find the interior angle for each regular polygon using the formula *$\text{Interior} \text{Angle} = \frac{( n - 2 ) \times 180^{\circ}}{n} .$* Substitute **n** = 5 into the formula for the pentagon and **n** = 6 for the hexagon.*
 
-`fraction numerator open parentheses 5 minus 2 close parentheses cross times 180 degree over denominator 5 end fraction equals fraction numerator 540 degree over denominator 5 end fraction equals 108 degree
-fraction numerator open parentheses 6 minus 2 close parentheses cross times 180 degree over denominator 6 end fraction equals fraction numerator 720 degree over denominator 6 end fraction equals 120 degree`
+$\frac{( 5 - 2 ) \times 180^{\circ}}{5} = \frac{540^{\circ}}{5} = 108^{\circ}
+ \frac{( 6 - 2 ) \times 180^{\circ}}{6} = \frac{720^{\circ}}{6} = 120^{\circ}$
 
 **Using the correct formula**** [1]**
 ** ****At least one correct angle**** [1]**
@@ -1109,7 +1109,7 @@ fraction numerator open parentheses 6 minus 2 close parentheses cross times 180 
 
 ![ocr-gcse-angles-in-polygons-vhq6-2](assets/007-ocr-gcse-angles-in-polygons-vhq6-2.png)
 
-`table row straight a equals cell 360 degree minus open parentheses 108 degree plus 120 degree close parentheses end cell row blank equals cell 360 degree minus 228 degree end cell end table`
+$\begin{gathered} \mathrm{a} = 360^{\circ} - ( 108^{\circ} + 120^{\circ} ) \\ = 360^{\circ} - 228^{\circ} \end{gathered}$
 
 $a=132^{\circ}$ **[1]**
 
@@ -1122,7 +1122,7 @@ $180^{\circ}-132^{\circ}=48^{\circ}$
 
 > *If the **n**-sided polygon is regular then you can use the formula *$\mathrm{Exterior} \mathrm{Angle}=\frac{360^{\circ}}{n}.$* Substitute the values into the formula and rearrange.*
 
-`table row 48 equals cell 360 over n end cell row n equals cell 360 over 48 end cell end table`
+$\begin{gathered} 48 = \frac{360}{n} \\ n = \frac{360}{48} \end{gathered}$
 
 **[1]**
 
@@ -1135,9 +1135,9 @@ $n=\frac{360}{48}=\frac{15}{2}=7.5$
 ## Q32 — hard — 4 marks · exam-questions
 
 ### 17() — 4 marks
-*Find the interior angle of a regular pentagon using: * `s i z e space o f space a n space i n t e r i o r space a n g l e space equals space fraction numerator 180 open parentheses n minus 2 close parentheses over denominator n end fraction`*.*
+*Find the interior angle of a regular pentagon using: * $s i z e o f a n i n t e r i o r a n g l e = \frac{180 ( n - 2 )}{n}$*.*
 
-`fraction numerator 180 open parentheses 5 minus 2 close parentheses over denominator 5 end fraction`
+$\frac{180 ( 5 - 2 )}{5}$
 
 **[1]**
 
@@ -1157,15 +1157,15 @@ $=108^{\circ}$
 
 > *Find *$x$* using the sum of interior angles of a quadrilateral = 360*<sup>*o*</sup>*.*
 
-`table attributes columnalign right center left columnspacing 0px end attributes row cell x plus x plus 108 plus 108 end cell equals 360 row cell 2 x plus 216 end cell equals 360 row cell 2 x end cell equals 144 row x equals 72 end table`
+$\begin{array}{rcl} x + x + 108 + 108 & = 360 \\ 2 x + 216 & = 360 \\ 2 x & = 144 \\ x = 72 \end{array}$
 
 > *Find angle **DCF**.*
 
-`table row cell Angle space D C F plus 72 space end cell equals cell space 90 end cell end table`
+$\begin{gathered} \text{Angle} D C F + 72 & = 90 \end{gathered}$
 
 **[1]**
 
-`table row cell bold Angle bold space bold italic D bold italic C bold italic F end cell bold equals cell bold 18 bold degree end cell end table`* ***[1]**
+$\begin{gathered} \text{Angle} D C F & = 18^{\circ} \end{gathered}$* ***[1]**
 
 ## Q33 — medium — 3 marks · exam-questions
 
@@ -1184,17 +1184,17 @@ $18=\frac{360}{n}$
 
 > *Multiply both sides by **n** and then divide both sides by 18.*
 
-`table row cell 18 n end cell equals 360 row n equals cell 360 over 18 end cell row n equals 20 end table`
+$\begin{gathered} 18 n & = 360 \\ n = \frac{360}{18} \\ n = 20 \end{gathered}$
 
 **20 sides** **[1]**
 
 ## Q34 — very_hard — 5 marks · exam-questions
 
 ### 7() — 5 marks
-> *Find the size of an interior angle of the regular polygons using the formula: *`Interior space Angle equals fraction numerator open parentheses n minus 2 close parentheses cross times 180 degree over denominator n end fraction.`* Substitute **n** = 10 and **n** = 18 into the formula.*
+> *Find the size of an interior angle of the regular polygons using the formula: *$\text{Interior} \text{Angle} = \frac{( n - 2 ) \times 180^{\circ}}{n} .$* Substitute **n** = 10 and **n** = 18 into the formula.*
 
-`fraction numerator open parentheses 10 minus 2 close parentheses cross times 180 degree over denominator 10 end fraction equals 144 degree
-fraction numerator open parentheses 18 minus 2 close parentheses cross times 180 degree over denominator 18 end fraction equals 160 degree`
+$\frac{( 10 - 2 ) \times 180^{\circ}}{10} = 144^{\circ}
+ \frac{( 18 - 2 ) \times 180^{\circ}}{18} = 160^{\circ}$
 
 **[2] **
 **1 mark for each correct formula**** [2] **
@@ -1217,9 +1217,9 @@ $\frac{360}{8}=45^{\circ}$
 
 ![4-2-48](assets/064-4-2-48.png)
 
-> *Find the interior angle of the regular pentagon using: *`s i z e space o f space i n t e r i o r space a n g l e space equals space fraction numerator 180 open parentheses n minus 2 close parentheses over denominator n end fraction`*, where *$n$* is the number of sides of the polygon.*
+> *Find the interior angle of the regular pentagon using: *$s i z e o f i n t e r i o r a n g l e = \frac{180 ( n - 2 )}{n}$*, where *$n$* is the number of sides of the polygon.*
 
-`fraction numerator 180 open parentheses 5 minus 2 close parentheses over denominator 5 end fraction equals 108 degree`
+$\frac{180 ( 5 - 2 )}{5} = 108^{\circ}$
 
 **[1]**
 
@@ -1227,13 +1227,13 @@ $\frac{360}{8}=45^{\circ}$
 
 > *Find the angle **QFE**, using angles along a straight line = 180*<sup>*o*</sup>*.*
 
-`table row cell 45 plus 108 plus Angle space Q F E end cell equals 180 row cell Angle space Q F E end cell equals cell 180 minus 45 minus 108 end cell row cell Angle space Q F E end cell equals cell 27 degree end cell end table`
+$\begin{gathered} 45 + 108 + \text{Angle} Q F E & = 180 \\ \text{Angle} Q F E & = 180 - 45 - 108 \\ \text{Angle} Q F E & = 27^{\circ} \end{gathered}$
 
 ![4-2-50](assets/066-4-2-50.png)
 
 *Triangle **QFE** is an isosceles triangle because of symmetry.* *Find angle *$x$*.*
 
-`table row cell 27 plus 27 plus x end cell equals 180 row x equals cell 180 minus 27 minus 27 end cell end table`
+$\begin{gathered} 27 + 27 + x & = 180 \\ x = 180 - 27 - 27 \end{gathered}$
 
 **[1]**
 
@@ -1244,7 +1244,7 @@ $x=126^{\circ}$* ***[1]**
 ### 4() — 4 marks
 > *The interior angles angles in a triangle add up to 180°. Use this to form an equation.*
 
-`open parentheses 4 x plus 10 close parentheses plus open parentheses x plus 20 close parentheses plus 30 equals 180`
+$( 4 x + 10 ) + ( x + 20 ) + 30 = 180$
 
 **Left hand side correct**** [1] **
 **Correct equation**** [1]**
@@ -1268,9 +1268,9 @@ $x=24$ **[1]**
 ## Q37 — hard — 4 marks · exam-questions
 
 ### 5() — 4 marks
-> *Find the interior angle of the regular 12-sided polygon using:  *`s i z e space o f space i n t e r i o r space a n g l e space equals space fraction numerator 180 open parentheses n minus 2 close parentheses over denominator n end fraction`*, where *$n$* is the number of sides of the polygon.*
+> *Find the interior angle of the regular 12-sided polygon using:  *$s i z e o f i n t e r i o r a n g l e = \frac{180 ( n - 2 )}{n}$*, where *$n$* is the number of sides of the polygon.*
 
-`fraction numerator 180 open parentheses 12 minus 2 close parentheses over denominator 12 end fraction equals 150 degree`
+$\frac{180 ( 12 - 2 )}{12} = 150^{\circ}$
 
 **[1]**
 
@@ -1280,17 +1280,17 @@ $x=24$ **[1]**
 
 > *Find the interior angle of polygon P, given that the angles around a point add up to 360*<sup>*o*</sup>*.*
 
-`table attributes columnalign right center left columnspacing 0px end attributes row cell 90 plus 150 plus straight P end cell equals 360 end table`
+$\begin{array}{rcl} 90 + 150 + \mathrm{P} & = 360 \end{array}$
 
 **[1]**
 
-`table row straight P equals cell 360 minus 90 minus 150 end cell row straight P equals cell 120 degree end cell end table`
+$\begin{gathered} \mathrm{P} = 360 - 90 - 150 \\ \mathrm{P} = 120^{\circ} \end{gathered}$
 
 **Correct values of 120 and 150 seen**** [1]**
 
 > *Find the number of sides of polygon P.*
 
-`table row cell fraction numerator 180 open parentheses n minus 2 close parentheses over denominator n end fraction end cell equals 120 row cell 180 open parentheses n minus 2 close parentheses end cell equals cell 120 n end cell row cell 180 n minus 360 end cell equals cell 120 n end cell row cell 180 n end cell equals cell 120 n plus 360 end cell row cell 60 n end cell equals 360 row n equals 6 end table`
+$\begin{gathered} \frac{180 ( n - 2 )}{n} & = 120 \\ 180 ( n - 2 ) & = 120 n \\ 180 n - 360 & = 120 n \\ 180 n & = 120 n + 360 \\ 60 n & = 360 \\ n = 6 \end{gathered}$
 
 **Polygon P has 6 sides so P is a hexagon**** [1]**
 
@@ -1301,21 +1301,21 @@ $x=24$ **[1]**
 
 > *In a parallelogram each pair of adjacent angles are co-interior angles (allied angles) so they add up to 180°.*
 
-*Angles ***BCD*** and*** CDA*** are co-interior angles so add up to 180°* `table row cell Angle space C D A end cell equals cell 180 degree minus 58 degree end cell row blank equals cell 122 degree end cell end table`
+*Angles ***BCD*** and*** CDA*** are co-interior angles so add up to 180°* $\begin{gathered} \text{Angle} C D A & = 180^{\circ} - 58^{\circ} \\ = 122^{\circ} \end{gathered}$
 
 **[1]**
 
 > *Vertically opposite angles that are formed by two intersecting lines are equal.*
 
-*Angles ***CDA*** and ***EDF*** are vertically opposite so are equal* `table row cell Angle space E D F end cell equals cell 122 degree end cell end table`
+*Angles ***CDA*** and ***EDF*** are vertically opposite so are equal* $\begin{gathered} \text{Angle} E D F & = 122^{\circ} \end{gathered}$
 
 > *In an isosceles triangle the base angles are equal.*
 
-*Angles ***DEF ***and ***DFE*** are the base angles in an isosceles triangle so are equal* `table row cell Angle space D E F end cell equals cell Angle space D F E equals x degree end cell end table`
+*Angles ***DEF ***and ***DFE*** are the base angles in an isosceles triangle so are equal* $\begin{gathered} \text{Angle} D E F & = \text{Angle} D F E = x^{\circ} \end{gathered}$
 
 > *The interior angles in a triangle add up to 180°.*
 
-*Angles ***EDF, DEF ***and ***DFE*** are the interior angles in a triangle so add up to 180°* `table row cell x degree plus x degree plus 122 degree end cell equals cell 180 degree end cell row cell 2 x plus 122 end cell equals 180 row cell 2 x end cell equals 58 row x equals 29 end table`
+*Angles ***EDF, DEF ***and ***DFE*** are the interior angles in a triangle so add up to 180°* $\begin{gathered} x^{\circ} + x^{\circ} + 122^{\circ} & = 180^{\circ} \\ 2 x + 122 & = 180 \\ 2 x & = 58 \\ x = 29 \end{gathered}$
 
 **[1]**
 
@@ -1327,17 +1327,17 @@ $\mathrm{Angle}DEF=29^{\circ}$ **[1] **
 
 > *The lines **BC **and **AD** are parallel. Corresponding angles in parallel lines are equal.*
 
-*Angles ***BCD*** and*** ADF*** are corresponding angles so are equal* `table row cell Angle space A D F end cell equals cell 58 degree end cell end table`
+*Angles ***BCD*** and*** ADF*** are corresponding angles so are equal* $\begin{gathered} \text{Angle} A D F & = 58^{\circ} \end{gathered}$
 
 **[1]**
 
 > *In an isosceles triangle the base angles are equal.*
 
-*Angles ***DEF ***and ***DFE*** are the base angles in an isosceles triangle so are equal* `table attributes columnalign right center left columnspacing 0px end attributes row cell Angle space D E F end cell equals cell Angle space D F E equals x degree end cell end table`
+*Angles ***DEF ***and ***DFE*** are the base angles in an isosceles triangle so are equal* $\begin{array}{rcl} \text{Angle} D E F & = \text{Angle} D F E = x^{\circ} \end{array}$
 
 > *The sum of two angles in a triangle is equal to the opposite exterior angle.*
 
-*Angles ***DEF ***and ***DFE*** are two interior angles in a triangle opposite the exterior angle ***ADF*** so the sum of the two interior angles is equal to the exterior angle* `table row cell x degree plus x degree end cell equals cell 58 degree end cell row cell 2 x end cell equals 58 row x equals 29 end table`
+*Angles ***DEF ***and ***DFE*** are two interior angles in a triangle opposite the exterior angle ***ADF*** so the sum of the two interior angles is equal to the exterior angle* $\begin{gathered} x^{\circ} + x^{\circ} & = 58^{\circ} \\ 2 x & = 58 \\ x = 29 \end{gathered}$
 
 **[1]**
 
@@ -1378,7 +1378,7 @@ $2x+43+4y-5x=180$
 
 > *Substitute *$x=21$* into equation.*
 
-`2 open parentheses 21 close parentheses plus 43 plus 4 y minus 5 open parentheses 21 close parentheses equals 180`
+$2 ( 21 ) + 43 + 4 y - 5 ( 21 ) = 180$
 
 > *Simplify.*
 
@@ -1412,9 +1412,9 @@ $36^{\circ}$** [1]**
 ## Q41 — hard — 3 marks · exam-questions
 
 ### 13() — 3 marks
-> *Find the interior angle of the regular pentagon using:  *`s i z e space o f space i n t e r i o r space a n g l e space equals fraction numerator space 180 open parentheses n minus 2 close parentheses over denominator n end fraction`*, where *$n$* is the number of sides of the polygon.*
+> *Find the interior angle of the regular pentagon using:  *$s i z e o f i n t e r i o r a n g l e = \frac{ 180 ( n - 2 )}{n}$*, where *$n$* is the number of sides of the polygon.*
 
-`fraction numerator 180 open parentheses 5 minus 2 close parentheses over denominator 5 space end fraction equals 108 degree`
+$\frac{180 ( 5 - 2 )}{5 } = 108^{\circ}$
 
 **[1]**
 
@@ -1445,7 +1445,7 @@ $45^{\circ}=\frac{360^{\circ}}{n}$
 
 > *Solve by rearranging.*
 
-`table row n equals cell 360 over 45 end cell row blank equals 8 end table`
+$\begin{gathered} n = \frac{360}{45} \\ = 8 \end{gathered}$
 
 > *Find the shape with 8 sides.*
 
@@ -1474,7 +1474,7 @@ $45^{\circ}=\frac{360^{\circ}}{n}$
 
 *Angle ***ACB*** + Angle ***BAC*** + Angle ***ABC*** = 180**<sup>o</sup>**   (Angles in a triangle = 180**<sup>o</sup>**)*
 
-`table row cell Angle space A C B plus 55 plus 95 end cell equals 180 row cell Angle space A C B end cell equals cell 180 minus 55 minus 95 end cell row cell Angle space A C B end cell equals cell 30 degree end cell end table`
+$\begin{gathered} \text{Angle} A C B + 55 + 95 & = 180 \\ \text{Angle} A C B & = 180 - 55 - 95 \\ \text{Angle} A C B & = 30^{\circ} \end{gathered}$
 
 ![4-2-55](assets/082-4-2-55.png)
 
@@ -1500,9 +1500,9 @@ $x=30^{\circ}$* ***[1]**
 ### 12() — 2 marks
 > *Method 1*
 
-> *The formula for the sum of the interior angles of an **n**-sided polygon is *`open parentheses n minus 2 close parentheses cross times 180 degree.`* Substitute **n** = 15 into the formula.*
+> *The formula for the sum of the interior angles of an **n**-sided polygon is *$( n - 2 ) \times 180^{\circ}.$* Substitute **n** = 15 into the formula.*
 
-`open parentheses 15 minus 2 close parentheses cross times 180 degree equals 2340 degree`
+$( 15 - 2 ) \times 180^{\circ} = 2340^{\circ}$
 
 **[1]**
 
@@ -1551,7 +1551,7 @@ $\frac{360}{5}=72^{\circ}$
 
 *Angle ***CFD*** + Angle ***DCF*** + Angle ***CDF*** = 180**<sup>o</sup>**   (Angles in a triangle = 180**<sup>o</sup>**)*
 
-`table row cell Angle space C F D plus 72 plus 72 end cell equals 180 row cell Angle space C F D end cell equals cell 180 minus 72 minus 72 end cell end table`
+$\begin{gathered} \text{Angle} C F D + 72 + 72 & = 180 \\ \text{Angle} C F D & = 180 - 72 - 72 \end{gathered}$
 
 **[1]**
 
@@ -1560,9 +1560,9 @@ $\frac{360}{5}=72^{\circ}$
 ## Q46 — medium — 2 marks · exam-questions
 
 ### 7() — 2 marks
-> *The formula for the sum of the interior angles in an **n**-sided polygon is *`open parentheses n minus 2 close parentheses cross times 180 degree.`* This could be shown by splitting a pentagon into 3 triangles. Substitute **n** = 5 into the formula.*
+> *The formula for the sum of the interior angles in an **n**-sided polygon is *$( n - 2 ) \times 180^{\circ}.$* This could be shown by splitting a pentagon into 3 triangles. Substitute **n** = 5 into the formula.*
 
-`open parentheses 5 minus 2 close parentheses cross times 180 equals 540`
+$( 5 - 2 ) \times 180 = 540$
 
 **[1]**
 
@@ -1583,7 +1583,7 @@ $b=18\times3=54^{\circ}$
 
 > *Next find the size of angle **x**. The angles in a quadrilateral always add up to 360 degrees. So angles **x **and **y **together must be equal to 360 degrees minus angles **a** and **b.*
 
-`x space plus space y space equals space 360 space minus space open parentheses 90 space plus space 54 close parentheses space equals space 216 degree`
+$x + y = 360 - ( 90 + 54 ) = 216^{\circ}$
 
 > *Divide that by 4 (the sum of the **x** : **y** ratio numbers) to find the size of one of the 'parts' that that ratio divides the 216 degrees into. And then because the '**x** number' in the ratio is 1, that part is the same as the size of angle **x.*
 
@@ -1654,11 +1654,11 @@ $p=30\times1=30$
 
 > *1)  **p**  is one of the equal angles in the isosceles triangle.      Then there is another angle equal to 30°.      And the third angle is equal to (180 - (30 + 30))°.*
 
-`180 space minus space open parentheses 30 plus 30 close parentheses space equals space 180 space minus space 60 space equals space 120`
+$180 - ( 30 + 30 ) = 180 - 60 = 120$
 
 > *2)  **p**  is not one of the equal angles in the isosceles triangle.      Then the other two angles are the equal angles.      And each is equal to ((180 - 30) ÷ 2)°.*
 
-`table attributes columnalign right center left columnspacing 0px end attributes row cell open parentheses 180 space minus space 30 close parentheses space divided by space 2 space end cell equals cell space 150 space divided by space 2 space equals space 75 end cell end table`
+$\begin{array}{rcl} ( 180 - 30 ) \div 2 & = 150 \div 2 = 75 \end{array}$
 
 **Triangle 1:  30°, 30****°, 120°****       **
 **Triangle 2:  30°, 75****°, 75°****  [2]**
@@ -1674,20 +1674,20 @@ $p=30\times1=30$
 
 > *The diagonals are **not** equal in length. However the other three statements are correct.*
 
-`down diagonal up diagonal strike square` The diagonals are lines of symmetry
+$\text{down} \text{diagonal} \cancel{square}$ The diagonals are lines of symmetry
 
-`down diagonal up diagonal strike square`  The diagonals bisect each other.
+$\text{down} \text{diagonal} \cancel{square}$  The diagonals bisect each other.
 
-`down diagonal up diagonal strike square`  The diagonals are perpendicular.
+$\text{down} \text{diagonal} \cancel{square}$  The diagonals are perpendicular.
 
 `square`  The diagonals are equal in length.
 
 ## Q51 — hard — 5 marks · exam-questions
 
 ### 10() — 5 marks
-> *Calculate the sum of interior angles for a pentagon using *`open parentheses n minus 2 close parentheses cross times 180`
+> *Calculate the sum of interior angles for a pentagon using *$( n - 2 ) \times 180$
 
-`open parentheses 5 minus 2 close parentheses cross times 180 equals 540`
+$( 5 - 2 ) \times 180 = 540$
 
 > *Calculate one interior angle of a regular pentagon*
 
@@ -1697,7 +1697,7 @@ $540\div5=108$
 
 > *Calculate the sum of interior angles for an octagon*
 
-`open parentheses 8 minus 2 close parentheses cross times 180 equals 1080`
+$( 8 - 2 ) \times 180 = 1080$
 
 > *Calculate one interior angle of a regular octagon*
 
@@ -1715,7 +1715,7 @@ $1080\div8=135$
 
 > *Calculate angle *$y$*using the sum of angles in a triangle rule*
 
-`180 minus open parentheses 27 plus 27 close parentheses equals 126`
+$180 - ( 27 + 27 ) = 126$
 
 **[M1]**
 

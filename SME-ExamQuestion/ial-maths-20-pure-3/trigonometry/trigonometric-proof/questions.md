@@ -15,7 +15,7 @@ $\mathrm{cot}θ$$\equiv\frac{\mathrm{cos}θ}{\mathrm{sin}θ}$
 ### 1() — 2 marks — structured
 Use the identity
 
-cos`open parentheses A plus B close parentheses identical to`cos $A$cos $B-$sin $A$sin $B$
+cos$( A + B ) \equiv$cos $A$cos $B-$sin $A$sin $B$
 
 to show that
 
@@ -24,7 +24,7 @@ cos $2A\equiv$cos<sup>2</sup> $A-$sin<sup>2</sup> $A$
 ### 2() — 3 marks — structured
 Show by counter-example that
 
-cos `2 theta not identical to`cos $θ+$cos $θ$
+cos $2 \\theta \text{not} \equiv$cos $θ+$cos $θ$
 
 ## Q3 — easy — 2 marks · exam-questions
 
@@ -38,25 +38,25 @@ $\frac{\mathrm{sin}2θ}{2\mathrm{sin}θ}\equiv\mathrm{cos}θ,θ\neq\mathrm{kπ}$
 ### 1() — 4 marks — structured
 Show that
 
-`sin squared space theta open parentheses sec squared space theta plus cosec squared space theta close parentheses identical to sec squared space theta`
+$\sin ^{2} \\theta ( \sec ^{2} \\theta + cosec^{2} \\theta ) \equiv \sec ^{2} \\theta$
 
 ## Q5 — easy — 5 marks · exam-questions
 
 ### 1() — 5 marks — structured
 (i) Use the quotient rule to show that
 
-`fraction numerator d over denominator d x end fraction open square brackets cosec space x close square brackets equals fraction numerator negative cos space x over denominator sin squared space x end fraction`
+$\frac{d}{d x} [ \text{cosec} x ] = \frac{- \cos x}{\sin ^{2} x}$
 
 (ii) Hence show that
 
-`fraction numerator d over denominator d x end fraction open square brackets cosec space x close square brackets equals negative cot space x space cosec space x`
+$\frac{d}{d x} [ \text{cosec} x ] = - \cot x \text{cosec} x$
 
 ## Q6 — easy — 3 marks · exam-questions
 
 ### 1() — 3 marks — structured
 Show that
 
-$3$ sin $2θ-2$ sin $θ\equiv2$ sin `theta space open parentheses 3 space cos space theta minus 1 close parentheses`
+$3$ sin $2θ-2$ sin $θ\equiv2$ sin $\\theta ( 3 \cos \\theta - 1 )$
 
 ## Q7 — easy — 5 marks · exam-questions
 
@@ -70,9 +70,9 @@ $2$ cosec $2x$cot $x\equiv$cosec<sup>2</sup> $x,x\neq\frac{kπ}{2}$
 ### 1() — 2 marks — structured
 Find the value of
 
-(i) `arccos open parentheses cos open parentheses 150 degree close parentheses close parentheses`
+(i) $\arccos ( \cos ( 150^{\circ} ) )$
 
-(ii) `arcsin open parentheses sin open parentheses 210 degree close parentheses close parentheses`
+(ii) $\arcsin ( \sin ( 210^{\circ} ) )$
 
 ### 2() — 2 marks — structured
 Explain why the answer to part (a) (ii) is not $210^{\circ}$.
@@ -82,11 +82,11 @@ Explain why the answer to part (a) (ii) is not $210^{\circ}$.
 ### 1() — 3 marks — structured
 Use the identity
 
-$R$ sin`open parentheses theta plus straight alpha close parentheses identical to R space`cos $α$ sin $θ+R$sin $α$ cos $θ$
+$R$ sin$( \\theta + \ \\alpha ) \equiv R$cos $α$ sin $θ+R$sin $α$ cos $θ$
 
 to show that
 
-$4$ sin`open parentheses theta plus straight pi over 4 close parentheses identical to 2 square root of 2 open parentheses sin space theta plus cos space theta close parentheses`
+$4$ sin`( theta + pi / 4 ) === 2 sqrt( 2 ( sin theta + cos theta )`
 
 ## Q10 — medium — 4 marks · exam-questions
 
@@ -110,7 +110,7 @@ cos $4θ\equiv8$ cos<sup>4</sup> $θ-8$ cos<sup>2</sup> $θ+1$
 
 (ii) Show by counter-example that
 
-sin `4 theta not identical to 8` sin<sup>4</sup> $θ-8$ sin<sup>2</sup> $θ+1$
+sin $4 \\theta \text{not} \equiv 8$ sin<sup>4</sup> $θ-8$ sin<sup>2</sup> $θ+1$
 
 ## Q12 — medium — 3 marks · exam-questions
 
@@ -124,14 +124,14 @@ $\frac{4\mathrm{sin}^{4}θ}{\mathrm{sin}^{2}2θ}\equiv\mathrm{tan}^{2}θθ\neq\m
 ### 1() — 4 marks — structured
 Show that
 
-sin `theta open parentheses cosec squared space theta minus 2 close parentheses identical to fraction numerator cos space 2 theta over denominator sin space theta end fraction`
+sin $\\theta ( cosec^{2} \\theta - 2 ) \equiv \frac{\cos 2 \\theta }{\sin \\theta }$
 
 ## Q14 — medium — 5 marks · exam-questions
 
 ### 1() — 5 marks — structured
 Use the quotient rule to show that
 
-`fraction numerator d over denominator d x end fraction open square brackets tan space x close square brackets equals sec squared space x`
+$\frac{d}{d x} [ \tan x ] = \sec ^{2} x$
 
 ## Q15 — medium — 5 marks · exam-questions
 
@@ -152,26 +152,26 @@ $\frac{4\mathrm{cot}x\mathrm{cos}2x}{\mathrm{sin}4x}\equiv\mathrm{cosec}^{2}xx\n
 ### 1() — 2 marks — structured
 Show that
 
-sin`open parentheses arccos open parentheses negative 1 half close parentheses close parentheses equals square root of 3 space sin open parentheses straight pi over 6 close parentheses`
+sin`( arccos ( - 1 half ) ) = sqrt( 3 sin ( pi / 6 )`
 
 ### 2() — 2 marks — structured
 Show that
 
-`arcsin open parentheses cos fraction numerator 3 straight pi over denominator 4 end fraction close parentheses equals negative arcsin open parentheses cos straight pi over 4 close parentheses`
+`arcsin ( cos (3 pi)/(4) ) = - arcsin ( cos pi / 4 )`
 
 ## Q18 — medium — 3 marks · exam-questions
 
 ### 1() — 3 marks — structured
 Show that
 
-`square root of 2 sin open parentheses theta minus straight pi over 4 close parentheses identical to sin space theta minus cos space theta`
+`sqrt( 2 sin ( theta - pi / 4 ) === sin theta - cos theta`
 
 ## Q19 — hard — 4 marks · exam-questions
 
 ### 1() — 4 marks — structured
 Given the identity
 
-cos`open parentheses A plus B close parentheses equals`cos $A$ cos $B$$-$sin $A$ sin $B$
+cos$( A + B ) =$cos $A$ cos $B$$-$sin $A$ sin $B$
 
 prove the following identities:
 
@@ -190,7 +190,7 @@ sin $3θ\equiv3$ sin $θ-4$ sin<sup>3</sup> $θ$
 
 (ii) Show by counter-example that
 
-cos `3 theta not identical to 3` cos $θ-$$4$ cos<sup>3</sup> $θ$
+cos $3 \\theta \text{not} \equiv 3$ cos $θ-$$4$ cos<sup>3</sup> $θ$
 
 ## Q21 — hard — 5 marks · exam-questions
 
@@ -230,7 +230,7 @@ tan$\frac{x}{2}\equiv\frac{1}{\mathrm{cosec}x+\mathrm{cot}x}x\neq2\mathrm{kπ}$
 ## Q26 — hard — 6 marks · exam-questions
 
 ### 1() — 3 marks — structured
-Given that `y equals arcsin open parentheses k x close parentheses`, where $k$ is a constant, show that   `x equals 1 over k cos open parentheses straight pi over 2 minus y close parentheses` .
+Given that $y = \arcsin ( k x )$, where $k$ is a constant, show that   `x = 1 / k cos ( pi / 2 - y )` .
 
 ### 2() — 3 marks — structured
 Hence show that the value of $\mathrm{arcsin}kx+\mathrm{arccos}kx$ is constant and independent of $k$. 
@@ -241,11 +241,11 @@ Find the value of this constant.
 ### 1() — 5 marks — structured
 Show that
 
-`fraction numerator 10 over denominator 4 space cos space theta plus 3 space sin space theta end fraction identical to 2 space sec open parentheses theta minus straight alpha close parentheses`
+$\frac{10}{4 \cos \\theta + 3 \sin \\theta } \equiv 2 \sec ( \\theta - \ \\alpha )$
 
 where
 
-`alpha equals arctan open parentheses 3 over 4 close parentheses`
+$\\alpha = \arctan ( \frac{3}{4} )$
 
 ## Q28 — very_hard — 6 marks · exam-questions
 
@@ -256,7 +256,7 @@ Consider the three triangles, all of height 1, as shown below.
 
 By applying the area of a triangle formula $A=\frac{1}{2}\mathrm{ab} \mathrm{sin}C$  to each one, prove that,
 
-sin`open parentheses A plus B close parentheses identical to`sin $A$ cos $B+$sin $B$ cos $A$
+sin$( A + B ) \equiv$sin $A$ cos $B+$sin $B$ cos $A$
 
 Briefly explain why this only proves the result for $A$ and $B$ being acute angles.
 
@@ -265,7 +265,7 @@ Briefly explain why this only proves the result for $A$ and $B$ being acute angl
 ### 1() — 4 marks — structured
 Prove the identity
 
-`tan space 4 theta identical to fraction numerator 4 space tan space theta open parentheses 1 minus tan squared space theta close parentheses over denominator 1 minus 6 space tan squared space theta plus tan to the power of 4 space theta end fraction`
+$\tan 4 \\theta \equiv \frac{4 \tan \\theta ( 1 - \tan ^{2} \\theta )}{1 - 6 \tan ^{2} \\theta + \tan ^{4} \\theta }$
 
 ## Q30 — very_hard — 5 marks · exam-questions
 
@@ -279,7 +279,7 @@ $-16$ cot $2θ$ cosec<sup>3</sup> $2θ\equiv$sec<sup>4</sup> $θ-$cosec<sup>4</s
 ### 1() — 4 marks — structured
 Show that
 
-`fraction numerator square root of 2 cos open parentheses theta plus straight pi over 4 close parentheses over denominator sin open parentheses theta minus straight pi over 2 close parentheses end fraction identical to tan space theta minus 1`
+`(sqrt( 2 cos ( theta + pi / 4 ))/(sin ( theta - pi / 2 )) === tan theta - 1`
 
 ## Q32 — very_hard — 9 marks · exam-questions
 
@@ -298,33 +298,33 @@ $\frac{\mathrm{cos}3θ-\mathrm{cos}θ}{\mathrm{sin}3θ\mathrm{sin}θ}\equiv\frac
 ### 1() — 5 marks — structured
 Show that
 
-$4$cos<sup>2</sup> `open parentheses x minus straight pi over 6 close parentheses identical to 3 minus 2`sin<sup>2</sup> $x+\sqrt{3}$ sin $2x$
+$4$cos<sup>2</sup> `( x - pi / 6 ) === 3 - 2`sin<sup>2</sup> $x+\sqrt{3}$ sin $2x$
 
 ## Q34 — very_hard — 6 marks · exam-questions
 
 ### 1() — 6 marks — structured
 Show that
 
-tan`open parentheses fraction numerator 2 x plus straight pi over denominator 4 end fraction close parentheses identical to`sec $x+$tan $x$
+tan$( \frac{2 x + \mathrm{\pi } }{4} ) \equiv$sec $x+$tan $x$
 
 ## Q35 — very_hard — 8 marks · exam-questions
 
 ### 1() — 4 marks — structured
 On the axes below sketch the graphs of
 
-`y equals arccos open parentheses negative x close parentheses`  and  `y equals open vertical bar arcsin space x close vertical bar`
+$y = \arccos ( - x )$  and  $y = \left| \arcsin x \right|$
 
 ![q9a-5-8-trignometric-proof-a-level-only-edexcel-a-level-pure-maths-veryhard](assets/024-q9a-5-8-trignometric-proof-a-level-only-edexcel-.png)
 
 ### 2() — 2 marks — structured
 With the help of your sketch, determine the exact solution(s) to the equation
 
-`arccos open parentheses negative x close parentheses equals open vertical bar arcsin space x close vertical bar`
+$\arccos ( - x ) = \left| \arcsin x \right|$
 
 ### 3() — 2 marks — structured
 What can you say about the solution(s) to the equation
 
-`open vertical bar arccos space x close vertical bar equals arcsin open parentheses negative x close parentheses ?`
+$\left| \arccos x \right| = \arcsin ( - x ) ?$
 
 Justify your answer.
 
@@ -333,4 +333,4 @@ Justify your answer.
 ### 1() — 9 marks — structured
 Show that
 
-`1 over open parentheses fraction numerator square root of 3 over denominator 2 end fraction cos space theta minus 1 half sin space theta close parentheses squared plus 1 over open parentheses fraction numerator square root of 3 over denominator 2 end fraction sin space theta plus 1 half cos space theta close parentheses squared identical to 4 space cosec squared open parentheses 2 theta plus straight pi over 3 close parentheses`
+`1 / ( (sqrt( 3)/(2) cos theta - 1 half sin theta ) ^2 + 1 / ( (sqrt( 3)/(2) sin theta + 1 half cos theta ) ^2 === 4 cosec ^2 ( 2 theta + pi / 3 )`

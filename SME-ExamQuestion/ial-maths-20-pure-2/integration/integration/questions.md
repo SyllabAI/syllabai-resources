@@ -8,16 +8,16 @@
 ### 1() — 4 marks — structured
 Evaluate
 
-[i] `integral subscript 1 superscript 2 4 x space d x comma`
+[i] $\int_{1}^{2} 4 x d x ,$
 
-[ii] `integral subscript 0 superscript 3 left parenthesis 9 x squared plus 4 x right parenthesis d x`.
+[ii] $\int_{0}^{3} ( 9 x^{2} + 4 x ) d x$.
 
 ## Q2 — easy — 4 marks · exam-questions
 
 ### 1() — 4 marks — structured
 Evaluate
 
-`integral subscript negative 3 end subscript superscript 4 open parentheses 2 k x plus 3 k x squared close parentheses d x`
+$\int_{- 3}^{4} ( 2 k x + 3 k x^{2} ) d x$
 
 giving your answer in terms of $k$.
 
@@ -87,13 +87,13 @@ State whether the estimate in part [a] is an under-estimate or an over-estimate,
 ## Q9 — easy — 8 marks · exam-questions
 
 ### 1() — 8 marks — structured
-The diagram below shows part of the graph with equation `y equals open parentheses x minus 2 close parentheses to the power of 2 over 3 end exponent`.
+The diagram below shows part of the graph with equation $y = ( x - 2 )^{ \frac{2}{3} }$.
 
 ![8-1-sq-9a-easy-edexelmodelling-with-sequences-and-series-](assets/083-8-1-sq-9a-easy-edexelmodelling-with-sequences-an.png)
 
 The trapezium rule is to be used to estimate the shaded area of the graph which is given by the integral
 
-`integral subscript 4 superscript 10 space left parenthesis x minus 2 right parenthesis to the power of fraction numerator 2 over denominator 3 space end fraction end exponent d x.`
+$\int_{4}^{10} ( x - 2 )^{\frac{2}{3 }} d x.$
 
 [i] All of the values in the table below will be used in the trapezium rule. Write down the number of ordinates that will be used, the number of strips and the width of each strip.
 
@@ -110,7 +110,7 @@ The trapezium rule is to be used to estimate the shaded area of the graph which 
 ### 1() — 4 marks — structured
 Given
 
-`integral subscript k superscript 5 left parenthesis 2 x minus 1 right parenthesis d x equals 20`
+$\int_{k}^{5} ( 2 x - 1 ) d x = 20$
 
 find the value of the positive constant $k$.
 
@@ -119,7 +119,7 @@ find the value of the positive constant $k$.
 ### 1() — 2 marks — structured
 Evaluate
 
-`integral subscript 1 superscript 5 left parenthesis 4 x plus 6 x squared right parenthesis d x`
+$\int_{1}^{5} ( 4 x + 6 x^{2} ) d x$
 
 ## Q12 — medium — 5 marks · exam-questions
 
@@ -136,7 +136,7 @@ Show that       $4-(x-2)^{2}=4x-x^{2}$
 ### 3() — 2 marks — structured
 Evaluate
 
-`integral subscript 0 superscript 4 left parenthesis 4 x minus x squared right parenthesis d x`
+$\int_{0}^{4} ( 4 x - x^{2} ) d x$
 
 ### 4() — 1 mark — structured
 Write down the area of the region labelled $R$.
@@ -158,7 +158,7 @@ Find the $x$-coordinates of the intercepts of the line with equation  $y=2$ and 
 ### 2() — 2 marks — structured
 Evaluate
 
-`integral subscript 1 superscript 3 left parenthesis x squared minus 4 x plus 5 right parenthesis d x`
+$\int_{1}^{3} ( x^{2} - 4 x + 5 ) d x$
 
 ### 3() — 4 marks — structured
 The diagram below shows the graphs of $y=2$  and $y=x^{2}-4x+5$. Find the exact area of the shaded region $R$.
@@ -191,7 +191,7 @@ Find the $x$-coordinates of the intersections of the two graphs.
 ### 2() — 2 marks — structured
 Show that the area of the shaded region labelled $R$ is given by
 
-`integral subscript 0 superscript 5 over 2 end superscript space left parenthesis 5 x minus 2 x squared right parenthesis space d x`
+$\int_{0}^{ \frac{5}{2} } ( 5 x - 2 x^{2} ) d x$
 
 ### 3() — 5 marks — structured
 Use calculus to find the area of the shaded region labelled $R$.
@@ -244,7 +244,7 @@ Complete the table of values for $y=\sqrt{x}+4$, giving values to three signific
 ### 2() — 4 marks — structured
 Use the trapezium rule with all the values from the table above to find an estimate of the integral
 
-`integral subscript 4 superscript 16 left parenthesis square root of x plus 4 right parenthesis space d x`
+$\int_{4}^{16} ( \sqrt{x} + 4 ) d x$
 
 giving your answer to three significant figures.
 
@@ -256,7 +256,7 @@ State, with a reason, whether your answer to part [b] is an overestimate or an u
 ### 1() — 5 marks — structured
 The trapezium rule is to be used to estimate the integral
 
-`integral subscript negative 2 end subscript superscript 0 space x cubed plus 8 space d x`
+$\int_{- 2}^{0} x^{3} + 8 d x$
 
 By completing the table of values below, use the trapezium rule to estimate the integral given above.
 
@@ -274,7 +274,7 @@ ii] Explain how you could increase the accuracy of your trapezium rule estimate.
 ### 1() — 5 marks — structured
 Use calculus to find the value of
 
-`integral subscript 4 superscript 9 fraction numerator x squared plus 1 over denominator square root of x end fraction d x`
+$\int_{4}^{9} \frac{x^{2} + 1}{ \sqrt{x} } d x$
 
 ## Q22 — hard — 5 marks · exam-questions
 
@@ -297,7 +297,7 @@ Find the area of the shaded region labelled $R$.
 ## Q24 — hard — 8 marks · exam-questions
 
 ### 1() — 8 marks — structured
-The diagram below shows part of the graph of `y space equals space x open parentheses x minus 1 close parentheses open parentheses x plus 2 close parentheses`.
+The diagram below shows part of the graph of $y = x ( x - 1 ) ( x + 2 )$.
 
 Find the total area of the two shaded regions.
 
@@ -343,13 +343,13 @@ Use calculus to find the total shaded area enclosed by the two graphs.
 ### 1() — 4 marks — structured
 The trapezium rule is to be used to find an estimate for the integral
 
-`integral subscript 4 superscript 8 space straight f left parenthesis x right parenthesis space d x`
+$\int_{4}^{8} \mathrm{f} ( x ) d x$
 
-The table below shows values for $x$ and `straight f open parentheses x close parentheses`, rounded to three significant figures where appropriate.
+The table below shows values for $x$ and $\mathrm{f} ( x )$, rounded to three significant figures where appropriate.
 
 | $x$ | 4 | 4.5 | 5 | 5.5 | 6 | 6.5 | 7 | 7.5 | 8 |
 |---|---|---|---|---|---|---|---|---|---|
-| `straight f open parentheses x close parentheses` | 3.16 | 3.39 | 3.61 | 3.81 | 4 | 4.18 | 4.36 | 4.53 | 4.69 |
+| $\mathrm{f} ( x )$ | 3.16 | 3.39 | 3.61 | 3.81 | 4 | 4.18 | 4.36 | 4.53 | 4.69 |
 
 Using the values in the table find
 
@@ -385,7 +385,7 @@ Use the trapezium rule with $h=0.25$ to find an estimate for the area bounded by
 ### 2() — 2 marks — structured
 The integral
 
-`integral subscript 1 superscript 2 space left parenthesis 1 plus 2 to the power of x right parenthesis space d x`
+$\int_{1}^{2} ( 1 + 2^{x} ) d x$
 
 can be evaluated as 3.8854 to five significant figures. Using this as its exact value, calculate the percentage error of your estimate from part [a].
 
@@ -394,7 +394,7 @@ can be evaluated as 3.8854 to five significant figures. Using this as its exact 
 ### 1() — 5 marks — structured
 Use calculus to find the value of
 
-`integral subscript 2 superscript 4 space fraction numerator x cubed plus cube root of x over denominator 2 square root of x end fraction d x`
+$\int_{2}^{4} \frac{x^{3} + \sqrt[3]{x} }{2 \sqrt{x} } d x$
 
 giving your answer correct to 3 significant figures.
 
@@ -403,7 +403,7 @@ giving your answer correct to 3 significant figures.
 ### 1() — 5 marks — structured
 Given
 
-`integral subscript q superscript 4 q end superscript space 5 x square root of x space d x equals 15 space 066`
+$\int_{q}^{4 q} 5 x \sqrt{x} d x = 15 066$
 
 find the value of the constant $q$.
 
@@ -417,7 +417,7 @@ The diagram below shows part of the graph of  $y=4x-x^{3}$.
 Find the area of the shaded region labelled $R$.
 
 ### 2() — 1 mark — structured
-Without doing any additional calculation, explain why  `integral subscript negative 2 end subscript superscript 2 left parenthesis 4 x minus x cubed right parenthesis space d x` must be equal to zero.
+Without doing any additional calculation, explain why  $\int_{- 2}^{2} ( 4 x - x^{3} ) d x$ must be equal to zero.
 
 ## Q34 — very_hard — 8 marks · exam-questions
 
@@ -483,7 +483,7 @@ $y=\frac{4-x^{2}}{\sqrt{x+2}},x>-2.$
 
 Use the trapezium rule with six strips to find an estimate of the integral
 
-`integral subscript negative 1 end subscript superscript 1 space open parentheses fraction numerator 4 minus x squared over denominator square root of x plus 2 end root end fraction close parentheses space d x`
+$\int_{- 1}^{1} ( \frac{4 - x^{2}}{ \sqrt{x + 2} } ) d x$
 
 to five significant figures.
 

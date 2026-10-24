@@ -97,7 +97,7 @@ Any **one** from:
 It is important to think in terms of the **frequency** of collisions between the molecules and the walls of the syringe
 
 - This creates a greater **rate of change in momentum**
-- From the forces topic, remember the **force** is equal to the **rate of change in momentum** `open parentheses F space equals fraction numerator straight capital delta p space over denominator straight capital delta t end fraction close parentheses`
+- From the forces topic, remember the **force** is equal to the **rate of change in momentum** `( F = ( capital delta p )/( capital delta t) )`
 - Therefore, the more frequent the collisions, the greater the force (per unit area)
 
 ### 2() — 4 marks
@@ -530,7 +530,7 @@ Rearrange this equation for *V*<sub>*2*</sub> :
 
 - $P_{1}V_{1}=P_{2}V_{2}$
 - Divide both sides by *P*<sub>*2*</sub>, giving<sub>* *</sub>$\frac{P_{1}V_{1}}{P_{2}}=\frac{P_{2}V_{2}}{P_{2}}$
-- `fraction numerator down diagonal strike down diagonal strike P subscript 2 end strike end strike V subscript 2 over denominator down diagonal strike P subscript 2 end strike end fraction space equals space V subscript 2`
+- `(/ / P _ 2 V _ 2)/(/ P _ 2 ) = V _ 2`
 - $V_{2}=\frac{P_{1}V_{1}}{P_{2}}$
 
 Substitute the known quantities into this equation:
@@ -540,7 +540,7 @@ Substitute the known quantities into this equation:
 
 Calculate the total volume of air delivered to the diver over time:
 
-- `V subscript 2 space equals space fraction numerator 5 space atm space cross times space 400 over denominator 1 space atm end fraction space equals space 2000 space open parentheses cm cubed close parentheses` **[1 mark]**
+- $V_{2} = \frac{5 \text{atm} \times 400}{1 atm} = 2000 ( cm^{3} )$ **[1 mark]**
 
 **[Total: 3 marks]**
 
@@ -705,7 +705,7 @@ Rearrange the density equation to make mass the subject:
 
 - $ρ=\frac{m}{V}$
 - Multiply both sides by volume, *V* , to give $ρ\timesV=\frac{m}{V}\timesV$
-- On the right hand side, `fraction numerator m over denominator down diagonal strike V end fraction space cross times space down diagonal strike V space end strike space equals space m`
+- On the right hand side, `(m)/(/ V) x / V = m`
 - This leaves $m=ρ\timesV$ **[1 mark]**
 
 Substitute values into this rearranged density equation:
@@ -832,7 +832,7 @@ Calculate the pressure in the space above the cream:
 
 > *Firstly, by rearranging the algebraic terms, we see easily how terms either side of the equation cancel out and other mathematical relations - these are very hard to spot if you have already condensed two numbers. For example, the equation below can be simplified my cancelling out mass terms, **m*
 
-> * *`up diagonal strike m g h space equals space 1 half up diagonal strike m v squared`
+> * *$\cancel{m} g h = 1 \frac{1}{2} \cancel{m} v^{2}$
 
 $gh=\frac{1}{2}v^{2}$
 
@@ -932,7 +932,7 @@ Rearrange this equation for *V*<sub>*2*</sub> :
 
 - $P_{1}V_{1}=P_{2}V_{2}$
 - Divide both sides by *P*<sub>*2*</sub>, giving<sub>* *</sub>$\frac{P_{1}V_{1}}{P_{2}}=\frac{P_{2}V_{2}}{P_{2}}$
-- `fraction numerator down diagonal strike down diagonal strike P subscript 2 end strike end strike V subscript 2 over denominator down diagonal strike P subscript 2 end strike end fraction space equals space V subscript 2`
+- `(/ / P _ 2 V _ 2)/(/ P _ 2 ) = V _ 2`
 - $V_{2}=\frac{P_{1}V_{1}}{P_{2}}$
 
 Substitute the known quantities into this equation:
@@ -1077,7 +1077,7 @@ Rearrange the given equation (Boyle's Law) to make final pressure, *p*<sub>*2*</
 
 - $P_{1}\timesV_{1}=P_{2}\timesV_{2}$
 - Dividing both sides by *V*<sub>*2*</sub> gives $\frac{P_{1}\timesV_{1}}{V_{2}}=\frac{P_{2}\timesV_{2}}{V_{2}}$
-- Cancel out the *V*<sub>*2*</sub> factor on the right to give `fraction numerator P subscript 1 space cross times space V subscript 1 over denominator V subscript 2 end fraction space equals space fraction numerator P subscript 2 space cross times space down diagonal strike V subscript 2 end strike over denominator down diagonal strike V subscript 2 end strike end fraction space equals space P subscript 2`
+- Cancel out the *V*<sub>*2*</sub> factor on the right to give `(P _ 1 x V _ 1)/(V _ 2) = (P _ 2 x / V _ 2 )/(/ V _ 2 ) = P _ 2`
 - $P_{2}=\frac{P_{1}\timesV_{1}}{V_{2}}$ **[1 mark]**
 
 Substitute known quantities into this rearranged equation for Boyle's Law:
@@ -1127,7 +1127,7 @@ List the known quantities:
 
 Calculate the total pressure:
 
-- `table row total row pressure end table space equals space table row atmospheric row pressure end table space plus space table row cell pressure space from end cell row water end table`
+- $\begin{gathered} \text{total} \\ \text{pressure} \end{gathered} = \begin{gathered} \text{atmospheric} \\ \text{pressure} \end{gathered} + \begin{gathered} \text{pressure} \text{from} \\ \text{water} \end{gathered}$
 - Total pressure* * = 101 + 113
 - Total pressure = 214 kPa **[1 mark]**
 
@@ -1189,7 +1189,7 @@ Rearrange this equation to determine $x$:
 
 - $92=\frac{90+x}{2}$
 - Multiply both sides by 2, giving $2\times92=90+x$
-- Subtracting 90 from both sides gives `x space equals space open parentheses 2 space cross times space 92 close parentheses space minus space 90`
+- Subtracting 90 from both sides gives $x = ( 2 \times 92 ) - 90$
 - $x=94$ **[1 mark]**
 
 (ii) Suggest why the student takes readings both when adding weights to the platform, and then again when they remove them:

@@ -100,7 +100,7 @@ $F=ma$
 > 
 > **Step 4: Substitute the acceleration equation into Newton's Second Law**
 > 
-> `F space equals space m space cross times space fraction numerator increment v over denominator increment t end fraction space equals space fraction numerator m open parentheses v subscript f space minus space v subscript i close parentheses over denominator increment t end fraction`
+> $F = m \times \frac{\Delta v}{\Delta t} = \frac{m ( v_{f} - v_{i} )}{\Delta t}$
 > 
 > - Notice here that the change in momentum equation emerges
 > 

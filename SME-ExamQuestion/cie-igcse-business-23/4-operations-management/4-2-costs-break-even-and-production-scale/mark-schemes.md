@@ -63,15 +63,13 @@ $\mathrm{Margin} \mathrm{of} \mathrm{safety}=100\mathrm{units}--80\mathrm{units}
 
 Identify 800 units on the horizontal axis and read the value for total revenue and total costs on the vertical axis
 
-`Total space revenue space equals space $ 8 comma 000
-
-Total space costs space equals space $ 6 comma 000`    **[1]**
+`Total revenue = $ 8 , 000 Total costs = $ 6 , 000`    **[1]**
 
 Subtract total costs from total revenue
 
-`equals 8 comma 000 space minus space 6 comma 000
+$= 8 , 000 - 6 , 000
 
-equals $ 2 comma 000`    **[1]**
+= \$ 2 , 000$    **[1]**
 
 > **[mark-scheme]**
 > - Award 2 marks for a correct answer
@@ -493,15 +491,15 @@ LCT could buy cheaper raw materials **[K]**, such as clay for its cooking pots**
 
 Subtract the variable cost per unit from the selling price per unit to determine contribution per unit
 
-`equals space $ 250 space minus space $ 125
+$= \$ 250 - \$ 125
 
-equals space $ 125`    **[1]**
+= \$ 125$    **[1]**
 
 Divide fixed costs per month by contribution per unit to calculate the break-even level of output
 
-`equals space fraction numerator $ 10 comma 000 over denominator $ 125 end fraction
+$= \frac{\$ 10 , 000}{\$ 125} 
 
-equals space 80 space units`    [**1]**
+= 80 \text{units}$    [**1]**
 
 > **[mark-scheme]**
 > - (Break-even = fixed costs/contribution per unit)
@@ -562,9 +560,9 @@ Multiple the average number of cake sales per day by the average price per cake
 
 $\mathrm{Average} \mathrm{revenue} \mathrm{per} \mathrm{day}=\mathrm{Price}\times\mathrm{Number} \mathrm{of} \mathrm{units} \mathrm{sold}$** [1]**
 
-`equals $ 6 space cross times space 50
+$= \$ 6 \times 50
 
-equals $ 300`    **[1]**
+= \$ 300$    **[1]**
 
 > **[mark-scheme]**
 > - If correct answer given with no working shown, award 2 marks
@@ -646,9 +644,9 @@ Multiply the variable cost per unit by the output per month
 
 $\mathrm{Total} \mathrm{variable} \mathrm{cost} \mathrm{per} \mathrm{month}=\mathrm{Variable} \mathrm{cost} \mathrm{per} \mathrm{unit}\times\mathrm{output}$   **[1]**
 
-`equals space $ 80 space cross times space 12 comma 000
+$= \$ 80 \times 12 , 000
 
-equals space $ 960 comma 000`    **[1]**
+= \$ 960 , 000$    **[1]**
 
 > **[mark-scheme]**
 > - If correct answer given with no working shown, award 2 marks
@@ -657,7 +655,7 @@ equals space $ 960 comma 000`    **[1]**
 > 
 > - Correct answer: \$960 000 [2]
 > - Method e.g. Variable cost per unit times output [1]
-> - OR, `$ 80 space cross times space 12 space 000 space left square bracket 1 right square bracket`
+> - OR, `$ 80 x 12 000 left square bracket 1 right square bracket`
 
 ### Q21
 **4,000 units** **[2]**
@@ -688,15 +686,15 @@ $=18,000-14,000\,\,=4,000\mathrm{units}$    **[1]**
 
 Calculate contribution per unit by subtracting variable cost per unit from selling price per unit
 
-`equals space $ 120 space minus space $ 40
+$= \$ 120 - \$ 40
 
-equals space $ 80`    **[1]**
+= \$ 80$    **[1]**
 
 Divide fixed costs by contribution per unit to determine the break-even level of output
 
-`equals space space fraction numerator $ 200 comma 000 over denominator $ 80 end fraction
+$= \frac{\$ 200 , 000}{\$ 80} 
 
-equals space space space space 2 comma 500 space units`   **[1]**
+= 2 , 500 \text{units}$   **[1]**
 
 > **[mark-scheme]**
 > - If correct answer given with no working shown, award 2 marks

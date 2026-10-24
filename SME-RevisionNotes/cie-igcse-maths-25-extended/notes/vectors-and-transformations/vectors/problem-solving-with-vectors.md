@@ -30,13 +30,13 @@ guided_study: true
   - This means if **b** is parallel to **a**, then **b** = *k***a**
   
     - where *k* is a **constant number **(scalar)
-- For example, `bold a equals open parentheses table row 1 row 3 end table close parentheses` and `bold b equals open parentheses table row 2 row 6 end table close parentheses`
+- For example, $a = ( \begin{gathered} 1 \\ 3 \end{gathered} )$ and $b = ( \begin{gathered} 2 \\ 6 \end{gathered} )$
 
-  - `open parentheses table row 2 row 6 end table close parentheses equals 2 cross times open parentheses table row 1 row 3 end table close parentheses` so $b=2a$
+  - $( \begin{gathered} 2 \\ 6 \end{gathered} ) = 2 \times ( \begin{gathered} 1 \\ 3 \end{gathered} )$ so $b=2a$
   - **b** is a scalar multiple of **a**, so **b** is **parallel** to **a**
 - If the scalar multiple is **negative**, then the vectors are **parallel** and in **opposite** directions
 
-  - `bold c equals open parentheses table row cell negative 3 end cell row cell negative 9 end cell end table close parentheses equals negative 3 bold a`
+  - $c = ( \begin{gathered} - 3 \\ - 9 \end{gathered} ) = - 3 a$
   
     - **c** is **parallel** to **a** and in the** opposite** direction
 
@@ -47,7 +47,7 @@ guided_study: true
 
   - 9**a** + 6**b **factorises to 3(3**a** + 2**b**)
   - 12**a** + 8**b **factorises to 4(3**a** + 2**b**)
-  - This means `12 bold a plus 8 bold b equals 4 over 3 open parentheses 9 bold a plus 6 bold b close parentheses`
+  - This means $12 a + 8 b = \frac{4}{3} ( 9 a + 6 b )$
   
     - so they are **scalar multiples** of each other
     - and therefore **parallel**
@@ -112,11 +112,11 @@ guided_study: true
 > 
 > > $\overset{\rightarrow}{AB}=3\overset{\rightarrow}{OC}$* and *$\overset{\rightarrow}{OC}=c$*  so  *$\overset{\rightarrow}{AB}=3c$*.*
 > 
-> `table row cell stack O B with rightwards arrow on top end cell equals cell stack O A with rightwards arrow on top plus stack A B with rightwards arrow on top space end cell row blank equals cell 2 bold a plus 3 bold c end cell end table`
+> $\begin{gathered} \vec{OB} & = \vec{OA} + \vec{AB} \\ = 2 a + 3 c \end{gathered}$
 > 
 > $\overset{\rightarrow}{OB}=2a+3c$
 > 
-> `table row cell stack A C with rightwards arrow on top end cell equals cell stack A O with rightwards arrow on top plus stack O C with rightwards arrow on top end cell row blank equals cell negative stack O A with rightwards arrow on top plus stack O C with rightwards arrow on top end cell row blank equals cell negative 2 bold a plus bold c end cell end table`
+> $\begin{gathered} \vec{AC} & = \vec{AO} + \vec{OC} \\ = - \vec{OA} + \vec{OC} \\ = - 2 a + c \end{gathered}$
 > 
 > $\overset{\rightarrow}{AC}=c-2a$
 > 
@@ -128,11 +128,11 @@ guided_study: true
 > 
 > > *AP** : **PC **= 3 : 1 means that  *$\overset{\rightarrow}{AP}=\frac{3}{3+1}\overset{\rightarrow}{AC}=\frac{3}{4}\overset{\rightarrow}{AC}$
 > 
-> `table row cell stack A P with rightwards arrow on top end cell equals cell 3 over 4 space stack A C with rightwards arrow on top equals 3 over 4 open parentheses negative 2 bold a space plus space bold c close parentheses end cell end table`
+> $\begin{gathered} \vec{AP} & = \frac{3}{4} \vec{AC} = \frac{3}{4} ( - 2 a + c ) \end{gathered}$
 > 
 > $\overset{\rightarrow}{AP}=-\frac{3}{2}a+\frac{3}{4}c$
 > 
-> `table row cell stack O P with rightwards arrow on top end cell equals cell stack O A with rightwards arrow on top plus stack A P with rightwards arrow on top end cell row blank equals cell 2 bold a plus stretchy left parenthesis negative 3 over 2 bold a plus 3 over 4 bold c stretchy right parenthesis end cell end table`
+> $\begin{gathered} \vec{OP} & = \vec{OA} + \vec{AP} \\ = 2 a + ( - \frac{3}{2} a + \frac{3}{4} c ) \end{gathered}$
 > 
 > $\overset{\rightarrow}{OP}=\frac{1}{2}a+\frac{3}{4}c$
 > 
@@ -140,13 +140,13 @@ guided_study: true
 > 
 > **Answer:**
 > 
-> > *To show that **O, P, **and **B **are collinear (lie on the same line), note that  *`stack O P with rightwards arrow on top equals 1 half bold a plus 3 over 4 bold c equals 1 fourth open parentheses 2 bold a plus 3 bold c close parentheses`
+> > *To show that **O, P, **and **B **are collinear (lie on the same line), note that  *$\vec{OP} = 1 \frac{1}{2} a + \frac{3}{4} c = 1 \frac{1}{4} ( 2 a + 3 c )$
 > 
-> `table row cell stack O P with rightwards arrow on top end cell equals cell 1 fourth open parentheses 2 bold a plus 3 bold c close parentheses equals 1 fourth stack O B with rightwards arrow on top end cell end table`
+> $\begin{gathered} \vec{OP} & = 1 \frac{1}{4} ( 2 a + 3 c ) = 1 \frac{1}{4} \vec{OB} \end{gathered}$
 > 
 > $\overset{\rightarrow}{OP}=\frac{1}{4}\overset{\rightarrow}{OB}$** ****therefore ****OP**** is parallel to ****OB**** **
 > **and so ****P ****must lie on the line ****OB**** **
 > 
-> > *If *`table row cell stack O P with rightwards arrow on top end cell equals cell 1 fourth stack O B with rightwards arrow on top space end cell end table`* then *`table row cell stack P B with rightwards arrow on top end cell equals cell 3 over 4 stack O B with rightwards arrow on top end cell end table`
+> > *If *$\begin{gathered} \vec{OP} & = 1 \frac{1}{4} \vec{OB} \end{gathered}$* then *$\begin{gathered} \vec{PB} & = \frac{3}{4} \vec{OB} \end{gathered}$
 > 
 > $\overset{\rightarrow}{OP}:\overset{\rightarrow}{PB}=1:3$

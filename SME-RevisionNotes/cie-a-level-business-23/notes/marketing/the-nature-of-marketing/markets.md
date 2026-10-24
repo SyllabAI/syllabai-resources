@@ -151,9 +151,9 @@ $\mathrm{Market} \mathrm{share}=\frac{\mathrm{Sales} \mathrm{of}a\mathrm{busines
 > 
 > **Step 3: Substitute figures into the formula**
 > 
-> **  **`equals space fraction numerator £ 526 straight m over denominator £ 4.8 bn end fraction space cross times space 100
+> **  **$= \frac{\pounds 526 \mathrm{m} }{\pounds 4.8 bn} \times 100
 > 
-> equals space 10.96 percent sign`**            ** **[3]**
+> = 10.96 \%$**            ** **[3]**
 
 - **Market growth** is the **increase in the overall size, value or volume of a market** over a period of time, usually expressed as a percentage
 
@@ -183,9 +183,9 @@ $\mathrm{Market} \mathrm{growth}=\frac{\mathrm{This} \mathrm{year}'s\mathrm{mark
 > 
 > **Step 3 - Multiply the outcome by 100 to find the percentage growth rate**
 > 
-> `equals space 0.5246 space cross times space 100 space
+> $= 0.5246 \times 100 
 > 
-> equals space 52.46 percent sign`            **[1 mark]**
+> = 52.46 \%$            **[1 mark]**
 
 - Market growth provides an incentive** for businesses** looking to expand, increase sales and generate higher revenue
 - Businesses are often attracted to the potential of growing markets, and they can **become increasingly competitive** quite rapidly

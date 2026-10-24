@@ -9,7 +9,7 @@
 
 > *So in general to find **a**% of **b*
 
-`a percent sign space o f space b space equals space a over 100 cross times b equals 1 over 100 cross times a cross times b`
+$a \% o f b = \frac{a}{100} \times b = \frac{1}{100} \times a \times b$
 
 > *To find **b**% of **a*
 
@@ -71,13 +71,13 @@ $a\times\frac{b}{100}=\frac{1}{100}\timesa\timesb$
 
 > *Subtract the deposit of £3000 which has been paid*
 
-`£ 8400 space minus space £ 3000 space equals space £ 5400`
+$\pounds 8400 - \pounds 3000 = \pounds 5400$
 
 **[1]**
 
 > *Split into 6 equal monthly payments, use the fact that 54 ÷ 6 = 9*
 
-`£ 5400 space divided by space 6 space equals £ 900`
+$\pounds 5400 \div 6 = \pounds 900$
 
 **£900 ****[1]**
 
@@ -87,7 +87,7 @@ $a\times\frac{b}{100}=\frac{1}{100}\timesa\timesb$
 > *Let Bethan's income be *$x$*,** find Amrit's income in terms of Bethan's income.** *
 *To increase Bethan's income by 32%, a multiplier of *$1+\frac{32}{100}$* should be used. *
 
-*Amrit's income = *`x open parentheses 1 space plus space 32 over 100 close parentheses space equals space 1.32 x`
+*Amrit's income = *$x ( 1 + \frac{32}{100} ) = 1.32 x$
 
 **[1]**
 
@@ -234,7 +234,7 @@ $x=\frac{31}{110}$ **[1]**
 
 > *Express the saving as a percentage of the total cost of buying separately*
 
-`fraction numerator £ 127 over denominator £ 552 end fraction cross times 100 equals 23.00724638...`
+$\frac{\pounds 127}{\pounds 552} \times 100 = 23.00724638...$
 
 **[1]**
 
@@ -296,7 +296,7 @@ $x=\frac{1}{22}$ **[1]**
 
 > *Find the percentage of students who are present*
 
-`1092 over 1210 cross times 100 equals 90.24793388... space percent sign`
+$\frac{1092}{1210} \times 100 = 90.24793388... \%$
 
 **[1]**
 
@@ -317,7 +317,7 @@ $x=\frac{1}{22}$ **[1]**
 
 > *Express the profit as a percentage of the money Emily spent on the water, this is the "percentage profit"*
 
-`fraction numerator £ 0.36 over denominator £ 5.64 end fraction cross times 100 equals 6.382978723... space percent sign`
+$\frac{\pounds 0.36}{\pounds 5.64} \times 100 = 6.382978723... \%$
 
 **[1]**
 
@@ -330,9 +330,9 @@ $x=\frac{1}{22}$ **[1]**
 ### 16() — 3 marks
 > *We can rewrite both numbers as fractions, and then multiply them, to find the desired result*
 
-> *First we can rewrite *`0.1 3 with dot on top 6 with dot on top`* as a fraction*
+> *First we can rewrite *$0.1 \dot{3} \dot{6}$* as a fraction*
 
-> *Let *$x$* be *`0.1 3 with dot on top 6 with dot on top`
+> *Let *$x$* be *$0.1 \dot{3} \dot{6}$
 
 $x=0.136363636...$
 
@@ -366,9 +366,9 @@ $x=\frac{135}{990}$
 
 $x=\frac{3}{22}$
 
-> *The other number, *`0.2 with dot on top`*, can be rewritten*
+> *The other number, *$0. \dot{2}$*, can be rewritten*
 
-`0.2 with dot on top equals 2 over 9`
+$0. \dot{2} = \frac{2}{9}$
 
 **[1]**
 
@@ -428,9 +428,9 @@ $\frac{1}{33}$ **[1]**
 
 **[1]**
 
-> *Use this to calculate the percentage profit, given percentage profit = *`fraction numerator profit over denominator original space amount end fraction cross times 100 percent sign`
+> *Use this to calculate the percentage profit, given percentage profit = *$\frac{profit}{original amount} \times 100 \%$
 
-`percent sign space profit space equals space 55 over 465 cross times 100 percent sign equals 11.82795699... percent sign`
+$\% \text{profit} = \frac{55}{465} \times 100 \% = 11.82795699... \%$
 
 **[1]**
 
@@ -572,9 +572,9 @@ $x=\frac{7}{22}$ **[1]**
 
 > *Find *$\frac{1}{3}$* of £24, and then subtract this from £24*
 
-`1 third space of space £ 24 space equals space £ 8`
+$1 \text{third} of \pounds 24 = \pounds 8$
 
-`£ 24 space minus space £ 8 space equals space £ 16`
+$\pounds 24 - \pounds 8 = \pounds 16$
 
 **[1]**
 
@@ -605,7 +605,7 @@ $x=\frac{7}{22}$ **[1]**
 ### 3() — 1 marks
 > *To find 320 as a percentage of 80*
 
-`320 over 80 cross times 100 equals 400 percent sign`
+$\frac{320}{80} \times 100 = 400 \%$
 
 **The 4th option, 400%** **[1]**
 
@@ -653,32 +653,32 @@ $x=\frac{1}{66}$ **[1]**
 ### 8() — 2 marks
 > *Write out each number in a longer form, to make comparing them easier*
 
-`0.2 4 with dot on top 6 with dot on top space equals space 0.24646464646...
-0.24 6 with dot on top space equals space 0.24666666666...
-0.2 with dot on top 4 6 with dot on top space equals space 0.246246246246...
-0.246 space equals space 0.246000000000...`
+$0.2 \dot{4} \dot{6} = 0.24646464646...
+0.24 \dot{6} = 0.24666666666...
+0. \dot{2} 4 \dot{6} = 0.246246246246...
+0.246 = 0.246000000000...$
 
 **Correct use of recurring symbol ****[1]**
 
 > *The numbers are the same up to the 3rd decimal place, but are different from the 4th decimal place onwards*
 
-`0.2 4 with dot on top 6 with dot on top space equals space 0.246 bold 46464646 bold. bold. bold.
-0.24 6 with dot on top space equals space 0.246 bold 66666666 bold. bold. bold.
-0.2 with dot on top 4 6 with dot on top space equals space 0.246 bold 246246246 bold. bold. bold.
-0.246 space equals space 0.246 bold 000000000 bold. bold. bold.`
+$0.2 \dot{4} \dot{6} = 0.246 46464646 . . .
+0.24 \dot{6} = 0.246 66666666 . . .
+0. \dot{2} 4 \dot{6} = 0.246 246246246 . . .
+0.246 = 0.246 000000000 . . .$
 
 > *Putting the numbers in order, with the smallest first*
 
 $0.246000000....\,0.246246246246...\,0.24646464646464...\,0.2466666666...$
 
-`bold 0 bold. bold 246 bold comma bold space bold 0 bold. bold 2 with bold dot on top bold 4 bold 6 with bold dot on top bold comma bold space bold 0 bold. bold 2 bold 4 with bold dot on top bold 6 with bold dot on top bold comma bold space bold 0 bold. bold 24 bold 6 with bold dot on top` **[1]**
+$0 . 246 , 0 . \dot{2} 4 \dot{6} , 0 . 2 \dot{4} \dot{6} , 0 . 24 \dot{6}$ **[1]**
 
 ## Q24 — easy — 1 marks · exam-questions
 
 ### 4() — 1 marks
 > *To find 40 as a percentage of 10*
 
-`40 over 10 cross times 100 equals 400 percent sign`
+$\frac{40}{10} \times 100 = 400 \%$
 
 **The fourth option, 400%** **[1]**
 
@@ -790,7 +790,7 @@ $\frac{3}{4}$* × 240 =  180 students want to stay at school*
 ## Q28 — hard — 3 marks · exam-questions
 
 ### 18() — 3 marks
-*Note that in this question *`0.4 x with dot on top`* means that *`x with dot on top`* is a recurring digit; it is not 0.4 multiplied by *$x$* or *`x with dot on top` 
+*Note that in this question *$0.4 \dot{x}$* means that *$\dot{x}$* is a recurring digit; it is not 0.4 multiplied by *$x$* or *$\dot{x}$ 
 *e.g. It could be 0.4111111... or 0.488888... etc*
 
 > *Let *$y$* be the recurring decimal*
@@ -867,7 +867,7 @@ $x=\frac{44}{111}$** [1]**
 ### 10() — 2 marks
 > *Find 62 out of 80 as a percentage*
 
-`62 over 80 cross times 100 equals 77.5 percent sign`
+$\frac{62}{80} \times 100 = 77.5 \%$
 
 **[1]**
 
@@ -954,7 +954,7 @@ $x=\frac{139}{333}$** [1]**
 ### 2() — 2 marks
 > *Find 32 out of 80 as a percentage*
 
-`32 over 80 cross times 100 equals 40 percent sign`
+$\frac{32}{80} \times 100 = 40 \%$
 
 **[1]**
 
@@ -1229,7 +1229,7 @@ $\frac{1}{2}$* (50%) were sold at £5, and 40% were sold at £7, which adds up t
 
 > *Find the percentage profit using *$\frac{\mathrm{Income}-\mathrm{Amount} \mathrm{Spent}}{\mathrm{Amount} \mathrm{Spent}}\times100$
 
-`fraction numerator 732 space minus space 480 over denominator 480 end fraction cross times 100 equals 52.5 percent sign`
+$\frac{732 - 480}{480} \times 100 = 52.5 \%$
 
 **Method to find percentage profit ****[1]**
 
@@ -1278,17 +1278,17 @@ $x=\frac{8}{45}$** ****[1]**
 
 > *Define the variable that you will use in the question*
 
-*Let *`x equals 0.3 2 with dot on top 4 with dot on top`
+*Let *$x = 0.3 \dot{2} \dot{4}$
 
 > *Use multiplication by powers of 10 to isolate the recurring digits in the number in two separate equations*
 
-`table row cell 10 x end cell equals cell 3.2 with dot on top 4 with dot on top end cell row cell 1000 x end cell equals cell 324.2 with dot on top 4 with dot on top end cell end table`
+$\begin{gathered} 10 x & = 3. \dot{2} \dot{4} \\ 1000 x & = 324. \dot{2} \dot{4} \end{gathered}$
 
 **[M1]**
 
 > *Use subtraction of the equations to eliminate the recurring digits*
 
-`table row cell 1000 x minus 10 x end cell equals cell 324.2 with dot on top 4 with dot on top minus 3.2 with dot on top 4 with dot on top end cell row cell 990 x end cell equals 321 end table`
+$\begin{gathered} 1000 x - 10 x & = 324. \dot{2} \dot{4} - 3. \dot{2} \dot{4} \\ 990 x & = 321 \end{gathered}$
 
 > *Solve for *$x$
 
@@ -1370,7 +1370,7 @@ $x=\frac{7}{18}$ **[1]**
 ## Q46 — hard — 2 marks · exam-questions
 
 ### 15((a)) — 2 marks
-> *Let *`x space equals space 0.3 7 with dot on top 2 with dot on top`*, and write out several decimal places*
+> *Let *$x = 0.3 \dot{7} \dot{2}$*, and write out several decimal places*
 
 $x=0.372727272...$
 
@@ -1386,7 +1386,7 @@ $1000x=372.72727272...$
 
 > *Subtract these two*
 
-`table row cell 1000 x space end cell equals cell space 372.72727272... end cell row cell negative space 10 x space end cell equals cell space minus 3.72727272... end cell row cell space space space 990 x space end cell equals cell space 369 end cell end table`
+$\begin{gathered} 1000 x & = 372.72727272... \\ - 10 x & = - 3.72727272... \\ 990 x & = 369 \end{gathered}$
 
 > *Divide both sides by 990*
 
@@ -1432,13 +1432,13 @@ $99x=19$
 $x=\frac{19}{99}$ **[1]**
 
 ### 14((b)) — 2 marks
-> $\frac{19}{990}$* is *$\frac{19}{99}$* divided by 10. So it is also *`0.1 with dot on top 9 with dot on top`* divided by 10.*
+> $\frac{19}{990}$* is *$\frac{19}{99}$* divided by 10. So it is also *$0. \dot{1} \dot{9}$* divided by 10.*
 
-`19 over 990 equals 0 dot 1 with dot on top 9 with dot on top divided by 10`
+$\frac{19}{990} = 0 \text{dot} \dot{1} \dot{9} \div 10$
 
 **this line or an equivalent statement must be seen to score any marks ****[1]**
 
-**Answer =**** **`bold 0 bold dot bold 0 bold 1 with bold dot on top bold 9 with bold dot on top`** [1]**
+**Answer =**** **$0 \text{dot} 0 \dot{1} \dot{9}$** [1]**
 ** No marks are scored in this question unless the method is shown!**
 
 ## Q48 — easy — 2 marks · exam-questions
@@ -1479,7 +1479,7 @@ $x=\frac{4}{15}$ **[1]**
 ### 5() — 3 marks
 > *Calculate the proportions of rectangle A and rectangle C that are unshaded*
 
-`table row cell 1 minus 5 over 8 end cell equals cell 3 over 8 end cell row cell 100 percent sign minus 80 percent sign end cell equals cell 20 percent sign end cell end table`
+$\begin{gathered} 1 - \frac{5}{8} & = \frac{3}{8} \\ 100 \% - 80 \% & = 20 \% \end{gathered}$
 
 **[M1]**
 
@@ -1489,7 +1489,7 @@ $x=\frac{4}{15}$ **[1]**
 
 > *Use the diagram to work out the calculation that gives the shaded section for rectangle B*
 
-`5 over 8 minus 20 percent sign`
+$\frac{5}{8} - 20 \%$
 
 **[M1]**
 
@@ -1511,7 +1511,7 @@ $\frac{17}{40}$
 ## Q50 — easy — 2 marks · exam-questions
 
 ### 15((a)) — 2 marks
-For now, ignore the 4 and consider how we can write `0.5 with dot on top 7 with dot on top` as $\frac{19}{33}$
+For now, ignore the 4 and consider how we can write $0. \dot{5} \dot{7}$ as $\frac{19}{33}$
 
 > *Let *$x$* be the recurring decimal*
 
@@ -1545,7 +1545,7 @@ $x=\frac{19}{33}$
 
 > *Now add on the whole part, the 4, again*
 
-`bold 4 bold. bold 5 with bold dot on top bold 7 with bold dot on top bold equals bold 4 bold 19 over bold 33` **[1]**
+$4 . 5 \text{with} \text{dot} on \text{top} 7 \text{with} \text{dot} on \text{top} = 4 \frac{19}{ } 33$ **[1]**
 
 ## Q51 — easy — 3 marks · exam-questions
 
@@ -1580,11 +1580,11 @@ $\frac{17}{40}$ **[1]**
 ### 2() — 1 marks
 > *To compare the numbers, we could write them in a column and examine the value of the second and third decimal places.*
 
-`table row cell 0.5 with dot on top end cell equals cell 0.5555.... end cell row cell space space space space 0.55 space end cell equals cell 0.55 end cell row cell 0.545 end cell equals cell 0.545 end cell row cell 0.5 4 with dot on top 5 with dot on top end cell equals cell 0.5454545... end cell end table`
+$\begin{gathered} 0. \dot{5} & = 0.5555.... \\ 0.55 & = 0.55 \\ 0.545 & = 0.545 \\ 0.5 \dot{4} \dot{5} & = 0.5454545... \end{gathered}$
 
-> *We can see that *`0.5 with dot on top`* has the highest value in the second and third decimal places (it is *`0.00 5 with dot on top`* higher than the second option, 0.55).*
+> *We can see that *$0. \dot{5}$* has the highest value in the second and third decimal places (it is *$0.00 \dot{5}$* higher than the second option, 0.55).*
 
-**The first option is correct, **`bold 0 bold. bold 5 with bold dot on top`* ***[1]**
+**The first option is correct, **$0 . \dot{5}$* ***[1]**
 
 ## Q53 — easy — 4 marks · exam-questions
 
@@ -1594,17 +1594,17 @@ $\frac{17}{40}$ **[1]**
 
 > *Work out the normal price of ticket A*
 
-`5 over 6 space equals space 140 €`
+$\frac{5}{6} = 140 \text{€}$
 
 **[M1]**
 
 > *Divide both sides by *$5$
 
-`1 over 6 space equals space 28 €`
+$\frac{1}{6} = 28 \text{€}$
 
 > *Multiply both sides by *$6$* *
 
-`6 over 6 space equals space 168 €`
+$\frac{6}{6} = 168 \text{€}$
 
 > *The normal price of ticket A is *`168 €`
 
@@ -1615,15 +1615,15 @@ $\frac{17}{40}$ **[1]**
 > **[exam-tip]**
 > 20% off the normal price means the sale price is 80% of the normal price.
 
-`80 percent sign space equals space 136 €`
+$80 \% = 136 \text{€}$
 
-> *Divide by *$8$* to work out *`10 percent sign`
+> *Divide by *$8$* to work out *$10 \%$
 
-`10 percent sign space equals space 17 €`
+$10 \% = 17 \text{€}$
 
-> *Multiply by *$10$* to work out *`100 percent sign`
+> *Multiply by *$10$* to work out *$100 \%$
 
-`100 percent sign space equals space 170 €`
+$100 \% = 170 \text{€}$
 
 > *The normal price of ticket B is *`170 €`
 

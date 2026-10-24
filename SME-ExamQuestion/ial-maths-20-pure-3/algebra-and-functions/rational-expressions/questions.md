@@ -10,7 +10,7 @@ Simplify
 
 (i) $\frac{x^{2}}{x}$
 
-(ii) `fraction numerator x open parentheses x minus 1 close parentheses over denominator x end fraction`
+(ii) $\frac{x ( x - 1 )}{x}$
 
 (iii) $\frac{6x+2}{2}$
 
@@ -136,7 +136,7 @@ The function $f(x)$ is given by
 
 $f(x)=3x^{3}-5x^{2}-4x+4$
 
-Show that `straight f open parentheses 2 over 3 close parentheses space equals 0`.
+Show that $\mathrm{f} ( \frac{2}{3} ) = 0$.
 
 ### 2() — 1 mark — structured
 Hence write down a factor of $f(x)$.
@@ -323,7 +323,7 @@ Why would assuming that $g(x)=x+1$ be a logical first step in attempting to dete
 By first making the assumption from part (a), find $f(x)$.
 
 ### 3() — 2 marks — structured
-Explain, with an example, why the forms of $f(x)$ and `straight g open parentheses x close parentheses` determined in parts (a) and (b) are not the only possible forms for those functions.
+Explain, with an example, why the forms of $f(x)$ and $\mathrm{g} ( x )$ determined in parts (a) and (b) are not the only possible forms for those functions.
 
 ## Q32 — hard — 3 marks · exam-questions
 
@@ -389,7 +389,7 @@ Work out $\frac{x^{5}}{3x^{2}-2}$
 ### 1() — 2 marks — structured
 For a polynomial $f(x)$, the Remainder Theorem states that
 
-When $f(x)$ is divided by $(ax-b)$ the remainder is `straight f open parentheses b over a close parentheses`.
+When $f(x)$ is divided by $(ax-b)$ the remainder is $\mathrm{f} ( \frac{b}{a} )$.
 
 Use the Remainder Theorem to find the remainder when $8x^{3}+6x^{2}-x-2$ is divided by $(2x+1)$.
 

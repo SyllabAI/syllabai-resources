@@ -7,7 +7,7 @@
 ### 19((a)) — 6 marks
 i) The expression for the equilibrium constant, *K*<sub>p</sub>, for the reaction is:
 
-- *K*<sub>p</sub> = `fraction numerator p open parentheses straight C subscript 2 straight H subscript 5 OH close parentheses over denominator p open parentheses straight C subscript 2 straight H subscript 4 close parentheses space cross times space p open parentheses straight H subscript 2 straight O close parentheses end fraction`; **[1 mark]**
+- *K*<sub>p</sub> = $\frac{p ( \mathrm{C}_{2} \mathrm{H}_{5} \text{OH} )}{p ( \mathrm{C}_{2} \mathrm{H}_{4} ) \times p ( \mathrm{H}_{2} \mathrm{O} )}$; **[1 mark]**
 
 ii) The equilibrium constant, *K*<sub>p</sub>, for the hydration of ethene at 150 °C is:
 
@@ -85,7 +85,7 @@ mol of acid = mol of NaOH = $\frac{34.8\times2.50}{1000}=0.087$(mol) mol of este
 
 mol of ethanol = 0.150 – 0.113 = 0.037
 
-*K*<sub>c</sub> = `begin mathsize 14px style fraction numerator space open square brackets C H subscript 3 C O O C subscript 2 H subscript 5 close square brackets open square brackets H subscript 2 O close square brackets space over denominator space open square brackets C H subscript 3 C O O H close square brackets open square brackets C subscript 2 H subscript 5 O H close square brackets space end fraction end style`= 3.9668 / 4.0 
+*K*<sub>c</sub> = $\frac{ [ C H_{3} C O O C_{2} H_{5} ] [ H_{2} O ] }{ [ C H_{3} C O O H ] [ C_{2} H_{5} O H ] }$= 3.9668 / 4.0 
 **AND**
 a statement that the volumes cancel out
 
@@ -372,7 +372,7 @@ O<sub>2</sub>= 0.45455
 **AND**
 SO<sub>3</sub>= 3.6364  ; **[1 mark]**
 - Substitution of values into *K*<sub>p</sub> expression:
-`fraction numerator 3.6364 squared over denominator open parentheses 0.90909 squared space straight x space 0.45455 close parentheses end fraction`; **[1 mark]**
+$\frac{3.6364^{2}}{( 0.90909^{2} \mathrm{x} 0.45455 )}$; **[1 mark]**
 - *K*<sub>p</sub> = 35.2 / 35
 **AND**
 Answer given to 2 / 3 significant figures
@@ -481,11 +481,10 @@ ii)The pH of this buffer solution are:
 
 - Calculation of the concentration of SO<sub>4</sub><sup>2−</sup> ions $\frac{25.0x0.150}{1000}\times\frac{1000}{100}=0.0375(\mathrm{mol} \mathrm{dm}^{-3})$; **[1 mark]**
 - Calculation of the concentration of HSO<sub>4</sub><sup>− </sup>ions $\frac{75.0x0.100}{1000}\times\frac{1000}{100}=0.075(\mathrm{mol} \mathrm{dm}^{-3})$; **[1 mark]**
-- Expression for *K*<sub>a </sub>*K*<sub>a</sub> = `begin mathsize 14px style fraction numerator open square brackets H to the power of plus sign close square brackets left square bracket S O subscript 4 to the power of 2 minus sign end exponent right square bracket over denominator left square bracket H S O subscript 4 to the power of minus sign right square bracket end fraction end style`; **[1 mark]**
+- Expression for *K*<sub>a </sub>*K*<sub>a</sub> = $\frac{ [ H ^{+} ] [ S O_{4}^{2} - ]}{[ H S O_{4} ^{-} ]}$; **[1 mark]**
 - Re-arrangement of expression 
 **AND** 
-Calculation of [H<sup>+</sup>] [H<sup>+</sup>] = `fraction numerator Ka left square bracket HSO subscript 4 to the power of minus right square bracket space over denominator left square bracket SO subscript 4 to the power of 2 minus end exponent right square bracket end fraction equals space fraction numerator 0.012 space straight x space 0.075 over denominator 0.0375 end fraction equals space 0.024 space left parenthesis mol space dm to the power of negative 3 end exponent right parenthesis
-`; **[1 mark]**
+Calculation of [H<sup>+</sup>] [H<sup>+</sup>] = $\frac{Ka [ HSO_{4}^{ - } ] }{[ SO_{4}^{2} - ]} = \frac{0.012 \mathrm{x} 0.075}{0.0375} = 0.024 ( \text{mol} dm^{ - } 3 )$; **[1 mark]**
 - Calculation of pH −log[H<sup>+</sup>] = −log 0.024 = 1.6198 / 1.620 / 1.62 / 1.6; **[1 mark]**
 
 **[Total: 7 marks]**
@@ -585,7 +584,7 @@ iii) The value for *K*<sub>p</sub> to an appropriate number of significant figur
 | O<sub>2</sub> | 0.53774 |
 | H<sub>2</sub>O | 0.28302 |
 | Cl<sub>2</sub> | 0.28302 |
-- Final value for *K*<sub>p</sub> given to 2 or 3 significant figures: `fraction numerator open parentheses 0.28302 close parentheses squared open parentheses 0.28302 close parentheses squared over denominator open parentheses 0.39623 close parentheses to the power of 4 open parentheses 0.53774 close parentheses end fraction`= 0.48 / 0.484; **[1 mark]**
+- Final value for *K*<sub>p</sub> given to 2 or 3 significant figures: $\frac{( 0.28302 )^{2} ( 0.28302 )^{2}}{( 0.39623 )^{4} ( 0.53774 )}$= 0.48 / 0.484; **[1 mark]**
 - Correct units given; atm<sup>–1</sup>; **[1 mark]**
 
 iv) A value for the total entropy change of the reaction, Δ*S*<sub>total</sub> is:
@@ -700,7 +699,7 @@ A  sketch of entropy against temperature for water to illustrate the entropy cha
 ## Q8 — medium — 2 marks · multiple-choice-questions
 
 ### 6((a)) — 1 marks
-**Correct answer: C** — *K*<sub>c</sub> = `begin mathsize 16px style fraction numerator open square brackets C O close square brackets open square brackets H subscript 2 close square brackets over denominator open square brackets H subscript 2 O close square brackets end fraction end style`
+**Correct answer: C** — *K*<sub>c</sub> = $\frac{[ C O ] [ H_{2} ]}{[ H_{2} O ]}$
 
 **Final answer:** **The correct answer is ****C**** because:**
 
@@ -709,11 +708,11 @@ A  sketch of entropy against temperature for water to illustrate the entropy cha
   - **aA + bB ⇌ cC + dD,**
 - The expression for the equilibrium constant is
 
-  - *K*<sub>c</sub>= `fraction numerator open square brackets straight C close square brackets to the power of straight c open square brackets straight D close square brackets to the power of straight d over denominator open square brackets straight A close square brackets to the power of straight a open square brackets straight B close square brackets to the power of straight b end fraction`
+  - *K*<sub>c</sub>= $\frac{[ \mathrm{C} ]^{c} [ \mathrm{D} ]^{d} }{[ \mathrm{A} ]^{a} [ \mathrm{B} ]^{b} }$
 - Solids are not shown in the equilibrium expression
 - This means that the equilibrium constant for the reaction in the question is:
 
-  - *K*<sub>c</sub> = `fraction numerator stretchy left square bracket CO stretchy right square bracket stretchy left square bracket straight H subscript 2 stretchy right square bracket over denominator stretchy left square bracket straight H subscript 2 straight O stretchy right square bracket end fraction`
+  - *K*<sub>c</sub> = $\frac{[ \text{CO} ] [ \mathrm{H}_{2} ]}{[ \mathrm{H}_{2} \mathrm{O} ]}$
 
 **A** is incorrect as  the concentration of steam has been omitted
 
@@ -730,7 +729,7 @@ A  sketch of entropy against temperature for water to illustrate the entropy cha
 - The concentration of products increases and the concentration of the reactants decreases, therefore *K*<sub>c</sub> of the forward reaction will increase
 - The expression for the reverse reaction is
 
-  - *K*<sub>c</sub> = `fraction numerator stretchy left square bracket straight H subscript 2 straight O stretchy right square bracket over denominator stretchy left square bracket CO stretchy right square bracket stretchy left square bracket straight H subscript 2 stretchy right square bracket end fraction`
+  - *K*<sub>c</sub> = $\frac{[ \mathrm{H}_{2} \mathrm{O} ]}{[ \text{CO} ] [ \mathrm{H}_{2} ]}$
 - Therefore *K*<sub>c</sub> of the reverse reaction will decrease
 
 **A** is incorrect as the reverse reaction is exothermic so* K*<sub>c</sub> decreases

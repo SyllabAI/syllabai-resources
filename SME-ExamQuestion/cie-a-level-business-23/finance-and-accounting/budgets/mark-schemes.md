@@ -214,15 +214,15 @@ A second benefit is that zero budgeting moves funds towards areas of genuine nee
 
 Budgeted variable cost per box
 
-`equals space fraction numerator $ 128 comma 000 over denominator 40 comma 000 end fraction space equals space $ 3.20` **[1]**
+$= \frac{\$ 128 , 000}{40 , 000} = \$ 3.20$ **[1]**
 
 Flexed budget for variable production costs
 
-`equals space 46 comma 000 cross times $ 3.20 space equals $ 147 comma 200` **[1]**
+$= 46 , 000 \times \$ 3.20 = \$ 147 , 200$ **[1]**
 
 Variance = Actual − Flexed budget
 
-`equals $ 151 comma 800 minus $ 147 comma 200 space equals $ 4 comma 600 space adverse space open parentheses straight A close parentheses` **[2]**
+$= \$ 151 , 800 - \$ 147 , 200 = \$ 4 , 600 \text{adverse} ( \mathrm{A} )$ **[2]**
 
 > **[mark-scheme]**
 > - Up to 3 marks for valid workings
@@ -434,19 +434,19 @@ $\text{Variance}=\text{Actual - Budget}$
 
 Revenue variance
 
-`equals space $ 120 comma 000 space minus space $ 105 comma 000 space
+$= \$ 120 , 000 - \$ 105 , 000 
 
-equals space $ 15 comma 000 space adverse space left parenthesis straight A right parenthesis`
+= \$ 15 , 000 \text{adverse} ( \mathrm{A} )$
 
 Labour cost variance
 
-`equals space $ 52 comma 000 space minus space $ 42 comma 000 space
+$= \$ 52 , 000 - \$ 42 , 000 
 
-equals space $ 10 comma 000 space space adverse space left parenthesis straight A right parenthesis`
+= \$ 10 , 000 \text{adverse} ( \mathrm{A} )$
 
 > **[mark-scheme]**
 > - Up to 2 marks for valid workings
-> - 2 marks for the correct answer of `$ 15 comma 000 space straight A space and space $ 10 comma 000 space straight A`
+> - 2 marks for the correct answer of `$ 15 , 000 A and $ 10 , 000 A`
 > 
 > A correct answer with no working shown still receives full marks.
 
@@ -483,25 +483,25 @@ A budget is a financial plan that sets targets for income and spending over a se
 
 Budgeted revenue per night
 
-`equals space 1 comma 800 space cross times space $ 40 space
+$= 1 , 800 \times \$ 40 
 
-equals space $ 72 comma 000`
+= \$ 72 , 000$
 
 Actual revenue per night
 
-`equals space 1 comma 600 space cross times space $ 40 space
+$= 1 , 600 \times \$ 40 
 
-equals space $ 64 comma 000`
+= \$ 64 , 000$
 
 Variance = Actual − Budgeted
 
-`equals space $ 64 comma 000 space minus space $ 72 comma 000 space
+$= \$ 64 , 000 - \$ 72 , 000 
 
-equals space minus $ 8 comma 000`
+= - \$ 8 , 000$
 
 > **[mark-scheme]**
 > - Up to 2 marks for valid workings
-> - 1 mark for the correct answer of `$ 8 comma 000 space straight A`
+> - 1 mark for the correct answer of $\$ 8 , 000 \mathrm{A}$
 > 
 > A correct answer with no working shown still receives full marks.
 

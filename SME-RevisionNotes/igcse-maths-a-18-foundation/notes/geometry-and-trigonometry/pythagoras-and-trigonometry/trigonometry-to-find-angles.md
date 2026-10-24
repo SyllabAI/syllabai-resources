@@ -37,13 +37,13 @@ guided_study: true
 
   - The **angle** will be **unknown**
   
-    - `tan open parentheses theta close parentheses equals 3 over 4`
+    - $\tan ( \\theta ) = \frac{3}{4}$
 - **STEP 4**
 **Substitute** the fraction into the **inverse trigonometric function**
 
   - You normally need to press **SHIFT** on your calculator first
   
-    - `tan open parentheses theta close parentheses equals 3 over 4` leads to `theta equals tan to the power of negative 1 end exponent open parentheses 3 over 4 close parentheses`
+    - $\tan ( \\theta ) = \frac{3}{4}$ leads to $\\theta = \tan ^{- 1} ( \frac{3}{4} )$
 - **STEP 5**
 **Type **the expression** into your calculator**
 
@@ -65,11 +65,11 @@ guided_study: true
 > 
 > > *We know A and H - that's CAH or *$\mathrm{cos}θ=\frac{\mathrm{adjacent}}{\mathrm{hypotenuse}}$
 > 
-> `cos open parentheses y close parentheses equals 8 over 23`
+> $\cos ( y ) = \frac{8}{23}$
 > 
 > > *Use inverse cos to find *$y$
 > 
-> `y equals cos to the power of negative 1 end exponent open parentheses 8 over 23 close parentheses`
+> $y = \cos ^{- 1} ( \frac{8}{23} )$
 > 
 > > *Enter on your calculator*
 > 

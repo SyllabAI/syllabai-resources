@@ -40,7 +40,7 @@ guided_study: false
   - A good with a **negative YED** value is considered to be an** inferior good**
 - YED is calculated using the formula
 
-`text YED =  end text fraction numerator percent sign space Change space in space quantity space demanded over denominator percent sign space Change space in space income end fraction space equals space fraction numerator percent sign triangle space in thin space QD over denominator percent sign triangle in space straight Y end fraction`
+$\text{YED = } \frac{\% \text{Change} \text{in} \text{quantity} demanded}{\% \text{Change} \text{in} income} = \frac{\% \Delta \text{in} QD}{\% \Delta \text{in} \mathrm{Y} }$
 
 > **Worked Example**
 > An individual’s income falls from £450 to £405 per week. As a result, their demand for takeaway meals falls from 50 to 30 per week.
@@ -51,25 +51,25 @@ guided_study: false
 > 
 > **Step 1: State the YED formula**
 > 
-> `YED space equals space fraction numerator percent sign space change space in space QD over denominator percent sign space change space in space straight Y end fraction`     **(1)**
+> $\text{YED} = \frac{\% \text{change} \text{in} QD}{\% \text{change} \text{in} \mathrm{Y} }$     **(1)**
 > 
 > **Step 1: Calculate the % change in QD**
 > 
-> `percent sign space change space in space QD space equals space fraction numerator 50 space minus space 30 over denominator 50 end fraction space cross times space 100
+> $\% \text{change} \text{in} \text{QD} = \frac{50 - 30}{50} \times 100
 > 
-> equals space minus 40 percent sign`      **(1)**
+> = - 40 \%$      **(1)**
 > 
 > **Step 2: Calculate the % change in Y**
 > 
-> `percent sign space change space in space straight Y space equals space fraction numerator £ 450 space minus space £ 405 over denominator £ 450 end fraction
+> $\% \text{change} \text{in} \mathrm{Y} = \frac{\pounds 450 - \pounds 405}{\pounds 450} 
 > 
-> equals space minus 10 percent sign`**    **  **(1)**
+> = - 10 \%$**    **  **(1)**
 > 
 > **Step 3: Insert the above values in the YED formula**
 > 
-> `YED space equals space fraction numerator negative 40 percent sign over denominator negative 10 percent sign end fraction
+> $\text{YED} = \frac{- 40 \%}{- 10 \%} 
 > 
-> equals space 4`**       (1)**
+> = 4$**       (1)**
 
 ### Influences on YED
 

@@ -15,7 +15,7 @@
 $x=0\mathrm{and}y=0$
 
 **[B1 B1]**
-> *Start a new graph on your calculator and enter *`straight f open parentheses x close parentheses equals 4 x squared minus x to the power of 4`*to generate*
+> *Start a new graph on your calculator and enter *$\mathrm{f} ( x ) = 4 x^{2} - x^{4}$*to generate*
 
 > *Select the option to 'analyze' the graph (this may be labelled G-Solv)*
 
@@ -27,7 +27,7 @@ $x=0\mathrm{and}y=0$
 
 *(0, 0)*
 
-> `open parentheses 0 comma space 0 close parentheses`* is also the minimum point (you can check on your calculator using the option to find the 'minimum')*
+> $( 0 , 0 )$* is also the minimum point (you can check on your calculator using the option to find the 'minimum')*
 
 > *Use the 'maximum' option to find the coordinates of the two maximum points (to 3 s.f. where necessary)*
 
@@ -47,9 +47,9 @@ $x=0\mathrm{and}y=0$
 > 
 > **B1: **For the correct non-zero $x$-intercepts of $\pm2$.
 > 
-> **B1:** For the correct maximum points, `open parentheses plus-or-minus 1.41 comma space 4 close parentheses`.
+> **B1:** For the correct maximum points, $( \pm 1.41 , 4 )$.
 > 
-> **B1:** For the correct minimum point at `open parentheses 0 comma space 0 close parentheses`.
+> **B1:** For the correct minimum point at $( 0 , 0 )$.
 > 
 > **B1: **For the sketch fully correct.
 > *The inequality is asking to find where the graph of *$y=4x^{2}-x^{4}$* is above the graph of *$y=\frac{1}{2x}$* *
@@ -62,7 +62,7 @@ $x=0\mathrm{and}y=0$
 
 **[M1]**
 
-> *Add a new graph to your sketch in part (a) of *`straight f subscript 2 open parentheses x close parentheses equals fraction numerator 1 over denominator 2 x end fraction`
+> *Add a new graph to your sketch in part (a) of *$\mathrm{f}_{2} ( x ) = \frac{1}{2 x}$
 
 > *Use the 'intersections' option on your calculator to find the *$x$*-coordinates of the two points of intersection*
 
@@ -85,7 +85,7 @@ $0.51<x<1.98$
 > **A1:** For the correct inequality, $0.51<x<1.98$.
 
 ### Q2
-> *Start a new graph on your calculator and enter *`straight f open parentheses x close parentheses equals 1 plus 2 to the power of x`
+> *Start a new graph on your calculator and enter *$\mathrm{f} ( x ) = 1 + 2^{x}$
 
 > *The *$y$*-intercept can be found using the *$y$*-intercept option (or by substituting  *$x=0$* into *$y=1+2^{x}$*)*
 
@@ -107,7 +107,7 @@ $0.51<x<1.98$
 > **B1: **For the sketch fully correct.
 > *The solutions the equation *$1+2^{x}=x+3$* are the *$x$*-coordinates of the points of intersection of the straight line *$y=x+3$* and the curve *$y=1+2^{x}$
 
-> *Add a new graph on your calculator of *`straight f subscript 2 open parentheses x close parentheses equals x plus 3`* to the existing graph from part (a)*
+> *Add a new graph on your calculator of *$\mathrm{f}_{2} ( x ) = x + 3$* to the existing graph from part (a)*
 
 > *Use the 'intersections' option on your calculator to find the coordinates of the two points of intersection*
 
@@ -151,13 +151,13 @@ $1+2^{x}=x+3$
 
 > *Rearrange this equation to make the *$x$* in *$2^{x}$* the subject*
 
-`table row cell 2 to the power of x end cell equals cell x plus 3 minus 1 end cell row cell 2 to the power of x end cell equals cell x plus 2 end cell end table`
+$\begin{gathered} 2^{x} & = x + 3 - 1 \\ 2^{x} & = x + 2 \end{gathered}$
 
 > *To make *$x$*the subject, use the relationship that *$a^{x}=y$* can be rewritten as *$\mathrm{log}_{a}y=x$
 
-`x equals log subscript 2 open parentheses x plus 2 close parentheses`
+$x = log_{2} ( x + 2 )$
 
-> *This is now in the form *`x equals log subscript p open parentheses x plus q close parentheses`
+> *This is now in the form *$x = log_{p} ( x + q )$
 
 $p=2\mathrm{and}q=2$
 
@@ -165,7 +165,7 @@ $p=2\mathrm{and}q=2$
 
 **Method 2**
 
-> *Start from the given equation *`x equals log subscript p open parentheses x plus q close parentheses`* and use that *$\mathrm{log}_{a}y=x$* can be rewritten as *$a^{x}=y$
+> *Start from the given equation *$x = log_{p} ( x + q )$* and use that *$\mathrm{log}_{a}y=x$* can be rewritten as *$a^{x}=y$
 
 $p^{x}=x+q$
 
@@ -225,7 +225,7 @@ $p=2\mathrm{and}q=2$
 > **B1**: Correct overall shape of $y=x^{3}-2x$. Must have a local maximum and local minimum shown (their coordinates are not needed).
 > 
 > **B1**: One $x$-axis intercept at a negative value, one at a positive value, and one at zero.
-> *Solving *`table row cell fraction numerator 1 over denominator x squared plus 1 end fraction end cell equals cell x cubed minus 2 x end cell end table`* is equivalent to finding the *$x$* values of the points of intersection of the graphs of *`table row y equals cell fraction numerator 1 over denominator x squared plus 1 end fraction end cell end table`*  and  *`table row y equals cell x cubed minus 2 x end cell end table`
+> *Solving *$\begin{gathered} \frac{1}{x^{2} + 1} & = x^{3} - 2 x \end{gathered}$* is equivalent to finding the *$x$* values of the points of intersection of the graphs of *$\begin{gathered} y = \frac{1}{x^{2} + 1} \end{gathered}$*  and  *$\begin{gathered} y = x^{3} - 2 x \end{gathered}$
 
 > *You have just sketched these on your calculator; note that there are 3 points of intersection*
 
@@ -289,16 +289,16 @@ $x>1.49$
 
 > *Start by adding *$5x$* to both sides*
 
-`table row cell x squared minus 7 x plus 5 end cell equals 0 row cell x squared minus 2 x plus 5 end cell equals cell 5 x end cell end table`
+$\begin{gathered} x^{2} - 7 x + 5 & = 0 \\ x^{2} - 2 x + 5 & = 5 x \end{gathered}$
 
 > *Now subtract 4 from both sides*
 
-`table row cell x squared minus 2 x plus 1 end cell equals cell 5 x minus 4 end cell end table`
+$\begin{gathered} x^{2} - 2 x + 1 & = 5 x - 4 \end{gathered}$
 
 $y=5x-4$* ***[1]**
 
 ### Q5
-> *Navigate to the graphing software on your calculator and enter *`straight f open parentheses x close parentheses equals x plus fraction numerator 5 over denominator open parentheses x minus 2 close parentheses open parentheses x plus 3 close parentheses end fraction`* carefully*
+> *Navigate to the graphing software on your calculator and enter *$\mathrm{f} ( x ) = x + \frac{5}{( x - 2 ) ( x + 3 )}$* carefully*
 
 > *Set the *$x$*-axis on your calculator to *$-5\leqx\leq5$* and the *$y$*-axis to  *$-9\leqx\leq8$
 
@@ -324,7 +324,7 @@ $x=2$ **[1]**
 
 > *Round each  coordinate to 3 significant figures*
 
-`open parentheses 1.03 comma negative 0.249 close parentheses`** ****[2]**
+$( 1.03 , - 0.249 )$** ****[2]**
 **1 mark for each correct coordinate**
 **Unrounded answers accepted**
 
@@ -334,11 +334,11 @@ $x=2$ **[1]**
 
 > *Round each  coordinate to 3 significant figures*
 
-`open parentheses 2.99 comma space 3.83 close parentheses`** ****[2]**
+$( 2.99 , 3.83 )$** ****[2]**
 **1 mark for each correct coordinate**
 **Unrounded answers accepted**
 
-(ii)*  *`straight f open parentheses x close parentheses equals k`* has exactly one solution at any point on the graph where a graph in the form *$y=k$* would intersect *`straight f open parentheses x close parentheses`* exactly once*
+(ii)*  *$\mathrm{f} ( x ) = k$* has exactly one solution at any point on the graph where a graph in the form *$y=k$* would intersect *$\mathrm{f} ( x )$* exactly once*
 
 > *This occurs only between the local minimum and the local maximum point*
 
@@ -349,7 +349,7 @@ $x=2$ **[1]**
 $-0.249<k<3.83$** ****[2]**
 **1 mark for each correct value**
 **Incorrect answers followed through from (i) and (ii) accepted**
-(i)  *On your calculator, add a second graph  *`straight f subscript 2 open parentheses x close parentheses equals negative 4 minus x`
+(i)  *On your calculator, add a second graph  *$\mathrm{f}_{2} ( x ) = - 4 - x$
 
 > *Copy the sketch onto the diagram, checking that it is a straight line with a gradient of -1 and a *$y$*-intercept of -4*
 
@@ -368,8 +368,8 @@ $-1.52$ **[1]**
 ** **$1.87$** ****[1]**
 **Unrounded answers accepted**
 
-(ii) *The answers to part (i) give you the solutions to *`straight f open parentheses x close parentheses equals straight g open parentheses x close parentheses`
-*The solutions of *`straight f open parentheses x close parentheses greater than straight g open parentheses x close parentheses`* are the ranges of values for the regions where the curve is above the straight line *
+(ii) *The answers to part (i) give you the solutions to *$\mathrm{f} ( x ) = \mathrm{g} ( x )$
+*The solutions of *$\mathrm{f} ( x ) > \mathrm{g} ( x )$* are the ranges of values for the regions where the curve is above the straight line *
 
 ![Diagram from part (i) with added asymptotes at x=-3 and x=2. The areas where the straight line is below the curve are highlighted, this is between the first point of intersection and the asymptote at x=-3, the second and the third points of intersection and after the asymptote at x=2 ](assets/018-diagram-from-part-i-with-added-asymptotes-at-x-3.png)
 
@@ -387,7 +387,7 @@ $-1.52<x<1.87$ **[1]**
 **Answers following on from (i) and (b) accepted**
 
 ### Q6
-> *Start a new graph on your calculator and enter *`straight f subscript 1 open parentheses x close parentheses equals x cubed minus 2 x`* and *`straight f subscript 2 open parentheses x close parentheses equals 1`* to generate the two graphs*
+> *Start a new graph on your calculator and enter *$\mathrm{f}_{1} ( x ) = x^{3} - 2 x$* and *$\mathrm{f}_{2} ( x ) = 1$* to generate the two graphs*
 
 > *It is likely you could sketch these graphs without your calculator but it is worth putting them in at this point as you will need both for the next questions*
 
@@ -400,11 +400,11 @@ $-1.52<x<1.87$ **[1]**
 **Positive cubic shape graph [1]**
 **Correct position [1]**
 **Correct straight line graph [1]**
-> *Rearrange *$x^{3}-2x-1=0$* to make *`straight f open parentheses x close parentheses`* the subject by subtracting 1 from each side*
+> *Rearrange *$x^{3}-2x-1=0$* to make *$\mathrm{f} ( x )$* the subject by subtracting 1 from each side*
 
 $x^{3}-2x=1$
 
-> *This is *`space straight f open parentheses x close parentheses equals straight g open parentheses x close parentheses`* which can be solved by finding the *$x$*-coordinates of the points of intersection of the two graphs*
+> *This is *$\mathrm{f} ( x ) = \mathrm{g} ( x )$* which can be solved by finding the *$x$*-coordinates of the points of intersection of the two graphs*
 
 > *Choose the option to analyse the graph and select "intersection"*
 
@@ -491,7 +491,7 @@ $68$** metres ****[1]**
 - **Equipment limitations such as battery drainage or hardware breakdown over time** **Other correct answers possible [1]**
 
 ### Q9
-> *Sketch the graph *`straight f subscript 1 open parentheses x close parentheses equals open parentheses cos italic space x close parentheses squared`* on your calculator and then copy it carefully onto the diagram on your exam paper*
+> *Sketch the graph *$\mathrm{f}_{1} ( x ) = ( \cos x )^{2}$* on your calculator and then copy it carefully onto the diagram on your exam paper*
 
 > *You should make sure the axis is in degrees by checking the menu/mode of your calculator*
 *You may then be able to set the range of the *$x$*-axis to *$0\leqx\leq360$
@@ -500,7 +500,7 @@ $68$** metres ****[1]**
 
 **Correct shape of graph [1]**
 **Graph in correct position [1]**
-> *Sketch the graph *`straight f subscript 2 open parentheses x close parentheses equals 0.5 minus 0.001 x`* on your calculator and then copy it carefully onto the same diagram on your exam paper*
+> *Sketch the graph *$\mathrm{f}_{2} ( x ) = 0.5 - 0.001 x$* on your calculator and then copy it carefully onto the same diagram on your exam paper*
 
 > *From the equation you should see that your graph should be a straight line with a *$y$*-intercept of 0.5 and a negative gradient*
 
@@ -521,8 +521,8 @@ $127.6^{\circ}$ **[1]**
 ** **$239.3^{\circ}$** ****[1]**
 $296.8^{\circ}$** ****[1]**
 **Unrounded answers accepted**
-> *The answers to part (c) give you the solutions to *`straight f open parentheses x close parentheses equals g open parentheses x close parentheses`
-*The solutions of *`straight f open parentheses x close parentheses less than straight g open parentheses x close parentheses`* are the ranges of values for the regions where the  straight line is above the curve *
+> *The answers to part (c) give you the solutions to *$\mathrm{f} ( x ) = g ( x )$
+*The solutions of *$\mathrm{f} ( x ) < \mathrm{g} ( x )$* are the ranges of values for the regions where the  straight line is above the curve *
 
 ![Diagram from part (b) with the areas where the straight line is below the curve highlighted, this is between the y axis and the first point of intersection, the second and the third point of intersection and after the fourth point of intersection](assets/028-diagram-from-part-b-with-the-areas-where-the-str.png)
 
@@ -536,7 +536,7 @@ $127.6<x<239.3$ **[1]**
 **Answers following on from (c) accepted**
 
 ### Q10
-> *Start a new graph on your calculator and enter *`straight f open parentheses x close parentheses equals fraction numerator x squared plus 3 x over denominator open parentheses x minus 2 close parentheses open parentheses x plus 1 close parentheses end fraction`* to generate the graph*
+> *Start a new graph on your calculator and enter *$\mathrm{f} ( x ) = \frac{x^{2} + 3 x}{( x - 2 ) ( x + 1 )}$* to generate the graph*
 *Copy the graph carefully onto the diagram*
 
 ![Diagram from question with 3 branches added in dark green. One starting above the x axis at -6, cutting through the x axis at -3 and extending downwards, not reaching the y axis. One starting just left if the y axis at 9, extending downwards and cutting through the origin and then ending just to the right of the y axis at -9. One starting just to the right of the y axis at 9 and extending downwards but not reaching the x axis. The branches do not overlap.](assets/030-diagram-from-question-with-3-branches-added-in-d.png)
@@ -555,7 +555,7 @@ $x=2$ **[1]**
 
 $0$** ****[1]**
 $-3$ **[1]**
-(i) *On your calculator, add a second graph  *`straight f subscript 2 open parentheses x close parentheses equals x minus 3`
+(i) *On your calculator, add a second graph  *$\mathrm{f}_{2} ( x ) = x - 3$
 
 > *Copy the sketch onto the diagram, checking that it is a straight line with a gradient of 1 and a *$y$*-intercept of -3*
 
@@ -572,8 +572,8 @@ $1$ **[1]**
 ** **$5.16$** ****[1]**
 **Unrounded answers accepted**
 
-(iii) *The answers to part (ii) give you the solutions to *`straight g open parentheses x close parentheses equals straight f open parentheses x close parentheses`
-*The solutions of *`straight g open parentheses x close parentheses greater than straight f open parentheses x close parentheses`* are the ranges of *$x$* values for the regions where the  straight line is above the curve *
+(iii) *The answers to part (ii) give you the solutions to *$\mathrm{g} ( x ) = \mathrm{f} ( x )$
+*The solutions of *$\mathrm{g} ( x ) > \mathrm{f} ( x )$* are the ranges of *$x$* values for the regions where the  straight line is above the curve *
 
 ![Diagram from part (i) with added asymptotes at x=-1 and x=2. The areas where the straight line is above the curve are highlighted, this is between the first point of intersection and the asymptote and x=-1, the second point of intersection and the asymptote at x=2 and after the third point of intersection](assets/032-diagram-from-part-i-with-added-asymptotes-at-x-1.png)
 
@@ -597,7 +597,7 @@ $1<x<2$ **[1]**
 
 > *Start a new graph on your graphic display calculator and choose the option to sketch more than one graph on the same axes*
 
-> *Sketch *`straight f subscript 1 open parentheses x close parentheses equals 2 to the power of 3 x plus 1 end exponent`* and *`straight f subscript 2 open parentheses x close parentheses equals 8 to the power of 2 minus x end exponent`* on the same axes on your graphic display calculator*
+> *Sketch *$\mathrm{f}_{1} ( x ) = 2^{3 x + 1}$* and *$\mathrm{f}_{2} ( x ) = 8^{2 - x}$* on the same axes on your graphic display calculator*
 
 > *Sketch both graphs onto the exam paper on a single set of coordinate axes*
 
@@ -615,27 +615,27 @@ $x=\frac{5}{6}$** ****[1]**
 
 > *Rewrite the RHS of the equation so that it has a base of *$2$* using *$8=2^{3}$* *
 
-`2 to the power of 3 x plus 1 end exponent equals open parentheses 2 cubed close parentheses to the power of 2 minus x end exponent`
+$2^{3 x + 1} = ( 2^{3} )^{2 - x}$
 
-> *Apply the rule *`open parentheses a to the power of m close parentheses to the power of n equals a to the power of m n end exponent`
+> *Apply the rule *$( a^{m )^{n} = a^{m} n}$
 
-`2 to the power of 3 x plus 1 end exponent equals 2 to the power of 3 open parentheses 2 minus x close parentheses end exponent`
+$2^{3 x + 1} = 2^{3 ( 2 - x )}$
 
 **[1]**
 
 > *As both sides are equal, and the bases are the same, the powers must be equal*
 
-`table row cell 3 x plus 1 end cell equals cell 3 open parentheses 2 minus x close parentheses end cell end table`
+$\begin{gathered} 3 x + 1 & = 3 ( 2 - x ) \end{gathered}$
 
 **[1]**
 
 > *Solve the equation by first expanding the brackets*
 
-`table row cell 3 x plus 1 end cell equals cell 6 minus 3 x end cell end table`
+$\begin{gathered} 3 x + 1 & = 6 - 3 x \end{gathered}$
 
 > *Bring the *$x$* terms to the same side and the constant terms to the other*
 
-`table row cell 6 x end cell equals 5 end table`
+$\begin{gathered} 6 x & = 5 \end{gathered}$
 
 > *Divide both sides by *$6$* *
 
@@ -643,7 +643,7 @@ $x=\frac{5}{6}$** ****[1]**
 **0.833 accepted**
 
 ### Q12
-> *Start a new graph on your graphic display calculator and enter *`straight f open parentheses x close parentheses equals open parentheses x minus 2 close parentheses squared minus 5 x plus 12`* to generate the graph*
+> *Start a new graph on your graphic display calculator and enter *$\mathrm{f} ( x ) = ( x - 2 )^{2} - 5 x + 12$* to generate the graph*
 *Changing the values of the **x-**axis to a value less than -1 and greater than 4, and the values of the **y-**axis to be from -10 to 10 will help  *
 
 > *Select the option to analyse the graph (this may be labelled as G-Solv) and check the **x-** and **y**-intercepts*
@@ -688,7 +688,7 @@ $x=-0.599$** ****[1]**
 **Unrounded answer accepted**
 
 ### Q13
-> *Start a new graph on your graphic display calculator and enter *`straight f open parentheses x close parentheses equals fraction numerator 1 over denominator sin x end fraction`* to generate the graph*
+> *Start a new graph on your graphic display calculator and enter *$\mathrm{f} ( x ) = \frac{1}{\sin x}$* to generate the graph*
 
 > *Copy the graph carefully onto the axes given on the paper*
 
@@ -709,12 +709,12 @@ The asymptotes are the vertical lines that each branch of the curve gets close t
 
 $x=180$** ****[1]**
 $x=0$** ****and **$x=360$**[1]**
-> *The graph of *`straight f open parentheses x close parentheses equals k`* will be a horizontal line through the *$y$*axis at the point *$k$
+> *The graph of *$\mathrm{f} ( x ) = k$* will be a horizontal line through the *$y$*axis at the point *$k$
 
 > *This has no solutions between the minimum point at *$x=90$*, where *$y=1$*, and the maximum point at *$x=270$*, where *$y=-1$
 
 $-1<k<1$** [2]**
-> *On the same axis on your calculator, sketch the graph of *`straight f subscript 2 open parentheses x close parentheses equals 5 sin open parentheses x over 2 close parentheses`
+> *On the same axis on your calculator, sketch the graph of *$\mathrm{f}_{2} ( x ) = 5 \sin ( \frac{x}{2} )$
 
 > *Copy this graph onto your answer for part (a), it should be a smooth curve through the points (0,0), (180,5) and (360,0)*
 
@@ -733,7 +733,7 @@ $x=168$** ****[1]**
 ### Q14
 > *Start a new graph on your graphic display calculator and choose the option to sketch more than one graph on the same axes*
 
-> *Sketch *`straight f subscript 1 open parentheses x close parentheses equals 2 to the power of x plus x`* and *`straight f subscript 2 open parentheses x close parentheses equals 5`* on the same axes on your graphic display calculator*
+> *Sketch *$\mathrm{f}_{1} ( x ) = 2^{x} + x$* and *$\mathrm{f}_{2} ( x ) = 5$* on the same axes on your graphic display calculator*
 
 > *Sketch both graphs onto the exam paper on a single set of coordinate axes*
 
@@ -752,7 +752,7 @@ $x>1.72$** ****[1]**
 **Answers not rounded to 3 s.f. between 1.715 and 1.716 accepted**
 
 ### Q15
-> *Start a new graph on your calculator and enter *`straight f open parentheses x close parentheses equals 5 minus 1.25 x`*to generate the graph*
+> *Start a new graph on your calculator and enter *$\mathrm{f} ( x ) = 5 - 1.25 x$*to generate the graph*
 
 > *Select the option to analyse the graph (this may be labelled as G-Solv) and check the **x-** and **y**-intercepts*
 
@@ -762,7 +762,7 @@ $x>1.72$** ****[1]**
 
 **Straight line through (0,5) [1]**
 **Straight line with negative gradient [1]**
-> *Start a new graph on your calculator and enter *`straight f open parentheses x close parentheses equals 1.5 x minus 1`* to generate the graph*
+> *Start a new graph on your calculator and enter *$\mathrm{f} ( x ) = 1.5 x - 1$* to generate the graph*
 
 > *Select the option to analyse the graph (this may be labelled as G-Solv) and check the *$x$*-** and *$y$*-intercepts*
 
@@ -772,7 +772,7 @@ $x>1.72$** ****[1]**
 
 **Straight line through (0,-1) [1]**
 **Straight line with positive gradient [1]**
-> * Sketch *`straight f subscript 1 open parentheses x close parentheses equals 5 minus 1.25 x`* and *`straight f subscript 2 open parentheses x close parentheses equals 1.5 x minus 1`* on the same axes on your graphic display calculator *
+> * Sketch *$\mathrm{f}_{1} ( x ) = 5 - 1.25 x$* and *$\mathrm{f}_{2} ( x ) = 1.5 x - 1$* on the same axes on your graphic display calculator *
 
 > *Choose the option to analyse the graph and select "intersection"*
 

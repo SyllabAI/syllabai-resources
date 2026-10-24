@@ -39,7 +39,7 @@ guided_study: true
 
 - The equilibrium constant expression for this reaction is:
 
-***K***<sub>**c**</sub>** = **`fraction numerator stretchy left square bracket H to the power of plus stretchy right square bracket bold space stretchy left square bracket OH to the power of minus stretchy right square bracket over denominator stretchy left square bracket H subscript 2 O stretchy right square bracket end fraction`
+***K***<sub>**c**</sub>** = **$\frac{[ H^{+} ] [ OH^{-} ]}{[ H_{2} O ]}$
 
 - The equilibrium constant expression can be rearranged to:
 

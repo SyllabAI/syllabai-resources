@@ -10,7 +10,7 @@ Rewrite the formula with 21 in place of $m$
 
 - Remember that $6m$ means $6\timesm$
 
-`P equals 21 over 3 open parentheses 6 cross times 21 minus 5 close parentheses`
+$P = \frac{21}{3} ( 6 \times 21 - 5 )$
 
 **[M1]**
 
@@ -41,7 +41,7 @@ Substitute the values of $x$ and $y$ into the expression
 
 - Make sure you put brackets around the negative number
 
-`open parentheses negative 3 close parentheses squared plus 2 cross times open parentheses 4 close parentheses`
+$( - 3 )^{2} + 2 \times ( 4 )$
 
 Follow the order of operations
 
@@ -86,13 +86,13 @@ $2a+4b$
 ### Q4
 > *i) Substitute in the values*
 
-`c space equals space 5 space cross times open parentheses space 8 close parentheses space minus space 2 space cross times space open parentheses negative 3 close parentheses`
+$c = 5 \times ( 8 ) - 2 \times ( - 3 )$
 
 **[1]**
 
 > *Using the correct order of operations, do the multiplication first*
 
-`c space equals space 40 space minus open parentheses negative thin space 6 close parentheses`
+$c = 40 - ( - 6 )$
 
 > *Subtracting a negative is the same as adding the positive version*
 
@@ -130,7 +130,7 @@ $60x+29y$* ***[2]**
 ### Q6
 > *Collect the **x** terms together and collect the **y** terms together.*
 
-`table row cell 9 x minus 5 x end cell equals cell 4 x end cell row cell negative 2 y minus y end cell equals cell negative 3 y end cell end table`
+$\begin{gathered} 9 x - 5 x & = 4 x \\ - 2 y - y & = - 3 y \end{gathered}$
 
 $4x-3y$  
 **4x correct**** [1] **
@@ -162,7 +162,7 @@ $a=-2$* ***[1]**
 
 > * *
 
-`38.64 equals fraction numerator open parentheses 5.5 plus 3.7 close parentheses cross times h over denominator 2 end fraction`
+$38.64 = \frac{( 5.5 + 3.7 ) \times h}{2}$
 
 **[1]**
 
@@ -170,7 +170,7 @@ $a=-2$* ***[1]**
 
 > * *
 
-`table row cell 38.64 cross times 2 end cell equals cell 9.2 cross times h end cell row blank blank blank row cell 77.28 end cell equals cell 9.2 cross times h end cell end table`
+$\begin{gathered} 38.64 \times 2 & = 9.2 \times h \\ \\ 77.28 & = 9.2 \times h \end{gathered}$
 
 **[1]**
 
@@ -178,7 +178,7 @@ $a=-2$* ***[1]**
 
 > * *
 
-`table row cell 77.28 divided by 9.2 end cell equals h row blank blank blank row cell 8.4 end cell equals h end table`
+$\begin{gathered} 77.28 \div 9.2 & = h \\ \\ 8.4 & = h \end{gathered}$
 
 $h=8.4$* ***[1]**
 
@@ -238,11 +238,11 @@ $T=3\times4^{2}\times5$
 ### Q13
 > *Substitute these values into the expression and evaluate*
 
-`open parentheses 4 cross times 3 squared close parentheses plus open parentheses 3 cross times negative 2 close parentheses`
+$( 4 \times 3^{2} ) + ( 3 \times - 2 )$
 
 **[1]**
 
-`equals open parentheses 4 cross times 9 close parentheses minus 6 equals 30`
+$= ( 4 \times 9 ) - 6 = 30$
 
 **30**** ****[1]**
 
@@ -332,7 +332,7 @@ $8a-7b$* ***[2]**
 ### Q21
 > *Substitute *$a=6$* and *$c=2$* into *$W=3a+5c$*. *
 
-`W equals open parentheses 3 cross times 6 close parentheses plus open parentheses 5 cross times 2 close parentheses`
+$W = ( 3 \times 6 ) + ( 5 \times 2 )$
 
 **[1]**
 

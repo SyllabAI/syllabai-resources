@@ -19,7 +19,7 @@ Calculate the charge of the `He presubscript 2 presuperscript 4` nucleus:
 Substitute the values into the electric potential equation:
 
 - $V=\frac{Q}{4πε_{0}r}$
-- `V space equals space fraction numerator open parentheses 8.99 cross times 10 to the power of 9 close parentheses cross times 2 cross times open parentheses 1.6 cross times 10 to the power of negative 19 end exponent close parentheses over denominator 26.6 cross times 10 to the power of negative 12 end exponent end fraction` **[1 mark]**
+- $V = \frac{( 8.99 \times 10^{9 ) \times 2 \times ( 1.6 \times 10^{-19} } )}{26.6 \times 10^{- 12} }$ **[1 mark]**
 - *V* = 108 V **[1 mark]**
 
 **[Total: 3 marks]**
@@ -70,7 +70,7 @@ Determine an equation for the force, *F*:
 
 Substitute in the values to calculate the force:
 
-- `F space equals space fraction numerator open parentheses 1.60 cross times 10 to the power of negative 19 end exponent close parentheses open parentheses 10 space 500 close parentheses over denominator 6.40 cross times 10 to the power of negative 3 end exponent end fraction` **[1 mark]**
+- $F = \frac{( 1.60 \times 10^{- 19} ) ( 10 500 )}{6.40 \times 10^{- 3} }$ **[1 mark]**
 - *F* = 2.625 × 10<sup>−13</sup> N (3 or 4 s.f.) **[1 mark]**
 
 ii) Deduce whether the collision could lead to further ionisation:
@@ -148,7 +148,7 @@ Use Coulomb's Law:
 
 Calculate the charge:
 
-- `Q squared space equals fraction numerator F space r squared over denominator k end fraction space equals space fraction numerator open parentheses 1.16 cross times 10 to the power of negative 3 end exponent close parentheses space cross times 0.47 squared over denominator open parentheses 8.99 cross times 10 to the power of 9 close parentheses end fraction equals 2.85 cross times 10 to the power of negative 14 end exponent` **[1 mark]**
+- $Q^{2} = \frac{F r^{2}}{k} = \frac{( 1.16 \times 10^{- 3} ) \times 0.47^{2}}{( 8.99 \times 10^{9 )} = 2.85 \times 10^{-14} }$ **[1 mark]**
 - $Q=1.69\times10^{-7}C$ **[1 mark]**
 
 **[Total: 6 marks]**
@@ -160,7 +160,7 @@ Calculate the charge:
 Calculate electrical potential when *r* = 0.30 m:
 
 - Electric potential:  $V=\frac{Q}{4πε_{0}r}$
-- `V space equals space fraction numerator 1.69 cross times 10 to the power of negative 7 end exponent over denominator 4 straight pi space cross times space open parentheses 8.85 space cross times space 10 to the power of negative 12 end exponent close parentheses space cross times space 0.3 end fraction space equals space 5065 space straight V` **[1 mark]**
+- $V = \frac{1.69 \times 10^{- 7} }{4 \mathrm{\pi } \times ( 8.85 \times 10^{- 12} ) \times 0.3} = 5065 \mathrm{V}$ **[1 mark]**
 - $V=5100V$ (2 s.f)** [1 mark]**
 
 **[Total: 2 marks]**
@@ -216,7 +216,7 @@ $V=\frac{Q}{4πε_{0}r}$
 
 $Q=4πε_{0}rV$
 
-`Q space equals space 4 straight pi cross times open parentheses 8.85 cross times 10 to the power of negative 12 end exponent close parentheses cross times 0.125 cross times open parentheses 350 cross times 10 cubed close parentheses` **[1 mark]**
+$Q = 4 \mathrm{\pi } \times ( 8.85 \times 10^{- 12} ) \times 0.125 \times ( 350 \times 10^{3} )$ **[1 mark]**
 
 $Q=$ $4.87\times10^{-6}\text{C}$ **[1 mark]**
 
@@ -294,13 +294,13 @@ Calculate the field strength due to each point charge:
 
 **One mark** for either field calculated
 
-- Field due to **X**: `E subscript X space equals space fraction numerator 2.5 space cross times space 10 to the power of negative 7 end exponent over denominator 4 pi space cross times space open parentheses 8.85 cross times 10 to the power of negative 12 end exponent close parentheses space cross times space left parenthesis 0.04 right parenthesis squared end fraction equals 1.4 space cross times space 10 to the power of 6 space end exponent Vm to the power of negative 1 end exponent` (towards Y) **[1 mark]**
-- Field due to **Y**: `E subscript Y space equals space fraction numerator 2.5 space cross times space 10 to the power of negative 7 end exponent over denominator 4 pi space cross times space open parentheses 8.85 cross times 10 to the power of negative 12 end exponent close parentheses space cross times space left parenthesis 0.04 right parenthesis squared end fraction equals space 1.4 space cross times space 10 to the power of 6 space end exponent Vm to the power of negative 1 end exponent` (towards Y) **[1 mark]**
+- Field due to **X**: $E_{X} = \frac{2.5 \times 10^{- 7} }{4 \pi \times ( 8.85 \times 10^{- 12} ) \times ( 0.04 )^{2}} = 1.4 \times 10^{6 } Vm^{- 1}$ (towards Y) **[1 mark]**
+- Field due to **Y**: $E_{Y} = \frac{2.5 \times 10^{- 7} }{4 \pi \times ( 8.85 \times 10^{- 12} ) \times ( 0.04 )^{2}} = 1.4 \times 10^{6 } Vm^{- 1}$ (towards Y) **[1 mark]**
 
 Add the field strengths to find the value at the midpoint:
 
 - Field at midpoint, $E=E_{X}+E_{Y}$ **[1 mark]**
-- `E space equals space space 2 cross times open parentheses 1.4 cross times 10 to the power of 6 close parentheses space equals space 2.8 cross times 10 to the power of 6 space Vm to the power of negative 1 end exponent` **[1 mark]**
+- $E = 2 \times ( 1.4 \times 10^{6 ) = 2.8 \times 10^{6} Vm^{-1} }$ **[1 mark]**
 
 **[Total: 3 marks]**
 
@@ -346,14 +346,14 @@ List the key information:
 
 Calculate the potential at **C** due to **X **and **Y**:
 
-- `V subscript C X end subscript equals space fraction numerator 5.0 space cross times space 10 to the power of negative 7 end exponent over denominator 4 pi space cross times space open parentheses 8.85 cross times 10 to the power of negative 12 end exponent close parentheses space cross times space 0.025 end fraction space equals space 1.8 space cross times space 10 to the power of 5 space straight V`
-- `V subscript C Y end subscript equals space fraction numerator negative 5.0 space cross times space 10 to the power of negative 7 end exponent over denominator 4 pi space cross times space open parentheses 8.85 cross times 10 to the power of negative 12 end exponent close parentheses space cross times space 0.055 end fraction space equals space minus 0.8 space cross times space 10 to the power of 5 space straight V`
+- $V_{C X} = \frac{5.0 \times 10^{- 7} }{4 \pi \times ( 8.85 \times 10^{- 12} ) \times 0.025} = 1.8 \times 10^{5} \mathrm{V}$
+- $V_{C Y} = \frac{- 5.0 \times 10^{- 7} }{4 \pi \times ( 8.85 \times 10^{- 12} ) \times 0.055} = - 0.8 \times 10^{5} \mathrm{V}$
 - Maximum of **one mark** for either calculation
 
 Calculate the potential at **D** due to **X **and **Y**:
 
-- `V subscript D X end subscript equals space fraction numerator 5.0 space cross times space 10 to the power of negative 7 end exponent over denominator 4 pi space cross times space open parentheses 8.85 cross times 10 to the power of negative 12 end exponent close parentheses space cross times space 0.055 end fraction space equals space 0.8 space cross times space 10 to the power of 5 space straight V`
-- `V subscript D Y end subscript equals space fraction numerator negative 5.0 space cross times space 10 to the power of negative 7 end exponent over denominator 4 pi space cross times space open parentheses 8.85 cross times 10 to the power of negative 12 end exponent close parentheses space cross times space 0.025 end fraction space equals space minus 1.8 space cross times space 10 to the power of 5 space straight V`
+- $V_{D X} = \frac{5.0 \times 10^{- 7} }{4 \pi \times ( 8.85 \times 10^{- 12} ) \times 0.055} = 0.8 \times 10^{5} \mathrm{V}$
+- $V_{D Y} = \frac{- 5.0 \times 10^{- 7} }{4 \pi \times ( 8.85 \times 10^{- 12} ) \times 0.025} = - 1.8 \times 10^{5} \mathrm{V}$
 - Maximum of **one mark** for either calculation
 
 Calculate total potentials at **C **and **D**:
@@ -364,7 +364,7 @@ Calculate total potentials at **C **and **D**:
 
 Calculate p.d. at the midpoint:
 
-- `V subscript C D end subscript space equals space V subscript D space minus space V subscript C space equals space open parentheses negative 1.0 minus 1.0 close parentheses cross times 10 to the power of 5` **[1 mark]**
+- $V_{C D} = V_{D} - V_{C} = ( - 1.0 - 1.0 ) \times 10^{5}$ **[1 mark]**
 - $V_{CD}=-2.0\times10^{5}V$ **[1 mark]**
 
 **[Total: 5 marks]**

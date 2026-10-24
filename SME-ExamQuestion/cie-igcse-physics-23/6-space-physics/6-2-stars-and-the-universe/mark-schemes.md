@@ -215,10 +215,10 @@ Questions which ask for the incorrect option trip up a lot of students. Highligh
 - Converting the distance into metres is:
 
   - 2.5 million light years = 2.5 × 10<sup>6</sup> light-years
-  - `open parentheses 2.5 space cross times space 10 to the power of 6 close parentheses space cross times space open parentheses 9.5 space cross times space 10 to the power of 15 close parentheses space equals space 2.375 space cross times space 10 to the power of 22 space straight m`
+  - $( 2.5 \times 10^{6} ) \times ( 9.5 \times 10^{15} ) = 2.375 \times 10^{22} \mathrm{m}$
 - Substitute the values into the recession velocity equation:
 
-  - `v space equals space open parentheses 2.2 space cross times space 10 to the power of negative 18 end exponent close parentheses space cross times space open parentheses 2.375 space cross times space 10 to the power of 22 close parentheses space equals space 52.25 space cross times space 10 cubed space straight m divided by straight s space equals space 52 space km divided by straight s`
+  - $v = ( 2.2 \times 10^{- 18} ) \times ( 2.375 \times 10^{22} ) = 52.25 \times 10^{3} \mathrm{m} \div \mathrm{s} = 52 \text{km} \div \mathrm{s}$
 
 You will be expected to convert different units and know how to use the Hubble constant where required!
 

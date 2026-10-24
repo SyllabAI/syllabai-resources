@@ -23,7 +23,7 @@ guided_study: true
 
   - The** area of the bar **is equal to the** frequency**
   
-    - `table row frequency equals cell frequency space density cross times class space width end cell end table`
+    - $\begin{array}{cc} \text{frequency} = & \text{frequency} \text{density} \times \text{class} \text{width} \end{array}$
 - Note that a very **simple** histogram may have **equal class widths**
 
   - In this case the *y-*axis may be labelled 'frequency' instead of 'frequency density'

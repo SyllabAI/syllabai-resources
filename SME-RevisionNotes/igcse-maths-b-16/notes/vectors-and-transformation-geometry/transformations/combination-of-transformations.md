@@ -43,9 +43,8 @@ guided_study: true
 - **Translation**
 
   - A translation is a movement which does not change the orientation or size of the shape, it simply moves location
-  - A translation is described by a vector in the form `open parentheses x
-  y close parentheses
-  `
+  - A translation is described by a vector in the form $( x
+ y )$
   
     - This represents a movement of *x* units to the right and *y *units vertically upwards
 
@@ -56,7 +55,7 @@ guided_study: true
 - A combination of** two reflections** can be the same as a **single rotation**
 
   - One reflection using the line $x=a$ and the other using the line $y=b$
-  - This is the same as a **180° rotation** about the centre `open parentheses a comma space b close parentheses`
+  - This is the same as a **180° rotation** about the centre $( a , b )$
 - The **order of the combination** can be important to the** overall effect**
 
   - A reflection in the line ***y***** = *****x***** followed by** a reflection in the ***x*****-axis** is the same as a 90° rotation **clockwise** about the origin
@@ -68,10 +67,10 @@ guided_study: true
 
 | **Transformation from A to B** | **Transformation from B to A** |
 |---|---|
-| Translation by vector `open parentheses table row x row y end table close parentheses` | Translation by vector `open parentheses table row cell negative x end cell row cell negative y end cell end table close parentheses` |
+| Translation by vector $( \begin{gathered} x \\ y \end{gathered} )$ | Translation by vector $( \begin{gathered} - x \\ - y \end{gathered} )$ |
 | Reflection in a given line | Reflection in the same line |
-| Rotation by θ° in a direction about the centre `open parentheses x comma space y close parentheses` | Rotation by θ° in the opposite direction about the centre `open parentheses x comma space y close parentheses` |
-| Enlargement of scale factor $k$ about the centre `open parentheses x comma space y close parentheses` | Enlargement of scale factor $\frac{1}{k}$ about the centre `open parentheses x comma space y close parentheses` |
+| Rotation by θ° in a direction about the centre $( x , y )$ | Rotation by θ° in the opposite direction about the centre $( x , y )$ |
+| Enlargement of scale factor $k$ about the centre $( x , y )$ | Enlargement of scale factor $\frac{1}{k}$ about the centre $( x , y )$ |
 
 > **Worked Example**
 > (a) On the grid below rotate shape F by 180<sup>o</sup> using the origin as the centre of rotation.

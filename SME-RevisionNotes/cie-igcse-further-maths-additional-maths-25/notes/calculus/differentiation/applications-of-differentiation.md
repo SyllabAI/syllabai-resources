@@ -67,13 +67,13 @@ guided_study: false
 > 
 > > *"Rate of change" is another way of describing the derivative*
 > 
-> `table row cell fraction numerator straight d y over denominator straight d x end fraction end cell equals 4 row cell 4 x squared plus 3 end cell equals 4 end table`
+> $\begin{gathered} \frac{ \mathrm{d} y}{ \mathrm{d} x} & = 4 \\ 4 x^{2} + 3 & = 4 \end{gathered}$
 > 
 > *Solve this equation to find *$x$
 >  *Note that it is quadratic equation so it could have up to two solutions* 
 > *The question refers to 'values' implying there is (or could be) more than one value for *$x$
 > 
-> `table row cell 4 x squared end cell equals 1 row cell x squared end cell equals cell 1 fourth end cell row x equals cell plus-or-minus square root of 1 fourth end root end cell row x equals cell plus-or-minus 1 half end cell end table`
+> $\begin{gathered} 4 x^{2} & = 1 \\ x^{2} & = 1 \frac{1}{4} \\ x = \pm \sqrt{1 \frac{1}{4}} \\ x = \pm 1 \frac{1}{2} \end{gathered}$
 > 
 > **Final answer:** **The possible values of **$x$**, that give a rate of change of 4, are **$x=\frac{1}{2}$** and **$x=-\frac{1}{2}$
 
@@ -132,19 +132,19 @@ $f'(x)<0$ (for decreasing intervals)
 > **Worked Example**
 > For what values of $x$ is $y=2x^{3}-3x^{2}+5$ a decreasing function?
 > 
-> > *The function is decreasing when its gradient *`open parentheses fraction numerator d y over denominator d x end fraction close parentheses`* is less than 0.*
+> > *The function is decreasing when its gradient *$( \frac{d y}{d x} )$* is less than 0.*
 > 
 > > *Find the derivative of the function by differentiating.*
 > 
-> > `table row cell fraction numerator d y over denominator d x end fraction end cell equals cell space 6 x squared space minus space 6 x end cell end table`* *
+> > $\begin{gathered} \frac{d y}{d x} & = 6 x^{2} - 6 x \end{gathered}$* *
 > 
 > > *Solve the inequality *$\frac{dy}{dx}<0$* to find the set of values where the gradient is negative.*
 > 
-> `table row cell 6 x squared space minus space 6 x space end cell less than cell space 0 end cell end table`
+> $\begin{gathered} 6 x^{2} - 6 x & < 0 \end{gathered}$
 > 
 > > *Factorise.*
 > 
-> `table row cell 6 x open parentheses x space minus space 1 close parentheses space end cell less than cell space 0 end cell end table`
+> $\begin{gathered} 6 x ( x - 1 ) & < 0 \end{gathered}$
 > 
 > > *The solutions to *$\frac{dy}{dx}=0$* are *$x=0$* and  *$x=1$*. Find the correct way around for the inequalities by considering the graph of *$\frac{dy}{dx}$*. The graph is a positive quadratic, so the function is negative between the values of 0 and 1 (where it is below the *$x$*-axis).*
 > 
@@ -176,10 +176,10 @@ $f'(x)<0$ (for decreasing intervals)
 ### How do I find the equation of a tangent?
 
 - To find the **equation of a straight line**, a **point** and the **gradient** are needed
-- The **gradient**, $m$, of the **tangent** to the function `y equals straight f open parentheses x close parentheses` at $(x_{1},y_{1})$ is $f'(x_{1})$
+- The **gradient**, $m$, of the **tangent** to the function $y = \mathrm{f} ( x )$ at $(x_{1},y_{1})$ is $f'(x_{1})$
 
   - You can find this by differentiating the function, and then substituting the $x$-coordinate of the point into the derivative
-- Therefore find the **equation** of the **tangent** to the function $y=f(x)$ at the point $(x_{1},y_{1})$ by substituting the gradient, `straight f apostrophe open parentheses x subscript 1 close parentheses`, and point $(x_{1},y_{1})$ into `y minus y subscript 1 equals m open parentheses x minus x subscript 1 close parentheses`, giving:
+- Therefore find the **equation** of the **tangent** to the function $y=f(x)$ at the point $(x_{1},y_{1})$ by substituting the gradient, $\mathrm{f} ' ( x_{1} )$, and point $(x_{1},y_{1})$ into $y - y_{1} = m ( x - x_{1} )$, giving:
 
   - $y-y_{1}=f^{'}(x_{1})(x-x_{1})$
 - (You could also substitute into $y=mx+c$)
@@ -196,10 +196,10 @@ $f'(x)<0$ (for decreasing intervals)
 
   - This means that if** **$m_{1}$ is the gradient of the first line and $m_{2}$ is the gradient of a line perpendicular to the first line, then $m_{2}=\frac{-1}{m_{1}}$
   - Rearranging the formula above, $m_{1}\timesm_{2}=-1$ is a useful way to test whether two lines are perpendicular
-- Therefore **gradient** of the **normal** to the function `y equals straight f open parentheses x close parentheses`at $(x_{1},y_{1})$ is $\frac{-1}{f'(x_{1})}$
+- Therefore **gradient** of the **normal** to the function $y = \mathrm{f} ( x )$at $(x_{1},y_{1})$ is $\frac{-1}{f'(x_{1})}$
 - Find the **equation** of the **normal** to the function $y=f(x)$ at the point $(x_{1},y_{1})$ by using $y-y_{1}=\frac{-1}{f^{'}(x_{1})}(x-x_{1})$
 
-  - (or `y equals fraction numerator negative 1 over denominator straight f to the power of apostrophe open parentheses x subscript 1 close parentheses end fraction x plus c`)
+  - (or $y = \frac{- 1}{ \mathrm{f}^{'} ( x_{1} )} x + c$)
 
 > **Exam Hint**
 > - To be successful in this topic, first make sure you are confident with finding the equation of a straight line!
@@ -211,31 +211,31 @@ $f'(x)<0$ (for decreasing intervals)
 > 
 > a) Find an equation for the tangent to the curve $y=f(x)$ at the point where $x=1$, giving your answer in the form $y=mx+c$.
 > 
-> > *First find the derivative *`straight f apostrophe open parentheses x close parentheses`* by differentiating*
+> > *First find the derivative *$\mathrm{f} ' ( x )$* by differentiating*
 > 
-> > *Start by rewriting *`straight f open parentheses x close parentheses`*as powers of **x*
+> > *Start by rewriting *$\mathrm{f} ( x )$*as powers of **x*
 > 
-> `straight f open parentheses x close parentheses equals 2 x to the power of 4 plus 3 x to the power of negative 2 end exponent`
+> $\mathrm{f} ( x ) = 2 x^{4 + 3 x^{-2} }$
 > 
 > > *Now differentiate*
 > 
-> `straight f apostrophe open parentheses x close parentheses equals 8 x cubed minus 6 x to the power of negative 3 end exponent`
+> $\mathrm{f} ' ( x ) = 8 x^{3} - 6 x^{- 3}$
 > 
-> > *Now substitute *$x=1$* into *`straight f apostrophe open parentheses x close parentheses`* to find the gradient of the tangent*
+> > *Now substitute *$x=1$* into *$\mathrm{f} ' ( x )$* to find the gradient of the tangent*
 > 
-> `table attributes columnalign right center left columnspacing 0px end attributes row cell straight f apostrophe open parentheses 1 close parentheses end cell equals cell 8 open parentheses 1 close parentheses cubed minus 6 open parentheses 1 close parentheses to the power of negative 3 end exponent end cell row blank equals cell 8 minus 6 end cell row blank equals 2 end table`
+> $\begin{array}{rcl} \mathrm{f} ' ( 1 ) & = 8 ( 1 )^{3} - 6 ( 1 )^{- 3} \\ = 8 - 6 \\ = 2 \end{array}$
 > 
-> > *We also need the **y**-coordinate, so substitute *$x=1$* into *`straight f open parentheses x close parentheses`* also*
+> > *We also need the **y**-coordinate, so substitute *$x=1$* into *$\mathrm{f} ( x )$* also*
 > 
-> `table row cell straight f open parentheses 1 close parentheses end cell equals cell 2 open parentheses 1 close parentheses to the power of 4 plus 3 open parentheses 1 close parentheses to the power of negative 2 end exponent end cell row blank equals cell 2 plus 3 end cell row blank equals 5 end table`
+> $\begin{gathered} \mathrm{f} ( 1 ) & = 2 ( 1 )^{4 + 3 ( 1 )^{-2} } \\ = 2 + 3 \\ = 5 \end{gathered}$
 > 
-> > *Now we can substitute the point (1, 5) and the gradient, 2, into *`y minus y subscript 1 equals m open parentheses x subscript 1 close parentheses open parentheses x minus x subscript 1 close parentheses`
+> > *Now we can substitute the point (1, 5) and the gradient, 2, into *$y - y_{1} = m ( x_{1} ) ( x - x_{1} )$
 > 
-> `table row cell y minus 5 end cell equals cell 2 stretchy left parenthesis x minus 1 stretchy right parenthesis end cell end table`
+> $\begin{gathered} y - 5 & = 2 ( x - 1 ) \end{gathered}$
 > 
 > > *Note that we are asked for the final answer in the form *$y=mx+c$*, so rearrange to this form*
 > 
-> `table attributes columnalign right center left columnspacing 0px end attributes row cell y minus 5 end cell equals cell 2 x minus 2 end cell end table`
+> $\begin{array}{rcl} y - 5 & = 2 x - 2 \end{array}$
 > 
 > $y=2x+3$
 > 
@@ -245,14 +245,14 @@ $f'(x)<0$ (for decreasing intervals)
 > 
 > *gradient of normal = *$\frac{-1}{2}$
 > 
-> > *Substitute the point (1, 5) from part (a) and the gradient of the normal into *`y minus y subscript 1 equals m open parentheses x minus x subscript 1 close parentheses`
+> > *Substitute the point (1, 5) from part (a) and the gradient of the normal into *$y - y_{1} = m ( x - x_{1} )$
 > 
-> `table row cell y minus 5 end cell equals cell open parentheses fraction numerator negative 1 over denominator 2 end fraction close parentheses open parentheses x minus 1 close parentheses end cell end table`
+> $\begin{gathered} y - 5 & = ( \frac{- 1}{2} ) ( x - 1 ) \end{gathered}$
 > 
 > > *And rearrange into the form required*
 > 
-> `table row cell y minus 5 end cell equals cell negative 1 half x plus 1 half end cell row cell 1 half x plus y minus 5 1 half end cell equals 0 end table`
+> $\begin{gathered} y - 5 & = - 1 \frac{1}{2} x + 1 \frac{1}{2} \\ 1 \frac{1}{2} x + y - 5 1 \frac{1}{2} & = 0 \end{gathered}$
 > 
 > > *Note that *$a$*, *$b$* and *$d$* must be integers so multiply by 2 to clear the fractions*
 > 
-> `table row cell bold italic x bold plus bold 2 bold italic y bold minus bold 11 end cell bold equals bold 0 end table`
+> $\begin{gathered} x + 2 y - 11 & = 0 \end{gathered}$

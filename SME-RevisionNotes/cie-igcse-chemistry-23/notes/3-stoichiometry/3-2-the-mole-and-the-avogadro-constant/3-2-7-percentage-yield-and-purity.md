@@ -129,7 +129,7 @@ guided_study: true
 > 
 >   - Percentage Composition = $\frac{\mathrm{total} \mathrm{mass} \mathrm{of} \mathrm{element}}{\mathrm{total} \mathrm{mass} \mathrm{of} \mathrm{compound}}$ × 100
 > - So, the percentage composition of nitrogen in ammonium nitrate is:
-> - Percentage of nitrogen = `fraction numerator open parentheses 2 cross times 14 close parentheses over denominator 80 end fraction` × 100 = 35%
+> - Percentage of nitrogen = $\frac{( 2 \times 14 )}{80}$ × 100 = 35%
 
 > **Exam Hint**
 > - Make sure you calculate the percentage composition using the **total mass **of the element.

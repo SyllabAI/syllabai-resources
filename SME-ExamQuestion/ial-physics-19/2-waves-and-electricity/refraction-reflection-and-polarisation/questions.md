@@ -165,10 +165,10 @@ A light bulb with an efficiency of 12% is positioned 2.0 m above a light sensor.
 The intensity of light at the light sensor is 0.14 W m<sup>−2</sup>.
 
 Which of the following could be used to calculate the power of the light bulb?
-- **A.** `open parentheses 0.14 close parentheses space cross times open parentheses 0.12 close parentheses space cross times open parentheses 4 straight pi close parentheses cross times open parentheses 2.0 close parentheses squared`
-- **B.** `fraction numerator open parentheses 0.14 close parentheses space cross times open parentheses 4 straight pi close parentheses cross times open parentheses 2.0 close parentheses squared over denominator 0.12 end fraction`
-- **C.** `open parentheses 0.14 close parentheses space cross times open parentheses 0.12 close parentheses space cross times open parentheses straight pi close parentheses cross times open parentheses 2.0 close parentheses squared`
-- **D.** `fraction numerator open parentheses 0.14 close parentheses space cross times open parentheses straight pi close parentheses cross times open parentheses 2.0 close parentheses squared over denominator 0.12 end fraction`
+- **A.** $( 0.14 ) \times ( 0.12 ) \times ( 4 \mathrm{\pi } ) \times ( 2.0 )^{2}$
+- **B.** $\frac{( 0.14 ) \times ( 4 \mathrm{\pi } ) \times ( 2.0 )^{2}}{0.12}$
+- **C.** $( 0.14 ) \times ( 0.12 ) \times ( \mathrm{\pi } ) \times ( 2.0 )^{2}$
+- **D.** $\frac{( 0.14 ) \times ( \mathrm{\pi } ) \times ( 2.0 )^{2}}{0.12}$
 
 ## Q8 — easy — 1 marks · multiple-choice-questions
 

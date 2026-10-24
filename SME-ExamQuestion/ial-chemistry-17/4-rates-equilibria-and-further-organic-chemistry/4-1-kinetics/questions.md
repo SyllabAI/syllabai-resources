@@ -176,13 +176,13 @@ This question is about some compounds of bromine.
 
 Potassium bromate(V) decomposes to form potassium bromide and oxygen.
 
-`2 KBrO subscript 3 space left parenthesis straight s right parenthesis space rightwards arrow space 2 KBr space left parenthesis straight s right parenthesis space plus space 3 straight O subscript 2 space left parenthesis straight g right parenthesis space space space space space space space space space space increment subscript straight r space H to the power of ⦵ equals space minus 67.2 space kJ space mol to the power of negative 1 end exponent`
+$2 KBrO_{3} ( \mathrm{s} ) \rightarrow 2 \text{KBr} ( \mathrm{s} ) + 3 \mathrm{O}_{2} ( \mathrm{g} ) \Delta_{r} H^{⦵ = - 67.2 \text{kJ} mol^{-1} }$
 
 The standard molar entropies of these substances are given in the table.
 
 | **Substance** | KBrO<sub>3 </sub>(s) | KBr (s) | O<sub>2 </sub>(g) |
 |---|---|---|---|
-| `bold S to the power of bold ⦵ bold space bold divided by bold space bold J bold space bold K to the power of bold minus bold 1 end exponent bold space bold mol to the power of bold minus bold 1 end exponent` | 149.2 | 95.9 | 205.0 |
+| `S ^ ⦵ / J K ^ - 1 mol ^ - 1` | 149.2 | 95.9 | 205.0 |
 
 Calculate the total entropy change,  Δ*S*<sub>total</sub>, for this reaction at 298 K.
 
@@ -253,7 +253,7 @@ The Arrhenius equation can be expressed as
 
 $\mathrm{ln}k=-\frac{E_{a}}{R}\times\frac{1}{T}+\mathrm{constant}$
 
-`left square bracket R space equals space 8.31 space straight J space mol to the power of negative 1 end exponent space straight K to the power of negative 1 end exponent right square bracket`
+$[ R = 8.31 \mathrm{J} \text{mol} ^{ - } 1 \mathrm{K} ^{ - } 1 ]$
 
 ![q20c-paper-4-jan-2021-edexcel-ial-chemistry](assets/014-q20c-paper-4-jan-2021-edexcel-ial-chemistry.png)
 
@@ -411,9 +411,9 @@ CaCO<sub>3</sub> (s) ⇌ CaO (s) + CO<sub>2</sub> (g)
 
 Which of these is the expression for *K*<sub>c</sub> for this equilibrium?
 - **A.** *K*<sub>c</sub> = [CO<sub>2</sub>]
-- **B.** *K*<sub>c</sub> = `fraction numerator left square bracket CO subscript 2 right square bracket over denominator left square bracket CaCO subscript 3 right square bracket end fraction`
-- **C.** *K*<sub>c</sub> = `fraction numerator left square bracket CaCO subscript 3 right square bracket over denominator left square bracket CaO right square bracket left square bracket CO subscript 2 right square bracket end fraction`
-- **D.** *K*<sub>c</sub> = `fraction numerator left square bracket CaO right square bracket left square bracket CO subscript 2 right square bracket over denominator left square bracket CaCO subscript 3 right square bracket end fraction`
+- **B.** *K*<sub>c</sub> = $\frac{[ CO_{2} ]}{[ CaCO_{3} ]}$
+- **C.** *K*<sub>c</sub> = $\frac{[ CaCO_{3} ]}{[ CaO ] [ CO_{2} ]}$
+- **D.** *K*<sub>c</sub> = $\frac{[ CaO ] [ CO_{2} ]}{[ CaCO_{3} ]}$
 
 ## Q12 — medium — 1 marks · multiple-choice-questions
 
@@ -473,11 +473,11 @@ The rate equation for this reaction is
 rate = k[CH<sub>3</sub>COCH<sub>3</sub>][H<sup>+</sup>]
 
 Which is a possible mechanism for the reaction?
-- **A.** `CH subscript 3 COCH subscript 3 space plus space straight H to the power of plus space space space space space space space space rightwards harpoon over leftwards harpoon space CH subscript 3 straight C left parenthesis straight O with plus on top straight H right parenthesis CH subscript 3 space space space space space space space space space space space space space space space space space fast
-CH subscript 3 straight C left parenthesis straight O with plus on top straight H right parenthesis CH subscript 3 space space space space space space space space space space space space rightwards arrow space CH subscript 3 straight C left parenthesis OH right parenthesis ═ CH subscript 2 space plus space straight H to the power of plus space space space space slow space
-CH subscript 3 straight C left parenthesis OH right parenthesis ═ CH subscript 2 space plus space straight I subscript 2 space rightwards arrow space CH subscript 3 COCH subscript 2 straight I space plus space HI space space space space space space space space space space space space space fast`
-- **B.** `CH subscript 3 COCH subscript 3 space plus space straight H to the power of plus space space space space space space space space rightwards harpoon over leftwards harpoon space CH subscript 3 straight C left parenthesis straight O with plus on top straight H right parenthesis CH subscript 3 space space space space space space space space space space space space space space space space space space fast space space
-CH subscript 3 straight C left parenthesis straight O with plus on top straight H right parenthesis CH subscript 3 space space space space space space space space space space space space space space rightwards arrow space CH subscript 3 straight C left parenthesis OH right parenthesis ═ CH subscript 2 space plus space straight H to the power of plus space space space space fast space
-CH subscript 3 straight C left parenthesis OH right parenthesis ═ CH subscript 2 space plus space straight I subscript 2 space space space rightwards arrow space CH subscript 3 COCH subscript 2 straight I space plus space HI space space space space space space space space space space space space space slow`
+- **A.** $CH_{3} COCH_{3} + \mathrm{H}^{+} \rightleftharpoons CH_{3} \mathrm{C} ( \mathrm{O} \text{with} + \text{on} \text{top} \mathrm{H} ) CH_{3} \text{fast}
+CH_{3} \mathrm{C} ( \mathrm{O} \text{with} + \text{on} \text{top} \mathrm{H} ) CH_{3} \rightarrow CH_{3} \mathrm{C} ( \text{OH} ) ═ CH_{2} + \mathrm{H}^{+} \text{slow} 
+CH_{3} \mathrm{C} ( \text{OH} ) ═ CH_{2} + \mathrm{I}_{2} \rightarrow CH_{3} COCH_{2} \mathrm{I} + \text{HI} \text{fast}$
+- **B.** $CH_{3} COCH_{3} + \mathrm{H}^{+} \rightleftharpoons CH_{3} \mathrm{C} ( \mathrm{O} \text{with} + \text{on} \text{top} \mathrm{H} ) CH_{3} \text{fast} 
+CH_{3} \mathrm{C} ( \mathrm{O} \text{with} + \text{on} \text{top} \mathrm{H} ) CH_{3} \rightarrow CH_{3} \mathrm{C} ( \text{OH} ) ═ CH_{2} + \mathrm{H}^{+} \text{fast} 
+CH_{3} \mathrm{C} ( \text{OH} ) ═ CH_{2} + \mathrm{I}_{2} \rightarrow CH_{3} COCH_{2} \mathrm{I} + \text{HI} \text{slow}$
 - **C.** $\mathrm{CH}_{3}\mathrm{COCH}_{3}\rightarrow\mathrm{CH}_{3}\mathrm{COCH}_{2}^{-}+H^{+}\mathrm{slow}\,I_{2}\rightarrowI^{+}+I^{-}\mathrm{slow}\,\mathrm{CH}_{3}\mathrm{COCH}_{2}^{-}+I^{+}\rightarrow\mathrm{CH}_{3}\mathrm{COCH}_{2}I\mathrm{fast}$
 - **D.** $I_{2}\rightarrowI^{+}+I^{-}\mathrm{slow}\,\mathrm{CH}_{3}\mathrm{COCH}_{3}+I^{-}\rightarrow\mathrm{CH}_{3}\mathrm{COC}H_{2}^{-}+\mathrm{HI} \mathrm{slow}\,\mathrm{CH}_{3}\mathrm{COCH}_{2}^{-}+I^{+}\rightarrow\mathrm{CH}_{3}\mathrm{COCH}_{2}I\mathrm{fast}$

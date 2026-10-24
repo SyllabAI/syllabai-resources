@@ -15,13 +15,13 @@
 **[1]**
 > *Find the probability of the first piece of string having a length greater than 11 cm by adding the last two frequencies together*
 
-`P open parentheses first greater than 11 space cm close parentheses equals fraction numerator 6 plus 4 over denominator 100 end fraction equals 10 over 100`
+$P ( \text{first} > 11 \text{cm} ) = \frac{6 + 4}{100} = \frac{10}{100}$
 
 > *Find the probability of the second piece of string having a length greater than 11 cm, given that the first piece had a length greater than 11 cm *
 
 > *One piece has already been taken so reduce both the numerator and denominator by 1*
 
-`P open parentheses second greater than 11 space cm close parentheses equals 9 over 99`
+$P ( \text{second} > 11 \text{cm} ) = \frac{9}{99}$
 
 > *Find the probability that both the first and second are greater than 11 cm by multiplying the two probabilities together*
 
@@ -36,7 +36,7 @@ $\frac{1}{110}$
 ** Any equivalent answer accepted [1]**
 > *Find the probability of the first piece of string having a length greater than 12.5 cm, given than it was picked only from string with a length greater than 11 cm *
 
-`P open parentheses first greater than 12.5 space cm space given greater than 11 space cm close parentheses equals 4 over 10`
+$P ( \text{first} > 12.5 \text{cm} \text{given} > 11 \text{cm} ) = \frac{4}{10}$
 
 **[1]**
 
@@ -44,7 +44,7 @@ $\frac{1}{110}$
 
 > *One piece has already been taken so reduce both the numerator and denominator by 1*
 
-`P open parentheses second greater than 12.5 space cm space given greater than 11 space cm close parentheses equals 3 over 9`
+$P ( \text{second} > 12.5 \text{cm} \text{given} > 11 \text{cm} ) = \frac{3}{9}$
 
 > *Find the probability that both the first and second are greater than 12.5 cm by multiplying the two probabilities together*
 
@@ -126,7 +126,7 @@ $\frac{28}{199}$* (or 0.14070... as a decimal)*
 ### Q3
 *Method 1* *This is the most efficient method, if you spot that the only way at least pen **isn't** orange is if both pens are black. So*
 
-`table row cell P left parenthesis at space least space one space orange right parenthesis end cell equals cell 1 minus straight P left parenthesis both space black right parenthesis end cell row blank equals cell 1 minus open parentheses 7 over 15 cross times 6 over 14 close parentheses end cell end table`
+$\begin{gathered} P ( \text{at} \text{least} \text{one} \text{orange} ) & = 1 - \mathrm{P} ( \text{both} \text{black} ) \\ = 1 - ( \frac{7}{15} \times \frac{6}{14} ) \end{gathered}$
 
 **[2]**
 
@@ -136,13 +136,13 @@ $=\frac{168}{210}\mathrm{or}\frac{4}{5}$** [1]**
 
 *Method 2* *Identify all the ways that at least one orange pens can be picked*
 
-`table row cell P left parenthesis orange space then space black right parenthesis equals stretchy left parenthesis 7 over 15 cross times 8 over 14 stretchy right parenthesis comma space space P left parenthesis black space then space orange right parenthesis equals open parentheses 8 over 15 cross times 7 over 14 close parentheses comma space space P left parenthesis both space orange right parenthesis end cell equals cell open parentheses 8 over 15 cross times 7 over 14 close parentheses end cell end table`
+$\begin{gathered} P ( \text{orange} \text{then} \text{black} ) = ( \frac{7}{15} \times \frac{8}{14} ) , P ( \text{black} \text{then} \text{orange} ) = ( \frac{8}{15} \times \frac{7}{14} ) , P ( \text{both} \text{orange} ) & = ( \frac{8}{15} \times \frac{7}{14} ) \end{gathered}$
 
 **one of these multiplications is seen ****[1]**
 
 > *Add together all the ways that at least one orange pen can be picked*
 
-`table row blank blank cell stretchy left parenthesis 7 over 15 cross times 8 over 14 stretchy right parenthesis plus open parentheses 8 over 15 cross times 7 over 14 close parentheses plus open parentheses 8 over 15 cross times 7 over 14 close parentheses end cell end table`
+$\begin{gathered} ( \frac{7}{15} \times \frac{8}{14} ) + ( \frac{8}{15} \times \frac{7}{14} ) + ( \frac{8}{15} \times \frac{7}{14} ) \end{gathered}$
 
 **[1]**
 
@@ -157,8 +157,8 @@ $\frac{168}{210}\mathrm{or}\frac{4}{5}$** ****[1]**
 
 > *Find the individual probabilities first.*
 
-`straight P open parentheses estimated space greater than space 150 close parentheses space equals 24 over 104
-straight P open parentheses estimated space less or equal than space 150 close parentheses space equals 80 over 104`
+$\mathrm{P} ( \text{estimated} > 150 ) = \frac{24}{104} 
+ \mathrm{P} ( \text{estimated} \text{less} \text{or} \text{equal} \text{than} 150 ) = \frac{80}{104}$
 
 > *The possible options for two of these students can be seen in a tree diagram.  *
 *This is conditional probability so the total number of students will decrease after the first student has been chosen.*
@@ -171,9 +171,9 @@ straight P open parentheses estimated space less or equal than space 150 close p
 
 > *Use the tree diagram to find the probability that either the first student estimated less than 150 and the second estimated more than 150, or the first student estimates more than 150 and the second estimated less than 150.    *
 
-> `table row cell straight P open parentheses both space different close parentheses space end cell equals cell space open parentheses fraction numerator space 24 over denominator 104 end fraction space cross times space fraction numerator space 80 over denominator 103 end fraction close parentheses space plus space open parentheses 80 over 104 space cross times fraction numerator space 24 over denominator 103 end fraction close parentheses space end cell row blank equals cell space 2 open parentheses 240 over 1339 close parentheses end cell end table`*    *
+> $\begin{gathered} \mathrm{P} ( \text{both} \text{different} ) & = ( \frac{ 24}{104} \times \frac{ 80}{103} ) + ( \frac{80}{104} \times \frac{ 24}{103} ) \\ = 2 ( \frac{240}{1339} ) \end{gathered}$*    *
 
-`table row cell bold P stretchy left parenthesis both space different stretchy right parenthesis bold space end cell bold equals cell fraction numerator bold space bold 480 over denominator bold 1339 end fraction end cell end table`
+$\begin{gathered} P ( \text{both} \text{different} ) & = \frac{ 480}{1339} \end{gathered}$
 
 **Any correct probability**** [1]**
 ** ****All working correct**** [1] **
@@ -227,11 +227,11 @@ $\frac{29}{52}$ **[1]**
 
 > *As the total number of students is 40, we can now set up and solve an equation in *$x$*.*
 
-`table row cell x plus open parentheses 8 minus x close parentheses plus open parentheses 6 minus x close parentheses plus open parentheses 3 minus x close parentheses plus 7 plus 11 plus 9 plus 0 end cell equals 40 end table`
+$\begin{gathered} x + ( 8 - x ) + ( 6 - x ) + ( 3 - x ) + 7 + 11 + 9 + 0 & = 40 \end{gathered}$
 
 **[1]**
 
-`table row cell 44 minus 2 x end cell equals 40 row cell 2 x end cell equals 4 row x equals 2 end table`
+$\begin{gathered} 44 - 2 x & = 40 \\ 2 x & = 4 \\ x = 2 \end{gathered}$
 
 > *Now we can complete all sections of the Venn diagram with values.*
 
@@ -241,11 +241,11 @@ $\frac{29}{52}$ **[1]**
 **Fully correct diagram**** [1]**
 *At the start, 7 students (out of 40) have travelled by plane only.* *Mathematically, choosing two students is the same as choosing one student, not replacing them, then choosing another.*
 
-`straight P open parentheses both space plane close parentheses equals 7 over 40 cross times 6 over 39`
+$\mathrm{P} ( \text{both} \text{plane} ) = \frac{7}{40} \times \frac{6}{39}$
 
 **[1]**
 
-`straight P open parentheses both space plane close parentheses equals 42 over 1560`
+$\mathrm{P} ( \text{both} \text{plane} ) = \frac{42}{1560}$
 
 > *You can use your calculator to simplify the fraction, but you will still get the mark if not.*
 
@@ -260,11 +260,11 @@ $6+2+1+11=20$
 
 > *So at the start, 8 out of 20 students that travelled by train also travelled by plane. Two students are chosen so*
 
-`straight P open parentheses both space plane space given space train close parentheses equals 8 over 20 cross times 7 over 19`
+$\mathrm{P} ( \text{both} \text{plane} \text{given} \text{train} ) = \frac{8}{20} \times \frac{7}{19}$
 
 **[1]**
 
-`straight P open parentheses both space plane space given space train close parentheses equals 56 over 380`
+$\mathrm{P} ( \text{both} \text{plane} \text{given} \text{train} ) = \frac{56}{380}$
 
 > *You can use your calculator to simplify the fraction, but you will still get the mark if not.*
 
@@ -305,7 +305,7 @@ $\frac{2-1}{5-1}=\frac{1}{4}$
 
 > *So the probability of choosing a 1 then a 1 is *
 
-*P(1 and 1)*`equals 2 over 5 cross times 1 fourth space space space open parentheses equals 2 over 20 close parentheses`
+*P(1 and 1)*$= \frac{2}{5} \times 1 \frac{1}{4} ( = \frac{2}{20} )$
 
 > *Option2: Jojo picks a 2 and then another 2. *
 *The probability of a 2 first time is *$\frac{3}{5}$*, but the second time there is one less 2 and one less card to choose from so the probability is *
@@ -314,13 +314,13 @@ $\frac{3-1}{5-1}=\frac{2}{4}$
 
 > *So the probability of choosing a 2 then a 2 is *
 
-*P(2 and 2)*`equals 3 over 5 cross times 2 over 4 space space space open parentheses equals 6 over 20 close parentheses`
+*P(2 and 2)*$= \frac{3}{5} \times \frac{2}{4} ( = \frac{6}{20} )$
 
 **either**** **$"\frac{2}{5}\times\frac{1}{4}"$** or **$"\frac{3}{5}\times\frac{2}{4}"$** ****[1]**
 
 > *Therefore the probability of (1 and 1) **or** (2 and 2) is*
 
-** **`2 over 5 cross times 1 fourth plus 3 over 5 cross times 2 over 4 space space space space open parentheses equals space space 2 over 20 plus 6 over 20 close parentheses`
+** **$\frac{2}{5} \times 1 \frac{1}{4} + \frac{3}{5} \times \frac{2}{4} ( = \frac{2}{20} + \frac{6}{20} )$
 
 **[1]**
 
@@ -338,13 +338,13 @@ ii) *The two cards can be the same number if; *
 
 > *Therefore:*
 
-*P(A1 and B1)*`equals 2 over 5 cross times 3 over 5 space space open parentheses equals 6 over 25 close parentheses`*     and    P(A2 and B2)*`equals 3 over 5 cross times 1 fifth space space open parentheses equals 3 over 25 close parentheses`* *
+*P(A1 and B1)*$= \frac{2}{5} \times \frac{3}{5} ( = \frac{6}{25} )$*     and    P(A2 and B2)*$= \frac{3}{5} \times 1 \frac{1}{5} ( = \frac{3}{25} )$* *
 
 * ***either of these calculations ****[1]**
 
 > *Therefore the probability of A1 and B2, or A2 and B2 happening is:*
 
-*P[(A1 and B1) or (A2 and B2)]*`equals 2 over 5 cross times 3 over 5 plus 3 over 5 cross times 1 fifth space space space space open parentheses equals 6 over 25 plus 3 over 25 close parentheses`** **
+*P[(A1 and B1) or (A2 and B2)]*$= \frac{2}{5} \times \frac{3}{5} + \frac{3}{5} \times 1 \frac{1}{5} ( = \frac{6}{25} + \frac{3}{25} )$** **
 
 **[1]**
 
@@ -389,7 +389,7 @@ $0.4>0.36$** therefore Jojo**** ****[1]**
 
 > *Now we can work out the probabilities, remembering that the cards are not replaced.*
 
-*P(454) = *`2 over 5 cross times 3 over 4 cross times 1 third space space space open parentheses equals 6 over 60 close parentheses`*      P(544) =  *`3 over 5 cross times 2 over 4 cross times 1 third space space space open parentheses equals 6 over 60 close parentheses`*       P(554) = *`3 over 5 cross times 2 over 4 cross times 2 over 3 space space space open parentheses equals 12 over 60 close parentheses`
+*P(454) = *$\frac{2}{5} \times \frac{3}{4} \times 1 \frac{1}{3} ( = \frac{6}{60} )$*      P(544) =  *$\frac{3}{5} \times \frac{2}{4} \times 1 \frac{1}{3} ( = \frac{6}{60} )$*       P(554) = *$\frac{3}{5} \times \frac{2}{4} \times \frac{2}{3} ( = \frac{12}{60} )$
 
 **all three options 454, 544 and 554 listed, ****or**** ****any one of these products correct ****[1]**
 
@@ -397,7 +397,7 @@ $0.4>0.36$** therefore Jojo**** ****[1]**
 
 *P(454 or 544 or 554)*$=\frac{2}{5}\times\frac{3}{4}\times\frac{1}{3}+\frac{3}{5}\times\frac{2}{4}\times\frac{1}{3}+\frac{3}{5}\times\frac{2}{4}\times\frac{2}{3}$
 
-`open parentheses equals 6 over 60 plus 6 over 60 plus 12 over 60 close parentheses`
+$( = \frac{6}{60} + \frac{6}{60} + \frac{12}{60} )$
 
 **[1]**
 
@@ -428,7 +428,7 @@ $\frac{62}{95}$ **[1]**
 
 > *Find the probability that the two packets are the same flavour.*
 
-`table row cell straight P open parentheses straight B space then space straight B close parentheses end cell equals cell 6 over 20 cross times 5 over 19 equals 3 over 38 end cell row cell straight P open parentheses straight S space then space straight S close parentheses end cell equals cell 10 over 20 cross times 9 over 19 equals 9 over 38 end cell row cell straight P open parentheses straight C space then space straight C close parentheses end cell equals cell 4 over 20 cross times 3 over 19 equals 3 over 95 end cell end table`
+$\begin{gathered} \mathrm{P} ( \mathrm{B} \text{then} \mathrm{B} ) & = \frac{6}{20} \times \frac{5}{19} = \frac{3}{38} \\ \mathrm{P} ( \mathrm{S} \text{then} \mathrm{S} ) & = \frac{10}{20} \times \frac{9}{19} = \frac{9}{38} \\ \mathrm{P} ( \mathrm{C} \text{then} \mathrm{C} ) & = \frac{4}{20} \times \frac{3}{19} = \frac{3}{95} \end{gathered}$
 
 **one correct product ****[1]*** *
 **the sum of two correct products ****[1]**
@@ -453,7 +453,7 @@ $\frac{14}{120}\times\frac{7}{119}\times\frac{6}{118}=\frac{7}{20060}$
 
 > *However, there are three ways this could happen since they boy with a height greater than 1.8 m could be the first, second or third boy to be chosen.*
 
-`table row cell therefore straight P open parentheses 1 space boy greater than 1.8 space and space 2 space boys less or equal than 1.4 close parentheses end cell equals cell fraction numerator 7 over denominator 20 space 060 end fraction cross times 3 end cell row blank equals cell fraction numerator 21 over denominator 20 space 060 end fraction end cell end table`
+`| therefore P ( 1 boy greater than 1.8 and 2 boys <= 1.4 ) | = (7)/(20 060) x 3 | | _ = (21)/(20 060) | |`
 
 **[1]**
 
@@ -491,32 +491,32 @@ $\frac{80}{153}$ **[1]**
 i) *The key phrase here is "... without replacement ..." - this means the probabilities will change after the first sweet is chosen.* 
 *If the first sweet is green, there will be 5 green sweets left out of a total of 19.*
 
-`table row cell straight P open parentheses both space green close parentheses end cell equals cell straight P open parentheses 1 to the power of st space green close parentheses space AND thin space straight P open parentheses 2 to the power of nd italic space g r e e n close parentheses end cell row blank equals cell straight P open parentheses 1 to the power of st space green close parentheses cross times straight P open parentheses 2 to the power of nd space green close parentheses end cell row blank equals cell 6 over 20 cross times 5 over 19 end cell end table`
+`| P ( both green ) | = P ( 1 ^ st green ) AND P ( 2 ^ nd g r e e n ) | | _ = P ( 1 ^ st green ) x P ( 2 ^ nd green ) | | _ = 6 / 20 x 5 / 19 | |`
 
 **[1]**
 
 *We are required to **show** the answer is *$\frac{3}{38}$* so we cannot just use a calculator!* 
 *Cancel common factors of the numerator and denominator first to make the multiplication easier.*
 
-`table attributes columnalign right center left columnspacing 0px end attributes row cell straight P open parentheses both space green close parentheses end cell equals cell fraction numerator table row 3 row cell up diagonal strike 6 end cell end table over denominator table row cell up diagonal strike 20 end cell row cell table row cell up diagonal strike 10 end cell row 2 end table end cell end table end fraction cross times fraction numerator table row 1 row cell up diagonal strike 5 end cell end table over denominator 19 end fraction equals fraction numerator 3 cross times 1 over denominator 2 cross times 19 end fraction end cell end table`
+`table columnalign right center left columnspacing 0px end | P ( both green ) | = (| 3 | / 6 | |)/(| / 20 | | | / 10 | | 2 | | |) x (| 1 | / 5 | |)/(19) = (3 x 1)/(2 x 19) | |`
 
 $P(\mathrm{both} \mathrm{green})=\frac{3}{38}$ **[1]**
 
 ii) *Consider this as the opposite to choosing sweets that are the same colour (so "1 - P(both same colour)").* 
 *First work out the probability of getting the same colour (the probability of two greens was given in part i)).*
 
-`table row cell straight P open parentheses both space same space colour close parentheses end cell equals cell straight P open parentheses red space AND space red close parentheses space OR space straight P open parentheses green space AND space green close parentheses space OR thin space straight P open parentheses yellow space AND thin space yellow close parentheses end cell row blank equals cell open parentheses 5 over 20 cross times 4 over 19 close parentheses plus open parentheses 3 over 38 close parentheses plus open parentheses 9 over 20 cross times 8 over 19 close parentheses end cell end table`
+`| P ( both same colour ) | = P ( red AND red ) OR P ( green AND green ) OR P ( yellow AND yellow ) | | _ = ( 5 / 20 x 4 / 19 ) + ( 3 / 38 ) + ( 9 / 20 x 8 / 19 ) | |`
 
 **Correct reds or yellows multiplication**** [1]** 
 **Adding the three combinations together**** [1]**
 
 > *Type this carefully into your calculator or work out the individual parts and store them in your calculator's memory.*
 
-`straight P open parentheses both space same space colour close parentheses equals 1 over 19 plus 3 over 38 plus 18 over 95 equals 61 over 190`
+$\mathrm{P} ( \text{both} \text{same} \text{colour} ) = \frac{1}{19} + \frac{3}{38} + \frac{18}{95} = \frac{61}{190}$
 
 > *Remember the question asked for the probability that the sweets were not the same colour so subtract this from 1.*
 
-`straight P open parentheses not space same space colour close parentheses equals 1 minus 61 over 190 equals 129 over 190`
+$\mathrm{P} ( \text{not} \text{same} \text{colour} ) = 1 - \frac{61}{190} = \frac{129}{190}$
 
 **[1]**
 
@@ -597,7 +597,7 @@ $4\times3\times10=4\times10\times3=10\times4\times3$ * *
 
 *Write out the overall probability* * *
 
-> `open parentheses 4 over 20 cross times 3 over 19 cross times 10 over 18 close parentheses cross times 3 plus open parentheses 4 over 20 cross times 3 over 19 cross times 6 over 18 close parentheses cross times 3 plus 4 over 20 cross times 3 over 19 cross times 2 over 18`* *
+> $( \frac{4}{20} \times \frac{3}{19} \times \frac{10}{18} ) \times 3 + ( \frac{4}{20} \times \frac{3}{19} \times \frac{6}{18} ) \times 3 + \frac{4}{20} \times \frac{3}{19} \times \frac{2}{18}$* *
 
 **[1]**
 
@@ -622,7 +622,7 @@ $\frac{5}{57}$ **[1]**
 
 > *Subtract the probability that both pencils are not red from 1.*
 
-`table row blank blank cell 1 space minus space straight P open parentheses Both space not space red close parentheses end cell row blank equals cell space 1 space minus open parentheses 10 over 25 cross times fraction numerator 9 over denominator space 24 end fraction close parentheses end cell end table`
+$\begin{gathered} 1 - \mathrm{P} ( \text{Both} \text{not} \text{red} ) \\ = 1 - ( \frac{10}{25} \times \frac{9}{ 24} ) \end{gathered}$
 
 **[2]**
 
@@ -634,7 +634,7 @@ $\frac{17}{20}$** [1] **
 > *Add the probability of both being red to the probability of one being red and the other being not red. *
 *P(at least one red) = P(both red) + P(first red, second not red) + P(first not red, second red).*
 
-`open parentheses 15 over 25 cross times fraction numerator 14 over denominator space 24 end fraction close parentheses space plus space open parentheses 15 over 25 cross times fraction numerator 10 over denominator space 24 end fraction close parentheses space plus open parentheses 10 over 25 cross times fraction numerator 15 over denominator space 24 end fraction close parentheses`
+$( \frac{15}{25} \times \frac{14}{ 24} ) + ( \frac{15}{25} \times \frac{10}{ 24} ) + ( \frac{10}{25} \times \frac{15}{ 24} )$
 
 ** ****At least one correct product**** [1]  **
 **All three correct and added together**** [1]**
@@ -670,14 +670,14 @@ $\frac{87}{3980}$ **[1]**
 
 > *Multiply the probabilities with the same colour together and add the products.*
 
-`open parentheses 1 over 6 cross times 1 over 6 close parentheses space plus open parentheses 2 over 6 cross times 2 over 6 close parentheses space plus open parentheses 3 over 6 cross times 3 over 6 close parentheses`
+$( \frac{1}{6} \times \frac{1}{6} ) + ( \frac{2}{6} \times \frac{2}{6} ) + ( \frac{3}{6} \times \frac{3}{6} )$
 
 ** At least one of the probabilities correct**** [1] **
 **Correct method ****[1]**
 
 > *Use your calculator to find the solutions.*
 
-`space open parentheses 1 over 6 close parentheses squared plus space open parentheses 2 over 6 close parentheses squared plus space open parentheses 3 over 6 close parentheses squared space equals space 14 over 36`
+$( \frac{1}{6} )^{2} + ( \frac{2}{6} )^{2} + ( \frac{3}{6} )^{2} = \frac{14}{36}$
 
 $\frac{7}{18}$** [1] **
 **Unsimplified fraction or equivalent correct decimal accepted.**
@@ -699,7 +699,7 @@ $1-0.45=0.551-0.67=0.331-0.35=0.65$
 *'Wins exactly one match' is the same as 'wins on Saturday AND does not win on Sunday' OR 'does not win on Saturday AND wins on Sunday'. *
 *So multiply the probabilities from the corresponding parts of the tree diagram, and then add the products together to get the answer.*
 
-`open parentheses 0.45 space cross times space 0.33 close parentheses space plus space open parentheses 0.55 space cross times space 0.35 close parentheses space equals space 0.341`
+$( 0.45 \times 0.33 ) + ( 0.55 \times 0.35 ) = 0.341$
 
 **  [2] ****1 mark for one correct product.  **
 **1 mark for two correct products added together.**
@@ -734,7 +734,7 @@ $1-0.931=0.069$
 
 **0.069 *** ***[1]**
 
-**You can also do this by multiplying to get the probabilities for 'faulty AND faulty', 'faulty AND not faulty', and 'not faulty AND faulty', and then adding those together to get the answer. I.e., **`open parentheses 0.02 space cross times space 0.05 close parentheses space plus space open parentheses 0.02 space cross times space 0.95 close parentheses space plus space open parentheses 0.98 space cross times space 0.05 close parentheses space equals space 0.069`
+**You can also do this by multiplying to get the probabilities for 'faulty AND faulty', 'faulty AND not faulty', and 'not faulty AND faulty', and then adding those together to get the answer. I.e., **$( 0.02 \times 0.05 ) + ( 0.02 \times 0.95 ) + ( 0.98 \times 0.05 ) = 0.069$
 
 ### Q21
 > *Let *$R$* **be the probability that Raphael picks a blue pen and *$Q$* be the probability that Paulo picks a blue pen.*
@@ -742,17 +742,17 @@ $1-0.931=0.069$
 
 > *For two events *$R$* **and *$Q$*,  *$P(R\mathrm{and}Q)=P(R)\timesP(Q)$* **so*
 
-`8 over 15 equals 2 over 3 cross times straight P open parentheses Q close parentheses`
+$\frac{8}{15} = \frac{2}{3} \times \mathrm{P} ( Q )$
 
 **[1]**
 
 > *Divide both sides by *$\frac{2}{3}$* to find *$P(Q)$
 
-`table row cell straight P open parentheses Q close parentheses end cell equals cell 8 over 15 divided by 2 over 3 end cell row blank equals cell 4 over 5 end cell end table`
+$\begin{gathered} \mathrm{P} ( Q ) & = \frac{8}{15} \div \frac{2}{3} \\ = \frac{4}{5} \end{gathered}$
 
 > *Remember that you can use your calculator to divide the fractions.*
 
-`table row blank blank cell bold 4 over bold 5 end cell end table` **[1]**
+`| _ _ 4 / 5 | |` **[1]**
 
 **Equivalent fractions, a decimal (0.8) or a percentage (80%) are also accepted**
 > *Let *$R$* **be the probability that Raphael picks a blue pen and *$Q$* be the probability that Paulo picks a blue pen.*
@@ -761,17 +761,17 @@ $1-0.931=0.069$
 *The same logic is true for Paulo. *
 *We are told *$P(R)=\frac{2}{3}$*. And from part (a), *$P(Q)=\frac{4}{5}$*. Therefore*
 
-`straight P open parentheses R apostrophe close parentheses equals 1 minus 2 over 3 equals 1 third`*  **and**  *`straight P open parentheses Q apostrophe close parentheses equals 1 minus 4 over 5 equals 1 fifth`
+$\mathrm{P} ( R ' ) = 1 - \frac{2}{3} = 1 \frac{1}{3}$*  **and**  *$\mathrm{P} ( Q ' ) = 1 - \frac{4}{5} = 1 \frac{1}{5}$
 
 **either of these results**** [1]**
 
 > *You could draw a tree diagram to see this. Multiply the two probabilities to find the probability they both happen*
 
-`table row cell straight P open parentheses R apostrophe space and italic space Q apostrophe close parentheses end cell equals cell 1 third cross times 1 fifth end cell end table`
+`| P ( R ' and Q ' ) | = 1 third x 1 fifth | |`
 
 **[1]**
 
-**Answer = **`table attributes columnalign right center left columnspacing 0px end attributes row blank blank cell bold 1 over bold 15 end cell end table` **[1]**
+**Answer = **`table columnalign right center left columnspacing 0px end | _ _ 1 / 15 | |` **[1]**
 
 **It is best to leave this answer as a fraction to avoid rounding it as a decimal**
 
@@ -780,13 +780,13 @@ $1-0.931=0.069$
 
 > *Find the probability of choosing one red bead.  *
 
-> `straight P open parentheses Red close parentheses space equals space fraction numerator 15 over denominator 15 space plus space 10 end fraction space equals space 15 over 25`*   *
+> $\mathrm{P} ( \text{Red} ) = \frac{15}{15 + 10} = \frac{15}{25}$*   *
 
 > *To find the probability of two things both happening, multiply the probabilities. *
 *You could draw a tree diagram to help. *
 *P(Both red) = P(first red) and P(second red)  = P(first red) × P(second red).  *
 
-`straight P open parentheses Both space red close parentheses space space equals space 15 over 25 space cross times space 15 over 25`
+$\mathrm{P} ( \text{Both} \text{red} ) = \frac{15}{25} \times \frac{15}{25}$
 
 ** [1]**
 
@@ -800,7 +800,7 @@ $\frac{9}{25}$** [1] **
 *The probabilities of mutually exclusive events add up to 1. *
 *The probability of not picking two red beads will be 1 - the probability of picking two red beads. *
 
-`straight P open parentheses Not space both space red close parentheses space equals space 1 space minus space 9 over 25`
+$\mathrm{P} ( \text{Not} \text{both} \text{red} ) = 1 - \frac{9}{25}$
 
 $\frac{16}{25}$** [1]**
 
@@ -818,9 +818,9 @@ $1-\frac{5}{8}=\frac{3}{8}\mathrm{and}1-\frac{1}{6}=\frac{5}{6}\mathrm{and}1-\fr
 ![cie-igcse-2018-may-jun-1-p4-q9a2](assets/026-cie-igcse-2018-may-jun-1-p4-q9a2.png)
 
 **1 mark for each correct pair of probabilities on diagram**** [3]**
-*Let the probability it will rain tomorrow be *`P open parentheses R close parentheses`* and the probability Rafael walks to school be *`P open parentheses W close parentheses`*.* *Using the "and" rule: *`P open parentheses A space and space B close parentheses equals P open parentheses A close parentheses cross times P open parentheses B close parentheses`
+*Let the probability it will rain tomorrow be *$P ( R )$* and the probability Rafael walks to school be *$P ( W )$*.* *Using the "and" rule: *`P ( A and B ) = P ( A ) x P ( B )`
 
-`P open parentheses R space and space W close parentheses equals 5 over 8 cross times 1 over 6`
+`P ( R and W ) = 5 / 8 x 1 / 6`
 
 **[1]**
 
@@ -832,18 +832,18 @@ $\frac{5}{48}$** [1] **
 
 > *It can rain and Rafael does not walk to school...*
 
-`P open parentheses R space and space W apostrophe close parentheses space equals 5 over 8 cross times 5 over 6 equals 25 over 48`
+`P ( R and W ' ) = 5 / 8 x 5 / 6 = 25 / 48`
 
 > *...or it can not rain and Rafael does not walk to school*
 
-`space P open parentheses R apostrophe space and space straight W apostrophe close parentheses equals 3 over 8 cross times 3 over 10 equals 9 over 80`
+`P ( R ' and W ' ) = 3 / 8 x 3 / 10 = 9 / 80`
 
 ** ****calculating either of the above correctly ****[1]**
 
 *That it rains or does not rain are mutually exclusive events- they cannot both happen.* 
-*The "or" rule for mutually exclusive events states *`P open parentheses A space o r space B close parentheses equals P open parentheses A close parentheses plus P open parentheses B close parentheses`
+*The "or" rule for mutually exclusive events states *$P ( A o r B ) = P ( A ) + P ( B )$
 
-`P open parentheses R space and space W apostrophe close parentheses space or space P open parentheses R apostrophe space and space straight W apostrophe close parentheses equals 25 over 48 plus 9 over 80`
+`P ( R and W ' ) or P ( R ' and W ' ) = 25 / 48 + 9 / 80`
 
 **[1]**
 
@@ -953,7 +953,7 @@ $\frac{147}{160}$** [1]**
 *Therefore the probability for all 3 possibilities are the same.*
 * Find the probability of one possibility by multiplying the three probabilities together.*
 
-`table row cell straight P open parentheses Bob space plays close parentheses cross times straight P open parentheses Bob space plays close parentheses cross times straight P open parentheses Bob space does space not space play close parentheses end cell equals cell 2 over 5 cross times 2 over 5 cross times 3 over 5 equals 12 over 125 end cell end table`
+$\begin{gathered} \mathrm{P} ( \text{Bob} \text{plays} ) \times \mathrm{P} ( \text{Bob} \text{plays} ) \times \mathrm{P} ( \text{Bob} \text{does} \text{not} \text{play} ) & = \frac{2}{5} \times \frac{2}{5} \times \frac{3}{5} = \frac{12}{125} \end{gathered}$
 
 **[1]**
 

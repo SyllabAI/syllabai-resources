@@ -120,7 +120,7 @@ Where:
 - The sum of ***x*** x* ****y**** (∑xy)* = 2114
 - *n *x mean of ***x*** x mean of ***y*** = nx̅y̅ = 2060
 - S<sub>x </sub>= 2.16 and S<sub>y</sub> = 3.02
-- Substitute values into the equation above: `r equals fraction numerator 2114 minus 2060 over denominator open parentheses 10 minus 1 close parentheses open parentheses 2.16 close parentheses open parentheses 3.02 close parentheses end fraction equals 0.92`
+- Substitute values into the equation above: $r = \frac{2114 - 2060}{( 10 - 1 ) ( 2.16 ) ( 3.02 )} = 0.92$
 
   - As the value of r lies close to 1, the null hypothesis can be rejected
   - There is a **strong positive correlation** between the abundance of species A and species B

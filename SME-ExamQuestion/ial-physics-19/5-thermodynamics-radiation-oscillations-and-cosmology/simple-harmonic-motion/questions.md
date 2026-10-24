@@ -153,10 +153,10 @@ Which of the following statements about the motion of the mass is correct?
 In the Pantheon in Paris there is a pendulum that takes 8.25 s to swing from one extreme position to the other.
 
 Which of the following expressions gives the length of the pendulum?
-- **A.** `fraction numerator 4 straight pi squared over denominator open parentheses 8.25 close parentheses squared space cross times 9.81 end fraction`
-- **B.** `fraction numerator 4 straight pi squared over denominator open parentheses 16.5 close parentheses squared space cross times 9.81 end fraction`
-- **C.** `fraction numerator open parentheses 8.25 close parentheses squared space cross times 9.81 over denominator space 4 straight pi squared end fraction`
-- **D.** `fraction numerator open parentheses 16.5 close parentheses squared space cross times 9.81 over denominator space 4 straight pi squared end fraction`
+- **A.** $\frac{4 \mathrm{\pi }^{2}}{( 8.25 )^{2} \times 9.81}$
+- **B.** $\frac{4 \mathrm{\pi }^{2}}{( 16.5 )^{2} \times 9.81}$
+- **C.** $\frac{( 8.25 )^{2} \times 9.81}{ 4 \mathrm{\pi }^{2}}$
+- **D.** $\frac{( 16.5 )^{2} \times 9.81}{ 4 \mathrm{\pi }^{2}}$
 
 ## Q9 — medium — 1 marks · multiple-choice-questions
 
@@ -177,8 +177,8 @@ A mass oscillates with simple harmonic motion with a frequency of 0.5 Hz.
 The amplitude of the oscillation is 0.3 m.
 
 Which of the following is an expression for the maximum velocity in m s<sup>−1</sup> of the mass?
-- **A.** `open parentheses fraction numerator 2 straight pi over denominator 0.5 end fraction close parentheses cross times 0.3`
-- **B.** `open parentheses fraction numerator 2 straight pi over denominator 0.5 end fraction close parentheses cross times 0.15`
+- **A.** $( \frac{2 \mathrm{\pi } }{0.5} ) \times 0.3$
+- **B.** $( \frac{2 \mathrm{\pi } }{0.5} ) \times 0.15$
 - **C.** $2π\times0.5\times0.3$
 - **D.** $2π\times0.5\times0.15$
 
@@ -190,10 +190,10 @@ A mass oscillates with simple harmonic motion. The graph shows how the accelerat
 ![q10-wph15-05-oct-2021-edexcel-int-as-and-a-level-phy](assets/001-q10-wph15-05-oct-2021-edexcel-int-as-and-a-level.png)
 
 Which of the following gives the period of oscillation, in seconds, of the mass?
-- **A.** `2 straight pi cross times open parentheses fraction numerator 3.2 over denominator 0.20 end fraction close parentheses`
-- **B.** `2 straight pi cross times open parentheses fraction numerator 0.20 over denominator 3.2 end fraction close parentheses`
-- **C.** `2 straight pi cross times square root of open parentheses fraction numerator 3.2 over denominator 0.20 end fraction close parentheses end root`
-- **D.** `2 straight pi cross times square root of open parentheses fraction numerator 0.20 over denominator 3.2 end fraction close parentheses end root`
+- **A.** $2 \mathrm{\pi } \times ( \frac{3.2}{0.20} )$
+- **B.** $2 \mathrm{\pi } \times ( \frac{0.20}{3.2} )$
+- **C.** $2 \mathrm{\pi } \times \sqrt{( \frac{3.2}{0.20} )}$
+- **D.** $2 \mathrm{\pi } \times \sqrt{( \frac{0.20}{3.2} )}$
 
 ## Q12 — medium — 1 marks · multiple-choice-questions
 
@@ -204,7 +204,7 @@ Which of the following shows a correct calculation of the maximum velocity of th
 - **A.** $2π\times0.55\times0.25$
 - **B.** $\frac{2π}{0.55}\times0.25$
 - **C.** $(2π\times0.55)^{2}\times0.25$
-- **D.** `open parentheses fraction numerator 2 straight pi over denominator 0.55 end fraction close parentheses squared space cross times space 0.25`
+- **D.** $( \frac{2 \mathrm{\pi } }{0.55} )^{2} \times 0.25$
 
 ## Q13 — medium — 1 marks · multiple-choice-questions
 

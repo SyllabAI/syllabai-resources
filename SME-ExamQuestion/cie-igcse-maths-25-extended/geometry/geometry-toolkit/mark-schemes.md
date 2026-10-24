@@ -139,17 +139,17 @@ $\sqrt{0.25}=0.5m$
 
 > *There are 60 seconds in a minute. Multiply by 60 to find how many metres are travelled in a minute.*
 
-`table row cell 50 space metres space per space second space end cell equals cell space 50 space cross times 60 space metres space per space minute end cell row blank equals cell 3000 space metres space per space minute end cell end table`
+`| 50 metres per second | = 50 x 60 metres per minute | | _ = 3000 metres per minute | |`
 
 **[1]**
 
 > *There are 60 minutes in an hour. Multiply by 60 to find how many metres are travelled in an hour.*
 
-`table row cell 3000 space metres space per space minute end cell equals cell space 3000 space cross times 60 space metres space per space hour end cell row blank equals cell 180000 space metres space per space hour end cell end table`
+`| 3000 metres per minute | = 3000 x 60 metres per hour | | _ = 180000 metres per hour | |`
 
 > *There are 1000 metres in a kilometre. Divide by 1000 to find how many kilometres are travelled in an hour.*
 
-`table row cell 18000 space metres space per space hour end cell equals cell 180000 over 1000 space kilometres space per space hour end cell end table`
+$\begin{gathered} 18000 \text{metres} \text{per} \text{hour} & = \frac{180000}{1000} \text{kilometres} \text{per} \text{hour} \end{gathered}$
 
 **[1]**
 

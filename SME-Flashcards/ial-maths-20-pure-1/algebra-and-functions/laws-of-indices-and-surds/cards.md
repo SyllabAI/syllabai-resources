@@ -103,7 +103,7 @@ In $a^{\frac{m}{n}}$, the denominator $n$ tells you which `\_\_\_\_\_\_` to take
 
 **BACK**
 
-In $a^{\frac{m}{n}}$, the denominator $n$ tells you which **root** to take, and the numerator $m$ is the power: `a to the power of m over n end exponent equals n-th root of a to the power of m end root`
+In $a^{\frac{m}{n}}$, the denominator $n$ tells you which **root** to take, and the numerator $m$ is the power: $a^{ \frac{m}{n} } = \sqrt[n]{a^{m} }$
 
 
 *Blanks: 0 — answers: ['root']*
@@ -141,7 +141,7 @@ How do you apply a power to a product, such as `\left(\frac{1}{27} x^{3}\right)^
 
 Apply the power to **each factor separately**, using `\left(ab\right)^{n} = a^{n}b^{n}`
 
-Here that gives `open parentheses 1 over 27 close parentheses to the power of 1 third end exponent open parentheses x cubed close parentheses to the power of 1 third end exponent equals 1 third x`
+Here that gives $( \frac{1}{27} )^{1 \frac{1}{3}} ( x^{3} )^{1 \frac{1}{3}} = 1 \frac{1}{3} x$
 
 
 Spec links: `spcpt_FBPgfRfmMsGhbB4q`
@@ -266,7 +266,7 @@ How do you simplify $5\sqrt{2}-2\sqrt{5}-8\sqrt{2}+3\sqrt{5}$?
 
 **Collect like terms**, treating $\sqrt{2}$ and $\sqrt{5}$ like different letters in algebra:
 
-`table row cell 5 square root of 2 minus 2 square root of 5 minus 8 square root of 2 plus 3 square root of 5 end cell equals cell open parentheses 5 minus 8 close parentheses square root of 2 plus open parentheses negative 2 plus 3 close parentheses square root of 5 end cell row blank equals cell negative 3 square root of 2 plus square root of 5 end cell end table`
+$\begin{gathered} 5 \sqrt{2} - 2 \sqrt{5} - 8 \sqrt{2} + 3 \sqrt{5} & = ( 5 - 8 ) \sqrt{2} + ( - 2 + 3 ) \sqrt{5} \\ = - 3 \sqrt{2} + \sqrt{5} \end{gathered}$
 
 
 Spec links: `spcpt_GwXDbw6JDb2bSZmK`

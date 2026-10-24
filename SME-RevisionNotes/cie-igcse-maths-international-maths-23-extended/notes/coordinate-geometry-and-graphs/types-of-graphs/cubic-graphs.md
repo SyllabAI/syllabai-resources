@@ -28,10 +28,10 @@ guided_study: true
     - but $a$ cannot be equal to zero
 - To sketch the graph of a cubic, the polynomial needs to be in **factorised form**
 
-  - E.g.  `open parentheses 2 x minus 1 close parentheses open parentheses x plus 2 close parentheses open parentheses x minus 3 close parentheses` is the factorised form of $2x^{3}-3x^{2}-11x+6$
+  - E.g.  $( 2 x - 1 ) ( x + 2 ) ( x - 3 )$ is the factorised form of $2x^{3}-3x^{2}-11x+6$
 - You do **not** need to **factorise** **a cubic **unless it is a more simple one
 
-  - E.g.  `x cubed minus 4 x equals x open parentheses x squared minus 4 close parentheses equals x open parentheses x minus 2 close parentheses open parentheses x plus 2 close parentheses`
+  - E.g.  $x^{3} - 4 x = x ( x^{2} - 4 ) = x ( x - 2 ) ( x + 2 )$
   - You should be able to **expand three brackets** to find the expanded form of a cubic
 
 ### What does the graph of a cubic look like?
@@ -71,12 +71,12 @@ Find the $x$-axis intercepts (**roots**) by setting $y=0$
 
   - In factorised form, this can be done by **inspection**
   
-    - A cubic of the form `y equals open parentheses x minus p close parentheses open parentheses x minus q close parentheses open parentheses x minus r close parentheses` has roots at $p,q$ and $r$
-    - E.g. `y equals open parentheses x minus 2 close parentheses open parentheses x minus 3 close parentheses open parentheses x plus 5 close parentheses` has roots at 2, 3, and -5
+    - A cubic of the form $y = ( x - p ) ( x - q ) ( x - r )$ has roots at $p,q$ and $r$
+    - E.g. $y = ( x - 2 ) ( x - 3 ) ( x + 5 )$ has roots at 2, 3, and -5
   - Any **repeated roots** will mean the graph **touches** the $x$-axis
   
     - The graph does **not cross** the $x$-axis
-    - E.g. `open parentheses x minus 2 close parentheses squared open parentheses x plus 1 close parentheses`* ***touches*** *the $x$-axis at $x=2$, and **intersects*** *the $x$-axis at $x=-1$
+    - E.g. $( x - 2 )^{2} ( x + 1 )$* ***touches*** *the $x$-axis at $x=2$, and **intersects*** *the $x$-axis at $x=-1$
 - **STEP 3**
 Consider the **shape **of the graph
 
@@ -89,26 +89,26 @@ Consider where any **turning points** should go
 **Label **points where the graph** intercepts** the $x$ and $y$ axes
 
 > **Worked Example**
-> Sketch the graph of `y equals open parentheses 2 x minus 1 close parentheses open parentheses x minus 3 close parentheses squared`.
+> Sketch the graph of $y = ( 2 x - 1 ) ( x - 3 )^{2}$.
 > 
 > > *STEP 1*
 > *Find the *$y$*-axis intercept by substituting in *$x=0$
 > 
-> `y equals open parentheses negative 1 close parentheses open parentheses negative 3 close parentheses squared equals negative 9`
+> $y = ( - 1 ) ( - 3 )^{2} = - 9$
 > 
 > > *STEP 2*
 > *Find the *$x$*-axis intercepts by solving *$y=0$
 > *Either bracket can be equal to zero*
 > 
-> `table row cell open parentheses 2 x minus 1 close parentheses end cell equals cell 0 space end cell row cell space x end cell equals cell 1 half end cell end table`
+> $\begin{gathered} ( 2 x - 1 ) & = 0 \\ x & = 1 \frac{1}{2} \end{gathered}$
 > 
-> `table row cell open parentheses x minus 3 close parentheses squared end cell equals 0 row x equals 3 end table`
-> *(repeated solution, as there are two *`open parentheses x minus 3 close parentheses`* brackets*
+> $\begin{gathered} ( x - 3 )^{2} & = 0 \\ x = 3 \end{gathered}$
+> *(repeated solution, as there are two *$( x - 3 )$* brackets*
 > 
 > > *STEP 3*
 > *Consider the shape, and the 'start' and 'end' points:*
 > 
-> > `a greater than 0 space open parentheses a equals 2 close parentheses`* so it is a positive cubic*
+> > $a > 0 ( a = 2 )$* so it is a positive cubic*
 > $x=3$* is a repeated root so the graph will **touch **the *$x$*-axis at this point*
 > 
 > > *STEP 4*

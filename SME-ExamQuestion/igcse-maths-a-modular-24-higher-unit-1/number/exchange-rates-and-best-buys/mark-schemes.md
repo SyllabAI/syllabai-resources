@@ -9,7 +9,7 @@
 *2/3 **off **normal price means that the sale price is 1/3 of normal price. *
 *So find 1/3 of £1500.*
 
-`Bathroom space Mart colon space space 1 third space cross times space 1500 space equals space 1500 over 3 space equals space £ 500`
+$\text{Bathroom} \text{Mart} : 1 \frac{1}{3} \times 1500 = \frac{1500}{3} = \pounds 500$
 
 **[1]**
 
@@ -24,7 +24,7 @@ $0.4\times1500=600$
 > *So after taking 60% off, £600 is left. *
 *Now we need to take 15% off of that, which leaves 85% Find 85% of 600*
 
-`Mega space Bathrooms colon space space 0.85 space cross times space 600 space equals space £ 510`
+$Mega Bathrooms : 0.85 \times 600 = \pounds 510$
 
 **[1]**
 
@@ -37,9 +37,7 @@ $0.4\times1500=600$
 ### 6() — 4 marks
 > *Divide cost of each option by the number of kilograms of potatoes to find cost per kilogram.*
 
-`farm space shop colon space space 9 space divided by space 12.5 space equals space £ 0.72 space space per space kg
-
-supermarket colon space space space space 1.83 space divided by space 2.5 space equals space £ 0.732 space space per space kg`
+$\text{farm} \text{shop} : 9 \div 12.5 = \pounds 0.72 \text{per} kg \text{supermarket} : 1.83 \div 2.5 = \pounds 0.732 \text{per} kg$
 
 **[3] **
 **1 mark for dividing to find one price per kg.  1 mark for dividing to find both prices per kg.  1 mark for both answers correct.**
@@ -58,11 +56,11 @@ supermarket colon space space space space 1.83 space divided by space 2.5 space 
 ### 7() — 4 marks
 > *Divide cost of each tray by the number of plants to find cost per plant.*
 
-`small colon space space 6.50 space divided by space 30 space equals space £ 0.216666... space space per space plant
+$\text{small} : 6.50 \div 30 = \pounds 0.216666... \text{per} \text{plant}
 
-medium colon space space 8.95 space divided by space 40 space equals space £ 0.22375 space space per space plant
+\text{medium} : 8.95 \div 40 = \pounds 0.22375 \text{per} \text{plant}
 
-large table row blank blank colon end table table row blank blank space end table table row blank blank space end table table row blank blank 10 end table table row blank blank. end table table row blank blank 99 end table table row blank blank space end table table row blank blank divided by end table table row blank blank space end table table row blank blank 50 end table table row blank blank space end table table row blank equals blank end table table row blank blank cell space £ end cell end table table row blank blank 0 end table table row blank blank. end table table row blank blank 2198 end table table row blank blank space end table table row blank blank space end table table row blank blank per end table table row blank blank space end table table row blank blank plant end table`
+\text{large} \begin{gathered} : \end{gathered} \begin{gathered} \end{gathered} \begin{gathered} \end{gathered} \begin{gathered} 10 \end{gathered} \begin{gathered} . \end{gathered} \begin{gathered} 99 \end{gathered} \begin{gathered} \end{gathered} \begin{gathered} \div \end{gathered} \begin{gathered} \end{gathered} \begin{gathered} 50 \end{gathered} \begin{gathered} \end{gathered} \begin{gathered} = \end{gathered} \begin{gathered} \pounds \end{gathered} \begin{gathered} 0 \end{gathered} \begin{gathered} . \end{gathered} \begin{gathered} 2198 \end{gathered} \begin{gathered} \end{gathered} \begin{gathered} \end{gathered} \begin{gathered} \text{per} \end{gathered} \begin{gathered} \end{gathered} \begin{gathered} \text{plant} \end{gathered}$
 
 **[3]**
 
@@ -85,20 +83,20 @@ $180\div1000=0.18\mathrm{cubic} \mathrm{metres}$
 
 > *Now multiply by 91.22p to find the cost per day with the water meter.*
 
-`0.18 space cross times space 91.22 space equals space 16.4196 space straight p space equals space £ 0.164196`
+$0.18 \times 91.22 = 16.4196 \mathrm{p} = \pounds 0.164196$
 
 **[1]**
 
 > *Then multiply by 365 (the number of days in a normal year) to find the price for water used per year.*
 * (You don't need to worry about leap years here!)*
 
-`0.164196 space cross times space 365 space equals space £ 59.93154`
+$0.164196 \times 365 = \pounds 59.93154$
 
 **[1]**
 
 > *Add £28.20 to find the total cost with a water meter per year.*
 
-`59.93154 space plus space 28.20 space equals space 88.13154 space equals space £ 88.13 space open parentheses nearest space penny close parentheses`
+$59.93154 + 28.20 = 88.13154 = \pounds 88.13 ( \text{nearest} \text{penny} )$
 
 **[1]**
 
@@ -129,11 +127,7 @@ $4\mathrm{pints}:118\div4=29.5p\mathrm{per} \mathrm{pint}\,\,6\mathrm{pints}:174
 ### 6() — 4 marks
 > *Divide cost of each size box by the number of sachets to find cost per sachet.*
 
-`small colon space space 5.65 space divided by space 12 space equals space £ 0.470833... space space per space sachet
-
-medium colon space space 9.20 space divided by space 20 space equals space £ 0.46 space space per space sachet
-
-large colon space space 15.75 space divided by space 35 space equals space £ 0.45 space space per space sachet`
+$\text{small} : 5.65 \div 12 = \pounds 0.470833... \text{per} \text{sachet} \text{medium} : 9.20 \div 20 = \pounds 0.46 \text{per} \text{sachet} \text{large} : 15.75 \div 35 = \pounds 0.45 \text{per} \text{sachet}$
 
 **[3]**
 
@@ -150,13 +144,13 @@ large colon space space 15.75 space divided by space 35 space equals space £ 0.
 ### 10() — 4 marks
 > *First multiply 3.79 litres by £1.24 per litre, to find the UK price per US gallon in £.*
 
-`3.79 space cross times space 1.24 space equals space £ 4.6996`
+$3.79 \times 1.24 = \pounds 4.6996$
 
 **[1]**
 
 > *£1 = 1.47 dollars, so multiply 4.6996 by 1.47 to find the UK price per US gallon in dollars.*
 
-`4.6996 space cross times space 1.47 space equals space 6.908412 space equals space 6.91 space dollars space open parentheses 2 space straight d. straight p. close parentheses`
+$4.6996 \times 1.47 = 6.908412 = 6.91 \text{dollars} ( 2 \mathrm{d} . \mathrm{p} . )$
 
 **[2] **
 **1 mark for multiplying to find the price in US dollars.  1 mark for the correct answer.**
@@ -193,11 +187,11 @@ $5164\div100=51.64$
 ### 8() — 4 marks
 > *Divide cost of each size tube by the volume to find cost per ml.*
 
-`50 space ml colon space space 1.09 space divided by space 50 space equals space £ 0.0218 space space per space ml
+$50 \text{ml} : 1.09 \div 50 = \pounds 0.0218 \text{per} \text{ml}
 
-75 space ml colon space space 1.68 space divided by space 75 space equals space £ 0.0224 space space per space ml
+75 \text{ml} : 1.68 \div 75 = \pounds 0.0224 \text{per} \text{ml}
 
-125 space ml colon space space 15.75 space divided by space 35 space equals space £ 0.02152 space space per space ml`
+125 \text{ml} : 15.75 \div 35 = \pounds 0.02152 \text{per} \text{ml}$
 
 **[3]**
 
@@ -214,13 +208,13 @@ $5164\div100=51.64$
 ### 3() — 3 marks
 > *£1 = 1.39 Swiss francs, so divide 189 by 1.39 to find the Geneva price in pounds.*
 
-`189 space divided by space 1.39 space equals space 135.9712... space equals space £ 135.97 space open parentheses nearest space penny close parentheses`
+$189 \div 1.39 = 135.9712... = \pounds 135.97 ( \text{nearest} \text{penny} )$
 
 **[1]**
 
 > *£1 = 1.27 euros, so divide 174 by 1.27 to find the Paris price in pounds.*
 
-`174 space divided by space 1.27 space equals space 137.0078... space equals space £ 137.01 space open parentheses nearest space penny close parentheses`
+$174 \div 1.27 = 137.0078... = \pounds 137.01 ( \text{nearest} \text{penny} )$
 
 **[1]**
 
@@ -238,13 +232,13 @@ $5164\div100=51.64$
 ### 5() — 3 marks
 > *£1 is HK\$12.30.  So HK\$3179.55 is equivalent to 3179.55 ÷ 12.30 £s.*
 
-`3179.55 space divided by space 12.30 space equals space £ 258.50`
+$3179.55 \div 12.30 = \pounds 258.50$
 
 **[1]**
 
 > *Subtract that from the London price to find out how much he saved.*
 
-`285 space minus space 258.50 space equals space £ 26.50`
+$285 - 258.50 = \pounds 26.50$
 
 **[1]**
 
@@ -258,11 +252,7 @@ $5164\div100=51.64$
 ### 4() — 4 marks
 > *Divide cost of each pack by the number of bags of crisps to find cost per bag.*
 
-`small colon space space 4 space divided by space 18 space equals space £ 0.222222... space space per space bag
-
-medium colon space space 4.99 space divided by space 20 space equals space £ 0.2495 space space per space bag
-
-large colon space space space space 6 space divided by space 26 space equals space £ 0.230769... space space per space bag`
+$\text{small} : 4 \div 18 = \pounds 0.222222... \text{per} \text{bag} \text{medium} : 4.99 \div 20 = \pounds 0.2495 \text{per} \text{bag} \text{large} : 6 \div 26 = \pounds 0.230769... \text{per} \text{bag}$
 
 **[3]**
 
@@ -279,13 +269,13 @@ large colon space space space space 6 space divided by space 26 space equals spa
 ### 2() — 3 marks
 > *First multiply 3.785 litres by 108.9p per litre, to find the London price per US gallon in £.*
 
-`3.785 space cross times space 108.9 space equals space 412.1865 space straight p space equals space £ 4.121865`
+$3.785 \times 108.9 = 412.1865 \mathrm{p} = \pounds 4.121865$
 
 **[1]**
 
 > *£1 = \$1.46, so multiply 4.121865 by 1.46 to find the London price per US gallon in \$.*
 
-`4.121865 space cross times space 1.46 space equals space 6.0179229 space equals space $ 6.02 space open parentheses 2 space straight d. straight p. close parentheses`
+$4.121865 \times 1.46 = 6.0179229 = \$ 6.02 ( 2 \mathrm{d} . \mathrm{p} . )$
 
 **[1]**
 
@@ -301,13 +291,13 @@ large colon space space space space 6 space divided by space 26 space equals spa
 ### 6() — 3 marks
 > *£1 is 1.16 euros.  So 5 euros is equivalent to 5 ÷ 1.16 £s.*
 
-`5 space divided by space 1.16 space equals space 4.3103... space equals space £ 4.31 space open parentheses nearest space penny close parentheses`
+$5 \div 1.16 = 4.3103... = \pounds 4.31 ( \text{nearest} \text{penny} )$
 
 **[1]**
 
 > *Subtract the price in England from that to find the difference.*
 
-`4.31 space minus space 2.50 space equals space £ 1.81`
+$4.31 - 2.50 = \pounds 1.81$
 
 **[1]**
 
@@ -321,9 +311,7 @@ large colon space space space space 6 space divided by space 26 space equals spa
 ### 10() — 3 marks
 > *Divide cost of each carton by the number of grams of crisps to find cost per gram.*
 
-`small colon space space 1.60 space divided by space 125 space equals space £ 0.0128 space space per space gram
-
-large colon space space space space 2.80 space divided by space 225 space equals space £ 0.012444... space space per space gram`
+$\text{small} : 1.60 \div 125 = \pounds 0.0128 \text{per} \text{gram} \text{large} : 2.80 \div 225 = \pounds 0.012444... \text{per} \text{gram}$
 
 **[2]**
 
@@ -341,13 +329,13 @@ large colon space space space space 2.80 space divided by space 225 space equals
 ### 2() — 3 marks
 > *£1 = €1.34, so divide 1980 by 1.34 to find the Paris price in pounds.*
 
-`1980 space divided by space 1.34 space equals space 1477.6119... space equals space £ 1477.61 space open parentheses nearest space penny close parentheses`
+$1980 \div 1.34 = 1477.6119... = \pounds 1477.61 ( \text{nearest} \text{penny} )$
 
 **[1]**
 
 > *£1 = \$1.52, so divide 2250 by 1.52 to find the New York price in pounds.*
 
-`2250 space divided by space 1.52 space equals space 1480.2631... space equals space £ 1480.26 space open parentheses nearest space penny close parentheses`
+$2250 \div 1.52 = 1480.2631... = \pounds 1480.26 ( \text{nearest} \text{penny} )$
 
 **[1]**
 
@@ -365,7 +353,7 @@ large colon space space space space 2.80 space divided by space 225 space equals
 ### 8() — 3 marks
 > *£1 is 1.34 euros.  So 31 euros is equivalent to 31 ÷ 1.34 euros.*
 
-`31 space divided by space 1.34 space equals space 23.1343... space equals space £ 23.13 space open parentheses nearest space penny close parentheses`
+$31 \div 1.34 = 23.1343... = \pounds 23.13 ( \text{nearest} \text{penny} )$
 
 **[2] **
 **1 mark for dividing to find the price in £.  **
@@ -433,8 +421,7 @@ $0.2\times52.50=10.50$
 
 > *Now we need to add the 20% to the total.*
 
-`52.50 space plus space 10.50 space equals space 63.00
-Hedge space World colon space £ 63`
+$52.50 + 10.50 = 63.00 Hedge World : \pounds 63$
 
 **[1]**
 
@@ -547,14 +534,14 @@ $440.270032...$
 
 > *Shop A sells 2 at half price for every 1 full price bottle bought, so it makes sense to consider buying these bottles in groups of 3. You could either buy 3 or 6 bottle from shop A. *
 
-`Shop space straight A colon
-3 space bottles space equals space 1 space cross times space £ 1 space plus space 2 cross times space £ 0.50 space equals space £ 2
-6 space bottles space equals space 2 space cross times space £ 1 space plus space 4 cross times space £ 0.50 space equals space £ 4`
+$\text{Shop} \mathrm{A} :
+3 \text{bottles} = 1 \times \pounds 1 + 2 \times \pounds 0.50 = \pounds 2
+6 \text{bottles} = 2 \times \pounds 1 + 4 \times \pounds 0.50 = \pounds 4$
 
 > *Shop B sells 3 at half price for every 2 full price bottles bought, so it makes sense to consider buying these bottles in groups of 5. You could buy 5 bottles from shop B. *
 
-`Shop space straight B colon space
-5 space bottles space equals space 2 space cross times space £ 1 space plus space 3 space cross times space £ 0.50 space equals space £ 3.50`
+$\text{Shop} \mathrm{B} : 
+5 \text{bottles} = 2 \times \pounds 1 + 3 \times \pounds 0.50 = \pounds 3.50$
 
 > *Shop C sells every bottle at 30% off, so you could buy any number of the bottles at 30% off the full price.*
 
@@ -564,8 +551,8 @@ $440.270032...$
 
 > *To buy something at 30% off the price, you still need to pay 70% of the original price, so the easiest way to take 30% off of £1 is to multiply is by 0.7.*
 
-`Shop space straight C colon space
-8 space bottles space equals space 8 space cross times space £ 1 space cross times space 0.7 space space equals space £ 5.60`
+$\text{Shop} \mathrm{C} : 
+8 \text{bottles} = 8 \times \pounds 1 \times 0.7 = \pounds 5.60$
 
 ** ****Any of the above ****[1]**
 
@@ -573,11 +560,11 @@ $440.270032...$
 
 > *Option 2: Buy 5 from shop B and 3 from shop A.*
 
-`Shop space straight A space open parentheses 3 space bottles close parentheses space and space shop space straight B space open parentheses 5 space bottles close parentheses space equals space £ 2 space plus space £ 3.50 space equals space £ 5.50`
+`Shop A ( 3 bottles ) and shop B ( 5 bottles ) = \pounds 2 + \pounds 3.50 = \pounds 5.50`
 
 > *The third option is buying 6 from shop A, but then you could not benefit from the offer at shop B, so you could buy the other 2 from shop C at 30% off.*
 
-> * *`Shop space straight A space open parentheses 6 space bottles close parentheses space and space shop space straight C space open parentheses 2 space bottles close parentheses space equals space £ 4 space plus space space open parentheses 2 space cross times space £ 1 space cross times space 0.7 close parentheses space equals space £ 4 space plus space £ 1.4 0 space equals space £ 5.40`
+> * *`Shop A ( 6 bottles ) and shop C ( 2 bottles ) = \pounds 4 + ( 2 x \pounds 1 x 0.7 ) = \pounds 4 + \pounds 1.4 0 = \pounds 5.40`
 
 **Any combination found ****[1]**
 
@@ -610,13 +597,13 @@ $\frac{64}{0.0154}=4155.844155...$
 
 > *If \$1=0.9416 euros, we can **divide both sides by 0.9416** to find the price in dollars for 1 euro*
 
-`table row cell $ 1 space end cell equals cell space 0.9416 space euros end cell row cell $ 1.06202209 space end cell equals cell space 1 space euro end cell end table`
+$\begin{gathered} \$ 1 & = 0.9416 \text{euros} \\ \$ 1.06202209 & = 1 \text{euro} \end{gathered}$
 
 **[1]**
 
 > *We can now use this to find the price of the 2.25 euro newspaper, in dollars*
 
-`2.25 space euros space equals space 2.25 space cross times $ 1.06202209 equals $ 2.389549703`
+$2.25 \text{euros} = 2.25 \times \$ 1.06202209 = \$ 2.389549703$
 
 > *Find the difference between this price and the \$1.13 Maria paid at home*
 
@@ -624,7 +611,7 @@ $2.389549703-1.13=1.259549703...$
 
 **[1]**
 
-`bold $ bold space bold 1 bold. bold 26` **[1]** 
+$\$ 1 . 26$ **[1]** 
 **Rounded to 2 decimal places (as it is money)**
 
 ## Q29 — medium — 2 marks · exam-questions
@@ -674,7 +661,7 @@ $1962\times\frac{1}{1.635}$
 ### 1((d)) — 3 marks
 > *Work out the total cost of the apples*
 
-`5 cross times $ 2.69 equals $ 13.45`
+$5 \times \$ 2.69 = \$ 13.45$
 
 **[1]**
 
@@ -684,7 +671,7 @@ $1962\times\frac{1}{1.635}$
 
 > *Divide the resulting amount by 3 to find the cost per kilograms of bananas*
 
-`$ 4.11 divided by 3`
+$\$ 4.11 \div 3$
 
 **[1]**
 

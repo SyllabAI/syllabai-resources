@@ -83,7 +83,7 @@ From the data and formulae pages:
 
 Recall the de Broglie equation and substitute the known values:
 
-- *λ* = $\frac{h}{p}=\frac{h}{mv}$ = `begin mathsize 14px style fraction numerator 6.63 cross times 10 to the power of negative 34 end exponent over denominator open parentheses 9.11 cross times 10 to the power of negative 31 end exponent close parentheses cross times open parentheses 2.5 cross times 10 to the power of 7 close parentheses end fraction end style` **[1 mark] **
+- *λ* = $\frac{h}{p}=\frac{h}{mv}$ = $\frac{6.63 \times 10^{- 34} }{( 9.11 \times 10^{- 31} ) \times ( 2.5 \times 10^{7} )}$ **[1 mark] **
 
 Calculate the final answer:
 
@@ -195,7 +195,7 @@ From the data page:
 **Method 1: Calculate the mean constant of proportionality from part (a)**
 
 - From part (a), *λv = *constant
-- The mean constant from the data is `fraction numerator open parentheses 6.9 plus 7.0 plus 7.4 close parentheses cross times 10 to the power of negative 4 end exponent over denominator 3 end fraction`= 7.1 × 10<sup>–4 </sup>**[1 mark]**
+- The mean constant from the data is $\frac{( 6.9 + 7.0 + 7.4 ) \times 10^{- 4} }{3}$= 7.1 × 10<sup>–4 </sup>**[1 mark]**
 
 Use the mean constant *λv  *to calculate a value for Planck’s constant:
 
@@ -205,7 +205,7 @@ Use the mean constant *λv  *to calculate a value for Planck’s constant:
 Calculate the percentage difference to the accepted value for Planck’s constant:
 
 - The accepted value for Planck’s constant is 6.63 × 10<sup>–34</sup> J s
-- The percentage difference Δ% = `fraction numerator open parentheses 6.63 minus 6.47 close parentheses cross times 10 to the power of negative 34 end exponent over denominator 6.63 cross times 10 to the power of negative 34 end exponent end fraction`× 100 = 2% **[1 mark]**
+- The percentage difference Δ% = $\frac{( 6.63 - 6.47 ) \times 10^{- 34} }{6.63 \times 10^{- 34} }$× 100 = 2% **[1 mark]**
 
 Comment on the accuracy of the experiment:
 
@@ -229,12 +229,12 @@ Comment on the accuracy of the experiment:
 
 Calculate the mean value of Planck’s constant from the data:
 
-- The mean value of Planck’s constant is `fraction numerator open parentheses 6.29 plus 6.38 plus 6.74 close parentheses cross times 10 to the power of negative 34 end exponent over denominator 3 end fraction`= 6.47 × 10<sup>–34</sup> (J s) **[1 mark]**
+- The mean value of Planck’s constant is $\frac{( 6.29 + 6.38 + 6.74 ) \times 10^{- 34} }{3}$= 6.47 × 10<sup>–34</sup> (J s) **[1 mark]**
 
 Calculate the percentage difference to the accepted value for Planck’s constant:
 
 - The accepted value for Planck’s constant is 6.63 × 10<sup>–34</sup> J s
-- The percentage difference Δ% =`fraction numerator open parentheses 6.63 minus 6.47 close parentheses cross times 10 to the power of negative 34 end exponent over denominator 6.63 cross times 10 to the power of negative 34 end exponent end fraction` × 100 = 2% **[1 mark]**
+- The percentage difference Δ% =$\frac{( 6.63 - 6.47 ) \times 10^{- 34} }{6.63 \times 10^{- 34} }$ × 100 = 2% **[1 mark]**
 
 Comment on the accuracy of the experiment:
 
@@ -253,7 +253,7 @@ Consider energy transfers for the electron:
 Substitute the de Broglie wavelength:
 
 - de Broglie wavelength *λ* = $\frac{h}{mv}$, therefore *v* = $\frac{h}{λm}$
-- Therefore, *eV  = *$\frac{1}{2}$*m*`open parentheses fraction numerator h over denominator lambda m end fraction close parentheses squared`*= *$\frac{1}{2}$*m*`open parentheses fraction numerator h squared over denominator lambda squared m squared end fraction close parentheses`* *= $\frac{h^{2}}{2mλ^{2}}$ **[1 mark]**
+- Therefore, *eV  = *$\frac{1}{2}$*m*$( \frac{h}{\\lambda m} )^{2}$*= *$\frac{1}{2}$*m*$( \frac{h^{2}}{\\lambda ^{2} m^{2}} )$* *= $\frac{h^{2}}{2mλ^{2}}$ **[1 mark]**
 
 Deduce the proportionality between *λ *and *V*:
 
@@ -291,7 +291,7 @@ If the speed of the electrons decreases, then the radius of the concentric rings
 
 **[Total: 1 mark]**
 
-> *Remember, velocity is inversely proportional to the de Broglie wavelength *`open parentheses lambda space equals space fraction numerator h over denominator m v end fraction close parentheses`
+> *Remember, velocity is inversely proportional to the de Broglie wavelength *$( \\lambda = \frac{h}{m v} )$
 
 > *Therefore, if the speed decreases, the de Broglie wavelength increases and becomes more comparable to the size of the gaps between atomic layers in the graphite*
 
@@ -312,7 +312,7 @@ From the data page:
 Recall the de Broglie equation:
 
 - de Broglie wavelength:  $λ=\frac{h}{p}=\frac{h}{m_{e}v}$
-- `lambda space equals space fraction numerator 6.63 cross times 10 to the power of negative 34 end exponent over denominator open parentheses 9.11 cross times 10 to the power of negative 31 end exponent close parentheses open parentheses 3.18 cross times 10 to the power of 7 close parentheses end fraction`** [1 mark]**
+- $\\lambda = \frac{6.63 \times 10^{- 34} }{( 9.11 \times 10^{- 31} ) ( 3.18 \times 10^{7} )}$** [1 mark]**
 - $λ$ = 2.29 × 10<sup>–11</sup> m **[1 mark]**
 
 **[Total: 2 marks]**
@@ -351,7 +351,7 @@ Rearrange this equation to give an expression for *v*<sup>2</sup> :
 
 Substitute this into the squared de Broglie equation:
 
-- `lambda squared space equals space fraction numerator h squared over denominator m squared open parentheses fraction numerator 2 q V over denominator m end fraction close parentheses end fraction`
+- $\\lambda ^{2} = \frac{h^{2}}{m^{2} ( \frac{2 q V}{m} )}$
 
 **AND**
 
@@ -366,12 +366,12 @@ Calculate the percentage uncertainty in $λ^{2}$:
 
 - The error bar indicates that the range and uncertainty is half the range (the middle to the top)
 - There are two small squares, each of value 0.05, therefore the uncertainty is ±0.1
-- `percent sign thin space u n c e r t a i n t y space equals space fraction numerator u n c e r t a i n t y over denominator m e a s u r e d space v a l u e space open parentheses f r o m space t h e space g r a p h close parentheses end fraction space cross times space 100`
-- `percent sign thin space u n c e r t a i n t y space i n space lambda squared space equals space fraction numerator 0.1 over denominator 1 end fraction space cross times space 100 space equals space 10 space percent sign` **[1 mark]**
+- $\% u n c e r t a i n t y = \frac{u n c e r t a i n t y}{m e a s u r e d v a l u e ( f r o m t h e g r a p h )} \times 100$
+- $\% u n c e r t a i n t y i n \\lambda ^{2} = \frac{0.1}{1} \times 100 = 10 \%$ **[1 mark]**
 
 Calculate the percentage uncertainty in $λ$:
 
-- Uncertainty in `lambda squared space equals space 10 space percent sign`
+- Uncertainty in $\\lambda ^{2} = 10 \%$
 - $λ^{2}=λ\timesλ$
 - So, the uncertainty in $λ$ has been multiplied by 2 to get the uncertainty in $λ^{2}$
 - So find uncertainty in $λ$, divide the uncertainty by 2 giving a percentage uncertainty of 5% **[1 mark]**
@@ -398,22 +398,22 @@ Find the gradient of the graph:
 
 ![q19-b3-ms](assets/010-q19-b3-ms.png)
 
-- `g r a d i e n t equals fraction numerator straight capital delta y over denominator straight capital delta x end fraction equals fraction numerator open parentheses 1.4 cross times 10 to the power of negative 25 end exponent close parentheses minus open parentheses 0.1 cross times 10 to the power of negative 25 end exponent close parentheses over denominator open parentheses 14 cross times 10 to the power of negative 4 end exponent close parentheses minus open parentheses 1 cross times 10 to the power of negative 4 end exponent close parentheses end fraction equals 1.0 cross times 10 to the power of negative 22 end exponent` **[1 mark]**
+- `g r a d i e n t = ( capital delta y)/( capital delta x) = (( 1.4 x 10 ^ - 25 ) - ( 0.1 x 10 ^ - 25 ))/(( 14 x 10 ^ - 4 ) - ( 1 x 10 ^ - 4 )) = 1.0 x 10 ^ - 22` **[1 mark]**
 
 Find an expression for the gradient:
 
-- A straight line follows the equation `y space equals space m x space open parentheses plus c close parentheses` where *m* represents gradient
+- A straight line follows the equation $y = m x ( + c )$ where *m* represents gradient
 - From the expression,  $λ^{2}=\frac{h^{2}}{2mq}\times\frac{1}{V}$ the gradient is $\frac{h^{2}}{2mq}$**[1 mark]**
 
 Substitute in known values:
 
 - $gradient=\frac{h^{2}}{2mq}$
 - Charge, *q* = 2 × 1.6 × 10<sup>−19</sup> = 3.2 × 10<sup>−19</sup> C
-- `1.0 cross times 10 to the power of negative 22 end exponent equals fraction numerator open parentheses 6.63 cross times 10 to the power of negative 34 end exponent close parentheses squared over denominator 2 cross times m cross times open parentheses 3.2 cross times 10 to the power of negative 19 end exponent close parentheses end fraction`**[1 mark]**
+- $1.0 \times 10^{- 22} = \frac{( 6.63 \times 10^{- 34} )^{2}}{2 \times m \times ( 3.2 \times 10^{- 19} )}$**[1 mark]**
 
 Rearrange and calculate mass, $m$:
 
-- `m equals fraction numerator open parentheses 6.63 cross times 10 to the power of negative 34 end exponent close parentheses squared over denominator 2 cross times open parentheses 1.0 cross times 10 to the power of negative 22 end exponent close parentheses cross times open parentheses 3.2 cross times 10 to the power of negative 19 end exponent close parentheses end fraction equals 6.9 cross times 10 to the power of negative 27 end exponent space kg` **[1 mark]**
+- $m = \frac{( 6.63 \times 10^{- 34} )^{2}}{2 \times ( 1.0 \times 10^{- 22} ) \times ( 3.2 \times 10^{- 19} )} = 6.9 \times 10^{- 27} \text{kg}$ **[1 mark]**
 
 **[Total: 4 marks]**
 
@@ -440,7 +440,7 @@ List the known quantities:
 Use the equation for calculating photon energy, *E*:
 
 - $E=\frac{hc}{λ}$
-- `E space equals space fraction numerator open parentheses 6.63 space cross times space 10 to the power of negative 34 end exponent close parentheses space cross times space open parentheses 3.00 space cross times space 10 to the power of 8 close parentheses over denominator open parentheses 590 space cross times space 10 to the power of negative 9 end exponent close parentheses end fraction` **[1 mark]**
+- $E = \frac{( 6.63 \times 10^{- 34} ) \times ( 3.00 \times 10^{8 )}{( 590 \times 10^{-9} } )}$ **[1 mark]**
 - $E=3.37\times10^{-19}J$ **[1 mark]**
 
 **[Total: 3 marks]**
@@ -467,7 +467,7 @@ Use the kinetic energy equation to calculate the speed of the electron, *v*:
 - Electron has kinetic energy only after deflection
 - So, $E=KE=\frac{1}{2}m_{e}v^{2}$
 - $v=\sqrt{\frac{2KE}{m_{e}}}$ **[1 mark]**
-- `v space equals space square root of fraction numerator 2 space cross times space open parentheses 2.26 space cross times space 10 to the power of negative 18 end exponent close parentheses over denominator open parentheses 9.11 space cross times space 10 to the power of negative 31 end exponent close parentheses end fraction end root`
+- $v = \sqrt{ \frac{2 \times ( 2.26 \times 10^{- 18} )}{( 9.11 \times 10^{- 31} )} }$
 - $v=2.23\times10^{6}ms^{-1}$ **[1 mark]**
 
 **[Total: 3 marks]**

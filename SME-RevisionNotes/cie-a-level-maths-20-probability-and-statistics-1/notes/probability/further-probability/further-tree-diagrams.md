@@ -33,9 +33,9 @@ guided_study: true
 - **Condition probability** may now be involved too
 - This makes it harder to know where to start and how to complete the probabilities on a tree diagram
 
-  - e.g. If given, possibly in words, `begin mathsize 16px style P left parenthesis B vertical line A right parenthesis end style` then **event *****A*** has already occurred so start by looking for the branch **event *****A*** in the **1**<sup>**st**</sup>** experiment, **and** **then P(B | A)  would be the** **branch** **for** event *****B*** in the **2**<sup>**nd**</sup> **experiment**
+  - e.g. If given, possibly in words, $P ( B \vert A )$ then **event *****A*** has already occurred so start by looking for the branch **event *****A*** in the **1**<sup>**st**</sup>** experiment, **and** **then P(B | A)  would be the** **branch** **for** event *****B*** in the **2**<sup>**nd**</sup> **experiment**
 
-Similarly, `straight P left parenthesis B vertical line A apostrophe right parenthesis` would require starting with **event “**$notA$ **”** in the **1**<sup>**st**</sup>** experiment** and **event *****B*** in the **2**<sup>**nd**</sup>** experiment**
+Similarly, $\mathrm{P} ( B \vert A ' )$ would require starting with **event “**$notA$ **”** in the **1**<sup>**st**</sup>** experiment** and **event *****B*** in the **2**<sup>**nd**</sup>** experiment**
 
 ![3-2-3-fig1-tree-setup](../../../assets/f278c6edbc9d-3-2-3-fig1-tree-setup.png)
 
@@ -43,9 +43,9 @@ Similarly, `straight P left parenthesis B vertical line A apostrophe right paren
 - `Error converting from MathML to accessible text.` (“**given** **that**”) is the probability on the branch of the 2<sup>nd</sup> experiment
 - However, the “**given** **that**” statement `Error converting from MathML to accessible text.` is more complicated and a matter of working backwards
 
-  - from Conditional Probability,  `straight P left parenthesis A vertical line B right parenthesis equals fraction numerator straight P left parenthesis A intersection B right parenthesis over denominator straight P left parenthesis B right parenthesis end fraction`
+  - from Conditional Probability,  $\mathrm{P} ( A \vert B ) = \frac{ \mathrm{P} ( A \cap B )}{ \mathrm{P} ( B )}$
   - from the diagram above, $P(B)=P(A\capB)+P(A'\capB)$
-  - leading to ** **`bold P bold left parenthesis bold italic A bold vertical line bold italic B bold right parenthesis bold equals fraction numerator bold P bold left parenthesis bold A bold intersection bold B bold right parenthesis over denominator bold P bold left parenthesis bold A bold intersection bold B bold right parenthesis bold plus bold P bold left parenthesis bold A bold apostrophe bold intersection bold B bold right parenthesis end fraction`
+  - leading to ** **$P ( A \vert B ) = \frac{P ( A \cap B )}{P ( A \cap B ) + P ( A ' \cap B )}$
   - This is quite a complicated looking formula to try to remember so use the logical steps instead – and a clearly labelled tree diagram!
 
 > **Worked Example**
@@ -57,9 +57,9 @@ Similarly, `straight P left parenthesis B vertical line A apostrophe right paren
 > 
 > Find
 > 
-> (i) `straight P left parenthesis W vertical line F apostrophe right parenthesis`
+> (i) $\mathrm{P} ( W \vert F ' )$
 > 
-> (ii) `straight P left parenthesis F vertical line W apostrophe right parenthesis`
+> (ii) $\mathrm{P} ( F \vert W ' )$
 > 
 > (iii) the probability that event $F$ didn’t occur, given that event $W$ didn’t occur.
 > 

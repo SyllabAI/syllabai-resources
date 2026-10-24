@@ -212,7 +212,7 @@ $=\frac{2.4}{1}$
 ### 24() — 2 marks
 > *We can estimate the gradient at the point **A ** by drawing a tangent on the graph at **A **and calculating its gradient.*
 
-> *First draw a tangent at the point *`open parentheses 2 comma space 7 close parentheses`*. This should be a straight line (use a ruler or straight edge) touching the curve at **A **but not crossing the curve.*
+> *First draw a tangent at the point *$( 2 , 7 )$*. This should be a straight line (use a ruler or straight edge) touching the curve at **A **but not crossing the curve.*
 
 ![aqa-gcse-estimating-gradients-m-q-10a-diagram-1](assets/050-aqa-gcse-estimating-gradients-m-q-10a-diagram-1.png)
 
@@ -430,7 +430,7 @@ $\mathrm{Gradient}=-\frac{10.6-7.4}{11-7}=-\frac{3.2}{4}$
 
 > *Gradient is negative as tangent slopes downwards*
 
-`table row Gradient equals cell negative fraction numerator 3.8 minus 0 over denominator 3 minus 0 end fraction equals negative fraction numerator 3.8 over denominator 3 end fraction end cell row blank equals cell negative 1.2666... end cell end table`
+$\begin{gathered} \text{Gradient} = - \frac{3.8 - 0}{3 - 0} = - \frac{3.8}{3} \\ = - 1.2666... \end{gathered}$
 
 **[1]**
 
@@ -580,7 +580,7 @@ $y=-0.6x+3.6$** [1]**
 
 > *Your gradient will depend on your tangent so there is some margin of error permitted in exam questions. For the tangent drawn above, the calculation and answer would be as follows.*
 
-*gradient = *`fraction numerator 17 space minus space 7 over denominator 0 space minus space open parentheses negative 1.5 close parentheses end fraction`
+*gradient = *$\frac{17 - 7}{0 - ( - 1.5 )}$
 
 $\frac{rise}{run}$* ***or gradient formula used with tangent line**** [1]**
 
@@ -770,7 +770,7 @@ $=\frac{7.1}{3.4}=2.088235294...$
 
 > *Gradient is negative as water is decreasing*
 
-`table row Gradient equals cell negative fraction numerator 30 minus 9 over denominator 10 minus 0 end fraction equals negative 21 over 10 end cell row blank equals cell negative 2.1 end cell end table`
+$\begin{gathered} \text{Gradient} = - \frac{30 - 9}{10 - 0} = - \frac{21}{10} \\ = - 2.1 \end{gathered}$
 
 **Method to calculate gradient [1]**
 
@@ -787,7 +787,7 @@ $=\frac{7.1}{3.4}=2.088235294...$
 
 > *Gradient is negative as tangent slopes downwards*
 
-`table row Gradient equals cell negative fraction numerator 30 minus 15 over denominator 10 minus 4 end fraction equals negative 15 over 6 end cell row blank equals cell negative 2.5 end cell end table`
+$\begin{gathered} \text{Gradient} = - \frac{30 - 15}{10 - 4} = - \frac{15}{6} \\ = - 2.5 \end{gathered}$
 
 **Final answer:** **Gradient = -2.5**
 
@@ -814,7 +814,7 @@ $=\frac{7.1}{3.4}=2.088235294...$
 
 > *Draw a tangent at 2 to calculate the gradient using *$\frac{rise}{run}$
 
-`table row Gradient equals cell fraction numerator 11.4 minus 4.2 over denominator 3 minus 0 end fraction equals fraction numerator 7.2 over denominator 3 end fraction end cell row blank equals cell 2.4 end cell end table`
+$\begin{gathered} \text{Gradient} = \frac{11.4 - 4.2}{3 - 0} = \frac{7.2}{3} \\ = 2.4 \end{gathered}$
 
 **Gradient between 2.3 and 2.8 [1]**
 
@@ -829,7 +829,7 @@ $=\frac{7.1}{3.4}=2.088235294...$
 
 > *Draw a tangent at 6 to calculate the gradient using *$\frac{rise}{run}$
 
-`table row Gradient equals cell fraction numerator 12.2 minus 11.2 over denominator 8 minus 4 end fraction equals 1 fourth end cell row blank equals cell 0.25 end cell end table`
+$\begin{gathered} \text{Gradient} = \frac{12.2 - 11.2}{8 - 4} = 1 \frac{1}{4} \\ = 0.25 \end{gathered}$
 
 **Gradient between 0.2 and 0.4 [1]**
 
@@ -846,13 +846,13 @@ $=\frac{7.1}{3.4}=2.088235294...$
 ### 5((a)) — 2 marks
 *Find the *$y$* coordinate when *$x=-2$* (by substituting *$x=-2$* into the equation)* * *
 
-`y equals open parentheses negative 2 close parentheses cubed minus 3 cross times open parentheses negative 2 close parentheses minus 1`
+$y = ( - 2 )^{3} - 3 \times ( - 2 ) - 1$
 
 $y=-3$* ***[1]**
 
 *Find the *$y$* coordinate when *$x=3$* (by substituting *$x=3$* into the equation)*
 
-`table row y equals cell 3 cubed minus 3 cross times 3 minus 1 end cell end table`
+$\begin{gathered} y = 3^{3} - 3 \times 3 - 1 \end{gathered}$
 
 $y=17$ **[1]**
 

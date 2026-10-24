@@ -79,17 +79,17 @@ guided_study: false
 > - Even if you can't answer the first part you can still use the formula to answer the second part
 
 > **Worked Example**
-> A cuboid has length $4x$ cm, width $x$ cm, and height `open parentheses 3 over x minus 5 close parentheses` cm.
+> A cuboid has length $4x$ cm, width $x$ cm, and height $( \frac{3}{x} - 5 )$ cm.
 > 
-> (a)`table row blank row blank row blank end table` Show that the volume, $V$ cm<sup>3</sup> is given by $V=12x-20x^{2}$.
+> (a)$\begin{gathered} \\ \\ \end{gathered}$ Show that the volume, $V$ cm<sup>3</sup> is given by $V=12x-20x^{2}$.
 >  
 > *The volume of a cuboid is "*$V=length\timeswidth\timesheight$*"*
 > 
-> `therefore V equals 4 x cross times x cross times open parentheses 3 over x minus 5 close parentheses`
+> $\therefore V = 4 x \times x \times ( \frac{3}{x} - 5 )$
 > 
 > > *Expand and simplify*
 > 
-> `table row V equals cell 4 x squared open parentheses 3 over x minus 5 close parentheses end cell row V equals cell fraction numerator 12 x squared over denominator x end fraction minus 20 x squared end cell end table`
+> $\begin{gathered} V = 4 x^{2} ( \frac{3}{x} - 5 ) \\ V = \frac{12 x^{2}}{x} - 20 x^{2} \end{gathered}$
 > 
 > > $\thereforeV=12x-20x^{2}$*  *
 > 
@@ -103,11 +103,11 @@ guided_study: false
 > 
 > > *Solve for **x*
 > 
-> `table attributes columnalign right center left columnspacing 0px end attributes row cell 40 x end cell equals 12 row x equals cell 12 over 40 equals 0.3 end cell end table`
+> $\begin{array}{rcl} 40 x & = 12 \\ x = \frac{12}{40} = 0.3 \end{array}$
 > 
 > > *So the value of **x**, at the maximum volume is 0.3 Find the maximum volume by substituting **x** = 0.3 in to the formula for **V*
 > 
-> `V equals 12 open parentheses 0.3 close parentheses minus 20 open parentheses 0.3 close parentheses squared equals 1.8`
+> $V = 12 ( 0.3 ) - 20 ( 0.3 )^{2} = 1.8$
 > 
 > **Final answer:** **The maximum volume of the cuboid is 1.8 cm**<sup>**3**</sup>**  **
 > 
@@ -115,7 +115,7 @@ guided_study: false
 > 
 > > *Using the second derivative is usually the easiest way to find the nature of a stationary point *
 > 
-> `fraction numerator straight d squared y over denominator straight d x squared end fraction equals negative 40 space space open parentheses less than 0 close parentheses`
+> $\frac{ \mathrm{d}^{2} y}{ \mathrm{d} x^{2}} = - 40 ( < 0 )$
 > 
 > **Final answer:** **The value of the second derivative (at **$x=0.3$**) is negative**
 > 

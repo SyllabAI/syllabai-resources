@@ -362,7 +362,7 @@ $x$** ****= 29**<sup>**o**</sup>* ***[1]**
 *Exterior angles in any polygon add up to 360°. *
 *A regular pentagon has 5 equal exterior angles.*
 
-> * *`T S with hat on top U space equals 360 over 5 equals space 72 degree`
+> * *$T \hat{S} U = \frac{360}{5} = 72^{\circ}$
 
 **[1]**
 
@@ -372,7 +372,7 @@ $x$** ****= 29**<sup>**o**</sup>* ***[1]**
 
 > *TP** and **TR **are also tangents to the circle, so by the circle theorem 'A tangent always meets a radius at 90°', angles **ORQ **and **OTP **are both 90°. *
 
-`O R with hat on top Q space equals space O T with hat on top P space equals 90 degree`* **(angle between tangent and radius)*
+$O \hat{R} Q = O \hat{T} P = 90^{\circ}$* **(angle between tangent and radius)*
 
 **[1]**
 
@@ -380,9 +380,9 @@ $x$** ****= 29**<sup>**o**</sup>* ***[1]**
 
 ![QLY1pOQ2_4-8-edexcel-gcse-vh-q3-diagram-2](assets/051-qly1poq2-4-8-edexcel-gcse-vh-q3-diagram-2.png)
 
-> *The sum of the interior angles in any polygon can be found using the formula 180°(n - 2). A regular pentagon has 5 equal interior angles, therefore these can be found using the formula *`fraction numerator 180 open parentheses 5 space minus space 2 close parentheses over denominator 5 end fraction`*.*
+> *The sum of the interior angles in any polygon can be found using the formula 180°(n - 2). A regular pentagon has 5 equal interior angles, therefore these can be found using the formula *$\frac{180 ( 5 - 2 )}{5}$*.*
 
-> * *`T P with hat on top Q space equals P Q with hat on top R space equals space fraction numerator 3 open parentheses 180 close parentheses over denominator 5 end fraction equals space 108 degree`
+> * *$T \hat{P} Q = P \hat{Q} R = \frac{3 ( 180 )}{5} = 108^{\circ}$
 
 > *Add these angles to the diagram.*
 
@@ -392,19 +392,19 @@ $x$** ****= 29**<sup>**o**</sup>* ***[1]**
 
 > *The sum of the interior angles in any polygon can be found using the formula 180°(n - 2).*
 
-`R O with hat on top T space plus O T with hat on top P space plus space T P with hat on top Q space plus space P Q with hat on top R space plus space Q R with hat on top O space equals space 180 open parentheses 5 space minus space 2 close parentheses degree space equals space 540 degree`
+$R \hat{O} T + O \hat{T} P + T \hat{P} Q + P \hat{Q} R + Q \hat{R} O = 180 ( 5 - 2 )^{\circ} = 540^{\circ}$
 
 > *Substitute in the angles you know to find angle **ROT**.*
 
-`table row cell R O with hat on top T space plus space 90 degree space plus space 90 degree space plus space 108 degree space plus space 108 degree space end cell equals cell space 540 degree end cell row cell R O with hat on top T space plus space 396 degree space end cell equals cell space 540 degree end cell row cell R O with hat on top T space space end cell equals cell space 144 degree end cell end table`
+$\begin{gathered} R \hat{O} T + 90^{\circ} + 90^{\circ} + 108^{\circ} + 108^{\circ} & = 540^{\circ} \\ R \hat{O} T + 396^{\circ} & = 540^{\circ} \\ R \hat{O} T & = 144^{\circ} \end{gathered}$
 
 **[1]**
 
 > *By the circle theorem, the angle at the centre is twice the angle at the circumference, angle **ROT **is twice angle **RUT.*
 
-`R O with hat on top T space equals 2 open parentheses R U with hat on top T close parentheses space equals space 2 open parentheses S U with hat on top T close parentheses`
+$R \hat{O} T = 2 ( R \hat{U} T ) = 2 ( S \hat{U} T )$
 
-`S U with hat on top T space equals fraction numerator R O with hat on top T over denominator 2 end fraction equals space 144 over 2 space equals space 72 degree`
+$S \hat{U} T = \frac{R \hat{O} T}{2} = \frac{144}{2} = 72^{\circ}$
 
 **[1]**
 
@@ -504,7 +504,7 @@ $AP\timesPB=CP\timesPD$
 
 > *Use that equation with the numbers and variables given in the question.*
 
-`table row cell 5 space cross times space x space end cell equals cell space 3 space cross times space y end cell row cell 5 x space end cell equals cell space 3 y end cell end table`
+$\begin{gathered} 5 \times x & = 3 \times y \\ 5 x & = 3 y \end{gathered}$
 
 **[2] **
 **1 mark for using the Intersecting Chords (internal) property **
@@ -513,21 +513,21 @@ $AP\timesPB=CP\timesPD$
 > *Triangle **DPB** is a right-angled triangle. *
 *So you can use the Pythagoras' Theorem equation with the lengths of its sides.*
 
-`table row cell x squared space plus space y squared space end cell equals cell space 7 squared end cell end table`
+$\begin{gathered} x^{2} + y^{2} & = 7^{2} \end{gathered}$
 
 **[1]**
 
 > *Now you can use the result *$5x=3y$* to turn that into a quadratic equation in only one variable.*
 
-`table row cell 5 x space end cell equals cell space 3 y space space space space so space space space space y space equals space 5 over 3 x end cell end table`
+$\begin{gathered} 5 x & = 3 y \text{so} y = \frac{5}{3} x \end{gathered}$
 
 > *That expression for **y** can now be substituted into the Pythagoras equation.*
 
-`x squared space plus space open parentheses 5 over 3 x close parentheses squared space equals space 7 squared
+$x^{2} + ( \frac{5}{3} x )^{2} = 7^{2}
 
-x squared space plus space 25 over 9 x squared space equals space 49
+x^{2} + \frac{25}{9} x^{2} = 49
 
-34 over 9 x squared space equals space 49`
+ \frac{34}{9} x^{2} = 49$
 
 **[1] **
 **You would also get this mark for using  **$x=\frac{3}{5}y$**  and finding the equation  **$\frac{34}{25}y^{2}=49.$
@@ -627,13 +627,13 @@ $CP\timesPG=AP\timesPB$
 
 > *Use that equation with the numbers given in the question.*
 
-`table row cell 10 space cross times space P G space end cell equals cell space 4 space cross times space 5 end cell end table`
+$\begin{gathered} 10 \times P G & = 4 \times 5 \end{gathered}$
 
 **[1]**
 
 > *Now solve that equation to find the length of **PG**.*
 
-`table row cell 10 space cross times space P G space end cell equals cell space 20 end cell row cell P G space end cell equals cell space 20 space divided by space 10 end cell row cell P G space end cell equals cell space 2 end cell end table`
+$\begin{gathered} 10 \times P G & = 20 \\ P G & = 20 \div 10 \\ P G & = 2 \end{gathered}$
 
 **[1]**
 
@@ -648,23 +648,23 @@ $BE\timesAE=DE\timesFE$
 
 > *Or equivalently*
 
-`B E space cross times space open parentheses A B plus B E close parentheses space equals space D E space cross times space open parentheses F D plus D E close parentheses`
+$B E \times ( A B + B E ) = D E \times ( F D + D E )$
 
 > *Use that equation with the numbers and variable given in the question.*
 
-`table row cell x space cross times space open parentheses x plus 9 close parentheses space end cell equals cell space 10 space cross times space open parentheses 12 plus 10 close parentheses end cell end table`
+$\begin{gathered} x \times ( x + 9 ) & = 10 \times ( 12 + 10 ) \end{gathered}$
 
 **[1]**
 
 > *Now expand the brackets and rearrange into a quadratic equation that you can solve.*
 
-`table attributes columnalign right center left columnspacing 0px end attributes row cell x squared space plus space 9 x space end cell equals cell space 220 end cell row cell x squared space plus space 9 x space minus space 220 space end cell equals cell space 0 end cell end table`
+$\begin{array}{rcl} x^{2} + 9 x & = 220 \\ x^{2} + 9 x - 220 & = 0 \end{array}$
 
 **[1]**
 
 > *Now factorise the quadratic.*
 
-`open parentheses x minus 11 close parentheses open parentheses x plus 20 close parentheses space equals space 0`
+$( x - 11 ) ( x + 20 ) = 0$
 
 **[1] **
 **You would also get this mark if you used the quadratic formula or completing the square to solve the equation.**
@@ -780,47 +780,47 @@ $AC\timesBC=CE\timesCD$
 
 > *Or equivalently,*
 
-`B C space cross times space open parentheses A B plus B C close parentheses space equals space C D space cross times space open parentheses C D plus D E close parentheses`
+$B C \times ( A B + B C ) = C D \times ( C D + D E )$
 
 > *Use that equation with the expressions given in the question.*
 
-`table row cell space open parentheses 2 space plus square root of 5 space close parentheses space cross times space A C space end cell equals cell open parentheses 2 square root of 5 close parentheses cross times space open parentheses 2 square root of 5 space plus space 4 space plus space square root of 5 close parentheses space space end cell end table`
+$\begin{gathered} ( 2 + \sqrt{5} ) \times A C & = ( 2 \sqrt{5} ) \times ( 2 \sqrt{5} + 4 + \sqrt{5} ) \end{gathered}$
 
 **[1]**
 
 > *Rearrange to make *$AC$* the subject.*
 
-`table row cell space A C space end cell equals cell fraction numerator space open parentheses 2 square root of 5 close parentheses cross times space open parentheses 2 square root of 5 space plus space 4 space plus space square root of 5 close parentheses over denominator 2 space plus space square root of 5 end fraction space space end cell end table`
+$\begin{gathered} A C & = \frac{ ( 2 \sqrt{5} ) \times ( 2 \sqrt{5} + 4 + \sqrt{5} )}{2 + \sqrt{5} } \end{gathered}$
 
 **[1]**
 
 > *Simplify the numerator.*
 
-`table row cell space A C space end cell equals cell fraction numerator space 2 square root of 5 open parentheses 4 space plus space 3 square root of 5 close parentheses over denominator 2 space plus space square root of 5 end fraction space space end cell end table`
+$\begin{gathered} A C & = \frac{ 2 \sqrt{5} ( 4 + 3 \sqrt{5} )}{2 + \sqrt{5} } \end{gathered}$
 
 > *Expand the brackets on the numerator.*
 
-`table row cell space A C space end cell equals cell fraction numerator space 8 square root of 5 space plus space 2 square root of 5 cross times 3 square root of 5 over denominator 2 space plus space square root of 5 end fraction space equals space space fraction numerator space 8 square root of 5 space plus space 6 space cross times space 5 over denominator 2 space plus space square root of 5 end fraction space equals space fraction numerator space 8 square root of 5 space plus space 30 over denominator 2 space plus space square root of 5 end fraction end cell end table`
+$\begin{gathered} A C & = \frac{ 8 \sqrt{5} + 2 \sqrt{5} \times 3 \sqrt{5} }{2 + \sqrt{5} } = \frac{ 8 \sqrt{5} + 6 \times 5}{2 + \sqrt{5} } = \frac{ 8 \sqrt{5} + 30}{2 + \sqrt{5} } \end{gathered}$
 
 > *Rationalise the denominator.*
 
-`table row cell space A C space end cell equals cell fraction numerator space 8 square root of 5 space plus space 30 over denominator 2 space plus square root of 5 end fraction cross times fraction numerator 2 space minus square root of 5 over denominator 2 space minus square root of 5 end fraction space equals space fraction numerator open parentheses 30 plus 8 square root of 5 close parentheses open parentheses 2 minus square root of 5 close parentheses over denominator open parentheses 2 plus square root of 5 close parentheses open parentheses 2 minus square root of 5 close parentheses end fraction end cell end table`
+$\begin{gathered} A C & = \frac{ 8 \sqrt{5} + 30}{2 + \sqrt{5} } \times \frac{2 - \sqrt{5} }{2 - \sqrt{5} } = \frac{( 30 + 8 \sqrt{5} ) ( 2 - \sqrt{5} )}{( 2 + \sqrt{5} ) ( 2 - \sqrt{5} )} \end{gathered}$
 
 **[1]**
 
 > *Expand the numerator and the denominator.*
 
-`table row cell space A C space end cell equals cell space fraction numerator 60 space minus space 30 square root of 5 space plus space 16 square root of 5 space minus space 8 cross times 5 over denominator 4 space minus 2 square root of 5 space plus 2 square root of 5 space minus 5 end fraction space equals space fraction numerator 20 space minus 14 square root of 5 over denominator negative 1 end fraction space equals space 14 square root of 5 space minus space 20 end cell end table`
+$\begin{gathered} A C & = \frac{60 - 30 \sqrt{5} + 16 \sqrt{5} - 8 \times 5}{4 - 2 \sqrt{5} + 2 \sqrt{5} - 5} = \frac{20 - 14 \sqrt{5} }{- 1} = 14 \sqrt{5} - 20 \end{gathered}$
 
 **[1]**
 
 > *Letting *$AB=x$* gives*
 
-`table row cell space x space plus open parentheses space 2 space plus square root of 5 close parentheses space end cell equals cell space 14 square root of 5 space minus space 20 end cell end table`
+$\begin{gathered} x + ( 2 + \sqrt{5} ) & = 14 \sqrt{5} - 20 \end{gathered}$
 
 > *Rearrange to find *$x$* *
 
-`table row blank blank space end table table row blank blank x end table table row blank blank space end table table row blank blank space end table table row blank equals blank end table table row blank blank space end table table row blank blank cell open parentheses 14 square root of 5 space minus space 20 close parentheses end cell end table table row blank blank space end table table row blank blank minus end table table row blank blank space end table table row blank blank cell open parentheses space 2 space plus square root of 5 close parentheses end cell end table table row blank blank space end table table row blank equals blank end table table row blank blank space end table table row blank blank 13 end table table row blank blank cell square root of 5 end cell end table table row blank blank space end table table row blank blank minus end table table row blank blank space end table table row blank blank 22 end table`
+$\begin{gathered} \end{gathered} \begin{gathered} x \end{gathered} \begin{gathered} \end{gathered} \begin{gathered} \end{gathered} \begin{gathered} = \end{gathered} \begin{gathered} \end{gathered} \begin{gathered} ( 14 \sqrt{5} - 20 ) \end{gathered} \begin{gathered} \end{gathered} \begin{gathered} - \end{gathered} \begin{gathered} \end{gathered} \begin{gathered} ( 2 + \sqrt{5} ) \end{gathered} \begin{gathered} \end{gathered} \begin{gathered} = \end{gathered} \begin{gathered} \end{gathered} \begin{gathered} 13 \end{gathered} \begin{gathered} \sqrt{5} \end{gathered} \begin{gathered} \end{gathered} \begin{gathered} - \end{gathered} \begin{gathered} \end{gathered} \begin{gathered} 22 \end{gathered}$
 
 **Final answer:** $AB=13\sqrt{5}-22$**  [1]**
 
@@ -933,17 +933,17 @@ $w=180-35-70=75$
 > *This is a special case of the properties of Intersecting Chords (external intersection). *
 *The 'inside the circle' part of **CP** has a length of zero, therefore*
 
-`B P space cross times space open parentheses B P plus A B close parentheses space equals space C P space cross times space open parentheses C P plus 0 close parentheses`
+$B P \times ( B P + A B ) = C P \times ( C P + 0 )$
 
 > *Use that equation with the numbers given in the question.*
 
-`8 space cross times space open parentheses 8 plus 10 close parentheses space equals space C P space cross times space open parentheses C P plus 0 close parentheses`
+$8 \times ( 8 + 10 ) = C P \times ( C P + 0 )$
 
 **[1]**
 
 > *Now just expand the brackets, rearrange the equation, and solve for **CP**.*
 
-`table row cell 144 space end cell equals cell space C P space cross times space C P end cell row cell 144 space end cell equals cell space open parentheses C P close parentheses squared end cell row cell square root of 144 space end cell equals cell space C P end cell row cell 12 space end cell equals cell space C P end cell end table`
+$\begin{gathered} 144 & = C P \times C P \\ 144 & = ( C P )^{2} \\ \sqrt{144} & = C P \\ 12 & = C P \end{gathered}$
 
 **Final answer:** **12 cm****  [2]**
 
@@ -966,7 +966,7 @@ $14\times6=10\timesPD$
 
 > *Now just rearrange the equation and solve for **PD**.*
 
-`table attributes columnalign right center left columnspacing 0px end attributes row cell 84 space end cell equals cell space 10 space cross times space P D end cell row cell 84 space divided by space 10 space end cell equals cell space P D end cell row cell 8.4 space end cell equals cell space P D end cell end table`
+$\begin{array}{rcl} 84 & = 10 \times P D \\ 84 \div 10 & = P D \\ 8.4 & = P D \end{array}$
 
 **Final answer:** **8.4 cm****  [1]**
 
@@ -985,11 +985,11 @@ $14\times6=10\timesPD$
 
 > *Angle **AFB **is equal to 180 - (angle **ABF** + angle **BAF).*
 
-*Angle ***AFB *** =  *`180 space minus space open parentheses 180 space minus space x space plus space 54 close parentheses space equals space x space minus space 54 degree`
+*Angle ***AFB *** =  *$180 - ( 180 - x + 54 ) = x - 54^{\circ}$
 
 > *Angle **FDE **is equal to 180 - (angle **CDF).*
 
-*Angle ***FDE *** =  *`180 space minus space open parentheses 180 space minus space x close parentheses space equals space x degree`
+*Angle ***FDE *** =  *$180 - ( 180 - x ) = x^{\circ}$
 
 > *Find angle **DFE **in terms of *$x$*.*
 
@@ -1016,7 +1016,7 @@ $2x-54=148$
 
 > *Solve.*
 
-`table row cell 2 x space end cell equals cell space 202 end cell row cell x space end cell equals cell space 202 over 2 end cell end table`
+$\begin{gathered} 2 x & = 202 \\ x & = \frac{202}{2} \end{gathered}$
 
 **Angle **$x=101^{\circ}$**[1]**
 
@@ -1040,13 +1040,13 @@ $DP\timesPC=AP\timesPB$
 
 > *Use that equation along with the facts above and the numbers given in the question.*
 
-`open parentheses 3 cross times P C close parentheses space cross times space P C space equals space 7.2 space cross times space 5.4`
+$( 3 \times P C ) \times P C = 7.2 \times 5.4$
 
 **[1]**
 
 > *Now just expand the brackets and solve for **PC**.*
 
-`table row cell 3 space cross times space open parentheses P C close parentheses squared space end cell equals cell space 38.88 end cell row cell open parentheses P C close parentheses squared space end cell equals cell space 38.88 space divided by space 3 end cell row cell open parentheses P C close parentheses squared space end cell equals cell space 12.96 end cell row cell P C space end cell equals cell space square root of 12.96 end root end cell row cell P C space end cell equals cell space 3.6 end cell end table`
+$\begin{gathered} 3 \times ( P C )^{2} & = 38.88 \\ ( P C )^{2} & = 38.88 \div 3 \\ ( P C )^{2} & = 12.96 \\ P C & = \sqrt{12.96} \\ P C & = 3.6 \end{gathered}$
 
 **[1]**
 
@@ -1072,17 +1072,17 @@ $DC\timesEC=BC\timesAC$
 
 > *Or equivalently*
 
-`D C space cross times space open parentheses E D plus D C close parentheses space equals space B C space cross times space open parentheses A B plus B C close parentheses`
+$D C \times ( E D + D C ) = B C \times ( A B + B C )$
 
 > *Use that equation with the numbers given in the question.*
 
-`15 space cross times space open parentheses 15 plus 24 close parentheses space equals space 18 space cross times space open parentheses A B plus 18 close parentheses`
+$15 \times ( 15 + 24 ) = 18 \times ( A B + 18 )$
 
 **[1]**
 
 > *Now just expand the brackets, rearrange the equation, and solve for **PD**.*
 
-`table row cell 585 space end cell equals cell space open parentheses 18 space cross times space A B close parentheses space plus space 324 end cell row cell 585 space minus space 324 space end cell equals cell space 18 space cross times space A B end cell row cell 261 space end cell equals cell space 18 space cross times space A B end cell row cell 261 space divided by space 18 space end cell equals cell space A B end cell row cell 14.5 space end cell equals cell space A B end cell end table`
+$\begin{gathered} 585 & = ( 18 \times A B ) + 324 \\ 585 - 324 & = 18 \times A B \\ 261 & = 18 \times A B \\ 261 \div 18 & = A B \\ 14.5 & = A B \end{gathered}$
 
 **Final answer:** **14.5 cm****  [2]**
 
@@ -1110,7 +1110,7 @@ $7\times4=XF\times2$
 
 > *Rearrange the equation and solve for **XF**.*
 
-`table row cell 28 space end cell equals cell space 2 X F end cell row cell X F space end cell equals cell space 14 end cell end table`
+$\begin{gathered} 28 & = 2 X F \\ X F & = 14 \end{gathered}$
 
 > *The diameter of the circle is **XF **+ **FD.*
 
@@ -1125,33 +1125,33 @@ $7\times4=XF\times2$
 
 > *Considering the intersecting external chords **AC **and **YC,*
 
-`open parentheses A B space plus space B C close parentheses space cross times space B C space equals space open parentheses Y E space plus space E C close parentheses space cross times space E C`
+$( A B + B C ) \times B C = ( Y E + E C ) \times E C$
 
 > *Form an equation with the numbers given in the question, remember that **YE **is a diameter so **YE **= 16 cm..*
 
-`open parentheses 7 space plus space 4 space plus space 5 close parentheses cross times space 5 space equals open parentheses space 16 space plus space x close parentheses space cross times space x`
+$( 7 + 4 + 5 ) \times 5 = ( 16 + x ) \times x$
 
 **[1]**
 
 > *Simplify the equation.*
 
-`table row cell 16 space cross times space 5 space end cell equals cell x open parentheses 16 space plus space x close parentheses end cell row cell 80 space end cell equals cell space 16 x space plus space x squared end cell end table`
+$\begin{gathered} 16 \times 5 & = x ( 16 + x ) \\ 80 & = 16 x + x^{2} \end{gathered}$
 
 > *Rearrange to form a quadratic equal to 0.*
 
-`table row cell x squared space plus space 16 x space minus space 80 space end cell equals cell space 0 end cell end table`
+$\begin{gathered} x^{2} + 16 x - 80 & = 0 \end{gathered}$
 
 **[1]**
 
 > *Factorise, or use the quadratic equation.*
 
-`table row cell open parentheses x space plus thin space 20 close parentheses open parentheses x space minus space 4 close parentheses space end cell equals cell space 0 end cell end table`
+$\begin{gathered} ( x + 20 ) ( x - 4 ) & = 0 \end{gathered}$
 
 **[1]**
 
 > *Solve.*
 
-`table row cell x space end cell equals cell space minus 20 space space space space space or space space space space space space x space equals space 4 end cell end table`
+$\begin{gathered} x & = - 20 \text{or} x = 4 \end{gathered}$
 
 > *x** is a length so it must be positive, disregard the negative value.*
 
@@ -1166,17 +1166,17 @@ $BY\timesAY=CY\timesDY$
 
 > *Or equivalently*
 
-`B Y space cross times space open parentheses A B plus B Y close parentheses space equals space C Y space cross times space open parentheses D C plus C Y close parentheses`
+$B Y \times ( A B + B Y ) = C Y \times ( D C + C Y )$
 
 > *Use that equation with the numbers and variable given in the question.*
 
-`x space cross times space open parentheses x plus 13 close parentheses space equals space 9 space cross times space open parentheses x plus 9 close parentheses`
+$x \times ( x + 13 ) = 9 \times ( x + 9 )$
 
 **[1]**
 
 > *Now just expand the brackets and rearrange the equation into the form asked for.*
 
-`table row cell x squared space plus space 13 x space end cell equals cell space 9 x space plus space 81 end cell row cell x squared space plus 13 x space minus space 9 x space minus 81 space end cell equals cell space 0 end cell end table`
+$\begin{gathered} x^{2} + 13 x & = 9 x + 81 \\ x^{2} + 13 x - 9 x - 81 & = 0 \end{gathered}$
 
 **Final answer:** $x^{2}+4x-81=0$**  [2]**
 
@@ -1188,7 +1188,7 @@ $BY\timesAY=CY\timesDY$
 *'Give your answer correct to 3 s.f.' is a strong hint that you need to use the quadratic formula to solve it. *
 *Use the quadratic formula with *$a=1$*, *$b=4$*, *$c=-81$*.*
 
-`table row cell x space end cell equals cell space fraction numerator negative open parentheses 4 close parentheses space plus-or-minus space square root of open parentheses 4 close parentheses squared space minus space 4 open parentheses 1 close parentheses open parentheses negative 81 close parentheses end root over denominator 2 open parentheses 1 close parentheses end fraction end cell row blank blank blank row cell x space end cell equals cell space minus 2 space plus-or-minus space square root of 85 end cell row blank blank blank row cell x space end cell equals cell space 7.21954... space space or space italic space minus 11.21954... end cell end table`
+$\begin{gathered} x & = \frac{- ( 4 ) \pm \sqrt{( 4 )^{2} - 4 ( 1 ) ( - 81 )} }{2 ( 1 )} \\ \\ x & = - 2 \pm \sqrt{85} \\ \\ x & = 7.21954... \text{or} - 11.21954... \end{gathered}$
 
 **[2] **
 **1 mark for using the quadratic formula.  1 mark for a correct solution for x.**
@@ -1196,7 +1196,7 @@ $BY\timesAY=CY\timesDY$
 > *Because **x** is the length of **BY** and **DC **we can ignore the negative solution for **x**. *
 *Now add the lengths of **DC** and **CY** together to find the length of **DY**.*
 
-`table row cell 7.21954... space plus space 9 space end cell equals cell space 16.21954... end cell end table`
+$\begin{gathered} 7.21954... + 9 & = 16.21954... \end{gathered}$
 
 **[1]**
 
@@ -1306,7 +1306,7 @@ $TP\times3=12\times4$
 
 > *Find **TP** by dividing both sides by 3*
 
-`table row cell T P end cell equals cell fraction numerator 12 cross times 4 over denominator 3 end fraction equals 16 end cell end table`
+$\begin{gathered} T P & = \frac{12 \times 4}{3} = 16 \end{gathered}$
 
 **[1]**
 
@@ -1360,15 +1360,15 @@ $\frac{5}{12}πr^{2}-\frac{1}{4}r^{2}=200$
 
 > *Factorise out **r*<sup>*2*</sup>*.*
 
-`r to the power of italic 2 open parentheses 5 over 12 pi space minus space 1 fourth close parentheses space equals space 200`
+$r^{ } 2 ( \frac{5}{12} pi - 1 \text{fourth} ) = 200$
 
 > *Isolate **r*<sup>*2*</sup>*.*
 
-`r to the power of italic 2 space equals space fraction numerator 200 over denominator open parentheses 5 over 12 pi space minus space 1 fourth close parentheses space end fraction`
+$r^{ } 2 = \frac{200}{ ( \frac{5}{12} pi - 1 \text{fourth} ) }$
 
 > *Solve to find **r **by taking the square root of both sides.*
 
-`r space equals space square root of fraction numerator 200 over denominator open parentheses 5 over 12 pi space minus space 1 fourth close parentheses space end fraction end root space equals space 13.74256...`
+`r = sqrt( (200)/(( 5 / 12 pi - 1 fourth ) ) ) = 13.74256...`
 
 > *Round to 3 significant figures.*
 
@@ -1434,7 +1434,7 @@ $PD=\frac{6\times9}{8}$
 
 *Angle ***BOC *** = 2 x angle ***BAC***   (Angle at the centre is twice the angle at the circumference) Therefore angle ***BAC *** = *$\frac{1}{2}$*(Angle ***BOC***)*
 
-*Angle ***BAC ***= *`1 half open parentheses 180 space minus space x close parentheses degree space equals space 90 space minus space x over 2 degree`
+*Angle ***BAC ***= *$1 \frac{1}{2} ( 180 - x )^{\circ} = 90 - \frac{x}{2^{\circ}}$
 
 **[1]**
 
@@ -1444,7 +1444,7 @@ $PD=\frac{6\times9}{8}$
 
 > *Kites are symmetrical, so the line **AD **is a line of symmetry. Add this line the the diagram and consider one of the triangles. The line of symmetry cuts both angle **BAC **and angle **BDC **in half. Find the angles **BAD **and **BDA**.*
 
-*Angle ***BAD*** = *$\frac{1}{2}$*angle ***BAC*** = *`1 half open parentheses 90 space minus space x over 2 close parentheses space equals space 45 space minus space x over 4 space`
+*Angle ***BAD*** = *$\frac{1}{2}$*angle ***BAC*** = *$1 \frac{1}{2} ( 90 - \frac{x}{2} ) = 45 - \frac{x}{4}$
 
 *Angle ***BDA*** = *$\frac{1}{2}$*angle ***BDC*** = *$\frac{1}{2}x$
 
@@ -1455,8 +1455,8 @@ $PD=\frac{6\times9}{8}$
 > *Angles in a triangle add up to 180°. Find angle **ABO **in terms of *$x$*by subtracting all the other angles in triangle **ABD **from 180°.*
 
 ** ***Angle ***ABO*** + angle ***OBD ***+ angle ***BDO*** + angle ***BAO *** = 180° (angles in a triangle add up to 180°) *** **
-*Angle ***ABO*** + 90° + *$\frac{x}{2}$* + *`open parentheses 45 space minus space x over 4 close parentheses`* = 180° *
-*Angle ***ABO*** = 180 - 90 - *`open parentheses 45 space minus space x over 4 close parentheses`* - *$\frac{x}{2}$
+*Angle ***ABO*** + 90° + *$\frac{x}{2}$* + *$( 45 - \frac{x}{4} )$* = 180° *
+*Angle ***ABO*** = 180 - 90 - *$( 45 - \frac{x}{4} )$* - *$\frac{x}{2}$
 
 > *Simplify.*
 
@@ -1495,27 +1495,27 @@ $PD=\frac{6\times9}{8}$
 
 > *Form an equation using angles **BAD **and **CBD, **assuming that they do add up to 180°.*
 
-`table row cell 4 x space plus space 92 space end cell equals cell space 180 end cell end table`
+$\begin{gathered} 4 x + 92 & = 180 \end{gathered}$
 
 **[1]**
 
 > *Solve the equation to find the value of *$x$* for which these opposite angles do add up to 180°.*
 
-`table row cell 4 x space end cell equals cell space 180 space minus space 92 end cell row cell 4 x space end cell equals cell space 88 end cell row cell x space end cell equals cell space 88 over 4 end cell row cell x space end cell equals cell space 22 degree end cell end table`
+$\begin{gathered} 4 x & = 180 - 92 \\ 4 x & = 88 \\ x & = \frac{88}{4} \\ x & = 22^{\circ} \end{gathered}$
 
 **[1]**
 
 > *Substitute this value of *$x$* into the angles **ABC **and **ADC.*
 
-`table row cell Angle space A B C space end cell equals cell space 5 open parentheses 22 close parentheses space plus space 30 space equals space 140 degree end cell end table`
+$\begin{gathered} \text{Angle} A B C & = 5 ( 22 ) + 30 = 140^{\circ} \end{gathered}$
 
-`table row cell Angle space A D C space end cell equals cell space open parentheses 22 close parentheses space plus space 36 space equals space 58 degree end cell end table`
+$\begin{gathered} \text{Angle} A D C & = ( 22 ) + 36 = 58^{\circ} \end{gathered}$
 
 **[1]**
 
 > *Show that for this value of *$x$*, the sum of the angles **ABC **and **ADC **is not 180°.*
 
-`table row cell Angle space A B C space plus space Angle space A D C space end cell equals cell space 140 degree space plus space 58 degree space not equal to space 180 degree end cell end table`
+$\begin{gathered} \text{Angle} A B C + \text{Angle} A D C & = 140^{\circ} + 58^{\circ} \text{eq} 180^{\circ} \end{gathered}$
 
 **Opposite angles do not add to 180°** **[1]**
 
@@ -1551,11 +1551,11 @@ $PD=\frac{6\times9}{8}$
 
 > *Simplify.*
 
-> * *`table attributes columnalign right center left columnspacing 0px end attributes row cell space 90 space minus space 2 x space plus space 90 space minus space x space plus space y space end cell equals cell space 180 end cell row cell space 90 space plus space 90 space minus space 2 x space minus space x space plus space y space end cell equals cell space 180 end cell row cell 180 space minus space 3 x space plus space y space end cell equals cell space 180 end cell end table`
+> * *$\begin{array}{rcl} 90 - 2 x + 90 - x + y & = 180 \\ 90 + 90 - 2 x - x + y & = 180 \\ 180 - 3 x + y & = 180 \end{array}$
 
 > *Cancel 180 from both sides and rearrange to make **y **the subject.*
 
-> * *`table row cell up diagonal strike 180 space minus space 3 x space plus space y space end cell equals cell space up diagonal strike 180 end cell row cell negative 3 x space plus space y space end cell equals cell space 0 end cell row cell y space end cell equals cell space 3 x end cell end table`
+> * *$\begin{gathered} \cancel{180} - 3 x + y & = \cancel{180} \\ - 3 x + y & = 0 \\ y & = 3 x \end{gathered}$
 
 $y=3x$ 
 **Full method and all reasons clearly given**** [1]**
@@ -1678,7 +1678,7 @@ $y=3x$
 
 > *And angles in a triangle sum to 180° so,*
 
-*Angle *`A C B space equals space open parentheses 180 minus 90 minus 22 close parentheses degree`* (The sum of the angles in a triangle is 180°)*
+*Angle *$A C B = ( 180 - 90 - 22 )^{\circ}$* (The sum of the angles in a triangle is 180°)*
 
 **Angle **$ACB=68^{\circ}$** [1]**
 
@@ -1687,13 +1687,13 @@ $y=3x$
 ### 21((b)) — 2 marks
 > *Using the property that angles at a point add up to 360°, find the value of *$x$*.*
 
-`table row cell x space plus space 204 space end cell equals cell space 360 end cell row cell x space end cell equals cell space 360 space minus space 204 space equals space 156 end cell end table`
+$\begin{gathered} x + 204 & = 360 \\ x & = 360 - 204 = 156 \end{gathered}$
 
 **[1]**
 
 > *Using the circle theorem "The angle at the centre subtended by an arc is twice the angle at the circumference", find the value of *$x$*.*
 
-`x space space equals space 2 open parentheses 78 close parentheses space equals space 156`
+$x = 2 ( 78 ) = 156$
 
 > *The two values of *$x$* are the same, so the angle **CXD **must be at the centre of the circle.*
 
@@ -1716,31 +1716,31 @@ $x=\frac{5y}{7}$*  *
 
 > *Substitute  *$x=\frac{5y}{7}$* into the first equation.*
 
-`table row cell fraction numerator 5 y over denominator 7 end fraction space plus space y space end cell equals cell space 180 end cell end table`* *
+$\begin{gathered} \frac{5 y}{7} + y & = 180 \end{gathered}$* *
 
 **[1]**
 
 > *Simplify and solve to find *$y$*.*
 
-`table row cell fraction numerator 5 y over denominator 7 end fraction plus fraction numerator 7 y over denominator 7 end fraction end cell equals 180 row cell fraction numerator 12 y over denominator 7 end fraction end cell equals 180 row cell 12 y space end cell equals cell space 1260 end cell row cell y space end cell equals cell space 1260 over 12 end cell row cell y space end cell equals cell space 105 degree space end cell end table`*  *
+$\begin{gathered} \frac{5 y}{7} + \frac{7 y}{7} & = 180 \\ \frac{12 y}{7} & = 180 \\ 12 y & = 1260 \\ y & = \frac{1260}{12} \\ y & = 105^{\circ} \end{gathered}$*  *
 
 > *Substitute  *$y=105$*  into the second equation.*
 
-`table row cell x space end cell equals cell space fraction numerator 5 open parentheses 105 close parentheses over denominator 7 end fraction space equals space 525 over 7 equals space 75 degree end cell end table`* *
+$\begin{gathered} x & = \frac{5 ( 105 )}{7} = \frac{525}{7} = 75^{\circ} \end{gathered}$* *
 
 **[1]**
 
 > *Opposite angles in a cyclic quadrilateral add up to 180°. Form an equation in terms of *$x$* and *$w$*.*
 
-`open parentheses x plus 20 close parentheses space plus space w space equals space 180 degree`*   (Opposite angles in a cyclic quadrilateral = 180°)*
+$( x + 20 ) + w = 180^{\circ}$*   (Opposite angles in a cyclic quadrilateral = 180°)*
 
 > *Substitute  *$x=75^{\circ}$* into the this equation.*
 
-`table row cell open parentheses 75 plus 20 close parentheses space plus space w space end cell equals cell space 180 degree end cell end table`* *
+$\begin{gathered} ( 75 + 20 ) + w & = 180^{\circ} \end{gathered}$* *
 
 > *Simplify and solve to find *$w$*.*
 
-`table row cell 95 space plus space w space end cell equals cell space 180 end cell row cell w space end cell equals cell space 180 space minus space 95 end cell end table`*  *
+$\begin{gathered} 95 + w & = 180 \\ w & = 180 - 95 \end{gathered}$*  *
 
 **[1]**
 
@@ -1776,17 +1776,17 @@ $w=85^{\circ}$** [1]**
 
 > *The line segment **AFC** is a straight line so angles **AFE, EFD **and **DFC** add up to 180°.*
 
-* *`open parentheses x space plus space 2 x space plus space 78 close parentheses degree space equals space 180 degree`
+* *$( x + 2 x + 78 )^{\circ} = 180^{\circ}$
 
 > *Simplify and begin to solve by subtracting 78 from both sides.*
 
-* *`table row cell 3 x space plus space 78 space end cell equals cell space 180 end cell row cell 3 x space end cell equals cell space 180 space minus space 78 end cell end table`
+* *$\begin{gathered} 3 x + 78 & = 180 \\ 3 x & = 180 - 78 \end{gathered}$
 
 **[1]**
 
 > *Solve to find the value of *$x$*.*
 
-`table row cell 3 x space end cell equals cell space 102 end cell row cell x space end cell equals cell space 102 over 3 end cell end table`
+$\begin{gathered} 3 x & = 102 \\ x & = \frac{102}{3} \end{gathered}$
 
 $x=34^{\circ}$** [1]**
 
@@ -1845,7 +1845,7 @@ $x=65^{\circ}$ **[1] **
 
 > *The angle at the centre of a circle is twice the angle at the circumference. Therefore angle **BOC **is twice angle **BDC.*
 
-`table row cell 110 space end cell equals cell space 2 open parentheses z degree close parentheses end cell row cell z space end cell equals cell 110 over 2 end cell end table`
+$\begin{gathered} 110 & = 2 ( z^{\circ} ) \\ z & = \frac{110}{2} \end{gathered}$
 
 **Angle ****z ****= 55° because the angle at the centre is twice the angle at the circumference and angle ****BOC ****= 110°.   **
 **Correct angle ****[1] **
@@ -1897,23 +1897,23 @@ $180-80-10=90$
 
 > *Triangle **BCD** is a right angled triangle with an angle so you can use trigonometry. You know the length of the side that is opposite to the angle and you want the length of the hypotenuse. Therefore you can use the sine ratio: *$\mathrm{sin}θ=\frac{O}{H}$*.*
 
-`sin open parentheses 28 close parentheses space equals space fraction numerator 6.4 over denominator B D end fraction`
+$\sin ( 28 ) = \frac{6.4}{B D}$
 
 **[1]**
 
 > *Rearrange to make **BD **the subject.*
 
-`table row cell 6.4 thin space end cell equals cell space B D cross times sin open parentheses 28 close parentheses end cell row cell B D end cell equals cell fraction numerator 6.4 over denominator sin open parentheses 28 close parentheses end fraction end cell row blank equals cell space 13.632348... end cell end table`
+$\begin{gathered} 6.4 & = B D \times \sin ( 28 ) \\ B D & = \frac{6.4}{\sin ( 28 )} \\ = 13.632348... \end{gathered}$
 
 **[1]**
 
 > *The radius is equal to half of the diameter.*
 
-`table row cell r space end cell equals cell space fraction numerator 13.632348... over denominator 2 end fraction space equals space 6.8161742... end cell end table`
+$\begin{gathered} r & = \frac{13.632348...}{2} = 6.8161742... \end{gathered}$
 
 > *You can now find the area of the circle using the formula *$A=πr^{2}$*, where **r** is the radius of the circle. Use the answer button or store the radius in your calculator's memory.*
 
-`table row cell Area space end cell equals cell space pi open parentheses 6.8161742... close parentheses squared end cell row blank equals cell 145.959123... end cell end table`
+$\begin{gathered} \text{Area} & = \pi ( 6.8161742... )^{2} \\ = 145.959123... \end{gathered}$
 
 **[1]**
 
@@ -1993,7 +1993,7 @@ $\mathrm{Area}=146\mathrm{cm}^{2}(3s.f.)$* ***[1] **
 ### 16((a)) — 2 marks
 > *The angle at the centre of a circle is twice the angle at the circumference. Therefore angle **x **is twice angle **BAD.*
 
-`table row cell x space end cell equals cell space 2 open parentheses B A D degree close parentheses end cell row cell x space end cell equals cell space 2 open parentheses 52 degree close parentheses end cell end table`
+$\begin{gathered} x & = 2 ( B A D^{\circ} ) \\ x & = 2 ( 52^{\circ} ) \end{gathered}$
 
 **Angle ****x ****= 104° because the angle at the centre is twice the angle at the circumference.   **
 **Correct angle ****[1] **
@@ -2002,7 +2002,7 @@ $\mathrm{Area}=146\mathrm{cm}^{2}(3s.f.)$* ***[1] **
 ### 16((b)) — 2 marks
 > *Opposite angles in a cyclic quadrilateral add up to 180°. Therefore angle **BAD **plus angle **BCD **equals 180°.*
 
-`table row cell 52 space plus thin space y space end cell equals cell space 180 end cell row cell y space end cell equals cell space 180 space minus space 52 end cell end table`
+$\begin{gathered} 52 + y & = 180 \\ y & = 180 - 52 \end{gathered}$
 
 **Angle ****y ****= 128° because opposite angles in a cyclic quadrilateral add up to 180****°.****   **
 **Correct angle ****[1] **
@@ -2021,7 +2021,7 @@ $\mathrm{Area}=146\mathrm{cm}^{2}(3s.f.)$* ***[1] **
 ### 16((b)) — 2 marks
 > *Opposite angles in a cyclic quadrilateral add up to 180°. Therefore angle **x **plus angle **y **equals 180°.*
 
-`table row cell x space plus thin space y space end cell equals cell space 180 end cell row cell 72 space plus space y space end cell equals cell space 180 end cell row cell y space end cell equals cell space 180 space minus space 72 end cell end table`
+$\begin{gathered} x + y & = 180 \\ 72 + y & = 180 \\ y & = 180 - 72 \end{gathered}$
 
 **Angle ****y ****= 108° because opposite angles in a cyclic quadrilateral add up to 180****°.****   **
 **Correct angle ****[1] **
@@ -2082,13 +2082,13 @@ $RS\timesRT=QR\timesPR$
 
 > *Substitute in the lengths of known line segments and simplify*
 
-`table row cell 3 cross times open parentheses 3 plus 8.5 close parentheses end cell equals cell 5 cross times open parentheses 5 plus P Q close parentheses end cell row cell 34.5 end cell equals cell 25 plus 5 P Q end cell end table`
+$\begin{gathered} 3 \times ( 3 + 8.5 ) & = 5 \times ( 5 + P Q ) \\ 34.5 & = 25 + 5 P Q \end{gathered}$
 
 **[M1]**
 
 > *Solve to calculate *$PQ$
 
-`table row cell 34.5 end cell equals cell 25 plus 5 P Q end cell row cell 34.5 minus 25 end cell equals cell 5 P Q end cell row cell 9.5 end cell equals cell 5 P Q end cell row cell fraction numerator 9.5 over denominator 5 end fraction end cell equals cell P Q end cell end table`
+$\begin{gathered} 34.5 & = 25 + 5 P Q \\ 34.5 - 25 & = 5 P Q \\ 9.5 & = 5 P Q \\ \frac{9.5}{5} & = P Q \end{gathered}$
 
 **[M1]**
 
@@ -2116,8 +2116,8 @@ $OCB=90^{\circ}\,OAB=90^{\circ}$
 
 > *Calculate angle *$x$*using  the sum of angles in a quadrilateral equals 360° rule*
 
-`x equals 360 minus open parentheses 90 plus 90 plus 52 close parentheses
-x equals 128`
+$x = 360 - ( 90 + 90 + 52 )
+x = 128$
 
 *Because angles in a quadrilateral add up to 360**<sup>o</sup>*
 

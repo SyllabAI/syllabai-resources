@@ -70,7 +70,7 @@ guided_study: true
   - Use brackets as you would in written mathematics
   - Put brackets around **negative numbers** in calculations
   
-    - Remember, $-3^{2}$ gives you a different result to `open parentheses negative 3 close parentheses squared`
+    - Remember, $-3^{2}$ gives you a different result to $( - 3 )^{2}$
     - Use the **'(-)' button** for negative values, not the minus button
 
 ### Which buttons are useful for trigonometry?
@@ -133,7 +133,7 @@ guided_study: true
 > **Worked Example**
 > (a) Use your calculator to work out
 > 
-> `fraction numerator square root of 4.69 end root over denominator 0.34 cubed plus sin open parentheses 45 degree close parentheses end fraction`
+> $\frac{ \sqrt{4.69} }{0.34^{3} + \sin ( 45^{\circ} )}$
 > 
 > Give your answer as a decimal.
 > Write down all the figures on your calculator display.
@@ -147,7 +147,7 @@ guided_study: true
 > 
 > $\sqrt{4.69}=2.16564...$
 > 
-> `0.34 cubed plus sin open parentheses 45 close parentheses equals 0.746 space 410 space...`
+> $0.34^{3} + \sin ( 45 ) = 0.746 410 ...$
 > 
 > > *Type the whole calculation into your calculator in one go*
 > *Use the fraction button, square root button, cube button and remember to close the bracket after the sine function*
@@ -172,7 +172,7 @@ guided_study: true
 > *Use brackets when expressions get long or awkward*
 > *Write this down to show your working*
 > 
-> `p squared q equals open parentheses 1.2 cross times 10 to the power of negative 3 end exponent close parentheses squared cross times open parentheses 7.83 cross times 10 to the power of 5 close parentheses equals 1.12752`
+> $p^{2} q = ( 1.2 \times 10^{- 3} )^{2} \times ( 7.83 \times 10^{5} ) = 1.12752$
 > 
 > > *Write down all the digits on your calculator display for the working stages*
 > 
@@ -192,11 +192,11 @@ guided_study: true
 > 
 > > *Use brackets around negative values and the '(-)' button*
 > 
-> `open parentheses negative 3 close parentheses cubed minus 6 cross times open parentheses negative 3 close parentheses plus 1 equals negative 8`
+> $( - 3 )^{3} - 6 \times ( - 3 ) + 1 = - 8$
 > 
 > > *Use arrow keys to go back to the input line and change each '-3' to '-1'*
 > 
-> `open parentheses negative 1 close parentheses cubed minus 6 cross times open parentheses negative 1 close parentheses plus 1 equals 6`
+> $( - 1 )^{3} - 6 \times ( - 1 ) + 1 = 6$
 > 
 > > *Repeat for each of the remaining values in the table, 0, 1 and 2*
 > 

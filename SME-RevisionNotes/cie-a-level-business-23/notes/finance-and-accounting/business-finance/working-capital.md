@@ -46,13 +46,13 @@ $\mathrm{Working} \mathrm{capital}=\mathrm{Current} \mathrm{assets}-\mathrm{Curr
 > 
 > **Step 1: Identify and calculate current assets and current liabilities for 2024 and 2023**
 > 
-> Current assets      `table row cell 2024 space end cell equals cell space € 8.1 straight m space plus space € 2.2 straight m space plus space € 0.9 straight m space equals space € 11.2 straight m end cell row cell 2023 space end cell equals cell space € 7.2 straight m space plus space € 3.1 straight m space plus space € 1.2 straight m space equals space € 11.5 straight m end cell end table`**        ****[1]**
+> Current assets      $\begin{gathered} 2024 & = \text{€} 8.1 \mathrm{m} + \text{€} 2.2 \mathrm{m} + \text{€} 0.9 \mathrm{m} = \text{€} 11.2 \mathrm{m} \\ 2023 & = \text{€} 7.2 \mathrm{m} + \text{€} 3.1 \mathrm{m} + \text{€} 1.2 \mathrm{m} = \text{€} 11.5 \mathrm{m} \end{gathered}$**        ****[1]**
 > 
-> Current liabilities            `table row cell 2024 space end cell equals cell space € 6.4 straight m space plus space € 5.1 straight m space equals space € 11.5 straight m space space end cell row cell 2023 space end cell equals cell space € 4.4 straight m space plus space € 5.9 straight m space equals space € 10.3 straight m end cell end table` **        ****[1]**
+> Current liabilities            $\begin{gathered} 2024 & = \text{€} 6.4 \mathrm{m} + \text{€} 5.1 \mathrm{m} = \text{€} 11.5 \mathrm{m} \\ 2023 & = \text{€} 4.4 \mathrm{m} + \text{€} 5.9 \mathrm{m} = \text{€} 10.3 \mathrm{m} \end{gathered}$ **        ****[1]**
 > 
 > **Step 2: Subtract current liabilities from current assets for 2024 and 2023**
 > 
-> `table row cell 2024 space space space space end cell equals cell space space space space space € 11.2 straight m space minus space € 11.5 straight m space space space space space equals space space space space left parenthesis € 0.3 straight m right parenthesis space space end cell row cell 2023 space space space space end cell equals cell space space space space space € 11.5 straight m space minus space € 10.3 straight m space space space space space equals space space space space € 1.2 straight m end cell end table`**              ****[1]**
+> $\begin{gathered} 2024 & = \text{€} 11.2 \mathrm{m} - \text{€} 11.5 \mathrm{m} = ( \text{€} 0.3 \mathrm{m} ) \\ 2023 & = \text{€} 11.5 \mathrm{m} - \text{€} 10.3 \mathrm{m} = \text{€} 1.2 \mathrm{m} \end{gathered}$**              ****[1]**
 
 ### Why is working capital important?
 

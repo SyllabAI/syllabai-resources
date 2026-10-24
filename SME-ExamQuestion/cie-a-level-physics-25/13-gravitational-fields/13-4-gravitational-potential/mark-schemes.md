@@ -28,20 +28,20 @@ Write expressions for the initial and final gravitational potential:
 
 - Gravitational potential:  $φ=-\frac{GM}{r}$
 - $φ_{initial}=-\frac{GM_{M}}{r_{m}}$
-- `phi subscript f i n a l end subscript space equals space minus fraction numerator G M subscript M space over denominator open parentheses s space plus space r subscript m close parentheses end fraction`
+- $\phi_{f i n a l} = - \frac{G M_{M} }{( s + r_{m} )}$
 
 Calculate the gravitational potential difference, *Δφ*, in the first 155 s:
 
 - $\Deltaφ=φ_{final}-φ_{initial}$
-- `increment phi space equals space open parentheses negative fraction numerator G M subscript M space over denominator s space plus space r subscript m end fraction close parentheses space minus space open parentheses negative fraction numerator G M subscript M over denominator r subscript m end fraction close parentheses`
-- `increment phi space equals space G M subscript M space space open parentheses 1 over r subscript m space minus space fraction numerator 1 space over denominator open parentheses s space plus space r subscript m close parentheses end fraction close parentheses`
-- `increment phi space equals open parentheses 6.67 cross times 10 to the power of negative 11 end exponent close parentheses space cross times space open parentheses 7.35 cross times 10 to the power of 22 close parentheses space cross times space open parentheses fraction numerator 1 over denominator 1.74 cross times 10 to the power of 6 space end fraction space minus space fraction numerator 1 over denominator open parentheses 2.763 cross times 10 to the power of 4 close parentheses space plus space open parentheses 1.74 cross times 10 to the power of 6 close parentheses end fraction close parentheses`
+- $\Delta \\phi = ( - \frac{G M_{M} }{s + r_{m} } ) - ( - \frac{G M_{M} }{r_{m} } )$
+- $\Delta \\phi = G M_{M} ( \frac{1}{r} _{m} - \frac{1 }{( s + r_{m} )} )$
+- $\Delta \\phi = ( 6.67 \times 10^{- 11} ) \times ( 7.35 \times 10^{22} ) \times ( \frac{1}{1.74 \times 10^{6} } - \frac{1}{( 2.763 \times 10^{4} ) + ( 1.74 \times 10^{6} )} )$
 - $\Deltaφ=4.4\times10^{4}J\mathrm{kg}^{-1}$ **[1 mark]**
 
 Calculate the work done by the space shuttle in the first 155 s:
 
 - $E_{p}=φ\timesm\RightarrowW=\Deltaφ\timesm_{s}$
-- `W space equals space open parentheses 4.4 space cross times space 10 to the power of 4 close parentheses space cross times space open parentheses 3 space cross times space 10 to the power of 6 close parentheses`
+- $W = ( 4.4 \times 10^{4} ) \times ( 3 \times 10^{6} )$
 - $W=1.32\times10^{11}J$** [1 mark]**
 
 **[Total: 3 marks]**
@@ -109,7 +109,7 @@ List the known quantities:
 Substitute the known quantities into the equation from part (a):
 
 - $E_{p}=-\frac{GMm_{1}}{r_{1}}$
-- `E subscript p space equals space minus space fraction numerator open parentheses 6.67 space cross times space 10 to the power of negative 11 end exponent close parentheses space cross times space open parentheses 7 space cross times space 10 to the power of 22 close parentheses space cross times space open parentheses 300 close parentheses over denominator open parentheses 500 close parentheses end fraction` **[1 mark]**
+- $E_{p} = - \frac{( 6.67 \times 10^{- 11} ) \times ( 7 \times 10^{22} ) \times ( 300 )}{( 500 )}$ **[1 mark]**
 - $E_{p}=-2.8\times10^{12}J$ **[1 mark]**
 
 **[Total: 2 marks]**
@@ -124,7 +124,7 @@ Values for gravitational potential energy are negative because:
 ### Q3
 Derive an expression for its total energy in terms of *G, M, m, h*<sub>*1*</sub>* *and R:
 
-- Radius of the satellite's orbit:  `r space equals space open parentheses R space plus space h subscript 1 close parentheses`
+- Radius of the satellite's orbit:  $r = ( R + h_{1} )$
 
 Obtain an expression for the linear speed *v *of the satellite:
 
@@ -135,33 +135,33 @@ Obtain an expression for the linear speed *v *of the satellite:
 Write an expression for kinetic energy:
 
 - Kinetic energy:  $KE=\frac{1}{2}mv^{2}$
-- `K E thin space equals space 1 half space m space open parentheses square root of fraction numerator G M over denominator r end fraction end root close parentheses squared space equals space 1 half m space open parentheses fraction numerator G M over denominator r end fraction close parentheses`
+- $K E = 1 \frac{1}{2} m ( \sqrt{ \frac{G M}{r} } )^{2} = 1 \frac{1}{2} m ( \frac{G M}{r} )$
 - $KE=\frac{GMm}{2r}$ **[1 mark]**
 
 Write an expression for the kinetic energy + gravitational potential energy:
 
 - Gravitational potential energy:  $E_{p}=-\frac{GMm}{r}$
 - Total energy:  $E_{T}=KE+E_{p}$
-- `E subscript T space equals space space open parentheses fraction numerator G M m over denominator 2 r end fraction close parentheses space plus space open parentheses negative fraction numerator G M m over denominator r end fraction close parentheses` **[1 mark]**
-- `E subscript T space equals space space open parentheses fraction numerator G M m over denominator 2 r end fraction close parentheses space minus space open parentheses fraction numerator 2 G M m over denominator 2 r end fraction close parentheses space equals negative fraction numerator G M m over denominator 2 r end fraction`
-- `E subscript T space equals space minus fraction numerator G M m over denominator 2 open parentheses R space plus space h subscript 1 close parentheses end fraction`** [1 mark]**
+- $E_{T} = ( \frac{G M m}{2 r} ) + ( - \frac{G M m}{r} )$ **[1 mark]**
+- $E_{T} = ( \frac{G M m}{2 r} ) - ( \frac{2 G M m}{2 r} ) = - \frac{G M m}{2 r}$
+- $E_{T} = - \frac{G M m}{2 ( R + h_{1} )}$** [1 mark]**
 
 **[Total: 4 marks]**
 
 > *Even though the final expression must be in terms of **h*<sub>*1*</sub>* **and **R**, it's much easier to keep the distance as **r** until the very end to avoid errors!*
 Write an expression for the change in gravitational potential energy:
 
-- Initial orbital radius:  `r subscript 1 space equals space open parentheses R space plus space h subscript 1 close parentheses`
-- Final orbital radius:  `r subscript 2 space equals space open parentheses R space plus space h subscript 2 close parentheses`
-- Initial `E subscript p space equals space minus fraction numerator G M m over denominator r subscript 1 end fraction space equals space minus fraction numerator G M m over denominator open parentheses R space plus space h subscript 1 close parentheses end fraction`
-- Final `E subscript p space equals space minus fraction numerator G M m over denominator r subscript 2 end fraction space equals space minus fraction numerator G M m over denominator open parentheses R space plus space h subscript 2 close parentheses end fraction`
+- Initial orbital radius:  $r_{1} = ( R + h_{1} )$
+- Final orbital radius:  $r_{2} = ( R + h_{2} )$
+- Initial $E_{p} = - \frac{G M m}{r_{1} } = - \frac{G M m}{( R + h_{1} )}$
+- Final $E_{p} = - \frac{G M m}{r_{2} } = - \frac{G M m}{( R + h_{2} )}$
 
 Obtain an expression for the change in gravitational potential energy between the two points:
 
 - $\DeltaE_{p}=FinalE_{p}-InitialE_{p}$ **[1 mark]**
-- `increment E subscript p space equals space open parentheses negative fraction numerator G M m over denominator r subscript 2 end fraction close parentheses space minus space open parentheses negative fraction numerator G M m over denominator r subscript 1 end fraction close parentheses space equals space fraction numerator G M m over denominator r subscript 1 end fraction space minus space fraction numerator G M m over denominator r subscript 2 end fraction`
-- `increment E subscript p space equals space G M m open parentheses 1 over r subscript 1 space minus space 1 over r subscript 2 close parentheses`
-- `increment E subscript p space equals space G M m open parentheses fraction numerator 1 over denominator R space plus space h subscript 1 end fraction space minus space fraction numerator 1 over denominator R space plus space h subscript 2 end fraction close parentheses`** [1 mark]**
+- $\Delta E_{p} = ( - \frac{G M m}{r_{2} } ) - ( - \frac{G M m}{r_{1} } ) = \frac{G M m}{r_{1} } - \frac{G M m}{r_{2} }$
+- $\Delta E_{p} = G M m ( \frac{1}{r} _{1} - \frac{1}{r} _{2} )$
+- $\Delta E_{p} = G M m ( \frac{1}{R + h_{1} } - \frac{1}{R + h_{2} } )$** [1 mark]**
 
 **[Total: 2 marks]**
 Calculate how far the satellite will have drifted at the point wherethe magnitude of its gravitational potential energy has decreased by 20%:
@@ -176,20 +176,20 @@ List the known quantities:
 Obtain an expression linking gravitational potential energy and orbital radius:
 
 - *G*, *M* and *m* remain constant, hence:  $E_{p}=-\frac{GMm}{r}\RightarrowE_{p}\propto-\frac{1}{r}$
-- Initial distance from centre of Earth:  `r subscript i space equals space open parentheses R space plus space h subscript 1 close parentheses space equals space open parentheses 6.38 plus 2.23 close parentheses cross times 10 to the power of 6 space equals space 8.61 space cross times 10 to the power of 6 space straight m`
-- Final distance from centre of Earth:  `r subscript f space equals space x space plus space open parentheses R space plus space h subscript 2 close parentheses space equals space x space plus space open parentheses 6.38 plus 3.05 close parentheses cross times 10 to the power of 6 space equals space x space plus space open parentheses 9.43 space cross times 10 to the power of 6 close parentheses space straight m`
-- Initial GPE:  `E subscript p open parentheses i close parentheses end subscript space proportional to space minus 1 over r subscript i`  **AND** final GPE:  `E subscript p open parentheses f close parentheses end subscript space proportional to space minus 1 over r subscript f`** [1 mark]**
+- Initial distance from centre of Earth:  $r_{i} = ( R + h_{1} ) = ( 6.38 + 2.23 ) \times 10^{6} = 8.61 \times 10^{6} \mathrm{m}$
+- Final distance from centre of Earth:  $r_{f} = x + ( R + h_{2} ) = x + ( 6.38 + 3.05 ) \times 10^{6} = x + ( 9.43 \times 10^{6} ) \mathrm{m}$
+- Initial GPE:  $E_{p ( i )} \propto - \frac{1}{r} _{i}$  **AND** final GPE:  $E_{p ( f )} \propto - \frac{1}{r} _{f}$** [1 mark]**
 
 Obtain an expression linking the orbital radius before and after drifting:
 
-- When the satellite moves from $r_{i}$ to $r_{f}$, the magnitude of the GPE **decreases** by 20%:  `E subscript p open parentheses f close parentheses end subscript space equals space 0.8 E subscript p open parentheses i close parentheses end subscript`
-- Hence, `E subscript p open parentheses f close parentheses end subscript space equals space 0.8 E subscript p open parentheses i close parentheses end subscript space space space proportional to space space space minus 1 over r subscript f space equals space 0.8 open parentheses negative 1 over r subscript f close parentheses`
+- When the satellite moves from $r_{i}$ to $r_{f}$, the magnitude of the GPE **decreases** by 20%:  $E_{p ( f )} = 0.8 E_{p ( i )}$
+- Hence, $E_{p ( f )} = 0.8 E_{p ( i )} \propto - \frac{1}{r} _{f} = 0.8 ( - \frac{1}{r} _{f} )$
 - Therefore, $r_{f}=\frac{r_{i}}{0.8}=1.25r_{i}$ **[1 mark]**
 
 Calculate the drift distance of the satellite, *x*:
 
-- `x space plus space 9.43 space cross times 10 to the power of 6 space equals space 1.25 open parentheses 8.61 space cross times 10 to the power of 6 close parentheses`
-- `x space equals space 1.25 open parentheses 8.61 space cross times 10 to the power of 6 close parentheses space minus space open parentheses 9.43 space cross times 10 to the power of 6 close parentheses`** [1 mark]**
+- $x + 9.43 \times 10^{6} = 1.25 ( 8.61 \times 10^{6} )$
+- $x = 1.25 ( 8.61 \times 10^{6} ) - ( 9.43 \times 10^{6} )$** [1 mark]**
 - $x=1.33\times10^{6}m$ **[1 mark]**
 
 **[Total: 4 marks]**
@@ -198,33 +198,33 @@ Calculate the drift distance of the satellite, *x*:
 
 - *First, calculate the **initial GPE*
 
-`E subscript p open parentheses i close parentheses end subscript space equals space minus fraction numerator open parentheses 6.67 cross times 10 to the power of negative 11 end exponent close parentheses open parentheses 5.97 cross times 10 to the power of 24 close parentheses open parentheses 1720 close parentheses over denominator open parentheses 6.38 plus 2.23 close parentheses cross times 10 to the power of 6 end fraction`
+$E_{p ( i )} = - \frac{( 6.67 \times 10^{- 11} ) ( 5.97 \times 10^{24} ) ( 1720 )}{( 6.38 + 2.23 ) \times 10^{6} }$
 
-`E subscript p open parentheses i close parentheses end subscript space equals space minus 7.955 space cross times space 10 to the power of 10 space straight J`
+$E_{p ( i )} = - 7.955 \times 10^{10} \mathrm{J}$
 
 - *Then, calculate the **change in GPE **(you can ignore the minus signs!)*
 
-`increment E subscript p space equals space E subscript p open parentheses f close parentheses end subscript space minus space E subscript p open parentheses i close parentheses end subscript`
+$\Delta E_{p = E_{p} ( f )} - E_{p ( i )}$
 
-`increment E subscript p space equals space 0.8 cross times open parentheses negative 7.955 space cross times space 10 to the power of 10 close parentheses space minus space open parentheses negative 7.955 space cross times space 10 to the power of 10 close parentheses`
+$\Delta E_{p} = 0.8 \times ( - 7.955 \times 10^{10} ) - ( - 7.955 \times 10^{10} )$
 
 $\DeltaE_{p}=1.591\times10^{10}J$
 
 - *Finally, **rearrange** the change in GPE equation to calculate *$x$
 
-`increment E subscript p space equals space G M m open parentheses 1 over r subscript i space minus space 1 over r subscript f close parentheses`
+$\Delta E_{p} = G M m ( \frac{1}{r} _{i} - \frac{1}{r} _{f} )$
 
 $\frac{\DeltaE_{p}}{GMm}=\frac{1}{r_{i}}-\frac{1}{r_{f}}\Rightarrow\frac{1}{r_{f}}=\frac{1}{r_{i}}-\frac{\DeltaE_{p}}{GMm}$
 
-`1 over r subscript f space equals space 1 over r subscript i space minus space fraction numerator open parentheses 1.591 space cross times space 10 to the power of 10 close parentheses over denominator open parentheses 6.67 cross times 10 to the power of negative 11 end exponent close parentheses open parentheses 5.97 cross times 10 to the power of 24 close parentheses open parentheses 1720 close parentheses end fraction`
+$\frac{1}{r} _{f} = \frac{1}{r} _{i} - \frac{( 1.591 \times 10^{10 )}{( 6.67 \times 10^{-11} } ) ( 5.97 \times 10^{24} ) ( 1720 )}$
 
-`1 over r subscript f space equals space fraction numerator 1 over denominator open parentheses 6.38 plus 2.23 close parentheses cross times 10 to the power of 6 end fraction space minus space fraction numerator open parentheses 1.591 space cross times space 10 to the power of 10 close parentheses over denominator open parentheses 6.67 cross times 10 to the power of negative 11 end exponent close parentheses open parentheses 5.97 cross times 10 to the power of 24 close parentheses open parentheses 1720 close parentheses end fraction`
+$\frac{1}{r} _{f} = \frac{1}{( 6.38 + 2.23 ) \times 10^{6} - \frac{( 1.591 \times 10^{10} )}{( 6.67 \times 10^{-11} } ) ( 5.97 \times 10^{24} ) ( 1720 )}$
 
 $\frac{1}{r_{f}}=9.291\times10^{-8}\Rightarrowr_{f}=1.076\times10^{7}m$
 
-`r subscript f space equals space open parentheses 1.076 cross times 10 to the power of 7 close parentheses space equals space x space plus space open parentheses 6.38 plus 3.05 close parentheses cross times 10 to the power of 6`
+$r_{f} = ( 1.076 \times 10^{7} ) = x + ( 6.38 + 3.05 ) \times 10^{6}$
 
-`x space equals space open parentheses 1.076 cross times 10 to the power of 7 close parentheses space minus space open parentheses 6.38 plus 3.05 close parentheses cross times 10 to the power of 6`
+$x = ( 1.076 \times 10^{7} ) - ( 6.38 + 3.05 ) \times 10^{6}$
 
 $x=1.33\times10^{6}m$
 
@@ -289,7 +289,7 @@ Determine the potential at *R*, *φ*:
 Rearrange the gravitational potential equation for mass, *M*:
 
 - $φ=-\frac{GM}{r}\RightarrowM=-\frac{rφ}{G}$
-- `M space equals space minus fraction numerator open parentheses 3400 space cross times space 10 cubed close parentheses space cross times space open parentheses negative 12.5 space cross times space 10 to the power of 6 close parentheses space over denominator 6.67 space cross times space 10 to the power of negative 11 end exponent end fraction` **[1 mark]**
+- $M = - \frac{( 3400 \times 10^{3} ) \times ( - 12.5 \times 10^{6 ) }{6.67 \times 10^{-11} } }$ **[1 mark]**
 - $M=6.4\times10^{23}\mathrm{kg}$ **[1 mark]**
 
 **[Total: 3 marks]**
@@ -318,11 +318,11 @@ List the known quantities:
 - Determine an expression for $\DeltaE_{p}$
 
   - At infinity, $φ_{\infty}=0$
-  - At distance $r$, `phi subscript r space equals space minus open vertical bar phi close vertical bar`
-- `increment E subscript p space equals space m open parentheses phi subscript r space minus space phi subscript infinity close parentheses space equals space m open parentheses negative open vertical bar phi close vertical bar space minus space 0 close parentheses space equals space minus m open vertical bar phi close vertical bar`
+  - At distance $r$, $\phi_{r} = - \left| \\phi \right|$
+- `\Delta E _ p = m ( phi _ r - phi _ inf ) = m ( - | phi | - 0 ) = - m | phi |`
 
 - Therefore
-- `negative m open vertical bar phi close vertical bar space equals space 1 half m v squared`
+- $- m \left| \\phi \right| = 1 \frac{1}{2} m v^{2}$
 
 - Cancel *m*
 - $φ=\frac{1}{2}v^{2}$
@@ -333,7 +333,7 @@ $v=\sqrt{-2φ}$
 
 Substitute in the values:
 
-- `v space equals space square root of negative 2 space cross times space open parentheses negative 3.1 space cross times space 10 to the power of 6 close parentheses end root` **[1 mark]**
+- $v = \sqrt{- 2 \times ( - 3.1 \times 10^{6} )}$ **[1 mark]**
 - $v=2.5\times10^{3}ms^{-1}$ **[1 mark]**
 
 **[Total: 4 marks]**
@@ -352,12 +352,12 @@ List the known quantities:
 Calculate the change in gravitational potential energy:
 
 - $E_{p}=-\frac{GMm}{r}$
-- `increment E subscript p space equals negative fraction numerator G M m over denominator r subscript p end fraction space minus space open parentheses negative fraction numerator G M m over denominator r subscript d end fraction close parentheses space equals space fraction numerator G M m over denominator r subscript d end fraction space minus space fraction numerator G M m over denominator r subscript p end fraction` **[1 mark]**
-- `increment E subscript p space equals space G M m open parentheses 1 over r subscript d space minus fraction numerator space 1 over denominator r subscript p end fraction close parentheses`
+- $\Delta E_{p} = - \frac{G M m}{r_{p} } - ( - \frac{G M m}{r_{d} } ) = \frac{G M m}{r_{d} } - \frac{G M m}{r_{p} }$ **[1 mark]**
+- $\Delta E_{p} = G M m ( \frac{1}{r} _{d} - \frac{ 1}{r_{p} } )$
 
 Substitute in the values:
 
-- `increment E subscript p space equals space open parentheses 6.67 space cross times space 10 to the power of negative 11 end exponent close parentheses space cross times space open parentheses 6.4 space cross times space 10 to the power of 23 close parentheses space cross times space 210 open parentheses fraction numerator 1 over denominator 2.3 space cross times space 10 to the power of 7 end fraction space minus fraction numerator space 1 over denominator 9400 space cross times 10 cubed end fraction close parentheses` **[1 mark]**
+- $\Delta E_{p} = ( 6.67 \times 10^{- 11} ) \times ( 6.4 \times 10^{23} ) \times 210 ( \frac{1}{2.3 \times 10^{7} } - \frac{ 1}{9400 \times 10^{3}} )$ **[1 mark]**
 - $\DeltaE_{p}=-563.9\times10^{6}=-560\mathrm{MJ}$ **[1 mark]**
 
 **[Total: 3 marks]**
@@ -387,7 +387,7 @@ List the known quantities:
 Calculate the gravitational potential difference between orbits X and Y:
 
 - $\Deltaφ=φ_{Y}-φ_{X}$ **[1 mark]**
-- `increment phi space equals space open parentheses negative 1.23 close parentheses space minus space open parentheses negative 3.56 close parentheses`** [1 mark]**
+- $\Delta \\phi = ( - 1.23 ) - ( - 3.56 )$** [1 mark]**
 - $\Deltaφ=2.33\mathrm{MJ} \mathrm{kg}^{-1}$** [1 mark]**
 
 **[Total: 3 marks]**
@@ -421,19 +421,19 @@ List the known quantities:
 
 State the equation for the change in potential and rearrange for the radius of orbit, *r*:
 
-- `increment phi space equals negative fraction numerator G M over denominator r end fraction space minus open parentheses negative fraction numerator space G M over denominator R end fraction close parentheses space equals space G M open parentheses 1 over R space minus fraction numerator space 1 over denominator r end fraction close parentheses` ** [1 mark]**
+- $\Delta \\phi = - \frac{G M}{r} - ( - \frac{ G M}{R} ) = G M ( \frac{1}{R} - \frac{ 1}{r} )$ ** [1 mark]**
 
 Rearrange the equation for the radius of orbit, *r*:
 
-- `fraction numerator increment phi over denominator G M end fraction space equals space open parentheses 1 over R space minus fraction numerator space 1 over denominator r end fraction close parentheses`
+- $\frac{\Delta \\phi }{G M} = ( \frac{1}{R} - \frac{ 1}{r} )$
 - $\frac{\Deltaφ}{GM}+\frac{1}{r}=\frac{1}{R}$
 - $\frac{1}{r}=\frac{1}{R}-\frac{\Deltaφ}{GM}$
-- `1 equals space open parentheses 1 over R space minus space fraction numerator increment phi over denominator G M end fraction close parentheses r`
+- $1 = ( \frac{1}{R} - \frac{\Delta \\phi }{G M} ) r$
 - $r=\frac{1}{\frac{1}{R}-\frac{\Deltaφ}{GM}}$
 
 Substitute in the known values:
 
-- `r space equals space fraction numerator 1 over denominator fraction numerator 1 over denominator open parentheses 6100 cross times 10 cubed close parentheses end fraction minus fraction numerator 4.2 cross times 10 to the power of 6 space over denominator open parentheses 6.67 cross times 10 to the power of negative 11 end exponent close parentheses cross times open parentheses 4.9 cross times 10 to the power of 24 close parentheses end fraction end fraction` ** [1 mark]**
+- $r = \frac{1}{\frac{1}{( 6100 \times 10^{3} )} - \frac{4.2 \times 10^{6 }{( 6.67 \times 10^{-11} } ) \times ( 4.9 \times 10^{24} )}}$ ** [1 mark]**
 - $r=6.6\times10^{6}m$** [1 mark]**
 
 **[Total: 3 marks]**
@@ -448,11 +448,11 @@ List the known quantities:
 
 Determine the equation for the change in gravitational potential energy (equal to the work done) of the object, Δ*φ*:
 
-- `increment phi space equals negative fraction numerator G M over denominator R space plus space h end fraction space minus space open parentheses negative fraction numerator G M over denominator R end fraction close parentheses space equals space G M open parentheses 1 over R space minus fraction numerator space 1 over denominator R space plus space h end fraction close parentheses`
+- $\Delta \\phi = - \frac{G M}{R + h} - ( - \frac{G M}{R} ) = G M ( \frac{1}{R} - \frac{ 1}{R + h} )$
 
 Substitute in the values:
 
-- `increment phi equals space open parentheses 6.67 cross times 10 to the power of negative 11 end exponent close parentheses cross times open parentheses 4.9 cross times 10 to the power of 24 close parentheses open parentheses fraction numerator 1 over denominator 6100 cross times 10 cubed end fraction minus fraction numerator space 1 over denominator open parentheses 6100 cross times 10 cubed close parentheses plus open parentheses 7.2 cross times 10 to the power of 7 close parentheses end fraction close parentheses` ** [1 mark]**
+- $\Delta \\phi = ( 6.67 \times 10^{- 11} ) \times ( 4.9 \times 10^{24} ) ( \frac{1}{6100 \times 10^{3}} - \frac{ 1}{( 6100 \times 10^{3} ) + ( 7.2 \times 10^{7} )} )$ ** [1 mark]**
 - $\Deltaφ=4.94\times10^{7}J\mathrm{kg}^{-1}=49.4\mathrm{MJ} \mathrm{kg}^{-1}$** [1 mark]**
 
 **[Total: 2 marks]**
@@ -474,7 +474,7 @@ Equate the gravitational potential energy, *E*<sub>*p*</sub> and kinetic energy 
 
 Substitute in the values:
 
-- `v equals square root of 2 cross times open parentheses 4.94 cross times 10 to the power of 7 close parentheses end root` = 9.94 × 10<sup>3</sup> m s<sup>–1</sup> = 9.94 km s<sup>–1</sup> **[1 mark]**
+- $v = \sqrt{2 \times ( 4.94 \times 10^{7} )}$ = 9.94 × 10<sup>3</sup> m s<sup>–1</sup> = 9.94 km s<sup>–1</sup> **[1 mark]**
 
 **[Total: 2 marks]**
 
@@ -494,17 +494,17 @@ Because:
 - Potential $\propto\frac{1}{r}$ and at point A it is less negative / more positive;** [1 mark]**
 
 **[Total: 2 marks]**
-Show that the mass *M* of Mercury is given by the expression `M space equals fraction numerator increment E subscript p over denominator G m open parentheses fraction numerator 1 over denominator R plus h subscript 1 end fraction space minus fraction numerator space 1 over denominator R plus h subscript 2 end fraction close parentheses space end fraction`:
+Show that the mass *M* of Mercury is given by the expression $M = \frac{\Delta E_{p} }{G m ( \frac{1}{R + h_{1} } - \frac{ 1}{R + h_{2} } ) }$:
 
 State the equation for the change in gravitational potential:
 
 - $E_{p}=-\frac{GMm}{r}$
-- `increment E subscript p space equals space minus fraction numerator space G M m over denominator R space plus space h subscript 2 end fraction minus open parentheses negative fraction numerator G M m over denominator R space plus space h subscript 1 end fraction close parentheses space equals space minus fraction numerator space G M m over denominator R space plus space h subscript 2 end fraction plus fraction numerator G M m over denominator R space plus space h subscript 1 end fraction` ** [1 mark]**
-- `increment E subscript p space equals space fraction numerator G M m over denominator R space plus space h subscript 1 end fraction minus fraction numerator space G M m over denominator R space plus space h subscript 2 end fraction space equals space G M m open parentheses fraction numerator 1 over denominator R space plus space h subscript 1 end fraction space minus fraction numerator 1 over denominator R space plus space h subscript 2 end fraction close parentheses` ** [1 mark]**
+- $\Delta E_{p} = - \frac{ G M m}{R + h_{2} } - ( - \frac{G M m}{R + h_{1} } ) = - \frac{ G M m}{R + h_{2} } + \frac{G M m}{R + h_{1} }$ ** [1 mark]**
+- $\Delta E_{p} = \frac{G M m}{R + h_{1} } - \frac{ G M m}{R + h_{2} } = G M m ( \frac{1}{R + h_{1} } - \frac{1}{R + h_{2} } )$ ** [1 mark]**
 
 Rearrange for the mass of Mercury, *M*:
 
-- `M space equals fraction numerator increment E subscript p over denominator G m open parentheses fraction numerator 1 over denominator R plus h subscript 1 end fraction space minus fraction numerator space 1 over denominator R plus h subscript 2 end fraction close parentheses space end fraction`** [1 mark]**
+- $M = \frac{\Delta E_{p} }{G m ( \frac{1}{R + h_{1} } - \frac{ 1}{R + h_{2} } ) }$** [1 mark]**
 
 **[Total: 3 marks]**
 
@@ -515,7 +515,7 @@ Rearrange for the mass of Mercury, *M*:
 ![img-1fe4aada8a39-1](assets/008-img-1fe4aada8a39-1.jpeg)
 An expression for the change in kinetic energy is:
 
-- `1 half m open parentheses v subscript 2 squared space minus space v subscript 1 squared close parentheses` **[1 mark]**
+- $1 \frac{1}{2} m ( v_{2}^{2} - v_{1}^{2} )$ **[1 mark]**
 
 **[Total: 1 mark]**
 
@@ -540,8 +540,8 @@ Write expressions for the initial and final gravitational potential energy:
 Consider the change in gravitational potential energy of the rocket:
 
 - $\DeltaE_{p}=FinalGPE-InitialGPE$
-- `increment E subscript p space equals space open parentheses negative fraction numerator G M m over denominator 5 R end fraction close parentheses space minus space open parentheses negative fraction numerator G M m over denominator 2 R end fraction close parentheses` **[1 mark]**
-- `increment E subscript p space equals space open parentheses fraction numerator G M m over denominator 2 R end fraction close parentheses space minus space open parentheses fraction numerator G M m over denominator 5 R end fraction close parentheses space space space space space rightwards double arrow space space space space space open parentheses fraction numerator 5 G M m over denominator 10 R end fraction close parentheses space minus space open parentheses fraction numerator 2 G M m over denominator 10 R end fraction close parentheses space`
+- $\Delta E_{p} = ( - \frac{G M m}{5 R} ) - ( - \frac{G M m}{2 R} )$ **[1 mark]**
+- $\Delta E_{p} = ( \frac{G M m}{2 R} ) - ( \frac{G M m}{5 R} ) \Leftrightarrow ( \frac{5 G M m}{10 R} ) - ( \frac{2 G M m}{10 R} )$
 - $\DeltaE_{p}=\frac{3GMm}{10R}$
 - Hence** **$x=\frac{3}{10}$ **[1 mark]**
 
@@ -556,7 +556,7 @@ List the known quantities:
 Obtain an expression for the change in kinetic energy of the rocket:
 
 - $\DeltaKE=FinalKE-InitialKE$
-- `increment K E space equals space 1 half m v squared space minus space 1 half m open parentheses 2 v close parentheses squared space equals space m v squared open parentheses 1 half space minus space 4 over 2 close parentheses`
+- $\Delta K E = 1 \frac{1}{2} m v^{2} - 1 \frac{1}{2} m ( 2 v )^{2} = m v^{2} ( 1 \frac{1}{2} - \frac{4}{2} )$
 - $\DeltaKE=-\frac{3}{2}mv^{2}$ **[1 mark]**
 
 Consider the conservation of energy:
@@ -567,9 +567,9 @@ Substitute the known expressions and rearrange to make $\DeltaQ$ the subject:
 
 - Change in GPE:  $\DeltaE_{p}=\frac{3GMm}{10R}$ (from **(a)**)
 - $\DeltaQ=-\DeltaE_{p}-\DeltaKE$
-- `increment Q space equals space minus fraction numerator 3 G M m over denominator 10 R end fraction space minus space open parentheses negative fraction numerator 3 m v squared over denominator 2 end fraction space close parentheses` **[1 mark]**
+- $\Delta Q = - \frac{3 G M m}{10 R} - ( - \frac{3 m v^{2}}{2} )$ **[1 mark]**
 - $\DeltaQ=\frac{3mv^{2}}{2}-\frac{3GMm}{10R}$
-- `increment Q space equals space fraction numerator 3 m over denominator 2 end fraction open parentheses v squared space minus space fraction numerator G M over denominator 5 R end fraction close parentheses`** [1 mark]**
+- $\Delta Q = \frac{3 m}{2} ( v^{2} - \frac{G M}{5 R} )$** [1 mark]**
 
 **[Total: 4 marks]**
 Calculate the distance from the planet's surface where the resultant gravitational field strength is zero:
@@ -589,14 +589,14 @@ Write expressions for the gravitational field strength of the rocket and the moo
 - Gravitational field strength is equal to the gradient of the potential-distance graph i.e. $g=\frac{\DeltaE_{P}}{\Deltar}$
 - Hence, the point where $\frac{\DeltaE_{P}}{\Deltar}=0$ is where $g_{planet}=-g_{moon}$
 - Field strength due to planet:  $g_{P}=\frac{GM}{x^{2}}$ **[1 mark]**
-- Field strength due to moon:  `g subscript M space equals space fraction numerator G open parentheses M over 16 close parentheses over denominator open parentheses 200 R space minus space x close parentheses squared end fraction` **[1 mark]**
+- Field strength due to moon:  $g_{M} = \frac{G ( \frac{M}{16} ) }{ ( 200 R - x ) ^{2} }$ **[1 mark]**
 
 Equate the expressions for gravitational field strength to obtain a value for *x*:
 
 - $g_{P}=-g_{M}$
-- `fraction numerator G M over denominator x squared end fraction space equals space minus fraction numerator G M over denominator 16 open parentheses 200 R space minus space x close parentheses squared end fraction` **[1 mark]**
-- `x squared space equals space 16 open parentheses 200 R space minus space x close parentheses squared space space space space space rightwards double arrow space space space space square root of x squared end root space equals space square root of 16 open parentheses 200 R space minus space x close parentheses squared end root`
-- `x space equals space 4 open parentheses 200 R space minus space x close parentheses space equals space 800 R space minus space 4 x`
+- $\frac{G M}{x^{2}} = - \frac{G M}{16 ( 200 R - x )^{2}}$ **[1 mark]**
+- $x^{2} = 16 ( 200 R - x )^{2} \Leftrightarrow \sqrt{x^{2}} = \sqrt{16 ( 200 R - x )^{2}}$
+- $x = 4 ( 200 R - x ) = 800 R - 4 x$
 - $x=\frac{800}{5}R=160R$ **[1 mark]**
 
 **[Total: 4 marks]**

@@ -61,18 +61,18 @@ Substitute *m*<sub>m</sub> into the equation for gravitational field strength at
 - Recall: $g=G\frac{M}{r^{2}}$
 - So, $g_{m}=\frac{Gm_{m}}{r_{m}^{2}}$
 - $3.2=\frac{Gm_{m}}{r_{m}^{2}}$
-- `3.2 equals fraction numerator G cross times open parentheses 4 over 3 pi rho r subscript m cubed close parentheses over denominator r subscript m squared end fraction equals G cross times 4 over 3 pi rho r subscript m` **[1 mark]**
+- $3.2 = \frac{G \times ( \frac{4}{3} pi \text{rho} r_{m} ^{3} ) }{r_{m} ^{2} } = G \times \frac{4}{3} pi \text{rho} r_{m}$ **[1 mark]**
 
 Determine the mass of the planet, *m*<sub>p</sub> in terms of its density:
 
 - Following similar lines as above, $m_{p}=\frac{4}{3}πρr_{p}^{3}$
-- However, since *d*<sub>*p*</sub> = 2.6*d*<sub>*m *</sub>then *r*<sub>p</sub> = 2.6*r*<sub>m</sub>, so `m subscript p equals 4 over 3 pi rho open parentheses 2.6 r subscript m close parentheses cubed`** [1 mark]**
+- However, since *d*<sub>*p*</sub> = 2.6*d*<sub>*m *</sub>then *r*<sub>p</sub> = 2.6*r*<sub>m</sub>, so $m_{p} = \frac{4}{3} \pi \\rho ( 2.6 r_{m} )^{3}$** [1 mark]**
 
 Substitute *m*<sub>p</sub> into the equation for gravitational field strength at the surface of the planet:
 
 - $g_{p}=\frac{Gm_{p}}{r_{p}^{2}}$
-- `g subscript p equals fraction numerator G cross times open parentheses 4 over 3 pi rho left parenthesis 2.6 r subscript m right parenthesis cubed close parentheses over denominator left parenthesis 2.6 r subscript m right parenthesis squared end fraction`
-- `g subscript p equals G cross times 4 over 3 pi rho open parentheses 2.6 r subscript m close parentheses` **[1 mark]**
+- $g_{p} = \frac{G \times ( \frac{4}{3} pi \text{rho} ( 2.6 r_{m} ) ^{3} ) }{( 2.6 r_{m} ) ^{2} }$
+- $g_{p} = G \times \frac{4}{3} \pi \\rho ( 2.6 r_{m} )$ **[1 mark]**
 
 Determine *g*<sub>p</sub> in terms of the gravitational field strength at the surface of the moon:
 
@@ -114,7 +114,7 @@ A correctly sketched graph that would score 2 marks should look like this:
 **[Total: 2 marks]**
 List the known quantities:
 
-- `m subscript p equals 4 over 3 pi rho open parentheses 2.6 r subscript m close parentheses cubed` (From part a))
+- $m_{p} = \frac{4}{3} \pi \\rho ( 2.6 r_{m} )^{3}$ (From part a))
 
 Determine the relationship between the gravitational field strengths at the neutral point, *R*:
 
@@ -138,7 +138,7 @@ Calculate the value of the ratio:
 
 > *It can be hard to spot the relationship between the mass of the planet and the mass of the moon.*
 
-> *From part a) we know *`m subscript p equals 4 over 3 pi rho open parentheses 2.6 r subscript m close parentheses cubed`* and *`m subscript m equals 4 over 3 pi rho open parentheses r subscript m close parentheses cubed`* so *$m_{p}=2.6^{3}m_{m}$*.*
+> *From part a) we know *$m_{p} = \frac{4}{3} \pi \\rho ( 2.6 r_{m} )^{3}$* and *$m_{m} = \frac{4}{3} \pi \\rho ( r_{m} )^{3}$* so *$m_{p}=2.6^{3}m_{m}$*.*
 
 ### Q3
 Calculate *M*
@@ -152,12 +152,12 @@ List the known quantities:
 
 Use Newton's law of gravitation to determine an equation for *M*:
 
-- `F space equals fraction numerator G M subscript 1 M subscript 2 space over denominator r squared end fraction space equals space fraction numerator G M m space over denominator open parentheses R space plus space h close parentheses squared end fraction`
-- `M space equals space fraction numerator F space open parentheses R space plus space h close parentheses squared space over denominator G m end fraction`
+- $F = \frac{G M_{1} M_{2} }{r^{2}} = \frac{G M m }{( R + h )^{2}}$
+- $M = \frac{F ( R + h )^{2} }{G m}$
 
 Substitute values into the mass equation:
 
-- `M space equals space fraction numerator 13.3 cross times open parentheses space open parentheses 3400 space plus space 25 close parentheses space cross times space 10 cubed close parentheses squared space over denominator open parentheses 6.67 cross times 10 to the power of negative 11 end exponent close parentheses space cross times space 3.67 end fraction` **[1 mark]**
+- $M = \frac{13.3 \times ( ( 3400 + 25 ) \times 10^{3} )^{2} }{( 6.67 \times 10^{- 11} ) \times 3.67}$ **[1 mark]**
 - $M=6.374\times10^{23}=6.4\times10^{23}\mathrm{kg}$ **[1 mark]**
 
 **[Total: 2 marks]**
@@ -181,11 +181,11 @@ Calculate the time period *T* in seconds:
 Determine the equation for the centripetal force equation, *F*:
 
 - $F=\frac{mv^{2}}{r}$ **AND **$v=ωr=\frac{2πr}{T}$** ****[1 mark]**
-- `F space equals fraction numerator space m open parentheses fraction numerator 2 pi r over denominator T end fraction close parentheses squared over denominator r end fraction space equals space fraction numerator m space cross times 4 pi squared r space over denominator T squared end fraction`** **
+- $F = \frac{ m ( \frac{2 \pi r}{T} )^{2}}{r} = \frac{m \times 4 \pi ^{2} r }{T^{2}}$** **
 
 Substitute in the values for *F*:
 
-- `F space equals space fraction numerator 3.67 space cross times space 4 pi squared space cross times space open parentheses open parentheses 3400 space cross times space 10 cubed close parentheses space plus space open parentheses 25 space cross times 10 cubed close parentheses close parentheses space over denominator open parentheses 88620 close parentheses squared end fraction space space equals space 6.3 space cross times space 10 to the power of negative 2 end exponent space straight N` **[1 mark]**
+- $F = \frac{3.67 \times 4 \pi ^{2} \times ( ( 3400 \times 10^{3} ) + ( 25 \times 10^{3} ) ) }{( 88620 )^{2}} = 6.3 \times 10^{- 2} \mathrm{N}$ **[1 mark]**
 
 **[Total: 3 marks]**
 Derive the equation $g=\frac{GM}{r^{2}}$
@@ -216,7 +216,7 @@ List the known quantities:
 
 Calculate the gravitational field strength (acceleration due to gravity), *g*:
 
-- `g space equals fraction numerator space G M over denominator r squared end fraction space equals space fraction numerator open parentheses 6.67 space cross times space 10 to the power of negative 11 end exponent close parentheses space cross times space open parentheses 6.374 space cross times space 10 to the power of 23 close parentheses space space over denominator open parentheses open parentheses 3400 space cross times space 10 cubed close parentheses space plus space open parentheses 50 space cross times space 10 cubed close parentheses close parentheses squared end fraction` **[1 mark]**
+- $g = \frac{ G M}{r^{2}} = \frac{( 6.67 \times 10^{- 11} ) \times ( 6.374 \times 10^{23} ) }{( ( 3400 \times 10^{3} ) + ( 50 \times 10^{3} ) )^{2}}$ **[1 mark]**
 - $g=a=3.57N\mathrm{kg}^{-1}=3.5ms^{-2}$ **[1 mark]**
 
 **[Total: 2 marks]**
@@ -238,7 +238,7 @@ Rearrange the field strength equation for mass:
 
 Substitute volume and mass into the density equation:
 
-- Substitute:  `space rho space equals space M over V space equals space fraction numerator r squared g over denominator G end fraction cross times open parentheses fraction numerator 3 over denominator 4 straight pi r cubed end fraction close parentheses` **[1 mark]**
+- Substitute:  $\\rho = \frac{M}{V} = \frac{r^{2} g}{G} \times ( \frac{3}{4 \mathrm{\pi } r^{3}} )$ **[1 mark]**
 - Simplify: $ρ=\frac{3r^{2}g}{4πr^{3}G}$
 - Mean density of Moon: $ρ=\frac{3g}{4πGr}$ **[1 mark]**** **
 
@@ -257,7 +257,7 @@ Rearrange the expression from (a) for field strength:
 
 Substitute values into the equation for field strength:
 
-- Substitute:*  *`g equals fraction numerator 4 straight pi cross times open parentheses 6.67 cross times 10 to the power of negative 11 end exponent close parentheses open parentheses 1700 cross times 10 cubed close parentheses open parentheses 3340 close parentheses over denominator 3 end fraction` = 1.59 N kg<sup>–1</sup> **[1 mark]**** **
+- Substitute:*  *$g = \frac{4 \mathrm{\pi } \times ( 6.67 \times 10^{- 11} ) ( 1700 \times 10^{3} ) ( 3340 )}{3}$ = 1.59 N kg<sup>–1</sup> **[1 mark]**** **
 
 **[Total: 2 marks]**
 
@@ -279,7 +279,7 @@ List the known quantities:
 Equate the gravitational field strengths of the Moon and planet:
 
 - Gravitational field strength on the Moon:  $g=\frac{GM}{R^{2}}$
-- Gravitational field strength on the planet:  `g space equals space fraction numerator G M subscript P over denominator open parentheses 3 R close parentheses squared end fraction space equals space fraction numerator G M subscript P over denominator 9 R squared end fraction`
+- Gravitational field strength on the planet:  $g = \frac{G M_{P} }{( 3 R )^{2}} = \frac{G M_{P} }{9 R^{2}}$
 - Equate:  $\frac{GM}{R^{2}}=\frac{GM_{P}}{9R^{2}}$ **[1 mark]**
 
 Rearrange for the mass of the planet:
@@ -292,15 +292,15 @@ Sketch the variation of distance with gravitational field strength for the plane
 
 ![Graph of gravitational field strength versus distance from a planet’s centre, showing g at R and a 1/r² decrease, with marked values at 3R, 4R, 6R and 12R.](assets/009-graph-of-gravitational-field-strength-versus-dis.png)
 
-- Curve starts at `open parentheses 3 R comma space g close parentheses`; **[1 mark]**
-- Curve goes through correct points e.g. `open parentheses 4 R comma space fraction numerator 9 g over denominator 16 end fraction close parentheses`, `open parentheses 6 R comma space g over 4 close parentheses` and `open parentheses 12 R comma space g over 16 close parentheses`; **[1 mark]**
+- Curve starts at $( 3 R , g )$; **[1 mark]**
+- Curve goes through correct points e.g. $( 4 R , \frac{9 g}{16} )$, $( 6 R , \frac{g}{4} )$ and $( 12 R , \frac{g}{16} )$; **[1 mark]**
 - Single smooth line curve with decreasing negative gradient (inverse square law relationship); **[1 mark]**** **
 
 **[Total: 3 marks]**** **
 
 > *Make sure you understand how an inverse square law works; it means that when **R** **doubles**, **g** **decreases** by a factor of 2*<sup>*2*</sup>* = **4**, i.e. *$g\propto\frac{1}{R^{2}}$*, so as radius increases from *$3R\overset{\times2}{\rightarrow}6R$*, field strength decreases from *$g\overset{\div4}{\rightarrow}\frac{g}{4}$
 
-> *The most common mistake is to plot an inversely proportional relationship, which would give points such as *`open parentheses 6 R comma space g over 2 close parentheses`* and *`open parentheses 12 R comma space g over 4 close parentheses`
+> *The most common mistake is to plot an inversely proportional relationship, which would give points such as *$( 6 R , \frac{g}{2} )$* and *$( 12 R , \frac{g}{4} )$
 
 ### Q5
 (i) Calculate the mass of the moon
@@ -381,7 +381,7 @@ Substitute equations for planetary mass *M* and volume *V * into the equation fo
 - The density *ρ *= $\frac{M}{V}$ and the volume $V=\frac{4}{3}πr^{3}$
 - Hence,
 
-  - `rho equals fraction numerator open parentheses fraction numerator g r squared over denominator G end fraction close parentheses over denominator open parentheses 4 over 3 pi r cubed close parentheses end fraction equals fraction numerator 3 g r squared over denominator 4 G pi r cubed end fraction`
+  - $\\rho = \frac{( \frac{g r^{2}}{G} )}{( \frac{4}{3} \pi r^{3} )} = \frac{3 g r^{2}}{4 G \pi r^{3}}$
   - $ρ=\frac{3g}{4Gπr}$ **[1 mark]**
 
 Rearrange the density equation for gravitational field strength *g*:
@@ -405,20 +405,20 @@ List the known quantities:
 
 Determine the ratio of radii for planets X and Y:
 
-- `g subscript Y over g subscript X equals space fraction numerator 9 g over denominator g end fraction space equals space fraction numerator 4 over 3 G pi space r subscript Y space open parentheses 3 rho close parentheses over denominator 4 over 3 G pi space r subscript X space rho end fraction` **[1 mark]**
+- `g _ Y / g _ X = (9 g)/(g) = (4 / 3 G pi r _ Y ( 3 rho ))/(4 / 3 G pi r _ X rho)` **[1 mark]**
 - $9=\frac{3r_{Y}}{r_{X}}$
 - $r_{Y}=3r_{X}$ **[1 mark]**
 
 Find the ratio of volumes:
 
 - $V\proptor^{3}$
-- `V subscript Y space equals space open parentheses 3 r subscript X close parentheses cubed`
+- $V_{Y} = ( 3 r_{X} )^{3}$
 - $V_{Y}=27V_{X}$ **[1 mark]**
 
 Use the density equation to find the ratio of masses:
 
 - $ρ=\frac{m}{V}$
-- `rho subscript Y over rho subscript X space equals space fraction numerator open parentheses m subscript Y over V subscript Y close parentheses over denominator open parentheses m subscript X over V subscript X close parentheses end fraction space equals space m subscript Y over m subscript X space cross times space V subscript X over V subscript Y`
+- `rho _ Y / rho _ X = (( m _ Y / V _ Y ))/(( m _ X / V _ X )) = m _ Y / m _ X x V _ X / V _ Y`
 - $\frac{3ρ}{ρ}=\frac{m_{Y}}{m_{X}}\times\frac{V_{X}}{27V_{X}}$
 - $\frac{m_{Y}}{m_{X}}=3\times27$ **[1 mark]**
 - $m_{Y}=81m_{X}$
@@ -438,7 +438,7 @@ List the known quantities:
 Substitute the values into Newton's gravitation equation:
 
 - Newton's law of gravitation: * *$F=\frac{GM_{S}M_{E}}{r^{2}}$
-- Substitute:  `F space equals space fraction numerator open parentheses 6.67 cross times 10 to the power of negative 11 end exponent close parentheses cross times open parentheses 3.33 cross times 10 to the power of 5 close parentheses cross times open parentheses 5.97 cross times 10 to the power of 24 close parentheses squared over denominator open parentheses 1.47 cross times 10 to the power of 11 close parentheses squared end fraction` **[1 mark]**
+- Substitute:  $F = \frac{( 6.67 \times 10^{- 11} ) \times ( 3.33 \times 10^{5} ) \times ( 5.97 \times 10^{24} )^{2}}{( 1.47 \times 10^{11} )^{2}}$ **[1 mark]**
 - Gravitational force:  *F *= 3.66 × 10<sup>22</sup> N **[1 mark]**
 
 **[Total: 2 marks]**
@@ -457,22 +457,22 @@ Determine the ratio of the gravitational forces of Mars and Earth:
 
 - Newton's law of gravitation:  $F=\frac{GMm}{d^{2}}$
 - $\frac{F_{M}}{F_{E}}=\frac{GM_{M}M_{S}}{d_{M}^{2}}\times\frac{d_{E}^{2}}{GM_{E}M_{S}}$
-- `F subscript M over F subscript E space equals space M subscript M over M subscript E open parentheses d subscript E over d subscript M close parentheses squared` **[1 mark]**
+- `F _ M / F _ E = M _ M / M _ E ( d _ E / d _ M ) ^2` **[1 mark]**
 
 Rearrange for the ratio of the masses of Mars and Earth:
 
-- `M subscript M over M subscript E space equals space F subscript M over F subscript E open parentheses d subscript M over d subscript E close parentheses squared`
+- `M _ M / M _ E = F _ M / F _ E ( d _ M / d _ E ) ^2`
 
 Determine the ratio of the gravitational field strengths of Mars and Earth:
 
 - Gravitational field strength:  $g=\frac{GM}{R^{2}}$
 - $\frac{g_{M}}{g_{E}}=\frac{GM_{M}}{R_{M}^{2}}\times\frac{R_{E}^{2}}{GM_{E}}$
-- `g subscript M over g subscript E space equals space M subscript M over M subscript E open parentheses R subscript E over R subscript M close parentheses squared` **[1 mark]**
+- `g _ M / g _ E = M _ M / M _ E ( R _ E / R _ M ) ^2` **[1 mark]**
 
 Substitute in the ratio of the masses of Mars and Earth and evaluate:
 
-- Substitute:  `g subscript M over g subscript E space equals space F subscript M over F subscript E open parentheses d subscript M over d subscript E close parentheses squared open parentheses R subscript E over R subscript M close parentheses squared`
-- Evaluate:  `g subscript M over g subscript E space equals space fraction numerator 1.64 cross times 10 to the power of 21 over denominator 3.66 cross times 10 to the power of 22 end fraction open parentheses 1.5 close parentheses squared open parentheses 1.7 close parentheses squared`
+- Substitute:  `g _ M / g _ E = F _ M / F _ E ( d _ M / d _ E ) ^2 ( R _ E / R _ M ) ^2`
+- Evaluate:  `g _ M / g _ E = (1.64 x 10 ^ 21)/(3.66 x 10 ^ 22) ( 1.5 ) ^2 ( 1.7 ) ^2`
 - $\frac{g_{M}}{g_{E}}=0.29$ **[1 mark]**
 
 **[Total: 3 marks]**
@@ -483,7 +483,7 @@ The value of *g* close to a planet's surface is constant because:
 **EITHER**
 
 - Near the surface (of a planet), height is much smaller than radius (*R* >> *h*); **[1 mark]**
-- Therefore, the radius is approximately constant (*R* + *h* ≈ *R*) hence, field strength is approximately constant `open parentheses g space proportional to space 1 over open parentheses R space plus space h close parentheses squared space almost equal to space 1 over R squared close parentheses`; **[1 mark]**
+- Therefore, the radius is approximately constant (*R* + *h* ≈ *R*) hence, field strength is approximately constant $( g \propto \frac{1}{( R + h )^{2}} \approx \frac{1}{R^{2}} )$; **[1 mark]**
 
 **OR**
 
@@ -540,7 +540,7 @@ Combine the equations for  $F_{G}$ and gravitational field strength $F_{g}$:
   - Therefore, $mg=\frac{GMm}{r^{2}}$ **[1 mark]**
 - Cancel out *m* on both sides
 
-  - `up diagonal strike m g space equals fraction numerator space G M up diagonal strike m over denominator r squared end fraction`
+  - $\cancel{m} g = \frac{ G M \cancel{m} }{r^{2}}$
   - $g=\frac{GM}{r^{2}}$ **[1 mark]**
 
 **[Total: 3 marks]**
@@ -555,7 +555,7 @@ List the known quantities:
 Using the equation for *g* derived in part (c):
 
 - $g=\frac{GM}{r^{2}}$
-- `g space equals space fraction numerator 6.67 cross times 10 to the power of negative 11 end exponent space cross times space 5.68 cross times 10 to the power of 26 over denominator open parentheses 5.82 cross times 10 to the power of 7 close parentheses squared end fraction`** [1 mark]**
+- $g = \frac{6.67 \times 10^{- 11} \times 5.68 \times 10^{26} }{( 5.82 \times 10^{7} )^{2}}$** [1 mark]**
 - $g=11.2N\mathrm{kg}^{-1}$ (3 s.f.) **[1 mark]**
 
 **[Total: 2 marks]**

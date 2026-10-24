@@ -92,7 +92,7 @@ guided_study: false
 > 
 > ![Triangle ABF. AB = 3 cm, BF = a cm and AF = b cm.](assets/11522c51cf53-38350-3d-pythagoras-and-trigonometry-11.png)
 > 
-> `table row cell b squared end cell equals cell 3 squared plus a squared end cell row cell b squared end cell equals cell 9 plus 52 end cell row cell b squared end cell equals 61 row b equals cell square root of 61 equals 7.81024... end cell end table`
+> $\begin{gathered} b^{2} & = 3^{2} + a^{2} \\ b^{2} & = 9 + 52 \\ b^{2} & = 61 \\ b = \sqrt{61} = 7.81024... \end{gathered}$
 > 
 > **Final answer:** **The longest pencil that can fit inside the box is 7.81 cm (3 s.f.)**
 > 
@@ -104,6 +104,6 @@ guided_study: false
 > *The distance in the **y** direction is 6 cm*
 > *The distance in the **z** direction is 3 cm*
 > 
-> `table row cell d squared end cell equals cell 4 squared plus 6 squared plus 3 squared end cell row d equals cell square root of 4 squared plus 6 squared plus 3 squared end root end cell row d equals cell square root of 61 equals 7.81024... end cell end table`
+> $\begin{gathered} d^{2} & = 4^{2} + 6^{2} + 3^{2} \\ d = \sqrt{4^{2} + 6^{2} + 3^{2}} \\ d = \sqrt{61} = 7.81024... \end{gathered}$
 > 
 > **Final answer:** **The longest pencil that can fit inside the box is 7.81 cm (3 s.f.)**

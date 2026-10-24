@@ -158,7 +158,7 @@ expectations of what they want from a good or service change
   - e.g. Tesco had a 27% share of the UK grocery market in 2022
 - **Market share** can be calculated using the formula
 
-`fraction numerator Sales space of space straight a space business space open parentheses volume space or space value close parentheses over denominator Market space size space space stretchy left parenthesis volume space or space value stretchy right parenthesis end fraction space cross times space 100`
+$\frac{Sales of \mathrm{a} \text{business} ( \text{volume} or \text{value} ) }{Market \text{size} \text{stretchy} ( \text{volume} or \text{value} \text{stretchy} )} \times 100$
 
 - An **increase in market share** can indicate that a business has made **effective use of marketing strategies** to increase sales and **gain customers from competitors**
 
@@ -171,15 +171,15 @@ expectations of what they want from a good or service change
 > 
 > **Step 1: Divide Starbucks' sales by the market size**
 > 
-> **              **`equals fraction numerator space £ 328 straight m over denominator £ 4.6 bn end fraction space
+> **              **$= \frac{ \pounds 328 \mathrm{m} }{\pounds 4.6 bn} 
 > 
-> equals space 0.0713`**          ****[1 mark]**** **
+> = 0.0713$**          ****[1 mark]**** **
 > 
 > **Step 2: Multiply the outcome by 100 and express as a percentage**
 > 
-> `equals space 0.0713 space cross times space 100
+> $= 0.0713 \times 100
 > 
-> equals space 7.13 percent sign`**          ****[1 mark]**** **
+> = 7.13 \%$**          ****[1 mark]**** **
 
 > **Exam Hint**
 > By showing your working-out, even if you do not get the right answer you will still be able to gain some marks.
@@ -215,7 +215,7 @@ $\mathrm{Market} \mathrm{growth}=\frac{\mathrm{This} \mathrm{year}'s\mathrm{mark
 > 
 > **Step 3 - Multiply the outcome by 100 to find the percentage growth rate**
 > 
-> `begin mathsize 16px style 0.4639 space cross times space 100 space equals space 46.39 percent sign end style`       **[1 mark]**
+> $0.4639 \times 100 = 46.39 \%$       **[1 mark]**
 
 > **Exam Hint**
 > Unless otherwise stated, always give your answer to two decimal places.

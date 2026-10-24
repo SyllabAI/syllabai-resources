@@ -31,11 +31,11 @@ guided_study: false
 
 ### How do I stretch graphs?
 
-- Let `y equals straight f open parentheses x close parentheses` be the **equation** of the **original graph**
+- Let $y = \mathrm{f} ( x )$ be the **equation** of the **original graph**
 
 #### Vertical stretches: y=af(x)
 
-- `y equals a straight f open parentheses x close parentheses` is a **vertical stretch **(in the $y$-direction) of **scale factor **$a$
+- $y = a \mathrm{f} ( x )$ is a **vertical stretch **(in the $y$-direction) of **scale factor **$a$
 
   - The $x$-coordinates stay the same but the $y$ coordinates are multiplied by $a$
   - Points appear to move **parallel to the **$y$**-axis**
@@ -48,7 +48,7 @@ guided_study: false
 
 #### Horizontal stretches: y=f(ax)
 
-- `y equals straight f open parentheses a x close parentheses` is a **horizontal stretch **(in the $y$-direction) of **scale factor **$\frac{1}{a}$ (not $a$)
+- $y = \mathrm{f} ( a x )$ is a **horizontal stretch **(in the $y$-direction) of **scale factor **$\frac{1}{a}$ (not $a$)
 
   - The $y$-coordinates stay the same but the $x$ coordinates are multiplied by $\frac{1}{a}$ (divided by $a$)
   - Points appear to move **parallel to the **$x$**-axis**
@@ -56,17 +56,17 @@ guided_study: false
     - either squashing horizontally towards the $y$-axis if $a>1$
     - or stretching horizontally away from the $y$-axis if $0<a<1$
   - Points on the $y$-axis stay where they are
-- This means `y equals straight f open parentheses 2 x close parentheses` is more like a **horizontal squash **of scale factor 2
+- This means $y = \mathrm{f} ( 2 x )$ is more like a **horizontal squash **of scale factor 2
 
   - though the correct way to say this is a horizontal stretch of scale factor $\frac{1}{2}$
   
-    - This also means that `straight f open parentheses x over 2 close parentheses` is a horizontal stretch of scale factor 2
+    - This also means that $\mathrm{f} ( \frac{x}{2} )$ is a horizontal stretch of scale factor 2
 
 ![Stretching a graph horizontally by scale factor one half. y-coordinates stay in same place, x-coordinates change](../../../assets/2d6019b89aed-53520-2-9-2-stretches-statement-horiz-illustrati.png)
 
 ### What happens to asymptotes when a graph is stretched?
 
-- Any ***asymptotes*** of `straight f open parentheses x close parentheses` are also stretched
+- Any ***asymptotes*** of $\mathrm{f} ( x )$ are also stretched
 
 ![A diagram shows transformations of the function y = f(x). It illustrates vertical and horizontal stretches, their effects on asymptotes, and coordinate changes.](../../../assets/0bb160b4697d-45936-59883-2-9-2-stretches-asymptotes-illustrat.png)
 
@@ -77,34 +77,34 @@ guided_study: false
   - There is no need to sketch the graph
 - Stretching vertically by a scale factor of 3 puts a 3** in front **of the whole **equation**
 
-  - For example, $y=x^{2}+2x$ becomes `y equals 3 open parentheses x squared plus 2 x close parentheses`
+  - For example, $y=x^{2}+2x$ becomes $y = 3 ( x^{2} + 2 x )$
   
     - This simplifies to $y=3x^{2}+6x$
-- Stretching horizontally by a scale factor of $\frac{1}{3}$ ("squashing horizontally" by a scale factor of 3) **replaces any **$x$** with **`open parentheses 3 x close parentheses`** **in the equation
+- Stretching horizontally by a scale factor of $\frac{1}{3}$ ("squashing horizontally" by a scale factor of 3) **replaces any **$x$** with **$( 3 x )$** **in the equation
 
-  - For example, $y=x^{2}+2x$ becomes `y equals open parentheses 3 x close parentheses squared plus 2 open parentheses 3 x close parentheses`
+  - For example, $y=x^{2}+2x$ becomes $y = ( 3 x )^{2} + 2 ( 3 x )$
   
     - This simplifies to $y=9x^{2}+6x$
 
 ### How do I apply a combined stretch?
 
-- The graph of `y equals b straight f open parentheses a x close parentheses` is a **combined stretch**<sub>**,**</sub> both horizontally and vertically
+- The graph of $y = b \mathrm{f} ( a x )$ is a **combined stretch**<sub>**,**</sub> both horizontally and vertically
 
   - It **does not matter which order **you apply these in
   
     - For example, a horizontal stretch of scale factor $\frac{1}{a}$ followed by a vertical stretch of scale factor $b$
 
 > **Worked Example**
-> The diagram below shows the graph of `y equals straight f open parentheses x close parentheses`.
+> The diagram below shows the graph of $y = \mathrm{f} ( x )$.
 > 
 > ![A positive cubic graph f(x)](assets/7c58999f4731-41534-19025-43755-worked-example-graph-1.png)
 > 
-> Sketch the graph of `y equals 2 straight f open parentheses x over 3 close parentheses`.
+> Sketch the graph of $y = 2 \mathrm{f} ( \frac{x}{3} )$.
 > 
 > **Answer:**
 > 
-> > `straight f open parentheses x over 3 close parentheses`* represents a horizontal stretch of scale factor *`fraction numerator 1 over denominator open parentheses 1 third close parentheses end fraction equals 3`
-> *And *`2 straight f open parentheses... close parentheses`* represents a vertical stretch of scale factor 2*
+> > $\mathrm{f} ( \frac{x}{3} )$* represents a horizontal stretch of scale factor *$\frac{1}{( 1 \frac{1}{3} )} = 3$
+> *And *$2 \mathrm{f} (... )$* represents a vertical stretch of scale factor 2*
 > 
 > > *Apply these in any order, e.g. start with the horizontal stretch, scale factor 3*
 > 

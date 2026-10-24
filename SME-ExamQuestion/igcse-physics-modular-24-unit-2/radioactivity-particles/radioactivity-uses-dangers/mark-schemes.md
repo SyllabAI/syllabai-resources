@@ -550,7 +550,7 @@ To complete the nuclear equation for the decay of thorium-232 into radon-220:
 
   - Mass number = 4, atomic number = 2
 
-`Th presubscript 90 presuperscript 232 space rightwards arrow space Rn presubscript 86 presuperscript 220 space plus space...... space straight alpha presubscript 2 presuperscript 4 space space space plus space...... space straight beta presubscript negative 1 end presubscript presuperscript 0`
+`Th _ 90 ^ 232 -> Rn _ 86 ^ 220 + ...... alpha _ 2 ^ 4 + ...... beta _ - 1 ^ 0`
 
 - Determine the number of alpha decays by balancing the mass numbers
 
@@ -564,7 +564,7 @@ $α=3$
 
 $90=86+2α-β$
 
-`90 space equals space 86 space plus space open parentheses 2 cross times 3 close parentheses space minus space beta`
+$90 = 86 + ( 2 \times 3 ) - \\beta$
 
 $β=86+6-90$
 
@@ -572,7 +572,7 @@ $β=2$
 
 - Complete the nuclear equation by filling in the missing numbers:
 
-`Th presubscript 90 presuperscript 232 space rightwards arrow space Rn presubscript 86 presuperscript 220 space plus space 3 space straight alpha presubscript 2 presuperscript 4 space space space plus space 2 straight beta presubscript negative 1 end presubscript presuperscript 0`
+`Th _ 90 ^ 232 -> Rn _ 86 ^ 220 + 3 alpha _ 2 ^ 4 + 2 beta _ - 1 ^ 0`
 
 **[3 marks]**
 
@@ -756,11 +756,11 @@ State the change to activity per half-life:
 
 Calculate the activity of the sample after 24 hours:
 
-- `Activity space equals 420 cross times open parentheses 1 half close parentheses to the power of 4 equals 26 space MBq` **[1 mark]**
+- $\text{Activity} = 420 \times ( 1 \frac{1}{2} )^{4} = 26 \text{MBq}$ **[1 mark]**
 
 **[Total: 5 marks]**
 
-> `open parentheses 1 half close parentheses to the power of 4`* is the same as *`open parentheses 1 half close parentheses cross times open parentheses 1 half close parentheses cross times open parentheses 1 half close parentheses cross times open parentheses 1 half close parentheses`* or *$\frac{1}{16}$*.*
+> $( 1 \frac{1}{2} )^{4}$* is the same as *$( 1 \frac{1}{2} ) \times ( 1 \frac{1}{2} ) \times ( 1 \frac{1}{2} ) \times ( 1 \frac{1}{2} )$* or *$\frac{1}{16}$*.*
 
 ## Q18 — hard — 9 marks · exam-questions
 

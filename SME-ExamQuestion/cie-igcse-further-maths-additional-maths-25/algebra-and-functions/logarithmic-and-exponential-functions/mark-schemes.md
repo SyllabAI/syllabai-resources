@@ -6,15 +6,15 @@
 
 
 ### Q1
-> *Find the midpoint of *`open parentheses 0 comma space 11 close parentheses`* and *`open parentheses 6 comma space 7 close parentheses`
+> *Find the midpoint of *$( 0 , 11 )$* and *$( 6 , 7 )$
 
-`table row cell open parentheses fraction numerator x subscript 1 plus x subscript 2 over denominator 2 end fraction comma space fraction numerator y subscript 1 plus y subscript 2 over denominator 2 end fraction close parentheses end cell equals cell open parentheses fraction numerator 0 plus 6 over denominator 2 end fraction comma space fraction numerator 11 plus 7 over denominator 2 end fraction close parentheses end cell row blank equals cell open parentheses 6 over 2 comma space 18 over 2 close parentheses end cell row blank equals cell open parentheses 3 comma space 9 close parentheses end cell end table`
+$\begin{gathered} ( \frac{x_{1} + x_{2} }{2} , \frac{y_{1} + y_{2} }{2} ) & = ( \frac{0 + 6}{2} , \frac{11 + 7}{2} ) \\ = ( \frac{6}{2} , \frac{18}{2} ) \\ = ( 3 , 9 ) \end{gathered}$
 
 **[B1]**
 
-> *Find the gradient of the line from *`open parentheses 0 comma space 11 close parentheses`* to *`open parentheses 6 comma space 7 close parentheses`
+> *Find the gradient of the line from *$( 0 , 11 )$* to *$( 6 , 7 )$
 
-`table row cell fraction numerator 7 minus 11 over denominator 6 minus 0 end fraction end cell equals cell negative 4 over 6 end cell row blank equals cell negative 2 over 3 end cell end table`
+$\begin{gathered} \frac{7 - 11}{6 - 0} & = - \frac{4}{6} \\ = - \frac{2}{3} \end{gathered}$
 
 **[M1]**
 
@@ -24,12 +24,12 @@ $\frac{3}{2}$
 
 **[A1]**
 
-> *Find the equation of the perpendicular bisector (the line through *`open parentheses 3 comma space 9 close parentheses`* with gradient *$\frac{3}{2}$*)*
+> *Find the equation of the perpendicular bisector (the line through *$( 3 , 9 )$* with gradient *$\frac{3}{2}$*)*
 
-`y minus y subscript 1 equals m open parentheses x minus x subscript 1 close parentheses
-y minus 9 equals 3 over 2 open parentheses x minus 3 close parentheses
-y minus 9 equals 3 over 2 x minus 9 over 2
-y equals 3 over 2 x plus 9 over 2`
+$y - y_{1} = m ( x - x_{1} )
+y - 9 = \frac{3}{2} ( x - 3 )
+y - 9 = \frac{3}{2} x - \frac{9}{2} 
+y = \frac{3}{2} x + \frac{9}{2}$
 
 **[A1]**
 
@@ -71,21 +71,21 @@ $1+3u=u+\frac{1}{u}$
 **[M1]**
 
 > **[mark-scheme]**
-> This mark is for recognising that it leads to a quadratic and attempting to write the quadratic in the form `a open parentheses blank close parentheses squared plus b open parentheses blank close parentheses plus c equals 0`.
+> This mark is for recognising that it leads to a quadratic and attempting to write the quadratic in the form $a ( )^{2} + b ( ) + c = 0$.
 
 > *Rearrange into a quadratic equation (start by multiplying both sides by *$u$*)*
 
-`u open parentheses 1 plus 3 u close parentheses equals u squared plus 1`
+$u ( 1 + 3 u ) = u^{2} + 1$
 
 > *Expand and bring terms to one side*
 
-`table row cell u plus 3 u squared end cell equals cell u squared plus 1 end cell row cell 2 u squared plus u minus 1 end cell equals 0 end table`
+$\begin{gathered} u + 3 u^{2} & = u^{2} + 1 \\ 2 u^{2} + u - 1 & = 0 \end{gathered}$
 
 **[A1]**
 
 > *Solve the quadratic equation, e.g. by factorisation*
 
-`open parentheses 2 u minus 1 close parentheses open parentheses u plus 1 close parentheses equals 0`
+$( 2 u - 1 ) ( u + 1 ) = 0$
 
 **[M1]**
 
@@ -99,22 +99,22 @@ $e^{x}=\frac{1}{2}$* or *$e^{x}=-1$
 
 > *Solve *$e^{x}=\frac{1}{2}$* by taking natural logarithms*
 
-`x equals ln open parentheses 1 half close parentheses`
+$x = \ln ( 1 \frac{1}{2} )$
 
 > *Write this in the form *$p\mathrm{ln}q$* by using log laws*
 
-`x equals ln open parentheses 2 to the power of negative 1 end exponent close parentheses equals negative ln space 2`
+$x = \ln ( 2^{- 1} ) = - \ln 2$
 
 $x=-\mathrm{ln}2$
 
 **[A1]**
-> *Use the log law *`log open parentheses a b close parentheses equals log space a plus log space b`* for the first term*
+> *Use the log law *$\log ( a b ) = \log a + \log b$* for the first term*
 
-`log subscript 2 open parentheses 2 y close parentheses equals log subscript 2 2 plus log subscript 2 y`
+$log_{2} ( 2 y ) = log_{2} 2 + log_{2} y$
 
 > *Use that *$\mathrm{log}_{2}2=1$* and that *$\mathrm{log}_{2}y=c$
 
-`log subscript 2 open parentheses 2 y close parentheses equals 1 plus c`
+$log_{2} ( 2 y ) = 1 + c$
 
 > *For the second term, apply a change of base using the rule *$\mathrm{log}_{a}b=\frac{1}{\mathrm{log}_{b}a}$
 
@@ -122,7 +122,7 @@ $\mathrm{log}_{y}2=\frac{1}{\mathrm{log}_{2}y}=\frac{1}{c}$
 
 > *Combine the results above*
 
-`log subscript 2 open parentheses 2 y close parentheses minus log subscript y 2 equals 1 plus c minus 1 over c`
+$log_{2} ( 2 y ) - log_{y} 2 = 1 + c - \frac{1}{c}$
 
 **[B1 B1]**
 
@@ -148,7 +148,7 @@ $y^{2}-3y-4=0$
 
 > *Factorise and solve the quadratic equation*
 
-`open parentheses y plus 1 close parentheses open parentheses y minus 4 close parentheses equals 0`
+$( y + 1 ) ( y - 4 ) = 0$
 
 $y=-1\mathrm{or}y=4$
 
@@ -162,16 +162,16 @@ $3^{x}=-1\mathrm{or}3^{x}=4$
 
 > *Solve each equation using the inverse which is *$\mathrm{log}_{3}$
 
-`x equals log subscript 3 open parentheses negative 1 close parentheses space or space x equals log subscript 3 4`
+$x = log_{3} ( - 1 ) \text{or} x = log_{3} 4$
 
 > *The first equation has no solutions so disregard this and our final answer is*
 
 $x=\mathrm{log}_{3}4$ **[1]**
 
 ### Q4
-> *The key features of the logarithmic graph *$y=\mathrm{ln}x$* are that it has an asymptote at *$x=0$*, a root at *`open parentheses 1 comma space 0 close parentheses`* and does not have any minimum or maximum points.*
+> *The key features of the logarithmic graph *$y=\mathrm{ln}x$* are that it has an asymptote at *$x=0$*, a root at *$( 1 , 0 )$* and does not have any minimum or maximum points.*
 
-> *The function *`straight f open parentheses x close parentheses space equals space ln open parentheses 2 x space plus thin space 1 close parentheses`* has been translated by 1 unit to the left, then stretched in the horizontal direction by a scale factor *$\frac{1}{2}$*, so now passes through *`open parentheses 0 space comma space 0 close parentheses`*. The questions wants a sketch over the domain *$x\geq0$*.*
+> *The function *$\mathrm{f} ( x ) = \ln ( 2 x + 1 )$* has been translated by 1 unit to the left, then stretched in the horizontal direction by a scale factor *$\frac{1}{2}$*, so now passes through *$( 0 , 0 )$*. The questions wants a sketch over the domain *$x\geq0$*.*
 
 > *The graph of the inverse function is a reflection in the line *$y=x$*.*
 
@@ -214,7 +214,7 @@ $1.04=b$
 
 > *Substituting this in to the first equation*
 
-`40 space equals space A space cross times space open parentheses 1.04... close parentheses to the power of 10`
+$40 = A \times ( 1.04... )^{10}$
 
 > *Dividing both sides by *$1.04^{10}$* and rounding to the nearest integer gives*
 
@@ -277,17 +277,17 @@ $\mathrm{log}_{a}b-1=\frac{2}{\mathrm{log}_{a}b}$
 
 > *Multiply through by *$\mathrm{log}_{a}b$
 
-`open parentheses log subscript a b close parentheses squared minus log subscript a b equals 2`
+$( log_{a} b )^{2} - log_{a} b = 2$
 
 > *Make the equation equal to 0*
 
-`open parentheses log subscript a b close parentheses squared minus log subscript a b minus 2 equals 0`
+$( log_{a} b )^{2} - log_{a} b - 2 = 0$
 
 **[1]**
 
 > *Factorise the quadratic equation*
 
-`open parentheses log subscript a b minus 2 close parentheses open parentheses log subscript a b plus 1 close parentheses equals 0`
+$( log_{a} b - 2 ) ( log_{a} b + 1 ) = 0$
 
 **[1]**
 
@@ -306,7 +306,7 @@ $b=a^{2}\mathrm{or}b=\frac{1}{a}$ **[1]**
 
 > *Substitute the above values into the equation*
 
-`500 equals P plus Q straight e to the power of 2 open parentheses 0 close parentheses end exponent`
+$500 = P + Q \mathrm{e}^{2 ( 0 )}$
 
 > *Simplify*
 
@@ -316,7 +316,7 @@ $b=a^{2}\mathrm{or}b=\frac{1}{a}$ **[1]**
 
 > *Substitute the above values into the equation*
 
-`600 equals P plus Q straight e to the power of 2 open parentheses 1 close parentheses end exponent`
+$600 = P + Q \mathrm{e}^{2 ( 1 )}$
 
 > *Simplify*
 
@@ -332,17 +332,17 @@ $100=Qe^{2}-Q$
 
 > *Factorise out *$Q$
 
-`100 equals Q open parentheses straight e squared minus 1 close parentheses`
+$100 = Q ( \mathrm{e}^{2} - 1 )$
 
-> *Divide both sides by *`open parentheses straight e squared minus 1 close parentheses`
+> *Divide both sides by *$( \mathrm{e}^{2} - 1 )$
 
-`Q equals fraction numerator 100 over denominator straight e squared minus 1 end fraction equals 15.651... equals 15.7 space open parentheses 3 sf close parentheses`
+$Q = \frac{100}{ \mathrm{e}^{2} - 1} = 15.651... = 15.7 ( 3 \text{sf} )$
 
 **[1]**
 
 > *Find *$P$* by substituting *$Q$* into equation (1)*
 
-`P equals 500 minus 15.65... equals 484.34... equals 484 space open parentheses 3 sf close parentheses`
+$P = 500 - 15.65... = 484.34... = 484 ( 3 sf )$
 
 $P=484,Q=15.7$ **[1]**
 > *From part (a), the model is *$b=484.3...+15.65e^{2t}$
@@ -351,7 +351,7 @@ $P=484,Q=15.7$ **[1]**
 
 > *Substitute *$t=2$* into the equation to find *$b$
 
-`b equals 484.34... plus 15.65... cross times straight e to the power of 2 open parentheses 2 close parentheses end exponent equals 1338.90...`
+$b = 484.34... + 15.65... \times \mathrm{e}^{2 ( 2 )} = 1338.90...$
 
 $1338$ **[1]**
 
@@ -371,13 +371,13 @@ $e^{2t}>\frac{999515.7}{15.65...}$
 
 > *Take natural logs of both sides*
 
-`2 t greater than ln open parentheses fraction numerator 999 space 515.7 over denominator 15.65... end fraction close parentheses`
+$2 t > \ln ( \frac{999 515.7}{15.65...} )$
 
 **[1]**
 
 > *Divide by 2*
 
-`t greater than 1 half ln open parentheses fraction numerator 999 space 515.7 over denominator 15.65... end fraction close parentheses`
+$t > 1 \frac{1}{2} \ln ( \frac{999 515.7}{15.65...} )$
 
 $t>5.532...$
 
@@ -386,7 +386,7 @@ $t>5.532...$
 **6th week**** ****[1]**
 
 ### Q8
-> *The first equation is *`log subscript 3 open parentheses x plus y close parentheses equals 2`
+> *The first equation is *$log_{3} ( x + y ) = 2$
 
 > *Use the inverse of *$\mathrm{log}_{3}$* which is doing 3 to the power of both sides*
 
@@ -396,25 +396,25 @@ $x+y=3^{2}$
 
 **[1]**
 
-> *The second equation is *`2 log subscript 3 open parentheses x plus 1 close parentheses equals log subscript 3 open parentheses y plus 2 close parentheses`
+> *The second equation is *$2 log_{3} ( x + 1 ) = log_{3} ( y + 2 )$
 
 > *Move the 2 from in front to be a power*
 
-`log subscript 3 open parentheses x plus 1 close parentheses squared equals log subscript 3 open parentheses y plus 2 close parentheses`
+$log_{3} ( x + 1 )^{2} = log_{3} ( y + 2 )$
 
 > *Use the inverse of *$\mathrm{log}_{3}$* which is doing 3 to the power of both sides*
 
-`open parentheses x plus 1 close parentheses squared equals y plus 2`
+$( x + 1 )^{2} = y + 2$
 
 **[1]**
 
 > *Subtract 2 from both sides to make *$y$* the subject *
 
-*(2)  **    *`y equals open parentheses x plus 1 close parentheses squared minus 2`
+*(2)  **    *$y = ( x + 1 )^{2} - 2$
 
 > *Solve equations (1) and (2) simultaneously by substituting equation (2) into equation (1)*
 
-`x plus open parentheses x plus 1 close parentheses squared minus 2 equals 9`
+$x + ( x + 1 )^{2} - 2 = 9$
 
 **[1]**
 
@@ -434,7 +434,7 @@ $x^{2}+3x-10=0$
 
 > *Solve by factorising (or using the quadratic formula)*
 
-`open parentheses x plus 5 close parentheses open parentheses x minus 2 close parentheses equals 0`
+$( x + 5 ) ( x - 2 ) = 0$
 
 $x=-5\mathrm{or}x=2$
 
@@ -444,9 +444,9 @@ $x=-5\mathrm{or}x=2$
 
 *When *$x=-5$
 
-`y equals 9 minus open parentheses negative 5 close parentheses equals 14`
+$y = 9 - ( - 5 ) = 14$
 
-*Reject this as we cannot have* `log subscript 3 open parentheses negative close parentheses`
+*Reject this as we cannot have* $log_{3} ( - )$
 
 *When* $x=2$
 
@@ -457,50 +457,50 @@ $x=2\mathrm{and}y=7$ **[1]**
 ### Q9
 > *Rearrange the first equation.*
 
-`log subscript 2 open parentheses y plus 1 close parentheses plus 2 log subscript 2 x equals 3`
+$log_{2} ( y + 1 ) + 2 log_{2} x = 3$
 
 > *Rewrite using logarithm laws.*
 
-`log subscript 2 open parentheses y plus 1 close parentheses plus log subscript 2 x squared equals 3`
+$log_{2} ( y + 1 ) + log_{2} x^{2} = 3$
 
 > *Combine using logarithm laws.*
 
-`log subscript 2 open parentheses open parentheses y plus 1 close parentheses open parentheses x squared close parentheses close parentheses equals 3`
+$log_{2} ( ( y + 1 ) ( x^{2} ) ) = 3$
 
 > *Rewrite using logarithm laws.*
 
-`open parentheses y plus 1 close parentheses open parentheses x squared close parentheses equals 2 cubed
-open parentheses y plus 1 close parentheses open parentheses x squared close parentheses equals 8`
+$( y + 1 ) ( x^{2} ) = 2^{3}
+( y + 1 ) ( x^{2} ) = 8$
 
 **[1]**
 
 > *Rearrange the second equation.*
 
-`log subscript 2 open parentheses x plus 2 close parentheses minus log subscript 2 y equals 2`
+$log_{2} ( x + 2 ) - log_{2} y = 2$
 
 > *Rewrite using logarithm laws.*
 
-`log subscript 2 open parentheses fraction numerator x plus 2 over denominator y end fraction close parentheses equals 2`
+$log_{2} ( \frac{x + 2}{y} ) = 2$
 
 > *Rewrite using logarithm laws.*
 
-`table row cell fraction numerator x plus 2 over denominator y end fraction end cell equals cell 2 squared end cell row blank blank blank row cell x plus 2 end cell equals cell 4 y end cell end table`
+$\begin{gathered} \frac{x + 2}{y} & = 2^{2} \\ \\ x + 2 & = 4 y \end{gathered}$
 
 **[1]**
 
-> *Solve the two equations *`open parentheses y plus 1 close parentheses open parentheses x squared close parentheses equals 8`* and *$x+2=4y$* simultaneously. For example, by rearranging the second equation and using a substitution method.*
+> *Solve the two equations *$( y + 1 ) ( x^{2} ) = 8$* and *$x+2=4y$* simultaneously. For example, by rearranging the second equation and using a substitution method.*
 
 $y=\frac{x+2}{4}$
 
 > *Substitute into the first equation.*
 
-`open parentheses x squared close parentheses open parentheses fraction numerator x plus 2 over denominator 4 end fraction plus 1 close parentheses equals 8`
+$( x^{2} ) ( \frac{x + 2}{4} + 1 ) = 8$
 
 **[1]**
 
 > *Expand the brackets.*
 
-`table row cell fraction numerator open parentheses x squared close parentheses open parentheses x plus 2 close parentheses over denominator 4 end fraction plus x squared end cell equals 8 row blank blank blank row cell fraction numerator x cubed plus 2 x squared over denominator 4 end fraction plus x squared end cell equals 8 end table`
+$\begin{gathered} \frac{( x^{2} ) ( x + 2 )}{4} + x^{2} & = 8 \\ \\ \frac{x^{3} + 2 x^{2}}{4} + x^{2} & = 8 \end{gathered}$
 
 > *Multiply through by 4.*
 
@@ -513,48 +513,48 @@ $x^{3}+2x^{2}+4x^{2}=32$
 $x^{3}+6x^{2}=32$
 
 $x^{3}+6x^{2}-32=0$* ***[1]**
-`straight f open parentheses x close parentheses equals x cubed plus 6 x squared minus 32`
+$\mathrm{f} ( x ) = x^{3} + 6 x^{2} - 32$
 
 > *Use factor theorem to identify one of the roots.*
 
-> *Since *`straight f open parentheses 2 close parentheses equals 0`*, one of the roots of the polynomial is:*
+> *Since *$\mathrm{f} ( 2 ) = 0$*, one of the roots of the polynomial is:*
 
 $x=2$
 
 > *This means that one of the factors of the polynomial is:*
 
-`open parentheses x minus 2 close parentheses`
+$( x - 2 )$
 
 **[1]**
 
 > *Use algebraic (polynomial) division to find the quadratic factor.*
 
-`long division by x minus 2 yields none x squared none plus 8 x none plus 16 none pile none x cubed none plus 6 x to the power of 2 space end exponent plus none 0 x none minus 32 none x cubed minus none 2 x squared none none none none none none none none none none minus horizontal line none none none none 8 x squared none minus none 0 x none none none none none none 8 x squared none minus none 16 x none none none none minus horizontal line none none none none none none none none none 16 x minus 32 none none none none none none none none none 16 x minus 32 none minus horizontal line none none none none none none none none none none none none none none 0 end pile end long division`
+`long division by x - 2 yields none x ^2 none + 8 x none + 16 none pile none x ^3 none + 6 x ^ 2 + none 0 x none - 32 none x ^3 - none 2 x ^2 none none none none none none none none none none - horizontal line none none none none 8 x ^2 none - none 0 x none none none none none none 8 x ^2 none - none 16 x none none none none - horizontal line none none none none none none none none none 16 x - 32 none none none none none none none none none 16 x - 32 none - horizontal line none none none none none none none none none none none none none none 0 end pile end long division`
 
 **[1]**
 
 > *Therefore,*
 
-`x cubed plus 6 x squared minus 32 space equals space open parentheses x minus 2 close parentheses open parentheses x squared plus 8 x plus 16 close parentheses`
+$x^{3} + 6 x^{2} - 32 = ( x - 2 ) ( x^{2} + 8 x + 16 )$
 
 ** correct quadratic factor ****[1]**
 
 > *Factorise *$x^{2}+8x+16$*.*
 
-`open parentheses x plus 4 close parentheses open parentheses x plus 4 close parentheses`
+$( x + 4 ) ( x + 4 )$
 
 > *Therefore,*
 
-`x cubed plus 6 x squared minus 32 space equals space open parentheses x minus 2 close parentheses open parentheses x plus 4 close parentheses squared`
+$x^{3} + 6 x^{2} - 32 = ( x - 2 ) ( x + 4 )^{2}$
 
 > *  *
 
 > *The roots to the equation *$x^{3}+6x^{2}-32=0$* are:*
 
 $x=2,x=-4,x=-4$* ***[1]**
-> *When *$x=-4$*, *$\mathrm{log}_{2}x$* and *`log subscript 2 space open parentheses x plus 2 close parentheses`* will be:*
+> *When *$x=-4$*, *$\mathrm{log}_{2}x$* and *$log_{2} ( x + 2 )$* will be:*
 
-`log subscript 2 space open parentheses negative 4 close parentheses`* **and** *`log subscript 2 space open parentheses negative 4 plus 2 close parentheses`
+$log_{2} ( - 4 )$* **and** *$log_{2} ( - 4 + 2 )$
 
 > *We cannot take the logarithm of a negative number.*
 
@@ -562,11 +562,11 @@ $x=2,x=-4,x=-4$* ***[1]**
 
 > *Therefore, the only root is *$x=2$*.*
 
-> *Substitute *$x=2$* into *`log subscript 2 open parentheses y plus 1 close parentheses equals 3 minus 2 log subscript 2 x`
+> *Substitute *$x=2$* into *$log_{2} ( y + 1 ) = 3 - 2 log_{2} x$
 
-`log subscript 2 open parentheses y plus 1 close parentheses equals 3 minus 2 log subscript 2 open parentheses 2 close parentheses`
+$log_{2} ( y + 1 ) = 3 - 2 log_{2} ( 2 )$
 
-`log subscript 2 open parentheses y plus 1 close parentheses equals 1`
+$log_{2} ( y + 1 ) = 1$
 
 > *Since *$\mathrm{log}_{2}2=1$
 
@@ -577,7 +577,7 @@ $y=1$*  ***[1]**
 ### Q10
 > *Take the natural logarithm of both sides.*
 
-`ln space y equals ln open parentheses A x to the power of n close parentheses`
+$\ln y = \ln ( A x^{n} )$
 
 > *Use logarithm laws to rewrite.*
 
@@ -590,7 +590,7 @@ $\mathrm{ln}y=\mathrm{ln}A+\mathrm{ln}x^{n}$
 $\mathrm{ln}y=n\mathrm{ln}x+\mathrm{ln}A$* ***[1]**
 > *The equation from part *$a$* is in the form *$Y=mX+c$*, therefore the gradient is *$n$* and the *$y$* intercept is *$\mathrm{ln}A$*.*
 
-> *The coordinate *`open parentheses 0 comma space 0.5 close parentheses`* tells us that the *$y$* intercept of the line is *$0.5$*.*
+> *The coordinate *$( 0 , 0.5 )$* tells us that the *$y$* intercept of the line is *$0.5$*.*
 
 > *Therefore,*
 
@@ -600,7 +600,7 @@ $\mathrm{ln}A=0.5$
 
 > *Exponentiate both sides and simplify.*
 
-`table row cell straight e to the power of ln space A end exponent end cell equals cell straight e to the power of 0.5 end exponent end cell row A equals cell straight e to the power of 0.5 end exponent end cell end table`
+$\begin{gathered} \mathrm{e}^{\ln A} & = \mathrm{e}^{0.5} \\ A = \mathrm{e}^{0.5} \end{gathered}$
 
 $A=e^{0.5}$* ***[1]**
 
@@ -617,13 +617,13 @@ $n=\frac{1.7-0.5}{3.2-0}$
 $n=\frac{3}{8}$** [1]**
 > *Substitute *$A=e^{0.5}$* and *$n=\frac{3}{8}$* into *$y=Ax^{n}$*.*
 
-`table row cell space y end cell equals cell x to the power of 3 over 8 end exponent cross times straight e to the power of 0.5 end exponent end cell end table`
+$\begin{gathered} y & = x^{ \frac{3}{8} } \times \mathrm{e}^{0.5} \end{gathered}$
 
 > *  *
 
 > *Substitute the value of *$x$* into the equation to find the value of *$y$*.*
 
-`y equals open parentheses 11 close parentheses to the power of 3 over 8 end exponent cross times straight e to the power of 0.5 end exponent equals 4.0520...`
+$y = ( 11 )^{ \frac{3}{8} } \times \mathrm{e}^{0.5} = 4.0520...$
 
 **[1]**
 
@@ -633,7 +633,7 @@ $y=4.05$* ***[1]**
 > *All the logs have the same base, *$a$* *
 *Use the laws of logarithms to write the three terms on the left hand side as one term*
 
-`table row cell log subscript a space end subscript p plus log subscript a 5 minus log subscript a 4 end cell equals cell log subscript a 20 end cell row cell log subscript a open parentheses 5 p close parentheses minus log subscript a 4 end cell equals cell log subscript a 20 end cell row cell log subscript a open parentheses fraction numerator 5 p over denominator 4 end fraction close parentheses end cell equals cell log subscript a 20 end cell end table`
+$\begin{gathered} log_{a } p + log_{a} 5 - log_{a} 4 & = log_{a} 20 \\ log_{a} ( 5 p ) - log_{a} 4 & = log_{a} 20 \\ log_{a} ( \frac{5 p}{4} ) & = log_{a} 20 \end{gathered}$
 
 **[1]**
 
@@ -660,7 +660,7 @@ $\mathrm{gradient}=\frac{1}{2}$
 
 > *Calculate the **y**-intercept of the line using the gradient and the point (6, 7) *
 
-`7 equals open parentheses 1 half cross times 6 close parentheses plus c`
+$7 = ( 1 \frac{1}{2} \times 6 ) + c$
 
 $c=4$
 
@@ -718,17 +718,17 @@ $x=\mathrm{lg}2,y=\frac{1}{2}\mathrm{lg}\frac{5}{2}$ **[1]**
 ### Q14
 > *Rewrite the question using index laws so the powers are *$2^{x}$
 
-`table row cell open parentheses 2 to the power of 1 close parentheses open parentheses 2 to the power of 2 x end exponent close parentheses minus open parentheses 2 to the power of 1 close parentheses open parentheses 2 to the power of x close parentheses minus open parentheses 2 to the power of x close parentheses plus 1 end cell equals 0 row cell open parentheses 2 close parentheses open parentheses 2 to the power of x close parentheses squared minus open parentheses 2 close parentheses open parentheses 2 to the power of x close parentheses minus open parentheses 2 to the power of x close parentheses plus 1 end cell equals 0 end table`
+$\begin{gathered} ( 2^{1 ) ( 2^{2} x} ) - ( 2^{1} ) ( 2^{x} ) - ( 2^{x} ) + 1 & = 0 \\ ( 2 ) ( 2^{x} )^{2} - ( 2 ) ( 2^{x} ) - ( 2^{x} ) + 1 & = 0 \end{gathered}$
 
 *Substitute *$y=2^{x}$ *into the equation.*
 
-`table attributes columnalign right center left columnspacing 0px end attributes row cell 2 y squared minus 2 y minus y plus 1 end cell equals 0 row cell 2 y squared minus 3 y plus 1 end cell equals 0 end table`
+$\begin{array}{rcl} 2 y^{2} - 2 y - y + 1 & = 0 \\ 2 y^{2} - 3 y + 1 & = 0 \end{array}$
 
 **[1]**
 
 > *Factorise.*
 
-`open parentheses 2 y minus 1 close parentheses open parentheses y minus 1 close parentheses equals 0`
+$( 2 y - 1 ) ( y - 1 ) = 0$
 
 > *Solve for *$y$*.*
 
@@ -753,7 +753,7 @@ $9^{5x}=243\times27^{x-2}$
 
 > *Write each term as a power of 3 (change the base to 3)*
 
-`open parentheses 3 squared close parentheses to the power of 5 x end exponent equals 3 to the power of 5 cross times open parentheses 3 cubed close parentheses to the power of x minus 2 end exponent`
+$( 3^{2} )^{5 x} = 3^{5 \times ( 3^{3} )^{x} - 2}$
 
 > *Simplify each term using index laws*
 
@@ -802,7 +802,7 @@ $\mathrm{lg}100x^{3}-\mathrm{lg}y$
 
 **[1]**
 
-> *Applying the log law *`log a space minus space log b space equals space log open parentheses a over b close parentheses`
+> *Applying the log law *$\log a - \log b = \log ( \frac{a}{b} )$
 
 $\mathrm{lg}(\frac{100x^{3}}{y})$** [1]**
 
@@ -821,25 +821,25 @@ $\frac{4}{\mathrm{log}_{2}y}+\mathrm{log}_{2}y=4$
 
 > *Multiply all terms by log*<sub>*2*</sub>*y** to form a quadratic equation in log*<sub>*2*</sub>*y*
 
-`4 plus open parentheses log subscript 2 space end subscript y close parentheses squared equals 4 log subscript 2 y`
+$4 + ( log_{2 } y )^{2} = 4 log_{2} y$
 
 > *If you like, replace log*<sub>*2*</sub>*y** with a letter, like **x**, and rearrange to an equation equalling 0*
 
-`table row cell 4 plus x squared end cell equals cell 4 x end cell row cell x squared minus 4 x plus 4 end cell equals 0 end table`
+$\begin{gathered} 4 + x^{2} & = 4 x \\ x^{2} - 4 x + 4 & = 0 \end{gathered}$
 
 > *Factorise and solve*
 
-`table row cell x squared minus 4 x plus 4 end cell equals 0 row cell open parentheses x minus 2 close parentheses squared end cell equals 0 row x equals 2 end table`
+$\begin{gathered} x^{2} - 4 x + 4 & = 0 \\ ( x - 2 )^{2} & = 0 \\ x = 2 \end{gathered}$
 
 > *Remember that **x** = log*<sub>*2*</sub>*y** therefore*
 
-`table row cell log subscript 2 space end subscript y end cell equals 2 end table`
+$\begin{gathered} log_{2 } y & = 2 \end{gathered}$
 
 **or " **$\mathrm{log}_{y}2=\frac{1}{2}$**" using similar method**** [1]**
 
 > *Rewrite in exponent form*
 
-`table attributes columnalign right center left columnspacing 0px end attributes row cell 2 squared end cell equals y end table`
+$\begin{array}{rcl} 2^{2} & = y \end{array}$
 
 $y=4$** [1]**
 
@@ -852,7 +852,7 @@ $m=\frac{9-5}{8-6}=2$
 
 > *Substitute one of the points and the gradient into **Y** = m**X** + **c** and solve to find **c*
 
-`5 equals 2 open parentheses 6 close parentheses plus c`
+$5 = 2 ( 6 ) + c$
 
 **[1]**
 
@@ -870,7 +870,7 @@ $y=e^{2\mathrm{ln}x-7}$
 
 > *And rearrange using laws of logs and exponents. Remember that *$e^{\mathrm{ln}x}=x$
 
-`table row y equals cell straight e to the power of ln x squared minus 7 end exponent end cell row blank equals cell straight e to the power of ln x squared end exponent straight e to the power of negative 7 end exponent end cell row blank equals cell x squared straight e to the power of negative 7 end exponent end cell end table`
+$\begin{gathered} y = \mathrm{e}^{\ln x^{2} - 7} \\ = \mathrm{e}^{\ln x^{2}} \mathrm{e}^{- 7} \\ = x^{2} \mathrm{e}^{- 7} \end{gathered}$
 
 $y=e^{-7}x^{2}$ **[1]**
 
@@ -891,7 +891,7 @@ $\mathrm{log}_{2}x+\mathrm{log}_{2}y=8$
 
 > *Use logarithms laws to combine the left hand side.*
 
-`log subscript 2 open parentheses x y close parentheses equals 8`
+$log_{2} ( x y ) = 8$
 
 **[1]**
 
@@ -902,9 +902,9 @@ $xy=2^{8}$
 $xy=256$* ***[1]**
 
 ### Q20
-> *The trick here is to recognise that *`3 to the power of 2 x plus 1 end exponent equals 3 to the power of 2 x end exponent cross times 3 to the power of 1 equals open parentheses 3 to the power of x close parentheses squared cross times 3`*, so we could rewrite '*`3 to the power of 2 x minus 1 end exponent plus 8 open parentheses 3 to the power of x close parentheses minus 3 equals 0`*' as *
+> *The trick here is to recognise that *$3^{2 x + 1} = 3^{2 x} \times 3^{1} = ( 3^{x} )^{2} \times 3$*, so we could rewrite '*$3^{2 x - 1} + 8 ( 3^{x} ) - 3 = 0$*' as *
 
-`3 open parentheses 3 to the power of x close parentheses squared plus 8 open parentheses 3 to the power of x close parentheses minus 3 equals 0`
+$3 ( 3^{x} )^{2} + 8 ( 3^{x} ) - 3 = 0$
 
 > *Now we can recognise that we have a quadratic equation in '*$3^{x}$*'. If you like, replace '*$3^{x}$*' with a letter, like *$y$
 
@@ -912,7 +912,7 @@ $3y^{2}+8y-3=0$
 
 > *Factorise this*
 
-`open parentheses 3 y minus 1 close parentheses open parentheses y plus 3 close parentheses equals 0`
+$( 3 y - 1 ) ( y + 3 ) = 0$
 
 ** [1]**
 
@@ -941,52 +941,52 @@ $\frac{\mathrm{log}_{a}9a}{\mathrm{log}_{a}\sqrt{b}}$
 
 > *Use the logarithm power law to rewrite the denominator.*
 
-`fraction numerator log subscript a 9 a over denominator open parentheses begin display style 1 half end style close parentheses log subscript a b end fraction`
+$\frac{log_{a} 9 a}{( 1 \frac{1}{2} ) log_{a} b}$
 
 > *Use the addition/multiplication law to rewrite the numerator.*
 
-`fraction numerator log subscript a 9 plus log subscript a a over denominator open parentheses begin display style 1 half end style close parentheses log subscript a b end fraction`
+$\frac{log_{a} 9 + log_{a} a}{( 1 \frac{1}{2} ) log_{a} b}$
 
 **[1]**
 
 $\mathrm{log}_{a}a=1$
 
-`fraction numerator open parentheses log subscript a 9 close parentheses plus 1 over denominator open parentheses 1 half close parentheses log subscript a b end fraction`
+$\frac{( log_{a} 9 ) + 1}{( 1 \frac{1}{2} ) log_{a} b}$
 
 **[1]**
 
 > *Substitute into original equation.*
 
-`log subscript a 9 plus open parentheses log subscript a b close parentheses open parentheses fraction numerator open parentheses log subscript a 9 close parentheses plus 1 over denominator open parentheses begin display style 1 half end style close parentheses log subscript a b end fraction close parentheses`
+$log_{a} 9 + ( log_{a} b ) ( \frac{( log_{a} 9 ) + 1}{( 1 \frac{1}{2} ) log_{a} b} )$
 
 > *Simplify.*
 
-`log subscript a 9 plus open parentheses fraction numerator open parentheses log subscript a 9 close parentheses plus 1 over denominator open parentheses begin display style 1 half end style close parentheses end fraction close parentheses`
+$log_{a} 9 + ( \frac{( log_{a} 9 ) + 1}{( 1 \frac{1}{2} )} )$
 
-`log subscript a 9 plus 2 open parentheses log subscript a 9 close parentheses plus 2`
+$log_{a} 9 + 2 ( log_{a} 9 ) + 2$
 
 $2+3\mathrm{log}_{a}9$* ***[1]**
 
 ### Q22
-i) *Since we cannot take the logarithm of a negative number, both *`open parentheses x plus 3 close parentheses`* and *`open parentheses 2 x minus 1 close parentheses`* must be greater than 0. If *$2x-1>0$* then*$x>\frac{1}{2}$* .*
+i) *Since we cannot take the logarithm of a negative number, both *$( x + 3 )$* and *$( 2 x - 1 )$* must be greater than 0. If *$2x-1>0$* then*$x>\frac{1}{2}$* .*
 
 > * *
 
 **This ensures the argument of both logarithms is greater than 0 ****[1]**
 
-ii) *Multiply both sides by *`log subscript a open parentheses y plus 3 close parentheses`*  *
+ii) *Multiply both sides by *$log_{a} ( y + 3 )$*  *
 
-> `log subscript a 6 equals 2 space log subscript a open parentheses y plus 3 close parentheses`*   *
+> $log_{a} 6 = 2 log_{a} ( y + 3 )$*   *
 
 > *Use the logarithm power rule to rewrite.  *
 
-`log subscript a 6 equals log subscript a open parentheses y plus 3 close parentheses squared`
+$log_{a} 6 = log_{a} ( y + 3 )^{2}$
 
 **[1]**
 
 > *Remove logarithms.  *
 
-`6 equals open parentheses y plus 3 close parentheses squared`
+$6 = ( y + 3 )^{2}$
 
 **[1]**
 
@@ -996,7 +996,7 @@ $\pm\sqrt{6}=y+3$
 
 > $y=-3\pm\sqrt{6}$*  *
 
-> `open parentheses y plus 3 close parentheses greater or equal than 0`*, therefore *$y$*cannot equal *$-3-\sqrt{6}$*   *
+> $( y + 3 ) \ge 0$*, therefore *$y$*cannot equal *$-3-\sqrt{6}$*   *
 
 $y=-3+\sqrt{6}$** [1]**
 
@@ -1005,7 +1005,7 @@ $y=A\times10^{bx^{2}}$
 
 > *Take logarithms of both sides.*
 
-`lg space y equals lg space open parentheses A cross times 10 to the power of b x squared end exponent close parentheses`
+$\text{lg} y = \text{lg} ( A \times 10^{b x^{2}} )$
 
 > *Use logarithm laws to rewrite.*
 
@@ -1021,7 +1021,7 @@ $m=\frac{6.88-5.25}{4.83-3.63}\,m=1.3583...$
 
 > *  *
 
-> *Substitute *$m=1.36$*, *$X=x^{2}$* and *`y equals lg open parentheses y close parentheses`* into the equation of a line *`open parentheses Y equals m X plus c close parentheses`*.*
+> *Substitute *$m=1.36$*, *$X=x^{2}$* and *$y = \text{lg} ( y )$* into the equation of a line *$( Y = m X + c )$*.*
 
 > * *
 
@@ -1037,7 +1037,7 @@ $b=1.358$
 
 > *  *
 
-> *  *`table row cell 5.25 end cell equals cell 1.358 open parentheses 3.63 close parentheses plus c end cell row blank blank blank row c equals cell 0.32046 end cell end table`
+> *  *$\begin{gathered} 5.25 & = 1.358 ( 3.63 ) + c \\ \\ c = 0.32046 \end{gathered}$
 
 > *Compare to *$\mathrm{lg}y=bx^{2}+\mathrm{lg}A$
 
@@ -1056,7 +1056,7 @@ $y=2.09\times10^{1.36x^{2}}$
 
 *Substitute* $x=2$ *into the equation.*
 
-`y equals 2.09 cross times 10 to the power of open parentheses 1.36 close parentheses open parentheses 2 close parentheses squared end exponent`
+$y = 2.09 \times 10^{( 1.36 ) ( 2 )^{2}}$
 
 **[1]**
 
@@ -1079,36 +1079,36 @@ $\frac{4}{2.09}=10^{1.36x^{2}}$
 
 > *Take logarithms of both sides.*
 
-`lg open parentheses fraction numerator 4 over denominator 2.09 end fraction close parentheses equals 1.36 x squared`
+$\text{lg} ( \frac{4}{2.09} ) = 1.36 x^{2}$
 
 > *Solve for *$x$*.*
 
-`x squared equals fraction numerator lg open parentheses fraction numerator 4 over denominator 2.09 end fraction close parentheses over denominator 1.36 end fraction
+$x^{2} = \frac{lg ( \frac{4}{2.09} )}{1.36} 
 
-x equals square root of fraction numerator lg open parentheses fraction numerator 4 over denominator 2.09 end fraction close parentheses over denominator 1.36 end fraction end root`
+x = \sqrt{ \frac{lg ( \frac{4}{2.09} )}{1.36} }$
 
 $x=0.455$* ***[1]**
 
 **answers which round to 0.46 are accepted**
 
 ### Q24
-> *Work out the inverse of *`straight f open parentheses x close parentheses`*.*
+> *Work out the inverse of *$\mathrm{f} ( x )$*.*
 
-`table row y equals cell 3 plus straight e to the power of x end cell row cell y minus 3 end cell equals cell straight e to the power of x end cell row cell ln open parentheses y minus 3 close parentheses end cell equals x end table`
+$\begin{gathered} y = 3 + \mathrm{e}^{x} \\ y - 3 & = \mathrm{e}^{x} \\ \ln ( y - 3 ) & = x \end{gathered}$
 
 > *Switch *$x$* and *$y$* to find the inverse function.*
 
-`table attributes columnalign right center left columnspacing 0px end attributes row y equals cell ln open parentheses x minus 3 close parentheses end cell row blank blank blank row cell straight f to the power of negative 1 end exponent open parentheses x close parentheses end cell equals cell ln open parentheses x minus 3 close parentheses end cell end table`
+$\begin{array}{rcl} y = \ln ( x - 3 ) \\ \\ \mathrm{f}^{- 1} ( x ) & = \ln ( x - 3 ) \end{array}$
 
 **[1]**
 
-> *Differentiate *`straight g open parentheses x close parentheses`*.*
+> *Differentiate *$\mathrm{g} ( x )$*.*
 
-`straight g apostrophe open parentheses x close parentheses equals 9`
+$\mathrm{g} ' ( x ) = 9$
 
-> *Put *`straight f to the power of negative 1 end exponent open parentheses x close parentheses`* and *`straight g apostrophe open parentheses x close parentheses`* equal to each other, exponentiate both sides and solve.*
+> *Put *$\mathrm{f}^{- 1} ( x )$* and *$\mathrm{g} ' ( x )$* equal to each other, exponentiate both sides and solve.*
 
-`table row cell ln open parentheses x minus 3 close parentheses end cell equals 9 row cell x minus 3 end cell equals cell straight e to the power of 9 end cell end table`
+$\begin{gathered} \ln ( x - 3 ) & = 9 \\ x - 3 & = \mathrm{e}^{9} \end{gathered}$
 
 ** ****[1]**
 

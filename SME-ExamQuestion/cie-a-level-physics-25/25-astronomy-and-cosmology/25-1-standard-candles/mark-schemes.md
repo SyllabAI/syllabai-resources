@@ -22,7 +22,7 @@ Rearrange the inverse square law of flux equation for the distance, *d*:
 
 - Inverse square law of flux:  $F=\frac{L}{4πd^{2}}$ **[1 mark]**
 - Rearrange:  $d=\sqrt{\frac{L}{4πF}}$
-- Substitute:  `d space equals space square root of fraction numerator 1.54 space cross times space 10 to the power of 28 over denominator 4 pi space cross times space open parentheses 2.13 space cross times space 10 to the power of negative 8 end exponent close parentheses end fraction end root` **[1 mark]**
+- Substitute:  $d = \sqrt{ \frac{1.54 \times 10^{28}{4 \pi \times ( 2.13 \times 10^{-8} } )} }$ **[1 mark]**
 - Distance to Vega:  $d=2.40\times10^{17}m$ **[1 mark]**
 
 **[Total: 4 marks]**
@@ -100,7 +100,7 @@ Calculate the luminosity using the inverse square law:
 
 - Inverse square law of flux:  $F=\frac{L}{4πd^{2}}$ **[1 mark]**
 - Rearrange:  $L=4πd^{2}F$
-- `L space equals space 4 straight pi open parentheses 1.3 cross times 10 to the power of 19 close parentheses squared cross times open parentheses 4.7 cross times 10 to the power of negative 10 end exponent close parentheses` **[1 mark]**
+- $L = 4 \mathrm{\pi } ( 1.3 \times 10^{19 )^{2} \times ( 4.7 \times 10^{-10} } )$ **[1 mark]**
 - $L=1.0\times10^{30}W$ **[1 mark]**
 
 **[Total: 3 marks]**
@@ -149,7 +149,7 @@ Calculate the distance to the galaxy using the inverse square law:
 
 - Inverse square law of flux:  $F=\frac{L}{4πd^{2}}$ **[1 mark]**
 - $d=\sqrt{\frac{L}{4πF}}$
-- `d equals square root of fraction numerator 2.0 cross times 10 to the power of 36 over denominator 4 straight pi cross times open parentheses 2.59 cross times 10 to the power of negative 15 end exponent close parentheses end fraction end root equals 7.84 cross times 10 to the power of 24 space straight m` **[1 mark]**
+- $d = \sqrt{ \frac{2.0 \times 10^{36}{4 \mathrm{\pi } \times ( 2.59 \times 10^{-15} } )} } = 7.84 \times 10^{24} \mathrm{m}$ **[1 mark]**
 
 **[Total: 2 marks]**
 (i) Determine the distance to the standard candle in light years:
@@ -197,7 +197,7 @@ Calculate the distance to the galaxy using the inverse square law:
 
 - Inverse square law of flux:  $F=\frac{L}{4πd^{2}}$ **[1 mark]**
 - Rearrange:  $d=\sqrt{\frac{L}{4πF}}$
-- `d space equals space square root of fraction numerator 1.6 cross times 10 to the power of 36 over denominator 4 straight pi cross times open parentheses 9.0 cross times 10 to the power of negative 18 end exponent close parentheses end fraction end root` **[1 mark]**
+- $d = \sqrt{ \frac{1.6 \times 10^{36}{4 \mathrm{\pi } \times ( 9.0 \times 10^{-18} } )} }$ **[1 mark]**
 - $d=1.19\times10^{26}m$ **[1 mark]**
 
 **[Total: 3 marks]**
@@ -241,7 +241,7 @@ Convert the distance from light-years to metres:
 Use the inverse square law of flux to calculate the peak intensity:
 
 - Inverse square law of flux:  $F=\frac{L}{4πd^{2}}$ **[1 mark]**
-- Substitute:  `F space equals space fraction numerator 2.4 cross times 10 to the power of 36 over denominator 4 straight pi open parentheses 9.46 cross times 10 to the power of 25 close parentheses squared end fraction`
+- Substitute:  $F = \frac{2.4 \times 10^{36} }{4 \mathrm{\pi } ( 9.46 \times 10^{25} )^{2}}$
 - Peak radiant flux intensity:  $F$ = 2.13 × 10<sup>−17</sup> W m<sup>−2</sup> **[1 mark]**
 
 (ii) Show that the collecting area of the JWST is 25 m<sup>2</sup>:
@@ -289,13 +289,13 @@ List the known quantities:
 Calculate the luminosity of the Sun:
 
 - Stefan-Boltzmann law:  $L=4πr^{2}σT^{4}$
-- `L space equals space open parentheses 5.67 space cross times space 10 to the power of negative 8 end exponent close parentheses space cross times space 4 pi space cross times space open parentheses 6.96 space cross times space 10 to the power of 8 close parentheses squared space cross times space open parentheses 5790 close parentheses to the power of 4`
+- $L = ( 5.67 \times 10^{- 8} ) \times 4 \pi \times ( 6.96 \times 10^{8} )^{2} \times ( 5790 )^{4}$
 - $L=3.879\times10^{26}W$ **[1 mark]**
 
 Calculate the radiant flux intensity:
 
 - Flux intensity:  $F=\frac{L}{4πd^{2}}$
-- `F space equals space fraction numerator 3.879 space cross times space 10 to the power of 26 space over denominator 4 pi space cross times space open parentheses 1.50 space cross times space 10 to the power of 11 close parentheses squared end fraction space equals space 1371.92 space straight W space straight m to the power of negative 2 end exponent` **[1 mark]**
+- $F = \frac{3.879 \times 10^{26 }{4 \pi \times ( 1.50 \times 10^{11} )^{2}} = 1371.92 \mathrm{W} \mathrm{m}^{-2} }$ **[1 mark]**
 - $F=1.37\mathrm{kW}m^{-2}$ **[1 mark]**
 
 Conclusion:
@@ -331,8 +331,8 @@ Determine the power available to the probe at Mars:
 
 - Radiant flux intensity:  $F=\frac{L}{4πd^{2}}$
 - Since $F\propto\frac{1}{d^{2}}$ and $P\proptoF\RightarrowP\propto\frac{1}{d^{2}}$
-- Ratio:  `P subscript M over P subscript E space equals space open parentheses d subscript E over d subscript M close parentheses squared space space space space space rightwards double arrow space space space space P subscript M space equals space P subscript E space cross times space open parentheses d subscript E over d subscript M close parentheses squared`
-- Total power available (at Mars):  `P subscript M space equals space 12 space 740 space cross times space open parentheses fraction numerator 1.5 cross times 10 to the power of 11 over denominator 2.3 cross times 10 to the power of 11 end fraction close parentheses squared` **[1 mark]**
+- Ratio:  `P _ M / P _ E = ( d _ E / d _ M ) ^2 <-> P _ M = P _ E x ( d _ E / d _ M ) ^2`
+- Total power available (at Mars):  $P_{M} = 12 740 \times ( \frac{1.5 \times 10^{11} }{2.3 \times 10^{11} } )^{2}$ **[1 mark]**
 - Total power available (at Mars):  $P_{M}$ = 5420 W **[1 mark]**
 
 Conclusion:
@@ -352,8 +352,8 @@ List the known quantities:
 Determine the radiant flux intensity at Neptune:
 
 - Radiant flux intensity:  $F=\frac{L}{4πd^{2}}$
-- Ratio:  `F subscript N over F subscript E space equals space open parentheses d subscript E over d subscript N close parentheses squared space space space space space space rightwards double arrow space space space space space F subscript N space equals space F subscript E space cross times space open parentheses d subscript E over d subscript N close parentheses squared`
-- Radiant flux intensity at Neptune:  `F subscript N space equals space 1370 space cross times space open parentheses fraction numerator d subscript E over denominator 30 d subscript E end fraction close parentheses squared space equals space 1370 cross times open parentheses 1 over 30 close parentheses squared` **[1 mark]**
+- Ratio:  `F _ N / F _ E = ( d _ E / d _ N ) ^2 <-> F _ N = F _ E x ( d _ E / d _ N ) ^2`
+- Radiant flux intensity at Neptune:  $F_{N} = 1370 \times ( \frac{d_{E} }{30 d_{E} } )^{2} = 1370 \times ( \frac{1}{30} )^{2}$ **[1 mark]**
 - Radiant flux intensity at Neptune:  $F_{N}=1.52Wm^{-2}$ **[1 mark]**
 
 Determine the required area of the panels:
@@ -407,7 +407,7 @@ Use the inverse square law of flux to calculate the distance:
 
 - Inverse square law:  $F=\frac{L}{4πd^{2}}$ **[1 mark]**
 - Rearrange:  $d=\sqrt{\frac{L}{4πF}}$
-- Substitute:  `d space equals space square root of fraction numerator 2000 cross times open parentheses 3.8 cross times 10 to the power of 26 close parentheses over denominator 4 straight pi cross times open parentheses 500 cross times 10 to the power of negative 9 end exponent close parentheses end fraction end root` **[1 mark]**
+- Substitute:  $d = \sqrt{ \frac{2000 \times ( 3.8 \times 10^{26 )}{4 \mathrm{\pi } \times ( 500 \times 10^{-9} } )} }$ **[1 mark]**
 - Distance to Cepheid:  $d$ = 3.5 × 10<sup>17</sup> m **[1 mark]**
 
 **[Total: 4 marks]**

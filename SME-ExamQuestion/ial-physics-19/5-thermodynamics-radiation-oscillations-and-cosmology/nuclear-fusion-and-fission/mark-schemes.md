@@ -25,7 +25,7 @@ To deduce whether the statement is correct, calculate the values:
 
 Calculate rest mass of the muon:
 
-- Rest mass, `m space equals space fraction numerator E cross times e over denominator c squared end fraction equals space fraction numerator open parentheses 106 cross times 10 to the power of 6 close parentheses cross times open parentheses 1.6 cross times 10 to the power of negative 19 end exponent close parentheses over denominator open parentheses 3.0 cross times 10 to the power of 8 close parentheses squared end fraction equals 1.88 cross times 10 to the power of negative 28 end exponent space kg` **[1 mark]**
+- Rest mass, $m = \frac{E \times e}{c^{2}} = \frac{( 106 \times 10^{6 ) \times ( 1.6 \times 10^{-19} } )}{( 3.0 \times 10^{8 )^{2}} = 1.88 \times 10^{-28} } \text{kg}$ **[1 mark]**
 
 Compare masses:
 
@@ -54,7 +54,7 @@ ii) To deduce whether the ring has a circumference of 44.7 m and, using a magnet
 
 Convert 3.10 GeV / c to SI units:
 
-- `fraction numerator open parentheses space 3.10 space cross times 10 to the power of 9 close parentheses cross times open parentheses 1.6 space cross times 10 to the power of blank to the power of minus 19 end exponent close parentheses over denominator 3.0 cross times 10 to the power of 8 end fraction equals 1.65 cross times 10 to the power of negative 18 end exponent space Ns`
+- `(( 3.10 x 10 ^ 9 ) x ( 1.6 x 10 ^ _ ^ - 19 ))/(3.0 x 10 ^ 8) = 1.65 x 10 ^ - 18 Ns`
 
 Calculate radius:
 
@@ -62,7 +62,7 @@ Calculate radius:
 
 Use the equation relating radius and a magnetic field to show whether the values are consistent:
 
-- `r space equals space fraction numerator p over denominator B Q end fraction equals space fraction numerator 1.65 cross times 10 to the power of negative 18 end exponent over denominator 1.45 cross times open parentheses 1.6 cross times 10 to the power of negative 19 end exponent close parentheses end fraction equals 7.11 space straight m` **[1 mark]**
+- $r = \frac{p}{B Q} = \frac{1.65 \times 10^{- 18} }{1.45 \times ( 1.6 \times 10^{- 19} )} = 7.11 \mathrm{m}$ **[1 mark]**
 - Therefore the values are consistent and the claim is correct; **[1 mark]**
 
 iii) Muons in the ring are observed to have a much greater mean lifetime than unstable, stationary muons because:
@@ -79,22 +79,22 @@ Show that the energy released in the decay is about 5.5 MeV
 
 Calculate the difference in mass, Δ*m*:
 
-- `increment m space equals space m subscript T h end subscript space minus space open parentheses m subscript R a end subscript space minus space m subscript alpha close parentheses space equals space space 228.02873 space minus space open parentheses 224.02021 space plus space 4.00260 close parentheses space equals space 5.92 space cross times space 10 to the power of negative 3 end exponent space straight u` **[1 mark]**
+- $\Delta m = m_{T} h - ( m_{R} a - m_{ \alpha } ) = 228.02873 - ( 224.02021 + 4.00260 ) = 5.92 \times 10^{ - } 3 \mathrm{u}$ **[1 mark]**
 
 Convert the mass from u to kg:
 
 - 1 u = 1.66 × 10<sup>–27</sup> kg
-- `open parentheses 5.92 space cross times space 10 to the power of negative 3 end exponent space close parentheses space cross times space open parentheses 1.66 space cross times space 10 to the power of negative 27 end exponent close parentheses space equals space 9.83 space cross times space 10 to the power of negative 30 end exponent space kg` **[1 mark]**
+- $( 5.92 \times 10^{- 3} ) \times ( 1.66 \times 10^{- 27} ) = 9.83 \times 10^{- 30} \text{kg}$ **[1 mark]**
 
 Calculate the energy released:
 
 - $\DeltaE=c^{2}\Deltam$
-- `increment E space equals space open parentheses 3.00 space cross times space 10 to the power of 8 close parentheses squared space cross times space open parentheses 9.83 space cross times space 10 to the power of negative 30 end exponent close parentheses space equals space 8.85 space cross times space 10 to the power of negative 13 end exponent space straight J` **[1 mark]**
+- $\Delta E = ( 3.00 \times 10^{8 )^{2} \times ( 9.83 \times 10^{-30} } ) = 8.85 \times 10^{- 13} \mathrm{J}$ **[1 mark]**
 
 Convert the energy from J to MeV:
 
 - 1 MeV = (1.60  × 10<sup>–19</sup>)  × 10<sup>6</sup>
-- `increment E space equals space fraction numerator 8.85 space cross times space 10 to the power of negative 13 end exponent space over denominator open parentheses 1.60 space cross times space 10 to the power of negative 13 end exponent close parentheses end fraction space equals space 5.53 space MeV space`**[1 mark]**
+- $\Delta E = \frac{8.85 \times 10^{- 13} }{( 1.60 \times 10^{- 13} )} = 5.53 \text{MeV}$**[1 mark]**
 
 **[Total: 4 marks]**
 
@@ -213,7 +213,7 @@ Consider the nucleon and proton numbers of $n$:
 - $n$ is a neutron
 - Hence, the nuclide notation looks like this:
 
-  - `straight n presubscript 0 presuperscript 1`
+  - `n _ 0 ^ 1`
 
 Consider the nucleon numbers for the equation:
 
@@ -227,7 +227,7 @@ Consider the proton numbers for the equation:
 
 Complete the nuclear equation:
 
-- `straight U presubscript 92 presuperscript 236 space rightwards arrow space Sr presubscript 38 presuperscript bold 93 space plus space Xe presubscript bold 54 presuperscript 141 space plus space 2 space cross times space straight n presubscript bold 0 presuperscript bold 1`
+- `U _ 92 ^ 236 -> Sr _ 38 ^ 93 + Xe _ 54 ^ 141 + 2 x n _ 0 ^ 1`
 
 - Nucleon numbers correct; **[1 mark]**
 - Proton numbers correct; **[1 mark]**
@@ -235,7 +235,7 @@ Complete the nuclear equation:
 **[Total: 2 marks]**
 
 ### 18((d)) — 2 marks
-Calculate, in MeV, the binding energy per nucleon for a nucleus of `straight U presubscript 92 presuperscript 236`:
+Calculate, in MeV, the binding energy per nucleon for a nucleus of `U _ 92 ^ 236`:
 
 From the data booklet:
 
@@ -245,8 +245,8 @@ From the data booklet:
 Use the information in the table to calculate the mass defect, $\Deltam$:
 
 - Number of neutrons in U-236 nucleus = 236 − 92 = 144
-- `increment m space equals open parentheses m a s s space o f space U minus 236 space n e u t r o n s space plus space m a s s space o f space U minus 236 space p r o t o n s close parentheses space minus space m a s s space o f space U minus 236 space n u c l e u s`
-- `increment m space equals space open parentheses 144 space cross times space 0.93956 space u close parentheses space plus space open parentheses 92 space cross times space 0.93827 space u close parentheses space minus space 219.8750 space u space equals space 1.742 space u` **[1 mark]**
+- $\Delta m = ( m a s s o f U - 236 n e u t r o n s + m a s s o f U - 236 p r o t o n s ) - m a s s o f U - 236 n u c l e u s$
+- $\Delta m = ( 144 \times 0.93956 u ) + ( 92 \times 0.93827 u ) - 219.8750 u = 1.742 u$ **[1 mark]**
 
 Calculate the binding energy per nucleon:
 
@@ -309,7 +309,7 @@ Energy from the α particles in the air is transferred to the atoms in the air *
 ### 20((a)) — 2 marks
 The correct nuclear equation for this decay is:
 
-`Ac presubscript 89 presuperscript 225 space space rightwards arrow space Fr presubscript bold 87 presuperscript bold 221 space plus space straight alpha presubscript bold 2 presuperscript bold 4`
+`Ac _ 89 ^ 225 -> Fr _ 87 ^ 221 + alpha _ 2 ^ 4`
 
 - Correct proton numbers; **[1 mark]**
 - Correct neutron numbers; **[1 mark]**
@@ -318,7 +318,7 @@ The correct nuclear equation for this decay is:
 
 - α-particle = Helium nucleus
 
-  - `straight alpha presubscript 2 presuperscript 4 space equals space He presubscript 2 presuperscript 4`
+  - $\ \\alpha pre_{2} pre^{4} = He_{2}^{4}$
 - Equate the nucleon numbers on both sides of the equation:
 
   - 225 = A + 4
@@ -342,7 +342,7 @@ List the known quantities:
 Calculate the energy released when the mass decreases by 1 $u$:
 
 - Mass-energy equivalence:  $\DeltaE=c^{2}\Deltam=c^{2}\timesu$
-- `increment E space equals space open parentheses 3 cross times 10 to the power of 8 close parentheses squared space cross times space open parentheses 1.66 cross times 10 to the power of negative 27 end exponent close parentheses` **[1 mark]**
+- $\Delta E = ( 3 \times 10^{8 )^{2} \times ( 1.66 \times 10^{-27} } )$ **[1 mark]**
 - $\DeltaE=1.494\times10^{-10}J$ **[1 mark]**
 
 Convert the energy in J to MeV:
@@ -384,12 +384,12 @@ Calculate the decay constant, $λ$:
 Calculate the number of atoms in the sample when it is prepared, $N_{0}$:
 
 - Activity:  $A=λN$
-- `N subscript 0 space equals space A over lambda space equals space fraction numerator open parentheses 7.4 space cross times space 10 to the power of 7 close parentheses over denominator open parentheses 8.1 space cross times space 10 to the power of negative 7 end exponent close parentheses end fraction space equals space 9.14 space cross times space 10 to the power of 13 space`**[1 mark]**
+- $N_{0} = \frac{A}{ \lambda } = \frac{ ( 7.4 \times 10^{7} ) }{ ( 8.1 \times 10^{ - } 7 ) } = 9.14 \times 10^{13}$**[1 mark]**
 
 Calculate the number of atoms in the sample after 7 days, $N$:
 
 - Exponential decay:  $N=N_{0}e^{-λt}$
-- `N space equals space open parentheses 9.14 space cross times space 10 to the power of 13 close parentheses space cross times space e to the power of negative open parentheses 8.1 cross times 10 to the power of negative 7 end exponent close parentheses cross times 604 space 800 end exponent space`**[1 mark]**
+- $N = ( 9.14 \times 10^{13 ) \times e^{- ( 8.1 \times 10^{-7} } ) \times 604 800}$**[1 mark]**
 - $N=5.60\times10^{13}$ **[1 mark]**
 
 **[Total: 4 marks]**

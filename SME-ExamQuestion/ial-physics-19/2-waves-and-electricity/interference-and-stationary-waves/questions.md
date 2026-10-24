@@ -172,10 +172,10 @@ mass of whole string = $m$
 mass of hanging masses = $M$
 
 Which of the following expressions represents the speed of the waves on the string?
-- **A.** `square root of open parentheses fraction numerator 4 M g L over denominator 3 m end fraction close parentheses end root`
-- **B.** `square root of open parentheses fraction numerator 2 M g L over denominator 3 m end fraction close parentheses end root`
-- **C.** `square root of open parentheses fraction numerator M g L over denominator m end fraction close parentheses end root`
-- **D.** `square root of open parentheses fraction numerator M g L over denominator 3 m end fraction close parentheses end root`
+- **A.** $\sqrt{( \frac{4 M g L}{3 m} )}$
+- **B.** $\sqrt{( \frac{2 M g L}{3 m} )}$
+- **C.** $\sqrt{( \frac{M g L}{m} )}$
+- **D.** $\sqrt{( \frac{M g L}{3 m} )}$
 
 ## Q8 — medium — 1 marks · multiple-choice-questions
 

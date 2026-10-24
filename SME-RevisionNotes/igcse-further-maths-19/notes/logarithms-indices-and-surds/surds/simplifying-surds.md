@@ -90,19 +90,19 @@ guided_study: false
   
     - e.g. $\sqrt{450}=\sqrt{9\times50}=\sqrt{9}\times\sqrt{50}=3\times\sqrt{50}=3\sqrt{50}$
     - But 50 still has a square factor so continue
-    - `3 square root of 50 equals 3 square root of 25 cross times 2 end root equals 3 open parentheses square root of 25 cross times square root of 2 close parentheses equals 3 open parentheses 5 cross times square root of 2 close parentheses equals 15 cross times square root of 2 equals 15 square root of 2`
+    - $3 \sqrt{50 = 3 \sqrt{25} \times 2} = 3 ( \sqrt{25} \times \sqrt{2} ) = 3 ( 5 \times \sqrt{2} ) = 15 \times \sqrt{2} = 15 \sqrt{2}$
 
 - You can **collect like terms** with surds like you do with letters in algebra
 - Understanding how to **simplify** surds can **help** with simplifying expressions and collecting like terms
 
   - e.g. simplify $\sqrt{32}+\sqrt{8}$ by simplifying each part separately
 
-`table row cell square root of 32 space plus space square root of 8 space end cell equals cell space open parentheses square root of 16 space cross times space square root of 2 close parentheses space plus space open parentheses square root of 4 space cross times space square root of 2 close parentheses space end cell row blank equals cell space 4 square root of 2 space plus space 2 square root of 2 space end cell row blank equals cell space 6 square root of 2 end cell end table`
+$\begin{gathered} \sqrt{32} + \sqrt{8} & = ( \sqrt{16} \times \sqrt{2} ) + ( \sqrt{4} \times \sqrt{2} ) \\ = 4 \sqrt{2} + 2 \sqrt{2} \\ = 6 \sqrt{2} \end{gathered}$
 
 - An important skill is **expanding brackets** containing surds
 
   - This is done in the same way as expanding brackets algebraically
-  - But the property  `open parentheses square root of a close parentheses squared equals a`  can be used to simplify the expression, once expanded
+  - But the property  $( \sqrt{a} )^{2} = a$  can be used to simplify the expression, once expanded
 
 > **Exam Hint**
 > - In exam questions different surds being simplified will often have the same non-square factor

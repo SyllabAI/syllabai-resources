@@ -115,7 +115,7 @@ State the SOHCAHTOA **equation **for **sine**.
 
 **BACK**
 
-The SOHCAHTOA **equation **for **sine **is `sin open parentheses theta close parentheses equals Opposite over Hypotenuse`.
+The SOHCAHTOA **equation **for **sine **is $\sin ( \\theta ) = \frac{Opposite}{Hypotenuse}$.
 
 
 
@@ -128,7 +128,7 @@ State the SOHCAHTOA **equation** for **cosine**.
 
 **BACK**
 
-The SOHCAHTOA **equation **for **cosine** is `cos open parentheses theta close parentheses equals Adjacent over Hypotenuse`.
+The SOHCAHTOA **equation **for **cosine** is $\cos ( \\theta ) = \frac{Adjacent}{Hypotenuse}$.
 
 
 
@@ -141,7 +141,7 @@ State the SOHCAHTOA **equation** for **tangent**.
 
 **BACK**
 
-The SOHCAHTOA **equation **for **tangent **is `tan open parentheses theta close parentheses equals Opposite over Adjacent`.
+The SOHCAHTOA **equation **for **tangent **is $\tan ( \\theta ) = \frac{Opposite}{Adjacent}$.
 
 
 
@@ -169,7 +169,7 @@ What does the** inverse trigonometric function **do, e.g. $\mathrm{sin}^{-1}$?
 
 The** inverse trigonometric function** is used to **find missing angles** when two sides of a right-angled triangle are known.
 
-E.g. `theta equals sin to the power of negative 1 end exponent open parentheses Opposite over Hypotenuse close parentheses`.
+E.g. $\\theta = \sin ^{- 1} ( \frac{Opposite}{Hypotenuse} )$.
 
 
 

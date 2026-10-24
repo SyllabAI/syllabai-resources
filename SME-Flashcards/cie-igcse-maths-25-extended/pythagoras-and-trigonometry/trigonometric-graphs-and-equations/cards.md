@@ -56,14 +56,14 @@ The** graph** of $y=\mathrm{tan}x$ for  $-360^{\circ}\leqx\leq360^{\circ}$ is:
 
 **True or False?**
 
-The point `open parentheses 0 comma space 0 close parentheses` lies on the graph $y=\mathrm{sin}x$.
+The point $( 0 , 0 )$ lies on the graph $y=\mathrm{sin}x$.
 
 
 **BACK**
 
 **True.**
 
-The point `open parentheses 0 comma space 0 close parentheses` lies on the graph $y=\mathrm{sin}x$.
+The point $( 0 , 0 )$ lies on the graph $y=\mathrm{sin}x$.
 
 
 
@@ -76,7 +76,7 @@ What is the ***y*****-intercept** of the graph $y=\mathrm{cos}x$?
 
 **BACK**
 
-The ***y*****-intercept** of the graph $y=\mathrm{cos}x$ is `open parentheses 0 comma space 1 close parentheses`.
+The ***y*****-intercept** of the graph $y=\mathrm{cos}x$ is $( 0 , 1 )$.
 
 
 
@@ -172,7 +172,7 @@ How would you use a graph of $y=\mathrm{sin}x$ to find the **solutions** of $\ma
 
 To find the **solutions** of $\mathrm{sin}x=0.5$ for $0^{\circ}\leqx\leq360^{\circ}$ using the graph $y=\mathrm{sin}x$:
 
-- calculate one solution using inverse trig `x equals sin to the power of negative 1 end exponent open parentheses 0.5 close parentheses`
+- calculate one solution using inverse trig $x = \sin ^{- 1} ( 0.5 )$
 - draw the horizontal line $y=0.5$
 - use the symmetry of the graph to find the other solution
 

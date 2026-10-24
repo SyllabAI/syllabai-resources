@@ -65,7 +65,7 @@ guided_study: false
 > 
 > > *Then set them equal to each other and cross-multiply*
 > 
-> * *`table row cell x over c end cell equals cell c over y end cell row cell x y end cell equals cell c squared end cell end table`* *
+> * *$\begin{gathered} \frac{x}{c} & = \frac{c}{y} \\ x y & = c^{2} \end{gathered}$* *
 > 
 > $xy=c^{2}$
 > 

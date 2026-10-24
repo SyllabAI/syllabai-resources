@@ -39,7 +39,7 @@ $x=\frac{-b\pm\sqrt{b^{2}-4ac}}{2a}$
 - To solve 2*x*<sup>2</sup> - 8*x* - 3 = 0 using the quadratic formula:
 
   - *a* = 2, *b* = -8 and *c* = -3
-  - `x equals fraction numerator negative open parentheses negative 8 close parentheses plus-or-minus square root of open parentheses negative 8 close parentheses squared minus 4 cross times 2 cross times open parentheses negative 3 close parentheses end root over denominator 2 cross times 2 end fraction`
+  - $x = \frac{- ( - 8 ) \pm \sqrt{( - 8 )^{2} - 4 \times 2 \times ( - 3 )} }{2 \times 2}$
   - Either type this into a calculator or simplify by hand
   
     - Type it once using + for  ± then again using - for  ±
@@ -58,13 +58,13 @@ $x=\frac{-b\pm\sqrt{b^{2}-4ac}}{2a}$
 
   - Be careful with negatives!
   
-    - `open parentheses negative 8 close parentheses squared minus 4 cross times 2 cross times open parentheses negative 3 close parentheses equals 64 plus 24 equals 88`
+    - $( - 8 )^{2} - 4 \times 2 \times ( - 3 ) = 64 + 24 = 88$
   - Now square root this number and use **surd rules** to simplify
   
     - $\sqrt{88}=\sqrt{4\times22}=\sqrt{4}\times\sqrt{22}=2\sqrt{22}$
   - **Substitute** this back into the formula and simplify
   
-    - `x equals fraction numerator 8 plus-or-minus 2 square root of 22 over denominator 4 end fraction equals fraction numerator 2 open parentheses 4 plus-or-minus square root of 22 close parentheses over denominator 4 end fraction equals fraction numerator 4 plus-or-minus square root of 22 over denominator 2 end fraction`
+    - $x = \frac{8 \pm 2 \sqrt{22} }{4} = \frac{2 ( 4 \pm \sqrt{22} )}{4} = \frac{4 \pm \sqrt{22} }{2}$
     - The solutions in **exact** (**surd**) form are $x=\frac{4+\sqrt{22}}{2}$ or $x=\frac{4-\sqrt{22}}{2}$
 - **Calculators** that can solve quadratics will give solutions in** exact** (**surd**) form
 
@@ -106,7 +106,7 @@ $x=\frac{-b\pm\sqrt{b^{2}-4ac}}{2a}$
 > > *Substitute these values into the quadratic formula, *$x=\frac{-b\pm\sqrt{b^{2}-4ac}}{2a}$
 > *Put brackets around any negative numbers*
 > 
-> `x equals fraction numerator negative open parentheses negative 2 close parentheses plus-or-minus square root of open parentheses negative 2 close parentheses squared minus 4 cross times 3 cross times open parentheses negative 4 close parentheses end root over denominator 2 cross times 3 end fraction`
+> $x = \frac{- ( - 2 ) \pm \sqrt{( - 2 )^{2} - 4 \times 3 \times ( - 4 )} }{2 \times 3}$
 > 
 > > *Simplify the expressions*
 > 

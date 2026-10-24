@@ -87,11 +87,11 @@ $\frac{4π^{2}}{T^{2}}=\frac{k}{m}$
 
 - Make *T*<sup>2</sup> the subject
 
-`T squared equals m open parentheses fraction numerator 4 pi squared over denominator k end fraction close parentheses`
+$T^{2} = m ( \frac{4 \pi ^{2}}{k} )$
 
 - Plot a graph of *T*<sup>*2*</sup> on the y-axis against *m* on the x-axis to get a straight line through the origin with;
 
-gradient = `open parentheses fraction numerator 4 pi squared over denominator k end fraction close parentheses`
+gradient = $( \frac{4 \pi ^{2}}{k} )$
 
 #### Safety Considerations
 

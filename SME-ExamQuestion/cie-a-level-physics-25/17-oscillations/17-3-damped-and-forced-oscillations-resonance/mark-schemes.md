@@ -21,7 +21,7 @@ Determine the percentage uncertainty in the data:
 
 - For a set of data, the uncertainty = ± half of the range
 - Uncertainty in data, Δ(40*T*) = $\frac{45.8-44.6}{2}$ = 0.6 s
-- Percentage uncertainty = `fraction numerator increment open parentheses 40 T close parentheses over denominator 40 T end fraction` × 100%
+- Percentage uncertainty = $\frac{\Delta ( 40 T )}{40 T}$ × 100%
 - Percentage uncertainty = $\frac{0.6}{45.4}$ × 100% = 1.3 % **[1 mark]**
 
 Calculate the uncertainty in natural frequency and quote the final answer to 3 s.f:
@@ -129,7 +129,7 @@ How forced oscillations occur:
 **[Total: 3 marks]**
 Define resonance:
 
-- Resonance occurs when the frequency of the alternating current approaches that of the natural frequency `open parentheses f subscript 0 close parentheses` of the system; **[1 mark]**
+- Resonance occurs when the frequency of the alternating current approaches that of the natural frequency $( f_{0} )$ of the system; **[1 mark]**
 
 Explain how it occurs:
 
@@ -276,14 +276,14 @@ Draw lines on the graph to obtain an expression for the maximum amplitude of osc
 
 Write an expression for the total energy in terms of *f* and *y*<sub>*0*</sub>:
 
-- `E space equals space 1 half m omega squared open parentheses x subscript 0 close parentheses squared`
+- $E = 1 \frac{1}{2} m \\omega ^{2} ( x_{0} )^{2}$
 - $ω=2πf$
-- `E space equals space 1 half m open parentheses 2 pi f close parentheses squared open parentheses y subscript 0 close parentheses squared` **[1 mark]**
+- $E = 1 \frac{1}{2} m ( 2 \pi f )^{2} ( y_{0} )^{2}$ **[1 mark]**
 
 Substitute the known quantities into the expression:
 
-- `E space equals space 1 half space cross times space open parentheses 250 space cross times space 10 to the power of negative 3 end exponent close parentheses space cross times space 4 pi squared space cross times space 0.42 squared space cross times space open parentheses 1.5 space cross times space 10 to the power of negative 2 end exponent close parentheses squared space` **[1 mark]**
-- `E space equals space 1.96 space cross times space 10 to the power of negative 4 end exponent space straight J space equals space 2.0 space cross times space 10 to the power of negative 4 end exponent space straight J space open parentheses 2 space straight s. straight f. close parentheses` **[1 mark]**
+- $E = 1 \frac{1}{2} \times ( 250 \times 10^{- 3} ) \times 4 \pi ^{2} \times 0.42^{2} \times ( 1.5 \times 10^{- 2} )^{2}$ **[1 mark]**
+- $E = 1.96 \times 10^{- 4} \mathrm{J} = 2.0 \times 10^{- 4} \mathrm{J} ( 2 \mathrm{s} . \mathrm{f} . )$ **[1 mark]**
 
 **[Total: 5 marks]**
 
@@ -305,7 +305,7 @@ Calculate the frequency, *f *of the oscillations:
 
 Compare the equation given to the equation for the displacement of a SHM oscillator:
 
-- `x space equals space A thin space sin open parentheses omega t close parentheses space equals space 0.5 space sin space open parentheses 2.5 pi space t close parentheses`
+- $x = A \sin ( \\omega t ) = 0.5 \sin ( 2.5 \pi t )$
 - Hence, angular velocity, $ω=2.5π$
 
 Use the time period equation:

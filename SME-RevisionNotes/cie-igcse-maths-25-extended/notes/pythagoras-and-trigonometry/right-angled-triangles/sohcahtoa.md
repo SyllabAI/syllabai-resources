@@ -70,14 +70,14 @@ guided_study: true
 
   - Remember to put brackets around the angle
   
-    - `sin open parentheses 50 close parentheses equals O over 7`  or  `cos open parentheses 40 close parentheses equals 3 over straight H`
+    - $\sin ( 50 ) = \frac{O}{7}$  or  `cos ( 40 ) = 3 / H`
 - **STEP 4**
 **Rearrange** and **solve** for the **unknown letter**
 
   - You will either need to **multiply** or **divide**
   
-    - `sin open parentheses 50 close parentheses equals O over 7` leads to `O equals 7 cross times sin open parentheses 50 close parentheses`
-    - `cos open parentheses 40 close parentheses equals 3 over straight H` leads to `straight H equals fraction numerator 3 over denominator cos open parentheses 40 close parentheses end fraction`
+    - $\sin ( 50 ) = \frac{O}{7}$ leads to $O = 7 \times \sin ( 50 )$
+    - `cos ( 40 ) = 3 / H` leads to $\mathrm{H} = \frac{3}{\cos ( 40 )}$
 - **STEP 5**
 **Type **the expression** into your calculator**
 
@@ -100,13 +100,13 @@ guided_study: true
 
   - The **angle** will be **unknown**
   
-    - `tan open parentheses theta close parentheses equals 3 over 4`
+    - $\tan ( \\theta ) = \frac{3}{4}$
 - **STEP 4**
 **Substitute** the fraction into the **inverse trigonometric function**
 
   - You normally need to press **SHIFT** on your calculator first
   
-    - `tan open parentheses theta close parentheses equals 3 over 4` leads to `theta equals tan to the power of negative 1 end exponent open parentheses 3 over 4 close parentheses`
+    - $\tan ( \\theta ) = \frac{3}{4}$ leads to $\\theta = \tan ^{- 1} ( \frac{3}{4} )$
 - **STEP 5**
 **Type **the expression** into your calculator**
 
@@ -141,11 +141,11 @@ guided_study: true
 > 
 > > *We know A and we want to know O - that's TOA or *$\mathrm{tan}θ=\frac{\mathrm{opposite}}{\mathrm{adjacent}}$
 > 
-> `tan open parentheses 43 close parentheses equals x over 9`
+> $\tan ( 43 ) = \frac{x}{9}$
 > 
 > > *Multiply both sides by 9*
 > 
-> `9 cross times tan open parentheses 43 close parentheses space equals space x`
+> $9 \times \tan ( 43 ) = x$
 > 
 > > *Enter on your calculator*
 > 
@@ -170,11 +170,11 @@ guided_study: true
 > 
 > > *We know A and H - that's CAH or *$\mathrm{cos}θ=\frac{\mathrm{adjacent}}{\mathrm{hypotenuse}}$
 > 
-> `cos open parentheses y close parentheses equals 8 over 23`
+> $\cos ( y ) = \frac{8}{23}$
 > 
 > > *Use inverse cos to find *$y$
 > 
-> `y equals cos to the power of negative 1 end exponent open parentheses 8 over 23 close parentheses`
+> $y = \cos ^{- 1} ( \frac{8}{23} )$
 > 
 > > *Enter on your calculator*
 > 

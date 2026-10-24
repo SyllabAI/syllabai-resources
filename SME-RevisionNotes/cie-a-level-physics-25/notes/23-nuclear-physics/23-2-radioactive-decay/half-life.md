@@ -73,7 +73,7 @@ $\frac{1}{2}=e^{-λt_{1/2}}$
 
 - Then, take the natural log of both sides:
 
-`ln open parentheses 1 half close parentheses space equals space minus lambda t subscript 1 divided by 2 end subscript`
+$\ln ( 1 \frac{1}{2} ) = - \\lambda t_{1 \div 2}$
 
 - Finally, apply the properties of logarithms:
 
@@ -81,7 +81,7 @@ $λt_{1/2}=\mathrm{ln}2$
 
 - Therefore, half-life t<sub>½</sub> can be calculated using the equation:
 
-`t subscript 1 divided by 2 end subscript space equals space fraction numerator ln space 2 over denominator lambda end fraction space asymptotically equal to space fraction numerator 0.693 over denominator lambda end fraction`
+$t_{1 \div 2} = \frac{\ln 2}{\\lambda } \text{asymptotically} \text{equal} \text{to} \frac{0.693}{\\lambda }$
 
 > **Worked Example**
 > Strontium-90 is a radioactive isotope with a half-life of 28.0 years. A sample of strontium-90 has an activity of 6.4 × 10<sup>9</sup> Bq.

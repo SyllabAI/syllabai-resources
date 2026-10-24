@@ -140,9 +140,9 @@ Determine the constant of proportionality:
 
 Determine the temperature of the third water bath:
 
-- Change in temperature:  `increment T space equals fraction numerator increment R over denominator k end fraction space equals space fraction numerator open parentheses 10 space minus space 2.5 close parentheses over denominator 0.12 end fraction space equals space 62.5`°C
+- Change in temperature:  $\Delta T = \frac{\Delta R}{k} = \frac{( 10 - 2.5 )}{0.12} = 62.5$°C
 - The change in temperature here is relative to the known temperature, 25°C
-- Hence, the temperature at 2.5 kΩ is `T space equals space open parentheses 62.5 space plus space 25 close parentheses space equals space 87.5`°C **[1 mark]**
+- Hence, the temperature at 2.5 kΩ is $T = ( 62.5 + 25 ) = 87.5$°C **[1 mark]**
 
 **[Total: 2 marks]**
 (i) The thermistor does not provide a direct measurement of thermodynamic temperature because:

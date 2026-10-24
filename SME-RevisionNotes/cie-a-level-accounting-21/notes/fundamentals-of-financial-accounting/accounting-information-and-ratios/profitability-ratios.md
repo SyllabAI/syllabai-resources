@@ -200,7 +200,7 @@ guided_study: false
 
 ### What is the profit margin?
 
-| What is the formula? | $\frac{\mathrm{Profit} \mathrm{for} \mathrm{the} \mathrm{year}}{\mathrm{Revenue}}\times100$<br><br>or<br><br>`fraction numerator Profit space for space the space year space open parentheses after space interest close parentheses over denominator Revenue end fraction cross times 100` |
+| What is the formula? | $\frac{\mathrm{Profit} \mathrm{for} \mathrm{the} \mathrm{year}}{\mathrm{Revenue}}\times100$<br><br>or<br><br>`(Profit for the year ( after interest ))/(Revenue) x 100` |
 |---|---|
 | How should the value be written? | Write as a percentage (X%) |
 | How should the value be rounded? | Round to two decimal places |

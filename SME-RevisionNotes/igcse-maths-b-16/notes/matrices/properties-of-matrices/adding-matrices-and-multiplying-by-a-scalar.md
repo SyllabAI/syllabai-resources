@@ -24,22 +24,22 @@ guided_study: false
 
   - to **add** two matrices, just add the corresponding elements
   
-    - `open parentheses table row 2 cell negative 3 end cell row 5 1 end table close parentheses plus open parentheses table row cell negative 1 end cell 7 row cell negative 4 end cell 6 end table close parentheses equals open parentheses table row cell 2 plus open parentheses negative 1 close parentheses end cell cell negative 3 plus 7 end cell row cell 5 plus open parentheses negative 4 close parentheses end cell cell 1 plus 6 end cell end table close parentheses equals open parentheses table row 1 4 row 1 7 end table close parentheses`
+    - $( \begin{gathered} 2 - 3 \\ 5 1 \end{gathered} ) + ( \begin{gathered} - 1 & 7 \\ - 4 & 6 \end{gathered} ) = ( \begin{gathered} 2 + ( - 1 ) & - 3 + 7 \\ 5 + ( - 4 ) & 1 + 6 \end{gathered} ) = ( \begin{gathered} 1 4 \\ 1 7 \end{gathered} )$
   - to **subtract** two matrices just subtract the corresponding elements
   
-    - `open parentheses table row 2 cell negative 3 end cell row 5 1 end table close parentheses minus open parentheses table row cell negative 1 end cell 7 row cell negative 4 end cell 6 end table close parentheses equals open parentheses table row cell 2 minus open parentheses negative 1 close parentheses end cell cell negative 3 minus 7 end cell row cell 5 minus open parentheses negative 4 close parentheses end cell cell 1 minus 6 end cell end table close parentheses equals open parentheses table row 3 cell negative 10 end cell row 9 cell negative 5 end cell end table close parentheses`
+    - $( \begin{gathered} 2 - 3 \\ 5 1 \end{gathered} ) - ( \begin{gathered} - 1 & 7 \\ - 4 & 6 \end{gathered} ) = ( \begin{gathered} 2 - ( - 1 ) & - 3 - 7 \\ 5 - ( - 4 ) & 1 - 6 \end{gathered} ) = ( \begin{gathered} 3 - 10 \\ 9 - 5 \end{gathered} )$
 
 ### How do I multiply a matrix by a scalar?
 
 - To multiply any matrix by a **scalar** (a number), **multiply each element **by that scalar
 
-  - If `bold A equals open parentheses table row 5 2 row 0 4 end table close parentheses` then `2 bold A equals 2 open parentheses table row 5 2 row 0 4 end table close parentheses equals open parentheses table row cell 2 cross times 5 end cell cell 2 cross times 2 end cell row cell 2 cross times 0 end cell cell 2 cross times 4 end cell end table close parentheses equals open parentheses table row 10 4 row 0 8 end table close parentheses`
+  - If $A = ( \begin{gathered} 5 2 \\ 0 4 \end{gathered} )$ then $2 A = 2 ( \begin{gathered} 5 2 \\ 0 4 \end{gathered} ) = ( \begin{gathered} 2 \times 5 & 2 \times 2 \\ 2 \times 0 & 2 \times 4 \end{gathered} ) = ( \begin{gathered} 10 4 \\ 0 8 \end{gathered} )$
 - **Lower case letters **often refer to scalar multiples
 
   - $kA$ is the matrix $A$multiplied by the scalar $k$
 
 > **Worked Example**
-> `bold A equals open parentheses table row cell negative 2 end cell 2 row cell negative 2 end cell cell negative 5 end cell end table close parentheses space space space space space space space space space space space space space bold B equals open parentheses table row cell negative 4 end cell 1 row 3 cell negative 4 end cell end table close parentheses`
+> $A = ( \begin{gathered} - 2 & 2 \\ - 2 & - 5 \end{gathered} ) B = ( \begin{gathered} - 4 & 1 \\ 3 - 4 \end{gathered} )$
 > 
 > (a) Calculate $A+B$
 > 
@@ -47,12 +47,12 @@ guided_study: false
 > 
 > > *Add the corresponding elements of the two matrices*
 > 
-> `table row cell bold A plus bold B end cell equals cell open parentheses table row cell negative 2 end cell 2 row cell negative 2 end cell cell negative 5 end cell end table close parentheses plus open parentheses table row cell negative 4 end cell 1 row 3 cell negative 4 end cell end table close parentheses end cell row blank equals cell open parentheses table row cell negative 2 plus open parentheses negative 4 close parentheses end cell cell 2 plus 1 end cell row cell negative 2 plus 3 end cell cell negative 5 plus open parentheses negative 4 close parentheses end cell end table close parentheses end cell row blank equals cell open parentheses table row cell negative 6 end cell 3 row 1 cell negative 9 end cell end table close parentheses end cell end table`
+> $\begin{gathered} A + B & = ( \begin{gathered} - 2 & 2 \\ - 2 & - 5 \end{gathered} ) + ( \begin{gathered} - 4 & 1 \\ 3 - 4 \end{gathered} ) \\ = ( \begin{gathered} - 2 + ( - 4 ) & 2 + 1 \\ - 2 + 3 & - 5 + ( - 4 ) \end{gathered} ) \\ = ( \begin{gathered} - 6 & 3 \\ 1 - 9 \end{gathered} ) \end{gathered}$
 > 
-> **Final answer:** `table row cell bold A plus bold B end cell equals cell open parentheses table row cell negative 6 end cell 3 row 1 cell negative 9 end cell end table close parentheses end cell end table`
+> **Final answer:** $\begin{gathered} A + B & = ( \begin{gathered} - 6 & 3 \\ 1 - 9 \end{gathered} ) \end{gathered}$
 > ** **
 > 
-> Given that `2 bold A minus n bold B equals open parentheses table row 8 1 row cell negative 13 end cell 2 end table close parentheses`
+> Given that $2 A - n B = ( \begin{gathered} 8 1 \\ - 13 & 2 \end{gathered} )$
 > 
 > (b) find the value of $n$
 > 
@@ -60,30 +60,30 @@ guided_study: false
 > 
 > > *Multiply all elements of *$A$* by 2 to find *$2A$
 > 
-> `table row cell 2 bold A end cell equals cell 2 open parentheses table row cell negative 2 end cell 2 row cell negative 2 end cell cell negative 5 end cell end table close parentheses end cell row blank equals cell open parentheses table row cell 2 cross times open parentheses negative 2 close parentheses end cell cell 2 cross times 2 end cell row cell 2 cross times open parentheses negative 2 close parentheses end cell cell 2 cross times open parentheses negative 5 close parentheses end cell end table close parentheses end cell row blank equals cell open parentheses table row cell negative 4 end cell 4 row cell negative 4 end cell cell negative 10 end cell end table close parentheses end cell end table`
+> $\begin{gathered} 2 A & = 2 ( \begin{gathered} - 2 & 2 \\ - 2 & - 5 \end{gathered} ) \\ = ( \begin{gathered} 2 \times ( - 2 ) & 2 \times 2 \\ 2 \times ( - 2 ) & 2 \times ( - 5 ) \end{gathered} ) \\ = ( \begin{gathered} - 4 & 4 \\ - 4 & - 10 \end{gathered} ) \end{gathered}$
 > 
 > > *Multiply all elements of *$B$* by *$n$* to find *$nB$
 > 
-> `table row cell n bold B end cell equals cell n open parentheses table row cell negative 4 end cell 1 row 3 cell negative 4 end cell end table close parentheses end cell row blank equals cell open parentheses table row cell negative 4 n end cell n row cell 3 n end cell cell negative 4 n end cell end table close parentheses end cell end table`
+> $\begin{gathered} n B & = n ( \begin{gathered} - 4 & 1 \\ 3 - 4 \end{gathered} ) \\ = ( \begin{gathered} - 4 n & n \\ 3 n & - 4 n \end{gathered} ) \end{gathered}$
 > 
 > > *Subtract the corresponding elements to find *$2A-nB$
 > 
-> `table row cell 2 A minus n B end cell equals cell open parentheses table row cell negative 4 end cell 4 row cell negative 4 end cell cell negative 10 end cell end table close parentheses minus open parentheses table row cell negative 4 n end cell n row cell 3 n end cell cell negative 4 n end cell end table close parentheses end cell row blank equals cell open parentheses table row cell negative 4 minus open parentheses negative 4 n close parentheses end cell cell 4 minus n end cell row cell negative 4 minus 3 n end cell cell negative 10 minus open parentheses negative 4 n close parentheses end cell end table close parentheses end cell row blank equals cell open parentheses table row cell 4 n minus 4 end cell cell 4 minus n end cell row cell negative 3 n minus 4 end cell cell 4 n minus 10 end cell end table close parentheses end cell end table`
+> $\begin{gathered} 2 A - n B & = ( \begin{gathered} - 4 & 4 \\ - 4 & - 10 \end{gathered} ) - ( \begin{gathered} - 4 n & n \\ 3 n & - 4 n \end{gathered} ) \\ = ( \begin{gathered} - 4 - ( - 4 n ) & 4 - n \\ - 4 - 3 n & - 10 - ( - 4 n ) \end{gathered} ) \\ = ( \begin{gathered} 4 n - 4 & 4 - n \\ - 3 n - 4 & 4 n - 10 \end{gathered} ) \end{gathered}$
 > 
 > > *Substitute that into the equation from the question*
 > 
-> `table row cell open parentheses table row cell 4 n minus 4 end cell cell 4 minus n end cell row cell negative 3 n minus 4 end cell cell 4 n minus 10 end cell end table close parentheses end cell equals cell open parentheses table row 8 1 row cell negative 13 end cell 2 end table close parentheses end cell end table`
+> $\begin{gathered} ( \begin{gathered} 4 n - 4 & 4 - n \\ - 3 n - 4 & 4 n - 10 \end{gathered} ) & = ( \begin{gathered} 8 1 \\ - 13 & 2 \end{gathered} ) \end{gathered}$
 > 
 > > *For those two matrices to be equal, the correct value of *$n$* must make ALL the corresponding elements equal in the two matrices*
 > 
 > - *So you can choose any one pair to solve to find *$n$
 > 
-> `table row cell 4 n minus 4 end cell equals 8 row cell 4 n end cell equals 12 row n equals 3 end table`
+> $\begin{gathered} 4 n - 4 & = 8 \\ 4 n & = 12 \\ n = 3 \end{gathered}$
 > 
 > > *It is worth checking the other three pairs of elements with that value of *$n$*, to make sure you haven't made a mistake*
 > 
-> `4 minus 3 equals 1 space space ✔
-> minus 3 open parentheses 3 close parentheses minus 4 equals negative 13 space space ✔
-> 4 open parentheses 3 close parentheses minus 10 equals 2 space space ✔`
+> $4 - 3 = 1 ✔
+> - 3 ( 3 ) - 4 = - 13 ✔
+> 4 ( 3 ) - 10 = 2 ✔$
 > 
 > $n=3$

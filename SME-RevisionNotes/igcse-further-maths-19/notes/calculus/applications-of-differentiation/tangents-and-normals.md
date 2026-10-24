@@ -30,12 +30,12 @@ guided_study: false
 
 - You need a **point** and the **gradient** to find the **equation of a straight line**
 
-  - The **gradient** of the **tangent** to the function `y equals straight f open parentheses x close parentheses` at the point $(x_{1},y_{1})$ is $f^{'}(x_{1})$
+  - The **gradient** of the **tangent** to the function $y = \mathrm{f} ( x )$ at the point $(x_{1},y_{1})$ is $f^{'}(x_{1})$
 - Therefore to find the **equation** of the **tangent** to the function $y=f(x)$ at the point $(x_{1},y_{1})$
 
-  - Find  `straight f to the power of apostrophe open parentheses x close parentheses`
-  - Substitute $x_{1}$ into `straight f apostrophe open parentheses x close parentheses` to find the gradient `straight f to the power of apostrophe open parentheses x subscript 1 close parentheses`,
-  - Use the  `y minus y subscript 1 equals m open parentheses x minus x subscript 1 close parentheses` form of the line equation
+  - Find  $\mathrm{f}^{'} ( x )$
+  - Substitute $x_{1}$ into $\mathrm{f} ' ( x )$ to find the gradient $\mathrm{f}^{'} ( x_{1} )$,
+  - Use the  $y - y_{1} = m ( x - x_{1} )$ form of the line equation
   
     - $y-y_{1}=f^{'}(x_{1})(x-x_{1})$
   - Rearrange the equation into whatever form the question requires
@@ -54,13 +54,13 @@ guided_study: false
 - You need a **point** and the **gradient** to find the **equation of a straight line**
 
   - The **tangent **and the **normal** are **perpendicular**
-  - Therefore the **gradient** of the **normal** to the function `y equals straight f open parentheses x close parentheses` at the point $(x_{1},y_{1})$ is $-\frac{1}{f^{'}(x_{1})}$
+  - Therefore the **gradient** of the **normal** to the function $y = \mathrm{f} ( x )$ at the point $(x_{1},y_{1})$ is $-\frac{1}{f^{'}(x_{1})}$
 - To find the **equation** of the **normal** to the function $y=f(x)$ at the point $(x_{1},y_{1})$
 
-  - Find  `straight f to the power of apostrophe open parentheses x close parentheses`
-  - Substitute $x_{1}$ into `straight f apostrophe open parentheses x close parentheses` to find the gradient of the tangent `straight f to the power of apostrophe open parentheses x subscript 1 close parentheses`
-  - Use that to find the gradient of the normal `negative fraction numerator 1 over denominator straight f to the power of apostrophe open parentheses x subscript 1 close parentheses end fraction`
-  - Use the  `y minus y subscript 1 equals m open parentheses x minus x subscript 1 close parentheses` form of the line equation
+  - Find  $\mathrm{f}^{'} ( x )$
+  - Substitute $x_{1}$ into $\mathrm{f} ' ( x )$ to find the gradient of the tangent $\mathrm{f}^{'} ( x_{1} )$
+  - Use that to find the gradient of the normal $- \frac{1}{ \mathrm{f}^{'} ( x_{1} )}$
+  - Use the  $y - y_{1} = m ( x - x_{1} )$ form of the line equation
   
     - $y-y_{1}=-\frac{1}{f^{'}(x_{1})}(x-x_{1})$
   - Rearrange the equation into whatever form the question requires
@@ -78,49 +78,49 @@ guided_study: false
 > 
 > a) Find an equation for the tangent to the curve $y=f(x)$ at the point where $x=1$, giving your answer in the form $y=mx+c$.
 > 
-> > *Substitute *$x=1$* into *`straight f open parentheses x close parentheses`* to find the *$y$*-coordinate of the point *
+> > *Substitute *$x=1$* into *$\mathrm{f} ( x )$* to find the *$y$*-coordinate of the point *
 > 
-> `straight f open parentheses 1 close parentheses equals 2 open parentheses 1 close parentheses to the power of 4 plus 3 over open parentheses 1 close parentheses squared equals 2 plus 3 equals 5`
+> $\mathrm{f} ( 1 ) = 2 ( 1 )^{4} + \frac{3}{( 1 )^{2}} = 2 + 3 = 5$
 > 
-> > *So the point in question is *`open parentheses 1 comma space 5 close parentheses`
+> > *So the point in question is *$( 1 , 5 )$
 > 
-> > *Now differentiate to find *`straight f to the power of apostrophe open parentheses x close parentheses`*, first using laws of indices to rewrite *$\frac{3}{x^{2}}$* as *$3x^{-2}$
+> > *Now differentiate to find *$\mathrm{f}^{'} ( x )$*, first using laws of indices to rewrite *$\frac{3}{x^{2}}$* as *$3x^{-2}$
 > 
-> `straight f open parentheses x close parentheses equals 2 x to the power of 4 plus 3 x to the power of negative 2 end exponent`
+> $\mathrm{f} ( x ) = 2 x^{4 + 3 x^{-2} }$
 > 
-> `table row cell straight f to the power of apostrophe open parentheses x close parentheses end cell equals cell 2 open parentheses 4 x to the power of 4 minus 3 end exponent close parentheses plus 3 open parentheses negative 2 x to the power of negative 2 minus 1 end exponent close parentheses end cell row blank equals cell 8 x cubed minus 6 x to the power of negative 3 end exponent end cell row blank equals cell 8 x cubed minus 6 over x cubed end cell end table`
+> $\begin{gathered} \mathrm{f}^{'} ( x ) & = 2 ( 4 x^{4 - 3} ) + 3 ( - 2 x^{- 2 - 1} ) \\ = 8 x^{3} - 6 x^{- 3} \\ = 8 x^{3} - \frac{6}{x^{3}} \end{gathered}$
 > 
-> > *Substitute *$x=1$* into *`straight f to the power of apostrophe open parentheses x close parentheses`* to find the gradient of the tangent at the point*
+> > *Substitute *$x=1$* into *$\mathrm{f}^{'} ( x )$* to find the gradient of the tangent at the point*
 > 
-> `straight f to the power of apostrophe open parentheses 1 close parentheses equals 8 open parentheses 1 close parentheses cubed minus 6 over open parentheses 1 close parentheses cubed equals 8 minus 6 equals 2`
+> $\mathrm{f}^{'} ( 1 ) = 8 ( 1 )^{3} - \frac{6}{( 1 )^{3}} = 8 - 6 = 2$
 > 
-> > *Now use  *`y minus y subscript 1 equals m open parentheses x minus x subscript 1 close parentheses`*  to find the equation of the line*
+> > *Now use  *$y - y_{1} = m ( x - x_{1} )$*  to find the equation of the line*
 > 
-> > *Here *$m=2$* and *`open parentheses x subscript 1 comma space y subscript 1 close parentheses equals open parentheses 1 comma space 5 close parentheses`
+> > *Here *$m=2$* and *$( x_{1} , y_{1} ) = ( 1 , 5 )$
 > 
-> `table attributes columnalign right center left columnspacing 0px end attributes row cell y minus 5 end cell equals cell 2 open parentheses x minus 1 close parentheses end cell row cell y minus 5 end cell equals cell 2 x minus 2 end cell row y equals cell 2 x plus 3 end cell end table`
+> $\begin{array}{rcl} y - 5 & = 2 ( x - 1 ) \\ y - 5 & = 2 x - 2 \\ y = 2 x + 3 \end{array}$
 > 
 > $y=2x+3$
 > 
-> b) Find an equation for the normal to the curve `y equals straight f open parentheses x close parentheses` at the point where $x=1$, giving your answer in the form $ax+by=c$, where $a$, $b$ and $c$ are integers.
+> b) Find an equation for the normal to the curve $y = \mathrm{f} ( x )$ at the point where $x=1$, giving your answer in the form $ax+by=c$, where $a$, $b$ and $c$ are integers.
 > 
 > > *The normal and tangent are perpendicular*
 > 
-> > *So the gradient of the normal will be  *`negative fraction numerator 1 over denominator straight f to the power of apostrophe open parentheses 1 close parentheses end fraction`
+> > *So the gradient of the normal will be  *$- \frac{1}{ \mathrm{f}^{'} ( 1 )}$
 > 
-> `negative fraction numerator 1 over denominator straight f to the power of apostrophe open parentheses 1 close parentheses end fraction equals negative 1 half`
+> $- \frac{1}{ \mathrm{f}^{'} ( 1 )} = - 1 \frac{1}{2}$
 > 
-> > *Now use  *`y minus y subscript 1 equals m open parentheses x minus x subscript 1 close parentheses`*  to find the equation of the line*
+> > *Now use  *$y - y_{1} = m ( x - x_{1} )$*  to find the equation of the line*
 > 
-> > *Here *$m=-\frac{1}{2}$* and *`open parentheses x subscript 1 comma space y subscript 1 close parentheses equals open parentheses 1 comma space 5 close parentheses`
+> > *Here *$m=-\frac{1}{2}$* and *$( x_{1} , y_{1} ) = ( 1 , 5 )$
 > 
-> `y minus 5 equals negative 1 half open parentheses x minus 1 close parentheses
-> y minus 5 equals negative 1 half x plus 1 half`
+> $y - 5 = - 1 \frac{1}{2} ( x - 1 )
+> y - 5 = - 1 \frac{1}{2} x + 1 \frac{1}{2}$
 > 
 > > *Multiply both sides by 2 to get rid of the fractions*
 > 
 > > *Then rearrange into the required form *
 > 
-> `table attributes columnalign right center left columnspacing 0px end attributes row cell 2 y minus 10 end cell equals cell negative x plus 1 end cell row cell x plus 2 y end cell equals 11 end table`
+> $\begin{array}{rcl} 2 y - 10 & = - x + 1 \\ x + 2 y & = 11 \end{array}$
 > 
 > $x+2y=11$

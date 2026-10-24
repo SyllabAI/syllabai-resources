@@ -138,6 +138,6 @@ $\mathrm{Market} \mathrm{share}=\frac{\mathrm{Sales} \mathrm{of}a\mathrm{busines
 > 
 > **Step 3: Substitute figures into the formula**
 > 
-> **           **`equals space fraction numerator £ 526 straight m over denominator £ 4.8 bn end fraction space cross times space 100
+> **           **$= \frac{\pounds 526 \mathrm{m} }{\pounds 4.8 bn} \times 100
 > 
-> equals space 10.96 percent sign`**            ** **[3]**
+> = 10.96 \%$**            ** **[3]**

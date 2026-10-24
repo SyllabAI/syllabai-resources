@@ -282,7 +282,7 @@
       "spcpt_Gt3d7rKV2X8h4pwd"
      ],
      "part_tier": null,
-     "problem_md": "A tin of biscuits contains three ginger biscuits and six plain biscuits.  Bonita takes one biscuit, eats it and then takes another from the tin.  Let the event A be ‘the first biscuit taken is a ginger biscuit’ and the event B be ‘the second biscuit taken is a ginger biscuit’.\n\nWrite the following probabilities in context:\n\n(i) $P(A\\cupB)$\n\n(ii) `P left parenthesis B vertical line A right parenthesis`\n\n(iii) $P(A')$\n\n(iv) $P((A\\capB)^{'}).$",
+     "problem_md": "A tin of biscuits contains three ginger biscuits and six plain biscuits.  Bonita takes one biscuit, eats it and then takes another from the tin.  Let the event A be ‘the first biscuit taken is a ginger biscuit’ and the event B be ‘the second biscuit taken is a ginger biscuit’.\n\nWrite the following probabilities in context:\n\n(i) $P(A\\cupB)$\n\n(ii) $P ( B \\vert A )$\n\n(iii) $P(A')$\n\n(iv) $P((A\\capB)^{'}).$",
      "solution_md": "![](assets/010-img.png)",
      "equations": [
       {
@@ -322,7 +322,7 @@
       "spcpt_Gt3d7rKV2X8h4pwd"
      ],
      "part_tier": null,
-     "problem_md": "Find the value of `P left parenthesis B vertical line A right parenthesis.`",
+     "problem_md": "Find the value of $P ( B \\vert A ).$",
      "solution_md": "![](assets/011-img.png)",
      "spec_point_codes": [
       "3.2"
@@ -435,7 +435,7 @@
       "spcpt_mpb85fVZSQGr3tkK"
      ],
      "part_tier": null,
-     "problem_md": "$A$ and $B$ are two independent events such that `P open parentheses A close parentheses equals 0.3` and $P(B)=0.8$\n\n(i) Complete this formula for independent events: $P(A\\capB)=____\\timesP(B)$\n\n(ii) Use the formula to find  $P(A\\capB)$.",
+     "problem_md": "$A$ and $B$ are two independent events such that $P ( A ) = 0.3$ and $P(B)=0.8$\n\n(i) Complete this formula for independent events: $P(A\\capB)=____\\timesP(B)$\n\n(ii) Use the formula to find  $P(A\\capB)$.",
      "solution_md": "![](assets/012-img.png)",
      "equations": [
       {
@@ -485,7 +485,7 @@
       "spcpt_mpb85fVZSQGr3tkK"
      ],
      "part_tier": null,
-     "problem_md": "Another formula for independent events is `P left parenthesis A intersection B right parenthesis equals P left parenthesis A right parenthesis cross times P left parenthesis B vertical line A right parenthesis` where `P left parenthesis B vertical line A right parenthesis`   means the probability of $B$ happening given that $A$ has already happened.\n\n(i) Use the formula to find `P left parenthesis B vertical line A right parenthesis`\n\n(ii) Deduce a similar formula involving `P left parenthesis A vertical line B right parenthesis` and use it to find `P left parenthesis A vertical line B right parenthesis`.",
+     "problem_md": "Another formula for independent events is $P ( A \\cap B ) = P ( A ) \\times P ( B \\vert A )$ where $P ( B \\vert A )$   means the probability of $B$ happening given that $A$ has already happened.\n\n(i) Use the formula to find $P ( B \\vert A )$\n\n(ii) Deduce a similar formula involving $P ( A \\vert B )$ and use it to find $P ( A \\vert B )$.",
      "solution_md": "![](assets/013-img.png)",
      "equations": [
       {
@@ -520,7 +520,7 @@
       "spcpt_mpb85fVZSQGr3tkK"
      ],
      "part_tier": null,
-     "problem_md": "Briefly explain why, for independent events A and B, `P left parenthesis A vertical line B right parenthesis equals P left parenthesis A right parenthesis`.",
+     "problem_md": "Briefly explain why, for independent events A and B, $P ( A \\vert B ) = P ( A )$.",
      "solution_md": "![](assets/014-img.png)",
      "spec_point_codes": [
       "3.2"
@@ -671,7 +671,7 @@
       "spcpt_Q9VkVVBtSYX8n8rN"
      ],
      "part_tier": null,
-     "problem_md": "Two events, $D$ and $E$ are such that `P left parenthesis D right parenthesis equals 0.2 comma space space P left parenthesis E right parenthesis equals 0.4 space space and space space P left parenthesis E vertical line D right parenthesis equals 0.7`.\n\n(i) Use the formula `P left parenthesis D intersection E right parenthesis equals space P left parenthesis D right parenthesis space space cross times space P left parenthesis E vertical line D right parenthesis` to find $P(D\\capE)$.\n\n(ii) Use the formula $P(D\\capE)=P(D)+P(E)-P(D\\cupE)$ to find  $P(D\\cupE)$.\n\n(iii) Use the formula $P(D\\capE)=P(D)\\timesP(E)$ to deduce whether the events $D$ and $E$ are independent or not.",
+     "problem_md": "Two events, $D$ and $E$ are such that `P ( D ) = 0.2 , P ( E ) = 0.4 and P ( E | D ) = 0.7`.\n\n(i) Use the formula $P ( D \\cap E ) = P ( D ) \\times P ( E \\vert D )$ to find $P(D\\capE)$.\n\n(ii) Use the formula $P(D\\capE)=P(D)+P(E)-P(D\\cupE)$ to find  $P(D\\cupE)$.\n\n(iii) Use the formula $P(D\\capE)=P(D)\\timesP(E)$ to deduce whether the events $D$ and $E$ are independent or not.",
      "solution_md": "![](assets/021-img.png)",
      "equations": [
       {
@@ -1074,7 +1074,7 @@
       "spcpt_Q9VkVVBtSYX8n8rN"
      ],
      "part_tier": null,
-     "problem_md": "The probability that it rains, $R$, on any given day in a certain month is given as 0.4. If it rains, Suresh takes the bus to work and arrives on time, T, with a probability of 0.6.  If it doesn’t rain, Suresh cycles to work and arrives on time with a probability of 0.9.\n\n![q2a-2-2-medium-ial-s1-maths-statistics](assets/083-q2a-2-2-medium-ial-s1-maths-statistics.png)\n\nWrite down the values of:\n\n(i) $P(R')$\n\n(ii) `P left parenthesis T apostrophe vertical line R right parenthesis`\n\n(iii) `P left parenthesis T apostrophe vertical line R apostrophe right parenthesis`",
+     "problem_md": "The probability that it rains, $R$, on any given day in a certain month is given as 0.4. If it rains, Suresh takes the bus to work and arrives on time, T, with a probability of 0.6.  If it doesn’t rain, Suresh cycles to work and arrives on time with a probability of 0.9.\n\n![q2a-2-2-medium-ial-s1-maths-statistics](assets/083-q2a-2-2-medium-ial-s1-maths-statistics.png)\n\nWrite down the values of:\n\n(i) $P(R')$\n\n(ii) $P ( T ' \\vert R )$\n\n(iii) $P ( T ' \\vert R ' )$",
      "solution_md": "![](assets/084-img.png)",
      "equations": [
       {
@@ -1268,7 +1268,7 @@
       "spcpt_Gt3d7rKV2X8h4pwd"
      ],
      "part_tier": null,
-     "problem_md": "S is the event ‘the sum of the two numbers is a square number’ and E is the event ‘the sum of the two numbers is a positive even number’. Use your sample space to find:\n\n(i) $P(S)$\n\n(ii) $P(E)$\n\n(iii) $P(S\\capE)$\n\n(iv) `P left parenthesis S vertical line E right parenthesis`",
+     "problem_md": "S is the event ‘the sum of the two numbers is a square number’ and E is the event ‘the sum of the two numbers is a positive even number’. Use your sample space to find:\n\n(i) $P(S)$\n\n(ii) $P(E)$\n\n(iii) $P(S\\capE)$\n\n(iv) $P ( S \\vert E )$",
      "solution_md": "![](assets/066-img.png)",
      "equations": [
       {
@@ -1308,7 +1308,7 @@
       "spcpt_jgKvwpptbcVFZqgq"
      ],
      "part_tier": null,
-     "problem_md": "Use your answers to part (b) to show that\n\n`P left parenthesis S vertical line E right parenthesis equals fraction numerator P left parenthesis S intersection E right parenthesis over denominator P left parenthesis E right parenthesis end fraction`",
+     "problem_md": "Use your answers to part (b) to show that\n\n$P ( S \\vert E ) = \\frac{P ( S \\cap E )}{P ( E )}$",
      "solution_md": "![](assets/067-img.png)",
      "spec_point_codes": [
       "3.2",
@@ -1423,7 +1423,7 @@
       "spcpt_JfGQz47zpqCG2C9v"
      ],
      "part_tier": null,
-     "problem_md": "Find:\n\n(i) `P left parenthesis B vertical line A right parenthesis`\n\n(ii) `P left parenthesis A vertical line B to the power of apostrophe right parenthesis`\n\n(iii) `P left parenthesis A vertical line left parenthesis B union C right parenthesis right parenthesis`",
+     "problem_md": "Find:\n\n(i) $P ( B \\vert A )$\n\n(ii) $P ( A \\vert B^{'} )$\n\n(iii) $P ( A \\vert ( B \\cup C ) )$",
      "solution_md": "![](assets/063-img.png)",
      "spec_point_codes": [
       "3.2",
@@ -1457,7 +1457,7 @@
       "spcpt_Gt3d7rKV2X8h4pwd"
      ],
      "part_tier": null,
-     "problem_md": "A standard pack of 52 playing cards is comprised of thirteen different cards for each of the four suits: hearts, diamonds, spades and clubs.  Each suit is made up of nine different number cards (two to ten) and four court cards (jack, queen, king and ace).  A full pack of cards is shuffled and one card is selected at random.  Let $H$ be the event ‘the card chosen is a heart’.  Let $C$ be the event ‘the card chosen is a court card (jack, queen, king or ace)’.\n\nFind\n\n(i) $P(C)$\n\n(ii) $P(H)$\n\n(iii) $P(H\\capC)$\n\n(iv) `P left parenthesis H vertical line C right parenthesis`",
+     "problem_md": "A standard pack of 52 playing cards is comprised of thirteen different cards for each of the four suits: hearts, diamonds, spades and clubs.  Each suit is made up of nine different number cards (two to ten) and four court cards (jack, queen, king and ace).  A full pack of cards is shuffled and one card is selected at random.  Let $H$ be the event ‘the card chosen is a heart’.  Let $C$ be the event ‘the card chosen is a court card (jack, queen, king or ace)’.\n\nFind\n\n(i) $P(C)$\n\n(ii) $P(H)$\n\n(iii) $P(H\\capC)$\n\n(iv) $P ( H \\vert C )$",
      "solution_md": "![](assets/068-img.png)",
      "equations": [
       {
@@ -1538,7 +1538,7 @@
       "spcpt_jgKvwpptbcVFZqgq"
      ],
      "part_tier": null,
-     "problem_md": "Given that $P(A)=0.27,P(B)=0.39$ and $P(A\\capB)=0.21$, find:\n\n(i) $P(A\\cupB)$\n\n(ii) `P left parenthesis B vertical line A right parenthesis`",
+     "problem_md": "Given that $P(A)=0.27,P(B)=0.39$ and $P(A\\capB)=0.21$, find:\n\n(i) $P(A\\cupB)$\n\n(ii) $P ( B \\vert A )$",
      "solution_md": "![](assets/074-img.png)",
      "equations": [
       {
@@ -1778,7 +1778,7 @@
       "spcpt_xPq8dPj856nqvFQ3"
      ],
      "part_tier": null,
-     "problem_md": "*A,B*  and *C *are three events with  `straight P open parentheses B close parentheses equals 0.3`, `straight P open parentheses A intersection B close parentheses equals 0.01`, `P open parentheses B intersection C close parentheses equals 0.12` and  `straight P open parentheses open parentheses A union B union C close parentheses to the power of apostrophe close parentheses equals 0.13` .\n\nGiven that events *A* and *C* are mutually exclusive, and that events *B *and* C* are independent, draw a Venn diagram to illustrate the probabilities.",
+     "problem_md": "*A,B*  and *C *are three events with  $\\mathrm{P} ( B ) = 0.3$, $\\mathrm{P} ( A \\cap B ) = 0.01$, $P ( B \\cap C ) = 0.12$ and  $\\mathrm{P} ( ( A \\cup B \\cup C )^{'} ) = 0.13$ .\n\nGiven that events *A* and *C* are mutually exclusive, and that events *B *and* C* are independent, draw a Venn diagram to illustrate the probabilities.",
      "solution_md": "![](assets/056-img.png)",
      "spec_point_codes": [
       "3.2",
@@ -1801,7 +1801,7 @@
       "spcpt_JfGQz47zpqCG2C9v"
      ],
      "part_tier": null,
-     "problem_md": "Find:\n\n(i) `straight P open parentheses A intersection B to the power of apostrophe close parentheses`\n\n(ii) `straight P open parentheses open parentheses A to the power of apostrophe intersection C to the power of apostrophe close parentheses union A close parentheses`\n\n(iii) `straight P open parentheses open parentheses open parentheses A intersection B to the power of apostrophe close parentheses union open parentheses B to the power of apostrophe intersection C close parentheses close parentheses to the power of apostrophe close parentheses`",
+     "problem_md": "Find:\n\n(i) $\\mathrm{P} ( A \\cap B^{'} )$\n\n(ii) $\\mathrm{P} ( ( A^{'} \\cap C^{'} ) \\cup A )$\n\n(iii) $\\mathrm{P} ( ( ( A \\cap B^{'} ) \\cup ( B^{'} \\cap C ) )^{'} )$",
      "solution_md": "![](assets/057-img.png)",
      "spec_point_codes": [
       "3.4"
@@ -1890,7 +1890,7 @@
       "spcpt_xPq8dPj856nqvFQ3"
      ],
      "part_tier": null,
-     "problem_md": "Three events,$A$, $B$ and $C$, are such that $A$and $B$ are independent $B$and $C$ and  are mutually exclusive. `straight P open parentheses C close parentheses equals 0.55`,  `P open parentheses open parentheses A intersection B close parentheses union open parentheses A intersection C close parentheses close parentheses equals 0.07`, and the following two relations also hold:\n\n`8 space straight P open parentheses A close parentheses equals 25 space straight P open parentheses B close parentheses`\n\n`straight P open parentheses A to the power of apostrophe intersection C close parentheses equals 10 space straight P open parentheses A intersection C close parentheses`\n\nUsing the above information, draw a Venn diagram to show the probabilities for events $A$,$B$ and $C$.",
+     "problem_md": "Three events,$A$, $B$ and $C$, are such that $A$and $B$ are independent $B$and $C$ and  are mutually exclusive. $\\mathrm{P} ( C ) = 0.55$,  $P ( ( A \\cap B ) \\cup ( A \\cap C ) ) = 0.07$, and the following two relations also hold:\n\n$8 \\mathrm{P} ( A ) = 25 \\mathrm{P} ( B )$\n\n$\\mathrm{P} ( A^{'} \\cap C ) = 10 \\mathrm{P} ( A \\cap C )$\n\nUsing the above information, draw a Venn diagram to show the probabilities for events $A$,$B$ and $C$.",
      "solution_md": "![](assets/040-img.png)",
      "equations": [
       {
@@ -1966,7 +1966,7 @@
       "spcpt_JfGQz47zpqCG2C9v"
      ],
      "part_tier": null,
-     "problem_md": "Find:\n\n(i) `straight P open parentheses C vertical line A close parentheses`\n\n(ii) `straight P open parentheses B vertical line A to the power of apostrophe close parentheses`\n\n(iii) `straight P open parentheses open parentheses A union B union C close parentheses to the power of apostrophe vertical line open parentheses A union B close parentheses to the power of apostrophe close parentheses`",
+     "problem_md": "Find:\n\n(i) $\\mathrm{P} ( C \\vert A )$\n\n(ii) $\\mathrm{P} ( B \\vert A^{'} )$\n\n(iii) $\\mathrm{P} ( ( A \\cup B \\cup C )^{'} \\vert ( A \\cup B )^{'} )$",
      "solution_md": "![](assets/041-img.png)",
      "spec_point_codes": [
       "3.2",
@@ -2131,7 +2131,7 @@
       "spcpt_jgKvwpptbcVFZqgq"
      ],
      "part_tier": null,
-     "problem_md": "Given that  `straight P open parentheses A close parentheses equals 0.34`, `P open parentheses A union B close parentheses equals 0.67`  and `straight P open parentheses A intersection B close parentheses equals 0.02` , find:\n\n(i) `straight P open parentheses B close parentheses`\n\n(ii) `straight P open parentheses A vertical line B to the power of apostrophe close parentheses`",
+     "problem_md": "Given that  $\\mathrm{P} ( A ) = 0.34$, $P ( A \\cup B ) = 0.67$  and $\\mathrm{P} ( A \\cap B ) = 0.02$ , find:\n\n(i) $\\mathrm{P} ( B )$\n\n(ii) $\\mathrm{P} ( A \\vert B^{'} )$",
      "solution_md": "![](assets/052-img.png)",
      "spec_point_codes": [
       "3.3"
@@ -2154,7 +2154,7 @@
       "spcpt_jgKvwpptbcVFZqgq"
      ],
      "part_tier": null,
-     "problem_md": "The event $C$ has `straight P open parentheses C close parentheses equals 0.2`. The events $B$ and $C$ are mutually exclusive.\n\nGiven that $A$ and  $C$ are independent, find  `P open parentheses A union B union C close parentheses`.",
+     "problem_md": "The event $C$ has $\\mathrm{P} ( C ) = 0.2$. The events $B$ and $C$ are mutually exclusive.\n\nGiven that $A$ and  $C$ are independent, find  $P ( A \\cup B \\cup C )$.",
      "solution_md": "![](assets/053-img.png)",
      "equations": [
       {
@@ -2458,7 +2458,7 @@
       "spcpt_xPq8dPj856nqvFQ3"
      ],
      "part_tier": null,
-     "problem_md": "$A,B$and $C$ are three events such that $P(C)=0.37,P(A^{'}\\capB^{'}\\capC)=0.18,P(A\\capB\\capC)=0.09,$ and $P((A\\cupB\\cupC)^{'})=0.21$. In addition the following two relations hold:\n\n`P left parenthesis A intersection B intersection C to the power of apostrophe right parenthesis ∶ P left parenthesis A intersection B to the power of apostrophe intersection C right parenthesis ∶ P left parenthesis A to the power of apostrophe intersection B intersection C right parenthesis equals 3 colon 4 colon 1\nP left parenthesis A right parenthesis ∶ P left parenthesis B right parenthesis equals 9 colon 10`\n\nDraw a Venn diagram to illustrate the probabilities.",
+     "problem_md": "$A,B$and $C$ are three events such that $P(C)=0.37,P(A^{'}\\capB^{'}\\capC)=0.18,P(A\\capB\\capC)=0.09,$ and $P((A\\cupB\\cupC)^{'})=0.21$. In addition the following two relations hold:\n\n$P ( A \\cap B \\cap C^{'} ) ∶ P ( A \\cap B^{'} \\cap C ) ∶ P ( A^{'} \\cap B \\cap C ) = 3 : 4 : 1\nP ( A ) ∶ P ( B ) = 9 : 10$\n\nDraw a Venn diagram to illustrate the probabilities.",
      "solution_md": "![](assets/035-img.png)",
      "equations": [
       {
@@ -2504,7 +2504,7 @@
       "spcpt_JfGQz47zpqCG2C9v"
      ],
      "part_tier": null,
-     "problem_md": "Find:\n\n(i) $P(A\\cupB^{'}\\cupC)$\n\n(ii) `P left parenthesis A union left parenthesis B intersection C to the power of apostrophe right parenthesis vertical line A union C right parenthesis`\n\n(iii) `P left parenthesis B union C vertical line left parenthesis A union B union C right parenthesis union left parenthesis A union B union C right parenthesis to the power of apostrophe right parenthesis`",
+     "problem_md": "Find:\n\n(i) $P(A\\cupB^{'}\\cupC)$\n\n(ii) $P ( A \\cup ( B \\cap C^{'} ) \\vert A \\cup C )$\n\n(iii) $P ( B \\cup C \\vert ( A \\cup B \\cup C ) \\cup ( A \\cup B \\cup C )^{'} )$",
      "solution_md": "![](assets/036-img.png)",
      "equations": [
       {
@@ -2595,7 +2595,7 @@
       "spcpt_JfGQz47zpqCG2C9v"
      ],
      "part_tier": null,
-     "problem_md": "Events $A$and $B$ are such that  `straight P open parentheses A close parentheses equals 0.23`  and  `straight P open parentheses B close parentheses equals 0.72`.\n\nGiven that `P open parentheses A to the power of apostrophe intersection B close parentheses equals p`, find the range of possible values of * *$p$.",
+     "problem_md": "Events $A$and $B$ are such that  $\\mathrm{P} ( A ) = 0.23$  and  $\\mathrm{P} ( B ) = 0.72$.\n\nGiven that $P ( A^{'} \\cap B ) = p$, find the range of possible values of * *$p$.",
      "solution_md": "![](assets/024-img.png)",
      "equations": [
       {
@@ -2634,7 +2634,7 @@
       "spcpt_JfGQz47zpqCG2C9v"
      ],
      "part_tier": null,
-     "problem_md": "Additionally, event $C$ is such that `straight P open parentheses C close parentheses equals 0.53`  and `P open parentheses A intersection B intersection C close parentheses equals 0.17` .\n\nDetermine whether this additional information would change your answer to part (a), and if it would then give the modified range of possible values of $p$ when this additional information is taken into account.",
+     "problem_md": "Additionally, event $C$ is such that $\\mathrm{P} ( C ) = 0.53$  and $P ( A \\cap B \\cap C ) = 0.17$ .\n\nDetermine whether this additional information would change your answer to part (a), and if it would then give the modified range of possible values of $p$ when this additional information is taken into account.",
      "solution_md": "![](assets/025-img.png)",
      "equations": [
       {
@@ -2668,7 +2668,7 @@
       "spcpt_JfGQz47zpqCG2C9v"
      ],
      "part_tier": null,
-     "problem_md": "Given that `P open parentheses A to the power of apostrophe intersection B intersection C close parentheses equals q`, find the range of possible values of $q$.",
+     "problem_md": "Given that $P ( A^{'} \\cap B \\cap C ) = q$, find the range of possible values of $q$.",
      "solution_md": "![](assets/026-img.png)",
      "equations": [
       {
@@ -2815,7 +2815,7 @@
       "spcpt_jgKvwpptbcVFZqgq"
      ],
      "part_tier": null,
-     "problem_md": "$A$and $B$ are events such that  `P open parentheses A union B close parentheses equals x`, `P open parentheses A intersection B to the power of apostrophe close parentheses equals y` and `P open parentheses A to the power of apostrophe intersection B close parentheses equals z`,  where  $x\\neqz$  and  $y\\neq0$.\n\nFind the following probabilities in terms of $x,y$and $z$:\n\n(i) `straight P open parentheses A intersection B close parentheses`\n\n(ii) `P open parentheses B vertical line A close parentheses`\n\n(iii) `P open parentheses A vertical line B to the power of apostrophe close parentheses`",
+     "problem_md": "$A$and $B$ are events such that  $P ( A \\cup B ) = x$, $P ( A \\cap B^{'} ) = y$ and $P ( A^{'} \\cap B ) = z$,  where  $x\\neqz$  and  $y\\neq0$.\n\nFind the following probabilities in terms of $x,y$and $z$:\n\n(i) $\\mathrm{P} ( A \\cap B )$\n\n(ii) $P ( B \\vert A )$\n\n(iii) $P ( A \\vert B^{'} )$",
      "solution_md": "![](assets/037-img.png)",
      "equations": [
       {

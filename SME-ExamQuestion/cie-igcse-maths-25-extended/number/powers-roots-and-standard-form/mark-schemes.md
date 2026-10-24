@@ -32,7 +32,7 @@ $\frac{4.35\times10^{9}}{4.14\times10^{7}}=105.072...$
 ### Q2
 > *Type the calculation directly into your calculator using the standard form button.*
 
-`open parentheses 5.77 space cross times space 10 cubed close parentheses space plus space open parentheses 3.00 space cross times space 10 squared close parentheses`
+$( 5.77 \times 10^{3} ) + ( 3.00 \times 10^{2} )$
 
 **6070 km**<sup>**2 **</sup>**[1]**
 > *Write out the ratio for the Maldives : China.*
@@ -83,7 +83,7 @@ $\frac{3746}{3}=1248.6666...$
 ** 6.4 × 10**<sup>**8**</sup>** ****[1]**
 > *You should be able to type directly into your calculator.*
 
-`table row cell open parentheses 3 cross times 10 to the power of 7 close parentheses space divided by open parentheses 6 cross times 10 to the power of 4 close parentheses space end cell equals cell space 500 end cell end table`
+$\begin{gathered} ( 3 \times 10^{7} ) \div ( 6 \times 10^{4} ) & = 500 \end{gathered}$
 
 **[1]**
 
@@ -96,7 +96,7 @@ $5\times10^{2}$* ***[1]**
 ### Q4
 > *Type the expression into your calculator.*
 
-`open parentheses 3 cross times 10 to the power of negative 3 end exponent close parentheses cubed equals 0.000000027`
+$( 3 \times 10^{- 3} )^{3} = 0.000000027$
 
 > *Change the decimal to standard form, it will be of the form 2.7 × 10*<sup>*n*</sup>*. You can find **n **by counting how many times you need to divide 2.7 by 10 get 0.000000027. As you are dividing by 10, the value of **n** will be negative. Your calculator might be able to do the conversion for you.*
 
@@ -119,20 +119,20 @@ $2.7\times10^{-8}$ **[1]**
 ### Q7
 > *Use your calculator, carefully typing the expression exactly as it appears.*
 
-`open parentheses 2.3 cross times 10 to the power of negative 3 end exponent close parentheses plus open parentheses 6.8 cross times 10 to the power of negative 4 end exponent close parentheses equals 2.98 cross times 10 to the power of negative 3 end exponent`
+$( 2.3 \times 10^{- 3} ) + ( 6.8 \times 10^{- 4} ) = 2.98 \times 10^{- 3}$
 
 $2.98\times10^{-3}$ **[1]**
 
 ### Q8
 > *You should be able to type directly into your calculator.*
 
-`table row cell open parentheses 13.8 cross times 10 to the power of 7 close parentheses space cross times open parentheses 5.4 cross times 10 to the power of negative 12 end exponent close parentheses space end cell equals cell space 7.452 cross times 10 to the power of negative 4 end exponent end cell end table`
+$\begin{gathered} ( 13.8 \times 10^{7 ) \times ( 5.4 \times 10^{-12} } ) & = 7.452 \times 10^{- 4} \end{gathered}$
 
 **[1]**
 
 > *Convert to an ordinary number.*
 
-`table row cell 7.452 cross times 10 to the power of negative 4 end exponent space end cell equals cell space 7.452 space cross times space 0.0001 space equals space 0.0007452 end cell end table`
+$\begin{gathered} 7.452 \times 10^{- 4} & = 7.452 \times 0.0001 = 0.0007452 \end{gathered}$
 
 $0.0007452$**[1]**
 
@@ -153,11 +153,11 @@ $p=\sqrt{\frac{x-y}{xy}}$
 
 > *Substitute the values given for **x **and **y **into the expression for p.*
 
-`p space equals square root of fraction numerator space 8.5 space cross times space 10 to the power of 9 space minus space 4 space cross times 10 to the power of 8 over denominator open parentheses 8.5 space cross times space 10 to the power of 9 close parentheses open parentheses 4 space cross times space 10 to the power of 8 close parentheses end fraction end root`
+$p = \sqrt{ \frac{ 8.5 \times 10^{9} - 4 \times 10^{8} }{( 8.5 \times 10^{9} ) ( 4 \times 10^{8} )} }$
 
 > *Type the problem into your calculator, use the square root, fraction, standard form buttons and the arrow keys to type the whole expression in in one go.*
 
-`square root of fraction numerator space 8.5 space cross times space 10 to the power of 9 space minus space 4 space cross times 10 to the power of 8 over denominator open parentheses 8.5 space cross times space 10 to the power of 9 close parentheses open parentheses 4 space cross times space 10 to the power of 8 close parentheses end fraction end root space equals space 4.880935... space cross times space 10 to the power of negative 5 end exponent`
+$\sqrt{ \frac{ 8.5 \times 10^{9 - 4 \times 10^{8} }{( 8.5 \times 10^{9} ) ( 4 \times 10^{8} )} } = 4.880935... \times 10^{-5} }$
 
 * Either part of the fraction evaluated correctly **[1] ** *
 *Both parts of the fraction evaluated correctly ***[1]**
@@ -169,17 +169,17 @@ $p=\sqrt{\frac{x-y}{xy}}$
 ### Q12
 > *Substitute the values given for **w **and **d **into the expression for **T**.*
 
-`T space equals square root of fraction numerator space 5.6 space cross times space 10 to the power of negative 5 end exponent over denominator open parentheses 1.4 space cross times space 10 to the power of negative 4 end exponent close parentheses cubed end fraction end root`
+$T = \sqrt{ \frac{ 5.6 \times 10^{- 5} }{( 1.4 \times 10^{- 4} )^{3}} }$
 
 > *Type the problem into your calculator, use the square root, fraction, standard form buttons and the arrow keys to type the whole expression in in one go.*
 
-`square root of fraction numerator space 5.6 space cross times space 10 to the power of negative 5 end exponent over denominator open parentheses 1.4 space cross times space 10 to the power of negative 4 end exponent close parentheses cubed end fraction end root equals space 4517.5395...`
+$\sqrt{ \frac{ 5.6 \times 10^{- 5} }{( 1.4 \times 10^{- 4} )^{3}} } = 4517.5395...$
 
 ** ****[1]**
 
 > *Convert to standard form.*
 
-`table row cell 4517.5395... space end cell equals cell space 4.517539... space cross times space 1000 end cell row blank equals cell 4.517539... space cross times space 10 cubed end cell end table`
+$\begin{gathered} 4517.5395... & = 4.517539... \times 1000 \\ = 4.517539... \times 10^{3} \end{gathered}$
 
 ** ****[1]**
 
@@ -190,7 +190,7 @@ $p=\sqrt{\frac{x-y}{xy}}$
 
 > *Therefore **T **will become:*
 
-> `T space equals space square root of fraction numerator w space cross times space 1.1 over denominator open parentheses d space cross times space 1.05 close parentheses cubed end fraction end root space equals space square root of fraction numerator 5.6 space cross times space 10 to the power of negative 5 end exponent space cross times space 1.1 over denominator open parentheses 1.4 space cross times space 10 to the power of negative 4 end exponent space cross times space 1.05 close parentheses cubed end fraction end root space equals space 4403.66....`* *
+> $T = \sqrt{ \frac{w \times 1.1}{( d \times 1.05 )^{3}} } = \sqrt{ \frac{5.6 \times 10^{- 5} \times 1.1}{( 1.4 \times 10^{- 4} \times 1.05 )^{3}} } = 4403.66....$* *
 
 **[1]**
 
@@ -203,19 +203,19 @@ $p=\sqrt{\frac{x-y}{xy}}$
 > *The key here is the word "exact". *
 *This means you can't just work it out on your calculator and give the answer "0.5714...", as you'd have to round it- so it's not exact! *
 *Instead you need to apply laws of fractional and negative indices*
-* *`x to the power of a over b end exponent equals open parentheses b-th root of x close parentheses to the power of a`* so  *
+* *`x ^ a / b = ( b-th sqrt of x ) ^ a`* so  *
 
-`8 to the power of 2 over 3 end exponent equals open parentheses cube root of 8 close parentheses squared equals 2 squared equals 4`
+$8^{ \frac{2}{3} } = ( \sqrt[3]{8} )^{2} = 2^{2} = 4$
 
 > $x^{-c}=\frac{1}{x^{c}}$* so*
 
-`table attributes columnalign right center left columnspacing 0px end attributes row cell 49 to the power of negative 1 half end exponent end cell equals cell fraction numerator 1 over denominator square root of 49 end fraction equals 1 over 7 end cell end table`
+$\begin{array}{rcl} 49^{- 1 \frac{1}{2}} & = \frac{1}{ \sqrt{49} } = \frac{1}{7} \end{array}$
 
 *either** 4 **or *$\frac{1}{7}$** ****[1]**
 
 > *Finally multiply the two results together*
 
-* *`table row cell 4 cross times 1 over 7 end cell equals cell 4 over 7 end cell end table`
+* *$\begin{gathered} 4 \times \frac{1}{7} & = \frac{4}{7} \end{gathered}$
 
 $\frac{4}{7}$** [1]**
 

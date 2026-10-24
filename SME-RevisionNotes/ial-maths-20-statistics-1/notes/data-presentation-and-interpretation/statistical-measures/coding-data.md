@@ -68,7 +68,7 @@ Then the standard deviation of the coded data, $σ_{y}$would be
 
 The original standard deviation,* *$σ_{x}$, will be
 
-`sigma subscript x equals fraction numerator sigma subscript y over denominator open vertical bar a close vertical bar end fraction`
+$\sigma_{x} = \frac{\sigma_{y} }{\left| a \right|}$
 
 > **Worked Example**
 > The shoulder height, $h,$ of a group of Asian elephants living in a nature reserve are summarised in the table below.

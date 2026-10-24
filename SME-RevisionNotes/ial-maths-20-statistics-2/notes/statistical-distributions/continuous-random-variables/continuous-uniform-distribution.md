@@ -30,7 +30,7 @@ guided_study: false
 
 $\frac{1}{b-a}$
 
-- Therefore the probability density function is given by `straight f left parenthesis x right parenthesis equals open curly brackets table row cell fraction numerator 1 over denominator b minus a end fraction end cell cell a less or equal than x less or equal than b end cell row cell space space space space 0 end cell otherwise end table close`
+- Therefore the probability density function is given by $\mathrm{f} ( x ) = \{ \begin{gathered} \frac{1}{b - a} & a \text{less} \text{or} \text{equal} \text{than} x \text{less} \text{or} \text{equal} \text{than} b \\ 0 & \text{otherwise} \end{gathered} )$
 
 #### How do I find probabilities for a continuous uniform distribution?
 
@@ -47,7 +47,7 @@ $\frac{1}{b-a}$
 ** ** ** **$E(X)=\frac{1}{2}(a+b)$
 
 - This is the (vertical) **axis** of **symmetry** of the **rectangle**
-- Should the above be forgotten, `begin mathsize 16px style E left parenthesis X right parenthesis equals integral subscript a superscript b x straight f left parenthesis x right parenthesis space straight d x end style` can still be applied
+- Should the above be forgotten, $E ( X ) = \int_{a}^{b} x \mathrm{f} ( x ) \mathrm{d} x$ can still be applied
 
   - You be may asked to use this to prove the result
 - The **median** can also be found by **symmetry** and will be **equal** to the **mean**
@@ -56,7 +56,7 @@ $\frac{1}{b-a}$
 
 ** ** ** **$\mathrm{Var}(X)=\frac{1}{12}(b-a)^{2}$
 
-- Should the above be forgotten, `begin mathsize 16px style Var left parenthesis X right parenthesis equals integral subscript negative infinity end subscript superscript infinity x squared straight f left parenthesis x right parenthesis space straight d x minus open square brackets E open parentheses X close parentheses close square brackets squared end style` or `begin mathsize 16px style V a r left parenthesis X right parenthesis equals E left parenthesis X squared right parenthesis minus open square brackets E open parentheses X close parentheses close square brackets squared end style` can still be applied
+- Should the above be forgotten, $Var ( X ) = integral_{ - } \text{infinity} ^{infinity} x ^{2} \mathrm{f} ( x ) \mathrm{d} x - [ E ( X ) ] ^{2}$ or $V a r ( X ) = E ( X^{2} ) - [ E ( X ) ]^{2}$ can still be applied
 
   - You may be asked to use this to prove the result
   - The **standard** **deviation** is the **square** **root** of the **variance**

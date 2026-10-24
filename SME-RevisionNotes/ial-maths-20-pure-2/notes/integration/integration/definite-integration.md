@@ -64,7 +64,7 @@ guided_study: false
 
 ![Notes fig5, AS & A Level Maths revision notes](../../../assets/d22b699939f1-8-1-3-notes-fig5.png)
 
-- (Note how the calculator did not return the exact value `open parentheses 1256 over 3 close parentheses` of the integral)
+- (Note how the calculator did not return the exact value $( \frac{1256}{3} )$ of the integral)
 
 > **Exam Hint**
 > - Look out for questions that ask you to find an **indefinite** integral in one part (so “**+c**” needed), then in a later part use the same integral as a **definite** integral (where “**+c**” is not needed).
@@ -72,23 +72,23 @@ guided_study: false
 > **Worked Example**
 > Find the value of
 > 
-> `integral subscript 2 superscript 4 3 x left parenthesis x squared minus 2 right parenthesis space straight d x`
+> $\int_{2}^{4} 3 x ( x^{2} - 2 ) \mathrm{d} x$
 > 
 > **Answer:**
 > 
 > > *Start by expanding the brackets inside the integral*
 > 
-> `integral subscript 2 superscript 4 open parentheses 3 x cubed minus 6 x close parentheses space straight d x`
+> $\int_{2}^{4} ( 3 x^{3} - 6 x ) \mathrm{d} x$
 > 
 > > *Integrate as usual (here it's a 'powers of *$x$*' integration)*
 > 
 > > *Write the answer in square brackets with the integration limits outside*
 > 
-> `table row cell integral subscript 2 superscript 4 open parentheses 3 x cubed minus 6 x close parentheses space straight d x end cell equals cell open square brackets 3 open parentheses fraction numerator x to the power of 3 plus 1 end exponent over denominator 3 plus 1 end fraction close parentheses minus 6 open parentheses fraction numerator x to the power of 1 plus 1 end exponent over denominator 1 plus 1 end fraction close parentheses close square brackets subscript 2 superscript 4 end cell row blank equals cell open square brackets 3 over 4 x to the power of 4 minus 3 x squared close square brackets subscript 2 superscript 4 end cell end table`
+> $\begin{gathered} \int_{2}^{4} ( 3 x^{3} - 6 x ) \mathrm{d} x & = [ 3 ( \frac{x^{3 + 1} }{3 + 1} ) - 6 ( \frac{x^{1 + 1} }{1 + 1} ) ]_{2}^{4} \\ = [ \frac{3}{4} x^{4} - 3 x^{2} ]_{2}^{4} \end{gathered}$
 > 
 > > *Now substitute 4 into that function *
 > *And subtract from it the function with 2 substituted in*
 > 
-> `table attributes columnalign right center left columnspacing 0px end attributes row cell open square brackets 3 over 4 x to the power of 4 minus 3 x squared close square brackets subscript 2 superscript 4 end cell equals cell open parentheses 3 over 4 open parentheses 4 close parentheses to the power of 4 minus 3 open parentheses 4 close parentheses squared close parentheses minus open parentheses 3 over 4 open parentheses 2 close parentheses to the power of 4 minus 3 open parentheses 2 squared close parentheses close parentheses end cell row blank equals cell open parentheses 192 minus 48 close parentheses minus open parentheses 12 minus 12 close parentheses end cell row blank equals cell 144 minus 0 end cell row blank equals 144 end table`
+> $\begin{array}{rcl} [ \frac{3}{4} x^{4} - 3 x^{2} ]_{2}^{4} & = ( \frac{3}{4} ( 4 )^{4} - 3 ( 4 )^{2} ) - ( \frac{3}{4} ( 2 )^{4} - 3 ( 2^{2} ) ) \\ = ( 192 - 48 ) - ( 12 - 12 ) \\ = 144 - 0 \\ = 144 \end{array}$
 > 
 > `Error converting from MathML to accessible text.`

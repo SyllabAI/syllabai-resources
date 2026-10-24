@@ -72,7 +72,7 @@ $\Deltap=p_{final}-p_{inital}=p_{f}-p_{i}$
 > 
 > $p_{f}=m\timesv_{f}$
 > 
-> `p subscript f space equals space 1500 space cross times space open parentheses negative 5 close parentheses space equals space minus 7500 space kg space straight m space straight s to the power of negative 1 end exponent`
+> $p_{f} = 1500 \times ( - 5 ) = - 7500 \text{kg} \mathrm{m} \mathrm{s}^{- 1}$
 > 
 > **Step 6: Calculate the change in momentum**
 > 

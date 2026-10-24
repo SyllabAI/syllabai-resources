@@ -70,8 +70,8 @@ You can **multiply or divide** both sides of a** linear inequality** in exactly 
 
 If, however, you multiply or divide both sides by **negative numbers**, you have to **flip the direction **of the inequality sign.
 
-E.g.  You can divide `table row cell 2 x end cell less than 4 end table` by 2 to get `table row x less than 2 end table`.
-You can divide `table row cell negative 2 x end cell less than 4 end table` by -2, but you must flip the inequality to get `table row x greater than cell negative 2 end cell end table`.
+E.g.  You can divide $\begin{gathered} 2 x & < 4 \end{gathered}$ by 2 to get $\begin{gathered} x < 2 \end{gathered}$.
+You can divide $\begin{gathered} - 2 x & < 4 \end{gathered}$ by -2, but you must flip the inequality to get $\begin{gathered} x > - 2 \end{gathered}$.
 
 
 

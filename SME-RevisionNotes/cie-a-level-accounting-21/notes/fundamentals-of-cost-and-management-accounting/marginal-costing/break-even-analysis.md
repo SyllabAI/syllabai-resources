@@ -66,7 +66,7 @@ guided_study: false
 > 
 > If you forget the formulas, you can easily derive them using algebra. Let $x$ be the number of units sold, $S$ be the selling price per unit, $F$ be the fixed cost and $V$ be the variable cost per unit.
 > 
-> `table row Revenue equals cell Total space cost end cell row cell S x end cell equals cell F plus V x end cell row cell S x minus V x end cell equals F row cell x open parentheses S minus V close parentheses end cell equals F row x equals cell fraction numerator F over denominator S minus V end fraction end cell end table`
+> $\begin{gathered} \text{Revenue} = \text{Total} \text{cost} \\ S x & = F + V x \\ S x - V x & = F \\ x ( S - V ) & = F \\ x = \frac{F}{S - V} \end{gathered}$
 
 > **Worked Example**
 > The following forecasted data is available.

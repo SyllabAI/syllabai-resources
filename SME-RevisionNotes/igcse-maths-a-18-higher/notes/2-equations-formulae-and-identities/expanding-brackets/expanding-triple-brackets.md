@@ -38,17 +38,17 @@ guided_study: true
   - *x*<sup>3</sup> + 5*x*<sup>2</sup> + 7*x* + 2
 
 > **Worked Example**
-> Expand  `open parentheses 2 x minus 3 close parentheses open parentheses x plus 4 close parentheses open parentheses 3 x minus 1 close parentheses`.
+> Expand  $( 2 x - 3 ) ( x + 4 ) ( 3 x - 1 )$.
 > 
 > **Answer:**
 > 
 > > *Expand and simplify the first two brackets, for example using the FOIL method *
 > 
-> `table row blank blank cell open parentheses 2 x minus 3 close parentheses open parentheses x plus 4 close parentheses end cell row blank equals cell 2 x cross times x plus 2 x cross times 4 plus open parentheses negative 3 close parentheses cross times x plus open parentheses negative 3 close parentheses cross times 4 end cell row blank equals cell 2 x squared plus 8 x minus 3 x minus 12 end cell row blank equals cell 2 x squared plus 5 x minus 12 end cell end table`
+> $\begin{gathered} ( 2 x - 3 ) ( x + 4 ) \\ = 2 x \times x + 2 x \times 4 + ( - 3 ) \times x + ( - 3 ) \times 4 \\ = 2 x^{2} + 8 x - 3 x - 12 \\ = 2 x^{2} + 5 x - 12 \end{gathered}$
 > 
 > > *Rewrite the original expression with the first two brackets expanded*
 > 
-> `open parentheses 2 x squared plus 5 x minus 12 close parentheses open parentheses 3 x minus 1 close parentheses`
+> $( 2 x^{2} + 5 x - 12 ) ( 3 x - 1 )$
 > 
 > > *Multiply all of the terms in the first set of brackets by all of the terms in the second set of brackets*
 > 

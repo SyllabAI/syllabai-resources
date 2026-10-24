@@ -22,7 +22,7 @@ guided_study: false
 - Remember that a **derivative** in maths represents a **rate of change**
 - e.g. if  $y=x^{3}$  then  $\frac{dy}{dx}=3x^{2}$
 
-  - When  $x=2$,  `fraction numerator straight d y over denominator straight d x end fraction equals 3 open parentheses 2 close parentheses squared equals 12`
+  - When  $x=2$,  $\frac{ \mathrm{d} y}{ \mathrm{d} x} = 3 ( 2 )^{2} = 12$
   
     - That's the **rate of change **of $y$ with respect to $x$ when $x=2$
   - As soon as $x$ **changes** away from 2, $\frac{dy}{dx}$ is no longer equal to 12
@@ -46,11 +46,11 @@ guided_study: false
   - Take the **derivative** with respect to $r$,  $\frac{dV}{dr}=4πr^{2}$
   
     - That's the **rate of change **of volume with respect to radius
-- You may also need to use the relation  `fraction numerator straight d x over denominator straight d y end fraction equals 1 divided by fraction numerator straight d y over denominator straight d x end fraction equals fraction numerator 1 over denominator open parentheses fraction numerator straight d y over denominator straight d x end fraction close parentheses end fraction`
+- You may also need to use the relation  $\frac{ \mathrm{d} x}{ \mathrm{d} y} = 1 \div \frac{ \mathrm{d} y}{ \mathrm{d} x} = \frac{1}{( \frac{ \mathrm{d} y}{ \mathrm{d} x} )}$
 
   - e.g. you may need $\frac{dr}{dV}$ to answer a question
   
-    - Then  `fraction numerator straight d r over denominator straight d V end fraction equals fraction numerator 1 over denominator open parentheses fraction numerator straight d V over denominator straight d r end fraction close parentheses end fraction equals fraction numerator 1 over denominator 4 pi r squared end fraction`
+    - Then  $\frac{ \mathrm{d} r}{ \mathrm{d} V} = \frac{1}{( \frac{ \mathrm{d} V}{ \mathrm{d} r} )} = \frac{1}{4 \pi r^{2}}$
 
 > **Exam Hint**
 > - Look out for calculus questions asking you to 'estimate' or 'approximate' the change in a quantity
@@ -81,9 +81,9 @@ guided_study: false
 > 
 > $\frac{dA}{dr}=8πr$
 > 
-> > *But we need *$\frac{dr}{dA}$* for our approximation formula, so use  *`fraction numerator straight d x over denominator straight d y end fraction equals fraction numerator 1 over denominator open parentheses fraction numerator straight d y over denominator straight d x end fraction close parentheses end fraction`
+> > *But we need *$\frac{dr}{dA}$* for our approximation formula, so use  *$\frac{ \mathrm{d} x}{ \mathrm{d} y} = \frac{1}{( \frac{ \mathrm{d} y}{ \mathrm{d} x} )}$
 > 
-> `fraction numerator straight d r over denominator straight d A end fraction equals fraction numerator 1 over denominator open parentheses fraction numerator straight d A over denominator straight d r end fraction close parentheses end fraction equals fraction numerator 1 over denominator 8 pi r end fraction`
+> $\frac{ \mathrm{d} r}{ \mathrm{d} A} = \frac{1}{( \frac{ \mathrm{d} A}{ \mathrm{d} r} )} = \frac{1}{8 \pi r}$
 > 
 > > *Substitute that into the approximation formula*
 > 
@@ -93,7 +93,7 @@ guided_study: false
 > 
 > > *(Note that that is a 'small' change, *$dA$*, compared to the total surface area of *$100π=314.15...\mathrm{cm}^{2}$* when *$r=5$*) *
 > 
-> `straight d r almost equal to fraction numerator 1 over denominator 8 pi open parentheses 5 close parentheses end fraction open parentheses 15 close parentheses equals fraction numerator 3 over denominator 8 pi end fraction equals 0.119366...`
+> $\mathrm{d} r \approx \frac{1}{8 \pi ( 5 )} ( 15 ) = \frac{3}{8 \pi } = 0.119366...$
 > 
 > > *Round to 2 significant figures, as required*
 > 
@@ -155,7 +155,7 @@ guided_study: false
   - For **time** problems you will often use the form  $\frac{dy}{dt}=\frac{dy}{du}\times\frac{du}{dt}$
   
     - where $y$ and $u$ represent other quantities in the question
-- Note that  `fraction numerator straight d x over denominator straight d y end fraction equals 1 divided by fraction numerator straight d y over denominator straight d x end fraction equals fraction numerator 1 over denominator open parentheses fraction numerator straight d y over denominator straight d x end fraction close parentheses end fraction`
+- Note that  $\frac{ \mathrm{d} x}{ \mathrm{d} y} = 1 \div \frac{ \mathrm{d} y}{ \mathrm{d} x} = \frac{1}{( \frac{ \mathrm{d} y}{ \mathrm{d} x} )}$
 
   - Use this if you **know** a derivative $\frac{dy}{dx}$
   
@@ -245,7 +245,7 @@ Write down the **formula** for a related quantity (volume, etc)
 > 
 > > *This gives a formula connecting *$V$* and *$x$
 > 
-> `table row V equals cell 5 cross times x cross times x end cell row blank equals cell 5 x squared end cell end table`
+> $\begin{gathered} V = 5 \times x \times x \\ = 5 x^{2} \end{gathered}$
 > 
 > > *Now differentiate that with respect to *$x$
 > 
@@ -255,9 +255,9 @@ Write down the **formula** for a related quantity (volume, etc)
 > 
 > > *But our chain rule formula needs  *$\frac{dx}{dV}$
 > 
-> > *We can find this using  *`fraction numerator straight d x over denominator straight d y end fraction equals fraction numerator 1 over denominator open parentheses begin display style fraction numerator straight d y over denominator straight d x end fraction end style close parentheses end fraction`
+> > *We can find this using  *$\frac{ \mathrm{d} x}{ \mathrm{d} y} = \frac{1}{( \frac{ \mathrm{d} y}{ \mathrm{d} x} )}$
 > 
-> `fraction numerator straight d x over denominator straight d V end fraction equals fraction numerator 1 over denominator open parentheses begin display style fraction numerator straight d V over denominator straight d x end fraction end style close parentheses end fraction equals fraction numerator 1 over denominator 10 x end fraction`
+> $\frac{ \mathrm{d} x}{ \mathrm{d} V} = \frac{1}{( \frac{ \mathrm{d} V}{ \mathrm{d} x} )} = \frac{1}{10 x}$
 > 
 > > *Substitute that into the chain rule formula*
 > 
@@ -269,7 +269,7 @@ Write down the **formula** for a related quantity (volume, etc)
 > 
 > $\mathrm{When}x=3,$
 > 
-> `table attributes columnalign right center left columnspacing 0px end attributes row cell fraction numerator straight d x over denominator straight d t end fraction end cell equals cell fraction numerator 1 over denominator 10 open parentheses 3 close parentheses end fraction cross times 20 end cell row blank equals cell 20 over 30 end cell row blank equals cell 2 over 3 end cell end table`
+> $\begin{array}{rcl} \frac{ \mathrm{d} x}{ \mathrm{d} t} & = \frac{1}{10 ( 3 )} \times 20 \\ = \frac{20}{30} \\ = \frac{2}{3} \end{array}$
 > 
 > > *Don't forget the units when giving your final answer!*
 > 

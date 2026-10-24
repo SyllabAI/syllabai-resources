@@ -134,7 +134,7 @@ $f=\frac{1}{T}$
 > 
 > **Step 4: Use the frequency you calculated in part (a) and put the values into the equation**
 > 
-> `lambda space equals space fraction numerator 330 over denominator open parentheses 1 space cross times space 10 to the power of 4 close parentheses end fraction`
+> $\\lambda = \frac{330}{( 1 \times 10^{4} )}$
 > 
 > $λ=0.033m$
 

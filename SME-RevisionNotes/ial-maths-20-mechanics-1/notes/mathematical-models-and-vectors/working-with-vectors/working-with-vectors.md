@@ -39,7 +39,7 @@ guided_study: false
 
 e.g. The (column) vector meaning **3 units** in the **positive** **horizontal** (*x*) direction (i.e., **right**) and **2 units** in the **negative** **vertical** (*y* ) direction (i.e., **down**) can be written as:
 
-`open parentheses table row 3 row cell negative 2 end cell end table close parentheses`
+$( \begin{gathered} 3 \\ - 2 \end{gathered} )$
 
 - In Edexcel International A Level Mechanics you must give your **final answer** using the **i** and **j** notation form
 

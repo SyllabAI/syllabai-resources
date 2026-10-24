@@ -15,7 +15,7 @@ List the known quantities:
 Determine the refractive index of the gemstone, $n_{2}$:
 
 - $n_{1}\mathrm{sin}θ_{1}=n_{2}\mathrm{sin}θ_{2}$
-- `n subscript 2 space equals space fraction numerator n subscript 1 sin theta subscript 1 over denominator sin theta subscript 2 end fraction space equals space fraction numerator 1.00 space cross times space sin open parentheses 50 degree close parentheses over denominator sin open parentheses 21 degree close parentheses end fraction` **[1 mark]**
+- $n_{2} = \frac{n_{1} \sin \theta_{1} }{\sin \theta_{2} } = \frac{1.00 \times \sin ( 50^{\circ} )}{\sin ( 21^{\circ} )}$ **[1 mark]**
 - $n_{2}=2.138$
 
 Determine the speed of light in this gemstone and compare to the table:
@@ -37,7 +37,7 @@ Use diamond's refractive index to find its critical angle:
 
 - $\mathrm{sin}C=\frac{1}{n}$ where $n=\frac{c}{v}$
 - $\mathrm{sin}C=\frac{v}{c}=\frac{1.24\times10^{8}}{3.00\times10^{8}}=0.413$ **[1 mark]**
-- `C space equals space sin to the power of negative 1 end exponent open parentheses 0.413 close parentheses space equals space 24.4 degree` **[1 mark]**
+- $C = \sin ^{- 1} ( 0.413 ) = 24.4^{\circ}$ **[1 mark]**
 
 Compare the angle of incidence as the light leaves with the critical angle:
 
@@ -104,12 +104,12 @@ Calculate the angle of refraction for red and violet light using Snell's Law, $n
 **EITHER**
 
 - $\mathrm{sin}θ_{R-red}=\frac{n_{air}\mathrm{sin}θ_{I}}{n_{red}}=\frac{1.000\times54.00}{1.513}$**[1 mark]**
-- `theta subscript R minus r e d end subscript equals sin to the power of negative 1 end exponent open parentheses fraction numerator 1.000 cross times 54.00 over denominator 1.513 end fraction close parentheses equals 32.32 space degree` **[1 mark]**
+- $\theta_{R - r e d} = \sin ^{- 1} ( \frac{1.000 \times 54.00}{1.513} ) = 32.32^{\circ}$ **[1 mark]**
 
 **OR**
 
 - $\mathrm{sin}θ_{R-violet}=\frac{n_{air}\mathrm{sin}θ_{I}}{n_{violet}}=\frac{1.000\times54.00}{1.532}$** [1 mark]**
-- `theta subscript R minus v i o l e t end subscript equals sin to the power of negative 1 end exponent open parentheses fraction numerator 1.000 cross times 54.00 over denominator 1.532 end fraction close parentheses equals 31.88 space degree` **[1 mark]**
+- $\theta_{R - v i o l e t} = \sin ^{- 1} ( \frac{1.000 \times 54.00}{1.532} ) = 31.88^{\circ}$ **[1 mark]**
 
 Use trigonometry ($\mathrm{tan}θ=\frac{opposite}{adjacent}$) to calculate the horizontal distance travelled by the light whilst in the block:
 
@@ -166,9 +166,9 @@ Comment on these values:
 
 Calculate the critical angle for violet and red light using $\mathrm{sin}C=\frac{1}{n}$:
 
-- For red light, `C equals sin to the power of 1 open parentheses 1 over n close parentheses equals sin to the power of negative 1 end exponent open parentheses fraction numerator 1 over denominator 1.513 end fraction close parentheses` **[1 mark]**
+- For red light, $C = \sin ^{1 ( \frac{1}{n} ) = \sin ^{-1} } ( \frac{1}{1.513} )$ **[1 mark]**
 - $C=41.4^{\circ}$ **[1 mark]** **OR**
-- For violet light, `C equals sin to the power of 1 open parentheses 1 over n close parentheses equals sin to the power of negative 1 end exponent open parentheses fraction numerator 1 over denominator 1.532 end fraction close parentheses` **[1 mark]**
+- For violet light, $C = \sin ^{1 ( \frac{1}{n} ) = \sin ^{-1} } ( \frac{1}{1.532} )$ **[1 mark]**
 - $C=40.7^{\circ}$ **[1 mark]**
 
 Comment on these values:
@@ -260,7 +260,7 @@ iii) Calculate the angle of refraction as this ray of light travels across the b
 
 - $n_{1}\mathrm{sin}θ_{1}=n_{2}\mathrm{sin}θ_{2}$
 - $θ_{2}=\frac{n_{1}\mathrm{sin}θ_{1}}{n_{2}}$** [1 mark]**
-- `theta subscript r space equals space fraction numerator 1.40 space cross times space sin open parentheses 30 close parentheses over denominator 1.55 end fraction`** [1 mark]**
+- $\theta_{r} = \frac{1.40 \times \sin ( 30 )}{1.55}$** [1 mark]**
 - $θ_{r}=26.8^{\circ}$** [1 mark]**
 
 ### 16((c)) — 2 marks
@@ -317,7 +317,7 @@ Using a polarising filter on the light emerging from B proves that light is tran
 ## Q7 — medium — 1 marks · multiple-choice-questions
 
 ### 3() — 1 marks
-**Correct answer: B** — `fraction numerator open parentheses 0.14 close parentheses space cross times open parentheses 4 straight pi close parentheses cross times open parentheses 2.0 close parentheses squared over denominator 0.12 end fraction`
+**Correct answer: B** — $\frac{( 0.14 ) \times ( 4 \mathrm{\pi } ) \times ( 2.0 )^{2}}{0.12}$
 
 **Final answer:** **The correct answer is ****B**** because:**
 
@@ -325,10 +325,10 @@ Using a polarising filter on the light emerging from B proves that light is tran
 - Therefore, the **useful **power emitted by the bulb can be found by:
 
   - $0.14=\frac{P}{4π\times2.0^{2}}$
-  - `P equals open parentheses 0.14 close parentheses cross times open parentheses 4 pi close parentheses cross times open parentheses 2.0 close parentheses squared`
+  - $P = ( 0.14 ) \times ( 4 \pi ) \times ( 2.0 )^{2}$
 - Since $efficiency=\frac{usefulpower}{totalpowerinput}$ and efficiency is 0.12:
 
-  - Total power of the lightbulb, `P subscript t o t end subscript equals fraction numerator open parentheses 0.14 close parentheses cross times open parentheses 4 pi close parentheses cross times open parentheses 2.0 close parentheses squared over denominator 0.12 end fraction`
+  - Total power of the lightbulb, $P_{t o t} = \frac{( 0.14 ) \times ( 4 \pi ) \times ( 2.0 )^{2}}{0.12}$
 
 ## Q8 — easy — 1 marks · multiple-choice-questions
 

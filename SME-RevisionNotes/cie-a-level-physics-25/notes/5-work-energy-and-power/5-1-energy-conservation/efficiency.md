@@ -24,7 +24,7 @@ guided_study: true
 - Multiplying this ratio by 100 gives the efficiency as a percentage
 - The efficiency is calculated using the equation:
 
-`efficiency space equals fraction numerator space useful space energy space output over denominator total space energy space input end fraction space cross times space 100 percent sign`
+$\text{efficiency} = \frac{ \text{useful} \text{energy} output}{total \text{energy} input} \times 100 \%$
 
 - Efficiency can also be written in terms of power (the energy transferred per second):
 
@@ -43,7 +43,7 @@ $\mathrm{efficiency}=\frac{\mathrm{useful} \mathrm{power} \mathrm{output}}{\math
 > 
 > **C. **$ηP_{lost}$
 > 
-> **D. **`negative eta P subscript l o s t end subscript open parentheses eta minus 1 close parentheses`
+> **D. **$- \\eta P_{l o s t} ( \\eta - 1 )$
 > 
 > **Answer: B**
 > 
@@ -59,7 +59,7 @@ $\mathrm{efficiency}=\frac{\mathrm{useful} \mathrm{power} \mathrm{output}}{\math
 > 
 > - Multiply by *P*<sub>out</sub> + *P*<sub>lost</sub> on both sides
 > 
-> `eta open parentheses p subscript o u t end subscript space plus space p subscript l o s t end subscript close parentheses space equals space P subscript o u t end subscript`
+> $\\eta ( p_{o u t} + p_{l o s t} ) = P_{o u t}$
 > 
 > - Expand the brackets
 > 
@@ -75,11 +75,11 @@ $\mathrm{efficiency}=\frac{\mathrm{useful} \mathrm{power} \mathrm{output}}{\math
 > 
 > - Factor out *P*<sub>out</sub>
 > 
-> `P subscript o u t end subscript space open parentheses eta space minus space 1 close parentheses space equals space minus eta P subscript l o s t end subscript`
+> $P_{o u t} ( \\eta - 1 ) = - \\eta P_{l o s t}$
 > 
 > - Divide by *η* − 1
 > 
-> `P subscript o u t end subscript space equals space fraction numerator negative eta P subscript l o s t end subscript over denominator open parentheses eta space minus space 1 close parentheses end fraction`
+> $P_{o u t} = \frac{- \\eta P_{l o s t} }{( \\eta - 1 )}$
 
 > **Exam Hint**
 > Efficiency can be in a ratio or percentage format. If the question asks for an efficiency as a ratio, give your answer as a fraction or decimal. If the answer is required as a percentage, remember to multiply the ratio by 100 to convert it, e.g. Ratio = 0.25, Percentage = 0.25 × 100 = 25 %
@@ -133,7 +133,7 @@ $\mathrm{efficiency}=\frac{\mathrm{useful} \mathrm{power} \mathrm{output}}{\math
 > 
 > **Step 4: Calculate the mass of water lifted water**
 > 
-> `0.2 space cross times space 0.5 space cross times 700 space cross times open parentheses 3.5 close parentheses squared space equals space m space cross times space 9.81 space cross times space 12`
+> $0.2 \times 0.5 \times 700 \times ( 3.5 )^{2} = m \times 9.81 \times 12$
 > 
 > $857.5=m\times117.72$
 > 

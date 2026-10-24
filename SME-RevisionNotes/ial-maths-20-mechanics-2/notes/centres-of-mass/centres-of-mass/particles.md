@@ -51,7 +51,7 @@ guided_study: false
 
 - In general for a system of *n* **particles** with **masses** $m_{1},m_{2},m_{3},.....m_{n}$ placed along the *x*-axis at the points with **coordinates** $(x_{1},0),(x_{2},0),(x_{3},0),....(x_{n},0)$, the **centre** of **mass**, point ($\overline{x}$ , 0) is found by solving
 
-`sum from i space equals 1 to n of m subscript i x subscript i space equals x with bar on top space sum from i space equals 1 to n of m subscript i`
+$\sum_{i = 1}^{n} m_{i} x_{i} = \bar{x} \sum_{i = 1}^{n} m_{i}$
 
 - We’re sure you can figure out the equivalent equation for particles placed along the y-axis!
 
@@ -114,12 +114,12 @@ You can check your answer is sensible by comparing it to the location of the par
 
 - In general for a system of n **particles** with **masses** $m_{1},m_{2},m_{3},....$ placed in a 2D plane at the points with **coordinates** $(x_{1},y_{1})$, $(x_{2},y_{2}),(x_{3},y_{3}).....,(x_{n},y_{n}),$the **centre** of **mass**, point $(\overline{x},\overline{y})$ is found by solving
 
-`sum from i equals 1 to n of m subscript i r subscript i space equals space r with bar on top sum from i equals 1 to n of m subscript i`
+$\sum_{i = 1}^{n} m_{i} r_{i} = \bar{r} \sum_{i = 1}^{n} m_{i}$
 
 where $r_{i}=x_{i}i+y_{i}j$ are the ***position vectors*** of the particles and
- `top enclose r space equals top enclose x bold i space plus top enclose y bold j` is the position vector of the centre of mass
+ $\vec{r} = \vec{x} i + \vec{y} j$ is the position vector of the centre of mass
 
-- (Position) **vectors** can be given as **column** **vectors**; `open parentheses table row x row y end table close parentheses` or in **i-j ** **notation**; $xi+yj$
+- (Position) **vectors** can be given as **column** **vectors**; $( \begin{gathered} x \\ y \end{gathered} )$ or in **i-j ** **notation**; $xi+yj$
 - Alternatively the two dimensions can be separated creating two systems of particles in a straight line
 
   - Use the equations  $\summ_{i}x_{i}=\overline{x}\summ_{i}$ and $\summ_{i}y_{i}=\overline{y}\summ_{i}$   to find the coordinates of the centre of mass, separately

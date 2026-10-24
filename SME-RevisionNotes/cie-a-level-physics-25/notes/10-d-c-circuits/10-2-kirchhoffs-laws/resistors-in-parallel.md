@@ -89,7 +89,7 @@ $\frac{1}{R}=\frac{1}{R_{1}}+\frac{1}{R_{2}}+\frac{1}{R_{3}}...$
 > 
 > **Step 2: Substitute in the values given from the equation**
 > 
-> `1 over R subscript T space equals fraction numerator space 1 over denominator R end fraction space plus thin space fraction numerator 1 over denominator 2 R end fraction space plus fraction numerator space 1 over denominator R end fraction space equals space open parentheses 1 space plus thin space 1 half space plus thin space 1 close parentheses space 1 over R space equals space fraction numerator 5 over denominator 2 R end fraction`
+> $\frac{1}{R} _{T} = \frac{ 1}{R} + \frac{1}{2 R} + \frac{ 1}{R} = ( 1 + 1 \frac{1}{2} + 1 ) \frac{1}{R} = \frac{5}{2 R}$
 > 
 > **Step 3: Calculate the total resistance**
 > 

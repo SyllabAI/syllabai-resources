@@ -10,7 +10,7 @@
 
 **Q1** [2 marks]
 
-$A$ is the point (-2, 1) and `stack A B with rightwards arrow on top equals open parentheses table row 4 row 2 end table close parentheses`.
+$A$ is the point (-2, 1) and $\vec{AB} = ( \begin{gathered} 4 \\ 2 \end{gathered} )$.
 
 Find the coordinates of point $B$.
 
@@ -18,15 +18,15 @@ Find the coordinates of point $B$.
 
 **Q2** [5 marks]
 
-`bold p equals open parentheses space space space space 3
-minus 2 close parentheses space space space space space space space space space space bold q equals open parentheses negative 5
-space space space 1 close parentheses`
+$p = ( 3
+- 2 ) q = ( - 5
+ 1 )$
 
 (i) Work out  $p+2q$.
 
 [2]
 
-(ii) $A$is the point `open parentheses 2 comma space 6 close parentheses` and $B$ is the image of point $A$after a translation by the vector $p$. 
+(ii) $A$is the point $( 2 , 6 )$ and $B$ is the image of point $A$after a translation by the vector $p$. 
 
 Find the coordinates of $B$.
 
@@ -43,12 +43,12 @@ Find the coordinates of $B$.
 
 **Q3** [2 marks]
 
-Work out   `2 open parentheses space 2
-space 3 close parentheses minus open parentheses negative 3
-space space space 5 close parentheses`.
+Work out   $2 ( 2
+ 3 ) - ( - 3
+ 5 )$.
 
-`open parentheses
-space space space space space space space close parentheses`
+$(
+ )$
 
 *Source: March 2022 0607/22 Q4A*
 
@@ -57,8 +57,8 @@ space space space space space space space close parentheses`
 
 **Q4** [2 marks]
 
-Find the magnitude of the vector  `open parentheses negative 6
-space space space 8 close parentheses` .
+Find the magnitude of the vector  $( - 6
+ 8 )$ .
 
 *Source: November  2023 0607/22 Q13*
 
@@ -67,8 +67,8 @@ space space space 8 close parentheses` .
 
 **Q5** [2 marks]
 
-$A$ is the point `open parentheses 1 comma space 2 close parentheses` and `stack A B with rightwards arrow on top equals open parentheses negative 1
-3 close parentheses`.
+$A$ is the point $( 1 , 2 )$ and $\vec{AB} = ( - 1
+3 )$.
 
 Find the coordinates of the point $B$.
 
@@ -79,10 +79,10 @@ Find the coordinates of the point $B$.
 
 **Q6** [1 mark]
 
-`bold m equals open parentheses table row 5 row 7 end table close parentheses` 
+$m = ( \begin{gathered} 5 \\ 7 \end{gathered} )$ 
 Find $3m$.
 
-`open parentheses table row cell space space space space space space end cell row blank end table close parentheses`
+$( \begin{gathered} \\ \end{gathered} )$
 
 *Source: 2020	May/June 0580/21 Q17A*
 
@@ -91,7 +91,7 @@ Find $3m$.
 
 **Q7** [5 marks]
 
-`bold a equals open parentheses table row cell negative 3 end cell row 2 end table close parentheses space space space space space space space bold b equals open parentheses table row 5 row 4 end table close parentheses space space space space space space space bold c equals open parentheses table row 14 row 9 end table close parentheses`
+$a = ( \begin{gathered} - 3 \\ 2 \end{gathered} ) b = ( \begin{gathered} 5 \\ 4 \end{gathered} ) c = ( \begin{gathered} 14 \\ 9 \end{gathered} )$
 
 $ma+nb=\text{c}$
 
@@ -107,7 +107,7 @@ $m$ = ................................................
 
 **Q8** [2 marks]
 
-Find the magnitude of the vector `open parentheses table row cell negative 1 end cell row 7 end table close parentheses`.
+Find the magnitude of the vector $( \begin{gathered} - 1 \\ 7 \end{gathered} )$.
 
 *Source: 2018	Feb/Mar 0580/42 Q9A*
 
@@ -116,13 +116,13 @@ Find the magnitude of the vector `open parentheses table row cell negative 1 end
 
 **Q9** [4 marks]
 
-`bold p equals open parentheses table row 4 row 5 end table close parentheses`       `bold q equals open parentheses table row cell negative 2 end cell row 7 end table close parentheses`
+$p = ( \begin{gathered} 4 \\ 5 \end{gathered} )$       $q = ( \begin{gathered} - 2 \\ 7 \end{gathered} )$
 
 i) Find $2p+q.$
 
-`open parentheses table row cell space space space space space end cell row blank end table close parentheses` [2]
+$( \begin{gathered} \\ \end{gathered} )$ [2]
 
-ii) Find `open vertical bar bold p close vertical bar`.
+ii) Find $\left| p \right|$.
 
 [2]
 
@@ -133,7 +133,7 @@ ii) Find `open vertical bar bold p close vertical bar`.
 
 **Q10** [2 marks]
 
-`bold u bold space equals space open parentheses table row 3 row cell negative 2 end cell end table close parentheses space space space space space space space space space space space bold italic v space equals space open parentheses table row cell negative 12 end cell row 5 end table close parentheses`
+$u = ( \begin{gathered} 3 \\ - 2 \end{gathered} ) v = ( \begin{gathered} - 12 \\ 5 \end{gathered} )$
 
 Find $u--2v.$
 
@@ -146,7 +146,7 @@ Find $u--2v.$
 
 bold italic v space equals space open parentheses table row cell negative 12 end cell row 5 end table close parentheses
 
-Find `space vertical line bold v vertical line space` .
+Find $\vert v \vert$ .
 
 *Source: Specimen 2025 0580/02 Q7B*
 
@@ -155,11 +155,11 @@ Find `space vertical line bold v vertical line space` .
 
 **Q11** [1 mark]
 
-Ahmed finds the magnitude of the vector `open parentheses space space space space 2
-minus 3 close parentheses`. 
+Ahmed finds the magnitude of the vector $( 2
+- 3 )$. 
 From this list, select the correct calculation.
 
-`square root of 2 squared space plus space minus 3 squared end root space space space space space space space space space space 2 to the power of 2 space end exponent minus space 3 squared space space space space space space space space space space square root of 2 squared space minus space 3 squared end root space space space space space space space space space space 2 to the power of 2 space end exponent plus space open parentheses negative 3 squared close parentheses space space space space space space space space space space square root of 2 squared space plus space open parentheses negative 3 close parentheses squared end root`
+$\sqrt{2^{2} + - 3^{2}} 2^{2 } - 3^{2} \sqrt{2^{2} - 3^{2}} 2^{2 } + ( - 3^{2} ) \sqrt{2^{2} + ( - 3 )^{2}}$
 
 *Source: 2020 Oct/Nov 0580/02 Q9B*
 
@@ -168,13 +168,13 @@ From this list, select the correct calculation.
 
 **Q12** [4 marks]
 
-`bold a equals open parentheses table row cell negative 3 end cell row 2 end table close parentheses space space space space space space space bold b equals open parentheses table row 5 row 4 end table close parentheses space space space space space space space bold c equals open parentheses table row 14 row 9 end table close parentheses`
+$a = ( \begin{gathered} - 3 \\ 2 \end{gathered} ) b = ( \begin{gathered} 5 \\ 4 \end{gathered} ) c = ( \begin{gathered} 14 \\ 9 \end{gathered} )$
 
 i) Find  $3a-2b$ .
 
-`open parentheses table row cell space space space space space end cell row cell space space space space space end cell end table close parentheses` [2]
+$( \begin{gathered} \\ \end{gathered} )$ [2]
 
-ii) Find  `vertical line space bold a bold space vertical line`.
+ii) Find  $\vert a \vert$.
 
 [2]
 
@@ -185,8 +185,8 @@ ii) Find  `vertical line space bold a bold space vertical line`.
 
 **Q13** [3 marks]
 
-`stack M T with rightwards arrow on top space space equals space open parentheses 2 k
-minus k close parentheses`  and  `open vertical bar stack M T with rightwards arrow on top space close vertical bar equals space square root of 180`.   
+$\vec{MT} = ( 2 k
+- k )$  and  $\left| \vec{MT} \right| = \sqrt{180}$.   
 Find the positive value of $k$.
 
 $k=$ ..............................................
@@ -198,8 +198,8 @@ $k=$ ..............................................
 
 **Q14** [2 marks]
 
-`stack V W with rightwards arrow on top equals open parentheses table row 10 row cell negative 24 end cell end table close parentheses` 
-Find  `open vertical bar stack V W with rightwards arrow on top close vertical bar.`
+$\vec{VW} = ( \begin{gathered} 10 \\ - 24 \end{gathered} )$ 
+Find  $\left| \vec{VW} \right| .$
 
 *Source: 2020	May/June 0580/21 Q17A*
 
@@ -212,11 +212,11 @@ Find  `open vertical bar stack V W with rightwards arrow on top close vertical b
 
 i) Find the column vector $\overset{\rightarrow}{AB}$.
 
-`stack A B with rightwards arrow on top equals open parentheses table row cell space space space space end cell row cell space space space space space space end cell end table close parentheses` [1]
+$\vec{AB} = ( \begin{gathered} \\ \end{gathered} )$ [1]
 
-ii) Find  `vertical line stack A B with rightwards arrow on top vertical line`.
+ii) Find  $\vert \vec{AB} \vert$.
 
-`vertical line stack A B with rightwards arrow on top vertical line equals`................................................. [2]
+$\vert \vec{AB} \vert =$................................................. [2]
 
 *Source: 2018	Oct/Nov 0580/43 Q1B*
 
@@ -225,10 +225,10 @@ ii) Find  `vertical line stack A B with rightwards arrow on top vertical line`.
 
 **Q16** [1 mark]
 
-`bold m equals open parentheses table row 5 row 7 end table close parentheses` 
+$m = ( \begin{gathered} 5 \\ 7 \end{gathered} )$ 
 Find $3m$.
 
-`open parentheses table row cell space space space space space space end cell row blank end table close parentheses`
+$( \begin{gathered} \\ \end{gathered} )$
 
 *Source: 2020	May/June 0580/21 Q17A*
 

@@ -7,9 +7,9 @@
 ### 22() — 6 marks
 > *Use the information *$JK=\sqrt{80}$* to find an equation for the length of the line connecting **J **and **K **in terms of **j **and **k.*
 
-> *The formula for the length between the points (**x*<sub>*1*</sub>*, **y*<sub>*1*</sub>*) and (**x*<sub>*2*</sub>*, **y*<sub>*2*</sub>*) is *`square root of open parentheses x subscript 2 minus x subscript 1 close parentheses squared plus open parentheses y subscript 2 minus y subscript 1 close parentheses squared end root`*. Use this formula with the points (**j**, 15) and (6, **k**). *
+> *The formula for the length between the points (**x*<sub>*1*</sub>*, **y*<sub>*1*</sub>*) and (**x*<sub>*2*</sub>*, **y*<sub>*2*</sub>*) is *$\sqrt{( x_{2} - x_{1} )^{2} + ( y_{2} - y_{1} )^{2}}$*. Use this formula with the points (**j**, 15) and (6, **k**). *
 
-`table row cell square root of open parentheses k space minus space 15 close parentheses squared plus open parentheses 6 space minus space j close parentheses squared end root space end cell equals cell space square root of 80 end cell row cell open parentheses k space minus space 15 close parentheses squared plus open parentheses 6 space minus space j close parentheses squared space end cell equals cell space 80 end cell end table`
+$\begin{gathered} \sqrt{( k - 15 )^{2} + ( 6 - j )^{2}} & = \sqrt{80} \\ ( k - 15 )^{2} + ( 6 - j )^{2} & = 80 \end{gathered}$
 
 ** ****[1]**
 
@@ -29,53 +29,53 @@ $m_{JK}=\frac{15-k}{j-6}=-\frac{1}{2}$
 
 > *Solve the two equations simultaneously to find the values of **j** and **k. **Number the equations.*
 
-`table row cell open parentheses k space minus space 15 close parentheses squared plus open parentheses 6 space minus space j close parentheses squared space end cell equals cell space 80 space space space space space space space space space space space space open parentheses 1 close parentheses end cell row cell fraction numerator 15 space minus space k over denominator j space minus space 6 end fraction space end cell equals cell space minus 1 half space space space space space space space space open parentheses 2 close parentheses end cell end table`
+$\begin{gathered} ( k - 15 )^{2} + ( 6 - j )^{2} & = 80 ( 1 ) \\ \frac{15 - k}{j - 6} & = - 1 \frac{1}{2} ( 2 ) \end{gathered}$
 
 > *Notice here that the expressions inside the brackets in equation (1) are similar to those on the numerator and denominator of equation (2). Multiply both parts of the fraction by -1 to get the expressions to be the same.*
 
-`table row cell fraction numerator negative open parentheses 15 space minus space k close parentheses over denominator negative space open parentheses j space minus space 6 close parentheses end fraction space end cell equals cell space minus 1 half space space space space space space space space open parentheses 2 close parentheses end cell row cell fraction numerator k space minus 15 over denominator 6 space minus space j end fraction space end cell equals cell space minus 1 half space space space space space space space space open parentheses 2 close parentheses end cell end table`
+$\begin{gathered} \frac{- ( 15 - k )}{- ( j - 6 )} & = - 1 \frac{1}{2} ( 2 ) \\ \frac{k - 15}{6 - j} & = - 1 \frac{1}{2} ( 2 ) \end{gathered}$
 
 > *Rearrange equation (2) to make (**k **-15) the subject.*
 
-`table row cell k space minus space 15 end cell equals cell space minus 1 half open parentheses 6 space minus space j close parentheses space space space space space space space space open parentheses 2 close parentheses end cell end table`
+$\begin{gathered} k - 15 & = - 1 \frac{1}{2} ( 6 - j ) ( 2 ) \end{gathered}$
 
 > *Substitute into equation (1).*
 
-`table row cell open parentheses negative 1 half open parentheses 6 space minus space j close parentheses close parentheses squared plus open parentheses 6 space minus space j close parentheses squared space end cell equals cell space 80 space space space space space space space open parentheses 1 close parentheses end cell row cell open parentheses j over 2 minus 6 over 2 close parentheses squared plus open parentheses 6 space minus space j close parentheses squared space end cell equals cell space 80 space space space space space space space open parentheses 1 close parentheses end cell row cell open parentheses j over 2 minus 3 close parentheses squared plus open parentheses 6 space minus space j close parentheses squared space end cell equals cell space 80 space space space space space space space open parentheses 1 close parentheses end cell end table`
+$\begin{gathered} ( - 1 \frac{1}{2} ( 6 - j ) )^{2} + ( 6 - j )^{2} & = 80 ( 1 ) \\ ( \frac{j}{2} - \frac{6}{2} )^{2} + ( 6 - j )^{2} & = 80 ( 1 ) \\ ( \frac{j}{2} - 3 )^{2} + ( 6 - j )^{2} & = 80 ( 1 ) \end{gathered}$
 
 > *Expand the brackets and simplify.*
 
-`table row cell open parentheses j over 2 close parentheses squared minus 6 open parentheses j over 2 close parentheses plus 9 space plus space 36 space minus 12 j space plus space j squared space end cell equals cell space 80 space space space space space space space space open parentheses 1 close parentheses end cell row cell j squared over 4 space space minus space 3 j space plus space 45 minus 12 j space plus space j squared space end cell equals cell space 80 space space space space space space space space open parentheses 1 close parentheses end cell row cell fraction numerator 5 j squared over denominator 4 end fraction space space minus space 15 j space plus space 45 space space end cell equals cell space 80 space space space space space space space space open parentheses 1 close parentheses end cell end table`
+$\begin{gathered} ( \frac{j}{2} )^{2} - 6 ( \frac{j}{2} ) + 9 + 36 - 12 j + j^{2} & = 80 ( 1 ) \\ \frac{j^{2}}{4} - 3 j + 45 - 12 j + j^{2} & = 80 ( 1 ) \\ \frac{5 j^{2}}{4} - 15 j + 45 & = 80 ( 1 ) \end{gathered}$
 
 > *Rearrange equation (1) to form a quadratic in the form **ax*<sup>*2 *</sup>*+ **bx **+ c = 0*
 
-`table row cell 5 j squared space space minus space 60 j space plus space 180 space end cell equals cell space 320 space space space space space space space space open parentheses 1 close parentheses end cell row cell 5 j squared space space minus space 60 j space minus space 140 space end cell equals cell space 0 space space space space space space space space space space space space space open parentheses 1 close parentheses end cell end table`
+$\begin{gathered} 5 j^{2} - 60 j + 180 & = 320 ( 1 ) \\ 5 j^{2} - 60 j - 140 & = 0 ( 1 ) \end{gathered}$
 
 **[1]**
 
 > *Equation (1) can be made easier to solve by dividing every term by 5.*
 
-`table row cell j squared space space minus space 12 j space minus space 28 space end cell equals cell space 0 space space space space space space space space space space space space space open parentheses 1 close parentheses end cell end table`
+$\begin{gathered} j^{2} - 12 j - 28 & = 0 ( 1 ) \end{gathered}$
 
 > *Factorise.*
 
-`open parentheses j space minus space 14 close parentheses open parentheses j space plus space 2 close parentheses space equals space 0 space space space space open parentheses 1 close parentheses
-j space equals space 14 space space space or space space space j space equals space minus 2`
+$( j - 14 ) ( j + 2 ) = 0 ( 1 )
+j = 14 \text{or} j = - 2$
 
 **[1]**
 
 > *We are told that **j** < 0, so ignore the positive answer and use the negative value to find the corresponding value of **k** by substituting into equation (2).*
 
-`table row cell k space minus space 15 end cell equals cell space minus 1 half open parentheses 6 space minus space j close parentheses space space space space space space space space open parentheses 2 close parentheses end cell row cell k space minus space 15 end cell equals cell space minus 1 half open parentheses 6 space minus space open parentheses negative 2 close parentheses close parentheses space space space space space space space space open parentheses 2 close parentheses end cell row cell k space end cell equals cell space minus 1 half open parentheses 8 close parentheses space plus space 15 space space space space space space open parentheses 2 close parentheses end cell row cell k space end cell equals cell space 11 end cell end table`
+$\begin{gathered} k - 15 & = - 1 \frac{1}{2} ( 6 - j ) ( 2 ) \\ k - 15 & = - 1 \frac{1}{2} ( 6 - ( - 2 ) ) ( 2 ) \\ k & = - 1 \frac{1}{2} ( 8 ) + 15 ( 2 ) \\ k & = 11 \end{gathered}$
 
 $j=-2,k=11$* ***[1]**
 
 ## Q2 — hard — 5 marks · exam-questions
 
 ### 15((a)) — 2 marks
-> *Use the midpoint formula, *`open parentheses fraction numerator x subscript 1 plus x subscript 2 over denominator 2 end fraction space comma space fraction numerator y subscript 1 plus y subscript 2 over denominator 2 end fraction close parentheses`
+> *Use the midpoint formula, *$( \frac{x_{1} + x_{2} }{2} , \frac{y_{1} + y_{2} }{2} )$
 
-`C equals open parentheses fraction numerator negative 2 plus 8 over denominator 2 end fraction space comma space fraction numerator 4 plus 9 over denominator 2 end fraction close parentheses`
+$C = ( \frac{- 2 + 8}{2} , \frac{4 + 9}{2} )$
 
 **[1]**
 
@@ -86,13 +86,13 @@ $6.5$**, **$\frac{13}{2}$** are both acceptable for the **$y$**coordinate**
 ### 15((b)) — 3 marks
 > *If the point **D** is on the same line as **A** and **B**, then **AB** will have the same gradient as **AD** (or **BD**)*
 
-> *First we can find the gradient of **AB**, using the gradient formula *$\frac{y_{1}-y_{2}}{x_{1}-x_{2}}$*, taking **A **as *`open parentheses x subscript 1 comma space y subscript 1 close parentheses`* and **B** as *`open parentheses x subscript 2 comma space y subscript 2 close parentheses`
+> *First we can find the gradient of **AB**, using the gradient formula *$\frac{y_{1}-y_{2}}{x_{1}-x_{2}}$*, taking **A **as *$( x_{1} , y_{1} )$* and **B** as *$( x_{2} , y_{2} )$
 
 $m_{AB}=\frac{4-9}{-2-8}=\frac{1}{2}$
 
 **gradient of AB ****[1]**
 
-> *Now find the gradient of **AD **(or **BD**) using the gradient formula *$\frac{y_{1}-y_{2}}{x_{1}-x_{2}}$*, taking **A **as *`open parentheses x subscript 1 comma space y subscript 1 close parentheses`* and **D** as *`open parentheses x subscript 2 comma space y subscript 2 close parentheses`
+> *Now find the gradient of **AD **(or **BD**) using the gradient formula *$\frac{y_{1}-y_{2}}{x_{1}-x_{2}}$*, taking **A **as *$( x_{1} , y_{1} )$* and **D** as *$( x_{2} , y_{2} )$
 
 $m_{AD}=\frac{4-56}{-2-100}=\frac{52}{102}$
 
@@ -111,9 +111,9 @@ $m_{AD}=\frac{4-56}{-2-100}=\frac{52}{102}$
 ## Q3 — medium — 4 marks · exam-questions
 
 ### 13((b)) — 2 marks
-> *Use the midpoint formula, *`open parentheses fraction numerator x subscript 1 plus x subscript 2 over denominator 2 end fraction space comma space fraction numerator y subscript 1 plus y subscript 2 over denominator 2 end fraction close parentheses`
+> *Use the midpoint formula, *$( \frac{x_{1} + x_{2} }{2} , \frac{y_{1} + y_{2} }{2} )$
 
-`open parentheses fraction numerator negative 1 plus 7 over denominator 2 end fraction space comma space fraction numerator 2 plus 5 over denominator 2 end fraction close parentheses`
+$( \frac{- 1 + 7}{2} , \frac{2 + 5}{2} )$
 
 **[1]**
 
@@ -126,9 +126,9 @@ $(3,3.5)$ **[1]**
 ### 13((b)) — 2 marks
 > *As you are given two coordinate points rather than a diagram, it's best to use the gradient formula, *$\frac{y_{1}-y_{2}}{x_{1}-x_{2}}$* or *$\frac{y_{2}-y_{1}}{x_{2}-x_{1}}$
 
-> *Here we will use *$\frac{y_{1}-y_{2}}{x_{1}-x_{2}}$*, taking **P **as *`open parentheses x subscript 1 comma space y subscript 1 close parentheses`* and **Q** as *`open parentheses x subscript 2 comma space y subscript 2 close parentheses`*- but you should get the same answer whichever version of the above formula you use so long as the substitution is done correctly*
+> *Here we will use *$\frac{y_{1}-y_{2}}{x_{1}-x_{2}}$*, taking **P **as *$( x_{1} , y_{1} )$* and **Q** as *$( x_{2} , y_{2} )$*- but you should get the same answer whichever version of the above formula you use so long as the substitution is done correctly*
 
-`fraction numerator 4 minus open parentheses negative 5 close parentheses over denominator negative 4 minus 1 end fraction`
+$\frac{4 - ( - 5 )}{- 4 - 1}$
 
 **[1]**
 
@@ -139,15 +139,15 @@ $-\frac{9}{5}$** ****or **$-1.8$** ****[1]**
 ## Q4 — easy — 2 marks · exam-questions
 
 ### 1() — 2 marks
-> *Use the midpoint formula, *`open parentheses fraction numerator x subscript 1 plus x subscript 2 over denominator 2 end fraction space comma space fraction numerator y subscript 1 plus y subscript 2 over denominator 2 end fraction close parentheses`
+> *Use the midpoint formula, *$( \frac{x_{1} + x_{2} }{2} , \frac{y_{1} + y_{2} }{2} )$
 
-`M equals open parentheses fraction numerator 2 plus 6 over denominator 2 end fraction space comma space fraction numerator 3 plus 8 over denominator 2 end fraction close parentheses`
+$M = ( \frac{2 + 6}{2} , \frac{3 + 8}{2} )$
 
 **[1]**
 
 > *Simplify by hand, or work out the **x** and then the **y** coordinate using your calculator*
 
-`equals open parentheses 8 over 2 space comma space 11 over 2 close parentheses`
+$= ( \frac{8}{2} , \frac{11}{2} )$
 
 $M=(4,5.5)$ **[1]**
 
@@ -193,7 +193,7 @@ $A=(102,104)$** [1]**
 
 ![edexcel-tq-mis-2-12-m-3-2](assets/017-edexcel-tq-mis-2-12-m-3-2.png)
 
-`table row x equals cell 1 minus 4 end cell row blank equals cell negative 3 end cell end table`
+$\begin{gathered} x = 1 - 4 \\ = - 3 \end{gathered}$
 
 **correct x or y coordinate**** [1]**
 
@@ -203,7 +203,7 @@ $A=(102,104)$** [1]**
 
 > *This time we go back 4.5*
 
-`table row y equals cell 2.5 minus 4.5 end cell row blank equals cell negative 2 end cell end table`
+$\begin{gathered} y = 2.5 - 4.5 \\ = - 2 \end{gathered}$
 
 > *Now write the final answer as a coordinate*
 
@@ -211,9 +211,9 @@ $(-3,-2)$ **[1]**
 
 > *Method 2** - Use the formula*
 
-> *Substitute what we know into the formula. We can let **P** be *`open parentheses x subscript 1 comma space y subscript 1 close parentheses`* and **Q** be *`open parentheses x comma space y close parentheses`
+> *Substitute what we know into the formula. We can let **P** be *$( x_{1} , y_{1} )$* and **Q** be *$( x , y )$
 
-`open parentheses 1 comma space 2.5 close parentheses equals open parentheses fraction numerator 5 plus x over denominator 2 end fraction comma space fraction numerator 7 plus y over denominator 2 end fraction close parentheses`
+$( 1 , 2.5 ) = ( \frac{5 + x}{2} , \frac{7 + y}{2} )$
 
 **[1]**
 
@@ -223,13 +223,13 @@ $1=\frac{5+x}{2}\mathrm{and}2.5=\frac{7+y}{2}$
 
 > *Solve the *$x$* part, starting by multiplying both sides by the denominator to clear the fraction*
 
-`table row 2 equals cell 5 plus x end cell row x equals cell negative 3 end cell end table`
+$\begin{gathered} 2 = 5 + x \\ x = - 3 \end{gathered}$
 
 **correct x or y coordinate**** [1]**
 
 > *Solve the *$y$* part, starting by multiplying both sides by the denominator to clear the fraction*
 
-`table row 5 equals cell 7 plus y end cell row y equals cell negative 2 end cell end table`
+$\begin{gathered} 5 = 7 + y \\ y = - 2 \end{gathered}$
 
 > *Now write the final answer as a coordinate*
 
@@ -265,21 +265,21 @@ $y=\frac{-7}{2}x-\frac{10}{2}$
 
 ![edexcel-tq-mis-2-12-h-5-2](assets/006-edexcel-tq-mis-2-12-h-5-2.png)
 
-> *First we can find **M** and **N** using the midpoint formula, *`open parentheses fraction numerator x subscript 1 plus x subscript 2 over denominator 2 end fraction space comma space fraction numerator y subscript 1 plus y subscript 2 over denominator 2 end fraction close parentheses`
+> *First we can find **M** and **N** using the midpoint formula, *$( \frac{x_{1} + x_{2} }{2} , \frac{y_{1} + y_{2} }{2} )$
 
-`table row M equals cell open parentheses fraction numerator negative 3 plus 1 over denominator 2 end fraction space comma space fraction numerator negative 6 plus 4 over denominator 2 end fraction close parentheses end cell row M equals cell open parentheses negative 1 comma space minus 1 close parentheses end cell end table`           `table row N equals cell open parentheses fraction numerator 1 plus 5 over denominator 2 end fraction space comma space fraction numerator 4 plus open parentheses negative 2 close parentheses over denominator 2 end fraction close parentheses end cell row N equals cell open parentheses 3 comma space 1 close parentheses end cell end table`
+$\begin{gathered} M = ( \frac{- 3 + 1}{2} , \frac{- 6 + 4}{2} ) \\ M = ( - 1 , - 1 ) \end{gathered}$           $\begin{gathered} N = ( \frac{1 + 5}{2} , \frac{4 + ( - 2 )}{2} ) \\ N = ( 3 , 1 ) \end{gathered}$
 
 ** ****attempting to find either midpoint using a correct method ****[1]**
 
 > *We need to show that the gradient of **MN** is the same as the gradient of **PR *
 
-> *Starting with **MN**, find the gradient using *$\frac{y_{1}-y_{2}}{x_{1}-x_{2}}$*, taking **M **as *`open parentheses x subscript 1 comma space y subscript 1 close parentheses`* and **N** as *`open parentheses x subscript 2 comma space y subscript 2 close parentheses`
+> *Starting with **MN**, find the gradient using *$\frac{y_{1}-y_{2}}{x_{1}-x_{2}}$*, taking **M **as *$( x_{1} , y_{1} )$* and **N** as *$( x_{2} , y_{2} )$
 
 $m_{MN}=\frac{-1-1}{-1-3}=\frac{-2}{-4}=\frac{1}{2}$
 
-> *Now **PR**, find the gradient using *$\frac{y_{1}-y_{2}}{x_{1}-x_{2}}$*, taking **P **as *`open parentheses x subscript 1 comma space y subscript 1 close parentheses`* and **R** as *`open parentheses x subscript 2 comma space y subscript 2 close parentheses`
+> *Now **PR**, find the gradient using *$\frac{y_{1}-y_{2}}{x_{1}-x_{2}}$*, taking **P **as *$( x_{1} , y_{1} )$* and **R** as *$( x_{2} , y_{2} )$
 
-`m subscript P R end subscript equals fraction numerator negative 6 minus open parentheses negative 2 close parentheses over denominator negative 3 minus 5 end fraction equals fraction numerator negative 4 over denominator negative 8 end fraction equals 1 half`
+$m_{P R} = \frac{- 6 - ( - 2 )}{- 3 - 5} = \frac{- 4}{- 8} = 1 \frac{1}{2}$
 
 ** ****attempting to find either gradient using a correct method ****[1] ****correctly obtaining both gradients ****[1]**
 
@@ -294,17 +294,17 @@ $m_{MN}=m_{PR}=\frac{1}{2}$ **therefore ****MN**** and ****PR**** are parallel *
 
 > *Find an expression in terms of **b **for the midpoint of **AB.*
 
-*Midpoint =* `open parentheses fraction numerator negative 3 space plus space 47 over denominator 2 end fraction space comma space fraction numerator 11 space plus space b over denominator 2 end fraction close parentheses`
+*Midpoint =* $( \frac{- 3 + 47}{2} , \frac{11 + b}{2} )$
 
 **[1]**
 
 > *Use the **x **coordinate to find the value of *$a$*.*
 
-`table row cell fraction numerator negative 3 space plus space 47 over denominator 2 end fraction space end cell equals cell space a end cell row cell 44 over 2 space end cell equals cell space a end cell row cell a space end cell equals cell space 22 end cell end table`
+$\begin{gathered} \frac{- 3 + 47}{2} & = a \\ \frac{44}{2} & = a \\ a & = 22 \end{gathered}$
 
 > *Use the **y **coordinate to form and solve an equation in terms of *$b$*.*
 
-`table row cell fraction numerator 11 space plus space b over denominator 2 end fraction space end cell equals cell space minus 19 end cell row cell 11 space plus space b space end cell equals cell space minus 38 end cell row cell b space end cell equals cell space minus 38 space minus space 11 end cell end table`
+$\begin{gathered} \frac{11 + b}{2} & = - 19 \\ 11 + b & = - 38 \\ b & = - 38 - 11 \end{gathered}$
 
 $a=22,b=-49$** ****[1]**
 
@@ -384,7 +384,7 @@ $(22,20)$ **[1]**
 
 > *We can find the mean of the x-coordinates using *$\frac{x_{1}+x_{2}}{2}$* and find the mean of the y-coordinates using *$\frac{y_{1}+y_{2}}{2}$*.*
 
-*Midpoint =* `open parentheses fraction numerator 5 space plus space 13 over denominator 2 end fraction space comma space fraction numerator negative 4 space plus space 1 over denominator 2 end fraction close parentheses`
+*Midpoint =* $( \frac{5 + 13}{2} , \frac{- 4 + 1}{2} )$
 
 **[1]**
 
@@ -406,13 +406,13 @@ $y=-3x+2$
 
 > *We can find the gradient of Line **A** ** by rearranging into the form *$y=mx+c$
 
-`table row cell 2 y end cell equals cell 3 x plus 8 end cell row y equals cell 3 over 2 x plus 4 end cell end table`
+$\begin{gathered} 2 y & = 3 x + 8 \\ y = \frac{3}{2} x + 4 \end{gathered}$
 
 > *Therefore Line **A** has a gradient of *$\frac{3}{2}$
 
 **[1]**
 
-> *Next we can find the gradient of Line **B**, using the gradient formula *$\frac{y_{1}-y_{2}}{x_{1}-x_{2}}$*, taking *`open parentheses negative 1 comma space 2 close parentheses`* **as *`open parentheses x subscript 1 comma space y subscript 1 close parentheses`* and *`open parentheses 2 comma space 8 close parentheses`* as *`open parentheses x subscript 2 comma space y subscript 2 close parentheses`
+> *Next we can find the gradient of Line **B**, using the gradient formula *$\frac{y_{1}-y_{2}}{x_{1}-x_{2}}$*, taking *$( - 1 , 2 )$* **as *$( x_{1} , y_{1} )$* and *$( 2 , 8 )$* as *$( x_{2} , y_{2} )$
 
 $\frac{2-8}{-1-2}=\frac{-6}{-3}=2$
 
@@ -427,7 +427,7 @@ $\frac{2-8}{-1-2}=\frac{-6}{-3}=2$
 ### 19() — 2 marks
 > *First we need to find **P.** Using the diagram we can see that *
 
-`P equals open parentheses 6 comma space 4 comma space 3 close parentheses`
+$P = ( 6 , 4 , 3 )$
 
 **[1]**
 
@@ -435,7 +435,7 @@ $\frac{2-8}{-1-2}=\frac{-6}{-3}=2$
 
 > *So multiply each of the coordinates by one third*
 
-`P equals open parentheses 1 third cross times 6 comma space 1 third cross times 4 comma space 1 third cross times 3 close parentheses`
+$P = ( 1 \frac{1}{3} \times 6 , 1 \frac{1}{3} \times 4 , 1 \frac{1}{3} \times 3 )$
 
 $(2,\frac{4}{3},1)$* ***[1]**
 
@@ -469,7 +469,7 @@ $y=\frac{-5}{2}x+\frac{7}{2}$
 
 > *Considering the **x**- coordinates, the value of **b** can be found by subtracting the difference of the **x** coordinates of **A **and **B **from the **x-**coordinate of **C.*
 
-`b equals space 19 space minus space open parentheses 1 minus open parentheses negative 4 close parentheses close parentheses space equals space 19 space minus space 5 space equals space 14`
+$b = 19 - ( 1 - ( - 4 ) ) = 19 - 5 = 14$
 
 **[1]**
 
@@ -491,22 +491,22 @@ $m_{BC}=\frac{10-a}{1-19}=-\frac{5}{12}$
 
 > *Solve to find **a.*
 
-`table row cell fraction numerator 10 minus space a over denominator negative 18 end fraction space end cell equals cell space minus 5 over 12 end cell row cell 10 space minus space a space end cell equals cell space 15 over 2 end cell row cell a space end cell equals cell space 10 space minus 15 over 2 space equals space 2.5 end cell end table`
+$\begin{gathered} \frac{10 - a}{- 18} & = - \frac{5}{12} \\ 10 - a & = \frac{15}{2} \\ a & = 10 - \frac{15}{2} = 2.5 \end{gathered}$
 
 > *Substitute into **c **=** a **- 12, using the difference in the **y**- coordinates on the diagram.*
 
-`table row cell c space end cell equals cell space a space minus space 12 space equals space 2.5 space minus space 12 space equals space minus 9.5 end cell end table`
+$\begin{gathered} c & = a - 12 = 2.5 - 12 = - 9.5 \end{gathered}$
 
 $a=2.5,b=14,c=-9.5$* ***[1]**
 
 ### 18((b)) — 3 marks
 > *The perimeter of a rectangle is 2(length + width). Find the length of **AB **and **AD** using the formula for the length of a line.*
 
-> *The formula for the length between the points (**x*<sub>*1*</sub>*, **y*<sub>*1*</sub>*) and (**x*<sub>*2*</sub>*, **y*<sub>*2*</sub>*) is *`square root of open parentheses x subscript 2 minus x subscript 1 close parentheses squared plus open parentheses y subscript 2 minus y subscript 1 close parentheses squared end root`*.*
+> *The formula for the length between the points (**x*<sub>*1*</sub>*, **y*<sub>*1*</sub>*) and (**x*<sub>*2*</sub>*, **y*<sub>*2*</sub>*) is *$\sqrt{( x_{2} - x_{1} )^{2} + ( y_{2} - y_{1} )^{2}}$*.*
 
 > *For **AB **use the formula with the points (-4, -2) and (1, 10). Use brackets around negatives.*
 
-`A B equals square root of open parentheses 1 minus open parentheses negative 4 close parentheses close parentheses squared plus open parentheses open parentheses 10 close parentheses minus open parentheses negative 2 close parentheses close parentheses squared end root`
+$A B = \sqrt{( 1 - ( - 4 ) )^{2} + ( ( 10 ) - ( - 2 ) )^{2}}$
 
 **Correct expression**** [1]**
 
@@ -516,17 +516,17 @@ $AB=\sqrt{5^{2}+12^{2}}=\sqrt{25+144}=\sqrt{169}=13$
 
 > *For **BC **use the formula with the points (1, 10) and (19, 2.5). *
 
-`B C equals square root of open parentheses 19 minus 1 close parentheses squared plus open parentheses 2.5 minus 10 close parentheses squared end root`
+$B C = \sqrt{( 19 - 1 )^{2} + ( 2.5 - 10 )^{2}}$
 
 **Correct expression**** [1]**
 
 > *You could simplify before typing it into your calculator or just type it straight in.*
 
-`B C equals square root of 18 squared space plus space open parentheses negative 7.5 close parentheses squared end root space equals space square root of 324 space plus space 56.25 end root space equals space square root of 380.25 end root space equals space 19.5`
+$B C = \sqrt{18^{2} + ( - 7.5 )^{2}} = \sqrt{324 + 56.25} = \sqrt{380.25} = 19.5$
 
 > *Find the perimeter using 2(length + width).*
 
-`Perimeter space equals 2 open parentheses 13 plus 19.5 close parentheses space equals space 2 space cross times space 32.5 space equals space 65`
+$Perimeter = 2 ( 13 + 19.5 ) = 2 \times 32.5 = 65$
 
 **65 cm ****[1]**
 
@@ -565,9 +565,9 @@ $p=8$* ***[1]**
 ## Q19 — easy — 1 marks · exam-questions
 
 ### 3() — 1 marks
-> *Use the midpoint formula, *`open parentheses fraction numerator x subscript 1 plus x subscript 2 over denominator 2 end fraction space comma space fraction numerator y subscript 1 plus y subscript 2 over denominator 2 end fraction close parentheses`*.*
+> *Use the midpoint formula, *$( \frac{x_{1} + x_{2} }{2} , \frac{y_{1} + y_{2} }{2} )$*.*
 
-`table row M equals cell open parentheses fraction numerator 2 plus 10 over denominator 2 end fraction space comma space fraction numerator 13 plus 1 over denominator 2 end fraction close parentheses end cell row blank equals cell open parentheses 12 over 2 space comma space 14 over 2 close parentheses end cell end table`
+$\begin{gathered} M = ( \frac{2 + 10}{2} , \frac{13 + 1}{2} ) \\ = ( \frac{12}{2} , \frac{14}{2} ) \end{gathered}$
 
 > *Simplify.*
 
@@ -588,29 +588,29 @@ $y=2x$
 
 ** [1]**
 
-> *Substitute into the formula for the length of a line segment, *`d equals square root of open parentheses x subscript 2 minus x subscript 1 close parentheses squared plus open parentheses y subscript 2 minus y subscript 1 close parentheses squared end root.`
+> *Substitute into the formula for the length of a line segment, *$d = \sqrt{( x_{2} - x_{1} )^{2} + ( y_{2} - y_{1} )^{2}} .$
 
-`table row cell square root of open parentheses x minus 0 close parentheses squared plus open parentheses 2 x minus 0 close parentheses squared end root space end cell equals cell square root of 2645 space end cell row cell open parentheses x close parentheses squared plus open parentheses 2 x close parentheses squared space end cell equals cell 2645 space end cell end table`
+$\begin{gathered} \sqrt{( x - 0 )^{2} + ( 2 x - 0 )^{2}} & = \sqrt{2645} \\ ( x )^{2} + ( 2 x )^{2} & = 2645 \end{gathered}$
 
 **[1]**
 
 > *Simplify.*
 
-`table row cell x squared space plus space 4 x squared space end cell equals cell 2645 space end cell row cell 5 x squared space end cell equals cell 2645 space end cell end table`
+$\begin{gathered} x^{2} + 4 x^{2} & = 2645 \\ 5 x^{2} & = 2645 \end{gathered}$
 
 > *Divide both sides by 5.*
 
-`table row cell x squared space end cell equals cell 2645 over 5 space equals space 529 end cell end table`
+$\begin{gathered} x^{2} & = \frac{2645}{5} = 529 \end{gathered}$
 
 **[1]**
 
 > *Square root both sides to find **x**.*
 
-`table row cell x space end cell equals cell space 23 end cell end table`
+$\begin{gathered} x & = 23 \end{gathered}$
 
 > *Substitute in to the original equation to find **y.*
 
-`table row cell y space end cell equals cell space 2 x space equals 2 open parentheses 23 close parentheses space equals space 46 end cell end table`
+$\begin{gathered} y & = 2 x = 2 ( 23 ) = 46 \end{gathered}$
 
 $P(23,46)$ **[1]**
 
@@ -642,9 +642,9 @@ $m_{PQ}\timesm_{QR}=-\frac{3}{2}\times\frac{3}{4}=-\frac{9}{8}$
 ## Q22 — easy — 1 marks · exam-questions
 
 ### 2() — 1 marks
-> *Use the midpoint formula, *`open parentheses fraction numerator x subscript 1 plus x subscript 2 over denominator 2 end fraction space comma space fraction numerator y subscript 1 plus y subscript 2 over denominator 2 end fraction close parentheses`*.*
+> *Use the midpoint formula, *$( \frac{x_{1} + x_{2} }{2} , \frac{y_{1} + y_{2} }{2} )$*.*
 
-`M equals open parentheses fraction numerator 4 plus open parentheses negative 2 close parentheses over denominator 2 end fraction space comma space fraction numerator 9 plus 1 over denominator 2 end fraction close parentheses`
+$M = ( \frac{4 + ( - 2 )}{2} , \frac{9 + 1}{2} )$
 
 > *Simplify by hand.*
 
@@ -673,11 +673,11 @@ $\mathrm{AG}=17-4=13$
 
 > * And (from the diagram):*
 
-`table row 13 equals cell 3 plus 3 plus FG space end cell end table`
+$\begin{gathered} 13 = 3 + 3 + \text{FG} \end{gathered}$
 
 > *We can use this to find FG.*
 
-`table row 13 equals cell 6 plus FG space end cell row FG equals 7 end table`
+$\begin{gathered} 13 = 6 + \text{FG} \\ \text{FG} = 7 \end{gathered}$
 
 **[1]**
 
@@ -689,7 +689,7 @@ $\mathrm{AG}=17-4=13$
 
 > *C has the same **y-**coordinate as A but we need to add 3 + 3 + 3 + 7 to the **x**-coordinate. *
 
-`table row straight C equals cell open parentheses open square brackets 4 plus 3 plus 3 plus 7 plus 7 close square brackets comma space 9 close parentheses end cell row blank equals cell open parentheses 24 comma space 9 close parentheses end cell end table`
+$\begin{gathered} \mathrm{C} = ( [ 4 + 3 + 3 + 7 + 7 ] , 9 ) \\ = ( 24 , 9 ) \end{gathered}$
 
 **Final answer:** $C=(24,9)$** **
 
@@ -698,7 +698,7 @@ $\mathrm{AG}=17-4=13$
 
 > *For D, we need to add 3 + 3 to the **x**-coordinate of A and subtract 7 from the **y**-coordinate*
 
-`table row straight D equals cell open parentheses open square brackets 4 plus 3 plus 3 close square brackets comma space open square brackets 9 minus 7 close square brackets close parentheses end cell row blank equals cell open parentheses 10 comma space 2 close parentheses end cell end table`
+$\begin{gathered} \mathrm{D} = ( [ 4 + 3 + 3 ] , [ 9 - 7 ] ) \\ = ( 10 , 2 ) \end{gathered}$
 
 **Final answer:** $D=(10,2)$** **
 
@@ -710,11 +710,11 @@ $\mathrm{AG}=17-4=13$
 ### 7() — 3 marks
 > *AB** = **BC **so **B **is the midpoint of the coordinates **A **and **C. *
 
-> *Use the midpoint formula, *`open parentheses fraction numerator x subscript 1 plus x subscript 2 over denominator 2 end fraction space comma space fraction numerator y subscript 1 plus y subscript 2 over denominator 2 end fraction close parentheses`*, substitute the coordinates for **A** into the formula and let **B** be *`open parentheses x comma space y close parentheses`*. *
+> *Use the midpoint formula, *$( \frac{x_{1} + x_{2} }{2} , \frac{y_{1} + y_{2} }{2} )$*, substitute the coordinates for **A** into the formula and let **B** be *$( x , y )$*. *
 
 > *Set the formula equal to the coordinates given for **B.*
 
-`open parentheses 6 comma space 5 close parentheses equals open parentheses fraction numerator 0 space plus space x over denominator 2 end fraction comma space fraction numerator 2 space plus space y over denominator 2 end fraction close parentheses`
+$( 6 , 5 ) = ( \frac{0 + x}{2} , \frac{2 + y}{2} )$
 
 > *Now separate the *$x$* part of the formula from the *$y$* part.*
 
@@ -722,13 +722,13 @@ $6=\frac{0+x}{2}\mathrm{and}5=\frac{2+y}{2}$
 
 > *Solve the *$x$* part, starting by multiplying both sides by the denominator to clear the fraction*
 
-`table row cell 12 space end cell equals cell space 0 space plus space x end cell row cell x space end cell equals cell space 12 end cell end table`
+$\begin{gathered} 12 & = 0 + x \\ x & = 12 \end{gathered}$
 
 **Correct x or y coordinate**** [1]**
 
 > *Solve the *$y$* part, starting by multiplying both sides by the denominator to clear the fraction*
 
-`table row cell 10 space end cell equals cell space 2 space plus space y end cell row cell y space end cell equals cell space 8 end cell end table`
+$\begin{gathered} 10 & = 2 + y \\ y & = 8 \end{gathered}$
 
 > *So the coordinates of **C** are (12, 8)*
 
@@ -736,11 +736,11 @@ $6=\frac{0+x}{2}\mathrm{and}5=\frac{2+y}{2}$
 
 > *BC** = **CD **so **C **is the midpoint of the coordinates **B **and **D. *
 
-> *Use the midpoint formula, *`open parentheses fraction numerator x subscript 1 plus x subscript 2 over denominator 2 end fraction space comma space fraction numerator y subscript 1 plus y subscript 2 over denominator 2 end fraction close parentheses`*, substitute the coordinates for **B** into the formula and let **D** be *`open parentheses x comma space y close parentheses`*.*
+> *Use the midpoint formula, *$( \frac{x_{1} + x_{2} }{2} , \frac{y_{1} + y_{2} }{2} )$*, substitute the coordinates for **B** into the formula and let **D** be *$( x , y )$*.*
 
 > * Set the formula equal to the coordinates found for **C.*
 
-`open parentheses 12 comma space 8 close parentheses equals open parentheses fraction numerator 6 space plus space x over denominator 2 end fraction comma space fraction numerator 5 space plus space y over denominator 2 end fraction close parentheses`
+$( 12 , 8 ) = ( \frac{6 + x}{2} , \frac{5 + y}{2} )$
 
 > *Now separate the *$x$* part of the formula from the *$y$* part.*
 
@@ -748,45 +748,45 @@ $12=\frac{6+x}{2}\mathrm{and}8=\frac{5+y}{2}$
 
 > *Solve the *$x$* part, starting by multiplying both sides by the denominator to clear the fraction*
 
-`table row cell 24 space end cell equals cell space 6 space plus space x end cell row cell x space end cell equals cell space 18 end cell end table`
+$\begin{gathered} 24 & = 6 + x \\ x & = 18 \end{gathered}$
 
 > *Solve the *$y$* part, starting by multiplying both sides by the denominator to clear the fraction*
 
-`table row cell 16 space end cell equals cell space 5 space plus space y end cell row cell y space end cell equals cell space 11 end cell end table`
+$\begin{gathered} 16 & = 5 + y \\ y & = 11 \end{gathered}$
 
 **The coordinates for D = (18, 11) ****[1]**
 
 ## Q25 — easy — 1 marks · exam-questions
 
 ### 3() — 1 marks
-> *Substitute the *`open parentheses x comma space y close parentheses`* values into the equation *$y=x^{3}$*, check each coordinate to see if the *$y$* coordinate is the *$x$* coordinate cubed.*
+> *Substitute the *$( x , y )$* values into the equation *$y=x^{3}$*, check each coordinate to see if the *$y$* coordinate is the *$x$* coordinate cubed.*
 
 > *Option 1 cannot be the correct answer as:*
 
-`open parentheses negative 1 half close parentheses cubed space equals space minus 1 over 8`
+$( - 1 \frac{1}{2} )^{3} = - \frac{1}{8}$
 
 > *Option 2 cannot be the correct answer as:*
 
-`open parentheses 5 close parentheses cubed space equals space 125`
+$( 5 )^{3} = 125$
 
 > *Option 4 cannot be the correct answer as:*
 
-`open parentheses negative 1 close parentheses cubed space equals space minus 1`
+$( - 1 )^{3} = - 1$
 
 > *Option 3 must be the correct answer as:*
 
-`open parentheses 1 third close parentheses cubed space equals space 1 over 27 space not equal to space 1 over 9`
+$( 1 \frac{1}{3} )^{3} = \frac{1}{27} \text{eq} \frac{1}{9}$
 
 ** The correct answer is option 3, **$(\frac{1}{3},\frac{1}{9})$ **[1]**
 
 ## Q26 — hard — 3 marks · exam-questions
 
 ### 14() — 3 marks
-> *If *$r=p+2$* and *$s=q+4$* then we can rewrite *`open parentheses r comma space s close parentheses`* in terms of *$p$* and *$q$*.*
+> *If *$r=p+2$* and *$s=q+4$* then we can rewrite *$( r , s )$* in terms of *$p$* and *$q$*.*
 
-`open parentheses r comma space s close parentheses equals open parentheses p plus 2 comma space q plus 4 close parentheses`
+$( r , s ) = ( p + 2 , q + 4 )$
 
-> *Now we can substitute into the gradient formula *$\frac{y_{1}-y_{2}}{x_{1}-x_{2}}$*, taking *`open parentheses p plus 2 comma space q plus 4 close parentheses`* **as *`open parentheses x subscript 1 comma space y subscript 1 close parentheses`* and *`open parentheses p comma space q close parentheses`* as *`open parentheses x subscript 2 comma space y subscript 2 close parentheses`*.*
+> *Now we can substitute into the gradient formula *$\frac{y_{1}-y_{2}}{x_{1}-x_{2}}$*, taking *$( p + 2 , q + 4 )$* **as *$( x_{1} , y_{1} )$* and *$( p , q )$* as *$( x_{2} , y_{2} )$*.*
 
 $m=\frac{q+4-q}{p+2-p}$
 
@@ -809,7 +809,7 @@ $m=\frac{4}{2}$
 
 > *Substitute the values into the gradient formula, make sure that you use the corresponding **x **and **y **coordinates when substituting into the formula.*
 
-`m space equals space fraction numerator open parentheses negative 5 close parentheses space minus space open parentheses negative 9 close parentheses over denominator 2 space minus space 4 end fraction`
+$m = \frac{( - 5 ) - ( - 9 )}{2 - 4}$
 
 **[1]**
 
@@ -828,7 +828,7 @@ $m=\frac{-5+9}{-2}=\frac{4}{-2}$
 
 > *Substitute the coordinates of **A **and **C **into the formula for the gradient.*
 
-`m subscript A C end subscript space equals space fraction numerator 601 minus open parentheses negative 5 close parentheses over denominator negative 301 minus 2 end fraction`
+$m_{A C} = \frac{601 - ( - 5 )}{- 301 - 2}$
 
 **[1]**
 
@@ -844,26 +844,26 @@ $m_{AC}=\frac{606}{-303}=-2$
 
 > *Substitute the gradient and the coordinates of **A **into the** **formula for the equation of a straight line **y **= **mx **+ **c**.*
 
-`table row cell y space end cell equals cell space minus 2 x space plus space c end cell row cell open parentheses negative 5 close parentheses space end cell equals cell space open parentheses negative 2 close parentheses open parentheses 2 close parentheses space plus space c end cell end table`
+$\begin{gathered} y & = - 2 x + c \\ ( - 5 ) & = ( - 2 ) ( 2 ) + c \end{gathered}$
 
 > *Rearrange to find the value of **c**.*
 
-`table row cell negative 5 space end cell equals cell space minus 4 space plus space c end cell row cell c space end cell equals cell space minus 1 end cell end table`
+$\begin{gathered} - 5 & = - 4 + c \\ c & = - 1 \end{gathered}$
 
 **[1]**
 
 > *Substitute the coordinates of **C **into the equation found.*
 
-`table row cell y space end cell equals cell space minus 2 x space minus space 1 end cell row cell open parentheses 601 close parentheses space end cell equals cell space minus 2 open parentheses negative 301 close parentheses space minus space 1 end cell row cell 601 space end cell equals cell space 602 space minus space 1 end cell end table`
+$\begin{gathered} y & = - 2 x - 1 \\ ( 601 ) & = - 2 ( - 301 ) - 1 \\ 601 & = 602 - 1 \end{gathered}$
 
 **Yes, ****C**** lies on the line passing through ****A ****and ****B**** ****[1]**
 
 ## Q28 — easy — 1 marks · exam-questions
 
 ### 3() — 1 marks
-> *Use the midpoint formula, *`open parentheses fraction numerator x subscript 1 plus x subscript 2 over denominator 2 end fraction space comma space fraction numerator y subscript 1 plus y subscript 2 over denominator 2 end fraction close parentheses`*.*
+> *Use the midpoint formula, *$( \frac{x_{1} + x_{2} }{2} , \frac{y_{1} + y_{2} }{2} )$*.*
 
-`M equals open parentheses fraction numerator 2 plus 8 over denominator 2 end fraction space comma space fraction numerator 12 plus 2 over denominator 2 end fraction close parentheses`
+$M = ( \frac{2 + 8}{2} , \frac{12 + 2}{2} )$
 
 > *Simplify by hand or use your calculators to find the midpoint coordinates.*
 
@@ -878,7 +878,7 @@ $m_{AC}=\frac{606}{-303}=-2$
 
 > *To find the distance apart the coordinates should be, set the formula equal to 28 square units and solve to find the product of the base and the height. *
 
-`table row cell 1 half b h space end cell equals cell space 28 end cell row cell b h space end cell equals cell space 56 end cell end table`
+$\begin{gathered} 1 \frac{1}{2} b h & = 28 \\ b h & = 56 \end{gathered}$
 
 **[1]**
 
@@ -901,7 +901,7 @@ $m_{AC}=\frac{606}{-303}=-2$
 
 > *Substitute the values into the gradient formula.*
 
-`m space equals space fraction numerator 9 minus open parentheses 3 close parentheses over denominator 1 minus open parentheses negative 2 close parentheses end fraction`
+$m = \frac{9 - ( 3 )}{1 - ( - 2 )}$
 
 > *Take care with the negative numbers, use your calculator to help you.*
 

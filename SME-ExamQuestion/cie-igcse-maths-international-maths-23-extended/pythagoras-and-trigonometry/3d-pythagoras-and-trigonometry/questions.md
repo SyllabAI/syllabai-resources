@@ -14,7 +14,7 @@ The diagram shows a cuboid.
 
 ![Cuboid ABCDEFGH with side AH=4cm and AB=5cm](assets/001-cuboid-abcdefgh-with-side-ah-4cm-and-ab-5cm.png)
 
-`table row cell A B end cell equals cell 5 space cm end cell end table` and `table row cell A H end cell equals cell 4 space cm end cell end table`.
+$\begin{gathered} A B & = 5 \text{cm} \end{gathered}$ and $\begin{gathered} A H & = 4 \text{cm} \end{gathered}$.
 
 The size of the angle between $CH$ and the plane $ABCD$ is $35^{\circ}$
 

@@ -100,7 +100,7 @@ ii) Determine a value for *k* using the student’s graph.
 
 iii) The constant *k* is given by
 
-`k equals fraction numerator open parentheses rho subscript g minus rho subscript s close parentheses g over denominator 18 eta end fraction`
+$k = \frac{( \rho_{g} - \rho_{s} ) g}{18 \\eta }$
 
 where *η* is the viscosity of the liquid.
 
@@ -162,7 +162,7 @@ The student placed two rubber bands around the cylinder and started a stopwatch 
 
 The student recorded the time $t$ for the ball to fall through a distance of $21.0\text{cm}$ and repeated this for three different temperatures. They calculated the viscosity $η$ at each temperature using the formula
 
-`eta space equals space fraction numerator 2 r squared g open parentheses rho subscript s minus space rho subscript o close parentheses over denominator 9 v end fraction`
+$\\eta = \frac{2 r^{2} g ( \rho_{s} - \rho_{o} )}{9 v}$
 
 radius of steel sphere  $r=2.2\text{mm}$
 density of steel  $ρ_{s} = 7800 \text{kg m}^{-3}$ 

@@ -27,16 +27,16 @@ guided_study: true
 |---|---|---|
 | $a^{1}=a$ | Anything to the power of 1 is itself | $6^{1}=6$ |
 | $a^{0}=1$ | Anything to the power of 0 is 1 | $8^{0}=1$ |
-| $a^{m}\timesa^{n}=a^{m+n}$ | To multiply indices with the same base, add their powers | `4 cubed cross times 4 squared<br>equals open parentheses 4 cross times 4 cross times 4 close parentheses cross times open parentheses 4 cross times 4 close parentheses<br>equals 4 to the power of 5` |
-| $a^{m}\diva^{n}=\frac{a^{m}}{a^{n}}=a^{m-n}$ | To divide indices with the same base, subtract their powers | `7 to the power of 5 divided by 7 squared<br>equals fraction numerator 7 cross times 7 cross times 7 cross times up diagonal strike 7 cross times up diagonal strike 7 over denominator up diagonal strike 7 cross times up diagonal strike 7 end fraction<br>equals 7 to the power of 3 space end exponent` |
-| `open parentheses a to the power of m close parentheses to the power of n equals a to the power of m n end exponent` | To raise indices to a new power, multiply their powers | `open parentheses 14 cubed close parentheses squared<br>equals open parentheses 14 cross times 14 cross times 14 close parentheses cross times open parentheses 14 cross times 14 cross times 14 close parentheses<br>equals 14 to the power of 6` |
-| `open parentheses a b close parentheses to the power of n equals a to the power of n b to the power of n` | To raise a product to a power, apply the power to both numbers, and multiply | `open parentheses 3 cross times 4 close parentheses squared equals 3 squared cross times 4 squared` |
-| `open parentheses a over b close parentheses to the power of n equals a to the power of n over b to the power of n` | To raise a fraction to a power, apply the power to both the numerator and denominator | `open parentheses 3 over 4 close parentheses squared equals 3 squared over 4 squared equals 9 over 16` |
+| $a^{m}\timesa^{n}=a^{m+n}$ | To multiply indices with the same base, add their powers | $4^{3} \times 4^{2} \\ = ( 4 \times 4 \times 4 ) \times ( 4 \times 4 ) \\ = 4^{5}$ |
+| $a^{m}\diva^{n}=\frac{a^{m}}{a^{n}}=a^{m-n}$ | To divide indices with the same base, subtract their powers | $7^{5 \div 7^{2} \\ = \frac{7 \times 7 \times 7 \times \cancel{7} \times \cancel{7} }{ \cancel{7} \times \cancel{7} } \\ = 7^{3} }$ |
+| $( a^{m )^{n} = a^{m} n}$ | To raise indices to a new power, multiply their powers | $( 14^{3} )^{2} \\ = ( 14 \times 14 \times 14 ) \times ( 14 \times 14 \times 14 ) \\ = 14^{6}$ |
+| $( a b )^{n} = a^{n} b^{n}$ | To raise a product to a power, apply the power to both numbers, and multiply | $( 3 \times 4 )^{2} = 3^{2} \times 4^{2}$ |
+| `( a / b ) ^ n = a ^ n / b ^ n` | To raise a fraction to a power, apply the power to both the numerator and denominator | $( \frac{3}{4} )^{2} = \frac{3^{2}}{4^{2}} = \frac{9}{16}$ |
 | $a^{-1}=\frac{1}{a}$<br><br>$a^{-n}=\frac{1}{a^{n}}$ | A negative power is the *reciprocal* | $6^{-1}=\frac{1}{6}$<br><br>$11^{-3}=\frac{1}{11^{3}}$ |
-| `open parentheses a over b close parentheses to the power of negative n end exponent equals open parentheses b over a close parentheses to the power of n equals b to the power of n over a to the power of n` | A fraction to a negative power, is the reciprocal of the fraction, to the positive power | `open parentheses 2 over 5 close parentheses to the power of negative 3 end exponent equals open parentheses 5 over 2 close parentheses cubed equals 5 cubed over 2 cubed equals 125 over 8` |
-| `a to the power of 1 over n end exponent equals n-th root of a` | A number raised to the fractional power $\frac{1}{n}$ is the same as the *n*<sup>th</sup> root if the number | `25 to the power of 1 half end exponent equals square root of 25 equals 5`<br><br>`27 to the power of 1 third end exponent equals cube root of 27 equals 3` |
-| `a to the power of negative 1 over n end exponent equals 1 over a to the power of 1 over n end exponent equals fraction numerator 1 over denominator n-th root of a end fraction` | A negative, fractional power is one over a root | $64^{-\frac{1}{2}}=\frac{1}{\sqrt{64}}=\frac{1}{8}$<br><br>`125 to the power of negative 1 third end exponent equals fraction numerator 1 over denominator cube root of 125 end fraction equals 1 fifth` |
-| `a to the power of m over n end exponent equals a to the power of 1 over n cross times m end exponent<br>equals open parentheses a to the power of 1 over n end exponent close parentheses to the power of m equals open parentheses a to the power of m close parentheses to the power of 1 over n end exponent` | The fractional power $\frac{m}{n}$ is the *n*<sup>th</sup> root all to the power *m,* `open parentheses n-th root of blank close parentheses to the power of m`, or the *n*<sup>th</sup> root of the power *m,* `n-th root of open parentheses blank close parentheses to the power of m end root` (both are the same) | `8 to the power of 2 over 3 end exponent equals open parentheses 8 to the power of 1 third end exponent close parentheses squared equals open parentheses cube root of 8 close parentheses squared equals 2 squared equals 4`<br><br>`8 to the power of 2 over 3 end exponent equals open parentheses 8 squared close parentheses to the power of 1 third end exponent equals cube root of 64 equals 4` |
+| `( a / b ) ^ - n = ( b / a ) ^ n = b ^ n / a ^ n` | A fraction to a negative power, is the reciprocal of the fraction, to the positive power | $( \frac{2}{5} )^{- 3} = ( \frac{5}{2} )^{3} = \frac{5^{3}}{2^{3}} = \frac{125}{8}$ |
+| $a^{ \frac{1}{n} } = \sqrt[n]{a}$ | A number raised to the fractional power $\frac{1}{n}$ is the same as the *n*<sup>th</sup> root if the number | $25^{1 \frac{1}{2}} = \sqrt{25} = 5$<br><br>$27^{1 \frac{1}{3}} = \sqrt[3]{27} = 3$ |
+| `a ^ - 1 / n = 1 / a ^ 1 / n = (1)/(n-th sqrt of a)` | A negative, fractional power is one over a root | $64^{-\frac{1}{2}}=\frac{1}{\sqrt{64}}=\frac{1}{8}$<br><br>$125^{- 1 \frac{1}{3}} = \frac{1}{ \sqrt[3]{125} } = 1 \frac{1}{5}$ |
+| $a ^{\frac{m}{n}} = a ^{\frac{1}{n}} \times m \quad = ( a ^{\frac{1}{n}} ) ^{m} = ( a^{m} ) ^{\frac{1}{n}}$ | The fractional power $\frac{m}{n}$ is the *n*<sup>th</sup> root all to the power *m,* $( \sqrt[n]{ } )^{m}$, or the *n*<sup>th</sup> root of the power *m,* $\sqrt[n]{( )^{m} }$ (both are the same) | $8^{ \frac{2}{3} } = ( 8^{1 \frac{1}{3}} )^{2} = ( \sqrt[3]{8} )^{2} = 2^{2} = 4$<br><br>$8^{ \frac{2}{3} } = ( 8^{2} )^{1 \frac{1}{3}} = \sqrt[3]{64} = 4$ |
 
 ### How do I deal with different bases?
 
@@ -49,9 +49,9 @@ guided_study: true
   - e.g. $2^{5}\times4^{3}$
 - You can use powers to **rewrite one of the bases**
 
-  - `2 to the power of 5 cross times bold 4 cubed equals 2 to the power of 5 cross times open parentheses bold 2 to the power of bold 2 close parentheses cubed`
+  - $2^{5} \times 4 ^{3} = 2^{5} \times ( 2^{ } 2 ) ^{3}$
   - This can then be simplified more easily, as the two bases are now the same
-  - `2 to the power of 5 cross times open parentheses 2 squared close parentheses cubed equals 2 to the power of 5 cross times 2 to the power of 6 equals 2 to the power of 11`
+  - $2^{5} \times ( 2^{2} )^{3} = 2^{5} \times 2^{6} = 2^{11}$
 
 > **Worked Example**
 > (a) Find the value of $x$ when $6^{10}\times6^{x}=6^{2}$
@@ -116,9 +116,9 @@ guided_study: true
 > 
 > $8^{-\frac{1}{3}}=\frac{1}{8^{\frac{1}{3}}}$
 > 
-> > *Using the law of indices *`a to the power of 1 over n end exponent equals n-th root of a`* we can rewrite the expression*
+> > *Using the law of indices *$a^{ \frac{1}{n} } = \sqrt[n]{a}$* we can rewrite the expression*
 > 
-> `1 over 8 to the power of 1 third end exponent equals fraction numerator 1 over denominator cube root of 8 end fraction`
+> $\frac{1}{8^{1 \frac{1}{3}}} = \frac{1}{ \sqrt[3]{8} }$
 > 
 > > *The cube root of 8 is 2*
 > 
@@ -128,19 +128,19 @@ guided_study: true
 > 
 > **Answer:**
 > 
-> > *Use the law of indices *`open parentheses a to the power of m close parentheses to the power of n equals a to the power of m n end exponent`* we can rewrite the expression in two ways*
+> > *Use the law of indices *$( a^{m )^{n} = a^{m} n}$* we can rewrite the expression in two ways*
 > 
-> `81 to the power of 3 over 4 end exponent equals open parentheses 81 cubed close parentheses to the power of 1 fourth end exponent`* or *`open parentheses 81 to the power of 1 fourth end exponent close parentheses cubed`
+> $81^{ \frac{3}{4} } = ( 81^{3} )^{1 \frac{1}{4}}$* or *$( 81^{1 \frac{1}{4}} )^{3}$
 > 
-> > *Both forms are equivalent, but *`open parentheses 81 cubed close parentheses to the power of 1 fourth end exponent`* would require calculating 81 cubed, so use the second form instead*
+> > *Both forms are equivalent, but *$( 81^{3} )^{1 \frac{1}{4}}$* would require calculating 81 cubed, so use the second form instead*
 > 
-> > *Using the law of indices *`a to the power of 1 over n end exponent equals n-th root of a`* we can rewrite the expression*
+> > *Using the law of indices *$a^{ \frac{1}{n} } = \sqrt[n]{a}$* we can rewrite the expression*
 > 
-> `open parentheses 81 to the power of 1 fourth end exponent close parentheses cubed equals open parentheses fourth root of 81 close parentheses cubed`
+> $( 81^{1 \frac{1}{4}} )^{3} = ( \sqrt[4]{81} )^{3}$
 > 
 > > *The 4th root of 81 is 3 as 3×3×3×3=3*<sup>*4*</sup>*=81*
 > 
-> `open parentheses 3 close parentheses cubed`
+> $( 3 )^{3}$
 > 
 > > *Lastly, calculate or recall 3 cubed*
 > 

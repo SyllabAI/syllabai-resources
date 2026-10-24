@@ -19,7 +19,7 @@ find all the possible values of $x$.
 ### 13((b)) — 4 marks — command: show — structured — from paper November 2015 · 1MA0/2H
 On the grid below show, by shading, the region defined by the inequalities
 
-`y greater-than or slanted equal to negative 1 space space space space space space space space space space space space space space space space space space space space space space space space space space space space y less-than or slanted equal to 4 minus x space space space space space space space space space space space space space space space space space space space space space space space space y less-than or slanted equal to 3 x minus 1`
+$y \text{greater} - \text{than} or \text{slanted} \text{equal} to - 1 y \text{less} - \text{than} or \text{slanted} \text{equal} to 4 - x y \text{less} - \text{than} or \text{slanted} \text{equal} to 3 x - 1$
 
 Mark this region with the letter $R$.
 
@@ -90,9 +90,7 @@ Label the region $R$.
 ### 1() — 3 marks — command: show — structured — from paper SME Topic Papers · 4MA1/Inequalities QP1
 Show, by shading on the grid, the region defined by all three of the inequalities
 
-`x less-than or slanted equal to space 5
-y space greater-than or slanted equal to space 3
-y space less or equal than space x`
+$x \text{less} - \text{than} or \text{slanted} \text{equal} to 5 y \text{greater} - \text{than} or \text{slanted} \text{equal} to 3 y \le x$
 
 Label your region $R$.
 
@@ -153,7 +151,7 @@ The diagram shows two straight lines drawn on a grid.
 
 Show, by shading on the grid, the region defined by all five of the inequalities
 
-| `x space greater-than or slanted equal to space 0` | `y space greater-than or slanted equal to space 0` | `x space plus space y space greater-than or slanted equal to space 4` | `3 y space less-than or slanted equal to space 2 x space plus space 6` | `4 x space plus space 3 y space less-than or slanted equal to space 24` |
+| $x \text{greater} - \text{than} or \text{slanted} \text{equal} to 0$ | $y \text{greater} - \text{than} or \text{slanted} \text{equal} to 0$ | $x + y \text{greater} - \text{than} or \text{slanted} \text{equal} to 4$ | $3 y \text{less} - \text{than} or \text{slanted} \text{equal} to 2 x + 6$ | $4 x + 3 y \text{less} - \text{than} or \text{slanted} \text{equal} to 24$ |
 |---|---|---|---|---|
 
 Label the region $R$.
@@ -176,7 +174,7 @@ The diagram shows two straight lines drawn on a grid.
 
 Show, by shading on the grid, the region defined by all five of the inequalities
 
-| `x space greater-than or slanted equal to space 0` | `y space greater-than or slanted equal to space 0` | `x space plus space y space greater-than or slanted equal to space 4` | `3 y space less-than or slanted equal to space 2 x space plus space 6` | `4 x space plus space 3 y space less-than or slanted equal to space 24` |
+| $x \text{greater} - \text{than} or \text{slanted} \text{equal} to 0$ | $y \text{greater} - \text{than} or \text{slanted} \text{equal} to 0$ | $x + y \text{greater} - \text{than} or \text{slanted} \text{equal} to 4$ | $3 y \text{less} - \text{than} or \text{slanted} \text{equal} to 2 x + 6$ | $4 x + 3 y \text{less} - \text{than} or \text{slanted} \text{equal} to 24$ |
 |---|---|---|---|---|
 
 Label the region $R$.
@@ -186,7 +184,7 @@ Label the region $R$.
 ### 7((b)) — 3 marks — command: show — structured — from paper Jan 2022 · 4MA1/2HR
 Show, by shading on the grid, the region defined by **all three** of the inequalities
 
-| `x space less-than or slanted equal to space 6` | `y space greater-than or slanted equal to space 2` | `y space less-than or slanted equal to space x space plus space 1` |
+| $x \text{less} - \text{than} or \text{slanted} \text{equal} to 6$ | $y \text{greater} - \text{than} or \text{slanted} \text{equal} to 2$ | $y \text{less} - \text{than} or \text{slanted} \text{equal} to x + 1$ |
 |---|---|---|
 
 Label the region $R$
@@ -242,7 +240,7 @@ Write down the three inequalities that define the shaded region.
 ### 18() — 3 marks — command: identify — structured — from paper Nov 2021 · 8300/2H
 On the grid, identify the region represented by
 
-`x space less-than or slanted equal to space 5`      `y space less-than or slanted equal to space 4 space`      $x+y>6$
+$x \text{less} - \text{than} or \text{slanted} \text{equal} to 5$      $y \text{less} - \text{than} or \text{slanted} \text{equal} to 4$      $x+y>6$
 
 Label the region R.
 
@@ -253,7 +251,7 @@ Label the region R.
 ### 23() — 2 marks — structured — from paper Nov 2017 · 8300/3H
 Joe draws this graph to identify the region $R$ represented by
 
-`y space less-than or slanted equal to space x space plus space 2`    and    $y>3--x$    and    $x<3$
+$y \text{less} - \text{than} or \text{slanted} \text{equal} to x + 2$    and    $y>3--x$    and    $x<3$
 
 ![q23-paper3h-nov2017-aqa-gcse-maths](assets/073-q23-paper3h-nov2017-aqa-gcse-maths.png)
 
@@ -264,7 +262,7 @@ Make **two** criticisms of his graph.
 ### 18() — 6 marks — command: draw — structured — from paper June 2019 · J560/04
 Region **R** satisfies these inequalities.
 
-`table row y greater than 3 row y greater-than or slanted equal to x row cell x plus y end cell less-than or slanted equal to 9 end table`
+$\begin{gathered} y > 3 \\ y greater-than \text{or} \text{slanted} \text{equal} \text{to} x \\ x + y & less-than \text{or} \text{slanted} \text{equal} \text{to} 9 \end{gathered}$
 
 By drawing three straight lines on the grid, find and label the region **R**.
 
@@ -312,12 +310,12 @@ The diagram below shows a 1cm coordinate grid.
 Find an inequality that defines region A and another inequality that defines region B.
 
 ### 18((b)) — 2 marks — command: fill — structured — from paper Nov 2017 · J560/06
-Shade the region on the grid given by the inequality `y space greater-than or slanted equal to space 6.`
+Shade the region on the grid given by the inequality $y \text{greater} - \text{than} or \text{slanted} \text{equal} to 6.$
 
 ### 18((c)) — 5 marks — command: find — structured — from paper Nov 2017 · J560/06
 A fourth shaded region, given by the inequality
 
-`y space greater-than or slanted equal to space k x space plus space 2 space comma`
+$y \text{greater} - \text{than} or \text{slanted} \text{equal} to k x + 2 ,$
 
 is added to the grid.
 
@@ -371,7 +369,7 @@ The diagram shows the lines $y=2x+1$ and $7x+4y=28$
 
 The region R satisfies these inequalities.
 
-`y less-than or slanted equal to space 2 x plus 1`         `7 x space plus 4 y greater-than or slanted equal to 28`      $y>1$
+$y \text{less} - \text{than} or \text{slanted} \text{equal} to 2 x + 1$         $7 x + 4 y \text{greater} - \text{than} or \text{slanted} \text{equal} to 28$      $y>1$
 
 By drawing a third straight line, find and label the region R that satisfies these inequalities.
 

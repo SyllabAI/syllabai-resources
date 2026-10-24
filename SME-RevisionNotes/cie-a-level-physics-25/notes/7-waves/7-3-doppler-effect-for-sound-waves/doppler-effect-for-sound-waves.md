@@ -74,7 +74,7 @@ guided_study: true
 
 - When a **source** of sound waves **moves relative** to a **stationary observer**, the observed frequency can be calculated using the equation below:
 
-`f subscript o space equals space f subscript s open parentheses fraction numerator v over denominator v space plus-or-minus space v subscript s end fraction close parentheses`
+$f_{o} = f_{s} ( \frac{v}{v \pm v_{s} } )$
 
 - Where
 
@@ -107,13 +107,13 @@ guided_study: true
 > 
 > - The source is moving away from the observer so choose the plus symbol
 > 
-> `f subscript o space equals space f subscript s open parentheses fraction numerator v over denominator v space plus space v subscript s end fraction close parentheses`
+> $f_{o} = f_{s} ( \frac{v}{v + v_{s} } )$
 > 
 > **Step 2: Substitute the given values:**
 > 
 > - The observer's recording of frequency is
 > 
-> `f subscript o space equals 450 space cross times space open parentheses fraction numerator 340 over denominator 340 space plus space 45 end fraction close parentheses space equals space 397 space Hz`
+> $f_{o} = 450 \times ( \frac{340}{340 + 45} ) = 397 \text{Hz}$
 
 > **Exam Hint**
 > Be careful as to which frequency and velocity you use in the equation. The ‘source’ is always the object which is moving and the ‘observer’ is always stationary.

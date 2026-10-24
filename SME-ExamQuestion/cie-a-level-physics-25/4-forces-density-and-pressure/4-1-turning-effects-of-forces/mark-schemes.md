@@ -70,7 +70,7 @@
   - $T\times\frac{2L}{3}=Wd+\frac{WL}{4}$
 - Substitute the expression for tension $T$ and simplify:
 
-  - `W d space equals space open parentheses fraction numerator 3 W over denominator 4 end fraction close parentheses fraction numerator 2 L over denominator 3 end fraction space minus space fraction numerator W L over denominator 4 end fraction`
+  - $W d = ( \frac{3 W}{4} ) \frac{2 L}{3} - \frac{W L}{4}$
   - $d=\frac{6L}{12}-\frac{L}{4}$
   - $d=\frac{L}{4}$
 
@@ -217,7 +217,7 @@ Remember that the equation for the torque of a couple is the magnitude of only *
 - Rearranging for length gives:
 
   - $l=\frac{217}{650}=0.33m$* *
-- Therefore, `l space equals space fraction numerator moment space straight X over denominator torque end fraction space equals space fraction numerator open parentheses 310 space cross times space 0.7 close parentheses over denominator 650 end fraction space equals space 0.33 space straight m`
+- Therefore, $l = \frac{moment \mathrm{X} }{torque} = \frac{( 310 \times 0.7 )}{650} = 0.33 \mathrm{m}$
 
   - This is answer **B**
 
@@ -232,7 +232,7 @@ Remember that the equation for the torque of a couple is the magnitude of only *
 
 - To calculate the torque of a couple:
 
-  - `torque space open parentheses tau close parentheses space equals space force space open parentheses F close parentheses space cross times space distance space between space forces space open parentheses d close parentheses`
+  - $\text{torque} ( \text{tau} ) = \text{force} ( F ) \times \text{distance} \text{between} \text{forces} ( d )$
 - The distance between forces is calculated using trigonometry:
 
 ![cie-4-1-mcq-med-q1-2](assets/019-cie-4-1-mcq-med-q1-2.png)
@@ -284,7 +284,7 @@ Remember that the distance in the torque of a couple equation is the distance be
 ### Q15
 **Final answer:** **The correct answer is ****D**** because:**
 
-- As the beam is uniform, its weight `open parentheses m g space equals space 2 cross times 9.8 close parentheses` acts at its centre of gravity at the midpoint, which is 0.5 m from the pivot
+- As the beam is uniform, its weight $( m g = 2 \times 9.8 )$ acts at its centre of gravity at the midpoint, which is 0.5 m from the pivot
 - The clockwise moment due to the beam's weight is:
 
   - $\mathrm{moment}=\mathrm{weight}\times\mathrm{perpendicular} \mathrm{distance} \mathrm{from} \mathrm{pivot}$
@@ -294,7 +294,7 @@ Remember that the distance in the torque of a couple equation is the distance be
 
   - $\mathrm{moment}=\mathrm{mass}\timesg\times\mathrm{distance}$
   - $\mathrm{moment}=5\times9.8\times1=49Nm$
-- The upward component of tension `open parentheses T space sin space 30 degree close parentheses` in the wire acts at a distance of 0.7 m from the pivot
+- The upward component of tension $( T \sin 30^{\circ} )$ in the wire acts at a distance of 0.7 m from the pivot
 - The anticlockwise moment due to the wire is:
 
   - $\mathrm{moment}=0.7\timesT\mathrm{sin}30^{\circ}$

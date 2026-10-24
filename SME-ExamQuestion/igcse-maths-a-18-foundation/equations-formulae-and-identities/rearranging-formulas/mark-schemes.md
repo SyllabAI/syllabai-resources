@@ -12,17 +12,17 @@
 
 > *The inverse of *$\frac{1}{2}$* is to multiply both sides by 2 giving:*
 
-`table row s equals cell 1 half a t squared end cell row cell 2 s end cell equals cell a t squared end cell end table`
+$\begin{gathered} s = 1 \frac{1}{2} a t^{2} \\ 2 s & = a t^{2} \end{gathered}$
 
 **[M1]**
 
 > *Divide both sides by *$a$
 
-`table row cell fraction numerator 2 s over denominator a end fraction end cell equals cell t squared end cell end table`
+$\begin{gathered} \frac{2 s}{a} & = t^{2} \end{gathered}$
 
 > *Square root both sides*
 
-`table row cell plus-or-minus square root of fraction numerator 2 s over denominator a end fraction end root end cell equals t end table`
+$\begin{gathered} \pm \sqrt{ \frac{2 s}{a} } & = t \end{gathered}$
 
 $t=\pm\sqrt{\frac{2s}{a}}$
 

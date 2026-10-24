@@ -82,7 +82,7 @@
 
 $\overset{\rightarrow}{RS}=\overset{\rightarrow}{OS}-\overset{\rightarrow}{OR}$
 
-`open parentheses table row 7 row cell negative 2 end cell row 12 end table close parentheses minus open parentheses table row cell negative 1 end cell row 5 row 14 end table close parentheses equals open parentheses table row 8 row cell negative 7 end cell row cell negative 2 end cell end table close parentheses`
+$( \begin{gathered} 7 \\ - 2 \\ 12 \end{gathered} ) - ( \begin{gathered} - 1 \\ 5 \\ 14 \end{gathered} ) = ( \begin{gathered} 8 \\ - 7 \\ - 2 \end{gathered} )$
 
 $\overset{\rightarrow}{RS}=8i-7j-2k$
 
@@ -90,20 +90,20 @@ $\overset{\rightarrow}{RS}=8i-7j-2k$
 
 (ii)
 
-Unit vector = `fraction numerator stack R S with rightwards arrow on top over denominator vertical line R S vertical line end fraction`
+Unit vector = $\frac{\vec{RS}}{\vert R S \vert}$
 
-`vertical line R S vertical line equals square root of 8 squared plus 7 squared plus 2 squared end root equals square root of 117`
+$\vert R S \vert = \sqrt{8^{2} + 7^{2} + 2^{2}} = \sqrt{117}$
 
-`fraction numerator stack R S with rightwards arrow on top over denominator vertical line R S vertical line end fraction equals fraction numerator 1 over denominator square root of 117 end fraction open parentheses 8 bold i minus 7 bold j minus 2 bold k close parentheses`
+$\frac{\vec{RS}}{\vert R S \vert} = \frac{1}{ \sqrt{117} } ( 8 i - 7 j - 2 k )$
 
 **[M1 A1]**
 
 > **[mark-scheme]**
 > **B1**: Finding $\overset{\rightarrow}{RS}=8i-7j-2k$.
 > 
-> **M1**: Using `fraction numerator stack R S with rightwards arrow on top over denominator vertical line R S vertical line end fraction`.
+> **M1**: Using $\frac{\vec{RS}}{\vert R S \vert}$.
 > 
-> **A1**: Correct final answer of `fraction numerator 1 over denominator square root of 117 end fraction open parentheses 8 bold i minus 7 bold j minus 2 bold k close parentheses` or $\frac{8}{\sqrt{117}}i-\frac{7}{\sqrt{117}}j-\frac{2}{\sqrt{117}}k$.
+> **A1**: Correct final answer of $\frac{1}{ \sqrt{117} } ( 8 i - 7 j - 2 k )$ or $\frac{8}{\sqrt{117}}i-\frac{7}{\sqrt{117}}j-\frac{2}{\sqrt{117}}k$.
 
 ### 2() — 2 marks
 ![](assets/054-img.png)

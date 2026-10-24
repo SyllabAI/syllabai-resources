@@ -137,12 +137,12 @@ Obtain an expression for the total capacitance of the two capacitors in a series
 
 - $\frac{1}{C_{T}}=\frac{1}{C_{1}}+\frac{1}{C_{2}}$
 - $\frac{1}{18}+\frac{1}{51}=0.075$
-- `fraction numerator 1 over denominator 0.075 end fraction space equals space 13.3 space straight mu straight F space equals space 13 space straight mu straight F space open parentheses 2 space straight s. straight f. close parentheses` **[1 mark]**
+- $\frac{1}{0.075} = 13.3 \ \\mu \mathrm{F} = 13 \ \\mu \mathrm{F} ( 2 \mathrm{s} . \mathrm{f} . )$ **[1 mark]**
 
 (ii) Calculate the total energy stored in the two capacitors:
 
 - $energy=\frac{1}{2}CV^{2}$ **[1 mark]**
-- `e n e r g y space equals space 1 half space cross times space open parentheses 13.3 space cross times space 10 to the power of negative 6 end exponent close parentheses space cross times space 8 squared`
+- $e n e r g y = 1 \frac{1}{2} \times ( 13.3 \times 10^{- 6} ) \times 8^{2}$
 - $energy=4.16\times10^{-4}J$** [1 mark]**
 
 **[Total: 3 marks]**
@@ -192,12 +192,12 @@ List the known quantities:
 
 Two capacitors in series with one in parallel:
 
-- `C space equals space open parentheses fraction numerator 1 over denominator 1 over 24 space plus space 1 over 24 end fraction close parentheses space plus space 24 space equals space 36 space straight mu straight F`
+- `C = ( (1)/(1 / 24 + 1 / 24) ) + 24 = 36 mu F`
 - Hence, this is the arrangement needed for (i)
 
 Two capacitors in parallel with one in series:
 
-- `C space equals space fraction numerator 1 over denominator open parentheses fraction numerator 1 over denominator 24 space plus space 24 end fraction close parentheses space plus space 1 over 24 end fraction space equals space 16 space straight mu straight F`
+- $C = \frac{1}{( \frac{1}{24 + 24} ) + \frac{1}{24} } = 16 \ \\mu \mathrm{F}$
 - Hence, this is the arrangement needed for (ii)
 
 (i) A circuit diagram to show the 3 capacitors connected to obtain a capacitance of 36 μF is:
@@ -262,11 +262,11 @@ Calculate the safe p.d. across the parallel combination:
 - The total charge from P to Q = charge across the single capacitor
 
   - $Q_{1}=C_{1}V_{max}$
-  - `Q subscript 1 space equals space open parentheses 27 space cross times space 10 to the power of negative 6 end exponent close parentheses space cross times space 4`
+  - $Q_{1} = ( 27 \times 10^{- 6} ) \times 4$
   - $Q_{1}=1.08\times10^{-4}C$
 - So, the p.d. across the parallel combination is:
 
-  - `V subscript 2 space equals space Q subscript 2 over C subscript P space equals space fraction numerator open parentheses 1.08 space cross times space 10 to the power of negative 4 end exponent close parentheses over denominator open parentheses 54 space cross times space 10 to the power of negative 6 end exponent close parentheses end fraction space equals space 2 space straight V` **[1 mark]**
+  - `V _ 2 = Q _ 2 / C _ P = (( 1.08 x 10 ^ - 4 ))/(( 54 x 10 ^ - 6 )) = 2 V` **[1 mark]**
 
 Calculate the p.d. across the series combination:
 
@@ -312,7 +312,7 @@ Draw lines on the graph to identify the area of the trapezium underneath:
 
 Calculate the area of the trapezium under the graph:
 
-- `A space equals space 1 half open parentheses a space plus space b close parentheses h space equals space 1 half space open parentheses open parentheses 5.4 space cross times space 10 to the power of negative 3 end exponent close parentheses space plus space open parentheses 7.2 space cross times space 10 to the power of negative 3 end exponent close parentheses close parentheses space cross times space 2` **[1 mark]**
+- $A = 1 \frac{1}{2} ( a + b ) h = 1 \frac{1}{2} ( ( 5.4 \times 10^{- 3} ) + ( 7.2 \times 10^{- 3} ) ) \times 2$ **[1 mark]**
 - $A=0.0126J=12.6\mathrm{mJ}$ **[1 mark]**
 
 **[Total: 4 marks]**

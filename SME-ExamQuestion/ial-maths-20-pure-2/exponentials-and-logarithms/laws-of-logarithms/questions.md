@@ -42,7 +42,7 @@ $7^{2x-1}=343.$
 ### 1() — 3 marks — structured
 Show that
 
-`4 space log open parentheses 27 over 16 close parentheses equals 12 space log space 3 minus 16 space log space 2.`
+$4 \log ( \frac{27}{16} ) = 12 \log 3 - 16 \log 2.$
 
 ## Q6 — easy — 3 marks · exam-questions
 
@@ -247,7 +247,7 @@ giving your answers in the form  $\mathrm{log}_{a}b$, where $a$ and $b$are ratio
 ### 1() — 3 marks — structured
 Show that
 
-`2 log subscript 3 x plus log subscript 3 left parenthesis x squared minus 1 right parenthesis minus 2 log subscript 3 left parenthesis x plus 1 right parenthesis identical to log subscript 3 open parentheses fraction numerator x squared left parenthesis x minus 1 right parenthesis over denominator x plus 1 end fraction close parentheses.`
+$2 log_{3} x + log_{3} ( x^{2} - 1 ) - 2 log_{3} ( x + 1 ) \equiv log_{3} ( \frac{x^{2} ( x - 1 )}{x + 1} ).$
 
 ## Q29 — very_hard — 3 marks · exam-questions
 

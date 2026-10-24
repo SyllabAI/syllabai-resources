@@ -61,9 +61,9 @@ guided_study: true
 > > *P(both red) = P(red and red) *
 > *This is P(red) × P(red) using the 'and rule'*
 > 
-> `table attributes columnalign right center left columnspacing 0px end attributes row blank blank cell 8 over 11 cross times 8 over 11 end cell end table`
+> $\begin{array}{rcl} \frac{8}{11} \times \frac{8}{11} \end{array}$
 > 
-> `table row cell 64 over 121 end cell end table`
+> $\begin{gathered} \frac{64}{121} \end{gathered}$
 > 
 > (b) the two counters are of different colours.
 > 
@@ -73,6 +73,6 @@ guided_study: true
 > *This is P(B and R) + P(R and B) using the 'or rule'*
 > *This is P(B) × P(R) + P(R) × P(B) using the 'and rule' twice*
 > 
-> `table row blank blank cell 8 over 11 cross times 3 over 11 plus 3 over 11 cross times 8 over 11 end cell row blank equals cell 24 over 121 plus 24 over 121 end cell end table`
+> $\begin{gathered} \frac{8}{11} \times \frac{3}{11} + \frac{3}{11} \times \frac{8}{11} \\ = \frac{24}{121} + \frac{24}{121} \end{gathered}$
 > 
-> `table row cell 48 over 121 end cell end table`
+> $\begin{gathered} \frac{48}{121} \end{gathered}$

@@ -46,7 +46,7 @@ guided_study: true
   - -**b** is one length **down diagonally to the left**
   
     - E.g. $\overset{\rightarrow}{FB}=-b+a$ or $\overset{\rightarrow}{FB}=a-b$
-    - Likewise, `stack B F with rightwards arrow on top equals negative stack F B with rightwards arrow on top equals negative open parentheses negative bold b plus bold a close parentheses equals bold b minus bold a`
+    - Likewise, $\vec{BF} = - \vec{FB} = - ( - b + a ) = b - a$
 
 ![Vector paths on a grid](../../../assets/60cda63ae35d-14434-finding-vector-paths-2.png)
 
@@ -71,7 +71,7 @@ guided_study: true
 > 
 > *To get from **A **to **E **we need to follow vector **a** **four times to the right*
 > 
-> `table row cell stack A E with rightwards arrow on top space end cell equals cell space stack A B with rightwards arrow on top space plus thin space stack B C with rightwards arrow on top space plus space stack C D with rightwards arrow on top space plus space stack D E with rightwards arrow on top end cell row blank equals cell space bold a space plus bold space bold a space space plus space bold a space plus space bold a end cell end table`
+> $\begin{gathered} \vec{AE} & = \vec{AB} + \vec{BC} + \vec{CD} + \vec{DE} \\ = a + a + a + a \end{gathered}$
 > 
 > **Final answer:** $\overset{\rightarrow}{AE}=4a$** **
 > 
@@ -82,7 +82,7 @@ guided_study: true
 > *There are many ways to get from** G** to **T*
 > *One option is to go from **G **to **Q **(**b** **twice), and then from **Q **to **T **(**a** three times)*
 > 
-> `table row cell stack G T with rightwards arrow on top space end cell equals cell space stack G L with rightwards arrow on top space plus thin space stack L Q with rightwards arrow on top space plus space stack Q R with rightwards arrow on top space plus space stack R S with rightwards arrow on top space plus space stack S T with rightwards arrow on top end cell row blank equals cell bold italic b space plus space bold italic b space plus space bold italic a space plus space bold italic a space plus space bold italic a end cell end table`
+> $\begin{gathered} \vec{GT} & = \vec{GL} + \vec{LQ} + \vec{QR} + \vec{RS} + \vec{ST} \\ = b + b + a + a + a \end{gathered}$
 > 
 > $\overset{\rightarrow}{GT}=3a+2b$
 > 
@@ -93,6 +93,6 @@ guided_study: true
 > > *There are many ways to get from** E** to **K** *
 > *One option is to go from** E **to O** **(**b** **twice), and then from **O **to **K **( -**a** four times)*
 > 
-> `table row cell stack E K with rightwards arrow on top space end cell equals cell space stack E J with rightwards arrow on top space plus thin space stack J O with rightwards arrow on top space plus space stack O N with rightwards arrow on top space plus space stack N M with rightwards arrow on top space plus space stack M L with rightwards arrow on top space plus space stack L K with rightwards arrow on top space space end cell row blank equals cell bold b space plus space bold b space minus space bold a space minus space bold a space minus space bold a bold space bold minus bold space bold a end cell end table`
+> $\begin{gathered} \vec{EK} & = \vec{EJ} + \vec{JO} + \vec{ON} + \vec{NM} + \vec{ML} + \vec{LK} \\ = b + b - a - a - a - a \end{gathered}$
 > 
 > $\overset{\rightarrow}{EK}=2b-4a$

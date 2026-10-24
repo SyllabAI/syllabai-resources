@@ -21,12 +21,12 @@ Identify which of the following are geometric sequences. For those that are, wri
 ### 1() — 2 marks — structured
 Evaluate
 
-`sum from r equals 1 to 5 of` `3 open parentheses 2 to the power of r close parentheses`
+`sum from r equals 1 to 5 of` $3 ( 2^{r} )$
 
 ### 2() — 2 marks — structured
 Evaluate.
 
-`sum from r equals 4 to 8 of` `open parentheses negative 1 close parentheses to the power of r open parentheses 2 to the power of r close parentheses`
+`sum from r equals 4 to 8 of` $( - 1 )^{r} ( 2^{r} )$
 
 ## Q3 — easy — 3 marks · exam-questions
 
@@ -102,7 +102,7 @@ A geometric series is given by
 
 $k(k+1)+k(k+1)^{2}+k(k+1)^{3}+k(k+1)^{4}+\cdots$
 
-where $k$ is a constant such that `vertical line k plus 1 vertical line less than 1`.
+where $k$ is a constant such that $\vert k + 1 \vert < 1$.
 
 Write down a formula for the $n$<sup>th</sup> term of the series, in terms of $k$.
 
@@ -142,7 +142,7 @@ A geometric series has first term 19 and common ratio  $\frac{2}{3}$.
 
 Given that the sum of the first $k$ terms of the series is greater than 56
 
-(i) show that `k greater than fraction numerator log left parenthesis 1 over 57 right parenthesis over denominator log open parentheses 2 over 3 close parentheses end fraction`
+(i) show that $k > \frac{ \text{log} ( \frac{1}{57} )}{ \text{log} ( \frac{2}{3} ) }$
 
 (ii) hence find the smallest possible value of $k$.
 

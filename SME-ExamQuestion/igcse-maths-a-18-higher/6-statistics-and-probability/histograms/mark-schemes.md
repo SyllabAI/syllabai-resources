@@ -102,11 +102,11 @@ $\mathrm{Frequency} \mathrm{density}=\frac{\mathrm{Frequency}}{\mathrm{Class} \m
 
 > *An estimate for the mean (*$\overline{x}$*) is given by the formula *$\overline{x}=\frac{Σfx}{Σf}$*.*
 
-`table row cell x with bar on top end cell equals cell 910 over 50 end cell end table`
+$\begin{gathered} \bar{x} & = \frac{910}{50} \end{gathered}$
 
 **[1]**
 
-`table row cell x with bar on top end cell equals cell 18.2 end cell end table`
+$\begin{gathered} \bar{x} & = 18.2 \end{gathered}$
 
 **An estimate for the mean length of time is 18.2 hours ****[1]**
 
@@ -139,11 +139,11 @@ $\mathrm{Frequency} \mathrm{density}=\frac{\mathrm{Frequency}}{\mathrm{Class} \m
 
 | > *Minutes late (*$L$* minutes)* | > *Frequency* | ***Frequency density*** |
 |---|---|---|
-| `0 space less than space L space less-than or slanted equal to space 10` | > *8* | $\frac{8}{10}=0.8$ |
-| `10 space less than space L space less-than or slanted equal to space 15` | > *13* | $\frac{13}{5}=2.6$ |
-| `15 space less than space L space less-than or slanted equal to space 25` | > *19* | $\frac{19}{10}=1.9$ |
-| `25 space less than space L space less-than or slanted equal to space 40` | > *24* | $\frac{24}{15}=1.6$ |
-| `40 space less than space L space less-than or slanted equal to space 60` | > *6* | $\frac{6}{20}=0.3$ |
+| $0 < L \text{less} - \text{than} or \text{slanted} \text{equal} to 10$ | > *8* | $\frac{8}{10}=0.8$ |
+| $10 < L \text{less} - \text{than} or \text{slanted} \text{equal} to 15$ | > *13* | $\frac{13}{5}=2.6$ |
+| $15 < L \text{less} - \text{than} or \text{slanted} \text{equal} to 25$ | > *19* | $\frac{19}{10}=1.9$ |
+| $25 < L \text{less} - \text{than} or \text{slanted} \text{equal} to 40$ | > *24* | $\frac{24}{15}=1.6$ |
+| $40 < L \text{less} - \text{than} or \text{slanted} \text{equal} to 60$ | > *6* | $\frac{6}{20}=0.3$ |
 
 **at least 2 correct frequency densities**** [1]**
 
@@ -179,11 +179,11 @@ $\frac{1}{10}$** [1]**
 
 | > *Height (*$h$* cm)* | > *Frequency* | ***Frequency density*** |
 |---|---|---|
-| `10 space less than space h space less-than or slanted equal to space 20` | > *35* | $\frac{35}{10}=3.5$ |
-| `20 space less than space h space less-than or slanted equal to space 35` | > *45* | $\frac{45}{15}=3$ |
-| `35 space less than space h space less-than or slanted equal to space 50` | > *75* | $\frac{75}{15}=5$ |
-| `50 space less than space h space less-than or slanted equal to space 70` | > *40* | $\frac{40}{20}=2$ |
-| `70 space less than space h space less-than or slanted equal to space 80` | > *8* | $\frac{8}{10}=0.8$ |
+| $10 < h \text{less} - \text{than} or \text{slanted} \text{equal} to 20$ | > *35* | $\frac{35}{10}=3.5$ |
+| $20 < h \text{less} - \text{than} or \text{slanted} \text{equal} to 35$ | > *45* | $\frac{45}{15}=3$ |
+| $35 < h \text{less} - \text{than} or \text{slanted} \text{equal} to 50$ | > *75* | $\frac{75}{15}=5$ |
+| $50 < h \text{less} - \text{than} or \text{slanted} \text{equal} to 70$ | > *40* | $\frac{40}{20}=2$ |
+| $70 < h \text{less} - \text{than} or \text{slanted} \text{equal} to 80$ | > *8* | $\frac{8}{10}=0.8$ |
 
 **at least 2 correct frequency densities**** [1]**
 
@@ -213,10 +213,10 @@ $\frac{1}{10}$** [1]**
 
 | > *Height (*$h$* metres)* | > *Frequency* | ***Frequency density*** |
 |---|---|---|
-| `0 space less than space h space less-than or slanted equal to space 20` | > *15* | $\frac{15}{20}=0.75$ |
-| `20 space less than space h space less-than or slanted equal to space 35` | > *48* | $\frac{48}{15}=3.2$ |
-| `35 space less than space h space less-than or slanted equal to space 40` | > *21* | $\frac{21}{5}=4.2$ |
-| `40 space less than space h space less-than or slanted equal to space 50` | > *16* | $\frac{16}{10}=1.6$ |
+| $0 < h \text{less} - \text{than} or \text{slanted} \text{equal} to 20$ | > *15* | $\frac{15}{20}=0.75$ |
+| $20 < h \text{less} - \text{than} or \text{slanted} \text{equal} to 35$ | > *48* | $\frac{48}{15}=3.2$ |
+| $35 < h \text{less} - \text{than} or \text{slanted} \text{equal} to 40$ | > *21* | $\frac{21}{5}=4.2$ |
+| $40 < h \text{less} - \text{than} or \text{slanted} \text{equal} to 50$ | > *16* | $\frac{16}{10}=1.6$ |
 
 **at least 2 correct frequency densities**** [1]**
 
@@ -238,10 +238,10 @@ $\mathrm{Frequency} \mathrm{density}=\frac{\mathrm{Frequency}}{\mathrm{Class} \m
 
 | **Age, **$x$**(weeks)** | **Frequency** | ***Class width*** | ***Frequency*** ***density (*******fd*******)*** |
 |---|---|---|---|
-| `0 space less-than or slanted equal to space x space less than space 5` | 18 | *5 - 0 = 5* | *18 ÷ 5 = 3.6* |
-| `5 space less-than or slanted equal to space x space less than space 10 space` | 23 | *5* | *23 ÷ 5 = 4.6* |
-| `10 space less-than or slanted equal to space x space less than space 20` | 17 | *10* | *17 ÷ 10 = 1.7* |
-| `20 space less-than or slanted equal to space x space less than space 50` | 21 | *30* | *21 ÷ 30 = 0.7* |
+| $0 \text{less} - \text{than} or \text{slanted} \text{equal} to x < 5$ | 18 | *5 - 0 = 5* | *18 ÷ 5 = 3.6* |
+| $5 \text{less} - \text{than} or \text{slanted} \text{equal} to x < 10$ | 23 | *5* | *23 ÷ 5 = 4.6* |
+| $10 \text{less} - \text{than} or \text{slanted} \text{equal} to x < 20$ | 17 | *10* | *17 ÷ 10 = 1.7* |
+| $20 \text{less} - \text{than} or \text{slanted} \text{equal} to x < 50$ | 21 | *30* | *21 ÷ 30 = 0.7* |
 
 **Correct class widths**** [1] **
 **Frequency divided by class width**** [1] **
@@ -262,10 +262,10 @@ $\mathrm{Frequency} \mathrm{density}=\frac{\mathrm{Frequency}}{\mathrm{Class} \m
 
 | **Time, *****t***** (mins)** | **Frequency** | **Class width** | ***Frequency*** ***density (*******fd*******)*** |
 |---|---|---|---|
-| `0 space less-than or slanted equal to space t space less than space 30` | 24 | *30 - 0 = 30* | *24 ÷ 30 = 0.8* |
-| `30 space less-than or slanted equal to space t space less than space 50` | 76 | *20* | *76 ÷ 20 = 3.8* |
-| `50 space less-than or slanted equal to space t space less than space 60` | 52 | *10* | *52 ÷ 10 = 5.2* |
-| `60 space less-than or slanted equal to space t space less than space 90` | 48 | *30* | *48 ÷ 30 = 1.6* |
+| $0 \text{less} - \text{than} or \text{slanted} \text{equal} to t < 30$ | 24 | *30 - 0 = 30* | *24 ÷ 30 = 0.8* |
+| $30 \text{less} - \text{than} or \text{slanted} \text{equal} to t < 50$ | 76 | *20* | *76 ÷ 20 = 3.8* |
+| $50 \text{less} - \text{than} or \text{slanted} \text{equal} to t < 60$ | 52 | *10* | *52 ÷ 10 = 5.2* |
+| $60 \text{less} - \text{than} or \text{slanted} \text{equal} to t < 90$ | 48 | *30* | *48 ÷ 30 = 1.6* |
 
 **Frequency divided by class width**** [1] **
 **Three correct values for the frequency density**** [1]**
@@ -287,10 +287,10 @@ $\mathrm{Frequency} \mathrm{density}=\frac{\mathrm{Frequency}}{\mathrm{Class} \m
 
 | **Age, **$x$** (years)** | **Frequency** | ***Class width*** | ***Frequency*** ***density (*******fd*******)*** |
 |---|---|---|---|
-| `10 space less-than or slanted equal to space x space less than space 15` | 8 | *15 - 10 = 5* | *8 ÷ 5 = 1.6* |
-| `15 space less-than or slanted equal to space x space less than space 25` | 24 | *10* | *24 ÷ 10 = 2.4* |
-| `25 space less-than or slanted equal to space x space less than space 40` | 30 | *15* | *30 ÷ 15 = 2* |
-| `40 space less-than or slanted equal to space x space less than space 70` | 39 | *30* | *39 ÷ 30 = 1.3* |
+| $10 \text{less} - \text{than} or \text{slanted} \text{equal} to x < 15$ | 8 | *15 - 10 = 5* | *8 ÷ 5 = 1.6* |
+| $15 \text{less} - \text{than} or \text{slanted} \text{equal} to x < 25$ | 24 | *10* | *24 ÷ 10 = 2.4* |
+| $25 \text{less} - \text{than} or \text{slanted} \text{equal} to x < 40$ | 30 | *15* | *30 ÷ 15 = 2* |
+| $40 \text{less} - \text{than} or \text{slanted} \text{equal} to x < 70$ | 39 | *30* | *39 ÷ 30 = 1.3* |
 
 **Frequency divided by class width**** [1] **
 **Three correct values for the frequency density**** [1]**
@@ -311,10 +311,10 @@ $\mathrm{Frequency} \mathrm{density}=\frac{\mathrm{Frequency}}{\mathrm{Class} \m
 
 | **Time taken** **(**$t$** minutes)** | **Frequency** | ***Class width*** | ***Frequency*** ***density (*******fd*******)*** |
 |---|---|---|---|
-| `0 space less than space t space less-than or slanted equal to space 10` | 54 | *10 - 0 = 10* | *54 ÷ 10 = 5.4* |
-| `10 space less than space t space less-than or slanted equal to space 20` | 50 | *10* | *50 ÷ 10 = 5* |
-| `20 space less than space t space less-than or slanted equal to space 40` | 44 | *20* | *44 ÷ 20 = 2.2* |
-| `40 space less than space t space less-than or slanted equal to space 80` | 20 | *40* | *20 ÷ 40 = 0.5* |
+| $0 < t \text{less} - \text{than} or \text{slanted} \text{equal} to 10$ | 54 | *10 - 0 = 10* | *54 ÷ 10 = 5.4* |
+| $10 < t \text{less} - \text{than} or \text{slanted} \text{equal} to 20$ | 50 | *10* | *50 ÷ 10 = 5* |
+| $20 < t \text{less} - \text{than} or \text{slanted} \text{equal} to 40$ | 44 | *20* | *44 ÷ 20 = 2.2* |
+| $40 < t \text{less} - \text{than} or \text{slanted} \text{equal} to 80$ | 20 | *40* | *20 ÷ 40 = 0.5* |
 
 > *Create a vertical scale with 1 square representing 0.1 frequency density. Label the vertical axis "Frequency density". Draw rectangular bars using the age and frequency density columns. There should be no gaps between the bars.*
 
@@ -334,7 +334,7 @@ $0.4\times10=4$
 
 > *So in this case frequency is **exactly** the area of the bar. To complete the table work out the area of each bar.*
 
-`table row 10 less than cell p less or equal than 20 colon space space 0.9 cross times 10 equals 9 end cell row 20 less than cell p less or equal than 25 colon space space 1.6 cross times 5 equals 8 end cell row 25 less than cell p less or equal than 35 colon space space 1 cross times 10 equals 10 end cell row 35 less than cell p less or equal than 50 colon space space 0.8 cross times 15 equals 12 end cell end table`
+$\begin{array}{cc}10 < & p \le 20 : 0.9 \times 10 = 9 \\ 20 < & p \le 25 : 1.6 \times 5 = 8 \\ 25 < & p \le 35 : 1 \times 10 = 10 \\ 35 < & p \le 50 : 0.8 \times 15 = 12\end{array}$
 
 | **Salary (*****p*****) in £1000s** | **Frequency** |
 |---|---|
@@ -368,7 +368,7 @@ $4+9+8+10+12=43$
 ## Q14 — hard — 3 marks · exam-questions
 
 ### 23() — 3 marks
-i)`table row blank row blank end table`$\mathrm{Frequency} \mathrm{density}=\frac{\mathrm{Frequency}}{\mathrm{Class} \mathrm{width}}$
+i)$\begin{gathered} \\ \end{gathered}$$\mathrm{Frequency} \mathrm{density}=\frac{\mathrm{Frequency}}{\mathrm{Class} \mathrm{width}}$
 
 > *Use the first bar and frequency from the table to work out the frequency density scale.*
 
@@ -382,7 +382,7 @@ i)`table row blank row blank end table`$\mathrm{Frequency} \mathrm{density}=\fra
 
 > *Find the missing frequencies from the table by finding the area of the bars for 5 < **d** ≤ 10 and 10 < **d** ≤ 20.*
 
-`table row 5 less than cell d less or equal than 10 colon space space 7.6 cross times 5 equals 38 end cell row 10 less than cell d less or equal than 20 colon space space 3 cross times 10 equals 30 end cell end table`
+$\begin{gathered} 5 < d \text{less} \text{or} \text{equal} \text{than} 10 : 7.6 \times 5 = 38 \\ 10 < d \text{less} \text{or} \text{equal} \text{than} 20 : 3 \times 10 = 30 \end{gathered}$
 
 | **Distance (*****d***** km)** | **Frequency** |
 |---|---|
@@ -394,7 +394,7 @@ i)`table row blank row blank end table`$\mathrm{Frequency} \mathrm{density}=\fra
 
 **[1]**
 
-ii)`table row blank row blank end table`*Use *$\mathrm{Frequency} \mathrm{density}=\frac{\mathrm{Frequency}}{\mathrm{Class} \mathrm{width}}$* for the interval 30 < **d** ≤ 50.*
+ii)$\begin{gathered} \\ \end{gathered}$*Use *$\mathrm{Frequency} \mathrm{density}=\frac{\mathrm{Frequency}}{\mathrm{Class} \mathrm{width}}$* for the interval 30 < **d** ≤ 50.*
 
 $\frac{16}{50-30}=\frac{16}{20}=0.8$
 
@@ -517,7 +517,7 @@ $0.8\times5=4$
 
 > *So in this case frequency is **exactly** the area of the bar. To complete the table work out the area of each bar.*
 
-`table row 5 less than cell t less or equal than 15 colon space space 0.4 cross times 10 equals 4 end cell row 15 less than cell t less or equal than 25 colon space space 0.6 cross times 10 equals 6 end cell row 25 less than cell t less or equal than 30 colon space space 1 cross times 5 equals 5 end cell row 30 less than cell t less or equal than 50 colon space space 0.2 cross times 20 equals 4 end cell end table`
+$\begin{array}{cc}5 < & t \le 15 : 0.4 \times 10 = 4 \\ 15 < & t \le 25 : 0.6 \times 10 = 6 \\ 25 < & t \le 30 : 1 \times 5 = 5 \\ 30 < & t \le 50 : 0.2 \times 20 = 4\end{array}$
 
 | **Time taken (*****t *****minutes)** | **Frequency** |
 |---|---|
@@ -531,7 +531,7 @@ $0.8\times5=4$
  **All correct**** [1]**
 
 ### 17((b)) — 2 marks
-> *The position of the lower quartile is the *`open parentheses fraction numerator n plus 1 over denominator 4 end fraction close parentheses to the power of th`* value. *$n$* is the total of the frequency column from the table.*
+> *The position of the lower quartile is the *$( \frac{n + 1}{4} )^{th}$* value. *$n$* is the total of the frequency column from the table.*
 
 $n=4+4+6+5+4=23$
 
@@ -543,12 +543,12 @@ $\frac{23+1}{4}=6$
 
 *We need to find the 6*<sup>*th*</sup>* value.* *Looking at the frequencies from the frequency table we see that*
 
-`table attributes columnalign right center left columnspacing 0px end attributes row cell 4 plus 4 end cell equals 8 end table` *So the 6**<sup>th</sup>** person is the 2**<sup>nd</sup>** person in the 5 < ***t*** ≤ 15 interval*
+$\begin{array}{rcl} 4 + 4 & = 8 \end{array}$ *So the 6**<sup>th</sup>** person is the 2**<sup>nd</sup>** person in the 5 < ***t*** ≤ 15 interval*
 
 > *There are 4 people in this interval and to estimate a value within it we assume they are evenly spread across the interval. *
-*So we want the person that is *`2 over 4 open parentheses equals 1 half close parentheses`* of the way through the 5 < **t** ≤ 15 interval.*
+*So we want the person that is *$\frac{2}{4} ( = 1 \frac{1}{2} )$* of the way through the 5 < **t** ≤ 15 interval.*
 
-`5 plus 1 half cross times open parentheses 15 minus 5 close parentheses equals 10`
+$5 + 1 \frac{1}{2} \times ( 15 - 5 ) = 10$
 
 **An estimate of the lower quartile is 10 seconds*** ***[1]**
 
@@ -563,11 +563,11 @@ $\frac{23+1}{4}=6$
 
 > *The percentage required will be given by*
 
-`fraction numerator Number space of space passengers space who space had space to space wait space for space more space than space one space hour over denominator Total space number space of space passengers end fraction cross times 100 percent sign`
+$\frac{Number of \text{passengers} \text{who} \text{had} to \text{wait} \text{for} \text{more} \text{than} \text{one} hour}{Total \text{number} of passengers} \times 100 \%$
 
 > *Remember 1 hour is 60 minutes!*
 
-`fraction numerator 54 plus 18 over denominator 240 plus 108 plus 105 plus 75 plus 54 plus 18 end fraction cross times 100 percent sign equals 72 over 600 cross times 100 percent sign equals 12 percent sign`
+$\frac{54 + 18}{240 + 108 + 105 + 75 + 54 + 18} \times 100 \% = \frac{72}{600} \times 100 \% = 12 \%$
 
 **Total frequency or >60 min frequency ****[1]**** **
 **Method to find percentage ****[1]**
@@ -610,9 +610,9 @@ $5\times22=110$
 
 Find the total number of squares in the histogram
 
-`table row cell 20 space cross times space 10 space end cell equals cell space 200 end cell row cell 10 space cross times space 30 space end cell equals cell space 300 space end cell row cell 15 space cross times 3 space end cell equals cell space 45 end cell end table`
+$\begin{gathered} 20 \times 10 & = 200 \\ 10 \times 30 & = 300 \\ 15 \times 3 & = 45 \end{gathered}$
 
-`table row cell 110 space plus space 200 space plus space 300 space plus space 45 space end cell equals cell space 655 space end cell end table`
+$\begin{gathered} 110 + 200 + 300 + 45 & = 655 \end{gathered}$
 
 **[M1]**
 
@@ -908,7 +908,7 @@ ii) *Half of the frequency for the group of 40 to 50 was used.*
 
 > *The frequency density is not given, so just let each large square on the vertical axis be one unit (therefore each small square is 0.2 units)*
 
-`table row cell 10 cross times 3.4 end cell equals 34 row cell 20 cross times 7.2 end cell equals 144 row cell 5 cross times 8.8 end cell equals 44 row cell 15 cross times 4 end cell equals 60 row cell 10 cross times 1.8 end cell equals 18 end table`
+$\begin{gathered} 10 \times 3.4 & = 34 \\ 20 \times 7.2 & = 144 \\ 5 \times 8.8 & = 44 \\ 15 \times 4 & = 60 \\ 10 \times 1.8 & = 18 \end{gathered}$
 
 **[M1]**
 
@@ -958,7 +958,7 @@ $1\times2.5+1.5\times4=8.5$
 > **[exam-tip]**
 > Because a large square has a width of 10 units on the horizontal axis, this also lets you work out the scale on the vertical axis.  Recall that
 > 
-> `table row cell Frequency space density space end cell equals cell space fraction numerator frequency over denominator class space width end fraction end cell end table`
+> $\begin{gathered} \text{Frequency} \text{density} & = \frac{frequency}{class width} \end{gathered}$
 > 
 > A large square has a frequency of 10, and a class width of 10. So a height of one large square must correspond to a frequency density of $\frac{10}{10}=1$
 
@@ -974,7 +974,7 @@ $6\times10=60\mathrm{people}$
 
 > *First bar*
 
-`table row cell Frequency space density space end cell equals cell space fraction numerator frequency over denominator class space width end fraction end cell row FD equals cell 23 over 5 end cell row FD equals cell 4.6 end cell end table`
+$\begin{gathered} \text{Frequency} \text{density} & = \frac{frequency}{class width} \\ \text{FD} = \frac{23}{5} \\ \text{FD} = 4.6 \end{gathered}$
 
 > *Fourth bar*
 
@@ -988,11 +988,11 @@ $\mathrm{FD}=\frac{14}{20}\,\mathrm{FD}=0.7$
 
 | Time (t minutes) | Frequency |
 |---|---|
-| `0 space less than space t space less-than or slanted equal to 5` | 23 |
-| `5 space less than space t space less-than or slanted equal to 15` | **Final answer:** **25** |
-| `15 space less than space t space less-than or slanted equal to 30` | **Final answer:** **60** |
-| `30 space less than space t space less-than or slanted equal to 40` | 18 |
-| `40 space less than space t space less-than or slanted equal to 60` | 14 |
+| $0 < t \text{less} - \text{than} or \text{slanted} \text{equal} to 5$ | 23 |
+| $5 < t \text{less} - \text{than} or \text{slanted} \text{equal} to 15$ | **Final answer:** **25** |
+| $15 < t \text{less} - \text{than} or \text{slanted} \text{equal} to 30$ | **Final answer:** **60** |
+| $30 < t \text{less} - \text{than} or \text{slanted} \text{equal} to 40$ | 18 |
+| $40 < t \text{less} - \text{than} or \text{slanted} \text{equal} to 60$ | 14 |
 
 ![Histogram showing frequency density over time. Three bars: 0-10 mins at 4, 10-30 mins at 2.5, and 30-60 mins at 1. Horizontal and vertical axes labelled.](assets/004-histogram-showing-frequency-density-over-time-th.jpg)
 
@@ -1096,7 +1096,7 @@ $\frac{1}{3}\times18=6$
 > *The question states there are 150 students in total. *
 *So the fraction required is given by*
 
-`fraction numerator 30 plus 51 plus 36 plus 6 over denominator 150 end fraction equals 123 over 150 open parentheses equals 41 over 50 close parentheses`
+$\frac{30 + 51 + 36 + 6}{150} = \frac{123}{150} ( = \frac{41}{50} )$
 
 **An estimate for the fraction of students who have a height between 150 cm and 170 cm is **$\frac{41}{50}$** ****[1]**
 
@@ -1134,12 +1134,12 @@ ii)
 *So first find the proportion of onions that are sent to a food processing factory from the histogram.* 
 *Area on a histogram represents the frequency, i.e.  *$\mathrm{Frequency}=\mathrm{Frequency} \mathrm{density}\times\mathrm{Class} \mathrm{width}$
 
-`table row cell For space 0 minus 60 colon space space 2 cross times 60 end cell equals 120 end table`
+$\begin{gathered} \text{For} 0 - 60 : 2 \times 60 & = 120 \end{gathered}$
 
 **[1]**
 
-`table row cell For space 60 minus 90 colon space space 5 cross times 30 end cell equals 150 row cell For space 90 minus 120 colon space space 9 cross times 30 end cell equals 270 end table`
- `table row cell For space 120 minus 135 colon space space 6 cross times 15 end cell equals 90 row cell For space 135 minus 180 colon space space 2 cross times 45 end cell equals 90 end table` 
+$\begin{gathered} \text{For} 60 - 90 : 5 \times 30 & = 150 \\ \text{For} 90 - 120 : 9 \times 30 & = 270 \end{gathered}$
+ $\begin{gathered} \text{For} 120 - 135 : 6 \times 15 & = 90 \\ \text{For} 135 - 180 : 2 \times 45 & = 90 \end{gathered}$ 
 **The number of onions sent to a food processing factory is 150 + 270 = 420** 
 *The number of onions in total is 120 +* **420*** + 90 + 90 = 720*
 
@@ -1147,7 +1147,7 @@ ii)
 
 > *Now write the proportion of onions that are sent to a food processing factory as a fraction out of the total.*
 
-`420 over 720 open parentheses equals 7 over 12 close parentheses`
+$\frac{420}{720} ( = \frac{7}{12} )$
 
 **[1]**
 
@@ -1520,13 +1520,13 @@ $\frac{1}{6}$** ****[1]**
 
 > *The total frequency is 480. Form an equation.*
 
-`table row cell 375 x plus 165 x plus 60 x end cell equals 480 end table`
+$\begin{gathered} 375 x + 165 x + 60 x & = 480 \end{gathered}$
 
 **[1]**
 
 *Simplify* *and solve the equation to find the value of **x**.*
 
-`table attributes columnalign right center left columnspacing 0px end attributes row cell 600 x end cell equals 480 row x equals cell 480 over 600 end cell row x equals cell 0.8 end cell end table`
+$\begin{array}{rcl} 600 x & = 480 \\ x = \frac{480}{600} \\ x = 0.8 \end{array}$
 
 **[1]**
 
@@ -1655,11 +1655,11 @@ $40\times0.8=32$
 
 > *An estimate for the mean (*$\overline{x}$*) is given by the formula *$\overline{x}=\frac{Σfx}{Σf}$*, where *$Σfx$* is the total of the last row (**fx**) and *$Σf$* is the total of the second row (**f**).*
 
-`table row cell x with bar on top space end cell equals cell space fraction numerator 350 space plus space 850 space plus space 1425 space plus space 2400 over denominator 10 space plus space 20 space plus space 30 plus space 40 end fraction end cell end table`
+$\begin{gathered} \bar{x} & = \frac{350 + 850 + 1425 + 2400}{10 + 20 + 30 + 40} \end{gathered}$
 
 **[1]**
 
-`table row cell x with bar on top space end cell equals cell space 5025 over 100 end cell end table`
+$\begin{gathered} \bar{x} & = \frac{5025}{100} \end{gathered}$
 
 **An estimate for the mean time taken is 50.25 minutes ****[1]**
 
@@ -1697,7 +1697,7 @@ $40\times0.8=32$
 
 > $\mathrm{Frequency} \mathrm{density}=\frac{\mathrm{Frequency}}{\mathrm{Class} \mathrm{width}}$*.*
 
-| **Amount spent **`stretchy left parenthesis £ bold italic a stretchy right parenthesis` | **Frequency** | ***Class width*** | ***Frequency*** ***density (*******fd*******)*** |
+| **Amount spent **$( \pounds a )$ | **Frequency** | ***Class width*** | ***Frequency*** ***density (*******fd*******)*** |
 |---|---|---|---|
 | `0 less than a less-than or slanted equal to 5` | 35 | *5 - 0 = 5* | *35 ÷ 5 = 7* |
 | `5 less than a less-than or slanted equal to 10` | 42 | *5* | *42 ÷ 5 = 8.4* |

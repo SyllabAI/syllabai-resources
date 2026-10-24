@@ -38,13 +38,13 @@
 
 > *For *$y\leq4-x$*, the **unwanted** region is above the line, so shade above. To check, pick a point such as (0, 0) and substitute into the inequality:*
 
-`table row 0 less or equal than cell 4 minus 0 comma space true end cell end table`
+$\begin{gathered} 0 \text{less} \text{or} \text{equal} \text{than} 4 - 0 , \text{true} \end{gathered}$
 
 > *(0, 0) is in the wanted region so shade everything on the **other** side of the line *$y=4-x$
 
 > *For *$y\leq3x-1$*, the **unwanted** region is above the line, so shade above. To check substitute (0, 0) again:*
 
-`table row 0 less or equal than cell 3 cross times 0 minus 1 end cell row 0 less or equal than cell negative 1 comma space false end cell end table`
+$\begin{array}{cc}0 \le & 3 \times 0 - 1 \\ 0 \le & - 1 , \text{false} \end{array}$
 
 > *(0, 0) is in the **unwanted** region, so shade the (0, 0) side of the line *$y=3x-1$
 
@@ -67,13 +67,13 @@
 
 > *For *$y>x-2$*, the **unwanted** (shaded) region is below the line. If unsure, pick a point- usually (0, 0)- to test which side of each line should be shaded*
 
-`table row cell space y end cell greater than cell x minus 2 comma space open parentheses 0 comma space 0 close parentheses end cell row 0 greater than cell 0 minus 2 end cell row 0 greater than cell negative 2 space is space correct end cell end table`
+$\begin{gathered} y & > x - 2 , ( 0 , 0 ) \\ 0 > 0 - 2 \\ 0 > - 2 \text{is} \text{correct} \end{gathered}$
 
-> *This tells us *`open parentheses 0 comma space 0 close parentheses`* is on the side of the line that satisfies *$y>x-2$* so shade everything on the **other** side of the line *$y=x-2$
+> *This tells us *$( 0 , 0 )$* is on the side of the line that satisfies *$y>x-2$* so shade everything on the **other** side of the line *$y=x-2$
 
 > *For *$x+y<10$*, rearrange to*
 
-`table row cell space y end cell less than cell negative x plus 10 end cell end table`
+$\begin{gathered} y & < - x + 10 \end{gathered}$
 
 > *Therefore the **unwanted** (shaded) region is above the line. If unsure, repeat the process above*
 
@@ -121,7 +121,7 @@ $y\leq3x+2$* ***[1]**
 
 > *For** *$x+y<4$*, draw *$x+y=4$*. Rearrange to *$y=mx+c$*...*
 
-`table row cell space y end cell equals cell negative x plus 4 end cell end table`
+$\begin{gathered} y & = - x + 4 \end{gathered}$
 
 > *... and plot a **dotted** **line** through (0, 4) with a gradient of −1*
 
@@ -143,19 +143,19 @@ $y<-x+4$
 
 > *To check, pick an integer point that's not on the lines to test which side of each line should be shaded. For example, picking (0, 2);*
 
-`table row cell space 0 plus 2 end cell less than cell 4 comma space true end cell end table`
+$\begin{gathered} 0 + 2 & < 4 , \text{true} \end{gathered}$
 
 > *(0, 2) is in the wanted region so shade everything on the **other** side of the line *$x+y=4$
 
 > *For *$y>x-1$*, the **unwanted** region is below the line, shade below the line. To check, repeat the process of substituting (0, 2) into the inequality*
 
-`table row 2 greater than cell 0 minus 1 comma space true end cell end table`
+$\begin{gathered} 2 > 0 - 1 , \text{true} \end{gathered}$
 
 > *(0, 2) is in the wanted region so shade everything on the **other** side of the line *$y=x-1$
 
 > *For *$y<3x$*, the **unwanted **region is above the line. To check,*
 
-`table row 2 less than cell 3 cross times 0 end cell row 2 less than cell 0 comma space false end cell end table`
+$\begin{gathered} 2 < 3 \times 0 \\ 2 < 0 , \text{false} \end{gathered}$
 
 > *(0, 2) is in the **unwanted** region, so shade this side of the line *$y=\frac{3}{2}x$
 
@@ -252,7 +252,7 @@ $x\leq4$* will be to the left of (below) 4 on the x-axis - so shade the part of 
 
 > *For** *$x+y<5$*, draw *$x+y=5$*. Rearrange to *$y=mx+c$*...*
 
-`table row cell space y end cell equals cell negative x plus 5 end cell end table`
+$\begin{gathered} y & = - x + 5 \end{gathered}$
 
 > *... and plot a dotted line through (0, 5) with a gradient of −1*
 
@@ -272,7 +272,7 @@ $x\leq4$* will be to the left of (below) 4 on the x-axis - so shade the part of 
 
 > *To check either of the diagonal lines, pick a point, for example (1, 0). Substituting into *$y>2x$* we see that;*
 
-`table row 0 greater than cell 2 cross times 1 comma space false end cell end table`
+$\begin{gathered} 0 > 2 \times 1 , \text{false} \end{gathered}$
 
 > *Therefore (1, 0) is in the **unwanted** region so shade everything on the (1, 0) side of the line *$y=2x$
 
@@ -309,7 +309,7 @@ $x\leq4$* will be to the left of (below) 4 on the x-axis - so shade the part of 
 
 > *For *$y\leqx$*, the **unwanted **region is above the line, so shade above. To check this, pick an integer point (not on the line) and substitute into the inequality to test which side should be shaded. For example, picking (0, 1),*
 
-`table row 1 less or equal than cell 0 comma space false end cell end table`
+$\begin{gathered} 1 \text{less} \text{or} \text{equal} \text{than} 0 , \text{false} \end{gathered}$
 
 > *(0, 1) is in the **unwanted** region so shade everything on the (0, 1) side of the line *$y=x$
 
@@ -343,7 +343,7 @@ $x\leq4$* will be to the left of (below) 4 on the x-axis - so shade the part of 
 
 > *For** *$x+y<7$*, draw *$x+y=7$*. Rearrange to *$y=mx+c$*...*
 
-`table row cell space y end cell equals cell negative x plus 7 end cell end table`
+$\begin{gathered} y & = - x + 7 \end{gathered}$
 
 > *... and plot a dotted line through (0, 7) with a gradient of −1*
 
@@ -365,7 +365,7 @@ $x\leq4$* will be to the left of (below) 4 on the x-axis - so shade the part of 
 
 > *To check either of these, pick a point such as (1, 0) and substitute into the inequality. For example, for *$y<2x$*;*
 
-`table row 0 less than cell 2 cross times 1 comma space true end cell end table`
+$\begin{gathered} 0 < 2 \times 1 , \text{true} \end{gathered}$
 
 > *(1, 0) is in the wanted region so shade everything on the **other** side of the line *$y=2x$
 
@@ -478,11 +478,11 @@ $y\geqx$** ****[1]**
 
 > * Vertical lines are of the form "*$x=k$*". *
 
-> *Diagonal lines are of the form "*`y minus y subscript 1 equals m open parentheses x plus x subscript 1 close parentheses`*" where **m** is the gradient of the line and (**x*<sub>*1*</sub>*, **y*<sub>*1*</sub>*) is a point the line passes through.  To find the gradient we will need a second point the line passes through.*
+> *Diagonal lines are of the form "*$y - y_{1} = m ( x + x_{1} )$*" where **m** is the gradient of the line and (**x*<sub>*1*</sub>*, **y*<sub>*1*</sub>*) is a point the line passes through.  To find the gradient we will need a second point the line passes through.*
 
 *The vertical lines passes through -1 on the ***x***-axis so has equation *$x=-1$* *
 
-*The (unlablelled) diagonal line passes through (0, 0) and (2, 2) and has gradient *$\frac{\mathrm{rise}}{\mathrm{run}}=\frac{2-0}{2-0}=1$*, so has equation *`y minus 0 equals 1 open parentheses x minus 0 close parentheses comma space space y equals x`
+*The (unlablelled) diagonal line passes through (0, 0) and (2, 2) and has gradient *$\frac{\mathrm{rise}}{\mathrm{run}}=\frac{2-0}{2-0}=1$*, so has equation *$y - 0 = 1 ( x - 0 ) , y = x$
 
 > *Now consider the inequalities for all three lines, including the given one.*
 
@@ -672,7 +672,7 @@ $y\leq-x+4$** ****[1]**
 
 > *For *$x+y>6$*, the line with equation *$x+y=6$*  needs to be drawn. This is easiest to do by substituting in *$x=0$* and *$y=0$* separately and finding the coordinates where the line crosses the axes.*
 
-`table row cell For space x space end cell equals cell space 0 colon space space space 0 space plus space y space equals space 6 space space space space space rightwards double arrow space space space y space equals space 6 end cell row cell For space y space end cell equals cell space 0 colon space space space 6 space plus space 0 space equals space 6 space space space space space rightwards double arrow space space space x space equals space 6 end cell end table`
+$\begin{gathered} \text{For} x & = 0 : 0 + y = 6 \Leftrightarrow y = 6 \\ \text{For} y & = 0 : 6 + 0 = 6 \Leftrightarrow x = 6 \end{gathered}$
 
 > *Plot the points (0, 6) and (6, 0) and join them up. with a dashed line.*
 
@@ -692,7 +692,7 @@ $y\leq-x+4$** ****[1]**
 
 > *For example, picking (4, 3),*
 
-`table row cell 2 space plus space 3 space end cell greater than cell space 6 comma space false end cell end table`
+$\begin{gathered} 2 + 3 & > 6 , \text{false} \end{gathered}$
 
 > *(2, 3) is in the **unwanted** region so shade everything on the (2, 3) side of the line *$x+y=6$*.*
 
@@ -717,7 +717,7 @@ $y\leq-x+4$** ****[1]**
 
 > *For example, picking the point with coordinates (1, 1), which is in the region R:*
 
-`table row cell 1 space end cell less or equal than cell space 1 space plus space 2 comma space true end cell row cell 1 space end cell greater than cell space 3 space minus space 1 comma space false end cell row cell 1 space end cell less than cell space 3 space true end cell end table`
+$\begin{array}{ccc}1 & \le & 1 + 2 , \text{true} \\ 1 & > & 3 - 1 , \text{false} \\ 1 & < & 3 \text{true} \end{array}$
 
 > *The point (1, 1) is in the **unwanted** region for the inequality *$y>3-x$* so R should be marked on the other side of this line.*
 
@@ -840,7 +840,7 @@ $m=\frac{\mathrm{rise}}{\mathrm{run}}=-\frac{6}{3}=-2$
 
 > *Unfortunately we cannot see where the line crosses the **y**-axis so pick a point, e.g. (6, 6) marked above, and substitute into *$y=-2x+c$*.*
 
-`6 equals negative 2 open parentheses 6 close parentheses plus c`
+$6 = - 2 ( 6 ) + c$
 
 **[1]**
 
@@ -854,7 +854,7 @@ $y=-2x+18$
 
 > *Region B is above the line so the wanted region is *$y\geq-2x+18$*. To check this, substitute the point (0, 0) (or any other point not on the line) into the inequality. (0, 0) is not in region B, so if we are correct that the inequality is *$y\geq-2x+18$*, (0, 0) will not make the inequality true.*
 
-`0 greater or equal than negative 2 open parentheses 0 close parentheses plus 18 comma space false` *(0, 0) is not in* $y\geq-2x+18$
+$0 \ge - 2 ( 0 ) + 18 , \text{false}$ *(0, 0) is not in* $y\geq-2x+18$
 
 $y\geq-2x+18$ **[1]**
 
@@ -869,11 +869,11 @@ $y\geq-2x+18$ **[1]**
 **correct region shaded**** [1]**
 
 ### 18((c)) — 5 marks
-> *First find the area that is currently unshaded. It is a trapezium and the area of a trapezium is *`1 half open parentheses a plus b close parentheses h`*.*
+> *First find the area that is currently unshaded. It is a trapezium and the area of a trapezium is *$1 \frac{1}{2} ( a + b ) h$*.*
 
 ![JEw-ZALh_gcse-ocr-tqs-graphing-inequalites-h5c-1](assets/014-jew-zalh-gcse-ocr-tqs-graphing-inequalites-h5c-1.png)
 
-`Area equals 1 half open parentheses 6 plus 8 close parentheses cross times 4 equals 28`
+$\text{Area} = 1 \frac{1}{2} ( 6 + 8 ) \times 4 = 28$
 
 **[1]**
 
@@ -881,11 +881,11 @@ $y\geq-2x+18$ **[1]**
 
 > *So we need to find the value of **a**, the top width of the trapezium, that gives an area of 23.*
 
-`23 equals 1 half open parentheses a plus 8 close parentheses cross times 4`
+$23 = 1 \frac{1}{2} ( a + 8 ) \times 4$
 
 **[1]**
 
-`table row 23 equals cell 2 open parentheses a plus 8 close parentheses end cell row 23 equals cell 2 a plus 16 end cell row 7 equals cell 2 a end cell row a equals cell 3.5 end cell end table`
+$\begin{gathered} 23 = 2 ( a + 8 ) \\ 23 = 2 a + 16 \\ 7 = 2 a \\ a = 3.5 \end{gathered}$
 
 **[1]**
 
@@ -919,13 +919,13 @@ $k=1.6$* ***[1]**
 
 > *For *$y\leqx$*, the **unwanted **region is above the line, so shade above *$y=x$*. To check this, pick an integer point (not on the line) and substitute into the inequality to test which side should be shaded. For example, picking (0, 1),*
 
-`table row 1 less or equal than cell 0 comma space false end cell end table`
+$\begin{gathered} 1 \text{less} \text{or} \text{equal} \text{than} 0 , \text{false} \end{gathered}$
 
 > *(0, 1) is in the **unwanted** region so everything on the (0, 1) side of the line *$y=x$* should be shaded.*
 
 > *For *$y<4-2x$*, the **unwanted **region is above the line, so shade above *$y=4-2x$*. To check this, pick an integer point (not on the line) and substitute into the inequality to test which side should be shaded. For example, picking (0, 1),*
 
-`table row 1 less than cell 4 minus 2 open parentheses 0 close parentheses comma space true end cell end table`
+$\begin{gathered} 1 < 4 - 2 ( 0 ) , \text{true} \end{gathered}$
 
 > *(0, 1) is in the **wanted** region so everything on the (0, 1) side of the line *$y=4-2x$* should be **unshaded**.*
 
@@ -1021,11 +1021,11 @@ $x\geq2$** ****[1]**
 
 *If unsure, pick a point inside the unshaded region. For example pick (3, 3), substitute *$x=3$* and *$y=3$* into the equation of the line, and decide which way the inequality sign should go:**     ** *
 
-`table row y equals cell 1 half x end cell row 3 greater or equal than cell 1 half cross times 3 space space space open parentheses 3 space is space greater space than space or space equal space to space 1 1 half close parentheses end cell end table`
+$\begin{gathered} y = 1 \frac{1}{2} x \\ 3 \text{greater} \text{or} \text{equal} \text{than} 1 \frac{1}{2} \times 3 ( 3 \text{is} \text{greater} \text{than} \text{or} \text{equal} \text{to} 1 1 \frac{1}{2} ) \end{gathered}$
 
 > *Therefore*
 
-`table row bold italic y bold greater or equal than cell bold 1 over bold 2 bold italic x end cell end table`* ***[1]**** **
+$\begin{array}{cc} y \ge & \frac{1}{ } 2 x\end{array}$* ***[1]**** **
 
 ### 9((b)) — 2 marks
 > *Use trial and error. Pick a point, and substitute the *$x$*- and *$y$*-coordinates into the equation *$3x+5y=35$*. For example;*
@@ -1057,13 +1057,13 @@ $x\geq2$** ****[1]**
 
 > *For *$y\leq2x+1$*, the **unwanted **region is above the line, so shade above *$y=x$*. To check this, pick an integer point (not on the line) and substitute into the inequality to test which side should be shaded. For example, picking (0, 0),*
 
-`table attributes columnalign right center left columnspacing 0px end attributes row 0 less or equal than cell 2 open parentheses 0 close parentheses plus 1 comma space true end cell end table`
+$\begin{array}{rcl} 0 \text{less} \text{or} \text{equal} \text{than} 2 ( 0 ) + 1 , \text{true} \end{array}$
 
 > *(0, 0) is in the **wanted** region so everything on the (0, 1) side of the line *$y=2x+1$* should be **unshaded.*
 
 > *For *$7x+4y\geq28$*, the **unwanted **region is below the line. To check this, pick an integer point (not on the line) and substitute into the inequality to test which side should be shaded. For example, picking (0, 0),*
 
-`table row cell 7 open parentheses 0 close parentheses plus 4 open parentheses 0 close parentheses end cell greater or equal than cell 28 comma space false end cell end table`
+$\begin{gathered} 7 ( 0 ) + 4 ( 0 ) & \text{greater} \text{or} \text{equal} \text{than} 28 , \text{false} \end{gathered}$
 
 > *(0, 0) is in the **unwanted** region so everything on the (0, 0) side of the line *$7x+4y=28$* should be **shaded.*
 

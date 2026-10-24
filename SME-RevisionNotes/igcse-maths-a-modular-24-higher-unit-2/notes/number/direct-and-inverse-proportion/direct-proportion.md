@@ -107,7 +107,7 @@ guided_study: false
 > > *Find **k** by substituting in **y** = 18 when **x** = 3*
 > *Then solve the equation for **k*
 > 
-> `table row 18 equals cell k open parentheses 3 close parentheses squared end cell row 18 equals cell 9 k end cell row cell 18 over 9 end cell equals k row 2 equals k end table`
+> $\begin{gathered} 18 = k ( 3 )^{2} \\ 18 = 9 k \\ \frac{18}{9} & = k \\ 2 = k \end{gathered}$
 > 
 > > *Substitute this value of **k** back into the formula to get the full equation*
 > 
@@ -115,6 +115,6 @@ guided_study: false
 > 
 > > *Use this formula to find **y** when **x** = 4*
 > 
-> `table attributes columnalign right center left columnspacing 0px end attributes row y equals cell 2 cross times 4 squared end cell row y equals cell 2 cross times 16 end cell row y equals 32 end table`
+> $\begin{array}{rcl} y = 2 \times 4^{2} \\ y = 2 \times 16 \\ y = 32 \end{array}$
 > 
 > $y=32$

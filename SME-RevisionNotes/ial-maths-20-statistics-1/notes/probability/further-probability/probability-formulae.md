@@ -33,8 +33,8 @@ guided_study: true
   - for **independent** events, $P(A\capB)=P(A)\timesP(B)$      **(“AND”, intersection)**
   - for **mutually** **exclusive** events, $P(A\cupB)=P(A)+P(B)$    **(“OR”, union)**
   - $P(A')=1-P(A)$**      (“NOT”, complement/prime/dash)**
-  - `P left parenthesis A vertical line B right parenthesis equals fraction numerator P left parenthesis A intersection B right parenthesis over denominator P left parenthesis B right parenthesis end fraction`     or    `straight P left parenthesis A intersection B right parenthesis equals straight P left parenthesis B right parenthesis cross times straight P left parenthesis A vertical line B right parenthesis`                   **(“GIVEN THAT”) **           This second version in particular is referred to as the **MULTIPLICATION** **FORMULA** (see diagram below)
-  - For **independent** events, `straight P left parenthesis A vertical line B right parenthesis space equals straight P left parenthesis A right parenthesis`
+  - $P ( A \vert B ) = \frac{P ( A \cap B )}{P ( B )}$     or    $\mathrm{P} ( A \cap B ) = \mathrm{P} ( B ) \times \mathrm{P} ( A \vert B )$                   **(“GIVEN THAT”) **           This second version in particular is referred to as the **MULTIPLICATION** **FORMULA** (see diagram below)
+  - For **independent** events, $\mathrm{P} ( A \vert B ) = \mathrm{P} ( A )$
 
 ![3-2-4-fig1-venn-tree-add-multiply-part-1](../../../assets/bf3c3a8f3d1f-3-2-4-fig1-venn-tree-add-multiply-part-1.png)
 

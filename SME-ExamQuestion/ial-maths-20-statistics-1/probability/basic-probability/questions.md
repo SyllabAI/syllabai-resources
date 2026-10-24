@@ -604,7 +604,7 @@ Determine whether any of the events ‘listens to ambient grime’, ‘listens t
 ### 1() — 4 marks — structured
 Isabel has two boxes of chocolates. Box A contains 4 caramels and 6 toffees and box B contains 5 caramels and $x$ toffees. Isabel chooses a chocolate at random from box A and moves it to box B. Her friend then takes a chocolate at random from box B.
 
-Show that the probability Isabel’s friend takes a caramel is given by `fraction numerator 27 over denominator 5 open parentheses x plus 6 close parentheses end fraction`.
+Show that the probability Isabel’s friend takes a caramel is given by $\frac{27}{5 ( x + 6 )}$.
 
 ### 2() — 4 marks — structured
 Given that the probability that Isabel’s friend takes a toffee is $\frac{11}{20}$, find the value of $x.$

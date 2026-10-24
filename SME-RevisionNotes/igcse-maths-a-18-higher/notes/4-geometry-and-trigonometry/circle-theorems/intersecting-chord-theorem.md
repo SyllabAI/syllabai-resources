@@ -61,16 +61,16 @@ guided_study: false
 > 
 > > *Fill in the information from the diagram*
 > 
-> `open parentheses x plus 2 close parentheses 2 x equals open parentheses 3 x plus 1 close parentheses x`
+> $( x + 2 ) 2 x = ( 3 x + 1 ) x$
 > 
 > > *Simplify*
 > 
-> `table row cell 2 x squared plus 4 x end cell equals cell 3 x squared plus x end cell row 0 equals cell x squared minus 3 x end cell end table`
+> $\begin{gathered} 2 x^{2} + 4 x & = 3 x^{2} + x \\ 0 = x^{2} - 3 x \end{gathered}$
 > 
 > > *Solve by factorising*
 > 
-> `0 equals x open parentheses x minus 3 close parentheses
-> x equals 0 space or space x equals 3`
+> $0 = x ( x - 3 )
+> x = 0 \text{or} x = 3$
 > 
 > > *Consider if both answers are possible*
 > 
@@ -100,7 +100,7 @@ guided_study: false
 > 
 > > *Using the ratio form of the intersecting chord theorem, and the expressions on the diagram*
 > 
-> `table row cell P T colon R T space end cell equals cell space T S colon T Q end cell row cell open parentheses x plus 2 close parentheses space colon space open parentheses 3 x plus 1 close parentheses space end cell equals cell space open parentheses x close parentheses space colon space open parentheses 2 x close parentheses end cell end table`
+> $\begin{gathered} P T : R T & = T S : T Q \\ ( x + 2 ) : ( 3 x + 1 ) & = ( x ) : ( 2 x ) \end{gathered}$
 > 
 > > *This shows that the ratio of **PT**:**RT **is the same as the ratio of **TS**:**TQ*
 > 
@@ -160,15 +160,15 @@ guided_study: false
 > 
 > > *Or equivalently*
 > 
-> `B E cross times open parentheses A B plus B E close parentheses equals D E cross times open parentheses C D plus D E close parentheses`
+> $B E \times ( A B + B E ) = D E \times ( C D + D E )$
 > 
 > > *Substitute the values from the diagram*
 > 
-> `12 cross times open parentheses 12 space plus space x close parentheses equals 14 cross times open parentheses space 4 plus space 14 close parentheses`
+> $12 \times ( 12 + x ) = 14 \times ( 4 + 14 )$
 > 
 > > *Solve for *$x$
 > 
-> `table row cell 12 open parentheses 12 space plus space x close parentheses space end cell equals cell space 252 end cell row cell 12 plus x end cell equals 21 row x equals 9 end table`
+> $\begin{gathered} 12 ( 12 + x ) & = 252 \\ 12 + x & = 21 \\ x = 9 \end{gathered}$
 > 
 > $x=9$
 
@@ -200,14 +200,14 @@ guided_study: false
 > 
 > > *This is a special case of the properties of Intersecting Chords (external intersection), where one of the lines is a tangent, and therefore one of the line segments has length zero*
 > 
-> `B X cross times open parentheses A B plus B X close parentheses equals C X cross times open parentheses C X plus 0 close parentheses`
+> $B X \times ( A B + B X ) = C X \times ( C X + 0 )$
 > 
 > > *Substitute the values from the diagram*
 > 
-> `10 cross times open parentheses 12.5 plus 10 close parentheses equals C X cross times open parentheses C X plus 0 close parentheses`
+> $10 \times ( 12.5 + 10 ) = C X \times ( C X + 0 )$
 > 
 > > *Simplify and solve for *$CX$
 > 
-> `table row cell 10 space open parentheses 22.5 close parentheses space end cell equals cell space open parentheses C X close parentheses squared end cell row cell 225 space end cell equals cell space open parentheses C X close parentheses squared end cell row cell square root of 225 end cell equals cell C X end cell row 15 equals cell C X end cell end table`
+> $\begin{gathered} 10 ( 22.5 ) & = ( C X )^{2} \\ 225 & = ( C X )^{2} \\ \sqrt{225} & = C X \\ 15 = C X \end{gathered}$
 > 
 > **Final answer:** **CX**** = 15 cm**

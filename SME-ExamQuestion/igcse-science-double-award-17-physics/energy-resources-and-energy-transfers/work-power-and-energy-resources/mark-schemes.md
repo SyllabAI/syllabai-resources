@@ -1309,7 +1309,7 @@ Rearrange kinetic energy equation for the velocity, *v*:
 
 Substitute values into velocity equation:
 
-- *v* = `square root of fraction numerator 2 cross times open parentheses 18 cross times 10 to the power of 6 close parentheses over denominator 250 space 000 end fraction end root`**[1 mark]**
+- *v* = $\sqrt{ \frac{2 \times ( 18 \times 10^{6} )}{250 000} }$**[1 mark]**
 - *v *= 12 m/s **[1 mark]**
 
 (iii) When the driver applies the brakes, the kinetic energy is:

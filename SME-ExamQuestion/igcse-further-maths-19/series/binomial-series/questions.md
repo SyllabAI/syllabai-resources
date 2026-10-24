@@ -6,12 +6,12 @@
 ## Q1 — medium — 7 marks · exam-questions
 
 ### 7((a)) — 3 marks — structured — from paper June 2024 · Paper 2
-Expand `open parentheses 1 space plus space 2 x squared close parentheses to the power of negative 3 over 4 end exponent` in ascending powers of $x$ up to and including the term in $x^{6}$
+Expand $( 1 + 2 x^{2} )^{- \frac{3}{4} }$ in ascending powers of $x$ up to and including the term in $x^{6}$
 
 Express each coefficient as an exact fraction in its lowest terms.
 
 ### 7((b)) — 2 marks — structured — from paper June 2024 · Paper 2
-`straight f open parentheses x close parentheses space equals space fraction numerator open parentheses 2 space plus space k x close parentheses over denominator open parentheses 1 plus 2 x squared close parentheses to the power of 3 over 4 end exponent end fraction` where $k\neq0$
+$\mathrm{f} ( x ) = \frac{( 2 + k x )}{( 1 + 2 x^{2} )^{ \frac{3}{4} } }$ where $k\neq0$
 
 Obtain a series expansion for $f(x)$ in ascending powers of $x$ up to and including the term in $x^{5}$
 
@@ -27,7 +27,7 @@ Find the value of $k$
 ### 6((a)) — 2 marks — structured — from paper November 2024 · Paper 1
 Show that
 
-`fraction numerator a over denominator square root of 4 plus b x end root end fraction equals a over 2 open parentheses 1 plus fraction numerator b x over denominator 4 end fraction close parentheses to the power of negative 1 half end exponent` where $a$ and $b$are positive integers.
+$\frac{a}{ \sqrt{4 + b x} } = \frac{a}{2} ( 1 + \frac{b x}{4} )^{- 1 \frac{1}{2}}$ where $a$ and $b$are positive integers.
 
 ### 6((b)) — 4 marks — structured — from paper November 2024 · Paper 1
 The expansion of $\frac{a}{\sqrt{4+bx}}$ in ascending powers of $x$can be written as
@@ -51,7 +51,7 @@ Hence, using an appropriate value of $x$, find, to 3 decimal places, an approxim
 ## Q3 — medium — 11 marks · exam-questions
 
 ### 7((a)) — 3 marks — structured — from paper June 2023 · Paper 2
-Expand `open parentheses 1 plus x over 3 close parentheses to the power of negative 3 end exponent`  in ascending powers of $x$ up to and including the term in $x^{3}$
+Expand $( 1 + \frac{x}{3} )^{- 3}$  in ascending powers of $x$ up to and including the term in $x^{3}$
 
 Where appropriate express each coefficient as an exact fraction in its lowest terms.
 
@@ -59,17 +59,17 @@ Where appropriate express each coefficient as an exact fraction in its lowest te
 Write down the range of values of $x$ for which your expression is valid.
 
 ### 7((c)) — 2 marks — structured — from paper June 2023 · Paper 2
-Express `open parentheses 3 plus x close parentheses to the power of negative 3 end exponent` in the form `P space open parentheses 1 plus Q x close parentheses to the power of negative 3 end exponent` where $P$ and $Q$ are rational numbers whose values should be stated.
+Express $( 3 + x )^{- 3}$ in the form $P ( 1 + Q x )^{- 3}$ where $P$ and $Q$ are rational numbers whose values should be stated.
 
 ### 7((d)) — 2 marks — structured — from paper June 2023 · Paper 2
 $f(x)=\frac{1+4x}{(3+x)^{3}}$
 
-Obtain a series expansion for `straight f open parentheses x close parentheses` in ascending powers of $x$ up to and including the term in $x^{2}$
+Obtain a series expansion for $\mathrm{f} ( x )$ in ascending powers of $x$ up to and including the term in $x^{2}$
 
 ### 7((e)) — 3 marks — structured — from paper June 2023 · Paper 2
 $f(x)=\frac{1+4x}{(3+x)^{3}}$
 
-Hence, using algebraic integration, obtain an estimate of `integral subscript 0 superscript 0.2 end superscript straight f left parenthesis x right parenthesis   straight d x`
+Hence, using algebraic integration, obtain an estimate of $\int_{0}^{0.2} \mathrm{f} ( x )   \mathrm{d} x$
 
 Give your answer to 5 significant figures.
 
@@ -81,26 +81,26 @@ Expand $(1-8x^{2})^{-\frac{1}{2}}$  in ascending powers of $x$, up to and includ
 ### 9((b)) — 4 marks — structured — from paper November 2023 · Paper 1
 $g(x)=\frac{a+bx}{\sqrt{1-8x^{2}}}$  where $a$ and $b$ are prime numbers
 
-Given that the fourth and fifth terms, in ascending powers of $x$, in the series expansion of `straight g open parentheses x close parentheses` are 20$x^{3}$and 48$x^{4}$ respectively,
+Given that the fourth and fifth terms, in ascending powers of $x$, in the series expansion of $\mathrm{g} ( x )$ are 20$x^{3}$and 48$x^{4}$ respectively,
 
 find the value of $a$ and the value of $b$
 
 ### 9((c)) — 4 marks — structured — from paper November 2023 · Paper 1
-Using the first five terms, in ascending powers of $x$, in the series expansion of `straight g open parentheses x close parentheses`
+Using the first five terms, in ascending powers of $x$, in the series expansion of $\mathrm{g} ( x )$
 
-obtain an estimate, to 4 significant figures, of `integral subscript 0 superscript 0.2 end superscript straight g left parenthesis x right parenthesis   straight d x`
+obtain an estimate, to 4 significant figures, of $\int_{0}^{0.2} \mathrm{g} ( x )   \mathrm{d} x$
 
 ## Q5 — medium — 7 marks · exam-questions
 
 ### 6((a)) — 2 marks — structured — from paper January 2023 · Paper 1
-Given that  `open parentheses 8 plus 3 x close parentheses to the power of 1 third end exponent` can be expressed in the form `space p open parentheses 1 plus q x close parentheses to the power of 1 third end exponent` where $p$ and $q$ are constants,
+Given that  $( 8 + 3 x )^{1 \frac{1}{3}}$ can be expressed in the form $p ( 1 + q x )^{1 \frac{1}{3}}$ where $p$ and $q$ are constants,
 
 find the value of $p$  and the value of $q$
 
 ### 6((b)) — 3 marks — structured — from paper January 2023 · Paper 1
-Hence, expand `open parentheses 8 plus 3 x close parentheses to the power of 1 third end exponent`  in ascending powers of $x$ up to and including the term in  $x^{2}$, expressing each coefficient as an exact fraction in its lowest terms.
+Hence, expand $( 8 + 3 x )^{1 \frac{1}{3}}$  in ascending powers of $x$ up to and including the term in  $x^{2}$, expressing each coefficient as an exact fraction in its lowest terms.
 
 ### 6((c)) — 2 marks — structured — from paper January 2023 · Paper 1
 Using the expansion found in part (b) with a suitable value of $x$
 
-show that `cube root of 9 almost equal to 599 over 288`
+show that $\sqrt[3]{9} \approx \frac{599}{288}$

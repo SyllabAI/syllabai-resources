@@ -30,18 +30,18 @@
 
 *A (2, 3) and C (5, -1)*
 
-`open parentheses fraction numerator 2 plus 5 over denominator 2 end fraction comma space fraction numerator 3 plus open parentheses negative 1 close parentheses over denominator 2 end fraction close parentheses`
+$( \frac{2 + 5}{2} , \frac{3 + ( - 1 )}{2} )$
 
-`open parentheses 7 over 2 comma space 2 over 2 close parentheses`
+$( \frac{7}{2} , \frac{2}{2} )$
 
-`open parentheses 3.5 comma space 1 close parentheses`
+$( 3.5 , 1 )$
 
 **[B1 B1]**
 
 > **[mark-scheme]**
 > **B1: **For getting the correct calculation for either coordinate or for having the correct numbers in your answer but the other way around (1, 3.5).
 > 
-> **B1:** For the correct answer. `open parentheses 7 over 2 comma space 1 close parentheses` will also get the mark.
+> **B1:** For the correct answer. $( \frac{7}{2} , 1 )$ will also get the mark.
 
 ### 5((d)) — 1 marks
 > *y = 4 is a horizontal line though 4 on the y axis*

@@ -97,7 +97,7 @@ $E_{kmax}=hf-Φ$
 > 
 > - From the graph at *f*<sub>0</sub>, *E*<sub>k</sub> = 0
 > 
-> `capital phi space equals space h f subscript 0 space equals space open parentheses 6.63 space cross times space 10 to the power of negative 34 end exponent close parentheses space cross times space open parentheses 4 space cross times space 10 to the power of 14 close parentheses space equals space 2.652 space cross times space 10 to the power of negative 19 end exponent space straight J`
+> $\\Phi = h f_{0} = ( 6.63 \times 10^{- 34} ) \times ( 4 \times 10^{14 ) = 2.652 \times 10^{-19} } \mathrm{J}$
 > 
 > **Step 4: Convert the work function into eV**
 > 

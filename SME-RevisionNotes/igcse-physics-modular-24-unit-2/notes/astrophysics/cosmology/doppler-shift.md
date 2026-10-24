@@ -86,7 +86,7 @@ $\frac{λ-λ_{0}}{λ_{0}}=\frac{Δλ}{λ_{0}}=\frac{v}{c}$
 > 
 > **Step 4: Substitute the values into the equation for *****v***
 > 
-> `v space equals space open parentheses 3 space cross times space 10 to the power of 8 close parentheses space cross times space fraction numerator open parentheses 485 space cross times space 10 to the power of negative 9 end exponent close parentheses space minus space open parentheses 435 space cross times space 10 to the power of negative 9 end exponent close parentheses over denominator 435 space cross times space 10 to the power of negative 9 end exponent end fraction`
+> $v = ( 3 \times 10^{8 ) \times \frac{( 485 \times 10^{-9} } ) - ( 435 \times 10^{- 9} )}{435 \times 10^{- 9} }$
 > 
 > $v=3.4\times10^{7}m/s$
 

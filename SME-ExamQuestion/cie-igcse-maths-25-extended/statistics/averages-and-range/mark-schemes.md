@@ -26,11 +26,11 @@
 
 > *An estimate for the mean (*$\overline{x}$*) is given by the formula *$\overline{x}=\frac{Σfx}{Σf}$*.*
 
-`table row cell x with bar on top end cell equals cell 1130 over 40 end cell end table`
+$\begin{gathered} \bar{x} & = \frac{1130}{40} \end{gathered}$
 
 **[1]**
 
-`table row cell x with bar on top end cell equals cell 28.25 end cell end table`
+$\begin{gathered} \bar{x} & = 28.25 \end{gathered}$
 
 **An estimate for the mean time taken is 28.25 minutes ****[1]**
 
@@ -40,19 +40,19 @@
 | Height, *h* cm | $0<h\leq10$ | $10<h\leq20$ | $20<h\leq30$ | $30<h\leq50$ |
 |---|---|---|---|---|
 | *Midpoint (*$x$*)* | *5* | *15* | *25* | *40* |
-| Frequency `open parentheses f close parentheses` | 2 | 18 | 62 | 38 |
+| Frequency $( f )$ | 2 | 18 | 62 | 38 |
 
 **[1]**
 
 > *Find the value of the sum of the midpoints multiplied by the frequencies (*$Σfx$*) by multiplying each of the midpoints by their corresponding frequencies and adding them together.*
 
-`table row cell straight capital sigma f x space end cell equals cell space open parentheses 5 space cross times space 2 close parentheses space plus space open parentheses 15 space cross times space 18 close parentheses space plus space open parentheses 25 space cross times space 62 close parentheses space plus space open parentheses 40 space cross times space 38 close parentheses space end cell row blank equals cell space 3350 end cell end table`
+`| capital sigma f x | = ( 5 x 2 ) + ( 15 x 18 ) + ( 25 x 62 ) + ( 40 x 38 ) | | _ = 3350 | |`
 
 **[1]**
 
 > *Find the mean by dividing your answer by the total number of plants (120).*
 
-`x with bar on top space equals table row blank blank cell fraction numerator space straight capital sigma f x space over denominator straight capital sigma f end fraction end cell end table table row blank equals blank end table table row blank blank cell fraction numerator space 3350 over denominator 120 end fraction end cell end table table row blank blank space end table space equals space 27.9166....`
+`x -bar = | _ _ ( capital sigma f x )/( capital sigma f) | | | _ = _ | | _ _ ( 3350)/(120) | | | _ _ | = 27.9166....`
 
 **[1]**
 
@@ -78,7 +78,7 @@ $3+1+3+2+4+2=15$
 
 > *Add one to the total and then divide by 2.*
 
-`open parentheses 15 plus 1 close parentheses divided by 2 equals 8`
+$( 15 + 1 ) \div 2 = 8$
 
 > *Starting from the lowest value coin, find the value of the 8*<sup>*th*</sup>* coin.*
 
@@ -88,7 +88,7 @@ $3+1+3+2+4+2=15$
 
 iv) *Multiply the value of each coin by how many there are of that type.*
 
-`open parentheses 1 cross times 3 close parentheses plus open parentheses 2 cross times 1 close parentheses plus open parentheses 5 cross times 3 close parentheses plus open parentheses 10 cross times 2 close parentheses plus open parentheses 20 cross times 4 close parentheses plus open parentheses 50 cross times 2 close parentheses`
+$( 1 \times 3 ) + ( 2 \times 1 ) + ( 5 \times 3 ) + ( 10 \times 2 ) + ( 20 \times 4 ) + ( 50 \times 2 )$
 
 **[1]**
 
@@ -116,7 +116,7 @@ $27-20=7$
 *If it isn't easy to spot, find the value halfway between two numbers by adding them together and dividing by 2. *
 *You could also find the middle of the data by crossing out the numbers from each end alternately.*
 
-`up diagonal strike 20 space space space up diagonal strike 21 space space space up diagonal strike 21 space space space up diagonal strike 21 space space space up diagonal strike 21 space space space up diagonal strike 21 space space space 22 space space space 23 space space space up diagonal strike 23 space space space up diagonal strike 23 space space space up diagonal strike 24 space space space up diagonal strike 25 space space space up diagonal strike 26 space space space up diagonal strike 27`
+$\cancel{20} \cancel{21} \cancel{21} \cancel{21} \cancel{21} \cancel{21} 22 23 \cancel{23} \cancel{23} \cancel{24} \cancel{25} \cancel{26} \cancel{27}$
 
 **Finding the middle value*** ***[1]**
 
@@ -148,7 +148,7 @@ $\frac{318}{14}=22.71428571...$
 | Frequency | 10 | 8 | 3 | 2 | 0 | 1 |
 | *Cumulative frequency* | *10* | *18* | *21* | *23* | *23* | *24* |
 
-*There are 24 students so the median is the *`open parentheses fraction numerator 24 plus 1 over denominator 2 end fraction close parentheses to the power of th`*value, so between the 12*<sup>*th*</sup>* and 13*<sup>*th*</sup>* value. *
+*There are 24 students so the median is the *$( \frac{24 + 1}{2} )^{th}$*value, so between the 12*<sup>*th*</sup>* and 13*<sup>*th*</sup>* value. *
 *There have only been 10 students by the end of the "0" column, but there have been 18 students by the end of the "1" column. * *So the median is in the "1" column; the median is 1.*
 
 **Median = 1**** ****[1]**
@@ -172,11 +172,11 @@ $\frac{\sumfx}{\sumf}=\frac{25}{24}$
 
 **[1]**
 
-**                    **`equals 1.041 6 with dot on top`
+**                    **$= 1.041 \dot{6}$
 
 > *Give your final answer to at least 3 significant figures.*
 
-**Mean = **$1.04$** or **$1.042$** or **`bold 1 bold. bold 041 bold 6 with bold dot on top`** ****[1]**
+**Mean = **$1.04$** or **$1.042$** or **$1 . 041 \dot{6}$** ****[1]**
 
 ### Q6
 *Find the lowest overall score in both classes (the smaller of the two lowest class scores)* * *
@@ -227,11 +227,11 @@ $\frac{\sumfx}{\sumf}=\frac{25}{24}$
 
 > *An estimate for the mean (*$\overline{x}$*) is given by the formula *$\overline{x}=\frac{Σfx}{Σf}$*.*
 
-`table row cell x with bar on top end cell equals cell 4650 over 40 end cell end table`
+$\begin{gathered} \bar{x} & = \frac{4650}{40} \end{gathered}$
 
 **[1]**
 
-`table row cell x with bar on top end cell equals cell 116.25 end cell end table`
+$\begin{gathered} \bar{x} & = 116.25 \end{gathered}$
 
 **An estimate for the mean time is 116.25 minutes ****[1]**
 
@@ -271,13 +271,13 @@ $\overline{x}=1.623333...$
 
 > *Find the value of the sum of the midpoints multiplied by the frequencies (*$Σfx$*) by multiplying each of the midpoints by its corresponding frequency and adding them together.*
 
-`table row cell straight capital sigma f x space end cell equals cell space open parentheses 30 space cross times space 41 close parentheses space plus space open parentheses 80 space cross times space 24 close parentheses space plus space open parentheses 130 space cross times space 23 close parentheses space plus space open parentheses 190 space cross times space 8 close parentheses space plus space open parentheses 270 space cross times space 4 close parentheses end cell row blank equals cell space 8740 end cell end table`
+`| capital sigma f x | = ( 30 x 41 ) + ( 80 x 24 ) + ( 130 x 23 ) + ( 190 x 8 ) + ( 270 x 4 ) | | _ = 8740 | |`
 
 **[1]**
 
 > *Find the mean by dividing your answer by the total number of children (100).*
 
-`x with bar on top space equals table row blank blank cell fraction numerator space straight capital sigma f x space over denominator straight capital sigma f end fraction end cell end table table row blank equals blank end table table row blank blank cell fraction numerator space 8740 over denominator 100 end fraction end cell end table table row blank blank space end table`
+`x -bar = | _ _ ( capital sigma f x )/( capital sigma f) | | | _ = _ | | _ _ ( 8740)/(100) | | | _ _ |`
 
 **Correct method**** [1]**
 $87.4\mathrm{min}$** ****[1]**
@@ -323,8 +323,8 @@ $87.4\mathrm{min}$** ****[1]**
 
 | Time (minutes) | $0<m\leq10$ | $10<m\leq40$ | $40<m\leq60$ | $60<m\leq90$ | $90<m\leq100$ | $100<m\leq120$ | *Total* |
 |---|---|---|---|---|---|---|---|
-| Frequency `open parentheses f close parentheses` | 3 | 39 | 43 | 55 | 11 | 9 | *160* |
-| Midpoint `open parentheses x close parentheses` | *5* | *25* | *50* | *75* | *95* | *110* | *-* |
+| Frequency $( f )$ | 3 | 39 | 43 | 55 | 11 | 9 | *160* |
+| Midpoint $( x )$ | *5* | *25* | *50* | *75* | *95* | *110* | *-* |
 | $fx$ | *15* | *975* | *2150* | *4125* | *1045* | *990* | *9300* |
 
 **Midpoints**** [1]**
@@ -372,7 +372,7 @@ $\overline{x}=58.125$
  *e.g. in *$0<m\leq5$* we can simply use 2.5 as the data value. *
 *To find the midpoint, find the sum of the limits of the group, and divide by 2 (i.e. find their mean) e.g. *$\frac{0+5}{2}=2.5$
 
-| Amount `left parenthesis $ m right parenthesis` | $0<m\leq5$ | $5<m\leq10$ | $10<m\leq20$ | $20<m\leq30$ | $30<m\leq50$ |
+| Amount $( \$ m )$ | $0<m\leq5$ | $5<m\leq10$ | $10<m\leq20$ | $20<m\leq30$ | $30<m\leq50$ |
 |---|---|---|---|---|---|
 | Frequency | 16 | 38 | 30 | 9 | 7 |
 | *Midpoint* | *2.5* | *7.5* | *15* | *25* | *40* |
@@ -383,13 +383,13 @@ $\overline{x}=58.125$
 *e.g. There are 16 students with a spend of \$2.50, so the sum of the data in this group is 16 × 2.5 = 40. *
 *We can find the number of pieces of data by totalling the frequency row, but on this occasion, it is also given in the question ("100 students ...").*
 
-`Mean equals fraction numerator open parentheses 16 cross times 2.5 close parentheses plus open parentheses 38 cross times 7.5 close parentheses plus open parentheses 30 cross times 15 close parentheses plus open parentheses 9 cross times 25 close parentheses plus open parentheses 7 cross times 40 close parentheses over denominator 16 plus 38 plus 30 plus 9 plus 7 end fraction`
+$\text{Mean} = \frac{( 16 \times 2.5 ) + ( 38 \times 7.5 ) + ( 30 \times 15 ) + ( 9 \times 25 ) + ( 7 \times 40 )}{16 + 38 + 30 + 9 + 7}$
 
 **[2]**
 
 $\mathrm{Mean}=12.8$
 
-`bold $ bold space bold 12 bold. bold 80` **[1] **
+$\$ 12 . 80$ **[1] **
 
 ### Q14
 *To find the mean from a table of grouped data, we assume that the data in each group is evenly distributed, so we can then use the midpoints of the groups.* 
@@ -408,7 +408,7 @@ $\mathrm{Mean}=12.8$
 *e.g. There are 38 boys with a time of 25 seconds, so the sum of the data in this group is 38×25.* 
 *We can find the total number of pieces of data by summing the frequencies.*
 
-`Mean equals fraction numerator open parentheses 38 cross times 25 close parentheses plus open parentheses 27 cross times 32.5 close parentheses plus open parentheses 21 cross times 37.5 close parentheses plus open parentheses 16 cross times 50 close parentheses plus open parentheses 18 cross times 80 close parentheses over denominator 38 plus 27 plus 21 plus 16 plus 18 end fraction`
+$\text{Mean} = \frac{( 38 \times 25 ) + ( 27 \times 32.5 ) + ( 21 \times 37.5 ) + ( 16 \times 50 ) + ( 18 \times 80 )}{38 + 27 + 21 + 16 + 18}$
 
 **[2]**
 
@@ -463,7 +463,7 @@ $\mathrm{Mean}=40.5$  **(3 s.f.)** **[1]**
 * i.e. There are 50 days with a temperature of 5 °C, so the sum of the data in this group is 50 × 5. *
 *We can find the total number of pieces of data by summing the frequencies.*
 
-`Mean equals fraction numerator open parentheses 50 cross times 5 close parentheses plus open parentheses 85 cross times 12.5 close parentheses plus open parentheses 100 cross times 17.5 close parentheses plus open parentheses 120 cross times 22.5 close parentheses plus open parentheses 10 cross times 30 close parentheses over denominator 50 plus 85 plus 100 plus 120 plus 10 end fraction`
+$\text{Mean} = \frac{( 50 \times 5 ) + ( 85 \times 12.5 ) + ( 100 \times 17.5 ) + ( 120 \times 22.5 ) + ( 10 \times 30 )}{50 + 85 + 100 + 120 + 10}$
 
 **[2]**
 
@@ -581,13 +581,13 @@ $\frac{\sumfx}{\sumf}=\frac{128}{40}$
 
 > *Find the value of the sum of all the midpoints multiplied by the frequencies (*$Σfx$*) by multiplying each midpoint by its corresponding frequency and adding them together.*
 
-`table row cell straight capital sigma f x space end cell equals cell space open parentheses 40 space cross times space 32 close parentheses space plus space open parentheses 80 space cross times space 64 close parentheses space plus space open parentheses 125 space cross times space 80 close parentheses space plus space open parentheses 200 space cross times space 24 close parentheses end cell row blank equals cell space 21200 end cell end table`
+`| capital sigma f x | = ( 40 x 32 ) + ( 80 x 64 ) + ( 125 x 80 ) + ( 200 x 24 ) | | _ = 21200 | |`
 
 **[1]**
 
 > *Find the mean by dividing your answer by the total number of students (200).*
 
-`x with bar on top space equals table row blank blank cell fraction numerator space straight capital sigma f x space over denominator straight capital sigma f end fraction end cell end table table row blank equals blank end table table row blank blank cell fraction numerator space 21200 over denominator 200 end fraction end cell end table table row blank blank space end table`
+`x -bar = | _ _ ( capital sigma f x )/( capital sigma f) | | | _ = _ | | _ _ ( 21200)/(200) | | | _ _ |`
 
 **[1]**
 
@@ -628,7 +628,7 @@ $106m^{2}$** ****[1]**
 $20<t\leq25$  **[1]**
 
 **Be careful not to write "44" as the answer!**
-> *There are 120 students so the median time is between the 60*<sup>*th*</sup>* and 61*<sup>*st*</sup>* time (the *`open parentheses fraction numerator n plus 1 over denominator 2 end fraction close parentheses to the power of th`*time). *
+> *There are 120 students so the median time is between the 60*<sup>*th*</sup>* and 61*<sup>*st*</sup>* time (the *$( \frac{n + 1}{2} )^{th}$*time). *
 *It is useful to add a cumulative frequency row to the table.*
 
 | Time ($t$ minutes) | $20<t\leq25$ | $25<t\leq30$ | $30<t\leq35$ | $35<t\leq40$ | $40<t\leq45$ |
@@ -670,9 +670,9 @@ $\frac{\sumfx}{\sumf}=\frac{990+880+910+450+170}{120}$
 
 **[1]**
 
-`equals 28.3 with dot on top`
+$= 28. \dot{3}$
 
-** **`bold 28 bold. bold 3 with bold dot on top`** ****or**** **$28.3$**  [1]**
+** **$28 . \dot{3}$** ****or**** **$28.3$**  [1]**
 
 **It is acceptable to give the answer to 3 significant figures rather than as a recurring decimal**
 
@@ -697,20 +697,20 @@ $\frac{\sumfx}{\sumf}=\frac{990+880+910+450+170}{120}$
 |---|---|---|---|
 | Mass ($m$ grams) | $46<m\leq52$ | $52<m\leq62$ | $62<m\leq80$ |
 | *Midpoint* | *49* | *57* | *71* |
-| Number of eggs sold `open parentheses f close parentheses` | $78$ | $180$ | $162$ |
+| Number of eggs sold $( f )$ | $78$ | $180$ | $162$ |
 | *Midpoint × *$f$ | *49 × 78 = 3822 * | *57 × 180 = 10 260* | *71 × 162 = 11 502* |
 
-`sum f x equals 3 comma 822 plus 10 comma 260 plus 11 comma 502 space space space open parentheses equals 25 comma 584 close parentheses`
+$\text{sum} f x = 3 , 822 + 10 , 260 + 11 , 502 ( = 25 , 584 )$
 
 **[1]**
 
 > $\sumf$* is found by adding the frequencies.*
 
-`sum f equals 78 plus 180 plus 162 space space space open parentheses equals 420 close parentheses`
+$\text{sum} f = 78 + 180 + 162 ( = 420 )$
 
 > *Now apply the formula, divide*$\sumfx$* by *$\sumf$*.*
 
-`fraction numerator sum f x over denominator sum f end fraction equals fraction numerator 3822 plus 10 space 260 plus 11 space 502 over denominator 78 plus 180 plus 162 end fraction space space space open parentheses equals fraction numerator 25 space 584 over denominator 420 end fraction close parentheses`
+$\frac{sum f x}{sum f} = \frac{3822 + 10 260 + 11 502}{78 + 180 + 162} ( = \frac{25 584}{420} )$
 
 **[1]**
 
@@ -791,11 +791,11 @@ $\frac{5135}{120}$
 
 > *Find the value of *$Σfx$* by multiplying the midpoints by the frequencies and adding them together.*
 
-`table row cell straight capital sigma f x space end cell equals cell space open parentheses 5 space cross times space 9 close parentheses space plus space open parentheses 12.5 space cross times space 18 close parentheses space plus space open parentheses 17.5 space cross times space 22 close parentheses space plus space open parentheses 30 space cross times space 30 close parentheses space plus space open parentheses 57.5 space cross times space 21 close parentheses end cell row blank equals cell space 2762.5 end cell end table`**[1]**
+`| capital sigma f x | = ( 5 x 9 ) + ( 12.5 x 18 ) + ( 17.5 x 22 ) + ( 30 x 30 ) + ( 57.5 x 21 ) | | _ = 2762.5 | |`**[1]**
 
 > *Find the mean by dividing the answer by the total number of students (100).*
 
-`x with bar on top space equals table row blank blank cell fraction numerator space straight capital sigma f x space over denominator straight capital sigma f end fraction end cell end table table row blank equals blank end table table row blank blank cell fraction numerator space 2762.5 over denominator 100 end fraction end cell end table table row blank blank space end table`
+`x -bar = | _ _ ( capital sigma f x )/( capital sigma f) | | | _ = _ | | _ _ ( 2762.5)/(100) | | | _ _ |`
 
 **[1]**
 
@@ -828,11 +828,11 @@ $\frac{7x+179}{x+45}=4.28$
 
 > *Multiply both sides by *$x+45$* and expand.*
 
-`table row cell 7 x plus 179 end cell equals cell 4.28 left parenthesis x plus 45 right parenthesis end cell row cell 7 x plus 179 end cell equals cell 4.28 x plus 192.6 end cell end table`
+$\begin{gathered} 7 x + 179 & = 4.28 ( x + 45 ) \\ 7 x + 179 & = 4.28 x + 192.6 \end{gathered}$
 
 > *Rearrange to get all the **x** terms on one side by themselves. Subtract 4.28**x** from both sides and subtract 179 from both sides. Simplify both sides.*
 
-`table row cell 7 x minus 4.28 x end cell equals cell 192.6 minus 179 end cell row cell 2.72 x end cell equals cell 13.6 end cell end table`
+$\begin{gathered} 7 x - 4.28 x & = 192.6 - 179 \\ 2.72 x & = 13.6 \end{gathered}$
 
 > *Divide both sides by 2.72.*
 

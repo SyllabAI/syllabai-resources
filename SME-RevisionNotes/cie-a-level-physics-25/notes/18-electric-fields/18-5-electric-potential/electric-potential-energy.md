@@ -50,7 +50,7 @@ $\DeltaV=V_{f}-V_{i}$
 
 - The potential difference due to a point charge can be written:
 
-`increment V space equals space fraction numerator Q over denominator 4 straight pi epsilon subscript 0 end fraction open parentheses 1 over r subscript f space minus space 1 over r subscript i close parentheses`
+$\Delta V = \frac{Q}{4 \mathrm{\pi } \epsilon_{0} } ( \frac{1}{r} _{f} - \frac{1}{r} _{i} )$
 
 - Where
 
@@ -86,7 +86,7 @@ $E_{p}=\frac{Q_{1}Q_{2}}{4πε_{0}r}$
 
 - When a charge *q* moves away from a charge *Q*, the change in electric potential energy is equal to:
 
-`increment E subscript p space equals space q increment V space equals space fraction numerator Q q over denominator 4 straight pi epsilon subscript 0 end fraction open parentheses 1 over r subscript 2 space minus space 1 over r subscript 1 close parentheses`
+$\Delta E_{p} = q \Delta V = \frac{Q q}{4 \mathrm{\pi } \epsilon_{0} } ( \frac{1}{r} _{2} - \frac{1}{r} _{1} )$
 
 - Where:
 
@@ -139,7 +139,7 @@ $E_{p}=\frac{Q_{1}Q_{2}}{4πε_{0}r}$
 > 
 > **Step 4: Substitute values into the equation**
 > 
-> `E subscript straight p space equals space open parentheses 8.99 cross times 10 to the power of 9 close parentheses cross times fraction numerator 2 cross times 79 cross times stretchy left parenthesis 1.60 cross times 10 to the power of negative 19 end exponent stretchy right parenthesis squared over denominator stretchy left parenthesis 4.7 cross times 10 to the power of negative 15 end exponent stretchy right parenthesis end fraction space equals space 7.7 cross times 10 to the power of negative 12 end exponent` J (2 s.f.)
+> $E_{p} = ( 8.99 \times 10^{9 ) \times \frac{2 \times 79 \times ( 1.60 \times 10^{-19} } )^{2}}{( 4.7 \times 10^{- 15} )} = 7.7 \times 10^{- 12}$ J (2 s.f.)
 
 > **Exam Hint**
 > This topic has a lot of concepts and language that can be easy to mix up, as well as many equations and graphs to learn. Take careful notes on this topic and learn the correct equations for each quantity, for example, when calculating electric potential energy, make sure you **do not **square the distance!

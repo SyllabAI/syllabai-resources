@@ -37,9 +37,9 @@ $680\times1.04^{3}=764.90752$
 
 **m***<sup>5</sup>** = 1.338225*
 
-> *Take the 5th root of both sides, you may have to press *`SHIFT plus box enclose square root of blank end root end enclose`* on your calculator*
+> *Take the 5th root of both sides, you may have to press *`SHIFT + box sqrt( _ )`* on your calculator*
 
-`m equals fifth root of 1.338225 end root space equals space 1.0599999...`
+`m = fifth sqrt of 1.338225 ) = 1.0599999...`
 
 **[1]**
 
@@ -115,7 +115,7 @@ $680\times1.04^{3}=764.90752$
 
 **[1]**
 
-> *In the second year the rate is *`x over 2 percent sign`
+> *In the second year the rate is *$\frac{x}{2} \%$
 
 *The rate in the 2nd year is 2.8 ÷ 2 = 1.4%*
 
@@ -222,7 +222,7 @@ $680\times1.04^{3}=764.90752$
 *We now know that he earned £132 interest on £5500 after 1 year* 
 *We can now work out what percentage of £5500, this interest represents*
 
-`fraction numerator £ 132 over denominator £ 5500 end fraction cross times 100`
+$\frac{\pounds 132}{\pounds 5500} \times 100$
 
 **[1]**
 
@@ -487,9 +487,9 @@ $680\times1.04^{3}=764.90752$
 
 **m***<sup>6</sup>** = 1.3*
 
-> *Take the 6th root of both sides, you may have to press *`SHIFT plus box enclose square root of blank end root end enclose`* on your calculator*
+> *Take the 6th root of both sides, you may have to press *`SHIFT + box sqrt( _ )`* on your calculator*
 
-`m equals root index 6 of 1.3 end root space equals space 1.044697508...`
+`m = sqrt index 6 of 1.3 ) = 1.044697508...`
 
 **[1]**
 
@@ -524,34 +524,34 @@ $\frac{154500-150000}{150000}\times100$
 ### 8((f)) — 3 marks
 > *Substitute the values into the formula for compound interest.*
 
-*Formula for compound interest *`A equals P open parentheses 1 plus r over 100 close parentheses to the power of n`*A** = final amount = 206.46* 
+*Formula for compound interest *$A = P ( 1 + \frac{r}{100} )^{n}$*A** = final amount = 206.46* 
 *P  =** initial amount = 200* 
 *r**  =  interest rate = **r* 
 *n** = number of years = 2.*
 *Substitute the values into the formula to form an equation.   *
 
-`200 open parentheses 1 plus r over 100 close parentheses squared space equals space 206.46 space`
+$200 ( 1 + \frac{r}{100} )^{2} = 206.46$
 
 **[1]**
 
 > *Divide both sides by 200.  *
 
-`open parentheses 1 plus r over 100 close parentheses squared space equals space fraction numerator 206.46 over denominator 200 end fraction space
-open parentheses 1 plus r over 100 close parentheses squared space equals space 1.0323`
+$( 1 + \frac{r}{100} )^{2} = \frac{206.46}{200} 
+( 1 + \frac{r}{100} )^{2} = 1.0323$
 
 > * Expand the brackets by multiplying every term in the first bracket by every term in the second bracket.   *
 
-`table row cell open parentheses 1 plus r over 100 close parentheses open parentheses 1 plus r over 100 close parentheses space end cell equals cell space 1.0323 end cell row cell 1 open parentheses 1 plus r over 100 close parentheses space plus r over 100 open parentheses 1 plus r over 100 close parentheses space end cell equals cell space 1.0323 end cell row cell 1 space plus space r over 100 space plus space r over 100 plus space open parentheses r over 100 close parentheses squared space end cell equals cell space 1.0323 end cell row cell 1 space plus space space fraction numerator 2 r over denominator 100 end fraction plus space open parentheses r over 100 close parentheses squared space end cell equals cell space 1.0323 end cell end table`
+$\begin{gathered} ( 1 + \frac{r}{100} ) ( 1 + \frac{r}{100} ) & = 1.0323 \\ 1 ( 1 + \frac{r}{100} ) + \frac{r}{100} ( 1 + \frac{r}{100} ) & = 1.0323 \\ 1 + \frac{r}{100} + \frac{r}{100} + ( \frac{r}{100} )^{2} & = 1.0323 \\ 1 + \frac{2 r}{100} + ( \frac{r}{100} )^{2} & = 1.0323 \end{gathered}$
 
 **[1]**
 
 > *Set equal to zero and rearrange. *
 
-> *      *`table attributes columnalign right center left columnspacing 0px end attributes row cell 1 space plus space space fraction numerator 2 r over denominator 100 end fraction plus space open parentheses r over 100 close parentheses squared space minus space 1.0323 space end cell equals cell space 0 end cell row cell space open parentheses r over 100 close parentheses squared space space plus space fraction numerator 2 r over denominator 100 end fraction space minus space 0.0323 space end cell equals cell space 0 end cell end table`
+> *      *$\begin{array}{rcl} 1 + \frac{2 r}{100} + ( \frac{r}{100} )^{2} - 1.0323 & = 0 \\ ( \frac{r}{100} )^{2} + \frac{2 r}{100} - 0.0323 & = 0 \end{array}$
 
 > *    Remove the fractions by multiplying every term by 100*<sup>*2*</sup>* .  *
 
-`table row cell open parentheses r over 100 close parentheses squared space open parentheses 100 close parentheses squared space plus space fraction numerator 2 r over denominator 100 end fraction space open parentheses 100 close parentheses squared space minus space 0.0323 open parentheses 100 close parentheses squared space end cell equals cell space 0 end cell row cell fraction numerator 10000 r squared over denominator 10000 end fraction space plus space fraction numerator 200000 r over denominator 100 end fraction space minus 323 space end cell equals cell space 0 end cell end table`
+$\begin{gathered} ( \frac{r}{100} )^{2} ( 100 )^{2} + \frac{2 r}{100} ( 100 )^{2} - 0.0323 ( 100 )^{2} & = 0 \\ \frac{10000 r^{2}}{10000} + \frac{200000 r}{100} - 323 & = 0 \end{gathered}$
 
 $r^{2}+200r-323=0$ **[1]***   *
 
@@ -608,7 +608,7 @@ $r^{2}+200r-323=0$ **[1]***   *
 ### 1((c)) — 3 marks
 *Compound interest is where each year the interest is calculated by finding the percentage of the current amount.*
 
-*Recall the formula for compound interest *`A equals P open parentheses 1 plus r over 100 close parentheses to the power of n`*.*
+*Recall the formula for compound interest *$A = P ( 1 + \frac{r}{100} )^{n}$*.*
 
 *A** is the total final amount.* 
 *P **is the initial amount.* 
@@ -617,23 +617,23 @@ $r^{2}+200r-323=0$ **[1]***   *
 
 > *Substitute **A** = 559.78, **P **= 500, **n** = 6 to form an equation.*
 
-`559.78 equals 500 open parentheses 1 plus r over 100 close parentheses to the power of 6`
+$559.78 = 500 ( 1 + \frac{r}{100} )^{6}$
 
 ** [1]**
 
 > *Divide both sides by 500.*
 
-`open parentheses 1 plus r over 100 close parentheses to the power of 6 equals fraction numerator 559.78 over denominator 500 end fraction equals 1.11956`
+$( 1 + \frac{r}{100} )^{6} = \frac{559.78}{500} = 1.11956$
 
 > *Take the 6th root of both sides.*
 
-`1 plus r over 100 equals root index 6 of 1.11956 end root equals 1.019000...`
+`1 + r / 100 = sqrt index 6 of 1.11956 ) = 1.019000...`
 
 **[1]**
 
 > *Solve the equation by subtracting 1 from both sides and then multiplying both sides by 100. Use the answer button to avoid losing accuracy.*
 
-`table row cell r over 100 end cell equals cell 0.019000... end cell row r equals cell 1.9000... end cell end table`
+$\begin{gathered} \frac{r}{100} & = 0.019000... \\ r = 1.9000... \end{gathered}$
 
 > *Round to 3 significant figures.*
 
@@ -652,9 +652,9 @@ $r=1.90$* ***[1]**
 
 **[1]**
 
-> *Find the 6th root of both sides, you will need to use the *`box enclose root index box enclose blank end enclose of box enclose blank end enclose end root end enclose`* button, or similar, on your calculator*
+> *Find the 6th root of both sides, you will need to use the *`box sqrt index box _ of box _ )`* button, or similar, on your calculator*
 
-`m equals root index 6 of 1.1097025 end root equals 1.0175`
+`m = sqrt index 6 of 1.1097025 ) = 1.0175`
 
 **[1]**
 
@@ -682,23 +682,23 @@ $r=1.90$* ***[1]**
 ### 1((d)) — 3 marks
 > *This is compound interest so the amount of interest paid each year increases.  *
 
-> *Use the formula for compound interest, *`space P open parentheses 1 space plus space r over 100 close parentheses to the power of n`*, where **P **is the initial amount, **r  **is the interest rate and **n **is the number of years.*
+> *Use the formula for compound interest, *$P ( 1 + \frac{r}{100} )^{n}$*, where **P **is the initial amount, **r  **is the interest rate and **n **is the number of years.*
 
-> *P** = \$550,  *`r space equals space x percent sign`* so use the multiplier *`open parentheses 1 space plus space x over 100 close parentheses`*, **n **= 10.*
+> *P** = \$550,  *$r = x \%$* so use the multiplier *$( 1 + \frac{x}{100} )$*, **n **= 10.*
 
-`550 space cross times space open parentheses 1 space plus space x over 100 close parentheses to the power of 10 space equals space 638.30`
+$550 \times ( 1 + \frac{x}{100} )^{10} = 638.30$
 
 **[1]**
 
 > *Rearrange by taking the tenth root of both sides.*
 
-`table row cell space open parentheses 1 space plus space x over 100 close parentheses to the power of 10 space end cell equals cell space fraction numerator 638.3 over denominator 550 end fraction end cell row blank blank blank row cell 1 space plus space x over 100 space end cell equals cell space root index 10 of fraction numerator 638.3 over denominator 550 end fraction end root end cell end table`
+`| ( 1 + x / 100 ) ^ 10 | = (638.3)/(550) | | _ _ _ | 1 + x / 100 | = sqrt index 10 of (638.3)/(550) ) | |`
 
 **[1]**
 
 > *Solve the equation by subtracting 1 and multiplying by 100.*
 
-`table attributes columnalign right center left columnspacing 0px end attributes row cell x space end cell equals cell 100 space open parentheses root index 10 of fraction numerator 638.3 over denominator 550 end fraction end root space minus space 1 close parentheses end cell row blank blank blank row blank equals cell space 1.50004... end cell end table`
+`table columnalign right center left columnspacing 0px end | x | = 100 ( sqrt index 10 of (638.3)/(550) ) - 1 ) | | _ _ _ | _ = 1.50004... | |`
 
 > *Round the final answer appropriately.*
 
@@ -713,9 +713,9 @@ $x=1.5$** ****[1]**
 
 > *Compound interest means a 5% increase **each** year, for 2 years.*
 
-`" P open parentheses 1 plus r over 100 close parentheses to the power of n "`
+$" P ( 1 + \frac{r}{100} )^{n} "$
 
-`table row cell 6000 open parentheses 1 plus 3 over 100 close parentheses squared end cell equals cell 6000 cross times 1.03 squared end cell row blank equals cell 6365.4 end cell end table`
+$\begin{gathered} 6000 ( 1 + \frac{3}{100} )^{2} & = 6000 \times 1.03^{2} \\ = 6365.4 \end{gathered}$
 
 **[1]**
 
@@ -723,11 +723,11 @@ $x=1.5$** ****[1]**
 
 > *As the interest rates are different we need to calculate each year separately.*
 
-`" P open parentheses 1 plus r over 100 close parentheses to the power of n "`
+$" P ( 1 + \frac{r}{100} )^{n} "$
 
-*After year 1: *`6000 open parentheses 1 plus 1 over 100 close parentheses equals 6000 cross times 1.01 equals 6060`
+*After year 1: *$6000 ( 1 + \frac{1}{100} ) = 6000 \times 1.01 = 6060$
 
-*After year 2: *`6060 open parentheses 1 plus 5 over 100 close parentheses equals 6060 cross times 1.05 equals 6363`
+*After year 2: *$6060 ( 1 + \frac{5}{100} ) = 6060 \times 1.05 = 6363$
 
 **[1]**
 
@@ -753,7 +753,7 @@ $x=1.5$** ****[1]**
 ### 15() — 3 marks
 > *Compound interest means a 1.5% increase **each** year.*
 
-> `" P open parentheses 1 plus r over 100 close parentheses to the power of n "`* *
+> $" P ( 1 + \frac{r}{100} )^{n} "$* *
 *However, in this case we do not know **n**, but we do know the value Mirek wants the investment to be worth after **n** years. *
 *Mirek wants £1000 interest so the amount of the investment will need to be at least*
 
@@ -761,7 +761,7 @@ $x=1.5$** ****[1]**
 
 > *Therefore we need to solve the inequality*
 
-`table row cell 6000 open parentheses 1 plus fraction numerator 1.5 over denominator 100 end fraction close parentheses to the power of n end cell equals cell 6000 cross times 1.015 to the power of n greater or equal than 7000 end cell end table`
+$\begin{gathered} 6000 ( 1 + \frac{1.5}{100} )^{n} & = 6000 \times 1.015^{n} \text{greater} \text{or} \text{equal} \text{than} 7000 \end{gathered}$
 
 **Use of 1.015 or equivalent**** [1] **
 **"6000 × 1.1015**<sup>**n**</sup>**"**** [1]**
@@ -863,9 +863,9 @@ $x=1.5$** ****[1]**
 ### 11() — 4 marks
 > *The house value is expected to increase by 5% **each** year, for 4 years.*
 
-`" P open parentheses 1 plus r over 100 close parentheses to the power of n "`
+$" P ( 1 + \frac{r}{100} )^{n} "$
 
-`table row cell 120 space 000 open parentheses 1 plus 5 over 100 close parentheses to the power of 4 end cell equals cell 120 space 000 cross times 1.05 to the power of 4 end cell row blank equals cell 145 space 860.75 end cell end table`
+$\begin{gathered} 120 000 ( 1 + \frac{5}{100} )^{4} & = 120 000 \times 1.05^{4} \\ = 145 860.75 \end{gathered}$
 
 **Method to find value after (at least) 1 year**** [1] **
 **Method to find value after 4 years**** [1] **
@@ -880,7 +880,7 @@ $x=1.5$** ****[1]**
 ### 5() — 3 marks
 > *Add the interest rate to 100% and convert to an equivalent decimal*
 
-`table row cell 100 percent sign plus 4 percent sign end cell equals cell 104 percent sign end cell row cell 104 divided by 100 end cell equals cell 1.04 end cell end table`
+$\begin{gathered} 100 \% + 4 \% & = 104 \% \\ 104 \div 100 & = 1.04 \end{gathered}$
 
 > *Calculate the total amount by multiplying the original amount by the decimal multiplier 3 times to represent each year of investment*
 
@@ -914,7 +914,7 @@ $20247.552-18000=2247.552$
 ### 7() — 3 marks
 > *Work out the decimal multiplier for a depreciation of 8%*
 
-`100 percent sign thin space minus space 8 percent sign thin space equals space 92 percent sign space equals space 0.92`
+$100 \% - 8 \% = 92 \% = 0.92$
 
 > *Raise the decimal multiplier to the number of years and multiply the original amount*
 

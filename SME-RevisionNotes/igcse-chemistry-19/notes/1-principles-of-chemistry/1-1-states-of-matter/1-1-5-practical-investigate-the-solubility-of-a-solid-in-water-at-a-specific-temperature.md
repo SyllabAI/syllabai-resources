@@ -69,7 +69,7 @@ m(water) = m(soln) − m(solute) = 49.50 − 12.00 = **37.50 g**
 
 **Step 2**: Calculate solubility (g solute per 100 g water)
 
-Solubility at 30 °C = `fraction numerator straight m open parentheses solute close parentheses over denominator straight m open parentheses water close parentheses end fraction` x 100
+Solubility at 30 °C = $\frac{ \mathrm{m} ( \text{solute} )}{ \mathrm{m} ( \text{water} )}$ x 100
 
 $\frac{12.00}{37.50}$ x 100 = 32.0 g per 100 g
 

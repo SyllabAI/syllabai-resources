@@ -15,33 +15,33 @@ State, with a reason, whether each of the following could be graphs of probabili
 ## Q2 — easy — 6 marks · exam-questions
 
 ### 1() — 6 marks — structured
-If $f(x)$ is the probability density function for a random variable, $X$ which takes values in the interval `open parentheses a comma space b close parentheses` then:
+If $f(x)$ is the probability density function for a random variable, $X$ which takes values in the interval $( a , b )$ then:
 
-`integral subscript a superscript b straight f open parentheses x close parentheses d x equals 1`
+$\int_{a}^{b} \mathrm{f} ( x ) d x = 1$
 
 Use integration to decide whether the following functions could represent probability distribution functions.
 
-(i) `straight f open parentheses x close parentheses equals open curly brackets table row cell 2 x end cell cell 0 less or equal than x less or equal than 1 end cell row 0 cell otherwise. end cell end table close`
+(i) $\mathrm{f} ( x ) = \{ \begin{gathered} 2 x & 0 \text{less} \text{or} \text{equal} \text{than} x \text{less} \text{or} \text{equal} \text{than} 1 \\ 0 otherwise. \end{gathered} )$
 
-(ii) `straight f open parentheses x close parentheses equals open curly brackets table row cell 1 third x squared end cell cell 1 less or equal than x less or equal than 4 end cell row 0 cell otherwise. end cell end table close`
+(ii) $\mathrm{f} ( x ) = \{ \begin{gathered} 1 \frac{1}{3} x^{2} & 1 \text{less} \text{or} \text{equal} \text{than} x \text{less} \text{or} \text{equal} \text{than} 4 \\ 0 otherwise. \end{gathered} )$
 
-(iii) `straight f open parentheses x close parentheses equals open curly brackets table row cell 4 over 27 open parentheses x cubed plus 1 close parentheses end cell cell negative 1 less or equal than x less or equal than 2 end cell row 0 cell otherwise. end cell end table close`
+(iii) $\mathrm{f} ( x ) = \{ \begin{gathered} \frac{4}{27} ( x^{3} + 1 ) & - 1 \text{less} \text{or} \text{equal} \text{than} x \text{less} \text{or} \text{equal} \text{than} 2 \\ 0 otherwise. \end{gathered} )$
 
 ## Q3 — easy — 7 marks · exam-questions
 
 ### 1() — 2 marks — structured
 The continuous random variable, $X$, has probability density function
 
-`straight f open parentheses x close parentheses equals open curly brackets table row cell 1 over 24 open parentheses x cubed plus 2 close parentheses end cell cell 1 less or equal than x less or equal than 3 end cell row 0 cell otherwise. end cell end table close`
+$\mathrm{f} ( x ) = \{ \begin{gathered} \frac{1}{24} ( x^{3} + 2 ) & 1 \text{less} \text{or} \text{equal} \text{than} x \text{less} \text{or} \text{equal} \text{than} 3 \\ 0 otherwise. \end{gathered} )$
 
 The value of$P(a<X<b)$ is equal to
 
-`integral subscript a superscript b straight f open parentheses x close parentheses d x.`
+$\int_{a}^{b} \mathrm{f} ( x ) d x.$
 
 Find$P(1<X<2).$
 
 ### 2() — 3 marks — structured
-(i) Explain why `P left parenthesis X greater than 2.5 right parenthesis equals integral subscript 2.5 end subscript superscript 3 1 over 24 open parentheses x cubed plus 2 close parentheses d x.`
+(i) Explain why $P ( X > 2.5 ) = \int_{2.5}^{3} \frac{1}{24} ( x^{3} + 2 ) d x.$
 
 (ii) Hence find $P(X>2.5)$.
 
@@ -72,34 +72,34 @@ By finding relevant areas under the graph, find:
 ### 1() — 2 marks — structured
 Evaluate the following definite integral, giving your answer in terms of $k$.
 
-`integral subscript 3 superscript 9 k open parentheses x squared plus 3 close parentheses d x`
+$\int_{3}^{9} k ( x^{2} + 3 ) d x$
 
 ### 2() — 2 marks — structured
-Hence find the value of $k$ given that `straight f open parentheses x close parentheses` is a probability density function where
+Hence find the value of $k$ given that $\mathrm{f} ( x )$ is a probability density function where
 
-`straight f open parentheses x close parentheses equals open curly brackets table row cell k open parentheses x squared plus 3 close parentheses end cell cell 3 less or equal than x less or equal than 9 end cell row 0 cell otherwise. end cell end table close`
+$\mathrm{f} ( x ) = \{ \begin{gathered} k ( x^{2} + 3 ) & 3 \text{less} \text{or} \text{equal} \text{than} x \text{less} \text{or} \text{equal} \text{than} 9 \\ 0 otherwise. \end{gathered} )$
 
 ## Q6 — easy — 7 marks · exam-questions
 
 ### 1() — 2 marks — structured
 The continuous random variable $X$ has probability density function
 
-`straight f open parentheses x close parentheses equals open curly brackets table row cell 3 over 16 open parentheses x squared minus 1 close parentheses end cell cell 2 less or equal than x less or equal than 3 end cell row 0 cell otherwise. end cell end table close`
+$\mathrm{f} ( x ) = \{ \begin{gathered} \frac{3}{16} ( x^{2} - 1 ) & 2 \text{less} \text{or} \text{equal} \text{than} x \text{less} \text{or} \text{equal} \text{than} 3 \\ 0 otherwise. \end{gathered} )$
 
-Find  `integral 3 over 16 x open parentheses x squared minus 1 close parentheses d x.`
+Find  $\int \frac{3}{16} x ( x^{2} - 1 ) d x.$
 
 ### 2() — 1 mark — structured
 Hence find the value of $E(X)$ using the formula
 
-`straight E left parenthesis X right parenthesis equals integral x straight f open parentheses x close parentheses straight d x.`
+$\mathrm{E} ( X ) = \int x \mathrm{f} ( x ) \mathrm{d} x.$
 
 ### 3() — 2 marks — structured
-Find `integral 3 over 16 x squared open parentheses x squared minus 1 close parentheses straight d x.`
+Find $\int \frac{3}{16} x^{2} ( x^{2} - 1 ) \mathrm{d} x.$
 
 ### 4() — 1 mark — structured
 Hence find the value of $E(X²)$ using the formula
 
-`straight E left parenthesis X ² right parenthesis equals integral x squared straight f open parentheses x close parentheses straight d x.`
+$\mathrm{E} ( X ² ) = \int x^{2} \mathrm{f} ( x ) \mathrm{d} x.$
 
 ### 5() — 1 mark — structured
 Hence find the value of $\mathrm{Var}(X)$using the formula $\mathrm{Var}(X)=E(X^{2})-(E(X))².$
@@ -125,9 +125,9 @@ Find the value of the median of the continuous random variables which have proba
 ## Q9 — easy — 4 marks · exam-questions
 
 ### 1() — 1 mark — structured
-The continuous uniform (rectangular) distribution over the interval `open parentheses a comma space b close parentheses` has probability density function
+The continuous uniform (rectangular) distribution over the interval $( a , b )$ has probability density function
 
-`straight f open parentheses x close parentheses equals open curly brackets table row cell fraction numerator 1 over denominator b minus a end fraction end cell cell a less than x less than b end cell row 0 cell otherwise. end cell end table close`
+$\mathrm{f} ( x ) = \{ \begin{gathered} \frac{1}{b - a} & a < x < b \\ 0 otherwise. \end{gathered} )$
 
 The random variable $X$ follows a rectangular distribution over the interval $(2,18)$.
 
@@ -147,18 +147,18 @@ Write down
 ## Q10 — easy — 6 marks · exam-questions
 
 ### 1() — 3 marks — structured
-The continuous random variable $X$ has probability density function `straight f open parentheses x close parentheses` given by
+The continuous random variable $X$ has probability density function $\mathrm{f} ( x )$ given by
 
-`straight f open parentheses x close parentheses equals open curly brackets table row cell 1 fourth x end cell cell 0 less or equal than x less or equal than 2 end cell row cell 5 over 9 minus 1 over 9 x end cell cell 2 less or equal than x less or equal than 5 end cell row 0 cell otherwise. end cell end table close`
+$\mathrm{f} ( x ) = \{ \begin{gathered} 1 \frac{1}{4} x & 0 \text{less} \text{or} \text{equal} \text{than} x \text{less} \text{or} \text{equal} \text{than} 2 \\ \frac{5}{9} - \frac{1}{9} x & 2 \text{less} \text{or} \text{equal} \text{than} x \text{less} \text{or} \text{equal} \text{than} 5 \\ 0 otherwise. \end{gathered} )$
 
 Find $P(1\leqX\leq4)$ by calculating
 
-`integral subscript 1 superscript 2 open parentheses 1 fourth x close parentheses d x plus integral subscript 2 superscript 4 open parentheses 5 over 9 minus 1 over 9 x close parentheses d x`
+$\int_{1}^{2} ( 1 \frac{1}{4} x ) d x + \int_{2}^{4} ( \frac{5}{9} - \frac{1}{9} x ) d x$
 
 ### 2() — 3 marks — structured
 Find $E(X)$ by calculating
 
-`integral subscript 0 superscript 2 open parentheses 1 fourth x close parentheses left parenthesis x right parenthesis straight d x plus integral subscript 2 superscript 5 open parentheses 5 over 9 minus 1 over 9 x close parentheses left parenthesis x right parenthesis straight d x`
+$\int_{0}^{2} ( 1 \frac{1}{4} x ) ( x ) \mathrm{d} x + \int_{2}^{5} ( \frac{5}{9} - \frac{1}{9} x ) ( x ) \mathrm{d} x$
 
 ## Q11 — medium — 6 marks · exam-questions
 
@@ -174,18 +174,18 @@ This is a semicircle.
 ### 1() — 6 marks — structured
 State, with a reason, whether the following functions could represent probability distribution functions.
 
-(i) `straight f open parentheses x close parentheses equals open curly brackets table row cell 3 open parentheses x to the power of 5 minus 2 x cubed close parentheses end cell cell 1 less or equal than x less or equal than 2 end cell row 0 cell otherwise. end cell end table close`
+(i) $\mathrm{f} ( x ) = \{ \begin{gathered} 3 ( x^{5} - 2 x^{3} ) & 1 \text{less} \text{or} \text{equal} \text{than} x \text{less} \text{or} \text{equal} \text{than} 2 \\ 0 otherwise. \end{gathered} )$
 
-(ii) `straight f open parentheses x close parentheses equals open curly brackets table row cell 3 over 8 open parentheses x plus 1 close parentheses squared end cell cell negative 1 less or equal than x less or equal than 1 end cell row 0 cell otherwise. end cell end table close`
+(ii) $\mathrm{f} ( x ) = \{ \begin{gathered} \frac{3}{8} ( x + 1 )^{2} & - 1 \text{less} \text{or} \text{equal} \text{than} x \text{less} \text{or} \text{equal} \text{than} 1 \\ 0 otherwise. \end{gathered} )$
 
-(iii) `straight f open parentheses x close parentheses equals open curly brackets table row cell 6 over x squared end cell cell negative 3 less or equal than x less or equal than negative 2 end cell row 0 cell otherwise. end cell end table close`
+(iii) $\mathrm{f} ( x ) = \{ \begin{gathered} \frac{6}{x^{2}} & - 3 \text{less} \text{or} \text{equal} \text{than} x \text{less} \text{or} \text{equal} \text{than} - 2 \\ 0 otherwise. \end{gathered} )$
 
 ## Q13 — medium — 6 marks · exam-questions
 
 ### 1() — 2 marks — structured
 The continuous random variable, $X$, has probability density function
 
-`f open parentheses x close parentheses equals open curly brackets table row cell k open parentheses 3 x to the power of 4 minus 2 x close parentheses end cell cell 1 less or equal than x less or equal than 2 end cell row 0 cell otherwise. end cell end table close`
+$f ( x ) = \{ \begin{gathered} k ( 3 x^{4} - 2 x ) & 1 \text{less} \text{or} \text{equal} \text{than} x \text{less} \text{or} \text{equal} \text{than} 2 \\ 0 otherwise. \end{gathered} )$
 
 Show that $k=\frac{5}{78}.$
 
@@ -199,7 +199,7 @@ Show that $k=\frac{5}{78}.$
 ### 1() — 2 marks — structured
 The continuous random variable $X$ has probability density function
 
-`straight f open parentheses x close parentheses equals open curly brackets table row cell k open parentheses 2 plus square root of x close parentheses end cell cell 4 less or equal than x less or equal than 9 end cell row 0 cell otherwise. end cell end table close`
+$\mathrm{f} ( x ) = \{ \begin{gathered} k ( 2 + \sqrt{x} ) & 4 \text{less} \text{or} \text{equal} \text{than} x \text{less} \text{or} \text{equal} \text{than} 9 \\ 0 otherwise. \end{gathered} )$
 
 Show that $k=\frac{3}{68}.$
 
@@ -214,22 +214,22 @@ Find $\mathrm{Var}(X).$
 ### 1() — 4 marks — structured
 Find the mode of the continuous random variable, $X$, which has probability density function defined by:
 
-(i) `straight f open parentheses x close parentheses equals open curly brackets table row cell 2 over 21 x end cell cell 2 less or equal than x less or equal than 5 end cell row 0 cell otherwise. end cell end table close`
+(i) $\mathrm{f} ( x ) = \{ \begin{gathered} \frac{2}{21} x & 2 \text{less} \text{or} \text{equal} \text{than} x \text{less} \text{or} \text{equal} \text{than} 5 \\ 0 otherwise. \end{gathered} )$
 
-(ii) `straight f open parentheses x close parentheses equals open curly brackets table row cell 1 over 9 open parentheses 4 minus open parentheses x plus 1 close parentheses squared close parentheses end cell cell negative 2 less or equal than x less or equal than 1 end cell row 0 cell otherwise. end cell end table close`
+(ii) $\mathrm{f} ( x ) = \{ \begin{gathered} \frac{1}{9} ( 4 - ( x + 1 )^{2} ) & - 2 \text{less} \text{or} \text{equal} \text{than} x \text{less} \text{or} \text{equal} \text{than} 1 \\ 0 otherwise. \end{gathered} )$
 
-(iii) `straight f open parentheses x close parentheses equals open curly brackets table row cell 1 half sin open parentheses x close parentheses end cell cell 0 less or equal than x less or equal than pi end cell row 0 cell otherwise. end cell end table close`
+(iii) $\mathrm{f} ( x ) = \{ \begin{gathered} 1 \frac{1}{2} \sin ( x ) & 0 \text{less} \text{or} \text{equal} \text{than} x \text{less} \text{or} \text{equal} \text{than} \pi \\ 0 otherwise. \end{gathered} )$
 
 ## Q16 — medium — 5 marks · exam-questions
 
 ### 1() — 2 marks — structured
 The continuous random variable $X$ has probability density function
 
-`straight f open parentheses x close parentheses equals open curly brackets table row cell 5 over 62 square root of x cubed end root end cell cell 1 less or equal than x less or equal than 4 end cell row 0 cell otherwise. end cell end table close`
+$\mathrm{f} ( x ) = \{ \begin{gathered} \frac{5}{62} \sqrt{x^{3}} & 1 \text{less} \text{or} \text{equal} \text{than} x \text{less} \text{or} \text{equal} \text{than} 4 \\ 0 otherwise. \end{gathered} )$
 
 Find an expression, in terms of $m$, for
 
-`integral subscript 1 superscript m 5 over 62 square root of x cubed end root d x.`
+$\int_{1}^{m} \frac{5}{62} \sqrt{x^{3}} d x.$
 
 ### 2() — 3 marks — structured
 Hence find the median of $X$.
@@ -239,7 +239,7 @@ Hence find the median of $X$.
 ### 1() — 3 marks — structured
 The continuous random variable $X$ follows a continuous uniform distribution over the interval $(3,28)$ so that its probability density function is
 
-`f open parentheses x close parentheses equals open curly brackets table row cell 1 over 25 end cell cell 3 less than x less than 28 end cell row 0 cell otherwise. end cell end table close`
+$f ( x ) = \{ \begin{gathered} \frac{1}{25} & 3 < x < 28 \\ 0 otherwise. \end{gathered} )$
 
 Find
 
@@ -259,7 +259,7 @@ Find
 ### 1() — 2 marks — structured
 May calls her nephew Peter each day to check on him. May enjoys talking so much so that Peter has programmed his phone to disconnect from a call after 15 minutes. The length of a call, in minutes, between May and Peter is denoted by the continuous random variable $T$. It is modelled by the probability density function
 
-`straight f open parentheses t close parentheses equals open curly brackets table row cell 1 over 1125 t squared end cell cell 0 less or equal than t less or equal than 15 end cell row 0 cell otherwise. end cell end table close`
+$\mathrm{f} ( t ) = \{ \begin{gathered} \frac{1}{1125} t^{2} & 0 \text{less} \text{or} \text{equal} \text{than} t \text{less} \text{or} \text{equal} \text{than} 15 \\ 0 otherwise. \end{gathered} )$
 
 Find the mean length of a call.
 
@@ -277,7 +277,7 @@ Out of the next 100 calls between May and Peter, estimate the number of them tha
 ### 1() — 2 marks — structured
 The mass, in kilograms, of a wrestler in a local club is denoted by the continuous random variable $M$. It is modelled by the probability density function
 
-`straight f open parentheses m close parentheses equals open curly brackets table row cell k minus 1 over 9000 open parentheses m minus 80 close parentheses squared end cell cell 70 less than m less than 100 end cell row 0 cell otherwise. end cell end table close`
+$\mathrm{f} ( m ) = \{ \begin{gathered} k - \frac{1}{9000} ( m - 80 )^{2} & 70 < m < 100 \\ 0 otherwise. \end{gathered} )$
 
 Show that $k=\frac{4}{90}.$
 
@@ -294,9 +294,9 @@ Given that a wrestler can enter Heavy Middleweight competitions, find the probab
 ## Q20 — medium — 9 marks · exam-questions
 
 ### 1() — 4 marks — structured
-The continuous random variable $X$ has probability density function `straight f open parentheses x close parentheses` given by
+The continuous random variable $X$ has probability density function $\mathrm{f} ( x )$ given by
 
-`straight f open parentheses x close parentheses equals open curly brackets table row cell 1 fifth open parentheses x minus 1 close parentheses end cell cell 1 less or equal than x less or equal than k end cell row cell 2 minus 2 over 5 x end cell cell k less than x less or equal than 4 end cell row 0 cell otherwise. end cell end table close`
+$\mathrm{f} ( x ) = \{ \begin{gathered} 1 \frac{1}{5} ( x - 1 ) & 1 \text{less} \text{or} \text{equal} \text{than} x \text{less} \text{or} \text{equal} \text{than} k \\ 2 - \frac{2}{5} x & k < x \text{less} \text{or} \text{equal} \text{than} 4 \\ 0 otherwise. \end{gathered} )$
 
 Find the value of $k.$
 
@@ -311,18 +311,18 @@ Show that $E(X)=3$.
 ### 1() — 5 marks — structured
 State, with a reason, whether the following functions could represent probability distribution functions.
 
-(i) `straight f open parentheses x close parentheses equals open curly brackets table row cell 1 third open parentheses x squared minus 2 close parentheses end cell cell 1 less or equal than x less or equal than 2 end cell row 0 cell otherwise. end cell end table close`
+(i) $\mathrm{f} ( x ) = \{ \begin{gathered} 1 \frac{1}{3} ( x^{2} - 2 ) & 1 \text{less} \text{or} \text{equal} \text{than} x \text{less} \text{or} \text{equal} \text{than} 2 \\ 0 otherwise. \end{gathered} )$
 
-(ii) `straight f open parentheses x close parentheses equals open curly brackets table row cell 4 over x to the power of 5 end cell cell x greater or equal than 1 end cell row 0 cell otherwise. end cell end table close`
+(ii) $\mathrm{f} ( x ) = \{ \begin{gathered} \frac{4}{x^{5}} & x \text{greater} \text{or} \text{equal} \text{than} 1 \\ 0 otherwise. \end{gathered} )$
 
-(iii) `straight f open parentheses x close parentheses equals open curly brackets table row cell 2 over x squared end cell cell negative 1 less or equal than x less or equal than 2 end cell row 0 cell otherwise. end cell end table close`
+(iii) $\mathrm{f} ( x ) = \{ \begin{gathered} \frac{2}{x^{2}} & - 1 \text{less} \text{or} \text{equal} \text{than} x \text{less} \text{or} \text{equal} \text{than} 2 \\ 0 otherwise. \end{gathered} )$
 
 ## Q22 — hard — 8 marks · exam-questions
 
 ### 1() — 4 marks — structured
 The continuous random variable $X$ has probability density function
 
-`straight f open parentheses x close parentheses equals open curly brackets table attributes columnalign left columnspacing 1.4ex end attributes row cell begin inline style 1 fourth end style x open parentheses x minus 1 close parentheses open parentheses x plus 1 close parentheses end cell cell 1 less or equal than x less or equal than k end cell row 0 cell otherwise. end cell end table close`
+`f ( x ) = { table columnalign left columnspacing 1.4ex end | begin inline style 1 fourth x ( x - 1 ) ( x + 1 ) | 1 <= x <= k | | 0 otherwise. | | close`
 
 Find the exact value for $k$ .
 
@@ -334,7 +334,7 @@ Find $P(X<E(X)).$
 ### 1() — 4 marks — structured
 Harry is trying to draw specific lengths without measuring equipment. He draws a straight line and stops when he thinks it is 10 cm long. The actual length of Harry’s line, $L$ cm, can be modelled by the probability density function
 
-`straight f open parentheses l close parentheses equals open curly brackets table row cell 20 over 421 open parentheses l minus 10.5 close parentheses to the power of 4 end cell cell 8 less or equal than l less or equal than 12 end cell row 0 cell otherwise. end cell end table close`
+$\mathrm{f} ( l ) = \{ \begin{gathered} \frac{20}{421} ( l - 10.5 )^{4} & 8 \text{less} \text{or} \text{equal} \text{than} l \text{less} \text{or} \text{equal} \text{than} 12 \\ 0 otherwise. \end{gathered} )$
 
 Estimate the lower quartile of the lengths of Harry’s lines.
 
@@ -366,11 +366,11 @@ Given that$P(X>5)=0.6$find the value of $a$.
 ### 1() — 6 marks — structured
 Find the mode of the continuous random variable, $X$, which has probability density function defined by:
 
-(i) `straight f open parentheses x close parentheses equals open curly brackets table row cell 3 over 140 open parentheses 5 minus 6 x minus x squared close parentheses end cell cell negative 4 less or equal than x less or equal than 0 end cell row 0 cell otherwise. end cell end table close`
+(i) $\mathrm{f} ( x ) = \{ \begin{gathered} \frac{3}{140} ( 5 - 6 x - x^{2} ) & - 4 \text{less} \text{or} \text{equal} \text{than} x \text{less} \text{or} \text{equal} \text{than} 0 \\ 0 otherwise. \end{gathered} )$
 
-(ii) `straight f open parentheses x close parentheses equals open curly brackets table row cell 3 over 34 open parentheses 10 minus open parentheses x minus 2 close parentheses squared close parentheses end cell cell 3 less or equal than x less or equal than 5 end cell row 0 cell otherwise. end cell end table close`
+(ii) $\mathrm{f} ( x ) = \{ \begin{gathered} \frac{3}{34} ( 10 - ( x - 2 )^{2} ) & 3 \text{less} \text{or} \text{equal} \text{than} x \text{less} \text{or} \text{equal} \text{than} 5 \\ 0 otherwise. \end{gathered} )$
 
-(iii) `straight f open parentheses x close parentheses equals open curly brackets table row cell 1 half open parentheses sin open parentheses x close parentheses plus cos open parentheses x close parentheses close parentheses end cell cell 0 less or equal than x less or equal than pi over 2 end cell row 0 cell otherwise. end cell end table close`
+(iii) $\mathrm{f} ( x ) = \{ \begin{gathered} 1 \frac{1}{2} ( \sin ( x ) + \cos ( x ) ) & 0 \text{less} \text{or} \text{equal} \text{than} x \text{less} \text{or} \text{equal} \text{than} \frac{\pi }{2} \\ 0 otherwise. \end{gathered} )$
 
 ## Q26 — hard — 7 marks · exam-questions
 
@@ -390,7 +390,7 @@ Find the median of $X$.
 ## Q27 — hard — 9 marks · exam-questions
 
 ### 1() — 2 marks — structured
-The diagram below shows the probability density function, `straight f open parentheses t close parentheses`, of a random variable $T$.
+The diagram below shows the probability density function, $\mathrm{f} ( t )$, of a random variable $T$.
 
 ![q7a-1-3-ial-s2-crv-hard-satistics-2](assets/004-q7a-1-3-ial-s2-crv-hard-satistics-2.png)
 
@@ -478,15 +478,15 @@ Find $E(Y).$
 ## Q32 — very_hard — 8 marks · exam-questions
 
 ### 1() — 5 marks — structured
-The random variable, $U$, follows a continuous uniform distribution on the interval `open square brackets a comma b close square brackets`. The probability density function  is defined by:
+The random variable, $U$, follows a continuous uniform distribution on the interval $[ a , b ]$. The probability density function  is defined by:
 
-`g open parentheses u close parentheses equals open curly brackets table row k row 0 end table close space space space space space space space space space table row cell a less or equal than u less or equal than b end cell row cell otherwise. end cell end table`
+$g ( u ) = \{ \begin{gathered} k \\ 0 \end{gathered} ) \begin{gathered} a \text{less} \text{or} \text{equal} \text{than} u \text{less} \text{or} \text{equal} \text{than} b \\ otherwise. \end{gathered}$
 
 (i) Write down an expression for $k$ in terms of $a$ and $b$.
 
 (ii) Write down an expression for $E(U)$ in terms of $a$ and $b$.
 
-(iii) Show that  `Var open parentheses U close parentheses equals open parentheses b minus a close parentheses squared over 12.`.
+(iii) Show that  $\text{Var} ( U ) = \frac{( b - a )^{2}}{12.}$.
 
 ### 2() — 3 marks — structured
 Given that $E(U)=8.5$and $\mathrm{Var}(U)=6.75$, find the values of $a$ and $b$.
@@ -496,7 +496,7 @@ Given that $E(U)=8.5$and $\mathrm{Var}(U)=6.75$, find the values of $a$ and $b$.
 ### 1() — 6 marks — structured
 A meeting at a company lasts $T$ hours. The random variable $T$ can be modelled by the probability density function
 
-`straight f open parentheses t close parentheses equals open curly brackets table row cell 3 over 4 t open parentheses t minus 2 close parentheses squared end cell row 0 end table close space space space space space space space space space space space space table row cell 0 less or equal than t less or equal than 2 end cell row cell otherwise. end cell end table`
+$\mathrm{f} ( t ) = \{ \begin{gathered} \frac{3}{4} t ( t - 2 )^{2} \\ 0 \end{gathered} ) \begin{gathered} 0 \text{less} \text{or} \text{equal} \text{than} t \text{less} \text{or} \text{equal} \text{than} 2 \\ otherwise. \end{gathered}$
 
 Find the mean time of a meeting and find the standard deviation of times.
 
@@ -511,7 +511,7 @@ By using differentiation, find the mode of the times.
 ### 1() — 3 marks — structured
 The continuous random variable $X$ has probability density function
 
-`straight f open parentheses x close parentheses equals open curly brackets table row cell k over x cubed end cell row 0 end table close space space space space space space space space space space space space space space space space space table row cell 2 less or equal than x less or equal than a end cell row cell otherwise. end cell end table`
+$\mathrm{f} ( x ) = \{ \begin{gathered} \frac{k}{x^{3}} \\ 0 \end{gathered} ) \begin{gathered} 2 \text{less} \text{or} \text{equal} \text{than} x \text{less} \text{or} \text{equal} \text{than} a \\ otherwise. \end{gathered}$
 
 Show that $k=\frac{8a^{2}}{a^{2}-4}.$
 
@@ -526,7 +526,7 @@ Find the exact value of $\mathrm{Var}(X)$ .
 ### 1() — 1 mark — structured
 Paul is travelling around France to try to find the perfect baguette. The random variable $C$ represents the cost, in euros, of a baguette. It can be modelled by the probability density function
 
-`straight f open parentheses c close parentheses equals open curly brackets table row cell 1 over 36 open parentheses 14 c minus c squared minus 40 close parentheses end cell row 0 end table close space space space space space space space space space space space space space space space space table row cell 4 less or equal than c less or equal than 10 end cell row cell otherwise. end cell end table`
+$\mathrm{f} ( c ) = \{ \begin{gathered} \frac{1}{36} ( 14 c - c^{2} - 40 ) \\ 0 \end{gathered} ) \begin{gathered} 4 \text{less} \text{or} \text{equal} \text{than} c \text{less} \text{or} \text{equal} \text{than} 10 \\ otherwise. \end{gathered}$
 
 Sketch the graph of $y=f(c).$
 
@@ -541,7 +541,7 @@ Given that $P(C<9)=\frac{25}{27},$ find the value of $P(5<C<9).$
 ### 1() — 4 marks — structured
 The continuous random variable $X$ has probability density function $f(x)$ given by
 
-`straight f open parentheses x close parentheses equals open curly brackets table row cell 1 over 7 x to the power of 4 end cell cell space space space minus 1 less or equal than x less or equal than 1 end cell row cell 1 over 20 x cubed minus 1 over 35 x end cell cell space space space space space space 1 less than x less than 3 end cell row k cell space space space space space 3 less or equal than x less or equal than 6 end cell row 0 cell space space space space space space space otherwise end cell end table close`
+$\mathrm{f} ( x ) = \{ \begin{gathered} \frac{1}{7} x^{4} & - 1 \text{less} \text{or} \text{equal} \text{than} x \text{less} \text{or} \text{equal} \text{than} 1 \\ \frac{1}{20} x^{3} - \frac{1}{35} x & 1 < x < 3 \\ k 3 \text{less} \text{or} \text{equal} \text{than} x \text{less} \text{or} \text{equal} \text{than} 6 \\ 0 \text{otherwise} \end{gathered} )$
 
 where $k$ is a constant.
 

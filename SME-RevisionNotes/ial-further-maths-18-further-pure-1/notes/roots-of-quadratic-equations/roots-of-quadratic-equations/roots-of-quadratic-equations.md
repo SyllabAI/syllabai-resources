@@ -24,14 +24,14 @@ guided_study: false
   - by** dividing **by $a$ (assuming $a\neq0$)
 - If $α$ and $β$ are** roots** of the quadratic equation
 
-  - then the equation is also `open parentheses x minus alpha close parentheses open parentheses x minus beta close parentheses equals 0` in **factorised** form
+  - then the equation is also $( x - \\alpha ) ( x - \\beta ) = 0$ in **factorised** form
   
     - This works for real and complex roots
 - Both left-hand sides of the equations are **identical**
 
-  - `open parentheses x minus alpha close parentheses open parentheses x minus beta close parentheses identical to x squared plus b over a x plus c over a`
+  - $( x - \\alpha ) ( x - \\beta ) \equiv x^{2} + \frac{b}{a} x + \frac{c}{a}$
   - **Expand** and **collect** the left-hand side
-  - `x squared minus open parentheses alpha plus beta close parentheses x plus alpha beta identical to x squared plus b over a x plus c over a`
+  - $x^{2} - ( \\alpha + \\beta ) x + \\alpha \\beta \equiv x^{2} + \frac{b}{a} x + \frac{c}{a}$
   - **Equating coefficients** gives
   
     - the** sum** of the roots is $α+β=-\frac{b}{a}$
@@ -50,26 +50,26 @@ guided_study: false
 > 
 > (a)  $α+β$
 > 
-> > *Either use *`alpha plus beta equals negative b over a equals negative fraction numerator open parentheses negative 30 close parentheses over denominator 5 end fraction`
+> > *Either use *$\\alpha + \\beta = - \frac{b}{a} = - \frac{( - 30 )}{5}$
 > *Or first divide both sides of the equation by 5*
 > 
 > $x^{2}-6x-\frac{3}{5}=0$
 > 
-> > *Then use *`x squared minus open parentheses sum space of space roots close parentheses x plus product space of space roots equals 0`
+> > *Then use *$x ^{2} - ( \text{sum} of \text{roots} ) x + \text{product} of \text{roots} = 0$
 > *The sum of the roots is the negative of the middle number*
 > 
-> `alpha plus beta equals negative open parentheses negative 6 close parentheses`
+> $\\alpha + \\beta = - ( - 6 )$
 > 
 > $α+β=6$
 > 
 > (b)  $αβ$
 > 
-> > *Either use *`alpha beta equals c over a equals fraction numerator open parentheses negative 3 close parentheses over denominator 5 end fraction`
+> > *Either use *$\\alpha \\beta = \frac{c}{a} = \frac{( - 3 )}{5}$
 > *Or first divide both sides of the equation by 5*
 > 
 > $x^{2}-6x-\frac{3}{5}=0$
 > 
-> > *Then use *`x squared minus open parentheses sum space of space roots close parentheses x plus product space of space roots equals 0`
+> > *Then use *$x ^{2} - ( \text{sum} of \text{roots} ) x + \text{product} of \text{roots} = 0$
 > *The product of the roots is the constant term on the end*
 > *No change of sign is needed*
 > 
@@ -83,7 +83,7 @@ guided_study: false
 
 ### How do I simplify expressions involving roots of a quadratic?
 
-- You can use **algebra** to write expressions** in terms of** `open parentheses alpha plus beta close parentheses` and $αβ$
+- You can use **algebra** to write expressions** in terms of** $( \\alpha + \\beta )$ and $αβ$
 - Then use the fact that the equation $ax^{2}+bx+c=0$ has roots $α$ and $β$ where
 
   - $α+β=-\frac{b}{a}$
@@ -107,8 +107,8 @@ guided_study: false
 
   - $α^{3}+β^{3}\equiv(α+β)^{3}-3αβ(α+β)$
   
-    - which comes from the **binomial expansion** of `open parentheses alpha plus beta close parentheses cubed`
-    - `left parenthesis alpha plus beta right parenthesis cubed identical to alpha cubed plus 3 alpha squared beta plus 3 alpha beta squared plus beta cubed identical to alpha cubed plus beta cubed plus 3 alpha beta open parentheses alpha plus beta close parentheses`
+    - which comes from the **binomial expansion** of $( \\alpha + \\beta )^{3}$
+    - $( \\alpha + \\beta )^{3} \equiv \\alpha ^{3} + 3 \\alpha ^{2} \\beta + 3 \\alpha \\beta ^{2} + \\beta ^{3} \equiv \\alpha ^{3} + \\beta ^{3} + 3 \\alpha \\beta ( \\alpha + \\beta )$
     - then rearranging
 
 - You should know **how** to use **algebraic fractions** (but do not need to learn these identities)
@@ -135,17 +135,17 @@ guided_study: false
 > > *Add the algebraic fractions *$\frac{α}{β}+\frac{β}{α}$
 > *Use a lowest common denominator of *$αβ$
 > 
-> `table row cell alpha over beta plus beta over alpha end cell equals cell fraction numerator alpha squared over denominator alpha beta end fraction plus fraction numerator beta squared over denominator alpha beta end fraction end cell row blank blank blank row blank equals cell fraction numerator alpha squared plus beta squared over denominator alpha beta end fraction end cell end table`
+> `| alpha / beta + beta / alpha | = (alpha ^2)/(alpha beta) + (beta ^2)/(alpha beta) | | _ _ _ | _ = (alpha ^2 + beta ^2)/(alpha beta) | |`
 > 
 > > *Now use the identity for the sum of the squares of the roots *$α^{2}+β^{2}\equiv(α+β)^{2}-2αβ$
 > 
-> `equals fraction numerator open parentheses alpha plus beta close parentheses squared minus 2 alpha beta over denominator alpha beta end fraction`
+> $= \frac{( \\alpha + \\beta )^{2} - 2 \\alpha \\beta }{\\alpha \\beta }$
 > 
 > *Substitute in *$α+β=-5$  *and*  $αβ=\frac{9}{2}$
 > 
-> `table row cell alpha over beta plus beta over alpha end cell equals cell fraction numerator open parentheses negative 5 close parentheses squared minus 2 open parentheses 9 over 2 close parentheses over denominator open parentheses 9 over 2 close parentheses end fraction end cell row blank equals cell fraction numerator 25 minus 9 over denominator 9 over 2 end fraction end cell row blank equals cell 16 divided by 9 over 2 end cell end table`
+> `| alpha / beta + beta / alpha | = (( - 5 ) ^2 - 2 ( 9 / 2 ))/(( 9 / 2 )) | | _ = (25 - 9)/(9 / 2) | | _ = 16 / 9 / 2 | |`
 > 
-> `table row cell alpha over beta plus beta over alpha end cell equals cell 32 over 9 end cell end table`
+> $\begin{array}{ccc}\frac{ \alpha }{ \beta } + \frac{ \beta }{ \alpha } & = & \frac{32}{9}\end{array}$
 > 
 > (b)  $α^{3}+β^{3}$
 > 
@@ -156,15 +156,15 @@ guided_study: false
 > 
 > > *Factorise fully the middle two terms*
 > 
-> `left parenthesis alpha plus beta right parenthesis cubed equals alpha cubed plus 3 alpha beta open parentheses alpha plus beta close parentheses plus beta cubed`
+> $( \\alpha + \\beta )^{3} = \\alpha ^{3} + 3 \\alpha \\beta ( \\alpha + \\beta ) + \\beta ^{3}$
 > 
 > > *Make *$α^{3}+β^{3}$* the subject*
 > 
-> `alpha cubed plus beta cubed equals left parenthesis alpha plus beta right parenthesis cubed minus 3 alpha beta open parentheses alpha plus beta close parentheses`
+> $\\alpha ^{3} + \\beta ^{3} = ( \\alpha + \\beta )^{3} - 3 \\alpha \\beta ( \\alpha + \\beta )$
 > 
 > > *Substitute in *$α+β=-5$* and *$αβ=\frac{9}{2}$
 > 
-> `table row cell alpha cubed plus beta cubed end cell equals cell left parenthesis negative 5 right parenthesis cubed minus 3 open parentheses 9 over 2 close parentheses open parentheses negative 5 close parentheses end cell row blank equals cell negative 125 plus 135 over 2 end cell end table`
+> $\begin{gathered} \\alpha ^{3} + \\beta ^{3} & = ( - 5 )^{3} - 3 ( \frac{9}{2} ) ( - 5 ) \\ = - 125 + \frac{135}{2} \end{gathered}$
 > 
 > $α^{3}+β^{3}=-\frac{115}{2}$
 > 

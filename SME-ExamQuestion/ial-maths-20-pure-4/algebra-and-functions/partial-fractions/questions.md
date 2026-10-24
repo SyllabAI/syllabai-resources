@@ -8,7 +8,7 @@
 ### 1() — 3 marks — structured
 Express
 
-`fraction numerator 1 over denominator x open parentheses x plus 1 close parentheses end fraction`
+$\frac{1}{x ( x + 1 )}$
 
 as partial fractions.
 
@@ -50,7 +50,7 @@ where $A$and $B$ are integers to be found.
 ### 1() — 3 marks — structured
 Show that
 
-`fraction numerator 3 x plus 8 over denominator open parentheses x plus 1 close parentheses squared end fraction identical to fraction numerator A over denominator x plus 1 end fraction plus B over open parentheses x plus 1 close parentheses squared`
+$\frac{3 x + 8}{( x + 1 )^{2}} \equiv \frac{A}{x + 1} + \frac{B}{( x + 1 )^{2}}$
 
 where $A$and $B$ are integers to be found.
 
@@ -59,7 +59,7 @@ where $A$and $B$ are integers to be found.
 ### 1() — 5 marks — structured
 Express
 
-`fraction numerator 5 x squared plus 10 x plus 8 over denominator x open parentheses x plus 2 close parentheses squared end fraction`
+$\frac{5 x^{2} + 10 x + 8}{x ( x + 2 )^{2}}$
 
 in partial fractions.
 
@@ -104,12 +104,12 @@ $\frac{x^{2}+x-4}{x^{2}+4x+3}=1-\frac{2}{x+1}-\frac{1}{x+3}$
 ## Q9 — medium — 3 marks · exam-questions
 
 ### 1() — 3 marks — structured
-Express  `fraction numerator 2 over denominator x open parentheses x plus 2 close parentheses end fraction`  as partial fractions.
+Express  $\frac{2}{x ( x + 2 )}$  as partial fractions.
 
 ## Q10 — medium — 3 marks · exam-questions
 
 ### 1() — 3 marks — structured
-Write  `fraction numerator x space minus space 10 over denominator open parentheses x plus 2 close parentheses open parentheses x minus 1 close parentheses end fraction`  in the form  $\frac{A}{x+2}+\frac{B}{x-1}$ , where $A$and $B$ are integers to be found.
+Write  $\frac{x - 10}{( x + 2 ) ( x - 1 )}$  in the form  $\frac{A}{x+2}+\frac{B}{x-1}$ , where $A$and $B$ are integers to be found.
 
 ## Q11 — medium — 12 marks · exam-questions
 
@@ -148,7 +148,7 @@ Express  $\frac{7x+34}{x^{2}+9x+14}$  as partial fractions.
 Use algebraic division to work out $(x^{2}+4x-6)\div(x^{2}-x-6)$.
 
 ### 2() — 3 marks — structured
-Write `fraction numerator 5 x over denominator open parentheses x plus 2 close parentheses open parentheses x minus 3 close parentheses end fraction`  in the form $\frac{A}{x+2}+\frac{B}{x-3}$
+Write $\frac{5 x}{( x + 2 ) ( x - 3 )}$  in the form $\frac{A}{x+2}+\frac{B}{x-3}$
 
 ### 3() — 3 marks — structured
 Hence, or otherwise, show that $\frac{x^{2}+4x-6}{x^{2}-x-6}=1+\frac{2}{x+2}+\frac{3}{x-3}$
@@ -156,7 +156,7 @@ Hence, or otherwise, show that $\frac{x^{2}+4x-6}{x^{2}-x-6}=1+\frac{2}{x+2}+\fr
 ## Q14 — medium — 4 marks · exam-questions
 
 ### 1() — 4 marks — structured
-Express  `fraction numerator 2 x over denominator open parentheses x plus 1 close parentheses open parentheses x minus 2 close parentheses end fraction`  as partial fractions.
+Express  $\frac{2 x}{( x + 1 ) ( x - 2 )}$  as partial fractions.
 
 ## Q15 — medium — 8 marks · exam-questions
 
@@ -167,7 +167,7 @@ Use the factor theorem to show that $(x+1)$ is a factor of  $x^{3}-3x^{2}+4$.
 Hence, or otherwise, fully factorise $x^{3}-3x^{2}+4$.
 
 ### 3() — 4 marks — structured
-Show that $\frac{19-8x}{x^{3}-3x^{2}+4}$  can be written in the form `fraction numerator A over denominator x plus 1 end fraction plus fraction numerator B over denominator x minus 2 end fraction plus C over open parentheses x minus 2 close parentheses squared`  , where $A,B$and $C$ are integers to be found.
+Show that $\frac{19-8x}{x^{3}-3x^{2}+4}$  can be written in the form $\frac{A}{x + 1} + \frac{B}{x - 2} + \frac{C}{( x - 2 )^{2}}$  , where $A,B$and $C$ are integers to be found.
 
 ## Q16 — medium — 4 marks · exam-questions
 
@@ -187,7 +187,7 @@ Express  $\frac{12}{x^{2}+4x-5}$  as partial fractions.
 ## Q19 — hard — 4 marks · exam-questions
 
 ### 1() — 4 marks — structured
-Write  `fraction numerator 12 x space minus space 6 over denominator open parentheses x minus 3 close parentheses open parentheses x plus 2 close parentheses open parentheses x minus 1 close parentheses end fraction`  in the form $\frac{A}{x-3}+\frac{B}{x+2}+\frac{C}{x-1}$  , where $A,B$and $C$ are integers to be found.
+Write  $\frac{12 x - 6}{( x - 3 ) ( x + 2 ) ( x - 1 )}$  in the form $\frac{A}{x-3}+\frac{B}{x+2}+\frac{C}{x-1}$  , where $A,B$and $C$ are integers to be found.
 
 ## Q20 — hard — 10 marks · exam-questions
 
@@ -214,10 +214,10 @@ Express  $\frac{2x^{2}+16x-24}{x^{3}-2x^{2}-8x}$  as partial fractions.
 ## Q22 — hard — 8 marks · exam-questions
 
 ### 1() — 2 marks — structured
-Show that   $\frac{x^{2}+x+5}{x^{2}+3x+2}$ can be written in the form  $A-$`fraction numerator 2 x space minus space 3 over denominator open parentheses x plus 1 close parentheses open parentheses x plus 2 close parentheses end fraction`  , where $A$ is an integer to be found.
+Show that   $\frac{x^{2}+x+5}{x^{2}+3x+2}$ can be written in the form  $A-$$\frac{2 x - 3}{( x + 1 ) ( x + 2 )}$  , where $A$ is an integer to be found.
 
 ### 2() — 3 marks — structured
-Express `fraction numerator 2 x space minus space 3 over denominator open parentheses x plus 1 close parentheses open parentheses x plus 2 close parentheses end fraction`  in the form  $\frac{B}{x+1}+\frac{C}{x+2}$  where $B$and $C$ are integers to be found.
+Express $\frac{2 x - 3}{( x + 1 ) ( x + 2 )}$  in the form  $\frac{B}{x+1}+\frac{C}{x+2}$  where $B$and $C$ are integers to be found.
 
 ### 3() — 3 marks — structured
 Using your values for $A,B$and $C$ write $\frac{x^{2}+x+5}{x^{2}+3x+2}$  in the form $A+\frac{B}{x+1}+\frac{C}{x+2}$
@@ -236,7 +236,7 @@ Use the factor theorem to show that $(x-2)$ is a factor of  $x^{3}+4x^{2}-3x-18$
 Hence, or otherwise, fully factorise $x^{3}+4x^{2}-3x-18$.
 
 ### 3() — 4 marks — structured
-Show that  $\frac{7x^{2}+32x+8}{x^{3}+4x^{2}-3x-18}$ can be written in the form  `fraction numerator A over denominator x minus 2 end fraction plus fraction numerator B over denominator x plus 3 end fraction plus C over open parentheses x plus 3 close parentheses squared` , where $A,B$and $C$ are integers to be found.
+Show that  $\frac{7x^{2}+32x+8}{x^{3}+4x^{2}-3x-18}$ can be written in the form  $\frac{A}{x - 2} + \frac{B}{x + 3} + \frac{C}{( x + 3 )^{2}}$ , where $A,B$and $C$ are integers to be found.
 
 ## Q25 — hard — 5 marks · exam-questions
 
@@ -261,12 +261,12 @@ Write  $\frac{13x^{2}-10}{x^{3}-x^{2}-2x}$  in the form  $\frac{A}{x}+\frac{B}{x
 ## Q29 — very_hard — 5 marks · exam-questions
 
 ### 1() — 5 marks — structured
-Show that  $\frac{34-3x^{2}-x}{x^{3}-5x^{2}+3x+9}$  can be written in the form  `fraction numerator A over denominator x plus 1 end fraction plus fraction numerator B over denominator x minus 3 end fraction plus C over open parentheses x minus 3 close parentheses squared` , where $A,B$and $C$ are integers to be found.
+Show that  $\frac{34-3x^{2}-x}{x^{3}-5x^{2}+3x+9}$  can be written in the form  $\frac{A}{x + 1} + \frac{B}{x - 3} + \frac{C}{( x - 3 )^{2}}$ , where $A,B$and $C$ are integers to be found.
 
 ## Q30 — very_hard — 4 marks · exam-questions
 
 ### 1() — 4 marks — structured
-Express  `fraction numerator x squared minus 3 over denominator open parentheses x minus 3 close parentheses open parentheses x plus 2 close parentheses squared end fraction`  as partial fractions.
+Express  $\frac{x^{2} - 3}{( x - 3 ) ( x + 2 )^{2}}$  as partial fractions.
 
 ## Q31 — very_hard — 4 marks · exam-questions
 
@@ -285,7 +285,7 @@ $f(x)=x^{3}+3x^{2}-4x-12.$
 (ii) Hence, fully factorise $f(x)$ .
 
 ### 2() — 4 marks — structured
-Express `fraction numerator 3 x squared minus 8 x minus 36 over denominator straight f open parentheses x close parentheses end fraction` as partial fractions.
+Express $\frac{3 x^{2} - 8 x - 36}{ \mathrm{f} ( x )}$ as partial fractions.
 
 ## Q33 — very_hard — 10 marks · exam-questions
 
@@ -295,7 +295,7 @@ Express  $\frac{2x-5}{x^{3}-3x^{2}-13x+15}$  as partial fractions.
 ## Q34 — very_hard — 5 marks · exam-questions
 
 ### 1() — 5 marks — structured
-Express  `fraction numerator 2 open parentheses 3 x cubed plus x squared minus 17 x plus 4 close parentheses over denominator x open parentheses x minus 1 close parentheses open parentheses x minus 4 close parentheses open parentheses x plus 2 close parentheses end fraction`  as partial fractions.
+Express  $\frac{2 ( 3 x^{3} + x^{2} - 17 x + 4 )}{x ( x - 1 ) ( x - 4 ) ( x + 2 )}$  as partial fractions.
 
 ## Q35 — very_hard — 7 marks · exam-questions
 

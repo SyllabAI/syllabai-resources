@@ -49,13 +49,13 @@ guided_study: false
 > 
 > ![cie-add-maths-the-unit-circle-we-solution](assets/a56dce8eb419-cie-add-maths-the-unit-circle-we-solution.png)
 > 
-> > *We know that *`open parentheses x comma space y close parentheses space equals space open parentheses cos space theta space comma space sin space theta close parentheses`* so we can use either ratio to solve for  *$θ$*.*
+> > *We know that *$( x , y ) = ( \cos \\theta , \sin \\theta )$* so we can use either ratio to solve for  *$θ$*.*
 > 
-> `table row cell cos space theta space end cell equals cell space 0.629 end cell row cell theta space end cell equals cell space cos to the power of negative 1 space end exponent 0.629 end cell row blank equals cell space 0.89053... end cell end table`
+> $\begin{gathered} \cos \\theta & = 0.629 \\ \\theta & = \cos ^{- 1 } 0.629 \\ = 0.89053... \end{gathered}$
 > 
 > > *or*
 > 
-> `table row cell sin space theta space end cell equals cell space 0.777 end cell row cell theta space end cell equals cell space sin to the power of negative 1 space end exponent 0.777 end cell row blank equals cell space 0.88988... end cell end table`
+> $\begin{gathered} \sin \\theta & = 0.777 \\ \\theta & = \sin ^{- 1 } 0.777 \\ = 0.88988... \end{gathered}$
 > 
 > $θ=0.89\mathrm{rad}(2s.f.)$
 

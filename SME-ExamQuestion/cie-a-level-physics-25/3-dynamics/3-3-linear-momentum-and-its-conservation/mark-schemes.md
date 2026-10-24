@@ -64,7 +64,7 @@
 - Sum of momentum before collision = $2mu-mu=mu$
 - Sum of momentum after collision
 
-  - `fraction numerator 2 m open parentheses negative u close parentheses over denominator 6 end fraction plus fraction numerator 2 m u over denominator 3 end fraction equals fraction numerator 2 m u over denominator 3 end fraction minus fraction numerator 2 m u over denominator 6 end fraction equals fraction numerator 2 m u over denominator 3 end fraction minus fraction numerator m u over denominator 3 end fraction equals fraction numerator m u over denominator 3 end fraction`
+  - $\frac{2 m ( - u )}{6} + \frac{2 m u}{3} = \frac{2 m u}{3} - \frac{2 m u}{6} = \frac{2 m u}{3} - \frac{m u}{3} = \frac{m u}{3}$
 - The momentum before and after the collision is different so momentum has not been conserved in Option B
 
 **A **is incorrect because momentum has been conserved
@@ -77,25 +77,25 @@ sum of momentum after collision : $\frac{2mu}{3}+\frac{2mu}{6}=\frac{2mu}{3}+\fr
 
 **D **is incorrect because momentum has been conserved
 
-sum of momentum after collision : `fraction numerator open parentheses 2 m plus m close parentheses u over denominator 3 end fraction equals fraction numerator 3 m u over denominator 3 end fraction equals m u`   ✓
+sum of momentum after collision : $\frac{( 2 m + m ) u}{3} = \frac{3 m u}{3} = m u$   ✓
 
 ### Q3
 **Final answer:** **The correct answer is ****A**** because:**
 
-- The unit of density  `open parentheses rho equals m over v close parentheses`  is $\mathrm{kg}m^{-3}$
+- The unit of density  $( \\rho = \frac{m}{v} )$  is $\mathrm{kg}m^{-3}$
 - The unit of volume is $m^{3}$
 - The unit of velocity is $ms^{-1}$
 - So, the unit of density × volume × velocity is
 
-  - `open square brackets kg space straight m to the power of negative 3 end exponent close square brackets open square brackets straight m cubed close square brackets open square brackets straight m space straight s to the power of negative 1 end exponent close square brackets`
-  - `open square brackets kg close square brackets open square brackets straight m space straight s to the power of negative 1 end exponent close square brackets`
+  - $[ \text{kg} \mathrm{m}^{- 3} ] [ \mathrm{m}^{3} ] [ \mathrm{m} \mathrm{s}^{- 1} ]$
+  - $[ \text{kg} ] [ \mathrm{m} \mathrm{s}^{- 1} ]$
 
-This is the same unit as momentum `open parentheses p equals m v close parentheses`, which is$\mathrm{kg}ms^{-1}$
+This is the same unit as momentum $( p = m v )$, which is$\mathrm{kg}ms^{-1}$
 
-| **B **is incorrect because | the unit of density `open parentheses rho equals m over v close parentheses`  is $\mathrm{kg}m^{-3}$<br><br>the unit of energy `open parentheses E subscript k equals 1 half m v squared close parentheses space i s space straight J equals kg space straight m squared straight s to the power of negative 2 end exponent`<br><br>so, the unit of density × energy is `open square brackets kg space straight m to the power of negative 3 end exponent close square brackets open square brackets kg space straight m squared straight s to the power of negative 2 end exponent close square brackets equals kg to the power of 2 space end exponent straight m to the power of negative 1 end exponent straight s to the power of negative 2 end exponent` |
+| **B **is incorrect because | the unit of density $( \\rho = \frac{m}{v} )$  is $\mathrm{kg}m^{-3}$<br><br>the unit of energy $( E_{k} = 1 \frac{1}{2} m v^{2} ) i s \mathrm{J} = \text{kg} \mathrm{m}^{2} \mathrm{s}^{- 2}$<br><br>so, the unit of density × energy is $[ \text{kg} \mathrm{m}^{- 3} ] [ \text{kg} \mathrm{m}^{2} \mathrm{s}^{- 2} ] = kg^{2 } \mathrm{m}^{- 1} \mathrm{s}^{- 2}$ |
 |---|---|
-| **C **is incorrect because | the unit of pressure `open parentheses P equals F over A close parentheses space i s space straight N space straight m to the power of negative 2 end exponent equals kg space straight m to the power of negative 1 end exponent straight s to the power of negative 2 end exponent`<br><br>the unit of area is $m^{2}$<br><br>so, the unit of pressure × area is `open square brackets kg space straight m to the power of negative 1 space end exponent straight s to the power of negative 2 end exponent close square brackets open square brackets straight m squared close square brackets equals kg space straight m space straight s to the power of negative 2 end exponent` (which is equal to N) |
-| **D **is incorrect because | the unit of weight is $N=\mathrm{kg}ms^{-2}$<br><br>the unit of area is $m^{2}$<br><br>so, the unit of weight ÷ area is `open square brackets kg space straight m space straight s to the power of negative 2 end exponent close square brackets divided by open square brackets straight m squared close square brackets equals kg space straight m to the power of negative 1 end exponent straight s to the power of negative 2 end exponent` (which is equal to Pa) |
+| **C **is incorrect because | the unit of pressure $( P = \frac{F}{A} ) i s \mathrm{N} \mathrm{m}^{- 2} = \text{kg} \mathrm{m}^{- 1} \mathrm{s}^{- 2}$<br><br>the unit of area is $m^{2}$<br><br>so, the unit of pressure × area is $[ \text{kg} \mathrm{m}^{- 1 } \mathrm{s}^{- 2} ] [ \mathrm{m}^{2} ] = \text{kg} \mathrm{m} \mathrm{s}^{- 2}$ (which is equal to N) |
+| **D **is incorrect because | the unit of weight is $N=\mathrm{kg}ms^{-2}$<br><br>the unit of area is $m^{2}$<br><br>so, the unit of weight ÷ area is $[ \text{kg} \mathrm{m} \mathrm{s}^{- 2} ] \div [ \mathrm{m}^{2} ] = \text{kg} \mathrm{m}^{- 1} \mathrm{s}^{- 2}$ (which is equal to Pa) |
 
 ### Q4
 **Final answer:** **The correct answer is ****D**** because:**
@@ -107,7 +107,7 @@ This is the same unit as momentum `open parentheses p equals m v close parenthes
 - After the collision:
 
   - The molecule will still have the same momentum but it will move in the opposite direction so the momentum of the molecule = $-mv$
-- Change in momentum = `m v minus open parentheses negative m v close parentheses equals 2 space m v`
+- Change in momentum = $m v - ( - m v ) = 2 m v$
 - The collision is elastic so the kinetic energy is conserved, therefore, the change in kinetic energy = **0**
 
 **A** is incorrect because the change in momentum cannot be zero because the molecule changes direction
@@ -143,7 +143,7 @@ This is the same unit as momentum `open parentheses p equals m v close parenthes
 **Final answer:** **The correct answer is ****C**** because:**
 
 - Force is equal to the rate of change of momentum
-- In other words, force is equal to the gradient `open parentheses fraction numerator increment y over denominator increment x end fraction close parentheses` of a momentum-time graph
+- In other words, force is equal to the gradient $( \frac{\Delta y}{\Delta x} )$ of a momentum-time graph
 
   - $F=\frac{\Deltap}{\Deltat}$
 - The gradient of the line should be equal to 5 N
@@ -175,12 +175,12 @@ This is the same unit as momentum `open parentheses p equals m v close parenthes
 - Calculate the total momentum before the collision:
 
   - $p_{i}=m_{A}u_{A}+m_{B}u_{B}$
-  - `space p subscript i space equals space 5000 v space minus space open parentheses 2 cross times 5000 close parentheses`
+  - $p_{i} = 5000 v - ( 2 \times 5000 )$
   - $p_{i}=5000v-10000$
 - Calculate the total momentum after the collision:
 
-  - `space p subscript f space equals space open parentheses m subscript A space plus space m subscript B close parentheses v subscript f`
-  - `space p subscript f space equals space open parentheses 5000 plus 5000 close parentheses cross times 0.5`
+  - $p_{f} = ( m_{A} + m_{B} ) v_{f}$
+  - $p_{f} = ( 5000 + 5000 ) \times 0.5$
   - $p_{f}=5000\mathrm{kg}ms^{-1}$
 - Apply the principle of conservation of momentum:
 
@@ -203,9 +203,9 @@ This is the same unit as momentum `open parentheses p equals m v close parenthes
 - Let’s set the positive direction to be to the right
 - Momentum of trucks before collision
 
-  - `open parentheses m cross times 3 u close parentheses plus open parentheses 5 m cross times negative u close parentheses equals 3 m u minus 5 m u equals negative 2 m u`
+  - $( m \times 3 u ) + ( 5 m \times - u ) = 3 m u - 5 m u = - 2 m u$
 - After the collision the trucks join together the total mass becomes 6*m* and the combined trucks move at a final speed *v*
-- Momentum of trucks after collision = `open parentheses m plus 5 m close parentheses v equals 6 m v`
+- Momentum of trucks after collision = $( m + 5 m ) v = 6 m v$
 
   - $-2mu=6mv$
   - $u=-3v$
@@ -221,16 +221,16 @@ This is the same unit as momentum `open parentheses p equals m v close parenthes
 - We can find the value of *v* using the principle of conservation of momentum:
 
   - The sum of momentum before the collision equals the sum of momentum after the collision
-- Momentum before: `open parentheses 100 cross times 4 close parentheses plus open parentheses 500 cross times 0.5 close parentheses equals 400 plus 250 equals 650`
+- Momentum before: $( 100 \times 4 ) + ( 500 \times 0.5 ) = 400 + 250 = 650$
 
-  - Note: this is the same as writing `open parentheses 100 cross times 10 to the power of negative 3 end exponent cross times 4 close parentheses plus open parentheses 500 cross times 10 to the power of negative 3 end exponent cross times 0.5 close parentheses equals 650 cross times 10 to the power of negative 3 end exponent`
-- Momentum after: `open parentheses 100 plus 500 close parentheses v equals 600 v`
+  - Note: this is the same as writing $( 100 \times 10^{- 3} \times 4 ) + ( 500 \times 10^{- 3} \times 0.5 ) = 650 \times 10^{- 3}$
+- Momentum after: $( 100 + 500 ) v = 600 v$
 - Therefore, $650=600v$
 
   - $v=\frac{650}{600}=1.08ms^{-1}$
 - Kinetic energy $E_{k}=\frac{1}{2}mv^{2}$
 
-  - `E subscript k equals 1 half m v squared equals 1 half cross times open parentheses 600 cross times 10 to the power of negative 3 end exponent close parentheses cross times 1.08 squared equals bold 0 bold. bold 35 bold J`
+  - $E_{k} = 1 \frac{1}{2} m v^{2} = 1 \frac{1}{2} \times ( 600 \times 10^{- 3} ) \times 1.08^{2} = 0 . 35 J$
 
 ![cie-ial-images122png](assets/012-cie-ial-images122png.png)
 
@@ -263,7 +263,7 @@ This is the same unit as momentum `open parentheses p equals m v close parenthes
   - $\Deltap=\DeltaMv$
 - Force is equal to the rate of change of momentum
 
-  - `F equals fraction numerator increment p over denominator t end fraction equals fraction numerator increment M v over denominator t end fraction equals open parentheses fraction numerator increment M over denominator t end fraction close parentheses v equals m v`
+  - $F = \frac{\Delta p}{t} = \frac{\Delta M v}{t} = ( \frac{\Delta M}{t} ) v = m v$
 - We can check the units to ensure it is consistent
 
   - The unit of force is the newton: N = kg m s<sup>–2</sup>
@@ -303,7 +303,7 @@ This is the same unit as momentum `open parentheses p equals m v close parenthes
   - *s* = ?
 - The equation that links *u, v, t* and *s* is
 
-  - `s equals fraction numerator open parentheses u plus v close parentheses t over denominator 2 end fraction`
+  - $s = \frac{( u + v ) t}{2}$
   - $s=\frac{50}{2}\times8.4$
   - $s=210m$
 - The block and pellet will travel 210 m before coming to a stop
@@ -366,8 +366,8 @@ This is the same unit as momentum `open parentheses p equals m v close parenthes
   - $v'=\frac{3mv}{m}=3v$
 - Kinetic energy = ½ *m v*<sup>*2*</sup>
 
-  - `X equals 1 half open parentheses m close parentheses open parentheses 3 v close parentheses squared equals 9 over 2 m v squared`
-  - `Y equals 1 half open parentheses 3 m close parentheses open parentheses v close parentheses squared equals 3 over 2 m v squared`
+  - $X = 1 \frac{1}{2} ( m ) ( 3 v )^{2} = \frac{9}{2} m v^{2}$
+  - $Y = 1 \frac{1}{2} ( 3 m ) ( v )^{2} = \frac{3}{2} m v^{2}$
 - Ratio $\frac{X}{Y}=\frac{\frac{9}{2}mv^{2}}{\frac{3}{2}mv^{2}}=3$
 
 ### Q19
@@ -378,14 +378,14 @@ This is the same unit as momentum `open parentheses p equals m v close parenthes
 
   - The sum of the momentum before the collision equals the sum of the momentum after the collision
 - Let’s define the positive direction to be to the right
-- Momentum before: `open parentheses 7500 cross times 3 close parentheses minus open parentheses 7500 cross times 1.5 close parentheses equals 22 space 500 minus 11 space 250` = 11 250
-- Momentum after: `open parentheses 7500 plus 7500 close parentheses v equals 15000 space v`
+- Momentum before: $( 7500 \times 3 ) - ( 7500 \times 1.5 ) = 22 500 - 11 250$ = 11 250
+- Momentum after: $( 7500 + 7500 ) v = 15000 v$
 
   - $11250=15000v$
   - $v=\frac{11250}{15000}=0.75ms^{-1}$
-- Kinetic energy `open parentheses E subscript k equals 1 half m v squared close parentheses` before collision = sum of kinetic energies of the train carriages
-- Kinetic energy before collision = `1 half open parentheses 7500 close parentheses open parentheses 3 close parentheses squared plus 1 half open parentheses 7500 close parentheses open parentheses 1.5 close parentheses squared equals 42 space 200 space straight J`
-- Kinetic energy after collision = `1 half open parentheses 15 space 000 close parentheses open parentheses 0.75 close parentheses squared equals 4200 space straight J`
+- Kinetic energy $( E_{k} = 1 \frac{1}{2} m v^{2} )$ before collision = sum of kinetic energies of the train carriages
+- Kinetic energy before collision = $1 \frac{1}{2} ( 7500 ) ( 3 )^{2} + 1 \frac{1}{2} ( 7500 ) ( 1.5 )^{2} = 42 200 \mathrm{J}$
+- Kinetic energy after collision = $1 \frac{1}{2} ( 15 000 ) ( 0.75 )^{2} = 4200 \mathrm{J}$
 
   - Kinetic energy lost = $42200-4200=38000J$
 
@@ -398,7 +398,7 @@ This is the same unit as momentum `open parentheses p equals m v close parenthes
 - The cannon recoils in the opposite direction to the direction of motion of the cannon ball, so we must define one of the directions to be positive and one to be negative
 - By the principle of conservation of momentum, the sum of momentum before the collision equals the sum of momentum after the collision
 
-  - `0 equals open parentheses 1600 cross times 5 close parentheses minus 20 space v`
+  - $0 = ( 1600 \times 5 ) - 20 v$
   - $20v=8000$
   - $v=400ms^{-1}$
 
@@ -409,7 +409,7 @@ This is the same unit as momentum `open parentheses p equals m v close parenthes
 - We can find the value of *v* using the principle of conservation of momentum:
 - The sum of the momentum before the collision equals the sum of the momentum after the collision
 
-  - `open parentheses 2 cross times 1 half close parentheses plus open parentheses 3 cross times 1 third close parentheses equals 5 space v`
+  - $( 2 \times 1 \frac{1}{2} ) + ( 3 \times 1 \frac{1}{3} ) = 5 v$
   - $5v=2$
   - $v=\frac{2}{5}ms^{-1}$
 
@@ -435,13 +435,13 @@ This is the same unit as momentum `open parentheses p equals m v close parenthes
   - ball X moves in the vertical direction
 - In the horizontal direction:
 
-  - Before the collision: `space p subscript X space equals space m open parentheses 30 space cos space 45 degree close parentheses`
+  - Before the collision: $p_{X} = m ( 30 \cos 45^{\circ} )$
   - After the collision: $p_{Y}=mv$
 - Apply the principle of conservation of momentum in the horizontal direction:
 
   - $p_{i}=p_{f}$
   - $p_{X}+0=0+p_{Y}$
-  - `m open parentheses 30 space cos space 45 degree close parentheses space equals space m v`
+  - $m ( 30 \cos 45^{\circ} ) = m v$
   - $v=30\mathrm{cos}45^{\circ}\approx21ms^{-1}$
 
 To determine the horizontal component of ball X’s velocity using trigonometry, remember SOH CAH TOA:
@@ -485,14 +485,13 @@ To determine the horizontal component of ball X’s velocity using trigonometry,
 
 **B **is incorrect because
 
-- Momentum : `m open parentheses 1 half v close parentheses plus m open parentheses 1 half v close parentheses equals m v`
-- Kinetic energy : `1 half m open parentheses 1 half v close parentheses squared plus 1 half m open parentheses 1 half v close parentheses squared equals 1 fourth m v squared`
+- Momentum : $m ( 1 \frac{1}{2} v ) + m ( 1 \frac{1}{2} v ) = m v$
+- Kinetic energy : $1 \frac{1}{2} m ( 1 \frac{1}{2} v )^{2} + 1 \frac{1}{2} m ( 1 \frac{1}{2} v )^{2} = 1 \frac{1}{4} m v^{2}$
 
 **C **is incorrect because
 
-- Momentum : `m open parentheses 1 half v close parentheses minus m open parentheses 1 half v close parentheses equals 0
-`
-- Kinetic energy : `1 half m open parentheses 1 half v close parentheses squared plus 1 half m open parentheses 1 half v close parentheses squared equals 1 fourth m v squared`
+- Momentum : $m ( 1 \frac{1}{2} v ) - m ( 1 \frac{1}{2} v ) = 0$
+- Kinetic energy : $1 \frac{1}{2} m ( 1 \frac{1}{2} v )^{2} + 1 \frac{1}{2} m ( 1 \frac{1}{2} v )^{2} = 1 \frac{1}{4} m v^{2}$
 
 **D **is incorrect because
 
@@ -518,7 +517,7 @@ To determine the horizontal component of ball X’s velocity using trigonometry,
   - Speed = $13ms^{-1}$
 - The initial momentum of the spacecraft and fuel module is:
 
-  - `space p subscript i space equals space open parentheses 1000 space plus space m close parentheses cross times 13`
+  - $p_{i} = ( 1000 + m ) \times 13$
   - $p_{i}=13000+13m$
 - After separation:
 
@@ -527,7 +526,7 @@ To determine the horizontal component of ball X’s velocity using trigonometry,
 - All values of momentum are positive as the spacecraft and module continue to travel in the same direction
 - The final momentum of the spacecraft and fuel module is:
 
-  - `space p subscript f space equals space open parentheses 1000 cross times 17 close parentheses space plus space 5 m`
+  - $p_{f} = ( 1000 \times 17 ) + 5 m$
   - $p_{f}=17000+5m$
 - Apply the principle of conservation of momentum:
 
@@ -553,11 +552,11 @@ Even though there is no collision, the principle of conservation of momentum sti
   - Each nucleon has a mass of *m*
 - After the nucleus decays :
 - Momentum of proton =$mv$
-- Momentum of new nucleus = `open parentheses A minus 1 close parentheses m open parentheses negative u close parentheses`
-- Total momentum after decay = `m v minus open parentheses A minus 1 close parentheses m u`
+- Momentum of new nucleus = $( A - 1 ) m ( - u )$
+- Total momentum after decay = $m v - ( A - 1 ) m u$
 
-  - `0 equals m v minus open parentheses A minus 1 close parentheses m u`
-  - `v equals open parentheses A minus 1 close parentheses u`
+  - $0 = m v - ( A - 1 ) m u$
+  - $v = ( A - 1 ) u$
 
 ![cie-ial-images135png](assets/026-cie-ial-images135png.png)
 
@@ -572,8 +571,8 @@ Even though there is no collision, the principle of conservation of momentum sti
 - Change in momentum is equal to
 
   - $\Deltap=m\Deltav$
-  - `increment p space equals space m open parentheses v subscript f space minus space v subscript i close parentheses`
-  - `increment p space equals space open parentheses 60 cross times 10 to the power of negative 3 end exponent close parentheses cross times open parentheses 50 minus open parentheses negative 30 close parentheses close parentheses`
+  - $\Delta p = m ( v_{f} - v_{i} )$
+  - $\Delta p = ( 60 \times 10^{- 3} ) \times ( 50 - ( - 30 ) )$
   - $\Deltap=4.8\mathrm{kg}ms^{-1}$
 
 **A** is incorrect as this is the answer you get if you don’t set a positive and negative direction and add the velocities together.
@@ -609,7 +608,7 @@ Even though there is no collision, the principle of conservation of momentum sti
 
 - The bullet becomes embedded in the block, so the two objects will travel together with the same velocity, *u*
 
-  - The momentum after the collision `equals open parentheses 10 space g plus 150 space g close parentheses u equals 160 space u`
+  - The momentum after the collision $= ( 10 g + 150 g ) u = 160 u$
   - $160u=2000$
   - $u=12.5ms^{-1}$
 
@@ -624,8 +623,8 @@ Even though there is no collision, the principle of conservation of momentum sti
 - The equation that links *u, v, a* and *s* is
 
   - $v^{2}=u^{2}+2as$
-  - `0 equals 12.5 squared plus 2 open parentheses negative 9.81 close parentheses s`
-  - `open parentheses 2 cross times 9.81 close parentheses s equals 12.5 squared`
+  - $0 = 12.5^{2} + 2 ( - 9.81 ) s$
+  - $( 2 \times 9.81 ) s = 12.5^{2}$
   - $s=\frac{12.5^{2}}{19.6}=8.0m$
 - Height of the block above the ground = 4.0 + 8.0 = 12.0 m
 

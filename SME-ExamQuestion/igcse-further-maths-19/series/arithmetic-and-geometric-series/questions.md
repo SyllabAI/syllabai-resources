@@ -16,12 +16,12 @@ Find the common difference of the series.
 ### 8((c)) — 6 marks — structured — from paper Specimen · 4PM1/01
 The $n$th term of the series is $T_{n}$
 
-Given that `6 S subscript open parentheses n minus 4 close parentheses end subscript space equals space 7 T subscript open parentheses n plus 3 close parentheses end subscript` find the value of $n$.
+Given that $6 S_{( n - 4 )} = 7 T_{( n + 3 )}$ find the value of $n$.
 
 ## Q2 — medium — 5 marks · exam-questions
 
 ### 1() — 5 marks — structured — from paper Specimen · Paper 2
-The  $n$th term of a geometric series is `3 straight e to the power of open parentheses 1 minus 2 n close parentheses end exponent`
+The  $n$th term of a geometric series is $3 \mathrm{e}^{( 1 - 2 n )}$
 
 Find the sum to infinity of this series.
 
@@ -49,13 +49,13 @@ Hence, using your expansion with a suitable value for  $x$, obtain an approximat
 ## Q4 — medium — 8 marks · exam-questions
 
 ### 3((a)) — 3 marks — structured — from paper June 2024 · Paper 1
-Show that `sum from r equals 1 to n of open parentheses 5 r minus 3 close parentheses space equals space n over 2 open parentheses 5 n minus 1 close parentheses`
+Show that $\sum_{r = 1}^{n} ( 5 r - 3 ) = \frac{n}{2} ( 5 n - 1 )$
 
 ### 3((b)) — 2 marks — structured — from paper June 2024 · Paper 1
-Hence, or otherwise, evaluate `sum from r equals 31 to 60 of open parentheses 5 r minus 3 close parentheses`
+Hence, or otherwise, evaluate $\sum_{r = 31}^{60} ( 5 r - 3 )$
 
 ### 3((c)) — 3 marks — structured — from paper June 2024 · Paper 1
-Given that `sum from r equals 1 to n of open parentheses 5 r minus 3 close parentheses space equals space 3783`
+Given that $\sum_{r = 1}^{n} ( 5 r - 3 ) = 3783$
 
 find the value of $n$
 
@@ -104,18 +104,18 @@ find the value of $n$
 ## Q7 — medium — 16 marks · exam-questions
 
 ### 7((a)) — 2 marks — structured — from paper November 2024 · Paper 2
-Use the factor theorem to show that `open parentheses 4 x minus 1 close parentheses` is a factor of
+Use the factor theorem to show that $( 4 x - 1 )$ is a factor of
 
-`straight f open parentheses x close parentheses equals 64 x cubed minus 64 x squared plus 3`
+$\mathrm{f} ( x ) = 64 x^{3} - 64 x^{2} + 3$
 
 ### 7((b)) — 4 marks — structured — from paper November 2024 · Paper 2
-Use the factor theorem to show that `open parentheses 4 x minus 1 close parentheses` is a factor of
+Use the factor theorem to show that $( 4 x - 1 )$ is a factor of
 
-`straight f open parentheses x close parentheses equals 64 x cubed minus 64 x squared plus 3`
+$\mathrm{f} ( x ) = 64 x^{3} - 64 x^{2} + 3$
 
 Hence, or otherwise, find the exact roots of the equation
 
-`straight f open parentheses x close parentheses equals 0`
+$\mathrm{f} ( x ) = 0$
 
 ### 7((c)) — 3 marks — structured — from paper November 2024 · Paper 2
 A geometric series $G$ has first term $a$ and common ratio $r$ 
@@ -145,10 +145,10 @@ Using logarithms, find the least value of  $n$ such that $S_{n}>191.9$
 ## Q8 — medium — 5 marks · exam-questions
 
 ### 1((a)) — 3 marks — structured — from paper June 2023 · Paper 1
-Show that `sum from r equals 1 to n of left parenthesis 3 r plus 2 right parenthesis equals n over 2 left parenthesis 3 n plus 7 right parenthesis`
+Show that $\sum_{r = 1}^{n} ( 3 r + 2 ) = \frac{n}{2} ( 3 n + 7 )$
 
 ### 1((b)) — 2 marks — structured — from paper June 2023 · Paper 1
-Hence, or otherwise, evaluate `sum from r equals 10 to 40 of left parenthesis 3 r plus 2 right parenthesis`
+Hence, or otherwise, evaluate $\sum_{r = 10}^{40} ( 3 r + 2 )$
 
 ## Q9 — medium — 6 marks · exam-questions
 
@@ -184,7 +184,7 @@ The sum to $n$ terms of an arithmetic series $A$ is $S_{n}$
 
 The sum of the first four terms of $A$is 42 and the fifth term of $A$is 23
 
-Show that `S subscript n equals sum from r equals 1 to n of left parenthesis P r minus Q right parenthesis` where $P$ and $Q$ are prime numbers.
+Show that $S_{n} = \sum_{r = 1}^{n} ( P r - Q )$ where $P$ and $Q$ are prime numbers.
 
 ### 8((b)) — 4 marks — structured — from paper November 2023 · Paper 2
 $S_{2n}-3U_{n}=1062$  where $U_{n}$ is the $n$th term of $A$

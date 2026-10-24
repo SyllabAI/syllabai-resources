@@ -744,7 +744,7 @@ Any **five** from:
 
 1 complete oscillation = 4 squares **[1 mark]**
 
-`T space equals space 4 space cross times space open parentheses 5.0 cross times 10 to the power of negative 3 end exponent close parentheses`
+$T = 4 \times ( 5.0 \times 10^{- 3} )$
 
 $T=$** **$2.0\times10^{-2}s$** ** **OR**  $0.02s$** ****[1 mark]**
 

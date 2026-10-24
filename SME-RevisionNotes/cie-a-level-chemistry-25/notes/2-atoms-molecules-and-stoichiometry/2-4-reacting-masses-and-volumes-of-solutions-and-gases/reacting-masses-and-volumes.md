@@ -19,7 +19,7 @@ guided_study: true
 
 - The number of moles of a substance can be found by using the following equation:
 
-`number space of space moles equals fraction numerator mass space of space straight a space substance space open parentheses straight g close parentheses over denominator molar space mass space open parentheses straight g space mol to the power of negative 1 end exponent close parentheses end fraction`
+$\text{number} of \text{moles} = \frac{ \text{mass} of \mathrm{a} \text{substance} ( \mathrm{g} ) }{ \text{molar} \text{mass} ( \mathrm{g} \text{mol} ^{ - } 1 ) }$
 
 - It is important to be clear about the type of particle you are referring to when dealing with moles
 
@@ -209,7 +209,7 @@ $\mathrm{amount} \mathrm{of} \mathrm{gas}(\mathrm{mol})=\frac{\mathrm{volume} \m
   - The solute is the substance that dissolves in a solvent to form a solution
   - The solvent is often water
 
-`concentration space open parentheses mol space dm to the power of negative 3 end exponent close parentheses equals fraction numerator number space of space moles space of space solute open parentheses mol close parentheses over denominator volume space of space solution space open parentheses dm cubed close parentheses end fraction`
+$\text{concentration} ( \text{mol} dm^{ - } 3 ) = \frac{ \text{number} of \text{moles} of \text{solute} ( \text{mol} ) }{ \text{volume} of \text{solution} ( dm ^{3} ) }$
 
 - A **concentrated **solution is a solution that has a **high **concentration of solute
 - A **dilute **solution is a solution with a **low **concentration of solute
@@ -248,7 +248,7 @@ $\mathrm{amount} \mathrm{of} \mathrm{gas}(\mathrm{mol})=\frac{\mathrm{volume} \m
 > 
 > - **Step 4:** Calculate the volume of HCl required:
 > 
->   - Volume (HCl) = `fraction numerator amount space open parentheses mol close parentheses over denominator concentration space open parentheses mol space dm to the power of negative 3 end exponent close parentheses end fraction` = $\frac{0.05\mathrm{mol}}{1.0\mathrm{mol} \mathrm{dm}^{-3}}$ = **0.05 dm**<sup>**3**</sup>
+>   - Volume (HCl) = $\frac{amount ( \text{mol} )}{concentration ( \text{mol} dm^{- 3} )}$ = $\frac{0.05\mathrm{mol}}{1.0\mathrm{mol} \mathrm{dm}^{-3}}$ = **0.05 dm**<sup>**3**</sup>
 >   - So, the volume of hydrochloric acid required is **0.05 dm**<sup>**3**</sup>** **
 
 > **Worked Example**
@@ -275,7 +275,7 @@ $\mathrm{amount} \mathrm{of} \mathrm{gas}(\mathrm{mol})=\frac{\mathrm{volume} \m
 > 
 > - **Step 4:** Calculate the concentration, in mol dm<sup>-3</sup> of hydrochloric acid:
 > 
->   - Concentration (HCl) = `begin mathsize 16px style fraction numerator amount space open parentheses mol close parentheses over denominator volume space open parentheses dm cubed close parentheses end fraction end style` = $\frac{0.00250}{0.0200}$ *= ***0.125 mol dm**<sup>**-3**</sup>
+>   - Concentration (HCl) = $\frac{amount ( \text{mol} )}{volume ( dm^{3} )}$ = $\frac{0.00250}{0.0200}$ *= ***0.125 mol dm**<sup>**-3**</sup>
 
 ### Stoichiometric relationships
 

@@ -41,8 +41,8 @@ guided_study: false
   
     - **No** **constant** term: $x^{2}+5x=x(x+5)$
     - **Difference** **of** **two** **squares** (no *x*  term and constant is square): $x^{2}-36=(x-6)(x+6)$
-    - **Perfect squares**: `x squared plus 8 x plus 16 equals open parentheses x plus 4 close parentheses open parentheses x plus 4 close parentheses equals open parentheses x plus 4 close parentheses squared`
-    - **‘Hidden’** **quadratics: **`3 to the power of 2 x end exponent minus 12 cross times 3 to the power of x plus 27 equals open parentheses 3 to the power of x close parentheses squared minus 12 open parentheses 3 to the power of x close parentheses plus 27 equals left parenthesis 3 to the power of x minus 3 right parenthesis left parenthesis 3 to the power of x minus 9 right parenthesis`
+    - **Perfect squares**: $x^{2} + 8 x + 16 = ( x + 4 ) ( x + 4 ) = ( x + 4 )^{2}$
+    - **‘Hidden’** **quadratics: **$3^{2 x} - 12 \times 3^{x} + 27 = ( 3^{x} )^{2} - 12 ( 3^{x} ) + 27 = ( 3^{x} - 3 ) ( 3^{x} - 9 )$
     - **More than one variable: **$x^{2}-y^{2}=(x-y)(x+y)$
 
 - A **cubic** expression (at this level) will **not** contain a **constant** term
@@ -51,7 +51,7 @@ guided_study: false
   - The remaining **expression** will be a **quadratic**
   
     - this **quadratic** may also be able to be **factorised**
-    - e.g. `6 x cubed plus 3 x squared minus 9 x equals 3 x open parentheses 2 x squared plus x minus 3 close parentheses equals 3 x open parentheses 2 x plus 3 close parentheses open parentheses x minus 1 close parentheses`
+    - e.g. $6 x^{3} + 3 x^{2} - 9 x = 3 x ( 2 x^{2} + x - 3 ) = 3 x ( 2 x + 3 ) ( x - 1 )$
 
 ### How do I factorise harder quadratics?
 
@@ -67,13 +67,13 @@ guided_study: false
   - **STEP 2** Find two numbers *m* & *n* whose **product** is $ac$ and **sum** is $b$
   
     - For example: $9\times-2=-18=ac$ & $9+(-2)=7=b$
-    - So `m equals 9 space & space n equals negative 2`
+    - So `m = 9 & n = - 2`
   - **STEP 3** Split the $bx$ term into $mx+nx$
   
     - For example: $6x^{2}-2x+9x-3$
   - **STEP 4** Factorise the first two terms and the last two terms
   
-    - For example: `2 x open parentheses 3 x minus 1 close parentheses plus 3 open parentheses 3 x minus 1 close parentheses`
+    - For example: $2 x ( 3 x - 1 ) + 3 ( 3 x - 1 )$
   - **STEP 5** Factorise once more for the final answer
   
     - For example: $(3x-1)(2x+3)$
@@ -84,11 +84,11 @@ guided_study: false
 
 ### Why does the 'ac' method work?
 
-- Suppose `a x squared plus b x plus c identical to open parentheses p x plus r close parentheses open parentheses q x plus s close parentheses`
+- Suppose $a x^{2} + b x + c \equiv ( p x + r ) ( q x + s )$
 
   - then expanding and simplifying gives
   
-    - `a x squared plus b x plus c identical to blank p q x squared plus p s x plus q r x plus r s identical to p q x squared plus open parentheses p s plus q r close parentheses x plus r s`
+    - $a x^{2} + b x + c \equiv p q x^{2} + p s x + q r x + r s \equiv p q x^{2} + ( p s + q r ) x + r s$
 
 - By **comparing** **coefficients**
 

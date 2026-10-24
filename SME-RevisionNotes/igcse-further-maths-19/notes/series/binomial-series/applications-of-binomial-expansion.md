@@ -21,25 +21,25 @@ guided_study: false
 
 - You may be asked to find a **series expansion** for an expression like  $\frac{1+x}{3+2x}$
 
-  - Rewrite as a **product**,  `fraction numerator 1 plus x over denominator 3 plus 2 x end fraction equals open parentheses 1 plus x close parentheses open parentheses 3 plus 2 x close parentheses to the power of negative 1 end exponent`
+  - Rewrite as a **product**,  $\frac{1 + x}{3 + 2 x} = ( 1 + x ) ( 3 + 2 x )^{- 1}$
 
-- Find the **binomial expansion** of  `open parentheses 3 plus 2 x close parentheses to the power of negative 1 end exponent`
+- Find the **binomial expansion** of  $( 3 + 2 x )^{- 1}$
 
-`open parentheses 3 plus 2 x close parentheses to the power of negative 1 end exponent equals 1 third minus 2 over 9 x plus 4 over 27 x squared minus 8 over 81 x cubed plus...`
+$( 3 + 2 x )^{- 1} = 1 \frac{1}{3} - \frac{2}{9} x + \frac{4}{27} x^{2} - \frac{8}{81} x^{3} +...$
 
 - Note this has only been expanded up to the $x^{3}$ **term**
-- **Multiply **that expansion by** **`open parentheses 1 plus x close parentheses` and simplify
+- **Multiply **that expansion by** **$( 1 + x )$ and simplify
 
-**            **`table row cell open parentheses 1 plus x close parentheses open parentheses 3 plus 2 x close parentheses to the power of negative 1 end exponent end cell equals cell open parentheses 1 plus x close parentheses open parentheses 1 third minus 2 over 9 x plus 4 over 27 x squared minus 8 over 81 x cubed plus... close parentheses end cell row blank equals cell 1 third minus 2 over 9 x plus 4 over 27 x squared minus 8 over 81 x cubed plus 1 third x minus 2 over 9 x squared plus 4 over 27 x 3 minus 8 over 81 x to the power of 4 plus... end cell row blank equals cell 1 third plus 1 over 9 x minus 2 over 27 x squared plus 4 over 81 x cubed minus 8 over 81 x to the power of 4 plus... end cell row blank equals cell 1 third plus 1 over 9 x minus 2 over 27 x squared plus 4 over 81 x cubed minus... end cell end table`
+**            **$\begin{gathered} ( 1 + x ) ( 3 + 2 x )^{- 1} & = ( 1 + x ) ( 1 \frac{1}{3} - \frac{2}{9} x + \frac{4}{27} x^{2} - \frac{8}{81} x^{3} +... ) \\ = 1 \frac{1}{3} - \frac{2}{9} x + \frac{4}{27} x^{2} - \frac{8}{81} x^{3} + 1 \frac{1}{3} x - \frac{2}{9} x^{2} + \frac{4}{27} x 3 - \frac{8}{81} x^{4} +... \\ = 1 \frac{1}{3} + \frac{1}{9} x - \frac{2}{27} x^{2} + \frac{4}{81} x^{3} - \frac{8}{81} x^{4} +... \\ = 1 \frac{1}{3} + \frac{1}{9} x - \frac{2}{27} x^{2} + \frac{4}{81} x^{3} -... \end{gathered}$
 
 - This is only **valid** up to the $x^{3}$ term
-- To get **more terms** we would have to start with more terms for `open parentheses 3 plus 2 x close parentheses to the power of negative 1 end exponent`
-- $-\frac{8}{81}x^{4}$ is **not** the correct $x^{4}$ term for `table row blank blank cell open parentheses 1 plus x close parentheses open parentheses 3 plus 2 x close parentheses to the power of negative 1 end exponent end cell end table` as there are more $x^{4}$ terms that were not found
+- To get **more terms** we would have to start with more terms for $( 3 + 2 x )^{- 1}$
+- $-\frac{8}{81}x^{4}$ is **not** the correct $x^{4}$ term for $\begin{gathered} ( 1 + x ) ( 3 + 2 x )^{- 1} \end{gathered}$ as there are more $x^{4}$ terms that were not found
 - Use the **same process** to find the expansion for something like  $\frac{1-2x}{\sqrt{2+3x}}$
 
-  - Rewrite as a **product**,  `fraction numerator 1 minus 2 x over denominator square root of 2 plus 3 x end root end fraction equals open parentheses 1 minus 2 x close parentheses open parentheses 2 plus 3 x close parentheses to the power of negative 1 half end exponent`
-  - Find the** binomial expansion** of  `open parentheses 2 plus 3 x close parentheses to the power of negative 1 half end exponent`
-  - **Multiply** the expansion by `open parentheses 1 minus 2 x close parentheses` and simplify
+  - Rewrite as a **product**,  $\frac{1 - 2 x}{ \sqrt{2 + 3 x} } = ( 1 - 2 x ) ( 2 + 3 x )^{- 1 \frac{1}{2}}$
+  - Find the** binomial expansion** of  $( 2 + 3 x )^{- 1 \frac{1}{2}}$
+  - **Multiply** the expansion by $( 1 - 2 x )$ and simplify
 
 ### How can I use the binomial expansion to estimate a value?
 
@@ -50,26 +50,26 @@ guided_study: false
   - The **more terms used** the **closer** the approximation will be to the true value
   
     - Also the **closer to zero** $x$is, the **better** the approximation will be
-- For example, find an **approximation** for $\sqrt{0.96}$ using the expansion of `open parentheses 1 minus x close parentheses to the power of 1 half end exponent`
+- For example, find an **approximation** for $\sqrt{0.96}$ using the expansion of $( 1 - x )^{1 \frac{1}{2}}$
 
   - **Compare** the value you are approximating to the expression being expanded
   
     - $(1-x)^{\frac{1}{2}}=0.96^{\frac{1}{2}}$
   - Find the **value of **$x$* *to use by solving the appropriate equation
   
-    - `table attributes columnalign right center left columnspacing 0px end attributes row blank blank blank row cell 1 space minus space x space end cell equals cell space 0.96 end cell row cell space x space end cell equals cell space 0.04 end cell end table`
+    - $\begin{array}{rcl} \\ 1 - x & = 0.96 \\ x & = 0.04 \end{array}$
 
-- **Substitute** this value of $x$ into the binomial expansion of `open parentheses 1 minus x close parentheses to the power of 1 half end exponent`
+- **Substitute** this value of $x$ into the binomial expansion of $( 1 - x )^{1 \frac{1}{2}}$
 
-  - `open parentheses 1 minus x close parentheses to the power of 1 half end exponent equals 1 minus 1 half x minus 1 over 8 x squared minus...`
-  - So `square root of 0.96 end root almost equal to 1 minus 1 half open parentheses 0.04 close parentheses minus 1 over 8 blank open parentheses 0.04 close parentheses squared equals 0.9798`
+  - $( 1 - x )^{1 \frac{1}{2}} = 1 - 1 \frac{1}{2} x - \frac{1}{8} x^{2} -...$
+  - So $\sqrt{0.96} \approx 1 - 1 \frac{1}{2} ( 0.04 ) - \frac{1}{8} ( 0.04 )^{2} = 0.9798$
   - The true value of $\sqrt{0.96}$ is  $0.97979589...$
 - On the exam this is often used to approximate **square roots**
 
   - It can also be used to approximate **other things**
-  - For example approximate the **fraction** $\frac{8}{125}$ using the binomial expansion of `1 over open parentheses 3 minus x close parentheses cubed`
+  - For example approximate the **fraction** $\frac{8}{125}$ using the binomial expansion of $\frac{1}{( 3 - x )^{3}}$
   
-    - `1 over open parentheses 3 minus x close parentheses cubed equals 8 over 125 space space space rightwards double arrow space space space fraction numerator 1 over denominator 3 minus x end fraction equals 2 over 5 space space space rightwards double arrow space space space x equals 0.5`
+    - $\frac{1}{( 3 - x )^{3}} = \frac{8}{125} \Leftrightarrow \frac{1}{3 - x} = \frac{2}{5} \Leftrightarrow x = 0.5$
     - So substitute $x=0.5$ into the expansion
 - Always check that the value of $x$ is within the **interval of convergence **for the expansion
 
@@ -83,21 +83,21 @@ guided_study: false
 
   - These will always be **powers of** $x$** **derivatives or integrals
 
-- For example, the function  `straight f open parentheses x close parentheses equals fraction numerator 1 plus x over denominator 3 plus 2 x end fraction`
+- For example, the function  $\mathrm{f} ( x ) = \frac{1 + x}{3 + 2 x}$
 
-  - We saw above that  `table row cell fraction numerator 1 plus x over denominator 3 plus 2 x end fraction end cell equals cell 1 third plus 1 over 9 x minus 2 over 27 x squared plus 4 over 81 x cubed minus... end cell end table`
+  - We saw above that  $\begin{gathered} \frac{1 + x}{3 + 2 x} & = 1 \frac{1}{3} + \frac{1}{9} x - \frac{2}{27} x^{2} + \frac{4}{81} x^{3} -... \end{gathered}$
   - We can **differentiate **that:
   
-    - `straight f to the power of apostrophe open parentheses x close parentheses equals 1 over 9 minus 4 over 27 x plus 4 over 27 x squared minus...`
+    - $\mathrm{f}^{'} ( x ) = \frac{1}{9} - \frac{4}{27} x + \frac{4}{27} x^{2} -...$
   - Or **integrate** it
   
-    - `integral straight f open parentheses x close parentheses space straight d x space equals space integral table row blank blank cell open parentheses 1 third plus 1 over 9 x minus 2 over 27 x squared plus 4 over 81 x cubed minus... close parentheses end cell end table space straight d x space equals 1 third x plus 1 over 18 x squared minus 2 over 81 x cubed plus 1 over 81 x to the power of 4 minus... plus c`
+    - $\int \mathrm{f} ( x ) \mathrm{d} x = \int \begin{gathered} ( 1 \frac{1}{3} + \frac{1}{9} x - \frac{2}{27} x^{2} + \frac{4}{81} x^{3} -... ) \end{gathered} \mathrm{d} x = 1 \frac{1}{3} x + \frac{1}{18} x^{2} - \frac{2}{81} x^{3} + \frac{1}{81} x^{4} -... + c$
 - This can be used to find **estimates** or **approximations**
 
-  - For example to estimate `integral subscript 0 superscript 0.5 end superscript space fraction numerator 1 plus x over denominator 3 plus 2 x end fraction d x`
+  - For example to estimate $\int_{0}^{0.5} \frac{1 + x}{3 + 2 x} d x$
   - **Integrate** the binomial expansion (as we just did above)
   
-    - `integral subscript 0 superscript 0.5 end superscript space fraction numerator 1 plus x over denominator 3 plus 2 x end fraction d x almost equal to open square brackets 1 third x plus 1 over 18 x squared minus 2 over 81 x cubed plus 1 over 81 x to the power of 4 close square brackets subscript 0 superscript 0.5 end superscript equals 77 over 432 equals 0.178240...`
+    - $\int_{0}^{0.5} \frac{1 + x}{3 + 2 x} d x \approx [ 1 \frac{1}{3} x + \frac{1}{18} x^{2} - \frac{2}{81} x^{3} + \frac{1}{81} x^{4} ]_{0}^{0.5} = \frac{77}{432} = 0.178240...$
     - The true value of the integral is 0.178079...
 - Always check that any values of $x$ you use are within the **interval of convergence **for the expansion
 
@@ -108,7 +108,7 @@ guided_study: false
 
 - Use the following formula
 
-  - `percentage space error equals open parentheses fraction numerator v subscript E minus v subscript A over denominator v subscript E end fraction close parentheses cross times 100 percent sign`
+  - $\text{percentage} \text{error} = ( \frac{v_{E} - v_{A} }{v_{E} } ) \times 100 \%$
   
     - $ν_{E}$  is the **exact value**
     - $ν_{A}$ is the **approximated value**
@@ -131,23 +131,23 @@ guided_study: false
 > 
 > > *Find the value of *$x$*you need to use*
 > 
-> `table row cell fraction numerator 1 over denominator square root of 9 minus 3 x end root end fraction end cell equals cell fraction numerator 1 over denominator square root of 10 end fraction end cell row cell 9 minus 3 x end cell equals 10 row cell 3 x end cell equals cell negative 1 end cell row x equals cell negative 1 third end cell end table`
+> $\begin{gathered} \frac{1}{ \sqrt{9 - 3 x} } & = \frac{1}{ \sqrt{10} } \\ 9 - 3 x & = 10 \\ 3 x & = - 1 \\ x = - 1 \frac{1}{3} \end{gathered}$
 > 
 > > *That is within the interval of convergence  *$-3<x<3$*, so we can use it to find approximation*
 > 
 > > *Substitute it into the expansion*
 > 
-> `fraction numerator 1 over denominator square root of 10 end fraction almost equal to 1 third plus 1 over 18 open parentheses negative 1 third close parentheses plus 1 over 72 open parentheses negative 1 third close parentheses squared equals 1 third minus 1 over 54 plus 1 over 648 equals 205 over 648`
+> $\frac{1}{ \sqrt{10} } \approx 1 \frac{1}{3} + \frac{1}{18} ( - 1 \frac{1}{3} ) + \frac{1}{72} ( - 1 \frac{1}{3} )^{2} = 1 \frac{1}{3} - \frac{1}{54} + \frac{1}{648} = \frac{205}{648}$
 > 
 > $\frac{1}{\sqrt{10}}\approx\frac{205}{648}$
 > 
 > (b) Find the percentage error, to 3 decimal places, of your approximation from the actual value.
 > 
-> > *Use  *`percentage space error equals open parentheses fraction numerator v subscript E minus v subscript A over denominator v subscript E end fraction close parentheses cross times 100 percent sign`
+> > *Use  *$\text{percentage} \text{error} = ( \frac{v_{E} - v_{A} }{v_{E} } ) \times 100 \%$
 > 
 > > *Make sure the exact value is in the denominator!*
 > 
-> `percentage space error equals open parentheses fraction numerator begin display style fraction numerator 1 over denominator square root of 10 end fraction end style minus begin display style 205 over 648 end style over denominator begin display style fraction numerator 1 over denominator square root of 10 end fraction end style end fraction close parentheses cross times 100 equals negative 0.041191...`
+> $\text{percentage} \text{error} = ( \frac{\frac{1}{ \sqrt{10} } - \frac{205}{648} }{\frac{1}{ \sqrt{10} }} ) \times 100 = - 0.041191...$
 > 
 > > *That is negative because the approximated value is greater than the exact value*
 > 
@@ -155,4 +155,4 @@ guided_study: false
 > 
 > > *Round to 3 decimal places*
 > 
-> `bold 0 bold. bold 041 bold percent sign bold space begin bold style stretchy left parenthesis 3 space d. p. stretchy right parenthesis end style`
+> $0 . 041 \% \text{begin} \text{style} \text{stretchy} ( 3 d. p. \text{stretchy} )$

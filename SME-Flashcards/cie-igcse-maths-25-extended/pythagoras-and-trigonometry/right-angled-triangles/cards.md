@@ -115,7 +115,7 @@ State the SOHCAHTOA **equation **for **sine**.
 
 **BACK**
 
-The SOHCAHTOA **equation **for **sine **is `sin open parentheses theta close parentheses equals Opposite over Hypotenuse`.
+The SOHCAHTOA **equation **for **sine **is $\sin ( \\theta ) = \frac{Opposite}{Hypotenuse}$.
 
 
 
@@ -128,7 +128,7 @@ State the SOHCAHTOA **equation** for **cosine**.
 
 **BACK**
 
-The SOHCAHTOA **equation **for **cosine** is `cos open parentheses theta close parentheses equals Adjacent over Hypotenuse`.
+The SOHCAHTOA **equation **for **cosine** is $\cos ( \\theta ) = \frac{Adjacent}{Hypotenuse}$.
 
 
 
@@ -141,7 +141,7 @@ State the SOHCAHTOA **equation** for **tangent**.
 
 **BACK**
 
-The SOHCAHTOA **equation **for **tangent **is `tan open parentheses theta close parentheses equals Opposite over Adjacent`.
+The SOHCAHTOA **equation **for **tangent **is $\tan ( \\theta ) = \frac{Opposite}{Adjacent}$.
 
 
 
@@ -169,7 +169,7 @@ What does the** inverse trigonometric function **do, e.g. $\mathrm{sin}^{-1}$?
 
 The** inverse trigonometric function** is used to **find missing angles** when two sides of a right-angled triangle are known.
 
-E.g. `theta equals sin to the power of negative 1 end exponent open parentheses Opposite over Hypotenuse close parentheses`.
+E.g. $\\theta = \sin ^{- 1} ( \frac{Opposite}{Hypotenuse} )$.
 
 
 
@@ -244,7 +244,7 @@ What is the **exact value** of the** cosine** of **0º**?
 
 The **exact value** of the **cosine **of** 0º** is **1**.
 
-`cos open parentheses 0 close parentheses equals 1`.
+$\cos ( 0 ) = 1$.
 
 
 
@@ -259,7 +259,7 @@ What is the **exact value** of the** sine** of **90º**?
 
 The **exact value** of the **sine **of** 90º** is **1**.
 
-`sin open parentheses 90 close parentheses equals 1`.
+$\sin ( 90 ) = 1$.
 
 
 
@@ -274,7 +274,7 @@ What is the **exact value** of the** tangent** of **0º**?
 
 The **exact value** of the **tangent **of** 0º** is **0**.
 
-`tan open parentheses 0 close parentheses equals 0`.
+$\tan ( 0 ) = 0$.
 
 
 
@@ -289,7 +289,7 @@ What is the **exact value** of the** tangent** of **45º**?
 
 The **exact value** of the **tangent **of** 45º** is **1**.
 
-`tan open parentheses 45 close parentheses equals 1`.
+$\tan ( 45 ) = 1$.
 
 
 
@@ -306,7 +306,7 @@ The **exact value **of both the **cosine **and the **sine** of **45º** is $\fra
 
 This can also be written as $\frac{1}{\sqrt{2}}$.
 
-`cos open parentheses 45 close parentheses equals sin open parentheses 45 close parentheses equals fraction numerator square root of 2 over denominator 2 end fraction equals fraction numerator 1 over denominator square root of 2 end fraction`.
+$\cos ( 45 ) = \sin ( 45 ) = \frac{ \sqrt{2} }{2} = \frac{1}{ \sqrt{2} }$.
 
 
 
@@ -321,7 +321,7 @@ The **sine **of which **angle **(between 0º and 90º) has an** exact value **of
 
 The** sine** of **30º **has an** exact value** of $\frac{1}{2}$.
 
-`sin open parentheses 30 close parentheses equals 1 half`.** **
+$\sin ( 30 ) = 1 \frac{1}{2}$.** **
 
 
 
@@ -336,7 +336,7 @@ What is the **exact value** of the** cosine **of** 90º**?
 
 The **exact value** of the** cosine **of **90º** is **0**.
 
-`cos open parentheses 90 close parentheses equals 0`.
+$\cos ( 90 ) = 0$.
 
 
 
@@ -351,7 +351,7 @@ The **tangent **of which **angle **(between 0º and 90º)** **has an** exact val
 
 The **tangent **of **30º** has an** exact value** of $\frac{\sqrt{3}}{3}$.
 
-`tan open parentheses 30 close parentheses equals fraction numerator square root of 3 over denominator 3 end fraction`.** **
+$\tan ( 30 ) = \frac{ \sqrt{3} }{3}$.** **
 
 
 
@@ -366,7 +366,7 @@ What is the **exact value** of the** tangent** of **60º**?
 
 The **exact value** of the **tangent **of** 60º** is $\sqrt{3}$.
 
-`tan open parentheses 60 close parentheses equals square root of 3`.
+$\tan ( 60 ) = \sqrt{3}$.
 
 
 
@@ -381,7 +381,7 @@ What is the **exact value** of the** cosine** of **60º**?
 
 The **exact value** of the **cosine **of** 60º** is $\frac{1}{2}$.
 
-`cos open parentheses 60 close parentheses equals 1 half`.
+$\cos ( 60 ) = 1 \frac{1}{2}$.
 
 
 
@@ -396,7 +396,7 @@ What is the **exact value** of the** sine** of **0º**?
 
 The **exact value** of the **sine **of** 0º** is **0**.
 
-`sin open parentheses 0 close parentheses equals 0`.
+$\sin ( 0 ) = 0$.
 
 
 
@@ -424,6 +424,6 @@ What is the **exact value **of both the **cosine **of** 30º **and the **sine** 
 
 The **exact value **of both the **cosine** of **30º **and the **sine** of **60º** is $\frac{\sqrt{3}}{2}$.
 
-`cos open parentheses 30 close parentheses equals sin open parentheses 60 close parentheses equals fraction numerator square root of 3 over denominator 2 end fraction`.
+$\cos ( 30 ) = \sin ( 60 ) = \frac{ \sqrt{3} }{2}$.
 
 

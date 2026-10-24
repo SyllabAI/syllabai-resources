@@ -75,7 +75,7 @@ i)   The gradient of the line plotted in (b), including units:
 
 *Example calculation*
 
-Gradient =`begin mathsize 14px style fraction numerator open parentheses 8.27 space x space 10 to the power of negative sign 2 end exponent close parentheses space – space open parentheses – 0.76 space x space 10 to the power of negative sign 2 end exponent close parentheses over denominator open parentheses 4.00 space x space 10 to the power of negative sign 3 end exponent close parentheses space – space open parentheses 2.00 space x space 10 to the power of negative sign 3 end exponent close parentheses end fraction end style`  = 45.15 kJ mol<sup>-1</sup>
+Gradient =$\frac{( 8.27 x 10^{- \text{sign} 2} ) - ( - 0.76 x 10^{- \text{sign} 2} )}{( 4.00 x 10^{- \text{sign} 3} ) - ( 2.00 x 10^{- \text{sign} 3} )}$  = 45.15 kJ mol<sup>-1</sup>
 
 ii)   The thermodynamic quantity that can be obtained from this gradient.
 
@@ -92,9 +92,9 @@ By calculation; **[1 mark]**
 460 (K) Allow an answer between 440 - 480
 
 =  $\frac{\mathrm{answer} \mathrm{to}(c)(i)}{98}$ = $\frac{45150}{98}$ = 460.71 / 460 (K)
-**OR** = `fraction numerator ‒ answer space to space left parenthesis straight b right parenthesis over denominator 98 end fraction`
+**OR** = $\frac{‒ \text{answer} \text{to} ( \mathrm{b} )}{98}$
 
-= `begin mathsize 14px style fraction numerator ‒ 45150 over denominator ‒ 98 end fraction end style` = 460.71 / 460 (K)
+= $\frac{‒ 45150}{‒ 98}$ = 460.71 / 460 (K)
 
 **[Total: 3 marks]**
 

@@ -216,7 +216,7 @@ An atom of aluminium loses 3 electrons to become $\mathrm{Al}^{3+}$.
 
 How many protons, neutrons and electrons does a fluoride ion contain?
 
-`straight F presubscript 9 presuperscript 19 superscript minus`
+`F _ 9 ^ 19 ^ -`
 
 
 **BACK**

@@ -19,7 +19,7 @@ guided_study: false
 
 #### When can I use a normal distribution to approximate a binomial distribution?
 
-- A binomial distribution `begin mathsize 16px style X tilde straight B left parenthesis n comma p right parenthesis end style` can be **approximated** by a normal distribution `begin mathsize 16px style X subscript N tilde straight N left parenthesis mu comma sigma squared right parenthesis end style`  provided
+- A binomial distribution $X \sim \mathrm{B} ( n , p )$ can be **approximated** by a normal distribution $X_{N} \sim \mathrm{N} ( \\mu , \\sigma ^{2} )$  provided
 
   - ***n***** is large**
   - ***p***** is close to 0.5**
@@ -65,7 +65,7 @@ guided_study: false
 - The probability will not be exact as it is an approximate but provided n is large and p is close to 0.5 then it will be a close approximation
 
 > **Worked Example**
-> The random variable `X tilde straight B left parenthesis 1250 comma 0.4 right parenthesis`.
+> The random variable $X \sim \mathrm{B} ( 1250 , 0.4 )$.
 > 
 > Use a suitable approximating distribution to approximate $P(485\leqX\leq530)$.
 > 
@@ -81,7 +81,7 @@ guided_study: false
 
 #### When can I use a Poisson distribution to approximate a binomial distribution?
 
-- A binomial distribution X~B(*n, p*)can be **approximated** by a Poisson distribution `X subscript p tilde P o open parentheses lambda close parentheses` provided
+- A binomial distribution X~B(*n, p*)can be **approximated** by a Poisson distribution $X_{p} \sim P o ( \\lambda )$ provided
 
   - ***n***** is large **( typically >  50 )
   - ***p***** is small**

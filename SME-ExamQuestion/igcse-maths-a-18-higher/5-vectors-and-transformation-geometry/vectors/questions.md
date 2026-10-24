@@ -20,7 +20,7 @@ Work out $a+2b$ as a column vector.
 ### 13() — 2 marks — command: find — structured — from paper Jan 2021 · 4MA1/1HR
 Here are two vectors.
 
-`stack A B with rightwards arrow on top equals open parentheses table row 5 row 3 end table close parentheses`               `stack C B with rightwards arrow on top equals open parentheses table row cell negative 2 end cell row 4 end table close parentheses`
+$\vec{AB} = ( \begin{gathered} 5 \\ 3 \end{gathered} )$               $\vec{CB} = ( \begin{gathered} - 2 \\ 4 \end{gathered} )$
 
 Find, as a column vector, $\overset{\rightarrow}{AC}$
 
@@ -29,7 +29,7 @@ Find, as a column vector, $\overset{\rightarrow}{AC}$
 ### 14() — 3 marks — command: find — structured — from paper June 2019 · 4MA1/2H
 Here are two vectors.
 
-`stack A B space with rightwards arrow on top space equals space open parentheses table row 6 row cell negative 9 end cell end table close parentheses`       `stack C B with rightwards arrow on top space equals space open parentheses table row 1 row 3 end table close parentheses`
+$\vec{ABspace} = ( \begin{gathered} 6 \\ - 9 \end{gathered} )$       $\vec{CB} = ( \begin{gathered} 1 \\ 3 \end{gathered} )$
 
 Find the magnitude of $\overset{\rightarrow}{AC}$.
 
@@ -48,9 +48,9 @@ Find vector **b** as a column vector.
 ## Q5 — easy — 3 marks · exam-questions
 
 ### 9((b)) — 3 marks — command: complete — structured — from paper Nov 2019 · J560/06
-Vector `bold a equals open parentheses table row 3 row cell negative 1 end cell end table close parentheses` and vector `bold b equals open parentheses table row 1 row 3 end table close parentheses`
+Vector $a = ( \begin{gathered} 3 \\ - 1 \end{gathered} )$ and vector $b = ( \begin{gathered} 1 \\ 3 \end{gathered} )$
 
-Gavin starts to draw a diagram to show that `bold a plus 2 bold b equals open parentheses table row 5 row 5 end table close parentheses`
+Gavin starts to draw a diagram to show that $a + 2 b = ( \begin{gathered} 5 \\ 5 \end{gathered} )$
 
 ![q9b-paper6-nov2019-ocr-gcse-maths](assets/042-q9b-paper6-nov2019-ocr-gcse-maths.png)
 
@@ -65,23 +65,23 @@ Here is vector $a$.
 
 Circle the column vector that represents $a$.
 
-| `open parentheses table row 3 row 2 end table close parentheses` | `open parentheses table row cell negative 3 end cell row 2 end table close parentheses` | `open parentheses table row 3 row cell negative 2 end cell end table close parentheses` | `open parentheses table row cell negative 3 end cell row cell negative 2 end cell end table close parentheses` |
+| $( \begin{gathered} 3 \\ 2 \end{gathered} )$ | $( \begin{gathered} - 3 \\ 2 \end{gathered} )$ | $( \begin{gathered} 3 \\ - 2 \end{gathered} )$ | $( \begin{gathered} - 3 \\ - 2 \end{gathered} )$ |
 |---|---|---|---|
 
 ## Q7 — easy — 1 marks · exam-questions
 
 ### 17() — 1 mark — command: work_out — structured — from paper Nov 2019 · 8300/1H
-`bold a equals open parentheses table row cell negative 3 end cell row 2 end table close parentheses` and `bold b equals open parentheses table row 1 row cell negative 5 end cell end table close parentheses`
+$a = ( \begin{gathered} - 3 \\ 2 \end{gathered} )$ and $b = ( \begin{gathered} 1 \\ - 5 \end{gathered} )$
 
 Work out $a--3b$ Circle your answer.
 
-| `open parentheses table row cell negative 6 end cell row 17 end table close parentheses` | `open parentheses table row cell negative 6 end cell row cell negative 13 end cell end table close parentheses` | `open parentheses table row 0 row 17 end table close parentheses` | `open parentheses table row 0 row cell negative 13 end cell end table close parentheses` |
+| $( \begin{gathered} - 6 \\ 17 \end{gathered} )$ | $( \begin{gathered} - 6 \\ - 13 \end{gathered} )$ | $( \begin{gathered} 0 \\ 17 \end{gathered} )$ | $( \begin{gathered} 0 \\ - 13 \end{gathered} )$ |
 |---|---|---|---|
 
 ## Q8 — easy — 3 marks · exam-questions
 
 ### 11((a)) — 2 marks — command: draw — structured — from paper June 2017 · J560/05
-Vector `bold a equals open parentheses table row 2 row 1 end table close parentheses` , vector `bold b equals open parentheses table row cell negative 2 end cell row 1 end table close parentheses`.
+Vector $a = ( \begin{gathered} 2 \\ 1 \end{gathered} )$ , vector $b = ( \begin{gathered} - 2 \\ 1 \end{gathered} )$.
 
 On each grid below, draw a vector to represent
 
@@ -212,9 +212,9 @@ Give your answer in its simplest form.
 ### 20((a)) — 3 marks — command: find — structured — from paper Nov 2018 · J560/06
 $b$ is a vector.
 
-Given that `bold b space plus space open parentheses table row 5 row 2 end table close parentheses` is parallel to `open parentheses table row 2 row 1 end table close parentheses` , find two possible answers for $b$.
+Given that $b + ( \begin{gathered} 5 \\ 2 \end{gathered} )$ is parallel to $( \begin{gathered} 2 \\ 1 \end{gathered} )$ , find two possible answers for $b$.
 
-`bold b bold space bold equals space stretchy left parenthesis table row blank row blank end table stretchy right parenthesis` or `open parentheses table row blank row blank end table close parentheses`
+$b = ( \begin{gathered} \\ \end{gathered} )$ or $( \begin{gathered} \\ \end{gathered} )$
 
 ## Q17 — medium — 2 marks · exam-questions
 
@@ -340,7 +340,7 @@ $ABC$is a triangle.
 The midpoint of $BC$is $M$. 
 $P$ is a point on $AM$.
 
-`table row cell stack A B with rightwards arrow on top space end cell equals cell space 4 bold a end cell row cell stack A C with rightwards arrow on top space end cell equals cell space 2 bold b end cell row cell stack A P with rightwards arrow on top space end cell equals cell space 3 over 2 bold a bold space plus space 3 over 4 bold b end cell end table`
+$\begin{gathered} \vec{AB} & = 4 a \\ \vec{AC} & = 2 b \\ \vec{AP} & = \frac{3}{2} a + \frac{3}{4} b \end{gathered}$
 
 Find the ratio $AP:PM$
 
@@ -362,7 +362,7 @@ The diagram shows parallelogram $ABCD$.
 
 ![q17-paper1h-june2018-edexcel-igcse-maths](assets/026-q17-paper1h-june2018-edexcel-igcse-maths.png)
 
-`stack A B with rightwards arrow on top equals open parentheses table row 2 row 7 end table close parentheses`       `stack A C with rightwards arrow on top equals open parentheses table row 10 row 11 end table close parentheses`
+$\vec{AB} = ( \begin{gathered} 2 \\ 7 \end{gathered} )$       $\vec{AC} = ( \begin{gathered} 10 \\ 11 \end{gathered} )$
 
 The point $B$ has coordinates (5, 8) 
 Work out the coordinates of the point $C$.
@@ -431,7 +431,7 @@ Circle the vector $\overset{\rightarrow}{RQ}$
 ## Q30 — hard — 4 marks · exam-questions
 
 ### 11((a)) — 2 marks — command: work_out — structured — from paper June 2018 · 8300/3H
-`bold a space equals space open parentheses table row 6 row cell negative 10 end cell end table close parentheses`       `bold b space equals space open parentheses table row cell negative 1 end cell row 2 end table close parentheses`      `bold c space equals space open parentheses table row cell negative 4 end cell row 7 end table close parentheses`
+$a = ( \begin{gathered} 6 \\ - 10 \end{gathered} )$       $b = ( \begin{gathered} - 1 \\ 2 \end{gathered} )$      $c = ( \begin{gathered} - 4 \\ 7 \end{gathered} )$
 
 Work out $a+b+c$
 
@@ -451,7 +451,7 @@ Show working to support your answer.
 ### 20((b)) — 5 marks — command: find — structured — from paper Nov 2018 · J560/06
 Given that
 
-`m open parentheses table row 4 row 1 end table close parentheses space plus space n open parentheses table row 5 row 2 end table close parentheses space equals space open parentheses table row 12 row 6 end table close parentheses`
+$m ( \begin{gathered} 4 \\ 1 \end{gathered} ) + n ( \begin{gathered} 5 \\ 2 \end{gathered} ) = ( \begin{gathered} 12 \\ 6 \end{gathered} )$
 
 find the value of $m$ and the value of $n$.
 
@@ -474,11 +474,11 @@ You may use the grid below.
 ## Q34 — hard — 2 marks · exam-questions
 
 ### 11((c)) — 2 marks — command: find — structured — from paper June 2017 · J560/05
-Vector `bold a equals open parentheses table row 2 row 1 end table close parentheses` , vector `bold b equals open parentheses table row cell negative 2 end cell row 1 end table close parentheses`.
+Vector $a = ( \begin{gathered} 2 \\ 1 \end{gathered} )$ , vector $b = ( \begin{gathered} - 2 \\ 1 \end{gathered} )$.
 
-`bold c equals open parentheses table row cell negative 12 end cell row 0 end table close parentheses`
+$c = ( \begin{gathered} - 12 \\ 0 \end{gathered} )$
 
-Find the value $k$ so that `k open parentheses bold a minus bold b close parentheses equals bold c`
+Find the value $k$ so that $k ( a - b ) = c$
 
 $k$ = .....................................................
 
@@ -720,7 +720,7 @@ $\overset{\rightarrow}{OP}=$...............................
 ### 27((a)) — 2 marks — command: prove — structured — from paper Nov 2021 · 8300/3H
 In the diagram
 
-`table row cell stack D E with rightwards arrow on top end cell equals bold a row cell stack D H with rightwards arrow on top end cell equals bold b row cell stack H G with rightwards arrow on top end cell equals cell 8 bold b end cell row cell E X colon X H end cell equals cell 3 colon 1 end cell row cell E F colon F G end cell equals cell 1 colon 3 end cell row blank blank blank end table`
+$\begin{gathered} \vec{DE} & = a \\ \vec{DH} & = b \\ \vec{HG} & = 8 b \\ E X : X H & = 3 : 1 \\ E F : F G & = 1 : 3 \\ \end{gathered}$
 
 ![q27-paper-3h-nov-2021-aqa-gcse-maths](assets/019-q27-paper-3h-nov-2021-aqa-gcse-maths.png)
 
@@ -762,9 +762,9 @@ Show that $BCDE$ is a parallelogram.
 ## Q52 — very_hard — 4 marks · exam-questions
 
 ### 20() — 4 marks — command: find — structured — from paper Nov 2020 · J560/06
-Vector **m**=`open parentheses table row 2 row k end table close parentheses` and vector **n **=`open parentheses table row 3 row 11 end table close parentheses`
+Vector **m**=$( \begin{gathered} 2 \\ k \end{gathered} )$ and vector **n **=$( \begin{gathered} 3 \\ 11 \end{gathered} )$
 
-Vector 2**m** +** n**  is parallel to `open parentheses table row 1 row cell negative 1 end cell end table close parentheses`
+Vector 2**m** +** n**  is parallel to $( \begin{gathered} 1 \\ - 1 \end{gathered} )$
 
 Find the value of $k$.
 

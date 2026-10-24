@@ -84,15 +84,15 @@ State the **implication** or give a **recommendation**
 > 
 > (i) Gearing ratio: $\frac{\mathrm{Fixed} \mathrm{cost} \mathrm{capital}}{\mathrm{Total} \mathrm{capital}}\times100$
 > 
-> *Alpha plc: *`fraction numerator 100 space 000 over denominator 400 space 000 plus 250 space 000 plus 100 space 000 end fraction cross times 100 equals 13.33 percent sign`
+> *Alpha plc: *$\frac{100 000}{400 000 + 250 000 + 100 000} \times 100 = 13.33 \%$
 > 
-> *Beta plc: *`fraction numerator 300 space 000 over denominator 300 space 000 plus 150 space 000 plus 300 space 000 end fraction cross times 100 equals 40.00 percent sign`
+> *Beta plc: *$\frac{300 000}{300 000 + 150 000 + 300 000} \times 100 = 40.00 \%$
 > 
 > (ii) Earnings per share (EPS): $\frac{\mathrm{Profit} \mathrm{for} \mathrm{the} \mathrm{year}}{\mathrm{Number} \mathrm{of} \mathrm{issued} \mathrm{ordinary} \mathrm{shares}}$
 > 
-> *Alpha plc: *`fraction numerator 95 space 000 over denominator 400 space 000 end fraction equals $ 0.24 space per space share`
+> *Alpha plc: *$\frac{95 000}{400 000} = \$ 0.24 \text{per} \text{share}$
 > 
-> *Beta plc: *`fraction numerator 60 space 000 over denominator 600 space 000 end fraction equals $ 0.10 space per space share`
+> *Beta plc: *$\frac{60 000}{600 000} = \$ 0.10 \text{per} \text{share}$
 > 
 > (iii) Price/earnings (P/E) ratio: $\frac{\mathrm{Market} \mathrm{price} \mathrm{per} \mathrm{share}}{\mathrm{Earnings} \mathrm{per} \mathrm{share}}$
 > 
@@ -102,15 +102,15 @@ State the **implication** or give a **recommendation**
 > 
 > (iv) Dividend per share: $\frac{\mathrm{Annual} \mathrm{ordinary} \mathrm{dividend}}{\mathrm{Number} \mathrm{of} \mathrm{issued} \mathrm{ordinary} \mathrm{shares}}$
 > 
-> *Alpha plc: *`fraction numerator 19 space 000 over denominator 400 space 000 end fraction equals $ 0.0475`
+> *Alpha plc: *$\frac{19 000}{400 000} = \$ 0.0475$
 > 
-> *Beta plc: *`fraction numerator 45 space 000 over denominator 600 space 000 end fraction equals $ 0.075`
+> *Beta plc: *$\frac{45 000}{600 000} = \$ 0.075$
 > 
 > Dividend yield: $\frac{\mathrm{Dividend} \mathrm{per} \mathrm{share}}{\mathrm{Market} \mathrm{price} \mathrm{per} \mathrm{share}}\times100$
 > 
-> *Alpha plc: *`fraction numerator 0.0475 over denominator 2.85 end fraction cross times 100 equals 1.67 percent sign`
+> *Alpha plc: *$\frac{0.0475}{2.85} \times 100 = 1.67 \%$
 > 
-> *Beta plc: *`fraction numerator 0.075 over denominator 0.80 end fraction cross times 100 equals 9.38 percent sign`
+> *Beta plc: *$\frac{0.075}{0.80} \times 100 = 9.38 \%$
 > 
 > **(b)**
 > 

@@ -68,7 +68,7 @@ guided_study: false
 
 - **Economic growth is measured as the percentage change in real GDP between two time periods**
 
-`Rate space of space economic space growth space left parenthesis percent sign right parenthesis space space equals space fraction numerator left parenthesis GDP space in space current space year space minus space GDP space in space previous space year right parenthesis over denominator GDP space in space previous space year end fraction space straight x space 100`
+$Rate of \text{economic} \text{growth} ( \% ) = \frac{( GDP in \text{current} \text{year} - GDP in \text{previous} \text{year} )}{GDP in \text{previous} year} \mathrm{x} 100$
 
 - Growth is typically measured on a **quarterly** basis (every three months) and reported as an **annual rate**
 - A recession is technically defined as **two consecutive quarters of negative GDP growth**

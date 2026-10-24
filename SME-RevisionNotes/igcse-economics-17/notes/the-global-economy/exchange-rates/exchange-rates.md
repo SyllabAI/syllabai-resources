@@ -48,7 +48,7 @@ guided_study: false
 > 
 > **Step 1:  Calculate the quantity of Pounds received for €200,000**
 > 
-> `begin mathsize 14px style fraction numerator 200 comma 000 over denominator 1.1 end fraction space equals £ 181 comma 818.18 end style`**  ****[1]**
+> $\frac{200 , 000}{1.1} = \pounds 181 , 818.18$**  ****[1]**
 > 
 > **Step 2: Calculate the new exchange rate**
 > 

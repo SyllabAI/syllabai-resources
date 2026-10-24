@@ -25,7 +25,7 @@ guided_study: true
 - Thus, the greater the number of carbon atoms present in a molecule the greater the height of the [M+1] peak
 - The number of carbon atoms, **n**, in a compound can be deduced using the [M+1] peak and the following formula:
 
-  - `straight n space equals space fraction numerator 100 space cross times space abundance space of space open square brackets straight M plus 1 close square brackets over denominator 1.1 space cross times space abundace space of space straight M to the power of plus space ion end fraction`
+  - $\mathrm{n} = \frac{100 \times \text{abundance} of [ \mathrm{M} + 1 ] }{1.1 \times \text{abundace} of \mathrm{M} ^{ + } ion}$
 
 > **Worked Example**
 > Determine the number of carbon atoms of compound **X** with the following mass spectrum:

@@ -36,7 +36,7 @@ guided_study: false
   - Let $z=x+yi$
   - **Substitute** in
   
-    - `open parentheses x plus y straight i close parentheses plus 2 open parentheses x minus y straight i close parentheses equals 12 minus i`
+    - $( x + y \mathrm{i} ) + 2 ( x - y \mathrm{i} ) = 12 - i$
   - **Expand **and **collect **terms
   
     - $3x-yi=12-i$
@@ -50,21 +50,21 @@ guided_study: false
 
 ### How do I use real and imaginary parts with modulus signs?
 
-- If $z=x+yi$ then `vertical line z vertical line equals square root of x squared plus y squared end root`
+- If $z=x+yi$ then $\vert z \vert = \sqrt{x^{2} + y^{2}}$
 - Helpful** modulus rules **are:
 
-  - `vertical line z subscript 1 z subscript 2 vertical line equals vertical line z subscript 1 vertical line vertical line z subscript 2 vertical line`
-  - `open vertical bar z subscript 1 over z subscript 2 close vertical bar equals fraction numerator open vertical bar z subscript 1 close vertical bar over denominator open vertical bar z subscript 2 close vertical bar end fraction`
-  - `vertical line z vertical line equals vertical line z asterisk times vertical line`
-  - `z z asterisk times equals z asterisk times z equals vertical line z vertical line squared`
+  - $\vert z_{1} z_{2} \vert = \vert z_{1} \vert \vert z_{2} \vert$
+  - `| z _ 1 / z _ 2 | = (| z _ 1 |)/(| z _ 2 |)`
+  - $\vert z \vert = \vert z \text{asterisk} \times \vert$
+  - $z z \text{asterisk} \times = z \text{asterisk} \times z = \vert z \vert^{2}$
   
     - Proved using $z=x+yi$ and $z\ast=x-yi$
-- For example, find $p$ if $z_{1}=p+pi$, $z_{2}=2i$ and `vertical line z subscript 1 z subscript 2 vertical line equals 6 square root of 2`
+- For example, find $p$ if $z_{1}=p+pi$, $z_{2}=2i$ and $\vert z_{1} z_{2} \vert = 6 \sqrt{2}$
 
-  - Use `vertical line z subscript 1 z subscript 2 vertical line equals vertical line z subscript 1 vertical line vertical line z subscript 2 vertical line`
+  - Use $\vert z_{1} z_{2} \vert = \vert z_{1} \vert \vert z_{2} \vert$
   
-    - `vertical line p plus p straight i vertical line vertical line 2 straight i vertical line equals 6 square root of 2`
-  - Use `vertical line z vertical line equals square root of x squared plus y squared end root`
+    - $\vert p + p \mathrm{i} \vert \vert 2 \mathrm{i} \vert = 6 \sqrt{2}$
+  - Use $\vert z \vert = \sqrt{x^{2} + y^{2}}$
   
     - $\sqrt{p^{2}+p^{2}}\times2=6\sqrt{2}$ so $2\sqrt{2p^{2}}=6\sqrt{2}$
   - **Square both sides** and simplify
@@ -87,7 +87,7 @@ guided_study: false
 > 
 > > *Substitute this, and *$w$*, into the equation*
 > 
-> * *`open parentheses x plus y straight i close parentheses squared plus 10 open parentheses 5 plus 2 straight i close parentheses equals open parentheses x plus y straight i close parentheses open parentheses x minus y straight i close parentheses`
+> * *$( x + y \mathrm{i} )^{2} + 10 ( 5 + 2 \mathrm{i} ) = ( x + y \mathrm{i} ) ( x - y \mathrm{i} )$
 > 
 > > *Expand the brackets and use *$i^{2}=-1$
 > 
@@ -95,12 +95,12 @@ guided_study: false
 > 
 > > *Equate the real parts and solve for *$y$
 > 
-> `table row cell x squared minus y squared plus 50 end cell equals cell x squared plus y squared end cell row 50 equals cell 2 y squared end cell row 25 equals cell y squared end cell row y equals cell plus-or-minus 5 end cell end table`
+> $\begin{gathered} x^{2} - y^{2} + 50 & = x^{2} + y^{2} \\ 50 = 2 y^{2} \\ 25 = y^{2} \\ y = \pm 5 \end{gathered}$
 > 
 > > *Now equate the imaginary parts and solve for *$x$
 > *Note that there are no imaginary parts on the right*
 > 
-> `table row cell 2 x y plus 20 end cell equals 0 row cell x y end cell equals cell negative 10 end cell row x equals cell negative 10 over y end cell end table`
+> $\begin{gathered} 2 x y + 20 & = 0 \\ x y & = - 10 \\ x = - \frac{10}{y} \end{gathered}$
 > 
 > > *When *$y=5$*, then** *$x=-2$
 > *When *$y=-5$*, then** *$x=2$

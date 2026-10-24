@@ -35,14 +35,14 @@ i.e.   The probability of “success” does not change between trials
 - *p* is the probability of “**success**” in a **single** **trial**
 
   - The probability of “**failure”** in a **single** trial is *1- p* ; often denoted by *q*
-- If *X*  follows a geometric distribution, it is denoted by `X tilde Geo left parenthesis p right parenthesis`
+- If *X*  follows a geometric distribution, it is denoted by $X \sim \text{Geo} ( p )$
 - The formula for finding the probability that the first success occurs after *r* trials (or after *r* -1 failures) is
 
 $P(X=r)=(1-p)^{r-1}p$
 
 - e.g. If the probability of success in a single trial is 0.3, then the probability it will take 6 trials to obtain the first success is given by
 
-`P left parenthesis X equals 6 right parenthesis equals left parenthesis 1 minus 0.3 right parenthesis to the power of 6 minus 1 end exponent left parenthesis 0.3 right parenthesis equals left parenthesis 0.7 right parenthesis to the power of 5 open parentheses 0.3 close parentheses equals 0.050421`
+$P ( X = 6 ) = ( 1 - 0.3 )^{6 - 1} ( 0.3 ) = ( 0.7 )^{5} ( 0.3 ) = 0.050421$
 
 #### What does a geometric distribution look like?
 
@@ -63,17 +63,17 @@ $P(X=r)=(1-p)^{r-1}p$
 - $P(X=r)>0$ for all r
 
   - Every geometric distribution has an infinite (discrete) **sample** **space** which is the set of natural numbers ($ℕ$) or positive integers ($ℤ^{+}$)
-- `straight P open parentheses X equals r close parentheses less than straight P left parenthesis X equals r minus 1 right parenthesis` for all r
+- $\mathrm{P} ( X = r ) < \mathrm{P} ( X = r - 1 )$ for all r
 
   - The **mode** of **every** geometric distribution is **1** (the value of r that has the highest probability)
 - Geometric distributions are ***memoryless***
 
-  - The number of trials needed for the first success is not dependent on the number of trials that have already occurred e.g.   If 5 (failed) trials have already occurred, the probability of the first success happening after 7 trials is the same as the probability of it happening after 2 trials which would be `begin mathsize 16px style open parentheses 1 minus p close parentheses p end style`
+  - The number of trials needed for the first success is not dependent on the number of trials that have already occurred e.g.   If 5 (failed) trials have already occurred, the probability of the first success happening after 7 trials is the same as the probability of it happening after 2 trials which would be $( 1 - p ) p$
   - Mathematically this is written as
 
-`straight P left parenthesis X equals r vertical line X greater than k right parenthesis equals straight P left parenthesis X equals r minus k right parenthesis`  where $k$ is the number of trials that have already occurred
+$\mathrm{P} ( X = r \vert X > k ) = \mathrm{P} ( X = r - k )$  where $k$ is the number of trials that have already occurred
 
-e.g.   `bold P bold left parenthesis bold italic X bold equals bold 7 bold vertical line bold italic X bold greater than bold 5 bold right parenthesis equals straight P left parenthesis X equals 7 minus 5 right parenthesis equals bold italic P bold left parenthesis bold italic X bold equals bold 2 bold right parenthesis`
+e.g.   $P ( X = 7 \vert X > 5 ) = \mathrm{P} ( X = 7 - 5 ) = P ( X = 2 )$
 
 - Geometric distributions have the **recurrence** **relation **$P(X=r)=qP(X=r-1)$
 - The **mean**, or **expected** **value**, of a geometric distribution is $E(X)=\frac{1}{p}$
@@ -94,10 +94,10 @@ e.g.   `bold P bold left parenthesis bold italic X bold equals bold 7 bold verti
   - Heads, a square number, a win
 - **Identify** the probability of “**success**”
 
-  - `begin mathsize 16px style 0.5 comma 1 third comma 42 percent sign end style`
+  - $0.5 , 1 \frac{1}{3} , 42 \%$
 - Define your **random** **variable** using the correct **notation**
 
-  - Let *X* be the number of trials required to obtain the first heads when flipping a fair coin,  `begin mathsize 16px style X tilde Geo left parenthesis 0.5 right parenthesis end style`
+  - Let *X* be the number of trials required to obtain the first heads when flipping a fair coin,  $X \sim \text{Geo} ( 0.5 )$
 
 #### What can be modelled using a geometric distribution?
 
@@ -166,14 +166,14 @@ $P(X=a)+P(X=a+1)+...+P(X=b)$
 - Logic can be used to deduce most geometric distribution questions so memorising these formulae is not essential
 - Beware of questions that exploit the ***memorylessness*** property of geometric distributions – loosely called “given that” questions
 
-  - e.g.  `P left parenthesis X equals 8 vertical line X greater than 6 right parenthesis` means         “the probability that  equals 8 given that  is greater than 6” or          “the probability of 8 trials given that 6 trials have already occurred”               `P left parenthesis X equals 8 vertical line X greater than 6 right parenthesis equals P left parenthesis X equals 8 minus 6 right parenthesis equals P left parenthesis X equals 2 right parenthesis`
+  - e.g.  $P ( X = 8 \vert X > 6 )$ means         “the probability that  equals 8 given that  is greater than 6” or          “the probability of 8 trials given that 6 trials have already occurred”               $P ( X = 8 \vert X > 6 ) = P ( X = 8 - 6 ) = P ( X = 2 )$
 - The **mean** (**expected** **value**) or **mode** of a geometric distribution may be required
 
   - ** **$E(X)=\frac{1}{p}$
   - The **mode** is **1** for all geometric distributions
 
 > **Worked Example**
-> Given that `X tilde Geo left parenthesis 0.4 right parenthesis` find
+> Given that $X \sim \text{Geo} ( 0.4 )$ find
 > 
 > (i)  $P(X=5)$
 > 
@@ -181,7 +181,7 @@ $P(X=a)+P(X=a+1)+...+P(X=b)$
 > 
 > (iii) $P(3\leqX<8)$
 > 
-> (iv) `straight P left parenthesis X equals 8 space vertical line space X greater than 5 right parenthesis`
+> (iv) $\mathrm{P} ( X = 8 \vert X > 5 )$
 > 
 > (v) The mode of  $X$.
 > 

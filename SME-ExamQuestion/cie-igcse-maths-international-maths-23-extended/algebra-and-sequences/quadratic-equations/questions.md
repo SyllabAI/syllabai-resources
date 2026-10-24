@@ -158,7 +158,7 @@ $x=$ ............................ or $x=$ ............................
 
 Find all the solutions to the equation.
 
-`open parentheses x squared minus 4 x plus 4 close parentheses to the power of open parentheses x squared minus 9 x plus 20 close parentheses end exponent equals 1`
+$( x^{2} - 4 x + 4 )^{( x^{2} - 9 x + 20 )} = 1$
 
 *Source: Nov 22 0607/41 Q12CII*
 
@@ -192,7 +192,7 @@ $x=$ ..................   or   $x=$ ..................
 
 **Q14** [3 marks]
 
-Nina runs 5 km at $y$ km/h and then walks 7 km at `open parentheses y minus 7 close parentheses` km/h. 
+Nina runs 5 km at $y$ km/h and then walks 7 km at $( y - 7 )$ km/h. 
 She takes a total of 2 hours.
 
 Show that  $2y^{2}-26y+35=0$.

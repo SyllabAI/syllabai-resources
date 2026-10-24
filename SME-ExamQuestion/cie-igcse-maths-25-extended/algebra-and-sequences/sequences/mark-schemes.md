@@ -31,7 +31,7 @@ $an^{2}+bn+c$
 
 > *The difference of the difference is *$2a$*, therefore *
 
-`table row cell 2 a end cell equals 2 row a equals 1 end table`
+$\begin{gathered} 2 a & = 2 \\ a = 1 \end{gathered}$
 
 **[B1]**
 
@@ -57,7 +57,7 @@ $an^{2}+bn+c$
 
 > *The difference of the difference is *$2a$*, therefore *
 
-`table row cell 2 a end cell equals 2 row a equals 1 end table`
+$\begin{gathered} 2 a & = 2 \\ a = 1 \end{gathered}$
 
 **[B1]**
 
@@ -68,14 +68,14 @@ $n^{2}+bn+c$
 - *For *$n=1$* the term is 9*
 - *For *$n=2$* the term is 12*
 
-`table row 9 equals cell 1 plus b plus c end cell row 12 equals cell 4 plus 2 b plus c end cell end table`
+$\begin{gathered} 9 = 1 + b + c \\ 12 = 4 + 2 b + c \end{gathered}$
 
 $8=b+c\,8=2b+c$
 
 > *Subtract the two equations*
 
-`open parentheses 8 minus 8 close parentheses equals open parentheses 2 b minus b close parentheses plus open parentheses c minus c close parentheses
-0 equals b`
+$( 8 - 8 ) = ( 2 b - b ) + ( c - c )
+0 = b$
 
 > *Substitute *$b$* into any equation*
 
@@ -100,7 +100,7 @@ $n^{2}+8$
 
 > *Calculate the next term in the sequence by adding the common difference to the last term.*
 
-`negative 3 plus open parentheses negative 4 close parentheses equals negative 7`
+$- 3 + ( - 4 ) = - 7$
 
 **[1]**
 
@@ -110,7 +110,7 @@ $-4n$
 
 > *Find the 0th term by subtracting the common difference from the first term*
 
-`9 minus open parentheses negative 4 close parentheses equals 13`
+$9 - ( - 4 ) = 13$
 
 > *Put these together to form the nth term rule.*
 
@@ -142,27 +142,27 @@ $25+11=36$
 
 > *The 2nd difference is equal to *$2a$*.*
 
-`table row cell 2 a end cell equals 2 row a equals 1 end table`
+$\begin{gathered} 2 a & = 2 \\ a = 1 \end{gathered}$
 
 > *Substitute *$a=1$* and the value of the 1st term of the sequence in to the general form of the quadratic.*
 
-`table attributes columnalign right center left columnspacing 0px end attributes row cell 1 open parentheses 1 close parentheses squared plus b open parentheses 1 close parentheses plus c end cell equals 4 row cell 1 plus b plus c end cell equals 4 end table`
+$\begin{array}{rcl} 1 ( 1 )^{2} + b ( 1 ) + c & = 4 \\ 1 + b + c & = 4 \end{array}$
 
 > *Substitute *$a=1$* and the value of the 2nd term of the sequence in to the general form of the quadratic.*
 
-`table attributes columnalign right center left columnspacing 0px end attributes row cell 1 open parentheses 2 close parentheses squared plus b open parentheses 2 close parentheses plus c end cell equals 9 row cell 4 plus 2 b plus c end cell equals 9 end table`
+$\begin{array}{rcl} 1 ( 2 )^{2} + b ( 2 ) + c & = 9 \\ 4 + 2 b + c & = 9 \end{array}$
 
 > *Subtract the first equation from the second and solve for *$b$*.*
 
-`stack attributes charalign center stackalign right end attributes row table attributes columnalign right center left columnspacing 0px end attributes row blank blank 4 end table table attributes columnalign right center left columnspacing 0px end attributes row blank blank plus end table table attributes columnalign right center left columnspacing 0px end attributes row blank blank 2 end table table attributes columnalign right center left columnspacing 0px end attributes row blank blank b end table table attributes columnalign right center left columnspacing 0px end attributes row blank blank plus end table table attributes columnalign right center left columnspacing 0px end attributes row blank blank c end table table attributes columnalign right center left columnspacing 0px end attributes row blank equals blank end table table attributes columnalign right center left columnspacing 0px end attributes row blank blank 9 end table end row row minus none none none 1 plus b plus c equals 4 end row horizontal line row 3 plus b equals 5 end row end stack`
+`charalign center stackalign right end | table columnalign right center left columnspacing 0px end | _ _ 4 | table columnalign right center left columnspacing 0px end | _ _ + | table columnalign right center left columnspacing 0px end | _ _ 2 | table columnalign right center left columnspacing 0px end | _ _ b | table columnalign right center left columnspacing 0px end | _ _ + | table columnalign right center left columnspacing 0px end | _ _ c | table columnalign right center left columnspacing 0px end | _ = _ | table columnalign right center left columnspacing 0px end | _ _ 9 | end | | - none none none 1 + b + c = 4 end | horizontal line | 3 + b = 5 end | end`
 
-> *                           *`table attributes columnalign right center left columnspacing 0px end attributes row b equals 2 end table`
+> *                           *$\begin{array}{rcl} b = 2 \end{array}$
 
 > *Substitute *$a=2$* and *$b=2$* into either of the equations to find *$c$*.*
 
-`table row cell 1 plus 2 plus c end cell equals 4 row c equals 1 end table`
+$\begin{gathered} 1 + 2 + c & = 4 \\ c = 1 \end{gathered}$
 
-> *Put the values of *$a,b$* and *`table row blank blank c end table`* back into the general form of the quadratic.*
+> *Put the values of *$a,b$* and *$\begin{gathered} c \end{gathered}$* back into the general form of the quadratic.*
 
 $n^{2}+2n+1$
 
@@ -184,7 +184,7 @@ $n^{2}+2n+1$
 
 > *Write down an algebraic expression that is the square of the next term's position.*
 
-`open parentheses n plus 1 close parentheses squared`
+$( n + 1 )^{2}$
 
 | 4 | 9 | 16 | 25 | **Final answer:** **36** |   | $(n+1)^{2}$ |
 |---|---|---|---|---|---|---|
@@ -306,67 +306,65 @@ $5^{n-1}$ **[1]**
 $n^{2}$* ***[1]**
 i) *Substitute **n **= 8 into the expression for diagram **n**.*
 
-`1 half open parentheses 3 open parentheses 8 close parentheses to the power of 2 space end exponent minus space 8 close parentheses space equals space 1 half open parentheses 3 open parentheses 64 close parentheses space minus space 8 close parentheses space equals space 1 half open parentheses 184 close parentheses space`
+$1 \frac{1}{2} ( 3 ( 8 )^{2 } - 8 ) = 1 \frac{1}{2} ( 3 ( 64 ) - 8 ) = 1 \frac{1}{2} ( 184 )$
 
 **92**** [1]**
 
 ii) *The number of black dots is the total number of dots minus the number of white dots.*
 
-> * *`1 half open parentheses 3 n to the power of 2 space end exponent minus space n close parentheses space minus space n squared`
+> * *$1 \frac{1}{2} ( 3 n^{2 } - n ) - n^{2}$
 
 **[1]**
 
 > *Expand the brackets and simplify.*
 
-> * *`table row blank blank cell 3 over 2 n to the power of 2 space end exponent minus n over 2 space minus space n squared end cell row blank equals cell 1 half n to the power of 2 space end exponent minus n over 2 end cell end table`
+> * *$\begin{gathered} \frac{3}{2} n^{2 } - \frac{n}{2} - n^{2} \\ = 1 \frac{1}{2} n^{2 } - \frac{n}{2} \end{gathered}$
 
 $\frac{1}{2}(n^{2}-n)$* ***[1]**
 > *The values of **a **and **b** can be found by substituting terms in from the table and solving the equations.   *
 *Substitute the terms in from diagram 1 (**n **= 1, **T **= 1), call this equation (1). *
 
-`table row cell n space end cell equals cell space 1 comma space T space equals space 1 end cell row cell 1 space end cell equals cell space a open parentheses 1 close parentheses to the power of 3 space end exponent plus space b open parentheses 1 close parentheses squared end cell row cell 1 space end cell equals cell space a space plus space b end cell end table`
+$\begin{gathered} n & = 1 , T = 1 \\ 1 & = a ( 1 )^{3 } + b ( 1 )^{2} \\ 1 & = a + b \end{gathered}$
 
 **[1]**
 
 > *Substitute the terms in from diagram 2 (**n **= 2, **T **= 1 + 5 = 6), call this equation (2). *
 
-`table row cell n space end cell equals cell space 2 comma space T space equals space 6 end cell row cell 6 space end cell equals cell space a open parentheses 2 close parentheses to the power of 3 space end exponent plus space b open parentheses 2 close parentheses squared end cell row cell 6 space end cell equals cell space 8 a space plus space 4 b end cell end table`
+$\begin{gathered} n & = 2 , T = 6 \\ 6 & = a ( 2 )^{3 } + b ( 2 )^{2} \\ 6 & = 8 a + 4 b \end{gathered}$
 
 **[1]**
 
 > *Simplify the second equation by dividing by the common factor.*
 
-`table row cell 3 space end cell equals cell space 4 a space plus space 2 b end cell end table`
+$\begin{gathered} 3 & = 4 a + 2 b \end{gathered}$
 
 > *Write the two equations out next to each other and number them clearly.*
 
-> `table row cell a space plus space b space end cell equals cell space 1 space space space space space space space space space space open parentheses 1 close parentheses end cell row cell 4 a space plus space 2 b space end cell equals cell space 3 space space space space space space space space space space open parentheses 2 close parentheses end cell end table`*  *
+> $\begin{gathered} a + b & = 1 ( 1 ) \\ 4 a + 2 b & = 3 ( 2 ) \end{gathered}$*  *
 
 > *Make the *$b$* terms equal by multiplying all parts of equation (1) by 2.*
 
-`table row cell 2 a space plus space 2 b space end cell equals cell space 2 space space space space space space space space space space open parentheses 3 close parentheses end cell row cell 4 a space plus space 2 b space end cell equals cell space 3 space space space space space space space space space space open parentheses 2 close parentheses end cell end table`
+$\begin{gathered} 2 a + 2 b & = 2 ( 3 ) \\ 4 a + 2 b & = 3 ( 2 ) \end{gathered}$
 
 > *Eliminate the *$b$* terms by subtracting equation (3) from equation (2). Be careful to subtract every term.*
 
-`4 a space plus space 2 b space equals space 3 space space space space space space space space space space open parentheses 2 close parentheses
-bottom enclose negative space space open parentheses 2 a space plus space 2 b space equals space 2 close parentheses end enclose space space space space space space space space space open parentheses 3 close parentheses
-2 a space space space space space space space space space space space space equals space 1 space space space space space space space space space space space space space space space space`
+`4 a + 2 b = 3 ( 2 ) bottom - ( 2 a + 2 b = 2 ) ( 3 ) 2 a = 1`
 
 **[1]**
 
 > *Solve the equation to find** *$a$*  **by dividing both sides by 2.*
 
-`table row cell a space end cell equals cell 1 half space end cell end table`
+$\begin{gathered} a & = 1 \frac{1}{2} \end{gathered}$
 
 **[1]**
 
 > *Substitute *$a=\frac{1}{2}$* into either of the two original equations**.*
 
-`table row cell open parentheses 1 close parentheses space space space space space a space plus space b space end cell equals cell space 1 space end cell row cell open parentheses 1 half close parentheses space plus space b space end cell equals cell space 1 end cell end table`
+$\begin{gathered} ( 1 ) a + b & = 1 \\ ( 1 \frac{1}{2} ) + b & = 1 \end{gathered}$
 
 > *Solve this equation to find** *$b$*.*
 
-`table row cell b space end cell equals cell space 1 space minus space 1 half end cell row blank equals cell 1 half end cell end table`
+$\begin{gathered} b & = 1 - 1 \frac{1}{2} \\ = 1 \frac{1}{2} \end{gathered}$
 
 $a=\frac{1}{2},b=\frac{1}{2}$* ***[1]**
 
@@ -420,7 +418,7 @@ $n^{3}+2=3,10,29,66...$
 
 > *Find the 5th term** **by substituting **n **= 5 into the **n**th term **n*<sup>*3 *</sup>*+ 2. *
 
-`open parentheses 5 close parentheses cubed space plus space 2 space equals space 125 space plus space 2 space equals space 127`
+$( 5 )^{3} + 2 = 125 + 2 = 127$
 
 **[1]**
 
@@ -434,13 +432,13 @@ $8,16,32,64$
 *4*<sup>*2 *</sup>*= 16 = 4*<sup>*3 - 1 *</sup>
 *4*<sup>*3 *</sup>*= 64 = 4*<sup>*4 - 1*</sup>
 
-*The ***n***th term is *`4 to the power of open parentheses n minus 1 close parentheses end exponent`
+*The ***n***th term is *$4^{( n - 1 )}$
 
 **  ****1 mark for 4**<sup>**k**</sup>**, 1 mark for 4**<sup>**(n - 1)**</sup>**  ****[2]**
 
 > *Find the 5th term for sequence **C** by substituting 5 into the **n**th term, or by continuing the sequence and multiplying 64 by 4.*
 
-`4 to the power of open parentheses 5 space minus space 1 close parentheses space end exponent equals space 4 to the power of 4 space equals space 256`
+$4^{( 5 - 1 ) } = 4^{4} = 256$
 
 ** [1]**
 
@@ -587,14 +585,14 @@ $b=-27$* ***[1]**
 
 > *To find *$a$* we need to "undo" the −2. So add 2 to 13*
 
-`table row cell a minus 2 end cell equals 13 row a equals cell 13 plus 2 end cell end table`
+$\begin{gathered} a - 2 & = 13 \\ a = 13 + 2 \end{gathered}$
 
 $a=15$** [1]**
 
 ### Q13
 i) *Substitute *$n=2$* into the formula for the **n**th term.*
 
-`4 open parentheses 2 close parentheses squared plus 2 plus 3`
+$4 ( 2 )^{2} + 2 + 3$
 
 **The 2nd term is 21** **[1]**
 
@@ -616,7 +614,7 @@ $a=4,b=1,c=-495$
 
 > *Substitute the values into the formula. Put brackets around negative values.*
 
-`n equals fraction numerator negative left parenthesis 1 right parenthesis plus-or-minus square root of open parentheses 1 close parentheses squared minus 4 left parenthesis 4 right parenthesis left parenthesis negative 495 right parenthesis end root over denominator 2 left parenthesis 4 right parenthesis end fraction`
+$n = \frac{- ( 1 ) \pm \sqrt{( 1 )^{2} - 4 ( 4 ) ( - 495 )} }{2 ( 4 )}$
 
 **[1]**
 
@@ -669,7 +667,7 @@ ii) *Write the value of **n** for each term.*
 $n+3$** [1]**
 > *Set the expression for the **n**th term equal to 576.*
 
-`open parentheses n minus 1 close parentheses squared equals 576`
+$( n - 1 )^{2} = 576$
 
 **[1]**
 
@@ -692,11 +690,11 @@ i) *Compare the terms between the 3 sequences. Notice that the terms in sequence
 
 > *Therefore the **n**th term for sequence **C** can be found by subtracting the **n**th term for sequence **B **from the **n**th term for sequence **A**.*
 
-`open parentheses n minus 1 close parentheses squared minus open parentheses n plus 3 close parentheses`
+$( n - 1 )^{2} - ( n + 3 )$
 
 **[1]**
 
-> *Expand by using *`open parentheses n minus 1 close parentheses open parentheses n minus 1 close parentheses`*.*
+> *Expand by using *$( n - 1 ) ( n - 1 )$*.*
 
 $n^{2}-n-n+1-n-3$
 
@@ -708,7 +706,7 @@ $n^{2}-3n-2$** ****[1]**
 
 ii) *n** = 30 for the 30th term. Substitute this into the expression for the **n**th term.*
 
-`open parentheses 30 close parentheses squared minus 3 open parentheses 30 close parentheses minus 2`
+$( 30 )^{2} - 3 ( 30 ) - 2$
 
 **[1]**
 

@@ -36,9 +36,9 @@ Obtain an expression from the ideal gas equation to calculate the volume of the 
   - Where, $N$ and $k$ are constants in this question
 - So, $\frac{pV}{T}=constant$
 - Hence, $\frac{p_{1}V_{1}}{T_{1}}=\frac{p_{2}V_{2}}{T_{2}}$
-- `fraction numerator open parentheses 1.02 space cross times space 10 to the power of 5 close parentheses space cross times space open parentheses 7.5 close parentheses over denominator 295.5 end fraction space equals space 2588.8`
-- `2588.8 space equals space fraction numerator open parentheses 8.4 space cross times space 10 to the power of 4 close parentheses space cross times space V subscript 2 over denominator 225 end fraction`** [1 mark]**
-- `V subscript 2 space equals space fraction numerator 2588.8 space cross times space 225 over denominator open parentheses 8.4 space cross times space 10 to the power of 4 close parentheses end fraction`
+- $\frac{( 1.02 \times 10^{5} ) \times ( 7.5 )}{295.5} = 2588.8$
+- $2588.8 = \frac{( 8.4 \times 10^{4} ) \times V_{2} }{225}$** [1 mark]**
+- $V_{2} = \frac{2588.8 \times 225}{( 8.4 \times 10^{4} )}$
 - $V_{2}=6.93m^{3}$ **[1 mark]**
 
 **[Total: 3 marks]**
@@ -57,12 +57,12 @@ List the known quantities:
 
 From the data booklet:
 
-- Molecular kinetic theory: `1 half m open angle brackets c squared close angle brackets space equals space 3 over 2 k T`
+- Molecular kinetic theory: $1 \frac{1}{2} m ( \text{angle} \text{brackets} c^{2} ) \text{angle} \text{brackets} = \frac{3}{2} k T$
 - Boltzmann constant, $k$ = 1.38 × 10<sup>−23</sup> J K<sup>−1</sup>
 
 Substitute the known quantities into the equation to calculate the decrease in mean kinetic energy:
 
-- `straight capital delta open angle brackets K E close angle brackets space equals space 3 over 2 k straight capital delta T space equals space 3 over 2 space cross times space open parentheses 1.38 space cross times space 10 to the power of negative 23 end exponent close parentheses space cross times space open parentheses 295.5 space minus space 225 close parentheses space` **[1 mark]**
+- `capital delta < K E > = 3 / 2 k capital delta T = 3 / 2 x ( 1.38 x 10 ^ - 23 ) x ( 295.5 - 225 )` **[1 mark]**
 - Decrease in mean KE = 1.46 × 10<sup>−21</sup> J **[1 mark]**
 
 **[Total: 2 marks]**
@@ -82,7 +82,7 @@ List the known quantities:
 Rearrange the ideal gas equation to find the number of molecules, *N*:
 
 - $pV=NkT\RightarrowN=\frac{pV}{kT}$
-- `N space equals space fraction numerator open parentheses 1.01 space cross times space 10 to the power of 5 close parentheses space cross times space 0.0241 over denominator open parentheses 1.38 space cross times space 10 to the power of negative 23 end exponent close parentheses space cross times space 293 end fraction space` **[1 mark]**
+- $N = \frac{( 1.01 \times 10^{5 ) \times 0.0241}{( 1.38 \times 10^{-23} } ) \times 293}$ **[1 mark]**
 - $N=6.02\times10^{23}$ **[1 mark]**
 
 **[Total: 3 marks]**
@@ -147,7 +147,7 @@ List the known quantities:
 Rearrange the ideal gas equation:
 
 - $pV=NkT$
-- `N space equals space fraction numerator p V over denominator k T end fraction space equals space fraction numerator open parentheses 1.05 space cross times space 10 to the power of 5 close parentheses space cross times space open parentheses 2.43 space cross times space 10 to the power of negative 3 end exponent close parentheses over denominator open parentheses 1.38 space cross times space 10 to the power of negative 23 end exponent close parentheses space cross times space 293 end fraction` **[1 mark]**
+- $N = \frac{p V}{k T} = \frac{( 1.05 \times 10^{5 ) \times ( 2.43 \times 10^{-3} } )}{( 1.38 \times 10^{- 23} ) \times 293}$ **[1 mark]**
 - $N=6.31\times10^{22}$ **[1 mark]**
 
 **[Total: 2 marks]**
@@ -176,7 +176,7 @@ Rearrange the ideal gas equation:
 
 $\frac{NkT}{V}=p$
 
-`fraction numerator N k open parentheses 2 T close parentheses over denominator open parentheses V over 2 close parentheses end fraction space equals space 4 p`
+$\frac{N k ( 2 T ) }{ ( \frac{V}{2} ) } = 4 p$
 
 ## Q5 — medium — 1 marks · multiple-choice-questions
 
@@ -185,17 +185,17 @@ $\frac{NkT}{V}=p$
 
 **Final answer:** **The correct answer is ****C**** because:**
 
-- Mean square speed is related to temperature in the equation `1 half m open angle brackets c squared close angle brackets space equals space 3 over 2 k T`
+- Mean square speed is related to temperature in the equation $1 \frac{1}{2} m ( \text{angle} \text{brackets} c^{2} ) \text{angle} \text{brackets} = \frac{3}{2} k T$
 
-  - Mass of a particle is constant, so `open angle brackets c squared close angle brackets space proportional to space T`
+  - Mass of a particle is constant, so `< c ^2 > prop T`
 - Temperature is related to pressure by $pV=NkT$
 
   - Volume and number of molecules are both constant, as the container is closed and rigid
   - $p\proptoT$
-- This means that `open angle brackets c squared close angle brackets space proportional to space p`
+- This means that `< c ^2 > prop p`
 
   - If pressure multiplies by 4, so does mean square speed
-- `fraction numerator open angle brackets v subscript F squared close angle brackets over denominator open angle brackets v subscript 1 squared close angle brackets end fraction space equals space 4`
+- $\frac{( \text{angle} \text{brackets} v_{F}^{2} ) \text{angle} brackets}{( \text{angle} \text{brackets} v_{1}^{2} ) \text{angle} brackets} = 4$
 
 ## Q6 — easy — 1 marks · multiple-choice-questions
 
@@ -240,7 +240,7 @@ To deduce whether the plasma in the solar corona behaves as an ideal gas:
 
 $E_{k}=\frac{3}{2}kT$
 
-`E subscript k space equals space 3 over 2 cross times open parentheses 1.38 cross times 10 to the power of negative 23 end exponent close parentheses cross times open parentheses 2.0 cross times 10 to the power of 6 close parentheses`
+$E_{k} = \frac{3}{2} \times ( 1.38 \times 10^{- 23} ) \times ( 2.0 \times 10^{6} )$
 
 $E_{k}=4.1\times10^{-17}\text{J}$ **[1 mark]**
 
@@ -250,7 +250,7 @@ $E_{k}=4.1\times10^{-17}\text{J}$ **[1 mark]**
 
 Volume per particle: $\frac{1}{n}=\frac{1}{1.1\times10^{15}}$
 
-`r space almost equal to space cube root of 1 over n end root space almost equal to space cube root of fraction numerator 1 over denominator 1.1 cross times 10 to the power of 15 end fraction end root`
+`r ~= cbrt( 1 / n ) ~= cbrt( (1)/(1.1 x 10 ^ 15) )`
 
 $r\approx9.7\times10^{-6}\text{m}$ **[1 mark]**
 
@@ -260,16 +260,16 @@ $E_{p}=VQ=\frac{Q_{1}Q_{2}}{4πϵ_{0}r}$
 
 $E_{p}=\frac{1}{4πϵ_{0}}\frac{e^{2}}{r}$
 
-`E subscript p space equals space fraction numerator open parentheses 1.60 cross times 10 to the power of negative 19 end exponent close parentheses squared over denominator 4 straight pi cross times open parentheses 8.85 cross times 10 to the power of negative 12 end exponent close parentheses cross times open parentheses 9.7 cross times 10 to the power of negative 6 end exponent close parentheses end fraction`
+$E_{p} = \frac{( 1.60 \times 10^{- 19} )^{2}}{4 \mathrm{\pi } \times ( 8.85 \times 10^{- 12} ) \times ( 9.7 \times 10^{- 6} )}$
 
 $E_{p}=2.4\times10^{-23}\text{J}$ **[1 mark]**
 
 - Write a concluding statement:
 
-`4.1 cross times 10 to the power of negative 17 end exponent   text J end text much greater-than 2.4 cross times 10 to the power of negative 23 end exponent   text J end text`, so the mean thermal kinetic energy is about $10^{6}$ times greater than the average electric potential energy. Therefore, the plasma **does** behave as an ideal gas **[1 mark]**
+$4.1 \times 10^{- 17}   \text{J} \text{much} greater-than 2.4 \times 10^{- 23}   \text{J}$, so the mean thermal kinetic energy is about $10^{6}$ times greater than the average electric potential energy. Therefore, the plasma **does** behave as an ideal gas **[1 mark]**
 
 > **[mark-scheme]**
-> 1 mark for use of `1 half m open angle brackets c squared close angle brackets equals 3 over 2 k T` to find the mean thermal kinetic energy `open parentheses 4.1 cross times 10 to the power of negative 17 end exponent   text J end text close parentheses`
+> 1 mark for use of $1 \frac{1}{2} m ( \text{angle} \text{brackets} c^{2} ) \text{angle} \text{brackets} = \frac{3}{2} k T$ to find the mean thermal kinetic energy $( 4.1 \times 10^{- 17}   \text{J} )$
 > 
 > 1 mark for estimating the average particle separation from the number density
 > 

@@ -992,15 +992,15 @@ iii) To calculate the value of the rate constant:
 
 - Rearrange for *k* and substitute values from run 1:
 
-*k* = `fraction numerator rate space over denominator left square bracket BHET right square bracket left square bracket OH to the power of minus right square bracket end fraction`
+*k* = $\frac{ \text{rate} }{[ BHET ] [ OH^{ - } ]}$
 
-*k* = `fraction numerator 8.0 cross times 10 to the power of negative 6 end exponent over denominator open square brackets 0.020 close square brackets open square brackets 0.10 close square brackets end fraction` **[1 mark]**
+*k* = $\frac{8.0 \times 10^{- 6} }{[ 0.020 ] [ 0.10 ]}$ **[1 mark]**
 
 *k* = **4.0 x 10**<sup>**-3**</sup> **[1 mark]**
 
 - Derive the units of *k* from rate / ([BHET][OH<sup>-</sup>]):
 
-units of *k* = `fraction numerator mol space dm to the power of negative 3 end exponent space straight s to the power of negative 1 end exponent over denominator open square brackets mol space dm to the power of negative 3 end exponent close square brackets open square brackets mol space dm to the power of negative 3 end exponent close square brackets space end fraction`
+units of *k* = $\frac{mol dm^{- 3} \mathrm{s}^{- 1} }{[ \text{mol} dm^{- 3} ] [ \text{mol} dm^{- 3} ] }$
 
 units of *k* = **mol**<sup>**-1**</sup>** dm**<sup>**3**</sup>** s**<sup>**-1**</sup> **[1 mark]**
 
@@ -1037,7 +1037,7 @@ To calculate the activation energy E<sub>a</sub> for the alkaline hydrolysis of 
 
 - Calculate the natural log of the ratio of rate constants:
 
-ln`open parentheses fraction numerator 8.0 cross times 10 to the power of negative 3 end exponent over denominator 1.0 cross times 10 to the power of negative 3 end exponent end fraction close parentheses` = ln(8.0) = 2.08 **[1 mark]**
+ln$( \frac{8.0 \times 10^{- 3} }{1.0 \times 10^{- 3} } )$ = ln(8.0) = 2.08 **[1 mark]**
 
 - Calculate the temperature term:
 
@@ -1092,9 +1092,9 @@ To estimate *k* at 298 K, apply the two-point Arrhenius equation, taking the dat
 
 `\ln\left(\frac{k_{298}}{k_{333}}\right) = -\frac{70000}{8.31} \times (3.356 - 3.003) \times 10^{-3}`
 
-`ln open parentheses k subscript 298 over k subscript 333 close parentheses` = -8424 x 3.53 x 10<sup>-4</sup>
+$ln ( \frac{k_{298}}{k_{333}} )$ = -8424 x 3.53 x 10<sup>-4</sup>
 
-`ln open parentheses k subscript 298 over k subscript 333 close parentheses` = -2.97
+$ln ( \frac{k_{298}}{k_{333}} )$ = -2.97
 
 - Solve for *k*<sub>298</sub> by exponentiating:
 

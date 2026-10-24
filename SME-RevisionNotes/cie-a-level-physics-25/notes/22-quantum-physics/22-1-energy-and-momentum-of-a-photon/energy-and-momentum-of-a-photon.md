@@ -71,7 +71,7 @@ $E=\frac{hc}{λ}$
 > 
 > **Step 3: Calculate the energy of one photon**
 > 
-> `E space equals space fraction numerator open parentheses 6.63 space cross times space 10 to the power of negative 34 end exponent close parentheses space cross times space open parentheses 3.0 space cross times space 10 to the power of 8 close parentheses space over denominator 490 space cross times space 10 to the power of negative 9 end exponent end fraction space equals space 4.06 space cross times space 10 to the power of negative 19 end exponent space straight J`
+> $E = \frac{( 6.63 \times 10^{- 34} ) \times ( 3.0 \times 10^{8 ) }{490 \times 10^{-9} } } = 4.06 \times 10^{- 19} \mathrm{J}$
 > 
 > **Step 4: Calculate the number of photons hitting the surface every second**
 > 
@@ -79,7 +79,7 @@ $E=\frac{hc}{λ}$
 > 
 > **Step 5: Calculate the number of photons that hit the surface in 2 s**
 > 
-> `open parentheses 8.9 space cross times space 10 to the power of 15 close parentheses space cross times space 2 space equals space 1.8 space cross times space 10 to the power of 16`
+> $( 8.9 \times 10^{15} ) \times 2 = 1.8 \times 10^{16}$
 
 > **Exam Hint**
 > The values of Planck’s constant and the speed of light are both given on your data sheet, however, it helps to memorise them to speed up calculation questions.
@@ -122,11 +122,11 @@ $p=\frac{E}{c}$
 > 
 > **Step 3:** **Calculate the photon momentum**
 > 
-> `p space equals space fraction numerator space h f over denominator c end fraction space equals space fraction numerator open parentheses 6.63 space cross times space 10 to the power of negative 34 end exponent close parentheses space cross times space open parentheses 5.6 space cross times space 10 to the power of 14 close parentheses space over denominator 3.0 space cross times space 10 to the power of 8 end fraction space equals space 1.24 space cross times space 10 to the power of negative 27 end exponent space straight N space straight s`
+> $p = \frac{ h f}{c} = \frac{( 6.63 \times 10^{- 34} ) \times ( 5.6 \times 10^{14 ) }{3.0 \times 10^{8} } = 1.24 \times 10^{-27} } \mathrm{N} \mathrm{s}$
 > 
 > **Step 4: Calculate the number of photons incident on the plate every second**
 > 
-> `fraction numerator P o w e r space o f space l i g h t space s o u r c e space over denominator E n e r g y space o f space o n e space p h o t o n end fraction space equals space fraction numerator 5.0 space cross times space 10 to the power of negative 3 end exponent space over denominator h f end fraction space equals space fraction numerator 5.0 space cross times space 10 to the power of negative 3 end exponent space over denominator open parentheses 6.63 space cross times space 10 to the power of negative 34 end exponent close parentheses space cross times space open parentheses 5.6 space cross times space 10 to the power of 14 close parentheses end fraction space equals space 1.35 space cross times space 10 to the power of 16 space straight s to the power of negative 1 end exponent`
+> $\frac{P o w e r o f l i g h t s o u r c e }{E n e r g y o f o n e p h o t o n} = \frac{5.0 \times 10^{- 3} }{h f} = \frac{5.0 \times 10^{- 3} }{( 6.63 \times 10^{- 34} ) \times ( 5.6 \times 10^{14 )} = 1.35 \times 10^{16} \mathrm{s}^{-1} }$
 > 
 > **Step 5: Calculate the force exerted on the plate in a 1.0 s time interval**
 > 

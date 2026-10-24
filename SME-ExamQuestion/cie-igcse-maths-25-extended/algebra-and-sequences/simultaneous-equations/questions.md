@@ -44,7 +44,7 @@ Leave your answers to 2 decimal places.
 Solve the simultaneous equations. 
 You must show all your working.
 
-`table attributes columnalign right center left columnspacing 0px end attributes row x equals cell 7 minus 3 y end cell row cell x squared minus y squared end cell equals 39 end table`
+$\begin{array}{rcl} x = 7 - 3 y \\ x^{2} - y^{2} & = 39 \end{array}$
 
 $x=$ .................... $y=$ .................... 
 $x=$ .................... $y=$ ....................
@@ -95,7 +95,7 @@ $\frac{1}{2}x-3y=9\,5x+y=28$
 
 Solve the simultaneous equations
 
-`table row cell 7 x space – space 2 y space end cell equals cell space 34 space end cell row cell 3 x space plus space 5 y space end cell equals cell space minus 3 end cell end table`
+$\begin{gathered} 7 x - 2 y & = 34 \\ 3 x + 5 y & = - 3 \end{gathered}$
 
 Show clear algebraic working.
 
@@ -110,7 +110,7 @@ $y=$.............................................
 
 **Q8** [7 marks]
 
-The graphs of `space y equals open parentheses x minus 1 close parentheses squared space` and $y=\frac{1}{2}x+1$ intersect at *A* and *B*.   Find the length of *AB*.
+The graphs of $y = ( x - 1 )^{2}$ and $y=\frac{1}{2}x+1$ intersect at *A* and *B*.   Find the length of *AB*.
 
 *AB* = ................................................
 
@@ -124,7 +124,7 @@ The graphs of `space y equals open parentheses x minus 1 close parentheses squar
 Solve the simultaneous equations. 
 You must show all your working.
 
-`table row y equals cell 4 minus x end cell row cell x squared plus 2 y squared end cell equals 67 end table`
+$\begin{gathered} y = 4 - x \\ x^{2} + 2 y^{2} & = 67 \end{gathered}$
 
 $x=$.................... , $y=$....................  
 $x=$.................... , $y=$....................
@@ -208,7 +208,7 @@ $a=$.........................................
 
 Solve the simultaneous equations
 
-`table row cell 5 a space plus space 2 c space end cell equals cell space 10 space end cell row cell 2 a space – space 4 c space end cell equals cell space 7 end cell end table`
+$\begin{gathered} 5 a + 2 c & = 10 \\ 2 a - 4 c & = 7 \end{gathered}$
 
 Show clear algebraic working.
 
@@ -224,11 +224,11 @@ $a=$ .......................................................
 
 Solve the simultaneous equations
 
-`table row cell 2 x space plus space 7 y space end cell equals cell space 17 space end cell row cell 5 x space plus space 3 y space end cell equals cell space – 1 end cell end table`
+$\begin{gathered} 2 x + 7 y & = 17 \\ 5 x + 3 y & = - 1 \end{gathered}$
 
 Show clear algebraic working.
 
-`table row cell x space end cell equals cell space.................................. end cell row cell y space end cell equals cell space.................................. space end cell end table`
+$\begin{gathered} x & = .................................. \\ y & = .................................. \end{gathered}$
 
 *Source: Jan 2021 4MA1/2HR Q12*
 

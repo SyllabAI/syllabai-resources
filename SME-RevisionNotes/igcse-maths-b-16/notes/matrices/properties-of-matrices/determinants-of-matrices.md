@@ -23,7 +23,7 @@ guided_study: false
 
   - It is used to find the **inverse** of a matrix
 - You can only find the determinant of a ***square**** matrix*
-- For a $2\times2$ matrix `open parentheses table row a b row c d end table close parentheses`
+- For a $2\times2$ matrix $( \begin{gathered} a b \\ c d \end{gathered} )$
 
   - The determinant is equal to $ad-bc$
 
@@ -35,26 +35,26 @@ guided_study: false
 - The notation $\mathrm{det}$ is sometimes used to indicate the determinant
 
   - So $\mathrm{det}A$ refers to the determinant of matrix $A$
-  - E.g. if `A equals open parentheses table row 3 4 row cell negative 2 end cell cell negative 1 end cell end table close parentheses`
+  - E.g. if $A = ( \begin{gathered} 3 4 \\ - 2 & - 1 \end{gathered} )$
   
-    - then `det bold A equals 3 cross times open parentheses negative 1 close parentheses minus 4 cross times open parentheses negative 2 close parentheses equals negative 3 minus open parentheses negative 8 close parentheses equals 5`
+    - then $\det A = 3 \times ( - 1 ) - 4 \times ( - 2 ) = - 3 - ( - 8 ) = 5$
 
 > **Worked Example**
 > $A$ and $B$ are two matrices such that the determinant of $A$ is equal to the determinant of $B$.
 > 
-> Given that `bold A equals open parentheses table row cell square root of p end cell cell negative 1 end cell row 3 cell negative 7 end cell end table close parentheses` and `bold B equals open parentheses table row 2 4 row 5 1 end table close parentheses`, where $p$ is a positive integer, find the value of $p$.
+> Given that $A = ( \begin{gathered} \sqrt{p} & - 1 \\ 3 - 7 \end{gathered} )$ and $B = ( \begin{gathered} 2 4 \\ 5 1 \end{gathered} )$, where $p$ is a positive integer, find the value of $p$.
 > 
 > **Answer:**
 > 
-> > *Use *`det open parentheses table row a b row c d end table close parentheses equals a d minus b c`* to find the determinants of the two matrices*
+> > *Use *$\det ( \begin{gathered} a b \\ c d \end{gathered} ) = a d - b c$* to find the determinants of the two matrices*
 > 
-> `det bold A equals square root of p cross times open parentheses negative 7 close parentheses minus open parentheses negative 1 close parentheses cross times 3 equals 3 minus 7 square root of p`
+> $\det A = \sqrt{p} \times ( - 7 ) - ( - 1 ) \times 3 = 3 - 7 \sqrt{p}$
 > 
 > $\mathrm{det}B=2\times1-4\times5=-18$
 > 
 > > *Set the two determinants equal and solve for *$p$
 > 
-> `table row cell negative 18 end cell equals cell 3 minus 7 square root of p end cell row cell 7 square root of p end cell equals cell 3 plus 18 end cell row cell 7 square root of p end cell equals 21 row cell square root of p end cell equals 3 end table`
+> $\begin{gathered} - 18 & = 3 - 7 \sqrt{p} \\ 7 \sqrt{p} & = 3 + 18 \\ 7 \sqrt{p} & = 21 \\ \sqrt{p} & = 3 \end{gathered}$
 > 
 > $p=3^{2}=9$
 > 

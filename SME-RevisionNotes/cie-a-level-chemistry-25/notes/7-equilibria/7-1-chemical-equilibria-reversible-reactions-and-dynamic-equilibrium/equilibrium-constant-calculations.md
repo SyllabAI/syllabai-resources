@@ -53,7 +53,7 @@ $\mathrm{concentration}(\mathrm{mol} \mathrm{dm}^{-3})=\frac{\mathrm{number} \ma
 > 
 > - **Step 3: **Write the equilibrium constant for this reaction in terms of concentration:
 > 
-> *K*<sub>c</sub> = `fraction numerator open square brackets straight H subscript 2 straight O close square brackets space open square brackets CH subscript 3 COOC subscript 2 straight H subscript 5 close square brackets over denominator open square brackets straight C subscript 2 straight H subscript 5 OH close square brackets space open square brackets CH subscript 3 COOH close square brackets end fraction`
+> *K*<sub>c</sub> = $\frac{[ \mathrm{H}_{2} \mathrm{O} ] [ CH_{3} COOC_{2} \mathrm{H}_{5} ]}{[ \mathrm{C}_{2} \mathrm{H}_{5} \text{OH} ] [ CH_{3} \text{COOH} ]}$
 > 
 > - **Step 4: **Substitute the equilibrium concentrations into the expression:
 > 
@@ -63,7 +63,7 @@ $\mathrm{concentration}(\mathrm{mol} \mathrm{dm}^{-3})=\frac{\mathrm{number} \ma
 > 
 > - **Step 5: **Deduce the correct units for *K*<sub>c</sub>:
 > 
-> *K*<sub>c</sub> = `fraction numerator open parentheses mol space dm to the power of negative 3 end exponent close parentheses space open parentheses mol space dm to the power of negative 3 end exponent close parentheses over denominator open parentheses mol space dm to the power of negative 3 end exponent close parentheses space open parentheses mol space dm to the power of negative 3 end exponent close parentheses end fraction`
+> *K*<sub>c</sub> = $\frac{( \text{mol} dm^{- 3} ) ( \text{mol} dm^{- 3} )}{( \text{mol} dm^{- 3} ) ( \text{mol} dm^{- 3} )}$
 > 
 > All units cancel out
 > 
@@ -124,7 +124,7 @@ $\mathrm{concentration}(\mathrm{mol} \mathrm{dm}^{-3})=\frac{\mathrm{number} \ma
 > 
 > - **Step 3**: Write the equilibrium constant for this reaction in terms of concentration:
 > 
-> *K*<sub>*c*</sub>* *= `fraction numerator stretchy left square bracket straight C subscript 2 straight H subscript 5 OH stretchy right square bracket stretchy left square bracket CH subscript 3 COOH stretchy right square bracket over denominator stretchy left square bracket straight H subscript 2 O stretchy right square bracket stretchy left square bracket CH subscript 3 COOC subscript 2 straight H subscript 5 stretchy right square bracket end fraction`
+> *K*<sub>*c*</sub>* *= $\frac{[ \mathrm{C}_{2} \mathrm{H}_{5} \text{OH} ] [ CH_{3} \text{COOH} ]}{[ \mathrm{H}_{2} O ] [ CH_{3} COOC_{2} \mathrm{H}_{5} ]}$
 > 
 > - **Step 4:** Substitute the equilibrium concentrations into the expression:
 > 
@@ -132,7 +132,7 @@ $\mathrm{concentration}(\mathrm{mol} \mathrm{dm}^{-3})=\frac{\mathrm{number} \ma
 > 
 > - **Step 5: **Deduce the correct units for *K*<sub>c</sub>:
 > 
-> *K*<sub>*c*</sub>* *= `fraction numerator stretchy left square bracket straight C subscript 2 straight H subscript 5 OH stretchy right square bracket stretchy left square bracket CH subscript 3 COOH stretchy right square bracket over denominator stretchy left square bracket straight H subscript 2 O stretchy right square bracket stretchy left square bracket CH subscript 3 COOC subscript 2 straight H subscript 5 stretchy right square bracket end fraction`
+> *K*<sub>*c*</sub>* *= $\frac{[ \mathrm{C}_{2} \mathrm{H}_{5} \text{OH} ] [ CH_{3} \text{COOH} ]}{[ \mathrm{H}_{2} O ] [ CH_{3} COOC_{2} \mathrm{H}_{5} ]}$
 > 
 > All units cancel out
 > 
@@ -164,7 +164,7 @@ $\mathrm{concentration}(\mathrm{mol} \mathrm{dm}^{-3})=\frac{\mathrm{number} \ma
 > 
 > - **Step 2: **Substitute the equilibrium concentrations into the expression:
 > 
-> *K*<sub>p</sub> = `fraction numerator open parentheses 8.0 cross times 10 to the power of 6 close parentheses squared over denominator open parentheses 1.0 cross times 10 to the power of 6 close parentheses squared cross times open parentheses 7.0 cross times 10 to the power of 6 close parentheses end fraction`
+> *K*<sub>p</sub> = $\frac{( 8.0 \times 10^{6} )^{2}}{( 1.0 \times 10^{6} )^{2} \times ( 7.0 \times 10^{6} )}$
 > 
 > *K*<sub>p</sub> = 9.1 x 10<sup>–6</sup>
 > 

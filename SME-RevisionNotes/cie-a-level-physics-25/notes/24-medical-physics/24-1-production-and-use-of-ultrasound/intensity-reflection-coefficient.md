@@ -20,7 +20,7 @@ guided_study: true
 - The intensity reflection coefficient α is defined as: **The ratio of the intensity of the reflected wave relative to the incident (transmitted) wave**
 - This can be calculated using the fraction:
 
-`alpha space equals space fraction numerator I subscript R space over denominator I subscript 0 end fraction space equals space fraction numerator open parentheses Z subscript 2 space minus space Z subscript 1 close parentheses squared space over denominator open parentheses Z subscript 2 space plus thin space Z subscript 1 close parentheses squared end fraction`
+$\\alpha = \frac{I_{R} }{I_{0} } = \frac{( Z_{2} - Z_{1} )^{2} }{( Z_{2} + Z_{1} )^{2}}$
 
 - Where:
 
@@ -83,7 +83,7 @@ guided_study: true
 > 
 > **Step 1: Write down the equation for intensity reflection coefficient α**
 > 
-> `alpha space equals space fraction numerator open parentheses Z subscript 2 space minus space Z subscript 1 close parentheses squared space over denominator open parentheses Z subscript 2 space plus thin space Z subscript 1 close parentheses squared end fraction`
+> $\\alpha = \frac{( Z_{2} - Z_{1} )^{2} }{( Z_{2} + Z_{1} )^{2}}$
 > 
 > **Step 2: Write down the acoustic impedances for gel and soft tissue**
 > 
@@ -92,7 +92,7 @@ guided_study: true
 > 
 > **Step 3: Calculate the intensity reflection coefficient**
 > 
-> `alpha space equals space fraction numerator open parentheses 1.6 space cross times space 10 to the power of 6 space minus space 1.5 space cross times space 10 to the power of 6 close parentheses squared space over denominator open parentheses 1.6 space cross times space 10 to the power of 6 space plus space 1.5 space cross times space 10 to the power of 6 close parentheses squared end fraction space equals space fraction numerator open parentheses 0.1 close parentheses squared space over denominator open parentheses 3.1 close parentheses squared end fraction space equals space 0.001`
+> $\\alpha = \frac{( 1.6 \times 10^{6} - 1.5 \times 10^{6} )^{2} }{( 1.6 \times 10^{6} + 1.5 \times 10^{6} )^{2}} = \frac{( 0.1 )^{2} }{( 3.1 )^{2}} = 0.001$
 > 
 > - This result means that only **0.1%** of the incident intensity will be reflected, with the remaining being transmitted
 > 
@@ -105,7 +105,7 @@ guided_study: true
 > 
 > **Step 2:** **Calculate the intensity reflection coefficient**
 > 
-> `alpha space equals space fraction numerator open parentheses 1.6 space cross times space 10 to the power of 6 space minus space 4.3 space cross times space 10 squared close parentheses squared space over denominator open parentheses 1.6 space cross times 10 to the power of 6 space plus thin space 4.3 space cross times space 10 squared close parentheses squared end fraction space almost equal to space fraction numerator open parentheses 1.6 space cross times space 10 to the power of 6 close parentheses squared space over denominator open parentheses 1.6 space cross times space 10 to the power of 6 close parentheses squared end fraction space almost equal to space 1`
+> $\\alpha = \frac{( 1.6 \times 10^{6} - 4.3 \times 10^{2} )^{2} }{( 1.6 \times 10^{6} + 4.3 \times 10^{2} )^{2}} \approx \frac{( 1.6 \times 10^{6} )^{2} }{( 1.6 \times 10^{6} )^{2}} \approx 1$
 > 
 > - This result means that **100%** of the incident intensity will be reflected, with none being transmitted
 > 

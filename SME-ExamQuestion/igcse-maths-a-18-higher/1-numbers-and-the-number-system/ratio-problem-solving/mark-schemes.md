@@ -52,7 +52,7 @@ $400\times4=1600\,400\times5=2000\,400\times7=2800$
 ### 2() — 3 marks
 > *First find what percentage of the total the 1295 males represent.*
 
-`1295 space males space equals space 100 space minus space 30 space equals space 70 percent sign`
+$1295 \text{males} = 100 - 30 = 70 \%$
 
 **[1]**
 
@@ -125,21 +125,21 @@ $80\times\frac{45}{100}=36$
 > *First find 20% of £8500 by multiplying it by 0.2. *
 *Then add that to £8500 to find the total cost of the van.*
 
-`8500 space cross times space 0.2 space equals space 1700
+$8500 \times 0.2 = 1700
 
-8500 space plus space 1700 space equals space £ 10200`
+8500 + 1700 = \pounds 10200$
 
 **[1]**
 
 > *Next multiply £531.25 by 12 to find the total of her 12 payments.*
 
-`531.25 space cross times space 12 space equals space £ 6375`
+$531.25 \times 12 = \pounds 6375$
 
 **[1]**
 
 > *Subtract the total of the 12 payments from the total cost of the van, to find the amount of Raya's deposit.*
 
-`10200 space minus space 6375 space equals space £ 3825`
+$10200 - 6375 = \pounds 3825$
 
 **[1]**
 
@@ -155,7 +155,7 @@ $3825:6375=1275\times3:1275\times5=3:5$
 
 **3 : 5  ****[1]**
 
-`1 space colon space 1.6 with dot on top`**  (with the dot over the 6!) or  **$1:\frac{5}{3}$** will also get the mark.**
+$1 : 1. \dot{6}$**  (with the dot over the 6!) or  **$1:\frac{5}{3}$** will also get the mark.**
 
 **If you put the fraction **$\frac{3825}{6375}$** into your calculator and hit '=', it will simplify it for you to **$\frac{3}{5}$**.  That simplified fraction gives you the simplified ratio numbers.**
 
@@ -165,9 +165,7 @@ $3825:6375=1275\times3:1275\times5=3:5$
 > *'Flats' appears in both ratios, so use that as the connecting link. *
 *Multiply the Houses : Flats ratio by two, then join the two ratios together because the 'Flats' number is now 8 in both of them.*
 
-`Houses space colon space Flats space equals space 7 space colon space 4 space equals space open parentheses 7 space cross times space 2 close parentheses space colon space open parentheses 4 space cross times space 2 close parentheses space equals space 14 space colon space 8
-
-Houses space colon space Flats space colon space Bungalows space equals space 14 space colon space 8 space colon space 5`
+$Houses : Flats = 7 : 4 = ( 7 \times 2 ) : ( 4 \times 2 ) = 14 : 8 Houses : Flats : Bungalows = 14 : 8 : 5$
 
 **[1]**
 
@@ -236,14 +234,12 @@ $\frac{3}{5}\times375=225$
 > *Start by figuring out what percentage Kyle gets. *
 *Then write the Joe : Kyle ratio as a ratio of their percentages.*
 
-`Kyle space gets space 100 space minus space 35 space equals space 65 percent sign
-
-So space space Joe space colon space Kyle space equals space 35 space colon space 65`
+$Kyle \text{gets} 100 - 35 = 65 \% So Joe : Kyle = 35 : 65$
 
 > *Now you need to simplify that ratio, so that the 'Joe' number is 7 (to match the '7' in  7 : **n **). *
 *7 × 5 = 35, so divide both sides of the ratio by 5.*
 
-`35 space colon space 65 space equals space open parentheses 35 divided by 5 close parentheses space colon space open parentheses 65 divided by 5 close parentheses space equals space 7 space colon space 13`
+$35 : 65 = ( 35 \div 5 ) : ( 65 \div 5 ) = 7 : 13$
 
 **[1]**
 
@@ -259,11 +255,7 @@ So space space Joe space colon space Kyle space equals space 35 space colon spac
 *Cashews ratio by a factor of 5, and scale up the Cashews : Peanuts ratio by a factor of 3. *
 *Then join the two ratios together because the 'Cashews' number is now 15 in both of them.*
 
-`Almonds space colon space Cashews space equals space 1 space colon space 3 space equals space open parentheses 1 cross times 5 close parentheses space colon space open parentheses 3 cross times 5 close parentheses space equals space 5 space colon space 15
-
-Cashews space colon space Peanuts space equals space 5 space colon space 7 space equals space open parentheses 5 cross times 3 close parentheses space colon space open parentheses 7 cross times 3 close parentheses space equals space 15 space colon space 21
-
-Almonds space colon space Cashews space colon space Peanuts space equals space 5 space colon space 15 space colon space 21`
+$Almonds : Cashews = 1 : 3 = ( 1 \times 5 ) : ( 3 \times 5 ) = 5 : 15 Cashews : Peanuts = 5 : 7 = ( 5 \times 3 ) : ( 7 \times 3 ) = 15 : 21 Almonds : Cashews : Peanuts = 5 : 15 : 21$
 
 **[1]**
 
@@ -288,9 +280,7 @@ $25\times15=375$
 > *'Blue' appears in both ratios, so use that as the connecting link. 'Scale up' the blue : green ratio by a factor of 9. *
 *Then join the two ratios together because the 'blue' number is now 9 in both of them.*
 
-`blue space colon space green space equals space 1 space colon space 4 space equals space open parentheses 1 cross times 9 close parentheses space colon space open parentheses 4 cross times 9 close parentheses space equals space 9 space colon space 36
-
-red space colon space blue space colon space green space equals space 5 space colon space 9 space colon space 36`
+$\text{blue} : \text{green} = 1 : 4 = ( 1 \times 9 ) : ( 4 \times 9 ) = 9 : 36 \text{red} : \text{blue} : \text{green} = 5 : 9 : 36$
 
 **[1]**
 
@@ -308,7 +298,7 @@ $9\div50=\frac{9}{50}$
 
 > *And finally convert that into a percentage.*
 
-`9 over 50 space cross times space 100 space equals space 0.18 space cross times space 100 space equals space 18 percent sign`
+$\frac{9}{50} \times 100 = 0.18 \times 100 = 18 \%$
 
 **18%****  [1]**
 
@@ -319,9 +309,7 @@ $9\div50=\frac{9}{50}$
 *'Scale up' the men : women ratio by a factor of 2. *
 *Then join the two ratios together because the 'women' number is now 10 in both of them.*
 
-`men space colon space women space equals space 4 space colon space 5 space equals space open parentheses 4 cross times 2 close parentheses space colon space open parentheses 5 cross times 2 close parentheses space equals space 8 space colon space 10
-
-men space colon space women space colon space children space equals space 8 space colon space 10 space colon space 7`
+$\text{men} : \text{women} = 4 : 5 = ( 4 \times 2 ) : ( 5 \times 2 ) = 8 : 10 \text{men} : \text{women} : \text{children} = 8 : 10 : 7$
 
 **[1]**
 
@@ -349,11 +337,7 @@ $10\times8=80$
 *Scale up the sherberts : toffees ratio by a factor of 3. *
 *Then join the two ratios together because the 'sherberts' number is now 21 in both of them.*
 
-`mints space colon space sherberts space equals space 2 space colon space 3 space equals space open parentheses 2 cross times 7 close parentheses space colon space open parentheses 3 cross times 7 close parentheses space equals space 14 space colon space 21
-
-sherberts space colon space toffees space equals space 7 space colon space 5 space equals space open parentheses 7 cross times 3 close parentheses space colon space open parentheses 5 cross times 3 close parentheses space equals space 21 space colon space 15
-
-mints space colon space sherberts space colon space toffees space equals space 14 space colon space 21 space colon space 15`
+$\text{mints} : \text{sherberts} = 2 : 3 = ( 2 \times 7 ) : ( 3 \times 7 ) = 14 : 21 \text{sherberts} : \text{toffees} = 7 : 5 = ( 7 \times 3 ) : ( 5 \times 3 ) = 21 : 15 \text{mints} : \text{sherberts} : \text{toffees} = 14 : 21 : 15$
 
 **[1]**
 
@@ -424,7 +408,7 @@ Find the remaining number of orders
 
 Split 145 into the ratio 22:7
 
-`table row cell 145 space divided by open parentheses 22 plus 7 close parentheses space end cell equals cell space 5 end cell row cell 5 space cross times 7 space end cell equals cell space 35 space end cell end table`
+$\begin{gathered} 145 \div ( 22 + 7 ) & = 5 \\ 5 \times 7 & = 35 \end{gathered}$
 
 **Final answer:** **35 fruit plates**
 
@@ -435,7 +419,7 @@ Split 145 into the ratio 22:7
 ### 14() — 4 marks
 > *First multiply 600 ml by 1/4 to find the amount of wallpaper remover specified in the 'recipe' on the label.*
 
-`table row cell 600 space cross times space 1 fourth space end cell equals cell space 150 space ml end cell end table`
+$\begin{gathered} 600 \times 1 \frac{1}{4} & = 150 \text{ml} \end{gathered}$
 
 **[1]**
 
@@ -459,17 +443,17 @@ $150\times\frac{1}{6}=25$
 > *First turn the ratio 3 : 2 into a fraction for the fraction of men in the company. *
 *Then multiply that fraction by 40% (0.4) to find the percentage of the company that is men under 25.*
 
-`fraction numerator 3 space over denominator 3 space plus space 2 end fraction space equals space 3 over 5 space men
+$\frac{3 }{3 + 2} = \frac{3}{5} \text{men}
 
-3 over 5 space cross times space 0.4 space equals space 0.24 space equals space 24 percent sign space space men space under space 25`
+ \frac{3}{5} \times 0.4 = 0.24 = 24 \% \text{men} \text{under} 25$
 
 **[1]**
 
 > *Now follow the same process to find the percentage of women under 25. 10% = 0.1*
 
-`fraction numerator 2 space over denominator 3 space plus space 2 end fraction space equals space 2 over 5 space women
+$\frac{2 }{3 + 2} = \frac{2}{5} \text{women}
 
-2 over 5 space cross times space 0.1 space equals space 0.04 space equals space 4 percent sign space space women space under space 25`
+ \frac{2}{5} \times 0.1 = 0.04 = 4 \% \text{women} \text{under} 25$
 
 **[1]**
 
@@ -493,13 +477,13 @@ $K=J+7\mathrm{so}J=K-7\,\,M=2K$
 
 > *Now use 'the sum of their three ages is 77' to set up an equation. Then substitute your expressions for **J **and **M **to get the equation entirely in terms of **K**.*
 
-`table row cell J space plus space K space plus space M space end cell equals cell space 77 end cell row cell open parentheses K space minus space 7 close parentheses space plus space K space plus space 2 K space end cell equals cell space 77 end cell end table`
+$\begin{gathered} J + K + M & = 77 \\ ( K - 7 ) + K + 2 K & = 77 \end{gathered}$
 
 **[1]**
 
 > *Now collect terms and solve the equation to find the value of **K**.*
 
-`table row cell 4 K space minus space 7 space end cell equals cell space 77 end cell row cell 4 K space end cell equals cell space 84 end cell row cell K space end cell equals cell space 84 space divided by space 4 end cell row cell K space end cell equals cell space 21 end cell end table`
+$\begin{gathered} 4 K - 7 & = 77 \\ 4 K & = 84 \\ K & = 84 \div 4 \\ K & = 21 \end{gathered}$
 
 **[1]**
 
@@ -519,9 +503,9 @@ $J=21-7=14\,\,M=2\times21=42$
 *Multiply the Blue : Green ratio by 4, and multiply the Green : Red ratio by 5. *
 *That way the 'Green' number will be the same in both of them.*
 
-`B space colon space G space equals space 2 space colon space 5 space equals space open parentheses 2 space cross times space 4 close parentheses space colon space open parentheses 5 space cross times space 4 close parentheses space equals space 8 space colon space 20
+$B : G = 2 : 5 = ( 2 \times 4 ) : ( 5 \times 4 ) = 8 : 20
 
-G space colon space R space equals space 4 space colon space 1 space equals space open parentheses 4 space cross times space 5 close parentheses space colon space open parentheses 1 space cross times space 5 close parentheses space equals space 20 space colon space 5`
+G : R = 4 : 1 = ( 4 \times 5 ) : ( 1 \times 5 ) = 20 : 5$
 
 **[1]**
 
@@ -529,11 +513,7 @@ G space colon space R space equals space 4 space colon space 1 space equals spac
 *Next scale up the ratio as much as possible so that the sum of the ratio numbers is still less than 100. *
 *The numbers in the scaled up ratio will then be the greatest possible numbers of Blue, Green and Red pens in the box.*
 
-`B space colon space G space colon space R space equals space 8 space colon space 20 space colon space 5 space space space space space space space open parentheses 8 space plus space 20 space plus space 5 space equals space 33 space pens close parentheses
-
-B space colon space G space colon space R space equals space 16 space colon space 40 space colon space 10 space space space space space space space open parentheses 16 space plus space 40 space plus space 10 space equals space 66 space pens close parentheses
-
-B space colon space G space colon space R space equals space 24 space colon space 60 space colon space 15 space space space space space space space open parentheses 24 space plus space 60 space plus space 15 space equals space 99 space pens close parentheses`
+$B : G : R = 8 : 20 : 5 ( 8 + 20 + 5 = 33 \text{pens} ) B : G : R = 16 : 40 : 10 ( 16 + 40 + 10 = 66 \text{pens} ) B : G : R = 24 : 60 : 15 ( 24 + 60 + 15 = 99 \text{pens} )$
 
 **[1]**
 
@@ -549,9 +529,9 @@ B space colon space G space colon space R space equals space 24 space colon spac
 *Multiply the Cows : Sheep ratio by 2, and multiply the Sheep : Pigs ratio by 5. *
 *That way the 'Sheep' number will be the same in both of them.*
 
-`Cows space colon space Sheep space equals space 6 space colon space 5 space equals space open parentheses 6 space cross times space 2 close parentheses space colon space open parentheses 5 space cross times space 2 close parentheses space equals space 12 space colon space 10
+$\text{Cows} : \text{Sheep} = 6 : 5 = ( 6 \times 2 ) : ( 5 \times 2 ) = 12 : 10
 
-Sheep space colon space Pigs space equals space 2 space colon space 1 space equals space open parentheses 2 space cross times space 5 close parentheses space colon space open parentheses 1 space cross times space 5 close parentheses space equals space 10 space colon space 5`
+\text{Sheep} : \text{Pigs} = 2 : 1 = ( 2 \times 5 ) : ( 1 \times 5 ) = 10 : 5$
 
 **[1]**
 
@@ -582,11 +562,11 @@ $2+7+3+3=15$
 
 > *Divide the amount to find the amount per part*
 
-`£ 360 divided by 15 equals £ 24`
+$\pounds 360 \div 15 = \pounds 24$
 
 > *Multiply by 7 to get Ben's amount*
 
-`7 cross times £ 24 equals £ 168`
+$7 \times \pounds 24 = \pounds 168$
 
 **[1]**
 
@@ -598,10 +578,7 @@ $2+7+3+3=15$
 > *'Ducks' appears in both ratios, so use that as the connecting link. *
 *Multiply the chickens : ducks ratio by five, and the ducks : pigs ratio by two then join the two ratios together because the 'ducks' number is now 10 in both of them.*
 
-`chickens space colon space ducks space equals space 7 space colon space 2 space equals space open parentheses 7 cross times 5 close parentheses space colon space open parentheses 2 cross times 5 close parentheses space equals space 35 space colon space 10
-ducks space colon space pigs space equals space 5 space colon space 9 space equals space open parentheses 5 cross times 2 close parentheses space colon space open parentheses 9 cross times 2 close parentheses space equals space 10 space colon space 18
-
-chickens space colon space ducks space colon space pigs equals space 35 space colon space 10 space colon space 18`
+$\text{chickens} : \text{ducks} = 7 : 2 = ( 7 \times 5 ) : ( 2 \times 5 ) = 35 : 10 \text{ducks} : \text{pigs} = 5 : 9 = ( 5 \times 2 ) : ( 9 \times 2 ) = 10 : 18 \text{chickens} : \text{ducks} : \text{pigs} = 35 : 10 : 18$
 
 **[1]**
 
@@ -663,11 +640,11 @@ $G:B=1:4$
 *To do that, the 'blue' numbers need to be the same in both ratios. So 'scale up' the **G** : **B** ratio by a factor of 3, and scale up the **B** : **W** ratio by a factor of 4. *
 *Then join the two ratios together.*
 
-`G space colon space B space equals space open parentheses 1 cross times 3 close parentheses space colon space open parentheses 4 cross times 3 close parentheses space equals space 3 space colon space 12
+$G : B = ( 1 \times 3 ) : ( 4 \times 3 ) = 3 : 12
 
-B space colon space W space equals space open parentheses 3 cross times 4 close parentheses space colon space open parentheses 5 cross times 4 close parentheses space equals space 12 space colon space 20
+B : W = ( 3 \times 4 ) : ( 5 \times 4 ) = 12 : 20
 
-So space space G space colon space B space colon space W space equals space 3 space colon space 12 space colon space 20`
+\text{So} G : B : W = 3 : 12 : 20$
 
 **[1]**
 
@@ -687,11 +664,11 @@ $\frac{32}{35}$**  [1] **
 *So 'scale up' the **e** : **f**  ratio by a factor of 5, and scale up the **f** : **g**  ratio by a factor of 3. *
 *Then connect the two ratios into a single ratio.*
 
-`e space colon space f space equals space open parentheses 2 cross times 5 close parentheses space colon space open parentheses 3 cross times 5 close parentheses space equals space 10 space colon space 15
+$e : f = ( 2 \times 5 ) : ( 3 \times 5 ) = 10 : 15
 
-f space colon space g space equals space open parentheses 5 cross times 3 close parentheses space colon space open parentheses 4 cross times 3 close parentheses space equals space 15 space colon space 12
+f : g = ( 5 \times 3 ) : ( 4 \times 3 ) = 15 : 12
 
-e space colon space f space colon space g space equals space 10 space colon space 15 space colon space 12`
+e : f : g = 10 : 15 : 12$
 
 **[1]**
 
@@ -703,7 +680,7 @@ $e:g=10:12$
 
 > *Finally, simplify the ratio by dividing both sides by 2.*
 
-`e space colon space g space equals space open parentheses 10 divided by 2 close parentheses space colon space open parentheses 12 divided by 2 close parentheses space equals space 5 space colon space 6`
+$e : g = ( 10 \div 2 ) : ( 12 \div 2 ) = 5 : 6$
 
 **e**** : ****g**** = 5 : 6****  ****[1]**
 
@@ -754,7 +731,7 @@ $\frac{4}{15}:\frac{11}{15}$
 
 > *To get that to be a ratio of integers, it can be 'scaled up' by a factor of 15.*
 
-`4 over 15 space colon space fraction numerator space 11 over denominator 15 end fraction space equals space open parentheses 4 over 15 cross times 15 close parentheses space colon space open parentheses 11 over 15 cross times 15 close parentheses space equals space 4 space colon space 11`
+$\frac{4}{15} : \frac{ 11}{15} = ( \frac{4}{15} \times 15 ) : ( \frac{11}{15} \times 15 ) = 4 : 11$
 
 > *But note that that is not necessary to get the mark.*
 
@@ -769,11 +746,7 @@ $4:11$ **[1]**
 *Scale up the men : children ratio by a factor of 2, and scale up the women : children ratio by a factor of 3. *
 *That way the 'children' number will be the same in both of them. Then they can be joined together into a single triple ratio. (It is easier to 'flip' the order of the women : children ratio before converting it.)*
 
-`men space colon space children space equals space 11 space colon space 3 space equals space open parentheses 11 space cross times space 2 close parentheses space colon space open parentheses 3 space cross times space 2 close parentheses space equals space 22 space colon space 6
-
-children space colon space women space equals space 2 space colon space 5 space equals space open parentheses 2 space cross times space 3 close parentheses space colon space open parentheses 5 space cross times space 3 close parentheses space equals space 6 space colon space 15
-
-men space colon space children space colon space women space equals space 22 space colon space 6 space colon space 15`
+$\text{men} : \text{children} = 11 : 3 = ( 11 \times 2 ) : ( 3 \times 2 ) = 22 : 6 \text{children} : \text{women} = 2 : 5 = ( 2 \times 3 ) : ( 5 \times 3 ) = 6 : 15 \text{men} : \text{children} : \text{women} = 22 : 6 : 15$
 
 **[1]**
 
@@ -794,9 +767,9 @@ $36\div6=6$
 *Now add up the ratio numbers in the men : women : children ratio to find the total number of parts. *
 *And then multiply that by 6 to find the total population.*
 
-`22 space plus space 6 space plus space 15 space equals space 43
+$22 + 6 + 15 = 43
 
-43 space cross times space 6 space equals space open parentheses 40 cross times 6 close parentheses space plus space open parentheses 3 cross times 6 close parentheses space equals space 240 space plus space 18 space equals space 258`
+43 \times 6 = ( 40 \times 6 ) + ( 3 \times 6 ) = 240 + 18 = 258$
 
 **[1]**
 
@@ -816,7 +789,7 @@ $\frac{2}{2+1}=\frac{2}{3}\mathrm{male}\,\,\frac{1}{2+1}=\frac{1}{3}\mathrm{fema
 
 > *Turn 40% into a fraction, to see what fraction of the village are right-handed males.*
 
-`40 percent sign space equals space 40 over 100 space equals fraction numerator space 2 space over denominator 5 end fraction`
+$40 \% = \frac{40}{100} = \frac{ 2 }{5}$
 
 > *So 2/5 of the village are right handed males. *
 *And 2/3 of the village are males. *
@@ -829,7 +802,7 @@ $\frac{2}{5}\div\frac{2}{3}=\frac{3}{5}$
 
 > *Turn 25% into a fraction, to see what fraction of the village are right-handed females.*
 
-`25 percent sign space equals space 25 over 100 space equals fraction numerator space 1 space over denominator 4 end fraction`
+$25 \% = \frac{25}{100} = \frac{ 1 }{4}$
 
 > *So 1/4 of the village are right handed females. *
 *And 1/3 of the village are females. *
@@ -861,7 +834,7 @@ $420\times0.35=147\mathrm{banana}$
 
 > *Subtract 120 and 147 from 420, to find the total number of lemon and chocolate cakes.*
 
-`420 space minus space open parentheses 120 space plus space 147 close parentheses space equals space 153 space lemon space and space chocolate`
+`420 - ( 120 + 147 ) = 153 lemon and chocolate`
 
 **[1]**
 
@@ -897,7 +870,7 @@ $468\div2=234\,\,234\times7=1638$
 
 > *Now divide the total number of people by 2600 and convert to a percentage.*
 
-`1638 over 2600 space equals space 0.63 space equals space 63 percent sign`
+$\frac{1638}{2600} = 0.63 = 63 \%$
 
 **[1]**
 
@@ -938,7 +911,7 @@ $\frac{1}{3}$**  [1]**
 *The second ratio divides **AD** into 7 + 11 = 18 parts. *
 *So multiply the first ratio by 3, so it also divides **AD** into 18 parts.*
 
-`A B space colon space B D space equals space 1 space colon space 5 space equals space open parentheses 1 space cross times space 3 close parentheses space colon space open parentheses 5 space cross times space 3 close parentheses space equals space 3 space colon space 15`
+$A B : B D = 1 : 5 = ( 1 \times 3 ) : ( 5 \times 3 ) = 3 : 15$
 
 **[1]**
 
@@ -946,7 +919,7 @@ $\frac{1}{3}$**  [1]**
 *We also know that **AC** is 7 of the 18 parts. *
 *So you can subtract 3 (the **AB** number) from 7 (the **AC** number) to find how many of the 18 parts belong to **BC**.*
 
-`A B space colon space B C space colon space B D space equals space 3 space colon space open parentheses 7 minus 3 close parentheses space colon space 11`
+$A B : B C : B D = 3 : ( 7 - 3 ) : 11$
 
 **[1]**
 
@@ -1003,9 +976,9 @@ $5a=4c\,\,\frac{a}{c}=\frac{4}{5}\,\,a:c=4:5$
 *To do that, the **c**  numbers need to be the same in both ratios. *
 *So 'scale up' the **b** : **c**  ratio by a factor of 5, and scale up the **a** : **c**  ratio by a factor of 3.*
 
-`b space colon space c space equals space open parentheses 2 cross times 5 close parentheses space colon space open parentheses 3 cross times 5 close parentheses space equals space 10 space colon space 15
+$b : c = ( 2 \times 5 ) : ( 3 \times 5 ) = 10 : 15
 
-space a space colon space c space equals space open parentheses 4 cross times 3 close parentheses space colon space open parentheses 5 cross times 3 close parentheses space equals space 12 space colon space 15`
+ a : c = ( 4 \times 3 ) : ( 5 \times 3 ) = 12 : 15$
 
 **[1]**
 
@@ -1027,11 +1000,11 @@ $10b=7c\,\,\frac{b}{c}=\frac{7}{10}\,\,b:c=7:10$
 *So 'scale up' the **a** : **b**  ratio by a factor of 7, and scale up the **b** : **c**  ratio by a factor of 4. *
 *Then connect the two ratios into a single ratio.*
 
-`a space colon space b space equals space open parentheses 9 cross times 7 close parentheses space colon space open parentheses 4 cross times 7 close parentheses space equals space 63 space colon space 28
+$a : b = ( 9 \times 7 ) : ( 4 \times 7 ) = 63 : 28
 
-space b space colon space c space equals space open parentheses 7 cross times 4 close parentheses space colon space open parentheses 10 cross times 4 close parentheses space equals space 28 space colon space 40
+ b : c = ( 7 \times 4 ) : ( 10 \times 4 ) = 28 : 40
 
-a space colon space b space colon space c space equals space 63 space colon space 28 space colon space 40`
+a : b : c = 63 : 28 : 40$
 
 **[1]**
 
@@ -1066,13 +1039,13 @@ $T_{1}=\frac{9\times12}{22\times5}T_{2}=\frac{108}{110}T_{2}=\frac{54}{55}T_{2}$
 
 > *Now substitute **T*<sub>*1*</sub>* into the second equation.*
 
-`therefore 13 over 22 T subscript 2 equals 7 over 12 open parentheses 54 over 55 T subscript 2 close parentheses plus 290`
+$\therefore \frac{13}{22} T_{2} = \frac{7}{12} ( \frac{54}{55} T_{2} ) + 290$
 
 **[1]**
 
 > *Rearrange and solve for **T*<sub>*2*</sub>*.*
 
-`table row cell 13 over 22 T subscript 2 minus 63 over 110 T subscript 2 end cell equals 290 row cell 1 over 55 T subscript 2 end cell equals 290 row cell T subscript 2 end cell equals cell 15 space 950 end cell end table`
+$\begin{gathered} \frac{13}{22} T_{2} - \frac{63}{110} T_{2} & = 290 \\ \frac{1}{55} T_{2} & = 290 \\ T_{2} & = 15 950 \end{gathered}$
 
 **[1]**
 
@@ -1112,7 +1085,7 @@ $224\div28=8$
 
 > *Find the actual number of men and women multiplying their number of parts by 8.*
 
-`table row Men equals cell 12 cross times 8 equals 96 end cell row Women equals cell 15 cross times 8 equals 120 end cell end table`
+$\begin{gathered} \text{Men} = 12 \times 8 = 96 \\ \text{Women} = 15 \times 8 = 120 \end{gathered}$
 
 > *Add together the number of men and women to find the total.*
 

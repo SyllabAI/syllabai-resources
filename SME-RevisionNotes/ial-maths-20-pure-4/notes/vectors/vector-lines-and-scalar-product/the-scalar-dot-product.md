@@ -21,26 +21,26 @@ The **scalar** **product** is an important link between the algebra of vectors a
 
 ### What is the scalar (dot) product?
 
-- The scalar product between two vectors **a **and **b **is represented by `bold a times bold b`
+- The scalar product between two vectors **a **and **b **is represented by $a \times b$
 
   - This is also called the dot product because of the symbol used
-- The scalar product between two vectors $a=a_{1}i+a_{2}j+a_{3}k$ and $b=b_{1}i+b_{2}j+b_{3}k$** **is defined as `bold a times bold b equals straight a subscript 1 b subscript 1 plus a subscript 2 b subscript 2 plus a subscript 3 b subscript 3`
+- The scalar product between two vectors $a=a_{1}i+a_{2}j+a_{3}k$ and $b=b_{1}i+b_{2}j+b_{3}k$** **is defined as $a \times b = \mathrm{a}_{1} b_{1} + a_{2} b_{2} + a_{3} b_{3}$
 - The result of taking the scalar product of two vectors is a **real number**
 
   - i.e. a **scalar**
 - For example,
 
-`open parentheses 3 bold i minus bold k close parentheses times open parentheses 2 bold i plus 9 bold j plus bold k close parentheses equals 3 cross times 2 plus 0 cross times 9 plus open parentheses negative 1 close parentheses cross times 1 equals 6 plus 0 minus 1 equals 5`
+$( 3 i - k ) \times ( 2 i + 9 j + k ) = 3 \times 2 + 0 \times 9 + ( - 1 ) \times 1 = 6 + 0 - 1 = 5$
 
 and
 
-`open parentheses table row 2 row 7 end table close parentheses times open parentheses table row cell negative 8 end cell row 2 end table close parentheses equals 2 cross times open parentheses negative 8 close parentheses plus 7 cross times 2 equals negative 16 plus 14 equals negative 2`
+$( \begin{gathered} 2 \\ 7 \end{gathered} ) \times ( \begin{gathered} - 8 \\ 2 \end{gathered} ) = 2 \times ( - 8 ) + 7 \times 2 = - 16 + 14 = - 2$
 
 - The scalar product has some important properties:
 
   - The order of the vectors doesn’t affect the result:
 
-`bold a times bold b equals bold b times bold a`
+$a \times b = b \times a$
 
 - In effect we can ‘multiply out’ brackets:
 
@@ -48,26 +48,26 @@ and
 
 - This means that we can do many of the same things with vectors as we can do when operating on real numbers – for example,
 
-`open parentheses bold a minus bold b close parentheses times open parentheses bold a minus bold b close parentheses equals bold a bold times bold a minus 2 bold a bold times bold b plus bold b bold times bold b`
+$( a - b ) \times ( a - b ) = a \times a - 2 a \times b + b \times b$
 
 - The scalar product between a vector and itself is equal to the square of its ***magnitude*****:**
 
-`bold a bold times bold a equals open vertical bar bold a close vertical bar squared`
+$a \times a = \left| a \right|^{2}$
 
 For example,
 
-`open parentheses table row 2 row 7 end table close parentheses times open parentheses table row 2 row 7 end table close parentheses equals 2 squared plus 7 squared equals 53`  and  `open vertical bar open parentheses table row 2 row 7 end table close parentheses close vertical bar squared equals 2 squared plus 7 squared equals 53`
+$( \begin{gathered} 2 \\ 7 \end{gathered} ) \times ( \begin{gathered} 2 \\ 7 \end{gathered} ) = 2^{2} + 7^{2} = 53$  and  $\left| ( \begin{gathered} 2 \\ 7 \end{gathered} ) \right|^{2} = 2^{2} + 7^{2} = 53$
 
 ### What is the formula for the scalar product?
 
-- There is another important method for finding `bold a bold times bold b bold space`involving the angle between the two vectors $θ$:
+- There is another important method for finding $a \times b$involving the angle between the two vectors $θ$:
 
-`bold a bold times bold b equals open vertical bar bold a close vertical bar open vertical bar bold b close vertical bar cos space theta`
+$a \times b = \left| a \right| \left| b \right| \cos \\theta$
 
 - Here $θ$ is the angle between the vectors when they are placed **‘base to base’**
 
   - when the vectors are placed so that they begin at the same point
-- This formula can be derived using the cosine rule and expanding `open parentheses bold a minus bold b close parentheses times open parentheses bold a minus bold b close parentheses`
+- This formula can be derived using the cosine rule and expanding $( a - b ) \times ( a - b )$
 
 ![7-3-3-the-scalar-product](../../../assets/2bd8fd595017-7-3-3-the-scalar-product.png)
 

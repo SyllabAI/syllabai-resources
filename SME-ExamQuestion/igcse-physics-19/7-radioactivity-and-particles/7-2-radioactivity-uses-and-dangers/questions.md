@@ -108,7 +108,7 @@ Explain why.
 
 Tick **(✓) one** box.
 
-| **Radon-222** | `begin mathsize 20px style square end style` |
+| **Radon-222** | $\text{square}$ |
 |---|---|
 | **Iodine-131** | `square` |
 | **Cobalt-60** | `square` |
@@ -254,7 +254,7 @@ Thorium-232 undergoes alpha decay and produces an isotope of radium, Ra.
 
 Complete the equation for this decay.
 
-`Th presubscript 90 presuperscript 232 space rightwards arrow space Ra presubscript square presuperscript square space plus space straight alpha presubscript square presuperscript 4`
+$Th_{90}^{232} \rightarrow \text{Ra} pre_{square} pre^{square} + \ \\alpha pre_{square} pre^{4}$
 
 ### 7((b)) — 3 marks — command: suggest — structured — from paper 2015 June · 1P
 The radioactive glass also emits beta particles from a different isotope.
@@ -353,7 +353,7 @@ Thorium-232 decays into radon-220 through a number of alpha decays and beta deca
 
 The incomplete nuclear decay equation summarises this process.
 
-`Th presubscript 90 presuperscript 232 space rightwards arrow space Rn presubscript 86 presuperscript 220 space plus space...... space straight alpha presubscript... end presubscript presuperscript... end presuperscript space space space plus space...... space straight beta presubscript negative 1 end presubscript presuperscript 0`
+`Th _ 90 ^ 232 -> Rn _ 86 ^ 220 + ...... alpha _... ^... + ...... beta _ - 1 ^ 0`
 
 Complete the nuclear equation for the decay of thorium-232 into radon-220 by giving the missing numbers.
 

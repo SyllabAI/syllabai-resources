@@ -48,11 +48,11 @@ The table shows information about the weights, in kg, of 40 parcels.
 
 | **Weight of parcel ( **$p$** kg)** | **Frequency** |
 |---|---|
-| `0 space less than space p space less-than or slanted equal to space 1` | 19 |
-| `1 space less than space p space less-than or slanted equal to space 2` | 12 |
-| `2 space less than space p space less-than or slanted equal to space 3` | 5 |
-| `3 less than space space p space less-than or slanted equal to space 4` | 2 |
-| `4 space less than space p less-than or slanted equal to space 5` | 2 |
+| $0 < p \text{less} - \text{than} or \text{slanted} \text{equal} to 1$ | 19 |
+| $1 < p \text{less} - \text{than} or \text{slanted} \text{equal} to 2$ | 12 |
+| $2 < p \text{less} - \text{than} or \text{slanted} \text{equal} to 3$ | 5 |
+| $3 < p \text{less} - \text{than} or \text{slanted} \text{equal} to 4$ | 2 |
+| $4 < p \text{less} - \text{than} or \text{slanted} \text{equal} to 5$ | 2 |
 
 Write down the modal class.
 
@@ -75,11 +75,11 @@ The table gives information about the speeds, in kilometres per hour, of 80 moto
 
 | **Speed** **(s kilometres per hour)** | **Frequency** |
 |---|---|
-| `40 space less than space s space less-than or slanted equal to space 50` | 10 |
-| `50 space less than space s space less-than or slanted equal to space 60` | 16 |
-| `60 space less than space s space less-than or slanted equal to space 70` | 19 |
-| `70 space less than space s space less-than or slanted equal to space 80` | 23 |
-| `80 space less than space s space less-than or slanted equal to space 90` | 12 |
+| $40 < s \text{less} - \text{than} or \text{slanted} \text{equal} to 50$ | 10 |
+| $50 < s \text{less} - \text{than} or \text{slanted} \text{equal} to 60$ | 16 |
+| $60 < s \text{less} - \text{than} or \text{slanted} \text{equal} to 70$ | 19 |
+| $70 < s \text{less} - \text{than} or \text{slanted} \text{equal} to 80$ | 23 |
+| $80 < s \text{less} - \text{than} or \text{slanted} \text{equal} to 90$ | 12 |
 
 Write down the modal class.
 
@@ -90,11 +90,11 @@ The table gives information about the length of time, in minutes, that each of $
 
 | **Length of time (**$t$** minutes)** | **Frequency** |
 |---|---|
-| `0 space less than space t space less-than or slanted equal to space 10` | 4 |
-| `10 space less than space t space less-than or slanted equal to space 20` | 10 |
-| `20 space less than space t space less-than or slanted equal to space 30` | 15 |
-| `30 space less than space t space less-than or slanted equal to space 40` | 25 |
-| `40 space less than space t space less-than or slanted equal to space 50` | 6 |
+| $0 < t \text{less} - \text{than} or \text{slanted} \text{equal} to 10$ | 4 |
+| $10 < t \text{less} - \text{than} or \text{slanted} \text{equal} to 20$ | 10 |
+| $20 < t \text{less} - \text{than} or \text{slanted} \text{equal} to 30$ | 15 |
+| $30 < t \text{less} - \text{than} or \text{slanted} \text{equal} to 40$ | 25 |
+| $40 < t \text{less} - \text{than} or \text{slanted} \text{equal} to 50$ | 6 |
 
 Write down the modal class interval.
 
@@ -216,12 +216,12 @@ A station manager looks at the information below.
 
 | **Number of** **minutes late, **$t$ | **Number of trains** |
 |---|---|
-| `0 space less-than or slanted equal to space t space less than space 2` | 12 |
-| `2 space less-than or slanted equal to space t space less than space 4` | 0 |
-| `4 space less-than or slanted equal to space t space less than space 6` | 7 |
-| `6 space less-than or slanted equal to space t space less than space 8` | 0 |
-| `8 space less-than or slanted equal to space t space less than space 10` | 0 |
-| `10 space less-than or slanted equal to space t space less than space 12` | 1 |
+| $0 \text{less} - \text{than} or \text{slanted} \text{equal} to t < 2$ | 12 |
+| $2 \text{less} - \text{than} or \text{slanted} \text{equal} to t < 4$ | 0 |
+| $4 \text{less} - \text{than} or \text{slanted} \text{equal} to t < 6$ | 7 |
+| $6 \text{less} - \text{than} or \text{slanted} \text{equal} to t < 8$ | 0 |
+| $8 \text{less} - \text{than} or \text{slanted} \text{equal} to t < 10$ | 0 |
+| $10 \text{less} - \text{than} or \text{slanted} \text{equal} to t < 12$ | 1 |
 
 Estimate the mean number of minutes late.
 
@@ -243,15 +243,15 @@ The table shows information about the times for 10 people to complete a task.
 
 | **Time, **$t$** (minutes)** | **Frequency** |
 |---|---|
-| `0 space less than space t space less-than or slanted equal to space 20` | 1 |
-| `20 space less than space t space less-than or slanted equal to space 40` | 6 |
-| `40 space less than space t space less-than or slanted equal to space 60` | 3 |
+| $0 < t \text{less} - \text{than} or \text{slanted} \text{equal} to 20$ | 1 |
+| $20 < t \text{less} - \text{than} or \text{slanted} \text{equal} to 40$ | 6 |
+| $40 < t \text{less} - \text{than} or \text{slanted} \text{equal} to 60$ | 3 |
 
 These statements are about the mean and range of the actual times. Tick the correct box for each statement.
 
 |   | **True** | **False** |
 |---|---|---|
-| The mean could be less than 20 minutes | `begin mathsize 28px style square end style` | `square` |
+| The mean could be less than 20 minutes | $\text{square}$ | `square` |
 | The mean could be more than 40 minutes | `square` | `square` |
 | The mean could be less than 40 minutes | `square` | `square` |
 |   |   |   |
@@ -299,11 +299,11 @@ The table gives information about the number of minutes that Abby spent walking 
 
 | Number of minutes ($M$) | Frequency |
 |---|---|
-| `space 0 space less than space M space less-than or slanted equal to thin space space 30` | 5 |
-| `30 space less than space M space less-than or slanted equal to thin space space 60` | 6 |
-| `space 60 space less than space M space less-than or slanted equal to thin space space 90` | 8 |
-| `space 90 space less than space M space less-than or slanted equal to thin space space 120` | 9 |
-| `space 120 space less than space M space less-than or slanted equal to thin space space 150` | 2 |
+| $0 < M \text{less} - \text{than} or \text{slanted} \text{equal} to 30$ | 5 |
+| $30 < M \text{less} - \text{than} or \text{slanted} \text{equal} to 60$ | 6 |
+| $60 < M \text{less} - \text{than} or \text{slanted} \text{equal} to 90$ | 8 |
+| $90 < M \text{less} - \text{than} or \text{slanted} \text{equal} to 120$ | 9 |
+| $120 < M \text{less} - \text{than} or \text{slanted} \text{equal} to 150$ | 2 |
 
 Work out an estimate for the total number of minutes that Abby spent walking in September.
 
@@ -486,7 +486,7 @@ a mean of 9
 
 Work out the value of a, the value of b and the value of $c$.
 
-`table row a equals cell.................. end cell row b equals cell.................. end cell row c equals cell.................. end cell end table`
+$\begin{gathered} a = .................. \\ b = .................. \\ c = .................. \end{gathered}$
 
 ## Q30 — medium — 4 marks · exam-questions
 
@@ -524,14 +524,14 @@ Here is some information about the times taken by 40 people to fill in a form.
 
 | **Time, **$t$** minutes** | **Number of people** |
 |---|---|
-| `0 space less than space t space less-than or slanted equal to space 5` | 3 |
-| `5 space less than space t space less-than or slanted equal to space 10` | 9 |
-| `10 space less than space t space less-than or slanted equal to space 15` | 11 |
-| `15 space less than space t space less-than or slanted equal to space 20` | 17 |
+| $0 < t \text{less} - \text{than} or \text{slanted} \text{equal} to 5$ | 3 |
+| $5 < t \text{less} - \text{than} or \text{slanted} \text{equal} to 10$ | 9 |
+| $10 < t \text{less} - \text{than} or \text{slanted} \text{equal} to 15$ | 11 |
+| $15 < t \text{less} - \text{than} or \text{slanted} \text{equal} to 20$ | 17 |
 
 In which class interval is the median? Circle your answer.
 
-| `0 space less than space t space less-than or slanted equal to space 5` | `5 space less than space t space less-than or slanted equal to space 10` | `10 space less than space t space less-than or slanted equal to space 15` | `15 space less than space t space less-than or slanted equal to space 20` |
+| $0 < t \text{less} - \text{than} or \text{slanted} \text{equal} to 5$ | $5 < t \text{less} - \text{than} or \text{slanted} \text{equal} to 10$ | $10 < t \text{less} - \text{than} or \text{slanted} \text{equal} to 15$ | $15 < t \text{less} - \text{than} or \text{slanted} \text{equal} to 20$ |
 |---|---|---|---|
 
 ## Q33 — medium — 3 marks · exam-questions
@@ -580,10 +580,10 @@ The table shows the results.
 
 | **Time, t (mins)** | **Frequency** | **Midpoint** |   |
 |---|---|---|---|
-| `0 space less-than or slanted equal to space t space less than space 30` | 24 |   |   |
-| `30 space less-than or slanted equal to space t space less than space 50` | 76 |   |   |
-| `50 space less-than or slanted equal to space t space less than space 60` | 52 |   |   |
-| `60 space less-than or slanted equal to space t space less than space 90` | 48 |   |   |
+| $0 \text{less} - \text{than} or \text{slanted} \text{equal} to t < 30$ | 24 |   |   |
+| $30 \text{less} - \text{than} or \text{slanted} \text{equal} to t < 50$ | 76 |   |   |
+| $50 \text{less} - \text{than} or \text{slanted} \text{equal} to t < 60$ | 52 |   |   |
+| $60 \text{less} - \text{than} or \text{slanted} \text{equal} to t < 90$ | 48 |   |   |
 |   | Total = 200 |   |   |
 
 Work out an estimate of the mean time.
@@ -597,10 +597,10 @@ The table shows information about the distances walked by 120 students on their 
 
 | **Distance, **$x$** (miles)** | **Frequency** |   |   |
 |---|---|---|---|
-| `0 space less than space x space less-than or slanted equal to space 5` | 20 |   |   |
-| `5 space less than space x space less-than or slanted equal to space 10` | 48 |   |   |
-| `10 space less than space x space less-than or slanted equal to space 15` | 30 |   |   |
-| `15 space less than space x space less-than or slanted equal to space 20` | 22 |   |   |
+| $0 < x \text{less} - \text{than} or \text{slanted} \text{equal} to 5$ | 20 |   |   |
+| $5 < x \text{less} - \text{than} or \text{slanted} \text{equal} to 10$ | 48 |   |   |
+| $10 < x \text{less} - \text{than} or \text{slanted} \text{equal} to 15$ | 30 |   |   |
+| $15 < x \text{less} - \text{than} or \text{slanted} \text{equal} to 20$ | 22 |   |   |
 |   | Total = 120 |   |   |
 
 Work out an estimate for the mean distance.
@@ -614,11 +614,11 @@ A shop records the time taken by its customers to complete a purchase on its web
 
 | Time taken ($t$ minutes) | Number of customers |   |   |
 |---|---|---|---|
-| `0 space less than space t space less-than or slanted equal to space 3` | 6 |   |   |
-| `3 less than space t space less-than or slanted equal to space 6` | 10 |   |   |
-| `6 space less than space t space less-than or slanted equal to space 9` | 6 |   |   |
-| `9 space less than space t space less-than or slanted equal to space 12` | 2 |   |   |
-| `12 space less than space t space less-than or slanted equal to space 15` | 1 |   |   |
+| $0 < t \text{less} - \text{than} or \text{slanted} \text{equal} to 3$ | 6 |   |   |
+| $3 < t \text{less} - \text{than} or \text{slanted} \text{equal} to 6$ | 10 |   |   |
+| $6 < t \text{less} - \text{than} or \text{slanted} \text{equal} to 9$ | 6 |   |   |
+| $9 < t \text{less} - \text{than} or \text{slanted} \text{equal} to 12$ | 2 |   |   |
+| $12 < t \text{less} - \text{than} or \text{slanted} \text{equal} to 15$ | 1 |   |   |
 
 Calculate an estimate of the mean time taken.
 
@@ -635,11 +635,11 @@ The speeds are recorded in the table below.
 
 | **Speed (s mph)** | **Number of** **vehicles** |   |   |
 |---|---|---|---|
-| `0 space less than space s space less-than or slanted equal to 20` | 5 |   |   |
-| `20 space less than space s space less-than or slanted equal to 40` | 8 |   |   |
-| `40 space less than space s space less-than or slanted equal to 50` | 37 |   |   |
-| `50 space less than space s space less-than or slanted equal to 60` | 47 |   |   |
-| `60 space less than space s space less-than or slanted equal to 80` | 3 |   |   |
+| $0 < s \text{less} - \text{than} or \text{slanted} \text{equal} to 20$ | 5 |   |   |
+| $20 < s \text{less} - \text{than} or \text{slanted} \text{equal} to 40$ | 8 |   |   |
+| $40 < s \text{less} - \text{than} or \text{slanted} \text{equal} to 50$ | 37 |   |   |
+| $50 < s \text{less} - \text{than} or \text{slanted} \text{equal} to 60$ | 47 |   |   |
+| $60 < s \text{less} - \text{than} or \text{slanted} \text{equal} to 80$ | 3 |   |   |
 
 i)  Calculate an estimate of the mean speed of the vehicles.
 
@@ -656,10 +656,10 @@ Ceri records the time taken, $t$ minutes, to travel to school for a sample of 16
 
 | **Time taken** **(**$t$** minutes)** | **Frequency** |
 |---|---|
-| `0 space less than space t space less-than or slanted equal to space 10` | 54 |
-| `10 space less than space t space less-than or slanted equal to space 20` | 50 |
-| `20 space less than space t space less-than or slanted equal to space 40` | 44 |
-| `40 space less than space t space less-than or slanted equal to space 80` | 20 |
+| $0 < t \text{less} - \text{than} or \text{slanted} \text{equal} to 10$ | 54 |
+| $10 < t \text{less} - \text{than} or \text{slanted} \text{equal} to 20$ | 50 |
+| $20 < t \text{less} - \text{than} or \text{slanted} \text{equal} to 40$ | 44 |
+| $40 < t \text{less} - \text{than} or \text{slanted} \text{equal} to 80$ | 20 |
 
 Ceri says
 
@@ -740,12 +740,12 @@ The table shows information about the lengths, in minutes, of 50 telephone calls
 
 | Length of telephone call ($m$ minutes) | Frequency |
 |---|---|
-| `0 space less than space m space less-than or slanted equal to space 5` | 8 |
-| `5 space less than space m space less-than or slanted equal to space 10` | 2 |
-| `10 space less than space m space less-than or slanted equal to space 15` | 6 |
-| `15 space less than space m space less-than or slanted equal to space 20` | 4 |
-| `20 space less than space m space less-than or slanted equal to space 25` | 12 |
-| `25 space less than space m space less-than or slanted equal to space 30` | 18 |
+| $0 < m \text{less} - \text{than} or \text{slanted} \text{equal} to 5$ | 8 |
+| $5 < m \text{less} - \text{than} or \text{slanted} \text{equal} to 10$ | 2 |
+| $10 < m \text{less} - \text{than} or \text{slanted} \text{equal} to 15$ | 6 |
+| $15 < m \text{less} - \text{than} or \text{slanted} \text{equal} to 20$ | 4 |
+| $20 < m \text{less} - \text{than} or \text{slanted} \text{equal} to 25$ | 12 |
+| $25 < m \text{less} - \text{than} or \text{slanted} \text{equal} to 30$ | 18 |
 
 Write down the modal class.
 
@@ -914,7 +914,7 @@ Work out an estimate for the mean height.
 ### 5((a)) — 3 marks — command: work_out — structured — from paper 2017	November · 1MA1/1H
 The table shows information about the weekly earnings of $20$people who work in a shop.
 
-| **Weekly earnings(**`bold £ bold italic x`**)** | **Frequency** |
+| **Weekly earnings(**$\pounds x$**)** | **Frequency** |
 |---|---|
 | `150 less than x less-than or slanted equal to 250` | $1$ |
 | `250 less than x less-than or slanted equal to 350` | $11$ |

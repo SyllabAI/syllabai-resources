@@ -98,11 +98,11 @@ $\mathrm{Labour} \mathrm{force} \mathrm{participation} \mathrm{rate}=\frac{\math
 > 
 > **Step 3: Calculate the unemployment rate**
 > 
-> **   **`equals fraction numerator Number space actively space seeking over denominator Total space labour space force end fraction space straight x space 100
+> **   **$= \frac{Number \text{actively} seeking}{Total \text{labour} force} \mathrm{x} 100
 > 
-> equals space fraction numerator 600 comma 000 over denominator 2 comma 400 comma 000 end fraction space straight x space 100
+> = \frac{600 , 000}{2 , 400 , 000} \mathrm{x} 100
 > 
-> equals space 25 percent sign`
+> = 25 \%$
 
 ## Using the Labour Force Survey (LFS) to measure unemployment
 
@@ -135,6 +135,6 @@ $\mathrm{Labour} \mathrm{force} \mathrm{participation} \mathrm{rate}=\frac{\math
 > 
 > If Egypt’s labour force is 30 million:
 > 
-> `Unemployment space rate space equals space fraction numerator 2.3 over denominator 30 end fraction space straight x space 100
+> $\text{Unemployment} \text{rate} = \frac{2.3}{30} \mathrm{x} 100
 > 
-> equals space 7.7 percent sign`
+> = 7.7 \%$

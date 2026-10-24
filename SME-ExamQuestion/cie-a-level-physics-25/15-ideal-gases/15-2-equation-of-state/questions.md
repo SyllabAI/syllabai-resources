@@ -331,7 +331,7 @@ Calculate the percentage of the number of moles lost from the cylinder.
 
 **Q10** [2 marks]
 
-Calculate the number of molecules in a gas containing 120 g of `straight O presubscript 8 presuperscript 16`.
+Calculate the number of molecules in a gas containing 120 g of `O _ 8 ^ 16`.
 
 **Q10** [3 marks]
 

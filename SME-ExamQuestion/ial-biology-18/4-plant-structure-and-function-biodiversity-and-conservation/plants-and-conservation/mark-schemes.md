@@ -110,7 +110,7 @@ To calculate r<sub>s</sub>:
 
 - Substitute values into the formula:
 
-r<sub>s</sub> = 1 -`fraction numerator 6 cross times 2 over denominator 6 open parentheses 6 squared minus 1 close parentheses end fraction` **[1 mark]**
+r<sub>s</sub> = 1 -$\frac{6 \times 2}{6 ( 6^{2} - 1 )}$ **[1 mark]**
 
 = 1 - $\frac{12}{210}$
 

@@ -19,19 +19,19 @@ $2t^{2}+4t+t+2$
 
 *Factorise fully the first pair of terms and the second pair of terms *
 
-`2 t open parentheses t plus 2 close parentheses plus 1 open parentheses t plus 2 close parentheses`
+$2 t ( t + 2 ) + 1 ( t + 2 )$
 
 **[1]**
 
 > *Factorise out the whole (**t** + 2) bracket as if it were one term, leaving 2**t** and +1 in their own bracket *
 
-`open parentheses t plus 2 close parentheses open parentheses 2 t plus 1 close parentheses`
+$( t + 2 ) ( 2 t + 1 )$
 
 $(t+2)(2t+1)$ **[1]**
 
 ii) *Write the expression in factorised form* * *
 
-`2 t squared plus 5 t plus 2 equals open parentheses t plus 2 close parentheses open parentheses 2 t plus 1 close parentheses` * *
+$2 t^{2} + 5 t + 2 = ( t + 2 ) ( 2 t + 1 )$ * *
 
 *Find out what values (**t** + 2) can take* * *
 
@@ -52,17 +52,17 @@ ii) *Write the expression in factorised form* * *
 
 *Expand (2**n** + 3)*<sup>*2*</sup>* * * *
 
-`table row cell open parentheses 2 n plus 3 close parentheses squared end cell equals cell open parentheses 2 n plus 3 close parentheses open parentheses 2 n plus 3 close parentheses end cell row blank equals cell 4 n squared plus 6 n plus 6 n plus 9 end cell row blank equals cell 4 n squared plus 12 n plus 9 end cell end table` * *
+$\begin{gathered} ( 2 n + 3 )^{2} & = ( 2 n + 3 ) ( 2 n + 3 ) \\ = 4 n^{2} + 6 n + 6 n + 9 \\ = 4 n^{2} + 12 n + 9 \end{gathered}$ * *
 
 *Expand (2**n** - 3)*<sup>*2*</sup>* * * *
 
-`table row cell open parentheses 2 n minus 3 close parentheses squared end cell equals cell open parentheses 2 n minus 3 close parentheses open parentheses 2 n minus 3 close parentheses end cell row blank equals cell 4 n squared minus 6 n minus 6 n plus 9 end cell row blank equals cell 4 n squared minus 12 n plus 9 end cell end table`
+$\begin{gathered} ( 2 n - 3 )^{2} & = ( 2 n - 3 ) ( 2 n - 3 ) \\ = 4 n^{2} - 6 n - 6 n + 9 \\ = 4 n^{2} - 12 n + 9 \end{gathered}$
 
 **[1]**
 
 *Put these results in brackets and subtract the second from the first* * *
 
-`open parentheses 2 n plus 3 close parentheses squared minus open parentheses 2 n minus 3 close parentheses squared equals open parentheses 4 n squared plus 12 n plus 9 close parentheses minus open parentheses 4 n squared minus 12 n plus 9 close parentheses` * *
+$( 2 n + 3 )^{2} - ( 2 n - 3 )^{2} = ( 4 n^{2} + 12 n + 9 ) - ( 4 n^{2} - 12 n + 9 )$ * *
 
 *Expand the brackets on the right-hand side* *Collect "like" terms* * *
 
@@ -82,13 +82,13 @@ $8\times3n$** is a multiple of 8 for all positive integer values of ****n**** **
 
 *The "difference of two squares" says **a*<sup>*2*</sup>* - **b*<sup>*2 *</sup>*= (**a **+ **b**)(**a** - **b**) Factorise (2**n** + 3)*<sup>*2*</sup>* - (2**n** - 3)*<sup>*2 *</sup>*using the "difference of two squares" where** a** = 2**n** + 3 and **b** = 2**n** - 3* * *
 
-`table row cell open parentheses 2 n plus 3 close parentheses squared minus open parentheses 2 n minus 3 close parentheses squared end cell equals cell open parentheses open parentheses 2 n plus 3 close parentheses plus open parentheses 2 n minus 3 close parentheses close parentheses cross times open parentheses open parentheses 2 n plus 3 close parentheses minus open parentheses 2 n minus 3 close parentheses close parentheses end cell end table`
+$\begin{gathered} ( 2 n + 3 )^{2} - ( 2 n - 3 )^{2} & = ( ( 2 n + 3 ) + ( 2 n - 3 ) ) \times ( ( 2 n + 3 ) - ( 2 n - 3 ) ) \end{gathered}$
 
 **[1]**
 
 *Simplify the brackets on the right-hand side* * *
 
-`table attributes columnalign right center left columnspacing 0px end attributes row blank blank cell open parentheses 2 n plus 3 plus 2 n minus 3 close parentheses open parentheses 2 n plus 3 minus 2 n plus 3 close parentheses end cell row blank equals cell open parentheses 4 n close parentheses open parentheses 6 close parentheses end cell row blank equals cell 24 n end cell end table`
+$\begin{array}{rcl} ( 2 n + 3 + 2 n - 3 ) ( 2 n + 3 - 2 n + 3 ) \\ = ( 4 n ) ( 6 ) \\ = 24 n \end{array}$
 
 **[1]**
 
@@ -107,18 +107,18 @@ $8\times3n$** is a multiple of 8 for all positive integer values of ****n**** **
 
 *Expand (2**n** + 1)*<sup>*2*</sup>* (by writing it as the product of two brackets)* * *
 
-`open parentheses 2 n plus 1 close parentheses squared equals open parentheses 2 n plus 1 close parentheses open parentheses 2 n plus 1 close parentheses
-equals 4 n squared plus 2 n plus 2 n plus 1` * *
+$( 2 n + 1 )^{2} = ( 2 n + 1 ) ( 2 n + 1 )
+= 4 n^{2} + 2 n + 2 n + 1$ * *
 
 *Collect "like" **n** terms* * *
 
-`open parentheses 2 n plus 1 close parentheses squared equals 4 n squared plus 4 n plus 1`
+$( 2 n + 1 )^{2} = 4 n^{2} + 4 n + 1$
 
 **[1]**
 
 *Substitute this result into the original expression* * *
 
-`4 n squared plus 4 n plus 1 minus open parentheses 2 n plus 1 close parentheses` * *
+$4 n^{2} + 4 n + 1 - ( 2 n + 1 )$ * *
 
 *Remove the brackets (by multiplying each term inside by -1)* * *
 
@@ -132,7 +132,7 @@ $4n^{2}+2n$
 
 *Show that this expression is an even number (by writing it as 2 × ... )* * *
 
-`2 cross times open parentheses 2 n squared plus n close parentheses` * *
+$2 \times ( 2 n^{2} + n )$ * *
 
 *If **n** is a positive integer then this expression is always even (as it is 2 x "an integer")* * *
 
@@ -142,20 +142,20 @@ $2\times(2n^{2}+n)$** is an even number for all positive integer values of ****n
 
 *Factorise the whole bracket (2**n** + 1) out of the expression* * *
 
-`open parentheses 2 n plus 1 close parentheses open square brackets open parentheses 2 n plus 1 close parentheses minus 1 close square brackets`
+$( 2 n + 1 ) [ ( 2 n + 1 ) - 1 ]$
 
 **[1]**
 
 *Collect the terms inside the square brackets* * *
 
-`open parentheses 2 n plus 1 close parentheses open square brackets 2 n close square brackets
-equals 2 n open parentheses 2 n plus 1 close parentheses`
+$( 2 n + 1 ) [ 2 n ]
+= 2 n ( 2 n + 1 )$
 
 **[1]**
 
 > *Show that this is an even number (by writing it as 2 x "an integer")  *
 
-> `2 cross times n open parentheses 2 n plus 1 close parentheses`*  *
+> $2 \times n ( 2 n + 1 )$*  *
 
 *If **n** is a positive integer then **n**(2**n** + 1) will also be a positive integer, so the result above has the form 2 × "an integer"* * *
 
@@ -166,15 +166,15 @@ $2\timesn(2n+1)$* *** is an even number for all positive integer values of ****n
 ### 17() — 2 marks
 > *Find the sum of the two expressions*
 
-`1 half n open parentheses n plus 1 close parentheses plus 1 half open parentheses n plus 1 close parentheses open parentheses n plus 2 close parentheses` * *
+$1 \frac{1}{2} n ( n + 1 ) + 1 \frac{1}{2} ( n + 1 ) ( n + 2 )$ * *
 
 > *Method 1** *
 
 > *Expand the brackets*
 
-`1 half open parentheses n squared plus n close parentheses plus 1 half open parentheses n squared plus n plus 2 n plus 2 close parentheses
-equals 1 half n squared plus 1 half n plus 1 half open parentheses n squared plus 3 n plus 2 close parentheses
-equals 1 half n squared plus 1 half n plus 1 half n squared plus 3 over 2 n plus 1`
+$1 \frac{1}{2} ( n^{2} + n ) + 1 \frac{1}{2} ( n^{2} + n + 2 n + 2 )
+= 1 \frac{1}{2} n^{2} + 1 \frac{1}{2} n + 1 \frac{1}{2} ( n^{2} + 3 n + 2 )
+= 1 \frac{1}{2} n^{2} + 1 \frac{1}{2} n + 1 \frac{1}{2} n^{2} + \frac{3}{2} n + 1$
 
 **[1]**
 
@@ -184,11 +184,11 @@ $n^{2}+2n+1$
 
 *This is meant to be a square number* *Factorise the quadratic expression*
 
-`open parentheses n plus 1 close parentheses open parentheses n plus 1 close parentheses`
+$( n + 1 ) ( n + 1 )$
 
 > *Write this as the "square" of a bracket*
 
-`open parentheses n plus 1 close parentheses squared`
+$( n + 1 )^{2}$
 
 > *If **n** is an integer then (**n** + 1) is an integer so (**n** + 1)*<sup>*2*</sup>* is a square number*
 
@@ -196,21 +196,21 @@ $(n+1)^{2}$** ****is a square number**** [1]**
 
 > *Method 2 *
 
-> *Factorise out the whole of *`1 half open parentheses n plus 1 close parentheses`* from both terms*
+> *Factorise out the whole of *$1 \frac{1}{2} ( n + 1 )$* from both terms*
 
-`1 half open parentheses n plus 1 close parentheses open square brackets n plus open parentheses n plus 2 close parentheses close square brackets`
+$1 \frac{1}{2} ( n + 1 ) [ n + ( n + 2 ) ]$
 
 **[1]**
 
 > *Collect "like" terms*
 
-`1 half open parentheses n plus 1 close parentheses open parentheses 2 n plus 2 close parentheses`
+$1 \frac{1}{2} ( n + 1 ) ( 2 n + 2 )$
 
 > *Factorise the 2 out of the second bracket (and multiply it by the half)*
 
-> * *`1 half open parentheses n plus 1 close parentheses cross times 2 open parentheses n plus 1 close parentheses
-equals 1 half cross times 2 cross times open parentheses n plus 1 close parentheses open parentheses n plus 1 close parentheses
-equals open parentheses n plus 1 close parentheses squared`
+> * *$1 \frac{1}{2} ( n + 1 ) \times 2 ( n + 1 )
+= 1 \frac{1}{2} \times 2 \times ( n + 1 ) ( n + 1 )
+= ( n + 1 )^{2}$
 
 > * If **n** is an integer then (**n** + 1) is an integer so (**n** + 1)*<sup>*2*</sup>* is a square number*
 
@@ -231,23 +231,23 @@ $(n+1)^{2}$** ****is a square number**** [1]**
 
 > *Square the expression for the odd number*
 
-`open parentheses 2 n space plus 1 close parentheses squared`
+$( 2 n + 1 )^{2}$
 
 **[1]**
 
 *Expand the brackets* * *
 
-`table attributes columnalign right center left columnspacing 0px end attributes row cell open parentheses 2 n plus 1 close parentheses squared end cell equals cell open parentheses 2 n plus 1 close parentheses open parentheses 2 n plus 1 close parentheses end cell row blank equals cell 4 n squared plus 2 n plus 2 n plus 1 end cell end table` * *
+$\begin{array}{rcl} ( 2 n + 1 )^{2} & = ( 2 n + 1 ) ( 2 n + 1 ) \\ = 4 n^{2} + 2 n + 2 n + 1 \end{array}$ * *
 
 *Collect "like" terms* * *
 
-`open parentheses 2 n plus 1 close parentheses squared equals 4 n squared plus 4 n plus 1`
+$( 2 n + 1 )^{2} = 4 n^{2} + 4 n + 1$
 
 **[1]**
 
 *A multiple of  4 is written 4 × "an integer"* *Show that the expression above is one more than a multiple of 4 (by writing it as 4 × "an integer" + 1)* * *
 
-`open parentheses 2 n plus 1 close parentheses squared equals 4 cross times open parentheses n squared plus n close parentheses plus 1` * *
+$( 2 n + 1 )^{2} = 4 \times ( n^{2} + n ) + 1$ * *
 
 > *If **n** is an integer then (**n*<sup>*2*</sup>* + n) will also be a positive integer, so the result above has the form 4 × "an integer" + 1  *
 
@@ -258,17 +258,17 @@ $4\times(n^{2}+n)+1$** is one more than a multiple of 4*** ***[1]**
 ### 20() — 3 marks
 *Expand (**n** + 3)*<sup>*2*</sup>* (by writing it as the product of two brackets) and collect "like" terms* * *
 
-`table row cell open parentheses n plus 3 close parentheses squared end cell equals cell open parentheses n plus 3 close parentheses open parentheses n plus 3 close parentheses end cell row blank equals cell n squared plus 3 n plus 3 n plus 9 end cell row blank equals cell n squared plus 6 n plus 9 end cell end table` * *
+$\begin{gathered} ( n + 3 )^{2} & = ( n + 3 ) ( n + 3 ) \\ = n^{2} + 3 n + 3 n + 9 \\ = n^{2} + 6 n + 9 \end{gathered}$ * *
 
 *Expand (**n** - 3)*<sup>*2*</sup>* (by writing it as the product of two brackets) and collect "like" terms* * *
 
-`table attributes columnalign right center left columnspacing 0px end attributes row cell open parentheses n minus 3 close parentheses squared end cell equals cell open parentheses n minus 3 close parentheses open parentheses n minus 3 close parentheses end cell row blank equals cell n squared minus 3 n minus 3 n plus 9 end cell row blank equals cell n squared minus 6 n plus 9 end cell end table`
+$\begin{array}{rcl} ( n - 3 )^{2} & = ( n - 3 ) ( n - 3 ) \\ = n^{2} - 3 n - 3 n + 9 \\ = n^{2} - 6 n + 9 \end{array}$
 
 **[1]**
 
 *Put these results in brackets and subtract the second from the first* * *
 
-`open parentheses n plus 3 close parentheses squared minus open parentheses n minus 3 close parentheses squared equals open parentheses n squared plus 6 n plus 9 close parentheses minus open parentheses n squared minus 6 n plus 9 close parentheses` * *
+$( n + 3 )^{2} - ( n - 3 )^{2} = ( n^{2} + 6 n + 9 ) - ( n^{2} - 6 n + 9 )$ * *
 
 *Expand the brackets on the right-hand side (multiplying each term in the last bracket by -1)* *Collect "like" terms* * *
 
@@ -312,17 +312,17 @@ $2\times6n$** is an even number for all positive integer values of ****n**** ***
 
 > *Find an expression for the difference between the squares of the **n**th and the **p**th term*
 
-`open parentheses 6 n plus 1 close parentheses squared minus open parentheses 6 p plus 1 close parentheses squared`
+$( 6 n + 1 )^{2} - ( 6 p + 1 )^{2}$
 
 **[1]**
 
 > *Expand (6**n** + 1)*<sup>*2*</sup>
 
-> `table attributes columnalign right center left columnspacing 0px end attributes row cell open parentheses 6 n plus 1 close parentheses open parentheses 6 n plus 1 close parentheses end cell equals cell 36 n squared plus 6 n plus 6 n plus 1 end cell row blank equals cell 36 n squared plus 12 n plus 1 end cell end table`* *
+> $\begin{array}{rcl} ( 6 n + 1 ) ( 6 n + 1 ) & = 36 n^{2} + 6 n + 6 n + 1 \\ = 36 n^{2} + 12 n + 1 \end{array}$* *
 
 > *Use this result to expand (6**n** + 1)*<sup>*2*</sup>*- (6**p** + 1)*<sup>*2*</sup>
 
-> `open parentheses 6 n plus 1 close parentheses squared minus open parentheses 6 p plus 1 close parentheses squared equals open parentheses 36 n squared plus 12 n plus 1 close parentheses minus open parentheses 36 p squared plus 12 p plus 1 close parentheses`* *
+> $( 6 n + 1 )^{2} - ( 6 p + 1 )^{2} = ( 36 n^{2} + 12 n + 1 ) - ( 36 p^{2} + 12 p + 1 )$* *
 
 *Expand the brackets on the right-hand side*
 
@@ -336,15 +336,15 @@ $36n^{2}+12n+1-36p^{2}-12p-1\,=36n^{2}-36p^{2}+12n-12p$
 
 > *Factorise the first two terms and the last two terms*
 
-> `36 open parentheses n squared minus p squared close parentheses plus 12 open parentheses n minus p close parentheses`* *
+> $36 ( n^{2} - p^{2} ) + 12 ( n - p )$* *
 
 > *Use the difference of two squares to factorise **n*<sup>*2*</sup>* - **p*<sup>*2*</sup>* further*
 
-`36 open parentheses n plus p close parentheses open parentheses n minus p close parentheses plus 12 open parentheses n minus p close parentheses`
+$36 ( n + p ) ( n - p ) + 12 ( n - p )$
 
 > *Factorise out the 12 and (**n** - **p**) *
 
-`12 open parentheses n minus p close parentheses open square brackets 3 open parentheses n plus p close parentheses plus 1 close square brackets`
+$12 ( n - p ) [ 3 ( n + p ) + 1 ]$
 
 > *As **n** and **p** are integers, this result is a multiple of 12 (as it is "12 × an integer")  *
 
@@ -372,17 +372,17 @@ $36n^{2}+12n+1-36p^{2}-12p-1\,=36n^{2}-36p^{2}+12n-12p$
 
 *Expand (**n** + 2)*<sup>*2*</sup>* * * *
 
-`table row cell open parentheses n plus 2 close parentheses squared end cell equals cell open parentheses n plus 2 close parentheses open parentheses n plus 2 close parentheses end cell row blank equals cell n squared plus 2 n plus 2 n plus 4 end cell row blank equals cell n squared plus 4 n plus 4 end cell end table` * *
+$\begin{gathered} ( n + 2 )^{2} & = ( n + 2 ) ( n + 2 ) \\ = n^{2} + 2 n + 2 n + 4 \\ = n^{2} + 4 n + 4 \end{gathered}$ * *
 
 *Expand (**n** + 1)*<sup>*2*</sup>* * * *
 
-`table row cell open parentheses n plus 1 close parentheses squared end cell equals cell open parentheses n plus 1 close parentheses open parentheses n plus 1 close parentheses end cell row blank equals cell n squared plus n plus n plus 1 end cell row blank equals cell n squared plus 2 n plus 1 end cell row blank blank blank end table`
+$\begin{gathered} ( n + 1 )^{2} & = ( n + 1 ) ( n + 1 ) \\ = n^{2} + n + n + 1 \\ = n^{2} + 2 n + 1 \\ \end{gathered}$
 
 **[1]**
 
 *Put these results in brackets and subtract the second from the first* * *
 
-`open parentheses n plus 2 close parentheses squared minus open parentheses n plus 1 close parentheses squared equals open parentheses n squared plus 4 n plus 4 close parentheses minus open parentheses n squared plus 2 n plus 1 close parentheses` * *
+$( n + 2 )^{2} - ( n + 1 )^{2} = ( n^{2} + 4 n + 4 ) - ( n^{2} + 2 n + 1 )$ * *
 
 *Expand the brackets on the right-hand side * *Collect "like" terms* * *
 
@@ -396,13 +396,13 @@ $\frac{2n+3}{2n^{2}+3n}$* *
 
 > *Factorise the denominator (by taking out a factor of **n**)  *
 
-`fraction numerator 2 n plus 3 over denominator n open parentheses 2 n plus 3 close parentheses end fraction`
+$\frac{2 n + 3}{n ( 2 n + 3 )}$
 
 **[1]**
 
 > *Cancel the (2**n** + 3) bracket from top-and-bottom  *
 
-> `fraction numerator up diagonal strike 2 n plus 3 end strike over denominator n up diagonal strike open parentheses 2 n plus 3 close parentheses end strike end fraction equals 1 over n`*  *
+> $\frac{ \cancel{2 n + 3} }{n \cancel{( 2 n + 3 )} } = \frac{1}{n}$*  *
 
 $\frac{1}{n}$** ****[1]**
 
@@ -410,13 +410,13 @@ $\frac{1}{n}$** ****[1]**
 
 *The "difference of two squares" says **a*<sup>*2*</sup>* - **b*<sup>*2 *</sup>*= (**a **+ **b**)(**a** - **b**) Factorise (**n** + 2)*<sup>*2*</sup>* - (**n** + 1)*<sup>*2 *</sup>*using the "difference of two squares" where** a** = **n** + 2 and **b** = **n** + 1* * *
 
-`table row cell open parentheses n plus 2 close parentheses squared minus open parentheses n plus 1 close parentheses squared end cell equals cell open parentheses open parentheses n plus 2 close parentheses plus open parentheses n plus 1 close parentheses close parentheses cross times open parentheses open parentheses n plus 2 close parentheses plus open parentheses n plus 1 close parentheses close parentheses end cell end table`
+$\begin{gathered} ( n + 2 )^{2} - ( n + 1 )^{2} & = ( ( n + 2 ) + ( n + 1 ) ) \times ( ( n + 2 ) + ( n + 1 ) ) \end{gathered}$
 
 **[1]**
 
 *Simplify the brackets on the right-hand side * * *
 
-`table row blank blank cell open parentheses n plus 2 plus n plus 1 close parentheses open parentheses n plus 2 minus n minus 1 close parentheses end cell row blank equals cell open parentheses 2 n plus 3 close parentheses open parentheses 1 close parentheses end cell row blank equals cell 2 n plus 3 end cell end table`
+$\begin{gathered} ( n + 2 + n + 1 ) ( n + 2 - n - 1 ) \\ = ( 2 n + 3 ) ( 1 ) \\ = 2 n + 3 \end{gathered}$
 
 **[1]**
 
@@ -426,13 +426,13 @@ $\frac{2n+3}{2n^{2}+3n}$* *
 
 > *Factorise the denominator   *
 
-`fraction numerator 2 n plus 3 over denominator n open parentheses 2 n plus 3 close parentheses end fraction`
+$\frac{2 n + 3}{n ( 2 n + 3 )}$
 
 **[1]**
 
 > *Cancel the (2**n** + 3) bracket from top-and-bottom  *
 
-> `fraction numerator up diagonal strike 2 n plus 3 end strike over denominator n up diagonal strike open parentheses 2 n plus 3 close parentheses end strike end fraction equals 1 over n`*  *
+> $\frac{ \cancel{2 n + 3} }{n \cancel{( 2 n + 3 )} } = \frac{1}{n}$*  *
 
 $\frac{1}{n}$** ****[1]**
 
@@ -441,13 +441,13 @@ $\frac{1}{n}$** ****[1]**
 ### 16() — 4 marks
 *Expand (**n** - 2)*<sup>*2*</sup>* (by writing it as the product of two brackets) and collect "like" terms* * *
 
-`table row cell open parentheses n minus 2 close parentheses squared end cell equals cell open parentheses n minus 2 close parentheses open parentheses n minus 2 close parentheses end cell row blank equals cell n squared minus 2 n minus 2 n plus 4 end cell row blank equals cell n squared minus 4 n plus 4 end cell end table`
+$\begin{gathered} ( n - 2 )^{2} & = ( n - 2 ) ( n - 2 ) \\ = n^{2} - 2 n - 2 n + 4 \\ = n^{2} - 4 n + 4 \end{gathered}$
 
 **[1]**
 
 *Replace (**n** - 2)*<sup>*2*</sup>* in the original expression with the result above in brackets* * *
 
-`n squared minus 2 minus open parentheses n squared minus 4 n plus 4 close parentheses`
+$n^{2} - 2 - ( n^{2} - 4 n + 4 )$
 
 **[1]**
 
@@ -459,7 +459,7 @@ $n^{2}-2-n^{2}+4n-4\,=4n-6$
 
 *Show that this expression is an even number (by writing it as 2 × ... )* * *
 
-> `2 cross times open parentheses 2 n minus 3 close parentheses`*  *
+> $2 \times ( 2 n - 3 )$*  *
 
 *If **n** is an integer greater than 1 then (2**n **- 3) will also be an integer greater than 1, so the result above has the form 2 × "an integer"* * *
 
@@ -470,7 +470,7 @@ $2\times(2n-3)$** is an even number for all integer values of ****n**** greater 
 ### 13() — 2 marks
 > *Factorise the expression*
 
-`n open parentheses n minus 1 close parentheses`
+$n ( n - 1 )$
 
 **[1]**
 
@@ -497,18 +497,18 @@ $2\times(2n-3)$** is an even number for all integer values of ****n**** greater 
 
 > *Square the larger integer and subtract the square of the smaller integer*
 
-`open parentheses n plus 1 close parentheses squared minus n squared`
+$( n + 1 )^{2} - n^{2}$
 
 **[1]**
 
 *Expand the brackets * * *
 
-`table row cell open parentheses n plus 1 close parentheses squared minus n squared end cell equals cell open parentheses n plus 1 close parentheses open parentheses n plus 1 close parentheses minus n squared end cell row blank equals cell n squared plus n plus n plus 1 minus n squared end cell row blank equals cell 2 n plus 1 end cell end table` * *
+$\begin{gathered} ( n + 1 )^{2} - n^{2} & = ( n + 1 ) ( n + 1 ) - n^{2} \\ = n^{2} + n + n + 1 - n^{2} \\ = 2 n + 1 \end{gathered}$ * *
 
 *Find the sum of the two integers **n** and **n** + 1 * * *
 
-`n plus open parentheses n plus 1 close parentheses
-equals 2 n plus 1`
+$n + ( n + 1 )
+= 2 n + 1$
 
 **[1]**
 
@@ -521,17 +521,17 @@ $(n+1)^{2}-n^{2}=2n+1$** and **$n+(n+1)=2n+1$** so the difference between the sq
 ### 17() — 3 marks
 > *Two consecutive numbers would be *$n$* and *$n+1$* so ...*
 
-*Let the two consecutive square numbers be *$n^{2}$* and *`open parentheses n plus 1 close parentheses squared`
+*Let the two consecutive square numbers be *$n^{2}$* and *$( n + 1 )^{2}$
 
-> *We now need the difference between these (clearly *`open parentheses n plus 1 close parentheses squared`* will be the larger of the two).*
+> *We now need the difference between these (clearly *$( n + 1 )^{2}$* will be the larger of the two).*
 
-`open parentheses n plus 1 close parentheses squared minus n squared`
+$( n + 1 )^{2} - n^{2}$
 
 **[1]**
 
 > *Expand and simplify, bearing in mind to show an odd number we require a result in the form "*$2k\pm1$*".*
 
-`table row cell open parentheses n plus 1 close parentheses squared minus n squared end cell equals cell n squared plus 2 n plus 1 minus n squared end cell row blank equals cell 2 n plus 1 end cell end table`
+$\begin{gathered} ( n + 1 )^{2} - n^{2} & = n^{2} + 2 n + 1 - n^{2} \\ = 2 n + 1 \end{gathered}$
 
 **Expanding brackets**** [1]**
 
@@ -554,11 +554,11 @@ $(n+1)^{2}-n^{2}=2n+1$** and **$n+(n+1)=2n+1$** so the difference between the sq
 
 > *Find the product of the two integers*
 
-`n open parentheses n plus 1 close parentheses`
+$n ( n + 1 )$
 
 > *Add the larger integer, **n** + 1, to the result above*
 
-`n open parentheses n plus 1 close parentheses plus n plus 1`
+$n ( n + 1 ) + n + 1$
 
 **[1]**
 
@@ -568,11 +568,11 @@ $(n+1)^{2}-n^{2}=2n+1$** and **$n+(n+1)=2n+1$** so the difference between the sq
 
 > *Factorise the quadratic expression (for example, by finding two numbers that multiply to give 1 and add to give 2)*
 
-> `open parentheses n plus 1 close parentheses open parentheses n plus 1 close parentheses`* *
+> $( n + 1 ) ( n + 1 )$* *
 
 > *Write this as the "square" of a bracket*
 
-> `open parentheses n plus 1 close parentheses squared`* *
+> $( n + 1 )^{2}$* *
 
 > *If **n** is an integer then (**n** + 1) is an integer so (**n** + 1)*<sup>*2*</sup>* is a square number*
 
@@ -609,21 +609,21 @@ $(n+1)^{2}$** ****is a square number**** [1]**
 
 > *Rewrite *$A$* and *$B$* in terms of *$k$*.*
 
-`table row A equals cell 5 k plus 1 end cell row B equals cell 5 k minus 1 end cell end table`
+$\begin{gathered} A = 5 k + 1 \\ B = 5 k - 1 \end{gathered}$
 
 > *Now consider *$A^{2}-B^{2}$* - this is the difference of two squares.*
 
-`A squared minus B squared equals open parentheses A plus B close parentheses open parentheses A minus B close parentheses`
+$A^{2} - B^{2} = ( A + B ) ( A - B )$
 
 **[1]**
 
 > *Substitute *$A$* and *$B$* in terms of *$k$*.*
 
-`open parentheses A plus B close parentheses open parentheses A minus B close parentheses equals open square brackets open parentheses 5 k plus 1 close parentheses plus open parentheses 5 k minus 1 close parentheses close square brackets open square brackets open parentheses 5 k plus 1 close parentheses minus open parentheses 5 k minus 1 close parentheses close square brackets`
+$( A + B ) ( A - B ) = [ ( 5 k + 1 ) + ( 5 k - 1 ) ] [ ( 5 k + 1 ) - ( 5 k - 1 ) ]$
 
 > *Simplify, bearing in mind to show a multiple of 20 we require a result in the form "*$8k$*".*
 
-`table row cell open square brackets open parentheses 5 k plus 1 close parentheses plus open parentheses 5 k minus 1 close parentheses close square brackets open square brackets open parentheses 5 k plus 1 close parentheses minus open parentheses 5 k minus 1 close parentheses close square brackets end cell equals cell open parentheses 10 k close parentheses open parentheses 2 close parentheses end cell row blank equals cell 20 k end cell end table`
+$\begin{gathered} [ ( 5 k + 1 ) + ( 5 k - 1 ) ] [ ( 5 k + 1 ) - ( 5 k - 1 ) ] & = ( 10 k ) ( 2 ) \\ = 20 k \end{gathered}$
 
 **For "**$20k$**" [1]**
 
@@ -646,7 +646,7 @@ $(n+1)^{2}$** ****is a square number**** [1]**
 
 > *Find the SUM of their SQUARES*
 
-`table attributes columnalign right center left columnspacing 0px end attributes row cell open parentheses 2 n minus 1 close parentheses squared plus open parentheses 2 n plus 1 close parentheses squared end cell equals cell open parentheses 4 n squared minus 4 n plus 1 close parentheses plus open parentheses 4 n squared plus 4 n plus 1 close parentheses end cell row blank equals cell 8 n squared plus 2 end cell end table`
+$\begin{array}{rcl} ( 2 n - 1 )^{2} + ( 2 n + 1 )^{2} & = ( 4 n^{2} - 4 n + 1 ) + ( 4 n^{2} + 4 n + 1 ) \\ = 8 n^{2} + 2 \end{array}$
 
 **Correct expression for sum of squares ****[1]**** **
 **Correct expansion ****[1]**
@@ -664,7 +664,7 @@ $8n^{2}$* is divisible by 8, so when *$8n^{2}+2$* is divided by 8, there will al
 
 > *Expand the brackets; spotting that the second two brackets is the difference of two squares can help reduce the work involved.*
 
-`table attributes columnalign right center left columnspacing 0px end attributes row cell x open parentheses x minus 1 close parentheses open parentheses x plus 1 close parentheses end cell equals cell x open parentheses x squared minus 1 close parentheses end cell row blank equals cell x cubed minus x end cell end table`
+$\begin{array}{rcl} x ( x - 1 ) ( x + 1 ) & = x ( x^{2} - 1 ) \\ = x^{3} - x \end{array}$
 
 $\thereforex(x-1)(x+1)=x^{3}-x$ **[1]**
 
@@ -679,7 +679,7 @@ $x^{3}-x$
 
 > *Using the result from part (a) we can say that*
 
-`x cubed minus x equals x open parentheses x minus 1 close parentheses open parentheses x plus 1 close parentheses`
+$x^{3} - x = x ( x - 1 ) ( x + 1 )$
 
 > *Spot that these are three consecutive numbers and so can be rewritten.*
 
@@ -697,7 +697,7 @@ $x-1,x\mathrm{and}x+1$* are three consecutive numbers *
 
 > *Now use algebra to show the required result that the product of these three numbers can be written in the form "*$6k$*".*
 
-`table row cell therefore x open parentheses x minus 1 close parentheses open parentheses x plus 1 close parentheses end cell equals cell 2 m cross times 3 n cross times p end cell row blank equals cell 6 m n p end cell end table`
+$\begin{gathered} \therefore x ( x - 1 ) ( x + 1 ) & = 2 m \times 3 n \times p \\ = 6 m n p \end{gathered}$
 
 > *This is in the required form but we should say why *$mnp$* is an integer.*
 
@@ -747,7 +747,7 @@ $n=2E=2^{2}+2+5=11Prime\,n=3E=3^{2}+3+5=17Prime\,n=4E=4^{2}+4+5=25Notprime$
 
 > *Find the sum of the squares of the smallest and largest numbers*
 
-`table row cell open parentheses n minus 1 close parentheses squared plus open parentheses n plus 1 close parentheses squared end cell equals cell open parentheses n squared minus 2 n plus 1 close parentheses plus open parentheses n squared plus 2 n plus 1 close parentheses end cell row blank equals cell 2 n squared plus 2 end cell end table`
+$\begin{gathered} ( n - 1 )^{2} + ( n + 1 )^{2} & = ( n^{2} - 2 n + 1 ) + ( n^{2} + 2 n + 1 ) \\ = 2 n^{2} + 2 \end{gathered}$
 
 **Expansion of one square**** [1]**
 
@@ -774,11 +774,11 @@ $2+2\timesn^{2}=2n^{2}+2$
 
 > *Write the difference of the squares of these two consecutive odd numbers.*
 
-`open parentheses 2 n plus 1 close parentheses squared minus open parentheses 2 n minus 1 close parentheses squared`
+$( 2 n + 1 )^{2} - ( 2 n - 1 )^{2}$
 
 *Expand and simplify, being careful with negative terms.* * *
 
-`table row cell open parentheses 2 n plus 1 close parentheses squared minus open parentheses 2 n minus 1 close parentheses squared end cell equals cell open parentheses 2 n plus 1 close parentheses open parentheses 2 n plus 1 close parentheses minus open parentheses 2 n minus 1 close parentheses open parentheses 2 n minus 1 close parentheses end cell row blank equals cell open parentheses 4 n squared plus 4 n plus 1 close parentheses minus open parentheses 4 n squared minus 4 n plus 1 close parentheses end cell row blank equals cell 8 n end cell end table`
+$\begin{gathered} ( 2 n + 1 )^{2} - ( 2 n - 1 )^{2} & = ( 2 n + 1 ) ( 2 n + 1 ) - ( 2 n - 1 ) ( 2 n - 1 ) \\ = ( 4 n^{2} + 4 n + 1 ) - ( 4 n^{2} - 4 n + 1 ) \\ = 8 n \end{gathered}$
 
 **Correct expansion of one bracket**** [1] **
 **Simplified expansion**** [1]**
@@ -856,7 +856,7 @@ $p^{3}\divn^{3}$** is positive is 'Never true'*** ***[1]**
 
 > *Find the sum of the squares of the smallest and largest numbers*
 
-`table attributes columnalign right center left columnspacing 0px end attributes row cell open parentheses 2 n plus 2 close parentheses squared minus open parentheses 2 n minus 2 close parentheses squared end cell equals cell open parentheses 4 n squared plus 8 n plus 4 close parentheses minus open parentheses 4 n squared minus 8 n plus 4 close parentheses end cell row blank equals cell 16 n end cell end table`
+$\begin{array}{rcl} ( 2 n + 2 )^{2} - ( 2 n - 2 )^{2} & = ( 4 n^{2} + 8 n + 4 ) - ( 4 n^{2} - 8 n + 4 ) \\ = 16 n \end{array}$
 
 **[1]**
 
@@ -877,7 +877,7 @@ $n-1,n\mathrm{and}n+1$
 
 *Multiplying the three integers together will involve expanding brackets.* *If you spot it, using the difference of two squares makes things quicker!*
 
-`table attributes columnalign right center left columnspacing 0px end attributes row cell open parentheses n minus 1 close parentheses cross times n cross times open parentheses n plus 1 close parentheses end cell equals cell n open parentheses n minus 1 close parentheses open parentheses n plus 1 close parentheses end cell row blank equals cell n open parentheses n squared minus 1 close parentheses end cell row blank equals cell n cubed minus n end cell end table`
+$\begin{array}{rcl} ( n - 1 ) \times n \times ( n + 1 ) & = n ( n - 1 ) ( n + 1 ) \\ = n ( n^{2} - 1 ) \\ = n^{3} - n \end{array}$
 
 > *We now add n to this product.*
 
@@ -894,13 +894,13 @@ $n^{3}-n+n=n^{3}$
 ### 21() — 4 marks
 > *Expand and simplify.*
 
-`table row cell 35 plus open parentheses 3 x plus 1 close parentheses squared minus 2 x open parentheses 4 x minus 3 close parentheses end cell equals cell 35 plus 9 x squared plus 6 x plus 1 minus 8 x squared plus 6 x end cell row blank equals cell x squared plus 12 x plus 36 end cell end table`
+$\begin{gathered} 35 + ( 3 x + 1 )^{2} - 2 x ( 4 x - 3 ) & = 35 + 9 x^{2} + 6 x + 1 - 8 x^{2} + 6 x \\ = x^{2} + 12 x + 36 \end{gathered}$
 
 *As the result we are proving is a square number, we should be able to write the simplified expression in the form *$k^{2}$*, where *$k$* is an integer.*
 
 > *To do this, we will need to factorise.*
 
-`x squared plus 12 x plus 36 equals open parentheses x plus 6 close parentheses squared`
+$x^{2} + 12 x + 36 = ( x + 6 )^{2}$
 
 > *This is the form *$k^{2}$* so we can conclude the proof.*
 
@@ -927,11 +927,11 @@ $n^{\mathrm{th}}\mathrm{term} \mathrm{is}\frac{n}{2n-1}$
 
 > *Square this odd number*
 
-`table attributes columnalign right center left columnspacing 0px end attributes row cell open parentheses 2 n minus 1 close parentheses squared end cell equals cell 4 n squared minus 4 n plus 1 end cell end table`
+$\begin{array}{rcl} ( 2 n - 1 )^{2} & = 4 n^{2} - 4 n + 1 \end{array}$
 
 **[1]**
 
-`table attributes columnalign right center left columnspacing 0px end attributes row cell 4 n squared minus 4 n plus 1 end cell equals cell 4 n open parentheses n minus 1 close parentheses plus 1 end cell end table`
+$\begin{array}{rcl} 4 n^{2} - 4 n + 1 & = 4 n ( n - 1 ) + 1 \end{array}$
 
 > *Since **n** is an integer, 4**n**(**n **- 1) is in the form 4**k** and so is divisible by 4, where **k** = **n**(**n** - 1)*
 
@@ -948,25 +948,25 @@ $\frac{4k+1}{4}=k+\frac{1}{4}$
 ### 20() — 4 marks
 *Do not be put off by the fractions!* *They already have a common denominator so we can write their sum as a single fraction.*
 
-`fraction numerator n open parentheses n plus 1 close parentheses over denominator 2 end fraction plus fraction numerator open parentheses n plus 1 close parentheses open parentheses n plus 2 close parentheses over denominator 2 end fraction equals fraction numerator n open parentheses n plus 1 close parentheses plus open parentheses n plus 1 close parentheses open parentheses n plus 2 close parentheses over denominator 2 end fraction`
+$\frac{n ( n + 1 )}{2} + \frac{( n + 1 ) ( n + 2 )}{2} = \frac{n ( n + 1 ) + ( n + 1 ) ( n + 2 )}{2}$
 
 *Expand and simplify the numerator.* *If you spot it, the numerator has a factor of (**n** + 1) which can make simplifying easier.*
 
-`table attributes columnalign right center left columnspacing 0px end attributes row cell fraction numerator n open parentheses n plus 1 close parentheses plus open parentheses n plus 1 close parentheses open parentheses n plus 2 close parentheses over denominator 2 end fraction end cell equals cell fraction numerator open parentheses n plus 1 close parentheses open parentheses n plus open parentheses n plus 2 close parentheses close parentheses over denominator 2 end fraction end cell end table`
+$\begin{array}{rcl} \frac{n ( n + 1 ) + ( n + 1 ) ( n + 2 )}{2} & = \frac{( n + 1 ) ( n + ( n + 2 ) )}{2} \end{array}$
 
 **[1]**
 
-`table row cell fraction numerator open parentheses n plus 1 close parentheses open parentheses n plus open parentheses n plus 2 close parentheses close parentheses over denominator 2 end fraction end cell equals cell fraction numerator open parentheses n plus 1 close parentheses open parentheses 2 n plus 2 close parentheses over denominator 2 end fraction end cell end table`
+$\begin{gathered} \frac{( n + 1 ) ( n + ( n + 2 ) )}{2} & = \frac{( n + 1 ) ( 2 n + 2 )}{2} \end{gathered}$
 
 **[1]**
 
 > *There is a factor of 2 in the second bracket on the numerator that will then cancel with the denominator.*
 
-`fraction numerator open parentheses n plus 1 close parentheses open parentheses 2 n plus 2 close parentheses over denominator 2 end fraction equals fraction numerator up diagonal strike 2 open parentheses n plus 1 close parentheses open parentheses n plus 1 close parentheses over denominator up diagonal strike 2 end fraction`
+$\frac{( n + 1 ) ( 2 n + 2 )}{2} = \frac{ \cancel{2} ( n + 1 ) ( n + 1 )}{ \cancel{2} }$
 
 > *We are left with the product of two equal brackets.*
 
-`open parentheses n plus 1 close parentheses open parentheses n plus 1 close parentheses equals open parentheses n plus 1 close parentheses squared`
+$( n + 1 ) ( n + 1 ) = ( n + 1 )^{2}$
 
 **[1]**
 
@@ -981,7 +981,7 @@ $\frac{4k+1}{4}=k+\frac{1}{4}$
 
 > *Working through each statement in turn, starting with the left hand side and comparing it to the right hand side.*
 
-`table attributes columnalign right center left columnspacing 0px end attributes row LHS equals cell x plus 4 x end cell row blank equals cell 5 x end cell row blank equals RHS end table`
+$\begin{array}{rcl} \text{LHS} = x + 4 x \\ = 5 x \\ = \text{RHS} \end{array}$
 
 > *Therefore this is true for **all** values of x and this is the answer.*
 
@@ -1002,23 +1002,23 @@ $\frac{4k+1}{4}=k+\frac{1}{4}$
 ### 17() — 4 marks
 > *First write down the **n*<sup>*th*</sup>* term of the sequence*
 
-`n to the power of th space term space is space fraction numerator n open parentheses n plus 1 close parentheses over denominator 2 end fraction`
+$n^{th} \text{term} \text{is} \frac{n ( n + 1 )}{2}$
 
 **[1]**
 
 > *So the (**n** + 1)*<sup>*th*</sup>* term will be*
 
-`open parentheses n plus 1 close parentheses to the power of th space term space is space fraction numerator open parentheses n plus 1 close parentheses open parentheses n plus 2 close parentheses over denominator 2 end fraction`
+$( n + 1 )^{th} \text{term} \text{is} \frac{( n + 1 ) ( n + 2 )}{2}$
 
 > *Adding these two together*
 
-`fraction numerator n open parentheses n plus 1 close parentheses over denominator 2 end fraction plus fraction numerator open parentheses n plus 1 close parentheses open parentheses n plus 2 close parentheses over denominator 2 end fraction equals fraction numerator n open parentheses n plus 1 close parentheses plus open parentheses n plus 1 close parentheses open parentheses n plus 2 close parentheses over denominator 2 end fraction`
+$\frac{n ( n + 1 )}{2} + \frac{( n + 1 ) ( n + 2 )}{2} = \frac{n ( n + 1 ) + ( n + 1 ) ( n + 2 )}{2}$
 
 **[1]**
 
 > *Expand and simplify the numerator (it's easier if you spot that (**n** + 1) if a factor of the numerator)*
 
-`table row cell fraction numerator n open parentheses n plus 1 close parentheses plus open parentheses n plus 1 close parentheses open parentheses n plus 2 close parentheses over denominator 2 end fraction end cell equals cell fraction numerator open parentheses n plus 1 close parentheses open parentheses n plus open parentheses n plus 2 close parentheses close parentheses over denominator 2 end fraction end cell row blank equals cell fraction numerator open parentheses n plus 1 close parentheses open parentheses 2 n plus 2 close parentheses over denominator 2 end fraction end cell row blank equals cell fraction numerator 2 n squared plus 4 n plus 2 over denominator 2 end fraction end cell row blank equals cell fraction numerator 2 open parentheses n squared plus 2 n plus 1 close parentheses over denominator 2 end fraction end cell row blank equals cell n squared plus 2 n plus 1 end cell row blank equals cell open parentheses n plus 1 close parentheses squared end cell end table`
+$\begin{gathered} \frac{n ( n + 1 ) + ( n + 1 ) ( n + 2 )}{2} & = \frac{( n + 1 ) ( n + ( n + 2 ) )}{2} \\ = \frac{( n + 1 ) ( 2 n + 2 )}{2} \\ = \frac{2 n^{2} + 4 n + 2}{2} \\ = \frac{2 ( n^{2} + 2 n + 1 )}{2} \\ = n^{2} + 2 n + 1 \\ = ( n + 1 )^{2} \end{gathered}$
 
 **[1]**
 
@@ -1031,7 +1031,7 @@ $\frac{4k+1}{4}=k+\frac{1}{4}$
 ### 20() — 3 marks
 > *Expand the brackets in the expression that will also remove the fraction.*
 
-`2 n squared open parentheses 3 over n plus n close parentheses plus 6 n open parentheses n squared minus 1 close parentheses equals 6 n plus 2 n cubed plus 6 n cubed minus 6 n`
+$2 n^{2} ( \frac{3}{n} + n ) + 6 n ( n^{2} - 1 ) = 6 n + 2 n^{3} + 6 n^{3} - 6 n$
 
 **One bracket expanded correctly**** [1] **
 **Both brackets expanded correctly**** [1]**
@@ -1042,7 +1042,7 @@ $6n+2n^{3}+6n^{3}-6n=8n^{3}$
 
 > *Spotting that 8 is a cube number means we can rewrite *$8n^{3}$* in the format **k*<sup>*3*</sup>*, where **k** is an integer.*
 
-`8 n cubed equals 2 cubed cross times n cubed equals open parentheses 2 n close parentheses cubed`
+$8 n^{3} = 2^{3} \times n^{3} = ( 2 n )^{3}$
 
 **Since the expression can be written in the form **$(2n)^{3}$** and ****n**** is a positive integer, it follows that 2****n**** is a positive integer and so **$(2n)^{3}$** is a cube number ****[1]**
 
@@ -1067,11 +1067,11 @@ $n=1k=1^{2}+9\times1+1=11prime\,n=2k=2^{2}+9\times2+1=23prime\,n=3k=3^{2}+9\time
 *The expression is quadratic.  "Something" squared is always greater than or equal to zero.* 
 *So to show the expression is always positive we need to complete the square.*
 
-> *For the expression " *$x^{2}+bx+c$* " this will be " *`open parentheses x plus b over 2 close parentheses squared minus b squared over 4 plus c`* ".*
+> *For the expression " *$x^{2}+bx+c$* " this will be " *$( x + \frac{b}{2} )^{2} - \frac{b^{2}}{4} + c$* ".*
 
-`table row cell x squared plus x plus 1 end cell equals cell open parentheses x plus 1 half close parentheses squared minus 1 squared over 4 plus 1 end cell row blank equals cell open parentheses x plus 1 half close parentheses squared plus 3 over 4 end cell end table`
+$\begin{gathered} x^{2} + x + 1 & = ( x + 1 \frac{1}{2} )^{2} - \frac{1^{2}}{4} + 1 \\ = ( x + 1 \frac{1}{2} )^{2} + \frac{3}{4} \end{gathered}$
 
-**One mark for **`open parentheses x plus 1 half close parentheses squared`** [1] **
+**One mark for **$( x + 1 \frac{1}{2} )^{2}$** [1] **
 **Fully correct completed square form**** [1]**
 
 > *Thinking about the values of the squared part and what is then added we can conclude the proof.*
@@ -1097,7 +1097,7 @@ $(x+\frac{1}{2})^{2}\geq0$** for all values of ****x****, **$\therefore(x+\frac{
 ### 12((b)) — 1 marks
 **Final answer:** **True **`box enclose bold ✓`**    **
 
-**   **`fraction numerator bold 20 up diagonal strike n over denominator bold 2 up diagonal strike n end fraction bold equals bold 10`**.  As 20****n**** is divisble by 2****n**** for all values of ****n****, 2****n**** is always a factor of 20****n**** ****[1]**
+**   **$\frac{20 \cancel{n} }{2 \cancel{n} } = 10$**.  As 20****n**** is divisble by 2****n**** for all values of ****n****, 2****n**** is always a factor of 20****n**** ****[1]**
 
 ## Q34 — very_hard — 7 marks · exam-questions
 
@@ -1133,18 +1133,18 @@ $(x+\frac{1}{2})^{2}\geq0$** for all values of ****x****, **$\therefore(x+\frac{
 
 > *So*
 
-`L minus T equals open parentheses M minus 1 close parentheses open parentheses M plus 1 close parentheses minus open parentheses M minus 10 close parentheses open parentheses M plus 10 close parentheses`
+$L - T = ( M - 1 ) ( M + 1 ) - ( M - 10 ) ( M + 10 )$
 
 > *Expand each pair of brackets, being careful with the subtraction sign between them. Both brackets are in the difference of two squares form.*
 
-`L minus T equals open parentheses M squared minus 1 close parentheses minus open parentheses M squared minus 100 close parentheses`
+$L - T = ( M^{2} - 1 ) - ( M^{2} - 100 )$
 
 **For (M**<sup>**2**</sup>** -1)**** [1] **
 **For (M**<sup>**2**</sup>** -100)**** [1]**
 
 > *Remove the brackets and simplify.*
 
-`table attributes columnalign right center left columnspacing 0px end attributes row cell L minus T end cell equals cell M squared minus 1 minus M squared plus 100 end cell row blank equals cell 100 minus 1 end cell row blank equals 99 end table`
+$\begin{array}{rcl} L - T & = M^{2} - 1 - M^{2} + 100 \\ = 100 - 1 \\ = 99 \end{array}$
 
 $\thereforeL-T=99$* ***for any position of the cross on the number grid*** ***[1]**
 
@@ -1155,14 +1155,14 @@ $\thereforeL-T=99$* ***for any position of the cross on the number grid*** ***[1
 
 > *To do this we would look to factorise the numerator and denominator and cancel any common factors.*
 
-`fraction numerator 6 c cubed plus 30 c over denominator 3 c squared plus 15 end fraction equals fraction numerator 6 c open parentheses c squared plus 5 close parentheses over denominator 3 open parentheses c squared plus 5 close parentheses end fraction`
+$\frac{6 c^{3} + 30 c}{3 c^{2} + 15} = \frac{6 c ( c^{2} + 5 )}{3 ( c^{2} + 5 )}$
 
 **Correctly factorsing numerator or denominator ****[1]**** **
 **Correctly factorsing both ****[1]**
 
-> *There are factors of 3 and *`open parentheses c squared plus 5 close parentheses`* that can be cancelled.*
+> *There are factors of 3 and *$( c^{2} + 5 )$* that can be cancelled.*
 
-`fraction numerator table row cell 2 c open parentheses c squared plus 5 close parentheses end cell row cell up diagonal strike 6 c down diagonal strike open parentheses c squared plus 5 close parentheses end strike end cell end table over denominator up diagonal strike 3 down diagonal strike open parentheses c squared plus 5 close parentheses end strike end fraction equals 2 c`
+`(| 2 c ( c ^2 + 5 ) | | / 6 c / ( c ^2 + 5 ) | |)/(/ 3 / ( c ^2 + 5 ) ) = 2 c`
 
 > *We can now conclude the proof.*
 
@@ -1199,11 +1199,11 @@ $\frac{2n+2n+2n+2n+2+4+6}{4}=\frac{8n+12}{4}$
 
 > *Factorise the numerator.*
 
-`fraction numerator 4 open parentheses 2 n space plus space 3 close parentheses over denominator 4 end fraction`
+$\frac{4 ( 2 n + 3 )}{4}$
 
 > *Cancel 4 from the numerator and denominator.*
 
-`fraction numerator up diagonal strike 4 open parentheses 2 n space plus space 3 close parentheses over denominator up diagonal strike 4 end fraction equals space 2 n space plus space 3`
+$\frac{ \cancel{4} ( 2 n + 3 )}{ \cancel{4} } = 2 n + 3$
 
 *As **n** was an integer**,** 2**n **+ 3 must also be an integer. *
 
@@ -1220,13 +1220,13 @@ $\frac{2n+2n+2n+2n+2+4+6}{4}=\frac{8n+12}{4}$
 
 > *Apply Pythagoras' theorem, where these two sides/values would be **b** and **c*
 
-`a squared equals open parentheses 2 m close parentheses squared plus open parentheses 2 n close parentheses squared`
+$a^{2} = ( 2 m )^{2} + ( 2 n )^{2}$
 
 > *Expand the right-hand side.*
 
-`table attributes columnalign right center left columnspacing 0px end attributes row cell a squared end cell equals cell 4 m squared plus 4 n squared end cell row cell a squared end cell equals cell 4 open parentheses m squared plus n squared close parentheses end cell end table`
+$\begin{array}{rcl} a^{2} & = 4 m^{2} + 4 n^{2} \\ a^{2} & = 4 ( m^{2} + n^{2} ) \end{array}$
 
-> *Since we are given all three sides are integers, we can assume that *`4 open parentheses m squared plus n squared close parentheses`* is a square number.*
+> *Since we are given all three sides are integers, we can assume that *$4 ( m^{2} + n^{2} )$* is a square number.*
 
 **a***<sup>2</sup>** has a factor of 4, which is even and so ***a***<sup>2</sup>** is even*
 
@@ -1247,7 +1247,7 @@ $\frac{2n+2n+2n+2n+2+4+6}{4}=\frac{8n+12}{4}$
 
 > *Add these together and simplify the result.*
 
-`table attributes columnalign right center left columnspacing 0px end attributes row cell n plus open parentheses n plus 1 close parentheses plus open parentheses n plus 2 close parentheses plus open parentheses n plus 3 close parentheses end cell equals cell 4 n plus 6 end cell row blank equals cell 2 open parentheses 2 n plus 3 close parentheses end cell end table`
+$\begin{array}{rcl} n + ( n + 1 ) + ( n + 2 ) + ( n + 3 ) & = 4 n + 6 \\ = 2 ( 2 n + 3 ) \end{array}$
 
 **[1]**
 
@@ -1277,21 +1277,21 @@ $\frac{2n+2n+2n+2n+2+4+6}{4}=\frac{8n+12}{4}$
 
 > *Multiply numerator-and-denominator of each fraction by the factor needed to form this denominator.*
 
-`fraction numerator open parentheses m plus 1 close parentheses n over denominator n open parentheses n plus 1 close parentheses end fraction minus fraction numerator m open parentheses n plus 1 close parentheses over denominator n open parentheses n plus 1 close parentheses end fraction`
+$\frac{( m + 1 ) n}{n ( n + 1 )} - \frac{m ( n + 1 )}{n ( n + 1 )}$
 
 > *Write as one single fraction over the common denominator. Subtract the numerators.*
 
-`fraction numerator n open parentheses m plus 1 close parentheses minus m open parentheses n plus 1 close parentheses over denominator n open parentheses n plus 1 close parentheses end fraction`
+$\frac{n ( m + 1 ) - m ( n + 1 )}{n ( n + 1 )}$
 
 **[1]**
 
 > *Expand the brackets in the numerator.*
 
-`fraction numerator m n plus n minus m n minus m over denominator n open parentheses n plus 1 close parentheses end fraction`
+$\frac{m n + n - m n - m}{n ( n + 1 )}$
 
 > *Collect "like" terms in the numerator.*
 
-`fraction numerator n minus m over denominator n open parentheses n plus 1 close parentheses end fraction`
+$\frac{n - m}{n ( n + 1 )}$
 
 > *Nothing else factorises or cancels.*
 
@@ -1300,7 +1300,7 @@ $\therefore\frac{m+1}{n+1}-\frac{m}{n}=\frac{n-m}{n(n+1)}$* ***[1]**
 ### 20((b)) — 2 marks
 > *The result from part (a) is that*
 
-`fraction numerator m plus 1 over denominator n plus 1 end fraction minus m over n equals fraction numerator n minus m over denominator n open parentheses n plus 1 close parentheses end fraction`
+$\frac{m + 1}{n + 1} - \frac{m}{n} = \frac{n - m}{n ( n + 1 )}$
 
 > *Consider the numerator.*
 
@@ -1310,7 +1310,7 @@ $n-m>0$* since ***n*** > ***m*** and both ***n*** and ***m*** are positive*
 
 > *Consider the denominator.*
 
-`n open parentheses n plus 1 close parentheses greater than 0`* since ***n*** is positive (and *$n+1>n$* )*
+$n ( n + 1 ) > 0$* since ***n*** is positive (and *$n+1>n$* )*
 
 > *So both the numerator and denominator are positive.*
 
@@ -1333,22 +1333,22 @@ $\therefore\frac{m+1}{n+1}-\frac{m}{n}=\frac{n-m}{n(n+1)}>0$** if ****m**** and 
 
 > *Use your expressions to set up an expression to show the difference between the squares of consecutive odd numbers*
 
-`open parentheses 2 n plus 3 close parentheses squared minus open parentheses 2 n plus 1 close parentheses squared`
+$( 2 n + 3 )^{2} - ( 2 n + 1 )^{2}$
 
 > *Expand the brackets, using FOIL method for example*
 
-`table row cell open parentheses 2 n plus 3 close parentheses squared minus open parentheses 2 n plus 1 close parentheses squared end cell equals cell open parentheses 4 n squared plus 6 n plus 6 n plus 9 close parentheses minus open parentheses 4 n squared plus 2 n plus 2 n plus 1 close parentheses end cell end table`
+$\begin{gathered} ( 2 n + 3 )^{2} - ( 2 n + 1 )^{2} & = ( 4 n^{2} + 6 n + 6 n + 9 ) - ( 4 n^{2} + 2 n + 2 n + 1 ) \end{gathered}$
 
 **[M1]**
 
 > *Simplify the expression by collecting terms*
 
-`table row blank equals cell open parentheses 4 n squared plus 12 n plus 9 close parentheses minus open parentheses 4 n squared plus 4 n plus 1 close parentheses end cell row blank equals cell 4 n squared plus 12 n plus 9 minus 4 n squared minus 4 n minus 1 end cell row blank equals cell space 8 n plus 8 end cell end table`
+$\begin{gathered} = ( 4 n^{2} + 12 n + 9 ) - ( 4 n^{2} + 4 n + 1 ) \\ = 4 n^{2} + 12 n + 9 - 4 n^{2} - 4 n - 1 \\ = 8 n + 8 \end{gathered}$
 
 **[M1]**
 
 > *Factorise the simplified expression by dividing the expression by the highest common factor of the terms*
 
-**Final answer:** `8 n plus 8 equals 8 open parentheses n plus 1 close parentheses`** therefore it is a multiple of 8**
+**Final answer:** $8 n + 8 = 8 ( n + 1 )$** therefore it is a multiple of 8**
 
 **[A1]**

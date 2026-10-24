@@ -79,11 +79,11 @@ Use $\summ_{i}r_{i}=\overline{r}\summ_{i}$to find the ***position vector*** of t
 
 Remember to give the final answer in the required format.
 
-e.g.    `begin mathsize 16px style 9 left parenthesis 2.5 bold i plus 5.5 bold j right parenthesis plus 9 left parenthesis 4.5 bold i plus 5.5 bold j right parenthesis equals 18 left parenthesis top enclose x bold i plus top enclose straight y bold j right parenthesis end style`
+e.g.    $9 ( 2.5 i + 5.5 j ) + 9 ( 4.5 i + 5.5 j ) = 18 ( \vec{x} i + \vec{y} j )$
 
-`begin mathsize 16px style 18 left parenthesis top enclose x bold i plus top enclose y bold j right parenthesis equals 63 bold i plus 99 bold j end style`
+$18 ( \vec{x} i + \vec{y} j ) = 63 i + 99 j$
 
-`left parenthesis top enclose x bold i plus top enclose y bold j right parenthesis equals 3.5 bold i plus 5.5 bold j`
+$( \vec{x} i + \vec{y} j ) = 3.5 i + 5.5 j$
 
 So the coordinates of the centre of mass *(G)* of the composite lamina are(3.5, 5.5)
 

@@ -25,12 +25,12 @@ guided_study: false
   - So it is possible to have one, two, or three **unique** solutions
 - A cubic with **three real roots** $α$, $β$ and $γ$ can be written as a product of three **linear factors**
 
-  - `a x cubed plus b x squared plus c x plus d equals open parentheses x minus alpha close parentheses open parentheses x minus beta close parentheses open parentheses x minus gamma close parentheses`
+  - $a x^{3} + b x^{2} + c x + d = ( x - \\alpha ) ( x - \\beta ) ( x - \\gamma )$
   
     - Any two of the factors could be multiplied together to give a **quadratic factor**
 - A cubic with **one real root** $α$ can be written as the product of a **linear** and a **quadratic** factor
 
-  - `a x cubed plus b x squared plus c x plus d equals open parentheses x minus alpha close parentheses open parentheses p x squared plus q x plus r close parentheses`
+  - $a x^{3} + b x^{2} + c x + d = ( x - \\alpha ) ( p x^{2} + q x + r )$
   
     - The quadratic factor will **not** have any real roots
     - So its **discriminant **$q^{2}-4pr$ will be negative
@@ -48,10 +48,10 @@ guided_study: false
 
   - This is because of the **factor theorem**
   
-    - If $x=α$ is a root, then `open parentheses x minus alpha close parentheses` is a factor
-- You can then **divide** $ax^{3}+bx^{2}+cx+d$ by `open parentheses x minus alpha close parentheses` to find a **quadratic factor**
+    - If $x=α$ is a root, then $( x - \\alpha )$ is a factor
+- You can then **divide** $ax^{3}+bx^{2}+cx+d$ by $( x - \\alpha )$ to find a **quadratic factor**
 
-  - `a x cubed plus b x squared plus c x plus d equals open parentheses x minus alpha close parentheses open parentheses p x squared plus q x plus r close parentheses`
+  - $a x^{3} + b x^{2} + c x + d = ( x - \\alpha ) ( p x^{2} + q x + r )$
   - Use **algebraic division**, or factorise by **inspection **or by **comparing coefficients**
 - Then you can find any **other roots** by solving  $px^{2}+qx+r=0$
 
@@ -69,7 +69,7 @@ guided_study: false
 > 
 > > *Substitute *$x=2$* into the equation*
 > 
-> **Final answer:** `table row cell 2 open parentheses 2 close parentheses cubed minus open parentheses 2 close parentheses squared minus 8 open parentheses 2 close parentheses plus 4 end cell equals cell 16 minus 4 minus 16 plus 4 equals 0 end cell end table`
+> **Final answer:** $\begin{gathered} 2 ( 2 )^{3} - ( 2 )^{2} - 8 ( 2 ) + 4 & = 16 - 4 - 16 + 4 = 0 \end{gathered}$
 > 
 > **Therefore **$x=2$** is a solution**
 > 
@@ -77,9 +77,9 @@ guided_study: false
 > 
 > **Answer:**
 > 
-> > *By the factor theorem, you know that *`open parentheses x minus 2 close parentheses`* is a factor of *$2x^{3}-x^{2}-8x+4$* *
+> > *By the factor theorem, you know that *$( x - 2 )$* is a factor of *$2x^{3}-x^{2}-8x+4$* *
 > 
-> `table row cell 2 x cubed minus x squared minus 8 x plus 4 end cell equals cell open parentheses x minus 2 close parentheses open parentheses p x squared plus q x plus r close parentheses end cell end table`
+> $\begin{gathered} 2 x^{3} - x^{2} - 8 x + 4 & = ( x - 2 ) ( p x^{2} + q x + r ) \end{gathered}$
 > 
 > > *You can find the values of *$p$*, *$q$* and *$r$* by comparing coefficients*
 > 
@@ -88,7 +88,7 @@ guided_study: false
 >   - *or else you could use algebraic division*
 > - *Start by expanding the brackets*
 > 
-> `table row cell 2 x cubed minus x squared minus 8 x plus 4 end cell equals cell p x cubed plus open parentheses q minus 2 p close parentheses x squared plus open parentheses r minus 2 q close parentheses x minus 2 r end cell end table`
+> $\begin{gathered} 2 x^{3} - x^{2} - 8 x + 4 & = p x^{3} + ( q - 2 p ) x^{2} + ( r - 2 q ) x - 2 r \end{gathered}$
 > 
 > - *The *$x^{3}$* coefficient and constant term give you *$p$* and *$r$* right away*
 > 
@@ -96,23 +96,23 @@ guided_study: false
 > 
 > - *Use either the *$x^{2}$* or *$x$* coefficients to find the value of *$q$
 > 
-> > `negative x squared equals open parentheses q minus 2 p close parentheses x squared`
-> * *`table attributes columnalign right center left columnspacing 0px end attributes row cell q minus 2 p end cell equals cell negative 1 end cell row cell q minus 2 open parentheses 2 close parentheses end cell equals cell negative 1 end cell row cell q minus 4 end cell equals cell negative 1 end cell row q equals 3 end table`
+> > $- x^{2} = ( q - 2 p ) x^{2}$
+> * *$\begin{array}{rcl} q - 2 p & = - 1 \\ q - 2 ( 2 ) & = - 1 \\ q - 4 & = - 1 \\ q = 3 \end{array}$
 > 
 > > *Now you can write the cubic in factorised form*
 > 
-> `open parentheses x minus 2 close parentheses open parentheses 2 x squared plus 3 x minus 2 close parentheses equals 0`
+> $( x - 2 ) ( 2 x^{2} + 3 x - 2 ) = 0$
 > 
 > > *To find the other solutions you need to solve  *$2x^{2}+3x-2=0$
 > 
 > - *Any quadratic solving method would work*
 > - *But it is easiest here if you can spot the factorisation*
 > 
-> `open parentheses x minus 2 close parentheses open parentheses x plus 2 close parentheses open parentheses 2 x minus 1 close parentheses equals 0`
+> $( x - 2 ) ( x + 2 ) ( 2 x - 1 ) = 0$
 > 
 > - *So the other solutions are *
 > 
->   - $x=-2$*,  from the factor *`open parentheses x plus 2 close parentheses`
->   - $x=\frac{1}{2}$*,  from the factor *`open parentheses 2 x minus 1 close parentheses equals 2 open parentheses x minus 1 half close parentheses`
+>   - $x=-2$*,  from the factor *$( x + 2 )$
+>   - $x=\frac{1}{2}$*,  from the factor *$( 2 x - 1 ) = 2 ( x - 1 \frac{1}{2} )$
 > 
 > $x=-2\mathrm{and}x=\frac{1}{2}$

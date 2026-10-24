@@ -26,9 +26,9 @@ guided_study: false
 
 | **Function** | **Notation** | **Domain** | **Range** |
 |---|---|---|---|
-| Sine | `sin open parentheses x close parentheses` | $x\inℝ$ | `negative 1 less or equal than sin open parentheses x close parentheses less or equal than 1` |
-| Cosine | `cos open parentheses x close parentheses` | $x\inℝ$ | `negative 1 less or equal than cos open parentheses x close parentheses less or equal than 1` |
-| Tangent | `tan open parentheses x close parentheses` | `x element of straight real numbers<br>x not equal to plus-or-minus 90 degree comma plus-or-minus 270 degree comma plus-or-minus 450 degree comma... space open parentheses in space degrees close parentheses<br>x not equal to plus-or-minus straight pi over 2 comma plus-or-minus fraction numerator 3 straight pi over denominator 2 end fraction comma plus-or-minus fraction numerator 5 straight pi over denominator 2 end fraction comma... space open parentheses in space radians close parentheses` | `tan open parentheses x close parentheses element of straight real numbers` |
+| Sine | $\sin ( x )$ | $x\inℝ$ | $- 1 \le \text{sin} ( x ) \le 1$ |
+| Cosine | $\cos ( x )$ | $x\inℝ$ | $- 1 \le \text{cos} ( x ) \le 1$ |
+| Tangent | $\tan ( x )$ | `x in real numbers | x != +/- 90 deg , +/- 270 deg , +/- 450 deg ,... ( in degrees ) | x != +/- pi / 2 , +/- (3 pi)/(2) , +/- (5 pi)/(2) ,... ( in radians )` | $\tan ( x ) \in \mathbb{R}$ |
 
 ### How can I use the trigonometric functions with right-angled triangles?
 
@@ -67,13 +67,13 @@ guided_study: false
 
   - **Secant **(sec *x*)
   
-    - `sec invisible function application x equals fraction numerator 1 over denominator cos space invisible function application x end fraction`
+    - $\sec x = \frac{1}{\cos x}$
   - **Cosecant **(cosec *x*)
   
-    - `cosec blank x equals fraction numerator 1 over denominator sin space invisible function application x end fraction`
+    - $\text{cosec} x = \frac{1}{\sin x}$
   - **Cotangent** (cot *x*)
   
-    - `cot space x blank equals fraction numerator 1 over denominator tan invisible function application space x blank end fraction`
+    - $\cot x = \frac{1}{\tan x }$
 - A good way to remember which function is which is to look at the **third** letter in each of the reciprocal trig functions
 
   - co**t** *x* is 1 over **t**an *x *etc
@@ -86,20 +86,20 @@ guided_study: false
     - When tan *x* is undefined, cot *x* = 0
 - **Be careful** not to confuse the reciprocal trig functions with the inverse trig functions
 
-  - `sin to the power of negative 1 end exponent invisible function application space x blank not equal to fraction numerator 1 over denominator sin space invisible function application x end fraction`
+  - $\sin ^{- 1} x \text{eq} \frac{1}{\sin x}$
 
 > **Worked Example**
 > Without the use of a calculator, find the values of
 > 
-> a) `sec space invisible function application pi over 6`
+> a) $\sec \frac{\pi }{6}$
 > 
 > > *The third letter of sec is c so it is the reciprocal of cos.*
 > 
-> `sec open parentheses straight pi over 6 close parentheses equals fraction numerator 1 over denominator cos open parentheses straight pi over 6 close parentheses end fraction`
+> `sec ( pi / 6 ) = (1)/(cos ( pi / 6 ))`
 > 
-> > *Write down the value of *`cos open parentheses straight pi over 6 close parentheses`*.*
+> > *Write down the value of *`cos ( pi / 6 )`*.*
 > 
-> `sec open parentheses straight pi over 6 close parentheses equals fraction numerator 1 over denominator open parentheses fraction numerator square root of 3 over denominator 2 end fraction close parentheses end fraction`
+> `sec ( pi / 6 ) = (1)/(( (sqrt( 3)/(2) ))`
 > 
 > > *Simplify.*
 > 
@@ -109,10 +109,10 @@ guided_study: false
 > 
 > > *The third letter of cot is t so it is the reciprocal of tan.*
 > 
-> `cot open parentheses 45 degree close parentheses equals fraction numerator 1 over denominator tan open parentheses 45 degree close parentheses end fraction`
+> $\cot ( 45^{\circ} ) = \frac{1}{\tan ( 45^{\circ} )}$
 > 
 > > *Write down the value of tan(45°).*
 > 
-> `cot open parentheses 45 degree close parentheses equals 1 over 1`
+> $\cot ( 45^{\circ} ) = \frac{1}{1}$
 > 
 > $\mathrm{cot}(45^{\circ})=1$

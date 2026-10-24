@@ -9,18 +9,18 @@ Source: https://www.savemyexams.com/igcse/maths/edexcel/b/16/flashcards/statisti
 
 **FRONT**
 
-Describe how to find `straight P open parentheses A close parentheses` from a Venn diagram that shows sets $A$ and $B$.
+Describe how to find $\mathrm{P} ( A )$ from a Venn diagram that shows sets $A$ and $B$.
 
-E.g. find `straight P open parentheses A close parentheses` from the Venn diagram.
+E.g. find $\mathrm{P} ( A )$ from the Venn diagram.
 
 ![Venn diagram with sets A and B. Set A only has 8, the intersection of sets A and B has 2 and set B only has 15. Within the universal set, U, but outside both sets A and B is 7.](assets/de0d9bb778c4-28658-venn.png)
 
 
 **BACK**
 
-`straight P open parentheses A close parentheses` is the probability of being in set $A$.
+$\mathrm{P} ( A )$ is the probability of being in set $A$.
 
-This is the number inside the full circle of set $A$ divided by the total number of the whole Venn diagram, e.g. `straight P open parentheses A close parentheses equals fraction numerator 8 plus 2 over denominator 8 plus 2 plus 15 plus 7 end fraction equals 10 over 32`.
+This is the number inside the full circle of set $A$ divided by the total number of the whole Venn diagram, e.g. $\mathrm{P} ( A ) = \frac{8 + 2}{8 + 2 + 15 + 7} = \frac{10}{32}$.
 
 ![Venn diagram with two intersecting circles labelled A and B. Set A only contains 8 the intersection contains 2 and set B only contains 15. The number 7 lies within the universal set, U, but outside both sets A and B. The whole of set A is highlighted green.](assets/af85a244f3bb-48903-venn-2.png)
 
@@ -30,18 +30,18 @@ This is the number inside the full circle of set $A$ divided by the total number
 
 **FRONT**
 
-Describe how to find `straight P open parentheses A intersection B close parentheses` from a Venn diagram that shows sets $A$ and $B$.
+Describe how to find $\mathrm{P} ( A \cap B )$ from a Venn diagram that shows sets $A$ and $B$.
 
-E.g. find `straight P open parentheses A intersection B close parentheses` from the Venn diagram.
+E.g. find $\mathrm{P} ( A \cap B )$ from the Venn diagram.
 
 ![Venn diagram with sets A and B. Set A only has 8, the intersection of sets A and B has 2 and set B only has 15. Within the universal set, U, but outside both sets A and B is 7.](assets/de0d9bb778c4-28658-venn.png)
 
 
 **BACK**
 
-`straight P open parentheses A intersection B close parentheses` is the probability of being in the intersection of set $A$ and set $B$.
+$\mathrm{P} ( A \cap B )$ is the probability of being in the intersection of set $A$ and set $B$.
 
-This is the value inside the  **overlapping region** of set $A$ and set $B$ divided by the total number of the whole Venn diagram, e.g. `straight P open parentheses A intersection B close parentheses equals fraction numerator 2 over denominator 8 plus 2 plus 15 plus 7 end fraction equals 2 over 32`.
+This is the value inside the  **overlapping region** of set $A$ and set $B$ divided by the total number of the whole Venn diagram, e.g. $\mathrm{P} ( A \cap B ) = \frac{2}{8 + 2 + 15 + 7} = \frac{2}{32}$.
 
 ![Venn diagram with two intersecting circles labelled A and B. Set A only contains 8 the intersection contains 2 and set B only contains 15. The number 7 lies within the universal set, U, but outside both sets A and B. The intersection of set A and B is highlighted.](assets/76903bd3fc2d-35028-venn-3.png)
 
@@ -53,18 +53,18 @@ This is the value inside the  **overlapping region** of set $A$ and set $B$ divi
 
 **True or False?**
 
-If $A$ and $B$ are mutually exclusive, then `straight P open parentheses A intersection B close parentheses equals 0`.
+If $A$ and $B$ are mutually exclusive, then $\mathrm{P} ( A \cap B ) = 0$.
 
 
 **BACK**
 
 **True.**
 
-If $A$ and $B$ are mutually exclusive, then `straight P open parentheses A intersection B close parentheses equals 0`.
+If $A$ and $B$ are mutually exclusive, then $\mathrm{P} ( A \cap B ) = 0$.
 
 On a Venn diagram, if $A$ and $B$ are mutually exclusive then their circles do not overlap (they cannot both happen at the same time).
 
-This makes being in the intersection impossible, so `straight P open parentheses A intersection B close parentheses equals 0`.
+This makes being in the intersection impossible, so $\mathrm{P} ( A \cap B ) = 0$.
 
 
 
@@ -74,14 +74,14 @@ This makes being in the intersection impossible, so `straight P open parentheses
 
 **True or False?**
 
-To find `straight P open parentheses A union B close parentheses` you need to **double-count **the numbers in the intersection (overlap) as they occur twice.
+To find $\mathrm{P} ( A \cup B )$ you need to **double-count **the numbers in the intersection (overlap) as they occur twice.
 
 
 **BACK**
 
 **False.**
 
-To find `straight P open parentheses A union B close parentheses` you do not double-count the numbers in the intersection $A\capB$, you just count them once.
+To find $\mathrm{P} ( A \cup B )$ you do not double-count the numbers in the intersection $A\capB$, you just count them once.
 
 
 
@@ -89,16 +89,16 @@ To find `straight P open parentheses A union B close parentheses` you do not dou
 
 **FRONT**
 
-Describe which region on a Venn diagram is required to calculate `straight P open parentheses A intersection B intersection C close parentheses`.
+Describe which region on a Venn diagram is required to calculate $\mathrm{P} ( A \cap B \cap C )$.
 
-E.g. find `straight P open parentheses A intersection B intersection C close parentheses` from the Venn diagram.
+E.g. find $\mathrm{P} ( A \cap B \cap C )$ from the Venn diagram.
 
 ![Venn diagram with three overlapping circles labelLed A, B, and C. Regions contain numbers 5, 2, 11, 6, 3, 1, 9, and 8. U is the universal set.](assets/f26af8ce3b36-45612-venn-7.png)
 
 
 **BACK**
 
-The region required to calculate `straight P open parentheses A intersection B intersection C close parentheses` is the one that is the overlap of all three sets $A$, $B$ and $C$. E.g. `straight P open parentheses A intersection B intersection C close parentheses equals fraction numerator 3 over denominator 5 plus 2 plus 11 plus 6 plus 3 plus 1 plus 9 plus 8 end fraction equals 3 over 45`.
+The region required to calculate $\mathrm{P} ( A \cap B \cap C )$ is the one that is the overlap of all three sets $A$, $B$ and $C$. E.g. $\mathrm{P} ( A \cap B \cap C ) = \frac{3}{5 + 2 + 11 + 6 + 3 + 1 + 9 + 8} = \frac{3}{45}$.
 
 ![Venn diagram with three circles labelled A, B, and C. Numbers inside segments: A-5, B-11, C-9, AB-2, AC-6, BC-1, ABC-3. Inside the universal set but outside sets A, B and C is the number 8. The intersection between all three circles is highlighted.](assets/7a9c6cfd9c58-13772-venn-6.png)
 
@@ -110,14 +110,14 @@ The region required to calculate `straight P open parentheses A intersection B i
 
 **True or False?**
 
-On a Venn diagram showing sets $A$ and $B$, the region required to calculate `straight P open parentheses A apostrophe close parentheses` is the part of set $B$ that does not overlap $A$.
+On a Venn diagram showing sets $A$ and $B$, the region required to calculate $\mathrm{P} ( A ' )$ is the part of set $B$ that does not overlap $A$.
 
 
 **BACK**
 
 **False.**
 
-On a Venn diagram showing sets $A$ and $B$, the region required to calculate `straight P open parentheses A apostrophe close parentheses` is anything that is outside the circle of $A$, e.g.
+On a Venn diagram showing sets $A$ and $B$, the region required to calculate $\mathrm{P} ( A ' )$ is anything that is outside the circle of $A$, e.g.
 
 ![Venn diagram with two intersecting circles labelled A and B. Set A only contains 8 the intersection contains 2 and set B only contains 15. The number 7 lies within the universal set, U, but outside both sets A and B. The whole of the universal set, except for set A, is highlighted green.](assets/65acd8e97d26-217-2024-06-26-0me-kleki.png)
 
@@ -127,18 +127,18 @@ On a Venn diagram showing sets $A$ and $B$, the region required to calculate `st
 
 **FRONT**
 
-On a Venn diagram showing sets $A$ and $B$, explain how to calculate `straight P open parentheses A vertical line B close parentheses`.
+On a Venn diagram showing sets $A$ and $B$, explain how to calculate $\mathrm{P} ( A \vert B )$.
 
-E.g. find `straight P open parentheses A vertical line B close parentheses` from the Venn diagram.
+E.g. find $\mathrm{P} ( A \vert B )$ from the Venn diagram.
 
 ![Venn diagram with sets A and B. Set A only has 8, the intersection of sets A and B has 2 and set B only has 15. Within the universal set, U, but outside both sets A and B is 7.](assets/de0d9bb778c4-28658-venn.png)
 
 
 **BACK**
 
-`straight P open parentheses A vertical line B close parentheses` is a **conditional probability **meaning the probability of being in $A$, given that you are in $B$. Therefore the probability is out of set $B$ only.
+$\mathrm{P} ( A \vert B )$ is a **conditional probability **meaning the probability of being in $A$, given that you are in $B$. Therefore the probability is out of set $B$ only.
 
-The only part of set $A$ in set $B$ is $A\capB$, so divide the number in $A\capB$ by the total number in $B$, e.g. `straight P open parentheses A vertical line B close parentheses equals fraction numerator 2 over denominator 2 plus 15 end fraction equals 2 over 17`.
+The only part of set $A$ in set $B$ is $A\capB$, so divide the number in $A\capB$ by the total number in $B$, e.g. $\mathrm{P} ( A \vert B ) = \frac{2}{2 + 15} = \frac{2}{17}$.
 
 ![Venn diagram with two intersecting circles labelled A and B. Set A only contains 8 the intersection contains 2 and set B only contains 15. The number 7 lies within the universal set, U, but outside both sets A and B. Set B is highlighted as is the section of set A that lies within set B.](assets/b8d7a5db5a07-10304-venn-5.png)
 

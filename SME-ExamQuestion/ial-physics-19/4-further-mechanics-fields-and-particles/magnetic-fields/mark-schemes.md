@@ -51,13 +51,13 @@ Max **three** marks from **one** of the following methods:
 
 **Method 1: Compare E**<sub>**k**</sub>** and E**<sub>**grav**</sub>
 
-- KE at the bottom, `E subscript k space equals space 1 half m v squared space equals space 1 half space cross times space 7500 space cross times space open parentheses 42 close parentheses squared space equals space 6.6 cross times 10 to the power of 6 space straight J` **[1 mark]**
+- KE at the bottom, $E_{k} = 1 \frac{1}{2} m v^{2} = 1 \frac{1}{2} \times 7500 \times ( 42 )^{2} = 6.6 \times 10^{6} \mathrm{J}$ **[1 mark]**
 - KE required, $\DeltaE_{grav}=mg\Deltah=7500\times9.81\times81=6.0\times10^{6}J$ **[1 mark]**
 - It reaches the top of the tower, as the initial E<sub>k</sub> = 6.6 × 10<sup>6</sup> J is greater than energy required, ΔE<sub>grav</sub> = 6.0 × 10<sup>6</sup> J; **[1 mark]**
 
 **Method 2: Compare the height it can reach with the required height**
 
-- `1 half m v squared space equals space m g increment h space space space space space rightwards double arrow space space space space space increment h space equals space fraction numerator v squared over denominator 2 g end fraction space equals space fraction numerator open parentheses 42 close parentheses squared over denominator 2 cross times 9.81 end fraction` **[1 mark]**
+- $1 \frac{1}{2} m v^{2} = m g \Delta h \Leftrightarrow \Delta h = \frac{v^{2}}{2 g} = \frac{( 42 )^{2}}{2 \times 9.81}$ **[1 mark]**
 - Required height, $\Deltah=90m$ **[1 mark]**
 - It reaches the top of the tower as it can reach a height of 90 m which is greater than the required 81 m; **[1 mark]**
 
@@ -116,13 +116,13 @@ Determine the gradient at the steepest point:
 
 Calculate area of the coil:
 
-- `A space equals space pi cross times space open parentheses 0.003 close parentheses squared space equals space 2.83 cross times 10 to the power of negative 5 end exponent space straight m squared` **[1 mark]**
+- $A = \pi \times ( 0.003 )^{2} = 2.83 \times 10^{- 5} \mathrm{m}^{2}$ **[1 mark]**
 
 Use the equation for magnetic flux combined with Faraday's Law:
 
 - $ϕ=BA$ and $ε=\frac{-d(Nϕ)}{dt}$ **[1 mark]**
 - $ε=\frac{d(NBA)}{dt}=N\times\frac{dB}{dt}\timesA$
-- `epsilon space equals space fraction numerator negative d left parenthesis N ϕ right parenthesis over denominator space d t end fraction equals 500 space turns cross times space 100 space Ts to the power of negative 1 end exponent cross times space open parentheses 2.83 cross times 10 to the power of negative 5 end exponent close parentheses` **[1 mark]**
+- $\\epsilon = \frac{- d ( N ϕ )}{ d t} = 500 \text{turns} \times 100 Ts^{- 1} \times ( 2.83 \times 10^{- 5} )$ **[1 mark]**
 - $ε=1.4V$ (answers in range 1.2-1.6 V)  **[1 mark]**
 
 **[Total: 6 marks]**
@@ -237,7 +237,7 @@ To calculate the magnetic flux density $B$:
 
 $F=\Deltamg$
 
-`F space equals space open parentheses 6.285 cross times 10 to the power of negative 3 end exponent close parentheses cross times 9.81` **[1 mark]**
+$F = ( 6.285 \times 10^{- 3} ) \times 9.81$ **[1 mark]**
 
 - Calculate the flux density:
 
@@ -247,7 +247,7 @@ $F=BIl=\Deltamg$
 
 $B=\frac{\Deltamg}{Il}$
 
-`B space equals space fraction numerator open parentheses 6.285 cross times 10 to the power of negative 3 end exponent close parentheses cross times 9.81 over denominator 3.25 cross times 0.045 end fraction` **[1 mark]**
+$B = \frac{( 6.285 \times 10^{- 3} ) \times 9.81}{3.25 \times 0.045}$ **[1 mark]**
 
 $B=$ $0.42\text{T}$ **[1 mark]**
 
@@ -267,18 +267,18 @@ To assess which of these measurements was the most significant source of uncerta
   - Uncertainty in mass, $\Deltam=0.001\text{g}$
   - Length, $l=4.5\text{cm}=45\text{mm}$
   - Uncertainty in length, $\Deltal=0.5\text{mm}$ (half resolution)
-  - % uncertainty in `I space equals space 0.3 percent sign`
+  - % uncertainty in $I = 0.3 \%$
 - Determine the percentage uncertainties (%U) in force and length:
 
 %U in $F=$%U in $m$ (as %U in $g$ is negligible)
 
-%U in `F space equals space fraction numerator 0.001 over denominator 6.285 end fraction cross times 100 space equals space 0.02 percent sign` **[1 mark]**
+%U in $F = \frac{0.001}{6.285} \times 100 = 0.02 \%$ **[1 mark]**
 
-%U in `l space equals space fraction numerator 0.5 over denominator 45 end fraction cross times 100 space equals space 1.1 percent sign` **[1 mark]**
+%U in $l = \frac{0.5}{45} \times 100 = 1.1 \%$ **[1 mark]**
 
 - Write a concluding statement:
 
-**The % uncertainty in length is the largest (**`1.1 percent sign greater than 0.3 percent sign greater than 0.02 percent sign`**), so **$l$** is the most significant source of uncertainty** **[1 mark]**
+**The % uncertainty in length is the largest (**$1.1 \% > 0.3 \% > 0.02 \%$**), so **$l$** is the most significant source of uncertainty** **[1 mark]**
 
 > **[mark-scheme]**
 > 1 mark for assessing the uncertainty in force
@@ -372,9 +372,9 @@ The induced current produces a magnetic field which in turn produces a force whi
 
 - Therefore, the change in flux linkage is equal to
 
-  - `increment open parentheses N ϕ close parentheses space equals space B A N space cos space 0 space minus space B A N space cos space straight pi`
-  - `increment open parentheses N ϕ close parentheses space equals space B A N space minus space open parentheses negative B A N close parentheses space equals space 2 B A N`
-  - `increment open parentheses N ϕ close parentheses space equals space 2 N ϕ`
+  - $\Delta ( N ϕ ) = B A N \cos 0 - B A N \cos \mathrm{\pi }$
+  - $\Delta ( N ϕ ) = B A N - ( - B A N ) = 2 B A N$
+  - $\Delta ( N ϕ ) = 2 N ϕ$
 
 - This is option **D**
 
@@ -411,8 +411,8 @@ The induced current produces a magnetic field which in turn produces a force whi
 
 - This means that when the wire and field lines are :
 
-  - Perpendicular `open parentheses sin space 90 degree space equals space 1 close parentheses`: a force will be induced `open parentheses F space equals space B I l close parentheses`
-  - Parallel `open parentheses sin space 0 degree space equals space 0 close parentheses`: a force will **not** be induced `open parentheses F space equals space 0 close parentheses`
+  - Perpendicular $( \sin 90^{\circ} = 1 )$: a force will be induced $( F = B I l )$
+  - Parallel $( \sin 0^{\circ} = 0 )$: a force will **not** be induced $( F = 0 )$
 
 - Hence, the perpendicular sides **SP** and **QR** will experience a magnetic force of $BIl$
 - And the parallel sides **PQ **and** RS **will experience a magnetic force of 0

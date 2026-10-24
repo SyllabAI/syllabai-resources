@@ -26,8 +26,8 @@ guided_study: false
   - $b$ is called the **base **of the logarithm
 - Try to get used to ‘reading’ logarithm statements to yourself
 
-  - `log subscript... end subscript open parentheses... close parentheses space equals` would be read as “the power that you raise ... to, to get ..., is ”
-  - So `log subscript 5 open parentheses 125 close parentheses equals 3` would be read as “the power that you raise 5 to, to get 125, is 3”
+  - `log _... end _ (... ) =` would be read as “the power that you raise ... to, to get ..., is ”
+  - So $log_{5} ( 125 ) = 3$ would be read as “the power that you raise 5 to, to get 125, is 3”
 
 ![Connection between exponentials and logarithms](../../../assets/450306875f31-6-1-2-logarithmic-functions-notes-fig1.png)
 
@@ -122,10 +122,10 @@ guided_study: false
 
 - The functions $e^{x}$ and $\mathrm{ln}x$ are **inverses** of each other
 
-  - If $e^{x}=a$ then `x equals ln invisible function application space a`
-  - If `ln invisible function application space x equals a` then $x=e^{a}$
-  - If $e^{f(x)}=g(x)$ then `straight f stretchy left parenthesis x stretchy right parenthesis equals ln invisible function application space straight g stretchy left parenthesis x stretchy right parenthesis`
-  - If `ln invisible function application space straight f left parenthesis x right parenthesis equals straight g open parentheses x close parentheses` then `straight f open parentheses x close parentheses equals straight e to the power of straight g open parentheses x close parentheses end exponent`
+  - If $e^{x}=a$ then $x = \ln a$
+  - If $\ln x = a$ then $x=e^{a}$
+  - If $e^{f(x)}=g(x)$ then $\mathrm{f} ( x ) = \ln \mathrm{g} ( x )$
+  - If $\ln \mathrm{f} ( x ) = \mathrm{g} ( x )$ then $\mathrm{f} ( x ) = \mathrm{e}^{ \mathrm{g} ( x )}$
 - If your equation involves "e" then try to get all the "e" terms on one side
 
   - If "e" terms are multiplied, you can add the powers
@@ -140,8 +140,8 @@ guided_study: false
 - If your equation involves "ln", try to combine all "ln" terms together
 
   - Use the laws of logarithms to combine terms into a single term
-  - If you have `ln invisible function application space straight f open parentheses x close parentheses equals ln invisible function application space straight g left parenthesis x right parenthesis` then solve `straight f open parentheses x close parentheses equals straight g left parenthesis x right parenthesis`
-  - If you have `ln invisible function application space straight f open parentheses x close parentheses equals k` then solve `straight f open parentheses x close parentheses equals straight e to the power of k`
+  - If you have $\ln \mathrm{f} ( x ) = \ln \mathrm{g} ( x )$ then solve $\mathrm{f} ( x ) = \mathrm{g} ( x )$
+  - If you have $\ln \mathrm{f} ( x ) = k$ then solve $\mathrm{f} ( x ) = \mathrm{e}^{k}$
 
 > **Exam Hint**
 > - If you're working on the non-calculator exam paper you may need to leave answers as exact values so using ln*x *is a good idea
@@ -153,15 +153,15 @@ guided_study: false
 > 
 > > *Take the natural logarithm of both sides. *
 > 
-> `ln space open parentheses straight e to the power of 2 x end exponent close parentheses space equals space ln space 5`
+> $\ln ( \mathrm{e}^{2 x} ) = \ln 5$
 > 
-> > *Use the property that *`ln space open parentheses straight e to the power of a close parentheses space equals space a`*.*
+> > *Use the property that *$\ln ( \mathrm{e}^{a} ) = a$*.*
 > 
 > > $2x=\mathrm{ln}5$* *
 > 
 > > *Divide both sides by 2. *
 > 
-> `table row cell x space end cell equals cell space fraction numerator ln space 5 over denominator 2 end fraction end cell end table`
+> $\begin{gathered} x & = \frac{\ln 5}{2} \end{gathered}$
 > 
 > > *Do not use your calculator to evaluate this as the question asks for the answer given as an exact value.*
 > 

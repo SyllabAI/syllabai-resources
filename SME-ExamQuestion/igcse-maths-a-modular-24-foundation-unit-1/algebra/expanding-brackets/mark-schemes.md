@@ -10,13 +10,13 @@
 
 > *Expand the double brackets, using FOIL or an equivalent method*
 
-`table row cell m cross times m end cell equals cell m squared end cell row cell m cross times negative 5 end cell equals cell negative 5 m end cell row cell 9 cross times m end cell equals cell 9 m end cell row cell 9 cross times negative 5 end cell equals cell negative 45 end cell end table`
+$\begin{gathered} m \times m & = m^{2} \\ m \times - 5 & = - 5 m \\ 9 \times m & = 9 m \\ 9 \times - 5 & = - 45 \end{gathered}$
 
 **[M1]**
 
 > *Write the expanded terms out as a list*
 
-`table row blank blank cell m squared plus 9 m minus 5 m minus 45 end cell end table`
+$\begin{gathered} m^{2} + 9 m - 5 m - 45 \end{gathered}$
 
 > *Collect the like terms to simplify the expression*
 

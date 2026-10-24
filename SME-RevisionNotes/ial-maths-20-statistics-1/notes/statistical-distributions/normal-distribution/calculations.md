@@ -11,7 +11,7 @@ guided_study: false
 
 # Calculations with Normal Distributions
 
-Throughout this section we will use the random variable `X tilde straight N left parenthesis mu comma space sigma squared right parenthesis` . For normal, $X$ can take any real number. Therefore any values mentioned in this section will be assumed to be any real number.
+Throughout this section we will use the random variable $X \sim \mathrm{N} ( \\mu , \\sigma ^{2} )$ . For normal, $X$ can take any real number. Therefore any values mentioned in this section will be assumed to be any real number.
 
 ## Calculating Normal Probabilities
 
@@ -32,11 +32,11 @@ Throughout this section we will use the random variable `X tilde straight N left
 
 #### How do I calculate the probability for a normal distribution?
 
-- A random variable `X tilde straight N left parenthesis mu comma sigma squared right parenthesis`  can be coded to model the standard normal distribution `equation` using the formula
+- A random variable $X \sim \mathrm{N} ( \\mu , \\sigma ^{2} )$  can be coded to model the standard normal distribution `equation` using the formula
 
 $Z=\frac{X-μ}{σ}$
 
-- You can calculate a probability $P(X<x)$ using the relationship `straight P left parenthesis X less than x right parenthesis equals straight P open parentheses Z less than fraction numerator x minus mu over denominator sigma end fraction close parentheses`
+- You can calculate a probability $P(X<x)$ using the relationship $\mathrm{P} ( X < x ) = \mathrm{P} ( Z < \frac{x - \\mu }{\\sigma } )$
 - **Always sketch** a quick diagram to visualise which area you are looking for
 - Once you have determined the *z *value use the table of the normal distribution to find the probability
 
@@ -51,11 +51,11 @@ $Z=\frac{X-μ}{σ}$
 - As $P(X=a)=0$ you can use:
 
   - $P(X<a)+P(X>a)=1$
-  - `straight P left parenthesis X greater than a right parenthesis equals 1 minus straight P left parenthesis X less than a right parenthesis equals 1 minus straight capital phi open parentheses fraction numerator a minus mu over denominator sigma end fraction close parentheses`
-  - `straight P left parenthesis a less than X less than b right parenthesis equals straight P left parenthesis X less than b right parenthesis minus straight P left parenthesis X less than a right parenthesis equals straight capital phi open parentheses fraction numerator b minus mu over denominator sigma end fraction close parentheses minus straight capital phi open parentheses fraction numerator a minus mu over denominator sigma end fraction close parentheses`
+  - `P ( X greater than a ) = 1 - P ( X less than a ) = 1 - capital phi ( (a - mu)/(sigma) )`
+  - `P ( a less than X less than b ) = P ( X less than b ) - P ( X less than a ) = capital phi ( (b - mu)/(sigma) ) - capital phi ( (a - mu)/(sigma) )`
 
 > **Worked Example**
-> The random variable `X tilde straight N left parenthesis 20 comma 5 squared right parenthesis`. Calculate:
+> The random variable $X \sim \mathrm{N} ( 20 , 5^{2} )$. Calculate:
 > 
 > (a) $P(X\leq22)$,
 > 
@@ -99,7 +99,7 @@ $Z=\frac{X-μ}{σ}$
 #### Given the value of P(µ- a < X < µ + a) I find the value of a  ?
 
 - A sketch making use of the symmetry of the graph is essential
-- If you are given `P left parenthesis mu minus a less than X less than mu plus a right parenthesis equals alpha percent sign`  then $P(X<μ+a)$ will be `open parentheses fraction numerator 100 plus alpha over denominator 2 end fraction close parentheses percent sign`
+- If you are given $P ( \\mu - a < X < \\mu + a ) = \\alpha \%$  then $P(X<μ+a)$ will be $( \frac{100 + \\alpha }{2} ) \%$
 
   - This is easier to see from a sketch than to remember
   - You can then look through the tables for the corresponding z-value and substitute into the formula** ** $z=\frac{(μ+a)-μ}{σ}=\frac{a}{σ}$
@@ -107,7 +107,7 @@ $Z=\frac{X-μ}{σ}$
 ![3-3-3-inverse-normal-diagram-2](../../../assets/0f45a0802311-3-3-3-inverse-normal-diagram-2.png)
 
 > **Worked Example**
-> The random variable  `W tilde straight N left parenthesis 50 comma 36 right parenthesis`.
+> The random variable  $W \sim \mathrm{N} ( 50 , 36 )$.
 > 
 > Find the value of $w$ such that $P(W>w)=0.7673$
 > 

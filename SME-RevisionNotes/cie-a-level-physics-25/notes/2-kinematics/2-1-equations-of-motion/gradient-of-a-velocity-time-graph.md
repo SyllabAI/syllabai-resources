@@ -19,7 +19,7 @@ guided_study: true
 
 - **Acceleration** is any change in the velocity of an object in a given time
 
-`a c c e l e r a t i o n space equals fraction numerator space c h a n g e space i n space v e l o c i t y over denominator t i m e end fraction space equals space fraction numerator open parentheses v space minus space u close parentheses space over denominator t end fraction space equals space fraction numerator increment v space over denominator increment t end fraction`
+$a c c e l e r a t i o n = \frac{ c h a n g e i n v e l o c i t y}{t i m e} = \frac{( v - u ) }{t} = \frac{\Delta v }{\Delta t}$
 
 - Where:
 

@@ -30,7 +30,7 @@ guided_study: false
 
   - **Collinear **describes points that lie on the same **straight line**
   
-    - e.g.  The points `open parentheses negative 2 comma space minus 2 close parentheses comma space open parentheses 3 comma space 3 close parentheses` and `open parentheses 8 comma space 8 close parentheses` all lie on the line with equation $y=x$
+    - e.g.  The points $( - 2 , - 2 ) , ( 3 , 3 )$ and $( 8 , 8 )$ all lie on the line with equation $y=x$
     - Vectors can be used to show this, and similar, results
 - Results concerned with **geometric shapes**
 
@@ -45,7 +45,7 @@ guided_study: false
 
 - If the point $A$ has position vector $a$ and the point $B$ has position vector $b$
 
-  - the **position vector **of the **midpoint **of $AB$ is `1 half open parentheses bold a plus bold b close parentheses`
+  - the **position vector **of the **midpoint **of $AB$ is $1 \frac{1}{2} ( a + b )$
 - This can be derived by considering
 
   - $\overset{\rightarrow}{AB}=b-a$
@@ -56,7 +56,7 @@ guided_study: false
     - $\overset{\rightarrow}{AM}=\frac{1}{2}\overset{\rightarrow}{AB}$
   - Therefore, the position vector of the midpoint, $\overset{\rightarrow}{OM}$ is
   
-    - `stack O M with rightwards arrow on top equals stack O A with rightwards arrow on top plus stack A M with rightwards arrow on top equals bold a plus 1 half open parentheses bold b minus bold a close parentheses` `stack O M with rightwards arrow on top equals 1 half open parentheses bold a plus bold b close parentheses`
+    - $\vec{OM} = \vec{OA} + \vec{AM} = a + 1 \frac{1}{2} ( b - a )$ $\vec{OM} = 1 \frac{1}{2} ( a + b )$
 
 ### How do I show three points are collinear?
 
@@ -122,7 +122,7 @@ guided_study: false
 > 
 > > * *
 > 
-> `table row cell stack A E with rightwards arrow on top space end cell equals cell space stack A B with rightwards arrow on top plus stack B C with rightwards arrow on top plus space stack C D with rightwards arrow on top plus stack D E with rightwards arrow on top end cell row blank equals cell space bold italic a plus bold a plus bold a plus bold a end cell end table`
+> $\begin{gathered} \vec{AE} & = \vec{AB} + \vec{BC} + \vec{CD} + \vec{DE} \\ = a + a + a + a \end{gathered}$
 > 
 > > * *
 > 
@@ -134,7 +134,7 @@ guided_study: false
 > 
 > > * *
 > 
-> `table row cell stack G T with rightwards arrow on top end cell equals cell stack G L with rightwards arrow on top plus stack L Q with rightwards arrow on top plus stack Q R with rightwards arrow on top plus stack R S with rightwards arrow on top plus stack S T with rightwards arrow on top end cell row blank equals cell bold b plus bold b plus bold a plus bold a plus space bold a end cell end table`
+> $\begin{gathered} \vec{GT} & = \vec{GL} + \vec{LQ} + \vec{QR} + \vec{RS} + \vec{ST} \\ = b + b + a + a + a \end{gathered}$
 > 
 > > * *
 > 
@@ -150,7 +150,7 @@ guided_study: false
 > 
 > > * *
 > 
-> `table row cell stack P Z with rightwards arrow on top end cell equals cell stack P R with rightwards arrow on top plus stack R Z with rightwards arrow on top space space end cell row blank equals cell bold a plus bold a minus bold b minus 1 half bold b end cell end table`
+> $\begin{gathered} \vec{PZ} & = \vec{PR} + \vec{RZ} \\ = a + a - b - 1 \frac{1}{2} b \end{gathered}$
 > 
 > > * *
 > 

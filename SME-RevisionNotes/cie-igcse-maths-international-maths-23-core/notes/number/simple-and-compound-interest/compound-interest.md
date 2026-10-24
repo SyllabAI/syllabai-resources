@@ -69,7 +69,7 @@ guided_study: true
 
 - An **alternative method** is to use the **following formula** to calculate the final balance
 
-  - Final balance = `P open parentheses 1 plus r over 100 close parentheses to the power of n space end exponent` where
+  - Final balance = $P ( 1 + \frac{r}{100} )^{n }$ where
   
     - *P* is the original amount,
     - *r* is the % increase,
@@ -96,16 +96,16 @@ guided_study: true
 > 
 > > *Therefore the final value after 7 years will be*
 > 
-> `1200 space cross times space 1.04 to the power of 7 space equals space $ space 1579.118135`
+> $1200 \times 1.04^{7} = \$ 1579.118135$
 > 
 > > *Round to the nearest dollar*
 > 
-> `bold $ bold space bold 1579`
+> $\$ 1579$
 > 
 > > *Alternate method*
-> *Using the formula for the final amount   *`P open parentheses 1 plus r over 100 close parentheses to the power of n space end exponent`
+> *Using the formula for the final amount   *$P ( 1 + \frac{r}{100} )^{n }$
 > *Substitute **P** is 1200, **r** = 4 and **n** = 7 into the formula *
 > 
-> `1200 open parentheses 1 plus 4 over 100 close parentheses to the power of 7`
+> $1200 ( 1 + \frac{4}{100} )^{7}$
 > 
-> `bold $ bold space bold 1579`
+> $\$ 1579$

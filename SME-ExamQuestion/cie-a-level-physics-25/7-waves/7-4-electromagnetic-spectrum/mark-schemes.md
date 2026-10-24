@@ -179,7 +179,7 @@ Most homes use a microwave oven. Consider the possible size of the microwaves us
 - So, a change in *f* will only cause *λ *to change
 
   - $c=fλ$
-  - `c equals open parentheses f over 2 close parentheses open parentheses 2 lambda close parentheses`
+  - $c = ( \frac{f}{2} ) ( 2 \\lambda )$
 - Therefore, if the frequency of the wave is halved, then the wavelength will double
 
 ### Q13
@@ -241,7 +241,7 @@ Most homes use a microwave oven. Consider the possible size of the microwaves us
 
   - 2λ = *d* sin *θ*
   - $λ=\frac{dsinθ}{2}$
-  - `lambda equals fraction numerator open parentheses 0.02 cross times 10 to the power of negative 3 end exponent close parentheses cross times sin space open parentheses 3.96 close parentheses over denominator 2 end fraction`= 690 nm (2 s.f)
+  - $\\lambda = \frac{( 0.02 \times 10^{- 3} ) \times \sin ( 3.96 )}{2}$= 690 nm (2 s.f)
 - The range of wavelengths for the colour red is around 620 nm to 700 nm
 
   - Therefore, the colour of the monochromatic light is red

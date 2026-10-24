@@ -72,11 +72,11 @@ To **solve a linear equation**, you need to **isolate the variable**, (get the l
 
 E.g.
 
-`3 x plus 4 equals 13
-table row cell negative 4 end cell cell space space space space space space space space space space space space space space space space space space space space minus 4 end cell end table
-3 x equals 9
-divided by 3 space space space space space space space space space space space space space space space space space space space space space divided by 3
-x equals 3`
+$3 x + 4 = 13
+ \begin{gathered} - 4 & - 4 \end{gathered} 
+3 x = 9
+\div 3 \div 3
+x = 3$
 
 
 
@@ -115,7 +115,7 @@ If a linear equation contains the **unknown variable on both sides**, you should
 
 E.g.
 
-`table row cell 8 x plus 7 end cell equals cell 2 x plus 11 end cell row cell 6 x plus 7 end cell equals 11 end table`
+$\begin{gathered} 8 x + 7 & = 2 x + 11 \\ 6 x + 7 & = 11 \end{gathered}$
 
 
 
@@ -125,7 +125,7 @@ E.g.
 
 What is the **first step** to solve a **linear equation with brackets**?
 
-E.g. `4 open parentheses x plus 6 close parentheses equals 32`.
+E.g. $4 ( x + 6 ) = 32$.
 
 
 **BACK**
@@ -134,7 +134,7 @@ The **first step** to solve a **linear equation with brackets** is to **expand t
 
 E.g.
 
-`table row cell 4 open parentheses x plus 6 close parentheses end cell equals 32 row cell 4 x plus 24 end cell equals 32 end table`
+$\begin{gathered} 4 ( x + 6 ) & = 32 \\ 4 x + 24 & = 32 \end{gathered}$
 
 
 
@@ -153,7 +153,7 @@ The** first step** to solve a **linear equation with fractions** is to remove th
 
 E.g.
 
-`table row cell fraction numerator x plus 9 over denominator 2 end fraction end cell equals cell fraction numerator 3 x minus 1 over denominator 4 end fraction end cell row cell 4 open parentheses x plus 9 close parentheses end cell equals cell 2 open parentheses 3 x minus 1 close parentheses end cell row blank blank blank end table`
+$\begin{gathered} \frac{x + 9}{2} & = \frac{3 x - 1}{4} \\ 4 ( x + 9 ) & = 2 ( 3 x - 1 ) \\ \end{gathered}$
 
 
 
@@ -262,7 +262,7 @@ Three bags contain $x$, $x+5$ and $x+10$ marbles each.
 
 If there are 75 marbles in total, then an equation can be formed by **adding** all the quantities up and setting them **equal to** 75.
 
-This gives `x plus open parentheses x plus 5 close parentheses plus open parentheses x plus 10 close parentheses equals 75`.
+This gives $x + ( x + 5 ) + ( x + 10 ) = 75$.
 
 Examiners want to see this full equation (before simplifying or solving).
 

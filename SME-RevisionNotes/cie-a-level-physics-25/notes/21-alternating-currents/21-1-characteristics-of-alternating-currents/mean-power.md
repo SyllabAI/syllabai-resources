@@ -35,17 +35,17 @@ $I_{0}=\sqrt{2}I_{r.m.s}$
 
 - The peak (maximum) power and the mean (average) power are given by:
 
-`P subscript m e a n end subscript space equals space open parentheses I subscript r. m. s end subscript close parentheses squared R`
+$P_{m e a n} = ( I_{r. m. s} )^{2} R$
 
 $P_{peak}=I_{0}^{2}R$
 
 - Peak power can be written in terms of r.m.s current as
 
-`P subscript p e a k end subscript space equals space open parentheses square root of 2 I subscript r. m. s end subscript close parentheses squared R`
+$P_{p e a k} = ( \sqrt{2} I_{r. m. s} )^{2} R$
 
 - Therefore, peak power is related to mean power by:
 
-`2 open parentheses I subscript r. m. s end subscript close parentheses squared R space equals space 2 P subscript m e a n end subscript`
+$2 ( I_{r. m. s} )^{2} R = 2 P_{m e a n}$
 
 $P_{mean}=\frac{P_{peak}}{2}$
 
@@ -73,7 +73,7 @@ $P_{mean}=\frac{P_{peak}}{2}$
 > 
 > $P=\frac{V_{0}^{2}}{R}$
 > 
-> `P space equals space fraction numerator open parentheses 240 close parentheses squared space over denominator 40 end fraction space equals space 1440 space straight W`
+> $P = \frac{( 240 )^{2} }{40} = 1440 \mathrm{W}$
 > 
 > **Step 3:** **Calculate the mean power**
 > 

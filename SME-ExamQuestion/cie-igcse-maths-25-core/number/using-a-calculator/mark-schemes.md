@@ -8,7 +8,7 @@
 ### Q1
 Type the expression into your calculator exactly as it appears
 
-`fraction numerator 19.8 plus 11.53 over denominator negative 1.43 plus cube root of 42.875 end root end fraction equals 3133 over 207 equals 15.135265...`
+$\frac{19.8 + 11.53}{- 1.43 + \sqrt[3]{42.875} } = \frac{3133}{207} = 15.135265...$
 
 **[M1]**
 
@@ -37,7 +37,7 @@ $27^{2}=729$
 **[B1]**
 Type the expression exactly as it appears into your calculator
 
-`cube root of 6859 equals 19`
+$\sqrt[3]{6859} = 19$
 
 **Final answer:** **19**
 
@@ -64,20 +64,20 @@ $4.1\times10^{-4}$* ***[1]**
 > * Type the whole expression into your calculator, paying close attention to:*
 
 - *The numerator is a cube root, not a square root*
-- $3\frac{4}{5}$* may be easier to type in as *`open parentheses 3 plus 4 over 5 close parentheses`* or as a top-heavy fraction *`open parentheses 19 over 5 close parentheses`
+- $3\frac{4}{5}$* may be easier to type in as *$( 3 + \frac{4}{5} )$* or as a top-heavy fraction *$( \frac{19}{5} )$
 
-`fraction numerator cube root of 3 squared cross times negative 7 end root over denominator open parentheses 3 4 over 5 close parentheses to the power of negative 2 end exponent end fraction equals negative 57.45758608...`
+$\frac{ \sqrt[3]{3^{2} \times - 7} }{( 3 \frac{4}{5} )^{- 2} } = - 57.45758608...$
 
 > *Round to 4 significant figures*
 
 **-57.46**** ****[1]**
 
 ### Q5
-> *Type *`square root of open parentheses 8 plus 4 cross times 75 to the power of 0.6 end exponent close parentheses end root`* into a calculator. Make sure the square root sign covers all the numbers.*
+> *Type *$\sqrt{( 8 + 4 \times 75^{0.6} )}$* into a calculator. Make sure the square root sign covers all the numbers.*
 
 > * *
 
-`square root of open parentheses 8 plus 4 cross times 75 to the power of 0.6 end exponent close parentheses end root equals 7.832328...`
+$\sqrt{( 8 + 4 \times 75^{0.6} )} = 7.832328...$
 
 > * *
 
@@ -133,7 +133,7 @@ $-12\div-2=12\div2=6$
 **6**** ****[1]**
 > *Use a calculator to determine the value*
 
-`cube root of 2 cubed plus 2 end root space equals space 2.15443469...`
+$\sqrt[3]{2^{3} + 2} = 2.15443469...$
 
 > *Round to 3 significant figures*
 
@@ -185,7 +185,7 @@ $\frac{4.85\times6.14}{8.91+3.89}=2.32648...$
 
 > *Round this number to 2 decimal places by looking at the third decimal place and seeing that 6 is bigger than 5, so round the number up.*
 
-`2.32 circle enclose 6 48... space rightwards arrow space 2.33`
+$2.32 \textcircled{6} 48... \rightarrow 2.33$
 
 **2.33**** ****[1]**
 
@@ -202,7 +202,7 @@ $\frac{4.85\times6.14}{8.91+3.89}=2.32648...$
 
 **64** **[1]**
 
-(iii) *Type *`cube root of 274625`* into a calculator.*
+(iii) *Type *$\sqrt[3]{274625}$* into a calculator.*
 
 > * *
 
@@ -232,11 +232,11 @@ $18^{3}=5832$
 $1$* ***[1]**
 
 ### Q18
-(i) *Type *`cube root of 2744`* into a calculator.*
+(i) *Type *$\sqrt[3]{2744}$* into a calculator.*
 
 > * *
 
-`cube root of 2744 equals 14`
+$\sqrt[3]{2744} = 14$
 
 > * *
 
@@ -268,11 +268,11 @@ $59$* ***[1]**
 > * *
 
 ** ****She's ignored BIDMAS/order of operations. She needs to add brackets to make it correct, it should be **$(68+18)\div(9-5)$** ****[1]**
-> *Type *`open parentheses 68 plus 18 close parentheses divided by open parentheses 9 minus 5 close parentheses`* into a calculator.*
+> *Type *$( 68 + 18 ) \div ( 9 - 5 )$* into a calculator.*
 
 > * *
 
-`open parentheses 68 plus 18 close parentheses divided by open parentheses 9 minus 5 close parentheses equals 21.5`
+$( 68 + 18 ) \div ( 9 - 5 ) = 21.5$
 
 > * *
 

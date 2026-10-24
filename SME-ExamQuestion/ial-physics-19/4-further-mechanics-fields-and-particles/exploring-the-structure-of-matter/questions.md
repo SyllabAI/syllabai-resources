@@ -207,7 +207,7 @@ Which of the following statements does **not** help to explain why electrons can
 ## Q8 — medium — 1 marks · multiple-choice-questions
 
 ### 1() — 1 mark — multiple_choice — from paper 2022 Jan · WPH14/01
-`straight O presubscript 8 presuperscript 17` is an isotope of oxygen.
+`O _ 8 ^ 17` is an isotope of oxygen.
 
 Which row of the table gives the number of nucleons and the number of neutrons in an atom of `O presubscript 8 presuperscript 17`?
 

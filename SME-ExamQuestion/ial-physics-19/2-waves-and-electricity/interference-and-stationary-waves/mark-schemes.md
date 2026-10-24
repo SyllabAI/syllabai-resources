@@ -66,7 +66,7 @@ Determine the wave speed, $v$:
 Determine the tension, $T$:
 
 - $v=\sqrt{\frac{T}{μ}}$
-- `T space equals space v squared mu space equals space open parentheses 67.5 close parentheses squared space cross times space open parentheses 4.5 cross times 10 to the power of negative 4 end exponent close parentheses space equals space 2.05 space straight N` **[1 mark]**
+- $T = v^{2} \\mu = ( 67.5 )^{2} \times ( 4.5 \times 10^{- 4} ) = 2.05 \mathrm{N}$ **[1 mark]**
 
 Calculate the mass:
 
@@ -215,7 +215,7 @@ The energy transferred is greatest at the antinodes of the standing wave pattern
 > 
 > - **IC3** Constructive interference produces antinodes where waves meet in phase / with path difference $=nλ$
 > 
-> - **IC4** Destructive interference produces nodes where waves meet in antiphase / with path difference `equals space open parentheses n plus 1 half close parentheses lambda`
+> - **IC4** Destructive interference produces nodes where waves meet in antiphase / with path difference $= ( n + 1 \frac{1}{2} ) \\lambda$
 > 
 > - **IC5** Nodes are points with minimum amplitude / intensity and antinodes are points with maximum amplitude / intensity
 > 
@@ -302,7 +302,7 @@ $f=$ $2.46\text{GHz}$ **[1 mark]**
 ## Q7 — medium — 1 marks · multiple-choice-questions
 
 ### 6() — 1 marks
-**Correct answer: A** — `square root of open parentheses fraction numerator 4 M g L over denominator 3 m end fraction close parentheses end root`
+**Correct answer: A** — $\sqrt{( \frac{4 M g L}{3 m} )}$
 
 **Final answer:** **The correct answer is ****A**** because:**
 
@@ -310,7 +310,7 @@ $f=$ $2.46\text{GHz}$ **[1 mark]**
 
   - Tension is provided by the weight of the hanging masses, so $T=Mg$
   - The length of the string is $L+\frac{L}{3}=\frac{4L}{3}$ so mass per unit length is $μ=\frac{3m}{4L}$
-- `v space equals space square root of fraction numerator M g over denominator open parentheses fraction numerator 3 m over denominator 4 L end fraction close parentheses end fraction end root space equals space square root of fraction numerator 4 M g L over denominator 3 m end fraction end root` which is option **A**
+- $v = \sqrt{ \frac{M g}{( \frac{3 m}{4 L} )} } = \sqrt{ \frac{4 M g L}{3 m} }$ which is option **A**
 
 ## Q8 — medium — 1 marks · multiple-choice-questions
 

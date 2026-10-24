@@ -28,7 +28,7 @@ $x=$ ..............................................
 
 **Q3** [3 marks]
 
-$f(x)=\frac{3}{x+2},x\neq-2$  and  `straight g open parentheses x close parentheses equals 8 x minus 5`.
+$f(x)=\frac{3}{x+2},x\neq-2$  and  $\mathrm{g} ( x ) = 8 x - 5$.
 
 Write  $g(x)-f(x)$ as a single fraction in its simplest form.
 
@@ -121,9 +121,9 @@ $\frac{x-5}{3}+\frac{6}{x+2}$
 
 **Q11** [3 marks]
 
-`straight f open parentheses x close parentheses equals 7 x minus 4`  and  `straight g open parentheses x close parentheses equals fraction numerator 2 x over denominator x minus 3 end fraction comma space x not equal to 3`
+$\mathrm{f} ( x ) = 7 x - 4$  and  $\mathrm{g} ( x ) = \frac{2 x}{x - 3} , x \text{eq} 3$
 
-Find `space fraction numerator straight f open parentheses x close parentheses space over denominator 2 end fraction plus straight g open parentheses x close parentheses`. 
+Find $\frac{ \mathrm{f} ( x ) }{2} + \mathrm{g} ( x )$. 
 Give your answer as a single fraction, in terms of $x$, in its simplest form.
 
 *Source: 2020 May/June 0580/43 Q11D*
@@ -184,7 +184,7 @@ $\frac{3}{x-1}-\frac{2}{2x+1}$
 
 **Q17** [3 marks]
 
-`straight f open parentheses x close parentheses equals 8 minus 3 x`  and  $g(x)=\frac{10}{x+1},x\neq-1$.
+$\mathrm{f} ( x ) = 8 - 3 x$  and  $g(x)=\frac{10}{x+1},x\neq-1$.
 
 Write $f(x)+g(x)$ as a single fraction in its simplest form.
 

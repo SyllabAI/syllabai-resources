@@ -21,25 +21,25 @@ guided_study: true
 
 - The **addition** of complex numbers can be shown by the addition of **corresponding column vectors**
 
-  - If $z_{1}=a+bi$and $z_{2}=c+di$, then  `z subscript 1 plus z subscript 2 equals open parentheses a plus b straight i close parentheses plus open parentheses c plus d straight i close parentheses`
+  - If $z_{1}=a+bi$and $z_{2}=c+di$, then  $z_{1} + z_{2} = ( a + b \mathrm{i} ) + ( c + d \mathrm{i} )$
   - This can be written as
 
-`open parentheses a over b close parentheses plus open parentheses c over d close parentheses equals open parentheses fraction numerator a plus c over denominator b plus d end fraction close parentheses`
+$( \frac{a}{b} ) + ( \frac{c}{d} ) = ( \frac{a + c}{b + d} )$
 
-- An alternative is to write `open parentheses a plus b straight i close parentheses plus left parenthesis c plus d straight i right parenthesis` as `open parentheses a plus c close parentheses plus left parenthesis b plus d right parenthesis straight i`, adding the respective real and imaginary parts separately
+- An alternative is to write $( a + b \mathrm{i} ) + ( c + d \mathrm{i} )$ as $( a + c ) + ( b + d ) \mathrm{i}$, adding the respective real and imaginary parts separately
 
-- A complex number $x+yi$ can be represented by the **position vector **`open parentheses x over y close parentheses`
+- A complex number $x+yi$ can be represented by the **position vector **$( \frac{x}{y} )$
 
 ### How do I sketch complex subtraction on an Argand diagram?
 
 - As with addition we can use knowledge of vectors to represent **subtraction** of complex numbers
 
-  - If $z_{1}=a+bi$ and $z_{2}=c+di$, then `z subscript 1 minus z subscript 2 equals open parentheses a plus b straight i close parentheses minus open parentheses c plus d straight i close parentheses`
+  - If $z_{1}=a+bi$ and $z_{2}=c+di$, then $z_{1} - z_{2} = ( a + b \mathrm{i} ) - ( c + d \mathrm{i} )$
   - This can be written as
 
-`open parentheses a over b close parentheses minus open parentheses c over d close parentheses equals open parentheses fraction numerator a minus c over denominator b minus d end fraction close parentheses`
+$( \frac{a}{b} ) - ( \frac{c}{d} ) = ( \frac{a - c}{b - d} )$
 
-- An alternative is to write `open parentheses a plus b straight i close parentheses minus left parenthesis c plus d straight i right parenthesis` as `open parentheses a minus c close parentheses plus left parenthesis b minus d right parenthesis straight i`, subtracting the respective real and imaginary parts separately
+- An alternative is to write $( a + b \mathrm{i} ) - ( c + d \mathrm{i} )$ as $( a - c ) + ( b - d ) \mathrm{i}$, subtracting the respective real and imaginary parts separately
 
 ### Which geometric transformations represent complex addition and subtraction?
 
@@ -47,8 +47,8 @@ guided_study: true
 
   - $w=a+bi$
 - Let *z *be any complex number represented on an Argand diagram
-- **Adding *****w *****to *****z*** results in *z *being **translated** by vector `open parentheses table row a row b end table close parentheses`
-- **Subtracting *****w *****from *****z*** results in *z *being **translated** by vector `open parentheses table row cell negative a end cell row cell negative b end cell end table close parentheses`
+- **Adding *****w *****to *****z*** results in *z *being **translated** by vector $( \begin{gathered} a \\ b \end{gathered} )$
+- **Subtracting *****w *****from *****z*** results in *z *being **translated** by vector $( \begin{gathered} - a \\ - b \end{gathered} )$
 
 ![8-2-2-geometry-of-complex-diagram-1](../../../assets/e6bf4bdb6c2b-8-2-2-geometry-of-complex-diagram-1.png)
 

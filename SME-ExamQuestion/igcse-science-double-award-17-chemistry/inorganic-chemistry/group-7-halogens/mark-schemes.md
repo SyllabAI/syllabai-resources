@@ -192,7 +192,7 @@ The completed table:
 ### 8((b)) — 4 marks
 i) The relative atomic mass of this sample of bromine is:
 
-`fraction numerator open parentheses 51 cross times 79 close parentheses plus open parentheses 49 cross times 81 close parentheses over denominator 100 end fraction`
+$\frac{( 51 \times 79 ) + ( 49 \times 81 )}{100}$
 
 - All masses multiplied by the percentage (top line of the calculation) **OR** 7998; **[1 mark]**
 - Divided by 100; **[1 mark]**

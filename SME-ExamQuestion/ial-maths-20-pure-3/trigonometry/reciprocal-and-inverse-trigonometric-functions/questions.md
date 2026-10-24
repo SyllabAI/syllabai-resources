@@ -110,7 +110,7 @@ $3-$sec $θ=\frac{2}{\mathrm{sec}θ}$
 
 can be rewritten in the form
 
-`open parentheses sec space theta minus 2 close parentheses``open parentheses sec space theta minus 1 close parentheses equals 0`
+$( \sec \\theta - 2 )$$( \sec \\theta - 1 ) = 0$
 
 ### 2() — 4 marks — structured
 Hence solve, in the range $0\leqθ\leq2π$, the equation
@@ -144,7 +144,7 @@ tan<sup>2</sup> $x=6$ sec $x-10$
 
 can be rewritten in the form
 
-`open parentheses sec space x minus 3 close parentheses squared equals 0`
+$( \sec x - 3 )^{2} = 0$
 
 ### 2() — 3 marks — structured
 Hence solve, in the range $0\leqx\leq2π$, the equation
@@ -182,15 +182,15 @@ Explain why this is not true for $-1\leqx<0$.
 ## Q20 — medium — 8 marks · exam-questions
 
 ### 1() — 3 marks — structured
-The function  $f$ is defined as `straight f open parentheses x close parentheses equals arc cos` $x$ , $-1\leqx\leq1$, and the function  $g$  is such that  `straight g open parentheses x close parentheses equals straight f open parentheses 3 x close parentheses`.
+The function  $f$ is defined as $\mathrm{f} ( x ) = \text{arc} \cos$ $x$ , $-1\leqx\leq1$, and the function  $g$  is such that  $\mathrm{g} ( x ) = \mathrm{f} ( 3 x )$.
 
-Sketch the graph of `y equals straight f open parentheses x close parentheses`  and state the range of  $f$.
+Sketch the graph of $y = \mathrm{f} ( x )$  and state the range of  $f$.
 
 ### 2() — 3 marks — structured
-Sketch the graph of  `y equals straight g open parentheses x close parentheses`  and state the domain of  $g$.
+Sketch the graph of  $y = \mathrm{g} ( x )$  and state the domain of  $g$.
 
 ### 3() — 2 marks — structured
-Find the inverse function `straight g to the power of negative 1 end exponent open parentheses x close parentheses` and state its domain.
+Find the inverse function $\mathrm{g}^{- 1} ( x )$ and state its domain.
 
 ## Q21 — hard — 5 marks · exam-questions
 
@@ -227,7 +227,7 @@ $2$ cot<sup>2</sup> $x=1-5$cosec $x$
 
 can be rewritten in the form
 
-`open parentheses 2 space cosec space x minus 1 close parentheses open parentheses cosec space x plus 3 close parentheses equals 0`
+$( 2 \text{cosec} x - 1 ) ( \text{cosec} x + 3 ) = 0$
 
 ### 2() — 3 marks — structured
 Hence solve, in the range $0\leqx\leq2π$, the equation
@@ -260,15 +260,15 @@ Prove that for $-1\leqx\leq0$,$\mathrm{arc} \mathrm{cos}$ $x=π-\mathrm{arcsin}\
 ## Q28 — hard — 8 marks · exam-questions
 
 ### 1() — 3 marks — structured
-The function  $f$  is defined as `straight f open parentheses x close parentheses equals arctan` $x$ ,  $x\inℝ$  , and the function  $g$  is such that  `straight g open parentheses x close parentheses equals 2 over straight pi straight f open parentheses x close parentheses minus 1`  .
+The function  $f$  is defined as $\mathrm{f} ( x ) = \arctan$ $x$ ,  $x\inℝ$  , and the function  $g$  is such that  `g ( x ) = 2 / pi f ( x ) - 1`  .
 
-Sketch the graph of `y equals straight f open parentheses x close parentheses` and state the range of  $f$.
+Sketch the graph of $y = \mathrm{f} ( x )$ and state the range of  $f$.
 
 ### 2() — 3 marks — structured
-Sketch the graph of `y equals straight g open parentheses x close parentheses`and state the range of  $g$.
+Sketch the graph of $y = \mathrm{g} ( x )$and state the range of  $g$.
 
 ### 3() — 2 marks — structured
-Find the inverse function `straight g to the power of negative 1 end exponent open parentheses x close parentheses` and state its domain.
+Find the inverse function $\mathrm{g}^{- 1} ( x )$ and state its domain.
 
 ## Q29 — very_hard — 5 marks · exam-questions
 
@@ -291,7 +291,7 @@ Leaving your answers as exact values.
 ### 1() — 6 marks — structured
 Using the double angle formulae $\mathrm{sin}2A\equiv2\mathrm{sin}A\mathrm{cos}A$ and $\mathrm{cos}2A\equiv\mathrm{cos}^{2}A-\mathrm{sin}^{2}A$,  find the solutions to the equation
 
-`open parentheses cosec space x italic minus sec space x close parentheses open parentheses fraction numerator 1 over denominator sec space x end fraction plus fraction numerator 1 over denominator cosec space x end fraction close parentheses equals cot space 2 x plus 3`
+$( \text{cosec} x - \sec x ) ( \frac{1}{\sec x} + \frac{1}{cosec x} ) = \cot 2 x + 3$
 
 in the range $-π<x\leqπ$.   Give your answers correct to 3 significant figures.
 
@@ -300,7 +300,7 @@ in the range $-π<x\leqπ$.   Give your answers correct to 3 significant figures
 ### 1() — 6 marks — structured
 Solve, in the range $0\leqx\leq2π$, the equation
 
-`3 space cot squared space x minus 4 square root of 3 equals open parentheses 6 minus 2 square root of 3 close parentheses cosec space x minus 3`
+$3 \cot ^{2} x - 4 \sqrt{3} = ( 6 - 2 \sqrt{3} ) \text{cosec} x - 3$
 
 Leaving your answers as exact values.
 
@@ -318,29 +318,29 @@ Given that $x$ satisfies the equation  $\mathrm{ar}c\mathrm{tan}$ $x=k$, where  
 ### 1() — 7 marks — structured
 Prove that for $x\leq-1$,
 
-`arcsin 1 over x equals negative arccos open parentheses negative fraction numerator square root of x squared minus 1 end root over denominator x end fraction close parentheses`
+$\arcsin \frac{1}{x} = - \arccos ( - \frac{ \sqrt{x^{2} - 1} }{x} )$
 
 ## Q35 — very_hard — 7 marks · exam-questions
 
 ### 1() — 3 marks — structured
-Sketch, in the interval $-2π\leqθ\leqπ$, the graph of  `y equals 2 plus 3 space sec open parentheses theta plus straight pi over 2 close parentheses` , include asymptotes and label the coordinates of all maximum and minimum points.
+Sketch, in the interval $-2π\leqθ\leqπ$, the graph of  `y = 2 + 3 sec ( theta + pi / 2 )` , include asymptotes and label the coordinates of all maximum and minimum points.
 
 ### 2() — 4 marks — structured
-Deduce the maximum and minimum values of  `fraction numerator 1 over denominator 2 plus 3 space sec space open parentheses theta plus straight pi over 2 close parentheses end fraction`.
+Deduce the maximum and minimum values of  `(1)/(2 + 3 sec ( theta + pi / 2 ))`.
 
 ## Q36 — very_hard — 9 marks · exam-questions
 
 ### 1() — 4 marks — structured
-The function  $f$  is defined as  `straight f space colon space x rightwards arrow from bar arcsin space x`,  $-1\leqx\leq1$ , and the function  $g$  is such that
+The function  $f$  is defined as  $\mathrm{f} : x \rightarrow \text{from} \text{bar} \arcsin x$,  $-1\leqx\leq1$ , and the function  $g$  is such that
 
-`straight g open parentheses x close parentheses equals fraction numerator 4 straight f open parentheses x over 3 close parentheses over denominator straight pi end fraction plus 2`
+$\mathrm{g} ( x ) = \frac{4 \mathrm{f} ( \frac{x}{3} )}{ \mathrm{\pi } } + 2$
 
-Sketch the graph of `y equals straight g open parentheses x close parentheses`and state the domain and range of  $g$.
+Sketch the graph of $y = \mathrm{g} ( x )$and state the domain and range of  $g$.
 
 ### 2() — 2 marks — structured
-Define the inverse function $g^{-1}$ in the form  `straight g to the power of negative 1 space end exponent colon space x italic rightwards arrow from bar`…
+Define the inverse function $g^{-1}$ in the form  $\mathrm{g}^{- 1 } : x \rightarrow \text{from} \text{bar}$…
 
 ### 3() — 3 marks — structured
-Over the same domain as  $g$, the function $h$ is defined as  `straight h space colon space x italic rightwards arrow from bar p italic space arccos open parentheses straight q x close parentheses`.
+Over the same domain as  $g$, the function $h$ is defined as  $\mathrm{h} : x \rightarrow \text{from} \text{bar} p \arccos ( \mathrm{q} x )$.
 
-Given that  `straight h open parentheses x close parentheses equals negative straight g open parentheses x close parentheses` for all $x$ in the two functions’ common domain, determine the values of $p$ and $q$.
+Given that  $\mathrm{h} ( x ) = - \mathrm{g} ( x )$ for all $x$ in the two functions’ common domain, determine the values of $p$ and $q$.

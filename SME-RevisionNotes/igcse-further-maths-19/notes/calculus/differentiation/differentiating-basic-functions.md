@@ -66,8 +66,8 @@ guided_study: false
   - Just differentiate term by term
   
     - e.g. $f(x)=5x^{4}-3x^{\frac{2}{3}}+4$
-    - `table row cell straight f apostrophe left parenthesis x right parenthesis end cell equals cell 5 cross times 4 x to the power of 4 minus 1 end exponent minus 3 cross times 2 over 3 x to the power of 2 over 3 minus 1 end exponent plus 0 end cell end table`
-    - `table row cell straight f apostrophe left parenthesis x right parenthesis end cell equals cell 20 x cubed minus 2 x to the power of negative 1 third end exponent end cell end table`
+    - $\begin{gathered} \mathrm{f} ' ( x ) & = 5 \times 4 x^{4 - 1} - 3 \times \frac{2}{3} x^{ \frac{2}{3} - 1} + 0 \end{gathered}$
+    - $\begin{gathered} \mathrm{f} ' ( x ) & = 20 x^{3} - 2 x^{- 1 \frac{1}{3}} \end{gathered}$
 - **Products** and **quotients cannot** be differentiated in this way
 
   - These need to be **expanded/simplifying** first
@@ -87,17 +87,17 @@ guided_study: false
 > 
 > $f(x)=2x^{3}+\frac{4}{\sqrt{x}}$,  where $x>0$
 > 
-> Find the derivative of `straight f open parentheses x close parentheses`.
+> Find the derivative of $\mathrm{f} ( x )$.
 > 
 > > *Start by rewriting the *$\frac{4}{\sqrt{x}}$* term as a power of *$x$
 > 
 > > *By laws of indices, *$\frac{1}{\sqrt{x}}=x^{-\frac{1}{2}}$
 > 
-> `straight f open parentheses x close parentheses equals 2 x cubed plus 4 x to the power of negative 1 half end exponent`
+> $\mathrm{f} ( x ) = 2 x^{3} + 4 x^{- 1 \frac{1}{2}}$
 > 
 > > *Now differentiate as powers of *$x$
 > 
-> `table row cell straight f to the power of apostrophe open parentheses x close parentheses end cell equals cell 2 open parentheses 3 x to the power of 3 minus 1 end exponent close parentheses plus 4 open parentheses negative 1 half x to the power of negative 1 half minus 1 end exponent close parentheses end cell row blank equals cell 2 open parentheses 3 x squared close parentheses plus 4 open parentheses negative 1 half x to the power of negative 3 over 2 end exponent close parentheses end cell row blank equals cell 6 x squared minus 2 x to the power of negative 3 over 2 end exponent end cell end table`
+> $\begin{gathered} \mathrm{f}^{'} ( x ) & = 2 ( 3 x^{3 - 1} ) + 4 ( - 1 \frac{1}{2} x^{- 1 \frac{1}{2} - 1} ) \\ = 2 ( 3 x^{2} ) + 4 ( - 1 \frac{1}{2} x^{- \frac{3}{2} } ) \\ = 6 x^{2} - 2 x^{- \frac{3}{2} } \end{gathered}$
 > 
 > $f^{'}(x)=6x^{2}-2x^{-\frac{3}{2}}$
 
@@ -129,7 +129,7 @@ guided_study: false
 >   - put your calculator into radians mode
 
 > **Worked Example**
-> (a) Given the function `straight f open parentheses x close parentheses equals cos 5 x`, find $f^{'}(x)$.
+> (a) Given the function $\mathrm{f} ( x ) = \cos 5 x$, find $f^{'}(x)$.
 > 
 > > *Use  *$y=\mathrm{cos}ax\Rightarrow\frac{dy}{dx}=-a\mathrm{sin}ax$*  with  *$a=5$
 > 
@@ -142,11 +142,11 @@ guided_study: false
 > 
 > > *Use  *$y=\mathrm{sin}ax\Rightarrow\frac{dy}{dx}=a\mathrm{cos}ax$*  with  *$a=\frac{1}{2}$
 > 
-> `fraction numerator straight d y over denominator straight d x end fraction equals 3 open parentheses 1 half cos x over 2 close parentheses equals 3 over 2 cos x over 2`
+> $\frac{ \mathrm{d} y}{ \mathrm{d} x} = 3 ( 1 \frac{1}{2} \cos \frac{x}{2} ) = \frac{3}{2} \cos \frac{x}{2}$
 > 
 > > *Substitute *$x=\frac{π}{3}$* into *$\frac{dy}{dx}$* to find the gradient*
 > 
-> `gradient equals 3 over 2 cos open parentheses fraction numerator open parentheses pi over 3 close parentheses over denominator 2 end fraction close parentheses equals 3 over 2 cos pi over 6 equals 3 over 2 open parentheses fraction numerator square root of 3 over denominator 2 end fraction close parentheses equals fraction numerator 3 square root of 3 over denominator 4 end fraction`
+> $\text{gradient} = \frac{3}{2} \text{cos} ( \frac{ ( \frac{pi}{3} ) }{2} ) = \frac{3}{2} \text{cos} \frac{pi}{6} = \frac{3}{2} ( \frac{\sqrt{3}}{2} ) = \frac{3 \sqrt{3}}{4}$
 > 
 > $\frac{3\sqrt{3}}{4}$
 
@@ -180,11 +180,11 @@ guided_study: false
 > 
 > > *Differentiate using *$y=e^{ax}\Rightarrow\frac{dy}{dx}=ae^{ax}$
 > 
-> `fraction numerator straight d y over denominator straight d x end fraction equals 2 open parentheses negative 3 straight e to the power of negative 3 x end exponent close parentheses equals negative 6 straight e to the power of negative 3 x end exponent`
+> $\frac{ \mathrm{d} y}{ \mathrm{d} x} = 2 ( - 3 \mathrm{e}^{- 3 x} ) = - 6 \mathrm{e}^{- 3 x}$
 > 
 > > *Substitute *$x=\frac{1}{2}$* into *$\frac{dy}{dx}$* to find the gradient*
 > 
-> `gradient equals negative 6 straight e to the power of negative 3 open parentheses 1 half close parentheses end exponent equals negative 6 straight e to the power of negative 3 over 2 end exponent`
+> $\text{gradient} = - 6 \mathrm{e}^{- 3 ( 1 \frac{1}{2} )} = - 6 \mathrm{e}^{- \frac{3}{2} }$
 > 
 > > *Note that  *$-6e^{-\frac{3}{2}}=-\frac{6}{e\sqrt{e}}$*  is the exact value answer*
 > 

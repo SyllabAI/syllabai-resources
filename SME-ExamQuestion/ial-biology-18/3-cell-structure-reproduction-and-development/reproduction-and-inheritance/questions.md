@@ -450,7 +450,7 @@ The table shows the mass of eggs collected from chickens of different ages.
 
 **(2)**
 
-`r subscript s equals 1 minus fraction numerator 6 open parentheses space sum D squared space close parentheses over denominator n open parentheses n squared minus 1 close parentheses end fraction`
+$r_{s} = 1 - \frac{6 ( \text{sum} D^{2} )}{n ( n^{2} - 1 )}$
 
 Answer ......................................
 

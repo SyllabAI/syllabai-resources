@@ -8,7 +8,7 @@
 ### Q1
 > *Substitute *$m = 8 . 40$* and *$t = 3$* into the formula*
 
-`C equals fraction numerator 3 cross times left parenthesis 8.40 right parenthesis squared cross times 3 over denominator 4 end fraction plus open parentheses 2 cross times 8.40 cross times 3 close parentheses minus 5`
+$C = \frac{3 \times ( 8.40 )^{2} \times 3}{4} + ( 2 \times 8.40 \times 3 ) - 5$
 
 **[1]**
 
@@ -36,13 +36,13 @@ $8a-2b$ **[2]**
 ### Q3
 > *i) Substitute in the values*
 
-`c space equals space 5 space cross times open parentheses space 8 close parentheses space minus space 2 space cross times space open parentheses negative 3 close parentheses`
+$c = 5 \times ( 8 ) - 2 \times ( - 3 )$
 
 **[1]**
 
 > *Using the correct order of operations, do the multiplication first*
 
-`c space equals space 40 space minus open parentheses negative thin space 6 close parentheses`
+$c = 40 - ( - 6 )$
 
 > *Subtracting a negative is the same as adding the positive version*
 
@@ -65,7 +65,7 @@ $a=\frac{c+2b}{5}$* ***[1]**
 ### Q4
 > *Collect the **x** terms together and collect the **y** terms together.*
 
-`table row cell 9 x minus 5 x end cell equals cell 4 x end cell row cell negative 2 y minus y end cell equals cell negative 3 y end cell end table`
+$\begin{gathered} 9 x - 5 x & = 4 x \\ - 2 y - y & = - 3 y \end{gathered}$
 
 $4x-3y$  
 **4x correct**** [1] **
@@ -97,7 +97,7 @@ $a=-2$* ***[1]**
 
 > * *
 
-`38.64 equals fraction numerator open parentheses 5.5 plus 3.7 close parentheses cross times h over denominator 2 end fraction`
+$38.64 = \frac{( 5.5 + 3.7 ) \times h}{2}$
 
 **[1]**
 
@@ -105,7 +105,7 @@ $a=-2$* ***[1]**
 
 > * *
 
-`table row cell 38.64 cross times 2 end cell equals cell 9.2 cross times h end cell row blank blank blank row cell 77.28 end cell equals cell 9.2 cross times h end cell end table`
+$\begin{gathered} 38.64 \times 2 & = 9.2 \times h \\ \\ 77.28 & = 9.2 \times h \end{gathered}$
 
 **[1]**
 
@@ -113,7 +113,7 @@ $a=-2$* ***[1]**
 
 > * *
 
-`table row cell 77.28 divided by 9.2 end cell equals h row blank blank blank row cell 8.4 end cell equals h end table`
+$\begin{gathered} 77.28 \div 9.2 & = h \\ \\ 8.4 & = h \end{gathered}$
 
 $h=8.4$* ***[1]**
 
@@ -160,11 +160,11 @@ $14x+13y$** [2]**
 ### Q10
 > *Substitute these values into the expression and evaluate*
 
-`open parentheses 4 cross times 3 squared close parentheses plus open parentheses 3 cross times negative 2 close parentheses`
+$( 4 \times 3^{2} ) + ( 3 \times - 2 )$
 
 **[1]**
 
-`equals open parentheses 4 cross times 9 close parentheses minus 6 equals 30`
+$= ( 4 \times 9 ) - 6 = 30$
 
 **30**** ****[1]**
 
@@ -221,7 +221,7 @@ $2c-3d$* ***[2]**
 ### Q15
 > *Substitute *$a=6$* and *$c=2$* into *$W=3a+5c$*. *
 
-`W equals open parentheses 3 cross times 6 close parentheses plus open parentheses 5 cross times 2 close parentheses`
+$W = ( 3 \times 6 ) + ( 5 \times 2 )$
 
 **[1]**
 

@@ -50,8 +50,8 @@ circumference $\approx 2 \times 3 \times 6 . 8 \times 10^{6} \approx 4 \times 10
 - The person's change in momentum is:
 
   - Change in momentum = final momentum – initial momentum
-  - `increment p space equals space m open parentheses v space minus space u close parentheses`
-  - `increment p space equals space m open parentheses 6 space minus space 0 close parentheses space equals space 6 m`
+  - $\Delta p = m ( v - u )$
+  - $\Delta p = m ( 6 - 0 ) = 6 m$
 
 - Use the answer options to find an estimate for the mass of the person:
 - Option **C**: 4 × 10<sup>2 </sup>kg m s<sup>–1 </sup>= 6*m*
@@ -191,10 +191,10 @@ This is a really important estimate that you need to use a lot in calculations. 
   - Volume of a cylinder: $V=πr^{2}h$
   - The air occupies the outer width of the tyre only
   - Volume of air in tyre = total volume of tyre - volume of inner tyre
-  - `V space equals space straight pi h open parentheses 1 half w subscript 2 close parentheses squared minus straight pi h open parentheses 1 half w subscript 1 close parentheses squared`
-  - `V space equals space fraction numerator straight pi h over denominator 4 end fraction open parentheses w subscript 2 superscript 2 space minus space w subscript 1 superscript 2 close parentheses`
+  - $V = \mathrm{\pi } h ( 1 \frac{1}{2} w_{2} )^{2} - \mathrm{\pi } h ( 1 \frac{1}{2} w_{1} )^{2}$
+  - $V = \frac{ \mathrm{\pi } h}{4} ( w_{2}^{2} - w_{1}^{2} )$
 - Some reasonable estimates are:* *$h$ ~ 15 cm, $w_{1}$ ~ 30 cm and $w_{2}$ ~ 60 cm
-- Volume of air in tyre `almost equal to space fraction numerator straight pi space cross times space 0.15 over denominator 4 end fraction space open parentheses 0.6 squared minus 0.3 squared close parentheses space equals space 0.03 space straight m cubed`
+- Volume of air in tyre $\approx \frac{ \mathrm{\pi } \times 0.15}{4} ( 0.6^{2} - 0.3^{2} ) = 0.03 \mathrm{m}^{3}$
 
 ![cie-ial-images2](assets/001-cie-ial-images2.png)
 

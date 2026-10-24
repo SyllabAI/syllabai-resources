@@ -91,7 +91,7 @@ guided_study: false
 > 
 > > *Then divide by 35 to find the value of **A*
 > 
-> `table row cell A space end cell equals cell space 140 over 35 space end cell end table`
+> $\begin{gathered} A & = \frac{140}{35} \end{gathered}$
 > 
 > > *The units will be m*<sup>*2*</sup>*, matching the units seen in newtons/m*<sup>*2*</sup>
 > 

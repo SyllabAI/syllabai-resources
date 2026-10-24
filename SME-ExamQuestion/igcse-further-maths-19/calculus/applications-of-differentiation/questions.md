@@ -65,18 +65,18 @@ Find the exact rate of increase of the volume of the cone when $x=6$
 ### 2((a)) — 3 marks — structured — from paper June 2024 · Paper 1
 $f(x)=2x^{2}+4x+9$
 
-Given that $f(x)$ can be written in the form `A open parentheses x plus B close parentheses to the power of 2 space end exponent plus space C` , where $A,B$ and  $C$ are integers,
+Given that $f(x)$ can be written in the form $A ( x + B )^{2 } + C$ , where $A,B$ and  $C$ are integers,
 
 find the value of $A$, the value of $B$and the value of $C$
 
 ### 2((b)) — 2 marks — structured — from paper June 2024 · Paper 1
 $f(x)=2x^{2}+4x+9$
 
-Given that $f(x)$ can be written in the form `A open parentheses x plus B close parentheses squared plus C` , where $A,B$ and  $C$ are integers,
+Given that $f(x)$ can be written in the form $A ( x + B )^{2} + C$ , where $A,B$ and  $C$ are integers,
 
-(i) Hence, or otherwise, find the value of $x$ for which `fraction numerator 1 over denominator straight f open parentheses x close parentheses end fraction`is a maximum
+(i) Hence, or otherwise, find the value of $x$ for which $\frac{1}{ \mathrm{f} ( x )}$is a maximum
 
-(ii) find the maximum value of  `fraction numerator 1 over denominator straight f open parentheses x close parentheses end fraction`
+(ii) find the maximum value of  $\frac{1}{ \mathrm{f} ( x )}$
 
 ## Q5 — medium — 8 marks · exam-questions
 
@@ -117,7 +117,7 @@ Figure 4 shows a solid right triangular prism $ABCDEF$
 
 The cross section of the prism is an isosceles triangle.
 
-- `angle D E C space equals space angle A F B space equals space 90 degree`
+- $\text{angle} D E C = \text{angle} A F B = 90 ^{\circ}$
 - $AB=DC=x$ cm
 - $AD=BC=FE=y$cm
 - $AF=BF=DE=CE$
@@ -128,7 +128,7 @@ The total external surface area of the prism is $S$ cm<sup>2</sup>
 
 Show that $S$ satisfies the equation
 
-`S space equals space x squared over 2 plus space fraction numerator 72 open parentheses square root of 2 space plus 1 close parentheses over denominator 5 x end fraction`
+$S = \frac{x^{2}}{2} + \frac{72 ( \sqrt{2} + 1 )}{5 x}$
 
 ### 8((b)) — 4 marks — structured — from paper June 2024 · Paper 2
 Given that $x$ can vary, use calculus, to find to 3 significant figures, the value of $x$ for which $S$ is a minimum.
@@ -162,31 +162,31 @@ Find the minimum value of $P$
 ## Q9 — medium — 18 marks · exam-questions
 
 ### 10((a)) — 4 marks — structured — from paper November 2024 · Paper 1
-`straight f open parentheses x close parentheses equals 3 minus 4 x minus 9 x squared`
+$\mathrm{f} ( x ) = 3 - 4 x - 9 x^{2}$
 
-Given that `straight f open parentheses x close parentheses`can be expressed in the form `A minus B open parentheses x plus C close parentheses squared` where $A$, $B$ and $C$ are positive constants
+Given that $\mathrm{f} ( x )$can be expressed in the form $A - B ( x + C )^{2}$ where $A$, $B$ and $C$ are positive constants
 
 find the value of $A$, the value of $B$and the value of $C$
 
 ### 10((b)) — 1 mark — structured — from paper November 2024 · Paper 1
-`straight f open parentheses x close parentheses equals 3 minus 4 x minus 9 x squared`
+$\mathrm{f} ( x ) = 3 - 4 x - 9 x^{2}$
 
-Given that `straight f open parentheses x close parentheses`can be expressed in the form `A minus B open parentheses x plus C close parentheses squared` where $A$, $B$ and $C$ are positive constants
+Given that $\mathrm{f} ( x )$can be expressed in the form $A - B ( x + C )^{2}$ where $A$, $B$ and $C$ are positive constants
 
-Hence write down the maximum value of `straight f open parentheses x close parentheses`
+Hence write down the maximum value of $\mathrm{f} ( x )$
 
 ### 10((c)) — 6 marks — structured — from paper November 2024 · Paper 1
-The equation `straight f open parentheses x close parentheses equals 0` has roots $α$ and $β$
+The equation $\mathrm{f} ( x ) = 0$ has roots $α$ and $β$
 
-Without solving the equation `straight f open parentheses x close parentheses equals 0`, form a quadratic equation, with integer coefficients, that has roots $\frac{3α}{β}$ and  $\frac{3β}{α}$
+Without solving the equation $\mathrm{f} ( x ) = 0$, form a quadratic equation, with integer coefficients, that has roots $\frac{3α}{β}$ and  $\frac{3β}{α}$
 
 ### 10((d)) — 1 mark — structured — from paper November 2024 · Paper 1
 Show that $(x+y)^{3}=x^{3}+y^{3}+3xy(x+y)$
 
 ### 10((e)) — 6 marks — structured — from paper November 2024 · Paper 1
-`g open parentheses x close parentheses equals 3 x squared plus q x plus r`    where $q$and  $r$ are constants
+$g ( x ) = 3 x^{2} + q x + r$    where $q$and  $r$ are constants
 
-The equation $g(x)=0$ has roots $α^{2}-β$ and  $β^{2}-α$ where $α$ and  $β$are the roots of the equation `straight f open parentheses x close parentheses equals 0`
+The equation $g(x)=0$ has roots $α^{2}-β$ and  $β^{2}-α$ where $α$ and  $β$are the roots of the equation $\mathrm{f} ( x ) = 0$
 
 Using your answer to part (d), find in simplified exact form, the value of $q$ and the value of $r$
 
@@ -309,12 +309,12 @@ Find the exact rate of increase, in cm<sup>3</sup> / s, of the volume of the pri
 ### 2((a)) — 3 marks — structured — from paper November 2023 · Paper 1
 $g(x)=2x^{2}+\frac{1}{2}x-3$
 
-Express `straight g open parentheses x close parentheses` in the form `p open parentheses x plus q close parentheses squared` where $p$, $q$ and $r$ are rational numbers to be found.
+Express $\mathrm{g} ( x )$ in the form $p ( x + q )^{2}$ where $p$, $q$ and $r$ are rational numbers to be found.
 
 ### 2((b)) — 2 marks — structured — from paper November 2023 · Paper 1
 Find
 
-(i) the minimum value of `straight g open parentheses x close parentheses`
+(i) the minimum value of $\mathrm{g} ( x )$
 
 (ii) the value of $x$at which this minimum occurs.
 
@@ -323,7 +323,7 @@ $h(x)=2x^{6}+\frac{1}{2}x^{3}-3$
 
 Hence, or otherwise, write down
 
-(i) the minimum value of `straight h open parentheses x close parentheses`
+(i) the minimum value of $\mathrm{h} ( x )$
 
 (ii) the value of $x$ at which this minimum occurs.
 

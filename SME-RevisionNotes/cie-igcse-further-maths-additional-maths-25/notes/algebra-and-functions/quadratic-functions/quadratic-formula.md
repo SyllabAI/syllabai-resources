@@ -34,9 +34,9 @@ guided_study: false
 - To solve $2x^{2}-5x+2=0$ using the quadratic formula:
 
   - *a* = 2, *b* = -5 and *c* = 2
-  - `x equals fraction numerator negative open parentheses negative 5 close parentheses plus-or-minus square root of open parentheses negative 5 close parentheses squared minus 4 cross times 2 cross times 2 end root over denominator 2 cross times 2 end fraction`
+  - $x = \frac{- ( - 5 ) \pm \sqrt{( - 5 )^{2} - 4 \times 2 \times 2} }{2 \times 2}$
   - Carefully simplify by doing the calculation in parts $x=\frac{5\pm\sqrt{25-16}}{4}=\frac{5\pm\sqrt{9}}{4}$
-  - Separate the + and - to get the two answers `table row x equals cell fraction numerator 5 plus 3 over denominator 4 end fraction equals 8 over 4 equals 2 end cell row x equals cell fraction numerator 5 minus 3 over denominator 4 end fraction equals 2 over 4 equals 1 half end cell end table`
+  - Separate the + and - to get the two answers $\begin{gathered} x = \frac{5 + 3}{4} = \frac{8}{4} = 2 \\ x = \frac{5 - 3}{4} = \frac{2}{4} = 1 \frac{1}{2} \end{gathered}$
 - On the **non-calculator** paper, answers may be required in **exact** form
 - On the **calculator** paper, you might have to round your answers
 
@@ -58,11 +58,11 @@ guided_study: false
 > *Substitute these values into the quadratic formula, *$x=\frac{-b\pm\sqrt{b^{2}-4ac}}{2a}$ 
 > *Put brackets around any negative numbers* * *
 > 
-> `x equals fraction numerator negative open parentheses negative 17 close parentheses plus-or-minus square root of open parentheses negative 17 close parentheses squared minus 4 cross times 12 cross times 6 end root over denominator 2 cross times 12 end fraction` * *
+> $x = \frac{- ( - 17 ) \pm \sqrt{( - 17 )^{2} - 4 \times 12 \times 6} }{2 \times 12}$ * *
 > 
 > > *Simplify*
 > 
-> `table row x equals cell fraction numerator 17 plus-or-minus square root of 289 minus 288 end root over denominator 24 end fraction end cell row blank equals cell fraction numerator 17 plus-or-minus square root of 1 over denominator 24 end fraction end cell end table`
+> $\begin{gathered} x = \frac{17 \pm \sqrt{289 - 288} }{24} \\ = \frac{17 \pm \sqrt{1} }{24} \end{gathered}$
 > 
 > > *Work out the + and - parts separately to get the two solutions *
 > 

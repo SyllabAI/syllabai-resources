@@ -295,7 +295,7 @@ Work out the amount of each ingredient he needs.
 ### 14() — 3 marks — command: show — structured — from paper 2017 Nov · 1MA1/1H
 The ratio $(y+x):(y---x)$is equivalent to $k:1$
 
-Show that  `y space equals space fraction numerator x open parentheses k plus 1 close parentheses over denominator k minus 1 end fraction`
+Show that  $y = \frac{x ( k + 1 )}{k - 1}$
 
 ## Q18 — hard — 3 marks · exam-questions
 
@@ -396,7 +396,7 @@ The ratio of women to men is now    10 : 11
 Are there now more than 90 people at the party? 
 Tick **one **box.
 
-`begin mathsize 26px style square end style` Yes         `begin mathsize 26px style square end style` No         `begin mathsize 26px style square end style`Cannot tell
+$\text{square}$ Yes         $\text{square}$ No         $\text{square}$Cannot tell
 
 Show working to support your answer.
 
@@ -599,7 +599,7 @@ Circle your answer.
 ## Q41 — very_hard — 4 marks · exam-questions
 
 ### 24() — 4 marks — command: work_out — structured — from paper Nov 2018 · 8300/3H
-| `table row cell Volume space of space straight a space sphere space end cell equals cell space 4 over 3 space pi r to the power of 3 space space end exponent where space r space is space the space radius space end cell row cell Volume space of space straight a space cone space end cell equals cell space 1 third space pi r squared h space where space r space i straight s space the space radius space and space h space is space the space perpendicular space height end cell end table` |
+| `| Volume of a sphere | = 4 / 3 pi r ^ 3 where r is the radius | | Volume of a cone | = 1 third pi r ^2 h where r i s the radius and h is the perpendicular height | |` |
 |---|
 
 A sphere has radius $2x\mathrm{cm}$

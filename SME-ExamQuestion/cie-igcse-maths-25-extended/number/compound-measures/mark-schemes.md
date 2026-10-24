@@ -59,7 +59,7 @@ $1+\frac{43}{60}=1\frac{43}{60}\mathrm{hours}$
 
 *Substitute in the values for the distance and the time*.
 
-`table attributes columnalign right center left columnspacing 0px end attributes row Speed equals cell fraction numerator 54 over denominator 1 begin display style 43 over 60 end style end fraction end cell row blank equals cell 31.4563... end cell end table`
+`table columnalign right center left columnspacing 0px end | Speed = (54)/(1 begin display style 43 / 60 ) | | _ = 31.4563... | |`
 
 **[1]**
 
@@ -113,7 +113,7 @@ $0.65=\frac{3.5}{\mathrm{Volume}}$
 
 > *Multiply both sides by the volume and divide both sides by 0.65.*
 
-`table row Volume equals cell fraction numerator 3.5 over denominator 0.65 end fraction end cell row blank equals cell 70 over 13 end cell row blank equals cell 5.384615... end cell end table`
+$\begin{gathered} \text{Volume} = \frac{3.5}{0.65} \\ = \frac{70}{13} \\ = 5.384615... \end{gathered}$
 
 **[1]**
 
@@ -135,7 +135,7 @@ $\mathrm{Time}=\frac{100}{28440}\mathrm{hours}$
 
 > *There are 60 minutes in an hour and 60 seconds in each minute. Multiply by 60 twice to convert hours to seconds.*
 
-`table row cell 100 over 28440 space cross times 60 cross times 60 end cell equals cell 1000 over 79 end cell row blank equals cell 12.6582... end cell end table`
+$\begin{gathered} \frac{100}{28440} \times 60 \times 60 & = \frac{1000}{79} \\ = 12.6582... \end{gathered}$
 
 **[1]**
 
@@ -181,11 +181,11 @@ $7.6\div\frac{2}{45}$
 
 > *Calculate the lowest common multiple (LCM) of the time it takes for each car to complete a lap, by multiplying the HCF by the remaining factors of both numbers.*
 
-`table row cell LCM space end cell equals cell space 5 cross times open parentheses 2 cross times 2 cross times 2 cross times 2 cross times 2 close parentheses cross times 29 end cell end table`
+$\begin{gathered} \text{LCM} & = 5 \times ( 2 \times 2 \times 2 \times 2 \times 2 ) \times 29 \end{gathered}$
 
 **[1]**
 
-`table row LCM equals cell 4640 space end cell end table`
+$\begin{gathered} \text{LCM} = 4640 \end{gathered}$
 
 > *Convert the LCM into minutes by dividing by 60.*
 
@@ -279,7 +279,7 @@ $\frac{105}{4.65}$
 
 *Substitute in the values for the distance and the time*.
 
-`fraction numerator 0.33 over denominator open parentheses 11 over 3600 close parentheses end fraction`
+$\frac{0.33}{ ( \frac{11}{3600} ) }$
 
 **[1]**
 
@@ -314,7 +314,7 @@ $\frac{608}{60}=10.1333...$
 
 > *There are 10 whole minutes in 608 seconds. Subtract 10 lots of 60 seconds from 608 to find how many seconds are left over.*
 
-`608 minus open parentheses 10 cross times 60 close parentheses equals 8`
+$608 - ( 10 \times 60 ) = 8$
 
 **10 minutes 8 seconds*** ***[1]**
 
@@ -322,17 +322,17 @@ $\frac{608}{60}=10.1333...$
 *Convert each unit separately.* 
 *There are 60 seconds in a minute. Multiply by 60 to find how many metres are travelled in a minute.*
 
-`table row cell 50 space metres space per space second space end cell equals cell space 50 space cross times 60 space metres space per space minute end cell row blank equals cell 3000 space metres space per space minute end cell end table`
+`| 50 metres per second | = 50 x 60 metres per minute | | _ = 3000 metres per minute | |`
 
 **[1]**
 
 > *There are 60 minutes in an hour. Multiply by 60 to find how many metres are travelled in an hour.*
 
-`table row cell 3000 space metres space per space minute end cell equals cell space 3000 space cross times 60 space metres space per space hour end cell row blank equals cell 180000 space metres space per space hour end cell end table`
+`| 3000 metres per minute | = 3000 x 60 metres per hour | | _ = 180000 metres per hour | |`
 
 > *There are 1000 metres in a kilometre. Divide by 1000 to find how many kilometres are travelled in an hour.*
 
-`table row cell 18000 space metres space per space hour end cell equals cell 180000 over 1000 space kilometres space per space hour end cell end table`
+$\begin{gathered} 18000 \text{metres} \text{per} \text{hour} & = \frac{180000}{1000} \text{kilometres} \text{per} \text{hour} \end{gathered}$
 
 **[1]**
 
@@ -361,17 +361,17 @@ $\frac{433.5}{3.4}=127.5$
 *Convert each unit separately.* 
 *There are 60 seconds in a minute. Divide by 60 to find how many kilometres are travelled in a minute.*
 
-`table row cell 630 space kilometres space per space hour space end cell equals cell fraction numerator space 630 space over denominator 60 end fraction space kilometres space per space minute end cell row blank equals cell 10.5 space kilometres space per space minute end cell end table`
+$\begin{gathered} 630 \text{kilometres} \text{per} \text{hour} & = \frac{ 630 }{60} \text{kilometres} \text{per} \text{minute} \\ = 10.5 \text{kilometres} \text{per} \text{minute} \end{gathered}$
 
 **[1]**
 
 > *There are 60 minutes in an hour. Divide by 60 to find how many kilometres are travelled in a second.*
 
-`table row cell 10.5 space kilometres space per space minute end cell equals cell fraction numerator space 10.5 space over denominator 60 end fraction space kilometres space per space second end cell row blank equals cell 0.175 space kilometres space per space second end cell end table`
+$\begin{gathered} 10.5 \text{kilometres} \text{per} \text{minute} & = \frac{ 10.5 }{60} \text{kilometres} \text{per} \text{second} \\ = 0.175 \text{kilometres} \text{per} \text{second} \end{gathered}$
 
 > *There are 1000 metres in a kilometre. Multiply by 1000 to find how many metres are travelled in a second.*
 
-`table row cell 0.175 space kilometres space per space second end cell equals cell 1000 cross times 0.175 space metres space per space second end cell end table`
+$\begin{array}{ccc}0.175 \text{kilometres} \text{per} \text{second} & = & 1000 \times 0.175 \text{metres} \text{per} \text{second} \end{array}$
 
 **[1]**
 
@@ -403,14 +403,14 @@ $\frac{429}{6.65}=64.5112...$
 *The time taken is 35 **seconds**. *
 *First convert the units to kilometres (1000 m = 1 km) and hours (1 hour = 3600 seconds (60 × 60)).*
 
-`115 space straight m equals 115 over 1000 equals 0.115 space km
-35 space seconds space equals fraction numerator space 35 over denominator 3600 end fraction equals 0.0097 2 with dot on top space hours`
+$115 \mathrm{m} = \frac{115}{1000} = 0.115 \text{km}
+35 \text{seconds} = \frac{ 35}{3600} = 0.0097 \dot{2} \text{hours}$
 
 **[1]**
 
 > *Now we can apply the speed-distance-time formula, *$\mathrm{Speed}=\frac{\mathrm{Distance}}{\mathrm{Time}}$*.*
 
-`Speed equals fraction numerator 0.115 over denominator 0.0097 2 with dot on top end fraction equals 11.828 space 571 space...`
+$\text{Speed} = \frac{0.115}{0.0097 \dot{2} } = 11.828 571 ...$
 
 **[1]**
 
@@ -736,7 +736,7 @@ $V=180\times150\times120=3240000\mathrm{cm}^{3}$
 
 > *Consider the units of the rate of flow; "200 cm*<sup>*3*</sup>* per second" means the volume divided by the time, so we can write that*
 
-`200 space equals fraction numerator volume space open parentheses in space cm cubed close parentheses over denominator time space open parentheses in space seconds close parentheses end fraction`
+$200 = \frac{volume ( \text{in} cm^{3} )}{time ( \text{in} \text{seconds} )}$
 
 > *Applying this to the cuboid tank*
 
@@ -811,7 +811,7 @@ $40=\frac{248}{t}\,t=\frac{248}{40}=6.2\mathrm{hours}$
 
 > *We need to convert 6.2 hours to hours and minutes.  Change 0.2 hours to minutes by multiplying by 60.*
 
-`table row cell 0.2 cross times 60 end cell equals 12 row cell therefore 6.2 space hours space end cell equals cell space 6 space hours space 12 space minutes end cell end table`
+$\begin{gathered} 0.2 \times 60 & = 12 \\ \therefore 6.2 \text{hours} & = 6 \text{hours} 12 \text{minutes} \end{gathered}$
 
 **[1]**
 
@@ -876,7 +876,7 @@ $80=\frac{\mathrm{Distance}}{5.9}$
 *The cross section here is a right-angled triangle with base 5 cm and height 12 cm. *
 *For the area of that triangle, use  Area = (1/2) × Base × Height.  *
 
-`Volume space equals space open parentheses 1 half space cross times space 5 space cross times space 12 close parentheses space cross times space 15 space equals space 450 space cm cubed`
+$\text{Volume} = ( 1 \frac{1}{2} \times 5 \times 12 ) \times 15 = 450 cm^{3}$
 
 **[1]**
 
@@ -1021,7 +1021,7 @@ $\mathrm{Distance}=650\times6.7$
 *But be careful here!  The density is given in g/cm*<sup>*3*</sup>*, so 12.5 kg must first be converted to grams. *
 *(Remember there are 1000 g in a kg.)*
 
-`table row cell 12.5 space cross times space 1000 space end cell equals cell space 12500 space straight g end cell row blank blank blank row cell 12500 space divided by space 19.3 space end cell equals cell space 647.668393... end cell end table`
+$\begin{gathered} 12.5 \times 1000 & = 12500 \mathrm{g} \\ \\ 12500 \div 19.3 & = 647.668393... \end{gathered}$
 
 **[2] **
 

@@ -146,7 +146,7 @@ $\mathrm{Lower} \mathrm{bound}\geq\frac{\mathrm{Total} \mathrm{time} \mathrm{of}
 > 
 > **Answer:**
 > 
-> `table row cell fraction numerator Total space time space of space all space activities over denominator Minimum space project space duration end fraction end cell equals cell fraction numerator 23 plus 4 plus 3 plus 7 plus 6 plus 4 plus 4 over denominator 23 end fraction end cell row blank equals cell 51 over 23 end cell row blank equals cell 2.217 space... end cell end table`
+> `| (Total time of all activities)/(Minimum project duration) | = (23 + 4 + 3 + 7 + 6 + 4 + 4)/(23) | | _ = 51 / 23 | | _ = 2.217 ... | |`
 > 
 > > *The lower bound is the smallest integer greater than or equal to 2.217 ...*
 > 

@@ -43,7 +43,7 @@ The **variance **is another measure for the spread of the data, it measures the 
   - This version is easier to work with and should be used in most instances
   - Variance can also be written in other ways
 
-Variance =`begin mathsize 16px style sigma squared equals fraction numerator straight capital sigma left parenthesis x minus x with bar on top right parenthesis squared over denominator n end fraction equals 1 over n open parentheses straight capital sigma x squared minus left parenthesis straight capital sigma x right parenthesis squared over n close parentheses equals fraction numerator straight capital sigma x squared over denominator n end fraction minus open parentheses fraction numerator straight capital sigma x over denominator n end fraction close parentheses squared equals fraction numerator straight capital sigma x squared over denominator n end fraction minus x with bar on top squared space space end style`
+Variance =`sigma ^2 = ( capital sigma ( x - x -bar ) ^2)/(n) = 1 / n ( capital sigma x ^2 - ( capital sigma x ) ^2 / n ) = ( capital sigma x ^2)/(n) - ( ( capital sigma x)/(n) ) ^2 = ( capital sigma x ^2)/(n) - x -bar ^2`
 
 - An easy way to remember this is to think of it as ‘*the sum of x squared over n minus the sum of the mean squared’*
 - Most calculators can be used to find summary statistic such as the standard deviation and variance fairly quickly, practice finding it on yours
@@ -63,8 +63,8 @@ Variance =`begin mathsize 16px style sigma squared equals fraction numerator str
   - Multiply each $x$ value by its corresponding frequency and use these values within the formulae
   - The formulae will become
   
-    - Variance = `begin mathsize 16px style sigma squared equals space fraction numerator straight capital sigma left parenthesis x minus x with bar on top right parenthesis squared f over denominator straight capital sigma f end fraction equals fraction numerator straight capital sigma x squared f over denominator straight capital sigma f end fraction minus open parentheses fraction numerator straight capital sigma x f over denominator straight capital sigma f end fraction close parentheses squared end style`
-    - Standard deviation = `begin mathsize 16px style sigma space equals space square root of fraction numerator straight capital sigma left parenthesis x minus x with bar on top right parenthesis squared f over denominator straight capital sigma f end fraction end root equals square root of fraction numerator straight capital sigma x squared f over denominator straight capital sigma f end fraction minus open parentheses fraction numerator straight capital sigma x f over denominator straight capital sigma f end fraction close parentheses end root squared end style`
+    - Variance = `sigma ^2 = ( capital sigma ( x - x -bar ) ^2 f)/( capital sigma f) = ( capital sigma x ^2 f)/( capital sigma f) - ( ( capital sigma x f)/( capital sigma f) ) ^2`
+    - Standard deviation = `sigma = sqrt( ( capital sigma ( x - x -bar ) ^2 f)/( capital sigma f) ) = sqrt( ( capital sigma x ^2 f)/( capital sigma f) - ( ( capital sigma x f)/( capital sigma f) ) ) ^2`
 
 > **Worked Example**
 > Phoom recorded the length of time, $t$ , it took him, in minutes, to answer a selection of further calculus exam questions. The data is summarised in the table below.

@@ -36,12 +36,12 @@ guided_study: true
 > **Exam Hint**
 > On your calculator, don't forget to put **brackets** around any substituted **negative** numbers!
 > 
-> Be careful with negatives and powers. For example, if $x=-4$ then `x squared equals open parentheses negative 4 close parentheses squared equals 16`.
+> Be careful with negatives and powers. For example, if $x=-4$ then $x^{2} = ( - 4 )^{2} = 16$.
 
 > **Worked Example**
 > (a) Given that $x=2$ and $y=-4$, find the value of the expression:
 > 
-> (i)  `2 x open parentheses x plus 3 y close parentheses`
+> (i)  $2 x ( x + 3 y )$
 > 
 > (ii) $y^{2}+y^{3}$
 > 
@@ -52,12 +52,12 @@ guided_study: true
 > > *Substitute the numbers given*
 > *Use brackets () around negative numbers*
 > 
-> `table row blank cell 2 cross times 2 cross times open parentheses 2 plus 3 cross times open parentheses negative 4 close parentheses close parentheses end cell end table`
+> $\begin{gathered} 2 \times 2 \times ( 2 + 3 \times ( - 4 ) ) \end{gathered}$
 > 
 > > *Complete the calculation*
 > *Show every step of working, following the order of operations correctly*
 > 
-> `table row blank equals cell 2 cross times 2 cross times open parentheses 2 minus 12 close parentheses end cell row blank equals cell 2 cross times 2 cross times open parentheses negative 10 close parentheses space space end cell row blank equals cell 4 cross times open parentheses negative 10 close parentheses end cell end table`
+> $\begin{gathered} = 2 \times 2 \times ( 2 - 12 ) \\ = 2 \times 2 \times ( - 10 ) \\ = 4 \times ( - 10 ) \end{gathered}$
 > 
 > **-40**
 > 
@@ -66,11 +66,11 @@ guided_study: true
 > > *Substitute the numbers given*
 > *Use brackets () around negative numbers*
 > 
-> `open parentheses negative 4 close parentheses squared plus open parentheses negative 4 close parentheses cubed`
+> $( - 4 )^{2} + ( - 4 )^{3}$
 > 
 > > *Work out the powers remembering to include the brackets*
 > 
-> `16 plus open parentheses negative 64 close parentheses`
+> $16 + ( - 64 )$
 > 
 > > *Complete the calculation*
 > 

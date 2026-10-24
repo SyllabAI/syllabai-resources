@@ -79,7 +79,7 @@ $I=I_{0}e^{-μx}$
 > 
 > **Step 3: Substitute in values and calculate the ratio**
 > 
-> `I over I subscript 0 space equals space e to the power of negative open parentheses 0.20 space cross times space 8 close parentheses end exponent space equals space 0.2`
+> $\frac{I}{I} _{0} = e^{- ( 0.20 \times 8 )} = 0.2$
 > 
 > **Part (b)**
 > 
@@ -96,7 +96,7 @@ $I=I_{0}e^{-μx}$
 > 
 > **Step 3:** **Substitute in values and calculate the ratio**
 > 
-> `I over I subscript 0 space equals space e to the power of negative open parentheses 0.20 space cross times space 4 close parentheses end exponent space cross times space e to the power of negative open parentheses 12 space cross times space 4 close parentheses end exponent space equals space 6.4 space cross times space 10 to the power of negative 22 end exponent space almost equal to space 0`
+> $\frac{I}{I} _{0} = e^{- ( 0.20 \times 4 )} \times e^{- ( 12 \times 4 )} = 6.4 \times 10^{- 22} \approx 0$
 > 
 > **Step 4: Write a concluding statement**
 > 

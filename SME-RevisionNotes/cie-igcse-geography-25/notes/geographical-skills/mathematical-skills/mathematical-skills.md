@@ -30,7 +30,7 @@ guided_study: false
   - 'Percent' simply means 'out of one hundred'
   - For example, 25 of 360 homes in a town were burgled. What is the percentage (to the nearest whole number)?
   
-    - `25 divided by 360 cross times 100 space equals 6.94 space open square brackets space t o space n e a r e s t space w h o l e space n u m b e r close square brackets space equals 7 percent sign`
+    - $25 \div 360 \times 100 = 6.94 [ t o n e a r e s t w h o l e n u m b e r ] = 7 \%$
 - Percentages can be used in many ways, for example, literacy rates or the numbers of people in different age groups in a country
 - Percentages can be converted into fractions and back again
 
@@ -54,7 +54,7 @@ guided_study: false
 - $Percentagechange=\frac{finalvalue-originalvalue}{originalvalue}\times100$
 
   - In 2020, 25 out of 360 homes in a town were burgled. In 2021, 21 houses were burgled. What is the percentage change?
-  - `fraction numerator 21 minus 25 over denominator 25 end fraction cross times 100 equals negative 16 percent sign`
+  - $\frac{21 - 25}{25} \times 100 = - 16 \%$
   - There has been a decrease of 16% in the rate of burglaries in the town
 - Do remember that a positive figure shows an increase but a negative is a decrease
 
@@ -253,6 +253,6 @@ guided_study: false
 > | No. pebbles | 184 | 90 | 159 | 142 | 64 | 64 | 95 |
 > 
 > - Mean:$\frac{184+90+159+142+64+64+95}{7}=\frac{798}{7}=114$
-> - Median: reordering by size =* *`64 space 64 space 90 space stretchy left square bracket 95 stretchy right square bracket space 142 space 159 space 184 space equals space 95` is the middle value
+> - Median: reordering by size =* *$64 64 90 [ 95 ] 142 159 184 = 95$ is the middle value
 > - Mode: only $64$** **appears more than once
 > - Range =$184-64=120$

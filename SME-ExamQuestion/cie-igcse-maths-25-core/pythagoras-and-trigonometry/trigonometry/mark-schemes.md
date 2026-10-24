@@ -49,14 +49,14 @@ $\mathrm{sin}x=\frac{1}{3}$
 
 - then use $\mathrm{sin}^{-1}$ on your calculator to find the value of $x$
 
-`x equals sin to the power of negative 1 end exponent open parentheses 1 third close parentheses equals 19.471220...`
+$x = \sin ^{- 1} ( 1 \frac{1}{3} ) = 19.471220...$
 
 Round to a suitable degree of accuracy
 
 - For angles in degrees you should round to 1 decimal place (unless the question says otherwise)
 - The '7' in the second decimal place says you should round the first decimal place '4' up to a 5
 
-`x equals 19.5 space space open parentheses 1 space straight d. straight p. close parentheses`
+$x = 19.5 ( 1 \mathrm{d} . \mathrm{p} . )$
 
 **[A1]**
 
@@ -84,18 +84,18 @@ $YZ=20\mathrm{cm}$
 
 > *Identify the corresponding sides*
 
-`table row adjacent equals 21 row hypotenuse equals 29 end table`
+$\begin{gathered} \text{adjacent} = 21 \\ \text{hypotenuse} = 29 \end{gathered}$
 
 > *Substituting these values into the cos ratio*
 
-`cos open parentheses X close parentheses equals 21 over 29`
+$\cos ( X ) = \frac{21}{29}$
 
 **[M1]**
 
 > *Use the inverse of cos to work out the value of *$x$
 
-`X equals cos to the power of negative 1 end exponent open parentheses 21 over 29 close parentheses
-X equals 43.602...`
+$X = \cos ^{- 1} ( \frac{21}{29} )
+X = 43.602...$
 
 > *Round to 1 decimal place*
 
@@ -123,16 +123,16 @@ $y=33^{\circ}$
 **[B1]**
 > *Using the correct trigonometric equation*
 
-`sin open parentheses y close parentheses equals opposite over hypotenuse
-sin open parentheses 33 close parentheses equals fraction numerator 4 over denominator B E end fraction`
+$\sin ( y ) = \frac{opposite}{hypotenuse} 
+\sin ( 33 ) = \frac{4}{B E}$
 
 **[M1]**
 
 > *Rearrange to find *$BE$
 
-`B E cross times sin open parentheses 33 close parentheses equals 4
-B E equals fraction numerator 4 over denominator sin open parentheses 33 close parentheses end fraction
-B E equals 7.3443...`
+$B E \times \sin ( 33 ) = 4
+B E = \frac{4}{\sin ( 33 )} 
+B E = 7.3443...$
 
 **[M1]**
 
@@ -172,15 +172,15 @@ $\mathrm{Area}=42.4\mathrm{cm}^{2}$
 
 > *The trigonometric function of an angle that is equal to the ratio of the opposite side and the hypotenuse is the sine function*
 
-`sin open parentheses theta close parentheses equals O over H`
+$\sin ( \\theta ) = \frac{O}{H}$
 
 > *Substitute the known values into the equation and solve for *$BD$
 
-`sin open parentheses 38 close parentheses equals fraction numerator B D over denominator 15 end fraction`
+$\sin ( 38 ) = \frac{B D}{15}$
 
 **[1]**
 
-`B D equals sin open parentheses 38 close parentheses cross times 15 equals 9.23492213...`
+$B D = \sin ( 38 ) \times 15 = 9.23492213...$
 
 > *Round to 3 significant figures*
 
@@ -290,15 +290,15 @@ $=2.954657341$
 
 > *The trigonometric function of an angle that is equal to the ratio of the opposite side and the hypotenuse is the sine function*
 
-`sin open parentheses theta close parentheses equals O over H`
+$\sin ( \\theta ) = \frac{O}{H}$
 
 > *Substitute the known values into the formula and evaluate*
 
-`sin open parentheses x close parentheses equals fraction numerator 5.3 over denominator 8.2 end fraction`
+$\sin ( x ) = \frac{5.3}{8.2}$
 
 **[1]**
 
-`x equals sin to the power of negative 1 end exponent open parentheses fraction numerator 5.3 over denominator 8.2 end fraction close parentheses equals 40.26632845`
+$x = \sin ^{- 1} ( \frac{5.3}{8.2} ) = 40.26632845$
 
 > *Round to 3 significant figures*
 
@@ -315,18 +315,18 @@ i) *Label the lengths of *$AB$* and *$AC$* on the diagram Highlight the angle*
 
 ![PyHHCf04_triangle-inside-a-circle](assets/012-pyhhcf04-triangle-inside-a-circle.png)
 
-> *Because you know the adjacent and the hypotenuse, use the cosine ratio, *`cos open parentheses theta close parentheses equals O over H`
+> *Because you know the adjacent and the hypotenuse, use the cosine ratio, *$\cos ( \\theta ) = \frac{O}{H}$
 
 > *Substitute the values you know into the ratio*
 
-`cos open parentheses theta close parentheses equals 20 over 52`
+$\cos ( \\theta ) = \frac{20}{52}$
 
 **[1]**
 
 > *Take the inverse cos of both sides to find the angle*
 
-`theta equals cos to the power of negative 1 end exponent open parentheses 20 over 52 close parentheses
-theta equals 67.38013...`
+$\\theta = \cos ^{- 1} ( \frac{20}{52} )
+ \\theta = 67.38013...$
 
 **Angle ****BAC**** =** $67.4^{\circ}$** [1]**
 
@@ -419,7 +419,7 @@ $\mathrm{cos}YXZ=\frac{21}{39}$
 
 > *Inverse cos both sides to find the angle. *
 
-`cos to the power of negative 1 end exponent open parentheses 21 over 39 close parentheses equals 57.4210...`
+$\cos ^{- 1} ( \frac{21}{39} ) = 57.4210...$
 
 > * Round to 3 significant figures.*
 
@@ -475,17 +475,17 @@ $x=17.5$* ***[1]**
 
 > *The trigonometric function of an angle that is equal to the ratio of the opposite side of the triangle and the adjacent side of the triangle is the tangent function*
 
-`tan open parentheses theta close parentheses equals O over A`
+$\tan ( \\theta ) = \frac{O}{A}$
 
 > *Substitute known values into this formula and evaluate for angle *$BAC=θ$
 
-`tan open parentheses theta close parentheses equals fraction numerator 2.8 over denominator 1.6 end fraction`
+$\tan ( \\theta ) = \frac{2.8}{1.6}$
 
 **[1]**
 
 *Take the inverse tan of both sides *
 
-`theta equals tan to the power of negative 1 end exponent open parentheses fraction numerator 2.8 over denominator 1.6 end fraction close parentheses equals 60.2551187...`
+$\\theta = \tan ^{- 1} ( \frac{2.8}{1.6} ) = 60.2551187...$
 
 **  ****Angle**** **$BAC=60.3^{\circ}$ **[1]**
 
@@ -498,17 +498,17 @@ $x=17.5$* ***[1]**
 
 > *The trigonometric function that uses the ratio of the Opposite and the Hypotenuse is the sine function*
 
-`sin open parentheses theta close parentheses equals`$\frac{\mathrm{Opposite}}{\mathrm{Hypotenuse}}$
+$\sin ( \\theta ) =$$\frac{\mathrm{Opposite}}{\mathrm{Hypotenuse}}$
 
 > *Substitute these values into the equation and solve for *$p$
 
-`sin open parentheses p close parentheses equals 8 over 15`
+$\sin ( p ) = \frac{8}{15}$
 
 **[1]**
 
 > *Take the inverse sin of both sides  *
 
-`p equals sin to the power of negative 1 end exponent open parentheses 8 over 15 close parentheses`
+$p = \sin ^{- 1} ( \frac{8}{15} )$
 
 $p=32.23...$ **[1]**
 
@@ -521,15 +521,15 @@ $p=32.23...$ **[1]**
 
 > *The trigonometric function of an angle that is equivalent to the adjacent divided by the hypotenuse is the cosine function*
 
-`cos open parentheses theta close parentheses equals A over H`
+$\cos ( \\theta ) = \frac{A}{H}$
 
 > *Substitute known values into the equation and evaluate for the missing angle*
 
-`cos open parentheses x close parentheses equals fraction numerator 6.2 over denominator 23 end fraction`
+$\cos ( x ) = \frac{6.2}{23}$
 
 **[1]**
 
-`x equals cos to the power of negative 1 end exponent open parentheses fraction numerator 6.2 over denominator 23 end fraction close parentheses equals 74.3616036`
+$x = \cos ^{- 1} ( \frac{6.2}{23} ) = 74.3616036$
 
 $74.36^{\circ}$ **[1]**
 
@@ -538,21 +538,21 @@ $74.36^{\circ}$ **[1]**
 
 ![igcse-core-maths-oct-19-q21](assets/022-igcse-core-maths-oct-19-q21.png)
 
-> `cos open parentheses theta close parentheses space equals fraction numerator space adjacent over denominator hypotenuse end fraction`*.*
+> $\cos ( \\theta ) = \frac{ adjacent}{hypotenuse}$*.*
 
 > *Substitute in the values*
 
-`cos open parentheses 43 close parentheses space equals 12 over x`
+$\cos ( 43 ) = \frac{12}{x}$
 
 **[1]**
 
 > *Multiply both sides by **x*
 
-`x space cross times space cos open parentheses 43 close parentheses space equals space 12`
+$x \times \cos ( 43 ) = 12$
 
-> *Divide both sides by *`cos open parentheses 43 close parentheses`
+> *Divide both sides by *$\cos ( 43 )$
 
-`x space equals fraction numerator space 12 over denominator cos open parentheses 43 close parentheses end fraction`
+$x = \frac{ 12}{\cos ( 43 )}$
 
 **[1]**
 
@@ -610,17 +610,17 @@ $x=27.2\mathrm{cm}(3s.f.)$
 
 > *The trigonometric function of an angle that is equivalent to the ratio of the adjacent and the hypotenuse of a right-angled triangle is the cosine function*
 
-`cos open parentheses theta close parentheses equals A over H`
+$\cos ( \\theta ) = \frac{A}{H}$
 
 > *Substitute the known values into the formula*
 
-`cos open parentheses 52 close parentheses equals x over 16`
+$\cos ( 52 ) = \frac{x}{16}$
 
 **[1]**
 
 > *Solve for *$x$* by multiplying both sides of the equation by *$16$* and evaluating*
 
-`x equals 16 cross times cos open parentheses 52 close parentheses`$=9.85058...$
+$x = 16 \times \cos ( 52 )$$=9.85058...$
 
 **9.85 ****[1]**
 
@@ -637,13 +637,13 @@ $\mathrm{tan}x=\frac{10}{18}$
 
 > $\mathrm{tan}^{-1}$* both sides.*
 
-`x equals tan to the power of negative 1 end exponent open parentheses 10 over 18 close parentheses`
+$x = \tan ^{- 1} ( \frac{10}{18} )$
 
 > * *
 
 > *Enter into a calculator and round to 3 significant figures.*
 
-`tan to the power of negative 1 end exponent open parentheses 10 over 18 close parentheses equals 29.0546...`
+$\tan ^{- 1} ( \frac{10}{18} ) = 29.0546...$
 
 $x=29.1^{\circ}$* ***[1]**
 
@@ -658,17 +658,17 @@ $x=29.1^{\circ}$* ***[1]**
 
 > *The length of *$AC$* (the hypotenuse) is known and the length of *$AB$* (the opposite side) is to be calculated, so use the sine ratio*
 
-`sin open parentheses theta close parentheses equals O over H`
+$\sin ( \\theta ) = \frac{O}{H}$
 
 > *Substitute the appropriate values into the formula*
 
-`sin open parentheses 37 close parentheses equals fraction numerator A B over denominator 4.6 end fraction`
+$\sin ( 37 ) = \frac{A B}{4.6}$
 
 **[1]**
 
 > *Rearrange to solve for *$AB$
 
-`A B equals sin open parentheses 37 close parentheses cross times 4.6`
+$A B = \sin ( 37 ) \times 4.6$
 
 $AB=2.768...$ **[1]**
 
@@ -685,17 +685,17 @@ $AB=2.768...$ **[1]**
 
 > *The trigonometric function of an angle that is equivalent to the ratio of the opposite and the hypotenuse of a right-angled triangle is the sine function*
 
-`sin open parentheses theta close parentheses equals O over H`
+$\sin ( \\theta ) = \frac{O}{H}$
 
 > *Substitute the known values into the formula*
 
-`sin open parentheses 35 close parentheses equals x over 16`
+$\sin ( 35 ) = \frac{x}{16}$
 
 **[1]**
 
 > *Solve for *$x$* by multiplying both sides of the equation by *$16$* and evaluating*
 
-`x equals 16 cross times sin open parentheses 35 close parentheses`$=9.17722...$
+$x = 16 \times \sin ( 35 )$$=9.17722...$
 
 **9.18**** ****[1]**
 
@@ -710,16 +710,16 @@ $AB=2.768...$ **[1]**
 
 > *The trigonometric function of an angle that is equivalent to the ratio of the opposite and the hypotenuse of a right-angled triangle is the sine function*
 
-`sin open parentheses theta close parentheses equals O over H`
+$\sin ( \\theta ) = \frac{O}{H}$
 
 > *Substitute the known values into the formula*
 
-`sin open parentheses 35 close parentheses equals x over 12`
+$\sin ( 35 ) = \frac{x}{12}$
 
 **[1]**
 
 > *Solve for *$x$* by multiplying both sides of the equation by *$12$* and evaluating*
 
-`x equals 12 cross times sin open parentheses 35 close parentheses`$=6.88291736...$
+$x = 12 \times \sin ( 35 )$$=6.88291736...$
 
 **6.88**** ****[1]**

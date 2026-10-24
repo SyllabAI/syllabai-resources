@@ -106,7 +106,7 @@ $\frac{7!}{4!}=\frac{7\times6\times5\times4\times3\times2\times1}{4\times3\times
 > 
 > $\frac{8!}{5!}=8\times7\times6$
 > 
-> (ii)`begin mathsize 16px style table row blank row blank end table end style` Hence, simplify  $\frac{n!}{(n-3)!}$
+> (ii)$\begin{gathered} \\ \end{gathered}$ Hence, simplify  $\frac{n!}{(n-3)!}$
 > 
 > > *(i)   Write 5! and 8! in their full form.   *
 > 
@@ -122,7 +122,7 @@ $\frac{7!}{4!}=\frac{7\times6\times5\times4\times3\times2\times1}{4\times3\times
 > 
 > (ii) *'Hence' means using the information in the previous question. Let **n **be 8*
 > 
-> `n equals 8 comma space space fraction numerator n factorial over denominator open parentheses n minus 3 close parentheses factorial end fraction equals fraction numerator 8 factorial over denominator open parentheses 8 minus 3 close parentheses factorial end fraction equals fraction numerator 8 factorial over denominator 5 factorial end fraction space space space space and space space space space fraction numerator 8 factorial over denominator 5 factorial end fraction equals 8 cross times 7 cross times 6`
+> `n = 8 , (n factorial)/(( n - 3 ) factorial) = (8 factorial)/(( 8 - 3 ) factorial) = (8 factorial)/(5 factorial) and (8 factorial)/(5 factorial) = 8 x 7 x 6`
 > 
 > *Then 5 = **n **- 3 , 6 = **n **- 2, 7 = **n **- 1     *
 > 
@@ -138,7 +138,7 @@ $\frac{7!}{4!}=\frac{7\times6\times5\times4\times3\times2\times1}{4\times3\times
 
 - Mathematically speaking yes, a **permutation** is the number of possible arrangements of a set of objects when the **order **of the arrangements matters
 - A permutation can either be finding the number of ways to arrange *n*  items or finding the number of ways to arrange *r*  out of *n* items
-- The number of permutations of *n* **different **items is `n factorial equals n cross times open parentheses n minus 1 close parentheses cross times open parentheses n minus 2 close parentheses cross times... cross times 2 cross times 1`
+- The number of permutations of *n* **different **items is $n \text{factorial} = n \times ( n - 1 ) \times ( n - 2 ) \times... \times 2 \times 1$
 
   - For 5 **different **items there are 5! = 5 × 4 × 3 × 2 = 120 permutations
   - For 6 **different **items there are 6! = 6 × 5 × 4 × 3 × 2 = 720  permutations
@@ -151,16 +151,16 @@ $\frac{7!}{4!}=\frac{7\times6\times5\times4\times3\times2\times1}{4\times3\times
 - If we wanted to arrange 3 out of 5 different objects, then we would have 3 positions to place the objects in, but we would have 5 options for the first position, 4 for the second and 3 for the third
 
   - This would be 5 × 4 × 3 ways of permutating 3 out of 5 different objects
-  - This is equivalent to `fraction numerator 5 factorial over denominator 2 factorial end fraction equals fraction numerator 5 factorial over denominator open parentheses 5 minus 3 close parentheses factorial end fraction`
+  - This is equivalent to $\frac{5 factorial}{2 factorial} = \frac{5 factorial}{( 5 - 3 ) factorial}$
 - If we wanted to arrange 4 out of 10 different objects, then we would have 4 positions to place the objects in, but we would have 10 options for the first position, 9 for the second, 8 for the third and 7 for the fourth
 
   - This would be 10 × 9 × 8 × 7 ways of permutating 4 out of 10 different objects
   - This is equivalent to $\frac{10!}{6!}=\frac{10!}{(10-4)!}$
-- If we wanted to arrange *r* out of *n* different objects, then we would have *r* positions to place the objects in, but we would have *n* options for the first position, `begin mathsize 16px style open parentheses n minus 1 close parentheses end style` for the second, `begin mathsize 16px style open parentheses n minus 2 close parentheses end style` for the third and so on until we reach `open parentheses n minus open parentheses r minus 1 close parentheses close parentheses`
+- If we wanted to arrange *r* out of *n* different objects, then we would have *r* positions to place the objects in, but we would have *n* options for the first position, $( n - 1 )$ for the second, $( n - 2 )$ for the third and so on until we reach $( n - ( r - 1 ) )$
 
-  - This would be `n cross times open parentheses n minus 1 close parentheses cross times... cross times open parentheses n minus r plus 1 close parentheses` ways of permutating r out of n different objects
-  - This is equivalent to `begin mathsize 16px style fraction numerator n factorial over denominator open parentheses n minus r close parentheses factorial end fraction end style`
-- The function $\frac{n!}{(n-r)!}$can be written as `begin mathsize 16px style straight P presuperscript n subscript r end style`
+  - This would be $n \times ( n - 1 ) \times... \times ( n - r + 1 )$ ways of permutating r out of n different objects
+  - This is equivalent to $\frac{n factorial}{( n - r ) factorial}$
+- The function $\frac{n!}{(n-r)!}$can be written as $\mathrm{P} pre^{n}_{r}$
 
   - Make sure you can find and use this button on your calculator
 - The same function works if we have *n *spaces into which we want to arrange *r *objects, consider

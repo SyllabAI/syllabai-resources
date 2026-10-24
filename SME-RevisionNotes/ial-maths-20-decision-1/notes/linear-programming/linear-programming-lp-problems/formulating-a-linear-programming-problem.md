@@ -177,4 +177,4 @@ Formulate the** linear programming problem** by writing it in a formal manner
 > 
 > **Final answer:** **subject to                              **
 > 
-> `table row cell bold italic x bold plus bold italic y end cell bold less or equal than bold 10 row cell bold italic x bold plus bold 2 bold italic y end cell bold less or equal than bold 18 row cell bold 3 bold italic x bold plus bold 2 bold italic y end cell bold less or equal than bold 24 row cell bold italic x bold comma bold space bold italic y end cell bold greater or equal than bold 0 end table`
+> $\begin{array}{cc} x + y & \le 10 \\ x + 2 y & \le 18 \\ 3 x + 2 y & \le 24 \\ x , y & \ge 0\end{array}$

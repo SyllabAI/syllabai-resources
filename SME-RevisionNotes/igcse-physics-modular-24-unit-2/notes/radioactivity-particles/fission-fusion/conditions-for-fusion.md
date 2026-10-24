@@ -21,9 +21,9 @@ guided_study: false
 - In the centre of a star, hydrogen nuclei undergo **nuclear fusion** to form helium nuclei
 - An equation for a possible fusion reaction is:
 
-`straight H presubscript 1 presuperscript 2 space plus space straight H presubscript 1 presuperscript 3 space rightwards arrow space He presubscript 2 presuperscript 4 space plus space straight n presubscript 0 presuperscript 1`
+`H _ 1 ^ 2 + H _ 1 ^ 3 -> He _ 2 ^ 4 + n _ 0 ^ 1`
 
-- Where `H presubscript 1 presuperscript 2` (deuterium) and `straight H presubscript 1 presuperscript 3` (tritium) are both isotopes of hydrogen
+- Where `H presubscript 1 presuperscript 2` (deuterium) and `H _ 1 ^ 3` (tritium) are both isotopes of hydrogen
 
   - These are formed through other fusion reactions in the star
 
@@ -70,7 +70,7 @@ guided_study: false
 > **Worked Example**
 > An example of a hydrogen fusion reaction which takes place in stars is shown here.
 > 
-> `straight H presubscript 1 presuperscript 2 space plus space straight H presubscript 1 presuperscript 1 space rightwards arrow space He presubscript 2 presuperscript 3`
+> `H _ 1 ^ 2 + H _ 1 ^ 1 -> He _ 2 ^ 3`
 > 
 > Which of the following is a valid reason as to why hydrogen fusion is not currently possible on Earth?
 > 

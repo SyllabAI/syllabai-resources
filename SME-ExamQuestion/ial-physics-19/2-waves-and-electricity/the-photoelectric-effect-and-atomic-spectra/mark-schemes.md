@@ -21,12 +21,12 @@ List the known quantities:
 
 Convert work function to joules:
 
-- `ϕ space equals space 4.3 space eV space equals space 4.3 space cross times space open parentheses 1.6 space cross times space 10 to the power of negative 19 end exponent close parentheses space straight J space equals space 6.88 space cross times space 10 to the power of negative 19 end exponent space straight J` **[1 mark]**
+- $ϕ = 4.3 \text{eV} = 4.3 \times ( 1.6 \times 10^{- 19} ) \mathrm{J} = 6.88 \times 10^{- 19} \mathrm{J}$ **[1 mark]**
 
 Use the photoelectric equation to calculate maximum speed:
 
 - $hf=ϕ+\frac{1}{2}mv_{max}^{2}$
-- `v subscript m a x end subscript space equals space square root of fraction numerator 2 open parentheses h f space minus space ϕ close parentheses over denominator m end fraction end root space equals space square root of fraction numerator 2 space cross times space open square brackets open parentheses 9.3 space cross times space 10 to the power of negative 19 end exponent close parentheses space minus space open parentheses 6.88 space cross times space 10 to the power of negative 19 end exponent close parentheses close square brackets over denominator 9.11 space cross times space 10 to the power of negative 31 end exponent end fraction end root` **[2 marks]**
+- $v_{m a x} = \sqrt{ \frac{2 ( h f - ϕ )}{m} } = \sqrt{ \frac{2 \times [ ( 9.3 \times 10^{- 19} ) - ( 6.88 \times 10^{- 19} ) ]}{9.11 \times 10^{- 31} } }$ **[2 marks]**
 - $\mathrm{maximum} \mathrm{speed}=7.29\times10^{5}ms^{-1}=7.3\times10^{5}ms^{-1}$ (2 s.f.) **[1 mark]**
 
 **   **
@@ -132,7 +132,7 @@ Calculate the frequency of the radiation from B using $v=fλ$:
 
 Calculate the energy of the photon and convert to eV:
 
-- `E equals h f equals open parentheses 6.63 cross times 10 to the power of negative 34 end exponent close parentheses cross times open parentheses 1.07 cross times 10 to the power of 15 close parentheses equals 7.09 cross times 10 to the power of negative 19 end exponent space straight J` **[1 mark]**
+- $E = h f = ( 6.63 \times 10^{- 34} ) \times ( 1.07 \times 10^{15 ) = 7.09 \times 10^{-19} } \mathrm{J}$ **[1 mark]**
 - To convert to eV this is $\frac{E}{e}=\frac{7.09\times10^{-19}}{1.60\times10^{-19}}$ **[1 mark]**
 - Photon energy = 4.43 eV** [1 mark]**
 
@@ -272,7 +272,7 @@ To deduce whether there is a reading on the ammeter:
 
 $E=\frac{hc}{λ}$
 
-`E space equals space fraction numerator open parentheses 6.63 cross times 10 to the power of negative 34 end exponent close parentheses cross times open parentheses 3.00 cross times 10 to the power of 8 close parentheses over denominator 350 cross times 10 to the power of negative 9 end exponent end fraction`
+$E = \frac{( 6.63 \times 10^{- 34} ) \times ( 3.00 \times 10^{8 )}{350 \times 10^{-9} } }$
 
 $E=5.68\times10^{-19}\text{J}$ **[1 mark]**
 
@@ -297,7 +297,7 @@ The maximum kinetic energy of the photoelectrons ($1 . 25 \text{eV}$) is less th
 > 
 > - Accept $E$ in $\text{J}$ or $\text{eV}$
 > 
-> 1 mark for use of `h f equals ϕ plus E subscript k open parentheses max close parentheses end subscript` to calculate the maximum kinetic energy of the photoelectrons
+> 1 mark for use of $h f = ϕ + E_{k ( \max )}$ to calculate the maximum kinetic energy of the photoelectrons
 > 
 > 1 mark for explicit comparison of the calculated maximum kinetic energy with the battery p.d. ($1 . 5 \text{eV}$) and a clear conclusion
 > 

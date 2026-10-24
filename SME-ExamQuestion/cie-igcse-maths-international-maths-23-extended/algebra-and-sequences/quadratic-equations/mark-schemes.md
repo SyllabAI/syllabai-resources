@@ -7,27 +7,27 @@
 
 ### Q1
 > *Substitute the values in the diagram into the formula for the area of a trapezium*
-*The formula is *`A equals 1 half open parentheses a plus b close parentheses h`*, where *$a$* and *$b$* are the two parallel sides and *$h$* is the perpendicular height*
+*The formula is *$A = 1 \frac{1}{2} ( a + b ) h$*, where *$a$* and *$b$* are the two parallel sides and *$h$* is the perpendicular height*
 
-`A space equals space 1 half cross times open parentheses open parentheses x minus 4 close parentheses plus open parentheses x plus 5 close parentheses close parentheses cross times 2 x`
+$A = 1 \frac{1}{2} \times ( ( x - 4 ) + ( x + 5 ) ) \times 2 x$
 
 **[1]**
 
 > *The area is given as 351 cm*<sup>*2*</sup>*, so set this expression equal to 351*
 
-`space 1 half cross times open parentheses open parentheses x minus 4 close parentheses plus open parentheses x plus 5 close parentheses close parentheses cross times 2 x equals 351`
+$1 \frac{1}{2} \times ( ( x - 4 ) + ( x + 5 ) ) \times 2 x = 351$
 
 > *Simplify the expression in the brackets*
 
-`table row cell space 1 half cross times open parentheses 2 x plus 1 close parentheses cross times 2 x end cell equals 351 end table`
+$\begin{gathered} 1 \frac{1}{2} \times ( 2 x + 1 ) \times 2 x & = 351 \end{gathered}$
 
 > *Cancel out the 2*
 
-`table row cell space fraction numerator 1 over denominator up diagonal strike 2 end fraction cross times open parentheses 2 x plus 1 close parentheses cross times up diagonal strike 2 x end cell equals 351 row cell x open parentheses 2 x plus 1 close parentheses end cell equals 351 end table`
+$\begin{gathered} \frac{1}{ \cancel{2} } \times ( 2 x + 1 ) \times \cancel{2} x & = 351 \\ x ( 2 x + 1 ) & = 351 \end{gathered}$
 
 > *Expand the brackets on the right hand side*
 
-`table row cell 2 x squared plus x end cell equals 351 end table`
+$\begin{gathered} 2 x^{2} + x & = 351 \end{gathered}$
 
 > *Subtract 351 from both sides*
 
@@ -53,12 +53,12 @@ $x_{1}=13\,x_{2}=-\frac{27}{2}$
 
 $a=2,b=9,c=-7$
 
-`x equals fraction numerator negative open parentheses 9 close parentheses plus-or-minus square root of open parentheses 9 close parentheses squared space minus space 4 cross times 2 cross times open parentheses negative 7 close parentheses end root over denominator 2 cross times 2 end fraction`
+$x = \frac{- ( 9 ) \pm \sqrt{( 9 )^{2} - 4 \times 2 \times ( - 7 )} }{2 \times 2}$
 
 **Square root part correct [1]**
 **Rest of formula correct [1]**
 
-`x space equals space fraction numerator negative 9 space plus-or-minus space square root of 81 space minus space open parentheses negative 56 close parentheses end root over denominator 4 end fraction space equals space fraction numerator negative 9 space plus-or-minus space square root of 137 over denominator 4 end fraction`
+$x = \frac{- 9 \pm \sqrt{81 - ( - 56 )} }{4} = \frac{- 9 \pm \sqrt{137} }{4}$
 
 $x=0.67617...,x=-5.17617...$
 
@@ -67,7 +67,7 @@ $x=0.67617...,x=-5.17617...$
 > *Round your answers to **three significant figures*
 
 $x=0.676$** or **$x=-5.18$** [1]**
-> *Spot that *$\frac{2}{y^{2}}+\frac{9}{y}-7=0$* can be written as *`2 open parentheses 1 over y close parentheses squared plus 9 open parentheses 1 over y close parentheses space minus 7 space equals space 0`
+> *Spot that *$\frac{2}{y^{2}}+\frac{9}{y}-7=0$* can be written as *$2 ( \frac{1}{y} )^{2} + 9 ( \frac{1}{y} ) - 7 = 0$
 *This is the same as the problem in part (a), with  *
 
 $x=\frac{1}{y}$
@@ -97,13 +97,13 @@ $y=1.48$** ****   ****or  **$y=-0.193$** [1]**
 
 > *Now you can work backwards to form the factors*
 
-> *The solution of *$x=\frac{7}{2}$* must come from a factor of *`open parentheses 2 x minus 7 close parentheses`
+> *The solution of *$x=\frac{7}{2}$* must come from a factor of *$( 2 x - 7 )$
 
-> *The solution of *$x=-\frac{2}{5}$* must come from a factor of *`open parentheses 5 x plus 2 close parentheses`
+> *The solution of *$x=-\frac{2}{5}$* must come from a factor of *$( 5 x + 2 )$
 
 > *You must write down the factorised form to get the marks*
 
-`open parentheses 5 m plus 2 close parentheses open parentheses 2 m minus 7 close parentheses equals 0`
+$( 5 m + 2 ) ( 2 m - 7 ) = 0$
 
 **[1]**
 
@@ -125,11 +125,11 @@ $10m^{2}-35m+4m-14=0$
 
 > *Factorise the first two terms, using *$5m$* as the highest common factor, and the second two terms using 2 as the factor*
 
-`5 m open parentheses 2 m minus 7 close parentheses plus 2 open parentheses 2 m minus 7 close parentheses equals 0`
+$5 m ( 2 m - 7 ) + 2 ( 2 m - 7 ) = 0$
 
-> *Note that these now have the same factor of *`open parentheses 2 m minus 7 close parentheses`* so this can be used as a common factor*
+> *Note that these now have the same factor of *$( 2 m - 7 )$* so this can be used as a common factor*
 
-`open parentheses 5 m plus 2 close parentheses open parentheses 2 m minus 7 close parentheses equals 0`
+$( 5 m + 2 ) ( 2 m - 7 ) = 0$
 
 **[1]**
 
@@ -162,7 +162,7 @@ $a=4,b=1,c=-495$
 
 > *It is a good idea to substitute the values into the quadratic formula as well, however the question does not ask for all working so this is not essential*
 
-`n equals fraction numerator negative left parenthesis 1 right parenthesis plus-or-minus square root of open parentheses 1 close parentheses squared minus 4 left parenthesis 4 right parenthesis left parenthesis negative 495 right parenthesis end root over denominator 2 left parenthesis 4 right parenthesis end fraction`
+$n = \frac{- ( 1 ) \pm \sqrt{( 1 )^{2} - 4 ( 4 ) ( - 495 )} }{2 ( 4 )}$
 
 > *Use calculator to find the solutions*
 
@@ -178,7 +178,7 @@ $n=11$ **[1] **
 
 > *By asking for answers to be rounded, the question is suggesting the quadratic formula (found on page 2 of the exam paper), *$x=\frac{-b\pm\sqrt{b^{2}-4ac}}{2a}$*, where *$ax^{2}+bx+c=0$*, is the most appropriate method to use*
 
-`table attributes columnalign right center left columnspacing 0px end attributes row a equals cell 2 comma space space b equals 7 comma space space c equals negative 3 end cell row x equals cell fraction numerator negative 7 plus-or-minus square root of 7 squared minus 4 open parentheses 2 close parentheses open parentheses negative 3 close parentheses end root over denominator 2 cross times 2 end fraction end cell end table`
+$\begin{array}{rcl} a = 2 , b = 7 , c = - 3 \\ x = \frac{- 7 \pm \sqrt{7^{2} - 4 ( 2 ) ( - 3 )} }{2 \times 2} \end{array}$
 
 **Square root part correct**** [1] **
 **Rest of the formula correct**** [1]**
@@ -230,7 +230,7 @@ $x=\frac{-b\pm\sqrt{b^{2}-4ac}}{2a}$
 > *Substitute *$a=3$*, *$b=-2$* and *$c=-2$* into the formula *
 *Write down this line of working, with brackets around negative numbers*
 
-`x equals fraction numerator negative open parentheses negative 2 close parentheses plus-or-minus square root of open parentheses negative 2 close parentheses squared minus 4 cross times 3 cross times open parentheses negative 2 close parentheses end root over denominator 2 cross times 3 end fraction`
+$x = \frac{- ( - 2 ) \pm \sqrt{( - 2 )^{2} - 4 \times 3 \times ( - 2 )} }{2 \times 3}$
 
 **Correct values shown under the square root**** [1]*** *** **
 **Correct values shown outside of the square root ****[1]*** *
@@ -254,7 +254,7 @@ $x=\frac{-b\pm\sqrt{b^{2}-4ac}}{2a}$
 
 > *Write down this line of working *
 
-`x equals fraction numerator negative 7 plus-or-minus square root of 7 squared minus 4 cross times 3 cross times open parentheses negative 11 close parentheses end root over denominator 2 cross times 3 end fraction`
+$x = \frac{- 7 \pm \sqrt{7^{2} - 4 \times 3 \times ( - 11 )} }{2 \times 3}$
 
 **Correct values shown under the square root**** [1]*** *
 **Correct values shown outside of the square root ****[1]*** *
@@ -280,14 +280,14 @@ $x=1.0756...$* or *$x=-3.4089...$
 
 > *Substituting these values into the formula*
 
-`x equals fraction numerator negative open parentheses negative 2 close parentheses plus-or-minus square root of open parentheses negative 2 close parentheses squared minus open parentheses 4 cross times 3 cross times negative 10 close parentheses end root over denominator 2 cross times 3 end fraction`
+$x = \frac{- ( - 2 ) \pm \sqrt{( - 2 )^{2} - ( 4 \times 3 \times - 10 )} }{2 \times 3}$
 
 **Square root part correct**** [1] **
 **Rest of the formula correct**** [1]**
 
 > *Simplifying*
 
-`x equals fraction numerator 2 plus-or-minus square root of 4 minus open parentheses negative 120 close parentheses end root over denominator 6 end fraction` $x=\frac{2\pm\sqrt{124}}{6}$
+$x = \frac{2 \pm \sqrt{4 - ( - 120 )} }{6}$ $x=\frac{2\pm\sqrt{124}}{6}$
 
 > *So the two solutions are*
 
@@ -310,7 +310,7 @@ $x=2.19\mathrm{or}x=-1.52$ **[1]**
 
 $a=9,b=-12,c=-23$
 
-`x equals fraction numerator negative open parentheses negative 12 close parentheses plus-or-minus square root of open parentheses negative 12 close parentheses squared minus 4 cross times 9 cross times open parentheses negative 23 close parentheses end root over denominator 2 cross times 9 end fraction`
+$x = \frac{- ( - 12 ) \pm \sqrt{( - 12 )^{2} - 4 \times 9 \times ( - 23 )} }{2 \times 9}$
 
 **Square root part correct**** [1] **
 **Rest of the formula correct**** [1]**
@@ -367,13 +367,13 @@ $x=1,3,4,5$ **[1]**
 
 > *Now you can work backwards to form the factors*
 
-> *The solution of *$x=3$* must come from a factor of *`open parentheses x minus 3 close parentheses`
+> *The solution of *$x=3$* must come from a factor of *$( x - 3 )$
 
-> *The solution of *$x=\frac{2}{3}$* must come from a factor of *`open parentheses 3 x minus 2 close parentheses`
+> *The solution of *$x=\frac{2}{3}$* must come from a factor of *$( 3 x - 2 )$
 
 > *You must write down the factorised form to get the marks*
 
-`open parentheses 3 x minus 2 close parentheses open parentheses x minus 3 close parentheses equals 0`
+$( 3 x - 2 ) ( x - 3 ) = 0$
 
 **[1]**
 
@@ -395,11 +395,11 @@ $3x^{2}-9x-2x+6=0$
 
 > *Factorise the first two terms, using *$3x$* as the highest common factor, and the second two terms using -2 as the factor*
 
-`3 x open parentheses x minus 3 close parentheses minus 2 open parentheses x minus 3 close parentheses equals 0`
+$3 x ( x - 3 ) - 2 ( x - 3 ) = 0$
 
-> *Note that these now have the same factor of *`open parentheses x minus 3 close parentheses`* so this can be used as a common factor*
+> *Note that these now have the same factor of *$( x - 3 )$* so this can be used as a common factor*
 
-`open parentheses 3 x minus 2 close parentheses open parentheses x minus 3 close parentheses equals 0`
+$( 3 x - 2 ) ( x - 3 ) = 0$
 
 **[1]**
 
@@ -422,12 +422,12 @@ $x=\frac{2}{3}\mathrm{or}x=3$ **[1]**
 
 $a=6,b=-7,c=2$
 
-`x equals fraction numerator negative open parentheses negative 7 close parentheses plus-or-minus square root of open parentheses negative 7 close parentheses squared minus 4 cross times 6 cross times 2 end root over denominator 2 cross times 6 end fraction`
+$x = \frac{- ( - 7 ) \pm \sqrt{( - 7 )^{2} - 4 \times 6 \times 2} }{2 \times 6}$
 
 **Square root part correct**** [1]**
 **Rest of the formula correct**** [1]**
 
-`table row x equals cell fraction numerator 7 plus-or-minus square root of 49 minus 48 end root over denominator 12 end fraction end cell row blank equals cell 8 over 12 space or space space 6 over 12 end cell end table`
+$\begin{gathered} x = \frac{7 \pm \sqrt{49 - 48} }{12} \\ = \frac{8}{12} \text{or} \frac{6}{12} \end{gathered}$
 
 > *Now check on your calculator, open the menu and select the polynomial solver*
 *Enter the coefficients of *$a=6,b=-7,c=2$* and solve*
@@ -456,15 +456,15 @@ $\frac{5}{y}+\frac{7}{y-7}=2$
 
 **[1]**
 
-> *Multiply both sides by  *`y open parentheses y minus 7 close parentheses`*  to remove the fractions*
+> *Multiply both sides by  *$y ( y - 7 )$*  to remove the fractions*
 
-`fraction numerator 5 y open parentheses y minus 7 close parentheses over denominator y end fraction plus fraction numerator 7 y open parentheses y minus 7 close parentheses over denominator y minus 7 end fraction equals 2 y open parentheses y minus 7 close parentheses`
+$\frac{5 y ( y - 7 )}{y} + \frac{7 y ( y - 7 )}{y - 7} = 2 y ( y - 7 )$
 
 > *Simplify by cancelling common factors*
 
-`fraction numerator 5 up diagonal strike y open parentheses y minus 7 close parentheses over denominator up diagonal strike y end fraction plus fraction numerator 7 y up diagonal strike open parentheses y minus 7 close parentheses end strike over denominator up diagonal strike y minus 7 end strike end fraction equals 2 y open parentheses y minus 7 close parentheses`
+$\frac{5 \cancel{y ( y - 7 )}{ \cancel{y} } + \frac{7 y \cancel{(} \text{parentheses} y - 7 )} }{ \cancel{y - 7} } = 2 y ( y - 7 )$
 
-`5 open parentheses y minus 7 close parentheses plus 7 y equals 2 y open parentheses y minus 7 close parentheses`
+$5 ( y - 7 ) + 7 y = 2 y ( y - 7 )$
 
 **[1]**
 
@@ -495,7 +495,7 @@ $x_{1}=11.474937...\,x_{2}=1.5250628...$
 > *Round to 3 significant figures*
 
 $x_{1}=11.5,x_{2}=1.53$**  ****[1]**
-> *Nina's walking speed is *`open parentheses y minus 7 close parentheses`* km/h*
+> *Nina's walking speed is *$( y - 7 )$* km/h*
 
 > *Subtracting 7 from the smaller value of *$y$* gives a negative value, so the value of *$y$* that represents Nina's running speed is *$11.474937...$
 
