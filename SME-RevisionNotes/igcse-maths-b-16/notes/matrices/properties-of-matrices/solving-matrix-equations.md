@@ -38,7 +38,7 @@ guided_study: false
 
   - Though here you will need to multiply 'from the right' by $A^{-1}$
 
-`table row cell bold BAA to the power of negative 1 end exponent end cell equals cell bold CA to the power of negative 1 end exponent end cell row bold BI equals cell bold CA to the power of negative 1 end exponent end cell row bold B equals cell bold CA to the power of negative 1 end exponent end cell end table`
+$\begin{gathered} BAA^{- 1} & = CA^{- 1} \\ \text{BI} = CA^{- 1} \\ B = CA^{- 1} \end{gathered}$
 
 - This is similar to solving a regular equation by 'doing the same thing to both sides'
 
@@ -58,7 +58,7 @@ guided_study: false
 > - but $A^{-1}\mathrm{BA}$ does not simplify any further
 
 > **Worked Example**
-> `bold P equals open parentheses table row 4 cell negative 2 end cell row cell negative 2 end cell 2 end table close parentheses space space space space space space space bold Q equals open parentheses table row k 1 row 3 0 end table close parentheses space space space space space space space bold R equals open parentheses table row 10 4 row cell negative 2 end cell cell negative 2 end cell end table close parentheses`
+> $P = ( \begin{gathered} 4 - 2 \\ - 2 & 2 \end{gathered} ) Q = ( \begin{gathered} k 1 \\ 3 0 \end{gathered} ) R = ( \begin{gathered} 10 4 \\ - 2 & - 2 \end{gathered} )$
 > 
 > where $k$ is a constant.
 > 
@@ -68,11 +68,11 @@ guided_study: false
 > 
 > > *Use the inverse formula for a *$2\times2$* matrix*
 > 
-> - *The inverse of *`space open parentheses table row a b row c d end table close parentheses space`* is *`space fraction numerator 1 over denominator a d minus b c end fraction open parentheses table row d cell negative b end cell row cell negative c end cell a end table close parentheses`
+> - *The inverse of *$( \begin{gathered} a b \\ c d \end{gathered} )$* is *$\frac{1}{a d - b c} ( \begin{gathered} d - b \\ - c & a \end{gathered} )$
 > 
-> `table row cell bold P to the power of bold minus bold 1 end exponent end cell equals cell fraction numerator 1 over denominator 4 cross times 2 minus open parentheses negative 2 close parentheses cross times open parentheses negative 2 close parentheses end fraction open parentheses table row 2 2 row 2 4 end table close parentheses end cell row blank equals cell fraction numerator 1 over denominator 8 minus 4 end fraction open parentheses table row 2 2 row 2 4 end table close parentheses end cell row blank equals cell 1 fourth open parentheses table row 2 2 row 2 4 end table close parentheses end cell row blank equals cell open parentheses table row cell 1 fourth cross times 2 end cell cell 1 fourth cross times 2 end cell row cell 1 fourth cross times 2 end cell cell 1 fourth cross times 4 end cell end table close parentheses end cell row blank equals cell open parentheses table row cell 1 half end cell cell 1 half end cell row cell 1 half end cell 1 end table close parentheses end cell end table`
+> $\begin{gathered} P^{- 1} & = \frac{1}{4 \times 2 - ( - 2 ) \times ( - 2 )} ( \begin{gathered} 2 2 \\ 2 4 \end{gathered} ) \\ = \frac{1}{8 - 4} ( \begin{gathered} 2 2 \\ 2 4 \end{gathered} ) \\ = 1 \frac{1}{4} ( \begin{gathered} 2 2 \\ 2 4 \end{gathered} ) \\ = ( \begin{gathered} 1 \frac{1}{4} \times 2 & 1 \frac{1}{4} \times 2 \\ 1 \frac{1}{4} \times 2 & 1 \frac{1}{4} \times 4 \end{gathered} ) \\ = ( \begin{gathered} 1 \frac{1}{2} & 1 \frac{1}{2} \\ 1 \frac{1}{2} & 1 \end{gathered} ) \end{gathered}$
 > 
-> `table row cell bold P to the power of bold minus bold 1 end exponent end cell equals cell open parentheses table row cell 1 half end cell cell 1 half end cell row cell 1 half end cell 1 end table close parentheses end cell end table`
+> $\begin{gathered} P^{- 1} & = ( \begin{gathered} 1 \frac{1}{2} & 1 \frac{1}{2} \\ 1 \frac{1}{2} & 1 \end{gathered} ) \end{gathered}$
 > 
 > (b) Given that $\mathrm{PQ}=R$ find the value of $k$.
 > 
@@ -96,10 +96,10 @@ guided_study: false
 > 
 > - *Substitute in matrices *$P^{-1}$* and *$R$
 > 
-> `bold Q equals open parentheses table row cell 1 half end cell cell 1 half end cell row cell 1 half end cell 1 end table close parentheses open parentheses table row 10 4 row cell negative 2 end cell cell negative 2 end cell end table close parentheses`
+> $Q = ( \begin{gathered} 1 \frac{1}{2} & 1 \frac{1}{2} \\ 1 \frac{1}{2} & 1 \end{gathered} ) ( \begin{gathered} 10 4 \\ - 2 & - 2 \end{gathered} )$
 > 
 > - *Carry out the multiplication*
 > 
-> `table row bold Q equals cell open parentheses table row cell 1 half cross times 10 plus 1 half cross times open parentheses negative 2 close parentheses end cell cell 1 half cross times 4 plus 1 half cross times open parentheses negative 2 close parentheses end cell row cell 1 half cross times 10 plus 1 cross times open parentheses negative 2 close parentheses end cell cell 1 half cross times 4 plus 1 cross times negative 2 end cell end table close parentheses end cell row blank equals cell open parentheses table row cell 5 minus 1 end cell cell 2 minus 1 end cell row cell 5 minus 2 end cell cell 2 minus 2 end cell end table close parentheses end cell row blank equals cell open parentheses table row 4 1 row 3 0 end table close parentheses end cell end table`
+> $\begin{gathered} Q = ( \begin{gathered} 1 \frac{1}{2} \times 10 + 1 \frac{1}{2} \times ( - 2 ) & 1 \frac{1}{2} \times 4 + 1 \frac{1}{2} \times ( - 2 ) \\ 1 \frac{1}{2} \times 10 + 1 \times ( - 2 ) & 1 \frac{1}{2} \times 4 + 1 \times - 2 \end{gathered} ) \\ = ( \begin{gathered} 5 - 1 & 2 - 1 \\ 5 - 2 & 2 - 2 \end{gathered} ) \\ = ( \begin{gathered} 4 1 \\ 3 0 \end{gathered} ) \end{gathered}$
 > 
 > $k=4$

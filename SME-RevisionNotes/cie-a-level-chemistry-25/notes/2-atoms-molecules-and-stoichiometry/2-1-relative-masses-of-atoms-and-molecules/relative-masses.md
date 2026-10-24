@@ -44,7 +44,7 @@ Relative atomic mass of **X** = $\frac{\mathrm{average} \mathrm{mass} \mathrm{of
   - Divide by 100 to get average relative atomic mass
   - This is known as the **weighted average** of the masses of the isotopes
 
-`Relative space atomic space mass equals fraction numerator straight capital sigma open parentheses isotope space percentage space abundance cross times isotope space mass space number close parentheses over denominator 100 end fraction`
+`Relative atomic mass = ( capital sigma ( isotope percentage abundance x isotope mass number ))/(100)`
 
 ### Relative molecular mass, M<sub>r</sub>
 

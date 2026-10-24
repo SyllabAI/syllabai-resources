@@ -18,7 +18,7 @@ The sum given in part [a] is an arithmetic series. Write down the first term and
 ### 1() — 2 marks — structured
 Calculate
 
-`sum from r equals 1 to 3 of 2 open parentheses 3 close parentheses to the power of r`
+$\sum_{r = 1}^{3} 2 ( 3 )^{r}$
 
 ### 2() — 2 marks — structured
 The sum given in part [a] is a geometric series. Write down the first term and the common ratio.
@@ -28,7 +28,7 @@ The sum given in part [a] is a geometric series. Write down the first term and t
 ### 1() — 3 marks — structured
 It is given that
 
-`sum from r equals 1 to 4 of a open parentheses r plus 2 close parentheses equals 72`
+$\sum_{r = 1}^{4} a ( r + 2 ) = 72$
 
 where  is a positive integer.
 
@@ -52,19 +52,19 @@ The $n^{th}$ term of a geometric series is given by $u_{n}=5\times2^{n-1}$. Writ
 ### 1() — 2 marks — structured
 Given that
 
-`sum from r equals 1 to k of r squared equals 55`
+$\sum_{r = 1}^{k} r^{2} = 55$
 
 determine the value of $k$.
 
 ## Q6 — medium — 5 marks · exam-questions
 
 ### 1() — 2 marks — structured
-The first  $k$ terms of a series are given by `sum from r equals 1 to k of open parentheses 7 plus 5 r close parentheses`
+The first  $k$ terms of a series are given by $\sum_{r = 1}^{k} ( 7 + 5 r )$
 
 Show that this is an arithmetic series, and determine its first term and common difference.
 
 ### 2() — 3 marks — structured
-Given that `sum from r equals 1 to k of open parentheses 7 plus 5 r close parentheses` $=1190$,
+Given that $\sum_{r = 1}^{k} ( 7 + 5 r )$ $=1190$,
 
 (i) Show that $(5k+119)(k-20)=0$
 
@@ -73,17 +73,17 @@ Given that `sum from r equals 1 to k of open parentheses 7 plus 5 r close parent
 ## Q7 — medium — 7 marks · exam-questions
 
 ### 1() — 2 marks — structured
-The first $k$ terms of a series are given by `sum from r equals 1 to k of 5 cross times 2 to the power of r`.
+The first $k$ terms of a series are given by $\sum_{r = 1}^{k} 5 \times 2^{r}$.
 
 Show that this is a geometric series, and determine its first term and common ratio.
 
 ### 2() — 3 marks — structured
-Given that `sum from r equals 1 to k of 5 cross times 2 to the power of r equals 20470`,
+Given that $\sum_{r = 1}^{k} 5 \times 2^{r} = 20470$,
 
 Show that $k=\frac{\mathrm{log}2048}{\mathrm{log}2}$
 
 ### 3() — 2 marks — structured
-For this value of $k$, calculate `sum from r equals 1 to k plus 3 of 5 cross times 2 to the power of r`.
+For this value of $k$, calculate $\sum_{r = 1}^{k + 3} 5 \times 2^{r}$.
 
 ## Q8 — medium — 4 marks · exam-questions
 
@@ -92,14 +92,14 @@ A geometric series is given by $1+2x+4x^{2}+...$
 
 Write down the common ratio, $r$ , of the series.
 
-Given that the series is convergent, and that  `sum from n equals 1 to infinity of open parentheses 2 x close parentheses to the power of n minus 1 end exponent`$=19$, calculate the value of $x$.
+Given that the series is convergent, and that  $\sum_{n = 1}^{ \infty } ( 2 x )^{n - 1}$$=19$, calculate the value of $x$.
 
 ## Q9 — medium — 4 marks · exam-questions
 
 ### 1() — 4 marks — structured
 An arithmetic series is given by $a+(a+d)+(a+2d)+...$
 
-Given that  `sum from n equals 1 to 7 of open parentheses a plus open parentheses n minus 1 close parentheses d close parentheses equals 91` and  `sum from n equals 1 to 10 of open parentheses a plus open parentheses n minus 1 close parentheses d close parentheses equals 175`, find the values of $a$ and $d$.
+Given that  $\sum_{n = 1}^{7} ( a + ( n - 1 ) d ) = 91$ and  $\sum_{n = 1}^{10} ( a + ( n - 1 ) d ) = 175$, find the values of $a$ and $d$.
 
 ## Q10 — medium — 6 marks · exam-questions
 
@@ -111,7 +111,7 @@ State, with a reason, whether this sequence is increasing, decreasing, or neithe
 ### 2() — 2 marks — structured
 It can be shown that, for all $n\geq1$,
 
-`sum from r equals 1 to n of r squared equals fraction numerator n open parentheses n plus 1 close parentheses open parentheses 2 n plus 1 close parentheses over denominator 6 end fraction`
+$\sum_{r = 1}^{n} r^{2} = \frac{n ( n + 1 ) ( 2 n + 1 )}{6}$
 
 Using that formula,
 
@@ -123,7 +123,7 @@ Find the value of  $51^{2}+52^{2}+53^{2}+...$$+99^{2}+100^{2}$, i.e. the sum of 
 ## Q11 — hard — 4 marks · exam-questions
 
 ### 1() — 4 marks — structured
-Given that `sum from r equals 1 to k of open parentheses 31 minus 6 r close parentheses equals negative 943`,
+Given that $\sum_{r = 1}^{k} ( 31 - 6 r ) = - 943$,
 
 (i)
 
@@ -136,17 +136,17 @@ Hence, find the value of $k$.
 ## Q12 — hard — 4 marks · exam-questions
 
 ### 1() — 4 marks — structured
-Given that  `sum from n equals 1 to 9 of open parentheses a plus open parentheses n minus 1 close parentheses d close parentheses equals negative 279` and  `sum from n equals 1 to 13 of open parentheses a plus open parentheses n minus 1 close parentheses d close parentheses equals negative 585`, find the values of  $a$ and $d$ .
+Given that  $\sum_{n = 1}^{9} ( a + ( n - 1 ) d ) = - 279$ and  $\sum_{n = 1}^{13} ( a + ( n - 1 ) d ) = - 585$, find the values of  $a$ and $d$ .
 
 ## Q13 — hard — 7 marks · exam-questions
 
 ### 1() — 4 marks — structured
-Given that  `sum from r equals 1 to k of 7 cross times 3 to the power of r equals 620004`,
+Given that  $\sum_{r = 1}^{k} 7 \times 3^{r} = 620004$,
 
 Show that  $k=\frac{\mathrm{log}59049}{\mathrm{log}3}$
 
 ### 2() — 3 marks — structured
-For this value of $k$, calculate `sum from r equals 0 to k plus 3 of 7 cross times 3 to the power of r`.
+For this value of $k$, calculate $\sum_{r = 0}^{k + 3} 7 \times 3^{r}$.
 
 ## Q14 — hard — 6 marks · exam-questions
 
@@ -156,7 +156,7 @@ A convergent geometric series is given by $1-4x+16x^{2}-64x^{3}+...$
 Write down the range of possible values of $x$.
 
 ### 2() — 3 marks — structured
-Given that `sum from n equals 1 to infinity of open parentheses negative 4 x close parentheses to the power of n minus 1 end exponent space equals space 24`
+Given that $\sum_{n = 1}^{ \infty } ( - 4 x )^{n - 1} = 24$
 
 Calculate the value of $x$.
 
@@ -170,7 +170,7 @@ State, with a reason, whether this sequence is increasing, decreasing, or neithe
 ### 2() — 6 marks — structured
 It can be shown that, for all $n\geq1$,
 
-`sum from r equals 1 to n of open parentheses 2 r close parentheses squared equals fraction numerator 2 n open parentheses n plus 1 close parentheses open parentheses 2 n plus 1 close parentheses over denominator 3 end fraction` and `sum from r equals 1 to n of open parentheses 2 r minus 1 close parentheses squared equals fraction numerator n open parentheses 2 n plus 1 close parentheses open parentheses 2 n minus 1 close parentheses over denominator 3 end fraction`
+$\sum_{r = 1}^{n} ( 2 r )^{2} = \frac{2 n ( n + 1 ) ( 2 n + 1 )}{3}$ and $\sum_{r = 1}^{n} ( 2 r - 1 )^{2} = \frac{n ( 2 n + 1 ) ( 2 n - 1 )}{3}$
 
 Using those formulas,
 
@@ -179,24 +179,24 @@ Show that `sum from r equals 1 to 100 of u subscript r equals sum from r equals 
 ## Q16 — very_hard — 4 marks · exam-questions
 
 ### 1() — 4 marks — structured
-Given that  `sum from r equals 1 to k of open parentheses 89 minus 5 r close parentheses equals negative 35`, find the value of $k$.
+Given that  $\sum_{r = 1}^{k} ( 89 - 5 r ) = - 35$, find the value of $k$.
 
 ## Q17 — very_hard — 8 marks · exam-questions
 
 ### 1() — 5 marks — structured
-Given that  `sum from r equals 1 to k of 3 cross times open parentheses negative 2 close parentheses to the power of r equals negative 262146`,
+Given that  $\sum_{r = 1}^{k} 3 \times ( - 2 )^{r} = - 262146$,
 
 (i)   show that  $\frac{k-1}{2}=\frac{\mathrm{log}65536}{\mathrm{log}4}$
 
 (ii)   hence find the value of $k$.
 
 ### 2() — 3 marks — structured
-For this value of $k$, calculate `sum from r equals 5 to k plus 2 of 3 cross times open parentheses negative 2 close parentheses to the power of r`.
+For this value of $k$, calculate $\sum_{r = 5}^{k + 2} 3 \times ( - 2 )^{r}$.
 
 ## Q18 — very_hard — 5 marks · exam-questions
 
 ### 1() — 5 marks — structured
-Given that  `sum from n equals 7 to 12 of open parentheses a plus open parentheses n minus 1 close parentheses d close parentheses equals negative 69`,  `sum from n equals 7 to 16 of open parentheses a plus open parentheses n minus 1 close parentheses d close parentheses equals negative 175`, and `sum from n equals 1 to 6 of open parentheses a plus open parentheses n minus 1 close parentheses d close parentheses equals negative 13 d`, find the values of $a$ and $d$.
+Given that  $\sum_{n = 7}^{12} ( a + ( n - 1 ) d ) = - 69$,  $\sum_{n = 7}^{16} ( a + ( n - 1 ) d ) = - 175$, and $\sum_{n = 1}^{6} ( a + ( n - 1 ) d ) = - 13 d$, find the values of $a$ and $d$.
 
 ## Q19 — very_hard — 7 marks · exam-questions
 
@@ -206,14 +206,14 @@ A convergent geometric series is given by $\sqrt{3}+\sqrt{6x}+2x\sqrt{3}+...$, w
 Write down the range of possible values of $x$.
 
 ### 2() — 3 marks — structured
-Given that `sum from n equals 2 to infinity of square root of 3 cross times open parentheses square root of 2 x end root close parentheses to the power of n minus 1 end exponent equals 3 square root of 3`
+Given that $\sum_{n = 2}^{ \infty } \sqrt{3 \times ( \sqrt{2} x} )^{n - 1} = 3 \sqrt{3}$
 
 Calculate the value of $x$.
 
 ## Q20 — very_hard — 5 marks · exam-questions
 
 ### 1() — 5 marks — structured
-A sequence is defined for $k\geq1$ by `u subscript k equals square root of 13 plus open parentheses negative 2 close parentheses to the power of k minus 1 end exponent` .
+A sequence is defined for $k\geq1$ by $u_{k} = \sqrt{13} + ( - 2 )^{k - 1}$ .
 
 Calculate `sum from r equals 11 to 23 of u subscript r` , giving your answer as an exact value.
 
@@ -222,7 +222,7 @@ Calculate `sum from r equals 11 to 23 of u subscript r` , giving your answer as 
 ### 1() — 3 marks — structured
 A sequence is defined for all $k\geq1$ by
 
-`u subscript k equals negative 2 k cross times left parenthesis cos open parentheses k pi close parentheses right parenthesis to the power of k plus 1 end exponent`
+$u_{k} = - 2 k \times ( \cos ( k \pi ) )^{k + 1}$
 
 Determine, giving reasons for your answer, whether the sequence is increasing, decreasing, or neither.
 
@@ -242,4 +242,4 @@ suggest a possible value for $q$, giving a reason for your answer.
 ### 1() — 4 marks — structured
 Prove that, for all $n\geq1$,
 
-`sum from r equals 1 to n of open parentheses 2 r close parentheses squared minus sum from r equals 1 to n of open parentheses 2 r minus 1 close parentheses squared equals sum from r equals 1 to 2 n of r`
+$\sum_{r = 1}^{n} ( 2 r )^{2} - \sum_{r = 1}^{n} ( 2 r - 1 )^{2} = \sum_{r = 1}^{2 n} r$

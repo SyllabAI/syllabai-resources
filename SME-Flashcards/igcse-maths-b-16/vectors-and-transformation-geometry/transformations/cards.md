@@ -29,7 +29,7 @@ What do you use to **describe **how a shape is **moved horizontally and vertical
 
 **BACK**
 
-You use a **vector **in the form `open parentheses table row x row y end table close parentheses` to **describe a translation**.
+You use a **vector **in the form $( \begin{gathered} x \\ y \end{gathered} )$ to **describe a translation**.
 
 Within the vector,  $x$ describes the horizontal movement and $y$ describes the vertical movement.
 
@@ -41,16 +41,16 @@ Within the vector,  $x$ describes the horizontal movement and $y$ describes the 
 
 **True or False?**
 
-The vector `open parentheses table row 2 row 3 end table close parentheses` means **3 **units to the **right **and **2 **units **up**.
+The vector $( \begin{gathered} 2 \\ 3 \end{gathered} )$ means **3 **units to the **right **and **2 **units **up**.
 
 
 **BACK**
 
 **False.**
 
-The vector `open parentheses table row 2 row 3 end table close parentheses` does **not** mean **3 **units to the **right **and **2 **units **up**.
+The vector $( \begin{gathered} 2 \\ 3 \end{gathered} )$ does **not** mean **3 **units to the **right **and **2 **units **up**.
 
-The vector `open parentheses table row 2 row 3 end table close parentheses` means **2 **units to the **right **and **3 **units **up**.
+The vector $( \begin{gathered} 2 \\ 3 \end{gathered} )$ means **2 **units to the **right **and **3 **units **up**.
 
 The **top **number is **horizontal **and the **bottom **number is **vertical.**
 
@@ -62,14 +62,14 @@ The **top **number is **horizontal **and the **bottom **number is **vertical.**
 
 **True or False?**
 
-The vector `open parentheses table row cell negative 2 end cell row 0 end table close parentheses` means **2 **units to the **left**.
+The vector $( \begin{gathered} - 2 \\ 0 \end{gathered} )$ means **2 **units to the **left**.
 
 
 **BACK**
 
 **True.**
 
-The vector `open parentheses table row cell negative 2 end cell row 0 end table close parentheses` means **2 **units to the **left**.
+The vector $( \begin{gathered} - 2 \\ 0 \end{gathered} )$ means **2 **units to the **left**.
 
 
 
@@ -79,16 +79,16 @@ The vector `open parentheses table row cell negative 2 end cell row 0 end table 
 
 **True or False?**
 
-The vector `open parentheses table row 0 row cell negative 3 end cell end table close parentheses` means **3 **units **up**.
+The vector $( \begin{gathered} 0 \\ - 3 \end{gathered} )$ means **3 **units **up**.
 
 
 **BACK**
 
 **False.**
 
-The vector `open parentheses table row 0 row cell negative 3 end cell end table close parentheses` does **not **mean **3 **units **up**.
+The vector $( \begin{gathered} 0 \\ - 3 \end{gathered} )$ does **not **mean **3 **units **up**.
 
-The vector `open parentheses table row 0 row cell negative 3 end cell end table close parentheses` means **3 **units **down**.
+The vector $( \begin{gathered} 0 \\ - 3 \end{gathered} )$ means **3 **units **down**.
 
 If the **bottom **number is **negative **it goes **down**.
 
@@ -148,14 +148,14 @@ When **describing a translation**, you need to:
 
 How do you **reverse** a **translation**?
 
-E.g. reverse a translation of `open parentheses table row 6 row cell negative 2 end cell end table close parentheses`.
+E.g. reverse a translation of $( \begin{gathered} 6 \\ - 2 \end{gathered} )$.
 
 
 **BACK**
 
 A translation can be reversed by **changing the sign** (but not the number) of **each value** in the **translation vector,** and moving the shape by this new vector.
 
-E.g. to reverse a translation of `open parentheses table row 6 row cell negative 2 end cell end table close parentheses`, move the translated shape by the vector `open parentheses table row cell negative 6 end cell row 2 end table close parentheses`.
+E.g. to reverse a translation of $( \begin{gathered} 6 \\ - 2 \end{gathered} )$, move the translated shape by the vector $( \begin{gathered} - 6 \\ 2 \end{gathered} )$.
 
 
 
@@ -174,7 +174,7 @@ The transformation in the diagram is a **translation**.
 
 The shape has moved position but has not changed in size or orientation.
 
-Shape A has been translated to shape B by the vector `open parentheses table row 2 row cell negative 3 end cell end table close parentheses`.
+Shape A has been translated to shape B by the vector $( \begin{gathered} 2 \\ - 3 \end{gathered} )$.
 
 
 

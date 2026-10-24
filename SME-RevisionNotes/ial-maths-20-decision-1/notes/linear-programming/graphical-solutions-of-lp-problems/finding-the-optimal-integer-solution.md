@@ -75,9 +75,9 @@ guided_study: false
 > 
 > subject to
 > 
-> `table row cell 13 x plus 22 y end cell less or equal than 145 row cell 10 x minus 20 y end cell less or equal than 3 row cell 13 x minus 8 y end cell greater or equal than 4 row cell 6 x plus 5 y end cell less or equal than 50 row cell x comma space y end cell greater or equal than 0 end table`
+> $\begin{array}{cc}13 x + 22 y & \le 145 \\ 10 x - 20 y & \le 3 \\ 13 x - 8 y & \ge 4 \\ 6 x + 5 y & \le 50 \\ x , y & \ge 0\end{array}$
 > 
-> has optimal solution `x equals 3.2 comma space y equals 4.7 space open parentheses P equals 63 close parentheses`.
+> has optimal solution $x = 3.2 , y = 4.7 ( P = 63 )$.
 > 
 > However, the decision variables may only take integer values.
 > Find the solution closest to the optimal solution, stating the values of the decision variables and the resulting value of $P$.

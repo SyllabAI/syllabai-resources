@@ -38,7 +38,7 @@ Convert the following into S.I. units:
 ## Q3 — easy — 3 marks · exam-questions
 
 ### 1() — 3 marks — structured
-S.I. units can be combined to form derived compound units for quantities such as velocity `open parentheses straight m space straight s to the power of negative 1 end exponent close parentheses`, acceleration `open parentheses straight m space straight s to the power of negative 2 end exponent close parentheses` and force `open parentheses straight N equals kg space straight m space straight s to the power of negative 2 end exponent close parentheses`etc.
+S.I. units can be combined to form derived compound units for quantities such as velocity $( \mathrm{m} \mathrm{s}^{- 1} )$, acceleration $( \mathrm{m} \mathrm{s}^{- 2} )$ and force $( \mathrm{N} = \text{kg} \mathrm{m} \mathrm{s}^{- 2} )$etc.
 
 Convert the following into S.I. units:
 
@@ -259,7 +259,7 @@ Convert the units in the following statements into S.I. units.
 ### 1() — 3 marks — structured
 Roger throws a frisbee upwards, releasing it at a height of $127\mathrm{cm}$. The motion of the frisbee is modelled by the equation
 
-`h open parentheses x close parentheses space equals space H space plus 1.7 x minus 0.3 x to the power of 2 space end exponent space space space space space space x greater or equal than 0`
+$h ( x ) = H + 1.7 x - 0.3 x^{2} x \ge 0$
 
 where *h* m is the height of the frisbee above the ground and *x* m is the horizontal distance travelled.
 
@@ -378,7 +378,7 @@ For what range of values is $t$ valid for this model. Give a reason for your ans
 ### 1() — 3 marks — structured
 Melody throws a netball into a net. The path of the ball from leaving Melody’s hand to passing through the net is modelled by the function
 
-`h open parentheses x close parentheses equals 1.8 space plus 1.2 x space minus space 0.2 x squared space space space space space x greater or equal than 0`
+$h ( x ) = 1.8 + 1.2 x - 0.2 x ^{2} x \ge 0$
 
 where *h* m is the height of the netball above the ground and *x *m is the horizontal distance travelled.
 

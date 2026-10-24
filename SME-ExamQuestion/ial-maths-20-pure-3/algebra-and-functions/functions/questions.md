@@ -8,35 +8,35 @@
 ### 1() — 4 marks — structured
 State whether the following mappings are one-to-one, many-to-one, one-to-many or many-to-many.
 
-(i)    `straight f colon space x rightwards arrow from bar 4 x minus 2`
+(i)    $\mathrm{f} : x \rightarrow \text{from} \text{bar} 4 x - 2$
 
-(ii)   `straight f colon space x rightwards arrow from bar x squared`
+(ii)   $\mathrm{f} : x \rightarrow \text{from} \text{bar} x^{2}$
 
-(iii)   `straight f colon space x rightwards arrow from bar x over 4`
+(iii)   $\mathrm{f} : x \rightarrow \text{from} \text{bar} \frac{x}{4}$
 
-(iv)   `straight f colon space x rightwards arrow from bar square root of x`
+(iv)   $\mathrm{f} : x \rightarrow \text{from} \text{bar} \sqrt{x}$
 
 ## Q2 — easy — 3 marks · exam-questions
 
 ### 1() — 3 marks — structured
 State the largest possible domains for the following functions.
 
-(i) `straight f colon space x rightwards arrow from bar square root of x`
+(i) $\mathrm{f} : x \rightarrow \text{from} \text{bar} \sqrt{x}$
 
-(ii) `straight f colon space x rightwards arrow from bar ln left parenthesis x minus 2 right parenthesis`
+(ii) $\mathrm{f} : x \rightarrow \text{from} \text{bar} \ln ( x - 2 )$
 
-(iii) `straight f colon space x rightwards arrow from bar arcsin space x`
+(iii) $\mathrm{f} : x \rightarrow \text{from} \text{bar} \arcsin x$
 
 ## Q3 — easy — 3 marks · exam-questions
 
 ### 1() — 3 marks — structured
 State the range for the following functions based on the given domains.
 
-(i)    `space space straight f colon space x rightwards arrow from bar e to the power of x space space space space space space space space space space space space x element of straight real numbers`
+(i)    `f colon x -> from bar e ^ x x in real numbers`
 
-(ii)    `space straight f colon space x rightwards arrow from bar x squared plus 1 space space space space space space x element of straight real numbers`
+(ii)    $\mathrm{f} : x \rightarrow \text{from} \text{bar} x^{2} + 1 x \in \mathbb{R}$
 
-(iii)    `straight f colon space x rightwards arrow from bar 1 over x space space space space space space space space space space space space space x element of straight real numbers`
+(iii)    $\mathrm{f} : x \rightarrow \text{from} \text{bar} \frac{1}{x} x \in \mathbb{R}$
 
 ## Q4 — easy — 5 marks · exam-questions
 
@@ -48,7 +48,7 @@ $f(x)=x^{2}-8x-20$         $x\inℝ$
 Sketch the graph of $y=f(x)$, giving the coordinates of any points where the graph intersects the coordinate axes.
 
 ### 2() — 2 marks — structured
-The minimum point on the graph of $y=f(x)$ has $x$-coordinate 4. Find the range of `straight f open parentheses x close parentheses`.
+The minimum point on the graph of $y=f(x)$ has $x$-coordinate 4. Find the range of $\mathrm{f} ( x )$.
 
 ## Q5 — easy — 6 marks · exam-questions
 
@@ -83,14 +83,14 @@ Find the domain and range for $f^{-1}(x)$.
 ## Q7 — easy — 10 marks · exam-questions
 
 ### 1() — 3 marks — structured
-Solve the equation `vertical line 6 minus 2 x vertical line equals 4`.
+Solve the equation $\vert 6 - 2 x \vert = 4$.
 
 ### 2() — 4 marks — structured
-On the same diagram, sketch the graphs of  `y equals vertical line 6 minus 2 x vertical line` and $y=4$. 
+On the same diagram, sketch the graphs of  $y = \vert 6 - 2 x \vert$ and $y=4$. 
 Label the coordinates of the points where the two graphs intersect each other and the coordinate axes.
 
 ### 3() — 3 marks — structured
-Consider the graphs of `y equals vertical line 6 minus 2 x vertical line` and $y=k$, where $k$ is a constant.
+Consider the graphs of $y = \vert 6 - 2 x \vert$ and $y=k$, where $k$ is a constant.
 
 For which values of $k$ …
 
@@ -105,13 +105,13 @@ For which values of $k$ …
 ### 1() — 4 marks — structured
 State whether the following mappings are one-to-one, many-to-one, one-to-many or many-to-many.
 
-(i)      `straight f colon space x rightwards arrow from bar x squared`
+(i)      $\mathrm{f} : x \rightarrow \text{from} \text{bar} x^{2}$
 
-(ii)     `straight f colon space x rightwards arrow from bar 3 x space plus space 1 space`
+(ii)     $\mathrm{f} : x \rightarrow \text{from} \text{bar} 3 x + 1$
 
-(iii)    `straight f colon space x rightwards arrow from bar left parenthesis x space plus space 1 right parenthesis cubed`
+(iii)    $\mathrm{f} : x \rightarrow \text{from} \text{bar} ( x + 1 )^{3}$
 
-(iv)    `straight f colon space x rightwards arrow from bar space plus-or-minus space square root of x`
+(iv)    $\mathrm{f} : x \rightarrow \text{from} \text{bar} \pm \sqrt{x}$
 
 ## Q9 — medium — 4 marks · exam-questions
 
@@ -175,7 +175,7 @@ On the diagram above sketch the graph of *y* = f <sup>−1</sup>(*x*).
 ## Q13 — medium — 5 marks · exam-questions
 
 ### 1() — 3 marks — structured
-On the same axes, sketch the graphs of  *y* = f(*x*) and `y space equals space vertical line g left parenthesis x right parenthesis vertical line`  where
+On the same axes, sketch the graphs of  *y* = f(*x*) and $y = \vert g ( x ) \vert$  where
 
 $f(x)=(x+2)^{2}x\inℝ$
 
@@ -184,18 +184,18 @@ $g(x)=2x+4x\inℝ$
 Label the points at which the graphs intersect the coordinate axes.
 
 ### 2() — 2 marks — structured
-Solve the equation `straight f left parenthesis x right parenthesis space equals space vertical line g left parenthesis x right parenthesis vertical line`.
+Solve the equation $\mathrm{f} ( x ) = \vert g ( x ) \vert$.
 
 ## Q14 — medium — 8 marks · exam-questions
 
 ### 1() — 2 marks — structured
 The function f(*x*) is defined as
 
-`straight f colon space x space rightwards arrow from bar space fraction numerator x squared plus 1 over denominator x squared end fraction space space space space space space space space space space x element of straight real numbers comma space x space not equal to space 0`
+$\mathrm{f} : x \rightarrow \text{from} \text{bar} \frac{x^{2} + 1}{x^{2}} x \in \mathbb{R} , x \text{eq} 0$
 
 Show that f(*x*) can be written in the form
 
-`straight f colon space x space rightwards arrow from bar space 1 space plus space 1 over x squared`
+$\mathrm{f} : x \rightarrow \text{from} \text{bar} 1 + \frac{1}{x^{2}}$
 
 ### 2() — 2 marks — structured
 Explain why the inverse of f(*x*) does not exist and suggest an adaption to its domain so the inverse does exist.
@@ -206,7 +206,7 @@ The domain of f(*x*) is changed to *x *>* *0. Find an expression for f<sup>−1<
 ## Q15 — medium — 3 marks · exam-questions
 
 ### 1() — 3 marks — structured
-Solve the equation  `vertical line 4 x space plus space 2 vertical line space equals space 5`.
+Solve the equation  $\vert 4 x + 2 \vert = 5$.
 
 ## Q16 — medium — 6 marks · exam-questions
 
@@ -231,7 +231,7 @@ Write down f<sup>−1</sup>(*x*) and state its domain and range.
 ### 1() — 4 marks — structured
 The functions f(*x*), g(*x*) are defined as follows
 
-`straight f left parenthesis x right parenthesis space equals space vertical line x minus 9 vertical line space space space space space space space space space space x element of straight real numbers`
+$\mathrm{f} ( x ) = \vert x - 9 \vert x \in \mathbb{R}$
 
 $g(x)=x^{2}x\inℝ$
 
@@ -248,13 +248,13 @@ Write down the solutions to the equation fg(*x*) = 0.
 ### 1() — 4 marks — structured
 State whether the following mappings are one-to-one, many-to-one, one-to-many or many-to-many.
 
-(i)       `straight f colon space x space rightwards arrow from bar space 2 space minus space x cubed`
+(i)       $\mathrm{f} : x \rightarrow \text{from} \text{bar} 2 - x^{3}$
 
-(ii)      `straight f colon space x space rightwards arrow from bar space sin space x`
+(ii)      $\mathrm{f} : x \rightarrow \text{from} \text{bar} \sin x$
 
-(iii)      `straight f colon space x space rightwards arrow from bar space 1 over x squared`
+(iii)      $\mathrm{f} : x \rightarrow \text{from} \text{bar} \frac{1}{x^{2}}$
 
-(iv)     `straight f colon space x space rightwards arrow from bar space ln space x`
+(iv)     $\mathrm{f} : x \rightarrow \text{from} \text{bar} \ln x$
 
 ## Q19 — hard — 5 marks · exam-questions
 
@@ -321,7 +321,7 @@ On the diagram above sketch the graph of *y* = f<sup>−1</sup>(*x*) .
 ## Q23 — hard — 7 marks · exam-questions
 
 ### 1() — 3 marks — structured
-On the same axes, sketch the graphs of `y equals vertical line straight f left parenthesis x right parenthesis vertical line`  and `y equals vertical line g left parenthesis x right parenthesis vertical line`   where
+On the same axes, sketch the graphs of $y = \vert \mathrm{f} ( x ) \vert$  and $y = \vert g ( x ) \vert$   where
 
 $f(x)=3x-1x\inℝ$
 
@@ -330,10 +330,10 @@ $g(x)=2x+2x\inℝ$
 Label the points at which the graphs intersect the coordinate axes.
 
 ### 2() — 3 marks — structured
-Solve the equation `vertical line straight f left parenthesis x right parenthesis vertical line space equals space vertical line g left parenthesis x right parenthesis vertical line`.
+Solve the equation $\vert \mathrm{f} ( x ) \vert = \vert g ( x ) \vert$.
 
 ### 3() — 1 mark — structured
-Which of the solutions to `vertical line straight f left parenthesis x right parenthesis vertical line space equals space vertical line g left parenthesis x right parenthesis vertical line` is also a solution to $f(x)=g(x)$?
+Which of the solutions to $\vert \mathrm{f} ( x ) \vert = \vert g ( x ) \vert$ is also a solution to $f(x)=g(x)$?
 
 ## Q24 — hard — 7 marks · exam-questions
 
@@ -361,9 +361,9 @@ The graphs of  f(*x*)  and f<sup>−1</sup>(*x*) are drawn on the same axes. Des
 ### 1() — 4 marks — structured
 The functions f(*x*), g(*x*) are defined as follows
 
-`straight f left parenthesis x right parenthesis space equals space vertical line x minus 2 vertical line space minus space 5 space space space space space space space space space space space x element of straight real numbers`
+$\mathrm{f} ( x ) = \vert x - 2 \vert - 5 x \in \mathbb{R}$
 
-`g left parenthesis x right parenthesis space equals space vertical line x vertical line space space space space space space space space space space space space space space space space space space space space space space space space space space x element of straight real numbers`
+$g ( x ) = \vert x \vert x \in \mathbb{R}$
 
 Sketch the graph of *y* = gf(*x*), stating the coordinates of all points where the graph intercepts the coordinate axes.
 
@@ -380,20 +380,20 @@ Solve the equation gf(*x*) = 2.
 ## Q26 — hard — 3 marks · exam-questions
 
 ### 1() — 3 marks — structured
-Solve the equation `vertical line x to the power of 2 space end exponent minus space 4 vertical line space equals space 3` , giving your answers in exact form.
+Solve the equation $\vert x^{2 } - 4 \vert = 3$ , giving your answers in exact form.
 
 ## Q27 — very_hard — 4 marks · exam-questions
 
 ### 1() — 4 marks — structured
 State whether the  following mappings are one-to-one, many-to-one, one-to-many or many-to-many.
 
-(i)   `straight f colon space x space rightwards arrow from bar space tan space x`
+(i)   $\mathrm{f} : x \rightarrow \text{from} \text{bar} \tan x$
 
-(ii)   `straight f colon space x space rightwards arrow from bar space vertical line 1 over x vertical line`
+(ii)   $\mathrm{f} : x \rightarrow \text{from} \text{bar} \vert \frac{1}{x} \vert$
 
-(iii)  `straight f colon space x space rightwards arrow from bar space square root of x squared end root`
+(iii)  $\mathrm{f} : x \rightarrow \text{from} \text{bar} \sqrt{x^{2}}$
 
-(iv)  `straight f colon space x space rightwards arrow from bar space plus-or-minus space square root of 25 minus x squared end root`
+(iv)  $\mathrm{f} : x \rightarrow \text{from} \text{bar} \pm \sqrt{25 - x^{2}}$
 
 ## Q28 — very_hard — 5 marks · exam-questions
 
@@ -448,23 +448,23 @@ Solve the equation f(*x*) = g(*x*)
 ### 1() — 3 marks — structured
 The graphs of *y *= f(*x*) and *y* = *x* (dotted line) are shown in the diagram below.
 
-`f open parentheses x close parentheses` has rotational symmetry about the origin and for $x>0$,there is a vertical line line of symmetry at $x=4.5$.
+$f ( x )$ has rotational symmetry about the origin and for $x>0$,there is a vertical line line of symmetry at $x=4.5$.
 
 ![2-8-vh-q5-edexcel-al-maths-pure](assets/024-2-8-vh-q5-edexcel-al-maths-pure.png)
 
-(i) Use the graph to write down the domain and range of `f open parentheses x close parentheses`.
+(i) Use the graph to write down the domain and range of $f ( x )$.
 
-(ii) On the diagram above sketch the reflection of `f open parentheses x close parentheses` in the line $y=x$ and explain why this cannot be the graph of `f to the power of negative 1 end exponent open parentheses x close parentheses`.
+(ii) On the diagram above sketch the reflection of $f ( x )$ in the line $y=x$ and explain why this cannot be the graph of $f^{- 1} ( x )$.
 
 ### 2() — 2 marks — structured
-(i) Given that the maximum solution to `f open parentheses x close parentheses equals 6`. is $x=6$ state the restriction on the domain of `f open parentheses x close parentheses` such that `f to the power of negative 1 end exponent open parentheses x close parentheses` exists.
+(i) Given that the maximum solution to $f ( x ) = 6$. is $x=6$ state the restriction on the domain of $f ( x )$ such that $f^{- 1} ( x )$ exists.
 
-(ii) Hence, or otherwise, write down the domain and range of `f to the power of negative 1 end exponent open parentheses x close parentheses`.
+(ii) Hence, or otherwise, write down the domain and range of $f^{- 1} ( x )$.
 
 ## Q32 — very_hard — 7 marks · exam-questions
 
 ### 1() — 3 marks — structured
-On the same axes, sketch the graphs of *y* = f(*x*) and `y space equals space vertical line g left parenthesis x right parenthesis vertical line` where
+On the same axes, sketch the graphs of *y* = f(*x*) and $y = \vert g ( x ) \vert$ where
 
 $f(x)=\sqrt{x}x\geq0$
 
@@ -473,17 +473,17 @@ $g(x)=2x-3x\inℝ$
 Label the points at which the graphs intersect the coordinate axes.
 
 ### 2() — 3 marks — structured
-Solve the equation `straight f left parenthesis x right parenthesis space equals space vertical line g left parenthesis x right parenthesis vertical line.`
+Solve the equation $\mathrm{f} ( x ) = \vert g ( x ) \vert.$
 
 ### 3() — 1 mark — structured
-Which of the solutions to `straight f left parenthesis x right parenthesis space equals space vertical line g left parenthesis x right parenthesis vertical line`  is ***not*** a solution to f(*x*)  =  g(*x*) ?
+Which of the solutions to $\mathrm{f} ( x ) = \vert g ( x ) \vert$  is ***not*** a solution to f(*x*)  =  g(*x*) ?
 
 ## Q33 — very_hard — 6 marks · exam-questions
 
 ### 1() — 1 mark — structured
 The function f(*x*) is defined as
 
-`straight f colon space x space rightwards arrow from bar space square root of left parenthesis 25 minus x squared right parenthesis end root space space space space space space space space space space x element of straight real numbers comma negative 5 less or equal than x less or equal than 5`
+$\mathrm{f} : x \rightarrow \text{from} \text{bar} \sqrt{( 25 - x^{2} )} x \in \mathbb{R} , - 5 \text{less} \text{or} \text{equal} \text{than} x \text{less} \text{or} \text{equal} \text{than} 5$
 
 Explain why the inverse of  f(*x*) does not exist.
 
@@ -526,23 +526,23 @@ Find the coordinates of the point where the graphs of  *y* = f(*x*) and  $y=f^{-
 ## Q35 — very_hard — 8 marks · exam-questions
 
 ### 1() — 4 marks — structured
-The graph of the function `straight f left parenthesis x right parenthesis space equals space a vertical line x space plus space p vertical line space plus space q space space`is shown below, where $a,p,q\inℝ$. The graph has a local maximum at the point A(3, 5)  and intersects the $y$-axis at (0,-7).
+The graph of the function $\mathrm{f} ( x ) = a \vert x + p \vert + q$is shown below, where $a,p,q\inℝ$. The graph has a local maximum at the point A(3, 5)  and intersects the $y$-axis at (0,-7).
 
 ![q7a-2-9-ib-aa-hl-further-functions-_-graphs-very-hard-dig](assets/021-q7a-2-9-ib-aa-hl-further-functions-graphs-very-h.png)
 
-Find the values of $a,p$ and $q.$Hence solve `straight f open parentheses x close parentheses space equals space 0 space`.
+Find the values of $a,p$ and $q.$Hence solve $\mathrm{f} ( x ) = 0$.
 
 ### 2() — 4 marks — structured
-Find the solutions to the equation `straight f left parenthesis x right parenthesis space equals space open vertical bar 7 space minus space 2 x close vertical bar`.
+Find the solutions to the equation $\mathrm{f} ( x ) = \left| 7 - 2 x \right|$.
 
 ## Q36 — very_hard — 6 marks · exam-questions
 
 ### 1() — 3 marks — structured
 The functions f(*x*), g(*x*) are defined as follows
 
-`straight f left parenthesis x right parenthesis space equals space vertical line x to the power of 3 space end exponent minus space 8 vertical line space space space space space space space space space space x element of straight real numbers`
+$\mathrm{f} ( x ) = \vert x^{3 } - 8 \vert x \in \mathbb{R}$
 
-`g left parenthesis x right parenthesis space equals space open vertical bar x close vertical bar space space space space space space space space space space space space space space space space space space space space space space space x element of straight real numbers space space space`
+$g ( x ) = \left| x \right| x \in \mathbb{R}$
 
 Sketch the graph of *y* = fg(*x*), stating the coordinates of all points where the graph intercepts the coordinate axes.
 
@@ -552,4 +552,4 @@ There are between 0 and 4 solutions to the equation fg(*x*) = *c* , where *c* is
 ## Q37 — very_hard — 3 marks · exam-questions
 
 ### 1() — 3 marks — structured
-Solve the equation `vertical line x squared space minus space 9 vertical line space equals space 6 space minus space 0.25 x squared`, giving your answers in exact form.
+Solve the equation $\vert x^{2} - 9 \vert = 6 - 0.25 x^{2}$, giving your answers in exact form.

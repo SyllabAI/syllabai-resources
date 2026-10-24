@@ -90,7 +90,7 @@
      ],
      "part_tier": "extended_only",
      "problem_md": "$y$ is inversely proportional to $x^{2}$. \nWhen $x=4$, $y=2$. \nFind $y$ when $x=\\frac{1}{2}$.\n\n$y$ = ...................................................",
-     "solution_md": "> *Remember that when one variable is inversely proportional to another it increases as the other decreases and decreases when the other increases:  *$y\\propto\\frac{1}{x^{2}}$\n\n> *Write down the equation linking *$x$* and *$y$*.*\n\n$y=\\frac{k}{x^{2}}$\n\n**[1]**\n\n> *Substitute the given values for *$x$* and *$y$* and solve to find *$k$*.*\n\n`table row 2 equals cell k over 4 squared end cell row 2 equals cell k over 16 end cell row cell 2 cross times 16 end cell equals k row 32 equals k end table`\n\n> *Substitute *$k=32$* and *$y=\\frac{1}{2}$* into the equation.*\n\n`table attributes columnalign right center left columnspacing 0px end attributes row y equals cell 32 over open parentheses begin display style 1 half end style close parentheses squared end cell end table`\n\n**[1]**\n\n$y=128$** [1]**",
+     "solution_md": "> *Remember that when one variable is inversely proportional to another it increases as the other decreases and decreases when the other increases:  *$y\\propto\\frac{1}{x^{2}}$\n\n> *Write down the equation linking *$x$* and *$y$*.*\n\n$y=\\frac{k}{x^{2}}$\n\n**[1]**\n\n> *Substitute the given values for *$x$* and *$y$* and solve to find *$k$*.*\n\n$\\begin{gathered} 2 = \\frac{k}{4^{2}} \\\\ 2 = \\frac{k}{16} \\\\ 2 \\times 16 & = k \\\\ 32 = k \\end{gathered}$\n\n> *Substitute *$k=32$* and *$y=\\frac{1}{2}$* into the equation.*\n\n$\\begin{array}{rcl} y = \\frac{32}{( 1 \\frac{1}{2} )^{2}} \\end{array}$\n\n**[1]**\n\n$y=128$** [1]**",
      "equations": [
       {
        "latex": "y",
@@ -207,7 +207,7 @@
      ],
      "part_tier": "extended_only",
      "problem_md": "$y$ is inversely proportional to the square root of $x$.\n When $y=7$, $x=2.25$.   \nWrite $y$ in terms of $x$.\n\n$y=$................................................",
-     "solution_md": "> *When one variable, **x**, is inversely proportional to another, **y**, it can be written:  *$y\\propto\\frac{1}{x}$*.*\n\n> *Write down an equation linking *$x$* and *$y$*.*\n\n$y\\propto\\frac{1}{\\sqrt{x}}\\,y=\\frac{k}{\\sqrt{x}}$\n\n**[1]**\n\n> *Substitute the given values for *$x$* and *$y$* and solve to find *$k$*.*\n\n`table row 7 equals cell fraction numerator k over denominator square root of 2.25 end root end fraction end cell row cell 7 space end cell equals cell fraction numerator k over denominator 1.5 end fraction end cell row cell 7 cross times 1.5 space end cell equals cell space k end cell row cell k space end cell equals cell space 10.5 end cell end table`\n\n$y=\\frac{10.5}{\\sqrt{x}}$** [1]**",
+     "solution_md": "> *When one variable, **x**, is inversely proportional to another, **y**, it can be written:  *$y\\propto\\frac{1}{x}$*.*\n\n> *Write down an equation linking *$x$* and *$y$*.*\n\n$y\\propto\\frac{1}{\\sqrt{x}}\\,y=\\frac{k}{\\sqrt{x}}$\n\n**[1]**\n\n> *Substitute the given values for *$x$* and *$y$* and solve to find *$k$*.*\n\n$\\begin{gathered} 7 = \\frac{k}{ \\sqrt{2.25} } \\\\ 7 & = \\frac{k}{1.5} \\\\ 7 \\times 1.5 & = k \\\\ k & = 10.5 \\end{gathered}$\n\n$y=\\frac{10.5}{\\sqrt{x}}$** [1]**",
      "equations": [
       {
        "latex": "y",
@@ -314,7 +314,7 @@
      ],
      "part_tier": "extended_only",
      "problem_md": "$y$ is inversely proportional to the square of $(x+1)$. \n$y=0.875$ when $x=1$.\n\nFind $y$ when $x=4$.\n\n$y$ = ....................................................",
-     "solution_md": "*When a relationship is inversely proportional, it means as one variable increases, the other decreases*\n\n> *As *$y$* is inversely proportional to the square of *`open parentheses x plus 1 close parentheses`*, this relationship can be written as*\n\n`y equals k over open parentheses x plus 1 close parentheses squared`* where *$k$* is a constant*\n\n**[1]**\n\n> *Substituting in *$y=0.875$* and *$x=1$* and simplifying*\n\n`table row cell 0.875 end cell equals cell k over open parentheses 1 plus 1 close parentheses squared end cell row cell 0.875 end cell equals cell k over 4 end cell end table`\n\n> *Multiply both sides by 4 to find *$k$\n\n$k=3.5$\n\n> *So the relationship can be written as*\n\n`y equals fraction numerator 3.5 over denominator open parentheses x plus 1 close parentheses squared end fraction`\n\n> *Substitute in *$x=4$* to find *$y$\n\n`y equals fraction numerator 3.5 over denominator open parentheses 4 plus 1 close parentheses squared end fraction`\n\n**[1]**\n\n$y=0.14$ **[1]**",
+     "solution_md": "*When a relationship is inversely proportional, it means as one variable increases, the other decreases*\n\n> *As *$y$* is inversely proportional to the square of *$( x + 1 )$*, this relationship can be written as*\n\n$y = \\frac{k}{( x + 1 )^{2}}$* where *$k$* is a constant*\n\n**[1]**\n\n> *Substituting in *$y=0.875$* and *$x=1$* and simplifying*\n\n$\\begin{gathered} 0.875 & = \\frac{k}{( 1 + 1 )^{2}} \\\\ 0.875 & = \\frac{k}{4} \\end{gathered}$\n\n> *Multiply both sides by 4 to find *$k$\n\n$k=3.5$\n\n> *So the relationship can be written as*\n\n$y = \\frac{3.5}{( x + 1 )^{2}}$\n\n> *Substitute in *$x=4$* to find *$y$\n\n$y = \\frac{3.5}{( 4 + 1 )^{2}}$\n\n**[1]**\n\n$y=0.14$ **[1]**",
      "equations": [
       {
        "latex": "y",
@@ -424,8 +424,8 @@
       "spcpt_fjnKc4mmtXMCPjZS"
      ],
      "part_tier": "extended_only",
-     "problem_md": "$p$ is directly proportional to `open parentheses q plus 2 close parentheses squared`. \nWhen $q=1$, $p=1$.\n\nFind $p$ when $q=10$.\n\n$p=$ .................................................",
-     "solution_md": "> *As *$p$* and *`open parentheses q plus 2 close parentheses squared`*are directly proportional, a formula for *$p$* can be found by multiplying a constant (of proportionality) by  *`open parentheses q plus 2 close parentheses squared.`\n\n`space p equals k open parentheses q plus 2 close parentheses squared`\n\n**[1]**\n\n> *Substitute *$p=1$* and *$q=1$* into the formula to form an equation.*\n\n`table row 1 equals cell k cross times open parentheses 1 plus 2 close parentheses squared end cell row 1 equals cell 9 k end cell end table`\n\n> *Solve the equation to find the value of *$k$*.*\n\n`table row cell 9 k end cell equals 1 row k equals cell 1 over 9 end cell end table`\n\n> *Substitute the value of *$k$* back into the formula for *$p$*.*\n\n`space p equals 1 over 9 open parentheses q plus 2 close parentheses squared`\n\n> *Substitute *$q=10$* into the formula to find the value of *$p.$\n\n`space p equals 1 over 9 cross times open parentheses 10 plus 2 close parentheses squared`\n\n**[1]**\n\n$p=16$ **[1]**",
+     "problem_md": "$p$ is directly proportional to $( q + 2 )^{2}$. \nWhen $q=1$, $p=1$.\n\nFind $p$ when $q=10$.\n\n$p=$ .................................................",
+     "solution_md": "> *As *$p$* and *$( q + 2 )^{2}$*are directly proportional, a formula for *$p$* can be found by multiplying a constant (of proportionality) by  *$( q + 2 )^{2}.$\n\n$p = k ( q + 2 )^{2}$\n\n**[1]**\n\n> *Substitute *$p=1$* and *$q=1$* into the formula to form an equation.*\n\n$\\begin{gathered} 1 = k \\times ( 1 + 2 )^{2} \\\\ 1 = 9 k \\end{gathered}$\n\n> *Solve the equation to find the value of *$k$*.*\n\n$\\begin{gathered} 9 k & = 1 \\\\ k = \\frac{1}{9} \\end{gathered}$\n\n> *Substitute the value of *$k$* back into the formula for *$p$*.*\n\n$p = \\frac{1}{9} ( q + 2 )^{2}$\n\n> *Substitute *$q=10$* into the formula to find the value of *$p.$\n\n$p = \\frac{1}{9} \\times ( 10 + 2 )^{2}$\n\n**[1]**\n\n$p=16$ **[1]**",
      "equations": [
       {
        "latex": "p",
@@ -536,7 +536,7 @@
      ],
      "part_tier": "extended_only",
      "problem_md": "$y$ is inversely proportional to $x^{2}$.\n When $x=4$, $y=7.5$. \nFind $y$ when $x=5$.\n\n$y=$ .................................................",
-     "solution_md": "> *Be careful - this is an **inverse** proportion question and it's *$x^{2}$* not *$x$*.*\n\n$y\\propto\\frac{1}{x^{2}}\\,y=\\frac{k}{x^{2}}$\n\n**[1]**\n\n> *Use the given values to find *$k$*.*\n\n`table row cell 7.5 end cell equals cell k over 4 squared end cell end table`\n\n**[1]**\n\n`table row k equals cell 7.5 cross times 16 equals 120 end cell end table`\n\n> *Now we can answer the question.*\n\n$y=\\frac{120}{5^{2}}=\\frac{120}{25}$\n\n$4.8$* ***[1]**",
+     "solution_md": "> *Be careful - this is an **inverse** proportion question and it's *$x^{2}$* not *$x$*.*\n\n$y\\propto\\frac{1}{x^{2}}\\,y=\\frac{k}{x^{2}}$\n\n**[1]**\n\n> *Use the given values to find *$k$*.*\n\n$\\begin{gathered} 7.5 & = \\frac{k}{4^{2}} \\end{gathered}$\n\n**[1]**\n\n$\\begin{gathered} k = 7.5 \\times 16 = 120 \\end{gathered}$\n\n> *Now we can answer the question.*\n\n$y=\\frac{120}{5^{2}}=\\frac{120}{25}$\n\n$4.8$* ***[1]**",
      "equations": [
       {
        "latex": "y",
@@ -631,8 +631,8 @@
       "spcpt_fjnKc4mmtXMCPjZS"
      ],
      "part_tier": "extended_only",
-     "problem_md": "$y$ is directly proportional to the cube root of `open parentheses x plus 3 close parentheses`. \nWhen $x=5,y=\\frac{2}{3}$.   \nFind $y$ when $x=24$.\n\n$y=$................................................",
-     "solution_md": "> *As *$y$* and *`cube root of x plus 3 end root`*are directly proportional, a formula for *$y$* can be found by multiplying a constant (of proportionality) by  *`cube root of x plus 3 end root.`\n\n`y equals k cube root of x plus 3 end root`\n\n**[1]**\n\n> *Substitute *$x=5$* and *$y=\\frac{2}{3}$* into the formula to form an equation.*\n\n`table row cell 2 over 3 end cell equals cell k cross times cube root of 5 plus 3 end root end cell row cell 2 over 3 end cell equals cell k cross times cube root of 8 end cell row cell 2 over 3 end cell equals cell 2 k end cell end table`\n\n> *Solve the equation to find the value of *$k$*.*\n\n`table row cell 2 k end cell equals cell 2 over 3 end cell row k equals cell 2 over 3 divided by 2 equals 1 third end cell end table`\n\n> *Substitute the value of *$k$* back into the formula for *$y$*.*\n\n`y equals 1 third cube root of x plus 3 end root`\n\n> *Substitute *$x=24$* into the formula to find the value of *$y.$\n\n`y equals 1 third cross times cube root of 24 plus 3 end root`\n\n**[1]**\n\n$y=1$ **[1]**",
+     "problem_md": "$y$ is directly proportional to the cube root of $( x + 3 )$. \nWhen $x=5,y=\\frac{2}{3}$.   \nFind $y$ when $x=24$.\n\n$y=$................................................",
+     "solution_md": "> *As *$y$* and *$\\sqrt[3]{x + 3}$*are directly proportional, a formula for *$y$* can be found by multiplying a constant (of proportionality) by  *$\\sqrt[3]{x + 3} .$\n\n$y = k \\sqrt[3]{x + 3}$\n\n**[1]**\n\n> *Substitute *$x=5$* and *$y=\\frac{2}{3}$* into the formula to form an equation.*\n\n$\\begin{gathered} \\frac{2}{3} & = k \\times \\sqrt[3]{5 + 3} \\\\ \\frac{2}{3} & = k \\times \\sqrt[3]{8} \\\\ \\frac{2}{3} & = 2 k \\end{gathered}$\n\n> *Solve the equation to find the value of *$k$*.*\n\n$\\begin{gathered} 2 k & = \\frac{2}{3} \\\\ k = \\frac{2}{3} \\div 2 = 1 \\frac{1}{3} \\end{gathered}$\n\n> *Substitute the value of *$k$* back into the formula for *$y$*.*\n\n$y = 1 \\frac{1}{3} \\sqrt[3]{x + 3}$\n\n> *Substitute *$x=24$* into the formula to find the value of *$y.$\n\n$y = 1 \\frac{1}{3} \\times \\sqrt[3]{24 + 3}$\n\n**[1]**\n\n$y=1$ **[1]**",
      "equations": [
       {
        "latex": "y",
@@ -738,7 +738,7 @@
      ],
      "part_tier": "extended_only",
      "problem_md": "$y$ is directly proportional to $(x-1)^{2}$ . \nWhen $x=5,y=4$. \nFind $y$ when $x=7$.\n\n$y=$ ..............................................",
-     "solution_md": "> *Rewrite the direct proportion statement in terms of *$x,y$* and *$k$*, the constant of proportionality*\n\n$y=k(x-1)^{2}$\n\n**[1]**\n\n> *Now substitute in the first given values for *$x$* and *$y$*, and solve to find *$k$\n\n`table row 4 equals cell k left parenthesis 5 minus 1 right parenthesis squared end cell row 4 equals cell 16 k end cell row k equals cell 4 over 16 equals 1 fourth end cell end table`\n\n> *Now we can replace *$k$* with *$\\frac{1}{4}$* in the general formula*\n\n$y=\\frac{1}{4}(x-1)^{2}$\n\n**[1]**\n\n> *Now substitute the given value *$x=7$* into the general formula, to find *$y$\n\n`table row y equals cell 1 fourth left parenthesis 7 minus 1 right parenthesis squared equals 1 fourth cross times 36 end cell end table`\n\n`table attributes columnalign right center left columnspacing 0px end attributes row bold italic y bold equals bold 9 end table`** [1]**",
+     "solution_md": "> *Rewrite the direct proportion statement in terms of *$x,y$* and *$k$*, the constant of proportionality*\n\n$y=k(x-1)^{2}$\n\n**[1]**\n\n> *Now substitute in the first given values for *$x$* and *$y$*, and solve to find *$k$\n\n$\\begin{gathered} 4 = k ( 5 - 1 )^{2} \\\\ 4 = 16 k \\\\ k = \\frac{4}{16} = 1 \\frac{1}{4} \\end{gathered}$\n\n> *Now we can replace *$k$* with *$\\frac{1}{4}$* in the general formula*\n\n$y=\\frac{1}{4}(x-1)^{2}$\n\n**[1]**\n\n> *Now substitute the given value *$x=7$* into the general formula, to find *$y$\n\n$\\begin{gathered} y = 1 \\frac{1}{4} ( 7 - 1 )^{2} = 1 \\frac{1}{4} \\times 36 \\end{gathered}$\n\n$\\begin{array}{rcl} y = 9 \\end{array}$** [1]**",
      "equations": [
       {
        "latex": "y",
@@ -854,7 +854,7 @@
      ],
      "part_tier": "extended_only",
      "problem_md": "A ball falls $d$ metres in $t$ seconds. $d$ is directly proportional to the square of $t$. \nThe ball falls 44.1 m in 3 seconds.\n\nFind a formula for $d$ in terms of $t$*.*\n\n$d=$................................................",
-     "solution_md": "> *Rewrite the direct proportion statement in terms of *$d,t$* and *$k$*, the constant of proportionality*\n\n$d=kt^{2}$\n\n**[1]**\n\n> *Now substitute in the first given values for *$d$* and *$t$*, and solve to find *$k$\n\n`table row cell 44.1 end cell equals cell k cross times 3 squared end cell row cell 44.1 end cell equals cell 9 k end cell row k equals cell fraction numerator 44.1 over denominator 9 end fraction equals 4.9 end cell end table`\n\n> *Now we can replace *$k$* with 4.9 in the general formula*\n\n$d=4.9t^{2}$* ***[1]**",
+     "solution_md": "> *Rewrite the direct proportion statement in terms of *$d,t$* and *$k$*, the constant of proportionality*\n\n$d=kt^{2}$\n\n**[1]**\n\n> *Now substitute in the first given values for *$d$* and *$t$*, and solve to find *$k$\n\n$\\begin{gathered} 44.1 & = k \\times 3^{2} \\\\ 44.1 & = 9 k \\\\ k = \\frac{44.1}{9} = 4.9 \\end{gathered}$\n\n> *Now we can replace *$k$* with 4.9 in the general formula*\n\n$d=4.9t^{2}$* ***[1]**",
      "equations": [
       {
        "latex": "d",
@@ -951,7 +951,7 @@
      ],
      "part_tier": "extended_only",
      "problem_md": "**Extract:**\n\nA ball falls d metres in t seconds. d is directly proportional to the square of t. The ball falls 44.1 m in 3 seconds. Find a formula for d in terms of t.\n\nCalculate the distance the ball falls in 2 seconds.\n\n............................................ m",
-     "solution_md": "> *From part (a) we know that  *$d=4.9t^{2}$*. *\n*Substitute *$t=2$* into this formula and solve*\n\n`table row d equals cell 4.9 open parentheses 2 close parentheses squared end cell row blank equals cell 4.9 cross times 4 end cell row blank equals cell 19.6 end cell end table`\n\n**19.6 m*** ***[1]**",
+     "solution_md": "> *From part (a) we know that  *$d=4.9t^{2}$*. *\n*Substitute *$t=2$* into this formula and solve*\n\n$\\begin{gathered} d = 4.9 ( 2 )^{2} \\\\ = 4.9 \\times 4 \\\\ = 19.6 \\end{gathered}$\n\n**19.6 m*** ***[1]**",
      "equations": [
       {
        "latex": "d=4.9t^{2}",
@@ -992,7 +992,7 @@
      ],
      "part_tier": "extended_only",
      "problem_md": "$t$ is inversely proportional to the square of $(x+1)$. \nWhen $x=2$, $t=5$.\n\nWrite $t$ in terms of $x$.\n\n$t$ = ...................................................",
-     "solution_md": "> *Remember that when one variable is inversely proportional to another it increases as the other decreases and decreases when the other increases:  *`t proportional to 1 over open parentheses x plus 1 close parentheses squared`\n\n> *Write down the equation linking *$x$* and *$y$*.*\n\n`t equals k over open parentheses x plus 1 close parentheses squared`\n\n**[1]**\n\n> *Substitute the given values for *$x$* and *$t$* and solve to find *$k$*.*\n\n`table row 5 equals cell k over open parentheses 2 plus 1 close parentheses squared end cell row 5 equals cell k over 9 end cell row cell 5 cross times 9 end cell equals k row 45 equals k end table`\n\n> *Substitute *$k=45$* into the equation.*\n\n$t=\\frac{45}{(x+1)^{2}}$** [1]**",
+     "solution_md": "> *Remember that when one variable is inversely proportional to another it increases as the other decreases and decreases when the other increases:  *$t \\propto \\frac{1}{( x + 1 )^{2}}$\n\n> *Write down the equation linking *$x$* and *$y$*.*\n\n$t = \\frac{k}{( x + 1 )^{2}}$\n\n**[1]**\n\n> *Substitute the given values for *$x$* and *$t$* and solve to find *$k$*.*\n\n$\\begin{gathered} 5 = \\frac{k}{( 2 + 1 )^{2}} \\\\ 5 = \\frac{k}{9} \\\\ 5 \\times 9 & = k \\\\ 45 = k \\end{gathered}$\n\n> *Substitute *$k=45$* into the equation.*\n\n$t=\\frac{45}{(x+1)^{2}}$** [1]**",
      "equations": [
       {
        "latex": "t",
@@ -1083,7 +1083,7 @@
      ],
      "part_tier": "extended_only",
      "problem_md": "**Extract:**\n\nt is inversely proportional to the square of (x + 1). When x = 2, t = 5.\n\nWhen $t=1.8$, find the positive value of $x$.\n\n$x$ = ...................................................",
-     "solution_md": "> *Substitute *$t=1.8$* into the equation from part a).*\n\n`1.8 equals 45 over open parentheses x plus 1 close parentheses squared`\n\n> *Multiply both sides by *`open parentheses x plus 1 close parentheses squared`*.*\n\n`1.8 open parentheses x plus 1 close parentheses squared equals 45`\n\n**[1]**\n\n> *Divide both sides by 1.8.*\n\n`open parentheses x plus 1 close parentheses squared equals 25`\n\n> *Take the square root of both sides (remember you only want the positive square root in this question).*\n\n$x+1=5$\n\n$x=4$* ***[1]**",
+     "solution_md": "> *Substitute *$t=1.8$* into the equation from part a).*\n\n$1.8 = \\frac{45}{( x + 1 )^{2}}$\n\n> *Multiply both sides by *$( x + 1 )^{2}$*.*\n\n$1.8 ( x + 1 )^{2} = 45$\n\n**[1]**\n\n> *Divide both sides by 1.8.*\n\n$( x + 1 )^{2} = 25$\n\n> *Take the square root of both sides (remember you only want the positive square root in this question).*\n\n$x+1=5$\n\n$x=4$* ***[1]**",
      "equations": [
       {
        "latex": "t=1.8",

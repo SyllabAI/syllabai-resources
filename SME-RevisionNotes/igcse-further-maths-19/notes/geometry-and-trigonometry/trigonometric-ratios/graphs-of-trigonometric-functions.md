@@ -41,11 +41,11 @@ guided_study: false
   - The corresponding value of the function will always be on the ***y-*****axis**
 - You need to know the **domain** and **range** of sin and cos
 
-  - **Domain: **`open curly brackets bold italic x blank vertical line blank bold italic x blank element of blank straight real numbers close curly brackets`
+  - **Domain: **$\{ x \vert x \in \mathbb{R} \}$
   
     - I.e. **all** real number values of *x*
     - Including 'angles' less than 0° and greater than less than 360°
-  - **Range: **`open curly brackets bold italic y blank vertical line minus 1 blank less or equal than space bold italic y blank less or equal than space 1 close curly brackets`
+  - **Range: **`{ y _ | - 1 _ <= y _ <= 1 }`
   
     - sin and cos can **never **take values greater than 1 or less than -1
   - The **amplitude** of the graphs of sin *x * and cos *x * is 1
@@ -72,10 +72,10 @@ guided_study: false
   - In **radians** this is  $\pm\frac{π}{2}$ radians, $\pm\frac{3π}{2}$ radians, etc
 - You need to know the **domain** and **range** of tan
 
-  - **Domain: **`stretchy left curly bracket x blank vertical line blank x blank not equal to 90 degree plus 180 k degree comma blank k blank element of blank integer numbers stretchy right curly bracket`(degrees)**  **or**  **`stretchy left curly bracket x blank vertical line blank x blank not equal to pi over 2 plus k pi comma blank k blank element of blank integer numbers stretchy right curly bracket`** **(radians)
+  - **Domain: **`stretchy left curly bracket x _ | _ x _ != 90 deg + 180 k deg , _ k _ in _ integer numbers stretchy right curly bracket`(degrees)**  **or**  **`stretchy left curly bracket x _ | _ x _ != pi / 2 + k pi , _ k _ in _ integer numbers stretchy right curly bracket`** **(radians)
   
     - I.e. all values (positive or negative) **except** where the asymptotes appear
-  - **Range: **`open curly brackets bold italic y blank vertical line blank bold italic y blank element of blank straight real numbers close curly brackets`
+  - **Range: **$\{ y \vert y \in \mathbb{R} \}$
   
     - tan *x*  can take **any** real number value
 
@@ -135,12 +135,12 @@ Label the ***y-*****axis**
 
 ### How can I use a trigonometric graph to find extra solutions?
 
-- Your calculator will only give you **one solution** to an equation such as `x equals sin to the power of negative 1 end exponent open parentheses 1 half close parentheses`
+- Your calculator will only give you **one solution** to an equation such as $x = \sin ^{- 1} ( 1 \frac{1}{2} )$
 
   - This solution is called the **primary value**
 - However sin, cos and tan are **periodic**
 
-  - So there are an **infinite number** of solutions to an equation like  `sin x equals 1 half space left right double arrow space x equals sin to the power of negative 1 end exponent open parentheses 1 half close parentheses`
+  - So there are an **infinite number** of solutions to an equation like  `sin x = 1 half left right double arrow x = sin ^ - 1 ( 1 half )`
 - On the exam you will be given an **interval** in which your solutions should be found
 
   - This could either be in **degrees** or in **radians**
@@ -155,7 +155,7 @@ Label the ***y-*****axis**
 - **STEP 2**
 Draw a **horizontal line** going through the *y-*axis at the value you are looking for
 
-  - e.g. if you are looking for the solutions to  `sin x equals 1 half space left right double arrow space x equals sin to the power of negative 1 end exponent open parentheses 1 half close parentheses`
+  - e.g. if you are looking for the solutions to  `sin x = 1 half left right double arrow x = sin ^ - 1 ( 1 half )`
   
     - then draw the horizontal line going through the *y-*axis at  $y=\frac{1}{2}$
   - The number of times this line **intersects** the graph in the given interval
@@ -175,29 +175,29 @@ Use the **symmetry** of the graph to find all the solutions in the interval
 
 - The graph of **sin *****x**** * has rotational symmetry about the origin
 
-  - So `sin open parentheses negative x close parentheses equals negative sin x`
-  - Also `sin x equals sin open parentheses 180 degree minus x close parentheses`
+  - So $\sin ( - x ) = - \sin x$
+  - Also $\sin x = \sin ( 180^{\circ} - x )$
   
-    - or `sin x equals sin open parentheses pi minus x close parentheses` in radians
+    - or $\sin x = \sin ( \pi - x )$ in radians
 - The graph of **cos *****x**** * has reflectional symmetry about the *y*-axis
 
-  - So `cos open parentheses negative x close parentheses equals cos x`
-  - Also `cos x equals cos open parentheses 360 degree minus x close parentheses`
+  - So $\cos ( - x ) = \cos x$
+  - Also $\cos x = \cos ( 360^{\circ} - x )$
   
-    - or `cos x equals cos open parentheses 2 pi minus x close parentheses` in radians
+    - or $\cos x = \cos ( 2 \pi - x )$ in radians
 - The graph of **tan *****x *** repeats every 180° (*π* radians)
 
-  - So `tan x equals tan open parentheses x plus-or-minus 180 k degree close parentheses` for $k\inℕ$
+  - So $\tan x = \tan ( x \pm 180 k^{\circ} )$ for $k\inℕ$
   
-    - or `tan x equals tan open parentheses x plus-or-minus k pi close parentheses` in radians
+    - or $\tan x = \tan ( x \pm k \pi )$ in radians
 - The graphs of **sin *****x *** and **cos *****x *** repeat every 360° (2*π* radians)
 
-  - So `sin x equals sin open parentheses x plus-or-minus 360 k degree close parentheses` for $k\inℕ$
+  - So $\sin x = \sin ( x \pm 360 k^{\circ} )$ for $k\inℕ$
   
-    - or `sin x equals sin open parentheses x plus 2 k pi close parentheses` in radians
-  - And `cos x equals cos open parentheses x plus-or-minus 360 k degree close parentheses` for $k\inℕ$
+    - or $\sin x = \sin ( x + 2 k \pi )$ in radians
+  - And $\cos x = \cos ( x \pm 360 k^{\circ} )$ for $k\inℕ$
   
-    - or `cos x equals cos open parentheses x plus 2 k pi close parentheses` in radians
+    - or $\cos x = \cos ( x + 2 k \pi )$ in radians
 
 > **Exam Hint**
 > - Always check what the **interval** for solutions is in the question

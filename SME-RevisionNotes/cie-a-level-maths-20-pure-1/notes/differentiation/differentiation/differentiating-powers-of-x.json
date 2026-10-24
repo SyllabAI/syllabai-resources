@@ -124,17 +124,17 @@
   },
   {
    "type": "bullets",
-   "md": "- Powers of ***x*** are differentiated according to the following formula\n\n  - `fraction numerator d over denominator d x end fraction open parentheses x to the power of n close parentheses equals n x to the power of n minus 1 end exponent`\n  \n    - Where $n$ is any real constant\n  - This can be written as:\n  \n    - If `straight f open parentheses x close parentheses equals x to the power of n` then `straight f apostrophe open parentheses x close parentheses equals n x to the power of n minus 1 end exponent`\n    - If $y=x^{n}$ then $\\frac{dy}{dx}=nx^{n-1}$"
+   "md": "- Powers of ***x*** are differentiated according to the following formula\n\n  - $\\frac{d}{d x} ( x^{n ) = n x^{n} - 1}$\n  \n    - Where $n$ is any real constant\n  - This can be written as:\n  \n    - If $\\mathrm{f} ( x ) = x^{n}$ then $\\mathrm{f} ' ( x ) = n x^{n - 1}$\n    - If $y=x^{n}$ then $\\frac{dy}{dx}=nx^{n-1}$"
   },
   {
    "type": "callout",
    "variant": "exam-tip",
    "label": "Exam Hint",
-   "md": "`straight f apostrophe open parentheses x close parentheses` is usually used when a function, `straight f open parentheses x close parentheses`, has been defined. $\\frac{dy}{dx}$ is used when a graph of a function is given in the form $y=...$ They both represent the derivative of an expression."
+   "md": "$\\mathrm{f} ' ( x )$ is usually used when a function, $\\mathrm{f} ( x )$, has been defined. $\\frac{dy}{dx}$ is used when a graph of a function is given in the form $y=...$ They both represent the derivative of an expression."
   },
   {
    "type": "bullets",
-   "md": "- If the term involves a **scalar multiple**, then you can differentiate the power of *x* and then multiply by the scalar\n\n  - `fraction numerator d over denominator d x end fraction open parentheses a x to the power of n close parentheses equals a n x to the power of n minus 1 end exponent`\n  \n    - Where $n$ and $a$ are any real constants"
+   "md": "- If the term involves a **scalar multiple**, then you can differentiate the power of *x* and then multiply by the scalar\n\n  - $\\frac{d}{d x} ( a x^{n ) = a n x^{n} - 1}$\n  \n    - Where $n$ and $a$ are any real constants"
   },
   {
    "type": "bullets",
@@ -160,7 +160,7 @@
   },
   {
    "type": "bullets",
-   "md": "- Don't forget these two special cases:\n\n  - The derivative of a** linear function** is a **constant**\n  \n    - `fraction numerator d over denominator d x end fraction open parentheses a x close parentheses equals a`\n    - Where $a$ is any real constant\n  - The derivative of a **constant function** is **zero**\n  \n    - `fraction numerator d over denominator d x end fraction open parentheses a close parentheses equals 0`\n    - Where $a$ is any real constant"
+   "md": "- Don't forget these two special cases:\n\n  - The derivative of a** linear function** is a **constant**\n  \n    - $\\frac{d}{d x} ( a x ) = a$\n    - Where $a$ is any real constant\n  - The derivative of a **constant function** is **zero**\n  \n    - $\\frac{d}{d x} ( a ) = 0$\n    - Where $a$ is any real constant"
   },
   {
    "type": "bullets",

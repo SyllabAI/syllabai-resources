@@ -95,7 +95,7 @@ guided_study: true
 > 
 > > *Divide the total by the number of values (there are 15 values)*
 > 
-> `table row cell 226 over 15 end cell equals cell 15.066 space 666 space... end cell end table`
+> $\begin{gathered} \frac{226}{15} & = 15.066 666 ... \end{gathered}$
 > 
 > > *Write the mean to 3 significant figures*
 > *Remember to include the units*
@@ -108,7 +108,7 @@ guided_study: true
 > 
 > > *Write the times in order and find the middle value*
 > 
-> `up diagonal strike 9 space space space space up diagonal strike 10 space space space space up diagonal strike 11 space space space space up diagonal strike 12 space space space space up diagonal strike 12 space space space space up diagonal strike 13 space space space space up diagonal strike 14 space space space space circle enclose 14 space space space space up diagonal strike 15 space space space space up diagonal strike 16 space space space space up diagonal strike 17 space space space space up diagonal strike 19 space space space space up diagonal strike 20 space space space space up diagonal strike 21 space space space space up diagonal strike 23`
+> $\cancel{9} \cancel{10} \cancel{11} \cancel{12} \cancel{12} \cancel{13} \cancel{14} \textcircled{14} \cancel{15} \cancel{16} \cancel{17} \cancel{19} \cancel{20} \cancel{21} \cancel{23}$
 > 
 > **Final answer:** **The median time is 14 seconds**
 > 

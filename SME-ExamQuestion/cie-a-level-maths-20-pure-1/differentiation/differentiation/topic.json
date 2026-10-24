@@ -2468,7 +2468,7 @@
       "spcpt_Jzb4MpfMDbXWqFCZ"
      ],
      "part_tier": null,
-     "problem_md": "`y equals open parentheses square root of x plus 3 minus fraction numerator 4 over denominator square root of x end fraction close parentheses squared`",
+     "problem_md": "$y = ( \\sqrt{x} + 3 - \\frac{4}{ \\sqrt{x} } )^{2}$",
      "solution_md": "Rewrite $\\frac{4}{\\sqrt{x}}$ as a power, so the bracket is a sum of powers of $x$\n\n`y = \\left(x^{\\frac{1}{2}} + 3 - 4x^{-\\frac{1}{2}}\\right)^{2}`\n\nExpand the square, squaring each term and adding twice each pairwise product\n\n$y = x + 9 + 16 x^{-1} + 6 x^{\\frac{1}{2}} - 8 - 24 x^{-\\frac{1}{2}}$\n\nCollect the constant terms $9 - 8 = 1$\n\n$y = x + 6 x^{\\frac{1}{2}} - 24 x^{-\\frac{1}{2}} + 16 x^{-1} + 1$\n\n**[M1 A1]**\n\nDifferentiate each term, multiplying by the power and reducing it by $1$\n\n$\\frac{\\text{d}y}{\\text{d}x} = 1 + 3 x^{-\\frac{1}{2}} + 12 x^{-\\frac{3}{2}} - 16 x^{-2}$\n\n**[M1 A1]**\n\n> **[mark-scheme]**\n> **M1**: Expanding the square to a sum of powers of $x$.\n> \n> **A1**: Correct expansion, $x + 6 x^{\\frac{1}{2}} - 24 x^{-\\frac{1}{2}} + 16 x^{-1} + 1$.\n> \n> **M1**: Differentiating your expansion (power decreased by 1 in at least one term).\n> \n> **A1**: Fully correct derivative, $1 + 3 x^{-\\frac{1}{2}} + 12 x^{-\\frac{3}{2}} - 16 x^{-2}$.",
      "equations": [
       {

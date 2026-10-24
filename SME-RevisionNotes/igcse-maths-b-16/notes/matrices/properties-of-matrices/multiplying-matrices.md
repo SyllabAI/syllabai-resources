@@ -23,7 +23,7 @@ guided_study: false
 
   - the number of **columns** in the first matrix
   - must be **equal** to the number of **rows** in the second matrix
-- For example, consider `bold A equals open parentheses table row 1 3 row 7 4 end table close parentheses` and `bold B equals open parentheses table row 1 0 5 row 8 2 9 end table close parentheses`
+- For example, consider $A = ( \begin{gathered} 1 3 \\ 7 4 \end{gathered} )$ and $B = ( \begin{gathered} 1 0 5 \\ 8 2 9 \end{gathered} )$
 
   - You can multiply $A\timesB$
   
@@ -45,32 +45,32 @@ guided_study: false
 - The answer will be a 2 x 1 matrix
 - Multiply the corresponding elements in the **row **of the **first** matrix with the corresponding elements in the **column** of the **second **matrix, writing their **sum** in the answer matrix
 
-  - `open parentheses table row a b row c d end table close parentheses open parentheses table row x row y end table close parentheses equals open parentheses table row cell a x plus b y end cell row cell c x plus d y end cell end table close parentheses`
-- `open parentheses table row 1 2 row 3 4 end table close parentheses open parentheses table row 10 row 20 end table close parentheses equals open parentheses table row cell 1 cross times 10 plus 2 cross times 20 end cell row cell 3 cross times 10 plus 4 cross times 20 end cell end table close parentheses equals open parentheses table row cell 10 plus 40 end cell row cell 30 plus 80 end cell end table close parentheses equals open parentheses table row 50 row 110 end table close parentheses`
+  - $( \begin{gathered} a b \\ c d \end{gathered} ) ( \begin{gathered} x \\ y \end{gathered} ) = ( \begin{gathered} a x + b y \\ c x + d y \end{gathered} )$
+- $( \begin{gathered} 1 2 \\ 3 4 \end{gathered} ) ( \begin{gathered} 10 \\ 20 \end{gathered} ) = ( \begin{gathered} 1 \times 10 + 2 \times 20 \\ 3 \times 10 + 4 \times 20 \end{gathered} ) = ( \begin{gathered} 10 + 40 \\ 30 + 80 \end{gathered} ) = ( \begin{gathered} 50 \\ 110 \end{gathered} )$
 
 #### How do I multiply a 2×2 matrix by another 2×2 matrix?
 
 - The answer will be a 2 x 2 matrix
 - Multiply the corresponding elements in the **row **of the **first** matrix with the corresponding elements in the **column** of the **second **matrix, writing their **sum** in the answer matrix
 
-  - `open parentheses table row a b row c d end table close parentheses open parentheses table row A B row C D end table close parentheses equals open parentheses table row cell a A plus b C end cell cell a B plus b D end cell row cell c A plus d C end cell cell c B plus d D end cell end table close parentheses`
-- `open parentheses table row 1 2 row 3 4 end table close parentheses open parentheses table row 5 10 row 20 25 end table close parentheses equals open parentheses table row cell 1 cross times 5 plus 2 cross times 20 end cell cell 1 cross times 10 plus 2 cross times 25 end cell row cell 3 cross times 5 plus 4 cross times 20 end cell cell 3 cross times 10 plus 4 cross times 25 end cell end table close parentheses equals open parentheses table row cell 5 plus 40 end cell cell 10 plus 50 end cell row cell 15 plus 80 end cell cell 30 plus 100 end cell end table close parentheses equals open parentheses table row 45 60 row 95 130 end table close parentheses`
+  - $( \begin{gathered} a b \\ c d \end{gathered} ) ( \begin{gathered} A B \\ C D \end{gathered} ) = ( \begin{gathered} a A + b C & a B + b D \\ c A + d C & c B + d D \end{gathered} )$
+- $( \begin{gathered} 1 2 \\ 3 4 \end{gathered} ) ( \begin{gathered} 5 10 \\ 20 25 \end{gathered} ) = ( \begin{gathered} 1 \times 5 + 2 \times 20 & 1 \times 10 + 2 \times 25 \\ 3 \times 5 + 4 \times 20 & 3 \times 10 + 4 \times 25 \end{gathered} ) = ( \begin{gathered} 5 + 40 & 10 + 50 \\ 15 + 80 & 30 + 100 \end{gathered} ) = ( \begin{gathered} 45 60 \\ 95 130 \end{gathered} )$
 
 #### How do I multiply a 2×2 matrix by a 2×3 matrix?
 
 - The answer will be a 2 x 3 matrix
 - Multiply the corresponding elements in the **row **of the **first** matrix with the corresponding elements in the **column** of the **second **matrix, writing their **sum** in the answer matrix
 
-  - `open parentheses table row a b row c d end table close parentheses open parentheses table row A B C row D E F end table close parentheses equals open parentheses table row cell a A plus b D end cell cell a B plus b E end cell row cell c A plus d D end cell cell c B plus d E end cell end table table row cell a C plus b F end cell row cell c C plus d F end cell end table close parentheses`
-- `table row cell open parentheses table row 1 3 row 7 4 end table close parentheses open parentheses table row 1 0 5 row 8 2 9 end table close parentheses end cell equals cell open parentheses table row cell 1 cross times 1 plus 3 cross times 8 end cell cell 1 cross times 0 plus 3 cross times 2 end cell row cell 7 cross times 1 plus 4 cross times 8 end cell cell 7 cross times 0 plus 4 cross times 2 end cell end table table row cell 1 cross times 5 plus 3 cross times 9 end cell row cell 7 cross times 5 plus 4 cross times 9 end cell end table close parentheses end cell row blank equals cell open parentheses table row cell 1 plus 24 end cell cell 0 plus 6 end cell row cell 7 plus 32 end cell cell 0 plus 8 end cell end table table row cell 5 plus 27 end cell row cell 35 plus 36 end cell end table close parentheses end cell row blank equals cell open parentheses table row 25 6 row 39 8 end table table row 32 row 71 end table close parentheses end cell end table`
+  - $( \begin{gathered} a b \\ c d \end{gathered} ) ( \begin{gathered} A B C \\ D E F \end{gathered} ) = ( \begin{gathered} a A + b D & a B + b E \\ c A + d D & c B + d E \end{gathered} \begin{gathered} a C + b F \\ c C + d F \end{gathered} )$
+- $\begin{gathered} ( \begin{gathered} 1 3 \\ 7 4 \end{gathered} ) ( \begin{gathered} 1 0 5 \\ 8 2 9 \end{gathered} ) & = ( \begin{gathered} 1 \times 1 + 3 \times 8 & 1 \times 0 + 3 \times 2 \\ 7 \times 1 + 4 \times 8 & 7 \times 0 + 4 \times 2 \end{gathered} \begin{gathered} 1 \times 5 + 3 \times 9 \\ 7 \times 5 + 4 \times 9 \end{gathered} ) \\ = ( \begin{gathered} 1 + 24 & 0 + 6 \\ 7 + 32 & 0 + 8 \end{gathered} \begin{gathered} 5 + 27 \\ 35 + 36 \end{gathered} ) \\ = ( \begin{gathered} 25 6 \\ 39 8 \end{gathered} \begin{gathered} 32 \\ 71 \end{gathered} ) \end{gathered}$
 
 #### How do I multiply a 3×3 matrix by another 3×3 matrix?
 
 - The answer will be a 3 x 3 matrix
 - Multiply the corresponding elements in the **row **of the **first** matrix with the corresponding elements in the **column** of the **second **matrix, writing their **sum** in the answer matrix
 
-  - `open parentheses table row a b c row d e f row g h i end table close parentheses open parentheses table row A B C row D E F row G H I end table close parentheses equals open parentheses table row cell a A plus b D plus c G end cell cell a B plus b E plus c H end cell cell a C plus b F plus c I end cell row cell d A plus e D plus f G end cell cell d B plus e E plus f H end cell cell d C plus e F plus f I end cell row cell g A plus h D plus i G end cell cell g B plus h E plus i H end cell cell g C plus h F plus i I end cell end table close parentheses`
-- `table row cell open parentheses table row 1 0 3 row 0 cell negative 5 end cell 0 row 2 7 1 end table close parentheses open parentheses table row 0 2 3 row cell negative 1 end cell 0 cell negative 2 end cell row 4 0 6 end table close parentheses end cell equals cell open parentheses table row cell 1 cross times 0 plus 0 cross times open parentheses negative 1 close parentheses plus 3 cross times 4 end cell cell 1 cross times 2 plus 0 cross times 0 plus 3 cross times 0 end cell cell 1 cross times 3 plus 0 cross times open parentheses negative 2 close parentheses plus 3 cross times 6 end cell row cell 0 cross times 0 plus open parentheses negative 5 close parentheses cross times open parentheses negative 1 close parentheses plus 0 cross times 4 end cell cell 0 cross times 2 plus open parentheses negative 5 close parentheses cross times 0 plus 0 cross times 0 end cell cell 0 cross times 3 plus open parentheses negative 5 close parentheses cross times open parentheses negative 2 close parentheses plus 0 cross times 6 end cell row cell 2 cross times 0 plus 7 cross times open parentheses negative 1 close parentheses plus 1 cross times 4 end cell cell 2 cross times 2 plus 7 cross times 0 plus 1 cross times 0 end cell cell 2 cross times 3 plus 7 cross times open parentheses negative 2 close parentheses plus 1 cross times 6 end cell end table close parentheses end cell row blank equals cell open parentheses table row cell 0 plus 0 plus 12 end cell cell 2 plus 0 plus 0 end cell cell 3 plus 0 plus 18 end cell row cell 0 plus 5 plus 0 end cell cell 0 plus 0 plus 0 end cell cell 0 plus 10 plus 0 end cell row cell 0 minus 7 plus 4 end cell cell 4 plus 0 plus 0 end cell cell 6 minus 14 plus 6 end cell end table close parentheses end cell row blank equals cell open parentheses table row 12 2 21 row 5 0 10 row cell negative 3 end cell 4 cell negative 2 end cell end table close parentheses end cell end table`
+  - $( \begin{gathered} a b c \\ d e f \\ g h i \end{gathered} ) ( \begin{gathered} A B C \\ D E F \\ G H I \end{gathered} ) = ( \begin{gathered} a A + b D + c G & a B + b E + c H & a C + b F + c I \\ d A + e D + f G & d B + e E + f H & d C + e F + f I \\ g A + h D + i G & g B + h E + i H & g C + h F + i I \end{gathered} )$
+- $\begin{gathered} ( \begin{gathered} 1 0 3 \\ 0 - 5 & 0 \\ 2 7 1 \end{gathered} ) ( \begin{gathered} 0 2 3 \\ - 1 & 0 - 2 \\ 4 0 6 \end{gathered} ) & = ( \begin{gathered} 1 \times 0 + 0 \times ( - 1 ) + 3 \times 4 & 1 \times 2 + 0 \times 0 + 3 \times 0 & 1 \times 3 + 0 \times ( - 2 ) + 3 \times 6 \\ 0 \times 0 + ( - 5 ) \times ( - 1 ) + 0 \times 4 & 0 \times 2 + ( - 5 ) \times 0 + 0 \times 0 & 0 \times 3 + ( - 5 ) \times ( - 2 ) + 0 \times 6 \\ 2 \times 0 + 7 \times ( - 1 ) + 1 \times 4 & 2 \times 2 + 7 \times 0 + 1 \times 0 & 2 \times 3 + 7 \times ( - 2 ) + 1 \times 6 \end{gathered} ) \\ = ( \begin{gathered} 0 + 0 + 12 & 2 + 0 + 0 & 3 + 0 + 18 \\ 0 + 5 + 0 & 0 + 0 + 0 & 0 + 10 + 0 \\ 0 - 7 + 4 & 4 + 0 + 0 & 6 - 14 + 6 \end{gathered} ) \\ = ( \begin{gathered} 12 2 21 \\ 5 0 10 \\ - 3 & 4 - 2 \end{gathered} ) \end{gathered}$
 
 ### How do I square a matrix?
 
@@ -78,7 +78,7 @@ guided_study: false
 - **Do not** square each individual element
 - Write out a matrix multiplication
 
-  - E.g. if `bold P equals open parentheses table row 2 4 row 1 cell negative 3 end cell end table close parentheses` then `bold P squared equals bold P cross times bold P equals open parentheses table row 2 4 row 1 cell negative 3 end cell end table close parentheses open parentheses table row 2 4 row 1 cell negative 3 end cell end table close parentheses equals open parentheses table row cell 2 cross times 2 plus 4 cross times 1 end cell cell 2 cross times 4 plus 4 cross times open parentheses negative 3 close parentheses end cell row cell 1 cross times 2 plus open parentheses negative 3 close parentheses cross times 1 end cell cell 1 cross times 4 plus open parentheses negative 3 close parentheses cross times open parentheses negative 3 close parentheses end cell end table close parentheses equals open parentheses table row 8 cell negative 4 end cell row cell negative 1 end cell 13 end table close parentheses`
+  - E.g. if $P = ( \begin{gathered} 2 4 \\ 1 - 3 \end{gathered} )$ then $P^{2} = P \times P = ( \begin{gathered} 2 4 \\ 1 - 3 \end{gathered} ) ( \begin{gathered} 2 4 \\ 1 - 3 \end{gathered} ) = ( \begin{gathered} 2 \times 2 + 4 \times 1 & 2 \times 4 + 4 \times ( - 3 ) \\ 1 \times 2 + ( - 3 ) \times 1 & 1 \times 4 + ( - 3 ) \times ( - 3 ) \end{gathered} ) = ( \begin{gathered} 8 - 4 \\ - 1 & 13 \end{gathered} )$
 - It is possible to have **negative** elements after squaring a matrix
 
 ### When multiplying, does it matter which matrix is on the left and which is on the right?
@@ -89,7 +89,7 @@ guided_study: false
 - This is **not true** for **matrix multiplication**
 
   - In general, **AB** ≠ **BA**
-- For example, `open parentheses table row 1 2 row 3 4 end table close parentheses open parentheses table row 0 1 row 5 1 end table close parentheses equals open parentheses table row 10 3 row 20 7 end table close parentheses` but `open parentheses table row 0 1 row 5 1 end table close parentheses open parentheses table row 1 2 row 3 4 end table close parentheses equals open parentheses table row 3 4 row 8 14 end table close parentheses`
+- For example, $( \begin{gathered} 1 2 \\ 3 4 \end{gathered} ) ( \begin{gathered} 0 1 \\ 5 1 \end{gathered} ) = ( \begin{gathered} 10 3 \\ 20 7 \end{gathered} )$ but $( \begin{gathered} 0 1 \\ 5 1 \end{gathered} ) ( \begin{gathered} 1 2 \\ 3 4 \end{gathered} ) = ( \begin{gathered} 3 4 \\ 8 14 \end{gathered} )$
 
 ### How can I multiply more than two matrices together?
 
@@ -118,16 +118,16 @@ guided_study: false
   - $\mathrm{AI}=A$ and $\mathrm{IA}=A$
 - For example, in the 2×2 case
 
-  - `open parentheses table row a b row c d end table close parentheses open parentheses table row 1 0 row 0 1 end table close parentheses equals open parentheses table row a b row c d end table close parentheses`** **and `open parentheses table row 1 0 row 0 1 end table close parentheses open parentheses table row a b row c d end table close parentheses equals open parentheses table row a b row c d end table close parentheses`
+  - $( \begin{gathered} a b \\ c d \end{gathered} ) ( \begin{gathered} 1 0 \\ 0 1 \end{gathered} ) = ( \begin{gathered} a b \\ c d \end{gathered} )$** **and $( \begin{gathered} 1 0 \\ 0 1 \end{gathered} ) ( \begin{gathered} a b \\ c d \end{gathered} ) = ( \begin{gathered} a b \\ c d \end{gathered} )$
   - This result can be proved by multiplying together the two matrices on the left side of each equation
 - The 2×2 identity matrix also leaves a 2×1 matrix unchanged
 
-  - `open parentheses table row 1 0 row 0 1 end table close parentheses open parentheses table row a row b end table close parentheses equals open parentheses table row a row b end table close parentheses`
+  - $( \begin{gathered} 1 0 \\ 0 1 \end{gathered} ) ( \begin{gathered} a \\ b \end{gathered} ) = ( \begin{gathered} a \\ b \end{gathered} )$
   - This can be relevant to [matrix transformations](https://www.savemyexams.com/igcse/maths/edexcel/b/16/revision-notes/matrices/transformations-using-matrices/transforming-a-point/)
 - The identity matrix is an important matrix which you should know (or recognise as $I$ in a question)
 
 > **Worked Example**
-> If `bold P equals open parentheses table row 3 1 row cell negative 2 end cell 0 end table close parentheses`, `bold Q equals open parentheses table row 5 cell negative 5 end cell row 4 2 end table close parentheses` and `bold R equals open parentheses table row 10 row 8 end table close parentheses`, find the following:
+> If $P = ( \begin{gathered} 3 1 \\ - 2 & 0 \end{gathered} )$, $Q = ( \begin{gathered} 5 - 5 \\ 4 2 \end{gathered} )$ and $R = ( \begin{gathered} 10 \\ 8 \end{gathered} )$, find the following:
 > 
 > (i)  $\mathrm{PR}$
 > 
@@ -139,11 +139,11 @@ guided_study: false
 > 
 > (i)*  **Write out *$\mathrm{PR}$* in full*
 > 
-> `open parentheses table row 3 1 row cell negative 2 end cell 0 end table close parentheses cross times open parentheses table row 10 row 8 end table close parentheses`
+> $( \begin{gathered} 3 1 \\ - 2 & 0 \end{gathered} ) \times ( \begin{gathered} 10 \\ 8 \end{gathered} )$
 > 
 > > *Multiply the matrices*
 > 
-> `open parentheses table row cell open parentheses 3 cross times 10 close parentheses plus open parentheses 1 cross times 8 close parentheses end cell row cell open parentheses negative 2 cross times 10 close parentheses plus open parentheses 0 cross times 8 close parentheses end cell end table close parentheses`
+> $( \begin{gathered} ( 3 \times 10 ) + ( 1 \times 8 ) \\ ( - 2 \times 10 ) + ( 0 \times 8 ) \end{gathered} )$
 > 
 > > *Simplify*
 > 
@@ -151,11 +151,11 @@ guided_study: false
 > 
 > (ii)*  **Write out *$\mathrm{PQ}$* in full*
 > 
-> `open parentheses table row 3 1 row cell negative 2 end cell 0 end table close parentheses cross times open parentheses table row 5 cell negative 5 end cell row 4 2 end table close parentheses`
+> $( \begin{gathered} 3 1 \\ - 2 & 0 \end{gathered} ) \times ( \begin{gathered} 5 - 5 \\ 4 2 \end{gathered} )$
 > 
 > > *Multiply the matrices*
 > 
-> `open parentheses table row cell open parentheses 3 cross times 5 space plus space 1 cross times 4 close parentheses end cell cell open parentheses 3 cross times negative 5 space plus space 1 cross times 2 close parentheses end cell row cell open parentheses negative 2 cross times 5 space plus space 0 cross times 4 close parentheses end cell cell open parentheses negative 2 cross times negative 5 space plus space 0 cross times 2 close parentheses end cell end table close parentheses equals open parentheses table row cell open parentheses 15 space plus space 4 close parentheses end cell cell open parentheses negative 15 space plus space 2 close parentheses end cell row cell open parentheses negative 10 space plus space 0 close parentheses end cell cell open parentheses 10 space plus space 0 close parentheses end cell end table close parentheses`
+> $( \begin{gathered} ( 3 \times 5 + 1 \times 4 ) & ( 3 \times - 5 + 1 \times 2 ) \\ ( - 2 \times 5 + 0 \times 4 ) & ( - 2 \times - 5 + 0 \times 2 ) \end{gathered} ) = ( \begin{gathered} ( 15 + 4 ) & ( - 15 + 2 ) \\ ( - 10 + 0 ) & ( 10 + 0 ) \end{gathered} )$
 > 
 > > *Simplify*
 > 
@@ -163,31 +163,31 @@ guided_study: false
 > 
 > (iii)*  **Write out *$Q^{2}$* as *$Q\timesQ$
 > 
-> `open parentheses table row 5 cell negative 5 end cell row 4 2 end table close parentheses cross times open parentheses table row 5 cell negative 5 end cell row 4 2 end table close parentheses`
+> $( \begin{gathered} 5 - 5 \\ 4 2 \end{gathered} ) \times ( \begin{gathered} 5 - 5 \\ 4 2 \end{gathered} )$
 > 
 > > *Multiply the matrices*
 > 
-> `open parentheses table row cell open parentheses 5 cross times 5 space plus space minus 5 cross times 4 close parentheses end cell cell open parentheses 5 cross times negative 5 space plus space minus 5 cross times 2 close parentheses end cell row cell open parentheses 4 cross times 5 space plus space 2 cross times 4 close parentheses end cell cell open parentheses 4 cross times negative 5 space plus space 2 cross times 2 close parentheses end cell end table close parentheses equals open parentheses table row cell open parentheses 25 space plus space minus 20 close parentheses end cell cell open parentheses negative 25 space plus space minus 10 close parentheses end cell row cell open parentheses 20 space plus space 8 close parentheses end cell cell open parentheses negative 20 space plus space 4 close parentheses end cell end table close parentheses`
+> $( \begin{gathered} ( 5 \times 5 + - 5 \times 4 ) & ( 5 \times - 5 + - 5 \times 2 ) \\ ( 4 \times 5 + 2 \times 4 ) & ( 4 \times - 5 + 2 \times 2 ) \end{gathered} ) = ( \begin{gathered} ( 25 + - 20 ) & ( - 25 + - 10 ) \\ ( 20 + 8 ) & ( - 20 + 4 ) \end{gathered} )$
 > 
 > > *Simplify*
 > 
 > `Error converting from MathML to accessible text.`
 
 > **Worked Example**
-> If `bold A equals open parentheses table row 0 2 row 2 0 end table close parentheses` show that $A^{2}=4I$.
+> If $A = ( \begin{gathered} 0 2 \\ 2 0 \end{gathered} )$ show that $A^{2}=4I$.
 > 
 > **Answer:**
 > 
 > > *Write out *$A^{2}$* as *$A\timesA$
 > 
-> `open parentheses table row 0 2 row 2 0 end table close parentheses cross times open parentheses table row 0 2 row 2 0 end table close parentheses`
+> $( \begin{gathered} 0 2 \\ 2 0 \end{gathered} ) \times ( \begin{gathered} 0 2 \\ 2 0 \end{gathered} )$
 > 
 > > *Multiply the matrices*
 > 
-> `open parentheses table row 0 2 row 2 0 end table close parentheses cross times open parentheses table row 0 2 row 2 0 end table close parentheses equals open parentheses table row cell open parentheses 0 cross times 0 space plus space 2 cross times 2 close parentheses end cell cell open parentheses 0 cross times 2 space plus space 2 cross times 0 close parentheses end cell row cell open parentheses 2 cross times 0 space plus space 0 cross times 2 close parentheses end cell cell open parentheses 2 cross times 2 space plus space 0 cross times 0 close parentheses end cell end table close parentheses`
+> $( \begin{gathered} 0 2 \\ 2 0 \end{gathered} ) \times ( \begin{gathered} 0 2 \\ 2 0 \end{gathered} ) = ( \begin{gathered} ( 0 \times 0 + 2 \times 2 ) & ( 0 \times 2 + 2 \times 0 ) \\ ( 2 \times 0 + 0 \times 2 ) & ( 2 \times 2 + 0 \times 0 ) \end{gathered} )$
 > 
-> `equals open parentheses table row 4 0 row 0 4 end table close parentheses`
+> $= ( \begin{gathered} 4 0 \\ 0 4 \end{gathered} )$
 > 
-> > *Write in terms of the identity matrix,  *`bold I equals open parentheses table row 1 0 row 0 1 end table close parentheses`* by factoring out 4*
+> > *Write in terms of the identity matrix,  *$I = ( \begin{gathered} 1 0 \\ 0 1 \end{gathered} )$* by factoring out 4*
 > 
-> `stretchy left parenthesis table row 4 0 row 0 4 end table stretchy right parenthesis equals 4 stretchy left parenthesis table row 1 0 row 0 1 end table stretchy right parenthesis equals 4 bold I`
+> $( \begin{gathered} 4 0 \\ 0 4 \end{gathered} ) = 4 ( \begin{gathered} 1 0 \\ 0 1 \end{gathered} ) = 4 I$

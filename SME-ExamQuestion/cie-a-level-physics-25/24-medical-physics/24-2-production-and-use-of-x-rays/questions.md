@@ -337,9 +337,9 @@ The proton numbers of muscle, bone and some contract media are shown in Table 1.
 
 | **substance** | **main elements** | ** ** |
 |---|---|---|
-| muscle | `straight H presubscript 1`,  `straight C presubscript 6`,  `straight O presubscript 8` |   |
-| bone | `straight H presubscript 1`,  `straight C presubscript 6`,  `straight O presubscript 8`,  `straight P presubscript 15`,  `Ca presubscript 20` |   |
-| contrast media | `straight I presubscript 53`,  `Ba presubscript 56` |   |
+| muscle | $\mathrm{H} pre_{1}$,  $\mathrm{C} pre_{6}$,  $\mathrm{O} pre_{8}$ |   |
+| bone | $\mathrm{H} pre_{1}$,  $\mathrm{C} pre_{6}$,  $\mathrm{O} pre_{8}$,  $\mathrm{P} pre_{15}$,  `Ca presubscript 20` |   |
+| contrast media | $\mathrm{I} pre_{53}$,  `Ba presubscript 56` |   |
 
 Using the information in Table 1.2
 

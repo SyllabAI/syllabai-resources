@@ -235,7 +235,7 @@ Electrons = 24; **[1 mark]**
 ### 24((b)) — 2 marks
 The relative atomic mass of this sample of iron to** three** significant figures is:
 
-- `fraction numerator open parentheses 54 cross times 5.84 close parentheses plus open parentheses 56 cross times 91.68 close parentheses plus open parentheses 57 cross times 2.17 close parentheses plus open parentheses 58 cross times 0.31 close parentheses over denominator 100 end fraction`; **[1 mark]**
+- $\frac{( 54 \times 5.84 ) + ( 56 \times 91.68 ) + ( 57 \times 2.17 ) + ( 58 \times 0.31 )}{100}$; **[1 mark]**
 - 55.9; **[1 mark]**
 
 **[Total: 2 marks]**
@@ -483,16 +483,16 @@ Moles of H<sub>2</sub>O = 0.175; **[1 mark]**
 
 **Final answer:** **The correct answer is ****D**** because:**
 
-- `percent sign space mass space of space an space element space equals space fraction numerator A subscript straight r cross times space number space of space atoms space of space the space element over denominator M subscript straight r space of space the space compound end fraction space cross times space 100`
+- `% mass of an element = (A _ r x number of atoms of the element)/(M _ r of the compound) x 100`
 - Option **A** / PbO
 
-  - % Pb = `begin mathsize 14px style fraction numerator 207.2 over denominator open parentheses 207.2 plus 16.0 close parentheses end fraction cross times 100 end style` = 92.8%
+  - % Pb = $\frac{207.2}{( 207.2 + 16.0 )} \times 100$ = 92.8%
 - Option **B** / PbO<sub>2</sub>
 
-  - % Pb = `fraction numerator 207.2 over denominator stretchy left parenthesis 207.2 plus open parentheses 2 cross times 16.0 close parentheses stretchy right parenthesis end fraction cross times 100` = 86.6%
+  - % Pb = $\frac{207.2}{( 207.2 + ( 2 \times 16.0 ) )} \times 100$ = 86.6%
 - Option **C** / Pb<sub>2</sub>O<sub>3</sub>
 
-  - % Pb = `fraction numerator open parentheses 2 cross times 207.2 close parentheses over denominator stretchy left parenthesis open parentheses 2 cross times 207.2 close parentheses plus open parentheses 3 cross times 16.0 close parentheses stretchy right parenthesis end fraction cross times 100` = 89.6%
+  - % Pb = $\frac{( 2 \times 207.2 )}{( ( 2 \times 207.2 ) + ( 3 \times 16.0 ) )} \times 100$ = 89.6%
 - Option **D** / Pb<sub>3</sub>O<sub>4</sub>
 
   - % Pb = $\frac{(3\times207.2)}{((3\times207.2)+(4\times16.0))}\times100$ = 90.7%
@@ -513,7 +513,7 @@ Moles of H<sub>2</sub>O = 0.175; **[1 mark]**
   - $\frac{6\times10^{-12}}{197}$ = 3.0457 x 10<sup>-14</sup> moles of gold
 - The number of atoms of gold is:
 
-  - 3.0457 x 10<sup>-14</sup>  x 6 x 10<sup>23</sup> = 1.827 x 10<sup>10</sup> `begin mathsize 14px style asymptotically equal to end style`2 x 10<sup>10</sup> atoms
+  - 3.0457 x 10<sup>-14</sup>  x 6 x 10<sup>23</sup> = 1.827 x 10<sup>10</sup> $\text{asymptotically} \text{equal} to$2 x 10<sup>10</sup> atoms
 
 **B** is incorrect as the mass of gold has not been converted into moles
 

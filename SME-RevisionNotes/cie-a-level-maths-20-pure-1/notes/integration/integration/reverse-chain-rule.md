@@ -25,13 +25,13 @@ guided_study: true
   - The reverse chain rule works backwards
 - For *n = 2* you will most likely **expand the brackets** and **integrate each term separately**
 - If *n > 2* this becomes **time-consuming** and if *n* is not a positive integer we need a different method completely
-- To use the **reverse chain rule** `integral left parenthesis a x plus b right parenthesis to the power of n d x`(provided *n* is not -1)
+- To use the **reverse chain rule** $\int ( a x + b )^{n} d x$(provided *n* is not -1)
 
   - **Raise** the **power of *****n***** by 1**
   - **Divide** by this **new power**
   - **Divide** this whole function by the **coefficient of *****x***
   
-    - `integral left parenthesis a x blank plus blank b right parenthesis to the power of n blank straight d x equals fraction numerator open parentheses a x plus b close parentheses to the power of n plus 1 end exponent over denominator n plus 1 end fraction cross times 1 over a plus c`
+    - $\int ( a x + b )^{n \mathrm{d} x = \frac{( a x + b )^{n} + 1} }{n + 1} \times \frac{1}{a} + c$
 - You can **check your answer by differentiating it**
 
   - You should get the original function when you differentiate your answer

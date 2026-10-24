@@ -49,9 +49,9 @@ $\frac{\mathrm{Total} \mathrm{output}}{\mathrm{Number} \mathrm{of} \mathrm{worke
 > 
 > **Step 3 - Calculate the percentage difference between the two years ((new-old) / old)**
 > 
-> `equals space fraction numerator space 1 comma 150 space minus space 920 space units over denominator 920 space units end fraction space space space cross times space space space space space 100 space space space
+> $= \frac{ 1 , 150 - 920 units}{920 units} \times 100 
 > 
-> equals space 25 space percent sign space space space space`**         **** (1 mark)**
+> = 25 \%$**         **** (1 mark)**
 > 
 > **Step 4 - Identify whether the percentage difference is an increase or decrease**
 > 

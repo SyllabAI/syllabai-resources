@@ -23,14 +23,14 @@ guided_study: false
 
   - (*x*,* y*) is the **object **and (*x*',*y*') is the **image**
 - The **coordinates** of the image point can be found using **matrix multiplication**
-- To transform (*x*, *y*) by the matrix `open parentheses table row a b row c d end table close parentheses`
+- To transform (*x*, *y*) by the matrix $( \begin{gathered} a b \\ c d \end{gathered} )$
 
-  - Write (*x*, *y*) as a **column vector,** `open parentheses table row x row y end table close parentheses`
+  - Write (*x*, *y*) as a **column vector,** $( \begin{gathered} x \\ y \end{gathered} )$
   
     - Note that this is the same as a $2\times1$ matrix
-  - Use **matrix multiplication **to work out `open parentheses table row a b row c d end table close parentheses open parentheses table row x row y end table close parentheses`, which gives `open parentheses table row cell x apostrophe end cell row cell y apostrophe end cell end table close parentheses`
+  - Use **matrix multiplication **to work out $( \begin{gathered} a b \\ c d \end{gathered} ) ( \begin{gathered} x \\ y \end{gathered} )$, which gives $( \begin{gathered} x ' \\ y ' \end{gathered} )$
   
-    - `open parentheses table row cell x apostrophe end cell row cell y apostrophe end cell end table close parentheses equals open parentheses table row a b row c d end table close parentheses open parentheses table row x row y end table close parentheses equals open parentheses table row cell a x plus b y end cell row cell c x plus d y end cell end table close parentheses`
+    - $( \begin{gathered} x ' \\ y ' \end{gathered} ) = ( \begin{gathered} a b \\ c d \end{gathered} ) ( \begin{gathered} x \\ y \end{gathered} ) = ( \begin{gathered} a x + b y \\ c x + d y \end{gathered} )$
   - **Write down** the image point **coordinates**, (*x*', *y*')
 - In harder questions you may be given the image coordinates, (*x*', *y*') and asked to find the original coordinates
 
@@ -39,27 +39,27 @@ guided_study: false
     - then use the matrix $M$ to set up and solve **simultaneous equations** to find *x* and *y*
   - Alternatively, you could use the **inverse** matrix $M^{-1}$ to **undo the transformation**
   
-    - `table row cell bold M open parentheses table row x row y end table close parentheses end cell equals cell open parentheses table row cell x apostrophe end cell row cell y apostrophe end cell end table close parentheses space space left right double arrow space space open parentheses table row x row y end table close parentheses equals bold M to the power of negative 1 end exponent open parentheses table row cell x apostrophe end cell row cell y apostrophe end cell end table close parentheses end cell end table`
-    - You can see this by solving the matrix equation for `open parentheses table row x row y end table close parentheses`:
+    - `| M ( | x | y | ) | = ( | x ' | | y ' | | ) left right double arrow ( | x | y | ) = M ^ - 1 ( | x ' | | y ' | | ) | |`
+    - You can see this by solving the matrix equation for $( \begin{gathered} x \\ y \end{gathered} )$:
 
-`table row cell bold M open parentheses table row x row y end table close parentheses end cell equals cell open parentheses table row cell x apostrophe end cell row cell y apostrophe end cell end table close parentheses end cell row cell bold M to the power of negative 1 end exponent bold M open parentheses table row x row y end table close parentheses end cell equals cell bold M to the power of negative 1 end exponent open parentheses table row cell x apostrophe end cell row cell y apostrophe end cell end table close parentheses end cell row cell bold I open parentheses table row x row y end table close parentheses end cell equals cell bold M to the power of negative 1 end exponent open parentheses table row cell x apostrophe end cell row cell y apostrophe end cell end table close parentheses end cell row cell open parentheses table row x row y end table close parentheses end cell equals cell bold M to the power of negative 1 end exponent open parentheses table row cell x apostrophe end cell row cell y apostrophe end cell end table close parentheses end cell end table`
+$\begin{gathered} M ( \begin{gathered} x \\ y \end{gathered} ) & = ( \begin{gathered} x ' \\ y ' \end{gathered} ) \\ M^{- 1} M ( \begin{gathered} x \\ y \end{gathered} ) & = M^{- 1} ( \begin{gathered} x ' \\ y ' \end{gathered} ) \\ I ( \begin{gathered} x \\ y \end{gathered} ) & = M^{- 1} ( \begin{gathered} x ' \\ y ' \end{gathered} ) \\ ( \begin{gathered} x \\ y \end{gathered} ) & = M^{- 1} ( \begin{gathered} x ' \\ y ' \end{gathered} ) \end{gathered}$
 
 > **Worked Example**
-> A matrix, $M$, is given by  `bold M equals open parentheses table row 4 5 row 1 cell negative 2 end cell end table close parentheses`.
+> A matrix, $M$, is given by  $M = ( \begin{gathered} 4 5 \\ 1 - 2 \end{gathered} )$.
 > 
-> (a)  Work out the coordinates of the image of the point `open parentheses 2 comma space 3 close parentheses` using the transformation represented by $M$.
+> (a)  Work out the coordinates of the image of the point $( 2 , 3 )$ using the transformation represented by $M$.
 > 
 > **Answer:**
 > 
 > *Multiply the coordinates, written as a column vector, by the transformation matrix *$M$
 > 
-> `open parentheses table row 4 5 row 1 cell negative 2 end cell end table close parentheses open parentheses table row 2 row 3 end table close parentheses equals open parentheses table row cell 4 cross times 2 space plus space 5 cross times 3 end cell row cell 1 cross times 2 space plus space minus 2 cross times 3 end cell end table close parentheses equals open parentheses table row 23 row cell negative 4 end cell end table close parentheses`
+> $( \begin{gathered} 4 5 \\ 1 - 2 \end{gathered} ) ( \begin{gathered} 2 \\ 3 \end{gathered} ) = ( \begin{gathered} 4 \times 2 + 5 \times 3 \\ 1 \times 2 + - 2 \times 3 \end{gathered} ) = ( \begin{gathered} 23 \\ - 4 \end{gathered} )$
 > 
 > > *Rewrite the answer as coordinates*
 > 
 > $(23,-4)$
 > 
-> (b) The image of another point, $P$, using the transformation represented by $M$ is `open parentheses 11 comma space 6 close parentheses`.
+> (b) The image of another point, $P$, using the transformation represented by $M$ is $( 11 , 6 )$.
 > 
 > Work out the coordinates of $P$.
 > 
@@ -67,19 +67,19 @@ guided_study: false
 > 
 > **Method 1**
 > 
-> *You do not know the coordinates of *$P$*, so you can write it as *`open parentheses x comma y close parentheses`*  *
+> *You do not know the coordinates of *$P$*, so you can write it as *$( x , y )$*  *
 > 
-> *Let *`P equals open parentheses x comma y close parentheses`* *
+> *Let *$P = ( x , y )$* *
 > 
 > > *Multiply the coordinates of **P**, written as a column vector, by the transformation matrix *$M$
 > 
 > - *This time, you know the image of the point after it is transformed, so can fill this in as the "answer"*
 > 
-> `table row cell open parentheses table row 4 5 row 1 cell negative 2 end cell end table close parentheses open parentheses table row x row y end table close parentheses end cell equals cell open parentheses table row 11 row 6 end table close parentheses end cell row cell open parentheses table row cell 4 x plus 5 y end cell row cell x minus 2 y end cell end table close parentheses end cell equals cell open parentheses table row 11 row 6 end table close parentheses end cell end table`
+> $\begin{gathered} ( \begin{gathered} 4 5 \\ 1 - 2 \end{gathered} ) ( \begin{gathered} x \\ y \end{gathered} ) & = ( \begin{gathered} 11 \\ 6 \end{gathered} ) \\ ( \begin{gathered} 4 x + 5 y \\ x - 2 y \end{gathered} ) & = ( \begin{gathered} 11 \\ 6 \end{gathered} ) \end{gathered}$
 > 
 > > *Equate the matching elements of the two matrices*
 > 
-> > `table row cell 4 x plus 5 y end cell equals 11 row cell x minus 2 y end cell equals 6 end table`* *
+> > $\begin{gathered} 4 x + 5 y & = 11 \\ x - 2 y & = 6 \end{gathered}$* *
 > 
 > > *You now have a pair of simultaneous equations which can be solved using either elimination or substitution*
 > 
@@ -89,11 +89,11 @@ guided_study: false
 > 
 > > *Substitute this into the first equation, and solve to find *$y$* *
 > 
-> `table row cell 4 open parentheses 2 y plus 6 close parentheses plus 5 y end cell equals 11 row cell 8 y plus 24 plus 5 y end cell equals 11 row cell 13 y plus 24 end cell equals 11 row cell 13 y end cell equals cell negative 13 end cell row y equals cell negative 1 end cell end table`
+> $\begin{gathered} 4 ( 2 y + 6 ) + 5 y & = 11 \\ 8 y + 24 + 5 y & = 11 \\ 13 y + 24 & = 11 \\ 13 y & = - 13 \\ y = - 1 \end{gathered}$
 > 
 > > *Substitute *$y=-1$* into the second equation to find *$x$* *
 > 
-> `table row cell x minus 2 open parentheses negative 1 close parentheses end cell equals 6 row cell x plus 2 end cell equals 6 row x equals 4 end table`
+> $\begin{gathered} x - 2 ( - 1 ) & = 6 \\ x + 2 & = 6 \\ x = 4 \end{gathered}$
 > 
 > **Final answer:** **P**** is**** **$(4,-1)$
 > 
@@ -101,13 +101,13 @@ guided_study: false
 > 
 > > *Find the inverse of matrix *$M$
 > 
-> - *The inverse of *`space open parentheses table row a b row c d end table close parentheses space`* is *`space fraction numerator 1 over denominator a d minus b c end fraction open parentheses table row d cell negative b end cell row cell negative c end cell a end table close parentheses`
+> - *The inverse of *$( \begin{gathered} a b \\ c d \end{gathered} )$* is *$\frac{1}{a d - b c} ( \begin{gathered} d - b \\ - c & a \end{gathered} )$
 > 
-> `table row cell bold M to the power of bold minus bold 1 end exponent end cell equals cell fraction numerator 1 over denominator 4 cross times open parentheses negative 2 close parentheses minus 5 cross times 1 end fraction open parentheses table row cell negative 2 end cell cell negative 5 end cell row cell negative 1 end cell 4 end table close parentheses end cell row blank equals cell fraction numerator 1 over denominator negative 13 end fraction open parentheses table row cell negative 2 end cell cell negative 5 end cell row cell negative 1 end cell 4 end table close parentheses end cell row blank equals cell open parentheses table row cell 2 over 13 end cell cell 5 over 13 end cell row cell 1 over 13 end cell cell negative 4 over 13 end cell end table close parentheses end cell end table`
+> $\begin{gathered} M^{- 1} & = \frac{1}{4 \times ( - 2 ) - 5 \times 1} ( \begin{gathered} - 2 & - 5 \\ - 1 & 4 \end{gathered} ) \\ = \frac{1}{- 13} ( \begin{gathered} - 2 & - 5 \\ - 1 & 4 \end{gathered} ) \\ = ( \begin{gathered} \frac{2}{13} & \frac{5}{13} \\ \frac{1}{13} & - \frac{4}{13} \end{gathered} ) \end{gathered}$
 > 
-> > *If *`bold space bold M open parentheses table row x row y end table close parentheses equals open parentheses table row 11 row 6 end table close parentheses`*, then *`space open parentheses table row x row y end table close parentheses equals bold M to the power of negative 1 end exponent open parentheses table row 11 row 6 end table close parentheses`
+> > *If *$M ( \begin{gathered} x \\ y \end{gathered} ) = ( \begin{gathered} 11 \\ 6 \end{gathered} )$*, then *$( \begin{gathered} x \\ y \end{gathered} ) = M^{- 1} ( \begin{gathered} 11 \\ 6 \end{gathered} )$
 > 
-> `table row cell open parentheses table row x row y end table close parentheses end cell equals cell open parentheses table row cell 2 over 13 end cell cell 5 over 13 end cell row cell 1 over 13 end cell cell negative 4 over 13 end cell end table close parentheses open parentheses table row 11 row 6 end table close parentheses end cell row blank equals cell open parentheses table row cell 2 over 13 cross times 11 plus 5 over 13 cross times 6 end cell row cell 1 over 13 cross times 11 plus open parentheses negative 4 over 13 close parentheses cross times 6 end cell end table close parentheses end cell row blank equals cell open parentheses table row cell 52 over 13 end cell row cell negative 13 over 13 end cell end table close parentheses end cell row blank equals cell open parentheses table row 4 row cell negative 1 end cell end table close parentheses end cell end table`
+> $\begin{gathered} ( \begin{gathered} x \\ y \end{gathered} ) & = ( \begin{gathered} \frac{2}{13} & \frac{5}{13} \\ \frac{1}{13} & - \frac{4}{13} \end{gathered} ) ( \begin{gathered} 11 \\ 6 \end{gathered} ) \\ = ( \begin{gathered} \frac{2}{13} \times 11 + \frac{5}{13} \times 6 \\ \frac{1}{13} \times 11 + ( - \frac{4}{13} ) \times 6 \end{gathered} ) \\ = ( \begin{gathered} \frac{52}{13} \\ - \frac{13}{13} \end{gathered} ) \\ = ( \begin{gathered} 4 \\ - 1 \end{gathered} ) \end{gathered}$
 > 
 > > *Write as coordinates*
 > 

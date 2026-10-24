@@ -71,7 +71,7 @@ $\frac{Δ(mv)}{Δv}=m\frac{Δv}{Δv}=m$
 - Rearranging for Δ*t*
 
   - $\Deltat=\frac{m\Deltav}{F}$
-  - `increment t equals fraction numerator open parentheses 6.7 cross times 10 to the power of 7 close parentheses open parentheses 18.9 minus 0 close parentheses over denominator 880000 end fraction`
+  - $\Delta t = \frac{( 6.7 \times 10^{7} ) ( 18.9 - 0 )}{880000}$
   - $\Deltat=1439s$
 - Divide by 60 to convert to minutes
 
@@ -163,7 +163,7 @@ $\frac{Δ(mv)}{Δv}=m\frac{Δv}{Δv}=m$
   - $a=\frac{F}{5m}$
 - We can use Newton’s Second Law again to calculate the force on block Y only
 
-  - `F subscript y equals open parentheses 4 m close parentheses space a equals open parentheses 4 m close parentheses open parentheses fraction numerator F over denominator 5 m end fraction close parentheses equals fraction numerator 4 F over denominator 5 end fraction`
+  - $F_{y} = ( 4 m ) a = ( 4 m ) ( \frac{F}{5 m} ) = \frac{4 F}{5}$
 
 ### Q11
 **Final answer:** **The correct answer is ****B ****because:**
@@ -250,11 +250,11 @@ $\frac{Δ(mv)}{Δv}=m\frac{Δv}{Δv}=m$
 
   - $F=ma=\frac{m\Deltav}{t}=\frac{\Deltap}{t}$
 
-**A **is incorrect because 'acceleration per unit mass' is equivalent to $\frac{a}{m}$. According to Newton's second law, force is the product of mass and acceleration `open parentheses F space equals space m a close parentheses`.
+**A **is incorrect because 'acceleration per unit mass' is equivalent to $\frac{a}{m}$. According to Newton's second law, force is the product of mass and acceleration $( F = m a )$.
 
-**B **is incorrect because a change in kinetic energy per unit time (rate of change of energy) is equivalent to power `open parentheses P space equals space E over t close parentheses`.
+**B **is incorrect because a change in kinetic energy per unit time (rate of change of energy) is equivalent to power $( P = \frac{E}{t} )$.
 
-**D **is incorrect because a 'change in velocity per unit time' (rate of change of velocity) is equivalent to acceleration `open parentheses a space equals space fraction numerator increment v over denominator increment t end fraction close parentheses`.
+**D **is incorrect because a 'change in velocity per unit time' (rate of change of velocity) is equivalent to acceleration $( a = \frac{\Delta v}{\Delta t} )$.
 
 ### Q18
 **Final answer:** **The correct answer is ****C**** because:**
@@ -320,7 +320,7 @@ $\frac{Δ(mv)}{Δv}=m\frac{Δv}{Δv}=m$
 
   - $W=mg$
 
-- Where $g=9.81ms^{-2}$ on Earth and* *`g equals fraction numerator 9.81 over denominator 6 end fraction open parentheses equals 1.63 space straight m space straight s to the power of negative 2 end exponent close parentheses`on planet X
+- Where $g=9.81ms^{-2}$ on Earth and* *$g = \frac{9.81}{6} ( = 1.63 \mathrm{m} \mathrm{s}^{- 2} )$on planet X
 - The weight of the body on planet X is
 
   - $W=\frac{60\times9.81}{6}=98N$
@@ -342,7 +342,7 @@ $\frac{Δ(mv)}{Δv}=m\frac{Δv}{Δv}=m$
 
   - The weight of the object depends on its mass and the strength of the gravitational field at that location
 
-**A **is incorrect because while the work done lifting an object 1.0 m vertically is numerically related to weight `open parentheses W space equals space m g h close parentheses`, it describes energy, whereas weight is a force.
+**A **is incorrect because while the work done lifting an object 1.0 m vertically is numerically related to weight $( W = m g h )$, it describes energy, whereas weight is a force.
 
 **B **is incorrect because these definitions are correct, but are the wrong way around.
 

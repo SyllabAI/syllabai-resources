@@ -599,7 +599,7 @@ State the **formula** for finding the upper quartile in terms of $n$.
 
 **BACK**
 
-Upper quartile `equals fraction numerator 3 open parentheses n plus 1 close parentheses over denominator 4 end fraction`th value
+Upper quartile $= \frac{3 ( n + 1 )}{4}$th value
 
 - where $n$ is the total frequency
 

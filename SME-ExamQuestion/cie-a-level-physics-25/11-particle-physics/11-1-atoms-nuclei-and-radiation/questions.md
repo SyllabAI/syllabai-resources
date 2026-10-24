@@ -96,7 +96,7 @@ Which three labels on these diagrams refer to the **same** kind of radiation?
 
 **Q8** [1 mark]
 
-Plutonium-239 `open parentheses P presubscript 94 presuperscript 239 u close parentheses` decays by emitting α-radiation.
+Plutonium-239 $( P_{94}^{239} u )$ decays by emitting α-radiation.
 
 Which nuclide is formed from one of these decay reactions? (The product nuclides are represented by X.)
 
@@ -252,7 +252,7 @@ Which decay sequence will result in the highest number of neutrons in nucleus Y 
 
 **Q23** [1 mark]
 
-The isotope `bold italic R presubscript bold 86 presuperscript bold 222 bold italic n` decays in a sequence of emissions to form the isotope `bold italic P presubscript bold 82 presuperscript bold 206 bold italic b`.
+The isotope `R _ 86 ^ 222 n` decays in a sequence of emissions to form the isotope `P _ 82 ^ 206 b`.
 
 It will either emit an α-particle or a β-particle at each stage of the decay sequence.
 
@@ -264,7 +264,7 @@ What is the number of stages in the decay sequence?
 
 Four nuclei are represented below
 
-`Q presubscript 13 presuperscript 24 space space space space space E presubscript 14 presuperscript 28 space space space space space G presubscript 15 presuperscript 25 space space space space space M presubscript 12 presuperscript 25`
+$Q_{13}^{24} E_{14}^{28} G_{15}^{25} M_{12}^{25}$
 
 Which of the following statements about these nuclei is correct?
 
@@ -373,6 +373,6 @@ When β<sup>−</sup> particles are emitted from identical nuclei in a substance
 
 A stationary decay `P presubscript 84 presuperscript 210 o` of  by *α*-emission has a total kinetic energy of *E*<sub>*k*</sub>
 
-`P presubscript 84 presuperscript 210 o space rightwards arrow space P presubscript 82 presuperscript 206 b space plus space alpha`
+$P_{84}^{210} o \rightarrow P_{82}^{206} b + \\alpha$
 
 What is the kinetic energy of the daughter nucleus `P presubscript 82 presuperscript 206 b` ?

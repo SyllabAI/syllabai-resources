@@ -115,7 +115,7 @@
   },
   {
    "type": "bullets",
-   "md": "- Following these steps will help when carrying out a hypothesis test for the mean of a normal distribution:\n- **Step 1.**  Define the distribution of the **population mean** usually `X tilde size 16px N size 16px left parenthesis size 16px mu size 16px comma size 16px sigma to the power of size 16px 2 size 16px right parenthesis`\n- **Step 2.  **Write the null and alternative hypotheses clearly"
+   "md": "- Following these steps will help when carrying out a hypothesis test for the mean of a normal distribution:\n- **Step 1.**  Define the distribution of the **population mean** usually $X \\sim \\text{size} 16px N \\text{size} 16px ( \\text{size} 16px \\\\mu \\text{size} 16px , \\text{size} 16px \\\\sigma ^{size} 16px 2 \\text{size} 16px )$\n- **Step 2.  **Write the null and alternative hypotheses clearly"
   },
   {
    "type": "bullets",
@@ -146,7 +146,7 @@
   },
   {
    "type": "bullets",
-   "md": "- The population mean is tested by looking at the mean of a sample taken from the population\n\n  - The sample mean is denoted $\\overline{x}$\n  - For a random variable `X tilde size 16px N size 16px left parenthesis size 16px mu size 16px comma size 16px sigma to the power of size 16px 2 size 16px right parenthesis` the distribution of the sample mean would be `X with bar on top tilde N left parenthesis mu comma sigma squared over n right parenthesis`\n- To carry out a hypothesis test with the normal distribution, the **statistic used to carry out the test **will be the **sample mean, **`top enclose X`\n\n  - Remember that the **variance** of the sample mean distribution will be the variance of the population distribution **divided by *****n***\n  - the **mean** of the sample mean distribution will be the same as the mean of the population distribution"
+   "md": "- The population mean is tested by looking at the mean of a sample taken from the population\n\n  - The sample mean is denoted $\\overline{x}$\n  - For a random variable $X \\sim \\text{size} 16px N \\text{size} 16px ( \\text{size} 16px \\\\mu \\text{size} 16px , \\text{size} 16px \\\\sigma ^{size} 16px 2 \\text{size} 16px )$ the distribution of the sample mean would be $\\bar{X} \\sim N ( \\\\mu , \\frac{\\\\sigma ^{2}}{n} )$\n- To carry out a hypothesis test with the normal distribution, the **statistic used to carry out the test **will be the **sample mean, **$\\vec{X}$\n\n  - Remember that the **variance** of the sample mean distribution will be the variance of the population distribution **divided by *****n***\n  - the **mean** of the sample mean distribution will be the same as the mean of the population distribution"
   },
   {
    "type": "heading",
@@ -164,7 +164,7 @@
   },
   {
    "type": "bullets",
-   "md": "- The **critical value(s)** will be the boundary of the** critical region**\n\n  - The probability of the observed value being within the critical region, given a true null hypothesis will be the same as the** significance level**\n- For an* *$α$*%*  significance level:\n\n  - In a one-tailed test the critical region will consist of  $α$*% *in the tail that is being tested for\n  - In a two-tailed test the critical region will consist of `alpha over 2 percent sign` in each tail"
+   "md": "- The **critical value(s)** will be the boundary of the** critical region**\n\n  - The probability of the observed value being within the critical region, given a true null hypothesis will be the same as the** significance level**\n- For an* *$α$*%*  significance level:\n\n  - In a one-tailed test the critical region will consist of  $α$*% *in the tail that is being tested for\n  - In a two-tailed test the critical region will consist of $\\frac{ \\alpha }{2} \\%$ in each tail"
   },
   {
    "type": "figure",
@@ -181,7 +181,7 @@
    "type": "callout",
    "variant": "worked-example",
    "label": "Worked Example",
-   "md": "The time,  minutes, that it takes Amelea to complete a 1000-piece puzzle can be modelled using `X tilde straight N left parenthesis 204 comma 81 right parenthesis` .  Amelea gets prescribed a new pair of glasses and claims that the time it takes her to complete a 1000-piece puzzle has decreased.  Wearing her new glasses, Amelea completes 12 separate 1000-piece puzzles and calculates her mean time on these puzzles to be 201 minutes.  Use these 12 puzzles as a sample to test, at the 5% level of significance, whether there is evidence to support Amelea’s claim. You may assume the variance is unchanged.\n\n**Answer:**\n\n![3-3-1-hypothesis-nd-we-solution](assets/a4312846cd9c-image.bin)"
+   "md": "The time,  minutes, that it takes Amelea to complete a 1000-piece puzzle can be modelled using $X \\sim \\mathrm{N} ( 204 , 81 )$ .  Amelea gets prescribed a new pair of glasses and claims that the time it takes her to complete a 1000-piece puzzle has decreased.  Wearing her new glasses, Amelea completes 12 separate 1000-piece puzzles and calculates her mean time on these puzzles to be 201 minutes.  Use these 12 puzzles as a sample to test, at the 5% level of significance, whether there is evidence to support Amelea’s claim. You may assume the variance is unchanged.\n\n**Answer:**\n\n![3-3-1-hypothesis-nd-we-solution](assets/a4312846cd9c-image.bin)"
   },
   {
    "type": "callout",

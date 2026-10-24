@@ -49,7 +49,7 @@ List the known quantities:
 (ii) The ratio of molecules of water to the number of radium-228 atoms is:
 
 - Number of water molecules in 1.0 kg = $\frac{N_{A}}{m}=\frac{6.02\times10^{23}}{0.018}$ = 3.34 × 10<sup>25</sup> **[1 mark]**
-- Ratio = `fraction numerator number space of space molecules space of space water space in space 1.0 space kg space of space water over denominator number space of space Ra presuperscript 228 space atoms space in space 1.0 space kg space of space water end fraction`
+- Ratio = `(number of molecules of water in 1.0 kg of water)/(number of Ra ^ 228 atoms in 1.0 kg of water)`
 - Ratio = $\frac{3.34\times10^{25}}{5.22\times10^{6}}$ = 6.4 × 10<sup>18</sup> **[1 mark]**
 
 **[Total: 4 marks]**
@@ -64,8 +64,8 @@ List the known quantities:
 Use the exponential decay equation for activity to determine the time:
 
 - Exponential decay:  $A=A_{0}e^{-λt}$ **[1 mark]**
-- `A over A subscript 0 space equals space e to the power of negative lambda t end exponent space space space space space rightwards double arrow space space space space space ln space open parentheses A over A subscript 0 close parentheses space equals space minus lambda t space space space space space rightwards double arrow space space space space space t space equals space minus fraction numerator ln space open parentheses A over A subscript 0 close parentheses over denominator lambda end fraction`
-- Time (in s):  `t space equals space minus fraction numerator ln space open parentheses fraction numerator 18.5 over denominator 20 end fraction close parentheses over denominator 3.83 cross times 10 to the power of negative 9 end exponent end fraction` = 2.04 × 10<sup>7</sup> s **[1 mark]**
+- `A / A _ 0 = e ^ - lambda t <-> ln ( A / A _ 0 ) = - lambda t <-> t = - (ln ( A / A _ 0 ))/(lambda)`
+- Time (in s):  $t = - \frac{\ln ( \frac{18.5}{20} )}{3.83 \times 10^{- 9}}$ = 2.04 × 10<sup>7</sup> s **[1 mark]**
 - Time (in days):  $t=\frac{2.04\times10^{7}}{60\times60\times24}$ = 236 days **[1 mark]**
 
 **[Total: 3 marks]**
@@ -173,7 +173,7 @@ Possible isotopes of neptunium:
 
 The correct expression is:
 
-- `open parentheses lambda space equals close parentheses space fraction numerator 0.693 over denominator 49 cross times 60 end fraction` **[1 mark]**
+- $( \\lambda = ) \frac{0.693}{49 \times 60}$ **[1 mark]**
 
 **[Total: 6 marks]**
 
@@ -182,9 +182,9 @@ The correct expression is:
 > *For part (ii), you needed to realise that the probability per second of decay of a nucleus is the definition of **decay constant **and that you need to multiply the **half-life by 60** to convert it into seconds*
 The correct nuclear decay equations are:
 
-- `Np presubscript 93 presuperscript 240 space rightwards arrow space Pu presubscript 94 presuperscript 240 space plus space straight beta presubscript negative 1 end presubscript presuperscript 0 space plus space top enclose nu`; **[1 mark]**
-- `Np presubscript 93 presuperscript 231 space rightwards arrow space straight U presubscript 92 presuperscript 231 space space plus space straight beta presubscript plus 1 end presubscript presuperscript 0 space plus space nu`; **[1 mark]**
-- `Np presubscript 93 presuperscript 226 space rightwards arrow space Pa presubscript 91 presuperscript 222 space plus space straight alpha presubscript 2 presuperscript 4`; **[1 mark]**
+- `Np _ 93 ^ 240 -> Pu _ 94 ^ 240 + beta _ - 1 ^ 0 + top nu`; **[1 mark]**
+- `Np _ 93 ^ 231 -> U _ 92 ^ 231 + beta _ + 1 ^ 0 + nu`; **[1 mark]**
+- $Np_{93}^{226} \rightarrow Pa_{91}^{222} + \ \\alpha pre_{2} pre^{4}$; **[1 mark]**
 
 **[Total: 3 marks]**
 
@@ -208,7 +208,7 @@ Calculate the decay constant  of the rubidium using the expression from the form
 Use the decay equation from the formula page to calculate the mass *m* of `R presubscript 37 presuperscript 87 b` present in the rock sample 4.47 × 10<sup>9 </sup>years ago:
 
 - $x=x_{0}e^{-λt}$ so *m* =$m_{0}e^{-λt}$ (because mass *m* is proportional to number of nuclei $x$)
-- (1.20 × 10<sup>–3</sup>) = `m subscript 0 e to the power of negative open parentheses 1.41 cross times 10 to the power of negative 11 end exponent close parentheses cross times open parentheses 4.47 cross times 10 to the power of 9 close parentheses end exponent` = 0.939 ×$m_{0}$
+- (1.20 × 10<sup>–3</sup>) = $m_{0} e^{- ( 1.41 \times 10^{-11} } ) \times ( 4.47 \times 10^{9 )}$ = 0.939 ×$m_{0}$
 - $m_{0}$*= *$\frac{1.2\times10^{-3}}{0.939}$*=* 1.28 × 10<sup>–3</sup> g ~ 1.3 mg **[1 mark]**** **
 
 **[Total: 2 marks]**
@@ -226,7 +226,7 @@ From data page:
 Calculate the number of nuclei, *N* , in 1.2 mg of  `R presubscript 37 presuperscript 87 b` :
 
 - $N=\frac{\mathrm{mass}}{\mathrm{mass} \mathrm{of} \mathrm{one} \mathrm{nucleus}}=\frac{\mathrm{mass}}{87u}$
-- *N* =`begin mathsize 16px style fraction numerator 1.2 cross times 10 to the power of negative 6 end exponent over denominator 87 cross times open parentheses 1.66 cross times 10 to the power of negative 27 end exponent close parentheses end fraction end style` = 8.3 × 10<sup>18 </sup>**[1 mark]**** **
+- *N* =$\frac{1.2 \times 10^{- 6} }{87 \times ( 1.66 \times 10^{- 27} )}$ = 8.3 × 10<sup>18 </sup>**[1 mark]**** **
 
 Calculate the decay constant in seconds:
 
@@ -261,8 +261,8 @@ Calculate the decay constant of carbon-14:
 Calculate the elapsed time using the decay equation:
 
 - $x=x_{0}e^{-λt}$ where $x$  represents the ratio of C-14
-- `begin mathsize 16px style fraction numerator 1 over denominator 8 cross times 10 to the power of 10 end fraction equals fraction numerator 1 over denominator 3 cross times 10 to the power of 10 end fraction e to the power of negative open parentheses 3.9 cross times 10 to the power of negative 12 end exponent close parentheses t end exponent end style` **[1 mark]**
-- Multiply both sides by 3 × 10<sup>10</sup> to obtain 0.375 = `e to the power of negative open parentheses 3.9 cross times 10 to the power of negative 12 end exponent close parentheses t end exponent`
+- $\frac{1}{8 \times 10^{10} = \frac{1}{3 \times 10^{10} e^{-(} \text{parentheses} 3.9 \times 10^{-12} } ) t}$ **[1 mark]**
+- Multiply both sides by 3 × 10<sup>10</sup> to obtain 0.375 = $e^{- ( 3.9 \times 10^{- 12} ) t}$
 - ln 0.375 = – (3.9 × 10<sup>–12</sup>) × t
 - t = 2.5 × 10<sup>11</sup> s = 7900 years **[1 mark] **
 
@@ -294,7 +294,7 @@ Calculate the elapsed time using the decay equation:
 ![spontaneous-random-decay-ma](assets/010-spontaneous-random-decay-ma.png)
 The correct equation for the decay is:
 
-- `Tc presubscript 43 presuperscript 101 space rightwards arrow space Ru presubscript bold 44 presuperscript bold 101 space plus space straight beta presubscript bold minus bold 1 end presubscript presuperscript bold 0 space plus space scriptbase bold nu with bold bar on top end scriptbase presubscript bold 0 presuperscript bold 0 subscript bold e`
+- `Tc _ 43 ^ 101 -> Ru _ 44 ^ 101 + beta _ - 1 ^ 0 + nu -bar _ 0 ^ 0 _ e`
 - Ruthenium:  A = 101, Z = 44; **[1 mark]**
 - Beta-minus:  A = 0, Z = −1; **[1 mark]**
 - Antineutrino: A = 0, Z = 0; **[1 mark]**
@@ -309,7 +309,7 @@ The correct equation for the decay is:
 - (From graph) *N* at 14 minutes = 4.4 × 10<sup>7</sup> **[1 mark]**
 - (From graph) *t*  = 14 minutes is the half-life; **[1 mark]**
 - Activity:  $A=λN\RightarrowA=\frac{N\mathrm{ln}2}{t_{1/2}}$ **[1 mark]**
-- Activity:  `A space equals space fraction numerator open parentheses 4.4 cross times 10 to the power of 7 close parentheses cross times ln space 2 over denominator 14 cross times 60 end fraction` = 3.6 × 10<sup>4</sup> Bq **[1 mark]**
+- Activity:  $A = \frac{( 4.4 \times 10^{7} ) \times \ln 2}{14 \times 60}$ = 3.6 × 10<sup>4</sup> Bq **[1 mark]**
 
 **OR**
 
@@ -317,7 +317,7 @@ The correct equation for the decay is:
 
 - Tangent drawn at *t* = 14 minutes; **[1 mark]**
 - Activity = gradient of tangent; **[1 mark]**
-- Activity = `fraction numerator open parentheses 7.4 space minus space 0 close parentheses cross times 10 to the power of 7 over denominator open parentheses 34 space minus space 0 close parentheses cross times 60 end fraction` **[1 mark]**
+- Activity = $\frac{( 7.4 - 0 ) \times 10^{7} }{( 34 - 0 ) \times 60}$ **[1 mark]**
 - Activity = 3.6 × 10<sup>4</sup> Bq **[1 mark]**
 
 (ii) Calculate the decay constant *λ* of technetium-101:
@@ -403,12 +403,12 @@ Recall the proton and mass number of alpha and beta particles:
 Calculate the new proton and mass number after 8 alpha decays, labelling this unknown isotope as Y:
 
 - 8 alpha decays means the proton number will decrease by 8 × 2 = 16 and the mass number will decrease by 8 × 4 = 32
-- `U presubscript 92 presuperscript 238 space rightwards arrow space Y presubscript 76 presuperscript 206 space plus 8 space alpha presubscript 2 presuperscript 4`** [1 mark]**
+- $U_{92}^{238} \rightarrow Y_{76}^{206} + 8 \\alpha pre_{2} pre^{4}$** [1 mark]**
 
 Calculate the change in proton number from isotope Y to lead-206:
 
 - `Y presubscript 76 presuperscript 206` to `P presubscript 82 presuperscript 206 b` means the proton number must increase by 6
-- `Y presubscript 76 presuperscript 206 space rightwards arrow space P presubscript 82 presuperscript 206 b space plus space 6 beta presubscript negative 1 end presubscript presuperscript 0`** [1 mark]**
+- `Y _ 76 ^ 206 -> P _ 82 ^ 206 b + 6 beta _ - 1 ^ 0`** [1 mark]**
 - This means 6 beta particles are emitted: X = 6 **[1 mark]**
 
 **[Total: 4 marks] **
@@ -436,23 +436,23 @@ Substitute the expression for $N_{U}$ and simplify the expression:
 > *Make sure you are comfortable interpreting the ‘exponential decay’ equation as the number of nuclei remaining in a sample. That way, you can always form an expression for the **initial number** of nuclei, in terms of a sum of the number of decayed nuclei and the number of nuclei remaining.*
 Write an expression for the activity of each nuclide in terms of the number of half-lives completed:
 
-- `A subscript X equals A subscript 0 open parentheses 1 half close parentheses to the power of N`  and `A subscript Y equals A subscript 0 open parentheses 1 half close parentheses to the power of N` where *N* is the number of half-lives
+- $A_{X} = A_{0} ( 1 \frac{1}{2} )^{N}$  and $A_{Y} = A_{0} ( 1 \frac{1}{2} )^{N}$ where *N* is the number of half-lives
 - The amount of time elapsed, *t, *can be written as some multiple *N * of half-lives: $t=N\timest_{1/2}$
 
 - Number of half-lives:* *$N=\frac{t}{t_{\frac{1}{2}}}$ **[1 mark]**
 
 Write an expression for the activity of each nuclide in terms of the time elapsed:
 
-- `A subscript X equals A subscript 0 open parentheses 1 half close parentheses to the power of 48 over 16 end exponent` **AND** `A subscript Y equals A subscript 0 open parentheses 1 half close parentheses to the power of 48 over 8 end exponent` **[1 mark]**
+- $A_{X} = A_{0} ( 1 \frac{1}{2} )^{ \frac{48}{16} }$ **AND** $A_{Y} = A_{0} ( 1 \frac{1}{2} )^{ \frac{48}{8} }$ **[1 mark]**
 
 Write an expression for the total activity *A  *of the mixture:
 
 - $A=A_{X}+A_{Y}$
-- `A equals A subscript 0 open parentheses 1 half close parentheses to the power of 48 over 16 end exponent plus A subscript 0 open parentheses 1 half close parentheses to the power of 48 over 8 end exponent`
+- $A = A_{0} ( 1 \frac{1}{2} )^{ \frac{48}{16} } + A_{0} ( 1 \frac{1}{2} )^{ \frac{48}{8} }$
 
 Simplify the expression fully:
 
-- `A equals A subscript 0 open square brackets open parentheses 1 half close parentheses cubed plus open parentheses 1 half close parentheses to the power of 6 close square brackets``= \left(\frac{1}{8} + \frac{1}{64}\right) = \frac{9}{64} A_{0}` **[1 mark]**
+- $A = A_{0} [ ( 1 \frac{1}{2} )^{3} + ( 1 \frac{1}{2} )^{6} ]$`= \left(\frac{1}{8} + \frac{1}{64}\right) = \frac{9}{64} A_{0}` **[1 mark]**
 
 **[Total: 3 marks]**
 
@@ -461,11 +461,11 @@ Simplify the expression fully:
 ### Q8
 (i) The nuclear decay equation for the polonium isotope is:
 
-- `Po presubscript 84 presuperscript 213 space rightwards arrow space Pb presubscript 82 presuperscript 209 space plus space alpha presubscript 2 presuperscript 4` **[1 mark]**
+- $Po_{84}^{213} \rightarrow Pb_{82}^{209} + \\alpha pre_{2} pre^{4}$ **[1 mark]**
 
 (ii) The nuclear decay equation for the lead isotope is:
 
-- `Pb presubscript 82 presuperscript 209 space rightwards arrow space Bi presubscript 83 presuperscript 209`** [1 mark] **`plus straight e presubscript negative 1 end presubscript presuperscript 0 space plus space scriptbase nu with bar on top end scriptbase presubscript 0 presuperscript 0` **[1 mark]**
+- $Pb_{82}^{209} \rightarrow Bi_{83}^{209}$** [1 mark] **`+ e _ - 1 ^ 0 + nu -bar _ 0 ^ 0` **[1 mark]**
 
 **[Total: 3 marks]**
 (i) Decay constant is defined as:
@@ -477,8 +477,8 @@ Simplify the expression fully:
 
 **OR**
 
-- `lambda space equals space minus open parentheses fraction numerator d N over denominator d t end fraction close parentheses 1 over N`; **[1 mark]**
-- Where `negative open parentheses fraction numerator d N over denominator d t end fraction close parentheses` is the rate of decay of nuclei and *N* is the number of nuclei in the sample; **[1 mark]**
+- $\\lambda = - ( \frac{d N}{d t} ) \frac{1}{N}$; **[1 mark]**
+- Where $- ( \frac{d N}{d t} )$ is the rate of decay of nuclei and *N* is the number of nuclei in the sample; **[1 mark]**
 
 (ii) Calculate the decay constant of lead-209:
 
@@ -504,7 +504,7 @@ List the known quantities:
 Calculate the initial activity using the exponential decay equation:
 
 - Exponential decay:  $A=A_{0}e^{-λt}\RightarrowA_{0}=\frac{A}{e^{-λt}}$
-- `A subscript 0 space equals space fraction numerator 12 cross times 10 cubed space over denominator e to the power of negative open parentheses 5.83 cross times 10 to the power of negative 5 end exponent close parentheses cross times open parentheses 25 space 200 close parentheses end exponent end fraction` **[1 mark]**
+- $A_{0} = \frac{12 \times 10^{3} }{e^{- ( 5.83 \times 10^{- 5} ) \times ( 25 200 )} }$ **[1 mark]**
 - $A_{0}=5.21\times10^{4}=5.2\times10^{4}\mathrm{Bq}$ (2 s.f.) **[1 mark]**
 
 **[Total: 2 marks]**

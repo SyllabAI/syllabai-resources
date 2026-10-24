@@ -41,7 +41,7 @@ x̄<sub>1</sub> is the mean for sample 1, and x̄<sub>2</sub> is the mean for sa
 
 - **Step 2**:  Calculate the ***standard deviation*** for each set of data, s<sub>1</sub> = standard deviation of sample 1 and s<sub>2</sub> = standard deviation of sample 2
 
-`S subscript n equals square root of fraction numerator sum for blank of open parentheses x minus x with bar on top close parentheses squared over denominator n minus 1 end fraction end root`
+$S_{n} = \sqrt{ \frac{ \sum ( x - \bar{x} )^{2}}{n - 1} }$
 
 - **Step 3**:  Square the standard deviation and divide by *n* (the number of observations) in each sample, for both samples:
 
@@ -49,13 +49,13 @@ $\frac{s^{2}_{1}}{n_{1}}\mathrm{and}\frac{s^{2}_{2}}{n_{2}}$
 
 - **Step 4:**  Add the values from step 3 together and take the square root:
 
-`square root of open parentheses straight s squared subscript 1 over straight n subscript 1 plus straight s squared subscript 2 over straight n subscript 2 close parentheses end root`
+`sqrt( ( s ^2 _ 1 / n _ 1 + s ^2 _ 2 / n _ 2 ) )`
 
 - **Step 5:**  Divide the difference between the two means (see step 1) with the value calculated in step 4 to get the *t* value:
 
 ![Diagram illustrating a t-test formula with elements: means, standard deviations squared, and sample sizes, with reminder of equation provision in exam.](../../../assets/03cc6cffc85e-23426-httpscdn-savemyexams-comuploads202011t-tes.png)
 
-- **Step 6:**  Calculate the **degrees of freedom **(*v*) for the whole data set (remember the formulae for this will **not** be given in the exam): `straight v equals open parentheses straight n subscript 1 minus 1 close parentheses plus open parentheses straight n subscript 2 minus 1 close parentheses`
+- **Step 6:**  Calculate the **degrees of freedom **(*v*) for the whole data set (remember the formulae for this will **not** be given in the exam): $\mathrm{v} = ( \mathrm{n}_{1} - 1 ) + ( \mathrm{n}_{2} - 1 )$
 - **Step 7:**  Look at a table that relates *t* values to the probability that the differences between data sets is due to chance to find where the *t *value for the degrees of freedom (*v*) calculated lies
 
 | **Degrees of freedom** | **Value of t** |   |   |   |

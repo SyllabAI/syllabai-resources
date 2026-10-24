@@ -223,7 +223,7 @@
       "spcpt_73stmsk3vHbph42y"
      ],
      "part_tier": null,
-     "problem_md": "Two sets of data are given below:\n\n| **Set 1** | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 |\n|---|---|---|---|---|---|---|---|---|---|\n| **Set 2** | 1 | 5 | 5 | 5 | 5 | 5 | 5 | 5 | 9 |\n\nFor set 1,\n\n(i) Calculate the mean, $\\overline{x}$, of the data.\n\n(ii) Calculate the variance, $σ^{2}$, of the data using the formula:\n\n`sigma squared equals fraction numerator sum open parentheses x minus space x with bar on top close parentheses squared over denominator n end fraction`",
+     "problem_md": "Two sets of data are given below:\n\n| **Set 1** | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 |\n|---|---|---|---|---|---|---|---|---|---|\n| **Set 2** | 1 | 5 | 5 | 5 | 5 | 5 | 5 | 5 | 9 |\n\nFor set 1,\n\n(i) Calculate the mean, $\\overline{x}$, of the data.\n\n(ii) Calculate the variance, $σ^{2}$, of the data using the formula:\n\n$\\\\sigma ^{2} = \\frac{sum ( x - \\bar{x} )^{2}}{n}$",
      "solution_md": "![](assets/004-img.png)",
      "equations": [
       {
@@ -331,7 +331,7 @@
       "spcpt_bJ2N3km7G9FFwTBY"
      ],
      "part_tier": null,
-     "problem_md": "Find the interquartile range `open parentheses I Q R close parentheses` of the data.",
+     "problem_md": "Find the interquartile range $( I Q R )$ of the data.",
      "solution_md": "![](assets/021-img.png)",
      "spec_point_codes": [
       "2.3"
@@ -452,7 +452,7 @@
       "spcpt_73stmsk3vHbph42y"
      ],
      "part_tier": null,
-     "problem_md": "To calculate the standard deviation, Lucy could choose to use either of the following two formulae.\n\nstandard deviation =  `square root of fraction numerator sum open parentheses x minus x with bar on top close parentheses squared f over denominator sum f end fraction end root`     or     $\\sqrt{\\frac{\\sumx^{2}f}{\\sumf}}-\\overline{x}^{2}$ where $\\overline{x}=\\frac{\\sumxf}{\\sumf}$\n\n(i) Calculate the mean of Lucy’s data.\n\n(ii) Using the appropriate formula from above, calculate the standard deviation of Lucy’s data.",
+     "problem_md": "To calculate the standard deviation, Lucy could choose to use either of the following two formulae.\n\nstandard deviation =  $\\sqrt{ \\frac{sum ( x - \\bar{x} )^{2} f}{sum f} }$     or     $\\sqrt{\\frac{\\sumx^{2}f}{\\sumf}}-\\overline{x}^{2}$ where $\\overline{x}=\\frac{\\sumxf}{\\sumf}$\n\n(i) Calculate the mean of Lucy’s data.\n\n(ii) Using the appropriate formula from above, calculate the standard deviation of Lucy’s data.",
      "solution_md": "![](assets/011-img.png)",
      "equations": [
       {
@@ -803,7 +803,7 @@
       "spcpt_VdkHR5vRgMfZtKyd"
      ],
      "part_tier": null,
-     "problem_md": "A factory manufacturing garden chairs aims to produce 500 plastic chairs per day. \nOver the period of a fortnight (10 working days), it was found that  $\\sum(c-500)=-15$ and  $\\sum(c-500)^{2}=381$, where $c$ is the number of chairs made per day.\n\nUse the formula below to find the mean number of chairs made per day over the fortnight.\n\n`fraction numerator sum open parentheses c minus 500 close parentheses over denominator n end fraction plus 500`",
+     "problem_md": "A factory manufacturing garden chairs aims to produce 500 plastic chairs per day. \nOver the period of a fortnight (10 working days), it was found that  $\\sum(c-500)=-15$ and  $\\sum(c-500)^{2}=381$, where $c$ is the number of chairs made per day.\n\nUse the formula below to find the mean number of chairs made per day over the fortnight.\n\n$\\frac{sum ( c - 500 )}{n} + 500$",
      "solution_md": "![](assets/014-img.png)",
      "equations": [
       {
@@ -844,7 +844,7 @@
       "spcpt_73stmsk3vHbph42y"
      ],
      "part_tier": null,
-     "problem_md": "Use the formula below to find the standard deviation for the number of chairs made per day over the fortnight.\n\n`square root of open parentheses fraction numerator sum left parenthesis c minus 500 right parenthesis squared over denominator n end fraction close parentheses minus open parentheses fraction numerator sum left parenthesis c minus 500 right parenthesis over denominator n end fraction close parentheses end root squared`",
+     "problem_md": "Use the formula below to find the standard deviation for the number of chairs made per day over the fortnight.\n\n$\\sqrt{( \\frac{sum ( c - 500 )^{2}}{n} ) - ( \\frac{sum ( c - 500 )}{n} )}^{2}$",
      "solution_md": "![](assets/015-img.png)",
      "spec_point_codes": [
       "2.3",
@@ -1360,7 +1360,7 @@
       "spcpt_bJ2N3km7G9FFwTBY"
      ],
      "part_tier": null,
-     "problem_md": "A golfer records her scores for her last 8 rounds of golf, which are given below.\n\n73         75         81         72         76         99         80         78\n\n(i) Find the median `open parentheses Q subscript 2 close parentheses` , the lower quartile `open parentheses Q subscript 1 close parentheses`  and the upper quartile `open parentheses Q subscript 3 close parentheses` .\n\n(ii) Find the interquartile range.",
+     "problem_md": "A golfer records her scores for her last 8 rounds of golf, which are given below.\n\n73         75         81         72         76         99         80         78\n\n(i) Find the median $( Q_{2} )$ , the lower quartile $( Q_{1} )$  and the upper quartile $( Q_{3} )$ .\n\n(ii) Find the interquartile range.",
      "solution_md": "![](assets/065-img.png)",
      "spec_point_codes": [
       "2.3"
@@ -2597,7 +2597,7 @@
       "spcpt_VdkHR5vRgMfZtKyd"
      ],
      "part_tier": null,
-     "problem_md": "Lab technicians were studying the effect of caffeine on mice.  The resting heart rates, $x$ beats per minute (bpm), of some mice were recorded and the results were summarised by `straight capital sigma open parentheses x minus a close parentheses` = 150  and   `straight capital sigma open parentheses x minus a close parentheses squared` = 1050,  where $a$ is a constant.\n\nGiven that the variance of the resting heart rates was found to be 10 bpm², calculate the two possible options for the number of mice in the study.",
+     "problem_md": "Lab technicians were studying the effect of caffeine on mice.  The resting heart rates, $x$ beats per minute (bpm), of some mice were recorded and the results were summarised by `capital sigma ( x - a )` = 150  and   `capital sigma ( x - a ) ^2` = 1050,  where $a$ is a constant.\n\nGiven that the variance of the resting heart rates was found to be 10 bpm², calculate the two possible options for the number of mice in the study.",
      "solution_md": "![](assets/032-img.png)",
      "equations": [
       {

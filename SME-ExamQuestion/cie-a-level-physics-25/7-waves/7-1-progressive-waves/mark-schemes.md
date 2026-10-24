@@ -35,7 +35,7 @@ $λ'=\frac{1}{3}\times\frac{c}{f}=\frac{1}{3}λ$
 
   - $A^{2}αI$
 - The amplitude of the emerging light, let’s call this $A_{em}=Acos60^{\circ}$
-- Intensity of the emerging light is proportional to `A squared subscript e m end subscript equals A squared c o s squared open parentheses 60 degree close parentheses equals 0.250 space A squared`
+- Intensity of the emerging light is proportional to $A^{2}_{e m} = A^{2} c o s^{2} ( 60^{\circ} ) = 0.250 A^{2}$
 
   - $A^{2}_{em}αI$
   - $0.250A^{2}αI$
@@ -56,11 +56,11 @@ $λ'=\frac{1}{3}\times\frac{c}{f}=\frac{1}{3}λ$
 - From the graph, the amplitude is 2 m
 - The equation for the maximum speed of the particles is
 
-  - `2 straight pi straight a f equals 2 straight pi open parentheses 2 close parentheses open parentheses 0.16 close parentheses equals 0.64 straight pi space straight m space straight s to the power of negative 1 end exponent`
+  - $2 \mathrm{\pi } \mathrm{a} f = 2 \mathrm{\pi } ( 2 ) ( 0.16 ) = 0.64 \mathrm{\pi } \mathrm{m} \mathrm{s}^{- 1}$
 
 - Therefore, the maximum kinetic energy is equal to
 
-  - `1 half m v squared equals 1 half open parentheses 2.5 cross times 10 to the power of negative 3 end exponent close parentheses open parentheses 0.64 straight pi close parentheses squared equals 0.0051 equals 5.1 space mJ`
+  - $1 \frac{1}{2} m v^{2} = 1 \frac{1}{2} ( 2.5 \times 10^{- 3} ) ( 0.64 \mathrm{\pi } )^{2} = 0.0051 = 5.1 \text{mJ}$
 
 ### Q4
 **Final answer:** **The correct answer is ****C**** because:**
@@ -77,7 +77,7 @@ $λ'=\frac{1}{3}\times\frac{c}{f}=\frac{1}{3}λ$
   - $1.5T=30\times10$
   - $T=\frac{30\times10}{1.5}=200$
 - The period of the wave is *T* = 200 μs = 2 × 10<sup>–4 </sup>s
-- Frequency =`1 over T equals fraction numerator 1 over denominator open parentheses 2 cross times 10 to the power of negative 4 end exponent close parentheses end fraction equals 5000 space Hz equals 5 space kHz`
+- Frequency =$\frac{1}{T} = \frac{1}{( 2 \times 10^{- 4} )} = 5000 \text{Hz} = 5 \text{kHz}$
 
 ### Q5
 **Final answer:** **The correct answer is ****B**** because:**
@@ -181,13 +181,13 @@ $λ'=\frac{1}{3}\times\frac{c}{f}=\frac{1}{3}λ$
   - $Iα\frac{1}{x^{2}}$
 - When the distance is doubled this causes the intensity to decrease by a quarter
 
-  - `I space alpha space 1 over open parentheses 2 x close parentheses squared equals fraction numerator 1 over denominator 4 x squared end fraction`
+  - $I \\alpha \frac{1}{( 2 x )^{2}} = \frac{1}{4 x^{2}}$
 - Intensity *I* is also proportional to amplitude squared *A*<sup>*2*</sup>
 
   - $IαA^{2}$
 - From the question, we can see the amplitude is 8 μm, so intensity is proportional to 8<sup>2</sup>
 
-  - `I space alpha space open parentheses 8 A close parentheses squared`
+  - $I \\alpha ( 8 A )^{2}$
 - So, at a distance 2*r*, the intensity will be $\frac{1}{4}$and *A*<sup>*2*</sup> is equal to $\frac{8^{2}}{4}$
 - Therefore, the amplitude at T is equal to $A=\sqrt{8.0^{2}\div4}=4.0\mathrm{μm}$
 
@@ -252,7 +252,7 @@ From the diagram, the particle at position 1 will be moving downwards and the pa
 - So, wavelength is $λ=\frac{v}{f}=\frac{340}{500}=0.68m$
 - One wavelength *λ* is equivalent to a phase difference of 360 degrees (which is equal to $2π$ rad)
 - Therefore, a separation of 0.68 m (one wavelength) corresponds to a phase difference of 2$π$ rad
-- So, a separation of 0.17m corresponds to `equals open parentheses fraction numerator 0.17 over denominator 0.68 end fraction close parentheses cross times 2 straight pi equals straight pi over 2 space rad`
+- So, a separation of 0.17m corresponds to `= ( (0.17)/(0.68) ) x 2 pi = pi / 2 rad`
 
 ### Q19
 **Final answer:** **The correct answer is ****D**** because:**
@@ -261,12 +261,12 @@ From the diagram, the particle at position 1 will be moving downwards and the pa
 - The equation for the speed of the wave is $v=fλ$
 - By substituting $v=fλ$ into the first equation gives
 
-  - `open parentheses f lambda close parentheses squared equals fraction numerator g lambda over denominator 2 straight pi end fraction`
-  - `f squared equals open parentheses fraction numerator g lambda over denominator 2 straight pi end fraction close parentheses open parentheses 1 over lambda squared close parentheses equals open parentheses fraction numerator g over denominator 2 straight pi end fraction close parentheses open parentheses 1 over lambda close parentheses`
+  - $( f \\lambda )^{2} = \frac{g \\lambda }{2 \mathrm{\pi } }$
+  - `f ^2 = ( (g lambda)/(2 pi) ) ( 1 / lambda ^2 ) = ( (g)/(2 pi) ) ( 1 / lambda )`
 - The equation of a straight line is $y=mx+c$
 - A line going through the origin has a y-intercept of c = 0 so $y=mx$
 
-  - Comparing with `f squared equals open parentheses fraction numerator g over denominator 2 pi end fraction close parentheses open parentheses 1 over lambda close parentheses space w i t h space y equals m x`
+  - Comparing with $f ^{2} = ( \frac{g}{2 pi} ) ( \frac{1}{ \lambda } ) w i t h y = m x$
 - We can see y is equal to *f *<sup>*2*</sup> and x is equal to $\frac{1}{λ}$, so, a plot of these two quantities on a graph would give a straight line through the origin
 
 ### Q20
@@ -284,5 +284,5 @@ From the diagram, the particle at position 1 will be moving downwards and the pa
   - $IαA^{2}$
 - Doubling the amplitude increases the intensity to increase by a factor of 2<sup>2</sup>
 
-  - `I space alpha space open parentheses 2 A close parentheses squared equals 4 A squared`
+  - $I \\alpha ( 2 A )^{2} = 4 A^{2}$
 - The new power will therefore be $4\times3P=12P$

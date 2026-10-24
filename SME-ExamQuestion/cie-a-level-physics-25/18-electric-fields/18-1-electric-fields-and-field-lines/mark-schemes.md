@@ -36,7 +36,7 @@ Rearrange for the acceleration, *a*:
 
 Substitute in the values:
 
-- `a space equals space fraction numerator space open parentheses 1.60 space cross times space 10 to the power of negative 19 end exponent close parentheses space cross times space open parentheses 2.5 space cross times space 10 to the power of negative 12 end exponent close parentheses over denominator 9.11 space cross times space 10 to the power of negative 31 end exponent end fraction` ** [1 mark]**
+- $a = \frac{ ( 1.60 \times 10^{- 19} ) \times ( 2.5 \times 10^{- 12} )}{9.11 \times 10^{- 31} }$ ** [1 mark]**
 - $a=0.439=0.44ms^{-2}$** [1 mark]**
 
 **[Total: 3 marks]**
@@ -93,7 +93,7 @@ Determine an equation for the acceleration, *a*:
 
 Substitute in the values:
 
-- `a space equals space fraction numerator open parentheses 6.0 space cross times space 10 to the power of negative 2 end exponent close parentheses space cross times space open parentheses 1.60 space cross times space 10 to the power of negative 19 end exponent close parentheses space over denominator 1.67 space cross times space 10 to the power of negative 27 end exponent end fraction` **[1 mark]**
+- $a = \frac{( 6.0 \times 10^{- 2} ) \times ( 1.60 \times 10^{- 19} ) }{1.67 \times 10^{- 27} }$ **[1 mark]**
 - $a=5.7\times10^{6}ms^{-2}$ **[1 mark]**
 
 **[Total: 3 marks]**
@@ -137,7 +137,7 @@ From the formulae page:
 Calculate the force:
 
 - $F=qE$
-- `F space equals space open parentheses 1.60 space cross times space 10 to the power of negative 19 end exponent close parentheses space cross times space open parentheses 5.6 space cross times space 10 cubed close parentheses`
+- $F = ( 1.60 \times 10^{- 19} ) \times ( 5.6 \times 10^{3} )$
 - $F=8.96\times10^{-16}=9.0\times10^{-16}N$ **[1 mark]**
 
 **[Total: 1 mark]**

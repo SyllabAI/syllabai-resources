@@ -8,7 +8,7 @@
 ### Q1
 > *Using the law of indices we can rewrite the left hand side of the equation*
 
-`5 to the power of p divided by 5 to the power of 8 equals 5 to the power of open parentheses p minus 8 close parentheses end exponent`
+$5^{p} \div 5^{8} = 5^{open} \text{parentheses} p - 8 )$
 
 *So,*
 
@@ -25,7 +25,7 @@ $p=13+8$
 $p=21$ **[1]**
 
 ### Q2
-> *Use the formula: Time = *$\frac{\mathrm{Distance}}{\mathrm{Speed}}$* where Distance = *$2.25\times10^{8}\mathrm{km}$* and Speed = *`5.8 cross times 10 to the power of 4 space km ⁄ straight h`* *
+> *Use the formula: Time = *$\frac{\mathrm{Distance}}{\mathrm{Speed}}$* where Distance = *$2.25\times10^{8}\mathrm{km}$* and Speed = *$5.8 \times 10^{4} \text{km} ⁄ \mathrm{h}$* *
 
 *Time = *$\frac{2.25\times10^{8}}{5.8\times10^{4}}$
 
@@ -144,7 +144,7 @@ $\frac{1}{25}$* ***[1]**
 ### Q7
 > *Using the order of operations*
 
-`open parentheses square root of 25 close parentheses squared equals 5 squared`
+$( \sqrt{25} )^{2} = 5^{2}$
 
 $25$ **[1]**
 
@@ -159,7 +159,7 @@ $931400$** [1]**
 
 (ii) *Type into a calculator. *
 
-`open parentheses 4.1 cross times 10 to the power of negative 3 end exponent close parentheses cross times open parentheses 8.9 cross times 10 to the power of 7 close parentheses equals 364 space 900`
+$( 4.1 \times 10^{- 3} ) \times ( 8.9 \times 10^{7} ) = 364 900$
 
 **[1]**
 
@@ -200,7 +200,7 @@ $0.0605=6.05\div10\div10$
 $6.05\times10^{-2}$* ***[1]**
 > *Type into a calculator.*
 
-`open parentheses 1.63 cross times 10 to the power of 12 close parentheses cross times open parentheses 2.47 cross times 10 to the power of negative 1 end exponent close parentheses equals 4.0261 cross times 10 to the power of 11`
+$( 1.63 \times 10^{12 ) \times ( 2.47 \times 10^{-1} } ) = 4.0261 \times 10^{11}$
 
 > *That's already in standard form, so just write down the answer. *
 

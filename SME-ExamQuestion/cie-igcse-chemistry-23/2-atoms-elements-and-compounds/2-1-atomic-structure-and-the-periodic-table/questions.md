@@ -20,7 +20,7 @@ What is the relative atomic mass of copper?
 
 Two atoms, X and Y can be represented as shown
 
-`straight X presubscript 3 presuperscript 7 space space space space space space space space space space space space space space straight Y presubscript 3 presuperscript 8`
+`X _ 3 ^ 7 Y _ 3 ^ 8`
 
 Which statement is correct for both atoms?
 
@@ -38,7 +38,7 @@ Which diagram shows a mixture of **noble gases**?
 
 Two atoms, X and Y** **can be represented as shown
 
-`straight X presubscript 3 presuperscript 7 space space space space space space space space space space space space space space straight Y presubscript 3 presuperscript 8`
+`X _ 3 ^ 7 Y _ 3 ^ 8`
 
 Which row is correct for both atoms?
 
@@ -138,7 +138,7 @@ Which row correctly describes the number of outer shell electrons and properties
 
 A selenide ion has the following notation.
 
-`Se presubscript 34 presuperscript 79 superscript 2 minus end superscript`
+$\text{Se} pre_{34} pre^{79^{2} -}$
 
 Which row correctly describes the subatomic particles in a selenide ion?
 

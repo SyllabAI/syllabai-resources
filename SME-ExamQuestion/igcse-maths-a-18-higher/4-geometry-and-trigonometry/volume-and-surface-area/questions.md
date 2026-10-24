@@ -112,7 +112,7 @@ The crate is a cuboid measuring 2.5 m by 2 m by 1.2 m
 
 He does these calculations.
 
-| `table row cell volume space of space crate space end cell equals cell space 2.5 space cross times space 2 space cross times space 1.2 space end cell row blank equals cell space 6 space straight m to the power of 3 space space end exponent end cell row cell volume space of space one space box space end cell equals cell space 0.5 space cross times space 0.5 space cross times space 0.5 space end cell row blank equals cell space 0.125 space straight m cubed space end cell row cell number space of space boxes space end cell equals cell space 6 space divided by space 0.125 space end cell row blank equals cell space 48 end cell end table` |
+| `| volume of crate | = 2.5 x 2 x 1.2 | | _ = 6 m ^ 3 | | volume of one box | = 0.5 x 0.5 x 0.5 | | _ = 0.125 m ^3 | | number of boxes | = 6 / 0.125 | | _ = 48 | |` |
 |---|
 
 He claims,

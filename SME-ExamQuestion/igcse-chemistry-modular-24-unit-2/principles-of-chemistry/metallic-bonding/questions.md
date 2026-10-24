@@ -266,9 +266,9 @@ Complete the following table to show the number of protons, electrons and neutro
 
 | **particle** | **number of protons** | **number of electrons** | **number of neutrons** |
 |---|---|---|---|
-| `begin mathsize 16px style Ga presubscript 31 presuperscript 71 end style` |   |   |   |
-| `Ga presubscript 31 presuperscript 71 superscript 3 plus end superscript` |   |   |   |
-| `begin mathsize 16px style Ga presubscript 31 presuperscript 69 end style` |   |   |   |
+| $Ga_{31}^{71}$ |   |   |   |
+| $\text{Ga} pre_{31} pre^{71^{3} +}$ |   |   |   |
+| $Ga_{31}^{69}$ |   |   |   |
 
 ### 3((b)) — 2 marks — command: give — structured — from paper 2016 · Ju42
 Give the formulae of

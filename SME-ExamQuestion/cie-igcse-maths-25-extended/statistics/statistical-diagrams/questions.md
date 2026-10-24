@@ -278,7 +278,7 @@ Give your answer correct to 3 significant figures.
 
 The number of people swimming in a pool is recorded each day for 12 days.
 
-`table row 24 cell space 28 end cell cell space 13 end cell cell space 38 end cell cell space 15 end cell cell space 26 end cell row 45 cell space 21 end cell cell space 48 end cell cell space 36 end cell cell space 18 end cell cell space 38 end cell end table`
+$\begin{gathered} 24 28 & 13 & 38 & 15 & 26 \\ 45 21 & 48 & 36 & 18 & 38 \end{gathered}$
 
 Complete the stem-and-leaf diagram.
 

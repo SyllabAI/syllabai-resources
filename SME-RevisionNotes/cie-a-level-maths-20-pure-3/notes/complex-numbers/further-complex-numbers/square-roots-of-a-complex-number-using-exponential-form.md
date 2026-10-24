@@ -17,14 +17,14 @@ guided_study: true
 
 ## Square roots of a complex number using exponential form
 
-Previously we looked at how to find the square roots of a complex number in Cartesian form (a+bi). We can also find square roots using polar (`r space open parentheses cos space theta plus straight i blank sin space theta close parentheses`) and exponential form ($re^{iθ}$).
+Previously we looked at how to find the square roots of a complex number in Cartesian form (a+bi). We can also find square roots using polar ($r ( \cos \\theta + \mathrm{i} \sin \\theta )$) and exponential form ($re^{iθ}$).
 
 ### How do I find a square root of a complex number in exponential form?
 
 - Let $w=re^{iθ}$ be a square root of $z=ne^{\mathrm{iα}}$
 
   - $w\timesw=z$
-  - `open parentheses r e to the power of straight i theta end exponent close parentheses squared equals n e to the power of straight i straight alpha end exponent`
+  - $( r e^{ \mathrm{i} \\theta } )^{2} = n e^{ \mathrm{i} \ \\alpha }$
 - Applying rules of indices:
 
   - $r^{2}e^{2iθ}=ne^{iα}$
@@ -56,7 +56,7 @@ Previously we looked at how to find the square roots of a complex number in Cart
 - So the two square roots of ($ne^{iα}$) are:
 
   - $z_{1}=\sqrt{n}e^{\frac{α}{2}i}$
-  - `z subscript 2 equals square root of n blank e to the power of open parentheses alpha over 2 plus straight pi close parentheses straight i end exponent`
+  - `z _ 2 = sqrt( n _ e ^ ( alpha / 2 + pi ) i`
 - You should notice that the two square roots are π radians apart from each other
 
   - This is always true when finding square roots

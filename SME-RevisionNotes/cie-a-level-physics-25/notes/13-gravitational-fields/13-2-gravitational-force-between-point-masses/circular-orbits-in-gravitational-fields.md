@@ -67,19 +67,19 @@ $v^{2}=\frac{GM}{r}\Rightarrowv=\sqrt{\frac{GM}{r}}$
 > 
 > **Step 1: Equating the centripetal force of mass M**<sub>**1**</sub>** to the gravitational force between M**<sub>**1**</sub>** and M**<sub>**2**</sub>
 > 
-> `M subscript 1 R subscript 1 omega squared space equals space fraction numerator G M subscript 1 M subscript 2 over denominator open parentheses R subscript 1 plus space R subscript 2 close parentheses squared end fraction`
+> $M_{1} R_{1} \\omega ^{2} = \frac{G M_{1} M_{2} }{( R_{1} + R_{2} )^{2}}$
 > 
 > **Step 2: M**<sub>**1**</sub>** cancels on both sides**
 > 
-> `R subscript 1 omega squared space equals fraction numerator space G M subscript 2 over denominator open parentheses R subscript 1 plus space R subscript 2 close parentheses squared end fraction`
+> $R_{1} \\omega ^{2} = \frac{ G M_{2} }{( R_{1} + R_{2} )^{2}}$
 > 
 > **Step 3: Rearrange for angular velocity ⍵**
 > 
-> `omega squared space equals fraction numerator space G M subscript 2 over denominator R subscript 1 open parentheses R subscript 1 plus space R subscript 2 close parentheses squared end fraction`
+> $\\omega ^{2} = \frac{ G M_{2} }{R_{1} ( R_{1} + R_{2} )^{2}}$
 > 
 > **Step 4: Square root both sides**
 > 
-> `omega space equals space square root of fraction numerator G M subscript 2 over denominator R subscript 1 open parentheses R subscript 1 plus R subscript 2 close parentheses squared end fraction end root`
+> $\\omega = \sqrt{ \frac{G M_{2} }{R_{1} ( R_{1} + R_{2} )^{2}} }$
 > 
 > **(b) **
 > 
@@ -93,7 +93,7 @@ $v^{2}=\frac{GM}{r}\Rightarrowv=\sqrt{\frac{GM}{r}}$
 > 
 > **Step 3: Substitute in ⍵**
 > 
-> `T space equals space 2 straight pi space divided by space square root of fraction numerator G M subscript 2 over denominator R subscript 1 open parentheses R subscript 1 plus R subscript 2 close parentheses squared end fraction end root space equals space 2 straight pi square root of fraction numerator R subscript 1 open parentheses R subscript 1 plus R subscript 2 close parentheses squared over denominator G M subscript 2 end fraction end root`
+> $T = 2 \mathrm{\pi } \div \sqrt{ \frac{G M_{2} }{R_{1} ( R_{1} + R_{2} )^{2}} } = 2 \mathrm{\pi } \sqrt{ \frac{R_{1} ( R_{1} + R_{2} )^{2}}{G M_{2} } }$
 
 > **Exam Hint**
 > Many of the calculations in the Gravitation questions depend on the equations for [Circular motion](https://www.savemyexams.com/a-level/physics/cie/25/revision-notes/12-motion-in-a-circle/12-2-centripetal-acceleration/centripetal-acceleration/). Be sure to revisit these and understand how to use them!

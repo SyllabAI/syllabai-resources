@@ -57,7 +57,7 @@ $\mathrm{Average} \mathrm{stock}=\frac{\mathrm{Opening} \mathrm{stock}+\mathrm{C
 
 - The **number of times **a business sells all of its stock during a period (usually a year)
 
-`Inventory space turnover space open parentheses number space of space times close parentheses space equals space fraction numerator Cost space of space sales over denominator Average space inventory end fraction`
+$Inventory \text{turnover} ( \text{number} of \times ) = \frac{Cost of sales}{Average inventory}$
 
 - Businesses aim for a **high** or **increasing ratio**
 
@@ -68,7 +68,7 @@ $\mathrm{Average} \mathrm{stock}=\frac{\mathrm{Opening} \mathrm{stock}+\mathrm{C
 
 2. The **number of days** taken to sell all of its stock
 
-`Inventory space turnover space open parentheses number space of space days close parentheses space equals space fraction numerator Average space inventory space cross times space 365 over denominator Cost space of space sales end fraction`
+$Inventory \text{turnover} ( \text{number} of \text{days} ) = \frac{Average \text{inventory} \times 365}{Cost of sales}$
 
 - Businesses aim for a **low or falling ratio**
 
@@ -100,27 +100,19 @@ $\mathrm{Average} \mathrm{stock}=\frac{\mathrm{Opening} \mathrm{stock}+\mathrm{C
 > 
 > **Step 1: Calculate **the average value of inventory
 > 
-> `fraction numerator Opening space inventory space plus space Closing space inventory over denominator 2 end fraction
+> $\frac{Opening \text{inventory} + \text{Closing} inventory}{2} 
 > 
-> equals space fraction numerator £ 47 comma 600 space plus space £ 26 comma 000 over denominator 2 end fraction
+> = \frac{\pounds 47 , 600 + \pounds 26 , 000}{2} 
 > 
-> equals space £ 36 comma 800`**    ****(1)**
+> = \pounds 36 , 800$**    ****(1)**
 > 
 > **Step 2: Calculate the number of times stock sold during the year**
 > 
-> `fraction numerator Cost space of space sales over denominator Average space inventory end fraction
-> 
-> equals space fraction numerator £ 112 comma 400 over denominator £ 36 comma 800 end fraction
-> 
-> equals space 3.05 space times`**   ****  (1)**
+> $\frac{Cost of sales}{Average inventory} > > = \frac{\pounds 112 , 400}{\pounds 36 , 800} > > = 3.05 \times$**   ****  (1)**
 > 
 > **Step 3: Calculate the number of days taken to sell stock**
 > 
-> `fraction numerator Average space inventory space cross times space 365 over denominator Cost space of space sales end fraction
-> 
-> equals space fraction numerator £ 36 comma 800 space cross times space 365 over denominator £ 112 comma 400 end fraction
-> 
-> equals space 119.50 space days`**    **** (2)**
+> $\frac{Average \text{inventory} \times 365}{Cost of sales} > > = \frac{\pounds 36 , 800 \times 365}{\pounds 112 , 400} > > = 119.50 \text{days}$**    **** (2)**
 
 ## Trade receivables turnover
 
@@ -158,9 +150,9 @@ $\mathrm{Trade} \mathrm{receivables} \mathrm{turnover}=\frac{\mathrm{Trade} \mat
 > 
 > **Step 1: Divide trade receivables by credit sales**
 > 
-> `equals space £ 31 comma 200 space divided by space £ 241 comma 200
+> $= \pounds 31 , 200 \div \pounds 241 , 200
 > 
-> equals space 0.1294`**     **** (1)**
+> = 0.1294$**     **** (1)**
 > 
 > **Step 2: Multiply the outcome by 365 days**
 > 
@@ -200,9 +192,9 @@ $\mathrm{Trade} \mathrm{payables} \mathrm{turnover}=\frac{\mathrm{Trade} \mathrm
 > 
 > **Step 1: Divide trade payables by credit purchases**
 > 
-> `equals space £ 28 comma 500 space divided by space £ 112 comma 400
+> $= \pounds 28 , 500 \div \pounds 112 , 400
 > 
-> equals space 0.2536`**     **** (1)**
+> = 0.2536$**     **** (1)**
 > 
 > **Step 2: Multiply the outcome by 365 days**
 > 

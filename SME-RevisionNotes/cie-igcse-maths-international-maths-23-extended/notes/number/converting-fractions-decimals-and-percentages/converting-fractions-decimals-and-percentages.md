@@ -77,7 +77,7 @@ guided_study: true
 - Otherwise, **divide** the numerator by the denominator
 
   - Rewrite the numerator as a decimal with zeros after the decimal point
-  - `long division by 8 yields 0.625 pile none 5.0 presuperscript 5 space 0 presuperscript 2 space 0 presuperscript 4 end pile end long division` gives the conversion $\frac{5}{8}=0.625$
+  - `long division by 8 yields 0.625 pile none 5.0 ^ 5 0 ^ 2 0 ^ 4 end pile end long division` gives the conversion $\frac{5}{8}=0.625$
 
 ### How do I convert from a fraction to a percentage?
 

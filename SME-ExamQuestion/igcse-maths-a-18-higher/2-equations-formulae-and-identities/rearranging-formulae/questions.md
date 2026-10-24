@@ -23,7 +23,7 @@ Make $t$ the subject of the formula $y=\frac{t}{3}-2a$
 ## Q4 — easy — 3 marks · exam-questions
 
 ### 12((b)) — 3 marks — command: rearrange — structured — from paper 2014	June · 1MA0/1H
-Make $F$ the subject of the formula  `C space equals space fraction numerator 5 open parentheses F space minus space 32 close parentheses over denominator 9 end fraction`
+Make $F$ the subject of the formula  $C = \frac{5 ( F - 32 )}{9}$
 
 ## Q5 — easy — 2 marks · exam-questions
 
@@ -89,7 +89,7 @@ Make $y$ the subject of the formula    $p=\sqrt{\frac{x+y}{5}}$
 ## Q15 — medium — 3 marks · exam-questions
 
 ### 20() — 3 marks — command: rearrange — structured — from paper 2012	June · 1MA0/2H
-Make $t$the subject of the formula   `2 open parentheses d minus t close parentheses space equals space 4 t space plus 7`
+Make $t$the subject of the formula   $2 ( d - t ) = 4 t + 7$
 
 ## Q16 — medium — 3 marks · exam-questions
 
@@ -135,7 +135,7 @@ Rearrange $y=\sqrt{w^{3}}$ to make $w$ the subject.
 
 Circle your answer.
 
-| $w=y^{6}$ | `w space equals cube root of y squared end root` | $w=\sqrt{y^{3}}$ | $w=y^{5}$ |
+| $w=y^{6}$ | $w = \sqrt[3]{y^{2}}$ | $w=\sqrt{y^{3}}$ | $w=y^{5}$ |
 |---|---|---|---|
 
 ## Q24 — medium — 3 marks · exam-questions
@@ -167,7 +167,7 @@ $t=\frac{2-3y}{y+2}$
 ## Q28 — hard — 3 marks · exam-questions
 
 ### 14((b)) — 3 marks — command: rearrange — structured — from paper 2017	June · 1MA1/3H
-Make $v$ the subject of the formula `w space equals space fraction numerator 15 open parentheses t space minus space 2 v close parentheses over denominator v end fraction`
+Make $v$ the subject of the formula $w = \frac{15 ( t - 2 v )}{v}$
 
 ## Q29 — hard — 3 marks · exam-questions
 

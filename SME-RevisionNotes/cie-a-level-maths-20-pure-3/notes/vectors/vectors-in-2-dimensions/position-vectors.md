@@ -36,16 +36,16 @@ guided_study: true
 
   - From the **position vectors** of *A*  and *B*  you know their coordinates
   
-    - If  `bold a equals stack O A with rightwards arrow on top equals x subscript 1 bold i plus y subscript 1 bold j equals open parentheses table row cell x subscript 1 end cell row cell y subscript 1 end cell end table close parentheses`,  then point A has coordinates `open parentheses x subscript 1 comma space y subscript 1 close parentheses`
-    - If  `bold b equals stack O B with rightwards arrow on top equals x subscript 2 bold i plus y subscript 2 bold j equals open parentheses table row cell x subscript 2 end cell row cell y subscript 2 end cell end table close parentheses`,  then point B has coordinates `open parentheses x subscript 2 comma space y subscript 2 close parentheses`
-  - The **distance** between two points is given by `d space equals blank square root of open parentheses x subscript 1 minus blank x subscript 2 close parentheses squared space plus space open parentheses y subscript 1 minus blank y subscript 2 close parentheses squared end root blank`
+    - If  $a = \vec{OA} = x_{1} i + y_{1} j = ( \begin{gathered} x_{1} \\ y_{1} \end{gathered} )$,  then point A has coordinates $( x_{1} , y_{1} )$
+    - If  $b = \vec{OB} = x_{2} i + y_{2} j = ( \begin{gathered} x_{2} \\ y_{2} \end{gathered} )$,  then point B has coordinates $( x_{2} , y_{2} )$
+  - The **distance** between two points is given by $d = \sqrt{( x_{1} - x_{2} )^{2} + ( y_{1} - y_{2} )^{2}}$
   
-    - So  `open vertical bar stack A B with rightwards arrow on top close vertical bar space equals blank square root of open parentheses x subscript 1 minus blank x subscript 2 close parentheses squared space plus space open parentheses y subscript 1 minus blank y subscript 2 close parentheses squared end root blank`
+    - So  $\left| \vec{AB} \right| = \sqrt{( x_{1} - x_{2} )^{2} + ( y_{1} - y_{2} )^{2}}$
   - For example, if points A and B have position vectors $5i+3j$ and $3i-6j$ respectively
   
-    - then  `open vertical bar stack A B with rightwards arrow on top close vertical bar equals square root of open parentheses 5 minus 3 close parentheses squared plus open parentheses 3 minus open parentheses negative 6 close parentheses close parentheses squared end root equals square root of 85 equals 9.22 space open parentheses 3 space straight s. straight f. close parentheses`
+    - then  $\left| \vec{AB} \right| = \sqrt{( 5 - 3 )^{2} + ( 3 - ( - 6 ) )^{2}} = \sqrt{85} = 9.22 ( 3 \mathrm{s} . \mathrm{f} . )$
 
-- Alternatively, you could find `open vertical bar stack A B with rightwards arrow on top close vertical bar` by
+- Alternatively, you could find $\left| \vec{AB} \right|$ by
 
   - first using  $\overset{\rightarrow}{AB}=-\overset{\rightarrow}{OA}+\overset{\rightarrow}{OB}$ to find $\overset{\rightarrow}{AB}$ in **vector form**
   

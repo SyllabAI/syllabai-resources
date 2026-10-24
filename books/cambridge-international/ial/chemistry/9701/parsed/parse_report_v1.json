@@ -1,0 +1,37 @@
+{
+ "book": "Cambridge International AS & A Level Chemistry Coursebook (3rd edition)",
+ "author": "Lawrie Ryan, Roger Norris",
+ "qual_code": "CIE 9701 (2017 line, exams from 2022)",
+ "source_pdf": "source/student-book.pdf",
+ "source_sha256": "1fa8afa3b3a3dc7dd4b981041e7bd9e2019c19095a0f59d75858e5c12c3e4928",
+ "source_pages": 889,
+ "source_class": "regenerated/accessibility re-layout (DejaVu/STIX, single column, 9.2pt body)",
+ "extractor": "PyMuPDF dict-mode span-pool assembly (extract_9701.py) — no OCR",
+ "corpus": "cie_a_level_chemistry_9701_chunks_v1.jsonl",
+ "n_chunks": 1083,
+ "content_types": {
+  "body": 668,
+  "learning_objectives": 36,
+  "before_you_start": 64,
+  "science_in_context": 1,
+  "reflection": 70,
+  "chapter_questions": 86,
+  "self_evaluation": 38,
+  "activity": 27,
+  "worked_example": 58,
+  "summary": 35
+ },
+ "size_min": 9,
+ "size_median": 1519,
+ "size_max": 2396,
+ "unicode_subscript_chunks": 553,
+ "unicode_superscript_chunks": 533,
+ "decisions": {
+  "D-1": "pdf-page-anchored: the re-layout carries NO printed page numbers (TOC numberless, no edge digits, zero 'page N' self-refs) — book_pages=None on all chunks",
+  "D-2": "margin features (Study tip / Link / Extension) are absent from this render as text — types tip/cross_link/extension_work not emitted",
+  "D-3": "watermark (WeChat CLASS0608 ad overlay, pdf 31+66) stripped at line level; validator asserts zero CJK/CLASS0608",
+  "D-4": "sub/superscripts rebuilt from span geometry (6.9pt spans offset vs 9.2pt baseline); stacked isotope pairs ordered sup-before-sub: ⁵²₂₄Cr²⁺",
+  "D-5": "chapter map = 30 LEARNING INTENTIONS openers + P1 (pdf 522) + P2 (pdf 870) + appendices/acks; TOC used for titles only",
+  "D-6": "'images' alt-text junk lines (32) dropped; 22 residual <80-char fragments accepted for v1 (2%)"
+ }
+}

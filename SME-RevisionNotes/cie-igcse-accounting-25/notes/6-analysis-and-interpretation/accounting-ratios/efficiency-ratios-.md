@@ -75,7 +75,7 @@ guided_study: false
 > 
 >   - $\frac{\mathrm{Opening} \mathrm{inventory}+\mathrm{Closing} \mathrm{inventory}}{2}$
 > 
-> `fraction numerator $ 7 space 000 space plus space $ 9 space 000 over denominator 2 end fraction equals $ 8 space 000`
+> $\frac{\$ 7 000 + \$ 9 000}{2} = \$ 8 000$
 > 
 > - Calculate the rate of inventory turnover
 > 
@@ -130,7 +130,7 @@ guided_study: false
 > 
 >   - $\frac{\mathrm{Opening} \mathrm{inventory}+\mathrm{Closing} \mathrm{inventory}}{2}$
 > 
-> `fraction numerator $ 7 space 000 space plus space $ 9 space 000 over denominator 2 end fraction equals $ 8 space 000`
+> $\frac{\$ 7 000 + \$ 9 000}{2} = \$ 8 000$
 > 
 > - Calculate the cost of sales
 > 

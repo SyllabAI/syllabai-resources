@@ -232,7 +232,7 @@
 ### Q16
 **Final answer:** **The correct answer is A**
 
-- The **atomic number** of phosphorus is 15, so the `straight P presubscript 15 presuperscript 31 superscript 3 minus end superscript` ion has **15 protons**.
+- The **atomic number** of phosphorus is 15, so the $\mathrm{P} pre_{15} pre^{31^{3} -}$ ion has **15 protons**.
 - The number of neutrons = mass number − atomic number = 31 − 15 = **16 neutrons**.
 - The 3− charge means the ion has gained 3 electrons: 15 + 3 = **18 electrons**.
 

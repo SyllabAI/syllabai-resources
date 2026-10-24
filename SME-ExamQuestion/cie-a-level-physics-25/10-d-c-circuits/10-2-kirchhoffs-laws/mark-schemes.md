@@ -33,7 +33,7 @@
   - $V_{1}=IR_{1}$       $V_{2}=IR_{2}$      $V_{3}=IR_{3}$
 - From Kirchoff's Second Law, we know that the voltages around a loop in a circuit add up to the e.m.f. of the supply
 
-  - `V equals V subscript 1 plus V subscript 2 plus V subscript 3 equals I R subscript 1 plus I R subscript 2 plus I R subscript 3 equals I open parentheses R subscript 1 plus R subscript 2 plus R subscript 3 close parentheses`
+  - $V = V_{1} + V_{2} + V_{3} = I R_{1} + I R_{2} + I R_{3} = I ( R_{1} + R_{2} + R_{3} )$
   - $\frac{V}{I}=R_{1}+R_{2}+R_{3}$
 - From Ohm's Law, we know $\frac{V}{I}$ = total resistance of the circuit
 
@@ -53,14 +53,14 @@
 - Power dissipated in a resistor $=I^{2}R$
 - Let's say the resistance of each resistor is *R*
 - Two resistors in series causes the overall resistance to increase: *R* + *R* = 2*R*
-- Two resistors in parallel causes the overall resistance to decrease : `begin mathsize 16px style open square brackets 1 over R plus 1 over R close square brackets to the power of negative 1 end exponent equals R over 2 end style`
+- Two resistors in parallel causes the overall resistance to decrease : $[ \frac{1}{R} + \frac{1}{R} ]^{- 1} = \frac{R}{2}$
 - Since the 4 resistors have the same resistance in the connection shown, the p .d. across each parallel connection will be the same
 
   - Overall the resistance in the circuit is $=\frac{R}{2}+\frac{R}{2}=R$
 - Let's say the e .m .f. in the circuit is *E,* so, the current in the circuit is $I=\frac{E}{R}$
 - The total current splits at the parallel combination
 
-  - Power dissipated in X `equals open parentheses 1 half close parentheses squared R equals fraction numerator I to the power of space 2 end exponent R over denominator 4 end fraction equals 0.25 space I to the power of space 2 end exponent R`
+  - Power dissipated in X $= ( 1 \frac{1}{2} )^{2} R = \frac{I^{ 2} R}{4} = 0.25 I^{ 2} R$
   - This is the power dissipated in all the resistors
 - When W is removed, the overall resistance of the parallel combination of W and X changes from 0.5*R* to *R* as only X is left
 - Total resistance in new circuit = *R* + 0.5*R* = 1.5*R*
@@ -68,10 +68,10 @@
   - Current in circuit $=\frac{E}{1.5R}=\frac{2}{3}I$
 - The overall current in the circuit will also change — it decreases since the overall resistance in the complete circuit has increased. This current flows through X but is split into half at the combination of Y and Z, so, the current through Y and Z is half that through X, so:
 
-  - Power dissipated in X `equals open parentheses 2 over 3 I close parentheses squared space R equals 4 over 9 I to the power of space 2 end exponent space R equals 0.44 space I to the power of space 2 end exponent R`
+  - Power dissipated in X $= ( \frac{2}{3} I )^{2} R = \frac{4}{9} I^{ 2} R = 0.44 I^{ 2} R$
 - Half the current flows through Y and Z, and the same power is dissipated through both resistors, so:
 
-  - Power dissipated in Y `equals open square brackets 1 half open parentheses 2 over 3 I close parentheses close square brackets squared space R equals 1 over 9 I to the power of space 2 end exponent R equals 0.11 space I to the power of space 2 end exponent R`
+  - Power dissipated in Y $= [ 1 \frac{1}{2} ( \frac{2}{3} I ) ]^{2} R = \frac{1}{9} I^{ 2} R = 0.11 I^{ 2} R$
 - Therefore, the power in X increases and the power in Y and Z decreases
 
 ### Q4
@@ -87,8 +87,8 @@
 
 **Exam Tip: **Remember Kirchhoff's First and Second Laws like this:
 
-- Kirchhoff's First Law = Current Law = charge conservation `open parentheses Q equals I space t close parentheses`
-- Kirchhoff's Second Law = Voltage Law = energy conservation `open parentheses W equals V Q close parentheses`
+- Kirchhoff's First Law = Current Law = charge conservation $( Q = I t )$
+- Kirchhoff's Second Law = Voltage Law = energy conservation $( W = V Q )$
 
 ### Q5
 **Final answer:** **The correct answer is ****A ****because:**
@@ -169,13 +169,13 @@
 - Now, both the upper and lower part of the circuit each consist of two resistors in series
 - For series connection of two resistors R<sub>1</sub> and R<sub>2</sub>, the p. d. across R<sub>1</sub> is given by the potential divider equation
 
-  - `V equals open parentheses fraction numerator R subscript 1 over denominator R subscript 1 plus R subscript 2 end fraction close parentheses cross times E`  where *E* is the e. m. f. of the supply
+  - $V = ( \frac{R_{1} }{R_{1} + R_{2} } ) \times E$  where *E* is the e. m. f. of the supply
 - The potential at point X = p. d. across 500 Ω in the upper part
 
-  - Potential at point X`equals open parentheses fraction numerator 500 over denominator 500 plus 1000 end fraction close parentheses cross times 12 equals 4 space straight V`
+  - Potential at point X$= ( \frac{500}{500 + 1000} ) \times 12 = 4 \mathrm{V}$
 - Similarly, the potential at point Y = p. d. across 2000 Ω in the lower part
 
-  - Potential at point Y`equals open parentheses fraction numerator 2000 over denominator 2000 plus 1000 end fraction close parentheses cross times 12 equals 8 space straight V`
+  - Potential at point Y$= ( \frac{2000}{2000 + 1000} ) \times 12 = 8 \mathrm{V}$
 - So, the p .d. between X and Y is the difference in potential at point X and point Y
 
   - Therefore, p .d. between X and Y = 8 – 4 = 4 V** **
@@ -196,13 +196,13 @@
 - Consider the first loop (where terminal X is connected):
 - From the potential divider equation:
 
-  - p. d. across the upper resistor `equals open parentheses fraction numerator R subscript 1 over denominator R subscript 1 plus R subscript 2 plus R subscript 3 end fraction close parentheses cross times E equals open parentheses fraction numerator 5 over denominator 5 plus 5 plus 5 end fraction close parentheses cross times 2 equals 2 over 3 space V`
+  - p. d. across the upper resistor $= ( \frac{R_{1} }{R_{1} + R_{2} + R_{3} } ) \times E = ( \frac{5}{5 + 5 + 5} ) \times 2 = \frac{2}{3} V$
   - Note that this is the potential difference across the upper resistor. It is also the p. d. across each resistor since they all have the same resistance
 - Since the upper junction is at a potential of 2 V, the p .d. at terminal X is equal to $=2-\frac{2}{3}=\frac{4}{3}V$
 - Consider the second loop (where terminal Y is connected):
 - From the upper junction to terminal Y, there are 2 resistors and the p. d. across each is $\frac{2}{3}V$
 
-  - So, the p. d. at terminal Y `equals 2 minus 2 open parentheses 2 over 3 close parentheses equals 2 over 3 space V`
+  - So, the p. d. at terminal Y $= 2 - 2 ( \frac{2}{3} ) = \frac{2}{3} V$
 - Therefore, the p .d. between X and Y$=\frac{4}{3}-\frac{2}{3}=\frac{2}{3}V$
 
 ### Q10
@@ -236,7 +236,7 @@
 - The left-hand side of the circuit, in the (A<sub>1</sub> - A<sub>2</sub>) loop, there are two resistors in series, so their total resistance is *R* + *R* = 2*R*
 
   - The current in the (A<sub>1</sub> - A<sub>2</sub>) loop = 0.6A, as read by ammeter A<sub>1</sub>
-- So, from Ohm's Law $V=IR$  , the potential difference in the (A<sub>1</sub> -  A<sub>2</sub>) loop is equal to `V equals 0.6 open parentheses 2 R close parentheses equals 1.2 space R`
+- So, from Ohm's Law $V=IR$  , the potential difference in the (A<sub>1</sub> -  A<sub>2</sub>) loop is equal to $V = 0.6 ( 2 R ) = 1.2 R$
 - From Kirchhoff's Second Law, the potential difference is the same as the e .m .f in the circuit for any loop, so, the e. m .f. in the circuit is 1.2*R,* and this is also the potential difference across all loops
 - Consider the (A<sub>2</sub> - A<sub>3</sub>) loop:
 
@@ -290,7 +290,7 @@
   - Therefore, $I=I_{1}+I_{2}$
 - Substituting the values derived for I<sub>1</sub> and I<sub>2</sub> gives us'
 
-  - `I equals V over R subscript 1 plus V over R subscript 2 equals V space open parentheses 1 over R subscript 1 plus 1 over R subscript 2 close parentheses`
+  - $I = \frac{V}{R} _{1} + \frac{V}{R} _{2} = V ( \frac{1}{R} _{1} + \frac{1}{R} _{2} )$
 - Rearranging gives us
 
   - $\frac{I}{V}=\frac{1}{R_{1}}+\frac{1}{R_{2}}$
@@ -302,7 +302,7 @@
 
 **A **is incorrect because in parallel combination, the current through each resistor is different
 
-**C **is incorrect because the supply current is split between the resistors according to the ratio between the supply p. d. and the resistance of each resistor `I equals V over R subscript 1 plus V over R subscript 2 equals V space open parentheses fraction numerator R subscript 1 plus R subscript 2 over denominator R subscript 1 R subscript 2 end fraction close parentheses`
+**C **is incorrect because the supply current is split between the resistors according to the ratio between the supply p. d. and the resistance of each resistor $I = \frac{V}{R} _{1} + \frac{V}{R} _{2} = V ( \frac{R_{1} + R_{2} }{R_{1} R_{2} } )$
 
 **D **is incorrect because the equation for power is not required in this derivation
 
@@ -339,7 +339,7 @@
 - Kirchhoff's Second Law (or voltage Law) states that the sum of all voltages around any closed loop in a circuit must equal the e.m.f. of the supply
 
   - This is a consequence of the principle of conservation of energy
-  - This is due to the fact that work is done `open parentheses W equals V Q close parentheses`  on charge carriers by the electric forces inside the circuit components meaning* *they either gain or lose electrical energy, depending upon the type of component
+  - This is due to the fact that work is done $( W = V Q )$  on charge carriers by the electric forces inside the circuit components meaning* *they either gain or lose electrical energy, depending upon the type of component
 
 ### Q17
 **Final answer:** **The correct answer is ****D ****because:**

@@ -49,7 +49,7 @@ guided_study: true
 > 
 > > *Angles that meet on a straight line add up to 180°*
 > 
-> `table row cell x space plus space y space plus space 98 space end cell equals cell space 180 space end cell row cell 25 space plus space y space plus space 98 space end cell equals cell space 180 end cell row cell 123 space plus space y space end cell equals cell space 180 end cell end table`
+> $\begin{gathered} x + y + 98 & = 180 \\ 25 + y + 98 & = 180 \\ 123 + y & = 180 \end{gathered}$
 > 
 > > *Solve to find *$y$
 > 

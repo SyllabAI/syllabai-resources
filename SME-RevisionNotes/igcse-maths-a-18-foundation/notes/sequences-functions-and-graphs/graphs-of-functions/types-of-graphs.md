@@ -128,7 +128,7 @@ guided_study: true
 > 
 > **Final answer:** **Graph C**
 > 
-> (c)`table row blank row blank end table` $y=\frac{1}{x}$
+> (c)$\begin{gathered} \\ \end{gathered}$ $y=\frac{1}{x}$
 > **Answer:**
 >  *This is the reciprocal graph, *$y=\frac{1}{x}$
 > *It has two  curved shaped branches and no **y**-value when **x**  = 0*

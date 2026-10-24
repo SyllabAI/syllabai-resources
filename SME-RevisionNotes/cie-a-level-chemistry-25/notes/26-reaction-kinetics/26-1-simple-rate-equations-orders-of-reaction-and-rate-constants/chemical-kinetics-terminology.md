@@ -63,7 +63,7 @@ $\mathrm{Rate} \mathrm{of} \mathrm{reaction}=\frac{\mathrm{change} \mathrm{in} \
 
 #### Rate of reactions table
 
-| **[D] (mol dm**<sup>**-3**</sup>**)** | **Rate (mol dm**<sup>**-3**</sup>** s**<sup>**-1**</sup>**)** | `fraction numerator bold rate over denominator stretchy left square bracket D stretchy right square bracket end fraction`** (s**<sup>**-1**</sup>**)** |
+| **[D] (mol dm**<sup>**-3**</sup>**)** | **Rate (mol dm**<sup>**-3**</sup>** s**<sup>**-1**</sup>**)** | $\frac{rate}{[ D ]}$** (s**<sup>**-1**</sup>**)** |
 |---|---|---|
 | 3.00 | 2.00 x 10<sup>-3</sup> | 6.67 x 10<sup>-4</sup> |
 | 2.00 | 1.33 x 10<sup>-3</sup> | 6.67 x 10<sup>-4</sup> |

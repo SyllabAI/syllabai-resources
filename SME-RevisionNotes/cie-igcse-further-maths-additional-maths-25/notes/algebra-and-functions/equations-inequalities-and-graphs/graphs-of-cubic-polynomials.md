@@ -27,7 +27,7 @@ guided_study: false
     - so $b,c$ and/or $d$ could be zero
 - To sketch the graph of a cubic polynomial it will need to be in factorised form
 
-  - e.g.  `open parentheses 2 x minus 1 close parentheses open parentheses x plus 2 close parentheses open parentheses x minus 3 close parentheses` is the factorised form of $2x^{3}-3x^{2}-11x+6$
+  - e.g.  $( 2 x - 1 ) ( x + 2 ) ( x - 3 )$ is the factorised form of $2x^{3}-3x^{2}-11x+6$
 
 ### What does the graph of a cubic polynomial look like?
 
@@ -71,11 +71,11 @@ STEP 5 Sketch the graph with a *smooth* curve, labelling points where the graph 
 >   - If you need to redraw the graph for your final answer, that's fine!
 
 > **Worked Example**
-> Sketch the graph of `y equals open parentheses 2 x minus 1 close parentheses open parentheses x minus 3 close parentheses squared`.
+> Sketch the graph of $y = ( 2 x - 1 ) ( x - 3 )^{2}$.
 > 
 > > *STEP 1 - *$y$*-axis intercept*
 > 
-> `y equals open parentheses negative 1 close parentheses open parentheses negative 3 close parentheses squared equals negative 9`
+> $y = ( - 1 ) ( - 3 )^{2} = - 9$
 > 
 > > *STEP 2 - *$x$*-axis intercepts*
 > 
@@ -85,7 +85,7 @@ STEP 5 Sketch the graph with a *smooth* curve, labelling points where the graph 
 > 
 > > *STEP 3 - shape, 'start'/'end'*
 > 
-> > `a greater than 0 space open parentheses a equals 2 close parentheses`* so it is a positive cubic *$x=3$* is a repeated root so the graph will touch the *$x$*-axis at this point*
+> > $a > 0 ( a = 2 )$* so it is a positive cubic *$x=3$* is a repeated root so the graph will touch the *$x$*-axis at this point*
 > 
 > > *STEP 4 - turning points*
 > 
@@ -103,15 +103,15 @@ STEP 5 Sketch the graph with a *smooth* curve, labelling points where the graph 
 
 ### What is a modulus cubic graph?
 
-- A (factorised) **cubic** polynomial is of the from `straight f open parentheses x close parentheses equals a open parentheses x minus b close parentheses open parentheses x minus c close parentheses open parentheses x minus d close parentheses`
-- The graph of `y equals straight f open parentheses x close parentheses` must cross the $x$-axis at least once
+- A (factorised) **cubic** polynomial is of the from $\mathrm{f} ( x ) = a ( x - b ) ( x - c ) ( x - d )$
+- The graph of $y = \mathrm{f} ( x )$ must cross the $x$-axis at least once
 
   - therefore $y$ must take both positive and negative values
-- The **modulus** cubic graph, `y equals vertical line straight f open parentheses x close parentheses vertical line` will mean all values of $y$ are p**o**sitive
+- The **modulus** cubic graph, $y = \vert \mathrm{f} ( x ) \vert$ will mean all values of $y$ are p**o**sitive
 
   - Any negative values become their positive equivalents
   
-    - e.g.  If `straight f open parentheses x close parentheses equals x cubed` then `straight f open parentheses negative 1 close parentheses equals open parentheses negative 1 close parentheses cubed equals negative 1`, but `vertical line straight f open parentheses negative 1 close parentheses vertical line equals vertical line open parentheses negative 1 close parentheses cubed vertical line equals vertical line minus 1 vertical line equals 1`
+    - e.g.  If $\mathrm{f} ( x ) = x^{3}$ then $\mathrm{f} ( - 1 ) = ( - 1 )^{3} = - 1$, but $\vert \mathrm{f} ( - 1 ) \vert = \vert ( - 1 )^{3} \vert = \vert - 1 \vert = 1$
 - A modulus cubic graph will not have any negative values
 
   - the graph will not *cross* the $x$-axis
@@ -119,12 +119,12 @@ STEP 5 Sketch the graph with a *smooth* curve, labelling points where the graph 
 
 ### How do I sketch a modulus cubic graph?
 
-- **Sketch** the graph of the (original) cubic polynomial, `y equals straight f open parentheses x close parentheses`
-- Any parts of this graph that are **below** the $x$**-axis** should be **reflected** in the $x$**-axis** to sketch the graph of** **`y equals vertical line straight f open parentheses x close parentheses vertical line`
+- **Sketch** the graph of the (original) cubic polynomial, $y = \mathrm{f} ( x )$
+- Any parts of this graph that are **below** the $x$**-axis** should be **reflected** in the $x$**-axis** to sketch the graph of** **$y = \vert \mathrm{f} ( x ) \vert$
 
 ![Cubic graphs and their modulus graphs](../../../assets/7409e97de265-modulus-of-cubic-graphs.png)
 
-- The points at which a modulus graph touches the $x$-axis are the same as the points at which the original graph intercepts the $x$-axis (i.e. the roots of `straight f open parentheses x close parentheses`)
+- The points at which a modulus graph touches the $x$-axis are the same as the points at which the original graph intercepts the $x$-axis (i.e. the roots of $\mathrm{f} ( x )$)
 
   - **Label** these points, and the $y$-axis intercept, on a sketch
 - Notice that the points at which a modulus graph touches the $x$-axis are **not** smooth
@@ -144,8 +144,8 @@ STEP 5 Sketch the graph with a *smooth* curve, labelling points where the graph 
       - a negative cubic can have a "-" at the start of its expression
   - the $x$-axis intercepts - the *roots*
   
-    - for the roots $b,c$ and $d$, write the factors `open parentheses x minus b close parentheses open parentheses x minus c close parentheses open parentheses x minus d close parentheses`
-  - the $y$-axis intercept - to deduce the expression in the form `a open parentheses x minus b close parentheses open parentheses x minus c close parentheses open parentheses x minus d close parentheses`
+    - for the roots $b,c$ and $d$, write the factors $( x - b ) ( x - c ) ( x - d )$
+  - the $y$-axis intercept - to deduce the expression in the form $a ( x - b ) ( x - c ) ( x - d )$
   
     - lots of cubic functions have the same roots but have different *coefficients*
     - the $y$-axis intercept should be the product $a\times-b\times-c\times-d=-abcd$
@@ -153,7 +153,7 @@ STEP 5 Sketch the graph with a *smooth* curve, labelling points where the graph 
       - $a$ may often, but not always, be 1
 
 > **Exam Hint**
-> - Sketching the (original) graph of `y equals straight f open parentheses x close parentheses` first is often helpful rather than trying to sketch the modulus graph from scratch
+> - Sketching the (original) graph of $y = \mathrm{f} ( x )$ first is often helpful rather than trying to sketch the modulus graph from scratch
 > - If asked to find a cubic function from a given graph
 > 
 >   - there may be more than one possibility
@@ -163,25 +163,25 @@ STEP 5 Sketch the graph with a *smooth* curve, labelling points where the graph 
 >   - the factorised form is usually sufficient (unless a question says otherwise)
 
 > **Worked Example**
-> The diagram below shows the graph of `y equals vertical line straight f open parentheses x close parentheses vertical line` where `straight f open parentheses x close parentheses` is a **positive** cubic polynomial.
+> The diagram below shows the graph of $y = \vert \mathrm{f} ( x ) \vert$ where $\mathrm{f} ( x )$ is a **positive** cubic polynomial.
 > 
 > ![cie-adma25-2023-cubic-mod-1-we-question](assets/322646ca9136-cie-adma25-2023-cubic-mod-1-we-question.png)
 > 
-> Deduce an expression for `straight f open parentheses x close parentheses` leaving your answer in factorised form, with each factor having integer coefficients.
+> Deduce an expression for $\mathrm{f} ( x )$ leaving your answer in factorised form, with each factor having integer coefficients.
 > 
-> `straight f open parentheses x close parentheses`* is a positive cubic polynomial so the graph should 'start' in the third quadrant and 'end' in the first.* *A quick sketch (without labels) can help.*
+> $\mathrm{f} ( x )$* is a positive cubic polynomial so the graph should 'start' in the third quadrant and 'end' in the first.* *A quick sketch (without labels) can help.*
 > 
 > ![cie-adma25-2023-cubic-mod-2-we-solution](assets/d2542b97a081-cie-adma25-2023-cubic-mod-2-we-solution.png)
 > 
 > > *The *$x$*-axis intercepts indicate the roots.*
 > 
-> `open parentheses x plus 4 close parentheses open parentheses x plus 1 half close parentheses open parentheses x minus 3 close parentheses`
+> $( x + 4 ) ( x + 1 \frac{1}{2} ) ( x - 3 )$
 > 
-> > *The expression for *`straight f open parentheses x close parentheses`* is of the form *`a open parentheses x plus 4 close parentheses open parentheses x plus 1 half close parentheses open parentheses x minus 3 close parentheses`*. Use the *$y$*-axis intercept to deduce the value of *$a$*. From the sketch of *`y equals straight f open parentheses x close parentheses`* the *$y$*-axis intercept is -12 (not 12).*
+> > *The expression for *$\mathrm{f} ( x )$* is of the form *$a ( x + 4 ) ( x + 1 \frac{1}{2} ) ( x - 3 )$*. Use the *$y$*-axis intercept to deduce the value of *$a$*. From the sketch of *$y = \mathrm{f} ( x )$* the *$y$*-axis intercept is -12 (not 12).*
 > 
-> `table row cell a cross times 4 cross times 1 half cross times negative 3 end cell equals cell negative 12 end cell row cell negative 6 a end cell equals cell negative 12 end cell row a equals 2 end table`
+> $\begin{gathered} a \times 4 \times 1 \frac{1}{2} \times - 3 & = - 12 \\ - 6 a & = - 12 \\ a = 2 \end{gathered}$
 > 
-> > *The final answer requires each factor to have integer coefficients so multiply 2 into *`open parentheses x plus 1 half close parentheses`* and write down *`straight f open parentheses x close parentheses`*.*
+> > *The final answer requires each factor to have integer coefficients so multiply 2 into *$( x + 1 \frac{1}{2} )$* and write down *$\mathrm{f} ( x )$*.*
 > 
 > $f(x)=(x+4)(2x+1)(x-3)$
 
@@ -193,22 +193,22 @@ STEP 5 Sketch the graph with a *smooth* curve, labelling points where the graph 
 
 ### What is a cubic inequality?
 
-- A cubic function is of the form `straight f open parentheses x close parentheses equals a x cubed plus b x squared plus c x plus d` where $a,b,c$ and $d$ are constants
+- A cubic function is of the form $\mathrm{f} ( x ) = a x^{3} + b x^{2} + c x + d$ where $a,b,c$ and $d$ are constants
 - A **cubic inequality** can be any of the following
 
-  - `straight f open parentheses x close parentheses greater than 0`
-  - `straight f open parentheses x close parentheses greater or equal than 0`
-  - `straight f open parentheses x close parentheses less than 0`
-  - `straight f open parentheses x close parentheses less or equal than 0`
+  - $\mathrm{f} ( x ) > 0$
+  - $\mathrm{f} ( x ) \ge 0$
+  - $\mathrm{f} ( x ) < 0$
+  - $\mathrm{f} ( x ) \le 0$
 - An inequality may need **rearranging** into one of these forms first before solving
 
   - Furthermore, solving cubic equations graphically is easiest when the expression has been **factorised**
   
-    - e.g.  for a cubic with three (real) roots this would be `open parentheses x minus p close parentheses open parentheses x minus q close parentheses open parentheses x minus r close parentheses` where $p,q$ and $r$ are the roots
+    - e.g.  for a cubic with three (real) roots this would be $( x - p ) ( x - q ) ( x - r )$ where $p,q$ and $r$ are the roots
 
 ### How do I solve a cubic inequality graphically?
 
-STEP 1 If need be, rearrange the inequality so that one side of the inequality is zero This should leave a **cubic polynomial** on the other side **Factorise** the cubic polynomial if required e.g.  `open parentheses 2 x minus 3 close parentheses open parentheses x minus 4 close parentheses open parentheses x plus 1 close parentheses less or equal than 0`
+STEP 1 If need be, rearrange the inequality so that one side of the inequality is zero This should leave a **cubic polynomial** on the other side **Factorise** the cubic polynomial if required e.g.  $( 2 x - 3 ) ( x - 4 ) ( x + 1 ) \le 0$
 
 STEP 2** Sketch** the graph of the cubic polynomial The $x$-axis intercepts (roots) are crucial to finding the solution but the $y$-axis intercept is not needed e.g.
 
@@ -226,7 +226,7 @@ Write down the **solutions** to the inequality
  e.g.  $x\leq-1,\frac{3}{2}\leqx\leq4$
 
 > **Worked Example**
-> a) Sketch the graph of `y equals straight f open parentheses x close parentheses` where `straight f open parentheses x close parentheses equals open parentheses 3 x minus 1 close parentheses open parentheses x minus 3 close parentheses squared`.
+> a) Sketch the graph of $y = \mathrm{f} ( x )$ where $\mathrm{f} ( x ) = ( 3 x - 1 ) ( x - 3 )^{2}$.
 > 
 > > *This is a **positive** cubic polynomial with roots *$x=\frac{1}{3}$* and *$x=3$
 > 
@@ -234,7 +234,7 @@ Write down the **solutions** to the inequality
 > 
 > ![cie-adma25-2023-cubic-ineq-1-we-solution-dark-green](assets/225bf54734c5-cie-adma25-2023-cubic-ineq-1-we-solution-dark-gr.png)
 > 
-> a) Hence solve the inequality  `straight f open parentheses x close parentheses greater than 0`.
+> a) Hence solve the inequality  $\mathrm{f} ( x ) > 0$.
 > 
 > > *STEP 1 - the cubic polynomial is already in factorised form*
 > 

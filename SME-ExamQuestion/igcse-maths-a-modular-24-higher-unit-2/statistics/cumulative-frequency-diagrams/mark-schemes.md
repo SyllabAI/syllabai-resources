@@ -75,7 +75,7 @@
 
 > *Now write 10 out of 200 as a percentage by dividing 10 by 200 and multiplying by 100% and compare to Graham's statement.*
 
-`10 over 200 cross times 100 percent sign equals 5 percent sign`
+$\frac{10}{200} \times 100 \% = 5 \%$
 
 **Graham is not correct as there are approximately 5% of workers at the factory that are older than 65 ****[1]**
 
@@ -118,7 +118,7 @@
 > *This means there are (approximately) 56 parcels with a weight less than 3.4 kg. *
 *To express this as a percentage so we can compare to what Sue says, write 56 out of 80 as a fraction and multiplying by 100%.*
 
-`56 over 80 cross times 100 percent sign equals 70 percent sign`
+$\frac{56}{80} \times 100 \% = 70 \%$
 
 **Sue is not correct as approximately 70% of the parcels weighed less than 2.4 kg ****[1]**
 
@@ -191,10 +191,10 @@
 ## Q6 — easy — 3 marks · exam-questions
 
 ### 16((a)) — 1 marks
-> *The position of the median is usually given as the *`open parentheses fraction numerator n plus 1 over denominator 2 end fraction close parentheses to the power of th`* value, where *$n$* is the number of data values, so in this case *$n=60.$* *
-*But as the data set is large, and we are only able to estimate the median using a cumulative frequency graph, it is convenient to use *`open parentheses n over 2 close parentheses to the power of th`* value.*
+> *The position of the median is usually given as the *$( \frac{n + 1}{2} )^{th}$* value, where *$n$* is the number of data values, so in this case *$n=60.$* *
+*But as the data set is large, and we are only able to estimate the median using a cumulative frequency graph, it is convenient to use *$( \frac{n}{2} )^{th}$* value.*
 
-*Position of median is the *`open parentheses 60 over 2 close parentheses to the power of th equals 30 to the power of th`* value. *
+*Position of median is the *$( \frac{60}{2} )^{th} = 30^{th}$* value. *
 
 *To find the median weight, draw a horizontal line across from 30 on the cumulative frequency axis until it reaches the curve.* 
 *Then draw a vertical line down to the weight axis and take a reading.*
@@ -207,11 +207,11 @@
 
 ### 16((b)) — 2 marks
 > *The interquartile range (IQR) is the difference between the upper quartile (UQ) and the lower quartile (LQ). *
-*Similar to finding the median, we can use the *`open parentheses n over 4 close parentheses to the power of th`* value to approximate the lower quartile and the *`open parentheses 3 cross times n over 4 close parentheses to the power of th`* value to approximate the upper quartile. *
+*Similar to finding the median, we can use the *$( \frac{n}{4} )^{th}$* value to approximate the lower quartile and the *$( 3 \times \frac{n}{4} )^{th}$* value to approximate the upper quartile. *
 *For this question, *$n=60.$
 
-*The lower quartile is the *`open parentheses 60 over 4 close parentheses to the power of th equals 15 to the power of th`* value *
-*The upper quartile is the *`open parentheses 3 cross times 60 over 4 close parentheses to the power of th equals 45 to the power of th`* value*
+*The lower quartile is the *$( \frac{60}{4} )^{th} = 15^{th}$* value *
+*The upper quartile is the *$( 3 \times \frac{60}{4} )^{th} = 45^{th}$* value*
 
 > *Draw horizontal lines from 15 and 45 on the cumulative frequency axis until they reach the curve. *
 *Then draw vertical lines down at the weight axis and take readings.*
@@ -267,7 +267,7 @@
 
 > *To express this as a percentage, write this as a fraction out of the total number of office workers, 80, and multiply by 100%.*
 
-`5 over 80 cross times 100 percent sign equals 6.25 percent sign`
+$\frac{5}{80} \times 100 \% = 6.25 \%$
 
 **[1]**
 
@@ -304,9 +304,9 @@
 ### 15((c)) — 2 marks
 > *The median is the middle value.*
 
-> *As the data set is large and we are estimating, we can use the *`open parentheses n over 2 close parentheses to the power of th`* value to approximate the median. For this question, *$n=80.$
+> *As the data set is large and we are estimating, we can use the *$( \frac{n}{2} )^{th}$* value to approximate the median. For this question, *$n=80.$
 
-*The median is the *`open parentheses 80 over 2 close parentheses to the power of th equals 40 to the power of th`* value*
+*The median is the *$( \frac{80}{2} )^{th} = 40^{th}$* value*
 
 > *Draw a horizontal line from 40 on the cumulative frequency axis until it reaches the curve. *
 *Then draw a vertical line down at the age axis and take a reading.*
@@ -355,11 +355,11 @@
 
 ### 13((c)) — 2 marks
 > *The interquartile range (IQR) is the difference between the upper quartile (UQ) and the lower quartile (LQ). *
-*As estimating with a large data set we can use the *`open parentheses n over 4 close parentheses to the power of th`* value for the lower quartile and the *`open parentheses 3 cross times n over 4 close parentheses to the power of th`* value for the upper quartile. *
+*As estimating with a large data set we can use the *$( \frac{n}{4} )^{th}$* value for the lower quartile and the *$( 3 \times \frac{n}{4} )^{th}$* value for the upper quartile. *
 *For this question, *$n=80.$
 
-*The lower quartile is the *`open parentheses 80 over 4 close parentheses to the power of th equals 20 to the power of th`* value*
-* The upper quartile is the *`open parentheses 3 cross times 80 over 4 close parentheses to the power of th equals 60 to the power of th`* value*
+*The lower quartile is the *$( \frac{80}{4} )^{th} = 20^{th}$* value*
+* The upper quartile is the *$( 3 \times \frac{80}{4} )^{th} = 60^{th}$* value*
 
 > *Draw horizontal lines from 20 and 60 on the cumulative frequency axis until they reach the curve. *
 *Then draw vertical lines down at the weight axis and take readings.*
@@ -387,7 +387,7 @@
 *This means there are (approximately) 46.5 potatoes with a weight less than 150 g.*
  *To express this as a percentage, write this as a fraction out of the total number of potatoes, 80, and multiply by 100%.*
 
-`fraction numerator 46.5 over denominator 80 end fraction cross times 100 percent sign equals 58.125 percent sign`
+$\frac{46.5}{80} \times 100 \% = 58.125 \%$
 
 **[1]**
 
@@ -424,18 +424,18 @@
 ### 21((b)) — 3 marks
 ![6-4-medium-q8b](assets/079-6-4-medium-q8b.png)
 
-i)`table row blank row blank end table`*As estimating with a large data set, we can use the *`open parentheses n over 2 close parentheses to the power of th`* value.* *Here, *$n=60$*.*
+i)$\begin{gathered} \\ \end{gathered}$*As estimating with a large data set, we can use the *$( \frac{n}{2} )^{th}$* value.* *Here, *$n=60$*.*
 
-*The median is the *`open parentheses 60 over 2 close parentheses to the power of th equals 30 to the power of th`* value*
+*The median is the *$( \frac{60}{2} )^{th} = 30^{th}$* value*
 
 > *Draw a horizontal line across from 30 on the cumulative frequency axis until it reaches the curve. Then draw a vertical line down to the height axis and take a reading.*
 
 **The median height is 171.5 cm*** ***[1]**
 
-ii) *The interquartile range (IQR) is the difference between the lower quartile (LQ) and the upper quartile (UQ).* *Similar to the median we can use the *`open parentheses n over 4 close parentheses to the power of th`* value for the lower quartile and the *`open parentheses 3 cross times n over 4 close parentheses to the power of th`* value for the upper quartile.*
+ii) *The interquartile range (IQR) is the difference between the lower quartile (LQ) and the upper quartile (UQ).* *Similar to the median we can use the *$( \frac{n}{4} )^{th}$* value for the lower quartile and the *$( 3 \times \frac{n}{4} )^{th}$* value for the upper quartile.*
 
-*The LQ will be the *`open parentheses 60 over 4 close parentheses to the power of th equals 15 to the power of th`* value* 
-*The UQ will be the *`open parentheses 3 cross times 60 over 4 close parentheses to the power of th equals 45 to the power of th`* value*
+*The LQ will be the *$( \frac{60}{4} )^{th} = 15^{th}$* value* 
+*The UQ will be the *$( 3 \times \frac{60}{4} )^{th} = 45^{th}$* value*
 
 *Draw horizontal lines across from 115 and 45 on the cumulative frequency axis until they reach the curve.* 
 *Then draw vertical lines down to the height axis and take a reading.*
@@ -474,11 +474,11 @@ ii) *The interquartile range (IQR) is the difference between the lower quartile 
 
 ### 14((c)) — 2 marks
 > *The interquartile range (IQR) is the difference between the upper quartile (UQ) and the lower quartile (LQ). *
-*As estimating with a large data set we can use the *`open parentheses n over 4 close parentheses to the power of th`* value to approximate the lower quartile and the *`open parentheses 3 cross times n over 4 close parentheses to the power of th`* value to approximate the upper quartile. *
+*As estimating with a large data set we can use the *$( \frac{n}{4} )^{th}$* value to approximate the lower quartile and the *$( 3 \times \frac{n}{4} )^{th}$* value to approximate the upper quartile. *
 *For this question, *$n=80$*.*
 
-*The lower quartile is the *`open parentheses 80 over 4 close parentheses to the power of th equals 20 to the power of th`* value *
-*The upper quartile is the *`open parentheses 3 cross times 80 over 4 close parentheses to the power of th equals 60 to the power of th`* value*
+*The lower quartile is the *$( \frac{80}{4} )^{th} = 20^{th}$* value *
+*The upper quartile is the *$( 3 \times \frac{80}{4} )^{th} = 60^{th}$* value*
 
 > *Draw horizontal lines from 20 and 60 on the cumulative frequency axis until they reach the curve. *
 *Then draw vertical lines down at the weight axis and take readings.*
@@ -539,9 +539,9 @@ ii) *The interquartile range (IQR) is the difference between the lower quartile 
 **Fully correctly and points joined ****[1]**
 
 ### 16((c)) — 1 marks
-> *As estimating with a large data set. we can use the the *`open parentheses n over 2 close parentheses to the power of th`* value as an estiamte of the median.*
+> *As estimating with a large data set. we can use the the *$( \frac{n}{2} )^{th}$* value as an estiamte of the median.*
 
-*Position of median is the *`open parentheses 100 over 2 close parentheses to the power of th equals 50 to the power of th`* value. *
+*Position of median is the *$( \frac{100}{2} )^{th} = 50^{th}$* value. *
 
 *To find the median weight, draw a horizontal line across from 50 on the cumulative frequency axis until it reaches the curve.* 
 *Then draw a vertical line down to the time axis and take a reading.*
@@ -574,10 +574,10 @@ ii) *The interquartile range (IQR) is the difference between the lower quartile 
 ## Q14 — medium — 4 marks · exam-questions
 
 ### 11((a)) — 1 marks
-> *As estimating with a large data set, we can use the *`open parentheses n over 2 close parentheses to the power of th`* value to estimate the median.*
+> *As estimating with a large data set, we can use the *$( \frac{n}{2} )^{th}$* value to estimate the median.*
 *In this question, *$n=60$*.*
 
-*Position of median is the *`open parentheses 60 over 2 close parentheses to the power of th equals 30 to the power of th`* value. *
+*Position of median is the *$( \frac{60}{2} )^{th} = 30^{th}$* value. *
 
 *To find the median weight, draw a horizontal line across from 30 on the cumulative frequency axis until it reaches the curve.* 
 *Then draw a vertical line down to the weight axis and take a reading.*
@@ -607,7 +607,7 @@ ii) *The interquartile range (IQR) is the difference between the lower quartile 
 *To express this as a percentage, write it as a fraction out of the total number of potatoes, then multiply by 100%.* 
 *Then compare to 25%.*
 
-`11 over 60 cross times 100 percent sign equals 18.3 with dot on top percent sign`
+$\frac{11}{60} \times 100 \% = 18. \dot{3} \%$
 
 **Approximately 18% of the potatoes have a weight greater than 65 g which is less than 25% ****[1]**
 
@@ -626,9 +626,9 @@ ii) *The interquartile range (IQR) is the difference between the lower quartile 
 **Fully correct with points joined**** [1]**
 
 ### 7((b)) — 1 marks
-> *As estimating with a large data set, the *`open parentheses n over 2 close parentheses to the power of th`* value can be used to estimate the median.*
+> *As estimating with a large data set, the *$( \frac{n}{2} )^{th}$* value can be used to estimate the median.*
 
-*Position of median is the *`open parentheses 80 over 2 close parentheses to the power of th equals 40 to the power of th`* value. *
+*Position of median is the *$( \frac{80}{2} )^{th} = 40^{th}$* value. *
 
 *To find the median weight, draw a horizontal line across from 40 on the cumulative frequency axis until it reaches the curve.* 
 *Then draw a vertical line down to the weight axis and take a reading.*
@@ -682,9 +682,9 @@ $\frac{80}{3+1}\times3=\frac{80}{4}\times3=20\times3=60$
 **Fully correct with points joined**** [1]**
 
 ### 12((c)) — 1 marks
-> *As estimating with a large data set, the *`open parentheses n over 2 close parentheses to the power of th`* value can be used to estimate the median.*
+> *As estimating with a large data set, the *$( \frac{n}{2} )^{th}$* value can be used to estimate the median.*
 
-*Position of median is the *`open parentheses 80 over 2 close parentheses to the power of th equals 40 to the power of th`* value *
+*Position of median is the *$( \frac{80}{2} )^{th} = 40^{th}$* value *
 
 *To find the median time taken, draw a horizontal line across from 40 on the cumulative frequency axis until it reaches the curve.* *Then draw a vertical line down to the time taken axis and take a reading.*
 
@@ -697,9 +697,9 @@ $\frac{80}{3+1}\times3=\frac{80}{4}\times3=20\times3=60$
 ## Q17 — medium — 5 marks · exam-questions
 
 ### 11((a)) — 2 marks
-> *As estimating with a large data set, the *`open parentheses n over 2 close parentheses to the power of th`* value can be used to estimate the median.*
+> *As estimating with a large data set, the *$( \frac{n}{2} )^{th}$* value can be used to estimate the median.*
 
-*Position of median is the *`open parentheses 90 over 2 close parentheses to the power of th equals 45 to the power of th`* value *
+*Position of median is the *$( \frac{90}{2} )^{th} = 45^{th}$* value *
 
 *To find the median time taken, draw a horizontal line across from 45 on the cumulative frequency axis until it reaches the curve.* *Then draw a vertical line down to the weight axis and take a reading.*
 
@@ -762,9 +762,9 @@ $\frac{80}{3+1}\times3=\frac{80}{4}\times3=20\times3=60$
 **Fully correct with points joined**** [1]**
 
 ### 11((c)) — 1 marks
-> *As estimating with a large data set, the *`open parentheses n over 2 close parentheses to the power of th`* value can be used to estimate the median.*
+> *As estimating with a large data set, the *$( \frac{n}{2} )^{th}$* value can be used to estimate the median.*
 
-*Position of median is the *`open parentheses 120 over 2 close parentheses to the power of th equals 60 to the power of th`* value *
+*Position of median is the *$( \frac{120}{2} )^{th} = 60^{th}$* value *
 
 > *To find the median waiting time, draw a horizontal line across from 60 on the cumulative frequency axis until it reaches the curve.*
 *Then draw a vertical line down to the time waited axis and take a reading.*
@@ -825,13 +825,13 @@ $\frac{80}{3+1}\times3=\frac{80}{4}\times3=20\times3=60$
 
 | Age ($a$ years) | Cumulative frequency |
 |---|---|
-| `0 space less than space a space less-than or slanted equal to space 10` | *0+4 = ***4** |
-| `0 space less than space a space less-than or slanted equal to space 20` | *4+14 = ***18** |
-| `0 space less than space a space less-than or slanted equal to space 30` | *18+17 = ***35** |
-| `0 space less than space a space less-than or slanted equal to space 40` | *35+13 = ***48** |
-| `0 space less than space a space less-than or slanted equal to space 50` | *48+7 = ***55** |
-| `0 space less than space a space less-than or slanted equal to space 60` | *55+3 = ***58** |
-| `0 space less than space a space less-than or slanted equal to space 70` | *58+2 = ***60** |
+| $0 < a \text{less} - \text{than} or \text{slanted} \text{equal} to 10$ | *0+4 = ***4** |
+| $0 < a \text{less} - \text{than} or \text{slanted} \text{equal} to 20$ | *4+14 = ***18** |
+| $0 < a \text{less} - \text{than} or \text{slanted} \text{equal} to 30$ | *18+17 = ***35** |
+| $0 < a \text{less} - \text{than} or \text{slanted} \text{equal} to 40$ | *35+13 = ***48** |
+| $0 < a \text{less} - \text{than} or \text{slanted} \text{equal} to 50$ | *48+7 = ***55** |
+| $0 < a \text{less} - \text{than} or \text{slanted} \text{equal} to 60$ | *55+3 = ***58** |
+| $0 < a \text{less} - \text{than} or \text{slanted} \text{equal} to 70$ | *58+2 = ***60** |
 
 **[B1]**
 
@@ -879,7 +879,7 @@ $\frac{80}{3+1}\times3=\frac{80}{4}\times3=20\times3=60$
 
 > *Calculate the interquartile range (IQR) by calculating the difference between the UQ and LQ*
 
-`table row IQR equals cell 37 minus 18 end cell row blank equals 19 end table`
+$\begin{gathered} \text{IQR} = 37 - 18 \\ = 19 \end{gathered}$
 
 **[A1]**
 
@@ -994,11 +994,11 @@ $80-75=5$
 
 > *Convert this to a percentage by dividing by the total number of people and multiplying by 100*
 
-`5 over 80 space cross times space 100 space equals space 6.25 percent sign`
+$\frac{5}{80} \times 100 = 6.25 \%$
 
 **[M1]**
 
-`6.25 percent sign`
+$6.25 \%$
 
 **[A1]**
 
@@ -1125,7 +1125,7 @@ $\frac{42}{0.6}=N$
 
 *Find 55 films as a percentage of 80 films* * *
 
-`55 over 80 cross times 100 equals 68.75 percent sign`
+$\frac{55}{80} \times 100 = 68.75 \%$
 
 **[1]**
 
@@ -1138,9 +1138,9 @@ $\frac{42}{0.6}=N$
 ## Q27 — hard — 5 marks · exam-questions
 
 ### 14((a)) — 1 marks
-> *As estimating with a large data set, the *`open parentheses n over 2 close parentheses to the power of th`* value can be used to estimate the median.*
+> *As estimating with a large data set, the *$( \frac{n}{2} )^{th}$* value can be used to estimate the median.*
 
-*Position of median is the *`open parentheses 60 over 2 close parentheses to the power of th equals 30 to the power of th`* value *
+*Position of median is the *$( \frac{60}{2} )^{th} = 30^{th}$* value *
 
 *To find the median algebra mark, draw a horizontal line across from 30 on the cumulative frequency axis until it reaches the curve.* 
 *Then draw a vertical line down to the algebra mark axis and take a reading.*
@@ -1163,11 +1163,11 @@ $\frac{42}{0.6}=N$
 
 ### 14((c)) — 2 marks
 > *The interquartile range (IQR) is the difference between the upper quartile (UQ) and the lower quartile (LQ). *
-*As estimating with a large data set we can use the *`open parentheses n over 4 close parentheses to the power of th`* value for the lower quartile and the *`open parentheses 3 cross times n over 4 close parentheses to the power of th`* value for the upper quartile. *
+*As estimating with a large data set we can use the *$( \frac{n}{4} )^{th}$* value for the lower quartile and the *$( 3 \times \frac{n}{4} )^{th}$* value for the upper quartile. *
 *For this question, *$n=60.$
 
-*The lower quartile is the *`open parentheses 60 over 4 close parentheses to the power of th equals 15 to the power of th`* value *
-*The upper quartile is the *`open parentheses 3 cross times 60 over 4 close parentheses to the power of th equals 45 to the power of th`* value*
+*The lower quartile is the *$( \frac{60}{4} )^{th} = 15^{th}$* value *
+*The upper quartile is the *$( 3 \times \frac{60}{4} )^{th} = 45^{th}$* value*
 
 > *Draw horizontal lines from 15 and 45 on the cumulative frequency axis until they reach the curve. *
 *Then draw vertical lines down to the algebra mark axis and take readings.*
@@ -1198,9 +1198,9 @@ $\frac{42}{0.6}=N$
 **Fully correct with points joined**** [1]**
 
 ### 12((b)) — 1 marks
-> *As estimating with a large data set, the *`open parentheses n over 2 close parentheses to the power of th`* value can be used to estimate the median.*
+> *As estimating with a large data set, the *$( \frac{n}{2} )^{th}$* value can be used to estimate the median.*
 
-*Position of median is the *`open parentheses 80 over 2 close parentheses to the power of th equals 40 to the power of th`* value *
+*Position of median is the *$( \frac{80}{2} )^{th} = 40^{th}$* value *
 
 *To find the median distance travelled, draw a horizontal line across from 40 on the cumulative frequency axis until it reaches the curve.* 
 *Then draw a vertical line down to the distance travelled axis and take a reading.*
@@ -1216,10 +1216,10 @@ $\frac{42}{0.6}=N$
 ### 12((c)) — 2 marks
 > *The interquartile range (IQR) is the difference between the upper quartile (UQ) and the lower quartile (LQ). *
 
-> *As estimating with a large data set we can use the *`open parentheses n over 4 close parentheses to the power of th`* value to approximate the lower quartile and the *`open parentheses 3 cross times n over 4 close parentheses to the power of th`* value to approximate the upper quartile. *
+> *As estimating with a large data set we can use the *$( \frac{n}{4} )^{th}$* value to approximate the lower quartile and the *$( 3 \times \frac{n}{4} )^{th}$* value to approximate the upper quartile. *
 *For this question, *$n=80$*.*
 
-*The lower quartile is the *`open parentheses 80 over 4 close parentheses to the power of th equals 20 to the power of th`* value The upper quartile is the *`open parentheses 3 cross times 80 over 4 close parentheses to the power of th equals 60 to the power of th`* value*
+*The lower quartile is the *$( \frac{80}{4} )^{th} = 20^{th}$* value The upper quartile is the *$( 3 \times \frac{80}{4} )^{th} = 60^{th}$* value*
 
 > *Draw horizontal lines from 20 and 60 on the cumulative frequency axis until they reach the curve. *
 *Then draw vertical lines down to the distance travelled axis and take readings.*
@@ -1247,9 +1247,9 @@ $\frac{42}{0.6}=N$
 ## Q29 — hard — 5 marks · exam-questions
 
 ### 12((a)) — 1 marks
-> *As estimating with a large data set, the *`open parentheses n over 2 close parentheses to the power of th`* value can be used to estimate the median.*
+> *As estimating with a large data set, the *$( \frac{n}{2} )^{th}$* value can be used to estimate the median.*
 
-*Position of median is the *`open parentheses 60 over 2 close parentheses to the power of th equals 30 to the power of th`* value *
+*Position of median is the *$( \frac{60}{2} )^{th} = 30^{th}$* value *
 
 *To find the median waiting time, draw a horizontal line across from 30 on the cumulative frequency axis until it reaches the curve.* 
 *Then draw a vertical line down to the waiting time axis and take a reading.*
@@ -1263,10 +1263,10 @@ $\frac{42}{0.6}=N$
 ### 12((b)) — 2 marks
 > *The interquartile range (IQR) is the difference between the upper quartile (UQ) and the lower quartile (LQ). *
 
-> *As estimating with a large data set we can use the *`open parentheses n over 4 close parentheses to the power of th`* value to approximate the lower quartile and the *`open parentheses 3 cross times n over 4 close parentheses to the power of th`* value to approximate the upper quartile. For this question, *$n=60$*.*
+> *As estimating with a large data set we can use the *$( \frac{n}{4} )^{th}$* value to approximate the lower quartile and the *$( 3 \times \frac{n}{4} )^{th}$* value to approximate the upper quartile. For this question, *$n=60$*.*
 
-*The lower quartile is the *`open parentheses 60 over 4 close parentheses to the power of th equals 15 to the power of th`* value *
-*The upper quartile is the *`open parentheses 3 cross times 60 over 4 close parentheses to the power of th equals 45 to the power of th`* value*
+*The lower quartile is the *$( \frac{60}{4} )^{th} = 15^{th}$* value *
+*The upper quartile is the *$( 3 \times \frac{60}{4} )^{th} = 45^{th}$* value*
 
 > *Draw horizontal lines from 15 and 45 on the cumulative frequency axis until they reach the curve. *
 *Then draw vertical lines down to the waiting time axis and take readings.*
@@ -1295,12 +1295,12 @@ $\frac{42}{0.6}=N$
 
 ### 10((a)) — 2 marks
 > *The interquartile range (IQR) is the difference between the upper quartile (UQ) and the lower quartile (LQ). *
-*As estimating with a large data set we can use the *`open parentheses n over 4 close parentheses to the power of th`* value to approximate the lower quartile and the *`open parentheses 3 cross times n over 4 close parentheses to the power of th`* value to approximate the upper quartile. *
+*As estimating with a large data set we can use the *$( \frac{n}{4} )^{th}$* value to approximate the lower quartile and the *$( 3 \times \frac{n}{4} )^{th}$* value to approximate the upper quartile. *
 
 > *For this question, *$n=80$*.*
 
-*The lower quartile is the *`open parentheses 80 over 4 close parentheses to the power of th equals 20 to the power of th`* value *
-*The upper quartile is the *`open parentheses 3 cross times 80 over 4 close parentheses to the power of th equals 60 to the power of th`* value*
+*The lower quartile is the *$( \frac{80}{4} )^{th} = 20^{th}$* value *
+*The upper quartile is the *$( 3 \times \frac{80}{4} )^{th} = 60^{th}$* value*
 
 > *Draw horizontal lines from 20 and 60 on the cumulative frequency axis until they reach the curve. *
 *Then draw vertical lines down to the length and take readings.*
@@ -1320,9 +1320,9 @@ $\frac{42}{0.6}=N$
 ## Q31 — hard — 4 marks · exam-questions
 
 ### 17((a)) — 1 marks
-> *As estimating with a large data set. we can use the the *`open parentheses n over 2 close parentheses to the power of th`* value as an estimate of the median.*
+> *As estimating with a large data set. we can use the the *$( \frac{n}{2} )^{th}$* value as an estimate of the median.*
 
-*Position of median is the *`open parentheses 200 over 2 close parentheses to the power of th equals 100 to the power of th`* value. *
+*Position of median is the *$( \frac{200}{2} )^{th} = 100^{th}$* value. *
 
 *To find the median weight, draw a horizontal line across from 100 on the cumulative frequency axis until it reaches the curve.* *Then draw a vertical line down to the mass (**x**) axis and take a reading.*
 
@@ -1374,10 +1374,10 @@ $\frac{42}{0.6}=N$
 
 | **Miles per gallon, **$x$ | **Frequency** |   | ***Miles per gallon, ***$x$ | ***Cumulative Frequency*** |
 |---|---|---|---|---|
-| `40 space less than space x space less-than or slanted equal to space 50` | 6 |   | `40 space less than space x space less-than or slanted equal to space 50` | *6* |
-| `50 space less than space x space less-than or slanted equal to space 60` | 16 |   | `40 space less than space x space less-than or slanted equal to space 60` | *22* |
-| `60 space less than space x space less-than or slanted equal to space 70` | 28 |   | `40 space less than space x space less-than or slanted equal to space 70` | *50* |
-| `70 space less than space x space less-than or slanted equal to space 80` | 10 |   | `40 space less than space x space less-than or slanted equal to space 80` | *60* |
+| $40 < x \text{less} - \text{than} or \text{slanted} \text{equal} to 50$ | 6 |   | $40 < x \text{less} - \text{than} or \text{slanted} \text{equal} to 50$ | *6* |
+| $50 < x \text{less} - \text{than} or \text{slanted} \text{equal} to 60$ | 16 |   | $40 < x \text{less} - \text{than} or \text{slanted} \text{equal} to 60$ | *22* |
+| $60 < x \text{less} - \text{than} or \text{slanted} \text{equal} to 70$ | 28 |   | $40 < x \text{less} - \text{than} or \text{slanted} \text{equal} to 70$ | *50* |
+| $70 < x \text{less} - \text{than} or \text{slanted} \text{equal} to 80$ | 10 |   | $40 < x \text{less} - \text{than} or \text{slanted} \text{equal} to 80$ | *60* |
 
 **[1]**
 
@@ -1394,10 +1394,10 @@ $\frac{42}{0.6}=N$
 ### 22((b)) — 2 marks
 > *The interquartile range (IQR) is the difference between the upper quartile (UQ) and the lower quartile (LQ). *
 
-> *When estimating from a cumulative frequency graph, we use the *`open parentheses n over 4 close parentheses to the power of th`* value for the lower quartile and the *`open parentheses 3 cross times n over 4 close parentheses to the power of th`*value for the upper quartile. For this question, *$n=60.$
+> *When estimating from a cumulative frequency graph, we use the *$( \frac{n}{4} )^{th}$* value for the lower quartile and the *$( 3 \times \frac{n}{4} )^{th}$*value for the upper quartile. For this question, *$n=60.$
 
-*The lower quartile is the *`open parentheses 60 over 4 close parentheses to the power of th equals 15 to the power of th`* value *
-*The upper quartile is the *`open parentheses 3 cross times 60 over 4 close parentheses to the power of th equals 45 to the power of th`* value*
+*The lower quartile is the *$( \frac{60}{4} )^{th} = 15^{th}$* value *
+*The upper quartile is the *$( 3 \times \frac{60}{4} )^{th} = 45^{th}$* value*
 
 > *Draw horizontal lines from 15 and 45 on the cumulative frequency axis until they reach the curve. *
 *Then draw vertical lines down to the x axis and take readings.*
@@ -1424,11 +1424,11 @@ $\frac{42}{0.6}=N$
 
 | **Mark, **$m$ | **Frequency** |   | ***Mark****, *$m$ | ***Cumulative Frequency*** |
 |---|---|---|---|---|
-| `40 space less than space m space less-than or slanted equal to space 50` | 9 |   | `40 space less than space m space less-than or slanted equal to space 50` | *9* |
-| `50 space less than space m space less-than or slanted equal to space 60` | 16 |   | `40 space less than space m space less-than or slanted equal to space 60` | *25* |
-| `60 space less than space m space less-than or slanted equal to space 70` | 20 |   | `40 space less than space m space less-than or slanted equal to space 70` | *45* |
-| `70 space less than space m space less-than or slanted equal to space 80` | 8 |   | `40 space less than space m space less-than or slanted equal to space 80` | *53* |
-| `80 space less than space m space less-than or slanted equal to space 90` | 7 |   | `40 space less than space m space less-than or slanted equal to space 90` | *60* |
+| $40 < m \text{less} - \text{than} or \text{slanted} \text{equal} to 50$ | 9 |   | $40 < m \text{less} - \text{than} or \text{slanted} \text{equal} to 50$ | *9* |
+| $50 < m \text{less} - \text{than} or \text{slanted} \text{equal} to 60$ | 16 |   | $40 < m \text{less} - \text{than} or \text{slanted} \text{equal} to 60$ | *25* |
+| $60 < m \text{less} - \text{than} or \text{slanted} \text{equal} to 70$ | 20 |   | $40 < m \text{less} - \text{than} or \text{slanted} \text{equal} to 70$ | *45* |
+| $70 < m \text{less} - \text{than} or \text{slanted} \text{equal} to 80$ | 8 |   | $40 < m \text{less} - \text{than} or \text{slanted} \text{equal} to 80$ | *53* |
+| $80 < m \text{less} - \text{than} or \text{slanted} \text{equal} to 90$ | 7 |   | $40 < m \text{less} - \text{than} or \text{slanted} \text{equal} to 90$ | *60* |
 
 **[1]**
 
@@ -1481,11 +1481,11 @@ $\frac{42}{0.6}=N$
 
 | *Annual salary,** p* *(£ thousands)* | *Cumulative* *frequency* |
 |---|---|
-| `p space less-than or slanted equal to space 10` | **Final answer:** **14** |
-| `p space less-than or slanted equal to space 20` | **Final answer:** **26** |
-| `p space less-than or slanted equal to space 30` | **Final answer:** **36** |
-| `p space less-than or slanted equal to space 50` | **Final answer:** **50** |
-| `p space less-than or slanted equal to space 80` | **Final answer:** **60** |
+| $p \text{less} - \text{than} or \text{slanted} \text{equal} to 10$ | **Final answer:** **14** |
+| $p \text{less} - \text{than} or \text{slanted} \text{equal} to 20$ | **Final answer:** **26** |
+| $p \text{less} - \text{than} or \text{slanted} \text{equal} to 30$ | **Final answer:** **36** |
+| $p \text{less} - \text{than} or \text{slanted} \text{equal} to 50$ | **Final answer:** **50** |
+| $p \text{less} - \text{than} or \text{slanted} \text{equal} to 80$ | **Final answer:** **60** |
 
 **completed table with 3 correct**** [1]** 
 **fully correct**** [1]**
@@ -1495,11 +1495,11 @@ $\frac{42}{0.6}=N$
 
 | *Annual salary,** p* *(£ thousands)* | > *Frequency* |
 |---|---|
-| `0 less than p space less-than or slanted equal to space 10` | *14* |
-| `10 less than p space less-than or slanted equal to space 20` | *26 - 14 = 12* |
-| `20 less than p space less-than or slanted equal to space 30` | *36 - 26 = 10* |
-| `30 less than p space less-than or slanted equal to space 50` | *50 - 36 = 14* |
-| `50 less than p space less-than or slanted equal to space 80` | *60 - 50 = 10* |
+| $0 < p \text{less} - \text{than} or \text{slanted} \text{equal} to 10$ | *14* |
+| $10 < p \text{less} - \text{than} or \text{slanted} \text{equal} to 20$ | *26 - 14 = 12* |
+| $20 < p \text{less} - \text{than} or \text{slanted} \text{equal} to 30$ | *36 - 26 = 10* |
+| $30 < p \text{less} - \text{than} or \text{slanted} \text{equal} to 50$ | *50 - 36 = 14* |
+| $50 < p \text{less} - \text{than} or \text{slanted} \text{equal} to 80$ | *60 - 50 = 10* |
 
 **follow-through error allowed from part (b) ****[1]**
 
@@ -1507,11 +1507,11 @@ $\frac{42}{0.6}=N$
 
 | *Annual salary,** p* *(£ thousands)* | > *Frequency* | > *Midpoints* |
 |---|---|---|
-| `0 less than p space less-than or slanted equal to space 10` | > *14* | *5* |
-| `10 less than p space less-than or slanted equal to space 20` | > *12* | *15* |
-| `20 less than p space less-than or slanted equal to space 30` | > *10* | *25* |
-| `30 less than p space less-than or slanted equal to space 50` | > *14* | *40* |
-| `50 less than p space less-than or slanted equal to space 80` | > *10* | *65* |
+| $0 < p \text{less} - \text{than} or \text{slanted} \text{equal} to 10$ | > *14* | *5* |
+| $10 < p \text{less} - \text{than} or \text{slanted} \text{equal} to 20$ | > *12* | *15* |
+| $20 < p \text{less} - \text{than} or \text{slanted} \text{equal} to 30$ | > *10* | *25* |
+| $30 < p \text{less} - \text{than} or \text{slanted} \text{equal} to 50$ | > *14* | *40* |
+| $50 < p \text{less} - \text{than} or \text{slanted} \text{equal} to 80$ | > *10* | *65* |
 
 * ***allow one error ****[1]**
 
@@ -1519,11 +1519,11 @@ $\frac{42}{0.6}=N$
 
 | *Annual salary,** p* *(£ thousands)* | > *Frequency* | > *Midpoints* | > * * |
 |---|---|---|---|
-| `0 less than p space less-than or slanted equal to space 10` | > *14* | > *5* | *14 × 5 = 70* |
-| `10 less than p space less-than or slanted equal to space 20` | > *12* | > *15* | *12 × 15 = 180* |
-| `20 less than p space less-than or slanted equal to space 30` | > *10* | > *25* | *10 × 25 = 250* |
-| `30 less than p space less-than or slanted equal to space 50` | > *14* | > *40* | *14 × 40 = 560* |
-| `50 less than p space less-than or slanted equal to space 80` | > *10* | > *65* | *10 × 65 = 650* |
+| $0 < p \text{less} - \text{than} or \text{slanted} \text{equal} to 10$ | > *14* | > *5* | *14 × 5 = 70* |
+| $10 < p \text{less} - \text{than} or \text{slanted} \text{equal} to 20$ | > *12* | > *15* | *12 × 15 = 180* |
+| $20 < p \text{less} - \text{than} or \text{slanted} \text{equal} to 30$ | > *10* | > *25* | *10 × 25 = 250* |
+| $30 < p \text{less} - \text{than} or \text{slanted} \text{equal} to 50$ | > *14* | > *40* | *14 × 40 = 560* |
+| $50 < p \text{less} - \text{than} or \text{slanted} \text{equal} to 80$ | > *10* | > *65* | *10 × 65 = 650* |
 
 > * *
 
@@ -1531,11 +1531,11 @@ $\frac{42}{0.6}=N$
 
 | *Annual salary,** p* *(£ thousands)* | > *Frequency* | > *Midpoints* | > * * |
 |---|---|---|---|
-| `0 less than p space less-than or slanted equal to space 10` | > *14* | > *5* | > *14 × 5 = 70* |
-| `10 less than p space less-than or slanted equal to space 20` | > *12* | > *15* | > *12 × 15 = 180* |
-| `20 less than p space less-than or slanted equal to space 30` | > *10* | > *25* | > *10 × 25 = 250* |
-| `30 less than p space less-than or slanted equal to space 50` | > *14* | > *40* | > *14 × 40 = 560* |
-| `50 less than p space less-than or slanted equal to space 80` | > *10* | > *65* | > *10 × 65 = 650* |
+| $0 < p \text{less} - \text{than} or \text{slanted} \text{equal} to 10$ | > *14* | > *5* | > *14 × 5 = 70* |
+| $10 < p \text{less} - \text{than} or \text{slanted} \text{equal} to 20$ | > *12* | > *15* | > *12 × 15 = 180* |
+| $20 < p \text{less} - \text{than} or \text{slanted} \text{equal} to 30$ | > *10* | > *25* | > *10 × 25 = 250* |
+| $30 < p \text{less} - \text{than} or \text{slanted} \text{equal} to 50$ | > *14* | > *40* | > *14 × 40 = 560* |
+| $50 < p \text{less} - \text{than} or \text{slanted} \text{equal} to 80$ | > *10* | > *65* | > *10 × 65 = 650* |
 |   | *Total = 60* | * * | *Total = 1710* |
 
 **[1]**
@@ -1677,7 +1677,7 @@ $\frac{1}{5}\times80=16$
 
 > *Work out 182 as a percentage of 200  *
 
-> `182 over 200 cross times 100 equals 91 percent sign`*  *
+> $\frac{182}{200} \times 100 = 91 \%$*  *
 
 > *Work out the percentage of the 200 families that spend over £120 (by subtracting 91 from 100)  *
 

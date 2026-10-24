@@ -31,7 +31,7 @@ ii) Derive the equation for p.d. when the capacitor is charging:
 
 Combine the above expressions to write an expression in terms of p.d. across the resistor, $V_{R}$:
 
-- `V subscript R over R space equals space I subscript 0 e to the power of negative fraction numerator t over denominator R C end fraction end exponent space space space space space rightwards double arrow space space space space space V subscript R space equals space open parentheses R I subscript 0 close parentheses e to the power of negative fraction numerator t over denominator R C end fraction end exponent`
+- `V _ R / R = I _ 0 e ^ - (t)/(R C) <-> V _ R = ( R I _ 0 ) e ^ - (t)/(R C)`
 - $V_{R}=V_{0}e^{-\frac{t}{RC}}$ **[1 mark]**
 
 Use energy conservation in a circuit to write an expression in terms of p.d. across the capacitor, $V$:
@@ -50,7 +50,7 @@ Max **four** marks from **one** of the following methods:
 
 ![capacitor-charging-time-constant](assets/012-capacitor-charging-time-constant.png)
 
-- When $t=RC$:  `V space equals space V subscript 0 open parentheses 1 space minus 1 over e close parentheses space equals space 0.63 V subscript 0` = 3.8 V **[1 mark]**
+- When $t=RC$:  $V = V_{0} ( 1 - \frac{1}{e} ) = 0.63 V_{0}$ = 3.8 V **[1 mark]**
 - From the graph: when $V$ = 3.8 V, *t* = time constant = 4.9 s **[1 mark]**
 
 Determine the capacitance of the capacitor that was used:
@@ -80,13 +80,13 @@ Determine the capacitance of the capacitor that was used:
 
 Convert the charging equation to its logarithmic form:
 
-- Charging equation:  `V space equals space V subscript 0 space minus space V subscript 0 e to the power of negative fraction numerator t over denominator R C end fraction end exponent space space space space space rightwards double arrow space space space space space V space equals space V subscript 0 open parentheses 1 minus e to the power of negative fraction numerator t over denominator R C end fraction end exponent close parentheses`
-- Take logs:  `ln space open parentheses V over V subscript 0 close parentheses space equals space ln space 1 space minus space open parentheses negative fraction numerator t over denominator R C end fraction close parentheses space space space space space rightwards double arrow space space space space space ln space open parentheses V subscript 0 over V close parentheses space equals space fraction numerator t over denominator R C end fraction`
-- `C space equals space fraction numerator t over denominator R space ln space open parentheses V subscript 0 over V close parentheses space end fraction` **[1 mark]**
+- Charging equation:  $V = V_{0} - V_{0} e^{- \frac{t}{R C}} \Leftrightarrow V = V_{0} ( 1 - e^{- \frac{t}{R C}} )$
+- Take logs:  `ln ( V / V _ 0 ) = ln 1 - ( - (t)/(R C) ) <-> ln ( V _ 0 / V ) = (t)/(R C)`
+- $C = \frac{t}{R ln ( V_\frac{{0}}{V} ) }$ **[1 mark]**
 
 Determine the capacitance of the capacitor that was used:
 
-- `C space equals space fraction numerator 3.4 over denominator open parentheses 3.3 cross times 10 to the power of 5 close parentheses space ln space open parentheses 6 over 3 close parentheses space end fraction` = 1.49 × 10<sup>−5</sup> F **[1 mark]**
+- $C = \frac{3.4}{( 3.3 \times 10^{5} ) \ln ( \frac{6}{3} ) }$ = 1.49 × 10<sup>−5</sup> F **[1 mark]**
 - The capacitance was 1.5 × 10<sup>−5</sup> F, therefore, the 15 μF capacitor was chosen; **[1 mark]**
 
 **Method 4: Using time to increase to half maximum p.d.**
@@ -103,7 +103,7 @@ Convert the charging equation to its logarithmic form:
 
 Determine the capacitance of the capacitor that was used:
 
-- `C space equals space fraction numerator 3.4 over denominator open parentheses 3.3 cross times 10 to the power of 5 close parentheses space ln space 2 space end fraction` = 1.49 × 10<sup>−5</sup> F **[1 mark]**
+- $C = \frac{3.4}{( 3.3 \times 10^{5} ) \ln 2 }$ = 1.49 × 10<sup>−5</sup> F **[1 mark]**
 - The capacitance was 1.5 × 10<sup>−5</sup> F, therefore, the 15 μF capacitor was chosen; **[1 mark]** *Acceptable range for RC = 4.5 s to 5.0 s* *Acceptable range for *$t_{\frac{1}{2}}$* = 3.0 s to 3.5 s* *Acceptable range for C = (1.4 to 1.5) × 10*<sup>*−5*</sup>* F when rounded to 2 s.f.*
 
 iv) Calculate the charge on the fully charged capacitor:
@@ -163,7 +163,7 @@ Use the appropriate capacitor discharge equation:
 
 - $I=I_{0}e^{-t/RC}$
 - $\mathrm{ln}I=\mathrm{ln}I_{0}-\frac{t}{RC}$
-- `C space equals fraction numerator negative t over denominator R cross times open parentheses ln space I space minus space ln space I subscript 0 close parentheses end fraction space equals space fraction numerator negative 10 over denominator 33 space 000 cross times open parentheses ln space 0.04 space minus space ln space 0.152 close parentheses end fraction`
+- $C = \frac{- t}{R \times ( \ln I - \ln I_{0} )} = \frac{- 10}{33 000 \times ( \ln 0.04 - \ln 0.152 )}$
 - $C=2.27\times10^{-4}F$ **[1 mark]**
 
 **                                                            **
@@ -203,7 +203,7 @@ To determine stored charge:
 
 **Method 2: Calculate using the capacitor equation:**
 
-- `Q space equals space C V space equals space open parentheses 2.27 cross times 10 to the power of negative 4 end exponent close parentheses cross times 5.0` **[1 mark]**
+- $Q = C V = ( 2.27 \times 10^{- 4} ) \times 5.0$ **[1 mark]**
 - *Q* = 1.1 mC; **[1 mark]**
 
 **[Total: 2 marks]**
@@ -217,7 +217,7 @@ Use an equation for energy stored in a capacitor:
 
 Calculate:
 
-- `W space equals space 1 half space cross times open parentheses 1.1 cross times 10 to the power of negative 3 end exponent close parentheses cross times 5` **or**** **`W space equals space 1 half space open parentheses 2.27 cross times 10 to the power of negative 4 end exponent close parentheses cross times 5 squared` **or **`W space equals space fraction numerator open parentheses 1.1 cross times 10 to the power of negative 3 end exponent close parentheses squared over denominator 2 cross times open parentheses 2.27 cross times 10 to the power of negative 4 end exponent close parentheses end fraction` ** [1 mark]**
+- $W = 1 \frac{1}{2} \times ( 1.1 \times 10^{- 3} ) \times 5$ **or**** **$W = 1 \frac{1}{2} ( 2.27 \times 10^{- 4} ) \times 5^{2}$ **or **$W = \frac{( 1.1 \times 10^{- 3} )^{2}}{2 \times ( 2.27 \times 10^{- 4} )}$ ** [1 mark]**
 - $W=2.8\times10^{-3}J$** [1 mark]**
 
 **[Total: 2 marks]**
@@ -257,8 +257,8 @@ Use the capacitor discharge equation for V:
 
 - $V=V_{0}e^{-\frac{t}{RC}}$
 - $\mathrm{ln}V=\mathrm{ln}V_{0}-\frac{t}{RC}$
-- `ln space 4 space equals space ln space 12 space minus fraction numerator t over denominator 470 cross times open parentheses 47 cross times 10 to the power of negative 3 end exponent close parentheses end fraction` **[1 mark]**
-- `t space equals space 470 cross times open parentheses 47 cross times 10 to the power of negative 3 end exponent close parentheses cross times ln space open parentheses 12 over 4 close parentheses`
+- $\ln 4 = \ln 12 - \frac{t}{470 \times ( 47 \times 10^{- 3} )}$ **[1 mark]**
+- $t = 470 \times ( 47 \times 10^{- 3} ) \times \ln ( \frac{12}{4} )$
 - *t* = 24.3 s **[1 mark]**
 
 **[Total: 2 marks]**
@@ -313,7 +313,7 @@ $I=\frac{V}{R}=\frac{12}{15\times10^{3}}=8.0\times10^{-4}\text{A}=0.80\text{mA}$
 
 - Calculate the time constant and time to decrease to near-zero current:
 
-`tau space equals space R C space equals space open parentheses 15 cross times 10 cubed close parentheses open parentheses 2200 cross times 10 to the power of negative 6 end exponent close parentheses space equals space 33 text  s end text` **[1 mark]**
+$\\tau = R C = ( 15 \times 10^{3} ) ( 2200 \times 10^{- 6} ) = 33 \text{ s}$ **[1 mark]**
 
 - Sketch the graph and include values on both axes
 
@@ -371,9 +371,9 @@ To deduce whether the LED stays on for at least $15\text{minutes}$:
 
 $\mathrm{ln}V=\mathrm{ln}V_{0}-\frac{t}{RC}$
 
-`t space equals space minus R C space ln open parentheses V over V subscript 0 close parentheses`
+$t = - R C \ln ( \frac{V}{V} _{0} )$
 
-`t space equals space minus open parentheses 250 cross times 10 cubed close parentheses open parentheses 2200 cross times 10 to the power of negative 6 end exponent close parentheses cross times ln open parentheses fraction numerator 2.0 over denominator 12 end fraction close parentheses` **[1 mark]**
+$t = - ( 250 \times 10^{3} ) ( 2200 \times 10^{- 6} ) \times \ln ( \frac{2.0}{12} )$ **[1 mark]**
 
 $t=985.5\text{s}$
 

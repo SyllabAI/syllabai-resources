@@ -30,43 +30,43 @@ guided_study: true
 
 - The **mean**, for a **continuous** **random** **variable *****X*** is given by
 
-`bold E bold left parenthesis bold italic X bold right parenthesis bold equals bold integral subscript bold minus bold infinity end subscript superscript bold infinity bold italic x bold f bold left parenthesis bold italic x bold right parenthesis bold space bold d bold italic x`
+$E ( X ) = integral_{ } - \text{infinity} ^{ } \text{infinity} x f ( x ) d x$
 
 - This is equivalent to $ΣxP(X=x)$ for discrete random variables
 - If the graph of $y=f(x)$has **axis** of **symmetry,** x = a , then  E(X) = a
 
 - The **variance** is given by
 
-`bold Var bold left parenthesis bold italic X bold right parenthesis bold equals bold integral subscript bold minus bold infinity end subscript superscript bold infinity bold italic x to the power of bold 2 bold f bold left parenthesis bold italic x bold right parenthesis bold d bold italic x bold minus stretchy left square bracket E open parentheses X close parentheses stretchy right square bracket to the power of bold 2`
+`Var ( X ) = integral _ - inf end _ ^ inf x ^ 2 f ( x ) d x - stretchy left square bracket E ( X ) stretchy right square bracket ^ 2`
 
-- This is equivalent to `straight capital sigma x squared straight P left parenthesis X equals x right parenthesis minus stretchy left square bracket E open parentheses X close parentheses stretchy right square bracket squared`  for discrete random variables
-- Be careful about confusing $E(X^{2})$  and `begin mathsize 16px style open square brackets E open parentheses X close parentheses close square brackets squared end style`
+- This is equivalent to `capital sigma x ^2 P ( X = x ) - stretchy left square bracket E ( X ) stretchy right square bracket ^2`  for discrete random variables
+- Be careful about confusing $E(X^{2})$  and $[ E ( X ) ]^{2}$
 
-  - `E left parenthesis X squared right parenthesis equals integral subscript negative infinity end subscript superscript infinity x squared straight f left parenthesis x right parenthesis space straight d x`                “mean of the squares”
-  - `open square brackets E left parenthesis X right parenthesis close square brackets squared equals open square brackets integral subscript negative infinity end subscript superscript infinity x space straight f left parenthesis x right parenthesis space straight d x close square brackets squared`       “square of the mean”
+  - $E ( X ^{2} ) = integral_{ - } \text{infinity} ^{infinity} x ^{2} \mathrm{f} ( x ) \mathrm{d} x$                “mean of the squares”
+  - $[ E ( X ) ] ^{2} = [ integral_{ - } \text{infinity} ^{infinity} x \mathrm{f} ( x ) \mathrm{d} x ] ^{2}$       “square of the mean”
   - If you are happy with the difference between these and how to calculate them the variance formula becomes very straightforward
 
-`Var left parenthesis X right parenthesis equals straight E left parenthesis X squared right parenthesis minus open square brackets straight E left parenthesis X right parenthesis close square brackets squared`
+$\text{Var} ( X ) = \mathrm{E} ( X^{2} ) - [ \mathrm{E} ( X ) ]^{2}$
 
 #### How do I calculate E(g(X))?
 
-- `straight E open parentheses g open parentheses X close parentheses close parentheses equals integral subscript negative infinity end subscript superscript infinity g open parentheses x close parentheses straight f left parenthesis x right parenthesis space straight d x`
+- $\mathrm{E} ( g ( X ) ) = integral_{ - } \text{infinity} ^{infinity} g ( x ) \mathrm{f} ( x ) \mathrm{d} x$
 - In particular:
 
-  - `straight E left parenthesis X squared right parenthesis equals integral subscript negative infinity end subscript superscript infinity x squared straight f left parenthesis x right parenthesis space straight d x`as seen above
+  - $\mathrm{E} ( X ^{2} ) = integral_{ - } \text{infinity} ^{infinity} x ^{2} \mathrm{f} ( x ) \mathrm{d} x$as seen above
 
 > **Worked Example**
 > A continuous random variable, $X$, is modelled by the probability distribution function $f(x)$, such that
 > 
-> `straight f left parenthesis x right parenthesis equals open curly brackets table row cell 1.5 x squared left parenthesis 1 minus 0.5 x right parenthesis end cell cell 0 less or equal than x less or equal than 2 end cell row cell space space space space space space space space space space space space 0 end cell otherwise end table close`
+> `f ( x ) = { | 1.5 x ^2 ( 1 - 0.5 x ) | 0 <= x <= 2 | | 0 | otherwise | close`
 > 
-> (i) Find `E open parentheses X close parentheses`
+> (i) Find $E ( X )$
 > 
 > **Answer:**
 > 
 > ![2-3-2-cie-fig1-we-solution_a](assets/5338b0703d78-image.bin)
 > 
-> (ii) Find `Var open parentheses X close parentheses`
+> (ii) Find $Var ( X )$
 > 
 > **Answer:**
 > 

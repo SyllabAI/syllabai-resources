@@ -73,7 +73,7 @@ $\mathrm{clockwise} \mathrm{moments}=2.0N\times6.0m=12.0Nm$
 $\mathrm{anticlockwise} \mathrm{moments}=2.0N\times6.0m=12.0Nm$
 
 **D** is incorrect because the moments are equal: 
-`clockwise space momemts space equals space open parentheses 4.0 space straight N space cross times 1.0 space straight m close parentheses space plus space open parentheses 2.0 space straight N space cross times space 2.0 space straight m close parentheses space equals space 8.0 space straight N space straight m`
+$\text{clockwise} \text{momemts} = ( 4.0 \mathrm{N} \times 1.0 \mathrm{m} ) + ( 2.0 \mathrm{N} \times 2.0 \mathrm{m} ) = 8.0 \mathrm{N} \mathrm{m}$
 $\mathrm{anticlockwise} \mathrm{moments}=4.0N\times2.0m=8.0Nm$
 
 ### Q4
@@ -103,7 +103,7 @@ moment = force × perpendicular distance from the pivot
 
 $\mathrm{clockwise} \mathrm{moments}=20\mathrm{cm}\timesF$
 
-- The rule is in equilibrium and so: `table row cell clockwise space moments space end cell equals cell space anticlockwise space moments end cell row blank blank blank row cell 180 space straight N space end cell equals cell space 20 space cm space cross times space straight F end cell row blank blank blank row cell fraction numerator 180 space straight N space cm over denominator 20 space cm end fraction space end cell equals cell space straight F end cell row blank blank blank row cell straight F space end cell equals cell space 9.0 space straight N end cell row blank blank blank end table`
+- The rule is in equilibrium and so: $\begin{gathered} \text{clockwise} \text{moments} & = \text{anticlockwise} \text{moments} \\ \\ 180 \mathrm{N} & = 20 \text{cm} \times \mathrm{F} \\ \\ \frac{180 \mathrm{N} cm}{20 cm} & = \mathrm{F} \\ \\ \mathrm{F} & = 9.0 \mathrm{N} \\ \end{gathered}$
 
 * *In this question, the rule was balanced at its central point, so you do not need to involve its weight in any calculations as it has no turning effect. In some supplemental questions, you may need to include the weight of the rule as it may not be pivoted in the centre. You may also need to use multiple moments in both directions of rotation.
 
@@ -333,7 +333,7 @@ The width of the screwdriver has nothing to do with the size of the moment appli
   - $\mathrm{moment}_{1}=m_{1}g\times\sqrt{l_{1}^{2}-h_{1}^{2}}$
 - Equilibrium means $\mathrm{moment}_{1}=\mathrm{moment}_{2}$
 
-  - `m subscript 2 d subscript 2 up diagonal strike g space equals space m subscript 1 up diagonal strike g square root of l subscript 1 squared space minus space h subscript 1 squared end root`
+  - $m_{2} d_{2} \cancel{g} = m_{1} \cancel{g} \sqrt{l_{1}^{2} - h_{1}^{2}}$
   - $m_{2}d_{2}=m_{1}\sqrt{l_{1}^{2}-h_{1}^{2}}$
   - $d_{2}=\frac{m_{1}\sqrt{l_{1}^{2}-h_{1}^{2}}}{m_{2}}$
 
@@ -426,13 +426,13 @@ This question is testing how well you know the definition of a moment, as well a
   - $\mathrm{moment}=F\timesd$
 - Calculate the anticlockwise (ACW) moment from the rope:
 
-  - `moment subscript ACW space equals space T space cross times space open parentheses L over 4 close parentheses`
+  - $moment_{ACW} = T \times ( \frac{L}{4} )$
 - Calculate the total clockwise (CW) moment:
 
-  - `moment subscript CW space equals space open parentheses M g close parentheses space cross times space open parentheses L over 4 close parentheses space plus space open parentheses m g close parentheses space cross times space open parentheses fraction numerator 3 L over denominator 4 end fraction close parentheses`
+  - $moment_{CW} = ( M g ) \times ( \frac{L}{4} ) + ( m g ) \times ( \frac{3 L}{4} )$
 - Equate the CW and ACW moments and rearrange for $M$:
 
-  - `fraction numerator T up diagonal strike L over denominator up diagonal strike 4 end fraction space equals space fraction numerator M g up diagonal strike L over denominator up diagonal strike 4 end fraction space plus space fraction numerator 3 m g up diagonal strike L over denominator up diagonal strike 4 end fraction`
+  - $\frac{T \cancel{L} }{ \cancel{4} } = \frac{M g \cancel{L} }{ \cancel{4} } + \frac{3 m g \cancel{L} }{ \cancel{4} }$
   - $T=Mg+3mg\RightarrowMg=T-3mg$
   - $M=\frac{T}{g}-3m$
 

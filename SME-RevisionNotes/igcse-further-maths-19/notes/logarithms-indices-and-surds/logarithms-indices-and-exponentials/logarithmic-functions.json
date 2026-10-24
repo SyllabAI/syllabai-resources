@@ -309,7 +309,7 @@
   },
   {
    "type": "bullets",
-   "md": "- A **logarithm** is the **inverse of an exponent**\n\n  - If  $a^{x}=b$  then  `log subscript a open parentheses b close parentheses equals x`,  where  $a>0,b>0,a\\neq1$\n  \n    - This is the essential **definition** of a logarithm\n    - The number $a$ is called the **base** of the logarithm"
+   "md": "- A **logarithm** is the **inverse of an exponent**\n\n  - If  $a^{x}=b$  then  $log_{a} ( b ) = x$,  where  $a>0,b>0,a\\neq1$\n  \n    - This is the essential **definition** of a logarithm\n    - The number $a$ is called the **base** of the logarithm"
   },
   {
    "type": "bullets",
@@ -317,7 +317,7 @@
   },
   {
    "type": "bullets",
-   "md": "- Two important **special cases** are:\n\n  - `ln space x equals log subscript straight e open parentheses x close parentheses`\n  \n    - Where $e$ is the mathematical constant 2.718…\n    - This is called the **natural logarithm** and will have its own button on your calculator\n  - `log space x equals log subscript 10 open parentheses x close parentheses`\n  \n    - Logarithms of **base 10** are frequently used\n    - They are often abbreviated simply as $\\mathrm{log}x$"
+   "md": "- Two important **special cases** are:\n\n  - $\\ln x = log_{e} ( x )$\n  \n    - Where $e$ is the mathematical constant 2.718…\n    - This is called the **natural logarithm** and will have its own button on your calculator\n  - $\\log x = log_{10} ( x )$\n  \n    - Logarithms of **base 10** are frequently used\n    - They are often abbreviated simply as $\\mathrm{log}x$"
   },
   {
    "type": "heading",
@@ -370,7 +370,7 @@
   },
   {
    "type": "bullets",
-   "md": "- A l**ogarithmic function** is of the form $f(x)=\\mathrm{log}_{a}x,x>0$\n\n  - In this course the **base** $a$ for a logarithmic function will always be an **integer greater than one**\n- Its **domain** is the set of all **positive real numbers**\n\n  - You can't take a log of zero or a negative number\n- Its **range** is the set of **all real numbers**\n- $\\mathrm{log}_{a}x$ and $a^{x}$ are **inverse** functions\n\n  - `log subscript a open parentheses a to the power of x close parentheses equals x`  and  $a^{\\mathrm{log}_{a}x}=x$"
+   "md": "- A l**ogarithmic function** is of the form $f(x)=\\mathrm{log}_{a}x,x>0$\n\n  - In this course the **base** $a$ for a logarithmic function will always be an **integer greater than one**\n- Its **domain** is the set of all **positive real numbers**\n\n  - You can't take a log of zero or a negative number\n- Its **range** is the set of **all real numbers**\n- $\\mathrm{log}_{a}x$ and $a^{x}$ are **inverse** functions\n\n  - $log_{a} ( a^{x} ) = x$  and  $a^{\\mathrm{log}_{a}x}=x$"
   },
   {
    "type": "heading",
@@ -392,7 +392,7 @@
    "type": "callout",
    "variant": "worked-example",
    "label": "Worked Example",
-   "md": "On the same set of axes, sketch the graphs of  $y=\\mathrm{log}_{3}x$  and  $y=3^{x}$.  Be sure to label any axis intercepts.\n\n> $y=\\mathrm{log}_{3}x$* will have the typical logarithmic graph shape*\n*The *$y$*-axis is an asymptote, and the *$x$*-intercept is *`open parentheses 1 comma 0 close parentheses`\n\n> $y=3^{x}$* will have the typical exponential graph shape*\n*The *$x$*-axis is an asymptote, and the *$y$*-intercept is *`open parentheses 0 comma space 1 close parentheses`\n\n> $\\mathrm{log}_{3}x$* and *$3^{x}$*are inverse functions*\n*Therefore their graphs will be reflections of each other in the line *$y=x$\n\n![Graph of y=log_3(x) and  y=3^x](assets/c369ff4e970c-e5cmixl7-picture3.png)"
+   "md": "On the same set of axes, sketch the graphs of  $y=\\mathrm{log}_{3}x$  and  $y=3^{x}$.  Be sure to label any axis intercepts.\n\n> $y=\\mathrm{log}_{3}x$* will have the typical logarithmic graph shape*\n*The *$y$*-axis is an asymptote, and the *$x$*-intercept is *$( 1 , 0 )$\n\n> $y=3^{x}$* will have the typical exponential graph shape*\n*The *$x$*-axis is an asymptote, and the *$y$*-intercept is *$( 0 , 1 )$\n\n> $\\mathrm{log}_{3}x$* and *$3^{x}$*are inverse functions*\n*Therefore their graphs will be reflections of each other in the line *$y=x$\n\n![Graph of y=log_3(x) and  y=3^x](assets/c369ff4e970c-e5cmixl7-picture3.png)"
   }
  ]
 }

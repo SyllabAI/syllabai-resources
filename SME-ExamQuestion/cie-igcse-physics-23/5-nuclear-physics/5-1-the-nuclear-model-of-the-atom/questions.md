@@ -48,7 +48,7 @@ Which row correctly identifies the relative charges of the three types of partic
 
 **Q4** [1 mark]
 
-A nucleus of element X is represented as  `straight X presubscript 26 presuperscript 56`.
+A nucleus of element X is represented as  `X _ 26 ^ 56`.
 
 Which is an isotope of element X?
 
@@ -137,7 +137,7 @@ Which row in the table is correct?
 
 An isotope of uranium is represented by the symbol:
 
-`space bold U presubscript 92 presuperscript 235`
+$U_{92}^{235}$
 
 Which of the answers below could** **be a different isotope of uranium?
 
@@ -155,7 +155,7 @@ For the atom to be neutral, which statement about the atom **must** be correct?
 
 The nuclide notation for a generic element is given below:
 
-`bold X presubscript straight Z presuperscript straight A`
+$X pre_{Z} pre^{A}$
 
 Which of the following is the correct definition of each of the terms?
 
@@ -219,7 +219,7 @@ Which two nuclides are isotopes of the same element?
 
 An atom of helium has the following nuclide symbol:
 
-`bold He presubscript 2 presuperscript 4`
+$He_{2}^{4}$
 
 Which of the following diagrams best represents a neutral atom of helium?
 

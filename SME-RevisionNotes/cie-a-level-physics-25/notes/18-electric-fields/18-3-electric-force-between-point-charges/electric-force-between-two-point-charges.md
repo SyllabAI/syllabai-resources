@@ -140,7 +140,7 @@ $F=k\frac{Q_{1}Q_{2}}{r^{2}}$
 > 
 > **Step 4: Substitute the values and calculate the magnitude of the electric force**
 > 
-> `F space equals space fraction numerator 2 cross times 79 cross times open parentheses 1.60 cross times 10 to the power of negative 19 end exponent close parentheses squared over denominator 4 straight pi cross times open parentheses 8.85 cross times 10 to the power of negative 12 end exponent close parentheses cross times open parentheses 2.0 cross times 10 to the power of negative 3 end exponent close parentheses squared end fraction space equals space 9.1 cross times 10 to the power of negative 21 end exponent` N (2 s.f.)
+> $F = \frac{2 \times 79 \times ( 1.60 \times 10^{- 19} )^{2}}{4 \mathrm{\pi } \times ( 8.85 \times 10^{- 12} ) \times ( 2.0 \times 10^{- 3} )^{2}} = 9.1 \times 10^{- 21}$ N (2 s.f.)
 
 > **Exam Hint**
 > You do not need to memorise the value of the permittivity of free space *ε*<sub>*0*</sub>, nor the Coulomb constant 1/4π*ε*<sub>*0*</sub>, as these are both given on the data sheet.

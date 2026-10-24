@@ -80,16 +80,16 @@ guided_study: false
 
 - The hydrogen ion concentration of a buffer solution of a weak acid and its conjugate base is calculated using the formula:
 
-[H<sup>+</sup> (aq)] = *K*<sub>a</sub> x `fraction numerator left square bracket acid right square bracket over denominator left square bracket base right square bracket end fraction`
+[H<sup>+</sup> (aq)] = *K*<sub>a</sub> x $\frac{[ \text{acid} ]}{[ \text{base} ]}$
 
 - We will use ethanoic acid as our weak acid of choice, with a *K*<sub>a</sub> value of 1.74 x 10<sup>-5</sup> mol dm<sup>-3</sup>
 - Substituting our known values into the equation we get:
 
-1.00 x 10<sup>-5</sup> = 1.74 x 10<sup>-5</sup> x `fraction numerator left square bracket acid right square bracket over denominator left square bracket base right square bracket end fraction`
+1.00 x 10<sup>-5</sup> = 1.74 x 10<sup>-5</sup> x $\frac{[ \text{acid} ]}{[ \text{base} ]}$
 
 - This gives a value for the ratio of the concentrations of acid and base needed in our buffer solution:
 
-`fraction numerator left square bracket acid right square bracket over denominator left square bracket base right square bracket end fraction`= 0.575
+$\frac{[ \text{acid} ]}{[ \text{base} ]}$= 0.575
 
 - Mixing an equal volume of ethanoic acid with a concentration of 0.575 mol dm<sup>-3</sup> and a sodium ethanoate solution of 1.00 mol dm<sup>-3</sup> would allow us to make this buffer solution
 - This would give a solution with an acid concentration of 0.2875 mol dm<sup>-3</sup> and a salt concentration of 0.500 mol dm<sup>-3</sup>

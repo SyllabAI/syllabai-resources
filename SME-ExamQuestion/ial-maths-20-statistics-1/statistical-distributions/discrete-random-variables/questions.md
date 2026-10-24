@@ -24,7 +24,7 @@ Use the table, or otherwise, to find the probability of obtaining at least one s
 ### 1() — 1 mark — structured
 The discrete random variable $X$ has the probability function
 
-`P open parentheses X equals x close parentheses open curly brackets table row cell 1 fourth end cell cell x equals 0 comma 1 comma 2 comma 3 end cell row 0 otherwise end table close`
+$P ( X = x ) \{ \begin{gathered} 1 \frac{1}{4} & x = 0 , 1 , 2 , 3 \\ 0 \text{otherwise} \end{gathered} )$
 
 Briefly explain why $X$ has a **uniform** probability distribution.
 
@@ -40,7 +40,7 @@ Find:
 ### 1() — 2 marks — structured
 The discrete random variable $X$ has the probability function
 
-`P open parentheses X equals x close parentheses space equals space open curly brackets table row cell k x end cell cell x equals 2 comma 3 end cell row 0 otherwise end table close`
+$P ( X = x ) = \{ \begin{gathered} k x & x = 2 , 3 \\ 0 \text{otherwise} \end{gathered} )$
 
 Use the fact that the sum of all probabilities equals 1 to show that $k=0.2$.
 
@@ -78,7 +78,7 @@ Find:
 ### 1() — 2 marks — structured
 The discrete random variable $X$ has the probability function
 
-`P open parentheses X equals x close parentheses equals open curly brackets table row cell k x end cell cell x equals 1 comma space 3 end cell row cell fraction numerator k x over denominator 2 end fraction end cell cell x equals 2 comma space 4 end cell row 0 otherwise end table close`
+$P ( X = x ) = \{ \begin{gathered} k x & x = 1 , 3 \\ \frac{k x}{2} & x = 2 , 4 \\ 0 \text{otherwise} \end{gathered} )$
 
 Use the fact that the sum of all probabilities equals 1 to show that $k=\frac{1}{7}$.
 
@@ -162,7 +162,7 @@ Hence show that $\mathrm{Var}(X)=\frac{299}{144}$.
 ### 1() — 1 mark — structured
 The discrete random variable $X$ has the probability function
 
-`P open parentheses X equals x close parentheses equals open curly brackets table row cell 1 fourth end cell cell x equals 0 end cell row cell 1 over 8 end cell cell x equals 1 comma space 2 end cell row cell 5 over 16 end cell cell x equals 3 end cell row p cell x equals 4 end cell row 0 otherwise end table close`
+$P ( X = x ) = \{ \begin{gathered} 1 \frac{1}{4} & x = 0 \\ \frac{1}{8} & x = 1 , 2 \\ \frac{5}{16} & x = 3 \\ p x = 4 \\ 0 \text{otherwise} \end{gathered} )$
 
 Briefly explain how you can deduce that $p=\frac{3}{16}$.
 
@@ -187,7 +187,7 @@ The discrete random variable $X$ has the probability distribution shown in the f
 Use the fact that the sum of all probabilities equals 1 to show that $2p+q=\frac{7}{10}$.
 
 ### 2() — 2 marks — structured
-Given that `straight E open parentheses straight X close parentheses equals 33 over 10`, use the formula $E(X)=\sumxp$to show that $7p+5q=\frac{29}{10}$.
+Given that $\mathrm{E} ( \mathrm{X} ) = \frac{33}{10}$, use the formula $E(X)=\sumxp$to show that $7p+5q=\frac{29}{10}$.
 
 ### 3() — 2 marks — structured
 Hence simultaneously solve the equations in part (a) and part (b) to find the values of $p$ and $q$.
@@ -228,7 +228,7 @@ complete the following probability distribution table for $X$:
 ### 1() — 3 marks — structured
 The random variable $X$ has the probability function
 
-`P open parentheses X equals x close parentheses equals open curly brackets table attributes columnalign left columnspacing 1.4ex end attributes row cell 1 over k end cell cell x equals 1 comma 2 comma 3 comma 4 comma 5 end cell row 0 otherwise end table close`
+`P ( X = x ) = { table columnalign left columnspacing 1.4ex end | 1 / k | x = 1 , 2 , 3 , 4 , 5 | | 0 otherwise | close`
 
 (i) Show that $k=5$.
 
@@ -239,7 +239,7 @@ The random variable $X$ has the probability function
 ### 1() — 2 marks — structured
 The random variable $X$ has the probability function
 
-`P open parentheses X equals x close parentheses equals open curly brackets table attributes columnalign left columnspacing 1.4ex end attributes row cell k x end cell cell x equals 1 comma 3 comma 5 comma 7 end cell row 0 otherwise end table close`
+`P ( X = x ) = { table columnalign left columnspacing 1.4ex end | k x | x = 1 , 3 , 5 , 7 | | 0 otherwise | close`
 
 Find the value of $k$.
 
@@ -254,7 +254,7 @@ State, with a reason, whether or not $X$ is a discrete random variable.
 ### 1() — 2 marks — structured
 The random variable $X$ has the probability function
 
-`P open parentheses X equals x close parentheses equals open curly brackets table row cell 0.23 end cell cell x equals negative 1 comma space 4 end cell row k cell x equals 0 comma space 2 end cell row cell 0.13 end cell cell x equals 1 comma 3 end cell row 0 otherwise end table close`
+$P ( X = x ) = \{ \begin{gathered} 0.23 & x = - 1 , 4 \\ k x = 0 , 2 \\ 0.13 & x = 1 , 3 \\ 0 \text{otherwise} \end{gathered} )$
 
 Find the value of $k$.
 
@@ -386,7 +386,7 @@ complete the following probability distribution table for $X$:
 ### 1() — 4 marks — structured
 The random variable $X$ has the probability function
 
-`straight P open parentheses X equals x close parentheses equals open curly brackets table row cell 1 over k end cell cell x equals 1 comma 2 comma 3 comma 4 comma 5 comma 6 space end cell row 0 cell otherwise. end cell end table close`
+$\mathrm{P} ( X = x ) = \{ \begin{gathered} \frac{1}{k} & x = 1 , 2 , 3 , 4 , 5 , 6 \\ 0 otherwise. \end{gathered} )$
 
 (i) Write down the value of $k$.
 
@@ -399,14 +399,14 @@ The random variable $X$ has the probability function
 ### 1() — 2 marks — structured
 A student claims that a random variable $X$ has a probability distribution defined by the following probability mass function:
 
-`P open parentheses X equals x close parentheses equals open curly brackets table row cell x squared over 30 end cell cell x equals negative 1 comma 1 comma 3 comma 5 end cell row 0 otherwise end table close`
+$P ( X = x ) = \{ \begin{gathered} \frac{x^{2}}{30} & x = - 1 , 1 , 3 , 5 \\ 0 \text{otherwise} \end{gathered} )$
 
 Explain how you know that the student’s function does not describe a probability distribution
 
 ### 2() — 2 marks — structured
 Given that the correct probability mass function is of the form
 
-`straight P open parentheses X equals x close parentheses equals open curly brackets table row cell x squared over k end cell cell x equals negative 1 comma 1 comma 3 comma 5 end cell row 0 otherwise end table close`
+$\mathrm{P} ( X = x ) = \{ \begin{gathered} \frac{x^{2}}{k} & x = - 1 , 1 , 3 , 5 \\ 0 \text{otherwise} \end{gathered} )$
 
 where $k$ is a constant,
 
@@ -423,7 +423,7 @@ State, with a reason, whether or not $X$ is a discrete random variable.
 ### 1() — 2 marks — structured
 The random variable $X$ has the probability function
 
-`straight P open parentheses X equals x close parentheses equals open curly brackets table row cell 0.21 end cell cell x equals 0 comma 1 end cell row cell k x end cell cell x equals 3 comma 6 end cell row cell 0.11 end cell cell x equals 10 comma 15 end cell row 0 otherwise end table close`
+$\mathrm{P} ( X = x ) = \{ \begin{gathered} 0.21 & x = 0 , 1 \\ k x & x = 3 , 6 \\ 0.11 & x = 10 , 15 \\ 0 \text{otherwise} \end{gathered} )$
 
 Find the value of $k$.
 
@@ -536,11 +536,11 @@ Find $P(X<E(X)).$
 ## Q29 — hard — 11 marks · exam-questions
 
 ### 1() — 6 marks — structured
-A discrete random variable, $X$, can take the values 1, 3, 5 or 7 and it has the cumulative distribution function `straight F open parentheses x close parentheses` given in the table.
+A discrete random variable, $X$, can take the values 1, 3, 5 or 7 and it has the cumulative distribution function $\mathrm{F} ( x )$ given in the table.
 
 | $x$ | 1 | 3 | 5 | 7 |
 |---|---|---|---|---|
-| `straight F open parentheses x close parentheses` | 0.5 | 0.65 | 0.9 | 1 |
+| $\mathrm{F} ( x )$ | 0.5 | 0.65 | 0.9 | 1 |
 
 Find the value of:
 
@@ -555,9 +555,9 @@ Find the value of:
 ### 2() — 5 marks — structured
 Find the value of:
 
-(i) `E open parentheses X over 2 plus 7 close parentheses`
+(i) $E ( \frac{X}{2} + 7 )$
 
-(ii) `Var open parentheses fraction numerator 2 minus straight x over denominator 5 end fraction close parentheses`
+(ii) $\text{Var} ( \frac{2 - \mathrm{x} }{5} )$
 
 (iii) $E(3X^{2}-1)$.
 
@@ -584,14 +584,14 @@ Complete the following probability distribution table for $X$:
 ### 1() — 2 marks — structured
 A student claims that a random variable $X$ has a probability distribution defined by the following probability mass function:
 
-`P open parentheses X equals x close parentheses equals open curly brackets table row cell fraction numerator 1 over denominator 3 x squared end fraction end cell cell x equals negative 3 comma space minus 1 end cell row cell fraction numerator 1 over denominator 3 x cubed end fraction end cell cell x equals 1 comma space 3 end cell row 0 otherwise end table close`
+$P ( X = x ) = \{ \begin{gathered} \frac{1}{3 x^{2}} & x = - 3 , - 1 \\ \frac{1}{3 x^{3}} & x = 1 , 3 \\ 0 \text{otherwise} \end{gathered} )$
 
 Explain how you know that the student’s function does not describe a probability distribution.
 
 ### 2() — 2 marks — structured
 Given that the correct probability mass function is of the form
 
-`P open parentheses X equals x close parentheses equals open curly brackets table row cell k over x squared end cell cell x equals negative 3 comma space minus 1 end cell row cell k over x cubed end cell cell x equals 1 comma space 3 end cell row 0 otherwise end table close`
+$P ( X = x ) = \{ \begin{gathered} \frac{k}{x^{2}} & x = - 3 , - 1 \\ \frac{k}{x^{3}} & x = 1 , 3 \\ 0 \text{otherwise} \end{gathered} )$
 
 where $k$ is a constant,
 
@@ -728,13 +728,13 @@ A biased four-sided dice is rolled and the number that it lands on is denoted  w
 
 | $x$ | $-2$ | $-1$ | $\frac{1}{2}$ | $2$ |
 |---|---|---|---|---|
-| `P open parentheses X equals x close parentheses` | $a$ | $b$ | $c$ | $c$ |
+| $P ( X = x )$ | $a$ | $b$ | $c$ | $c$ |
 
 The cumulative distribution function of $X$ is given by:
 
 | $x$ | $-2$ | $-1$ | $\frac{1}{2}$ | $2$ |
 |---|---|---|---|---|
-| `straight F open parentheses x close parentheses` | $\frac{1}{7}$ | $\frac{2}{5}$ | $d$ | $e$ |
+| $\mathrm{F} ( x )$ | $\frac{1}{7}$ | $\frac{2}{5}$ | $d$ | $e$ |
 
 Find the values of $a,b,c,d,$and $e$.
 

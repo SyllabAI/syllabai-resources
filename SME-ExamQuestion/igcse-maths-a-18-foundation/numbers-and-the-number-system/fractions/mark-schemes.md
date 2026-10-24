@@ -34,7 +34,7 @@ $\frac{4}{5}$
 
 > *Find an equivalent fraction to *$\frac{1}{6}$*which is out of 18*
 
-`table row cell 1 over 6 end cell equals cell fraction numerator 1 cross times 3 over denominator 6 cross times 3 end fraction end cell row blank equals cell 3 over 18 end cell end table`
+$\begin{gathered} \frac{1}{6} & = \frac{1 \times 3}{6 \times 3} \\ = \frac{3}{18} \end{gathered}$
 
 **Final answer:** **Shade in any 3 squares**
 
@@ -90,11 +90,11 @@ $10,20,30,...\,4,8,12,16,20,...$
 
 > *Work out the equivalent fractions so that they are both out of 20*
 
-`table row cell 7 over 10 end cell equals cell fraction numerator 7 cross times 2 over denominator 10 cross times 2 end fraction equals 14 over 20 end cell end table`
+$\begin{gathered} \frac{7}{10} & = \frac{7 \times 2}{10 \times 2} = \frac{14}{20} \end{gathered}$
 
 *  and*
 
-*  *`table row cell 1 fourth end cell equals cell fraction numerator 1 cross times 5 over denominator 4 cross times 5 end fraction equals 5 over 20 end cell end table`
+*  *$\begin{gathered} 1 \frac{1}{4} & = \frac{1 \times 5}{4 \times 5} = \frac{5}{20} \end{gathered}$
 
 **[M1]**
 
@@ -133,7 +133,7 @@ $\frac{4}{5}=4\times3=12$
 
 > *Divide by that number*
 
-`table row cell 27 divided by 9 end cell equals 3 row cell 36 divided by 9 end cell equals 4 end table`
+$\begin{gathered} 27 \div 9 & = 3 \\ 36 \div 9 & = 4 \end{gathered}$
 
 > *Write these as your fraction*
 
@@ -312,7 +312,7 @@ $9\frac{1}{8}$
 ### 2() — 3 marks
 Change both fractions to improper fractions
 
-`table row cell fraction numerator 10 space cross times space 2 space plus space 7 over denominator 10 end fraction space end cell equals cell 27 over 10 end cell row cell fraction numerator 3 space cross times 1 space plus 2 over denominator 3 end fraction space end cell equals cell 5 over 3 end cell end table`
+$\begin{gathered} \frac{10 \times 2 + 7}{10} & = \frac{27}{10} \\ \frac{3 \times 1 + 2}{3} & = \frac{5}{3} \end{gathered}$
 
 **[M1]**
 

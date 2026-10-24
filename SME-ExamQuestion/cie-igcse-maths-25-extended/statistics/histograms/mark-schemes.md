@@ -136,13 +136,13 @@ $\mathrm{Frequency} \mathrm{density}=\frac{\mathrm{Frequency}}{\mathrm{Class} \m
 *So first find the proportion of onions that are sent to a food processing factory from the histogram.* 
 *Area on a histogram represents the frequency, i.e.  *$\mathrm{Frequency}=\mathrm{Frequency} \mathrm{density}\times\mathrm{Class} \mathrm{width}$
 
-`table row cell For space 0 minus 60 colon space space 2 cross times 60 end cell equals 120 end table`
+$\begin{gathered} \text{For} 0 - 60 : 2 \times 60 & = 120 \end{gathered}$
 
 **[1]**
 
-`table row cell For space 60 minus 90 colon space space 5 cross times 30 end cell equals 150 row cell For space 90 minus 120 colon space space 9 cross times 30 end cell equals 270 end table`
+$\begin{gathered} \text{For} 60 - 90 : 5 \times 30 & = 150 \\ \text{For} 90 - 120 : 9 \times 30 & = 270 \end{gathered}$
 
-`table row cell For space 120 minus 135 colon space space 6 cross times 15 end cell equals 90 row cell For space 135 minus 180 colon space space 2 cross times 45 end cell equals 90 end table`
+$\begin{gathered} \text{For} 120 - 135 : 6 \times 15 & = 90 \\ \text{For} 135 - 180 : 2 \times 45 & = 90 \end{gathered}$
 
 **The number of onions sent to a food processing factory is 150 + 270 = 420** 
 *The number of onions in total is 120 +* **420*** + 90 + 90 = 720*
@@ -151,7 +151,7 @@ $\mathrm{Frequency} \mathrm{density}=\frac{\mathrm{Frequency}}{\mathrm{Class} \m
 
 > *Now write the proportion of onions that are sent to a food processing factory as a fraction out of the total.*
 
-`420 over 720 open parentheses equals 7 over 12 close parentheses`
+$\frac{420}{720} ( = \frac{7}{12} )$
 
 **[1]**
 
@@ -279,7 +279,7 @@ $\frac{1}{3}\times18=6$
 
 > *The question states there are 150 students in total. So the fraction required is given by*
 
-`fraction numerator 30 plus 51 plus 36 plus 6 over denominator 150 end fraction equals 123 over 150 open parentheses equals 41 over 50 close parentheses`
+$\frac{30 + 51 + 36 + 6}{150} = \frac{123}{150} ( = \frac{41}{50} )$
 
 **An estimate for the fraction of students who have a height between 150 cm and 170 cm is **$\frac{41}{50}$** ****[1]**
 
@@ -451,7 +451,7 @@ $\mathrm{Frequency} \mathrm{density}=\frac{\mathrm{Frequency}}{\mathrm{Class} \m
 
 *This means the height of the bars are found by multiplying the frequency densities by 2.* *So the heights of the other bars can now be found.*
 
-`table row cell 6.4 cross times 2 end cell equals cell 12.8 end cell row cell 2.2 cross times 2 end cell equals cell 4.4 end cell row cell 0.4 cross times 2 end cell equals cell 0.8 end cell end table`
+$\begin{gathered} 6.4 \times 2 & = 12.8 \\ 2.2 \times 2 & = 4.4 \\ 0.4 \times 2 & = 0.8 \end{gathered}$
 
 $25<y\leq30$**: 12.8 cm     **** **
 $30<y\leq50$**:   4.4 cm  ****  **
@@ -523,9 +523,7 @@ $1.5\times4=6\,0.6\times4=2.4$
 
 > *Use *$\mathrm{Frequency}=\mathrm{Frequency} \mathrm{density}\times\mathrm{Class} \mathrm{width}$* to find the frequency of each class interval.*
 
-* *`0 less or equal than m less than 10 colon space 3 cross times open parentheses 10 minus 0 close parentheses equals 30
-10 space less or equal than space m less than 15 colon space space 8 cross times open parentheses 15 minus 10 close parentheses equals 40
-15 less or equal than m less than 30 colon space space 2 cross times open parentheses 30 minus 15 close parentheses equals 30 space`
+* *$0 \le m < 10 : 3 \times ( 10 - 0 ) = 30 10 \le m < 15 : 8 \times ( 15 - 10 ) = 40 15 \le m < 30 : 2 \times ( 30 - 15 ) = 30$
 
 ** ****Two correct frequencies**** [1] **** **
 **Third correct frequency**** [1]**
@@ -534,9 +532,9 @@ $1.5\times4=6\,0.6\times4=2.4$
 *This allows us to estimate the mean using the midpoint of each class interval. *
 *If you can't 'spot' the midpoint then add the upper and lower bounds of the interval, then divide by 2 (i.e. find their mean).*
 
-`0 less or equal than m less than 10 colon space open parentheses fraction numerator 0 plus 10 over denominator 2 end fraction close parentheses cross times 30 equals 150
-10 space less or equal than space m less than 15 colon space space open parentheses fraction numerator 10 plus 15 over denominator 2 end fraction close parentheses cross times 40 equals 500
-15 less or equal than m less than 30 colon space space open parentheses fraction numerator 15 plus 30 over denominator 2 end fraction close parentheses cross times 30 equals 675`
+$0 \text{less} \text{or} \text{equal} \text{than} m < 10 : ( \frac{0 + 10}{2} ) \times 30 = 150
+10 \text{less} \text{or} \text{equal} \text{than} m < 15 : ( \frac{10 + 15}{2} ) \times 40 = 500
+15 \text{less} \text{or} \text{equal} \text{than} m < 30 : ( \frac{15 + 30}{2} ) \times 30 = 675$
 
 **Correct midpoint values ****[1] **
 **Multiplication of midpoints values by the frequencies**** [1]**

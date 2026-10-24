@@ -51,8 +51,8 @@ guided_study: true
 
 - The **median** is the** data value** in the **middle **of the **frequency**
 
-  - It is the `open parentheses fraction numerator n plus 1 over denominator 2 end fraction close parentheses to the power of t h end exponent` value, where $n$ is the** **total frequency
-- From above, $n=20$ so the median is the `open parentheses fraction numerator 20 plus 1 over denominator 2 end fraction close parentheses to the power of t h end exponent` = 10.5<sup>*th*</sup>  value in the table which is the mean of the 10<sup>th</sup> and 11<sup>th</sup> values
+  - It is the $( \frac{n + 1}{2} )^{t h}$ value, where $n$ is the** **total frequency
+- From above, $n=20$ so the median is the $( \frac{20 + 1}{2} )^{t h}$ = 10.5<sup>*th*</sup>  value in the table which is the mean of the 10<sup>th</sup> and 11<sup>th</sup> values
 
   - The first two rows have a **combined **(**cumulative**) frequency of 2 + 7 = 9
   - The first three rows have a combined frequency of 2 + 7 + 6 = 15
@@ -149,7 +149,7 @@ guided_study: true
 > 
 > **Answer:**
 > 
-> > *The median is the *`open parentheses fraction numerator n plus 1 over denominator 2 end fraction close parentheses to the power of t h end exponent`* value where *$n$* is the total frequency*
+> > *The median is the *$( \frac{n + 1}{2} )^{t h}$* value where *$n$* is the total frequency*
 > 
 > $\frac{n+1}{2}=\frac{31+1}{2}=\frac{32}{2}=16$
 > 

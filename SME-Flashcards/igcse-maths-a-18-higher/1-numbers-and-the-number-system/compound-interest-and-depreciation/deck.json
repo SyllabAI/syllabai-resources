@@ -68,11 +68,11 @@
    "back_blocks": [
     {
      "type": "paragraph",
-     "md": "**Compound interest** is applied to the amount $P$ at a rate of $r$% for $n$ years. The **final amount** is found by calculating `P open parentheses 1 plus r over 100 close parentheses to the power of n`."
+     "md": "**Compound interest** is applied to the amount $P$ at a rate of $r$% for $n$ years. The **final amount** is found by calculating $P ( 1 + \\frac{r}{100} )^{n}$."
     }
    ],
    "front_md": "**Compound interest** is applied to the amount $P$ at a rate of $r$% each year. Write down the equation for the **amount **after $n$ years.\n",
-   "back_md": "**Compound interest** is applied to the amount $P$ at a rate of $r$% for $n$ years. The **final amount** is found by calculating `P open parentheses 1 plus r over 100 close parentheses to the power of n`.\n",
+   "back_md": "**Compound interest** is applied to the amount $P$ at a rate of $r$% for $n$ years. The **final amount** is found by calculating $P ( 1 + \\frac{r}{100} )^{n}$.\n",
    "spec_links": [],
    "flags": []
   },
@@ -170,11 +170,11 @@
     },
     {
      "type": "paragraph",
-     "md": "`table row cell 771.75 end cell equals cell P cross times open parentheses 1 plus 5 over 100 close parentheses squared end cell row cell 771.75 end cell equals cell P cross times 1.05 squared end cell row cell fraction numerator 771.75 over denominator 1.05 squared end fraction end cell equals P row P equals cell $ 700 end cell end table`"
+     "md": "$\\begin{gathered} 771.75 & = P \\times ( 1 + \\frac{5}{100} )^{2} \\\\ 771.75 & = P \\times 1.05^{2} \\\\ \\frac{771.75}{1.05^{2}} & = P \\\\ P = \\$ 700 \\end{gathered}$"
     }
    ],
    "front_md": "How do you calculate the **original amount **if you are given the** final balance** **after **compound interest has been applied?\n\nE.g. Given that the final amount in a savings account after a period of 2 years at an interest rate of 5% is \\$771.75, find the original investment.\n",
-   "back_md": "For a **reverse** percentage problem, you can find the **original amount **by dividing the** final balance** by the **compounded interest rate**.\n\nE.g.\n\n`table row cell 771.75 end cell equals cell P cross times open parentheses 1 plus 5 over 100 close parentheses squared end cell row cell 771.75 end cell equals cell P cross times 1.05 squared end cell row cell fraction numerator 771.75 over denominator 1.05 squared end fraction end cell equals P row P equals cell $ 700 end cell end table`\n",
+   "back_md": "For a **reverse** percentage problem, you can find the **original amount **by dividing the** final balance** by the **compounded interest rate**.\n\nE.g.\n\n$\\begin{gathered} 771.75 & = P \\times ( 1 + \\frac{5}{100} )^{2} \\\\ 771.75 & = P \\times 1.05^{2} \\\\ \\frac{771.75}{1.05^{2}} & = P \\\\ P = \\$ 700 \\end{gathered}$\n",
    "spec_links": [],
    "flags": []
   },
@@ -214,11 +214,11 @@
    "back_blocks": [
     {
      "type": "paragraph",
-     "md": "An item that **initially **had a value of $P$ **depreciates **at a rate of $r$% each year. After $n$ years the **value **of the item can be found by calculating `P open parentheses 1 minus r over 100 close parentheses to the power of n`."
+     "md": "An item that **initially **had a value of $P$ **depreciates **at a rate of $r$% each year. After $n$ years the **value **of the item can be found by calculating $P ( 1 - \\frac{r}{100} )^{n}$."
     }
    ],
    "front_md": "An **item **that initially had a value of $P$ depreciates at a rate of $r$% each year. Write down the equation for the **value **of the item after $n$ years.\n",
-   "back_md": "An item that **initially **had a value of $P$ **depreciates **at a rate of $r$% each year. After $n$ years the **value **of the item can be found by calculating `P open parentheses 1 minus r over 100 close parentheses to the power of n`.\n",
+   "back_md": "An item that **initially **had a value of $P$ **depreciates **at a rate of $r$% each year. After $n$ years the **value **of the item can be found by calculating $P ( 1 - \\frac{r}{100} )^{n}$.\n",
    "spec_links": [],
    "flags": []
   },

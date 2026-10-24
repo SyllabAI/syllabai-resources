@@ -29,7 +29,7 @@ sin $15^{\circ}=\frac{\sqrt{6}-\sqrt{2}}{4}$
 ### 1() — 2 marks — structured
 Starting with the identity
 
-sin`open parentheses A plus B close parentheses identical to`sin $A$cos $B+$sin $B$cos $A$
+sin$( A + B ) \equiv$sin $A$cos $B+$sin $B$cos $A$
 
 And using the substitution $B=A$, show that sin $2A\equiv2$sin $A$ cos $A$.
 
@@ -39,10 +39,10 @@ Hence show the exact value of sin $120^{\circ}=\frac{\sqrt{3}}{2}$.
 ## Q4 — easy — 3 marks · exam-questions
 
 ### 1() — 2 marks — structured
-Use an appropriate identity to find sin`open parentheses theta plus straight alpha close parentheses` in terms of sines and cosines of $θ$ and $α$.
+Use an appropriate identity to find sin$( \\theta + \ \\alpha )$ in terms of sines and cosines of $θ$ and $α$.
 
 ### 2() — 1 mark — structured
-Hence show that $R$ sin`open parentheses theta plus straight alpha close parentheses identical to R` cos $α$ sin $θ+R$ sin $α$ cos $θ$.
+Hence show that $R$ sin$( \\theta + \ \\alpha ) \equiv R$ cos $α$ sin $θ+R$ sin $α$ cos $θ$.
 
 ## Q5 — easy — 8 marks · exam-questions
 
@@ -59,7 +59,7 @@ cos $2θ=\frac{\sqrt{3}}{2},0\leqθ\leq2π$
 ### 1() — 4 marks — structured
 Show that
 
-`5 space cos open parentheses theta minus straight pi over 6 close parentheses identical to fraction numerator 5 square root of 3 over denominator 2 end fraction cos space theta plus 5 over 2 sin space theta`
+`5 cos ( theta - pi / 6 ) === (5 sqrt( 3)/(2) cos theta + 5 / 2 sin theta`
 
 ## Q7 — easy — 2 marks · exam-questions
 
@@ -71,9 +71,9 @@ $\mathrm{cos}^{2}x+\mathrm{cos}2x\equiv3\mathrm{cos}^{2}x-1$
 ## Q8 — easy — 5 marks · exam-questions
 
 ### 1() — 4 marks — structured
-(i) Show that , $R\mathrm{sin}$`open parentheses theta plus straight alpha close parentheses identical to R`  $\mathrm{cos}α$ $\mathrm{sin}θ+R$ $\mathrm{sin}α$ $\mathrm{cos}θ$ where $R$ and $α$ are constants with $R>0$ and $0<α<\frac{π}{2}$.
+(i) Show that , $R\mathrm{sin}$$( \\theta + \ \\alpha ) \equiv R$  $\mathrm{cos}α$ $\mathrm{sin}θ+R$ $\mathrm{sin}α$ $\mathrm{cos}θ$ where $R$ and $α$ are constants with $R>0$ and $0<α<\frac{π}{2}$.
 
-(ii) Use your result from part (i) to show that `square root of 3 space end root space sin space theta plus cos space theta identical to 2 space sin open parentheses theta plus straight pi over 6 close parentheses`.
+(ii) Use your result from part (i) to show that `sqrt( 3 ) sin theta + cos theta === 2 sin ( theta + pi / 6 )`.
 
 ### 2() — 1 mark — structured
 Write down the maximum value of $\sqrt{3}\mathrm{sin}θ+\mathrm{cos}θ$.
@@ -102,22 +102,22 @@ for $-\frac{π}{2}\leqx\leq\frac{π}{2}$.
 ## Q11 — medium — 2 marks · exam-questions
 
 ### 1() — 2 marks — structured
-Prove by a counter-example that  sin`open parentheses A plus B close parentheses equals`sin $A$$+$sin $B$  is **not** true in general.
+Prove by a counter-example that  sin$( A + B ) =$sin $A$$+$sin $B$  is **not** true in general.
 
 ## Q12 — medium — 4 marks · exam-questions
 
 ### 1() — 2 marks — structured
-Express tan `open parentheses 210 degree close parentheses` in terms of tan `open parentheses 180 degree close parentheses`and tan `open parentheses 30 degree close parentheses`
+Express tan $( 210^{\circ} )$ in terms of tan $( 180^{\circ} )$and tan $( 30^{\circ} )$
 
 ### 2() — 2 marks — structured
-Hence show that tan`open parentheses 210 degree close parentheses equals fraction numerator square root of 3 over denominator 3 end fraction`.
+Hence show that tan$( 210^{\circ} ) = \frac{ \sqrt{3} }{3}$.
 
 ## Q13 — medium — 4 marks · exam-questions
 
 ### 1() — 2 marks — structured
 Starting with the identity
 
-cos`open parentheses A plus B close parentheses identical to`cos $A$ cos $B$$-$sin $A$ sin $B$
+cos$( A + B ) \equiv$cos $A$ cos $B$$-$sin $A$ sin $B$
 
 and using the substitution $B=A$, show that cos $2A\equiv$cos<sup>2</sup> $A-$sin<sup>2</sup> $A$
 
@@ -129,12 +129,12 @@ Hence, or otherwise, show that cos $2A\equiv1-2$ sin<sup>2</sup> $A$.
 ### 1() — 2 marks — structured
 Using an appropriate trigonometric identity, show that
 
-`R space sin open parentheses theta plus straight alpha close parentheses identical to R space cos space alpha space sin space theta plus straight R space sin space straight alpha space cos space theta`
+$R \sin ( \\theta + \ \\alpha ) \equiv R \cos \\alpha \sin \\theta + \mathrm{R} \sin \ \\alpha \cos \\theta$
 
 where $R$ and $α$ are constants.
 
 ### 2() — 3 marks — structured
-Hence show that `3 space sin space theta plus 2 space cos space theta equals square root of 13 sin open parentheses theta plus 0.588 close parentheses`.
+Hence show that $3 \sin \\theta + 2 \cos \\theta = \sqrt{13} \sin ( \\theta + 0.588 )$.
 
 ## Q15 — medium — 10 marks · exam-questions
 
@@ -156,9 +156,9 @@ $\frac{5\mathrm{sin}2x}{\mathrm{tan}x}\equiv10\mathrm{cos}^{2}xx\neq\frac{\mathr
 ## Q17 — medium — 7 marks · exam-questions
 
 ### 1() — 4 marks — structured
-(i) Show that `R space cos open parentheses x plus alpha close parentheses identical to R space cos space alpha space space cos space x minus R space sin space alpha space sin space x`, where $R$ and $α$ are constants.
+(i) Show that $R \cos ( x + \\alpha ) \equiv R \cos \\alpha \cos x - R \sin \\alpha \sin x$, where $R$ and $α$ are constants.
 
-(ii) Use your result from part (i) to show that  `cos space x minus square root of 3 sin space x identical to 2 space cos open parentheses x plus straight pi over 3 close parentheses`.
+(ii) Use your result from part (i) to show that  `cos x - sqrt( 3 sin x === 2 cos ( x + pi / 3 )`.
 
 ### 2() — 3 marks — structured
 Hence solve the equation cos $x-\sqrt{3}$sin $x=1$ for $0\leqx\leq2π$.
@@ -168,7 +168,7 @@ Hence solve the equation cos $x-\sqrt{3}$sin $x=1$ for $0\leqx\leq2π$.
 ### 1() — 5 marks — structured
 Using the identities
 
-sin `open parentheses A plus B close parentheses identical to`sin $A$ cos $B+$sin $B$ cos $A$   and
+sin $( A + B ) \equiv$sin $A$ cos $B+$sin $B$ cos $A$   and
 
 cos $2A\equiv1-2$ sin<sup>2</sup> $A$
 
@@ -182,7 +182,7 @@ $3$ sin $θ-4$sin<sup>3</sup> $θ=\frac{1}{2}-π\leqθ\leqπ$
 ## Q19 — medium — 8 marks · exam-questions
 
 ### 1() — 4 marks — structured
-Show that $5\mathrm{sin}θ+12\mathrm{cos}θ$ can be written in the form `R space sin open parentheses theta plus straight alpha degree close parentheses` where $R>0$ and $0^{\circ}<α<90^{\circ}$.
+Show that $5\mathrm{sin}θ+12\mathrm{cos}θ$ can be written in the form $R \sin ( \\theta + \ \\alpha ^{\circ} )$ where $R>0$ and $0^{\circ}<α<90^{\circ}$.
 
 ### 2() — 4 marks — structured
 Sketch the graph of $y=5$sin $x+12$cos $x$ for $0^{\circ}\leqx\leq360^{\circ}$. Label any points where the graph intercepts the coordinate axes.
@@ -197,17 +197,17 @@ Show that $2$ cosec $2A\equiv$cosec $A$ sec $A$.
 ### 1() — 2 marks — structured
 If $A=B$, then
 
-sin`open parentheses A minus B close parentheses equals`sin`open parentheses A minus A close parentheses equals`sin`open parentheses 0 close parentheses equals 0 equals`sin $A-$sin $A=$sin $A-$sin $B$
+sin$( A - B ) =$sin$( A - A ) =$sin$( 0 ) = 0 =$sin $A-$sin $A=$sin $A-$sin $B$
 
-By using a suitable counter-example with $A\neqB$, prove that sin`open parentheses A minus B close parentheses equals`sin $A-$sin $B$ is **not** true in general.
+By using a suitable counter-example with $A\neqB$, prove that sin$( A - B ) =$sin $A-$sin $B$ is **not** true in general.
 
 ## Q22 — hard — 5 marks · exam-questions
 
 ### 1() — 2 marks — structured
-Express cos`open parentheses 285 degree close parentheses` in terms of cosines and sines of 315° and 30°.
+Express cos$( 285^{\circ} )$ in terms of cosines and sines of 315° and 30°.
 
 ### 2() — 3 marks — structured
-Hence show that cos`open parentheses 285 degree close parentheses equals fraction numerator square root of 6 minus square root of 2 over denominator 4 end fraction`.
+Hence show that cos$( 285^{\circ} ) = \frac{ \sqrt{6} - \sqrt{2} }{4}$.
 
 ## Q23 — hard — 2 marks · exam-questions
 
@@ -216,12 +216,12 @@ Show that
 
 sin $2A\equiv2$ sin $A$ cos $A$
 
-(You may use the identity sin `open parentheses A plus B close parentheses identical to`sin $A$ cos $B+$cos $A$ sin $B$.)
+(You may use the identity sin $( A + B ) \equiv$sin $A$ cos $B+$cos $A$ sin $B$.)
 
 ## Q24 — hard — 5 marks · exam-questions
 
 ### 1() — 5 marks — structured
-Show that  $2$ cos $θ-5$ sin $θ$  can be written in the form  $R$ cos`open parentheses theta plus straight alpha close parentheses`,  where  $R$and $α$ are constants with   $R>0$ and  $0<α<\frac{π}{2}$  . Give $R$ in the form  $\sqrt{k}$ where $k$ is an integer, and give $α$ correct to three significant figures.
+Show that  $2$ cos $θ-5$ sin $θ$  can be written in the form  $R$ cos$( \\theta + \ \\alpha )$,  where  $R$and $α$ are constants with   $R>0$ and  $0<α<\frac{π}{2}$  . Give $R$ in the form  $\sqrt{k}$ where $k$ is an integer, and give $α$ correct to three significant figures.
 
 ## Q25 — hard — 10 marks · exam-questions
 
@@ -240,12 +240,12 @@ cos $2x+$sin<sup>2</sup> $x=0$           $0\leqx\leq2π$
 ### 1() — 4 marks — structured
 Show that
 
-`fraction numerator sin open parentheses A plus B close parentheses plus sin open parentheses A minus B close parentheses over denominator cos open parentheses A plus B close parentheses plus cos open parentheses A minus B close parentheses end fraction identical to tan space A space space space space space space space space space space space space space space space space space space space space space space open parentheses A comma B not equal to open parentheses straight k plus 1 half close parentheses straight pi close parentheses`
+$\frac{\sin ( A + B ) + \sin ( A - B )}{\cos ( A + B ) + \cos ( A - B )} \equiv \tan A ( A , B \text{eq} ( \mathrm{k} + 1 \frac{1}{2} ) \mathrm{\pi } )$
 
 ## Q27 — hard — 7 marks · exam-questions
 
 ### 1() — 4 marks — structured
-Show that $2\mathrm{sin}θ+4\mathrm{cos}θ$ can be written as `2 square root of 5 cos open parentheses theta minus straight alpha close parentheses` , where $α=0.464$ to three significant figures.
+Show that $2\mathrm{sin}θ+4\mathrm{cos}θ$ can be written as $2 \sqrt{5} \cos ( \\theta - \ \\alpha )$ , where $α=0.464$ to three significant figures.
 
 ### 2() — 3 marks — structured
 Hence solve the equation
@@ -257,7 +257,7 @@ giving your answers correct to 3 significant figures.
 ## Q28 — hard — 8 marks · exam-questions
 
 ### 1() — 5 marks — structured
-By letting $B=2A$, use the identity for `tan open parentheses A plus B close parentheses` to derive an expression for $\mathrm{tan}3A$ in terms of tan $A$.
+By letting $B=2A$, use the identity for $\tan ( A + B )$ to derive an expression for $\mathrm{tan}3A$ in terms of tan $A$.
 
 ### 2() — 3 marks — structured
 Hence, or otherwise, solve the equation
@@ -267,7 +267,7 @@ $\frac{6\mathrm{tan}x-2\mathrm{tan}^{3}x}{1-3\mathrm{tan}^{2}x}=20\leqx\leqπ$
 ## Q29 — hard — 7 marks · exam-questions
 
 ### 1() — 7 marks — structured
-Sketch the graph of `y equals 2 open parentheses sin space x minus cos space x close parentheses` for $0^{\circ}\leqx\leq360^{\circ}$.
+Sketch the graph of $y = 2 ( \sin x - \cos x )$ for $0^{\circ}\leqx\leq360^{\circ}$.
 
 Be sure to label any points where the graph intercepts the coordinate axes, and state the coordinates of any maximum and minimum points.
 
@@ -281,20 +281,20 @@ $2-2$cot $2A$tan $A\equiv$sec<sup>2</sup> $AA\neq\mathrm{kπ}$
 ## Q31 — very_hard — 3 marks · exam-questions
 
 ### 1() — 3 marks — structured
-(i) Prove that `sin open parentheses A minus B close parentheses equals sin space A plus sin space B`  is **not** true in general.
+(i) Prove that $\sin ( A - B ) = \sin A + \sin B$  is **not** true in general.
 
-(ii) Find values for $A$and $B$, with $A\neq0$ and $B\neq0$, for which    `sin open parentheses A minus B close parentheses equals sin space A plus sin space B`  **is** true.
+(ii) Find values for $A$and $B$, with $A\neq0$ and $B\neq0$, for which    $\sin ( A - B ) = \sin A + \sin B$  **is** true.
 
 ## Q32 — very_hard — 7 marks · exam-questions
 
 ### 1() — 3 marks — structured
-Use the identities `sin open parentheses A plus-or-minus B close parentheses identical to sin space A space cos space B plus-or-minus cos space A space sin space B` and `cos open parentheses A plus-or-minus B close parentheses identical to cos space A space cos space B plus-or-minus sin space A space sin thin space B`  to show that
+Use the identities $\sin ( A \pm B ) \equiv \sin A \cos B \pm \cos A \sin B$ and $\cos ( A \pm B ) \equiv \cos A \cos B \pm \sin A \sin B$  to show that
 
-`sin open parentheses X plus Y minus Z close parentheses identical to
-sin space X space cos space Y space cos space Z plus cos space X space sin space Y space cos space Z minus cos space X space cos space Y space sin space Z plus sin space X space sin space Y space sin thin space Z`
+$\sin ( X + Y - Z ) \equiv 
+\sin X \cos Y \cos Z + \cos X \sin Y \cos Z - \cos X \cos Y \sin Z + \sin X \sin Y \sin Z$
 
 ### 2() — 4 marks — structured
-Hence show that `sin open parentheses 165 degree close parentheses equals fraction numerator square root of 6 minus square root of 2 over denominator 4 end fraction`.
+Hence show that $\sin ( 165^{\circ} ) = \frac{ \sqrt{6} - \sqrt{2} }{4}$.
 
 ## Q33 — very_hard — 4 marks · exam-questions
 
@@ -308,7 +308,7 @@ State clearly any trigonometric identities you use to show this result.
 ## Q34 — very_hard — 6 marks · exam-questions
 
 ### 1() — 6 marks — structured
-Given that  $a\mathrm{sin}θ+b\mathrm{cos}θ$, where $a$ and $b$ are positive constants, is to be written in the form  `R space sin open parentheses theta plus straight alpha close parentheses`,  find expressions for:
+Given that  $a\mathrm{sin}θ+b\mathrm{cos}θ$, where $a$ and $b$ are positive constants, is to be written in the form  $R \sin ( \\theta + \ \\alpha )$,  find expressions for:
 
 (i) $α$in terms of $a$ and $b$
 
@@ -336,7 +336,7 @@ tan $2θ$tan $θ\equiv$sec $2θ-1$
 ## Q37 — very_hard — 9 marks · exam-questions
 
 ### 1() — 4 marks — structured
-Show that $5\mathrm{sin}θ-3\mathrm{cos}θ$ can be written in the form  `R space sin open parentheses theta minus straight alpha close parentheses` where    $R=\sqrt{34}$, and $α=0.540$ radians correct to three significant figures.
+Show that $5\mathrm{sin}θ-3\mathrm{cos}θ$ can be written in the form  $R \sin ( \\theta - \ \\alpha )$ where    $R=\sqrt{34}$, and $α=0.540$ radians correct to three significant figures.
 
 ### 2() — 5 marks — structured
 Use your result from part (a), and the properties of the sine and cosine functions, to solve the equation

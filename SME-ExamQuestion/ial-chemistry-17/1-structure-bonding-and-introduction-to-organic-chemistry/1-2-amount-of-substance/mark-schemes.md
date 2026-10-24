@@ -7,7 +7,7 @@
 ### 13((a)) — 4 marks
 i) The relative atomic mass of silicon to **two** decimal places is:
 
-- *A*<sub>r</sub> = `fraction numerator open parentheses 28 space cross times space 92.17 close parentheses space plus space open parentheses 29 space cross times space 4.71 close parentheses space plus space open parentheses 30 space cross times space 3.12 close parentheses over denominator 100 end fraction` = 28.1095; **[1 mark]**
+- *A*<sub>r</sub> = $\frac{( 28 \times 92.17 ) + ( 29 \times 4.71 ) + ( 30 \times 3.12 )}{100}$ = 28.1095; **[1 mark]**
 - To two decimal places: = 28.11; **[1 mark]**
 
 ii) A reason why there is a small peak in the mass spectrum of silicon at *m / z *= 14 is:
@@ -281,7 +281,7 @@ $V = n \times V_{m} = 0 . 25 \times 24 . 0 = 6 . 0  \text{dm}^{3}$
 **Final answer:** **The correct answer is ****B**** because:**
 
 - The number of moles of sodium in 0.23 g = $\frac{\mathrm{mass}}{M_{r}}=\frac{0.23}{23.0}$ = 0.010 mol
-- Concentration = `fraction numerator moles over denominator volume space open parentheses dm cubed close parentheses end fraction space equals space fraction numerator 0.010 over denominator 0.350 end fraction` = 0.029 mol dm<sup>-3</sup>
+- Concentration = $\frac{moles}{volume ( dm^{3} )} = \frac{0.010}{0.350}$ = 0.029 mol dm<sup>-3</sup>
 
 **A** is incorrect as  this is just the number of moles of sodium
 
@@ -342,7 +342,7 @@ $V = n \times V_{m} = 0 . 25 \times 24 . 0 = 6 . 0  \text{dm}^{3}$
 - *M*<sub>r</sub>(MgSO<sub>4</sub>) = 24.3 + 32.1 + (4 x 16) = 120.4
 - Therefore:
 
-  - `Atom space economy space equals space fraction numerator 58.3 over denominator open parentheses 2 space cross times space 40 close parentheses space plus space 120.4 end fraction space cross times space 100 space equals space 29.1 percent sign`
+  - $\text{Atom} \text{economy} = \frac{58.3}{( 2 \times 40 ) + 120.4} \times 100 = 29.1 \%$
 
 **B** is incorrect as  this is the percentage ratio of magnesium hydroxide to sodium sulfate
 
@@ -362,12 +362,12 @@ $V = n \times V_{m} = 0 . 25 \times 24 . 0 = 6 . 0  \text{dm}^{3}$
 - Alternatively, you could calculate the atom economy for each, but this would use valuable time in an exam:
 - Atom economy = $\frac{M_{r}\mathrm{of} \mathrm{desired} \mathrm{product}}{\mathrm{sum} \mathrm{of}M_{r}\mathrm{of} \mathrm{ALL} \mathrm{reactants}}\times100$
 
-  - For **A**: Atom economy = `fraction numerator 40 space plus space stretchy left parenthesis 2 space cross times space 35.5 stretchy right parenthesis over denominator 40 space plus space open parentheses 2 space cross times space 35.5 close parentheses end fraction space cross times space 100` = 100%
+  - For **A**: Atom economy = $\frac{40 + ( 2 \times 35.5 )}{40 + ( 2 \times 35.5 )} \times 100$ = 100%
 
-- For **B**: Atom economy = `fraction numerator 40 space plus space open parentheses 2 space cross times space 35.5 close parentheses over denominator 40 space plus space stretchy left parenthesis 2 space cross times space 35.5 stretchy right parenthesis space plus space open parentheses 2 space cross times space 1 close parentheses end fraction space cross times space 100` = 98%
+- For **B**: Atom economy = $\frac{40 + ( 2 \times 35.5 )}{40 + ( 2 \times 35.5 ) + ( 2 \times 1 )} \times 100$ = 98%
 
-  - For **C**: Atom economy = `fraction numerator 40 space plus space stretchy left parenthesis 2 space cross times space 35.5 stretchy right parenthesis over denominator 40 space plus space stretchy left parenthesis 2 space cross times space 35.5 stretchy right parenthesis space plus space open parentheses 2 space cross times space 1 close parentheses space plus space 16 space plus space 12 space plus space open parentheses 2 space cross times space 12 close parentheses end fraction space cross times space 100` = 67%
-  - For **D**: Atom economy = `fraction numerator 40 space plus space stretchy left parenthesis 2 space cross times space 35.5 stretchy right parenthesis over denominator 40 space plus space stretchy left parenthesis 2 space cross times space 35.5 stretchy right parenthesis space plus space open parentheses 2 space cross times space 23 close parentheses space plus space 12 space plus space open parentheses 3 space cross times space 16 close parentheses end fraction space cross times space 100` = 51%
+  - For **C**: Atom economy = $\frac{40 + ( 2 \times 35.5 )}{40 + ( 2 \times 35.5 ) + ( 2 \times 1 ) + 16 + 12 + ( 2 \times 12 )} \times 100$ = 67%
+  - For **D**: Atom economy = $\frac{40 + ( 2 \times 35.5 )}{40 + ( 2 \times 35.5 ) + ( 2 \times 23 ) + 12 + ( 3 \times 16 )} \times 100$ = 51%
 
 **A** is incorrect as  there are no waste products so will have an atom economy of 100%
 
@@ -499,7 +499,7 @@ $V = n \times V_{m} = 0 . 25 \times 24 . 0 = 6 . 0  \text{dm}^{3}$
 - So, 6.0 dm<sup>3</sup> represents 0.25 moles
 - This means that you are looking for the option that has 0.25 moles of the given gas
 
-  - Moles of carbon dioxide = `fraction numerator 11.0 over denominator open parentheses 12.0 plus open parentheses 2 cross times 16.0 close parentheses close parentheses end fraction` = 0.25 moles
+  - Moles of carbon dioxide = $\frac{11.0}{( 12.0 + ( 2 \times 16.0 ) )}$ = 0.25 moles
 
 **A** is incorrect as 2.0 g is 0.5 mol of helium
 
@@ -574,7 +574,7 @@ $V = n \times V_{m} = 0 . 25 \times 24 . 0 = 6 . 0  \text{dm}^{3}$
 - To calculate it the equation used is: $\frac{\mathrm{molecular} \mathrm{mass} \mathrm{of} \mathrm{desired} \mathrm{product}}{\mathrm{sum} \mathrm{of} \mathrm{molecular} \mathrm{masses} \mathrm{of} \mathrm{all} \mathrm{reactants}}\times100$
 - So *M*<sub>r</sub> of reactant KClO<sub>3 </sub>= 39.1 + 35.5 + (16 x 3) = 122.6
 - *M*<sub>r</sub> of the desired product, oxygen = 2 x 16 = 32
-- Atom economy: `fraction numerator open parentheses 3 space straight x space 32 close parentheses over denominator open parentheses 2 space straight x space 122.6 close parentheses end fraction cross times space 100` = 39.2%
+- Atom economy: $\frac{( 3 \mathrm{x} 32 )}{( 2 \mathrm{x} 122.6 )} \times 100$ = 39.2%
 
 **A **is incorrect as the O on the right-hand side has been multiplied by 2, not 6
 
@@ -680,7 +680,7 @@ volume BaCl<sub>2</sub> = $\frac{0.03}{0.100}$ = 0.3 dm<sup>3</sup>
 - Moles of ions = (concentration x volume) x number of ions
 - **A** / MgCl<sub>2</sub> contains one Mg<sup>2+</sup> ion and two Cl<sup>–</sup> ions
 
-  - `open parentheses 200 over 1000 cross times 1.5 close parentheses cross times 3` = 0.9 moles
+  - $( \frac{200}{1000} \times 1.5 ) \times 3$ = 0.9 moles
 - **B** / MgSO<sub>4</sub> contains one Mg<sup>2+</sup> ion and one SO<sub>4</sub><sup>2–</sup> ion
 
   - $(\frac{400}{1000}\times0.8)\times2$ = 0.64 moles
@@ -752,7 +752,7 @@ volume = 0.250 dm<sup>3</sup>
 
 - Calculate the concentration of the solution:
 
-concentration = `fraction numerator moles over denominator volume space open parentheses dm cubed close parentheses end fraction`
+concentration = $\frac{moles}{volume ( dm^{3} )}$
 
 concentration = $\frac{0.100}{0.250}$
 
@@ -784,7 +784,7 @@ concentration = 0.400 mol dm<sup>-3</sup>
 - 0.1 g dm<sup>-3</sup> KCl = $\frac{0.1}{39.1+35.5}$ = 0.00134 mol dm<sup>-3</sup>
 
   - 1 mol of HCl releases 1 mol Cl<sup>-</sup> therefore the concentration of Cl<sup>-</sup> = **0.00134** mol dm<sup>-3</sup>
-- 0.1 g dm<sup>-3</sup> BaCl<sub>2</sub> = `fraction numerator 0.1 over denominator 137.3 space plus space open parentheses 2 space cross times space 35.5 close parentheses end fraction` = 0.00048 mol dm<sup>-3</sup>
+- 0.1 g dm<sup>-3</sup> BaCl<sub>2</sub> = $\frac{0.1}{137.3 + ( 2 \times 35.5 )}$ = 0.00048 mol dm<sup>-3</sup>
 
   - 1 mol of HCl releases 2 mol Cl<sup>-</sup> therefore the concentration of Cl<sup>-</sup> = **0.00096** mol dm<sup>-3</sup>
 - The highest concentration of Cl<sup>-</sup> is in HCl, option **A**

@@ -58,7 +58,7 @@ Determine the spacing between adjacent slits, $d$:
 Calculate the wavelength, $λ$, using the diffraction grating equation:
 
 - $nλ=d\mathrm{sin}θ$
-- `lambda space equals space fraction numerator d sin theta over denominator n end fraction space equals space fraction numerator open parentheses 2.22 cross times 10 to the power of negative 6 end exponent close parentheses space cross times space sin open parentheses 16.5 close parentheses over denominator 1 end fraction`** [1 mark]**
+- $\\lambda = \frac{d \sin \\theta }{n} = \frac{( 2.22 \times 10^{- 6} ) \times \sin ( 16.5 )}{1}$** [1 mark]**
 - $λ=6.31\times10^{-7}m$ **[1 mark]**
 
 **[Total: 4 marks]**
@@ -89,7 +89,7 @@ Deduce the colour of the visible light that caused the electron transition shown
 
 Convert the energy change from eV to J:
 
-- `open square brackets open parentheses negative 3.40 close parentheses space minus space open parentheses negative 1.50 close parentheses close square brackets space cross times space open parentheses 1.60 cross times 10 to the power of negative 19 end exponent close parentheses space equals space 3.04 cross times 10 to the power of negative 19 end exponent space straight J` **[1 mark]**
+- $[ ( - 3.40 ) - ( - 1.50 ) ] \times ( 1.60 \times 10^{- 19} ) = 3.04 \times 10^{- 19} \mathrm{J}$ **[1 mark]**
 
 Determine the frequency of the light using $E=hf$:
 
@@ -110,12 +110,12 @@ Calculate the power of Sirius A:
 
 Convert light years into m:
 
-- `8.60 space cross times space open parentheses 365 space cross times space 24 space cross times space 60 space cross times space 60 close parentheses space cross times space open parentheses 3.00 cross times 10 to the power of 8 close parentheses space equals space 8.14 cross times 10 to the power of 16 space straight m` **[1 mark]**
+- $8.60 \times ( 365 \times 24 \times 60 \times 60 ) \times ( 3.00 \times 10^{8} ) = 8.14 \times 10^{16} \mathrm{m}$ **[1 mark]**
 
 Calculate the power using $I=\frac{P}{A}$:
 
-- `A space equals space 4 straight pi r to the power of italic 2 italic space italic equals italic space 4 straight pi space cross times space open parentheses 8.14 cross times 10 to the power of 16 close parentheses squared space equals space 8.326 cross times 10 to the power of 34 space straight m cubed` **[1 mark]**
-- `P space equals space I A space equals space open parentheses 1.17 cross times 10 to the power of negative 7 end exponent close parentheses space cross times space open parentheses 8.326 cross times 10 to the power of 34 close parentheses` **[1 mark]**
+- `A = 4 pi r ^ 2 = 4 pi x ( 8.14 x 10 ^ 16 ) ^2 = 8.326 x 10 ^ 34 m ^3` **[1 mark]**
+- $P = I A = ( 1.17 \times 10^{- 7} ) \times ( 8.326 \times 10^{34} )$ **[1 mark]**
 - $P=9.73\times10^{27}W$ **[1 mark]**
 
 **[Total: 3 marks]**
@@ -142,7 +142,7 @@ List the known quantities:
 
 Calculate the area of the spherical wave at distance $r$:
 
-- `A space equals space 4 straight pi r squared space equals space 4 straight pi open parentheses 1.50 space cross times space 10 to the power of 11 close parentheses squared` **[1 mark]**
+- $A = 4 \mathrm{\pi } r^{2} = 4 \mathrm{\pi } ( 1.50 \times 10^{11} )^{2}$ **[1 mark]**
 - $A=2.827\times10^{23}m^{2}$
 
 Calculate the intensity:
@@ -166,7 +166,7 @@ Calculate the frequency:
 
 Calculate the energy:
 
-- `E space equals space h f space equals space open parentheses 6.63 space cross times space 10 to the power of negative 34 end exponent close parentheses space cross times space open parentheses 5.64 space cross times space 10 to the power of 14 close parentheses` **[1 mark]**
+- $E = h f = ( 6.63 \times 10^{- 34} ) \times ( 5.64 \times 10^{14} )$ **[1 mark]**
 - $E=3.74\times10^{-19}J$ (3 s.f.) **[1 mark]**
 
 **[Total: 3 marks]**
@@ -180,7 +180,7 @@ List the known quantity:
 
 Calculate the total distance travelled:
 
-- `d space equals space v space cross times space t space equals space open parentheses 3.00 space cross times space 10 to the power of 8 close parentheses space cross times open parentheses 3.20 space cross times space 10 to the power of negative 3 end exponent close parentheses` **[1 mark]**
+- $d = v \times t = ( 3.00 \times 10^{8 ) \times ( 3.20 \times 10^{-3} } )$ **[1 mark]**
 - $d=9.60\times10^{5}m$
 
 Determine the height $h$ of ICESat-2:
@@ -285,7 +285,7 @@ $E_{k}=eV=\frac{p^{2}}{2m_{e}}$
 
 $p=\sqrt{2m_{e}eV}$
 
-`p space equals space square root of 2 cross times open parentheses 9.11 cross times 10 to the power of negative 31 end exponent close parentheses cross times open parentheses 1.60 cross times 10 to the power of negative 19 end exponent close parentheses cross times open parentheses 5.00 cross times 10 cubed close parentheses end root`
+$p = \sqrt{2 \times ( 9.11 \times 10^{- 31} ) \times ( 1.60 \times 10^{- 19} ) \times ( 5.00 \times 10^{3} )}$
 
 $p=3.82\times10^{-23}\text{kg m s}^{-1}$ **[1 mark]**
 
@@ -309,7 +309,7 @@ $λ=$ $1.74\times10^{-11}\text{m}$ **[1 mark]**
 ### 3() — 3 marks
 An alpha particle has a much larger mass than an electron, meaning that when it is accelerated through the same potential difference, it will have a much smaller de Broglie wavelength than the electron:
 
-`lambda subscript alpha over lambda subscript e space equals space square root of fraction numerator m subscript e e over denominator m subscript alpha open parentheses 2 e close parentheses end fraction end root space equals space square root of fraction numerator 9.11 cross times 10 to the power of negative 31 end exponent over denominator 2 cross times 4 cross times 1.67 cross times 10 to the power of negative 27 end exponent end fraction end root space almost equal to space 8.3 cross times 10 to the power of negative 3 end exponent`
+`lambda _ alpha / lambda _ e = sqrt( (m _ e e)/(m _ alpha ( 2 e )) ) = sqrt( (9.11 x 10 ^ - 31 )/(2 x 4 x 1.67 x 10 ^ - 27 ) ) ~= 8.3 x 10 ^ - 3`
 
 $λ_{α}\approx8.3\times10^{-3}\times1.74\times10^{-11}\approx1.4\times10^{-13}\text{m}$
 
@@ -362,7 +362,7 @@ $t=2\times40=80\text{μs}$ **[1 mark]**
 
 $d=\frac{v\timest}{2}$
 
-`d space equals space fraction numerator 1540 cross times open parentheses 80 cross times 10 to the power of negative 6 end exponent close parentheses over denominator 2 end fraction` **[1 mark]**
+$d = \frac{1540 \times ( 80 \times 10^{- 6} )}{2}$ **[1 mark]**
 
 $d=0.062\text{m}=$ $6.2\text{cm}$ **[1 mark]**
 
@@ -415,7 +415,7 @@ To calculate the wavelength of the light emitted by the laser:
 
 $\mathrm{tan}θ=\frac{x}{D}$
 
-`theta space equals space tan to the power of negative 1 end exponent open parentheses fraction numerator 0.820 over denominator 2.00 end fraction close parentheses space equals space 22.3 degree` **[1 mark]**
+$\\theta = \tan ^{- 1} ( \frac{0.820}{2.00} ) = 22.3^{\circ}$ **[1 mark]**
 
 - Calculate the line spacing $d$ on the grating:
 
@@ -524,25 +524,25 @@ $λ=$ $632\text{nm}$** is within the range** **[1 mark]**
 ## Q11 — medium — 1 marks · multiple-choice-questions
 
 ### 5() — 1 marks
-**Correct answer: A** — `fraction numerator 6.63 space cross times 10 to the power of negative 34 end exponent over denominator open parentheses 656 cross times 10 to the power of negative 9 end exponent close parentheses open parentheses 9.11 cross times 10 to the power of negative 31 end exponent close parentheses end fraction`
+**Correct answer: A** — $\frac{6.63 \times 10^{- 34} }{( 656 \times 10^{- 9} ) ( 9.11 \times 10^{- 31} )}$
 
 **Final answer:** **The correct answer is A because:**
 
 - $λ=\frac{h}{p}$ and $p=mv$
 - Combining these gives $λ=\frac{h}{mv}$
 - Rearranging to make $v$ the subject gives $v=\frac{h}{mλ}$
-- Substituting in values gives `v equals fraction numerator 6.63 cross times 10 to the power of negative 34 end exponent over denominator open parentheses 656 cross times 10 to the power of negative 9 end exponent close parentheses open parentheses 9.11 cross times 10 to the power of negative 31 end exponent close parentheses end fraction`
+- Substituting in values gives $v = \frac{6.63 \times 10^{- 34} }{( 656 \times 10^{- 9} ) ( 9.11 \times 10^{- 31} )}$
 
 ## Q12 — medium — 1 marks · multiple-choice-questions
 
 ### 2() — 1 marks
-**Correct answer: A** — `fraction numerator open parentheses 6.63 space cross times space 10 to the power of negative 34 end exponent close parentheses over denominator open parentheses 9.11 space cross times space 10 to the power of negative 31 end exponent close parentheses open parentheses 5.47 space cross times 10 to the power of negative 10 end exponent close parentheses end fraction`
+**Correct answer: A** — $\frac{( 6.63 \times 10^{- 34} )}{( 9.11 \times 10^{- 31} ) ( 5.47 \times 10^{- 10} )}$
 
 **Final answer:** **The correct answer is ****A**** because:**
 
 - The de Broglie wavelength equation is $λ=\frac{h}{p}=\frac{h}{mv}$
 - Therefore, $v=\frac{h}{mλ}$
-- Hence, `fraction numerator open parentheses 6.63 space cross times space 10 to the power of negative 34 end exponent close parentheses over denominator open parentheses 9.11 space cross times space 10 to the power of negative 31 end exponent close parentheses open parentheses 5.47 space cross times 10 to the power of negative 10 end exponent close parentheses end fraction`
+- Hence, $\frac{( 6.63 \times 10^{- 34} )}{( 9.11 \times 10^{- 31} ) ( 5.47 \times 10^{- 10} )}$
 - This is answer** A**
 
 ## Q13 — medium — 1 marks · multiple-choice-questions

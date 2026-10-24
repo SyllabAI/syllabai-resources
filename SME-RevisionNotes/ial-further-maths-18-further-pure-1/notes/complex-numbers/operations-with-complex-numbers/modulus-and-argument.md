@@ -57,34 +57,34 @@ guided_study: false
   - It is written `open vertical bar z close vertical bar`
   - If $z=x+iy$, then by **Pythagoras' theorem**
   
-    - `open vertical bar z close vertical bar equals square root of x squared plus y squared end root`
+    - $\left| z \right| = \sqrt{x^{2} + y^{2}}$
 - A modulus is always **positive** or **zero**
 
   - It cannot be negative
 - For example
 
-  - `vertical line 3 plus 4 straight i vertical line equals square root of 3 squared plus 4 squared end root equals 5`
-  - `vertical line 1 minus straight i vertical line equals square root of 1 squared plus open parentheses negative 1 close parentheses squared end root equals square root of 2`
-  - `vertical line minus 5 vertical line equals 5`
-  - `vertical line 8 straight i vertical line equals 8`
-  - `vertical line 0 plus 0 straight i vertical line equals 0`
+  - $\vert 3 + 4 \mathrm{i} \vert = \sqrt{3^{2} + 4^{2}} = 5$
+  - $\vert 1 - \mathrm{i} \vert = \sqrt{1^{2} + ( - 1 )^{2}} = \sqrt{2}$
+  - $\vert - 5 \vert = 5$
+  - $\vert 8 \mathrm{i} \vert = 8$
+  - $\vert 0 + 0 \mathrm{i} \vert = 0$
 
 ### What rules does the modulus follow?
 
 - Helpful** modulus rules **are:
 
-  - `vertical line z subscript 1 z subscript 2 vertical line equals vertical line z subscript 1 vertical line vertical line z subscript 2 vertical line`
-  - `open vertical bar z subscript 1 over z subscript 2 close vertical bar equals fraction numerator open vertical bar z subscript 1 close vertical bar over denominator open vertical bar z subscript 2 close vertical bar end fraction`
-  - `vertical line z vertical line equals vertical line z asterisk times vertical line`
-  - `z z asterisk times equals z asterisk times z equals vertical line z vertical line squared`
+  - $\vert z_{1} z_{2} \vert = \vert z_{1} \vert \vert z_{2} \vert$
+  - `| z _ 1 / z _ 2 | = (| z _ 1 |)/(| z _ 2 |)`
+  - $\vert z \vert = \vert z \text{asterisk} \times \vert$
+  - $z z \text{asterisk} \times = z \text{asterisk} \times z = \vert z \vert^{2}$
   
     - Proved using $z=x+yi$ and $z\ast=x-yi$
-- Be careful:`open vertical bar z subscript 1 plus z subscript 2 close vertical bar not equal to open vertical bar z subscript 1 close vertical bar plus vertical line z subscript 2 vertical line`
+- Be careful:$\left| z_{1} + z_{2} \right| \text{eq} \left| z_{1} \right| + \vert z_{2} \vert$
 
   - For example, $z_{1}=3+4i$ and $z_{2}=-3+4i$
   
-    - `open vertical bar z subscript 1 close vertical bar equals square root of 3 squared plus 4 squared end root equals 5` and `vertical line z subscript 2 vertical line equals square root of open parentheses negative 3 close parentheses squared plus 4 squared end root equals 5`
-    - so `vertical line z subscript 1 vertical line plus vertical line z subscript 2 vertical line equals 10`
+    - $\left| z_{1} \right| = \sqrt{3^{2} + 4^{2}} = 5$ and $\vert z_{2} \vert = \sqrt{( - 3 )^{2} + 4^{2}} = 5$
+    - so $\vert z_{1} \vert + \vert z_{2} \vert = 10$
     - but $z_{1}+z_{2}=8i$ so `open vertical bar z subscript 1 plus z subscript 2 close vertical bar equals 8`
 
 #### How do I find the argument of a complex number?
@@ -109,7 +109,7 @@ guided_study: false
   - drawing a **sketch**
   - forming a **right-angled** triangle
   - using **trigonometry **
-- The argument of the **origin**, `arg space open parentheses 0 plus 0 straight i close parentheses`, is **undefined**
+- The argument of the **origin**, $\text{arg} ( 0 + 0 \mathrm{i} )$, is **undefined**
 
   - No angle can be drawn
 
@@ -124,18 +124,18 @@ guided_study: false
 > 
 > ![The complex number 2 + 3i on an Argand diagram](assets/2dfed0898287-we-modulus-argument-example1.png)
 > 
-> > *Use *`open vertical bar z close vertical bar equals square root of x squared plus y squared end root`* (or Pythagoras) to find the modulus*
+> > *Use *$\left| z \right| = \sqrt{x^{2} + y^{2}}$* (or Pythagoras) to find the modulus*
 > 
-> `table row cell vertical line z vertical line end cell equals cell square root of 2 squared plus 3 squared end root end cell row blank equals cell square root of 13 end cell row blank equals cell 3.60555127... end cell end table`
+> $\begin{gathered} \vert z \vert & = \sqrt{2^{2} + 3^{2}} \\ = \sqrt{13} \\ = 3.60555127... \end{gathered}$
 > 
 > > $z$* is in the first quadrant so the argument is positive and acute*
 > *Use trigonometry to find the argument *$θ$* in radians*
 > 
-> `table row cell tan space theta end cell equals cell 3 over 2 end cell row theta equals cell tan to the power of negative 1 end exponent open parentheses 3 over 2 close parentheses end cell row theta equals cell 0.98279372... end cell end table`
+> $\begin{gathered} \tan \\theta & = \frac{3}{2} \\ \\theta = \tan ^{- 1} ( \frac{3}{2} ) \\ \\theta = 0.98279372... \end{gathered}$
 > 
 > > *Round the answers to 3 significant figures*
 > 
-> **Final answer:** `vertical line z vertical line equals 3.61`** and **$\mathrm{arg}z=0.983$** to 3 significant figures**
+> **Final answer:** $\vert z \vert = 3.61$** and **$\mathrm{arg}z=0.983$** to 3 significant figures**
 > 
 > (b)  Find the modulus and argument of $w=-1-\sqrt{3}i$, leaving your answers as exact values.
 > 
@@ -144,22 +144,22 @@ guided_study: false
 > 
 > ![A complex number in the third quadrant on an Argand diagram](assets/1f974dc8caa1-we-modulus-argument-example2.png)
 > 
-> > *Use *`open vertical bar z close vertical bar equals square root of x squared plus y squared end root`* (or Pythagoras) to find the modulus*
+> > *Use *$\left| z \right| = \sqrt{x^{2} + y^{2}}$* (or Pythagoras) to find the modulus*
 > 
-> `table row cell vertical line z vertical line end cell equals cell square root of open parentheses negative 1 close parentheses squared plus open parentheses negative square root of 3 close parentheses squared end root end cell row blank equals cell square root of 4 end cell row blank equals 2 end table`
+> $\begin{gathered} \vert z \vert & = \sqrt{( - 1 )^{2} + ( - \sqrt{3} )^{2}} \\ = \sqrt{4} \\ = 2 \end{gathered}$
 > 
 > > $z$* is in the third quadrant so the argument is negative and obtuse*
 > *Use trigonometry to first find *$α$* in radians*
 > 
-> `table row cell tan space alpha end cell equals cell fraction numerator square root of 3 over denominator 1 end fraction end cell row alpha equals cell tan to the power of negative 1 end exponent open parentheses square root of 3 close parentheses end cell row alpha equals cell pi over 3 end cell end table`
+> $\begin{gathered} \tan \\alpha & = \frac{ \sqrt{3} }{1} \\ \\alpha = \tan ^{- 1} ( \sqrt{3} ) \\ \\alpha = \frac{\pi }{3} \end{gathered}$
 > 
 > > *Then find *$θ$* by subtracting *$α$* from 180° (*$π$* radians)*
 > 
-> `table row theta equals cell pi minus alpha end cell row blank equals cell pi minus pi over 3 end cell row blank equals cell fraction numerator 2 pi over denominator 3 end fraction end cell end table`
+> $\begin{gathered} \\theta = \pi - \\alpha \\ = \pi - \frac{\pi }{3} \\ = \frac{2 \pi }{3} \end{gathered}$
 > 
 > > *Remember that the argument here must be a negative angle*
 > 
-> **Final answer:** `vertical line z vertical line equals 2`** and **$\mathrm{arg}z=-\frac{2π}{3}$
+> **Final answer:** $\vert z \vert = 2$** and **$\mathrm{arg}z=-\frac{2π}{3}$
 > 
 > **These answers must be exact**
 
@@ -175,21 +175,21 @@ guided_study: false
 
 - All complex numbers can be written in the form:
 
-  - `z equals r open parentheses cos space theta plus isin space theta close parentheses`
-  - where `r equals vertical line z vertical line` and $θ=\mathrm{arg}z$
+  - $z = r ( \cos \\theta + \text{isin} \\theta )$
+  - where $r = \vert z \vert$ and $θ=\mathrm{arg}z$
   
     - This is called the **modulus-argument **(or polar)** **form
 - **Negative arguments** should be shown clearly** without simplifying**
 
-  - `z equals 2 open parentheses cos space open parentheses negative pi over 3 close parentheses plus isin space open parentheses negative pi over 3 close parentheses close parentheses`
+  - $z = 2 ( \cos ( - \frac{\pi }{3} ) + \text{isin} ( - \frac{\pi }{3} ) )$
   
     - Simplifying them gives the **Cartesian form**
-    - `z equals 2 open parentheses 1 half plus straight i open parentheses negative fraction numerator square root of 3 over denominator 2 end fraction close parentheses close parentheses equals 1 minus square root of 3 blank straight i`
-- Be careful: `z equals r open parentheses cos space theta minus isin space theta close parentheses` is** not** in modulus-argument form (due to the** minus sign**)
+    - $z = 2 ( 1 \frac{1}{2} + \mathrm{i} ( - \frac{ \sqrt{3} }{2} ) ) = 1 - \sqrt{3} \mathrm{i}$
+- Be careful: $z = r ( \cos \\theta - \text{isin} \\theta )$ is** not** in modulus-argument form (due to the** minus sign**)
 
-  - Rewrite it  as `z equals r open parentheses cos invisible function application open parentheses negative theta close parentheses plus isin invisible function application open parentheses negative theta close parentheses close parentheses`
+  - Rewrite it  as $z = r ( \cos ( - \\theta ) + \text{isin} ( - \\theta ) )$
   
-    - This uses the **symmetries **`cos open parentheses negative theta close parentheses identical to cos open parentheses theta close parentheses` and `sin open parentheses negative theta close parentheses identical to negative sin space theta`
+    - This uses the **symmetries **$\cos ( - \\theta ) \equiv \cos ( \\theta )$ and $\sin ( - \\theta ) \equiv - \sin \\theta$
   - The argument is $-θ$
 
 > **Worked Example**
@@ -200,21 +200,21 @@ guided_study: false
 > 
 > ![The complex number -4+4i on an Argand diagram](assets/d7eccdab5267-we-modulus-argument-example3.png)
 > 
-> > *Use *`open vertical bar z close vertical bar equals square root of x squared plus y squared end root`* (or Pythagoras) to find the modulus*
+> > *Use *$\left| z \right| = \sqrt{x^{2} + y^{2}}$* (or Pythagoras) to find the modulus*
 > 
-> `table row cell vertical line z vertical line end cell equals cell square root of open parentheses negative 4 close parentheses squared plus open parentheses 4 close parentheses squared end root end cell row blank equals cell square root of 32 end cell row blank equals cell 4 square root of 2 end cell end table`
+> $\begin{gathered} \vert z \vert & = \sqrt{( - 4 )^{2} + ( 4 )^{2}} \\ = \sqrt{32} \\ = 4 \sqrt{2} \end{gathered}$
 > 
 > > $z$* is in the second quadrant so the argument is positive and obtuse*
 > *Use trigonometry to first find *$α$* in radians*
 > 
-> `table row cell tan space alpha end cell equals cell 4 over 4 end cell row alpha equals cell tan to the power of negative 1 end exponent open parentheses 1 close parentheses end cell row alpha equals cell pi over 4 end cell end table`
+> $\begin{gathered} \tan \\alpha & = \frac{4}{4} \\ \\alpha = \tan ^{- 1} ( 1 ) \\ \\alpha = \frac{\pi }{4} \end{gathered}$
 > 
 > > *Then find *$θ$* by subtracting *$α$* from 180° (*$π$* radians)*
 > 
-> `table row theta equals cell pi minus alpha end cell row blank equals cell pi minus pi over 4 end cell row blank equals cell fraction numerator 3 pi over denominator 4 end fraction end cell end table`
+> $\begin{gathered} \\theta = \pi - \\alpha \\ = \pi - \frac{\pi }{4} \\ = \frac{3 \pi }{4} \end{gathered}$
 > 
 > > *Write the final answer in the form *$r(\mathrm{cos}θ+i\mathrm{sin}θ)$
 > 
-> `z equals 4 square root of 2 open parentheses cos open parentheses fraction numerator 3 pi over denominator 4 end fraction close parentheses plus straight i italic space sin space open parentheses fraction numerator 3 pi over denominator 4 end fraction close parentheses close parentheses`
+> $z = 4 \sqrt{2} ( \cos ( \frac{3 \pi }{4} ) + \mathrm{i} \sin ( \frac{3 \pi }{4} ) )$
 > 
 > **Leave the modulus and argument exact**

@@ -25,13 +25,13 @@ guided_study: false
   - $αβ=\frac{c}{a}$
 - Any **new** **quadratic equations** with **new roots**  will have the form
 
-  - `x squared minus open parentheses sum space of space roots close parentheses x plus open parentheses product space of space roots close parentheses equals 0`
+  - $x ^{2} - ( \text{sum} of \text{roots} ) x + ( \text{product} of \text{roots} ) = 0$
 - For example, to find the quadratic equation with roots $α^{2}$ and $β^{2}$
 
-  - The new equation is `x squared minus open parentheses alpha squared plus beta squared close parentheses x plus alpha squared beta squared equals 0`
+  - The new equation is $x^{2} - ( \\alpha ^{2} + \\beta ^{2} ) x + \\alpha ^{2} \\beta ^{2} = 0$
   - You can then work out these **coefficients** using the **identities** from before
   
-    - `alpha squared plus beta squared identical to open parentheses alpha plus beta close parentheses squared minus 2 alpha beta` and `alpha squared beta squared identical to open parentheses alpha beta close parentheses squared`
+    - $\\alpha ^{2} + \\beta ^{2} \equiv ( \\alpha + \\beta )^{2} - 2 \\alpha \\beta$ and $\\alpha ^{2} \\beta ^{2} \equiv ( \\alpha \\beta )^{2}$
     - **Substitute** in $α+β=-\frac{b}{a}$ and $αβ=\frac{c}{a}$
 
 ### Which identities do I need to know?
@@ -50,8 +50,8 @@ guided_study: false
 
   - $α^{3}+β^{3}\equiv(α+β)^{3}-3αβ(α+β)$
   
-    - which comes from the **binomial expansion** of `open parentheses alpha plus beta close parentheses cubed`
-    - `left parenthesis alpha plus beta right parenthesis cubed identical to alpha cubed plus 3 alpha squared beta plus 3 alpha beta squared plus beta cubed identical to alpha cubed plus beta cubed plus 3 alpha beta open parentheses alpha plus beta close parentheses`
+    - which comes from the **binomial expansion** of $( \\alpha + \\beta )^{3}$
+    - $( \\alpha + \\beta )^{3} \equiv \\alpha ^{3} + 3 \\alpha ^{2} \\beta + 3 \\alpha \\beta ^{2} + \\beta ^{3} \equiv \\alpha ^{3} + \\beta ^{3} + 3 \\alpha \\beta ( \\alpha + \\beta )$
     - then rearranging
 
 - You should know **how** to use **algebraic fractions** (but do not need to learn these identities)
@@ -81,47 +81,47 @@ guided_study: false
 > 
 > $α+β=-\frac{12}{3}=-4$   *and*   $αβ=-\frac{1}{3}$
 > 
-> > *Form the new equation using *`x squared minus open parentheses sum space of space roots close parentheses x plus open parentheses product space of space roots close parentheses equals 0`
+> > *Form the new equation using *$x ^{2} - ( \text{sum} of \text{roots} ) x + ( \text{product} of \text{roots} ) = 0$
 > 
-> `x squared minus open parentheses beta over alpha minus alpha plus alpha over beta minus beta close parentheses x plus open parentheses beta over alpha minus alpha close parentheses open parentheses alpha over beta minus beta close parentheses equals 0`
+> $x ^{2} - ( \frac{ \beta }{ \alpha } - \alpha + \frac{ \alpha }{ \beta } - \beta ) x + ( \frac{ \beta }{ \alpha } - \alpha ) ( \frac{ \alpha }{ \beta } - \beta ) = 0$
 > 
 > > *Simplify the coefficient of *$x$
 > *Add the algebraic fractions*
 > 
-> `table row cell beta over alpha minus alpha plus alpha over beta minus beta end cell equals cell beta over alpha plus alpha over beta minus open parentheses alpha plus beta close parentheses end cell row blank equals cell fraction numerator beta squared plus alpha squared over denominator alpha beta end fraction minus open parentheses alpha plus beta close parentheses end cell end table`
+> `| beta / alpha - alpha + alpha / beta - beta | = beta / alpha + alpha / beta - ( alpha + beta ) | | _ = (beta ^2 + alpha ^2)/(alpha beta) - ( alpha + beta ) | |`
 > 
 > > *Use (or derive) the identity for the sum of the squares of the roots *$α^{2}+β^{2}\equiv(α+β)^{2}-2αβ$
 > 
-> `table row blank equals cell fraction numerator left parenthesis alpha plus beta right parenthesis squared minus 2 alpha beta over denominator alpha beta end fraction minus open parentheses alpha plus beta close parentheses end cell end table`
+> $\begin{gathered} = \frac{( \\alpha + \\beta )^{2} - 2 \\alpha \\beta }{\\alpha \\beta } - ( \\alpha + \\beta ) \end{gathered}$
 > 
 > > *Substitute in *$α+β=-4$* and *$αβ=-\frac{1}{3}$
 > 
-> `table row blank equals cell fraction numerator left parenthesis negative 4 right parenthesis squared minus 2 open parentheses negative 1 third close parentheses over denominator open parentheses negative 1 third close parentheses end fraction minus open parentheses negative 4 close parentheses end cell row blank equals cell negative 46 end cell end table`
+> $\begin{gathered} = \frac{( - 4 )^{2} - 2 ( - 1 \frac{1}{3} )}{( - 1 \frac{1}{3} )} - ( - 4 ) \\ = - 46 \end{gathered}$
 > 
 > > *Now simplify the constant term*
 > *Expand the brackets and add the algebraic fractions*
 > 
-> `table row cell open parentheses beta over alpha minus alpha close parentheses open parentheses alpha over beta minus beta close parentheses end cell equals cell fraction numerator beta alpha over denominator alpha beta end fraction minus alpha squared over beta minus beta squared over alpha plus alpha beta end cell row blank equals cell 1 minus open parentheses alpha squared over beta plus beta squared over alpha close parentheses plus alpha beta end cell row blank equals cell 1 minus fraction numerator open parentheses alpha cubed plus beta cubed close parentheses over denominator alpha beta end fraction plus alpha beta end cell end table`
+> `| ( beta / alpha - alpha ) ( alpha / beta - beta ) | = (beta alpha)/(alpha beta) - alpha ^2 / beta - beta ^2 / alpha + alpha beta | | _ = 1 - ( alpha ^2 / beta + beta ^2 / alpha ) + alpha beta | | _ = 1 - (( alpha ^3 + beta ^3 ))/(alpha beta) + alpha beta | |`
 > 
 > > *Use (or derive) the identity for the sum the cubes of the roots *
 > $α^{3}+β^{3}\equiv(α+β)^{3}-3αβ(α+β)$
 > 
-> `table row blank equals cell 1 minus fraction numerator open square brackets left parenthesis alpha plus beta right parenthesis cubed minus 3 alpha beta left parenthesis alpha plus beta right parenthesis close square brackets over denominator alpha beta end fraction plus alpha beta end cell end table`
+> $\begin{gathered} = 1 - \frac{[ ( \\alpha + \\beta )^{3} - 3 \\alpha \\beta ( \\alpha + \\beta ) ]}{\\alpha \\beta } + \\alpha \\beta \end{gathered}$
 > 
 > > *Substitute in *$α+β=-4$* and *$αβ=-\frac{1}{3}$
 > 
-> `table row blank equals cell 1 minus fraction numerator open square brackets left parenthesis negative 4 right parenthesis cubed minus 3 open parentheses negative 1 third close parentheses left parenthesis negative 4 right parenthesis close square brackets over denominator open parentheses negative 1 third close parentheses end fraction plus open parentheses negative 1 third close parentheses end cell row blank equals cell 1 minus 204 minus 1 third end cell row blank equals cell negative 610 over 3 end cell end table`
+> $\begin{gathered} = 1 - \frac{[ ( - 4 )^{3} - 3 ( - 1 \frac{1}{3} ) ( - 4 ) ]}{( - 1 \frac{1}{3} )} + ( - 1 \frac{1}{3} ) \\ = 1 - 204 - 1 \frac{1}{3} \\ = - \frac{610}{3} \end{gathered}$
 > 
 > > *Write out the new quadratic equation*
 > *Simplify the coefficients*
 > 
-> `table row cell x squared minus open parentheses negative 46 close parentheses x plus open parentheses negative 610 over 3 close parentheses end cell equals 0 row cell x squared plus 46 x minus 610 over 3 end cell equals 0 end table`
+> $\begin{gathered} x^{2} - ( - 46 ) x + ( - \frac{610}{3} ) & = 0 \\ x^{2} + 46 x - \frac{610}{3} & = 0 \end{gathered}$
 > 
 > > *The question asks for the equation to have integer coefficients*
 > *Multiply both sides by 3*
 > 
-> `table row cell 3 x squared plus 138 x minus 610 end cell equals 0 end table`
+> $\begin{gathered} 3 x^{2} + 138 x - 610 & = 0 \end{gathered}$
 > 
 > **Don't forget to write **$=0$** to get full marks**
 > 
-> **Any multiple of the answer (e.g.  **`table row cell 6 x squared plus 276 x minus 1220 end cell equals 0 end table`**) would also be accepted**
+> **Any multiple of the answer (e.g.  **$\begin{gathered} 6 x^{2} + 276 x - 1220 & = 0 \end{gathered}$**) would also be accepted**

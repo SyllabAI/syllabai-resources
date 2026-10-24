@@ -27,14 +27,14 @@ This revision note covers several applications of the scalar product for vectors
 
 - Recall that a formula for the scalar (or ‘dot’) between vectors $a$ and $b$ is
 
-`bold a bold times bold b equals open vertical bar bold a close vertical bar open vertical bar bold b close vertical bar cos invisible function application theta`
+$a \times b = \left| a \right| \left| b \right| \cos \\theta$
 
 - where $θ$ is the angle between the vectors when they are placed **‘base to base’**
 
   - that is, when the vectors are positioned so that they start at the same point
 - We arrange this formula to make $\mathrm{cos}θ$ the subject:
 
-  - `cos space theta equals fraction numerator bold a times bold b over denominator open vertical bar bold a close vertical bar space open vertical bar bold b close vertical bar end fraction`
+  - $\cos \\theta = \frac{a \times b}{\left| a \right| \left| b \right|}$
 - To find the angle between two vectors
 
   - Calculate the scalar product between them
@@ -48,21 +48,21 @@ This revision note covers several applications of the scalar product for vectors
 
 - For example, if the lines have equations $r=a_{1}+sd_{1}$ and $r=a_{2}+td_{2}$, then the angle $θ$ between the lines is given by
 
-`theta equals cos to the power of negative 1 end exponent open parentheses fraction numerator bold d subscript 1 bold times bold d subscript 2 over denominator open vertical bar bold d subscript 1 close vertical bar open vertical bar bold d subscript 2 close vertical bar end fraction close parentheses`
+$\\theta = \cos ^{- 1} ( \frac{d_{1} \times d_{2} }{\left| d_{1} \right| \left| d_{2} \right|} )$
 
 ### How do I know if vectors or lines are perpendicular?
 
-- Two (non-zero) vectors $a$ and $b$ are **perpendicular** if, and only if, `bold a bold times bold b equals 0`
+- Two (non-zero) vectors $a$ and $b$ are **perpendicular** if, and only if, $a \times b = 0$
 
   - If the **a **and **b **are perpendicular then:
   
-    - `theta equals 90 degree rightwards double arrow cos space theta equals 0 rightwards double arrow open vertical bar bold a close vertical bar open vertical bar bold b close vertical bar cos space theta blank equals 0 rightwards double arrow bold a bold times bold b equals 0`
-  - If  `bold a bold times bold b equals 0` then:
+    - $\\theta = 90^{\circ} \Leftrightarrow \cos \\theta = 0 \Leftrightarrow \left| a \right| \left| b \right| \cos \\theta = 0 \Leftrightarrow a \times b = 0$
+  - If  $a \times b = 0$ then:
   
-    - `open vertical bar bold a close vertical bar open vertical bar bold b close vertical bar cos space theta blank equals 0 rightwards double arrow cos space theta equals 0 rightwards double arrow theta equals 90 degree rightwards double arrow` **a **and **b **are perpendicular
+    - $\left| a \right| \left| b \right| \cos \\theta = 0 \Leftrightarrow \cos \\theta = 0 \Leftrightarrow \\theta = 90^{\circ} \Leftrightarrow$ **a **and **b **are perpendicular
   - For example, the vectors $2i-3j+5k$ and $-4i-j+k$ ** **are perpendicular since
 
-`open parentheses 2 i minus 3 j plus 5 k blank close parentheses times open parentheses negative 4 i minus j plus k close parentheses equals 2 cross times open parentheses negative 4 close parentheses plus open parentheses negative 3 close parentheses cross times open parentheses negative 1 close parentheses plus 5 cross times 1 equals negative 8 plus 3 plus 5 equals 0`
+$( 2 i - 3 j + 5 k ) \times ( - 4 i - j + k ) = 2 \times ( - 4 ) + ( - 3 ) \times ( - 1 ) + 5 \times 1 = - 8 + 3 + 5 = 0$
 
 ### How do I find the shortest distance from a point to a line?
 
@@ -75,10 +75,10 @@ This revision note covers several applications of the scalar product for vectors
   - Call $f=\overset{\rightarrow}{\mathrm{OF}}$ and $p=\overset{\rightarrow}{OP}$
   - Since $F$ lies on $l$, we have $f=a+t_{0}d$, for a unique real number $t_{0}$
   - Find the vector $\overset{\rightarrow}{FP}$ using $p-f$
-  - $\overset{\rightarrow}{FP}$ **is perpendicular to **$d$ so form an equation using `open parentheses bold p minus bold f close parentheses times bold d equals 0`
+  - $\overset{\rightarrow}{FP}$ **is perpendicular to **$d$ so form an equation using $( p - f ) \times d = 0$
   - Solve this equation to find the value of $t_{0}$
   - Use the value of $t_{0}$ to find $f$
-- The **shortest distance** between the point $P$ and the line $l$ is the **length **`open vertical bar stack F P with rightwards arrow on top close vertical bar`
+- The **shortest distance** between the point $P$ and the line $l$ is the **length **$\left| \vec{FP} \right|$
 - Note that the **shortest distance between the point and the line** is sometimes referred to as the **length of the perpendicular**
 
 ![7-3-4-foot-of-the-perpendicular](../../../assets/77610fab03a0-7-3-4-foot-of-the-perpendicular.png)

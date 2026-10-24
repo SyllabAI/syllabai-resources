@@ -26,13 +26,13 @@ Plot at least 2 points and join them together with a straight line
 ### Q2
 ia) *Substitute *$x=1$* into each equation.*
 
-`A colon space y equals negative 3 cross times open parentheses 1 close parentheses plus 4 equals negative 3 plus 4 equals 1`
+$A : y = - 3 \times ( 1 ) + 4 = - 3 + 4 = 1$
 
-`B colon space y equals 4 cross times open parentheses 1 close parentheses minus 3 equals 4 minus 3 equals 1`
+$B : y = 4 \times ( 1 ) - 3 = 4 - 3 = 1$
 
-`C colon space y equals 3 cross times open parentheses 1 close parentheses minus 4 equals 3 minus 4 equals negative 1`
+$C : y = 3 \times ( 1 ) - 4 = 3 - 4 = - 1$
 
-`D colon space y equals negative 4 cross times open parentheses 1 close parentheses minus 3 equals negative 4 minus 3 equals negative 7`
+$D : y = - 4 \times ( 1 ) - 3 = - 4 - 3 = - 7$
 
 > *   The only equation to return a *$y-$*value of *$-1$* is *$C$*.*
 
@@ -40,16 +40,16 @@ $C$ **[1]**
 
 ** **
 
-ib) *If the *$y-$*intercept is 4, then the graph passes through the coordinate *`open parentheses 0 comma space 4 close parentheses`*.* 
+ib) *If the *$y-$*intercept is 4, then the graph passes through the coordinate *$( 0 , 4 )$*.* 
 *Substitute *$x=0$* into each of the equations.*
 
-`A colon space y equals negative 3 cross times open parentheses 0 close parentheses plus 4 equals 0 plus 4 equals 4`
+$A : y = - 3 \times ( 0 ) + 4 = 0 + 4 = 4$
 
-`B colon space y equals 4 cross times open parentheses 0 close parentheses minus 3 equals 0 minus 3 equals negative 3`
+$B : y = 4 \times ( 0 ) - 3 = 0 - 3 = - 3$
 
-`C colon space y equals 3 cross times open parentheses 0 close parentheses minus 4 equals 0 minus 4 equals negative 4`
+$C : y = 3 \times ( 0 ) - 4 = 0 - 4 = - 4$
 
-`D colon space y equals negative 4 cross times open parentheses 0 close parentheses minus 3 equals 0 minus 3 equals negative 3`
+$D : y = - 4 \times ( 0 ) - 3 = 0 - 3 = - 3$
 
 > * The only equation to return a *$y-$*value of *$4$* is *$A$*.*
 
@@ -70,14 +70,14 @@ $-26=-3p+4$
 
 **[1]**
 
-`table row cell negative 26 minus 4 end cell equals cell negative 3 p end cell row cell negative 30 end cell equals cell negative 3 p end cell row 30 equals cell 3 p end cell row p equals cell 30 divided by 3 end cell end table`
+$\begin{gathered} - 26 - 4 & = - 3 p \\ - 30 & = - 3 p \\ 30 = 3 p \\ p = 30 \div 3 \end{gathered}$
 
 $p=10$ **[1]**
 
 ### Q3
 > *Parallel **lines have the same gradient, *$m$*.*
 
-> *The line *$y=5x+6$* has a gradient of *$5$*. The parallel line passes through *`open parentheses 0 comma space minus 7 close parentheses`*, so the *$y$* intercept, *$c$*, is *$-7$*.*
+> *The line *$y=5x+6$* has a gradient of *$5$*. The parallel line passes through *$( 0 , - 7 )$*, so the *$y$* intercept, *$c$*, is *$-7$*.*
 
 > *Substitute *$m=5$* and *$c=-7$* into the equation of a line, *$y=mx+c$*.*
 
@@ -94,7 +94,7 @@ $y=5x-7$* ***[1]**
 
 > * *
 
-`table row cell rise space end cell equals cell space 4 end cell row cell run space end cell equals cell space 2 end cell end table`
+$\begin{gathered} \text{rise} & = 4 \\ \text{run} & = 2 \end{gathered}$
 
 $\frac{\mathrm{rise}}{\mathrm{run}}=\frac{4}{2}=2$
 
@@ -166,7 +166,7 @@ ii) *A line is parallel if the gradients are the same. *
 *As the line passes through the origin, *$c=0$*.*
 
 $y=6x$* ***[1]**
-i) *Plot the coordinate *`open parentheses negative 3 comma negative 2 close parentheses`* on the set of axes.*
+i) *Plot the coordinate *$( - 3 , - 2 )$* on the set of axes.*
 
 ![igcse-cie-may-2019-paper-32-q8abi-1](assets/008-igcse-cie-may-2019-paper-32-q8abi-1.png)
 
@@ -184,7 +184,7 @@ $x=2:y=-2\times2=-4$
 
 > *Plot these points onto the set of axes and connect using a straight, ruled line.*
 
-`open parentheses negative 2 comma space 4 close parentheses comma space open parentheses 0 comma space 0 close parentheses comma space open parentheses 2 comma space minus 4 close parentheses`
+$( - 2 , 4 ) , ( 0 , 0 ) , ( 2 , - 4 )$
 
 ![igcse-cie-may-2019-paper-32-q8abii](assets/010-igcse-cie-may-2019-paper-32-q8abii.png)
 
@@ -219,8 +219,7 @@ ii) *In the equation of a line in the form *$y=mx+c$*, **c** refers to the **y-*
 **(0, -4)**** ****[1]**
 > *Use a table of values to work out the co-ordinates by substituting the values of **x** between -4 and 5 into the equation *$y=-2x+1$
 
-`y space equals space minus 2 space open parentheses negative 4 close parentheses space plus thin space 1 space equals space 8 space plus space 1 space equals space 9
-y space equals space minus 2 space open parentheses negative 3 close parentheses space plus thin space 1 space equals space 6 space plus thin space 1 space equals space 7 space etc`
+$y = - 2 ( - 4 ) + 1 = 8 + 1 = 9 y = - 2 ( - 3 ) + 1 = 6 + 1 = 7 \text{etc}$
 
 | *x* | *-4* | *-3* | *-2* | *-1* | *0* | *1* | *2* | *3* | *4* | *5* |
 |---|---|---|---|---|---|---|---|---|---|---|
@@ -242,7 +241,7 @@ $m=\frac{0-3}{6-0}=-\frac{3}{6}=-\frac{1}{2}$
 > *The *$y-$*intercept is the point where the straight line crosses the *$y-$*axis. *
 *This is the point*
 
-`open parentheses 0 comma space 3 close parentheses`
+$( 0 , 3 )$
 
 > *The *$y-$*intercept is therefore *
 
@@ -266,7 +265,7 @@ $3=\frac{2}{3}\timesb-7$
 
 **[1]**
 
-`table row 10 equals cell 2 over 3 b end cell row 30 equals cell 2 b end cell row cell 30 over 2 end cell equals b row blank blank blank end table`
+$\begin{gathered} 10 = \frac{2}{3} b \\ 30 = 2 b \\ \frac{30}{2} & = b \\ \end{gathered}$
 
 $b=15$** [1]**
 
@@ -289,7 +288,7 @@ $(0,-8)$ **[1]**
 
 $(-2,5)$* ***[1]**
 
-(ii) *The coordinate *`open parentheses 2 comma space minus 3 close parentheses`* means the point is 2 to the right of the origin, and 3 below it.*
+(ii) *The coordinate *$( 2 , - 3 )$* means the point is 2 to the right of the origin, and 3 below it.*
 *Mark the point on the grid.*
 
 > * *
@@ -332,7 +331,7 @@ $m=\frac{0-3}{6-0}=-\frac{3}{6}=-\frac{1}{2}$
 > *The *$y-$*intercept is the point where the straight line crosses the *$y-$*axis. *
 *This is the point*
 
-`open parentheses 0 comma space 3 close parentheses`
+$( 0 , 3 )$
 
 > *The *$y-$*intercept is therefore *
 
@@ -353,7 +352,7 @@ $y=-\frac{1}{2}x+3$ **[1]**
 
 > * *
 
-`table row cell rise space end cell equals cell space 3 end cell row cell run space end cell equals cell space 2 end cell end table`
+$\begin{gathered} \text{rise} & = 3 \\ \text{run} & = 2 \end{gathered}$
 
 $\frac{\mathrm{rise}}{\mathrm{run}}=\frac{3}{2}=1.5$
 
@@ -398,9 +397,9 @@ $2$* ***[1]**
 
 $2(-2)-3=-7$
 
-`2 open parentheses 0 close parentheses minus 3 equals negative 3`
+$2 ( 0 ) - 3 = - 3$
 
-`2 open parentheses 3 close parentheses minus 3 equals 3`
+$2 ( 3 ) - 3 = 3$
 
 > *Complete the table of values for *$y=2x-3$*.*
 
@@ -411,7 +410,7 @@ $2(-2)-3=-7$
 **1 mark for at least 2 values correct, 2 marks for all values correct*** ***[2]**
 > *The coordinates to plot from part (b) are:*
 
-`open parentheses negative 2 comma negative 7 close parentheses comma space open parentheses 0 comma negative 3 close parentheses comma space open parentheses 3 comma space 3 close parentheses`
+$( - 2 , - 7 ) , ( 0 , - 3 ) , ( 3 , 3 )$
 
 > *Plot the coordinates from part (b) onto the set of axes and connect them with a straight line.*
 
@@ -428,7 +427,7 @@ $2(-2)-3=-7$
 
 > * *
 
-`table row cell rise space end cell equals cell space 6 end cell row cell run space end cell equals cell space 2 end cell end table`
+$\begin{gathered} \text{rise} & = 6 \\ \text{run} & = 2 \end{gathered}$
 
 $\frac{\mathrm{rise}}{\mathrm{run}}=\frac{6}{2}=3$
 
@@ -491,7 +490,7 @@ $y=1.5x+c$
 
 > *This point is*
 
-`open parentheses 0 comma negative 1 close parentheses`
+$( 0 , - 1 )$
 
 > *The value of *$c$* is*
 

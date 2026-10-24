@@ -54,11 +54,11 @@ guided_study: true
 - As a result, the isotope will change into a** different element** (the daughter nucleus)
 - Alpha decay can be represented by the following radioactive decay equation:
 
-`straight X presubscript straight Z presuperscript straight A space rightwards arrow space straight Y presubscript straight Z minus 2 end presubscript presuperscript straight A minus 4 end presuperscript space plus space straight alpha presubscript 2 presuperscript 4`
+`X _ Z ^ A -> Y _ Z - 2 ^ A - 4 + alpha _ 2 ^ 4`
 
 - An example would be:
 
-`Po presubscript 84 presuperscript 212 space rightwards arrow space Pb presubscript 82 presuperscript 208 space plus space straight alpha presubscript 2 presuperscript 4`
+$Po_{84}^{212} \rightarrow Pb_{82}^{208} + \ \\alpha pre_{2} pre^{4}$
 
 - When an alpha particle is emitted from a nucleus:
 
@@ -99,9 +99,9 @@ guided_study: true
 > 
 > ![The same grid with radon-222 marked at 136 neutrons and 86 protons and an arrow labelled α going down to point C at 134 neutrons and 84 protons, labelled Po](assets/8ef9e579f507-11-1-5-we-alpha-decay-answer-cie-new.png)
 > 
-> `straight X presubscript straight Z presuperscript straight A space rightwards arrow space straight alpha presubscript 2 presuperscript 4 space plus space straight Y presubscript straight Z minus 2 end presubscript presuperscript straight A minus 4 end presuperscript`
+> `X _ Z ^ A -> alpha _ 2 ^ 4 + Y _ Z - 2 ^ A - 4`
 > 
-> `Rn presubscript 86 presuperscript 222 space rightwards arrow space straight alpha presubscript 2 presuperscript 4 space plus space Po presubscript 84 presuperscript 218`
+> $Rn_{86}^{222} \rightarrow \ \\alpha pre_{2} pre^{4} + Po_{84}^{218}$
 > 
 > **Step 2: Determine the nucleon and proton numbers of Po**
 > 
@@ -125,11 +125,11 @@ guided_study: true
   - The total number of nucleons stays the same: **nucleon number remains the same**
 - The decay equation for beta-minus decay is:
 
-`straight X presubscript straight Z presuperscript straight A space rightwards arrow space straight Y presubscript straight Z plus 1 end presubscript presuperscript straight A space plus space straight beta presubscript negative 1 end presubscript presuperscript 0 space plus space scriptbase v with bar on top end scriptbase presubscript 0 presuperscript 0 subscript e`
+`X _ Z ^ A -> Y _ Z + 1 ^ A + beta _ - 1 ^ 0 + v -bar _ 0 ^ 0 _ e`
 
 - An example would be:
 
-`straight C presubscript 6 presuperscript 14 space rightwards arrow space straight N presubscript 7 presuperscript 14 space plus space straight beta presubscript negative 1 end presubscript presuperscript 0 space plus space scriptbase stack straight v subscript straight e with bar on top end scriptbase presubscript 0 presuperscript 0`
+`C _ 6 ^ 14 -> N _ 7 ^ 14 + beta _ - 1 ^ 0 + v _ e -bar _ 0 ^ 0`
 
 - The new nucleus formed from the decay is called the “daughter” nucleus (nitrogen in the example above)
 
@@ -150,11 +150,11 @@ guided_study: true
   - The total number of nucleons stays the same: **nucleon number remains the same**
 - The decay equation for beta-plus decay is:
 
-`straight X presubscript straight Z presuperscript straight A space rightwards arrow space straight Y presubscript straight Z minus 1 end presubscript presuperscript straight A space plus space straight beta presubscript plus 1 end presubscript presuperscript 0 space plus space straight v presubscript 0 presuperscript 0 subscript straight e`
+`X _ Z ^ A -> Y _ Z - 1 ^ A + beta _ + 1 ^ 0 + v _ 0 ^ 0 _ e`
 
 - An example of this would be:
 
-`straight C presubscript 6 presuperscript 11 space rightwards arrow space straight B presubscript 5 presuperscript 11 space plus space straight beta presubscript plus 1 end presubscript presuperscript 0 space plus space straight v presubscript 0 presuperscript 0 subscript straight e`
+`C _ 6 ^ 11 -> B _ 5 ^ 11 + beta _ + 1 ^ 0 + v _ 0 ^ 0 _ e`
 
 > **Worked Example**
 > A radioactive substance with a nucleon number of 212 and a proton number of 82 decays by β-plus emission into a daughter product which in turn decays by further β-plus emission into a granddaughter product.

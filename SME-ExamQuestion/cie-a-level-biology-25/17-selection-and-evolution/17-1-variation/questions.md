@@ -157,7 +157,7 @@ From the data described in part (c), calculate the t value between the data from
 
 The formula for calculating *t* is as follows:
 
-`bold italic t bold space equals space fraction numerator open vertical bar x with bar on top subscript 1 minus space x with bar on top subscript 2 close vertical bar over denominator square root of open parentheses fraction numerator s subscript 1 superscript 2 over denominator n subscript 1 end fraction plus fraction numerator s subscript 2 superscript 2 over denominator n subscript 2 end fraction close parentheses end root end fraction`
+$t = \frac{\left| \bar{x}_{1} - \bar{x}_{2} \right|}{\sqrt{( \frac{s_{1}^{2} }{n_{1} } + \frac{s_{2}^{2} }{n_{2} } )}}$
 
 **Q2** [3 marks]
 
@@ -292,7 +292,7 @@ A *t*‐test can be carried out to compare these two means. The critical value f
 
 Show your working.
 
-`bold italic t bold space equals space fraction numerator open vertical bar x with bar on top subscript 1 minus space x with bar on top subscript 2 close vertical bar over denominator square root of open parentheses fraction numerator s subscript 1 superscript 2 over denominator n subscript 1 end fraction plus fraction numerator s subscript 2 superscript 2 over denominator n subscript 2 end fraction close parentheses end root end fraction`
+$t = \frac{\left| \bar{x}_{1} - \bar{x}_{2} \right|}{\sqrt{( \frac{s_{1}^{2} }{n_{1} } + \frac{s_{2}^{2} }{n_{2} } )}}$
 
 | Key $\overline{x}$ = mean *s* = standard deviation *n*<sub>1</sub> = 6 (number of readings for test population) *n*<sub>2</sub> = 6 (number of readings for control population) |
 |---|

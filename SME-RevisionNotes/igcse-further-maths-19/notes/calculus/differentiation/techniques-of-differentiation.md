@@ -19,9 +19,9 @@ guided_study: false
 
 ### What is the product rule?
 
-- The **product** **rule** states that if  `y equals straight f open parentheses x close parentheses straight g open parentheses x close parentheses`  is the product of two functions $f(x)$ and $g(x)$ then
+- The **product** **rule** states that if  $y = \mathrm{f} ( x ) \mathrm{g} ( x )$  is the product of two functions $f(x)$ and $g(x)$ then
 
-  - `fraction numerator straight d y over denominator straight d x end fraction equals straight f apostrophe open parentheses x close parentheses straight g open parentheses x close parentheses plus straight f open parentheses x close parentheses straight g apostrophe open parentheses x close parentheses`
+  - $\frac{ \mathrm{d} y}{ \mathrm{d} x} = \mathrm{f} ' ( x ) \mathrm{g} ( x ) + \mathrm{f} ( x ) \mathrm{g} ' ( x )$
 
 - This is **not** given on the exam formula sheet, so you need to remember it
 - This is sometimes written as  $y=uv$  where $u$ and $v$ are both functions of $x$
@@ -43,19 +43,19 @@ guided_study: false
 
 ### How do I use the product rule?
 
-- To **differentiate**  `y equals straight f open parentheses x close parentheses straight g open parentheses x close parentheses`
+- To **differentiate**  $y = \mathrm{f} ( x ) \mathrm{g} ( x )$
 
-  - you'll need to make it clear what `straight f open parentheses x close parentheses comma space straight g open parentheses x close parentheses comma space straight f to the power of apostrophe open parentheses x close parentheses` and `straight g to the power of apostrophe open parentheses x close parentheses` are
+  - you'll need to make it clear what $\mathrm{f} ( x ) , \mathrm{g} ( x ) , \mathrm{f}^{'} ( x )$ and $\mathrm{g}^{'} ( x )$ are
   
     - Arranging them in a square can help
 - **STEP 1**
-**Identify** the two functions, `straight f open parentheses x close parentheses` and `straight g open parentheses x close parentheses`
+**Identify** the two functions, $\mathrm{f} ( x )$ and $\mathrm{g} ( x )$
 
-  - Then **differentiate** each one with respect to$x$ to find `straight f to the power of apostrophe open parentheses x close parentheses` and `straight g to the power of apostrophe open parentheses x close parentheses`
+  - Then **differentiate** each one with respect to$x$ to find $\mathrm{f}^{'} ( x )$ and $\mathrm{g}^{'} ( x )$
 - **STEP 2**
 Obtain $\frac{dy}{dx}$ by applying the product rule **formula**
 
-  - If  `y equals straight f open parentheses x close parentheses straight g open parentheses x close parentheses`,  then  $\frac{dy}{dx}=f^{'}(x)g(x)+f(x)g^{'}(x)$
+  - If  $y = \mathrm{f} ( x ) \mathrm{g} ( x )$,  then  $\frac{dy}{dx}=f^{'}(x)g(x)+f(x)g^{'}(x)$
   - **Simplify** the answer if
   
     - it is straightforward to do so
@@ -87,7 +87,7 @@ Obtain $\frac{dy}{dx}$ by applying the product rule **formula**
 > 
 > > *Put the pieces together using  *$y'=u'v+uv'$
 > 
-> `fraction numerator straight d y over denominator straight d x end fraction equals open parentheses 10 x close parentheses open parentheses cos 3 x close parentheses plus open parentheses 5 x squared close parentheses open parentheses negative 3 sin 3 x close parentheses`
+> $\frac{ \mathrm{d} y}{ \mathrm{d} x} = ( 10 x ) ( \cos 3 x ) + ( 5 x^{2} ) ( - 3 \sin 3 x )$
 > 
 > > *Expand the brackets*
 > 
@@ -101,9 +101,9 @@ Obtain $\frac{dy}{dx}$ by applying the product rule **formula**
 
 ### What is the quotient rule?
 
-- The **quotient** **rule** states if  `y equals fraction numerator straight f open parentheses x close parentheses over denominator straight g open parentheses x close parentheses end fraction`  is the quotient of two functions `straight f open parentheses x close parentheses` and `straight g open parentheses x close parentheses` then
+- The **quotient** **rule** states if  $y = \frac{ \mathrm{f} ( x )}{ \mathrm{g} ( x )}$  is the quotient of two functions $\mathrm{f} ( x )$ and $\mathrm{g} ( x )$ then
 
-  - `fraction numerator straight d y over denominator straight d x end fraction equals fraction numerator straight f to the power of apostrophe open parentheses x close parentheses straight g open parentheses x close parentheses minus straight f open parentheses x close parentheses straight g to the power of apostrophe open parentheses x close parentheses over denominator open square brackets straight g open parentheses x close parentheses close square brackets squared end fraction`
+  - $\frac{ \mathrm{d} y}{ \mathrm{d} x} = \frac{ \mathrm{f}^{'} ( x ) \mathrm{g} ( x ) - \mathrm{f} ( x ) \mathrm{g}^{'} ( x )}{[ \mathrm{g} ( x ) ]^{2}}$
   
     - This is given on the **exam formula sheet**, so you don't need to remember it
 - This is sometimes written as  $y=\frac{u}{v}$  where $u$ and $v$ are both functions of $x$
@@ -120,31 +120,31 @@ Obtain $\frac{dy}{dx}$ by applying the product rule **formula**
 
   - If the **numerator** is a **constant**, **negative** **powers** can be used
   
-    - e.g  `fraction numerator k over denominator straight g open parentheses x close parentheses end fraction equals k open parentheses straight g open parentheses x close parentheses close parentheses to the power of negative 1 end exponent`
+    - e.g  $\frac{k}{ \mathrm{g} ( x )} = k ( \mathrm{g} ( x ) )^{- 1}$
     - The **chain rule** can be used here
-    - Note that `open parentheses straight g open parentheses x close parentheses close parentheses to the power of negative 1 end exponent` is different from the **inverse function** `straight g to the power of negative 1 end exponent open parentheses x close parentheses`
+    - Note that $( \mathrm{g} ( x ) )^{- 1}$ is different from the **inverse function** $\mathrm{g}^{- 1} ( x )$
   - If the **denominator** is a **constant**, treat it as a **factor** of the expression
   
-    - `fraction numerator straight f open parentheses x close parentheses over denominator k end fraction equals 1 over k straight f open parentheses x close parentheses`
+    - $\frac{ \mathrm{f} ( x )}{k} = \frac{1}{k} \mathrm{f} ( x )$
   - The quotient rule **will still work** for both those cases
   
     - But it might not be the quickest method
 
 ### How do I use the quotient rule?
 
-- To **differentiate**  `y equals fraction numerator straight f open parentheses x close parentheses over denominator straight g open parentheses x close parentheses end fraction`
+- To **differentiate**  $y = \frac{ \mathrm{f} ( x )}{ \mathrm{g} ( x )}$
 
-  - you'll need to make it clear what `straight f open parentheses x close parentheses comma space straight g open parentheses x close parentheses comma space straight f to the power of apostrophe open parentheses x close parentheses` and `straight g to the power of apostrophe open parentheses x close parentheses` are
+  - you'll need to make it clear what $\mathrm{f} ( x ) , \mathrm{g} ( x ) , \mathrm{f}^{'} ( x )$ and $\mathrm{g}^{'} ( x )$ are
   
     - Arranging them in a square can help
 - **STEP 1**
-**Identify** the two functions, `straight f open parentheses x close parentheses` and `straight g open parentheses x close parentheses`
+**Identify** the two functions, $\mathrm{f} ( x )$ and $\mathrm{g} ( x )$
 
-  - Then **differentiate** each one with respect to$x$ to find `straight f to the power of apostrophe open parentheses x close parentheses` and `straight g to the power of apostrophe open parentheses x close parentheses`
+  - Then **differentiate** each one with respect to$x$ to find $\mathrm{f}^{'} ( x )$ and $\mathrm{g}^{'} ( x )$
 - **STEP 2**
 Obtain $\frac{dy}{dx}$ by applying the quotient rule **formula**
 
-  - If  `y equals fraction numerator straight f open parentheses x close parentheses over denominator straight g open parentheses x close parentheses end fraction`,  then  `fraction numerator straight d y over denominator straight d x end fraction equals fraction numerator straight f to the power of apostrophe stretchy left parenthesis x stretchy right parenthesis straight g stretchy left parenthesis x stretchy right parenthesis minus straight f stretchy left parenthesis x stretchy right parenthesis straight g to the power of apostrophe open parentheses x close parentheses over denominator open square brackets straight g open parentheses x close parentheses close square brackets squared end fraction`
+  - If  $y = \frac{ \mathrm{f} ( x )}{ \mathrm{g} ( x )}$,  then  $\frac{ \mathrm{d} y}{ \mathrm{d} x} = \frac{ \mathrm{f}^{'} ( x ) \mathrm{g} ( x ) - \mathrm{f} ( x ) \mathrm{g}^{'} ( x )}{[ \mathrm{g} ( x ) ]^{2}}$
   - **Simplify** the answer if
   
     - it is straightforward to do so
@@ -162,26 +162,26 @@ Obtain $\frac{dy}{dx}$ by applying the quotient rule **formula**
 >   - These can be differentiated using a combination of chain rule and product rule
 >   
 >     - It would be good practice to try this sometime!
->   - But it's probably easier to use laws of indices to rewrite as `y equals fraction numerator straight f open parentheses x close parentheses over denominator straight g open parentheses x close parentheses end fraction`
+>   - But it's probably easier to use laws of indices to rewrite as $y = \frac{ \mathrm{f} ( x )}{ \mathrm{g} ( x )}$
 >   
 >     - and then use the quotient rule
 
 > **Worked Example**
-> Given the function $f(x)=\frac{\mathrm{cos}2x}{3x+2}$,  find `straight f to the power of apostrophe open parentheses x close parentheses`.
+> Given the function $f(x)=\frac{\mathrm{cos}2x}{3x+2}$,  find $\mathrm{f}^{'} ( x )$.
 > 
-> > *We'll use *`y equals fraction numerator straight f open parentheses x close parentheses over denominator straight g open parentheses x close parentheses end fraction`* form*
+> > *We'll use *$y = \frac{ \mathrm{f} ( x )}{ \mathrm{g} ( x )}$* form*
 > 
-> > *Identify the functions *`straight f open parentheses x close parentheses`* and *`straight g open parentheses x close parentheses`
+> > *Identify the functions *$\mathrm{f} ( x )$* and *$\mathrm{g} ( x )$
 > 
-> `straight f open parentheses x close parentheses equals cos 2 x space space space space space space space space space space space straight g open parentheses x close parentheses equals 3 x plus 2`
+> $\mathrm{f} ( x ) = \cos 2 x \mathrm{g} ( x ) = 3 x + 2$
 > 
-> > *Differentiate those to find *`straight f apostrophe open parentheses x close parentheses`* and *`straight g to the power of apostrophe open parentheses x close parentheses`
+> > *Differentiate those to find *$\mathrm{f} ' ( x )$* and *$\mathrm{g}^{'} ( x )$
 > 
-> `straight f to the power of apostrophe open parentheses x close parentheses equals negative 2 sin 2 x space space space space space space space space space space space straight g to the power of apostrophe open parentheses x close parentheses equals 3`
+> $\mathrm{f}^{'} ( x ) = - 2 \sin 2 x \mathrm{g}^{'} ( x ) = 3$
 > 
-> > *Put the pieces together using  *`fraction numerator straight d over denominator straight d x end fraction open parentheses fraction numerator straight f open parentheses x close parentheses over denominator straight g open parentheses x close parentheses end fraction close parentheses equals fraction numerator straight f to the power of apostrophe open parentheses x close parentheses straight g open parentheses x close parentheses minus straight f open parentheses x close parentheses straight g to the power of apostrophe open parentheses x close parentheses over denominator open square brackets straight g open parentheses x close parentheses close square brackets squared end fraction`* from the exam formula sheet*
+> > *Put the pieces together using  *$\frac{ \mathrm{d} }{ \mathrm{d} x} ( \frac{ \mathrm{f} ( x )}{ \mathrm{g} ( x )} ) = \frac{ \mathrm{f}^{'} ( x ) \mathrm{g} ( x ) - \mathrm{f} ( x ) \mathrm{g}^{'} ( x )}{[ \mathrm{g} ( x ) ]^{2}}$* from the exam formula sheet*
 > 
-> `straight f apostrophe open parentheses x close parentheses equals fraction numerator open parentheses negative 2 sin 2 x close parentheses open parentheses 3 x plus 2 close parentheses minus open parentheses cos 2 x close parentheses open parentheses 3 close parentheses over denominator open parentheses 3 x plus 2 close parentheses squared end fraction`
+> $\mathrm{f} ' ( x ) = \frac{( - 2 \sin 2 x ) ( 3 x + 2 ) - ( \cos 2 x ) ( 3 )}{( 3 x + 2 )^{2}}$
 > 
 > > *Simplify the numerator*
 > *(The denominator is simplest left as it is)*
@@ -212,11 +212,11 @@ Obtain $\frac{dy}{dx}$ by applying the quotient rule **formula**
   - If  $y=f(g(x))$,  then  $\frac{dy}{dx}=f'(g(x))g'(x)$
 - The chain rule makes it possible to differentiate a **function of a function**
 
-  - For example  `y equals open parentheses 5 x to the power of 4 minus 2 x close parentheses to the power of 7`
+  - For example  $y = ( 5 x^{4} - 2 x )^{7}$
   
     - $y=u^{7}$
     - $u=5x^{4}-2x$
-  - Or  `y equals cos open parentheses 3 x squared minus 1 close parentheses`
+  - Or  $y = \cos ( 3 x^{2} - 1 )$
   
     - $y=\mathrm{cos}u$
     - $u=3x^{2}-1$
@@ -227,22 +227,22 @@ Obtain $\frac{dy}{dx}$ by applying the quotient rule **formula**
 
   - This can **save you a lot of work**
   
-    - e.g. finding the derivative of `y equals open parentheses x squared minus 5 x plus 7 close parentheses to the power of 7`
-    - The other option would require trying to expand `open parentheses x squared minus 5 x plus 7 close parentheses to the power of 7` first!
+    - e.g. finding the derivative of $y = ( x^{2} - 5 x + 7 )^{7}$
+    - The other option would require trying to expand $( x^{2} - 5 x + 7 )^{7}$ first!
   - You may need to use **laws of indices**
   
     - e.g. finding the derivative of  $y=\frac{1}{\sqrt{2x-3}}$
-    - Rewrite first as `y equals open parentheses 2 x minus 3 close parentheses to the power of negative 1 half end exponent`
+    - Rewrite first as $y = ( 2 x - 3 )^{- 1 \frac{1}{2}}$
 
 - A power of a function can be differentiated using this **special case** of the chain rule:
 
-  - If `y equals open square brackets straight f open parentheses x close parentheses close square brackets to the power of n`
+  - If $y = [ \mathrm{f} ( x ) ]^{n}$
   
-    - i.e. if $y$ is the function `straight f open parentheses x close parentheses` raised to the power $n$
-  - then  `space fraction numerator straight d y over denominator straight d x end fraction equals n straight f to the power of apostrophe stretchy left parenthesis x stretchy right parenthesis stretchy left square bracket straight f open parentheses x close parentheses stretchy right square bracket to the power of n minus 1 end exponent`
+    - i.e. if $y$ is the function $\mathrm{f} ( x )$ raised to the power $n$
+  - then  $\frac{ \mathrm{d} y}{ \mathrm{d} x} = n \mathrm{f}^{' ( x ) [ \mathrm{f} ( x ) ]^{n} - 1}$
   
-    - i.e. $n$ times the derivative of `straight f open parentheses x close parentheses`, times `straight f open parentheses x close parentheses` to the power of $n-1$
-    - compare `fraction numerator straight d over denominator straight d x end fraction open parentheses x to the power of n close parentheses equals n x to the power of n minus 1 end exponent`
+    - i.e. $n$ times the derivative of $\mathrm{f} ( x )$, times $\mathrm{f} ( x )$ to the power of $n-1$
+    - compare $\frac{ \mathrm{d} }{ \mathrm{d} x} ( x^{n ) = n x^{n} - 1}$
   - $n$ can be **any power** (including fractional and negative powers)
   - This formula is **not** on the exam formula sheet, so you need to remember it
 - The power of a function may also be differentiated using the general chain rule method in the **next section**
@@ -254,7 +254,7 @@ Obtain $\frac{dy}{dx}$ by applying the quotient rule **formula**
 - **STEP 1**
 Identify $y$ and $u$
 
-  - e.g.  `y equals cos open parentheses 3 x squared minus 1 close parentheses`
+  - e.g.  $y = \cos ( 3 x^{2} - 1 )$
   
     - $y=\mathrm{cos}u$
     - $u=3x^{2}-1$
@@ -266,13 +266,13 @@ Find  $\frac{dy}{du}$ and $\frac{du}{dx}$
 - **STEP 3**
 Substitute into  $\frac{dy}{dx}=\frac{dy}{du}\times\frac{du}{dx}$
 
-  - `fraction numerator straight d y over denominator straight d x end fraction equals open parentheses negative sin u close parentheses cross times open parentheses 6 x close parentheses`
+  - $\frac{ \mathrm{d} y}{ \mathrm{d} x} = ( - \sin u ) \times ( 6 x )$
 - **STEP 4**
 Substitute the expression for $u$ back in
 
   - This gets $\frac{dy}{dx}$ entirely in terms of $x$
   
-    - `fraction numerator straight d y over denominator straight d x end fraction equals open parentheses negative sin open parentheses 3 x squared minus 1 close parentheses close parentheses cross times open parentheses 6 x close parentheses equals negative 6 x sin open parentheses 3 x squared minus 1 close parentheses`
+    - $\frac{ \mathrm{d} y}{ \mathrm{d} x} = ( - \sin ( 3 x^{2} - 1 ) ) \times ( 6 x ) = - 6 x \sin ( 3 x^{2} - 1 )$
 
 > **Exam Hint**
 > - When asked to differentiate a 'power of a function', the chain rule is usually your best option
@@ -286,15 +286,15 @@ Substitute the expression for $u$ back in
 > **Worked Example**
 > (a) Find the derivative of$y=(x^{2}-5x+7)^{7}$.
 > 
-> > *This is *`y equals open square brackets straight f open parentheses x close parentheses close square brackets to the power of n`* with *$n=7$* and *`straight f open parentheses x close parentheses equals x squared minus 5 x plus 7`
+> > *This is *$y = [ \mathrm{f} ( x ) ]^{n}$* with *$n=7$* and *$\mathrm{f} ( x ) = x^{2} - 5 x + 7$
 > 
-> > *Start by finding the derivative of *`straight f open parentheses x close parentheses`
+> > *Start by finding the derivative of *$\mathrm{f} ( x )$
 > 
-> `fraction numerator straight d over denominator straight d x end fraction open parentheses x squared minus 5 x plus 7 close parentheses equals 2 x minus 5`
+> $\frac{ \mathrm{d} }{ \mathrm{d} x} ( x^{2} - 5 x + 7 ) = 2 x - 5$
 > 
-> > *Now use  *`space fraction numerator straight d y over denominator straight d x end fraction equals n straight f to the power of apostrophe stretchy left parenthesis x stretchy right parenthesis stretchy left square bracket straight f open parentheses x close parentheses stretchy right square bracket to the power of n minus 1 end exponent`
+> > *Now use  *$\frac{ \mathrm{d} y}{ \mathrm{d} x} = n \mathrm{f}^{' ( x ) [ \mathrm{f} ( x ) ]^{n} - 1}$
 > 
-> `fraction numerator straight d y over denominator straight d x end fraction equals 7 open parentheses 2 x minus 5 close parentheses open parentheses x squared minus 5 x plus 7 close parentheses to the power of 7 minus 1 end exponent`
+> $\frac{ \mathrm{d} y}{ \mathrm{d} x} = 7 ( 2 x - 5 ) ( x^{2} - 5 x + 7 )^{7 - 1}$
 > 
 > $\frac{dy}{dx}=7(2x-5)(x^{2}-5x+7)^{6}$
 > 
@@ -302,19 +302,19 @@ Substitute the expression for $u$ back in
 > 
 > > *First use laws of indices to write as a power*
 > 
-> `y equals open parentheses sin x close parentheses to the power of 1 half end exponent`
+> $y = ( \sin x )^{1 \frac{1}{2}}$
 > 
-> > *This is *`y equals open square brackets straight f open parentheses x close parentheses close square brackets to the power of n`* with *$n=\frac{1}{2}$* and *`straight f open parentheses x close parentheses equals sin x`
+> > *This is *$y = [ \mathrm{f} ( x ) ]^{n}$* with *$n=\frac{1}{2}$* and *$\mathrm{f} ( x ) = \sin x$
 > 
-> > *Find the derivative of *`straight f open parentheses x close parentheses`
+> > *Find the derivative of *$\mathrm{f} ( x )$
 > 
-> `fraction numerator straight d over denominator straight d x end fraction open parentheses sin x close parentheses equals cos x`
+> $\frac{ \mathrm{d} }{ \mathrm{d} x} ( \sin x ) = \cos x$
 > 
-> > *Now use  *`space fraction numerator straight d y over denominator straight d x end fraction equals n straight f to the power of apostrophe stretchy left parenthesis x stretchy right parenthesis stretchy left square bracket straight f open parentheses x close parentheses stretchy right square bracket to the power of n minus 1 end exponent`
+> > *Now use  *$\frac{ \mathrm{d} y}{ \mathrm{d} x} = n \mathrm{f}^{' ( x ) [ \mathrm{f} ( x ) ]^{n} - 1}$
 > 
-> `table row cell fraction numerator straight d y over denominator straight d x end fraction end cell equals cell open parentheses 1 half close parentheses open parentheses cos x close parentheses open parentheses sin x close parentheses to the power of 1 half minus 1 end exponent end cell row blank equals cell fraction numerator cos x over denominator 2 end fraction open parentheses sin x close parentheses to the power of negative 1 half end exponent end cell end table`
+> $\begin{gathered} \frac{ \mathrm{d} y}{ \mathrm{d} x} & = ( 1 \frac{1}{2} ) ( \cos x ) ( \sin x )^{1 \frac{1}{2} - 1} \\ = \frac{\cos x}{2} ( \sin x )^{- 1 \frac{1}{2}} \end{gathered}$
 > 
-> > *And by laws of indices  *`open parentheses sin x close parentheses to the power of negative 1 half end exponent equals 1 over open parentheses sin x close parentheses to the power of 1 half end exponent equals fraction numerator 1 over denominator square root of sin x end root end fraction`
+> > *And by laws of indices  *$( \sin x )^{- 1 \frac{1}{2}} = \frac{1}{( \sin x )^{1 \frac{1}{2}}} = \frac{1}{ \sqrt{\sin x} }$
 > 
 > $\frac{dy}{dx}=\frac{\mathrm{cos}x}{2\sqrt{\mathrm{sin}x}}$
 > 
@@ -332,10 +332,10 @@ Substitute the expression for $u$ back in
 > 
 > > *Substitute into  *$\frac{dy}{dx}=\frac{dy}{du}\times\frac{du}{dx}$
 > 
-> `fraction numerator straight d y over denominator straight d x end fraction equals open parentheses straight e to the power of u close parentheses cross times open parentheses negative sin x close parentheses`
+> $\frac{ \mathrm{d} y}{ \mathrm{d} x} = ( \mathrm{e}^{u} ) \times ( - \sin x )$
 > 
 > > *Substitute the expression for *$u$* back in*
 > 
-> `fraction numerator straight d y over denominator straight d x end fraction equals open parentheses straight e to the power of cos x end exponent close parentheses cross times open parentheses negative sin x close parentheses`
+> $\frac{ \mathrm{d} y}{ \mathrm{d} x} = ( \mathrm{e}^{\cos x} ) \times ( - \sin x )$
 > 
 > $\frac{dy}{dx}=-(\mathrm{sin}x)e^{\mathrm{cos}x}$

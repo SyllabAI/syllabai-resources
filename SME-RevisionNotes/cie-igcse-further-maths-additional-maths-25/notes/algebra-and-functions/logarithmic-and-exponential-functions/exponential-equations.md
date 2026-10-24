@@ -24,7 +24,7 @@ guided_study: false
   - In simple cases the solution can be spotted without the use of a calculator
   - For example,
 
-`table row cell 5 to the power of 2 x end exponent end cell equals 125 row cell 2 x space end cell equals cell space 3 end cell row cell x space end cell equals cell space 3 over 2 end cell end table`
+$\begin{gathered} 5^{2 x} & = 125 \\ 2 x & = 3 \\ x & = \frac{3}{2} \end{gathered}$
 
 - In more complicated cases the laws of logarithms should be used to solve exponential equations
 
@@ -32,7 +32,7 @@ guided_study: false
 
   - For example,
 
-`table row cell 27 to the power of x space end cell equals cell space 9 end cell row x equals cell log subscript 27 9 end cell row blank equals cell blank fraction numerator log subscript 3 9 over denominator log subscript 3 27 end fraction end cell row blank equals cell 2 over 3 blank end cell end table`
+$\begin{gathered} 27^{x} & = 9 \\ x = log_{27} 9 \\ = \frac{log_{3} 9}{log_{3} 27} \\ = \frac{2}{3} \end{gathered}$
 
 ### How do we use logarithms to solve exponential equations?
 
@@ -64,33 +64,33 @@ guided_study: false
 > - If the question requires an exact value you may need to leave your answer as a logarithm
 
 > **Worked Example**
-> Solve the equation `4 to the power of x minus 3 open parentheses 2 to the power of x plus 1 end exponent close parentheses plus blank 9 equals 0`.  Give your answer correct to three significant figures.
+> Solve the equation $4^{x - 3 ( 2^{x} + 1} ) + 9 = 0$.  Give your answer correct to three significant figures.
 > 
-> > *'Spot' the hidden quadratic by noticing that *`4 to the power of x space equals space open parentheses 2 squared close parentheses to the power of x space equals space open parentheses 2 to the power of x close parentheses squared`*.*
+> > *'Spot' the hidden quadratic by noticing that *$4^{x} = ( 2^{2} )^{x} = ( 2^{x} )^{2}$*.*
 > 
 > > *Rewrite the first term as a power of 2.*
 > 
-> `open parentheses 2 to the power of x close parentheses squared space minus space 3 open parentheses 2 to the power of x space plus space 1 end exponent close parentheses space plus space 9 space equals space 0`
+> $( 2^{x )^{2} - 3 ( 2^{x} + 1} ) + 9 = 0$
 > 
-> > *Rewrite the middle terms using the laws of indices: If  *`2 to the power of x plus 1 end exponent space equals space 2 to the power of x space cross times space 2 to the power of 1 space equals space 2 open parentheses 2 to the power of x close parentheses`*     *
+> > *Rewrite the middle terms using the laws of indices: If  *$2^{x + 1} = 2^{x} \times 2^{1} = 2 ( 2^{x} )$*     *
 > 
-> > * *`open parentheses 2 to the power of x close parentheses squared space minus space 3 cross times 2 open parentheses 2 to the power of x close parentheses space plus space 9 space equals space 0
-> open parentheses 2 to the power of x close parentheses squared space minus space 6 open parentheses 2 to the power of x close parentheses space plus space 9 space equals space 0`*    *
+> > * *$( 2^{x} )^{2} - 3 \times 2 ( 2^{x} ) + 9 = 0
+> ( 2^{x} )^{2} - 6 ( 2^{x} ) + 9 = 0$*    *
 > 
 > > *USing a substitution can make this easier to solve. *
 > 
 > *Let *$u=2^{x}$
 > 
-> `open parentheses u close parentheses squared space minus space 6 open parentheses u close parentheses space plus space 9 space equals space 0`
+> $( u )^{2} - 6 ( u ) + 9 = 0$
 > 
 > > *Factorise.*
 > 
-> `u squared space minus space 6 u space plus space 9 space equals space 0
-> open parentheses u space minus space 3 close parentheses open parentheses u space minus space 3 close parentheses space equals space 0`
+> $u^{2} - 6 u + 9 = 0
+> ( u - 3 ) ( u - 3 ) = 0$
 > 
 > > *Solve to find **u** and substitute 2*<sup>*x *</sup>*back in.*
 > 
-> `table row cell u space end cell equals cell space 3 end cell row cell 2 to the power of x space end exponent end cell equals cell space 3 end cell end table`
+> $\begin{gathered} u & = 3 \\ 2^{x } & = 3 \end{gathered}$
 > 
 > > *Solve the exponential equation 2*<sup>*x *</sup>*= 3 by taking logarithms of both sides.*
 > 

@@ -56,8 +56,7 @@ Any **three **of the following**:**
 
 **3% of 33.3g = 1g of curcumin**
 
-** **`mass space of space turmeric space required space equals space fraction numerator 1 straight g space of space curcumin over denominator 3 percent sign space curcumin space content space in space turmeric end fraction
-equals fraction numerator 1 over denominator 0.03 end fraction equals 33. stack 3 with. on top space straight g space which space rounds space down space to space 33.3 space straight g with blank on top`
+** **`mass of turmeric required = (1 g of curcumin)/(3 % curcumin content in turmeric) = (1)/(0.03) = 33. 3 with. on top g which rounds down to 33.3 g with _ on top`
 
 > *A** is incorrect because 0.03g contains 0.009g curcumin*
 

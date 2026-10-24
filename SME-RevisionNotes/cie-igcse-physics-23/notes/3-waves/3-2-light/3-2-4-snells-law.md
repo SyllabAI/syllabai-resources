@@ -99,7 +99,7 @@ $n=\frac{\mathrm{sin}i}{\mathrm{sin}r}$
 > **Exam Hint**
 > The equation** **$n=\frac{\mathrm{sin}i}{\mathrm{sin}r}$** **is also known as Snell's law, but you do not need to know this for your exam.
 > 
-> **Important:** `open parentheses fraction numerator sin space i over denominator sin space r end fraction close parentheses` is not the same as `open parentheses i over r close parentheses`. Incorrectly cancelling the sin terms is a very common mistake!
+> **Important:** $( \frac{\sin i}{\sin r} )$ is not the same as $( \frac{i}{r} )$. Incorrectly cancelling the sin terms is a very common mistake!
 > 
 > When calculating the value of $i$ or $r$, start by calculating the value of $\mathrm{sin}i$ or $\mathrm{sin}r$*.*
 > 

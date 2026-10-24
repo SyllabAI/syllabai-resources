@@ -44,8 +44,7 @@ guided_study: true
   
     - When the** sign** in front of the term you want to eliminate is the** same**, **subtract **the equations
 
-`negative bottom enclose table row cell 6 x plus 4 y equals 22 end cell row cell 6 x minus 3 y equals 15 end cell end table end enclose
-space space space space space space space space space space space space space 7 y equals 7`
+`- bottom | 6 x + 4 y = 22 | | 6 x - 3 y = 15 | | 7 y = 7`
 
 - The *y*  terms have become 4*y *- (-3*y*) = 7*y *(be careful with **negatives**)
 
@@ -63,8 +62,7 @@ space space space space space space space space space space space space space 7 
   
     - When the** sign** in front of the term you want to eliminate is **different**, **add **the equations
 
-`plus bottom enclose table row cell 3 x plus 2 y equals 11 end cell row cell 4 x minus 2 y equals 10 end cell end table end enclose space
-space space space space 7 x space space space space space space space space space equals 21`
+`+ bottom | 3 x + 2 y = 11 | | 4 x - 2 y = 10 | | 7 x = 21`
 
 ### How do I solve linear simultaneous equations by substitution?
 
@@ -114,43 +112,41 @@ space space space space 7 x space space space space space space space space spac
 > **Worked Example**
 > Solve the simultaneous equations
 > 
-> `table row cell 5 x plus 2 y end cell equals 11 row cell 4 x minus 3 y end cell equals 18 end table`
+> $\begin{gathered} 5 x + 2 y & = 11 \\ 4 x - 3 y & = 18 \end{gathered}$
 > 
 > **Answer:**
 > 
 > > *It helps to number the equations*
 > 
-> `table row cell 5 x plus 2 y end cell equals cell 11 space space space space space space space space space space space space end cell row cell 4 x minus 3 y end cell equals 18 end table``table row blank blank cell circle enclose 1 end cell end table
-> table row blank blank cell circle enclose 2 end cell end table`
+> $\begin{gathered} 5 x + 2 y & = 11 \\ 4 x - 3 y & = 18 \end{gathered}$$\begin{gathered} \textcircled{1} \end{gathered} 
+> \begin{gathered} \textcircled{2} \end{gathered}$
 > 
 > > *We will choose to eliminate the **y **terms*
 > *Make the **y** terms equal by multiplying all parts of equation 1 by 3 and all parts of equation 2 by 2*
 > 
-> `table row cell 15 x plus 6 y end cell equals cell 33 space space space space space space space space space end cell row cell 8 x minus 6 y end cell equals cell 36 space space space space space space space space end cell end table``table row blank blank cell circle enclose 3 end cell end table
-> table row blank blank cell circle enclose 4 end cell end table`
+> $\begin{gathered} 15 x + 6 y & = 33 \\ 8 x - 6 y & = 36 \end{gathered}$$\begin{gathered} \textcircled{3} \end{gathered} 
+> \begin{gathered} \textcircled{4} \end{gathered}$
 > 
 > > *The 6**y **terms have different signs, so they can be eliminated by adding equation 4 to equation 3 *
 > 
-> `space space space space space space space space space space 15 x plus 6 y equals 33 space space space space space space space space space space space space
-> bottom enclose space plus space space space space space space space 8 x minus 6 y equals 36 space end enclose
-> space space space space space space space space space space 23 x space space space space space space space space space equals 69 space`
+> `15 x + 6 y = 33 > bottom + 8 x - 6 y = 36 > 23 x = 69`
 > 
 > > *Solve the equation to find** x **(divide both sides by 23)*
 > 
-> `table row x equals cell 69 over 23 equals 3 end cell end table`
+> $\begin{gathered} x = \frac{69}{23} = 3 \end{gathered}$
 > 
 > > *Substitute **x** = 3 into either of the two original equations*
 > 
-> `circle enclose 1 space space space space space`* *`5 open parentheses 3 close parentheses plus 2 y equals 11`
+> $\textcircled{1}$* *$5 ( 3 ) + 2 y = 11$
 > 
 > > *Solve this equation to find** y*
 > 
-> `table row cell 15 plus 2 y end cell equals 11 row cell 2 y end cell equals cell 11 minus 15 end cell row cell 2 y end cell equals cell negative 4 space end cell row y equals cell fraction numerator negative 4 over denominator 2 end fraction equals negative 2 end cell end table`
+> $\begin{gathered} 15 + 2 y & = 11 \\ 2 y & = 11 - 15 \\ 2 y & = - 4 \\ y = \frac{- 4}{2} = - 2 \end{gathered}$
 > 
 > > *Substitute **x** = 3  and **y **= - 2 into the other equation to check that they are correct*
 > 
-> `table row blank blank cell circle enclose 2 space space space space space end cell end table`* *`table row cell 4 x minus 3 y end cell equals 18 end table`
-> *   *`table row cell 4 open parentheses 3 close parentheses minus 3 open parentheses negative 2 close parentheses end cell equals 18 row cell 12 minus open parentheses negative 6 close parentheses end cell equals 18 row 18 equals 18 end table`
+> $\begin{gathered} \textcircled{2} \end{gathered}$* *$\begin{gathered} 4 x - 3 y & = 18 \end{gathered}$
+> *   *$\begin{gathered} 4 ( 3 ) - 3 ( - 2 ) & = 18 \\ 12 - ( - 6 ) & = 18 \\ 18 = 18 \end{gathered}$
 > 
 > > *Write out both solutions together*
 > 

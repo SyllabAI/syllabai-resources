@@ -36,7 +36,7 @@ List the known quantities:
 
 Substitute known values to determine the total initial momentum:
 
-- `p subscript i space equals space m subscript a u subscript a space plus space m subscript s u subscript s space equals space open parentheses 2.7 space cross times space 10.0 close parentheses space plus space 0` **[1 mark]**
+- $p_{i} = m_{a} u_{a} + m_{s} u_{s} = ( 2.7 \times 10.0 ) + 0$ **[1 mark]**
 - $p_{i}=27\mathrm{kg}ms^{-1}$
 
 Use conservation of momentum:
@@ -47,7 +47,7 @@ Use conservation of momentum:
 Calculate the final velocity of the aluminium sphere:
 
 - $p_{f}=m_{a}v+m_{s}v_{s}$
-- `v space equals space fraction numerator p subscript f space minus space m subscript s v subscript s over denominator m subscript a end fraction space equals space fraction numerator 27 space minus space open parentheses 7.9 space cross times space 5.0 close parentheses over denominator 2.7 end fraction space equals space minus 4.63 space straight m space straight s to the power of negative 1 end exponent`
+- $v = \frac{p_{f} - m_{s} v_{s} }{m_{a} } = \frac{27 - ( 7.9 \times 5.0 )}{2.7} = - 4.63 \mathrm{m} \mathrm{s}^{- 1}$
 - $v=-4.6ms^{-1}$ **[1 mark]**
 
 **[Total: 3 marks]**
@@ -81,18 +81,18 @@ i) Show that the mass of asteroid A was about 8.2 × 10<sup>13</sup> kg:
 
 - Momentum: $p=mv\Rightarrowm=\frac{p}{v}$
 - $m=\frac{1.80\times10^{17}}{2.19\times10^{3}}=8.219\times10^{13}\mathrm{kg}$ **[1 mark]**
-- `m space equals space 8.22 cross times 10 to the power of 13 space kg space open parentheses 3 space straight s. straight f. close parentheses` **[1 mark]**
+- $m = 8.22 \times 10^{13} \text{kg} ( 3 \mathrm{s} . \mathrm{f} . )$ **[1 mark]**
 
 ** **
 
 ii) Calculate the velocity of the asteroids after the collision:
 
 - After the collision, asteroid B is absorbed by asteroid A, so the asteroids have a combined mass
-- Therefore,`space p subscript b e f o r e end subscript space equals space p subscript a f t e r end subscript space space space space rightwards double arrow space space space space p subscript A space plus space m subscript B u subscript B space equals space open parentheses m subscript A plus space m subscript B space end subscript close parentheses v` **[1 mark]**
+- Therefore,$p_{b e f o r e} = p_{a f t e r} \Leftrightarrow p_{A + m_{B} u_{B} = ( m_{A} + m_{B} } ) v$ **[1 mark]**
 - Making $v$ the subject:  $v=\frac{p_{A}+m_{B}u_{B}}{m_{AB}}$
 
-- `v space equals space fraction numerator open parentheses 1.80 cross times 10 to the power of 17 close parentheses space plus space open square brackets open parentheses 5.90 cross times 10 to the power of 12 close parentheses space cross times space open parentheses 15.0 cross times 10 cubed close parentheses close square brackets space over denominator open parentheses 8.219 cross times 10 to the power of 13 close parentheses space plus space open parentheses 5.90 cross times 10 to the power of 12 close parentheses end fraction` **[1 mark]**
-- `v space equals space 3.05 cross times 10 cubed space straight m space straight s to the power of negative 1 end exponent space open parentheses 3 space straight s. straight f. close parentheses` **[1 mark]**
+- $v = \frac{( 1.80 \times 10^{17} ) + [ ( 5.90 \times 10^{12} ) \times ( 15.0 \times 10^{3} ) ] }{( 8.219 \times 10^{13} ) + ( 5.90 \times 10^{12} )}$ **[1 mark]**
+- $v = 3.05 \times 10^{3} \mathrm{m} \mathrm{s}^{- 1} ( 3 \mathrm{s} . \mathrm{f} . )$ **[1 mark]**
 
 **[Total: 5 marks]**
 
@@ -112,12 +112,12 @@ List the known quantities:
 
 Calculate the total mass of the combined carriages:
 
-- `m equals open parentheses 7.15 space cross times space 10 to the power of 4 close parentheses plus space open parentheses 5.35 space cross times space 10 to the power of 4 space close parentheses equals 1.25 cross times 10 to the power of 5 space kg`
+- $m = ( 7.15 \times 10^{4} ) + ( 5.35 \times 10^{4} ) = 1.25 \times 10^{5} \text{kg}$
 
 Substitute in known values and calculate momentum:
 
 - $p=mv$
-- `p equals open parentheses 1.25 cross times 10 to the power of 5 close parentheses cross times 3.62` **[1 mark]**
+- $p = ( 1.25 \times 10^{5} ) \times 3.62$ **[1 mark]**
 - $p=4.53\times10^{5}\mathrm{kg}ms^{-1}$ **[1 mark]**
 
 **[Total: 2 marks]**
@@ -142,7 +142,7 @@ Calculate the initial velocity:
 
 - Initial momentum of first carriage + initial momentum of second carriage = final momentum
 - $p_{I1}+p_{I2}=p_{f1+2}$
-- `open parentheses open parentheses 7.15 space cross times space 10 to the power of 4 close parentheses cross times space 4.50 close parentheses plus open parentheses open parentheses 5.35 space cross times space 10 to the power of 4 close parentheses cross times v close parentheses equals 4.53 space cross times space 10 to the power of 5`
+- $( ( 7.15 \times 10^{4} ) \times 4.50 ) + ( ( 5.35 \times 10^{4} ) \times v ) = 4.53 \times 10^{5}$
 - Velocity of second carriage = 2.44 m s<sup>−1</sup> **[1 mark]**
 
 **[Total: 2 marks]**
@@ -150,7 +150,7 @@ Calculate the initial velocity:
 - *Make sure you keep track of which masses or velocities you are putting into the equation *
 - *If you are stuck on the rearranging of **v**:*
 
-  - `v space equals space fraction numerator open parentheses 4.53 space cross times space 10 to the power of 5 close parentheses space minus space open parentheses open parentheses 7.15 space cross times space 10 to the power of 4 close parentheses cross times space 4.50 close parentheses space over denominator 5.35 space cross times space 10 to the power of 4 end fraction`
+  - $v = \frac{( 4.53 \times 10^{5} ) - ( ( 7.15 \times 10^{4} ) \times 4.50 ) }{5.35 \times 10^{4} }$
 
 ### 11((c)) — 2 marks
 To calculate the change in total kinetic energy during the collision:
@@ -168,12 +168,12 @@ Calculate the kinetic energy before and after the collision:
 
 - Kinetic energy before the collision = kinetic energy of carriage 1 + kinetic energy of carriage 2
 - $E_{k}=\frac{1}{2}mv^{2}$
-- `E subscript k minus i n i t i a l end subscript equals open parentheses 1 half cross times open parentheses 7.15 cross times 10 to the power of 4 close parentheses cross times 4.50 squared close parentheses plus open parentheses 1 half cross times open parentheses 5.35 cross times 10 to the power of 4 close parentheses cross times 2.44 squared close parentheses equals 8.84 cross times 10 to the power of 5 space straight J`**AND**
-- `E subscript k minus f i n a l end subscript equals open parentheses 1 half cross times open parentheses 1.25 cross times 10 to the power of 5 close parentheses cross times 3.62 squared close parentheses equals 8.19 cross times 10 to the power of 5 space straight J` **[1 mark]**
+- $E_{k - i n i t i a l} = ( 1 \frac{1}{2} \times ( 7.15 \times 10^{4} ) \times 4.50^{2} ) + ( 1 \frac{1}{2} \times ( 5.35 \times 10^{4} ) \times 2.44^{2} ) = 8.84 \times 10^{5} \mathrm{J}$**AND**
+- $E_{k - f i n a l} = ( 1 \frac{1}{2} \times ( 1.25 \times 10^{5} ) \times 3.62^{2} ) = 8.19 \times 10^{5} \mathrm{J}$ **[1 mark]**
 
 Calculate the change in total kinetic energy:
 
-- `increment E subscript k equals open parentheses 8.84 cross times 10 to the power of 5 close parentheses minus open parentheses 8.19 cross times 10 to the power of 5 close parentheses equals 6.47 cross times 10 to the power of 4 space straight J` **[1 mark]**
+- $\Delta E_{k} = ( 8.84 \times 10^{5} ) - ( 8.19 \times 10^{5} ) = 6.47 \times 10^{4} \mathrm{J}$ **[1 mark]**
 
 **[Total: 2 marks]**
 
@@ -368,7 +368,7 @@ As the lift decelerates, there is then a resultant force acting on the student i
 - Rearrange for *D *:
 
   - $D=T-mg-ma$
-  - Factorising out the mass term on the right side gives  `D space equals space T space minus space m open parentheses g space plus space a close parentheses`
+  - Factorising out the mass term on the right side gives  $D = T - m ( g + a )$
 
 ## Q10 — medium — 1 marks · multiple-choice-questions
 

@@ -17,7 +17,7 @@ guided_study: true
 
 ## Representing simple nuclear reactions
 
-- A nucleus can be described using `straight X presubscript straight Z presuperscript straight A`** notation**
+- A nucleus can be described using $\mathrm{X} pre_{Z} pre^{A}$** notation**
 
 ![AZX Notation, downloadable AS & A Level Physics revision notes](../../../assets/bd0701b0056a-11-1-3-azx-notation.png)
 
@@ -34,7 +34,7 @@ guided_study: true
 > **Worked Example**
 > When a neutron is captured by a uranium-235 nucleus, the outcome may be represented by the nuclear equation:
 > 
-> `straight U presubscript 92 presuperscript 235 space plus space straight n presubscript 0 presuperscript 1 space rightwards arrow space Mo presubscript 42 presuperscript 95 space plus space La presubscript 57 presuperscript 139 space plus space x straight n presubscript 0 presuperscript 1 space plus space 7 straight e presubscript negative 1 end presubscript presuperscript 0`
+> `U _ 92 ^ 235 + n _ 0 ^ 1 -> Mo _ 42 ^ 95 + La _ 57 ^ 139 + x n _ 0 ^ 1 + 7 e _ - 1 ^ 0`
 > 
 > Determine the value of x.
 > 

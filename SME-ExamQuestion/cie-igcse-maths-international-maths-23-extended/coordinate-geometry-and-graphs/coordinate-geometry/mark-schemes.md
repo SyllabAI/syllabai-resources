@@ -6,15 +6,15 @@
 
 
 ### Q1
-> *Find the coordinates of the midpoint using the formula *`open parentheses fraction numerator x subscript 1 plus x subscript 2 over denominator 2 end fraction space comma space fraction numerator y subscript 1 plus y subscript 2 over denominator 2 end fraction close parentheses`
+> *Find the coordinates of the midpoint using the formula *$( \frac{x_{1} + x_{2} }{2} , \frac{y_{1} + y_{2} }{2} )$
 
-`open parentheses fraction numerator 2 plus negative 4 over denominator 2 end fraction comma fraction numerator 7 plus 11 over denominator 2 end fraction close parentheses`
+$( \frac{2 + - 4}{2} , \frac{7 + 11}{2} )$
 
 > *Simplify*
 
-`open parentheses fraction numerator negative 2 over denominator 2 end fraction comma space 18 over 2 close parentheses`
+$( \frac{- 2}{2} , \frac{18}{2} )$
 
-`open parentheses negative 1 comma space 9 close parentheses`** [2]**
+$( - 1 , 9 )$** [2]**
 **1 mark for each**
 
 ### Q2
@@ -26,19 +26,19 @@
 
 ![edexcel-tq-mis-2-12-h-5-2](assets/002-edexcel-tq-mis-2-12-h-5-2.png)
 
-> *First we can find **M** and **N** using the midpoint formula, *`open parentheses fraction numerator x subscript 1 plus x subscript 2 over denominator 2 end fraction space comma space fraction numerator y subscript 1 plus y subscript 2 over denominator 2 end fraction close parentheses`
+> *First we can find **M** and **N** using the midpoint formula, *$( \frac{x_{1} + x_{2} }{2} , \frac{y_{1} + y_{2} }{2} )$
 
-`table row M equals cell open parentheses fraction numerator negative 3 plus 1 over denominator 2 end fraction space comma space fraction numerator negative 6 plus 4 over denominator 2 end fraction close parentheses end cell row M equals cell open parentheses negative 1 comma space minus 1 close parentheses end cell end table`           `table row N equals cell open parentheses fraction numerator 1 plus 5 over denominator 2 end fraction space comma space fraction numerator 4 plus open parentheses negative 2 close parentheses over denominator 2 end fraction close parentheses end cell row N equals cell open parentheses 3 comma space 1 close parentheses end cell end table`
+$\begin{gathered} M = ( \frac{- 3 + 1}{2} , \frac{- 6 + 4}{2} ) \\ M = ( - 1 , - 1 ) \end{gathered}$           $\begin{gathered} N = ( \frac{1 + 5}{2} , \frac{4 + ( - 2 )}{2} ) \\ N = ( 3 , 1 ) \end{gathered}$
 
 * **attempting to find either midpoint using a correct method*** ****[1]**
 
-> *We need to show that the gradient of **MN** is the same as the gradient of **PR **Starting with **MN**, find the gradient using *$\frac{y_{1}-y_{2}}{x_{1}-x_{2}}$*, taking **M **as *`open parentheses x subscript 1 comma space y subscript 1 close parentheses`* and **N** as *`open parentheses x subscript 2 comma space y subscript 2 close parentheses`
+> *We need to show that the gradient of **MN** is the same as the gradient of **PR **Starting with **MN**, find the gradient using *$\frac{y_{1}-y_{2}}{x_{1}-x_{2}}$*, taking **M **as *$( x_{1} , y_{1} )$* and **N** as *$( x_{2} , y_{2} )$
 
 $m_{MN}=\frac{-1-1}{-1-3}=\frac{-2}{-4}=\frac{1}{2}$
 
-> *Now **PR**, find the gradient using *$\frac{y_{1}-y_{2}}{x_{1}-x_{2}}$*, taking **P **as *`open parentheses x subscript 1 comma space y subscript 1 close parentheses`* and **R** as *`open parentheses x subscript 2 comma space y subscript 2 close parentheses`
+> *Now **PR**, find the gradient using *$\frac{y_{1}-y_{2}}{x_{1}-x_{2}}$*, taking **P **as *$( x_{1} , y_{1} )$* and **R** as *$( x_{2} , y_{2} )$
 
-`m subscript P R end subscript equals fraction numerator negative 6 minus open parentheses negative 2 close parentheses over denominator negative 3 minus 5 end fraction equals fraction numerator negative 4 over denominator negative 8 end fraction equals 1 half`
+$m_{P R} = \frac{- 6 - ( - 2 )}{- 3 - 5} = \frac{- 4}{- 8} = 1 \frac{1}{2}$
 
 * **attempting to find either gradient using a correct method*** ****[1]**
 *c**orrectly obtaining both gradients*** ****[1]**
@@ -70,7 +70,7 @@ $12.6$ **[1]**
 
 > *We can find the mean of the x-coordinates using *$\frac{x_{1}+x_{2}}{2}$* and find the mean of the y-coordinates using *$\frac{y_{1}+y_{2}}{2}$
 
-*Midpoint =* `open parentheses fraction numerator 8 plus negative 4 over denominator 2 end fraction comma fraction numerator 5 plus 1 over denominator 2 end fraction close parentheses`
+*Midpoint =* $( \frac{8 + - 4}{2} , \frac{5 + 1}{2} )$
 
 **Final answer:** **Midpoint = **$(2,3)$** **
 
@@ -79,17 +79,17 @@ $12.6$ **[1]**
 ### Q4
 > *Method 1*
 
-> *Use the formula distance = *`square root of open parentheses x subscript 1 minus x subscript 2 close parentheses squared plus open parentheses y subscript 1 minus y subscript 2 close parentheses end root`*. This formula is not on the formula sheet, but it's worth knowing- and is really just an application of Pythagoras' Theorem (see Method 2 below)*
+> *Use the formula distance = *$\sqrt{( x_{1} - x_{2} )^{2} + ( y_{1} - y_{2} )}$*. This formula is not on the formula sheet, but it's worth knowing- and is really just an application of Pythagoras' Theorem (see Method 2 below)*
 
-*distance = *`square root of open parentheses 7 minus open parentheses negative 5 close parentheses close parentheses squared plus open parentheses 2 minus 8 close parentheses squared end root`
+*distance = *$\sqrt{( 7 - ( - 5 ) )^{2} + ( 2 - 8 )^{2}}$
 
 *for correct numbers inside the square root sign** ***[1]** 
 *for square root of** ***[1]**
 
-`equals square root of 12 squared plus open parentheses negative 6 close parentheses squared end root
-equals square root of 144 plus 36 end root
-equals square root of 180
-equals 13.4164079...`
+$= \sqrt{12^{2} + ( - 6 )^{2}} 
+= \sqrt{144 + 36} 
+= \sqrt{180} 
+= 13.4164079...$
 
 > *Round to at least 3 significant figures*
 
@@ -127,54 +127,54 @@ $y=2x$
 
 ** [1]**
 
-> *Substitute into the formula for the length of a line segment, *`d equals square root of open parentheses x subscript 2 minus x subscript 1 close parentheses squared plus open parentheses y subscript 2 minus y subscript 1 close parentheses squared end root.`
+> *Substitute into the formula for the length of a line segment, *$d = \sqrt{( x_{2} - x_{1} )^{2} + ( y_{2} - y_{1} )^{2}} .$
 
-`table row cell square root of open parentheses x minus 0 close parentheses squared plus open parentheses 2 x minus 0 close parentheses squared end root space end cell equals cell square root of 2645 space end cell row cell open parentheses x close parentheses squared plus open parentheses 2 x close parentheses squared space end cell equals cell 2645 space end cell end table`
+$\begin{gathered} \sqrt{( x - 0 )^{2} + ( 2 x - 0 )^{2}} & = \sqrt{2645} \\ ( x )^{2} + ( 2 x )^{2} & = 2645 \end{gathered}$
 
 **[1]**
 
 > *Simplify.*
 
-`table row cell x squared space plus space 4 x squared space end cell equals cell 2645 space end cell row cell 5 x squared space end cell equals cell 2645 space end cell end table`
+$\begin{gathered} x^{2} + 4 x^{2} & = 2645 \\ 5 x^{2} & = 2645 \end{gathered}$
 
 > *Divide both sides by 5.*
 
-`table row cell x squared space end cell equals cell 2645 over 5 space equals space 529 end cell end table`
+$\begin{gathered} x^{2} & = \frac{2645}{5} = 529 \end{gathered}$
 
 **[1]**
 
 > *Square root both sides to find **x**.*
 
-`table row cell x space end cell equals cell space 23 end cell end table`
+$\begin{gathered} x & = 23 \end{gathered}$
 
 > *Substitute in to the original equation to find **y.*
 
-`table row cell y space end cell equals cell space 2 x space equals 2 open parentheses 23 close parentheses space equals space 46 end cell end table`
+$\begin{gathered} y & = 2 x = 2 ( 23 ) = 46 \end{gathered}$
 
 $P(23,46)$ **[1]**
 
 ### Q6
-> *Using the distance of a line formula, *`" d equals square root of open parentheses x subscript 2 minus x subscript 1 close parentheses squared plus open parentheses y subscript 2 minus y subscript 1 close parentheses squared end root "`*to find the length **AC**.*
+> *Using the distance of a line formula, *$" d = \sqrt{( x_{2} - x_{1} )^{2} + ( y_{2} - y_{1} )^{2}} "$*to find the length **AC**.*
 
-`A C equals square root of open parentheses 4 minus negative 3 close parentheses squared plus open parentheses negative 4 minus 10 close parentheses squared end root`
+$A C = \sqrt{( 4 - - 3 )^{2} + ( - 4 - 10 )^{2}}$
 
 *Part under the square root*** ****[1] **
 *Including the square root*** [1]**
 
-`A C equals square root of open parentheses 7 close parentheses squared plus open parentheses negative 14 close parentheses squared end root
-A C equals square root of 245
-A C equals 15.652 space 475 space...`
+$A C = \sqrt{( 7 )^{2} + ( - 14 )^{2}} 
+A C = \sqrt{245} 
+A C = 15.652 475 ...$
 
 **The length ****AC**** is 15.7 units**** [1]**
 
 ### Q7
 > *Find the points where the graphs intersect by forming an equation by making the expressions equal.*
 
-`open parentheses x minus 1 close parentheses squared equals 1 half x plus 1`
+$( x - 1 )^{2} = 1 \frac{1}{2} x + 1$
 
 **[1]**
 
-> *Expand and simplify the left hand side by expanding *`open parentheses x minus 1 close parentheses open parentheses x minus 1 close parentheses.`
+> *Expand and simplify the left hand side by expanding *$( x - 1 ) ( x - 1 ).$
 
 $x^{2}-x-x+1=\frac{1}{2}x+1\,x^{2}-2x+1=\frac{1}{2}x+1$
 
@@ -186,33 +186,33 @@ $x^{2}-2x=\frac{1}{2}x$
 
 > *Subtract *$\frac{1}{2}x$* from both sides.*
 
-`table attributes columnalign right center left columnspacing 0px end attributes row cell x squared minus 2 x minus 1 half x end cell equals 0 row cell x squared minus 5 over 2 x end cell equals 0 end table`
+$\begin{array}{rcl} x^{2} - 2 x - 1 \frac{1}{2} x & = 0 \\ x^{2} - \frac{5}{2} x & = 0 \end{array}$
 
 **[1]**
 
 > *Factorise out the **x**.*
 
-`x open parentheses x minus 5 over 2 close parentheses equals 0`
+$x ( x - \frac{5}{2} ) = 0$
 
 > *Make each factor equal to zero and solve for **x**.*
 
-`table row x equals 0 row cell x minus 5 over 2 end cell equals cell 0 rightwards double arrow x equals 5 over 2 end cell end table`
+$\begin{gathered} x = 0 \\ x - \frac{5}{2} & = 0 \Leftrightarrow x = \frac{5}{2} \end{gathered}$
 
 **[1]**
 
 > *Find the corresponding **y**-values by substitute the **x**-values into an equation for one of the graphs.*
 
-`table row x equals cell 0 rightwards double arrow y equals open parentheses 0 minus 1 close parentheses squared equals 1 end cell row x equals cell 5 over 2 rightwards double arrow y equals open parentheses 5 over 2 minus 1 close parentheses squared equals 9 over 4 end cell end table`
+$\begin{gathered} x = 0 \Leftrightarrow y = ( 0 - 1 )^{2} = 1 \\ x = \frac{5}{2} \Leftrightarrow y = ( \frac{5}{2} - 1 )^{2} = \frac{9}{4} \end{gathered}$
 
 **[1]**
 
 > *Write down the coordinates for the two points of intersection.*
 
-`A open parentheses 0 comma space 1 close parentheses space and space B open parentheses 5 over 2 comma fraction numerator space 9 over denominator 4 end fraction close parentheses`
+`A ( 0 , 1 ) and B ( 5 / 2 , ( 9)/(4) )`
 
-> *Find the distance between the two points using the formula *`d equals square root of open parentheses x subscript 2 minus x subscript 1 close parentheses squared plus open parentheses y subscript 2 minus y subscript 1 close parentheses squared end root.`
+> *Find the distance between the two points using the formula *$d = \sqrt{( x_{2} - x_{1} )^{2} + ( y_{2} - y_{1} )^{2}} .$
 
-`table row d equals cell square root of open parentheses 5 over 2 minus 0 close parentheses squared plus open parentheses 9 over 4 minus 1 close parentheses squared end root end cell row blank equals cell square root of 125 over 16 end root end cell row blank equals cell fraction numerator 5 square root of 5 over denominator 4 end fraction end cell row blank equals cell 2.795084... end cell end table`
+`| d = sqrt( ( 5 / 2 - 0 ) ^2 + ( 9 / 4 - 1 ) ^2 ) | | _ = sqrt( 125 / 16 ) | | _ = (5 sqrt( 5)/(4) | | _ = 2.795084... | |`
 
 **[1]**
 
@@ -227,7 +227,7 @@ $x^{2}-2x=\frac{1}{2}x$
 
 > *Work out the horizontal and vertical distances between the two points and substitute them into Pythagoras' theorem, *$a^{2}+b^{2}=c^{2}$*, to find the length **AB**.*
 
-`open parentheses 9 minus 2 close parentheses squared plus open parentheses 4 minus 1 close parentheses squared equals A B squared`
+$( 9 - 2 )^{2} + ( 4 - 1 )^{2} = A B^{2}$
 
 **[1]**
 
@@ -249,11 +249,11 @@ $7.62$** ****[1]**
 **Answers between 7.615 and 7.616 will be accepted.**
 
 ### Q9
-*The length of a line between the points *`open parentheses x subscript 1 space comma space y subscript 1 close parentheses`* and *`open parentheses x subscript 2 space comma space y subscript 2 close parentheses`* is *`square root of open parentheses x subscript 2 minus x subscript 1 close parentheses squared plus open parentheses y subscript 2 minus y subscript 1 close parentheses squared end root` 
+*The length of a line between the points *$( x_{1} , y_{1} )$* and *$( x_{2} , y_{2} )$* is *$\sqrt{( x_{2} - x_{1} )^{2} + ( y_{2} - y_{1} )^{2}}$ 
 *A** has coordinates (5,6) and **C** has coordinates (8,14)* 
 *Substitute these numbers into the formula* * *
 
-`A C equals square root of open parentheses 8 minus 5 close parentheses squared plus open parentheses 14 minus 6 close parentheses squared end root`
+$A C = \sqrt{( 8 - 5 )^{2} + ( 14 - 6 )^{2}}$
 
 *(8-5) and (14-6) seen*** [1]**
 * *$(8-5)^{2}+(14-6)^{2}$* seen*** ****[1]**
@@ -261,35 +261,35 @@ $7.62$** ****[1]**
 > *Use a calculator to find this value and give your answer to 3 significant figures*
 
 **8.54**** [1]**
-*The mid-point of the points *`open parentheses x subscript 1 space comma space y subscript 1 close parentheses`* and *`open parentheses x subscript 2 space comma space y subscript 2 close parentheses`* has coordinates *`open parentheses fraction numerator space x subscript 1 plus x subscript 2 over denominator 2 end fraction comma fraction numerator space y subscript 1 plus y subscript 2 over denominator 2 end fraction close parentheses`
+*The mid-point of the points *$( x_{1} , y_{1} )$* and *$( x_{2} , y_{2} )$* has coordinates *$( \frac{ x_{1} + x_{2} }{2} , \frac{ y_{1} + y_{2} }{2} )$
 
 *B** has coordinates (0,-2) and **C** has coordinates (8,14)* *Substitute these numbers into the formula*
 
-`open parentheses fraction numerator 0 plus 8 over denominator 2 end fraction comma fraction numerator negative 2 plus 14 over denominator 2 end fraction close parentheses`
+$( \frac{0 + 8}{2} , \frac{- 2 + 14}{2} )$
 
 *One coordinate correct*** ****[1]** 
 **The mid-point of ****BC**** is (4,6)** **[1]**
 
 ### Q10
-> *The formula for the length between the points (**x*<sub>*1*</sub>*, **y*<sub>*1*</sub>*) and (**x*<sub>*2*</sub>*, **y*<sub>*2*</sub>*) is *`square root of open parentheses x subscript 2 minus x subscript 1 close parentheses squared plus open parentheses y subscript 2 minus y subscript 1 close parentheses squared end root`*. Use this formula with the points (-3, 8) and (9, -2). Use brackets around negatives.*
+> *The formula for the length between the points (**x*<sub>*1*</sub>*, **y*<sub>*1*</sub>*) and (**x*<sub>*2*</sub>*, **y*<sub>*2*</sub>*) is *$\sqrt{( x_{2} - x_{1} )^{2} + ( y_{2} - y_{1} )^{2}}$*. Use this formula with the points (-3, 8) and (9, -2). Use brackets around negatives.*
 
-`square root of open parentheses 9 minus open parentheses negative 3 close parentheses close parentheses squared plus open parentheses open parentheses negative 2 close parentheses minus 8 close parentheses squared end root`
+$\sqrt{( 9 - ( - 3 ) )^{2} + ( ( - 2 ) - 8 )^{2}}$
 
 * One correct bracket*** [1]*** *
 *Correct expression*** [1]**
 
 > *You could simplify before typing it into your calculator or just type it straight in.*
 
-`table attributes columnalign right center left columnspacing 0px end attributes row blank blank cell square root of open parentheses 12 close parentheses squared plus open parentheses negative 10 close parentheses squared end root end cell row blank equals cell square root of 144 plus 100 end root end cell row blank equals cell square root of 244 end cell row blank equals cell 2 square root of 61 end cell row blank equals cell 15.6204... end cell end table`
+$\begin{array}{rcl} \sqrt{( 12 )^{2} + ( - 10 )^{2}} \\ = \sqrt{144 + 100} \\ = \sqrt{244} \\ = 2 \sqrt{61} \\ = 15.6204... \end{array}$
 
 > *Round to 3 significant figures.*
 
 **15.6**** ****[1]**
 
 ### Q11
-> *Use the distance between two points, *`open parentheses x subscript 1 comma space y subscript 1 close parentheses`* and *`open parentheses x subscript 2 comma space y subscript 2 close parentheses`* formula, *`" d equals square root of open parentheses x subscript 2 minus x subscript 1 close parentheses squared plus open parentheses y subscript 2 minus y subscript 1 close parentheses squared end root "`*.*
+> *Use the distance between two points, *$( x_{1} , y_{1} )$* and *$( x_{2} , y_{2} )$* formula, *$" d = \sqrt{( x_{2} - x_{1} )^{2} + ( y_{2} - y_{1} )^{2}} "$*.*
 
-`A B equals square root of open parentheses 6 minus negative 3 close parentheses squared plus open parentheses negative 2 minus 4 close parentheses squared end root`
+$A B = \sqrt{( 6 - - 3 )^{2} + ( - 2 - 4 )^{2}}$
 
 *Correct subtraction of coordinates ***[1]**** **
 *Square root ***[1]**
@@ -305,21 +305,21 @@ $AB=\sqrt{81+36}=3\sqrt{13}=10.816653...$
 
 ![qB2dq5IQ_cie-igcse-2019-may-jun-p2-tz3-q15](assets/009-qb2dq5iq-cie-igcse-2019-may-jun-p2-tz3-q15.png)
 
-`square root of open parentheses 7 minus 2 close parentheses squared plus open parentheses 12 minus negative 1 close parentheses squared end root`
+$\sqrt{( 7 - 2 )^{2} + ( 12 - - 1 )^{2}}$
 
 **[2]**
 
-`square root of open parentheses 5 close parentheses squared plus open parentheses 13 close parentheses squared end root equals square root of 194 equals 13.92838828...`
+$\sqrt{( 5 )^{2} + ( 13 )^{2}} = \sqrt{194} = 13.92838828...$
 
 $13.9$ **[1] **
 **Round to 3 significant figures**
 
 ### Q13
-> *If *$r=p+2$* and *$s=q+4$* then we can rewrite *`open parentheses r comma space s close parentheses`* in terms of *$p$* and *$q$*.*
+> *If *$r=p+2$* and *$s=q+4$* then we can rewrite *$( r , s )$* in terms of *$p$* and *$q$*.*
 
-`open parentheses r comma space s close parentheses equals open parentheses p plus 2 comma space q plus 4 close parentheses`
+$( r , s ) = ( p + 2 , q + 4 )$
 
-> *Now we can substitute into the gradient formula *$\frac{y_{1}-y_{2}}{x_{1}-x_{2}}$*, taking *`open parentheses p plus 2 comma space q plus 4 close parentheses`* **as *`open parentheses x subscript 1 comma space y subscript 1 close parentheses`* and *`open parentheses p comma space q close parentheses`* as *`open parentheses x subscript 2 comma space y subscript 2 close parentheses`*.*
+> *Now we can substitute into the gradient formula *$\frac{y_{1}-y_{2}}{x_{1}-x_{2}}$*, taking *$( p + 2 , q + 4 )$* **as *$( x_{1} , y_{1} )$* and *$( p , q )$* as *$( x_{2} , y_{2} )$*.*
 
 $m=\frac{q+4-q}{p+2-p}$
 
@@ -354,15 +354,15 @@ $y=\frac{-5}{2}x+\frac{7}{2}$
 **m = -2.5 [****1]**
 
 ### Q15
-> *Use the midpoint formula, *`open parentheses fraction numerator x subscript 1 plus x subscript 2 over denominator 2 end fraction space comma space fraction numerator y subscript 1 plus y subscript 2 over denominator 2 end fraction close parentheses`
+> *Use the midpoint formula, *$( \frac{x_{1} + x_{2} }{2} , \frac{y_{1} + y_{2} }{2} )$
 
-`M equals open parentheses fraction numerator 2 plus 6 over denominator 2 end fraction space comma space fraction numerator 3 plus 8 over denominator 2 end fraction close parentheses`
+$M = ( \frac{2 + 6}{2} , \frac{3 + 8}{2} )$
 
 **[1]**
 
 > *Simplify by hand, or work out the **x** and then the **y** coordinate using your calculator*
 
-`equals open parentheses 8 over 2 space comma space 11 over 2 close parentheses`
+$= ( \frac{8}{2} , \frac{11}{2} )$
 
 $M=(4,5.5)$**[1]**
 **You're not asked to plot the midpoint- but check against the diagram that your answer looks right**
@@ -389,7 +389,7 @@ $y=\frac{-7}{2}x+\frac{10}{2}$
 
 > *We can find the mean of the x-coordinates using *$\frac{x_{1}+x_{2}}{2}$* and find the mean of the y-coordinates using *$\frac{y_{1}+y_{2}}{2}$*.*
 
-*Midpoint = *`open parentheses fraction numerator 5 space plus space 13 over denominator 2 end fraction space comma space fraction numerator negative 4 space plus space 1 over denominator 2 end fraction close parentheses`
+*Midpoint = *$( \frac{5 + 13}{2} , \frac{- 4 + 1}{2} )$
 
 **[1]**
 

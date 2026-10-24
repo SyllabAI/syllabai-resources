@@ -128,7 +128,7 @@
       "spcpt_cQfwjPhH7njT2V2Y"
      ],
      "part_tier": null,
-     "problem_md": "In a group of 200 students:\n\n- 120 study Chemistry `open parentheses C close parentheses`,\n- 90 study Geography $(G)$,\n- 50 study both Chemistry and Geography.\n\nDraw a Venn diagram to represent this information.",
+     "problem_md": "In a group of 200 students:\n\n- 120 study Chemistry $( C )$,\n- 90 study Geography $(G)$,\n- 50 study both Chemistry and Geography.\n\nDraw a Venn diagram to represent this information.",
      "solution_md": "> *Draw a Venn diagram with two labelled circles and fill in 50 in the overlapping region*\n\n![Venn diagram with two overlapping circles labelled C and G. The overlap contains the number 50](assets/001-venn-diagram-with-two-overlapping-circles-labell.png)\n\n**[B1]**\n\n> *120 study Chemistry in total*\n\n*120 - 50 = 70*\n\n![Venn diagram with two overlapping circles labelled C and G. The overlap contains the number 50, the C only section contains 70](assets/002-venn-diagram-with-two-overlapping-circles-labell.png)\n\n**[B1]**\n\n> *90 study Geography in total*\n\n*90 - 50 = 40*\n\n![Venn diagram with two overlapping circles labelled C and G. The overlap contains the number 50, the C only section contains 70, G only section contains 40](assets/003-venn-diagram-with-two-overlapping-circles-labell.png)\n\n**[B1]**\n\n> *Calculate how many students from the 200 study neither Chemistry nor Geography*\n\n*200 - 70 - 50 - 40 = 40*\n\n![Venn diagram with two overlapping circles labelled C and G. The overlap contains the number 50, the C only section contains 70, G only section contains 40, outside section contains 40](assets/004-venn-diagram-with-two-overlapping-circles-labell.png)\n\n**[B1]**",
      "equations": [
       {
@@ -154,8 +154,8 @@
       "spcpt_Rv3DcsGBkxSkb8Ms"
      ],
      "part_tier": "extended_only",
-     "problem_md": "A student is selected at random.\n\nFind:\n\n(i) `P open parentheses C union G close parentheses`.\n\n(ii) `P open parentheses open parentheses C union G close parentheses apostrophe close parentheses`.\n\n(iii) `P open parentheses open parentheses C intersection G close parentheses apostrophe close parentheses`.",
-     "solution_md": "![Venn diagram with two overlapping circles labelled C and G. The overlap contains the number 50, the C only section contains 70, G only section contains 40, outside section contains 40](assets/004-venn-diagram-with-two-overlapping-circles-labell.png)\n\n(i)\n\n> `P open parentheses C union G close parentheses`* means the probability that the selected student studies Chemistry or Geography*\n\n$\\frac{70+50+40}{200}=\\frac{160}{200}$\n\n`P open parentheses C union G close parentheses equals 4 over 5`\n\n**[B1]**\n\n(ii)\n\n> `P open parentheses open parentheses C union G close parentheses apostrophe close parentheses`* means the probability of not studying \"Chemistry OR Geography\"*\n\n> *i.e. It means *`1 minus P open parentheses C union G close parentheses`\n\n> *These are the students not in either circle*\n\n> *It is also equal to 1 minus the answer to part (i)*\n\n$\\frac{40}{200}$\n\n`P open parentheses open parentheses C union G close parentheses apostrophe close parentheses equals 1 fifth`\n\n**[B1]**\n\n(iii)\n\n> `P open parentheses open parentheses C intersection G close parentheses apostrophe close parentheses`* means the probability of not studying \"Chemistry AND Geography\"*\n\n> *This is any student not in the overlapping region*\n\n$\\frac{70+40+40}{200}=\\frac{150}{200}$\n\n`P open parentheses open parentheses C intersection G close parentheses apostrophe close parentheses equals 3 over 4`\n\n**[B1]**\n\n> **[mark-scheme]**\n> Exact equivalent answers are also accepted for each mark.\n> \n> E.g. $\\frac{150}{200}$ instead of $\\frac{3}{4}$.",
+     "problem_md": "A student is selected at random.\n\nFind:\n\n(i) $P ( C \\cup G )$.\n\n(ii) $P ( ( C \\cup G ) ' )$.\n\n(iii) $P ( ( C \\cap G ) ' )$.",
+     "solution_md": "![Venn diagram with two overlapping circles labelled C and G. The overlap contains the number 50, the C only section contains 70, G only section contains 40, outside section contains 40](assets/004-venn-diagram-with-two-overlapping-circles-labell.png)\n\n(i)\n\n> $P ( C \\cup G )$* means the probability that the selected student studies Chemistry or Geography*\n\n$\\frac{70+50+40}{200}=\\frac{160}{200}$\n\n$P ( C \\cup G ) = \\frac{4}{5}$\n\n**[B1]**\n\n(ii)\n\n> $P ( ( C \\cup G ) ' )$* means the probability of not studying \"Chemistry OR Geography\"*\n\n> *i.e. It means *$1 - P ( C \\cup G )$\n\n> *These are the students not in either circle*\n\n> *It is also equal to 1 minus the answer to part (i)*\n\n$\\frac{40}{200}$\n\n$P ( ( C \\cup G ) ' ) = 1 \\frac{1}{5}$\n\n**[B1]**\n\n(iii)\n\n> $P ( ( C \\cap G ) ' )$* means the probability of not studying \"Chemistry AND Geography\"*\n\n> *This is any student not in the overlapping region*\n\n$\\frac{70+40+40}{200}=\\frac{150}{200}$\n\n$P ( ( C \\cap G ) ' ) = \\frac{3}{4}$\n\n**[B1]**\n\n> **[mark-scheme]**\n> Exact equivalent answers are also accepted for each mark.\n> \n> E.g. $\\frac{150}{200}$ instead of $\\frac{3}{4}$.",
      "equations": [
       {
        "latex": "\\frac{70+50+40}{200}=\\frac{160}{200}",
@@ -500,7 +500,7 @@
      ],
      "part_tier": null,
      "problem_md": "The Venn diagram shows information about the number of elements in sets $A$, $B$ and $E$.\n\n![cie-igcse-2018-may-jun-2-p2-q23](assets/021-cie-igcse-2018-may-jun-2-p2-q23.png)\n\n$n(A\\cupB)=23$ Find the value of $x$.\n\n$x=$................................................",
-     "solution_md": "> *The region *$n(A\\cupB)=23$* is shaded below*\n\n![n9Cij2p7_cie-igcse-2018-may-jun-tz2-p2-q23](assets/022-n9cij2p7-cie-igcse-2018-may-jun-tz2-p2-q23.png)\n\n**  ****identifying correct region ****[1]**\n\n> *We can add the expressions in the entire shaded region and equate them to 23*\n\n`open parentheses 20 minus x close parentheses plus x plus open parentheses 8 minus x close parentheses equals 23`\n\n**[1]**\n\n> *Collect like terms and solve for *$x$\n\n`table row cell 20 minus x plus x plus 8 minus x end cell equals 23 row cell 28 minus x end cell equals 23 row 5 equals x end table`\n\n$x=5$* ***[1]**",
+     "solution_md": "> *The region *$n(A\\cupB)=23$* is shaded below*\n\n![n9Cij2p7_cie-igcse-2018-may-jun-tz2-p2-q23](assets/022-n9cij2p7-cie-igcse-2018-may-jun-tz2-p2-q23.png)\n\n**  ****identifying correct region ****[1]**\n\n> *We can add the expressions in the entire shaded region and equate them to 23*\n\n$( 20 - x ) + x + ( 8 - x ) = 23$\n\n**[1]**\n\n> *Collect like terms and solve for *$x$\n\n$\\begin{gathered} 20 - x + x + 8 - x & = 23 \\\\ 28 - x & = 23 \\\\ 5 = x \\end{gathered}$\n\n$x=5$* ***[1]**",
      "equations": [
       {
        "latex": "A",
@@ -784,7 +784,7 @@
      ],
      "part_tier": null,
      "problem_md": "There are 32 students in a class.\n\n5 do not study any languages. 15 study German (G). 18 study Spanish (S).\n\n![cie-igcse-2020-oct-nov-p4-tz1-q9a](assets/026-cie-igcse-2020-oct-nov-p4-tz1-q9a.png)\n\nComplete the Venn diagram to show this information.",
-     "solution_md": "> *5 do not study any languages, so place 5 in the Venn diagram outside of both bubbles.*\n\n> *Find the intersection of both bubbles *`open parentheses G intersection S close parentheses`* by finding how many students have been counted twice in German and Spanish.*\n\n> * *\n\n*German + Spanish - both + neither = 32 *\n\n*15 + 18 - both + 5 = 32 *\n\n*38 - both = 32*\n\n*both = 6*\n\n**[1]**\n\n** **\n\n> *Place 6 in the Venn diagram in the intersection of both bubbles.*\n\n> * *\n\n![cie-igcse-2020-oct-nov-p4-tz1-q9a-working](assets/027-cie-igcse-2020-oct-nov-p4-tz1-q9a-working.png)\n\n> * *\n\n> *Find the other two numbers by subtracting 6 from the total for that language.*\n\n> * *\n\n![cie-igcse-2020-oct-nov-p4-tz1-q9a-solution](assets/028-cie-igcse-2020-oct-nov-p4-tz1-q9a-solution.png)\n\n**[1]**"
+     "solution_md": "> *5 do not study any languages, so place 5 in the Venn diagram outside of both bubbles.*\n\n> *Find the intersection of both bubbles *$( G \\cap S )$* by finding how many students have been counted twice in German and Spanish.*\n\n> * *\n\n*German + Spanish - both + neither = 32 *\n\n*15 + 18 - both + 5 = 32 *\n\n*38 - both = 32*\n\n*both = 6*\n\n**[1]**\n\n** **\n\n> *Place 6 in the Venn diagram in the intersection of both bubbles.*\n\n> * *\n\n![cie-igcse-2020-oct-nov-p4-tz1-q9a-working](assets/027-cie-igcse-2020-oct-nov-p4-tz1-q9a-working.png)\n\n> * *\n\n> *Find the other two numbers by subtracting 6 from the total for that language.*\n\n> * *\n\n![cie-igcse-2020-oct-nov-p4-tz1-q9a-solution](assets/028-cie-igcse-2020-oct-nov-p4-tz1-q9a-solution.png)\n\n**[1]**"
     },
     {
      "id": "qstnprt_GqPBFm7ZJ4kQhm37",
@@ -803,7 +803,7 @@
      ],
      "part_tier": null,
      "problem_md": "**Extract:**\n\nThere are 32 students in a class.\n\n5 do not study any languages. 15 study German (G). 18 study Spanish (S).\n\nA student is chosen at random.   \nFind the probability that the student studies Spanish but not German.",
-     "solution_md": "> *Reading from the Venn diagram, 12 students study Spanish but not German.*\n\n> *Find the probability by dividing this by the total number of students.*\n\n`straight P open parentheses Spanish close parentheses space equals space 12 over 32`\n\n$\\frac{3}{8}$** [1] **\n**The unsimplified fraction is accepted.**",
+     "solution_md": "> *Reading from the Venn diagram, 12 students study Spanish but not German.*\n\n> *Find the probability by dividing this by the total number of students.*\n\n$\\mathrm{P} ( \\text{Spanish} ) = \\frac{12}{32}$\n\n$\\frac{3}{8}$** [1] **\n**The unsimplified fraction is accepted.**",
      "equations": [
       {
        "latex": "\\frac{3}{8}",
@@ -829,7 +829,7 @@
      ],
      "part_tier": null,
      "problem_md": "**Extract:**\n\nThere are 32 students in a class.\n\n5 do not study any languages. 15 study German (G). 18 study Spanish (S).\n\nA student who studies German is chosen at random. \nFind the probability that this student also studies Spanish.",
-     "solution_md": "*In total, 15 students study German.* *Of these, 6 of them also study Spanish.*\n\n> *Find the probability by dividing the number who study both by the total number of students who study German.*\n\n`straight P space open parentheses Student space who space studies space German space also space studies space Spanish close parentheses equals space 6 over 15`\n\n$\\frac{2}{5}$** [1]**\n** The unsimplified fraction is accepted.**",
+     "solution_md": "*In total, 15 students study German.* *Of these, 6 of them also study Spanish.*\n\n> *Find the probability by dividing the number who study both by the total number of students who study German.*\n\n$\\mathrm{P} ( \\text{Student} \\text{who} \\text{studies} \\text{German} \\text{also} \\text{studies} \\text{Spanish} ) = \\frac{6}{15}$\n\n$\\frac{2}{5}$** [1]**\n** The unsimplified fraction is accepted.**",
      "equations": [
       {
        "latex": "\\frac{2}{5}",
@@ -908,7 +908,7 @@
      ],
      "part_tier": null,
      "problem_md": "**Extract:**\n\nHere is a Venn diagram.\n\n![q6a-5-2-medium-edexcel-gcse-maths](https://cdn.savemyexams.com/uploads/2023/05/q6a-5-2-medium-edexcel-gcse-maths.png)\n\nOne of the numbers in the diagram is chosen at random.\n\nFind the probability that the number is in set $A'$.",
-     "solution_md": "> *A**' is the set of all numbers that **aren't** in **A**.  (It's called the 'complement' of** A.**) *\n*Basically, the question is asking you 'What's the probability that the number isn't in set **A**?'*\n\n`A apostrophe space equals space open curly brackets 10 comma space 11 comma space 13 comma space 14 comma space 16 comma space 17 comma space 19 close curly brackets`\n\n**[1] ****You can also get this mark for indicating where set A' is on the Venn diagram.**\n\n> *There are 7 numbers in set **A'**. *\n*There are a total of 10 numbers in the diagram.*\n\n$\\frac{7}{10}$**  [1]**",
+     "solution_md": "> *A**' is the set of all numbers that **aren't** in **A**.  (It's called the 'complement' of** A.**) *\n*Basically, the question is asking you 'What's the probability that the number isn't in set **A**?'*\n\n$A ' = \\{ 10 , 11 , 13 , 14 , 16 , 17 , 19 \\}$\n\n**[1] ****You can also get this mark for indicating where set A' is on the Venn diagram.**\n\n> *There are 7 numbers in set **A'**. *\n*There are a total of 10 numbers in the diagram.*\n\n$\\frac{7}{10}$**  [1]**",
      "equations": [
       {
        "latex": "A'",
@@ -987,7 +987,7 @@
      ],
      "part_tier": null,
      "problem_md": "**Extract:**\n\n![calligraphic E space equals space]{odd numbers less than 30} \n\n![A space equals space]{3, 9, 15, 21, 27} \n\n![B space equals space]{5, 15, 25}\n\nA number is chosen at random from the universal set, $E$.\n\nWhat is the probability that the number is in the set $A\\cupB$?",
-     "solution_md": "> *There are 15 numbers in the universal set. *\n$A\\cupB$* is all the numbers that are in either or both of the circles. So *`A union B space equals space open curly brackets 3 comma space 5 comma space 9 comma space 15 comma space 21 comma space 25 comma space 27 close curly brackets`*, with 7 numbers in that set.*\n\n$\\frac{7}{15}$**  [2]**\n\n**1 mark for 7 in the numerator (as long as the denominator is **$\\geq$**7****), or for 15 in the denominator (as long as the numerator is **$\\leq$**7****).  2 marks for 7/15.  If your part (a) answer was wrong, you can still get the part (b) marks for correctly interpreting your incorrect part (a) diagram.**",
+     "solution_md": "> *There are 15 numbers in the universal set. *\n$A\\cupB$* is all the numbers that are in either or both of the circles. So *$A \\cup B = \\{ 3 , 5 , 9 , 15 , 21 , 25 , 27 \\}$*, with 7 numbers in that set.*\n\n$\\frac{7}{15}$**  [2]**\n\n**1 mark for 7 in the numerator (as long as the denominator is **$\\geq$**7****), or for 15 in the denominator (as long as the numerator is **$\\leq$**7****).  2 marks for 7/15.  If your part (a) answer was wrong, you can still get the part (b) marks for correctly interpreting your incorrect part (a) diagram.**",
      "equations": [
       {
        "latex": "E",

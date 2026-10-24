@@ -28,14 +28,14 @@ guided_study: true
   
     - λ has to be positive but does not have to be an integer
   - Each occurrence is **independent **of the other occurrences
-- If $X$ follows a Poisson distribution then it is denoted `begin mathsize 16px style X tilde Po left parenthesis lambda right parenthesis end style`
+- If $X$ follows a Poisson distribution then it is denoted $X \sim \text{Po} ( \\lambda )$
 
   - $λ$** **is the mean number of trials
 - The formula for the probability of r occurrences in a given interval is:
 
   - $P(X=r)=e^{-λ}\times\frac{λ^{r}}{r!}$                for r=0, 1, 2, .....,$n$
   - *e* is the constant 2.718…
-  - `r factorial equals r open parentheses r minus 1 close parentheses open parentheses r minus 2 close parentheses....2 cross times 1`
+  - $r \text{factorial} = r ( r - 1 ) ( r - 2 )....2 \times 1$
 
 #### What are the important properties of a Poisson distribution?
 
@@ -109,7 +109,7 @@ guided_study: true
 
 ## Calculating Poisson Probabilities
 
-Throughout this section we will use the random variable `begin mathsize 16px style X tilde Po left parenthesis lambda right parenthesis end style`  . For a Poisson distribution, the probability of a *X* taking a non-integer or negative value is always zero. Therefore any values mentioned in this section (other than *λ*) will be assumed to be non-negative integers.
+Throughout this section we will use the random variable $X \sim \text{Po} ( \\lambda )$  . For a Poisson distribution, the probability of a *X* taking a non-integer or negative value is always zero. Therefore any values mentioned in this section (other than *λ*) will be assumed to be non-negative integers.
 
 #### Where does the formula for a Poisson distribution come from?
 
@@ -163,7 +163,7 @@ Throughout this section we will use the random variable `begin mathsize 16px sty
   - Recall also that $λ^{1}=λ$ and 1! = 1
 - This calculation could be factorised and simplified to
 
-  - `begin mathsize 16px style P left parenthesis X less or equal than 3 right parenthesis equals e to the power of negative lambda end exponent open parentheses 1 plus lambda plus fraction numerator lambda squared over denominator 2 factorial end fraction plus fraction numerator lambda cubed over denominator 3 factorial end fraction close parentheses end style`
+  - $P ( X \text{less} \text{or} \text{equal} \text{than} 3 ) = e^{- \\lambda } ( 1 + \\lambda + \frac{\\lambda ^{2}}{2 factorial} + \frac{\\lambda ^{3}}{3 factorial} )$
   - This is much simpler and easier to type into your calculator in exam conditions
 
 #### How do I change the mean for a Poisson distribution?

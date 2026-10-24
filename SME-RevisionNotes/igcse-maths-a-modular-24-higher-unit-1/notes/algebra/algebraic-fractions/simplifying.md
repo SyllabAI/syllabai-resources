@@ -25,15 +25,15 @@ guided_study: true
 
 - If possible, **factorise fully** the top and bottom
 
-  - E.g. `fraction numerator 2 x over denominator x squared plus 3 x end fraction equals fraction numerator 2 x over denominator x open parentheses x plus 3 close parentheses end fraction`
+  - E.g. $\frac{2 x}{x^{2} + 3 x} = \frac{2 x}{x ( x + 3 )}$
 - **Cancel** common factors
 
   - This factor may be a** single term**
   
-    - E.g. `fraction numerator up diagonal strike x open parentheses 5 x minus 1 close parentheses over denominator 4 up diagonal strike x end fraction equals fraction numerator 5 x minus 1 over denominator 4 end fraction`
+    - E.g. $\frac{ \cancel{x} ( 5 x - 1 )}{4 \cancel{x} } = \frac{5 x - 1}{4}$
   - It could also be a **common bracket**
   
-    - E.g. `fraction numerator x up diagonal strike open parentheses x plus 2 close parentheses end strike over denominator up diagonal strike open parentheses x plus 2 close parentheses end strike open parentheses x minus 1 close parentheses end fraction equals fraction numerator x over denominator x minus 1 end fraction`
+    - E.g. $\frac{x \cancel{( x + 2 )} }{ \cancel{( x + 2 )} ( x - 1 )} = \frac{x}{x - 1}$
 - A** common mistake** is to cancel a factor that is not common to **all terms** in either the top or the bottom of a fraction
 
   - E.g. The fraction $\frac{6x}{x+1}$ cannot be simplified
@@ -55,15 +55,15 @@ guided_study: true
 > 
 > > *Factorise the top, by using 2 as a common factor*
 > 
-> `fraction numerator 2 open parentheses 2 x plus 3 close parentheses over denominator 2 x squared minus 7 x minus 15 end fraction`
+> $\frac{2 ( 2 x + 3 )}{2 x^{2} - 7 x - 15}$
 > 
 > > *Factorise the bottom using your preferred method*
-> *Using the fact that the top factorised to *`open parentheses 2 x plus 3 close parentheses`* may help!*
+> *Using the fact that the top factorised to *$( 2 x + 3 )$* may help!*
 > 
-> `fraction numerator 2 open parentheses 2 x plus 3 close parentheses over denominator open parentheses 2 x plus 3 close parentheses open parentheses x minus 5 close parentheses end fraction`
+> $\frac{2 ( 2 x + 3 )}{( 2 x + 3 ) ( x - 5 )}$
 > 
 > > *The common factors on the top and bottom reduce to 1 (cancel out)*
 > 
-> `fraction numerator 2 up diagonal strike open parentheses 2 x plus 3 close parentheses end strike over denominator up diagonal strike open parentheses 2 x plus 3 close parentheses end strike open parentheses x minus 5 close parentheses end fraction`
+> $\frac{2 \cancel{( 2 x + 3 )} }{ \cancel{( 2 x + 3 )} ( x - 5 )}$
 > 
 > $\frac{2}{(x-5)}$

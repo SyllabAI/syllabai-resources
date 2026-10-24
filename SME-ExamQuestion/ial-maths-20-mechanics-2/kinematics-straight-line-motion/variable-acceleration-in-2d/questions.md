@@ -8,7 +8,7 @@
 ### 1() — 3 marks — structured
 A particle’s position, at time $t$ seconds, is given by the vector
 
-`bold r space equals space open parentheses open parentheses 2 t cubed minus 1 close parentheses bold i plus open parentheses t squared plus 4 close parentheses bold j close parentheses m`
+$r = ( ( 2 t^{3} - 1 ) i + ( t^{2} + 4 ) j ) m$
 
 (i) Find the coordinates of the starting position of the particle.
 
@@ -22,7 +22,7 @@ Consider the $y$-coordinate of the particle to explain why the particle will nev
 ### 1() — 2 marks — structured
 At time $t$seconds, a particle moving in a plane has velocity
 
-`v space equals space open parentheses open parentheses 2 t cubed space minus space 4 t close parentheses bold i space plus space open parentheses 2 t space minus 3 close parentheses bold j close parentheses space straight m space straight s to the power of negative 1 end exponent`
+$v = ( ( 2 t^{3} - 4 t ) i + ( 2 t - 3 ) j ) \mathrm{m} \mathrm{s}^{- 1}$
 
 Use differentiation to find an expression for the acceleration of the particle.
 
@@ -34,7 +34,7 @@ Use integration to find the displacement of the particle from its initial positi
 ### 1() — 2 marks — structured
 The acceleration of a particle is modelled using
 
-`bold a space equals space open parentheses open parentheses 2 space minus 8 t close parentheses bold i space plus space open parentheses 6 t squared close parentheses bold j close parentheses space straight m space straight s to the power of negative 2 end exponent`
+$a = ( ( 2 - 8 t ) i + ( 6 t^{2} ) j ) \mathrm{m} \mathrm{s}^{- 2}$
 
 where time $t$is measured in seconds.
 
@@ -50,7 +50,7 @@ Given that the particle is initially at rest, use integration to find an express
 ### 1() — 2 marks — structured
 The position vector of a particle, at time $t$ seconds, is given by
 
-`bold r space equals space open parentheses open parentheses sin space t close parentheses bold i space plus open parentheses cos space 2 t close parentheses bold j close parentheses space straight m space space space space space space space space space space space space space space space 0 space less or equal than space t space less or equal than space straight pi`
+`r = ( ( sin t ) i + ( cos 2 t ) j ) m 0 <= t <= pi`
 
 Differentiate $r$ with respect to $t$ to find an expression for the velocity of the particle.
 
@@ -64,7 +64,7 @@ Differentiate $r$ with respect to $t$ to find an expression for the velocity of 
 ### 1() — 2 marks — structured
 The velocity of a particle at time $t$ seconds is given by
 
-`bold v space equals space open parentheses open parentheses e to the power of t minus t close parentheses bold i plus 0.5 t to the power of 4 bold j close parentheses m space s to the power of negative 1 end exponent`
+$v = ( ( e^{t - t ) i + 0.5 t^{4} j ) m s^{-1} }$
 
 Given that the particle’s motion began at the origin, use integration to find the position vector of the particle at time* *$t$  seconds.
 
@@ -76,7 +76,7 @@ Use Pythagoras’ theorem to find the distance of the particle from the origin a
 ### 1() — 4 marks — structured
 The acceleration of a particle is modelled using the equation
 
-`bold a space equals space open parentheses open parentheses 3 t squared minus 1 close parentheses bold i plus 5 e to the power of negative t end exponent bold j close parentheses straight m space straight s to the power of negative 2 end exponent`
+$a = ( ( 3 t^{2} - 1 ) i + 5 e^{- t} j ) \mathrm{m} \mathrm{s}^{- 2}$
 
 where time $t$is measured in seconds.
 
@@ -89,7 +89,7 @@ where time $t$is measured in seconds.
 ### 1() — 3 marks — structured
 The motion of a particle, starting from the origin, is described by the position vector
 
-`bold r space equals space open parentheses open parentheses 3 t cubed space minus space t close parentheses bold i space plus space open parentheses 2 t squared space minus space 1 close parentheses bold j close parentheses space straight m`
+$r = ( ( 3 t^{3} - t ) i + ( 2 t^{2} - 1 ) j ) \mathrm{m}$
 
 where time $t$is measured in seconds.
 
@@ -105,7 +105,7 @@ Differentiate $r$ with respect to $t$ ***twice*** to find an expression for the 
 ### 1() — 2 marks — structured
 The velocity of a particle at time $t$ seconds is given by
 
-`bold v bold space equals space open parentheses open parentheses 8 straight t to the power of 1 half end exponent space plus space 2 straight t close parentheses bold i bold space plus space open parentheses 3 straight t squared space plus space 5 straight t space minus space 1 close parentheses bold j close parentheses space straight m space straight s to the power of negative 1 end exponent`
+$v = ( ( 8 \mathrm{t}^{1 \frac{1}{2}} + 2 \mathrm{t} ) i + ( 3 \mathrm{t}^{2} + 5 \mathrm{t} - 1 ) j ) \mathrm{m} \mathrm{s}^{- 1}$
 
 Differentiate $v$ to find the acceleration, $ams^{-2}$, of the particle at time $t$ seconds.
 
@@ -117,7 +117,7 @@ Use Pythagoras’ theorem to find the magnitude of acceleration of the particle 
 ### 1() — 3 marks — structured
 A particle, starting from rest at the origin, has acceleration
 
-`bold a bold space equals space open parentheses open parentheses 6 t space minus 2 close parentheses bold i space plus space open parentheses 4 space minus space 12 t close parentheses bold j close parentheses space straight m space straight s to the power of negative 2 end exponent`
+$a = ( ( 6 t - 2 ) i + ( 4 - 12 t ) j ) \mathrm{m} \mathrm{s}^{- 2}$
 
 at time $t$ seconds.
 
@@ -133,7 +133,7 @@ ii) Use Pythagoras’ theorem to find the distance of the particle from the orig
 ### 1() — 2 marks — structured
 The velocity of a particle at time $t$* *seconds is given by
 
-`bold v space equals space open parentheses open parentheses 10 t space minus space 3 t squared close parentheses bold i space plus space open parentheses 4 t space minus 5 close parentheses bold j close parentheses space straight m space straight s to the power of negative 1 end exponent`
+$v = ( ( 10 t - 3 t^{2} ) i + ( 4 t - 5 ) j ) \mathrm{m} \mathrm{s}^{- 1}$
 
 (i) Differentiate* *$v$ to find the acceleration, $a$ m s<sup>−2</sup>, of the particle at time $t$ seconds.
 
@@ -151,7 +151,7 @@ The particle’s initial position is at the point ( 4 , 5 ) .
 ### 1() — 1 mark — structured
 The velocity of a particle at time $t$ seconds is given by
 
-`bold r with. on top equals open parentheses open parentheses 12 t squared minus 2 t close parentheses bold i plus open parentheses 9 t squared minus 1 close parentheses bold j close parentheses space space straight m space straight s minus 1 space`
+$r with. \text{on} \text{top} = ( ( 12 t^{2} - 2 t ) i + ( 9 t^{2} - 1 ) j ) \mathrm{m} \mathrm{s} - 1$
 
 Differentiate $\overset{.}{r}$ to find the acceleration, $\overset{..}{r}$ m s<sup>-2</sup>, of the particle at time $t$ seconds.
 
@@ -181,7 +181,7 @@ where time $t$ is measured in hours.
 ### 1() — 3 marks — structured
 A particle moving in a plane has velocity,** **$vms^{-1}$, at time $t$ seconds, given by
 
-`bold v bold space equals space open parentheses open parentheses 4 straight t space minus space 3 straight t squared close parentheses bold i bold space plus open parentheses 6 straight t squared minus 2 close parentheses bold j close parentheses`
+$v = ( ( 4 \mathrm{t} - 3 \mathrm{t}^{2} ) i + ( 6 \mathrm{t}^{2} - 2 ) j )$
 
 (i) Find an expression for the acceleration of the particle.
 
@@ -197,9 +197,9 @@ A particle moving in a plane has velocity,** **$vms^{-1}$, at time $t$ seconds, 
 ### 1() — 3 marks — structured
 Once an aircraft reaches its cruising height (at time $t=0$ seconds) its acceleration is modelled by
 
-`bold a bold space bold equals bold space open parentheses open parentheses 30 minus 2 straight t close parentheses bold i plus open parentheses 4 straight t space minus 3 close parentheses bold j close parentheses bold space straight m space straight s to the power of negative 2 end exponent space space space space space space space space space space straight t greater or equal than 0`
+$a = ( ( 30 - 2 \mathrm{t} ) i + ( 4 \mathrm{t} - 3 ) j ) \mathrm{m} \mathrm{s}^{- 2} \mathrm{t} \text{greater} \text{or} \text{equal} \text{than} 0$
 
-Given that the velocity of the aircraft at $t=0$ is `bold v space equals open parentheses 200 bold i bold space plus 150 bold j close parentheses space straight m space straight s to the power of negative 1 end exponent`, find the velocity of the aircraft in terms of $t$.
+Given that the velocity of the aircraft at $t=0$ is $v = ( 200 i + 150 j ) \mathrm{m} \mathrm{s}^{- 1}$, find the velocity of the aircraft in terms of $t$.
 
 ### 2() — 3 marks — structured
 Find the speed of the aircraft at time $t=4$ seconds, giving your answer in kilometres per hour to three significant figures.
@@ -209,7 +209,7 @@ Find the speed of the aircraft at time $t=4$ seconds, giving your answer in kilo
 ### 1() — 4 marks — structured
 An ice skater moves across an ice rink such that their position, at time $t$ seconds relative to an origin, is given by
 
-`bold r bold space equals bold space open parentheses open parentheses 0.2 space straight t to the power of 2 space end exponent minus space 0.005 straight t cubed close parentheses bold i plus open parentheses 0.5 straight t space plus space 2 close parentheses bold j close parentheses straight m`
+$r = ( ( 0.2 \mathrm{t}^{2 } - 0.005 \mathrm{t}^{3} ) i + ( 0.5 \mathrm{t} + 2 ) j ) \mathrm{m}$
 
 (i) Briefly explain how you can tell the ice skater’s motion did not start at the origin.
 
@@ -295,7 +295,7 @@ Find the speed at which the stone is thrown.
 ### 1() — 3 marks — structured
 A particle’s velocity is modelled by the equation
 
-`stack bold r bold space with dot on top space equals open parentheses open parentheses 3 t squared space minus space 6 t close parentheses bold i plus open parentheses 4 space minus space 8 t cubed close parentheses bold j close parentheses space space straight m space straight s to the power of negative 1 end exponent`
+`r -dot = ( ( 3 t ^2 - 6 t ) i + ( 4 - 8 t ^3 ) j ) m s ^ - 1`
 
 where $t$* *is the time in seconds.
 
@@ -311,7 +311,7 @@ Given that the particle is initially located at the point (2 , 1), find the posi
 ### 1() — 2 marks — structured
 At time $t$ seconds, a particle $P$ has position vector $r$ m, where
 
-**                    **`bold r space equals space open parentheses t cubed space minus space 11 t squared space minus space 16 t space plus space 2 close parentheses bold i space plus space open parentheses t cubed space plus space 2 t space minus 1 close parentheses bold j space space space space space space space space space space space space space space space space space t space greater or equal than space 0`
+**                    **$r = ( t ^{3} - 11 t ^{2} - 16 t + 2 ) i + ( t ^{3} + 2 t - 1 ) j t \ge 0$
 
 Find the velocity of $P$ at time $t$ seconds, where $t\geq0$.
 
@@ -343,21 +343,21 @@ where time $t$ is measured in seconds.
 ### 1() — 4 marks — structured
 A particle moving in the $x-y$  plane has velocity, $v$ m s<sup>−1</sup>, at time $t$ seconds, given by
 
-`bold v bold space equals space open parentheses 0.1 straight t cubed minus 3 straight t squared close parentheses bold i plus open parentheses 2 straight t plus 1 close parentheses bold j`
+$v = ( 0.1 \mathrm{t}^{3} - 3 \mathrm{t}^{2} ) i + ( 2 \mathrm{t} + 1 ) j$
 
 (i) Find the acceleration, $a$ m s<sup>−2</sup>, of the particle at time $t$ and explain how you can tell that the acceleration in the $y$-direction is constant.
 
 (ii) Other than$t=0$, find the time at which the acceleration in the $x-$direction is zero.
 
 ### 2() — 3 marks — structured
-Find the position vector of the particle given that its initial position is at the point `open parentheses negative 3 space comma space 5 close parentheses.`
+Find the position vector of the particle given that its initial position is at the point $( - 3 , 5 ).$
 
 ## Q24 — hard — 5 marks · exam-questions
 
 ### 1() — 3 marks — structured
 Once an aircraft reaches its cruising height (at time $t=0$ hours) its acceleration is modelled by
 
-`bold a bold space equals space open parentheses 4 t cubed space minus space 6 t squared close parentheses bold i space plus space open parentheses 0.9 t squared space minus space 1 close parentheses bold j bold space km space straight h to the power of negative 2 end exponent`
+$a = ( 4 t^{3} - 6 t^{2} ) i + ( 0.9 t^{2} - 1 ) j \text{km} \mathrm{h}^{- 2}$
 
 Given that the velocity of the aircraft at $t=5$ hours is $v=400i+40j\mathrm{km}h^{-1}$, find the velocity of the aircraft in terms of $t$.
 
@@ -369,7 +369,7 @@ Find the speed of the aircraft when it first reaches its cruising height.
 ### 1() — 3 marks — structured
 An ice skater moves across a straight section of a frozen river such that their position, at time $t$ seconds relative to an origin is given by
 
-`bold r bold space equals open parentheses open parentheses 1 third t to the power of italic 2 space plus space 1 fifth t close parentheses bold i plus open parentheses 2 t to the power of italic 2 space plus space 7 t close parentheses bold j close parentheses space straight m space space space space space space space space space space space straight t space greater or equal than space 0 space space space space space space space space space space space space space space space`
+$r = ( ( 1 \text{third} t^{ } 2 + 1 \text{fifth} t ) i + ( 2 t^{ } 2 + 7 t ) j ) \mathrm{m} \mathrm{t} \ge 0$
 
 Find the initial speed of the ice skater giving your answer to three significant figures.
 
@@ -381,9 +381,9 @@ Show that the ice skater’s acceleration is constant and find the magnitude of 
 ### 1() — 4 marks — structured
 A remote-controlled car is driven around a large playground with velocity,** ** $v_{c}ms^{-1}$, at time $t$ seconds, given by
 
-`bold v subscript bold c bold space equals space open parentheses 0.45 straight t squared space plus space 2 straight t space minus space 16 close parentheses bold i space plus space open parentheses 0.75 straight t squared space minus 1 close parentheses bold j`
+$v_{ } c = ( 0.45 \mathrm{t} ^{2} + 2 \mathrm{t} - 16 ) i + ( 0.75 \mathrm{t} ^{2} - 1 ) j$
 
-(i) The remote-controlled car is initially set in motion from position `open parentheses negative 6 space comma space 15 close parentheses`. Find the position vector $r_{c}$ of the car at time $t$ seconds.
+(i) The remote-controlled car is initially set in motion from position $( - 6 , 15 )$. Find the position vector $r_{c}$ of the car at time $t$ seconds.
 
 (ii) Find the distance of the remote-controlled car from the origin after 15 seconds.
 
@@ -399,7 +399,7 @@ Determine the time(s) at which the car and the truck will collide, if at all.
 ### 1() — 4 marks — structured
 A spider is crawling across the floor of a house such that is has acceleration
 
-`bold a space equals space open parentheses 1.2 straight t close parentheses bold i space plus space open parentheses 0.5 close parentheses bold j space straight m space straight s to the power of negative 2 end exponent`
+$a = ( 1.2 \mathrm{t} ) i + ( 0.5 ) j \mathrm{m} \mathrm{s}^{- 2}$
 
 at time $t$ seconds after the spider emerged from under the skirting board.
 
@@ -413,11 +413,11 @@ After 3 seconds the spider’s position, relative to an origin at a corner of th
 ### 1() — 3 marks — structured
 A particle’s velocity is modelled by the equation
 
-`bold r with. on top space equals space open parentheses open parentheses 0.75 e to the power of 1.5 t end exponent space plus space 2 t close parentheses bold i plus open parentheses 5 t space minus space open parentheses t space plus 1 close parentheses to the power of negative 1 end exponent close parentheses bold j close parentheses space straight m space straight s to the power of negative 1 end exponent space space space space space space space space space space space t space greater or equal than space 0`
+$r with. \text{on} \text{top} = ( ( 0.75 e^{1.5 t} + 2 t ) i + ( 5 t - ( t + 1 )^{- 1} ) j ) \mathrm{m} \mathrm{s}^{- 1} t \text{greater} \text{or} \text{equal} \text{than} 0$
 
 where $t$ is the time in seconds.
 
-The particle’s initial displacement is `open parentheses 0 bold i plus 0 bold j close parentheses space straight m`.
+The particle’s initial displacement is $( 0 i + 0 j ) \mathrm{m}$.
 
 Find the position vector of the particle, $r$ m, at time $t$ seconds.
 
@@ -431,7 +431,7 @@ At time $t$ seconds, a particle $P$ has acceleration $a$ m s<sup>−2</sup>, whe
 
 ** **$a=(4t-3)i+(4t+5)j$**                              **$t\geq0$**.**
 
-Initially $P$ starts at the origin $O$ and moves with velocity `open parentheses negative 5 bold j close parentheses space straight m space straight s to the power of negative 1 end exponent`.
+Initially $P$ starts at the origin $O$ and moves with velocity $( - 5 j ) \mathrm{m} \mathrm{s}^{- 1}$.
 
 Find the distance between the origin and the position of $P$ when $t=6$.
 
@@ -443,7 +443,7 @@ Find the value of $t$ at the instant when $P$ is moving in the direction of $i+2
 ### 1() — 5 marks — structured
 The displacement of a boat, $s$ m on a small lake, relative to a mooring point located at the point (10, 0), is given by the vector
 
-`bold s equals open parentheses negative 40 space sin open parentheses fraction numerator pi t over denominator 900 end fraction close parentheses close parentheses space bold i plus open parentheses 30 minus 30 space cos open parentheses fraction numerator pi t over denominator 900 end fraction close parentheses close parentheses space bold j`
+$s = ( - 40 \sin ( \frac{\pi t}{900} ) ) i + ( 30 - 30 \cos ( \frac{\pi t}{900} ) ) j$
 
 where time $t$ is measured in seconds.
 
@@ -475,7 +475,7 @@ find the velocity of the aircraft in terms of $t$.
 ### 1() — 3 marks — structured
 An ice skater moves across a straight section of a frozen river such that their position, at time $t$ seconds relative to an origin is given by
 
-`bold r equals open parentheses open parentheses 2 straight t to the power of 1 half end exponent plus straight t close parentheses bold i plus straight t to the power of 1 half end exponent bold j close parentheses space straight m space space space space space space space space space space space space space space space space space space 0 less or equal than straight t less or equal than 225 space space space space space space space space space space`
+$r = ( ( 2 \mathrm{t}^{1 \frac{1}{2}} + \mathrm{t} ) i + \mathrm{t}^{1 \frac{1}{2}} j ) \mathrm{m} 0 \text{less} \text{or} \text{equal} \text{than} \mathrm{t} \text{less} \text{or} \text{equal} \text{than} 225$
 
 (i)        Find the distance the skater is from the origin after 25 seconds.
 
@@ -527,7 +527,7 @@ The deepest known cave in the world has a depth of 2212 m. (The Veryovkina Cave 
 ### 1() — 4 marks — structured
 A particle’s velocity is modelled by the equation
 
-`bold r with bold dot on top bold space equals space open parentheses open parentheses t to the power of 1 half end exponent minus t close parentheses bold i space plus space open parentheses 4 left parenthesis t plus 1 right parenthesis to the power of negative 1 end exponent plus 5 t to the power of 3 over 2 end exponent close parentheses bold j close parentheses straight m space straight s to the power of negative 1 space end exponent space space space space space space space space space space space space space space space t greater or equal than 0 space space space space space space`
+$\dot{r} = ( ( t^{1 \frac{1}{2}} - t ) i + ( 4 ( t + 1 )^{- 1} + 5 t^{ \frac{3}{2} } ) j ) \mathrm{m} \mathrm{s}^{- 1 } t \text{greater} \text{or} \text{equal} \text{than} 0$
 
 where $t$ is the time in seconds.
 
@@ -559,4 +559,4 @@ $r_{B}=(-3e^{-0.15t})i+(4e^{0.1t})j$
 
 (ii)       Without doing any calculations explain why for all values of $t$*,*
 
-`open vertical bar bold r subscript bold A close vertical bar space equals space open vertical bar bold r subscript bold B close vertical bar comma space open vertical bar bold v subscript bold A close vertical bar space equals space open vertical bar bold v subscript bold B close vertical bar space and space open vertical bar bold a subscript bold A close vertical bar space equals space open vertical bar bold a subscript bold B close vertical bar`
+`| r _ A | = | r _ B | , | v _ A | = | v _ B | and | a _ A | = | a _ B |`

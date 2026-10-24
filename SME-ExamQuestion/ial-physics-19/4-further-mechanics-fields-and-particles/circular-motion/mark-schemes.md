@@ -35,10 +35,10 @@ Determine an equation for the radius of the circular path:
 
 Equate and rearrange the expressions into the required form:
 
-- `T space sin space theta space equals space m omega squared open parentheses l space sin space theta close parentheses space space space space space rightwards double arrow space space space space space T space equals space m omega squared l space`
+- $T \sin \\theta = m \\omega ^{2} ( l \sin \\theta ) \Leftrightarrow T = m \\omega ^{2} l$
 - $T\mathrm{cos}θ=mg\RightarrowT=\frac{mg}{\mathrm{cos}θ}$
 - $mω^{2}l=\frac{mg}{\mathrm{cos}θ}$
-- `omega squared space equals space fraction numerator up diagonal strike m g over denominator cos space theta end fraction cross times fraction numerator 1 over denominator up diagonal strike m l end fraction space equals space fraction numerator g over denominator l space cos space theta end fraction`
+- $\\omega ^{2} = \frac{ \cancel{m} g}{\cos \\theta } \times \frac{1}{ \cancel{m} l} = \frac{g}{l \cos \\theta }$
 - $ω=\sqrt{\frac{g}{l\mathrm{cos}θ}}$ **[1 mark]**
 
 ii) Deduce whether this arrangement leads to *T *= 5.0 s:
@@ -53,7 +53,7 @@ Use the relationship between *T* and *ω *to calculate *T*:
 
 - $T=\frac{2π}{ω}$
 - $ω=\frac{2π}{T}=\sqrt{\frac{g}{l\mathrm{cos}θ}}\RightarrowT=2π\sqrt{\frac{l\mathrm{cos}θ}{g}}$ **[1 mark]**
-- `T space equals space 2 straight pi space square root of fraction numerator 6.4 space cross times space cos space open parentheses 13.9 close parentheses over denominator 9.81 end fraction end root` = 5.0 s **[1 mark]**
+- $T = 2 \mathrm{\pi } \sqrt{ \frac{6.4 \times \cos ( 13.9 )}{9.81} }$ = 5.0 s **[1 mark]**
 
 Write a supporting conclusion:
 
@@ -108,7 +108,7 @@ To calculate acceleration of the ball:
 
 Determine the velocity to calculate acceleration:
 
-- `v space equals omega r space equals space f space cross times space 2 pi space r space equals space 1.3 cross times open parentheses 2 cross times pi cross times 0.58 close parentheses space equals space 4.74 space ms to the power of negative 1 end exponent` **[1 mark]**
+- $v = \\omega r = f \times 2 \pi r = 1.3 \times ( 2 \times \pi \times 0.58 ) = 4.74 ms^{- 1}$ **[1 mark]**
 
 Use the equation from part (a) to calculate acceleration:
 
@@ -232,7 +232,7 @@ Determine the minimum speed required to reach the top of the loop:
 Determine the kinetic energy required to reach the top of the loop:
 
 - Kinetic energy:  $E_{k}=\frac{1}{2}mv^{2}$
-- Required `E subscript k space equals space 1 half space cross times space 0.033 space cross times space open parentheses 1.04 close parentheses squared` = 0.0178 J **[1 mark]**
+- Required $E_{k} = 1 \frac{1}{2} \times 0.033 \times ( 1.04 )^{2}$ = 0.0178 J **[1 mark]**
 
 Determine the total energy required to reach the top of the loop:
 

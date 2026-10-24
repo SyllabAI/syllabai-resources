@@ -164,7 +164,7 @@ Calculate the total mass of apples produced by the 720 trees in one year. Give y
 
 **Q6** [1 mark]
 
-Calculate `open parentheses 3 cross times 10 to the power of negative 3 end exponent close parentheses cubed`.
+Calculate $( 3 \times 10^{- 3} )^{3}$.
 
 Give your answer in standard form.
 
@@ -177,7 +177,7 @@ Give your answer in standard form.
 
 Work out.
 
-`open parentheses 125 over 27 close parentheses to the power of negative 2 over 3 end exponent`
+$( \frac{125}{27} )^{- \frac{2}{3} }$
 
 *Source: 2018	Oct/Nov 0580/23 Q5*
 
@@ -294,7 +294,7 @@ Give your answer in standard form.
 
 **Q15** [1 mark]
 
-Find the value of `open parentheses 1 over 81 close parentheses to the power of negative 3 over 4 end exponent`.
+Find the value of $( \frac{1}{81} )^{- \frac{3}{4} }$.
 
 *Source: 2018	May/June 0580/23 Q17A*
 
@@ -312,7 +312,7 @@ Write $2^{-4}$ as a decimal.
 
 **Q17** [1 mark]
 
-Calculate the value of `open parentheses 2.3 cross times 10 to the power of negative 3 end exponent close parentheses plus open parentheses 6.8 cross times 10 to the power of negative 4 end exponent close parentheses`. 
+Calculate the value of $( 2.3 \times 10^{- 3} ) + ( 6.8 \times 10^{- 4} )$. 
 Give your answer in standard form.
 
 *Source: 2020 March 0580/22 Q8*

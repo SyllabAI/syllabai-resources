@@ -81,7 +81,7 @@
      "spec_point_ids": [],
      "part_tier": null,
      "problem_md": "A number is called a perfect number if it is equal to the sum of all its possible factors (including the factor 1, but not including the factor of the number itself).\n\nFor example, 6 is a perfect number, as its possible factors (not including 6) are 1, 2 and 3, which sum to give 6:\n\n$1+2+3=6$\n\nThe hexagonal numbers are a sequence of numbers. The first six hexagonal numbers are\n\n$H_{1}=1,H_{2}=6,H_{3}=15,H_{4}=28,H_{5}=45,H_{6}=66$\n\nA perfect hexagonal number is a number that is both perfect and a hexagonal number.\n\nIs 28 a perfect hexagonal number?\n\nShow your working clearly.",
-     "solution_md": "> *The number 28 is the fourth hexagonal number*\n\n> *To check if 28 is perfect, find the factors of 28 (considering factor pairs could help with this)*\n\n`table row cell 1 cross times 28 end cell equals 28 row cell 2 cross times 14 end cell equals 28 row cell 4 cross times 7 end cell equals 28 end table`\n\n**[1]**\n\n> *List all the factors of 28 except 28 itself*\n\n`table row blank blank cell 1 comma space 2 comma space 4 comma space 7 comma space 14 end cell end table`\n\n**[1]**\n\n> *Find the sum of these factors*\n\n`table row cell 1 plus 2 plus 4 plus 7 plus 14 end cell equals 28 end table`\n\n** 28 is a perfect hexagonal number ****[1]**",
+     "solution_md": "> *The number 28 is the fourth hexagonal number*\n\n> *To check if 28 is perfect, find the factors of 28 (considering factor pairs could help with this)*\n\n$\\begin{gathered} 1 \\times 28 & = 28 \\\\ 2 \\times 14 & = 28 \\\\ 4 \\times 7 & = 28 \\end{gathered}$\n\n**[1]**\n\n> *List all the factors of 28 except 28 itself*\n\n$\\begin{gathered} 1 , 2 , 4 , 7 , 14 \\end{gathered}$\n\n**[1]**\n\n> *Find the sum of these factors*\n\n$\\begin{gathered} 1 + 2 + 4 + 7 + 14 & = 28 \\end{gathered}$\n\n** 28 is a perfect hexagonal number ****[1]**",
      "equations": [
       {
        "latex": "1+2+3=6",
@@ -110,7 +110,7 @@
      "spec_point_ids": [],
      "part_tier": null,
      "problem_md": "The number 496 is known to be a perfect hexagonal number.\n\nThere are nine possible factors of 496 (not including itself), which are given below.\n\n$1,2,4,8,16,31,k,124$ and $248$\n\nFind the value of $k$.",
-     "solution_md": "> *If 496 is a perfect number, then the sum of its factors is equal to 496*\n\n> *One way to find *$k$* is to form and simplify an equation*\n\n`table row cell 1 plus 2 plus 4 plus 8 plus 16 plus 31 plus k plus 124 plus 248 end cell equals 496 row cell 434 plus k end cell equals 496 end table`\n\n> *Solve this to find *$k$\n\n$k=496-434$\n\n$k=62$** [1]**",
+     "solution_md": "> *If 496 is a perfect number, then the sum of its factors is equal to 496*\n\n> *One way to find *$k$* is to form and simplify an equation*\n\n$\\begin{gathered} 1 + 2 + 4 + 8 + 16 + 31 + k + 124 + 248 & = 496 \\\\ 434 + k & = 496 \\end{gathered}$\n\n> *Solve this to find *$k$\n\n$k=496-434$\n\n$k=62$** [1]**",
      "equations": [
       {
        "latex": "1,2,4,8,16,31,k,124",
@@ -163,8 +163,8 @@
      },
      "spec_point_ids": [],
      "part_tier": null,
-     "problem_md": "It is possible to create a perfect number by substituting certain prime numbers, $p$, into the formula:\n\n`2 to the power of p minus 1 end exponent open parentheses 2 to the power of p minus 1 close parentheses`\n\nThe prime number $p=7$ creates a perfect number.\n\nShow that this perfect number is the 64<sup>th</sup> hexagonal number.\n\nYou may use the fact that the $n$th term formula for a hexagonal number, $H_{n}$, is given by `H subscript n equals n open parentheses 2 n minus 1 close parentheses`.",
-     "solution_md": "> *Substitute *$p=7$* into *`2 to the power of p minus 1 end exponent open parentheses 2 to the power of p minus 1 close parentheses`\n\n`2 to the power of 7 minus 1 end exponent open parentheses 2 to the power of 7 minus 1 close parentheses`\n\n**[1]**\n\n> *Use your calculator to find the answer*\n\n`table row cell 2 to the power of 6 open parentheses 2 to the power of 7 minus 1 close parentheses end cell equals cell 64 open parentheses 128 minus 1 close parentheses end cell row blank equals cell 64 cross times 127 end cell row blank equals 8128 end table`\n\n**[1]**\n\n> *The *$n$*th term of a hexagonal number is  *`H subscript n equals n open parentheses 2 n minus 1 close parentheses`\n\n> *Substitute *$n=64$* into *`n open parentheses 2 n minus 1 close parentheses`* to find the 64th hexagonal number*\n\n`table row cell 64 open parentheses 2 cross times 64 minus 1 close parentheses end cell equals cell 64 open parentheses 128 minus 1 close parentheses end cell row blank equals cell 64 cross times 127 end cell row blank equals 8128 end table`\n\n**They both equal 8128 ****[1]**",
+     "problem_md": "It is possible to create a perfect number by substituting certain prime numbers, $p$, into the formula:\n\n$2^{p - 1} ( 2^{p} - 1 )$\n\nThe prime number $p=7$ creates a perfect number.\n\nShow that this perfect number is the 64<sup>th</sup> hexagonal number.\n\nYou may use the fact that the $n$th term formula for a hexagonal number, $H_{n}$, is given by $H_{n} = n ( 2 n - 1 )$.",
+     "solution_md": "> *Substitute *$p=7$* into *$2^{p - 1} ( 2^{p} - 1 )$\n\n$2^{7 - 1} ( 2^{7} - 1 )$\n\n**[1]**\n\n> *Use your calculator to find the answer*\n\n$\\begin{gathered} 2^{6} ( 2^{7} - 1 ) & = 64 ( 128 - 1 ) \\\\ = 64 \\times 127 \\\\ = 8128 \\end{gathered}$\n\n**[1]**\n\n> *The *$n$*th term of a hexagonal number is  *$H_{n} = n ( 2 n - 1 )$\n\n> *Substitute *$n=64$* into *$n ( 2 n - 1 )$* to find the 64th hexagonal number*\n\n$\\begin{gathered} 64 ( 2 \\times 64 - 1 ) & = 64 ( 128 - 1 ) \\\\ = 64 \\times 127 \\\\ = 8128 \\end{gathered}$\n\n**They both equal 8128 ****[1]**",
      "equations": [
       {
        "latex": "p",
@@ -227,8 +227,8 @@
      },
      "spec_point_ids": [],
      "part_tier": null,
-     "problem_md": "The hexagonal numbers are a sequence of numbers. The $n$th term formula for a hexagonal number, $H_{n}$, is given by\n\n`H subscript n equals n open parentheses 2 n minus 1 close parentheses`\n\nFor example, to find the third hexagonal number:\n\n`table row cell H subscript 3 end cell equals cell 3 open parentheses 2 cross times 3 minus 1 close parentheses end cell row blank equals cell 3 open parentheses 6 minus 1 close parentheses end cell row blank equals cell 3 cross times 5 end cell row blank equals 15 end table`\n\nUse the formula to find the 14<sup>th</sup> hexagonal number.",
-     "solution_md": "> *Substitute *$n=14$* into the formula given above*\n\n`H subscript n equals n open parentheses 2 n minus 1 close parentheses\nH subscript 14 equals 14 open parentheses 2 cross times 14 minus 1 close parentheses`\n\n**[1]**\n\n> *Use your calculator to find the answer*\n\n`table row cell H subscript 14 end cell equals cell 14 open parentheses 28 minus 1 close parentheses end cell row blank equals cell 14 cross times 27 end cell end table`\n\n$H_{14}=378$** ****[1]**",
+     "problem_md": "The hexagonal numbers are a sequence of numbers. The $n$th term formula for a hexagonal number, $H_{n}$, is given by\n\n$H_{n} = n ( 2 n - 1 )$\n\nFor example, to find the third hexagonal number:\n\n$\\begin{gathered} H_{3} & = 3 ( 2 \\times 3 - 1 ) \\\\ = 3 ( 6 - 1 ) \\\\ = 3 \\times 5 \\\\ = 15 \\end{gathered}$\n\nUse the formula to find the 14<sup>th</sup> hexagonal number.",
+     "solution_md": "> *Substitute *$n=14$* into the formula given above*\n\n$H_{n} = n ( 2 n - 1 )\nH_{14} = 14 ( 2 \\times 14 - 1 )$\n\n**[1]**\n\n> *Use your calculator to find the answer*\n\n$\\begin{gathered} H_{14} & = 14 ( 28 - 1 ) \\\\ = 14 \\times 27 \\end{gathered}$\n\n$H_{14}=378$** ****[1]**",
      "equations": [
       {
        "latex": "n",
@@ -267,7 +267,7 @@
      "spec_point_ids": [],
      "part_tier": null,
      "problem_md": "**Extract:**\n\nThe nth term formula for a hexagonal number, H_n, is given by\n\nH_n = n(2n - 1)\n\nIf the $n$th hexagonal number, $H_{n}$, is equal to 780, use the $n$th term formula to show that $n$ must satisfy the equation\n\n$2n^{2}-n-780=0$",
-     "solution_md": "> *Set *`n open parentheses 2 n minus 1 close parentheses`* equal to 780 *\n\n`n open parentheses 2 n minus 1 close parentheses equals 780`\n\n**[1]**\n\n> *Expand the brackets*\n\n$2n^{2}-n=780$* *\n\n**[1]**\n\n> *Bring terms to one side by subtracting 780*\n\n$2n^{2}-n-780=0$** [1]**",
+     "solution_md": "> *Set *$n ( 2 n - 1 )$* equal to 780 *\n\n$n ( 2 n - 1 ) = 780$\n\n**[1]**\n\n> *Expand the brackets*\n\n$2n^{2}-n=780$* *\n\n**[1]**\n\n> *Bring terms to one side by subtracting 780*\n\n$2n^{2}-n-780=0$** [1]**",
      "equations": [
       {
        "latex": "n",
@@ -321,7 +321,7 @@
      "spec_point_ids": [],
      "part_tier": null,
      "problem_md": "**Extract:**\n\n2 n squared minus n minus 780 equals 0\n\nShow that $n=20$ satisfies the equation in part (b).",
-     "solution_md": "> *Substitute *$n=20$* into the left-hand side of the equation in part (b)*\n\n$2\\times20^{2}-20-780$\n\n**[1]**\n\n> *Simplify your answer, showing your working for each term clearly*\n\n`table row blank equals cell 2 cross times 400 minus 20 minus 780 end cell row blank equals cell 800 minus 20 minus 780 end cell row blank equals cell 780 minus 780 end cell row blank equals 0 end table`\n\n> *This is equal to the right-hand side of the equation, so *$n=20$* satisfies the equation*\n\n** **`2 cross times open parentheses 20 close parentheses squared minus open parentheses 20 close parentheses minus 780 equals 0`* ***[1]**",
+     "solution_md": "> *Substitute *$n=20$* into the left-hand side of the equation in part (b)*\n\n$2\\times20^{2}-20-780$\n\n**[1]**\n\n> *Simplify your answer, showing your working for each term clearly*\n\n$\\begin{gathered} = 2 \\times 400 - 20 - 780 \\\\ = 800 - 20 - 780 \\\\ = 780 - 780 \\\\ = 0 \\end{gathered}$\n\n> *This is equal to the right-hand side of the equation, so *$n=20$* satisfies the equation*\n\n** **$2 \\times ( 20 )^{2} - ( 20 ) - 780 = 0$* ***[1]**",
      "equations": [
       {
        "latex": "n=20",
@@ -719,7 +719,7 @@
      "spec_point_ids": [],
      "part_tier": null,
      "problem_md": "**Extract:**\n\nFind a formula for the ![n]th term of the sequence ![K subscript n].\n\nFind the value of $K_{11}$.",
-     "solution_md": "> *The quickest way is to substitute *$n=11$* into the formula found for the sequence in part (d), *$K_{n}=2n^{2}$\n\n`2 open parentheses 11 close parentheses squared`\n\n**[1]**\n\n> *Use your calculator to find the answer*\n\n$K_{11}=242$** ****[1]**",
+     "solution_md": "> *The quickest way is to substitute *$n=11$* into the formula found for the sequence in part (d), *$K_{n}=2n^{2}$\n\n$2 ( 11 )^{2}$\n\n**[1]**\n\n> *Use your calculator to find the answer*\n\n$K_{11}=242$** ****[1]**",
      "equations": [
       {
        "latex": "K_{11}",
@@ -767,8 +767,8 @@
      },
      "spec_point_ids": [],
      "part_tier": null,
-     "problem_md": "The hexagonal numbers are a sequence of numbers. The first six hexagonal numbers are\n\n$H_{1}=1,H_{2}=6,H_{3}=15,H_{4}=28,H_{5}=45,H_{6}=66$\n\nTo test whether a number is a hexagonal number or not, substitute it into the formula:\n\n`fraction numerator 1 plus square root of 8 cross times open parentheses number close parentheses plus 1 end root over denominator 4 end fraction`\n\nIf the output is a whole number, then it is a hexagonal number.\n\nFor example, to test if 6 is a hexagonal number, substitute it into the formula:\n\n`table row cell fraction numerator 1 plus square root of 8 cross times 6 plus 1 end root over denominator 4 end fraction end cell equals cell fraction numerator 1 plus square root of 48 plus 1 end root over denominator 4 end fraction end cell row blank equals cell fraction numerator 1 plus square root of 49 over denominator 4 end fraction end cell row blank equals cell fraction numerator 1 plus 7 over denominator 4 end fraction end cell row blank equals cell 8 over 4 end cell row blank equals 2 end table`\n\nThe output is 2, which is a whole number, so 6 is a hexagonal number.\n\nUse the test above to determine whether 120 is a hexagonal number.\n\nYou must show your working clearly.",
-     "solution_md": "> *To test if 120 is a hexagonal number, substitute \"*$\\mathrm{number}=120$*\" into the formula given above*\n\n`table row cell fraction numerator 1 plus square root of 8 cross times number plus 1 end root over denominator 4 end fraction end cell equals cell fraction numerator 1 plus square root of 8 cross times 120 plus 1 end root over denominator 4 end fraction end cell end table`\n\n**[1]**\n\n> *Simplify*\n\n`table row cell fraction numerator 1 plus square root of 960 plus 1 end root over denominator 4 end fraction end cell equals cell fraction numerator 1 plus square root of 961 over denominator 4 end fraction end cell row blank equals cell fraction numerator 1 plus 31 over denominator 4 end fraction end cell row blank equals cell 32 over 4 end cell row blank equals 8 end table`\n\n**[1]**\n\n**The output is 8, which is a whole number, so 120 is a hexagonal number ****[1]**",
+     "problem_md": "The hexagonal numbers are a sequence of numbers. The first six hexagonal numbers are\n\n$H_{1}=1,H_{2}=6,H_{3}=15,H_{4}=28,H_{5}=45,H_{6}=66$\n\nTo test whether a number is a hexagonal number or not, substitute it into the formula:\n\n$\\frac{1 + \\sqrt{8 \\times ( \\text{number} ) + 1} }{4}$\n\nIf the output is a whole number, then it is a hexagonal number.\n\nFor example, to test if 6 is a hexagonal number, substitute it into the formula:\n\n$\\begin{gathered} \\frac{1 + \\sqrt{8 \\times 6 + 1} }{4} & = \\frac{1 + \\sqrt{48 + 1} }{4} \\\\ = \\frac{1 + \\sqrt{49} }{4} \\\\ = \\frac{1 + 7}{4} \\\\ = \\frac{8}{4} \\\\ = 2 \\end{gathered}$\n\nThe output is 2, which is a whole number, so 6 is a hexagonal number.\n\nUse the test above to determine whether 120 is a hexagonal number.\n\nYou must show your working clearly.",
+     "solution_md": "> *To test if 120 is a hexagonal number, substitute \"*$\\mathrm{number}=120$*\" into the formula given above*\n\n$\\begin{gathered} \\frac{1 + \\sqrt{8 \\times \\text{number} + 1} }{4} & = \\frac{1 + \\sqrt{8 \\times 120 + 1} }{4} \\end{gathered}$\n\n**[1]**\n\n> *Simplify*\n\n$\\begin{gathered} \\frac{1 + \\sqrt{960 + 1} }{4} & = \\frac{1 + \\sqrt{961} }{4} \\\\ = \\frac{1 + 31}{4} \\\\ = \\frac{32}{4} \\\\ = 8 \\end{gathered}$\n\n**[1]**\n\n**The output is 8, which is a whole number, so 120 is a hexagonal number ****[1]**",
      "equations": [
       {
        "latex": "H_{1}=1,H_{2}=6,H_{3}=15,H_{4}=28,H_{5}=45,H_{6}=66",
@@ -797,7 +797,7 @@
      "spec_point_ids": [],
      "part_tier": null,
      "problem_md": "**Extract:**\n\nTo test whether a number is a hexagonal number or not, substitute it into the formula:\n\n[fraction numerator 1 plus square root of 8 cross times open parentheses number close parentheses plus 1 end root over denominator 4 end fraction]\n\nIf the output is a whole number, then it is a hexagonal number.\n\nFor example, to test if 6 is a hexagonal number, substitute it into the formula:\n\n[table row cell fraction numerator 1 plus square root of 8 cross times 6 plus 1 end root over denominator 4 end fraction end cell equals cell fraction numerator 1 plus square root of 48 plus 1 end root over denominator 4 end fraction end cell row blank equals cell fraction numerator 1 plus square root of 49 over denominator 4 end fraction end cell row blank equals cell fraction numerator 1 plus 7 over denominator 4 end fraction end cell row blank equals cell 8 over 4 end cell row blank equals 2 end table]\n\nThe output is 2, which is a whole number, so 6 is a hexagonal number.\n\nUse the test to show that 236 cannot be a hexagonal number.",
-     "solution_md": "> *To show that 236 cannot be a hexagonal number, substitute \"*$\\mathrm{number}=236$*\" into the formula given above*\n\n`table row cell fraction numerator 1 plus square root of 8 cross times number plus 1 end root over denominator 4 end fraction end cell equals cell fraction numerator 1 plus square root of 8 cross times 236 plus 1 end root over denominator 4 end fraction end cell end table`\n\n> *Simplify*\n\n`table row cell fraction numerator 1 plus square root of 1888 plus 1 end root over denominator 4 end fraction end cell equals cell fraction numerator 1 plus square root of 1889 over denominator 4 end fraction end cell row blank equals cell fraction numerator 1 plus 43.462627... over denominator 4 end fraction end cell row blank equals cell fraction numerator 44.462627... over denominator 4 end fraction end cell row blank equals cell 11.115.... end cell end table`\n\n**The output is 11.11... which is not a whole number, so 236 is not a hexagonal number ****[1]**",
+     "solution_md": "> *To show that 236 cannot be a hexagonal number, substitute \"*$\\mathrm{number}=236$*\" into the formula given above*\n\n$\\begin{gathered} \\frac{1 + \\sqrt{8 \\times \\text{number} + 1} }{4} & = \\frac{1 + \\sqrt{8 \\times 236 + 1} }{4} \\end{gathered}$\n\n> *Simplify*\n\n$\\begin{gathered} \\frac{1 + \\sqrt{1888 + 1} }{4} & = \\frac{1 + \\sqrt{1889} }{4} \\\\ = \\frac{1 + 43.462627...}{4} \\\\ = \\frac{44.462627...}{4} \\\\ = 11.115.... \\end{gathered}$\n\n**The output is 11.11... which is not a whole number, so 236 is not a hexagonal number ****[1]**",
      "equations": [
       {
        "latex": "\\mathrm{number}=236",
@@ -831,7 +831,7 @@
      "spec_point_ids": [],
      "part_tier": null,
      "problem_md": "![Diagram of hexagonal numbers from n=1 to n=6, showing black dots in hexagon patterns.](assets/001-diagram-of-hexagonal-numbers-from-n-1-to-n-6-sho.png)\n\nThe hexagonal numbers are shown above.\n\nThe first six triangular numbers are shown below.\n\n![Diagrams show triangular numbers from n=1 to n=6, with dots forming triangles. The triangular numbers, T1 to T6, are labelled below.](assets/002-diagrams-show-triangular-numbers-from-n-1-to-n-6.png)\n\nShow that the first three hexagonal numbers are all triangular numbers.",
-     "solution_md": "> *The first hexagonal number is 1, which is the same as the first triangular number*\n\n> *The second hexagonal number is 6, which is the same as the third triangular number*\n\n> *The third hexagonal number is 15, which is the same as the fifth triangular number*\n\n`H subscript 1 equals T subscript 1 open parentheses equals 1 close parentheses`**, **`H subscript 2 equals T subscript 3 open parentheses equals 6 close parentheses`** and **`H subscript 3 equals T subscript 5 open parentheses equals 15 close parentheses`**[1] **"
+     "solution_md": "> *The first hexagonal number is 1, which is the same as the first triangular number*\n\n> *The second hexagonal number is 6, which is the same as the third triangular number*\n\n> *The third hexagonal number is 15, which is the same as the fifth triangular number*\n\n$H_{1} = T_{1} ( = 1 )$**, **$H_{2} = T_{3} ( = 6 )$** and **$H_{3} = T_{5} ( = 15 )$**[1] **"
     },
     {
      "id": "qstnprt_ZSfJJw92XGSVjGRg",

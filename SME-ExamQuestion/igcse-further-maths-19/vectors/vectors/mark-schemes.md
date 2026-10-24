@@ -125,8 +125,8 @@ The question already tells you that magnitude, and part (a) used it: `\left|\ove
 > 
 > You are not asked to simplify.
 > 
-> - `fraction numerator 1 over denominator 2 square root of 13 end fraction open parentheses 4 bold i plus 6 bold j close parentheses` is a complete answer, and cancelling the 2 to reach `fraction numerator 1 over denominator square root of 13 end fraction open parentheses 2 bold i plus 3 bold j close parentheses` is optional
-> - If you do rationalise, `fraction numerator square root of 13 over denominator 13 end fraction open parentheses 2 bold i plus 3 bold j close parentheses` is the form the other questions on this paper use
+> - $\frac{1}{2 \sqrt{13} } ( 4 i + 6 j )$ is a complete answer, and cancelling the 2 to reach $\frac{1}{ \sqrt{13} } ( 2 i + 3 j )$ is optional
+> - If you do rationalise, $\frac{ \sqrt{13} }{13} ( 2 i + 3 j )$ is the form the other questions on this paper use
 
 ## Q2 — medium — 11 marks · exam-questions
 

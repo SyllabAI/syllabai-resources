@@ -75,7 +75,7 @@ guided_study: false
 > > *There are many ways to get from** E ** to **K *
 > *One option is **E  **to **O  **(**b** **twice) then **O  **to **K  **( **-a** four times). *
 > 
-> `table row cell stack E K with rightwards arrow on top space end cell equals cell space stack E J with rightwards arrow on top space plus thin space stack J O with rightwards arrow on top space plus space stack O N with rightwards arrow on top space plus space stack N M with rightwards arrow on top space plus space stack M L with rightwards arrow on top space plus space stack L K with rightwards arrow on top space space end cell row blank equals cell bold b plus bold b minus bold a space minus bold a minus bold a minus bold a end cell end table`
+> $\begin{gathered} \vec{EK} & = \vec{EJ} + \vec{JO} + \vec{ON} + \vec{NM} + \vec{ML} + \vec{LK} \\ = b + b - a - a - a - a \end{gathered}$
 > 
 > > * *$\overset{\rightarrow}{EK}=2b-4a$
 > 
@@ -83,22 +83,22 @@ guided_study: false
 > 
 > (b) $\overset{\rightarrow}{AX}$, where $X$is the point on the line $AT$such that $AX:XT=1:3$.
 > 
-> *Start by imagining the vector *`table row blank blank cell stack A T with rightwards arrow on top end cell end table`
+> *Start by imagining the vector *$\begin{gathered} \vec{AT} \end{gathered}$
 > *It is easy to write this vector in terms of **a** and **b** *
 > 
-> `table row blank blank cell stack A T with rightwards arrow on top end cell end table equals 4 bold a plus 3 bold b`
+> $\begin{gathered} \vec{AT} \end{gathered} = 4 a + 3 b$
 > 
-> *To find *`table row blank blank cell stack A X with rightwards arrow on top end cell end table`*, use the given ratio to write it as a fraction of *`table row blank blank cell stack A T with rightwards arrow on top end cell end table`
+> *To find *$\begin{gathered} \vec{AX} \end{gathered}$*, use the given ratio to write it as a fraction of *$\begin{gathered} \vec{AT} \end{gathered}$
 > *There are 1 + 3 = 4 parts*
 > 
-> `table row cell stack A X with rightwards arrow on top space end cell equals cell 1 fourth stack A T with rightwards arrow on top end cell end table`
+> $\begin{gathered} \vec{AX} & = 1 \frac{1}{4} \vec{AT} \end{gathered}$
 > 
-> *Substitute in the known expression for *`table row blank blank cell stack A T with rightwards arrow on top end cell end table`
+> *Substitute in the known expression for *$\begin{gathered} \vec{AT} \end{gathered}$
 > *Expand and simplify to get the final answer*
 > 
-> `table row cell stack A X with rightwards arrow on top end cell equals cell 1 fourth open parentheses 4 bold a plus 3 bold b close parentheses end cell row blank equals cell bold a plus 3 over 4 bold b end cell end table`
+> $\begin{gathered} \vec{AX} & = 1 \frac{1}{4} ( 4 a + 3 b ) \\ = a + \frac{3}{4} b \end{gathered}$
 > 
-> `table row cell stack bold italic A bold italic X with bold rightwards arrow on top end cell bold equals cell bold a bold plus bold 3 over bold 4 bold b end cell end table`
+> `| A X -vec | = a + 3 / 4 b | |`
 
 ## Parallel Vectors
 
@@ -113,13 +113,13 @@ guided_study: false
   - This means if **b** is parallel to **a**, then **b** = *k***a**
   
     - where *k* is a **constant number **(scalar)
-- For example, `bold a equals open parentheses table row 1 row 3 end table close parentheses` and `bold b equals open parentheses table row 2 row 6 end table close parentheses`
+- For example, $a = ( \begin{gathered} 1 \\ 3 \end{gathered} )$ and $b = ( \begin{gathered} 2 \\ 6 \end{gathered} )$
 
-  - `open parentheses table row 2 row 6 end table close parentheses equals 2 cross times open parentheses table row 1 row 3 end table close parentheses` so $b=2a$
+  - $( \begin{gathered} 2 \\ 6 \end{gathered} ) = 2 \times ( \begin{gathered} 1 \\ 3 \end{gathered} )$ so $b=2a$
   - **b** is a scalar multiple of **a**, so **b** is **parallel** to **a**
 - If the scalar multiple is **negative**, then the vectors are **parallel** and in **opposite** directions
 
-  - `bold c equals open parentheses table row cell negative 3 end cell row cell negative 9 end cell end table close parentheses equals negative 3 bold a`
+  - $c = ( \begin{gathered} - 3 \\ - 9 \end{gathered} ) = - 3 a$
   
     - **c** is **parallel** to **a** and in the** opposite** direction
 
@@ -132,7 +132,7 @@ guided_study: false
 
   - 9**a** + 6**b **factorises to 3(3**a** + 2**b**)
   - 12**a** + 8**b **factorises to 4(3**a** + 2**b**)
-  - This means `12 bold a plus 8 bold b equals 4 over 3 open parentheses 9 bold a plus 6 bold b close parentheses`
+  - This means $12 a + 8 b = \frac{4}{3} ( 9 a + 6 b )$
   
     - so they are **scalar multiples** of each other
     - and therefore **parallel**
@@ -154,10 +154,10 @@ guided_study: false
 > 
 > *Factorise both vectors to form a common bracket*
 > 
-> `table row bold a equals cell 2 open parentheses bold p minus 2 bold q close parentheses end cell row bold b equals cell negative 3 open parentheses bold p minus 2 bold q close parentheses end cell end table`
+> $\begin{gathered} a = 2 ( p - 2 q ) \\ b = - 3 ( p - 2 q ) \end{gathered}$
 > 
 > *Write **b** in terms of **a*
-> *It can help to make the brackets the subject of the first equation, i.e. *`open parentheses bold p minus 2 bold q close parentheses equals bold a over 2`
+> *It can help to make the brackets the subject of the first equation, i.e. *$( p - 2 q ) = \frac{a}{2}$
 > *Then substitute that into the equation for **b*
 > 
 > $b=-3\times\frac{a}{2}=-\frac{3}{2}a$
@@ -242,16 +242,16 @@ guided_study: false
 > *They have a common point, **O*
 > *Check if they are parallel by first finding *$\overset{\rightarrow}{OX}$
 > 
-> `table row cell stack O X with rightwards arrow on top end cell equals cell stack O A with rightwards arrow on top plus 1 half stack A C with rightwards arrow on top end cell row blank equals cell 2 bold a plus 1 half open parentheses stack A O with rightwards arrow on top plus stack O C with rightwards arrow on top close parentheses end cell row blank equals cell 2 bold a plus 1 half open parentheses negative 2 bold a plus bold c close parentheses end cell end table`
+> $\begin{gathered} \vec{OX} & = \vec{OA} + 1 \frac{1}{2} \vec{AC} \\ = 2 a + 1 \frac{1}{2} ( \vec{AO} + \vec{OC} ) \\ = 2 a + 1 \frac{1}{2} ( - 2 a + c ) \end{gathered}$
 > 
 > *Expand and simplify*
 > 
-> `table row cell stack O X with rightwards arrow on top end cell equals cell 2 bold a minus bold a plus 1 half bold c end cell row blank equals cell bold a plus 1 half bold c end cell end table`
+> $\begin{gathered} \vec{OX} & = 2 a - a + 1 \frac{1}{2} c \\ = a + 1 \frac{1}{2} c \end{gathered}$
 > 
 > *Now compare it to *$\overset{\rightarrow}{OB}=2a+3c$* (given in the question)*
 > *Try factorisation to write *$\overset{\rightarrow}{OB}$* in terms of *$\overset{\rightarrow}{OX}$
 > 
-> `table row cell stack O B with rightwards arrow on top end cell equals cell 2 bold a plus 3 bold c end cell row blank equals cell 2 open parentheses bold a plus 3 over 2 bold c close parentheses end cell end table`
+> $\begin{gathered} \vec{OB} & = 2 a + 3 c \\ = 2 ( a + \frac{3}{2} c ) \end{gathered}$
 > 
 > > *The *$a$* inside the brackets matches the *$a$* in *$\overset{\rightarrow}{OX}=a+\frac{1}{2}c$
 > *But the *$+\frac{3}{2}c$* inside the brackets does not match the *$+\frac{1}{2}c$* in *$\overset{\rightarrow}{OX}=a+\frac{1}{2}c$
@@ -269,14 +269,14 @@ guided_study: false
 > 
 > > *Similarly to part (a), find *$\overset{\rightarrow}{OY}$* and see if it is parallel to *$\overset{\rightarrow}{OB}$* *
 > 
-> > `table row cell stack O Y with rightwards arrow on top end cell equals cell stack O A with rightwards arrow on top plus 3 over 4 stack A C with rightwards arrow on top end cell row blank equals cell 2 bold a plus 3 over 4 open parentheses negative 2 bold a plus bold c close parentheses end cell row blank equals cell 1 half bold a plus 3 over 4 bold c end cell end table`
+> > $\begin{gathered} \vec{OY} & = \vec{OA} + \frac{3}{4} \vec{AC} \\ = 2 a + \frac{3}{4} ( - 2 a + c ) \\ = 1 \frac{1}{2} a + \frac{3}{4} c \end{gathered}$
 > * *
 > 
 > > *Use factorisation to write *$\overset{\rightarrow}{OB}$* in terms of *$\overset{\rightarrow}{OY}$* *
 > 
-> > `stack O B with rightwards arrow on top equals 2 bold a plus 3 bold c
-> equals 4 open parentheses 1 half bold a plus 3 over 4 bold c close parentheses
-> equals 4 space stack O Y with rightwards arrow on top`
+> > $\vec{OB} = 2 a + 3 c
+> = 4 ( 1 \frac{1}{2} a + \frac{3}{4} c )
+> = 4 \vec{OY}$
 > * *
 > 
 > > *So** OB ** is parallel to **OY** *
@@ -359,40 +359,40 @@ guided_study: false
 > > $\overset{\rightarrow}{OP}=k\overset{\rightarrow}{OB}$
 > * *
 > 
-> > *Use *`table attributes columnalign right center left columnspacing 0px end attributes row cell stack O B with rightwards arrow on top end cell equals cell stack O A with rightwards arrow on top plus stack A B with rightwards arrow on top equals stack O A with rightwards arrow on top plus 3 stack O C with rightwards arrow on top end cell end table`* to write this first path in terms of **a** and **c*
+> > *Use *$\begin{array}{rcl} \vec{OB} & = \vec{OA} + \vec{AB} = \vec{OA} + 3 \vec{OC} \end{array}$* to write this first path in terms of **a** and **c*
 > * *
 > 
-> > `stack O P with rightwards arrow on top equals k open parentheses 2 bold a plus 3 bold c close parentheses`
+> > $\vec{OP} = k ( 2 a + 3 c )$
 > * *
 > 
 > > *The second path needs to come in along the **AC** diagonal*
 > * *
 > 
-> > `table row cell stack O P with rightwards arrow on top end cell equals cell stack O A with rightwards arrow on top plus stack A P with rightwards arrow on top end cell end table`* *
+> > $\begin{gathered} \vec{OP} & = \vec{OA} + \vec{AP} \end{gathered}$* *
 > 
 > > *Although the length **AP  **is unknown, *$\overset{\rightarrow}{AP}$* is definitely a scalar multiple of *$\overset{\rightarrow}{AC}$* (they are parallel)*
 > *Give the scalar a letter different to *$k$* used above *
 > 
-> > *  *`table row cell stack O P with rightwards arrow on top end cell equals cell stack O A with rightwards arrow on top plus lambda space stack A C with rightwards arrow on top end cell end table`
+> > *  *$\begin{gathered} \vec{OP} & = \vec{OA} + \\lambda \vec{AC} \end{gathered}$
 > *  *
 > 
 > > *Use *$\overset{\rightarrow}{AC}=\overset{\rightarrow}{AO}+\overset{\rightarrow}{OC}$* to write this second path in terms of **a** and **c *
 > 
-> > `stack O P with rightwards arrow on top equals 2 bold a plus lambda open parentheses negative 2 bold a plus bold c close parentheses`* *
+> > $\vec{OP} = 2 a + \\lambda ( - 2 a + c )$* *
 > 
 > > *Set the first path equal to the second path *
 > 
-> > `k open parentheses 2 bold a plus 3 bold c close parentheses equals 2 bold a plus lambda open parentheses negative 2 bold a plus bold c close parentheses`
+> > $k ( 2 a + 3 c ) = 2 a + \\lambda ( - 2 a + c )$
 > * *
 > 
 > > *Collect the terms into their **a **and **c** components on each side *
 > 
-> > `2 k bold a plus 3 k bold c equals open parentheses 2 minus 2 lambda close parentheses bold a plus lambda bold c`
+> > $2 k a + 3 k c = ( 2 - 2 \\lambda ) a + \\lambda c$
 > * *
 > 
 > > *Equate (and simplify) the **a** coefficients *
 > 
-> > `table row cell 2 k end cell equals cell 2 minus 2 lambda end cell row k equals cell 1 minus lambda end cell end table`
+> > $\begin{gathered} 2 k & = 2 - 2 \\lambda \\ k = 1 - \\lambda \end{gathered}$
 > * *
 > 
 > > *Equate the **c** coefficients  *
@@ -403,7 +403,7 @@ guided_study: false
 > > *This gives two simultaneous equations in *$k$* and *$λ$
 > *Solve these simultaneously *
 > 
-> `table row k equals cell 1 minus 3 k end cell row cell 4 k end cell equals 1 row k equals cell 1 fourth end cell end table`
+> $\begin{gathered} k = 1 - 3 k \\ 4 k & = 1 \\ k = 1 \frac{1}{4} \end{gathered}$
 > *and ** *$λ=\frac{3}{4}$
 > * *
 > 
@@ -412,6 +412,6 @@ guided_study: false
 > *Simplify to get the final answer*
 > * *
 > 
-> `table row cell stack O P with rightwards arrow on top end cell equals cell k open parentheses 2 bold a plus 3 bold c close parentheses end cell row blank equals cell 1 fourth open parentheses 2 bold a plus 3 bold c close parentheses end cell row blank equals cell 1 half bold a plus 3 over 4 bold c end cell end table`
+> $\begin{gathered} \vec{OP} & = k ( 2 a + 3 c ) \\ = 1 \frac{1}{4} ( 2 a + 3 c ) \\ = 1 \frac{1}{2} a + \frac{3}{4} c \end{gathered}$
 > 
-> `table row cell stack bold italic O bold italic P with rightwards arrow on top end cell bold equals cell bold 1 over bold 2 bold a bold plus bold 3 over bold 4 bold c end cell end table`
+> `| O P -vec | = 1 / 2 a + 3 / 4 c | |`

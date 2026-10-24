@@ -11,11 +11,11 @@
 
 > *16 is twice 8, so we know that area of triangle **LPQ** is twice the area of triangle **NPQ. **Given that they share the same height (**PQ**, which we have labelled **h** on the diagram), we can deduce using logic- or the more formal method below- that **NP **= 2**PL*
 
-`table attributes columnalign right center left columnspacing 0px end attributes row cell Area subscript L P Q end subscript end cell equals cell 2 cross times Area subscript N P Q end subscript end cell row cell therefore 1 half cross times PL cross times h end cell equals cell 2 cross times 1 half cross times N P cross times h end cell end table`
+$\begin{array}{rcl} Area_{L P Q} & = 2 \times Area_{N P Q} \\ \therefore 1 \frac{1}{2} \times \text{PL} \times h & = 2 \times 1 \frac{1}{2} \times N P \times h \end{array}$
 
 > *By simplifying and cancelling we get*
 
-`table row cell down diagonal strike 1 half end strike cross times P L cross times down diagonal strike h end cell equals cell 2 cross times down diagonal strike 1 half end strike cross times N P cross times down diagonal strike h end cell row cell P L end cell equals cell 2 N P end cell end table`
+`| / 1 half x P L x / h | = 2 x / 1 half x N P x / h | | P L | = 2 N P | |`
 
 **[1]**
 
@@ -86,17 +86,17 @@ $k=\frac{15}{10}=\frac{3}{2}$
 
 > *For similar shapes, if the length scale factor is *$k$*, then the volume factor is *$k^{3}$
 
-`k cubed equals open parentheses 3 over 2 close parentheses cubed equals 27 over 8`
+$k^{3} = ( \frac{3}{2} )^{3} = \frac{27}{8}$
 
 **[1]**
 
 > *We can write an equation from "the difference between the volume of vase A and the volume of vase B is 1197 cm*<sup>*3*</sup>*. If we let the volume of vase **A** be *$a$* and the volume of vase **B** be *$b$* then*
 
-`b minus a equals 1197 space space space space space circle enclose 1`
+$b - a = 1197 \textcircled{1}$
 
 > *And we know that the volume of vase **A** multiplied by *$k^{3}$* gives the volume of vase B. So*
 
-`b equals 27 over 8 a space space space space space circle enclose 2`
+$b = \frac{27}{8} a \textcircled{2}$
 
 > * Substitute *`circle enclose 2`* into *`circle enclose 1`* to form an equation in *$a$
 
@@ -106,12 +106,12 @@ $\frac{27}{8}a-a=1197$
 
 > *Solve this equation to find *$a$*. Start by subtracting the algebraic fractions*
 
-`space space space space space space space a open parentheses 27 over 8 minus 1 close parentheses equals 1197 space space space space or space space space space space 27 over 8 a minus 8 over 8 a equals 119
-space space space space space space space 19 over 8 a equals 1197`
+$a ( \frac{27}{8} - 1 ) = 1197 \text{or} \frac{27}{8} a - \frac{8}{8} a = 119
+ \frac{19}{8} a = 1197$
 
 **[1]**
 
-`table attributes columnalign right center left columnspacing 0px end attributes row a equals cell 1197 divided by 19 over 8 equals 504 end cell end table`
+$\begin{array}{rcl} a = 1197 \div \frac{19}{8} = 504 \end{array}$
 
 **Volume of shape A = 504 cm**<sup>**3 **</sup>** ****[1]**
 
@@ -189,17 +189,17 @@ $k=\frac{13}{9}$
 
 > *For similar shapes, if the length scale factor is *$k$*, then the area scale factor is *$k^{2}$
 
-`k squared equals open parentheses 13 over 9 close parentheses squared equals 169 over 81`
+$k^{2} = ( \frac{13}{9} )^{2} = \frac{169}{81}$
 
 **[1]**
 
 > *If we let the surface area of vase **A** be *$a$* and the surface area of vase **B** be *$b$* then*
 
-`a plus b equals 1800 space space space space space space circle enclose 1`
+$a + b = 1800 \textcircled{1}$
 
 > *We know that the surface area of vase **A** multiplied by *$k^{2}$* gives the surface area of vase **B**. So*
 
-`b equals 169 over 81 a space space space space space space space circle enclose 2`
+$b = \frac{169}{81} a \textcircled{2}$
 
 > *Substitute *`circle enclose 2`* into *`circle enclose 1`* to form an equation in *$a$
 
@@ -209,12 +209,12 @@ $a+\frac{169}{81}a=1800$
 
 > *Solve. Start by adding the fractions on the left-hand side*
 
-`space space a open parentheses 1 plus 169 over 81 close parentheses equals 1800 space space space space or space space space space space 81 over 81 a plus 169 over 81 a equals 1800
-space 250 over 81 a equals 1800`
+$a ( 1 + \frac{169}{81} ) = 1800 \text{or} \frac{81}{81} a + \frac{169}{81} a = 1800
+ \frac{250}{81} a = 1800$
 
 **[1]**
 
-`table row a equals cell 1800 divided by 250 over 81 equals 583.2 end cell end table`
+$\begin{gathered} a = 1800 \div \frac{250}{81} = 583.2 \end{gathered}$
 
 **Surface area of vase A = 583.2 cm**<sup>**2 **</sup>** ****[1]**
 
@@ -242,7 +242,7 @@ $AB=\frac{15}{2}\mathrm{or}7.5$** ****cm**** [1]**
 *For similar shapes, if the length scale factor is *$k$*, then the area scale factor is *$k^{2}$* *
 $k>1$*and we want to find the **larger **surface area, so we can find **ABCD **by **multiplying** the smaller area by *$k^{2}$
 
-`Area subscript A B C D end subscript equals 36 cross times open parentheses 3 over 2 close parentheses squared`
+$Area_{A B C D} = 36 \times ( \frac{3}{2} )^{2}$
 
 **[1]**
 
@@ -284,13 +284,13 @@ $=960\times2.25\,=2160$
 
 > *For similar shapes, if the length scale factor is *$k$*, then the volume scale factor is *$k^{3}$
 
-`volume space scale space factor equals space open parentheses 3 over 2 close parentheses cubed equals 27 over 8`
+$\text{volume} \text{scale} \text{factor} = ( \frac{3}{2} )^{3} = \frac{27}{8}$
 
 $(\frac{3}{2})^{3}$**or  **$\frac{27}{8}$** ****or **** **$3.375$** [1]**
 
 > $k>1$*and we want to find the **smaller** volume, so we need to **divide** the larger volume by *$k^{3}$
 
-`table row cell space V divided by 27 over 8 end cell equals cell V cross times 8 over 27 end cell row blank equals cell 8 over 27 V end cell end table`
+$\begin{gathered} V \div \frac{27}{8} & = V \times \frac{8}{27} \\ = \frac{8}{27} V \end{gathered}$
 
 **Volume of vase A = **$\frac{8}{27}V$** cm**<sup>**3**</sup>**   **$(\mathrm{or}\frac{V}{3.375}\mathrm{cm}^{3})$** **** [1]**
 
@@ -302,13 +302,13 @@ $k=\frac{24}{36}=\frac{2}{3}$
 
 > *For similar shapes, if the length scale factor is *$k$*, then the volume scale factor is *$k^{3}$
 
-`volume space scale space factor equals space open parentheses 2 over 3 close parentheses cubed equals 8 over 27`
+$\text{volume} \text{scale} \text{factor} = ( \frac{2}{3} )^{3} = \frac{8}{27}$
 
 $(\frac{3}{2})^{3}$**or  **$\frac{27}{8}$** ****or**** **** **$3.375$** [1]**
 
 > $k<1$*and we want to find the **smaller** volume, so we need to **multiply** the larger volume by *$k^{3}$
 
-`table row blank blank cell V cross times 8 over 27 end cell row blank blank blank end table`
+$\begin{gathered} V \times \frac{8}{27} \\ \end{gathered}$
 
 **Volume of vase A = **$\frac{8}{27}V$** cm**<sup>**3**</sup>**  ****[1]**
 
@@ -319,7 +319,7 @@ $(\frac{3}{2})^{3}$**or  **$\frac{27}{8}$** ****or**** **** **$3.375$** [1]**
 ### 18() — 4 marks
 > *The total surface area of a hemisphere is*
 
-`table row cell S A subscript h e m i s p h e r e end subscript end cell equals cell 1 half cross times 4 straight pi r squared plus straight pi r squared end cell row blank equals cell 3 straight pi r squared end cell end table`
+$\begin{gathered} S A_{h e m i s p h e r e} & = 1 \frac{1}{2} \times 4 \mathrm{\pi } r^{2} + \mathrm{\pi } r^{2} \\ = 3 \mathrm{\pi } r^{2} \end{gathered}$
 
 > *Now that we have used *$r$* as the radius of the hemisphere, let *$R$* be the radius of the cylinder (and let its height be *$h$*). The curved surface area of the cylinder is therefore*
 
@@ -331,7 +331,7 @@ $R=2r$
 
 > *Substitute this into the formula for the curved surface area of the cylinder*
 
-`table row cell S A subscript c y l i n d e r end subscript end cell equals cell 2 straight pi open parentheses 2 r close parentheses h end cell row blank equals cell 4 straight pi r h end cell end table`
+$\begin{gathered} S A_{c y l i n d e r} & = 2 \mathrm{\pi } ( 2 r ) h \\ = 4 \mathrm{\pi } r h \end{gathered}$
 
 > *Equate the formulae for the surface areas of the hemisphere and the cylinder*
 
@@ -341,23 +341,23 @@ $3πr^{2}=4πrh$
 
 > *Rearrange to get *$h$* in terms of *$r$
 
-`table row cell 3 up diagonal strike straight pi r squared end cell equals cell 4 up diagonal strike straight pi r h end cell row cell 3 r to the power of up diagonal strike 2 end exponent end cell equals cell 4 up diagonal strike r h end cell row cell 3 r end cell equals cell 4 h end cell row h equals cell 3 over 4 r end cell end table`
+`| 3 / pi r ^2 | = 4 / pi r h | | 3 r ^ / 2 | = 4 / r h | | 3 r | = 4 h | | h = 3 / 4 r | |`
 
 **[1]**
 
 > *Now find the volume of the hemisphere in terms of *$r$
 
-`table row cell v o l u m e subscript h e m i s p h e r e end subscript end cell equals cell 1 half cross times 4 over 3 straight pi r cubed end cell row blank equals cell 2 over 3 straight pi r cubed end cell end table`
+$\begin{gathered} v o l u m e_{h e m i s p h e r e} & = 1 \frac{1}{2} \times \frac{4}{3} \mathrm{\pi } r^{3} \\ = \frac{2}{3} \mathrm{\pi } r^{3} \end{gathered}$
 
 > *And find the volume of the cylinder in terms of *$r$
 
-`table row cell v o l u m e subscript c y l i n d e r end subscript end cell equals cell straight pi R squared h end cell row blank equals cell straight pi open parentheses 2 r close parentheses squared cross times 3 over 4 r end cell row blank equals cell straight pi up diagonal strike 4 r squared cross times fraction numerator 3 over denominator up diagonal strike 4 end fraction r end cell row blank equals cell 3 straight pi r cubed end cell end table`
+$\begin{gathered} v o l u m e_{c y l i n d e r} & = \mathrm{\pi } R^{2} h \\ = \mathrm{\pi } ( 2 r )^{2} \times \frac{3}{4} r \\ = \mathrm{\pi } \cancel{4} r^{2} \times \frac{3}{ \cancel{4} } r \\ = 3 \mathrm{\pi } r^{3} \end{gathered}$
 
 ** correct expressions for volume of hemisphere and volume of cylinder ****[1]**
 
 > $m$*, the scale factor for the volumes, is the volume of the cylinder divided by the volume of the hemisphere*
 
-`table row m equals cell fraction numerator 3 straight pi r cubed over denominator 2 over 3 straight pi r cubed end fraction equals fraction numerator 3 up diagonal strike straight pi r cubed end strike over denominator 2 over 3 up diagonal strike straight pi r cubed end strike end fraction end cell row blank equals cell 3 cross times 3 over 2 end cell row blank equals cell 9 over 2 end cell end table`
+$\begin{gathered} m = \frac{3 \mathrm{\pi } r^{3}}{ \frac{2}{3} \mathrm{\pi } r^{3}} = \frac{3 \cancel{ \mathrm{\pi } r^{3}} }{ \frac{2}{3} \cancel{ \mathrm{\pi } r^{3}} } \\ = 3 \times \frac{3}{2} \\ = \frac{9}{2} \end{gathered}$
 
 $m=\frac{9}{2}\mathrm{or}4.5$ **[1]**
 
@@ -378,7 +378,7 @@ $k=\sqrt{\frac{4}{3}}$
 > *For similar shapes, if the length scale factor is *$k$*, then the volume scale factor is *$k^{3}$* *
 *Check: *$k>1$*and we want to find the **smaller** volume, so we need to **divide** the larger volume by *$k^{3}$
 
-`10 divided by open parentheses square root of 4 over 3 end root close parentheses cubed`
+$10 \div ( \sqrt{\frac{4}{3}} ) ^{3}$
 
 **[1]**
 
@@ -404,7 +404,7 @@ $k=\sqrt{\frac{3}{4}}$
 > *For similar shapes, if the length scale factor is *$k$*, then the volume scale factor is *$k^{3}$* *
 *Check: *$k<1$*and we want to find the **smaller** volume, so we can **multiply** the larger volume by *$k^{3}$
 
-`10 cross times open parentheses square root of 3 over 4 end root close parentheses cubed`
+$10 \times ( \sqrt{\frac{3}{4}} ) ^{3}$
 
 **[1]**
 
@@ -427,15 +427,15 @@ $k^{3}=\frac{4352}{1836}=\frac{64}{27}$
 
 > *Find the length scale factor, *$k$*, by cube rooting *$k^{3}$
 
-`table attributes columnalign right center left columnspacing 0px end attributes row k equals cell cube root of 64 over 27 end root equals 4 over 3 end cell end table`
+`table columnalign right center left columnspacing 0px end | k = cbrt( 64 / 27 ) = 4 / 3 | |`
 
 $\frac{4}{3}$** or **$\frac{3}{4}$** [1]**
 
 > *And find the area scale factor, *$k^{2}$*, by squaring *$k$
 
-`table attributes columnalign right center left columnspacing 0px end attributes row cell k squared end cell equals cell open parentheses 4 over 3 close parentheses squared equals 16 over 9 end cell end table`
+$\begin{array}{rcl} k^{2} & = ( \frac{4}{3} )^{2} = \frac{16}{9} \end{array}$
 
-> *(Note that we can perform the above two steps in one line by; *`k squared equals open parentheses cube root of 64 over 27 end root close parentheses squared equals 16 over 9`* )*
+> *(Note that we can perform the above two steps in one line by; *$k ^{2} = ( \sqrt[3]{\frac{64}{27}} ) ^{2} = \frac{16}{9}$* )*
 
 > $k>1$* and we want to find the **smaller **surface area, so we **divide** the surface area of **B** by *$k^{2}$
 
@@ -466,7 +466,7 @@ $1-\frac{98}{125}=\frac{27}{125}$
 
 > *Therefore if we cube root *$\frac{27}{125}$*, we have the length scale factor of the small cone to the large cone*
 
-`cube root of 27 over 125 end root equals 3 over 5`
+$\sqrt[3]{\frac{27}{125}} = \frac{3}{5}$
 
 **[1]**
 
@@ -476,11 +476,11 @@ $H=\frac{3}{5}h$
 
 > *And*
 
-`table row f equals cell h minus H end cell row blank equals cell h minus 3 over 5 h end cell end table`
+$\begin{gathered} f = h - H \\ = h - \frac{3}{5} h \end{gathered}$
 
 **[1]**
 
-**The height of the frustum is **`table row blank blank cell bold 2 over bold 5 bold italic h end cell end table`** ****[1]**
+**The height of the frustum is **`| _ _ 2 / 5 h | |`** ****[1]**
 
 ## Q14 — hard — 3 marks · exam-questions
 
@@ -546,9 +546,9 @@ $\frac{5}{3}$** ****or**** **$\frac{3}{5}$**[1]**
 
 > *Find the volume scale factor, *$k^{3}$*, by cubing *$k$
 
-`table attributes columnalign right center left columnspacing 0px end attributes row cell k cubed end cell equals cell open parentheses square root of 25 over 9 end root close parentheses cubed equals open parentheses 5 over 3 close parentheses cubed equals 125 over 27 end cell end table`
+`table columnalign right center left columnspacing 0px end | k ^3 | = ( sqrt( 25 / 9 ) ) ^3 = ( 5 / 3 ) ^3 = 125 / 27 | |`
 
-> *(Note that the two steps above can be performed in one step: *`k cubed equals open parentheses square root of 25 over 9 end root close parentheses cubed`
+> *(Note that the two steps above can be performed in one step: *$k ^{3} = ( \sqrt{\frac{25}{9}} ) ^{3}$
 
 > *Shape **R** has a surface area of 108 cm*<sup>*2*</sup>* and shape **S** has a surface area of 300 cm*<sup>*2*</sup>* so **shape S is bigger** *$k>1$* and we want to find the **bigger **volume, so we **multiply** the volume of **R** by *$k^{3}$
 
@@ -574,13 +574,13 @@ $V_{L}=\frac{150}{100}V_{s}=1.5V_{S}$
 
 > *Find the length scale factor by taking the cube root of the volume scale factor. *
 
-`table row cell k to the power of 3 space end exponent space end cell equals cell space 1.5 end cell row cell k space end cell equals cell space cube root of 1.5 end root end cell end table`
+$\begin{gathered} k^{3 } & = 1.5 \\ k & = \sqrt[3]{1.5} \end{gathered}$
 
 **[1]**
 
-> *The length scale factor is *`k space equals space cube root of 1.5 end root`*, multiply this by the smaller radius to find the radius of the large tin.*
+> *The length scale factor is *$k = \sqrt[3]{1.5}$*, multiply this by the smaller radius to find the radius of the large tin.*
 
-`r space equals space 10 space cross times space cube root of 1.5 end root`
+$r = 10 \times \sqrt[3]{1.5}$
 
 **[1]**
 
@@ -601,14 +601,14 @@ $k^{2}=\frac{253.5}{6}$
 
 > *Therefore *$k$*, the scale factor for lengths, is*
 
-`k equals square root of fraction numerator 253.5 over denominator 6 end fraction end root equals 13 over 2 space space open parentheses or space 6.5 close parentheses`
+$k = \sqrt{ \frac{253.5}{6} } = \frac{13}{2} ( \text{or} 6.5 )$
 
 **[1]**
 
 > *The mass of the clay is dependent on the volume. For similar shapes, if the length scale factor is *$k$*, then the volume scale factor is *$k^{3}$
 * *$k>1$*and we want to find the **larger** mass, so we can **multiply** the larger mass by *$k^{3}$
 
-`table row cell Volume space of space statue end cell equals cell 2 cross times stretchy left parenthesis 13 over 2 stretchy right parenthesis cubed end cell row blank equals cell 549.25 space kg end cell end table`
+`| Volume of statue | = 2 x stretchy ( 13 / 2 stretchy ) ^3 | | _ = 549.25 kg | |`
 
 **[1]**
 
@@ -662,7 +662,7 @@ $300\times\frac{216}{125}$
 
 > *Finding the area scale factor*
 
-`table row cell 6 space cm squared cross times Area space Scale space Factor space end cell equals cell space 73.5 space cm squared end cell row cell Area space Scale space Factor end cell equals cell fraction numerator 73.5 over denominator 6 end fraction equals 49 over 4 equals 12.25 end cell end table`
+$\begin{gathered} 6 cm^{2} \times \text{Area} \text{Scale} \text{Factor} & = 73.5 cm^{2} \\ \text{Area} \text{Scale} \text{Factor} & = \frac{73.5}{6} = \frac{49}{4} = 12.25 \end{gathered}$
 
 > *Therefore the scale factor for the lengths is*
 
@@ -690,7 +690,7 @@ $k^{3}=\frac{27}{8}$
 
 > *Therefore *$k$*, the scale factor for lengths, is*
 
-`k equals cube root of 27 over 8 end root equals 3 over 2`
+$k = \sqrt[3]{\frac{27}{8}} = \frac{3}{2}$
 
 **showing that the linear scale factor is **$\frac{3}{2}$** or 1.5 ****[1]**
 
@@ -703,7 +703,7 @@ $k>1$*and we want to find the **smaller** volume, so we need to **divide** the l
 
 > *Calculate the answer, showing the method used*
 
-**Final answer:** **Surface area of B**`bold equals bold 297 bold divided by bold 9 over bold 4 bold equals scriptbase up diagonal strike bold 297 end scriptbase presuperscript bold 33 bold cross times bold 4 over up diagonal strike bold 9 subscript bold 1 bold equals bold 132`** cm**<sup>**3**</sup>
+**Final answer:** **Surface area of B**`= 297 / 9 / 4 = / 297 ^ 33 x 4 / / 9 _ 1 = 132`** cm**<sup>**3**</sup>
 
 **method leading to "132" shown ****[1]**
 
@@ -714,7 +714,7 @@ $k^{3}=\frac{8}{27}$
 
 > *Therefore *$k$*, the scale factor for lengths, is*
 
-`k equals cube root of 8 over 27 end root equals 2 over 3`
+$k = \sqrt[3]{\frac{8}{27}} = \frac{2}{3}$
 
 **showing that the linear scale factor is **$\frac{2}{3}$**[1]**
 
@@ -727,7 +727,7 @@ $k<1$*and we want to find the **smaller** volume, so we can **multiply** the lar
 
 > *Calculate the answer, showing the method used*
 
-**Final answer:** **Surface area of B**`bold equals scriptbase up diagonal strike bold 297 end scriptbase presuperscript bold 33 bold cross times bold 4 over up diagonal strike bold 9 subscript bold 1 bold equals bold 132`** cm**<sup>**3**</sup>
+**Final answer:** **Surface area of B**`= / 297 ^ 33 x 4 / / 9 _ 1 = 132`** cm**<sup>**3**</sup>
 
 **method leading to "132" shown ****[1]**
 
@@ -740,7 +740,7 @@ $\mathrm{volume} \mathrm{scale} \mathrm{factor}=\frac{960}{405}=\frac{64}{27}$
 
 > *Take the cube root of the volume scale factor to find the length scale factor.*
 
-`length space scale space factor space equals fraction numerator cube root of 64 over denominator cube root of 27 end fraction equals 4 over 3`
+$\text{length} \text{scale} \text{factor} = \frac{ \sqrt[3]{64} }{ \sqrt[3]{27} } = \frac{4}{3}$
 
 **[1]**
 
@@ -765,15 +765,15 @@ $928\div\frac{16}{9}$
 
 > *To help find the angle of the sector, first find the acute angle **DOE**. *
 
-> *Triangle **ODE** is right-angled and we have the hypotenuse (**DO** = 0.5) and the adjacent side (**OE** = 0.25). So we can use *`cos open parentheses D O E close parentheses equals Adjacent over Hypotenuse.`
+> *Triangle **ODE** is right-angled and we have the hypotenuse (**DO** = 0.5) and the adjacent side (**OE** = 0.25). So we can use *$\text{cos} ( D O E ) = \frac{Adjacent}{Hypotenuse}.$
 
-`cos open parentheses D O E close parentheses equals fraction numerator 0.25 over denominator 0.5 end fraction equals 1 half`
+$\cos ( D O E ) = \frac{0.25}{0.5} = 1 \frac{1}{2}$
 
 **[1]**
 
 > *Use inverse cos on your calculator to find the size of the angle.*
 
-`D O E equals cos to the power of negative 1 end exponent open parentheses 1 half close parentheses equals 60`
+$D O E = \cos ^{- 1} ( 1 \frac{1}{2} ) = 60$
 
 > *Subtract angle **DOE** from 270° to get the size of the angle of the sector.*
 
@@ -796,7 +796,7 @@ $l=\frac{210}{360}\times2π\times0.5\,l=\frac{7}{12}π$
 
 > *Add together the lengths.*
 
-`table row blank blank cell 1.5 plus 0.5 plus 1.5 plus 7 over 12 straight pi plus 0.5 end cell row blank equals cell 4 plus 7 over 12 straight pi end cell row blank equals cell 5.8325... end cell end table`
+$\begin{gathered} 1.5 + 0.5 + 1.5 + \frac{7}{12} \mathrm{\pi } + 0.5 \\ = 4 + \frac{7}{12} \mathrm{\pi } \\ = 5.8325... \end{gathered}$
 
 **[1]**
 
@@ -889,7 +889,7 @@ $r=0.5\times8.0061...=4.0030...$
 
 > *For similar shapes, if the area ratio is *$m:n$*, then the area ratio is *$\sqrt{m}:\sqrt{n}$* Square root both sides of the area ratio*
 
-* *`table row cell e space colon space f space end cell equals cell square root of 36 space colon square root of 25 end cell row blank equals cell 6 space colon space 5 end cell end table`
+* *$\begin{gathered} e : f & = \sqrt{36} : \sqrt{25} \\ = 6 : 5 \end{gathered}$
 
 **6 : 5 ****[1]**
 
@@ -941,7 +941,7 @@ $8^{x}=2^{x+4}\times64$
 
 > *Rewrite using powers of 2*
 
-`open parentheses 2 cubed close parentheses to the power of x space equals space 2 to the power of x space plus space 4 end exponent space cross times space 2 to the power of 6`
+$( 2^{3} )^{x = 2^{x} + 4} \times 2^{6}$
 
 > *Using laws of indices*
 
@@ -977,7 +977,7 @@ $60.75$
 ### 18() — 4 marks
 > *Take the square root of the area ratio of  **A** **: **B**  to find the length ratio of  **A** : **B**.*
 
-`table row blank blank cell space space space space bold A space colon space bold B end cell row blank blank cell square root of 4 space colon space square root of 9 end cell end table`
+$\begin{gathered} A : B \\ \sqrt{4} : \sqrt{9} \end{gathered}$
 
 **[1]**
 
@@ -985,8 +985,8 @@ $2:3$
 
 > *Take the cube root of the volume ratio of  **B** : **C**  **to find the length ratio of **B** : **C**.*
 
-`space space space space space space space space bold B space colon space bold C
-cube root of 125 space colon thin space cube root of 343`
+$B : C
+ \sqrt[3]{125} : \sqrt[3]{343}$
 
 **[1]**
 
@@ -1059,11 +1059,11 @@ $120-30$
 
 > *First find the linear ratio by square rooting the area ratio.*
 
-> * *`table row cell linear space scale space factor end cell equals cell square root of 16 space colon space square root of 25 end cell row blank equals cell 4 space colon space 5 end cell end table`
+> * *$\begin{gathered} \text{linear} \text{scale} \text{factor} & = \sqrt{16} : \sqrt{25} \\ = 4 : 5 \end{gathered}$
 
 > *Next find the volume ratio by cubing the linear ratio.*
 
-`table row cell volume space scale space factor end cell equals cell 4 cubed space colon space 5 cubed end cell row blank equals cell 64 space colon space 125 end cell end table`
+$\begin{gathered} \text{volume} \text{scale} \text{factor} & = 4^{3} : 5^{3} \\ = 64 : 125 \end{gathered}$
 
 **The third option is correct, 64 : 125*** ***[1]**
 
@@ -1105,7 +1105,7 @@ $200-8$
 
 > *First find the linear ratio (ratio of corresponding lengths) in X and Y by cube rooting the volume ratio.*
 
-`cube root of 64 space colon space cube root of 343 space equals space 4 space colon space 7`
+$\sqrt[3]{64} : \sqrt[3]{343} = 4 : 7$
 
 **[1]**
 
@@ -1127,7 +1127,7 @@ $16:49\,\times11\times11\,=176:49\times11\,=176:539$
 
 > *Alternatively, from *$16:49=176:y$*, we could convert to a fraction and solve:*
 
-`table row cell 176 over 16 end cell equals cell y over 49 end cell row y equals cell 49 cross times 176 over 16 end cell row blank equals 539 end table`
+$\begin{gathered} \frac{176}{16} & = \frac{y}{49} \\ y = 49 \times \frac{176}{16} \\ = 539 \end{gathered}$
 
 ## Q32 — hard — 4 marks · exam-questions
 
@@ -1145,7 +1145,7 @@ $16:49\,\times11\times11\,=176:49\times11\,=176:539$
 ### 23((b)) — 3 marks
 > *Find the length scale factor of A to C by finding taking the cube root of the volume scale factor of A to C.*
 
-`cube root of 125 over 8 end root equals 5 over 2`
+$\sqrt[3]{\frac{125}{8}} = \frac{5}{2}$
 
 **[1]**
 
@@ -1195,13 +1195,13 @@ $18\div2.5=7.2$
 
 $25\div2.5=10$
 
-> *Calculate the area of the larger trapezium using the formula for the area of a trapezium, *`A equals 1 half open parentheses a plus b close parentheses h`*, where *$a$* and *$b$* are the lengths of the parallel sides and *$h$* is the perpendicular height of the trapezium.*
+> *Calculate the area of the larger trapezium using the formula for the area of a trapezium, *$A = 1 \frac{1}{2} ( a + b ) h$*, where *$a$* and *$b$* are the lengths of the parallel sides and *$h$* is the perpendicular height of the trapezium.*
 
-`table row cell A subscript l a r g e end subscript end cell equals cell 1 half cross times open parentheses 10 plus 18 close parentheses cross times 25 end cell row blank equals 350 end table`
+$\begin{gathered} A_{l a r g e} & = 1 \frac{1}{2} \times ( 10 + 18 ) \times 25 \\ = 350 \end{gathered}$
 
 > *Calculate the area of the smaller trapezium using the formula again.*
 
-`table row cell A subscript s m a l l end subscript end cell equals cell 1 half cross times open parentheses 4 plus 7.2 close parentheses cross times 10 end cell row blank equals 56 end table`
+$\begin{gathered} A_{s m a l l} & = 1 \frac{1}{2} \times ( 4 + 7.2 ) \times 10 \\ = 56 \end{gathered}$
 
 **Must see correct working for both trapezia**** [1]**
 
@@ -1258,7 +1258,7 @@ $16-1=15$
 
 > *Add the result of this to the area of the smallest shape to find the total area of the parts that are unshaded.*
 
-`open parentheses 25 minus 16 close parentheses plus 1 equals 10`
+$( 25 - 16 ) + 1 = 10$
 
 $16-1$** or  **$25-16$** seen**** [1]**
 
@@ -1314,7 +1314,7 @@ $1:\sqrt{3}$
 
 > *Write down the ratio of the volume of prism P to the volume of prism Q by cubing the length ratio.*
 
-`1 cubed space colon space open parentheses square root of 3 close parentheses cubed`
+$1^{3} : ( \sqrt{3} )^{3}$
 
 $1:3\sqrt{3}$
 
@@ -1343,8 +1343,7 @@ $V_{1}=k^{3}V_{2}\,15.625=k^{3}\times8$
 
 > *Rearrange and solve to find the value of *$k$*.*
 
-`k cubed equals fraction numerator 15.625 over denominator 8 end fraction equals 125 over 64
-k space equals space cube root of 125 over 64 end root space equals space 5 over 4`
+$k ^{3} = \frac{15.625}{8} = \frac{125}{64} k = \sqrt[3]{\frac{125}{64}} = \frac{5}{4}$
 
 **[1]**
 

@@ -92,7 +92,7 @@ guided_study: false
 > 
 > **Answer:**
 > 
-> `table row blank cell table row bold A bold B bold C bold D bold E end table end cell row cell table row bold A row bold B row bold C row bold D row bold E end table end cell cell stretchy left parenthesis table row 0 1 1 0 1 row 1 0 0 0 0 row 1 0 1 1 1 row 0 0 0 0 1 row 2 1 1 1 2 end table stretchy right parenthesis end cell end table`
+> $\begin{gathered} \begin{gathered} A B C D E \end{gathered} \\ \begin{gathered} A \\ B \\ C \\ D \\ E \end{gathered} & ( \begin{gathered} 0 1 1 0 1 \\ 1 0 0 0 0 \\ 1 0 1 1 1 \\ 0 0 0 0 1 \\ 2 1 1 1 2 \end{gathered} ) \end{gathered}$
 > 
 > b) The table below shows the time taken in minutes to travel by car between 4 different towns.
 > 

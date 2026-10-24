@@ -25,12 +25,12 @@ $t=\frac{gh}{10}$
 ## Q4 — hard — 3 marks · exam-questions
 
 ### 14((b)) — 3 marks — command: change — structured — from paper 2017	June · 1MA1/3H
-Make $v$ the subject of the formula `w space equals space fraction numerator 15 open parentheses t space minus space 2 v close parentheses over denominator v end fraction`
+Make $v$ the subject of the formula $w = \frac{15 ( t - 2 v )}{v}$
 
 ## Q5 — medium — 3 marks · exam-questions
 
 ### 20() — 3 marks — command: rearrange — structured — from paper 2012	June · 1MA0/2H
-Make $t$the subject of the formula   `2 open parentheses d minus t close parentheses space equals space 4 t space plus 7`
+Make $t$the subject of the formula   $2 ( d - t ) = 4 t + 7$
 
 ## Q6 — easy — 2 marks · exam-questions
 
@@ -67,7 +67,7 @@ Make $p$ the subject of the formula     $y=3p^{2}-4$
 ## Q12 — easy — 3 marks · exam-questions
 
 ### 12((b)) — 3 marks — command: rearrange — structured — from paper 2014	June · 1MA0/1H
-Make $F$ the subject of the formula  `C space equals space fraction numerator 5 open parentheses F space minus space 32 close parentheses over denominator 9 end fraction`
+Make $F$ the subject of the formula  $C = \frac{5 ( F - 32 )}{9}$
 
 ## Q13 — hard — 4 marks · exam-questions
 
@@ -147,7 +147,7 @@ Rearrange $y=\sqrt{w^{3}}$ to make $w$ the subject.
 
 Circle your answer.
 
-| $w=y^{6}$ | `w space equals cube root of y squared end root` | $w=\sqrt{y^{3}}$ | $w=y^{5}$ |
+| $w=y^{6}$ | $w = \sqrt[3]{y^{2}}$ | $w=\sqrt{y^{3}}$ | $w=y^{5}$ |
 |---|---|---|---|
 
 ## Q27 — easy — 2 marks · exam-questions

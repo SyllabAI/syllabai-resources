@@ -63,7 +63,7 @@ The following diagram depicts a particle $A$ of mass $m\mathrm{kg}$ on a slope t
 
 ![3-3-q-5-e-a-level-maths-mechanics](assets/007-3-3-q-5-e-a-level-maths-mechanics.png)
 
-The weight of the particle is indicated by the force $W=mg$.  As shown, the weight may be decomposed into its components `W subscript perpendicular` and `W subscript parallel to`,  where `W subscript perpendicular space equals space m g space cos space theta` is the component of the weight perpendicular to the surface of the slope and `W subscript parallel to equals m g space s i n space theta` is the component of the weight parallel to the surface of the slope.
+The weight of the particle is indicated by the force $W=mg$.  As shown, the weight may be decomposed into its components `W subscript perpendicular` and `W subscript parallel to`,  where $W_{perpendicular} = m g \cos \\theta$ is the component of the weight perpendicular to the surface of the slope and $W_{parallel} \text{to} = m g s i n \\theta$ is the component of the weight parallel to the surface of the slope.
 
 A particle of mass 5 kg is sliding down a smooth slope that is angled at $30^{\circ}$ to the horizontal.
 
@@ -463,11 +463,11 @@ Your spaceship contains a device which may be used to find the value of $g$ on a
 
 With the string between $A$ and the pulley lying along a line of greatest slope of the plane, $A$ is projected down the plane with a velocity of $vms^{-1}$ parallel to the string. After a time of $t$ seconds the system comes momentarily to rest, and then the scale-pan begins to descend under the force of gravity, pulling mass $A$ up the slope behind it.
 
-When the scale-pan is initially moving upwards, the force exerted by $B$ on $C$ is denoted by `F subscript open parentheses B C upwards arrow close parentheses end subscript`. When the scale-pan begins to descend, the force exerted by $B$ on $C$ is denoted by `F subscript open parentheses B C downwards arrow close parentheses end subscript`. The force meter is only able to record the *difference *$ΔF$ between these two values, where `capital delta F equals F subscript open parentheses B C downwards arrow close parentheses end subscript minus F subscript open parentheses B C upwards arrow close parentheses end subscript`.
+When the scale-pan is initially moving upwards, the force exerted by $B$ on $C$ is denoted by $F_{( B C \uparrow )}$. When the scale-pan begins to descend, the force exerted by $B$ on $C$ is denoted by $F_{( B C \downarrow )}$. The force meter is only able to record the *difference *$ΔF$ between these two values, where $\Delta F = F_{( B C \downarrow )} - F_{( B C \uparrow )}$.
 
 Show that
 
-`capital delta F equals open parentheses fraction numerator 2 m subscript A m subscript B over denominator m subscript A plus m subscript B plus m subscript C end fraction close parentheses space g space   mu space c o s space theta`
+$\Delta F = ( \frac{2 m_{A} m_{B} }{m_{A} + m_{B} + m_{C} } ) g   \\mu c o s \\theta$
 
 ### 2() — 2 marks — structured
 For your ship’s device, $m_{A}=3,m_{B}=1,m_{C}=2,θ=30\mathrm{and}μ=0.4$.

@@ -13,7 +13,7 @@ To show the sample is MnO<sub>2</sub>:
   - O: 36.8% and *A*<sub>r</sub> = 16
 - Calculate the moles of each element:
 
-moles = `fraction numerator mass space open parentheses percent sign close parentheses over denominator M subscript straight r end fraction`
+moles = $\frac{mass ( \% )}{M_{r} }$
 
 moles Mn = $\frac{63.2}{55}$
 

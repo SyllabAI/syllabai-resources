@@ -7,7 +7,7 @@
 ### 20((a)) — 8 marks
 i) The equation for the acid dissociation constant, *K*<sub>a</sub>, of hexanoic acid is:
 
-- *K*<sub>a</sub> = `fraction numerator left square bracket straight C subscript 5 straight H subscript 11 COO to the power of ‒ right square bracket left square bracket straight H to the power of plus right square bracket over denominator left square bracket straight C subscript 5 straight H subscript 11 COOH right square bracket end fraction`; **[1 mark]**
+- *K*<sub>a</sub> = `(left square bracket C _ 5 H _ 11 COO ^ ‒ right square bracket left square bracket H ^ + right square bracket)/(left square bracket C _ 5 H _ 11 COOH right square bracket)`; **[1 mark]**
 
 ii)  The pH of a 0.100 mol dm<sup>–3</sup> solution of hexanoic acid:
 
@@ -20,7 +20,7 @@ ii)  The pH of a 0.100 mol dm<sup>–3</sup> solution of hexanoic acid:
 
 *K*<sub>a</sub> = 10<sup>‒p</sup><sup>*K*</sup><sup>a</sup> / *K*<sub>a</sub> = 10<sup>‒4.88</sup> / p*K*<sub>a</sub> = ‒log<sub>10</sub>*K*<sub>a</sub> / 4.88 = ‒log<sub>10</sub>*K*<sub>a</sub> / *K*<sub>a</sub> = 0.000013183 / 1.3183 x 10<sup>‒5</sup>
 
-10<sup>-4.88</sup> / 1.3183 x 10<sup>‒5</sup> / 0.000013183 = `fraction numerator left square bracket straight H to the power of plus right square bracket squared over denominator 0.1 end fraction`
+10<sup>-4.88</sup> / 1.3183 x 10<sup>‒5</sup> / 0.000013183 = $\frac{[ \mathrm{H} ^{ + } ] ^{2} }{0.1}$
 
 [H<sup>+</sup>] = √0.000013183 x 0.1 = 0.0011482 / 0.00115 / 1.1482 x 10<sup>‒3 </sup>/ 1.15 x 10<sup>‒3 </sup>(mol dm<sup>-3</sup>)
 
@@ -124,9 +124,9 @@ HSO<sub>4</sub><sup>−</sup> + H<sub>2</sub>O ⇌ H<sub>3</sub>O<sup>+</sup> + 
 ii) The concentration of a solution of sodium hydrogensulfate that has pH = 1.13, in g dm<sup>−3</sup> is:
 
 - **Expression for *****K***<sub>**a**</sub>**:**
-*K*<sub>a</sub> = `begin mathsize 16px style fraction numerator open square brackets straight H to the power of plus close square brackets open square brackets SO subscript 4 superscript 2 minus end superscript close square brackets over denominator open square brackets HSO subscript 4 superscript minus close square brackets end fraction end style`
+*K*<sub>a</sub> = $\frac{[ \mathrm{H}^{+} ] [ SO_{4}^{2 -} ]}{[ HSO_{4}^{-} ]}$
 **OR**
-*K*<sub>a</sub> = `fraction numerator begin mathsize 16px style stretchy left square bracket straight H to the power of plus stretchy right square bracket squared end style over denominator begin mathsize 16px style stretchy left square bracket HSO subscript 4 superscript minus stretchy right square bracket end style end fraction`; **[1 mark]**
+*K*<sub>a</sub> = $\frac{[ \mathrm{H}^{+} ]^{2}}{[ HSO_{4}^{-} ]}$; **[1 mark]**
 - **Calculation of *****K***<sub>**a**</sub>** from p*****K***<sub>**a**</sub>** and [H**<sup>**+**</sup>**] from pH:**
 *K*<sub>a</sub> = $10^{-pK_{a}}$ = 10<sup>-1.92</sup> (= 0.012023)
 **AND**
@@ -183,12 +183,12 @@ Maintains a **fairly **/ **nearly **constant pH; **[1 mark]**
 ii) The pH of the buffer prepared by dissolving 0.750 mol of sodium hydrogensulfate and 0.500 mol of sodium sulfate in distilled water to make 1.00 dm<sup>3</sup> of solution is:
 
 - **Substitution of values into *****K***<sub>**a**</sub>** expression:** 
-*K*<sub>a</sub> = `fraction numerator open square brackets straight H to the power of plus close square brackets open square brackets SO subscript 4 superscript 2 minus end superscript close square brackets over denominator open square brackets HSO subscript 4 superscript minus close square brackets end fraction`
- 10<sup>-1.92</sup> = `fraction numerator stretchy left square bracket straight H to the power of plus stretchy right square bracket space cross times space 0.500 over denominator 0.75 end fraction`; **[1 mark]**
+*K*<sub>a</sub> = $\frac{[ \mathrm{H}^{+} ] [ SO_{4}^{2 -} ]}{[ HSO_{4}^{-} ]}$
+ 10<sup>-1.92</sup> = $\frac{[ \mathrm{H}^{+} ] \times 0.500}{0.75}$; **[1 mark]**
 - **Rearrangement of *****K***<sub>**a**</sub>** expression:**
  [H<sup>+</sup>] = $\frac{K_{a}\times0.750}{0.500}$; **[1 mark]**
 - **Calculation of pH to at least 1 dp:** 
-pH = −log `open parentheses fraction numerator 0.012023 space cross times space 0.750 over denominator 0.500 end fraction close parentheses` (= −log 0 .018034) = 1.744; **[1 mark]**
+pH = −log $( \frac{0.012023 \times 0.750}{0.500} )$ (= −log 0 .018034) = 1.744; **[1 mark]**
 
 iii)  The pH** changes** that result in each case are:
 
@@ -213,7 +213,7 @@ iii)  The pH** changes** that result in each case are:
 - *When calculating the pH in part (ii), you would gain full marks for the correct answer with some working*
 - *An alternative method is to use the Henderson-Hasselbach equation:*
 
-  - *pH = p**K*<sub>*a*</sub>* + log*`fraction numerator open square brackets SO subscript 4 superscript 2 minus end superscript close square brackets over denominator open square brackets HSO subscript 4 superscript minus close square brackets end fraction`
+  - *pH = p**K*<sub>*a*</sub>* + log*$\frac{[ SO_{4}^{2 -} ]}{[ HSO_{4}^{-} ]}$
   - *pH = 1.92 + log *$\frac{0.500}{0.750}$* = 1.7439*
 - *In part (iii):*
 
@@ -270,9 +270,9 @@ To calculate *K*<sub>a</sub> for the ammonium ion:
 
 - Substitute into the *K*<sub>a</sub> expression:
 
-*K*<sub>a</sub> = `fraction numerator left square bracket NH subscript 3 right square bracket left square bracket straight H to the power of plus right square bracket over denominator left square bracket NH subscript 4 to the power of plus right square bracket end fraction`
+*K*<sub>a</sub> = $\frac{[ NH_{3} ] [ \mathrm{H} ^{ + } ]}{[ NH_{4}^{ + } ]}$
 
-*K*<sub>a</sub> = `fraction numerator open square brackets 7.41 cross times 10 to the power of negative 6 end exponent close square brackets squared over denominator 0.100 end fraction`
+*K*<sub>a</sub> = $\frac{[ 7.41 \times 10^{- 6} ]^{2}}{0.100}$
 
 *K*<sub>a</sub> = **5.5 × 10**<sup>**−10**</sup>** mol dm**<sup>**−3**</sup>
 
@@ -310,13 +310,13 @@ To calculate the mass of NH<sub>4</sub>Cl needed for a buffer of pH 9.50:
 
 - Rearrange the *K*<sub>a</sub> expression for NH<sub>4</sub><sup>+</sup>:
 
-*K*<sub>a</sub> = `fraction numerator left square bracket NH subscript 3 right square bracket left square bracket straight H to the power of plus right square bracket over denominator left square bracket NH subscript 4 to the power of plus right square bracket end fraction`
+*K*<sub>a</sub> = $\frac{[ NH_{3} ] [ \mathrm{H} ^{ + } ]}{[ NH_{4}^{ + } ]}$
 
-[NH<sub>4</sub><sup>+</sup>] = `fraction numerator left square bracket NH subscript 3 right square bracket left square bracket straight H to the power of plus right square bracket over denominator K subscript a end fraction`
+[NH<sub>4</sub><sup>+</sup>] = $\frac{[ NH_{3} ] [ \mathrm{H} ^{ + } ]}{K_{a}}$
 
 - Calculate [NH<sub>4</sub><sup>+</sup>] required:
 
-[NH<sub>4</sub><sup>+</sup>] = `fraction numerator open square brackets 0.100 close square brackets open square brackets 3.1623 cross times 10 to the power of negative 10 end exponent close square brackets over denominator 5.5 cross times 10 to the power of negative 10 end exponent end fraction`
+[NH<sub>4</sub><sup>+</sup>] = $\frac{[ 0.100 ] [ 3.1623 \times 10^{- 10} ]}{5.5 \times 10^{- 10} }$
 
 [NH<sub>4</sub><sup>+</sup>] = 0.057496 mol dm<sup>-3</sup>
 
@@ -715,7 +715,7 @@ The spectrum shows three peaks with distinct patterns:
 - *K*<sub>a</sub> = 10<sup>-p</sup><sup>*k*</sup><sup><sub>a</sub></sup><sup> </sup>
 
   - *K*a = 10<sup>-2.9</sup> = 1.25893 x 10<sup>-3</sup>
-- [H<sup>+</sup>] =`square root of straight K subscript straight a end root cross times open square brackets w e a k space a c i d close square brackets`
+- [H<sup>+</sup>] =$\sqrt{ \mathrm{K}_{a} } \times [ w e a k a c i d ]$
 
   - [H<sup>+</sup>] = $\sqrt{1.25893x10^{-3}}\times0.1$= 0.0112
 - pH= -log<sub>10</sub>[H<sup>+</sup>]

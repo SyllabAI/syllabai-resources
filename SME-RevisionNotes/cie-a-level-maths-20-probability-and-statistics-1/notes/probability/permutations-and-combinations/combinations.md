@@ -53,10 +53,10 @@ ABC, ACB, BAC, BCA, CAB, CBA, ABD, ADB, etc
 
 - If we want to find the number of ways to **choose** *r *items out of *n *different objects, but we don’t mind the order in which they are chosen, then we could find the number of **permutations of *****r *****items from *****n ***and then divide by the number of ways of arranging each combination
 
-  - Recall that the formula for *r *permutations of *n *items is `begin mathsize 16px style P presuperscript n subscript r equals fraction numerator n factorial over denominator open parentheses n minus r close parentheses factorial end fraction end style`
+  - Recall that the formula for *r *permutations of *n *items is $P pre^{n}_{r} = \frac{n factorial}{( n - r ) factorial}$
   - This would include *r *! ways of repeating each combination
-  - The formula for *r ***combinations** of *n *items is `begin mathsize 16px style fraction numerator P presuperscript n subscript r over denominator r factorial end fraction equals fraction numerator n factorial over denominator open parentheses n minus r close parentheses factorial r factorial end fraction end style`
-- The function `begin mathsize 16px style fraction numerator n factorial over denominator open parentheses n minus r close parentheses factorial r factorial end fraction end style` can be written as `begin mathsize 16px style C presuperscript n subscript r end style` or `begin mathsize 16px style open parentheses table row n row r end table close parentheses end style`  and is often read as ‘*n choose r’*
+  - The formula for *r ***combinations** of *n *items is $\frac{P pre^{n}_{r} }{r factorial} = \frac{n factorial}{( n - r ) \text{factorial} r factorial}$
+- The function $\frac{n factorial}{( n - r ) \text{factorial} r factorial}$ can be written as $C pre^{n}_{r}$ or $( \begin{gathered} n \\ r \end{gathered} )$  and is often read as ‘*n choose r’*
 - Make sure you can find and use the `size 16px C presuperscript size 16px n subscript size 16px r`button on your calculator
 - The formulae for permutations and combinations satisfy the following relationship:
 
@@ -64,15 +64,15 @@ ABC, ACB, BAC, BCA, CAB, CBA, ABD, ADB, etc
 
 #### What do I need to know about combinations?
 
-- The formula `begin mathsize 16px style C presuperscript n subscript r equals fraction numerator n factorial over denominator left parenthesis n minus r right parenthesis factorial r factorial end fraction end style` is also known as a **binomial** coefficient
+- The formula $C pre^{n}_{r} = \frac{n factorial}{( n - r ) \text{factorial} r factorial}$ is also known as a **binomial** coefficient
 - `size 16px C presuperscript size 16px n subscript size 16px n size 16px equals size 16px C presuperscript size 16px n subscript size 16px 0 size 16px equals size 16px 1`
 
   - It is easy to see that there is only one way of arranging *n *objects out of *n *and also there can only be one way of arranging 0 objects out of *n*
   - By considering the formula for this, it reinforces the fact that 0! Must equal 1
-- The binomial coefficients are symmetrical, so `size 16px C presuperscript size 16px n subscript size 16px r size 16px equals size 16px C presuperscript size 16px n subscript size 16px n size 16px minus size 16px r end subscript`
+- The binomial coefficients are symmetrical, so $\text{size} 16px C pre^{size} 16px n_{size 16px r \text{size} 16px = \text{size} 16px C pre^{size} 16px n_{size} 16px n \text{size} 16px - \text{size} 16px r}$
 
   - This can be seen by considering the formula for `size 16px C presuperscript size 16px n subscript size 16px r`
-  - `size 16px C presuperscript size 16px n subscript size 16px n size 16px minus size 16px r end subscript size 16px equals fraction numerator size 16px n size 16px factorial over denominator begin mathsize 16px style stretchy left parenthesis n minus r stretchy right parenthesis end style size 16px factorial size 16px left parenthesis size 16px n size 16px minus size 16px left parenthesis size 16px n size 16px minus size 16px r size 16px right parenthesis size 16px right parenthesis size 16px factorial end fraction size 16px equals fraction numerator size 16px n size 16px factorial over denominator begin mathsize 16px style r factorial left parenthesis n minus r right parenthesis factorial end style end fraction size 16px equals size 16px C presuperscript size 16px n subscript size 16px r`
+  - $\text{size} 16px C pre^{size} 16px n_{size 16px n \text{size} 16px - \text{size} 16px r} \text{size} 16px = \frac{size 16px n \text{size} 16px factorial}{( n - r ) \text{size} 16px \text{factorial} \text{size} 16px ( \text{size} 16px n \text{size} 16px - \text{size} 16px ( \text{size} 16px n \text{size} 16px - \text{size} 16px r \text{size} 16px ) \text{size} 16px ) \text{size} 16px factorial} \text{size} 16px = \frac{size 16px n \text{size} 16px factorial}{r \text{factorial} ( n - r ) factorial} \text{size} 16px = \text{size} 16px C pre^{size} 16px n_{size} 16px r$
 
 #### How do I know when to multiply or add?
 

@@ -14,16 +14,16 @@
 
 $11-7=4\,15-11=4$
 
-> *Use the formula for an arithmetic sequence *`u subscript n equals a plus open parentheses n minus 1 close parentheses d`
+> *Use the formula for an arithmetic sequence *$u_{n} = a + ( n - 1 ) d$
 
 - $a$* is the first term = 7*
 - $d$* is the common difference = 4*
 
-`table row blank blank cell 7 plus 4 open parentheses n minus 1 close parentheses end cell end table`
+$\begin{gathered} 7 + 4 ( n - 1 ) \end{gathered}$
 
 > *Simplify*
 
-`table row blank blank cell 7 plus 4 n minus 4 end cell end table`
+$\begin{gathered} 7 + 4 n - 4 \end{gathered}$
 
 $4n+3$
 
@@ -37,9 +37,9 @@ $4n+3$
 ### 17((b)) — 2 marks
 > *Substituting  *$n=1,n=2,n=3$* into the expression gives*
 
-`80 minus 2 open parentheses 1 close parentheses equals 78
-80 minus 2 open parentheses 2 close parentheses equals 76
-80 minus 2 open parentheses 3 close parentheses equals 74`
+$80 - 2 ( 1 ) = 78
+80 - 2 ( 2 ) = 76
+80 - 2 ( 3 ) = 74$
 
 **[B1]**
 
@@ -137,14 +137,14 @@ $4n+1$
 
 **Method 2**
 
-It is an arithmetic sequence and the formula is `a plus open parentheses n minus 1 close parentheses d`
+It is an arithmetic sequence and the formula is $a + ( n - 1 ) d$
 
 - $a$ is the first term
 - $d$ is the common difference
 
-`a equals 5
-d equals 4
-5 plus open parentheses n minus 1 close parentheses cross times 4`
+$a = 5
+d = 4
+5 + ( n - 1 ) \times 4$
 
 Simplify
 
@@ -176,7 +176,7 @@ $n=1\rightarrow40-3\times1=37\,n=2\rightarrow40-3\times2=34\,n=3\rightarrow40-3\
 ### 3() — 2 marks
 Equate the *n*th term to 5 and solve the equation
 
-`table row cell 40 minus 3 n space end cell equals cell space 5 end cell row cell negative 3 n space end cell equals cell space minus 35 space end cell row cell n space end cell equals cell 11.66... end cell end table`
+$\begin{gathered} 40 - 3 n & = 5 \\ - 3 n & = - 35 \\ n & = 11.66... \end{gathered}$
 
 **[M1]**
 

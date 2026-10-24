@@ -53,7 +53,7 @@ guided_study: true
   - First sketch the $x$ and $y$-axes
   - Identify the $y$-intercept and mark it on the $y$-axis
   
-    - The $y$-intercept of $y=ax^{2}+bx+c$ will be `open parentheses 0 comma space c close parentheses`
+    - The $y$-intercept of $y=ax^{2}+bx+c$ will be $( 0 , c )$
     - It can also be found by substituting in $x=0$
   - Find all root(s) (0, 1 or 2) of the equation and mark them on the $x$-axis
   
@@ -71,21 +71,21 @@ guided_study: true
 ### How do I find the coordinates of the turning point by completing the square?
 
 - The coordinates of the **turning point **(vertex) of a quadratic graph can be found by **completing the square**
-- For a quadratic graph written in the form `y equals a open parentheses x minus p close parentheses squared plus q`
+- For a quadratic graph written in the form $y = a ( x - p )^{2} + q$
 
-  - the minimum or maximum point has **coordinates **`open parentheses p comma space q close parentheses`
+  - the minimum or maximum point has **coordinates **$( p , q )$
 - Beware: there is a **sign change** for the $x$-coordinate
 
-  - A curve with equation `y equals open parentheses x minus 3 close parentheses squared plus 2`, has a minimum point at `open parentheses 3 comma space 2 close parentheses`
-  - A curve with equation `y equals open parentheses x plus 3 close parentheses squared plus 2`, has a minimum point at `open parentheses negative 3 comma space 2 close parentheses`
+  - A curve with equation $y = ( x - 3 )^{2} + 2$, has a minimum point at $( 3 , 2 )$
+  - A curve with equation $y = ( x + 3 )^{2} + 2$, has a minimum point at $( - 3 , 2 )$
 - The value of $a$ does **not** **affect the coordinates** of the turning point but it **will change the shape** of the graph
 
   - If it is positive, the graph will be a u-shape
   
-    - The curve `y equals 5 open parentheses x minus 3 close parentheses squared plus 2` has a** minimum** point at `open parentheses 3 comma space 2 close parentheses`
+    - The curve $y = 5 ( x - 3 )^{2} + 2$ has a** minimum** point at $( 3 , 2 )$
   - If it is negative, the graph will be an n-shape
   
-    - The curve `y equals negative 8 open parentheses x minus 3 close parentheses squared plus 2` has a **maximum** point at `open parentheses 3 comma space 2 close parentheses`
+    - The curve $y = - 8 ( x - 3 )^{2} + 2$ has a **maximum** point at $( 3 , 2 )$
 
 ### How do I find the coordinates of the turning point using differentiation?
 
@@ -113,11 +113,11 @@ guided_study: true
 > 
 > > *Factorise the quadratic expression*
 > 
-> `y equals open parentheses x minus 2 close parentheses open parentheses x minus 3 close parentheses`
+> $y = ( x - 2 ) ( x - 3 )$
 > 
 > > *Solve *$y=0$
 > 
-> `open parentheses x minus 2 close parentheses open parentheses x minus 3 close parentheses equals 0 comma space so space x equals 2 space or space x equals 3`
+> $( x - 2 ) ( x - 3 ) = 0 , \text{so} x = 2 \text{or} x = 3$
 > 
 > > *So the **x**-intercepts are given by the coordinates*
 > 
@@ -140,11 +140,11 @@ guided_study: true
 > 
 > > *Find the minimum point by completing the square (or through differentiation)*
 > 
-> > *For example, complete the square by writing the equation in the form *`a open parentheses x minus p close parentheses squared plus q`* (you may need to look this method up)*
+> > *For example, complete the square by writing the equation in the form *$a ( x - p )^{2} + q$* (you may need to look this method up)*
 > 
-> `table row cell x squared minus 6 x plus 13 end cell equals cell open parentheses x minus 3 close parentheses squared minus 9 plus 13 end cell row blank equals cell open parentheses x minus 3 close parentheses squared plus 4 end cell end table`
+> $\begin{gathered} x^{2} - 6 x + 13 & = ( x - 3 )^{2} - 9 + 13 \\ = ( x - 3 )^{2} + 4 \end{gathered}$
 > 
-> > *The turning point of *`y equals a open parentheses x minus p close parentheses squared plus q`* has coordinates *`open parentheses p comma space q close parentheses`
+> > *The turning point of *$y = a ( x - p )^{2} + q$* has coordinates *$( p , q )$
 > *The minimum point is therefore*
 > 
 > *(3, 4)*
@@ -172,11 +172,11 @@ guided_study: true
 > 
 > > *Set the derivative equal to zero and solve for *$x$
 > 
-> `table row 0 equals cell negative 2 x minus 4 end cell row cell 2 x end cell equals cell negative 4 end cell row x equals cell negative 2 end cell end table`
+> $\begin{gathered} 0 = - 2 x - 4 \\ 2 x & = - 4 \\ x = - 2 \end{gathered}$
 > 
 > > *Substitute this value of *$x$* back into the original equation for *$y$
 > 
-> `table row y equals cell negative open parentheses negative 2 close parentheses squared minus 4 open parentheses negative 2 close parentheses minus 4 end cell row y equals cell negative 4 plus 8 minus 4 end cell row cell space y end cell equals 0 end table`
+> $\begin{gathered} y = - ( - 2 )^{2} - 4 ( - 2 ) - 4 \\ y = - 4 + 8 - 4 \\ y & = 0 \end{gathered}$
 > 
 > > *This shows that the maximum point has coordinates*
 > 
@@ -190,16 +190,16 @@ guided_study: true
 
 - If the **vertex **and **one other point **are known
 
-  - Use the form `y equals a open parentheses x minus p close parentheses squared plus q` to fill in $p$ and $q$
+  - Use the form $y = a ( x - p )^{2} + q$ to fill in $p$ and $q$
   
-    - The vertex is at `open parentheses p comma space q close parentheses`
-  - Then substitute in the other known point `open parentheses x comma space y close parentheses` to find $a$
+    - The vertex is at $( p , q )$
+  - Then substitute in the other known point $( x , y )$ to find $a$
 - If the **roots **($x$-intercepts) and **one other point** are known
 
-  - Use the form `y equals a open parentheses x minus x subscript 1 close parentheses open parentheses x minus x subscript 2 close parentheses` to fill in $x_{1}$ and $x_{2}$
+  - Use the form $y = a ( x - x_{1} ) ( x - x_{2} )$ to fill in $x_{1}$ and $x_{2}$
   
-    - The roots are at `open parentheses x subscript 1 space comma space 0 close parentheses` and `open parentheses x subscript 2 space comma space 0 close parentheses`
-  - Then substitute in the other known point `open parentheses x comma space y close parentheses` to find $a$
+    - The roots are at $( x_{1} , 0 )$ and $( x_{2} , 0 )$
+  - Then substitute in the other known point $( x , y )$ to find $a$
 - If $a=1$ then you only need either the **vertex** or the **roots**
 
 > **Worked Example**
@@ -211,15 +211,15 @@ guided_study: true
 > 
 > > *The graph shows the roots and a point on the curve (in this case the *$y$*-intercept)*
 > 
-> > *Use the form *`y equals a open parentheses x minus x subscript 1 close parentheses open parentheses x minus x subscript 2 close parentheses`* to fill in *$x_{1}$* and *$x_{2}$* by inspection*
+> > *Use the form *$y = a ( x - x_{1} ) ( x - x_{2} )$* to fill in *$x_{1}$* and *$x_{2}$* by inspection*
 > 
-> > *The roots are at *`open parentheses x subscript 1 space comma space 0 close parentheses`* and *`open parentheses x subscript 2 space comma space 0 close parentheses`
+> > *The roots are at *$( x_{1} , 0 )$* and *$( x_{2} , 0 )$
 > 
-> `y equals a open parentheses x minus 2 close parentheses open parentheses x minus 3 close parentheses`
+> $y = a ( x - 2 ) ( x - 3 )$
 > 
 > > *Substitute in the other known point (0, 24) to find *$a$
 > 
-> `table row 24 equals cell a open parentheses 0 minus 2 close parentheses open parentheses 0 minus 3 close parentheses end cell row 24 equals cell a open parentheses negative 2 close parentheses open parentheses negative 3 close parentheses end cell row 24 equals cell 6 a end cell row 4 equals a end table`
+> $\begin{gathered} 24 = a ( 0 - 2 ) ( 0 - 3 ) \\ 24 = a ( - 2 ) ( - 3 ) \\ 24 = 6 a \\ 4 = a \end{gathered}$
 > 
 > > *Write the full equation*
 > 
@@ -235,15 +235,15 @@ guided_study: true
 > 
 > > *The graph shows the vertex and a point on the curve*
 > 
-> > *Use the form *`y equals a open parentheses x minus p close parentheses squared plus q`* to fill in *$p$* and *$q$* by inspection*
+> > *Use the form *$y = a ( x - p )^{2} + q$* to fill in *$p$* and *$q$* by inspection*
 > 
-> > *The vertex is at *`open parentheses p comma space q close parentheses`
+> > *The vertex is at *$( p , q )$
 > 
-> `y equals a open parentheses x minus 9 close parentheses squared minus 16`
+> $y = a ( x - 9 )^{2} - 16$
 > 
 > > *Substitute in the other known point (2, 82) to find *$a$
 > 
-> `table row 82 equals cell a open parentheses 2 minus 9 close parentheses squared minus 16 end cell row 82 equals cell a open parentheses negative 7 close parentheses squared minus 16 end cell row 82 equals cell 49 a minus 16 end cell row 98 equals cell 49 a end cell row 2 equals a end table`
+> $\begin{gathered} 82 = a ( 2 - 9 )^{2} - 16 \\ 82 = a ( - 7 )^{2} - 16 \\ 82 = 49 a - 16 \\ 98 = 49 a \\ 2 = a \end{gathered}$
 > 
 > > *Write the full equation*
 > 

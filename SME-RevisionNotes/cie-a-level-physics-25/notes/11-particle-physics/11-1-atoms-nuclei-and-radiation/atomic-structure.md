@@ -109,6 +109,6 @@ guided_study: true
 > 
 > $1u=1.66\times10^{-27}\mathrm{kg}$
 > 
-> `285 space straight u space equals space 285 space cross times space open parentheses 1.66 cross times 10 to the power of negative 27 end exponent close parentheses space kg`
+> $285 \mathrm{u} = 285 \times ( 1.66 \times 10^{- 27} ) \text{kg}$
 > 
-> `285 space straight u space equals space 4.73 cross times 10 to the power of negative 25 end exponent space kg space open parentheses 3 space straight s. straight f. close parentheses`
+> $285 \mathrm{u} = 4.73 \times 10^{- 25} \text{kg} ( 3 \mathrm{s} . \mathrm{f} . )$

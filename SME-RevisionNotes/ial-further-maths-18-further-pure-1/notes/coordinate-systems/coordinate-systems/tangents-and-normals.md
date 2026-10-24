@@ -19,36 +19,36 @@ guided_study: false
 
 ### What is a general point on a parabola?
 
-- `open parentheses 3 comma space 6 close parentheses` is a **fixed point** on the parabola $y^{2}=12x$
-- `open parentheses 3 t squared comma space 6 t close parentheses` is a **general point** on the parabola $y^{2}=12x$
+- $( 3 , 6 )$ is a **fixed point** on the parabola $y^{2}=12x$
+- $( 3 t^{2} , 6 t )$ is a **general point** on the parabola $y^{2}=12x$
 
   - It is **algebraic**
   - but it still satisfies the **equation**
   - and it can **move **along the curve (depending on *t*)
 - General points are formed from **parametric equations**
 
-  - A general point on $y^{2}=4ax$ is `open parentheses a t squared comma space 2 a t close parentheses`
+  - A general point on $y^{2}=4ax$ is $( a t^{2} , 2 a t )$
 - You can have two or more** distinct** general points
 
-  - `open parentheses 3 p squared comma space 6 p close parentheses`and `open parentheses 3 q squared comma space 6 q close parentheses` are general points *P*  and *Q * on $y^{2}=12x$
+  - $( 3 p^{2} , 6 p )$and $( 3 q^{2} , 6 q )$ are general points *P*  and *Q * on $y^{2}=12x$
 
 ### How do I find the tangent or normal to a parabola at a general point?
 
-- To find the** tangent** to the parabola $y^{2}=12x$ at the point `open parentheses 3 t squared comma space 6 t close parentheses`
+- To find the** tangent** to the parabola $y^{2}=12x$ at the point $( 3 t^{2} , 6 t )$
 
-  - use `y minus y subscript 1 equals m open parentheses x minus x subscript 1 close parentheses`
+  - use $y - y_{1} = m ( x - x_{1} )$
   - substitute in $x_{1}=3t^{2}$ and $y_{1}=6t$
-  - find $m$ using **calculus** from $\frac{dy}{dx}$ at `open parentheses 3 t squared comma space 6 t close parentheses`
+  - find $m$ using **calculus** from $\frac{dy}{dx}$ at $( 3 t^{2} , 6 t )$
   
     - Make $y$ the subject of $y^{2}=12x$
     - $y=\sqrt{12x}=2\sqrt{3}x^{\frac{1}{2}}$
     - Ignore ±√ for now
     - $\frac{dy}{dx}=2\sqrt{3}\times\frac{1}{2}x^{-\frac{1}{2}}=\sqrt{\frac{3}{x}}$
     - At $x_{1}=3t^{2}$, $\frac{dy}{dx}=\sqrt{\frac{3}{3t^{2}}}=\frac{1}{t}$
-  - The tangent is `y minus 6 t equals 1 over t open parentheses x minus 3 t squared close parentheses`
+  - The tangent is $y - 6 t = \frac{1}{t} ( x - 3 t^{2} )$
 - The **normal **has a perpendicular gradient $-\frac{1}{m}$
 
-  - `y minus 6 t equals negative t open parentheses x minus 3 t squared close parentheses`
+  - $y - 6 t = - t ( x - 3 t^{2} )$
 
 ## How do I use tangents and normals that pass through general points?
 
@@ -61,14 +61,14 @@ guided_study: false
 > If you know **parametric** and** implicit** differentiation, they are also acceptable methods to find $\frac{dy}{dx}$.
 
 > **Worked Example**
-> The point $P$ with coordinates `open parentheses 4 t squared comma space 8 t close parentheses` lies on the parabola $y^{2}=16x$.
+> The point $P$ with coordinates $( 4 t^{2} , 8 t )$ lies on the parabola $y^{2}=16x$.
 > 
-> (a)  Use calculus to show that the equation of the normal at $P$ is  `y plus t x equals 4 t open parentheses t squared plus 2 close parentheses`
+> (a)  Use calculus to show that the equation of the normal at $P$ is  $y + t x = 4 t ( t^{2} + 2 )$
 > 
-> > *The normal at **P**   has the form *`y minus y subscript 1 equals m open parentheses x minus x subscript 1 close parentheses`*  *
+> > *The normal at **P**   has the form *$y - y_{1} = m ( x - x_{1} )$*  *
 > *Substitute in *$x_{1}=4t^{2}$* and *$y_{1}=8t$
 > 
-> `y minus 8 t equals m open parentheses x minus 4 t squared close parentheses`* *
+> $y - 8 t = m ( x - 4 t^{2} )$* *
 > 
 > > *The gradient of the normal is the negative reciprocal of the gradient of the tangent*
 > *Find the gradient of the tangent*
@@ -79,44 +79,44 @@ guided_study: false
 > 
 > > *Then differentiate*
 > 
-> > `table row cell fraction numerator straight d y over denominator straight d x end fraction end cell equals cell 4 cross times 1 half x to the power of negative 1 half end exponent end cell row blank equals cell fraction numerator 2 over denominator square root of x end fraction end cell end table`
+> > $\begin{gathered} \frac{ \mathrm{d} y}{ \mathrm{d} x} & = 4 \times 1 \frac{1}{2} x^{- 1 \frac{1}{2}} \\ = \frac{2}{ \sqrt{x} } \end{gathered}$
 > * *
 > 
 > > *Then substitute in *$x_{1}=4t^{2}$
 > 
-> `table row cell fraction numerator straight d y over denominator straight d x end fraction end cell equals cell fraction numerator 2 over denominator square root of 4 t squared end root end fraction end cell row blank equals cell 1 over t end cell end table`
+> $\begin{gathered} \frac{ \mathrm{d} y}{ \mathrm{d} x} & = \frac{2}{ \sqrt{4 t^{2}} } \\ = \frac{1}{t} \end{gathered}$
 > 
 > > *The negative reciprocal is *$-t$
 > *Therefore the equation of the normal is*
 > 
-> `y minus 8 t equals negative t open parentheses x minus 4 t squared close parentheses`* *
+> $y - 8 t = - t ( x - 4 t^{2} )$* *
 > 
 > > *Expand and rearrange*
 > 
-> `table row cell y minus 8 t end cell equals cell negative t x plus 4 t cubed end cell row y equals cell negative t x plus 4 t cubed plus 8 t end cell row cell y plus t x end cell equals cell 4 t cubed plus 8 t end cell end table`
+> $\begin{gathered} y - 8 t & = - t x + 4 t^{3} \\ y = - t x + 4 t^{3} + 8 t \\ y + t x & = 4 t^{3} + 8 t \end{gathered}$
 > 
 > > *Then factorise the right-hand side*
 > 
-> `y plus t x equals 4 t open parentheses t squared plus 2 close parentheses`
+> $y + t x = 4 t ( t^{2} + 2 )$
 > 
-> (b)  Hence find the coordinates of the three points on the parabola at which the normal passes through the point `open parentheses 9 comma space 0 close parentheses`.
+> (b)  Hence find the coordinates of the three points on the parabola at which the normal passes through the point $( 9 , 0 )$.
 > 
-> > *The equation of the normal above must pass through the point *`open parentheses 9 comma space 0 close parentheses`
+> > *The equation of the normal above must pass through the point *$( 9 , 0 )$
 > *Substitute in *$x=9$* and *$y=0$
 > 
-> `0 plus 9 t equals 4 t open parentheses t squared plus 2 close parentheses`* *
+> $0 + 9 t = 4 t ( t^{2} + 2 )$* *
 > 
 > > *This forms an equation in *$t$
 > *Rearrange and solve*
 > 
-> `table row cell 9 t end cell equals cell 4 t cubed plus 8 t end cell row 0 equals cell 4 t cubed minus t end cell row 0 equals cell t open parentheses 4 t squared minus 1 close parentheses end cell row 0 equals cell t open parentheses 2 t minus 1 close parentheses open parentheses 2 t plus 1 close parentheses end cell end table`* *
+> $\begin{gathered} 9 t & = 4 t^{3} + 8 t \\ 0 = 4 t^{3} - t \\ 0 = t ( 4 t^{2} - 1 ) \\ 0 = t ( 2 t - 1 ) ( 2 t + 1 ) \end{gathered}$* *
 > 
 > $t=0,t=\frac{1}{2},t=-\frac{1}{2}$
 > 
-> > *The question asks for the coordinates of the points on the curve, **P**, *`open parentheses 4 t squared comma space 8 t close parentheses`
+> > *The question asks for the coordinates of the points on the curve, **P**, *$( 4 t^{2} , 8 t )$
 > *Substitute in the three values of *$t$
 > 
-> `open parentheses 0 comma space 0 close parentheses comma space space open parentheses 1 comma space 4 close parentheses comma space space open parentheses 1 comma space minus 4 close parentheses`
+> $( 0 , 0 ) , ( 1 , 4 ) , ( 1 , - 4 )$
 > 
 > **It helps to imagine the situation visually (below) to check the answers make sense**
 > 
@@ -130,8 +130,8 @@ guided_study: false
 
 ### What is a general point on a rectangular hyperbola?
 
-- `open parentheses 5 comma space 5 close parentheses` is a **fixed point** on the rectangular hyperbola $xy=25$
-- `open parentheses 5 t comma space fraction numerator space 5 over denominator t end fraction close parentheses` is a **general point** on the rectangular hyperbola $xy=25$
+- $( 5 , 5 )$ is a **fixed point** on the rectangular hyperbola $xy=25$
+- $( 5 t , \frac{ 5}{t} )$ is a **general point** on the rectangular hyperbola $xy=25$
 
   - It is **algebraic**
   - but it still satisfies the **equation**
@@ -140,27 +140,27 @@ guided_study: false
     - $t\neq0$
 - General points are formed from **parametric equations**
 
-  - A general point on $xy=c^{2}$ is `open parentheses c t comma space c over t close parentheses`
+  - A general point on $xy=c^{2}$ is $( c t , \frac{c}{t} )$
 - You can have two or more** distinct** general points
 
-  - `open parentheses 5 p comma space 5 over p close parentheses` and `open parentheses 5 q comma space 5 over q close parentheses` are general points *P*  and *Q*  on $xy=25$
+  - $( 5 p , \frac{5}{p} )$ and $( 5 q , \frac{5}{q} )$ are general points *P*  and *Q*  on $xy=25$
 
 ### How do I find the tangent or normal to a rectangular hyperbola at a general point?
 
-- To find the** tangent** to the rectangular hyperbola $xy=25$ at the point `open parentheses 5 t comma space 5 over t close parentheses`
+- To find the** tangent** to the rectangular hyperbola $xy=25$ at the point $( 5 t , \frac{5}{t} )$
 
-  - use `y minus y subscript 1 equals m open parentheses x minus x subscript 1 close parentheses`
+  - use $y - y_{1} = m ( x - x_{1} )$
   - substitute in $x_{1}=5t$ and $y_{1}=\frac{5}{t}$
-  - find $m$ using **calculus** from $\frac{dy}{dx}$ at `open parentheses 5 t comma space 5 over t close parentheses`
+  - find $m$ using **calculus** from $\frac{dy}{dx}$ at $( 5 t , \frac{5}{t} )$
   
     - Make $y$ the subject of $xy=25$
     - $y=\frac{25}{x}=25x^{-1}$
-    - `fraction numerator straight d y over denominator straight d x end fraction equals 25 cross times open parentheses negative 1 close parentheses x to the power of negative 2 end exponent equals negative 25 over x squared`
-    - At $x_{1}=5t$, `fraction numerator straight d y over denominator straight d x end fraction equals negative 25 over open parentheses 5 t close parentheses squared equals negative 1 over t squared`
-  - The tangent is `y minus 5 over t equals negative 1 over t squared open parentheses x minus 5 t close parentheses`
+    - $\frac{ \mathrm{d} y}{ \mathrm{d} x} = 25 \times ( - 1 ) x^{- 2} = - \frac{25}{x^{2}}$
+    - At $x_{1}=5t$, $\frac{ \mathrm{d} y}{ \mathrm{d} x} = - \frac{25}{( 5 t )^{2}} = - \frac{1}{t^{2}}$
+  - The tangent is $y - \frac{5}{t} = - \frac{1}{t^{2}} ( x - 5 t )$
 - The **normal **has a perpendicular gradient $-\frac{1}{m}$
 
-  - `y minus 5 over t equals t squared open parentheses x minus 5 t close parentheses`
+  - $y - \frac{5}{t} = t^{2} ( x - 5 t )$
 
 ### How do I use tangents and normals that pass through general points?
 
@@ -173,14 +173,14 @@ guided_study: false
 > If you know **parametric** and** implicit** differentiation, they are also acceptable methods to find $\frac{dy}{dx}$.
 
 > **Worked Example**
-> The point $P$ with coordinates `open parentheses 2 p comma space 2 over p close parentheses` and the point $Q$ with coordinates `open parentheses 2 q comma space 2 over q close parentheses` lie on the rectangular hyperbola $xy=4$, where $p\neq\pmq$.
+> The point $P$ with coordinates $( 2 p , \frac{2}{p} )$ and the point $Q$ with coordinates $( 2 q , \frac{2}{q} )$ lie on the rectangular hyperbola $xy=4$, where $p\neq\pmq$.
 > 
 > (a)  Use calculus to show that the equation of the tangent to the curve at $P$ is  $p^{2}y=-x+4p$.
 > 
-> > *The tangent at **P ** has the form *`y minus y subscript 1 equals m open parentheses x minus x subscript 1 close parentheses`*  *
+> > *The tangent at **P ** has the form *$y - y_{1} = m ( x - x_{1} )$*  *
 > *Substitute in *$x_{1}=2p$* and *$y_{1}=\frac{2}{p}$
 > 
-> `y minus 2 over p equals m open parentheses x minus 2 p close parentheses`
+> $y - \frac{2}{p} = m ( x - 2 p )$
 > 
 > > *Find the gradient of the tangent, for example, first make **y**  the subject of the curve*
 > 
@@ -188,19 +188,19 @@ guided_study: false
 > 
 > > *Then differentiate*
 > 
-> `table row cell fraction numerator straight d y over denominator straight d x end fraction end cell equals cell negative 4 x to the power of negative 2 end exponent end cell row blank equals cell negative 4 over x squared end cell end table`
+> $\begin{gathered} \frac{ \mathrm{d} y}{ \mathrm{d} x} & = - 4 x^{- 2} \\ = - \frac{4}{x^{2}} \end{gathered}$
 > 
 > > *Then substitute in *$x_{1}=2p$* and simplify*
 > 
-> `table row cell fraction numerator straight d y over denominator straight d x end fraction end cell equals cell negative 4 over open parentheses 2 p close parentheses squared end cell row blank equals cell negative fraction numerator 4 over denominator 4 p squared end fraction end cell row blank equals cell negative 1 over p squared end cell end table`
+> $\begin{gathered} \frac{ \mathrm{d} y}{ \mathrm{d} x} & = - \frac{4}{( 2 p )^{2}} \\ = - \frac{4}{4 p^{2}} \\ = - \frac{1}{p^{2}} \end{gathered}$
 > 
 > > *Therefore the equation of the tangent is*
 > 
-> `y minus 2 over p equals negative 1 over p squared open parentheses x minus 2 p close parentheses`
+> $y - \frac{2}{p} = - \frac{1}{p^{2}} ( x - 2 p )$
 > 
 > > *Multiply both sides by *$p^{2}$* then rearrange*
 > 
-> `table row cell p squared y minus 2 p end cell equals cell negative open parentheses x minus 2 p close parentheses end cell row cell p squared y minus 2 p end cell equals cell negative x plus 2 p end cell end table`
+> $\begin{gathered} p^{2} y - 2 p & = - ( x - 2 p ) \\ p^{2} y - 2 p & = - x + 2 p \end{gathered}$
 > 
 > > *Make *$p^{2}y$* the subject*
 > 
@@ -223,19 +223,19 @@ guided_study: false
 > 
 > > *Cross-multiply and expand*
 > 
-> `table row cell q squared open parentheses negative x plus 4 p close parentheses end cell equals cell p squared open parentheses negative x plus 4 q close parentheses end cell row cell negative q squared x plus 4 p q squared end cell equals cell negative p squared x plus 4 p squared q end cell end table`* *
+> $\begin{gathered} q^{2} ( - x + 4 p ) & = p^{2} ( - x + 4 q ) \\ - q^{2} x + 4 p q^{2} & = - p^{2} x + 4 p^{2} q \end{gathered}$* *
 > 
 > > *Bring the *$x$*  terms to one side and factorise*
 > 
-> `p squared x minus q squared x equals 4 p squared q minus 4 p q squared
-> open parentheses p squared minus q squared close parentheses x equals 4 p q open parentheses p minus q close parentheses`
+> $p^{2} x - q^{2} x = 4 p^{2} q - 4 p q^{2}
+> ( p^{2} - q^{2} ) x = 4 p q ( p - q )$
 > 
 > > *Make *$x$*  the subject and use the difference of two squares*
 > 
-> `table row x equals cell fraction numerator 4 p q open parentheses p minus q close parentheses over denominator p squared minus q squared end fraction end cell row x equals cell fraction numerator 4 p q open parentheses p minus q close parentheses over denominator open parentheses p minus q close parentheses open parentheses p plus q close parentheses end fraction end cell end table`
+> $\begin{gathered} x = \frac{4 p q ( p - q )}{p^{2} - q^{2}} \\ x = \frac{4 p q ( p - q )}{( p - q ) ( p + q )} \end{gathered}$
 > 
 > > *As *$p\neq\pmq$*, the brackets will never be zero*
-> *This means the *`open parentheses p minus q close parentheses`* bracket can be cancelled, giving the final answer*
+> *This means the *$( p - q )$* bracket can be cancelled, giving the final answer*
 > 
 > $x=\frac{4pq}{p+q}$
 > 

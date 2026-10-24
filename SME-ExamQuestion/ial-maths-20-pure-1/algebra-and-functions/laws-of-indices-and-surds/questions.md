@@ -34,7 +34,7 @@ Write the following in the form $a\sqrt{b}$
 
 (ii) $4\sqrt{3}-\sqrt{12}+4\sqrt{48}$
 
-(iii) `open parentheses 2 square root of 2 close parentheses cubed plus 3 square root of 2`
+(iii) $( 2 \sqrt{2} )^{3} + 3 \sqrt{2}$
 
 ## Q4 — easy — 2 marks · exam-questions
 
@@ -54,14 +54,14 @@ Write $\frac{6x^{2}+5x^{3}}{x^{4}}$ in the form $ax^{m}+bx^{n}$ where $a,b,m\mat
 ## Q7 — easy — 3 marks · exam-questions
 
 ### 1() — 3 marks — structured
-Show that `open parentheses p plus 2 square root of 5 close parentheses open parentheses p minus 2 square root of 5 close parentheses space equals space p squared minus 20`.
+Show that $( p + 2 \sqrt{5} ) ( p - 2 \sqrt{5} ) = p^{2} - 20$.
 
 ## Q8 — easy — 3 marks · exam-questions
 
 ### 1() — 3 marks — structured
 Simplify
 
-`fraction numerator 28 x squared open parentheses 2 x squared plus 3 close parentheses over denominator 7 x to the power of begin display style 1 half end style end exponent end fraction`
+$\frac{28 x^{2} ( 2 x^{2} + 3 )}{7 x^{1 \frac{1}{2}} }$
 
 ## Q9 — easy — 3 marks · exam-questions
 
@@ -127,7 +127,7 @@ Simplify $3\sqrt{5}+4\sqrt{3}-7\sqrt{3}+\sqrt{5}$
 ### 2() — 2 marks — structured
 By expanding and simplifying, show that
 
-`open parentheses square root of 3 minus 5 close parentheses open parentheses square root of 3 plus 5 close parentheses space equals space minus 22`
+$( \sqrt{3} - 5 ) ( \sqrt{3} + 5 ) = - 22$
 
 ## Q16 — medium — 4 marks · exam-questions
 
@@ -145,18 +145,18 @@ Solve the equation  $6-x\sqrt{7}=\frac{2x}{\sqrt{7}}$, giving your answer in the
 ## Q18 — medium — 4 marks · exam-questions
 
 ### 1() — 4 marks — structured
-A rectangle has an area of 14 m<sup>2</sup> and a length of `open parentheses 3 minus square root of 2 close parentheses` m.  Find the width of the rectangle, showing clear algebraic working. Give your answer as an exact value.
+A rectangle has an area of 14 m<sup>2</sup> and a length of $( 3 - \sqrt{2} )$ m.  Find the width of the rectangle, showing clear algebraic working. Give your answer as an exact value.
 
 ## Q19 — medium — 7 marks · exam-questions
 
 ### 1() — 2 marks — structured
-Show that  `open parentheses 3 minus square root of x close parentheses squared over x` can be written as $9x^{-1}-6x^{-\frac{1}{2}}+1$.
+Show that  $\frac{( 3 - \sqrt{x} )^{2}}{x}$ can be written as $9x^{-1}-6x^{-\frac{1}{2}}+1$.
 
 ### 2() — 3 marks — structured
 Given that $128\sqrt{2}=2^{a}$, find the value of *a*.
 
 ### 3() — 2 marks — structured
-Show that  `fraction numerator x open parentheses 2 x to the power of 4 minus square root of x close parentheses over denominator square root of x end fraction` can be written as $2x^{a}-x^{b}$, where *a* and *b* are rational numbers to be found.
+Show that  $\frac{x ( 2 x^{4} - \sqrt{x} )}{ \sqrt{x} }$ can be written as $2x^{a}-x^{b}$, where *a* and *b* are rational numbers to be found.
 
 ## Q20 — hard — 3 marks · exam-questions
 
@@ -185,7 +185,7 @@ $7x^{-3}\div2x^{-\frac{1}{3}}$
 $\frac{2}{3}x^{\frac{7}{6}}\times\frac{5}{2}x^{-\frac{5}{3}}$
 
 ### 3() — 3 marks — structured
-`open parentheses 3 x to the power of negative 2 over 3 end exponent close parentheses squared divided by 6 x to the power of negative 1 over 6 end exponent`
+$( 3 x^{- \frac{2}{3} } )^{2} \div 6 x^{- \frac{1}{6} }$
 
 ## Q23 — hard — 4 marks · exam-questions
 
@@ -208,7 +208,7 @@ Show that  $2\sqrt{3}+4\sqrt{12}-3\sqrt{75}=-5\sqrt{3}$
 ### 2() — 2 marks — structured
 By expanding and simplifying, show that
 
-`open parentheses square root of 3 minus 5 close parentheses open parentheses 5 minus square root of 3 close parentheses equals 10 square root of 3 minus 28`
+$( \sqrt{3} - 5 ) ( 5 - \sqrt{3} ) = 10 \sqrt{3} - 28$
 
 ## Q25 — hard — 4 marks · exam-questions
 
@@ -226,18 +226,18 @@ Solve the equation $66+x\sqrt{75}=\frac{4x}{\sqrt{3}}$, giving your answer in th
 ## Q27 — hard — 4 marks · exam-questions
 
 ### 1() — 4 marks — structured
-The two parallel sides of a trapezium have lengths of `open parentheses 4 plus square root of 3 close parentheses` cm and `open parentheses 6 minus 3 square root of 3 close parentheses` cm, and the area of the trapezium is `open parentheses 10 square root of 3 minus 6 close parentheses` cm<sup>2</sup>.   Showing clear algebraic working, determine the perpendicular distance between the two parallel sides of the trapezium.  Give your answer in the form $a\sqrt{b}$ where *a* and *b* are integers.
+The two parallel sides of a trapezium have lengths of $( 4 + \sqrt{3} )$ cm and $( 6 - 3 \sqrt{3} )$ cm, and the area of the trapezium is $( 10 \sqrt{3} - 6 )$ cm<sup>2</sup>.   Showing clear algebraic working, determine the perpendicular distance between the two parallel sides of the trapezium.  Give your answer in the form $a\sqrt{b}$ where *a* and *b* are integers.
 
 ## Q28 — hard — 7 marks · exam-questions
 
 ### 1() — 2 marks — structured
-Show that `fraction numerator open parentheses 5 plus 2 square root of x close parentheses squared over denominator square root of x end fraction`  can be written as $25x^{-\frac{1}{2}}+20+4x^{\frac{1}{2}}$.
+Show that $\frac{( 5 + 2 \sqrt{x} )^{2}}{ \sqrt{x} }$  can be written as $25x^{-\frac{1}{2}}+20+4x^{\frac{1}{2}}$.
 
 ### 2() — 3 marks — structured
 Show that $\frac{729}{4\sqrt{3}-\sqrt{27}}=3^{a}$, where *a* is a rational number to be found.
 
 ### 3() — 2 marks — structured
-Show that  `fraction numerator 2 square root of x over denominator square root of 2 end fraction open parentheses square root of 8 x end root plus 6 x close parentheses`  can be written as $ay^{2}+by^{3}$, where $y=\sqrt{2x}$ and *a* and *b* are integers to be found.
+Show that  $\frac{2 \sqrt{x}{ \sqrt{2} } ( \sqrt{8} x} + 6 x )$  can be written as $ay^{2}+by^{3}$, where $y=\sqrt{2x}$ and *a* and *b* are integers to be found.
 
 ## Q29 — very_hard — 3 marks · exam-questions
 
@@ -260,13 +260,13 @@ Simplify $x^{-\frac{2}{3}}\divx^{-\frac{3}{4}}$
 ### 1() — 3 marks — structured
 Simplify the following expressions, giving your answers in the form $ax^{n}$ where *a* and *n* are rational numbers and any fractions are in lowest terms.
 
-`open parentheses 8 x squared close parentheses to the power of negative 1 third end exponent cross times 1 fourth x to the power of negative 1 third end exponent`
+$( 8 x^{2} )^{- 1 \frac{1}{3}} \times 1 \frac{1}{4} x^{- 1 \frac{1}{3}}$
 
 ### 2() — 3 marks — structured
-`open parentheses 2 over 9 x to the power of 1 half end exponent cross times 1 over 18 x to the power of negative 3 over 4 end exponent close parentheses to the power of negative 1 fourth end exponent`
+$( \frac{2}{9} x^{1 \frac{1}{2}} \times \frac{1}{18} x^{- \frac{3}{4} } )^{- 1 \frac{1}{4}}$
 
 ### 3() — 3 marks — structured
-`open parentheses 8 x to the power of negative 2 over 3 end exponent close parentheses to the power of 2 over 3 end exponent over open parentheses 64 x to the power of negative 1 third end exponent close parentheses to the power of 1 third end exponent`
+`( 8 x ^ - 2 / 3 ) ^ 2 / 3 / ( 64 x ^ - 1 third ) ^ 1 third`
 
 ## Q32 — very_hard — 4 marks · exam-questions
 
@@ -279,7 +279,7 @@ $y^{\frac{3}{4}}$
 $y^{-\frac{1}{2}}$
 
 ### 3() — 2 marks — structured
-`open parentheses y to the power of 1 half end exponent close parentheses to the power of negative 3 end exponent`
+$( y^{1 \frac{1}{2}} )^{- 3}$
 
 ## Q33 — very_hard — 6 marks · exam-questions
 
@@ -289,7 +289,7 @@ Show that $2\sqrt{18}+\sqrt{50}-5\sqrt{32}=a\sqrt{b}$, where *a* and *b* are int
 ### 2() — 3 marks — structured
 By expanding and simplifying, show that
 
-`open parentheses square root of 12 minus 3 close parentheses open parentheses 2 minus square root of 75 close parentheses equals 19 square root of 3 minus 36`
+$( \sqrt{12} - 3 ) ( 2 - \sqrt{75} ) = 19 \sqrt{3} - 36$
 
 ## Q34 — very_hard — 5 marks · exam-questions
 
@@ -307,10 +307,10 @@ Solve the equation  $\sqrt{20}+\frac{\sqrt{5}}{2x}=\frac{1}{x\sqrt{45}}$
 ## Q36 — very_hard — 12 marks · exam-questions
 
 ### 1() — 2 marks — structured
-Expand `open parentheses a plus b square root of 5 close parentheses squared`.
+Expand $( a + b \sqrt{5} )^{2}$.
 
 ### 2() — 2 marks — structured
-A square has an area of `open parentheses 49 plus 12 square root of 5 close parentheses` m<sup>2</sup> and a side length of `open parentheses a plus b square root of 5 close parentheses`  m.
+A square has an area of $( 49 + 12 \sqrt{5} )$ m<sup>2</sup> and a side length of $( a + b \sqrt{5} )$  m.
 
 Show that $ab=6$, and explain why this proves that *a* and *b* must both be non-negative.
 

@@ -25,7 +25,7 @@ guided_study: false
 
 - **XED can be calculated** using the following formula:
 
-`begin mathsize 16px style text XED =  end text fraction numerator percent sign space change space in space quantity space demanded space of space good space straight A over denominator percent sign space change space in space price space of space good space straight B end fraction space equals space fraction numerator percent sign triangle space in thin space QD subscript straight A over denominator percent sign triangle in space straight P subscript straight B end fraction end style`
+`text XED = end text (% change in quantity demanded of good A)/(% change in price of good B) = (% \Delta in QD _ A)/(% \Delta in P _ B)`
 
 > **Worked Example**
 > Leading into the release of *FIFA 22 Ultimate*, EA Sports **discounted** the price of *FIFA 21* from £90 to £60. A game store in Winchester saw an **increase in sales** of their PlayStation 5 consoles. Prior to the discount, they were selling 50 units a week, and **after the discount** this increased to 80 units.
@@ -34,24 +34,24 @@ guided_study: false
 > 
 > **Step 1:  Calculate the % change in QD**<sub>**A**</sub>
 > 
-> **  **`percent sign triangle QD subscript A space equals space fraction numerator 80 minus 50 over denominator 50 end fraction space cross times 100
+> **  **$\% \Delta QD_{A} = \frac{80 - 50}{50} \times 100
 > 
-> percent sign triangle Q D subscript A space equals space 60 percent sign`** **
+> \% \Delta Q D_{A} = 60 \%$** **
 > 
 > **Step 2: Calculate the % change in P**<sub>**B**</sub>
 > 
-> `percent sign triangle P subscript B space equals space fraction numerator 60 space minus space 90 over denominator 90 end fraction space straight x space 100
+> $\% \Delta P_{B} = \frac{60 - 90}{90} \mathrm{x} 100
 > 
-> percent sign triangle P subscript B space equals space minus 33.3 percent sign`
+> \% \Delta P_{B} = - 33.3 \%$
 > 
 > **Step 3: Insert the above values in the XED formula**
 > 
-> `X ED space equals space fraction numerator percent sign triangle space in thin space QD subscript A over denominator percent sign triangle in space P subscript B end fraction
+> $X \text{ED} = \frac{\% \Delta \text{in} QD_{A} }{\% \Delta \text{in} P_{B} } 
 > 
-> X ED space equals space fraction numerator 60 percent sign over denominator negative 33.3 percent sign end fraction
+> X \text{ED} = \frac{60 \%}{- 33.3 \%} 
 > 
-> X ED space equals space minus 1.8
-> `
+> X \text{ED} = - 1.8
+>$
 > 
 > **Step 4: Explain the relationship between the two products**
 > 
@@ -72,24 +72,24 @@ guided_study: false
 > 
 > **Step 1: Calculate % change in QD**<sub>**A**</sub>** using formula**
 > 
-> `percent sign triangle QD subscript A space equals space fraction numerator 3 minus 2 over denominator 2 end fraction space cross times 100
+> $\% \Delta QD_{A} = \frac{3 - 2}{2} \times 100
 > 
-> percent sign triangle QD subscript straight A space equals space 50 percent sign`
+> \% \Delta QD_{A} = 50 \%$
 > 
 > **Step 2: Calculate % change in P**<sub>**B**</sub>** using formula**
 > 
-> **   **`begin mathsize 16px style percent sign triangle straight P subscript straight B space equals space fraction numerator 60 space minus space 50 over denominator 50 end fraction space straight x space 100
+> **   **$\% \Delta \mathrm{P}_{B} = \frac{60 - 50}{50} \mathrm{x} 100
 > 
-> percent sign triangle straight P subscript straight B space equals space 20 percent sign end style`
+> \% \Delta \mathrm{P}_{B} = 20 \%$
 > 
 > **Step 3: Insert the above values in the XED formula**
 > 
-> `XED space equals space fraction numerator percent sign triangle space in thin space QD subscript straight A over denominator percent sign triangle in space straight P subscript straight B end fraction
+> $\text{XED} = \frac{\% \Delta \text{in} QD_{A} }{\% \Delta \text{in} \mathrm{P}_{B} } 
 > 
-> XED space equals space fraction numerator plus 50 percent sign over denominator plus 20 percent sign end fraction
+> \text{XED} = \frac{+ 50 \%}{+ 20 \%} 
 > 
-> XED space equals space plus 2.5
-> `
+> \text{XED} = + 2.5
+>$
 > 
 > The positive** sign **indicates that these two products are **substitutes** and the high value suggests they are **strong substitutes**
 

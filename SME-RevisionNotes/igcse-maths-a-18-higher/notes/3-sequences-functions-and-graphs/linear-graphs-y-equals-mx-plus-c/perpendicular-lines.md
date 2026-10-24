@@ -36,7 +36,7 @@ guided_study: true
 
 ### How can I tell if two lines are perpendicular?
 
-- Given two lines in the form $y=mx+c$, simply check if their gradients `open parentheses m close parentheses` are **negative reciprocals** of one another
+- Given two lines in the form $y=mx+c$, simply check if their gradients $( m )$ are **negative reciprocals** of one another
 
   - $y=\frac{1}{3}x+10$ and $y=-3x-18$ **are perpendicular**
   - $y=\frac{1}{7}x+16$ and $y=7x-8$ **are not perpendicular**
@@ -61,7 +61,7 @@ guided_study: true
 - **Substitute the given point** into the equation for the perpendicular and **solve for **$c$
 
   - Substitute (8, 3), into $y=-\frac{5}{4}x+c$
-  - `3 equals negative 5 over 4 open parentheses 8 close parentheses plus c`
+  - $3 = - \frac{5}{4} ( 8 ) + c$
   - $c=13$
 - Substitute the value of $c$ to find the **equation of the perpendicular**
 
@@ -72,7 +72,7 @@ guided_study: true
 > **Worked Example**
 > The line *L* has equation $y-2x+2=0$.
 > 
-> Find the equation of the line perpendicular to *L* which passes through the point `open parentheses 2 comma space minus 3 close parentheses`.
+> Find the equation of the line perpendicular to *L* which passes through the point $( 2 , - 3 )$.
 > 
 > Leave your answer in the form $ax+by+c=0$ where $a$, $b$ and $c$ are integers.
 > 
@@ -80,7 +80,7 @@ guided_study: true
 > 
 > > *Rearrange **L** into the form *$y=mx+c$* so we can identify the gradient*
 > 
-> `table row cell y minus 2 x plus 2 end cell equals 0 row y equals cell 2 x minus 2 end cell end table`
+> $\begin{gathered} y - 2 x + 2 & = 0 \\ y = 2 x - 2 \end{gathered}$
 > 
 > *Gradient of ***L*** is 2*
 > 
@@ -88,14 +88,14 @@ guided_study: true
 > 
 > $m=-\frac{1}{2}$
 > 
-> > *Substitute the point *`open parentheses 2 comma space minus 3 close parentheses`* into the equation *$y=-\frac{1}{2}x+c$* *
+> > *Substitute the point *$( 2 , - 3 )$* into the equation *$y=-\frac{1}{2}x+c$* *
 > *Solve for *$c$
 > 
-> `table row y equals cell negative 1 half x plus c end cell row cell negative 3 end cell equals cell negative 1 half open parentheses 2 close parentheses plus c end cell row cell negative 3 end cell equals cell negative 1 plus c end cell row c equals cell negative 2 end cell end table`
+> $\begin{gathered} y = - 1 \frac{1}{2} x + c \\ - 3 & = - 1 \frac{1}{2} ( 2 ) + c \\ - 3 & = - 1 + c \\ c = - 2 \end{gathered}$
 > 
 > > *Write the full equation of the line*
 > 
-> `table row y equals cell negative 1 half x minus 2 end cell end table`
+> $\begin{gathered} y = - 1 \frac{1}{2} x - 2 \end{gathered}$
 > 
 > > *The question asks for the line to be written in the form *$ax+by+c=0$* where *$a$*, *$b$* and *$c$* are integers*
 > 
@@ -134,7 +134,7 @@ guided_study: true
 > > *Find the coordinates of the **midpoint **of the line segment*
 > *The perpendicular bisector will pass through this point*
 > 
-> `open parentheses fraction numerator 4 plus 8 over denominator 2 end fraction comma space fraction numerator negative 6 plus 6 space over denominator 2 end fraction close parentheses space equals space open parentheses 6 comma space 0 close parentheses`
+> $( \frac{4 + 8}{2} , \frac{- 6 + 6 }{2} ) = ( 6 , 0 )$
 > 
 > > *Find the gradient of the line segment*
 > 
@@ -151,7 +151,7 @@ guided_study: true
 > 
 > > *Substitute in the midpoint (6, 0) and solve to find *$c$
 > 
-> `table row 0 equals cell negative 1 third open parentheses 6 close parentheses plus c end cell row 0 equals cell negative 2 plus c end cell row c equals 2 end table`
+> $\begin{gathered} 0 = - 1 \frac{1}{3} ( 6 ) + c \\ 0 = - 2 + c \\ c = 2 \end{gathered}$
 > 
 > > *Write the full equation of the perpendicular bisector*
 > 

@@ -112,18 +112,18 @@ $k=\frac{\DeltaY}{\DeltaJ}$
 
 - The multiplier takes a different form depending on how many sectors the economy contains. In every case, the formula is:
 
-`straight k space equals space fraction numerator 1 over denominator The space marginal space propensities space to space withdraw end fraction
+$\mathrm{k} = \frac{1}{The \text{marginal} \text{propensities} \text{to} withdraw} 
 
-straight k space equals space fraction numerator 1 over denominator open parentheses MPS space plus space MRT space plus space MPM close parentheses end fraction`
+ \mathrm{k} = \frac{1}{( \text{MPS} + \text{MRT} + \text{MPM} )}$
 
 - A **withdrawal** (leakage) is any income *not* passed on as consumption of domestic output - saving, tax and imports
 
 | Economy type | Leakages present | Multiplier formula |
 |---|---|---|
-| **Closed, no government** (*2-sector*) | Saving only | `straight k space equals space 1 over MPS space equals space fraction numerator 1 over denominator open parentheses 1 space minus space MPC close parentheses end fraction` |
-| **Closed, with government** (*3-sector*) | Saving + taxation | `straight k space equals space fraction numerator 1 over denominator open parentheses MPS space plus space MRT close parentheses end fraction` |
-| **Open, no government** (*3-sector*) | Saving + imports | `straight k space equals space fraction numerator 1 over denominator open parentheses MPS space plus space MPM close parentheses end fraction` |
-| **Open, with government** (*4-sector*) | Saving + taxation + imports | `straight k space equals space fraction numerator 1 over denominator open parentheses MPS space plus space MRT space plus space MPM close parentheses end fraction` |
+| **Closed, no government** (*2-sector*) | Saving only | $\mathrm{k} = \frac{1}{MPS} = \frac{1}{( 1 - \text{MPC} )}$ |
+| **Closed, with government** (*3-sector*) | Saving + taxation | $\mathrm{k} = \frac{1}{( \text{MPS} + \text{MRT} )}$ |
+| **Open, no government** (*3-sector*) | Saving + imports | $\mathrm{k} = \frac{1}{( \text{MPS} + \text{MPM} )}$ |
+| **Open, with government** (*4-sector*) | Saving + taxation + imports | $\mathrm{k} = \frac{1}{( \text{MPS} + \text{MRT} + \text{MPM} )}$ |
 
 - The more leakages present, the smaller the multiplier
 
@@ -137,9 +137,9 @@ straight k space equals space fraction numerator 1 over denominator open parenth
 > | Economy | Calculation | Multiplier |
 > |---|---|---|
 > | Closed, no government | $k=\frac{1}{\mathrm{MPS}}=\frac{1}{0.2}$ | 5.00 |
-> | Closed, with government | `straight k space equals space fraction numerator 1 over denominator open parentheses MPS space plus space MRT close parentheses end fraction<br>k space equals space fraction numerator 1 over denominator open parentheses 0.2 space plus space 0.15 close parentheses end fraction` | 2.86 |
-> | Open, no government | `straight k space equals space fraction numerator 1 over denominator open parentheses MPS space plus space MRT close parentheses end fraction<br>k space equals space fraction numerator 1 over denominator open parentheses 0.2 space plus space 0.15 close parentheses end fraction` | 2.86 |
-> | Open, with government | `straight k space equals space fraction numerator 1 over denominator open parentheses MPS space plus space MRT space plus space MPM close parentheses end fraction<br>straight k space equals space fraction numerator 1 over denominator open parentheses 0.2 space plus space 0.15 space equals space 0.15 close parentheses end fraction` | 2.00 |
+> | Closed, with government | $\mathrm{k} = \frac{1}{( \text{MPS} + \text{MRT} )} \\ k = \frac{1}{( 0.2 + 0.15 )}$ | 2.86 |
+> | Open, no government | $\mathrm{k} = \frac{1}{( \text{MPS} + \text{MRT} )} \\ k = \frac{1}{( 0.2 + 0.15 )}$ | 2.86 |
+> | Open, with government | $\mathrm{k} = \frac{1}{( \text{MPS} + \text{MRT} + \text{MPM} )} \\ \mathrm{k} = \frac{1}{( 0.2 + 0.15 = 0.15 )}$ | 2.00 |
 > 
 > The open economy with government has the smallest multiplier because 50 cents of every additional dollar of income leaks out of the domestic circular flow
 

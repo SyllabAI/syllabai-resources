@@ -23,13 +23,13 @@ guided_study: true
 - The modulus of $z$ is written `open vertical bar z close vertical bar`
 - If $z=x+iy$, then we can use **Pythagoras** to show…
 
-  - `open vertical bar z close vertical bar equals square root of x squared plus y squared end root`
+  - $\left| z \right| = \sqrt{x^{2} + y^{2}}$
 - A modulus is always **positive**
 - the modulus is related to the complex **conjugate** by…
 
-  - `z z to the power of asterisk times equals z to the power of asterisk times z equals open vertical bar z close vertical bar squared`
-  - This is because `z z to the power of asterisk times equals open parentheses x plus straight i y close parentheses open parentheses x minus straight i y close parentheses equals x squared plus y squared`
-- In general, `open vertical bar z subscript 1 plus z subscript 2 close vertical bar not equal to open vertical bar z subscript 1 close vertical bar plus vertical line z subscript 2 vertical line`
+  - $z z^{asterisk} \times = z^{asterisk} \times z = \left| z \right|^{2}$
+  - This is because $z z^{asterisk} \times = ( x + \mathrm{i} y ) ( x - \mathrm{i} y ) = x^{2} + y^{2}$
+- In general, $\left| z_{1} + z_{2} \right| \text{eq} \left| z_{1} \right| + \vert z_{2} \vert$
 
   - e.g. both $z_{1}=3+4i$ and $z_{2}=-3+4i$ have a modulus of 5, but $z_{1}+z_{2}$ simplifies to $8i$ which has a modulus of 8
 
@@ -72,20 +72,20 @@ The complex number $z=x+iy$ is said to be in Cartesian form. There are, however,
 ### How do I write a complex number in modulus-argument (polar) form?
 
 - The **Cartesian form **of a complex number, $z=x+iy$, is written in terms of its real part, $x$, and its imaginary part, $y$
-- If we let `r equals vertical line z vertical line` and $θ=\mathrm{arg}z$, then it is possible to write a complex number in terms of its modulus, $r$, and its argument, $θ$, called the **modulus-argument (polar) form**, given by...
+- If we let $r = \vert z \vert$ and $θ=\mathrm{arg}z$, then it is possible to write a complex number in terms of its modulus, $r$, and its argument, $θ$, called the **modulus-argument (polar) form**, given by...
 
-  - `z equals r open parentheses cos space theta plus isin space theta close parentheses`
+  - $z = r ( \cos \\theta + \text{isin} \\theta )$
 - It is usual to give arguments in the range $-π<θ\leqπ$
 
-  - Negative arguments should be shown clearly, e.g. `z equals 2 open parentheses cos space open parentheses negative pi over 3 close parentheses plus isin space open parentheses negative pi over 3 close parentheses close parentheses`without simplifying `cos invisible function application left parenthesis negative pi over 3 right parenthesis`  to either `cos invisible function application open parentheses pi over 3 close parentheses` or $\frac{1}{2}$
+  - Negative arguments should be shown clearly, e.g. $z = 2 ( \cos ( - \frac{\pi }{3} ) + \text{isin} ( - \frac{\pi }{3} ) )$without simplifying $\cos ( - \frac{\pi }{3} )$  to either $\cos ( \frac{\pi }{3} )$ or $\frac{1}{2}$
   - Occasionally you could be asked to give arguments in the range $0\leqθ<2π$
-- If a complex number is given in the form `z equals r open parentheses cos space theta minus isin space theta close parentheses`, then it is not currently in modulus-argument (polar) form due to the minus sign, but can be converted as follows…
+- If a complex number is given in the form $z = r ( \cos \\theta - \text{isin} \\theta )$, then it is not currently in modulus-argument (polar) form due to the minus sign, but can be converted as follows…
 
-  - By considering transformations of trigonometric functions, we see that `negative sin invisible function application theta identical to sin invisible function application left parenthesis negative theta right parenthesis` and `cos invisible function application theta identical to cos invisible function application left parenthesis negative theta right parenthesis`
-  - Therefore `z equals r open parentheses cos invisible function application theta minus isin invisible function application theta close parentheses` can be written as `z equals r open parentheses cos invisible function application open parentheses negative theta close parentheses plus isin invisible function application open parentheses negative theta close parentheses close parentheses`, now in the correct form and indicating an argument of $-θ$
+  - By considering transformations of trigonometric functions, we see that $- \sin \\theta \equiv \sin ( - \\theta )$ and $\cos \\theta \equiv \cos ( - \\theta )$
+  - Therefore $z = r ( \cos \\theta - \text{isin} \\theta )$ can be written as $z = r ( \cos ( - \\theta ) + \text{isin} ( - \\theta ) )$, now in the correct form and indicating an argument of $-θ$
 - To convert from modulus-argument (polar) form back to Cartesian form, evaluate the real and imaginary parts
 
-  - E.g. `z equals 2 open parentheses cos invisible function application open parentheses negative pi over 3 close parentheses plus isin invisible function application open parentheses negative pi over 3 close parentheses close parentheses` becomes `z equals 2 open parentheses 1 half plus straight i open parentheses negative fraction numerator square root of 3 over denominator 2 end fraction close parentheses close parentheses equals 1 minus square root of 3 blank straight i`
+  - E.g. $z = 2 ( \cos ( - \frac{\pi }{3} ) + \text{isin} ( - \frac{\pi }{3} ) )$ becomes $z = 2 ( 1 \frac{1}{2} + \mathrm{i} ( - \frac{ \sqrt{3} }{2} ) ) = 1 - \sqrt{3} \mathrm{i}$
 
 ![8-2-3_notes_fig3](../../../assets/bcb7d3943b0c-8-2-3-notes-fig3.png)
 
@@ -93,16 +93,16 @@ The complex number $z=x+iy$ is said to be in Cartesian form. There are, however,
 
 - When two complex numbers, $z_{1}$ and $z_{2}$, are **multiplied** to give $z_{1}z_{2}$, their **moduli** are also **multiplied**
 
-  - `open vertical bar z subscript 1 z subscript 2 close vertical bar equals open vertical bar z subscript 1 close vertical bar vertical line z subscript 2 vertical line`
+  - $\left| z_{1} z_{2} \right| = \left| z_{1} \right| \vert z_{2} \vert$
 - When two complex numbers, $z_{1}$ and $z_{2}$, are **divided** to give $\frac{z_{1}}{z_{2}}$, their **moduli** are also **divided**
 
-  - `open vertical bar z subscript 1 over z subscript 2 close vertical bar equals fraction numerator open vertical bar z subscript 1 close vertical bar over denominator open vertical bar z subscript 2 close vertical bar end fraction`
+  - `| z _ 1 / z _ 2 | = (| z _ 1 |)/(| z _ 2 |)`
 - When two complex numbers, $z_{1}$ and $z_{2}$, are **multiplied** to give $z_{1}z_{2}$, their **arguments** are **added**
 
-  - `arg space open parentheses z subscript 1 z subscript 2 close parentheses equals arg space z subscript 1 plus arg space z subscript 2`
+  - $\text{arg} ( z_{1} z_{2} ) = \text{arg} z_{1} + \text{arg} z_{2}$
 - When two complex numbers, $z_{1}$and $z_{2}$, are **divided** to give $\frac{z_{1}}{z_{2}}$, their **arguments** are **subtracted**
 
-  - `arg space open parentheses z subscript 1 over z subscript 2 close parentheses equals arg space z subscript 1 minus arg space z subscript 2`
+  - $\text{arg} ( \frac{z_{1}}{z_{2}} ) = \text{arg} z_{1} - \text{arg} z_{2}$
 
 ### How do I multiply complex numbers in modulus-argument (polar) form?
 
@@ -113,7 +113,7 @@ The complex number $z=x+iy$ is said to be in Cartesian form. There are, however,
   - $\mathrm{arg}(z_{1}z_{2})=\mathrm{arg}z_{1}+\mathrm{arg}z_{2}$
 - So if $z_{1}=r_{1}(\mathrm{cos}θ_{1}+\mathrm{isin}θ_{1})$ and $z_{2}=r_{2}(\mathrm{cos}θ_{2}+\mathrm{isin}θ_{2})$ then the rules above give…
 
-  - `z subscript 1 z subscript 2 equals r subscript 1 r subscript 2 open parentheses cos space open parentheses theta subscript 1 plus theta subscript 2 close parentheses plus isin space open parentheses theta subscript 1 plus theta subscript 2 close parentheses close parentheses blank`
+  - $z_{1} z_{2} = r_{1} r_{2} ( \cos ( \theta_{1} + \theta_{2} ) + \text{isin} ( \theta_{1} + \theta_{2} ) )$
 - Sometimes the new argument, $θ_{1}+θ_{2}$, does not lie in the range $-π<θ\leqπ$ (or  $0\leqθ<2π$  if this is being used)
 
   - An out-of-range argument can be adjusted by either **adding or subtracting **$2π$
@@ -130,11 +130,11 @@ The complex number $z=x+iy$ is said to be in Cartesian form. There are, however,
 
 - To **divide** two complex numbers, $z_{1}$ and $z_{2}$ in modulus-argument (polar) form, we use the rules from above to **divide their moduli** and **subtract their arguments**
 
-  - `open vertical bar z subscript 1 over z subscript 2 close vertical bar blank equals fraction numerator open vertical bar z subscript 1 close vertical bar over denominator vertical line z subscript 2 vertical line end fraction`
-  - `arg space open parentheses z subscript 1 over z subscript 2 close parentheses equals arg space z subscript 1 minus arg space z subscript 2`
+  - `| z _ 1 / z _ 2 | _ = (| z _ 1 |)/(| z _ 2 |)`
+  - $\text{arg} ( \frac{z_{1}}{z_{2}} ) = \text{arg} z_{1} - \text{arg} z_{2}$
 - So if $z_{1}=r_{1}(\mathrm{cos}θ_{1}+\mathrm{isin}θ_{1})$ and $z_{2}=r_{2}(\mathrm{cos}θ_{2}+\mathrm{isin}θ_{2})$ then the rules above give…
 
-  - `z subscript 1 over z subscript 2 equals r subscript 1 over r subscript 2 open parentheses cos space open parentheses theta subscript 1 minus theta subscript 2 close parentheses plus isin space open parentheses theta subscript 1 minus theta subscript 2 close parentheses close parentheses blank`
+  - `z _ 1 / z _ 2 = r _ 1 / r _ 2 ( cos ( theta _ 1 - theta _ 2 ) + isin ( theta _ 1 - theta _ 2 ) ) _`
 - As with multiplication, sometimes the new argument, $θ_{1}-θ_{2}$, can lie out of the range $-π<θ\leqπ$ (or the range $0\leqθ<2π$ if this is being used)
 
   - You can **add or subtract **$2π$ to bring out-of-range arguments back in range

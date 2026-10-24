@@ -51,10 +51,10 @@ $W=\frac{Q^{2}}{2C}$
 > 
 > **Step 2: The change in energy stored is proportional to the change in p.d**
 > 
-> `increment W space equals space 1 half C V subscript 2 squared space minus space 1 half C V subscript 1 squared space equals space 1 half C open parentheses V subscript 2 squared space minus space V subscript 1 squared close parentheses`
+> $\Delta W = 1 \frac{1}{2} C V_{2}^{2} - 1 \frac{1}{2} C V_{1}^{2} = 1 \frac{1}{2} C ( V_{2}^{2} - V_{1}^{2} )$
 > 
 > **Step 3: Substitute in values**
 > 
-> `increment W space equals space 1 half space cross times space open parentheses 1500 cross times 10 to the power of negative 6 end exponent close parentheses space cross times space left parenthesis 30 squared space minus space 10 squared right parenthesis`
+> $\Delta W = 1 \frac{1}{2} \times ( 1500 \times 10^{- 6} ) \times ( 30^{2} - 10^{2} )$
 > 
 > $\DeltaW=0.6J$

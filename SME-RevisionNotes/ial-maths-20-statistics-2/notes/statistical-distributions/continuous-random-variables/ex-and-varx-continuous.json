@@ -131,7 +131,7 @@
   },
   {
    "type": "paragraph",
-   "md": "`bold E bold left parenthesis bold italic X bold right parenthesis bold equals bold italic mu bold equals bold integral subscript bold minus bold infinity end subscript superscript bold infinity bold italic x bold f bold left parenthesis bold italic x bold right parenthesis bold space bold d bold italic x`"
+   "md": "$E ( X ) = mu = integral_{ } - \\text{infinity} ^{ } \\text{infinity} x f ( x ) d x$"
   },
   {
    "type": "bullets",
@@ -143,15 +143,15 @@
   },
   {
    "type": "paragraph",
-   "md": "`bold Var bold left parenthesis bold italic X bold right parenthesis bold equals bold italic sigma to the power of bold 2 bold equals bold integral subscript bold minus bold infinity end subscript superscript bold infinity bold italic x to the power of bold 2 bold f bold left parenthesis bold italic x bold right parenthesis bold d bold italic x bold minus bold italic mu to the power of bold 2`"
+   "md": "$Var ( X ) = \\text{sigma} ^{ } 2 = integral_{ } - \\text{infinity} ^{ } \\text{infinity} x^{ } 2 f ( x ) d x - mu^{ } 2$"
   },
   {
    "type": "bullets",
-   "md": "- This is equivalent to $Σx^{2}P(X=x)-μ^{2}$  for discrete random variables\n- Be careful about confusing $E(X^{2})$  and `begin mathsize 16px style open square brackets E open parentheses X close parentheses close square brackets squared end style`\n\n  - `E left parenthesis X squared right parenthesis equals integral subscript negative infinity end subscript superscript infinity x squared straight f left parenthesis x right parenthesis space straight d x`                “mean of the squares”\n  - `open square brackets E left parenthesis X right parenthesis close square brackets squared equals open square brackets integral subscript negative infinity end subscript superscript infinity x space straight f left parenthesis x right parenthesis space straight d x close square brackets squared`       “square of the mean”\n  - If you are happy with the difference between these and how to calculate them the variance formula becomes very straightforward"
+   "md": "- This is equivalent to $Σx^{2}P(X=x)-μ^{2}$  for discrete random variables\n- Be careful about confusing $E(X^{2})$  and $[ E ( X ) ]^{2}$\n\n  - $E ( X ^{2} ) = integral_{ - } \\text{infinity} ^{infinity} x ^{2} \\mathrm{f} ( x ) \\mathrm{d} x$                “mean of the squares”\n  - $[ E ( X ) ] ^{2} = [ integral_{ - } \\text{infinity} ^{infinity} x \\mathrm{f} ( x ) \\mathrm{d} x ] ^{2}$       “square of the mean”\n  - If you are happy with the difference between these and how to calculate them the variance formula becomes very straightforward"
   },
   {
    "type": "paragraph",
-   "md": "`Var left parenthesis X right parenthesis equals straight E left parenthesis X squared right parenthesis minus open square brackets straight E left parenthesis X right parenthesis close square brackets squared`"
+   "md": "$\\text{Var} ( X ) = \\mathrm{E} ( X^{2} ) - [ \\mathrm{E} ( X ) ]^{2}$"
   },
   {
    "type": "heading",
@@ -160,13 +160,13 @@
   },
   {
    "type": "bullets",
-   "md": "- `straight E open parentheses g open parentheses X close parentheses close parentheses equals integral subscript negative infinity end subscript superscript infinity g open parentheses x close parentheses straight f left parenthesis x right parenthesis space straight d x`\n- In particular:\n\n  - `straight E left parenthesis X squared right parenthesis equals integral subscript negative infinity end subscript superscript infinity x squared straight f left parenthesis x right parenthesis space straight d x`as seen above\n- If $g(X)=aX+b$(a linear function) then\n\n  - `straight E open parentheses g open parentheses X close parentheses close parentheses equals straight E open parentheses a X plus b close parentheses equals a straight E open parentheses X close parentheses plus b`\n  - `Var open parentheses g left parenthesis X right parenthesis close parentheses equals Var open parentheses a X plus b close parentheses equals a squared Var open parentheses X close parentheses`"
+   "md": "- $\\mathrm{E} ( g ( X ) ) = integral_{ - } \\text{infinity} ^{infinity} g ( x ) \\mathrm{f} ( x ) \\mathrm{d} x$\n- In particular:\n\n  - $\\mathrm{E} ( X ^{2} ) = integral_{ - } \\text{infinity} ^{infinity} x ^{2} \\mathrm{f} ( x ) \\mathrm{d} x$as seen above\n- If $g(X)=aX+b$(a linear function) then\n\n  - $\\mathrm{E} ( g ( X ) ) = \\mathrm{E} ( a X + b ) = a \\mathrm{E} ( X ) + b$\n  - $Var ( g ( X ) ) = Var ( a X + b ) = a ^{2} Var ( X )$"
   },
   {
    "type": "callout",
    "variant": "worked-example",
    "label": "Worked Example",
-   "md": "A continuous random variable, *X*, is modelled by the probability distribution function f(x), such that\n\n`straight f left parenthesis x right parenthesis equals open curly brackets table row cell 1.5 x squared left parenthesis 1 minus 0.5 x right parenthesis end cell cell 0 less or equal than x less or equal than 2 end cell row cell space space space space space space space space 0 end cell otherwise end table close`\n\n(a) Find $E(X)$ .\n\n(b) Find $\\mathrm{Var}(X)$.\n\n**Answer:**\n\n![1-3-2-ial-fig1-we-solution-part-1](assets/eb8992a6148b-image.bin)\n\n![1-3-2-ial-fig1-we-solution-part-2](assets/abacdccb6a51-image.bin)"
+   "md": "A continuous random variable, *X*, is modelled by the probability distribution function f(x), such that\n\n`f ( x ) = { | 1.5 x ^2 ( 1 - 0.5 x ) | 0 <= x <= 2 | | 0 | otherwise | close`\n\n(a) Find $E(X)$ .\n\n(b) Find $\\mathrm{Var}(X)$.\n\n**Answer:**\n\n![1-3-2-ial-fig1-we-solution-part-1](assets/eb8992a6148b-image.bin)\n\n![1-3-2-ial-fig1-we-solution-part-2](assets/abacdccb6a51-image.bin)"
   },
   {
    "type": "callout",

@@ -68,11 +68,11 @@
     },
     {
      "type": "paragraph",
-     "md": "`table row 72 equals cell 8 cross times 9 end cell row blank equals cell open parentheses 2 cross times 4 close parentheses cross times open parentheses 3 cross times 3 close parentheses end cell row blank equals cell 2 cross times open parentheses 2 cross times 2 close parentheses cross times 3 cross times 3 end cell row blank bold equals cell bold 2 bold cross times bold 2 bold cross times bold 2 bold cross times bold 3 bold cross times bold 3 end cell end table`"
+     "md": "$\\begin{gathered} 72 = 8 \\times 9 \\\\ = ( 2 \\times 4 ) \\times ( 3 \\times 3 ) \\\\ = 2 \\times ( 2 \\times 2 ) \\times 3 \\times 3 \\\\ = 2 \\times 2 \\times 2 \\times 3 \\times 3 \\end{gathered}$"
     }
    ],
    "front_md": "What is **prime factor decomposition**?\n",
-   "back_md": "**Prime factor decomposition** (or Prime Factorisation) is the process of breaking a number up into its **prime factors**.\n\nBreak a number into a pair of factors, then break those factors down in pairs in the same way until you are left with **only prime factors**.\n\n`table row 72 equals cell 8 cross times 9 end cell row blank equals cell open parentheses 2 cross times 4 close parentheses cross times open parentheses 3 cross times 3 close parentheses end cell row blank equals cell 2 cross times open parentheses 2 cross times 2 close parentheses cross times 3 cross times 3 end cell row blank bold equals cell bold 2 bold cross times bold 2 bold cross times bold 2 bold cross times bold 3 bold cross times bold 3 end cell end table`\n",
+   "back_md": "**Prime factor decomposition** (or Prime Factorisation) is the process of breaking a number up into its **prime factors**.\n\nBreak a number into a pair of factors, then break those factors down in pairs in the same way until you are left with **only prime factors**.\n\n$\\begin{gathered} 72 = 8 \\times 9 \\\\ = ( 2 \\times 4 ) \\times ( 3 \\times 3 ) \\\\ = 2 \\times ( 2 \\times 2 ) \\times 3 \\times 3 \\\\ = 2 \\times 2 \\times 2 \\times 3 \\times 3 \\end{gathered}$\n",
    "spec_links": [],
    "flags": []
   },
@@ -226,15 +226,15 @@
     },
     {
      "type": "paragraph",
-     "md": "Separate prime factors with an **even index **and those with an **odd index**, e.g. `1500 equals open parentheses 2 squared cross times 5 squared close parentheses cross times open parentheses 3 cross times 5 close parentheses`"
+     "md": "Separate prime factors with an **even index **and those with an **odd index**, e.g. $1500 = ( 2^{2} \\times 5^{2} ) \\times ( 3 \\times 5 )$"
     },
     {
      "type": "paragraph",
-     "md": "Take the **square root** of both groups, \ne.g. `table row cell square root of 1500 end cell equals cell square root of open parentheses 2 squared cross times 5 squared close parentheses end root cross times square root of open parentheses 3 cross times 5 close parentheses end root end cell row blank equals cell 2 cross times 5 cross times square root of 15 end cell row blank equals cell 10 square root of 15 end cell end table`"
+     "md": "Take the **square root** of both groups, \ne.g. $\\begin{gathered} \\sqrt{1500 & = \\sqrt{(} \\text{parentheses} 2^{2} \\times 5^{2} )} \\times \\sqrt{( 3 \\times 5 )} \\\\ = 2 \\times 5 \\times \\sqrt{15} \\\\ = 10 \\sqrt{15} \\end{gathered}$"
     }
    ],
    "front_md": "**True or False?**\n\nIt can be shown, using its **prime factors**, that $10\\sqrt{15}$ is the exact square root of $1500$.\n",
-   "back_md": "**True.**\n\nFirst write $1500$ as a **product of its prime factors**, e.g. $1500=2^{2}\\times3\\times5^{3}$\n\nSeparate prime factors with an **even index **and those with an **odd index**, e.g. `1500 equals open parentheses 2 squared cross times 5 squared close parentheses cross times open parentheses 3 cross times 5 close parentheses`\n\nTake the **square root** of both groups, \ne.g. `table row cell square root of 1500 end cell equals cell square root of open parentheses 2 squared cross times 5 squared close parentheses end root cross times square root of open parentheses 3 cross times 5 close parentheses end root end cell row blank equals cell 2 cross times 5 cross times square root of 15 end cell row blank equals cell 10 square root of 15 end cell end table`\n",
+   "back_md": "**True.**\n\nFirst write $1500$ as a **product of its prime factors**, e.g. $1500=2^{2}\\times3\\times5^{3}$\n\nSeparate prime factors with an **even index **and those with an **odd index**, e.g. $1500 = ( 2^{2} \\times 5^{2} ) \\times ( 3 \\times 5 )$\n\nTake the **square root** of both groups, \ne.g. $\\begin{gathered} \\sqrt{1500 & = \\sqrt{(} \\text{parentheses} 2^{2} \\times 5^{2} )} \\times \\sqrt{( 3 \\times 5 )} \\\\ = 2 \\times 5 \\times \\sqrt{15} \\\\ = 10 \\sqrt{15} \\end{gathered}$\n",
    "spec_links": [],
    "flags": []
   },

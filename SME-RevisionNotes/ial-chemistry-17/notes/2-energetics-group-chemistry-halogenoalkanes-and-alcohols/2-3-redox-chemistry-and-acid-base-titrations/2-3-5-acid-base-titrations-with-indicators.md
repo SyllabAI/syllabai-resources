@@ -112,7 +112,7 @@ Concentration (mol dm<sup>3</sup>) = $\frac{\mathrm{number} \mathrm{of} \mathrm{
 - This is not to be confused with **percentage error**, which is a comparison of a result to a literature value
 - The formula for calculating percentage uncertainty is as follows:
 
-`percentage space uncertainty space open parentheses percent sign close parentheses equals fraction numerator total space uncertainty over denominator measured space value end fraction cross times 100`
+$\text{percentage} \text{uncertainty} ( \% ) = \frac{total uncertainty}{measured value} \times 100$
 
 #### Adding or subtracting measurements
 
@@ -137,7 +137,7 @@ Concentration (mol dm<sup>3</sup>) = $\frac{\mathrm{number} \mathrm{of} \mathrm{
 
 - If each piece of equipment used in the experiment has its own associated uncertainty, you can determine the total experimental uncertainty by adding the total individual uncertainties
 
-`total space experimental space percentage space uncertainty space open parentheses percent sign close parentheses equals straight capital sigma open parentheses individual space uncertainties close parentheses`
+`total experimental percentage uncertainty ( % ) = capital sigma ( individual uncertainties )`
 
 - For example, a titration against a standard solution may have:
 

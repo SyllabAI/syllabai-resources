@@ -6,7 +6,7 @@
 ## Q1 — easy — 5 marks · exam-questions
 
 ### 12((a)) — 3 marks — command: solve — structured — from paper 2013	June · 1MA0/2H
-Solve    `3 open parentheses x minus 2 close parentheses space equals space x plus 7`
+Solve    $3 ( x - 2 ) = x + 7$
 
 ### 12((b)) — 2 marks — command: solve — structured — from paper 2013	June · 1MA0/2H
 Solve $\frac{2-y}{5}=1$
@@ -17,7 +17,7 @@ Solve $\frac{2-y}{5}=1$
 Simplify     $5x+4y+x-7y$
 
 ### 7((a)) — 2 marks — command: solve — structured — from paper 2013 March · 1MA0/1H
-Solve `7 open parentheses x plus 2 close parentheses space equals space 7`
+Solve $7 ( x + 2 ) = 7$
 
 ## Q3 — easy — 3 marks · exam-questions
 
@@ -32,21 +32,21 @@ Solve    $5x+4=14+x$
 ## Q4 — easy — 3 marks · exam-questions
 
 ### 4() — 3 marks — command: solve — structured — from paper 2017	June · 1MA0/1H
-Solve       `4 open parentheses x space plus space 3 close parentheses space equals space 2 x space plus 8`
+Solve       $4 ( x + 3 ) = 2 x + 8$
 
 ## Q5 — easy — 3 marks · exam-questions
 
 ### 1() — 3 marks — command: solve — structured — from paper 2017	November · 1MA1/2H
-Solve    `5 x space minus space 6 space equals space 3 open parentheses x minus 1 close parentheses`
+Solve    $5 x - 6 = 3 ( x - 1 )$
 
 ## Q6 — easy — 1 marks · exam-questions
 
 ### 8((a)) — 1 mark — command: what — structured — from paper 2015 Spec2 · 1MA1/2H
-Steve is asked to solve the equation `5 open parentheses x space plus space 2 close parentheses space equals space 47`
+Steve is asked to solve the equation $5 ( x + 2 ) = 47$
 
 Here is his working.
 
-`table row cell 5 open parentheses x space plus space 2 close parentheses space end cell equals cell space 47 end cell row cell 5 x space plus space 2 space end cell equals cell space 47 end cell row cell 5 x space end cell equals cell space 45 end cell row cell x space end cell equals cell space 9 end cell end table`
+$\begin{gathered} 5 ( x + 2 ) & = 47 \\ 5 x + 2 & = 47 \\ 5 x & = 45 \\ x & = 9 \end{gathered}$
 
 Steve's answer is wrong.
 
@@ -102,7 +102,7 @@ Solve   $\frac{5w-8}{3}=4w+2$
 ## Q14 — medium — 3 marks · exam-questions
 
 ### 20((a)) — 3 marks — command: solve — structured — from paper 2013	November · 1MA0/1H
-Solve  `fraction numerator 4 open parentheses 8 x space minus space 2 close parentheses over denominator 3 x end fraction space equals space 10`
+Solve  $\frac{4 ( 8 x - 2 )}{3 x} = 10$
 
 ## Q15 — medium — 3 marks · exam-questions
 
@@ -112,7 +112,7 @@ Solve         $\frac{15-x}{5}=3x+11$
 ## Q16 — medium — 6 marks · exam-questions
 
 ### 12((b)) — 3 marks — command: solve — structured — from paper 2014	November · 1MA0/1H
-Solve      `7 open parentheses k minus 3 close parentheses space equals space 3 k space minus 5`
+Solve      $7 ( k - 3 ) = 3 k - 5$
 
 ### 12((d)) — 3 marks — command: solve — structured — from paper 2014	November · 1MA0/1H
 Solve   $\frac{7-3f}{4}=2$
@@ -214,7 +214,7 @@ Solve    $\frac{x+2}{3x}+\frac{x-2}{2x}=3$
 ## Q31 — hard — 7 marks · exam-questions
 
 ### 16((a)) — 3 marks — command: solve — structured — from paper 2013	November · 1MA0/2H
-Solve      `5 open parentheses f minus 3 close parentheses space equals space f space plus space 10`
+Solve      $5 ( f - 3 ) = f + 10$
 
 ### 16((b)) — 4 marks — command: solve — structured — from paper 2013	November · 1MA0/2H
 Solve   $\frac{h+7}{3}+\frac{2h-1}{2}=\frac{5}{6}$
@@ -254,7 +254,7 @@ $x=$
 ### 17((b)) — 3 marks — command: solve — structured — from paper Jan 2021 · 4MA1/2HR
 The functions $f$and $g$ are defined as
 
-`table row cell straight f left parenthesis x right parenthesis space end cell equals cell space x squared space plus space 6 space end cell row cell straight g left parenthesis x right parenthesis space end cell equals cell space x space – space 10 end cell end table`
+$\begin{gathered} \mathrm{f} ( x ) & = x^{2} + 6 \\ \mathrm{g} ( x ) & = x - 10 \end{gathered}$
 
 Solve the equation $\mathrm{fg}(x)=f(x)$
 

@@ -137,7 +137,7 @@ $S_{n}=\frac{a(r^{n}-1)}{r-1}$
 > 
 > > *For the 6*<sup>*th*</sup>* term, we know  *$u_{6}=486$*,  *$r=3$*  and  *$n=6$
 > 
-> `table row 486 equals cell a cross times 3 to the power of open parentheses 6 minus 1 close parentheses end exponent end cell row 486 equals cell a cross times 3 to the power of 5 end cell row 486 equals cell 243 a end cell row a equals cell 486 over 243 end cell end table`
+> $\begin{gathered} 486 = a \times 3^{( 6 - 1 )} \\ 486 = a \times 3^{5} \\ 486 = 243 a \\ a = \frac{486}{243} \end{gathered}$
 > 
 > $a=2$
 
@@ -149,14 +149,14 @@ $S_{n}=\frac{a(r^{n}-1)}{r-1}$
 > > *To find the fifth term, use the **n*<sup>*th*</sup>* term formula  *$u_{n}=ar^{n-1}$
 > *Here  *$n=5$*,  *$a=25$*  and  *$r=0.8$* *
 > 
-> `table row cell fifth space term end cell equals cell 25 cross times 0.8 to the power of open parentheses 5 minus 1 close parentheses end exponent end cell row blank equals cell 25 cross times 0.8 to the power of 4 end cell end table`
+> $\begin{gathered} \frac{1}{5} \text{term} & = 25 \times 0.8^{( 5 - 1 )} \\ = 25 \times 0.8^{4} \end{gathered}$
 > 
 > > $\mathrm{fifth} \mathrm{term}=10.24$
 > 
 > *To find the sum of the first 5 terms, use the sum of a geometric series formula  *$S_{n}=\frac{a(1-r^{n})}{1-r}$
 > *Again,  *$a=25$*  and  *$r=0.8$* *
 > 
-> `S subscript 5 equals fraction numerator 25 open parentheses 1 minus 0.8 to the power of 5 close parentheses over denominator 1 minus 0.8 end fraction`
+> $S_{5} = \frac{25 ( 1 - 0.8^{5} )}{1 - 0.8}$
 > 
 > > *Use your calculator to work this out  *
 > 
@@ -196,7 +196,7 @@ $S_{n}=\frac{a(r^{n}-1)}{r-1}$
 
 - First you need to consider the **value of **$r$
 
-  - If  `open vertical bar r close vertical bar less than space 1`  then the sequence **converges**
+  - If  $\left| r \right| < 1$  then the sequence **converges**
   
     - `open vertical bar r close vertical bar less than 1`**  **is the same as   $-1<r<1$
     - In this case the sum to infinity can be calculated
@@ -204,9 +204,9 @@ $S_{n}=\frac{a(r^{n}-1)}{r-1}$
   
     - `open vertical bar r close vertical bar greater or equal than 1`  is the same as  $r\leq-1$  or  $r\geq1$
     - In this case the sum to infinity cannot be calculated
-- If `vertical line r vertical line space less than space 1`, then the sum **converges** to a finite value given by the formula
+- If $\vert r \vert < 1$, then the sum **converges** to a finite value given by the formula
 
-`S subscript infinity equals fraction numerator a over denominator 1 minus r end fraction space comma space blank open vertical bar r close vertical bar less than 1`
+`S _ inf = (a)/(1 - r) , _ | r | less than 1`
 
 - $a$ is the **first term**
 - $r$ is the **common ratio**
@@ -231,12 +231,12 @@ $S_{n}=\frac{a(r^{n}-1)}{r-1}$
 > 
 > > *This satisfies *`open vertical bar r close vertical bar less than 1`*, so the series converges and the sum to infinity exists*
 > 
-> `stretchy vertical line r stretchy vertical line bold less than bold 1`*, ***so the series converges**
+> $\text{stretchy} \mid r \text{stretchy} \mid < 1$*, ***so the series converges**
 > 
 > > *Now use the sum to infinity formula  *$S_{\infty}=\frac{a}{1-r}$
 > 
 > > *Here  *$a=6$*  and  *$r=\frac{1}{3}$
 > 
-> `table row cell S subscript infinity end cell equals cell fraction numerator 6 over denominator 1 minus 1 third end fraction end cell row blank equals cell fraction numerator 6 over denominator open parentheses 2 over 3 close parentheses end fraction end cell row blank equals cell 6 cross times 3 over 2 end cell end table`
+> `| S _ inf | = (6)/(1 - 1 third) | | _ = (6)/(( 2 / 3 )) | | _ = 6 x 3 / 2 | |`
 > 
 > $S_{\infty}=9$

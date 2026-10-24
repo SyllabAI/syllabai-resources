@@ -266,9 +266,9 @@ Ordered stem-and-leaf diagram
 **Ordered diagram with maximum 2 errors ****[1]**** **
 **No errors ****[1]** 
 **Key ****[1]**
-`straight P open parentheses less than 28 space marks close parentheses equals fraction numerator Number space who space scored space less than 28 space marks over denominator Total space number space of space students end fraction`
+$\mathrm{P} ( < 28 \text{marks} ) = \frac{Number \text{who} \text{scored} < 28 marks}{Total \text{number} of students}$
 
-`P open parentheses less than 28 close parentheses equals 9 over 20`
+$P ( < 28 ) = \frac{9}{20}$
 
 **The probability a student chosen at random has a test score less than 28 is **$\frac{9}{20}=0.45$ **[1]**
 
@@ -328,11 +328,11 @@ Ordered stem-and-leaf diagram
 
 > *The area of a circle is given by the formula *$A=πr^{2}$*.*
 
-*Area of Adley pie chart*`equals straight pi open parentheses 5 close parentheses squared equals 25 straight pi`
+*Area of Adley pie chart*$= \mathrm{\pi } ( 5 )^{2} = 25 \mathrm{\pi }$
 
 **[1]**
 
-*Area of Bridford pie chart*`equals straight pi open parentheses 4 close parentheses squared equals 16 straight pi`
+*Area of Bridford pie chart*$= \mathrm{\pi } ( 4 )^{2} = 16 \mathrm{\pi }$
 
 > *So the ratio of the populations of Adley to Bridford (*$A:B$*) is*
 
@@ -357,7 +357,7 @@ $\frac{25}{41}\times\frac{7}{36}=\frac{175}{1476}$
 *This is an awkward fraction so the answer is best given as a percentage.* 
 *To change *$\frac{175}{1476}$* to a percentage use your calculator to convert it to a decimal, and then multiply by 100.*
 
-`175 over 1476 cross times 100 percent sign equals 11.856 space...`
+$\frac{175}{1476} \times 100 \% = 11.856 ...$
 
 > *Round your final answer to a sensible degree of accuracy, three significant figures is often used.*
 
@@ -442,7 +442,7 @@ Ordered stem-and-leaf diagram
 
 > *Write this as a fraction out of the total number of men, and multiply by 100 to convert to a percentage.*
 
-`3 over 20 cross times 100 percent sign equals 15 percent sign`
+$\frac{3}{20} \times 100 \% = 15 \%$
 
 **[1]**
 

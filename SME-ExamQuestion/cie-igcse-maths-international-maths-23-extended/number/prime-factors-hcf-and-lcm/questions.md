@@ -60,7 +60,7 @@ Find the highest common factor $(\mathrm{HCF})$ of $96$ and $120$.
 
 **Q4** [2 marks]
 
-`table row cell A space end cell equals cell space 2 cubed space cross times space 5 space cross times space 7 squared space cross times space 11 space end cell row cell B space end cell equals cell space 2 to the power of 4 space cross times space 7 space cross times space 11 space end cell row cell C space end cell equals cell space 3 space cross times space 5 squared end cell end table`
+$\begin{gathered} A & = 2^{3} \times 5 \times 7^{2} \times 11 \\ B & = 2^{4} \times 7 \times 11 \\ C & = 3 \times 5^{2} \end{gathered}$
 
 Find the lowest common multiple $(\mathrm{LCM})$ of $A,B$ and $C.$
 
@@ -93,7 +93,7 @@ When will a bus to Acton and a bus to Barton next leave the bus station at the s
 
 **Q7** [2 marks]
 
-`table row cell A space end cell equals cell space 3 to the power of 5 cross times space 5 space cross times space 7 cubed space end cell row cell B space end cell equals cell space 2 cubed cross times space 3 space cross times space 7 to the power of 4 space end cell row cell C space end cell equals cell space 2 to the power of p cross times space 5 to the power of q cross times space 7 to the power of r end cell end table`
+$\begin{gathered} A & = 3^{5} \times 5 \times 7^{3} \\ B & = 2^{3} \times 3 \times 7^{4} \\ C & = 2^{p} \times 5^{q} \times 7^{r} \end{gathered}$
 
 Given that
 
@@ -278,8 +278,8 @@ Write down **two** possible numbers that Martin is thinking of.
 
 **Q18** [2 marks]
 
-`table row blank blank cell A space equals space 2 cubed cross times 3 squared cross times 5 squared cross times 11
-B space equals space 2 to the power of 4 cross times 3 cross times 5 to the power of 4 cross times 13 end cell end table`
+$\begin{gathered} A = 2^{3} \times 3^{2} \times 5^{2} \times 11
+B = 2^{4} \times 3 \times 5^{4} \times 13 \end{gathered}$
 
 Find the lowest common multiple (LCM) of $A$and $B$. 
 Give your answer as a product of powers of prime numbers.

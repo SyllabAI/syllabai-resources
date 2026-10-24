@@ -31,7 +31,7 @@ The diagram shows parallelogram $EFGH$.
 
 ![q14-4ma1-1h-qp-jan20-paper1-igcse-maths](assets/071-q14-4ma1-1h-qp-jan20-paper1-igcse-maths.png)
 
-`table row cell E F space end cell equals cell space 9.3 space cm space end cell row cell F G space end cell equals cell space 14.7 space cm space end cell row cell Angle space E F G space end cell equals cell space 106 degree end cell end table`
+$\begin{gathered} E F & = 9.3 \text{cm} \\ F G & = 14.7 \text{cm} \\ \text{Angle} E F G & = 106^{\circ} \end{gathered}$
 
 Work out the area of the parallelogram. 
 Give your answer correct to 3 significant figures.
@@ -86,7 +86,7 @@ Here is a triangle.
 Leah tries to use the sine rule to work out the size of angle $x$. 
 Here are the first two lines of her working.
 
-| `table row cell fraction numerator x over denominator sin space 31 end fraction end cell equals cell fraction numerator 54 over denominator sin space 72 end fraction end cell row blank blank blank row x equals cell fraction numerator 54 space sin space 31 over denominator sin space 72 end fraction end cell end table` |
+| $\begin{gathered} \frac{x}{\sin 31} & = \frac{54}{\sin 72} \\ \\ x = \frac{54 \sin 31}{\sin 72} \end{gathered}$ |
 |---|
 
 What error has she made in this working?

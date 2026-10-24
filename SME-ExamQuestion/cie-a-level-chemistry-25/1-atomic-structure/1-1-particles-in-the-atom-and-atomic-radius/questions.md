@@ -67,7 +67,7 @@ Which statement is **not** correct?
 
 **Q6** [1 mark]
 
-The phosphide ion, `begin mathsize 16px style P presubscript 15 presuperscript 32 superscript 3 minus sign end superscript end style`, is used in medicine as a radioactive treatment for some forms of cancer.
+The phosphide ion, $P pre_{15} pre^{32^{3} - sign}$, is used in medicine as a radioactive treatment for some forms of cancer.
 
 Which row gives the composition of the phosphide ion?
 
@@ -172,7 +172,7 @@ Which row gives the correct order of ionic radii from largest to smallest?
 
 **Q16** [1 mark]
 
-Which row gives the correct number of protons, neutrons and electrons in the `straight P presubscript 15 presuperscript 31 superscript 3 minus end superscript` ion?
+Which row gives the correct number of protons, neutrons and electrons in the $\mathrm{P} pre_{15} pre^{31^{3} -}$ ion?
 
 |   | **Protons** | **Neutrons** | **Electrons** |
 |---|---|---|---|

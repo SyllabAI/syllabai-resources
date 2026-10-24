@@ -99,35 +99,33 @@ guided_study: false
 > 
 > > *Number the equations.*
 > 
-> > `table row cell 5 x space plus space 2 y space end cell equals cell space 11 space space space space space space space space space space space space end cell row cell 4 x space minus space 3 y space end cell equals cell space 18 space space space space space space space space space space space space end cell end table``table row blank blank cell open parentheses 1 close parentheses end cell row blank blank cell open parentheses 2 close parentheses end cell end table`* *
+> > $\begin{gathered} 5 x + 2 y & = 11 \\ 4 x - 3 y & = 18 \end{gathered}$$\begin{gathered} ( 1 ) \\ ( 2 ) \end{gathered}$* *
 > 
 > > *Make the **y**  terms equal by multiplying all parts of equation (1) by 3 and all parts of equation (2) by 2.*
 > *This will give two 6**y  **terms with different signs. The question could also be done by making the **x  **terms equal by multiplying all parts of equation (1) by 4 and all parts of equation (2) by 5, and subtracting the equations.*
 > 
-> `table row cell 15 x space plus space 6 y space end cell equals cell space 33 space space space space space space space space space space end cell row cell 8 x space minus space 6 y space end cell equals cell space 36 space space space space space space space space space space end cell end table``table row blank blank cell open parentheses 3 close parentheses end cell row blank blank cell open parentheses 4 close parentheses end cell end table`
+> $\begin{gathered} 15 x + 6 y & = 33 \\ 8 x - 6 y & = 36 \end{gathered}$$\begin{gathered} ( 3 ) \\ ( 4 ) \end{gathered}$
 > 
 > > *The 6**y**  terms have different signs, so they can be eliminated by adding equation (4) to equation (3). *
 > 
-> `space space space space space space space space space space 15 x space plus space 6 y space equals space 33 space space space space space space space space space space space space
-> bottom enclose space plus open parentheses space space space space space space 8 x space minus space 6 y space equals space 36 close parentheses space end enclose
-> space space space space space space space space space space 23 x space space space space space space space space space space space space space equals space 69 space`
+> `15 x + 6 y = 33 > bottom + ( 8 x - 6 y = 36 ) > 23 x = 69`
 > 
 > > *Solve the equation to find** x  **by dividing both sides by 23.*
 > 
-> `table row cell x space end cell equals cell space 69 over 23 equals space 3 end cell end table`
+> $\begin{gathered} x & = \frac{69}{23} = 3 \end{gathered}$
 > 
 > > *Substitute **x **= 3 into either of the two original equations**.*
 > 
-> > `open parentheses 1 close parentheses space space space space space`* *`5 open parentheses 3 close parentheses space plus space 2 y space equals space 11`
+> > $( 1 )$* *$5 ( 3 ) + 2 y = 11$
 > 
 > > *Solve this equation to find** y.*
 > 
-> `table row cell 15 space plus space 2 y space end cell equals cell space 11 end cell row cell 2 y space end cell equals cell space 11 space minus space 15 end cell row cell 2 y space end cell equals cell space minus 4 space end cell row cell y space end cell equals cell fraction numerator negative 4 over denominator 2 end fraction space equals space minus 2 end cell end table`
+> $\begin{gathered} 15 + 2 y & = 11 \\ 2 y & = 11 - 15 \\ 2 y & = - 4 \\ y & = \frac{- 4}{2} = - 2 \end{gathered}$
 > 
 > > *Substitute **x** = 3  and **y** = - 2 into the other equation to check that they are correct*
 > 
-> > `table row blank blank cell open parentheses 2 close parentheses space space space space space end cell end table`* *`table row cell 4 x space minus space 3 y space end cell equals cell space 18 end cell end table`
-> *   *`table row cell 4 open parentheses 3 close parentheses space minus space 3 open parentheses negative 2 close parentheses space end cell equals cell space 18 end cell row cell 12 space minus open parentheses negative 6 close parentheses space end cell equals cell space 18 end cell row cell 18 space end cell equals cell space 18 end cell end table`
+> > $\begin{gathered} ( 2 ) \end{gathered}$* *$\begin{gathered} 4 x - 3 y & = 18 \end{gathered}$
+> *   *$\begin{gathered} 4 ( 3 ) - 3 ( - 2 ) & = 18 \\ 12 - ( - 6 ) & = 18 \\ 18 & = 18 \end{gathered}$
 > 
 > $x=3,y=-2$
 
@@ -199,41 +197,41 @@ guided_study: false
 > 
 > > *Number the equations.*
 > 
-> > $x^{2}+y^{2}=36\,x=2y+6$`open parentheses 1 close parentheses
-> open parentheses 2 close parentheses`* *
+> > $x^{2}+y^{2}=36\,x=2y+6$$( 1 )
+> ( 2 )$* *
 > 
 > > *There is one quadratic equation and one linear equation so this must be done by substitution.*
 > 
 > > *Equation (2) is equal to *$x$* so this can be eliminated by substituting it into the *$x$* part for equation (1).*
 > *Substitute *$x=2y+6$* into equation (1).*
 > 
-> `open parentheses 2 y space plus space 6 close parentheses squared space plus space y squared space equals space 36`
+> $( 2 y + 6 )^{2} + y^{2} = 36$
 > 
 > > *Expand the brackets, remember that a bracket squared should be treated the same as double brackets.*
 > 
-> `open parentheses 2 y space plus space 6 close parentheses open parentheses 2 y space plus space 6 close parentheses space space plus space y squared space equals space 36
-> 4 y to the power of 2 space end exponent plus space 6 open parentheses 2 y close parentheses space plus space 6 open parentheses 2 y close parentheses space plus space 6 squared space plus space y to the power of 2 space end exponent equals space 36`
+> $( 2 y + 6 ) ( 2 y + 6 ) + y^{2} = 36
+> 4 y^{2 } + 6 ( 2 y ) + 6 ( 2 y ) + 6^{2} + y^{2 } = 36$
 > 
 > > *Simplify.*
 > 
-> `table row cell 4 y to the power of 2 space end exponent plus space 12 y space plus space 12 y space plus space 36 space plus space y to the power of 2 space end exponent end cell equals cell space 36 end cell row cell 5 y to the power of 2 space end exponent plus space 24 y space plus space 36 space end cell equals cell space 36 end cell end table`
+> $\begin{gathered} 4 y^{2 } + 12 y + 12 y + 36 + y^{2 } & = 36 \\ 5 y^{2 } + 24 y + 36 & = 36 \end{gathered}$
 > 
 > > *Rearrange to form a quadratic equation that is equal to zero.*
 > 
-> `table row cell 5 y to the power of 2 space end exponent plus space 24 y space plus space 36 space minus space 36 space end cell equals cell space 0 end cell row cell 5 y squared space plus space 24 y space end cell equals cell space 0 end cell end table`
+> $\begin{gathered} 5 y^{2 } + 24 y + 36 - 36 & = 0 \\ 5 y^{2} + 24 y & = 0 \end{gathered}$
 > 
 > > *Both terms contain a power of *$y$
-> *So this can be factorised by taking out a common factor of *`table attributes columnalign right center left columnspacing 0px end attributes row blank blank y end table`*.*
+> *So this can be factorised by taking out a common factor of *$\begin{array}{rcl} y \end{array}$*.*
 > 
-> `table row cell y open parentheses 5 y space plus space 24 close parentheses space end cell equals cell space 0 end cell end table`
+> $\begin{gathered} y ( 5 y + 24 ) & = 0 \end{gathered}$
 > 
 > > *Solve to find the values of *$y$*.*
 > *Let each factor be equal to 0 and solve.*
 > 
-> `table row cell y subscript 1 space end cell equals cell space 0 space space space space space space space space space space space space space space end cell row cell 5 y subscript 2 space plus space 24 space end cell equals cell space 0 space space rightwards double arrow space space y subscript 2 equals space minus 24 over 5 space equals space minus 4.8 end cell end table`
+> $\begin{gathered} y_{1} & = 0 \\ 5 y_{2} + 24 & = 0 \Leftrightarrow y_{2} = - \frac{24}{5} = - 4.8 \end{gathered}$
 > 
 > *Substitute the values of *$y$* **into one of the equations (the linear equation is easier) to find the values of *$x$*.*
->               `x subscript 1 space equals space 2 left parenthesis 0 right parenthesis space plus space 6 space equals space 6 space space space space space space space space space space space space x subscript 2 space equals space 2 open parentheses negative 24 over 5 close parentheses space plus space 6 space equals space minus 9.6 space plus space 6`
+>               $x_{1} = 2 ( 0 ) + 6 = 6 x_{2} = 2 ( - \frac{24}{5} ) + 6 = - 9.6 + 6$
 > 
 > **                                                                                                             **$x_{1}=6,y_{1}=0$
 > *                                                                                         *$x_{2}=-3.6,y_{2}=-4.8$

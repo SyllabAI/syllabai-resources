@@ -135,7 +135,7 @@ Which of the following correctly identifies each type of radiation
 
 **Extended tier only**
 
-A nucleus of uranium ( `begin mathsize 24px style U presubscript 92 presuperscript 238 end style`) is unstable and decays by emitting an **α**-particle.
+A nucleus of uranium ( $U_{92}^{238}$) is unstable and decays by emitting an **α**-particle.
 
 Which equation correctly describes this process?
 
@@ -155,7 +155,7 @@ Strontium-90 is a radioactive substance with the nuclide symbol `S presubscript 
 
 It decays by emitting radiation, as shown by the following equation.
 
-`S presubscript 38 presuperscript 90 r space rightwards arrow Y presubscript 39 presuperscript 90 space plus space ?`
+$S_{38}^{90} r \rightarrow Y_{39}^{90} + ?$
 
 What is missing in this equation?
 

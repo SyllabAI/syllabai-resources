@@ -54,7 +54,7 @@ guided_study: false
 > 
 > > *Set up an equation and solve for *$w$
 > 
-> `table row 19 equals cell 22 minus w end cell row w equals cell 22 minus 19 end cell row w equals 3 end table`
+> $\begin{gathered} 19 = 22 - w \\ w = 22 - 19 \\ w = 3 \end{gathered}$
 > 
 > $w=3$
 

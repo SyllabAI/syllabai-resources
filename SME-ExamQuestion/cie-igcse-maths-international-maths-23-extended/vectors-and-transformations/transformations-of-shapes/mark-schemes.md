@@ -15,7 +15,7 @@
 
 *The centre of enlargement is (7, 0).*
 
-> *The scale factor of enlargement is *`fraction numerator text distance from image ( end text text italic U end text text ) to centre end text over denominator distance space from space object space open parentheses T close parentheses space to space centre end fraction`*. *
+> *The scale factor of enlargement is *$\frac{ \text{distance \text{from} \text{image} (} \text{ U} \text{) \text{to} centre} }{distance \text{from} \text{object} ( T ) \text{to} centre}$*. *
 *We can measure these distances along the *$x$*- and *$y$*- axes. *
 *For example, from the top right vertices of **U** (5, 6) and **T** (6,3);*
 
@@ -93,7 +93,7 @@
 **[1]**
 > *A translation moves the shape.*
 
-> *The vector *`open parentheses table row cell negative 1 end cell row cell negative 3 end cell end table close parentheses`* represents 1 unit to the left and 3 units down.*
+> *The vector *$( \begin{gathered} - 1 \\ - 3 \end{gathered} )$* represents 1 unit to the left and 3 units down.*
 
 > *Move the shape left 1 and down 3.*
 
@@ -112,7 +112,7 @@
 > *Write as a vector. The horizontal displacement goes at the top (right is positive, left is negative). *
 *The vertical displacement goes at the bottom (up is positive, down is negative).*
 
-**Translation by** `begin bold style stretchy left parenthesis table row 6 row cell negative 1 end cell end table stretchy right parenthesis end style` 
+**Translation by** $\text{begin} \text{style} ( \begin{gathered} 6 \\ - 1 \end{gathered} )$ 
 **Writing "Translation"**** [1]** 
 **Correct vector**** [1]**
 
@@ -140,7 +140,7 @@
 > *Write as a vector. The horizontal displacement goes at the top (right is positive, left is negative). *
 *The vertical displacement goes at the bottom (up is positive, down is negative).*
 
-**Translation by** `stretchy left parenthesis table row 4 row cell negative 1 end cell end table stretchy right parenthesis` 
+**Translation by** $( \begin{gathered} 4 \\ - 1 \end{gathered} )$ 
 **Writing "Translation"**** [1]** 
 **Correct vector**** [1]**
 
@@ -205,7 +205,7 @@
 
 > *A translation moves the shape.*
 
-> `open parentheses table row cell negative 3 end cell row cell negative 1 end cell end table close parentheses`* means 3 unit to the left and 1 unit down. Move B and label it C.*
+> $( \begin{gathered} - 3 \\ - 1 \end{gathered} )$* means 3 unit to the left and 1 unit down. Move B and label it C.*
 
 ![4-14-edexcel-gcse-vhq1-1](assets/026-4-14-edexcel-gcse-vhq1-1.png)
 
@@ -268,7 +268,7 @@
 > *Write as a vector. The horizontal displacement goes at the top (right is positive, left is negative). *
 *The vertical displacement goes at the bottom (up is positive, down is negative).*
 
-**Translation by** `stretchy left parenthesis table row 5 row cell negative 3 end cell end table stretchy right parenthesis` 
+**Translation by** $( \begin{gathered} 5 \\ - 3 \end{gathered} )$ 
 **Writing "Translation"**** [1]** 
 **Correct vector**** [1]**
 
@@ -283,7 +283,7 @@
 > *Write as a vector. The horizontal displacement goes at the top (right is positive, left is negative). *
 *The vertical displacement goes at the bottom (up is positive, down is negative).*
 
-**Translation by** `stretchy left parenthesis table row 4 row cell negative 3 end cell end table stretchy right parenthesis` 
+**Translation by** $( \begin{gathered} 4 \\ - 3 \end{gathered} )$ 
 **Writing "Translation"**** [1]** 
 **Correct vector**** [1]**
 
@@ -296,7 +296,7 @@
 > *Find the scale factor by dividing the distance along one of the sides on shape **C** by the distance along the corresponding side on shape **A**. *
 *As shape **C** is on the **opposite** side to the centre of enlargement than shape **A**, this will be a **negative** scale factor.*
 
-`negative open parentheses 6 divided by 3 close parentheses equals negative 2`
+$- ( 6 \div 3 ) = - 2$
 
 **Final answer:** **Shape **$A$** to Shape **$C$** is an enlargment of scale factor **$-2$** and centre of enlargement (0, 3)**
 

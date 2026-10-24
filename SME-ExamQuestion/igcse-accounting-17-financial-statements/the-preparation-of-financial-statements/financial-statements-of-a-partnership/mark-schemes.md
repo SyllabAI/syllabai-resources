@@ -157,7 +157,7 @@
 > | Salary Ming |   | (18 000)** (1)** |
 > | Profit available for distribution |   | 16 890 |
 > | Share of profit |   |   |
-> | Carl | **(1of fb)       **`open curly brackets table row space row blank row blank end table close` | 8 445 |
+> | Carl | **(1of fb)       **$\{ \begin{gathered} \\ \\ \end{gathered} )$ | 8 445 |
 > | Ming | 8 445 |   |
 > |   |   | <u>16 890</u> |
 

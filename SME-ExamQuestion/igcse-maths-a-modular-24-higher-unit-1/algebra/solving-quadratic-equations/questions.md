@@ -6,7 +6,7 @@
 ## Q1 — medium — 2 marks · exam-questions
 
 ### 16() — 2 marks — command: solve — structured — from paper November 2017 · 1MA1/2H
-Solve   `open parentheses x space minus space 2 close parentheses to the power of 2 space end exponent equals space 3`
+Solve   $( x - 2 )^{2 } = 3$
 
 Give your solutions correct to $3$ significant figures.
 
@@ -45,7 +45,7 @@ Liz is asked to solve the equation $3x^{2}+8=83$
 
 Here is her working.
 
-`table row cell 3 x squared space plus space 8 space end cell equals cell space 83 end cell row cell 3 x squared space end cell equals cell space 75 end cell row cell x to the power of 2 space end exponent end cell equals cell space 25 end cell row cell x space end cell equals cell space 5 end cell end table`
+$\begin{gathered} 3 x^{2} + 8 & = 83 \\ 3 x^{2} & = 75 \\ x^{2 } & = 25 \\ x & = 5 \end{gathered}$
 
 Explain what is wrong with Liz's answer.
 
@@ -198,7 +198,7 @@ $2x^{2}-6x+5$ can be written in the form $a(x-b)^{2}+c$
 
 where $a,b$ and$c$ are positive numbers. Work out the values of  $a,b$ and $c$.
 
-`table attributes columnalign right center left columnspacing 0px end attributes row a equals cell................... end cell row b equals cell................... end cell row c equals cell................... end cell end table`
+$\begin{array}{rcl} a = ................... \\ b = ................... \\ c = ................... \end{array}$
 
 ### 25((b)) — 3 marks — command: solve — structured — from paper Specimen 2015 · 8300/2H
 Using your answer to part (a), or otherwise, solve  $2x^{2}--6x+5=8.5$
@@ -216,7 +216,7 @@ For each one, describe the error made and give the complete correct solution.
 Error: ........................................................ Correct solution:
 
 ### 15((b)) — 3 marks — command: solve — structured — from paper Nov 2020 · J560/04
-| Question: Solve, giving your answers correct to 3 significant figures.<br><br>$2x^{2}--8x+3=0$<br><br>Solution:<br><br>`x equals negative open parentheses blank to the power of minus 8 close parentheses plus-or-minus fraction numerator square root of open parentheses blank to the power of minus 8 close parentheses squared minus 4 cross times 2 cross times 3 end root over denominator 2 cross times 2 end fraction`<br><br>Therefore $x=6.42$ or $x=9.58$ |
+| Question: Solve, giving your answers correct to 3 significant figures.<br><br>$2x^{2}--8x+3=0$<br><br>Solution:<br><br>$x = - (^{-} 8 ) \pm \frac{ \sqrt{(^{-} 8 )^{2} - 4 \times 2 \times 3} }{2 \times 2}$<br><br>Therefore $x=6.42$ or $x=9.58$ |
 |---|
 
 Error: ..................................................................... Correct solution:
@@ -242,7 +242,7 @@ Solve by factorisation.
 ## Q28 — hard — 7 marks · exam-questions
 
 ### 18((a)) — 7 marks — command: multiple — structured — from paper Nov 2018 · J560/05
-(i) Write $x^{2}+4x-16$ in the form `open parentheses x plus a close parentheses squared space minus space b`.
+(i) Write $x^{2}+4x-16$ in the form $( x + a )^{2} - b$.
 
 [3]
 
@@ -262,7 +262,7 @@ $r$ = ................... or $r$ = ...................
 ## Q30 — very_hard — 3 marks · exam-questions
 
 ### 22() — 3 marks — command: solve — structured — from paper 2016	June · 1MA0/1H
-Solve    `x squared space equals space 4 open parentheses x minus 3 close parentheses squared`
+Solve    $x^{2} = 4 ( x - 3 )^{2}$
 
 ## Q31 — very_hard — 5 marks · exam-questions
 
@@ -303,7 +303,7 @@ Work out the value of $x$, giving your answer in the form  $a+\sqrt{b}$  where $
 ## Q34 — very_hard — 5 marks · exam-questions
 
 ### 25() — 5 marks — command: find — structured — from paper Nov 2020 · 4MA1/1HR
-Given that $M=$ `fraction numerator 18 to the power of 4 n end exponent cross times 2 to the power of 3 open parentheses n squared minus 6 n close parentheses end exponent cross times 3 to the power of 2 open parentheses 1 minus 4 n close parentheses end exponent over denominator 12 squared end fraction`
+Given that $M=$ $\frac{18^{4 n} \times 2^{3 ( n^{2} - 6 n )} \times 3^{2 ( 1 - 4 n )} }{12^{2}}$
 
 find the values of $n$ for which $M=2$
 

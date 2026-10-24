@@ -75,7 +75,7 @@ The purpose of the statistical test called the *t*-test is:
 
 (iii) The standard deviation is calculated as follows:
 
-- `straight S space equals space square root of fraction numerator 17.38 over denominator open parentheses 10 space minus space 1 close parentheses end fraction end root` ; **[1 mark]**
+- $\mathrm{S} = \sqrt{ \frac{17.38}{( 10 - 1 )} }$ ; **[1 mark]**
 - = 1.39;** [1 mark]**
 
 **[Total: 7 marks]**

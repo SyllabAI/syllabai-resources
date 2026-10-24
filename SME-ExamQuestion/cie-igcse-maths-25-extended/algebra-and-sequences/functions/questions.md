@@ -10,12 +10,12 @@
 
 **Q1** [2 marks]
 
-`straight f open parentheses x close parentheses equals 2 x minus 7`
-The domain of `straight f open parentheses x close parentheses` is `open curly brackets negative 2 comma space 0 comma space 5 close curly brackets`.
+$\mathrm{f} ( x ) = 2 x - 7$
+The domain of $\mathrm{f} ( x )$ is $\{ - 2 , 0 , 5 \}$.
 
-Find the range of `straight f open parentheses x close parentheses`.
+Find the range of $\mathrm{f} ( x )$.
 
-`open curly brackets space........................................... space close curly brackets`
+$\{ ........................................... \}$
 
 ### Q2 — medium — 7 marks
 
@@ -23,7 +23,7 @@ Find the range of `straight f open parentheses x close parentheses`.
 
 $f(x)=\frac{3}{x+2},x\neq-2$         $g(x)=8x-5$
 
-Work out `space straight g open parentheses 1 fourth close parentheses`.
+Work out $\mathrm{g} ( 1 \frac{1}{4} )$.
 
 *Source: 2019 March 0580/42 Q8A*
 
@@ -110,7 +110,7 @@ $x=$......................... or $x=$......................... [4]
 
 $f(x)=3x--5$
 
-The domain of $f(x)$ is `open curly brackets – 3 comma space 0 comma space 2 close curly brackets`.
+The domain of $f(x)$ is $\{ - 3 , 0 , 2 \}$.
 
 Find the range of $f(x)$.
 
@@ -123,9 +123,9 @@ Find the range of $f(x)$.
 
 **Q6** [1 mark]
 
-`straight f open parentheses x close parentheses equals 7 x minus 4`      `straight g open parentheses x close parentheses equals fraction numerator 2 x over denominator x minus 3 end fraction comma space x not equal to 3`   `straight h open parentheses x close parentheses equals x squared`
+$\mathrm{f} ( x ) = 7 x - 4$      $\mathrm{g} ( x ) = \frac{2 x}{x - 3} , x \text{eq} 3$   $\mathrm{h} ( x ) = x^{2}$
 
-Find `space straight g open parentheses 6 close parentheses`.
+Find $\mathrm{g} ( 6 )$.
 
 *Source: 2020 May/June 0580/43 Q11A*
 
@@ -136,7 +136,7 @@ Find `space straight g open parentheses 6 close parentheses`.
 
 f(x) = 7x - 4      g(x) = (2x)/(x - 3), x ≠ 3
 
-Find `space fg open parentheses 4 close parentheses`.
+Find $fg ( 4 )$.
 
 *Source: 2020 May/June 0580/43 Q11B*
 
@@ -147,7 +147,7 @@ Find `space fg open parentheses 4 close parentheses`.
 
 ![straight f open parentheses x close parentheses equals 7 x minus 4]      ![straight h open parentheses x close parentheses equals x squared]
 
-Find `space fh open parentheses x close parentheses`.
+Find $fh ( x )$.
 
 *Source: 2020 May/June 0580/43 Q11C*
 
@@ -216,9 +216,9 @@ Find the value of$\mathrm{hh}(1)$, correct to 4 significant figures.
 
 **Q9** [1 mark]
 
-`straight f open parentheses x close parentheses equals 3 x plus 2`      `straight g open parentheses x close parentheses equals x squared plus 1`      `straight h open parentheses x close parentheses equals 4 to the power of x`
+$\mathrm{f} ( x ) = 3 x + 2$      $\mathrm{g} ( x ) = x^{2} + 1$      $\mathrm{h} ( x ) = 4^{x}$
 
-Find `space straight h open parentheses 4 close parentheses`.
+Find $\mathrm{h} ( 4 )$.
 
 *Source: 2020 May/June 0580/42 Q6A*
 
@@ -229,7 +229,7 @@ Find `space straight h open parentheses 4 close parentheses`.
 
 f(x) = 3x + 2      g(x) = x^2 + 1      h(x) = 4^x
 
-Find `space fg open parentheses 1 close parentheses`.
+Find $fg ( 1 )$.
 
 *Source: 2020 May/June 0580/42 Q6B*
 
@@ -240,7 +240,7 @@ Find `space fg open parentheses 1 close parentheses`.
 
 f(x) = 3x + 2      g(x) = x^2 + 1      h(x) = 4^x
 
-Find `space gf open parentheses x close parentheses` in the form $ax^{2}+bx+c$.
+Find $gf ( x )$ in the form $ax^{2}+bx+c$.
 
 *Source: 2020 May/June 0580/42 Q6C*
 
@@ -251,7 +251,7 @@ Find `space gf open parentheses x close parentheses` in the form $ax^{2}+bx+c$.
 
 f(x) = 3x + 2      g(x) = x^2 + 1      h(x) = 4^x
 
-Find $x$ when `space straight f open parentheses x close parentheses equals straight g open parentheses 7 close parentheses`.
+Find $x$ when $\mathrm{f} ( x ) = \mathrm{g} ( 7 )$.
 
 $x=$................................................
 
@@ -264,9 +264,9 @@ $x=$................................................
 
 f(x) = 3x + 2
 
-Find `space straight f to the power of negative 1 end exponent open parentheses x close parentheses`.
+Find $\mathrm{f}^{- 1} ( x )$.
 
-`straight f to the power of negative 1 end exponent open parentheses x close parentheses equals`................................................
+$\mathrm{f}^{- 1} ( x ) =$................................................
 
 *Source: 2020 May/June 0580/42 Q6E*
 
@@ -325,9 +325,9 @@ $x=$ .................................................
 
 **Q12** [1 mark]
 
-`straight h open parentheses x close parentheses equals 4 to the power of x`.
+$\mathrm{h} ( x ) = 4^{x}$.
 
-Find $x$ when `space straight h to the power of negative 1 end exponent open parentheses x close parentheses equals 2`.
+Find $x$ when $\mathrm{h}^{- 1} ( x ) = 2$.
 
 $x=$................................................
 
@@ -340,7 +340,7 @@ $x=$................................................
 
 $f$ and $g$ are functions such that
 
-`straight f open parentheses x close parentheses space equals space 2 over x squared space space space space space space space space space space and space space space space space space straight g open parentheses x close parentheses space equals space 4 x cubed`
+`f ( x ) = 2 / x ^2 and g ( x ) = 4 x ^3`
 
 Find $f(-5)$
 
@@ -353,7 +353,7 @@ Find $f(-5)$
 
 f(x) = 2/x^2 and g(x) = 4x^3
 
-Find `fg open parentheses 1 close parentheses`.
+Find $fg ( 1 )$.
 
 *Source: 2018	June 1MA1/2H Q11B*
 
@@ -362,7 +362,7 @@ Find `fg open parentheses 1 close parentheses`.
 
 **Q14** [1 mark]
 
-`space space space space space space space space space space straight g open parentheses x close parentheses space equals space 1 minus space 2 x space space space space space space space space space space space straight h open parentheses x close parentheses space equals space 1 over x comma space x space not equal to 0 space space space space space space space space space space straight j open parentheses x close parentheses space equals space 5 to the power of x`
+$\mathrm{g} ( x ) = 1 - 2 x \mathrm{h} ( x ) = \frac{1}{x} , x \text{eq} 0 \mathrm{j} ( x ) = 5^{x}$
 
 Find $\mathrm{hh}(x)$, giving your answer in its simplest form.
 
@@ -375,7 +375,7 @@ Find $\mathrm{hh}(x)$, giving your answer in its simplest form.
 
 j(x) = 5^x
 
-Find `straight j open parentheses 5 close parentheses`.
+Find $\mathrm{j} ( 5 )$.
 
 *Source: 2020 Oct/Nov 0580/42 Q10F*
 

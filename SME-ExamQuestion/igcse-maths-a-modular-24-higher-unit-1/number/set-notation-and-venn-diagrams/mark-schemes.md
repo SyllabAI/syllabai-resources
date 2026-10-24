@@ -24,7 +24,7 @@
 ### 2() — 1 marks
 > *Identify which set has no letters in common with set **A*
 
-`A space intersection space box enclose space space E space space end enclose equals empty set`
+`A AND box E = {}`
 
 **Set E; Prague and Lisbon have no letters in common**** [1]**
 **Correct letter and explanation required for the mark**
@@ -201,11 +201,11 @@ ii) $B'$ *means the elements that are not in set **B.*
 ### 3((c)) — 2 marks
 > *You might find it useful to draw a Venn diagram to represent the information given.*
 
-> `table row cell A space union space B space union space C space end cell equals cell space calligraphic E end cell end table`* tells you there are no numbers outside *$A\cupB\cupC$
+> $\begin{gathered} A \cup B \cup C & = \text{calligraphic} E \end{gathered}$* tells you there are no numbers outside *$A\cupB\cupC$
 
-> `table row cell A space intersection space C space end cell equals cell space open curly brackets 2 close curly brackets end cell end table`* tells you that 2 appears in both **A** and **C**.*
+> $\begin{gathered} A \cap C & = \{ 2 \} \end{gathered}$* tells you that 2 appears in both **A** and **C**.*
 
-> `table row cell B space intersection space C apostrophe space end cell equals cell space open curly brackets 4 space comma space 6 space comma space 10 close curly brackets end cell end table`* tells you that neither 4, 6 nor 10 appear in C (but 8 does as 8 is in **B**).*
+> $\begin{gathered} B \cap C ' & = \{ 4 , 6 , 10 \} \end{gathered}$* tells you that neither 4, 6 nor 10 appear in C (but 8 does as 8 is in **B**).*
 
 ![igcse-edexcel-set-notation-and-venn-diagrams-e11c](assets/049-igcse-edexcel-set-notation-and-venn-diagrams-e11.png)
 
@@ -236,7 +236,7 @@ ii) $B'$ *means the elements that are not in set **B.*
 **[B1]**
 
 ### 1((c)) — 1 marks
-> $A\cupB$* is anything contained in the circles so *`open parentheses A space union space B close parentheses apostrophe`* is anything outside of the circles*
+> $A\cupB$* is anything contained in the circles so *$( A \cup B ) '$* is anything outside of the circles*
 
 **Final answer:** **6, 8, 12, 14, 16**
 
@@ -257,7 +257,7 @@ ii) $B'$ *means the elements that are not in set **B.*
 
 **[1]**
 
-> *Find the numbers that appear in **A** 'or' **B, *`open parentheses A union B close parentheses`*.*
+> *Find the numbers that appear in **A** 'or' **B, *$( A \cup B )$*.*
 
 **2, 4, 8, 10, 20*** ***[1]**
 
@@ -274,11 +274,11 @@ ii) $B'$ *means the elements that are not in set **B.*
 **Preety does not study French** **[1]**
 
 ### 3() — 2 marks
-> *Using *`A intersection B equals open curly brackets 2 comma space 4 close curly brackets`*, **A** and **B** must both contain 2 and 4.*
+> *Using *$A \cap B = \{ 2 , 4 \}$*, **A** and **B** must both contain 2 and 4.*
 
-> *Using *`A union B equals open curly brackets 1 comma space 2 comma space 3 comma space 4 comma space 6 comma space 8 comma space 10 close curly brackets`*, if 1 and 3 are not in **A** but are in **A **'or' **B**, they must be in **B**.*
+> *Using *$A \cup B = \{ 1 , 2 , 3 , 4 , 6 , 8 , 10 \}$*, if 1 and 3 are not in **A** but are in **A **'or' **B**, they must be in **B**.*
 
-`bold italic B bold equals stretchy left curly bracket 1 comma space 2 comma space 3 comma space 4 stretchy right curly bracket`**[1]**
+`B = stretchy left curly bracket 1 , 2 , 3 , 4 stretchy right curly bracket`**[1]**
 
 ## Q15 — medium — 3 marks · exam-questions
 
@@ -399,7 +399,7 @@ ii) $B'$ *means the elements that are not in set **B.*
 
 > *9 is the only number that is not in set **A** 'or' **B**, so it must be in set **C**.*
 
-> `A intersection C equals open curly brackets 3 comma space 7 close curly brackets`* and *`B intersection C equals open curly brackets 8 close curly brackets`*, tell us that set **C** also contains 3, 7 and 8.*
+> $A \cap C = \{ 3 , 7 \}$* and *$B \cap C = \{ 8 \}$*, tell us that set **C** also contains 3, 7 and 8.*
 
 **3, 7, 8, 9 ****[1]**
 
@@ -461,7 +461,7 @@ ii) $B'$ *means the elements that are not in set **B.*
 ## Q23 — medium — 5 marks · exam-questions
 
 ### 1() — 3 marks
-> `straight n open parentheses A intersection B close parentheses equals 8`* means that there are 8 elements in the intersection of **A** and **B**.*
+> $\mathrm{n} ( A \cap B ) = 8$* means that there are 8 elements in the intersection of **A** and **B**.*
 
 > *Find the number of elements that are in **B** but not in **A** by subtracting the number of elements that are in both **A ** and **B** from the number of elements in **B**.*
 
@@ -566,27 +566,27 @@ $n(A'\cupB'\cupC')=6+3+8+2+5+4$
 ## Q26 — medium — 3 marks · exam-questions
 
 ### 19() — 3 marks
-i) `n open parentheses A union B close parentheses`* means the number of elements in **A** "or" **B**.*
+i) $n ( A \cup B )$* means the number of elements in **A** "or" **B**.*
 
-`n open parentheses A union B close parentheses equals 12 plus 10 plus 5 plus 6 plus 9 plus 3`
+$n ( A \cup B ) = 12 + 10 + 5 + 6 + 9 + 3$
 
 **Answer = 45**** ****[1]**
 
-ii) `n open parentheses A apostrophe intersection space B apostrophe close parentheses`* means the number of elements that are not in **A** **and** are not in **B**. It is represented by the shaded area in the diagram below.*
+ii) $n ( A ' \cap B ' )$* means the number of elements that are not in **A** **and** are not in **B**. It is represented by the shaded area in the diagram below.*
 
 ![igcse-edexcel-set-notation-and-venn-diagrams-h14iii](assets/035-igcse-edexcel-set-notation-and-venn-diagrams-h14.png)
 
-`n open parentheses A apostrophe intersection space B apostrophe close parentheses equals 4 plus 8`
+$n ( A ' \cap B ' ) = 4 + 8$
 
 **Answer = 12**** ****[1]**
 
-iii) `n open parentheses open square brackets A intersection B close square brackets union space C close parentheses`* means the number of elements that are in **A** **and** B, **or** **in **C.** It is represented by all the shaded area in the diagram below.*
+iii) $n ( [ A \cap B ] \cup C )$* means the number of elements that are in **A** **and** B, **or** **in **C.** It is represented by all the shaded area in the diagram below.*
 
-> *(*`n open parentheses open square brackets A intersection B close square brackets intersection space C close parentheses`* would be the overlapping shaded area below, or 6)*
+> *(*$n ( [ A \cap B ] \cap C )$* would be the overlapping shaded area below, or 6)*
 
 ![nm2~fCI-_igcse-edexcel-set-notation-and-venn-diagrams-h14iii](assets/036-nm2-fci-igcse-edexcel-set-notation-and-venn-diag.png)
 
-`n open parentheses open square brackets A intersection space B close square brackets union C close parentheses equals 5 plus 6 plus 10 plus 3 plus 4`
+$n ( [ A \cap B ] \cup C ) = 5 + 6 + 10 + 3 + 4$
 
 **Answer = 28**** ****[1]**
 
@@ -780,7 +780,7 @@ $23$** [1]**
 ## Q33 — hard — 4 marks · exam-questions
 
 ### 1() — 2 marks
-> *Shade the union of **A** and **B, *`open parentheses A union B close parentheses`*.*
+> *Shade the union of **A** and **B, *$( A \cup B )$*.*
 
 ![05](assets/018-05.png)
 
@@ -788,7 +788,7 @@ $23$** [1]**
 
 ![06](assets/019-06.png)
 
-> *Shade a new diagram that shows the intersection of these two sets, *`open parentheses A union B close parentheses intersection C apostrophe`*.*
+> *Shade a new diagram that shows the intersection of these two sets, *$( A \cup B ) \cap C '$*.*
 
 ![07](assets/020-07.png)
 
@@ -804,8 +804,8 @@ $23$** [1]**
 
 $(D\capE)\cup(E\capF)$
 
-`open parentheses D intersection E close parentheses` **[1]** 
-`open parentheses E intersection F close parentheses`** [1]**
+$( D \cap E )$ **[1]** 
+$( E \cap F )$** [1]**
 
 > *Method 2*
 
@@ -921,13 +921,13 @@ $4+2+6+9+9+2x+x+11=80$
 
 > *Simplify and solve.*
 
-`table attributes columnalign right center left columnspacing 0px end attributes row cell 3 x plus 41 end cell equals 80 row cell 3 x end cell equals 39 row x equals 13 end table`
+$\begin{array}{rcl} 3 x + 41 & = 80 \\ 3 x & = 39 \\ x = 13 \end{array}$
 
 **[1]**
 
 > *Find the number of people that study Russian by adding together the numbers in that circle.*
 
-`2 open parentheses 13 close parentheses plus 6 plus 2 plus 4`
+$2 ( 13 ) + 6 + 2 + 4$
 
 **38 study Russian** **[1]**
 
@@ -940,7 +940,7 @@ $4+2+6+9+9+2x+x+11=80$
 
 **[1]**
 
-> *If we consider *$B'$* and *$A'$*, 7, 8 and 14 are not in **B** or in **A**, so put 7, 8 and 14 in *`open parentheses A union B close parentheses apostrophe`*.*
+> *If we consider *$B'$* and *$A'$*, 7, 8 and 14 are not in **B** or in **A**, so put 7, 8 and 14 in *$( A \cup B ) '$*.*
 
 ![zJeKldzE_igcse-edexcel-set-notation-and-venn-diagrams-h11-2](assets/009-zjekldze-igcse-edexcel-set-notation-and-venn-dia.png)
 
@@ -1005,7 +1005,7 @@ $25-x+x-6+16-x+6+3+2+9+5=50$
 
 > *Now collect like terms and solve.*
 
-`table attributes columnalign right center left columnspacing 0px end attributes row cell 60 minus x end cell equals 50 row 10 equals x end table`
+$\begin{array}{rcl} 60 - x & = 50 \\ 10 = x \end{array}$
 
 **10**** ****[1]**
 
@@ -1043,15 +1043,15 @@ $9-7=2$
 
 > *Calculate the number that study only Spanish*
 
-`16 minus open parentheses 5 plus 7 plus 2 close parentheses equals 2`
+$16 - ( 5 + 7 + 2 ) = 2$
 
 > *Calculate the number that study only German*
 
-`18 minus open parentheses 5 plus 7 plus 3 close parentheses equals 3`
+$18 - ( 5 + 7 + 3 ) = 3$
 
 > *Calculate the number that study only French*
 
-`30 minus open parentheses 3 plus 7 plus 5 plus 2 plus 2 plus 3 close parentheses equals 8`
+$30 - ( 3 + 7 + 5 + 2 + 2 + 3 ) = 8$
 
 **[M1]**
 

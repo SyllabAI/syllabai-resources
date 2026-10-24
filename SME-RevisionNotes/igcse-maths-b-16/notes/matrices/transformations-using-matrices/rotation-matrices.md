@@ -28,10 +28,10 @@ guided_study: false
 
 - The **coordinates** of *A* and *C* as **column vectors** are
 
-  - `A equals open parentheses table row 1 row 0 end table close parentheses` and `C equals open parentheses table row 0 row 1 end table close parentheses`
+  - $A = ( \begin{gathered} 1 \\ 0 \end{gathered} )$ and $C = ( \begin{gathered} 0 \\ 1 \end{gathered} )$
 - Under a **rotation about the origin**, *A* moves to *A*' and *C* moves to *C*'
 
-  - The **matrix, M** representing this rotation is `bold M equals open parentheses table row cell A apostrophe space vertical line end cell cell C apostrophe end cell end table close parentheses`
+  - The **matrix, M** representing this rotation is $M = ( \begin{gathered} A ' \vert & C ' \end{gathered} )$
   - *A*' and *C*' are **column vectors** of the new positions
   
     - So $M$ is a 2×2 matrix
@@ -40,14 +40,14 @@ guided_study: false
 
   - To find the matrix representing a rotation of 90° anticlockwise about the origin
   
-    - A goes to `A apostrophe equals open parentheses table row 0 row 1 end table close parentheses` (on the positive *y*-axis)
-    - *C* goes to `C apostrophe equals open parentheses table row cell negative 1 end cell row 0 end table close parentheses` (on the negative *x*-axis)
-    - `bold M equals open parentheses table row cell A apostrophe space vertical line end cell cell C apostrophe end cell end table close parentheses equals open parentheses table row 0 cell negative 1 end cell row 1 0 end table close parentheses`
+    - A goes to $A ' = ( \begin{gathered} 0 \\ 1 \end{gathered} )$ (on the positive *y*-axis)
+    - *C* goes to $C ' = ( \begin{gathered} - 1 \\ 0 \end{gathered} )$ (on the negative *x*-axis)
+    - $M = ( \begin{gathered} A ' \vert & C ' \end{gathered} ) = ( \begin{gathered} 0 - 1 \\ 1 0 \end{gathered} )$
   - To find the matrix representing a rotation of 180° about the origin
   
-    - A goes to `A apostrophe equals open parentheses table row cell negative 1 end cell row 0 end table close parentheses` (on the negative *x*-axis)
-    - *C* goes to `C apostrophe equals open parentheses table row 0 row cell negative 1 end cell end table close parentheses` (on the negative *y*-axis)
-    - `bold M equals open parentheses table row cell A apostrophe space vertical line end cell cell C apostrophe end cell end table close parentheses equals open parentheses table row cell negative 1 end cell 0 row 0 cell negative 1 end cell end table close parentheses`
+    - A goes to $A ' = ( \begin{gathered} - 1 \\ 0 \end{gathered} )$ (on the negative *x*-axis)
+    - *C* goes to $C ' = ( \begin{gathered} 0 \\ - 1 \end{gathered} )$ (on the negative *y*-axis)
+    - $M = ( \begin{gathered} A ' \vert & C ' \end{gathered} ) = ( \begin{gathered} - 1 & 0 \\ 0 - 1 \end{gathered} )$
     
       - This is the same as $M=-I$ where* *$I$ is the identity matrix
 
@@ -64,10 +64,10 @@ guided_study: false
 > 
 > ![transforming-a-point-we](assets/830fb34638c3-transforming-a-point-we.png)
 > 
-> *The point A *`open parentheses table row 1 row 0 end table close parentheses`* moves to A' *`open parentheses table row 0 row cell negative 1 end cell end table close parentheses`
+> *The point A *$( \begin{gathered} 1 \\ 0 \end{gathered} )$* moves to A' *$( \begin{gathered} 0 \\ - 1 \end{gathered} )$
 > 
-> *The point C *`open parentheses table row 0 row 1 end table close parentheses`* moves to C' *`open parentheses table row 1 row 0 end table close parentheses`
+> *The point C *$( \begin{gathered} 0 \\ 1 \end{gathered} )$* moves to C' *$( \begin{gathered} 1 \\ 0 \end{gathered} )$
 > 
-> > *The transformation matrix is given by *`bold M equals open parentheses table row cell A apostrophe space vertical line end cell cell C apostrophe end cell end table close parentheses`
+> > *The transformation matrix is given by *$M = ( \begin{gathered} A ' \vert & C ' \end{gathered} )$
 > 
-> `straight M equals stretchy left parenthesis table row 0 1 row cell negative 1 end cell 0 end table stretchy right parenthesis`
+> $\mathrm{M} = ( \begin{gathered} 0 1 \\ - 1 & 0 \end{gathered} )$

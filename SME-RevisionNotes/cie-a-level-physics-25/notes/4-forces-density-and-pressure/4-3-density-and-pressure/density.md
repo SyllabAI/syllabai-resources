@@ -78,7 +78,7 @@ $ρ=\frac{m}{V}$
 > 
 > $ρ=\frac{73}{0.017}$
 > 
-> `rho space equals space 4300 space kg space straight m to the power of negative 3 end exponent space open parentheses 2 space straight s. straight f. close parentheses`
+> $\\rho = 4300 \text{kg} \mathrm{m}^{- 3} ( 2 \mathrm{s} . \mathrm{f} . )$
 
 > **Exam Hint**
 > - When converting a **larger** unit to a **smaller** one, you **multiply (×)**

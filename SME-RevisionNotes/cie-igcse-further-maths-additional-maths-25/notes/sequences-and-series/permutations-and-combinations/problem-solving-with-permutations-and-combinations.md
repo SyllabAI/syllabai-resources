@@ -83,14 +83,14 @@ guided_study: false
 > 
 > > *For the first letter there are five possible options (A, B, C, D or E) For the second letter there are four possible options as no letter can be repeated. *
 > 
-> `P presuperscript 5 subscript 2 space equals space open parentheses 5 space cross times space 4 close parentheses`
+> $P pre^{5}_{2} = ( 5 \times 4 )$
 > 
 > > *For the first number there are ten possible options (0, 1, 2, 3, 4, 5, 6, 7, 8, 9) For the second number there are nine possible options as no number can be repeated.  For the third number there are eight possible options. *
 > 
-> `P presuperscript 10 subscript 3 space equals space open parentheses space 10 cross times 9 cross times 8 close parentheses`
+> $P pre^{10}_{3} = ( 10 \times 9 \times 8 )$
 > 
 > > *We want two letters **AND **three numbers so we will multiply the options.*
 > 
-> `P presuperscript 5 subscript 2 space cross times space P presuperscript 10 subscript 3 space`
+> $P pre^{5}_{2} \times P pre^{10}_{3}$
 > 
 > **Final answer:** **14400 passwords**

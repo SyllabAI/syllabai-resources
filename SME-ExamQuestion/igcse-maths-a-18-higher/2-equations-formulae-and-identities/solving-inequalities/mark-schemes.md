@@ -9,7 +9,7 @@
 
 > *However, it's best to avoid this if possible by taking all terms to one side of the inequality instead.)*
 
-`table row cell 14 n end cell greater than cell 11 n plus 6 end cell row cell negative 11 n space space space space space space space space space end cell equals cell space space space space space space space space space space space space space space space space minus 11 n end cell row cell 3 n end cell greater than 6 row cell divided by 3 space space space space space space space space end cell equals cell space space space space divided by 3 end cell row n greater than 2 end table`
+$\begin{gathered} 14 n & > 11 n + 6 \\ - 11 n & = - 11 n \\ 3 n & > 6 \\ \div 3 & = \div 3 \\ n > 2 \end{gathered}$
 
 **[1]**
 
@@ -18,7 +18,7 @@ $n>2$* ***[1]**
 ### 1((b)) — 3 marks
 > *First simplify the inequality to isolate the **x** term.*
 
-`table row cell negative 2 end cell less than cell x plus 3 less or equal than 4 end cell row cell negative 3 space space space space space end cell equals cell space minus 3 space equals space space minus 3 end cell row cell negative 5 end cell less than cell x less or equal than 1 end cell end table`
+$\begin{array}{ccc} - 2 & < & x + 3 \le 4 \\ - 3 & = & - 3 = - 3 \\ - 5 & < & x \le 1\end{array}$
 
 **[1]**
 
@@ -152,7 +152,7 @@ $-3<x\leq4$
 
 > *To isolate **y** we need to divide (each 'side') by 2.*
 
-`table row cell negative 4 over 2 end cell less or equal than cell fraction numerator 2 y over denominator 2 end fraction less than 6 over 2 end cell row cell negative 2 end cell less or equal than cell y less than 3 end cell end table`
+$\begin{gathered} - \frac{4}{2} & \text{less} \text{or} \text{equal} \text{than} \frac{2 y}{2} < \frac{6}{2} \\ - 2 & \text{less} \text{or} \text{equal} \text{than} y < 3 \end{gathered}$
 
 > *Integers are whole numbers and include zero. ≤ means 'including' (so -2 is included) and < means 'excluding' (so 3 is not included).*
 
@@ -168,19 +168,19 @@ $-2,-1,0,1,2$
 
 > *To isolate **x **start by adding 3 (to all 3 'sides').*
 
-`table row cell negative 7 plus 3 end cell less or equal than cell 2 x minus 3 plus 3 less than 5 plus 3 end cell end table`
+$\begin{gathered} - 7 + 3 & \text{less} \text{or} \text{equal} \text{than} 2 x - 3 + 3 < 5 + 3 \end{gathered}$
 
 **[1]**
 
-`table row cell negative 4 end cell less or equal than cell 2 x less than 8 end cell end table`
+$\begin{gathered} - 4 & \text{less} \text{or} \text{equal} \text{than} 2 x < 8 \end{gathered}$
 
 > *Now divide by 2.*
 
-`table row cell fraction numerator negative 4 over denominator 2 end fraction end cell less or equal than cell fraction numerator 2 x over denominator 2 end fraction less than 8 over 2 end cell end table`
+$\begin{gathered} \frac{- 4}{2} & \text{less} \text{or} \text{equal} \text{than} \frac{2 x}{2} < \frac{8}{2} \end{gathered}$
 
 **[1]**
 
-`table row cell negative 2 end cell less or equal than cell x less or equal than 4 end cell end table`
+$\begin{array}{ccc} - 2 & \le & x \le 4\end{array}$
 
 $-2\leqx<4$* ***[1]**
 
@@ -199,7 +199,7 @@ $-2\leqx<4$* ***[1]**
  *(Remember the exception is that when multiplying or dividing by a negative, the inequality sign gets reversed.* 
 *However, it's best to avoid this if possible by taking all terms to one side of the inequality instead.)*
 
-`table row cell 5 x minus 7 end cell less or equal than 2 row cell plus 7 space space space space space space space space space space end cell equals cell space space space space plus 7 end cell row cell 5 x end cell less or equal than 9 row cell divided by 5 space space space space space space space space space end cell equals cell space space space space divided by 5 end cell row x less or equal than cell 9 over 5 end cell end table`
+$\begin{gathered} 5 x - 7 & \text{less} \text{or} \text{equal} \text{than} 2 \\ + 7 & = + 7 \\ 5 x & \text{less} \text{or} \text{equal} \text{than} 9 \\ \div 5 & = \div 5 \\ x \text{less} \text{or} \text{equal} \text{than} \frac{9}{5} \end{gathered}$
 
 **[1]**
 
@@ -299,7 +299,7 @@ $<$ *and*$>$*are represented by open circles on a number line. *$\leq$* and *$\g
 ## Q14 — easy — 1 marks · exam-questions
 
 ### 21() — 1 marks
-*The graph is of the function* `straight f open parentheses x close parentheses` *so *`straight f open parentheses x close parentheses space greater than space 0`* where the graph is **above **the *$x$*- axis.*
+*The graph is of the function* $\mathrm{f} ( x )$ *so *$\mathrm{f} ( x ) > 0$* where the graph is **above **the *$x$*- axis.*
 
 > *The graph is above the *$x$*- axis between the values of -2.5 and 1, so when *$x>-2.5$* and when *$x<1$*.*
 
@@ -340,7 +340,7 @@ $x<2.2$
 ### 1((c)) — 2 marks
 > *Solve for *$q$*, using the balance method for example and doing the same thing to each side of the inequality*
 
-`table row cell 2 q end cell greater or equal than cell 31 minus 3 q end cell row cell 2 q plus 3 q end cell greater or equal than 31 row cell 5 q end cell greater or equal than 31 row q greater or equal than cell 31 over 5 end cell end table`
+$\begin{gathered} 2 q & \text{greater} \text{or} \text{equal} \text{than} 31 - 3 q \\ 2 q + 3 q & \text{greater} \text{or} \text{equal} \text{than} 31 \\ 5 q & \text{greater} \text{or} \text{equal} \text{than} 31 \\ q \text{greater} \text{or} \text{equal} \text{than} \frac{31}{5} \end{gathered}$
 
 **[M1]**
 
@@ -687,7 +687,7 @@ $x>21\mathrm{or}21<x$*  ***[1]**
 
 $-1\leqx<6$
 
-> *Write down the integer values for *`– 4 space less than space x space less-than or slanted equal to space 2`* and for *$2\leqx+3<9$* underneath each other.*
+> *Write down the integer values for *$- 4 < x \text{less} - \text{than} or \text{slanted} \text{equal} to 2$* and for *$2\leqx+3<9$* underneath each other.*
 
 $-4<x\leq2:-3,-2,-1,0,1,2\,2\leqx+3<9:-1,0,1,2,3,4,5$
 
@@ -695,8 +695,8 @@ $-4<x\leq2:-3,-2,-1,0,1,2\,2\leqx+3<9:-1,0,1,2,3,4,5$
 
 > *Eliminate numbers that don't appear in both lists.*
 
-`negative 4 space less than space x space less or equal than space 2 colon space space space space space space space space space up diagonal strike negative 3 end strike comma space up diagonal strike negative 2 end strike comma space minus 1 comma space space 0 comma space space 1 comma space space 2
-2 space less or equal than space x space plus space 3 space less than space 9 colon space space space space space space space space space space space space space space space space space space space space minus 1 comma space space 0 comma space space 1 comma space space 2 comma space space up diagonal strike 3 comma space space up diagonal strike 4 comma space space up diagonal strike 5 space`
+$- 4 < x \text{less} \text{or} \text{equal} \text{than} 2 : \cancel{- 3} , \cancel{- 2} , - 1 , 0 , 1 , 2
+2 \text{less} \text{or} \text{equal} \text{than} x + 3 < 9 : - 1 , 0 , 1 , 2 , \cancel{3} , \cancel{4} , \cancel{5}$
 
 > *Write down the numbers that are in both lists.*
 
@@ -743,7 +743,7 @@ $x>-1$  **[1]**
 ## Q33 — medium — 2 marks · exam-questions
 
 ### 29() — 2 marks
-> `straight f open parentheses x close parentheses space greater or equal than space 0`* means we only want values of *$x$* that give positive values *$y$*.*
+> $\mathrm{f} ( x ) \ge 0$* means we only want values of *$x$* that give positive values *$y$*.*
 
 > *Highlight the part of the graph that is above the *$x$*-axis.*
 
@@ -908,7 +908,7 @@ $x>3$**[1]**
 ### 17((a)) — 3 marks
 > *Rearrange the inequality so that the right hand side is set to zero*
 
-`table row cell x squared plus 2 x minus 6 x minus 5 end cell greater than 0 row cell x squared minus 4 x minus 5 end cell greater than 0 end table`
+$\begin{gathered} x^{2} + 2 x - 6 x - 5 & > 0 \\ x^{2} - 4 x - 5 & > 0 \end{gathered}$
 
 **[M1]**
 
@@ -921,8 +921,8 @@ $x^{2}-4x-5=0$
 > **[exam-tip]**
 > Completing the square or the quadratic formula will give the same solutions, but factorising is the most efficient method in this case.
 
-`open parentheses x minus 5 close parentheses open parentheses x plus 1 close parentheses equals 0
-x equals 5 space space or space space x equals negative 1`
+$( x - 5 ) ( x + 1 ) = 0
+x = 5 \text{or} x = - 1$
 
 **[M1]**
 
@@ -980,7 +980,7 @@ Factorise the quadratic
 
 - -7 and -2 add to give -9 and multiply to give 14
 
-`open parentheses x minus 7 close parentheses open parentheses x minus 2 close parentheses space less than space 0`
+$( x - 7 ) ( x - 2 ) < 0$
 
 **[M1]**
 
@@ -1005,7 +1005,7 @@ $2<x<7$
 ### 21() — 4 marks
 > *First rearrange to the form *$ax^{2}+bx+c>0$
 
-`table row cell x squared minus 3 open parentheses x plus 6 close parentheses end cell greater than 0 row cell x squared minus 3 x minus 18 end cell greater than 0 end table`
+$\begin{gathered} x^{2} - 3 ( x + 6 ) & > 0 \\ x^{2} - 3 x - 18 & > 0 \end{gathered}$
 
 **[1]**
 
@@ -1013,13 +1013,13 @@ $2<x<7$
 
 *two numbers that times to −18 and add to −3 are 3 and −6*
 
-`table attributes columnalign right center left columnspacing 0px end attributes row cell open parentheses x plus 3 close parentheses open parentheses x minus 6 close parentheses end cell equals 0 end table`
+$\begin{array}{rcl} ( x + 3 ) ( x - 6 ) & = 0 \end{array}$
 
 **[1]**
 
 > *Solve*
 
-`table row x equals cell negative 3 comma space space x equals 6 end cell end table`
+$\begin{gathered} x = - 3 , x = 6 \end{gathered}$
 
 **[1]**
 
@@ -1042,19 +1042,19 @@ $x<-3,x>6$ **[1] **
 ### 19() — 3 marks
 > *First rearrange to the form *$ax^{2}+bx+c>0$
 
-`table row cell x squared minus 3 x minus 4 end cell greater than 0 end table`
+$\begin{gathered} x^{2} - 3 x - 4 & > 0 \end{gathered}$
 
 > *Now ignore the inequality sign and solve as a quadratic equation to find the roots*
 
 *two numbers that times to −4 and add to −3 are −4 and 1*
 
-`table row cell open parentheses x minus 4 close parentheses open parentheses x plus 1 close parentheses end cell equals 0 end table`
+$\begin{gathered} ( x - 4 ) ( x + 1 ) & = 0 \end{gathered}$
 
 **[1]**
 
 > *Solve*
 
-`table row x equals cell 4 comma space space x equals negative 1 end cell end table`
+$\begin{gathered} x = 4 , x = - 1 \end{gathered}$
 
 **[1]**
 
@@ -1077,25 +1077,25 @@ $x<-1,x>4$ **[1] **
 ### 19() — 3 marks
 > *First ignore the inequality sign and solve as a quadratic equation to find the roots. We can **factorise harder (non-monic) quadratics** like *$2x^{2}+3x-2$* by "**grouping**" (or by "**using a grid**" method)*
 
-`table attributes columnalign right center left columnspacing 0px end attributes row cell 2 x squared plus 3 x minus 2 end cell equals 0 end table`
+$\begin{array}{rcl} 2 x^{2} + 3 x - 2 & = 0 \end{array}$
 
-`table row cell a c end cell equals cell 2 cross times open parentheses negative 2 close parentheses equals negative 4 end cell end table`*, *`table attributes columnalign right center left columnspacing 0px end attributes row b equals 3 end table`*; two numbers that times to −4 and add to 3 are 4 and −1*
+$\begin{gathered} a c & = 2 \times ( - 2 ) = - 4 \end{gathered}$*, *$\begin{array}{rcl} b = 3 \end{array}$*; two numbers that times to −4 and add to 3 are 4 and −1*
 
-`table row cell 2 x squared plus 4 x minus x minus 2 end cell equals 0 end table`
+$\begin{gathered} 2 x^{2} + 4 x - x - 2 & = 0 \end{gathered}$
 
 > *Group and factorise the first two terms and the last two terms separately*
 
-`table attributes columnalign right center left columnspacing 0px end attributes row cell 2 x open parentheses x plus 2 close parentheses minus open parentheses x plus 2 close parentheses end cell equals 0 end table`
+$\begin{array}{rcl} 2 x ( x + 2 ) - ( x + 2 ) & = 0 \end{array}$
 
-> *Factorise into final form using the common factor *`open parentheses x plus 2 close parentheses`
+> *Factorise into final form using the common factor *$( x + 2 )$
 
-`table attributes columnalign right center left columnspacing 0px end attributes row cell open parentheses 2 x minus 1 close parentheses open parentheses x plus 2 close parentheses end cell equals 0 end table`
+$\begin{array}{rcl} ( 2 x - 1 ) ( x + 2 ) & = 0 \end{array}$
 
 **[1]**
 
 > *Solve*
 
-`table row cell 2 x minus 1 end cell equals cell 0 space comma space x plus 2 equals 0 end cell row x equals cell 1 half comma space space x equals negative 2 end cell end table`
+$\begin{gathered} 2 x - 1 & = 0 , x + 2 = 0 \\ x = 1 \frac{1}{2} , x = - 2 \end{gathered}$
 
 **[1]**
 
@@ -1120,17 +1120,17 @@ $4x^{2}-5x-6=0$
 
 > *This is usually easiest by factorising.*
 
-`4 x squared minus 5 x minus 6 equals open parentheses 4 x plus 3 close parentheses open parentheses x minus 2 close parentheses equals 0`
+$4 x^{2} - 5 x - 6 = ( 4 x + 3 ) ( x - 2 ) = 0$
 
 **[1]**
 
 > *So*
 
-`table row cell 4 x plus 3 end cell equals cell 0 comma space space space space space x equals negative 3 over 4 end cell row cell x minus 2 end cell equals cell 0 comma space space space space space x equals 2 end cell end table`
+$\begin{gathered} 4 x + 3 & = 0 , x = - \frac{3}{4} \\ x - 2 & = 0 , x = 2 \end{gathered}$
 
 **[1]**
 
-*Sketch the graph of *`y equals open parentheses 4 x plus 3 close parentheses open parentheses x minus 2 close parentheses`*, marking the roots.* *This is a positive quadratic so is a "U"-shaped parabola.*
+*Sketch the graph of *$y = ( 4 x + 3 ) ( x - 2 )$*, marking the roots.* *This is a positive quadratic so is a "U"-shaped parabola.*
 
 ![edx-igcse-tq-solving-inequalities-hard-q4](assets/009-edx-igcse-tq-solving-inequalities-hard-q4.png)
 
@@ -1159,15 +1159,15 @@ $x^{2}-4x-5=0$
 
 > *This is usually easiest by factorising.*
 
-`x squared minus 4 x minus 5 equals open parentheses x minus 5 close parentheses open parentheses x plus 1 close parentheses equals 0`
+$x^{2} - 4 x - 5 = ( x - 5 ) ( x + 1 ) = 0$
 
 **[1]**
 
 > *So*
 
-`table row cell x minus 5 end cell equals cell 0 comma space space space space space x equals 5 end cell row cell x plus 1 end cell equals cell 0 comma space space space space space x equals negative 1 end cell end table`
+$\begin{gathered} x - 5 & = 0 , x = 5 \\ x + 1 & = 0 , x = - 1 \end{gathered}$
 
-*Sketch the graph of *`y equals open parentheses x minus 5 close parentheses open parentheses x plus 1 close parentheses`*, marking the roots.*
+*Sketch the graph of *$y = ( x - 5 ) ( x + 1 )$*, marking the roots.*
 
 > *This is a positive quadratic so is a "U"-shaped parabola.*
 
@@ -1193,15 +1193,15 @@ $x<-1,x>5$ **[1]**
 ### 20() — 5 marks
 > *First solve the linear inequality*
 
-`table row cell 3 n plus 2 end cell less or equal than 14 row cell 3 n end cell less or equal than 12 row n less or equal than 4 end table`
+$\begin{array}{cc}3 n + 2 & \le 14 \\ 3 n & \le 12 \\ n \le 4\end{array}$
 
 **[1]**
 
 > *Now solve the quadratic inequality. Rearrange to the form *$ax^{2}+bx+c>0$*, starting by multiplying both sides by *$n^{2}+5$
 
-`table row cell 6 n end cell greater than cell n squared plus 5 end cell row 0 greater than cell n squared minus 6 n plus 5 end cell end table`
+$\begin{gathered} 6 n & > n^{2} + 5 \\ 0 > n^{2} - 6 n + 5 \end{gathered}$
 
-`table row cell n squared minus 6 n plus 5 end cell less than 0 end table`
+$\begin{gathered} n^{2} - 6 n + 5 & < 0 \end{gathered}$
 
 **[1]**
 
@@ -1209,11 +1209,11 @@ $x<-1,x>5$ **[1]**
 
 *two numbers that times to 5 and add to −6 are −5 and −1*
 
-`table row cell open parentheses x minus 5 close parentheses open parentheses x minus 1 close parentheses end cell equals 0 end table`
+$\begin{gathered} ( x - 5 ) ( x - 1 ) & = 0 \end{gathered}$
 
 > *Solve*
 
-`table row x equals cell 5 comma space space x equals 1 end cell end table`
+$\begin{gathered} x = 5 , x = 1 \end{gathered}$
 
 **[1]**
 
@@ -1223,7 +1223,7 @@ $x<-1,x>5$ **[1]**
 
 > *From the graph we see that, for the quadratric inequality,*
 
-`table row 1 less than cell x less than 5 end cell end table`
+$\begin{gathered} 1 < x < 5 \end{gathered}$
 
 **[1]**
 
@@ -1236,13 +1236,13 @@ $x<-1,x>5$ **[1]**
 ### 22() — 5 marks
 > *The area of a rectangle is length x width so we first need to set up an inequality in terms of x.*
 
-`open parentheses 2 x plus 3 close parentheses open parentheses x minus 1 close parentheses less than 75`
+$( 2 x + 3 ) ( x - 1 ) < 75$
 
 **[1]**
 
 > *Expand brackets and rearrange so all terms are on the same side of the inequality.*
 
-`table row cell 2 x squared plus x minus 3 minus 75 end cell less than 0 row cell 2 x squared plus x minus 78 end cell less than 0 end table`
+$\begin{gathered} 2 x^{2} + x - 3 - 75 & < 0 \\ 2 x^{2} + x - 78 & < 0 \end{gathered}$
 
 **[1]**
 
@@ -1250,7 +1250,7 @@ $x<-1,x>5$ **[1]**
 
 > *Factorising is usually easiest (if possible).*
 
-`table row cell 2 x squared plus x minus 78 end cell equals cell open parentheses 2 x plus 13 close parentheses open parentheses x minus 6 close parentheses equals 0 end cell row x equals cell negative 13 over 2 comma space space space space x equals 6 end cell end table`
+$\begin{gathered} 2 x^{2} + x - 78 & = ( 2 x + 13 ) ( x - 6 ) = 0 \\ x = - \frac{13}{2} , x = 6 \end{gathered}$
 
 **[1]**
 
@@ -1293,15 +1293,15 @@ $5y^{2}-17y-40=0$
 
 > *This is usually easiest by factorising.*
 
-`5 y squared minus 17 y minus 40 equals open parentheses 5 y plus 8 close parentheses open parentheses y minus 5 close parentheses equals 0`
+$5 y^{2} - 17 y - 40 = ( 5 y + 8 ) ( y - 5 ) = 0$
 
 **[1]**
 
 > *So*
 
-`table row cell 5 y plus 8 end cell equals cell 0 comma space space space space space y equals negative 8 over 5 end cell row cell y minus 5 end cell equals cell 0 comma space space space space space y equals 5 end cell end table`
+$\begin{gathered} 5 y + 8 & = 0 , y = - \frac{8}{5} \\ y - 5 & = 0 , y = 5 \end{gathered}$
 
-*Sketch the graph of *`y equals open parentheses 5 y plus 8 close parentheses open parentheses y minus 5 close parentheses`*, marking the roots.*
+*Sketch the graph of *$y = ( 5 y + 8 ) ( y - 5 )$*, marking the roots.*
 
 > *This is a positive quadratic so is a "U"-shaped parabola.*
 
@@ -1318,13 +1318,13 @@ $-\frac{8}{5}\leqy\leq5$ **[1]**
 ### 23() — 5 marks
 > *The area of a rectangle is length x width so we first need to set up an inequality in terms of **x**.*
 
-`open parentheses 2 x minus 4 close parentheses open parentheses 3 x plus 2 close parentheses less than 3 x plus 27`
+$( 2 x - 4 ) ( 3 x + 2 ) < 3 x + 27$
 
 **[1]**
 
 > *Expand brackets and rearrange so all terms are on the same side of the inequality.*
 
-`table row cell 6 x squared minus 8 x minus 8 minus 3 x minus 27 end cell less than 0 row cell 6 x squared minus 11 x minus 35 end cell less than 0 end table`
+$\begin{gathered} 6 x^{2} - 8 x - 8 - 3 x - 27 & < 0 \\ 6 x^{2} - 11 x - 35 & < 0 \end{gathered}$
 
 **[1]**
 
@@ -1332,7 +1332,7 @@ $-\frac{8}{5}\leqy\leq5$ **[1]**
 
 > *Factorising is usually easiest (if possible).*
 
-`table row cell 6 x squared minus 11 x minus 35 end cell equals cell open parentheses 3 x plus 5 close parentheses open parentheses 2 x minus 7 close parentheses equals 0 end cell row x equals cell negative 5 over 3 comma space space space space x equals 7 over 2 end cell end table`
+$\begin{gathered} 6 x^{2} - 11 x - 35 & = ( 3 x + 5 ) ( 2 x - 7 ) = 0 \\ x = - \frac{5}{3} , x = \frac{7}{2} \end{gathered}$
 
 **[1]**
 
@@ -1367,13 +1367,13 @@ $2<x<\frac{7}{2}$* ***[1]**
 
 *two numbers that times to −12 and add to 4 are 6 and −2*
 
-`table row cell open parentheses x plus 6 close parentheses open parentheses x minus 2 close parentheses end cell equals 0 end table`
+$\begin{gathered} ( x + 6 ) ( x - 2 ) & = 0 \end{gathered}$
 
 **[1]**
 
 > *Solve*
 
-`table row x equals cell negative 6 comma space space x equals 2 end cell end table`
+$\begin{gathered} x = - 6 , x = 2 \end{gathered}$
 
 **[1]**
 
@@ -1402,13 +1402,13 @@ $-6<x<2$ **[1] **
 
 > *Substitute *$x=-2$* into the inequality given for *$x+y$* and solve to find the greatest possible value of *$y$*.*
 
-`table row cell x space plus space y space end cell less or equal than cell space 11 end cell row cell open parentheses negative 2 close parentheses space plus space y space end cell less or equal than cell space 11 end cell row cell y space end cell less or equal than cell space 13 end cell end table`
+$\begin{array}{ccc}x + y & \le & 11 \\ ( - 2 ) + y & \le & 11 \\ y & \le & 13\end{array}$
 
 * ***[1]**
 
 > *So the greatest possible value of *$y-x$* must be given by  *
 
-`13 space minus space open parentheses negative 2 close parentheses`
+$13 - ( - 2 )$
 
 > *Be careful with the negative when calculating the answer.*
 
@@ -1419,7 +1419,7 @@ $-6<x<2$ **[1] **
 ### 9() — 4 marks
 > *Subtract *$3x$* from both sides (always subtract the smaller *$x$* term, rather than the larger one).*
 
-`table row cell 8 x space plus space 5 space minus space 3 x space end cell less or equal than cell space minus 10 end cell row cell 5 x space plus space 5 space end cell less or equal than cell space minus 10 end cell end table`
+$\begin{array}{ccc}8 x + 5 - 3 x & \le & - 10 \\ 5 x + 5 & \le & - 10\end{array}$
 
 **[1]**
 
@@ -1446,14 +1446,14 @@ $x\leq\frac{-15}{5}\,x\leq-3$
 
 *Two numbers that times to −6 and add to −5 are −6 and 1*
 
-`table attributes columnalign right center left columnspacing 0px end attributes row cell open parentheses x space minus space 6 close parentheses open parentheses x space plus space 1 close parentheses space end cell less or equal than cell space 0 end cell end table`
+$\begin{array}{rcl} ( x - 6 ) ( x + 1 ) & \text{less} \text{or} \text{equal} \text{than} 0 \end{array}$
 
 **Method to factorise ****[1] **
 **Both brackets correct ****[1]**
 
 > *Find the roots of the quadratic as though solving the equation.*
 
-*For *`table row cell open parentheses x space minus space 6 close parentheses open parentheses x space plus space 1 close parentheses space end cell equals cell space 0 comma space space space space x space equals space 6 comma space space x space equals negative 1 end cell end table`
+*For *$\begin{gathered} ( x - 6 ) ( x + 1 ) & = 0 , x = 6 , x = - 1 \end{gathered}$
 
 **[1]**
 
@@ -1478,17 +1478,17 @@ $-1\leqx\leq6$** ****[1] **
 
 > *Factorising is the easiest method here.*
 
-`table row cell x squared space minus space 7 x space plus space 10 space end cell equals cell space 0 end cell end table`
+$\begin{gathered} x^{2} - 7 x + 10 & = 0 \end{gathered}$
 
 *Two numbers that times to 10 and add to −7 are −5 and −2*
 
-`table row cell open parentheses x space minus space 5 close parentheses open parentheses x space minus space 2 close parentheses space end cell equals cell space 0 end cell end table`
+$\begin{gathered} ( x - 5 ) ( x - 2 ) & = 0 \end{gathered}$
 
 **Correct factorisation or other method to find the roots ****[1]**
 
 > *Find the roots of the quadratic.*
 
-`table row cell space x space end cell equals cell space 2 comma space space x space equals 5 end cell end table`
+$\begin{gathered} x & = 2 , x = 5 \end{gathered}$
 
 **[1]**
 

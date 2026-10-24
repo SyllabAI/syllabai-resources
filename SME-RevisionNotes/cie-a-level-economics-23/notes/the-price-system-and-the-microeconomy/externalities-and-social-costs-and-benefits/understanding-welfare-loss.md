@@ -36,12 +36,12 @@ guided_study: false
 
 **Step 2: Calculate the area of the triangle**
 
-`Welfare space loss stretchy left parenthesis potential space welfare space gain stretchy right parenthesis space equals 1 half space straight x space base space straight x space height
-Welfare space loss space stretchy left parenthesis potential space welfare space gain stretchy right parenthesis space space equals space fraction numerator stretchy left parenthesis 100 comma 000 space minus space 70 comma 000 stretchy right parenthesis space straight x space stretchy left parenthesis £ 80 space minus space £ 40 stretchy right parenthesis over denominator 2 end fraction`
+$\text{Welfare} \text{loss} ( \text{potential} \text{welfare} \text{gain} ) = 1 \frac{1}{2} \mathrm{x} \text{base} \mathrm{x} \text{height}
+\text{Welfare} \text{loss} ( \text{potential} \text{welfare} \text{gain} ) = \frac{( 100 , 000 - 70 , 000 ) \mathrm{x} ( \pounds 80 - \pounds 40 )}{2}$
 
 $\mathrm{Welfare} \mathrm{loss}(\mathrm{potential} \mathrm{welfare} \mathrm{gain})=\frac{30,000x40}{2}\,\,\mathrm{Welfare} \mathrm{loss}(\mathrm{potential} \mathrm{welfare} \mathrm{gain})=\frac{30,000x40}{2}$
 
-`Welfare space loss space stretchy left parenthesis potential space welfare space gain stretchy right parenthesis space equals space £ 600 comma 000 space`
+$Welfare \text{loss} \text{stretchy} ( \text{potential} \text{welfare} \text{gain} \text{stretchy} ) = \pounds 600 , 000$
 
 - **More factors of production** should be allocated to producing the optimal quantity, as **societal welfare will be gained** (pink triangle)
 - There is an opportunity for **government intervention** (subsidies, partial provision, etc.) to force this market to be more **socially efficient**
@@ -61,12 +61,12 @@ $\mathrm{Welfare} \mathrm{loss}(\mathrm{potential} \mathrm{welfare} \mathrm{gain
 
 **Step 2: Calculate the area of the triangle**
 
-`Welfare space loss space equals space fraction numerator open parentheses 100 comma 000 space minus space 70 comma 000 close parentheses space straight x space open parentheses £ 80 space minus space £ 40 close parentheses over denominator 2 end fraction space bold space
+$\text{Welfare} \text{loss} = \frac{( 100 , 000 - 70 , 000 ) \mathrm{x} ( \pounds 80 - \pounds 40 )}{2} 
 
-Welfare space loss space equals space fraction numerator 30 comma 000 space straight x space 40 over denominator 2 end fraction
-space
+\text{Welfare} \text{loss} = \frac{30 , 000 \mathrm{x} 40}{2} 
+ 
 
-Welfare space loss space equals space £ 600 comma 000 space space bold space`
+\text{Welfare} \text{loss} = \pounds 600 , 000$
 
 - **Less factors of production** should be allocated to producing the optimal quantity, as **societal welfare will be lost**
 - There is an opportunity for **government intervention** (indirect taxes, regulation, etc.) to force this market to be more **socially efficient**

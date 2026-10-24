@@ -19,25 +19,25 @@ guided_study: false
 
 ### What is linear interpolation?
 
-- **Linear interpolation** draws a **straight line** between the points *A* and *B* with coordinates  `open parentheses a comma space straight f open parentheses a close parentheses close parentheses` and `open parentheses b comma space straight f open parentheses b close parentheses close parentheses`, where $a<x<b$ is an interval containing a root to the equation `straight f open parentheses x close parentheses equals 0`
+- **Linear interpolation** draws a **straight line** between the points *A* and *B* with coordinates  $( a , \mathrm{f} ( a ) )$ and $( b , \mathrm{f} ( b ) )$, where $a<x<b$ is an interval containing a root to the equation $\mathrm{f} ( x ) = 0$
 
-  - As `straight f open parentheses a close parentheses` and `straight f open parentheses b close parentheses` have **different signs**, *A *and *B* are on **either side **of the *x*-axis
+  - As $\mathrm{f} ( a )$ and $\mathrm{f} ( b )$ have **different signs**, *A *and *B* are on **either side **of the *x*-axis
   - The **approximation** to the root is  where this straight line **cuts the *****x*****-axis**
   
-    - This is at the point *X* with coordinates `open parentheses x comma space 0 close parentheses`
+    - This is at the point *X* with coordinates $( x , 0 )$
     - Points *A, X *and *B* lie on the same straight line
 - It helps to use the **gradient formula**
 
-  - The gradient between `open parentheses x subscript 1 comma space y subscript 1 close parentheses` and `open parentheses x subscript 2 comma space y subscript 2 close parentheses` is $\frac{y_{2}-y_{1}}{x_{2}-x_{1}}$
+  - The gradient between $( x_{1} , y_{1} )$ and $( x_{2} , y_{2} )$ is $\frac{y_{2}-y_{1}}{x_{2}-x_{1}}$
 
 ### How do I apply linear interpolation using gradients?
 
 - This is best explained with an example
-- If the root of `straight f open parentheses x close parentheses equals 0` lies in the interval `open square brackets 1 comma space 2 close square brackets` and `straight f open parentheses 1 close parentheses equals negative 5` and `straight f open parentheses 2 close parentheses equals 10`, then:
+- If the root of $\mathrm{f} ( x ) = 0$ lies in the interval $[ 1 , 2 ]$ and $\mathrm{f} ( 1 ) = - 5$ and $\mathrm{f} ( 2 ) = 10$, then:
 
-  - *A* is the point `open parentheses 1 comma space minus 5 close parentheses`
-  - *B* is the point `open parentheses 2 comma space 10 close parentheses`
-  - *X* is the point `open parentheses x comma space 0 close parentheses`
+  - *A* is the point $( 1 , - 5 )$
+  - *B* is the point $( 2 , 10 )$
+  - *X* is the point $( x , 0 )$
   
     - This is the *x*-intercept of the line *AB*
     - *A, X *and *B* lie on the same **straight line**
@@ -46,10 +46,10 @@ guided_study: false
     - The** order** matters (not *BX*)
   - Use the **gradient formula** to set these equal
   
-    - `fraction numerator 0 minus open parentheses negative 5 close parentheses over denominator x minus 1 end fraction equals fraction numerator 10 minus 0 over denominator 2 minus x end fraction` giving $\frac{5}{x-1}=\frac{10}{2-x}$
+    - $\frac{0 - ( - 5 )}{x - 1} = \frac{10 - 0}{2 - x}$ giving $\frac{5}{x-1}=\frac{10}{2-x}$
   - **Solve** the equation to find $x$
   
-    - `5 open parentheses 2 minus x close parentheses equals 10 open parentheses x minus 1 close parentheses`
+    - $5 ( 2 - x ) = 10 ( x - 1 )$
     - expand and solve to get $x=\frac{4}{3}$
 - This process can be **repeated **to get the next approximation
 - This gradient method does** not** require a** sketch**
@@ -61,55 +61,55 @@ guided_study: false
   - This leads to the same equation as the gradients above
 - Or you can use **coordinate geometry** to find the **equation** of the **line *****AB***
 
-  - Use `y minus y subscript 1 equals m open parentheses x minus x subscript 1 close parentheses`
+  - Use $y - y_{1} = m ( x - x_{1} )$
   - Then find its ***x*****-intercept**
   
     - Substitute in $y=0$ and solve for $x$
 
 > **Exam Hint**
-> If the calculations involve lengthy decimals, you can use `straight f open parentheses a close parentheses` and `straight f open parentheses b close parentheses` to stand for their numbers  in your working!
+> If the calculations involve lengthy decimals, you can use $\mathrm{f} ( a )$ and $\mathrm{f} ( b )$ to stand for their numbers  in your working!
 
 > **Worked Example**
-> The equation `straight f open parentheses x close parentheses equals 0` where `straight f open parentheses x close parentheses equals x cubed minus square root of x minus 2` has a root in the interval `open square brackets 1.4 comma space 1.5 close square brackets`.
+> The equation $\mathrm{f} ( x ) = 0$ where $\mathrm{f} ( x ) = x^{3} - \sqrt{x} - 2$ has a root in the interval $[ 1.4 , 1.5 ]$.
 > 
 > Use linear interpolation once to find an approximation to the root, giving your answer to 3 decimal places.
 > 
-> > *Find *`straight f open parentheses 1.4 close parentheses`* and *`straight f open parentheses 1.5 close parentheses`
+> > *Find *$\mathrm{f} ( 1.4 )$* and *$\mathrm{f} ( 1.5 )$
 > 
-> `table row cell straight f open parentheses 1.4 close parentheses end cell equals cell 1.4 cubed minus square root of 1.4 end root minus 2 equals negative 0.439215... end cell row cell straight f open parentheses 1.5 close parentheses end cell equals cell 1.5 cubed minus square root of 1.5 end root minus 2 equals 0.150255... end cell end table`
+> $\begin{gathered} \mathrm{f} ( 1.4 ) & = 1.4^{3} - \sqrt{1.4} - 2 = - 0.439215... \\ \mathrm{f} ( 1.5 ) & = 1.5^{3} - \sqrt{1.5} - 2 = 0.150255... \end{gathered}$
 > 
-> > *It is easier to write them as *`straight f open parentheses 1.4 close parentheses`* and *`straight f open parentheses 1.5 close parentheses`* for now*
-> *Let **A**, **B** and **X** be the points *`open parentheses 1.4 comma space straight f open parentheses 1.4 close parentheses close parentheses`*, *`open parentheses 1.5 comma space straight f open parentheses 1.5 close parentheses close parentheses`* and *`open parentheses x comma space 0 close parentheses`
+> > *It is easier to write them as *$\mathrm{f} ( 1.4 )$* and *$\mathrm{f} ( 1.5 )$* for now*
+> *Let **A**, **B** and **X** be the points *$( 1.4 , \mathrm{f} ( 1.4 ) )$*, *$( 1.5 , \mathrm{f} ( 1.5 ) )$* and *$( x , 0 )$
 > *Use the gradient formula *$\frac{y_{2}-y_{1}}{x_{2}-x_{1}}$* to find the gradient of **AX*
 > 
-> *gradient of ***AX ***is *`fraction numerator 0 minus straight f open parentheses 1.4 close parentheses over denominator x minus 1.4 end fraction`
+> *gradient of ***AX ***is *$\frac{0 - \mathrm{f} ( 1.4 )}{x - 1.4}$
 > 
 > > *Use the gradient formula *$\frac{y_{2}-y_{1}}{x_{2}-x_{1}}$* to find the gradient of **XB*
 > 
-> *gradient of ***XB ***is *`fraction numerator straight f open parentheses 1.5 close parentheses minus 0 over denominator 1.5 minus x end fraction`
+> *gradient of ***XB ***is *$\frac{ \mathrm{f} ( 1.5 ) - 0}{1.5 - x}$
 > 
 > > *Set the two gradients equal to each other*
 > 
-> `fraction numerator 0 minus straight f open parentheses 1.4 close parentheses over denominator x minus 1.4 end fraction equals fraction numerator straight f open parentheses 1.5 close parentheses minus 0 over denominator 1.5 minus x end fraction`
+> $\frac{0 - \mathrm{f} ( 1.4 )}{x - 1.4} = \frac{ \mathrm{f} ( 1.5 ) - 0}{1.5 - x}$
 > 
 > > *Simplify and cross multiply*
 > 
-> `table row cell fraction numerator negative straight f open parentheses 1.4 close parentheses over denominator x minus 1.4 end fraction end cell equals cell fraction numerator straight f open parentheses 1.5 close parentheses over denominator 1.5 minus x end fraction end cell row cell negative straight f open parentheses 1.4 close parentheses open parentheses 1.5 minus x close parentheses end cell equals cell straight f open parentheses 1.5 close parentheses open parentheses x minus 1.4 close parentheses end cell end table`
+> $\begin{gathered} \frac{- \mathrm{f} ( 1.4 )}{x - 1.4} & = \frac{ \mathrm{f} ( 1.5 )}{1.5 - x} \\ - \mathrm{f} ( 1.4 ) ( 1.5 - x ) & = \mathrm{f} ( 1.5 ) ( x - 1.4 ) \end{gathered}$
 > 
 > > *Expand and collect the *$x$* terms on the right-hand side*
 > 
-> `table row cell negative 1.5 straight f open parentheses 1.4 close parentheses plus straight f open parentheses 1.4 close parentheses x end cell equals cell straight f open parentheses 1.5 close parentheses x minus 1.4 straight f open parentheses 1.5 close parentheses end cell row cell 1.4 straight f open parentheses 1.5 close parentheses minus 1.5 straight f open parentheses 1.4 close parentheses end cell equals cell straight f open parentheses 1.5 close parentheses x minus straight f open parentheses 1.4 close parentheses x end cell end table`
+> $\begin{gathered} - 1.5 \mathrm{f} ( 1.4 ) + \mathrm{f} ( 1.4 ) x & = \mathrm{f} ( 1.5 ) x - 1.4 \mathrm{f} ( 1.5 ) \\ 1.4 \mathrm{f} ( 1.5 ) - 1.5 \mathrm{f} ( 1.4 ) & = \mathrm{f} ( 1.5 ) x - \mathrm{f} ( 1.4 ) x \end{gathered}$
 > 
 > > *Factorise out the *$x$*, then make *$x$* the subject*
 > 
-> `table row cell 1.4 straight f open parentheses 1.5 close parentheses minus 1.5 straight f open parentheses 1.4 close parentheses end cell equals cell x open square brackets straight f open parentheses 1.5 close parentheses minus straight f open parentheses 1.4 close parentheses close square brackets end cell row cell fraction numerator 1.4 straight f open parentheses 1.5 close parentheses minus 1.5 straight f open parentheses 1.4 close parentheses over denominator straight f open parentheses 1.5 close parentheses minus straight f open parentheses 1.4 close parentheses end fraction end cell equals x end table`
+> $\begin{gathered} 1.4 \mathrm{f} ( 1.5 ) - 1.5 \mathrm{f} ( 1.4 ) & = x [ \mathrm{f} ( 1.5 ) - \mathrm{f} ( 1.4 ) ] \\ \frac{1.4 \mathrm{f} ( 1.5 ) - 1.5 \mathrm{f} ( 1.4 )}{ \mathrm{f} ( 1.5 ) - \mathrm{f} ( 1.4 )} & = x \end{gathered}$
 > 
-> > *Substitute in  *`straight f open parentheses 1.4 close parentheses`* and *`straight f open parentheses 1.5 close parentheses`* from above*
+> > *Substitute in  *$\mathrm{f} ( 1.4 )$* and *$\mathrm{f} ( 1.5 )$* from above*
 > 
-> `table row cell fraction numerator 1.4 cross times 0.150255... negative 1.5 cross times open parentheses negative 0.439215... close parentheses over denominator 0.150255... negative open parentheses negative 0.439215... close parentheses end fraction end cell equals x row cell 1.47451... end cell equals x end table`
+> $\begin{gathered} \frac{1.4 \times 0.150255... - 1.5 \times ( - 0.439215... )}{0.150255... - ( - 0.439215... )} & = x \\ 1.47451... & = x \end{gathered}$
 > 
 > > *Give your final answer to 3 decimal places*
 > 
 > **Final answer:** $1.475$** to 3 decimal places**
 > 
-> **If you did the working without **`straight f open parentheses 1.4 close parentheses`** and **`straight f open parentheses 1.5 close parentheses`**, keep lots of decimal places**
+> **If you did the working without **$\mathrm{f} ( 1.4 )$** and **$\mathrm{f} ( 1.5 )$**, keep lots of decimal places**

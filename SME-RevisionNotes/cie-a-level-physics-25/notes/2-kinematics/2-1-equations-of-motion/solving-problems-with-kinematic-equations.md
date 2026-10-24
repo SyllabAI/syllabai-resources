@@ -51,11 +51,11 @@ guided_study: true
 > 
 > - The equation that links *u*, *v*, *t* and *s* are:
 > 
-> `s space equals fraction numerator space open parentheses u space plus thin space v close parentheses over denominator 2 end fraction t`
+> $s = \frac{ ( u + v )}{2} t$
 > 
 > **Step 3: Substitute in the values**
 > 
-> `s space equals space fraction numerator open parentheses 50 space plus space 10 close parentheses space over denominator 2 end fraction space cross times space 20 space equals space 600 space straight m`
+> $s = \frac{( 50 + 10 ) }{2} \times 20 = 600 \mathrm{m}$
 
 > **Exam Hint**
 > This is arguably the most important section of this topic, you can always be sure there will be one, or more, questions in the exam about solving problems with the kinematic equations. Make sure you've correctly selected the final and initial velocity.

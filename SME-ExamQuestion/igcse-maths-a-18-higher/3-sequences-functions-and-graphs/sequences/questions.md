@@ -497,7 +497,7 @@ $S_{m}=39$
 
 Find the value of $d$and the value of $m$ Show clear algebraic working.
 
-`table attributes columnalign right center left columnspacing 0px end attributes row d equals cell................... end cell row m equals cell................... end cell end table`
+$\begin{array}{rcl} d = ................... \\ m = ................... \end{array}$
 
 ## Q42 — very_hard — 5 marks · exam-questions
 

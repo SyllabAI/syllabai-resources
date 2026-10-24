@@ -30,7 +30,7 @@ For set 1,
 
 (ii) Calculate the variance, $σ^{2}$, of the data using the formula:
 
-`sigma squared equals fraction numerator sum open parentheses x minus space x with bar on top close parentheses squared over denominator n end fraction`
+$\\sigma ^{2} = \frac{sum ( x - \bar{x} )^{2}}{n}$
 
 ### 2() — 3 marks — structured
 For set 2,
@@ -59,7 +59,7 @@ Write down the
 of the data.
 
 ### 2() — 1 mark — structured
-Find the interquartile range `open parentheses I Q R close parentheses` of the data.
+Find the interquartile range $( I Q R )$ of the data.
 
 ### 3() — 2 marks — structured
 An outlier is defined as any value $x$ such that
@@ -80,7 +80,7 @@ Lucy is working with some grouped, continuous data. For a set of 100 items of da
 ### 2() — 3 marks — structured
 To calculate the standard deviation, Lucy could choose to use either of the following two formulae.
 
-standard deviation =  `square root of fraction numerator sum open parentheses x minus x with bar on top close parentheses squared f over denominator sum f end fraction end root`     or     $\sqrt{\frac{\sumx^{2}f}{\sumf}}-\overline{x}^{2}$ where $\overline{x}=\frac{\sumxf}{\sumf}$
+standard deviation =  $\sqrt{ \frac{sum ( x - \bar{x} )^{2} f}{sum f} }$     or     $\sqrt{\frac{\sumx^{2}f}{\sumf}}-\overline{x}^{2}$ where $\overline{x}=\frac{\sumxf}{\sumf}$
 
 (i) Calculate the mean of Lucy’s data.
 
@@ -157,12 +157,12 @@ Over the period of a fortnight (10 working days), it was found that  $\sum(c-500
 
 Use the formula below to find the mean number of chairs made per day over the fortnight.
 
-`fraction numerator sum open parentheses c minus 500 close parentheses over denominator n end fraction plus 500`
+$\frac{sum ( c - 500 )}{n} + 500$
 
 ### 2() — 2 marks — structured
 Use the formula below to find the standard deviation for the number of chairs made per day over the fortnight.
 
-`square root of open parentheses fraction numerator sum left parenthesis c minus 500 right parenthesis squared over denominator n end fraction close parentheses minus open parentheses fraction numerator sum left parenthesis c minus 500 right parenthesis over denominator n end fraction close parentheses end root squared`
+$\sqrt{( \frac{sum ( c - 500 )^{2}}{n} ) - ( \frac{sum ( c - 500 )}{n} )}^{2}$
 
 ### 3() — 1 mark — structured
 On one of the ten days, due to a mechanical problem, only 485 chairs were made. This is an outlier. Suggest an alternative measure of central tendency (other than the mean) that should be used to avoid the outlier having a major influence on the result.
@@ -296,7 +296,7 @@ A golfer records her scores for her last 8 rounds of golf, which are given below
 
 73         75         81         72         76         99         80         78
 
-(i) Find the median `open parentheses Q subscript 2 close parentheses` , the lower quartile `open parentheses Q subscript 1 close parentheses`  and the upper quartile `open parentheses Q subscript 3 close parentheses` .
+(i) Find the median $( Q_{2} )$ , the lower quartile $( Q_{1} )$  and the upper quartile $( Q_{3} )$ .
 
 (ii) Find the interquartile range.
 
@@ -572,7 +572,7 @@ Calculate the overall standard deviation of the time spent cocooned by all 40 bu
 ## Q36 — very_hard — 6 marks · exam-questions
 
 ### 1() — 4 marks — structured
-Lab technicians were studying the effect of caffeine on mice.  The resting heart rates, $x$ beats per minute (bpm), of some mice were recorded and the results were summarised by `straight capital sigma open parentheses x minus a close parentheses` = 150  and   `straight capital sigma open parentheses x minus a close parentheses squared` = 1050,  where $a$ is a constant.
+Lab technicians were studying the effect of caffeine on mice.  The resting heart rates, $x$ beats per minute (bpm), of some mice were recorded and the results were summarised by `capital sigma ( x - a )` = 150  and   `capital sigma ( x - a ) ^2` = 1050,  where $a$ is a constant.
 
 Given that the variance of the resting heart rates was found to be 10 bpm², calculate the two possible options for the number of mice in the study.
 

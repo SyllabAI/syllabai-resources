@@ -11,29 +11,29 @@ Insert brackets in different places and test the results
 - Remember that 'brackets' happens first in BIDMAS/BODMAS
 - and multiplication happens before addition and subtraction
 
-`open parentheses 9 plus 4 close parentheses minus 3 cross times 7 equals 13 minus 3 cross times 7 equals 13 minus 21 equals negative 8`
+$( 9 + 4 ) - 3 \times 7 = 13 - 3 \times 7 = 13 - 21 = - 8$
 
-`9 plus open parentheses 4 minus 3 close parentheses cross times 7 equals 9 plus 1 cross times 7 equals 9 plus 7 equals 16`
+$9 + ( 4 - 3 ) \times 7 = 9 + 1 \times 7 = 9 + 7 = 16$
 
-`9 plus 4 minus open parentheses 3 cross times 7 close parentheses equals 9 plus 4 minus 21 equals 13 minus 21 equals negative 8`
+$9 + 4 - ( 3 \times 7 ) = 9 + 4 - 21 = 13 - 21 = - 8$
 
-`open parentheses 9 plus 4 minus 3 close parentheses cross times 7 equals open parentheses 13 minus 3 close parentheses cross times 7 equals 10 cross times 7 equals 70`
+$( 9 + 4 - 3 ) \times 7 = ( 13 - 3 ) \times 7 = 10 \times 7 = 70$
 
-`9 plus open parentheses 4 minus 3 cross times 7 close parentheses equals 9 plus open parentheses 4 minus 21 close parentheses equals 9 plus open parentheses negative 17 close parentheses equals 9 minus 17 equals negative 8`
+$9 + ( 4 - 3 \times 7 ) = 9 + ( 4 - 21 ) = 9 + ( - 17 ) = 9 - 17 = - 8$
 
 > **[exam-tip]**
 > You can type the left-hand side of the equation into your calculator, with the brackets in different locations, to calculate the answers.
 
 Only the fourth of those possibilities gives the correct answer
 
-`open parentheses 9 plus 4 minus 3 close parentheses cross times 7 equals 70`
+$( 9 + 4 - 3 ) \times 7 = 70$
 
 **[B1]**
 
 ### Q2
 Adding a negative number makes the original number get smaller
 
-`table row blank blank cell 4 plus open parentheses negative 11 close parentheses end cell row blank equals cell 4 minus 11 end cell end table`
+$\begin{gathered} 4 + ( - 11 ) \\ = 4 - 11 \end{gathered}$
 
 $=-7$
 
@@ -44,7 +44,7 @@ Follow the order of operations
 
 - Multiplications and divisions first
 
-`table row blank blank cell open parentheses 6 cross times 3 close parentheses plus open parentheses 24 divided by 4 close parentheses end cell row blank equals cell 18 plus 6 end cell end table`
+$\begin{gathered} ( 6 \times 3 ) + ( 24 \div 4 ) \\ = 18 + 6 \end{gathered}$
 
 **[M1]**
 
@@ -95,11 +95,11 @@ $5+12=17$
 *Use BIDMAS to decide on the order of operations* 
 *Find the value of the brackets first*
 
-`18 divided by open parentheses 6 close parentheses minus 11 cross times 4 plus 9 cross times open parentheses 7 close parentheses`
+$18 \div ( 6 ) - 11 \times 4 + 9 \times ( 7 )$
 
 > *Carry out the division next*
 
-`3 minus 11 cross times 4 plus 9 open parentheses 7 close parentheses`
+$3 - 11 \times 4 + 9 ( 7 )$
 
 > *Carry out the multiplications next*
 
@@ -148,25 +148,25 @@ $3\times2-(4-7)=9$* ***[1]**
 
 > *Inside the bracket first, starting with the index, then the multiplication, then the addition*
 
-`3 cross times 2 cubed plus square root of 25 cross times open parentheses 3 squared cross times 2 plus 3 close parentheses
-3 cross times 2 cubed plus square root of 25 cross times open parentheses 9 cross times 2 plus 3 close parentheses
-3 cross times 2 cubed plus square root of 25 cross times open parentheses 18 plus 3 close parentheses
-3 cross times 2 cubed plus square root of 25 cross times open parentheses 21 close parentheses`
+$3 \times 2^{3} + \sqrt{25} \times ( 3^{2} \times 2 + 3 )
+3 \times 2^{3} + \sqrt{25} \times ( 9 \times 2 + 3 )
+3 \times 2^{3} + \sqrt{25} \times ( 18 + 3 )
+3 \times 2^{3} + \sqrt{25} \times ( 21 )$
 
 > *Evaluate the indices, then multiplication, then addition*
 
-`3 cross times 8 plus 5 cross times open parentheses 21 close parentheses
-24 plus 5 cross times open parentheses 21 close parentheses
-24 plus 105`
+$3 \times 8 + 5 \times ( 21 )
+24 + 5 \times ( 21 )
+24 + 105$
 
 $129$ **[1]**
 
 ### Q10
 > *i) Try putting brackets around different groups of numbers. Follow the order of operations (brackets, division/multiplication, addition).*
 
-`open parentheses 24 space divided by space 6 close parentheses space plus thin space 2 space cross times space 3 space equals space 4 space plus space 2 space cross times space 3 space equals space 4 space plus space 6 space equals space 10`
+$( 24 \div 6 ) + 2 \times 3 = 4 + 2 \times 3 = 4 + 6 = 10$
 
-`24 space divided by space open parentheses 6 space plus thin space 2 close parentheses space cross times space 3 space equals space 24 space divided by space 8 space cross times space 3 space equals space 3 space cross times space 3 space equals space 9`
+$24 \div ( 6 + 2 ) \times 3 = 24 \div 8 \times 3 = 3 \times 3 = 9$
 
 > *This is the number we want.*
 
@@ -174,22 +174,22 @@ $24\div(6+2)\times3$ **[1]**
 
 > *ii) Continue to try different groups*
 
-`24 space divided by space 6 space plus space open parentheses 2 space cross times space 3 close parentheses space equals space 24 space divided by space 6 space plus space 6 space equals space 4 space plus thin space 6 space equals space 10`
+$24 \div 6 + ( 2 \times 3 ) = 24 \div 6 + 6 = 4 + 6 = 10$
 
 > *Try putting brackets around a group of 3 numbers.*
 
-`open parentheses 24 space divided by space 6 space plus thin space 2 close parentheses space cross times space 3 space equals space open parentheses 4 space plus thin space 2 close parentheses space cross times space 3 space equals space 6 space cross times space 3 space equals space 18`
+$( 24 \div 6 + 2 ) \times 3 = ( 4 + 2 ) \times 3 = 6 \times 3 = 18$
 
-`24 space divided by space open parentheses 6 space plus thin space 2 space cross times space 3 close parentheses space equals space 24 space divided by space open parentheses 6 space plus space 6 close parentheses space equals space 24 space divided by space 12 space equals space 2`
+$24 \div ( 6 + 2 \times 3 ) = 24 \div ( 6 + 6 ) = 24 \div 12 = 2$
 
 $24\div(6+2\times3)$ **[1]**
 
 ### Q11
 > *Try putting the brackets in different places*
 
-`open parentheses 4 cross times 6 close parentheses minus 2 plus 1 equals 24 minus 2 plus 1 equals 23
-4 cross times open parentheses 6 minus 2 close parentheses plus 1 equals 4 cross times 4 plus 1 equals 17
-4 cross times 6 minus open parentheses 2 plus 1 close parentheses equals 24 minus 3 equals 21`
+$( 4 \times 6 ) - 2 + 1 = 24 - 2 + 1 = 23
+4 \times ( 6 - 2 ) + 1 = 4 \times 4 + 1 = 17
+4 \times 6 - ( 2 + 1 ) = 24 - 3 = 21$
 
 $4\times(6-2)+1=17$* ***[1]**
 
@@ -203,7 +203,7 @@ $7\times(5-2+3)=42$ **[1]**
 ### Q13
 i) *Calculate the box above *$-3$* and *$-4$
 
-`open parentheses negative 3 close parentheses plus open parentheses negative 4 close parentheses equals negative 3 minus 4 equals negative 7`
+$( - 3 ) + ( - 4 ) = - 3 - 4 = - 7$
 
 ![ZE_LvwWR_igcse-cie-may-paper-33-q1bi-1](assets/003-ze-lvwwr-igcse-cie-may-paper-33-q1bi-1.png)
 
@@ -211,7 +211,7 @@ i) *Calculate the box above *$-3$* and *$-4$
 
 > *Calculate the box above *$2$* and *$-7$
 
-`2 plus open parentheses negative 7 close parentheses equals 2 minus 7 equals negative 5`
+$2 + ( - 7 ) = 2 - 7 = - 5$
 
 ![igcse-cie-may-paper-33-q1bi-2](assets/004-igcse-cie-may-paper-33-q1bi-2.png)
 
@@ -219,7 +219,7 @@ i) *Calculate the box above *$-3$* and *$-4$
 
 ii) *Calculate the box above *$5$* and *$-3$
 
-`5 cross times open parentheses negative 3 close parentheses equals negative open parentheses 5 cross times 3 close parentheses equals negative 15`
+$5 \times ( - 3 ) = - ( 5 \times 3 ) = - 15$
 
 ![igcse-cie-may-paper-33-q1bii-1](assets/005-igcse-cie-may-paper-33-q1bii-1.png)
 
@@ -227,7 +227,7 @@ ii) *Calculate the box above *$5$* and *$-3$
 
 > *Calculate the box above *$-3$* and *$-4$
 
-`open parentheses negative 3 close parentheses cross times open parentheses negative 4 close parentheses equals 3 cross times 4 equals 12`
+$( - 3 ) \times ( - 4 ) = 3 \times 4 = 12$
 
 ![igcse-cie-may-paper-33-q1bii-2](assets/006-igcse-cie-may-paper-33-q1bii-2.png)
 
@@ -235,7 +235,7 @@ ii) *Calculate the box above *$5$* and *$-3$
 
 > *Calculate the box above *$-15$* and *$12$
 
-`open parentheses negative 15 close parentheses cross times 12 equals negative open parentheses 15 cross times 12 close parentheses equals negative 180`
+$( - 15 ) \times 12 = - ( 15 \times 12 ) = - 180$
 
 ![igcse-cie-may-paper-33-q1bii-3](assets/007-igcse-cie-may-paper-33-q1bii-3.png)
 
@@ -249,18 +249,18 @@ $3+2\times(12-4)=19$* ***[1]**
 ### Q15
 > *Test by putting brackets around different pairs of numbers until you get 28. Remember to follow the order of operations (brackets, multiplication, subtraction/addition).*
 
-`open parentheses 8 space plus thin space 6 close parentheses space minus space 2 space cross times space 5 space equals space 14 space minus space 2 space cross times space 5 space equals space 14 space minus space 10 space equals space 4`
+$( 8 + 6 ) - 2 \times 5 = 14 - 2 \times 5 = 14 - 10 = 4$
 
-`8 space plus thin space open parentheses 6 space minus space 2 close parentheses space cross times space 5 space equals space 8 space plus thin space 4 space cross times space 5 space equals space 8 space plus thin space 20 space equals space 28`
+$8 + ( 6 - 2 ) \times 5 = 8 + 4 \times 5 = 8 + 20 = 28$
 
 $8+(6-2)\times5=28$ **[1]**
 > *Test the final pair*
 
-`8 space plus thin space 6 space minus space open parentheses 2 space cross times space 5 close parentheses space equals space 8 space plus thin space 6 space minus space 10 space equals space 4`
+$8 + 6 - ( 2 \times 5 ) = 8 + 6 - 10 = 4$
 
 > *Now try putting brackets around groups of 3*
 
-`open parentheses 8 space plus space 6 space minus space 2 close parentheses space cross times space 5 space equals space 12 space cross times space 5 space equals space 60`
+$( 8 + 6 - 2 ) \times 5 = 12 \times 5 = 60$
 
 $(8+6-2)\times5=60$ **[1]**
 
@@ -306,9 +306,9 @@ $7$ **[1]**
 * *
 
 ** She's ignored the order of operations. She needs to add brackets to make it correct, it should be **$(68+18)\div(9-5)$** ****[1]**
-> *Type *`open parentheses 68 plus 18 close parentheses divided by open parentheses 9 minus 5 close parentheses`* into a calculator. *
+> *Type *$( 68 + 18 ) \div ( 9 - 5 )$* into a calculator. *
 
-> `open parentheses 68 plus 18 close parentheses divided by open parentheses 9 minus 5 close parentheses equals 21.5`* *
+> $( 68 + 18 ) \div ( 9 - 5 ) = 21.5$* *
 
 **21.5** **[1]**
 
@@ -336,7 +336,7 @@ $16-10$
 
 > *First calculate the values inside the brackets*
 
-`7 cross times open parentheses 8 close parentheses plus 8 cross times open parentheses 8 close parentheses`
+$7 \times ( 8 ) + 8 \times ( 8 )$
 
 **[1]**
 
@@ -353,7 +353,7 @@ $120$* ***[1]**
 ### Q21
 > *When there is an addition or subtraction as the numerator or denominator in a fraction, it can be considered as a bracket*
 
-`1.09 plus fraction numerator 7.85 over denominator open parentheses 6.21 minus 4.37 close parentheses end fraction`
+$1.09 + \frac{7.85}{( 6.21 - 4.37 )}$
 
 *Now apply the order of operations; BIDMAS* *You can use your calculator in this question* *First the bracket*
 

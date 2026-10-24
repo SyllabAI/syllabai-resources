@@ -22,13 +22,13 @@ guided_study: true
 - If the **subject appears twice**, **you will need to factorise** at some point
 
   - E.g. When making $x$ the subject of   $x+xy=3-2y$
-  - **Factorise** out $x$on the left to get  `x open parentheses 1 plus y close parentheses equals 3 minus 2 y`
+  - **Factorise** out $x$on the left to get  $x ( 1 + y ) = 3 - 2 y$
   
     - Notice that the subject **now only appears once!**
-  - Then divide both sides by `open parentheses 1 plus y close parentheses` to get $x=\frac{3-2y}{1+y}$
+  - Then divide both sides by $( 1 + y )$ to get $x=\frac{3-2y}{1+y}$
 - If the **subject appears twice**, and any of these are **inside a set of brackets**, you will need to **expand **these brackets first
 
-  - E.g. When making $x$ the subject of  `c open parentheses x plus 2 close parentheses minus x equals f`
+  - E.g. When making $x$ the subject of  $c ( x + 2 ) - x = f$
   - Expand the bracket first to $cx+2c-x=f$
   - Keep the $x$ terms on one side $cx-x=f-2c$
   - $x$ can then be made the subject using **factorising** as above
@@ -44,7 +44,7 @@ guided_study: true
 
   - E.g. When making $x$the subject of $x^{2}=-px^{2}+r$
   - Add $px^{2}$ to both sides first to form  $x^{2}+px^{2}=r$
-  - $x^{2}$ can then be factorised out `x squared open parentheses 1 plus p close parentheses equals r` to give $x^{2}=\frac{r}{1+p}$
+  - $x^{2}$ can then be factorised out $x^{2} ( 1 + p ) = r$ to give $x^{2}=\frac{r}{1+p}$
   
     - Now take **plus-or-minus square roots**
     - $x=\pm\sqrt{\frac{r}{1+p}}$
@@ -53,7 +53,7 @@ guided_study: true
   - E.g. To make $x$ the subject of $x^{3}=\frac{t^{3}+1}{t^{3}+8}$
   
     - The whole right hand side must be cube rooted
-    - `x equals cube root of fraction numerator t cubed plus 1 over denominator t cubed plus 8 end fraction end root`
+    - $x = \sqrt[3]{ \frac{t^{3} + 1}{t^{3} + 8} }$
     - This cannot be simplified further
     - The right hand side is **not** equal to $\frac{t+1}{t+2}$, (this is a **common error**)
 
@@ -64,7 +64,7 @@ guided_study: true
 > 
 > > *Get rid of the fraction by multiplying both sides by the expression on the denominator*
 > 
-> `p open parentheses x space minus space b close parentheses space equals space 2 space minus space a x`
+> $p ( x - b ) = 2 - a x$
 > 
 > > *Expand the brackets on the left hand side to 'release' the *$x$
 > 
@@ -72,20 +72,20 @@ guided_study: true
 > 
 > > *Bring the terms containing *$x$* to one side of the equals sign and any other terms to the other side*
 > 
-> `table row cell p x space minus space p b space end cell equals cell space 2 space minus space a x end cell end table`
+> $\begin{gathered} p x - p b & = 2 - a x \end{gathered}$
 > 
-> `table row blank blank cell open parentheses plus a x close parentheses space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space open parentheses plus a x close parentheses end cell end table`
+> $\begin{gathered} ( + a x ) ( + a x ) \end{gathered}$
 > 
-> `table row cell p x space minus space p b space plus space a x space end cell equals cell space 2 end cell end table`
+> $\begin{gathered} p x - p b + a x & = 2 \end{gathered}$
 > 
-> `table row blank blank cell open parentheses plus p b close parentheses space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space open parentheses plus p b close parentheses end cell end table`
+> $\begin{gathered} ( + p b ) ( + p b ) \end{gathered}$
 > 
-> `table attributes columnalign right center left columnspacing 0px end attributes row cell p x space plus space a x space end cell equals cell space 2 space plus space p b end cell end table`
+> $\begin{array}{rcl} p x + a x & = 2 + p b \end{array}$
 > 
 > > *Factorise the left-hand side to bring *$x$* outside of the brackets, so that it appears only once*
 > 
-> `x open parentheses p space plus space a close parentheses space equals space 2 space plus space p b`
+> $x ( p + a ) = 2 + p b$
 > 
-> > *Make *$x$* the subject by dividing by the whole expression *`open parentheses p space plus space a close parentheses`
+> > *Make *$x$* the subject by dividing by the whole expression *$( p + a )$
 > 
 > $x=\frac{2+pb}{p+a}$

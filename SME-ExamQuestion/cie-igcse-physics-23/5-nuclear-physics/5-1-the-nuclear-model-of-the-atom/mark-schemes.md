@@ -25,10 +25,10 @@ $\text{number of neutrons} = 56 - 26 = 30$
 ### Q2
 **Final answer:** **The correct answer is A**
 
-- In nuclide notation `scriptbase text X end text end scriptbase presubscript straight Z presuperscript straight A`:
+- In nuclide notation `text X end text _ Z ^ A`:
 
-  - the top number `open parentheses straight A close parentheses` is the nucleon (mass) number
-  - the bottom number `open parentheses straight Z close parentheses` is the proton (atomic) number
+  - the top number $( \mathrm{A} )$ is the nucleon (mass) number
+  - the bottom number $( \mathrm{Z} )$ is the proton (atomic) number
 - Isotopes are atoms of the same element that have the same proton number but different nucleon numbers
 - Both P and Q have a proton number of 6, which identifies them as the same element
 - Since their nucleon numbers are different (12 and 14), they are **isotopes **of each other
@@ -56,7 +56,7 @@ $\text{number of neutrons} = 56 - 26 = 30$
 **Final answer:** **The correct answer is ****B**** because:**
 
 - Isotopes of an element all have the same number of protons and so have the same proton number (atomic number)
-- Proton number (*Z*) is shown as the lower of the two numbers in nuclear notation: `straight X presubscript proton space number end presubscript presuperscript nucleon space number end presuperscript` or `straight X presubscript straight Z presuperscript straight A`
+- Proton number (*Z*) is shown as the lower of the two numbers in nuclear notation: `X _ proton number ^ nucleon number` or $\mathrm{X} pre_{Z} pre^{A}$
 - Element X has a proton number of 26 according to the question
 - Answer **B** has a proton number of 26 and so is an isotope of element X
 

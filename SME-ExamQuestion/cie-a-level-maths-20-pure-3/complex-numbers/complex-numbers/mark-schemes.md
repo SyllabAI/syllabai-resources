@@ -1750,7 +1750,7 @@ $= ( x^{2} - y^{2} ) + 2 x y  i$
 
 This must equal $z = - 3 + 4 i$, and two complex numbers are equal only when their real parts match and their imaginary parts match
 
-`open parentheses x squared minus y squared close parentheses plus 2 x y space i equals negative 3 plus 4 i`
+$( x^{2} - y^{2} ) + 2 x y i = - 3 + 4 i$
 
 $x^{2} - y^{2} = - 3$
 
@@ -1962,7 +1962,7 @@ $z^{3} - z^{2} - 7 z - 65 = ( z^{2} + 4 z + 13 ) ( z - δ )$
 
 Comparing the constant terms gives $13 \times ( - δ ) = - 65$
 
-`table row cell 13 cross times left parenthesis negative delta right parenthesis end cell equals cell negative 65 end cell row delta equals 5 end table`
+$\begin{gathered} 13 \times ( - \\delta ) & = - 65 \\ \\delta = 5 \end{gathered}$
 
 **[M1]**
 

@@ -73,7 +73,7 @@ $A=\frac{\DeltaN}{\Deltat}=-λN$
 > 
 > **Step 3: Calculate the number of nuclei**
 > 
-> `Number space of space nuclei space equals space fraction numerator open parentheses 5.1 cross times 10 to the power of negative 6 end exponent close parentheses space cross times space open parentheses 6.02 cross times 10 to the power of 23 close parentheses over denominator 241 end fraction`
+> $Number of \text{nuclei} = \frac{ ( 5.1 \times 10^{ - } 6 ) \times ( 6.02 \times 10^{23} ) }{241}$
 > 
 > **(b)**
 > 
@@ -175,6 +175,6 @@ $A=\frac{\DeltaN}{\Deltat}=-λN$
 > 
 > **Step 4: Calculate the ratio A/A**<sub>**0**</sub>
 > 
-> `A over A subscript 0 space equals space e to the power of negative open parentheses 0.025 space cross times space 5 close parentheses end exponent space equals space 0.88`
+> $\frac{A}{A} _{0} = e^{- ( 0.025 \times 5 )} = 0.88$
 > 
 > - Therefore, the activity of Strontium-90 decreases by a factor of 0.88, or 12%, after 5 years

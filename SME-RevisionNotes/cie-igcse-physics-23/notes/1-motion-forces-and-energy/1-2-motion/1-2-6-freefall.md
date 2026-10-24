@@ -73,7 +73,7 @@ $a=\frac{mg}{m}$
 
 - Here, the masses cancel each other out
 
-`a space equals fraction numerator space up diagonal strike m g over denominator up diagonal strike m end fraction`
+$a = \frac{ \cancel{m} g}{ \cancel{m} }$
 
 - So, for objects falling in a vacuum
 

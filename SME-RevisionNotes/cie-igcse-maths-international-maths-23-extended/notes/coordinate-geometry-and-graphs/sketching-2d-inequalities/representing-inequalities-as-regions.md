@@ -70,7 +70,7 @@ guided_study: true
 > > *Use your knowledge of **Straight Line Graphs, *$y=mx+c$
 > *Y**ou may wish to rearrange *$3x+2y=12$* to the form *$y=mx+c$* first*
 > 
-> `table attributes columnalign right center left columnspacing 0px end attributes row cell 2 y end cell equals cell negative 3 x plus 12 end cell row y equals cell negative 3 over 2 x plus 6 end cell end table`
+> $\begin{array}{rcl} 2 y & = - 3 x + 12 \\ y = - \frac{3}{2} x + 6 \end{array}$
 > 
 > > *The line *$3x+2y\geq12$* is a solid line because of the "≥" *
 > 
@@ -83,12 +83,12 @@ guided_study: true
 > > *For *$3x+2y\geq12$* (or *$y\geq-\frac{3}{2}x+6$*), the unwanted region is below the line*
 > *We can check this with the point (0, 0)*
 > 
-> `table row cell " 3 open parentheses 0 close parentheses plus 2 open parentheses 0 close parentheses end cell greater or equal than cell 12 " end cell end table`* is false therefore (0, 0) does lie in the unwanted region for *`table row cell 3 x plus 2 y end cell greater or equal than 12 end table`
+> $\begin{gathered} " 3 ( 0 ) + 2 ( 0 ) & \text{greater} \text{or} \text{equal} \text{than} 12 " \end{gathered}$* is false therefore (0, 0) does lie in the unwanted region for *$\begin{gathered} 3 x + 2 y & \text{greater} \text{or} \text{equal} \text{than} 12 \end{gathered}$
 > 
 > > *For *$y<2x$*, the unwanted region is above the line*
 > *Check with another point, for example (1, 0)*
 > 
-> `table row cell " 0 end cell less than cell 2 open parentheses 1 close parentheses " end cell end table`* is true, so (1, 0) lies in the wanted (i.e. unshaded) region for *`table row y less than cell 2 x end cell end table`
+> $\begin{gathered} " 0 & < 2 ( 1 ) " \end{gathered}$* is true, so (1, 0) lies in the wanted (i.e. unshaded) region for *$\begin{gathered} y < 2 x \end{gathered}$
 > 
 > > *For *$x<3$*, shade the unwanted region to the right of *$x=3$
 > *If unsure, check with a point*

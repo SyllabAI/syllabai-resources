@@ -44,7 +44,7 @@ $c=76\div8\,c=9.5$
 
 > * Substitute *$c=9.5$* into one of the original equations.*
 
-> * *`table row cell 6 a plus open parentheses 2 cross times 9.5 close parentheses end cell equals 124 row blank blank blank row cell 6 a plus 19 end cell equals 124 end table`
+> * *$\begin{gathered} 6 a + ( 2 \times 9.5 ) & = 124 \\ \\ 6 a + 19 & = 124 \end{gathered}$
 
 > * Solve this equation to find *$a$*. Subtract 19 from both sides.*
 
@@ -56,8 +56,8 @@ $a=105\div6\,a=17.5$
 
 > * Write the answers to 2 decimal places, because the values are money.*
 
-**adult ticket **`bold equals bold $ bold 17 bold. bold 50`* ***[1]**
-**child ticket*** *`bold equals bold $ bold 9 bold. bold 50`* ***[1]**
+**adult ticket **$= \$ 17 . 50$* ***[1]**
+**child ticket*** *$= \$ 9 . 50$* ***[1]**
 
 ### Q2
 > *Form an equation for Ana in terms of *$p$* and *$b$*.*
@@ -96,7 +96,7 @@ $a=105\div6\,a=17.5$
 
 > *Substitute *$b=8$* into one of the equations.*
 
-> * *`2 p plus open parentheses 4 cross times 8 close parentheses equals 42`
+> * *$2 p + ( 4 \times 8 ) = 42$
 
 > * Work out *$4\times8$*, and subtract from both sides.*
 
@@ -125,17 +125,17 @@ $3x=5y$** [1] **
 
 > *Label the equations. *
 
-`table row cell 3 x minus 5 y end cell equals cell 0 space space open parentheses equation space 1 close parentheses end cell row blank blank blank row cell negative x plus 2 y end cell equals cell 4 space space open parentheses equation space 2 close parentheses end cell end table`
+$\begin{gathered} 3 x - 5 y & = 0 ( \text{equation} 1 ) \\ \\ - x + 2 y & = 4 ( \text{equation} 2 ) \end{gathered}$
 
 > * *
 
 > *Multiply equation 2 by 3 to make the coefficients of *$x$* the same.*
 
-> * *`negative 3 x plus 6 y equals 12 space space open parentheses equation space 3 close parentheses`
+> * *$- 3 x + 6 y = 12 ( \text{equation} 3 )$
 
 > * Add equation 1 and equation 3 to eliminate *$x$*.*
 
-> * *`table row cell space 3 x minus 5 y plus open parentheses negative 3 x plus 6 y close parentheses end cell equals cell 0 plus 12 end cell row cell space 3 x minus 3 x minus 5 y plus 6 y end cell equals cell 0 plus 12 end cell row y equals 12 end table`
+> * *$\begin{gathered} 3 x - 5 y + ( - 3 x + 6 y ) & = 0 + 12 \\ 3 x - 3 x - 5 y + 6 y & = 0 + 12 \\ y = 12 \end{gathered}$
 
 * ***eliminate one variable ****[1]**
 
@@ -143,7 +143,7 @@ $3x=5y$** [1] **
 
 > *Substitute *$y=12$* into one of the equations.*
 
-> * *`table row cell 3 x minus open parentheses 5 cross times 12 close parentheses end cell equals 0 row blank blank blank row cell 3 x minus 60 end cell equals 0 end table`
+> * *$\begin{gathered} 3 x - ( 5 \times 12 ) & = 0 \\ \\ 3 x - 60 & = 0 \end{gathered}$
 
 > * *
 
@@ -184,13 +184,13 @@ $5h+8p=80$
 
 > *Multiply the first equation by 5 to make the coefficients of *$h$* the same*
 
-`open parentheses 5 cross times 3 h close parentheses plus open parentheses 5 cross times 10 p close parentheses equals open parentheses 5 cross times 61 close parentheses`
+$( 5 \times 3 h ) + ( 5 \times 10 p ) = ( 5 \times 61 )$
 
 $15h+50p=305$
 
 > *Multiply the second equation by 3 to make the coefficients of *$h$* the same*
 
-*  *`open parentheses 3 cross times 5 h close parentheses plus open parentheses 3 cross times 8 p close parentheses equals open parentheses 3 cross times 80 close parentheses`
+*  *$( 3 \times 5 h ) + ( 3 \times 8 p ) = ( 3 \times 80 )$
 
 $15h+24p=240$
 
@@ -210,7 +210,7 @@ $p=65\div26=2.5$
 
 > *Substitute *$p=2.5$* into either of the two original equations and solve for *$h$
 
-`table row cell 3 h plus open parentheses 10 cross times 2.5 close parentheses end cell equals 61 end table`
+$\begin{gathered} 3 h + ( 10 \times 2.5 ) & = 61 \end{gathered}$
 
 $3h+25=61$
 
@@ -241,7 +241,7 @@ $h=12$
 
 > *Solve the two equations simultaneously by subtracting one from the other.*
 
-> * *`table row cell open parentheses x plus y close parentheses minus open parentheses x minus y close parentheses end cell equals cell negative 6 minus 62 end cell row cell 2 y end cell equals cell negative 68 end cell end table`
+> * *$\begin{gathered} ( x + y ) - ( x - y ) & = - 6 - 62 \\ 2 y & = - 68 \end{gathered}$
 
 > *Divide both sides of the equation by 2.*
 
@@ -251,7 +251,7 @@ $h=12$
 
 > *Substitute *$y=-34$* into one of the original equations.*
 
-> * *`table row cell x plus open parentheses negative 34 close parentheses end cell equals cell negative 6 end cell row cell x minus 34 end cell equals cell negative 6 end cell end table`
+> * *$\begin{gathered} x + ( - 34 ) & = - 6 \\ x - 34 & = - 6 \end{gathered}$
 
 > *Add 34 to both sides of the equation.*
 
@@ -282,7 +282,7 @@ $10p+3n=525$
 
 > *Multiply the first equation by 2 to make coefficients of *$p$* the same*
 
-> * *`open parentheses 2 cross times 5 p close parentheses plus open parentheses 2 cross times 4 n close parentheses equals open parentheses 2 cross times 450 close parentheses`
+> * *$( 2 \times 5 p ) + ( 2 \times 4 n ) = ( 2 \times 450 )$
 
 $10p+8n=900$
 
@@ -298,7 +298,7 @@ $n=75$
 
 *Substitute *$n=75$* into either of the two original equations and solve for *$p$* *
 
-`table row cell 10 p plus open parentheses 3 cross times 75 close parentheses end cell equals 525 row cell 10 p plus 225 end cell equals 525 row cell 10 p end cell equals cell 525 minus 225 end cell row cell 10 p end cell equals 300 row p equals cell 300 divided by 10 end cell row p equals 30 end table`
+$\begin{gathered} 10 p + ( 3 \times 75 ) & = 525 \\ 10 p + 225 & = 525 \\ 10 p & = 525 - 225 \\ 10 p & = 300 \\ p = 300 \div 10 \\ p = 30 \end{gathered}$
 
 **Cost of a pen = 30 cents**** ****[1]**** **
 **Cost of a notebook = 75 cents ****[1]**
@@ -306,9 +306,7 @@ $n=75$
 ### Q7
 > *Label the equations.*
 
-> * *`5 x minus 2 y equals 44 space space space open parentheses equation space 1 close parentheses
-
-2 x plus 3 y equals 10 space space space open parentheses equation space 2 close parentheses`
+> * *$5 x - 2 y = 44 ( \text{equation} 1 ) 2 x + 3 y = 10 ( \text{equation} 2 )$
 
 > * *
 
@@ -316,25 +314,25 @@ $n=75$
 
 > * *
 
-`table row cell 10 x minus 4 y end cell equals cell 88 space space space open parentheses equation space 3 close parentheses end cell row blank blank blank row cell 10 x plus 15 y end cell equals cell 50 space space space open parentheses equation space 4 close parentheses end cell end table`
+$\begin{gathered} 10 x - 4 y & = 88 ( \text{equation} 3 ) \\ \\ 10 x + 15 y & = 50 ( \text{equation} 4 ) \end{gathered}$
 
 * ***[1]**
 
 > *Subtract equation 4 from equation 3 to eliminate *$x$*.*
 
-> * *`table row cell 10 x space minus 4 y minus open parentheses 10 x plus 15 y close parentheses end cell equals cell 88 minus 50 end cell row cell 10 x minus 10 x minus 4 y minus 15 y end cell equals cell 88 minus 50 end cell row cell negative 19 y end cell equals 38 end table`
+> * *$\begin{gathered} 10 x - 4 y - ( 10 x + 15 y ) & = 88 - 50 \\ 10 x - 10 x - 4 y - 15 y & = 88 - 50 \\ - 19 y & = 38 \end{gathered}$
 
 * ***[1]**
 
 > *Divide both sides of the equation by -19 to solve for *$y$*.*
 
-> * *`y equals 38 divided by open parentheses negative 19 close parentheses`
+> * *$y = 38 \div ( - 19 )$
 
 $y=-2$* ***[1]**
 
 > *Substitute *$y=-2$* into one of the original equations and solve to find *$x$*.*
 
-> * *`table row cell 2 x plus open parentheses 3 cross times negative 2 close parentheses end cell equals 10 row blank blank blank row cell 2 x minus 6 end cell equals 10 end table`
+> * *$\begin{gathered} 2 x + ( 3 \times - 2 ) & = 10 \\ \\ 2 x - 6 & = 10 \end{gathered}$
 
 > * *
 
@@ -355,15 +353,15 @@ $x=8$* ***[1]**
 
 > *Number the equations*
 
-`5 x space plus thin space 4 y space equals space 10 space space space space space space space circle enclose 1
-7 x space minus space 6 y space equals space 43 space space space space space space space circle enclose 2`
+$5 x + 4 y = 10 \textcircled{1}
+7 x - 6 y = 43 \textcircled{2}$
 
 > *Make the **y **coefficients the same. Find the lowest common multiple of 4 and 6 which is 12.*
 
 > *Multiply everything in equation (1) by 3 and everything in equation (2) by 2.*
 
-`15 x space plus thin space 12 y space equals space 30 space space space space space space space circle enclose 3
-14 x space minus space 12 y space equals space 86 space space space space space space space circle enclose 4`
+$15 x + 12 y = 30 \textcircled{3}
+14 x - 12 y = 86 \textcircled{4}$
 
 **[1]**
 
@@ -392,18 +390,18 @@ $4y=-10$
 $y=-2.5$* ***[1]**
 
 ### Q9
-(i) *3 apples *`open parentheses a close parentheses`* and 8 bananas *`open parentheses b close parentheses`* cost 93 cents*
+(i) *3 apples *$( a )$* and 8 bananas *$( b )$* cost 93 cents*
 
 $3a+8b=93$ **[2]** 
 **1 mark for each side of equation**
 
 (ii) *The two equations are*
 
-`table row cell 7 a plus 4 b end cell equals 85 row cell 3 a plus 8 b end cell equals 93 end table`
+$\begin{gathered} 7 a + 4 b & = 85 \\ 3 a + 8 b & = 93 \end{gathered}$
 
 > *Multiply the first equation by 2, so the coefficients of *$b$* match*
 
-`table row cell 14 a plus 8 b end cell equals 170 row cell 3 a plus 8 b end cell equals 93 end table`
+$\begin{gathered} 14 a + 8 b & = 170 \\ 3 a + 8 b & = 93 \end{gathered}$
 
 > *Subtract the second equation from the first equation to eliminate *$b$
 
@@ -419,7 +417,7 @@ $a=7$
 
 > *Substitute into the first equation, *$7a+4b=85$*, and solve to find *$b$
 
-`table row cell 7 open parentheses 7 close parentheses plus 4 b end cell equals 85 row cell 49 plus 4 b end cell equals 85 row cell 4 b end cell equals 36 row b equals 9 end table`
+$\begin{gathered} 7 ( 7 ) + 4 b & = 85 \\ 49 + 4 b & = 85 \\ 4 b & = 36 \\ b = 9 \end{gathered}$
 
 $a=7$ 
 $b=9$
@@ -458,11 +456,11 @@ $y=12+13=25$
 ### Q11
 > *Label the equations.*
 
-> * *`table row cell 3 x minus 8 y end cell equals cell 22 space space space open parentheses equation space 1 close parentheses end cell row cell x plus 4 y end cell equals cell 4 space space space space space space open parentheses equation space 2 close parentheses end cell end table`
+> * *$\begin{gathered} 3 x - 8 y & = 22 ( \text{equation} 1 ) \\ x + 4 y & = 4 ( \text{equation} 2 ) \end{gathered}$
 
 > * Multiply all the terms in equation 2 by 3.*
 
-> * *`3 x plus 12 y equals 12 space space space open parentheses equation space 3 close parentheses`
+> * *$3 x + 12 y = 12 ( \text{equation} 3 )$
 
 > *Subtract equation 3 from equation 1 to eliminate *$x$*.*
 
@@ -478,7 +476,7 @@ $y=12+13=25$
 
 > *Substitute *$y=-0.5$* into one of the equations to find *$x$*.*
 
-> * *`table row cell x plus open parentheses 4 cross times negative 0.5 close parentheses end cell equals 4 row blank blank blank row cell x minus 2 end cell equals 4 end table`
+> * *$\begin{gathered} x + ( 4 \times - 0.5 ) & = 4 \\ \\ x - 2 & = 4 \end{gathered}$
 
 > *Add 2 to both sides.*
 
@@ -554,17 +552,17 @@ $y=-1$
 $2.45x+3.15y$ **[1]**
 > *One magazine costs \$2.45. Find the cost of 8 magazines.*
 
-`8 space cross times space $ 2.45 space equals space $ 19.60`
+$8 \times \$ 2.45 = \$ 19.60$
 
 > *Esme spent \$60.55 in total so subtract the cost of the magazines to find out how much she spent on cards.*
 
-`$ 60.55 space minus space $ 19.60 space equals space $ 40.95`
+$\$ 60.55 - \$ 19.60 = \$ 40.95$
 
 **[1]**
 
 > *To work out how many cards she bought, divide the total cost of the cards by the cost of one card.*
 
-`$ 40.95 space divided by space $ 3.15 space equals space 13`
+$\$ 40.95 \div \$ 3.15 = 13$
 
 **13 ****[1]**
 

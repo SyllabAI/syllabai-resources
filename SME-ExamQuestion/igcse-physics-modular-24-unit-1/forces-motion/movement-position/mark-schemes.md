@@ -430,9 +430,9 @@ $a=\frac{v-u}{t}$ **[1 mark]**
 
 - Substitute the known quantities and calculate acceleration:
 
-`table row cell a space end cell equals cell fraction numerator 10 space minus space 3 over denominator 5 end fraction end cell end table` **[1 mark]**
+$\begin{gathered} a & = \frac{10 - 3}{5} \end{gathered}$ **[1 mark]**
 
-`table row cell a space end cell equals cell space 1.4 space straight m divided by straight s squared end cell end table` **[1 mark]**
+$\begin{gathered} a & = 1.4 \mathrm{m} \div \mathrm{s}^{2} \end{gathered}$ **[1 mark]**
 
 ## Q7 — medium — 10 marks · exam-questions
 
@@ -1202,7 +1202,7 @@ Determine the area under the velocity-time graph:
   - Distance travelled, $s=500m$
 - Recall the uniform acceleration equation:
 
-`v squared space equals space u squared space plus space open parentheses 2 cross times a cross times s close parentheses`
+$v^{2} = u^{2} + ( 2 \times a \times s )$
 
 - Rearrange to find acceleration, $a$:
 
@@ -1223,13 +1223,13 @@ $a=2.9m/s^{2}$ **[1 mark]**
   - Distance to first sensor, $s=100m$
 - Rearrange the uniform acceleration equation to find $v$:
 
-`v squared space equals space u squared space plus space open parentheses 2 cross times a cross times s close parentheses`
+$v^{2} = u^{2} + ( 2 \times a \times s )$
 
-`v space equals space square root of u squared space plus space open parentheses 2 cross times a cross times s close parentheses end root`** [1 mark]**
+$v = \sqrt{u^{2} + ( 2 \times a \times s )}$** [1 mark]**
 
 - Substitute the known quantities and calculate $v$:
 
-`v space equals space square root of 0 squared space plus space open parentheses 2 cross times 2.9 cross times 100 close parentheses end root`** [1 mark]**
+$v = \sqrt{0^{2} + ( 2 \times 2.9 \times 100 )}$** [1 mark]**
 
 $v=24m/s$** [1 mark]**
 
@@ -1242,15 +1242,15 @@ $v=24m/s$** [1 mark]**
   - Acceleration, $a=2.9m/s^{2}$ (from (a)(i))
 - Recall the acceleration equation:
 
-`a space equals space fraction numerator open parentheses v space minus space u close parentheses over denominator t end fraction`
+$a = \frac{( v - u )}{t}$
 
 - Rearrange for $t$:
 
-`t space equals space fraction numerator open parentheses v space minus space u close parentheses over denominator a end fraction` **[1 mark]**
+$t = \frac{( v - u )}{a}$ **[1 mark]**
 
 - Substitute the known quantities and calculate $t$:
 
-`t space equals space fraction numerator open parentheses 54 space minus space 24 close parentheses over denominator 2.9 end fraction` **[1 mark]**
+$t = \frac{( 54 - 24 )}{2.9}$ **[1 mark]**
 
 $t=10s$ **[1 mark]**
 
@@ -1294,7 +1294,7 @@ $A_{triangle}=\frac{1}{2}\times\mathrm{base}\times\mathrm{height}$
 
 - Calculate the area and determine stopping distance:
 
-`A subscript s t o p p i n g end subscript space equals space 1 half space cross times space open parentheses 40 space minus space 33 close parentheses space cross times space open parentheses 40 space minus space 0 close parentheses` **[1 mark]**
+$A_{s t o p p i n g} = 1 \frac{1}{2} \times ( 40 - 33 ) \times ( 40 - 0 )$ **[1 mark]**
 
 $d_{total}=140m$ **[1 mark]**
 

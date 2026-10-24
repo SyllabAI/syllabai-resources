@@ -21,7 +21,7 @@ guided_study: false
 
 - For a **continuous** **random** **variable**,*X* , with **probability** **density** **function f(x)** the **cumulative** **distribution** **function** (c.d.f.) is defined as
 
-`bold F bold left parenthesis bold italic x subscript bold 0 bold right parenthesis bold equals bold italic P bold left parenthesis bold italic X bold less or equal than bold italic x subscript bold 0 bold right parenthesis bold equals bold integral subscript bold minus bold infinity end subscript superscript bold x subscript bold 0 end superscript bold f bold left parenthesis bold italic t bold right parenthesis bold space bold d bold italic t`
+$F ( x_{ } 0 ) = P ( X \le x_{ } 0 ) = integral_{ } - \text{infinity} ^{ } x_{ } 0 f ( t ) d t$
 
 - Compare this to the cumulative distribution function for a **discrete random variable**
 
@@ -39,7 +39,7 @@ $F(x_{0})=P(X\leqx_{0})=$$\underset{x\leqx_{0}}{\sum}P(X=x)$
 
 e.g.
 
-`straight F left parenthesis x right parenthesis equals open curly brackets table row 0 cell x less than 0 end cell row cell 0.5 x squared end cell cell 0 less or equal than x less or equal than 1 end cell row cell 0.5 end cell cell 1 less or equal than x less or equal than 1.5 end cell row cell x minus 1 end cell cell 1.5 less or equal than x less or equal than 2 end cell row 1 cell x greater than 2 end cell end table close`
+`F ( x ) = { | 0 x less than 0 | | 0.5 x ^2 | 0 <= x <= 1 | | 0.5 | 1 <= x <= 1.5 | | x - 1 | 1.5 <= x <= 2 | | 1 x greater than 2 | | close`
 
 ![BSM6-gbH_1-4-1-ial-fig1-cdf-graph](../../../assets/fd8fa9752435-bsm6-gbh-1-4-1-ial-fig1-cdf-graph.png)
 
@@ -54,7 +54,7 @@ e.g.
 
 - To find the c.d.f.,F(x)  , from the p.d.f.,f(x), **integrate**
 
-`straight F left parenthesis x right parenthesis equals integral subscript negative infinity end subscript superscript x straight f left parenthesis t right parenthesis space d t`
+$\mathrm{F} ( x ) = \int_{- \infty}^{x} \mathrm{f} ( t ) d t$
 
 - Ensure you define F(x) fully for$x\inℝ$  so include values of x for which F(x) = 0  and values of x for which F(x) = 1
 - For piecewise functions as well as integrating you will need to add on the value of the c.d.f. at the end of the previous part
@@ -62,11 +62,11 @@ e.g.
   - Suppose there are two sections to a p.d.f. $x\leqa$ and $x>a$
   - For $x>a$:
 
-`straight F left parenthesis x right parenthesis equals integral subscript negative infinity end subscript superscript x straight f left parenthesis t right parenthesis space straight d t space equals integral subscript negative infinity end subscript superscript a straight f left parenthesis t right parenthesis space straight d t space plus integral subscript a superscript x straight f left parenthesis t right parenthesis space straight d t space equals space straight F left parenthesis a right parenthesis plus integral subscript a superscript x straight f left parenthesis t right parenthesis space straight d t`
+$\mathrm{F} ( x ) = \int_{- \infty}^{x} \mathrm{f} ( t ) \mathrm{d} t = \int_{- \infty}^{a} \mathrm{f} ( t ) \mathrm{d} t + \int_{a}^{x} \mathrm{f} ( t ) \mathrm{d} t = \mathrm{F} ( a ) + \int_{a}^{x} \mathrm{f} ( t ) \mathrm{d} t$
 
 - Therefore the c.d.f can be calculated for the interval *a < x < b*  by using
 
-`straight F left parenthesis x right parenthesis space equals space straight F left parenthesis a right parenthesis space plus space integral subscript a superscript x straight f left parenthesis t right parenthesis space straight d t`
+$\mathrm{F} ( x ) = \mathrm{F} ( a ) + \int_{a}^{x} \mathrm{f} ( t ) \mathrm{d} t$
 
 - See part (b) in the Worked Example below
 
@@ -91,7 +91,7 @@ $f(x)=\frac{d}{dx}F(x)$
 > **Worked Example**
 > a) The continuous random variable, $X$ , has cumulative distribution function
 > 
-> `straight F left parenthesis x right parenthesis equals open curly brackets table row cell space space space space space space space 0 end cell cell x less than 0 end cell row cell 1 fourth x open parentheses 4 minus x close parentheses end cell cell 0 less or equal than x less or equal than 2 end cell row cell space space space space space space space 1 end cell cell x greater than 2 end cell end table close`
+> $\mathrm{F} ( x ) = \{ \begin{gathered} 0 & x < 0 \\ 1 \frac{1}{4} x ( 4 - x ) & 0 \text{less} \text{or} \text{equal} \text{than} x \text{less} \text{or} \text{equal} \text{than} 2 \\ 1 & x > 2 \end{gathered} )$
 > 
 > Find
 > 
@@ -103,8 +103,7 @@ $f(x)=\frac{d}{dx}F(x)$
 > 
 > (b) The continuous random variable, $X$, has probability density function
 > 
-> `f left parenthesis x right parenthesis equals open curly brackets table row cell 0.5 x end cell cell 0 less or equal than x less or equal than 1 end cell row cell 0.5 end cell cell 1 less or equal than x less or equal than 2.5 end cell row 0 otherwise end table close
-> `
+> `f ( x ) = { | 0.5 x | 0 <= x <= 1 | | 0.5 | 1 <= x <= 2.5 | | 0 otherwise | close >`
 > 
 > Find the cumulative frequency distribution, $F(x)$ .
 > 

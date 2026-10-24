@@ -35,7 +35,7 @@ $\frac{31.2}{72}$
 ### Q2
 > *Find 32 out of 80 as a percentage*
 
-`32 over 80 cross times 100 equals 40 percent sign`
+$\frac{32}{80} \times 100 = 40 \%$
 
 **[1]**
 
@@ -67,25 +67,25 @@ $\frac{2}{3}\times600=400$
 **92** **[1]**
 
 ### Q4
-> `0.8 with dot on top`* means *$0.8888888...$
+> $0. \dot{8}$* means *$0.8888888...$
 
 > *Use a variable to denote this number                      *
 
-`x space equals space 0.8 with dot on top space equals space 0.888888.....`
+$x = 0. \dot{8} = 0.888888.....$
 
 > *Multiply both sides by 10 to get another number with the same recurring decimal part*
 
-`10 x space equals space 0.8 with dot on top space equals space 8.888888.....`
+$10 x = 0. \dot{8} = 8.888888.....$
 
 > *Subtract *$x$* from *$10x$
 
-`table row cell 9 x space end cell equals cell space 8. stack 8 space with dot on top space minus space 0. stack 8 space with dot on top end cell row cell 9 x space end cell equals cell space 8.888888..... space minus space 0.888888.... space end cell row cell 9 x space end cell equals cell space 8 end cell end table`
+`| 9 x | = 8. 8 -dot - 0. 8 -dot | | 9 x | = 8.888888..... - 0.888888.... | | 9 x | = 8 | |`
 
 > *Solve by dividing both sides by 9*
 
-> `table row cell x space end cell equals cell space 8 over 9 end cell end table`*       *
+> $\begin{gathered} x & = \frac{8}{9} \end{gathered}$*       *
 
-`table attributes columnalign right center left columnspacing 0px end attributes row blank blank cell bold 8 over bold 9 end cell end table`* ***[1]**
+`table columnalign right center left columnspacing 0px end | _ _ 8 / 9 | |`* ***[1]**
 
 ### Q5
 > *Let *$x$* be the recurring decimal*
@@ -119,9 +119,9 @@ $x=\frac{24}{90}$
 $x=\frac{4}{15}$ **[1]**
 
 ### Q6
-> *Let *`x equals 0.4 7 with dot on top`* and then find multiples of this, which can then be subtracted to make a 'nicer' number*
+> *Let *$x = 0.4 \dot{7}$* and then find multiples of this, which can then be subtracted to make a 'nicer' number*
 
-`table row x equals cell 0.477777... end cell row cell 10 x end cell equals cell 4.77777... end cell row cell 100 x end cell equals cell 47.7777... end cell end table`
+$\begin{gathered} x = 0.477777... \\ 10 x & = 4.77777... \\ 100 x & = 47.7777... \end{gathered}$
 
 > *Can now find *$100x-10x$*, as this will eliminate the recurring part of the decimal*
 
@@ -129,7 +129,7 @@ $100x-10x=47.7777...-4.77777...$
 
 **[1]**
 
-`table row cell 90 x end cell equals 43 row x equals cell 43 over 90 end cell end table`
+$\begin{gathered} 90 x & = 43 \\ x = \frac{43}{90} \end{gathered}$
 
 $\frac{43}{90}$ **[1]**
 
@@ -200,17 +200,17 @@ $x=\frac{7}{18}$ **[1]**
 
 > *Let **x** be the recurring decimal and, as there are two recurring decimal places, multiply by 100*
 
-`table row x equals cell 0.6 with dot on top 3 with dot on top space space space space space space space circle enclose 1 end cell end table`
+$\begin{gathered} x = 0. \dot{6} \dot{3} \textcircled{1} \end{gathered}$
 
-> *Now you need to multiply by powers of 10, to make everything after the decimal point identical to that in equation *`circle enclose 1`* In this case, multiplying by 10 gives you *`6.3 with dot on top 6 with dot on top`*, which doesn't help!*
+> *Now you need to multiply by powers of 10, to make everything after the decimal point identical to that in equation *`circle enclose 1`* In this case, multiplying by 10 gives you *$6. \dot{3} \dot{6}$*, which doesn't help!*
 
 > *So multiply by 100...*
 
-`100 x equals 63.6 with dot on top 3 with dot on top space space space space space space space space circle enclose 2`
+$100 x = 63. \dot{6} \dot{3} \textcircled{2}$
 
 > `circle enclose 2 minus circle enclose 1`* to eliminate everything after the decimal point*
 
-`table row cell 99 x end cell equals 63 row x equals cell 63 over 99 end cell end table`
+$\begin{gathered} 99 x & = 63 \\ x = \frac{63}{99} \end{gathered}$
 
 > *It's best to simplify or "cancel down" the fraction to the final answer*
 
@@ -260,7 +260,7 @@ $x=\frac{36}{99}$
 $x=\frac{4}{11}$ **[1]**
 
 ### Q11
-`0.7 with dot on top`* means "0.7 recurring" or 0.7777...*
+$0. \dot{7}$* means "0.7 recurring" or 0.7777...*
 
 > *Whilst *$\frac{7}{10}$* is equal to 0.7, *$\frac{7}{9}$*is equal to *$0.777...$
 
@@ -269,7 +269,7 @@ $\frac{7}{9}$**[1]**
 ### Q12
 > *Find 62 out of 80 as a percentage*
 
-`62 over 80 cross times 100 equals 77.5 percent sign`
+$\frac{62}{80} \times 100 = 77.5 \%$
 
 **[1]**
 
@@ -278,7 +278,7 @@ $\frac{7}{9}$**[1]**
 **Merit** **[1]**
 
 ### Q13
-> `0.2 with dot on top 3 with dot on top`* means *$0.2323232323...$
+> $0. \dot{2} \dot{3}$* means *$0.2323232323...$
 
 > *Use a variable to represent this number.*
 

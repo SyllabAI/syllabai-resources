@@ -383,7 +383,7 @@ Spec links: `spcpt_scsQmXgJygJKWzhy`
 
 Complete the positions used to estimate the quartiles of $n$ data values from a cumulative frequency graph:
 
-`Q subscript 1 equals fraction numerator n over denominator _ _ _ _ _ _ end fraction text th value end text comma space space Q subscript 2 equals fraction numerator n over denominator _ _ _ _ _ _ end fraction text th value end text comma space space Q subscript 3 equals fraction numerator _ _ _ _ _ _ n over denominator 4 end fraction text th value end text`
+$Q_{1} = \frac{n}{\underline{\quad}} \text{th value} , Q_{2} = \frac{n}{\underline{\quad}} \text{th value} , Q_{3} = \frac{\underline{\quad} n}{4} \text{th value}$
 
 
 **BACK**

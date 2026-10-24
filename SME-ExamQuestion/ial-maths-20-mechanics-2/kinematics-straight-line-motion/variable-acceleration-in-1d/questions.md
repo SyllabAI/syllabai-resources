@@ -66,8 +66,7 @@ Other than at $t=0$ , find the time when the particle is stationary.
 ### 1() — 2 marks — structured
 The velocity, $v$ m s<sup>−1</sup>, of a particle moving in a straight line at time $t$ seconds can be found using the following
 
-`v equals open curly brackets table row cell open parentheses t minus 4 close parentheses open parentheses t plus 1 close parentheses space space space space 0 less or equal than t less or equal than 6 end cell row cell 14 space space space space space space space space space space space space space space space space space space space space space space space space space space space t greater or equal than 6 end cell end table close curly brackets
-`
+`v = { | ( t - 4 ) ( t + 1 ) 0 <= t <= 6 | | 14 t >= 6 | | }`
 
 i) Find the initial speed of the particle.
 
@@ -225,7 +224,7 @@ A go kart manufacturer is testing out a new model on a straight horizontal road.
 
 Starting from rest, the velocity of the go kart is modelled by the equation
 
-`v space equals space 1 over 10 t open parentheses 36 minus t close parentheses space space space space space space space space space t greater or equal than 0`
+$v = \frac{1}{10} t ( 36 - t ) t \text{greater} \text{or} \text{equal} \text{than} 0$
 
 where $v$ m s<sup>−1</sup> is the velocity at time $t$ seconds.
 
@@ -336,7 +335,7 @@ A go kart manufacturer is testing out a new model on a straight horizontal road.
 
 Starting from rest, the velocity of the go kart is modelled by the equation
 
-`v equals 1 over w t squared open parentheses 60 space minus space t close parentheses`
+$v = \frac{1}{w} t^{2} ( 60 - t )$
 
 where $vms^{-1}$ is the velocity of the go kart at time *t* seconds and *w* is a constant.
 
@@ -413,12 +412,12 @@ Show your method clearly.
 ### 1() — 5 marks — structured
 A particle moving along a horizontal path has acceleration $a$ m s<sup>-2</sup> at time $t$ seconds modelled by the equation
 
-`a space equals space minus 1 space minus space 42 over open parentheses t plus 1 close parentheses squared space space space space space space space space space space t greater or equal than 0`
+$a = - 1 - \frac{42}{( t + 1 )^{2}} t \text{greater} \text{or} \text{equal} \text{than} 0$
 
 The initial velocity of the particle is 42 m s<sup>-1</sup>. Find the times between which the velocity of the particle is positive.
 
 ### 2() — 3 marks — structured
-Show that the distance travelled by the particle whilst its velocity is positive is `open parentheses 42 space ln space 7 minus 18 close parentheses` metres.
+Show that the distance travelled by the particle whilst its velocity is positive is $( 42 \ln 7 - 18 )$ metres.
 
 ## Q29 — very_hard — 6 marks · exam-questions
 
@@ -451,7 +450,7 @@ A go kart manufacturer is testing out a new model on a straight horizontal road.
 
 Starting from rest, the velocity of the go kart is modelled by the equation
 
-`v equals open curly brackets table row cell k open parentheses t cubed minus 20 t squared plus 100 t close parentheses end cell cell 0 less or equal than t less or equal than 12 end cell row 12 cell t greater or equal than 12 end cell end table close table row blank row blank end table space space space space space space space space space space space space space space space space space space space space space space`
+$v = \{ \begin{gathered} k ( t^{3} - 20 t^{2} + 100 t ) & 0 \text{less} \text{or} \text{equal} \text{than} t \text{less} \text{or} \text{equal} \text{than} 12 \\ 12 t \text{greater} \text{or} \text{equal} \text{than} 12 \end{gathered} ) \begin{gathered} \\ \end{gathered}$
 
 where $v$ m s<sup>−1</sup> is the velocity of the go kart at time *t* seconds.
 
@@ -476,7 +475,7 @@ Give both answers to three significant figures and state any modelling assumptio
 ### 1() — 7 marks — structured
 In a cheese-rolling competition, a cylindrical block of cheese is rolled down a hill and its acceleration, $a$ m s<sup>−2</sup>, is modelled by the functions
 
-`a left parenthesis t right parenthesis equals open curly brackets table row cell 0.2 space t space space space space space space space space space space 0 less or equal than t less or equal than 15 end cell row cell 9 minus t space space space space space space space space space space 15 less than t less or equal than A end cell end table close`
+`a ( t ) = { | 0.2 t 0 <= t <= 15 | | 9 - t 15 less than t <= A | | close`
 
 where $t$ is the time in seconds and $A$ is a constant. At the bottom of the hill the land is flat. The block of cheese comes to rest when its acceleration is −9 m s<sup>−2</sup>.
 
@@ -525,6 +524,6 @@ Clearly explain each stage of your solution.
 ### 1() — 6 marks — structured
 A particle moving along a horizontal path has acceleration, $a$ m s<sup>-2</sup>, at time $t$ seconds, modelled by the equation
 
-`a equals negative space 40 over open parentheses t plus 1 close parentheses cubed space space space space space space space space space space space space t greater or equal than 0`
+$a = - \frac{40}{( t + 1 )^{3}} t \text{greater} \text{or} \text{equal} \text{than} 0$
 
 The particle has zero displacement from a fixed point $O$ after 1 second and 9 seconds. Find an expression for the displacement of the particle from $O$ at time $t$ seconds.

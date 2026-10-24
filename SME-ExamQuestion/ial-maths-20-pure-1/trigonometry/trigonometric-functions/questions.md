@@ -61,7 +61,7 @@ Sketch the graph of y = - sin $θ$ for 0° ≤ $θ$ ≤ 360°.
 ## Q8 — easy — 3 marks · exam-questions
 
 ### 1() — 3 marks — structured
-Given that `straight f open parentheses straight theta close parentheses space equals space cos space straight theta`, write the following functions in terms of $\mathrm{cos}θ$.
+Given that $\mathrm{f} ( \ \\theta ) = \cos \ \\theta$, write the following functions in terms of $\mathrm{cos}θ$.
 
 (i) $2f(θ)+3$
 
@@ -94,7 +94,7 @@ By sketching an appropriate graph, find all the solutions of $\mathrm{tan}θ=-1$
 ## Q13 — medium — 4 marks · exam-questions
 
 ### 1() — 4 marks — structured
-(i) Sketch the graph of `y space equals space cos space open parentheses theta space plus space 30 degree close parentheses` in the interval $-180^{\circ}\leqθ\leq360^{\circ}.$
+(i) Sketch the graph of $y = \cos ( \\theta + 30^{\circ} )$ in the interval $-180^{\circ}\leqθ\leq360^{\circ}.$
 
 (ii) Write down all the values where $\mathrm{cos}(θ+30^{\circ})=0$ in the given interval.
 
@@ -140,26 +140,26 @@ The graph below shows the curve with equation $y=\mathrm{sin}2x$ in the interval
 
 ![screenshot-2023-07-21-at-2-08-05-pm](assets/040-screenshot-2023-07-21-at-2-08-05-pm.png)
 
-Point *A* has coordinates `open parentheses negative straight pi over 4 comma space minus 1 close parentheses` and is the minimum point closest to the origin. Point *B* is the maximum point closest to the origin. State the coordinates of *B*.
+Point *A* has coordinates `( - pi / 4 , - 1 )` and is the minimum point closest to the origin. Point *B* is the maximum point closest to the origin. State the coordinates of *B*.
 
 ### 2() — 2 marks — structured
 A straight line with equation $y=-\frac{1}{2}$ meets the graph of $y=\mathrm{sin}2x$ at the three points $P$, $Q$ and $R$, as shown in the diagram.
 
-Given that point $P$ has coordinates `open parentheses negative straight pi over 12 comma space minus 1 half close parentheses` , use graph symmetries to determine the coordinates of $Q$ and $R$.
+Given that point $P$ has coordinates `( - pi / 12 , - 1 half )` , use graph symmetries to determine the coordinates of $Q$ and $R$.
 
 ## Q18 — medium — 3 marks · exam-questions
 
 ### 1() — 3 marks — structured
 Describe geometrically the transformation that maps the graph of $y=\mathrm{cos}x$ onto the graph of $y=4\mathrm{cos}x.$
 
-On the graph of $y=\mathrm{cos}x$, a point *P* has coordinates `open parentheses 60 degree comma space 0.5 close parentheses`. State the new coordinates of point *P* after the transformation to $y=4\mathrm{cos}x$.
+On the graph of $y=\mathrm{cos}x$, a point *P* has coordinates $( 60^{\circ} , 0.5 )$. State the new coordinates of point *P* after the transformation to $y=4\mathrm{cos}x$.
 
 ## Q19 — medium — 3 marks · exam-questions
 
 ### 1() — 3 marks — structured
 Describe geometrically the transformation that maps the graph of $y=\mathrm{sin}x$ onto the graph of $y=\mathrm{sin}3x.$
 
-On the graph of $y=\mathrm{sin}x,$a point $Q$ has coordinates `open parentheses straight pi over 6 comma space fraction numerator square root of 3 over denominator 2 end fraction close parentheses` . State the new coordinates of point $Q$ after the transformation to $y=\mathrm{sin}3x$.
+On the graph of $y=\mathrm{sin}x,$a point $Q$ has coordinates `( pi / 6 , (sqrt( 3)/(2) )` . State the new coordinates of point $Q$ after the transformation to $y=\mathrm{sin}3x$.
 
 ## Q20 — medium — 6 marks · exam-questions
 
@@ -175,11 +175,11 @@ A section of a new rollercoaster has a series of rises and falls. The vertical d
 ## Q21 — medium — 8 marks · exam-questions
 
 ### 1() — 8 marks — structured
-On the same set of axes, sketch the graphs of $y=\mathrm{sin}2θ$ and `y space equals space cos space open parentheses theta space plus space straight pi over 2 close parentheses` in the interval $-π\leqθ\leqπ$.
+On the same set of axes, sketch the graphs of $y=\mathrm{sin}2θ$ and `y = cos ( theta + pi / 2 )` in the interval $-π\leqθ\leqπ$.
 
 Show clearly the coordinates of all points of intersection with the coordinate axes.
 
-Deduce the number of solutions to the equation `sin space 2 theta space equals space cos space open parentheses theta plus straight pi over 2 close parentheses` in the interval $-π\leqθ\leqπ$.
+Deduce the number of solutions to the equation `sin 2 theta = cos ( theta + pi / 2 )` in the interval $-π\leqθ\leqπ$.
 
 ## Q22 — hard — 2 marks · exam-questions
 
@@ -205,9 +205,9 @@ Deduce the number of solutions to the equation `sin space 2 theta space equals s
 ## Q25 — hard — 4 marks · exam-questions
 
 ### 1() — 4 marks — structured
-(i) Sketch the graph of `y space equals space tan space open parentheses theta minus straight pi over 4 close parentheses space`  in the interval $-2π\leqθ\leq2π$.
+(i) Sketch the graph of `y = tan ( theta - pi / 4 )`  in the interval $-2π\leqθ\leq2π$.
 
-(ii) Write down all the values of $θ$ for which `tan space open parentheses theta space minus space straight pi over 4 close parentheses space equals space 1` in the given interval.
+(ii) Write down all the values of $θ$ for which `tan ( theta - pi / 4 ) = 1` in the given interval.
 
 ## Q26 — hard — 6 marks · exam-questions
 
@@ -219,14 +219,14 @@ The sketches must include coordinates of all points where the graphs meet the co
 ## Q27 — hard — 8 marks · exam-questions
 
 ### 1() — 8 marks — structured
-(i) On the same set of axes, sketch the graphs of $y=\frac{1}{2}\mathrm{sin}θ$ and `y space equals space sin space open parentheses theta space minus space 60 degree close parentheses` in the interval $-180^{\circ}\leqθ\leq180^{\circ}$. State the coordinates of all points of intersection with the coordinate axes and of maximum and minimum points where appropriate.
+(i) On the same set of axes, sketch the graphs of $y=\frac{1}{2}\mathrm{sin}θ$ and $y = \sin ( \\theta - 60^{\circ} )$ in the interval $-180^{\circ}\leqθ\leq180^{\circ}$. State the coordinates of all points of intersection with the coordinate axes and of maximum and minimum points where appropriate.
 
-(ii) Verify that $θ=90^{\circ}$ is a solution to the equation `1 half sin space theta space equals space sin space open parentheses theta space minus space 60 degree close parentheses`.  Hence, using your sketch from part (i) or otherwise, find all other solutions to the equation `1 half sin space theta space equals space sin open parentheses theta space minus space 60 degree close parentheses` in the interval $-180^{\circ}\leqθ\leq180^{\circ}$.
+(ii) Verify that $θ=90^{\circ}$ is a solution to the equation $1 \frac{1}{2} \sin \\theta = \sin ( \\theta - 60^{\circ} )$.  Hence, using your sketch from part (i) or otherwise, find all other solutions to the equation $1 \frac{1}{2} \sin \\theta = \sin ( \\theta - 60^{\circ} )$ in the interval $-180^{\circ}\leqθ\leq180^{\circ}$.
 
 ## Q28 — hard — 4 marks · exam-questions
 
 ### 1() — 2 marks — structured
-The graph below shows a curve with equation `y space equals space cos space open parentheses x space plus space k degree close parentheses`, $-360^{\circ}\leqx\leq360^{\circ}$, where *k* is a constant.
+The graph below shows a curve with equation $y = \cos ( x + k^{\circ} )$, $-360^{\circ}\leqx\leq360^{\circ}$, where *k* is a constant.
 
 ![screenshot-2023-07-22-at-11-34-50-am](assets/024-screenshot-2023-07-22-at-11-34-50-am.png)
 
@@ -254,12 +254,12 @@ A straight line with equation $y=\frac{\sqrt{3}}{2}$ meets the graph of $y=\math
 ### 1() — 3 marks — structured
 (i) Describe geometrically the transformation that maps the graph of $y=\mathrm{tan}x$ onto the graph of $y=\frac{1}{5}\mathrm{tan}x$.
 
-(ii) On the graph of $y=\mathrm{tan}x$, a point *Q* has coordinates `open parentheses 30 degree comma fraction numerator square root of 3 over denominator 2 end fraction close parentheses`. State the new coordinates of point *Q* after the transformation to $y=\frac{1}{5}\mathrm{tan}x$. Leave your answer in surd form.
+(ii) On the graph of $y=\mathrm{tan}x$, a point *Q* has coordinates $( 30^{\circ} , \frac{ \sqrt{3} }{2} )$. State the new coordinates of point *Q* after the transformation to $y=\frac{1}{5}\mathrm{tan}x$. Leave your answer in surd form.
 
 ## Q31 — hard — 5 marks · exam-questions
 
 ### 1() — 5 marks — structured
-Changes in the depth of water in a small tidal estuary relative to a fixed reference depth can be modelled using the function `y space equals space open parentheses sin space straight pi over 8 t close parentheses`,  where $y$ is measured in metres, the angle is measured in radians, and *t* is the time in hours.
+Changes in the depth of water in a small tidal estuary relative to a fixed reference depth can be modelled using the function `y = ( sin pi / 8 t )`,  where $y$ is measured in metres, the angle is measured in radians, and *t* is the time in hours.
 
 (i) Sketch the function for the interval $0\leqt\leq8$.
 
@@ -268,7 +268,7 @@ Changes in the depth of water in a small tidal estuary relative to a fixed refer
 ## Q32 — hard — 5 marks · exam-questions
 
 ### 1() — 5 marks — structured
-A series of dips and mounds caused by underground mining has a cross-section which can be modelled using the function `y space equals space 4 cos space open parentheses 18 x close parentheses degree`, where $x$ and $y$ are respectively the horizontal and vertical displacements, in metres, from a fixed origin point.
+A series of dips and mounds caused by underground mining has a cross-section which can be modelled using the function $y = 4 \cos ( 18 x )^{\circ}$, where $x$ and $y$ are respectively the horizontal and vertical displacements, in metres, from a fixed origin point.
 
 (i) Sketch the function for the interval $0\leqx\leq40$ and state the periodicity of the model.
 
@@ -277,9 +277,9 @@ A series of dips and mounds caused by underground mining has a cross-section whi
 ## Q33 — hard — 8 marks · exam-questions
 
 ### 1() — 8 marks — structured
-(i) On the same set of axes, sketch the graphs of $y=\mathrm{tan}\frac{1}{4}θ$ and `y space equals space cos space open parentheses theta space plus space 120 degree close parentheses` in the interval $0^{\circ}\leqθ\leq270^{\circ}$. Show clearly the coordinates of all points of intersection with the coordinate axes.
+(i) On the same set of axes, sketch the graphs of $y=\mathrm{tan}\frac{1}{4}θ$ and $y = \cos ( \\theta + 120^{\circ} )$ in the interval $0^{\circ}\leqθ\leq270^{\circ}$. Show clearly the coordinates of all points of intersection with the coordinate axes.
 
-(ii) Deduce the number of solutions to the equation `cos space open parentheses theta space plus space 120 degree close parentheses space minus space tan space 1 fourth space theta space equals space 0`, in the interval $0^{\circ}\leqθ\leq270^{\circ}$.
+(ii) Deduce the number of solutions to the equation $\cos ( \\theta + 120^{\circ} ) - \tan 1 \frac{1}{4} \\theta = 0$, in the interval $0^{\circ}\leqθ\leq270^{\circ}$.
 
 ## Q34 — very_hard — 4 marks · exam-questions
 
@@ -291,42 +291,42 @@ By sketching an appropriate graph, find all the solutions to $\mathrm{tan}θ=\fr
 ## Q35 — very_hard — 6 marks · exam-questions
 
 ### 1() — 6 marks — structured
-(i) On the same set of axes, sketch the graphs of `y space equals space cos open parentheses negative 2 theta close parentheses`  and $y=\mathrm{cos}\frac{1}{2}θ$ in the interval $-2π\leqθ\leq2π$.  Label the axes appropriately to show all points of intersection between the graphs and the coordinate axes.
+(i) On the same set of axes, sketch the graphs of $y = \cos ( - 2 \\theta )$  and $y=\mathrm{cos}\frac{1}{2}θ$ in the interval $-2π\leqθ\leq2π$.  Label the axes appropriately to show all points of intersection between the graphs and the coordinate axes.
 
 (ii) State the periodicity of each function.
 
 ## Q36 — very_hard — 6 marks · exam-questions
 
 ### 1() — 4 marks — structured
-On the same set of axes, sketch the graphs of $y=\mathrm{sin}\frac{1}{2}θ$ and `y equals space sin space open parentheses theta plus 30 degree close parentheses` in the interval $-270^{\circ}\leqθ\leq270^{\circ}$. Label the coordinates of points of intersection with the coordinate axes and of maximum and minimum points where appropriate.
+On the same set of axes, sketch the graphs of $y=\mathrm{sin}\frac{1}{2}θ$ and $y = \sin ( \\theta + 30^{\circ} )$ in the interval $-270^{\circ}\leqθ\leq270^{\circ}$. Label the coordinates of points of intersection with the coordinate axes and of maximum and minimum points where appropriate.
 
 ### 2() — 2 marks — structured
-Find the solution to the equation `sin space 1 half space theta space equals space sin space open parentheses theta space plus space 30 degree close parentheses` within the interval $-90^{\circ}\leqθ\leq0^{\circ}$. Hence, determine the coordinates of the corresponding point of intersection between the two graphs in part (a).
+Find the solution to the equation $\sin 1 \frac{1}{2} \\theta = \sin ( \\theta + 30^{\circ} )$ within the interval $-90^{\circ}\leqθ\leq0^{\circ}$. Hence, determine the coordinates of the corresponding point of intersection between the two graphs in part (a).
 
 ## Q37 — very_hard — 7 marks · exam-questions
 
 ### 1() — 4 marks — structured
-On the same set of axes, sketch the graphs of $y=\mathrm{tan}\frac{1}{2}θ$ and `y space equals space tan space open parentheses theta space minus space straight pi over 6 close parentheses` in the interval $-2π\leqθ\leq2π$. Label the coordinates of points of intersection with the coordinate axes.
+On the same set of axes, sketch the graphs of $y=\mathrm{tan}\frac{1}{2}θ$ and `y = tan ( theta - pi / 6 )` in the interval $-2π\leqθ\leq2π$. Label the coordinates of points of intersection with the coordinate axes.
 
 ### 2() — 3 marks — structured
-Within the interval $-2π\leqθ\leq2π$, determine the coordinates of the two points where `tan space 1 half theta space equals space tan space open parentheses theta space minus space straight pi over 6 close parentheses`.  Give your answer in surd form.
+Within the interval $-2π\leqθ\leq2π$, determine the coordinates of the two points where `tan 1 half theta = tan ( theta - pi / 6 )`.  Give your answer in surd form.
 
 ## Q38 — very_hard — 4 marks · exam-questions
 
 ### 1() — 2 marks — structured
-The graph below shows part of the curve with equation `y space equals space sin space open parentheses x space plus space k close parentheses`,  where the angle is measured in radians and *k* is a constant.
+The graph below shows part of the curve with equation $y = \sin ( x + k )$,  where the angle is measured in radians and *k* is a constant.
 
 ![screenshot-2023-07-22-at-8-00-27-pm](assets/003-screenshot-2023-07-22-at-8-00-27-pm.png)
 
 A student states that there are an infinite number of possible values for *k*. Is the student correct?  You must explain your answer fully.
 
 ### 2() — 2 marks — structured
-Another student claims that the curve could also be the graph of the equation `y space equals space cos space open parentheses x space plus space k close parentheses`. Find a value for* k *to show that the student is correct.
+Another student claims that the curve could also be the graph of the equation $y = \cos ( x + k )$. Find a value for* k *to show that the student is correct.
 
 ## Q39 — very_hard — 6 marks · exam-questions
 
 ### 1() — 4 marks — structured
-The graph below shows two curves with equations $y=p\mathrm{sin}x$ and `y space equals space cos open parentheses space x space plus space q degree close parentheses`, in the interval $-180^{\circ}\leqx\leq180^{\circ}$, where $p$ and $q$ are integers.
+The graph below shows two curves with equations $y=p\mathrm{sin}x$ and $y = \cos ( x + q^{\circ} )$, in the interval $-180^{\circ}\leqx\leq180^{\circ}$, where $p$ and $q$ are integers.
 
 ![screenshot-2023-07-22-at-8-15-18-pm](assets/008-screenshot-2023-07-22-at-8-15-18-pm.png)
 
@@ -340,12 +340,12 @@ Within the stated interval, the curves intersect at the two points $R$ and $S$ a
 ### 1() — 6 marks — structured
 (i) Describe geometrically the transformation that maps the graph of $y=\frac{1}{3}\mathrm{tan}x$ onto the graph of $y=3\mathrm{tan}x$.
 
-(ii) On the graph of $y=\mathrm{tan}x$, a point *S* has coordinates `open parentheses straight pi over 3 comma space square root of 3 close parentheses`.  State the new coordinates of point *S* after a transformation onto each of the graphs in part (i). Give your answers in surd form.
+(ii) On the graph of $y=\mathrm{tan}x$, a point *S* has coordinates `( pi / 3 , sqrt( 3 )`.  State the new coordinates of point *S* after a transformation onto each of the graphs in part (i). Give your answers in surd form.
 
 ## Q41 — very_hard — 4 marks · exam-questions
 
 ### 1() — 2 marks — structured
-Describe geometrically the transformation that maps the graph of `y space equals space sin space open parentheses x space plus space 20 degree close parentheses` onto the graph of  `y space equals space cos open parentheses space x space plus space 20 degree close parentheses`.
+Describe geometrically the transformation that maps the graph of $y = \sin ( x + 20^{\circ} )$ onto the graph of  $y = \cos ( x + 20^{\circ} )$.
 
 ### 2() — 2 marks — structured
 On the same set of axes, sketch both graphs in the interval $-180^{\circ}\leqx\leq180^{\circ}$.
@@ -355,19 +355,19 @@ Label the coordinates of any points of intersection between the two graphs.
 ## Q42 — very_hard — 2 marks · exam-questions
 
 ### 1() — 2 marks — structured
-The graph below shows the curve with equation $y=2\mathrm{sin}θ$, in the interval $0^{\circ}\leqθ\leq360^{\circ}$. One value of $θ$ has been labelled `open parentheses theta space equals space a degree close parentheses`.
+The graph below shows the curve with equation $y=2\mathrm{sin}θ$, in the interval $0^{\circ}\leqθ\leq360^{\circ}$. One value of $θ$ has been labelled $( \\theta = a^{\circ} )$.
 
 ![screenshot-2023-07-22-at-8-35-28-pm](assets/006-screenshot-2023-07-22-at-8-35-28-pm.png)
 
 Use the graph, along with the symmetry properties of the sine function, to verify that
 
-`2 space sin space a space equals space 2 space sin open parentheses space 180 degree space minus space a close parentheses space equals space minus 2 space sin space open parentheses 180 degree space plus space a close parentheses space equals space minus 2 space sin space open parentheses 360 degree space minus space a close parentheses`.
+$2 \sin a = 2 \sin ( 180^{\circ} - a ) = - 2 \sin ( 180^{\circ} + a ) = - 2 \sin ( 360^{\circ} - a )$.
 
 ## Q43 — very_hard — 6 marks · exam-questions
 
 ### 1() — 6 marks — structured
-A function `straight f open parentheses straight x close parentheses space equals space cos space straight p x comma space`$0\leqx\leq2π$,  first crosses the $x$-axis at $\frac{π}{10}$.
+A function $\mathrm{f} ( \mathrm{x} ) = \cos \mathrm{p} x ,$$0\leqx\leq2π$,  first crosses the $x$-axis at $\frac{π}{10}$.
 
-(i) Determine the value of $p$ and sketch the graph of `y space equals space straight f open parentheses straight x close parentheses`.
+(i) Determine the value of $p$ and sketch the graph of $y = \mathrm{f} ( \mathrm{x} )$.
 
-(ii) State the period of `straight f open parentheses straight x close parentheses`.
+(ii) State the period of $\mathrm{f} ( \mathrm{x} )$.

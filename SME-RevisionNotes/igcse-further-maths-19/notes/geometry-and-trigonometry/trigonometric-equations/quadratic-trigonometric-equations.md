@@ -33,7 +33,7 @@ guided_study: false
 
   - You must check whether solutions to the quadratic are **valid** solutions
   
-    - `2 cos squared space x plus 5 cos space x minus 3 equals open parentheses 2 cos x minus 1 close parentheses open parentheses cos x plus 3 close parentheses equals 0`
+    - $2 \cos ^{2} x + 5 \cos x - 3 = ( 2 \cos x - 1 ) ( \cos x + 3 ) = 0$
     - So $\mathrm{cos}x=\frac{1}{2}$ and $\mathrm{cos}x=-3$ are the solutions of the quadratic
   - Remember that solutions for $\mathrm{sin}x=k$ and $\mathrm{cos}x=k$ **only exist** for $-1\leqk\leq1$
   
@@ -64,19 +64,19 @@ guided_study: false
 > 
 > > *Substitute this to get the equation entirely in terms of *$\mathrm{sin}x$
 > 
-> `11 sin x minus 7 equals 5 open parentheses 1 minus sin squared x close parentheses`
+> $11 \sin x - 7 = 5 ( 1 - \sin ^{2} x )$
 > 
 > > *Expand the brackets and rearrange to get a quadratic equal to zero*
 > 
-> `table row cell 11 sin x minus 7 end cell equals cell 5 minus 5 sin squared x end cell row cell 5 sin squared x plus 11 sin x minus 12 end cell equals 0 end table`
+> $\begin{gathered} 11 \sin x - 7 & = 5 - 5 \sin ^{2} x \\ 5 \sin ^{2} x + 11 \sin x - 12 & = 0 \end{gathered}$
 > 
 > > *This can be solved by factorising (it might help you to think of it as  *$5s^{2}+11s-12=0$*)*
 > *You could also solve it by using the quadratic formula*
 > *Or your calculator may be able to solve quadratics*
 > 
-> `open parentheses 5 sin x minus 4 close parentheses open parentheses sin x plus 3 close parentheses equals 0
+> $( 5 \sin x - 4 ) ( \sin x + 3 ) = 0
 > 
-> sin x equals 4 over 5 space space or space space sin x equals negative 3`
+> \sin x = \frac{4}{5} \text{or} \sin x = - 3$
 > 
 > > $\mathrm{sin}x=-3$*  has no solutions for *$x$* because sine cannot be less than *$-1$
 > *So we only need to find solutions for *$\mathrm{sin}x=\frac{4}{5}$
@@ -84,11 +84,11 @@ guided_study: false
 > > *Start by finding the primary solution*
 > *The interval is given in radians, so we have to make sure the calculator is set up for radians!*
 > 
-> `x subscript 1 equals sin to the power of negative 1 end exponent open parentheses 4 over 5 close parentheses equals 0.927295...`
+> $x_{1} = \sin ^{- 1} ( \frac{4}{5} ) = 0.927295...$
 > 
 > > *Use symmetry properties of sine to find the secondary solution*
 > 
-> `x subscript 2 equals pi minus x subscript 1 equals pi minus sin to the power of negative 1 end exponent open parentheses 4 over 5 close parentheses equals 2.214297...`
+> $x_{2} = \pi - x_{1} = \pi - \sin ^{- 1} ( \frac{4}{5} ) = 2.214297...$
 > 
 > > *Both those solutions are the interval *$0\leqx\leq2π$*, and there are no other solutions in the interval*
 > *(You could sketch the sine function to confirm that)*

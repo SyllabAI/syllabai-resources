@@ -73,7 +73,7 @@ guided_study: false
   - It clearly shows how the function can be transformed from the graph of $y=x^{2}$
   
     - Vertical stretch by scale factor ­*a*
-    - Translation by vector `stretchy left parenthesis table row h row k end table stretchy right parenthesis`
+    - Translation by vector $( \begin{gathered} h \\ k \end{gathered} )$
 
 ### How do I find an equation of a quadratic?
 
@@ -108,19 +108,19 @@ guided_study: false
 > *Method 1*
 > 
 > *Since we know the vertex (turning point), it will be easiest to start with the completed square version of the equation *
-> *This is  *$f(x)=a(x-h)^{2}+k$*,  where the vertex is at *`open parentheses h comma space k close parentheses`
+> *This is  *$f(x)=a(x-h)^{2}+k$*,  where the vertex is at *$( h , k )$
 > 
-> `table row cell straight f open parentheses x close parentheses end cell equals cell a open parentheses x minus open parentheses negative 1 close parentheses close parentheses squared plus 8 end cell row blank equals cell a open parentheses x plus 1 close parentheses squared plus 8 end cell end table`
+> $\begin{gathered} \mathrm{f} ( x ) & = a ( x - ( - 1 ) )^{2} + 8 \\ = a ( x + 1 )^{2} + 8 \end{gathered}$
 > 
-> > *We also know the curve *`y equals straight f open parentheses x close parentheses`* goes through (0, 6)*
+> > *We also know the curve *$y = \mathrm{f} ( x )$* goes through (0, 6)*
 > *Put those coordinates into the equation and solve for *$a$
 > 
-> `table row 6 equals cell a open parentheses 0 plus 1 close parentheses squared plus 8 end cell row 6 equals cell a plus 8 end cell row a equals cell negative 2 end cell end table`
+> $\begin{gathered} 6 = a ( 0 + 1 )^{2} + 8 \\ 6 = a + 8 \\ a = - 2 \end{gathered}$
 > 
-> > *Substitute *$a=-2$* into the expression for *`straight f open parentheses x close parentheses`
+> > *Substitute *$a=-2$* into the expression for *$\mathrm{f} ( x )$
 > *Expand the brackets and rearrange into the form required*
 > 
-> `table row cell straight f open parentheses x close parentheses end cell equals cell negative 2 open parentheses x plus 1 close parentheses squared plus 8 end cell row blank equals cell negative 2 open parentheses x squared plus 2 x plus 1 close parentheses plus 8 end cell row blank equals cell negative 2 x squared minus 4 x minus 2 plus 8 end cell end table`
+> $\begin{gathered} \mathrm{f} ( x ) & = - 2 ( x + 1 )^{2} + 8 \\ = - 2 ( x^{2} + 2 x + 1 ) + 8 \\ = - 2 x^{2} - 4 x - 2 + 8 \end{gathered}$
 > 
 > $f(x)=-2x^{2}-4x+6$
 > 
@@ -129,39 +129,39 @@ guided_study: false
 > *It is also possible to start with the *$y=ax^{2}+bx+c$* form*
 > *Because the **y-**intercept is (0, 6) we know that *$c=6$
 > 
-> *Goes through *`open parentheses 0 comma space 6 close parentheses`* means  *`straight f open parentheses x close parentheses equals a x squared plus b x plus 6`
+> *Goes through *$( 0 , 6 )$* means  *$\mathrm{f} ( x ) = a x^{2} + b x + 6$
 > 
 > > *It also goes through (-1, 8)*
-> *Substitute those coordinates into the equation of *`y equals f open parentheses x close parentheses`
+> *Substitute those coordinates into the equation of *$y = f ( x )$
 > 
-> *Goes through *`open parentheses negative 1 comma space 8 close parentheses`* means*
+> *Goes through *$( - 1 , 8 )$* means*
 > 
-> `table row 8 equals cell a open parentheses negative 1 close parentheses squared plus b open parentheses negative 1 close parentheses plus 6 end cell row 8 equals cell a minus b plus 6 end cell row cell a minus b end cell equals 2 end table`
+> $\begin{gathered} 8 = a ( - 1 )^{2} + b ( - 1 ) + 6 \\ 8 = a - b + 6 \\ a - b & = 2 \end{gathered}$
 > 
 > > *We need one more piece of information*
 > *You may remember that the turning point lies on the line  *$x=-\frac{b}{2a}$
-> *If not, then use the fact that the **x-**coordinate of the turning point satisfies  *`straight f to the power of apostrophe open parentheses x close parentheses equals 0`
+> *If not, then use the fact that the **x-**coordinate of the turning point satisfies  *$\mathrm{f}^{'} ( x ) = 0$
 > 
-> *Turning point at *`open parentheses negative 1 comma space 8 close parentheses`* means**  *`straight f to the power of apostrophe open parentheses negative 1 close parentheses equals 0`
+> *Turning point at *$( - 1 , 8 )$* means**  *$\mathrm{f}^{'} ( - 1 ) = 0$
 > 
-> > *Differentiate to find *`straight f to the power of apostrophe open parentheses x close parentheses`
-> *Then solve *`straight f to the power of apostrophe open parentheses negative 1 close parentheses equals 0`* to find another equation with *$a$*and *$b$
+> > *Differentiate to find *$\mathrm{f}^{'} ( x )$
+> *Then solve *$\mathrm{f}^{'} ( - 1 ) = 0$* to find another equation with *$a$*and *$b$
 > 
-> `straight f to the power of apostrophe open parentheses x close parentheses equals 2 a x plus b`
+> $\mathrm{f}^{'} ( x ) = 2 a x + b$
 > 
-> `table row cell 2 a open parentheses negative 1 close parentheses plus b end cell equals 0 row cell negative 2 a plus b end cell equals 0 end table`
+> $\begin{gathered} 2 a ( - 1 ) + b & = 0 \\ - 2 a + b & = 0 \end{gathered}$
 > 
 > > *We now have two simultaneous equations that we can solve to find *$a$* and *$b$
 > 
-> `table row cell a minus b end cell equals cell 2 space space space space open square brackets 1 close square brackets end cell row cell negative 2 a plus b end cell equals cell 0 space space space space open square brackets 2 close square brackets end cell end table`
+> $\begin{gathered} a - b & = 2 [ 1 ] \\ - 2 a + b & = 0 [ 2 ] \end{gathered}$
 > 
 > > *Add [1] and [2] together to eliminate *$b$
 > 
-> `table row cell negative a end cell equals 2 row a equals cell negative 2 end cell end table`
+> $\begin{gathered} - a & = 2 \\ a = - 2 \end{gathered}$
 > 
 > > *Substitute into [2] and solve to find *$b$
 > 
-> `table row cell negative 2 open parentheses negative 2 close parentheses plus b end cell equals 0 row cell 4 plus b end cell equals 0 row b equals cell negative 4 end cell end table`
+> $\begin{gathered} - 2 ( - 2 ) + b & = 0 \\ 4 + b & = 0 \\ b = - 4 \end{gathered}$
 > 
 > > *Write final answer in form requested*
 > 
@@ -180,7 +180,7 @@ guided_study: false
 
   - ***y****-*axis intercept
   
-    - This occurs at  `open parentheses 0 comma space d close parentheses`
+    - This occurs at  $( 0 , d )$
   - ***x****-*axis intercepts (**roots**)
   
     - *x-*coordinates are the solutions to  $ax^{3}+bx^{2}+cx+d=0$
@@ -219,25 +219,25 @@ Draw with a **smooth** curve (this takes practice!)
 ![Steps to sketch a cubic](../../../assets/d213c28c6956-2-7-1-sketching-polynomials-notes-diagram-2.png)
 
 > **Worked Example**
-> Consider the function  `straight f open parentheses x close parentheses equals negative x cubed plus b x squared plus c x`,  where $b$ and $c$ are constants.
+> Consider the function  $\mathrm{f} ( x ) = - x^{3} + b x^{2} + c x$,  where $b$ and $c$ are constants.
 > 
-> The graph of  `y equals straight f open parentheses x close parentheses`  has two turning points, the $x$-coordinates of which are $1$ and $3$.
+> The graph of  $y = \mathrm{f} ( x )$  has two turning points, the $x$-coordinates of which are $1$ and $3$.
 > 
 > (a) Find the values of $b$ and $c$.
 > 
-> > *The turning points occur when *`straight f to the power of apostrophe open parentheses x close parentheses equals 0`
+> > *The turning points occur when *$\mathrm{f}^{'} ( x ) = 0$
 > 
-> > *Start by differentiating to find *`straight f to the power of apostrophe open parentheses x close parentheses`
+> > *Start by differentiating to find *$\mathrm{f}^{'} ( x )$
 > 
-> `straight f to the power of apostrophe open parentheses x close parentheses equals negative 3 x squared plus 2 b x plus c`
+> $\mathrm{f}^{'} ( x ) = - 3 x^{2} + 2 b x + c$
 > 
 > > *That is equal to 0 when *$x=1$* and when *$x=3$
 > 
 > > *Substitute those values in to find two equations in *$b$* and *$c$
 > 
-> `table row cell negative 3 open parentheses 1 close parentheses squared plus 2 b open parentheses 1 close parentheses plus c end cell equals 0 row cell negative 3 plus 2 b plus c end cell equals 0 row cell 2 b plus c end cell equals 3 end table`
+> $\begin{gathered} - 3 ( 1 )^{2} + 2 b ( 1 ) + c & = 0 \\ - 3 + 2 b + c & = 0 \\ 2 b + c & = 3 \end{gathered}$
 > 
-> `table row cell negative 3 open parentheses 3 close parentheses squared plus 2 b open parentheses 3 close parentheses plus c end cell equals 0 row cell negative 27 plus 6 b plus c end cell equals 0 row cell 6 b plus c end cell equals 27 end table`
+> $\begin{gathered} - 3 ( 3 )^{2} + 2 b ( 3 ) + c & = 0 \\ - 27 + 6 b + c & = 0 \\ 6 b + c & = 27 \end{gathered}$
 > 
 > > *Those are simultaneous equations in *$b$* and *$c$
 > *Subtract the first from the second to eliminate *$c$* and find *$b$
@@ -245,27 +245,27 @@ Draw with a **smooth** curve (this takes practice!)
 > 
 > $b=6c=-9$
 > 
-> (b) Sketch the graph of `y equals straight f open parentheses x close parentheses`.
+> (b) Sketch the graph of $y = \mathrm{f} ( x )$.
 > 
-> > *There is no constant term in *`straight f open parentheses x close parentheses`*, so the **y**-intercept will be 0*
+> > *There is no constant term in *$\mathrm{f} ( x )$*, so the **y**-intercept will be 0*
 > 
-> > *Substitute the **x**-coordinates of the turning points into *`straight f open parentheses x close parentheses`* to find the corresponding **y**-coordinates*
+> > *Substitute the **x**-coordinates of the turning points into *$\mathrm{f} ( x )$* to find the corresponding **y**-coordinates*
 > 
 > > * *
 > 
-> `negative open parentheses 1 close parentheses cubed plus 6 open parentheses 1 close parentheses squared minus 9 open parentheses 1 close parentheses equals negative 1 plus 6 minus 9 equals negative 4
+> $- ( 1 )^{3} + 6 ( 1 )^{2} - 9 ( 1 ) = - 1 + 6 - 9 = - 4
 > 
-> minus open parentheses 3 close parentheses cubed plus 6 open parentheses 3 close parentheses squared minus 9 open parentheses 3 close parentheses equals negative 27 plus 54 minus 27 equals 0`
+> - ( 3 )^{3} + 6 ( 3 )^{2} - 9 ( 3 ) = - 27 + 54 - 27 = 0$
 > 
-> > *So the turning points are at  *`open parentheses 1 comma space minus 4 close parentheses`* and *`open parentheses 3 comma space 0 close parentheses`
+> > *So the turning points are at  *$( 1 , - 4 )$* and *$( 3 , 0 )$
 > 
-> > *Find the **x-**intercepts by solving *`straight f open parentheses x close parentheses equals 0`
+> > *Find the **x-**intercepts by solving *$\mathrm{f} ( x ) = 0$
 > 
-> `table row cell negative x cubed plus 6 x squared minus 9 x end cell equals 0 row cell negative x cubed open parentheses x squared minus 6 x plus 9 close parentheses end cell equals 0 row cell negative x cubed open parentheses x minus 3 close parentheses squared end cell equals 0 end table`
+> $\begin{gathered} - x^{3} + 6 x^{2} - 9 x & = 0 \\ - x^{3} ( x^{2} - 6 x + 9 ) & = 0 \\ - x^{3} ( x - 3 )^{2} & = 0 \end{gathered}$
 > 
 > $x=0,x=3$
 > 
-> > *So the **x-**intercepts are *`open parentheses 0 comma space 0 close parentheses`* and *`open parentheses 3 comma space 0 close parentheses`
+> > *So the **x-**intercepts are *$( 0 , 0 )$* and *$( 3 , 0 )$
 > *Note that the first is also the **y-**intercept. and the second is also a turning point*
 > 
 > > *Finally consider the shape of the curve*

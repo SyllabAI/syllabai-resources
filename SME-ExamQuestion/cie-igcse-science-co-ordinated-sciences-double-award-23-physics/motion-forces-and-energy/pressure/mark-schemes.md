@@ -71,7 +71,7 @@
 - The area of a circle is found using $A=πr^{2}$
 - Pressure is found using $P=\frac{F}{A}$
 - Therefore the difference in pressure will be:
-- `straight capital delta P space equals space fraction numerator 12 over denominator pi open parentheses 0.05 squared close parentheses end fraction space minus fraction numerator 12 over denominator pi open parentheses 0.25 squared close parentheses end fraction`
+- `capital delta P = (12)/(pi ( 0.05 ^2 )) - (12)/(pi ( 0.25 ^2 ))`
 - $ΔP=1528-61=1467$
 - This rounds most closely to 1500 Pa
 

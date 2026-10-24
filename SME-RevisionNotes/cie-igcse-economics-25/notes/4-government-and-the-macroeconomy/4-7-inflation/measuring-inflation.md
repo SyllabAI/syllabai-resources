@@ -105,8 +105,8 @@ $\mathrm{CPI}=\frac{\mathrm{Cost} \mathrm{of} \mathrm{basket} \mathrm{in} \mathr
 > 
 > **Step 3: Calculate the percentage difference between the CPI for 2021 and 2020**
 > 
-> `Inflation space rate space equals space fraction numerator New space CPI space minus space Old space CPI over denominator Old space CPI end fraction space straight x space 100
+> $\text{Inflation} \text{rate} = \frac{New \text{CPI} - \text{Old} CPI}{Old CPI} \mathrm{x} 100
 > 
-> space space space space space space space space space space space space space space space space space space space space space space space space space space equals space fraction numerator 136.01 space minus space 108.75 over denominator 108.75 end fraction space straight x space 100
+> = \frac{136.01 - 108.75}{108.75} \mathrm{x} 100
 > 
-> space space space space space space space space space space space space space space space space space space space space space space space space space space equals space 25.07 percent sign`
+> = 25.07 \%$

@@ -192,12 +192,12 @@ If you **divide **two powers with the **same base number**, you **subtract **one
 
 **FRONT**
 
-What is the **index law** for `open parentheses a to the power of m close parentheses to the power of n`?
+What is the **index law** for $( a^{m} )^{n}$?
 
 
 **BACK**
 
-`open parentheses a to the power of m close parentheses to the power of n equals a to the power of m cross times n end exponent`
+$( a^{m )^{n} = a^{m} \times n}$
 
 If you **raise a power to another power**, you **multiply** the indices.
 
@@ -209,14 +209,14 @@ If you **raise a power to another power**, you **multiply** the indices.
 
 **True or False?**
 
-`a to the power of m over n end exponent equals open parentheses m-th root of a to the power of n end root close parentheses`
+$a ^{\frac{m}{n}} = ( \sqrt[m]{a^{n}} )$
 
 
 **BACK**
 
 **False.**
 
-`a to the power of m over n end exponent equals open parentheses n-th root of a close parentheses to the power of m`
+$a^{ \frac{m}{n} } = ( \sqrt[n]{a} )^{m}$
 
 The **denominator **of an index is the **root **and the **numerator **of an index is the **power**.
 
@@ -292,7 +292,7 @@ E.g. 0.083 would be written as 8.3 x 10<sup>-2</sup>.
 
 How do you **multiply **two numbers that are written in** standard form** and give the answer in standard form **using index laws**?
 
-E.g. `open parentheses 2 cross times 10 cubed close parentheses cross times open parentheses 6 cross times 10 to the power of 5 close parentheses`
+E.g. $( 2 \times 10^{3} ) \times ( 6 \times 10^{5} )$
 
 
 **BACK**
@@ -313,7 +313,7 @@ Multiply together the **values **of $a$ from both numbers and write this in stan
 
 How do you **divide **two numbers that are written in **standard form** and give the answer in standard form **using index laws**?
 
-E.g. `open parentheses 2 cross times 10 to the power of 9 close parentheses divided by open parentheses 8 cross times 10 squared close parentheses`
+E.g. $( 2 \times 10^{9} ) \div ( 8 \times 10^{2} )$
 
 
 **BACK**

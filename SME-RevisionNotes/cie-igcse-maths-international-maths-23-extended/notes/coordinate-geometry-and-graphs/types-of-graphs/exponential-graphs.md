@@ -33,7 +33,7 @@ guided_study: true
 
   - have a **horizontal *****asymptote*** at $y=0$
   - **do not **have a **vertical asymptote**
-  - have a $y$-intercept of `open parentheses 0 comma space 1 close parentheses`
+  - have a $y$-intercept of $( 0 , 1 )$
 
 ![Exponential Growth: y = 2^x](../../../assets/46460421e11b-58793-exponential-growth.png)
 
@@ -41,7 +41,7 @@ guided_study: true
 
 - **Exponential decay** can also be identified by a **negative power **using **index laws**
 
-  - `open parentheses 1 half close parentheses to the power of x equals open parentheses 2 to the power of negative 1 end exponent close parentheses to the power of x equals 2 to the power of negative x end exponent`
+  - $( 1 \frac{1}{2} )^{x = ( 2^{-1} } )^{x = 2^{-x} }$
   - This  has the form $y=a^{-x}$ where $a>1$
 
 ### How do I compare exponential graphs?
@@ -90,6 +90,6 @@ guided_study: true
 > 
 > > $y=4^{x}$* will be the "higher" graph for *$x>0$* and "lower" graph for *$x<0$
 > 
-> > *Both graphs go through *`open parentheses 0 comma space 1 close parentheses`* and have an asymptote along the *$x$*-axis*
+> > *Both graphs go through *$( 0 , 1 )$* and have an asymptote along the *$x$*-axis*
 > 
 > ![A sketch of y = 3 to the power x and y = 4 to the power x on the same axes](assets/766b19f9d6e1-jayo5r1a-picture1.png)

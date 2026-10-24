@@ -22,7 +22,7 @@ guided_study: false
 - A **column vector** can be used to **describe** how to get **from one point to another point**
 
   - This is also called a **translation vector**
-  - `open parentheses table row 6 row 3 end table close parentheses` means **6 units to the right** and **3 units up**
+  - $( \begin{gathered} 6 \\ 3 \end{gathered} )$ means **6 units to the right** and **3 units up**
 
 ![Column vector](../../../assets/e9573622b257-6768-introduction-to-column-vectors.png)
 
@@ -34,13 +34,13 @@ guided_study: false
   - Add the top numbers together
   - Add the bottom numbers together
   
-    - `open parentheses table row 5 row 2 end table close parentheses plus open parentheses table row 3 row cell negative 1 end cell end table close parentheses equals open parentheses table row cell 5 plus 3 end cell row cell 2 plus open parentheses negative 1 close parentheses end cell end table close parentheses equals open parentheses table row 8 row 1 end table close parentheses`
+    - $( \begin{gathered} 5 \\ 2 \end{gathered} ) + ( \begin{gathered} 3 \\ - 1 \end{gathered} ) = ( \begin{gathered} 5 + 3 \\ 2 + ( - 1 ) \end{gathered} ) = ( \begin{gathered} 8 \\ 1 \end{gathered} )$
 - To **subtract **column vectors
 
   - Subtract** **the second top number from the first
   - Subtract the second bottom number from the first
   
-    - `open parentheses table row 5 row 2 end table close parentheses minus open parentheses table row 3 row cell negative 1 end cell end table close parentheses equals open parentheses table row cell 5 minus 3 end cell row cell 2 minus open parentheses negative 1 close parentheses end cell end table close parentheses equals open parentheses table row 2 row 3 end table close parentheses`
+    - $( \begin{gathered} 5 \\ 2 \end{gathered} ) - ( \begin{gathered} 3 \\ - 1 \end{gathered} ) = ( \begin{gathered} 5 - 3 \\ 2 - ( - 1 ) \end{gathered} ) = ( \begin{gathered} 2 \\ 3 \end{gathered} )$
 
 ### How do I multiply a vector by a scalar?
 
@@ -52,42 +52,42 @@ guided_study: false
   - Multiply the top number by the scalar
   - Multiply the bottom number by the scalar
   
-    - `3 open parentheses table row 2 row cell negative 1 end cell end table close parentheses equals open parentheses table row cell 3 cross times 2 end cell row cell 3 cross times open parentheses negative 1 close parentheses end cell end table close parentheses equals open parentheses table row 6 row cell negative 3 end cell end table close parentheses`
+    - $3 ( \begin{gathered} 2 \\ - 1 \end{gathered} ) = ( \begin{gathered} 3 \times 2 \\ 3 \times ( - 1 ) \end{gathered} ) = ( \begin{gathered} 6 \\ - 3 \end{gathered} )$
 
 ### How do I write an expression as a single column vector?
 
 - You need to follow the **order of operations**
 
-  - `2 open parentheses table row 5 row 2 end table close parentheses plus 5 open parentheses table row 3 row cell negative 1 end cell end table close parentheses`
+  - $2 ( \begin{gathered} 5 \\ 2 \end{gathered} ) + 5 ( \begin{gathered} 3 \\ - 1 \end{gathered} )$
 - **STEP 1**
 **Multiply** each vector by the scalar in front of it
 
-  - `open parentheses table row cell 2 cross times 5 end cell row cell 2 cross times 2 end cell end table close parentheses plus open parentheses table row cell 5 cross times 3 end cell row cell 5 cross times open parentheses negative 1 close parentheses end cell end table close parentheses equals open parentheses table row 10 row 4 end table close parentheses plus open parentheses table row 15 row cell negative 5 end cell end table close parentheses`
+  - $( \begin{gathered} 2 \times 5 \\ 2 \times 2 \end{gathered} ) + ( \begin{gathered} 5 \times 3 \\ 5 \times ( - 1 ) \end{gathered} ) = ( \begin{gathered} 10 \\ 4 \end{gathered} ) + ( \begin{gathered} 15 \\ - 5 \end{gathered} )$
 - **STEP 2**
 **Add or subtract** the new column vectors
 
-  - `open parentheses table row cell 10 plus 15 end cell row cell 4 plus open parentheses negative 5 close parentheses end cell end table close parentheses equals open parentheses table row 25 row cell negative 1 end cell end table close parentheses`
+  - $( \begin{gathered} 10 + 15 \\ 4 + ( - 5 ) \end{gathered} ) = ( \begin{gathered} 25 \\ - 1 \end{gathered} )$
 
 > **Worked Example**
-> `bold a equals open parentheses table row p row 3 end table close parentheses` and `bold b equals open parentheses table row cell negative 2 end cell row 1 end table close parentheses`.
+> $a = ( \begin{gathered} p \\ 3 \end{gathered} )$ and $b = ( \begin{gathered} - 2 \\ 1 \end{gathered} )$.
 > 
-> Given that `2 bold a plus 3 bold b equals open parentheses table row 4 row q end table close parentheses`, find the value of $p$ and the value of $q$.
+> Given that $2 a + 3 b = ( \begin{gathered} 4 \\ q \end{gathered} )$, find the value of $p$ and the value of $q$.
 > 
 > **Answer:**
 > 
 > > *Write the left-side side as one vector*
 > *Multiply each vector by the scalar in front of it*
 > 
-> `open parentheses table row cell 2 p end cell row 6 end table close parentheses plus open parentheses table row cell negative 6 end cell row 3 end table close parentheses equals open parentheses table row 4 row q end table close parentheses`
+> $( \begin{gathered} 2 p \\ 6 \end{gathered} ) + ( \begin{gathered} - 6 \\ 3 \end{gathered} ) = ( \begin{gathered} 4 \\ q \end{gathered} )$
 > 
 > > *Add the vectors together*
 > 
-> `open parentheses table row cell 2 p minus 6 end cell row 9 end table close parentheses equals open parentheses table row 4 row q end table close parentheses`
+> $( \begin{gathered} 2 p - 6 \\ 9 \end{gathered} ) = ( \begin{gathered} 4 \\ q \end{gathered} )$
 > 
 > > *The top components are equal*
 > *Form and solve an equation*
 > 
-> `table row cell 2 p minus 6 end cell equals 4 row cell 2 p end cell equals 10 row p equals 5 end table`
+> $\begin{gathered} 2 p - 6 & = 4 \\ 2 p & = 10 \\ p = 5 \end{gathered}$
 > 
 > > *The bottom components are equal*
 > 
@@ -102,5 +102,5 @@ guided_study: false
   - I.e. a matrix with 2 rows and 1 column
 - As such, it may be **multiplied** by a $2\times2$ matrix
 
-  - `open parentheses table row a b row c d end table close parentheses open parentheses table row x row y end table close parentheses equals open parentheses table row cell a x plus b y end cell row cell c x plus d y end cell end table close parentheses`
+  - $( \begin{gathered} a b \\ c d \end{gathered} ) ( \begin{gathered} x \\ y \end{gathered} ) = ( \begin{gathered} a x + b y \\ c x + d y \end{gathered} )$
 - See the revision notes on [multiplying matrices](https://www.savemyexams.com/igcse/maths/edexcel/b/16/revision-notes/matrices/properties-of-matrices/multiplying-matrices/) and [transformations with matrices](https://www.savemyexams.com/igcse/maths/edexcel/b/16/revision-notes/matrices/transformations-using-matrices/transforming-a-point/) for more details on this

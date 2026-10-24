@@ -22,7 +22,7 @@ guided_study: true
 - The magnitude of a vector is simply its size
 - It also tells us the distance between two points
 - You can find the magnitude of a vector using *Pythagoras’ theorem*
-- The magnitude of a vector $a$** **is written `vertical line bold a vertical line` when typed (or `vertical line bottom enclose straight a vertical line` when handwritten)
+- The magnitude of a vector $a$** **is written $\vert a \vert$ when typed (or `| bottom a |` when handwritten)
 
 ![Magnitude Direction Diagram 1a, AS & A Level Maths revision notes](../../../assets/76d004669c5f-11-1-2-magnitude-direction-diagram-1a.png)
 
@@ -35,7 +35,7 @@ guided_study: true
 
 - Vectors have opposite direction if they are the same size but opposite signs
 
-  - e.g. if $a$ or `stack B C with rightwards arrow on top equals stretchy left parenthesis table row cell negative 3 end cell row 8 end table stretchy right parenthesis`  then $-a$ or `stack C B with rightwards arrow on top equals stretchy left parenthesis table row 3 row cell negative 8 end cell end table stretchy right parenthesis`
+  - e.g. if $a$ or $\vec{BC} = ( \begin{gathered} - 3 \\ 8 \end{gathered} )$  then $-a$ or $\vec{CB} = ( \begin{gathered} 3 \\ - 8 \end{gathered} )$
 
 - The direction of a vector is what makes it more than just a *scalar*
 

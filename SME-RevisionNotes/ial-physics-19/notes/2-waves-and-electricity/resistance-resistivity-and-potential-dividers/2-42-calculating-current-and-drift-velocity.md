@@ -93,7 +93,7 @@ $I=nqvA$
 > - Number density of conduction electrons,* n *= 9.2 × 10<sup>28</sup> m<sup>−3 </sup>
 > - Charge on an electron, *q *= 1.60 × 10<sup>−19</sup> C (From the data sheet)
 > 
-> `v space equals space fraction numerator 3.5 over denominator open parentheses 9.2 space cross times space 10 to the power of 28 close parentheses space cross times space open parentheses 1.60 space cross times space 10 to the power of negative 19 end exponent close parentheses space cross times space open parentheses 1.5 space cross times space 10 to the power of negative 6 end exponent close parentheses end fraction space equals space 0.16 space cross times space 10 to the power of negative 3 end exponent` m s<sup>−1</sup>
+> $v = \frac{3.5}{( 9.2 \times 10^{28 ) \times ( 1.60 \times 10^{-19} } ) \times ( 1.5 \times 10^{- 6} )} = 0.16 \times 10^{- 3}$ m s<sup>−1</sup>
 > 
 > $v=0.16$ mm s<sup>−1</sup> (2 s.f.)
 

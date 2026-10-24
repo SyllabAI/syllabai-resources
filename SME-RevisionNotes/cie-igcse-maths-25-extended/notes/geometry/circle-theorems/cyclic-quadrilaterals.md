@@ -62,6 +62,6 @@ guided_study: true
 > 
 > > *Then use that** opposite angles in a cyclic quadrilateral add up to 180°*
 > 
-> `table row cell 2 x plus 4 plus 20 plus 18 end cell equals 180 row cell 2 x end cell equals 138 end table`
+> $\begin{gathered} 2 x + 4 + 20 + 18 & = 180 \\ 2 x & = 138 \end{gathered}$
 > 
 > $x=69^{\circ}$

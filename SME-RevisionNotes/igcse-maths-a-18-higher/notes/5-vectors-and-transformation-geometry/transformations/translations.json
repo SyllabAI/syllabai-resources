@@ -127,7 +127,7 @@
   },
   {
    "type": "bullets",
-   "md": "- The movement of a translation is described by a **vector**\n- You need to know how to write a translation using a vector (rather than words)\n- Vectors are written as **column vectors** in the form  `stretchy left parenthesis table row bold italic x row bold italic y end table stretchy right parenthesis`  where:\n\n  - $x$ is the distance moved **horizontally**\n  \n    - **Negative** means move to the **left**\n    - **Positive** means move to the **right**\n  - $y$ is the distance moved **vertically**\n  \n    - **Negative** means move **down**\n    - **Positive** means move **up**"
+   "md": "- The movement of a translation is described by a **vector**\n- You need to know how to write a translation using a vector (rather than words)\n- Vectors are written as **column vectors** in the form  $( \\begin{gathered} x \\\\ y \\end{gathered} )$  where:\n\n  - $x$ is the distance moved **horizontally**\n  \n    - **Negative** means move to the **left**\n    - **Positive** means move to the **right**\n  - $y$ is the distance moved **vertically**\n  \n    - **Negative** means move **down**\n    - **Positive** means move **up**"
   },
   {
    "type": "heading",
@@ -136,13 +136,13 @@
   },
   {
    "type": "bullets",
-   "md": "- **STEP 1** **Interpret** the translation vector\n\n  - `open parentheses table row 3 row cell negative 1 end cell end table close parentheses`  means 3 to the **right** and 1 **down**\n- **STEP 2**\n**Move each vertex** on the **original object **according to the vector\n- **STEP 3**\n**Connect** the **new vertices** and label the **translated image**\n\n  - It should look **identical** to the **original object** just in a **different position**\n- In some cases the **image** can overlap the **object**"
+   "md": "- **STEP 1** **Interpret** the translation vector\n\n  - $( \\begin{gathered} 3 \\\\ - 1 \\end{gathered} )$  means 3 to the **right** and 1 **down**\n- **STEP 2**\n**Move each vertex** on the **original object **according to the vector\n- **STEP 3**\n**Connect** the **new vertices** and label the **translated image**\n\n  - It should look **identical** to the **original object** just in a **different position**\n- In some cases the **image** can overlap the **object**"
   },
   {
    "type": "callout",
    "variant": "worked-example",
    "label": "Worked Example",
-   "md": "On the grid below translate shape P using the vector `open parentheses table row cell negative 4 end cell row 5 end table close parentheses`.\n\nLabel your translated shape P'.\n\n![Grid showing an object P](assets/8e9e0634d1f5-57919-translations-1.png)\n\n**Answer:**\n\n> *The vector means \"4 to the left\" and \"5 up\"*\n*You don't have to draw in any arrows but it is a good idea to mark your paper after counting across and up a couple of times to check that you are in the correct place*\n\n![A grid showing the translation of a vertex on an object P](assets/b3a2ab9508e9-48034-translations-2.png)\n\n> *Translating one vertex and then following around the shape one vertex at a time makes it easier to get the shape in exactly the right position!*\n\n![A grid showing an object P and its translated image P'](assets/be1ac633ba8c-22215-translations-3.png)"
+   "md": "On the grid below translate shape P using the vector $( \\begin{gathered} - 4 \\\\ 5 \\end{gathered} )$.\n\nLabel your translated shape P'.\n\n![Grid showing an object P](assets/8e9e0634d1f5-57919-translations-1.png)\n\n**Answer:**\n\n> *The vector means \"4 to the left\" and \"5 up\"*\n*You don't have to draw in any arrows but it is a good idea to mark your paper after counting across and up a couple of times to check that you are in the correct place*\n\n![A grid showing the translation of a vertex on an object P](assets/b3a2ab9508e9-48034-translations-2.png)\n\n> *Translating one vertex and then following around the shape one vertex at a time makes it easier to get the shape in exactly the right position!*\n\n![A grid showing an object P and its translated image P'](assets/be1ac633ba8c-22215-translations-3.png)"
   },
   {
    "type": "heading",
@@ -151,7 +151,7 @@
   },
   {
    "type": "bullets",
-   "md": "- To describe a **translation**, you must:\n\n  - State that the transformation is a **translation**\n  - Give the** column vector **that describes the movement\n- To find the **vector**:\n\n  - **Pick** a **point** on the **original **shape\n  - **Identify** the **corresponding point** on the **image**\n  - Count how far **left or right** ($x$) you need to go **from the object** to get **to the image**\n  \n    - If you go to the **left **then $x$ will be a **negative number**\n  - Count how far **up or down** ($y$) you need to go **from the object** to get **to the image**\n  \n    - If you go **down** then $y$ will be a **negative number**\n  - Write these numbers as a vector\n  \n    - `open parentheses table row x row y end table close parentheses`"
+   "md": "- To describe a **translation**, you must:\n\n  - State that the transformation is a **translation**\n  - Give the** column vector **that describes the movement\n- To find the **vector**:\n\n  - **Pick** a **point** on the **original **shape\n  - **Identify** the **corresponding point** on the **image**\n  - Count how far **left or right** ($x$) you need to go **from the object** to get **to the image**\n  \n    - If you go to the **left **then $x$ will be a **negative number**\n  - Count how far **up or down** ($y$) you need to go **from the object** to get **to the image**\n  \n    - If you go **down** then $y$ will be a **negative number**\n  - Write these numbers as a vector\n  \n    - $( \\begin{gathered} x \\\\ y \\end{gathered} )$"
   },
   {
    "type": "callout",
@@ -172,13 +172,13 @@
   },
   {
    "type": "bullets",
-   "md": "- To **return a shape to its original position** after a translation\n\n  - the **horizontal **and **vertical** translations must **both **be **reversed**\n- The** column vector** to **reverse a translation** is simply the same as the original vector, but with the **sign of both values changed**\n\n  - E.g. For a translation described by the column vector `open parentheses table row cell negative 2 end cell row 7 end table close parentheses`\n  - The column vector for the reverse translation is `open parentheses table row 2 row cell negative 7 end cell end table close parentheses`"
+   "md": "- To **return a shape to its original position** after a translation\n\n  - the **horizontal **and **vertical** translations must **both **be **reversed**\n- The** column vector** to **reverse a translation** is simply the same as the original vector, but with the **sign of both values changed**\n\n  - E.g. For a translation described by the column vector $( \\begin{gathered} - 2 \\\\ 7 \\end{gathered} )$\n  - The column vector for the reverse translation is $( \\begin{gathered} 2 \\\\ - 7 \\end{gathered} )$"
   },
   {
    "type": "callout",
    "variant": "worked-example",
    "label": "Worked Example",
-   "md": "A shape has been translated from A to B using the translation vector `open parentheses table row 6 row cell negative 8 end cell end table close parentheses`.\n\n**Answer:**\n\n> *Write down the vector used to reverse the translation from B to A.*\n\n> *To reverse the translation the shape must be moved in the opposite direction by the same amount*\n\n> *Reverse the signs in the translation vector*\n\n`Error converting from MathML to accessible text.`"
+   "md": "A shape has been translated from A to B using the translation vector $( \\begin{gathered} 6 \\\\ - 8 \\end{gathered} )$.\n\n**Answer:**\n\n> *Write down the vector used to reverse the translation from B to A.*\n\n> *To reverse the translation the shape must be moved in the opposite direction by the same amount*\n\n> *Reverse the signs in the translation vector*\n\n`Error converting from MathML to accessible text.`"
   }
  ]
 }

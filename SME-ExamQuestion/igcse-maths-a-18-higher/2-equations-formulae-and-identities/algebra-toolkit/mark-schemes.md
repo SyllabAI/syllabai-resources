@@ -18,7 +18,7 @@ $\frac{30\times40}{150}$
 ### 3((a)) — 2 marks
 *Substitute **g** = -5 and **h** = 2 into the formula (remember to put negative numbers in brackets)*
 
-`f equals 3 cross times open parentheses negative 5 close parentheses plus 7 cross times 2`
+$f = 3 \times ( - 5 ) + 7 \times 2$
 
 **[1]**
 
@@ -157,7 +157,7 @@ $-a$** correct [1]**
 * *$3a$* and *$-a$* are like terms.*
 * *$-5b$* and *$+2b$* are like terms.*
 
-`table row cell therefore 3 a minus 5 b minus a plus 2 b end cell equals cell 3 a minus a minus 5 b plus 2 b end cell row blank equals cell 2 a minus 3 b end cell end table`
+$\begin{gathered} \therefore 3 a - 5 b - a + 2 b & = 3 a - a - 5 b + 2 b \\ = 2 a - 3 b \end{gathered}$
 
 $2a-3b$
 
@@ -200,7 +200,7 @@ $7\times12+3\times(-6)$
 ### 4((a)) — 1 marks
 > *Solve *$10w=70$* by dividing both sides by 10*
 
-`table row cell 10 w end cell equals 70 row w equals 7 end table`
+$\begin{gathered} 10 w & = 70 \\ w = 7 \end{gathered}$
 
 $w=7$** ****[1]**
 
@@ -262,13 +262,13 @@ $c=12.5$* ***[1]**
 ### 12((a)) — 3 marks
 *Find the temperature in °C (by substituting **F** = 77 into the formula)* * *
 
-`C equals fraction numerator 5 open parentheses 77 minus 32 close parentheses over denominator 9 end fraction`
+$C = \frac{5 ( 77 - 32 )}{9}$
 
 **[1]*** *
 
 *Find the value of **C* * *
 
-`table attributes columnalign right center left columnspacing 0px end attributes row C equals 25 end table`
+$\begin{array}{rcl} C = 25 \end{array}$
 
 **[1]**
 
@@ -285,7 +285,7 @@ $25>20$ * *
 ### 3() — 2 marks
 *Substitute **x** = 0.7 into the formula* * *
 
-`fraction numerator open parentheses 0.7 plus 1 close parentheses squared over denominator 2 cross times 0.7 end fraction`
+$\frac{( 0.7 + 1 )^{2}}{2 \times 0.7}$
 
 **[1]**
 
@@ -388,11 +388,11 @@ $t=\pm3$* ***[1]**
 
 > *If using your calculator it is good practice to put negative numbers in brackets.*
 
-`table row w equals cell 5 open parentheses negative 2 close parentheses squared minus open parentheses negative 2 close parentheses cubed end cell end table`
+$\begin{gathered} w = 5 ( - 2 )^{2} - ( - 2 )^{3} \end{gathered}$
 
 **[1]**
 
-`table row w equals cell 5 cross times 4 minus open parentheses negative 2 close parentheses cubed end cell row blank equals cell 20 minus open parentheses negative 8 close parentheses end cell row blank equals cell 20 plus 8 end cell row blank equals 28 end table`
+$\begin{gathered} w = 5 \times 4 - ( - 2 )^{3} \\ = 20 - ( - 8 ) \\ = 20 + 8 \\ = 28 \end{gathered}$
 
 $w=28$ **[1]**
 
@@ -403,11 +403,11 @@ $w=28$ **[1]**
 
 > *If using your calculator it is good practice to put negative numbers in brackets.*
 
-`table attributes columnalign right center left columnspacing 0px end attributes row G equals cell open parentheses negative 5 close parentheses squared minus 4 open parentheses negative 5 close parentheses end cell end table`
+$\begin{array}{rcl} G = ( - 5 )^{2} - 4 ( - 5 ) \end{array}$
 
 **[1]**
 
-`table row G equals cell 25 minus open parentheses negative 20 close parentheses end cell row blank equals cell 25 plus 20 end cell end table`
+$\begin{gathered} G = 25 - ( - 20 ) \\ = 25 + 20 \end{gathered}$
 
 $G=45$ **[1]**
 
@@ -416,11 +416,11 @@ $G=45$ **[1]**
 ### 4() — 2 marks
 > *Substitute the given values into the given formula.*
 
-`table row s equals cell 12 cross times 4 plus 1 half cross times 10 cross times 4 squared end cell end table`
+$\begin{gathered} s = 12 \times 4 + 1 \frac{1}{2} \times 10 \times 4^{2} \end{gathered}$
 
 **[1]**
 
-`table row s equals cell 48 plus 5 cross times 16 end cell row blank equals cell 48 plus 80 end cell row blank equals 128 end table`
+$\begin{gathered} s = 48 + 5 \times 16 \\ = 48 + 80 \\ = 128 \end{gathered}$
 
 $s=128$ **[1]**
 
@@ -448,7 +448,7 @@ $-3p-4q$ **[1]**
 ### 5() — 2 marks
 > *Substitute the values in to the formula, use brackets around negative numbers.*
 
-`y equals open parentheses negative 3 close parentheses cross times open parentheses negative 2 close parentheses plus open parentheses negative 8 close parentheses`
+$y = ( - 3 ) \times ( - 2 ) + ( - 8 )$
 
 **[1]**
 
@@ -489,7 +489,7 @@ $s=75.6$ **[1]**
 ### 4((b)) — 1 marks
 > *Solve *$5x=15$* by dividing both sides by 5*
 
-`table row cell 5 x end cell equals 15 row x equals 3 end table`
+$\begin{gathered} 5 x & = 15 \\ x = 3 \end{gathered}$
 
 > *Substitute *$x=3$* into *$12x$* (multiply 3 by 12)*
 
@@ -502,7 +502,7 @@ $12x=36$** [1****]**
 ### 1() — 2 marks
 Collect like-terms
 
-`table row cell 7 b space plus space 6 b space end cell equals cell 13 b space end cell row cell negative 3 a space minus space 9 a space end cell equals cell space minus 12 a end cell end table`
+$\begin{gathered} 7 b + 6 b & = 13 b \\ - 3 a - 9 a & = - 12 a \end{gathered}$
 
 Add the terms together
 
@@ -520,7 +520,7 @@ $13b-12a$
 ### 17((a)) — 2 marks
 *Substitute **p** = -10, **q **= 3 and **x** = -5 into the formula, putting brackets around negative numbers* * *
 
-`y equals open parentheses negative 10 close parentheses minus 2 cross times 3 cross times open parentheses negative 5 close parentheses squared`
+$y = ( - 10 ) - 2 \times 3 \times ( - 5 )^{2}$
 
 **[1]**
 
@@ -531,13 +531,13 @@ $y=-160$* ***[1]**
 ### 20() — 3 marks
 > *Substitute *$c=8$* into the second equation and solve to find the value of *$b$*.*
 
-`table row cell b over 8 end cell equals 2 row b equals cell 2 cross times 8 end cell row b equals 16 end table`
+$\begin{gathered} \frac{b}{8} & = 2 \\ b = 2 \times 8 \\ b = 16 \end{gathered}$
 
 **[1]**
 
 > *Substitute *$b=16$* and *$c=8$* into the first equation and solve to find the value of *$a$*.*
 
-`table row cell a over 16 end cell equals cell 3 cross times 8 end cell row cell a over 16 end cell equals 24 row a equals cell 24 cross times 16 end cell end table`
+$\begin{gathered} \frac{a}{16} & = 3 \times 8 \\ \frac{a}{16} & = 24 \\ a = 24 \times 16 \end{gathered}$
 
 **[1]**
 
@@ -554,11 +554,11 @@ $\frac{4a+2b}{10a+5b}$
 
 > *Factorise both the numerator and the denominator.*
 
-`fraction numerator 2 open parentheses 2 a plus b close parentheses over denominator 5 open parentheses 2 a plus b close parentheses end fraction`
+$\frac{2 ( 2 a + b )}{5 ( 2 a + b )}$
 
 **Either the numerator OR the denominator correctly factorised**** [1]**
 
-> *Cancel out the common factor *`open parentheses 2 a plus b close parentheses`*.*
+> *Cancel out the common factor *$( 2 a + b )$*.*
 
 $\frac{2}{5}$ **[1]**
 
@@ -583,15 +583,15 @@ $41x+40+3b\equivax+13$
 
 > *Equate the two expressions and solve to find the value of *$b$*.*
 
-`table row cell 40 plus 3 b end cell equals 13 end table`
+$\begin{gathered} 40 + 3 b & = 13 \end{gathered}$
 
 **[1]**
 
-`table row cell 3 b end cell equals cell negative 27 end cell row b equals cell negative 9 end cell end table`
+$\begin{gathered} 3 b & = - 27 \\ b = - 9 \end{gathered}$
 
-`table row bold italic a bold equals bold 41 end table` **[1]**
+$\begin{gathered} a = 41 \end{gathered}$ **[1]**
 
-`table row bold italic b bold equals cell bold minus bold 9 end cell end table`** ****[1]**
+$\begin{gathered} b = - 9 \end{gathered}$** ****[1]**
 
 ## Q33 — hard — 1 marks · exam-questions
 
@@ -615,7 +615,7 @@ $4(x+3)$ **[1]**
 ### 10((a)) — 2 marks
 > *Substitute **x** = -1 into the formula for **y**, use brackets around the negative numbers.*
 
-`y equals open parentheses negative 1 close parentheses to the power of 4 minus 4 open parentheses negative 1 close parentheses cubed`
+$y = ( - 1 )^{4} - 4 ( - 1 )^{3}$
 
 **[1]**
 
@@ -626,7 +626,7 @@ $y=5$ **[1]**
 ### 7((a)) — 4 marks
 > *Substitute the given values into the given formula*
 
-`s equals open parentheses 104.3 close parentheses open parentheses 26.5 close parentheses plus 1 half open parentheses negative 2.2 close parentheses open parentheses 26.5 close parentheses squared`
+$s = ( 104.3 ) ( 26.5 ) + 1 \frac{1}{2} ( - 2.2 ) ( 26.5 )^{2}$
 
 **[1]**
 
@@ -647,13 +647,13 @@ $s=1.991\times10^{3}$** [1]**
 ### 14((a)) — 2 marks
 > *If *$x=7$* is a solution, then the equation will be true (both sides equal) when *$x=7$* is substituted in*
 
-`a open parentheses 7 close parentheses squared plus a equals 150`
+$a ( 7 )^{2} + a = 150$
 
 **[1]**
 
 > *Simplify*
 
-`table row cell 49 a plus a end cell equals 150 row cell 50 a end cell equals 150 end table`
+$\begin{gathered} 49 a + a & = 150 \\ 50 a & = 150 \end{gathered}$
 
 > *Divide both sides by 50*
 

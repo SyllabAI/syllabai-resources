@@ -217,7 +217,7 @@ Find the remaining number of orders
 
 Split 145 into the ratio 22:7
 
-`table row cell 145 space divided by open parentheses 22 plus 7 close parentheses space end cell equals cell space 5 end cell row cell 5 space cross times 7 space end cell equals cell space 35 space end cell end table`
+$\begin{gathered} 145 \div ( 22 + 7 ) & = 5 \\ 5 \times 7 & = 35 \end{gathered}$
 
 **Final answer:** **35 fruit plates**
 

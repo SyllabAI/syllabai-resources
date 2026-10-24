@@ -129,7 +129,7 @@ Which of the following is not a SI base unit?
 
 The speed *v* of a liquid leaving a tube depends on the change in pressure Δ*P* and the density *ρ* of the liquid. The speed is given by the equation
 
-`v equals k open parentheses fraction numerator increment P over denominator rho end fraction close parentheses to the power of n`
+$v = k ( \frac{\Delta P}{\\rho } )^{n}$
 
 where *k* is a constant that has no units.
 

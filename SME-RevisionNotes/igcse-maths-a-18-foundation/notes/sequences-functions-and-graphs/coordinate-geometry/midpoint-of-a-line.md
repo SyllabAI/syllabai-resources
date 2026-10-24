@@ -21,9 +21,9 @@ guided_study: true
 
 - The **midpoint **of a line will be the **same distance from both endpoints**
 - You can think of a midpoint as being the average (**mean**) of two coordinates
-- The **midpoint **of `open parentheses x subscript 1 comma space y subscript 1 close parentheses` and `open parentheses x subscript 2 comma space y subscript 2 close parentheses` is
+- The **midpoint **of $( x_{1} , y_{1} )$ and $( x_{2} , y_{2} )$ is
 
-`open parentheses fraction numerator x subscript 1 plus x subscript 2 over denominator 2 end fraction space comma space fraction numerator y subscript 1 plus y subscript 2 over denominator 2 end fraction close parentheses`
+$( \frac{x_{1} + x_{2} }{2} , \frac{y_{1} + y_{2} }{2} )$
 
 > **Worked Example**
 > The coordinates of *A *are (−4, 3) and the coordinates of *B *are (8, −12).
@@ -32,11 +32,11 @@ guided_study: true
 > 
 > **Answer:**
 > 
-> > *The midpoint can be found using *`open parentheses fraction numerator x subscript 1 plus x subscript 2 over denominator 2 end fraction space comma space fraction numerator y subscript 1 plus y subscript 2 over denominator 2 end fraction close parentheses`
+> > *The midpoint can be found using *$( \frac{x_{1} + x_{2} }{2} , \frac{y_{1} + y_{2} }{2} )$
 > 
 > > *Substitute in the values of **x** and **y ** from each point into their correct positions*
 > 
-> `open parentheses fraction numerator negative 4 plus 8 over denominator 2 end fraction space comma space fraction numerator 3 plus negative 12 over denominator 2 end fraction close parentheses equals open parentheses 4 over 2 comma space fraction numerator negative 9 over denominator 2 end fraction close parentheses`
+> $( \frac{- 4 + 8}{2} , \frac{3 + - 12}{2} ) = ( \frac{4}{2} , \frac{- 9}{2} )$
 > 
 > > *Simplify*
 > 

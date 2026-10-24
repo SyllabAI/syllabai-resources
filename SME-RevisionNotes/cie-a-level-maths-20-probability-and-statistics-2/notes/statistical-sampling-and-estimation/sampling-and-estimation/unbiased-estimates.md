@@ -41,7 +41,7 @@ guided_study: true
 
   - $s^{2}=\frac{Σ(x-\overline{x})^{2}}{n-1}$
   - This can be written in different ways
-  - `begin mathsize 16px style s squared equals fraction numerator capital sigma open parentheses x minus x with bar on top close parentheses squared over denominator n minus 1 end fraction equals fraction numerator 1 over denominator n minus 1 end fraction open parentheses capital sigma x squared minus open parentheses capital sigma x close parentheses squared over n close parentheses equals fraction numerator n over denominator n minus 1 end fraction open parentheses fraction numerator capital sigma x squared over denominator n end fraction minus x with bar on top squared close parentheses end style`
+  - $s^{2} = \frac{\\Sigma ( x - \bar{x} )^{2}}{n - 1} = \frac{1}{n - 1} ( \\Sigma x^{2} - \frac{( \\Sigma x )^{2}}{n} ) = \frac{n}{n - 1} ( \frac{\\Sigma x^{2}}{n} - \bar{x}^{2} )$
   - This is a **different formula** to the population variance
   - The last formula shows a method for finding an unbiased estimate for the variance
   
@@ -58,7 +58,7 @@ guided_study: true
 
   - You can use the square root of your unbiased estimate for the population variance
   
-    - `begin mathsize 16px style s equals square root of fraction numerator straight capital sigma left parenthesis x minus x with bar on top right parenthesis squared over denominator n minus 1 end fraction end root equals square root of fraction numerator 1 over denominator n minus 1 end fraction open parentheses capital sigma x squared minus open parentheses capital sigma x close parentheses squared over n close parentheses end root end style`
+    - `s = sqrt( ( capital sigma ( x - x -bar ) ^2)/(n - 1) ) = sqrt( (1)/(n - 1) ( capital sigma x ^2 - ( capital sigma x ) ^2 / n ) )`
   - This **won’t be unbiased** but it will be a good estimate
 
 #### How do I calculate unbiased estimates?
@@ -66,7 +66,7 @@ guided_study: true
 - If you are given the **summary statistics **$Σx$ and $Σx^{2}$ then you can simply use the formulae in the **formula booklet**
 
   - $\overline{x}=\frac{Σx}{n}$
-  - `begin mathsize 16px style s squared equals fraction numerator 1 over denominator n minus 1 end fraction open parentheses straight capital sigma x squared minus open parentheses straight capital sigma x close parentheses squared over n close parentheses end style`
+  - `s ^2 = (1)/(n - 1) ( capital sigma x ^2 - ( capital sigma x ) ^2 / n )`
 - If you are given the **raw** data then you will **first** need to **calculate **$Σx$ **and **$Σx^{2}$
 
 > **Worked Example**

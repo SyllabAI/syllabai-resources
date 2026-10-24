@@ -23,11 +23,11 @@ $x^{2}+2x-24=(x-4)(x+6)$
 ### 9() — 1 marks
 > *Using the factorised form of the quadratic equation from part (a),*
 
-`table attributes columnalign right center left columnspacing 0px end attributes row cell x squared plus 2 x minus 24 end cell equals 0 row cell open parentheses x plus 6 close parentheses open parentheses x minus 4 close parentheses end cell equals 0 end table`
+$\begin{array}{rcl} x^{2} + 2 x - 24 & = 0 \\ ( x + 6 ) ( x - 4 ) & = 0 \end{array}$
 
 > *the solutions come from setting each factor equal to zero and solving.*
 
-`table row cell x plus 6 end cell equals cell 0 comma space space space x equals negative 6 end cell row cell x minus 4 end cell equals cell 0 comma space space space x equals 4 end cell end table`
+$\begin{gathered} x + 6 & = 0 , x = - 6 \\ x - 4 & = 0 , x = 4 \end{gathered}$
 
 $x=-6,x=4$
 
@@ -45,7 +45,7 @@ $x=-6,x=4$
 
 > *Put these in the brackets*
 
-`open parentheses x plus 11 close parentheses open parentheses x minus 2 close parentheses`
+$( x + 11 ) ( x - 2 )$
 
 **[M1 A1]**
 
@@ -58,9 +58,9 @@ $x=-6,x=4$
 
 > *Set each bracket equal to zero and solve*
 
-`table row cell x plus 11 end cell equals 0 row x equals cell negative 11 end cell end table`
+$\begin{gathered} x + 11 & = 0 \\ x = - 11 \end{gathered}$
 
-`table row cell x minus 2 end cell equals 0 row x equals 2 end table`
+$\begin{gathered} x - 2 & = 0 \\ x = 2 \end{gathered}$
 
 $x=-11,x=2$
 
@@ -76,7 +76,7 @@ $x=-11,x=2$
 
 > *These two numbers are 4 and 5 so;*
 
-`open parentheses x plus 4 close parentheses open parentheses x plus 5 close parentheses equals 0`
+$( x + 4 ) ( x + 5 ) = 0$
 
 **[M1]**
 
@@ -116,7 +116,7 @@ $x^{2}-21x+20=(x-1)(x-20)$
 
 > *To find the solutions to the quadratic equation, set each factor equal to zero and solve.*
 
-`table row cell x minus 1 end cell equals cell 0 comma space space space x equals 1 end cell row cell x minus 20 end cell equals cell 0 comma space space space x equals 20 end cell end table`
+$\begin{gathered} x - 1 & = 0 , x = 1 \\ x - 20 & = 0 , x = 20 \end{gathered}$
 
 $x=1,x=20$
 
@@ -136,25 +136,25 @@ $x=1,x=20$
 
 *-4 and 3*
 
-> *The factors are *`open parentheses x minus 4 close parentheses`* and *`open parentheses x plus 3 close parentheses`
+> *The factors are *$( x - 4 )$* and *$( x + 3 )$
 
 > *Rewrite the equation by multiplying them together and set equal to 0.*
 
-`table row cell open parentheses x minus 4 close parentheses open parentheses x plus 3 close parentheses end cell equals 0 end table`
+$\begin{gathered} ( x - 4 ) ( x + 3 ) & = 0 \end{gathered}$
 
 ** ****[M1 M1]**
 
 > *The roots can be found by setting each factor equal to 0 and solving separately.*
 
-> *If  *`open parentheses x minus 4 close parentheses open parentheses x plus 3 close parentheses equals 0`* then either  *$x-4=0$* or *$x+3=0$*.*
+> *If  *$( x - 4 ) ( x + 3 ) = 0$* then either  *$x-4=0$* or *$x+3=0$*.*
 
 > *For *$x-4=0$* the solution is:*
 
-`table row cell x minus 4 end cell equals 0 row cell plus 4 space space space space space space space space space space space space space end cell equals cell space space space space space space space space space space space space space space plus 4 space end cell row x equals 4 end table`
+$\begin{gathered} x - 4 & = 0 \\ + 4 & = + 4 \\ x = 4 \end{gathered}$
 
 > *For *$x+3=0$* the solution is:*
 
-`table row cell x plus 3 end cell equals 0 row cell negative 3 space space space space space space space space space space space space space space space end cell equals cell space space space space space space space space space space space space space space minus 3 space end cell row x equals cell negative 3 space end cell end table`
+$\begin{gathered} x + 3 & = 0 \\ - 3 & = - 3 \\ x = - 3 \end{gathered}$
 
 **Final answer:** ** **$x=4\mathrm{and}x=-3$**  **
 
@@ -182,7 +182,7 @@ $x^{2}-9x+20=0$
 
 > *The two numbers are −4 and −5;*
 
-`open parentheses x minus 4 close parentheses open parentheses x minus 5 close parentheses equals 0`
+$( x - 4 ) ( x - 5 ) = 0$
 
 **[M1]**
 

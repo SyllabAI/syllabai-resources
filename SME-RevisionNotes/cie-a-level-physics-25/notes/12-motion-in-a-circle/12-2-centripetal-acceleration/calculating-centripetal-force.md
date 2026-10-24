@@ -36,7 +36,7 @@ $v=rω$
   - $ω$ = angular velocity measured in radians per second (rad s<sup>-1</sup>)
 - Substituting into the first centripetal force equation
 
-`F space equals space fraction numerator m open parentheses r omega close parentheses squared over denominator r end fraction`
+$F = \frac{m ( r \\omega )^{2}}{r}$
 
 - Simplify the equation
 

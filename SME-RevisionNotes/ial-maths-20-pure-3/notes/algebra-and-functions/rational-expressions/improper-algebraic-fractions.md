@@ -50,7 +50,7 @@ guided_study: false
 
 - A polynomial f(x) of ***degree*** $n$ divided by a **quadratic divisor** takes the form
 
-  - `fraction numerator straight f open parentheses x close parentheses over denominator a x squared plus b x plus c end fraction equals straight q open parentheses x close parentheses plus fraction numerator straight r open parentheses x close parentheses over denominator a x squared plus b x plus c end fraction`
+  - $\frac{ \mathrm{f} ( x )}{a x^{2} + b x + c} = \mathrm{q} ( x ) + \frac{ \mathrm{r} ( x )}{a x^{2} + b x + c}$
 - The **quotient** *q* will have degree $n-2$
 - The degree of the **remainder** *r* will be less than $2$
 

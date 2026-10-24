@@ -444,13 +444,13 @@ n(Li) = $\frac{0.84}{7}$ = 0.12 mol
 - Average molar mass = Σ (fraction × molar mass)
 - **Uranus:**
 
-`open parentheses fraction numerator 81.5 over denominator 100 end fraction cross times 2 close parentheses` + `open parentheses fraction numerator 16.2 over denominator 100 end fraction cross times 4 close parentheses` + `open parentheses fraction numerator 2.3 over denominator 100 end fraction cross times 16 close parentheses` = **2.646**
+$( \frac{81.5}{100} \times 2 )$ + $( \frac{16.2}{100} \times 4 )$ + $( \frac{2.3}{100} \times 16 )$ = **2.646**
 
-**A** is incorrect as Jupiter = `open parentheses fraction numerator 89.6 over denominator 100 end fraction cross times 2 close parentheses` + `open parentheses fraction numerator 10.4 over denominator 100 end fraction cross times 4 close parentheses` = 2.208
+**A** is incorrect as Jupiter = $( \frac{89.6}{100} \times 2 )$ + $( \frac{10.4}{100} \times 4 )$ = 2.208
 
-**B** is incorrect as Neptune = `open parentheses 81 over 100 cross times 2 close parentheses` + `open parentheses 18 over 100 cross times 4 close parentheses` + `open parentheses fraction numerator 1.0 over denominator 100 end fraction cross times 16 close parentheses` = 2.500
+**B** is incorrect as Neptune = $( \frac{81}{100} \times 2 )$ + $( \frac{18}{100} \times 4 )$ + $( \frac{1.0}{100} \times 16 )$ = 2.500
 
-**C** is incorrect as Saturn = `open parentheses fraction numerator 96.2 over denominator 100 end fraction cross times 2 close parentheses` + `open parentheses fraction numerator 3.5 over denominator 100 end fraction cross times 4 close parentheses` + `open parentheses fraction numerator 0.25 over denominator 100 end fraction cross times 16 close parentheses` = 2.104
+**C** is incorrect as Saturn = $( \frac{96.2}{100} \times 2 )$ + $( \frac{3.5}{100} \times 4 )$ + $( \frac{0.25}{100} \times 16 )$ = 2.104
 
 ### Q21
 **Final answer:** **The correct answer is B**

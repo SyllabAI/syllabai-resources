@@ -35,7 +35,7 @@ guided_study: false
 
 ### What is the formula for the nth term of an arithmetic sequence?
 
-- The** formula **for the $n$<sup>th</sup> term of an arithmetic sequence is `u subscript n equals a plus open parentheses n minus 1 close parentheses d`
+- The** formula **for the $n$<sup>th</sup> term of an arithmetic sequence is $u_{n} = a + ( n - 1 ) d$
 
   - $a$ is the **first term**
   - $d$ is the **common difference**
@@ -47,19 +47,19 @@ guided_study: false
 
 - You can** substitute** in the values of $a$, $d$ and $n$ to find a particular term
 
-  - e.g. $a=10$, $d=4$ and $n=3$ gives  `u subscript 3 equals 10 plus open parentheses 3 minus 1 close parentheses cross times 4 equals 18`
+  - e.g. $a=10$, $d=4$ and $n=3$ gives  $u_{3} = 10 + ( 3 - 1 ) \times 4 = 18$
   
     - So 18 is the 3<sup>rd</sup> term
 - You can** substitute** in the values of $a$ and $d$ to find an expression for $u_{n}$
 
-  - e.g. $a=10$ and $d=4$ gives  `u subscript n equals 10 plus open parentheses n minus 1 close parentheses cross times 4`
+  - e.g. $a=10$ and $d=4$ gives  $u_{n} = 10 + ( n - 1 ) \times 4$
   
-    - This **simplifies **to  `u subscript n equals 10 plus 4 open parentheses n minus 1 close parentheses equals 10 plus 4 n minus 4 equals 6 plus 4 n`
+    - This **simplifies **to  $u_{n} = 10 + 4 ( n - 1 ) = 10 + 4 n - 4 = 6 + 4 n$
 - You can** form equations** in terms of $a$ and $d$ if given information about terms
 
   - e.g. If the 5<sup>th</sup> term is 11,
   
-    - $u_{5}=11$ giving `a plus open parentheses 5 minus 1 close parentheses d equals 11`
+    - $u_{5}=11$ giving $a + ( 5 - 1 ) d = 11$
     - This **simplifies** to $a+4d=11$
   - Forming two different equations in $a$ and $d$ can lead to **simultaneous equations**
 
@@ -73,27 +73,27 @@ guided_study: false
 > 
 > **Answer:**
 > 
-> > *The formula for an arithmetic sequence is *`u subscript n equals a plus open parentheses n minus 1 close parentheses d`
+> > *The formula for an arithmetic sequence is *$u_{n} = a + ( n - 1 ) d$
 > *If the 6*<sup>*th*</sup>* term is 13, then *$u_{6}=13$
 > *Substitute *$n=6$* and *$u_{6}=13$* into the formula*
 > 
-> `table row cell u subscript 6 end cell equals cell a plus open parentheses 6 minus 1 close parentheses d end cell row 13 equals cell a plus 5 d end cell end table`
+> $\begin{gathered} u_{6} & = a + ( 6 - 1 ) d \\ 13 = a + 5 d \end{gathered}$
 > 
 > > *Similarly, if the 21*<sup>*st*</sup>* term is 43, then *$u_{21}=43$
 > *Substitute *$n=21$* and *$u_{21}=43$* into the formula*
 > 
-> `table row cell u subscript 21 end cell equals cell a plus open parentheses 21 minus 1 close parentheses d end cell row 43 equals cell a plus 20 d end cell end table`
+> $\begin{gathered} u_{21} & = a + ( 21 - 1 ) d \\ 43 = a + 20 d \end{gathered}$
 > 
 > > *These give two different equations in *$a$* and *$d$
 > *Solve the equations simultaneously (for example, eliminate *$a$*)*
 > 
-> `negative stack attributes charalign center stackalign right end attributes row a plus 20 d equals 43 end row row a plus 5 d equals 13 end row horizontal line row 15 d equals 30 end row end stack`
+> `- charalign center stackalign right end | a + 20 d = 43 end | | a + 5 d = 13 end | horizontal line | 15 d = 30 end | end`
 > 
 > $d=\frac{30}{15}=2$
 > 
 > > *Substitute *$d=2$* into the first equation and solve for *$a$
 > 
-> `table row 13 equals cell a plus 5 cross times 2 end cell row 13 equals cell a plus 10 end cell row 3 equals a end table`
+> $\begin{gathered} 13 = a + 5 \times 2 \\ 13 = a + 10 \\ 3 = a \end{gathered}$
 > 
 > > *Write out the final answer*
 > 

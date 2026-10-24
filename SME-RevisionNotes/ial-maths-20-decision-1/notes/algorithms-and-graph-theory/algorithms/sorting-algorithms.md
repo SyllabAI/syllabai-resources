@@ -67,7 +67,7 @@ guided_study: false
 - Bubble sort, for $n$ items, is **complete** when **either**
 
   - a **pass** involves **no swaps**, or
-  - after the `open parentheses n minus 1 close parentheses to the power of th` pass
+  - after the $( n - 1 )^{th}$ pass
   
     - I.e.  when only **one item** would remain on the **working list **
 
@@ -90,7 +90,7 @@ guided_study: false
 
   - The first pass will have $n$ items on the working list
   - The second pass will have $n-1$ items on the working list
-  - (If required) the `open parentheses n minus 1 close parentheses to the power of th` pass will have 2 items on the working list
+  - (If required) the $( n - 1 )^{th}$ pass will have 2 items on the working list
 - The **ordered items** may be described as the **sorted list**
 - The image below shows a list at the end of the **second pass** of an **ascending bubble sort**
 
@@ -105,7 +105,7 @@ guided_study: false
 - For a list of $n$ items
 
   - The **maximum number** of **passes** will be $n-1$
-  - After the `open parentheses n minus 1 close parentheses to the power of th` pass, $n-1$ items will be in order
+  - After the $( n - 1 )^{th}$ pass, $n-1$ items will be in order
   
     - The last remaining item must be in order too
   - It is hard to predict how many passes the bubble sort will need
@@ -124,14 +124,14 @@ guided_study: false
     - The first pass will have $n$ items on the working list so there will be $n-1$ comparisons
     - The second pass will have $n-2$ comparisons
     - The $k^{\mathrm{th}}$ pass will have $n-k$ comparisons
-    - (If required) the `open parentheses n minus 1 close parentheses to the power of th` pass will have 1 comparison
+    - (If required) the $( n - 1 )^{th}$ pass will have 1 comparison
   - The **maximum number** of **comparisons** for the entire bubble sort algorithm would be
 
-`open parentheses n minus 1 close parentheses plus open parentheses n minus 2 close parentheses plus open parentheses n minus 3 close parentheses plus... plus 3 plus 2 plus 1`
+$( n - 1 ) + ( n - 2 ) + ( n - 3 ) +... + 3 + 2 + 1$
 
 or
 
-`sum from r equals 1 to n minus 1 of r equals 1 half n open parentheses n minus 1 close parentheses`
+$\sum_{r = 1}^{n - 1} r = 1 \frac{1}{2} n ( n - 1 )$
 
 - Understanding the logic for the number of comparisons is easier than trying to remember a formula
 
@@ -176,7 +176,7 @@ or
 > 
 > *i) **The maximum number of passes is *$n-1$
 > 
-> `table attributes columnalign right center left columnspacing 0px end attributes row n equals 7 row cell 7 minus 1 end cell equals 6 end table`
+> $\begin{array}{rcl} n = 7 \\ 7 - 1 & = 6 \end{array}$
 > 
 > **Final answer:** **The maximum number of passes will be 6**
 > 
@@ -365,7 +365,7 @@ The **original** (full) list of items will now be in **ascending** order
 > 
 > > *Pass 6 (pivot 5)*
 > 
-> | `bottom enclose 9` | `rounded box enclose 7` | `open double vertical bar 6 close double vertical bar` | `open square brackets 5 close square brackets` | `box enclose 5` | `circle enclose 4` | `bottom enclose 3` | `box enclose 2` |
+> | `bottom enclose 9` | `rounded box enclose 7` | `open double vertical bar 6 close double vertical bar` | $[ 5 ]$ | `box enclose 5` | `circle enclose 4` | `bottom enclose 3` | `box enclose 2` |
 > |---|---|---|---|---|---|---|---|
 > 
 > > *Every value has now been designated as a pivot so the algorithm is complete and the list is in descending order*

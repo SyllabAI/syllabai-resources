@@ -350,7 +350,7 @@
   },
   {
    "type": "bullets",
-   "md": "- The key phrase here is “**given** **that**” – it essentially means something has already happened.\n\n  - In set notation, “**given** **that**” is indicated by a vertical line ( **| **) so the above example would be written `text P( end text right enclose 2 to the power of nd space is space white end enclose space 1 to the power of st space is space white right parenthesis equals 5 over 8`\n  - There are other phrases that imply or mean the same things as “given that”\n- Tree diagrams are great for events that follow on from one another\n\n  - Otherwise **Venn** **diagrams** are extremely useful\n  Beware! The denominator of fractional probabilities will no longer be the total of all the frequencies or probabilities shown\n  - “**given** **that**” questions usually reduce the **sample** **space** as an event (a subset of the outcomes of the first experiment) has already occurred"
+   "md": "- The key phrase here is “**given** **that**” – it essentially means something has already happened.\n\n  - In set notation, “**given** **that**” is indicated by a vertical line ( **| **) so the above example would be written `text P( end text right 2 ^ nd is white 1 ^ st is white ) = 5 / 8`\n  - There are other phrases that imply or mean the same things as “given that”\n- Tree diagrams are great for events that follow on from one another\n\n  - Otherwise **Venn** **diagrams** are extremely useful\n  Beware! The denominator of fractional probabilities will no longer be the total of all the frequencies or probabilities shown\n  - “**given** **that**” questions usually reduce the **sample** **space** as an event (a subset of the outcomes of the first experiment) has already occurred"
   },
   {
    "type": "figure",
@@ -361,11 +361,11 @@
   },
   {
    "type": "bullets",
-   "md": "- The diagrams above also show two more **conditional** **probability** results\n\n  - `straight P left parenthesis A intersection B right parenthesis equals straight P left parenthesis A right parenthesis cross times straight P left parenthesis B vertical line A right parenthesis`"
+   "md": "- The diagrams above also show two more **conditional** **probability** results\n\n  - $\\mathrm{P} ( A \\cap B ) = \\mathrm{P} ( A ) \\times \\mathrm{P} ( B \\vert A )$"
   },
   {
    "type": "paragraph",
-   "md": "`straight P left parenthesis A intersection B right parenthesis equals straight P left parenthesis B right parenthesis cross times straight P left parenthesis A vertical line B right parenthesis`"
+   "md": "$\\mathrm{P} ( A \\cap B ) = \\mathrm{P} ( B ) \\times \\mathrm{P} ( A \\vert B )$"
   },
   {
    "type": "paragraph",
@@ -377,7 +377,7 @@
   },
   {
    "type": "paragraph",
-   "md": "`straight P left parenthesis B vertical line A right parenthesis equals fraction numerator horizontal strike straight P left parenthesis A right parenthesis end strike cross times straight P left parenthesis B right parenthesis over denominator horizontal strike straight P left parenthesis A right parenthesis end strike end fraction equals text P end text left parenthesis B right parenthesis`"
+   "md": "`P ( B | A ) = (-- P ( A ) x P ( B ))/(-- P ( A ) ) = text P end text ( B )`"
   },
   {
    "type": "paragraph",
@@ -385,7 +385,7 @@
   },
   {
    "type": "paragraph",
-   "md": "`straight P left parenthesis A vertical line B right parenthesis equals straight P left parenthesis A right parenthesis`"
+   "md": "$\\mathrm{P} ( A \\vert B ) = \\mathrm{P} ( A )$"
   },
   {
    "type": "bullets",
@@ -395,7 +395,7 @@
    "type": "callout",
    "variant": "worked-example",
    "label": "Worked Example",
-   "md": "The probabilities of two events, $A$ and $B$ are described as $P(A)=0.4$ and $P(B)=0.5$.\nIt is also known that $P(A\\capB)=0.2$ .\n\n(a)\n\nFind\n\n(i) `P left parenthesis A vertical line B right parenthesis`\n\n(ii) `P left parenthesis B vertical line A apostrophe right parenthesis`\n\n(iii) $P(A\\capB)(A\\cupB)$\n\n(b) Show, in two different ways, that the events $A$ and $B$ are independent.\n\n**Answer:**\n\n![2-3-1-cie-fig4-we2-solution](assets/af085d8e8b20-image.bin)"
+   "md": "The probabilities of two events, $A$ and $B$ are described as $P(A)=0.4$ and $P(B)=0.5$.\nIt is also known that $P(A\\capB)=0.2$ .\n\n(a)\n\nFind\n\n(i) $P ( A \\vert B )$\n\n(ii) $P ( B \\vert A ' )$\n\n(iii) $P(A\\capB)(A\\cupB)$\n\n(b) Show, in two different ways, that the events $A$ and $B$ are independent.\n\n**Answer:**\n\n![2-3-1-cie-fig4-we2-solution](assets/af085d8e8b20-image.bin)"
   },
   {
    "type": "callout",
@@ -446,7 +446,7 @@
   },
   {
    "type": "bullets",
-   "md": "- You may need to use the results\n\n  - `begin mathsize 16px style straight P left parenthesis A intersection B right parenthesis equals straight P left parenthesis A right parenthesis cross times straight P left parenthesis B vertical line A right parenthesis end style`\n  - `equation` (for independent events)"
+   "md": "- You may need to use the results\n\n  - $\\mathrm{P} ( A \\cap B ) = \\mathrm{P} ( A ) \\times \\mathrm{P} ( B \\vert A )$\n  - `equation` (for independent events)"
   },
   {
    "type": "callout",

@@ -84,7 +84,7 @@ guided_study: false
 > 
 > > *Solve this equation by adding 8 then dividing by 10*
 > 
-> `table row cell 10 x end cell equals cell 22 plus 8 end cell row cell 10 x end cell equals 30 row x equals cell 30 over 10 end cell row x equals 3 end table`
+> $\begin{gathered} 10 x & = 22 + 8 \\ 10 x & = 30 \\ x = \frac{30}{10} \\ x = 3 \end{gathered}$
 > 
 > $x=3$
 > 
@@ -115,7 +115,7 @@ guided_study: false
 > $AB=GH=4x\mathrm{cm}$
 > $AD=EH=2x\mathrm{cm}$
 > $CD=EF=3x\mathrm{cm}$
-> `A H equals B G equals C F equals D E equals open parentheses x plus 3 close parentheses space cm`
+> $A H = B G = C F = D E = ( x + 3 ) \text{cm}$
 > 
 > The volume of the prism is 784 cm<sup>3</sup>.
 > 
@@ -125,25 +125,25 @@ guided_study: false
 > 
 > > *The volume of a prism is given by *$V=\mathrm{area} \mathrm{of} \mathrm{cross} \mathrm{section}\times\mathrm{length}$
 > 
-> - *Here the length is *`open parentheses x plus 3 close parentheses`
+> - *Here the length is *$( x + 3 )$
 > 
-> > *To find the area of the cross section, use the area of a trapezium formula, *`A equals 1 half open parentheses a plus b close parentheses h`
+> > *To find the area of the cross section, use the area of a trapezium formula, *$A = 1 \frac{1}{2} ( a + b ) h$
 > 
 > - *Here *$a=4x$*, *$b=3x$* and *$h=2x$
 > 
-> `table row A equals cell 1 half open parentheses 4 x plus 3 x close parentheses open parentheses 2 x close parentheses end cell row blank equals cell x open parentheses 7 x close parentheses end cell row blank equals cell 7 x squared end cell end table`
+> $\begin{gathered} A = 1 \frac{1}{2} ( 4 x + 3 x ) ( 2 x ) \\ = x ( 7 x ) \\ = 7 x^{2} \end{gathered}$
 > 
 > > *Put that into the prism volume formula*
 > 
-> `table row V equals cell 7 x squared cross times open parentheses x plus 3 close parentheses end cell row blank equals cell 7 x cubed plus 21 x squared end cell end table`
+> $\begin{gathered} V = 7 x^{2} \times ( x + 3 ) \\ = 7 x^{3} + 21 x^{2} \end{gathered}$
 > 
 > > *You know the volume is equal to 784, so*
 > 
-> `table row cell 7 x cubed plus 21 x squared end cell equals 784 end table`
+> $\begin{gathered} 7 x^{3} + 21 x^{2} & = 784 \end{gathered}$
 > 
 > > *Divide both sides of the equation by 7*
 > 
-> `table row cell fraction numerator 7 x cubed over denominator 7 end fraction plus fraction numerator 21 x squared over denominator 7 end fraction end cell equals cell 784 over 7 end cell row cell x cubed plus 3 x squared end cell equals 112 end table`
+> $\begin{gathered} \frac{7 x^{3}}{7} + \frac{21 x^{2}}{7} & = \frac{784}{7} \\ x^{3} + 3 x^{2} & = 112 \end{gathered}$
 > 
 > > *Subtract 112 from both sides to get the form required*
 > 

@@ -12,7 +12,7 @@
 
 $p=\frac{F}{A}$
 
-- In this context, the force is the weight of the block, which is proportional to its mass `open parentheses W space equals space m g close parentheses`
+- In this context, the force is the weight of the block, which is proportional to its mass $( W = m g )$
 - To find which block exerts the greatest pressure, the mass of each block is divided by its base area (the area in contact with the ground):
 
   - Block **A**: $15\text{g}\div10\text{cm}^{2}=1.5$ g/cm<sup>2</sup>
@@ -266,7 +266,7 @@ $P=ρgh=1000\times9.8\times0.7=6860\mathrm{Pa}$
 - The area of a circle is found using $A=πr^{2}$
 - Pressure is found using $P=\frac{F}{A}$
 - Therefore the difference in pressure will be:
-- `straight capital delta P space equals space fraction numerator 12 over denominator pi open parentheses 0.05 squared close parentheses end fraction space minus fraction numerator 12 over denominator pi open parentheses 0.25 squared close parentheses end fraction`
+- `capital delta P = (12)/(pi ( 0.05 ^2 )) - (12)/(pi ( 0.25 ^2 ))`
 - $ΔP=1528-61=1467$
 - This rounds most closely to 1500 Pa
 

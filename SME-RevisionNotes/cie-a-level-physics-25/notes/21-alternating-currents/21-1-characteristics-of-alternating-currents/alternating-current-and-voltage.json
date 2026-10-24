@@ -164,7 +164,7 @@
   },
   {
    "type": "paragraph",
-   "md": "`I space equals space I subscript 0 sin open parentheses omega t close parentheses`"
+   "md": "$I = I_{0} \\sin ( \\\\omega t )$"
   },
   {
    "type": "bullets",
@@ -176,7 +176,7 @@
   },
   {
    "type": "paragraph",
-   "md": "`V space equals space V subscript 0 sin open parentheses omega t close parentheses`"
+   "md": "$V = V_{0} \\sin ( \\\\omega t )$"
   },
   {
    "type": "bullets",
@@ -198,13 +198,13 @@
    "type": "callout",
    "variant": "worked-example",
    "label": "Worked Example",
-   "md": "An alternating current *I *varies with time *t *as shown in the graph below.\n\n![21-1-1-we-alternating-current--cie-new](assets/2b637e8bf6ac-21-1-1-we-alternating-current-cie-new.png)\n\nUsing the graph and the equation for alternating current, calculate the value of the current at a time 0.48 s.\n\n**Answer:**\n\n**Step 1: Write out the equation for alternating current**\n\n`I space equals space I subscript 0 sin open parentheses omega t close parentheses`\n\n**Step 2: Write out the equation for angular frequency**\n\n$ω=\\frac{2π}{T}$\n\n**Step 3:** **Measure the time period *****T***** and peak current***** I***<sub>**0**</sub>** from the graph**\n\n- The time period is the time taken for one full cycle, *T* = 0.10 s\n- Peak current (amplitude),* I*<sub>0</sub> = 17 A\n\n**Step 4: Substitute values into alternating current equation at time***** t***\n\n- Using the time given in the question, *t* = 0.48 s\n\n`I space equals space I subscript 0 sin open parentheses omega t close parentheses space equals space I subscript 0 sin open parentheses fraction numerator 2 pi t over denominator T end fraction close parentheses`\n\n`I space equals space 17 sin open parentheses fraction numerator 2 pi open parentheses 0.48 close parentheses over denominator 0.1 end fraction close parentheses space equals space minus 16.168 space equals space minus 16 space straight A space open parentheses 2 space straight s. straight f close parentheses`"
+   "md": "An alternating current *I *varies with time *t *as shown in the graph below.\n\n![21-1-1-we-alternating-current--cie-new](assets/2b637e8bf6ac-21-1-1-we-alternating-current-cie-new.png)\n\nUsing the graph and the equation for alternating current, calculate the value of the current at a time 0.48 s.\n\n**Answer:**\n\n**Step 1: Write out the equation for alternating current**\n\n$I = I_{0} \\sin ( \\\\omega t )$\n\n**Step 2: Write out the equation for angular frequency**\n\n$ω=\\frac{2π}{T}$\n\n**Step 3:** **Measure the time period *****T***** and peak current***** I***<sub>**0**</sub>** from the graph**\n\n- The time period is the time taken for one full cycle, *T* = 0.10 s\n- Peak current (amplitude),* I*<sub>0</sub> = 17 A\n\n**Step 4: Substitute values into alternating current equation at time***** t***\n\n- Using the time given in the question, *t* = 0.48 s\n\n$I = I_{0} \\sin ( \\\\omega t ) = I_{0} \\sin ( \\frac{2 \\pi t}{T} )$\n\n$I = 17 \\sin ( \\frac{2 \\pi ( 0.48 )}{0.1} ) = - 16.168 = - 16 \\mathrm{A} ( 2 \\mathrm{s} . \\mathrm{f} )$"
   },
   {
    "type": "callout",
    "variant": "exam-tip",
    "label": "Exam Hint",
-   "md": "These equations are written as  `x space equals space x subscript 0 sin open parentheses omega t close parentheses`, the *x* is replaced with *I* or *V,* depending on the question.\n\nRemember to check that your calculator is in **radians** mode when using any of these equations. This is because the angular frequency *⍵* is measured in rad s<sup>-1</sup>.\n\nCurrent can also be positive or negative, depending on its **direction**. This is why the answer in the worked example is negative. At *t* = 0.48 s the current will be in the negative direction. The mark schemes in the exams are normally not too picky about this, but the size of the current (16 A in the worked example) is what will get the mark."
+   "md": "These equations are written as  $x = x_{0} \\sin ( \\\\omega t )$, the *x* is replaced with *I* or *V,* depending on the question.\n\nRemember to check that your calculator is in **radians** mode when using any of these equations. This is because the angular frequency *⍵* is measured in rad s<sup>-1</sup>.\n\nCurrent can also be positive or negative, depending on its **direction**. This is why the answer in the worked example is negative. At *t* = 0.48 s the current will be in the negative direction. The mark schemes in the exams are normally not too picky about this, but the size of the current (16 A in the worked example) is what will get the mark."
   }
  ]
 }

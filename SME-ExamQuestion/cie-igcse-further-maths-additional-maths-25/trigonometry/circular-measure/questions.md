@@ -16,7 +16,7 @@ A sector from a circle of radius $r$ has an internal angle of $θ$ radians, as s
 
 The perimeter of the sector is 4 units and the area of the sector is $A$ square units.
 
-Show that `A equals fraction numerator 8 theta over denominator open parentheses 2 plus theta close parentheses squared end fraction`.
+Show that $A = \frac{8 \\theta }{( 2 + \\theta )^{2}}$.
 
 ### Q2 — hard — 9 marks
 
@@ -331,7 +331,7 @@ Angle $AOB=\frac{π}{4}$ radians. Find the perimeter of the shaded region.
 
 **Q11** [4 marks]
 
-A circle has a radius of 6 cm. A sector of this circle has a perimeter of `2 open parentheses 6 plus 5 pi close parentheses space cm`. Find the area of this sector.
+A circle has a radius of 6 cm. A sector of this circle has a perimeter of $2 ( 6 + 5 \pi ) \text{cm}$. Find the area of this sector.
 
 *Source: March 2020 0606/22 Q6A*
 

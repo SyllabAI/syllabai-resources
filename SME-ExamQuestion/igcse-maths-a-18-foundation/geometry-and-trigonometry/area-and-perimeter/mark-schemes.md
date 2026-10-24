@@ -29,7 +29,7 @@ $29-15=14\mathrm{cm}$
 
 > *Calculate the difference between the full length of the rectangle and the three rectangular tiles*
 
-`29 minus open parentheses 7 plus 7 plus 7 close parentheses equals 8 cm`
+$29 - ( 7 + 7 + 7 ) = 8 cm$
 
 > *The two square tiles left are equivalent to this distance meaning:*
 
@@ -82,7 +82,7 @@ $4x-16=54$
 
 > *Solve the equation for *$x$*by using inverse operations and doing the same to both sides of the equation*
 
-`table row cell 4 x minus 16 end cell equals 54 row cell 4 x end cell equals cell 54 plus 16 end cell row cell 4 x end cell equals 70 row x equals cell 70 over 4 end cell row x equals cell 17.5 end cell end table`
+$\begin{gathered} 4 x - 16 & = 54 \\ 4 x & = 54 + 16 \\ 4 x & = 70 \\ x = \frac{70}{4} \\ x = 17.5 \end{gathered}$
 
 **[M1]**
 
@@ -116,19 +116,19 @@ $π\times8.5^{2}=72.25π$
 
 **[M1]**
 
-> *Substitute known values into the formula for the area of a trapezium,*`1 half open parentheses a plus b close parentheses h`
+> *Substitute known values into the formula for the area of a trapezium,*$1 \frac{1}{2} ( a + b ) h$
 
-`1 half open parentheses 20 plus 25 close parentheses h`
+$1 \frac{1}{2} ( 20 + 25 ) h$
 
 **[M1]**
 
 > *Form an equation by, equating the expression for the area of the trapezium to the area of the circle, and solve to find the value of *$h$
 
-`1 half open parentheses 20 plus 25 close parentheses h equals 72.25 pi`
+$1 \frac{1}{2} ( 20 + 25 ) h = 72.25 \pi$
 
 > *Simplify*
 
-`table row cell 1 half cross times 45 cross times h end cell equals cell 72.25 pi end cell row cell 22.5 h end cell equals cell 72.25 pi end cell end table`
+$\begin{gathered} 1 \frac{1}{2} \times 45 \times h & = 72.25 \pi \\ 22.5 h & = 72.25 \pi \end{gathered}$
 
 > *Solve to find the value of *$h$
 
@@ -257,17 +257,17 @@ $9\times5=45$
 ### 1() — 4 marks
 Write an expression for the length and width
 
-`table row cell Length space end cell equals cell space x space end cell row cell Width space end cell equals cell space x space minus space 6 space end cell end table`
+$\begin{gathered} \text{Length} & = x \\ \text{Width} & = x - 6 \end{gathered}$
 
 Form an equation using the perimeter
 
-`table row cell x plus x minus 6 plus x plus x minus 6 space end cell equals cell 4 x space minus 12 end cell end table`
+$\begin{gathered} x + x - 6 + x + x - 6 & = 4 x - 12 \end{gathered}$
 
 **[M1]**
 
 Equal the expression to the perimeter and solve for *x*
 
-`table row cell 4 x space minus space 12 space end cell equals cell space 26 end cell row cell 4 x space end cell equals cell space 38 end cell row cell x space end cell equals cell space 9.5 end cell end table`
+$\begin{gathered} 4 x - 12 & = 26 \\ 4 x & = 38 \\ x & = 9.5 \end{gathered}$
 
 **[M1]**
 

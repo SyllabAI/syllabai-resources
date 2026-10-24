@@ -36,13 +36,13 @@ guided_study: true
   - The atomic number **decreases** by 2
 - Alpha decay can be represented by the following nuclear equation:
 
-`straight X presubscript straight Z presuperscript straight A space rightwards arrow space straight Y presubscript straight Z minus 2 end presubscript presuperscript straight A minus 4 end presuperscript space plus thin space straight alpha presubscript 2 presuperscript 4`
+`X _ Z ^ A -> Y _ Z - 2 ^ A - 4 + alpha _ 2 ^ 4`
 
 - Where:
 
   - `X presubscript Z presuperscript A` is the initial element X with mass number A and atomic number Z
-  - `straight Y presubscript straight Z minus 2 end presubscript presuperscript straight A minus 4 end presuperscript` is the new element Y
-  - `straight alpha presubscript 2 presuperscript 4` is an alpha particle
+  - `Y _ Z - 2 ^ A - 4` is the new element Y
+  - $\ \\alpha pre_{2} pre^{4}$ is an alpha particle
 
 ### Beta decay
 
@@ -66,13 +66,13 @@ guided_study: true
   - This means that the atomic number of the new nucleus will **increase by 1** to balance the overall atomic number before and after the decay
 - Beta decay can be represented by the following nuclear equation:
 
-`straight X presubscript straight Z presuperscript straight A space rightwards arrow space straight Y presubscript straight Z plus 1 end presubscript presuperscript straight A space plus thin space straight beta presubscript negative 1 end presubscript presuperscript 0`
+`X _ Z ^ A -> Y _ Z + 1 ^ A + beta _ - 1 ^ 0`
 
 - Where:
 
   - `X presubscript Z presuperscript A` is the initial element X with mass number A and atomic number Z
-  - `straight Y presubscript straight Z plus 1 end presubscript presuperscript straight A` is the new element Y
-  - `straight beta presubscript negative 1 end presubscript presuperscript 0` is a beta particle
+  - `Y _ Z + 1 ^ A` is the new element Y
+  - `beta _ - 1 ^ 0` is a beta particle
 
 ### Gamma decay
 
@@ -86,12 +86,12 @@ guided_study: true
 - The gamma ray that is emitted has a lot of energy, but no mass or charge
 - Gamma decay can be represented by the following nuclear equation:
 
-`straight X presubscript straight Z presuperscript straight A space rightwards arrow space straight X presubscript straight Z presuperscript straight A space plus thin space straight gamma presubscript 0 presuperscript 0`
+$\mathrm{X} pre_{Z} pre^{A} \rightarrow \mathrm{X} pre_{Z} pre^{A} + \ \\gamma pre_{0} pre^{0}$
 
 - Where:
 
   - `X presubscript Z presuperscript A` is the element X with mass number A and atomic number Z
-  - `straight gamma presubscript 0 presuperscript 0` is a gamma ray
+  - $\ \\gamma pre_{0} pre^{0}$ is a gamma ray
 
 - Notice that the mass number and atomic number of the unstable nucleus remains the **same **during the decay
 
@@ -105,12 +105,12 @@ guided_study: true
 
 - Neutron emission can be represented by the following nuclear equation:
 
-`straight X presubscript straight Z presuperscript straight A space rightwards arrow space straight X presubscript straight Z presuperscript straight A minus 1 end presuperscript space plus thin space straight n presubscript 0 presuperscript 1`
+`X _ Z ^ A -> X _ Z ^ A - 1 + n _ 0 ^ 1`
 
 - Where:
 
   - `X presubscript Z presuperscript A` is the element X with mass number A and atomic number Z
-  - `straight n presubscript 0 presuperscript 1` is a neutron
+  - `n _ 0 ^ 1` is a neutron
 
 - Notice that the atomic number remains the **same **during the decay but the mass number has changed
 
@@ -140,7 +140,7 @@ guided_study: true
 
 - The following decay equation shows polonium-212 undergoing alpha decay
 
-`Po presubscript 84 presuperscript 212 space rightwards arrow space Pb presubscript 82 presuperscript 208 space plus space straight alpha presubscript 2 presuperscript 4`
+$Po_{84}^{212} \rightarrow Pb_{82}^{208} + \ \\alpha pre_{2} pre^{4}$
 
 - When a nucleus of polonium-212 decays, a nucleus of lead-208 forms and an alpha particle is emitted
 - To check if the equation is balanced:

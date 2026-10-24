@@ -97,8 +97,8 @@ You should be familiar with the following key features and know how to identify 
   - A graph can have **multiple** local minima or maxima
   - They occur where the **gradient** of the graph is equal to zero
   
-    - So if you are graphing `y equals straight f open parentheses x close parentheses`
-    - Turning points will occur where  `straight f to the power of apostrophe open parentheses x close parentheses equals 0`
+    - So if you are graphing $y = \mathrm{f} ( x )$
+    - Turning points will occur where  $\mathrm{f}^{'} ( x ) = 0$
 - **Intercepts**
 
   - ***y****­****­-*****intercepts** are where the graph crosses the *y*-axis
@@ -133,7 +133,7 @@ You should be familiar with the following key features and know how to identify 
 > - Sketching a graph can often be useful even if a question doesn't require it
 
 > **Worked Example**
-> A function is defined by  `space straight f open parentheses x close parentheses equals x squared minus 4 x minus 5`.
+> A function is defined by  $\mathrm{f} ( x ) = x^{2} - 4 x - 5$.
 > 
 > Sketch the graph $y=f(x)$.
 > 
@@ -143,29 +143,29 @@ You should be familiar with the following key features and know how to identify 
 > 
 > > *Find the **y**-intercept by substituting in *$x=0$
 > 
-> `straight f open parentheses 0 close parentheses equals open parentheses 0 close parentheses squared minus 4 open parentheses 0 close parentheses minus 5 equals negative 5`
+> $\mathrm{f} ( 0 ) = ( 0 )^{2} - 4 ( 0 ) - 5 = - 5$
 > 
-> > *So the **y-**intercept is *`open parentheses 0 comma space minus 5 close parentheses`
+> > *So the **y-**intercept is *$( 0 , - 5 )$
 > 
-> > *The **x**-intercepts will occur when  *`y equals straight f open parentheses x close parentheses equals 0`
+> > *The **x**-intercepts will occur when  *$y = \mathrm{f} ( x ) = 0$
 > 
-> `table row cell x squared minus 4 x minus 5 end cell equals 0 row cell open parentheses x minus 5 close parentheses open parentheses x plus 1 close parentheses end cell equals 0 end table`
+> $\begin{gathered} x^{2} - 4 x - 5 & = 0 \\ ( x - 5 ) ( x + 1 ) & = 0 \end{gathered}$
 > 
 > $x=5,x=-1$
 > 
-> > *So the **x**-intercepts are *`open parentheses 5 comma space 0 close parentheses`* and *`open parentheses negative 1 comma space 0 close parentheses`
+> > *So the **x**-intercepts are *$( 5 , 0 )$* and *$( - 1 , 0 )$
 > 
-> > *The turning point will occur when  *`straight f to the power of apostrophe open parentheses x close parentheses equals 0`
+> > *The turning point will occur when  *$\mathrm{f}^{'} ( x ) = 0$
 > 
-> `straight f to the power of apostrophe open parentheses x close parentheses equals 2 x minus 4`
+> $\mathrm{f}^{'} ( x ) = 2 x - 4$
 > 
-> `table row cell 2 x minus 4 end cell equals 0 row cell 2 x end cell equals 4 row x equals 2 end table`
+> $\begin{gathered} 2 x - 4 & = 0 \\ 2 x & = 4 \\ x = 2 \end{gathered}$
 > 
-> > *Substitute into *`straight f open parentheses x close parentheses`* to find the corresponding **y-**value*
+> > *Substitute into *$\mathrm{f} ( x )$* to find the corresponding **y-**value*
 > 
-> `table row cell straight f open parentheses 2 close parentheses end cell equals cell open parentheses 2 close parentheses squared minus 4 open parentheses 2 close parentheses minus 5 end cell row blank equals cell 4 minus 8 minus 5 end cell row blank equals cell negative 9 end cell end table`
+> $\begin{gathered} \mathrm{f} ( 2 ) & = ( 2 )^{2} - 4 ( 2 ) - 5 \\ = 4 - 8 - 5 \\ = - 9 \end{gathered}$
 > 
-> > *So the turning point is *`open parentheses 2 comma space minus 9 close parentheses`
+> > *So the turning point is *$( 2 , - 9 )$
 > 
 > > *Sketch a graph showing the correct general shape and incorporating all the key points identified above*
 > *Label the graph, the axes, and the key features*

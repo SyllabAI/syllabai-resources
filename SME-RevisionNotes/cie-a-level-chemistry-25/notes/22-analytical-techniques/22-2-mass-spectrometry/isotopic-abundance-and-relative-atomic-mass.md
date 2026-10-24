@@ -24,7 +24,7 @@ guided_study: true
 - The relative atomic mass of an element can be calculated by using the **relative abundance **values
 
   - The relative abundance of an isotope is either given or can be read off the mass spectrum
-- `A subscript r space equals space fraction numerator open parentheses relative space abundance subscript isotope space 1 end subscript mass subscript isotope space 1 end subscript close parentheses space plus open parentheses relative space abundance subscript isotope space 2 end subscript mass subscript isotope space 2 end subscript close parentheses space etc. over denominator 100 end fraction`
+- $A_{r = \frac{( \text{relative} abundance_{isotope} 1} mass_{isotope 1} ) + ( \text{relative} abundance_{isotope 2} mass_{isotope 2} ) etc.}{100}$
 
 > **Worked Example**
 > Calculate the relative atomic mass, *A*<sub>r</sub>, of oxygen to 2 d.p.
@@ -37,7 +37,7 @@ guided_study: true
 > 
 > **Answer:**
 > 
-> - *A*<sub>r </sub>= `fraction numerator open parentheses 99.76 space cross times 16 close parentheses space plus space open parentheses 0.04 space cross times space 17 close parentheses space plus space open parentheses 0.20 space cross times space 18 close parentheses over denominator 100 end fraction`
+> - *A*<sub>r </sub>= $\frac{( 99.76 \times 16 ) + ( 0.04 \times 17 ) + ( 0.20 \times 18 )}{100}$
 > - *A*<sub>r </sub>= 16.0044
 > - *A*<sub>r</sub> = **16.00** (to 2 d.p)
 
@@ -48,6 +48,6 @@ guided_study: true
 > 
 > **Answer:**
 > 
-> - `A subscript r space equals space fraction numerator open parentheses 19.9 space cross times space 10 close parentheses space plus space open parentheses 80.1 space cross times space 11 close parentheses over denominator 100 end fraction`
+> - $A_{r} = \frac{( 19.9 \times 10 ) + ( 80.1 \times 11 )}{100}$
 > - *A*<sub>r </sub>= 10.801
 > - *A*<sub>r</sub> = **10.80** (to 2 d.p)

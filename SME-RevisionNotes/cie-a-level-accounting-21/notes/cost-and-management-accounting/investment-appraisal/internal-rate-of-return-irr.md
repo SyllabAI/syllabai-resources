@@ -46,7 +46,7 @@ Calculate the **[net present values](https://www.savemyexams.com/a-level/account
 - **STEP 4**
 **Multiply** this by the **difference** between the **two discount rates** and **add** this to the **lower** discount rate
 
-  - `fraction numerator NPV space at space lower space rate over denominator NPV space at space lower space rate plus NPV space at space higher space rate end fraction cross times open parentheses higher space rate minus lower space rate close parentheses plus lower space rate`
+  - $\frac{NPV \text{at} \text{lower} rate}{NPV \text{at} \text{lower} \text{rate} + \text{NPV} \text{at} \text{higher} rate} \times ( \text{higher} \text{rate} - \text{lower} \text{rate} ) + \text{lower} \text{rate}$
   
     - Write as a percentage
 
@@ -128,7 +128,7 @@ Calculate the **[net present values](https://www.savemyexams.com/a-level/account
 > - Multiply by the difference between the two rates
 > - Add this to the lower rate
 > 
-> `fraction numerator 2 space 990 over denominator 2 space 990 plus 7 space 330 end fraction cross times open parentheses 5 percent sign minus 3 percent sign close parentheses plus 3 percent sign equals 3.579... percent sign`
+> $\frac{2 990}{2 990 + 7 330} \times ( 5 \% - 3 \% ) + 3 \% = 3.579... \%$
 > 
 > Round to 2 decimal places
 > 

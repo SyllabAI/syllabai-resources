@@ -82,7 +82,7 @@ i) The ionic equation for the disproportionation of manganate(VI) ions, $\mathrm
 
 ii) Calculating `E subscript cell superscript ⦵` for the disproportionation of manganate(VI) ions in **acidic **condition and whether or not the reaction is thermodynamically feasible:
 
-- `begin mathsize 14px style E subscript cell superscript ⦵ end style` = 2.26 − 0.56; **[1 mark]**
+- $E_{cell} ^{\circ}$ = 2.26 − 0.56; **[1 mark]**
 - = (+)1.70 (V)
 **AND**
 (Positive so reaction is) feasible; **[1 mark]**
@@ -93,16 +93,16 @@ For marking points 1 and 2:
 **EITHER**
 
 - 2MnO<sub>4</sub><sup>−</sup> + MnO<sub>2</sub> + 4OH<sup>− </sup>⇌ 3MnO<sub>4</sub><sup>2−</sup> + 2H<sub>2</sub>O; **[1 mark]**
-- `begin mathsize 14px style E subscript cell superscript ⦵ end style` = 0.56 − 0.59 = -0.03 (V); **[1 mark]**
+- $E_{cell} ^{\circ}$ = 0.56 − 0.59 = -0.03 (V); **[1 mark]**
 **OR**
 - Clearly identifies half-equations 1 and 2 from the table; **[1 mark]**
 - Use of the anticlockwise rule or similar to show that the required reaction is not favoured, e.g. desired reaction moves ‘clockwise’ so not (thermodynamically) feasible; **[1 mark]** 
 **OR**
- `begin mathsize 14px style E subscript cell superscript ⦵ end style` = 0.56 − 0.59 = -0.03 (V); **[1 mark]**
+ $E_{cell} ^{\circ}$ = 0.56 − 0.59 = -0.03 (V); **[1 mark]**
 
 **For marking points 3 and 4:**
 
-- (-) 0.03 V / `begin mathsize 14px style E subscript cell superscript ⦵ end style`is (very) small 
+- (-) 0.03 V / $E_{cell} ^{\circ}$is (very) small 
 **OR**
 The equilibrium has significant concentrations of reactants and products; **[1 mark]**
 - The reaction may be shifted in the required direction using concentrated alkali / increasing alkaline concentration; **[1 mark]**
@@ -130,7 +130,7 @@ The equilibrium has significant concentrations of reactants and products; **[1 m
   - *Use of alkaline half-equations to give 3MnO*<sub>*4*</sub><sup>*2−*</sup>* + 2H*<sub>*2*</sub>*O ⇌ 2MnO*<sub>*4*</sub><sup>*−*</sup>* + MnO*<sub>*2*</sub>* + 4OH*<sup>*−*</sup>* scores 1 mark*
 - *In part (ii)*
 
-  - `E subscript cell superscript ⦵ space equals space E subscript reduction superscript ⦵ space minus space E subscript oxidation superscript ⦵`* = +2.26 - (+0.56) = +1.70 V*
+  - $E_{cell} ^{\circ} = E_{reduction} ^{\circ} - E_{oxidation} ^{\circ}$* = +2.26 - (+0.56) = +1.70 V*
   - *You would gain these two marks if:*
   
     - *You used equations 1 and 5 and gave *`E subscript cell superscript ⦵`* = +1.51 - (+0.56) = +0.95 V and stated that the reaction was feasible*
@@ -193,9 +193,9 @@ i) The completed table:
 | **Apparatus** | **Value measured** | **Uncertainty on each** **reading** | **Percentage uncertainty on** **value measured / %** |
 |---|---|---|---|
 | Balance | 1.53 g | ±0.005 g | 0.65 |
-| Burette | 27.35 cm<sup>3</sup> | ±0.05 cm<sup>3</sup> | `equals space fraction numerator 2 space cross times space 0.05 over denominator 27.35 end fraction space cross times space 100 space equals space 0.37 open parentheses percent sign close parentheses` |
-| Pipette | 25.0 cm<sup>3</sup> | ±0.06 cm<sup>3</sup> | `equals space fraction numerator 0.06 over denominator 25.0 end fraction space cross times space 100 space equals space 0.24 open parentheses percent sign close parentheses` |
-| Volumetric flask | 250.0 cm<sup>3</sup> | ±0.3 cm<sup>3</sup> | `equals space fraction numerator 0.03 over denominator 250.0 end fraction space cross times space 100 space equals space 0.12 open parentheses percent sign close parentheses` |
+| Burette | 27.35 cm<sup>3</sup> | ±0.05 cm<sup>3</sup> | $= \frac{2 \times 0.05}{27.35} \times 100 = 0.37 ( \% )$ |
+| Pipette | 25.0 cm<sup>3</sup> | ±0.06 cm<sup>3</sup> | $= \frac{0.06}{25.0} \times 100 = 0.24 ( \% )$ |
+| Volumetric flask | 250.0 cm<sup>3</sup> | ±0.3 cm<sup>3</sup> | $= \frac{0.03}{250.0} \times 100 = 0.12 ( \% )$ |
 
 - All three percentages correct; **[2 marks]**
 - Any two percentages correct; **[1 mark]**
@@ -499,7 +499,7 @@ moles of VO<sup>2+</sup> = 2.40 × 10<sup>-3</sup> mol **[1 mark]**
 
 - Calculate concentration:
 
-concentration = `fraction numerator moles over denominator volume space open parentheses dm cubed close parentheses end fraction`
+concentration = $\frac{moles}{volume ( dm^{3} )}$
 
 concentration of VO<sup>2+</sup> = $\frac{2.40\times10^{-3}}{0.02500}$
 
@@ -688,7 +688,7 @@ percentage by mass of V = **81.4%** **[1 mark]**
 
 - The standard cell potential is calculated by:
 
-  - `E subscript cell superscript ⦵ space equals space E subscript reduction superscript ⦵ space minus space E subscript oxidation superscript ⦵`
+  - $E_{cell} ^{\circ} = E_{reduction} ^{\circ} - E_{oxidation} ^{\circ}$
 - The electrode system Fe<sup>3+</sup>/Fe<sup>2+</sup> undergoes reduction as it is gaining electrons:
 
   - Fe<sup>3+</sup> + e<sup>-</sup> → Fe<sup>2+</sup>
@@ -942,7 +942,7 @@ B is incorrect as the expression *E*<sup>θ</sup><sub>cell</sub> = *E*<sup>θ</s
 D is incorrect as the expression *E*<sup>θ</sup><sub>cell</sub> = *E*<sup>θ</sup><sub>right</sub> + *E*<sup>*θ*</sup><sub>left</sub> was used
 
 ### 3((e)) — 1 marks
-**Correct answer: B** — Ag(s) | Ag<sup>+</sup>(aq) || [ `VO subscript 2 superscript plus open parentheses aq close parentheses` + 2H<sup>+</sup>(aq)] , [VO<sup>2+</sup>(aq) + H<sub>2</sub>O(l)] | Pt(s)
+**Correct answer: B** — Ag(s) | Ag<sup>+</sup>(aq) || [ $VO_{2}^{+} ( \text{aq} )$ + 2H<sup>+</sup>(aq)] , [VO<sup>2+</sup>(aq) + H<sub>2</sub>O(l)] | Pt(s)
 
 **Final answer:** **The correct answer is ****B**** because:**
 

@@ -118,7 +118,7 @@ $\mathrm{LB}\geq\frac{\mathrm{Total} \mathrm{capacity} \mathrm{of} \mathrm{all} 
 > 
 > > *The lower bound will be (greater than or equal to) the total of the weights divided by the capacity (load) of one shelf*
 > 
-> `table attributes columnalign right center left columnspacing 0px end attributes row LB greater or equal than cell fraction numerator 12 plus 16 plus 18 plus 8 plus 16 plus 12 plus 10 plus 4 plus 6 plus 10 plus 12 plus 16 plus 20 plus 10 plus 24 over denominator 40 end fraction end cell row LB greater or equal than cell 194 over 40 end cell row LB greater or equal than cell 4.85 end cell end table`
+> $\begin{array}{rcl} \text{LB} \text{greater} \text{or} \text{equal} \text{than} \frac{12 + 16 + 18 + 8 + 16 + 12 + 10 + 4 + 6 + 10 + 12 + 16 + 20 + 10 + 24}{40} \\ \text{LB} \text{greater} \text{or} \text{equal} \text{than} \frac{194}{40} \\ \text{LB} \text{greater} \text{or} \text{equal} \text{than} 4.85 \end{array}$
 > 
 > > *The number of shelves (bins) will need to be an integer (hence the inequality)*
 > *More than four shelves are needed so round up to five *

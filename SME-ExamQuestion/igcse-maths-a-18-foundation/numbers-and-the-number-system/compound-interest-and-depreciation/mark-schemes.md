@@ -7,7 +7,7 @@
 ### 18() — 3 marks
 > *Add the interest rate to 100% and convert to an equivalent decimal*
 
-`table row cell 100 percent sign plus 4 percent sign end cell equals cell 104 percent sign end cell row cell 104 divided by 100 end cell equals cell 1.04 end cell end table`
+$\begin{gathered} 100 \% + 4 \% & = 104 \% \\ 104 \div 100 & = 1.04 \end{gathered}$
 
 > *Calculate the total amount by multiplying the original amount by the decimal multiplier 3 times to represent each year of investment*
 
@@ -62,7 +62,7 @@ $680\times1.04^{3}=764.90752$
 ### 23() — 3 marks
 > *Work out the decimal multiplier for a depreciation of 8%*
 
-`100 percent sign thin space minus space 8 percent sign thin space equals space 92 percent sign space equals space 0.92`
+$100 \% - 8 \% = 92 \% = 0.92$
 
 > *Raise the decimal multiplier to the number of years and multiply the original amount*
 

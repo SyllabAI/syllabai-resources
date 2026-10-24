@@ -15,7 +15,7 @@ State how the muon is classified in the standard model.
 ### 17((b)) — 2 marks — command: state — structured — from paper 2022 Jan · WPH14/01
 A muon (μ) can be produced by the decay shown in this nuclear equation.
 
-`pi to the power of minus space rightwards arrow space mu to the power of minus space plus space top enclose nu subscript space mu end subscript`
+`pi ^ - -> mu ^ - + top nu _ mu end _`
 
 State the names of the two other particles involved.
 
@@ -52,7 +52,7 @@ Explain why muons in the ring are observed to have a much greater mean lifetime.
 ### 13((a)) — 4 marks — command: show — structured — from paper Oct/Nov 2021 · WPH15/01
 Thorium is an unstable isotope that decays into radium as shown in the nuclear equation.
 
-`Th presubscript 90 presuperscript 228 space rightwards arrow space Ra presubscript 88 presuperscript 224 space plus space straight alpha presubscript 2 presuperscript 4`
+$Th_{90}^{228} \rightarrow Ra_{88}^{224} + \ \\alpha pre_{2} pre^{4}$
 
 The table below gives the masses of the nuclei.
 
@@ -97,14 +97,14 @@ ii) Mark the position of iron-56 on your graph.
 ### 18((c)) — 2 marks — command: complete — structured — from paper June 2021 · WPH15/01
 Complete the nuclear equation below.
 
-`straight U presubscript 92 presuperscript 236 space rightwards arrow space Sr presubscript 38 presuperscript midline horizontal ellipsis midline horizontal ellipsis midline horizontal ellipsis end presuperscript space plus space Xe presubscript midline horizontal ellipsis midline horizontal ellipsis midline horizontal ellipsis end presubscript presuperscript 141 space plus space 2 space cross times space straight n presubscript midline horizontal ellipsis midline horizontal ellipsis midline horizontal ellipsis end presubscript presuperscript horizontal ellipsis horizontal ellipsis horizontal ellipsis end presuperscript`
+`U _ 92 ^ 236 -> Sr _ 38 ^ midline horizontal ellipsis midline horizontal ellipsis midline horizontal ellipsis + Xe _ midline horizontal ellipsis midline horizontal ellipsis midline horizontal ellipsis ^ 141 + 2 x n _ midline horizontal ellipsis midline horizontal ellipsis midline horizontal ellipsis ^ horizontal ellipsis horizontal ellipsis horizontal ellipsis`
 
 ### 18((d)) — 2 marks — command: calculate — structured — from paper June 2021 · WPH15/01
-Calculate, in MeV, the binding energy per nucleon for a nucleus of `straight U presubscript 92 presuperscript 236`.
+Calculate, in MeV, the binding energy per nucleon for a nucleus of `U _ 92 ^ 236`.
 
 |   | **Mass/GeV/c**<sup>**2**</sup> |
 |---|---|
-| `straight U presubscript 92 presuperscript 236` | 219.8750 |
+| `U _ 92 ^ 236` | 219.8750 |
 | n | 0.93956 |
 | p | 0.93827 |
 
@@ -126,7 +126,7 @@ Actinium‐225 has a short half-life, which makes it suitable for medical applic
 
 Complete the nuclear equation for this decay.
 
-`Ac presubscript 89 presuperscript 225 space space rightwards arrow space Fr presubscript midline horizontal ellipsis presuperscript midline horizontal ellipsis space plus space straight alpha presubscript midline horizontal ellipsis presuperscript midline horizontal ellipsis`
+`Ac _ 89 ^ 225 -> Fr _ midline horizontal ellipsis ^ midline horizontal ellipsis + alpha _ midline horizontal ellipsis ^ midline horizontal ellipsis`
 
 ### 20((b)) — 4 marks — command: show — structured — from paper 2022 Jan · WPH15/01
 In a radioactive decay, energy is released and the total mass decreases.

@@ -44,7 +44,7 @@ List the known quantities:
 Use the photoelectric equation to calculate the energy of *λ*<sub>*c*</sub>:
 
 - $E=hf=\frac{hc}{λ}$
-- `E subscript c space equals space fraction numerator open parentheses 6.63 space cross times space 10 to the power of negative 34 end exponent close parentheses space cross times space open parentheses 3 space cross times space 10 to the power of 8 close parentheses over denominator 1500 space cross times space 10 to the power of negative 9 end exponent end fraction space equals space 1.33 space cross times space 10 to the power of negative 19 end exponent space straight J`
+- $E_{c} = \frac{( 6.63 \times 10^{- 34} ) \times ( 3 \times 10^{8 )}{1500 \times 10^{-9} } } = 1.33 \times 10^{- 19} \mathrm{J}$
 - In eV, this is $\frac{1.33\times10^{-19}}{1.6\times10^{-19}}=0.83\mathrm{eV}$ **[1 mark]**
 
 Calculate the first energy level, n = 2:
@@ -55,7 +55,7 @@ Calculate the first energy level, n = 2:
 
 Calculate the energy of *λ*<sub>*b*</sub>:
 
-- `E subscript b space equals space fraction numerator open parentheses 6.63 space cross times space 10 to the power of negative 34 end exponent close parentheses space cross times space open parentheses 3 space cross times space 10 to the power of 8 close parentheses over denominator 325 space cross times space 10 to the power of negative 9 end exponent end fraction space equals space 6.12 space cross times space 10 to the power of negative 19 end exponent space straight J`
+- $E_{b} = \frac{( 6.63 \times 10^{- 34} ) \times ( 3 \times 10^{8 )}{325 \times 10^{-9} } } = 6.12 \times 10^{- 19} \mathrm{J}$
 - In eV, this is $\frac{6.12\times10^{-19}}{1.6\times10^{-19}}=3.83\mathrm{eV}$ **[1 mark]**
 
 Calculate the second energy level, n = 3:
@@ -65,7 +65,7 @@ Calculate the second energy level, n = 3:
 
 Calculate the energy of *λ*<sub>*a*</sub>:
 
-- `E subscript a space equals space fraction numerator open parentheses 6.63 space cross times space 10 to the power of negative 34 end exponent close parentheses space cross times space open parentheses 3 space cross times space 10 to the power of 8 close parentheses over denominator 267 space cross times space 10 to the power of negative 9 end exponent end fraction space equals space 7.46 space cross times space 10 to the power of negative 19 end exponent space straight J`
+- $E_{a} = \frac{( 6.63 \times 10^{- 34} ) \times ( 3 \times 10^{8 )}{267 \times 10^{-9} } } = 7.46 \times 10^{- 19} \mathrm{J}$
 - In eV, this is $\frac{7.46\times10^{-19}}{1.6\times10^{-19}}=4.66\mathrm{eV}$ **[1 mark]**
 
 Check your calculations at the end by calculating the value of the transition from n = 1 to n = 3:
@@ -120,21 +120,21 @@ An energy level diagram that would score 6 marks should look like:
 Calculate the energy of the photon corresponding to the 1400 nm line:
 
 - For the line at 1400 nm, this corresponds to an emitted photon wavelength of 1400 × 10<sup>–9</sup> m
-- The energy of this photon *E* = *hf* = *h × *$\frac{c}{λ}$*= *(6.63 × 10<sup>–34</sup>) × `open parentheses fraction numerator 3 cross times 10 to the power of 8 over denominator 1400 cross times 10 to the power of negative 9 end exponent end fraction close parentheses` = 1.42 × 10<sup>–19</sup> J
+- The energy of this photon *E* = *hf* = *h × *$\frac{c}{λ}$*= *(6.63 × 10<sup>–34</sup>) × $( \frac{3 \times 10^{8}{1400 \times 10^{-9} } } )$ = 1.42 × 10<sup>–19</sup> J
 - In electronvolts, this energy is $\frac{1.42\times10^{-19}}{1.6\times10^{-19}}$= 0.9 eV **[1 mark]**
 
 Calculate the energy of the photon corresponding to the 300 nm line:
 
 - For the line at 300 nm, this corresponds to an emitted photon wavelength of 300 × 10<sup>–9</sup> m
 
-- The energy of this photon *E* = *hf* = *h × *$\frac{c}{λ}$*= *(6.63 × 10<sup>–34</sup>) × `open parentheses fraction numerator 3 cross times 10 to the power of 8 over denominator 300 cross times 10 to the power of negative 9 end exponent end fraction close parentheses` = 6.63 × 10<sup>–19</sup> J
+- The energy of this photon *E* = *hf* = *h × *$\frac{c}{λ}$*= *(6.63 × 10<sup>–34</sup>) × $( \frac{3 \times 10^{8}{300 \times 10^{-9} } } )$ = 6.63 × 10<sup>–19</sup> J
 - In electronvolts, this energy is $\frac{6.63\times10^{-19}}{1.6\times10^{-19}}$ = 4.1 eV **[1 mark]**
 
 Calculate the energy of the photon corresponding to the 250 nm line:
 
 - For the line at 250 nm, this corresponds to an emitted photon wavelength of 250 × 10<sup>–9</sup> m
 
-- The energy of this photon *E* = *hf* = *h × *$\frac{c}{λ}$*= *(6.63 × 10<sup>–34</sup>) × `open parentheses fraction numerator 3 cross times 10 to the power of 8 over denominator 250 cross times 10 to the power of negative 9 end exponent end fraction close parentheses` = 7.96 × 10<sup>–19</sup> J
+- The energy of this photon *E* = *hf* = *h × *$\frac{c}{λ}$*= *(6.63 × 10<sup>–34</sup>) × $( \frac{3 \times 10^{8}{250 \times 10^{-9} } } )$ = 7.96 × 10<sup>–19</sup> J
 - In electronvolts, this energy is $\frac{7.96\times10^{-19}}{1.6\times10^{-19}}$= 5.0 eV **[1 mark]**
 
 Calculate the energy levels:
@@ -258,7 +258,7 @@ From data page:
 Frequency calculation from n = 3 → n = 1:
 
 - Δ*E* = *E*<sub>*3*</sub>* − E*<sub>*1*</sub>
-- `E space equals space open parentheses negative 2.4 space cross times space 10 to the power of negative 19 end exponent close parentheses space minus space open parentheses negative 22 space cross times space 10 to the power of negative 19 end exponent close parentheses` **[1 mark]**
+- $E = ( - 2.4 \times 10^{- 19} ) - ( - 22 \times 10^{- 19} )$ **[1 mark]**
 - $E=2.0\times10^{-18}J$** [1 mark]**
 
 **[Total: 2 marks]**
@@ -284,7 +284,7 @@ Change in energy:
 Wavelength calculation:
 
 - Δ*E* = *hf *= $\frac{hc}{λ}$ **[1 mark]**
-- $λ$= $\frac{hc}{\DeltaE}$ = `fraction numerator open parentheses 6.63 cross times 10 to the power of negative 34 end exponent close parentheses cross times open parentheses 3.00 cross times 10 to the power of 8 close parentheses over denominator 3.0 cross times 10 to the power of negative 19 end exponent end fraction` **[1 mark]**
+- $λ$= $\frac{hc}{\DeltaE}$ = $\frac{( 6.63 \times 10^{- 34} ) \times ( 3.00 \times 10^{8 )}{3.0 \times 10^{-19} } }$ **[1 mark]**
 - $λ$= 6.6 × 10<sup>–7</sup> m **[1 mark]**** **
 
 **[Total: 4 marks]**
@@ -313,8 +313,8 @@ List the known quantities:
 Calculate the change in energy in J:
 
 - $\DeltaE=E_{4}-E_{1}$
-- `increment E space equals space minus 7.65 space minus space open parentheses negative 122.4 close parentheses space equals space 114.75 space eV`
-- `increment E space equals space 114. space 75 space cross times space open parentheses 1.602 space cross times space 10 to the power of negative 19 end exponent close parentheses space equals space 1.84 space cross times space 10 to the power of negative 17 end exponent space straight J` **[1 mark]**
+- $\Delta E = - 7.65 - ( - 122.4 ) = 114.75 \text{eV}$
+- $\Delta E = 114. 75 \times ( 1.602 \times 10^{- 19} ) = 1.84 \times 10^{- 17} \mathrm{J}$ **[1 mark]**
 
 Use Planck's equation to calculate the frequency of the emitted photon:
 
@@ -363,14 +363,14 @@ List the known quantities:
 Calculate the smallest change in energy in J from *n *= 4 to *n *= 3:
 
 - $\DeltaE=E_{4}-E_{3}$
-- `increment E space equals space open parentheses negative 7.65 close parentheses space minus space open parentheses negative 13.6 close parentheses space equals space 5.95 space eV`
-- `increment E space equals space 5.95 space cross times space open parentheses 1.602 space cross times space 10 to the power of negative 19 end exponent close parentheses space equals space 9.53 space cross times space 10 to the power of negative 19 end exponent space straight J` **[1 mark]**
+- $\Delta E = ( - 7.65 ) - ( - 13.6 ) = 5.95 \text{eV}$
+- $\Delta E = 5.95 \times ( 1.602 \times 10^{- 19} ) = 9.53 \times 10^{- 19} \mathrm{J}$ **[1 mark]**
 
 Use the photoelectric equation to calculate the wavelength of the photon:
 
 - $\DeltaE=hf=\frac{hc}{λ}$
-- `lambda space equals space fraction numerator h c over denominator increment E end fraction space equals space fraction numerator open parentheses 6.63 space cross times space 10 to the power of negative 34 end exponent close parentheses space cross times space open parentheses 3.00 space cross times space 10 to the power of 8 close parentheses over denominator open parentheses 9.53 space cross times space 10 to the power of negative 19 end exponent close parentheses end fraction`** [1 mark]**
-- `lambda space equals space 2.087 space cross times space 10 to the power of negative 7 end exponent space straight m space equals space 2.09 space cross times space 10 to the power of negative 7 end exponent space straight m space open parentheses 3 space straight s. straight f. close parentheses` **[1 mark]**
+- $\\lambda = \frac{h c}{\Delta E} = \frac{( 6.63 \times 10^{- 34} ) \times ( 3.00 \times 10^{8 )}{( 9.53 \times 10^{-19} } )}$** [1 mark]**
+- $\\lambda = 2.087 \times 10^{- 7} \mathrm{m} = 2.09 \times 10^{- 7} \mathrm{m} ( 3 \mathrm{s} . \mathrm{f} . )$ **[1 mark]**
 
 **[Total: 3 marks]**
 The photon must have an exact amount of energy for a particular transition because:
@@ -478,12 +478,12 @@ List the known quantities:
 Use the photoelectric equation to calculate the energy change:
 
 - $\DeltaE=hf$
-- `increment E space equals space open parentheses 6.63 space cross times space 10 to the power of negative 34 end exponent close parentheses space cross times space open parentheses 3.3 space cross times space 10 to the power of 16 close parentheses`
+- $\Delta E = ( 6.63 \times 10^{- 34} ) \times ( 3.3 \times 10^{16} )$
 - $\DeltaE=2.19\times10^{-17}J$ **[1 mark]**
 
 Consider the transitions between the energy states:
 
-- `increment E space equals space open parentheses negative 0.98 space cross times space 10 to the power of negative 17 end exponent close parentheses space minus space open parentheses negative 3.17 space cross times space 10 to the power of negative 17 end exponent close parentheses space equals space 2.19 space cross times space 10 to the power of negative 17 end exponent space straight J`
+- $\Delta E = ( - 0.98 \times 10^{- 17} ) - ( - 3.17 \times 10^{- 17} ) = 2.19 \times 10^{- 17} \mathrm{J}$
 - $\DeltaE=E_{2}-E_{1}$ **[1 mark]**
 
 **   OR**
@@ -497,13 +497,13 @@ Identify the transitions in Fig. 1.2 which produce a photon in the following reg
 
 Consider the smallest energy change in transition X:
 
-- `increment E subscript X space equals space open parentheses negative 0.22 space cross times space 10 to the power of negative 17 end exponent close parentheses space minus space open parentheses negative 0.45 space cross times space 10 to the power of negative 17 end exponent close parentheses space equals space 0.23 space cross times space 10 to the power of negative 17 end exponent space straight J`
+- $\Delta E_{X} = ( - 0.22 \times 10^{- 17} ) - ( - 0.45 \times 10^{- 17} ) = 0.23 \times 10^{- 17} \mathrm{J}$
 - Lower energy = lower frequency and a longer wavelength
 - Infrared radiation has the longest wavelength
 
 Consider the largest energy change in transition Z:
 
-- `increment E subscript Z space equals space open parentheses negative 0.98 space cross times space 10 to the power of negative 17 end exponent close parentheses space minus space open parentheses negative 3.17 space cross times space 10 to the power of negative 17 end exponent close parentheses space equals space 2.19 space cross times space 10 to the power of negative 17 end exponent space straight J`
+- $\Delta E_{Z} = ( - 0.98 \times 10^{- 17} ) - ( - 3.17 \times 10^{- 17} ) = 2.19 \times 10^{- 17} \mathrm{J}$
 - Higher energy = higher frequency and a shorter wavelength
 - Ultraviolet radiation has the shortest wavelength
 
@@ -545,13 +545,13 @@ Use Fig. 1.1 in **(a) **to identify the ionisation energy of the hypothetical at
 Use the photoelectric equation to calculate the energy absorbed from the photon:
 
 - $E_{p}=hf$
-- `E subscript p space equals space open parentheses 6.63 space cross times space 10 to the power of negative 34 end exponent close parentheses space cross times space open parentheses 5.2 space cross times space 10 to the power of 16 close parentheses`
+- $E_{p} = ( 6.63 \times 10^{- 34} ) \times ( 5.2 \times 10^{16} )$
 - $E_{p}=3.44\times10^{-17}J$ **[1 mark]**
 
 Calculate the kinetic energy of the electron:
 
 - $KE=E_{p}-E_{i}$
-- `K E space equals space open parentheses 3.44 space cross times space 10 to the power of negative 17 end exponent close parentheses space minus space open parentheses 3.17 space cross times space 10 to the power of negative 17 end exponent close parentheses`
+- $K E = ( 3.44 \times 10^{- 17} ) - ( 3.17 \times 10^{- 17} )$
 - $KE=2.7\times10^{-18}J$ **[1 mark]**
 
 **[Total: 3 marks]**

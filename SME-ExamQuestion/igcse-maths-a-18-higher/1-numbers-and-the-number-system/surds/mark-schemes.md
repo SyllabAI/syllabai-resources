@@ -19,7 +19,7 @@ $\frac{12\sqrt{3}}{3}$ * *
 
 *Cancel the whole-number parts of the fraction (by dividing top-and-bottom by 3)* * *
 
-`fraction numerator scriptbase up diagonal strike 12 end scriptbase presuperscript 4 square root of 3 over denominator scriptbase up diagonal strike 3 end scriptbase presuperscript 1 end fraction`
+`( / 12 ^ 4 sqrt( 3)/( / 3 ^ 1)`
 
 $4\sqrt{3}$* ***[1]**
 
@@ -27,24 +27,24 @@ $4\sqrt{3}$* ***[1]**
 *Method 1* 
 *Write √8 in terms of √2 (using the surd law *$\sqrt{ab}=\sqrt{a}\times\sqrt{b}$*)* * *
 
-`table row cell square root of 8 end cell equals cell square root of 4 cross times 2 end root end cell row blank equals cell square root of 4 cross times square root of 2 end cell row blank equals cell 2 square root of 2 end cell end table` * *
+$\begin{gathered} \sqrt{8 & = \sqrt{4} \times 2} \\ = \sqrt{4} \times \sqrt{2} \\ = 2 \sqrt{2} \end{gathered}$ * *
 
 *Collect the √2 and 2√2 inside the brackets* * *
 
-`open parentheses square root of 2 plus 2 square root of 2 close parentheses squared equals open parentheses 3 square root of 2 close parentheses squared`
+$( \sqrt{2} + 2 \sqrt{2} )^{2} = ( 3 \sqrt{2} )^{2}$
 
 **[1]**
 
-*Square 3√2, using the index law *`open parentheses a b close parentheses to the power of n equals a to the power of n b to the power of n`* and that (√2)*<sup>*2*</sup>* = 2* * *
+*Square 3√2, using the index law *$( a b )^{n} = a^{n} b^{n}$* and that (√2)*<sup>*2*</sup>* = 2* * *
 
-`3 squared open parentheses square root of 2 close parentheses squared equals 9 cross times 2`
+$3^{2} ( \sqrt{2} )^{2} = 9 \times 2$
 
 **18*** ***[1]**
 
 *Method 2* 
 *Write as the product of two brackets* * *
 
-`open parentheses square root of 2 plus square root of 8 close parentheses open parentheses square root of 2 plus square root of 8 close parentheses` * *
+$( \sqrt{2} + \sqrt{8} ) ( \sqrt{2} + \sqrt{8} )$ * *
 
 *Expand the brackets (by multiplying all terms in the first bracket by all terms in the second bracket)* * *
 
@@ -52,7 +52,7 @@ $\sqrt{2}\times\sqrt{2}+\sqrt{2}\times\sqrt{8}+\sqrt{8}\times\sqrt{2}+\sqrt{8}\t
 
 **[1]**
 
-*Simplify the first and last terms (using the surd law *`square root of a cross times square root of a equals open parentheses square root of a close parentheses squared equals a`*)* * *
+*Simplify the first and last terms (using the surd law *$\sqrt{a} \times \sqrt{a} = ( \sqrt{a} )^{2} = a$*)* * *
 
 $2+\sqrt{2}\times\sqrt{8}+\sqrt{8}\times\sqrt{2}+8$ * *
 
@@ -72,24 +72,24 @@ $2+4+4+8$
 *Method 1* 
 *Write √12 in terms of √3 (using the surd law *$\sqrt{ab}=\sqrt{a}\times\sqrt{b}$*)* * *
 
-`table row cell square root of 12 end cell equals cell square root of 4 cross times 3 end root end cell row blank equals cell square root of 4 cross times square root of 3 end cell row blank equals cell 2 square root of 3 end cell end table` * *
+$\begin{gathered} \sqrt{12 & = \sqrt{4} \times 3} \\ = \sqrt{4} \times \sqrt{3} \\ = 2 \sqrt{3} \end{gathered}$ * *
 
 *Collect the 2√3 and √3 inside the brackets* * *
 
-`open parentheses 2 square root of 3 minus square root of 3 close parentheses squared equals open parentheses square root of 3 close parentheses squared`
+$( 2 \sqrt{3} - \sqrt{3} )^{2} = ( \sqrt{3} )^{2}$
 
 **[1]**
 
 *Square √3* * *
 
-`open parentheses square root of 3 close parentheses squared equals 3`
+$( \sqrt{3} )^{2} = 3$
 
 **3*** ***[1]**
 
 *Method 2* 
 *Write as the product of two brackets* * *
 
-`open parentheses square root of 12 minus square root of 3 close parentheses open parentheses square root of 12 minus square root of 3 close parentheses` * *
+$( \sqrt{12} - \sqrt{3} ) ( \sqrt{12} - \sqrt{3} )$ * *
 
 *Expand the brackets (by multiplying all terms in the first bracket by all terms in the second bracket)* * *
 
@@ -97,7 +97,7 @@ $\sqrt{12}\times\sqrt{12}-\sqrt{12}\times\sqrt{3}-\sqrt{3}\times\sqrt{12}+\sqrt{
 
 **[1]**
 
-*Simplify the first and last terms (using the surd law *`square root of a cross times square root of a equals open parentheses square root of a close parentheses squared equals a`*)* * *
+*Simplify the first and last terms (using the surd law *$\sqrt{a} \times \sqrt{a} = ( \sqrt{a} )^{2} = a$*)* * *
 
 $12-\sqrt{12}\times\sqrt{3}-\sqrt{12}\times\sqrt{3}+3$ * *
 
@@ -128,7 +128,7 @@ $\frac{10\sqrt{5}}{5}$ * *
 
 *Cancel the whole-number parts of the fraction (by dividing top-and-bottom by 5)* * *
 
-`fraction numerator scriptbase up diagonal strike 10 end scriptbase presuperscript 2 square root of 5 over denominator scriptbase up diagonal strike 5 end scriptbase presuperscript 1 end fraction`
+`( / 10 ^ 2 sqrt( 5)/( / 5 ^ 1)`
 
 $2\sqrt{5}$* ***[1]**
 
@@ -161,17 +161,17 @@ $\sqrt{12}=\sqrt{4}\times\sqrt{3}=2\sqrt{3}$
 
 **[1]**
 
-`table row cell therefore 6 plus 2 square root of 12 end cell equals cell 6 plus 2 open parentheses 2 square root of 3 close parentheses end cell row blank equals cell 6 plus 4 square root of 3 end cell end table`
+$\begin{gathered} \therefore 6 + 2 \sqrt{12} & = 6 + 2 ( 2 \sqrt{3} ) \\ = 6 + 4 \sqrt{3} \end{gathered}$
 
 > *Expand the brackets and simplify the terms.*
 
-`table row cell open parentheses 6 plus 4 square root of 3 close parentheses open parentheses 6 plus 4 square root of 3 close parentheses end cell equals cell 36 plus 24 square root of 3 plus 24 square root of 3 plus open parentheses 16 cross times 3 close parentheses end cell row blank equals cell 36 plus 48 square root of 3 plus 48 end cell row blank equals cell 84 plus 48 square root of 3 end cell end table`
+$\begin{gathered} ( 6 + 4 \sqrt{3} ) ( 6 + 4 \sqrt{3} ) & = 36 + 24 \sqrt{3} + 24 \sqrt{3} + ( 16 \times 3 ) \\ = 36 + 48 \sqrt{3} + 48 \\ = 84 + 48 \sqrt{3} \end{gathered}$
 
 **[1]**
 
 > *Factorise out the highest common factor of 12.*
 
-`bold therefore stretchy left parenthesis 6 space plus 2 root index blank of 12 stretchy right parenthesis to the power of bold 2 bold space bold equals bold space bold 12 stretchy left parenthesis 7 space plus space 4 square root of 3 stretchy right parenthesis` **[1]**
+`therefore stretchy ( 6 + 2 sqrt index _ of 12 stretchy ) ^ 2 = 12 stretchy ( 7 + 4 sqrt( 3 stretchy )` **[1]**
 
 ## Q6 — medium — 3 marks · exam-questions
 
@@ -259,7 +259,7 @@ $\sqrt{4}\times\sqrt{5}=2\sqrt{5}$ **[1]**
 ### 1() — 3 marks
 Multiply the numerator and the denominator by the denominator but use the opposite sign
 
-`fraction numerator 3 open parentheses 8 plus square root of 2 close parentheses over denominator open parentheses 8 minus square root of 2 close parentheses open parentheses 8 plus square root of 2 close parentheses end fraction`
+$\frac{3 ( 8 + \sqrt{2} )}{( 8 - \sqrt{2} ) ( 8 + \sqrt{2} )}$
 
 **[M1]**
 
@@ -296,35 +296,35 @@ $\frac{5\sqrt{2}}{2}$* ***[1]**
 *Method 1* 
 *Find (2 + √3)*<sup>*2*</sup>* (by multiplying 2 + √3 by itself)*
 
-`table row cell open parentheses 2 plus square root of 3 close parentheses open parentheses 2 plus square root of 3 close parentheses end cell equals cell 2 cross times 2 plus 2 cross times square root of 3 plus square root of 3 cross times 2 plus square root of 3 cross times square root of 3 end cell end table`
+$\begin{gathered} ( 2 + \sqrt{3} ) ( 2 + \sqrt{3} ) & = 2 \times 2 + 2 \times \sqrt{3} + \sqrt{3} \times 2 + \sqrt{3} \times \sqrt{3} \end{gathered}$
 
-*Simplify the terms (using the surd law *`square root of a cross times square root of a equals open parentheses square root of a close parentheses squared equals a`* for the last term) then collect like terms* * *
+*Simplify the terms (using the surd law *$\sqrt{a} \times \sqrt{a} = ( \sqrt{a} )^{2} = a$* for the last term) then collect like terms* * *
 
-`table row blank equals cell 4 plus 2 square root of 3 plus 2 square root of 3 plus 3 end cell row blank equals cell 7 plus 4 square root of 3 end cell end table`
+$\begin{gathered} = 4 + 2 \sqrt{3} + 2 \sqrt{3} + 3 \\ = 7 + 4 \sqrt{3} \end{gathered}$
 
 **[1]**
 
 > *Find (2 - √3)*<sup>*2*</sup>* (by multiplying 2 - √3 by itself) and do the same steps as above  *
 
-`table row cell open parentheses 2 minus square root of 3 close parentheses open parentheses 2 minus square root of 3 close parentheses end cell equals cell 2 cross times 2 minus 2 cross times square root of 3 minus square root of 3 cross times 2 plus square root of 3 cross times square root of 3 end cell row blank equals cell 4 minus 2 square root of 3 minus 2 square root of 3 plus 3 end cell row blank equals cell 7 minus 4 square root of 3 end cell end table`
+$\begin{gathered} ( 2 - \sqrt{3} ) ( 2 - \sqrt{3} ) & = 2 \times 2 - 2 \times \sqrt{3} - \sqrt{3} \times 2 + \sqrt{3} \times \sqrt{3} \\ = 4 - 2 \sqrt{3} - 2 \sqrt{3} + 3 \\ = 7 - 4 \sqrt{3} \end{gathered}$
 
 > *Find (2 + √3)*<sup>*2*</sup>* - (2 - √3)*<sup>*2*</sup>*  by subtracting the two results above (using brackets around the results) *
 *Collect like terms  *
 
-`table row cell open parentheses 2 plus square root of 3 close parentheses squared minus open parentheses 2 minus square root of 3 close parentheses squared end cell equals cell open parentheses 7 plus 4 square root of 3 close parentheses minus open parentheses 7 minus 4 square root of 3 close parentheses end cell row blank equals cell 7 plus 4 square root of 3 minus 7 plus 4 square root of 3 end cell row blank equals cell 8 square root of 3 end cell end table`
+$\begin{gathered} ( 2 + \sqrt{3} )^{2} - ( 2 - \sqrt{3} )^{2} & = ( 7 + 4 \sqrt{3} ) - ( 7 - 4 \sqrt{3} ) \\ = 7 + 4 \sqrt{3} - 7 + 4 \sqrt{3} \\ = 8 \sqrt{3} \end{gathered}$
 
 $8\sqrt{3}$** *** ***[1]**
 
 *Method 2*** **
 *Use the "difference of two squares" to factorise **a*<sup>*2*</sup>* - **b*<sup>*2*</sup>*  *
 
-`a squared minus b squared equals open parentheses a plus b close parentheses open parentheses a minus b close parentheses`
+$a^{2} - b^{2} = ( a + b ) ( a - b )$
 
 **[1]**
 
 > *Substitute **a** = 2 + √3 and **b** = 2 - √3 into the expression and collect like terms  *
 
-`table attributes columnalign right center left columnspacing 0px end attributes row cell a squared minus b squared end cell equals cell open parentheses 2 plus square root of 3 plus 2 minus square root of 3 close parentheses open parentheses 2 plus square root of 3 minus open parentheses 2 minus square root of 3 close parentheses close parentheses end cell row blank equals cell open parentheses 4 close parentheses open parentheses 2 plus square root of 3 minus 2 plus square root of 3 close parentheses end cell row blank equals cell 4 open parentheses 2 square root of 3 close parentheses end cell row blank equals cell 8 square root of 3 end cell end table`
+$\begin{array}{rcl} a^{2} - b^{2} & = ( 2 + \sqrt{3} + 2 - \sqrt{3} ) ( 2 + \sqrt{3} - ( 2 - \sqrt{3} ) ) \\ = ( 4 ) ( 2 + \sqrt{3} - 2 + \sqrt{3} ) \\ = 4 ( 2 \sqrt{3} ) \\ = 8 \sqrt{3} \end{array}$
 
 $8\sqrt{3}$* ***[1]**
 
@@ -333,12 +333,12 @@ $8\sqrt{3}$* ***[1]**
 ### 21() — 2 marks
 *Expand the brackets (by multiplying each term in the first bracket by each term in the second bracket)* * *
 
-`1 cross times 3 plus 1 cross times open parentheses negative square root of 2 close parentheses plus square root of 2 cross times 3 plus square root of 2 cross times open parentheses negative square root of 2 close parentheses
-equals 3 minus square root of 2 plus 3 square root of 2 minus square root of 2 cross times square root of 2`
+$1 \times 3 + 1 \times ( - \sqrt{2} ) + \sqrt{2} \times 3 + \sqrt{2} \times ( - \sqrt{2} )
+= 3 - \sqrt{2} + 3 \sqrt{2} - \sqrt{2} \times \sqrt{2}$
 
 **[1]**
 
-*Simplify the last term (using the surd law *`square root of a cross times square root of a equals open parentheses square root of a close parentheses squared equals a`*) and collect any like terms* * *
+*Simplify the last term (using the surd law *$\sqrt{a} \times \sqrt{a} = ( \sqrt{a} )^{2} = a$*) and collect any like terms* * *
 
 $=3+2\sqrt{2}-2\,=1+2\sqrt{2}$ * *
 
@@ -351,14 +351,14 @@ $1+2\sqrt{2}$** ****[1]**
 ### 20((a)) — 1 marks
 *He expanded the denominator incorrectly (the last term should be negative)*
 
-`open parentheses 2 plus square root of 3 close parentheses open parentheses 2 minus square root of 3 close parentheses equals 4 plus 2 square root of 3 minus 2 square root of 3 bottom enclose negative 3 end enclose`
+`( 2 + sqrt( 3 ) ( 2 - sqrt( 3 ) = 4 + 2 sqrt( 3 - 2 sqrt( 3 bottom - 3`
 
 **The last term when expanding the denominator should be -3, not +3** **[1]**
 
 ### 20((b)) — 1 marks
 *She used √12 = 3√2 in the numerator, but √12 = 2√3*
 
-`table row cell square root of 12 end cell equals cell square root of 4 cross times 3 end root end cell row blank equals cell square root of 4 cross times square root of 3 end cell row blank equals cell 2 square root of 3 end cell end table`
+$\begin{gathered} \sqrt{12 & = \sqrt{4} \times 3} \\ = \sqrt{4} \times \sqrt{3} \\ = 2 \sqrt{3} \end{gathered}$
 
 **√12 = 2√3, not 3√2*** ***[1]**
 
@@ -371,7 +371,7 @@ $6\times6+6\times\sqrt{5}-\sqrt{5}\times6-\sqrt{5}\times\sqrt{5}\,=36+6\sqrt{5}-
 
 **[1]**
 
-*Simplify the last term (using the surd law *`square root of a cross times square root of a equals open parentheses square root of a close parentheses squared equals a`*) and collect any like terms (the surd parts cancel)* * *
+*Simplify the last term (using the surd law *$\sqrt{a} \times \sqrt{a} = ( \sqrt{a} )^{2} = a$*) and collect any like terms (the surd parts cancel)* * *
 
 $=36-5\,=31$
 
@@ -394,7 +394,7 @@ $\frac{31}{\sqrt{31}}\times\frac{\sqrt{31}}{\sqrt{31}}$
 
 > *Cancel 31 from top-and-bottom  *
 
-`fraction numerator up diagonal strike 31 square root of 31 over denominator up diagonal strike 31 end fraction`
+$\frac{ \cancel{31} \sqrt{31} }{ \cancel{31} }$
 
 > * *
 
@@ -409,7 +409,7 @@ $\frac{\sqrt{31}\sqrt{31}}{\sqrt{31}}$
 
 *Cancel √31 from top-and-bottom***  **
 
-`fraction numerator up diagonal strike square root of 31 end strike square root of 31 over denominator up diagonal strike square root of 31 end strike end fraction`
+$\frac{ \cancel{ \sqrt{31} } \sqrt{31} }{ \cancel{ \sqrt{31} } }$
 
 $\sqrt{31}$** ****[1]**
 
@@ -419,23 +419,23 @@ $\sqrt{31}$** ****[1]**
 *Method 1* 
 *Write √8 in terms of √2 (using the surd law *$\sqrt{ab}=\sqrt{a}\times\sqrt{b}$*)* * *
 
-`table row cell square root of 8 end cell equals cell square root of 4 cross times 2 end root end cell row blank equals cell square root of 4 cross times square root of 2 end cell row blank equals cell 2 square root of 2 end cell end table`
+$\begin{gathered} \sqrt{8 & = \sqrt{4} \times 2} \\ = \sqrt{4} \times \sqrt{2} \\ = 2 \sqrt{2} \end{gathered}$
 
 **[1]**
 
 *Write √18 in terms of √2 (using the surd law *$\sqrt{ab}=\sqrt{a}\times\sqrt{b}$*)* * *
 
-> `table row cell square root of 18 end cell equals cell square root of 9 cross times 2 end root end cell row blank equals cell square root of 9 cross times square root of 2 end cell row blank equals cell 3 square root of 2 end cell end table`* *
+> $\begin{gathered} \sqrt{18 & = \sqrt{9} \times 2} \\ = \sqrt{9} \times \sqrt{2} \\ = 3 \sqrt{2} \end{gathered}$* *
 
 > *Substitute the results above into the question   *
 
-`square root of 5 open parentheses 2 square root of 2 plus 3 square root of 2 close parentheses`
+$\sqrt{5} ( 2 \sqrt{2} + 3 \sqrt{2} )$
 
 **[1]*** *
 
 > *Add the "like" surds inside the brackets  *
 
-> `square root of 5 open parentheses 5 square root of 2 close parentheses`*  *
+> $\sqrt{5} ( 5 \sqrt{2} )$*  *
 
 > *Write out the result as a multiplication and use the surd law *$\sqrt{a}\times\sqrt{b}=\sqrt{ab}$*  *
 
@@ -475,7 +475,7 @@ $4\times4+4\times\sqrt{3}-\sqrt{3}\times4-\sqrt{3}\times\sqrt{3}\,=16+4\sqrt{3}-
 
 **[1]**
 
-*Simplify the last term (using the surd law *`square root of a cross times square root of a equals open parentheses square root of a close parentheses squared equals a`*) and collect any like terms (the surd parts cancel)* * *
+*Simplify the last term (using the surd law *$\sqrt{a} \times \sqrt{a} = ( \sqrt{a} )^{2} = a$*) and collect any like terms (the surd parts cancel)* * *
 
 $=16-3\,=13$
 
@@ -496,7 +496,7 @@ $\frac{13}{\sqrt{13}}\times\frac{\sqrt{13}}{\sqrt{13}}$
 
 > *Cancel 13 from top-and-bottom  *
 
-`fraction numerator up diagonal strike 13 square root of 13 over denominator up diagonal strike 13 end fraction`
+$\frac{ \cancel{13} \sqrt{13} }{ \cancel{13} }$
 
 > * *
 
@@ -509,7 +509,7 @@ $\frac{\sqrt{13}\sqrt{13}}{\sqrt{13}}$
 
 *Cancel √13 from top-and-bottom***  **
 
-`fraction numerator up diagonal strike square root of 13 end strike square root of 13 over denominator up diagonal strike square root of 13 end strike end fraction`
+$\frac{ \cancel{ \sqrt{13} } \sqrt{13} }{ \cancel{ \sqrt{13} } }$
 
 $\sqrt{13}$** ****[1]**
 
@@ -518,7 +518,7 @@ $\sqrt{13}$** ****[1]**
 ### 18((a)) — 2 marks
 *Write √12 in terms of √3 (using the surd law *$\sqrt{ab}=\sqrt{a}\times\sqrt{b}$*)* * *
 
-`table row cell square root of 12 end cell equals cell square root of 4 cross times 3 end root end cell row blank equals cell square root of 4 cross times square root of 3 end cell row blank equals cell 2 square root of 3 end cell end table`
+$\begin{gathered} \sqrt{12 & = \sqrt{4} \times 3} \\ = \sqrt{4} \times \sqrt{3} \\ = 2 \sqrt{3} \end{gathered}$
 
 **[1]**
 
@@ -541,15 +541,15 @@ $\frac{\sqrt{3}}{3}$ * *
 
 *Put this result back into the question* * *
 
-`open parentheses fraction numerator square root of 3 over denominator 3 end fraction close parentheses to the power of 7` * *
+$( \frac{ \sqrt{3} }{3} )^{7}$ * *
 
-*Apply the power outside the fraction to both the numerator and the denominator (using the index law *`open parentheses a over b close parentheses to the power of n equals a to the power of n over b to the power of n`*)* * *
+*Apply the power outside the fraction to both the numerator and the denominator (using the index law *`( a / b ) ^ n = a ^ n / b ^ n`*)* * *
 
-`open parentheses square root of 3 close parentheses to the power of 7 over 3 to the power of 7` * *
+`( sqrt( 3 ) ^ 7 / 3 ^ 7` * *
 
 *You do not need to work out 3*<sup>*7*</sup>* (this is hard without a calculator)* *Simplify (√3)*<sup>*7*</sup>* (by writing it out as a multiplication and using √3 × √3 = 3)* * *
 
-`table row cell open parentheses square root of 3 close parentheses to the power of 7 end cell equals cell square root of 3 cross times square root of 3 cross times square root of 3 cross times square root of 3 cross times square root of 3 cross times square root of 3 cross times square root of 3 end cell row blank equals cell open parentheses square root of 3 cross times square root of 3 close parentheses cross times open parentheses square root of 3 cross times square root of 3 close parentheses cross times open parentheses square root of 3 cross times square root of 3 close parentheses cross times square root of 3 end cell row blank equals cell 3 cross times 3 cross times 3 cross times square root of 3 end cell row blank equals cell 3 cubed square root of 3 end cell end table`
+$\begin{gathered} ( \sqrt{3} )^{7} & = \sqrt{3} \times \sqrt{3} \times \sqrt{3} \times \sqrt{3} \times \sqrt{3} \times \sqrt{3} \times \sqrt{3} \\ = ( \sqrt{3} \times \sqrt{3} ) \times ( \sqrt{3} \times \sqrt{3} ) \times ( \sqrt{3} \times \sqrt{3} ) \times \sqrt{3} \\ = 3 \times 3 \times 3 \times \sqrt{3} \\ = 3^{3} \sqrt{3} \end{gathered}$
 
 **[1]*** *
 
@@ -568,13 +568,13 @@ $\frac{\sqrt{2187}}{2187}$** is also accepted **
 ### 14((b)) — 3 marks
 > *Multiply the top and bottom of the fraction by *$7+\sqrt{5}$
 
-`fraction numerator 4 over denominator 7 space minus space square root of 5 end fraction cross times fraction numerator 7 space plus space square root of 5 over denominator 7 space plus space square root of 5 end fraction equals fraction numerator 4 open parentheses 7 space plus space square root of 5 close parentheses over denominator open parentheses 7 space minus space square root of 5 close parentheses open parentheses 7 space plus space square root of 5 close parentheses end fraction`
+$\frac{4}{7 - \sqrt{5} } \times \frac{7 + \sqrt{5} }{7 + \sqrt{5} } = \frac{4 ( 7 + \sqrt{5} )}{( 7 - \sqrt{5} ) ( 7 + \sqrt{5} )}$
 
 **[1]**
 
 > *Expand the top and bottom of the fraction, and simplify the terms*
 
-`fraction numerator 4 open parentheses 7 space plus space square root of 5 close parentheses over denominator open parentheses 7 space minus space square root of 5 close parentheses open parentheses 7 space plus space square root of 5 close parentheses end fraction equals fraction numerator 28 plus 4 square root of 5 over denominator 7 squared minus 7 square root of 5 space plus space 7 square root of 5 space minus space open parentheses square root of 5 close parentheses squared end fraction equals fraction numerator 28 plus 4 square root of 5 over denominator 49 minus 5 end fraction equals fraction numerator 28 plus 4 square root of 5 over denominator 44 end fraction`
+$\frac{4 ( 7 + \sqrt{5} )}{( 7 - \sqrt{5} ) ( 7 + \sqrt{5} )} = \frac{28 + 4 \sqrt{5} }{7^{2} - 7 \sqrt{5} + 7 \sqrt{5} - ( \sqrt{5} )^{2}} = \frac{28 + 4 \sqrt{5} }{49 - 5} = \frac{28 + 4 \sqrt{5} }{44}$
 
 **[1]**
 
@@ -593,13 +593,13 @@ $\frac{7}{11}+\frac{1}{11}\sqrt{5}$ **[1]**
 ### 13((b)) — 2 marks
 > *You need to rationalise the denominator. Multiply the top and bottom of the fraction by the denominator with the sign in the middle changed.*
 
-`fraction numerator 3 over denominator open parentheses 2 minus square root of y close parentheses end fraction cross times fraction numerator open parentheses 2 plus square root of y close parentheses over denominator open parentheses 2 plus square root of y close parentheses end fraction`
+$\frac{3}{( 2 - \sqrt{y} )} \times \frac{( 2 + \sqrt{y} )}{( 2 + \sqrt{y} )}$
 
 **[1]**
 
 > *Expand the brackets.*
 
-`table attributes columnalign right center left columnspacing 0px end attributes row blank blank cell fraction numerator 6 plus 3 square root of y over denominator 4 plus 2 square root of y minus 2 square root of y minus y end fraction end cell end table`
+$\begin{array}{rcl} \frac{6 + 3 \sqrt{y} }{4 + 2 \sqrt{y} - 2 \sqrt{y} - y} \end{array}$
 
 > *Cancel out the terms on the denominator.*
 
@@ -610,13 +610,13 @@ $\frac{6+3\sqrt{y}}{4-y}$* ***[1]**
 ### 22() — 3 marks
 > *Multiply the top and bottom of the fraction by *$3+\sqrt{7}$*.*
 
-`fraction numerator 6 over denominator open parentheses 3 space minus space square root of 7 close parentheses end fraction cross times fraction numerator open parentheses 3 space plus space square root of 7 close parentheses over denominator open parentheses 3 space plus space square root of 7 close parentheses end fraction equals fraction numerator 6 open parentheses 3 space plus space square root of 7 close parentheses over denominator open parentheses 3 space minus space square root of 7 close parentheses open parentheses 3 space plus space square root of 7 close parentheses end fraction`
+$\frac{6}{( 3 - \sqrt{7} )} \times \frac{( 3 + \sqrt{7} )}{( 3 + \sqrt{7} )} = \frac{6 ( 3 + \sqrt{7} )}{( 3 - \sqrt{7} ) ( 3 + \sqrt{7} )}$
 
 **[1]**
 
 > *Expand the top and bottom of the fraction, and simplify the terms.*
 
-`fraction numerator 18 plus 6 square root of 7 over denominator 3 squared minus 3 square root of 7 space plus space 3 square root of 7 space minus space open parentheses square root of 7 close parentheses squared end fraction equals fraction numerator 18 plus 6 square root of 7 over denominator 9 minus 7 end fraction equals fraction numerator 18 plus 6 square root of 7 over denominator 2 end fraction`
+$\frac{18 + 6 \sqrt{7} }{3^{2} - 3 \sqrt{7} + 3 \sqrt{7} - ( \sqrt{7} )^{2}} = \frac{18 + 6 \sqrt{7} }{9 - 7} = \frac{18 + 6 \sqrt{7} }{2}$
 
 **[1]**
 
@@ -639,13 +639,13 @@ $\frac{2\sqrt{2}}{2\sqrt{2}-2}=\frac{\sqrt{2}}{\sqrt{2}-1}$
 
 > *Rationalise the denominator by multiplying the top and bottom by *$\sqrt{2}+1.$
 
-`fraction numerator square root of 2 over denominator open parentheses square root of 2 minus 1 close parentheses end fraction cross times fraction numerator open parentheses square root of 2 plus 1 close parentheses over denominator open parentheses square root of 2 plus 1 close parentheses end fraction equals fraction numerator square root of 2 open parentheses square root of 2 plus 1 close parentheses over denominator open parentheses square root of 2 minus 1 close parentheses open parentheses square root of 2 plus 1 close parentheses end fraction`
+$\frac{ \sqrt{2} }{( \sqrt{2} - 1 )} \times \frac{( \sqrt{2} + 1 )}{( \sqrt{2} + 1 )} = \frac{ \sqrt{2} ( \sqrt{2} + 1 )}{( \sqrt{2} - 1 ) ( \sqrt{2} + 1 )}$
 
 **[1]**
 
 > *Expand and simplify the expressions.*
 
-`fraction numerator 2 plus square root of 2 over denominator open parentheses square root of 2 close parentheses squared plus square root of 2 minus square root of 2 minus 1 end fraction equals fraction numerator 2 plus square root of 2 over denominator 2 minus 1 end fraction equals fraction numerator 2 plus square root of 2 over denominator 1 end fraction`
+$\frac{2 + \sqrt{2} }{( \sqrt{2} )^{2} + \sqrt{2} - \sqrt{2} - 1} = \frac{2 + \sqrt{2} }{2 - 1} = \frac{2 + \sqrt{2} }{1}$
 
 $2+\sqrt{2}$ **[1]**
 
@@ -654,13 +654,13 @@ $2+\sqrt{2}$ **[1]**
 ### 21((b)) — 2 marks
 > *Rationalise the denominator by multiplying the top and bottom by *$\sqrt{3}+1.$
 
-`fraction numerator 2 over denominator open parentheses square root of 3 minus 1 close parentheses end fraction cross times fraction numerator open parentheses square root of 3 plus 1 close parentheses over denominator open parentheses square root of 3 plus 1 close parentheses end fraction equals fraction numerator 2 open parentheses square root of 3 plus 1 close parentheses over denominator open parentheses square root of 3 minus 1 close parentheses open parentheses square root of 2 plus 1 close parentheses end fraction`
+$\frac{2}{( \sqrt{3} - 1 )} \times \frac{( \sqrt{3} + 1 )}{( \sqrt{3} + 1 )} = \frac{2 ( \sqrt{3} + 1 )}{( \sqrt{3} - 1 ) ( \sqrt{2} + 1 )}$
 
 **[1]**
 
 > *Expand and simplify the expressions.*
 
-`fraction numerator 2 square root of 3 plus 2 over denominator open parentheses square root of 3 close parentheses squared plus square root of 3 minus square root of 3 minus 1 end fraction equals fraction numerator 2 square root of 3 plus 2 over denominator 3 minus 1 end fraction equals fraction numerator 2 square root of 3 plus 2 over denominator 2 end fraction`
+$\frac{2 \sqrt{3} + 2}{( \sqrt{3} )^{2} + \sqrt{3} - \sqrt{3} - 1} = \frac{2 \sqrt{3} + 2}{3 - 1} = \frac{2 \sqrt{3} + 2}{2}$
 
 > *Simplify by cancelling out the factor of 2.*
 
@@ -671,23 +671,23 @@ $1+\sqrt{3}$ **[1]**
 ### 22() — 3 marks
 > *Write the expression out in full*
 
-`open parentheses 5 square root of 3 minus square root of 12 close parentheses cross times open parentheses 5 square root of 3 minus square root of 12 close parentheses`
+$( 5 \sqrt{3} - \sqrt{12} ) \times ( 5 \sqrt{3} - \sqrt{12} )$
 
 *Expand the brackets* 
 *Be careful with the last term, where a negative multiplied by a negative makes a positive *
 
-`open parentheses 5 square root of 3 cross times 5 square root of 3 close parentheses minus open parentheses 5 square root of 3 cross times square root of 12 close parentheses minus open parentheses 5 square root of 3 cross times square root of 12 close parentheses plus open parentheses square root of 12 cross times square root of 12 close parentheses
-equals open parentheses 5 square root of 3 cross times 5 square root of 3 close parentheses minus 2 open parentheses 5 square root of 3 cross times square root of 12 close parentheses plus open parentheses square root of 12 cross times square root of 12 close parentheses`
+$( 5 \sqrt{3} \times 5 \sqrt{3} ) - ( 5 \sqrt{3} \times \sqrt{12} ) - ( 5 \sqrt{3} \times \sqrt{12} ) + ( \sqrt{12} \times \sqrt{12} )
+= ( 5 \sqrt{3} \times 5 \sqrt{3} ) - 2 ( 5 \sqrt{3} \times \sqrt{12} ) + ( \sqrt{12} \times \sqrt{12} )$
 
 **Accurate expansion ****[1]**
 
 > *Simplify some of the surds using *$\sqrt{a}\times\sqrt{a}=a$* and combine the integers*
 
-`table row blank blank cell open parentheses 5 cross times 5 cross times 3 close parentheses minus 2 open parentheses 5 square root of 3 square root of 12 close parentheses plus open parentheses 12 close parentheses end cell row blank equals cell open parentheses 75 close parentheses minus 2 open parentheses 5 square root of 3 square root of 12 close parentheses plus 12 end cell row blank equals cell 87 minus 2 open parentheses 5 square root of 3 square root of 12 close parentheses end cell end table`
+$\begin{gathered} ( 5 \times 5 \times 3 ) - 2 ( 5 \sqrt{3} \sqrt{12} ) + ( 12 ) \\ = ( 75 ) - 2 ( 5 \sqrt{3} \sqrt{12} ) + 12 \\ = 87 - 2 ( 5 \sqrt{3} \sqrt{12} ) \end{gathered}$
 
 > *Multiply the remaining surds using *$\sqrt{a}\times\sqrt{b}=\sqrt{ab}$* and simplify*
 
-`table row blank blank cell 87 minus 2 open parentheses 5 cross times square root of 3 cross times 12 end root close parentheses space end cell row blank equals cell space 87 minus 2 open parentheses 5 cross times square root of 36 close parentheses end cell row blank equals cell space 87 minus 2 open parentheses 5 cross times 6 close parentheses end cell row blank equals cell 87 minus 2 open parentheses 30 close parentheses end cell row blank equals 27 end table`
+$\begin{gathered} 87 - 2 ( 5 \times \sqrt{3 \times 12} ) \\ = 87 - 2 ( 5 \times \sqrt{36} ) \\ = 87 - 2 ( 5 \times 6 ) \\ = 87 - 2 ( 30 ) \\ = 27 \end{gathered}$
 
 **Reducing to 3 integers ****[1]**
 
@@ -707,13 +707,13 @@ equals open parentheses 5 square root of 3 cross times 5 square root of 3 close 
 
 > *Multiplying the fraction by *$\frac{7+\sqrt{5}}{7+\sqrt{5}}$*will eliminate the surd from the denominator*
 
-`fraction numerator 4 over denominator open parentheses 7 minus square root of 5 close parentheses end fraction cross times fraction numerator open parentheses 7 plus square root of 5 close parentheses over denominator open parentheses 7 plus square root of 5 close parentheses end fraction`
+$\frac{4}{( 7 - \sqrt{5} )} \times \frac{( 7 + \sqrt{5} )}{( 7 + \sqrt{5} )}$
 
 **[M1]**
 
 > *Multiply the fractions, expand the double brackets on the denominator and apply the laws of surds*
 
-`fraction numerator 4 open parentheses 7 plus square root of 5 close parentheses over denominator open parentheses 7 minus square root of 5 close parentheses open parentheses 7 plus square root of 5 close parentheses end fraction equals fraction numerator 28 plus 4 square root of 5 over denominator 49 minus 7 square root of 5 plus 7 square root of 5 minus square root of 25 end fraction`
+$\frac{4 ( 7 + \sqrt{5} )}{( 7 - \sqrt{5} ) ( 7 + \sqrt{5} )} = \frac{28 + 4 \sqrt{5} }{49 - 7 \sqrt{5} + 7 \sqrt{5} - \sqrt{25} }$
 
 **[M1]**
 
@@ -766,49 +766,49 @@ $\sqrt{135}$
 *Method 1* 
 *Find **a*<sup>*2*</sup>* (by multiplying √8 + 2 by itself)*
 
-`table row cell a squared end cell equals cell open parentheses square root of 8 plus 2 close parentheses open parentheses square root of 8 plus 2 close parentheses end cell row blank equals cell square root of 8 cross times square root of 8 plus square root of 8 cross times 2 plus 2 cross times square root of 8 plus 2 cross times 2 end cell end table`
+$\begin{gathered} a^{2} & = ( \sqrt{8} + 2 ) ( \sqrt{8} + 2 ) \\ = \sqrt{8} \times \sqrt{8} + \sqrt{8} \times 2 + 2 \times \sqrt{8} + 2 \times 2 \end{gathered}$
 
 **[1]**
 
-*Simplify the terms (using the surd law *`square root of a cross times square root of a equals open parentheses square root of a close parentheses squared equals a`* for the first term)* * *
+*Simplify the terms (using the surd law *$\sqrt{a} \times \sqrt{a} = ( \sqrt{a} )^{2} = a$* for the first term)* * *
 
-`table row cell a squared end cell equals cell 8 plus 2 square root of 8 plus 2 square root of 8 plus 4 end cell row blank equals cell 12 plus 4 square root of 8 end cell end table` * *
+$\begin{gathered} a^{2} & = 8 + 2 \sqrt{8} + 2 \sqrt{8} + 4 \\ = 12 + 4 \sqrt{8} \end{gathered}$ * *
 
 > *Find **b*<sup>*2*</sup>* (by multiplying √8 - 2 by itself) and do the same steps as above  *
 
-`table row cell b squared end cell equals cell open parentheses square root of 8 minus 2 close parentheses open parentheses square root of 8 minus 2 close parentheses end cell row blank equals cell square root of 8 cross times square root of 8 minus square root of 8 cross times 2 minus 2 cross times square root of 8 plus 2 cross times 2 end cell row blank equals cell 8 minus 2 square root of 8 minus 2 square root of 8 plus 4 end cell row blank equals cell 12 minus 4 square root of 8 end cell end table`
+$\begin{gathered} b^{2} & = ( \sqrt{8} - 2 ) ( \sqrt{8} - 2 ) \\ = \sqrt{8} \times \sqrt{8} - \sqrt{8} \times 2 - 2 \times \sqrt{8} + 2 \times 2 \\ = 8 - 2 \sqrt{8} - 2 \sqrt{8} + 4 \\ = 12 - 4 \sqrt{8} \end{gathered}$
 
 **[1]**
 
 > *Find **a*<sup>*2*</sup>* - **b*<sup>*2*</sup>* by subtracting the two results above (using brackets around the results) Collect like terms  *
 
-`table row cell a squared minus b squared end cell equals cell open parentheses 12 plus 4 square root of 8 close parentheses minus open parentheses 12 minus 4 square root of 8 close parentheses end cell row blank equals cell 12 plus 4 square root of 8 minus 12 plus 4 square root of 8 end cell row blank equals cell 8 square root of 8 end cell end table`
+$\begin{gathered} a^{2} - b^{2} & = ( 12 + 4 \sqrt{8} ) - ( 12 - 4 \sqrt{8} ) \\ = 12 + 4 \sqrt{8} - 12 + 4 \sqrt{8} \\ = 8 \sqrt{8} \end{gathered}$
 
 **[1]**
 
 > *The result must be given in the form **c**√2 where** c** is an integer (whole number) *
 *Write *$\sqrt{8}$* as *$2\sqrt{2}$* (from *$\sqrt{8}=\sqrt{4\times2}=\sqrt{4}\sqrt{2}=2\sqrt{2}$*)  *
 
-`table row cell a squared minus b squared end cell equals cell 8 cross times 2 square root of 2 end cell row blank equals cell 16 square root of 2 end cell end table`
+$\begin{gathered} a^{2} - b^{2} & = 8 \times 2 \sqrt{2} \\ = 16 \sqrt{2} \end{gathered}$
 
 $16\sqrt{2}$** (where ****c**** = 16)*** ***[1]**
 
 *Method 2*** **
 *Use the "difference of two squares" to factorise **a*<sup>*2*</sup>* - **b*<sup>*2*</sup>*  *
 
-`a squared minus b squared equals open parentheses a plus b close parentheses open parentheses a minus b close parentheses`
+$a^{2} - b^{2} = ( a + b ) ( a - b )$
 
 **[1]**
 
 > *Substitute **a** = √8 + 2 and **b** = √8 - 2 into the expression and collect like terms  *
 
-`table attributes columnalign right center left columnspacing 0px end attributes row cell a squared minus b squared end cell equals cell open parentheses square root of 8 plus 2 plus square root of 8 minus 2 close parentheses open parentheses square root of 8 plus 2 minus open parentheses square root of 8 minus 2 close parentheses close parentheses end cell row blank equals cell open parentheses 2 square root of 8 close parentheses open parentheses square root of 8 plus 2 minus square root of 8 plus 2 close parentheses end cell row blank equals cell open parentheses 2 square root of 8 close parentheses open parentheses 4 close parentheses end cell row blank equals cell 8 square root of 8 end cell end table`
+$\begin{array}{rcl} a^{2} - b^{2} & = ( \sqrt{8} + 2 + \sqrt{8} - 2 ) ( \sqrt{8} + 2 - ( \sqrt{8} - 2 ) ) \\ = ( 2 \sqrt{8} ) ( \sqrt{8} + 2 - \sqrt{8} + 2 ) \\ = ( 2 \sqrt{8} ) ( 4 ) \\ = 8 \sqrt{8} \end{array}$
 
 **[1]**
 
 > *The result must be given in the form **c**√2 where** c** is an integer (whole number) Write *$\sqrt{8}$* as *$2\sqrt{2}$* (from *$\sqrt{8}=\sqrt{4\times2}=\sqrt{4}\sqrt{2}=2\sqrt{2}$*)  *
 
-`table attributes columnalign right center left columnspacing 0px end attributes row cell a squared minus b squared end cell equals cell 8 cross times 2 square root of 2 end cell end table`
+$\begin{array}{rcl} a^{2} - b^{2} & = 8 \times 2 \sqrt{2} \end{array}$
 
 **[1]**
 
@@ -827,7 +827,7 @@ $\frac{6-\sqrt{8}}{\sqrt{2}-1}\times\frac{\sqrt{2}+1}{\sqrt{2}+1}$
 
 *Multiply the numerators together and multiply the denominators together* * *
 
-`fraction numerator open parentheses 6 minus square root of 8 close parentheses open parentheses square root of 2 plus 1 close parentheses over denominator open parentheses square root of 2 minus 1 close parentheses open parentheses square root of 2 plus 1 close parentheses end fraction` * *
+$\frac{( 6 - \sqrt{8} ) ( \sqrt{2} + 1 )}{( \sqrt{2} - 1 ) ( \sqrt{2} + 1 )}$ * *
 
 *Expand the brackets*
 
@@ -835,7 +835,7 @@ $\frac{6\times\sqrt{2}+6\times1-\sqrt{8}\times\sqrt{2}-\sqrt{8}\times1}{\sqrt{2}
 
 **[1]**
 
-*Simplify the terms (using the surd laws *`square root of a cross times square root of a equals open parentheses square root of a close parentheses squared equals a`* and *$\sqrt{a}\times\sqrt{b}=\sqrt{a\timesb}$*)* * *
+*Simplify the terms (using the surd laws *$\sqrt{a} \times \sqrt{a} = ( \sqrt{a} )^{2} = a$* and *$\sqrt{a}\times\sqrt{b}=\sqrt{a\timesb}$*)* * *
 
 > $\frac{6\sqrt{2}+6-\sqrt{16}-\sqrt{8}}{2-1}\,=\frac{6\sqrt{2}+6-4-\sqrt{8}}{1}\,=6\sqrt{2}+2-\sqrt{8}$*  *
 
@@ -853,9 +853,9 @@ $2+4\sqrt{2}$* ***[1]**
 *Method 1* 
 *Multiply top-and-bottom by √2* * *
 
-`fraction numerator 1 over denominator 1 plus fraction numerator 1 over denominator square root of 2 end fraction end fraction cross times fraction numerator square root of 2 over denominator square root of 2 end fraction
-equals fraction numerator square root of 2 over denominator square root of 2 open parentheses 1 plus fraction numerator 1 over denominator square root of 2 end fraction close parentheses end fraction
-equals fraction numerator square root of 2 over denominator square root of 2 plus 1 end fraction`
+$\frac{1}{1 + \frac{1}{ \sqrt{2} }} \times \frac{ \sqrt{2} }{ \sqrt{2} } 
+= \frac{ \sqrt{2} }{ \sqrt{2} ( 1 + \frac{1}{ \sqrt{2} } )} 
+= \frac{ \sqrt{2} }{ \sqrt{2} + 1}$
 
 **[1]**
 
@@ -869,7 +869,7 @@ $\frac{\sqrt{2}}{\sqrt{2}+1}\times\frac{\sqrt{2}-1}{\sqrt{2}-1}$
 
 $\frac{\sqrt{2}\times\sqrt{2}-\sqrt{2}\times1}{\sqrt{2}\times\sqrt{2}+\sqrt{2}\times1-1\times\sqrt{2}-1\times1}$ * *
 
-*Simplify the terms (using the surd law *`square root of a cross times square root of a equals open parentheses square root of a close parentheses squared equals a`*)* * *
+*Simplify the terms (using the surd law *$\sqrt{a} \times \sqrt{a} = ( \sqrt{a} )^{2} = a$*)* * *
 
 > $\frac{2-\sqrt{2}}{2-1}\,=\frac{2-\sqrt{2}}{1}$*  *
 
@@ -890,7 +890,7 @@ $\frac{1}{1+\frac{\sqrt{2}}{2}}$
 
 *Rationalise the denominator (by multiplying top-and-bottom by *$1-\frac{\sqrt{2}}{2}$*)* *(Another way is to first multiply top-and-bottom by 2, then rationalise the denominator)* * *
 
-`fraction numerator 1 over denominator open parentheses 1 plus fraction numerator square root of 2 over denominator 2 end fraction close parentheses end fraction cross times fraction numerator open parentheses 1 minus fraction numerator square root of 2 over denominator 2 end fraction close parentheses over denominator open parentheses 1 minus fraction numerator square root of 2 over denominator 2 end fraction close parentheses end fraction`
+$\frac{1}{( 1 + \frac{ \sqrt{2} }{2} )} \times \frac{( 1 - \frac{ \sqrt{2} }{2} )}{( 1 - \frac{ \sqrt{2} }{2} )}$
 
 **[1]**
 
@@ -900,8 +900,8 @@ $\frac{1-\frac{\sqrt{2}}{2}}{1-\frac{2}{4}}\,=\frac{1-\frac{\sqrt{2}}{2}}{\frac{
 
 *Dividing by a half is the same as multiplying by 2 (*$\div\frac{1}{2}$* means *$\times\frac{2}{1}$*)* * *
 
-`equals 2 open parentheses 1 minus fraction numerator square root of 2 over denominator 2 end fraction close parentheses
-equals 2 minus square root of 2`
+$= 2 ( 1 - \frac{ \sqrt{2} }{2} )
+= 2 - \sqrt{2}$
 
 $2-\sqrt{2}$ **[1]**
 
@@ -910,11 +910,11 @@ $2-\sqrt{2}$ **[1]**
 ### 13() — 3 marks
 > *Substitute the values of **a** and **b** into the expression*
 
-`open parentheses a minus b close parentheses open parentheses a plus b close parentheses equals open parentheses open parentheses square root of 8 plus 4 close parentheses minus open parentheses square root of 8 minus 4 close parentheses close parentheses cross times open parentheses open parentheses square root of 8 plus 4 close parentheses plus open parentheses square root of 8 minus 4 close parentheses close parentheses`
+$( a - b ) ( a + b ) = ( ( \sqrt{8} + 4 ) - ( \sqrt{8} - 4 ) ) \times ( ( \sqrt{8} + 4 ) + ( \sqrt{8} - 4 ) )$
 
 > *Simplify the expressions*
 
-`open parentheses square root of 8 minus square root of 8 plus 4 minus negative 4 close parentheses cross times open parentheses square root of 8 plus square root of 8 plus 4 minus 4 close parentheses equals open parentheses 8 close parentheses cross times open parentheses 2 square root of 8 close parentheses space equals space 16 square root of 8`
+$( \sqrt{8} - \sqrt{8} + 4 - - 4 ) \times ( \sqrt{8} + \sqrt{8} + 4 - 4 ) = ( 8 ) \times ( 2 \sqrt{8} ) = 16 \sqrt{8}$
 
 **Any equivalent to **$16\sqrt{8}$** e.g. **$32\sqrt{2}$** ****[2]**
 
@@ -933,7 +933,7 @@ $8\sqrt{4\times8}$ **[1]**
 ### 19() — 3 marks
 > *Multiply the top and bottom of the fraction by *$a+\sqrt{4b}$
 
-`fraction numerator a space plus space square root of 4 b end root over denominator a space minus space square root of 4 b end root end fraction cross times fraction numerator a space plus space square root of 4 b end root over denominator a space plus space square root of 4 b end root end fraction equals fraction numerator a squared plus a square root of 4 b end root plus a square root of 4 b end root plus open parentheses square root of 4 b end root close parentheses squared over denominator a squared minus a square root of 4 b end root plus a square root of 4 b end root minus open parentheses square root of 4 b end root close parentheses squared end fraction`
+$\frac{a + \sqrt{4 b} }{a - \sqrt{4 b} } \times \frac{a + \sqrt{4 b} }{a + \sqrt{4 b} } = \frac{a^{2} + a \sqrt{4 b} + a \sqrt{4 b} + ( \sqrt{4 b} )^{2}}{a^{2} - a \sqrt{4 b} + a \sqrt{4 b} - ( \sqrt{4 b} )^{2}}$
 
 ** Multiply top and bottom by**** **$a+\sqrt{4b}$**[1]**
 
@@ -951,20 +951,20 @@ $2a\sqrt{4b}=2a\sqrt{4}\sqrt{b}=2a\times2\times\sqrt{b}=4a\sqrt{b}$
 
 $\frac{a^{2}+4a\sqrt{b}+4b}{a^{2}-4b}$ **[1]**
 
-**Could also be written as **`fraction numerator open parentheses a plus 2 square root of b close parentheses squared over denominator a squared minus 4 b end fraction`
+**Could also be written as **$\frac{( a + 2 \sqrt{b} )^{2}}{a^{2} - 4 b}$
 
 ## Q30 — very_hard — 3 marks · exam-questions
 
 ### 15((b)) — 3 marks
 > *You need to rationalise the denominator. Multiply the top and bottom of the fraction by the denominator with the sign in the middle changed.*
 
-`fraction numerator 2 over denominator open parentheses 6 minus 3 square root of 2 close parentheses end fraction cross times fraction numerator open parentheses 6 plus 3 square root of 2 close parentheses over denominator open parentheses 6 plus 3 square root of 2 close parentheses end fraction`
+$\frac{2}{( 6 - 3 \sqrt{2} )} \times \frac{( 6 + 3 \sqrt{2} )}{( 6 + 3 \sqrt{2} )}$
 
 **[1]**
 
 > *Expand the brackets. Simplify the bottom.*
 
-`table row blank blank cell fraction numerator 12 plus 6 square root of 2 over denominator 36 plus 18 square root of 2 minus 18 square root of 2 minus open parentheses 9 cross times 2 close parentheses end fraction end cell row blank equals cell fraction numerator 12 plus 6 square root of 2 over denominator 36 minus 18 end fraction end cell row blank equals cell fraction numerator 12 plus 6 square root of 2 over denominator 18 end fraction end cell end table`
+$\begin{gathered} \frac{12 + 6 \sqrt{2} }{36 + 18 \sqrt{2} - 18 \sqrt{2} - ( 9 \times 2 )} \\ = \frac{12 + 6 \sqrt{2} }{36 - 18} \\ = \frac{12 + 6 \sqrt{2} }{18} \end{gathered}$
 
 **[1]**
 
@@ -977,17 +977,17 @@ $\frac{2+\sqrt{2}}{3}$ **[1]**
 ### 17() — 3 marks
 > *You need to rationalise the denominator. Multiply the top and bottom of the fraction by the denominator with the sign in the middle changed.*
 
-`fraction numerator 8 over denominator open parentheses square root of 5 minus 1 close parentheses end fraction cross times fraction numerator open parentheses square root of 5 plus 1 close parentheses over denominator open parentheses square root of 5 plus 1 close parentheses end fraction`
+$\frac{8}{( \sqrt{5} - 1 )} \times \frac{( \sqrt{5} + 1 )}{( \sqrt{5} + 1 )}$
 
 **[1]**
 
 > *Expand the brackets. Simplify the bottom.*
 
-`table row cell fraction numerator 8 square root of 5 plus 8 over denominator 5 minus square root of 5 plus square root of 5 minus 1 end fraction end cell equals cell fraction numerator 8 square root of 5 plus 8 over denominator 4 end fraction end cell end table`
+$\begin{gathered} \frac{8 \sqrt{5} + 8}{5 - \sqrt{5} + \sqrt{5} - 1} & = \frac{8 \sqrt{5} + 8}{4} \end{gathered}$
 
 > *Cancel out the common factor of 4.*
 
-`table row blank blank cell 2 square root of 5 plus 2 end cell end table`
+$\begin{gathered} 2 \sqrt{5} + 2 \end{gathered}$
 
 **[1]**
 
@@ -1008,13 +1008,13 @@ $\mathrm{Length}=\frac{18}{\sqrt{7}+1}$
 
 > *You need to rationalise the denominator. Multiply the top and bottom of the fraction by the denominator with the sign in the middle changed.*
 
-`fraction numerator 18 over denominator open parentheses square root of 7 plus 1 close parentheses end fraction cross times fraction numerator open parentheses square root of 7 minus 1 close parentheses over denominator open parentheses square root of 7 minus 1 close parentheses end fraction`
+$\frac{18}{( \sqrt{7} + 1 )} \times \frac{( \sqrt{7} - 1 )}{( \sqrt{7} - 1 )}$
 
 **[1]**
 
 > *Expand the brackets. Simplify the bottom.*
 
-`table row cell fraction numerator 18 square root of 7 minus 18 over denominator 7 minus square root of 7 plus square root of 7 minus 1 end fraction end cell equals cell fraction numerator 18 square root of 7 minus 18 over denominator 6 end fraction end cell end table`
+$\begin{gathered} \frac{18 \sqrt{7} - 18}{7 - \sqrt{7} + \sqrt{7} - 1} & = \frac{18 \sqrt{7} - 18}{6} \end{gathered}$
 
 **[1]**
 
@@ -1031,13 +1031,13 @@ $\sqrt{8}=\sqrt{4}\times\sqrt{2}=2\sqrt{2}$
 
 > *Rationalise the denominator by multiplying the top and bottom by *$\sqrt{2}+1.$
 
-`fraction numerator open parentheses 4 plus 2 square root of 2 close parentheses over denominator open parentheses square root of 2 minus 1 close parentheses end fraction cross times fraction numerator open parentheses square root of 2 plus 1 close parentheses over denominator open parentheses square root of 2 plus 1 close parentheses end fraction equals fraction numerator open parentheses 4 plus 2 square root of 2 close parentheses open parentheses square root of 2 plus 1 close parentheses over denominator open parentheses square root of 2 minus 1 close parentheses open parentheses square root of 2 plus 1 close parentheses end fraction`
+$\frac{( 4 + 2 \sqrt{2} )}{( \sqrt{2} - 1 )} \times \frac{( \sqrt{2} + 1 )}{( \sqrt{2} + 1 )} = \frac{( 4 + 2 \sqrt{2} ) ( \sqrt{2} + 1 )}{( \sqrt{2} - 1 ) ( \sqrt{2} + 1 )}$
 
 **[1]**
 
 > *Expand and simplify the expressions.*
 
-`fraction numerator 4 square root of 2 plus 4 plus open parentheses 2 cross times 2 close parentheses plus 2 square root of 2 over denominator open parentheses square root of 2 close parentheses squared plus square root of 2 minus square root of 2 minus 1 end fraction equals fraction numerator 6 square root of 2 plus 4 plus 4 over denominator 2 minus 1 end fraction equals fraction numerator 8 plus 6 square root of 2 over denominator 1 end fraction`
+$\frac{4 \sqrt{2} + 4 + ( 2 \times 2 ) + 2 \sqrt{2} }{( \sqrt{2} )^{2} + \sqrt{2} - \sqrt{2} - 1} = \frac{6 \sqrt{2} + 4 + 4}{2 - 1} = \frac{8 + 6 \sqrt{2} }{1}$
 
 **[1]**
 
@@ -1061,7 +1061,7 @@ $\frac{4+2\sqrt{5}}{\sqrt{5}-1}\times\frac{\sqrt{5}+1}{\sqrt{5}+1}=\frac{4\sqrt{
 
 > *Simplify where possible*
 
-`fraction numerator 4 square root of 5 plus 4 plus open parentheses 2 cross times 5 close parentheses plus 2 square root of 5 over denominator 5 minus 1 end fraction equals fraction numerator 6 square root of 5 plus 14 over denominator 4 end fraction`
+$\frac{4 \sqrt{5} + 4 + ( 2 \times 5 ) + 2 \sqrt{5} }{5 - 1} = \frac{6 \sqrt{5} + 14}{4}$
 
 > *Divide the numerator and denominator by 2*
 
@@ -1072,7 +1072,7 @@ $\frac{3\sqrt{5}+7}{2}$** [1]**
 ### 23() — 4 marks
 > *Form an equation for the volume*
 
-`x squared open parentheses 2 square root of 5 minus 3 close parentheses equals open parentheses 13 plus 6 square root of 5 close parentheses`
+$x^{2} ( 2 \sqrt{5} - 3 ) = ( 13 + 6 \sqrt{5} )$
 
 > *Divide to get *$x^{2}$
 
@@ -1091,15 +1091,15 @@ $\frac{13+6\sqrt{5}}{2\sqrt{5}-3}\times\frac{2\sqrt{5}+3}{2\sqrt{5}+3}$
 
 > *Multiply the fractions and simplify*
 
-`table row cell x squared end cell equals cell fraction numerator open parentheses 13 plus 6 square root of 5 close parentheses open parentheses 2 square root of 5 plus 3 close parentheses over denominator open parentheses 2 square root of 5 minus 3 close parentheses open parentheses 2 square root of 5 plus 3 close parentheses end fraction end cell row cell x squared end cell equals cell fraction numerator 26 square root of 5 plus 39 plus 60 plus 18 square root of 5 over denominator 20 minus 9 end fraction end cell row cell x squared end cell equals cell fraction numerator 44 square root of 5 plus 99 over denominator 11 end fraction end cell row cell x squared end cell equals cell 4 square root of 5 plus 9 end cell end table`
+$\begin{gathered} x^{2} & = \frac{( 13 + 6 \sqrt{5} ) ( 2 \sqrt{5} + 3 )}{( 2 \sqrt{5} - 3 ) ( 2 \sqrt{5} + 3 )} \\ x^{2} & = \frac{26 \sqrt{5} + 39 + 60 + 18 \sqrt{5} }{20 - 9} \\ x^{2} & = \frac{44 \sqrt{5} + 99}{11} \\ x^{2} & = 4 \sqrt{5} + 9 \end{gathered}$
 
 **[M1]**
 
 > *You want *$x$* in the form *$a+\sqrt{b}$*, so square this and equate it to your previous answer*
 
-`table row x equals cell a space plus square root of b end cell row cell x squared end cell equals cell open parentheses a space plus square root of b close parentheses squared end cell row cell x squared end cell equals cell space a squared plus 2 a square root of b plus b end cell end table`
+$\begin{gathered} x = a + \sqrt{b} \\ x^{2} & = ( a + \sqrt{b} )^{2} \\ x^{2} & = a^{2} + 2 a \sqrt{b} + b \end{gathered}$
 
-`table row cell 4 square root of 5 plus 9 end cell equals cell a squared plus 2 a square root of b plus b end cell end table`
+$\begin{gathered} 4 \sqrt{5} + 9 & = a^{2} + 2 a \sqrt{b} + b \end{gathered}$
 
 > *Compare the terms of the equation*
 

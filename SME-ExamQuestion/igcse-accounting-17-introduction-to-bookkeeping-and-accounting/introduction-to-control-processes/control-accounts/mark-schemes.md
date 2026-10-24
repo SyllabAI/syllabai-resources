@@ -132,7 +132,7 @@
 > 
 > | Date<br><br>2022 | Details | \$ | Date<br><br>2022 | Details | \$ |
 > |---|---|---|---|---|---|
-> | Mar 1 | Balance b/d | 48 220 | Mar 31 | Bank / Cash book | `open curly brackets table row cell 38 space 590 end cell row blank row blank row 410 row blank end table close`<br><br>**(1fb)** |
+> | Mar 1 | Balance b/d | 48 220 | Mar 31 | Bank / Cash book | $\{ \begin{gathered} 38 590 \\ \\ \\ 410 \\ \end{gathered} )$<br><br>**(1fb)** |
 > | 31 | Sales day book | 41 480** (1)** |   | Cash book / Discount allowed |   |
 > |   | Bank / Cash book | 360 **(1)** |   | Journal / Contra / setoff | 270 **(1)** |
 > |   |   |   |   | Journal / Irrecoverable debts | 1 930 **(1)** |

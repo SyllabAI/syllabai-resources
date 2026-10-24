@@ -54,7 +54,7 @@ guided_study: false
 ** **
 **Example calculations using a variable cost of \$60 per unit**
 
-| **Output (Q)** | **TFC** | **TVC = **`begin mathsize 11px style $ 60 space straight x space straight Q end style` | **TC = **$\mathrm{TFC}+\mathrm{TVC}$ | **AC = **$\frac{\mathrm{TC}}{Q}$ |
+| **Output (Q)** | **TFC** | **TVC = **$\$ 60 \mathrm{x} \mathrm{Q}$ | **TC = **$\mathrm{TFC}+\mathrm{TVC}$ | **AC = **$\frac{\mathrm{TC}}{Q}$ |
 |---|---|---|---|---|
 | 0 | 200 | - | 200 | - |
 | 1 | 200 | 60 | 260 | 260 |

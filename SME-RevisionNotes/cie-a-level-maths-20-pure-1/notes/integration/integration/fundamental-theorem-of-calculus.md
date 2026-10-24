@@ -31,7 +31,7 @@ guided_study: true
 - When differentiating **y**, constant terms ‘disappear’
 
   - for constants **y = c**, $\frac{dy}{dx}=0$
-  - graphs of constants are horizontal lines and so have gradient `open parentheses fraction numerator d y over denominator d x end fraction close parentheses`** **of 0
+  - graphs of constants are horizontal lines and so have gradient $( \frac{d y}{d x} )$** **of 0
 - Integrating $\frac{dy}{dx}$, to get **y**, cannot determine the constant
 
   - To acknowledge this constant, “**+ c**” is used

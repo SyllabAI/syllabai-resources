@@ -333,14 +333,14 @@ For example, the calculation $-3--5=2$ but the calculation $-7--5=-2$.
 
 **True or False?**
 
-`open parentheses negative 3 close parentheses squared equals negative 3 squared`
+$( - 3 )^{2} = - 3^{2}$
 
 
 **BACK**
 
 **False.**
 
-`open parentheses negative 3 close parentheses squared equals negative 3 cross times negative 3 equals 9` but `negative 3 squared equals negative open parentheses 3 cross times 3 close parentheses equals negative 9`.
+$( - 3 )^{2} = - 3 \times - 3 = 9$ but $- 3^{2} = - ( 3 \times 3 ) = - 9$.
 
 It is always important to put **brackets** around negative values when you are substituting them into calculations!
 
@@ -461,7 +461,7 @@ BIDMAS/BODMAS is an acronym that stands for the **order of operations** in mathe
 
 When using **BIDMAS/BODMAS **on a calculation that only involves **addition **and **subtraction**, the calculation should be performed from **left to right**.
 
-E.g. `table row blank blank cell 2 minus 5 plus 7 minus 3 minus 2 end cell end table`
+E.g. $\begin{gathered} 2 - 5 + 7 - 3 - 2 \end{gathered}$
 
 
 **BACK**
@@ -470,8 +470,8 @@ E.g. `table row blank blank cell 2 minus 5 plus 7 minus 3 minus 2 end cell end t
 
 When using BIDMAS/BODMAS on a calculation that only involves addition and subtraction, the calculation should be performed from left to right.
 
-E.g. `table row blank blank cell 2 minus 5 plus 7 minus 3 minus 2 end cell end table`
-`table row blank equals cell negative 3 plus 7 minus 3 minus 2 end cell row blank equals cell 4 minus 3 minus 2 end cell row blank equals cell 1 minus 2 end cell row blank equals cell negative 1 end cell end table`
+E.g. $\begin{gathered} 2 - 5 + 7 - 3 - 2 \end{gathered}$
+$\begin{gathered} = - 3 + 7 - 3 - 2 \\ = 4 - 3 - 2 \\ = 1 - 2 \\ = - 1 \end{gathered}$
 
 
 

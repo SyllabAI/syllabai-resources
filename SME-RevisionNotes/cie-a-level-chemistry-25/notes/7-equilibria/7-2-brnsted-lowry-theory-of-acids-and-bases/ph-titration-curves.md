@@ -169,7 +169,7 @@ guided_study: true
 > 
 >   - Vol acid x Concentration acid = Vol base x Concentration base
 >   - 10 x 0.150 = Vol base x 0.100
->   - `fraction numerator open parentheses 10 space cross times space 0.150 close parentheses over denominator 0.100 end fraction` = 15.0 cm<sup>3</sup>
+>   - $\frac{( 10 \times 0.150 )}{0.100}$ = 15.0 cm<sup>3</sup>
 >   - There is no mark for the height of the vertical section, but the equivalence point must be** above **pH 7 for a weak acid - strong base titration
 > - The curve finishes at pH = 12.5 at 20 cm<sup>3</sup>.
 > 

@@ -239,7 +239,7 @@ $ABC$and $EDC$ are straight lines.
 
 ![q26-paper2hr-nov2020-edexcel-igcse-maths](assets/025-q26-paper2hr-nov2020-edexcel-igcse-maths.png)
 
-`table row cell B C space end cell equals cell space left parenthesis 2 space plus space square root of 5 space right parenthesis space cm space space end cell row cell E D space end cell equals cell space left parenthesis 4 space plus space square root of 5 space right parenthesis space cm space end cell row cell D C space end cell equals cell space 2 space square root of 5 space cm end cell end table`
+$\begin{gathered} B C & = ( 2 + \sqrt{5} ) \text{cm} \\ E D & = ( 4 + \sqrt{5} ) \text{cm} \\ D C & = 2 \sqrt{5} \text{cm} \end{gathered}$
 
 Show that the length of $AB$ is $(p\sqrt{5}+q)\mathrm{cm},$ where $p$ and $q$ are integers whose values are to be found. 
 Show your working clearly.
@@ -635,7 +635,7 @@ $PAQ$ is a tangent to the circle.
 
 Sam is trying to work out the size of angle $m$. Here is his working.
 
-| `table row cell angle space A C B space end cell equals cell space 56 degree end cell row cell m space end cell equals cell space 180 degree space – space 56 degree end cell row cell m space end cell equals cell space 124 degree end cell end table` | angles in the same segment are equal<br><br>angles at a point on a straight line add up to 180° |
+| $\begin{gathered} \text{angle} A C B & = 56^{\circ} \\ m & = 180^{\circ} - 56^{\circ} \\ m & = 124^{\circ} \end{gathered}$ | angles in the same segment are equal<br><br>angles at a point on a straight line add up to 180° |
 |---|---|
 
 Make a criticism of his working.

@@ -126,7 +126,7 @@ guided_study: false
 > **Worked Example**
 > The probability distribution of the discrete random variable $X$ is given by the function
 > 
-> `P left parenthesis X equals x right parenthesis equals open curly brackets table row cell k x squared end cell cell x equals negative 3 comma negative 1 comma 2 comma 4 end cell row 0 otherwise end table close`
+> $P ( X = x ) = \{ \begin{gathered} k x^{2} & x = - 3 , - 1 , 2 , 4 \\ 0 \text{otherwise} \end{gathered} )$
 > 
 > (a) Show that $k=\frac{1}{30}.$
 > 

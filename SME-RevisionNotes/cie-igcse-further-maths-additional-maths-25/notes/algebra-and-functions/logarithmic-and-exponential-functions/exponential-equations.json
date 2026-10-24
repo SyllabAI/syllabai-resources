@@ -108,7 +108,7 @@
   },
   {
    "type": "paragraph",
-   "md": "`table row cell 5 to the power of 2 x end exponent end cell equals 125 row cell 2 x space end cell equals cell space 3 end cell row cell x space end cell equals cell space 3 over 2 end cell end table`"
+   "md": "$\\begin{gathered} 5^{2 x} & = 125 \\\\ 2 x & = 3 \\\\ x & = \\frac{3}{2} \\end{gathered}$"
   },
   {
    "type": "bullets",
@@ -120,7 +120,7 @@
   },
   {
    "type": "paragraph",
-   "md": "`table row cell 27 to the power of x space end cell equals cell space 9 end cell row x equals cell log subscript 27 9 end cell row blank equals cell blank fraction numerator log subscript 3 9 over denominator log subscript 3 27 end fraction end cell row blank equals cell 2 over 3 blank end cell end table`"
+   "md": "$\\begin{gathered} 27^{x} & = 9 \\\\ x = log_{27} 9 \\\\ = \\frac{log_{3} 9}{log_{3} 27} \\\\ = \\frac{2}{3} \\end{gathered}$"
   },
   {
    "type": "heading",
@@ -150,7 +150,7 @@
    "type": "callout",
    "variant": "worked-example",
    "label": "Worked Example",
-   "md": "Solve the equation `4 to the power of x minus 3 open parentheses 2 to the power of x plus 1 end exponent close parentheses plus blank 9 equals 0`.  Give your answer correct to three significant figures.\n\n> *'Spot' the hidden quadratic by noticing that *`4 to the power of x space equals space open parentheses 2 squared close parentheses to the power of x space equals space open parentheses 2 to the power of x close parentheses squared`*.*\n\n> *Rewrite the first term as a power of 2.*\n\n`open parentheses 2 to the power of x close parentheses squared space minus space 3 open parentheses 2 to the power of x space plus space 1 end exponent close parentheses space plus space 9 space equals space 0`\n\n> *Rewrite the middle terms using the laws of indices: If  *`2 to the power of x plus 1 end exponent space equals space 2 to the power of x space cross times space 2 to the power of 1 space equals space 2 open parentheses 2 to the power of x close parentheses`*     *\n\n> * *`open parentheses 2 to the power of x close parentheses squared space minus space 3 cross times 2 open parentheses 2 to the power of x close parentheses space plus space 9 space equals space 0\nopen parentheses 2 to the power of x close parentheses squared space minus space 6 open parentheses 2 to the power of x close parentheses space plus space 9 space equals space 0`*    *\n\n> *USing a substitution can make this easier to solve. *\n\n*Let *$u=2^{x}$\n\n`open parentheses u close parentheses squared space minus space 6 open parentheses u close parentheses space plus space 9 space equals space 0`\n\n> *Factorise.*\n\n`u squared space minus space 6 u space plus space 9 space equals space 0\nopen parentheses u space minus space 3 close parentheses open parentheses u space minus space 3 close parentheses space equals space 0`\n\n> *Solve to find **u** and substitute 2*<sup>*x *</sup>*back in.*\n\n`table row cell u space end cell equals cell space 3 end cell row cell 2 to the power of x space end exponent end cell equals cell space 3 end cell end table`\n\n> *Solve the exponential equation 2*<sup>*x *</sup>*= 3 by taking logarithms of both sides.*\n\n$\\mathrm{ln}2^{x}=\\mathrm{ln}3$\n\n> *Bring the power down using the law of logs *$\\mathrm{ln}x^{m}=m\\mathrm{ln}x$*.*\n\n$x\\mathrm{ln}2=\\mathrm{ln}3$\n\n> *Rearrange and solve. *\n\n$x=\\frac{\\mathrm{ln}3}{\\mathrm{ln}2}=1.584...$\n\n$x=1.58(3s.f.)$"
+   "md": "Solve the equation $4^{x - 3 ( 2^{x} + 1} ) + 9 = 0$.  Give your answer correct to three significant figures.\n\n> *'Spot' the hidden quadratic by noticing that *$4^{x} = ( 2^{2} )^{x} = ( 2^{x} )^{2}$*.*\n\n> *Rewrite the first term as a power of 2.*\n\n$( 2^{x )^{2} - 3 ( 2^{x} + 1} ) + 9 = 0$\n\n> *Rewrite the middle terms using the laws of indices: If  *$2^{x + 1} = 2^{x} \\times 2^{1} = 2 ( 2^{x} )$*     *\n\n> * *$( 2^{x} )^{2} - 3 \\times 2 ( 2^{x} ) + 9 = 0\n( 2^{x} )^{2} - 6 ( 2^{x} ) + 9 = 0$*    *\n\n> *USing a substitution can make this easier to solve. *\n\n*Let *$u=2^{x}$\n\n$( u )^{2} - 6 ( u ) + 9 = 0$\n\n> *Factorise.*\n\n$u^{2} - 6 u + 9 = 0\n( u - 3 ) ( u - 3 ) = 0$\n\n> *Solve to find **u** and substitute 2*<sup>*x *</sup>*back in.*\n\n$\\begin{gathered} u & = 3 \\\\ 2^{x } & = 3 \\end{gathered}$\n\n> *Solve the exponential equation 2*<sup>*x *</sup>*= 3 by taking logarithms of both sides.*\n\n$\\mathrm{ln}2^{x}=\\mathrm{ln}3$\n\n> *Bring the power down using the law of logs *$\\mathrm{ln}x^{m}=m\\mathrm{ln}x$*.*\n\n$x\\mathrm{ln}2=\\mathrm{ln}3$\n\n> *Rearrange and solve. *\n\n$x=\\frac{\\mathrm{ln}3}{\\mathrm{ln}2}=1.584...$\n\n$x=1.58(3s.f.)$"
   }
  ]
 }

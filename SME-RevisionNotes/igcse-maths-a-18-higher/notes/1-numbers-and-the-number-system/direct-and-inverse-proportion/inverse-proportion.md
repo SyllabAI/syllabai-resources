@@ -95,15 +95,15 @@ guided_study: false
 > > *We are told this is **inverse** proportion to the square root of *$n$
 > *Write down the formula involving **k*
 > 
-> `t equals fraction numerator k over denominator square root of n end fraction`
+> $t = \frac{k}{ \sqrt{n} }$
 > 
 > > *Find **k** by substituting in *$n=25$* and *$t=50$* (from the words in the question)*
 > 
-> `table row 50 equals cell fraction numerator k over denominator square root of 25 end fraction end cell row 50 equals cell k over 5 end cell row cell 50 cross times 5 end cell equals k row 250 equals k end table`
+> $\begin{gathered} 50 = \frac{k}{ \sqrt{25} } \\ 50 = \frac{k}{5} \\ 50 \times 5 & = k \\ 250 = k \end{gathered}$
 > 
 > > *Substitute this value of **k** back into the formula to get the full equation*
 > 
-> `bold italic t bold equals fraction numerator bold 250 over denominator square root of bold italic n end fraction`
+> `t = ( 250)/(sqrt( n)`
 > 
 > (b) Given that the project needs to be completed within 40 hours, find the minimum number of people needed to work on it.
 > 
@@ -111,7 +111,7 @@ guided_study: false
 > 
 > > *Use the formula to find *$n$* when *$t=40$
 > 
-> `table row 40 equals cell fraction numerator 250 over denominator square root of n end fraction end cell row cell square root of n end cell equals cell 250 over 40 equals 6.25 end cell row n equals cell 6.25 squared equals 39.0625 end cell end table`
+> $\begin{gathered} 40 = \frac{250}{ \sqrt{n} } \\ \sqrt{n} & = \frac{250}{40} = 6.25 \\ n = 6.25^{2} = 39.0625 \end{gathered}$
 > 
 > > *A sensible answer here is a whole number (as *$n$* is the number of people)*
 > *39 people would not complete it in time, but 40 would*

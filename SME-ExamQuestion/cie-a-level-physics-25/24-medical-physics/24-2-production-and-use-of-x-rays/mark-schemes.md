@@ -15,13 +15,13 @@
 
 Use the intensity reflection coefficient equation:
 
-- Intensity reflection coefficient:  `I subscript R over I subscript 0 space equals space open parentheses Z subscript 1 space minus space Z subscript 2 close parentheses squared over open parentheses Z subscript 1 space plus space Z subscript 2 close parentheses squared`
-- Cyst:  `I subscript R over I subscript 0 space equals space open parentheses 1.629 cross times 10 to the power of 6 space minus space 1.601 cross times 10 to the power of 6 close parentheses squared over open parentheses 1.629 cross times 10 to the power of 6 space plus space 1.601 cross times 10 to the power of 6 close parentheses squared space equals space 7.5 cross times 10 to the power of negative 5 end exponent` **[1 mark]**
-- Tumour:  `I subscript R over I subscript 0 space equals space open parentheses 1.629 cross times 10 to the power of 6 space minus space 1.549 cross times 10 to the power of 6 close parentheses squared over open parentheses 1.629 cross times 10 to the power of 6 space plus space 1.549 cross times 10 to the power of 6 close parentheses squared space equals space 6.3 cross times 10 to the power of negative 4 end exponent` **[1 mark]**
+- Intensity reflection coefficient:  `I _ R / I _ 0 = ( Z _ 1 - Z _ 2 ) ^2 / ( Z _ 1 + Z _ 2 ) ^2`
+- Cyst:  `I _ R / I _ 0 = ( 1.629 x 10 ^ 6 - 1.601 x 10 ^ 6 ) ^2 / ( 1.629 x 10 ^ 6 + 1.601 x 10 ^ 6 ) ^2 = 7.5 x 10 ^ - 5` **[1 mark]**
+- Tumour:  `I _ R / I _ 0 = ( 1.629 x 10 ^ 6 - 1.549 x 10 ^ 6 ) ^2 / ( 1.629 x 10 ^ 6 + 1.549 x 10 ^ 6 ) ^2 = 6.3 x 10 ^ - 4` **[1 mark]**
 
 Compare the ratios to the ratio given in the question to identify the medium:
 
-- `I subscript R over I subscript 0 space equals space 7.54 space cross times space 10 to the power of negative 5 end exponent space equals space 7.5 space cross times space 10 to the power of negative 5 end exponent space open parentheses 2 space straight s. straight f. close parentheses` **[1 mark]**
+- `I _ R / I _ 0 = 7.54 x 10 ^ - 5 = 7.5 x 10 ^ - 5 ( 2 s. f. )` **[1 mark]**
 - Therefore, the unknown medium is a cyst
 
 (ii) Determine the length of the cyst:
@@ -35,7 +35,7 @@ List the known quantities:
 Calculate the length of the cyst:
 
 - Distance travelled by ultrasound:  $d=\frac{1}{2}c\Deltat$
-- `d space equals space 1 half cross times 1570 cross times open parentheses 43.2 minus 27.5 close parentheses cross times 10 to the power of negative 6 end exponent` **[1 mark]**
+- $d = 1 \frac{1}{2} \times 1570 \times ( 43.2 - 27.5 ) \times 10^{- 6}$ **[1 mark]**
 - $d=0.01232m=1.2\mathrm{cm}$ **[1 mark]**
 
 **[Total: 6 marks]**
@@ -51,17 +51,17 @@ List the known quantities:
 Calculate the intensity of the X-ray beam at the cyst:
 
 - Intensity of a beam in tissue:  $I=I_{0}e^{-μx}$
-- `I space equals space open parentheses 4.6 space cross times space 10 cubed close parentheses e to the power of negative open parentheses 0.85 space cross times space 2.1 close parentheses end exponent space equals space 771.9 space straight W space straight m to the power of negative 2 end exponent` **[1 mark]**
+- $I = ( 4.6 \times 10^{3} ) e^{- ( 0.85 \times 2.1 )} = 771.9 \mathrm{W} \mathrm{m}^{- 2}$ **[1 mark]**
 
 Determine the cross-sectional area of the front surface of the cyst:
 
-- Cross-sectional area of the cyst:  `A space equals space straight pi r squared space equals space straight pi cross times open parentheses fraction numerator 0.012 over denominator 2 end fraction close parentheses squared` = 1.13 × 10<sup>–4</sup> m<sup>2</sup> **AND**
+- Cross-sectional area of the cyst:  $A = \mathrm{\pi } r^{2} = \mathrm{\pi } \times ( \frac{0.012}{2} )^{2}$ = 1.13 × 10<sup>–4</sup> m<sup>2</sup> **AND**
 - Assumption: the front surface is circular; **[1 mark]**
 
 Calculate the power and energy incident on the cyst:
 
 - Intensity of a wave:  $I=\frac{P}{A}\RightarrowP=IA$
-- Incident power:  `P space equals space 771.9 space cross times space open parentheses 1.13 space cross times space 10 to the power of negative 4 end exponent close parentheses space equals space 0.087 space straight W`
+- Incident power:  $P = 771.9 \times ( 1.13 \times 10^{- 4} ) = 0.087 \mathrm{W}$
 - Energy transferred each second:  $E=Pt=0.087J$ **[1 mark]**
 
 **[Total: 3 marks]**
@@ -78,14 +78,14 @@ List the known quantities:
 Use the attenuation equation:
 
 - X-ray attenuation:  $I=I_{0}e^{-μx}$
-- Final intensity of beam X:  `I subscript straight X space equals space open parentheses 4.6 cross times 10 cubed close parentheses space e to the power of negative 0.85 cross times 4.8 end exponent`
-- Final intensity of beam Y:  `I subscript straight Y space equals space open parentheses 4.6 cross times 10 cubed close parentheses space open square brackets open parentheses e to the power of negative 0.85 cross times 2.1 end exponent close parentheses open parentheses e to the power of negative 1.2 mu end exponent close parentheses open parentheses e to the power of negative 0.85 cross times open parentheses 4.8 minus 1.2 minus 2.1 close parentheses end exponent close parentheses close square brackets` **[1 mark]**
+- Final intensity of beam X:  $I_{X} = ( 4.6 \times 10^{3} ) e^{- 0.85 \times 4.8}$
+- Final intensity of beam Y:  $I_{Y} = ( 4.6 \times 10^{3} ) [ ( e^{- 0.85 \times 2.1} ) ( e^{- 1.2 \\mu } ) ( e^{- 0.85 \times ( 4.8 - 1.2 - 2.1 )} ) ]$ **[1 mark]**
 
 Substitute into the ratio given in the question:
 
 - Ratio of the emergent intensities:  $\frac{I_{Y}}{I_{X}}=0.94$
-- Substitute:  `fraction numerator open parentheses 4.6 cross times 10 cubed close parentheses space open square brackets open parentheses e to the power of negative 0.85 cross times 2.1 end exponent close parentheses open parentheses e to the power of negative 1.2 mu end exponent close parentheses open parentheses e to the power of negative 0.85 cross times open parentheses 4.8 minus 1.2 minus 2.1 close parentheses end exponent close parentheses close square brackets over denominator open parentheses 4.6 cross times 10 cubed close parentheses space e to the power of negative 0.85 cross times 4.8 end exponent end fraction space equals space 0.94` **[1 mark]**
-- Simplify:  `e to the power of 0.85 open parentheses 4.8 minus 2.1 minus 1.5 close parentheses minus 1.2 mu end exponent space equals space 0.94 space space space space space rightwards double arrow space space space space space e to the power of 1.02 minus 1.2 mu end exponent space equals space 0.94`
+- Substitute:  $\frac{( 4.6 \times 10^{3} ) [ ( e^{- 0.85 \times 2.1} ) ( e^{- 1.2 \\mu } ) ( e^{- 0.85 \times ( 4.8 - 1.2 - 2.1 )} ) ]}{( 4.6 \times 10^{3} ) e^{- 0.85 \times 4.8} } = 0.94$ **[1 mark]**
+- Simplify:  $e^{0.85 ( 4.8 - 2.1 - 1.5 ) - 1.2 \\mu } = 0.94 \Leftrightarrow e^{1.02 - 1.2 \\mu } = 0.94$
 - Takes natural logs:  $1.02-1.2μ=\mathrm{ln}0.94\Rightarrowμ=\frac{1.02-\mathrm{ln}0.94}{1.2}$
 - Attenuation coefficient of cyst:  $μ$ = 0.90 cm<sup>–1</sup> **[1 mark]**
 
@@ -173,7 +173,7 @@ The image produced during CT scanning differs from the image produced by X-ray i
 - $I=I_{0}e^{-μx}$ **[1 mark]**
 - $I_{b}=I_{0}e^{-2.9\times1.5}$
 - $I_{m}=I_{0}e^{-0.95\times4}$
-- `I subscript b over I subscript m space equals space fraction numerator I subscript 0 space e to the power of negative 2.9 space cross times space 1.5 end exponent over denominator I subscript 0 space e to the power of negative 0.95 space cross times space 4 end exponent end fraction space equals space fraction numerator space e to the power of negative 2.9 space cross times space 1.5 end exponent over denominator e to the power of negative 0.95 space cross times space 4 end exponent end fraction space equals space 0.577 space equals space 0.58 space open parentheses 2 s. f. close parentheses`** [1 mark]**
+- `I _ b / I _ m = (I _ 0 e ^ - 2.9 x 1.5 )/(I _ 0 e ^ - 0.95 x 4 ) = ( e ^ - 2.9 x 1.5 )/(e ^ - 0.95 x 4 ) = 0.577 = 0.58 ( 2 s. f. )`** [1 mark]**
 
 **[Total: 3 marks]**
 
@@ -232,7 +232,7 @@ Calculate the minimum wavelength using the photon energy equation:
 
 - Energy of a photon:  $E=\frac{hc}{λ}$ **[1 mark]**
 - $eV=\frac{hc}{λ}\Rightarrowλ=\frac{hc}{eV}$
-- `lambda space equals space fraction numerator open parentheses 6.63 cross times 10 to the power of negative 34 end exponent close parentheses space cross times space open parentheses 3 cross times 10 to the power of 8 close parentheses over denominator open parentheses 1.6 cross times 10 to the power of negative 19 end exponent close parentheses space cross times space open parentheses 75 cross times 10 cubed close parentheses end fraction` **[1 mark]**
+- $\\lambda = \frac{( 6.63 \times 10^{- 34} ) \times ( 3 \times 10^{8 )}{( 1.6 \times 10^{-19} } ) \times ( 75 \times 10^{3} )}$ **[1 mark]**
 - $λ$ = 1.66 × 10<sup>–11</sup> m **[1 mark]**
 
 **[Total: 4 marks]**
@@ -275,9 +275,9 @@ Determine the intensity of X-rays transmitted through muscle alone:
 Determine the intensity of X-rays transmitted through muscle and bone:
 
 - Intensity transmitted through bone:  $I_{b}=I_{0}e^{-μ_{b}x_{b}}$
-- Intensity transmitted through muscle and bone:  `I subscript b m end subscript space equals space I subscript 0 space open parentheses e to the power of negative mu subscript b x subscript b end exponent close parentheses cross times open parentheses e to the power of negative mu subscript m increment x end exponent close parentheses`
+- Intensity transmitted through muscle and bone:  $I_{b m} = I_{0} ( e^{- \mu_{b} x_{b} } ) \times ( e^{- \mu_{m} \Delta x} )$
 - Where $\Deltax=x_{m}-x_{b}$ = 5.0 − 2.0 = 3.0 cm
-- `I subscript b m end subscript space equals space I subscript 0 space open parentheses e to the power of negative 2.90 cross times 2.0 end exponent close parentheses cross times open parentheses e to the power of negative 0.95 cross times 3.0 end exponent close parentheses` **[1 mark]**
+- $I_{b m} = I_{0} ( e^{- 2.90 \times 2.0} ) \times ( e^{- 0.95 \times 3.0} )$ **[1 mark]**
 - $I_{bm}=1.8\times10^{-4}I_{0}$ **[1 mark]**
 
 (ii) The contrast between bone and muscle is much greater than between fat and muscle because:
@@ -392,9 +392,9 @@ Determine the average values of Z
 
 | **substance** | **main elements** | **Final answer:** **average ****Z** |
 |---|---|---|
-| muscle | `straight H presubscript 1`,  `straight C presubscript 6`,  `straight O presubscript 8` | **Final answer:** **5** |
-| bone | `straight H presubscript 1`,  `straight C presubscript 6`,  `straight O presubscript 8`,  `straight P presubscript 15`,  `Ca presubscript 20` | **Final answer:** **10** |
-| contrast media | `straight I presubscript 53`,  `Ba presubscript 56` | **Final answer:** **55** |
+| muscle | $\mathrm{H} pre_{1}$,  $\mathrm{C} pre_{6}$,  $\mathrm{O} pre_{8}$ | **Final answer:** **5** |
+| bone | $\mathrm{H} pre_{1}$,  $\mathrm{C} pre_{6}$,  $\mathrm{O} pre_{8}$,  $\mathrm{P} pre_{15}$,  `Ca presubscript 20` | **Final answer:** **10** |
+| contrast media | $\mathrm{I} pre_{53}$,  `Ba presubscript 56` | **Final answer:** **55** |
 
 - Average values of *Z* calculated; **[1 mark]**
 

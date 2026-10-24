@@ -601,7 +601,7 @@ Assimilation efficiency is the percentage of food that is eaten and not egested 
 
 Assimilation efficiency is calculated using this formula.
 
-`assimulation space efficiency space open parentheses percent sign close parentheses space equals space open parentheses fraction numerator mass space of space food space eaten space minus space mass space of space faeces space egested over denominator mass space of space food space eaten end fraction close parentheses space cross times space 100`
+$\text{assimulation} \text{efficiency} ( \% ) = ( \frac{ \text{mass} of \text{food} \text{eaten} - \text{mass} of \text{faeces} egested}{ \text{mass} of \text{food} eaten} ) \times 100$
 
 (i) A snail eats 1.2 g of food and produces 0.30 g of faeces.
 

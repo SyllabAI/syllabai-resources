@@ -22,8 +22,8 @@ $OCB=90^{\circ}\,OAB=90^{\circ}$
 
 > *Calculate angle *$x$*using  the sum of angles in a quadrilateral equals 360° rule*
 
-`x equals 360 minus open parentheses 90 plus 90 plus 52 close parentheses
-x equals 128`
+$x = 360 - ( 90 + 90 + 52 )
+x = 128$
 
 *Because angles in a quadrilateral add up to 360**<sup>o</sup>*
 
@@ -209,13 +209,13 @@ $π\times6.5^{2}=132.732...$
 
 Find the area of the trapezium using the correct formula
 
-`fraction numerator open parentheses 10 plus 16 close parentheses cross times h space over denominator 2 end fraction equals 13 h`
+$\frac{( 10 + 16 ) \times h }{2} = 13 h$
 
 **[M1]**
 
 Equate the area of the circle and the area of the trapezium and solve for *h*
 
-`table row cell 13 h end cell equals cell 132.732... end cell row cell h space end cell equals cell 10.210... end cell end table`
+$\begin{gathered} 13 h & = 132.732... \\ h & = 10.210... \end{gathered}$
 
 **[M1]**
 

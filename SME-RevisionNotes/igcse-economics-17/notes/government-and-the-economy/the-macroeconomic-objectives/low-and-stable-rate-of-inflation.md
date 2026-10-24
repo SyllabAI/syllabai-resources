@@ -109,11 +109,11 @@ $\mathrm{CPI}=\frac{\mathrm{Cost} \mathrm{of} \mathrm{basket} \mathrm{in} \mathr
 > 
 > **Step 1: CPI data is already provided so calculate the inflation rate**
 > 
-> `Percentage space change space equals space fraction numerator new space minus space old over denominator old end fraction space straight x space 100
+> $\text{Percentage} \text{change} = \frac{new - old}{old} \mathrm{x} 100
 > 
-> equals space fraction numerator 130 minus space 110 over denominator 110 end fraction space straight x space 100
+> = \frac{130 - 110}{110} \mathrm{x} 100
 > 
-> equals space 18.18 space percent sign
-> `
+> = 18.18 \%
+>$
 > 
 > > *A is the correct answer*

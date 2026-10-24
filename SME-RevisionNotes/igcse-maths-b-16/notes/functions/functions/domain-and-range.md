@@ -23,7 +23,7 @@ guided_study: true
 
   - The *x*-axis values are the **inputs**
   - The *y-*axis values are the **outputs**
-- To see what graph to plot, replace `straight f open parentheses x close parentheses equals...` with $y=...$
+- To see what graph to plot, replace $\mathrm{f} ( x ) =...$ with $y=...$
 
 ![Graph of linear function f(x)=2x+5 and quadratic function g(x)=x²-7x+10.](../../../assets/011f3c46968e-21163-domain-and-range-how-are-functions-related.png)
 
@@ -42,16 +42,16 @@ guided_study: true
 
 - Examples of domains are below:
 
-  - `straight f open parentheses x close parentheses equals 1 over x` takes any *x* value except 0 (you cannot divide by 0)
+  - $\mathrm{f} ( x ) = \frac{1}{x}$ takes any *x* value except 0 (you cannot divide by 0)
   
     - The domain is "**all values of *****x***** except 0**", or simply "***x***** ≠ 0**"
-  - `straight f open parentheses x close parentheses equals square root of x` takes any *x* value that is not negative (you cannot take the square root of a negative)
+  - $\mathrm{f} ( x ) = \sqrt{x}$ takes any *x* value that is not negative (you cannot take the square root of a negative)
   
     - The domain is "***x***** ≥ 0**"
-  - `straight f open parentheses x close parentheses equals x squared` takes any *x* value (negative *x* values are fine as inputs)
+  - $\mathrm{f} ( x ) = x^{2}$ takes any *x* value (negative *x* values are fine as inputs)
   
     - The domain is "**all values of *****x***"
-  - `straight f open parentheses x close parentheses equals 3 x plus 2` takes any *x* value
+  - $\mathrm{f} ( x ) = 3 x + 2$ takes any *x* value
   
     - The domain is "**all values of *****x***"
 
@@ -59,15 +59,15 @@ guided_study: true
 
 - Some domains are **restricted** by choice
 
-  - `straight f open parentheses x close parentheses equals 3 x plus 2` with the domain 0 < *x* < 5
+  - $\mathrm{f} ( x ) = 3 x + 2$ with the domain 0 < *x* < 5
   
     - This question wants to concentrate on that domain only (even though bigger domains exist)
 - Some domains must **exclude** certain values (or sets of values)
 
-  - `straight f open parentheses x close parentheses equals fraction numerator 1 over denominator open parentheses x minus 1 close parentheses open parentheses x plus 7 close parentheses end fraction` must exclude *x* = 1 and *x* = -7 from any domain
+  - $\mathrm{f} ( x ) = \frac{1}{( x - 1 ) ( x + 7 )}$ must exclude *x* = 1 and *x* = -7 from any domain
   
     - These two inputs make the function** undefined** (dividing by zero)
-  - `straight f open parentheses x close parentheses equals square root of x minus 3 end root` must exclude *x* < 3 from any domain
+  - $\mathrm{f} ( x ) = \sqrt{x - 3}$ must exclude *x* < 3 from any domain
   
     - Any input in *x* < 3 leads to **square-rooting a negative**
 
@@ -86,13 +86,13 @@ guided_study: true
 - Ranges **depend on domains**
 - Examples of ranges are below:
 
-  - `straight f open parentheses x close parentheses equals 3 x plus 2` with the domain *x* > 0
+  - $\mathrm{f} ( x ) = 3 x + 2$ with the domain *x* > 0
   
     - If *x* = 0 then f(0) = 3(0) + 2 = 2
     - The range is "f(*x*) > 2"
     - This is because if all inputs are greater than 0, all outputs will be greater than 2
     - This could be seen from a **sketch** or by substituting inputs of *x* > 0 into f(x)
-  - `straight f open parentheses x close parentheses equals x squared` with domain "all values of *x*"
+  - $\mathrm{f} ( x ) = x^{2}$ with domain "all values of *x*"
   
     - The range is f(x) ≥ 0
     - This is because all values of *x* get squared (so no negative outputs are created)
@@ -116,7 +116,7 @@ guided_study: true
 > **Worked Example**
 > Two functions are given by
 > 
-> `straight f open parentheses x close parentheses equals 10 minus x space space space space space space space space space space space space space space straight g open parentheses x close parentheses equals fraction numerator 1 over denominator 2 x minus 1 end fraction`
+> $\mathrm{f} ( x ) = 10 - x \mathrm{g} ( x ) = \frac{1}{2 x - 1}$
 > 
 > (a) If the domain of the function $f$ is $2<x\leq4$, find the range.
 > 
@@ -126,11 +126,11 @@ guided_study: true
 > 
 > > *Substitute **x** = 2 into f(**x**) to find its output*
 > 
-> `table attributes columnalign right center left columnspacing 0px end attributes row cell straight f open parentheses 2 close parentheses end cell equals cell 10 minus 2 end cell row blank equals 8 end table`
+> $\begin{array}{rcl} \mathrm{f} ( 2 ) & = 10 - 2 \\ = 8 \end{array}$
 > 
 > > *Substitute **x** = 4 into f(**x**) to find its output*
 > 
-> `table attributes columnalign right center left columnspacing 0px end attributes row cell straight f open parentheses 4 close parentheses end cell equals cell 10 minus 4 end cell row blank equals 6 end table`
+> $\begin{array}{rcl} \mathrm{f} ( 4 ) & = 10 - 4 \\ = 6 \end{array}$
 > 
 > > *Think of f(**x**) = 10 - **x** as a graph*
 > 

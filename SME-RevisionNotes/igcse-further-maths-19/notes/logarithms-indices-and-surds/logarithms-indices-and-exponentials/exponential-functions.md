@@ -29,10 +29,10 @@ guided_study: false
 
 ### What are the key features of exponential graphs?
 
-- The graphs have a $y$**-intercept** at `open parentheses 0 comma space 1 close parentheses`
+- The graphs have a $y$**-intercept** at $( 0 , 1 )$
 
   - Because  $a^{0}=1$
-- The graph** will always** pass through the **point **`open parentheses 1 comma space a close parentheses`
+- The graph** will always** pass through the **point **$( 1 , a )$
 
   - Because  $a^{1}=a$
 - The graphs **do not intersect the **$x$**-axis**
@@ -62,7 +62,7 @@ guided_study: false
 > 
 > > $y=4^{x}$* will be the 'lower' graph for *$x<0$*,and the 'higher' graph for *$x>0$
 > 
-> > *Both graphs go through *`open parentheses 0 comma space 1 close parentheses`* and have an asymptote at the *$x$*-axis*
+> > *Both graphs go through *$( 0 , 1 )$* and have an asymptote at the *$x$*-axis*
 > 
 > ![jAyO5R1a_picture1](assets/766b19f9d6e1-jayo5r1a-picture1.png)
 
@@ -78,17 +78,17 @@ guided_study: false
 
   - $e=2.718281...$
   - $e$ is an **irrational** number
-  - `straight f open parentheses x close parentheses equals straight e to the power of x`**  **is often referred to as '**the exponential function**'
+  - $\mathrm{f} ( x ) = \mathrm{e}^{x}$**  **is often referred to as '**the exponential function**'
 - As with other **exponential graphs**, $y=e^{x}$ ![e Notes fig1, A Level & AS Maths: Pure revision notes](assets/31a3bbcb7f0f-6-1-3-e-notes-fig1.png)
 
-  - passes through `open parentheses 0 comma space 1 close parentheses`
+  - passes through $( 0 , 1 )$
   - has the $x$-axis as an asymptote
 
 ### Why is e so important?
 
 - $y=e^{x}$ has the particular **property** that  $\frac{dy}{dx}=e^{x}$
 
-  - i.e. if  `straight f open parentheses x close parentheses equals straight e to the power of x`, then `straight f to the power of apostrophe open parentheses x close parentheses` is also equal to $e^{x}$
+  - i.e. if  $\mathrm{f} ( x ) = \mathrm{e}^{x}$, then $\mathrm{f}^{'} ( x )$ is also equal to $e^{x}$
 - This means that for **every** real number $x$, the **gradient** of $y=e^{x}$ is **also** equal to $e^{x}$
 
 ![e Notes fig2, A Level & AS Maths: Pure revision notes](../../../assets/83e9ac29519c-6-1-3-e-notes-fig2.png)
@@ -99,18 +99,18 @@ guided_study: false
 
 - $y=e^{-x}$ is a **reflection** in the $y$-axis of $y=e^{x}$
 
-  - Note by laws of indices that  `straight e to the power of negative x end exponent equals open parentheses straight e to the power of negative 1 end exponent close parentheses to the power of x equals open parentheses 1 over straight e close parentheses to the power of x`
-- They are of the form `y equals straight f open parentheses x close parentheses` and `y equals straight f open parentheses negative x close parentheses` ![e Notes fig4, A Level & AS Maths: Pure revision notes](assets/484361008669-6-1-3-e-notes-fig4.png)
+  - Note by laws of indices that  `e ^ - x = ( e ^ - 1 ) ^ x = ( 1 / e ) ^ x`
+- They are of the form $y = \mathrm{f} ( x )$ and $y = \mathrm{f} ( - x )$ ![e Notes fig4, A Level & AS Maths: Pure revision notes](assets/484361008669-6-1-3-e-notes-fig4.png)
 
 > **Worked Example**
 > On the same set of axes, sketch the graphs of  $y=e^{x}$,  $y=e^{2x}$  and  $y=e^{-2x}$.
 > 
-> *By laws of indices, *`straight e to the power of 2 x end exponent equals open parentheses straight e squared close parentheses to the power of x`
+> *By laws of indices, *$\mathrm{e}^{2 x} = ( \mathrm{e}^{2} )^{x}$
 > 
 > > $e^{2}>e$*,  so  *$y=e^{2x}$* will be the 'lower' graph for *$x<0$*,and the 'higher' graph for *$x>0$
 > 
 > > $y=e^{-2x}$* is the reflection of  *$y=e^{2x}$*in the *$y$*-axis*
 > 
-> > *All three graphs go through *`open parentheses 0 comma space 1 close parentheses`* and have an asymptote at the *$x$*-axis*
+> > *All three graphs go through *$( 0 , 1 )$* and have an asymptote at the *$x$*-axis*
 > 
 > ![Aj8jgIxw_picture2](assets/f262f30da9b0-aj8jgixw-picture2.png)

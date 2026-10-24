@@ -140,7 +140,7 @@ $2\mathrm{kg}=2\times1000g\,2\mathrm{kg}=2000g$
 
 > *Calculate the cost of 500g of grapes using the fact that 2000g cost £6.20*
 
-`table row cell 2000 straight g end cell equals cell £ 6.20 end cell row blank blank cell Dividing space by space 2 space gives colon end cell row cell 1000 straight g end cell equals cell £ 3.10 end cell row blank blank cell Dividing space by space 2 space gives end cell row cell 500 straight g end cell equals cell £ 1.55 end cell end table`
+$\begin{gathered} 2000 \mathrm{g} & = \pounds 6.20 \\ \text{Dividing} \text{by} 2 \text{gives} : \\ 1000 \mathrm{g} & = \pounds 3.10 \\ \text{Dividing} \text{by} 2 \text{gives} \\ 500 \mathrm{g} & = \pounds 1.55 \end{gathered}$
 
 **[M1]**
 

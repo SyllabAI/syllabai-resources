@@ -93,11 +93,11 @@ F = m × a
 > 
 > **Step 2: State the equation for acceleration**
 > 
-> `a space equals space fraction numerator open parentheses v space minus space u close parentheses over denominator t end fraction`
+> $a = \frac{( v - u )}{t}$
 > 
 > **Step 3: Calculate the acceleration**
 > 
-> `a space equals space fraction numerator open parentheses 27 space minus space 0 close parentheses over denominator 3 end fraction`
+> $a = \frac{( 27 - 0 )}{3}$
 > 
 > $a=9m/s^{2}$
 > 
@@ -141,11 +141,11 @@ F = m × a
 > 
 > **Step 2: Write out the equation for acceleration**
 > 
-> `a space equals space fraction numerator open parentheses v space minus space u close parentheses over denominator t end fraction`
+> $a = \frac{( v - u )}{t}$
 > 
 > **Step 3: Calculate the deceleration of the car (and the passenger):**
 > 
-> `a space equals space fraction numerator open parentheses 0 space minus space 20 close parentheses over denominator 0.1 end fraction`
+> $a = \frac{( 0 - 20 )}{0.1}$
 > 
 > $a=\frac{-20}{0.1}$
 > 
@@ -166,7 +166,7 @@ F = m × a
 > 
 > **Step 3: Calculate the decelerating force**
 > 
-> `F space equals space 70 space cross times space open parentheses negative 200 close parentheses`
+> $F = 70 \times ( - 200 )$
 > 
 > $F=-14000N$
 

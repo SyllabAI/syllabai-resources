@@ -117,29 +117,29 @@ Calculate the **new capital balances** for all the partners
 > 
 > Calculate the value of goodwill for Ali and Ben
 > 
-> `2 cross times fraction numerator open parentheses $ 70 space 000 plus $ 80 space 000 plus $ 90 space 000 close parentheses over denominator 3 end fraction equals $ 160 space 000`
+> $2 \times \frac{( \$ 70 000 + \$ 80 000 + \$ 90 000 )}{3} = \$ 160 000$
 > 
 > Calculate the value of goodwill for Chloe
 > 
-> `2 cross times fraction numerator open parentheses $ 20 space 000 plus $ 25 space 000 plus $ 30 space 000 close parentheses over denominator 3 end fraction equals $ 50 space 000`
+> $2 \times \frac{( \$ 20 000 + \$ 25 000 + \$ 30 000 )}{3} = \$ 50 000$
 > 
 > Share the goodwill in the old ratio between Ali and Ben
 > 
-> *Ali: *`3 over 5 cross times $ 160 space 000 equals $ 96 space 000`
+> *Ali: *$\frac{3}{5} \times \$ 160 000 = \$ 96 000$
 > 
-> *Ben: *`2 over 5 cross times $ 160 space 000 equals $ 64 space 000`
+> *Ben: *$\frac{2}{5} \times \$ 160 000 = \$ 64 000$
 > 
 > Calculate the total goodwill
 > 
-> `$ 160 space 000 plus $ 50 space 000 equals $ 210 space 000`
+> $\$ 160 000 + \$ 50 000 = \$ 210 000$
 > 
 > Share the goodwill in the new ratio between Ali, Ben and Chloe
 > 
-> *Ali: *`40 percent sign cross times $ 210 space 000 equals $ 84 space 000`
+> *Ali: *$40 \% \times \$ 210 000 = \$ 84 000$
 > 
-> *Ben: *`30 percent sign cross times $ 210 space 000 equals $ 63 space 000`
+> *Ben: *$30 \% \times \$ 210 000 = \$ 63 000$
 > 
-> *Chloe: *`30 percent sign cross times $ 210 space 000 equals $ 63 space 000`
+> *Chloe: *$30 \% \times \$ 210 000 = \$ 63 000$
 > 
 > Calculate the net profit or loss on revaluation for Ali and Ben
 > 
@@ -151,9 +151,9 @@ Calculate the **new capital balances** for all the partners
 > 
 > Share this in the old ratio
 > 
-> *Ali: *`3 over 5 cross times $ 25 space 000 equals $ 15 space 000`
+> *Ali: *$\frac{3}{5} \times \$ 25 000 = \$ 15 000$
 > 
-> *Ben: *`2 over 5 cross times $ 25 space 000 equals $ 10 space 000`
+> *Ben: *$\frac{2}{5} \times \$ 25 000 = \$ 10 000$
 > 
 > Calculate the net profit or loss on revaluation for Chloe
 > 

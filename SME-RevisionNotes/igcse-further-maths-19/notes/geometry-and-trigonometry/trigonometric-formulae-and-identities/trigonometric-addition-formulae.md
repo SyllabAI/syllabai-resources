@@ -24,22 +24,22 @@ guided_study: false
   - two each for **sin**, **cos** and **tan**
 - The formulae for **sin** are
 
-  - `sin open parentheses A plus B close parentheses equals sin A cos B plus cos A sin B`
-  - `sin open parentheses A minus B close parentheses equals sin A cos B minus cos A sin B`
+  - $\sin ( A + B ) = \sin A \cos B + \cos A \sin B$
+  - $\sin ( A - B ) = \sin A \cos B - \cos A \sin B$
   
     - Note that the +/- sign on the left-hand side **matches** the one on the right-hand side
 
 - The formulae for **cos** are
 
-  - `cos open parentheses A plus B close parentheses equals cos A cos B minus sin A sin B`
-  - `cos open parentheses A minus B close parentheses equals cos A cos B plus sin A sin B`
+  - $\cos ( A + B ) = \cos A \cos B - \sin A \sin B$
+  - $\cos ( A - B ) = \cos A \cos B + \sin A \sin B$
   
     - Note that the +/- sign on the left-hand side is **opposite to** the one on the right-hand side
 
 - The formulae for **tan** are
 
-  - `tan invisible function application open parentheses A plus B close parentheses blank identical to fraction numerator tan invisible function application A plus tan invisible function application B over denominator 1 minus tan invisible function application A tan invisible function application B end fraction`
-  - `tan invisible function application open parentheses A minus B close parentheses blank identical to fraction numerator tan invisible function application A minus tan invisible function application B over denominator 1 plus tan invisible function application A tan invisible function application B end fraction`
+  - $\tan ( A + B ) \equiv \frac{\tan A + \tan B}{1 - \tan A \tan B}$
+  - $\tan ( A - B ) \equiv \frac{\tan A - \tan B}{1 + \tan A \tan B}$
   
     - Note that the +/- sign on the left-hand side **matches** the one in the **numerator** on the right-hand side, and is **opposite to** the one in the **denominator**
 - These formulae are all on the **exam formula sheet**
@@ -54,16 +54,16 @@ guided_study: false
   - They are formed by setting $A=B$ in the '+' versions of the addition formulae
 - The **sin** version is
 
-  - `sin open parentheses 2 A close parentheses equals 2 sin A cos A`
+  - $\sin ( 2 A ) = 2 \sin A \cos A$
 - The **cos** version is
 
-  - `cos open parentheses 2 A close parentheses equals cos squared A minus sin squared A equals 1 minus 2 sin squared A equals 2 cos squared A minus 1`
+  - $\cos ( 2 A ) = \cos ^{2} A - \sin ^{2} A = 1 - 2 \sin ^{2} A = 2 \cos ^{2} A - 1$
   
     - The last two forms come from using the $\mathrm{sin}^{2}A+\mathrm{cos}^{2}A=1$ identity
     - i.e. $\mathrm{cos}^{2}A=1-\mathrm{sin}^{2}A$ and $\mathrm{sin}^{2}A=1-\mathrm{cos}^{2}A$
 - The **tan** version is
 
-  - `tan open parentheses 2 A close parentheses equals fraction numerator 2 tan A over denominator 1 minus tan squared A end fraction`
+  - $\tan ( 2 A ) = \frac{2 \tan A}{1 - \tan ^{2} A}$
 - These formulae are **not** on the exam formula sheet
 
   - They are used frequently, so you may want to remember them
@@ -90,29 +90,29 @@ guided_study: false
 >   - But always be careful with the +/- signs when using the formulae
 
 > **Worked Example**
-> a) Show that `tan open parentheses x plus pi over 4 close parentheses minus blank tan open parentheses x minus pi over 4 close parentheses equals fraction numerator 2 left parenthesis tan squared x plus 1 right parenthesis over denominator 1 minus tan squared x end fraction`.
+> a) Show that $\tan ( x + \frac{\pi }{4} ) - \tan ( x - \frac{\pi }{4} ) = \frac{2 ( \tan ^{2} x + 1 )}{1 - \tan ^{2} x}$.
 > 
 > > *Use the trigonometric addition formulae for tan*
 > 
 > > *Also recall that *$\mathrm{tan}\frac{π}{4}=1$
 > 
-> `tan open parentheses x plus pi over 4 close parentheses equals fraction numerator tan x plus tan pi over 4 over denominator 1 minus tan x tan pi over 4 end fraction equals fraction numerator tan x plus 1 over denominator 1 minus tan x end fraction`
+> $\text{tan} ( x + \frac{pi}{4} ) = \frac{ \text{tan} x + \text{tan} \frac{pi}{4}}{1 - \text{tan} x \text{tan} \frac{pi}{4}} = \frac{ \text{tan} x + 1}{1 - \text{tan} x}$
 > 
-> `tan open parentheses x minus pi over 4 close parentheses equals fraction numerator tan x minus tan pi over 4 over denominator 1 plus tan x tan pi over 4 end fraction equals fraction numerator tan x minus 1 over denominator 1 plus tan x end fraction`
+> $\text{tan} ( x - \frac{pi}{4} ) = \frac{ \text{tan} x - \text{tan} \frac{pi}{4}}{1 + \text{tan} x \text{tan} \frac{pi}{4}} = \frac{ \text{tan} x - 1}{1 + \text{tan} x}$
 > 
 > > *Substitute those into the left-hand side of the equation and rearrange*
 > 
-> `table row cell tan open parentheses x plus pi over 4 close parentheses minus tan open parentheses x minus pi over 4 close parentheses end cell equals cell fraction numerator tan x plus 1 over denominator 1 minus tan x end fraction minus fraction numerator tan x minus 1 over denominator 1 plus tan x end fraction end cell row blank equals cell fraction numerator open parentheses tan x plus 1 close parentheses open parentheses 1 plus tan x close parentheses minus open parentheses tan x minus 1 close parentheses open parentheses 1 minus tan x close parentheses over denominator open parentheses 1 minus tan x close parentheses open parentheses 1 plus tan x close parentheses end fraction end cell row blank equals cell fraction numerator tan squared x plus 2 tan x plus 1 plus tan squared x minus 2 tan x plus 1 over denominator 1 minus tan squared x end fraction end cell row blank equals cell fraction numerator 2 tan squared x plus 2 over denominator 1 minus tan squared x end fraction end cell row blank equals cell fraction numerator 2 open parentheses tan squared x plus 1 close parentheses over denominator 1 minus tan squared x end fraction end cell end table`
+> $\begin{gathered} \tan ( x + \frac{\pi }{4} ) - \tan ( x - \frac{\pi }{4} ) & = \frac{\tan x + 1}{1 - \tan x} - \frac{\tan x - 1}{1 + \tan x} \\ = \frac{( \tan x + 1 ) ( 1 + \tan x ) - ( \tan x - 1 ) ( 1 - \tan x )}{( 1 - \tan x ) ( 1 + \tan x )} \\ = \frac{\tan ^{2} x + 2 \tan x + 1 + \tan ^{2} x - 2 \tan x + 1}{1 - \tan ^{2} x} \\ = \frac{2 \tan ^{2} x + 2}{1 - \tan ^{2} x} \\ = \frac{2 ( \tan ^{2} x + 1 )}{1 - \tan ^{2} x} \end{gathered}$
 > 
-> `bold tan stretchy left parenthesis x plus pi over 4 stretchy right parenthesis bold minus blank bold tan stretchy left parenthesis x minus pi over 4 stretchy right parenthesis bold equals fraction numerator bold 2 bold left parenthesis bold tan to the power of bold 2 bold invisible function application bold x bold plus bold 1 bold right parenthesis over denominator bold 1 bold minus bold tan to the power of bold 2 bold invisible function application bold x end fraction`
+> `tan stretchy ( x + pi / 4 stretchy ) - _ tan stretchy ( x - pi / 4 stretchy ) = ( 2 ( tan ^ 2 invisible function application x + 1 ))/( 1 - tan ^ 2 invisible function application x)`
 > 
-> b) Hence solve `begin mathsize 16px style space tan open parentheses x plus pi over 4 close parentheses minus tan open parentheses x minus pi over 4 close parentheses equals negative 4 end style`  in the interval  $0\leqx\leq\frac{π}{2}$.
+> b) Hence solve $\tan ( x + \frac{\pi }{4} ) - \tan ( x - \frac{\pi }{4} ) = - 4$  in the interval  $0\leqx\leq\frac{π}{2}$.
 > 
 > *Substitute the result from part (a) into the equation*
 > 
 > > *Then rearrange and solve*
 > 
-> `table row cell fraction numerator 2 left parenthesis tan squared x plus 1 right parenthesis over denominator 1 minus tan squared x end fraction end cell equals cell negative 4 end cell row cell fraction numerator tan squared x plus 1 over denominator 1 minus tan squared x end fraction end cell equals cell negative 2 end cell row cell tan squared x plus 1 end cell equals cell 2 tan squared x minus 2 end cell row cell tan squared x end cell equals 3 row cell tan x end cell equals cell plus-or-minus square root of 3 end cell row x equals cell pi over 3 comma space minus pi over 3 end cell end table`
+> $\begin{gathered} \frac{2 ( \tan ^{2} x + 1 )}{1 - \tan ^{2} x} & = - 4 \\ \frac{\tan ^{2} x + 1}{1 - \tan ^{2} x} & = - 2 \\ \tan ^{2} x + 1 & = 2 \tan ^{2} x - 2 \\ \tan ^{2} x & = 3 \\ \tan x & = \pm \sqrt{3} \\ x = \frac{\pi }{3} , - \frac{\pi }{3} \end{gathered}$
 > 
 > > *But only *$\frac{π}{3}$* is in the range *$0\leqx\leq\frac{π}{2}$
 > 

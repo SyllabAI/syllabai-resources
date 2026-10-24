@@ -182,11 +182,11 @@ List the known quantities:
 
 Using the equation from part (i), substitute the value:
 
-- `n space equals fraction numerator 1 over denominator sin space open parentheses 43 close parentheses end fraction` **[1 mark]**
+- $n = \frac{1}{\sin ( 43 )}$ **[1 mark]**
 
 Calculate for *n*:
 
-- `n space equals fraction numerator 1 over denominator sin space open parentheses 43 close parentheses end fraction equals fraction numerator 1 over denominator 0.682 end fraction equals 1.47` **[1 mark]**
+- $n = \frac{1}{\sin ( 43 )} = \frac{1}{0.682} = 1.47$ **[1 mark]**
 
 (iii) To explain why rays of light inside a diamond are more likely to be totally internally reflected than those inside an opal:
 
@@ -195,7 +195,7 @@ Any **three **points from:
 - Larger refractive index leads to a smaller critical angle; **[1 mark]**
 - Total internal reflection happens when the angle of incidence is larger than the critical angle; **[1 mark]**
 - Diamond will have a larger range of possible angles for TIR; **[1 mark]**
-- for diamond: `sin open parentheses c close parentheses space equals space 1 over n equals 1 fourth equals 0.25` therefore *c* = 14° **[1 mark]**
+- for diamond: $\sin ( c ) = \frac{1}{n} = 1 \frac{1}{4} = 0.25$ therefore *c* = 14° **[1 mark]**
 - Only angles between 43-90° will cause total internal reflection in opal; **[1 mark]**
 
 **An example answer which would score full marks is:**
@@ -276,11 +276,11 @@ List the known quantities:
 
 Substitute into the equation from part (iv):
 
-- `n space equals space fraction numerator sin space open parentheses 43 close parentheses over denominator sin space open parentheses 27 close parentheses end fraction` **[1 mark]**
+- $n = \frac{\sin ( 43 )}{\sin ( 27 )}$ **[1 mark]**
 
 Calculate to find the value for n:
 
-- `n space equals space fraction numerator sin space open parentheses 43 close parentheses over denominator sin space open parentheses 27 close parentheses end fraction space equals space 1.5` **[1 mark]**
+- $n = \frac{\sin ( 43 )}{\sin ( 27 )} = 1.5$ **[1 mark]**
 
 **[Total: 6 marks]**
 
@@ -596,8 +596,7 @@ Any **two **marks from:
 (iii) To find the refractive index:
 
 - Calculate sin(i) and sin(r); **[1 mark]**
-- Use the equation `n space equals space fraction numerator sin open parentheses i close parentheses over denominator sin open parentheses r close parentheses end fraction
-` **[1 mark]**
+- Use the equation $n = \frac{\sin ( i )}{\sin ( r )}$ **[1 mark]**
 
 **[Total: 6 marks]**
 
@@ -609,7 +608,7 @@ Any **two **marks from:
 
 ![file-000-6](assets/068-file-000-6.png)
 
-> *In this case the equation would be *`n space equals space fraction numerator 1 over denominator s i n open parentheses c close parentheses end fraction`
+> *In this case the equation would be *$n = \frac{1}{s i n ( c )}$
 
 ### 6((b)) — 3 marks
 (i) A diagram with the incident ray emerging from the plastic looks like:
@@ -696,7 +695,7 @@ Substitute the known quantities:
 
 Calculate the final answer:
 
-- `c space equals space sin to the power of negative 1 end exponent open parentheses 0.667 close parentheses space equals space 42 degree` **[1 mark]**
+- $c = \sin ^{- 1} ( 0.667 ) = 42^{\circ}$ **[1 mark]**
 
 (ii) To explain why the refractive index has no unit:
 
@@ -722,7 +721,7 @@ Any **two **points from:
 
 $sinc=0.667$
 
-`s i n to the power of negative 1 end exponent open parentheses s i n space c close parentheses space equals space s i n to the power of negative 1 end exponent open parentheses 0.667 close parentheses`
+$s i n^{- 1} ( s i n c ) = s i n^{- 1} ( 0.667 )$
 
 > *The inverse sine function effectively 'undoes' a sine function. This leaves just **c** on the left hand side. *
 

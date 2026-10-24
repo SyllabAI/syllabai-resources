@@ -828,7 +828,7 @@ ii) The time that it would take for the cross not to be seen at 45 °C is:
 
 - Time $=\frac{1}{\mathrm{rate}}=\frac{1}{0.017}$ 
 **OR **
-Time `begin mathsize 14px style equals 1 over rate equals fraction numerator 1 over denominator part space open parentheses straight i close parentheses space answer end fraction end style`; **[1 mark]**
+Time $= \frac{1}{rate} = \frac{1}{part ( \mathrm{i} ) answer}$; **[1 mark]**
 - Time = 58.8; **[1 mark] **
 *Commonly expected answers are:*
 

@@ -788,7 +788,7 @@ iii) The temperature should not be higher than 40 °C because:
 iv) To show that the percentage yield is 15%:
 
 - maximum mass of ethanol = 8 x 46 = 368 (g); **[1 mark]**
-- `fraction numerator 55.2 over denominator 368 end fraction cross times 100 space open parentheses equals 15 percent sign close parentheses`; **[1 mark]**
+- $\frac{55.2}{368} \times 100 ( = 15 \% )$; **[1 mark]**
 
 **[Total: 6 marks]**
 
@@ -892,7 +892,7 @@ Method 2
 **[Total: 3 marks] **
 
 - *The two methods shown above are both accepted so use whichever method works for you*
-- *Method 1 uses the equations: moles = *`fraction numerator mass space open parentheses straight g close parentheses over denominator relative space formula space mass end fraction`* and mass = moles x relative formula mass*
+- *Method 1 uses the equations: moles = *$\frac{mass ( \mathrm{g} )}{relative \text{formula} mass}$* and mass = moles x relative formula mass*
 
   - *With method 1, don't forget to take into account  the ratio of C*<sub>*6*</sub>*H*<sub>*12*</sub>*O*<sub>*6*</sub>* to CO*<sub>*2*</sub>
 - *Method 2 uses reacting masses which involves using the relative formula masses *
@@ -909,7 +909,7 @@ Method 2
 ### 10((c)) — 2 marks
 The total number of atoms in 10.0 g of sucrose, C<sub>12</sub>H<sub>22</sub>O<sub>11</sub> is:
 
-- Moles of sucrose in 10.0 g = `mass over M subscript straight r space equals space fraction numerator 10.0 over denominator 342 end fraction space open parentheses equals space 0.029 close parentheses`;** [1 mark]**
+- Moles of sucrose in 10.0 g = $\frac{mass}{M} _{r} = \frac{10.0}{342} ( = 0.029 )$;** [1 mark]**
 - Number of atoms = moles x number of atoms in 1 molecule x Avogardo constant = 0.029 x 45 x 6.02 x 10<sup>23 </sup>
 **OR** 
 7.92 x 10<sup>23</sup>; **[1 mark]**

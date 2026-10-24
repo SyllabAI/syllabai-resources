@@ -42,42 +42,42 @@ guided_study: true
   - Yes, like $x^{2}-7x$
   
     - Factorise out the highest common factor, *x*
-    - `x open parentheses x minus 7 close parentheses`
+    - $x ( x - 7 )$
   - Yes, like $x^{2}-9$
   
     - Use the "difference of two squares" to factorise
-    - `open parentheses x plus 3 close parentheses open parentheses x minus 3 close parentheses`
+    - $( x + 3 ) ( x - 3 )$
 
 Does it have **3 terms**?
 
 - Yes, starting with *x*<sup>2</sup> like $x^{2}-3x-10$
 
   - Use "factorising simple quadratics" by finding two numbers that add to -3 and multiply to -10
-  - `open parentheses x plus 2 close parentheses open parentheses x minus 5 close parentheses`
+  - $( x + 2 ) ( x - 5 )$
 - Yes, starting with *ax*<sup>2</sup> like $3x^{2}+15x+18$
 
   - Check to see if the 3 in front of *x*<sup>2</sup> is a** common factor **for** all three** **terms **(which it is in this case), then **factorise it out **of all three terms
-  - `3 open parentheses x squared plus 5 x plus 6 close parentheses`
+  - $3 ( x^{2} + 5 x + 6 )$
   - The quadratic expression inside the brackets is now *x*<sup>2</sup> +... , which factorises more easily
-  - `3 open parentheses x plus 2 close parentheses open parentheses x plus 3 close parentheses`
+  - $3 ( x + 2 ) ( x + 3 )$
 - Yes, starting with *ax*<sup>2</sup> like $3x^{2}-5x-2$
 
   - The 3 in front of *x*<sup>2</sup> is not a** **common factor for all three term
   - Use "factorising harder quadratics", for example factorising by grouping or factorising using a grid
-  - `open parentheses 3 x plus 1 close parentheses open parentheses x minus 2 close parentheses`
+  - $( 3 x + 1 ) ( x - 2 )$
 
 ### What other expressions should I be able to factorise?
 
 - You may have a** cubed term **like $x^{3}-3x^{2}-10x$
 
   - Check to see if *x* is a** common factor **for** all three** **terms **(which it is in this case), so **factorise it out **of all three terms
-  - `x open parentheses x squared minus 3 x minus 10 close parentheses`
+  - $x ( x^{2} - 3 x - 10 )$
   - The remaining quadratic can then be factorised
-  - `x open parentheses x plus 2 close parentheses open parentheses x minus 5 close parentheses`
+  - $x ( x + 2 ) ( x - 5 )$
 - It can also be useful to spot a quadratic in the form $x^{2}+2ax+a^{2}$
 
-  - This factorises to `open parentheses x plus a close parentheses squared`
-  - E.g.  `x squared plus 6 x plus 9 space equals space open parentheses x plus 3 close parentheses squared`
+  - This factorises to $( x + a )^{2}$
+  - E.g.  $x^{2} + 6 x + 9 = ( x + 3 )^{2}$
 
 > **Exam Hint**
 > A common **mistake** in the exam is to divide **expressions** by numbers, e.g. $2x^{2}+4x+2$ becomes $x^{2}+2x+1$ (which is incorrect).
@@ -93,11 +93,11 @@ Does it have **3 terms**?
 > 
 > > *Spot the common factor of -4 and factorise it out*
 > 
-> `negative 8 x squared plus 100 x minus 48 equals negative 4 open parentheses 2 x squared minus 25 x plus 12 close parentheses`
+> $- 8 x^{2} + 100 x - 48 = - 4 ( 2 x^{2} - 25 x + 12 )$
 > 
 > > *Check to see if the quadratic in the bracket will factorise using *$b^{2}-4ac$
 > 
-> `table row blank blank cell open parentheses negative 25 close parentheses squared minus open parentheses 4 cross times 2 cross times 12 close parentheses end cell row blank equals cell 625 minus 96 end cell row blank equals 529 end table`
+> $\begin{gathered} ( - 25 )^{2} - ( 4 \times 2 \times 12 ) \\ = 625 - 96 \\ = 529 \end{gathered}$
 > 
 > > *529 is a square number (23*<sup>*2*</sup>*) so the expression will factorise*
 > 
@@ -113,19 +113,19 @@ Does it have **3 terms**?
 > 
 > > *Split the *$-25x$* term into *$-24x-x$
 > 
-> `table row blank blank cell 2 x squared minus 24 x minus x plus 12 end cell end table`
+> $\begin{gathered} 2 x^{2} - 24 x - x + 12 \end{gathered}$
 > 
 > > *Group and factorise the first two terms, using *$2x$* as the common factor*
 > *Group and factorise the last two terms using *$-1$* as the common factor*
 > 
-> `table row blank blank cell 2 x open parentheses x minus 12 close parentheses minus 1 open parentheses x minus 12 close parentheses end cell end table`
+> $\begin{gathered} 2 x ( x - 12 ) - 1 ( x - 12 ) \end{gathered}$
 > 
-> > *These factorised terms now have a common factor of *`open parentheses x minus 12 close parentheses`*, so this can be factorised out*
+> > *These factorised terms now have a common factor of *$( x - 12 )$*, so this can be factorised out*
 > 
-> `open parentheses 2 x minus 1 close parentheses open parentheses x minus 12 close parentheses`
+> $( 2 x - 1 ) ( x - 12 )$
 > 
 > > *Recall that -4 was factorised out at the start*
 > 
-> `negative 8 x squared plus 100 x minus 48 equals negative 4 open parentheses 2 x squared minus 25 x plus 12 close parentheses equals negative 4 open parentheses 2 x minus 1 close parentheses open parentheses x minus 12 close parentheses`
+> $- 8 x^{2} + 100 x - 48 = - 4 ( 2 x^{2} - 25 x + 12 ) = - 4 ( 2 x - 1 ) ( x - 12 )$
 > 
 > $-4(2x-1)(x-12)$

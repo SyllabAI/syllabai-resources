@@ -88,7 +88,7 @@ Multiply the constants together and the terms with the same base numbers
 
 - Add the indices together
 
-`table row cell 5 cross times 6 end cell equals 30 row cell g to the power of negative 2 end exponent cross times g to the power of negative 3 end exponent end cell equals cell g to the power of negative 2 plus negative 3 end exponent equals g to the power of negative 5 end exponent end cell row cell h cubed cross times h to the power of 7 end cell equals cell h to the power of 3 plus 7 end exponent equals h to the power of 10 end cell end table`
+$\begin{gathered} 5 \times 6 & = 30 \\ g^{- 2} \times g^{- 3} & = g^{- 2 + - 3} = g^{- 5} \\ h^{3} \times h^{7 & = h^{3} + 7} = h^{10} \end{gathered}$
 
 Multiply the terms together
 
@@ -115,7 +115,7 @@ $h^{12}$
 ### 20((c)) — 2 marks
 > *Apply the power to each factor in the bracket*
 
-`2 to the power of 4 space cross times space open parentheses g cubed close parentheses to the power of 4 space cross times space open parentheses k to the power of 5 close parentheses to the power of 4`
+$2^{4} \times ( g^{3} )^{4} \times ( k^{5} )^{4}$
 
 > *Simplify, using the laws of indices to raise indices to a new power, multiply their powers*
 

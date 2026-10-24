@@ -33,7 +33,7 @@ What is **prime factor decomposition**?
 
 Break a number into a pair of factors, then break those factors down in pairs in the same way until you are left with **only prime factors**.
 
-`table row 72 equals cell 8 cross times 9 end cell row blank equals cell open parentheses 2 cross times 4 close parentheses cross times open parentheses 3 cross times 3 close parentheses end cell row blank equals cell 2 cross times open parentheses 2 cross times 2 close parentheses cross times 3 cross times 3 end cell row blank bold equals cell bold 2 bold cross times bold 2 bold cross times bold 2 bold cross times bold 3 bold cross times bold 3 end cell end table`
+$\begin{gathered} 72 = 8 \times 9 \\ = ( 2 \times 4 ) \times ( 3 \times 3 ) \\ = 2 \times ( 2 \times 2 ) \times 3 \times 3 \\ = 2 \times 2 \times 2 \times 3 \times 3 \end{gathered}$
 
 
 

@@ -96,16 +96,16 @@ guided_study: true
 > 
 > *Find the area of the lounge by adding the two areas together*
 > 
-> `table row cell Total space Area space end cell equals cell space Area space straight A space plus space Area space straight B end cell row blank equals cell space open parentheses 3.2 cross times 3.6 close parentheses plus open parentheses 2.4 cross times 1.8 close parentheses end cell row blank equals cell space 11.52 plus 4.32 end cell row blank equals cell space 15.84 space straight m to the power of 2 space end exponent end cell end table`
+> $\begin{gathered} \text{Total} \text{Area} & = \text{Area} \mathrm{A} + \text{Area} \mathrm{B} \\ = ( 3.2 \times 3.6 ) + ( 2.4 \times 1.8 ) \\ = 11.52 + 4.32 \\ = 15.84 \mathrm{m}^{2 } \end{gathered}$
 > 
 > > *Find the cost for each of the two companies separately*
 > 
 > > *Company A:*
 > 
-> `table row cell Total space Cost space end cell equals cell space 15.84 cross times 5.50 end cell row blank equals cell space £ 87.12 end cell end table`
+> $\begin{gathered} \text{Total} \text{Cost} & = 15.84 \times 5.50 \\ = \pounds 87.12 \end{gathered}$
 > 
 > > *Company B:*
 > 
-> `table row cell Total space Cost space end cell equals cell space £ 6 space cross times space first space 10 space straight m squared space plus space £ 4 space cross times space remaining end cell row blank equals cell space open parentheses 6 cross times 10 close parentheses plus 4 cross times open parentheses 15.84 minus 10 close parentheses space end cell row blank equals cell space 60 plus 23.36 space end cell row blank equals cell space £ 83.36 end cell end table`
+> $\begin{gathered} \text{Total} \text{Cost} & = \pounds 6 \times \text{first} 10 \mathrm{m}^{2} + \pounds 4 \times \text{remaining} \\ = ( 6 \times 10 ) + 4 \times ( 15.84 - 10 ) \\ = 60 + 23.36 \\ = \pounds 83.36 \end{gathered}$
 > 
 > **Final answer:** **John should choose Company B as it will cost £3.76 less than Company A**

@@ -30,39 +30,39 @@ guided_study: false
 
 - The **mean**, for a **continuous** **random** **variable *****X*** is given by
 
-`bold E bold left parenthesis bold italic X bold right parenthesis bold equals bold italic mu bold equals bold integral subscript bold minus bold infinity end subscript superscript bold infinity bold italic x bold f bold left parenthesis bold italic x bold right parenthesis bold space bold d bold italic x`
+$E ( X ) = mu = integral_{ } - \text{infinity} ^{ } \text{infinity} x f ( x ) d x$
 
 - This is equivalent to $ΣxP(X=x)$ for discrete random variables
 - If the graph of $y=f(x)$has **axis** of **symmetry,** x = a , then  E(X) = a
 
 - The **variance** is given by
 
-`bold Var bold left parenthesis bold italic X bold right parenthesis bold equals bold italic sigma to the power of bold 2 bold equals bold integral subscript bold minus bold infinity end subscript superscript bold infinity bold italic x to the power of bold 2 bold f bold left parenthesis bold italic x bold right parenthesis bold d bold italic x bold minus bold italic mu to the power of bold 2`
+$Var ( X ) = \text{sigma} ^{ } 2 = integral_{ } - \text{infinity} ^{ } \text{infinity} x^{ } 2 f ( x ) d x - mu^{ } 2$
 
 - This is equivalent to $Σx^{2}P(X=x)-μ^{2}$  for discrete random variables
-- Be careful about confusing $E(X^{2})$  and `begin mathsize 16px style open square brackets E open parentheses X close parentheses close square brackets squared end style`
+- Be careful about confusing $E(X^{2})$  and $[ E ( X ) ]^{2}$
 
-  - `E left parenthesis X squared right parenthesis equals integral subscript negative infinity end subscript superscript infinity x squared straight f left parenthesis x right parenthesis space straight d x`                “mean of the squares”
-  - `open square brackets E left parenthesis X right parenthesis close square brackets squared equals open square brackets integral subscript negative infinity end subscript superscript infinity x space straight f left parenthesis x right parenthesis space straight d x close square brackets squared`       “square of the mean”
+  - $E ( X ^{2} ) = integral_{ - } \text{infinity} ^{infinity} x ^{2} \mathrm{f} ( x ) \mathrm{d} x$                “mean of the squares”
+  - $[ E ( X ) ] ^{2} = [ integral_{ - } \text{infinity} ^{infinity} x \mathrm{f} ( x ) \mathrm{d} x ] ^{2}$       “square of the mean”
   - If you are happy with the difference between these and how to calculate them the variance formula becomes very straightforward
 
-`Var left parenthesis X right parenthesis equals straight E left parenthesis X squared right parenthesis minus open square brackets straight E left parenthesis X right parenthesis close square brackets squared`
+$\text{Var} ( X ) = \mathrm{E} ( X^{2} ) - [ \mathrm{E} ( X ) ]^{2}$
 
 #### How do I calculate E(g(X))?
 
-- `straight E open parentheses g open parentheses X close parentheses close parentheses equals integral subscript negative infinity end subscript superscript infinity g open parentheses x close parentheses straight f left parenthesis x right parenthesis space straight d x`
+- $\mathrm{E} ( g ( X ) ) = integral_{ - } \text{infinity} ^{infinity} g ( x ) \mathrm{f} ( x ) \mathrm{d} x$
 - In particular:
 
-  - `straight E left parenthesis X squared right parenthesis equals integral subscript negative infinity end subscript superscript infinity x squared straight f left parenthesis x right parenthesis space straight d x`as seen above
+  - $\mathrm{E} ( X ^{2} ) = integral_{ - } \text{infinity} ^{infinity} x ^{2} \mathrm{f} ( x ) \mathrm{d} x$as seen above
 - If $g(X)=aX+b$(a linear function) then
 
-  - `straight E open parentheses g open parentheses X close parentheses close parentheses equals straight E open parentheses a X plus b close parentheses equals a straight E open parentheses X close parentheses plus b`
-  - `Var open parentheses g left parenthesis X right parenthesis close parentheses equals Var open parentheses a X plus b close parentheses equals a squared Var open parentheses X close parentheses`
+  - $\mathrm{E} ( g ( X ) ) = \mathrm{E} ( a X + b ) = a \mathrm{E} ( X ) + b$
+  - $Var ( g ( X ) ) = Var ( a X + b ) = a ^{2} Var ( X )$
 
 > **Worked Example**
 > A continuous random variable, *X*, is modelled by the probability distribution function f(x), such that
 > 
-> `straight f left parenthesis x right parenthesis equals open curly brackets table row cell 1.5 x squared left parenthesis 1 minus 0.5 x right parenthesis end cell cell 0 less or equal than x less or equal than 2 end cell row cell space space space space space space space space 0 end cell otherwise end table close`
+> `f ( x ) = { | 1.5 x ^2 ( 1 - 0.5 x ) | 0 <= x <= 2 | | 0 | otherwise | close`
 > 
 > (a) Find $E(X)$ .
 > 

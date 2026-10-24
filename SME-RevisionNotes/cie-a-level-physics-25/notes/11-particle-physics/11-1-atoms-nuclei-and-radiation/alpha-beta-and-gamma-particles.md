@@ -21,7 +21,7 @@ guided_study: true
 - The number of protons and neutrons in atom is known as its **constituents**
 - For example:
 
-`straight U presubscript 92 presuperscript 235 space plus space straight n presubscript 0 presuperscript 1 space rightwards arrow space Sr presubscript 38 presuperscript 90 space plus space Xe presubscript 54 presuperscript 144 space plus space 2 straight n presubscript 0 presuperscript 1`
+`U _ 92 ^ 235 + n _ 0 ^ 1 -> Sr _ 38 ^ 90 + Xe _ 54 ^ 144 + 2 n _ 0 ^ 1`
 
 - The above equation represents a fission reaction in which a uranium nucleus is hit with a neutron and splits into two smaller nuclei – a Strontium nucleus and Xenon nucleus, releasing two neutrons in the process
 - In nuclear equations, the nucleon number and charge are always **conserved**
@@ -31,13 +31,13 @@ guided_study: true
   - the sum of the **charge **on the **left **hand side must **equal **the sum of the **charge **on the **right **hand side
 - In the above equation, the sum of the nucleon (top) numbers on both sides are equal
 
-`235 space plus space 1 space equals space 90 space plus space 144 space plus space open parentheses 2 space cross times space 1 close parentheses`
+$235 + 1 = 90 + 144 + ( 2 \times 1 )$
 
 $236=236$
 
 - The same is true for the proton (bottom) numbers
 
-`92 space plus space 0 space equals space 38 space plus space 54 space plus space open parentheses 2 space cross times space 0 close parentheses`
+$92 + 0 = 38 + 54 + ( 2 \times 0 )$
 
 $92=92$
 
@@ -45,14 +45,14 @@ $92=92$
 
 - Let's consider another example:
 
-`straight U presubscript 92 presuperscript 235 space plus space straight n presubscript 0 presuperscript 1 space rightwards arrow space Rb presubscript 37 presuperscript 96 space plus space Cs presubscript 55 presuperscript 137 space plus space straight N straight n presubscript 0 presuperscript 1`
+`U _ 92 ^ 235 + n _ 0 ^ 1 -> Rb _ 37 ^ 96 + Cs _ 55 ^ 137 + N n _ 0 ^ 1`
 
 - Determine the total nucleon number
 
   - This is determined from the side of the equation where all the values are known
-  - In this example, from the reactants `straight U presubscript 92 presuperscript 235 space plus space straight n presubscript 0 presuperscript 1`
+  - In this example, from the reactants `U _ 92 ^ 235 + n _ 0 ^ 1`
   - The total nucleon number = 235 + 1 = 236
-- Equate the total nucleon number to the total nucleon number of the products including the unknown N `Rb presubscript 37 presuperscript 96 space plus space Cs presubscript 55 presuperscript 137 space plus space straight N straight n presubscript 0 presuperscript 1`
+- Equate the total nucleon number to the total nucleon number of the products including the unknown N `Rb _ 37 ^ 96 + Cs _ 55 ^ 137 + N n _ 0 ^ 1`
 
   - Total nucleon number of reactants = 96 + 137 + (N ×1) = 236
 - Rearrange to solve for N
@@ -66,7 +66,7 @@ $N=3$
 > **Worked Example**
 > When a californium atom reacts with an unknown element X, the following reaction occurs.
 > 
-> `Cf presubscript 98 presuperscript 252 space plus space straight X presubscript straight Y presuperscript 10 space rightwards arrow space 3 straight n presubscript 0 presuperscript 1 space plus space Lr presubscript 103 presuperscript straight Z`
+> `Cf _ 98 ^ 252 + X _ Y ^ 10 -> 3 n _ 0 ^ 1 + Lr _ 103 ^ Z`
 > 
 > Determine the missing values of Y and Z.
 > 
@@ -80,7 +80,7 @@ $N=3$
 > 
 > - Determine the number of protons on both sides of the equation
 > 
-> `98 space plus space straight Y space equals space open parentheses 3 space cross times space 0 close parentheses space plus space 103`
+> $98 + \mathrm{Y} = ( 3 \times 0 ) + 103$
 > 
 > $Y=0+103-98$
 > 
@@ -94,7 +94,7 @@ $N=3$
 > 
 > - Determine the total nucleon numbers on both sides of the equation
 > 
-> `252 space plus space 10 space equals space open parentheses 3 cross times 1 close parentheses space plus space straight Z`
+> $252 + 10 = ( 3 \times 1 ) + \mathrm{Z}$
 > 
 > $Z=252+10-3$
 > 
@@ -127,7 +127,7 @@ $N=3$
 
 - The nuclide notion for an alpha particle is:
 
-`straight alpha presubscript 2 presuperscript 4` or `He presubscript 2 presuperscript 4`
+$\ \\alpha pre_{2} pre^{4}$ or `He presubscript 2 presuperscript 4`
 
 - Alpha is a **highly** ionising form of radiation
 
@@ -150,7 +150,7 @@ $N=3$
 
 - The nuclide notion for a beta minus particle is:
 
-`straight beta presubscript negative 1 end presubscript presuperscript 0`
+`beta _ - 1 ^ 0`
 
 - **Beta (β**<sup>**+**</sup>**) particles are high energy positrons **emitted from the nucleus
 
@@ -162,7 +162,7 @@ $N=3$
 
 - The nuclide notion for a beta plus particle is:
 
-`straight beta presubscript plus 1 end presubscript presuperscript 0`
+`beta _ + 1 ^ 0`
 
 - Beta is a **moderately** ionising type of radiation
 
@@ -180,7 +180,7 @@ $N=3$
 
 - The nuclide notation for a gamma particle is:
 
-`straight gamma presubscript 0 presuperscript 0`
+$\ \\gamma pre_{0} pre^{0}$
 
 - If these particles hit other atoms, they can knock out electrons, **ionising the atom**
 - This can cause chemical changes in materials and can damage or kill living cells
@@ -221,13 +221,13 @@ $N=3$
 > 
 > Which nuclide of Z is formed at the end of this decay?
 > 
-> **A. **`straight Z presubscript 90 presuperscript 237`**      **
+> **A. **`Z _ 90 ^ 237`**      **
 > 
-> **B. **`straight Z presubscript 92 presuperscript 233`**      **
+> **B. **`Z _ 92 ^ 233`**      **
 > 
-> **C. **`straight Z presubscript 89 presuperscript 237`**      **
+> **C. **`Z _ 89 ^ 237`**      **
 > 
-> **D. **`straight Z presubscript 90 presuperscript 233`
+> **D. **`Z _ 90 ^ 233`
 > 
 > **Answer: D**
 > 
@@ -237,7 +237,7 @@ $N=3$
 > - The nucleon number stays the same
 > - The proton number increases by 1
 > 
-> `straight W presubscript 92 presuperscript 237 space rightwards arrow space straight X presubscript 93 presuperscript 237 space plus space straight beta presubscript 1 presuperscript 0`
+> `W _ 92 ^ 237 -> X _ 93 ^ 237 + beta _ 1 ^ 0`
 > 
 > **Step 2: Write the equation for the α decay**
 > 
@@ -245,7 +245,7 @@ $N=3$
 > - The nucleon number reduces by 4
 > - The proton number reduces by 2
 > 
-> `straight X presubscript 93 presuperscript 237 space rightwards arrow space straight Y presubscript 91 presuperscript 233 space plus space straight alpha presubscript 2 presuperscript 4`
+> `X _ 93 ^ 237 -> Y _ 91 ^ 233 + alpha _ 2 ^ 4`
 > 
 > **Step 3: Write the equation for the β+ decay**
 > 
@@ -253,13 +253,13 @@ $N=3$
 > - The nucleon number stays the same
 > - The proton number reduces by 1
 > 
-> `straight Y presubscript 91 presuperscript 233 space rightwards arrow space straight Z presubscript 90 presuperscript 233 space plus space straight beta presubscript plus 1 end presubscript presuperscript 0`
+> `Y _ 91 ^ 233 -> Z _ 90 ^ 233 + beta _ + 1 ^ 0`
 > 
 > **Step 4: Determine the final nucleon Z**
 > 
 > - The final nucleon, Z will be:
 > 
-> `straight Z presubscript 90 presuperscript 233`
+> `Z _ 90 ^ 233`
 
 > **Exam Hint**
 > It is important to be familiar the properties of each type of radiation and their symbols.

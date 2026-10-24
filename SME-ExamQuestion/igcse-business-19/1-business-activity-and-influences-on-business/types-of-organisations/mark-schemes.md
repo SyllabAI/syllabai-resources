@@ -132,11 +132,11 @@ A franchisee receives ongoing support from the franchisor, which may include tra
 
 The percentage decrease is calculated as:
 
-`equals space fraction numerator 36.55 minus 35.06 over denominator 36.55 end fraction space cross times space 100
+$= \frac{36.55 - 35.06}{36.55} \times 100
 
-equals fraction numerator 1.49 over denominator 36.55 end fraction space cross times space 100
+= \frac{1.49}{36.55} \times 100
 
-equals 4.08 percent sign`
+= 4.08 \%$
 
 **A** is incorrect as 1.49 is simply the difference between $36 . 55 - 35 . 06$, not expressed as a percentage
 
@@ -144,9 +144,9 @@ equals 4.08 percent sign`
 
 **D** is incorrect as 4.25 results from dividing the difference by the closing price rather than the opening price:
 
-`equals space fraction numerator 1.49 over denominator 35.06 end fraction space cross times space 100
+$= \frac{1.49}{35.06} \times 100
 
-equals 4.25 percent sign`
+= 4.25 \%$
 
 ## Q9 — easy — 1 marks · exam-questions
 

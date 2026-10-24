@@ -10,21 +10,21 @@ The diagram below shows part of the graph$y=f(x)$ where $f(x)=2x^{2}-2x^{3}+3$.
 
 ![q1a-10-1-solving-equations-easy-a-level-maths-pure](assets/009-q1a-10-1-solving-equations-easy-a-level-maths-pu.png)
 
-(i) Find `straight f open parentheses 1.5 close parentheses`
+(i) Find $\mathrm{f} ( 1.5 )$
 
 (ii) Find$f(1.6)$
 
 ### 2() — 3 marks — structured
-Write down an interval, in the form $a<α<b$, such that `straight f open parentheses alpha close parentheses equals 0`, explain clearly your choice of values for *a* and b.
+Write down an interval, in the form $a<α<b$, such that $\mathrm{f} ( \\alpha ) = 0$, explain clearly your choice of values for *a* and b.
 
 ## Q2 — easy — 3 marks · exam-questions
 
 ### 1() — 3 marks — structured
-A solution to the equation `straight f open parentheses x close parentheses equals 0` is $x=3.1$, correct to two significant figures.
+A solution to the equation $\mathrm{f} ( x ) = 0$ is $x=3.1$, correct to two significant figures.
 
 (i) Write down the lower bound, *l,* and the upper bound, *u*, of 3.1.
 
-(ii) Assuming $f(x)$ is continuous in the interval $l<x<u$, what can you say about the values of $f(u)$ and `straight f open parentheses l space close parentheses`?
+(ii) Assuming $f(x)$ is continuous in the interval $l<x<u$, what can you say about the values of $f(u)$ and $\mathrm{f} ( l )$?
 
 ## Q3 — easy — 5 marks · exam-questions
 
@@ -36,14 +36,14 @@ $x=\frac{1}{5}(x^{3}-2).$
 ### 2() — 3 marks — structured
 Starting with $x_{0}=1$, use the iterative formula
 
-`x subscript n plus 1 end subscript equals 1 fifth open parentheses space x subscript n superscript 3 minus 2 close parentheses`
+$x_{n + 1} = 1 \frac{1}{5} ( x_{n}^{3} - 2 )$
 
 to find values for $x_{1},x_{2}$ and $x_{3}$, giving each to four decimal places where appropriate.
 
 ## Q4 — easy — 3 marks · exam-questions
 
 ### 1() — 3 marks — structured
-The graph of`space y equals straight f space open parentheses theta close parentheses` where $f(θ)=\mathrm{sec}θ$ is shown below. *θ* is measured in radians and -$π\leqθ\leqπ.$
+The graph of$y = \mathrm{f} ( \\theta )$ where $f(θ)=\mathrm{sec}θ$ is shown below. *θ* is measured in radians and -$π\leqθ\leqπ.$
 
 ![q7-10-1-solving-equations-easy-a-level-maths-pure](assets/017-q7-10-1-solving-equations-easy-a-level-maths-pur.png)
 
@@ -56,9 +56,9 @@ Given that $\mathrm{sec}θ=\frac{1}{\mathrm{cos}θ}$ .
 ## Q5 — easy — 3 marks · exam-questions
 
 ### 1() — 3 marks — structured
-A student is trying to find a solution to the equation `straight f open parentheses x close parentheses equals 0 space`using an iterative formula.
+A student is trying to find a solution to the equation $\mathrm{f} ( x ) = 0$using an iterative formula.
 
-The student rearranges `straight f open parentheses x close parentheses equals 0 space` into the form $x=g(x)$.
+The student rearranges $\mathrm{f} ( x ) = 0$ into the form $x=g(x)$.
 
 The diagram below shows a sketch of the graphs of $y=g(x)$ and $y=x$.
 
@@ -99,7 +99,7 @@ This is illustrated by the graph below with the ball being rolled from the origi
 
 The boundary of the winning zone is given by part of the curve with equation
 
-`y equals 1 minus tan open parentheses square root of 3 open parentheses x plus 1 close parentheses end root close parentheses.`
+$y = 1 - \tan ( \sqrt{3 ( x + 1 )} ).$
 
 (i) Using the iterative formula $x_{n+1}=1-\mathrm{tan}(\sqrt{3(x_{n}+1)}),$ with initial starting value $x_{0}=1.5$, find the estimates $x_{1},x_{2}$ and $x_{3}$, writing each to five decimal places.
 
@@ -114,21 +114,21 @@ According to legend, unicorn tears can heal an injury almost instantly.
 
 If a unicorn tear is applied to a burn of initialize size $B\mathrm{mm}^{2}$ on human skin it will heal according to the model
 
-`b open parentheses t close parentheses space equals space B minus t cubed space plus square root of t space space space space space space space space space space space space space space space space t greater or equal than 0`
+$b ( t ) = B - t^{3} + \sqrt{t} t \text{greater} \text{or} \text{equal} \text{than} 0$
 
 where $b$ is the area of the burn, in square millimeters, at time $t$ seconds after the unicorn tear has been applied.
 
-Show that the equation `straight b open parentheses t close parentheses equals 0` can be written as
+Show that the equation $\mathrm{b} ( t ) = 0$ can be written as
 
-`t equals cube root of B space plus square root of t end root.`
+$t = \sqrt[3]{B} + \sqrt{t} .$
 
 ### 2() — 4 marks — structured
-Use the iterative formula `t subscript n plus 1 end subscript space equals cube root of 40 space plus square root of t subscript n end root end root comma` with initial value $t_{0}=3$, to find how many seconds it takes a burn of size $40\mathrm{mm}^{2}$ to heal once a unicorn tear is applied .
+Use the iterative formula $t_{n + 1} = \sqrt[3]{40 + \sqrt{t_{n} } } ,$ with initial value $t_{0}=3$, to find how many seconds it takes a burn of size $40\mathrm{mm}^{2}$ to heal once a unicorn tear is applied .
 
 Give your final answer to three significant figures.
 
 ### 3() — 3 marks — structured
-An alternative iterative formula is `t subscript n plus 1 space end subscript equals open parentheses t subscript n superscript space 3 end superscript minus B close parentheses squared`,
+An alternative iterative formula is $t_{n + 1 } = ( t_{n}^{ 3} - B )^{2}$,
 
 (i) Using $t_{0}=3$, find $t_{1,}t_{2}\mathrm{and}t_{3}$, for the same initial burn size as part (b), giving each to three significant figures.
 
@@ -141,28 +141,28 @@ The diagram below shows part of the graph $y=f(x)$where $f(x)=2x\mathrm{cos}(3x)
 
 ![q1a-10-1-solving-equations-medium-a-level-maths-pure](assets/077-q1a-10-1-solving-equations-medium-a-level-maths-.png)
 
-(i) Find `straight f open parentheses 1.6 close parentheses` and `straight f open parentheses 1.7 close parentheses`, giving your answers to three significant figures.
+(i) Find $\mathrm{f} ( 1.6 )$ and $\mathrm{f} ( 1.7 )$, giving your answers to three significant figures.
 
 (ii) Briefly explain the significance of your results from part (i).
 
 ### 2() — 3 marks — structured
-One of the solutions to the equation `straight f open parentheses x close parentheses equals 0` is $x=2.55$, correct to three significant figures.
+One of the solutions to the equation $\mathrm{f} ( x ) = 0$ is $x=2.55$, correct to three significant figures.
 
 (i) Write down the upper and lower bound of 2.55.
 
-(ii) Hence, use the sign change rule to confirm that this is a solution (to three significant figures) to the equation `straight f open parentheses x close parentheses equals 0`.
+(ii) Hence, use the sign change rule to confirm that this is a solution (to three significant figures) to the equation $\mathrm{f} ( x ) = 0$.
 
 ## Q10 — medium — 5 marks · exam-questions
 
 ### 1() — 2 marks — structured
 Show that the equation  $x^{3}+3=5x$ can be rewritten as
 
-`x equals cube root of 5 x minus 3 end root`
+$x = \sqrt[3]{5 x - 3}$
 
 ### 2() — 3 marks — structured
 Starting with $x_{0}=1.8$, use the iterative formula
 
-`x subscript n plus 1 end subscript equals cube root of 5 x subscript n minus 3 end root`
+$x_{n + 1} = \sqrt[3]{5 x_{n} - 3}$
 
 to find a root of the equation $x^{3}+3=5x$, correct to two decimal places.
 
@@ -173,18 +173,18 @@ Part of the graph of $y=\mathrm{tan}θ$ is shown below, where $θ$ is measured i
 
 ![q5-10-1-solving-equations-medium-a-level-maths-pure](assets/067-q5-10-1-solving-equations-medium-a-level-maths-p.png)
 
-Explain why the change of sign rule would fail if attempting to locate a root of the function `space straight f open parentheses straight theta close parentheses equals tan space straight theta` using the values of θ = 1.55 and θ = 1.65.
+Explain why the change of sign rule would fail if attempting to locate a root of the function $\mathrm{f} ( \ \\theta ) = \tan \ \\theta$ using the values of θ = 1.55 and θ = 1.65.
 
 ## Q12 — medium — 7 marks · exam-questions
 
 ### 1() — 1 mark — structured
-The diagram below shows the graphs of $y=x_{}$ and `space y equals ln space open parentheses x minus 1 close parentheses plus 3 space`.
+The diagram below shows the graphs of $y=x_{}$ and $y = \ln ( x - 1 ) + 3$.
 
 ![q6-10-1-solving-equations-medium-a-level-maths-pure](assets/080-q6-10-1-solving-equations-medium-a-level-maths-p.png)
 
 The iterative formula
 
-`x subscript n plus 1 end subscript equals ln open parentheses space x subscript n minus 1 close parentheses plus 3`
+$x_{n + 1} = \ln ( x_{n} - 1 ) + 3$
 
 is to be used to find an estimate for a root, $α$, of the function$f(x)$.
 
@@ -230,7 +230,7 @@ A particular player decides to roll the ball at an angle of 45°. This is illust
 
 The boundary of the winning zone is given by part of the curve with equation
 
-`y equals 1 half sin squared open parentheses e to the power of x close parentheses.`
+$y = 1 \frac{1}{2} \sin ^{2} ( e^{x} ).$
 
 Use the iterative formula $x_{n+1}=\frac{1}{2}\mathrm{sin}^{2}(e^{x})$, taking all angles in radians, with initial starting value $x_{0}=0.5$, to show that the $x$-coordinate of the point where this player’s ball should cross the winning zone boundary is 0.497 to three significant figures.
 
@@ -244,18 +244,18 @@ According to legend, a unicorn can heal an injury almost instantly by touching i
 
 When a unicorn touches a cut in human skin of length $L\mathrm{mm}$, it will heal according to the model
 
-`straight f open parentheses t close parentheses equals L e to the power of negative t end exponent space minus space t space space space space space space space space space space space space space space space space space space t space greater or equal than 0`
+$\mathrm{f} ( t ) = L e^{ - } t - t t \ge 0$
 
 where $f$ is the length of the cut in millimeters, at time $t$ seconds after the unicorn has touched the injury with its horn.
 
 (i) Write down the value $f$ would be when the cut is completely healed.
 
-(ii) Show that, for a cut in human skin of length $5\mathrm{mm}$ the equation `straight f open parentheses t close parentheses equals 0` can be rearranged into the form
+(ii) Show that, for a cut in human skin of length $5\mathrm{mm}$ the equation $\mathrm{f} ( t ) = 0$ can be rearranged into the form
 
-`t equals negative In open parentheses t over 5 close parentheses`
+$t = - \text{In} ( \frac{t}{5} )$
 
 ### 2() — 4 marks — structured
-Use the iterative formula  `t subscript n plus 1 end subscript equals negative In open parentheses t subscript n over 5 close parentheses`, with initial value $t_{0}=1,$ to find how many seconds it takes a cut of size $5\mathrm{mm}$ to heal once a unicorn has touched it with its horn.
+Use the iterative formula  $t_{n} + 1 = - In ( t_\frac{{n}}{5} )$, with initial value $t_{0}=1,$ to find how many seconds it takes a cut of size $5\mathrm{mm}$ to heal once a unicorn has touched it with its horn.
 
 (i) Write down the values of the estimates $t_{1},t_{2}\mathrm{and}t_{3}$ to four decimal places.
 
@@ -264,7 +264,7 @@ Use the iterative formula  `t subscript n plus 1 end subscript equals negative I
 (iii) State the number of iterations required for convergence to two significant figures.
 
 ### 3() — 1 mark — structured
-Briefly explain why the model should also restrict the range of `straight f open parentheses t close parentheses` to be greater than or equal to zero?
+Briefly explain why the model should also restrict the range of $\mathrm{f} ( t )$ to be greater than or equal to zero?
 
 ## Q16 — hard — 6 marks · exam-questions
 
@@ -273,7 +273,7 @@ The diagram below shows part of the function $y=f(x)$ where$f(x)=3x^{2}\mathrm{s
 
 ![q1a-10-1-solving-equations-hard-a-level-maths-pure](assets/047-q1a-10-1-solving-equations-hard-a-level-maths-pu.png)
 
-Correct to three significant figures, `straight f open parentheses 0.9 close parentheses equals negative 0.509` and$f(3.4)=0.265$. 
+Correct to three significant figures, $\mathrm{f} ( 0.9 ) = - 0.509$ and$f(3.4)=0.265$. 
 Explain why using the sign change rule with these values would not necessarily be helpful in finding the root close to $x=0.98$.
 
 ### 2() — 2 marks — structured
@@ -285,7 +285,7 @@ Show that the root close to $x=0.98$is 0.982, correct to three significant figur
 ## Q17 — hard — 7 marks · exam-questions
 
 ### 1() — 2 marks — structured
-The diagram below shows a sketch of the graphs $y=x$, and  `y equals cube root of 3 x squared plus 2 x minus 1 end root`.
+The diagram below shows a sketch of the graphs $y=x$, and  $y = \sqrt[3]{3 x^{2} + 2 x - 1}$.
 
 ![pmoTqjiD_q1a-10-1-solving-equations-hard-a-level-maths-pure](assets/043-pmotqjid-q1a-10-1-solving-equations-hard-a-level.png)
 
@@ -293,7 +293,7 @@ An iterative formula is used to find roots to the equation $x^{3}-3x^{2}-2x+1=0$
 
 On the diagram above show that the iterative formula
 
-`x subscript n plus 1 end subscript equals cube root of 3 x subscript n squared plus 2 x subscript n minus 1 space end root`
+$x_{n + 1} = \sqrt[3]{3 x_{n}^{2} + 2 x_{n} - 1 }$
 
 would converge to the root close to $x=3.5$when using a starting value of $x_{0}=0.5$.
 
@@ -372,7 +372,7 @@ A particular player decides to roll the ball at an angle of 45°, as illustrated
 
 The lower boundary of the winning zone has equation  $y=3-\mathrm{ln}(x+1)^{2}$,  $x,y\geq0$
 
-The upper boundary of the winning zone has equation `y equals 4 minus ln open parentheses x plus 1 close parentheses squared`  ,  $x,y\geq0$
+The upper boundary of the winning zone has equation $y = 4 - \ln ( x + 1 )^{2}$  ,  $x,y\geq0$
 
 ![q2-10-2-edexcel-modelling-with-numerical-methods-hard](assets/051-q2-10-2-edexcel-modelling-with-numerical-methods.png)
 
@@ -389,13 +389,13 @@ According to legend, unicorn tears have magical healing powers.
 
 When a unicorn tear is applied to a bruise of size $A\mathrm{mm}^{2}$ it will heal according to the model
 
-`straight f open parentheses t close parentheses equals A e to the power of negative 0.15 t end exponent minus space 0.2 t space space space space space space space space space space space space space space space space space space space space space space space space space t greater or equal than 0`
+$\mathrm{f} ( t ) = A e^{ - } 0.15 t - 0.2 t t \ge 0$
 
 where $f$ is the area of the bruise, in square millimeters, at time $t$ seconds after the unicorn tear is applied.
 
-Show that, for a bruise of initial size $20\mathrm{mm}^{2}$, the equation `straight f open parentheses t close parentheses`$=0$ can be rearranged into the form
+Show that, for a bruise of initial size $20\mathrm{mm}^{2}$, the equation $\mathrm{f} ( t )$$=0$ can be rearranged into the form
 
-`t equals 20 over 3 In open parentheses 100 over t close parentheses.`
+$t = \frac{20}{3} \text{In} ( \frac{100}{t} ).$
 
 ### 2() — 3 marks — structured
 Using the equation from part (a) as an iterative formula and initial value $t_{0}=12,$ find how many seconds it takes a bruise of siae $20\mathrm{mm}^{2}$ to heal once a unicorn tear is applied. Give your answer to three significant figures.
@@ -406,26 +406,26 @@ It is rumoured that a unicorn tear can heal bruises one-hundred-thousand times f
 ## Q23 — very_hard — 4 marks · exam-questions
 
 ### 1() — 2 marks — structured
-The diagram below shows part of the graph with equation `straight f left parenthesis x right parenthesis equals x tan open parentheses space pi minus x close parentheses minus 3` .
+The diagram below shows part of the graph with equation $\mathrm{f} ( x ) = x \tan ( \pi - x ) - 3$ .
 
 ![q1a-10-1-solving-equations-very-hard-a-level-maths-pure-screenshots](assets/035-q1a-10-1-solving-equations-very-hard-a-level-mat.png)
 
-A student searches for a root of the equation `straight f open parentheses x close parentheses equals 0`. They find that `straight f open parentheses 1.5 close parentheses equals negative 24.2` and that `f open parentheses 1.6 close parentheses equals 51.8`. The student concludes that there is a root in the interval $1.5<x<1.6$. 
+A student searches for a root of the equation $\mathrm{f} ( x ) = 0$. They find that $\mathrm{f} ( 1.5 ) = - 24.2$ and that $f ( 1.6 ) = 51.8$. The student concludes that there is a root in the interval $1.5<x<1.6$. 
 Explain why the student’s conclusion is incorrect.
 
 ### 2() — 1 mark — structured
-Verify that $x=0$ is a solution to the equation `straight f open parentheses x close parentheses plus 3 equals 0.`
+Verify that $x=0$ is a solution to the equation $\mathrm{f} ( x ) + 3 = 0.$
 
 ### 3() — 1 mark — structured
-Explain why the sign change rule would fail if searching for the root$x=0$ of the equation `straight f open parentheses x close parentheses plus 3 equals 0`.
+Explain why the sign change rule would fail if searching for the root$x=0$ of the equation $\mathrm{f} ( x ) + 3 = 0$.
 
 ## Q24 — very_hard — 10 marks · exam-questions
 
 ### 1() — 2 marks — structured
 The function,$f(x)$ is defined by
- `straight f open parentheses x close parentheses equals 1 over e to the power of x minus x plus 1 space space space space space space space space space space space space space space x element of straight real numbers`
+ $\mathrm{f} ( x ) = \frac{1}{e^{x}} - x + 1 x \in \mathbb{R}$
 
-Show that the equation `straight f open parentheses x close parentheses equals 0` can be written in the form
+Show that the equation $\mathrm{f} ( x ) = 0$ can be written in the form
 
 $x=e^{-x}+1$
 
@@ -433,7 +433,7 @@ $x=e^{-x}+1$
 On the same diagram sketch the graphs of $y=x$ and $y=e^{-x}+1$.
 
 ### 3() — 2 marks — structured
-The equation `straight f open parentheses x close parentheses equals 0` has a root, $α$, close to $x=1$. The iterative formula  $x_{n+1}=e^{-x_{n}}+1$ with $x_{0}=2$ is to be used to find $α$ correct to three significant figures.
+The equation $\mathrm{f} ( x ) = 0$ has a root, $α$, close to $x=1$. The iterative formula  $x_{n+1}=e^{-x_{n}}+1$ with $x_{0}=2$ is to be used to find $α$ correct to three significant figures.
 
 Show, using a diagram and your answer to part (b), that this formula and initial *x* value will converge to the root $α$.
 
@@ -512,13 +512,13 @@ According to legend, unicorn tears have magical healing powers.
 
 Without unicorn tears, a bruise of initial size $A\mathrm{mm}^{2}$ will heal according to the model
 
-`straight f open parentheses t close parentheses space equals space A e to the power of negative 0.25 t end exponent space minus space 0.1 t space space space space space space space space space space t greater or equal than 0`
+$\mathrm{f} ( t ) = A e^{ - } 0.25 t - 0.1 t t \ge 0$
 
 where $f$ is the area of the bruise, in square millimeters, at time $t$ days since the bruise first appeared.
 
 Use the iterative formula
 
-`t subscript n plus 1 end subscript equals 4 space In space open parentheses 120 over t subscript n close parentheses`
+$t_{n + 1} = 4 \text{In} ( \frac{120}{t} _{n} )$
 
 with $t_{0}=10$ to find how many days it takes a bruise to heal without unicorn tears.
 
@@ -527,7 +527,7 @@ Give your answer to three significant figures.
 ### 2() — 3 marks — structured
 With unicorn tears, a bruise of the same initial size will heal according to the model
 
-`u open parentheses T close parentheses equals A T e to the power of negative T end exponent minus space 0.1 T space space space space space space space space space space space space space space space space space space T greater or equal than 0`
+$u ( T ) = A T e^{ - } T - 0.1 T T \ge 0$
 
 where time $T$ is measured in seconds.
 

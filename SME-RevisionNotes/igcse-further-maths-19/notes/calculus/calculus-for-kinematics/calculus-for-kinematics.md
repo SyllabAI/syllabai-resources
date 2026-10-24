@@ -51,13 +51,13 @@ guided_study: false
 > 
 > > *Note that this 'powers of *$t$*' derivative works exactly the same way as a 'powers of *$x$*' derivative! *
 > 
-> `table row v equals cell fraction numerator straight d s over denominator straight d t end fraction end cell row blank equals cell 2 open parentheses 3 t to the power of 3 minus 1 end exponent close parentheses minus 18 open parentheses 2 t to the power of 2 minus 1 end exponent close parentheses plus 48 end cell end table`
+> $\begin{gathered} v = \frac{ \mathrm{d} s}{ \mathrm{d} t} \\ = 2 ( 3 t^{3 - 1} ) - 18 ( 2 t^{2 - 1} ) + 48 \end{gathered}$
 > 
 > $v(t)=6t^{2}-36t+48$
 > 
 > > *Now differentiate the velocity to find the acceleration.*
 > 
-> `table attributes columnalign right center left columnspacing 0px end attributes row a equals cell fraction numerator straight d v over denominator straight d t end fraction end cell row blank equals cell 6 open parentheses 2 t to the power of 2 minus 1 end exponent close parentheses minus 36 end cell end table`
+> $\begin{array}{rcl} a = \frac{ \mathrm{d} v}{ \mathrm{d} t} \\ = 6 ( 2 t^{2 - 1} ) - 36 \end{array}$
 > 
 > $a(t)=12t-36$
 > 
@@ -65,9 +65,9 @@ guided_study: false
 > 
 > > *'Instantaneously at rest' means that the velocity is zero*
 > 
-> > *So solve *`v open parentheses t close parentheses equals 0`* for *$t$
+> > *So solve *$v ( t ) = 0$* for *$t$
 > 
-> `table attributes columnalign right center left columnspacing 0px end attributes row cell 6 t squared minus 36 t plus 48 end cell equals 0 row cell 6 open parentheses t squared minus 6 t plus 8 close parentheses end cell equals 0 row cell t squared minus 6 t plus 8 end cell equals 0 row cell open parentheses t minus 2 close parentheses open parentheses t minus 4 close parentheses end cell equals 0 end table`
+> $\begin{array}{rcl} 6 t^{2} - 36 t + 48 & = 0 \\ 6 ( t^{2} - 6 t + 8 ) & = 0 \\ t^{2} - 6 t + 8 & = 0 \\ ( t - 2 ) ( t - 4 ) & = 0 \end{array}$
 > $t=2\mathrm{or}t=4$
 > 
 > **Final answer:** **The particle is at rest at **$t=2$** ****seconds and at **$t=4$** seconds**
@@ -77,7 +77,7 @@ guided_study: false
 > > *First of all note that this is a different question from 'find the minimum **speed **of the particle'*
 > *The answer to that would be zero, at the times found in part (b)!*
 > 
-> > *The graph of  *`v open parentheses t close parentheses equals 6 t squared minus 36 t plus 48`*  is a 'u-shaped' parabola*
+> > *The graph of  *$v ( t ) = 6 t^{2} - 36 t + 48$*  is a 'u-shaped' parabola*
 > 
 > > *So we know there is going to be a single minimum point*
 > 
@@ -85,15 +85,15 @@ guided_study: false
 > 
 > > *So start by solving  *$a=\frac{dv}{dt}=0$*  for *$t$
 > 
-> `table row cell 12 t minus 36 end cell equals 0 row cell 12 t end cell equals 36 row t equals 3 end table`
+> $\begin{gathered} 12 t - 36 & = 0 \\ 12 t & = 36 \\ t = 3 \end{gathered}$
 > 
 > > *So the minimum velocity occurs when *$t=3$
 > 
 > > *(Note that, by the symmetry of quadratic graphs, that's halfway between the *$t$* values found in part (b)!)*
 > 
-> > *Substitute *$t=3$* into *`v open parentheses t close parentheses`* to find the velocity at that time*
+> > *Substitute *$t=3$* into *$v ( t )$* to find the velocity at that time*
 > 
-> > `table row cell v open parentheses 3 close parentheses end cell equals cell 6 open parentheses 3 close parentheses squared minus 36 open parentheses 3 close parentheses plus 48 end cell row blank equals cell 54 minus 108 plus 48 end cell row blank equals cell negative 6 end cell end table`* *
+> > $\begin{gathered} v ( 3 ) & = 6 ( 3 )^{2} - 36 ( 3 ) + 48 \\ = 54 - 108 + 48 \\ = - 6 \end{gathered}$* *
 > 
 > **Final answer:** **Minimum velocity **$=-6m/s$** **
 
@@ -107,13 +107,13 @@ guided_study: false
 
 - Since **velocity** is the **derivative** of **displacement** ($v=\frac{ds}{dt}$) it follows that
 
-  - `space s equals integral v space straight d t`
+  - $s = \int v \mathrm{d} t$
   
     - Integrate velocity to find displacement
 
 - Similarly, since **acceleration** is the **derivative** of **velocity **($a=\frac{dv}{dt}$)
 
-  - `space v equals integral a space straight d t`
+  - $v = \int a \mathrm{d} t$
   
     - Integrate acceleration to find velocity
 
@@ -121,15 +121,15 @@ guided_study: false
 
 - Without further information **integration** can only find $s$ or $v$ 'up to a **constant of integration**'
 
-  - i.e.  `integral v open parentheses t close parentheses space straight d t equals s open parentheses t close parentheses plus c`
-  - and  `integral a open parentheses t close parentheses space straight d t equals v open parentheses t close parentheses plus c`
+  - i.e.  $\int v ( t ) \mathrm{d} t = s ( t ) + c$
+  - and  $\int a ( t ) \mathrm{d} t = v ( t ) + c$
 - To find the value of $c$ we need **additional information**
 
   - Usually this will be the **value** of $s$ or $v$ at a **particular time** $t$
 - Look out for the words **“initial”** or **“initially”**
 
   - This refers to time  $t=0$
-- **Substitute** the known values into your integration answers for `s open parentheses t close parentheses` or `v open parentheses t close parentheses`
+- **Substitute** the known values into your integration answers for $s ( t )$ or $v ( t )$
 
   - and solve for $c$
 
@@ -142,7 +142,7 @@ guided_study: false
 > **Worked Example**
 > A particle $P$ is moving along the $x$-axis.
 > 
-> At time $t$ seconds ($t\geq0$) the velocity, $vm/s$, of $P$ is given by  `v open parentheses t close parentheses equals 6 t squared minus t plus 3`.
+> At time $t$ seconds ($t\geq0$) the velocity, $vm/s$, of $P$ is given by  $v ( t ) = 6 t^{2} - t + 3$.
 > 
 > When $t=0$, the displacement of $P$ from the origin is  $-5m$.
 > 
@@ -154,20 +154,20 @@ guided_study: false
 > 
 > > *Don't forget the constant of integration!*
 > 
-> `table row cell s open parentheses t close parentheses end cell equals cell integral open parentheses 6 t squared minus t plus 3 close parentheses space straight d t end cell row blank equals cell 6 open parentheses fraction numerator t to the power of 2 plus 1 end exponent over denominator 2 plus 1 end fraction close parentheses minus open parentheses fraction numerator t to the power of 1 plus 1 end exponent over denominator 1 plus 1 end fraction close parentheses plus 3 t plus c end cell row blank equals cell 2 t cubed minus 1 half t squared plus 3 t plus c end cell end table`
+> $\begin{gathered} s ( t ) & = \int ( 6 t^{2} - t + 3 ) \mathrm{d} t \\ = 6 ( \frac{t^{2 + 1} }{2 + 1} ) - ( \frac{t^{1 + 1} }{1 + 1} ) + 3 t + c \\ = 2 t^{3} - 1 \frac{1}{2} t^{2} + 3 t + c \end{gathered}$
 > 
 > > *We know that when *$t=0$*,  the displacement is  *$-5$
 > 
 > > *Substitute these values in and solve for *$c$
 > 
-> `table row cell s open parentheses 0 close parentheses end cell equals cell negative 5 end cell row cell 2 open parentheses 0 close parentheses cubed minus 1 half open parentheses 0 close parentheses squared plus 3 open parentheses 0 close parentheses plus c end cell equals cell negative 5 end cell row cell 0 plus c end cell equals cell negative 5 end cell row c equals cell negative 5 end cell end table`
+> $\begin{gathered} s ( 0 ) & = - 5 \\ 2 ( 0 )^{3} - 1 \frac{1}{2} ( 0 )^{2} + 3 ( 0 ) + c & = - 5 \\ 0 + c & = - 5 \\ c = - 5 \end{gathered}$
 > 
-> > *Now we have a precise expression for *`s open parentheses t close parentheses`
+> > *Now we have a precise expression for *$s ( t )$
 > 
-> `s open parentheses t close parentheses equals 2 t cubed minus 1 half t squared plus 3 t minus 5`
+> $s ( t ) = 2 t^{3} - 1 \frac{1}{2} t^{2} + 3 t - 5$
 > 
 > > *Substitute in  *$t=4$*  to find the displacement at that time*
 > 
-> `table attributes columnalign right center left columnspacing 0px end attributes row cell s open parentheses 4 close parentheses end cell equals cell 2 open parentheses 4 close parentheses cubed minus 1 half open parentheses 4 close parentheses squared plus 3 open parentheses 4 close parentheses minus 5 end cell row blank equals cell 128 minus 8 plus 12 minus 5 end cell row blank equals 127 end table`
+> $\begin{array}{rcl} s ( 4 ) & = 2 ( 4 )^{3} - 1 \frac{1}{2} ( 4 )^{2} + 3 ( 4 ) - 5 \\ = 128 - 8 + 12 - 5 \\ = 127 \end{array}$
 > 
 > **Final answer:** **Displacement **$=127m$

@@ -24,13 +24,13 @@ Write your answer in the form $\frac{a}{bx+c}$.
 
 **Q1** [3 marks]
 
-Solve the equation `fg open parentheses x close parentheses equals 2`.
+Solve the equation $fg ( x ) = 2$.
 
 ### Q2 — very_hard — 4 marks
 
 **Q2** [4 marks]
 
-`straight g open parentheses x close parentheses space equals space 1 minus space 2 x`
+$\mathrm{g} ( x ) = 1 - 2 x$
 
 Find the value of
 
@@ -43,9 +43,9 @@ Find $g(x)g(x)-\mathrm{gg}(x)$, giving your answer in the form $ax^{2}+bx+c$.
 
 **Q3** [2 marks]
 
-`straight g open parentheses x close parentheses equals 2 x minus 1 space space space space space space space space space space space space space space space space space space space straight h open parentheses x close parentheses equals 3 to the power of x`
+$\mathrm{g} ( x ) = 2 x - 1 \mathrm{h} ( x ) = 3^{x}$
 
-Find  $x$ when  `h to the power of negative 1 end exponent open parentheses x close parentheses equals g left parenthesis 2 right parenthesis`.
+Find  $x$ when  $h^{- 1} ( x ) = g ( 2 )$.
 
 $x$ = .................................................
 
@@ -97,9 +97,9 @@ $f^{-1}(x)=$....................................................
 
 **Q7** [2 marks]
 
-`straight f open parentheses x close parentheses equals 7 x minus 4`
+$\mathrm{f} ( x ) = 7 x - 4$
 
-Find the value of $x$ when `space straight f open parentheses x plus 2 close parentheses equals negative 11`.
+Find the value of $x$ when $\mathrm{f} ( x + 2 ) = - 11$.
 
 $x=$................................................
 
@@ -110,9 +110,9 @@ $x=$................................................
 
 **Q8** [1 mark]
 
-`space straight h open parentheses x close parentheses equals 3 to the power of x`.
+$\mathrm{h} ( x ) = 3^{x}$.
 
-Find $x$ when `text h end text to the power of negative 1 end exponent open parentheses x close parentheses equals negative 2`.
+Find $x$ when $\text{h}^{- 1} ( x ) = - 2$.
 
 $x$ = ...................................................
 
@@ -138,9 +138,9 @@ Find the value of $a$ and the value of $b$.
 
 **Q10** [2 marks]
 
-`straight f open parentheses x close parentheses equals 2 x minus 3 space space space space space space space space space space space space space space space straight g open parentheses x close parentheses equals 9 minus x squared space space space space`
+$\mathrm{f} ( x ) = 2 x - 3 \mathrm{g} ( x ) = 9 - x^{2}$
 
-Find $x$ when  `5 straight f open parentheses x close parentheses equals 3`.
+Find $x$ when  $5 \mathrm{f} ( x ) = 3$.
 
 $x$ = ...................................................
 
@@ -153,7 +153,7 @@ $x$ = ...................................................
 
 f(x) = 2x - 3          g(x) = 9 - x^2
 
-Solve the equation  `gf open parentheses x close parentheses equals negative 16`.
+Solve the equation  $gf ( x ) = - 16$.
 
 $x$ = .................... or $x$ = ....................
 
@@ -164,7 +164,7 @@ $x$ = .................... or $x$ = ....................
 
 **Q11** [4 marks]
 
-`straight f open parentheses x close parentheses equals 1 half x`      `straight g open parentheses x close parentheses equals x minus x squared`
+$\mathrm{f} ( x ) = 1 \frac{1}{2} x$      $\mathrm{g} ( x ) = x - x^{2}$
 
 Solve  $f^{--1}(x)=\mathrm{gf}(x)$
 
@@ -229,9 +229,9 @@ Find  $h^{-1}(19683)$.
 
 **Q14** [2 marks]
 
-`straight f open parentheses x close parentheses equals 7 minus x`      `straight g open parentheses x close parentheses equals 4 x plus 2`      `straight h open parentheses x close parentheses equals 15 minus x squared`
+$\mathrm{f} ( x ) = 7 - x$      $\mathrm{g} ( x ) = 4 x + 2$      $\mathrm{h} ( x ) = 15 - x^{2}$
 
-Find `ff open parentheses 2 close parentheses`.
+Find $ff ( 2 )$.
 
 *Source: 2018	Feb/Mar 0580/22 Q21A*
 
@@ -242,7 +242,7 @@ Find `ff open parentheses 2 close parentheses`.
 
 f(x) = 7 - x      g(x) = 4x + 2      h(x) = 15 - x^2
 
-Find `gf open parentheses x close parentheses` in its simplest form.
+Find $gf ( x )$ in its simplest form.
 
 *Source: 2018	Feb/Mar 0580/22 Q21B*
 
@@ -253,15 +253,15 @@ Find `gf open parentheses x close parentheses` in its simplest form.
 
 h(x) = 15 - x^2
 
-Find `straight h open parentheses 2 x close parentheses` in its simplest form.
+Find $\mathrm{h} ( 2 x )$ in its simplest form.
 
 ### Q15 — very_hard — 3 marks
 
 **Q15** [3 marks]
 
-`straight f open parentheses x close parentheses equals 3 x plus 2`            `straight g open parentheses x close parentheses equals x squared plus 1`
+$\mathrm{f} ( x ) = 3 x + 2$            $\mathrm{g} ( x ) = x^{2} + 1$
 
-Find `space fraction numerator straight g open parentheses x close parentheses over denominator straight f open parentheses x close parentheses end fraction plus x`. 
+Find $\frac{ \mathrm{g} ( x )}{ \mathrm{f} ( x )} + x$. 
 Give your answer as a single fraction, in terms of $x$, in its simplest form.
 
 *Source: 2020 May/June 0580/42 Q6F*
@@ -299,9 +299,9 @@ Find $\text{f}(1-x)$ in its simplest form.
 
 **Q18** [2 marks]
 
-`straight h open parentheses x close parentheses equals x squared`
+$\mathrm{h} ( x ) = x^{2}$
 
-Find the values of $p$ that satisfy `space straight h open parentheses p close parentheses equals p`.
+Find the values of $p$ that satisfy $\mathrm{h} ( p ) = p$.
 
 *Source: 2020 May/June 0580/43 Q11F*
 
@@ -325,7 +325,7 @@ $a$ = ...............................................
 
 $f(x)=3x+4$.
 
-Find  `open parentheses straight f left parenthesis x right parenthesis close parentheses squared`  in the form  $ax^{2}+bx+c$.
+Find  $( \mathrm{f} ( x ) )^{2}$  in the form  $ax^{2}+bx+c$.
 
 *Source: 2018	Oct/Nov 0580/43 Q9E*
 
@@ -334,7 +334,7 @@ Find  `open parentheses straight f left parenthesis x right parenthesis close pa
 
 **Q21** [5 marks]
 
-`straight f open parentheses x close parentheses equals fraction numerator 2 x over denominator 5 end fraction minus 1`
+$\mathrm{f} ( x ) = \frac{2 x}{5} - 1$
 
 Work out the value of  $f^{--1}(3)+f(--0.5)$
 
@@ -430,9 +430,9 @@ $\text{f}^{-1}(x)$ = ....................................................
 
 **Q26** [2 marks]
 
-`straight h open parentheses x close parentheses space equals space 3 to the power of x`.
+$\mathrm{h} ( x ) = 3^{x}$.
 
-Find the value of $k$ for which `fraction numerator 1 over denominator straight h open parentheses x close parentheses end fraction space equals space 9 to the power of k x end exponent`
+Find the value of $k$ for which $\frac{1}{ \mathrm{h} ( x )} = 9^{k x}$
 
 $k=$ ................................................
 
@@ -447,7 +447,7 @@ $f(x)=8-3x$        $g(x)=\frac{10}{x+1},x\neq-1$         $h(x)=2^{x}$
 
 Find
 
-i) `hf open parentheses 8 over 3 close parentheses space`,
+i) $\text{hf} ( \frac{8}{3} )$,
 
 [2]
 
@@ -470,7 +470,7 @@ iv) $f^{-1}f(5)$.
 
 **Q28** [2 marks]
 
-`straight f open parentheses x close parentheses space equals space 3 x squared space plus space a`  where $a$ is an integer. `straight f open parentheses negative 2 close parentheses space equals space 19`
+$\mathrm{f} ( x ) = 3 x^{2} + a$  where $a$ is an integer. $\mathrm{f} ( - 2 ) = 19$
 
 Find the value of $a$.
 
@@ -483,15 +483,15 @@ $a=$ ................................................
 
 **Q29** [4 marks]
 
-`straight g open parentheses x close parentheses space equals space 2 x space plus space 7`         `straight h open parentheses x close parentheses space equals space 3 x space minus space 8`
+$\mathrm{g} ( x ) = 2 x + 7$         $\mathrm{h} ( x ) = 3 x - 8$
 
 i) Find $\mathrm{gh}(x)$ in its simplest form.
 
 [2]
 
-ii) Find `space straight g to the power of negative 1 end exponent open parentheses x close parentheses`.
+ii) Find $\mathrm{g}^{- 1} ( x )$.
 
-`space straight g to the power of negative 1 end exponent open parentheses x close parentheses` ................................................ [2]
+$\mathrm{g}^{- 1} ( x )$ ................................................ [2]
 
 *Source: 2020 Oct/Nov 0580/02 Q17B*
 
@@ -544,9 +544,9 @@ ii) Find  $\mathrm{gf}(--3)$.
 
 f(x) = 3 - 2x
 
-Find `straight f to the power of negative 1 end exponent space open parentheses x close parentheses`.
+Find $\mathrm{f}^{- 1} ( x )$.
 
-`straight f to the power of negative 1 end exponent space open parentheses x close parentheses space equals space....................`
+$\mathrm{f}^{- 1} ( x ) = ....................$
 
 *Source: Specimen 2025 0580/02 Q18B*
 
@@ -555,7 +555,7 @@ Find `straight f to the power of negative 1 end exponent space open parentheses 
 
 **Q32** [3 marks]
 
-`straight f open parentheses x close parentheses space equals space 5 minus x`  and     `straight g open parentheses x close parentheses space equals space 3 x plus 7`
+$\mathrm{f} ( x ) = 5 - x$  and     $\mathrm{g} ( x ) = 3 x + 7$
 
 Simplify $f(2x)+g(x--1)$
 
@@ -566,10 +566,10 @@ Simplify $f(2x)+g(x--1)$
 
 **Q33** [2 marks]
 
-`straight f open parentheses x close parentheses space equals space 3 x space minus space 2
-straight g open parentheses x close parentheses space equals fraction numerator space 10 over denominator x plus 2 end fraction`
+$\mathrm{f} ( x ) = 3 x - 2
+ \mathrm{g} ( x ) = \frac{ 10}{x + 2}$
 
-Express the inverse function $f^{-1}$ in the form `straight f to the power of negative 1 end exponent open parentheses x close parentheses space equals space...`
+Express the inverse function $f^{-1}$ in the form $\mathrm{f}^{- 1} ( x ) = ...$
 
 **Q33** [2 marks]
 
@@ -578,30 +578,30 @@ Express the inverse function $f^{-1}$ in the form `straight f to the power of ne
 f(x) = 3x - 2
 g(x) = 10/(x + 2)
 
-Find  `gf open parentheses x close parentheses` 
+Find  $gf ( x )$ 
 Simplify your answer.
 
 ### Q34 — medium — 8 marks
 
 **Q34** [6 marks]
 
-`straight f open parentheses x close parentheses equals 2 x minus 3 space space space space space space space space space space space space space space space straight g open parentheses x close parentheses equals 9 minus x squared space space space space space space space space space space space space space space space straight h open parentheses x close parentheses equals 3 to the power of x`
+$\mathrm{f} ( x ) = 2 x - 3 \mathrm{g} ( x ) = 9 - x^{2} \mathrm{h} ( x ) = 3^{x}$
 
 Find
 
-i) `straight f open parentheses 4 close parentheses`,
+i) $\mathrm{f} ( 4 )$,
 
 [1]
 
-ii) `hg open parentheses 3 close parentheses`,
+ii) $hg ( 3 )$,
 
 [2]
 
-iii) `straight g open parentheses 2 x close parentheses` in its simplest form,
+iii) $\mathrm{g} ( 2 x )$ in its simplest form,
 
 [1]
 
-iv) `fg open parentheses x close parentheses`, in its simplest form.
+iv) $fg ( x )$, in its simplest form.
 
 [2]
 
@@ -614,9 +614,9 @@ iv) `fg open parentheses x close parentheses`, in its simplest form.
 
 f(x) = 2x - 3
 
-Find `straight f to the power of negative 1 end exponent open parentheses x close parentheses`.
+Find $\mathrm{f}^{- 1} ( x )$.
 
-`straight f to the power of negative 1 end exponent open parentheses x close parentheses` = ...................................................
+$\mathrm{f}^{- 1} ( x )$ = ...................................................
 
 *Source: 2019	Oct/Nov 0580/43 Q9B*
 
@@ -654,9 +654,9 @@ $x$ = ....................................................
 
 **Q36** [2 marks]
 
-`straight f open parentheses x close parentheses space equals space 4 space minus space 3 x`     `straight g open parentheses x close parentheses space equals space x to the power of 2 space end exponent plus space x`      `straight h open parentheses x close parentheses space equals space 3 to the power of x`
+$\mathrm{f} ( x ) = 4 - 3 x$     $\mathrm{g} ( x ) = x^{2 } + x$      $\mathrm{h} ( x ) = 3^{x}$
 
-Find  `fh open parentheses 2 close parentheses`.
+Find  $fh ( 2 )$.
 
 *Source: 2020 Oct/Nov 0580/43 Q10A*
 
@@ -667,9 +667,9 @@ Find  `fh open parentheses 2 close parentheses`.
 
 f(x) = 4 - 3x
 
-Find  `straight f to the power of negative 1 end exponent open parentheses x close parentheses`.
+Find  $\mathrm{f}^{- 1} ( x )$.
 
-`straight f to the power of negative 1 end exponent open parentheses x close parentheses space equals space` .................................................
+$\mathrm{f}^{- 1} ( x ) =$ .................................................
 
 *Source: 2020 Oct/Nov 0580/43 Q10B*
 
@@ -682,11 +682,11 @@ f(x) = 4 - 3x    g(x) = x^2 + x    h(x) = 3^x
 
 Simplify.
 
-i) `straight f open parentheses 1 space minus space 2 x close parentheses`
+i) $\mathrm{f} ( 1 - 2 x )$
 
 [2]
 
-ii) `gf open parentheses x close parentheses space minus space 9 straight g open parentheses x close parentheses`
+ii) $\text{gf} ( x ) - 9 \mathrm{g} ( x )$
 
 [4]
 
@@ -710,11 +710,11 @@ $p=$ ..................................................
 
 **Q37** [3 marks]
 
-`straight h open parentheses x close parentheses equals fraction numerator 5 x minus 1 over denominator 3 end fraction`
+$\mathrm{h} ( x ) = \frac{5 x - 1}{3}$
 
-Find  `straight h to the power of negative 1 end exponent open parentheses x close parentheses.`
+Find  $\mathrm{h}^{- 1} ( x ).$
 
-`straight h to the power of negative 1 end exponent open parentheses x close parentheses equals` ..................................................
+$\mathrm{h}^{- 1} ( x ) =$ ..................................................
 
 *Source: 2020	May/June 0580/21 Q14B*
 
@@ -760,9 +760,9 @@ Find $\mathrm{gf}(x)$ in its simplest form.
 
 **Q39** [1 mark]
 
-`space space straight j open parentheses x close parentheses space equals space 5 to the power of x`.
+$\mathrm{j} ( x ) = 5^{x}$.
 
-Find $x$when `space straight j to the power of negative 1 end exponent open parentheses x close parentheses space equals space 2`.
+Find $x$when $\mathrm{j}^{- 1} ( x ) = 2$.
 
 $x=$................................................
 
@@ -775,7 +775,7 @@ $x=$................................................
 
 $f(x)=3x+4g(x)=2x-1h(x)=3^{x}$
 
-Find  `straight g open parentheses 1 half close parentheses`.
+Find  $\mathrm{g} ( 1 \frac{1}{2} )$.
 
 *Source: 2018	Oct/Nov 0580/43 Q9A*
 
@@ -830,15 +830,15 @@ Find $fg(3)$.
 
 **Q42** [2 marks]
 
-`straight f open parentheses x close parentheses space equals space x to the power of 2 space end exponent plus space 1 space space space space space space space space space space space straight g open parentheses x close parentheses space equals space 1 minus space 2 x space space space space space space space space space space space straight h open parentheses x close parentheses space equals space 1 over x comma space x space not equal to 0 space space space space space space space space space space straight j open parentheses x close parentheses space equals space 5 to the power of x`
+$\mathrm{f} ( x ) = x^{2 } + 1 \mathrm{g} ( x ) = 1 - 2 x \mathrm{h} ( x ) = \frac{1}{x} , x \text{eq} 0 \mathrm{j} ( x ) = 5^{x}$
 
 Find the value of
 
-i) `straight f open parentheses 3 close parentheses`,
+i) $\mathrm{f} ( 3 )$,
 
 [1]
 
-ii) `gf open parentheses 3 close parentheses`.
+ii) $gf ( 3 )$.
 
 [1]
 
@@ -851,9 +851,9 @@ ii) `gf open parentheses 3 close parentheses`.
 
 g(x) = 1 - 2x
 
-Find `straight g to the power of negative 1 end exponent space open parentheses x close parentheses`.
+Find $\mathrm{g}^{- 1} ( x )$.
 
-`straight g to the power of negative 1 end exponent space open parentheses x close parentheses space equals space` ................................................
+$\mathrm{g}^{- 1} ( x ) =$ ................................................
 
 *Source: 2020 Oct/Nov 0580/42 Q10B*
 

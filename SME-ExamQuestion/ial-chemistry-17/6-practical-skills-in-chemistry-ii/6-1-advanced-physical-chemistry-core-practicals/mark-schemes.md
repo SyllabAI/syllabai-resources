@@ -149,7 +149,7 @@ The enthalpy change for the formation of this solution of lithium chloride is:
   - *So, **Q** = 25.0 x 4.18 x 12.5 = 1306.25 (J) *
 - *The second step of this calculation is to determine the number of moles of LiCl using moles = *$\frac{\mathrm{mass}}{M_{r}}$
 
-  - *Moles = *`fraction numerator 2.12 over denominator open parentheses 6.9 plus 35.5 close parentheses end fraction`* = 0.0500 *
+  - *Moles = *$\frac{2.12}{( 6.9 + 35.5 )}$* = 0.0500 *
 - *The final step is to determine the enthalpy change using Δ**H** = *$\frac{Q}{n}$
 
   - *Enthalpy change in J mol*<sup>*-1*</sup>* = *$\frac{1306.25}{0.0500}$* = –26125 J mol*<sup>*-1*</sup>*  **OR **Enthalpy change in kJ mol*<sup>*-1*</sup>* = *$\frac{1.30625}{0.0500}$* = –26.125 kJ mol*<sup>*-1*</sup>* *
@@ -167,7 +167,7 @@ The percentage uncertainty in the temperature **change** in this experiment is:
 - *The thermometer is used twice to determine the temperature *
 
   - *Final temperature - initial temperature = temperature change *
-- *Therefore, the calculation is *`fraction numerator open parentheses 2 cross times 0.25 close parentheses over denominator 12.5 end fraction cross times 100`* = ±4 *<sup>*o*</sup>*C*
+- *Therefore, the calculation is *$\frac{( 2 \times 0.25 )}{12.5} \times 100$* = ±4 *<sup>*o*</sup>*C*
 
 ### 3((d)) — 5 marks
 Changes to the procedure that would give a more accurate temperature rise are:

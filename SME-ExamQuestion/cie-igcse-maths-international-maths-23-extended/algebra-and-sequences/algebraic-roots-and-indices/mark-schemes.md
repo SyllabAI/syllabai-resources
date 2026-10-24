@@ -12,27 +12,27 @@
 
 > *Rewrite the RHS of the equation so that it has a base of *$2$* using *$8=2^{3}$* *
 
-`2 to the power of 3 x plus 1 end exponent equals open parentheses 2 cubed close parentheses to the power of 2 minus x end exponent`
+$2^{3 x + 1} = ( 2^{3} )^{2 - x}$
 
-> *Apply the rule *`open parentheses a to the power of m close parentheses to the power of n equals a to the power of m n end exponent`
+> *Apply the rule *$( a^{m )^{n} = a^{m} n}$
 
-`2 to the power of 3 x plus 1 end exponent equals 2 to the power of 3 open parentheses 2 minus x close parentheses end exponent`
+$2^{3 x + 1} = 2^{3 ( 2 - x )}$
 
 **[1]**
 
 > *As both sides are equal, and the bases are the same, the powers must be equal*
 
-`table row cell 3 x plus 1 end cell equals cell 3 open parentheses 2 minus x close parentheses end cell end table`
+$\begin{gathered} 3 x + 1 & = 3 ( 2 - x ) \end{gathered}$
 
 **[1]**
 
 > *Solve the equation by first expanding the brackets*
 
-`table row cell 3 x plus 1 end cell equals cell 6 minus 3 x end cell end table`
+$\begin{gathered} 3 x + 1 & = 6 - 3 x \end{gathered}$
 
 > *Bring the *$x$* terms to the same side and the constant terms to the other*
 
-`table row cell 6 x end cell equals 5 end table`
+$\begin{gathered} 6 x & = 5 \end{gathered}$
 
 > *Divide both sides by *$6$* *
 
@@ -43,7 +43,7 @@ $x=\frac{5}{6}$** ****[1]**
 
 > *Start a new graph on your graphic display calculator and choose the option to sketch more than one graph on the same axes*
 
-> *Sketch *`straight f subscript 1 open parentheses x close parentheses equals 2 to the power of 3 x plus 1 end exponent`* and *`straight f subscript 2 open parentheses x close parentheses equals 8 to the power of 2 minus x end exponent`* on the same axes on your graphic display calculator*
+> *Sketch *$\mathrm{f}_{1} ( x ) = 2^{3 x + 1}$* and *$\mathrm{f}_{2} ( x ) = 8^{2 - x}$* on the same axes on your graphic display calculator*
 
 > *Sketch both graphs onto the exam paper on a single set of coordinate axes*
 
@@ -60,29 +60,29 @@ $x=\frac{5}{6}$** ****[1]**
 ### Q2
 > *First separate numbers and letters in the fraction inside the brackets.*
 
-`open parentheses fraction numerator 16 w to the power of 8 over denominator y to the power of 20 end fraction close parentheses to the power of negative 3 over 4 end exponent equals open parentheses 16 cross times w to the power of 8 cross times 1 over y to the power of 20 close parentheses to the power of negative 3 over 4 end exponent`
+`( (16 w ^ 8)/(y ^ 20) ) ^ - 3 / 4 = ( 16 x w ^ 8 x 1 / y ^ 20 ) ^ - 3 / 4`
 
 > *Simplify the parts where possible - in this case only *$\frac{1}{y^{20}}$* can be simplified, using the law of indices "*$a^{-m}=\frac{1}{a^{m}}$*".*
 
-`table row cell open parentheses 16 cross times w to the power of 8 cross times 1 over y to the power of 20 close parentheses to the power of negative 3 over 4 end exponent end cell equals cell open parentheses 16 cross times w to the power of 8 cross times y to the power of negative 20 end exponent close parentheses to the power of negative 3 over 4 end exponent end cell row blank blank blank end table`
+`| ( 16 x w ^ 8 x 1 / y ^ 20 ) ^ - 3 / 4 | = ( 16 x w ^ 8 x y ^ - 20 ) ^ - 3 / 4 | | _ _ _ |`
 
-> *Use the laws of indices "*`open parentheses a b close parentheses to the power of n equals a to the power of n cross times a to the power of m`*" and "*`open parentheses a to the power of m close parentheses to the power of n equals a to the power of m n end exponent`*" to deal with the power of  at the end.*
+> *Use the laws of indices "*$( a b )^{n} = a^{n} \times a^{m}$*" and "*$( a^{m )^{n} = a^{m} n}$*" to deal with the power of  at the end.*
 
-`table row cell open parentheses 16 cross times w to the power of 8 cross times y to the power of negative 20 end exponent close parentheses to the power of negative 3 over 4 end exponent end cell equals cell open parentheses 16 close parentheses to the power of negative 3 over 4 end exponent cross times open parentheses w to the power of 8 close parentheses to the power of negative 3 over 4 end exponent cross times open parentheses y to the power of negative 20 end exponent close parentheses to the power of negative 3 over 4 end exponent end cell row blank equals cell open parentheses 16 close parentheses to the power of negative 3 over 4 end exponent cross times w to the power of negative 6 end exponent cross times y to the power of 15 end cell end table`
+`| ( 16 x w ^ 8 x y ^ - 20 ) ^ - 3 / 4 | = ( 16 ) ^ - 3 / 4 x ( w ^ 8 ) ^ - 3 / 4 x ( y ^ - 20 ) ^ - 3 / 4 | | _ = ( 16 ) ^ - 3 / 4 x w ^ - 6 x y ^ 15 | |`
 
 **For **$w^{-6}$** ****[1] **
 **For **$y^{15}$** ****[1]**
 
-> *Finally evaluate *`open parentheses 16 close parentheses to the power of negative 3 over 4 end exponent`* using the law of indices " *`a to the power of m over n end exponent equals n-th root of a to the power of m end root`* " and " *$a^{-m}=\frac{1}{a^{m}}$* ".  Rewrite *$w^{-6}$*.*
+> *Finally evaluate *$( 16 )^{- \frac{3}{4} }$* using the law of indices " *$a^{ \frac{m}{n} } = \sqrt[n]{a^{m} }$* " and " *$a^{-m}=\frac{1}{a^{m}}$* ".  Rewrite *$w^{-6}$*.*
 
-`table row cell open parentheses 16 close parentheses to the power of negative 3 over 4 end exponent cross times w to the power of negative 6 end exponent cross times y to the power of 15 end cell equals cell open parentheses fourth root of 16 close parentheses to the power of negative 3 end exponent cross times 1 over w to the power of 6 cross times y to the power of 15 end cell row blank equals cell 2 to the power of negative 3 end exponent cross times 1 over w to the power of 6 cross times y to the power of 15 end cell row blank equals cell 1 over 8 cross times 1 over w to the power of 6 cross times y to the power of 15 end cell row blank equals cell fraction numerator y to the power of 15 over denominator 8 w to the power of 6 end fraction end cell end table`
+$\begin{gathered} ( 16 )^{- \frac{3}{4} } \times w^{- 6} \times y^{15 & = ( \sqrt[4]{16} )^{-3} } \times \frac{1}{w^{6 \times y^{15}} \\ = 2^{-3} } \times \frac{1}{w^{6}} \times y^{15} \\ = \frac{1}{8} \times \frac{1}{w^{6}} \times y^{15} \\ = \frac{y^{15} }{8 w^{6} } \end{gathered}$
 
 $(\frac{16w^{8}}{y^{20}})^{-\frac{3}{4}}=\frac{y^{15}}{8w^{6}}$ **[1]**
 
 ### Q3
 > *Apply the negative index outside the brackets by turning the fraction inside the brackets upside down (finding the reciprocal).*
 
-`open parentheses 8 over x cubed close parentheses to the power of 4 over 3 end exponent`
+$( \frac{8}{x^{3}} )^{ \frac{4}{3} }$
 
 **[1]**
 
@@ -97,17 +97,17 @@ $\frac{16}{x^{4}}$* ***[1]**
 **You could also write this as **$16x^{-4}$
 
 ### Q4
-> *You can use the property of multiplication and exponents: *`open parentheses a cross times b close parentheses to the power of n equals a to the power of n cross times b to the power of n.`
+> *You can use the property of multiplication and exponents: *$( a \times b )^{n} = a^{n} \times b^{n.}$
 
-`open parentheses 256 x to the power of 256 close parentheses to the power of 3 over 8 end exponent equals 256 to the power of 3 over 8 end exponent cross times open parentheses x to the power of 256 close parentheses to the power of 3 over 8 end exponent`
+$( 256 x^{256} ) ^{\frac{3}{8}} = 256 ^{\frac{3}{8}} \times ( x^{256} ) ^{\frac{3}{8}}$
 
-> *Simplify the numerical term by using your calculator or by writing as powers and roots using *`a to the power of m over n end exponent equals open parentheses n-th root of a close parentheses to the power of m.`
+> *Simplify the numerical term by using your calculator or by writing as powers and roots using *$a^{ \frac{m}{n} } = ( \sqrt[n]{a} )^{m.}$
 
-`256 to the power of 3 over 8 end exponent equals open parentheses root index 8 of 256 close parentheses cubed equals 2 cubed equals 8`
+`256 ^ 3 / 8 = ( sqrt index 8 of 256 ) ^3 = 2 ^3 = 8`
 
-> *Simplify the algebraic term by using the index law: *`open parentheses a to the power of n close parentheses to the power of m equals a to the power of n cross times m end exponent.`
+> *Simplify the algebraic term by using the index law: *$( a^{n )^{m} = a^{n} \times m} .$
 
-`open parentheses x to the power of 256 close parentheses to the power of 3 over 8 end exponent equals x to the power of 256 cross times 3 over 8 end exponent equals x to the power of 96`
+$( x^{256} ) ^{\frac{3}{8}} = x^{256} \times \frac{3}{8} = x^{96}$
 
 > *Multiply the numerical and algebraic parts together.*
 
@@ -117,23 +117,23 @@ $8x^{96}$** **
 ** ****Answer in the form **$kx^{96}$** [1]**
 
 ### Q5
-> *Write as a fractional index and use *`open parentheses a b close parentheses to the power of n equals a to the power of n b to the power of n.`
+> *Write as a fractional index and use *$( a b )^{n} = a^{n} b^{n.}$
 
-`table row cell cube root of 27 t to the power of 27 end root end cell equals cell open parentheses 27 t to the power of 27 close parentheses to the power of 1 third end exponent equals 27 to the power of 1 third end exponent cross times open parentheses t to the power of 27 close parentheses to the power of 1 third end exponent end cell end table`
+$\begin{gathered} \sqrt[3]{27 t^{27} & = ( 27 t^{27} )^{1} \frac{1}{3}} = 27^{1 \frac{1}{3}} \times ( t^{27 )^{1} \frac{1}{3}} \end{gathered}$
 
-> *We can use a calculator to find *`27 to the power of 1 third end exponent equals cube root of 27`* if necessary*
+> *We can use a calculator to find *$27^{1 \frac{1}{3}} = \sqrt[3]{27}$* if necessary*
 
-`27 to the power of 1 third end exponent equals cube root of 27 equals 3`
+$27^{1 \frac{1}{3}} = \sqrt[3]{27} = 3$
 
-> *Use the index law *`open parentheses x to the power of a close parentheses to the power of b equals x to the power of a b end exponent`*.*
+> *Use the index law *$( x^{a )^{b} = x^{a} b}$*.*
 
-`table row cell open parentheses t to the power of 27 close parentheses to the power of 1 third end exponent end cell equals cell t to the power of 27 cross times 1 third end exponent equals t to the power of 9 end cell end table`
+$\begin{gathered} ( t^{27 )^{1} \frac{1}{3}} & = t^{27 \times 1 \frac{1}{3}} = t^{9} \end{gathered}$
 
 > *Multiply the two results together*
 
-`table row cell 3 cross times t to the power of 9 end cell equals cell 3 t to the power of 9 end cell end table`
+$\begin{gathered} 3 \times t^{9} & = 3 t^{9} \end{gathered}$
 
-**Final answer:** `table row blank blank cell bold 3 bold italic t to the power of bold 9 end cell end table`** **
+**Final answer:** `| _ _ 3 t ^ 9 | |`** **
 
 **"3..."**** [1]**
 ** ****"...**$t^{9}$**"**** ****[1]**
@@ -149,7 +149,7 @@ $\frac{x^{-\frac{1}{3}}}{x^{-2}}=32$
 
 > *The base numbers are the same and one term is divided by the other so you can subtract the powers.*
 
-`table row cell x to the power of open parentheses negative 1 third minus negative 2 close parentheses end exponent end cell equals 32 row cell x to the power of 5 over 3 end exponent end cell equals 32 end table`
+$\begin{gathered} x^{( - 1 \frac{1}{3} - - 2 )} & = 32 \\ x^{ \frac{5}{3} } & = 32 \end{gathered}$
 
 **[1]**
 
@@ -168,9 +168,9 @@ $x=8$** [1]**
 
 > *Rewrite the first equation by cubing both sides.*
 
-`space y squared equals open parentheses root index 6 of x close parentheses cubed`
+`y ^2 = ( sqrt index 6 of x ) ^3`
 
-> *Simplify the right hand side by using the index law *`n-th root of a to the power of m end root equals a to the power of m over n end exponent.`* Simplify the fraction.*
+> *Simplify the right hand side by using the index law *$\sqrt[n]{a^{m}} = a ^{\frac{m}{n}} .$* Simplify the fraction.*
 
 $y^{2}=x^{\frac{3}{6}}=x^{\frac{1}{2}}$
 
@@ -178,7 +178,7 @@ $y^{2}=x^{\frac{3}{6}}=x^{\frac{1}{2}}$
 
 > *Rewrite the second equation by squaring both sides so that it also contains a **y*<sup>*2*</sup>* term.*
 
-`space y squared equals open parentheses n-th root of x close parentheses squared`
+$y^{2} = ( \sqrt[n]{x} )^{2}$
 
 > *Use the same index law.*
 
@@ -202,7 +202,7 @@ $n=4$ **[1]**
 
 > *Method 2*
 
-> *Rewrite both equations using indices using the fact *`n-th root of a to the power of m end root equals a to the power of m over n end exponent.`
+> *Rewrite both equations using indices using the fact *$\sqrt[n]{a^{m}} = a ^{\frac{m}{n}} .$
 
 $y^{\frac{2}{3}}=x^{\frac{1}{6}}\mathrm{and}y=x^{\frac{1}{n}}$
 
@@ -210,9 +210,9 @@ $y^{\frac{2}{3}}=x^{\frac{1}{6}}\mathrm{and}y=x^{\frac{1}{n}}$
 
 > *Substitute *$y=x^{\frac{1}{n}}$* into *$y^{\frac{2}{3}}=x^{\frac{1}{6}}.$* Use bracket when substituting.*
 
-`open parentheses x to the power of 1 over n end exponent close parentheses to the power of 2 over 3 end exponent equals x to the power of 1 over 6 end exponent`
+$( x^{ \frac{1}{n} } )^{ \frac{2}{3} } = x^{ \frac{1}{6} }$
 
-> *Simplify the left hand side by using the index law: *`open parentheses a to the power of m close parentheses to the power of n equals a to the power of m cross times n end exponent.`
+> *Simplify the left hand side by using the index law: *$( a^{m )^{n} = a^{m} \times n} .$
 
 $x^{\frac{2}{3n}}=x^{\frac{1}{6}}$
 
@@ -222,7 +222,7 @@ $\frac{2}{3n}=\frac{1}{6}$
 
 > *Get rid of the fractions by multiplying both sides by both of the denominators.*
 
-`table row cell fraction numerator 2 over denominator 3 up diagonal strike n end fraction cross times 3 up diagonal strike n cross times 6 end cell equals cell fraction numerator 1 over denominator up diagonal strike 6 end fraction cross times 3 n cross times up diagonal strike 6 end cell row 12 equals cell 3 n end cell end table`
+$\begin{gathered} \frac{2}{3 \cancel{n} } \times 3 \cancel{n} \times 6 & = \frac{1}{ \cancel{6} } \times 3 n \times \cancel{6} \\ 12 = 3 n \end{gathered}$
 
 > *Divide both sides by 3.*
 
@@ -241,7 +241,7 @@ $81^{\frac{3}{4}}\timesy^{16\times\frac{3}{4}}=81^{\frac{3}{4}}\timesy^{12}$
 
 $27\timesy^{12}$
 
-> *Alternatively can be found by *`81 to the power of 3 over 4 end exponent equals open parentheses 81 to the power of 1 fourth end exponent close parentheses cubed equals open parentheses fourth root of 81 close parentheses cubed equals open parentheses 3 close parentheses cubed equals 27`
+> *Alternatively can be found by *$81^{ \frac{3}{4} } = ( 81^{1 \frac{1}{4}} )^{3} = ( \sqrt[4]{81} )^{3} = ( 3 )^{3} = 27$
 
 **Finding either **$y^{12}$** or 27**** [1]**
 
@@ -260,11 +260,11 @@ $\frac{7^{206+m}}{7^{214}}=7^{206+m-214}=7^{m-8}$
 
 > *Now we have simplified the left-hand side of the equation, we can consider the right-hand side and solve it.*
 
-`table row cell 7 to the power of m minus 8 end exponent end cell equals cell 7 to the power of negative 3 end exponent end cell end table`
+$\begin{gathered} 7^{m - 8} & = 7^{- 3} \end{gathered}$
 
 **[1]**
 
-`table row cell m minus 8 end cell equals cell negative 3 end cell row m equals cell negative 3 plus 8 equals 5 end cell end table`
+$\begin{gathered} m - 8 & = - 3 \\ m = - 3 + 8 = 5 \end{gathered}$
 
 $m=5$ **[1]**
 
@@ -292,28 +292,28 @@ $p^{6}$ **[1]**
 $m^{15}\divm^{5}=m^{15-5}$
 
 $m^{10}$ **[1]**
-> *One of the laws of indices is that you multiply the exponents when raising a term inside a bracket to a power:  *`open parentheses x to the power of a close parentheses to the power of b equals x to the power of a cross times b end exponent.`
+> *One of the laws of indices is that you multiply the exponents when raising a term inside a bracket to a power:  *$( x^{a )^{b} = x^{a} \times b} .$
 
-`open parentheses k cubed close parentheses to the power of 5 equals k to the power of 3 cross times 5 end exponent`
+$( k^{3} )^{5 = k^{3} \times 5}$
 
 $k^{15}$ **[1]**
 
 ### Q12
-> *Use that a power outside a fraction can be applied to the numerator and the denominator, *`open parentheses x over y close parentheses to the power of n equals x to the power of n over y to the power of n`* *
+> *Use that a power outside a fraction can be applied to the numerator and the denominator, *`( x / y ) ^ n = x ^ n / y ^ n`* *
 
-> `open parentheses fraction numerator 16 a to the power of 8 over denominator c to the power of 12 end fraction close parentheses to the power of 3 over 4 end exponent equals open parentheses 16 a to the power of 8 close parentheses to the power of 3 over 4 end exponent over open parentheses c to the power of 12 close parentheses to the power of 3 over 4 end exponent`* *
+> `( (16 a ^ 8)/(c ^ 12) ) ^ 3 / 4 = ( 16 a ^ 8 ) ^ 3 / 4 / ( c ^ 12 ) ^ 3 / 4`* *
 
-> *On the numerator, use that an outside power applies to each term inside, *`open parentheses x y close parentheses to the power of n equals x to the power of n y to the power of n`* *
+> *On the numerator, use that an outside power applies to each term inside, *$( x y )^{n} = x^{n} y^{n}$* *
 
-> `16 to the power of 3 over 4 end exponent open parentheses a to the power of 8 close parentheses to the power of 3 over 4 end exponent`* *
+> $16 ^{\frac{3}{4}} ( a^{8} ) ^{\frac{3}{4}}$* *
 
-> *Use the index law *`open parentheses x to the power of m close parentheses to the power of n equals x to the power of m n end exponent`* to simplify the *$a$* and *$c$* terms *
+> *Use the index law *$( x^{m )^{n} = x^{m} n}$* to simplify the *$a$* and *$c$* terms *
 
-> `open parentheses a to the power of 8 close parentheses to the power of 3 over 4 end exponent equals a to the power of 8 cross times 3 over 4 end exponent equals a to the power of 6 space space space space space space space space space space space space space open parentheses c to the power of 12 close parentheses to the power of 3 over 4 end exponent equals c to the power of 12 cross times 3 over 4 end exponent equals c to the power of 9`* *
+> $( a^{8} ) ^{\frac{3}{4}} = a^{8} \times \frac{3}{4} = a^{6} ( c^{12} ) ^{\frac{3}{4}} = c^{12} \times \frac{3}{4} = c^{9}$* *
 
 > *Use that the fractional index of *$\frac{3}{4}$* means do the fourth root and cube *
 
-> `16 to the power of 3 over 4 end exponent equals open parentheses fourth root of 16 close parentheses cubed equals 2 cubed equals 8`* *
+> $16^{ \frac{3}{4} } = ( \sqrt[4]{16} )^{3} = 2^{3} = 8$* *
 
 > *Write out the final answer*
 
@@ -323,7 +323,7 @@ $k^{15}$ **[1]**
 ### Q13
 *Use the law of indices* $a^{m}\diva^{n}=a^{m-n}$
 
-`open parentheses x to the power of 8 y to the power of 7 close parentheses divided by open parentheses x to the power of negative 1 end exponent y cubed close parentheses equals x to the power of 8 minus open parentheses negative 1 close parentheses end exponent y to the power of 7 minus 3 end exponent`
+$( x^{8 y^{7} ) \div ( x^{-1} } y^{3} ) = x^{8 - ( - 1 )} y^{7 - 3}$
 
 $x^{9}y^{4}$** **
 **'**$x^{9}$**'*** ***[1]** 
@@ -332,7 +332,7 @@ $x^{9}y^{4}$** **
 ### Q14
 > *Use the index law for division, subtract the indices,  *$a^{m}\diva^{n}=a^{m-n}$*.*
 
-`table row cell a squared space divided by space a to the power of 6 space end cell equals cell space a to the power of 2 space minus space 6 end exponent space equals space a to the power of negative 4 end exponent end cell end table`
+$\begin{gathered} a^{2} \div a^{6 & = a^{2} - 6} = a^{- 4} \end{gathered}$
 
 $a^{-4}$* ***[1] **
 **The answer **$\frac{1}{a^{4}}$** also correct**
@@ -340,11 +340,11 @@ $a^{-4}$* ***[1] **
 ### Q15
 > *"3" and "*$p^{2}$*" both need to be raised to the power of 5.*
 
-> *For *`open parentheses p squared close parentheses to the power of 5`*, use the law of indices that *`open parentheses a to the power of b close parentheses to the power of c equals a to the power of b c end exponent`*.*
+> *For *$( p^{2} )^{5}$*, use the law of indices that *$( a^{b )^{c} = a^{b} c}$*.*
 
-`table row cell open parentheses 3 p squared close parentheses to the power of 5 end cell equals cell 3 to the power of 5 cross times p to the power of 2 cross times 5 end exponent end cell row blank equals cell 243 p to the power of 10 end cell end table`
+$\begin{gathered} ( 3 p^{2} )^{5 & = 3^{5} \times p^{2} \times 5} \\ = 243 p^{10} \end{gathered}$
 
-`table row blank blank cell bold 243 bold italic p to the power of bold 10 end cell end table`
+`| _ _ 243 p ^ 10 | |`
 
 **243...**** ****[1]**
 
@@ -353,36 +353,36 @@ $a^{-4}$* ***[1] **
 
 > *To divide the terms in  *$x$* and *$y$*, use the law of indices that *$a^{b}\diva^{c}=a^{b-c}$*.*
 
-`table row cell 18 divided by 2 end cell equals 9 row cell x squared divided by x to the power of 1 end cell equals cell x to the power of 1 end cell row cell y to the power of 6 divided by y squared end cell equals cell y to the power of 4 end cell end table`
+$\begin{gathered} 18 \div 2 & = 9 \\ x^{2} \div x^{1} & = x^{1} \\ y^{6} \div y^{2} & = y^{4} \end{gathered}$
 
 > *Now put the result together.*
 
-`table row blank blank cell bold 9 bold italic x bold italic y to the power of bold 4 end cell end table`
+`| _ _ 9 x y ^ 4 | |`
 
 **Two of "9", "**$x$**" or "**$y^{4}$**" in the answer**** [1] **
 **Fully correct answer ****[1]**
 > *We have a fraction to a negative power, so rewrite it by swapping the numerator and denominator, and removing the negative.*
 
-`table row cell open parentheses 5 over m close parentheses to the power of negative 2 end exponent end cell equals cell open parentheses m over 5 close parentheses squared end cell end table`
+$\begin{gathered} ( \frac{5}{m} )^{- 2} & = ( \frac{m}{5} )^{2} \end{gathered}$
 
 > *Expand the bracket for the numerator and denominator.*
 
-`table row blank equals cell m squared over 5 squared end cell row blank equals cell m squared over 25 end cell end table`
+$\begin{gathered} = \frac{m^{2}}{5^{2}} \\ = \frac{m^{2}}{25} \end{gathered}$
 
-`table row blank blank cell bold italic m to the power of bold 2 over bold 25 end cell end table`* ***[1]**
+`| _ _ m ^ 2 / 25 | |`* ***[1]**
 
 ### Q16
 > *Raise everything inside the brackets by the fractional power*
 
-`open parentheses 27 close parentheses to the power of 2 over 3 end exponent open parentheses x to the power of 9 close parentheses to the power of 2 over 3 end exponent`
+$( 27 ) ^{\frac{2}{3}} ( x^{9} ) ^{\frac{2}{3}}$
 
-> *Use the fact *`a to the power of m over n end exponent equals open parentheses n-th root of a close parentheses to the power of m`* to evaluate the first factor of the term*
+> *Use the fact *$a^{ \frac{m}{n} } = ( \sqrt[n]{a} )^{m}$* to evaluate the first factor of the term*
 
-`table row cell 27 to the power of 2 over 3 end exponent end cell equals cell open parentheses cube root of 27 close parentheses squared end cell row blank equals cell open parentheses 3 close parentheses squared end cell row blank equals 9 end table`
+$\begin{gathered} 27^{ \frac{2}{3} } & = ( \sqrt[3]{27} )^{2} \\ = ( 3 )^{2} \\ = 9 \end{gathered}$
 
-> *Use the fact *`open parentheses a to the power of m close parentheses to the power of n equals a to the power of m n end exponent`* to simplify the second factor of the term*
+> *Use the fact *$( a^{m )^{n} = a^{m} n}$* to simplify the second factor of the term*
 
-`table row cell open parentheses x to the power of 9 close parentheses to the power of 2 over 3 end exponent end cell equals cell x to the power of 9 cross times 2 over 3 end exponent end cell row blank equals cell x to the power of 6 end cell end table`
+`| ( x ^ 9 ) ^ 2 / 3 | = x ^ 9 x 2 / 3 | | _ = x ^ 6 | |`
 
 **Correctly evaluating one factor of the term [1]**
 

@@ -78,7 +78,7 @@ concentration (g / dm<sup>3</sup>) = $\frac{\mathrm{mass} \mathrm{of} \mathrm{so
 >   - Volume of solution: 2 dm<sup>3</sup>
 > - Calculate the concentration:
 > 
->   - Concentration = `fraction numerator mass space of space solute space open parentheses straight g close parentheses over denominator volume space open parentheses dm cubed close parentheses end fraction`
+>   - Concentration = $\frac{ \text{mass} of \text{solute} ( \mathrm{g} ) }{ \text{volume} ( dm ^{3} ) }$
 >   - Concentration = $\frac{10g}{2\mathrm{dm}^{3}}$ = **5 g / dm**<sup>**3**</sup>** **
 
 ### Calculating concentration using moles

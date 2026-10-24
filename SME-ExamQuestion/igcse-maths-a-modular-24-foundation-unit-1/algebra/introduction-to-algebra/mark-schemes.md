@@ -12,7 +12,7 @@
 
 > *Use brackets around the substituted numbers and enter it into your calculator which will evaluate it for you*
 
-`table row T equals cell 3 open parentheses 9 close parentheses plus 7 open parentheses negative 2 close parentheses end cell end table`
+$\begin{gathered} T = 3 ( 9 ) + 7 ( - 2 ) \end{gathered}$
 
 **[M1]**
 
@@ -29,14 +29,14 @@
 > 
 > Adding a negative number is equivalent to subtracting the positive inverse so the calculation can be rewritten:
 > 
-> `table row T equals cell 27 minus 14 end cell row blank equals 13 end table`
+> $\begin{gathered} T = 27 - 14 \\ = 13 \end{gathered}$
 
 ### 9((b)) — 2 marks
 > *Substitute the values of *$a$* and *$g$* into the formula*
 
 > *Use brackets around the substituted numbers and enter it into your calculator which will evaluate it for you*
 
-`table row P equals cell 3 open parentheses negative 4 close parentheses squared plus open parentheses 2 close parentheses cubed end cell end table`
+$\begin{gathered} P = 3 ( - 4 )^{2} + ( 2 )^{3} \end{gathered}$
 
 **[M1]**
 
@@ -49,26 +49,26 @@
 > 
 > Work out the indices first as they have the highest priority in the order of operations:
 > 
-> `table row cell open parentheses negative 4 close parentheses squared end cell equals cell negative 4 cross times negative 4 end cell row blank equals 16 end table`
+> $\begin{gathered} ( - 4 )^{2} & = - 4 \times - 4 \\ = 16 \end{gathered}$
 > 
 > and
 > 
-> `table row cell open parentheses 2 close parentheses cubed end cell equals cell 2 cross times 2 cross times 2 end cell row blank equals 8 end table`
+> $\begin{gathered} ( 2 )^{3} & = 2 \times 2 \times 2 \\ = 8 \end{gathered}$
 > 
 > Putting these values back into the formula gives:
 > 
-> `P equals 3 open parentheses 16 close parentheses plus 8`
+> $P = 3 ( 16 ) + 8$
 > 
 > Work out by multiplying out the bracket first:
 > 
-> `table row P equals cell 48 plus 8 end cell row blank equals 56 end table`
+> $\begin{gathered} P = 48 + 8 \\ = 56 \end{gathered}$
 
 ## Q2 — easy — 2 marks · exam-questions
 
 ### 3((a)) — 1 marks
 > *Simplify, by collecting the like terms*
 
-`table row cell 4 x plus 9 x end cell equals cell 13 x end cell row cell 13 x minus 5 x end cell equals cell 8 x end cell end table`
+$\begin{gathered} 4 x + 9 x & = 13 x \\ 13 x - 5 x & = 8 x \end{gathered}$
 
 $8x$
 
@@ -99,7 +99,7 @@ $24mp$
 ### 13((b)) — 2 marks
 > *Simplify by collecting the like terms*
 
-`table row cell 4 y minus 2 y end cell equals cell 2 y end cell row cell 12 plus 4 end cell equals 16 end table`
+$\begin{gathered} 4 y - 2 y & = 2 y \\ 12 + 4 & = 16 \end{gathered}$
 
 **[B1]**
 
@@ -147,7 +147,7 @@ $12e+4f$
 
 > *Subtract 7 from both sides*
 
-`table row cell 4 y end cell equals cell 43 minus 7 end cell row cell 4 y end cell equals 36 end table`
+$\begin{gathered} 4 y & = 43 - 7 \\ 4 y & = 36 \end{gathered}$
 
 **[M1]**
 
@@ -164,8 +164,8 @@ $y=9$
 ### 15((c)) — 2 marks
 > *Substitute the values of *$x$*and *$y$* into the expression*
 
-`open parentheses negative 3 close parentheses squared plus 5 cross times 2
-9 plus 10`
+$( - 3 )^{2} + 5 \times 2
+9 + 10$
 
 **[M1]**
 

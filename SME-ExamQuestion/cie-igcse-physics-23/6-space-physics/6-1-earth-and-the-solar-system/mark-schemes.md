@@ -244,7 +244,7 @@ What **does **make a big difference is the tilt, so that sometimes the Earth ‘
 
 - Substituting the values into the orbital speed equation gives:
 
-  - `v space equals space fraction numerator 2 straight pi cross times open parentheses 227.9 cross times 10 to the power of 9 close parentheses space over denominator 16 space 488 end fraction space equals space 8.68 cross times 10 to the power of 7 space straight m divided by hr`
+  - $v = \frac{2 \mathrm{\pi } \times ( 227.9 \times 10^{9} ) }{16 488} = 8.68 \times 10^{7} \mathrm{m} \div \text{hr}$
 
 Whenever you are doing calculations based on values from a table, make sure to read the units properly!
 

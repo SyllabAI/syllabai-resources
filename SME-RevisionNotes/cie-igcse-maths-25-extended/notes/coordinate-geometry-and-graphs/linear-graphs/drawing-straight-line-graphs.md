@@ -103,7 +103,7 @@ guided_study: true
 > 
 > > *Rearrange *$\frac{y+1}{3}=x$* into the form *$y=mx+c$* to make it easier to plot*
 > 
-> `table row cell fraction numerator y plus 1 over denominator 3 end fraction end cell equals x row cell y plus 1 end cell equals cell 3 x end cell row y equals cell 3 x minus 1 end cell end table`
+> $\begin{gathered} \frac{y + 1}{3} & = x \\ y + 1 & = 3 x \\ y = 3 x - 1 \end{gathered}$
 > 
 > > *For *$y=3x-1$*, create a table of values*
 > 

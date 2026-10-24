@@ -6,7 +6,7 @@
 
 
 ### Q1
-> *Find the gradient, *$m$*, of the line joining the points *`open parentheses 12 comma space 1 close parentheses`* and *`open parentheses 4 comma space 3 close parentheses`
+> *Find the gradient, *$m$*, of the line joining the points *$( 12 , 1 )$* and *$( 4 , 3 )$
 
 $m=\frac{y_{2}-y_{1}}{x_{2}-x_{1}}$
 
@@ -24,17 +24,17 @@ $m_{p}=4$
 
 > *Find the midpoint, *$M$*, of the 2 points*
 
-`M equals open parentheses fraction numerator x subscript 1 plus x subscript 2 over denominator 2 end fraction comma space fraction numerator y subscript 1 plus y subscript 2 over denominator 2 end fraction close parentheses`
+$M = ( \frac{x_{1} + x_{2} }{2} , \frac{y_{1} + y_{2} }{2} )$
 
-`M equals open parentheses fraction numerator 12 plus 4 over denominator 2 end fraction comma space fraction numerator 1 plus 3 over denominator 2 end fraction close parentheses`
+$M = ( \frac{12 + 4}{2} , \frac{1 + 3}{2} )$
 
-`M equals open parentheses 8 comma space 2 close parentheses`
+$M = ( 8 , 2 )$
 
 **[1]**
 
 > *Find the equation of the perpendicular line using its gradient and midpoint*
 
-`y minus 2 equals 4 open parentheses x minus 8 close parentheses`
+$y - 2 = 4 ( x - 8 )$
 
 **[1]**
 
@@ -63,17 +63,17 @@ $4x=30$
 
 > *Substitute *$x=0$* into the equation and solve for *$y$
 
-`y equals 4 open parentheses 0 close parentheses minus 30`
+$y = 4 ( 0 ) - 30$
 
 $y=-30$
 
 **[1]**
 
-*The 2 points we have are** *`open parentheses 7.5 comma space 0 close parentheses space and space open parentheses 0 comma space minus 30 close parentheses`
+*The 2 points we have are** *`( 7.5 , 0 ) and ( 0 , - 30 )`
 
 > *Find the distance between the points using the distance formula*
 
-`d equals square root of open parentheses 7.5 squared plus 0 squared close parentheses plus square root of 0 squared plus open parentheses negative 30 close parentheses squared end root end root`
+$d = \sqrt{( 7.5^{2} + 0^{2} ) + \sqrt{0^{2} + ( - 30 )^{2}} }$
 
 $30.9$ **[1]**
 
@@ -86,7 +86,7 @@ $m=\frac{34-9}{3-0.5}=10$
 
 > *Using the formula for the equation of a line and substituting one of the co-ordinates*
 
-`Y space minus space 9 space equals space 10 open parentheses X space minus space 0.5 close parentheses`
+$Y - 9 = 10 ( X - 0.5 )$
 
 **  [1]**
 
@@ -98,9 +98,9 @@ $Y=10X+4$
 
 > *We are looking for when *`fourth root of y`* is plotted against *$\frac{1}{x}$* so we substitute these into the equation*
 
-`fourth root of y equals 10 open parentheses 1 over x close parentheses space plus thin space 4`
+$\sqrt[4]{y} = 10 ( \frac{1}{x} ) + 4$
 
-`fourth root of y equals fraction numerator 10 space over denominator x end fraction plus thin space 4`
+$\sqrt[4]{y} = \frac{10 }{x} + 4$
 
 **[1]**
 
@@ -111,9 +111,9 @@ $y=(\frac{10}{x}+4)^{4}$ **[1]**
 ### Q3
 > *Find the midpoint of *$AB$
 
-`Midpoint space equals space open parentheses fraction numerator negative 2 plus 6 over denominator 2 end fraction comma fraction numerator 4 plus 10 over denominator 2 end fraction close parentheses`
+$\text{Midpoint} = ( \frac{- 2 + 6}{2} , \frac{4 + 10}{2} )$
 
-`Midpoint space equals space open parentheses 2 comma space 7 close parentheses`
+$Midpoint = ( 2 , 7 )$
 
 **[1]**
 
@@ -131,13 +131,13 @@ $\mathrm{Gradient}_{perp}=-\frac{4}{3}$
 
 > *Now we know a point on the line and the gradient, so find the equation of the perpendicular bisector*
 
-`y minus 7 equals negative 4 over 3 open parentheses x minus 2 close parentheses`
+$y - 7 = - \frac{4}{3} ( x - 2 )$
 
 **[1]**
 
 > *Multiply the equation by 3*
 
-`3 y minus 21 equals negative 4 open parentheses x minus 2 close parentheses`
+$3 y - 21 = - 4 ( x - 2 )$
 
 > *Expand the bracket*
 
@@ -150,7 +150,7 @@ $4x+3y-29=0$** ****[1]**
 
 > *Find *$y$* when *$x=5$* by substituting into the equation*
 
-`open parentheses 4 cross times 5 close parentheses plus 3 y minus 29 equals 0`
+$( 4 \times 5 ) + 3 y - 29 = 0$
 
 $20+3y-29=0$
 
@@ -165,24 +165,24 @@ $3$** [1]**
 
 > *Find *$\overset{\rightarrow}{CM}$
 
-`C equals open parentheses 5 comma space 3 close parentheses space a n d space M equals open parentheses 2 comma space 7 close parentheses`
+$C = ( 5 , 3 ) a n d M = ( 2 , 7 )$
 
-`stack C M with rightwards arrow on top equals open parentheses table row cell negative 3 end cell row 4 end table close parentheses`
+$\vec{CM} = ( \begin{gathered} - 3 \\ 4 \end{gathered} )$
 
 **[1]**
 
-`S o space stack M D with rightwards arrow on top equals open parentheses table row cell negative 3 end cell row 4 end table close parentheses`
+$S o \vec{MD} = ( \begin{gathered} - 3 \\ 4 \end{gathered} )$
 
 > *Apply this vector from point M to get D*
 
-`D equals open parentheses negative 1 comma space 11 close parentheses`
+$D = ( - 1 , 11 )$
 
 $(-1,11)$** [1]**
 
 ### Q4
 > *To find where the curves intersect at point A, substitute *$y=x^{2}$* into *$y^{2}=27x$
 
-`open parentheses x squared close parentheses squared equals 27 x`
+$( x^{2} )^{2} = 27 x$
 
 **[1]**
 
@@ -192,7 +192,7 @@ $x^{4}-27x=0$
 
 > *Factorise and solve.*
 
-`x open parentheses x cubed minus 27 close parentheses equals 0`
+$x ( x^{3} - 27 ) = 0$
 
 **[1]**
 
@@ -200,23 +200,23 @@ $x=0$
 
 $x=3$
 
-> *We already know there is an intersection at *`open parentheses 0 comma space 0 close parentheses`*. Substitute *$x=3$* into one of the given equations to find the corresponding *$y$*coordinate.*
+> *We already know there is an intersection at *$( 0 , 0 )$*. Substitute *$x=3$* into one of the given equations to find the corresponding *$y$*coordinate.*
 
-`y equals open parentheses 3 close parentheses squared`
+$y = ( 3 )^{2}$
 
 $y=9$
 
 > *Therefore, point A is*
 
-`open parentheses 3 comma space 9 close parentheses`
+$( 3 , 9 )$
 
 **[1]**
 
 > *We need to find a perpendicular bisector, therefore we need to find the midpoint of line OA.*
 
-`open parentheses fraction numerator 0 plus 3 over denominator 2 end fraction comma space fraction numerator 0 plus 9 over denominator 2 end fraction close parentheses`
+$( \frac{0 + 3}{2} , \frac{0 + 9}{2} )$
 
-*Midpoint = *`open parentheses 3 over 2 comma fraction numerator space 9 over denominator 2 end fraction close parentheses`
+*Midpoint = *$( \frac{3}{2} , \frac{ 9}{2} )$
 
 **[1]**
 
@@ -234,16 +234,16 @@ $-\frac{1}{3}$
 
 **[1]**
 
-> *Substitute into *`y minus y subscript 1 equals m open parentheses x minus x subscript 1 close parentheses`* and rearrange to find the equation of the perpendicular bisector.*
+> *Substitute into *$y - y_{1} = m ( x - x_{1} )$* and rearrange to find the equation of the perpendicular bisector.*
 
-`y minus 9 over 2 equals negative 1 third open parentheses x minus 3 over 2 close parentheses`
+$y - \frac{9}{2} = - 1 \frac{1}{3} ( x - \frac{3}{2} )$
 
 $y=-\frac{1}{3}x+5$* ***[1]**
 
 ### Q5
 > *Substituting the equation of the line into the equation of the curve and solving these equations simultaneously by substitution*
 
-`x open parentheses 5 x space plus thin space 6 close parentheses space equals space 8`
+$x ( 5 x + 6 ) = 8$
 
 > *Expanding the brackets and setting the equation equal to 0*
 
@@ -253,24 +253,24 @@ $5x^{2}+6x-8=0$
 
 > *Factorising to find the solutions*
 
-`open parentheses 5 x space minus space 4 close parentheses open parentheses x space plus thin space 2 close parentheses space equals space 0`
+$( 5 x - 4 ) ( x + 2 ) = 0$
 
 $x=\frac{4}{5},x=-2$
 
 > *Substituting to find the **y- **coordinates*
 
-`y space equals space 5 open parentheses 4 over 5 close parentheses space plus thin space 6 space equals space 10`
+$y = 5 ( \frac{4}{5} ) + 6 = 10$
 
-`y space equals space 5 open parentheses negative 2 close parentheses space plus space 6 space equals space minus 4`
+$y = 5 ( - 2 ) + 6 = - 4$
 
 $(\frac{4}{5},10)$* ***[1]**
 
 $(-2,-4)$* ***[1]**
 > *The perpendicular bisector meets the line AB at the midpoint of AB*
 
-`open parentheses fraction numerator 4 over 5 minus 2 over denominator 2 end fraction comma space fraction numerator 10 space minus space 4 over denominator 2 end fraction close parentheses`
+$( \frac{\frac{4}{5} - 2}{2} , \frac{10 - 4}{2} )$
 
-`open parentheses negative 3 over 5 comma space 3 space close parentheses`
+$( - \frac{3}{5} , 3 )$
 
 **[1]**
 
@@ -280,15 +280,15 @@ $m=5$
 
 **[1]**
 
-> *We will use the negative reciprocal to find the perpendicular gradient and substitute into the formula *`y space minus space y subscript 1 equals space m open parentheses x space minus space x subscript 1 close parentheses`
+> *We will use the negative reciprocal to find the perpendicular gradient and substitute into the formula *$y - y_{1} = m ( x - x_{1} )$
 
-`y space minus space 3 space equals space minus 1 fifth open parentheses x space plus thin space 3 over 5 close parentheses`
+$y - 3 = - 1 \frac{1}{5} ( x + \frac{3}{5} )$
 
 **[1]**
 
 > *Substituting *$y=x$* and solving*
 
-`x space minus space 3 space equals space minus 1 fifth open parentheses x space plus thin space 3 over 5 close parentheses`
+$x - 3 = - 1 \frac{1}{5} ( x + \frac{3}{5} )$
 
 **[1]**
 
@@ -296,7 +296,7 @@ $m=5$
 
 $\frac{6}{5}x-3=-\frac{3}{25}$
 
-`table row cell 6 over 5 x space end cell equals cell space 72 over 25 end cell row cell x space end cell equals cell space 12 over 5 end cell end table`
+$\begin{gathered} \frac{6}{5} x & = \frac{72}{25} \\ x & = \frac{12}{5} \end{gathered}$
 
 > *The equation of the line is *$y=x$*, therefore the **y-** coordinate will be the same*
 
@@ -305,38 +305,38 @@ $(\frac{12}{5},\frac{12}{5})$ **[1]**
 ### Q6
 > *Find the midpoint of the line segment.*
 
-`open parentheses fraction numerator 4 minus 8 over denominator 2 end fraction comma space fraction numerator 9 minus 7 over denominator 2 end fraction close parentheses
+$( \frac{4 - 8}{2} , \frac{9 - 7}{2} )
 
-Midpoint equals open parentheses negative 2 comma space 1 close parentheses`
+\text{Midpoint} = ( - 2 , 1 )$
 
-`open square brackets 1 close square brackets`
+$[ 1 ]$
 
 > *Find the gradient of the line.*
 
 $\mathrm{gradient}=\frac{9--7}{-8-4}\,\mathrm{gradient}=-\frac{4}{3}$
 
-`open square brackets 1 close square brackets`
+$[ 1 ]$
 
 > *Find the gradient of the perpendicular to the line by taking the negative reciprocal.*
 
 $\mathrm{gradient} \mathrm{of} \mathrm{perpendicular}=\frac{3}{4}$
 
-`open square brackets 1 close square brackets`
+$[ 1 ]$
 
-> *Substitute this gradient and the coordinates of the midpoint into the equation *`y minus y subscript 1 equals m open parentheses x minus x subscript 1 close parentheses`
+> *Substitute this gradient and the coordinates of the midpoint into the equation *$y - y_{1} = m ( x - x_{1} )$
 
-`table attributes columnalign right center left columnspacing 0px end attributes row cell y minus 1 end cell equals cell 3 over 4 open parentheses x minus negative 2 close parentheses end cell end table`
+$\begin{array}{rcl} y - 1 & = \frac{3}{4} ( x - - 2 ) \end{array}$
 
 > *Expand and simplify.*
 
-> `table row bold italic y bold equals cell bold 3 over bold 4 bold italic x bold plus bold 5 over bold 2 end cell end table`* *`open square brackets 1 close square brackets`
+> $\begin{array}{cc} y = & \frac{3}{ } 4 x + \frac{5}{ } 2\end{array}$* *$[ 1 ]$
 
 ### Q7
 > *Find the midpoint, **M**, of **AB*
 
-`M equals open parentheses fraction numerator 4 plus 12 over denominator 2 end fraction comma space space fraction numerator 3 plus open parentheses negative 7 close parentheses over denominator 2 end fraction close parentheses`
+$M = ( \frac{4 + 12}{2} , \frac{3 + ( - 7 )}{2} )$
 
-`M equals open parentheses 8 comma space minus 2 close parentheses`
+$M = ( 8 , - 2 )$
 
 **[1]**
 
@@ -354,9 +354,9 @@ $\mathrm{gradient}_{L}=\frac{4}{5}$
 
 **[1]**
 
-> *Find the equation of the line through the midpoint, *`M equals open parentheses 8 comma space minus 2 close parentheses`* with gradient *$\frac{4}{5}$
+> *Find the equation of the line through the midpoint, *$M = ( 8 , - 2 )$* with gradient *$\frac{4}{5}$
 
-`y minus open parentheses negative 2 close parentheses equals 4 over 5 open parentheses x minus 8 close parentheses`
+$y - ( - 2 ) = \frac{4}{5} ( x - 8 )$
 
 $y+2=\frac{4}{5}(x-8)$ **[1]**
 
@@ -367,29 +367,29 @@ $y+2=\frac{4}{5}(x-8)$ **[1]**
 
 $\mathrm{gradient}_{parallelline}=-\frac{5}{4}$
 
-> *The parallel line passes through point *`open parentheses 5 comma space 12 close parentheses`* *
+> *The parallel line passes through point *$( 5 , 12 )$* *
 
 > *Find the equation of the line*
 
-`y minus 12 equals negative 5 over 4 open parentheses x minus 5 close parentheses`
+$y - 12 = - \frac{5}{4} ( x - 5 )$
 
 **[1]**
 
 > *Rearrange to make *$y$* the subject*
 
-* **(3)       ** *`y equals negative 5 over 4 open parentheses x minus 5 close parentheses plus 12`
+* **(3)       ** *$y = - \frac{5}{4} ( x - 5 ) + 12$
 
 > *From part (a), the equation of line L is*
 
-`y plus 2 equals 4 over 5 open parentheses x minus 8 close parentheses`
+$y + 2 = \frac{4}{5} ( x - 8 )$
 
 > *Rearrange to make *$y$* the subject*
 
-*(4)**        *`y equals 4 over 5 open parentheses x minus 8 close parentheses minus 2`
+*(4)**        *$y = \frac{4}{5} ( x - 8 ) - 2$
 
 > *Set the equations (3) and (4) equal and solve them*
 
-`negative 5 over 4 open parentheses x minus 5 close parentheses plus 12 equals 4 over 5 open parentheses x minus 8 close parentheses minus 2`
+$- \frac{5}{4} ( x - 5 ) + 12 = \frac{4}{5} ( x - 8 ) - 2$
 
 **[1]**
 
@@ -397,7 +397,7 @@ $\mathrm{gradient}_{parallelline}=-\frac{5}{4}$
 
 > *Multiply through by 20 (multiply by 4 and then by 5)*
 
-`negative 25 open parentheses x minus 5 close parentheses plus 240 equals 16 open parentheses x minus 8 close parentheses minus 40`
+$- 25 ( x - 5 ) + 240 = 16 ( x - 8 ) - 40$
 
 > *Expand the brackets and solve*
 
@@ -413,7 +413,7 @@ $x=13$
 
 > *Substitute *$x=13$* into equation (4) to find *$y$
 
-`y equals 4 over 5 open parentheses 13 minus 8 close parentheses minus 2`
+$y = \frac{4}{5} ( 13 - 8 ) - 2$
 
 $y=2$
 

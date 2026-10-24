@@ -10,7 +10,7 @@
 
 - To calculate the relative atomic mass (*A*<sub>r</sub>), you must multiply the mass of each isotope by its percentage abundance, add them together, and divide by 100
 - First, find the abundance of the second isotope: 100% − 69% = 31% for <sup>65</sup>Cu
-- Then, apply the formula of *A*<sub>r </sub>: `A subscript straight r equals fraction numerator percent sign ab subscript 1 cross times mass space number space of space isotope space 1 space plus space percent sign ab subscript 2 cross times mass space number space of space isotope space 2 space over denominator 100 end fraction` `A subscript r equals fraction numerator 69 percent sign cross times 63 space plus 31 percent sign cross times 65 over denominator 100 end fraction` $A_{r}=63.6$
+- Then, apply the formula of *A*<sub>r </sub>: `A _ r = (% ab _ 1 x mass number of isotope 1 + % ab _ 2 x mass number of isotope 2 )/(100)` $A_{r} = \frac{69 \% \times 63 + 31 \% \times 65}{100}$ $A_{r}=63.6$
 
 ### Q2
 **Final answer:** **The correct answer is B**
@@ -131,7 +131,7 @@
 
 - The notation is as follows:
 
-`Se presubscript 34 presuperscript 79 superscript 2 minus end superscript`
+$\text{Se} pre_{34} pre^{79^{2} -}$
 
 - The 79 is the mass number, so it is the protons and neutrons added together
 - The 34 is the atomic number, which means number of protons

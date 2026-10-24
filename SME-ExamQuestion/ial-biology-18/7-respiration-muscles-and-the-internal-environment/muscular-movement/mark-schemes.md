@@ -673,7 +673,7 @@ To calculate the percentage difference in cardiac output:
 
 - Calculate the percentage difference:
 
-= `fraction numerator 5336 minus 4896 over denominator open parentheses 5336 plus 4896 close parentheses divided by 2 end fraction` × 100
+= $\frac{5336 - 4896}{( 5336 + 4896 ) \div 2}$ × 100
 
 = $\frac{440}{5116}$ × 100
 

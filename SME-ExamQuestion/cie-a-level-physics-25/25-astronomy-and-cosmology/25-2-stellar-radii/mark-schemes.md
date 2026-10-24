@@ -26,7 +26,7 @@ Determine the intensity of the burst:
 Use the inverse square law of flux equation to find luminosity:
 
 - Inverse square law of flux:  $F=\frac{L}{4πd^{2}}$
-- `L space equals space 4 straight pi d squared F space equals space 4 straight pi space cross times space open parentheses 4.60 space cross times space 10 to the power of 24 close parentheses squared space cross times space open parentheses 8.17 space cross times space 10 to the power of negative 16 end exponent close parentheses` **[1 mark]**
+- $L = 4 \mathrm{\pi } d^{2} F = 4 \mathrm{\pi } \times ( 4.60 \times 10^{24 )^{2} \times ( 8.17 \times 10^{-16} } )$ **[1 mark]**
 - $L=2.17\times10^{35}=2.2\times10^{35}W$ **[1 mark]**
 
 (ii) It is unlikely that FRB sources are extraterrestrial communications because:
@@ -55,7 +55,7 @@ Use the graph to obtain a value for the maximum energy:
 Convert the maximum energy into the maximum wavelength:
 
 - Photon energy:  $E=\frac{hc}{λ}\Rightarrowλ_{max}=\frac{hc}{E_{max}}$
-- `lambda subscript m a x end subscript space equals space fraction numerator open parentheses 6.63 cross times 10 to the power of negative 34 end exponent close parentheses open parentheses 3.0 cross times 10 to the power of 8 close parentheses over denominator open parentheses 80 cross times 10 cubed close parentheses open parentheses 1.6 cross times 10 to the power of negative 19 end exponent close parentheses end fraction`
+- $\lambda_{m a x} = \frac{( 6.63 \times 10^{- 34} ) ( 3.0 \times 10^{8 )}{( 80 \times 10^{3} ) ( 1.6 \times 10^{-19} } )}$
 - $λ_{max}$ = 1.554 × 10<sup>−11</sup> m [1 mark] *Acceptable range for max. wavelength = (1.55 to 1.66) × 10*<sup>*−11*</sup>* m*
 
 Use Wien's Law to calculate the temperature of the magnetar:
@@ -76,7 +76,7 @@ List the known quantities:
 Use the Stefan-Boltzmann Law to calculate the radius of the magnetar:
 
 - Stefan-Boltzmann Law:  $L=4πR^{2}σT^{4}\RightarrowR=\sqrt{\frac{L}{4πσT^{4}}}$
-- Radius:  `R space equals space square root of fraction numerator 2.17 cross times 10 to the power of 35 over denominator 4 straight pi cross times open parentheses 5.67 cross times 10 to the power of negative 8 end exponent close parentheses cross times open parentheses 1.865 cross times 10 to the power of 8 close parentheses to the power of 4 end fraction end root` **[1 mark]**
+- Radius:  $R = \sqrt{ \frac{2.17 \times 10^{35}{4 \mathrm{\pi } \times ( 5.67 \times 10^{-8} } ) \times ( 1.865 \times 10^{8} )^{4} } }$ **[1 mark]**
 - Radius:  $R=15866=15.9\mathrm{km}$ **[1 mark]**
 
 Estimate the size of a city and compare it to the diameter of the magnetar:
@@ -99,17 +99,17 @@ List the known quantities:
 
 Use the Stefan-Boltzmann law to determine the temperatures of X and Y:
 
-- Stefan-Boltzmann law:  `L space equals space 4 straight pi R squared sigma T to the power of 4 space space space space space rightwards double arrow space space space space space T space proportional to space fourth root of L over R squared end root`
-- Temperature of the Sun:  `T subscript ☉ space proportional to space fourth root of L subscript ☉ over open parentheses R subscript ☉ close parentheses squared end root`
-- Temperature of star X:  `T subscript straight X space proportional to space space fourth root of fraction numerator 10 to the power of 4 L subscript ☉ over denominator open parentheses 10 R subscript ☉ close parentheses squared end fraction end root`
-- Temperature of star X:  `T subscript straight X space proportional to space fourth root of 10 to the power of 4 over 10 squared end root space fourth root of L subscript ☉ over open parentheses R subscript ☉ close parentheses squared end root space equals space 3.16 space T subscript ☉` **[1 mark]**
-- Temperature of star Y:  `T subscript straight Y space proportional to space space fourth root of fraction numerator 10 to the power of negative 3 end exponent space L subscript ☉ over denominator open parentheses 0.1 R subscript ☉ close parentheses squared end fraction end root`
-- Temperature of star Y:  `T subscript straight Y space proportional to space fourth root of fraction numerator 10 to the power of negative 3 end exponent over denominator 0.1 squared end fraction end root space fourth root of L subscript ☉ over open parentheses R subscript ☉ close parentheses squared end root space equals space 0.56 space T subscript ☉` **[1 mark]**
+- Stefan-Boltzmann law:  `L = 4 pi R ^2 sigma T ^ 4 <-> T prop fourth sqrt of L / R ^2 )`
+- Temperature of the Sun:  `T _ ☉ prop fourth sqrt of L _ ☉ / ( R _ ☉ ) ^2 )`
+- Temperature of star X:  `T _ X prop fourth sqrt of (10 ^ 4 L _ ☉)/(( 10 R _ ☉ ) ^2) )`
+- Temperature of star X:  `T _ X prop fourth sqrt of 10 ^ 4 / 10 ^2 ) fourth sqrt of L _ ☉ / ( R _ ☉ ) ^2 ) = 3.16 T _ ☉` **[1 mark]**
+- Temperature of star Y:  `T _ Y prop fourth sqrt of (10 ^ - 3 L _ ☉)/(( 0.1 R _ ☉ ) ^2) )`
+- Temperature of star Y:  `T _ Y prop fourth sqrt of (10 ^ - 3 )/(0.1 ^2) ) fourth sqrt of L _ ☉ / ( R _ ☉ ) ^2 ) = 0.56 T _ ☉` **[1 mark]**
 
 Identify the colours of X and Y:
 
-- Since `T subscript straight X space equals space 3.16 space T subscript ☉`, star X is blue-white; **[1 mark]**
-- Since `T subscript straight Y space equals space 0.56 space T subscript ☉`, star Y is red; **[1 mark]**
+- Since `T _ X = 3.16 T _ ☉`, star X is blue-white; **[1 mark]**
+- Since `T _ Y = 0.56 T _ ☉`, star Y is red; **[1 mark]**
 
 **[Total: 4 marks]**
 Determine the ratio of densities of X and Y:
@@ -124,19 +124,19 @@ List the known quantities:
 Determine the ratio of the masses:
 
 - Mass-luminosity relation:  $L\proptoM^{3.5}$
-- Ratio of masses:  `L subscript X over L subscript Y space equals space open parentheses M subscript X over M subscript Y close parentheses to the power of 3.5 end exponent space space space space space rightwards double arrow space space space space space M subscript X over M subscript Y space equals space open parentheses L subscript X over L subscript Y close parentheses to the power of fraction numerator 1 over denominator 3.5 end fraction end exponent`
-- Ratio of masses:  `M subscript X over M subscript Y space equals space open parentheses 10 to the power of 4 over 10 to the power of negative 3 end exponent close parentheses to the power of fraction numerator 1 over denominator 3.5 end fraction end exponent space equals space 10 squared` **[1 mark]**
+- Ratio of masses:  `L _ X / L _ Y = ( M _ X / M _ Y ) ^ 3.5 <-> M _ X / M _ Y = ( L _ X / L _ Y ) ^ (1)/(3.5)`
+- Ratio of masses:  `M _ X / M _ Y = ( 10 ^ 4 / 10 ^ - 3 ) ^ (1)/(3.5) = 10 ^2` **[1 mark]**
 
 Determine the ratio of the volumes:
 
 - Volume of a sphere:  $V\proptoR^{3}$
-- Ratio of volumes:  `V subscript X over V subscript Y space equals space open parentheses R subscript X over R subscript Y close parentheses cubed`
-- Ratio of volumes:  `V subscript X over V subscript Y space equals space open parentheses fraction numerator 10 over denominator 0.1 end fraction close parentheses cubed space equals space 10 to the power of 6` **[1 mark]**
+- Ratio of volumes:  `V _ X / V _ Y = ( R _ X / R _ Y ) ^3`
+- Ratio of volumes:  `V _ X / V _ Y = ( (10)/(0.1) ) ^3 = 10 ^ 6` **[1 mark]**
 
 Determine the ratio of the densities:
 
 - Density:  $ρ=\frac{M}{V}$
-- Ratio of densities:  `rho subscript X over rho subscript Y space equals space open parentheses M subscript X over M subscript Y close parentheses divided by open parentheses V subscript X over V subscript Y close parentheses`
+- Ratio of densities:  `rho _ X / rho _ Y = ( M _ X / M _ Y ) / ( V _ X / V _ Y )`
 - Ratio of densities:  $\frac{ρ_{X}}{ρ_{Y}}=\frac{10^{2}}{10^{6}}=10^{-4}$ **[1 mark]**
 
 **[Total: 3 marks]**
@@ -151,9 +151,9 @@ List the known quantities:
 Use the Stefan-Boltzmann law to determine the radius of T-1:
 
 - Stefan-Boltzmann law:  $L=4πr^{2}σT^{4}\RightarrowR=\sqrt{\frac{L}{4πσT^{4}}}$
-- Radius of the Sun:  `R subscript ☉ space equals space square root of fraction numerator L subscript ☉ over denominator 4 straight pi straight sigma open parentheses T subscript ☉ close parentheses to the power of 4 end fraction end root`
-- Radius of T-1:  `R space equals space square root of fraction numerator open parentheses 5.26 cross times 10 to the power of negative 4 end exponent close parentheses L subscript ☉ over denominator 4 straight pi straight sigma open parentheses 0.4 T subscript ☉ close parentheses to the power of 4 end fraction end root`
-- Radius of T-1:  `R space equals space square root of fraction numerator 5.26 cross times 10 to the power of negative 4 end exponent over denominator 0.4 to the power of 4 end fraction end root cross times R subscript ☉ space space equals space 0.14 space R subscript ☉` **[1 mark]**
+- Radius of the Sun:  `R _ ☉ = sqrt( (L _ ☉)/(4 pi sigma ( T _ ☉ ) ^ 4) )`
+- Radius of T-1:  `R = sqrt( (( 5.26 x 10 ^ - 4 ) L _ ☉)/(4 pi sigma ( 0.4 T _ ☉ ) ^ 4) )`
+- Radius of T-1:  `R = sqrt( (5.26 x 10 ^ - 4 )/(0.4 ^ 4) ) x R _ ☉ = 0.14 R _ ☉` **[1 mark]**
 
 Conclusion:
 
@@ -171,14 +171,14 @@ List the known quantities:
 Determine the luminosity of T-1:
 
 - (From question):  $\frac{T^{4}d^{2}}{L}=419\times10^{3}\RightarrowL=\frac{T^{4}d^{2}}{419\times10^{3}}$
-- Luminosity of the Sun:  `L subscript ☉ space equals space fraction numerator 290 to the power of 4 cross times open parentheses 1.5 cross times 10 to the power of 11 close parentheses squared over denominator 419 cross times 10 cubed end fraction space equals space 3.8 cross times 10 to the power of 26 space straight W`
+- Luminosity of the Sun:  `L _ ☉ = (290 ^ 4 x ( 1.5 x 10 ^ 11 ) ^2)/(419 x 10 ^3) = 3.8 x 10 ^ 26 W`
 - Luminosity of T-1:  *L* = (5.26 × 10<sup>−4</sup>) × (3.8 × 10<sup>26</sup>) = 2.0 × 10<sup>23</sup> W **[1 mark]**
 
 Determine the range of temperatures of planets around T-1:
 
-- `fraction numerator T to the power of 4 d squared over denominator L end fraction space equals space 419 cross times 10 cubed space space space space space rightwards double arrow space space space space space T space equals space fourth root of fraction numerator L cross times open parentheses 419 cross times 10 cubed close parentheses over denominator d squared end fraction end root`
-- Inner-most planet temperature:  `T subscript m i n end subscript space equals space fourth root of fraction numerator open parentheses 419 cross times 10 cubed close parentheses cross times open parentheses 2.0 cross times 10 to the power of 23 close parentheses over denominator open parentheses 9.0 cross times 10 to the power of 9 close parentheses squared end fraction end root equals space 179 space straight K`
-- Outer-most planet temperature:  `T subscript m a x end subscript space equals space fourth root of fraction numerator open parentheses 419 cross times 10 cubed close parentheses cross times open parentheses 2.0 cross times 10 to the power of 23 close parentheses over denominator open parentheses 1.6 cross times 10 to the power of 9 close parentheses squared end fraction end root equals space 425 space straight K`
+- $\frac{T^{4} d^{2}}{L} = 419 \times 10^{3} \Leftrightarrow T = \sqrt[4]{ \frac{L \times ( 419 \times 10^{3} )}{d^{2}} }$
+- Inner-most planet temperature:  $T_{m i n} = \sqrt[4]{ \frac{( 419 \times 10^{3} ) \times ( 2.0 \times 10^{23} )}{( 9.0 \times 10^{9} )^{2}} } = 179 \mathrm{K}$
+- Outer-most planet temperature:  $T_{m a x} = \sqrt[4]{ \frac{( 419 \times 10^{3} ) \times ( 2.0 \times 10^{23} )}{( 1.6 \times 10^{9} )^{2}} } = 425 \mathrm{K}$
 - $T_{min}=180K$  **AND ** $T_{max}=430K$ **[1 mark]**
 
 Write a conclusion:
@@ -335,7 +335,7 @@ List the known quantities:
 Use the Stefan-Boltzmann law to calculate radius:
 
 - $L=4πr^{2}σT^{4}\Rightarrowr=\sqrt{\frac{L}{4πσT^{4}}}$
-- `r space equals space square root of fraction numerator 33 space 000 cross times open parentheses 3.83 cross times 10 to the power of 26 close parentheses over denominator 4 straight pi cross times open parentheses 5.67 cross times 10 to the power of negative 8 end exponent close parentheses cross times open parentheses 7600 close parentheses to the power of 4 end fraction end root`
+- $r = \sqrt{ \frac{33 000 \times ( 3.83 \times 10^{26 )}{4 \mathrm{\pi } \times ( 5.67 \times 10^{-8} } ) \times ( 7600 )^{4} } }$
 - Radius:  $r$ = 7.29 × 10<sup>10</sup> m **[1 mark]**
 
 Convert to units of R<sub>Sun</sub>:
@@ -411,7 +411,7 @@ List the known quantities:
 Recall the formula for surface area:
 
 - Surface area:  $A=4πr^{2}$
-- Substitute:  `A space equals space 4 straight pi cross times open parentheses 5.6 cross times 10 to the power of 9 close parentheses squared` **[1 mark]**
+- Substitute:  $A = 4 \mathrm{\pi } \times ( 5.6 \times 10^{9} )^{2}$ **[1 mark]**
 - Evaluate:  $A$ = 3.9 × 10<sup>20</sup>** [1 mark]**
 - Unit:  m<sup>2</sup> **[1 mark]**
 
@@ -447,8 +447,8 @@ Use the inverse square law of flux relationship to determine the distance of the
 
 - $F=\frac{L}{4πd^{2}}$ **[1 mark]**
 - $d^{2}=\frac{L}{4πF}\Rightarrowd=\sqrt{\frac{L}{4πF}}$
-- `d space equals space square root of fraction numerator open parentheses 4.8 space cross times space 10 to the power of 29 close parentheses over denominator 4 pi space cross times space open parentheses 2.6 space cross times space 10 to the power of negative 9 end exponent close parentheses end fraction end root`
-- `d space equals space 3.83 space cross times space 10 to the power of 18 space space straight m space equals space 3.8 space cross times space 10 to the power of 18 space space straight m space open parentheses 2 space straight s. straight f. close parentheses` **[1 mark]**
+- $d = \sqrt{ \frac{( 4.8 \times 10^{29 )}{4 \pi \times ( 2.6 \times 10^{-9} } )} }$
+- $d = 3.83 \times 10^{18} \mathrm{m} = 3.8 \times 10^{18} \mathrm{m} ( 2 \mathrm{s} . \mathrm{f} . )$ **[1 mark]**
 
 **[Total: 3 marks]**
 
@@ -469,7 +469,7 @@ Use Wien's displacement law to calculate the temperature $T_{star}$:
 - $λ_{max}\propto\frac{1}{T}$ **[1 mark]**
 - $\frac{λ_{Sun}}{λ_{star}}=\frac{T_{star}}{T_{Sun}}$
 - $T_{star}=5800\times\frac{500}{430}$
-- `T subscript s t a r end subscript space equals space 6740 space straight K space equals space 6700 space straight K space open parentheses 2 space s. f. close parentheses` **[1 mark]**
+- $T_{s t a r} = 6740 \mathrm{K} = 6700 \mathrm{K} ( 2 s. f. )$ **[1 mark]**
 
 (ii) Use the information in **(a)** and **(b)(i)** to determine the radius of the star:
 
@@ -484,8 +484,8 @@ Use the Stefan-Boltzmann Law:
 
 - $L=4πσr^{2}T^{4}$
 - $r^{2}=\frac{L}{4πσT^{4}}$
-- `r space equals space square root of fraction numerator open parentheses 4.8 space cross times space 10 to the power of 29 close parentheses over denominator 4 pi space cross times space open parentheses 5.67 space cross times space 10 to the power of negative 8 end exponent close parentheses space cross times space 6700 to the power of 4 end fraction end root` **[1 mark]**
-- `r space equals space 1.83 space cross times space 10 to the power of 10 space straight m space equals space 1.8 space cross times space 10 to the power of 10 space straight m space open parentheses 2 straight s. straight f. close parentheses` **[1 mark]**
+- $r = \sqrt{ \frac{( 4.8 \times 10^{29 )}{4 \pi \times ( 5.67 \times 10^{-8} } ) \times 6700^{4} } }$ **[1 mark]**
+- $r = 1.83 \times 10^{10} \mathrm{m} = 1.8 \times 10^{10} \mathrm{m} ( 2 \mathrm{s} . \mathrm{f} . )$ **[1 mark]**
 
 **[Total: 4 marks]**
 
@@ -508,8 +508,8 @@ List the known quantities:
 Use the Stefan-Boltzmann law to determine the ratio of the luminosities:
 
 - Stefan-Boltzmann law:  $L=4πr^{2}σT^{4}$
-- Ratio:  `L subscript B over L subscript A space equals space fraction numerator r subscript B squared T subscript B to the power of 4 over denominator r subscript A squared T subscript A to the power of 4 end fraction space equals space open parentheses r subscript B over r subscript A close parentheses squared space cross times space fraction numerator T subscript B to the power of 4 space over denominator T subscript A to the power of 4 end fraction` **[1 mark]**
-- `L subscript B over L subscript A space equals space fraction numerator open parentheses 1.1 cross times 10 to the power of 5 close parentheses squared cross times open parentheses 4300 close parentheses to the power of 4 over denominator open parentheses 25 space 000 close parentheses to the power of 4 end fraction` **[1 mark]**
+- Ratio:  `L _ B / L _ A = (r _ B ^2 T _ B ^ 4)/(r _ A ^2 T _ A ^ 4) = ( r _ B / r _ A ) ^2 x (T _ B ^ 4 )/(T _ A ^ 4)` **[1 mark]**
+- `L _ B / L _ A = (( 1.1 x 10 ^ 5 ) ^2 x ( 4300 ) ^ 4)/(( 25 000 ) ^ 4)` **[1 mark]**
 - $\frac{L_{B}}{L_{A}}=1.059\times10^{7}=1.1\times10^{7}$ **[1 mark]**
 
 **[Total: 3 marks]**
@@ -597,7 +597,7 @@ Calculate the luminosity using the inverse square law of flux:
 
 - Inverse square law of flux:  $F=\frac{L}{4πd^{2}}$ **[1 mark]**
 - $L=F\times4πd^{2}$
-- `L space equals space 1370 space cross times space 4 straight pi space cross times space open parentheses 1.49 cross times 10 to the power of 11 close parentheses squared space equals space 3.82 space cross times space 10 to the power of 26 space straight W` **[1 mark]**
+- $L = 1370 \times 4 \mathrm{\pi } \times ( 1.49 \times 10^{11} )^{2} = 3.82 \times 10^{26} \mathrm{W}$ **[1 mark]**
 
 **[Total: 2 marks]**
 Determine the radius of the Sun:
@@ -612,7 +612,7 @@ Calculate the radius using the Stefan-Boltzmann law:
 
 - Stefan-Boltzmann law:  $L=4πr^{2}σT^{4}$
 - $r=\sqrt{\frac{L}{4πσT^{4}}}$
-- `r space equals space square root of fraction numerator 3.82 cross times 10 to the power of 26 over denominator 4 straight pi cross times open parentheses 5.67 cross times 10 to the power of negative 8 end exponent close parentheses cross times open parentheses 5570 close parentheses to the power of 4 end fraction end root`** [1 mark]**
+- $r = \sqrt{ \frac{3.82 \times 10^{26}{4 \mathrm{\pi } \times ( 5.67 \times 10^{-8} } ) \times ( 5570 )^{4} } }$** [1 mark]**
 - $r=7.46\times10^{8}m$ ** [1 mark]**
 
 **[Total: 2 marks]**

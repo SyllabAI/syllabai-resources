@@ -49,7 +49,7 @@ guided_study: false
 
   - The relative atomic mass of an element can be calculated by using the relative abundance values
 
-*A*<sub>r</sub> = `fraction numerator open parentheses r e l a t i v e space a b u n d a n c e subscript i s o t o p e space 1 end subscript cross times m a s s subscript i s o t o p e space 1 end subscript close parentheses plus open parentheses r e l a t i v e space a b u n d a n c e subscript i s o t o p e space 2 end subscript cross times m a s s subscript i s o t o p e space 2 end subscript close parentheses space e t c over denominator 100 end fraction`
+*A*<sub>r</sub> = $\frac{( r e l a t i v e a b u n d a n c e_{i s o t o p e 1} \times m a s s_{i s o t o p e 1} ) + ( r e l a t i v e a b u n d a n c e_{i s o t o p e 2} \times m a s s_{i s o t o p e 2} ) e t c}{100}$
 
 - The relative abundance of an isotope is either given or can be read off the mass spectrum
 
@@ -64,7 +64,7 @@ guided_study: false
 > 
 > **  Answer**
 > 
-> - *A*<sub>r</sub> = `fraction numerator open parentheses 99.76 space cross times space 16 close parentheses space plus open parentheses 0.04 space cross times space 17 close parentheses space plus open parentheses 0.20 space cross times 18 close parentheses over denominator 100 end fraction`
+> - *A*<sub>r</sub> = $\frac{( 99.76 \times 16 ) + ( 0.04 \times 17 ) + ( 0.20 \times 18 )}{100}$
 > 
 >   - *A*<sub>r</sub> = 16.0044
 >   - *A*<sub>r</sub> = 16.00

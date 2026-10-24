@@ -41,13 +41,13 @@ Isolate the constant, *k*:
 
 Substitute in the known values to calculate *k*:
 
-- `k space equals space fraction numerator 4 straight pi squared over denominator open parentheses 6.67 cross times 10 to the power of negative 11 end exponent close parentheses space cross times space open parentheses 4.9 cross times 10 to the power of 24 close parentheses end fraction`
+- $k = \frac{4 \mathrm{\pi }^{2}}{( 6.67 \times 10^{- 11} ) \times ( 4.9 \times 10^{24} )}$
 - *k* = 1.21 × 10<sup>−13</sup> **[1 mark]**
 
 Determine the SI base units for *k*:
 
 - [*k*] = $\frac{1}{Nm^{2}\mathrm{kg}^{-2}\times\mathrm{kg}}$
-- Substituting the base units for N gives, [*k*] = `fraction numerator 1 over denominator open parentheses kg space straight m space straight s to the power of negative 2 end exponent close parentheses space straight m squared space kg to the power of negative 2 end exponent space cross times space kg end fraction`
+- Substituting the base units for N gives, [*k*] = $\frac{1}{( \text{kg} \mathrm{m} \mathrm{s}^{- 2} ) \mathrm{m}^{2} kg^{- 2} \times kg}$
 - Hence, [*k*] = $\frac{1}{m^{3}s^{-2}}$
 - Therefore, the units for *k* = s<sup>2</sup> m<sup>−3</sup> **[1 mark]**
 
@@ -84,8 +84,8 @@ Convert the orbital time, *T*, into seconds, s:
 
 Substitute the known values into the *R*<sup>3</sup> equation:
 
-- `R cubed space equals space fraction numerator open parentheses 1.009 cross times 10 to the power of 7 close parentheses squared over denominator 1.21 cross times 10 to the power of negative 13 end exponent end fraction space equals space`8.414 × 10<sup>26</sup>
-- `R space equals space cube root of 8.414 cross times 10 to the power of 26 end root`
+- $R^{3} = \frac{( 1.009 \times 10^{7 )^{2}}{1.21 \times 10^{-13} } } =$8.414 × 10<sup>26</sup>
+- $R = \sqrt[3]{8.414 \times 10^{26} }$
 - *R* = 9.44 × 10<sup>8</sup> m **[1 mark]**
 
 Combine the linear speed and angular speed equations to calculate the orbital speed:
@@ -98,7 +98,7 @@ Combine the linear speed and angular speed equations to calculate the orbital sp
 
 **[Total: 2 marks]**
 
-> *You could also have calculated the orbital speed by using *`v space equals space square root of fraction numerator G M over denominator R end fraction end root space equals space square root of fraction numerator open parentheses 6.67 cross times 10 to the power of negative 11 end exponent close parentheses space cross times space open parentheses 4.9 cross times 10 to the power of 24 close parentheses over denominator 9.44 cross times 10 to the power of 8 end fraction end root`
+> *You could also have calculated the orbital speed by using *$v = \sqrt{ \frac{G M}{R} } = \sqrt{ \frac{( 6.67 \times 10^{- 11} ) \times ( 4.9 \times 10^{24} )}{9.44 \times 10^{8} } }$
 List the known quantities:
 
 - Radius of orbit, *R* = 9.44 × 10<sup>8</sup> m (From part c)
@@ -155,7 +155,7 @@ Determine the equation for the radius of the Earth's orbit, *r*:
 
 Substitute in the values:
 
-- `r space equals space square root of fraction numerator open parentheses 6.67 space cross times space 10 to the power of negative 11 end exponent close parentheses space cross times space open parentheses 6.0 space cross times space 10 to the power of 24 close parentheses space cross times space open parentheses 2.0 space cross times space 10 to the power of 30 close parentheses over denominator 3.52 space cross times space 10 to the power of 22 end fraction end root`**[1 mark]**
+- $r = \sqrt{ \frac{( 6.67 \times 10^{- 11} ) \times ( 6.0 \times 10^{24} ) \times ( 2.0 \times 10^{30} )}{3.52 \times 10^{22} } }$**[1 mark]**
 - $r=1.5\times10^{11}m$ **[1 mark]**
 
 **[Total: 3 marks]**
@@ -189,20 +189,20 @@ Determine an expression for *M* in terms of *ρ* and *R*:
 Consider the centripetal and gravitational forces acting on the moon from the Earth:
 
 - $F_{centripetal}=mnRω^{2}$
-- `F subscript g r a v i t a t i o n a l end subscript space equals space fraction numerator G M m over denominator open parentheses n R close parentheses squared end fraction`
-- `up diagonal strike m n R omega squared space equals space fraction numerator G M up diagonal strike m over denominator open parentheses n R close parentheses squared end fraction`
-- `n R omega squared space equals space fraction numerator G M over denominator open parentheses n R close parentheses squared end fraction`** [1 mark]**
+- $F_{g r a v i t a t i o n a l} = \frac{G M m}{( n R )^{2}}$
+- $\cancel{m} n R \\omega ^{2} = \frac{G M \cancel{m} }{( n R )^{2}}$
+- $n R \\omega ^{2} = \frac{G M}{( n R )^{2}}$** [1 mark]**
 
 Substitute the equation for angular velocity $ω$ into the equation and rearrange for *M*:
 
 - $ω=\frac{2π}{T}$ **[1 mark]**
-- `n R open parentheses fraction numerator 2 pi over denominator T end fraction close parentheses squared space equals space fraction numerator G M over denominator open parentheses n R close parentheses squared end fraction` ** **
+- $n R ( \frac{2 \pi }{T} )^{2} = \frac{G M}{( n R )^{2}}$ ** **
 - $M=\frac{4π^{2}n^{3}R^{3}}{GT^{2}}$
 
 Substitute in the expression for* *$M$* *and rearrange for* *$ρ$:
 
 - $\frac{4}{3}πR^{3}\timesρ=\frac{4π^{2}n^{3}R^{3}}{GT^{2}}$
-- `rho space equals space fraction numerator up diagonal strike 4 straight pi to the power of up diagonal strike 2 end exponent n cubed up diagonal strike R cubed end strike over denominator G T squared end fraction space cross times space fraction numerator 3 over denominator up diagonal strike 4 pi R cubed end strike end fraction`
+- $\\rho = \frac{ \cancel{4 \mathrm{\pi }^{ \cancel{2} } n^{3} \cancel{R}^{3}} }{G T^{2}} \times \frac{3}{ \cancel{4 \pi R^{3}} }$
 - $ρ=\frac{3πn^{3}}{GT^{2}}$** [1 mark]**
 
 **[Total: 4 marks]**
@@ -222,12 +222,12 @@ List the known quantities:
 
 Calculate the value of $n$ in the radius of the Moon's orbit:
 
-- `n space equals space fraction numerator open parentheses n R close parentheses over denominator R end fraction space equals space fraction numerator open parentheses 3.84 space cross times space 10 to the power of 8 close parentheses over denominator 6.38 space cross times space 10 to the power of 6 end fraction` = 60.19 **[1 mark]**
+- $n = \frac{( n R )}{R} = \frac{( 3.84 \times 10^{8} )}{6.38 \times 10^{6} }$ = 60.19 **[1 mark]**
 
 Substitute the known quantities into the expression for density, $ρ$:
 
 - $ρ=\frac{3πn^{3}}{GT^{2}}$
-- `rho space equals space fraction numerator 3 straight pi cross times open parentheses 60.19 close parentheses cubed over denominator open parentheses 6.67 space cross times space 10 to the power of negative 11 end exponent close parentheses open parentheses 27.3 cross times 24 cross times 3600 close parentheses squared end fraction` **[1 mark]**
+- $\\rho = \frac{3 \mathrm{\pi } \times ( 60.19 )^{3}}{( 6.67 \times 10^{- 11} ) ( 27.3 \times 24 \times 3600 )^{2}}$ **[1 mark]**
 - $ρ=5538\mathrm{kg}m^{-3}=5.54\times10^{3}\mathrm{kg}m^{-3}$ **[1 mark]**
 
 **[Total: 3 marks]**
@@ -261,7 +261,7 @@ Determine the equation for orbital speed in terms of time period:
 
 Substitute values into orbital speed equation:
 
-- Substitute:  `v equals fraction numerator 2 straight pi cross times open parentheses 670900 close parentheses over denominator 306000 end fraction` = 13.8 km s<sup>–1</sup> (3 s.f) **[1 mark]**
+- Substitute:  $v = \frac{2 \mathrm{\pi } \times ( 670900 )}{306000}$ = 13.8 km s<sup>–1</sup> (3 s.f) **[1 mark]**
 
 **[Total: 2 marks]**** **
 
@@ -284,7 +284,7 @@ Equate the equations for gravitational and centripetal force:
 
 Substitute the values into the mass equation:
 
-- Mass of Jupiter:  `M space equals space fraction numerator open parentheses 13.8 cross times 10 cubed close parentheses squared cross times left parenthesis 6.709 cross times 10 to the power of 8 right parenthesis over denominator 6.67 cross times 10 to the power of negative 11 end exponent end fraction`  **[1 mark]**
+- Mass of Jupiter:  $M = \frac{( 13.8 \times 10^{3} )^{2} \times ( 6.709 \times 10^{8 )}{6.67 \times 10^{-11} } }$  **[1 mark]**
 - Mass of Jupiter:  $M$* *= 1.92 × 10<sup>27</sup> kg** [1 mark]**
 
 ** ****[Total: 3 marks]**
@@ -302,7 +302,7 @@ Rearrange the orbital speed equation for radius *r*:
 
 Calculate the orbital radius of Ganymede:
 
-- Substitute:  `r space equals space fraction numerator left parenthesis 10.88 cross times 10 cubed right parenthesis cross times open parentheses 7.15 cross times 24 cross times 60 cross times 60 close parentheses over denominator 2 straight pi end fraction`
+- Substitute:  $r = \frac{( 10.88 \times 10^{3} ) \times ( 7.15 \times 24 \times 60 \times 60 )}{2 \mathrm{\pi } }$
 - Orbital radius of Ganymede: * r *= 1.07 × 10<sup>9</sup> m **[1 mark]**
 
 Determine the ratio of the radii:
@@ -329,7 +329,7 @@ Equate the centripetal and gravitational force:
 
 Cancel and rearrange for mass *M*:
 
-- `fraction numerator up diagonal strike m v squared over denominator r end fraction space equals fraction numerator space G M up diagonal strike m over denominator r squared end fraction`
+- $\frac{ \cancel{m} v^{2}}{r} = \frac{ G M \cancel{m} }{r^{2}}$
 - $v^{2}=\frac{GM}{r}$
 - $M=\frac{v^{2}r}{G}$ **[1 mark]**
 
@@ -344,7 +344,7 @@ Determine an equation for *v* in terms of *T*:
 
 Substitute this equation into the equation for *M* in terms of *v*:
 
-- `M space equals fraction numerator space v squared r over denominator G end fraction space space space rightwards double arrow space space space M space equals fraction numerator space open parentheses fraction numerator 2 pi r over denominator T end fraction close parentheses squared r over denominator G end fraction`
+- $M = \frac{ v^{2} r}{G} \Leftrightarrow M = \frac{ ( \frac{2 \pi r}{T} )^{2} r}{G}$
 - $M=\frac{\frac{4π^{2}r^{2}}{T^{2}}r}{G}=\frac{4π^{2}r^{3}}{T^{2}G}$ **[1 mark] **
 
 **[Total: 2 marks]**
@@ -367,11 +367,11 @@ Rearrange the mass equation for the radius or orbit, *r*:
 
 - $MT^{2}G=4π^{2}r^{3}$
 - $\frac{MT^{2}G}{4π^{2}}=r^{3}$
-- `r space equals cube root of fraction numerator space M T squared G over denominator 4 pi squared end fraction end root`**[1 mark]**
+- $r = \sqrt[3]{ \frac{ M T^{2} G}{4 \pi ^{2}} }$**[1 mark]**
 
 Substitute values into the radius equation:
 
-- `r space equals space cube root of fraction numerator open parentheses 6.0 space cross times space 10 to the power of 24 close parentheses space cross times space open parentheses 86 space 400 close parentheses squared space cross times space open parentheses 6.67 space cross times space 10 to the power of negative 11 end exponent close parentheses space over denominator 4 pi squared end fraction end root` **[1 mark]**
+- $r = \sqrt[3]{ \frac{( 6.0 \times 10^{24 ) \times ( 86 400 )^{2} \times ( 6.67 \times 10^{-11} } ) }{4 \pi ^{2}} }$ **[1 mark]**
 - $r=4.2\times10^{7}m$  **[1 mark]**
 
 **[Total: 4 marks]**
@@ -389,12 +389,12 @@ Calculate the mass of rock in S, *M*:
 
 - *M* = *ρ* × *V  *where *V*  is the volume enclosed by S
 - Volume: * *$V=\frac{4}{3}πr^{3}=\frac{4}{3}π\times(2000)^{3}$
-- Hence, `M space equals space 2500 cross times 4 over 3 straight pi cross times open parentheses 2000 close parentheses cubed`* *= 8.4 × 10<sup>13</sup> kg **[1 mark]**
+- Hence, $M = 2500 \times \frac{4}{3} \mathrm{\pi } \times ( 2000 )^{3}$* *= 8.4 × 10<sup>13</sup> kg **[1 mark]**
 
 Approximate the force between *M* and *m *using a sensible radial separation:
 
 - The radius of the kilogram mass *m* <u>is very small compared to</u> the radial distance between the centre of S and the centre of *m*
-- Hence, `F space equals space fraction numerator G M m over denominator d squared end fraction space equals space fraction numerator left parenthesis 6.67 cross times 10 to the power of negative 11 end exponent right parenthesis left parenthesis 8.4 cross times 10 to the power of 13 right parenthesis open parentheses 1 close parentheses over denominator left parenthesis 3500 right parenthesis squared end fraction space almost equal to space fraction numerator open parentheses 6.67 cross times 10 to the power of negative 11 end exponent close parentheses open parentheses 8.4 cross times 10 to the power of 13 close parentheses over denominator left parenthesis 3500 right parenthesis squared end fraction` **[1 mark]**
+- Hence, $F = \frac{G M m}{d^{2}} = \frac{( 6.67 \times 10^{- 11} ) ( 8.4 \times 10^{13 ) ( 1 )}{( 3500 )^{2}} \approx \frac{( 6.67 \times 10^{-11} } ) ( 8.4 \times 10^{13} )}{( 3500 )^{2}}$ **[1 mark]**
 - *F* = 4.6 × 10<sup>–4</sup> N **[1 mark]**
 
 **[Total: 3 marks]**
@@ -423,7 +423,7 @@ Equate equations using Newton's law of Gravitation for *F*<sub>*old *</sub>and *
 
 Determine the value of *d'*:
 
-- `open parentheses fraction numerator d over denominator d apostrophe end fraction close parentheses squared space equals space 49 over 64`
+- $( \frac{d}{d '} )^{2} = \frac{49}{64}$
 - $\frac{d}{d'}=\frac{7}{8}$
 - $d'=d\times\frac{8}{7}=3.5\times\frac{8}{7}=4.0\mathrm{km}$ **[1 mark]**
 
@@ -447,19 +447,19 @@ Determine the distance between the two centres of masses, *x*:
 - (Therefore), you wouldn't need to alter the angle / move the receiver; **[1 mark]**
 
 **[Total: 5 marks]**
-The time period *T* of the orbit of the satellite is given by the expression `T squared space equals space open parentheses fraction numerator 4 pi squared R cubed over denominator G M end fraction close parentheses` because:
+The time period *T* of the orbit of the satellite is given by the expression $T^{2} = ( \frac{4 \pi ^{2} R^{3}}{G M} )$ because:
 
 Equate the centripetal and gravitational force:
 
 - The gravitational force provides the centripetal force on the satellite; **[1 mark]**
 - $F=\frac{GMm}{R^{2}}=mRω^{2}$ **[1 mark]**
 - $ω=\frac{2π}{T}$
-- `fraction numerator G M over denominator R squared end fraction equals R omega squared space equals space R open parentheses fraction numerator 2 pi over denominator T end fraction close parentheses squared` **[1 mark]**
+- $\frac{G M}{R^{2}} = R \\omega ^{2} = R ( \frac{2 \pi }{T} )^{2}$ **[1 mark]**
 
 Rearrange to make *T*<sup>2</sup> the subject:
 
-- `fraction numerator G M over denominator R squared end fraction space equals space R open parentheses fraction numerator 2 pi over denominator T end fraction close parentheses squared space equals space R open parentheses fraction numerator 4 pi squared over denominator T squared end fraction close parentheses`
-- `G M space equals space R cubed open parentheses fraction numerator 4 pi squared over denominator T squared end fraction close parentheses`
+- $\frac{G M}{R^{2}} = R ( \frac{2 \pi }{T} )^{2} = R ( \frac{4 \pi ^{2}}{T^{2}} )$
+- $G M = R^{3} ( \frac{4 \pi ^{2}}{T^{2}} )$
 - $T^{2}=\frac{R^{3}4π^{2}}{GM}$ **[1 mark]**
 
 **[Total: 4 marks]**
@@ -476,13 +476,13 @@ List the known quantities:
 
 Rearrange the equation from part (b) for the mass *M*:
 
-- `T squared space equals space open parentheses fraction numerator 4 pi squared R cubed over denominator G M end fraction close parentheses`
+- $T^{2} = ( \frac{4 \pi ^{2} R^{3}}{G M} )$
 - $T^{2}GM=4π^{2}R^{3}$
 - $M=\frac{R^{3}4π^{2}}{GT^{2}}$
 
 Substitute in the values:
 
-- `M space equals space fraction numerator open parentheses 4.2 space cross times space 10 to the power of 7 close parentheses cubed space cross times space 4 pi squared space over denominator open parentheses 6.67 space cross times space 10 to the power of negative 11 end exponent close parentheses cross times space open parentheses 86400 close parentheses squared end fraction` **[1 mark]**
+- $M = \frac{( 4.2 \times 10^{7 )^{3} \times 4 \pi ^{2} }{( 6.67 \times 10^{-11} } ) \times ( 86400 )^{2}}$ **[1 mark]**
 - $M=5.874\times10^{24}=5.9\times10^{24}\mathrm{kg}$ **[1 mark]**
 
 **[Total: 2 marks]**
@@ -501,7 +501,7 @@ Determine an equation with the ratio of the orbits:
 
 Substitute the values into the ratio equation:
 
-- `g subscript 1 over g subscript 2 space equals space fraction numerator open parentheses 4.2 space cross times space 10 to the power of 7 close parentheses squared space over denominator open parentheses 6400 space cross times space 10 cubed close parentheses squared end fraction` **[1 mark]**
+- $\frac{g_{1}}{g_{2}} = \frac{ ( 4.2 \times 10^{7} ) ^{2} }{ ( 6400 \times 10 ^{3} ) ^{2} }$ **[1 mark]**
 - $\frac{g_{1}}{g_{2}}=43$ **[1 mark]**
 
 **[Total: 3 marks]**

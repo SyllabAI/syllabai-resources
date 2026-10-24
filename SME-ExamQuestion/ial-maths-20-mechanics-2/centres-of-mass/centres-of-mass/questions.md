@@ -6,11 +6,11 @@
 ## Q1 — easy — 6 marks · exam-questions
 
 ### 1() — 3 marks — structured
-Three particles with masses 2 kg, 5 kg and 10 kg are located along the $x$-axis at the points `open parentheses 4 comma space 0 close parentheses`, `open parentheses 7 comma space 0 close parentheses` and $(11,0)$ respectively.  Use the equatio
+Three particles with masses 2 kg, 5 kg and 10 kg are located along the $x$-axis at the points $( 4 , 0 )$, $( 7 , 0 )$ and $(11,0)$ respectively.  Use the equatio
 
-`sum from i equals 1 to 3 of m subscript i x subscript i space equals space x with bar on top sum from i equals 1 to 3 of m subscript i`
+$\sum_{i = 1}^{3} m_{i} x_{i} = \bar{x} \sum_{i = 1}^{3} m_{i}$
 
-to find the coordinates, `open parentheses x with bar on top comma space 0 close parentheses`, of the centre of mass of the three particles.
+to find the coordinates, $( \bar{x} , 0 )$, of the centre of mass of the three particles.
 
 ### 2() — 3 marks — structured
 A light rod $AB$lays horizontally and has bricks of masses 0.3 kg and 1.2 kg placed 0.2 m and 0.8 m respectively from the end labelled $A$.  Use a similar method to that in part (a) to find the distance between $A$and the centre of mass of the rod and bricks.
@@ -18,16 +18,16 @@ A light rod $AB$lays horizontally and has bricks of masses 0.3 kg and 1.2 kg pla
 ## Q2 — easy — 6 marks · exam-questions
 
 ### 1() — 3 marks — structured
-Four particles lie along the $y$-axis at the points `open parentheses 0 comma space 4 close parentheses comma space open parentheses 0 comma space 7 close parentheses comma space left parenthesis 0 comma space 12 right parenthesis` and $(0,14)$. Their respective masses are 1.5 kg, 3.2 kg, 1.4 kg and 0.6 kg. Use the equation.
+Four particles lie along the $y$-axis at the points $( 0 , 4 ) , ( 0 , 7 ) , ( 0 , 12 )$ and $(0,14)$. Their respective masses are 1.5 kg, 3.2 kg, 1.4 kg and 0.6 kg. Use the equation.
 
-`sum from i equals 1 to 4 of m subscript i y subscript i space equals space y with bar on top space sum from i equals 1 to 4 of space m subscript i`
+$\sum_{i = 1}^{4} m_{i} y_{i} = \bar{y} \sum_{i = 1}^{4} m_{i}$
 
-to find the coordinates, `open parentheses 0 comma space y with bar on top close parentheses comma` of the centre of mass of the four particles.
+to find the coordinates, $( 0 , \bar{y} ) ,$ of the centre of mass of the four particles.
 
 ### 2() — 3 marks — structured
 Four particles of masses $m$ kg, 2$m$ kg, 3$m$ kg and 4$m$ kg are located, in that order, at equal intervals on the y-axis.  The particle of mass $m$ kg is located at the point $(0,3)$ and the particle of mass 4$m$ kg is located at the point $(0,9)$.
 
-Given that the centre of mass of the four particles is `open parentheses 0 comma space y with bar on top close parentheses`, use a similar method to that in part (a) to find the value of $\overline{y}$.
+Given that the centre of mass of the four particles is $( 0 , \bar{y} )$, use a similar method to that in part (a) to find the value of $\overline{y}$.
 
 ## Q3 — easy — 3 marks · exam-questions
 
@@ -36,13 +36,13 @@ Three particles lie in a 2D-plane such that particle $A$ has mass 4 kg and coord
 
 i) Use the equation
 
-`begin mathsize 20px style sum from i equals 1 to 3 of m subscript i x subscript i space equals x with bar on top space sum from i equals 1 to 3 of space m subscript i end style`
+$\sum_{i = 1}^{3} m_{i} x_{i} = \bar{x} \sum_{i = 1}^{3} m_{i}$
 
 to show that the $x$-coordinate of the centre of mass, $\overline{x}$ is $\frac{5}{3}$.
 
 ii) Use the equation
 
-`begin mathsize 20px style stack sum from i equals 1 to 3 of with blank below and blank on top m subscript i y subscript i space equals y with bar on top space stack sum from i equals 1 to 3 of with blank below and blank on top space m subscript i end style`
+`SUM_ i = 1 to 3 of with _ below and _ on top m _ i y _ i = y -bar SUM_ i = 1 to 3 of with _ below and _ on top m _ i`
 
 to show that the $y$-coordinate of the centre of mass, $\overline{y}$ is $\frac{50}{9}$.
 
@@ -51,14 +51,14 @@ to show that the $y$-coordinate of the centre of mass, $\overline{y}$ is $\frac{
 ### 1() — 3 marks — structured
 A system of three particles lies in the $x-y$plane.  The first particle is located at the point $(-4,6)$ and has mass 2.3 kg.  The second particle is located at the point $(-2,3)$and has mass 3.7 kg.  The third particle is located at the origin and has mass 2.3 kg. Use the equation
 
-`sum from i equals 1 to 3 of m subscript i bold r subscript i space equals space bold r with bold bar on top sum from i equals 1 to 3 of m subscript i`
+$\sum_{i = 1}^{3} m_{i} r_{i} = \bar{r} \sum_{i = 1}^{3} m_{i}$
 
 where $\overline{r}$ is the position vector of the centre of mass of the system, to find the coordinates of the centre of mass of the system.
 
 ### 2() — 3 marks — structured
-A system of three particles, $P,Q$ and $R$ have position vectors `open parentheses 2 bold i plus 4 bold j close parentheses`, `open parentheses negative 4 bold i minus 2 bold j close parentheses` and $(-6j)$respectively.  The masses of $P$, $Q$ and $R$ are 0.4 kg, 0.5 kg and 0.6 kg respectively. Use the equation
+A system of three particles, $P,Q$ and $R$ have position vectors $( 2 i + 4 j )$, $( - 4 i - 2 j )$ and $(-6j)$respectively.  The masses of $P$, $Q$ and $R$ are 0.4 kg, 0.5 kg and 0.6 kg respectively. Use the equation
 
-`sum from i equals 1 to 3 of space m subscript i bold r subscript i space equals space bold r with bold bar on top space sum from i equals 1 to 3 of space m subscript i`
+$\sum_{i = 1}^{3} m_{i} r_{i} = \bar{r} \sum_{i = 1}^{3} m_{i}$
 
 to find the position vector, $\overline{r}$ of the centre of mass of the system.
 
@@ -75,7 +75,7 @@ Another particle of mass 9 kg is located 7 cm from the side $AD$and 1 cm from th
 
 Use the equation
 
-`sum from i equals 1 to 2 of m subscript i bold r subscript i space equals space bold r with bold bar on top space sum from i equals 1 to 2 of space m subscript i`
+$\sum_{i = 1}^{2} m_{i} r_{i} = \bar{r} \sum_{i = 1}^{2} m_{i}$
 
 to help describe the location of the centre of mass of the lamina is in terms of its distances from the sides $AD$and $CD$.
 
@@ -104,9 +104,9 @@ A uniform triangular lamina is shown in the diagram below.
 
 Given that the coordinates of the centre of mass, point $G$, are given by
 
-`open parentheses fraction numerator x subscript 1 plus x subscript 2 plus x subscript 3 over denominator 3 end fraction comma fraction numerator y subscript 1 plus y subscript 2 plus y subscript 3 over denominator 3 end fraction close parentheses`
+$( \frac{x_{1} + x_{2} + x_{3} }{3} , \frac{y_{1} + y_{2} + y_{3} }{3} )$
 
-where `open parentheses x subscript 1 comma y subscript 1 close parentheses space comma space open parentheses x subscript 2 comma y subscript 2 close parentheses space and space open parentheses x subscript 3 comma y subscript 3 close parentheses` are the coordinates of the three vertices of the triangle, find the coordinates of $G$.
+where `( x _ 1 , y _ 1 ) , ( x _ 2 , y _ 2 ) and ( x _ 3 , y _ 3 )` are the coordinates of the three vertices of the triangle, find the coordinates of $G$.
 
 ### 2() — 3 marks — structured
 i) A uniform equilateral triangular lamina $ABC$ has perpendicular height 6 cm. The centre of mass of the lamina lies at the point $G$. Using the result that the position of the centre of mass for a triangular lamina lies two- thirds along the median from the vertex that median passes through, determine the distance $AG$.
@@ -143,7 +143,7 @@ ii) Find the area of both rectangles $ABGH$and $CDEF$.
 ### 2() — 3 marks — structured
 Use your results from part (a) and the formula
 
-`sum from i equals 1 to 2 of m subscript i bold r subscript bold i space equals space bold r with bold bar on top space sum from i equals 1 to 2 of space m subscript i`
+`SUM_ i = 1 to 2 of m _ i r _ i = r -bar SUM_ i = 1 to 2 of m _ i`
 
 to find the coordinates of the centre of mass of the composite lamina.
 
@@ -163,7 +163,7 @@ ii) side $AD$.
 ### 2() — 3 marks — structured
 Using the area of each shape, your results from part (a) and the formula
 
-`sum from i equals 1 to 2 of space m subscript i bold r subscript bold i space equals space bold r with bold bar on top space sum from i equals 1 to 2 of space m subscript i`
+`SUM_ i = 1 to 2 of m _ i r _ i = r -bar SUM_ i = 1 to 2 of m _ i`
 
 find the position of the centre of mass of the composite lamina. Give your answer in terms of the distances from the sides $AB$and $AD$.
 
@@ -197,7 +197,7 @@ i) Using the vertex $O$ as the origin, write down the coordinates of the centres
 
 ii) Since the wire is uniform, the mass of each wire will be proportional to its length. Use this fact, your results from part (a) and the formula
 
-`sum from i equals 1 to 4 of space m subscript i bold r subscript bold i space equals space bold r with bold bar on top sum from i equals 1 to 4 of space m i`
+`SUM_ i = 1 to 4 of m _ i r _ i = r -bar SUM_ i = 1 to 4 of m i`
 
 to show that the centre of mass has coordinates $(1.5,4)$.
 
@@ -206,10 +206,10 @@ iii) Briefly explain why, in this case, using the method described in part (ii) 
 ## Q13 — medium — 6 marks · exam-questions
 
 ### 1() — 3 marks — structured
-Four particles with masses 3 kg, 4.8 kg, 6 kg and 6.2 kg are located along the $x$-axis at the points `open parentheses 6 comma space 0 close parentheses comma space open parentheses 3 comma space 0 close parentheses comma space left parenthesis 5 comma space 0 right parenthesis space and space left parenthesis 9 comma space 0 right parenthesis`respectively. Find the coordinates of the centre of mass of the four particles.
+Four particles with masses 3 kg, 4.8 kg, 6 kg and 6.2 kg are located along the $x$-axis at the points `( 6 , 0 ) , ( 3 , 0 ) , ( 5 , 0 ) and ( 9 , 0 )`respectively. Find the coordinates of the centre of mass of the four particles.
 
 ### 2() — 3 marks — structured
-Three particles lie along the $y$-axis at the points `open parentheses 0 comma space 4 close parentheses comma space left parenthesis 0 comma space 10 right parenthesis space and space left parenthesis 0 comma space 12 right parenthesis`. Their respective masses are 2.3 kg, 3.8 kg and 0.4 kg. Find the coordinates of the centre of mass of the three particles.
+Three particles lie along the $y$-axis at the points `( 0 , 4 ) , ( 0 , 10 ) and ( 0 , 12 )`. Their respective masses are 2.3 kg, 3.8 kg and 0.4 kg. Find the coordinates of the centre of mass of the three particles.
 
 ## Q14 — medium — 6 marks · exam-questions
 
@@ -256,7 +256,7 @@ A particle of mass 0.2 kg is attached to the lamina and is positioned 2 cm from 
 Find the position of the centre of mass of the two particles, giving your answer as distances from the sides $AD$and $CD$.
 
 ### 3() — 2 marks — structured
-Given that the position of the centre of mass did not change after the two particles were attached, find the length $(y)$and width `open parentheses x close parentheses` of the rectangle.
+Given that the position of the centre of mass did not change after the two particles were attached, find the length $(y)$and width $( x )$ of the rectangle.
 
 ## Q17 — medium — 7 marks · exam-questions
 
@@ -269,7 +269,7 @@ Parts of the lines $l_{1}$ and $l_{2}$ form the diagonals of a uniform rectangul
 Find the coordinates of the centre of mass of the lamina.
 
 ### 3() — 3 marks — structured
-A uniform lamina is modelled as an isosceles triangle with coordinates `A open parentheses 5 comma space 12 close parentheses comma space B open parentheses 9 comma space 3 close parentheses comma space C open parentheses 1 comma space 3 close parentheses`.  Find the coordinates of the centre of mass of the lamina.
+A uniform lamina is modelled as an isosceles triangle with coordinates $A ( 5 , 12 ) , B ( 9 , 3 ) , C ( 1 , 3 )$.  Find the coordinates of the centre of mass of the lamina.
 
 ## Q18 — medium — 6 marks · exam-questions
 
@@ -294,7 +294,7 @@ The diagram below shows a composite uniform lamina made from a rectangle and a s
 
 i) Write down the coordinates of the centre of mass, $G_{1}$, of the rectangle.
 
-ii) Show that the position of the centre of mass of the semi-circle, G<sub>2</sub> has coordinates `open parentheses 5 comma space 11 plus space 4 over straight pi close parentheses`.
+ii) Show that the position of the centre of mass of the semi-circle, G<sub>2</sub> has coordinates `( 5 , 11 + 4 / pi )`.
 
 ### 2() — 3 marks — structured
 Find the coordinates of the position of the centre of mass of the composite uniform lamina, giving your answers to three significant figures where appropriate.
@@ -363,7 +363,7 @@ The coordinates of the centre of mass of the system of three particles are $(7,1
 Find the values of $p$ and $q$.
 
 ### 2() — 3 marks — structured
-A fourth particle of mass 4 kg is added to the system at the point with coordinates `open parentheses 2 comma space minus 2 close parentheses`. 
+A fourth particle of mass 4 kg is added to the system at the point with coordinates $( 2 , - 2 )$. 
 Find the coordinates of the centre of mass of the four-particle system.
 
 ## Q25 — hard — 9 marks · exam-questions
@@ -383,7 +383,7 @@ In a quality control test a bracket is suspended from vertex $E$ under its own w
 Under the same assumption as used in part (a), determine the angle (to one decimal place) that a bracket makes between the downward vertical and the side $OE$.
 
 ### 3() — 3 marks — structured
-In another quality control test the bracket has masses of 10 kg, 15 kg and 20 kg placed at the points `open parentheses 2 comma space 7 close parentheses comma space open parentheses 2 comma space 2 close parentheses space and space left parenthesis 7 comma space 2 right parenthesis`respectively. The mass of the bracket is 1 kg.
+In another quality control test the bracket has masses of 10 kg, 15 kg and 20 kg placed at the points `( 2 , 7 ) , ( 2 , 2 ) and ( 7 , 2 )`respectively. The mass of the bracket is 1 kg.
 
 Again, under the same assumption used in part (a), and assuming the bracket does not deform when the masses are added, find the exact coordinates of the centre of mass of the bracket when loaded with the three masses.
 

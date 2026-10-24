@@ -8,13 +8,13 @@
 ### Q1
 - **A is correct** as substituting the values provided into the PED formula gives a value of 0.64
 
-`text PED =  end text fraction numerator percent sign space change space in space quantity space demanded over denominator percent sign space change space in space price end fraction space equals space fraction numerator percent sign triangle space in thin space QD over denominator percent sign triangle in space straight P end fraction
+$\text{PED = } \frac{\% \text{change} \text{in} \text{quantity} demanded}{\% \text{change} \text{in} price} = \frac{\% \Delta \text{in} QD}{\% \Delta \text{in} \mathrm{P} } 
 
-percent sign triangle space in thin space QD space equals space 8 percent sign
+\% \Delta \text{in} \text{QD} = 8 \%
 
-percent sign space increment P space equals space fraction numerator 90 minus 80 over denominator 80 end fraction space x space 100 space equals space 12.5 percent sign
+\% \Delta P = \frac{90 - 80}{80} x 100 = 12.5 \%
 
-text PED =  end text space fraction numerator 8 percent sign over denominator 12.5 percent sign end fraction space equals space 0.64`
+ \text{PED = } \frac{8 \%}{12.5 \%} = 0.64$
 
 - B is incorrect as the equation has been inverted to incorrectly produce a value of 1.56
 
@@ -24,13 +24,13 @@ text PED =  end text space fraction numerator 8 percent sign over denominator 
 ### Q2
 - **B is correct** as substituting the values provided into the PED formula gives a value of 0.5 (relatively inelastic)
 
-`text PED =  end text fraction numerator percent sign space change space in space quantity space demanded over denominator percent sign space change space in space price end fraction space equals space fraction numerator percent sign triangle space in thin space QD over denominator percent sign triangle in space straight P end fraction
+$\text{PED = } \frac{\% \text{change} \text{in} \text{quantity} demanded}{\% \text{change} \text{in} price} = \frac{\% \Delta \text{in} QD}{\% \Delta \text{in} \mathrm{P} } 
 
-percent sign space increment Q D space equals space fraction numerator 150 minus 200 over denominator 200 end fraction space x space 100 space equals space minus 25 percent sign
+\% \Delta Q D = \frac{150 - 200}{200} x 100 = - 25 \%
 
-percent sign space increment P space equals space fraction numerator 120 minus 80 over denominator 80 end fraction space x space 100 space equals space 50 percent sign
+\% \Delta P = \frac{120 - 80}{80} x 100 = 50 \%
 
-text PED =  end text space equals space fraction numerator 25 percent sign over denominator 50 percent sign end fraction space equals space 0.5`
+ \text{PED} = \frac{25 \%}{50 \%} = 0.5$
 
 - A is incorrect as the equation has been inverted to incorrectly produce a value of 2
 

@@ -41,7 +41,7 @@ guided_study: true
   - £125 + £75 = £200
 
 > **Exam Hint**
-> **Adding labels **to your ratios will help make your working clearer and help you remember which number represents which quantity, e.g., `table row straight A colon straight B row 3 colon 4 end table`
+> **Adding labels **to your ratios will help make your working clearer and help you remember which number represents which quantity, e.g., $\begin{gathered} \mathrm{A} : \mathrm{B} \\ 3 : 4 \end{gathered}$
 
 > **Worked Example**
 > A particular shade of pink paint is made using three parts red paint, to two parts white paint.
@@ -65,11 +65,11 @@ guided_study: true
 > 
 > > *Divide both sides by 5 to find out the number of litres in one part*
 > 
-> `table row blank blank cell table row cell 5 space parts end cell equals cell 60 space litres end cell row cell divided by 5 end cell blank cell divided by 5 end cell row cell 1 space part end cell equals cell 12 space litres end cell end table end cell end table`
+> $\begin{gathered} \begin{gathered} 5 \text{parts} & = 60 \text{litres} \\ \div 5 & \div 5 \\ 1 \text{part} & = 12 \text{litres} \end{gathered} \end{gathered}$
 > 
 > > *The ratio was 3:2, so multiply both number of parts by 12*
 > 
-> `table row space straight R colon straight W space row space 3 colon 2 space row cell table row cell cross times 12 end cell downwards arrow end table end cell space space space cell table row downwards arrow cell cross times 12 end cell end table end cell row space 36 colon 24 space end table`
+> $\begin{gathered} \mathrm{R} : \mathrm{W} \\ 3 : 2 \\ \begin{gathered} \times 12 & \downarrow \end{gathered} \begin{gathered} \downarrow \times 12 \end{gathered} \\ 36 : 24 \end{gathered}$
 > 
 > > *Answer in context, making sure you make it clear which value is associated with which colour paint*
 > 

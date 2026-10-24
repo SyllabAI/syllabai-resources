@@ -6,9 +6,9 @@
 ## Q1 — medium — 5 marks · exam-questions
 
 ### 11((b)) — 5 marks — structured — from paper Specimen · 4PM1/01
-`straight f open parentheses x close parentheses equals 2 x cubed minus 13 x squared plus 12 x plus 27`
+$\mathrm{f} ( x ) = 2 x^{3} - 13 x^{2} + 12 x + 27$
 
-Figure 3 shows a sketch of the curve with equation `y equals straight f open parentheses x close parentheses`, which passes through the points with coordinates `\left(-1 , 0\right)`, `\left(b , 0\right)` and `\left(a , 0\right)` where $0 < b < a$.
+Figure 3 shows a sketch of the curve with equation $y = \mathrm{f} ( x )$, which passes through the points with coordinates `\left(-1 , 0\right)`, `\left(b , 0\right)` and `\left(a , 0\right)` where $0 < b < a$.
 
 ![Graph showing a curve crossing the x-axis at points (-1,0), O, (b,0), and (a,0) with shaded area between (-1,0) and (b,0). Diagram not accurately drawn.](assets/008-graph-showing-a-curve-crossing-the-x-axis-at-poi.png)
 
@@ -23,9 +23,9 @@ Show that $\mathrm{cos}(A--B)--\mathrm{cos}(A+B)=2\mathrm{sin}A\mathrm{sin}B$
 Hence express $2\mathrm{sin}5x\mathrm{sin}3x$ in the form  $\mathrm{cos}mx--\mathrm{cos}nx$where $m$ and  $n$ are integers, giving the value of $m$ and the value of $n$,
 
 ### 5((c)) — 4 marks — structured — from paper Specimen · Paper 2
-(i) Find `integral 4 sin space 5 theta space sin 3 theta space straight d theta`
+(i) Find $\int 4 \sin 5 \\theta \sin 3 \\theta \mathrm{d} \\theta$
 
-(ii) Hence evaluate `integral subscript 0 superscript straight pi over 6 end superscript 4 sin space 5 theta space sin 3 theta space straight d theta`, giving your answer in the form  $\frac{a\sqrt{b}}{c}$ where $a$, $b$ and  $c$ are integers.
+(ii) Hence evaluate `integral _ 0 ^ pi / 6 end ^ 4 sin 5 theta sin 3 theta d theta`, giving your answer in the form  $\frac{a\sqrt{b}}{c}$ where $a$, $b$ and  $c$ are integers.
 
 ## Q3 — medium — 13 marks · exam-questions
 
@@ -58,7 +58,7 @@ Use algebraic integration to find, to 3 significant figures, the volume of the s
 ### 6((a)) — 3 marks — structured — from paper June 2024 · Paper 2
 ![Graph showing a shaded region R between curves and the x-axis at point A, with y-axis at point C. Note: Diagram not accurately drawn. Figure 3.](assets/007-graph-showing-a-shaded-region-r-between-curves-a.png)
 
-Figure 3 shows part of the curve $C$ with equation $y=\frac{1}{4x},x>0$ and part of the curve $S$ with equation `y space equals space 2 x squared space comma space x space greater-than or slanted equal to space 0`
+Figure 3 shows part of the curve $C$ with equation $y=\frac{1}{4x},x>0$ and part of the curve $S$ with equation $y = 2 x ^{2} , x \text{greater} - \text{than} or \text{slanted} \text{equal} to 0$
 
 The curve $C$ and the curve $S$ intersect at the point $A$
 
@@ -94,7 +94,7 @@ $\mathrm{cos}2θ=2\mathrm{cos}^{2}θ-1$
 
 Hence show that
 
-`integral subscript pi over 3 end subscript superscript fraction numerator 3 pi over denominator 4 end fraction end superscript open parentheses 2 space cos to the power of 2 space end exponent theta minus 1 close parentheses   d theta equals negative fraction numerator a plus square root of b over denominator c end fraction`
+$\int_{ \frac{\pi }{3} }^{\frac{3 \pi }{4}} ( 2 \cos ^{2 } \\theta - 1 )   d \\theta = - \frac{a + \sqrt{b} }{c}$
 
 where $a$, $b$ and $c$ are integers to be found.
 
@@ -105,9 +105,9 @@ Figure 3 shows part of the curve $C_{1}$ with equation $y=2\mathrm{cos}^{2}θ-1$
 
 Point $B$ is the intersection of  $C_{1}$ and $C_{2}$ as shown in Figure 3
 
-Point $A$`open parentheses fraction numerator 3 straight pi over denominator 4 end fraction comma 0 close parentheses` is the intersection of  $C_{1}$ with the $θ$-axis as shown in Figure 3
+Point $A$$( \frac{3 \mathrm{\pi } }{4} , 0 )$ is the intersection of  $C_{1}$ with the $θ$-axis as shown in Figure 3
 
-Point $E$ `open parentheses pi over 2 comma 0 close parentheses` is the intersection of  $C_{2}$ with the $θ$-axis as shown in Figure 3
+Point $E$ $( \frac{\pi }{2} , 0 )$ is the intersection of  $C_{2}$ with the $θ$-axis as shown in Figure 3
 
 The finite region $R$, shown shaded in Figure 3, is bounded by the $θ$-axis, $C_{1}$ and $C_{2}$
 
@@ -118,20 +118,20 @@ Use calculus to find, in its simplest form, the exact area of  $R$
 ### 11((a)) — 4 marks — structured — from paper June 2023 · Paper 1
 $f(x)=10+6x-x^{2}$
 
-Given that `straight f open parentheses x close parentheses` can be written in the form $A(x+B)^{2}+C$ where $A$,$B$ and $C$ are constants,
+Given that $\mathrm{f} ( x )$ can be written in the form $A(x+B)^{2}+C$ where $A$,$B$ and $C$ are constants,
 
 find the value of  $A$, the value of $B$ and the value of $C$
 
 ### 11((b)) — 2 marks — structured — from paper June 2023 · Paper 1
 $f(x)=10+6x-x^{2}$
 
-Given that `straight f open parentheses x close parentheses` can be written in the form $A(x+B)^{2}+C$ where $A$,$B$ and $C$ are constants,
+Given that $\mathrm{f} ( x )$ can be written in the form $A(x+B)^{2}+C$ where $A$,$B$ and $C$ are constants,
 
 Hence, or otherwise, find
 
-(i) the value of $x$ for which `straight f open parentheses x close parentheses` has its greatest value
+(i) the value of $x$ for which $\mathrm{f} ( x )$ has its greatest value
 
-(ii) the greatest value of `straight f open parentheses x close parentheses`
+(ii) the greatest value of $\mathrm{f} ( x )$
 
 ### 11((c)) — 3 marks — structured — from paper June 2023 · Paper 1
 The curve $C$ has equation $y=f(x)$
@@ -143,7 +143,7 @@ Find the $x$ coordinate of each of these two points.
 ### 11((d)) — 5 marks — structured — from paper June 2023 · Paper 1
 $f(x)=10+6x-x^{2}$
 
-Given that `straight f open parentheses x close parentheses` can be written in the form $A(x+B)^{2}+C$ where $A$,$B$ and $C$ are constants,
+Given that $\mathrm{f} ( x )$ can be written in the form $A(x+B)^{2}+C$ where $A$,$B$ and $C$ are constants,
 
 The curve $C$ has equation $y=f(x)$
 
@@ -171,7 +171,7 @@ Give your answer in terms of $π$
 ## Q9 — medium — 11 marks · exam-questions
 
 ### 7((a)) — 3 marks — structured — from paper June 2023 · Paper 2
-Expand `open parentheses 1 plus x over 3 close parentheses to the power of negative 3 end exponent`  in ascending powers of $x$ up to and including the term in $x^{3}$
+Expand $( 1 + \frac{x}{3} )^{- 3}$  in ascending powers of $x$ up to and including the term in $x^{3}$
 
 Where appropriate express each coefficient as an exact fraction in its lowest terms.
 
@@ -179,17 +179,17 @@ Where appropriate express each coefficient as an exact fraction in its lowest te
 Write down the range of values of $x$ for which your expression is valid.
 
 ### 7((c)) — 2 marks — structured — from paper June 2023 · Paper 2
-Express `open parentheses 3 plus x close parentheses to the power of negative 3 end exponent` in the form `P space open parentheses 1 plus Q x close parentheses to the power of negative 3 end exponent` where $P$ and $Q$ are rational numbers whose values should be stated.
+Express $( 3 + x )^{- 3}$ in the form $P ( 1 + Q x )^{- 3}$ where $P$ and $Q$ are rational numbers whose values should be stated.
 
 ### 7((d)) — 2 marks — structured — from paper June 2023 · Paper 2
 $f(x)=\frac{1+4x}{(3+x)^{3}}$
 
-Obtain a series expansion for `straight f open parentheses x close parentheses` in ascending powers of $x$ up to and including the term in $x^{2}$
+Obtain a series expansion for $\mathrm{f} ( x )$ in ascending powers of $x$ up to and including the term in $x^{2}$
 
 ### 7((e)) — 3 marks — structured — from paper June 2023 · Paper 2
 $f(x)=\frac{1+4x}{(3+x)^{3}}$
 
-Hence, using algebraic integration, obtain an estimate of `integral subscript 0 superscript 0.2 end superscript straight f left parenthesis x right parenthesis   straight d x`
+Hence, using algebraic integration, obtain an estimate of $\int_{0}^{0.2} \mathrm{f} ( x )   \mathrm{d} x$
 
 Give your answer to 5 significant figures.
 
@@ -212,14 +212,14 @@ Expand $(1-8x^{2})^{-\frac{1}{2}}$  in ascending powers of $x$, up to and includ
 ### 9((b)) — 4 marks — structured — from paper November 2023 · Paper 1
 $g(x)=\frac{a+bx}{\sqrt{1-8x^{2}}}$  where $a$ and $b$ are prime numbers
 
-Given that the fourth and fifth terms, in ascending powers of $x$, in the series expansion of `straight g open parentheses x close parentheses` are 20$x^{3}$and 48$x^{4}$ respectively,
+Given that the fourth and fifth terms, in ascending powers of $x$, in the series expansion of $\mathrm{g} ( x )$ are 20$x^{3}$and 48$x^{4}$ respectively,
 
 find the value of $a$ and the value of $b$
 
 ### 9((c)) — 4 marks — structured — from paper November 2023 · Paper 1
-Using the first five terms, in ascending powers of $x$, in the series expansion of `straight g open parentheses x close parentheses`
+Using the first five terms, in ascending powers of $x$, in the series expansion of $\mathrm{g} ( x )$
 
-obtain an estimate, to 4 significant figures, of `integral subscript 0 superscript 0.2 end superscript straight g left parenthesis x right parenthesis   straight d x`
+obtain an estimate, to 4 significant figures, of $\int_{0}^{0.2} \mathrm{g} ( x )   \mathrm{d} x$
 
 ## Q12 — medium — 9 marks · exam-questions
 

@@ -104,7 +104,7 @@ Use mass-energy equivalence to determine the total energy:
 (iii) Calculate the wavelength of each gamma photon released:
 
 - Photon energy:  $E=\frac{hc}{λ}$
-- Photon wavelength:  `lambda space equals space fraction numerator 2 h c over denominator E end fraction space equals space fraction numerator 2 cross times open parentheses 6.63 cross times 10 to the power of negative 34 end exponent close parentheses cross times open parentheses 3.00 cross times 10 to the power of 8 close parentheses over denominator 1.64 cross times 10 to the power of negative 13 end exponent end fraction` **[1 mark]**
+- Photon wavelength:  $\\lambda = \frac{2 h c}{E} = \frac{2 \times ( 6.63 \times 10^{- 34} ) \times ( 3.00 \times 10^{8 )}{1.64 \times 10^{-13} } }$ **[1 mark]**
 - Photon wavelength:  $λ$ = 2.43 × 10<sup>−12</sup> m **[1 mark]**
 
 **[Total: 5 marks]**
@@ -234,7 +234,7 @@ List the known quantities:
 Calculate the rest mass-energy of an electron-positron pair:
 
 - Minimum possible photon energy:  $E_{min}=2m_{e}c^{2}$
-- `E subscript m i n end subscript space equals space 2 cross times open parentheses 9.11 cross times 10 to the power of negative 31 end exponent close parentheses cross times open parentheses 3.00 cross times 10 to the power of 8 close parentheses squared space equals space 1.64 space cross times space 10 to the power of negative 13 end exponent space straight J`
+- $E_{m i n} = 2 \times ( 9.11 \times 10^{- 31} ) \times ( 3.00 \times 10^{8 )^{2} = 1.64 \times 10^{-13} } \mathrm{J}$
 - Convert to MeV:  $E_{min}=\frac{1.64\times10^{-13}}{1.60\times10^{-19}}=1.02\mathrm{MeV}$ **[1 mark]**
 
 Calculate the minimum possible energy of the annihilation photons:
@@ -310,8 +310,8 @@ Determine the initial number of fluorine-18 nuclei in the tracer:
 Determine the number of nuclei remaining after 30 minutes:
 
 - Radioactive decay:  $N=N_{0}e^{-λt}\RightarrowN=N_{0}e^{-\frac{t\mathrm{ln}2}{t_{1/2}}}$
-- Remaining number of nuclei:  `N space equals space open parentheses 4.277 cross times 10 to the power of 12 close parentheses space cross times space e to the power of negative fraction numerator 30 cross times ln space 2 over denominator 109.8 end fraction end exponent space equals space 3.539 space cross times space 10 to the power of 12`
-- Number of positrons emitted = `0.97 open parentheses N subscript 0 space minus space N close parentheses space equals space 0.97 open parentheses 4.277 space cross times space 10 to the power of 12 space minus space 3.539 space cross times space 10 to the power of 12 close parentheses space equals space 7.158 space cross times space 10 to the power of 11`**[1 mark]**
+- Remaining number of nuclei:  $N = ( 4.277 \times 10^{12 ) \times e^{-} \frac{30 \times \ln 2}{109.8}} = 3.539 \times 10^{12}$
+- Number of positrons emitted = $0.97 ( N_{0} - N ) = 0.97 ( 4.277 \times 10^{12} - 3.539 \times 10^{12} ) = 7.158 \times 10^{11}$**[1 mark]**
 
 Determine the number of photons emitted:
 
@@ -341,13 +341,13 @@ Determine the decay constant of oxygen-15:
 Determine the initial number of oxygen-15 nuclei in the tracer:
 
 - Radioactive decay:  $N=N_{0}e^{-λt}\RightarrowN_{0}=\frac{N}{e^{^{-λt}}}$
-- Initial number of nuclei:  `N subscript 0 space equals space fraction numerator 8.4 cross times 10 to the power of 11 over denominator e to the power of negative open parentheses 5.682 cross times 10 to the power of negative 3 end exponent close parentheses cross times 360 end exponent end fraction`
+- Initial number of nuclei:  $N_{0} = \frac{8.4 \times 10^{11}{e^{- ( 5.682 \times 10^{-3} } ) \times 360} }$
 - Initial number of nuclei:  $N_{0}=6.50\times10^{12}$ **[1 mark]**
 
 Determine the initial activity of oxygen-15 required:
 
 - Activity:  $A=λN$
-- `A subscript 0 space equals space lambda N subscript 0 space equals space open parentheses 5.682 cross times 10 to the power of negative 3 end exponent close parentheses cross times open parentheses 6.50 cross times 10 to the power of 12 close parentheses`
+- $A_{0} = \\lambda N_{0} = ( 5.682 \times 10^{- 3} ) \times ( 6.50 \times 10^{12} )$
 - $A_{0}=3.7\times10^{10}\mathrm{Bq}=37\mathrm{GBq}$ **[1 mark]**
 
 **[Total: 3 marks]**
@@ -386,9 +386,9 @@ Determine the initial activity of oxygen-15 required:
 > *Remember that the momentum of a photon is *$p=\frac{E}{c}$*, therefore, the momentum **p** is directly proportional to energy **E**.*
 (i) The complete nuclear decay equations are:
 
-- `Rb presubscript 37 presuperscript 82 space rightwards arrow space Kr presubscript 36 presuperscript 82 space plus space bold beta presubscript bold plus bold 1 end presubscript presuperscript bold 0 bold space bold plus bold space bold italic nu presubscript bold 0 presuperscript bold 0` **[1 mark]**
-- `straight I presubscript 53 presuperscript 131 space rightwards arrow space Xe presubscript 54 presuperscript 131 space plus space bold beta presubscript bold minus bold 1 end presubscript presuperscript bold 0 bold space bold plus bold space scriptbase bold nu with bold bar on top end scriptbase presubscript bold 0 presuperscript bold 0` **[1 mark]**
-- `straight F presubscript 9 presuperscript 18 space rightwards arrow space straight O presubscript 8 presuperscript 18 space plus space bold beta presubscript bold plus bold 1 end presubscript presuperscript bold 0 bold space bold plus bold space bold italic nu presubscript bold 0 presuperscript bold 0` **[1 mark]**
+- `Rb _ 37 ^ 82 -> Kr _ 36 ^ 82 + beta _ + 1 ^ 0 + nu _ 0 ^ 0` **[1 mark]**
+- `I _ 53 ^ 131 -> Xe _ 54 ^ 131 + beta _ - 1 ^ 0 + nu -bar _ 0 ^ 0` **[1 mark]**
+- `F _ 9 ^ 18 -> O _ 8 ^ 18 + beta _ + 1 ^ 0 + nu _ 0 ^ 0` **[1 mark]**
 
 (ii) The tracer that would **not** be suitable for use in a PET scanner is:
 
@@ -413,7 +413,7 @@ List the known quantities:
 (ii) Calculate the wavelength of each gamma photon released:
 
 - Photon energy:  $E=\frac{hc}{λ}$
-- Photon wavelength:  `lambda space equals space fraction numerator 2 h c over denominator E end fraction space equals space fraction numerator 2 cross times open parentheses 6.63 cross times 10 to the power of negative 34 end exponent close parentheses cross times open parentheses 3.00 cross times 10 to the power of 8 close parentheses over denominator 3.0 cross times 10 to the power of negative 10 end exponent end fraction` **[1 mark]**
+- Photon wavelength:  $\\lambda = \frac{2 h c}{E} = \frac{2 \times ( 6.63 \times 10^{- 34} ) \times ( 3.00 \times 10^{8 )}{3.0 \times 10^{-10} } }$ **[1 mark]**
 - Photon wavelength:  $λ$ = 1.32 × 10<sup>−15</sup> m **[1 mark]**
 
 **[Total: 4 marks]**
@@ -431,7 +431,7 @@ The correct sentence is:
 ![img-6ea1b2b8d036-1](assets/004-img-6ea1b2b8d036-1.jpeg)
 (i) The complete nuclear decay equation for fluorine-18 is:
 
-- `straight F presubscript 9 presuperscript 18 space rightwards arrow space straight O presubscript 8 presuperscript 18` **[1 mark] **`plus straight beta presubscript plus 1 end presubscript presuperscript 0` **[1 mark] **$+ν$** [1 mark]**
+- `F _ 9 ^ 18 -> O _ 8 ^ 18` **[1 mark] **`+ beta _ + 1 ^ 0` **[1 mark] **$+ν$** [1 mark]**
 
 (ii) The tracer is tagged onto glucose molecules because:
 
@@ -475,7 +475,7 @@ Determine the initial activity of the dose of F-18:
 
 Convert the initial activity to GBq:
 
-- `A subscript 0 space equals space 141 space cross times space open parentheses 3.7 cross times 10 to the power of 7 close parentheses space equals space 5.219 cross times 10 to the power of 9 space Bq`
+- $A_{0} = 141 \times ( 3.7 \times 10^{7} ) = 5.219 \times 10^{9} \text{Bq}$
 - $A_{0}=5.2\mathrm{GBq}$ **[1 mark]**
 
 **[Total: 3 marks]**
@@ -492,9 +492,9 @@ List the known quantities:
 Determine the time taken to reach the required activity level:
 
 - Exponential decay:  $A=A_{0}e^{-λt}\Rightarrow\frac{A}{A_{0}}=e^{-λt}$
-- `A over A subscript 0 space equals space e to the power of negative lambda t end exponent space space space space space rightwards double arrow space space space space space ln space open parentheses A over A subscript 0 close parentheses space equals space minus lambda t`
-- `t space equals space minus 1 over lambda ln space open parentheses A over A subscript 0 close parentheses space space space space space rightwards double arrow space space space space space t space equals space fraction numerator ln space open parentheses A subscript 0 over A close parentheses over denominator lambda end fraction`
-- `t space equals space fraction numerator ln space open parentheses fraction numerator 15.3 over denominator 14 end fraction close parentheses space over denominator 6.3 cross times 10 to the power of negative 3 end exponent end fraction space equals space 14.09 space min` **[1 mark]**
+- $\frac{A}{A} _{0} = e^{- \\lambda t} \Leftrightarrow \ln ( \frac{A}{A} _{0} ) = - \\lambda t$
+- `t = - 1 / lambda ln ( A / A _ 0 ) <-> t = (ln ( A _ 0 / A ))/(lambda)`
+- $t = \frac{\ln ( \frac{15.3}{14} ) }{6.3 \times 10^{- 3}} = 14.09 \min$ **[1 mark]**
 - Earliest time the sample can be injected: 11:15 a.m. **[1 mark]**
 
 **[Total: 2 marks]**
@@ -510,7 +510,7 @@ List the known quantities:
 (i) Determine the initial number of F-18 nuclei in the injected sample:
 
 - Activity:  $A=λN\RightarrowN_{0}=\frac{A_{0}}{λ}$
-- Initial number of nuclei:  `N subscript 0 space equals space fraction numerator 14 cross times open parentheses 3.7 cross times 10 to the power of 7 close parentheses over denominator 1.05 cross times 10 to the power of negative 4 end exponent end fraction`
+- Initial number of nuclei:  $N_{0} = \frac{14 \times ( 3.7 \times 10^{7 )}{1.05 \times 10^{-4} } }$
 - Initial number of nuclei:  $N_{0}=4.93\times10^{12}$ **[1 mark]**
 
 Use the equation relating mass, moles and molar mass:
@@ -523,7 +523,7 @@ Use the equation relating mass, moles and molar mass:
 (ii) The fraction of F-18 FDG remaining in the patient's body after 6 hours:
 
 - Exponential decay:  $N=N_{0}e^{-λt}\Rightarrow\frac{N}{N_{0}}=e^{-λt}$
-- Fraction of F-18 remaining:  `N over N subscript 0 space equals space e to the power of negative open parentheses 6.03 cross times 10 to the power of negative 3 end exponent close parentheses cross times 6 cross times 60 end exponent`
+- Fraction of F-18 remaining:  $\frac{N}{N} _{0} = e^{- ( 6.03 \times 10^{- 3} ) \times 6 \times 60}$
 - Fraction of F-18 remaining:  $\frac{N}{N_{0}}=0.11$ **[1 mark]**
 - Fraction of F-18 FDG remaining:  $\frac{N}{N_{0}}=e^{-λt}=0.11$ (i.e. approximately 11% remains) **[1 mark]**
 

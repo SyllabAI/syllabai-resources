@@ -129,6 +129,6 @@ guided_study: true
 > 
 > **Step 4: Substitute in values**
 > 
-> `v space equals space fraction numerator 3.5 over denominator open parentheses 1.5 cross times 10 to the power of negative 6 end exponent close parentheses open parentheses 9.2 cross times 10 to the power of 28 close parentheses open parentheses 1.60 cross times 10 to the power of negative 19 end exponent close parentheses end fraction space`
+> $v = \frac{3.5}{( 1.5 \times 10^{- 6} ) ( 9.2 \times 10^{28 ) ( 1.60 \times 10^{-19} } )}$
 > 
-> `v space equals space 0.16 cross times 10 to the power of negative 3 end exponent space ms to the power of negative 1 end exponent space open parentheses 2 space straight s. straight f close parentheses`
+> $v = 0.16 \times 10^{- 3} ms^{- 1} ( 2 \mathrm{s} . \mathrm{f} )$

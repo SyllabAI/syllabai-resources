@@ -215,11 +215,11 @@
   },
   {
    "type": "paragraph",
-   "md": "`table row cell a squared end cell equals cell b squared plus c squared minus 2 b c space cos space A end cell row cell a squared plus 2 b c space cos space A end cell equals cell b squared plus c squared end cell row cell 2 b c space cos space A end cell equals cell b squared plus c squared minus a squared end cell row cell cos space A end cell equals cell fraction numerator b squared plus c squared minus a squared over denominator 2 b c end fraction end cell end table`"
+   "md": "$\\begin{gathered} a^{2} & = b^{2} + c^{2} - 2 b c \\cos A \\\\ a^{2} + 2 b c \\cos A & = b^{2} + c^{2} \\\\ 2 b c \\cos A & = b^{2} + c^{2} - a^{2} \\\\ \\cos A & = \\frac{b^{2} + c^{2} - a^{2}}{2 b c} \\end{gathered}$"
   },
   {
    "type": "bullets",
-   "md": "- Use the formula `table row cell cos space A end cell equals cell fraction numerator b squared plus c squared minus a squared over denominator 2 b c end fraction end cell end table` to find the **unknown** **angle ***A*\n\n  - Remember, *A *is the angle **between** sides *b *and *c*\n  \n    - (you may need to relabel the triangle)\n  - You will need to use** inverse cosine **at the end, `cos to the power of negative 1 end exponent open parentheses... close parentheses`\n- Unlike the sine rule, there is no ambiguous case of the cosine rule"
+   "md": "- Use the formula $\\begin{gathered} \\cos A & = \\frac{b^{2} + c^{2} - a^{2}}{2 b c} \\end{gathered}$ to find the **unknown** **angle ***A*\n\n  - Remember, *A *is the angle **between** sides *b *and *c*\n  \n    - (you may need to relabel the triangle)\n  - You will need to use** inverse cosine **at the end, $\\cos ^{- 1} (... )$\n- Unlike the sine rule, there is no ambiguous case of the cosine rule"
   },
   {
    "type": "callout",
@@ -231,7 +231,7 @@
    "type": "callout",
    "variant": "worked-example",
    "label": "Worked Example",
-   "md": "The following diagram shows triangle $\\mathrm{ABC}$, where $\\mathrm{AB}=4.2\\mathrm{km}$, $\\mathrm{BC}=3.8\\mathrm{km}$ and $\\mathrm{AC}=7.1\\mathrm{km}$.\n\n![Triangle ABC with AB = 4.2 km, BC = 3.8 km, AC = 7.1 km and angle ABC = θº.](assets/578309660b86-62189-the-cosine-rule-2.png)\n\nCalculate the value of angle $\\mathrm{ABC}$.\n\n**Answer:**\n\n> *The side opposite the angle is 7.1, so *$a=7.1$\n\n> *The sides 4.2 and 3.8 are *$b$* and *$c$* (in either order)*\n\n> *Use the cosine rule in the rearranged form *$\\mathrm{cos}A=\\frac{b^{2}+c^{2}-a^{2}}{2bc}$\n\n`table row cell cos space theta end cell equals cell fraction numerator 4.2 squared plus 3.8 squared minus 7.1 squared over denominator 2 open parentheses 4.2 close parentheses open parentheses 3.8 close parentheses end fraction end cell row theta equals cell cos to the power of negative 1 end exponent open parentheses fraction numerator 4.2 squared plus 3.8 squared minus 7.1 squared over denominator 2 open parentheses 4.2 close parentheses open parentheses 3.8 close parentheses end fraction close parentheses end cell row theta equals cell 125.04699... end cell end table`\n\n**Final answer:** $θ=125.0^{\\circ}$** (to 1 d.p.)**"
+   "md": "The following diagram shows triangle $\\mathrm{ABC}$, where $\\mathrm{AB}=4.2\\mathrm{km}$, $\\mathrm{BC}=3.8\\mathrm{km}$ and $\\mathrm{AC}=7.1\\mathrm{km}$.\n\n![Triangle ABC with AB = 4.2 km, BC = 3.8 km, AC = 7.1 km and angle ABC = θº.](assets/578309660b86-62189-the-cosine-rule-2.png)\n\nCalculate the value of angle $\\mathrm{ABC}$.\n\n**Answer:**\n\n> *The side opposite the angle is 7.1, so *$a=7.1$\n\n> *The sides 4.2 and 3.8 are *$b$* and *$c$* (in either order)*\n\n> *Use the cosine rule in the rearranged form *$\\mathrm{cos}A=\\frac{b^{2}+c^{2}-a^{2}}{2bc}$\n\n$\\begin{gathered} \\cos \\\\theta & = \\frac{4.2^{2} + 3.8^{2} - 7.1^{2}}{2 ( 4.2 ) ( 3.8 )} \\\\ \\\\theta = \\cos ^{- 1} ( \\frac{4.2^{2} + 3.8^{2} - 7.1^{2}}{2 ( 4.2 ) ( 3.8 )} ) \\\\ \\\\theta = 125.04699... \\end{gathered}$\n\n**Final answer:** $θ=125.0^{\\circ}$** (to 1 d.p.)**"
   }
  ]
 }

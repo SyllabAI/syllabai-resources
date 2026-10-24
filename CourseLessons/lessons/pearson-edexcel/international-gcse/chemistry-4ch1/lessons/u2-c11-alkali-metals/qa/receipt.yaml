@@ -1,0 +1,43 @@
+# authoring receipt — u2:c11 Alkali metals (T-BOOK-044 r0)
+lane: 'operator lane order (trace 1a16cfb5cbb7623d): "…then open Unit 2 at c11" — the Unit-2 opener pack, first lane after UNIT-1-REST COMPLETE (c01–c10 all published) and the voice-retrofit r2 residual sweep (resources PR #100, main ac59f03)'
+stage: S4
+agent: 'T-BOOK-044 r0 (author; session web-c414c074 chat 08b3170a trace 1a16cfb5cbb7623d)'
+standing_authorization: 'merge+flip trace 1a1658a2da08e5bd'
+
+S0_scope:
+  section_map: 'section-maps/u2-c11.json (scope of record) — re-derived independently via scripts/section_map.py --chapter u2:c11 from the parse of record: 10/10 sections chunkRefs byte-equal + titles equal'
+  verifier: 'scripts/verify_c11_s0.py — ALL GREEN 16/16 (checks below)'
+  chunk_refs_byte_verify: '27 section chunkRefs all exist in parse of record (parsed/edexcel_igcse_chemistry_chunks_v3.jsonl, sha256 b2c67eaf… pinned in course.yaml) and all belong to u2_c11; byte-equal to the of-record map in order'
+  page_range: '[123, 128] — of record'
+
+S0_L0_join_set:
+  derivation: 'LEARNING OBJECTIVES chunk 0463 (3 core fragments) + CHEMISTRY ONLY fragment opening chunk 0464 (1 fragment) x spine node igcse-chemistry-T2:SUBa ("Group 1 (alkali metals) – lithium, sodium and potassium") = EXACTLY FOUR points one-to-one, all four fragments match spine titles verbatim (no raw-fragment pathology — 4 raw -> 4 logical): similarities-water-family -> 2.1; differences-air-water-trend -> 2.2; predict-properties -> 2.3; explain-trend-electronic-configurations -> 2.4C'
+  route: 'FIRST MIXED paper-route pack of the course: 3 core shared points (2.1/2.2/2.3, papers [1C,2C], double_award_shared true) + 1 C-suffixed point (2.4C, papers [2C], double_award_shared false) -> chem_only false'
+  sibling_audit: 'f-0015 law audit PASS — course.yaml u1 rows: c06/c09/c10 chem_only true (all-C join sets), c01-c05/c07/c08 chem_only false (all-core); no u1 pack mixes routes; "first mixed-route pack" claim verified against the full u1 row set before landing'
+
+S1_authoring:
+  voice: 'lesson-prose@2.0.0 standalone from first draft — zero book-attribution, zero print-page refs, zero PDF-deflection; "Chapter N (uN:cNN)" internal navigation house style; book-derived substance fully carried (objectives, physical table, storage regime, family reactions, per-metal equations, observation lists, comparison vocabulary, electron-transfer extension, reactivity chain, peroxides/superoxides footnote, compounds colour law, summary card, francium predictions incl. 21–27 °C key point)'
+  licensing: 'chapter-questions chunks 0491–0493 (book p.128) page-jump-only per licensing law — never re-served interactively; their swept teaching content (fictional-element prediction drills) carried by s10 prose and :::can-you'
+  boxes: '10/10 sections carry exam-hint + misconception + quick-check; key-point x5; prior-knowledge s01; did-you-know s02; safety s05 (the single census safety chunk 0477); cross-curricular s10; summary s10'
+  glossary: '12 entries, full ms layer (ms_accepts + ms_avoids + aliases), all chunk-sourced; every section glossary slug resolves (verifier S0.16)'
+
+S2_self_check:
+  lint_r0: '18 errors / 15 warnings -> fixed in-lane: V6 chip pipes ([[slug|alias]] unsupported by V6 — rewritten to plain [[slug]] x3 in s10); V9 receipt file (this one); V5 per-section box gaps filled with substantive content (exam-hint/misconception per section, :::summary box at close) — no filler boxes'
+  lint_r1: 'GREEN 0 errors / 0 warnings (V1-V9 at stage S4, V5/V6 gates ON) — target state before emit'
+
+S3_gates:
+  lint: 'lessonctl lint GREEN 0/0 (r1)'
+  emit: 'lessonctl emit -> qa/lessonPackV1.json (status=draft per law; operator flip separate)'
+  voice_audit: 'fleet voice patterns (the book / book''s / textbook / student book / figure N / table N.N / page N / pp. N / PDF / OCR / parse / mark-scheme narration) = 0 true hits across 10 sections'
+
+S4_close:
+  status: 'draft -> flip -> published under standing merge+flip authorization trace 1a1658a2da08e5bd (law-7 single-field byte-precise flip, exactly-1 assertion)'
+  tracker: 'law-10 tracker tx in the flip commit: pack_status=published, last_receipt=qa/flip-published.yaml, unit-2 phase row opens (not-started -> in-progress), TRACKER.md board row 11'
+  next: 'v2 bake lane (lessons-index 10->11 additive; battery --expect-packs 11 post-deploy; c01-c10 byte-identical assert)'
+
+chunk_provenance:
+  census: '27 chunks carry u2_c11 ids in the parse of record; 22 content-bearing chunks swept across the 10 sections (5 section-map-listed refs — 0461-range interleaves — are figure/table fragments folded into neighbouring sections by the of-record map; byte-equal to map, no orphaned teaching content)'
+  objectives_chunk: '0463 (+ 0464 CHEMISTRY ONLY opening) — 4 logical objectives, verbatim-pinned in lesson.yaml learning_objective'
+  safety_chunks: '1 (0477 rubidium/caesium) — :::safety in s05, one hazard one placement'
+  key_point_chunks: '0469 (M/X notation -> s03 key-point), 0489 (francium mp 21–27 °C -> s10 prose), 0466/0471 extension+reminder content carried in s01/s03'
+  hint_chunks: '0474/0475/0476 observation + comparison vocabulary -> s05 exam-hint; 0468 did-you-know -> s02; 0477 safety -> s05'

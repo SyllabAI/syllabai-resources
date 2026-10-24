@@ -64,7 +64,7 @@ guided_study: true
 > 
 > ![Triangle TBF with angle TBF = 35º, TF = 24 m. BT is marked as the hypotenuse, TF as the opposite and BF as the adjacent.](assets/13c09b6aa619-7418-angles-of-elevation-and-depression-3.png)
 > 
-> `table row cell tan space 35 end cell equals cell fraction numerator 24 over denominator B F end fraction end cell row cell B F end cell equals cell fraction numerator 24 over denominator tan space 35 end fraction end cell row cell B F end cell equals cell 34.27555... end cell end table`
+> $\begin{gathered} \tan 35 & = \frac{24}{B F} \\ B F & = \frac{24}{\tan 35} \\ B F & = 34.27555... \end{gathered}$
 > 
 > **Final answer:** **BF**** = 34.3 m (3 s.f.)**
 > 
@@ -79,6 +79,6 @@ guided_study: true
 > 
 > ![Triangle MBR with angle MPF = 18º, BF = 34.27555... m and MF = x m.](assets/91d8968cbfac-11896-angles-of-elevation-and-depression-4.png)
 > 
-> `table row cell tan space 18 end cell equals cell fraction numerator x over denominator 34.27555... end fraction end cell row cell 34.27555... space tan space 18 end cell equals x row x equals cell 11.1368... end cell end table`
+> $\begin{gathered} \tan 18 & = \frac{x}{34.27555...} \\ 34.27555... \tan 18 & = x \\ x = 11.1368... \end{gathered}$
 > 
 > **Final answer:** $x=11.1m$** (3 s.f.)**

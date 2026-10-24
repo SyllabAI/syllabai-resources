@@ -43,7 +43,7 @@ legacy_spec_map: true
 > 
 > - **Step 1** - calculate the moles of magnesium
 > 
->   - Moles = `open parentheses mass over M subscript r close parentheses` = `begin mathsize 14px style open parentheses 6 over 24 close parentheses end style` = 0.25
+>   - Moles = $( \frac{mass}{M} _{r} )$ = $( \frac{6}{24} )$ = 0.25
 > - **Step 2** - use the molar ratio from the balanced symbol equation
 > 
 >   - 2 moles of magnesium produce 2 moles of magnesium oxide
@@ -67,7 +67,7 @@ legacy_spec_map: true
 > - **Step 1** - calculate the moles of aluminium oxide
 > 
 >   - Mass = 51 tonnes x 10<sup>6</sup> = 51 000 000 g
->   - Moles = `open parentheses mass over M subscript r close parentheses` = `open parentheses 51000000 over 102 close parentheses` = 500 000
+>   - Moles = $( \frac{mass}{M} _{r} )$ = $( \frac{51000000}{102} )$ = 500 000
 > - **Step 2** - use the molar ratio from the balanced symbol equation
 > 
 >   - 2 moles of aluminium oxide produces 4 moles of aluminium
@@ -76,7 +76,7 @@ legacy_spec_map: true
 > - **Step 3** - calculate the mass of aluminium
 > 
 >   - Mass = moles x *M*<sub>r</sub> = 1 000 000 moles x 27 = 27 000 000 g
->   - Mass in tonnes = `open parentheses 27000000 over 10 to the power of 6 close parentheses` = 27 tonnes
+>   - Mass in tonnes = $( \frac{27000000}{10^{6}} )$ = 27 tonnes
 
 > **Exam Hint**
 > - When you see any of the following phrases in a question, make sure you work methodically through the process of calculating moles, using molar ratios and calculating mass

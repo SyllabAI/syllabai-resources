@@ -65,7 +65,7 @@ The cuboid has two of each type of face
 
 - so the total area is
 
-`table row cell 2 cross times 21 plus 2 cross times 28 plus 2 cross times 12 end cell equals cell 42 plus 56 plus 24 end cell row blank equals 122 end table`
+$\begin{gathered} 2 \times 21 + 2 \times 28 + 2 \times 12 & = 42 + 56 + 24 \\ = 122 \end{gathered}$
 
 **Final answer:** **122 cm**<sup>**2**</sup>
 
@@ -74,7 +74,7 @@ The cuboid has two of each type of face
 > **[mark-scheme]**
 > **M1**: For $7\times3$, $7\times4$ or $4\times3$ or equivalent, seen or implied.
 > 
-> **A1**: For `2 cross times open parentheses 7 cross times 3 plus 7 cross times 4 plus 4 cross times 3 close parentheses` or equivalent, leading to 122.
+> **A1**: For $2 \times ( 7 \times 3 + 7 \times 4 + 4 \times 3 )$ or equivalent, leading to 122.
 
 (iii)
 
@@ -114,7 +114,7 @@ It will help to label all the sides around the perimeter
 
 First add up all the sides that are in terms of $x$
 
-`x plus x plus x plus x plus open parentheses x minus 3 close parentheses plus open parentheses x minus 3 close parentheses`
+$x + x + x + x + ( x - 3 ) + ( x - 3 )$
 
 - Collect terms and simplify
 
@@ -338,15 +338,15 @@ $h\timesl$
 
 > *Rectangles 1 and 3 are the same size, so find the area of one and double it. *
 
-> `2 cross times open parentheses 3 cross times 6 close parentheses equals 36`* *
+> $2 \times ( 3 \times 6 ) = 36$* *
 
 > *Rectangles 2 and 4 are also the same size. *
 
-> `2 cross times open parentheses 1 cross times 6 close parentheses equals 12`* *
+> $2 \times ( 1 \times 6 ) = 12$* *
 
 > *Rectangles 5 and 6 are the same size. *
 
-> `2 cross times open parentheses 1 cross times 3 close parentheses equals 6`* *
+> $2 \times ( 1 \times 3 ) = 6$* *
 
 > *Add the areas together. *
 

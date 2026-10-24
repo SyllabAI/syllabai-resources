@@ -242,7 +242,7 @@
   },
   {
    "type": "paragraph",
-   "md": "`begin mathsize 22px style log subscript a invisible function application x equals fraction numerator log subscript b invisible function application x over denominator log subscript b invisible function application a end fraction end style`"
+   "md": "$log_{a} x = \\frac{log_{b} x}{log_{b} a}$"
   },
   {
    "type": "heading",
@@ -251,15 +251,15 @@
   },
   {
    "type": "bullets",
-   "md": "- This formula had more use when calculators were less advanced\n\n  - Some old calculators only had a button for logarithm of base 10\n  - To calculate $\\mathrm{log}_{5}7$on these calculators you would have to enter\n  \n    - `fraction numerator log subscript 10 invisible function application 7 over denominator log subscript 10 invisible function application 5 end fraction`"
+   "md": "- This formula had more use when calculators were less advanced\n\n  - Some old calculators only had a button for logarithm of base 10\n  - To calculate $\\mathrm{log}_{5}7$on these calculators you would have to enter\n  \n    - $\\frac{log_{10} 7}{log_{10} 5}$"
   },
   {
    "type": "bullets",
-   "md": "- The formula is only needed in a small number of cases\n\n  - This is given in the **formulae booklet** in case it is needed\n- The formula can be useful when evaluation a logarithm where the two numbers are **powers of a common number**\n\n  - $\\mathrm{log}_{4}8=\\frac{\\mathrm{log}_{2}8}{\\mathrm{log}_{2}4}=\\frac{3}{2}$\n- The formula can be useful when you are solving equations and two logarithms have **different bases**\n\n  - For example, if you have $\\mathrm{log}_{3}k$ and $\\mathrm{log}_{9}n$ within the same equation\n  \n    - You can rewrite $\\mathrm{log}_{9}n$ as `fraction numerator log subscript 3 invisible function application n over denominator log subscript 3 invisible function application 9 end fraction blank` which simplifies to $\\frac{1}{2}\\mathrm{log}_{3}n$\n    - Or you can rewrite $\\mathrm{log}_{3}k$ as `fraction numerator log subscript 9 invisible function application k over denominator log subscript 9 invisible function application 3 end fraction blank` which simplifies to $2\\mathrm{log}_{9}k$\n- The formula also allows you to derive and use a formula for switching the numbers:"
+   "md": "- The formula is only needed in a small number of cases\n\n  - This is given in the **formulae booklet** in case it is needed\n- The formula can be useful when evaluation a logarithm where the two numbers are **powers of a common number**\n\n  - $\\mathrm{log}_{4}8=\\frac{\\mathrm{log}_{2}8}{\\mathrm{log}_{2}4}=\\frac{3}{2}$\n- The formula can be useful when you are solving equations and two logarithms have **different bases**\n\n  - For example, if you have $\\mathrm{log}_{3}k$ and $\\mathrm{log}_{9}n$ within the same equation\n  \n    - You can rewrite $\\mathrm{log}_{9}n$ as $\\frac{log_{3} n}{log_{3} 9}$ which simplifies to $\\frac{1}{2}\\mathrm{log}_{3}n$\n    - Or you can rewrite $\\mathrm{log}_{3}k$ as $\\frac{log_{9} k}{log_{9} 3}$ which simplifies to $2\\mathrm{log}_{9}k$\n- The formula also allows you to derive and use a formula for switching the numbers:"
   },
   {
    "type": "paragraph",
-   "md": "`begin mathsize 22px style log subscript a invisible function application x equals fraction numerator 1 over denominator log subscript x invisible function application a end fraction end style`"
+   "md": "$log_{a} x = \\frac{1}{log_{x} a}$"
   },
   {
    "type": "bullets",

@@ -23,7 +23,7 @@ guided_study: false
 - To **add** or **subtract **vectors numerically simply add or subtract each of the corresponding components
 - In **column vector** notation just add the top, middle and bottom parts together
 
-  - For example: `open parentheses 2 over 1 close parentheses minus open parentheses 1 fourth close parentheses equals blank open parentheses fraction numerator 1 over denominator negative 3 end fraction close parentheses`
+  - For example: $( \frac{2}{1} ) - ( 1 \frac{1}{4} ) = ( \frac{1}{- 3} )$
 - In **base vector** notation add each of the **i **and **j** components together separately
 
   - For example: (2**i **+ **j**)** **– (**i** + 4**j**) = (**i** – 3**j)**

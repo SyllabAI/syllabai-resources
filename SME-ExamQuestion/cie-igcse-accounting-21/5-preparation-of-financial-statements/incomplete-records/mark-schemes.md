@@ -13,7 +13,7 @@
   - This is given as a **number of times**
 - Find the average inventory using the formula $\frac{\mathrm{Opening} \mathrm{inventory}+\mathrm{Closing} \mathrm{inventory}}{2}$
 
-  - `fraction numerator $ 38 space 000 space plus space $ 46 space 000 over denominator 2 end fraction equals $ 42 space 000`
+  - $\frac{\$ 38 000 + \$ 46 000}{2} = \$ 42 000$
 - You can find the cost of sales by multiplying the average inventory by the rate of inventory turnover
 
   - \$42 000 × 4 = \$168 000
@@ -119,7 +119,7 @@
   - The formula for average inventory is $\frac{\mathrm{Opening} \mathrm{inventory}+\mathrm{Closing} \mathrm{inventory}}{2}$
 - Calculate the average inventory
 
-  - `fraction numerator $ 7 space 400 plus $ 8 space 200 over denominator 2 end fraction equals $ 7 space 800`
+  - $\frac{\$ 7 400 + \$ 8 200}{2} = \$ 7 800$
 - You can find the cost of sales by multiplying the average inventory by the rate of inventory turnover
 
   - \$7 800 × 4.5 = \$35 100

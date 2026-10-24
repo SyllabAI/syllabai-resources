@@ -109,7 +109,7 @@ e.g.        Bag with 6 white and 3 red buttons. One is drawn at random and not  
 
 - The key phrase here is “**given** **that**” – it essentially means something has already happened.
 
-  - In set notation, “**given** **that**” is indicated by a vertical line ( **| **) so the above example would be written `text P( end text right enclose 2 to the power of nd space is space white end enclose space 1 to the power of st space is space white right parenthesis equals 5 over 8`
+  - In set notation, “**given** **that**” is indicated by a vertical line ( **| **) so the above example would be written `text P( end text right 2 ^ nd is white 1 ^ st is white ) = 5 / 8`
   - There are other phrases that imply or mean the same things as “given that”
 - Tree diagrams are great for events that follow on from one another
 
@@ -121,19 +121,19 @@ e.g.        Bag with 6 white and 3 red buttons. One is drawn at random and not  
 
 - The diagrams above also show two more **conditional** **probability** results
 
-  - `straight P left parenthesis A intersection B right parenthesis equals straight P left parenthesis A right parenthesis cross times straight P left parenthesis B vertical line A right parenthesis`
+  - $\mathrm{P} ( A \cap B ) = \mathrm{P} ( A ) \times \mathrm{P} ( B \vert A )$
 
-`straight P left parenthesis A intersection B right parenthesis equals straight P left parenthesis B right parenthesis cross times straight P left parenthesis A vertical line B right parenthesis`
+$\mathrm{P} ( A \cap B ) = \mathrm{P} ( B ) \times \mathrm{P} ( A \vert B )$
 
 (These are essentially the same as letters are interchangeable)
 
 - For **independent** **events** we know $P(A\capB)=P(A)\timesP(B)$ so
 
-`straight P left parenthesis B vertical line A right parenthesis equals fraction numerator horizontal strike straight P left parenthesis A right parenthesis end strike cross times straight P left parenthesis B right parenthesis over denominator horizontal strike straight P left parenthesis A right parenthesis end strike end fraction equals text P end text left parenthesis B right parenthesis`
+`P ( B | A ) = (-- P ( A ) x P ( B ))/(-- P ( A ) ) = text P end text ( B )`
 
 and similarly
 
-`straight P left parenthesis A vertical line B right parenthesis equals straight P left parenthesis A right parenthesis`
+$\mathrm{P} ( A \vert B ) = \mathrm{P} ( A )$
 
 - The independent result should make sense logically – if events *A* and *B*   are independent then the fact that event *B*  has already occurred has no effect on the probability of event *A* happening
 
@@ -145,9 +145,9 @@ and similarly
 > 
 > Find
 > 
-> (i) `P left parenthesis A vertical line B right parenthesis`
+> (i) $P ( A \vert B )$
 > 
-> (ii) `P left parenthesis B vertical line A apostrophe right parenthesis`
+> (ii) $P ( B \vert A ' )$
 > 
 > (iii) $P(A\capB)(A\cupB)$
 > 
@@ -199,7 +199,7 @@ and similarly
 
 - You may need to use the results
 
-  - `begin mathsize 16px style straight P left parenthesis A intersection B right parenthesis equals straight P left parenthesis A right parenthesis cross times straight P left parenthesis B vertical line A right parenthesis end style`
+  - $\mathrm{P} ( A \cap B ) = \mathrm{P} ( A ) \times \mathrm{P} ( B \vert A )$
   - `equation` (for independent events)
 
 > **Worked Example**

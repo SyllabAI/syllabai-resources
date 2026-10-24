@@ -530,7 +530,7 @@ The relative atomic mass of an element is found on the Periodic Table.
 
 **FRONT**
 
-`straight F presubscript 9 presuperscript 19``equation`
+`F _ 9 ^ 19``equation`
 
 **True or False?**
 
@@ -539,7 +539,7 @@ The relative atomic mass of fluorine is 9.
 
 **BACK**
 
-`straight F presubscript 9 presuperscript 19``equation`
+`F _ 9 ^ 19``equation`
 
 **False**.
 

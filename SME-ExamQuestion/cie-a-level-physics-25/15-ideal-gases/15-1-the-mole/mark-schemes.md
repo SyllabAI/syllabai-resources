@@ -29,7 +29,7 @@ In one mole of O<sub>2</sub>:
 - In each O<sub>2</sub> molecule there are 2 oxygen atoms, *N*
 - Therefore, in one mole of oxygen gas there are
 
-  - `N space equals space 2 space cross times space open parentheses 6.02 cross times 10 to the power of 23 close parentheses space`**[1 mark]**
+  - $N = 2 \times ( 6.02 \times 10^{23} )$**[1 mark]**
   - $N=12.04\times10^{23}$ **[1 mark]**
 
 **[Total: 2 marks]**
@@ -254,7 +254,7 @@ To determine the molar mass of glucose, C<sub>6</sub>H<sub>12</sub>O<sub>6</sub>
 - *M*<sub>*r*</sub> oxygen = 16 g mol<sup>−1</sup>
 
   - There are 6 atoms of oxygen in 1 molecule of glucose
-- Therefore, *M*<sub>*r*</sub> C<sub>6</sub>H<sub>12</sub>O<sub>6</sub> = `open parentheses 6 space cross times space 12 close parentheses space plus space open parentheses 12 space cross times space 1 close parentheses space plus space open parentheses 6 space cross times space 16 close parentheses space equals space 180` g mol<sup>−1</sup> **[1 mark]**
+- Therefore, *M*<sub>*r*</sub> C<sub>6</sub>H<sub>12</sub>O<sub>6</sub> = $( 6 \times 12 ) + ( 12 \times 1 ) + ( 6 \times 16 ) = 180$ g mol<sup>−1</sup> **[1 mark]**
 
 **[Total: 1 mark]**
 To calculate the number of moles in 600g C<sub>6</sub>H<sub>12</sub>O<sub>6</sub>:
@@ -278,7 +278,7 @@ To determine the number of molecules, *N*:
 - Recall the equation for Avogadro's constant and rearrange to make *N* the subject
 
   - $n=\frac{N}{N_{A}}\rightarrowN=nN_{A}$
-- `N space equals space 3.33 space cross times space open parentheses 6.02 cross times 10 to the power of 23 close parentheses` **[1 mark]**
+- $N = 3.33 \times ( 6.02 \times 10^{23} )$ **[1 mark]**
 - $N=2.01\times10^{24}=2\times10^{24}$** [1 mark]**
 
 **[Total: 2 marks]**
@@ -303,7 +303,7 @@ Determine the total mass of carbon atoms:
 - Mass of 1 carbon atom = 12 u = $12\times1.66\times10^{-27}=1.992\times10^{-26}\mathrm{kg}$ **[1 mark]**
 - Total mass of carbon atoms = mass of 1 carbon atom × number of carbon atoms
 
-  - Total mass of carbon atoms = `open parentheses 1.992 cross times 10 to the power of negative 26 end exponent close parentheses space cross times space open parentheses 1.206 cross times 10 to the power of 25 close parentheses` **[1 mark]**
+  - Total mass of carbon atoms = $( 1.992 \times 10^{- 26} ) \times ( 1.206 \times 10^{25} )$ **[1 mark]**
   - Total mass of carbon atoms = $0.240\mathrm{kg}$  **OR** 240 g** [1 mark]**
 
 **[Total: 5 marks]**

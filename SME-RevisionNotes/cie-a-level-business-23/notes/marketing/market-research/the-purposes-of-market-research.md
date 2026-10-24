@@ -43,7 +43,7 @@ guided_study: false
     - Businesses can plan for future expansion, build customer loyalty early and benefit from rising demand
 - Market growth is expressed as a percentage and calculated using the formula
 
-`fraction numerator Market space size space this space year minus Market space size space last space year over denominator Market space size space last space year space end fraction space ​ space space cross times 100`
+$\frac{Market \text{size} \text{this} \text{year} - \text{Market} \text{size} \text{last} year}{Market \text{size} \text{last} \text{year} } ​ \times 100$
 
 > **Worked Example**
 > Supermarket sales data shows shoppers are putting more plant-based milk in their baskets. In the year to February 2025, market sales were up 2.1%. Oat milk sales have grown particularly strongly. Annual sales reached £275m in 2024, up from £155m in 2020.
@@ -54,21 +54,21 @@ guided_study: false
 > 
 > **Step 1: Subtract 2020 sales from 2024 sales to determine the increase**
 > 
-> `equals space £ 275 straight m space minus space £ 155 straight m
+> $= \pounds 275 \mathrm{m} - \pounds 155 \mathrm{m} 
 > 
-> equals space £ 120 straight m`**   (1)**
+> = \pounds 120 \mathrm{m}$**   (1)**
 > 
 > **Step 2: Divide the difference by 2020 sales**
 > 
-> `equals space £ 120 straight m space divided by space £ 155 straight m
+> $= \pounds 120 \mathrm{m} \div \pounds 155 \mathrm{m} 
 > 
-> equals space 0.7742`
+> = 0.7742$
 > 
 > **Step 3: Multiply the outcome by 100 to determine market growth**
 > 
-> `equals space 0.7742 space cross times space 100
+> $= 0.7742 \times 100
 > 
-> equals space 77.42 percent sign`**   (1)**
+> = 77.42 \%$**   (1)**
 
 ### Competitors
 

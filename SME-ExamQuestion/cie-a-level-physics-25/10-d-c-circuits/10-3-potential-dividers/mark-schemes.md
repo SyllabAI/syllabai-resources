@@ -44,11 +44,11 @@
 **Final answer:** **The correct answer is ****D ****because:**
 
 - The potential divider equation is given by
-- `V subscript o u t end subscript equals V subscript i n end subscript cross times open parentheses fraction numerator R subscript 1 over denominator R subscript 1 plus R subscript 2 end fraction close parentheses`
+- $V_{o u t} = V_{i n} \times ( \frac{R_{1} }{R_{1} + R_{2} } )$
 
   - Where *R*<sub>*1*</sub> = 10 kΩ, *R*<sub>*2*</sub> = 15 kΩ and *V *<sub>*out *</sub>= 4.8 V
-- `V subscript i n end subscript equals V subscript o u t end subscript divided by open parentheses fraction numerator R subscript 1 over denominator R subscript 1 plus R subscript 2 end fraction close parentheses equals V subscript o u t end subscript cross times open parentheses fraction numerator R subscript 1 plus R subscript 2 over denominator R subscript 1 end fraction close parentheses`
-- `V subscript i n end subscript equals V subscript o u t end subscript open parentheses fraction numerator R subscript 1 plus R subscript 2 over denominator R subscript 1 end fraction close parentheses equals fraction numerator 4.8 open parentheses 10 plus 15 close parentheses over denominator 10 end fraction equals 12 space straight V`
+- $V_{i n} = V_{o u t} \div ( \frac{R_{1}{R_{1} + R_{2} } ) = V_{o} u t} \times ( \frac{R_{1} + R_{2} }{R_{1} } )$
+- $V_{i n} = V_{o u t} ( \frac{R_{1} + R_{2} }{R_{1} } ) = \frac{4.8 ( 10 + 15 )}{10} = 12 \mathrm{V}$
 - Therefore, the input voltage is 12 V
 
 ### Q5
@@ -71,7 +71,7 @@
 
 - The potential divider equation is given by
 
-  - `V subscript 2 equals V subscript e. m. f end subscript cross times open parentheses fraction numerator R subscript 1 over denominator R subscript 1 plus R subscript 2 end fraction close parentheses`
+  - $V_{2 = V_{e.} m. f} \times ( \frac{R_{1} }{R_{1} + R_{2} } )$
 - Let the resistance of the variable resistor be *R*<sub>*1*</sub> and let the resistance of the fixed resistor be *R*<sub>*2*</sub>
 
   - *R*<sub>*1*</sub> varies from  0- 4 kΩ, *R*<sub>*2*</sub> = 1 kΩ and the e. m .f is *V* = 25 V
@@ -81,10 +81,10 @@
   - So, the higher the resistance, the greater the p. d.
 - For *V*<sub>*2*</sub> to be maximum, the resistance of the variable resistor, *R*<sub>*1*</sub> should be 4 kΩ
 
-  - So the maximum p. d. is `V subscript 2 equals 25 cross times open parentheses fraction numerator 4 over denominator 4 plus 1 end fraction close parentheses equals 20 space V`
+  - So the maximum p. d. is $V_{2} = 25 \times ( \frac{4}{4 + 1} ) = 20 V$
 - For *V*<sub>*2*</sub> to be minimum, the smallest resistance is chosen, so, *R*<sub>*1*</sub> is zero
 
-  - So, the minimum p. d. is `V subscript 2 equals 25 cross times open parentheses fraction numerator 0 over denominator 0 plus 1 end fraction close parentheses equals 0 space V`
+  - So, the minimum p. d. is $V_{2} = 25 \times ( \frac{0}{0 + 1} ) = 0 V$
 
 ### Q7
 **Final answer:** **The correct answer is ****A ****because:**
@@ -105,9 +105,9 @@
 **Final answer:** **The correct answer is ****D ****because:**
 
 - Since the variable resistor and the fixed resistor are in series, the total e.m.f in the circuit is divided between them
-- The potential difference across each of the resistors may be obtained from the potential divider equation :`V subscript P equals V cross times open parentheses fraction numerator R subscript P over denominator R subscript P plus R subscript Q end fraction close parentheses`
+- The potential difference across each of the resistors may be obtained from the potential divider equation :$V_{P} = V \times ( \frac{R_{P} }{R_{P} + R_{Q} } )$
 - Let's say *R*<sub>*P*</sub> is the resistance of the variable resistor and *R*<sub>*Q*</sub> is the resistance of the fixed resistor
-- As *R*<sub>*P*</sub>* *is decreased, the p. d. across it decreases `open parentheses V equals I R close parentheses`
+- As *R*<sub>*P*</sub>* *is decreased, the p. d. across it decreases $( V = I R )$
 
   - When *R*<sub>*P*</sub> = 0, *V*<sub>*P*</sub> = 0, therefore, the voltmeter reading of P should give zero - option D shows this
   - Decreasing *R*<sub>*P*</sub> should also cause the p .d. across the fixed resistor to increase - this is also shown by option **D**
@@ -150,14 +150,14 @@
 - Since point X is connected to the negative terminal of the supply, it can be considered to be at a potential of 0, while point Y is at the maximum potential, equal to the e .m. f. of the supply
 - The wire XY, together with the sliding contact J, can be considered as a potential divider
 - Resistance *R* of the wire $=\frac{ρL}{A}$ and from Ohm's Law$V=IR$ , so, the p. d. across the wire is proportional to the length of wire $VαL$
-- A length of *L* corresponds to a p. d. equal to the e .m .f. *E* of the supply and a length of *x* corresponds to a p. d. equal of `open parentheses E over L close parentheses cross times x equals open parentheses x over L close parentheses cross times E`
+- A length of *L* corresponds to a p. d. equal to the e .m .f. *E* of the supply and a length of *x* corresponds to a p. d. equal of $( \frac{E}{L} ) \times x = ( \frac{x}{L} ) \times E$
 - Since X is at a potential of zero, point J would be at a potential of:
 
-  - `V subscript 1 equals open square brackets open parentheses x over L close parentheses cross times E close square brackets minus 0 equals open parentheses x over L close parentheses cross times E`
+  - $V_{1} = [ ( \frac{x}{L} ) \times E ] - 0 = ( \frac{x}{L} ) \times E$
 - Now, the part JY of the wire corresponds to a length (*L* – *x*) of the wire. A length of (*L* – *x*) corresponds to a p.d. equal to
 
-  - `V subscript 2 equals open parentheses E over L close parentheses cross times open parentheses L minus x close parentheses equals fraction numerator open parentheses L minus x close parentheses over denominator L end fraction cross times E`
-- Therefore, the ratio `equals V subscript 1 over V subscript 2 equals open parentheses x over L close parentheses E divided by fraction numerator open parentheses L minus x close parentheses over denominator L end fraction E equals fraction numerator x over denominator L minus x end fraction`
+  - $V_{2} = ( \frac{E}{L} ) \times ( L - x ) = \frac{( L - x )}{L} \times E$
+- Therefore, the ratio $= \frac{V_{1}}{V_{2}} = ( \frac{x}{L} ) E \div \frac{ ( L - x ) }{L} E = \frac{x}{L - x}$
 
 ### Q12
 **Final answer:** **The correct answer is ****D ****because: **
@@ -199,7 +199,7 @@
 
 - For the ammeter to read zero, the potential difference across it should be zero; hence, the terminals of the ammeter are at the same potential
 - The resistance of an LDR decreases when the light intensity on it increases, so, as the LDR is covered up, the light intensity decreases - this causes its resistance to increase
-- Considering the resistor and the LDR in the middle section, an increase in the resistance of the LDR causes the p. d. across it to increase `open parentheses V equals I R close parentheses`
+- Considering the resistor and the LDR in the middle section, an increase in the resistance of the LDR causes the p. d. across it to increase $( V = I R )$
 
   - So, the terminal connected between the LDR and the resistor is now at a higher potential than before
 - To return the ammeter reading to zero, the sliding contact should be moved in such a way that it is at a higher potential (and equal to the new potential of the other terminal of the ammeter)
@@ -230,7 +230,7 @@
 - Let's say the resistance of the variable resistor = *R*
 
   - e. m .f of driver cell = p .d. across variable resistor + p .d. across wire XY
-- As the resistance *R* of the variable resistor is increased, the p. d. across it also increases `open parentheses V equals I R close parentheses`  and hence, the p. d. across the wire XY decreases
+- As the resistance *R* of the variable resistor is increased, the p. d. across it also increases $( V = I R )$  and hence, the p. d. across the wire XY decreases
 - For the galvanometer to show zero deflection, the potential difference across it should be zero, i.e. no current flowing through it
 
   - This means the potential at one side of the galvanometer should be equal to the potential on the other side, making the potential difference zero
@@ -256,7 +256,7 @@
 - For this reason, the *R*<sub>*1*</sub> is on the top of the fraction in the potential divider equation
 - The potential divider equation is given by
 
-  - `V equals V subscript 0 cross times open parentheses fraction numerator R subscript 1 over denominator R subscript 1 plus R subscript 2 end fraction close parentheses`
+  - $V = V_{0} \times ( \frac{R_{1} }{R_{1} + R_{2} } )$
 - Therefore, V is equal to
 
   - $V=\frac{V_{0}R_{1}}{R_{1}+R_{2}}$
@@ -266,19 +266,19 @@
 
 - The potential divider equation is given by
 
-  - `V subscript o u t end subscript equals V subscript 0 cross times open parentheses fraction numerator R subscript 1 over denominator R subscript 1 space plus R subscript 2 end fraction close parentheses`
+  - $V_{o u t} = V_{0} \times ( \frac{R_{1} }{R_{1} + R_{2} } )$
 - In order to increase the value of *V *<sub>*out*</sub>, the value of *R*<sub>*1*</sub> should be maximized, while the value of *R*<sub>*2*</sub> should be minimized as:
 
-  - $V_{out}αR_{1}$ and `V subscript o u t end subscript space alpha space fraction numerator 1 over denominator open parentheses R subscript 1 plus R subscript 2 close parentheses end fraction`
+  - $V_{out}αR_{1}$ and $V_{o u t} \\alpha \frac{1}{( R_{1} + R_{2} )}$
 - Consider option **B**
 
-  - `V subscript o u t end subscript space alpha space fraction numerator 2 R subscript 1 over denominator open parentheses 2 R subscript 1 plus 1 half R subscript 2 close parentheses end fraction`
+  - $V_{o u t} \\alpha \frac{2 R_{1} }{( 2 R_{1} + 1 \frac{1}{2} R_{2} )}$
 - Let’s use some test values. If *R*<sub>*1*</sub> = 10 kΩ and *R*<sub>*2*</sub> = 10 kΩ
 
-  - `V subscript o u t end subscript space alpha space open parentheses fraction numerator R subscript 1 over denominator R subscript 1 plus R subscript 2 end fraction close parentheses equals open parentheses fraction numerator 10 over denominator 10 plus 10 end fraction close parentheses equals 0.5 space`
+  - $V_{o u t} \\alpha ( \frac{R_{1} }{R_{1} + R_{2} } ) = ( \frac{10}{10 + 10} ) = 0.5$
 - So, 2*R*<sub>*1*</sub> = 20 kΩ and $\frac{1}{2}$ *R*<sub>*2*</sub> = 5 kΩ
 
-  - `V subscript o u t end subscript space alpha space fraction numerator 2 R subscript 1 over denominator open parentheses 2 R subscript 1 plus 1 half R subscript 2 close parentheses end fraction equals open parentheses fraction numerator 20 over denominator 20 plus 5 end fraction close parentheses equals 0.8`
+  - $V_{o u t} \\alpha \frac{2 R_{1} }{( 2 R_{1} + 1 \frac{1}{2} R_{2} )} = ( \frac{20}{20 + 5} ) = 0.8$
 - Therefore, doubling *R*<sub>*1*</sub> and halving *R*<sub>*2*</sub> leads to an increase in *V *<sub>*out*</sub>
 
 ### Q19
@@ -286,7 +286,7 @@
 
 - The potential divider equation is given by
 
-  - `V subscript 2 equals V subscript e. m. f end subscript cross times open parentheses fraction numerator R subscript 1 over denominator R subscript 1 plus R subscript 2 end fraction close parentheses`
+  - $V_{2 = V_{e.} m. f} \times ( \frac{R_{1} }{R_{1} + R_{2} } )$
 - Let the resistance of the variable resistor be *R*<sub>*1*</sub> and let the resistance of the fixed resistor be *R*<sub>*2*</sub>
 
   - *R*<sub>*1*</sub> varies from 0 - 50 kΩ, *R*<sub>*2*</sub> = 10 kΩ and the e. m. f is *V* = 9.0 V
@@ -296,10 +296,10 @@
   - So, the higher the resistance, the greater the p. d.
 - For *V*<sub>*2*</sub> to be maximum, the resistance of *R*<sub>*1*</sub> should be 50 kΩ
 
-  - So the maximum p .d. is `V subscript 2 equals 9 cross times open parentheses fraction numerator 50 over denominator 50 plus 10 end fraction close parentheses equals 7.5 space straight V`
+  - So the maximum p .d. is $V_{2} = 9 \times ( \frac{50}{50 + 10} ) = 7.5 \mathrm{V}$
 - For *V*<sub>*2*</sub> to be minimum, the smallest resistance is chosen, so, *R*<sub>*1*</sub> is zero
 
-  - So, the minimum p. d. is  `V subscript 2 equals 9 cross times open parentheses fraction numerator 0 over denominator 10 plus 0 end fraction close parentheses equals 0 space straight V`
+  - So, the minimum p. d. is  $V_{2} = 9 \times ( \frac{0}{10 + 0} ) = 0 \mathrm{V}$
 - Therefore, the minimum output of the variable resistor is 0 V, and the maximum output is 7.5 V
 
 ### Q20
@@ -322,9 +322,9 @@
 - The power supplied to the heater is $P=VI=\frac{V^{2}}{R}$
 - From the potential divider equation:
 
-  - `V subscript h e a t e r end subscript equals V subscript e. m. f end subscript cross times open parentheses fraction numerator R subscript 1 over denominator R subscript 1 plus R subscript 2 end fraction close parentheses`
-  - `V subscript h e a t e r end subscript equals 20 cross times open parentheses fraction numerator 6.5 over denominator 6.5 plus 1.5 end fraction close parentheses equals 16.25 space straight V`
-- So, `P equals fraction numerator V space squared over denominator R end fraction equals fraction numerator open parentheses 16.25 close parentheses squared over denominator 6.5 end fraction equals 40.625 space straight W`
+  - $V_{h e a t e r} = V_{e. m. f} \times ( \frac{R_{1} }{R_{1} + R_{2} } )$
+  - $V_{h e a t e r} = 20 \times ( \frac{6.5}{6.5 + 1.5} ) = 16.25 \mathrm{V}$
+- So, $P = \frac{V^{2}}{R} = \frac{( 16.25 )^{2}}{6.5} = 40.625 \mathrm{W}$
 - Therefore, the power supplied to the heater is 41 W
 
 ### Q22
@@ -377,7 +377,7 @@ $V_{wire}=I\times5.0=\frac{2.0\times5.0}{R+5.0}$
 
 - Potential gradient
 
-`k space equals fraction numerator space V subscript w i r e end subscript over denominator 100.0 end fraction space equals fraction numerator space 10 over denominator 100 open parentheses R space plus space 5 close parentheses end fraction space equals fraction numerator space 0.1 over denominator R space plus space 5 end fraction`
+$k = \frac{ V_{w i r e} }{100.0} = \frac{ 10}{100 ( R + 5 )} = \frac{ 0.1}{R + 5}$
 
 - Substitute 5.0 mV = 5.0 × 10<sup>-</sup>³ V
 
@@ -445,7 +445,7 @@ $R=795Ω$
 **Final answer:** **The correct answer is ****A ****because:**
 
 - We can treat the three components as two sets of components in series (*R*<sub>*1*</sub> and the parallel combination of *R*<sub>*2*</sub> and the voltmeter)
-- So, the total resistance in the circuit`equals 100 plus open square brackets 1 over 100 plus 1 over 100 close square brackets to the power of negative 1 end exponent equals 100 plus 50 equals 150 space straight k straight capital omega`
+- So, the total resistance in the circuit`= 100 + [ 1 / 100 + 1 / 100 ] ^ - 1 = 100 + 50 = 150 k capital omega`
 - Ohm's law states $V=IR$
 
   - Therefore, the total current in circuit *I = *$\frac{6.0}{150}=40\mathrm{μA}$
@@ -459,22 +459,22 @@ $R=795Ω$
 
 - The potential at the top of the circuit (+ terminal) is 9 V, and the potential at the bottom of the circuit (- terminal) is 0 V
 - There will be a p. d. across each of the fixed resistors
-- Potential divider equation for three resistors: `V subscript o u t end subscript equals V cross times open parentheses fraction numerator R subscript 1 plus R subscript 2 over denominator R subscript 1 plus R subscript 2 plus R subscript 3 end fraction close parentheses`
+- Potential divider equation for three resistors: $V_{o u t} = V \times ( \frac{R_{1} + R_{2} }{R_{1} + R_{2} + R_{3} } )$
 - The output voltage is maximum at the maximum value of the variable resistor = 3.0 Ω
 
-  - Maximum output voltage `equals 9.0 space cross times open parentheses fraction numerator 2 plus 3 over denominator 2 plus 3 plus 4 end fraction close parentheses equals 5.0 space straight V`
+  - Maximum output voltage $= 9.0 \times ( \frac{2 + 3}{2 + 3 + 4} ) = 5.0 \mathrm{V}$
 - The output voltage is minimum when the minimum value of the variable resistor is taken = 0 Ω
 
-  - Minimum output voltage `equals 9.0 cross times open parentheses fraction numerator 2 plus 0 over denominator 2 plus 3 plus 4 end fraction close parentheses equals 2.0 space straight V`
+  - Minimum output voltage $= 9.0 \times ( \frac{2 + 0}{2 + 3 + 4} ) = 2.0 \mathrm{V}$
 
 ### Q28
 **Final answer:** **The correct answer is ****B ****because:**
 
 - The potential divider equation is given by
 
-  - `V subscript o u t end subscript equals V subscript i n end subscript cross times open parentheses fraction numerator R subscript 1 over denominator R subscript 1 plus R subscript 2 end fraction close parentheses`
+  - $V_{o u t} = V_{i n} \times ( \frac{R_{1} }{R_{1} + R_{2} } )$
   - Where *R*<sub>*1*</sub> = 5 kΩ, *R*<sub>*2*</sub> = 5 kΩ and *V*<sub>*in *</sub>= 9.0 V
-  - `V subscript o u t end subscript equals 9 cross times open parentheses fraction numerator 5 over denominator 5 plus 5 end fraction close parentheses equals 4.5 space straight V`
+  - $V_{o u t} = 9 \times ( \frac{5}{5 + 5} ) = 4.5 \mathrm{V}$
 - Therefore, the minimum output of the variable resistor is 0 V, and the maximum output is 4.5 V
 
 ### Q29
@@ -488,10 +488,10 @@ $R=795Ω$
 - From Ohm's Law: $V=IR$
 - The current flowing through section A:
 
-  - `I equals V over R equals fraction numerator 3.0 space V over denominator open parentheses 1500 plus 1500 close parentheses end fraction equals 0.001 space A`
+  - $I = \frac{V}{R} = \frac{3.0 V}{( 1500 + 1500 )} = 0.001 A$
 - Similarly, the same current flows through section B:
 
-  - `6.0 space V equals I R equals open parentheses 0.001 close parentheses open parentheses R subscript v plus 1500 close parentheses`
-  - `0.001 space R subscript V equals 6.0 minus open parentheses 1500 cross times 0.001 close parentheses equals 4.5`
+  - $6.0 V = I R = ( 0.001 ) ( R_{v} + 1500 )$
+  - $0.001 R_{V} = 6.0 - ( 1500 \times 0.001 ) = 4.5$
   - $R_{V}=\frac{4.5}{0.001}=4500Ω=4.5kΩ$
 - Therefore, at 0730 the variable resistor should be set to 4.5 kΩ

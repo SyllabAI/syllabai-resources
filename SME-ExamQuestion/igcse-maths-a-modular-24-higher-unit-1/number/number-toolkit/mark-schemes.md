@@ -222,8 +222,7 @@ $3,4,6,9,12,18$  **[2]**
 
 > *Ignore the decimal and choose a method to multiply the numbers 32 and 863 together. *
 
-`bottom enclose stack attributes charalign center stackalign right end attributes 863 row cross times none 32 end row horizontal line 1726 25890 end stack end enclose
-2 space 7 space 6 space 1 space 6`
+`bottom charalign center stackalign right end 863 | x none 32 end | horizontal line 1726 25890 end 2 7 6 1 6`
 
 ** ****Correct method ****[1] **
 **Correct answer ****[1]**
@@ -263,8 +262,7 @@ $3,4,6,9,12,18$  **[2]**
 > *Ignore the decimal and choose a method to multiply the numbers 18 and 645 together.  *
 *Column method is shown here.*
 
-`bottom enclose stack attributes charalign center stackalign right end attributes 645 row cross times none 18 end row horizontal line 5160 row none 6450 end row end stack end enclose
-11 space 6 space 1 space 0`
+`bottom charalign center stackalign right end 645 | x none 18 end | horizontal line 5160 | none 6450 end | end 11 6 1 0`
 
 **[1]**
 
@@ -278,7 +276,7 @@ $3,4,6,9,12,18$  **[2]**
 
 > *Write as a column and subtract the numbers in each column, borrowing if needed.*
 
-`stack attributes charalign center stackalign right end attributes row 0 space scriptbase 5 presuperscript 1 end scriptbase presuperscript blank none none end row row 1 up diagonal strike 1 up diagonal strike 6. blank presuperscript 1 1 end row row minus none 098.5 end row horizontal line row 17.6 end row end stack`
+`charalign center stackalign right end | 0 5 ^ 1 ^ _ none none end | | 1 / 1 / 6. _ ^ 1 1 end | | - none 098.5 end | horizontal line | 17.6 end | end`
 
 ** ****Correct method ****[1] **
 **Correct answer ****[1]**
@@ -306,13 +304,11 @@ $\mathrm{Kirsty}'s\mathrm{Plants}:2.39\times100\div4=239\div4$
 
 > *Find 20% of 52.5. It is easiest to find 10% first and then multiply it by 2.*
 
-`10 percent sign space of space 52.50 space equals space 52.5 space divided by space 10 space equals space 5.25
-20 percent sign space of space 52.50 space equals space 5.25 space cross times space 2 space equals space 10.50 space`
+$10 \% of 52.50 = 52.5 \div 10 = 5.25 20 \% of 52.50 = 5.25 \times 2 = 10.50$
 
 > *Now we need to add the 20% to the total.*
 
-`52.50 space plus space 10.50 space equals space 63.00
-Hedge space World colon space £ 63`
+$52.50 + 10.50 = 63.00 Hedge World : \pounds 63$
 
 **[1]**
 
@@ -385,7 +381,7 @@ $6$** ****[1]**
 
 > *Subtract 17 from 41 to find the difference.*
 
-`table row cell 41 minus 17 end cell equals cell space 24 end cell row blank blank blank end table`
+$\begin{gathered} 41 - 17 & = 24 \\ \end{gathered}$
 
 $24$** [1****]**
 
@@ -441,8 +437,8 @@ $\frac{3+4}{16}=\frac{7}{16}$
 
 > *Convert the fraction into a decimal by completing the division and multiplying by 100%.*
 
-`7 divided by 16 equals 0.4375
-0.4375 cross times 100 percent sign`
+$7 \div 16 = 0.4375
+0.4375 \times 100 \%$
 
 **[1]**
 

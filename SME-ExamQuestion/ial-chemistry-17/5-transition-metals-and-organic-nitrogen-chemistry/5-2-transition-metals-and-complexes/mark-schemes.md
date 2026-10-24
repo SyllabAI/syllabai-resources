@@ -27,7 +27,7 @@ Moles of water = 4 moles
     - *FeCl*<sub>*4*</sub><sup>*2–*</sup>* cannot be the correct answer as there is no water and the question states that **A** is a hydrated salt*
 - *It is likely that iron(II) will have two chlorides attached and be FeCl*<sub>*2*</sub>* / iron(II) chloride*
 - *The mass of water in compound **A** is the molar mass – the mass of FeCl*<sub>*2*</sub>*, i.e. 198.8 - 55.8 - (2 x 35.5) = 72.0*
-- *The moles of water in compound **A** is *`fraction numerator mass space open parentheses 72.0 space straight g close parentheses over denominator molar space mass space of space water space open parentheses 18.0 space straight g space mol to the power of negative 1 end exponent close parentheses end fraction`* = 4 moles*
+- *The moles of water in compound **A** is *$\frac{ \text{mass} ( 72.0 \mathrm{g} ) }{ \text{molar} \text{mass} of \text{water} ( 18.0 \mathrm{g} \text{mol} ^{ - } 1 ) }$* = 4 moles*
 - *Therefore, compound **A** is FeCl*<sub>*2*</sub>*•4H*<sub>*2*</sub>*O / iron(II) chloride tetrahydrate*
 
   - *FeCl*<sub>*2*</sub>*(H*<sub>*2*</sub>*O)*<sub>*4*</sub>* is an accepted answer although this is not the correct way to write the formula of a hydrated salt*

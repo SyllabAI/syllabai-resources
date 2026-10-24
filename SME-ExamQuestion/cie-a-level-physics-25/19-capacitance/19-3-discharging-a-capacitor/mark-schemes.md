@@ -133,7 +133,7 @@ Obtain values from the graph to calculate the area under the line:
 - The electric potential energy stored in the capacitor is equal to the **area under** the potential-charge graph
 - From Fig 1.1, when p.d.$V=6V$, charge $Q=0.9\times10^{-4}C$
 - Energy stored = $\frac{1}{2}\times\mathrm{base}\times\mathrm{height}=\frac{1}{2}VQ$
-- Energy stored = `1 half cross times 6 cross times open parentheses 0.9 cross times 10 to the power of negative 4 end exponent close parentheses space equals space 2.7 cross times 10 to the power of negative 4 end exponent space straight J` **[1 mark]**
+- Energy stored = $1 \frac{1}{2} \times 6 \times ( 0.9 \times 10^{- 4} ) = 2.7 \times 10^{- 4} \mathrm{J}$ **[1 mark]**
 
 Estimate the energy* *stored in the capacitor:
 
@@ -141,7 +141,7 @@ Estimate the energy* *stored in the capacitor:
 
   - Therefore, assuming $V\proptoQ$ remains true, if the p.d. is doubled, the charge will also double
   - So, the energy stored will be quadrupled (×4)
-- Energy stored: `E space equals space 4 cross times open parentheses 2.7 cross times 10 to the power of negative 4 end exponent close parentheses space equals space 1.08 cross times 10 to the power of negative 3 end exponent space straight J` **[1 mark]**
+- Energy stored: $E = 4 \times ( 2.7 \times 10^{- 4} ) = 1.08 \times 10^{- 3} \mathrm{J}$ **[1 mark]**
 
 **[Total: 2 marks]**
 Show that the time constant of the discharge circuit is 4.2 s:
@@ -160,7 +160,7 @@ Use the time constant equation:
 
 - The capacitor discharges through resistor Q
 - $τ=RC$ **[1 mark]**
-- `tau space equals space open parentheses 280 cross times 10 cubed close parentheses cross times open parentheses 1.5 cross times 10 to the power of negative 5 end exponent close parentheses space equals space 4.2 space straight s` **[1 mark]**
+- $\\tau = ( 280 \times 10^{3} ) \times ( 1.5 \times 10^{- 5} ) = 4.2 \mathrm{s}$ **[1 mark]**
 
 **[Total: 2 marks]**
 Determine the time *t*aken for the stored energy to decrease from $E$* *to $\frac{E}{4}$:
@@ -183,7 +183,7 @@ Use the capacitor discharge equation for *V*:
 
 - $V=V_{0}e^{-\frac{t}{RC}}$** [1 mark]**
 - $\frac{V_{0}}{2}=V_{0}e^{-\frac{t}{4.2}}$
-- `ln space open parentheses 1 half close parentheses space equals space minus fraction numerator t over denominator 4.2 end fraction` **[1 mark]**
+- $\ln ( 1 \frac{1}{2} ) = - \frac{t}{4.2}$ **[1 mark]**
 - $t=4.2\times\mathrm{ln}2$
 - $t=2.9s$ **[1 mark]**
 
@@ -217,7 +217,7 @@ List the known quantities:
 (i) Calculate the charge *Q*<sub>*0*</sub> on the capacitor at time *t *= 0:
 
 - $Q_{0}=CV_{0}$ **[1 mark]**
-- `Q subscript 0 space equals space open parentheses 520 space cross times space 10 to the power of negative 6 end exponent close parentheses space cross times space 36`
+- $Q_{0} = ( 520 \times 10^{- 6} ) \times 36$
 - $Q_{0}=0.019C$ **[1 mark]**
 
 (ii) Calculate the current *I*<sub>*0*</sub> in wire X at time *t *= 0:
@@ -238,7 +238,7 @@ List the known quantities:
 Use the time constant equation:
 
 - $τ=RC$ ** [1 mark]**
-- `tau space equals space 2400 space cross times space open parentheses 520 space cross times space 10 to the power of negative 6 end exponent close parentheses`
+- $\\tau = 2400 \times ( 520 \times 10^{- 6} )$
 - $τ=1.25s$** [1 mark]**
 
 **[Total: 2 marks]**
@@ -304,8 +304,8 @@ Calculate the time constant, $τ$:
 - Time constant, $τ$ *= RC*
 - Adapt decay of charge equation for voltage: $V=V_{0}e^{-\frac{t}{RC}}$
 
-- Rearranging for `R C space equals space fraction numerator negative t over denominator ln open parentheses V over V subscript 0 close parentheses end fraction` **[1 mark]**
-- `tau space equals space R C space equals space fraction numerator negative 15 over denominator ln open parentheses fraction numerator 5 square root of 2 over denominator 20 end fraction close parentheses end fraction` **[1 mark]**
+- Rearranging for `R C = (- t)/(ln ( V / V _ 0 ))` **[1 mark]**
+- $\\tau = R C = \frac{- 15}{\ln ( \frac{5 \sqrt{2} }{20} )}$ **[1 mark]**
 - $τ$* *= 14.43 = 14 s (2 s.f.) **[1 mark]**** **
 
 **[Total: 3 marks]**
@@ -371,7 +371,7 @@ List  the known quantities:
 Calculate the time constant of the charging circuit:
 
 - $τ = R C$
-- `tau equals open parentheses 220 cross times 10 cubed close parentheses cross times open parentheses 20 cross times 10 to the power of negative 6 end exponent close parentheses equals 4.4 space straight s` **[1 mark]**
+- $\\tau = ( 220 \times 10^{3} ) \times ( 20 \times 10^{- 6} ) = 4.4 \mathrm{s}$ **[1 mark]**
 
 Calculate the maximum charge:
 
@@ -383,13 +383,13 @@ Rearrange charge equation for time, *t*:
 - The charge stored on a charging capacitor, *Q*, is given by `Q = Q_{0} \left(1 - e^{- \frac{t}{R C}}\right)`
 - $\frac{Q}{Q_{0}} = 1 - e^{-\frac{t}{RC}}$
 - $e^{-\frac{t}{RC}} = 1 - \frac{Q}{Q_{0}}$
-- `ln open parentheses e to the power of negative fraction numerator t over denominator R C end fraction end exponent close parentheses equals ln open parentheses 1 minus Q over Q subscript 0 close parentheses`
-- `negative fraction numerator t over denominator R C end fraction equals ln open parentheses 1 minus Q over Q subscript 0 close parentheses`
-- `t equals negative R C ln open parentheses 1 minus Q over Q subscript 0 close parentheses` **[1 mark]**
+- $\ln ( e^{- \frac{t}{R C}} ) = \ln ( 1 - \frac{Q}{Q} _{0} )$
+- $- \frac{t}{R C} = \ln ( 1 - \frac{Q}{Q} _{0} )$
+- $t = - R C \ln ( 1 - \frac{Q}{Q} _{0} )$ **[1 mark]**
 
 Substitute values into equation time *t* equation:
 
-- `t equals negative 4.4 cross times ln open parentheses 1 minus fraction numerator 5.0 cross times 10 to the power of negative 3 end exponent over denominator 0.08 end fraction close parentheses` = 0.28 s **[1 mark]**
+- $t = - 4.4 \times \ln ( 1 - \frac{5.0 \times 10^{- 3} }{0.08} )$ = 0.28 s **[1 mark]**
 
 **[Total: 4 marks]**
 State equation for the voltage *V* of a discharging capacitor:
@@ -398,16 +398,16 @@ State equation for the voltage *V* of a discharging capacitor:
 
 Write equations for the initial energy $E_{0}$ and final energy *E *stored in a discharging capacitor:
 
-- Initial energy stored $E_{0}$*=*$\frac{1}{2}$* C*`open parentheses V subscript 0 close parentheses squared` **AND**
+- Initial energy stored $E_{0}$*=*$\frac{1}{2}$* C*$( V_{0} )^{2}$ **AND**
 - Final energy stored *E = *$\frac{1}{2}$*C*(*V*)<sup>2</sup> =$\frac{1}{2}$*C*($V_{0}e^{-\frac{t}{RC}}$)<sup>2 </sup>**[1 mark]**
 
 Take the ratio of the two equations and simplify fully:
 
-- $\frac{E}{E_{0}}$= `begin mathsize 16px style fraction numerator begin display style 1 half end style C open parentheses V subscript 0 e to the power of negative begin display style fraction numerator t over denominator R C end fraction end style end exponent close parentheses squared over denominator begin display style 1 half end style C open parentheses V subscript 0 close parentheses squared end fraction end style`
+- $\frac{E}{E_{0}}$= $\frac{1 \frac{1}{2} C ( V_{0} e^{- \frac{t}{R C}} )^{2}}{1 \frac{1}{2} C ( V_{0} )^{2}}$
 
 Simplify equations fully:
 
-- $\frac{E}{E_{0}}$= `fraction numerator 1 half C open parentheses V subscript 0 close parentheses squared e to the power of negative fraction numerator 2 t over denominator R C end fraction end exponent over denominator 1 half C open parentheses V subscript 0 close parentheses squared end fraction`  = $e^{-\frac{2t}{RC}}$ **[1 mark]**** **
+- $\frac{E}{E_{0}}$= $\frac{1 \frac{1}{2} C ( V_{0} )^{2} e^{- \frac{2 t}{R C}}}{1 \frac{1}{2} C ( V_{0} )^{2}}$  = $e^{-\frac{2t}{RC}}$ **[1 mark]**** **
 
 **[Total: 2 marks]**
 
@@ -453,8 +453,8 @@ List the known quantities:
 
 Substitute the known quantities into the equation:
 
-- `X space equals space X subscript 0 e to the power of negative open parentheses fraction numerator t over denominator R C end fraction close parentheses end exponent` $\rightarrow$ `I space equals space I subscript 0 e to the power of negative open parentheses t over tau close parentheses end exponent`
-- `I space equals space 0.4 space cross times space e to the power of negative open parentheses 3 over 2 close parentheses end exponent` **[1 mark]**
+- $X = X_{0} e^{- ( \frac{t}{R C} )}$ $\rightarrow$ $I = I_{0} e^{ - } ( \frac{t}{tau} )$
+- $I = 0.4 \times e^{- ( \frac{3}{2} )}$ **[1 mark]**
 
 Calculate the current *I*:
 

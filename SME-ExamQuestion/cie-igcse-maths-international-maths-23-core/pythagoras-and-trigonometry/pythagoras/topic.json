@@ -104,7 +104,7 @@
      ],
      "part_tier": null,
      "problem_md": "![Rectangle with a dotted diagonal line marked as 10 cm, a vertical side marked as 6 cm, representing a right triangle within the rectangle.](assets/001-rectangle-with-a-dotted-diagonal-line-marked-as-.png)\n\nThe length of the diagonal of the rectangle is 10 cm.\n\nThe width of the rectangle is 6 cm.\n\nWork out the area of the rectangle.",
-     "solution_md": "> *Find the missing length of the rectangle using Pythagoras in reverse*\n\n$\\sqrt{10^{2}-6^{2}}$\n\n**[M1]**\n\n> *Simplify*\n\n`table row blank equals cell square root of 100 minus 36 end root end cell row blank equals cell square root of 64 end cell row blank equals cell 8 space cm end cell end table`\n\n**[M1]**\n\n> *Find the area of the rectangle by multiplying the length by the width*\n\n$8\\times6$\n\n**Final answer:** **48 cm**<sup>**2**</sup>\n\n**[A1]**",
+     "solution_md": "> *Find the missing length of the rectangle using Pythagoras in reverse*\n\n$\\sqrt{10^{2}-6^{2}}$\n\n**[M1]**\n\n> *Simplify*\n\n$\\begin{gathered} = \\sqrt{100 - 36} \\\\ = \\sqrt{64} \\\\ = 8 \\text{cm} \\end{gathered}$\n\n**[M1]**\n\n> *Find the area of the rectangle by multiplying the length by the width*\n\n$8\\times6$\n\n**Final answer:** **48 cm**<sup>**2**</sup>\n\n**[A1]**",
      "equations": [
       {
        "latex": "\\sqrt{10^{2}-6^{2}}",
@@ -344,7 +344,7 @@
      ],
      "part_tier": null,
      "problem_md": "![cie-igcse-2020-march-p2-tz2-q7a](assets/004-cie-igcse-2020-march-p2-tz2-q7a.png)\n\nThe diagram shows a right-angled triangle.\n\nCalculate the perimeter.\n\n............................................ cm [3]",
-     "solution_md": "*First find the length of the diagonal side using Pythagoras' theorem *`open parentheses a squared plus b squared equals c squared close parentheses` *It may help to label the diagram first*\n\n![Labelled triangle](assets/005-labelled-triangle.png)\n\n$8.5^{2}+10.8^{2}=c^{2}$\n\n**[1]**\n\n`table row cell c squared end cell equals cell 188.89 end cell row c equals cell 13.743 space 725 space... end cell end table`\n\n> *Do not round but store the number using your calculator's memory to keep accuracy Add up the three sides to find the perimeter*\n\n$P=8.5+10.8+13.743725...$\n\n**[1]**\n\n$P=33.043725...$\n\n**33.0 cm**** [1]**",
+     "solution_md": "*First find the length of the diagonal side using Pythagoras' theorem *$( a^{2} + b^{2} = c^{2} )$ *It may help to label the diagram first*\n\n![Labelled triangle](assets/005-labelled-triangle.png)\n\n$8.5^{2}+10.8^{2}=c^{2}$\n\n**[1]**\n\n$\\begin{gathered} c^{2} & = 188.89 \\\\ c = 13.743 725 ... \\end{gathered}$\n\n> *Do not round but store the number using your calculator's memory to keep accuracy Add up the three sides to find the perimeter*\n\n$P=8.5+10.8+13.743725...$\n\n**[1]**\n\n$P=33.043725...$\n\n**33.0 cm**** [1]**",
      "equations": [
       {
        "latex": "8.5^{2}+10.8^{2}=c^{2}",
@@ -458,7 +458,7 @@
      ],
      "part_tier": null,
      "problem_md": "The length of one side of a rectangle is 12cm.\n\nThe length of the diagonal of the rectangle is 13cm.\n\nCalculate the area of the rectangle.\n\n.......................................... cm<sup>2</sup>",
-     "solution_md": "> *Use Pythagoras' Theorem to find the width of the rectangle.*\n\n![uqhxR9U~_oct-nov-2020-0580-12-q19](assets/008-uqhxr9u-oct-nov-2020-0580-12-q19.gif)\n\n> *We need to find one of the shorter sides of the triangle, so substitute into *$a=\\sqrt{c^{2}-b^{2}}$* *\n\n`a equals square root of open parentheses 13 close parentheses squared minus open parentheses 12 close parentheses squared end root equals 5`\n\n* ***[1]**\n\n> *Area of a rectangle = length x width*\n\n> *Multiply the length of the rectangle by the width to find the area of the rectangle. *\n\n$12\\times5=60\\mathrm{cm}^{2}$\n\n* ***[1]**\n\n$60\\mathrm{cm}^{2}$* ***[1]**",
+     "solution_md": "> *Use Pythagoras' Theorem to find the width of the rectangle.*\n\n![uqhxR9U~_oct-nov-2020-0580-12-q19](assets/008-uqhxr9u-oct-nov-2020-0580-12-q19.gif)\n\n> *We need to find one of the shorter sides of the triangle, so substitute into *$a=\\sqrt{c^{2}-b^{2}}$* *\n\n$a = \\sqrt{( 13 )^{2} - ( 12 )^{2}} = 5$\n\n* ***[1]**\n\n> *Area of a rectangle = length x width*\n\n> *Multiply the length of the rectangle by the width to find the area of the rectangle. *\n\n$12\\times5=60\\mathrm{cm}^{2}$\n\n* ***[1]**\n\n$60\\mathrm{cm}^{2}$* ***[1]**",
      "equations": [
       {
        "latex": "a=\\sqrt{c^{2}-b^{2}}",
@@ -585,7 +585,7 @@
      ],
      "part_tier": null,
      "problem_md": "![q18-058012-mayjune2018-cie-igcse-maths-core](assets/010-q18-058012-mayjune2018-cie-igcse-maths-core.png)\n\nThe diagram shows a rectangular playground $ABCD$. $AB=23.4$m and $AC=35.1$m.\n\nCalculate $BC$.\n\n$BC=$ ............................ m [3]",
-     "solution_md": "> *Use Pythagoras' Theorem, which states that *$a^{2}+b^{2}=c^{2}$*, where **c** is the hypotenuse of a right-angled triangle.*\n\n`23.4 squared space plus thin space open parentheses B C close parentheses to the power of 2 space end exponent equals space 35.1 squared`\n\n**[1]**\n\n> *Subtract 23.4*<sup>*2 *</sup>*from both sides*\n\n`open parentheses B C close parentheses squared space equals space 35.1 squared space minus space 23.4 squared`\n\n**[1]**\n\n> *Type this into your calculator*\n\n`open parentheses B C close parentheses squared equals 684.45`\n\n> *Square root both sides*\n\n$BC=\\sqrt{684.45}=26.16199534...$\n\n> *Round to three significant figures*\n\n**26.2** **[1]**",
+     "solution_md": "> *Use Pythagoras' Theorem, which states that *$a^{2}+b^{2}=c^{2}$*, where **c** is the hypotenuse of a right-angled triangle.*\n\n$23.4^{2} + ( B C )^{2 } = 35.1^{2}$\n\n**[1]**\n\n> *Subtract 23.4*<sup>*2 *</sup>*from both sides*\n\n$( B C )^{2} = 35.1^{2} - 23.4^{2}$\n\n**[1]**\n\n> *Type this into your calculator*\n\n$( B C )^{2} = 684.45$\n\n> *Square root both sides*\n\n$BC=\\sqrt{684.45}=26.16199534...$\n\n> *Round to three significant figures*\n\n**26.2** **[1]**",
      "equations": [
       {
        "latex": "ABCD",
@@ -732,7 +732,7 @@
      ],
      "part_tier": null,
      "problem_md": "![qp22-0580-13-paper-1-nov-2020-cie-igcse-maths](assets/012-qp22-0580-13-paper-1-nov-2020-cie-igcse-maths.png)\n\nCalculate $PQ$.\n\n$PQ$ = ........................................... cm",
-     "solution_md": "> *Use Pythagoras' Theorem.*\n\n*PQ** is one of the short sides, so use *$a=\\sqrt{c^{2}-b^{2}}$* *\n\n`table row cell P Q end cell equals cell square root of 11.5 squared minus 7.2 squared end root end cell end table`\n\n**[2]**\n\n> *Enter into a calculator.*\n\n$PQ=8.967...$\n\n> * *\n\n> *Round to 3 significant figures.*\n\n$PQ=8.97\\mathrm{cm}$* ***[1]**",
+     "solution_md": "> *Use Pythagoras' Theorem.*\n\n*PQ** is one of the short sides, so use *$a=\\sqrt{c^{2}-b^{2}}$* *\n\n$\\begin{gathered} P Q & = \\sqrt{11.5^{2} - 7.2^{2}} \\end{gathered}$\n\n**[2]**\n\n> *Enter into a calculator.*\n\n$PQ=8.967...$\n\n> * *\n\n> *Round to 3 significant figures.*\n\n$PQ=8.97\\mathrm{cm}$* ***[1]**",
      "equations": [
       {
        "latex": "PQ",
@@ -1092,7 +1092,7 @@
      ],
      "part_tier": null,
      "problem_md": "![q21b-0580-0980-w20-oct-nov-2020-cie-igcse-maths](assets/017-q21b-0580-0980-w20-oct-nov-2020-cie-igcse-maths.png)\n\nCalculate the value of $k$.\n\n$k=$...............................",
-     "solution_md": "> *Use Pythagoras' Theorem.*\n\n$k$* is the longest side, the hypotenuse, so use *$c=\\sqrt{a^{2}+b^{2}}$\n\n`table row k equals cell square root of 8 squared plus 15 squared end root end cell end table`\n\n**[1]**\n\n> *Enter into a calculator.*\n\n`table row k equals cell square root of 289 end cell row blank blank blank row k equals 17 end table`\n\n$17\\mathrm{cm}$* ***[1]**",
+     "solution_md": "> *Use Pythagoras' Theorem.*\n\n$k$* is the longest side, the hypotenuse, so use *$c=\\sqrt{a^{2}+b^{2}}$\n\n$\\begin{gathered} k = \\sqrt{8^{2} + 15^{2}} \\end{gathered}$\n\n**[1]**\n\n> *Enter into a calculator.*\n\n$\\begin{gathered} k = \\sqrt{289} \\\\ \\\\ k = 17 \\end{gathered}$\n\n$17\\mathrm{cm}$* ***[1]**",
      "equations": [
       {
        "latex": "k",

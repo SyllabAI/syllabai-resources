@@ -87,6 +87,6 @@ $T_{0}=\frac{1}{H_{0}}$
 > 
 > **Step 4: Convert from seconds into years**
 > 
-> `T subscript 0 space equals space fraction numerator 4.52 cross times 10 to the power of 17 space over denominator open parentheses 365 cross times 24 cross times 60 cross times 60 close parentheses end fraction space equals space 1.43 cross times 10 to the power of 10 space years`
+> $T_{0} = \frac{4.52 \times 10^{17} }{( 365 \times 24 \times 60 \times 60 )} = 1.43 \times 10^{10} \text{years}$
 > 
 > - Therefore, the age of the universe is estimated to be about **14.3 billion years**

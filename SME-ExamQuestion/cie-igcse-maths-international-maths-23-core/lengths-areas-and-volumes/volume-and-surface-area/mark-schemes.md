@@ -60,7 +60,7 @@ $98.2\mathrm{cm}$* ***[1]**
 
 > * Find the area of one circle by substituting *$r=3$* into *$\mathrm{area}=\mathrm{πr}^{2}$*. *
 
-`table row Area equals cell straight pi cross times 3 squared end cell row blank equals cell 9 straight pi end cell end table`
+$\begin{gathered} \text{Area} = \mathrm{\pi } \times 3^{2} \\ = 9 \mathrm{\pi } \end{gathered}$
 
 > * Multiply by 2 to find the total area of both circles.*
 
@@ -70,7 +70,7 @@ $98.2\mathrm{cm}$* ***[1]**
 
 > *Find the circumference of the circle, which is also the width of the rectangle, by substituting *$r=3$* into *$\mathrm{circumference}=2\mathrm{πr}$*.*
 
-> * *`table row cell Circumference space end cell equals cell space 2 cross times straight pi cross times 3 end cell row blank equals cell 6 straight pi end cell end table`
+> * *$\begin{gathered} \text{Circumference} & = 2 \times \mathrm{\pi } \times 3 \\ = 6 \mathrm{\pi } \end{gathered}$
 
 * ***[1]**
 
@@ -93,7 +93,7 @@ $45π=141.37166...$
 ### Q4
 > *Determine the side length of the cube by cube rooting the volume  *
 
-`cube root of 1000`
+$\sqrt[3]{1000}$
 
 **[1]**
 
@@ -269,7 +269,7 @@ $36\mathrm{cm}^{3}$* ***[1]**
 ### Q9
 > *Substitute **r** = 15** and **h** = 24** into *$V=πr^{2}h$*.  *
 
-`V equals pi cross times open parentheses 15 close parentheses squared cross times 24`
+$V = \pi \times ( 15 )^{2} \times 24$
 
 **[1]**
 
@@ -327,7 +327,7 @@ $14\times12=168$
 ### Q12
 > *Substitute **r = 4.5** and **h = 10.4** into *$V=\frac{1}{3}πr^{2}h$*.  *
 
-`V equals 1 third cross times pi cross times open parentheses 4.5 close parentheses squared cross times 10.4`
+$V = 1 \frac{1}{3} \times \pi \times ( 4.5 )^{2} \times 10.4$
 
 **[1]**
 
@@ -370,7 +370,7 @@ $=1922.654704$
 
 (ii) *Multiply the base of the triangle, 5 cm, by the perpendicular height from part (i), and halve (area of a triangle = *$\frac{1}{2}$* x base x height). *
 
-`open parentheses 5 cross times 4.3 close parentheses divided by 2 equals 10.75`
+$( 5 \times 4.3 ) \div 2 = 10.75$
 
 * ***[1]**
 
@@ -451,11 +451,11 @@ $V=5\times4\times2$
 ### Q19
 > *Work out the volume of both cuboids (**Volume of a cuboid = length × width × height**). *
 
-`table row cell Volume italic space A end cell equals cell 8 cross times 5 cross times 12 end cell row blank equals 480 end table`
+$\begin{gathered} \text{Volume} A & = 8 \times 5 \times 12 \\ = 480 \end{gathered}$
 
 **[1]**
 
-`table row cell Volume italic space B end cell equals cell 16 cross times 10 cross times h end cell row blank equals cell 160 h end cell end table`
+$\begin{gathered} \text{Volume} B & = 16 \times 10 \times h \\ = 160 h \end{gathered}$
 
 > * *
 
@@ -526,7 +526,7 @@ i) *The surface area is the sum of the area of each face of the cuboid  *
 
 > *Therefore, double the area of each face, and then add these values to get the total surface area  *
 
-`A equals open parentheses 18 cross times 2 close parentheses plus open parentheses 12 cross times 2 close parentheses plus open parentheses 24 cross times 2 close parentheses`
+$A = ( 18 \times 2 ) + ( 12 \times 2 ) + ( 24 \times 2 )$
 
 **[1] **
 
@@ -561,7 +561,7 @@ iii) *The product of 3 numbers must be equal to 72*
 
 > *Double each of these values and add all 6 areas together*
 
-`2 cross times open parentheses 90 plus 37.5 plus 60 close parentheses`
+$2 \times ( 90 + 37.5 + 60 )$
 
 **[1]**
 

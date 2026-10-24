@@ -46,7 +46,7 @@ guided_study: true
 > 
 > > *Subtract the answer from 360°*
 > 
-> `table row cell 360 space minus space 297 space end cell equals cell space 63 space end cell end table`
+> $\begin{gathered} 360 - 297 & = 63 \end{gathered}$
 > 
 > > *Add this to the diagram*
 > 
@@ -54,6 +54,6 @@ guided_study: true
 > 
 > > *Angles on a straight line add up to 180°, so subtract the answer from 180°*
 > 
-> `table row cell y plus 63 end cell equals 180 row y equals cell 180 minus 63 end cell row y equals 117 end table`
+> $\begin{gathered} y + 63 & = 180 \\ y = 180 - 63 \\ y = 117 \end{gathered}$
 > 
 > $y=117$

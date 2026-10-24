@@ -34,7 +34,7 @@ Describe fully the single transformation that maps triangle **B** onto triangle 
 
 Triangle **A** is rotated $90^{\circ}$ clockwise about the point (0, 1) to give triangle **B**.
 
-Triangle **B** is translated by the vector `open parentheses table row cell negative 3 end cell row cell negative 1 end cell end table close parentheses` to give triangle **C**.
+Triangle **B** is translated by the vector $( \begin{gathered} - 3 \\ - 1 \end{gathered} )$ to give triangle **C**.
 
 Describe fully the single transformation that maps triangle **A** onto triangle **C**.
 
@@ -163,7 +163,7 @@ Label the new trapezium **A**.
 
 **Q11** [1 mark]
 
-Translate trapezium **T** by the vector  `open parentheses table row cell negative 1 end cell row cell negative 3 end cell end table close parentheses` Label the new trapezium **B**.
+Translate trapezium **T** by the vector  $( \begin{gathered} - 1 \\ - 3 \end{gathered} )$ Label the new trapezium **B**.
 
 *Source: November 2017 1MA1/2H Q5B*
 

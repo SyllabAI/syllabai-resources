@@ -24,7 +24,7 @@ $16,18,18,18,19,20,20,22,22,24,24,25$
 
 > *Find the value in the middle, crossing off the numbers from each end can help*
 
-`up diagonal strike 16 comma space up diagonal strike 18 comma space up diagonal strike 18 comma space up diagonal strike 18 comma space up diagonal strike 19 comma space 20 comma space 21 comma space up diagonal strike 22 comma space up diagonal strike 22 comma space up diagonal strike 24 comma space up diagonal strike 24 comma space up diagonal strike 25`
+$\cancel{16} , \cancel{18} , \cancel{18} , \cancel{18} , \cancel{19} , 20 , 21 , \cancel{22} , \cancel{22} , \cancel{24} , \cancel{24} , \cancel{25}$
 
 **[M1]**
 
@@ -81,7 +81,7 @@ $9.4\times5=47$
 
 > *Subtract the known values from the sum to determine the missing value*
 
-`47 minus open parentheses 3 plus 5 plus 10 plus 12 close parentheses equals 17`
+$47 - ( 3 + 5 + 10 + 12 ) = 17$
 
 **[1]**
 
@@ -100,7 +100,7 @@ $150\times3=450$
 
 > *The sum of the numbers must be equal to 450 so form an equation*
 
-`361 space plus thin space 2 n space plus thin space open parentheses n minus 1 close parentheses space equals space 450`
+$361 + 2 n + ( n - 1 ) = 450$
 
 **for 361 + 2n + n - 1**** [1] **
 **correct equation ****[1]**
@@ -138,7 +138,7 @@ iii)*Write the numbers in order from smallest to largest*
 
 > *Keep crossing a number off the beginning and the end of the list to find the middle*
 
-`up diagonal strike 78 comma space up diagonal strike 82 comma space 82 comma space 88 comma space up diagonal strike 94 comma space up diagonal strike 103`
+$\cancel{78} , \cancel{82} , 82 , 88 , \cancel{94} , \cancel{103}$
 
 > * The median is halfway between 82 and 88*
 
@@ -151,17 +151,17 @@ iii)*Write the numbers in order from smallest to largest*
 
 > *Mean (89) = total (527 + *$x$*) *$\div$* how many pieces of data (7)*
 
-`89 equals open parentheses 527 plus x close parentheses divided by 7`
+$89 = ( 527 + x ) \div 7$
 
 > * Multiply both sides of the equation by 7*
 
-`table row cell 89 cross times 7 end cell equals cell 527 plus x end cell row blank blank blank row 623 equals cell 527 plus x end cell end table`
+$\begin{gathered} 89 \times 7 & = 527 + x \\ \\ 623 = 527 + x \end{gathered}$
 
 **[1]**
 
 > *Subtract 527 from both sides*
 
-`table row cell 623 minus 527 end cell equals x row blank blank blank row 96 equals x end table`
+$\begin{gathered} 623 - 527 & = x \\ \\ 96 = x \end{gathered}$
 
 **96 g** **[1]**
 
@@ -214,7 +214,7 @@ $1,1,2,2,3,3,4,4,4,5,5,7$
 
 > *Find the middle number(s) by crossing out numbers from both ends*
 
-`up diagonal strike 1 comma space up diagonal strike 1 comma space up diagonal strike 2 comma space up diagonal strike 2 comma space up diagonal strike 3 comma space 3 comma space 4 comma space up diagonal strike 4 comma space up diagonal strike 4 comma space up diagonal strike 5 comma space up diagonal strike 5 comma space up diagonal strike 7`
+$\cancel{1} , \cancel{1} , \cancel{2} , \cancel{2} , \cancel{3} , 3 , 4 , \cancel{4} , \cancel{4} , \cancel{5} , \cancel{5} , \cancel{7}$
 
 > *The median is halfway between 3 and 4*
 
@@ -316,7 +316,7 @@ $8,14,14,27,32,38,47,55,73,93$
 
 > *There are an even number of numbers in this case, so there will be two middle numbers*
 
-`up diagonal strike 8 comma space up diagonal strike 14 comma space up diagonal strike 14 comma space up diagonal strike 27 comma space circle enclose 32 comma space 38 end enclose comma space up diagonal strike 47 comma space up diagonal strike 55 comma space up diagonal strike 73 comma space up diagonal strike 93`
+`/ 8 , / 14 , / 14 , / 27 , circle 32 , 38 , / 47 , / 55 , / 73 , / 93`
 
 > *The median is halfway between these numbers*
 
@@ -348,7 +348,7 @@ $8+2+12+2+0+1=25$
 
 > *Divide the total number of marks by the total number of students to get the mean mark*
 
-`fraction numerator open parentheses 5 cross times 8 close parentheses plus open parentheses 6 cross times 2 close parentheses plus open parentheses 7 cross times 12 close parentheses plus open parentheses 8 cross times 2 close parentheses plus open parentheses 9 cross times 0 close parentheses plus open parentheses 10 cross times 1 close parentheses over denominator 25 end fraction`
+$\frac{( 5 \times 8 ) + ( 6 \times 2 ) + ( 7 \times 12 ) + ( 8 \times 2 ) + ( 9 \times 0 ) + ( 10 \times 1 )}{25}$
 
 **[1]**
 
@@ -384,7 +384,7 @@ $\frac{\sumfx}{\sumf}=\frac{128}{40}$
 
 > *The word 'calculate' is written in this question, so a method mark can be gained from writing down the calculation to find the mean*
 
-`fraction numerator open parentheses 5 cross times 8 close parentheses plus open parentheses 6 cross times 5 close parentheses plus open parentheses 7 cross times 11 close parentheses plus open parentheses 8 cross times 7 close parentheses plus open parentheses 9 cross times 5 close parentheses plus open parentheses 10 cross times 4 close parentheses over denominator 40 end fraction`
+$\frac{( 5 \times 8 ) + ( 6 \times 5 ) + ( 7 \times 11 ) + ( 8 \times 7 ) + ( 9 \times 5 ) + ( 10 \times 4 )}{40}$
 
 **[1]**
 
@@ -486,7 +486,7 @@ $27-20=7$
 *If it isn't easy to spot, find the value halfway between two numbers by adding them together and dividing by 2. *
 *You could also find the middle of the data by crossing out the numbers from each end alternately.*
 
-`up diagonal strike 20 space space space up diagonal strike 21 space space space up diagonal strike 21 space space space up diagonal strike 21 space space space up diagonal strike 21 space space space up diagonal strike 21 space space space 22 space space space 23 space space space up diagonal strike 23 space space space up diagonal strike 23 space space space up diagonal strike 24 space space space up diagonal strike 25 space space space up diagonal strike 26 space space space up diagonal strike 27`
+$\cancel{20} \cancel{21} \cancel{21} \cancel{21} \cancel{21} \cancel{21} 22 23 \cancel{23} \cancel{23} \cancel{24} \cancel{25} \cancel{26} \cancel{27}$
 
 *Halfway between 22 and 23 will be 22.5, which is the median*
 
@@ -552,7 +552,7 @@ $3+1+3+2+4+2=15$
 
 > *Add one to the total and then divide by 2.*
 
-`open parentheses 15 plus 1 close parentheses divided by 2 equals 8`
+$( 15 + 1 ) \div 2 = 8$
 
 > *Starting from the lowest value coin, find the value of the 8*<sup>*th*</sup>* coin.*
 
@@ -562,7 +562,7 @@ $3+1+3+2+4+2=15$
 
 iv) *Multiply the value of each coin by how many there are of that type.*
 
-`open parentheses 1 cross times 3 close parentheses plus open parentheses 2 cross times 1 close parentheses plus open parentheses 5 cross times 3 close parentheses plus open parentheses 10 cross times 2 close parentheses plus open parentheses 20 cross times 4 close parentheses plus open parentheses 50 cross times 2 close parentheses`
+$( 1 \times 3 ) + ( 2 \times 1 ) + ( 5 \times 3 ) + ( 10 \times 2 ) + ( 20 \times 4 ) + ( 50 \times 2 )$
 
 **220 cents** **[1]**
 

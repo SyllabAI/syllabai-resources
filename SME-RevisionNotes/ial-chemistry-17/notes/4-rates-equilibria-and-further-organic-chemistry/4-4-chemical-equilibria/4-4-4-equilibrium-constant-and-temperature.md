@@ -22,7 +22,7 @@ guided_study: false
 
 2HI (g) ⇌ H<sub>2</sub> (g) + I<sub>2</sub> (g)
 
-*K*<sub>c</sub> = `fraction numerator left square bracket straight H subscript 2 right square bracket space left square bracket straight I subscript 2 right square bracket over denominator left square bracket HI right square bracket squared end fraction`
+*K*<sub>c</sub> = `(left square bracket H _ 2 right square bracket left square bracket I _ 2 right square bracket)/(left square bracket HI right square bracket ^2)`
 
 - With an increase in temperature:
 
@@ -34,7 +34,7 @@ guided_study: false
 
 2SO<sub>2</sub> (g) + O<sub>2</sub> (g) ⇌ 2SO<sub>3</sub> (g)
 
-*K*<sub>c</sub> = `fraction numerator left square bracket SO subscript 3 right square bracket squared over denominator left square bracket SO subscript 2 right square bracket squared space left square bracket straight O subscript 2 right square bracket end fraction`
+*K*<sub>c</sub> = `(left square bracket SO _ 3 right square bracket ^2)/(left square bracket SO _ 2 right square bracket ^2 left square bracket O _ 2 right square bracket)`
 
 - With an increase in temperature:
 

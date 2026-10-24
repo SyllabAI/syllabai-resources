@@ -344,19 +344,18 @@ i) The buffer keeps the pH of blood nearly constant when a small increase in the
 ii) The ratio of the concentration of HCO<sub>3</sub><sup>- </sup>to H<sub>2</sub>CO<sub>3</sub> in the blood sample is:
 
 - Calculation of [H<sup>+</sup>] / [H<sub>3</sub>O<sup>+</sup>] [H<sup>+</sup>] = 10<sup>–7.41 </sup>/ = 3.8905 x 10<sup>–8</sup>; **[1 mark]**
-- *K*<sub>a</sub> expression *K*<sub>a</sub>= `fraction numerator open square brackets HCO subscript 3 close square brackets open square brackets straight H to the power of plus close square brackets over denominator open square brackets straight H subscript 2 CO subscript 3 close square brackets end fraction`; **[1 mark]**
+- *K*<sub>a</sub> expression *K*<sub>a</sub>= $\frac{[ HCO_{3} ] [ \mathrm{H}^{+} ]}{[ \mathrm{H}_{2} CO_{3} ]}$; **[1 mark]**
 - Rearrangement of *K*<sub>a</sub> expression and calculation of [HCO<sub>3</sub><sup>–</sup>] : [H<sub>2</sub>CO<sub>3</sub>] = 4.5 x 10<sup>–7</sup> ÷ 3.8905 x 10<sup>–8</sup> = 11.567 : 1 = 11.6 (: 1); **[1 mark]**
 
 **[Total: 3 marks]**
 
 - *To calculate the concentration of hydrogen ions use: [H*<sup>*+*</sup>*] = 10*<sup>*-pH*</sup>
-- *Rearranging the **K*<sub>*a*</sub>* expression gives: *`fraction numerator K subscript straight a over denominator open square brackets straight H to the power of plus close square brackets end fraction equals space fraction numerator open square brackets HCO subscript 3 to the power of minus close square brackets over denominator open square brackets straight H subscript 2 CO subscript 3 close square brackets end fraction`* so   *`fraction numerator space 4.5 space straight x space 10 to the power of negative 7 end exponent space over denominator space 3.8905 space straight x space 10 to the power of negative 8 end exponent space end fraction equals space fraction numerator stretchy left square bracket HCO subscript 3 to the power of minus stretchy right square bracket over denominator stretchy left square bracket straight H subscript 2 CO subscript 3 stretchy right square bracket end fraction
-`
-- *Therefore 11.567 = *`begin mathsize 14px style fraction numerator stretchy left square bracket H C O subscript 3 to the power of minus sign stretchy right square bracket over denominator stretchy open square brackets H subscript 2 C O subscript 3 stretchy close square brackets end fraction end style`* or 11.567: 1 *
+- *Rearranging the **K*<sub>*a*</sub>* expression gives: *$\frac{K_{a} }{[ \mathrm{H}^{+} ]} = \frac{[ HCO_{3}^{-} ]}{[ \mathrm{H}_{2} CO_{3} ]}$* so   *$\frac{ 4.5 \mathrm{x} 10^{- 7} }{ 3.8905 \mathrm{x} 10^{- 8} } = \frac{[ HCO_{3}^{-} ]}{[ \mathrm{H}_{2} CO_{3} ]}$
+- *Therefore 11.567 = *$\frac{[ H C O_{3}^{-} \text{sign} ]}{stretchy [ H_{2} C O_{3} \text{stretchy} ]}$* or 11.567: 1 *
 - *An alternative method is:*
 
   - *Calculation of p**K*<sub>*a*</sub>* = – log 4.5 x 10*<sup>*–7*</sup>* = 6.3468*
-  - *Henderson Hasselbalch expression: pH = p**K*<sub>*a*</sub>* + log*`open parentheses fraction numerator open square brackets HCO subscript 3 to the power of minus close square brackets over denominator open square brackets straight H subscript 2 CO subscript 3 close square brackets end fraction close parentheses`
+  - *Henderson Hasselbalch expression: pH = p**K*<sub>*a*</sub>* + log*$( \frac{[ HCO_{3}^{-} ]}{[ \mathrm{H}_{2} CO_{3} ]} )$
   - *Rearrangement of **K*<sub>*a*</sub>* expression and calculation of [HCO*<sub>*3*</sub><sup>*–*</sup>*] : [H*<sub>*2*</sub>*CO*<sub>*3*</sub>*]: * *7.41 - 6.3468 = log([HCO*<sub>*3*</sub><sup>*–*</sup>*] ÷ [H*<sub>*2*</sub>*CO*<sub>*3*</sub>*])*
 - *A correct answer will score 3 marks with no working*
 

@@ -7,39 +7,37 @@
 ### 18() — 3 marks
 > *Number the equations.*
 
-> `table row cell 4 x space plus space y space end cell equals cell space 25 space space space space space space space space space space open parentheses 1 close parentheses end cell row cell x space minus space 3 y space end cell equals cell space 16 space space space space space space space space space space open parentheses 2 close parentheses end cell end table`* *
+> $\begin{gathered} 4 x + y & = 25 ( 1 ) \\ x - 3 y & = 16 ( 2 ) \end{gathered}$* *
 
 > *Make the **y** terms equal by multiplying all parts of equation (1) by 3.*
 
-`table row cell 12 x space plus space 3 y space end cell equals cell space 75 space space space space space space space space space space open parentheses 3 close parentheses end cell row cell x space minus space 3 y space end cell equals cell space 16 space space space space space space space space space space open parentheses 2 close parentheses end cell end table`
+$\begin{gathered} 12 x + 3 y & = 75 ( 3 ) \\ x - 3 y & = 16 ( 2 ) \end{gathered}$
 
 > *Eliminate the **y** terms by adding equation (3) to equation (2). Be careful to add every term. *
 
 > *The coefficients of **y** are the same but with different signs, so add them.*
 
-`space space space space space space space space space space 12 x space plus space 3 y space equals space 75 space space space space space space space space space space space space
-bottom enclose plus space space space space open parentheses space space space space space space x space minus space 3 y space equals space 16 close parentheses space space space space space space end enclose
-space space space space space space space space space space space 13 x space space space space space space space space space space space equals space 91 space`
+`12 x + 3 y = 75 bottom + ( x - 3 y = 16 ) 13 x = 91`
 
 **[1]**
 
 > *Solve the equation to find** x  **by dividing both sides by 13.*
 
-`table row cell x space end cell equals cell space 91 over 13 space equals space 7 end cell end table`
+$\begin{gathered} x & = \frac{91}{13} = 7 \end{gathered}$
 
 > *Substitute *$x=7$* into either of the two original equations**.*
 
-`open parentheses 1 close parentheses space space space space space 4 open parentheses 7 close parentheses space plus space y space equals space 25`
+$( 1 ) 4 ( 7 ) + y = 25$
 
 **[1]**
 
 > *Solve this equation to find** y.*
 
-`table row cell 4 open parentheses 7 close parentheses space plus space y space end cell equals cell space 25 end cell row cell 28 space plus space y space end cell equals cell space 25 end cell row cell y space end cell equals cell space 25 space minus space 28 space equals space minus 3 end cell end table`
+$\begin{gathered} 4 ( 7 ) + y & = 25 \\ 28 + y & = 25 \\ y & = 25 - 28 = - 3 \end{gathered}$
 
 > *Substitute **x** = 7  and **y** = - 3 into the other equation to check that they are correct*
 
-`table row cell open parentheses 2 close parentheses space space space space space x space minus space 3 y space end cell equals cell space 16 end cell row cell open parentheses 7 close parentheses space minus space 3 open parentheses negative 3 close parentheses space end cell equals cell space 16 end cell row cell space 7 space plus space 9 space end cell equals cell space 16 end cell row cell 16 space end cell equals cell space 16 end cell end table`
+$\begin{gathered} ( 2 ) x - 3 y & = 16 \\ ( 7 ) - 3 ( - 3 ) & = 16 \\ 7 + 9 & = 16 \\ 16 & = 16 \end{gathered}$
 
 $x=7,y=-3$* ***[1]**
 
@@ -48,37 +46,35 @@ $x=7,y=-3$* ***[1]**
 ### 19() — 3 marks
 > *Number the equations.*
 
-> `table row cell 2 x space minus space y space end cell equals cell space 13 space space space space space space space space space space open parentheses 1 close parentheses end cell row cell x space minus space 2 y space end cell equals cell space 11 space space space space space space space space space space open parentheses 2 close parentheses end cell end table`* *
+> $\begin{gathered} 2 x - y & = 13 ( 1 ) \\ x - 2 y & = 11 ( 2 ) \end{gathered}$* *
 
 > *Make the **y** terms equal by multiplying all parts of equation (1) by 2.*
 
-`table row cell 4 x space minus space 2 y space end cell equals cell space 26 space space space space space space space space space space open parentheses 3 close parentheses end cell row cell x space minus space 2 y space end cell equals cell space 11 space space space space space space space space space space open parentheses 2 close parentheses end cell end table`
+$\begin{gathered} 4 x - 2 y & = 26 ( 3 ) \\ x - 2 y & = 11 ( 2 ) \end{gathered}$
 
 > *Eliminate the **y** terms by subtracting equation (2) from equation (3). Be careful to subtract every term. The coefficients of **y** are the same with the same signs, so subtract them.*
 
-`space space space space space space space space space space 4 x space minus space 2 y space equals space 26 space space space space space space space space space space space space
-bottom enclose negative space space space open parentheses space space space space space x space minus space 2 y space equals space 11 close parentheses space space space space space space end enclose
-space space space space space space space space space space space space 3 x space space space space space space space space space space space equals space 15 space`
+`4 x - 2 y = 26 bottom - ( x - 2 y = 11 ) 3 x = 15`
 
 **[1]**
 
 > *Solve the equation to find** x  **by dividing both sides by 3.*
 
-`table row cell x space end cell equals cell space 15 over 3 space equals space 5 end cell end table`
+$\begin{gathered} x & = \frac{15}{3} = 5 \end{gathered}$
 
 > *Substitute *$x=5$* into either of the two original equations**.*
 
-`open parentheses 1 close parentheses space space space space space 2 open parentheses 5 close parentheses space minus space y space equals space 13`
+$( 1 ) 2 ( 5 ) - y = 13$
 
 **[1]**
 
 > *Solve this equation to find** y.*
 
-`table row cell 10 space minus space y space end cell equals cell space 13 end cell row cell negative space y space end cell equals cell space 13 space minus space 10 space equals space 3 end cell row cell y space end cell equals cell space minus 3 end cell end table`
+$\begin{gathered} 10 - y & = 13 \\ - y & = 13 - 10 = 3 \\ y & = - 3 \end{gathered}$
 
 > *Substitute **x** = 5 and **y** = -3 into the other equation to check that they are correct*
 
-`table row cell open parentheses 2 close parentheses space space space space space x space minus space 2 y space end cell equals cell space 11 end cell row cell open parentheses 5 close parentheses space minus space 2 open parentheses negative 3 close parentheses space end cell equals cell space 11 end cell row cell space 5 space plus space 6 space end cell equals cell space 11 end cell row cell 11 space end cell equals cell space 11 end cell end table`
+$\begin{gathered} ( 2 ) x - 2 y & = 11 \\ ( 5 ) - 2 ( - 3 ) & = 11 \\ 5 + 6 & = 11 \\ 11 & = 11 \end{gathered}$
 
 $x=5,y=-3$* ***[1]**
 
@@ -87,36 +83,34 @@ $x=5,y=-3$* ***[1]**
 ### 2() — 3 marks
 > *Number the equations.*
 
-> `3 x space plus space y space equals space minus 4 space space space space space space space open parentheses 1 close parentheses
-3 x space minus space 4 y space equals space 6 space space space space space space space space space open parentheses 2 close parentheses`* *
+> $3 x + y = - 4 ( 1 )
+3 x - 4 y = 6 ( 2 )$* *
 
 > *Eliminate the **x** terms by subtracting equation (2) from equation (1). Be careful to subtract every term. *
 
 > *The coefficients of **x** are the same with the same signs, so subtract them.*
 
-`space space space space space space space 3 x space plus space y space equals negative 4 space space space
-bottom enclose negative space open parentheses 3 x space minus space 4 y space equals space 6 close parentheses end enclose
-space space space space space space space space space space space space space space space space 5 y space equals space minus 10`
+`3 x + y = - 4 bottom - ( 3 x - 4 y = 6 ) 5 y = - 10`
 
 **[1]**
 
 > *Solve the equation to find** y **by dividing both sides by 5.*
 
-`table row cell y space end cell equals cell space fraction numerator negative 10 over denominator 5 end fraction space equals space minus 2 end cell end table`
+$\begin{gathered} y & = \frac{- 10}{5} = - 2 \end{gathered}$
 
 > *Substitute *$y=-2$* into either of the two original equations**.*
 
-`open parentheses 1 close parentheses space space space space space 3 x space plus space open parentheses negative 2 close parentheses space equals space minus 4`
+$( 1 ) 3 x + ( - 2 ) = - 4$
 
 **[1]**
 
 > *Solve this equation to find** y.*
 
-`table row cell 3 x space minus space 2 space end cell equals cell space minus 4 end cell row cell 3 x space end cell equals cell space minus 4 space plus space 2 space end cell row cell 3 x space end cell equals cell space minus 2 space end cell row x equals cell space minus 2 over 3 end cell end table`
+$\begin{gathered} 3 x - 2 & = - 4 \\ 3 x & = - 4 + 2 \\ 3 x & = - 2 \\ x = - \frac{2}{3} \end{gathered}$
 
 > *Substitute *$x=-\frac{2}{3}$* and *$y=-2$* into the other equation to check that they are correct.*
 
-`table row cell open parentheses 2 close parentheses space space space space space space space space space 3 x space minus space 4 y space end cell equals cell space 6 end cell row cell 3 open parentheses negative 2 over 3 close parentheses space minus space 4 open parentheses negative 2 close parentheses space end cell equals cell space 6 end cell row cell space minus 2 space plus space 8 space end cell equals cell space 6 end cell row cell 6 space end cell equals cell space 6 end cell end table`
+$\begin{gathered} ( 2 ) 3 x - 4 y & = 6 \\ 3 ( - \frac{2}{3} ) - 4 ( - 2 ) & = 6 \\ - 2 + 8 & = 6 \\ 6 & = 6 \end{gathered}$
 
 $x=-\frac{2}{3},y=-2$* ***[1]**
 
@@ -129,21 +123,21 @@ $x=-\frac{2}{3},y=-2$* ***[1]**
 
 > *Start by rearranging the second equation.*
 
-`table row cell 2 x end cell equals cell 9 plus y end cell row y equals cell 2 x minus 9 end cell end table`
+$\begin{gathered} 2 x & = 9 + y \\ y = 2 x - 9 \end{gathered}$
 
 > *Substitute this rearrangement into the first equation.*
 
-`4 x plus 5 open parentheses 2 x minus 9 close parentheses equals 4`
+$4 x + 5 ( 2 x - 9 ) = 4$
 
 **[1]**
 
 > *Expand and simplify to form an equation in **x**.*
 
-`table attributes columnalign right center left columnspacing 0px end attributes row cell 4 x plus 10 x minus 45 minus 4 end cell equals 0 row cell 14 x minus 49 end cell equals 0 end table`
+$\begin{array}{rcl} 4 x + 10 x - 45 - 4 & = 0 \\ 14 x - 49 & = 0 \end{array}$
 
 > *Solve for **x**.*
 
-`table row cell 14 x end cell equals 49 row x equals cell 49 over 14 equals 3.5 end cell end table`
+$\begin{gathered} 14 x & = 49 \\ x = \frac{49}{14} = 3.5 \end{gathered}$
 
 *Substitute this value of **x** into either of the original equations to find **y**.*
 
@@ -166,21 +160,21 @@ $x=3.5,y=-2$ **[1]**
 
 > *Start by rearranging the second equation to isolate **x** by adding 4**y** to both sides.*
 
-`table row x equals cell 9 plus 4 y end cell row x equals cell 4 y plus 9 end cell end table`
+$\begin{gathered} x = 9 + 4 y \\ x = 4 y + 9 \end{gathered}$
 
 > *Substitute this rearrangement into the first equation.*
 
-`4 open parentheses 4 y plus 9 close parentheses plus 2 y equals 9`
+$4 ( 4 y + 9 ) + 2 y = 9$
 
 **[1]**
 
 > *Expand and simplify to form an equation in **y**.*
 
-`table row cell 16 y plus 36 plus 2 y minus 9 end cell equals 0 row cell 18 y plus 27 end cell equals 0 end table`
+$\begin{gathered} 16 y + 36 + 2 y - 9 & = 0 \\ 18 y + 27 & = 0 \end{gathered}$
 
 > *Solve for **y**.*
 
-`table row cell 18 y end cell equals cell negative 27 end cell row y equals cell fraction numerator negative 27 over denominator 18 end fraction equals negative 1.5 end cell end table`
+$\begin{gathered} 18 y & = - 27 \\ y = \frac{- 27}{18} = - 1.5 \end{gathered}$
 
 *Substitute this value of **y** into either of the original equations to find **x**.*
 
@@ -203,17 +197,17 @@ $x=3,y=-1.5$ **[1]**
 
 > *Start by rearranging the first equation to isolate **x** by subtracting **y** from both sides.*
 
-`table row x equals cell 15 minus y end cell end table`
+$\begin{gathered} x = 15 - y \end{gathered}$
 
 > *Substitute this rearrangement into the second equation.*
 
-`7 open parentheses 15 minus y close parentheses minus 5 y equals 3`
+$7 ( 15 - y ) - 5 y = 3$
 
 **[1]**
 
 > *Expand and simplify to form an equation in **y**.*
 
-`table row cell 105 minus 7 y minus 5 y minus 3 end cell equals 0 row cell negative 12 y plus 102 end cell equals 0 end table`
+$\begin{gathered} 105 - 7 y - 5 y - 3 & = 0 \\ - 12 y + 102 & = 0 \end{gathered}$
 
 > *It would be nice to have a positive **y** term to make the equation easier to solve, and we can also divide through by 6.*
 
@@ -223,13 +217,13 @@ $2y-17=0$
 
 > *Solve for **y**.*
 
-`table attributes columnalign right center left columnspacing 0px end attributes row y equals cell 8.5 end cell end table`
+$\begin{array}{rcl} y = 8.5 \end{array}$
 
 *Substitute this value of **y** into either of the original equations to find **x**.*
 
 > *(In this case it will actually be easiest to use our rearranged *$x=15-y$*.)*
 
-`x equals 15 minus open parentheses 8.5 close parentheses equals 6.5`
+$x = 15 - ( 8.5 ) = 6.5$
 
 **[1]**
 
@@ -242,36 +236,36 @@ $x=6.5,y=8.5$ **[1]**
 ### 9() — 3 marks
 > *Number the equations.*
 
-> `x plus 2 y equals negative 0.5 space space space space space space open parentheses 1 close parentheses
-3 x minus y equals 16 space space space space space space space space space space space space open parentheses 2 close parentheses`* *
+> $x + 2 y = - 0.5 ( 1 )
+3 x - y = 16 ( 2 )$* *
 
 > *Multiply equation (2) by 2 so both equations have the same number of **y**'s in them (don't worry about signs at this stage).*
 
-`6 x minus 2 y equals 32 space space space space space space space space space space space space open parentheses 3 close parentheses`
+$6 x - 2 y = 32 ( 3 )$
 
 > *Considering equations (1) and (3) we can eliminate **y** by adding these together (signs of the **y** terms are opposite so add).*
 
-`table row cell x plus 2 y end cell equals cell negative 0.5 end cell row cell 6 x minus 2 y end cell equals 32 row cell 7 x end cell equals cell 31.5 end cell end table`
+$\begin{gathered} x + 2 y & = - 0.5 \\ 6 x - 2 y & = 32 \\ 7 x & = 31.5 \end{gathered}$
 
 **[1]**
 
 > *Solve this equation to find** x **by dividing both sides by 7.*
 
-`table row x equals cell fraction numerator 31.5 over denominator 7 end fraction equals 9 over 2 equals 4.5 end cell end table`
+$\begin{gathered} x = \frac{31.5}{7} = \frac{9}{2} = 4.5 \end{gathered}$
 
 > *Substitute *$x=4.5$* into either of the two original equations**.*
 
-`open parentheses 1 close parentheses space space space space space 4.5 plus 2 y equals negative 0.5`
+$( 1 ) 4.5 + 2 y = - 0.5$
 
 **[1]**
 
 > *Solve this equation to find** y **(subtract 4.5 from both sides and then divide by 2)**.*
 
-`table row cell 2 y end cell equals cell negative 5 end cell row y equals cell negative 2.5 space end cell end table`
+$\begin{gathered} 2 y & = - 5 \\ y = - 2.5 \end{gathered}$
 
 > *Substitute *$x=4.5$* and *$y=-2.5$* into the other original equation to check that they are correct.*
 
-`table row cell open parentheses 2 close parentheses space space space space space space space space space space space space space space space space space space 3 x minus y end cell equals 16 row cell 3 open parentheses 4.5 close parentheses minus open parentheses negative 2.5 close parentheses end cell equals cell 13.5 plus 2.5 end cell row blank equals 16 row blank blank space end table`
+$\begin{gathered} ( 2 ) 3 x - y & = 16 \\ 3 ( 4.5 ) - ( - 2.5 ) & = 13.5 + 2.5 \\ = 16 \\ \end{gathered}$
 
 $x=4.5,y=-2.5$* ***[1]**
 
@@ -280,30 +274,30 @@ $x=4.5,y=-2.5$* ***[1]**
 ### 7() — 3 marks
 > *Number the equations.*
 
-> `3 x plus 5 y equals 6 space space space space space space space space space space space space open parentheses 1 close parentheses
-7 x minus 5 y equals negative 11 space space space space space open parentheses 2 close parentheses`* *
+> $3 x + 5 y = 6 ( 1 )
+7 x - 5 y = - 11 ( 2 )$* *
 
 > *Eliminate the **y** terms by adding equation (2) to equation (1) as the **y** terms have opposite signs.*
 
-`table row cell 3 x plus 5 y end cell equals 6 row cell 7 x minus 5 y end cell equals cell negative 11 end cell row cell 10 x end cell equals cell negative 5 end cell end table`
+$\begin{gathered} 3 x + 5 y & = 6 \\ 7 x - 5 y & = - 11 \\ 10 x & = - 5 \end{gathered}$
 
 **[1]**
 
 > *Solve the equation to find** x **by dividing both sides by 10.*
 
-`table row x equals cell fraction numerator negative 5 over denominator 10 end fraction equals negative 0.5 end cell end table`
+$\begin{gathered} x = \frac{- 5}{10} = - 0.5 \end{gathered}$
 
 > *Substitute *$x=-0.5$* into either of the two original equations**.*
 
-`open parentheses 1 close parentheses space space space space space 3 open parentheses negative 0.5 close parentheses plus 5 y equals 6`
+$( 1 ) 3 ( - 0.5 ) + 5 y = 6$
 
 > *Solve this equation to find** y.*
 
-`table row cell negative 1.5 plus 5 y end cell equals 6 row cell 5 y end cell equals cell 7.5 end cell row y equals cell 1.5 end cell end table`
+$\begin{gathered} - 1.5 + 5 y & = 6 \\ 5 y & = 7.5 \\ y = 1.5 \end{gathered}$
 
 > *Substitute *$x=-0.5$* and *$y=1.5$* into the other original equation to check that they are correct.*
 
-`table row cell open parentheses 2 close parentheses space space space space space space space space space 7 x space minus space 5 y space end cell equals cell space 7 open parentheses negative 0.5 close parentheses minus 5 open parentheses 1.5 close parentheses end cell row blank equals cell negative 3.5 minus 7.5 end cell row blank equals cell negative 11 end cell end table`
+$\begin{gathered} ( 2 ) 7 x - 5 y & = 7 ( - 0.5 ) - 5 ( 1.5 ) \\ = - 3.5 - 7.5 \\ = - 11 \end{gathered}$
 
 > *Be sure to get **x** and **y** the right way round for your final answer!*
 
@@ -314,7 +308,7 @@ $x=4.5,y=-2.5$* ***[1]**
 ## Q9 — easy — 1 marks · exam-questions
 
 ### 13() — 1 marks
-> *The point **P** is on *$y=-1$* so takes the form *`open parentheses... space comma space minus 1 close parentheses`* so we can immediately rule out the second and third options.*
+> *The point **P** is on *$y=-1$* so takes the form *$(... , - 1 )$* so we can immediately rule out the second and third options.*
 
 > *Substitute *$y=-1$* into *$y=3x$* as **P **is where these two lines meet.*
 
@@ -333,7 +327,7 @@ $x=-\frac{1}{3}$
 ### 16() — 1 marks
 > *To find the intersection of two straight lines graphs we would solve their equations simultaneously.*
 
-`table row y equals cell negative 4 x end cell row y equals 3 end table`
+$\begin{gathered} y = - 4 x \\ y = 3 \end{gathered}$
 
 > *We can immediately see that the **y**-coordinate is 3, and all the possible answers have 3 as their **y**-coordinate.*
 
@@ -354,11 +348,11 @@ $2x+x=18+6$
 
 > *Simplify and solve for **x.*
 
-`table row cell 3 x end cell equals 24 row cell divided by 3 space space space space space space space end cell equals cell space space space space space space space divided by 3 end cell row x equals 8 end table`
+$\begin{gathered} 3 x & = 24 \\ \div 3 & = \div 3 \\ x = 8 \end{gathered}$
 
 > *Substitute this value of **x** into either of the original equations to find **y**. We've used the second equation.*
 
-`table attributes columnalign right center left columnspacing 0px end attributes row cell 8 minus y end cell equals 6 row y equals cell 8 minus 6 end cell row y equals 2 end table`
+$\begin{array}{rcl} 8 - y & = 6 \\ y = 8 - 6 \\ y = 2 \end{array}$
 
 $x=8,y=2$* ***[1]**
 
@@ -367,36 +361,34 @@ $x=8,y=2$* ***[1]**
 ### 5() — 3 marks
 > *Number the equations.*
 
-> `7 x space plus space 2 y space equals space 36 space space space space space space space space space open parentheses 1 close parentheses
-3 x space plus space 2 y space equals space 16 space space space space space space space space space open parentheses 2 close parentheses`* *
+> $7 x + 2 y = 36 ( 1 )
+3 x + 2 y = 16 ( 2 )$* *
 
 > *Eliminate the **y** terms by subtracting equation (2) from equation (1). Be careful to subtract every term. *
 
 > *The coefficients of **y** are the same with the same signs, so subtract them.*
 
-`space space space space space space space 7 x space plus space 2 y space equals space 36 space space space
-bottom enclose negative space space open parentheses 3 x space plus space 2 y space equals space 16 close parentheses end enclose
-space space space space space space space 4 x space space space space space space space space space space space space equals space 20`
+`7 x + 2 y = 36 bottom - ( 3 x + 2 y = 16 ) 4 x = 20`
 
 **[1]**
 
 > *Solve the equation to find** x  **by dividing both sides by 4.*
 
-`table row cell x space end cell equals cell space 20 over 4 space equals space 5 end cell end table`
+$\begin{gathered} x & = \frac{20}{4} = 5 \end{gathered}$
 
 **[1]**
 
 > *Substitute *$x=5$* into either of the two original equations**.*
 
-`open parentheses 1 close parentheses space space space space space 7 open parentheses 5 close parentheses space plus space 2 y space equals space 36`
+$( 1 ) 7 ( 5 ) + 2 y = 36$
 
 > *Solve this equation to find** y.*
 
-`table row cell 35 space plus space 2 y space end cell equals cell space 36 end cell row cell space 2 y space end cell equals cell space 35 space minus space 35 end cell row cell 2 y space end cell equals cell space 1 space end cell row cell y space end cell equals cell space 1 half end cell end table`
+$\begin{gathered} 35 + 2 y & = 36 \\ 2 y & = 35 - 35 \\ 2 y & = 1 \\ y & = 1 \frac{1}{2} \end{gathered}$
 
 > *Substitute *$x=5$* and *$y=\frac{1}{2}$* into the other equation to check that they are correct.*
 
-`table row cell open parentheses 2 close parentheses space space space space space space space space space 3 x space plus space 2 y space end cell equals 16 row cell 3 open parentheses 5 close parentheses space plus space 2 open parentheses 1 half close parentheses space end cell equals cell space 16 end cell row cell space 15 space plus space 1 space end cell equals cell space 16 end cell row cell 16 space end cell equals cell space 16 end cell end table`
+$\begin{gathered} ( 2 ) 3 x + 2 y & = 16 \\ 3 ( 5 ) + 2 ( 1 \frac{1}{2} ) & = 16 \\ 15 + 1 & = 16 \\ 16 & = 16 \end{gathered}$
 
 $x=5,y=\frac{1}{2}$* ***[1]**
 
@@ -405,34 +397,32 @@ $x=5,y=\frac{1}{2}$* ***[1]**
 ### 2((c)) — 3 marks
 > *Number the equations.*
 
-> `4 x space plus space 3 y space equals space 5 space space space space space space space space space open parentheses 1 close parentheses
-2 x space plus space 3 y space equals space 1 space space space space space space space space space open parentheses 2 close parentheses`* *
+> $4 x + 3 y = 5 ( 1 )
+2 x + 3 y = 1 ( 2 )$* *
 
 > *Eliminate the **y** terms by subtracting equation (2) from equation (1). Be careful to subtract every term.*
 
-`space space space space space space space space space space space 4 x space plus space 3 y space equals space 5 space space space
-bottom enclose negative space space space space space space open parentheses 2 x space plus space 3 y space equals space 1 close parentheses end enclose
-space space space space space space space space space space space space 2 x space space space space space space space space space space equals space 4`
+`4 x + 3 y = 5 bottom - ( 2 x + 3 y = 1 ) 2 x = 4`
 
 **[1]**
 
 > *Solve the equation to find** x **by dividing both sides by 2.*
 
-`table row cell x space end cell equals cell space 4 over 2 space equals space 2 end cell end table`
+$\begin{gathered} x & = \frac{4}{2} = 2 \end{gathered}$
 
 > *Substitute *$x=2$* into either of the two original equations**.*
 
-`open parentheses 1 close parentheses space space space space space 4 open parentheses 2 close parentheses space plus space 3 y space equals space 5`
+$( 1 ) 4 ( 2 ) + 3 y = 5$
 
 **[1]**
 
 > *Solve this equation to find** y.*
 
-`table row cell 8 space space plus space 3 y space end cell equals cell space 5 end cell row cell 3 y space end cell equals cell space minus 3 end cell row cell y space end cell equals cell space minus 1 end cell end table`
+$\begin{gathered} 8 + 3 y & = 5 \\ 3 y & = - 3 \\ y & = - 1 \end{gathered}$
 
 > *Substitute *$x=2$* and *$y=-1$* into the other equation to check that they are correct.*
 
-`table row cell open parentheses 2 close parentheses space space space space space space space space space space space space space space 2 x space plus space 3 y space end cell equals cell space 1 end cell row cell 2 open parentheses 2 close parentheses space plus space 3 open parentheses negative 1 close parentheses space end cell equals cell space 1 end cell row cell 4 space minus space 3 space end cell equals cell space 1 end cell row cell 1 space end cell equals cell space 1 end cell end table`
+$\begin{gathered} ( 2 ) 2 x + 3 y & = 1 \\ 2 ( 2 ) + 3 ( - 1 ) & = 1 \\ 4 - 3 & = 1 \\ 1 & = 1 \end{gathered}$
 
 $x=2,y=-1$* ***[1]**
 
@@ -441,39 +431,37 @@ $x=2,y=-1$* ***[1]**
 ### 11() — 4 marks
 > *Number the equations.*
 
-> `table row cell 2 x space minus space 4 y space end cell equals cell space 19 space space space space space space space space space space open parentheses 1 close parentheses end cell row cell 3 x space plus space 5 y space end cell equals cell space 1 space space space space space space space space space space space space open parentheses 2 close parentheses end cell end table`* *
+> $\begin{gathered} 2 x - 4 y & = 19 ( 1 ) \\ 3 x + 5 y & = 1 ( 2 ) \end{gathered}$* *
 
 > *Make the **x** terms equal by multiplying all parts of equation (1) by 3 and all parts of equation (2) by 2.*
 
-`table row cell 6 x space minus space 12 y space end cell equals cell space 57 space space space space space space space space space space open parentheses 3 close parentheses end cell row cell 6 x space plus space 10 y space end cell equals cell space 2 space space space space space space space space space space space space open parentheses 4 close parentheses end cell end table`
+$\begin{gathered} 6 x - 12 y & = 57 ( 3 ) \\ 6 x + 10 y & = 2 ( 4 ) \end{gathered}$
 
 > *Eliminate the **x** terms by subtracting equation (3) from equation (4). Be careful to subtract every term.*
 
-`space space space space space space space space space space 6 x space plus space 10 y space equals space 2 space space space space space space space space space space space space
-bottom enclose space space space space minus open parentheses 6 x space minus space 12 y space equals space 57 close parentheses space space space space space space end enclose
-space space space space space space space space space space space space space space space space space space space space space 22 y space equals space minus 55 space`
+`6 x + 10 y = 2 bottom - ( 6 x - 12 y = 57 ) 22 y = - 55`
 
 **[1]**
 
 > *Solve the equation to find** y  **by dividing both sides by 22.*
 
-`table attributes columnalign right center left columnspacing 0px end attributes row y equals cell fraction numerator negative 55 over denominator 22 end fraction space space equals space minus 5 over 2 space equals space minus 2.5 end cell end table`
+$\begin{array}{rcl} y = \frac{- 55}{22} = - \frac{5}{2} = - 2.5 \end{array}$
 
 **[1]**
 
 > *Substitute *$y=-\frac{5}{2}$* into either of the two original equations**.*
 
-`open parentheses 1 close parentheses space space space space space 2 x space minus space 4 open parentheses negative 5 over 2 close parentheses space equals space 19`
+$( 1 ) 2 x - 4 ( - \frac{5}{2} ) = 19$
 
 **[1]**
 
 > *Solve this equation to find** x.*
 
-`table row cell 2 x space minus space 4 open parentheses negative 5 over 2 close parentheses space end cell equals cell space 19 end cell row cell 2 x space plus space 10 space end cell equals cell space 19 end cell row cell 2 x space end cell equals cell space 9 space end cell row cell x space end cell equals cell 9 over 2 space equals space 4.5 end cell end table`
+$\begin{gathered} 2 x - 4 ( - \frac{5}{2} ) & = 19 \\ 2 x + 10 & = 19 \\ 2 x & = 9 \\ x & = \frac{9}{2} = 4.5 \end{gathered}$
 
 > *Substitute **x** = 4.5  and **y** = - 2.5 into the other equation to check that they are correct*
 
-`table row cell open parentheses 2 close parentheses space space space space space 3 x space plus space 5 y space end cell equals cell space 1 end cell row cell 3 open parentheses 4.5 close parentheses space plus space 5 open parentheses negative 2.5 close parentheses space end cell equals cell space 1 end cell row cell 13.5 space minus 12.5 space end cell equals cell space 1 end cell row cell 1 space end cell equals cell space 1 end cell end table`
+$\begin{gathered} ( 2 ) 3 x + 5 y & = 1 \\ 3 ( 4.5 ) + 5 ( - 2.5 ) & = 1 \\ 13.5 - 12.5 & = 1 \\ 1 & = 1 \end{gathered}$
 
 $x=\frac{9}{2},y=-\frac{5}{2}$* ***[1]**
 
@@ -482,41 +470,39 @@ $x=\frac{9}{2},y=-\frac{5}{2}$* ***[1]**
 ### 20() — 4 marks
 > *Number the equations.*
 
-> `table row cell 5 x space plus space 2 y space end cell equals cell space 11 space space space space space space space space space space space space open parentheses 1 close parentheses end cell row cell 4 x space minus space 3 y space end cell equals cell space 18 space space space space space space space space space space space space open parentheses 2 close parentheses end cell end table`* *
+> $\begin{gathered} 5 x + 2 y & = 11 ( 1 ) \\ 4 x - 3 y & = 18 ( 2 ) \end{gathered}$* *
 
 > *Make the **y** terms equal by multiplying all parts of equation (1) by 3 and all parts of equation (2) by 2. *
 
 > *This will give two 6**y **terms with different signs. The question could also be done by making the **x **terms equal by multiplying all parts of equation (1) by 4 and all parts of equation (2) by 5, and subtracting the equations.*
 
-`table row cell 15 x space plus space 6 y space end cell equals cell space 33 space space space space space space space space space space open parentheses 3 close parentheses end cell row cell 8 x space minus space 6 y space end cell equals cell space 36 space space space space space space space space space space open parentheses 4 close parentheses end cell end table`
+$\begin{gathered} 15 x + 6 y & = 33 ( 3 ) \\ 8 x - 6 y & = 36 ( 4 ) \end{gathered}$
 
 > *The 6y terms have different signs, so they can be eliminated by adding equation (4) to equation (3). *
 
-`space space space space space space space space space space 15 x space plus space 6 y space equals space 33 space space space space space space space space space space space space
-bottom enclose space plus open parentheses space space space space space space 8 x space minus space 6 y space equals space 36 close parentheses space end enclose
-space space space space space space space space space space 23 x space space space space space space space space space space space space space equals space 69 space`
+`15 x + 6 y = 33 bottom + ( 8 x - 6 y = 36 ) 23 x = 69`
 
 **[1]**
 
 > *Solve the equation to find** x  **by dividing both sides by 23.*
 
-`table row cell x space end cell equals cell space 69 over 23 equals space 3 end cell end table`
+$\begin{gathered} x & = \frac{69}{23} = 3 \end{gathered}$
 
 **[1]**
 
 > *Substitute *$x=3$* into either of the two original equations**.*
 
-`open parentheses 1 close parentheses space space space space space 5 open parentheses 3 close parentheses space plus space 2 y space equals space 11`
+$( 1 ) 5 ( 3 ) + 2 y = 11$
 
 **[1]**
 
 > *Solve this equation to find** y.*
 
-`table row cell 15 space plus space 2 y space end cell equals cell space 11 end cell row cell 2 y space end cell equals cell space 11 space minus space 15 end cell row cell 2 y space end cell equals cell space minus 4 space end cell row cell y space end cell equals cell fraction numerator negative 4 over denominator 2 end fraction space equals space minus 2 end cell end table`
+$\begin{gathered} 15 + 2 y & = 11 \\ 2 y & = 11 - 15 \\ 2 y & = - 4 \\ y & = \frac{- 4}{2} = - 2 \end{gathered}$
 
 > *Substitute **x** = 3  and **y** = - 2 into the other equation to check that they are correct*
 
-`table row cell open parentheses 2 close parentheses space space space space space 4 x space minus space 3 y space end cell equals cell space 18 end cell row cell 4 open parentheses 3 close parentheses space minus space 3 open parentheses negative 2 close parentheses space end cell equals cell space 18 end cell row cell 12 space minus open parentheses negative 6 close parentheses space end cell equals cell space 18 end cell row cell 18 space end cell equals cell space 18 end cell end table`
+$\begin{gathered} ( 2 ) 4 x - 3 y & = 18 \\ 4 ( 3 ) - 3 ( - 2 ) & = 18 \\ 12 - ( - 6 ) & = 18 \\ 18 & = 18 \end{gathered}$
 
 $x=3,y=-2$* ***[1]**
 
@@ -525,41 +511,39 @@ $x=3,y=-2$* ***[1]**
 ### 22() — 4 marks
 > *Number the equations.*
 
-> `table row cell 3 x space plus space 2 y space end cell equals cell space 4 space space space space space space space space space space space space space space open parentheses 1 close parentheses end cell row cell 4 x space plus space 5 y space end cell equals cell space 17 space space space space space space space space space space space space open parentheses 2 close parentheses end cell end table`* *
+> $\begin{gathered} 3 x + 2 y & = 4 ( 1 ) \\ 4 x + 5 y & = 17 ( 2 ) \end{gathered}$* *
 
 > *Make the **x** terms equal by multiplying all parts of equation (1) by 4 and all parts of equation (2) by 3. *
 
 > *This will give two 12**x **terms with the same signs. The question could also be done by making the **y **terms equal by multiplying all parts of equation (1) by 5 and all parts of equation (2) by 2.*
 
-`table row cell 12 x space plus space 8 y space end cell equals cell space 16 space space space space space space space space space space open parentheses 3 close parentheses end cell row cell 12 x plus 15 y space end cell equals cell space 51 space space space space space space space space space space open parentheses 4 close parentheses end cell end table`
+$\begin{gathered} 12 x + 8 y & = 16 ( 3 ) \\ 12 x + 15 y & = 51 ( 4 ) \end{gathered}$
 
 > *Eliminate the **x** terms by subtracting equation (4) from equation (3). Be careful to subtract every term.*
 
-`space space space space space space space space space space 12 x space plus space space space 8 y space equals space 16 space space space space space space space space space space space space
-bottom enclose space minus open parentheses space space space 12 x space plus space 15 y space equals space 51 close parentheses space end enclose
-space space space space space space space space space space space space space space space space space space space space space minus 7 y space equals space minus 35 space`
+`12 x + 8 y = 16 bottom - ( 12 x + 15 y = 51 ) - 7 y = - 35`
 
 **[1]**
 
 > *Solve the equation to find** y  **by dividing both sides by -7.*
 
-`table row cell y space end cell equals cell space fraction numerator negative 35 over denominator negative 7 end fraction equals space 5 end cell end table`
+$\begin{gathered} y & = \frac{- 35}{- 7} = 5 \end{gathered}$
 
 **[1]**
 
 > *Substitute *$y=5$* into either of the two original equations**.*
 
-`open parentheses 1 close parentheses space space space space space 3 x space plus space 2 open parentheses 5 close parentheses space equals space 4`
+$( 1 ) 3 x + 2 ( 5 ) = 4$
 
 **[1]**
 
 > *Solve this equation to find** x.*
 
-`table row cell 3 x space plus space 10 space end cell equals cell space 4 end cell row cell space 3 x space end cell equals cell space 4 space minus space 10 end cell row cell 3 x space end cell equals cell space minus 6 space end cell row cell x space end cell equals cell fraction numerator negative 6 over denominator 3 end fraction space equals space minus 2 end cell end table`
+$\begin{gathered} 3 x + 10 & = 4 \\ 3 x & = 4 - 10 \\ 3 x & = - 6 \\ x & = \frac{- 6}{3} = - 2 \end{gathered}$
 
 > *Substitute **x** = -2  and **y** = 5 into the other equation to check that they are correct*
 
-`table row cell open parentheses 2 close parentheses space space space space space 4 x space plus space 5 y space end cell equals cell space 17 end cell row cell 4 open parentheses negative 2 close parentheses space plus space 5 open parentheses 5 close parentheses space end cell equals cell space 17 end cell row cell space minus 8 space plus space 25 space end cell equals cell space 17 end cell row cell 17 space end cell equals cell space 17 end cell end table`
+$\begin{gathered} ( 2 ) 4 x + 5 y & = 17 \\ 4 ( - 2 ) + 5 ( 5 ) & = 17 \\ - 8 + 25 & = 17 \\ 17 & = 17 \end{gathered}$
 
 $x=-2,y=5$* ***[1]**
 
@@ -568,41 +552,39 @@ $x=-2,y=5$* ***[1]**
 ### 18() — 4 marks
 > *Number the equations.*
 
-> `table row cell 4 x space plus space 7 y space end cell equals cell space 1 space space space space space space space space space space space space space space open parentheses 1 close parentheses end cell row cell 3 x space plus space 10 y space end cell equals cell space 15 space space space space space space space space space space space space open parentheses 2 close parentheses end cell end table`* *
+> $\begin{gathered} 4 x + 7 y & = 1 ( 1 ) \\ 3 x + 10 y & = 15 ( 2 ) \end{gathered}$* *
 
 > *Make the **x** terms equal by multiplying all parts of equation (1) by 3 and all parts of equation (2) by 4. *
 
 > *This will give two 12**x **terms with the same signs. The question could also be done by making the **y **terms equal by multiplying all parts of equation (1) by 7 and all parts of equation (2) by 10.*
 
-`table row cell 12 x space plus space 21 y space end cell equals cell space 3 space space space space space space space space space space space space open parentheses 3 close parentheses end cell row cell 12 x space plus space 40 y space end cell equals cell space 60 space space space space space space space space space space open parentheses 4 close parentheses end cell end table`
+$\begin{gathered} 12 x + 21 y & = 3 ( 3 ) \\ 12 x + 40 y & = 60 ( 4 ) \end{gathered}$
 
 > *Eliminate the **x** terms by subtracting equation (3) from equation (4). Be careful to subtract every term.*
 
-`space space space space space space space space space space 12 x space plus space 40 y space equals space 60 space space space space space space space space space space space space
-bottom enclose space minus open parentheses space space space 12 x space plus space 21 y space equals space space space 3 close parentheses space end enclose
-space space space space space space space space space space space space space space space space space space space space space space space 19 y space equals space 57 space`
+`12 x + 40 y = 60 bottom - ( 12 x + 21 y = 3 ) 19 y = 57`
 
 **[1]**
 
 > *Solve the equation to find** y  **by dividing both sides by 19.*
 
-`table row cell y space end cell equals cell space 57 over 19 equals space 3 end cell end table`
+$\begin{gathered} y & = \frac{57}{19} = 3 \end{gathered}$
 
 **[1]**
 
 > *Substitute *$y=3$* into either of the two original equations**.*
 
-`open parentheses 1 close parentheses space space space space space 4 x space plus space 7 open parentheses 3 close parentheses space equals space 1`
+$( 1 ) 4 x + 7 ( 3 ) = 1$
 
 **[1]**
 
 > *Solve this equation to find** x.*
 
-`table row cell 4 x space plus space 21 space end cell equals cell space 1 end cell row cell space 4 x space end cell equals cell space 1 space minus space 21 end cell row cell 4 x space end cell equals cell space minus 20 space end cell row cell x space end cell equals cell fraction numerator negative 20 over denominator 4 end fraction space equals space minus 5 end cell end table`
+$\begin{gathered} 4 x + 21 & = 1 \\ 4 x & = 1 - 21 \\ 4 x & = - 20 \\ x & = \frac{- 20}{4} = - 5 \end{gathered}$
 
 > *Substitute **x** = -5  and **y** = 3 into the other equation to check that they are correct*
 
-`table row cell open parentheses 2 close parentheses space space space space space 3 x space plus space 10 y space end cell equals cell space 15 end cell row cell 3 open parentheses negative 5 close parentheses space plus space 10 open parentheses 3 close parentheses space end cell equals cell space 15 end cell row cell space minus 15 space plus space 30 space end cell equals cell space 15 end cell row cell 15 space end cell equals cell space 15 end cell end table`
+$\begin{gathered} ( 2 ) 3 x + 10 y & = 15 \\ 3 ( - 5 ) + 10 ( 3 ) & = 15 \\ - 15 + 30 & = 15 \\ 15 & = 15 \end{gathered}$
 
 $x=-5,y=3$* ***[1]**
 
@@ -611,41 +593,39 @@ $x=-5,y=3$* ***[1]**
 ### 15() — 4 marks
 > *Number the equations.*
 
-> `table row cell 3 x space plus space 4 y space end cell equals cell space 5 space space space space space space space space space space space space open parentheses 1 close parentheses end cell row cell 2 x space minus space 3 y space end cell equals cell space 9 space space space space space space space space space space space space open parentheses 2 close parentheses end cell end table`* *
+> $\begin{gathered} 3 x + 4 y & = 5 ( 1 ) \\ 2 x - 3 y & = 9 ( 2 ) \end{gathered}$* *
 
 > *Make the **x** terms equal by multiplying all parts of equation (1) by 2 and all parts of equation (2) by 3. *
 
 > *This will give two 6**x **terms with the same signs. The question could also be done by making the **y **terms equal by multiplying all parts of equation (1) by 3 and all parts of equation (2) by 4.*
 
-`table row cell 6 x space plus space 8 y space end cell equals cell space 10 space space space space space space space space space space open parentheses 3 close parentheses end cell row cell 6 x space minus space 9 y space end cell equals cell space 27 space space space space space space space space space space open parentheses 4 close parentheses end cell end table`
+$\begin{gathered} 6 x + 8 y & = 10 ( 3 ) \\ 6 x - 9 y & = 27 ( 4 ) \end{gathered}$
 
 > *Eliminate the **x** terms by subtracting equation (4) from equation (3). Be careful to subtract every term and remember that subtracting minus 9 is the same as adding it.*
 
-`space space space space space space space space space space 6 x space plus space 8 y space equals space 10 space space space space space space space space space space space space
-bottom enclose space minus open parentheses space space space 6 x space minus space 9 y space equals space 27 close parentheses space end enclose
-space space space space space space space space space space space space space space space space space space 17 y space equals space minus 17 space`
+`6 x + 8 y = 10 bottom - ( 6 x - 9 y = 27 ) 17 y = - 17`
 
 **[1]**
 
 > *Solve the equation to find** y  **by dividing both sides by 17.*
 
-`table row cell y space end cell equals cell space fraction numerator negative 17 over denominator 17 end fraction equals space minus 1 end cell end table`
+$\begin{gathered} y & = \frac{- 17}{17} = - 1 \end{gathered}$
 
 **[1]**
 
 > *Substitute *$y=-1$* into either of the two original equations**.*
 
-`open parentheses 1 close parentheses space space space space space 3 x space plus space 4 open parentheses negative 1 close parentheses space equals space 5`
+$( 1 ) 3 x + 4 ( - 1 ) = 5$
 
 **[1]**
 
 > *Solve this equation to find** x.*
 
-`table row cell 3 x space minus space 4 space end cell equals cell space 5 end cell row cell space 3 x space end cell equals cell space 5 space plus space 4 end cell row cell 3 x space end cell equals cell space 9 space end cell row cell x space end cell equals cell 9 over 3 space equals space 3 end cell end table`
+$\begin{gathered} 3 x - 4 & = 5 \\ 3 x & = 5 + 4 \\ 3 x & = 9 \\ x & = \frac{9}{3} = 3 \end{gathered}$
 
 > *Substitute **x** = 3 and **y** = -1 into the other equation to check that they are correct*
 
-`table row cell open parentheses 2 close parentheses space space space space space 2 x space minus space 3 y space end cell equals cell space 9 end cell row cell 2 open parentheses 3 close parentheses space minus space 3 open parentheses negative 1 close parentheses space end cell equals cell space 9 end cell row cell space 6 space minus space minus 3 space end cell equals cell space 9 end cell row cell 9 space end cell equals cell space 9 space end cell end table`
+$\begin{gathered} ( 2 ) 2 x - 3 y & = 9 \\ 2 ( 3 ) - 3 ( - 1 ) & = 9 \\ 6 - - 3 & = 9 \\ 9 & = 9 \end{gathered}$
 
 $x=3,y=-1$* ***[1]**
 
@@ -661,7 +641,7 @@ $x=3,y=-1$* ***[1]**
 
 > *Read the scale carefully, especially where negative numbers are involved and make sure to get your **x** and **y** values the right way round.*
 
-`table attributes columnalign right center left columnspacing 0px end attributes row bold italic x bold equals cell bold 2 bold. bold 25 end cell row bold italic y bold equals cell bold minus bold 1 bold. bold 3 end cell end table`** **
+$\begin{array}{rcl} x = 2 . 25 \\ y = - 1 . 3 \end{array}$** **
 **One mark for each**** [2]**
 
 **Values of 2.2 to 2.3 inclusive are allowed for ****x****. **
@@ -678,39 +658,37 @@ $x=3,y=-1$* ***[1]**
 
 > *Use the given dimensions (7 cm and 11 cm) to form two equations in terms of **l ** and **w.*
 
-`table row cell l space plus space w space end cell equals cell space 7 end cell row cell l space plus space l space plus space w space end cell equals cell space 11 end cell end table`
+$\begin{gathered} l + w & = 7 \\ l + l + w & = 11 \end{gathered}$
 
 **Either correct**** [1]**
 
 > *Simplify and number the equations.*
 
-> `table row cell l space plus space w space end cell equals cell space 7 space space space space space space space space space space space space open parentheses 1 close parentheses end cell row cell 2 l space plus space w space end cell equals cell space 11 space space space space space space space space space space open parentheses 2 close parentheses end cell end table`* *
+> $\begin{gathered} l + w & = 7 ( 1 ) \\ 2 l + w & = 11 ( 2 ) \end{gathered}$* *
 
 > *Eliminate the **w** terms by subtracting equation (1) from equation (2).*
 
 > * Be careful to subtract every term.*
 
-`space space space space space space space space space space 2 l space plus space w space equals space 11 space space space space space space space space space space space space
-bottom enclose negative space space space space open parentheses space space space space l space plus space w space equals space 7 close parentheses space space space space space space end enclose
-space space space space space space space space space space space space space l space space space space space space space space space space equals space 4`
+`2 l + w = 11 bottom - ( l + w = 7 ) l = 4`
 
 **[1]**
 
 > *Substitute *$l=4$* into either of the two original equations**.*
 
-`open parentheses 1 close parentheses space space space space space 4 space plus space w space equals space 7`
+$( 1 ) 4 + w = 7$
 
 > *Solve this equation to find** w.*
 
-`table row cell w space end cell equals cell space 7 space minus space 4 space equals space 3 end cell end table`
+$\begin{gathered} w & = 7 - 4 = 3 \end{gathered}$
 
 > *So  **w**  =  3  and **l** = -4. Use this to find the area of one tile*
 
-`table row cell Area subscript open parentheses o n e space t i l e close parentheses end subscript space end cell equals cell space 4 space cross times space 3 space equals space 12 space cm squared end cell end table`
+$\begin{gathered} Area_{( o n e t i l e )} & = 4 \times 3 = 12 cm^{2} \end{gathered}$
 
 > *The total area of the pattern will be the area of 4 tiles.*
 
-`table row cell Area subscript open parentheses p a t t e r n close parentheses end subscript space end cell equals cell space 4 space cross times space 12 space equals space 48 space cm squared end cell end table`
+$\begin{gathered} Area_{( p a t t e r n )} & = 4 \times 12 = 48 cm^{2} \end{gathered}$
 
 **[1]**
 
@@ -721,7 +699,7 @@ $48\mathrm{cm}^{2}$** ****[1]**
 ### 12() — 4 marks
 > *Number the equations.*
 
-> `table row cell 2 x plus 7 y end cell equals cell 17 space space space space space space space space space space space space open parentheses 1 close parentheses end cell row cell 5 x plus 3 y end cell equals cell negative 1 space space space space space space space space space space open parentheses 2 close parentheses end cell end table`* *
+> $\begin{gathered} 2 x + 7 y & = 17 ( 1 ) \\ 5 x + 3 y & = - 1 ( 2 ) \end{gathered}$* *
 
 > *Make the **x** terms equal by multiplying all parts of equation (1) by 5 and all parts of equation (2) by 2. *
 
@@ -729,7 +707,7 @@ $48\mathrm{cm}^{2}$** ****[1]**
 
 > *(The question could also be done by making the **y **terms equal by multiplying all parts of equation (1) by 3 and all parts of equation (2) by 7.)*
 
-`table row cell 10 x plus 35 y end cell equals cell 85 space space space space space space space space space space open parentheses 3 close parentheses end cell row cell 10 x plus 6 y end cell equals cell negative 2 space space space space space space space space open parentheses 4 close parentheses end cell end table`
+$\begin{gathered} 10 x + 35 y & = 85 ( 3 ) \\ 10 x + 6 y & = - 2 ( 4 ) \end{gathered}$
 
 > *Eliminate the **x** terms by subtracting equation (4) from equation (3). *
 
@@ -741,21 +719,21 @@ $29y=87$
 
 > *Solve the equation to find** y  **by dividing both sides by 29.*
 
-`table attributes columnalign right center left columnspacing 0px end attributes row y equals cell 87 over 29 equals 3 end cell end table`
+$\begin{array}{rcl} y = \frac{87}{29} = 3 \end{array}$
 
 > *Substitute *$y=3$* into either of the two original equations**.*
 
-`open parentheses 1 close parentheses space space space space space 2 x plus 7 open parentheses 3 close parentheses equals 17`
+$( 1 ) 2 x + 7 ( 3 ) = 17$
 
 **[1]**
 
 > *Solve this equation to find** x.*
 
-`table row cell 2 x plus 21 end cell equals 17 row cell 2 x end cell equals cell negative 4 end cell row x equals cell negative 2 end cell end table`
+$\begin{gathered} 2 x + 21 & = 17 \\ 2 x & = - 4 \\ x = - 2 \end{gathered}$
 
 > *Substitute *$x=-2$* and *$y=3$* into the other original equation to check that they are correct.*
 
-`table row cell open parentheses 2 close parentheses space space space space space 5 x plus 3 y end cell equals cell 5 open parentheses negative 2 close parentheses plus 3 open parentheses 3 close parentheses end cell row blank equals cell negative 10 plus 9 end cell row blank equals cell negative 1 end cell end table`
+$\begin{gathered} ( 2 ) 5 x + 3 y & = 5 ( - 2 ) + 3 ( 3 ) \\ = - 10 + 9 \\ = - 1 \end{gathered}$
 
 > *Be sure to get **x** and **y** the right way round for the final answer!*
 
@@ -769,7 +747,7 @@ $x=-2,y=3$* *
 
 Make the y values the same by multiplying the top equation by 3 and the bottom equation by 10
 
-`table row cell 9 x space plus space 15 y space end cell equals cell space 36 end cell row cell 25 x space plus space 15 y space end cell equals cell space 80 end cell end table`
+$\begin{gathered} 9 x + 15 y & = 36 \\ 25 x + 15 y & = 80 \end{gathered}$
 
 Subtract the bottom equation from the top equation
 
@@ -785,9 +763,9 @@ $x=2.75$
 
 Find the second variable by substituting in x to the first equation
 
-`3 space open parentheses 2.75 close parentheses space plus space 5 y space equals space 12
-8.25 space plus thin space 5 y space equals space 12
-5 y space equals space 3.75`
+$3 ( 2.75 ) + 5 y = 12
+8.25 + 5 y = 12
+5 y = 3.75$
 
 **[M1]**
 
@@ -813,9 +791,9 @@ $y=0.75$
 
 Find the second variable by substituting in x to the first equation
 
-`3 x space plus 5 open parentheses 0.75 close parentheses space equals space 12
-3 x space plus 3.75 equals space 12
-3 x space equals space 8.25`
+$3 x + 5 ( 0.75 ) = 12
+3 x + 3.75 = 12
+3 x = 8.25$
 
 **[M1]**
 
@@ -828,13 +806,13 @@ $y=0.75,x=2.75$
 ### 8() — 3 marks
 > *Number the equations.*
 
-> `table row cell 5 a plus 2 c end cell equals cell 10 space space space space space space space space space space space space open parentheses 1 close parentheses end cell row cell 2 a minus 4 c end cell equals cell 7 space space space space space space space space space space space space space space open parentheses 2 close parentheses end cell end table`* *
+> $\begin{gathered} 5 a + 2 c & = 10 ( 1 ) \\ 2 a - 4 c & = 7 ( 2 ) \end{gathered}$* *
 
 > *Make the **c** terms equal by multiplying all parts of equation (1) by 2 and leaving the second equation as it is. *
 
 > *This will give two 4**c **terms with opposite signs.*
 
-`table row cell 10 a plus 4 c end cell equals cell 20 space space space space space space space space space space open parentheses 3 close parentheses end cell end table`
+$\begin{gathered} 10 a + 4 c & = 20 ( 3 ) \end{gathered}$
 
 **[1]**
 
@@ -846,21 +824,21 @@ $12a=27$
 
 > *Solve the equation to find** a  **by dividing both sides by 12.*
 
-`table row a equals cell 27 over 12 equals 9 over 4 equals 2.25 end cell end table`
+$\begin{gathered} a = \frac{27}{12} = \frac{9}{4} = 2.25 \end{gathered}$
 
 > *Substitute *$a=2.25$* into either of the two original equations**.*
 
-`open parentheses 1 close parentheses space space space space space 5 open parentheses 2.25 close parentheses plus 2 c equals 10`
+$( 1 ) 5 ( 2.25 ) + 2 c = 10$
 
 > *Solve this equation to find** c.*
 
-`table row cell 11.25 plus 2 c end cell equals 10 row cell 2 c end cell equals cell negative 1.25 end cell row c equals cell negative 0.625 end cell end table`
+$\begin{gathered} 11.25 + 2 c & = 10 \\ 2 c & = - 1.25 \\ c = - 0.625 \end{gathered}$
 
 **[1]**
 
 > *Substitute *$a=2.25$* and *$c=-0.625$* into the other original equation to check that they are correct.*
 
-`table row cell open parentheses 2 close parentheses space space space space space 2 a minus 4 c end cell equals cell 2 open parentheses 2.25 close parentheses minus 4 open parentheses negative 0.625 close parentheses end cell row blank equals cell 4.5 plus 2.5 end cell row blank equals 7 end table`
+$\begin{gathered} ( 2 ) 2 a - 4 c & = 2 ( 2.25 ) - 4 ( - 0.625 ) \\ = 4.5 + 2.5 \\ = 7 \end{gathered}$
 
 > *Be sure to get **a** and **c** the right way round for the final answer!*
 
@@ -871,13 +849,13 @@ $a=2.25,c=-0.625$** [1]**
 ### 15() — 4 marks
 > *Number the equations.*
 
-> `table row cell 7 x minus 2 y end cell equals cell 34 space space space space space space space space space space space space open parentheses 1 close parentheses end cell row cell 3 x plus 5 y end cell equals cell negative 3 space space space space space space space space space space open parentheses 2 close parentheses end cell end table`* *
+> $\begin{gathered} 7 x - 2 y & = 34 ( 1 ) \\ 3 x + 5 y & = - 3 ( 2 ) \end{gathered}$* *
 
 > *Make the **y** terms equal by multiplying all parts of equation (1) by 5 and multiplying all parts of equation (2) by 2. *
 
 > *This will give two 10**y **terms with opposite signs.*
 
-`table row cell 35 x minus 10 y end cell equals cell 170 space space space space space space space space space space open parentheses 3 close parentheses end cell row cell 6 x plus 10 y end cell equals cell negative 6 space space space space space space space space space space open parentheses 4 close parentheses end cell end table`
+$\begin{gathered} 35 x - 10 y & = 170 ( 3 ) \\ 6 x + 10 y & = - 6 ( 4 ) \end{gathered}$
 
 **[1]**
 
@@ -889,21 +867,21 @@ $41x=164$
 
 > *Solve the equation to find** x **by dividing both sides by 41.*
 
-`table attributes columnalign right center left columnspacing 0px end attributes row x equals cell 164 over 41 equals 4 end cell end table`
+$\begin{array}{rcl} x = \frac{164}{41} = 4 \end{array}$
 
 > *Substitute *$x=4$* into either of the two original equations**.*
 
-`open parentheses 1 close parentheses space space space space space 7 open parentheses 4 close parentheses minus 2 y equals 34`
+$( 1 ) 7 ( 4 ) - 2 y = 34$
 
 > *Solve this equation to find** y.*
 
-`table attributes columnalign right center left columnspacing 0px end attributes row cell 28 minus 2 y end cell equals 34 row cell 2 y end cell equals cell negative 6 end cell row y equals cell negative 3 end cell end table`
+$\begin{array}{rcl} 28 - 2 y & = 34 \\ 2 y & = - 6 \\ y = - 3 \end{array}$
 
 **[1]**
 
 > *Substitute *$x=4$* and *$y=-3$* into the other original equation to check that they are correct.*
 
-`table row cell open parentheses 2 close parentheses space space space space space 3 x plus 5 y end cell equals cell 3 open parentheses 4 close parentheses plus 5 open parentheses negative 3 close parentheses end cell row blank equals cell 12 minus 15 end cell row blank equals cell negative 3 end cell end table`
+$\begin{gathered} ( 2 ) 3 x + 5 y & = 3 ( 4 ) + 5 ( - 3 ) \\ = 12 - 15 \\ = - 3 \end{gathered}$
 
 > *Be sure to get **x** and **y** the right way round for the final answer!*
 
@@ -914,18 +892,18 @@ $x=4,y=-3$** [1]**
 ### 18() — 4 marks
 > *Number the equations.*
 
-> `table row cell 2 x space plus space 4 y space end cell equals cell space minus 9 space space space space space space space space space space space space space space space space space space space open parentheses 1 close parentheses end cell row cell space 2 y space end cell equals cell space 4 x space minus space 7 space space space space space space space space space space space space open parentheses 2 close parentheses end cell end table`* *
+> $\begin{gathered} 2 x + 4 y & = - 9 ( 1 ) \\ 2 y & = 4 x - 7 ( 2 ) \end{gathered}$* *
 
 > *This can be done either by changing one equation and eliminating a variable, or by substituting equation (2) directly into equation (1).  *
 
 > *For the substitution method, begin by multiplying equation (2) by 2 to make it equal to 4**y.*
 
-`space 2 open parentheses 2 close parentheses space space space space space space space 2 open parentheses 2 y space equals space 4 x space minus space 7 close parentheses space space space space space space space space
-space space space space space space space space space space space space space space space space space space space 4 y space equals space 8 x space minus space 14 space space space space space space space space space space space space open parentheses 3 close parentheses`
+$2 ( 2 ) 2 ( 2 y = 4 x - 7 ) 
+ 4 y = 8 x - 14 ( 3 )$
 
 > *Substitute equation (3) into equation (1).*
 
-`2 x space plus space open parentheses 8 x space minus space 14 close parentheses space equals space minus 9`
+$2 x + ( 8 x - 14 ) = - 9$
 
 **[1]**
 
@@ -935,23 +913,23 @@ $10x-14=-9$
 
 > *Solve the equation to find** x  **by adding 14 and then dividing both sides by 10.*
 
-`table row cell 10 x space end cell equals cell space minus 9 space plus space 14 space end cell row cell 10 x space end cell equals cell space 5 end cell row cell x space end cell equals cell space 5 over 10 end cell row cell x space end cell equals cell space 1 half end cell end table`
+$\begin{gathered} 10 x & = - 9 + 14 \\ 10 x & = 5 \\ x & = \frac{5}{10} \\ x & = 1 \frac{1}{2} \end{gathered}$
 
 **[1]**
 
 > *Substitute *$x=\frac{1}{2}$* into either of the two original equations**.*
 
-`open parentheses 2 close parentheses space space space space space 2 y space equals space 4 open parentheses 1 half close parentheses space minus space 7`
+$( 2 ) 2 y = 4 ( 1 \frac{1}{2} ) - 7$
 
 **[1]**
 
 > *Solve this equation to find** y.*
 
-`table row cell 2 y space end cell equals cell space 2 space minus space 7 end cell row cell 2 y space end cell equals cell space minus 5 end cell row cell y space end cell equals cell space minus 5 over 2 end cell end table`
+$\begin{gathered} 2 y & = 2 - 7 \\ 2 y & = - 5 \\ y & = - \frac{5}{2} \end{gathered}$
 
 > *Substitute *$x=\frac{1}{2}$*  and *$y=-\frac{5}{2}$* into the other equation to check that they are correct*
 
-`table row cell open parentheses 1 close parentheses space space space space space space space space space space 2 x space plus space 4 y space end cell equals cell space minus 9 end cell row cell 2 open parentheses 1 half close parentheses space plus space 4 open parentheses negative 5 over 2 close parentheses space end cell equals cell space minus 9 end cell row cell space 1 space minus fraction numerator space 20 space over denominator 2 end fraction end cell equals cell space minus 9 end cell row cell 1 space minus space 10 space end cell equals cell space minus 9 end cell row cell negative 9 space end cell equals cell space minus 9 end cell end table`
+$\begin{gathered} ( 1 ) 2 x + 4 y & = - 9 \\ 2 ( 1 \frac{1}{2} ) + 4 ( - \frac{5}{2} ) & = - 9 \\ 1 - \frac{ 20 }{2} & = - 9 \\ 1 - 10 & = - 9 \\ - 9 & = - 9 \end{gathered}$
 
 $x=\frac{1}{2},y=-\frac{5}{2}$* ***[1]**
 
@@ -962,7 +940,7 @@ $x=\frac{1}{2},y=-\frac{5}{2}$* ***[1]**
 
 > *Rearrange the equation to the form *$y=mx+c$* so that the equation can be drawn using the gradient and **y-** intercept.*
 
-`table row cell 3 x space plus space 2 y space end cell equals cell space 6 end cell row cell negative 3 x space space space space space space space space space space space space space end cell equals cell space space space space space space space space space space space space space space minus 3 x space end cell row cell 2 y space end cell equals cell space minus 3 x space plus space 6 end cell row cell divided by 2 space space space space space space space space space space space space space end cell equals cell space space space space space space space space space space space space space space divided by 2 space end cell row cell y space end cell equals cell space fraction numerator negative 3 over denominator 2 end fraction x space plus space 3 end cell end table`
+$\begin{gathered} 3 x + 2 y & = 6 \\ - 3 x & = - 3 x \\ 2 y & = - 3 x + 6 \\ \div 2 & = \div 2 \\ y & = \frac{- 3}{2} x + 3 \end{gathered}$
 
 *The **y **intercept is at (0, 3) so plot this point. The gradient is -1.5, so from (0, 3), count 1 unit to the right and and 1.5 units down. Mark a new point at (1, 1.5).*
 
@@ -984,7 +962,7 @@ $x=\frac{1}{2},y=-\frac{5}{2}$* ***[1]**
 
 > *Read the scale carefully, especially where negative numbers are involved and make sure to get your **x** and **y** values the right way round.*
 
-`table row bold italic x bold equals cell bold 2 bold. bold 5 bold space bold space bold and bold space bold space bold italic y bold equals bold minus bold 0 bold. bold 7 end cell end table`  **[1]**
+`| x = 2 . 5 and y = - 0 . 7 | |`  **[1]**
 
 ## Q27 — medium — 4 marks · exam-questions
 
@@ -994,34 +972,33 @@ $x=\frac{1}{2},y=-\frac{5}{2}$* ***[1]**
 > **[exam-tip]**
 > The method used here equates the coefficients of $y$  but equating the coefficients of $x$ will also lead to the correct solution.
 
-`table row cell 7 x plus 3 y end cell equals cell 20 space space space space open parentheses cross times 5 close parentheses end cell row cell 3 x plus 5 y end cell equals cell 3 space space space space space space open parentheses cross times 3 close parentheses end cell row blank blank blank row cell 35 x plus 15 y end cell equals 100 row cell 9 x plus 15 y end cell equals 9 end table`
+$\begin{gathered} 7 x + 3 y & = 20 ( \times 5 ) \\ 3 x + 5 y & = 3 ( \times 3 ) \\ \\ 35 x + 15 y & = 100 \\ 9 x + 15 y & = 9 \end{gathered}$
 
 > *Subtract the second equation from the first equation to eliminate the 'equated' variable, in this case the '*$y$*' variable*
 
-`space space space space 35 x plus 15 y equals 100
-minus open parentheses 9 x plus 15 y equals 9 close parentheses
-minus negative negative negative negative negative negative
-space space space space space space space space space space space space space space space 26 x equals 91
-`
+$35 x + 15 y = 100
+- ( 9 x + 15 y = 9 )
+- - - - - - -
+ 26 x = 91$
 
 **[M1]**
 
 > *Solve for one variable, in this case '*$x$*'*
 
-`table row x equals cell 91 divided by 26 end cell row blank equals cell 3.5 end cell end table`
+$\begin{gathered} x = 91 \div 26 \\ = 3.5 \end{gathered}$
 
 **[A1]**
 
 > *Substitute the value into either of the equations and solve to find the second variable*
 
-`table row cell 7 open parentheses 3.5 close parentheses plus 3 y end cell equals 20 row cell 24.5 plus 3 y end cell equals 20 row cell 3 y end cell equals cell negative 4.5 end cell row y equals cell negative 1.5 end cell end table`
+$\begin{gathered} 7 ( 3.5 ) + 3 y & = 20 \\ 24.5 + 3 y & = 20 \\ 3 y & = - 4.5 \\ y = - 1.5 \end{gathered}$
 
 **[M1]**
 
 > **[exam-tip]**
 > It's a good idea to use the original equation you *didn't* use to find the $y$ value, to check your solution:
 > 
-> `table row cell 3 open parentheses 3.5 close parentheses plus 5 open parentheses negative 1.5 close parentheses end cell equals 3 row cell 10.5 minus 7.5 end cell equals 3 row 3 equals cell 3 space space space ✔ end cell end table`
+> $\begin{gathered} 3 ( 3.5 ) + 5 ( - 1.5 ) & = 3 \\ 10.5 - 7.5 & = 3 \\ 3 = 3 ✔ \end{gathered}$
 
 **Final answer:** $x=3.5$** and **$y=-1.5$
 
@@ -1045,10 +1022,10 @@ $21x+9y=24$
 
 > *Subtract the original first equation from your new second equation to eliminate y*
 
-`space space space space space 21 x space plus space 9 y space equals space 24
-minus open parentheses 2 x space plus space 9 y space equals space 14.5 close parentheses
-minus negative negative negative negative negative negative negative negative negative
-space space space space space space space space space space space space space space space 19 x equals 9.5`
+$21 x + 9 y = 24
+- ( 2 x + 9 y = 14.5 )
+- - - - - - - - - -
+ 19 x = 9.5$
 
 **[M1]**
 
@@ -1058,14 +1035,14 @@ $x=\frac{9.5}{19}=0.5$
 
 > *Substitute back into one of the original equations and solve to get y*
 
-`table row cell 2 open parentheses 0.5 close parentheses space plus space 9 y space end cell equals cell space 14.5 end cell row cell 9 y space end cell equals cell space 13.5 end cell row y equals cell fraction numerator 13.5 over denominator 9 end fraction end cell row y equals cell 1.5 end cell end table`
+$\begin{gathered} 2 ( 0.5 ) + 9 y & = 14.5 \\ 9 y & = 13.5 \\ y = \frac{13.5}{9} \\ y = 1.5 \end{gathered}$
 
 **[M1]**
 
 > **[exam-tip]**
 > It is a good idea to check your answers, by substituting them into the original equation you didn't use to find $y$:
 > 
-> `table row cell 7 open parentheses 0.5 close parentheses plus 3 open parentheses 1.5 close parentheses end cell equals 8 row cell 3.5 plus 4.5 end cell equals 8 row 8 equals cell 8 space space space ✔ end cell end table`
+> $\begin{gathered} 7 ( 0.5 ) + 3 ( 1.5 ) & = 8 \\ 3.5 + 4.5 & = 8 \\ 8 = 8 ✔ \end{gathered}$
 
 $x=0.5,y=1.5$
 
@@ -1079,41 +1056,39 @@ $x=0.5,y=1.5$
 ### 17() — 4 marks
 > *Number the equations.*
 
-> `table row cell 2 x space plus space 3 y space end cell equals cell space 2 over 3 space space space space space space space space space space space space open parentheses 1 close parentheses end cell row cell 3 x space minus space 4 y space end cell equals cell space 18 space space space space space space space space space space space space open parentheses 2 close parentheses end cell end table`* *
+> $\begin{gathered} 2 x + 3 y & = \frac{2}{3} ( 1 ) \\ 3 x - 4 y & = 18 ( 2 ) \end{gathered}$* *
 
 > *Make the **x** terms equal by multiplying all parts of equation (1) by 3 and all parts of equation (2) by 2.*
 
 > * Choosing 3 is a good idea as it will also get rid of the fraction in equation (1), making the problem easier to deal with.*
 
-`table row cell 6 x space plus space 9 y space end cell equals cell space 2 space space space space space space space space space space space space open parentheses 3 close parentheses end cell row cell 6 x space minus space 8 y space end cell equals cell space 36 space space space space space space space space space space open parentheses 4 close parentheses end cell end table`
+$\begin{gathered} 6 x + 9 y & = 2 ( 3 ) \\ 6 x - 8 y & = 36 ( 4 ) \end{gathered}$
 
 > *Eliminate the **x** terms by subtracting equation (4) from equation (3). Be careful to subtract every term and remember that subtracting minus 8 is the same as adding it.*
 
-`space space space space space space space space space space 6 x space plus space 9 y space equals space 2 space space space space space space space space space space space space
-bottom enclose space minus open parentheses space space space 6 x space minus space 8 y space equals space 36 close parentheses space end enclose
-space space space space space space space space space space space space space space space space space space 17 y space equals space minus 34 space`
+`6 x + 9 y = 2 bottom - ( 6 x - 8 y = 36 ) 17 y = - 34`
 
 **[1]**
 
 > *Solve the equation to find** y  **by dividing both sides by 17.*
 
-`table row cell y space end cell equals cell space fraction numerator negative 34 over denominator 17 end fraction equals space minus 2 end cell end table`
+$\begin{gathered} y & = \frac{- 34}{17} = - 2 \end{gathered}$
 
 **[1]**
 
 > *Substitute *$y=-2$* into either of the two original equations**.*
 
-`open parentheses 2 close parentheses space space space space space 3 x space minus space 4 open parentheses negative 2 close parentheses space equals space 18`
+$( 2 ) 3 x - 4 ( - 2 ) = 18$
 
 **[1]**
 
 > *Solve this equation to find** x.*
 
-`table row cell 3 x space minus space minus 8 space end cell equals cell space 18 end cell row cell space 3 x space plus space 8 space end cell equals cell space 18 end cell row cell 3 x space end cell equals cell space 10 space end cell row cell x space end cell equals cell 10 over 3 end cell end table`
+$\begin{gathered} 3 x - - 8 & = 18 \\ 3 x + 8 & = 18 \\ 3 x & = 10 \\ x & = \frac{10}{3} \end{gathered}$
 
 > *Substitute *$x=\frac{10}{3}$* and *$y=-2$* into the other equation to check that they are correct*
 
-`table row cell open parentheses 1 close parentheses space space space space space space space space space space space space space space 2 x space plus space 3 y space end cell equals cell space 2 over 3 end cell row cell 2 open parentheses 10 over 3 close parentheses space plus space 3 open parentheses negative 2 close parentheses space end cell equals cell 2 over 3 end cell row cell fraction numerator space 20 space over denominator 3 end fraction minus space 6 space end cell equals cell 2 over 3 end cell row cell fraction numerator space 20 space over denominator 3 end fraction minus 18 over 3 space end cell equals cell 2 over 3 end cell row cell 2 over 3 end cell equals cell 2 over 3 end cell end table`
+$\begin{gathered} ( 1 ) 2 x + 3 y & = \frac{2}{3} \\ 2 ( \frac{10}{3} ) + 3 ( - 2 ) & = \frac{2}{3} \\ \frac{ 20 }{3} - 6 & = \frac{2}{3} \\ \frac{ 20 }{3} - \frac{18}{3} & = \frac{2}{3} \\ \frac{2}{3} & = \frac{2}{3} \end{gathered}$
 
 $x=\frac{10}{3},y=-2$* ***[1]**
 
@@ -1122,8 +1097,8 @@ $x=\frac{10}{3},y=-2$* ***[1]**
 ### 26() — 5 marks
 > *Number the equations.*
 
-> `x squared space plus space y squared space equals space 36 space space space space space space space space space space space space open parentheses 1 close parentheses
-x space equals space 2 y space plus space 6 space space space space space space space space space space space space space space space space open parentheses 2 close parentheses`* *
+> $x^{2} + y^{2} = 36 ( 1 )
+x = 2 y + 6 ( 2 )$* *
 
 > *There is one quadratic equation and one linear equation so this must be done by substitution.*
 
@@ -1131,44 +1106,44 @@ x space equals space 2 y space plus space 6 space space space space space space 
 
 > *Substitute *$x=2y+6$* into equation (1).*
 
-`open parentheses 2 y space plus space 6 close parentheses squared space plus space y squared space equals space 36`
+$( 2 y + 6 )^{2} + y^{2} = 36$
 
 **[1]**
 
 > *Expand the brackets, remember that a bracket squared should be treated the same as double brackets.*
 
-`open parentheses 2 y space plus space 6 close parentheses open parentheses 2 y space plus space 6 close parentheses space space plus space y squared space equals space 36
-4 y to the power of 2 space end exponent plus space 6 open parentheses 2 y close parentheses space plus space 6 open parentheses 2 y close parentheses space plus space 6 squared space plus space y to the power of 2 space end exponent equals space 36`
+$( 2 y + 6 ) ( 2 y + 6 ) + y^{2} = 36
+4 y^{2 } + 6 ( 2 y ) + 6 ( 2 y ) + 6^{2} + y^{2 } = 36$
 
 **[1]**
 
 > *Simplify.*
 
-`table row cell 4 y to the power of 2 space end exponent plus space 12 y space plus space 12 y space plus space 36 space plus space y to the power of 2 space end exponent end cell equals cell space 36 end cell row cell 5 y to the power of 2 space end exponent plus space 24 y space plus space 36 space end cell equals cell space 36 end cell end table`
+$\begin{gathered} 4 y^{2 } + 12 y + 12 y + 36 + y^{2 } & = 36 \\ 5 y^{2 } + 24 y + 36 & = 36 \end{gathered}$
 
 **[1]**
 
 > *Rearrange to form a quadratic equation that is equal to zero.*
 
-`table row cell 5 y to the power of 2 space end exponent plus space 24 y space plus space 36 space minus space 36 space end cell equals cell space 0 end cell row cell 5 y squared space plus space 24 y space end cell equals cell space 0 end cell end table`
+$\begin{gathered} 5 y^{2 } + 24 y + 36 - 36 & = 0 \\ 5 y^{2} + 24 y & = 0 \end{gathered}$
 
 > *The question does not give a specified degree of accuracy, so this can be factorised. *
 
-> *Take out the common factor of *`table row blank blank y end table`*.*
+> *Take out the common factor of *$\begin{gathered} y \end{gathered}$*.*
 
-`table row cell y open parentheses 5 y space plus space 24 close parentheses space end cell equals cell space 0 end cell end table`
+$\begin{gathered} y ( 5 y + 24 ) & = 0 \end{gathered}$
 
 > *Solve to find the values of *$y$*.*
 
 > * **Let each factor be equal to 0 and solve.*
 
-`table row cell y subscript 1 space end cell equals cell space 0 space space space space space space space space space space space space space space end cell row cell 5 y subscript 2 space plus space 24 space end cell equals cell space 0 space space rightwards double arrow space space y subscript 2 equals space minus 24 over 5 space equals space minus 4.8 end cell end table`
+$\begin{gathered} y_{1} & = 0 \\ 5 y_{2} + 24 & = 0 \Leftrightarrow y_{2} = - \frac{24}{5} = - 4.8 \end{gathered}$
 
 **[1]**
 
 > *Substitute the values of *$y$* **into one of the equations (the linear equation is easier) to find the values of *$x$*.*
 
-`x subscript 1 space equals space 2 left parenthesis 0 right parenthesis space plus space 6 space equals space 6 space space space space space space space space space space space space x subscript 2 space equals space 2 open parentheses negative 24 over 5 close parentheses space plus space 6 space equals space minus 9.6 space plus space 6`
+$x_{1} = 2 ( 0 ) + 6 = 6 x_{2} = 2 ( - \frac{24}{5} ) + 6 = - 9.6 + 6$
 
 $x_{1}=6,y_{1}=0$**     **
 **  **$x_{2}=-3.6,y_{2}=-4.8$** [1]**
@@ -1178,7 +1153,7 @@ $x_{1}=6,y_{1}=0$**     **
 ### 25() — 6 marks
 > *Number the equations.*
 
-> `table row cell x squared space plus space y squared space end cell equals cell space 9 space space space space space space space space space space space space space space space space open parentheses 1 close parentheses end cell row cell x space plus space y space end cell equals cell space 2 space space space space space space space space space space space space space space space space open parentheses 2 close parentheses end cell end table`* *
+> $\begin{gathered} x^{2} + y^{2} & = 9 ( 1 ) \\ x + y & = 2 ( 2 ) \end{gathered}$* *
 
 > *There is one quadratic equation and one linear equation so this must be done by substitution.*
 
@@ -1186,28 +1161,28 @@ $x_{1}=6,y_{1}=0$**     **
 
 > *In this case the subject is *$y$*.*
 
-`table row cell y space end cell equals cell space 2 space minus space x space space space space space space space space space space space space space space space space open parentheses 2 close parentheses end cell end table`
+$\begin{gathered} y & = 2 - x ( 2 ) \end{gathered}$
 
 > *Substitute this into equation (1) to eliminate *$y$*. *
 
-`x squared space plus space open parentheses 2 space minus space x close parentheses squared space equals space 9`
+$x^{2} + ( 2 - x )^{2} = 9$
 
 **[1]**
 
 > *Expand the brackets, remember that a bracket squared should be treated the same as double brackets.*
 
-`space x squared space plus space open parentheses 2 space minus space x close parentheses open parentheses 2 space minus space x close parentheses space space equals space 9
-x to the power of 2 space end exponent plus space 4 space minus 2 x space minus 2 x plus space x to the power of 2 space end exponent equals space 9`
+$x^{2} + ( 2 - x ) ( 2 - x ) = 9
+x^{2 } + 4 - 2 x - 2 x + x^{2 } = 9$
 
 > *Simplify.*
 
-`table row cell x to the power of 2 space end exponent plus space 4 space minus 4 x space plus space x to the power of 2 space end exponent end cell equals cell space 9 end cell row cell 2 x to the power of 2 space end exponent minus space 4 x space plus space 4 space end cell equals cell space 9 end cell end table`
+$\begin{gathered} x^{2 } + 4 - 4 x + x^{2 } & = 9 \\ 2 x^{2 } - 4 x + 4 & = 9 \end{gathered}$
 
 ** ****Correct expansion**** [1]**
 
 > *Rearrange to form a quadratic equation that is equal to zero.*
 
-`table row cell 2 x to the power of 2 space end exponent minus space 4 x space plus space 4 space minus space 9 space end cell equals cell space 0 end cell row cell 2 x to the power of 2 space end exponent minus space 4 x space minus space 5 space end cell equals cell space 0 end cell end table`
+$\begin{gathered} 2 x^{2 } - 4 x + 4 - 9 & = 0 \\ 2 x^{2 } - 4 x - 5 & = 0 \end{gathered}$
 
 **[1]**
 
@@ -1219,11 +1194,11 @@ $a=2,b=-4,c=-5$
 
 > *Substitute into the quadratic formula.*
 
-`x equals fraction numerator negative open parentheses negative 4 close parentheses plus-or-minus square root of open parentheses negative 4 close parentheses squared minus 4 cross times 2 cross times open parentheses negative 5 close parentheses end root over denominator 2 space cross times space 2 end fraction`
+$x = \frac{- ( - 4 ) \pm \sqrt{( - 4 )^{2} - 4 \times 2 \times ( - 5 )} }{2 \times 2}$
 
 **[1]**
 
-`x space equals space fraction numerator 4 space plus-or-minus space square root of 16 space minus space open parentheses negative 40 close parentheses end root over denominator 4 end fraction space equals space fraction numerator 4 space plus-or-minus space square root of 56 over denominator 4 end fraction`
+$x = \frac{4 \pm \sqrt{16 - ( - 40 )} }{4} = \frac{4 \pm \sqrt{56} }{4}$
 
 $x=2.870828...,x=-0.870828...$
 
@@ -1233,7 +1208,7 @@ $x=2.870828...,x=-0.870828...$
 
 > *Use more than 2 decimal places so that your answers for *$y$* are accurate.*
 
-*       *`table row cell open parentheses 2 close parentheses space space space space space y subscript 1 space end cell equals cell space 2 space minus space x subscript 1 space equals space 2 space minus space 2.870828... space space space space space space space space space space space space end cell row cell y subscript 2 space end cell equals cell space 2 space minus space x subscript 2 equals space space 2 space minus space open parentheses negative 0.870828... space close parentheses end cell end table`
+*       *$\begin{gathered} ( 2 ) y_{1} & = 2 - x_{1} = 2 - 2.870828... \\ y_{2} & = 2 - x_{2} = 2 - ( - 0.870828... ) \end{gathered}$
 
 *Round your answers to **two decimal places.***             **
 
@@ -1245,34 +1220,34 @@ $x=2.87,y=-0.87$**    **
 ### 20() — 5 marks
 > *Number the equations.*
 
-> `table row cell x squared space plus space y squared space end cell equals cell space 25 space space space space space space space space space space space space space space space space open parentheses 1 close parentheses end cell row cell space y space minus space 3 x space end cell equals cell space 13 space space space space space space space space space space space space space space space space open parentheses 2 close parentheses end cell end table`* *
+> $\begin{gathered} x^{2} + y^{2} & = 25 ( 1 ) \\ y - 3 x & = 13 ( 2 ) \end{gathered}$* *
 
 > *There is one quadratic equation and one linear equation so this must be done by substitution.*
 
 > *Rearrange equation (2) so that the subject is either *$x$* or *$y$*, *$y$*will be the easiest to work with here.*
 
-`table row cell y space end cell equals cell space 13 space plus space 3 x space space space space space space space space space space space space space space space space open parentheses 2 close parentheses end cell end table`
+$\begin{gathered} y & = 13 + 3 x ( 2 ) \end{gathered}$
 
 > *Substitute this into equation (1) to eliminate *$y$*. *
 
-`x squared space plus space open parentheses 13 space plus space 3 x close parentheses squared space equals space 25`
+$x^{2} + ( 13 + 3 x )^{2} = 25$
 
 **[1]**
 
 > *Expand the brackets, remember that a bracket squared should be treated the same as double brackets.*
 
-`space x squared space plus space open parentheses 13 space plus space 3 x close parentheses open parentheses 13 space plus space 3 x close parentheses space space equals space 25
-x to the power of 2 space end exponent plus space open parentheses 13 close parentheses squared space plus 13 open parentheses 3 x close parentheses space plus space 13 open parentheses 3 x close parentheses space plus space open parentheses 3 x close parentheses to the power of 2 space end exponent equals space 25`
+$x^{2} + ( 13 + 3 x ) ( 13 + 3 x ) = 25
+x^{2 } + ( 13 )^{2} + 13 ( 3 x ) + 13 ( 3 x ) + ( 3 x )^{2 } = 25$
 
 > *Simplify.*
 
-`table row cell x to the power of 2 space end exponent plus space 169 space plus space 39 x space plus space 39 x space plus space 9 x to the power of 2 space end exponent end cell equals cell space 25 end cell row cell 10 x to the power of 2 space end exponent plus space 78 x space plus space 169 space end cell equals cell space 25 end cell end table`
+$\begin{gathered} x^{2 } + 169 + 39 x + 39 x + 9 x^{2 } & = 25 \\ 10 x^{2 } + 78 x + 169 & = 25 \end{gathered}$
 
 ** ****Correct expansion**** [1]**
 
 > *Rearrange to form a quadratic equation that is equal to zero.*
 
-`table row cell 210 x to the power of 2 space end exponent plus space 78 x space plus space 169 space minus space 25 end cell equals cell space 0 end cell row cell 10 x to the power of 2 space end exponent plus space 78 x space plus space 144 space end cell equals cell space 0 end cell end table`
+$\begin{gathered} 210 x^{2 } + 78 x + 169 - 25 & = 0 \\ 10 x^{2 } + 78 x + 144 & = 0 \end{gathered}$
 
 **[1]**
 
@@ -1280,7 +1255,7 @@ x to the power of 2 space end exponent plus space open parentheses 13 close pare
 
 > *Make the problem easier to deal with by dividing every term by 2.*
 
-`table row cell 5 x to the power of 2 space end exponent plus space 39 x space plus space 72 space end cell equals cell space 0 end cell end table`
+$\begin{gathered} 5 x^{2 } + 39 x + 72 & = 0 \end{gathered}$
 
 > *We need a pair of numbers that multiply to *$ac$* which in this case is *$5\times72=360$*, and add to *$b$*, which in this case is 39.*
 
@@ -1288,15 +1263,15 @@ x to the power of 2 space end exponent plus space open parentheses 13 close pare
 
 > *Rewrite the middle term using 15 and 24.*
 
-`table row cell 5 x to the power of 2 space end exponent plus space open parentheses 15 space plus space 24 close parentheses x space plus space 72 space end cell equals cell space 0 end cell row cell 5 x to the power of 2 space end exponent plus space 15 x space plus space 24 x space plus space 72 space end cell equals cell space 0 end cell end table`
+$\begin{gathered} 5 x^{2 } + ( 15 + 24 ) x + 72 & = 0 \\ 5 x^{2 } + 15 x + 24 x + 72 & = 0 \end{gathered}$
 
 > *Factorise the first two terms, using *$5x$* as the highest common factor, and the second two terms using 24 as the factor.*
 
-`5 x open parentheses x space plus space 3 close parentheses space plus space 24 open parentheses x space plus space 3 close parentheses equals 0`
+$5 x ( x + 3 ) + 24 ( x + 3 ) = 0$
 
-> *Note that these now have the same factor of *`open parentheses x space plus space 3 close parentheses`* so this can be used as a common factor.*
+> *Note that these now have the same factor of *$( x + 3 )$* so this can be used as a common factor.*
 
-`open parentheses 5 x space plus space 24 close parentheses open parentheses x space plus space 3 close parentheses equals 0`
+$( 5 x + 24 ) ( x + 3 ) = 0$
 
 **[1]**
 
@@ -1308,14 +1283,14 @@ $5x+24=0\mathrm{or}x+3=0$
 
 > *Solving both of these equations to find the values for *$x$*.*
 
-`table row cell x subscript 1 space end cell equals cell space minus 24 over 5 space end cell row cell x subscript 2 space end cell equals cell space minus 3 end cell end table`
+$\begin{gathered} x_{1} & = - \frac{24}{5} \\ x_{2} & = - 3 \end{gathered}$
 
 > *Substitute the values of *$x$* **into one of the equations (the linear equation is easier) to find the values of *$y$*. *
 
 > *Leaving the value of *$x_{1}$* as a fraction makes is easier to calculate with.*
 
-`y subscript 1 space equals space 13 space plus space 3 open parentheses negative 24 over 5 close parentheses space equals space 13 space minus space 72 over 5 space equals space 13 space minus space 14 2 over 5 space equals space minus 1 2 over 5 space space space space space
-y subscript 2 space equals space 13 space plus space 3 open parentheses negative 3 close parentheses space equals space 13 space minus space 9 space equals space 4`
+$y_{1} = 13 + 3 ( - \frac{24}{5} ) = 13 - \frac{72}{5} = 13 - 14 \frac{2}{5} = - 1 \frac{2}{5} 
+y_{2} = 13 + 3 ( - 3 ) = 13 - 9 = 4$
 
 $x_{1}=-\frac{24}{5},y_{1}=-\frac{7}{5}$**    **
 **   **$x_{2}=-3,y_{2}=4$** [****1]**
@@ -1325,51 +1300,51 @@ $x_{1}=-\frac{24}{5},y_{1}=-\frac{7}{5}$**    **
 ### 20() — 5 marks
 > *Number the equations.*
 
-> `table row cell x squared space plus space y squared space end cell equals cell space 25 space space space space space space space space space space space space open parentheses 1 close parentheses end cell row cell y space minus space 2 x space end cell equals cell space 5 space space space space space space space space space space space space space space open parentheses 2 close parentheses end cell end table`* *
+> $\begin{gathered} x^{2} + y^{2} & = 25 ( 1 ) \\ y - 2 x & = 5 ( 2 ) \end{gathered}$* *
 
 > *There is one quadratic equation and one linear equation so this must be done by substitution.*
 
 > *Rearrange equation (2) so that the subject is either *$x$* or *$y$*, *$y$*will be the easiest to work with here.*
 
-`table row cell y space end cell equals cell space 5 space plus space 2 x space space space space space space space space space space space space space space space space open parentheses 2 close parentheses end cell end table`
+$\begin{gathered} y & = 5 + 2 x ( 2 ) \end{gathered}$
 
 > *Substitute this into equation (1) to eliminate *$y$*. *
 
-`x squared space plus space open parentheses 5 space plus space 2 x close parentheses squared space equals space 25`
+$x^{2} + ( 5 + 2 x )^{2} = 25$
 
 **[1]**
 
 > *Expand the brackets, remember that a bracket squared should be treated the same as double brackets.*
 
-`space x squared space plus space open parentheses 5 space plus space 2 x close parentheses open parentheses 5 space plus space 2 x close parentheses space space equals space 25
-x to the power of 2 space end exponent plus space open parentheses 5 close parentheses squared space plus 5 open parentheses 2 x close parentheses space plus space 5 open parentheses 2 x close parentheses space plus space open parentheses 2 x close parentheses to the power of 2 space end exponent equals space 25`
+$x^{2} + ( 5 + 2 x ) ( 5 + 2 x ) = 25
+x^{2 } + ( 5 )^{2} + 5 ( 2 x ) + 5 ( 2 x ) + ( 2 x )^{2 } = 25$
 
 > *Simplify.*
 
-`table row cell x to the power of 2 space end exponent plus space 25 space plus space 10 x space plus space 10 x space plus space 4 x to the power of 2 space end exponent end cell equals cell space 25 end cell row cell 5 x to the power of 2 space end exponent plus space 20 x space plus space 25 space end cell equals cell space 25 end cell end table`
+$\begin{gathered} x^{2 } + 25 + 10 x + 10 x + 4 x^{2 } & = 25 \\ 5 x^{2 } + 20 x + 25 & = 25 \end{gathered}$
 
 ** [1]**
 
 > *Rearrange to form a quadratic equation that is equal to zero.*
 
-`table row cell 5 x to the power of 2 space end exponent plus space 20 x space plus space 25 space minus space 25 space end cell equals cell space 0 end cell row cell 5 x squared space plus space 20 x space end cell equals cell space 0 end cell end table`
+$\begin{gathered} 5 x^{2 } + 20 x + 25 - 25 & = 0 \\ 5 x^{2} + 20 x & = 0 \end{gathered}$
 
-> *The question does not give a specified degree of accuracy, so this can be factorised. Take out the common factor of *`table attributes columnalign right center left columnspacing 0px end attributes row blank blank cell 5 x end cell end table`*.*
+> *The question does not give a specified degree of accuracy, so this can be factorised. Take out the common factor of *$\begin{array}{rcl} 5 x \end{array}$*.*
 
-`table row cell 5 x open parentheses x space plus space 4 close parentheses space end cell equals cell space 0 end cell end table`
+$\begin{gathered} 5 x ( x + 4 ) & = 0 \end{gathered}$
 
 **[1]**
 
 > *Solve to find the values of *$x$*. **Let each factor be equal to 0 and solve.*
 
-`table row cell 5 x subscript 1 space end cell equals cell space 0 space space rightwards double arrow space space x subscript 1 equals space 0 space space space space space space space space end cell row cell x subscript 2 space plus space 4 space end cell equals cell space 0 space space rightwards double arrow space space x subscript 2 equals space minus 4 space end cell end table`
+$\begin{gathered} 5 x_{1} & = 0 \Leftrightarrow x_{1} = 0 \\ x_{2} + 4 & = 0 \Leftrightarrow x_{2} = - 4 \end{gathered}$
 
 **[1]**
 
 > *Substitute the values of *$x$* **into one of the equations (the linear equation is easier) to find the values of *$y$*.*
 
-`y subscript 1 space equals space 5 space plus space 2 open parentheses x subscript 1 close parentheses space equals space 5 space plus space 2 open parentheses 0 close parentheses space equals space 5
-y subscript 2 space equals space 5 space plus space 2 open parentheses x subscript 2 close parentheses space equals space 5 space plus space 2 open parentheses negative 4 close parentheses space equals space 5 space minus space 8 space equals space minus 3`
+$y_{1} = 5 + 2 ( x_{1} ) = 5 + 2 ( 0 ) = 5
+y_{2} = 5 + 2 ( x_{2} ) = 5 + 2 ( - 4 ) = 5 - 8 = - 3$
 
 $x_{1}=0,y_{1}=5$**     **
 **  **$x_{2}=-4,y_{2}=-3$** [1]**
@@ -1393,7 +1368,7 @@ $4p+3c=470$
 
 > *Number the equations.*
 
-> `table row cell 3 p space plus space 4 c space end cell equals cell space 440 space space space space space space space space space space space space open parentheses 1 close parentheses end cell row cell 4 p space plus space 3 c space end cell equals cell space 470 space space space space space space space space space space space space open parentheses 2 close parentheses end cell end table`* *
+> $\begin{gathered} 3 p + 4 c & = 440 ( 1 ) \\ 4 p + 3 c & = 470 ( 2 ) \end{gathered}$* *
 
 **[1]**
 
@@ -1401,16 +1376,15 @@ $4p+3c=470$
 
 > *Add equation (1) to equation (2).*
 
-`table row cell space space space space space space 3 p space plus space 4 c space equals space 440 space end cell row cell bottom enclose plus space open parentheses 4 p space plus space 3 c space equals space 470 space close parentheses end enclose
-space space space space space space 7 p space plus space 7 c space equals space 910 space end cell end table space space space space space space space space space space space space`
+`| 3 p + 4 c = 440 | | bottom + ( 4 p + 3 c = 470 ) 7 p + 7 c = 910 | |`
 
 **[1]**
 
 > *This gives the cost of 7 kg of potatoes and 7 kg of carrots. Find the cost of 1 kg of each by dividing by 7.*
 
-`space space 7 p space plus space 7 c space equals space 910 space
-7 open parentheses p space plus space c close parentheses space equals space 910 space
-space space space space space p space plus space c space equals fraction numerator space 910 over denominator 7 end fraction`
+$7 p + 7 c = 910 
+7 ( p + c ) = 910 
+ p + c = \frac{ 910}{7}$
 
 **[1]**
 
@@ -1434,37 +1408,35 @@ $4p+3c=470$
 
 > *Number the equations.*
 
-> `table row cell 3 p space plus space 4 c space end cell equals cell space 440 space space space space space space space space space space space space open parentheses 1 close parentheses end cell row cell 4 p space plus space 3 c space end cell equals cell space 470 space space space space space space space space space space space space open parentheses 2 close parentheses end cell end table`* *
+> $\begin{gathered} 3 p + 4 c & = 440 ( 1 ) \\ 4 p + 3 c & = 470 ( 2 ) \end{gathered}$* *
 
 **[1]**
 
 > *Make the **p** terms equal by multiplying all parts of equation (1) by 4 and all parts of equation (2) by 3.*
 
-`table row blank blank cell 4 open parentheses 1 close parentheses space space space space space space space space space space space space 4 open parentheses 3 p space plus space 4 c space equals space 440 close parentheses space end cell row blank blank cell 3 open parentheses 2 close parentheses space space space space space space space space space space space space 3 open parentheses 4 p space plus space 3 c space equals space 470 close parentheses space space space space end cell end table`*  *
+$\begin{gathered} 4 ( 1 ) 4 ( 3 p + 4 c = 440 ) \\ 3 ( 2 ) 3 ( 4 p + 3 c = 470 ) \end{gathered}$*  *
 
 > *This gives the two new equations:*
 
-`table row cell 12 p space plus 16 c space end cell equals cell space 1760 space space space space space space space space space space space space space open parentheses 3 close parentheses end cell row cell 12 p space plus space space 9 c space end cell equals cell space 1410 space space space space space space space space space space space space space open parentheses 4 close parentheses end cell end table`
+$\begin{gathered} 12 p + 16 c & = 1760 ( 3 ) \\ 12 p + 9 c & = 1410 ( 4 ) \end{gathered}$
 
 > *Eliminate the **p** terms by subtracting equation (4) from equation (3).*
 
-`space space space space space space 12 p plus space 16 c space equals space 1760 space space space space space space space space space space space space
-bottom enclose space minus open parentheses 12 p space plus space 9 c space equals space 1410 close parentheses space end enclose
-space space space space space space space space space space space space space space space space space space space 7 c space equals space 350 space`
+`12 p + 16 c = 1760 bottom - ( 12 p + 9 c = 1410 ) 7 c = 350`
 
 **[1]**
 
 > *Solve the equation to find** c  **by dividing both sides by 7.*
 
-`table row cell c space end cell equals cell space 350 over 7 equals space 50 end cell end table`
+$\begin{gathered} c & = \frac{350}{7} = 50 \end{gathered}$
 
 > *Substitute *$c=50$* into either of the two original equations**.*
 
-`table row cell open parentheses 2 close parentheses space space space space space 3 p space plus space 4 c space end cell equals cell space 440 end cell row cell 3 p space plus space 4 open parentheses 50 close parentheses space end cell equals cell space 440 space end cell row cell 3 p space plus space 200 space end cell equals cell space 440 end cell end table`
+$\begin{gathered} ( 2 ) 3 p + 4 c & = 440 \\ 3 p + 4 ( 50 ) & = 440 \\ 3 p + 200 & = 440 \end{gathered}$
 
 > *Solve this equation to find** p.*
 
-`table row cell 3 p space plus space 200 space end cell equals cell space 440 end cell row cell 3 p space end cell equals cell space 240 end cell row cell p space end cell equals cell 240 over 3 space equals 80 space end cell end table`
+$\begin{gathered} 3 p + 200 & = 440 \\ 3 p & = 240 \\ p & = \frac{240}{3} = 80 \end{gathered}$
 
 **[1]**
 
@@ -1493,38 +1465,36 @@ $a+3c=22$
 
 > *Number the equations.*
 
-> `table row cell 3 a space plus space c space end cell equals cell space 30 space space space space space space space space space space space space open parentheses 1 close parentheses end cell row cell a space plus space 3 c space end cell equals cell space 22 space space space space space space space space space space space space open parentheses 2 close parentheses end cell end table`* *
+> $\begin{gathered} 3 a + c & = 30 ( 1 ) \\ a + 3 c & = 22 ( 2 ) \end{gathered}$* *
 
 > *Make the **c** terms equal by multiplying all parts of equation (1) by 3.*
 
-`3 open parentheses 1 close parentheses space space space space space space space space space space space space 3 open parentheses 3 a space plus space c space equals space 30 close parentheses space
-space space open parentheses 2 close parentheses space space space space space space space space space space space space space space space space a space plus space 3 c space equals space 22 space space space space`*  *
+$3 ( 1 ) 3 ( 3 a + c = 30 ) 
+ ( 2 ) a + 3 c = 22$*  *
 
 > *This gives the two equation with the same coefficient of **c.*
 
-`table row cell 9 a space plus 3 c space end cell equals cell space 90 space space space space space space space space space space space space space open parentheses 3 close parentheses end cell row cell a space plus space 3 c space end cell equals cell space 22 space space space space space space space space space space space space space open parentheses 2 close parentheses end cell end table`
+$\begin{gathered} 9 a + 3 c & = 90 ( 3 ) \\ a + 3 c & = 22 ( 2 ) \end{gathered}$
 
 > *Eliminate the **c** terms by subtracting equation (2) from equation (3).*
 
-`space space space space space space space space space table row blank blank 9 end table table row blank blank a end table table row blank blank space end table table row blank blank plus end table table row blank blank 3 end table table row blank blank c end table table row blank blank space end table table row blank equals blank end table table row blank blank space end table table row blank blank 90 end table space space space space space space space space space space space space
-bottom enclose space minus space space space open parentheses table row cell space a space plus 3 c space end cell equals cell space 22 end cell end table close parentheses space end enclose
-space space space space space space space space 8 a space space space space space space space space space space space equals space 68 space`
+`| _ _ 9 | | _ _ a | | _ _ | | _ _ + | | _ _ 3 | | _ _ c | | _ _ | | _ = _ | | _ _ | | _ _ 90 | bottom - ( | a + 3 c | = 22 | | ) 8 a = 68`
 
 **[1]**
 
 > *Solve the equation to find** a  **by dividing both sides by 8.*
 
-`table row cell a space end cell equals cell space 68 over 8 equals space 8.5 end cell end table`
+$\begin{gathered} a & = \frac{68}{8} = 8.5 \end{gathered}$
 
 > *Substitute *$a=8.5$* into either of the two original equations**.*
 
-`table row cell open parentheses 1 close parentheses space space space space space 3 a space plus space c space end cell equals cell space 30 end cell row cell 3 open parentheses 8.5 close parentheses space plus space c space end cell equals cell space 30 space end cell row cell 25.5 space plus space c space end cell equals cell space 30 end cell end table`
+$\begin{gathered} ( 1 ) 3 a + c & = 30 \\ 3 ( 8.5 ) + c & = 30 \\ 25.5 + c & = 30 \end{gathered}$
 
 **[1]**
 
 > *Solve this equation to find** c.*
 
-`table row cell c space plus space 25.5 space end cell equals cell space 30 end cell row cell c space end cell equals cell space 30 space minus space 25.5 end cell row cell c space end cell equals cell space 4.5 space end cell end table`
+$\begin{gathered} c + 25.5 & = 30 \\ c & = 30 - 25.5 \\ c & = 4.5 \end{gathered}$
 
 > *This means that 1 adult ticket costs £8.50 and 1 child ticket costs £4.50. *
 
@@ -1550,34 +1520,32 @@ $5t+4c=14.2$
 
 > *Number the equations.*
 
-> `table row cell 3 t space plus space 2 c space end cell equals cell space 7.8 space space space space space space space space space space space space space space open parentheses 1 close parentheses end cell row cell space 5 t space plus space 4 c space end cell equals cell space 14.2 space space space space space space space space space space space space open parentheses 2 close parentheses end cell end table`* *
+> $\begin{gathered} 3 t + 2 c & = 7.8 ( 1 ) \\ 5 t + 4 c & = 14.2 ( 2 ) \end{gathered}$* *
 
 > *Make the **c** terms equal by multiplying all parts of equation (1) by 2.*
 
-`2 open parentheses 1 close parentheses space space space space space space space space space space space space 2 open parentheses 3 t space plus space 2 c space equals 7.8 close parentheses space
-space space open parentheses 2 close parentheses space space space space space space space space space space space space space space space table attributes columnalign right center left columnspacing 0px end attributes row blank blank space end table table attributes columnalign right center left columnspacing 0px end attributes row blank blank 5 end table table attributes columnalign right center left columnspacing 0px end attributes row blank blank t end table table attributes columnalign right center left columnspacing 0px end attributes row blank blank space end table table attributes columnalign right center left columnspacing 0px end attributes row blank blank plus end table table attributes columnalign right center left columnspacing 0px end attributes row blank blank space end table table attributes columnalign right center left columnspacing 0px end attributes row blank blank 4 end table table attributes columnalign right center left columnspacing 0px end attributes row blank blank c end table table attributes columnalign right center left columnspacing 0px end attributes row blank blank space end table table attributes columnalign right center left columnspacing 0px end attributes row blank equals blank end table table attributes columnalign right center left columnspacing 0px end attributes row blank blank space end table table attributes columnalign right center left columnspacing 0px end attributes row blank blank 14 end table table attributes columnalign right center left columnspacing 0px end attributes row blank blank. end table table attributes columnalign right center left columnspacing 0px end attributes row blank blank 2 end table space space`*  *
+$2 ( 1 ) 2 ( 3 t + 2 c = 7.8 ) 
+ ( 2 ) \begin{array}{rcl} \end{array} \begin{array}{rcl} 5 \end{array} \begin{array}{rcl} t \end{array} \begin{array}{rcl} \end{array} \begin{array}{rcl} + \end{array} \begin{array}{rcl} \end{array} \begin{array}{rcl} 4 \end{array} \begin{array}{rcl} c \end{array} \begin{array}{rcl} \end{array} \begin{array}{rcl} = \end{array} \begin{array}{rcl} \end{array} \begin{array}{rcl} 14 \end{array} \begin{array}{rcl} . \end{array} \begin{array}{rcl} 2 \end{array}$*  *
 
 > *This gives two equations with the same coefficient of **c.*
 
-`table row cell 6 t space plus space 4 c space end cell equals cell space 15.6 space space space space space space space space space space space space open parentheses 3 close parentheses end cell row cell space 5 t space plus space 4 c space end cell equals cell space 14.2 space space space space space space space space space space space space open parentheses 2 close parentheses end cell end table`
+$\begin{gathered} 6 t + 4 c & = 15.6 ( 3 ) \\ 5 t + 4 c & = 14.2 ( 2 ) \end{gathered}$
 
 > *Eliminate the **c** terms by subtracting equation (2) from equation (3).*
 
-`space space space space space space space space space table row blank blank space end table table row blank blank space end table table row blank blank 6 end table table row blank blank t end table table row blank blank space end table table row blank blank plus end table table row blank blank space end table table row blank blank 4 end table table row blank blank c end table table row blank blank space end table table row blank equals blank end table table row blank blank space end table table row blank blank 15 end table table row blank blank. end table table row blank blank 6 end table space space space space space space space space
-bottom enclose space minus space space space open parentheses table row cell space 5 t space plus space 4 c space end cell equals cell space 14.2 end cell end table close parentheses space end enclose
-space space space space space space space space space space space space space space t space space space space space space space space space space space equals space 1.4`
+`| _ _ | | _ _ | | _ _ 6 | | _ _ t | | _ _ | | _ _ + | | _ _ | | _ _ 4 | | _ _ c | | _ _ | | _ = _ | | _ _ | | _ _ 15 | | _ _. | | _ _ 6 | bottom - ( | 5 t + 4 c | = 14.2 | | ) t = 1.4`
 
 **[1]**
 
 > *Substitute *$t=1.4$* into either of the two original equations**.*
 
-`table row cell open parentheses 1 close parentheses space space space space space 3 t space plus 2 c space end cell equals cell space 7.8 end cell row cell 3 open parentheses 1.4 close parentheses space plus space 2 c space end cell equals cell space 7.8 space end cell row cell 4.2 space plus space 2 c space end cell equals cell space 7.8 end cell end table`
+$\begin{gathered} ( 1 ) 3 t + 2 c & = 7.8 \\ 3 ( 1.4 ) + 2 c & = 7.8 \\ 4.2 + 2 c & = 7.8 \end{gathered}$
 
 **[1]**
 
 > *Solve this equation to find** c.*
 
-`table row cell 2 c space end cell equals cell space 7.8 space minus space 4.2 end cell row cell 2 c space end cell equals cell space 3.6 end cell row cell c space end cell equals cell fraction numerator 3.6 over denominator 2 end fraction space equals space 1.8 end cell end table`
+$\begin{gathered} 2 c & = 7.8 - 4.2 \\ 2 c & = 3.6 \\ c & = \frac{3.6}{2} = 1.8 \end{gathered}$
 
 > *This means that 1 tea costs £1.40 and 1 coffee costs £1.80. *
 
@@ -1589,35 +1557,35 @@ space space space space space space space space space space space space space sp
 ### 10() — 3 marks
 > *Number the equations.*
 
-> `table row cell 3 x plus 5 y end cell equals cell 3.1 space space space space space space space space space space space space open parentheses 1 close parentheses end cell row cell 6 x plus 3 y end cell equals cell 3.75 space space space space space space space space space space open parentheses 2 close parentheses end cell end table`* *
+> $\begin{gathered} 3 x + 5 y & = 3.1 ( 1 ) \\ 6 x + 3 y & = 3.75 ( 2 ) \end{gathered}$* *
 
 > *It is easiest to make the **x** terms equal by multiplying all parts of equation (1) by 2 and leaving the second equation as it is.*
 
-`table attributes columnalign right center left columnspacing 0px end attributes row cell 6 x plus 10 y end cell equals cell 6.2 space space space space space space space space space space space space open parentheses 3 close parentheses end cell end table`
+$\begin{array}{rcl} 6 x + 10 y & = 6.2 ( 3 ) \end{array}$
 
 > *Eliminate the **x** terms by subtracting equation (1) from equation (3).*
 
-`table row cell 6 x plus 10 y end cell equals cell 6.2 end cell row cell 6 x plus 3 y end cell equals cell 3.75 end cell row cell 7 y end cell equals cell 2.45 end cell end table`
+$\begin{gathered} 6 x + 10 y & = 6.2 \\ 6 x + 3 y & = 3.75 \\ 7 y & = 2.45 \end{gathered}$
 
 **[1]**
 
 > *Solve the equation to find** y  **by dividing both sides by 7.*
 
-`table attributes columnalign right center left columnspacing 0px end attributes row y equals cell fraction numerator 2.45 over denominator 7 end fraction equals 0.35 end cell end table`
+$\begin{array}{rcl} y = \frac{2.45}{7} = 0.35 \end{array}$
 
 > *Substitute *$y=0.35$* into either of the two original equations**.*
 
-`open parentheses 1 close parentheses space space space space space 3 x plus 5 open parentheses 0.35 close parentheses equals 3.1`
+$( 1 ) 3 x + 5 ( 0.35 ) = 3.1$
 
 **[1]**
 
 > *Solve this equation to find** x.*
 
-`table row cell 3 x plus 5 open parentheses 0.35 close parentheses end cell equals cell 3.1 end cell row cell space 3 x plus 1.75 end cell equals cell 3.1 end cell row cell 3 x end cell equals cell 1.35 space end cell row x equals cell 0.45 end cell end table`
+$\begin{gathered} 3 x + 5 ( 0.35 ) & = 3.1 \\ 3 x + 1.75 & = 3.1 \\ 3 x & = 1.35 \\ x = 0.45 \end{gathered}$
 
 > *Substitute *$x=0.45$* and *$y=0.35$* into the other original equation to check that they are correct.*
 
-`table row cell open parentheses 2 close parentheses space space space space space space space space space space space space space space 6 x plus 3 y end cell equals cell 6 open parentheses 0.45 close parentheses plus 3 open parentheses 0.35 close parentheses end cell row blank equals cell 2.7 plus 1.05 end cell row blank equals cell 3.75 end cell row blank blank blank end table`
+$\begin{gathered} ( 2 ) 6 x + 3 y & = 6 ( 0.45 ) + 3 ( 0.35 ) \\ = 2.7 + 1.05 \\ = 3.75 \\ \end{gathered}$
 
 $x=0.45,y=0.35$* ***[1]**
 
@@ -1632,30 +1600,30 @@ $x=0.45,y=0.35$* ***[1]**
 
 > *To avoid fractions, it is easiest to rearrange the linear equation into the form " **x** = ... " by subtracting 1 from both sides.*
 
-`table attributes columnalign right center left columnspacing 0px end attributes row cell 2 y end cell equals cell x plus 1 end cell row cell 2 y minus 1 end cell equals x end table`
+$\begin{array}{rcl} 2 y & = x + 1 \\ 2 y - 1 & = x \end{array}$
 
 > *Substitute this into the quadratic equation.*
 
-`3 y squared plus 7 y plus 16 equals open parentheses 2 y minus 1 close parentheses squared minus open parentheses 2 y minus 1 close parentheses`
+$3 y^{2} + 7 y + 16 = ( 2 y - 1 )^{2} - ( 2 y - 1 )$
 
 **[1]**
 
 > *Expand and simplify to a quadratic equation in **y**.*
 
-`table row cell 3 y squared plus 7 y plus 16 end cell equals cell 4 y squared minus 4 y plus 1 minus 2 y plus 1 end cell row cell 3 y squared plus 7 y plus 16 end cell equals cell 4 y squared minus 6 y plus 2 end cell row cell y squared minus 13 y minus 14 end cell equals 0 end table`
+$\begin{gathered} 3 y^{2} + 7 y + 16 & = 4 y^{2} - 4 y + 1 - 2 y + 1 \\ 3 y^{2} + 7 y + 16 & = 4 y^{2} - 6 y + 2 \\ y^{2} - 13 y - 14 & = 0 \end{gathered}$
 
 **[1]**
 
 > *Solve this by factorising.*
 
-`open parentheses y minus 14 close parentheses open parentheses y plus 1 close parentheses equals 0
-y equals 14 comma space space space space y equals negative 1`
+$( y - 14 ) ( y + 1 ) = 0
+y = 14 , y = - 1$
 
 **[1]**
 
 > *Substitute these into the (rearranged) linear equation to find **x**.*
 
-`table row x equals cell 2 y minus 1 space space space space space space space space space space space space space end cell row x equals cell 2 open parentheses 14 close parentheses minus 1 space space space space space space space x equals 2 open parentheses negative 1 close parentheses minus 1 end cell row x equals cell 27 space space space space space space space space space space space space space space space space space x equals negative 3 end cell end table`
+$\begin{gathered} x = 2 y - 1 \\ x = 2 ( 14 ) - 1 x = 2 ( - 1 ) - 1 \\ x = 27 x = - 3 \end{gathered}$
 
 **[1]**
 
@@ -1670,43 +1638,43 @@ y equals 14 comma space space space space y equals negative 1`
 ### 21() — 4 marks
 > *Number the equations.*
 
-> `table row cell 2 x space plus space 3 y space end cell equals cell space 5 p space space space space space space space space space space space space space space space space space space space space space open parentheses 1 close parentheses end cell row cell space y space end cell equals cell space 2 x space plus space p space space space space space space space space space space space space open parentheses 2 close parentheses end cell end table`* *
+> $\begin{gathered} 2 x + 3 y & = 5 p ( 1 ) \\ y & = 2 x + p ( 2 ) \end{gathered}$* *
 
 > *This can be done either by changing one equation and eliminating a variable, or by substituting equation (2) directly into equation (1).  *
 
 > *For the substitution method, begin by substituting the expression given for **y **in equation (2) into equation (1).*
 
-`2 x space plus space 3 open parentheses 2 x space plus space p close parentheses space equals space 5 p`
+$2 x + 3 ( 2 x + p ) = 5 p$
 
 **[1]**
 
 > *Expand the brackets and simplify.*
 
-`table row cell 2 x space plus space 6 x space plus space 3 p space end cell equals cell space 5 p end cell row cell 8 x space plus thin space 3 p space end cell equals cell space 5 p end cell end table`
+$\begin{gathered} 2 x + 6 x + 3 p & = 5 p \\ 8 x + 3 p & = 5 p \end{gathered}$
 
 > *Rearrange the equation to get the** x  **terms on one side and the **p **terms on the other by subtracting 3**p **from both sides. *
 
-`table row cell 8 x space end cell equals cell space 5 p space minus space 3 p space end cell row cell 8 x space end cell equals cell space 2 p end cell end table`
+$\begin{gathered} 8 x & = 5 p - 3 p \\ 8 x & = 2 p \end{gathered}$
 
 **[1]**
 
 > *Solve the equation to find** x  **in terms of **p**. *
 
-`table attributes columnalign right center left columnspacing 0px end attributes row cell x space end cell equals cell space fraction numerator 2 p over denominator 8 end fraction end cell row cell x space end cell equals cell space fraction numerator space p over denominator 4 end fraction end cell end table`
+$\begin{array}{rcl} x & = \frac{2 p}{8} \\ x & = \frac{ p}{4} \end{array}$
 
 **[1]**
 
 > *Substitute *$x=\frac{p}{4}$* into either of the two original equations**.*
 
-`open parentheses 2 close parentheses space space space space space y space equals space 2 open parentheses p over 4 close parentheses space plus space p`
+$( 2 ) y = 2 ( \frac{p}{4} ) + p$
 
 > *Simplify and solve this equation to find** y **in terms of **p.*
 
-`table row cell y space end cell equals cell space p over 2 space plus space p end cell row cell y space end cell equals cell fraction numerator space p over denominator 2 end fraction space plus fraction numerator space 2 p over denominator 2 end fraction end cell row cell y space end cell equals cell space fraction numerator 3 p over denominator 2 end fraction end cell end table`
+$\begin{gathered} y & = \frac{p}{2} + p \\ y & = \frac{ p}{2} + \frac{ 2 p}{2} \\ y & = \frac{3 p}{2} \end{gathered}$
 
 > *If you have time in the exam, substitute *$x=\frac{p}{4}$*  and *$y=\frac{3p}{2}$* into the other equation to check that they are correct*
 
-`table row cell open parentheses 1 close parentheses space space space space space space space space space space 2 x space plus space 3 y space end cell equals cell space 5 p end cell row cell 2 open parentheses p over 4 close parentheses space plus space 3 open parentheses fraction numerator 3 p over denominator 2 end fraction close parentheses space end cell equals cell space 5 p end cell row cell 2 open parentheses fraction numerator up diagonal strike p over denominator 4 end fraction close parentheses space plus space 3 open parentheses fraction numerator 3 up diagonal strike p over denominator 2 end fraction close parentheses space end cell equals cell space 5 up diagonal strike p end cell row cell 1 half space plus space 9 over 2 space end cell equals cell space 5 end cell row blank blank blank row cell fraction numerator 10 space over denominator 2 end fraction end cell equals cell space 5 end cell row cell 5 space end cell equals cell space 5 end cell end table`
+$\begin{gathered} ( 1 ) 2 x + 3 y & = 5 p \\ 2 ( \frac{p}{4} ) + 3 ( \frac{3 p}{2} ) & = 5 p \\ 2 ( \frac{ \cancel{p} }{4} ) + 3 ( \frac{3 \cancel{p} }{2} ) & = 5 \cancel{p} \\ 1 \frac{1}{2} + \frac{9}{2} & = 5 \\ \\ \frac{10 }{2} & = 5 \\ 5 & = 5 \end{gathered}$
 
 $x=\frac{p}{4},y=\frac{3p}{2}$* ***[1]**
 
@@ -1715,32 +1683,29 @@ $x=\frac{p}{4},y=\frac{3p}{2}$* ***[1]**
 ### 20() — 4 marks
 > *Continue the pattern in the sequence to find the fifth term. The **a **part is staying the same but the **b **part is increasing by 4**b **each time.*
 
-`table row cell Fifth space term colon space a space plus space 10 b space plus space 4 b space plus space 4 b space end cell equals cell space a space plus space 18 b end cell end table`
+$\begin{gathered} \text{Fifth} \text{term} : a + 10 b + 4 b + 4 b & = a + 18 b \end{gathered}$
 
 **[1]**
 
 > *Write an equation in terms of **a **and **b **for the 2nd term of the sequence by setting the second expression in the sequence equal to 8. *
 
-* *`table row cell a space plus space 6 b space end cell equals cell space 8 end cell end table`
+* *$\begin{gathered} a + 6 b & = 8 \end{gathered}$
 
 > *Find an equation in terms of **a **and **b **for the 5th term of the sequence by setting the expression found for the fifth term in the sequence equal to 44.*
 
-* *`table row cell a space plus space 18 b space end cell equals cell space 44 end cell end table`
+* *$\begin{gathered} a + 18 b & = 44 \end{gathered}$
 
 **Both  equations correct*** ***[1]**
 
 > *Solve the two equations simultaneously to find the values of **a **and **b**.  *
 
-`bottom enclose space space space space space space space space space space space space space space space space space a plus 18 b space equals space 44
-open parentheses minus close parentheses space space space space space space space space a space plus space 6 b space equals space 8 space space end enclose
-space space space space space space space 12 b space equals space 36
-b space equals space 3 space space`
+`bottom a + 18 b = 44 ( - ) a + 6 b = 8 12 b = 36 b = 3`
 
 **[1]**
 
 > *Substitute **b **= 3 into one of the equations to find **a.*
 
-`table row cell space a space plus space 6 open parentheses 3 close parentheses space end cell equals cell space 8 end cell row cell a space plus space 18 space end cell equals cell space 8 end cell row cell a space end cell equals cell space 8 space minus space 18 end cell row cell a space end cell equals cell space minus 10 end cell end table`
+$\begin{gathered} a + 6 ( 3 ) & = 8 \\ a + 18 & = 8 \\ a & = 8 - 18 \\ a & = - 10 \end{gathered}$
 
 $a=-10.b=3$ **[1]**
 
@@ -1749,44 +1714,44 @@ $a=-10.b=3$ **[1]**
 ### 20() — 6 marks
 > *Number the equations.*
 
-> `table row cell x squared plus y squared end cell equals cell 34 space space space space space space space space space space space space space open parentheses 1 close parentheses end cell row y equals cell x plus 2 space space space space space space space space open parentheses 2 close parentheses end cell end table`* *
+> $\begin{gathered} x^{2} + y^{2} & = 34 ( 1 ) \\ y = x + 2 ( 2 ) \end{gathered}$* *
 
 > *There is one quadratic equation and one linear equation so this must be done by substitution.*
 
 > *Equation (2) already has **y** as the subject so we can substitute this into equation (1) without rearranging and this will eliminate **y**.*
 
-`x squared plus open parentheses x plus 2 close parentheses squared equals 34`
+$x^{2} + ( x + 2 )^{2} = 34$
 
 **[1]**
 
 > *Expand the brackets, remember that a bracket squared should be treated the same as double brackets.*
 
-`x squared plus open parentheses x plus 2 close parentheses open parentheses x plus 2 close parentheses equals 34
-x to the power of 2 space end exponent plus x squared plus 2 x plus 2 x plus 4 equals 34`
+$x^{2} + ( x + 2 ) ( x + 2 ) = 34
+x^{2 } + x^{2} + 2 x + 2 x + 4 = 34$
 
 **[1]**
 
 > *Simplify, including subtracting 34 from both sides so it becomes a quadratic equation that is equal to zero.*
 
-`table row cell 2 x squared plus 4 x minus 30 end cell equals 0 end table`
+$\begin{gathered} 2 x^{2} + 4 x - 30 & = 0 \end{gathered}$
 
 ** [1]**
 
 > *If you spot it, there is a factor of 2 we can divide through by to make the numbers smaller and easier to work with.*
 
-`table row cell x squared plus 2 x minus 15 end cell equals 0 end table`
+$\begin{gathered} x^{2} + 2 x - 15 & = 0 \end{gathered}$
 
 > *The question does not give a specified degree of accuracy, so it is very likely this can be factorised. *
 
 > *However if you cannot spot the factors you can still complete the square or use the formula.*
 
-`table attributes columnalign right center left columnspacing 0px end attributes row cell open parentheses x plus 5 close parentheses open parentheses x minus 3 close parentheses end cell equals 0 end table`
+$\begin{array}{rcl} ( x + 5 ) ( x - 3 ) & = 0 \end{array}$
 
 **[1]**
 
 > *Solve to find the values of *$x$*. **Let each factor be equal to 0 and solve.*
 
-`table row cell x subscript 1 plus 5 end cell equals cell 0 space space rightwards double arrow space space x subscript 1 equals negative 5 space space space space space space space space end cell row cell x subscript 2 minus 3 end cell equals cell 0 space space rightwards double arrow space space x subscript 2 equals 3 space end cell end table`
+$\begin{gathered} x_{1} + 5 & = 0 \Leftrightarrow x_{1} = - 5 \\ x_{2} - 3 & = 0 \Leftrightarrow x_{2} = 3 \end{gathered}$
 
 **[1]**
 
@@ -1820,31 +1785,31 @@ $3a+6c=63$
 
 > *Number the equations.*
 
-> `table row cell 5 a plus 4 c end cell equals cell 78 space space space space space space space space space space space space open parentheses 1 close parentheses end cell row cell 3 a plus 6 c end cell equals cell 63 space space space space space space space space space space space space open parentheses 2 close parentheses end cell end table`* *
+> $\begin{gathered} 5 a + 4 c & = 78 ( 1 ) \\ 3 a + 6 c & = 63 ( 2 ) \end{gathered}$* *
 
 > *Make the **c** terms equal by multiplying all parts of equation (1) by 3 and all parts of equation (2) by 2.*
 
-`table row blank blank cell 3 open parentheses 1 close parentheses space space space space space space space space space space space space 3 open parentheses 5 a plus 4 c equals 78 close parentheses space end cell row blank blank cell 2 open parentheses 2 close parentheses space space space space space space space space space space space space 2 open parentheses 3 a plus 6 c equals 63 close parentheses space space space space end cell end table`
+$\begin{gathered} 3 ( 1 ) 3 ( 5 a + 4 c = 78 ) \\ 2 ( 2 ) 2 ( 3 a + 6 c = 63 ) \end{gathered}$
 
 **[1] **
 
 > *This gives the two equation with the same coefficient of **c.*
 
-`table row cell 15 a plus 12 c end cell equals cell 234 space space space space space space space space space space space space space open parentheses 3 close parentheses end cell row cell 6 a plus 12 c end cell equals cell 126 space space space space space space space space space space space space space open parentheses 4 close parentheses end cell end table`
+$\begin{gathered} 15 a + 12 c & = 234 ( 3 ) \\ 6 a + 12 c & = 126 ( 4 ) \end{gathered}$
 
 > *Eliminate the **c** terms by subtracting equation (4) from equation (3).*
 
-`table row cell 15 a plus 12 c end cell equals 234 row cell 6 a plus 12 c end cell equals 126 row cell 9 a plus 12 c end cell equals 108 end table`
+$\begin{gathered} 15 a + 12 c & = 234 \\ 6 a + 12 c & = 126 \\ 9 a + 12 c & = 108 \end{gathered}$
 
 **[1]**
 
 > *Solve the equation to find** a  **by dividing both sides by 9.*
 
-`table attributes columnalign right center left columnspacing 0px end attributes row a equals cell 108 over 9 equals 12 end cell end table`
+$\begin{array}{rcl} a = \frac{108}{9} = 12 \end{array}$
 
 > *Substitute *$a=12$* into either of the two original equations**.*
 
-`table attributes columnalign right center left columnspacing 0px end attributes row cell open parentheses 1 close parentheses space space space space space space space 5 a plus 4 c end cell equals 78 row cell 5 open parentheses 12 close parentheses plus 4 c end cell equals cell 78 space end cell row cell 60 plus 4 c end cell equals 78 end table`
+$\begin{array}{rcl} ( 1 ) 5 a + 4 c & = 78 \\ 5 ( 12 ) + 4 c & = 78 \\ 60 + 4 c & = 78 \end{array}$
 
 > *If  you spot it you can divide every term in this question by 2 to make the numbers smaller and easier to deal with.*
 
@@ -1852,7 +1817,7 @@ $30+2c=39$
 
 > *Solve this equation to find** c.*
 
-`table row cell 30 plus 2 c end cell equals 39 row cell negative 30 space space space space space space space space space space space space space space space space end cell equals cell space space space space space minus 30 end cell row cell 2 c end cell equals 9 row cell divided by 2 space space space space space space space end cell equals cell space space space space divided by 2 end cell row c equals cell 4.5 end cell row blank blank blank end table`
+$\begin{gathered} 30 + 2 c & = 39 \\ - 30 & = - 30 \\ 2 c & = 9 \\ \div 2 & = \div 2 \\ c = 4.5 \\ \end{gathered}$
 
 > *Remember that the question is about money so non-whole number answers will need to be given to two decimal places.*
 
@@ -1870,7 +1835,7 @@ $30+2c=39$
 
 > *The 'bottom row' would give us an equation in **m** and **n** by considering the **y**-direction of the vector.*
 
-`table row cell 4 m plus 5 n end cell equals 12 row cell m plus 2 n end cell equals 6 end table`
+$\begin{gathered} 4 m + 5 n & = 12 \\ m + 2 n & = 6 \end{gathered}$
 
 **One for each equation ****[2]**
 
@@ -1878,19 +1843,19 @@ $30+2c=39$
 
 $m=6-2n$
 
-`therefore 4 open parentheses 6 minus 2 n close parentheses plus 5 n equals 12`
+$\therefore 4 ( 6 - 2 n ) + 5 n = 12$
 
 **[1]**
 
 > *Expand, simplify and solve this equation to find **n**.*
 
-`table row cell 24 minus 8 n plus 5 n end cell equals 12 row cell 24 minus 3 n end cell equals 12 row cell 3 n end cell equals 12 row n equals 4 end table`
+$\begin{gathered} 24 - 8 n + 5 n & = 12 \\ 24 - 3 n & = 12 \\ 3 n & = 12 \\ n = 4 \end{gathered}$
 
 **[1]**
 
 > *Substitute **n** = 4 into either of the original equations (second one is easiest) to find **m**.*
 
-`table row cell m plus 2 open parentheses 4 close parentheses end cell equals 6 row m equals cell 6 minus 8 end cell row m equals cell negative 2 end cell end table`
+$\begin{gathered} m + 2 ( 4 ) & = 6 \\ m = 6 - 8 \\ m = - 2 \end{gathered}$
 
 $\thereforem=-2,n=4$* ***[1]**
 
@@ -1899,13 +1864,13 @@ $\thereforem=-2,n=4$* ***[1]**
 ### 21() — 5 marks
 > *Substitute the expression for  *$x$* into the first equation to eliminate *$x$
 
-`table row cell 2 open parentheses 3 y minus 1 close parentheses squared plus 3 y squared end cell equals 11 end table`
+$\begin{gathered} 2 ( 3 y - 1 )^{2} + 3 y^{2} & = 11 \end{gathered}$
 
 **[M1]**
 
 > *Expand the brackets and simplify the equation*
 
-`table row cell 2 open parentheses 9 y squared minus 6 y plus 1 close parentheses plus 3 y squared end cell equals 11 row cell 18 y squared minus 12 y plus 2 plus 3 y squared end cell equals 11 row cell 21 y squared minus 12 y plus 2 end cell equals 11 end table`
+$\begin{gathered} 2 ( 9 y^{2} - 6 y + 1 ) + 3 y^{2} & = 11 \\ 18 y^{2} - 12 y + 2 + 3 y^{2} & = 11 \\ 21 y^{2} - 12 y + 2 & = 11 \end{gathered}$
 
 > *Make the quadratic equal to 0 by subtracting 11 from both sides*
 
@@ -1919,13 +1884,13 @@ $7y^{2}-4y-3=0$
 
 > *Either factorise or use the quadratic formula to solve for **y**, showing your method clearly*
 
-`open parentheses 7 y plus 3 close parentheses open parentheses y minus 1 close parentheses equals 0`
+$( 7 y + 3 ) ( y - 1 ) = 0$
 
 $y=-\frac{3}{7},y=1$
 
 > *or*
 
-`y equals fraction numerator negative open parentheses negative 4 close parentheses plus-or-minus square root of open parentheses negative 4 close parentheses squared minus 4 cross times 7 cross times open parentheses negative 3 close parentheses end root over denominator 14 end fraction`
+$y = \frac{- ( - 4 ) \pm \sqrt{( - 4 )^{2} - 4 \times 7 \times ( - 3 )} }{14}$
 
 $y=-\frac{3}{7},y=1$
 
@@ -1940,7 +1905,7 @@ $x=3\times1-1=2$
 
 *When *$y=-\frac{3}{7}$
 
-`x equals 3 cross times open parentheses negative 3 over 7 close parentheses minus 1 equals negative 16 over 7`
+$x = 3 \times ( - \frac{3}{7} ) - 1 = - \frac{16}{7}$
 
 **[M1]**
 
@@ -1981,7 +1946,7 @@ $x=5-2y$
 
 > *Solve the equations simultaneously by substituting the equation of the line into the equation of the curve*
 
-`open parentheses 5 space minus space 2 y close parentheses squared space plus thin space 3 y squared space equals space 13`
+$( 5 - 2 y )^{2} + 3 y^{2} = 13$
 
 **[M1]**
 
@@ -2000,7 +1965,7 @@ $7y^{2}-20y+12=0$
 
 > *Factorise the quadratic (or use the quadratic formula) and solve*
 
-`open parentheses 7 y space minus space 6 close parentheses open parentheses y space minus space 2 close parentheses space equals space 0`
+$( 7 y - 6 ) ( y - 2 ) = 0$
 
 $y=\frac{6}{7},y=2$
 
@@ -2008,15 +1973,15 @@ $y=\frac{6}{7},y=2$
 
 > *Substitute these values into the equation of the line to get the corresponding *$x$* values*
 
-`y space equals space 6 over 7 space rightwards double arrow space x equals space 5 space minus space 2 open parentheses 6 over 7 close parentheses space equals fraction numerator space 23 over denominator 7 end fraction`
+$y = \frac{6}{7} \Leftrightarrow x = 5 - 2 ( \frac{6}{7} ) = \frac{ 23}{7}$
 
-`y space equals space 2 space rightwards double arrow space x space equals space 5 space minus space 2 open parentheses 2 close parentheses space equals space 1`
+$y = 2 \Leftrightarrow x = 5 - 2 ( 2 ) = 1$
 
 **[M1]**
 
 > *Express the final answer as co-ordinates*
 
-`open parentheses 23 over 7 comma 6 over 7 close parentheses space and space open parentheses 1 space comma space 2 close parentheses`
+`( 23 / 7 , 6 / 7 ) and ( 1 , 2 )`
 
 **[A1]**
 
@@ -2028,17 +1993,17 @@ $y=\frac{6}{7},y=2$
 ### 20() — 5 marks
 > *The first equation is quadratic so rearrange the linear equation into either *$x=$* or *$y=$* form and substitute.*
 
-`table row cell 4 y end cell equals cell 7 minus 3 x end cell row y equals cell 7 over 4 minus 3 over 4 x end cell end table`
+$\begin{gathered} 4 y & = 7 - 3 x \\ y = \frac{7}{4} - \frac{3}{4} x \end{gathered}$
 
 > *Substitute this into the quadratic equation.*
 
-`x squared minus 4 open parentheses 7 over 4 minus 3 over 4 x close parentheses squared equals 9`
+$x^{2} - 4 ( \frac{7}{4} - \frac{3}{4} x )^{2} = 9$
 
 **[1]**
 
 > *Expand and simplify.*
 
-`table attributes columnalign right center left columnspacing 0px end attributes row cell x squared minus 4 open parentheses 49 over 16 minus 42 over 16 x plus 9 over 16 x squared close parentheses minus 9 end cell equals 0 row cell x squared minus 9 over 4 x squared plus 42 over 4 x minus 49 over 4 minus 9 end cell equals 0 row cell negative 5 over 4 x squared plus 42 over 4 x minus 85 over 4 end cell equals 0 end table`
+$\begin{array}{rcl} x^{2} - 4 ( \frac{49}{16} - \frac{42}{16} x + \frac{9}{16} x^{2} ) - 9 & = 0 \\ x^{2} - \frac{9}{4} x^{2} + \frac{42}{4} x - \frac{49}{4} - 9 & = 0 \\ - \frac{5}{4} x^{2} + \frac{42}{4} x - \frac{85}{4} & = 0 \end{array}$
 
 **Correct expansion**** [1] **
 **Forming a quadratic to solve**** [1]**
@@ -2049,14 +2014,14 @@ $5x^{2}-42x+85=0$
 
 > *Forming a[1]This does factorise but if you don't spot it you can use the quadratic formula (or your calculator).  Then solve for **x**.*
 
-`open parentheses 5 x minus 17 close parentheses open parentheses x minus 5 close parentheses equals 0
-x equals 17 over 5 comma space space space space space x equals 5`
+$( 5 x - 17 ) ( x - 5 ) = 0
+x = \frac{17}{5} , x = 5$
 
 **Method of solving quadratic**** [1]**
 
 > *Substitute these **x** values into any of the original equations (the rearranged linear equation is usually easiest) to find the **y** values.*
 
-`y equals 7 over 4 minus 3 over 4 open parentheses 17 over 5 close parentheses equals negative 16 over 20 equals negative 4 over 5`*  **and**  *`y equals 7 over 4 minus 3 over 4 open parentheses 5 close parentheses equals negative 8 over 4 equals negative 2`
+$y = \frac{7}{4} - \frac{3}{4} ( \frac{17}{5} ) = - \frac{16}{20} = - \frac{4}{5}$*  **and**  *$y = \frac{7}{4} - \frac{3}{4} ( 5 ) = - \frac{8}{4} = - 2$
 
 > *Be careful to pair up the final answers correctly.*
 
@@ -2075,7 +2040,7 @@ $x=2y+10$
 
 > *Now replace the *$x$* in *$x^{2}+y^{2}=20$* with *$2y+10$
 
-`open parentheses 2 y plus 10 close parentheses squared plus y squared equals 20`
+$( 2 y + 10 )^{2} + y^{2} = 20$
 
 **[1]**
 
@@ -2097,7 +2062,7 @@ $y^{2}+8y+16=0$
 
 > *This factorises to *
 
-`open parentheses y plus 4 close parentheses open parentheses y plus 4 close parentheses equals 0 space` *or  *`open parentheses x plus 4 close parentheses squared equals 0 space`
+$( y + 4 ) ( y + 4 ) = 0$ *or  *$( x + 4 )^{2} = 0$
 
 > *Therefore the only solution is when*
 
@@ -2125,11 +2090,11 @@ $y=-4$
 ### 3((b)) — 2 marks
 > *Writing the sequence and missing terms as "**u*<sub>*1*</sub>*,  **u*<sub>*2*</sub>*,  3,  11,  14"*
 
-`table attributes columnalign right center left columnspacing 0px end attributes row cell u subscript 2 plus 3 end cell equals 11 row cell u subscript 2 end cell equals cell 11 minus 3 equals 8 end cell end table`
+$\begin{array}{rcl} u_{2} + 3 & = 11 \\ u_{2} & = 11 - 3 = 8 \end{array}$
 
 > *Now replace **u*<sub>*2*</sub>* with 8 and repeat *
 
-`table row cell u subscript 1 plus 8 end cell equals 3 row cell u subscript 1 end cell equals cell 3 minus 8 equals negative 5 end cell end table`
+$\begin{gathered} u_{1} + 8 & = 3 \\ u_{1} & = 3 - 8 = - 5 \end{gathered}$
 
 **−5, 8** **[2]**
 
@@ -2138,8 +2103,8 @@ $y=-4$
 ### 3((c)) — 8 marks
 i) *By adding two previous terms to find the next term, write two equations*
 
-`2 plus d equals e space space space space space space space space space space circle enclose 1
-d plus e equals 10 space space space space space space space space circle enclose 2`
+$2 + d = e \textcircled{1}
+d + e = 10 \textcircled{2}$
 
 > *We now have two simultaneous equations, which we can solve by substitution or by elimination. In the solution below, we will use substitution *
 
@@ -2163,34 +2128,34 @@ $e=6$** [1]**
 
 ii) *By adding two previous terms to find the next term, write three equations*
 
-`negative 33 plus x equals y space space space circle enclose 1
-x plus y equals z space space space space space space space space space circle enclose 2
-y plus z equals 18 space space space space space space space circle enclose 3`
+$- 33 + x = y \textcircled{1}
+x + y = z \textcircled{2}
+y + z = 18 \textcircled{3}$
 
 > *We have three simultaneous equations, which we can solve by substitution or by elimination. In the solution below, we will use substitution *
 
 > *In *`circle enclose 2`*, replace "**y**" with "−33 + **x**"*
 
-`x plus open parentheses negative 33 plus x close parentheses equals z
-2 x minus 33 equals z space space space space space space space space circle enclose 4`
+$x + ( - 33 + x ) = z
+2 x - 33 = z \textcircled{4}$
 
 **[1]**
 
 > *In *`circle enclose 3`*, replace "**y**" with "-33 + **x**" and "**z**" with "2**x** − 33". (The brackets in the line below are not necessary, they are just to make the substitutions clearer)*
 
-`open parentheses negative 33 plus x close parentheses plus open parentheses 2 x minus 33 close parentheses equals 18`
+$( - 33 + x ) + ( 2 x - 33 ) = 18$
 
 **[1]**
 
 > *Simplify and solve*
 
-`table attributes columnalign right center left columnspacing 0px end attributes row cell negative 33 plus x plus 2 x minus 33 end cell equals 18 row cell 3 x minus 66 end cell equals 18 row cell 3 x end cell equals 84 end table`
+$\begin{array}{rcl} - 33 + x + 2 x - 33 & = 18 \\ 3 x - 66 & = 18 \\ 3 x & = 84 \end{array}$
 
 $x=28$** [1]**
 
 > *Substitute "**x** = 28" into *`circle enclose 4`* to find **z*
 
-`table row cell 2 open parentheses 28 close parentheses minus 33 end cell equals z row cell 56 minus 33 end cell equals z end table`
+$\begin{gathered} 2 ( 28 ) - 33 & = z \\ 56 - 33 & = z \end{gathered}$
 
 $z=23$** [1]**
 
@@ -2209,15 +2174,15 @@ $y=-5$* ***[1]**
 ### 22() — 5 marks
 > *Write equations for both the first and second situation.*
 
-*For the first situation, there are *$g$* green counters and *`open parentheses r plus g close parentheses`* counters in total.*
+*For the first situation, there are *$g$* green counters and *$( r + g )$* counters in total.*
 
-`therefore straight P open parentheses green close parentheses equals fraction numerator g over denominator r plus g end fraction equals 3 over 7`
+$\therefore \mathrm{P} ( \text{green} ) = \frac{g}{r + g} = \frac{3}{7}$
 
 **[1]**
 
-> *For the second situation there are *`open parentheses g plus 3 close parentheses`* green counters and *`open parentheses r plus 2 plus g plus 3 close parentheses`* counters in total.*
+> *For the second situation there are *$( g + 3 )$* green counters and *$( r + 2 + g + 3 )$* counters in total.*
 
-`therefore straight P open parentheses green close parentheses equals fraction numerator g plus 3 over denominator r plus 2 plus g plus 3 end fraction equals 6 over 13`
+$\therefore \mathrm{P} ( \text{green} ) = \frac{g + 3}{r + 2 + g + 3} = \frac{6}{13}$
 
 **[1]**
 
@@ -2231,35 +2196,35 @@ $\frac{g+3}{r+g+5}=\frac{6}{13}$
 
 > *Multiply by denominators to remove fractions (cross-multiply) for both equations.*
 
-`7 g equals 3 open parentheses r plus g close parentheses`
+$7 g = 3 ( r + g )$
 
 > *and*
 
-`13 open parentheses g plus 3 close parentheses equals 6 open parentheses r plus g plus 5 close parentheses`
+$13 ( g + 3 ) = 6 ( r + g + 5 )$
 
 **[1]**
 
 > *Expand and simplify.*
 
-`table row cell 7 g end cell equals cell 3 r plus 3 g end cell row cell 3 r minus 4 g end cell equals cell 0 space space space space space space space space space space space space space space space space space space space space circle enclose 1 end cell end table`
+$\begin{gathered} 7 g & = 3 r + 3 g \\ 3 r - 4 g & = 0 \textcircled{1} \end{gathered}$
 
 > *and*
 
-`table row cell 13 g plus 39 end cell equals cell 6 r plus 6 g plus 30 end cell row cell 6 r minus 7 g end cell equals cell 9 space space space space space space space space space space space space space space space space space space space space circle enclose 2 end cell end table`
+$\begin{gathered} 13 g + 39 & = 6 r + 6 g + 30 \\ 6 r - 7 g & = 9 \textcircled{2} \end{gathered}$
 
 > *Solve *`circle enclose 1`* and *`circle enclose 2`* simultaneously.*
 
-`table row cell circle enclose 1 space space space space space 3 r end cell equals cell 4 g end cell row r equals cell 4 over 3 g end cell end table`
+$\begin{gathered} \textcircled{1} 3 r & = 4 g \\ r = \frac{4}{3} g \end{gathered}$
 
 > *Substitute into *`circle enclose 2`*.*
 
-`table row cell 6 open parentheses 4 over 3 g close parentheses minus space 7 g end cell equals 9 row g equals 9 end table`
+$\begin{gathered} 6 ( \frac{4}{3} g ) - 7 g & = 9 \\ g = 9 \end{gathered}$
 
 **[1]**
 
 > *Find **r **by substituting this value of **g** back into equation** *`circle enclose 1`*.*
 
-`r equals 4 over 3 open parentheses 9 close parentheses equals 12`
+$r = \frac{4}{3} ( 9 ) = 12$
 
 > *Now we can answer the question.*
 
@@ -2270,26 +2235,26 @@ $\frac{g+3}{r+g+5}=\frac{6}{13}$
 ### 19() — 5 marks
 > *The first equation is quadratic so substitute the linear equation - that is already in *$y=$* form - into it.*
 
-`3 x squared plus open parentheses 2 x minus 3 close parentheses squared minus x open parentheses 2 x minus 3 close parentheses equals 5`
+$3 x^{2} + ( 2 x - 3 )^{2} - x ( 2 x - 3 ) = 5$
 
 **[1]**
 
 > *Expand and simplify.*
 
-`table row cell 3 x squared plus 4 x squared minus 12 x plus 9 minus 2 x squared plus 3 x minus 5 end cell equals 0 row cell 5 x squared minus 9 x plus 4 end cell equals 0 end table`
+$\begin{gathered} 3 x^{2} + 4 x^{2} - 12 x + 9 - 2 x^{2} + 3 x - 5 & = 0 \\ 5 x^{2} - 9 x + 4 & = 0 \end{gathered}$
 
 **[1]**
 
 > *This does factorise but if you don't spot it you can use the quadratic formula (or your calculator).  Then solve for **x**.*
 
-`open parentheses 5 x minus 4 close parentheses open parentheses x minus 1 close parentheses equals 0
-x equals 4 over 5 equals 0.8 comma space space space space space x equals 1`
+$( 5 x - 4 ) ( x - 1 ) = 0
+x = \frac{4}{5} = 0.8 , x = 1$
 
 **[1]**
 
 > *Substitute these **x** values into any of the original equations (the linear equation is usually easiest) to find the **y** values.*
 
-`y equals 2 open parentheses 0.8 close parentheses minus 3 equals negative 1.4`*  **and**  *`y equals 2 open parentheses 1 close parentheses minus 3 equals negative 1`
+$y = 2 ( 0.8 ) - 3 = - 1.4$*  **and**  *$y = 2 ( 1 ) - 3 = - 1$
 
 **[1]**
 
@@ -2308,26 +2273,26 @@ $x=1-2y$
 
 > *Substitute this into the first (quadratic) equation.*
 
-`open parentheses 1 minus 2 y close parentheses squared minus 9 y minus open parentheses 1 minus 2 y close parentheses equals 2 y squared minus 12`
+$( 1 - 2 y )^{2} - 9 y - ( 1 - 2 y ) = 2 y^{2} - 12$
 
 **[1]**
 
 > *Expand and simplify.*
 
-`table row cell 1 minus 4 y plus 4 y squared minus 9 y minus 1 plus 2 y minus 2 y squared plus 12 end cell equals 0 row cell 2 y squared minus 11 y plus 12 end cell equals 0 end table`
+$\begin{gathered} 1 - 4 y + 4 y^{2} - 9 y - 1 + 2 y - 2 y^{2} + 12 & = 0 \\ 2 y^{2} - 11 y + 12 & = 0 \end{gathered}$
 
 **[1]**
 
 > *This does factorise but if you don't spot it you can use the quadratic formula (or your calculator).  Then solve for **y**.*
 
-`open parentheses 2 y minus 3 close parentheses open parentheses y minus 4 close parentheses equals 0
-y equals 3 over 2 equals 1.5 comma space space space space space y equals 4`
+$( 2 y - 3 ) ( y - 4 ) = 0
+y = \frac{3}{2} = 1.5 , y = 4$
 
 **[1]**
 
 > *Substitute these **y** values into any of the original equations (the rearranged linear equation is usually easiest) to find the **x** values.*
 
-`x equals 1 minus 2 open parentheses 1.5 close parentheses equals negative 2`*  **and**  *`x equals 1 minus 2 open parentheses 4 close parentheses equals negative 7`
+$x = 1 - 2 ( 1.5 ) = - 2$*  **and**  *$x = 1 - 2 ( 4 ) = - 7$
 
 **[1]**
 
@@ -2348,13 +2313,13 @@ $x=y+3$
 
 > *Substitute this into the second (quadratic) equation.*
 
-`3 open parentheses y plus 3 close parentheses squared minus y squared plus open parentheses y plus 3 close parentheses y equals 9`
+$3 ( y + 3 )^{2} - y^{2} + ( y + 3 ) y = 9$
 
 **[1]**
 
 > *Expand and simplify.*
 
-`table row cell 3 open parentheses y squared plus 6 y plus 9 close parentheses minus y squared plus y squared plus 3 y minus 9 end cell equals 0 row cell 3 y squared plus 21 y plus 18 end cell equals 0 end table`
+$\begin{gathered} 3 ( y^{2} + 6 y + 9 ) - y^{2} + y^{2} + 3 y - 9 & = 0 \\ 3 y^{2} + 21 y + 18 & = 0 \end{gathered}$
 
 **[1]**
 
@@ -2364,8 +2329,8 @@ $y^{2}+7y+6=0$
 
 > *Solve this by factorising, or if you can't spot the factors, use the quadratic formula (or your calculator).*
 
-`open parentheses y plus 6 close parentheses open parentheses y plus 1 close parentheses equals 0
-y equals negative 6 comma space space space space y equals negative 1`
+$( y + 6 ) ( y + 1 ) = 0
+y = - 6 , y = - 1$
 
 **[1]**
 
@@ -2379,12 +2344,12 @@ $x=-6+3=-3$*  **and**  *$x=-1+3=2$
 
 > *(It doesn't matter which round **P** and **Q** are.)*
 
-`P space open parentheses negative 3 comma space minus 6 close parentheses
-Q space open parentheses 2 comma space minus 1 close parentheses`
+$P ( - 3 , - 6 )
+Q ( 2 , - 1 )$
 
 > *The midpoint of a line between two points is given by taking the (mean) averages of the coordinates.*
 
-*Midpoint of ***PQ*** is *`open parentheses fraction numerator negative 3 plus 2 over denominator 2 end fraction comma space fraction numerator negative 6 plus negative 1 over denominator 2 end fraction close parentheses equals open parentheses negative 1 half comma space minus 7 over 2 close parentheses equals open parentheses negative 0.5 comma space minus 3.5 close parentheses`
+*Midpoint of ***PQ*** is *$( \frac{- 3 + 2}{2} , \frac{- 6 + - 1}{2} ) = ( - 1 \frac{1}{2} , - \frac{7}{2} ) = ( - 0.5 , - 3.5 )$
 
 **The coordinates of the midpoint of PQ are **$(-0.5,-3.5)$* ***[1]**
 
@@ -2399,13 +2364,13 @@ $x=6y+5$
 
 > *Substitute this into the second (quadratic) equation.*
 
-`open parentheses 6 y plus 5 close parentheses y minus 2 y squared equals 6`
+$( 6 y + 5 ) y - 2 y^{2} = 6$
 
 **[1]**
 
 > *Expand and simplify.*
 
-`table attributes columnalign right center left columnspacing 0px end attributes row cell 6 y squared plus 5 y minus 2 y squared minus 6 end cell equals 0 row cell 4 y squared plus 5 y minus 6 end cell equals 0 end table`
+$\begin{array}{rcl} 6 y^{2} + 5 y - 2 y^{2} - 6 & = 0 \\ 4 y^{2} + 5 y - 6 & = 0 \end{array}$
 
 **[1]**
 
@@ -2413,15 +2378,15 @@ $x=6y+5$
 
 > *Then solve for **y**.*
 
-`open parentheses 4 y minus 3 close parentheses open parentheses y plus 2 close parentheses equals 0
-y equals 0.75 comma space space space space space y equals negative 2`
+$( 4 y - 3 ) ( y + 2 ) = 0
+y = 0.75 , y = - 2$
 
 ** ****Method of solving quadratic equation**** [1] **
 **Both y values correct**** [1]**
 
 > *Substitute these **y** values into any of the original equations (the rearranged linear equation is usually easiest) to find the **x** values.*
 
-`x equals 6 open parentheses 0.75 close parentheses plus 5 equals 9.5`*  **and**  *`x equals 6 open parentheses negative 2 close parentheses plus 5 equals negative 7`
+$x = 6 ( 0.75 ) + 5 = 9.5$*  **and**  *$x = 6 ( - 2 ) + 5 = - 7$
 
 > *Be careful to pair up the final answers correctly.*
 
@@ -2440,13 +2405,13 @@ y equals 0.75 comma space space space space space y equals negative 2`
 
 > *So substitute this into the second (quadratic) equation.*
 
-`x squared plus open parentheses 3 minus 2 x close parentheses squared equals 18`
+$x^{2} + ( 3 - 2 x )^{2} = 18$
 
 **[1]**
 
 > *Expand and simplify.*
 
-`table row cell x squared plus 9 minus 12 x plus 4 x squared minus 18 end cell equals 0 row cell 5 x squared minus 12 x minus 9 end cell equals 0 end table`
+$\begin{gathered} x^{2} + 9 - 12 x + 4 x^{2} - 18 & = 0 \\ 5 x^{2} - 12 x - 9 & = 0 \end{gathered}$
 
 **[1]**
 
@@ -2454,15 +2419,15 @@ y equals 0.75 comma space space space space space y equals negative 2`
 
 > *Then solve for **y**.*
 
-`open parentheses 5 x plus 3 close parentheses open parentheses x minus 3 close parentheses equals 0
-x equals negative 0.6 comma space space space space space x equals 3`
+$( 5 x + 3 ) ( x - 3 ) = 0
+x = - 0.6 , x = 3$
 
 ** ****Method of solving quadratic equation**** [1] **
 **Both x values correct**** [1]**
 
 > *Substitute these **x** values into any of the original equations (the linear equation is usually easiest) to find the **y** values.*
 
-`y equals 3 minus 2 open parentheses negative 0.6 close parentheses equals 4.2`*  **and**  *`y equals 3 minus 2 open parentheses 3 close parentheses equals negative 3`
+$y = 3 - 2 ( - 0.6 ) = 4.2$*  **and**  *$y = 3 - 2 ( 3 ) = - 3$
 
 > *Be careful to pair up the final answers correctly.*
 
@@ -2485,20 +2450,20 @@ $x=y-4$
 
 > *Substitute this into the first (quadratic) equation.*
 
-`open parentheses y minus 4 close parentheses squared minus open parentheses y minus 4 close parentheses plus y squared equals 10`
+$( y - 4 )^{2} - ( y - 4 ) + y^{2} = 10$
 
 **[1]**
 
 > *Expand and simplify.*
 
-`table row cell open parentheses y squared minus 8 y plus 16 close parentheses minus y plus 4 plus y squared minus 10 end cell equals 0 row cell 2 y squared minus 9 y plus 10 end cell equals 0 end table`
+$\begin{gathered} ( y^{2} - 8 y + 16 ) - y + 4 + y^{2} - 10 & = 0 \\ 2 y^{2} - 9 y + 10 & = 0 \end{gathered}$
 
 **[1]**
 
 > *Solve this by factorising, or if you can't spot the factors, use the quadratic formula (or your calculator).*
 
-`open parentheses 2 y minus 5 close parentheses open parentheses y minus 2 close parentheses equals 0
-y equals 5 over 2 comma space space space space y equals 2`
+$( 2 y - 5 ) ( y - 2 ) = 0
+y = \frac{5}{2} , y = 2$
 
 **[1]**
 
@@ -2510,14 +2475,14 @@ $x=\frac{5}{2}-4=-\frac{3}{2}$*  **and**  *$x=2-4=-2$
 
 > *(It doesn't matter which round **A** and **B** are.)*
 
-`A space open parentheses 2 comma space minus 2 close parentheses
-B space open parentheses 5 over 2 comma space minus 3 over 2 close parentheses`
+$A ( 2 , - 2 )
+B ( \frac{5}{2} , - \frac{3}{2} )$
 
 **[1]**
 
 > *The length of a line between two points is found by applying Pythagoras' theorem to the difference between the coordinates. *
 
-> *As a formula this is " *`square root of open parentheses x subscript 2 minus x subscript 1 close parentheses squared plus open parentheses y subscript 2 minus y subscript 1 close parentheses squared end root`* ", where *`open parentheses x subscript 1 comma space y subscript 1 close parentheses`* and *`open parentheses x subscript 2 comma space y subscript 2 close parentheses`* are the coordinates of the two points. *
+> *As a formula this is " *$\sqrt{( x_{2} - x_{1} )^{2} + ( y_{2} - y_{1} )^{2}}$* ", where *$( x_{1} , y_{1} )$* and *$( x_{2} , y_{2} )$* are the coordinates of the two points. *
 
 > *Sketching a diagram of a right-angled triangle with **AB** as the hypotenuse may help.*
 
@@ -2525,7 +2490,7 @@ B space open parentheses 5 over 2 comma space minus 3 over 2 close parentheses`
 
 *Length of ***AB*** is*
 
-`table row cell square root of open parentheses 5 over 2 minus 2 close parentheses squared plus open parentheses negative 3 over 2 minus open parentheses negative 2 close parentheses close parentheses squared end root end cell equals cell square root of open parentheses 1 half close parentheses squared plus open parentheses 1 half close parentheses squared end root end cell row blank equals cell square root of 1 fourth plus 1 fourth end root end cell row blank equals cell square root of 1 half end root end cell row blank equals cell fraction numerator 1 over denominator square root of 2 end fraction end cell end table`
+`| sqrt( ( 5 / 2 - 2 ) ^2 + ( - 3 / 2 - ( - 2 ) ) ^2 ) | = sqrt( ( 1 half ) ^2 + ( 1 half ) ^2 ) | | _ = sqrt( 1 fourth + 1 fourth ) | | _ = sqrt( 1 half ) | | _ = (1)/(sqrt( 2) | |`
 
 **[1]**
 
@@ -2544,13 +2509,13 @@ $\frac{1}{\sqrt{2}}=\frac{1}{\sqrt{2}}\times\frac{\sqrt{2}}{\sqrt{2}}=\frac{\sqr
 
 > *We can see that the linear equation is already in '**y** =' form.  Substituting into the quadratic gives*
 
-`x squared plus open parentheses 3 x plus p close parentheses squared equals 53`
+$x^{2} + ( 3 x + p )^{2} = 53$
 
 **[1]**
 
 > *Expand and simplify to get the given result.*
 
-`table row cell x squared plus 9 x squared plus 3 p x plus 3 p x plus p squared end cell equals 53 row cell 10 x squared plus 6 p x plus p squared minus 53 end cell equals 0 end table`
+$\begin{gathered} x^{2} + 9 x^{2} + 3 p x + 3 p x + p^{2} & = 53 \\ 10 x^{2} + 6 p x + p^{2} - 53 & = 0 \end{gathered}$
 
 **Correct expansion**** [1]**
 
@@ -2559,12 +2524,12 @@ $\frac{1}{\sqrt{2}}=\frac{1}{\sqrt{2}}\times\frac{\sqrt{2}}{\sqrt{2}}=\frac{\sqr
 ### 27((b)) — 5 marks
 > *The **x**-coordinate of **A**, *$x=2$*, will satisfy the equation *$10x^{2}+6px+p^{2}-53=0$* so we can use this to find the value of **p**.*
 
-`table attributes columnalign right center left columnspacing 0px end attributes row cell 10 open parentheses 2 close parentheses squared plus 6 p open parentheses 2 close parentheses plus p squared minus 53 end cell equals 0 row cell 40 plus 12 p plus p squared minus 53 end cell equals 0 row cell p squared plus 12 p minus 13 end cell equals 0 end table`
+$\begin{array}{rcl} 10 ( 2 )^{2} + 6 p ( 2 ) + p^{2} - 53 & = 0 \\ 40 + 12 p + p^{2} - 53 & = 0 \\ p^{2} + 12 p - 13 & = 0 \end{array}$
 
 > *This is a quadratic equation in **p**, and it factorises.*
 
-`open parentheses p plus 13 close parentheses open parentheses p minus 1 close parentheses equals 0
-p equals negative 13 comma space space p equals 1`
+$( p + 13 ) ( p - 1 ) = 0
+p = - 13 , p = 1$
 
 > *We are told that **p** is a positive integer so we can reject *$p=-13$* as a solution.*
 
@@ -2574,7 +2539,7 @@ $p=1$
 
 > *This means the quadratic equation the **x**-coordinates of the intersects (points **A** and **B**) satisfy is*
 
-`table row cell 10 x squared plus 6 open parentheses 1 close parentheses x plus open parentheses 1 close parentheses squared minus 53 end cell equals 0 row cell 10 x squared plus 6 x minus 52 end cell equals 0 end table`
+$\begin{gathered} 10 x^{2} + 6 ( 1 ) x + ( 1 )^{2} - 53 & = 0 \\ 10 x^{2} + 6 x - 52 & = 0 \end{gathered}$
 
 **[1]**
 
@@ -2582,15 +2547,15 @@ $p=1$
 
 $5x^{2}+3x-26=0$
 
-> *We can factorise this to find the two **x**-coordinates, but we already know that one is *$x=2$*, so we already know one of the factors is *`open parentheses x minus 2 close parentheses`*.*
+> *We can factorise this to find the two **x**-coordinates, but we already know that one is *$x=2$*, so we already know one of the factors is *$( x - 2 )$*.*
 
-`5 x squared plus 3 x minus 26 equals open parentheses x minus 2 close parentheses open parentheses 5 x plus 13 close parentheses`
+$5 x^{2} + 3 x - 26 = ( x - 2 ) ( 5 x + 13 )$
 
 **[1]**
 
 > *Find the other **x**-coordinate by solving *$5x+13=0$*.*
 
-`table row cell 5 x end cell equals cell negative 13 end cell row x equals cell negative 13 over 5 equals negative 2.6 end cell end table`
+$\begin{gathered} 5 x & = - 13 \\ x = - \frac{13}{5} = - 2.6 \end{gathered}$
 
 **[1]**
 
@@ -2598,7 +2563,7 @@ $5x^{2}+3x-26=0$
 
 > *Substitute *$x=-2.6$* into either of the original equations; the linear equation is usually easiest.*
 
-`table row y equals cell 3 x plus p end cell row y equals cell 3 x plus 1 end cell row y equals cell 3 open parentheses negative 2.6 close parentheses plus 1 end cell row y equals cell negative 6.8 end cell end table`
+$\begin{gathered} y = 3 x + p \\ y = 3 x + 1 \\ y = 3 ( - 2.6 ) + 1 \\ y = - 6.8 \end{gathered}$
 
 **The coordinates of ****B**** are (-2.6, 6.8)*** ***[1]**
 
@@ -2625,13 +2590,13 @@ $\frac{7}{4}y+y=88$
 
 > *And finally work out the value of **x - y**.*
 
-`11 over 4 y space equals space 88
+$\frac{11}{4} y = 88
 
-y space equals space 88 space divided by space 11 over 4 space equals space 88 space cross times space 4 over 11 space equals space 4 space cross times space 88 over 11 space equals space 4 space cross times space 8 space equals space 32
+y = 88 \div \frac{11}{4} = 88 \times \frac{4}{11} = 4 \times \frac{88}{11} = 4 \times 8 = 32
 
-x space equals space 7 over 4 open parentheses 32 close parentheses space equals space 7 space cross times space 32 over 4 space equals space 7 space cross times space 8 space equals space 56
+x = \frac{7}{4} ( 32 ) = 7 \times \frac{32}{4} = 7 \times 8 = 56
 
-x space minus space y space equals space 56 space minus space 32 space equals space 24`
+x - y = 56 - 32 = 24$
 
 **24****  [1]**
 
@@ -2650,23 +2615,23 @@ $x+2=4x^{2}+5x+3$
 
 > *Rearrange to form a quadratic equation equal to zero.*
 
-`table row cell 4 x squared space plus space 5 x space plus space 3 space minus space x space minus space 2 space end cell equals cell space 0 end cell end table`
+$\begin{gathered} 4 x^{2} + 5 x + 3 - x - 2 & = 0 \end{gathered}$
 
 **[1]**
 
 > *Simplify by collecting the like terms.*
 
-`table row cell 4 x squared space plus space 4 x space plus space 1 space end cell equals cell space 0 end cell end table`
+$\begin{gathered} 4 x^{2} + 4 x + 1 & = 0 \end{gathered}$
 
 > *This can be factorised. Use the hint on the question that there is only one solution, so you know the factors will be the same. The two brackets should be the same, with the product of the coefficient of **x **equaling 4 and the product of the constant term equaling 1. *
 
-`open parentheses 2 x space plus space 1 close parentheses open parentheses 2 x space plus space 1 close parentheses equals 0`
+$( 2 x + 1 ) ( 2 x + 1 ) = 0$
 
 **[1]**
 
 > *Set one of the brackets equal to zero and solve to find the value of **x.*
 
-`table row cell 2 x space plus space 1 space end cell equals cell space 0 end cell row cell 2 x space end cell equals cell space minus 1 end cell row cell x space end cell equals cell space minus 1 half end cell end table`
+$\begin{gathered} 2 x + 1 & = 0 \\ 2 x & = - 1 \\ x & = - 1 \frac{1}{2} \end{gathered}$
 
 **There is only one solution at the point where **$x=-\frac{1}{2}$** ****[1]**
 
@@ -2681,19 +2646,19 @@ $x+2=4x^{2}+5x+3$
 
 > *Start by rewriting the ratio information in algebraic form with **x** and **y**.*
 
-`open parentheses x plus 20 close parentheses space colon space open parentheses y plus 20 close parentheses space equals space 5 space colon space 2
+$( x + 20 ) : ( y + 20 ) = 5 : 2
 
-open parentheses x minus 5 close parentheses space colon space open parentheses y minus 5 close parentheses space equals space 5 space colon space 1`
+( x - 5 ) : ( y - 5 ) = 5 : 1$
 
 **[1]**
 
 > *Turn the first ratio into an equation with fractions. Then rearrange the equation to get rid of any fractions.*
 
-`fraction numerator x plus 20 over denominator y plus 20 end fraction space equals space 5 over 2
+$\frac{x + 20}{y + 20} = \frac{5}{2} 
 
-2 space cross times space open parentheses x plus 20 close parentheses space equals space 5 space cross times space open parentheses y plus 20 close parentheses
-2 x space plus space 40 space equals space 5 y space plus space 100
-2 x space minus space 5 y space equals space 60`
+2 \times ( x + 20 ) = 5 \times ( y + 20 )
+2 x + 40 = 5 y + 100
+2 x - 5 y = 60$
 
 **[1] **
 
@@ -2702,11 +2667,11 @@ open parentheses x minus 5 close parentheses space colon space open parentheses 
 > *Turn the second ratio into an equation with fractions. *
 *Then rearrange the equation to get rid of any fractions.*
 
-`fraction numerator x minus 5 over denominator y minus 5 end fraction space equals space 5 over 1
+$\frac{x - 5}{y - 5} = \frac{5}{1} 
 
-1 space cross times space open parentheses x minus 5 close parentheses space equals space 5 space cross times space open parentheses y minus 5 close parentheses
-x space minus space 5 space equals space 5 y space minus space 25
-x space minus space 5 y space equals space minus 20`
+1 \times ( x - 5 ) = 5 \times ( y - 5 )
+x - 5 = 5 y - 25
+x - 5 y = - 20$
 
 **[1] ****This mark is for correctly changing the second ratio into an equation with fractions.**
 
@@ -2714,10 +2679,10 @@ x space minus space 5 y space equals space minus 20`
 
 > *Subtract the second equation from the first one to get rid of **y**.*
 
-`space space space space space 2 x space minus space 5 y space equals space 60
-minus open parentheses space x space minus space 5 y space equals space minus 20 close parentheses
-minus negative negative negative negative negative negative negative negative
-space space space space space space space space space space space space space space space space space space x space equals space 80`
+$2 x - 5 y = 60
+- ( x - 5 y = - 20 )
+- - - - - - - - -
+ x = 80$
 
 **[2] **
 
@@ -2728,9 +2693,9 @@ space space space space space space space space space space space space space sp
 
 > *Then write the ratio **x** : **y**  and simplify down to lowest terms.*
 
-> `table row cell 2 open parentheses 80 close parentheses space minus space 5 y space end cell equals cell space 60 end cell row cell 160 space minus space 5 y space end cell equals cell space 60 end cell row cell 160 space minus space 60 space end cell equals cell space 5 y end cell row cell 100 space end cell equals cell space 5 y end cell row cell 20 space end cell equals cell space y end cell end table`* *
+> $\begin{gathered} 2 ( 80 ) - 5 y & = 60 \\ 160 - 5 y & = 60 \\ 160 - 60 & = 5 y \\ 100 & = 5 y \\ 20 & = y \end{gathered}$* *
 
-`x space colon space y space equals space 80 space colon space 20 space equals space open parentheses 80 divided by 20 close parentheses space colon space open parentheses 20 divided by 20 close parentheses space equals space 4 space colon space 1`
+$x : y = 80 : 20 = ( 80 \div 20 ) : ( 20 \div 20 ) = 4 : 1$
 
 **x**** : ****y**** = 4 : 1****  [1]**
 
@@ -2745,7 +2710,7 @@ space space space space space space space space space space space space space sp
 
 > *This lets us set up two equations in **R** and **t** using the given probabilities.*
 
-`table row cell fraction numerator R minus 1 over denominator t minus 1 end fraction space end cell equals cell space 2 over 3 end cell row cell 3 space cross times open parentheses R minus 1 close parentheses space end cell equals cell space 2 space cross times open parentheses t minus 1 close parentheses end cell row cell 3 R space minus space 3 space end cell equals cell space 2 t space minus space 2 end cell row cell 2 t space end cell equals cell space 3 R space minus 1 end cell row blank blank blank row cell fraction numerator R over denominator t minus 1 end fraction space end cell equals cell space 7 over 10 end cell row cell R space end cell equals cell space 7 over 10 open parentheses t minus 1 close parentheses end cell end table`
+$\begin{gathered} \frac{R - 1}{t - 1} & = \frac{2}{3} \\ 3 \times ( R - 1 ) & = 2 \times ( t - 1 ) \\ 3 R - 3 & = 2 t - 2 \\ 2 t & = 3 R - 1 \\ \\ \frac{R}{t - 1} & = \frac{7}{10} \\ R & = \frac{7}{10} ( t - 1 ) \end{gathered}$
 
 **[2] **
 
@@ -2754,23 +2719,23 @@ space space space space space space space space space space space space space sp
 
 > *That gives a pair of simultaneous equations in **t **and **R.** *
 
-> *Now substitute  *`table row cell R space end cell equals cell space 7 over 10 open parentheses t minus 1 close parentheses end cell end table`*  into  *`table row cell 2 t space end cell equals cell space 3 R space minus 1 end cell end table`*, and solve to find the value of **t**.*
+> *Now substitute  *$\begin{gathered} R & = \frac{7}{10} ( t - 1 ) \end{gathered}$*  into  *$\begin{gathered} 2 t & = 3 R - 1 \end{gathered}$*, and solve to find the value of **t**.*
 
-`2 t space equals space 3 open parentheses 7 over 10 open parentheses t minus 1 close parentheses close parentheses space minus 1
+$2 t = 3 ( \frac{7}{10} ( t - 1 ) ) - 1
 
-2 t space equals space 21 over 10 open parentheses t minus 1 close parentheses space minus 1
+2 t = \frac{21}{10} ( t - 1 ) - 1
 
-now space multiply space both space sides space by space 10
+\text{now} \text{multiply} \text{both} \text{sides} \text{by} 10
 
-20 t space equals space 21 open parentheses t minus 1 close parentheses space minus space 10
+20 t = 21 ( t - 1 ) - 10
 
-20 t space equals space 21 t space minus space 21 space minus space 10
+20 t = 21 t - 21 - 10
 
-20 t space equals space 21 t space minus space 31
+20 t = 21 t - 31
 
-31 space equals space 21 t space minus space 20 t
+31 = 21 t - 20 t
 
-31 space equals space t`
+31 = t$
 
 **[1] **
 
@@ -2783,23 +2748,23 @@ now space multiply space both space sides space by space 10
 ### 19() — 6 marks
 > *The equations are both equal to *$y$* so eliminate *$y$* by setting the two expressions equal to each other.*
 
-`table row cell 2 x squared space minus space 7 x space plus space 4 space end cell equals cell space 4 x space minus 1 end cell end table`
+$\begin{gathered} 2 x^{2} - 7 x + 4 & = 4 x - 1 \end{gathered}$
 
 **[1]**
 
 > *Rearrange this into the form of a quadratic equation equal to 0.*
 
-`table row cell 2 x squared space minus space 7 x space plus space 4 space minus space 4 x space plus space 1 space end cell equals cell space 0 end cell end table`
+$\begin{gathered} 2 x^{2} - 7 x + 4 - 4 x + 1 & = 0 \end{gathered}$
 
 > *Simplify.*
 
-`table row cell 2 x squared space minus space 11 x space plus space 5 space end cell equals cell space 0 end cell end table`
+$\begin{gathered} 2 x^{2} - 11 x + 5 & = 0 \end{gathered}$
 
 ** [1]**
 
 > *Factorise if you can, or use the quadratic formula.*
 
-`open parentheses 2 x space minus space 1 close parentheses open parentheses x space minus space 5 close parentheses equals 0`
+$( 2 x - 1 ) ( x - 5 ) = 0$
 
 **Method of solving quadratic**** [1] **
 **Method correct ****[1]**
@@ -2814,10 +2779,7 @@ $2x-1=0\Rightarrowx=\frac{1}{2}\,\mathrm{or}\,\,x-5=0\Rightarrowx=5$
 
 > *Be careful not to mix up which **y **value goes with which **x **value**.*
 
-`y space equals space 4 open parentheses 1 half close parentheses space minus 1 space equals space 2 space minus space 1 space equals space 1
-and space
-
-y space equals space 4 open parentheses 5 close parentheses space minus 1 space equals space 20 space minus space 1 space equals space 19`
+`y = 4 ( 1 half ) - 1 = 2 - 1 = 1 and y = 4 ( 5 ) - 1 = 20 - 1 = 19`
 
 > *Be careful to pair up the final answers correctly.*
 
@@ -2834,13 +2796,13 @@ $x=\frac{1}{2},y=1\,x=5,y=19$
 
 > *The linear equation already has **y** as its subject, so there is no rearranging necessary.*
 
-`therefore x squared plus open parentheses 2 x close parentheses squared equals 30`
+$\therefore x^{2} + ( 2 x )^{2} = 30$
 
 **[1]**
 
 > *Expand, simplify and rearrange to get a quadratic equation in **x** only.*
 
-`table row cell x squared plus 4 x squared end cell equals 30 row cell 5 x squared minus 30 end cell equals 0 end table`
+$\begin{gathered} x^{2} + 4 x^{2} & = 30 \\ 5 x^{2} - 30 & = 0 \end{gathered}$
 
 **[1]**
 
@@ -2848,7 +2810,7 @@ $x=\frac{1}{2},y=1\,x=5,y=19$
 
 > *Doing this may help you from falling into the trap of forgetting to take positive and negative square roots!*
 
-`table row cell 5 open parentheses x squared minus 6 close parentheses end cell equals 0 row cell 5 open parentheses x plus square root of 6 close parentheses open parentheses x minus square root of 6 close parentheses end cell equals 0 end table`
+$\begin{gathered} 5 ( x^{2} - 6 ) & = 0 \\ 5 ( x + \sqrt{6} ) ( x - \sqrt{6} ) & = 0 \end{gathered}$
 
 **[1]**
 
@@ -2891,32 +2853,32 @@ $2x+5y=203$
 
 > *Now solve these two equations simultaneously. Number the equations.*
 
-> `table row cell 3 x plus 2 y end cell equals cell 134 space space space space space space space space space space space space open parentheses 1 close parentheses end cell row cell 2 x plus 5 y end cell equals cell 203 space space space space space space space space space space space space open parentheses 2 close parentheses end cell end table`* *
+> $\begin{gathered} 3 x + 2 y & = 134 ( 1 ) \\ 2 x + 5 y & = 203 ( 2 ) \end{gathered}$* *
 
 > *Make the **y** terms equal by multiplying all parts of equation (1) by 5 and all parts of equation (2) by 2.*
 
-`5 open parentheses 1 close parentheses space space space space space space space space 5 open parentheses 3 x plus 2 y equals 134 close parentheses
-2 open parentheses 2 close parentheses space space space space space space space space 2 open parentheses 2 x plus 5 y equals 203 close parentheses`
+$5 ( 1 ) 5 ( 3 x + 2 y = 134 )
+2 ( 2 ) 2 ( 2 x + 5 y = 203 )$
 
 **[1] **
 
 > *This gives the two equation with the same coefficient of **c.*
 
-`table row cell 15 x plus 10 y end cell equals cell 670 space space space space space space space space space space space space space open parentheses 3 close parentheses end cell row cell 4 x plus 10 y end cell equals cell 406 space space space space space space space space space space space space space open parentheses 4 close parentheses end cell end table`
+$\begin{gathered} 15 x + 10 y & = 670 ( 3 ) \\ 4 x + 10 y & = 406 ( 4 ) \end{gathered}$
 
 > *Eliminate the **y** terms by subtracting equation (4) from equation (3).*
 
-`table row cell 15 x plus 10 y end cell equals 670 row cell 4 x plus 10 y end cell equals 406 row cell 11 x plus 12 c end cell equals 264 end table`
+$\begin{gathered} 15 x + 10 y & = 670 \\ 4 x + 10 y & = 406 \\ 11 x + 12 c & = 264 \end{gathered}$
 
 **[1]**
 
 > *Solve the equation to find** x  **by dividing both sides by 11.*
 
-`table attributes columnalign right center left columnspacing 0px end attributes row x equals cell 264 over 11 equals 24 end cell end table`
+$\begin{array}{rcl} x = \frac{264}{11} = 24 \end{array}$
 
 > *Substitute *$x=24$* into either of the two original equations**.*
 
-`table row cell open parentheses 1 close parentheses space space space space space space space 3 x plus 2 y end cell equals 134 row cell 3 open parentheses 24 close parentheses plus 2 y end cell equals cell 134 space end cell row cell 72 plus 2 y end cell equals 134 end table`
+$\begin{gathered} ( 1 ) 3 x + 2 y & = 134 \\ 3 ( 24 ) + 2 y & = 134 \\ 72 + 2 y & = 134 \end{gathered}$
 
 > *If  you spot it you can divide every term in this question by 2 to make the numbers smaller and easier to deal with.*
 
@@ -2924,7 +2886,7 @@ $36+y=67$
 
 > *Solve this equation to find** y.*
 
-`table row cell 36 plus y end cell equals 67 row cell negative 36 space space space space space space space space space space space space space space space space end cell equals cell space space space space space minus 36 end cell row y equals 31 row blank blank blank end table`
+$\begin{gathered} 36 + y & = 67 \\ - 36 & = - 36 \\ y = 31 \\ \end{gathered}$
 
 > *Be careful to get your final answers the correct way round!*
 

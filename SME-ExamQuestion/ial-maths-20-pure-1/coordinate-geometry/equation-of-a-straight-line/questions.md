@@ -47,20 +47,20 @@ Give your answers in the form $y=mx+c$.
 
 (i) $m$ = 2, $P(3,5)$,
 
-(ii) `straight m equals negative 2 comma space space P open parentheses negative 1 space comma space 3 close parentheses comma`
+(ii) $\mathrm{m} = - 2 , P ( - 1 , 3 ) ,$
 
-(iii) `straight m equals 1 half comma space space P open parentheses 5 space comma space minus 2 close parentheses.`
+(iii) $\mathrm{m} = 1 \frac{1}{2} , P ( 5 , - 2 ).$
 
 ## Q5 — easy — 6 marks · exam-questions
 
 ### 1() — 6 marks — structured
-Given that a straight line passes through the points `space P open parentheses x subscript 1 space comma space y subscript 1 space close parentheses`and  $Q(x_{2},y_{2})$, work out the gradient of the following lines:
+Given that a straight line passes through the points $P ( x_{1} , y_{1} )$and  $Q(x_{2},y_{2})$, work out the gradient of the following lines:
 
-(i) `P open parentheses 2 space comma space 6 close parentheses comma space space Q open parentheses 4 space comma space 12 close parentheses comma`
+(i) $P ( 2 , 6 ) , Q ( 4 , 12 ) ,$
 
-(ii) `P open parentheses negative 3 space comma space 4 close parentheses comma space space Q left parenthesis negative 8 space comma space 24 right parenthesis comma`
+(ii) $P ( - 3 , 4 ) , Q ( - 8 , 24 ) ,$
 
-(iii) `P open parentheses 1 space comma space minus 3 close parentheses comma space space Q left parenthesis negative 3 space comma space 6 right parenthesis.`
+(iii) $P ( 1 , - 3 ) , Q ( - 3 , 6 ).$
 
 ## Q6 — easy — 5 marks · exam-questions
 
@@ -307,7 +307,7 @@ The intersections of the following straight lines form a parallelogram.
 
 Find the coordinates of all four vertices of the parallelogram.
 
-`table row cell 2 y end cell equals cell 3 x plus 12 end cell row blank blank blank row cell 2 y end cell equals cell 8 minus x end cell end table`     `table row cell 3 x minus 2 y minus 12 end cell equals 0 row cell 1 half x plus y plus 2 end cell equals 0 end table`
+$\begin{gathered} 2 y & = 3 x + 12 \\ \\ 2 y & = 8 - x \end{gathered}$     $\begin{gathered} 3 x - 2 y - 12 & = 0 \\ 1 \frac{1}{2} x + y + 2 & = 0 \end{gathered}$
 
 ## Q30 — hard — 7 marks · exam-questions
 
@@ -342,7 +342,7 @@ Find the equation of a line perpendicular to $2x+3y-4=0$that passes through the 
 ## Q33 — very_hard — 5 marks · exam-questions
 
 ### 1() — 3 marks — structured
-The line $l$ passes through the points `open parentheses p comma 2 p close parentheses` and `open parentheses 3 p comma 9 p close parentheses`.
+The line $l$ passes through the points $( p , 2 p )$ and $( 3 p , 9 p )$.
 
 Find an equation for the line $l$.
 
@@ -397,7 +397,7 @@ Find the area of the triangle $OAB$, where $O$ is the origin.
 ## Q38 — very_hard — 5 marks · exam-questions
 
 ### 1() — 5 marks — structured
-The point `P open parentheses negative 5 comma negative 2 close parentheses` lies on the line $l_{1}$, $l_{1}$ crosses the $x$-axis at the point *R*.
+The point $P ( - 5 , - 2 )$ lies on the line $l_{1}$, $l_{1}$ crosses the $x$-axis at the point *R*.
 
 Another line, $l_{2}$, is perpendicular to $l_{1}$ at the point $P$ and crosses the $x$-axis at the point $Q$(-1, 0).
 

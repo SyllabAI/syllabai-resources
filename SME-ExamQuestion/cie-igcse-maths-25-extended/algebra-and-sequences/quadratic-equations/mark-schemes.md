@@ -39,15 +39,15 @@ $k=\frac{-18}{2}=-9$
 
 **[1]**
 
-> *Expand *`open parentheses x minus 9 close parentheses squared`* by multiplying out *`open parentheses x minus 9 close parentheses open parentheses x minus 9 close parentheses.`
+> *Expand *$( x - 9 )^{2}$* by multiplying out *$( x - 9 ) ( x - 9 ).$
 
-`open parentheses x minus 9 close parentheses squared equals x squared minus 9 x minus 9 x plus 81
-open parentheses x minus 9 close parentheses squared equals x squared minus 18 x plus 81`
+$( x - 9 )^{2} = x^{2} - 9 x - 9 x + 81
+( x - 9 )^{2} = x^{2} - 18 x + 81$
 
 > *You want the constant term to be -27 so subtract 81 from both sides to get rid of the constant term. *
 *Then subtract 27 from both sides to make the constant term -27.*
 
-`open parentheses x minus 9 close parentheses squared minus 81 minus 27 equals x squared minus 18 x minus 27`
+$( x - 9 )^{2} - 81 - 27 = x^{2} - 18 x - 27$
 
 > *Find the value of **h** by simplifying the term at the end.*
 
@@ -56,11 +56,11 @@ $h=-81-27=-108$
 $(x-9)^{2}-108$ **[1]**
 > *Rewrite the equation using the solution from part (a).*
 
-`open parentheses x minus 9 close parentheses squared minus 108 equals 0`
+$( x - 9 )^{2} - 108 = 0$
 
 > *Add 108 to both sides.*
 
-`open parentheses x minus 9 close parentheses squared equals 108`
+$( x - 9 )^{2} = 108$
 
 > *Square root both sides. Remember there are two values, a positive and a negative.*
 
@@ -87,13 +87,13 @@ $x=9+6\sqrt{3}$** ****or**** **$x=9-6\sqrt{3}$**[1]**
 
 > *Substituting these values into the formula*
 
-`x equals fraction numerator negative open parentheses negative 2 close parentheses plus-or-minus square root of open parentheses negative 2 close parentheses squared minus open parentheses 4 cross times 3 cross times negative 10 close parentheses end root over denominator 2 cross times 3 end fraction`
+$x = \frac{- ( - 2 ) \pm \sqrt{( - 2 )^{2} - ( 4 \times 3 \times - 10 )} }{2 \times 3}$
 
 **[2]**
 
 > *Simplifying*
 
-`x equals fraction numerator 2 plus-or-minus square root of 4 minus open parentheses negative 120 close parentheses end root over denominator 6 end fraction` $x=\frac{2\pm\sqrt{124}}{6}$
+$x = \frac{2 \pm \sqrt{4 - ( - 120 )} }{6}$ $x=\frac{2\pm\sqrt{124}}{6}$
 
 > *So the two solutions are*
 
@@ -115,11 +115,11 @@ $x=2.19\mathrm{or}x=-1.52$ **[2]**
 
 $a=2,b=9,c=-7$
 
-`x equals fraction numerator negative open parentheses 9 close parentheses plus-or-minus square root of open parentheses 9 close parentheses squared space minus space 4 cross times 2 cross times open parentheses negative 7 close parentheses end root over denominator 2 cross times 2 end fraction`
+$x = \frac{- ( 9 ) \pm \sqrt{( 9 )^{2} - 4 \times 2 \times ( - 7 )} }{2 \times 2}$
 
 **[1]**
 
-`x space equals space fraction numerator negative 9 space plus-or-minus space square root of 81 space minus space open parentheses negative 56 close parentheses end root over denominator 4 end fraction space equals space fraction numerator negative 9 space plus-or-minus space square root of 137 over denominator 4 end fraction`
+$x = \frac{- 9 \pm \sqrt{81 - ( - 56 )} }{4} = \frac{- 9 \pm \sqrt{137} }{4}$
 
 ** [1]**
 
@@ -129,7 +129,7 @@ $x=0.67617...,x=-5.17617...$
 
 $x=0.676$
 $x=-5.18$** [1]**
-> *Spot that *$\frac{2}{y^{2}}+\frac{9}{y}-7=0$* can be written as *`2 open parentheses 1 over y close parentheses squared plus 9 open parentheses 1 over y close parentheses space minus 7 space equals space 0`*. *
+> *Spot that *$\frac{2}{y^{2}}+\frac{9}{y}-7=0$* can be written as *$2 ( \frac{1}{y} )^{2} + 9 ( \frac{1}{y} ) - 7 = 0$*. *
 *This is the same as the problem in part (a), with  *
 
 $x=\frac{1}{y}$
@@ -154,43 +154,43 @@ $y=1.48$** ****     **
 ### Q5
 > *The ratios are equivalent to each other, this can be easiest to look at by writing one above the other.*
 
-`table row blank blank cell space space 2 x space minus space 1 space colon space x space minus space 4 end cell row blank blank cell 16 x space plus space 1 space colon space 2 x space minus space 1 end cell end table`
+$\begin{gathered} 2 x - 1 : x - 4 \\ 16 x + 1 : 2 x - 1 \end{gathered}$
 
 > *As the ratios are equal, their scale factors must also be equal.*
 
 > *Find the scale factors by looking at the expressions on each side of the ratios separately. *
 *Considering the left-hand side and letting the scale factor be **a.*
 
-`table row cell open parentheses 2 x space minus space 1 close parentheses a space end cell equals cell space 16 x space plus space 1 end cell row cell a space end cell equals cell space fraction numerator 16 x space plus space 1 over denominator 2 x space minus space 1 end fraction end cell end table`
+$\begin{gathered} ( 2 x - 1 ) a & = 16 x + 1 \\ a & = \frac{16 x + 1}{2 x - 1} \end{gathered}$
 
 > *Considering the right-hand side and letting the scale factor be **a.*
 
-`table row cell open parentheses x space minus space 4 close parentheses a space end cell equals cell space 2 x space minus space 1 end cell row cell a space end cell equals cell space fraction numerator 2 x space minus space 1 over denominator x space minus space 4 end fraction end cell end table`
+$\begin{gathered} ( x - 4 ) a & = 2 x - 1 \\ a & = \frac{2 x - 1}{x - 4} \end{gathered}$
 
 > *Setting the expressions found for **a** equal to each other gives:*
 
-`table row cell fraction numerator 16 x space plus space 1 over denominator 2 x space minus space 1 end fraction end cell equals cell fraction numerator 2 x space minus space 1 over denominator x space minus space 4 end fraction end cell end table`
+$\begin{gathered} \frac{16 x + 1}{2 x - 1} & = \frac{2 x - 1}{x - 4} \end{gathered}$
 
 **[1]**
 
 > *Remove the fractions by multiplying each side by each expression on the denominator. *
 *Remember to use brackets when multiplying by an expression.*
 
-`table row cell open parentheses x space minus space 4 close parentheses up diagonal strike open parentheses 2 x space minus space 1 close parentheses end strike fraction numerator 16 x space plus space 1 over denominator up diagonal strike 2 x space minus space 1 end strike end fraction end cell equals cell fraction numerator 2 x space minus space 1 over denominator up diagonal strike x space minus space 4 end strike end fraction up diagonal strike open parentheses x space minus space 4 close parentheses end strike open parentheses 2 x space minus space 1 close parentheses end cell row cell open parentheses x space minus space 4 close parentheses open parentheses 16 x space plus space 1 close parentheses space end cell equals cell space open parentheses 2 x space minus space 1 close parentheses open parentheses 2 x space minus space 1 close parentheses end cell end table`
+$\begin{gathered} ( x - 4 ) \cancel{( 2 x - 1 )} \frac{16 x + 1}{ \cancel{2 x - 1} } & = \frac{2 x - 1}{ \cancel{x - 4} } \cancel{( x - 4 )} ( 2 x - 1 ) \\ ( x - 4 ) ( 16 x + 1 ) & = ( 2 x - 1 ) ( 2 x - 1 ) \end{gathered}$
 
 **[1]**
 
 > *Expand the brackets on both sides.*
 
-`table row cell 16 x squared space plus space x space minus space 64 x space minus space 4 space end cell equals cell space 4 x squared space minus space 2 x space minus space 2 x space plus space 1 end cell end table`
+$\begin{gathered} 16 x^{2} + x - 64 x - 4 & = 4 x^{2} - 2 x - 2 x + 1 \end{gathered}$
 
 > *Simplify.*
 
-`table row cell 16 x squared space minus space 63 x space minus space 4 space end cell equals cell space 4 x squared space minus space 4 x space plus space 1 end cell end table`**   **
+$\begin{gathered} 16 x^{2} - 63 x - 4 & = 4 x^{2} - 4 x + 1 \end{gathered}$**   **
 
 > *Rearrange to make a quadratic equation equal to zero.*
 
-`table row cell 12 x squared space minus space 59 x space minus space 5 space end cell equals cell space 0 end cell end table`**   **
+$\begin{gathered} 12 x^{2} - 59 x - 5 & = 0 \end{gathered}$**   **
 
 **[1]**
 
@@ -199,7 +199,7 @@ $y=1.48$** ****     **
 
 $a=12,b=-59,c=-5$
 
-`x equals fraction numerator negative open parentheses negative 59 close parentheses plus-or-minus square root of open parentheses negative 59 close parentheses squared space minus space 4 cross times 12 cross times open parentheses negative 5 close parentheses end root over denominator 2 cross times 12 end fraction`
+$x = \frac{- ( - 59 ) \pm \sqrt{( - 59 )^{2} - 4 \times 12 \times ( - 5 )} }{2 \times 12}$
 
 **[1]**
 
@@ -213,7 +213,7 @@ $x=5\mathrm{or}x=-\frac{1}{12}$** [1]**
 
 $a=9,b=-12,c=-23$
 
-`x equals fraction numerator negative open parentheses negative 12 close parentheses plus-or-minus square root of open parentheses negative 12 close parentheses squared minus 4 cross times 9 cross times open parentheses negative 23 close parentheses end root over denominator 2 cross times 9 end fraction`
+$x = \frac{- ( - 12 ) \pm \sqrt{( - 12 )^{2} - 4 \times 9 \times ( - 23 )} }{2 \times 9}$
 
 **Square root part correct**** [1] **
 **Rest of the formula correct**** [1]**
@@ -244,7 +244,7 @@ $a=4,b=1,c=-495$
 
 > *Substitute the values into the formula. Put brackets around negative values.*
 
-`n equals fraction numerator negative left parenthesis 1 right parenthesis plus-or-minus square root of open parentheses 1 close parentheses squared minus 4 left parenthesis 4 right parenthesis left parenthesis negative 495 right parenthesis end root over denominator 2 left parenthesis 4 right parenthesis end fraction`
+$n = \frac{- ( 1 ) \pm \sqrt{( 1 )^{2} - 4 ( 4 ) ( - 495 )} }{2 ( 4 )}$
 
 **[1]**
 
@@ -262,7 +262,7 @@ $n=11$ **[1] **
 
 > *By asking for answers to be rounded, the question is suggesting the quadratic formula, *$x=\frac{-b\pm\sqrt{b^{2}-4ac}}{2a}$*, where *$ax^{2}+bx+c=0$*, is the most appropriate method to use.*
 
-`table attributes columnalign right center left columnspacing 0px end attributes row a equals cell 2 comma space space b equals 7 comma space space c equals negative 3 end cell row x equals cell fraction numerator negative 7 plus-or-minus square root of 7 squared minus 4 open parentheses 2 close parentheses open parentheses negative 3 close parentheses end root over denominator 2 cross times 2 end fraction end cell end table`
+$\begin{array}{rcl} a = 2 , b = 7 , c = - 3 \\ x = \frac{- 7 \pm \sqrt{7^{2} - 4 ( 2 ) ( - 3 )} }{2 \times 2} \end{array}$
 
 **Square root part correct**** [1] **
 **Rest of the formula correct**** [1]**
@@ -282,7 +282,7 @@ $x=\frac{-b\pm\sqrt{b^{2}-4ac}}{2a}$
 > *Substitute *$a=3$*, *$b=-2$* and *$c=-2$* into the formula *
 *Write down this line of working, with brackets around negative numbers*
 
-`x equals fraction numerator negative open parentheses negative 2 close parentheses plus-or-minus square root of open parentheses negative 2 close parentheses squared minus 4 cross times 3 cross times open parentheses negative 2 close parentheses end root over denominator 2 cross times 3 end fraction`
+$x = \frac{- ( - 2 ) \pm \sqrt{( - 2 )^{2} - 4 \times 3 \times ( - 2 )} }{2 \times 3}$
 
 **Correct values shown under the square root**** [1]**** **** **
 **Correct values shown outside of the square root ****[1]**** **
@@ -297,31 +297,31 @@ $x=1.22$** ****and**** **$x=-0.55$** ****[2]**
 
 ### Q10
 > *Substitute the values in the diagram into the formula for the area of a trapezium. *
-*The formula is *`A equals 1 half open parentheses a space plus space b close parentheses h`*, where *$a$* and *$b$* are the two parallel sides and *$h$* is the perpendicular height.*
+*The formula is *$A = 1 \frac{1}{2} ( a + b ) h$*, where *$a$* and *$b$* are the two parallel sides and *$h$* is the perpendicular height.*
 
-`A space equals space 1 half cross times open parentheses open parentheses x minus 4 close parentheses plus open parentheses x plus 5 close parentheses close parentheses cross times 2 x`
+$A = 1 \frac{1}{2} \times ( ( x - 4 ) + ( x + 5 ) ) \times 2 x$
 
 **[1]**
 
 > *The area is given as 351 cm*<sup>*2*</sup>*, so set this expression equal to 351.*
 
-`space 1 half cross times open parentheses open parentheses x minus 4 close parentheses plus open parentheses x plus 5 close parentheses close parentheses cross times 2 x space equals space 351`
+$1 \frac{1}{2} \times ( ( x - 4 ) + ( x + 5 ) ) \times 2 x = 351$
 
 > *Simplify the expression in the brackets.*
 
-`table row cell space 1 half cross times open parentheses 2 x space plus space 1 close parentheses cross times 2 x space end cell equals cell space 351 end cell end table`
+$\begin{gathered} 1 \frac{1}{2} \times ( 2 x + 1 ) \times 2 x & = 351 \end{gathered}$
 
 > *Cancel out the 2.*
 
-`table row cell space fraction numerator 1 over denominator up diagonal strike 2 end fraction cross times open parentheses 2 x space plus space 1 close parentheses cross times up diagonal strike 2 x space end cell equals cell space 351 end cell row cell x open parentheses 2 x space plus space 1 close parentheses space end cell equals cell space 351 end cell end table`
+$\begin{gathered} \frac{1}{ \cancel{2} } \times ( 2 x + 1 ) \times \cancel{2} x & = 351 \\ x ( 2 x + 1 ) & = 351 \end{gathered}$
 
 > *Expand the brackets on the right hand side.*
 
-`table row cell 2 x squared space plus space x space end cell equals cell space 351 end cell end table`
+$\begin{gathered} 2 x^{2} + x & = 351 \end{gathered}$
 
 > *Subtract 351 from both sides.*
 
-`table row cell 2 x squared space plus space x space minus space 351 space end cell equals cell space 0 end cell end table`
+$\begin{gathered} 2 x^{2} + x - 351 & = 0 \end{gathered}$
 
 $2x^{2}+x-351=0$ **[1]**
 > *Substitute the given values into the quadratic formula*
@@ -359,7 +359,7 @@ $x=\frac{-b\pm\sqrt{b^{2}-4ac}}{2a}$
 
 *Substitute **a = 3**, **b = 7** and **c = -11** into the formula Write down this line of working (with the square-root sign and fraction bar long enough)*
 
-`x equals fraction numerator negative 7 plus-or-minus square root of 7 squared minus 4 cross times 3 cross times open parentheses negative 11 close parentheses end root over denominator 2 cross times 3 end fraction`
+$x = \frac{- 7 \pm \sqrt{7^{2} - 4 \times 3 \times ( - 11 )} }{2 \times 3}$
 
 **Correct values shown under the square root**** [1]**** **
 **Correct values shown outside of the square root ****[1]**** **
@@ -380,7 +380,7 @@ $x=\frac{-b\pm\sqrt{b^{2}-4ac}}{2a}$* *
 
 *Substitute *$a=10$*, *$b=9$* **and** *$c=-162$* into the formula Write down this line of working, with brackets around negative numbers*
 
-`m equals fraction numerator negative 9 plus-or-minus square root of 9 squared minus 4 cross times 10 cross times open parentheses negative 162 close parentheses end root over denominator 2 cross times 10 end fraction`
+$m = \frac{- 9 \pm \sqrt{9^{2} - 4 \times 10 \times ( - 162 )} }{2 \times 10}$
 
 **Correct values shown under the square root**** [1]**** **** **
 **Correct values shown outside of the square root ****[1]**** **

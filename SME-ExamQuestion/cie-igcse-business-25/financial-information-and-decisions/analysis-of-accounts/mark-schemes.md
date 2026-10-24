@@ -162,15 +162,15 @@ Secondly, employees might look at the total assets of \$1,800,000 compared to sh
 
 Subtract inventories from current assets
 
-`equals space $ 660 comma 000 space minus space $ 360 comma 000
+$= \$ 660 , 000 - \$ 360 , 000
 
-equals space $ 300 comma 000`    [1]
+= \$ 300 , 000$    [1]
 
 Divide the outcome by current liabilities
 
-`equals space $ 300 comma 000 space divided by space $ 600 comma 000
+$= \$ 300 , 000 \div \$ 600 , 000
 
-equals space 0.5`    [1]
+= 0.5$    [1]
 
 > **[exam-tip]**
 > Liquidity ratios are always expressed as a decimal rather than as a %
@@ -302,15 +302,15 @@ Profitability measures how well profit is being made from sales or capital inves
 
 Divide profit by revenue
 
-`equals space £ 72 comma 000 space divided by space $ 480 comma 000
+$= \pounds 72 , 000 \div \$ 480 , 000
 
-equals space 0.15`    **[1]**
+= 0.15$    **[1]**
 
 Multiply the outcome by 100 to calculate the percentage
 
-`equals space 0.15 space cross times space 100
+$= 0.15 \times 100
 
-equals space 15 percent sign`   ** [1]**
+= 15 \%$   ** [1]**
 
 > **[exam-tip]**
 > Profit margins must always be expressed as a percentage
@@ -355,15 +355,15 @@ equals space 15 percent sign`   ** [1]**
 
 Divide gross profit by revenue
 
-`equals space $ 3 comma 330 straight m space divided by space $ 7 comma 400 straight m
+$= \$ 3 , 330 \mathrm{m} \div \$ 7 , 400 \mathrm{m} 
 
-equals space 0.45`    **[1]**
+= 0.45$    **[1]**
 
 Multiply the outcome by 100 to calculate the % gross profit margin
 
-`equals space 0.45 space cross times space 100
+$= 0.45 \times 100
 
-equals space 45 percent sign`    **[1]**
+= 45 \%$    **[1]**
 
 > **[exam-tip]**
 > Your answer must be expressed as a percentage
@@ -455,23 +455,23 @@ However, the increase in gross profit margin suggests Izaak is managing his food
 
 To calculate the gross profit margin, divide gross profit by revenue, then multiply the outcome by 100
 
-Last year   `equals space 120 over 300 space space cross times space 100 space
+Last year   $= \frac{120}{300} \times 100 
 
-equals space 40 percent sign`
+= 40 \%$
 
-Current year    `equals space 150 over 300 space space cross times space 100 space
+Current year    $= \frac{150}{300} \times 100 
 
-equals space 50 percent sign space`
+= 50 \%$
 
 To calculate the profit margin, divide profit by revenue, then multiply the outcome by 100
 
-Last year   `equals space 30 over 300 space space cross times space 100 space
+Last year   $= \frac{30}{300} \times 100 
 
-equals space 10 percent sign space`
+= 10 \%$
 
-Current year  `equals space 15 over 300 space space cross times space 100 space
+Current year  $= \frac{15}{300} \times 100 
 
-equals space 5 percent sign space`
+= 5 \%$
 
 > **[mark-scheme]**
 > - You are writing a mini-argument with a decision
@@ -525,15 +525,15 @@ equals space 5 percent sign space`
 
 Divide gross profit by revenue
 
-`equals space $ 192 comma 000 space divided by space $ 480 comma 000
+$= \$ 192 , 000 \div \$ 480 , 000
 
-equals space 0.40`    **[1]**
+= 0.40$    **[1]**
 
 Multiply the outcome by 100 to calculate the percentage
 
-`equals space 0.40 space cross times 100
+$= 0.40 \times 100
 
-equals space 40 percent sign`    **[1]**
+= 40 \%$    **[1]**
 
 > **[mark-scheme]**
 > - If correct answer given with no working shown, award 2 marks
@@ -602,15 +602,11 @@ Bethany should choose the steam room option. It aligns with BB's existing servic
 > 
 > Steam room
 > 
-> `Revenue space equals space 200 space customers space straight x space $ 5 space equals space $ 1 comma 000
-> Costs space equals space $ 60 space plus space $ 40 space plus space $ 400 space equals space $ 500
-> Profit space equals space $ 1 comma 000 space minus space $ 500 space equals space $ 500`
+> `Revenue = 200 customers x $ 5 = $ 1 , 000 > Costs = $ 60 + $ 40 + $ 400 = $ 500 > Profit = $ 1 , 000 - $ 500 = $ 500`
 > 
 > Hair cuts
 > 
-> `Revenue space equals space 50 space customers space straight x space $ 25 space equals space $ 1 comma 250
-> Costs space equals space $ 400 space plus space $ 125 space plus space $ 175 space equals space $ 700
-> Profit space equals space $ 1 comma 250 space minus space $ 700 space equals space $ 550`
+> `Revenue = 50 customers x $ 25 = $ 1 , 250 > Costs = $ 400 + $ 125 + $ 175 = $ 700 > Profit = $ 1 , 250 - $ 700 = $ 550`
 > 
 > **Mark scheme**
 > 
@@ -713,33 +709,33 @@ Calculate the gross profit margin by dividing gross profit by revenue, then mult
 
 $\mathrm{Gross} \mathrm{profit} \mathrm{margin}-\frac{\mathrm{Gross} \mathrm{profit}}{\mathrm{Revenue}}\times100$    **[1]**
 
-`equals space fraction numerator $ 400 comma 000 over denominator $ 800 comma 000 end fraction space cross times space 100
+$= \frac{\$ 400 , 000}{\$ 800 , 000} \times 100
 
-equals space 50 percent sign`    **[1]**
+= 50 \%$    **[1]**
 
 Calculate the profit margin by dividing profit by revenue, then multiplying the outcome by 100
 
 $\mathrm{Profit} \mathrm{margin}-\frac{\mathrm{Profit}}{\mathrm{Revenue}}\times100$    **[1]**
 
-`equals space fraction numerator $ 150 comma 000 over denominator $ 800 comma 000 end fraction space cross times space 100
+$= \frac{\$ 150 , 000}{\$ 800 , 000} \times 100
 
-equals space 18.75 percent sign`    **[1]**
+= 18.75 \%$    **[1]**
 
 Calculate the current ratio by dividing current assets by current liabilities
 
 $\mathrm{Current} \mathrm{ratio}=\frac{\mathrm{Current} \mathrm{assets}}{\mathrm{Current} \mathrm{liabilities}}$    **[1]**
 
-`equals space $ 20 comma 000 space divided by space $ 15 comma 000
+$= \$ 20 , 000 \div \$ 15 , 000
 
-equals space 1.33`    **[1]**
+= 1.33$    **[1]**
 
 Calculate the acid test ratio by subtracting inventory from current assets, then dividing the outcome by current liabilities
 
-`Acid space test space ratio space equals fraction numerator space open parentheses Current space assets space minus space Inventory close parentheses over denominator Current space liabilities end fraction`    **[1]**
+$\text{Acid} \text{test} \text{ratio} = \frac{ ( \text{Current} \text{assets} - \text{Inventory} )}{Current liabilities}$    **[1]**
 
-`equals space open parentheses $ 20 comma 000 space minus space $ 5 comma 000 close parentheses space divided by space $ 15 comma 000
+$= ( \$ 20 , 000 - \$ 5 , 000 ) \div \$ 15 , 000
 
-equals space 1.00`     **[1]**
+= 1.00$     **[1]**
 
 > **[mark-scheme]**
 > - Show your workings

@@ -95,7 +95,7 @@ guided_study: true
 > > *Rearrange to make the time the subject*
 > *Multiply both sides by time, and then divide both sides by the speed*
 > 
-> `table row cell 8.85 cross times Time space end cell equals cell space 100 end cell row Time equals cell fraction numerator 100 over denominator 8.85 end fraction end cell row cell Time space end cell equals cell space 11.29943503... end cell end table`
+> $\begin{gathered} 8.85 \times \text{Time} & = 100 \\ \text{Time} = \frac{100}{8.85} \\ \text{Time} & = 11.29943503... \end{gathered}$
 > 
 > > *Round to the nearest hundredth of a second (2 decimal places)*
 > 

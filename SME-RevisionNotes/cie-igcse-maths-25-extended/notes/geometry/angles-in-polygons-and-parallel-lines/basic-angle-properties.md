@@ -67,7 +67,7 @@ guided_study: true
 > 
 > > *Angles that meet on a straight line add up to 180°*
 > 
-> `table row cell x space plus space y space plus space 98 space end cell equals cell space 180 space end cell row cell 25 space plus space y space plus space 98 space end cell equals cell space 180 end cell row cell 123 space plus space y space end cell equals cell space 180 end cell end table`
+> $\begin{gathered} x + y + 98 & = 180 \\ 25 + y + 98 & = 180 \\ 123 + y & = 180 \end{gathered}$
 > 
 > > *Solve to find *$y$
 > 
@@ -111,11 +111,11 @@ guided_study: true
 > 
 > > *Angles that meet on a straight line add up to 180°*
 > 
-> `table row cell z space plus space 130 space end cell equals cell space 180 space end cell row cell z space end cell equals cell space 50 end cell end table`
+> $\begin{gathered} z + 130 & = 180 \\ z & = 50 \end{gathered}$
 > 
 > > *Interior angles in a triangle add up to 180°*
 > 
-> `table row cell x plus 60 plus 50 end cell equals 180 row cell x plus 110 end cell equals 180 end table`
+> $\begin{gathered} x + 60 + 50 & = 180 \\ x + 110 & = 180 \end{gathered}$
 > 
 > $x=70$
 
@@ -143,7 +143,7 @@ guided_study: true
 > 
 > > *Subtract the answer from 360°*
 > 
-> `table row cell 360 space minus space 297 space end cell equals cell space 63 space end cell end table`
+> $\begin{gathered} 360 - 297 & = 63 \end{gathered}$
 > 
 > > *Add this to the diagram*
 > 
@@ -151,6 +151,6 @@ guided_study: true
 > 
 > > *Angles on a straight line add up to 180°, so subtract the answer from 180°*
 > 
-> `table row cell y plus 63 end cell equals 180 row y equals cell 180 minus 63 end cell row y equals 117 end table`
+> $\begin{gathered} y + 63 & = 180 \\ y = 180 - 63 \\ y = 117 \end{gathered}$
 > 
 > $y=117$

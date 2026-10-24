@@ -70,19 +70,19 @@ $5\mathrm{th} \mathrm{term}=3\mathrm{rd} \mathrm{term}+4\mathrm{th} \mathrm{term
 **showing next two additions**** [1]**
 > *Equate 7 to the expression for the 3rd term, *$a+b$* and equate 29 to the expression for the 6th term, *$3a+5b$
 
-`table row cell a plus b end cell equals 7 row cell 3 a plus 5 b end cell equals 29 end table`
+$\begin{gathered} a + b & = 7 \\ 3 a + 5 b & = 29 \end{gathered}$
 
 **[1]**
 
 > *We have a pair of **linear simultaneous equations**. Solve using elimination or substitution. For example, using elimination;*
 
-`table row cell a plus b end cell equals cell 7 space space space space space space space space space space space circle enclose 1 end cell row cell 3 a plus 5 b end cell equals cell 29 space space space space space space space space space circle enclose 2 end cell row cell circle enclose 1 cross times 3 colon space 3 a plus 3 b end cell equals cell 21 space space space space space space space space space circle enclose 3 end cell row cell space circle enclose 2 minus space circle enclose 3 colon space 2 b end cell equals 8 row b equals 4 end table`
+$\begin{gathered} a + b & = 7 \textcircled{1} \\ 3 a + 5 b & = 29 \textcircled{2} \\ \textcircled{1} \times 3 : 3 a + 3 b & = 21 \textcircled{3} \\ \textcircled{2} - \textcircled{3} : 2 b & = 8 \\ b = 4 \end{gathered}$
 
 **any valid process to solve simultaneous equations**** [1]**
 
 > *Having found **a** or **b**, substitute it into either of the initial equations to find the remaining variable*
 
-`table attributes columnalign right center left columnspacing 0px end attributes row cell subs. space b end cell equals cell 4 space into space circle enclose 1 comma space a plus 4 equals 7 end cell row cell space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space a end cell equals cell 3 space space space end cell end table`
+$\begin{array}{rcl} subs. b & = 4 \text{into} \textcircled{1} , a + 4 = 7 \\ a & = 3 \end{array}$
 
 $a=3,b=4$** [1]**
 
@@ -107,26 +107,26 @@ $9-2n$ **[1] **
 *For "the 2nd term of the sequence is −2", substitute **n** = 2 into **an*<sup>*2*</sup>* + **bn** and equate to −2* 
 *For "the 4th term of the sequence is 12", substitute **n** = 4 into **an*<sup>*2*</sup>* + **bn** and equate to 12*
 
-`a open parentheses 2 close parentheses squared plus b open parentheses 2 close parentheses equals negative 2
-a open parentheses 4 close parentheses squared plus b open parentheses 4 close parentheses equals 12`
+$a ( 2 )^{2} + b ( 2 ) = - 2
+a ( 4 )^{2} + b ( 4 ) = 12$
 
 **[1]**
 
 > *We have a pair of **linear simultaneous equations**. Simplify the equations and solve using elimination (you could also solve using substitution if that is a preferred method)*
 
-`table row cell 4 a plus 2 b end cell equals cell negative 2 space space space space space space space space circle enclose 1 end cell row cell 16 a plus 4 b end cell equals cell 12 space space space space space space space space space space circle enclose 2 end cell row cell circle enclose 1 cross times 2 colon space 8 a plus 4 b end cell equals cell negative 4 space space space space space space space space circle enclose 3 end cell row cell space circle enclose 2 minus space circle enclose 3 colon space 8 a end cell equals 16 row a equals 2 end table`
+$\begin{gathered} 4 a + 2 b & = - 2 \textcircled{1} \\ 16 a + 4 b & = 12 \textcircled{2} \\ \textcircled{1} \times 2 : 8 a + 4 b & = - 4 \textcircled{3} \\ \textcircled{2} - \textcircled{3} : 8 a & = 16 \\ a = 2 \end{gathered}$
 
 **[1]**
 
 > *Substitute your found value of **a** or **b** into one of the simultaneous equations to find the missing variable. For example, substituting **a** = 2 into 4**a** + 2**b** = −2,*
 
-`table row cell 8 plus 2 b end cell equals cell negative 2 end cell row cell space space 2 b end cell equals cell negative 10 end cell row cell space space space space b end cell equals cell negative 5 end cell end table`
+$\begin{gathered} 8 + 2 b & = - 2 \\ 2 b & = - 10 \\ b & = - 5 \end{gathered}$
 
 **[1]**
 
 > *Thus the **n**th term of the sequence is 2**n*<sup>*2*</sup>* − 5**n**. Substitute **n** = 6 into this to find the 6th term*
 
-`table row cell 2 open parentheses 6 close parentheses squared minus 5 open parentheses 6 close parentheses end cell equals 42 end table`
+$\begin{gathered} 2 ( 6 )^{2} - 5 ( 6 ) & = 42 \end{gathered}$
 
 **Final answer:** **42 ****[1]**
 > *We know it is a quadratic sequence so find the first and second differences*
@@ -170,7 +170,7 @@ $T_{n}=-5n+c$
 
 > *We need to find **c. **The first term, for example, is 17 therefore when *$T_{n}=17,n=1$* so*
 
-`17 equals negative 5 open parentheses 1 close parentheses plus c`
+$17 = - 5 ( 1 ) + c$
 
 > *Solve to find **c*
 
@@ -228,7 +228,7 @@ $n=22$ **[1]**
 > *The number of grey mats is increasing by 3 each time, so it's something to do with the 3 times table, or *$3n$*. *
 *Write the sequence *$3n$* for the first few terms and the number of grey mats underneath it. *
 
-`table row cell space 3 n space end cell equals cell space space space 3 comma space space space space 6 comma space space space space 9 comma space space space space 12 comma space... space space end cell row cell Number space of space grey space mats space end cell equals cell space space space 6 comma space space space space 9 comma space space space 12 comma space space space 15 comma space... space space space space end cell end table`
+$\begin{array}{ccc} 3 n & = & 3 , 6 , 9 , 12 , ... \\ Number of \text{grey} \text{mats} & = & 6 , 9 , 12 , 15 , ... \end{array}$
 
 *We can see that to go from *$3n$* to the number of grey mats, we always add 3.* *So the number of grey mats is *$3n+3$
 
@@ -238,7 +238,7 @@ $n=22$ **[1]**
 > *Method 1 *
 *We know that the total number of grey mats is *$3n+3$*. Therefore equate this to 24 and solve*
 
-`table row cell 3 n plus 3 end cell equals 24 row cell 3 n end cell equals 21 row n equals 7 end table`
+$\begin{gathered} 3 n + 3 & = 24 \\ 3 n & = 21 \\ n = 7 \end{gathered}$
 
 **[1]**
 
@@ -352,7 +352,7 @@ $n^{2}+3n-10300=0$
 
 > *So the two numbers in the brackets are 103 and −100*
 
-`open parentheses n plus 103 close parentheses open parentheses n minus 100 close parentheses equals 0`
+$( n + 103 ) ( n - 100 ) = 0$
 
 > *Solve*
 
@@ -365,7 +365,7 @@ $n=100$ **[1]**
 
 > *As the first term is 4, this means that *$D=4$* when *$n=1$* and we can substitute this into the equation*
 
-`4 equals a open parentheses 1 close parentheses squared plus b open parentheses 1 close parentheses plus 1`
+$4 = a ( 1 )^{2} + b ( 1 ) + 1$
 
 > *Simplifying*
 
@@ -377,22 +377,22 @@ $3=a+b$
 
 > *Doing this again with the second diagram, where *$D=8$* and *$n=2$
 
-`8 equals a open parentheses 2 close parentheses squared plus b open parentheses 2 close parentheses plus 1
-8 equals 4 a plus 2 b plus 1
-7 equals 4 a plus 2 b`
+$8 = a ( 2 )^{2} + b ( 2 ) + 1
+8 = 4 a + 2 b + 1
+7 = 4 a + 2 b$
 
 > *We can now solve the following pair of simultaneous equations by elimination*
 
-`circle enclose 1 space 3 equals a plus b
-circle enclose 2 space 7 equals 4 a plus 2 b`
+$\textcircled{1} 3 = a + b
+\textcircled{2} 7 = 4 a + 2 b$
 
 > *Multiply equation 1 by 2*
 
-`table row cell circle enclose 1 cross times 2 space space space space 6 end cell equals cell 2 a plus 2 b end cell row cell circle enclose 2 space space space space 7 end cell equals cell 4 a plus 2 b end cell end table`
+$\begin{gathered} \textcircled{1} \times 2 6 & = 2 a + 2 b \\ \textcircled{2} 7 & = 4 a + 2 b \end{gathered}$
 
 > *Subtract this from equation 2, and solve for *$a$
 
-`table row cell circle enclose 2 minus circle enclose 1 cross times 2 space space space space 1 end cell equals cell 2 a end cell row a equals cell 1 half end cell end table`
+$\begin{gathered} \textcircled{2} - \textcircled{1} \times 2 1 & = 2 a \\ a = 1 \frac{1}{2} \end{gathered}$
 
 > *Substitute back into equation 1 to find *$b$
 
@@ -471,7 +471,7 @@ $n^{3}-1=1,7,26,63,...$
 
 > *Find the 5th term** **by substituting **n **= 5 into the **n**th term **n*<sup>*3 *</sup>*- 1. *
 
-`open parentheses 5 close parentheses cubed space minus space 1 space equals space 125 space minus space 1 space equals space 124`
+$( 5 )^{3} - 1 = 125 - 1 = 124$
 
 **[1]**
 
@@ -506,13 +506,13 @@ $8,16,32,64$
 
 > *n**th term for sequence C:*
 
-`fraction numerator n plus 6 over denominator 2 to the power of open parentheses n plus 2 close parentheses end exponent end fraction`
+$\frac{n + 6}{2^{( n + 2 )} }$
 
 ** [1]**
 
 > *Find the 5th term for sequence C by substituting 5 into the **n**th term, or by continuing the sequence for both the numerators and the denominators separately.*
 
-`fraction numerator open parentheses 5 close parentheses plus 6 over denominator 2 to the power of open parentheses 5 close parentheses plus 2 end exponent end fraction equals 11 over 128`
+$\frac{( 5 ) + 6}{2^{( 5 ) + 2} } = \frac{11}{128}$
 
 ** [1]**
 
@@ -567,7 +567,7 @@ i) *The differences between terms are increasing by the same amount each time, t
 
 > *Subtract the sequence *$2n^{2}$* from the original sequence *$2n^{2}+bn+c.$
 
-`stack attributes charalign center stackalign right end attributes row 2 n squared plus b n plus c none none 7 comma 13 comma 23 comma 37 comma 55 none end row row minus left parenthesis 2 n squared none none none none none none 2 comma none 8 comma 18 comma 32 comma 50 right parenthesis end row horizontal line row b n plus c none none 5 comma none 5 comma none 5 comma none 5 comma none 5 none end row end stack space`
+`charalign center stackalign right end | 2 n ^2 + b n + c none none 7 , 13 , 23 , 37 , 55 none end | | - ( 2 n ^2 none none none none none none 2 , none 8 , 18 , 32 , 50 ) end | horizontal line | b n + c none none 5 , none 5 , none 5 , none 5 , none 5 none end | end`
 
 > *The **n**th term for the difference is simply 5 or *$0n+5.$
 
@@ -623,7 +623,7 @@ $n=1,n^{2}+1=1^{2}+1=2\,n=2,n^{2}+1=2^{2}+2=5\,n=3,n^{2}+1=3^{2}+1=10$
 
 *To find **b** , substitute **n** = 1 and the first term into the **n**th term formula and solve for **b*
 
-`table attributes columnalign right center left columnspacing 0px end attributes row 4 equals cell 4 open parentheses 1 close parentheses plus b end cell row 4 equals cell 4 plus b end cell row cell 4 minus 4 end cell equals b row b equals 0 end table`
+$\begin{array}{rcl} 4 = 4 ( 1 ) + b \\ 4 = 4 + b \\ 4 - 4 & = b \\ b = 0 \end{array}$
 
 > *Now we can write the **n**th term*
 
@@ -674,7 +674,7 @@ $a=\frac{6}{2}=3$
 
 *To find **b** , substitute **n** = 1 and the first term into the **n**th term formula and solve for **b*
 
-`table attributes columnalign right center left columnspacing 0px end attributes row 11 equals cell negative 4 open parentheses 1 close parentheses plus b end cell row 11 equals cell negative 4 plus b end cell row 15 equals b end table`
+$\begin{array}{rcl} 11 = - 4 ( 1 ) + b \\ 11 = - 4 + b \\ 15 = b \end{array}$
 
 > *Now we can write the **n**th term*
 
@@ -685,14 +685,14 @@ $a=\frac{6}{2}=3$
 
 > *Method 2** *
 *The sequence decreases by the same amount each time, so it's an arithmetic sequence *
-*The general term for an arithmetic sequence is:  *$n$*th term = *`a plus open parentheses n minus 1 close parentheses d`*,** where *$a$* the first term and *$d$* is the common difference** *
+*The general term for an arithmetic sequence is:  *$n$*th term = *$a + ( n - 1 ) d$*,** where *$a$* the first term and *$d$* is the common difference** *
 *We can see that *$a=11$* and the sequence goes down by 4 every time so *$d=-4$*. Substitute these into the general term*
 
-`table row cell n th space term end cell equals cell 11 plus open parentheses n minus 1 close parentheses cross times open parentheses negative 4 close parentheses end cell row blank equals cell 11 plus open parentheses negative 4 close parentheses open parentheses n minus 1 close parentheses end cell row blank equals cell 11 minus 4 open parentheses n minus 1 close parentheses end cell end table`
+$\begin{gathered} n \text{th} \text{term} & = 11 + ( n - 1 ) \times ( - 4 ) \\ = 11 + ( - 4 ) ( n - 1 ) \\ = 11 - 4 ( n - 1 ) \end{gathered}$
 
 > *Be careful with the double negative*
 
-`table attributes columnalign right center left columnspacing 0px end attributes row blank equals cell 11 minus 4 n plus 4 end cell row blank equals cell 15 minus 4 n end cell end table`
+$\begin{array}{rcl} = 11 - 4 n + 4 \\ = 15 - 4 n \end{array}$
 
 $-4n+15$** ****or**** **$15-4n$** **
 **"**$-4n$**" [1] **
@@ -720,7 +720,7 @@ ii) *Increases by 3 each term, so similar to the three times table (3n) 3n would
 
 *To find **b** , substitute **n** = 1 and the first term into the **n**th term formula and solve for **b*
 
-`table row 15 equals cell negative 3 open parentheses 1 close parentheses plus b end cell row 15 equals cell negative 3 plus b end cell row cell 15 plus 3 end cell equals b row b equals 18 end table`
+$\begin{gathered} 15 = - 3 ( 1 ) + b \\ 15 = - 3 + b \\ 15 + 3 & = b \\ b = 18 \end{gathered}$
 
 > *Now we can write the **n**th term*
 
@@ -729,11 +729,11 @@ ii) *Increases by 3 each term, so similar to the three times table (3n) 3n would
 ### Q22
 > *Finding the 4th term by substituting in *$n=4$* and evaluating*
 
-`2 open parentheses 4 close parentheses squared plus 5 open parentheses 4 close parentheses minus 15 equals 37`
+$2 ( 4 )^{2} + 5 ( 4 ) - 15 = 37$
 
 > *Finding the 4th term by substituting in *$n=5$* and evaluating*
 
-`2 open parentheses 5 close parentheses squared plus 5 open parentheses 5 close parentheses minus 15 equals 60`
+$2 ( 5 )^{2} + 5 ( 5 ) - 15 = 60$
 
 **Either 37 or 60**** [1]**
 
@@ -771,14 +771,14 @@ $60-8\times1=36$
 **52**** ****[1]**
 > *Method 1** *
 *The sequence decreases by the same amount each time, so it's an arithmetic sequence *
-*The general term for an arithmetic sequence is:  *$n$*th term = *`a plus open parentheses n minus 1 close parentheses d`*,** where *$a$* the first term and *$d$*is the common difference** *
+*The general term for an arithmetic sequence is:  *$n$*th term = *$a + ( n - 1 ) d$*,** where *$a$* the first term and *$d$*is the common difference** *
 *We can see that *$a=12$* and the sequence increases by 7 every time so *$d=7$*. Substitute these into the general term*
 
-`table row cell n th space term end cell equals cell 12 plus open parentheses n minus 1 close parentheses cross times 7 end cell end table`
+$\begin{gathered} n \text{th} \text{term} & = 12 + ( n - 1 ) \times 7 \end{gathered}$
 
 > *Expand the bracket and simplify*
 
-`table row cell n th space term end cell equals cell 12 plus 7 open parentheses n minus 1 close parentheses end cell row blank equals cell 12 plus 7 n minus 7 end cell row blank equals cell 7 n plus 5 end cell end table`
+$\begin{gathered} n \text{th} \text{term} & = 12 + 7 ( n - 1 ) \\ = 12 + 7 n - 7 \\ = 7 n + 5 \end{gathered}$
 
 $7n+5$** **
 **"**$7n$**" [1] **
@@ -787,7 +787,7 @@ $7n+5$** **
 > *Method 2** *
 *The terms are increasing by 7 each time, so it's an arithmetic sequence and something to do with the " 7 times table", or "*$7n$*". **Write the sequence *$7n$* for the first four terms and write the given sequence directly underneath it. *
 
-`table row cell space 7 n space end cell equals cell space space space space space space space 7 comma space space space space space space space space 14 comma space space space space space space space space space space 21 comma space space space space space space space 28 comma space... space space end cell row cell Given space sequence space end cell equals cell space space space space space 12 comma space space space space space space space space 19 comma space space space space space space space space space 26 comma space space space space space space space space 33 comma space... space space space space end cell end table`
+$\begin{gathered} 7 n & = 7 , 14 , 21 , 28 , ... \\ \text{Given} \text{sequence} & = 12 , 19 , 26 , 33 , ... \end{gathered}$
 
 > *We can see that to go from *$7n$* to the given sequence, we always add 5.*
 

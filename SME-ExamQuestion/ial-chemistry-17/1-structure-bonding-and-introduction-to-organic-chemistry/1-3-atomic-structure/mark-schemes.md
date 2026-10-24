@@ -76,7 +76,7 @@ i) The term **isotopes**, in terms of subatomic particles, means:
 
 ii) The relative atomic mass of sulfur in this sample is:
 
-- *A*<sub>r</sub> = `fraction numerator open parentheses 32 space cross times space 94.88 close parentheses space plus space open parentheses 33 space cross times space 0.83 close parentheses space plus space open parentheses 34 space cross times space 4.27 close parentheses space plus space open parentheses 36 space cross times space 0.02 close parentheses over denominator 100 end fraction`; **[1 mark]**
+- *A*<sub>r</sub> = $\frac{( 32 \times 94.88 ) + ( 33 \times 0.83 ) + ( 34 \times 4.27 ) + ( 36 \times 0.02 )}{100}$; **[1 mark]**
 - *A*<sub>r</sub> = 32.09; **[1 mark]**
 
 **[Total: 4 marks]**
@@ -198,7 +198,7 @@ ii) The **formula **of the **most stable ion **shown by this spectrum is:
 **Final answer:** **The correct answer is ****C**** because:**
 
 - *A*<sub>r</sub> = $\frac{(relativeabundance_{isotope1}\timesmass_{isotope1})+(relativeabundance_{isotope2}\timesmass_{isotope2})}{100}$
-- *A*<sub>r</sub> = `fraction numerator stretchy left parenthesis 25 cross times 191 stretchy right parenthesis plus open parentheses 75 cross times 193 close parentheses over denominator 100 end fraction` = 192.5
+- *A*<sub>r</sub> = $\frac{( 25 \times 191 ) + ( 75 \times 193 )}{100}$ = 192.5
 
 **A** is incorrect as  the calculation for this answer has the relative abundances and masses the wrong way around
 

@@ -32,15 +32,15 @@ guided_study: false
 
 - Be careful, the **limits don’t have to start with 1**
 
-  - For example `sum from k space equals space 0 to 4 of left parenthesis 2 k plus 1 right parenthesis`  or  `sum from k space equals space 7 to 14 of left parenthesis 2 k minus 13 right parenthesis`
+  - For example $\sum_{k = 0}^{4} ( 2 k + 1 )$  or  $\sum_{k = 7}^{14} ( 2 k - 13 )$
 - You need to be able to **read** and **use** sigma notation when answering questions about **series**
 
   - For example the sum of the fifth through ninth terms of an arithmetic series
   
-    - This could be written as  `sum from k equals 5 to 9 of open parentheses a plus open parentheses k minus 1 close parentheses d close parentheses`
+    - This could be written as  $\sum_{k = 5}^{9} ( a + ( k - 1 ) d )$
   - Or the sum of the first $n$ terms of a geometric series
   
-    - This could be written as  `sum from k equals 1 to n of a r to the power of k minus 1 end exponent`
+    - This could be written as  $\sum_{k = 1}^{n} a r^{k - 1}$
 
 > **Exam Hint**
 > - Your calculator may be able to use sigma notation
@@ -61,13 +61,13 @@ guided_study: false
 > 
 > > *Now replace *$u_{k}$* with the actual formula, being sure to use *$k$* instead of *$n$* again*
 > 
-> `bold sum from bold k bold equals bold 1 to bold 6 of stretchy left parenthesis 2 cross times 3 to the power of k minus 1 end exponent stretchy right parenthesis`
+> $\sum_{ k = 1}^{ 6} ( 2 \times 3^{k - 1} )$
 > 
 > (b) Write an expression for the sum of the seventh through twelfth terms of the series using sigma notation.
 > 
 > > *This will be the same as in part (a), except that the limits will be 7 on the bottom and 12 on the top*
 > 
-> `bold sum from bold k bold equals bold 7 to bold 12 of begin bold style stretchy left parenthesis 2 cross times 3 to the power of k minus 1 end exponent stretchy right parenthesis end style`
+> $\sum_{ k = 7}^{ 12} \text{begin} \text{style} ( 2 \times 3^{k - 1} )$
 > 
 > (c) Write an expression for the sum of the first $n$ terms of the series using sigma notation.
 > 
@@ -77,4 +77,4 @@ guided_study: false
 > 
 > > *Be careful here  –  *$k$* is the variable for the sigma sum, and *$n$* means we're going up to the *$n$<sup>*th*</sup>* term *
 > 
-> `bold sum from bold k bold equals bold 1 to bold n of begin bold style stretchy left parenthesis 2 cross times 3 to the power of k minus 1 end exponent stretchy right parenthesis end style`
+> $\sum_{ k = 1}^{ n} \text{begin} \text{style} ( 2 \times 3^{k - 1} )$

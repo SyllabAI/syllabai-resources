@@ -81,13 +81,13 @@
 **Final answer:** **The correct answer is ****B**** because:**
 
 - The Doppler equation for a source moving towards a stationary observer is  $f_{0}=\frac{f_{s}v}{v-v_{s}}$
-- Rearranging to make the source frequency the subject gives `f subscript s space equals space fraction numerator f subscript 0 open parentheses v minus v subscript s close parentheses over denominator v end fraction`
+- Rearranging to make the source frequency the subject gives $f_{s} = \frac{f_{0} ( v - v_{s} )}{v}$
 - Where:
 
   - Observed frequency, $f_{0}=170\mathrm{Hz}$
   - Velocity of source, $v_{s}=10ms^{-1}$
   - Speed of sound in air, $v=340ms^{-1}$
-- Therefore, `f subscript s space equals space fraction numerator 170 space cross times space open parentheses 340 space minus space 10 close parentheses over denominator 340 end fraction space equals space 165 space Hz`
+- Therefore, $f_{s} = \frac{170 \times ( 340 - 10 )}{340} = 165 \text{Hz}$
 
   - This is answer **B**
 
@@ -136,7 +136,7 @@
 
 Option **A** and **C** are incorrect because:
 
-- Points **A** and **C** do not lie along the line of motion, so the component of the source velocity toward the observers is smaller; the denominator is not `open parentheses v space plus-or-minus space v subscript s close parentheses`
+- Points **A** and **C** do not lie along the line of motion, so the component of the source velocity toward the observers is smaller; the denominator is not $( v \pm v_{s} )$
 
 Option **B** is incorrect because:
 
@@ -166,14 +166,14 @@ Option **B** is incorrect because:
 
 - Therefore
 
-  - `f subscript o equals fraction numerator open parentheses 440 close parentheses open parentheses 340 close parentheses over denominator open parentheses 340 plus 30 close parentheses end fraction equals 404.32 space Hz`
+  - $f_{o} = \frac{( 440 ) ( 340 )}{( 340 + 30 )} = 404.32 \text{Hz}$
 
 ### Q7
 **Final answer:** **The correct answer is ****C**** because:**
 
 - The observed frequency$f_{o}$ of a sound wave from a moving source is:
 
-  - `space f subscript o space equals space f subscript s open parentheses fraction numerator v over denominator v space plus-or-minus space v subscript s end fraction close parentheses`
+  - $f_{o} = f_{s} ( \frac{v}{v \pm v_{s} } )$
   - Where$f_{s}$ is the source frequency, $v$ is the speed of the sound wave, and $v_{s}$ is the speed of the source (police car)
 - Runner A is moving in the same direction as the police car
 
@@ -181,29 +181,29 @@ Option **B** is incorrect because:
   - Therefore, the denominator is $v+v_{s}$
 - The frequency of the sound wave observed by Runner A is:
 
-  - `space f subscript A space equals space f subscript s open parentheses fraction numerator v over denominator v space plus space v subscript s end fraction close parentheses`
-  - `space f subscript A space equals space f subscript s open parentheses fraction numerator v over denominator v space plus space 10 u end fraction close parentheses`
+  - $f_{A} = f_{s} ( \frac{v}{v + v_{s} } )$
+  - $f_{A} = f_{s} ( \frac{v}{v + 10 u} )$
 - Runner B is moving in the opposite direction to Runner A
 
   - Since the police car is halfway between the runners, this means it must be moving towards Runner B
   - Therefore, the denominator is $v-v_{s}$
 - The frequency of the sound wave observed by Runner B is:
 
-  - `space f subscript B space equals space f subscript s open parentheses fraction numerator v over denominator v space minus space v subscript s end fraction close parentheses`
-  - `space f subscript B space equals space f subscript s open parentheses fraction numerator v over denominator v space minus space 10 u end fraction close parentheses`
+  - $f_{B} = f_{s} ( \frac{v}{v - v_{s} } )$
+  - $f_{B} = f_{s} ( \frac{v}{v - 10 u} )$
 - Therefore, the ratio of$f_{A}$ and $f_{B}$ is:
 
-  - `f subscript A over f subscript B space equals space space open parentheses fraction numerator f subscript s v over denominator v space plus space 10 u end fraction close parentheses cross times space open parentheses fraction numerator v space minus space 10 u over denominator f subscript s v end fraction close parentheses`
+  - `f _ A / f _ B = ( (f _ s v)/(v + 10 u) ) x ( (v - 10 u)/(f _ s v) )`
   - $\frac{f_{A}}{f_{B}}=\frac{v-10u}{v+10u}$
 - This is option **C**
 
 When both the observer and the source are moving, the frequency of the observed wave is usually calculated using:
 
-`space f subscript o space equals space f subscript s open parentheses fraction numerator v space plus-or-minus space v subscript o over denominator v space plus-or-minus space v subscript s end fraction close parentheses`
+$f_{o} = f_{s} ( \frac{v \pm v_{o} }{v \pm v_{s} } )$
 
-Where $v_{o}$ is the speed of the observer, which is equal to $u$ for both observers. Since the speed of sound $v$ is much greater than the running speed of the observers, `v space much greater-than space u`, this allows us to simplify the equation:
+Where $v_{o}$ is the speed of the observer, which is equal to $u$ for both observers. Since the speed of sound $v$ is much greater than the running speed of the observers, $v \text{much} greater-than u$, this allows us to simplify the equation:
 
-`space f subscript o space equals space f subscript s open parentheses fraction numerator v over denominator v space plus-or-minus space v subscript s end fraction close parentheses`
+$f_{o} = f_{s} ( \frac{v}{v \pm v_{s} } )$
 
 This means that relative to the wave, the observers can be treated as effectively stationary.
 
@@ -214,7 +214,7 @@ This means that relative to the wave, the observers can be treated as effectivel
 - As the car is moving **towards **the observer, the denominator becomes (*v − v*<sub>*s*</sub>)
 - Substituting 0.2*v* for *v*<sub>*s*</sub> gives:
 
-  - `f subscript 0 space equals space fraction numerator f subscript s v over denominator v minus 0.2 v end fraction equals space fraction numerator f subscript s v over denominator 0.8 v end fraction equals f subscript s space open parentheses fraction numerator 1 over denominator 0.8 end fraction close parentheses equals 1.25 f subscript s`
+  - $f_{0} = \frac{f_{s} v}{v - 0.2 v} = \frac{f_{s} v}{0.8 v} = f_{s} ( \frac{1}{0.8} ) = 1.25 f_{s}$
 
 **A **is incorrect as 0.83 *f*<sub>s</sub> is found when + is used in the denominator instead of −
 
@@ -312,9 +312,9 @@ Option **C **and **D** is incorrect because
 
 - The correct rearrangement of the doppler effect for sound equation to make the source frequency the subject is:
 
-  - `f subscript 0 space equals space fraction numerator f subscript s v over denominator v space plus-or-minus space v subscript s end fraction space space rightwards arrow space space f subscript s space equals space fraction numerator f subscript 0 open parentheses v space plus-or-minus space v subscript s close parentheses over denominator v end fraction`
+  - $f_{0} = \frac{f_{s} v}{v \pm v_{s} } \rightarrow f_{s} = \frac{f_{0} ( v \pm v_{s} )}{v}$
 - When the source is moving toward the observer the expression is $v-v_{s}$
 - Therefore, the correct equation is:
 
-  - `space f subscript s space equals space fraction numerator f subscript 0 open parentheses v space minus space v subscript s close parentheses over denominator v end fraction`
+  - $f_{s} = \frac{f_{0} ( v - v_{s} )}{v}$
 - This is answer option **A**

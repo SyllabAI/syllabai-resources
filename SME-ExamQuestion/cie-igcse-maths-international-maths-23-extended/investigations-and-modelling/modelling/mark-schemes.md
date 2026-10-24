@@ -24,7 +24,7 @@ $16π=50.265482...\mathrm{km}$
 
 > *Find the carbon dioxide emission of one lap by multiplying the road length by 0.1*
 
-** **`16 straight pi cross times 0.1 equals 5.02654 equals 5.03 space kg space open parentheses 3 space straight s. straight f close parentheses`**[1]**
+** **$16 \mathrm{\pi } \times 0.1 = 5.02654 = 5.03 \text{kg} ( 3 \mathrm{s} . \mathrm{f} )$**[1]**
 > *Find the assumed carbon emitted per day per vehicle, *$d$* kg, by dividing your answer from (a) by 2*
 
 $d=\frac{5.03}{2}\mathrm{kg}$
@@ -33,37 +33,37 @@ $d=\frac{5.03}{2}\mathrm{kg}$
 
 > *Find the assumed carbon dioxide emitted per day by *$10000N$* vehicles, by multiplying *$d$* by *$10000N$
 
-`table row c equals cell fraction numerator 5.03 over denominator 2 end fraction cross times 10 space 000 N space kg end cell row blank equals cell 25150 N space kg end cell end table`
+$\begin{gathered} c = \frac{5.03}{2} \times 10 000 N \text{kg} \\ = 25150 N \text{kg} \end{gathered}$
 
 **Either half answer from (a) or multiplying by **$10000N$**seen [1]**
 
 > *Round the answer to 2 significant figures*
 
-** **`k equals 25000 space open parentheses 2 space straight s. straight f. close parentheses` **[1]**
-> *Start with the cubic model *`N equals 1 over 108 open parentheses t cubed minus 21 t squared plus 72 t plus 540 close parentheses`
+** **$k = 25000 ( 2 \mathrm{s} . \mathrm{f} . )$ **[1]**
+> *Start with the cubic model *$N = \frac{1}{108} ( t^{3} - 21 t^{2} + 72 t + 540 )$
 
 > *Substitute this into the model for *$c$* in terms of *$N$* found in part (b)*
 
-`table row c equals cell 25000 N end cell row blank equals cell 25000 open parentheses 1 over 108 open parentheses t cubed minus 21 t squared plus 72 t plus 540 close parentheses close parentheses end cell end table`
+$\begin{gathered} c = 25000 N \\ = 25000 ( \frac{1}{108} ( t^{3} - 21 t^{2} + 72 t + 540 ) ) \end{gathered}$
 
 > *This form is a correct answer, but can be simplified*
 
-`table row c equals cell 25000 over 108 open parentheses t cubed minus 21 t squared plus 72 t plus 540 close parentheses end cell end table`
+$\begin{gathered} c = \frac{25000}{108} ( t^{3} - 21 t^{2} + 72 t + 540 ) \end{gathered}$
 
-`c equals 6250 over 27 open parentheses t cubed minus 21 t squared plus 72 t plus 540 close parentheses`** [1]**
+$c = \frac{6250}{27} ( t^{3} - 21 t^{2} + 72 t + 540 )$** [1]**
 **Any equivalent form accepted**
 
 ### Q2
-> *Open the graphing software on your calculator and plot the graph of *`straight f open parentheses x close parentheses equals 1 over 108 open parentheses x cubed minus 21 x squared plus 72 x plus 540 close parentheses`
+> *Open the graphing software on your calculator and plot the graph of *$\mathrm{f} ( x ) = \frac{1}{108} ( x^{3} - 21 x^{2} + 72 x + 540 )$
 
 > *Navigate to the points of intersection of the graph with the axes and other important points *
 
 > *Plot these points on the diagram given and then join up with a smooth curve*
 
-- *The *$y$*-intercept is *`open parentheses 0 comma space 5 close parentheses`
+- *The *$y$*-intercept is *$( 0 , 5 )$
 - *The graph does not intercept the *$x$*-axis between *$x=0$* and *$x=12$
-- *There is a maximum point at *`open parentheses 2 comma space 5.629... close parentheses`
-- *There is a minimum point at *`open parentheses 12 comma space 1 close parentheses`
+- *There is a maximum point at *$( 2 , 5.629... )$
+- *There is a minimum point at *$( 12 , 1 )$
 
 ![Cubic model sketched showing decrease in daily vehicles in thousands over 12 months after introducing a driving charge. Starts at 50,000, peaks, then declines to 10,000.](assets/003-cubic-model-sketched-showing-decrease-in-daily-v.png)
 
@@ -73,7 +73,7 @@ $d=\frac{5.03}{2}\mathrm{kg}$
 
 > *The *$x$*-coordinate should be 2, the *$y$*-coordinate gives the value you need*
 
-`open parentheses 2 comma space 5.6296... close parentheses`
+$( 2 , 5.6296... )$
 
 > *Remember that the value of *$N$* is measured in tens of thousands, so multiply your answer by *$10000$
 
@@ -91,7 +91,7 @@ $5.62963...\times10000=56296.3....$
 **Final answer:** **The cubic model predicts a higher maximum number of vehicles per day**
 
 **[1]**
-> *The graph of the cubic model has a minimum point at *`open parentheses 12 comma space 1 close parentheses`
+> *The graph of the cubic model has a minimum point at *$( 12 , 1 )$
 
 *The value of *$N$* at 12 months is *$10000$
 
@@ -106,21 +106,21 @@ $5.62963...\times10000=56296.3....$
 
 > *It may help to change the *$x$*-axis to *$0\leqx\leq12$* and the *$y$*-axis to *$0\leqy\leq6$
 
-** **`open parentheses 0 comma space 5 close parentheses`** [1]**
-`open parentheses 6 comma space 4 close parentheses`** ****[1]**
+** **$( 0 , 5 )$** [1]**
+$( 6 , 4 )$** ****[1]**
 
 ### Q3
 > *Method 1: Using GDC*
 
-> *Open the graphing software on your calculator and plot the graph of *`straight f open parentheses x close parentheses equals negative 1 over 12 open parentheses x plus 6 close parentheses open parentheses x minus 10 close parentheses`
+> *Open the graphing software on your calculator and plot the graph of *$\mathrm{f} ( x ) = - \frac{1}{12} ( x + 6 ) ( x - 10 )$
 
 > *Navigate to the points of intersection of the graph with the axes (you can ignore the negative *$x$*-intercept)*
 
-> *The *$y$*-intercept is *`open parentheses 0 comma space 5 close parentheses`
+> *The *$y$*-intercept is *$( 0 , 5 )$
 
 $p=5$ **[1]**
 
-> *The positive *$x$*-intercept is *`open parentheses 10 comma space 0 close parentheses`
+> *The positive *$x$*-intercept is *$( 10 , 0 )$
 
 $q=10$ **[1]**
 
@@ -130,11 +130,11 @@ $q=10$ **[1]**
 
 > *Setting the first factor to zero and solving gives:*
 
-`table row cell open parentheses t plus 6 close parentheses end cell equals 0 row t equals cell negative 6 end cell end table`
+$\begin{gathered} ( t + 6 ) & = 0 \\ t = - 6 \end{gathered}$
 
 > *Setting the second factor to zero and solving gives:*
 
-`table row cell open parentheses t minus 10 close parentheses end cell equals 0 row t equals 10 end table`
+$\begin{gathered} ( t - 10 ) & = 0 \\ t = 10 \end{gathered}$
 
 > *The negative *$x$*-intercept can be ignored*
 
@@ -154,13 +154,13 @@ $p=5$ **[1]**
 **[1]**
 > *Method 1: Using GDC*
 
-> *Open the graphing software on your calculator and plot the graph of *`straight f open parentheses x close parentheses equals negative 1 over 12 open parentheses x plus 6 close parentheses open parentheses x minus 10 close parentheses`
+> *Open the graphing software on your calculator and plot the graph of *$\mathrm{f} ( x ) = - \frac{1}{12} ( x + 6 ) ( x - 10 )$
 
 > *Navigate to the maximum point on the graph (at the turning point)*
 
 > *The *$x$*-coordinate should be 2, the *$y$*-coordinate gives the value you need*
 
-`open parentheses 2 comma space 16 over 3 close parentheses`
+$( 2 , \frac{16}{3} )$
 
 **[1]**
 
@@ -178,7 +178,7 @@ $\frac{16}{3}\times10000=53333.333....$
 
 > *Substitute *$t=2$* into the equation of the negative quadratic model*
 
-`N equals negative 1 over 12 open parentheses 2 plus 6 close parentheses open parentheses 2 minus 10 close parentheses`
+$N = - \frac{1}{12} ( 2 + 6 ) ( 2 - 10 )$
 
 **[1]**
 
@@ -195,13 +195,13 @@ $\frac{16}{3}\times10000=53333.333....$
 ** 53 300** **[1]**
 > *Method 1: Using GDC*
 
-> *On the same graph on your calculator plot the graph of *`straight f open parentheses x close parentheses equals 5`
+> *On the same graph on your calculator plot the graph of *$\mathrm{f} ( x ) = 5$
 
 > *Navigate to the points of intersection of the two graphs, the first should be at the *$y$*-intercept*
 
 > *Read off the coordinates of the second point of intersection, the *$y$*-coordinate should be *$5$
 
-`open parentheses 4 comma space 5 close parentheses`
+$( 4 , 5 )$
 
 > *The *$x$* value is the coordinate you need*
 
@@ -227,11 +227,11 @@ $2\times2$
 ### Q4
 > *The line of best fit is given in the form of the equation of a straight line, *$y=mx+c$*, where *$m=b$* is the gradient, *$c=a$* is the *$y$*-intercept, *$x=t$* and *$y=N$
 
-> *The *$y$*-intercept is the coordinate *`open parentheses 0 comma space 6 close parentheses`
+> *The *$y$*-intercept is the coordinate *$( 0 , 6 )$
 
 $a=6$** ****[1]**
 
-> *Use the coordinates *`open parentheses 0 comma space 6 close parentheses`* and *`open parentheses 10 comma space 2 close parentheses`* to find the gradient of the line of best fit*
+> *Use the coordinates *$( 0 , 6 )$* and *$( 10 , 2 )$* to find the gradient of the line of best fit*
 
 $b=\frac{6-2}{0-10}=\frac{4}{-10}$
 
@@ -248,7 +248,7 @@ $N=6-\frac{2}{5}t$
 
 > *Substitute *$t=7$* into the equation*
 
-`N equals 6 minus 2 over 5 cross times open parentheses 7 close parentheses`
+$N = 6 - \frac{2}{5} \times ( 7 )$
 
 **[1]**
 

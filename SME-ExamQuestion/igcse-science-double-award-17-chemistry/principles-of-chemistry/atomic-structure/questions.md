@@ -268,7 +268,7 @@ i) State the meaning of the term **isotopes**.
 
 ii) The symbol for an atom of one isotope of magnesium is
 
-`begin mathsize 14px style Mg presubscript 12 presuperscript 26 end style`
+$Mg_{12}^{26}$
 
 Give the number of protons, neutrons and electrons in one atom of this isotope.
 

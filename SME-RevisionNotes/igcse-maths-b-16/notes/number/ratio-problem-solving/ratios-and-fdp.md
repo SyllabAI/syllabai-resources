@@ -83,24 +83,24 @@ guided_study: true
 > > *30% of the Stilton Surprise are regular sized*
 > *So multiply 7/10 by 0.3 to find the percentage that are Stilton Surprise **and** regular sized*
 > 
-> `7 over 10 space cross times space 0.3 space equals space 7 over 10 space cross times space 3 over 10 space equals space 21 over 100 space
+> $\frac{7}{10} \times 0.3 = \frac{7}{10} \times \frac{3}{10} = \frac{21}{100} 
 > 
-> 21 over 100 space equals space 0.21
+> \frac{21}{100} = 0.21
 > 
-> So space 21 percent sign space are space regular space sized space Stilton space Surprise`
+> \text{So} 21 \% \text{are} \text{regular} \text{sized} \text{Stilton} \text{Surprise}$
 > 
 > > *2/5 of the Pickled Haggis are regular sized*
 > *So multiply 3/10 by 2/5 to find the percentage that are Pickled Haggis **and** regular sized*
 > 
-> `3 over 10 space cross times space 2 over 5 space equals space 6 over 50
+> $\frac{3}{10} \times \frac{2}{5} = \frac{6}{50} 
 > 
-> 6 over 50 space equals space 12 over 100 space equals space 0.12
+> \frac{6}{50} = \frac{12}{100} = 0.12
 > 
-> So space 12 percent sign space are space regular space sized italic space Pickled space Haggis`
+> \text{So} 12 \% \text{are} \text{regular} \text{sized} \text{Pickled} \text{Haggis}$
 > 
 > > *Add those together to find the percentage that are regular sized*
 > 
-> `21 space plus space 12 space equals space 33 percent sign space regular space sized`
+> $21 + 12 = 33 \% \text{regular} \text{sized}$
 > 
 > > *And finally subtract 33% from 100% to find the percentage that are jumbo sized*
 > 
@@ -124,12 +124,12 @@ guided_study: true
 > > *30% of the Stilton Surprise are regular sized*
 > *So multiply 70 by 0.3 to find how many are Stilton Surprise **and** regular sized*
 > 
-> `table row cell 70 space cross times space 0.3 space end cell equals cell space 70 space cross times space 3 over 10 space space end cell row blank equals cell space 210 over 10 end cell row blank blank blank row blank equals cell space 21 space space are space regular space sized space Stilton space Surprise end cell end table`
+> $\begin{gathered} 70 \times 0.3 & = 70 \times \frac{3}{10} \\ = \frac{210}{10} \\ \\ = 21 \text{are} \text{regular} \text{sized} \text{Stilton} \text{Surprise} \end{gathered}$
 > 
 > > *2/5 of the Pickled Haggis are regular sized*
 > *So multiply 30 by 2/5 to find how many are Pickled Haggis **and** regular sized*
 > 
-> `table row cell 30 space cross times space 2 over 5 space end cell equals cell space 60 over 5 end cell row blank blank blank row blank equals cell 12 space space are space regular space sized italic space Pickled space Haggis end cell end table`
+> $\begin{gathered} 30 \times \frac{2}{5} & = \frac{60}{5} \\ \\ = 12 \text{are} \text{regular} \text{sized} \text{Pickled} \text{Haggis} \end{gathered}$
 > 
 > > *Add those together to find how many in total are regular sized*
 > 

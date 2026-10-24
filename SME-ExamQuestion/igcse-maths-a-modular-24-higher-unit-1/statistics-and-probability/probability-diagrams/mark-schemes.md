@@ -71,7 +71,7 @@ $\frac{11}{50}$**  [2]**
 ### 13((a)) — 2 marks
 > *The probability of red can be found by subtracting the probability of green from 1.*
 
-`table row cell straight P open parentheses Red close parentheses end cell equals cell 1 minus 7 over 12 end cell row blank equals cell 5 over 12 end cell end table`
+$\begin{gathered} \mathrm{P} ( \text{Red} ) & = 1 - \frac{7}{12} \\ = \frac{5}{12} \end{gathered}$
 
 **[1]**
 
@@ -84,7 +84,7 @@ $\frac{11}{50}$**  [2]**
 ### 13((b)) — 2 marks
 > *To find the probability that both are red you multiply the probabilities for red along the branches.*
 
-`straight P open parentheses Red space and space Red close parentheses equals 5 over 12 cross times 5 over 12`
+`P ( Red and Red ) = 5 / 12 x 5 / 12`
 
 **[1]**
 
@@ -112,7 +112,7 @@ $0.6\times0.9$
 
 > *Then add those products together to find the total probability (OR rule).*
 
-`open parentheses 0.6 cross times 0.1 close parentheses space plus space open parentheses 0.4 cross times 0.25 close parentheses space equals space 0.06 space plus space 0.1 space equals space 0.16`
+$( 0.6 \times 0.1 ) + ( 0.4 \times 0.25 ) = 0.06 + 0.1 = 0.16$
 
 **[2] 1 mark for one correct product.  1 mark for both correct products added together.**
 
@@ -164,7 +164,7 @@ $\frac{1}{4}$* of 44 = 11*
 
 **The top-left option, A or B or both, is correct** **[1]**
 
-> *A but not B would be *$A\capB'$* Not A and not B would be *$A'\capB'$* or *`open parentheses straight A union straight B close parentheses apostrophe`* A and B would be *$A\capB$
+> *A but not B would be *$A\capB'$* Not A and not B would be *$A'\capB'$* or *$( \mathrm{A} \cup \mathrm{B} ) '$* A and B would be *$A\capB$
 
 ## Q7 — easy — 1 marks · exam-questions
 
@@ -177,7 +177,7 @@ $\frac{1}{4}$* of 44 = 11*
 
 ![vxdcE2Gb_a-or-b](assets/128-vxdce2gb-a-or-b.png)
 
-> *Both *`open parentheses straight A intersection straight B close parentheses apostrophe`* and *$A'\cupB'$* would look like*
+> *Both *$( \mathrm{A} \cap \mathrm{B} ) '$* and *$A'\cupB'$* would look like*
 
 ![PK9lMcjk_a-and-b-not](assets/129-pk9lmcjk-a-and-b-not.png)
 
@@ -234,7 +234,7 @@ $\frac{9}{16}$ **[1]**
 
 > *The quickest method is to subtract the probability that the team wins no matches from 1.*
 
-`table row cell straight P left parenthesis At space least space 1 space match right parenthesis space end cell equals cell space 1 space minus space straight P left parenthesis lose comma space lose right parenthesis end cell row blank equals cell space 1 space minus space open parentheses 2 over 3 cross times 1 fourth close parentheses space end cell row blank equals cell space 1 space minus space 1 over 6 end cell end table`
+$\begin{gathered} \mathrm{P} ( \text{At} \text{least} 1 \text{match} ) & = 1 - \mathrm{P} ( \text{lose} , \text{lose} ) \\ = 1 - ( \frac{2}{3} \times 1 \frac{1}{4} ) \\ = 1 - \frac{1}{6} \end{gathered}$
 
 **Finding probability of losing both matches ****[1] **
 **Subtracting from 1 ****[1]**
@@ -244,7 +244,7 @@ $P(\mathrm{At} \mathrm{least}1\mathrm{match})=\frac{5}{6}$** [1]**
 > *Method 2 *
 *Find the sum of the probability of winning one or both of the matches.*
 
-`table row cell straight P left parenthesis At space least space 1 space match right parenthesis space end cell equals cell space straight P left parenthesis win comma space win right parenthesis space plus space straight P space left parenthesis win comma space lose right parenthesis space plus space straight P left parenthesis lose comma space win right parenthesis space end cell row blank equals cell space space open parentheses 1 third cross times 3 over 4 close parentheses space space plus space space open parentheses 1 third cross times 1 fourth space close parentheses space plus space space open parentheses 2 over 3 cross times 3 over 4 close parentheses space end cell end table`
+$\begin{gathered} \mathrm{P} ( \text{At} \text{least} 1 \text{match} ) & = \mathrm{P} ( \text{win} , \text{win} ) + \mathrm{P} ( \text{win} , \text{lose} ) + \mathrm{P} ( \text{lose} , \text{win} ) \\ = ( 1 \frac{1}{3} \times \frac{3}{4} ) + ( 1 \frac{1}{3} \times 1 \frac{1}{4} ) + ( \frac{2}{3} \times \frac{3}{4} ) \end{gathered}$
 
 **Finding probability of winning one of the matches ****[1] **
 **Adding all three probabilities together ****[1]**
@@ -281,7 +281,7 @@ $P(\mathrm{At} \mathrm{least}1\mathrm{match})=\frac{5}{6}$** [1]**
 
 ### 1((b)) — 2 marks
 > *There are 15 numbers in the universal set. *
-$A\cupB$* is all the numbers that are in either or both of the circles. So *`A union B space equals space open curly brackets 3 comma space 5 comma space 9 comma space 15 comma space 21 comma space 25 comma space 27 close curly brackets`*, with 7 numbers in that set.*
+$A\cupB$* is all the numbers that are in either or both of the circles. So *$A \cup B = \{ 3 , 5 , 9 , 15 , 21 , 25 , 27 \}$*, with 7 numbers in that set.*
 
 $\frac{7}{15}$**  [2]**
 
@@ -307,7 +307,7 @@ $\frac{7}{15}$**  [2]**
 ### 5((b)) — 2 marks
 > *A**' is the set of all numbers that **aren't** in **A**.  (It's called the 'complement' of** A.**) Basically, the question is asking you 'What's the probability that the number isn't in set **A**?'*
 
-`A apostrophe space equals space open curly brackets 10 comma space 11 comma space 13 comma space 14 comma space 16 comma space 17 comma space 19 close curly brackets`
+$A ' = \{ 10 , 11 , 13 , 14 , 16 , 17 , 19 \}$
 
 **[1] **
 **You can also get this mark for indicating where set A' is on the Venn diagram.**
@@ -420,18 +420,18 @@ $\frac{3}{14}$**  [2]**
 
 ### 16((a)) — 2 marks
 > $A\cupB$* is everything inside the two circles. *
-*The region inside the rectangle but outside the two circles includes all of the things that are in *$ℰ$* but aren't in *$A\cupB$*. Therefore the number of things outside the circles is equal to  *`straight n open parentheses ℰ close parentheses minus straight n open parentheses A union B close parentheses`*.*
+*The region inside the rectangle but outside the two circles includes all of the things that are in *$ℰ$* but aren't in *$A\cupB$*. Therefore the number of things outside the circles is equal to  *$\mathrm{n} ( ℰ ) - \mathrm{n} ( A \cup B )$*.*
 
 $80-68=12$
 
-> *If you add together *`straight n open parentheses A close parentheses`* and *`straight n open parentheses B close parentheses`*, then you have included the 'overlap region' *$A\capB$* twice. *
-*Therefore  *`straight n open parentheses A close parentheses space plus space straight n open parentheses B close parentheses space equals space straight n open parentheses A italic union B close parentheses space plus space straight n open parentheses A italic intersection B close parentheses.`* *
-*This means that  *`straight n open parentheses straight A italic intersection straight B close parentheses space equals space straight n open parentheses A close parentheses space plus space straight n open parentheses B close parentheses space minus space straight n open parentheses straight A italic union straight B close parentheses.`
+> *If you add together *$\mathrm{n} ( A )$* and *$\mathrm{n} ( B )$*, then you have included the 'overlap region' *$A\capB$* twice. *
+*Therefore  *$\mathrm{n} ( A ) + \mathrm{n} ( B ) = \mathrm{n} ( A \cup B ) + \mathrm{n} ( A \cap B ).$* *
+*This means that  *$\mathrm{n} ( \mathrm{A} \cap \mathrm{B} ) = \mathrm{n} ( A ) + \mathrm{n} ( B ) - \mathrm{n} ( \mathrm{A} \cup \mathrm{B} ).$
 
 $62+30-68=24$
 
-> *Finally, the number of things inside *$A$*but outside *$A\capB$* is equal to  *`straight n open parentheses straight A close parentheses minus straight n open parentheses A italic intersection B close parentheses.`* *
-*And the number of things inside *$B$* but outside *$A\capB$* is equal to *`straight n open parentheses B close parentheses space minus space straight n open parentheses straight A italic intersection straight B close parentheses.`
+> *Finally, the number of things inside *$A$*but outside *$A\capB$* is equal to  *$\mathrm{n} ( \mathrm{A} ) - \mathrm{n} ( A \cap B ).$* *
+*And the number of things inside *$B$* but outside *$A\capB$* is equal to *$\mathrm{n} ( B ) - \mathrm{n} ( \mathrm{A} \cap \mathrm{B} ).$
 
 $62-24=38\,\,30-24=6$
 
@@ -520,7 +520,7 @@ $\frac{7}{12}\times\frac{8}{15}=\frac{56}{180}$
 > *You can multiply along the appropriate branches to get each of those individual probabilities (AND rule). *
 *Then add them all together to get the total probability.*
 
-`open parentheses 2 over 5 cross times 1 fifth close parentheses space plus space open parentheses 3 over 5 cross times 4 over 5 close parentheses space plus space open parentheses 3 over 5 cross times 1 fifth close parentheses space equals space 2 over 25 space plus space 12 over 25 space plus space 3 over 25 space equals space 17 over 25`
+$( \frac{2}{5} \times 1 \frac{1}{5} ) + ( \frac{3}{5} \times \frac{4}{5} ) + ( \frac{3}{5} \times 1 \frac{1}{5} ) = \frac{2}{25} + \frac{12}{25} + \frac{3}{25} = \frac{17}{25}$
 
 **  [2] **
 **1 mark for any one correct product.  **
@@ -546,7 +546,7 @@ $\frac{2}{5}$** ****and **$\frac{3}{5}$** [1]**
  $\frac{5}{6}$** ****and**** **$\frac{1}{6}$** [1]**
 
 ### 16((b)) — 2 marks
-> *Multiply the probability of getting an even number on the spinner *`open parentheses 2 over 5 close parentheses`* by the probability of getting a green face on the dice *`open parentheses 1 over 6 close parentheses`
+> *Multiply the probability of getting an even number on the spinner *$( \frac{2}{5} )$* by the probability of getting a green face on the dice *$( \frac{1}{6} )$
 
 $\frac{2}{5}\times\frac{1}{6}=\frac{2}{30}=\frac{1}{15}$
 
@@ -711,19 +711,19 @@ $\frac{1}{12}$ **[1]**
 ### 4() — 5 marks
 > *We are told there are 60 students in total, so all the values (or in this case expressions) in the circles must sum to 60*
 
-`table attributes columnalign right center left columnspacing 0px end attributes row cell x plus 2 x plus open parentheses x minus 1 close parentheses plus open parentheses 5 x minus 2 close parentheses end cell equals 60 end table`
+$\begin{array}{rcl} x + 2 x + ( x - 1 ) + ( 5 x - 2 ) & = 60 \end{array}$
 
 **Forming equation**** [1]**
 
 > *Simplify and solve the equation*
 
-`table row cell 9 x minus 3 end cell equals 60 row cell 9 x end cell equals 63 row x equals 7 end table`
+$\begin{gathered} 9 x - 3 & = 60 \\ 9 x & = 63 \\ x = 7 \end{gathered}$
 
 **Simplifying and solving ****[2]**
 
 *The students who have a bank account are those in the left circle, *$2x$*, and the students in the middle overlapping section, *$x-1$ *We now know that *$x=7$
 
-*Number of students who have a bank account: *`2 x space plus thin space open parentheses x minus 1 close parentheses space equals space 2 open parentheses 7 close parentheses plus open parentheses 7 minus 1 close parentheses equals 20`
+*Number of students who have a bank account: *$2 x + ( x - 1 ) = 2 ( 7 ) + ( 7 - 1 ) = 20$
 
 **[1]**
 
@@ -783,13 +783,13 @@ $1-\frac{7}{20}=\frac{13}{20}$
 ### 11((b)) — 3 marks
 > *First work out the probability that both crayons are red by multiplying along the top branches*
 
-`P open parentheses R comma space R close parentheses space equals 5 over 16 space cross times 7 over 20 space equals 35 over 320`
+$P ( R , R ) = \frac{5}{16} \times \frac{7}{20} = \frac{35}{320}$
 
 **[M1]**
 
 > *Work out the probability that both crayons are not red by multiplying along the bottom branches*
 
-`P open parentheses R apostrophe comma space R apostrophe close parentheses space equals 11 over 16 space cross times 13 over 20 space equals 143 over 320`
+$P ( R ' , R ' ) = \frac{11}{16} \times \frac{13}{20} = \frac{143}{320}$
 
 > *Add the fractions together*
 
@@ -918,7 +918,7 @@ $0.7\times0.7=0.49$
 *But in combined probabilities 'or' usually means 'add'. *
 *So add those products together to get 'win AND lose' OR 'lose AND win' OR 'lose AND lose'.*
 
-`open parentheses 0.7 space cross times space 0.3 close parentheses space plus space open parentheses 0.3 space cross times space 0.7 close parentheses space plus space open parentheses 0.3 space cross times space 0.3 close parentheses space equals space 0.51`
+$( 0.7 \times 0.3 ) + ( 0.3 \times 0.7 ) + ( 0.3 \times 0.3 ) = 0.51$
 
 **[1]**
 
@@ -948,7 +948,7 @@ $1-0.7=0.3$
 *Multiply the probabilities for 'green AND red' and 'red AND green'.*
 *Then add those products together to get 'green AND red' OR 'red AND green' .*
 
-`open parentheses 0.7 space cross times space 0.3 close parentheses space plus space open parentheses 0.3 space cross times space 0.7 close parentheses space equals space 0.42`
+$( 0.7 \times 0.3 ) + ( 0.3 \times 0.7 ) = 0.42$
 
 **[2] **
 **1 mark for multiplying 0.7 and 0.3 together.  **
@@ -989,7 +989,7 @@ $1-0.931=0.069$
 **0.069 *** ***[1]**
 
 **You can also do this by multiplying to get the probabilities for 'faulty AND faulty', 'faulty AND not faulty', and 'not faulty AND faulty', and then adding those together to get the answer. **
-**I.e., **`open parentheses 0.02 space cross times space 0.05 close parentheses space plus space open parentheses 0.02 space cross times space 0.95 close parentheses space plus space open parentheses 0.98 space cross times space 0.05 close parentheses space equals space 0.069`
+**I.e., **$( 0.02 \times 0.05 ) + ( 0.02 \times 0.95 ) + ( 0.98 \times 0.05 ) = 0.069$
 
 ## Q35 — hard — 5 marks · exam-questions
 
@@ -1061,7 +1061,7 @@ $1-0.45=0.551-0.67=0.331-0.35=0.65$
 *'Wins exactly one match' is the same as 'wins on Saturday AND does not win on Sunday' OR 'does not win on Saturday AND wins on Sunday'. *
 *So multiply the probabilities from the corresponding parts of the tree diagram, and then add the products together to get the answer.*
 
-`open parentheses 0.45 space cross times space 0.33 close parentheses space plus space open parentheses 0.55 space cross times space 0.35 close parentheses space equals space 0.341`
+$( 0.45 \times 0.33 ) + ( 0.55 \times 0.35 ) = 0.341$
 
 **  [2] **
 **1 mark for one correct product.  **
@@ -1095,7 +1095,7 @@ $1-\frac{7}{10}=\frac{3}{10}$
 *'At least one yellow' is the same as 'yellow AND yellow' OR 'yellow AND red' OR 'red AND yellow'. *
 *So multiply the probabilities from the corresponding parts of the tree diagram, and then add the products together to get the answer.*
 
-`open parentheses 3 over 10 space cross times space 2 over 9 close parentheses space plus space open parentheses 3 over 10 space cross times space 7 over 9 close parentheses space plus space open parentheses 7 over 10 space cross times space 3 over 9 close parentheses space equals space 6 over 90 space plus space 21 over 90 space plus space 21 over 90 space equals space 48 over 90 space space`
+$( \frac{3}{10} \times \frac{2}{9} ) + ( \frac{3}{10} \times \frac{7}{9} ) + ( \frac{7}{10} \times \frac{3}{9} ) = \frac{6}{90} + \frac{21}{90} + \frac{21}{90} = \frac{48}{90}$
 
 **  [2] **
 **1 mark for one correct product.  **
@@ -1154,7 +1154,7 @@ $41+x+18+35=121$
 
 > *Simplify and solve*
 
-`table attributes columnalign right center left columnspacing 0px end attributes row cell x plus 94 end cell equals 121 row x equals 27 end table`
+$\begin{array}{rcl} x + 94 & = 121 \\ x = 27 \end{array}$
 
 $x=27$* ***[1]**
 
@@ -1212,7 +1212,7 @@ $10+8+7=25$
 $12+8=20$
 
 **[1] **
-**You would also get this mark for writing down  **`straight n open parentheses B close parentheses equals 20`**, or for using '20' in the numerator of a probability fraction.**
+**You would also get this mark for writing down  **$\mathrm{n} ( B ) = 20$**, or for using '20' in the numerator of a probability fraction.**
 
 > *The number chosen is from set *$B$*, which has 20 elements**. *
 *There are 37 elements in the universal set.** *
@@ -1295,13 +1295,13 @@ $x=24$
 
 > *Substitute the found value for *$x$* into the first equation *$x+y=88$*, and solve for *$y$
 
-`table row cell 24 plus y end cell equals 88 row y equals 64 end table`
+$\begin{gathered} 24 + y & = 88 \\ y = 64 \end{gathered}$
 
 **[1]**
 
 > *Substitute the values for *$x$* and *$y$* into the third equation, *$x+y+z=100$* and solve for *$z$
 
-`table attributes columnalign right center left columnspacing 0px end attributes row cell 24 plus 64 plus z end cell equals 100 row z equals 12 end table`
+$\begin{array}{rcl} 24 + 64 + z & = 100 \\ z = 12 \end{array}$
 
 **[1]**
 
@@ -1360,7 +1360,7 @@ $\frac{2}{3}$**[2]**
 
 $\frac{2}{13}$**  [2]**
 
-**1 mark for '2' in the numerator, or for indicating that  **`A intersection B equals open curly brackets 3 comma space 13 close curly brackets`** or  **`straight n open parentheses A intersection B close parentheses equals 2`**.  **
+**1 mark for '2' in the numerator, or for indicating that  **$A \cap B = \{ 3 , 13 \}$** or  **$\mathrm{n} ( A \cap B ) = 2$**.  **
 **1 mark for a fully correct answer.**
 
 ## Q44 — hard — 6 marks · exam-questions
@@ -1382,7 +1382,7 @@ $\frac{2}{13}$**  [2]**
 
 > *Find the fraction of females that speak Spanish. Convert to a percentage so that you can compare with *$\frac{2}{5}$* which is 40%.*
 
-`95 over 248 cross times 100 percent sign equals 38.306... percent sign`
+$\frac{95}{248} \times 100 \% = 38.306... \%$
 
 **Correct numerator ****[1] **
 **Correct fraction ****[1]**
@@ -1458,7 +1458,7 @@ $\frac{5}{9}$** **** [1]**
 
 *Sophie passes on second attempt:*
 
-* *`table row cell straight P open parentheses fail close parentheses cross times straight P open parentheses pass close parentheses end cell equals cell 0.3 cross times 0.9 end cell row blank equals cell 0.27 end cell end table`
+* *$\begin{gathered} \mathrm{P} ( \text{fail} ) \times \mathrm{P} ( \text{pass} ) & = 0.3 \times 0.9 \\ = 0.27 \end{gathered}$
 
 **[M1]**
 
@@ -1527,9 +1527,9 @@ $1-\frac{7}{11}=\frac{4}{11}$
 
 > *These could be picked in either order*
 
-`straight P open parentheses 10 comma space 20 close parentheses space equals 7 over 11 space cross times 4 over 11 space equals 28 over 121`
+$\mathrm{P} ( 10 , 20 ) = \frac{7}{11} \times \frac{4}{11} = \frac{28}{121}$
 
-`straight P open parentheses 20 comma space 10 close parentheses space equals 4 over 11 space cross times 7 over 11 space equals 28 over 121`
+$\mathrm{P} ( 20 , 10 ) = \frac{4}{11} \times \frac{7}{11} = \frac{28}{121}$
 
 **[M1]**
 
@@ -1706,12 +1706,12 @@ $\frac{x}{x+35}=\frac{5}{12}$
 
 > *Multiply both sides by *$x+35$
 
-`x equals 5 over 12 open parentheses x plus 35 close parentheses`
+$x = \frac{5}{12} ( x + 35 )$
 
 > *Multiply both sides by 12 to get rid of the fraction, and expand the bracket*
 
-`12 x equals 5 open parentheses x plus 35 close parentheses
-12 x equals 5 x plus 175`
+$12 x = 5 ( x + 35 )
+12 x = 5 x + 175$
 
 > *Subtract *$5x$* from both sides, and divide by 7 to find *$x$
 
@@ -1778,19 +1778,19 @@ $\frac{4}{15}$ **[1]**
 ### 20((c)) — 2 marks
 > *We are aiming to show that one probability is larger than the other probability*
 
-> *The first probability, *`text P end text open parentheses straight G intersection straight S close parentheses apostrophe`*, means "the probability of not having: a garage and a shed"*
+> *The first probability, *$\text{P} ( \mathrm{G} \cap \mathrm{S} ) '$*, means "the probability of not having: a garage and a shed"*
 
 > *The probability of having a garage and a shed is 8 (the overlap in the centre) out of the total number of houses which is 13+8+11+4=36*
 
-`straight P open parentheses straight G intersection straight S close parentheses equals 8 over 36`
+$\mathrm{P} ( \mathrm{G} \cap \mathrm{S} ) = \frac{8}{36}$
 
 > *We can find the probability of not having a garage and a shed by subtracting this from 1 (finding the inverse)*
 
-`straight P open parentheses straight G intersection straight S close parentheses apostrophe equals 1 minus 8 over 36 equals 28 over 36`
+$\mathrm{P} ( \mathrm{G} \cap \mathrm{S} ) ' = 1 - \frac{8}{36} = \frac{28}{36}$
 
 **[1]**
 
-> *The second probability, *`straight P open parentheses straight G union straight S apostrophe close parentheses`*, means "the probability of having a garage, or not having a shed"*
+> *The second probability, *$\mathrm{P} ( \mathrm{G} \cup \mathrm{S} ' )$*, means "the probability of having a garage, or not having a shed"*
 
 > *The total number of houses which have a garage, or do not have a shed is *
 
@@ -1798,7 +1798,7 @@ $\frac{4}{15}$ **[1]**
 
 > *So this can be written as a probability out of the total number of houses*
 
-`straight P open parentheses straight G union straight S apostrophe close parentheses equals 25 over 36`
+$\mathrm{P} ( \mathrm{G} \cup \mathrm{S} ' ) = \frac{25}{36}$
 
 **[1]**
 
@@ -1819,7 +1819,7 @@ $3x+13=31$
 
 > *Subtract 13 from both sides, then divide both sides by 3 to solve the equation*
 
-`table attributes columnalign right center left columnspacing 0px end attributes row cell 3 x end cell equals 18 row x equals 6 end table`
+$\begin{array}{rcl} 3 x & = 18 \\ x = 6 \end{array}$
 
 **[1]**
 
@@ -1835,7 +1835,7 @@ $\frac{5+2x}{31}$
 
 > *Substitute in the value of *$x=6$* found earlier*
 
-`fraction numerator 5 plus 2 open parentheses 6 close parentheses over denominator 31 end fraction equals fraction numerator 5 plus 12 over denominator 31 end fraction equals 17 over 31`
+$\frac{5 + 2 ( 6 )}{31} = \frac{5 + 12}{31} = \frac{17}{31}$
 
 $\frac{17}{31}$ **[1]**
 
@@ -1851,7 +1851,7 @@ $\frac{5}{11}$ **[1]**
 ### 12() — 3 marks
 > *In combined probabilities 'and' usually means 'multiply'. So multiply 0.25 by 0.6 to get the probability of 'Spinner A red AND Spinner B red'.*
 
-`straight P open parentheses red comma space red close parentheses space equals space 0.25 space cross times space 0.6 space equals space 0.15`
+$\mathrm{P} ( \text{red} , \text{red} ) = 0.25 \times 0.6 = 0.15$
 
 **[1]**
 
@@ -1859,16 +1859,16 @@ $\frac{5}{11}$ **[1]**
 *Then *$0.15\timesN$* is the expected number of times both spinners would land on red. *
 *Set that equal to 24 and solve to find an estimate for **N**.*
 
-`table row cell 0.15 space cross times space N space end cell equals cell space 24 end cell row cell N space end cell equals cell space 24 space divided by space 0.15 end cell row cell N space end cell equals cell space 160 end cell end table`
+$\begin{gathered} 0.15 \times N & = 24 \\ N & = 24 \div 0.15 \\ N & = 160 \end{gathered}$
 
 **[1]**
 
 > *Multiply 0.75 by 0.4 to find the probability of both spinners landing on white. *
 *Then multiply that by 160 to find an estimate for the number of times both spinners landed on white.*
 
-`straight P open parentheses white comma space white close parentheses space equals space 0.75 space cross times space 0.4 space equals space 0.3
+$\mathrm{P} ( \text{white} , \text{white} ) = 0.75 \times 0.4 = 0.3
 
-0.3 space cross times space 160 space equals space 48`
+0.3 \times 160 = 48$
 
 **48 *** ***[1]**
 
@@ -1897,9 +1897,9 @@ $1-0.4=0.61-0.7=0.31-0.2=0.8$
 *That might have been 'stop at A AND not stop at B', or it might have been 'not stop at A AND stop at B'. *
 *Multiply the appropriate probabilities from the tree diagram, to find the probability of each of those things happening.*
 
-`straight P open parentheses stop space straight A comma space not space stop space straight B close parentheses space equals space 0.4 space cross times space 0.7 space equals space 0.28
+$\mathrm{P} ( \text{stop} \mathrm{A} , \text{not} \text{stop} \mathrm{B} ) = 0.4 \times 0.7 = 0.28
 
-straight P open parentheses not space stop space straight A comma space stop space straight B close parentheses space equals space 0.6 space cross times space 0.8 space equals space 0.48`
+ \mathrm{P} ( \text{not} \text{stop} \mathrm{A} , \text{stop} \mathrm{B} ) = 0.6 \times 0.8 = 0.48$
 
 **  [2] **
 **1 mark for one correct product.  **
@@ -1924,13 +1924,13 @@ $\frac{3}{10}$ **correct**** [1]**
 
 > *Find the probability that the first is even and the second is odd.*
 
-`table row cell straight P open parentheses Bag space straight A space even space and space Bag space straight B space odd close parentheses end cell equals cell 3 over 10 cross times 7 over 12 end cell row blank equals cell 7 over 40 end cell end table`
+`| P ( Bag A even and Bag B odd ) | = 3 / 10 x 7 / 12 | | _ = 7 / 40 | |`
 
 **Multiplying a correct pair**** [1]**
 
 > *Find the probability that the first is odd and the second is even.*
 
-`table row cell straight P open parentheses Bag space straight A space odd space and space Bag space straight B space even close parentheses end cell equals cell 7 over 10 cross times 5 over 12 end cell row blank equals cell 7 over 24 end cell end table`
+`| P ( Bag A odd and Bag B even ) | = 7 / 10 x 5 / 12 | | _ = 7 / 24 | |`
 
 **[1]**
 
@@ -1953,7 +1953,7 @@ $\frac{3}{10}\times\frac{5}{12}\timesp=\frac{3}{100}$
 
 > *Simplify the equation and then solve for **p**. Write the probability as a simplified fraction.*
 
-`table row cell 1 over 8 p end cell equals cell 3 over 100 end cell row p equals cell 3 over 100 cross times 8 end cell row p equals cell 6 over 25 end cell end table`
+$\begin{gathered} \frac{1}{8} p & = \frac{3}{100} \\ p = \frac{3}{100} \times 8 \\ p = \frac{6}{25} \end{gathered}$
 
 **[1]**
 
@@ -1985,14 +1985,13 @@ $1-0.1=0.9$
 > *First you need to find the probability that Barney is late. To do this find the probabilities of all possibilities of Barney being late. The possibilities are that he takes the bus and is late or that he walks and is late. *
 *For each possibility multiply the probabilities along the branches.*
 
-`straight P open parentheses bus space and space late close parentheses equals 0.3 cross times 0.2 equals 0.06
-straight P open parentheses walk space and space late close parentheses equals 0.7 cross times 0.1 equals 0.07`
+`P ( bus and late ) = 0.3 x 0.2 = 0.06 P ( walk and late ) = 0.7 x 0.1 = 0.07`
 
 **Finding one of these probabilities****  [1]**
 
 > *Find the probability that Barney is late by adding these probabilities together.*
 
-`straight P open parentheses late close parentheses equals 0.06 plus 0.07 equals 0.13`
+$\mathrm{P} ( \text{late} ) = 0.06 + 0.07 = 0.13$
 
 **[1]**
 
@@ -2014,13 +2013,13 @@ $11-x$* passed the tests in Maths and French only*
 
 > *25 students passed the test in Maths. Use this to form an equation by adding together the number of students who passed one, two or three tests.*
 
-`x plus open parentheses 18 minus x close parentheses plus open parentheses 11 minus x close parentheses plus 3 equals 25`
+$x + ( 18 - x ) + ( 11 - x ) + 3 = 25$
 
 **[1]**
 
 > *Simplify and solve for **x**.*
 
-`table row cell 32 minus x end cell equals 25 row x equals cell 32 minus 25 end cell end table`
+$\begin{gathered} 32 - x & = 25 \\ x = 32 - 25 \end{gathered}$
 
 $x=7$ **[1]**
 
@@ -2082,7 +2081,7 @@ $\frac{14}{25}$ **[1]**
 
 > *Then add those products together to find the total probability (OR rule).*
 
-`open parentheses 5 over 10 cross times 4 over 9 close parentheses space plus space open parentheses 4 over 10 cross times 5 over 9 close parentheses space plus space open parentheses 4 over 10 cross times 3 over 9 close parentheses space equals space 20 over 90 space plus space 20 over 90 space plus space 12 over 90 space equals space 52 over 90`
+$( \frac{5}{10} \times \frac{4}{9} ) + ( \frac{4}{10} \times \frac{5}{9} ) + ( \frac{4}{10} \times \frac{3}{9} ) = \frac{20}{90} + \frac{20}{90} + \frac{12}{90} = \frac{52}{90}$
 
 **[2] **
 **1 mark for any one correct product.  1 mark for all three correct products added together.**
@@ -2095,7 +2094,7 @@ $\frac{52}{90}$**  [1]**
 ## Q62 — very_hard — 5 marks · exam-questions
 
 ### 15() — 2 marks
-> *Because the games are independent, all the probabilities for 'Second game' will be the same as the corresponding probabilities in 'First game'. Also, because probabilities must add up to 1, the probability for 'Magnus loses' must be  *`1 space minus space open parentheses 2 over 9 plus 4 over 9 close parentheses space space equals space 3 over 9`*.*
+> *Because the games are independent, all the probabilities for 'Second game' will be the same as the corresponding probabilities in 'First game'. Also, because probabilities must add up to 1, the probability for 'Magnus loses' must be  *$1 - ( \frac{2}{9} + \frac{4}{9} ) = \frac{3}{9}$*.*
 
 ![eyx2Idrm_question](assets/020-eyx2idrm-question.png)
 
@@ -2112,7 +2111,7 @@ $\frac{52}{90}$**  [1]**
 
 > *Then add those products together to find the total probability (OR rule).*
 
-`open parentheses 2 over 9 cross times 3 over 9 close parentheses space cross times space open parentheses 3 over 9 cross times 2 over 9 close parentheses space cross times space open parentheses 4 over 9 cross times 4 over 9 close parentheses space equals space 6 over 81 space plus space 6 over 81 space plus space 16 over 81 space equals space 28 over 81`
+$( \frac{2}{9} \times \frac{3}{9} ) \times ( \frac{3}{9} \times \frac{2}{9} ) \times ( \frac{4}{9} \times \frac{4}{9} ) = \frac{6}{81} + \frac{6}{81} + \frac{16}{81} = \frac{28}{81}$
 
 **[2] **
 **1 mark for a correct product.  **
@@ -2149,7 +2148,7 @@ $\frac{28}{81}$**  [1]**
 *      Emilie does not win the first race (0.3) AND Emilie wins the second race (0.4)*
 * Multiply those together and then add the products to find the total probability.*
 
-`open parentheses 0.7 cross times 0.6 close parentheses space plus space open parentheses 0.3 cross times 0.4 close parentheses space equals space 0.42 space plus space 0.12 space equals space 0.54`
+$( 0.7 \times 0.6 ) + ( 0.3 \times 0.4 ) = 0.42 + 0.12 = 0.54$
 
 **  [2] **
 **1 mark for one correct product.  **

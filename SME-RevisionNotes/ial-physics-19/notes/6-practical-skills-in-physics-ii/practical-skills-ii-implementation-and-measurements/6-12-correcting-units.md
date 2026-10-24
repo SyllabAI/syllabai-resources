@@ -41,7 +41,7 @@ guided_study: false
   - *L* = length (m)
 - Therefore:
 
-[*ρ*] = `fraction numerator left square bracket R right square bracket left square bracket A right square bracket over denominator left square bracket L right square bracket end fraction` =  $\frac{Ωm^{2}}{m}$ = Ωm
+[*ρ*] = $\frac{[ R ] [ A ]}{[ L ]}$ =  $\frac{Ωm^{2}}{m}$ = Ωm
 
 - Common units for measurements are:
 

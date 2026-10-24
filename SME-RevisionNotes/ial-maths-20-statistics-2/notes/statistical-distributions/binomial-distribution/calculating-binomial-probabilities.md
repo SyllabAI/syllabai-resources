@@ -17,7 +17,7 @@ guided_study: false
 
 ## Calculating Binomial Probabilities
 
-Throughout this section we will use the random variable `X tilde straight B left parenthesis n comma p right parenthesis`. For binomial, the probability of a *X*  taking a non-integer or negative value is always zero. Therefore any values mentioned in this section will be assumed to be non-negative integers.
+Throughout this section we will use the random variable $X \sim \mathrm{B} ( n , p )$. For binomial, the probability of a *X*  taking a non-integer or negative value is always zero. Therefore any values mentioned in this section will be assumed to be non-negative integers.
 
 #### What are the tables for the binomial cumulative distribution function?
 
@@ -29,7 +29,7 @@ Throughout this section we will use the random variable `X tilde straight B left
 - The probabilities are rounded to **4 decimal places**
 - The values of $p$ **only go up to 0.5**
 
-  - You can instead count the number of failures `Y tilde B left parenthesis n comma 1 minus p right parenthesis` if the probability of success is bigger than 0.5
+  - You can instead count the number of failures $Y \sim B ( n , 1 - p )$ if the probability of success is bigger than 0.5
   - Remember $X+Y=n$, which leads to identities:
   
     - $P(X=k)=P(Y=n-k)$
@@ -40,9 +40,9 @@ Throughout this section we will use the random variable `X tilde straight B left
 
 - You can use the formula given in the formulae booklet
 
-  - `P left parenthesis X equals x right parenthesis equals open parentheses table row n row x end table close parentheses space p to the power of x open parentheses 1 minus p close parentheses to the power of n minus x end exponent`
+  - $P ( X = x ) = ( \begin{gathered} n \\ x \end{gathered} ) p^{x ( 1 - p )^{n} - x}$
   
-    - The number of times this can happen is calculated by the **binomial coefficient **`open parentheses table row n row x end table close parentheses equals C presuperscript n subscript x equals fraction numerator n factorial over denominator x factorial left parenthesis n minus x right parenthesis factorial end fraction`
+    - The number of times this can happen is calculated by the **binomial coefficient **$( \begin{gathered} n \\ x \end{gathered} ) = C pre^{n}_{x} = \frac{n factorial}{x \text{factorial} ( n - x ) factorial}$
 - You can also use the tables for the ***Binomial Cumulative Distribution Function*** in the formulae booklet
 
   - $P(X=k)=P(X\leqk)-P(X\leqk-1)$
@@ -51,7 +51,7 @@ Throughout this section we will use the random variable `X tilde straight B left
 
 - If x is small, you could find the probability of each possible value of x and then add them together
 - Otherwise, you will have to use the tables for the ***Binomial Cumulative Distribution Function*** in the formulae booklet
-- If p is bigger than 0.5 then you will have to use the number of failures `Y tilde B left parenthesis n comma 1 minus p right parenthesis`
+- If p is bigger than 0.5 then you will have to use the number of failures $Y \sim B ( n , 1 - p )$
 
   - $P(X\leqx)=P(Y\geqn-x)$
 
@@ -104,7 +104,7 @@ Throughout this section we will use the random variable `X tilde straight B left
   - P(X ≤ 7)
 
 > **Worked Example**
-> The random variable `X tilde straight B left parenthesis 40 comma 0.35 right parenthesis` . Find:
+> The random variable $X \sim \mathrm{B} ( 40 , 0.35 )$ . Find:
 > 
 > (a) $P(X=10)$
 > 

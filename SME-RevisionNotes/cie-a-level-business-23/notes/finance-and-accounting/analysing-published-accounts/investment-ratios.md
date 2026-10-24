@@ -58,15 +58,15 @@ $\mathrm{Dividend} \mathrm{yield}=\frac{\mathrm{Dividend} \mathrm{per} \mathrm{s
 > 
 > **Step 1: Divide the dividend per share by the market price per share**
 > 
-> `equals space $ 0.87 space divided by space $ 17.40
+> $= \$ 0.87 \div \$ 17.40
 > 
-> equals space 0.05`**       ****(1)**
+> = 0.05$**       ****(1)**
 > 
 > ** Step 2: Multiply the outcome by 100 and express as a percentage**
 > 
-> `equals space 0.05 space cross times space 100
+> $= 0.05 \times 100
 > 
-> equals space 5.00 percent sign`**       ****(1)**
+> = 5.00 \%$**       ****(1)**
 
 - Dividend yield is determined by the** level of dividend** issued by a company and the **current market price of shares** in the company
 
@@ -114,9 +114,7 @@ $\mathrm{Dividend} \mathrm{cover}=\frac{\mathrm{Profit} \mathrm{for} \mathrm{the
 > 
 > **Step 1: Divide profit for the year by the annual dividend**
 > 
-> `equals space $ 5.9 space million space divided by space $ 915 comma 500
-> 
-> equals space 6.44`**       ****(1)**
+> `= $ 5.9 million / $ 915 , 500 > > = 6.44`**       ****(1)**
 > 
 > ** Step 2: Express the outcome as a ratio**
 > 
@@ -158,15 +156,15 @@ $\mathrm{Earnings} \mathrm{per} \mathrm{share}=\frac{\mathrm{Profit} \mathrm{for
 > 
 > $\mathrm{Earnings} \mathrm{per} \mathrm{share}=\frac{\mathrm{Profit} \mathrm{for} \mathrm{the} \mathrm{year}}{\mathrm{Number} \mathrm{of} \mathrm{issued} \mathrm{shares}}$
 > 
-> `equals fraction numerator space $ 5.9 space million over denominator 1 comma 052 comma 300 space shares end fraction
+> $= \frac{ \$ 5.9 million}{1 , 052 , 300 shares} 
 > 
-> equals space $ 5.61`**       ****(1)**
+> = \$ 5.61$**       ****(1)**
 > 
 > **Step 2: Divide the market share price by earnings per share**
 > 
-> `equals space fraction numerator $ 13.66 over denominator $ 5.61 end fraction
+> $= \frac{\$ 13.66}{\$ 5.61} 
 > 
-> equals space 2.43`**       ****(1)**
+> = 2.43$**       ****(1)**
 
 ## Methods of improving investor return
 

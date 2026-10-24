@@ -106,15 +106,15 @@ guided_study: false
 > 
 > > *Activities G and H lead to the same event*
 > 
-> `table row cell 12 plus 6 end cell equals 18 row cell 12 plus 4 end cell equals 16 end table`
+> $\begin{gathered} 12 + 6 & = 18 \\ 12 + 4 & = 16 \end{gathered}$
 > 
-> `Maximum space open parentheses 18 comma space 16 close parentheses space equals space 18`
+> $Maximum ( 18 , 16 ) = 18$
 > 
 > > *Finally both activities I and J lead to the sink node*
 > 
-> `table row cell 18 plus 5 end cell equals 23 row cell 14 plus 4 end cell equals 18 end table`
+> $\begin{gathered} 18 + 5 & = 23 \\ 14 + 4 & = 18 \end{gathered}$
 > 
-> `Maximum space open parentheses 23 comma space 18 close parentheses equals 23`
+> $Maximum ( 23 , 18 ) = 23$
 > 
 > > *Complete the early event times on the network*
 > 
@@ -190,21 +190,21 @@ guided_study: false
 > 
 > > *Activities G and a dummy lead back to an event*
 > 
-> `table row cell 18 minus 6 end cell equals 12 row cell 14 minus 0 end cell equals 14 end table`
+> $\begin{gathered} 18 - 6 & = 12 \\ 14 - 0 & = 14 \end{gathered}$
 > 
-> `Minimum space open parentheses 12 comma space 14 close parentheses space equals space 12`
+> $Minimum ( 12 , 14 ) = 12$
 > 
 > > *Activities C and a dummy lead back to an event*
 > 
-> `table attributes columnalign right center left columnspacing 0px end attributes row cell 12 minus 7 end cell equals 5 row cell 12 minus 0 end cell equals 12 end table`
+> $\begin{array}{rcl} 12 - 7 & = 5 \\ 12 - 0 & = 12 \end{array}$
 > 
-> `Minimum space open parentheses 5 comma space 12 close parentheses equals 5`
+> $Minimum ( 5 , 12 ) = 5$
 > 
 > > *Finally the source node*
 > 
-> `table attributes columnalign right center left columnspacing 0px end attributes row cell 5 minus 5 end cell equals 0 row cell 9 minus 4 end cell equals 5 end table`
+> $\begin{array}{rcl} 5 - 5 & = 0 \\ 9 - 4 & = 5 \end{array}$
 > 
-> `Minimum space open parentheses 0 comma space 5 close parentheses equals 0`
+> $Minimum ( 0 , 5 ) = 0$
 > 
 > > *Complete the late event times on the network*
 > 
@@ -234,7 +234,7 @@ guided_study: false
 
 - Formally, you may see this written as
 
-  - The total float, `F open parentheses i comma space j close parentheses`, of activity `open parentheses i comma space j close parentheses`, is defined to be `F open parentheses i comma space j close parentheses equals l subscript j minus e subscript i minus duration open parentheses i comma space j close parentheses`
+  - The total float, $F ( i , j )$, of activity $( i , j )$, is defined to be $F ( i , j ) = l_{j} - e_{i} - \text{duration} ( i , j )$
   
     - where $e_{i}$ is the earliest time for event $i$ and $l_{j}$ is the latest time for event $j$
 

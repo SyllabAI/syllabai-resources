@@ -67,7 +67,7 @@ $n = \frac{I}{Ave}$
 
   - Current *I* is equal to 10 × 10<sup>–3</sup> A
   - The time *t* is equal to 30 minutes = 60 × 30 = 1800 s
-- Charge is therefore equal to `Q equals open parentheses 10 cross times 10 to the power of negative 3 end exponent close parentheses cross times 1800 equals 18 space straight C`
+- Charge is therefore equal to $Q = ( 10 \times 10^{- 3} ) \times 1800 = 18 \mathrm{C}$
 
 ### Q5
 **Final answer:** **The correct answer is ****A**** because:**
@@ -90,7 +90,7 @@ $n = \frac{I}{Ave}$
 - The charge through the resistor is
 
   - $Q=ne$
-  - `Q equals open parentheses 7.5 cross times 10 to the power of 18 close parentheses cross times open parentheses 1.6 cross times 10 to the power of negative 19 end exponent close parentheses`
+  - $Q = ( 7.5 \times 10^{18 ) \times ( 1.6 \times 10^{-19} } )$
   - $Q=1.2$ C
   - This eliminates options **C** and **D**
 - The current through the resistor is
@@ -114,17 +114,17 @@ $n = \frac{I}{Ave}$
 - The total charge *Q* is equal to the sum of charges each with charge *q*
 
   - This can be expressed as $Q=Nq$
-- The current of the positive charges is given by `I to the power of plus equals open parentheses fraction numerator N q over denominator t end fraction close parentheses to the power of plus`
+- The current of the positive charges is given by $I^{+} = ( \frac{N q}{t} )^{+}$
 
   - Where *q* = 3.2 × 10<sup>–19</sup> C
-- The current of the negative charges is given by `I to the power of minus space equals space open parentheses fraction numerator N q over denominator t end fraction close parentheses to the power of minus`
+- The current of the negative charges is given by $I^{-} = ( \frac{N q}{t} )^{-}$
 
   - Where *q* = 1.6 × 10<sup>–19</sup> C and $\frac{N}{t}$= 2.58 × 10<sup>16</sup> s<sup>–1</sup>
 - We can combine these equations to give
 
-  - `I equals space open parentheses fraction numerator N q over denominator t end fraction close parentheses to the power of plus space plus space open parentheses fraction numerator N q over denominator t end fraction close parentheses to the power of minus`
-  - `8.16 cross times 10 to the power of negative 3 end exponent equals open parentheses N over t close parentheses open parentheses 3.2 cross times 10 to the power of negative 19 end exponent close parentheses plus open parentheses 2.58 cross times 10 to the power of 16 close parentheses open parentheses 1.6 cross times 10 to the power of negative 19 end exponent close parentheses`
-  - `N over t equals fraction numerator open parentheses 8.16 cross times 10 to the power of negative 3 end exponent close parentheses minus open parentheses 4.13 cross times 10 to the power of negative 3 end exponent close parentheses over denominator 3.2 cross times 10 to the power of negative 19 end exponent end fraction equals 1.26 cross times 10 to the power of 16 space straight s to the power of negative 1 end exponent`
+  - $I = ( \frac{N q}{t} )^{+} + ( \frac{N q}{t} )^{-}$
+  - $8.16 \times 10^{- 3} = ( \frac{N}{t} ) ( 3.2 \times 10^{- 19} ) + ( 2.58 \times 10^{16 ) ( 1.6 \times 10^{-19} } )$
+  - $\frac{N}{t} = \frac{( 8.16 \times 10^{- 3} ) - ( 4.13 \times 10^{- 3} )}{3.2 \times 10^{- 19} } = 1.26 \times 10^{16 \mathrm{s}^{-1} }$
 - Therefore, the number of positive charges passing a point is 1.26 × 10<sup>16</sup> s<sup>–1</sup>
 
 ### Q8
@@ -133,7 +133,7 @@ $n = \frac{I}{Ave}$
 - Charge is defined by $Q=It$
 - In option C, *I* = 5 × 10<sup>–3</sup> A and *t* = 200 s
 
-  - So, `Q equals open parentheses 5 cross times 10 to the power of negative 3 end exponent close parentheses cross times 200 equals 1 space straight C`
+  - So, $Q = ( 5 \times 10^{- 3} ) \times 200 = 1 \mathrm{C}$
 
 **A **is incorrect because in order to calculate charge, we need current and time, current and potential difference alone aren’t enough
 
@@ -165,8 +165,8 @@ $n = \frac{I}{Ave}$
 
 - To work this out we will need three steps (as illustrated by the diagram)
 
-  - Step 1: Charge through *I*<sub>1</sub>`equals open parentheses 7 cross times 7 close parentheses plus 1 half open parentheses 11 minus 7 close parentheses open parentheses 7 close parentheses equals 63 space straight C`
-  - Step 2: Charge through *I*<sub>2</sub>`equals open parentheses 7 cross times 7 close parentheses minus 1 half open parentheses 7 minus 5 close parentheses open parentheses 7 close parentheses equals 42 space straight C`
+  - Step 1: Charge through *I*<sub>1</sub>$= ( 7 \times 7 ) + 1 \frac{1}{2} ( 11 - 7 ) ( 7 ) = 63 \mathrm{C}$
+  - Step 2: Charge through *I*<sub>2</sub>$= ( 7 \times 7 ) - 1 \frac{1}{2} ( 7 - 5 ) ( 7 ) = 42 \mathrm{C}$
   - Step 3: Difference in charges $=63-42=21C$
 
 ![cie-ial-images436png](assets/004-cie-ial-images436png.png)
@@ -179,7 +179,7 @@ $n = \frac{I}{Ave}$
 - Charge is defined by $Q=It$
 - Current $I=20\times10^{-3}A$
 - Time $t=10s$
-- So, charge `Q equals open parentheses 20 cross times 10 to the power of negative 3 end exponent close parentheses cross times 10 equals 0.2 space straight C`
+- So, charge $Q = ( 20 \times 10^{- 3} ) \times 10 = 0.2 \mathrm{C}$
 - The total charge is equal to $Q=ne$
 
   - Where *n* is the number of electrons and *e* is the charge of one electron
@@ -196,14 +196,14 @@ $n = \frac{I}{Ave}$
 
   - So, energy is equal to $E=VIt$
 - A pulse of current of 15 A lasts for 2.0 ms
-- Energy of each pulse`equals 220 cross times 15 cross times open parentheses 2.0 cross times 10 to the power of negative 3 end exponent close parentheses equals 6.6 space straight J`
+- Energy of each pulse$= 220 \times 15 \times ( 2.0 \times 10^{- 3} ) = 6.6 \mathrm{J}$
 - Average power$=\frac{totalenergy}{time}$
 - Average power$=no.ofpulses\times\frac{energyof1pulse}{time}$
-- Average power`equals open parentheses fraction numerator n o. o f space p u l s e s over denominator t i m e end fraction close parentheses cross times e n e r g y space o f space 1 space p u l s e`
+- Average power$= ( \frac{n o. o f p u l s e s}{t i m e} ) \times e n e r g y o f 1 p u l s e$
 - The fish produces 200 pulses per second
 
   - We can write this as $\frac{no.ofpulses}{time}=200s^{-1}$
-- Average power`equals open parentheses fraction numerator n o. o f space p u l s e s over denominator t i m e end fraction close parentheses cross times e n e r g y space o f space 1 space p u l s e`
+- Average power$= ( \frac{n o. o f p u l s e s}{t i m e} ) \times e n e r g y o f 1 p u l s e$
 
   - Average power$=200\times6.6=1320W$
 - Therefore, the average power output of the fish is 1.3 kW
@@ -227,7 +227,7 @@ $n = \frac{I}{Ave}$
 
   - $I=Anvq$
   - $A=\frac{I}{nvq}$
-  - `A equals fraction numerator 6.0 over denominator open parentheses 8.2 cross times 10 to the power of 28 close parentheses cross times open parentheses 0.09 cross times 10 to the power of negative 3 end exponent close parentheses cross times open parentheses 1.6 cross times 10 to the power of negative 19 end exponent close parentheses end fraction equals 5.1 space cross times 10 to the power of negative 6 end exponent` m<sup>2</sup> (2 s.f)
+  - $A = \frac{6.0}{( 8.2 \times 10^{28 ) \times ( 0.09 \times 10^{-3} } ) \times ( 1.6 \times 10^{- 19} )} = 5.1 \times 10^{- 6}$ m<sup>2</sup> (2 s.f)
   - 10<sup>−6</sup> m<sup>2</sup> = mm<sup>2</sup> therefore
   - *A = *5.1* *mm<sup>2</sup>
 - This is option **C**
@@ -277,7 +277,7 @@ $n = \frac{I}{Ave}$
   - And the charge on an electron is $e=1.6\times10^{-19}C$
 - So, the number of electrons arriving at the trace is
 
-  - `n equals fraction numerator I t over denominator e end fraction equals fraction numerator open parentheses 50 cross times 10 to the power of negative 6 end exponent close parentheses open parentheses 1.0 cross times 10 to the power of negative 4 end exponent close parentheses over denominator open parentheses 1.6 cross times 10 to the power of negative 19 end exponent close parentheses end fraction equals 3.125 cross times 10 to the power of 10`
+  - $n = \frac{I t}{e} = \frac{( 50 \times 10^{- 6} ) ( 1.0 \times 10^{- 4} )}{( 1.6 \times 10^{- 19} )} = 3.125 \times 10^{10}$
 - Therefore, the number of electrons is 3.1 × 10<sup>10</sup>
 
 ### Q17
@@ -304,17 +304,17 @@ $n = \frac{I}{Ave}$
 
   - $v=\frac{I}{nqA}$
 - First, we need to convert the quantities given into SI units.
-- Cross-sectional area `A equals 1.0 space cm squared equals 1.0 cross times open parentheses 10 to the power of negative 2 end exponent close parentheses squared space straight m squared equals 1.0 cross times 10 to the power of negative 4 end exponent space straight m squared`
+- Cross-sectional area $A = 1.0 cm^{2} = 1.0 \times ( 10^{- 2} )^{2} \mathrm{m}^{2} = 1.0 \times 10^{- 4} \mathrm{m}^{2}$
 - Number density $n=2.0\times10^{13}\mathrm{cm}^{-3}$
 - This means, in every 1 cm<sup>3</sup>, there are 2.0 × 10<sup>13</sup> charge carriers
 
-  - `1 space c m cubed equals 1 cross times open parentheses 10 to the power of negative 2 end exponent close parentheses cubed space straight m cubed equals 1 cross times 10 to the power of negative 6 end exponent space straight m cubed`
+  - $1 c m^{3} = 1 \times ( 10^{- 2} )^{3} \mathrm{m}^{3} = 1 \times 10^{- 6} \mathrm{m}^{3}$
 - So, in every 1 m<sup>3</sup>, there are $\frac{2.0\times10^{13}}{1\times10^{-6}}=2.0\times10^{19}m^{-3}$ charge carriers
 - So, number density $n=2.0\times10^{19}m^{-3}$
 - The charge of one electron is $q=1.6\times10^{-19}C$
 
   - Drift velocity $v=\frac{I}{nqA}$
-  - Drift velocity `v equals fraction numerator 56 cross times 10 to the power of negative 6 end exponent over denominator open parentheses 2.0 cross times 10 to the power of 19 close parentheses open parentheses 1.0 cross times 10 to the power of negative 4 end exponent close parentheses open parentheses 1.6 cross times 10 to the power of negative 19 end exponent close parentheses end fraction equals 0.175 space straight m space straight s to the power of negative 1 end exponent`
+  - Drift velocity $v = \frac{56 \times 10^{- 6} }{( 2.0 \times 10^{19 ) ( 1.0 \times 10^{-4} } ) ( 1.6 \times 10^{- 19} )} = 0.175 \mathrm{m} \mathrm{s}^{- 1}$
 - Therefore, the average drift velocity of the charge carriers is 0.18 m s<sup>–1</sup>
 
 ### Q19
@@ -324,13 +324,13 @@ $n = \frac{I}{Ave}$
 - Charge is equal to $Q=It$
 - The units on the LHS
 
-  - `P Q equals open square brackets W close square brackets open square brackets C close square brackets equals open square brackets straight J space straight s to the power of negative 1 end exponent close square brackets open square brackets straight A space straight s close square brackets equals straight J space straight A`
+  - $P Q = [ W ] [ C ] = [ \mathrm{J} \mathrm{s}^{- 1} ] [ \mathrm{A} \mathrm{s} ] = \mathrm{J} \mathrm{A}$
 - The units on the RHS
 
-  - `E I equals open square brackets J close square brackets open square brackets A close square brackets equals straight J space straight A`
+  - $E I = [ J ] [ A ] = \mathrm{J} \mathrm{A}$
 - The units on the LHS match the units on the RHS so option D is correct
 
-| **A **is incorrect because | LHS:  `P equals open square brackets W close square brackets equals straight J space straight s to the power of negative 1 end exponent`<br><br>RHS:  `fraction numerator Q squared R over denominator t end fraction equals open parentheses I t close parentheses squared over t V over I equals V I t equals E equals straight J` | LHS ≠ RHS |
+| **A **is incorrect because | LHS:  $P = [ W ] = \mathrm{J} \mathrm{s}^{- 1}$<br><br>RHS:  $\frac{Q^{2} R}{t} = \frac{( I t )^{2}}{t} \frac{V}{I} = V I t = E = \mathrm{J}$ | LHS ≠ RHS |
 |---|---|---|
-| **B **is incorrect because | LHS: `E R squared equals V I t open parentheses V over I close parentheses squared equals fraction numerator V cubed t over denominator I end fraction`<br><br>RHS:  $V^{2}t$ | LHS ≠ RHS |
+| **B **is incorrect because | LHS: $E R^{2} = V I t ( \frac{V}{I} )^{2} = \frac{V^{3} t}{I}$<br><br>RHS:  $V^{2}t$ | LHS ≠ RHS |
 | **C **is incorrect because | LHS:  $\frac{VI}{P}=\frac{P}{P}=1$<br><br>RHS:  $t$ | LHS ≠ RHS |

@@ -104,15 +104,15 @@ $c=\sqrt{300^{2}+225^{2}}$
 
 $c=375km$
 
-ii) *Determine the time of the flight by substituting the known values of Speed = *`450 space km ⁄ straight h`* and Distance = *$375\mathrm{km}$* into the formula: Time = *$\frac{\mathrm{Distance}}{\mathrm{Speed}}$
+ii) *Determine the time of the flight by substituting the known values of Speed = *$450 \text{km} ⁄ \mathrm{h}$* and Distance = *$375\mathrm{km}$* into the formula: Time = *$\frac{\mathrm{Distance}}{\mathrm{Speed}}$
 
-*Time = *`375 over 450 equals 0.8 3 with dot on top`* hours*
+*Time = *$\frac{375}{450} = 0.8 \dot{3}$* hours*
 
 **[1]**
 
 > *Convert the number of hours into minutes by multiplying the time by *$60$
 
-`0.8 3 with dot on top cross times 60`
+$0.8 \dot{3} \times 60$
 
 $=50$* minutes*
 
@@ -143,7 +143,7 @@ $0.6=\frac{300}{20x}$
 
 > *Multiply both sides by *$20x$
 
-`table row cell 0.6 cross times 20 x end cell equals 300 row cell 12 x end cell equals 300 end table`
+$\begin{gathered} 0.6 \times 20 x & = 300 \\ 12 x & = 300 \end{gathered}$
 
 **Method to solve equation**** [1]**
 
@@ -158,7 +158,7 @@ $d=2\times25=50\mathrm{cm}$
 
 > *Determine the circumference of the circle (leaving your answer in terms of *$π$*)*
 
-`table attributes columnalign right center left columnspacing 0px end attributes row C equals cell straight pi cross times d end cell row C equals cell 50 straight pi space cm end cell end table`
+$\begin{array}{rcl} C = \mathrm{\pi } \times d \\ C = 50 \mathrm{\pi } \text{cm} \end{array}$
 
 **[1]**
 
@@ -286,19 +286,19 @@ $F=192N$* ***[1]**
 ### Q11
 > *Convert the speed from metres per second to kilometres per minute*
 
-`20 cross times 60 equals 1200 space straight m ⁄ min`
+$20 \times 60 = 1200 \mathrm{m} ⁄ \min$
 
-`1200 divided by 1000 equals 1.2 space km ⁄ min`
+$1200 \div 1000 = 1.2 \text{km} ⁄ \min$
 
 > *Use the formula Time = *$\frac{\mathrm{Distance}}{\mathrm{Speed}}$* to determine the time in minutes of the journey*
 
-`T equals 10 divided by 1.2 equals 8.3 with dot on top space mins`
+$T = 10 \div 1.2 = 8. \dot{3} \text{mins}$
 
 **[1]**
 
-> *Convert *`0.3 with dot on top`* minutes to seconds by multiplying by *$60$
+> *Convert *$0. \dot{3}$* minutes to seconds by multiplying by *$60$
 
-`0.3 with dot on top cross times 60 equals 20 space secs`
+$0. \dot{3} \times 60 = 20 \text{secs}$
 
 **[1]**
 
@@ -321,13 +321,13 @@ $\mathrm{speed}=\frac{\mathrm{distance}}{\mathrm{time}}$
 
 > * *
 
-`table attributes columnalign right center left columnspacing 0px end attributes row speed equals cell fraction numerator 315 over denominator 3.5 end fraction end cell end table`
+$\begin{array}{rcl} \text{speed} = \frac{315}{3.5} \end{array}$
 
 > * *
 
 > *Type into a calculator.*
 
-`table row cell 315 divided by 3.5 end cell equals 90 end table`
+$\begin{gathered} 315 \div 3.5 & = 90 \end{gathered}$
 
 > * *
 

@@ -359,12 +359,12 @@ Rearrange the pressure equation:
 - $P=\frac{F}{A}$
 - Multiply both sides by area, *A*
 
-  - *  *`P space cross times space A space equals space fraction numerator F over denominator up diagonal strike A end fraction space cross times up diagonal strike space A end strike`
+  - *  *$P \times A = \frac{F}{ \cancel{A} \times \cancel{ } A}$
   - $F=P\timesA$* ***[1 mark]**
 
 Substitute in the known values to calculate:
 
-- `F space equals space open parentheses 41 space cross times space 10 to the power of 5 close parentheses space cross times space 3.1` **[1 mark]**
+- $F = ( 41 \times 10^{5} ) \times 3.1$ **[1 mark]**
 - *F* = 1.27 × 10<sup>7</sup> (N) **[1 mark]**
 
 **[Total: 4 marks]**
@@ -497,7 +497,7 @@ Rearrange the pressure equation to make force the subject:
 - $P=\frac{F}{A}$
 - Multiplying both sides by area, *A*, gives
 
-  - `P space cross times space A space equals space fraction numerator F over denominator up diagonal strike A end fraction space cross times space up diagonal strike A`
+  - $P \times A = \frac{F}{ \cancel{A} } \times \cancel{A}$
   - $F=P\timesA$ **[1 mark]**
 
 Convert the units of pressure into SI units:
@@ -507,7 +507,7 @@ Convert the units of pressure into SI units:
 
 Substitute values into the equation to calculate:
 
-- `F space equals space open parentheses 270 space cross times 10 cubed close parentheses space cross times space 0.016` **[1 mark]**
+- $F = ( 270 \times 10^{3} ) \times 0.016$ **[1 mark]**
 - *F * = 4320 **[1 mark]**
 
 State the units:
@@ -802,7 +802,7 @@ Rearrange the equation for pressure in liquid to make height the subject:
 - $P=ρgh$
 - Divide both sides by *ρg*
 
-  - `fraction numerator P over denominator rho g end fraction space equals space fraction numerator up diagonal strike rho g end strike h over denominator up diagonal strike rho g end strike end fraction`
+  - $\frac{P}{\\rho g} = \frac{ \cancel{ \\rho g} h}{ \cancel{ \\rho g} }$
   - $h=\frac{P}{ρg}$ **[1 mark]**
 
 Convert the pressure difference caused by water from kPa to Pa
@@ -1058,11 +1058,11 @@ Rearrange the density equation to make volume the subject:
 - $ρ=\frac{m}{V}$
 - Multiply both sides by volume, *V* , to give
 
-  - `rho V space equals space fraction numerator m over denominator down diagonal strike V end fraction down diagonal strike V`
+  - `rho V = (m)/(/ V) / V`
   - $ρV=m$
 - Divide both sides by density, *ρ *, to give
 
-  - `fraction numerator down diagonal strike rho V over denominator down diagonal strike rho end fraction space equals space m over rho`
+  - `(/ rho V)/(/ rho) = m / rho`
   - $V=\frac{m}{ρ}$
 
 Substitute the known values into the equation to calculate:

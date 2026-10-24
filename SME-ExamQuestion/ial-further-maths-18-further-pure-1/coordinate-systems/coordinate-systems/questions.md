@@ -20,7 +20,7 @@ Find the exact area of triangle $ABS$.
 ### 6((a)) — 1 mark — structured — from paper Specimen  · WFM01/01
 The rectangular hyperbola $H$ has equation $xy=25$
 
-Verify that, for $t\neq0$ the point `P blank space open parentheses 5 t comma   5 over t close parentheses` is a general point on $H$.
+Verify that, for $t\neq0$ the point $P ( 5 t ,   \frac{5}{t} )$ is a general point on $H$.
 
 ### 6((b)) — 5 marks — structured — from paper Specimen · WFM01/01
 The point $A$on $H$ has parameter $t=\frac{1}{2}$
@@ -39,7 +39,7 @@ Find the coordinates of $B$.
 ### 9((a)) — 4 marks — structured — from paper June 2024 · WFM01/01
 The rectangular hyperbola $H$ has equation $xy=c^{2}$ where $c$ is a positive constant.
 
-The point `P blank space open parentheses c t comma   c over t close parentheses` , where $t>0$ , lies on $H$
+The point $P ( c t ,   \frac{c}{t} )$ , where $t>0$ , lies on $H$
 
 Use calculus to show that an equation of the normal to $H$ at $P$ is
 
@@ -66,7 +66,7 @@ determine the exact length of $QS$
 ### 3((a)) — 4 marks — structured — from paper January 2024 · WFM01/01
 The hyperbola $H$ has equation $xy=c^{2}$ where $c$ is a positive constant.
 
-The point `P blank space open parentheses c t comma   c over t close parentheses`, where $t>0$, lies on $H$.
+The point $P ( c t ,   \frac{c}{t} )$, where $t>0$, lies on $H$.
 
 The tangent to $H$ at $P$ meets the $x$-axis at the point $A$ and meets the $y$-axis at the point $B$.
 
@@ -86,7 +86,7 @@ determine the value of $c$, giving your answer as a simplified surd.
 ### 7((a)) — 4 marks — structured — from paper January 2024 · WFM01/01
 The parabola $C$ has equation $y^{2}=\frac{4}{3}x$
 
-The point `P blank space space open parentheses 1 third t squared comma   2 over 3 t close parentheses` , where $t\neq0$,lies on $C$.
+The point $P ( 1 \frac{1}{3} t^{2} ,   \frac{2}{3} t )$ , where $t\neq0$,lies on $C$.
 
 Use calculus to show that the normal to $C$ at $P$ has equation
 
@@ -102,7 +102,7 @@ Determine the exact coordinates of $Q$.
 ### 3((a)) — 4 marks — structured — from paper June 2023 · WFM01/01
 The rectangular hyperbola $H$ has Cartesian equation $xy=9$.
 
-The point $P$ with coordinates `open parentheses 3 t comma   3 over t close parentheses` , where $t\neq0$ , lies on $H$.
+The point $P$ with coordinates $( 3 t ,   \frac{3}{t} )$ , where $t\neq0$ , lies on $H$.
 
 Use calculus to determine an equation for the normal to $H$ at the point $P$.
 
@@ -120,7 +120,7 @@ Give your answer in simplest form.
 ### 8((a)) — 1 mark — structured — from paper June 2023 · WFM01/01
 The point $P(2p^{2},4p)$ lies on the parabola with equation $y^{2}=8x$
 
-Show that the point `Q blank space open parentheses 2 over p squared comma   fraction numerator negative 4 over denominator p end fraction close parentheses` , where $p\neq0$, lies on the parabola.
+Show that the point $Q ( \frac{2}{p^{2}} ,   \frac{- 4}{p} )$ , where $p\neq0$, lies on the parabola.
 
 ### 8((b)) — 4 marks — structured — from paper June 2023 · WFM01/01
 Show that the chord $PQ$ passes through the focus of the parabola.
@@ -139,14 +139,14 @@ Determine, in simplest form, the coordinates of Determine $R$
 
 The rectangular hyperbola $H$ has equation $xy=20$
 
-The point `P blank space open parentheses 2 t square root of a comma   fraction numerator 2 square root of a over denominator t end fraction close parentheses`, $t\neq0$, where $a$ is a constant, is a general point on $H$
+The point $P ( 2 t \sqrt{a} ,   \frac{2 \sqrt{a} }{t} )$, $t\neq0$, where $a$ is a constant, is a general point on $H$
 
 State the value of $a$
 
 ### 6((b)) — 4 marks — structured — from paper January 2023 · WFM01/01
 Show that the normal to `equation`$H$ at the point $P$ has equation
 
-`t y minus t cubed x minus 2 square root of 5 open parentheses 1 minus t to the power of 4 close parentheses equals 0`
+$t y - t^{3} x - 2 \sqrt{5} ( 1 - t^{4} ) = 0$
 
 ### 6((c)) — 4 marks — structured — from paper January 2023 · WFM01/01
 The points $A$and $B$ lie on $H$
@@ -302,7 +302,7 @@ $2x^{2}+y^{2}=10x$
 ### 4((a)) — 4 marks — structured — from paper June 2021 · Paper 1
 A rectangular hyperbola $H$ has equation $xy=25$
 
-The point `P blank open parentheses 5 t comma   5 over t close parentheses` , $t\neq0$ , is a general point on $H$.
+The point $P ( 5 t ,   \frac{5}{t} )$ , $t\neq0$ , is a general point on $H$.
 
 Show that the equation of the tangent to $H$ at $P$ is $t^{2}y+x=10t$
 
@@ -330,7 +330,7 @@ The normal to $C$ at $P$ and the normal to $C$ at $Q$ meet at the point $N$
 
 Show that $N$ has coordinates
 
-`open parentheses 2 left parenthesis p squared plus p q plus q squared plus 2 right parenthesis comma space minus 2 p q left parenthesis p plus q right parenthesis close parentheses`
+$( 2 ( p^{2} + p q + q^{2} + 2 ) , - 2 p q ( p + q ) )$
 
 ### 6((d)) — 5 marks — structured — from paper June 2021 · Paper 1
 The line $ON$, where $O$ is the origin, is perpendicular to the line $PQ$.
@@ -363,7 +363,7 @@ Use algebra to determine, in simplest form, the exact coordinates of the points 
 ### 5((a)) — 5 marks — structured — from paper October 2020 · WFM01/01
 The rectangular hyperbola $H$ has equation $xy=64$
 
-`equation`The point `P blank space open parentheses 8 p comma   8 over p close parentheses`, where $p\neq0$ , lies on $H$.
+`equation`The point $P ( 8 p ,   \frac{8}{p} )$, where $p\neq0$ , lies on $H$.
 
 Use calculus to show that the normal to $H$ at $P$ has equation
 

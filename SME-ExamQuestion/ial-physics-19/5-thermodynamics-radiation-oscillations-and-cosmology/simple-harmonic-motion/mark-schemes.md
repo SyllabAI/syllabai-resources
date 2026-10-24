@@ -46,9 +46,9 @@ Calculate the linear velocity of the sound emitted from the loudspeaker, $v$:
 
 - Velocity in SHM:  $v=-Aω\mathrm{sin}ωt$
 
-  - Amplitude:  `A space equals space 1 half d space equals space 1 half space cross times space open parentheses 3.5 space cross times space 10 to the power of negative 3 end exponent close parentheses space equals space 1.75 space cross times space 10 to the power of negative 3 end exponent space straight m`
-  - At max displacement:  `sin open parentheses omega t close parentheses` = 1
-- `v space equals space A cross times omega space equals space open parentheses 1.75 cross times 10 to the power of negative 3 end exponent close parentheses space cross times space 471` **[1 mark]**
+  - Amplitude:  $A = 1 \frac{1}{2} d = 1 \frac{1}{2} \times ( 3.5 \times 10^{- 3} ) = 1.75 \times 10^{- 3} \mathrm{m}$
+  - At max displacement:  $\sin ( \\omega t )$ = 1
+- $v = A \times \\omega = ( 1.75 \times 10^{- 3} ) \times 471$ **[1 mark]**
 - $v=0.824ms^{-1}$** [1 mark]**
 
 ii) The position of the coil when the velocity is a maximum is:
@@ -63,7 +63,7 @@ ii) The position of the coil when the velocity is a maximum is:
 
 ![file-000-85](assets/007-file-000-85.png)
 
-- *When an object is oscillating at** maximum displacement** where **d **= **A **then *`s i n open parentheses omega t close parentheses space equals space 1`
+- *When an object is oscillating at** maximum displacement** where **d **= **A **then *$s i n ( \\omega t ) = 1$
 
 ### 17((c)) — 2 marks
 This effect is observed because:
@@ -158,7 +158,7 @@ Determine the period from the graph:
 Determine length:
 
 - $T=2π\sqrt{\frac{l}{g}}$
-- `l space equals space g open parentheses fraction numerator T over denominator 2 straight pi end fraction close parentheses squared space equals space 9.81 space cross times space open parentheses fraction numerator 2.0 over denominator 2 straight pi end fraction close parentheses squared space` **[1 mark]**
+- $l = g ( \frac{T}{2 \mathrm{\pi } } )^{2} = 9.81 \times ( \frac{2.0}{2 \mathrm{\pi } } )^{2}$ **[1 mark]**
 - $l=0.994m=0.99m$ (2 s.f.) **[1 mark]**
 
 **[Total: 5 marks]**
@@ -305,7 +305,7 @@ Compare the calculated and given values of $k$:
 ## Q8 — medium — 1 marks · multiple-choice-questions
 
 ### 3() — 1 marks
-**Correct answer: D** — `fraction numerator open parentheses 16.5 close parentheses squared space cross times 9.81 over denominator space 4 straight pi squared end fraction`
+**Correct answer: D** — $\frac{( 16.5 )^{2} \times 9.81}{ 4 \mathrm{\pi }^{2}}$
 
 **Final answer:** **The correct answer is ****D ****because:**
 
@@ -315,12 +315,12 @@ Compare the calculated and given values of $k$:
 - Rearrange the equation to make $l$ the subject:
 
   - $\frac{T}{2π}=\sqrt{\frac{l}{g}}$
-  - `open parentheses fraction numerator T over denominator 2 pi end fraction close parentheses squared space equals space l over g`
-  - `open parentheses fraction numerator T over denominator 2 pi end fraction close parentheses squared space cross times space g space equals space l`
+  - $( \frac{T}{2 \pi } )^{2} = \frac{l}{g}$
+  - $( \frac{T}{2 \pi } )^{2} \times g = l$
 - Substitute for $T$ and $g$ into the equation:
 
   - The period is twice the time taken to swing between the two extremes, 8.25 s
-  - `fraction numerator open parentheses 16.5 close parentheses squared space cross times space 9.81 over denominator 4 pi squared end fraction space equals space l`
+  - $\frac{( 16.5 )^{2} \times 9.81}{4 \pi ^{2}} = l$
 - Hence, the correct answer is **D **
 
 ## Q9 — medium — 1 marks · multiple-choice-questions
@@ -355,7 +355,7 @@ Compare the calculated and given values of $k$:
   - $v=--Aωsinωt$
 - At maximum velocity, sin* ωt* = 1 so:
 
-  - `v subscript m a x end subscript space equals space open parentheses minus close parentheses A omega`
+  - $v_{m a x} = ( - ) A \\omega$
 - The angular velocity *ω* is defined by:
 
   - $ω=2πf$
@@ -371,7 +371,7 @@ Compare the calculated and given values of $k$:
 ## Q11 — medium — 1 marks · multiple-choice-questions
 
 ### 10() — 1 marks
-**Correct answer: D** — `2 straight pi cross times square root of open parentheses fraction numerator 0.20 over denominator 3.2 end fraction close parentheses end root`
+**Correct answer: D** — $2 \mathrm{\pi } \times \sqrt{( \frac{0.20}{3.2} )}$
 
 **Final answer:** **The correct answer is ****D**** because:**
 
@@ -432,7 +432,7 @@ $E=\frac{1}{2}kA^{2}$
 
 - Halving the amplitude ($A/2$) reduces the total energy by:
 
-`E apostrophe space equals space 1 half k open parentheses A over 2 close parentheses squared space equals space 1 fourth open parentheses 1 half k A squared close parentheses space equals space E over 4`
+$E ' = 1 \frac{1}{2} k ( \frac{A}{2} )^{2} = 1 \frac{1}{4} ( 1 \frac{1}{2} k A^{2} ) = \frac{E}{4}$
 
 - Period $T$ and total energy $\frac{E}{4}$ correspond to row **C**
 

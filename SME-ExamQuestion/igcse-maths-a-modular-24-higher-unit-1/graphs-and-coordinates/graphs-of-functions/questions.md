@@ -54,7 +54,7 @@ Complete the table of values for $y=\frac{6}{x}$
 ### 18((b)) — 2 marks — command: draw — structured — from paper 2012	November · 1MA0/2H
 ![q4-easy-2-17-graph-of-equation-edexcel-gcse-maths](assets/068-q4-easy-2-17-graph-of-equation-edexcel-gcse-math.png)
 
-On the grid, draw the graph of `y space equals space 6 over x space for space space 0.5 space less-than or slanted equal to space x space less-than or slanted equal to space 6`
+On the grid, draw the graph of $y = \frac{6}{x} \text{for} 0.5 less-than \text{or} \text{slanted} \text{equal} \text{to} x less-than \text{or} \text{slanted} \text{equal} \text{to} 6$
 
 ## Q5 — easy — 4 marks · exam-questions
 
@@ -66,7 +66,7 @@ Complete the table of values for $y=\frac{4}{x}$
 | $y$ |   | $4$ | $2$ |   |   |   |
 
 ### 19((b)) — 2 marks — command: draw — structured — from paper 2014	November · 1MA0/1H
-On the grid, draw the graph of $y=\frac{4}{x}$ for `0.5 space less-than or slanted equal to space x space less-than or slanted equal to space 8`
+On the grid, draw the graph of $y=\frac{4}{x}$ for $0.5 \text{less} - \text{than} or \text{slanted} \text{equal} to x \text{less} - \text{than} or \text{slanted} \text{equal} to 8$
 
 ![q5b-easy-2-17-graph-of-equation-edexcel-gcse-maths](assets/076-q5b-easy-2-17-graph-of-equation-edexcel-gcse-mat.png)
 
@@ -103,14 +103,14 @@ Use the graph to find an estimate for $f(1.5)$
 ## Q8 — easy — 4 marks · exam-questions
 
 ### 15((a)) — 2 marks — command: complete — structured — from paper June 2021 · 4MA1/2H
-Complete the table of values for  `y equals 1 over x open parentheses x squared plus 4 close parentheses`
+Complete the table of values for  $y = \frac{1}{x} ( x^{2} + 4 )$
 
 | $x$ | 0.25 | 0.5 | 1 | 2 | 4 | 8 |
 |---|---|---|---|---|---|---|
 | $y$ | 16.25 |   |   |   |   | 8.5 |
 
 ### 15((b)) — 2 marks — command: draw — structured — from paper June 2021 · 4MA1/2H
-On the grid, draw the graph of  `y equals 1 over x open parentheses x squared plus 4 close parentheses` for `0.25 less-than or slanted equal to x less-than or slanted equal to 8`
+On the grid, draw the graph of  $y = \frac{1}{x} ( x^{2} + 4 )$ for `0.25 less-than or slanted equal to x less-than or slanted equal to 8`
 
 ![q15b-4ma1-2h-qp-june21-paper2-igcse-maths](assets/080-q15b-4ma1-2h-qp-june21-paper2-igcse-maths.png)
 
@@ -147,7 +147,7 @@ Write down the coordinates of
 [1]
 
 ### 16((b)) — 2 marks — command: show — structured — from paper Specimen 2016 · 4MA1/2H
-Sketch the graph of $y=\mathrm{tan}x$ for `0 degree space less-than or slanted equal to space x space less-than or slanted equal to space 360 degree`
+Sketch the graph of $y=\mathrm{tan}x$ for $0 ^{\circ} \text{less} - \text{than} or \text{slanted} \text{equal} to x \text{less} - \text{than} or \text{slanted} \text{equal} to 360 ^{\circ}$
 
 Show the coordinates of any points of intersection with the coordinate axes.
 
@@ -244,7 +244,7 @@ Use your graph to find estimates of the solutions to the equation $x^{2}-x-6=---
 ## Q18 — medium — 2 marks · exam-questions
 
 ### 19((a)) — 2 marks — command: sketch — structured — from paper 2015	Spec2 · 1MA1/2H
-Sketch the graph of `y space equals space cos space x to the power of degree space end exponent space for space 0 space less-than or slanted equal to space x space less-than or slanted equal to space 360`
+Sketch the graph of $y = \text{cos} x^{ ^{\circ} } \text{for} 0 \text{less} - \text{than} or \text{slanted} \text{equal} to x \text{less} - \text{than} or \text{slanted} \text{equal} to 360$
 
 ![q8-medium-2-17-graph-of-equation-edexcel-gcse-maths](assets/041-q8-medium-2-17-graph-of-equation-edexcel-gcse-ma.png)
 
@@ -306,7 +306,7 @@ Complete the table of values for $y=x^{2}--5x+6$
 | $y$ | $6$ |   | $0$ | $0$ | 2 |   |
 
 ### 8((b)) — 2 marks — command: draw — structured — from paper Jan 2019 · 4MA1/1H
-On the grid, draw the graph of `y space equals space x squared space – space 5 x space plus space 6 space for space 0 space less-than or slanted equal to space x space less-than or slanted equal to space 5`
+On the grid, draw the graph of $y = x ^{2} - 5 x + 6 \text{for} 0 \text{less} - \text{than} or \text{slanted} \text{equal} to x \text{less} - \text{than} or \text{slanted} \text{equal} to 5$
 
 ![q6b-paper1h-jan2019-edexcel-igcse-maths](assets/044-q6b-paper1h-jan2019-edexcel-igcse-maths.png)
 
@@ -336,13 +336,13 @@ Give your solutions correct to one decimal place.
 ## Q24 — medium — 2 marks · exam-questions
 
 ### 18((b)) — 2 marks — command: find — structured — from paper Jan 2020 · 4MA1/1HR
-The diagram shows the graph of $y=f(x)$ for `negative 4 space less-than or slanted equal to space x space less-than or slanted equal to space 12`
+The diagram shows the graph of $y=f(x)$ for $- 4 \text{less} - \text{than} or \text{slanted} \text{equal} to x \text{less} - \text{than} or \text{slanted} \text{equal} to 12$
 
 ![jc9uPwkM_q18-4ma1-1hr-qp-jan20-paper1-igcse-maths](assets/043-jc9upwkm-q18-4ma1-1hr-qp-jan20-paper1-igcse-math.png)
 
 Note: Point P in the graph is from the previous question. It is not required for this question.
 
-The equation $f(x)=k$ has exactly two different solutions for `negative 4 space less-than or slanted equal to space x space less-than or slanted equal to space 12`
+The equation $f(x)=k$ has exactly two different solutions for $- 4 \text{less} - \text{than} or \text{slanted} \text{equal} to x \text{less} - \text{than} or \text{slanted} \text{equal} to 12$
 
 Use the graph to find the two possible values of $k$.
 
@@ -457,7 +457,7 @@ ii) $x^{2}-4x-6=0$
 ### 19((b)) — 3 marks — command: find — structured — from paper 2016	June · 1MA0/1H
 Use the graph to find estimates for the values of $x$ that satisfy the simultaneous equations
 
-`table row cell y space end cell equals cell space x squared space long dash space 4 x space long dash space 2 end cell row blank blank blank row cell x space plus space y space end cell equals 6 end table`
+$\begin{gathered} y & = x^{2} \text{long} \text{dash} 4 x \text{long} \text{dash} 2 \\ \\ x + y & = 6 \end{gathered}$
 
 ## Q32 — hard — 8 marks · exam-questions
 
@@ -513,7 +513,7 @@ Complete the table of values for $y=\frac{1}{2}x^{3}--2x+3$
 | $y$ | $--4.5$ |   |   | $3$ |   | $3$ |   |
 
 ### 22((b)) — 2 marks — command: draw — structured — from paper Nov 2020 · 4MA1/2HR
-On the grid, draw the graph of `y space equals space 1 half space x cubed space – space 2 x space plus space 3 space for space – 3 space less-than or slanted equal to space x space less-than or slanted equal to space 3`
+On the grid, draw the graph of $y = 1 \frac{1}{2} x^{3} - 2 x + 3 \text{for} - 3 less-than \text{or} \text{slanted} \text{equal} \text{to} x less-than \text{or} \text{slanted} \text{equal} \text{to} 3$
 
 ![q18b-paper2hr-nov2020-edexcel-igcse-maths](assets/020-q18b-paper2hr-nov2020-edexcel-igcse-maths.png)
 
@@ -562,7 +562,7 @@ Describe fully the transformation that maps curve $C$ onto curve $T$.
 ## Q39 — hard — 6 marks · exam-questions
 
 ### 18((a)) — 3 marks — command: write — structured — from paper Nov 2018 · J560/05
-Write $x^{2}+4x-16$ in the form `open parentheses x space plus space a close parentheses squared space minus space b`.
+Write $x^{2}+4x-16$ in the form $( x + a )^{2} - b$.
 
 ### 18((b)) — 3 marks — command: sketch — structured — from paper Nov 2018 · J560/05
 Sketch the graph of $y=x^{2}+4x-16$ , showing clearly the coordinates of any turning points.
@@ -572,7 +572,7 @@ Sketch the graph of $y=x^{2}+4x-16$ , showing clearly the coordinates of any tur
 ## Q40 — hard — 7 marks · exam-questions
 
 ### 19((a)) — 3 marks — command: write — structured — from paper Nov 2020 · J560/05
-Write  $x^{2}-10x+22$  in the form  `open parentheses x minus a close parentheses squared minus b`.
+Write  $x^{2}-10x+22$  in the form  $( x - a )^{2} - b$.
 
 ### 19((b)) — 4 marks — command: show — structured — from paper Nov 2020 · J560/05
 Sketch the graph of $y=x^{2}-10x+22$ .
@@ -595,7 +595,7 @@ $x=............................\mathrm{or}\,x=............................$
 ## Q42 — hard — 8 marks · exam-questions
 
 ### 19((a)) — 3 marks — command: show — structured — from paper June 2017 · J560/05
-Sketch the graph of `begin mathsize 16px style y equals open parentheses x minus 2 close parentheses squared minus 3 end style`. Show the coordinates of any turning points.
+Sketch the graph of $y = ( x - 2 )^{2} - 3$. Show the coordinates of any turning points.
 
 ![q19a-paper5-june2017-ocr-gcse-maths](assets/016-q19a-paper5-june2017-ocr-gcse-maths.png)
 
@@ -635,7 +635,7 @@ Write down the coordinates of
 (ii)   the point $Q$
 
 ### 16((b)) — 2 marks — command: show — structured — from paper Specimen paper · 4MA1/2H
-Sketch the graph of $y=\mathrm{tan}x$for `0 degree space less-than or slanted equal to space x space less-than or slanted equal to space 360 degree`
+Sketch the graph of $y=\mathrm{tan}x$for $0 ^{\circ} \text{less} - \text{than} or \text{slanted} \text{equal} to x \text{less} - \text{than} or \text{slanted} \text{equal} to 360 ^{\circ}$
 
 Show the coordinates of any points of intersection with the coordinate axes.
 

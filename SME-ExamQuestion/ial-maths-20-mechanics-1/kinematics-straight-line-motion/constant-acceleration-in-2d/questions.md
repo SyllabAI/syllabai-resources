@@ -70,9 +70,9 @@ Starting from rest a toy boat experiencing a constant acceleration of $(0.5i+0.2
 ## Q10 — medium — 5 marks · exam-questions
 
 ### 1() — 3 marks — structured
-A particle experiences a constant acceleration of $(3pi+2j)ms^{-2}$ where $p$ is a constant. In 7 seconds the particle travels `open parentheses negative 91 bold i plus 7 bold j close parentheses space m`.
+A particle experiences a constant acceleration of $(3pi+2j)ms^{-2}$ where $p$ is a constant. In 7 seconds the particle travels $( - 91 i + 7 j ) m$.
 
-Given that the particle’s velocity after the 7 seconds is `open parentheses 4 p bold i plus 8 bold j close parentheses space m space s to the power of negative 1 end exponent` find the value of the constant $p$.
+Given that the particle’s velocity after the 7 seconds is $( 4 p i + 8 j ) m s^{- 1}$ find the value of the constant $p$.
 
 ### 2() — 2 marks — structured
 Find the magnitude of the acceleration during this motion.
@@ -82,19 +82,19 @@ Find the magnitude of the acceleration during this motion.
 ### 1() — 5 marks — structured
 Two stones are slid across a large icy pond.  Both are released from rest at the origin.
 
-The first stone experiences a constant acceleration of `open parentheses 3 bold i minus bold j close parentheses space m space s to the power of negative 2 end exponent`. The second stone experiences a constant acceleration of `open parentheses negative 2 bold i plus bold j close parentheses space m space s to the power of negative 2 end exponent`.
+The first stone experiences a constant acceleration of $( 3 i - j ) m s^{- 2}$. The second stone experiences a constant acceleration of $( - 2 i + j ) m s^{- 2}$.
 
 (i) Find the displacement of both stones after 8 seconds.
 
 (ii) Find the distance between the two stones after 8 seconds.
 
 ### 2() — 2 marks — structured
-If the second stone had been released from the point with coordinates `open parentheses 10 comma space 30 close parentheses` rather than the origin, what would its position vector (rather than displacement from starting point) be at time $t$?
+If the second stone had been released from the point with coordinates $( 10 , 30 )$ rather than the origin, what would its position vector (rather than displacement from starting point) be at time $t$?
 
 ## Q12 — medium — 5 marks · exam-questions
 
 ### 1() — 2 marks — structured
-A horse running across a large area of open countryside starts to gallop with constant acceleration `open parentheses 0.25 bold i plus 0.45 bold j close parentheses space m space s to the power of negative 2 end exponent`.  After 16 seconds of galloping the horse has velocity `open parentheses 12 bold i plus 6 bold j close parentheses space m space s to the power of negative 1 end exponent`.
+A horse running across a large area of open countryside starts to gallop with constant acceleration $( 0.25 i + 0.45 j ) m s^{- 2}$.  After 16 seconds of galloping the horse has velocity $( 12 i + 6 j ) m s^{- 1}$.
 
 Find the displacement of the horse from its starting position at the end of the 16 second gallop.
 
@@ -104,14 +104,14 @@ Find the average velocity of the horse during the gallop.
 ## Q13 — medium — 4 marks · exam-questions
 
 ### 1() — 4 marks — structured
-It takes four minutes for a particle to travel `open parentheses 0.96 bold i plus 1.2 bold j close parentheses space k m` with constant acceleration. The velocity of the particle at the end of the four minutes is triple the velocity of the particle at the start.  Find the initial and final velocities, giving your answers in metres per second.
+It takes four minutes for a particle to travel $( 0.96 i + 1.2 j ) k m$ with constant acceleration. The velocity of the particle at the end of the four minutes is triple the velocity of the particle at the start.  Find the initial and final velocities, giving your answers in metres per second.
 
 ## Q14 — medium — 5 marks · exam-questions
 
 ### 1() — 2 marks — structured
-A particle moves under constant acceleration. In a 9 second time period the particle has initial velocity `open square brackets open parentheses 2 q minus 1 close parentheses bold i plus q bold j close square brackets space m space s to the power of negative 1 end exponent`and final velocity `open square brackets p bold i plus open parentheses 1 minus 8 p close parentheses bold j close square brackets space m space s to the power of negative 1 end exponent`, where $p$ and $q$ are constants. The displacement of the particle in these 9 seconds is `open parentheses negative 22.5 bold i minus 81 bold j close parentheses space m`.
+A particle moves under constant acceleration. In a 9 second time period the particle has initial velocity $[ ( 2 q - 1 ) i + q j ] m s^{- 1}$and final velocity $[ p i + ( 1 - 8 p ) j ] m s^{- 1}$, where $p$ and $q$ are constants. The displacement of the particle in these 9 seconds is $( - 22.5 i - 81 j ) m$.
 
-Show that `left parenthesis negative 22.5 bold i minus 81 bold j right parenthesis equals 4.5 left square bracket left parenthesis p plus 2 q minus 1 right parenthesis bold i plus left parenthesis 1 minus 8 p plus q right parenthesis bold j right square bracket`.
+Show that $( - 22.5 i - 81 j ) = 4.5 [ ( p + 2 q - 1 ) i + ( 1 - 8 p + q ) j ]$.
 
 ### 2() — 3 marks — structured
 Show that the two simultaneous equations
@@ -123,7 +123,7 @@ must be satisfied and hence find the values of $p$ and $q$.
 ## Q15 — medium — 6 marks · exam-questions
 
 ### 1() — 2 marks — structured
-A train leaves station $O$ from rest with constant acceleration `a space equals space open parentheses 0.3 bold i plus 0.7 bold j close parentheses space m space s to the power of negative 2 end exponent`. 80 seconds later it passes through (but does not stop at) station $A$ at which point its acceleration changes to `a space equals space open parentheses 0.5 bold i plus 0.3 bold j close parentheses space m space s to the power of negative 2 end exponent`. 180 seconds later the train passes through station $B$.
+A train leaves station $O$ from rest with constant acceleration $a = ( 0.3 i + 0.7 j ) m s^{- 2}$. 80 seconds later it passes through (but does not stop at) station $A$ at which point its acceleration changes to $a = ( 0.5 i + 0.3 j ) m s^{- 2}$. 180 seconds later the train passes through station $B$.
 
 Find the displacement of the train from station $O$ when it passes through station $A$.
 
@@ -136,7 +136,7 @@ Find the displacement of the train between stations $A$ and $B$.
 ## Q16 — hard — 5 marks · exam-questions
 
 ### 1() — 4 marks — structured
-Starting from rest a toy boat sails across a pond such that for the first 10 seconds of its motion it has constant acceleration `open parentheses 0.1 bold i plus 0.3 bold j close parentheses space m space s to the power of negative 2 end exponent`. It then sails with a constant velocity until it reaches the other side of the pond, 6 seconds later.
+Starting from rest a toy boat sails across a pond such that for the first 10 seconds of its motion it has constant acceleration $( 0.1 i + 0.3 j ) m s^{- 2}$. It then sails with a constant velocity until it reaches the other side of the pond, 6 seconds later.
 
 Find the distance between the toy boat’s starting position and its position once it has reached the other side of the pond. Give your answer to three significant figures.
 
@@ -156,7 +156,7 @@ Find the velocity of the particle at the start of these 8 seconds.
 ## Q18 — hard — 7 marks · exam-questions
 
 ### 1() — 5 marks — structured
-Two stones are slid across a large icy pond. The first stone is released from rest at the origin with constant acceleration `open parentheses 2 bold i plus 3 bold j close parentheses space m space s to the power of negative 2 end exponent`. The second stone is released from rest from the position with coordinates `open parentheses 50 comma space minus 100 close parentheses` with constant acceleration `open parentheses bold i plus 5 bold j close parentheses space m space s to the power of negative 2 end exponent`.
+Two stones are slid across a large icy pond. The first stone is released from rest at the origin with constant acceleration $( 2 i + 3 j ) m s^{- 2}$. The second stone is released from rest from the position with coordinates $( 50 , - 100 )$ with constant acceleration $( i + 5 j ) m s^{- 2}$.
 
 (i) Find the position vectors of both stones after 5 seconds.
 
@@ -168,7 +168,7 @@ Show that the two stones collide after 10 seconds.
 ## Q19 — hard — 6 marks · exam-questions
 
 ### 1() — 2 marks — structured
-A horse running across a large area of open countryside starts to gallop with constant acceleration `open parentheses 0.6 bold i plus 0.4 bold j close parentheses space m space s to the power of negative 2 end exponent`. After 12 seconds of galloping the horse has velocity `open parentheses 8 bold i plus 10 bold j close parentheses space m space s to the power of negative 1 end exponent`.
+A horse running across a large area of open countryside starts to gallop with constant acceleration $( 0.6 i + 0.4 j ) m s^{- 2}$. After 12 seconds of galloping the horse has velocity $( 8 i + 10 j ) m s^{- 1}$.
 
 Find the displacement of the horse at the end of its 12 second gallop.
 
@@ -183,7 +183,7 @@ It takes 6 minutes for a particle to travel $(5.94i+13.86j)km$ with constant acc
 ## Q21 — hard — 5 marks · exam-questions
 
 ### 1() — 3 marks — structured
-A particle moves under constant acceleration `left square bracket left parenthesis 2 q plus 1 right parenthesis bold i plus left parenthesis q minus 1 right parenthesis bold j right square bracket space m space s to the power of negative 2 end exponent`. In a 6 second time period, the particle has initial velocity `left square bracket 5.2 bold i plus left parenthesis 1 minus 2 p right parenthesis bold j right square bracket space m space s to the power of negative 1 end exponent` and final velocity `left square bracket left parenthesis 27 p plus 4 right parenthesis bold i plus 5.2 bold j right square bracket space m space s to the power of negative 1 end exponent` where $p$ and $q$ are constants.
+A particle moves under constant acceleration $[ ( 2 q + 1 ) i + ( q - 1 ) j ] m s^{ - } 2$. In a 6 second time period, the particle has initial velocity $[ 5.2 i + ( 1 - 2 p ) j ] m s^{ - } 1$ and final velocity $[ ( 27 p + 4 ) i + 5.2 j ] m s^{ - } 1$ where $p$ and $q$ are constants.
 
 Show that $27p-12q=7.2\mathrm{and}2p-6q=-10.2$
 
@@ -249,7 +249,7 @@ It takes three minutes for a particle to travel $(1.62i+2.16j)km$ with constant 
 ## Q28 — very_hard — 6 marks · exam-questions
 
 ### 1() — 6 marks — structured
-A particle passes a fixed point $O$ at time $t=0$ seconds. $T$ seconds later the particle has velocity `left square bracket left parenthesis 2 T plus 4 right parenthesis bold i plus left parenthesis 1 minus T right parenthesis bold j right square bracket space m space s to the power of negative 1 end exponent`. The acceleration of the particle is constant throughout this motion at `left square bracket left parenthesis T minus 3 right parenthesis bold i plus left parenthesis T minus 9 right parenthesis bold j right square bracket space m space s to the power of negative 2 end exponent`. The displacement of the particle from $O$ $T$ seconds after it passes $O$ is $(4Ti+Tj)m$. Show that the initial velocity is $(-10i+8j)ms^{-1}$.
+A particle passes a fixed point $O$ at time $t=0$ seconds. $T$ seconds later the particle has velocity $[ ( 2 T + 4 ) i + ( 1 - T ) j ] m s^{ - } 1$. The acceleration of the particle is constant throughout this motion at $[ ( T - 3 ) i + ( T - 9 ) j ] m s^{ - } 2$. The displacement of the particle from $O$ $T$ seconds after it passes $O$ is $(4Ti+Tj)m$. Show that the initial velocity is $(-10i+8j)ms^{-1}$.
 
 ## Q29 — very_hard — 7 marks · exam-questions
 

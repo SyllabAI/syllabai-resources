@@ -69,6 +69,6 @@ guided_study: true
 > 
 > > *Angle *$x$*and angle **CAB** form a straight lie*
 > 
-> `table row cell x plus 47 end cell equals 180 row x equals cell 180 minus 47 end cell end table`
+> $\begin{gathered} x + 47 & = 180 \\ x = 180 - 47 \end{gathered}$
 > 
 > $x=133$

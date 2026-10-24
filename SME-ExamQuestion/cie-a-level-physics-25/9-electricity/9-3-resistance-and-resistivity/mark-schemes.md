@@ -95,7 +95,7 @@ Total p. d. = 13.4 V
 - The resistance of a wire is given by $R=\frac{ρL}{A}$
 - When a potential difference is applied across the metal rod and the case, current *I* will flow through the liquid as shown
 - The current will flow over a length *L* and through a cross-sectional area *A*
-- In this case, the cross-sectional area is the surface area of the cylinder `open parentheses 2 πrh close parentheses`, where *h* is equal to the depth *y*
+- In this case, the cross-sectional area is the surface area of the cylinder $( 2 πrh )$, where *h* is equal to the depth *y*
 - So, the cross-sectional area *A* is proportional to *y*
 
   - Therefore, *R* is inversely proportional to *y*
@@ -106,18 +106,18 @@ Total p. d. = 13.4 V
 **Final answer:** **The correct answer is ****B ****because:**
 
 - The LDR and the 5 kΩ resistor form a potential divider
-- The potential divider equation is given by `V subscript e m f end subscript cross times open parentheses fraction numerator R subscript 1 over denominator R subscript 1 plus R subscript 2 end fraction close parentheses` , where:
+- The potential divider equation is given by $V_{e m f} \times ( \frac{R_{1} }{R_{1} + R_{2} } )$ , where:
 
   - *V *<sub>*emf*</sub> is the e. m .f. of the supply = 1.5 V
   - *R*<sub>*1*</sub> is the resistance across the LDR = *R*
   - *R*<sub>*2*</sub> is the resistance of the fixed resistor = 5 kΩ
-- So, the p. d. across the LDR is equal to `fraction numerator 1.5 space R over denominator open parentheses R plus 5000 close parentheses end fraction`
+- So, the p. d. across the LDR is equal to $\frac{1.5 R}{( R + 5000 )}$
 - When *R* is 1000 kΩ, the p. d. is very close to 1.5 V:
 
-  - `V equals 1.5 cross times open parentheses fraction numerator open parentheses 1 cross times 10 to the power of 6 close parentheses over denominator open parentheses 1 cross times 10 to the power of 6 close parentheses plus 5000 end fraction close parentheses equals 1.492 almost equal to 1.5 space straight V`
+  - $V = 1.5 \times ( \frac{( 1 \times 10^{6} )}{( 1 \times 10^{6} ) + 5000} ) = 1.492 \approx 1.5 \mathrm{V}$
 - When *R* is 1 kΩ, then the p. d. is about $\frac{1.5}{6}$  :
 
-  - `V equals 1.5 cross times open parentheses fraction numerator 1000 over denominator 1000 plus 5000 end fraction close parentheses equals 0.25 space straight V`
+  - $V = 1.5 \times ( \frac{1000}{1000 + 5000} ) = 0.25 \mathrm{V}$
 - So, the graph must show a peak value of very close to 1.5 and a minimum value that is more than zero
 
 **A **is incorrect because this graph shows the minimum to be only slightly less than 1.5 V
@@ -144,10 +144,10 @@ Total p. d. = 13.4 V
 - The value of *R* is $R=\frac{V}{I}=\frac{15.0}{2.0}=7.5$Ω
 - From the equation , the formula to work out the uncertainty in resistance is
 
-  - `open parentheses fraction numerator increment R over denominator R end fraction close parentheses equals open parentheses fraction numerator increment V over denominator V end fraction close parentheses plus open parentheses fraction numerator increment I over denominator I end fraction close parentheses`
+  - $( \frac{\Delta R}{R} ) = ( \frac{\Delta V}{V} ) + ( \frac{\Delta I}{I} )$
 - To work out uncertainty in data which is multiplied or divided we add the uncertainties
 
-  - `open parentheses fraction numerator increment R over denominator R end fraction close parentheses equals open parentheses fraction numerator 0.5 over denominator 15.0 end fraction close parentheses plus open parentheses fraction numerator 0.2 over denominator 2.0 end fraction close parentheses equals 2 over 15`
+  - $( \frac{\Delta R}{R} ) = ( \frac{0.5}{15.0} ) + ( \frac{0.2}{2.0} ) = \frac{2}{15}$
 - Then, to find the uncertainty in *R* we multiply by the calculated value of *R*
 
   - $\DeltaR=\frac{2}{15}\times7.5=$± 1 Ω
@@ -196,15 +196,15 @@ Total p. d. = 13.4 V
 **Final answer:** **The correct answer is ****B**** because:**
 
 - The resistance of a wire is given by $R=\frac{ρL}{A}$
-- Cross-sectional area of a wire is equal to `A equals straight pi straight r squared equals straight pi open parentheses straight d over 2 close parentheses squared equals straight pi open parentheses straight d over 2 close parentheses squared equals straight pi straight d squared over 4`
+- Cross-sectional area of a wire is equal to `A = pi r ^2 = pi ( d / 2 ) ^2 = pi ( d / 2 ) ^2 = pi d ^2 / 4`
 - When the pipe expands
 
-  - The new length is given by `begin mathsize 16px style L apostrophe equals open parentheses 1 plus 0.04 close parentheses L equals 1.04 L end style`
-  - The new cross-sectional area is given by `A apostrophe equals open parentheses 1 minus 0.01 close parentheses squared A equals open parentheses 0.99 close parentheses squared A`  (squared because A is proportional to d<sup>2</sup>)
+  - The new length is given by $L ' = ( 1 + 0.04 ) L = 1.04 L$
+  - The new cross-sectional area is given by $A ' = ( 1 - 0.01 )^{2} A = ( 0.99 )^{2} A$  (squared because A is proportional to d<sup>2</sup>)
   - The resistivity ρ doesn't change since the material stays the same
 - So, the new resistance is equal to
 
-  - `R apostrophe equals fraction numerator rho L apostrophe over denominator A apostrophe end fraction equals fraction numerator 1.04 rho L over denominator open parentheses 0.99 close parentheses squared A end fraction equals fraction numerator 1.04 over denominator open parentheses 0.99 close parentheses squared end fraction R equals fraction numerator 1.04 over denominator open parentheses 0.99 close parentheses squared end fraction cross times 2.5 equals 2.653 space straight k`Ω
+  - $R ' = \frac{\\rho L '}{A '} = \frac{1.04 \\rho L}{( 0.99 )^{2} A} = \frac{1.04}{( 0.99 )^{2}} R = \frac{1.04}{( 0.99 )^{2}} \times 2.5 = 2.653 \mathrm{k}$Ω
 - Therefore, the new resistance is 2.65 kΩ
 
 ### Q14
@@ -214,18 +214,18 @@ Total p. d. = 13.4 V
 - From Kirchhoff's Second Law the p. d. is the same across P and Q
 - So, ratio $\frac{I_{P}}{I_{Q}}=\frac{R_{Q}}{R_{P}}$
 - The resistance of a wire is given by $R=\frac{ρL}{A}$
-- Cross-sectional area is equal to `A equals πr squared equals straight pi open parentheses straight d over 2 close parentheses squared equals πd squared over 4`
+- Cross-sectional area is equal to `A = πr ^2 = pi ( d / 2 ) ^2 = πd ^2 / 4`
 
-  - So, `R equals fraction numerator rho L over denominator A end fraction equals rho L open parentheses 4 over πd squared close parentheses`
+  - So, `R = (rho L)/(A) = rho L ( 4 / πd ^2 )`
 - For wire Q, the length is *L,* and the diameter is 3*d*
 - So, the resistance of wire Q is equal to
 
-  - `R subscript Q equals rho L open parentheses fraction numerator 4 over denominator straight pi open parentheses 3 straight d close parentheses squared end fraction close parentheses equals 4 over 9 open parentheses fraction numerator rho L over denominator πd squared end fraction close parentheses`
+  - $R_{Q} = \\rho L ( \frac{4}{ \mathrm{\pi } ( 3 \mathrm{d} )^{2}} ) = \frac{4}{9} ( \frac{\\rho L}{πd^{2}} )$
 - For wire P, the length is 2*L,* and the diameter is *d*
 - So, the resistance of wire P is equal to
 
-  - `R subscript P equals rho open parentheses 2 L close parentheses open parentheses 4 over πd squared close parentheses equals 8 open parentheses fraction numerator rho L over denominator πd squared end fraction close parentheses`
-- Ratio  `I subscript P over I subscript Q equals R subscript Q over R subscript P equals 4 over 9 open parentheses fraction numerator rho L over denominator πd squared end fraction close parentheses divided by 8 open parentheses fraction numerator rho L over denominator πd squared end fraction close parentheses equals 4 over 9 cross times 1 over 8 equals 1 over 18`
+  - `R _ P = rho ( 2 L ) ( 4 / πd ^2 ) = 8 ( (rho L)/(πd ^2) )`
+- Ratio  `I _ P / I _ Q = R _ Q / R _ P = 4 / 9 ( (rho L)/(πd ^2) ) / 8 ( (rho L)/(πd ^2) ) = 4 / 9 x 1 / 8 = 1 / 18`
 
 ### Q15
 **Final answer:** **The correct answer is ****B because:**
@@ -288,22 +288,22 @@ This value  ≠ 0.9 Ω
 **Final answer:** **The correct answer is ****C ****because:**
 
 - The resistance of a wire is given by $R=\frac{ρL}{A}$
-- Cross-sectional area is equal to `A equals straight pi straight r squared equals straight pi open parentheses straight d over 2 close parentheses squared equals straight pi straight d squared over 4`
+- Cross-sectional area is equal to `A = pi r ^2 = pi ( d / 2 ) ^2 = pi d ^2 / 4`
 
-  - So, `R equals fraction numerator rho L over denominator A end fraction equals rho L open parentheses 4 over straight pi straight d squared close parentheses`
+  - So, `R = (rho L)/(A) = rho L ( 4 / pi d ^2 )`
 - The two wires have the same resistance and same length
 
-  - Resistance in wire X`equals fraction numerator 4 open parentheses 1.7 cross times 10 to the power of negative 8 end exponent close parentheses L over denominator straight pi open parentheses 0.315 close parentheses squared end fraction`
-  - Resistance in wire Y`equals fraction numerator 4 open parentheses 5.6 cross times 10 to the power of negative 8 end exponent close parentheses L over denominator straight pi straight d squared end fraction`
+  - Resistance in wire X$= \frac{4 ( 1.7 \times 10^{- 8} ) L}{ \mathrm{\pi } ( 0.315 )^{2}}$
+  - Resistance in wire Y$= \frac{4 ( 5.6 \times 10^{- 8} ) L}{ \mathrm{\pi } \mathrm{d}^{2}}$
 - Resistance in wire X = Resistance in wire Y
 
-  - `fraction numerator 4 open parentheses 1.7 cross times 10 to the power of negative 8 end exponent close parentheses L over denominator straight pi open parentheses 0.315 close parentheses squared end fraction equals fraction numerator 4 open parentheses 5.6 cross times 10 to the power of negative 8 end exponent close parentheses L over denominator straight pi straight d squared end fraction`
-- Cancelling the common terms `open parentheses fraction numerator 4 L over denominator straight pi end fraction close parentheses`  , we have
+  - $\frac{4 ( 1.7 \times 10^{- 8} ) L}{ \mathrm{\pi } ( 0.315 )^{2}} = \frac{4 ( 5.6 \times 10^{- 8} ) L}{ \mathrm{\pi } \mathrm{d}^{2}}$
+- Cancelling the common terms $( \frac{4 L}{ \mathrm{\pi } } )$  , we have
 
-  - `fraction numerator 1.7 cross times 10 to the power of negative 8 end exponent over denominator open parentheses 0.315 close parentheses squared end fraction equals fraction numerator 5.6 cross times 10 to the power of negative 8 end exponent over denominator d squared end fraction`
+  - $\frac{1.7 \times 10^{- 8} }{( 0.315 )^{2}} = \frac{5.6 \times 10^{- 8} }{d^{2}}$
 - Rearranging for *d*<sup>*2*</sup>
 
-  - `d to the power of space 2 end exponent equals fraction numerator open parentheses 5.6 cross times 10 to the power of negative 8 end exponent close parentheses open parentheses 0.315 close parentheses squared over denominator 1.7 cross times 10 to the power of negative 8 end exponent end fraction equals 0.327`
+  - $d^{ 2} = \frac{( 5.6 \times 10^{- 8} ) ( 0.315 )^{2}}{1.7 \times 10^{- 8} } = 0.327$
 - Therefore, the diameter of wire Y is
 
   - $d=\sqrt{0.327}=0.57\mathrm{mm}$
@@ -326,8 +326,7 @@ This value  ≠ 0.9 Ω
   - $R_{T}=\frac{V}{I}=\frac{2}{0.27}=\frac{200}{27}=7.4$ Ω
 - So, the ratio is given by :
 
-  - `R subscript T over R subscript M equals open parentheses 200 over 27 close parentheses divided by open parentheses 50 over 17 close parentheses equals open parentheses 5 over 2 close parentheses
-  `
+  - `R _ T / R _ M = ( 200 / 27 ) / ( 50 / 17 ) = ( 5 / 2 )`
 
 ![cie-ial-images491png](assets/019-cie-ial-images491png.png)
 
@@ -341,13 +340,13 @@ This value  ≠ 0.9 Ω
   - $V=AL=A'L'$
 - When the wire expands
 
-  - The new length is given by `L apostrophe equals open parentheses 1 plus 0.05 close parentheses L equals 1.05 L`
-  - The new cross-sectional area is given by `V equals A L equals open parentheses 1.05 L close parentheses open parentheses fraction numerator A over denominator 1.05 end fraction close parentheses`
+  - The new length is given by $L ' = ( 1 + 0.05 ) L = 1.05 L$
+  - The new cross-sectional area is given by $V = A L = ( 1.05 L ) ( \frac{A}{1.05} )$
   - So, $A^{'}=\frac{A}{1.05}$
   - The resistivity *ρ* doesn't change since the material stays the same
 - So, the new resistance is equal to
 
-  - `R apostrophe equals fraction numerator rho L apostrophe over denominator A apostrophe end fraction equals rho open parentheses 1.05 close parentheses open parentheses fraction numerator 1.05 over denominator A end fraction close parentheses equals open parentheses 1.05 close parentheses squared open parentheses fraction numerator rho L over denominator A end fraction close parentheses equals 1.10 R`
+  - $R ' = \frac{\\rho L '}{A '} = \\rho ( 1.05 ) ( \frac{1.05}{A} ) = ( 1.05 )^{2} ( \frac{\\rho L}{A} ) = 1.10 R$
 - Therefore, the percentage change in *R* is equal to
 
   - (1.10 – 1.00) × 100 % = 10 %
@@ -371,12 +370,12 @@ This value  ≠ 0.9 Ω
 - The dimensions of the block are equal to
 
   - *l* = 15 × 10<sup>–3</sup> m, *w* = 30 × 10<sup>–3</sup> m, *L* = 15 × 10<sup>–3</sup> m
-- So, resistivity `rho equals fraction numerator V l w over denominator I L end fraction equals fraction numerator 10 cross times open parentheses 15 cross times 10 to the power of negative 3 end exponent close parentheses cross times open parentheses 30 cross times 10 to the power of negative 3 end exponent close parentheses over denominator open parentheses 30 cross times 10 to the power of negative 3 end exponent close parentheses cross times open parentheses 15 cross times 10 to the power of negative 3 end exponent close parentheses end fraction equals 10` Ωm
+- So, resistivity $\\rho = \frac{V l w}{I L} = \frac{10 \times ( 15 \times 10^{- 3} ) \times ( 30 \times 10^{- 3} )}{( 30 \times 10^{- 3} ) \times ( 15 \times 10^{- 3} )} = 10$ Ωm
 - Next, we must consider the uncertainty in resistivity *ρ*
 
-  - `fraction numerator increment rho over denominator rho end fraction equals open parentheses fraction numerator increment V over denominator V end fraction close parentheses plus open parentheses fraction numerator increment l over denominator l end fraction close parentheses plus open parentheses fraction numerator increment w over denominator w end fraction close parentheses plus open parentheses fraction numerator increment I over denominator I end fraction close parentheses plus open parentheses fraction numerator increment L over denominator L end fraction close parentheses`
-  - `increment rho equals open square brackets open parentheses fraction numerator increment v over denominator V end fraction close parentheses plus open parentheses fraction numerator increment l over denominator l end fraction close parentheses plus open parentheses fraction numerator increment w over denominator w end fraction close parentheses plus open parentheses fraction numerator increment I over denominator I end fraction close parentheses plus open parentheses fraction numerator increment L over denominator L end fraction close parentheses close square brackets cross times rho`
-  - `increment rho equals open square brackets open parentheses fraction numerator 0.1 over denominator 10 end fraction close parentheses plus open parentheses fraction numerator 0.2 over denominator 15 end fraction close parentheses plus open parentheses fraction numerator 0.2 over denominator 30 end fraction close parentheses plus open parentheses fraction numerator 0.1 over denominator 30 end fraction close parentheses plus open parentheses fraction numerator 0.2 over denominator 15 end fraction close parentheses close square brackets cross times 10`
+  - $\frac{\Delta \\rho }{\\rho } = ( \frac{\Delta V}{V} ) + ( \frac{\Delta l}{l} ) + ( \frac{\Delta w}{w} ) + ( \frac{\Delta I}{I} ) + ( \frac{\Delta L}{L} )$
+  - $\Delta \\rho = [ ( \frac{\Delta v}{V} ) + ( \frac{\Delta l}{l} ) + ( \frac{\Delta w}{w} ) + ( \frac{\Delta I}{I} ) + ( \frac{\Delta L}{L} ) ] \times \\rho$
+  - $\Delta \\rho = [ ( \frac{0.1}{10} ) + ( \frac{0.2}{15} ) + ( \frac{0.2}{30} ) + ( \frac{0.1}{30} ) + ( \frac{0.2}{15} ) ] \times 10$
   - Δ*ρ* = 0.467 = 0.5 Ωm
 - Therefore, resistivity is equal to *ρ* = 10.0 ± 0.5 Ωm
 
@@ -442,7 +441,7 @@ The *I-V* graphs are for the following components:
   - $\frac{m_{A}}{m_{c}}=\frac{d_{A}V_{A}}{d_{c}V_{c}}=\frac{d_{A}A_{A}L}{d_{c}A_{c}L}=\frac{d_{A}A_{A}}{d_{c}A_{c}}$
 - Since $d_{c}=3d_{A}$  (the density of copper is three times that of aluminium)
 
-  - `m subscript A over m subscript c equals fraction numerator d subscript A space A subscript A over denominator 3 d subscript A A subscript c end fraction equals 1 third open parentheses A subscript A over A subscript c close parentheses`
+  - `m _ A / m _ c = (d _ A A _ A)/(3 d _ A A _ c) = 1 third ( A _ A / A _ c )`
 - The resistance of a wire is given by $R=\frac{ρL}{A}$
 - Since the resistance and length of the rods are the same, $\frac{ρ}{A}$ is constant, so:
 
@@ -452,7 +451,7 @@ The *I-V* graphs are for the following components:
 - Since *R* and* L* are identical for both rods, the ratio of their cross-sectional areas must match the ratio of their resistivities
 
   - $\frac{A_{A}}{A_{c}}=\frac{ρ_{A}}{ρ_{C}}=\frac{2}{1}$
-- Therefore, the ratio `fraction numerator m a s s space o f space a l u m i n i u m over denominator m a s s space o f space c o p p e r end fraction equals m subscript A over m subscript c equals 1 third open parentheses A subscript A over A subscript c close parentheses equals 1 third cross times 2 over 1 equals 2 over 3`
+- Therefore, the ratio `(m a s s o f a l u m i n i u m)/(m a s s o f c o p p e r) = m _ A / m _ c = 1 third ( A _ A / A _ c ) = 1 third x 2 / 1 = 2 / 3`
 
 ### Q26
 **Final answer:** **The correct answer is ****B**** because:**
@@ -460,7 +459,7 @@ The *I-V* graphs are for the following components:
 - Ohm's Law states that $V=IR$, or $R=\frac{V}{I}$
 - This means the slope of the *I -V* graph is equal to $\frac{1}{R}$
 - Therefore, as current *I* increases, *R* increases gradually as the slope decreases
-- Electrical power is equal to `P equals V I equals open parentheses I R close parentheses I equals I squared R` , or $R=\frac{P}{I^{2}}$
+- Electrical power is equal to $P = V I = ( I R ) I = I^{2} R$ , or $R=\frac{P}{I^{2}}$
 - The slope of a *P – I*<sup>*2*</sup> graph is equal to *R*
 - Therefore, from the graph of *P – I*<sup>*2*</sup>, as *R* increases the slope of *P – I*<sup>*2*</sup> increases as *I* increases
 
@@ -474,8 +473,8 @@ The *I-V* graphs are for the following components:
 - When the length of wire* L* is at a maximum distance from the zero potential reference, resistance *R* will also be at a maximum and hence, potential difference *V* too (since $RαLαV$ )
 
   - So, as distance *x* increases, the length *L* decreases, and so, *R* and *V* also decrease
-- Now, the diameter of the wire is falling linearly as *x* increases, but the area of cross-section A is not falling linearly as `A equals straight pi open parentheses straight d over 2 close parentheses squared`   where *d* is the diameter
-- Since resistance *R* is inversely proportional to cross-sectional area *A *`open parentheses R space alpha space 1 over A close parentheses` it is also inversely proportional to *d*<sup>*2*</sup> (when *d* is small, *R* is large)
+- Now, the diameter of the wire is falling linearly as *x* increases, but the area of cross-section A is not falling linearly as `A = pi ( d / 2 ) ^2`   where *d* is the diameter
+- Since resistance *R* is inversely proportional to cross-sectional area *A *$( R \\alpha \frac{1}{A} )$ it is also inversely proportional to *d*<sup>*2*</sup> (when *d* is small, *R* is large)
 - Therefore, there is a greater percentage fall (in resistance, and hence, potential difference) per unit length at the narrow end than at the wide end, meaning the decrease is not linear, but depends on *d*<sup>*2*</sup>
 - $\frac{V}{x}$This means that potential difference per unit length (this is represented by the gradient of the graphs shown which equal to  ) is less at the wide end than at the narrow end (the gradient at the highest value of *x* should be greater than the gradient at *x* = 0, and the gradient keeps on increasing from *x* = 0 as *x* increases)
 
@@ -497,7 +496,7 @@ The *I-V* graphs are for the following components:
   - Graph Q: *V* = 4.0 V
 - So, for graph Q, *V* is twice that of graph P ; therefore the power dissipated in Q is double that in P
 
-  - Since `begin mathsize 14px style open parentheses 2 V close parentheses I equals 2 P end style`
+  - Since $( 2 V ) I = 2 P$
 
 **A **is incorrect because the *I-V* characteristics of a filament lamp would should a decreasing gradient, unlike the graph Q, which has an increasing gradient. This is because as *V* increases, the temperature of the lamp increases, causing the resistance to increase
 
@@ -533,7 +532,7 @@ The *I-V* graphs are for the following components:
   - So, the volume of the cube is $V=L^{3}$
   - The cross-sectional area in contact with the plates is equal to $A=L^{2}$
 - Resistance is therefore equal to $R=\frac{ρL}{L^{2}}=\frac{ρ}{L}$
-- But since $V=L^{3}$  , length *L* is equal to `L equals cube root of V equals V to the power of 1 third end exponent`
+- But since $V=L^{3}$  , length *L* is equal to $L = \sqrt[3]{V} = V^{1 \frac{1}{3}}$
 
   - So, resistance  $R=\frac{ρ}{V^{\frac{1}{3}}}$
 
@@ -541,7 +540,7 @@ The *I-V* graphs are for the following components:
 
 - Unit of resistivity = Ωm
 - Unit of volume *V* = m<sup>3</sup>
-- Unit of    `rho over V to the power of 1 third end exponent equals open square brackets straight capital omega straight m close square brackets open square brackets straight m cubed close square brackets to the power of negative 1 third end exponent equals open square brackets straight capital omega straight m close square brackets space straight m to the power of negative 1 end exponent equals straight capital omega`
+- Unit of    `rho / V ^ 1 third = [ capital omega m ] [ m ^3 ] ^ - 1 third = [ capital omega m ] m ^ - 1 = capital omega`
 
 ### Q31
 **Final answer:** **The correct answer is ****D ****because:**
@@ -603,17 +602,16 @@ The *I-V* graphs are for the following components:
 **Final answer:** **The correct answer is ****A ****because:**
 
 - The resistance of a wire is given by $R=\frac{ρL}{A}$
-- Cross-sectional area is equal to `A equals straight pi straight r squared equals straight pi open parentheses straight d over 2 close parentheses squared equals straight pi straight d squared over 4`
+- Cross-sectional area is equal to `A = pi r ^2 = pi ( d / 2 ) ^2 = pi d ^2 / 4`
 
-  - So, `R equals fraction numerator rho L over denominator A end fraction equals rho L open parentheses 4 over straight pi straight d squared close parentheses`
+  - So, `R = (rho L)/(A) = rho L ( 4 / pi d ^2 )`
 - For wire X, the length of the wire is *L,* and the diameter is *D*
 
-  - `R subscript X equals rho L open parentheses 4 over straight pi straight D squared close parentheses equals 4 open parentheses fraction numerator rho L over denominator straight pi straight D squared end fraction close parentheses`
+  - `R _ X = rho L ( 4 / pi D ^2 ) = 4 ( (rho L)/( pi D ^2) )`
 - For wire Y, the length of the wire is 2*L,* and the diameter is 2*D*
 
-  - `R subscript Y equals rho open parentheses 2 L close parentheses open parentheses fraction numerator 4 over denominator straight pi open parentheses 2 straight D close parentheses squared end fraction close parentheses equals 2 open parentheses fraction numerator rho L over denominator straight pi straight D squared end fraction close parentheses
-  `
-- So, ratio  `R subscript X over R subscript Y equals 4 open parentheses fraction numerator rho L over denominator straight pi straight D squared end fraction close parentheses divided by 2 open parentheses fraction numerator rho L over denominator straight pi straight D squared end fraction close parentheses equals bold 2 over bold 1`
+  - $R_{Y} = \\rho ( 2 L ) ( \frac{4}{ \mathrm{\pi } ( 2 \mathrm{D} )^{2}} ) = 2 ( \frac{\\rho L}{ \mathrm{\pi } \mathrm{D}^{2}} )$
+- So, ratio  `R _ X / R _ Y = 4 ( (rho L)/( pi D ^2) ) / 2 ( (rho L)/( pi D ^2) ) = 2 / 1`
 
 ### Q36
 **Final answer:** **The correct answer is ****C ****because:**
@@ -621,7 +619,7 @@ The *I-V* graphs are for the following components:
 - Electrical power is given by $P=VI$
 - Using Ohm's Law we can combine these to get
 
-  - `begin mathsize 14px style P equals open parentheses I R close parentheses I equals I to the power of space 2 end exponent R end style`
+  - $P = ( I R ) I = I^{ 2} R$
 - We can see from the graph, when *l* is 0.6 m:
 
   - The resistance of X is 20 Ω
@@ -632,7 +630,7 @@ The *I-V* graphs are for the following components:
   - The ratio of power in X to power in Y is $\frac{P_{X}}{P_{Y}}=\frac{20I^{2}}{10I^{2}}=2$
 - Therefore, when equal lengths of X and Y are connected in series to a battery, the power in X is double the power in Y
 
-**A **is incorrect because from `R equals open parentheses rho over A close parentheses l`  , we can see the gradient of the line is $\frac{ρ}{A}$ , since the resistivity is the same for both wires, the cross-sectional area in Y will be double that of X
+**A **is incorrect because from $R = ( \frac{rho}{A} ) l$  , we can see the gradient of the line is $\frac{ρ}{A}$ , since the resistivity is the same for both wires, the cross-sectional area in Y will be double that of X
 
 **B **is incorrect because the wires are made from the same material; hence, they both have the same resistivity
 
@@ -647,7 +645,7 @@ The *I-V* graphs are for the following components:
 - Ohm's Law is given by $V=IR$
 - Substituting *I* for $I=\frac{V}{R}$
 
-  - `P equals V open parentheses V over R close parentheses equals V to the power of space 2 end exponent over R`
+  - $P = V ( \frac{V}{R} ) = V^{ } \frac{2}{R}$
 - Power delivered by X = Power delivered by Y
 
   - $P_{X}=P_{Y}$
@@ -659,7 +657,7 @@ The *I-V* graphs are for the following components:
 
 - Resistance *R* of a wire is equal to $R=\frac{ρL}{A}$
 
-  - `A equals fraction numerator rho L over denominator R end fraction equals fraction numerator open parentheses 1.0 cross times 10 to the power of negative 6 end exponent close parentheses open parentheses 4.0 close parentheses over denominator 31 end fraction equals 1.29 cross times 10 to the power of negative 7 end exponent space straight m squared`
+  - $A = \frac{\\rho L}{R} = \frac{( 1.0 \times 10^{- 6} ) ( 4.0 )}{31} = 1.29 \times 10^{- 7} \mathrm{m}^{2}$
 - Cross-sectional area is equal to $A=\mathrm{πr}^{2}$  , so, $r=\sqrt{\frac{A}{π}}$
 
   - So, the radius is $=\sqrt{\frac{1.29\times10^{-7}}{π}}=2.0\times10^{-4}m$
@@ -668,11 +666,11 @@ The *I-V* graphs are for the following components:
 **Final answer:** **The correct answer is ****C ****because:**
 
 - Resistance *R* of a wire is equal to $R=\frac{ρL}{A}$
-- Cross-sectional area is equal to `A equals straight pi straight r squared equals straight pi open parentheses straight d over 2 close parentheses squared equals straight pi straight d squared over 4`
-- Cross-sectional area of one strand is equal to `equals fraction numerator straight pi open parentheses 0.51 cross times 10 to the power of negative 3 end exponent close parentheses squared over denominator 4 end fraction equals 2.0 cross times 10 to the power of negative 7 end exponent space straight m squared`
-- Total cross-section of cable `equals 12 cross times open parentheses 2.0 cross times 10 to the power of negative 7 end exponent close parentheses equals 2.45 cross times 10 to the power of negative 6 end exponent space straight m squared`
+- Cross-sectional area is equal to `A = pi r ^2 = pi ( d / 2 ) ^2 = pi d ^2 / 4`
+- Cross-sectional area of one strand is equal to $= \frac{ \mathrm{\pi } ( 0.51 \times 10^{- 3} )^{2}}{4} = 2.0 \times 10^{- 7} \mathrm{m}^{2}$
+- Total cross-section of cable $= 12 \times ( 2.0 \times 10^{- 7} ) = 2.45 \times 10^{- 6} \mathrm{m}^{2}$
 
-  - `R equals fraction numerator rho L over denominator A end fraction equals fraction numerator open parentheses 1.7 cross times 10 to the power of negative 8 end exponent close parentheses open parentheses 2000 close parentheses over denominator open parentheses 2.45 cross times 10 to the power of negative 6 end exponent close parentheses end fraction equals 13.87` Ω
+  - $R = \frac{\\rho L}{A} = \frac{( 1.7 \times 10^{- 8} ) ( 2000 )}{( 2.45 \times 10^{- 6} )} = 13.87$ Ω
 - Therefore, the resistance of the cable is **14 Ω*** *
 
 ### Q40
@@ -709,11 +707,11 @@ The *I-V* graphs are for the following components:
 
 - From the equation given, the formula to work out the uncertainty in resistance is
 
-  - `open parentheses fraction numerator increment R over denominator R end fraction close parentheses equals open parentheses fraction numerator increment V over denominator V end fraction close parentheses plus open parentheses fraction numerator increment I over denominator I end fraction close parentheses`
+  - $( \frac{\Delta R}{R} ) = ( \frac{\Delta V}{V} ) + ( \frac{\Delta I}{I} )$
 - To work out uncertainty in data which is multiplied or divided we add the percentage uncertainties
 
-  - `percent sign space u n c e r t a i n i t y equals fraction numerator u n c e r t a i n i t y over denominator v a l u e end fraction cross times 100`
-  - `open parentheses fraction numerator increment R over denominator R end fraction cross times 100 close parentheses equals open parentheses fraction numerator 0.05 over denominator 1.00 end fraction cross times 100 close parentheses plus open parentheses fraction numerator 0.01 over denominator 0.50 end fraction cross times 100 close parentheses equals 5.0 space percent sign plus 2.0 space percent sign equals 7.0 space percent sign`
+  - $\% u n c e r t a i n i t y = \frac{u n c e r t a i n i t y}{v a l u e} \times 100$
+  - $( \frac{\Delta R}{R} \times 100 ) = ( \frac{0.05}{1.00} \times 100 ) + ( \frac{0.01}{0.50} \times 100 ) = 5.0 \% + 2.0 \% = 7.0 \%$
 
 ### Q43
 **Final answer:** **The correct answer is ****D ****because:**
@@ -800,7 +798,7 @@ The *I-V* graphs are for the following components:
 **Final answer:** **The correct answer is ****D ****because:**
 
 - Resistance R of a wire is equal to $R=\frac{ρL}{A}$
-- Cross-sectional area is equal to `A equals straight pi straight r squared equals straight pi open parentheses straight d over 2 close parentheses squared equals straight pi straight d squared over 4`
+- Cross-sectional area is equal to `A = pi r ^2 = pi ( d / 2 ) ^2 = pi d ^2 / 4`
 - The resistance *R* is inversely proportional to the area, and therefore, *R* is also inversely proportional to the diameter squared $R\propto\frac{1}{d^{2}}$
 
   - So, when the wire is stretched, the diameter is reduced by half, which causes the cross-sectional area to be reduced by 4
@@ -812,12 +810,12 @@ The *I-V* graphs are for the following components:
 
 - The stretched wire has ¼ the cross-sectional area of the unstretched wire, for its volume to remain constant, its length must have been increased by a factor of 4
 
-  - The volume of the stretched wire is `V equals open parentheses A over 4 close parentheses open parentheses 4 L close parentheses`
+  - The volume of the stretched wire is $V = ( \frac{A}{4} ) ( 4 L )$
 
 - So, the length of the stretched wire is 4*L*
 
   - Resistance *R* of unstretched wire $=\frac{ρL}{A}=0.2$ Ω
-  - Resistance *R* of stretched wire `equals fraction numerator rho open parentheses 4 L close parentheses over denominator 1 fourth A end fraction equals 16 open parentheses fraction numerator rho L over denominator A end fraction close parentheses equals 16 open parentheses 0.2 close parentheses equals 3.2` Ω
+  - Resistance *R* of stretched wire $= \frac{\\rho ( 4 L )}{1 \frac{1}{4} A} = 16 ( \frac{\\rho L}{A} ) = 16 ( 0.2 ) = 3.2$ Ω
 
 ![cie-ial-images499png](assets/049-cie-ial-images499png.png)
 
@@ -829,10 +827,10 @@ The *I-V* graphs are for the following components:
 - This is because its volume must stay the same, i.e.:
 
   - If the volume of the unstretched wire is $V=AL$
-  - Then, the volume of the stretched wire is `V equals open parentheses A over 2 close parentheses open parentheses 2 L close parentheses`
+  - Then, the volume of the stretched wire is $V = ( \frac{A}{2} ) ( 2 L )$
 - So, in the above formula, you are multiplying L by 2 and dividing A by 2, this means the resistance goes up by a factor of 4
 
-  - `begin mathsize 14px style fraction numerator rho open parentheses 2 L close parentheses over denominator begin display style 1 half end style A end fraction equals 4 open parentheses fraction numerator rho L over denominator A end fraction close parentheses equals 4 R end style`
+  - $\frac{\\rho ( 2 L )}{1 \frac{1}{2} A} = 4 ( \frac{\\rho L}{A} ) = 4 R$
 - Therefore, the relationship between extension and resistance is a square law
 
   - $Rαx^{2}$
@@ -857,10 +855,10 @@ The *I-V* graphs are for the following components:
   - In equation form, this can be expressed as $V=\frac{E}{Q}$
 - The SI base units of potential difference are
 
-  - `V equals E over Q equals fraction numerator 1 half m v squared over denominator I t end fraction equals open square brackets kg space straight m to the power of 2 space end exponent space straight s to the power of negative 2 end exponent close square brackets open square brackets straight A space straight s close square brackets to the power of negative 1 end exponent equals kg space straight m squared straight s to the power of negative 3 end exponent straight A to the power of negative 1 end exponent`
+  - $V = \frac{E}{Q} = \frac{1 \frac{1}{2} m v^{2}}{I t} = [ \text{kg} \mathrm{m}^{2 } \mathrm{s}^{- 2} ] [ \mathrm{A} \mathrm{s} ]^{- 1} = \text{kg} \mathrm{m}^{2} \mathrm{s}^{- 3} \mathrm{A}^{- 1}$
 - So, the SI base units of resistance are
 
-  - `R equals V over I equals open square brackets kg space straight m squared space straight s to the power of negative 3 end exponent space straight A to the power of negative 1 end exponent close square brackets open square brackets straight A close square brackets to the power of negative 1 end exponent equals kg space straight m squared space straight s to the power of negative 3 end exponent straight A to the power of negative 2 end exponent`
+  - $R = \frac{V}{I} = [ \text{kg} \mathrm{m}^{2} \mathrm{s}^{- 3} \mathrm{A}^{- 1} ] [ \mathrm{A} ]^{- 1} = \text{kg} \mathrm{m}^{2} \mathrm{s}^{- 3} \mathrm{A}^{- 2}$
 
 ### Q53
 **Final answer:** **The correct answer is ****B ****because:**
@@ -869,16 +867,16 @@ The *I-V* graphs are for the following components:
 - So, resistivity is equal to $ρ=\frac{RA}{L}$
 - Ohm's law $V=IR$ and electrical power $P=VI$ can combine to make
 
-  - `begin mathsize 14px style P equals open parentheses I R close parentheses I equals I to the power of space 2 end exponent R end style`
+  - $P = ( I R ) I = I^{ 2} R$
 - So, resistance is equal to $R=\frac{P}{I^{2}}$
 - Power is equal to $\frac{energy}{time}$
 
-  - So, the units of power are `P equals fraction numerator 1 half m v squared over denominator t end fraction equals open square brackets kg space straight m squared space straight s to the power of negative 2 end exponent close square brackets open square brackets text s end text close square brackets to the power of negative 1 end exponent equals kg space straight m squared space straight s to the power of negative 3 end exponent`
-  - Therefore, the units of resistance are `R equals P over I to the power of space 2 end exponent equals open square brackets kg space straight m squared space straight s to the power of negative 3 end exponent close square brackets open square brackets straight A close square brackets to the power of negative 2 end exponent`$=\mathrm{kg}m^{2}s^{-3}A^{-2}$
+  - So, the units of power are $P = \frac{1 \frac{1}{2} m v^{2}}{t} = [ \text{kg} \mathrm{m}^{2} \mathrm{s}^{- 2} ] [ \text{s} ]^{- 1} = \text{kg} \mathrm{m}^{2} \mathrm{s}^{- 3}$
+  - Therefore, the units of resistance are $R = \frac{P}{I^{ 2}} = [ \text{kg} \mathrm{m}^{2} \mathrm{s}^{- 3} ] [ \mathrm{A} ]^{- 2}$$=\mathrm{kg}m^{2}s^{-3}A^{-2}$
 
 - And hence, the units of resistivity are
 
-  - `begin mathsize 14px style rho equals fraction numerator R A over denominator L end fraction equals open square brackets kg space straight m squared straight s to the power of negative 3 end exponent straight A to the power of negative 2 end exponent close square brackets open square brackets straight m squared close square brackets open square brackets straight m close square brackets to the power of negative 1 end exponent equals kg space straight m cubed straight s to the power of negative 3 end exponent straight A to the power of negative 2 end exponent end style`
+  - $\\rho = \frac{R A}{L} = [ \text{kg} \mathrm{m}^{2} \mathrm{s}^{- 3} \mathrm{A}^{- 2} ] [ \mathrm{m}^{2} ] [ \mathrm{m} ]^{- 1} = \text{kg} \mathrm{m}^{3} \mathrm{s}^{- 3} \mathrm{A}^{- 2}$
 - If we compare this to $\mathrm{kg}x^{3}y^{-}^{2}z^{-3}$ , we can see ***x***** is meters, *****y***** is amperes, and***** z***** is seconds**
 
 ### Q54
@@ -888,10 +886,10 @@ The *I-V* graphs are for the following components:
 - So, resistivity is equal to $ρ=\frac{RA}{L}$
 - The wire is cylindrical, so the cross-sectional area is equal to
 
-  - `A equals straight pi straight r squared equals straight pi open parentheses straight d over 2 close parentheses squared equals straight pi open parentheses fraction numerator 2.0 cross times 10 to the power of negative 3 end exponent over denominator 2 end fraction close parentheses squared`
+  - `A = pi r ^2 = pi ( d / 2 ) ^2 = pi ( (2.0 x 10 ^ - 3 )/(2) ) ^2`
 - Therefore, the resistivity is equal to
 
-  - `rho equals fraction numerator 0.050 over denominator 10 end fraction cross times straight pi open parentheses fraction numerator 2.0 cross times 10 to the power of negative 3 end exponent over denominator 2 end fraction close parentheses squared equals 1.57 cross times 10 to the power of negative 8 end exponent` Ω $m$
+  - $\\rho = \frac{0.050}{10} \times \mathrm{\pi } ( \frac{2.0 \times 10^{- 3} }{2} )^{2} = 1.57 \times 10^{- 8}$ Ω $m$
 - Therefore, the wire is made from **silver**, which has a resistivity of 1.6 × 10<sup>–8 </sup>Ω m
 
 ### Q55

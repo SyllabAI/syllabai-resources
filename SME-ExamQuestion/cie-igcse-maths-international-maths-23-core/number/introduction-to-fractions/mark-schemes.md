@@ -109,7 +109,7 @@ $12\times\frac{1}{3}=\frac{12}{3}=4$
 
 > *Subtract the number of trumpets and trombones from the total to determine the number of horns*
 
-`12 minus open parentheses 4 plus 3 close parentheses equals 12 minus 7 equals 5`
+$12 - ( 4 + 3 ) = 12 - 7 = 5$
 
 **5 horns ****[1]**
 
@@ -197,7 +197,7 @@ $\frac{1}{5}$* ***[1]**
 
 > *  *
 
-`table row cell fraction numerator 60 divided by 15 over denominator 105 divided by 15 end fraction end cell equals cell 4 over 7 end cell row blank blank blank end table`
+$\begin{gathered} \frac{60 \div 15}{105 \div 15} & = \frac{4}{7} \\ \end{gathered}$
 
 $\frac{4}{7}$* ***[1]**
 
@@ -243,4 +243,4 @@ $\frac{5}{8}$* ***[1]**
 
 $\frac{3}{8}\times100=37.5$
 
-`bold 37 bold. bold 5 bold percent sign`* ***[1]**
+$37 . 5 \%$* ***[1]**

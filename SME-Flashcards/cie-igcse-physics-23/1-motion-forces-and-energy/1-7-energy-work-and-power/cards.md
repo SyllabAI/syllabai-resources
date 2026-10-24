@@ -924,7 +924,7 @@ State the **equation** for calculating efficiency. **(Extended Tier Only)**
 
 The equation for calculating efficiency is:
 
-`efficiency space equals space fraction numerator useful space power space or space energy space output over denominator total space power space or space energy space input end fraction space cross times space 100 space percent sign`
+$\text{efficiency} = \frac{useful \text{power} \text{or} \text{energy} output}{total \text{power} \text{or} \text{energy} input} \times 100 \%$
 
 
 

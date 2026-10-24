@@ -153,9 +153,9 @@ Cost of a pen = ...................................... cents  Cost of a notebook
 
 Solve the simultaneous equations. You must show all your working.
 
-`table row cell 5 x minus 2 y end cell equals 44 row cell 2 x plus 3 y end cell equals 10 end table`
+$\begin{gathered} 5 x - 2 y & = 44 \\ 2 x + 3 y & = 10 \end{gathered}$
 
-`table attributes columnalign right center left columnspacing 0px end attributes row cell x space end cell equals cell space................................................. space end cell row cell y space end cell equals cell space................................................. space end cell end table`
+$\begin{array}{rcl} x & = ................................................. \\ y & = ................................................. \end{array}$
 
 *Source: June 2020 0580/32 Q10B*
 
@@ -168,7 +168,7 @@ Solve the simultaneous equations.
 
 You must show all your working.
 
-`table attributes columnalign right center left columnspacing 0px end attributes row cell 5 x plus 4 y end cell equals 10 row cell 7 x minus 6 y end cell equals 43 end table`
+$\begin{array}{rcl} 5 x + 4 y & = 10 \\ 7 x - 6 y & = 43 \end{array}$
 
 $x=...................................................\,y=...................................................$
 
@@ -224,7 +224,7 @@ Solve the simultaneous equations.
 
 You must show all your working.
 
-`table row cell 3 x minus 8 y end cell equals 22 row cell x plus 4 y end cell equals 4 end table`
+$\begin{gathered} 3 x - 8 y & = 22 \\ x + 4 y & = 4 \end{gathered}$
 
 $x=......................................\,y=......................................$
 
@@ -255,7 +255,7 @@ $y=$............................
 Solve the simultaneous equations.
  You must show all your working.
 
-`table attributes columnalign right center left columnspacing 0px end attributes row cell 3 x minus y end cell equals 22 row cell x plus 2 y end cell equals 5 end table`
+$\begin{array}{rcl} 3 x - y & = 22 \\ x + 2 y & = 5 \end{array}$
 
 $x=...................................................\,y=...................................................$
 
@@ -295,7 +295,7 @@ How many cards does she buy?
 
 Solve the simultaneous equations. You must show all your working.
 
-`table row cell 6 x minus 3 y space end cell equals 12 row cell 2 x space plus space 3 y space end cell equals 16 end table`
+$\begin{gathered} 6 x - 3 y & = 12 \\ 2 x + 3 y & = 16 \end{gathered}$
 
 $x=$ .................................
 

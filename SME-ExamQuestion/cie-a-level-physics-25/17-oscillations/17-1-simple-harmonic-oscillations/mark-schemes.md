@@ -151,7 +151,7 @@ Use the graph to obtain a value for the gradient
 
 ![object-floating-on-water-shm-sq-graph-cie-a-level-ms-gradient](assets/008-object-floating-on-water-shm-sq-graph-cie-a-leve.png)
 
-- gradient = `fraction numerator increment y over denominator increment x end fraction space equals fraction numerator 0 space minus space 4.60 over denominator 0 space minus space open parentheses negative 0.10 close parentheses end fraction space equals space fraction numerator negative 4.60 over denominator 0.10 end fraction`
+- gradient = $\frac{\Delta y}{\Delta x} = \frac{0 - 4.60}{0 - ( - 0.10 )} = \frac{- 4.60}{0.10}$
 - gradient = −46.0 **[1 mark]**
 
 Use the graph to obtain values for displacement 1, *x*<sub>*1*</sub> and displacement 2, *x*<sub>*2*</sub>:
@@ -163,12 +163,12 @@ Use the graph to obtain values for displacement 1, *x*<sub>*1*</sub> and displac
 - Recall the equation for the total energy of an SHM system
 - $E=\frac{1}{2}mω^{2}x_{0}^{2}$ **[1 mark]**
 - So the change in total energy between two amplitudes is
-- `E space equals space 1 half space m omega squared open parentheses x subscript 1 squared space minus space x subscript 2 squared close parentheses`
+- $E = 1 \frac{1}{2} m \\omega ^{2} ( x_{1}^{2} - x_{2}^{2} )$
 
 - Substitute in the values obtained from the graph to calculate
 
-  - From $a=-ω^{2}x$, `open vertical bar gradient close vertical bar space equals space omega squared space`
-- `E space equals space 1 half cross times 0.65 cross times 46.0 cross times open parentheses 0.100 squared minus 0.080 squared close parentheses`
+  - From $a=-ω^{2}x$, $\left| \text{gradient} \right| = \\omega ^{2}$
+- $E = 1 \frac{1}{2} \times 0.65 \times 46.0 \times ( 0.100^{2} - 0.080^{2} )$
 - $E=0.05382$
 - $E=$ $0.054J$** ** (2 s.f.) **[1 mark]**
 
@@ -178,7 +178,7 @@ Use the graph to obtain values for displacement 1, *x*<sub>*1*</sub> and displac
 (i) To mark on the graph a point where velocity is half its initial value:
 
 - Kinetic energy is proportional to velocity<sup>2</sup>
-- If the velocity is halved, then the kinetic energy is a quarter of the initial `open parentheses 1 over 2 squared close parentheses`
+- If the velocity is halved, then the kinetic energy is a quarter of the initial $( \frac{1}{2^{2}} )$
 - Any point on the graph at 5 mJ marked; **[1 mark]**
 
 ![6-2-s-q--q5a-ma-hard-aqa-a-level-physics](assets/011-6-2-s-q-q5a-ma-hard-aqa-a-level-physics.png)
@@ -188,7 +188,7 @@ Use the graph to obtain values for displacement 1, *x*<sub>*1*</sub> and displac
 - From the graph, the time period is 2.25 s
 - Acceleration of free fall, *g*  = 9.81 m s<sup>−2</sup> (from the data page)
 - Period, $T=2π\sqrt{\frac{l}{g}}$
-- Length, *l = *$\frac{T^{2}g}{4π^{2}}$*= *`fraction numerator open parentheses 2.25 close parentheses squared cross times 9.81 over denominator 4 straight pi squared end fraction`* ***[1 mark]**
+- Length, *l = *$\frac{T^{2}g}{4π^{2}}$*= *$\frac{( 2.25 )^{2} \times 9.81}{4 \mathrm{\pi }^{2}}$* ***[1 mark]**
 - *l = *1.26 m **[1 mark]**
 
 **[Total: 3 marks]**
@@ -222,7 +222,7 @@ Calculate the maximum velocity:
 Calculate mass from equation for kinetic energy:
 
 - $E_{kmax}=\frac{1}{2}mv_{max}^{2}$
-- `m space equals space fraction numerator 2 E subscript k space m a x end subscript over denominator v subscript m a x end subscript squared end fraction space equals space fraction numerator 2 space cross times open parentheses 2 space cross times space 10 to the power of negative 2 end exponent close parentheses over denominator 0.12 squared end fraction`
+- $m = \frac{2 E_{k m a x} }{v_{m a x}^{2}} = \frac{2 \times ( 2 \times 10^{- 2} )}{0.12^{2}}$
 - *m = *2.78 kg **[1 mark]**
 
 **[Total: 3 marks]**
@@ -237,8 +237,8 @@ Determine the acceleration:
 - Acceleration, $a=-ω^{2}x$ (from the formula page)
 
   - Maximum acceleration occurs at maximum displacement
-- `a subscript m a x end subscript space equals space minus omega squared x subscript 0 space equals space minus open parentheses fraction numerator 2 pi over denominator T end fraction close parentheses squared x subscript 0`
-- `a subscript m a x end subscript space equals space minus open parentheses fraction numerator 2 pi over denominator 2.25 end fraction close parentheses squared space cross times space 0.044 space equals space minus 0.343 space straight m space straight s to the power of negative 2 end exponent` **[1 mark]**
+- $a_{m a x} = - \\omega ^{2} x_{0} = - ( \frac{2 \pi }{T} )^{2} x_{0}$
+- $a_{m a x} = - ( \frac{2 \pi }{2.25} )^{2} \times 0.044 = - 0.343 \mathrm{m} \mathrm{s}^{- 2}$ **[1 mark]**
 
 Calculate the magnitude of the maximum force upon the pendulum:
 
@@ -268,7 +268,7 @@ Draw lines on the graph to obtain the gradient:
 Calculate the angular frequency of the oscillations, *ω*:
 
 - gradient = − *ω*<sup>2</sup>
-- So, `omega space equals space square root of negative g r a d i e n t end root space equals space square root of negative open parentheses negative 8 close parentheses end root`
+- So, $\\omega = \sqrt{- g r a d i e n t} = \sqrt{- ( - 8 )}$
 - $ω=2.83\mathrm{rad}s^{-1}$ **[1 mark]**
 
 **[Total: 2 marks]**
@@ -325,7 +325,7 @@ Kinetic energy (and velocity) is maximum when displacement is zero:
 
 Rearrange for amplitude *x*<sub>0</sub> and substitute in the values:
 
-- Amplitude, *x*<sub>0 </sub>=`square root of fraction numerator 2 cross times 0.5 over denominator 0.42 cross times open parentheses 10.472 close parentheses squared end fraction end root` = 0.147 m = 14.7 cm **[1 mark]**
+- Amplitude, *x*<sub>0 </sub>=$\sqrt{ \frac{2 \times 0.5}{0.42 \times ( 10.472 )^{2}} }$ = 0.147 m = 14.7 cm **[1 mark]**
 
 Calculate the distance:
 
@@ -368,17 +368,17 @@ List the known quantities:
 
 State formula for speed of a harmonic oscillator and solve for *v*:
 
-- *v* = ± `omega square root of open parentheses x subscript 0 squared minus x squared close parentheses end root` (from the formula page)
+- *v* = ± $\\omega \sqrt{( x_{0}^{2} - x^{2} )}$ (from the formula page)
 
 Rearrange for *x* :
 
-- `open parentheses v over omega close parentheses squared space equals space x subscript 0 squared space minus space x squared`
-- `x squared space equals space x subscript 0 squared space minus space open parentheses v over omega close parentheses squared`
-- `x space equals space square root of x subscript 0 squared minus open parentheses v squared over omega squared close parentheses end root`* ***[1 mark]**
+- $( \frac{v}{ \omega } ) ^{2} = x_{0} ^{2} - x ^{2}$
+- $x ^{2} = x_{0} ^{2} - ( \frac{v}{ \omega } ) ^{2}$
+- $x = \sqrt{x_{0} ^{2} - ( v \frac{ ^{2} }{ \omega } ^{2} ) }$* ***[1 mark]**
 
 Substitute the known quantities:
 
-- *x =*`square root of open parentheses 0.147 close parentheses squared minus open parentheses open parentheses 0.8 close parentheses squared over open parentheses 10.5 close parentheses squared close parentheses end root`
+- *x =*$\sqrt{( 0.147 )^{2} - ( \frac{( 0.8 )^{2}}{( 10.5 )^{2}} )}$
 - *x *= 0.126 m **[1 mark]**
 
 **[Total: 2 marks]**
@@ -421,7 +421,7 @@ Draw lines on the graph to locate two co-ordinates for (*x*, *v*):
 Use the equation for calculating speed in an oscillator:
 
 - $v=\pmω\sqrt{x_{0}^{2}-x^{2}}$
-- `0.4 space equals space omega square root of open parentheses 0.08 squared space minus space 0 squared close parentheses end root` **[1 mark]**
+- $0.4 = \\omega \sqrt{( 0.08^{2} - 0^{2} )}$ **[1 mark]**
 - $ω=\frac{0.4}{0.08}$
 - $ω=5\mathrm{rad}s^{-1}$** [1 mark]**
 

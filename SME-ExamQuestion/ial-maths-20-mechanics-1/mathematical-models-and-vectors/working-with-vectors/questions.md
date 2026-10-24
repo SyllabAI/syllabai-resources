@@ -6,7 +6,7 @@
 ## Q1 — easy — 6 marks · exam-questions
 
 ### 1() — 3 marks — structured
-A farmer carries water from a well *W *to a cattle trough *T*, then on to a chicken coop *C*. The farmer’s displacement can be written in vector form $xi+yj$ where **i **and **j** are unit vectors. The farmer’s displacement from *W* to *T* is ($6i+15j$) $m$ and their displacement from *T* to *C* is `open parentheses 16 bold i minus 4 bold j close parentheses straight m`
+A farmer carries water from a well *W *to a cattle trough *T*, then on to a chicken coop *C*. The farmer’s displacement can be written in vector form $xi+yj$ where **i **and **j** are unit vectors. The farmer’s displacement from *W* to *T* is ($6i+15j$) $m$ and their displacement from *T* to *C* is $( 16 i - 4 j ) \mathrm{m}$
 
 The magnitude of displacement or `open vertical bar displacement close vertical bar` tells us the distance the farmer has travelled and is calculated using `open vertical bar displacement close vertical bar` = $\sqrt{x^{2}+y^{2}}$.
 
@@ -26,23 +26,23 @@ Calculate the farmer’s resultant displacement and the magnitude of the displac
 ## Q2 — easy — 2 marks · exam-questions
 
 ### 1() — 2 marks — structured
-The direction of any vector in the form $xi+yj$ can be calculated as an angle the vector makes with a given direction e.g. the unit vector **i**, also known as the positive  *x* direction. The angle can be calculated using $θ=\mathrm{tan}^{-1}$`begin mathsize 16px style open parentheses y over x close parentheses end style`.
+The direction of any vector in the form $xi+yj$ can be calculated as an angle the vector makes with a given direction e.g. the unit vector **i**, also known as the positive  *x* direction. The angle can be calculated using $θ=\mathrm{tan}^{-1}$$( \frac{y}{x} )$.
 
-A force **F** acts on a particle, where `straight F equals open parentheses 2 bold i plus 3 bold j close parentheses space straight N`. Find the angle the direction of the force makes with the unit vector **i**. Give your answer to three significant figures.
+A force **F** acts on a particle, where $\mathrm{F} = ( 2 i + 3 j ) \mathrm{N}$. Find the angle the direction of the force makes with the unit vector **i**. Give your answer to three significant figures.
 
 ## Q3 — easy — 4 marks · exam-questions
 
 ### 1() — 4 marks — structured
-The velocity of a train is given by `bold v equals open parentheses 55 bold i minus 48 bold j close parentheses space straight m space straight s to the power of negative 1 end exponent`. The speed of the train can be calculated by finding the magnitude of the train’s velocity.
+The velocity of a train is given by $v = ( 55 i - 48 j ) \mathrm{m} \mathrm{s}^{- 1}$. The speed of the train can be calculated by finding the magnitude of the train’s velocity.
 
-(i) Using `s space equals space open vertical bar v close vertical bar equals square root of x squared plus y squared end root`, find the speed of the train.
+(i) Using $s = \left| v \right| = \sqrt{x^{2} + y^{2}}$, find the speed of the train.
 
 (ii) Using $θ=\mathrm{tan}^{-1}(\frac{y}{x})$ , find the angle the direction of motion of the train makes with the unit vector **i**.
 
 ## Q4 — easy — 4 marks · exam-questions
 
 ### 1() — 4 marks — structured
-The acceleration of a mouse is given by `open parentheses 2 square root of 3 bold i plus 2 bold j close parentheses space straight m space straight s to the power of negative 2 end exponent`.
+The acceleration of a mouse is given by $( 2 \sqrt{3} i + 2 j ) \mathrm{m} \mathrm{s}^{- 2}$.
 
 (i) Find the magnitude of the acceleration of the mouse.
 
@@ -53,11 +53,11 @@ The acceleration of a mouse is given by `open parentheses 2 square root of 3 bol
 ### 1() — 3 marks — structured
 Given that find the speed, `s equals open vertical bar v close vertical bar`, find the speed, *s* of the following particles.
 
-(i) A particle moving at a velocity of `open parentheses negative 6 bold i space minus bold j close parentheses space cm` per minute.
+(i) A particle moving at a velocity of $( - 6 i - j ) \text{cm}$ per minute.
 
-(ii) A particle moving at a velocity of `open parentheses 8 bold i minus 12 bold j close parentheses space straight m space straight s to the power of negative 1 end exponent`.
+(ii) A particle moving at a velocity of $( 8 i - 12 j ) \mathrm{m} \mathrm{s}^{- 1}$.
 
-(iii) A particle moving at a velocity of `open parentheses 40 bold i plus 180 bold j close parentheses space km space straight h to the power of negative 1 end exponent`.
+(iii) A particle moving at a velocity of $( 40 i + 180 j ) \text{km} \mathrm{h}^{- 1}$.
 
 ### 2() — 3 marks — structured
 Using your answers from part (a), or otherwise, calculate the distance each particle will have travelled in 3 minutes. Be careful with units throughout your calculations.
@@ -67,14 +67,14 @@ Using your answers from part (a), or otherwise, calculate the distance each part
 ### 1() — 2 marks — structured
 Paul leaves his starting position *O* and walks 4 $\mathrm{km}$ on a bearing of 060° to reach a viewing point *V*.
 
-Paul’s displacement, relative to *O,* can be written as a vector in the form `open parentheses x bold i plus y bold j close parentheses space km`, where $x=rcosθ$ and $y=rsinθ$.
+Paul’s displacement, relative to *O,* can be written as a vector in the form $( x i + y j ) \text{km}$, where $x=rcosθ$ and $y=rsinθ$.
 
 (i) Draw a diagram to represent Paul’s displacement relative to *O*.
 
 (ii) Explain what the variables *r* and *θ* represent.
 
 ### 2() — 2 marks — structured
-Find the exact values of $x$ and $y$ and write Paul’s displacement in the form `open parentheses x bold i plus y bold j close parentheses space km`.
+Find the exact values of $x$ and $y$ and write Paul’s displacement in the form $( x i + y j ) \text{km}$.
 
 ### 3() — 3 marks — structured
 Use your answer from part (b) to show that the distance and bearing of $V$ from $O$ can be calculated from the displacement vector.
@@ -82,7 +82,7 @@ Use your answer from part (b) to show that the distance and bearing of $V$ from 
 ## Q7 — easy — 2 marks · exam-questions
 
 ### 1() — 2 marks — structured
-A force **F** acts on a particle, where `bold F equals space open parentheses 3 p bold i plus 4 p bold j close parentheses space straight N`.
+A force **F** acts on a particle, where $F = ( 3 p i + 4 p j ) \mathrm{N}$.
 
 Calculate the magnitude of the force **F**, giving your answer in terms of *p*.
 
@@ -93,7 +93,7 @@ Two forces $F_{1}$and $F_{2}$ have magnitudes of 4 newtons and 7 newtons in the 
 
 ![edexcel-al-maths-mechanics-topic-1-2-e-q8](assets/008-edexcel-al-maths-mechanics-topic-1-2-e-q8.png)
 
-The force $F_{1}$can be written in component form as `bold F subscript bold 1 equals open parentheses negative 4 space cos space 53 bold space bold i space plus space 4 space sin space 53 space bold j close parentheses space straight N`.
+The force $F_{1}$can be written in component form as $F_{ } 1 = ( - 4 \text{cos} 53 i + 4 \text{sin} 53 j ) \mathrm{N}$.
 
 (i) Explain why θ = $θ=53^{\circ}$ is used in $F_{1}$.
 
@@ -106,7 +106,7 @@ The force $F_{1}$can be written in component form as `bold F subscript bold 1 eq
 ### 1() — 2 marks — structured
 An ant carries food from a picnic blanket *P* to a bin *B* and finally to its nest *N*.
 
-The displacement from *P* to *B*  is `open parentheses 4 bold i bold space plus space 3 bold j close parentheses space straight m`. The displacement from *B* to *N*  is `open parentheses 2 bold i minus bold j close parentheses space straight m`.
+The displacement from *P* to *B*  is $( 4 i + 3 j ) \mathrm{m}$. The displacement from *B* to *N*  is $( 2 i - j ) \mathrm{m}$.
 
 Find the magnitude of the displacement from *P* to *N* .
 
@@ -121,7 +121,7 @@ Calculate the total time taken to for the ant to complete its round trip. Give y
 ## Q10 — medium — 4 marks · exam-questions
 
 ### 1() — 4 marks — structured
-The velocity of a lorry is given by `bold v equals open parentheses 24 bold i minus 17 bold j close parentheses space straight m space straight s to the power of negative 1 end exponent`.
+The velocity of a lorry is given by $v = ( 24 i - 17 j ) \mathrm{m} \mathrm{s}^{- 1}$.
 
 (i) Find the speed of the lorry.
 
@@ -130,7 +130,7 @@ The velocity of a lorry is given by `bold v equals open parentheses 24 bold i mi
 ## Q11 — medium — 4 marks · exam-questions
 
 ### 1() — 4 marks — structured
-The acceleration of a toy train is given by `open parentheses negative 1.2 bold i plus 3.2 bold j close parentheses space straight m space straight s to the power of negative 2 end exponent`.
+The acceleration of a toy train is given by $( - 1.2 i + 3.2 j ) \mathrm{m} \mathrm{s}^{- 2}$.
 
 (i) Find the magnitude of the acceleration of the toy train. Giving your answer as an exact value.
 
@@ -141,7 +141,7 @@ The acceleration of a toy train is given by `open parentheses negative 1.2 bold 
 ### 1() — 3 marks — structured
 A ship leaves its starting position *O* in port and travels 300 $\mathrm{km}$ on a bearing of 120°. It then travels 500 $\mathrm{km}$ due south before dropping anchor at point *A*.
 
-Given that the position vector of *A *relative to *O* is `open parentheses x bold i space plus space y bold j close parentheses space km`, find the exact values of *x* and *y*.
+Given that the position vector of *A *relative to *O* is $( x i + y j ) \text{km}$, find the exact values of *x* and *y*.
 
 ### 2() — 4 marks — structured
 Find the magnitude and direction of the displacement from *O* to *A*.
@@ -151,20 +151,20 @@ Find the magnitude and direction of the displacement from *O* to *A*.
 ### 1() — 6 marks — structured
 Find the speed and distance travelled by the following particles.
 
-(i) A particle moving for 12 seconds at a velocity of `open parentheses bold i plus 28 bold j close parentheses space straight m space straight s to the power of negative 1 end exponent`.
+(i) A particle moving for 12 seconds at a velocity of $( i + 28 j ) \mathrm{m} \mathrm{s}^{- 1}$.
 
-(ii) A particle moving at a velocity of `open parentheses 18 bold i minus 3 bold j close parentheses space km space straight h to the power of negative 1 end exponent`for 45 minutes.
+(ii) A particle moving at a velocity of $( 18 i - 3 j ) \text{km} \mathrm{h}^{- 1}$for 45 minutes.
 
-(iii) A particle moving for 3.5 minutes at a velocity of `open parentheses negative 84 bold i space plus space 12 bold j close parentheses space cm space straight s to the power of negative 1 end exponent`.
+(iii) A particle moving for 3.5 minutes at a velocity of $( - 84 i + 12 j ) \text{cm} \mathrm{s}^{- 1}$.
 
 ## Q14 — medium — 8 marks · exam-questions
 
 ### 1() — 3 marks — structured
-Two seagulls fly from the sea *S* to their nest *N*. The displacement of the first seagull from *S* to *N* is `open parentheses 14 bold i space plus space 6 bold j close parentheses space km`. The second seagull travels half as far in the same direction then gets knocked off course by the wind and displaced by `open parentheses 12 bold i minus 5 bold j close parentheses space km`.
+Two seagulls fly from the sea *S* to their nest *N*. The displacement of the first seagull from *S* to *N* is $( 14 i + 6 j ) \text{km}$. The second seagull travels half as far in the same direction then gets knocked off course by the wind and displaced by $( 12 i - 5 j ) \text{km}$.
 
 (i) Draw a vector diagram to represent the displacement of both birds.
 
-(ii) Find the final displacement of the second seagull in relation to its starting position *S*, giving your answer in the form `open parentheses x text bold i end text space plus space y bold j close parentheses space km`.
+(ii) Find the final displacement of the second seagull in relation to its starting position *S*, giving your answer in the form $( x \text{ i} + y j ) \text{km}$.
 
 ### 2() — 2 marks — structured
 Find the angle of displacement of the second seagull in relation to its starting position *S* and the unit vector **j**.
@@ -201,7 +201,7 @@ Find the value of *k*.
 ## Q17 — hard — 5 marks · exam-questions
 
 ### 1() — 5 marks — structured
-Jenna takes her two dogs Gamma and Omega for a walk in the park. Both dogs slip their leads and run off in different directions. When they stop, Gamma’s displacement from Jenna is `open parentheses 226 bold i minus 105 bold j close parentheses space straight m`, Omega’s displacement from Jenna is `open parentheses negative 65 bold i minus 243 bold j close parentheses space straight m.` To collect the dogs Jenna walks at a constant speed directly to one dog then the other.
+Jenna takes her two dogs Gamma and Omega for a walk in the park. Both dogs slip their leads and run off in different directions. When they stop, Gamma’s displacement from Jenna is $( 226 i - 105 j ) \mathrm{m}$, Omega’s displacement from Jenna is $( - 65 i - 243 j ) \mathrm{m} .$ To collect the dogs Jenna walks at a constant speed directly to one dog then the other.
 
 Jenna must decide which order to collect the dogs so that they are both retrieved as quickly as possible.
 
@@ -212,7 +212,7 @@ Jenna must decide which order to collect the dogs so that they are both retrieve
 ## Q18 — hard — 7 marks · exam-questions
 
 ### 1() — 2 marks — structured
-The velocity of a road sweeper is given by `bold v subscript bold 1 bold space equals space open parentheses 1.4 bold i bold space plus space 1.2 bold j close parentheses space straight m space straight s to the power of negative 1 end exponent`. The velocity of a bin lorry is given by $v_{2}=(-2.1i-1.8j)ms^{-1}.$
+The velocity of a road sweeper is given by $v_{ } 1 = ( 1.4 i + 1.2 j ) \mathrm{m} \mathrm{s} ^{ - } 1$. The velocity of a bin lorry is given by $v_{2}=(-2.1i-1.8j)ms^{-1}.$
 
 Calculate the speeds of the two vehicles.
 
@@ -229,7 +229,7 @@ Calculate how far apart the two vehicles are after 5 minutes.
 ## Q19 — hard — 4 marks · exam-questions
 
 ### 1() — 4 marks — structured
-The acceleration of a race car is given by `open parentheses p bold i space plus space q bold j close parentheses space straight m space straight s to the power of negative 2 end exponent`. Given that the magnitude of the acceleration of the car is $\frac{5\sqrt{2}}{2}$  $ms^{-2}$ and the angle the direction of motion of the race car makes with the unit vector **j** is 45° degrees, measured clockwise, find the exact values of *p*  and *q* .
+The acceleration of a race car is given by $( p i + q j ) \mathrm{m} \mathrm{s}^{- 2}$. Given that the magnitude of the acceleration of the car is $\frac{5\sqrt{2}}{2}$  $ms^{-2}$ and the angle the direction of motion of the race car makes with the unit vector **j** is 45° degrees, measured clockwise, find the exact values of *p*  and *q* .
 
 ## Q20 — hard — 8 marks · exam-questions
 

@@ -11,7 +11,7 @@
 
 > *Write this as a fraction*
 
-`table row cell 3 over 6 end cell equals cell 1 half end cell end table`
+$\begin{gathered} \frac{3}{6} & = 1 \frac{1}{2} \end{gathered}$
 
 **Final answer:** **D**
 
@@ -23,7 +23,7 @@
 
 > *Write this as a fraction*
 
-`table row blank blank cell 2 over 6 end cell end table`
+$\begin{gathered} \frac{2}{6} \end{gathered}$
 
 > *Look for the letter that is placed 2 interval parts out of 6 across the probability scale*
 
@@ -159,7 +159,7 @@ $\frac{5}{12}$
 ### 16((a)) — 3 marks
 > *Calculate the combined probability of green and orange, using the fact that mutually exclusive outcomes sum to 1*
 
-`table row cell straight P open parentheses G space or space O close parentheses end cell equals cell 1 minus open parentheses straight P open parentheses R close parentheses plus straight P open parentheses B close parentheses close parentheses end cell row blank equals cell 1 minus open parentheses 0.26 plus 0.3 close parentheses end cell row blank equals cell 0.44 end cell end table`
+$\begin{gathered} \mathrm{P} ( G \text{or} O ) & = 1 - ( \mathrm{P} ( R ) + \mathrm{P} ( B ) ) \\ = 1 - ( 0.26 + 0.3 ) \\ = 0.44 \end{gathered}$
 
 **[M1]**
 
@@ -185,7 +185,7 @@ $0.44\div2=0.22$
 
 > *The probability of R is equal to the number of red bricks out of the total number of bricks, giving:*
 
-`straight P open parentheses R close parentheses equals 0.26 equals 91 over N`
+$\mathrm{P} ( R ) = 0.26 = \frac{91}{N}$
 
 > *Rearrange to calculate the total number of bricks, *$N$
 

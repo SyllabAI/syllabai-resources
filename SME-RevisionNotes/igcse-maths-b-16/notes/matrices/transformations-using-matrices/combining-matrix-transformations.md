@@ -42,9 +42,9 @@ guided_study: false
 > **Worked Example**
 > Three transformations in the $x$-$y$ plane are given below.
 > 
-> `bold A equals open parentheses table row cell negative 1 end cell 0 row 0 cell negative 1 end cell end table close parentheses`**  **represents an enlargement by scale factor -1 about the origin
-> `bold B equals open parentheses table row cell negative 1 end cell 0 row 0 1 end table close parentheses`** **represents a reflection in the *y*-axis
-> `bold C equals open parentheses table row 1 0 row 0 cell negative 1 end cell end table close parentheses`** **represents a reflection in the *x*-axis
+> $A = ( \begin{gathered} - 1 & 0 \\ 0 - 1 \end{gathered} )$**  **represents an enlargement by scale factor -1 about the origin
+> $B = ( \begin{gathered} - 1 & 0 \\ 0 1 \end{gathered} )$** **represents a reflection in the *y*-axis
+> $C = ( \begin{gathered} 1 0 \\ 0 - 1 \end{gathered} )$** **represents a reflection in the *x*-axis
 > 
 > Use matrix multiplication to prove that **A** is the same as **B** followed by **C**.
 > 
@@ -54,7 +54,7 @@ guided_study: false
 > 
 > > *Find the matrix multiplication *$\mathrm{CB}$
 > 
-> `table row cell bold CB space end cell equals cell space open parentheses table row 1 0 row 0 cell negative 1 end cell end table close parentheses cross times open parentheses table row cell negative 1 end cell 0 row 0 1 end table close parentheses end cell row blank equals cell open parentheses table row cell 1 cross times open parentheses negative 1 close parentheses plus 0 cross times 0 end cell cell 1 cross times 0 plus 0 cross times 1 end cell row cell 0 cross times open parentheses negative 1 close parentheses plus open parentheses negative 1 close parentheses cross times 0 end cell cell 0 cross times 0 plus open parentheses negative 1 close parentheses cross times 1 end cell end table close parentheses end cell row blank equals cell open parentheses table row cell negative 1 plus 0 end cell cell 0 plus 0 end cell row cell 0 plus 0 end cell cell 0 minus 1 end cell end table close parentheses end cell row blank equals cell open parentheses table row cell negative 1 end cell 0 row 0 cell negative 1 end cell end table close parentheses end cell end table`
+> $\begin{gathered} \text{CB} & = ( \begin{gathered} 1 0 \\ 0 - 1 \end{gathered} ) \times ( \begin{gathered} - 1 & 0 \\ 0 1 \end{gathered} ) \\ = ( \begin{gathered} 1 \times ( - 1 ) + 0 \times 0 & 1 \times 0 + 0 \times 1 \\ 0 \times ( - 1 ) + ( - 1 ) \times 0 & 0 \times 0 + ( - 1 ) \times 1 \end{gathered} ) \\ = ( \begin{gathered} - 1 + 0 & 0 + 0 \\ 0 + 0 & 0 - 1 \end{gathered} ) \\ = ( \begin{gathered} - 1 & 0 \\ 0 - 1 \end{gathered} ) \end{gathered}$
 > 
 > > *This is the same as *$A$
 > 
@@ -63,4 +63,4 @@ guided_study: false
 >   - *A reflection in the** y**-axis followed by a reflection in the **x**-axis *
 >   - *is equivalent to an enlargement of scale factor -1 (which is the same as a rotation of 180° about the origin)*
 > 
-> `CB equals stretchy left parenthesis table row cell negative 1 end cell 0 row 0 cell negative 1 end cell end table stretchy right parenthesis equals straight A`
+> $\text{CB} = ( \begin{gathered} - 1 & 0 \\ 0 - 1 \end{gathered} ) = \mathrm{A}$

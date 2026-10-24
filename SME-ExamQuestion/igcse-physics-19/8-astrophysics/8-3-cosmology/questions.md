@@ -408,8 +408,8 @@ A spectral line corresponds to a wavelength *λ*<sub>*1*</sub> in the laboratory
 The speed of light in a vacuum is *c*.
 
 Which of the following is the correct expression for the Hubble constant $H_{0}$?
-- **A.** `H subscript 0 space end subscript equals space fraction numerator c open parentheses lambda subscript 2 space end subscript minus space lambda subscript 1 close parentheses over denominator d space lambda subscript 1 end fraction`
-- **B.** `H subscript 0 space end subscript equals space fraction numerator c lambda subscript 1 over denominator d space open parentheses lambda subscript 2 space end subscript minus space lambda subscript 1 close parentheses end fraction`
+- **A.** $H_{0 } = \frac{c ( \lambda_{2 } - \lambda_{1} )}{d \lambda_{1} }$
+- **B.** $H_{0 } = \frac{c \lambda_{1}{d ( \lambda_{2} } - \lambda_{1} )}$
 - **C.** $H_{0}=\frac{cλ_{2}}{dλ_{1}}$
 - **D.** $H_{0}=\frac{cλ_{1}}{dλ_{2}}$
 

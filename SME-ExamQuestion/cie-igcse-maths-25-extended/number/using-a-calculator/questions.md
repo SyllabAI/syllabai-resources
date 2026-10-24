@@ -38,7 +38,7 @@ Write your answer to part (a) correct to 1 significant figure.
 
 **Q2** [1 mark]
 
-`cube root of 2 cubed plus 2 end root`
+$\sqrt[3]{2^{3} + 2}$
 
 *Source: 2019	May/June 0580/23 Q6B*
 
@@ -102,7 +102,7 @@ $\frac{5.39-0.98}{0.743-0.0743}$
 
 Calculate.
 
-`5 over 8 plus cube root of 340`
+$\frac{5}{8} + \sqrt[3]{340}$
 
 *Source: 2019	Oct/Nov 0580/22 Q2-*
 
@@ -111,7 +111,7 @@ Calculate.
 
 **Q9** [1 mark]
 
-Calculate `cube root of 8.1 squared minus 1.3 to the power of 0.8 end exponent end root.`
+Calculate $\sqrt[3]{8.1^{2} - 1.3^{0.8} } .$
 
 *Source: 2019	May/June 0580/21 Q3*
 
@@ -195,7 +195,7 @@ Calculate $\sqrt{2.38+6.4^{2}}$, writing down your full calculator display.
 
 **Q15** [1 mark]
 
-Use your calculator to work out `19.42 squared space – space cube root of 1006 space divided by space 4.95`
+Use your calculator to work out $19.42^{2} - \sqrt[3]{1006} \div 4.95$
 
 Write down your full calculator display.
 

@@ -551,7 +551,7 @@ MnO<sub>4</sub> is neutral)
 - To calculate the percentage uncertainty, use the equation:
 - Percentage uncertainty = $\frac{\mathrm{total} \mathrm{uncertainty}}{\mathrm{measured} \mathrm{value}}\times100$
 - When using a burette, two readings are taken to obtain the titre (an initial reading and a final reading), each has an uncertainty of ±0.05 cm<sup>3 </sup>so the total uncertainty = 2 x 0.05
-- So, percentage uncertainty = `fraction numerator 2 space cross times space 0.05 over denominator 13.25 end fraction space cross times space 100 space equals space 0.75 percent sign`
+- So, percentage uncertainty = $\frac{2 \times 0.05}{13.25} \times 100 = 0.75 \%$
 
 **A** is incorrect as only one of the readings has been taken into account
 

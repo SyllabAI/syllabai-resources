@@ -300,7 +300,7 @@ Mercury may be assumed to be a uniform sphere of radius *R, *with its mass *M* c
 
 Show that the mass *M* of Mercury is given by the expression
 
-`M space equals fraction numerator increment E subscript p over denominator G m open parentheses fraction numerator 1 over denominator R plus h subscript 1 end fraction space minus fraction numerator space 1 over denominator R plus h subscript 2 end fraction close parentheses space end fraction`
+$M = \frac{\Delta E_{p} }{G m ( \frac{1}{R + h_{1} } - \frac{ 1}{R + h_{2} } ) }$
 
 **Q8** [1 mark]
 
@@ -326,7 +326,7 @@ The rocket engines are stopped when the rocket is at a height *R *above the surf
 
 The change in gravitational potential energy of the rocket as it travels from a height *R *to a height 4*R* above the planet's surface is equal to
 
-`increment E subscript p space equals space x open parentheses fraction numerator G M m over denominator R end fraction close parentheses`
+$\Delta E_{p} = x ( \frac{G M m}{R} )$
 
 Determine the value of *x*
 
@@ -340,7 +340,7 @@ At a distance *R *away from the surface of the planet the rocket has a velocity 
 
 Show that the expression for the thermal energy lost $\DeltaQ$ to the atmosphere of the planet as the rocket moves from *R *to 4*R* is given by
 
-`increment Q space equals space fraction numerator 3 m over denominator 2 end fraction open parentheses v squared space minus space fraction numerator G M over denominator 5 R end fraction close parentheses`
+$\Delta Q = \frac{3 m}{2} ( v^{2} - \frac{G M}{5 R} )$
 
 **Q9** [4 marks]
 

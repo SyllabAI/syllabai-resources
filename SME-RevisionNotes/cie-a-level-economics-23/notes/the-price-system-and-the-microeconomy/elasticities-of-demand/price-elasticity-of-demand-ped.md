@@ -29,35 +29,35 @@ guided_study: false
 
 - **PED can be calculated** using the following formula:
 
-`text PED =  end text fraction numerator percent sign space change space in space quantity space demanded over denominator percent sign space change space in space price end fraction space equals space fraction numerator percent sign triangle space in thin space QD over denominator percent sign triangle in space straight P end fraction`
+$\text{PED = } \frac{\% \text{change} \text{in} \text{quantity} demanded}{\% \text{change} \text{in} price} = \frac{\% \Delta \text{in} QD}{\% \Delta \text{in} \mathrm{P} }$
 
 - **To calculate a % change**, use the following formula:
 
-`begin mathsize 16px style percent sign space Change space equals space fraction numerator new space value space minus space old space value over denominator old space value end fraction space cross times space 100 end style`
+$\% \text{Change} = \frac{new \text{value} - \text{old} value}{old value} \times 100$
 
 > **Worked Example**
 > A firm **raises** the price of its products from \$10 to \$15. Its **sales fall** from 100 to 40 units per day. Calculate the **PED** of its products
 > 
 > **Step 1:  Calculate the % change in QD**
 > 
-> **  **`begin mathsize 14px style percent sign triangle QD space equals space fraction numerator 40 minus 100 over denominator 100 end fraction space cross times 100
+> **  **$\% \Delta \text{QD} = \frac{40 - 100}{100} \times 100
 > 
-> percent sign triangle QD space equals space minus 60 percent sign end style`** **
+> \% \Delta \text{QD} = - 60 \%$** **
 > 
 > **Step 2: Calculate the % change in P**
 > 
-> `percent sign triangle straight P space equals space fraction numerator 15 space minus space 10 over denominator 10 end fraction space straight x space 100
+> $\% \Delta \mathrm{P} = \frac{15 - 10}{10} \mathrm{x} 100
 > 
-> percent sign triangle straight P space equals space 50 percent sign`
+> \% \Delta \mathrm{P} = 50 \%$
 > 
 > **Step 3: Insert the above values in the PED formula**
 > 
-> `PED space equals space fraction numerator percent sign triangle space in thin space QD over denominator percent sign triangle in space straight P end fraction
+> $\text{PED} = \frac{\% \Delta \text{in} QD}{\% \Delta \text{in} \mathrm{P} } 
 > 
-> PED space equals space fraction numerator negative space 60 over denominator space space space space 50 end fraction
+> \text{PED} = \frac{- 60}{ 50} 
 > 
-> PED space equals space minus 1.2
-> `
+> \text{PED} = - 1.2
+>$
 > 
 > **Step 4: Final answer** = -1.2
 
@@ -83,15 +83,15 @@ guided_study: false
 > 
 > **Step 1: Substitute the values provided into the equation**
 > 
-> `PED space equals space fraction numerator percent sign space increment in space QD over denominator percent sign space increment space in space straight P end fraction`
+> $\text{PED} = \frac{\% \Delta \text{in} QD}{\% \Delta \text{in} \mathrm{P} }$
 > 
 > **Step 2: Substitute X for %Δ in Qd**
 > 
-> `plus 2 space equals space fraction numerator straight X over denominator negative 10 percent sign end fraction`
+> $+ 2 = \frac{ \mathrm{X} }{- 10 \%}$
 > 
 > **Step 3. Solve for X**
 > 
-> **   **`X space equals space 20 percent sign`
+> **   **$X = 20 \%$
 > 
 > Quantity demanded increases by 20%
 

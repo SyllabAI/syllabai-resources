@@ -105,7 +105,7 @@ guided_study: false
   - Both 30° and 150° satisfy the equation $\mathrm{sin}x=\frac{1}{2}$
 - The **unit circle** can be used to find **all solutions** to trigonometric equations in a given interval
 
-  - Your **calculator** will only give **one solution** to an equation like  `x equals sin to the power of negative 1 end exponent open parentheses 1 half close parentheses`
+  - Your **calculator** will only give **one solution** to an equation like  $x = \sin ^{- 1} ( 1 \frac{1}{2} )$
   
     - This solution is called the **primary value**
   - However due to the **periodic **nature of the trig functions there there are **an infinite number** of solutions
@@ -255,8 +255,8 @@ Add or subtract (multiples of) either 360° or 2*π* radians to or from both val
 >   - This can help you keep the trig functions and their values straight
 > - Note that for $0^{\circ}$, $30^{\circ}$, $45^{\circ}$, $60^{\circ}$, $90^{\circ}$
 > 
->   - The sine values run  `0 comma fraction numerator space square root of 1 over denominator 2 end fraction space open parentheses equals 1 half close parentheses comma fraction numerator space square root of 2 over denominator 2 end fraction comma fraction numerator space square root of 3 over denominator 2 end fraction comma fraction numerator space square root of 4 over denominator 2 end fraction space open parentheses equals 1 close parentheses`
->   - The cosine values run  `fraction numerator space square root of 4 over denominator 2 end fraction space open parentheses equals 1 close parentheses comma space fraction numerator space square root of 3 over denominator 2 end fraction comma space fraction numerator space square root of 2 over denominator 2 end fraction comma space fraction numerator space square root of 1 over denominator 2 end fraction space open parentheses equals 1 half close parentheses comma space 0`
+>   - The sine values run  $0 , \frac{ \sqrt{1} }{2} ( = 1 \frac{1}{2} ) , \frac{ \sqrt{2} }{2} , \frac{ \sqrt{3} }{2} , \frac{ \sqrt{4} }{2} ( = 1 )$
+>   - The cosine values run  $\frac{ \sqrt{4} }{2} ( = 1 ) , \frac{ \sqrt{3} }{2} , \frac{ \sqrt{2} }{2} , \frac{ \sqrt{1} }{2} ( = 1 \frac{1}{2} ) , 0$
 >   - Values for tangent can be found using  $\mathrm{tan}θ=\frac{\mathrm{sin}θ}{\mathrm{cos}θ}$
 
 > **Worked Example**

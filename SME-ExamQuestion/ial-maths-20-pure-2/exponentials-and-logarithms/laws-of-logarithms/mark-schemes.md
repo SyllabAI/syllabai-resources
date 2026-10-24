@@ -50,9 +50,9 @@ $\frac{1}{16}$
 
 (iii)
 
-> *Use the indices law *`a to the power of 1 over m end exponent equals m-th root of a`*, noting that *`square root of a equals square root of a`
+> *Use the indices law *`a ^ 1 / m = m-th sqrt of a`*, noting that *$\sqrt{a} = \sqrt{a}$
 
-`table row cell 9 to the power of 0.5 end exponent end cell equals cell 9 to the power of 1 half end exponent end cell row blank equals cell square root of 9 end cell end table`
+$\begin{gathered} 9^{0.5} & = 9^{1 \frac{1}{2}} \\ = \sqrt{9} \end{gathered}$
 
 **Final answer:** **3**
 

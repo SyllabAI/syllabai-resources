@@ -146,7 +146,7 @@ $\frac{Q}{Q_{0}}=e^{-(t/RC)}$
 
 - Taking the **natural** **logarithm** of both sides 'cancels' the exponential function *e*, giving:
 
-`ln space open parentheses Q over Q subscript 0 close parentheses equals ln space left parenthesis e to the power of negative left parenthesis t divided by R C right parenthesis end exponent right parenthesis equals negative fraction numerator t over denominator R C end fraction`
+$\ln ( \frac{Q}{Q} _{0} ) = \ln ( e^{- ( t \div R C )} ) = - \frac{t}{R C}$
 
 - This simplifies to:
 

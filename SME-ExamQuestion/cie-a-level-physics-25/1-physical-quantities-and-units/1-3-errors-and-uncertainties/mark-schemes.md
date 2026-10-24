@@ -123,8 +123,8 @@
 - $\mathrm{average} \mathrm{speed}=\frac{\mathrm{distance}}{\mathrm{time}}=\frac{40.0}{2.50}=16.0ms^{-1}$(3 s.f.)
 - To work out uncertainty in data which is multiplied or divided we add the percentage uncertainties
 
-  - `percent sign space uncertainty equals uncertainty over value cross times 100`
-  - `open parentheses fraction numerator 0.05 over denominator 2.50 end fraction cross times 100 close parentheses plus open parentheses fraction numerator 0.1 over denominator 40 end fraction cross times 100 close parentheses equals space 2.0 space percent sign space plus space 0.25 space percent sign space equals space 2.25 space percent sign`
+  - $\% \text{uncertainty} = \frac{uncertainty}{value} \times 100$
+  - $( \frac{0.05}{2.50} \times 100 ) + ( \frac{0.1}{40} \times 100 ) = 2.0 \% + 0.25 \% = 2.25 \%$
 - Then we find 2.25 % of 16 which is $16\times\frac{2.25}{100}=0.36$
 - The precision of the uncertainty must match the precision of the value so average speed = 16.0 ± 0.4 m s<sup>–1</sup>
 
@@ -144,10 +144,10 @@
 
 - To find out which value has the greatest effect on the overall uncertainty, we have to compare the percentage uncertainty of each value
 
-  - length, *l *: `fraction numerator 0.002 over denominator 2.043 end fraction cross times 100 equals 0.1 space percent sign`
-  - diameter, *d*<sup>* *</sup><sup>2 </sup>: `2 cross times fraction numerator 0.02 over denominator 0.54 end fraction cross times 100 equals 7.4 space percent sign`
-  - force, *F *: `fraction numerator 0.01 over denominator 19.62 end fraction cross times 100 equals 0.05 space percent sign`
-  - extension, *x :* `fraction numerator 0.2 over denominator 5.2 end fraction cross times 100 equals 3.8 space percent sign`
+  - length, *l *: $\frac{0.002}{2.043} \times 100 = 0.1 \%$
+  - diameter, *d*<sup>* *</sup><sup>2 </sup>: $2 \times \frac{0.02}{0.54} \times 100 = 7.4 \%$
+  - force, *F *: $\frac{0.01}{19.62} \times 100 = 0.05 \%$
+  - extension, *x :* $\frac{0.2}{5.2} \times 100 = 3.8 \%$
 - The value with the largest percentage uncertainty is diameter
 
 **Exam Tip:** The diameter has the largest effect on the value of Young Modulus due it being squared. When a quantity is raised to a power, you must multiply the percentage uncertainty by the power
@@ -179,7 +179,7 @@
 
 - The equation for Young Modulus is:
 
-  - `Y o u n g space M o d u l u s space equals space fraction numerator F o r c e open parentheses F close parentheses over denominator A r e a open parentheses A close parentheses end fraction cross times fraction numerator l e n g t h open parentheses l close parentheses over denominator e x t e n s i o n open parentheses x close parentheses end fraction equals fraction numerator l o a d cross times l e n g t h over denominator pi over 4 cross times d i a m e t e r squared cross times e x t e n s i o n end fraction`
+  - $Y o u n g M o d u l u s = \frac{F o r c e ( F ) }{A r e a ( A ) } \times \frac{l e n g t h ( l ) }{e x t e n s i o n ( x ) } = \frac{l o a d \times l e n g t h}{\frac{pi}{4} \times d i a m e t e r ^{2} \times e x t e n s i o n}$
 - To find the percentage uncertainty in Young Modulus we must add the uncertainties in the measurements
 - We can ignore the $\frac{π}{4}$  since it is a constant with no units, and it is important to multiply the uncertainty in the diameter by 2 since the diameter is squared
 
@@ -190,7 +190,7 @@
 
 - The equation relating speed, distance and time is given by
 
-  - `s p e e d space open parentheses v close parentheses equals fraction numerator d i s t a n c e space open parentheses s close parentheses over denominator t i m e space open parentheses t close parentheses end fraction`
+  - $s p e e d ( v ) = \frac{d i s t a n c e ( s )}{t i m e ( t )}$
 - The value and uncertainty in distance is:
 
   - s = 385 – 115 = 270 mm
@@ -241,7 +241,7 @@
 
 - The equation relating density, mass and volume is given by
 
-  - `d e n s i t y space open parentheses rho close parentheses equals fraction numerator m a s s open parentheses m close parentheses over denominator v o l u m e open parentheses v close parentheses end fraction`
+  - $d e n s i t y ( \\rho ) = \frac{m a s s ( m )}{v o l u m e ( v )}$
 - The value and uncertainty in mass is:
 
   - *m* = 70 – 20 = 50 g
@@ -255,7 +255,7 @@
   - $\frac{\Deltaρ}{ρ}=\frac{\Deltam}{m}+\frac{\DeltaV}{V}$
   - $\frac{\Deltaρ}{ρ}=\frac{2}{50}+\frac{0.5}{10}=0.04+0.05=0.09$
   - $\frac{\Deltaρ}{ρ}=0.09,whereρ=5.0g\mathrm{cm}^{-3}$so
-  - `increment rho equals 5 cross times 0.09 equals 0.45 space straight g space cm to the power of negative 3 end exponent open parentheses 2 space s. f close parentheses`
+  - $\Delta \\rho = 5 \times 0.09 = 0.45 \mathrm{g} cm^{- 3} ( 2 s. f )$
 
 ### Q21
 **Final answer:** **The correct answer is ****B**** because:**

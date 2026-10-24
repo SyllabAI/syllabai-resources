@@ -25,7 +25,7 @@ On each diagram, state the coordinates of the image of point $A$ under the given
 ### 1() — 4 marks — structured
 Given that $y=f(x)$, find equations, in terms of $f(x)$, for the following transformations:
 
-(i) Translation by `open parentheses table row cell negative 2 end cell row 3 end table close parentheses`
+(i) Translation by $( \begin{gathered} - 2 \\ 3 \end{gathered} )$
 
 (ii) Horizontal stretch of scale factor 2 followed by a vertical stretch of scale factor 3
 
@@ -39,7 +39,7 @@ The graph of $y=f(x)$ where $f(x)=2x-3$ is shown below.
 Determine the coordinates of the points marked $A$ and $B$.
 
 ### 2() — 5 marks — structured
-(i) On the diagram above sketch the graph of `y equals vertical line straight f left parenthesis x minus 1 right parenthesis vertical line`.
+(i) On the diagram above sketch the graph of $y = \vert \mathrm{f} ( x - 1 ) \vert$.
 
 (ii) Determine the coordinates of the image of the points $A$and $B$ under the transformation in part (i).
 
@@ -105,7 +105,7 @@ The function $f(x)$ is to be transformed by a sequence of functions, in the orde
 
 1. A reflection in the $y$-axis.
 2. A vertical stretch of scale factor 4.
-3. A translation by `open parentheses table row 0 row cell negative 2 end cell end table close parentheses`
+3. A translation by $( \begin{gathered} 0 \\ - 2 \end{gathered} )$
 
 Write down an expression for the combined transformation in terms of $f(x)$.
 
@@ -151,11 +151,11 @@ Describe, in order, a sequence of transformations that maps the graph of $y=f(x)
 ### 1() — 4 marks — structured
 Given that $f(x)=3x^{2}-2x$ find an expression for $g(x)$, where $g(x)$ is obtained by applying the following sequence of transformations to $f(x)$.
 
-1.    Translation by `open parentheses table row 2 row 0 end table close parentheses`
+1.    Translation by $( \begin{gathered} 2 \\ 0 \end{gathered} )$
 
 2.   Vertical stretch of scale factor 4
 
-3.   Translation by `open parentheses table row 0 row cell negative 3 end cell end table close parentheses`
+3.   Translation by $( \begin{gathered} 0 \\ - 3 \end{gathered} )$
 
 ## Q13 — medium — 8 marks · exam-questions
 
@@ -168,9 +168,9 @@ Label the coordinates of the points where each graph crosses the coordinate axes
 ### 2() — 4 marks — structured
 (i)       Find an expression for $p^{-1}(x)$.
 
-(ii)     Find an expression for `1 over 9 space left square bracket straight p left parenthesis x right parenthesis plus 16 right square bracket`.
+(ii)     Find an expression for $\frac{1}{9} [ \mathrm{p} ( x ) + 16 ]$.
 
-(iii)   What can you deduce about the sequence of transformations given by `begin inline style 1 over 9 end style left square bracket straight p left parenthesis x right parenthesis plus 16 right square bracket` ?
+(iii)   What can you deduce about the sequence of transformations given by $\text{begin} \text{inline} \text{style} \frac{1}{9} [ \mathrm{p} ( x ) + 16 ]$ ?
 
 ## Q14 — medium — 6 marks · exam-questions
 
@@ -215,7 +215,7 @@ The function $f(x)$ is to be transformed by a sequence of functions, in the orde
 
 1. A horizontal stretch by scale factor 2
 2. A reflection in the $x$-axis
-3. A translation by `open parentheses table row 0 row 2 end table close parentheses`
+3. A translation by $( \begin{gathered} 0 \\ 2 \end{gathered} )$
 
 Write down an expression for the combined transformation in terms of $f(x)$.
 
@@ -234,7 +234,7 @@ Write down the equations of the two asymptotes.
 Determine the equations of the two asymptotes on the graph of $y=g(2x)-3$.
 
 ### 3() — 2 marks — structured
-Determine the range of `vertical line straight g left parenthesis 3 x right parenthesis minus 2 vertical line`.
+Determine the range of $\vert \mathrm{g} ( 3 x ) - 2 \vert$.
 
 ## Q18 — medium — 3 marks · exam-questions
 
@@ -247,7 +247,7 @@ Determine the coordinates of the stationary point on the graphs with the followi
 
 (ii) $y=-h(x+1)+2$,
 
-(iii) `y equals vertical line straight h left parenthesis 3 x right parenthesis plus 2 vertical line`.
+(iii) $y = \vert \mathrm{h} ( 3 x ) + 2 \vert$.
 
 ## Q19 — medium — 4 marks · exam-questions
 
@@ -256,9 +256,9 @@ The turning point on the graph of $y=f(x)$ has coordinates $(2,-5)$ as shown on 
 
 ![q12-2-10-combinations-of-transformations-a-level-only-edexcel-a-level-pure-maths-medium](assets/001-q12-2-10-combinations-of-transformations-a-level.png)
 
-(i) On the diagram above sketch the graph of `y equals vertical line straight f left parenthesis x right parenthesis vertical line plus 1`  and state the coordinates of the turning point.
+(i) On the diagram above sketch the graph of $y = \vert \mathrm{f} ( x ) \vert + 1$  and state the coordinates of the turning point.
 
-(ii) State the distance between the turning points on the graphs of $y=f(x)$ and `y equals vertical line straight f left parenthesis x right parenthesis vertical line plus 1`. .
+(ii) State the distance between the turning points on the graphs of $y=f(x)$ and $y = \vert \mathrm{f} ( x ) \vert + 1$. .
 
 ## Q20 — hard — 6 marks · exam-questions
 
@@ -280,14 +280,14 @@ On each diagram, mark the coordinates of the images of the points $A,B$and $C$ u
 ### 1() — 4 marks — structured
 Given that $f(x)=\mathrm{ln}(2x+1)$ find an expression for $g(x)$, where $g(x)$ is obtained by applying the following sequence of transformations to $f(x)$.
 
-1. Translation by `open parentheses table row cell negative 3 end cell row 0 end table close parentheses`,
+1. Translation by $( \begin{gathered} - 3 \\ 0 \end{gathered} )$,
 2. Horizontal stretch by scale factor $\frac{1}{2}$,
 3. Reflection in the $x$-axis.
 
 ## Q22 — hard — 9 marks · exam-questions
 
 ### 1() — 3 marks — structured
-On the same axes sketch the graphs of $y=p(x)$ and $y=p^{-1}(x)$, where `straight p left parenthesis x right parenthesis equals vertical line 2 x vertical line comma space space x less or equal than 0`.
+On the same axes sketch the graphs of $y=p(x)$ and $y=p^{-1}(x)$, where $\mathrm{p} ( x ) = \vert 2 x \vert , x \text{less} \text{or} \text{equal} \text{than} 0$.
 
 ### 2() — 3 marks — structured
 Find an expression for $p^{-1}(x)$ and state its domain.
@@ -330,10 +330,10 @@ Find, in terms of $f(t)$, the combination of transformations that would map the 
 ### 1() — 3 marks — structured
 The function $f(x)$ is to be transformed by a sequence of functions, in the order detailed below.
 
-1. A translation by `open parentheses table row 2 row 0 end table close parentheses`
+1. A translation by $( \begin{gathered} 2 \\ 0 \end{gathered} )$
 2. A reflection in the $y$-axis
 3. A vertical stretch by scale factor $\frac{2}{3}$
-4. A translation by `open parentheses table row 0 row 4 end table close parentheses`
+4. A translation by $( \begin{gathered} 0 \\ 4 \end{gathered} )$
 
 Write down the combined transformation in terms of $f(x)$.
 
@@ -344,10 +344,10 @@ The minimum point on the graph of $y=f(x)$ has coordinates $(4,-8)$ as shown on 
 
 ![q10a-2-10-combinations-of-transformations-a-level-only-edexcel-a-level-pure-maths-hard](assets/049-q10a-2-10-combinations-of-transformations-a-leve.png)
 
-Sketch the graph of `y equals vertical line straight f left parenthesis 2 x right parenthesis vertical line minus 3` and state the coordinates of the maximum point.
+Sketch the graph of $y = \vert \mathrm{f} ( 2 x ) \vert - 3$ and state the coordinates of the maximum point.
 
 ### 2() — 2 marks — structured
-Find the exact distance between the minimum point on the graph of $y=f(x)$ and the maximum point on the graph of `y equals vertical line straight f left parenthesis 2 x right parenthesis vertical line minus 3`.
+Find the exact distance between the minimum point on the graph of $y=f(x)$ and the maximum point on the graph of $y = \vert \mathrm{f} ( 2 x ) \vert - 3$.
 
 ## Q27 — very_hard — 6 marks · exam-questions
 
@@ -424,7 +424,7 @@ Points $A$and $B$ are the $x$-axis intercepts and point $C$ is the maximum point
 
 ![q9a-2-10-combinations-of-transformations-a-level-only-edexcel-a-level-pure-maths-veryhard](assets/030-q9a-2-10-combinations-of-transformations-a-level.png)
 
-On the diagram above, sketch the graph of `y equals negative vertical line 1 fourth space straight f left parenthesis 1 half space x right parenthesis vertical line`labelling the image of the points $A,B$ and $C$ with $A^{'},B^{'}$and $C'$.
+On the diagram above, sketch the graph of $y = - \vert 1 \frac{1}{4} \mathrm{f} ( 1 \frac{1}{2} x ) \vert$labelling the image of the points $A,B$ and $C$ with $A^{'},B^{'}$and $C'$.
 
 ### 2() — 4 marks — structured
 Show that the area of $ABC$ is twice the area of triangle $A'B'C'$.

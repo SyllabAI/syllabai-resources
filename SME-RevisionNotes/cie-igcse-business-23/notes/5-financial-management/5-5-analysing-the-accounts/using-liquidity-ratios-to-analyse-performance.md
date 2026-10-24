@@ -43,9 +43,9 @@ $\mathrm{Current} \mathrm{ratio}=\frac{\mathrm{Current} \mathrm{assets}}{\mathrm
 > 
 > **Step 1: Substitute the values into the equation**
 > 
-> `$ 15 comma 545 space divided by space $ 5 comma 060
+> $\$ 15 , 545 \div \$ 5 , 060
 > 
-> equals space 3.07`       **[1]**
+> = 3.07$       **[1]**
 > 
 > **Step 2: Express the outcome as a ratio**
 > 
@@ -75,18 +75,18 @@ $\mathrm{Acid} \mathrm{test} \mathrm{ratio}=\frac{\mathrm{Current} \mathrm{asset
 > 
 > **Step 1: Subtract stock from current assets **
 > 
-> `$ 15 comma 545 space minus space $ 8 comma 250
+> $\$ 15 , 545 - \$ 8 , 250
 > 
-> equals space $ 7 comma 295`     **[1]**
+> = \$ 7 , 295$     **[1]**
 > ** **
 > 
 > **Step 1: Substitute the values into the equation**
 > 
-> `Acid space test space ratio space equals space fraction numerator space Current space assets space minus space stock over denominator Current space liabilities end fraction
+> $\text{Acid} \text{test} \text{ratio} = \frac{ \text{Current} \text{assets} - stock}{Current liabilities} 
 > 
-> equals space fraction numerator space $ 7 comma 295 over denominator $ 5 comma 060 end fraction
+> = \frac{ \$ 7 , 295}{\$ 5 , 060} 
 > 
-> equals space 1.44`  **   ****[1]**
+> = 1.44$  **   ****[1]**
 > 
 > ** **
 > **Step 2: Express the outcome as a ratio**

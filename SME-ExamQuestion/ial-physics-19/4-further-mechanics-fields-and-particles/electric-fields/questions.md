@@ -125,7 +125,7 @@ Assume the generator is operated without the grounded discharge sphere nearby.
 ### 16((a)) — 3 marks — command: calculate — structured — from paper June 2021 · WPH14/01
 A point positive charge and a point negative charge are placed 8.0 cm apart at X and Y, as shown.
 
-`straight X with ● on top`                                               `straight Y with ● on top`
+$\mathrm{X} \text{with} ● on \text{top}$                                               $\mathrm{Y} \text{with} ● on \text{top}$
 
 Calculate the magnitude of the electric field strength midway between X and Y.
 

@@ -94,11 +94,11 @@ The break-even point is the point at which total costs and total revenue are the
 
 The percentage increase in revenue from 2021 to 2022 is calculated as:
 
-`fraction numerator 772.80 minus 249.60 over denominator 249.60 end fraction cross times 100
+$\frac{772.80 - 249.60}{249.60} \times 100
 
-equals fraction numerator 523.20 over denominator 249.60 end fraction cross times 100
+= \frac{523.20}{249.60} \times 100
 
-equals 209.62 percent sign`
+= 209.62 \%$
 
 **A** is incorrect as `5.23\%` does not reflect the correct percentage change calculation
 
@@ -302,11 +302,11 @@ Since total costs exceed revenue, the business makes a loss: $4  850  000 - 5  4
 
 The percentage increase is calculated as:
 
-`fraction numerator 40.81 minus 38.5 over denominator 38.5 end fraction cross times 100
+$\frac{40.81 - 38.5}{38.5} \times 100
 
-equals fraction numerator 2.31 over denominator 38.5 end fraction cross times 100
+= \frac{2.31}{38.5} \times 100
 
-equals 6 percent sign`
+= 6 \%$
 
 **A** is incorrect as it divides the change by the original but does not multiply by 100 ($2 . 31 \div 38 . 5 = 0 . 06$)
 
@@ -451,7 +451,7 @@ $=57498-39631=17867$
 
 $=\frac{17867}{39631}\times100$ **[1 mark]**
 
-`equals space 45.08 percent sign` **[1 mark]**
+$= 45.08 \%$ **[1 mark]**
 
 Final answer: **45.08%**
 

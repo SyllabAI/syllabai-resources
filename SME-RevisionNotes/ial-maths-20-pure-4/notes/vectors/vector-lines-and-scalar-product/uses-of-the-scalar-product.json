@@ -281,11 +281,11 @@
   },
   {
    "type": "paragraph",
-   "md": "`bold a bold times bold b equals open vertical bar bold a close vertical bar open vertical bar bold b close vertical bar cos invisible function application theta`"
+   "md": "$a \\times b = \\left| a \\right| \\left| b \\right| \\cos \\\\theta$"
   },
   {
    "type": "bullets",
-   "md": "- where $θ$ is the angle between the vectors when they are placed **‘base to base’**\n\n  - that is, when the vectors are positioned so that they start at the same point\n- We arrange this formula to make $\\mathrm{cos}θ$ the subject:\n\n  - `cos space theta equals fraction numerator bold a times bold b over denominator open vertical bar bold a close vertical bar space open vertical bar bold b close vertical bar end fraction`\n- To find the angle between two vectors\n\n  - Calculate the scalar product between them\n  - Calculate the magnitude of each vector\n  - Use the formula to find $\\mathrm{cos}θ$\n  - Use inverse trig to find $θ$"
+   "md": "- where $θ$ is the angle between the vectors when they are placed **‘base to base’**\n\n  - that is, when the vectors are positioned so that they start at the same point\n- We arrange this formula to make $\\mathrm{cos}θ$ the subject:\n\n  - $\\cos \\\\theta = \\frac{a \\times b}{\\left| a \\right| \\left| b \\right|}$\n- To find the angle between two vectors\n\n  - Calculate the scalar product between them\n  - Calculate the magnitude of each vector\n  - Use the formula to find $\\mathrm{cos}θ$\n  - Use inverse trig to find $θ$"
   },
   {
    "type": "heading",
@@ -302,7 +302,7 @@
   },
   {
    "type": "paragraph",
-   "md": "`theta equals cos to the power of negative 1 end exponent open parentheses fraction numerator bold d subscript 1 bold times bold d subscript 2 over denominator open vertical bar bold d subscript 1 close vertical bar open vertical bar bold d subscript 2 close vertical bar end fraction close parentheses`"
+   "md": "$\\\\theta = \\cos ^{- 1} ( \\frac{d_{1} \\times d_{2} }{\\left| d_{1} \\right| \\left| d_{2} \\right|} )$"
   },
   {
    "type": "heading",
@@ -311,11 +311,11 @@
   },
   {
    "type": "bullets",
-   "md": "- Two (non-zero) vectors $a$ and $b$ are **perpendicular** if, and only if, `bold a bold times bold b equals 0`\n\n  - If the **a **and **b **are perpendicular then:\n  \n    - `theta equals 90 degree rightwards double arrow cos space theta equals 0 rightwards double arrow open vertical bar bold a close vertical bar open vertical bar bold b close vertical bar cos space theta blank equals 0 rightwards double arrow bold a bold times bold b equals 0`\n  - If  `bold a bold times bold b equals 0` then:\n  \n    - `open vertical bar bold a close vertical bar open vertical bar bold b close vertical bar cos space theta blank equals 0 rightwards double arrow cos space theta equals 0 rightwards double arrow theta equals 90 degree rightwards double arrow` **a **and **b **are perpendicular\n  - For example, the vectors $2i-3j+5k$ and $-4i-j+k$ ** **are perpendicular since"
+   "md": "- Two (non-zero) vectors $a$ and $b$ are **perpendicular** if, and only if, $a \\times b = 0$\n\n  - If the **a **and **b **are perpendicular then:\n  \n    - $\\\\theta = 90^{\\circ} \\Leftrightarrow \\cos \\\\theta = 0 \\Leftrightarrow \\left| a \\right| \\left| b \\right| \\cos \\\\theta = 0 \\Leftrightarrow a \\times b = 0$\n  - If  $a \\times b = 0$ then:\n  \n    - $\\left| a \\right| \\left| b \\right| \\cos \\\\theta = 0 \\Leftrightarrow \\cos \\\\theta = 0 \\Leftrightarrow \\\\theta = 90^{\\circ} \\Leftrightarrow$ **a **and **b **are perpendicular\n  - For example, the vectors $2i-3j+5k$ and $-4i-j+k$ ** **are perpendicular since"
   },
   {
    "type": "paragraph",
-   "md": "`open parentheses 2 i minus 3 j plus 5 k blank close parentheses times open parentheses negative 4 i minus j plus k close parentheses equals 2 cross times open parentheses negative 4 close parentheses plus open parentheses negative 3 close parentheses cross times open parentheses negative 1 close parentheses plus 5 cross times 1 equals negative 8 plus 3 plus 5 equals 0`"
+   "md": "$( 2 i - 3 j + 5 k ) \\times ( - 4 i - j + k ) = 2 \\times ( - 4 ) + ( - 3 ) \\times ( - 1 ) + 5 \\times 1 = - 8 + 3 + 5 = 0$"
   },
   {
    "type": "heading",
@@ -324,7 +324,7 @@
   },
   {
    "type": "bullets",
-   "md": "- Suppose that we have a line $l$ with equation $r=a+td$  and a point** **$P$ not on $l$\n- Let $F$ be the **point on** $l$ which is **closest to **$P$ (sometimes called the **foot of the perpendicular**)\n\n  - Then the line between $F$ and $P$ will be perpendicular to the line $l$\n- To find the closest point $F$\n\n  - Call $f=\\overset{\\rightarrow}{\\mathrm{OF}}$ and $p=\\overset{\\rightarrow}{OP}$\n  - Since $F$ lies on $l$, we have $f=a+t_{0}d$, for a unique real number $t_{0}$\n  - Find the vector $\\overset{\\rightarrow}{FP}$ using $p-f$\n  - $\\overset{\\rightarrow}{FP}$ **is perpendicular to **$d$ so form an equation using `open parentheses bold p minus bold f close parentheses times bold d equals 0`\n  - Solve this equation to find the value of $t_{0}$\n  - Use the value of $t_{0}$ to find $f$\n- The **shortest distance** between the point $P$ and the line $l$ is the **length **`open vertical bar stack F P with rightwards arrow on top close vertical bar`\n- Note that the **shortest distance between the point and the line** is sometimes referred to as the **length of the perpendicular**"
+   "md": "- Suppose that we have a line $l$ with equation $r=a+td$  and a point** **$P$ not on $l$\n- Let $F$ be the **point on** $l$ which is **closest to **$P$ (sometimes called the **foot of the perpendicular**)\n\n  - Then the line between $F$ and $P$ will be perpendicular to the line $l$\n- To find the closest point $F$\n\n  - Call $f=\\overset{\\rightarrow}{\\mathrm{OF}}$ and $p=\\overset{\\rightarrow}{OP}$\n  - Since $F$ lies on $l$, we have $f=a+t_{0}d$, for a unique real number $t_{0}$\n  - Find the vector $\\overset{\\rightarrow}{FP}$ using $p-f$\n  - $\\overset{\\rightarrow}{FP}$ **is perpendicular to **$d$ so form an equation using $( p - f ) \\times d = 0$\n  - Solve this equation to find the value of $t_{0}$\n  - Use the value of $t_{0}$ to find $f$\n- The **shortest distance** between the point $P$ and the line $l$ is the **length **$\\left| \\vec{FP} \\right|$\n- Note that the **shortest distance between the point and the line** is sometimes referred to as the **length of the perpendicular**"
   },
   {
    "type": "figure",

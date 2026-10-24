@@ -62,7 +62,7 @@ $Φ=BA$
 - When the magnet field lines are not completely perpendicular to the area *A*, then the component of magnetic flux density *B* perpendicular to the area is taken
 - The equation then becomes:
 
-`capital phi space equals space B A cos open parentheses theta close parentheses`
+$\\Phi = B A \cos ( \\theta )$
 
 - Where:
 
@@ -108,7 +108,7 @@ $Φ=BA$
 > 
 > **Step 3: Substitute in values**
 > 
-> `capital phi space equals space open parentheses 1.8 space cross times space 10 to the power of negative 5 end exponent close parentheses space cross times space 0.292 space equals space 5.256 space cross times space 10 to the power of negative 6 end exponent space equals space 5.3 space cross times space 10 to the power of negative 6 end exponent space Wb`
+> $\\Phi = ( 1.8 \times 10^{- 5} ) \times 0.292 = 5.256 \times 10^{- 6} = 5.3 \times 10^{- 6} \text{Wb}$
 
 > **Exam Hint**
 > Consider carefully the value of θ, which is the angle between the field lines and the line **normal** (perpendicular) to the plane of the area through which the field lines pass. If it helps, drawing the normal on the area provided will help visualise the correct angle.

@@ -281,7 +281,7 @@ Show that, when charging from 0 C, the time taken for the charge stored in the c
 
 The equation for the charging of a capacitor is:
 
-`x space equals space x subscript 0 open parentheses 1 space minus space e to the power of negative fraction numerator t over denominator R C end fraction end exponent close parentheses`
+$x = x_{0} ( 1 - e^{- \frac{t}{R C}} )$
 
 where $x_{0}$ represents the maximum value of a given quantity.
 
@@ -311,7 +311,7 @@ Calculate the time constant of the circuit shown in Fig. 1.1.
 
 The capacitor discharge equation is given by:
 
-`X space equals space X subscript 0 e to the power of negative open parentheses fraction numerator t over denominator R C end fraction close parentheses end exponent`
+$X = X_{0} e^{- ( \frac{t}{R C} )}$
 
 State the name of each quantity given in the equation.
 

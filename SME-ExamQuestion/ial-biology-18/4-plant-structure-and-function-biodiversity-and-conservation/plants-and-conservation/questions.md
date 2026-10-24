@@ -107,7 +107,7 @@ The results of the investigation described in (a) are shown in the table below.
 
 A Spearman's rank correlation coefficient was calculated for the data in the table. The formula is:
 
-r<sub>s</sub> = 1 − `fraction numerator 6 open parentheses sum d squared close parentheses over denominator n open parentheses n squared minus 1 close parentheses end fraction`
+r<sub>s</sub> = 1 − $\frac{6 ( \text{sum} d^{2} )}{n ( n^{2} - 1 )}$
 
 Use the table below to calculate the value of r<sub>s</sub>
 

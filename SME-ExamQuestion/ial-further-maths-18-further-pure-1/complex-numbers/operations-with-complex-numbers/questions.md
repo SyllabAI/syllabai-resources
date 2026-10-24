@@ -21,13 +21,13 @@ The complex number $z$ is defined by
 
 $z=-3+4i$
 
-Determine `open vertical bar z squared minus 3 close vertical bar`
+Determine $\left| z^{2} - 3 \right|$
 
 ### 4((b)) — 3 marks — structured — from paper June 2024 · WFM01/01
 Express $\frac{50}{z^{\ast}}$ in the form $kz$ , where $k$ is a positive integer.
 
 ### 4((c)) — 2 marks — structured — from paper June 2024 · WFM01/01
-Hence find the value of `arg blank space open parentheses 50 over z to the power of asterisk times close parentheses`
+Hence find the value of $\text{arg} ( \frac{50}{z^{asterisk}} \times )$
 
 Give your answer in radians to 3 significant figures.
 
@@ -56,7 +56,7 @@ find the possible values of `equation`$λ$.
 
 $z_{1}=3+2iz_{2}=2+3iz_{3}=a+bia,b\inℝ$
 
-Determine the exact value of `vertical line z subscript 1 plus z subscript 2 vertical line`
+Determine the exact value of $\vert z_{1} + z_{2} \vert$
 
 ### 6((b)) — 4 marks — structured — from paper June 2023 · WFM01/01
 Given that $w=\frac{z_{2}z_{3}}{z_{1}}$
@@ -76,9 +76,9 @@ Determine $\mathrm{arg}w$, giving your answer in radians to 4 significant figure
 ### 1((a)) — 2 marks — structured — from paper June 2022 · WFM01/01
 $z_{1}=3+3iz_{2}=p+qip,q\inℝ$
 
-Given that `vertical line z subscript 1 z subscript 2 vertical line equals 15 square root of 2`
+Given that $\vert z_{1} z_{2} \vert = 15 \sqrt{2}$
 
-determine `vertical line z subscript 2 vertical line`
+determine $\vert z_{2} \vert$
 
 ### 1((b)) — 2 marks — structured — from paper June 2022 · WFM01/01
 Given also that $p=-4$
@@ -100,7 +100,7 @@ Show $z_{1}$ and $z_{2}$ on a single Argand diagram.
 ### 2() — 4 marks — structured — from paper Jan 2022 · Paper 1
 **Without using your calculator and showing all stages of your working,**
 
-(i) determine the value of  `vertical line z subscript 1 vertical line`
+(i) determine the value of  $\vert z_{1} \vert$
 
 [1]
 
@@ -125,7 +125,7 @@ where $p$ is a real number.
 Find $\frac{z_{2}z_{3}}{z_{1}}$ in the form $a+bi$ where $a$ and $b$ are real. Give your answer in its simplest form in terms of $p$.
 
 ### 2((b)) — 4 marks — structured — from paper June 2021 · Paper 1
-Given that `open vertical bar fraction numerator z subscript 2 z subscript 3 over denominator z subscript 1 end fraction close vertical bar equals 2 square root of 5`
+Given that $\left| \frac{z_{2} z_{3} }{z_{1} } \right| = 2 \sqrt{5}$
 
 find the possible values of p.
 

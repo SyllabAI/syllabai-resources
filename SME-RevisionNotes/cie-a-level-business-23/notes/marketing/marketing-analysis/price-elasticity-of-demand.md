@@ -37,11 +37,11 @@ guided_study: false
   - If the price goes down, the quantity demanded goes up
 - **PED can be calculated** using the formula
 
-`text PED =  end text fraction numerator percent sign space Change space in space quantity space demanded over denominator percent sign space Change space in space price end fraction space equals space fraction numerator percent sign triangle space in thin space QD over denominator percent sign triangle in space straight P end fraction`
+$\text{PED = } \frac{\% \text{Change} \text{in} \text{quantity} demanded}{\% \text{Change} \text{in} price} = \frac{\% \Delta \text{in} QD}{\% \Delta \text{in} \mathrm{P} }$
 
 - **To calculate a % change**, use the formula
 
-`percent sign space Change space equals space fraction numerator New space value space minus space Old space value over denominator Old space value end fraction space cross times space 100`
+$\% \text{Change} = \frac{New \text{value} - \text{Old} value}{Old value} \times 100$
 
 > **Worked Example**
 > Helsinki Hurricanes sells team shirts for \$24. In 2024 it sold 3,240 shirts at this price. Due to increased costs, the team manager has decided to increase the price to \$30 per shirt from 2025. She expects demand to fall by 12%.
@@ -52,15 +52,15 @@ guided_study: false
 > 
 > **Step 1: Calculate the percentage change in price**
 > 
-> `equals space fraction numerator $ 30 space minus space $ 24 over denominator $ 24 end fraction space cross times space 100
+> $= \frac{\$ 30 - \$ 24}{\$ 24} \times 100
 > 
-> equals space 25 percent sign`      ** [1]**
+> = 25 \%$      ** [1]**
 > 
 > **Step 2: Divide the percentage change in demand by the percentage change in price**
 > 
-> `equals space fraction numerator negative 12 percent sign over denominator 25 percent sign end fraction
+> $= \frac{- 12 \%}{25 \%} 
 > 
-> equals space minus 0.48`     ** [1]**
+> = - 0.48$     ** [1]**
 
 - In some cases, you may be required to calculate the percentage change in price or demand
 - This involves rearranging the PED formula
@@ -74,23 +74,23 @@ guided_study: false
 > 
 > **Step 1: **State the PED formula
 > 
-> `text PED  end text space equals space fraction numerator percent sign space Change space in thin space demand over denominator percent sign space Change space in space price end fraction`   ** ****(1 )**
+> $\text{PED } = \frac{\% \text{Change} \text{in} demand}{\% \text{Change} \text{in} price}$   ** ****(1 )**
 > 
 > **Step 2: **Calculate the percentage change in price
 > 
-> `equals space fraction numerator $ 6 space minus space $ 5 over denominator $ 5 end fraction space cross times space 100 space
+> $= \frac{\$ 6 - \$ 5}{\$ 5} \times 100 
 > 
-> equals space 20 percent sign space increase`    ** ****(1 )**
+> = 20 \% \text{increase}$    ** ****(1 )**
 > 
 > **Step 3: **Insert the data you have been given into the formula
 > 
-> `negative 0.8 space equals space fraction numerator straight x over denominator 20 percent sign end fraction`      ** ****(1 )**
+> $- 0.8 = \frac{ \mathrm{x} }{20 \%}$      ** ****(1 )**
 > 
 > **Step 4: **Rearrange and solve for x
 > 
-> `x space equals space minus 0.8 space cross times space 20
+> $x = - 0.8 \times 20
 > 
-> x space equals space minus 16 percent sign`           ** ****(1 )**
+> x = - 16 \%$           ** ****(1 )**
 > 
 > **Step 5: **Present the final answer
 > 

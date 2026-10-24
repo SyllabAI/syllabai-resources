@@ -46,7 +46,7 @@ $F_{G}=\frac{Gm_{1}m_{2}}{r^{2}}$
   - their separation is much larger than their radii
 
 - The $\frac{1}{r^{2}}$ relation is called the **inverse square law**
-- This means that when a mass is twice as far away from another, the gravitational force reduces by a quarter, i.e. `open parentheses 1 half close parentheses squared space equals space 1 fourth`
+- This means that when a mass is twice as far away from another, the gravitational force reduces by a quarter, i.e. $( 1 \frac{1}{2} )^{2} = 1 \frac{1}{4}$
 
 > **Worked Example**
 > A satellite of mass 6500 kg is orbiting the Earth at 2000 km above the Earth's surface.
@@ -83,9 +83,9 @@ $F_{G}=\frac{Gm_{1}m_{2}}{r^{2}}$
 > 
 > **Step 4: Substitute the known values into Newton's Law of Gravitation to calculate the mass of the Earth**
 > 
-> `m subscript 2 space equals space fraction numerator open parentheses 8400 cross times 10 cubed close parentheses squared space cross times space open parentheses 37 cross times 10 cubed close parentheses over denominator open parentheses 6.67 cross times 10 to the power of negative 11 end exponent close parentheses space cross times space 6500 end fraction`
+> $m_{2} = \frac{( 8400 \times 10^{3} )^{2} \times ( 37 \times 10^{3} )}{( 6.67 \times 10^{- 11} ) \times 6500}$
 > 
-> `m subscript 2 space equals space 6.0 cross times 10 to the power of 24 space end exponent kg space open parentheses 2 space straight s. straight f. close parentheses`
+> $m_{2} = 6.0 \times 10^{24 } \text{kg} ( 2 \mathrm{s} . \mathrm{f} . )$
 
 > **Exam Hint**
 > A common mistake in exams is to forget to **add together** the distance from the surface of the planet and its radius to obtain the value of *r*. The distance *r* is measured from the **centre** of the mass, which is from the **centre** of the planet.

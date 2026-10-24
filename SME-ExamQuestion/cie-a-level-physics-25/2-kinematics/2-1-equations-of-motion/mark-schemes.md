@@ -26,11 +26,11 @@ $a=\frac{v^{2}-u^{2}}{2s}$
 
 - Substitute in known values to calculate *a*
 
-`a space equals space fraction numerator open parentheses 6 cross times 10 cubed close parentheses squared space minus space open parentheses 2 cross times 10 cubed close parentheses squared over denominator 2 cross times open parentheses 400 cross times 10 cubed close parentheses end fraction`
+$a = \frac{( 6 \times 10^{3} )^{2} - ( 2 \times 10^{3} )^{2}}{2 \times ( 400 \times 10^{3} )}$
 
 $a=40\text{m s}^{-2}$
 
-`a space equals space 4 cross times 10 to the power of 1 space straight m space straight s to the power of negative 2 end exponent space open parentheses 1 space straight s. straight f. close parentheses`
+$a = 4 \times 10^{1 \mathrm{m} \mathrm{s}^{-2} } ( 1 \mathrm{s} . \mathrm{f} . )$
 
 ### Q2
 **Final answer:** **The correct answer is C**
@@ -246,7 +246,7 @@ $\frac{Δy}{Δx}=\frac{\Deltas}{t}=\frac{\mathrm{change} \mathrm{in} \mathrm{dis
 
   - $2as=v^{2}-u^{2}$
   - $a=\frac{v^{2}-u^{2}}{2s}$
-  - `a equals fraction numerator open parentheses 3 cross times 10 to the power of 7 close parentheses squared minus open parentheses 4 cross times 10 to the power of 5 close parentheses squared over denominator 2 cross times 10 cross times 10 to the power of negative 3 end exponent end fraction equals 4.5 cross times 10 to the power of 16 space straight m space straight s to the power of negative 2 end exponent`
+  - $a = \frac{( 3 \times 10^{7 )^{2} - ( 4 \times 10^{5} )^{2}}{2 \times 10 \times 10^{-3} } } = 4.5 \times 10^{16 \mathrm{m} \mathrm{s}^{-2} }$
 
 ### Q18
 **Final answer:** **The correct answer is ****C**** because:**
@@ -308,7 +308,7 @@ $\frac{Δy}{Δx}=\frac{\Deltas}{t}=\frac{\mathrm{change} \mathrm{in} \mathrm{dis
   - $v^{2}=u^{2}+2as$
 
   - $u^{2}=v^{2}-2as$
-  - `u squared space equals space 0 space minus space open parentheses 2 cross times negative 1.1 cross times 1000 close parentheses space equals space 2200`
+  - $u^{2} = 0 - ( 2 \times - 1.1 \times 1000 ) = 2200$
   - $u=\sqrt{2200}=46.9=47ms^{-1}$ (2 s.f.)
 
 ### Q22
@@ -326,7 +326,7 @@ $\frac{Δy}{Δx}=\frac{\Deltas}{t}=\frac{\mathrm{change} \mathrm{in} \mathrm{dis
   - $u^{2}αx$
 - If the initial speed increases by 25 % : 100 % + 25 % = 125 %
 - Therefore, new speed u<sub>new</sub> = 1.25*u*
-- So, new distance  `x subscript n e w space end subscript alpha space u squared subscript n e w end subscript equals open parentheses 1.25 u close parentheses squared equals 1.56 u squared equals 1.56 x`** **
+- So, new distance  $x_{n e w } \\alpha u^{2}_{n e w} = ( 1.25 u )^{2} = 1.56 u^{2} = 1.56 x$** **
 
 ### Q23
 **Final answer:** **The correct answer is ****A**** because:**
@@ -382,13 +382,13 @@ $\frac{Δy}{Δx}=\frac{\Deltas}{t}=\frac{\mathrm{change} \mathrm{in} \mathrm{dis
 **Final answer:** **The correct answer is ****D**** because:**
 
 - $Averagespeed=\frac{v+u}{2}$
-- `D i s t a n c e space equals space s p e e d space cross times space t i m e space equals space fraction numerator open parentheses v plus u close parentheses t over denominator 2 end fraction`
+- $D i s t a n c e = s p e e d \times t i m e = \frac{( v + u ) t}{2}$
 - D would be correct if it had a plus sign
 
 | **A **is incorrect as | this equation is equal to displacement $s=ut+\frac{1}{2}at^{2}$ |
 |---|---|
-| **B **is incorrect as | if we combine the equations $s=ut+\frac{1}{2}at^{2}andv=u+at$<br><br>$u=v-at$<br><br>`s equals open parentheses v minus a t close parentheses t plus 1 half a t squared`<br><br>$s=vt-at^{2}+\frac{1}{2}at^{2}$<br><br>$s=vt-\frac{1}{2}at^{2}$ |
-| **C **is incorrect as | if we take the equation $v^{2}=u^{2}+2as$<br><br>$2as=v^{2}-u^{2}$<br><br>$s=\frac{v^{2}-u^{2}}{2a}$<br><br>we can factorise `open parentheses v squared minus u squared close parentheses equals open parentheses v plus u close parentheses open parentheses v minus u close parentheses` so, `fraction numerator open parentheses v plus u close parentheses open parentheses v minus u close parentheses over denominator 2 a end fraction` |
+| **B **is incorrect as | if we combine the equations $s=ut+\frac{1}{2}at^{2}andv=u+at$<br><br>$u=v-at$<br><br>$s = ( v - a t ) t + 1 \frac{1}{2} a t^{2}$<br><br>$s=vt-at^{2}+\frac{1}{2}at^{2}$<br><br>$s=vt-\frac{1}{2}at^{2}$ |
+| **C **is incorrect as | if we take the equation $v^{2}=u^{2}+2as$<br><br>$2as=v^{2}-u^{2}$<br><br>$s=\frac{v^{2}-u^{2}}{2a}$<br><br>we can factorise $( v^{2} - u^{2} ) = ( v + u ) ( v - u )$ so, $\frac{( v + u ) ( v - u )}{2 a}$ |
 
 ### Q29
 **Final answer:** **The correct answer is ****D**** because:**
@@ -431,8 +431,8 @@ $\frac{Δy}{Δx}=\frac{\Deltas}{t}=\frac{\mathrm{change} \mathrm{in} \mathrm{dis
 - If we take equation **(1)** from **(2)**:
 
   - $x+h-x=\frac{1}{2}at_{2}^{2}-\frac{1}{2}at_{1}^{2}$
-  - `h equals 1 half a open parentheses t subscript 2 squared minus t subscript 1 squared close parentheses`
-  - `a equals fraction numerator 2 h over denominator open parentheses t subscript 2 squared minus t subscript 1 squared close parentheses end fraction`
+  - $h = 1 \frac{1}{2} a ( t_{2}^{2} - t_{1}^{2} )$
+  - $a = \frac{2 h}{( t_{2}^{2} - t_{1}^{2} )}$
 
 ### Q31
 **Final answer:** **The correct answer is ****C**** because:**

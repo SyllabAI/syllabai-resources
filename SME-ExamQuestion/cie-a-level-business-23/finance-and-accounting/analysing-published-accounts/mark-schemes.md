@@ -122,23 +122,23 @@ $\text{Capital employed} = \text{Share capital} + \text{Retained earnings} + \te
 
 **2023:**
 
-`Capital space employed space equals space $ 1 comma 500 space plus space $ 700 space plus space $ 800 space equals space $ 3 comma 000`
+`Capital employed = $ 1 , 500 + $ 700 + $ 800 = $ 3 , 000`
 
-`RoCE space equals space fraction numerator $ 510 over denominator $ 3 comma 000 end fraction space cross times space 100
+$\text{RoCE} = \frac{\$ 510}{\$ 3 , 000} \times 100
 
-equals space 17 percent sign`
+= 17 \%$
 
 **2022:**
 
-`Capital space employed space equals space $ 1 comma 500 space plus space $ 600 space plus space $ 300 space equals space $ 2 comma 400`
+`Capital employed = $ 1 , 500 + $ 600 + $ 300 = $ 2 , 400`
 
-`RoCE space equals space fraction numerator $ 576 over denominator $ 2 comma 400 end fraction space cross times space 100
+$\text{RoCE} = \frac{\$ 576}{\$ 2 , 400} \times 100
 
-equals space 24 percent sign`
+= 24 \%$
 
 > **[mark-scheme]**
 > - Up to 2 marks for valid workings
-> - 2 marks for the correct answers of `24 percent sign` and `17 percent sign`
+> - 2 marks for the correct answers of $24 \%$ and $17 \%$
 > 
 > A correct answer with no working shown still receives full marks.
 
@@ -254,19 +254,19 @@ Gross profit margin is a profitability ratio **[1]** that shows gross profit as 
 
 $\mathrm{Gross} \mathrm{profit}=\mathrm{Revenue}-\mathrm{Cost} \mathrm{of} \mathrm{sales}$
 
-`equals space $ 980 comma 000 space minus space $ 588 comma 000 space
+$= \$ 980 , 000 - \$ 588 , 000 
 
-equals space $ 392 comma 000`
+= \$ 392 , 000$
 
 $\mathrm{Gross} \mathrm{profit} \mathrm{margin}=\frac{\mathrm{Gross} \mathrm{profit}}{\mathrm{Revenue}}\times100$
 
-`equals space fraction numerator $ 392 comma 000 over denominator $ 980 comma 000 end fraction space cross times space 100 space space
+$= \frac{\$ 392 , 000}{\$ 980 , 000} \times 100 
 
-equals space 40 percent sign`
+= 40 \%$
 
 > **[mark-scheme]**
 > - Up to 2 marks for valid workings
-> - 1 mark for the correct answer of `40 percent sign`
+> - 1 mark for the correct answer of $40 \%$
 > 
 > A correct answer with no working shown still receives full marks.
 
@@ -325,13 +325,13 @@ Overall, I think profitability ratios are particularly important for this type o
 
 $\mathrm{ROCE}=\frac{\mathrm{Operating} \mathrm{profit}}{\mathrm{Capital} \mathrm{employed}}\times100$
 
-`equals space fraction numerator $ 3.98 straight m over denominator $ 30 straight m end fraction space space cross times space 100 space
+$= \frac{\$ 3.98 \mathrm{m} }{\$ 30 \mathrm{m} } \times 100 
 
-equals space 13.27 percent sign`
+= 13.27 \%$
 
 > **[mark-scheme]**
 > - Up to 2 marks for valid workings
-> - 1 mark for the correct answer of `13.27 percent sign`
+> - 1 mark for the correct answer of $13.27 \%$
 > 
 > A correct answer with no working shown still receives full marks.
 
@@ -499,25 +499,25 @@ $\mathrm{Gearing}=\frac{\mathrm{Non}-\mathrm{current} \mathrm{liabilities}}{\mat
 
 $\mathrm{Shareholder} \mathrm{equity}=\mathrm{Share} \mathrm{capital}+\mathrm{Retained} \mathrm{profit} \mathrm{reserves}$
 
-`equals space $ 4.0 straight m space plus space $ 4.0 straight m space
+$= \$ 4.0 \mathrm{m} + \$ 4.0 \mathrm{m} 
 
-equals space $ 8.0 straight m`
+= \$ 8.0 \mathrm{m}$
 
 $\mathrm{Capital} \mathrm{employed}=\mathrm{Shareholder} \mathrm{equity}+\mathrm{Non}-\mathrm{current} \mathrm{liabilities}$
 
-`equals space $ 8.0 straight m space plus space $ 14.0 straight m space
+$= \$ 8.0 \mathrm{m} + \$ 14.0 \mathrm{m} 
 
-equals space $ 22.0 straight m`
+= \$ 22.0 \mathrm{m}$
 
 Gearing
 
-`equals fraction numerator $ 14.0 straight m over denominator $ 22.0 straight m end fraction space cross times space 100 space space
+$= \frac{\$ 14.0 \mathrm{m} }{\$ 22.0 \mathrm{m} } \times 100 
 
-equals space 63.6 percent sign`
+= 63.6 \%$
 
 > **[mark-scheme]**
 > - Up to 2 marks for valid workings
-> - 1 mark for the correct answer of `63.6 percent sign`
+> - 1 mark for the correct answer of $63.6 \%$
 > 
 > A correct answer with no working shown still receives full marks.
 
@@ -553,12 +553,12 @@ $=\frac{45}{50}\,\,=0.9$
 
 $\mathrm{Gross} \mathrm{profit} \mathrm{margin}=\frac{\mathrm{Gross} \mathrm{profit}}{\mathrm{Revenue}}\times100$
 
-`equals space fraction numerator $ 2 comma 850 over denominator 7 comma 000 end fraction space cross times space 100 space space
+$= \frac{\$ 2 , 850}{7 , 000} \times 100 
 
-equals space 40.7 percent sign`
+= 40.7 \%$
 
 > **[mark-scheme]**
 > - Up to 2 marks for valid workings
-> - 1 mark for the correct answer of `40.7 percent sign`
+> - 1 mark for the correct answer of $40.7 \%$
 > 
 > A correct answer with no working shown still receives full marks.

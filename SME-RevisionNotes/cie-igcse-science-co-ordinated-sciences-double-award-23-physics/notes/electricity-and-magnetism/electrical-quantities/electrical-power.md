@@ -150,11 +150,11 @@ $1000W\times3600s=1000\times3600\mathrm{Ws}=3.6\times10^{6}J$
 
 - To convert from kW h to J:
 
-`E space open parentheses kW space straight h close parentheses space space cross times space left parenthesis 3.6 space cross times space 10 to the power of 6 right parenthesis space equals space E open parentheses straight J close parentheses`
+$E ( \text{kW} \mathrm{h} ) \times ( 3.6 \times 10^{6} ) = E ( \mathrm{J} )$
 
 - To convert from J to kW h:
 
-`E open parentheses straight J close parentheses space space divided by space left parenthesis 3.6 space cross times space 10 to the power of 6 right parenthesis space equals space E open parentheses kW space straight h close parentheses`
+$E ( \mathrm{J} ) \div ( 3.6 \times 10^{6} ) = E ( \text{kW} \mathrm{h} )$
 
 - The kW h is a large unit of energy, and is mostly used for energy in homes, businesses and factories
 
@@ -171,18 +171,18 @@ $1000W\times3600s=1000\times3600\mathrm{Ws}=3.6\times10^{6}J$
 > 
 > **Step 1: List the known quantities**
 > 
-> - Energy in joules, `E open parentheses straight J close parentheses space equals space 1.2 cross times 10 to the power of 9 space straight J`
+> - Energy in joules, $E ( \mathrm{J} ) = 1.2 \times 10^{9} \mathrm{J}$
 > - Cost per kW h, $1\mathrm{kW}h=14.2p$
 > 
 > **Step 2: Convert the energy used from J to kW h**
 > 
-> `E open parentheses kW space straight h close parentheses space equals space fraction numerator 1.2 cross times 10 to the power of 9 over denominator 3.6 cross times 10 to the power of 6 end fraction space equals space 333.333 space kW space straight h`
+> $E ( \text{kW} \mathrm{h} ) = \frac{1.2 \times 10^{9} }{3.6 \times 10^{6} } = 333.333 \text{kW} \mathrm{h}$
 > 
 > **Step 3: Calculate the price**
 > 
 > $1\mathrm{kW}h=14.2p$
 > 
-> `333.333 space cross times space 14.2 space equals space 4733 space straight p space equals space £ 47.33`
+> $333.333 \times 14.2 = 4733 \mathrm{p} = \pounds 47.33$
 
 > **Exam Hint**
 > The kilowatt hour is a tricky concept to get your head around, so make sure you are comfortable with the conversions between kW h and J well before your exam.

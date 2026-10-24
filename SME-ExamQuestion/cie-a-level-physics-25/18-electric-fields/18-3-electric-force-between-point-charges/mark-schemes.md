@@ -132,7 +132,7 @@ From the formulae page:
 Calculate the force:
 
 - Coulomb’s Law: *F* = $\frac{Q_{1}Q_{2}}{4\mathrm{πε}_{0}r^{2}}$ **[1 mark]**
-- *F* = `fraction numerator open parentheses 8.99 space cross times space 10 to the power of 9 close parentheses space cross times space open parentheses 10.0 cross times 10 to the power of negative 9 end exponent close parentheses cross times open parentheses 6.0 cross times 10 to the power of negative 9 end exponent close parentheses over denominator open parentheses 67 cross times 10 to the power of negative 3 end exponent close parentheses squared end fraction`**[1 mark]**
+- *F* = $\frac{( 8.99 \times 10^{9 ) \times ( 10.0 \times 10^{-9} } ) \times ( 6.0 \times 10^{- 9} )}{( 67 \times 10^{- 3} )^{2}}$**[1 mark]**
 - *F* = 1.2 × 10<sup>–4</sup> N **[1 mark]**** **
 
 **[Total: 3 marks]**** **
@@ -153,7 +153,7 @@ The electric force on the 10.0 nC charge:
 
 > *We can see this if we put the numbers into the equation.*
 
-> *If we say *$F=\frac{Q_{1}Q_{2}}{4πε_{0}r^{2}}$* and **r**  becomes 2**r**  (the separation doubles), then the force becomes *`F space equals space fraction numerator Q subscript 1 Q subscript 2 space over denominator 4 pi epsilon subscript 0 open parentheses 2 r close parentheses squared end fraction space equals space F space equals space fraction numerator Q subscript 1 Q subscript 2 space over denominator 4 pi epsilon subscript 0 4 r squared end fraction`*.*
+> *If we say *$F=\frac{Q_{1}Q_{2}}{4πε_{0}r^{2}}$* and **r**  becomes 2**r**  (the separation doubles), then the force becomes *$F = \frac{Q_{1} Q_{2} }{4 \pi \epsilon_{0} ( 2 r )^{2}} = F = \frac{Q_{1} Q_{2} }{4 \pi \epsilon_{0} 4 r^{2}}$*.*
 
 > *This new force is now **four times smaller** than the original.*
 
@@ -190,7 +190,7 @@ List the known quantities
 Use Coulomb's law to calculate the electric force:
 
 - Coulomb's law:  $F=\frac{Q_{1}Q_{2}}{4πε_{0}r^{2}}$ **[1 mark]**
-- Substitute:  `F space equals space fraction numerator open parentheses 8.99 cross times 10 to the power of 9 close parentheses cross times 2 cross times 13 cross times left parenthesis 1.60 cross times 10 to the power of negative 19 end exponent right parenthesis squared over denominator left parenthesis 2.0 cross times 10 to the power of negative 9 end exponent right parenthesis squared end fraction` **[1 mark]**
+- Substitute:  $F = \frac{( 8.99 \times 10^{9 ) \times 2 \times 13 \times ( 1.60 \times 10^{-19} } )^{2}}{( 2.0 \times 10^{- 9} )^{2}}$ **[1 mark]**
 - Electric force:  $F$ = 1.5 × 10<sup>–9</sup> N **[1 mark]**
 
 **[Total: 3 marks]**
@@ -207,7 +207,7 @@ List the known quantities
 Use Newton's law of gravitation to calculate the gravitational force:
 
 - Newton's law of gravitation:  $F=\frac{Gm_{1}m_{2}}{r^{2}}$ **[1 mark]**
-- Substitute:  `F space equals space fraction numerator open parentheses 6.67 cross times 10 to the power of negative 11 end exponent close parentheses cross times 4 cross times 27 cross times left parenthesis 1.66 cross times 10 to the power of negative 27 end exponent right parenthesis squared over denominator left parenthesis 2.0 cross times 10 to the power of negative 9 end exponent right parenthesis squared end fraction`
+- Substitute:  $F = \frac{( 6.67 \times 10^{- 11} ) \times 4 \times 27 \times ( 1.66 \times 10^{- 27} )^{2}}{( 2.0 \times 10^{- 9} )^{2}}$
 - Gravitational force:  $F$ = 5.0 × 10<sup>–45</sup> N **[1 mark]**
 
 (ii) Gravitational effects do not need to be accounted for because:
@@ -238,12 +238,12 @@ Calculate the magnitude of the resultant force, $F_{13}$:
 
 - Since the question asks for the <u>magnitude</u> of the resultant force, the minus sign of the negative charge is not required
 - Recall Coulomb's Law: $F=\frac{Q_{1}Q_{2}}{4\mathrm{πε}_{0}r^{2}}$
-- $F_{13}$ =$\frac{Q_{1}Q_{3}}{4\mathrm{πε}_{0}r^{2}}$ = `fraction numerator open parentheses 30 cross times 10 to the power of negative 6 end exponent close parentheses cross times open parentheses 70 cross times 10 to the power of negative 6 end exponent close parentheses over denominator 4 straight pi cross times open parentheses 8.85 cross times 10 to the power of negative 12 end exponent close parentheses cross times open parentheses 5 square root of 2 close parentheses squared end fraction`
+- $F_{13}$ =$\frac{Q_{1}Q_{3}}{4\mathrm{πε}_{0}r^{2}}$ = $\frac{( 30 \times 10^{- 6} ) \times ( 70 \times 10^{- 6} )}{4 \mathrm{\pi } \times ( 8.85 \times 10^{- 12} ) \times ( 5 \sqrt{2} )^{2}}$
 - $F_{13}$ = 0.3777 = 0.38 N **[1 mark]**
 
 (ii) Calculate force from $Q_{2}$ , $F_{23}$:
 
-- $F_{23}$ = `fraction numerator Q subscript 2 Q subscript 3 over denominator 4 pi epsilon subscript 0 r squared end fraction equals fraction numerator open parentheses 50 cross times 10 to the power of negative 6 end exponent close parentheses cross times open parentheses 70 cross times 10 to the power of negative 6 end exponent close parentheses over denominator 4 pi cross times open parentheses 8.85 cross times 10 to the power of negative 12 end exponent close parentheses cross times open parentheses 5 square root of 2 close parentheses squared end fraction`
+- $F_{23}$ = $\frac{Q_{2} Q_{3} }{4 \pi \epsilon_{0} r^{2}} = \frac{( 50 \times 10^{- 6} ) \times ( 70 \times 10^{- 6} )}{4 \pi \times ( 8.85 \times 10^{- 12} ) \times ( 5 \sqrt{2} )^{2}}$
 - $F_{23}$ = 0.6294 = 0.63 N **[1 mark]**** **
 
 **[Total: 3 marks]**
@@ -260,8 +260,8 @@ Calculate angle $θ$  from the x axis:
 
 ![7-4-s-q--q3b-ma-hard-aqa-a-level-physics](assets/009-7-4-s-q-q3b-ma-hard-aqa-a-level-physics.png)
 
-- `tan open parentheses theta close parentheses` = $\frac{opposite}{adjacent}$ = $\frac{5}{5}$ = 1
-- $θ$ =`begin mathsize 16px style tan to the power of negative 1 end exponent open parentheses 1 close parentheses end style` = 45º **[1 mark]**
+- $\tan ( \\theta )$ = $\frac{opposite}{adjacent}$ = $\frac{5}{5}$ = 1
+- $θ$ =$\tan ^{- 1} ( 1 )$ = 45º **[1 mark]**
 
 ![7-4-s-q--q3b-ma-fig-2-hard-aqa-a-level-physics](assets/010-7-4-s-q-q3b-ma-fig-2-hard-aqa-a-level-physics.png)
 
@@ -287,7 +287,7 @@ Calculate the x and y components of the resultant force, $R$:
 
 Calculate the magnitude of the resultant force *R* using vector addition:
 
-- *R* =`square root of open parentheses R subscript x close parentheses squared plus open parentheses R subscript y close parentheses squared end root` = `square root of open parentheses 0.17798 close parentheses squared plus open parentheses 0.71213 close parentheses squared end root`
+- *R* =$\sqrt{( R_{x} )^{2} + ( R_{y} )^{2}}$ = $\sqrt{( 0.17798 )^{2} + ( 0.71213 )^{2}}$
 - *R* = 0.734 N **[1 mark]**** **
 
 **[Total: 3 marks]**
@@ -304,8 +304,8 @@ List the known quantities:
 
 Calculate direction of *R*  from the positive x axis:
 
-- `tan open parentheses theta close parentheses` = $\frac{R_{y}}{R_{x}}$ = $\frac{0.71213}{0.17798}$ **[1 mark]**
-- $θ$ = `tan to the power of negative 1 end exponent open parentheses fraction numerator 0.71213 over denominator 0.17798 end fraction close parentheses` = 76.0º (3 s.f.) **[1 mark]**** **
+- $\tan ( \\theta )$ = $\frac{R_{y}}{R_{x}}$ = $\frac{0.71213}{0.17798}$ **[1 mark]**
+- $θ$ = $\tan ^{- 1} ( \frac{0.71213}{0.17798} )$ = 76.0º (3 s.f.) **[1 mark]**** **
 
 **[Total: 2 marks]**
 
@@ -333,7 +333,7 @@ List the known quantities:
 Use Coulomb’s law to calculate the force between the point charges:
 
 - Coulomb’s law:  $F=\frac{Q_{1}Q_{2}}{4πε_{0}r^{2}}$ **[1 mark]**
-- Substitute:  `F space equals space fraction numerator open parentheses 8.99 cross times 10 to the power of 9 close parentheses open parentheses 3.2 cross times 10 to the power of negative 15 end exponent close parentheses squared over denominator open parentheses 5.0 cross times 10 to the power of negative 3 end exponent close parentheses squared end fraction` **[1 mark]**
+- Substitute:  $F = \frac{( 8.99 \times 10^{9 ) ( 3.2 \times 10^{-15} } )^{2}}{( 5.0 \times 10^{- 3} )^{2}}$ **[1 mark]**
 - Electric force:  $F$ = 3.7 × 10<sup>–15</sup> N **[1 mark]**
 
 **[Total: 3 marks]**
@@ -383,7 +383,7 @@ From the formulae page:
 Calculate the electrostatic force, *F*<sub>E</sub>:
 
 - $F_{E}=\frac{Q_{1}Q_{2}}{4πε_{0}r^{2}}$ **[1 mark]**
-- `F subscript E space equals fraction numerator space open parentheses 8.99 space cross times space 10 to the power of 9 close parentheses space cross times space open parentheses 1.60 space cross times space 10 to the power of negative 19 end exponent close parentheses space cross times space open parentheses 1.60 space cross times space 10 to the power of negative 19 end exponent close parentheses over denominator open parentheses 1.88 space cross times space 10 to the power of negative 15 end exponent close parentheses squared end fraction`
+- $F_{E} = \frac{ ( 8.99 \times 10^{9 ) \times ( 1.60 \times 10^{-19} } ) \times ( 1.60 \times 10^{- 19} )}{( 1.88 \times 10^{- 15} )^{2}}$
 - $F_{E}=65N$ **[1 mark]**
 
 (ii) The gravitational force is:
@@ -396,7 +396,7 @@ From the formulae page:
 Calculate the gravitational force, *F*<sub>G</sub>:
 
 - $F_{G}=\frac{Gm_{1}m_{2}}{r^{2}}$ **[1 mark]**
-- `F subscript G space equals space fraction numerator open parentheses 6.67 space cross times space 10 to the power of negative 11 end exponent close parentheses space cross times space open parentheses 1.67 space cross times space 10 to the power of negative 27 end exponent close parentheses space cross times space open parentheses 1.67 space cross times space 10 to the power of negative 27 end exponent close parentheses space over denominator open parentheses 1.88 space cross times space 10 to the power of negative 15 end exponent close parentheses squared end fraction`
+- $F_{G} = \frac{( 6.67 \times 10^{- 11} ) \times ( 1.67 \times 10^{- 27} ) \times ( 1.67 \times 10^{- 27} ) }{( 1.88 \times 10^{- 15} )^{2}}$
 - $F_{G}=5.263\times10^{-35}=5.3\times10^{-35}N$ **[1 mark]**
 
 **[Total: 4 marks]**
@@ -445,7 +445,7 @@ Determine an equation for the distance, *r*:
 
 Substitute in the values:
 
-- `r space equals space square root of fraction numerator open parentheses 8.99 space cross times space 10 to the power of 9 close parentheses space cross times space open parentheses 1.60 space cross times space 10 to the power of negative 19 end exponent close parentheses space cross times space open parentheses 1.60 space cross times space 10 to the power of negative 19 end exponent close parentheses over denominator 92 space cross times space 10 to the power of negative 9 end exponent end fraction end root` **[1 mark]**
+- $r = \sqrt{ \frac{( 8.99 \times 10^{9 ) \times ( 1.60 \times 10^{-19} } ) \times ( 1.60 \times 10^{- 19} )}{92 \times 10^{- 9} } }$ **[1 mark]**
 - $r=50\times10^{-12}=50\mathrm{pm}$ **[1 mark]**
 
 **[Total: 3 marks]**
@@ -464,8 +464,8 @@ List the known quantities:
 Use Coulomb's Law to calculate the force between the charges:
 
 - $F=\frac{Q_{A}Q_{B}}{4πε_{0}r^{2}}$
-- `F space equals space open parentheses 8.99 space cross times space 10 to the power of 9 close parentheses space cross times space fraction numerator open parentheses 3.1 space cross times space 10 to the power of negative 9 end exponent close parentheses space cross times space open parentheses 6.2 space cross times space 10 to the power of negative 9 end exponent close parentheses over denominator open parentheses 0.014 space cross times space 10 to the power of negative 3 end exponent close parentheses squared end fraction` **[1 mark]**
-- `F space equals space 881.6 space straight N space equals space 880 space straight N space open parentheses 2 space straight s. straight f. close parentheses` **[1 mark]**
+- $F = ( 8.99 \times 10^{9 ) \times \frac{( 3.1 \times 10^{-9} } ) \times ( 6.2 \times 10^{- 9} )}{( 0.014 \times 10^{- 3} )^{2}}$ **[1 mark]**
+- $F = 881.6 \mathrm{N} = 880 \mathrm{N} ( 2 \mathrm{s} . \mathrm{f} . )$ **[1 mark]**
 
 **[Total: 2 marks]**
 

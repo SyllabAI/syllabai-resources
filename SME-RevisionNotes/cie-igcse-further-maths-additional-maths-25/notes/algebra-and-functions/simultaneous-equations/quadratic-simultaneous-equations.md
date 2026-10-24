@@ -72,49 +72,49 @@ guided_study: false
 > 
 > > *Number the equations.*
 > 
-> > `x squared space plus space y squared space equals space 36 space space space space space space space space space space space space open parentheses 1 close parentheses
-> x space equals space 2 y space plus space 6 space space space space space space space space space space space space space space space space open parentheses 2 close parentheses`* *
+> > $x^{2} + y^{2} = 36 ( 1 )
+> x = 2 y + 6 ( 2 )$* *
 > 
 > > *There is one quadratic equation and one linear equation so this must be done by substitution.*
 > 
 > > *Equation (2) is equal to *$x$* so this can be eliminated by substituting it into the *$x$* part for equation (1). *
 > *Substitute *$x=2y+6$* into equation (1).*
 > 
-> `open parentheses 2 y space plus space 6 close parentheses squared space plus space y squared space equals space 36`
+> $( 2 y + 6 )^{2} + y^{2} = 36$
 > 
 > **[1]**
 > 
 > > *Expand the brackets, remember that a bracket squared should be treated the same as double brackets.*
 > 
-> `open parentheses 2 y space plus space 6 close parentheses open parentheses 2 y space plus space 6 close parentheses space space plus space y squared space equals space 36
-> 4 y to the power of 2 space end exponent plus space 6 open parentheses 2 y close parentheses space plus space 6 open parentheses 2 y close parentheses space plus space 6 squared space plus space y to the power of 2 space end exponent equals space 36`
+> $( 2 y + 6 ) ( 2 y + 6 ) + y^{2} = 36
+> 4 y^{2 } + 6 ( 2 y ) + 6 ( 2 y ) + 6^{2} + y^{2 } = 36$
 > 
 > **[1]**
 > 
 > > *Simplify.*
 > 
-> `table row cell 4 y to the power of 2 space end exponent plus space 12 y space plus space 12 y space plus space 36 space plus space y to the power of 2 space end exponent end cell equals cell space 36 end cell row cell 5 y to the power of 2 space end exponent plus space 24 y space plus space 36 space end cell equals cell space 36 end cell end table`
+> $\begin{gathered} 4 y^{2 } + 12 y + 12 y + 36 + y^{2 } & = 36 \\ 5 y^{2 } + 24 y + 36 & = 36 \end{gathered}$
 > 
 > **[1]**
 > 
 > > *Rearrange to form a quadratic equation that is equal to zero.*
 > 
-> `table row cell 5 y to the power of 2 space end exponent plus space 24 y space plus space 36 space minus space 36 space end cell equals cell space 0 end cell row cell 5 y squared space plus space 24 y space end cell equals cell space 0 end cell end table`
+> $\begin{gathered} 5 y^{2 } + 24 y + 36 - 36 & = 0 \\ 5 y^{2} + 24 y & = 0 \end{gathered}$
 > 
-> > *The question does not give a specified degree of accuracy, so this can be factorised. Take out the common factor of *`table row blank blank y end table`*.*
+> > *The question does not give a specified degree of accuracy, so this can be factorised. Take out the common factor of *$\begin{gathered} y \end{gathered}$*.*
 > 
-> `table row cell y open parentheses 5 y space plus space 24 close parentheses space end cell equals cell space 0 end cell end table`
+> $\begin{gathered} y ( 5 y + 24 ) & = 0 \end{gathered}$
 > 
 > > *Solve to find the values of *$y$*.*
 > * **Let each factor be equal to 0 and solve.*
 > 
-> `table row cell y subscript 1 space end cell equals cell space 0 space space space space space space space space space space space space space space end cell row cell 5 y subscript 2 space plus space 24 space end cell equals cell space 0 space space rightwards double arrow space space y subscript 2 equals space minus 24 over 5 space equals space minus 4.8 end cell end table`
+> $\begin{gathered} y_{1} & = 0 \\ 5 y_{2} + 24 & = 0 \Leftrightarrow y_{2} = - \frac{24}{5} = - 4.8 \end{gathered}$
 > 
 > **[1]**
 > 
 > > *Substitute the values of *$y$* **into one of the equations (the linear equation is easier) to find the values of *$x$*.*
 > 
-> `x subscript 1 space equals space 2 left parenthesis 0 right parenthesis space plus space 6 space equals space 6 space space space space space space space space space space space space x subscript 2 space equals space 2 open parentheses negative 24 over 5 close parentheses space plus space 6 space equals space minus 9.6 space plus space 6`
+> $x_{1} = 2 ( 0 ) + 6 = 6 x_{2} = 2 ( - \frac{24}{5} ) + 6 = - 9.6 + 6$
 > 
 > $x_{1}=6,y_{1}=0$**   **
 > **    **$x_{2}=-3.6,y_{2}=-4.8$** ****[1]**

@@ -51,7 +51,7 @@ $35-23=12$
 
 > *The position of the middle value is half the value of one more than the total frequency (*$\frac{\mathrm{total} \mathrm{frequency}+1}{2}$*)*
 
-`table row cell fraction numerator 40 plus 1 over denominator 2 end fraction end cell equals cell 41 over 2 end cell row blank equals cell 20.5 end cell end table`
+$\begin{gathered} \frac{40 + 1}{2} & = \frac{41}{2} \\ = 20.5 \end{gathered}$
 
 **[M1]**
 
@@ -200,11 +200,11 @@ $40-29=11$
 
 | Number of minutes (M) | Frequency | Midpoint |
 |---|---|---|
-| `space 0 space less than space M space less-than or slanted equal to thin space space 30` | 5 | 15 |
-| `space 30 space less than space M space less-than or slanted equal to thin space space 60` | 6 | 45 |
-| `space 60 space less than space M space less-than or slanted equal to thin space space 90` | 8 | 75 |
-| `space 90 space less than space M space less-than or slanted equal to thin space space 120` | 9 | 105 |
-| `space 120 space less than space M space less-than or slanted equal to thin space space 150` | 2 | 135 |
+| $0 < M \text{less} - \text{than} or \text{slanted} \text{equal} to 30$ | 5 | 15 |
+| $30 < M \text{less} - \text{than} or \text{slanted} \text{equal} to 60$ | 6 | 45 |
+| $60 < M \text{less} - \text{than} or \text{slanted} \text{equal} to 90$ | 8 | 75 |
+| $90 < M \text{less} - \text{than} or \text{slanted} \text{equal} to 120$ | 9 | 105 |
+| $120 < M \text{less} - \text{than} or \text{slanted} \text{equal} to 150$ | 2 | 135 |
 
 > *Multiply the midpoint of each group by the frequency*
 
@@ -239,7 +239,7 @@ $=75+270+600+945+270$
 ### 10((b)) — 3 marks
 > *Multiply the number of rewards by the frequency and add together to find the total number of rewards*
 
-`open parentheses 0 space cross times space 3 close parentheses space plus thin space open parentheses 1 space cross times space 9 close parentheses space plus thin space open parentheses 2 space cross times space 15 close parentheses space plus thin space open parentheses 3 space cross times space 18 close parentheses space plus space open parentheses 4 space cross times space 4 close parentheses space plus thin space open parentheses 5 space cross times space 1 close parentheses`
+$( 0 \times 3 ) + ( 1 \times 9 ) + ( 2 \times 15 ) + ( 3 \times 18 ) + ( 4 \times 4 ) + ( 5 \times 1 )$
 
 **[M1]**
 

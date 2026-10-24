@@ -103,7 +103,7 @@ $A=dt$
 
 - Substituting $A$ and rearranging for the Hall voltage $V_{H}$ leads to the equation:
 
-`V subscript H over d equals fraction numerator B I over denominator n open parentheses d t close parentheses q end fraction`
+$V_\frac{{H}}{d} = \frac{B I}{n ( d t ) q}$
 
 $V_{H}=\frac{BI}{ntq}$
 

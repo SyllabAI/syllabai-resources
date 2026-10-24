@@ -10,9 +10,9 @@
 
 > *E.g. travel from **A** to **O** to **B*
 
-`table row cell stack A B with rightwards arrow on top end cell equals cell stack A O with rightwards arrow on top plus stack O B with rightwards arrow on top end cell row blank equals cell open parentheses negative stack O A with rightwards arrow on top close parentheses plus stack O B with rightwards arrow on top end cell row blank equals cell negative bold a plus bold b end cell end table`
+$\begin{gathered} \vec{AB} & = \vec{AO} + \vec{OB} \\ = ( - \vec{OA} ) + \vec{OB} \\ = - a + b \end{gathered}$
 
-`table row cell stack A B with rightwards arrow on top end cell equals cell negative bold a plus bold b end cell end table`
+$\begin{gathered} \vec{AB} & = - a + b \end{gathered}$
 
 **[B1]**
 
@@ -22,9 +22,9 @@
 
 > *E.g. travel from **O** to **A** then **A** to **X** (which uses half of **A** to **B**)*
 
-`table row cell stack O X with rightwards arrow on top end cell equals cell stack O A with rightwards arrow on top plus stack A X with rightwards arrow on top end cell row blank equals cell stack O A with rightwards arrow on top plus 1 half stack A B with rightwards arrow on top end cell row blank equals cell bold a plus 1 half open parentheses negative bold a plus bold b close parentheses end cell end table`
+$\begin{gathered} \vec{OX} & = \vec{OA} + \vec{AX} \\ = \vec{OA} + 1 \frac{1}{2} \vec{AB} \\ = a + 1 \frac{1}{2} ( - a + b ) \end{gathered}$
 
-`table row cell stack O X with rightwards arrow on top end cell equals cell 1 half bold a plus 1 half bold b end cell end table`
+$\begin{gathered} \vec{OX} & = 1 \frac{1}{2} a + 1 \frac{1}{2} b \end{gathered}$
 
 **[B1]**
 
@@ -32,37 +32,37 @@
 
 > *E.g. travel from **C** to **O** then **O** to **D*
 
-`table row cell stack C D with rightwards arrow on top end cell equals cell stack C O with rightwards arrow on top plus stack O D with rightwards arrow on top end cell row blank equals cell open parentheses negative stack O C with rightwards arrow on top close parentheses plus stack O D with rightwards arrow on top end cell row blank equals cell negative k bold a plus open parentheses negative bold b close parentheses end cell row blank equals cell negative k bold a minus bold b end cell end table`
+$\begin{gathered} \vec{CD} & = \vec{CO} + \vec{OD} \\ = ( - \vec{OC} ) + \vec{OD} \\ = - k a + ( - b ) \\ = - k a - b \end{gathered}$
 
-`table row cell stack C D with rightwards arrow on top end cell equals cell negative k bold a minus bold b end cell end table`
+$\begin{gathered} \vec{CD} & = - k a - b \end{gathered}$
 
 **[B1]**
 > *Add Y to the diagram*
 
 ![Geometric diagram of a kite-shaped quadrilateral ABCD with labelled vertices A, B, C, D. The diagonals cross at O. OA is vector a, OB is vector b, OC is vector ka and OD is vector -b. The point X is the midpoint of AB. The point Y splits CD into the ratio CY:YD = 1:2.](assets/002-geometric-diagram-of-a-kite-shaped-quadrilateral.png)
 
-> *You found vector *`table row cell stack C D with rightwards arrow on top end cell equals cell negative k bold a minus bold b end cell end table`* in part (a)(iii)*
+> *You found vector *$\begin{gathered} \vec{CD} & = - k a - b \end{gathered}$* in part (a)(iii)*
 
 > *If *$Y$* splits the line *$CD$* into the ratio *$1:2$* (1 + 2 = 3 parts to the ratio) then *$\overset{\rightarrow}{YD}$* is *$\frac{2}{3}$* of *$\overset{\rightarrow}{CD}$
 
-`table row cell stack Y D with rightwards arrow on top end cell equals cell 2 over 3 stack C D with rightwards arrow on top end cell row blank equals cell 2 over 3 open parentheses negative k bold a minus bold b close parentheses end cell end table`
+$\begin{gathered} \vec{YD} & = \frac{2}{3} \vec{CD} \\ = \frac{2}{3} ( - k a - b ) \end{gathered}$
 
 **[B1]**
 
 > **[mark-scheme]**
-> This mark is for either `table row cell stack Y D with rightwards arrow on top end cell equals cell 2 over 3 open parentheses negative k bold a minus bold b close parentheses end cell end table` or `table row cell stack Y C with rightwards arrow on top end cell equals cell negative 1 third open parentheses negative k bold a minus bold b close parentheses end cell end table`.
+> This mark is for either $\begin{gathered} \vec{YD} & = \frac{2}{3} ( - k a - b ) \end{gathered}$ or $\begin{gathered} \vec{YC} & = - 1 \frac{1}{3} ( - k a - b ) \end{gathered}$.
 
 > *Now find *$\overset{\rightarrow}{YX}$* e.g. by going from **Y** to **D** then **D** to **O** then **O** to** X **(using part (a)(ii))*
 
 ![A vector path for Y to D drawn on top of the diagram in the question going from Y to D, then D to O, then O to X.](assets/003-a-vector-path-for-y-to-d-drawn-on-top-of-the-dia.png)
 
-`table row cell stack Y X with rightwards arrow on top end cell equals cell stack Y D with rightwards arrow on top plus stack D O with rightwards arrow on top plus stack O X with rightwards arrow on top end cell row blank equals cell stack Y D with rightwards arrow on top plus open parentheses negative stack O D with rightwards arrow on top close parentheses plus stack O X with rightwards arrow on top end cell row blank equals cell 2 over 3 open parentheses negative k bold a minus bold b close parentheses plus open parentheses negative negative bold b close parentheses plus 1 half bold a plus 1 half bold b end cell end table`
+$\begin{gathered} \vec{YX} & = \vec{YD} + \vec{DO} + \vec{OX} \\ = \vec{YD} + ( - \vec{OD} ) + \vec{OX} \\ = \frac{2}{3} ( - k a - b ) + ( - - b ) + 1 \frac{1}{2} a + 1 \frac{1}{2} b \end{gathered}$
 
 **[M1]**
 
 > *Expand and simplify, collecting into *$a$* and *$b$* components*
 
-`table row cell stack Y X with rightwards arrow on top end cell equals cell open parentheses negative 2 over 3 k plus 1 half close parentheses bold a plus open parentheses negative 2 over 3 plus 1 plus 1 half close parentheses bold b end cell row blank equals cell open parentheses negative 2 over 3 k plus 1 half close parentheses bold a plus 5 over 6 bold b end cell end table`
+$\begin{gathered} \vec{YX} & = ( - \frac{2}{3} k + 1 \frac{1}{2} ) a + ( - \frac{2}{3} + 1 + 1 \frac{1}{2} ) b \\ = ( - \frac{2}{3} k + 1 \frac{1}{2} ) a + \frac{5}{6} b \end{gathered}$
 
 **[A1]**
 
@@ -72,7 +72,7 @@ $-\frac{2}{3}k+\frac{1}{2}=\frac{5}{6}$
 
 > *Solve for *$k$
 
-`table row cell negative 2 over 3 k end cell equals cell 1 third end cell end table`
+$\begin{gathered} - \frac{2}{3} k & = 1 \frac{1}{3} \end{gathered}$
 
 $k=-\frac{1}{2}$
 
@@ -82,17 +82,17 @@ $k=-\frac{1}{2}$
 > A negative $k$ is expected as $\overset{\rightarrow}{OC}=ka$ is the opposite direction to $\overset{\rightarrow}{OA}=a$.
 
 ### Q2
-> *For every one second, person A moves *`open parentheses 3 bold i minus bold j close parentheses`* metres*
+> *For every one second, person A moves *$( 3 i - j )$* metres*
 
-> *Add five lots of *`open parentheses 3 bold i minus bold j close parentheses`* on to the original position *`open parentheses negative 4 bold i plus bold j close parentheses`
+> *Add five lots of *$( 3 i - j )$* on to the original position *$( - 4 i + j )$
 
-`negative 4 bold i plus bold j plus 5 open parentheses 3 bold i minus bold j close parentheses`
+$- 4 i + j + 5 ( 3 i - j )$
 
 > *Expand and collect each component*
 
 $-4i+j+15i-5j$
 
-**Final answer:** `open parentheses 11 bold i minus 4 bold j close parentheses`** metres**
+**Final answer:** $( 11 i - 4 j )$** metres**
 
 **[B1]**
 > *It helps to sketch the velocity vector and the bearing (measured clockwise from due north)*
@@ -103,7 +103,7 @@ $-4i+j+15i-5j$
 
 > *The speed is the magnitude of the vector (the hypotenuse of the triangle) so use Pythagoras' theorem*
 
-`square root of 2 squared plus open parentheses 2 square root of 3 close parentheses squared end root`
+$\sqrt{2^{2} + ( 2 \sqrt{3} )^{2}}$
 
 **[M1]**
 
@@ -153,14 +153,14 @@ $\overset{\rightarrow}{AB}=\overset{\rightarrow}{AO}+\overset{\rightarrow}{OB}=\
 
 **[1]**
 
-> *We are told that *$AX:XB=3:1$*, therefore *`stack A X with rightwards arrow on top equals 3 over 4 open parentheses stack A B with rightwards arrow on top close parentheses`*.*
+> *We are told that *$AX:XB=3:1$*, therefore *$\vec{AX} = \frac{3}{4} ( \vec{AB} )$*.*
 
-`stack A X with rightwards arrow on top equals 3 over 4 open parentheses bold b minus bold a close parentheses`
+$\vec{AX} = \frac{3}{4} ( b - a )$
 
 > *Now we can find *$\overset{\rightarrow}{OX}$*.*
 
-`stack O X with rightwards arrow on top equals stack O A with rightwards arrow on top plus stack A X with rightwards arrow on top
-stack O X with rightwards arrow on top equals bold a plus 3 over 4 open parentheses bold b minus bold a close parentheses`
+$\vec{OX} = \vec{OA} + \vec{AX} 
+ \vec{OX} = a + \frac{3}{4} ( b - a )$
 
 **[1]**
 
@@ -169,22 +169,22 @@ stack O X with rightwards arrow on top equals bold a plus 3 over 4 open parenthe
 $\overset{\rightarrow}{OX}=\frac{1}{4}a+\frac{3}{4}b$* ***[1]**
 > *B** is the midpoint of **OC**. Therefore, *$\overset{\rightarrow}{OC}=2b$*.*
 
-`table row cell stack A C with rightwards arrow on top end cell equals cell stack A O with rightwards arrow on top plus stack O C with rightwards arrow on top equals stack O C with rightwards arrow on top minus stack O A with rightwards arrow on top end cell row cell stack A C with rightwards arrow on top end cell equals cell 2 bold b bold minus bold a end cell end table`
+$\begin{gathered} \vec{AC} & = \vec{AO} + \vec{OC} = \vec{OC} - \vec{OA} \\ \vec{AC} & = 2 b - a \end{gathered}$
 
 $\overset{\rightarrow}{AC}=2b-a$* ***[1]**
 $\overset{\rightarrow}{AY}=\overset{\rightarrow}{AO}+\overset{\rightarrow}{OY}$. *Since we are told that* $\overset{\rightarrow}{OY}=h\overset{\rightarrow}{OX}$*,*
 
-`stack A Y with rightwards arrow on top equals stack A O with rightwards arrow on top plus h stack O X with rightwards arrow on top equals h stack O X with rightwards arrow on top minus stack O A with rightwards arrow on top
-stack A Y with rightwards arrow on top equals h open parentheses 1 fourth bold a plus 3 over 4 bold b close parentheses minus bold a`
+$\vec{AY} = \vec{AO} + h \vec{OX} = h \vec{OX} - \vec{OA} 
+ \vec{AY} = h ( 1 \frac{1}{4} a + \frac{3}{4} b ) - a$
 
 $\overset{\rightarrow}{AY}=(\frac{h-4}{4})a+\frac{3h}{4}b$ **[1]**
-> *Substitute *`stack A Y with rightwards arrow on top equals open parentheses fraction numerator h minus 4 over denominator 4 end fraction close parentheses bold a plus fraction numerator 3 h over denominator 4 end fraction bold b`* and *$\overset{\rightarrow}{AC}=2b-a$* into *$\overset{\rightarrow}{AY}=m\overset{\rightarrow}{AC}$
+> *Substitute *$\vec{AY} = ( \frac{h - 4}{4} ) a + \frac{3 h}{4} b$* and *$\overset{\rightarrow}{AC}=2b-a$* into *$\overset{\rightarrow}{AY}=m\overset{\rightarrow}{AC}$
 
-> `open parentheses fraction numerator h minus 4 over denominator 4 end fraction close parentheses bold a plus fraction numerator 3 h over denominator 4 end fraction bold b equals m open parentheses 2 bold b minus bold a close parentheses`*  *
+> $( \frac{h - 4}{4} ) a + \frac{3 h}{4} b = m ( 2 b - a )$*  *
 
 > *Expand the brackets on the right-hand side.*
 
-`open parentheses fraction numerator h minus 4 over denominator 4 end fraction close parentheses bold a plus fraction numerator 3 h over denominator 4 end fraction bold b equals negative m bold a plus 2 m bold b`
+$( \frac{h - 4}{4} ) a + \frac{3 h}{4} b = - m a + 2 m b$
 
 **[1]**
 
@@ -200,19 +200,19 @@ $\frac{3h}{4}=2m$
 
 > *Solve simultaneously.*
 
-`table row m equals cell fraction numerator 3 h over denominator 8 end fraction end cell row cell therefore space fraction numerator h minus 4 over denominator 4 end fraction end cell equals cell negative fraction numerator 3 h over denominator 8 end fraction end cell row cell 8 h minus 32 end cell equals cell negative 12 h end cell row cell 20 h end cell equals 32 row h equals cell 32 over 20 equals 8 over 5 end cell end table`
+$\begin{gathered} m = \frac{3 h}{8} \\ \therefore \frac{h - 4}{4} & = - \frac{3 h}{8} \\ 8 h - 32 & = - 12 h \\ 20 h & = 32 \\ h = \frac{32}{20} = \frac{8}{5} \end{gathered}$
 
 > *Substitute into either of the original equations and solve for *$m$*.*
 
-> *  *`table attributes columnalign right center left columnspacing 0px end attributes row cell 3 over 4 open parentheses 8 over 5 close parentheses end cell equals cell 2 m end cell row m equals cell 24 over 40 equals 3 over 5 end cell end table`
+> *  *$\begin{array}{rcl} \frac{3}{4} ( \frac{8}{5} ) & = 2 m \\ m = \frac{24}{40} = \frac{3}{5} \end{array}$
 
 $h=\frac{8}{5}$* and** *$m=\frac{3}{5}$* ***[1]**
 
 ### Q4
-`table row cell stack O Q with rightwards arrow on top end cell equals cell stack O P with rightwards arrow on top plus stack P Q with rightwards arrow on top end cell row cell stack O Q with rightwards arrow on top end cell equals cell 2 bold b plus bold a end cell end table`
+$\begin{gathered} \vec{OQ} & = \vec{OP} + \vec{PQ} \\ \vec{OQ} & = 2 b + a \end{gathered}$
 
 $\overset{\rightarrow}{OQ}=2b+a$ **[1]**
-`table row cell stack Q S with rightwards arrow on top end cell equals cell stack Q P with rightwards arrow on top plus stack P O with rightwards arrow on top plus stack O S with rightwards arrow on top end cell row cell stack Q S with rightwards arrow on top end cell equals cell negative bold a minus 2 bold b plus 3 bold a end cell row cell stack Q S with rightwards arrow on top end cell equals cell 2 bold a minus 2 bold b end cell end table`
+$\begin{gathered} \vec{QS} & = \vec{QP} + \vec{PO} + \vec{OS} \\ \vec{QS} & = - a - 2 b + 3 a \\ \vec{QS} & = 2 a - 2 b \end{gathered}$
 
 $\overset{\rightarrow}{QS}=2a-2b$ **[1]**
 $\overset{\rightarrow}{OX}=\overset{\rightarrow}{OP}+\overset{\rightarrow}{PQ}+\overset{\rightarrow}{QX}$
@@ -223,21 +223,21 @@ $\overset{\rightarrow}{OX}=2b+a+μ\overset{\rightarrow}{QS}$
 
 > *From part (b), *$\overset{\rightarrow}{QS}=2a-2b$*.*
 
-`stack O X with rightwards arrow on top equals 2 bold b plus bold a plus mu open parentheses 2 bold a minus 2 bold b close parentheses`
+$\vec{OX} = 2 b + a + \\mu ( 2 a - 2 b )$
 
-`stack O X with rightwards arrow on top equals open parentheses 1 plus 2 mu close parentheses bold a plus open parentheses 2 minus 2 mu close parentheses bold b` **[1]**
+$\vec{OX} = ( 1 + 2 \\mu ) a + ( 2 - 2 \\mu ) b$ **[1]**
 $\overset{\rightarrow}{OX}=λ\overset{\rightarrow}{OR}$
 
 > *Find *$\overset{\rightarrow}{OR}$*.*
 
-`table row cell stack O R with rightwards arrow on top end cell equals cell stack O S with rightwards arrow on top plus stack S R with rightwards arrow on top end cell row cell stack O R with rightwards arrow on top end cell equals cell 3 bold a plus bold b end cell end table`
+$\begin{gathered} \vec{OR} & = \vec{OS} + \vec{SR} \\ \vec{OR} & = 3 a + b \end{gathered}$
 
 *Use this to find* $\overset{\rightarrow}{OX}$.
 
-`stack O X with rightwards arrow on top equals lambda open parentheses 3 bold a plus bold b close parentheses`
+$\vec{OX} = \\lambda ( 3 a + b )$
 
 $\overset{\rightarrow}{OX}=3λa+λb$ **[1]**
-> *From part (c), *`stack O X with rightwards arrow on top equals open parentheses 1 plus 2 mu close parentheses bold a plus open parentheses 2 minus 2 mu close parentheses bold b`*.*
+> *From part (c), *$\vec{OX} = ( 1 + 2 \\mu ) a + ( 2 - 2 \\mu ) b$*.*
 
 > *From part (d), *$\overset{\rightarrow}{OX}=3λa+λb$*.*
 
@@ -289,7 +289,7 @@ $\overset{\rightarrow}{OR}=3a+b$
 
 *From part (e) we know that* $λ=\frac{3}{4}$.
 
-`stack O X with rightwards arrow on top equals 9 over 4 bold a plus 3 over 4 bold b equals 3 over 4 open parentheses 3 bold a plus bold b close parentheses equals 3 over 4 stack O R with rightwards arrow on top`
+$\vec{OX} = \frac{9}{4} a + \frac{3}{4} b = \frac{3}{4} ( 3 a + b ) = \frac{3}{4} \vec{OR}$
 
 > *Find the ratio *$OR:OX$*.*
 
@@ -300,13 +300,13 @@ $\frac{OR}{OX}=\frac{4}{3}$
 $\frac{OR}{OX}=\frac{4}{3}$ **[1]**
 
 ### Q5
-> *Substitute *$a=αi+j$* and *$b=12i+βj$* into *`4 bold a space minus space bold b bold space equals space open parentheses straight alpha space plus space 3 close parentheses bold i space minus 2 bold j`*.*
+> *Substitute *$a=αi+j$* and *$b=12i+βj$* into *$4 a - b = ( \ \\alpha + 3 ) i - 2 j$*.*
 
-`4 open parentheses alpha bold i space plus thin space bold j close parentheses space minus space open parentheses 12 bold i space plus space beta bold j close parentheses space equals space open parentheses alpha space plus thin space 3 close parentheses bold i space minus space 2 bold j`
+$4 ( \\alpha i + j ) - ( 12 i + \\beta j ) = ( \\alpha + 3 ) i - 2 j$
 
 > *Expand the brackets.*
 
-`4 alpha bold i space plus thin space 4 bold j space minus space 12 bold i space minus space beta bold j space equals space open parentheses alpha space plus thin space 3 close parentheses bold i space minus space 2 bold j`
+$4 \\alpha i + 4 j - 12 i - \\beta j = ( \\alpha + 3 ) i - 2 j$
 
 > *Equate the coefficients of *$i$*.*
 
@@ -328,19 +328,19 @@ $α=5$ **[1] **
 $β=6$** [1]**
 *First find* $b-4a$.
 
-`table row cell bold b minus 4 bold a end cell equals cell open parentheses 12 bold i plus beta bold j close parentheses minus 4 open parentheses alpha bold i plus bold j close parentheses end cell end table`
+$\begin{gathered} b - 4 a & = ( 12 i + \\beta j ) - 4 ( \\alpha i + j ) \end{gathered}$
 
 > *Use *$α=5$* and *$β=6$* from part (a).*
 
-`table row cell bold b minus 4 bold a end cell equals cell open parentheses 12 bold i plus 6 bold j close parentheses minus 4 open parentheses 5 bold i plus bold j close parentheses end cell row cell bold b minus 4 bold a end cell equals cell negative 8 bold i plus 2 bold j end cell end table`
+$\begin{gathered} b - 4 a & = ( 12 i + 6 j ) - 4 ( 5 i + j ) \\ b - 4 a & = - 8 i + 2 j \end{gathered}$
 
 > *To find the unit vector, divide by the magnitude. *
 
-`square root of open parentheses negative 8 close parentheses squared plus open parentheses 2 close parentheses squared end root equals square root of 68 equals 2 square root of 17`
+$\sqrt{( - 8 )^{2} + ( 2 )^{2}} = \sqrt{68} = 2 \sqrt{17}$
 
 **[1]**
 
-`Unit space vector equals fraction numerator 1 over denominator 2 square root of 17 end fraction open parentheses negative 8 bold i plus 2 bold j close parentheses`
+$\text{Unit} \text{vector} = \frac{1}{2 \sqrt{17} } ( - 8 i + 2 j )$
 
 **Unit vector in the direction of **$b-4a$** is**$\frac{\sqrt{17}}{17}(-4i+j)$ **[1]**
 
@@ -375,34 +375,34 @@ $\overset{\rightarrow}{CA}=-c+a$
 
 > *Therefore,*
 
-`stack C E with rightwards arrow on top equals 1 third stack C A with rightwards arrow on top equals 1 third open parentheses negative bold c plus bold a close parentheses`
+$\vec{CE} = 1 \frac{1}{3} \vec{CA} = 1 \frac{1}{3} ( - c + a )$
 
 **[1]**
 
 > *Now write the path from **D** to **E** using the position vector expressions found above.*
 
-`table row cell stack D E with rightwards arrow on top end cell equals cell stack D C with rightwards arrow on top plus stack C E with rightwards arrow on top end cell row blank equals cell 2 over 3 bold c plus 1 third open parentheses negative bold c plus bold a close parentheses end cell end table`
+$\begin{gathered} \vec{DE} & = \vec{DC} + \vec{CE} \\ = \frac{2}{3} c + 1 \frac{1}{3} ( - c + a ) \end{gathered}$
 
 > *Simplify.*
 
-`table row blank equals cell 2 over 3 bold c bold minus 1 third bold c plus 1 third bold a end cell row blank equals cell 1 third bold c plus 1 third bold a end cell end table`
+$\begin{gathered} = \frac{2}{3} c - 1 \frac{1}{3} c + 1 \frac{1}{3} a \\ = 1 \frac{1}{3} c + 1 \frac{1}{3} a \end{gathered}$
 
 **[1]**
 
-`table row blank equals cell 1 third open parentheses bold c plus bold a close parentheses end cell end table`
+$\begin{gathered} = 1 \frac{1}{3} ( c + a ) \end{gathered}$
 
-> *Now we know that *$\overset{\rightarrow}{OB}=c+a$* and *`stack D E with rightwards arrow on top equals 1 third open parentheses bold c plus bold a close parentheses`*.*
+> *Now we know that *$\overset{\rightarrow}{OB}=c+a$* and *$\vec{DE} = 1 \frac{1}{3} ( c + a )$*.*
 
-`table row cell stack O B with rightwards arrow on top end cell equals cell 3 stack D E with rightwards arrow on top end cell end table`
+$\begin{gathered} \vec{OB} & = 3 \vec{DE} \end{gathered}$
 
 $k=3$ **[1]**
 
 ### Q7
 $\overset{\rightarrow}{AB}=\overset{\rightarrow}{OB}-\overset{\rightarrow}{OA}$.
 
-`stack A B with rightwards arrow on top equals open parentheses table row 10 row 3 end table close parentheses minus open parentheses table row 6 row cell negative 5 end cell end table close parentheses`
+$\vec{AB} = ( \begin{gathered} 10 \\ 3 \end{gathered} ) - ( \begin{gathered} 6 \\ - 5 \end{gathered} )$
 
-`stack A B with rightwards arrow on top equals open parentheses table row 4 row 8 end table close parentheses`
+$\vec{AB} = ( \begin{gathered} 4 \\ 8 \end{gathered} )$
 
 **[1]**
 
@@ -416,20 +416,20 @@ $=\sqrt{80}=4\sqrt{5}$
 
 > *Divide the vector by its magnitude and simplify.*
 
-> `fraction numerator 1 over denominator 4 square root of 5 end fraction open parentheses table row 4 row 8 end table close parentheses equals fraction numerator 1 over denominator square root of 5 end fraction open parentheses table row 1 row 2 end table close parentheses`* *
+> $\frac{1}{4 \sqrt{5} } ( \begin{gathered} 4 \\ 8 \end{gathered} ) = \frac{1}{ \sqrt{5} } ( \begin{gathered} 1 \\ 2 \end{gathered} )$* *
 
-`fraction numerator square root of bold 5 over denominator bold 5 end fraction stretchy left parenthesis table row 1 row 2 end table stretchy right parenthesis`* ***[1]**
+$\frac{\sqrt{ 5}}{ 5} \text{stretchy} ( \begin{pmatrix}1 \\ 2\end{pmatrix} \text{stretchy} )$* ***[1]**
 > *Because point **A** is a midpoint of **BC**,*
 
-`stack O A with rightwards arrow on top equals 1 half cross times open parentheses stack O B with rightwards arrow on top plus stack O C with rightwards arrow on top close parentheses`
+$\vec{OA} = 1 \frac{1}{2} \times ( \vec{OB} + \vec{OC} )$
 
-`open parentheses table row 6 row cell negative 5 end cell end table close parentheses equals 1 half cross times open parentheses table row cell 10 plus x end cell row cell 3 plus y end cell end table close parentheses`
+$( \begin{gathered} 6 \\ - 5 \end{gathered} ) = 1 \frac{1}{2} \times ( \begin{gathered} 10 + x \\ 3 + y \end{gathered} )$
 
 **[1]**
 
 > *Multiply both sides by 2.*
 
-`open parentheses table row 12 row cell negative 10 end cell end table close parentheses equals open parentheses table row cell 10 plus x end cell row cell 3 plus y end cell end table close parentheses`
+$( \begin{gathered} 12 \\ - 10 \end{gathered} ) = ( \begin{gathered} 10 + x \\ 3 + y \end{gathered} )$
 
 > *Therefore,*
 
@@ -447,7 +447,7 @@ $\overset{\rightarrow}{OE}=\frac{1}{1+λ}\overset{\rightarrow}{OD}$
 
 > *Substitute in the known values.*
 
-`stack O E with rightwards arrow on top equals fraction numerator 1 over denominator 1 plus lambda end fraction open parentheses table row 12 row 7 end table close parentheses`
+$\vec{OE} = \frac{1}{1 + \\lambda } ( \begin{gathered} 12 \\ 7 \end{gathered} )$
 
 **[1]**
 
@@ -455,17 +455,17 @@ $\overset{\rightarrow}{OE}=\frac{1}{1+λ}\overset{\rightarrow}{OD}$
 
 $\overset{\rightarrow}{BE}=\overset{\rightarrow}{OE}-\overset{\rightarrow}{OB}$
 
-`table row cell stack B E with rightwards arrow on top end cell equals cell fraction numerator 1 over denominator 1 plus lambda end fraction open parentheses table row 12 row 7 end table close parentheses minus open parentheses table row 10 row 3 end table close parentheses end cell row cell stack B E with rightwards arrow on top end cell equals cell open parentheses table row cell fraction numerator 12 over denominator 1 plus lambda end fraction end cell row cell fraction numerator 7 over denominator 1 plus lambda end fraction end cell end table close parentheses minus open parentheses table row 10 row 3 end table close parentheses end cell row cell stack B E with rightwards arrow on top end cell equals cell open parentheses table row cell fraction numerator 12 over denominator 1 plus lambda end fraction minus 10 end cell row cell fraction numerator 7 over denominator 1 plus lambda end fraction minus 3 end cell end table close parentheses end cell end table`
+$\begin{gathered} \vec{BE} & = \frac{1}{1 + \\lambda } ( \begin{gathered} 12 \\ 7 \end{gathered} ) - ( \begin{gathered} 10 \\ 3 \end{gathered} ) \\ \vec{BE} & = ( \begin{gathered} \frac{12}{1 + \\lambda } \\ \frac{7}{1 + \\lambda } \end{gathered} ) - ( \begin{gathered} 10 \\ 3 \end{gathered} ) \\ \vec{BE} & = ( \begin{gathered} \frac{12}{1 + \\lambda } - 10 \\ \frac{7}{1 + \\lambda } - 3 \end{gathered} ) \end{gathered}$
 
 > *Since *$\overset{\rightarrow}{BE}$* is parallel to the *$x$* axis, the *$y$* component of the vector will be 0.*
 
-`table row cell fraction numerator 7 over denominator 1 plus lambda end fraction minus 3 end cell equals 0 row cell fraction numerator 7 over denominator 1 plus lambda end fraction end cell equals 3 end table`
+$\begin{gathered} \frac{7}{1 + \\lambda } - 3 & = 0 \\ \frac{7}{1 + \\lambda } & = 3 \end{gathered}$
 
 **[1]**
 
 > *Rearrange and solve.*
 
-`7 equals 3 open parentheses 1 plus lambda close parentheses`
+$7 = 3 ( 1 + \\lambda )$
 
 $7=3+3λ$
 
@@ -476,9 +476,9 @@ $λ=\frac{4}{3}$* ***[1]**
 ### Q8
 > *Use "Velocity = Speed x Direction Unit Vector".*
 
-`table row cell Velocity space end cell equals cell space 52 cross times fraction numerator 1 over denominator square root of open parentheses negative 5 close parentheses squared plus 12 squared end root end fraction open parentheses table row cell negative 5 end cell row 12 end table close parentheses end cell row Velocity equals cell 52 over 13 open parentheses table row cell negative 5 end cell row 12 end table close parentheses end cell end table`
+$\begin{gathered} \text{Velocity} & = 52 \times \frac{1}{ \sqrt{( - 5 )^{2} + 12^{2}} } ( \begin{gathered} - 5 \\ 12 \end{gathered} ) \\ \text{Velocity} = \frac{52}{13} ( \begin{gathered} - 5 \\ 12 \end{gathered} ) \end{gathered}$
 
-`Velocity equals stretchy left parenthesis table row cell negative 20 end cell row 48 end table stretchy right parenthesis space km space h to the power of negative 1 end exponent`** [1]**
+$\text{Velocity} = ( \begin{gathered} - 20 \\ 48 \end{gathered} ) \text{km} h^{- 1}$** [1]**
 > *The position vector of **P** at a time **t** hours after leaving **A** will be given by velocity x time (since **A** is the origin). *
 
 > *Use the velocity found in part (a).*
@@ -486,19 +486,19 @@ $λ=\frac{4}{3}$* ***[1]**
 **Position vector of ****P**** at time ****t**** hours after leaving ****A**** is **`equation`** [1]**
 > *Point **B** is **not** the origin so **B**'s initial position vector will need to be added to its "velocity vector x time".*
 
-`open parentheses table row cell negative 25 t end cell row cell 45 t end cell end table close parentheses plus open parentheses table row 12 row 8 end table close parentheses`
+$( \begin{gathered} - 25 t \\ 45 t \end{gathered} ) + ( \begin{gathered} 12 \\ 8 \end{gathered} )$
 
 **The position vector of ****Q**** at time t is **`equation` **[1]**
 $\overset{\rightarrow}{PQ}=\overset{\rightarrow}{PO}+\overset{\rightarrow}{OQ}=\overset{\rightarrow}{OQ}-\overset{\rightarrow}{OP}$
 
 > *Use the answers from parts (b) and (c).*
 
-`stack P Q with rightwards arrow on top equals open parentheses table row cell 12 minus 25 t end cell row cell 45 t plus 8 end cell end table close parentheses minus open parentheses table row cell negative 20 t end cell row cell 48 t end cell end table close parentheses`
+$\vec{PQ} = ( \begin{gathered} 12 - 25 t \\ 45 t + 8 \end{gathered} ) - ( \begin{gathered} - 20 t \\ 48 t \end{gathered} )$
 
 `equation` **[1]**
 > *Find, algebraically, the magnitude of your answer to part (d).*
 
-`open vertical bar stack P Q with rightwards arrow on top close vertical bar equals square root of open parentheses 12 minus 5 t close parentheses squared plus open parentheses 8 minus 3 t close parentheses squared end root`
+$\left| \vec{PQ} \right| = \sqrt{( 12 - 5 t )^{2} + ( 8 - 3 t )^{2}}$
 
 **[1]**
 
@@ -530,7 +530,7 @@ $t=2.148...,t=2.792...$
 ### Q9
 > *Since *$\overset{\rightarrow}{AC}$* is a multiple of *$\overset{\rightarrow}{BC}$*, we know that *$A,B\mathrm{and}C$* must be collinear. Work out *$\overset{\rightarrow}{AB}$*.*
 
-`table row cell stack A B with rightwards arrow on top end cell equals cell stack A O with rightwards arrow on top plus stack O B with rightwards arrow on top equals stack O B with rightwards arrow on top minus stack O A with rightwards arrow on top end cell row cell stack A B with rightwards arrow on top end cell equals cell open parentheses table row 10 row cell negative 4 end cell end table close parentheses minus open parentheses table row cell negative 5 end cell row cell negative 7 end cell end table close parentheses end cell row cell stack A B with rightwards arrow on top end cell equals cell open parentheses table row 15 row 3 end table close parentheses end cell end table`
+$\begin{gathered} \vec{AB} & = \vec{AO} + \vec{OB} = \vec{OB} - \vec{OA} \\ \vec{AB} & = ( \begin{gathered} 10 \\ - 4 \end{gathered} ) - ( \begin{gathered} - 5 \\ - 7 \end{gathered} ) \\ \vec{AB} & = ( \begin{gathered} 15 \\ 3 \end{gathered} ) \end{gathered}$
 
 > *Use *$\overset{\rightarrow}{AC}=4\overset{\rightarrow}{BC}$* to find the ratio of **AB** to **BC**. *
 
@@ -538,61 +538,61 @@ $AB:BC=3:1$
 
 **[1]**
 
-`stack B C with rightwards arrow on top equals 1 third stack A B with rightwards arrow on top equals open parentheses table row 5 row 1 end table close parentheses`
+$\vec{BC} = 1 \frac{1}{3} \vec{AB} = ( \begin{gathered} 5 \\ 1 \end{gathered} )$
 
 > *Now find *$\overset{\rightarrow}{OC}$*.*
 
-`table row cell stack O C with rightwards arrow on top end cell equals cell stack O B with rightwards arrow on top plus stack B C with rightwards arrow on top end cell row cell stack O C with rightwards arrow on top end cell equals cell open parentheses table row x row y end table close parentheses equals open parentheses table row 10 row cell negative 4 end cell end table close parentheses plus open parentheses table row 5 row 1 end table close parentheses equals open parentheses table row 15 row cell negative 3 end cell end table close parentheses end cell end table`
+$\begin{gathered} \vec{OC} & = \vec{OB} + \vec{BC} \\ \vec{OC} & = ( \begin{gathered} x \\ y \end{gathered} ) = ( \begin{gathered} 10 \\ - 4 \end{gathered} ) + ( \begin{gathered} 5 \\ 1 \end{gathered} ) = ( \begin{gathered} 15 \\ - 3 \end{gathered} ) \end{gathered}$
 
 **[1]**
 
 > *A unit vector in the direction of *$\overset{\rightarrow}{OC}$* is required so we will need its magnitude.*
 
-`open vertical bar stack O C with rightwards arrow on top close vertical bar equals square root of 15 squared plus open parentheses negative 3 close parentheses squared end root equals square root of 234 equals 3 square root of 26`
+$\left| \vec{OC} \right| = \sqrt{15^{2} + ( - 3 )^{2}} = \sqrt{234} = 3 \sqrt{26}$
 
 **[1]**
 
 > *Find the unit vector by dividing *$\overset{\rightarrow}{OC}$* by its magnitude.*
 
-`fraction numerator 1 over denominator 3 square root of 26 end fraction open parentheses table row 15 row cell negative 3 end cell end table close parentheses equals fraction numerator 1 over denominator square root of 26 end fraction open parentheses table row 5 row cell negative 1 end cell end table close parentheses`
+$\frac{1}{3 \sqrt{26} } ( \begin{gathered} 15 \\ - 3 \end{gathered} ) = \frac{1}{ \sqrt{26} } ( \begin{gathered} 5 \\ - 1 \end{gathered} )$
 
-`fraction numerator square root of bold 26 over denominator bold 26 end fraction begin bold style stretchy left parenthesis table row 5 row cell negative 1 end cell end table stretchy right parenthesis end style` **[1]**
+$\frac{\sqrt{ 26}}{ 26} \text{begin} \text{style} \text{stretchy} ( \begin{pmatrix}5 \\ - 1\end{pmatrix} \text{stretchy} )$ **[1]**
 
 ### Q10
-> *Speed is given by the magnitude of the velocity so the first step is to work out the magnitude of the direction vector. The magnitude of vector *`open vertical bar bold italic a close vertical bar space equals space open vertical bar open parentheses table row x row y end table close parentheses close vertical bar`* is given by *$\sqrt{x^{2}+y^{2}}$*.*
+> *Speed is given by the magnitude of the velocity so the first step is to work out the magnitude of the direction vector. The magnitude of vector *$\left| a \right| = \left| ( \begin{gathered} x \\ y \end{gathered} ) \right|$* is given by *$\sqrt{x^{2}+y^{2}}$*.*
 
 $\sqrt{4^{2}+3^{2}}=\sqrt{25}=5$
 
 **[1]**
 
-> *We are told that the speed is *$10ms^{-1}$* so we want a velocity vector that is a scalar multiple of *`open parentheses table row cell negative 4 end cell row 3 end table close parentheses`* but with a magnitude of 10. 10 is double 5 so we need to double the vector *`open parentheses table row cell negative 4 end cell row 3 end table close parentheses`*, therefore the velocity vector is,*
+> *We are told that the speed is *$10ms^{-1}$* so we want a velocity vector that is a scalar multiple of *$( \begin{gathered} - 4 \\ 3 \end{gathered} )$* but with a magnitude of 10. 10 is double 5 so we need to double the vector *$( \begin{gathered} - 4 \\ 3 \end{gathered} )$*, therefore the velocity vector is,*
 
-`2 space cross times space open parentheses table row cell negative 4 end cell row 3 end table close parentheses space equals space open parentheses table row cell negative 8 end cell row 6 end table close parentheses`
+$2 \times ( \begin{gathered} - 4 \\ 3 \end{gathered} ) = ( \begin{gathered} - 8 \\ 6 \end{gathered} )$
 
 **[1]**
 
 > *We then need to multiply the velocity by time and add to the initial position vector to find the position vector P after **t** seconds, therefore*
 
-`stretchy left parenthesis table row 30 row 10 end table stretchy right parenthesis space plus thin space stretchy left parenthesis table row cell negative 8 end cell row 6 end table stretchy right parenthesis t`
+$( \begin{gathered} 30 \\ 10 \end{gathered} ) + ( \begin{gathered} - 8 \\ 6 \end{gathered} ) t$
 
-**The position vector of ****P**** after **$t$** seconds is**** **`stretchy left parenthesis table row cell 30 minus 8 t end cell row cell 6 t plus 10 end cell end table stretchy right parenthesis space m`** [1]**
-> *The speed is given by the magnitude of the velocity. Velocity is *`open parentheses table row 5 row 12 end table close parentheses`*. (The vector *`open parentheses table row cell negative 80 end cell row 90 end table close parentheses`* is the initial position.)*
+**The position vector of ****P**** after **$t$** seconds is**** **$( \begin{gathered} 30 - 8 t \\ 6 t + 10 \end{gathered} ) m$** [1]**
+> *The speed is given by the magnitude of the velocity. Velocity is *$( \begin{gathered} 5 \\ 12 \end{gathered} )$*. (The vector *$( \begin{gathered} - 80 \\ 90 \end{gathered} )$* is the initial position.)*
 
 $\sqrt{5^{2}+12^{2}}=\sqrt{169}$
 
 $13ms^{-1}$ **[1]**
 > *Substituting *$t=10$* into the position vectors for **P** and **Q**.*
 
-`table row cell stack O P with rightwards arrow on top end cell equals cell open parentheses table row 30 row 10 end table close parentheses plus open parentheses table row cell negative 8 end cell row 6 end table close parentheses cross times 10 end cell row cell stack O P with rightwards arrow on top end cell equals cell open parentheses table row 30 row 10 end table close parentheses plus open parentheses table row cell negative 80 end cell row 60 end table close parentheses equals open parentheses table row cell negative 50 end cell row 70 end table close parentheses end cell end table`
+$\begin{gathered} \vec{OP} & = ( \begin{gathered} 30 \\ 10 \end{gathered} ) + ( \begin{gathered} - 8 \\ 6 \end{gathered} ) \times 10 \\ \vec{OP} & = ( \begin{gathered} 30 \\ 10 \end{gathered} ) + ( \begin{gathered} - 80 \\ 60 \end{gathered} ) = ( \begin{gathered} - 50 \\ 70 \end{gathered} ) \end{gathered}$
 
-`stack O Q with rightwards arrow on top equals open parentheses table row cell negative 80 end cell row 90 end table close parentheses plus open parentheses table row 5 row 12 end table close parentheses cross times 10
-stack O Q with rightwards arrow on top equals open parentheses table row cell negative 80 end cell row 90 end table close parentheses plus open parentheses table row 50 row 120 end table close parentheses equals open parentheses table row cell negative 30 end cell row 210 end table close parentheses`
+$\vec{OQ} = ( \begin{gathered} - 80 \\ 90 \end{gathered} ) + ( \begin{gathered} 5 \\ 12 \end{gathered} ) \times 10
+ \vec{OQ} = ( \begin{gathered} - 80 \\ 90 \end{gathered} ) + ( \begin{gathered} 50 \\ 120 \end{gathered} ) = ( \begin{gathered} - 30 \\ 210 \end{gathered} )$
 
 **[1]**
 
 > $\overset{\rightarrow}{PQ}=\overset{\rightarrow}{PO}+\overset{\rightarrow}{OQ}=\overset{\rightarrow}{OQ}-\overset{\rightarrow}{OP}$*.*
 
-`open parentheses table row cell negative 30 end cell row 210 end table close parentheses space minus space open parentheses table row cell negative 50 end cell row 70 end table close parentheses space equals space open parentheses table row 20 row 140 end table close parentheses`
+$( \begin{gathered} - 30 \\ 210 \end{gathered} ) - ( \begin{gathered} - 50 \\ 70 \end{gathered} ) = ( \begin{gathered} 20 \\ 140 \end{gathered} )$
 
 > *The distance between two points is the magnitude of the vector between them.*
 
@@ -606,19 +606,19 @@ $100\sqrt{2}$ **[1]**
 > *To find a unit vector, divide the vector by its magnitude. *
 *Find the magnitude of the vector.*
 
-`Magnitude equals square root of 5 squared plus open parentheses negative 12 close parentheses squared end root
-Magnitude equals 13`
+$\text{Magnitude} = \sqrt{5^{2} + ( - 12 )^{2}} 
+\text{Magnitude} = 13$
 
 > *Divide the vector by *$13$*.*
 
 `equation`* ***[1]**
 > *Multiply *$k$* and *$r$* by each component of the corresponding vectors. *
 
-`open parentheses table row 4 row 1 end table close parentheses plus open parentheses table row cell negative 2 k end cell row cell 3 k end cell end table close parentheses equals open parentheses table row cell negative 10 r end cell row cell 5 r end cell end table close parentheses`
+$( \begin{gathered} 4 \\ 1 \end{gathered} ) + ( \begin{gathered} - 2 k \\ 3 k \end{gathered} ) = ( \begin{gathered} - 10 r \\ 5 r \end{gathered} )$
 
 > *Add together the vectors.*
 
-`open parentheses table row cell 4 minus 2 k end cell row cell 1 plus 3 k end cell end table close parentheses equals open parentheses table row cell negative 10 r end cell row cell 5 r end cell end table close parentheses`
+$( \begin{gathered} 4 - 2 k \\ 1 + 3 k \end{gathered} ) = ( \begin{gathered} - 10 r \\ 5 r \end{gathered} )$
 
 > *Equate the *$x$* components.*
 
@@ -640,24 +640,22 @@ $k=-\frac{3}{2}$
 
 > *Substitute *$k=-\frac{3}{2}$*into either of the equations to find *$r$*.*
 
-`table attributes columnalign right center left columnspacing 0px end attributes row cell 1 plus 3 open parentheses negative 3 over 2 close parentheses end cell equals cell 5 r end cell row cell 1 minus 9 over 2 end cell equals cell 5 r end cell end table`
+$\begin{array}{rcl} 1 + 3 ( - \frac{3}{2} ) & = 5 r \\ 1 - \frac{9}{2} & = 5 r \end{array}$
 
 $k=-\frac{3}{2}$**,****  **$r=-\frac{7}{10}$* ***[1]**
 (i) $\overset{\rightarrow}{AB}=\overset{\rightarrow}{OB}-\overset{\rightarrow}{OA}$*.*
 
-`stack A B with rightwards arrow on top equals open parentheses 3 bold q minus bold p close parentheses minus bold p
-stack A B with italic rightwards arrow on top equals 3 bold q minus 2 bold p`
+`A B -vec = ( 3 q - p ) - p A B with -> on top = 3 q - 2 p`
 
 $3q-2p$* ***[1]**
 
 (ii) $\overset{\rightarrow}{AC}=\overset{\rightarrow}{OC}-\overset{\rightarrow}{OA}$.
 
-`stack A C with rightwards arrow on top equals open parentheses 9 bold q minus 5 bold p close parentheses minus bold p
-stack A C with italic rightwards arrow on top equals 9 bold q minus 6 bold p`
+`A C -vec = ( 9 q - 5 p ) - p A C with -> on top = 9 q - 6 p`
 
 $9q-6p$* ***[1]**
 
-(iii) *Both *$\overset{\rightarrow}{AB}$* and *$\overset{\rightarrow}{AC}$* share a common point, **A, **and *`stack A C with rightwards arrow on top equals 3 open parentheses stack A B with rightwards arrow on top close parentheses`*.    *
+(iii) *Both *$\overset{\rightarrow}{AB}$* and *$\overset{\rightarrow}{AC}$* share a common point, **A, **and *$\vec{AC} = 3 ( \vec{AB} )$*.    *
 
 $\overset{\rightarrow}{AB}$** and **$\overset{\rightarrow}{AC}$** share a common point - point ****A - ****and since **$\overset{\rightarrow}{AC}=3(\overset{\rightarrow}{AB})$**, **$\overset{\rightarrow}{AC}$** and **$\overset{\rightarrow}{AB}$** are parallel**** ****[1]**
 
@@ -665,11 +663,9 @@ $\overset{\rightarrow}{AB}$** and **$\overset{\rightarrow}{AC}$** share a common
 
 > $\overset{\rightarrow}{BC}=\overset{\rightarrow}{BO}+\overset{\rightarrow}{OC}=\overset{\rightarrow}{OC}-\overset{\rightarrow}{OB}$*.*
 
-`stack B C with rightwards arrow on top equals open parentheses 9 bold q minus 5 bold p close parentheses minus open parentheses 3 bold q minus bold p close parentheses
-stack B C with rightwards arrow on top equals space 6 bold q minus 4 bold p
-stack B C with italic rightwards arrow on top equals bold space 2 open parentheses 3 bold q minus 2 bold p close parentheses`
+`B C -vec = ( 9 q - 5 p ) - ( 3 q - p ) B C -vec = 6 q - 4 p B C with -> on top = 2 ( 3 q - 2 p )`
 
-> *Therefore, *`stack B C with rightwards arrow on top equals 2 open parentheses stack A B with rightwards arrow on top close parentheses`* and the ratio of *$AB:BC$* is *$1:2$*.*
+> *Therefore, *$\vec{BC} = 2 ( \vec{AB} )$* and the ratio of *$AB:BC$* is *$1:2$*.*
 
 $1:2$* ***[1]**
 
@@ -693,7 +689,7 @@ $\overset{\rightarrow}{AQ}=\frac{1}{2}\overset{\rightarrow}{AB}$
 
 > $\overset{\rightarrow}{AB}=b-a$* **from part (a).*
 
-`stack A Q with rightwards arrow on top equals 1 half open parentheses bold b minus bold a close parentheses`
+$\vec{AQ} = 1 \frac{1}{2} ( b - a )$
 
 **[1]**
 
@@ -701,7 +697,7 @@ $\overset{\rightarrow}{AQ}=\frac{1}{2}\overset{\rightarrow}{AB}$
 
 $\overset{\rightarrow}{PQ}=\overset{\rightarrow}{PA}+\overset{\rightarrow}{AQ}$
 
-`stack P Q with rightwards arrow on top equals 1 fourth bold a plus 1 half open parentheses bold b minus bold a close parentheses`
+$\vec{PQ} = 1 \frac{1}{4} a + 1 \frac{1}{2} ( b - a )$
 
 > *Expand and simplify.*
 
@@ -712,7 +708,7 @@ $\overset{\rightarrow}{QR}=n\overset{\rightarrow}{PQ}$
 
 > *From part (b) we know that *$\overset{\rightarrow}{PQ}=\frac{1}{2}b-\frac{1}{4}a$*.*
 
-`stack Q R with rightwards arrow on top equals n open parentheses 1 half bold b minus 1 fourth bold a close parentheses`
+$\vec{QR} = n ( 1 \frac{1}{2} b - 1 \frac{1}{4} a )$
 
 $\overset{\rightarrow}{QR}=n(\frac{1}{2}b-\frac{1}{4}a)$ **[1]**
 > *To involve *$k$*, consider *$\overset{\rightarrow}{QR}$* involving *$\overset{\rightarrow}{BR}$*.*
@@ -725,7 +721,7 @@ $\overset{\rightarrow}{QR}=\overset{\rightarrow}{QB}+kb$
 
 > *Find *$\overset{\rightarrow}{QB}$*.*
 
-`stack Q B with rightwards arrow on top equals 1 half stack A B with rightwards arrow on top equals 1 half open parentheses bold b minus bold a close parentheses`
+$\vec{QB} = 1 \frac{1}{2} \vec{AB} = 1 \frac{1}{2} ( b - a )$
 
 *Find *$\overset{\rightarrow}{QR}$.
 
@@ -733,12 +729,12 @@ $\overset{\rightarrow}{QR}=\overset{\rightarrow}{QB}+kb$
 
 **[1]**
 
-`stack Q R with rightwards arrow on top equals 1 half open parentheses bold b minus bold a close parentheses plus k bold b`
+$\vec{QR} = 1 \frac{1}{2} ( b - a ) + k b$
 
 $\overset{\rightarrow}{QR}=(k+\frac{1}{2})b-\frac{1}{2}a$** [1]**
 > *Parts (c) and (d) must be equal as both are *$\overset{\rightarrow}{QR}$*.*
 
-`n open parentheses 1 half bold b minus 1 fourth bold a close parentheses equals 1 half open parentheses bold b minus bold a close parentheses plus k bold b`
+$n ( 1 \frac{1}{2} b - 1 \frac{1}{4} a ) = 1 \frac{1}{2} ( b - a ) + k b$
 
 > *Equate coefficients of *$b$*.*
 
@@ -756,7 +752,7 @@ $n=2$
 
 > *Substitute *$n=2$* into the first equation to find *$k$*.*
 
-`table row cell 1 half cross times 2 end cell equals cell 1 half plus k end cell row k equals cell 1 half end cell end table`
+$\begin{gathered} 1 \frac{1}{2} \times 2 & = 1 \frac{1}{2} + k \\ k = 1 \frac{1}{2} \end{gathered}$
 
 $n=2$ **[1]**
 

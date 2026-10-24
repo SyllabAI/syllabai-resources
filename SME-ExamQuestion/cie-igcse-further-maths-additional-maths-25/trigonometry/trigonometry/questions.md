@@ -20,11 +20,11 @@ Show that $A+B=-2\mathrm{cot}x$.
 
 **Q1** [5 marks]
 
-Use your answers to part (a) and part (b) to simplify the expression `open parentheses A plus 1 close parentheses open parentheses B plus 1 close parentheses`.
+Use your answers to part (a) and part (b) to simplify the expression $( A + 1 ) ( B + 1 )$.
 
 Hence, or otherwise, solve
 
-`open parentheses fraction numerator tan open parentheses x minus 60 close parentheses over denominator 1 plus sec open parentheses x minus 60 close parentheses end fraction plus 1 close parentheses open parentheses fraction numerator tan open parentheses x minus 60 close parentheses over denominator 1 minus sec open parentheses x minus 60 close parentheses end fraction plus 1 close parentheses equals 2 square root of 3`
+$( \frac{\tan ( x - 60 )}{1 + \sec ( x - 60 )} + 1 ) ( \frac{\tan ( x - 60 )}{1 - \sec ( x - 60 )} + 1 ) = 2 \sqrt{3}$
 
 for $-180^{\circ}<x<180^{\circ}$.
 
@@ -34,13 +34,13 @@ for $-180^{\circ}<x<180^{\circ}$.
 
 In this question, all angles are measured in radians.
 
-The graph of $y=a\mathrm{sin}bx+c$ has an amplitude of $10$, a period of $16π$ and passes through the point with coordinates `open parentheses 12 pi comma space 4 close parentheses`.
+The graph of $y=a\mathrm{sin}bx+c$ has an amplitude of $10$, a period of $16π$ and passes through the point with coordinates $( 12 \pi , 4 )$.
 
 Find the constants $a$, $b$ and $c$.
 
 **Q2** [4 marks]
 
-Sketch the graph of `y equals open vertical bar tan open parentheses x over 2 close parentheses plus 1 close vertical bar` for $-π<x<π$.
+Sketch the graph of $y = \left| \tan ( \frac{x}{2} ) + 1 \right|$ for $-π<x<π$.
 
 Label clearly any points of intersection with the coordinate axes and any asymptotes.
 
@@ -105,7 +105,7 @@ Show that $\frac{\mathrm{sin}x\mathrm{tan}x}{1-\mathrm{cos}x}=1+\mathrm{sec}x$.
 
 **Q8** [4 marks]
 
-Solve the equation `5 space sin open parentheses 4 B minus straight pi over 8 close parentheses plus 2 equals 0 space for space minus straight pi over 4 less or equal than B less or equal than straight pi over 4 space radians`
+Solve the equation `5 sin ( 4 B - pi / 8 ) + 2 = 0 for - pi / 4 <= B <= pi / 4 radians`
 
 *Source: june 2020 0606/23 Q10A*
 
@@ -127,7 +127,7 @@ The function $g$ is defined, for$-135^{\circ}\leqx\leq135^{\circ},\mathrm{by}g(x
 
 ![q8-0606-m20-qp-22-additional-maths](assets/005-q8-0606-m20-qp-22-additional-maths.png)
 
-The diagram shows the graph of `straight f open parentheses x close parentheses equals a space cos space b x space plus c space for space 0 less or equal than x less or equal than fraction numerator 8 pi over denominator 3 end fraction`radians.
+The diagram shows the graph of $\mathrm{f} ( x ) = a \cos b x + c \text{for} 0 \text{less} \text{or} \text{equal} \text{than} x \text{less} \text{or} \text{equal} \text{than} \frac{8 \pi }{3}$radians.
 
 Find the value of each of the constants $a,b$ and $c$.
 
@@ -138,21 +138,21 @@ Find the value of each of the constants $a,b$ and $c$.
 
 **Q11** [1 mark]
 
-Write down the amplitude of `1 plus 4 space cos open parentheses x over 3 close parentheses`
+Write down the amplitude of $1 + 4 \cos ( \frac{x}{3} )$
 
 *Source: Nov 2020 0606/11 Q2A*
 
 
 **Q11** [1 mark]
 
-Write down the period of `1 plus 4 space cos open parentheses x over 3 close parentheses`
+Write down the period of $1 + 4 \cos ( \frac{x}{3} )$
 
 *Source: Nov 2020 0606/11 Q2B*
 
 
 **Q11** [3 marks]
 
-On the axes below, sketch the graph of `y equals 1 plus 4 space cos open parentheses x over 3 close parentheses space for space minus 180 degree less or equal than x degree less or equal than 180 degree`.
+On the axes below, sketch the graph of $y = 1 + 4 \cos ( \frac{x}{3} ) \text{for} - 180^{\circ} \text{less} \text{or} \text{equal} \text{than} x^{\circ} \text{less} \text{or} \text{equal} \text{than} 180^{\circ}$.
 
 ![q1c-0606-w20-qp-11-additional-maths](assets/006-q1c-0606-w20-qp-11-additional-maths.png)
 
@@ -163,11 +163,11 @@ On the axes below, sketch the graph of `y equals 1 plus 4 space cos open parenth
 
 **Q12** [8 marks]
 
-(i) Show that `fraction numerator 1 over denominator open parentheses 1 plus cosec space theta close parentheses open parentheses sin space theta minus sin to the power of 2 space end exponent theta close parentheses end fraction equals sec squared space theta space`.
+(i) Show that $\frac{1}{( 1 + \text{cosec} \\theta ) ( \sin \\theta - \sin ^{2 } \\theta )} = \sec ^{2} \\theta$.
 
 [4]
 
-(ii) Hence solve `open parentheses 1 plus cosec space theta close parentheses open parentheses sin space theta minus sin squared theta close parentheses equals 3 over 4 space for space minus 180 degree less or equal than theta less or equal than 180 degree`.
+(ii) Hence solve $( 1 + \text{cosec} \\theta ) ( \sin \\theta - \sin ^{2} \\theta ) = \frac{3}{4} \text{for} - 180^{\circ} \text{less} \text{or} \text{equal} \text{than} \\theta \text{less} \text{or} \text{equal} \text{than} 180^{\circ}$.
 
 [4]
 
@@ -178,7 +178,7 @@ On the axes below, sketch the graph of `y equals 1 plus 4 space cos open parenth
 
 **Q13** [3 marks]
 
-Solve the equation `cot open parentheses y minus pi over 2 close parentheses space equals space square root of 3`, where $y$ is in radians and `0 space less-than or slanted equal to space y space less-than or slanted equal to space pi` .
+Solve the equation $\cot ( y - \frac{\pi }{2} ) = \sqrt{3}$, where $y$ is in radians and $0 \text{less} - \text{than} or \text{slanted} \text{equal} to y \text{less} - \text{than} or \text{slanted} \text{equal} to pi$ .
 
 *Source: Specimen 2025 Paper 2 Q8B*
 
@@ -217,7 +217,7 @@ For any function in the form a cos(bx) + c, the period is 2π/b in radians or 36
 
 6π or 1080°
 
-On the axes below, sketch the graph of $y=2\mathrm{cos}\frac{x}{3}-1$ for `– pi space less-than or slanted equal to space x space less-than or slanted equal to space 3 pi` .
+On the axes below, sketch the graph of $y=2\mathrm{cos}\frac{x}{3}-1$ for $- pi \text{less} - \text{than} or \text{slanted} \text{equal} to x \text{less} - \text{than} or \text{slanted} \text{equal} to 3 pi$ .
 
 ![q3c-2025-specimen-paper-1-cie-igcse-additional-maths](assets/008-q3c-2025-specimen-paper-1-cie-igcse-additional-m.png)
 
@@ -261,7 +261,7 @@ On the axes, sketch the graph of $y$ for values of $x$ between 0° and 480°.
 
 **Q17** [4 marks]
 
-Solve `cosec space open parentheses y plus straight pi over 3 close parentheses equals 2 space for space 0 less or equal than y less or equal than 2 straight pi` radians, giving your answers in terms of $π$.
+Solve `cosec ( y + pi / 3 ) = 2 for 0 <= y <= 2 pi` radians, giving your answers in terms of $π$.
 
 *Source: june 2020 0606/11 Q10B*
 
@@ -281,7 +281,7 @@ Solve the equation $5\mathrm{tan}x-3\mathrm{cot}x=2\mathrm{sec}x\mathrm{for}0^{\
 
 (i) Show that $\frac{\mathrm{cos}^{2}2x}{1+\mathrm{sin}2x}=1-\mathrm{sin}2x$.
 
-(ii) Hence solve the equation for $\frac{3\mathrm{cos}^{2}2x}{1+\mathrm{sin}2x}=1$ for `0 degree space less-than or slanted equal to space x space less-than or slanted equal to space 90 degree` .
+(ii) Hence solve the equation for $\frac{3\mathrm{cos}^{2}2x}{1+\mathrm{sin}2x}=1$ for $0 ^{\circ} \text{less} - \text{than} or \text{slanted} \text{equal} to x \text{less} - \text{than} or \text{slanted} \text{equal} to 90 ^{\circ}$ .
 
 *Source: Specimen 2025 Paper 2 Q8A*
 
@@ -317,7 +317,7 @@ Expand the brackets and rearrange.
 Multiply through by -1.
 2 sin²x + 3 sin x - 2 = 0
 
-Hence solve `2 space cos open parentheses 2 alpha plus straight pi over 4 close parentheses equals 3 space tan open parentheses 2 alpha plus straight pi over 4 close parentheses space for space 0 less than alpha less than straight pi` radians, giving your answers in terms of $π$.
+Hence solve `2 cos ( 2 alpha + pi / 4 ) = 3 tan ( 2 alpha + pi / 4 ) for 0 less than alpha less than pi` radians, giving your answers in terms of $π$.
 
 *Source: Nov 2020 0606/13 Q11B*
 
@@ -326,7 +326,7 @@ Hence solve `2 space cos open parentheses 2 alpha plus straight pi over 4 close 
 
 **Q21** [3 marks]
 
-Solve `tan open parentheses alpha plus 45 to the power of degree close parentheses equals negative fraction numerator 1 over denominator square root of 2 end fraction space for space 0 to the power of degree less or equal than alpha less or equal than 360 to the power of degree`.
+Solve `tan ( alpha + 45 ^ deg ) = - (1)/(sqrt( 2) for 0 ^ deg <= alpha <= 360 ^ deg`.
 
 *Source: March 2020 0606/12 Q10A*
 
@@ -385,7 +385,7 @@ Find $\mathrm{sec}^{2}ABC$, giving your answer in the form $e+f\sqrt{3}$, where 
 
 **Q25** [4 marks]
 
-Solve `sin open parentheses 3 ϕ plus fraction numerator 2 straight pi over denominator 3 end fraction close parentheses equals cos open parentheses 3 ϕ plus fraction numerator 2 straight pi over denominator 3 end fraction close parentheses space for space 0 less or equal than ϕ less or equal than fraction numerator 2 straight pi over denominator 3 end fraction space radians`, giving your answers in terms of $π$.
+Solve $\sin ( 3 ϕ + \frac{2 \mathrm{\pi } }{3} ) = \cos ( 3 ϕ + \frac{2 \mathrm{\pi } }{3} ) \text{for} 0 \text{less} \text{or} \text{equal} \text{than} ϕ \text{less} \text{or} \text{equal} \text{than} \frac{2 \mathrm{\pi } }{3} \text{radians}$, giving your answers in terms of $π$.
 
 *Source: Nov 2020 0606/11 Q8B*
 
@@ -418,7 +418,7 @@ Use your answers to part (a) to sketch the graph of $y=4\mathrm{tan}3x+4\mathrm{
 
 **Q27** [5 marks]
 
-Solve the equation `1 half sec open parentheses 2 ϕ plus pi over 4 close parentheses space equals space fraction numerator 1 over denominator square root of 3 end fraction` for $-π<ϕ<π$, where $ϕ$ is in radians. Give your answers in terms of $π$.
+Solve the equation $1 \frac{1}{2} \sec ( 2 ϕ + \frac{\pi }{4} ) = \frac{1}{ \sqrt{3} }$ for $-π<ϕ<π$, where $ϕ$ is in radians. Give your answers in terms of $π$.
 
 *Source: june 2021 paper 11 Q9B*
 

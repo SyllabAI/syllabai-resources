@@ -72,14 +72,14 @@ $\mathrm{Capital} \mathrm{employed}=\mathrm{Issued} \mathrm{shares}+\mathrm{Rese
 > 
 > **Step 1: Apply the formula to calculate the RoCE for each branch**
 > 
-> **      **`Return space on space capital space employed space equals space fraction numerator Profit space from space operations over denominator Capital space employed end fraction space space cross times space 100
+> **      **$\text{Return} \text{on} \text{capital} \text{employed} = \frac{Profit \text{from} operations}{Capital employed} \times 100
 > 
-> Sevenoaks space equals space fraction numerator £ 0.37 straight m over denominator £ 2.4 straight m end fraction space space cross times space 100 space equals space 15.42 percent sign
+> \text{Sevenoaks} = \frac{\pounds 0.37 \mathrm{m} }{\pounds 2.4 \mathrm{m} } \times 100 = 15.42 \%
 > 
-> Whitstable space equals space fraction numerator £ 0.57 straight m over denominator £ 3.1 straight m end fraction space space cross times space 100 space equals space 18.39 percent sign
+> \text{Whitstable} = \frac{\pounds 0.57 \mathrm{m} }{\pounds 3.1 \mathrm{m} } \times 100 = 18.39 \%
 > 
-> Rochester space equals space fraction numerator £ 0.51 straight m over denominator £ 2.9 straight m end fraction space space cross times space 100 space equals space 17.59 percent sign
-> `         **(3)**
+> \text{Rochester} = \frac{\pounds 0.51 \mathrm{m} }{\pounds 2.9 \mathrm{m} } \times 100 = 17.59 \%
+>$         **(3)**
 > 
 > **Step 2: Identify the least profitable branch for closure**
 > 
@@ -139,37 +139,35 @@ $\mathrm{Gross} \mathrm{profit} \mathrm{margin}=\frac{\mathrm{Gross} \mathrm{pro
 > 
 > **Step 1: Calculate the gross profit per unit**
 > 
-> `equals space € 180 space minus space € 72
+> $= \text{€} 180 - \text{€} 72
 > 
-> equals space € 108`       **(1)**
+> = \text{€} 108$       **(1)**
 > 
 > **Step 2: Calculate the gross profit per month**
 > 
-> `equals space € 108 space cross times space 2 comma 200 space scooters
-> 
-> equals space € 237 comma 600`
+> $= \text{€} 108 \times 2 , 200 \text{scooters} > > = \text{€} 237 , 600$
 > 
 > **Step 3: Calculate the gross profit per year**
 > 
-> `equals space € 237 comma 600 space cross times space 12
+> $= \text{€} 237 , 600 \times 12
 > 
-> equals space € 2 comma 851 comma 200`      **(1)**
+> = \text{€} 2 , 851 , 200$      **(1)**
 > 
 > **Step 4: Calculate the revenue per month and then per year**
 > 
-> `equals space € 180 space cross times space 2 comma 200
+> $= \text{€} 180 \times 2 , 200
 > 
-> equals space € 396 comma 000
+> = \text{€} 396 , 000
 > 
-> equals space € 396 comma 000 space cross times space 12
+> = \text{€} 396 , 000 \times 12
 > 
-> equals space € 4 comma 752 comma 000`
+> = \text{€} 4 , 752 , 000$
 > 
 > **Step 5: Calculate the gross profit margin**
 > 
-> `equals space fraction numerator € 2 comma 851 comma 200 over denominator € 4 comma 752 comma 000 end fraction space cross times space 100
+> $= \frac{\text{€} 2 , 851 , 200}{\text{€} 4 , 752 , 000} \times 100
 > 
-> equals space 60 percent sign`      **(1)**
+> = 60 \%$      **(1)**
 
 ## Profit margin
 
@@ -209,34 +207,34 @@ $\mathrm{Profit} \mathrm{margin}=\frac{\mathrm{Profit} \mathrm{from} \mathrm{ope
 > 
 > **Step 1: Calculate the total variable costs for the year**
 > 
-> `equals space open parentheses € 72 space cross times £ 2 comma 200 close parentheses space cross times space 12
+> $= ( \text{€} 72 \times \pounds 2 , 200 ) \times 12
 > 
-> equals space € 1 comma 900 comma 800`       **(1)**
+> = \text{€} 1 , 900 , 800$       **(1)**
 > 
 > **Step 2: Calculate the total fixed costs for the year**
 > 
-> `equals space € 82 comma 000 space cross times space 12
+> $= \text{€} 82 , 000 \times 12
 > 
-> equals space € 984 comma 000`
+> = \text{€} 984 , 000$
 > 
 > **Step 3: Calculate the total costs for the year**
 > 
-> `equals space € 1 comma 900 comma 800 space plus space € 984 comma 000
+> $= \text{€} 1 , 900 , 800 + \text{€} 984 , 000
 > 
-> equals space € 2 comma 884 comma 800`      **(1)**
+> = \text{€} 2 , 884 , 800$      **(1)**
 > 
 > **Step 4: Calculate the profit for the year**
 > 
-> `equals space € 4 comma 752 comma 000 space minus space € 2 comma 884 comma 800
+> $= \text{€} 4 , 752 , 000 - \text{€} 2 , 884 , 800
 > 
-> equals space € 1 comma 867 comma 200
-> `
+> = \text{€} 1 , 867 , 200
+>$
 > 
 > **Step 5: Calculate the profit margin**
 > 
-> `equals space fraction numerator € 1 comma 867 comma 200 over denominator € 4 comma 752 comma 000 end fraction space cross times space 100
+> $= \frac{\text{€} 1 , 867 , 200}{\text{€} 4 , 752 , 000} \times 100
 > 
-> equals space 39.29 percent sign`      **(1)**
+> = 39.29 \%$      **(1)**
 
 ## Methods of improving profitability
 

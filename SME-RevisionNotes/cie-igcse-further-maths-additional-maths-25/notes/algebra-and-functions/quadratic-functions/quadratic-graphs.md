@@ -57,7 +57,7 @@ A quadratic is a function of the form $y=ax^{2}+bx+c$ where $a$ is not zero They
   - the $y$-intercept
   
     - this is found by setting $x=0$ in the quadratic function
-    - so for $ax^{2}+bx+c$ the coordinates of the $y$-intercept will be `open parentheses 0 comma space c close parentheses`
+    - so for $ax^{2}+bx+c$ the coordinates of the $y$-intercept will be $( 0 , c )$
   - the **minimum** or **maximum** point (turning point)
   
     - sometimes a rough idea of where this should lie is enough
@@ -75,11 +75,11 @@ A quadratic is a function of the form $y=ax^{2}+bx+c$ where $a$ is not zero They
 > 
 > > *Factorise*
 > 
-> `y equals open parentheses x minus 2 close parentheses open parentheses x minus 3 close parentheses`
+> $y = ( x - 2 ) ( x - 3 )$
 > 
 > > *Solve *$y=0$
 > 
-> `open parentheses x minus 2 close parentheses open parentheses x minus 3 close parentheses equals 0`
+> $( x - 2 ) ( x - 3 ) = 0$
 > 
 > $x=2\mathrm{or}x=3$
 > 
@@ -99,11 +99,11 @@ A quadratic is a function of the form $y=ax^{2}+bx+c$ where $a$ is not zero They
 > 
 > > *The discriminant of the quadratic is '*$b^{2}-4ac$*'*
 > 
-> `open parentheses negative 6 close parentheses squared minus 4 open parentheses 1 close parentheses open parentheses 13 close parentheses equals 36 minus 52 equals negative 16`
+> $( - 6 )^{2} - 4 ( 1 ) ( 13 ) = 36 - 52 = - 16$
 > 
 > > *As the discriminant is negative, there are no (real) roots and the graph does not intersect the *$x$*-axis*
 > 
-> > *(Note we have included the coordinates of the turning point, *`open parentheses 3 comma space 4 close parentheses`* to help you visualise the graph, but there was no requirement from the question to do this - on a sketch like this, the turning point should be in the correct quadrant)*
+> > *(Note we have included the coordinates of the turning point, *$( 3 , 4 )$* to help you visualise the graph, but there was no requirement from the question to do this - on a sketch like this, the turning point should be in the correct quadrant)*
 > 
 > ![cie-igcse-quadratic-graphs-we-2](assets/04db591d2d25-cie-igcse-quadratic-graphs-we-2.png)
 > 
@@ -115,7 +115,7 @@ A quadratic is a function of the form $y=ax^{2}+bx+c$ where $a$ is not zero They
 > 
 > > *Factorising*
 > 
-> `negative x squared minus 4 x minus 4 equals negative open parentheses x squared plus 4 x plus 4 close parentheses equals negative open parentheses x plus 2 close parentheses squared`
+> $- x^{2} - 4 x - 4 = - ( x^{2} + 4 x + 4 ) = - ( x + 2 )^{2}$
 > 
 > *This shows that there is only one root and the graph will touch the *$x$*-axis at the point* *(-2, 0)* *This point will also be the turning point - and as this is a negative quadratic - will be a maximum point*
 > 
@@ -130,12 +130,12 @@ A quadratic is a function of the form $y=ax^{2}+bx+c$ where $a$ is not zero They
 ### How does completing the square help me sketch graphs?
 
 - Completing the square can quickly tell us the coordinates of the *turning point* on a quadratic graph
-- This is based on the fact that a **squared term** (e.g.  `open parentheses x plus 1 close parentheses squared`) cannot be **negative**
+- This is based on the fact that a **squared term** (e.g.  $( x + 1 )^{2}$) cannot be **negative**
 - **STEP 1** 
-**Complete the square** - rewrite $ax^{2}+bx+c=0$ in the form `a open parentheses x plus p close parentheses squared plus q`
+**Complete the square** - rewrite $ax^{2}+bx+c=0$ in the form $a ( x + p )^{2} + q$
 - **STEP 2** 
 Deduce the $x$**-coordinate** of the turning point
-- `open parentheses x plus p close parentheses squared greater or equal than 0` for all values of $x$
+- $( x + p ) ^{2} \ge 0$ for all values of $x$
 
   - Therefore it's minimum value is 0, and this occurs when $x=-p$
 
@@ -143,14 +143,14 @@ The $x$-coordinate is $-p$
 
 - **STEP 3** 
 Deduce the $y$**-coordinate** of the turning point
-- `a open parentheses x plus p close parentheses squared equals 0`
+- $a ( x + p )^{2} = 0$
 
   - Therefore $y=q$
 
 The $y$-coordinate is $q$
 
 - **STEP 4** 
-The **turning point** has coordinates `open parentheses negative p comma space q close parentheses` This can be considered when sketching the graph of the quadratic function
+The **turning point** has coordinates $( - p , q )$ This can be considered when sketching the graph of the quadratic function
 - Note that the turning point could be a **maximum** or **minimum** point - this will depend on the value of $a$
 
   - $a$ is the **coefficient** of the $x^{2}$ term
@@ -162,24 +162,24 @@ The **turning point** has coordinates `open parentheses negative p comma space q
 - The **range** of a quadratic function will be shown on its graph by the values $y$ takes
 
   - i.e.  the **turning point** from a quadratic graph will determine its **range**
-- For the quadratic function `straight f open parentheses x close parentheses` whose graph has a **minimum** point `open parentheses x subscript m i n end subscript comma space y subscript m i n end subscript close parentheses`
+- For the quadratic function $\mathrm{f} ( x )$ whose graph has a **minimum** point $( x_{m i n} , y_{m i n} )$
 
-  - the range of the `straight f open parentheses x close parentheses` will be $f\geqy_{min}$
-- For the quadratic function `straight f open parentheses x close parentheses` whose graph has a **maximum** point `open parentheses x subscript m a x end subscript comma space y subscript m a x end subscript close parentheses`
+  - the range of the $\mathrm{f} ( x )$ will be $f\geqy_{min}$
+- For the quadratic function $\mathrm{f} ( x )$ whose graph has a **maximum** point $( x_{m a x} , y_{m a x} )$
 
-  - the range of `straight f open parentheses x close parentheses` will be $f\leqy_{max}$
-- If there any restrictions on the domain of `straight f open parentheses x close parentheses` then they could affect the range of `straight f open parentheses x close parentheses`
+  - the range of $\mathrm{f} ( x )$ will be $f\leqy_{max}$
+- If there any restrictions on the domain of $\mathrm{f} ( x )$ then they could affect the range of $\mathrm{f} ( x )$
 
 > **Worked Example**
-> Sketch the graph of `y equals straight f open parentheses x close parentheses` where `straight f open parentheses x close parentheses equals 2 x squared minus 4 x minus 6`, giving the coordinates of the turning point, and any points where the graph intercepts the coordinate axes.  Use your graph to write down the range of `straight f open parentheses x close parentheses`.
+> Sketch the graph of $y = \mathrm{f} ( x )$ where $\mathrm{f} ( x ) = 2 x^{2} - 4 x - 6$, giving the coordinates of the turning point, and any points where the graph intercepts the coordinate axes.  Use your graph to write down the range of $\mathrm{f} ( x )$.
 > 
 > > *STEP 1 - Complete the square.*
 > 
-> `table row cell straight f open parentheses x close parentheses end cell equals cell 2 open parentheses x squared minus 2 x close parentheses minus 6 end cell row blank equals cell 2 open square brackets open parentheses x minus 1 close parentheses squared minus 1 close square brackets minus 6 end cell row blank equals cell 2 open parentheses x minus 1 close parentheses squared minus 8 end cell end table`
+> $\begin{gathered} \mathrm{f} ( x ) & = 2 ( x^{2} - 2 x ) - 6 \\ = 2 [ ( x - 1 )^{2} - 1 ] - 6 \\ = 2 ( x - 1 )^{2} - 8 \end{gathered}$
 > 
 > > *STEP 2 - Deduce the *$x$*-coordinate.*
 > 
-> `x equals negative open parentheses negative 1 close parentheses equals 1`
+> $x = - ( - 1 ) = 1$
 > 
 > > *STEP 3 - Deduce the *$y$*-coordinate.*
 > 

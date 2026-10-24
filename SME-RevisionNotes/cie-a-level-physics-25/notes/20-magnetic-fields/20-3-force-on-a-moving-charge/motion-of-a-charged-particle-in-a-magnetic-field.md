@@ -83,4 +83,4 @@ $F=ma$
 > 
 > $\frac{m}{q}=\frac{1}{1.8\times10^{11}}$
 > 
-> `r space equals space fraction numerator open parentheses 3.0 space cross times space 10 to the power of 6 close parentheses space over denominator open parentheses 1.8 space cross times space 10 to the power of 11 close parentheses open parentheses 6.2 space cross times space 10 to the power of negative 3 end exponent close parentheses end fraction space equals space 2.688 space cross times space 10 to the power of negative 3 end exponent space straight m space equals space 2.7 space mm thin space open parentheses 2 space straight s. straight f close parentheses`
+> $r = \frac{( 3.0 \times 10^{6 ) }{( 1.8 \times 10^{11} ) ( 6.2 \times 10^{-3} } )} = 2.688 \times 10^{- 3} \mathrm{m} = 2.7 \text{mm} ( 2 \mathrm{s} . \mathrm{f} )$

@@ -151,13 +151,13 @@ $T_{1}=\frac{9\times12}{22\times5}T_{2}=\frac{108}{110}T_{2}=\frac{54}{55}T_{2}$
 
 > *Now substitute **T*<sub>*1*</sub>* into the second equation.*
 
-`therefore 13 over 22 T subscript 2 equals 7 over 12 open parentheses 54 over 55 T subscript 2 close parentheses plus 290`
+$\therefore \frac{13}{22} T_{2} = \frac{7}{12} ( \frac{54}{55} T_{2} ) + 290$
 
 **[1]**
 
 > *Rearrange and solve for **T*<sub>*2*</sub>*.*
 
-`table row cell 13 over 22 T subscript 2 minus 63 over 110 T subscript 2 end cell equals 290 row cell 1 over 55 T subscript 2 end cell equals 290 row cell T subscript 2 end cell equals cell 15 space 950 end cell end table`
+$\begin{gathered} \frac{13}{22} T_{2} - \frac{63}{110} T_{2} & = 290 \\ \frac{1}{55} T_{2} & = 290 \\ T_{2} & = 15 950 \end{gathered}$
 
 **[1]**
 

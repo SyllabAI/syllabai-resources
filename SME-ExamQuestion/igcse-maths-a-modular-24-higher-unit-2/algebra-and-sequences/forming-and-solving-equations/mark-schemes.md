@@ -7,7 +7,7 @@
 ### 16() — 4 marks
 > *Form an equation for the perimeter of the triangle in terms of *$x$*.*
 
-`open parentheses x minus 1 close parentheses plus open parentheses 3 x plus 1 close parentheses plus 3 x equals 56`
+$( x - 1 ) + ( 3 x + 1 ) + 3 x = 56$
 
 **[1]**
 
@@ -23,9 +23,9 @@ $x=8$
 
 > *Substitute *$x=8$* into the expressions for the base and the perpendicular height of the triangle.*
 
-*Base: *`3 open parentheses 8 close parentheses equals 24`* *
+*Base: *$3 ( 8 ) = 24$* *
 
-*Perpendicular height: *`open parentheses 8 close parentheses minus 1 equals 7`
+*Perpendicular height: *$( 8 ) - 1 = 7$
 
 > *Calculate the area of the triangle, using *$A=\frac{1}{2}bh$*, where *$b$*is the base *$h$* and is the perpendicular height.*
 
@@ -42,33 +42,33 @@ $84m^{2}$* ***[1]**
 
 > *Write down an expression for the number Julie has after she multiplies by 5 and adds 4. *
 
-`Julie space open parentheses J close parentheses colon space 5 x space plus space 4`
+$Julie ( J ) : 5 x + 4$
 
 > *Write down an expression for the number Liam has after he subtracts the number **from** 10. *
 
-`Liam space open parentheses L close parentheses colon space 10 space minus space x`
+$Liam ( L ) : 10 - x$
 
 ** ****Either correct ****[1]**
 
 > *We also know that Julie's answer is now two thirds of Liam's answer. Use this to form an equation.*
 
-`table row cell J space end cell equals cell space 2 over 3 L end cell row cell 5 x space plus space 4 space end cell equals cell space 2 over 3 open parentheses 10 space minus space x close parentheses end cell end table`
+$\begin{gathered} J & = \frac{2}{3} L \\ 5 x + 4 & = \frac{2}{3} ( 10 - x ) \end{gathered}$
 
 **[1]**
 
 > *Begin to solve the equation, remove the fraction by multiplying both sides by 3.*
 
-`table attributes columnalign right center left columnspacing 0px end attributes row cell 3 open parentheses 5 x space plus space 4 close parentheses space end cell equals cell space 3 open parentheses 2 over 3 open parentheses 10 space minus space x close parentheses close parentheses end cell row cell 3 open parentheses 5 x space plus space 4 close parentheses space end cell equals cell space 2 open parentheses 10 space minus space x close parentheses end cell end table`
+$\begin{array}{rcl} 3 ( 5 x + 4 ) & = 3 ( \frac{2}{3} ( 10 - x ) ) \\ 3 ( 5 x + 4 ) & = 2 ( 10 - x ) \end{array}$
 
 **[1]**
 
 > *Expand the brackets on both sides.*
 
-`table row cell 15 x space plus space 12 space end cell equals cell space 20 space minus space 2 x end cell end table`
+$\begin{gathered} 15 x + 12 & = 20 - 2 x \end{gathered}$
 
 > *Solve the linear equation, begin by adding *$2x$* to each side.*
 
-`table row cell 15 x space plus space 12 space end cell equals cell space 20 space minus space 2 x end cell row cell plus 2 x space space space space space space space space space space space space space space space space space space end cell equals cell space space space space space space space space space space space space space space space space space space space plus 2 x end cell row cell 17 x space plus space 12 space end cell equals cell space 20 end cell row cell negative 12 space space space space space space space space space space space space space space space space space space end cell equals cell space space space space space space space space space space space space space space space space space space space minus 12 end cell row cell 17 x space end cell equals cell space 8 end cell row cell divided by 17 space space space space space space space space space space space space space space space space space space end cell equals cell space space space space space space space space space space space space space space space space divided by 17 end cell row cell x space end cell equals cell space 8 over 17 end cell end table`
+$\begin{gathered} 15 x + 12 & = 20 - 2 x \\ + 2 x & = + 2 x \\ 17 x + 12 & = 20 \\ - 12 & = - 12 \\ 17 x & = 8 \\ \div 17 & = \div 17 \\ x & = \frac{8}{17} \end{gathered}$
 
 ** Method to isolate terms correct**** [1]**
 
@@ -81,23 +81,23 @@ $84m^{2}$* ***[1]**
 
 > *Use this to form an expression for the perimeter of the rectangle.*
 
-`table row cell P space end cell equals cell space l space plus space w space plus space l space plus space w space end cell row cell P space end cell equals cell space 2 l space plus space 2 w end cell row blank equals cell space 2 open parentheses x close parentheses space plus space 2 open parentheses x space plus space 4 close parentheses space end cell end table`
+$\begin{gathered} P & = l + w + l + w \\ P & = 2 l + 2 w \\ = 2 ( x ) + 2 ( x + 4 ) \end{gathered}$
 
 ** **** [1]**
 
 > *Form an equation for the perimeter of the rectangle, setting it equal to 45 cm.*
 
-`table row cell Perimeter space end cell equals cell space 45 end cell row cell 2 open parentheses x close parentheses space plus space 2 open parentheses x space plus space 4 close parentheses space end cell equals cell space 45 end cell end table`
+$\begin{gathered} \text{Perimeter} & = 45 \\ 2 ( x ) + 2 ( x + 4 ) & = 45 \end{gathered}$
 
 ** **** [1]**
 
 > *Simplify by first expanding the brackets and collecting the like terms.*
 
-`table row cell 2 x space plus 2 x space plus space 8 space end cell equals cell space 45 end cell row cell 4 x space plus space 8 space end cell equals cell space 45 end cell end table`
+$\begin{gathered} 2 x + 2 x + 8 & = 45 \\ 4 x + 8 & = 45 \end{gathered}$
 
 > *Solve the equation to find *$x$*.*
 
-`table row cell 4 x space plus space 8 space end cell equals cell space 45 end cell row cell negative 8 space space space space space space space space space space space space space space space space space space end cell equals cell space space space space space space space space space space space space space space space space space minus 8 end cell row cell 4 x space end cell equals cell space 37 end cell row cell divided by 4 space space space space space space space space space space space space space space space space space space end cell equals cell space space space space space space space space space space space space space space space space divided by 4 end cell row cell x space end cell equals cell space 37 over 4 space end cell end table`
+$\begin{gathered} 4 x + 8 & = 45 \\ - 8 & = - 8 \\ 4 x & = 37 \\ \div 4 & = \div 4 \\ x & = \frac{37}{4} \end{gathered}$
 
 $x=9.25\mathrm{cm}$**  ****[1]**
 
@@ -114,17 +114,17 @@ $x=9.25\mathrm{cm}$**  ****[1]**
 
 > *Substitute the lengths of the edges into the formula.*
 
-`table row cell x squared plus y squared end cell equals cell A D squared end cell end table`
+$\begin{gathered} x^{2} + y^{2} & = A D^{2} \end{gathered}$
 
 > *Take the square root of both sides.*
 
-`table row cell square root of x squared plus y squared end root end cell equals cell A D end cell end table`
+$\begin{gathered} \sqrt{x^{2} + y^{2}} & = A D \end{gathered}$
 
 **[1]**
 
 > *Calculate the area of the square **ABCD**.*
 
-`table row cell Area space end cell equals cell space A D cross times A B end cell row blank equals cell square root of x squared plus y squared end root cross times square root of x squared plus y squared end root end cell end table`
+$\begin{gathered} \text{Area} & = A D \times A B \\ = \sqrt{x^{2} + y^{2}} \times \sqrt{x^{2} + y^{2}} \end{gathered}$
 
 **[1]**
 
@@ -140,7 +140,7 @@ $x^{2}+y^{2}$ **[1]**
 
 > *Calculate area of the larger square.*
 
-`Area space equals open parentheses x plus y close parentheses open parentheses x plus y close parentheses`
+$\text{Area} = ( x + y ) ( x + y )$
 
 **[1]**
 
@@ -150,7 +150,7 @@ $\mathrm{Area}=\frac{1}{2}xy$
 
 > *Find the area of the square **ABCD** by subtracting the area of four triangles from the area of the larger square.*
 
-`table row cell Area space end cell equals cell space open parentheses x plus y close parentheses open parentheses x plus y close parentheses minus 4 cross times 1 half x y end cell end table`
+$\begin{gathered} \text{Area} & = ( x + y ) ( x + y ) - 4 \times 1 \frac{1}{2} x y \end{gathered}$
 
 **[1]**
 
@@ -173,37 +173,35 @@ $x^{2}+y^{2}$ **[1]**
 
 > *Use the given dimensions (7 cm and 11 cm) to form two equations in terms of **l ** and **w.*
 
-`table row cell l space plus space w space end cell equals cell space 7 end cell row cell l space plus space l space plus space w space end cell equals cell space 11 end cell end table`
+$\begin{gathered} l + w & = 7 \\ l + l + w & = 11 \end{gathered}$
 
 **Either correct**** [1]**
 
 > *Simplify and number the equations.*
 
-> `table row cell l space plus space w space end cell equals cell space 7 space space space space space space space space space space space space open parentheses 1 close parentheses end cell row cell 2 l space plus space w space end cell equals cell space 11 space space space space space space space space space space open parentheses 2 close parentheses end cell end table`* *
+> $\begin{gathered} l + w & = 7 ( 1 ) \\ 2 l + w & = 11 ( 2 ) \end{gathered}$* *
 
 > *Eliminate the **w** terms by subtracting equation (1) from equation (2). Be careful to subtract every term.*
 
-`space space space space space space space space space space 2 l space plus space w space equals space 11 space space space space space space space space space space space space
-bottom enclose negative space space space space open parentheses space space space space l space plus space w space equals space 7 close parentheses space space space space space space end enclose
-space space space space space space space space space space space space space l space space space space space space space space space space equals space 4`
+`2 l + w = 11 bottom - ( l + w = 7 ) l = 4`
 
 **[1]**
 
 > *Substitute *$l=4$* into either of the two original equations**.*
 
-`open parentheses 1 close parentheses space space space space space 4 space plus space w space equals space 7`
+$( 1 ) 4 + w = 7$
 
 > *Solve this equation to find** w.*
 
-`table row cell w space end cell equals cell space 7 space minus space 4 space equals space 3 end cell end table`
+$\begin{gathered} w & = 7 - 4 = 3 \end{gathered}$
 
 > *So  **w**  =  3  and **l** = -4. Use this to find the area of one tile*
 
-`table row cell Area subscript open parentheses o n e space t i l e close parentheses end subscript space end cell equals cell space 4 space cross times space 3 space equals space 12 space cm squared end cell end table`
+$\begin{gathered} Area_{( o n e t i l e )} & = 4 \times 3 = 12 cm^{2} \end{gathered}$
 
 > *The total area of the pattern will be the area of 4 tiles.*
 
-`table row cell Area subscript open parentheses p a t t e r n close parentheses end subscript space end cell equals cell space 4 space cross times space 12 space equals space 48 space cm squared end cell end table`
+$\begin{gathered} Area_{( p a t t e r n )} & = 4 \times 12 = 48 cm^{2} \end{gathered}$
 
 **[1]**
 
@@ -214,11 +212,11 @@ $48\mathrm{cm}^{2}$* ***[1]**
 ### 4() — 3 marks
 > *Write down an expression, in terms of *$x$* for 6 currant buns.*
 
-`table row cell 1 space currant space bun space end cell equals cell space x end cell row cell 6 space currant space buns space end cell equals cell 6 cross times space x space equals 6 x end cell end table`
+$\begin{gathered} 1 \text{currant} \text{bun} & = x \\ 6 \text{currant} \text{buns} & = 6 \times x = 6 x \end{gathered}$
 
 > *Write down an expression, in terms of *$y$* for 8 iced buns.*
 
-`table row cell 1 space iced space bun space end cell equals cell space y end cell row cell 8 space iced space buns space end cell equals cell 8 cross times space y space equals 8 y end cell end table`
+$\begin{gathered} 1 \text{iced} \text{bun} & = y \\ 8 \text{iced} \text{buns} & = 8 \times y = 8 y \end{gathered}$
 
 ** Either correct ****[1]**
 
@@ -226,7 +224,7 @@ $48\mathrm{cm}^{2}$* ***[1]**
 
 > *Use this to write a formula for **T** in terms of **x** and **y**.*
 
-`table row cell T space end cell equals cell space 6 space currant space buns space plus 8 space iced space buns space equals space 6 x space plus space 8 y end cell end table`
+$\begin{gathered} T & = 6 \text{currant} \text{buns} + 8 \text{iced} \text{buns} = 6 x + 8 y \end{gathered}$
 
 **Adding both terms ****[1]**
 
@@ -239,31 +237,31 @@ $T=6x+8y$**  ****[1]**
 
 > *Write down an expression, in terms of *$x$*, for the number of marbles that  Chris (**C **) and Dan (**D **) have.  *
 
-`table row cell B space end cell equals cell space x end cell row cell C space end cell equals cell space 2 B space equals space 2 x end cell row cell D space end cell equals cell space C space plus space 7 space equals space 2 x space plus space 7 end cell end table`
+$\begin{gathered} B & = x \\ C & = 2 B = 2 x \\ D & = C + 7 = 2 x + 7 \end{gathered}$
 
 **At least**** ****C**** ****or D correct**** [1]**
 
 > *Use this to form an expression for the total number of marbles.*
 
-`table row cell T space end cell equals cell space B space plus space C space plus space D end cell row blank equals cell space x space plus space 2 x space plus space open parentheses 2 x space plus space 7 close parentheses space end cell end table`
+$\begin{gathered} T & = B + C + D \\ = x + 2 x + ( 2 x + 7 ) \end{gathered}$
 
 > *The total number of marbles is 57. *
 
 > *Form an equation for the total number of marbles, setting it equal to 57.*
 
-`table row cell T space end cell equals cell space 57 end cell row cell x space plus space 2 x space plus space 2 x space plus space 7 space end cell equals cell space 57 end cell row cell 5 x space plus space 7 space end cell equals cell space 57 end cell end table`
+$\begin{gathered} T & = 57 \\ x + 2 x + 2 x + 7 & = 57 \\ 5 x + 7 & = 57 \end{gathered}$
 
 ** **** [1]**
 
 > *Solve the equation to find *$x$*.*
 
-`table row cell 5 x space plus space 7 space end cell equals cell space 57 end cell row cell negative 7 space space space space space space space space space space space space space space space space space space end cell equals cell space space space space space space space space space space space space space space space space space minus 7 end cell row cell 5 x space end cell equals cell space 50 end cell row cell divided by 5 space space space space space space space space space space space space space space space space space space end cell equals cell space space space space space space space space space space space space space space space space divided by 5 end cell row cell x space end cell equals cell space 50 over 5 space equals space 10 end cell end table`
+$\begin{gathered} 5 x + 7 & = 57 \\ - 7 & = - 7 \\ 5 x & = 50 \\ \div 5 & = \div 5 \\ x & = \frac{50}{5} = 10 \end{gathered}$
 
 > *Dan can only be correct is his and Becky's marbles add up to double the number of Chris' marbles. *
 
 > $x=10$* so Becky has 10 marbles, Chris has 2(10) = 20 marbles and Dan has 20 + 7 = 27 marbles.*
 
-`table row cell B space plus space D space end cell equals cell space 10 space plus space 27 space not equal to space 2 C end cell end table`
+$\begin{gathered} B + D & = 10 + 27 \text{eq} 2 C \end{gathered}$
 
 **Dan is not correct, as he and Becky would need to have 40 marbles in total.****  [1]**
 
@@ -274,7 +272,7 @@ $T=6x+8y$**  ****[1]**
 
 > *Write down an expression, in terms of *$x$* for each of the lengths of the trapezium.*
 
-`table row cell A D space end cell equals cell space x end cell row cell B C space end cell equals cell space A D space equals space x end cell row cell A B space end cell equals cell space 2 A D space equals space 2 x end cell row cell D C space end cell equals cell space A B space plus space 4 space equals space 2 x space plus space 4 end cell end table`
+$\begin{gathered} A D & = x \\ B C & = A D = x \\ A B & = 2 A D = 2 x \\ D C & = A B + 4 = 2 x + 4 \end{gathered}$
 
 **At least AB or DC correct**** [1]**
 
@@ -284,19 +282,19 @@ $T=6x+8y$**  ****[1]**
 
 > *Use this to form an expression for the perimeter of the trapezium.*
 
-`table row cell P space end cell equals cell x space plus space 2 x space plus space x space plus space open parentheses 2 x space plus space 4 close parentheses space end cell end table`
+$\begin{gathered} P & = x + 2 x + x + ( 2 x + 4 ) \end{gathered}$
 
 ** **** [1]**
 
 > *Form an equation for the perimeter of the trapezium, setting it equal to 38 cm.*
 
-`table row cell Perimeter space end cell equals cell space 38 end cell row cell x space plus space 2 x space plus space 2 x space plus space 4 space end cell equals cell space 38 end cell row cell 6 x space plus space 4 space end cell equals cell space 38 end cell end table`
+$\begin{gathered} \text{Perimeter} & = 38 \\ x + 2 x + 2 x + 4 & = 38 \\ 6 x + 4 & = 38 \end{gathered}$
 
 ** **** [1]**
 
 > *Solve the equation to find *$x$*.*
 
-`table attributes columnalign right center left columnspacing 0px end attributes row cell 6 x space plus space 4 space end cell equals cell space 38 end cell row cell negative 4 space space space space space space space space space space space space space space space space space space end cell equals cell space space space space space space space space space space space space space space space space space minus 4 end cell row cell 6 x space end cell equals cell space 34 end cell row cell divided by 6 space space space space space space space space space space space space space space space space space space end cell equals cell space space space space space space space space space space space space space space space space divided by 6 end cell row cell x space end cell equals cell space 34 over 6 space equals space 17 over 3 end cell end table`
+$\begin{array}{rcl} 6 x + 4 & = 38 \\ - 4 & = - 4 \\ 6 x & = 34 \\ \div 6 & = \div 6 \\ x & = \frac{34}{6} = \frac{17}{3} \end{array}$
 
 $x=5\frac{2}{3}$**  ****[1] **
 
@@ -307,11 +305,11 @@ $x=5\frac{2}{3}$**  ****[1] **
 ### 9() — 3 marks
 > *Write down an expression, in terms of *$x$* for the number of small packets.*
 
-`table row cell Number space of space envelopes space end cell equals cell 5 cross times space x space equals space 5 x end cell end table`
+$\begin{array}{ccc}Number of \text{envelopes} & = & 5 \times x = 5 x\end{array}$
 
 > *Write down an expression, in terms of *$y$* for the number of large packets.*
 
-`table row cell Number space of space envelopes space end cell equals cell 20 cross times space y space equals space 20 y end cell end table`
+$\begin{array}{ccc}Number of \text{envelopes} & = & 20 \times y = 20 y\end{array}$
 
 ** Either correct ****[1]**
 
@@ -319,7 +317,7 @@ $x=5\frac{2}{3}$**  ****[1] **
 
 > *Use this to write a formula for **T** in terms of **x** and **y**.*
 
-`table row cell T space end cell equals cell space 5 x space plus space 20 y end cell end table`
+$\begin{gathered} T & = 5 x + 20 y \end{gathered}$
 
 **Adding both terms ****[1]**
 
@@ -330,7 +328,7 @@ $T=5x+20y$**  ****[1]**
 ### 6() — 5 marks
 > *Choose a variable for the width of the rectangle, for example, **w. **Form an expression in terms of **w**, for the length of the rectangle.*
 
-`table row cell l space end cell equals cell space w space plus space 7 end cell end table`
+$\begin{gathered} l & = w + 7 \end{gathered}$
 
 **[1]**
 
@@ -342,21 +340,21 @@ $T=5x+20y$**  ****[1]**
 
 > *Use the diagram to find an expression for the perimeter of the 8-sided shape. Make sure you add every part and do not miss any.  Starting at the top and working clockwise gives: *
 
-`table row cell P space end cell equals cell space w space plus space open parentheses w space plus space 7 close parentheses space plus space w space plus space 7 space plus space open parentheses w space plus space 7 close parentheses space plus space w space plus space open parentheses w space plus space 7 close parentheses space plus space w space plus space 7 space plus space open parentheses w space plus space 7 close parentheses end cell end table`
+$\begin{gathered} P & = w + ( w + 7 ) + w + 7 + ( w + 7 ) + w + ( w + 7 ) + w + 7 + ( w + 7 ) \end{gathered}$
 
 **[1]**
 
 > *Simplify by collecting the like terms.*
 
-`table row cell P space end cell equals cell space w space plus space w space plus space w space plus space w space plus space w space plus space w space plus space w space plus space w space plus space 7 space space plus space 7 space plus space 7 plus space 7 space plus space 7 space plus space 7 end cell row blank equals cell space 8 w space plus space 42 end cell end table`
+$\begin{gathered} P & = w + w + w + w + w + w + w + w + 7 + 7 + 7 + 7 + 7 + 7 \\ = 8 w + 42 \end{gathered}$
 
 > *The perimeter is 70 cm, use this to form an equation.*
 
-`table row cell 8 w space plus space 42 space end cell equals cell space 70 end cell end table`
+$\begin{gathered} 8 w + 42 & = 70 \end{gathered}$
 
 > *Solve the equation to find **w**.*
 
-> `table row cell 8 w space plus space 42 space end cell equals cell space 70 end cell row cell negative 42 space space space space space space space space space space space space space space space space space space space space space end cell equals cell space space space space space space space space space space space space space space space space minus 42 end cell row cell 8 w space end cell equals cell space 28 end cell row cell divided by 8 space space space space space space space space space space space space space space space space space space space space space end cell equals cell space space space space space space space space space space space space space space space space divided by 8 end cell row cell w space end cell equals cell space 28 over 8 space equals space 7 over 2 end cell end table`* *
+> $\begin{gathered} 8 w + 42 & = 70 \\ - 42 & = - 42 \\ 8 w & = 28 \\ \div 8 & = \div 8 \\ w & = \frac{28}{8} = \frac{7}{2} \end{gathered}$* *
 
 > *Substitute **w** = 3.5 into the expression for the length of one of the rectangles.*
 
@@ -366,11 +364,11 @@ $l=w+7=3.5+7=10.5$
 
 > *So  **w**  =  3.5  and **l**  = 10.5. Use this to find the area of one rectangle*
 
-`table row cell Area subscript open parentheses o n e space r e c t a n g l e close parentheses end subscript space end cell equals cell space 3.5 space cross times space 10.5 space equals space 36.75 space cm squared end cell end table`
+$\begin{gathered} Area_{( o n e r e c t a n g l e )} & = 3.5 \times 10.5 = 36.75 cm^{2} \end{gathered}$
 
 > *The total area of the 8-sided shape will be the area of 4 rectangles.*
 
-`table row cell Area subscript open parentheses s h a p e close parentheses end subscript space end cell equals cell space 4 space cross times space 36.75 space equals space 147 space cm squared end cell end table`
+$\begin{gathered} Area_{( s h a p e )} & = 4 \times 36.75 = 147 cm^{2} \end{gathered}$
 
 $147\mathrm{cm}^{2}$* ***[1]**
 
@@ -379,24 +377,23 @@ $147\mathrm{cm}^{2}$* ***[1]**
 ### 10() — 4 marks
 > *The both start with the same number of sweets, let this be *$x$*. Write down an expression for the amount of sweets they each have after Gemma gives 24 sweets to Betty.*
 
-`Gemma space open parentheses G close parentheses colon space x space minus space 24
-Betty space open parentheses B close parentheses colon space x space plus space 24`
+$Gemma ( G ) : x - 24 Betty ( B ) : x + 24$
 
 **[1]**
 
 > *We also know that Betty now has 5 times as many sweets as Betty, use this and the expressions for the number of their sweets to form and equation.*
 
-`table row cell B space end cell equals cell space 5 G end cell row cell open parentheses x space plus space 24 close parentheses space end cell equals cell space 5 open parentheses x space minus space 24 close parentheses end cell end table`
+$\begin{gathered} B & = 5 G \\ ( x + 24 ) & = 5 ( x - 24 ) \end{gathered}$
 
 **[1]**
 
 > *Begin to solve the equation by expanding the brackets on the right.*
 
-`table row cell x space plus space 24 space end cell equals cell space 5 x space minus space 120 end cell end table`
+$\begin{gathered} x + 24 & = 5 x - 120 \end{gathered}$
 
 > *Solve the linear equation, begin by subtracting *$x$* from each side.*
 
-`table row cell x space plus space 24 space end cell equals cell space 5 x space minus space 120 end cell row cell negative x space space space space space space space space space space space space space space space space space space end cell equals cell space space space space space space space space space space space space space space space space space space space minus x end cell row cell 24 space end cell equals cell space 4 x space minus space 120 end cell row cell plus 120 space space space space space space space space space space space space space space space space space space end cell equals cell space space space space space space space space space space space space space space space space space space space plus 120 end cell row cell 144 space end cell equals cell space 4 x end cell row cell divided by 4 space space space space space space space space space space space space space space space space space space end cell equals cell space space space space space space space space space space space space space space space space divided by 4 end cell row cell fraction numerator 144 space over denominator 4 end fraction end cell equals cell space x space end cell row cell x space end cell equals cell space 36 end cell end table`
+$\begin{gathered} x + 24 & = 5 x - 120 \\ - x & = - x \\ 24 & = 4 x - 120 \\ + 120 & = + 120 \\ 144 & = 4 x \\ \div 4 & = \div 4 \\ \frac{144 }{4} & = x \\ x & = 36 \end{gathered}$
 
 **[1]**
 
@@ -411,16 +408,16 @@ Betty space open parentheses B close parentheses colon space x space plus space 
 
 > *Use this and the expressions given in the diagram to form an equation.*
 
-`table attributes columnalign right center left columnspacing 0px end attributes row cell A O B space end cell equals cell space A O C end cell row cell 6 x space minus space 21 space end cell equals cell space 4 x space plus space 31 end cell end table`
+$\begin{array}{rcl} A O B & = A O C \\ 6 x - 21 & = 4 x + 31 \end{array}$
 
 **[1]**
 
 > *Solve the linear equation, begin by subtracting *$x$* from each side.*
 
-`table row cell 6 x space minus space 21 space end cell equals cell space 4 x space plus space 31 end cell row cell negative 4 x space space space space space space space space space space space space space space space space space space end cell equals cell space space space space space space space space space space space space space space space space space space space minus 4 x end cell row cell 2 x space minus space 21 space end cell equals cell space 31 end cell row cell plus 21 space space space space space space space space space space space space space space space space space space end cell equals cell space space space space space space space space space space space space space space space space space space space plus 21 end cell row cell 2 x space end cell equals cell space 52 end cell row cell divided by 2 space space space space space space space space space space space space space space space space space space end cell equals cell space space space space space space space space space space space space space space space space divided by 2 end cell row cell x space end cell equals cell space 52 over 2 space end cell end table`
+$\begin{gathered} 6 x - 21 & = 4 x + 31 \\ - 4 x & = - 4 x \\ 2 x - 21 & = 31 \\ + 21 & = + 21 \\ 2 x & = 52 \\ \div 2 & = \div 2 \\ x & = \frac{52}{2} \end{gathered}$
 
 ** ****Correct method to isolate terms**** [1]**
-** **`table row cell bold italic x bold space end cell bold equals cell bold space bold 26 bold degree end cell end table`** ****[1]**
+** **$\begin{gathered} x & = 26^{\circ} \end{gathered}$** ****[1]**
 
 ## Q13 — hard — 5 marks · exam-questions
 
@@ -431,40 +428,40 @@ Betty space open parentheses B close parentheses colon space x space plus space 
 
 > *Use this to form an expression for the perimeter of the rectangle.*
 
-`table row cell P subscript r e c t end subscript space end cell equals cell space 4 x space plus space open parentheses 3 x space plus space 4 close parentheses space plus space 4 x space plus space open parentheses 3 x space plus space 4 close parentheses space end cell end table`
+$\begin{gathered} P_{r e c t} & = 4 x + ( 3 x + 4 ) + 4 x + ( 3 x + 4 ) \end{gathered}$
 
 > *Form an expression for the perimeter of the trapezium by adding the expressions given for each of the sides. *
 
-`table row cell P subscript t r a p end subscript space end cell equals cell space 5 x space plus space open parentheses x space minus space 3 close parentheses space plus space 5 x space plus space open parentheses 7 x space minus space 3 close parentheses space end cell end table`
+$\begin{gathered} P_{t r a p} & = 5 x + ( x - 3 ) + 5 x + ( 7 x - 3 ) \end{gathered}$
 
 **Either expression formed **** [1]**
 
 > *Form an equation by setting the expressions for the perimeter of the rectangle and the perimeter of the trapezium equal to each other.*
 
-`table row cell 4 x space plus space open parentheses 3 x space plus space 4 close parentheses space plus space 4 x space plus space open parentheses 3 x space plus space 4 close parentheses space space end cell equals cell space 5 x space plus space open parentheses x space minus space 3 close parentheses space plus space 5 x space plus space open parentheses 7 x space minus space 3 close parentheses space end cell end table`
+$\begin{gathered} 4 x + ( 3 x + 4 ) + 4 x + ( 3 x + 4 ) & = 5 x + ( x - 3 ) + 5 x + ( 7 x - 3 ) \end{gathered}$
 
 ** **** [1]**
 
 > *Simplify both sides by collecting the like terms together.*
 
-`table row cell 4 x space plus space 3 x space plus space 4 space plus space 4 x space plus space 3 x space plus space 4 space space end cell equals cell space 5 x space plus space x space minus space 3 space plus space 5 x space plus space 7 x space minus space 3 space end cell row cell 4 x space plus space 3 x space plus space 4 x space plus space 3 x space plus space 4 space plus space 4 space space end cell equals cell space 5 x space plus space x space plus space 5 x space plus space 7 x space minus space 3 space minus space 3 space end cell row cell 14 x space plus space 8 space end cell equals cell space 18 x space minus space 6 end cell end table`
+$\begin{gathered} 4 x + 3 x + 4 + 4 x + 3 x + 4 & = 5 x + x - 3 + 5 x + 7 x - 3 \\ 4 x + 3 x + 4 x + 3 x + 4 + 4 & = 5 x + x + 5 x + 7 x - 3 - 3 \\ 14 x + 8 & = 18 x - 6 \end{gathered}$
 
 > *Solve the equation to find *$x$*, begin by subtracting the term with the smallest coefficient of *$x$*.*
 
-`table row cell 14 x space plus space 8 space end cell equals cell space 18 x space minus space 6 end cell row cell negative 14 x space space space space space space space space space space space space space space space space space space end cell equals cell space space space space space space space space space space space space space space space space space minus 14 x end cell row cell space 8 space end cell equals cell space 4 x space minus space 6 end cell row cell plus 6 space space space space space space space space space space space space space space space space space space end cell equals cell space space space space space space space space space space space space space space space space space plus 6 end cell row cell 14 space end cell equals cell space 4 x end cell row cell divided by 4 space space space space space space space space space space space space space space space space space space end cell equals cell space space space space space space space space space space space space space space space space divided by 4 end cell row cell 14 over 4 space end cell equals cell space x space end cell end table`
+$\begin{gathered} 14 x + 8 & = 18 x - 6 \\ - 14 x & = - 14 x \\ 8 & = 4 x - 6 \\ + 6 & = + 6 \\ 14 & = 4 x \\ \div 4 & = \div 4 \\ \frac{14}{4} & = x \end{gathered}$
 
 **[1]**
 
 > *Substitute *$x=3.5$* into the expression for the length and width of the rectangle.*
 
-`w space equals space 4 x space equals space 4 open parentheses 3.5 close parentheses space equals space 14
-l space equals space 3 x space plus space 4 space equals space 3 open parentheses 3.5 close parentheses space plus space 4 space equals space 14.5`
+$w = 4 x = 4 ( 3.5 ) = 14
+l = 3 x + 4 = 3 ( 3.5 ) + 4 = 14.5$
 
 > *So  **w**  =  14 cm  and **l**  = 14.5 cm. *
 
 > *Use this to find the area of the rectangle.*
 
-`table row cell Area subscript open parentheses r e c t a n g l e close parentheses end subscript space end cell equals cell space 14 space cross times space 14.5 space equals space 203 space cm squared end cell end table`
+$\begin{gathered} Area_{( r e c t a n g l e )} & = 14 \times 14.5 = 203 cm^{2} \end{gathered}$
 
 **[1]**
 
@@ -491,13 +488,13 @@ $6x^{3}<900$
 
 > *Begin to solve the inequality by dividing both sides by 6.*
 
-`table row cell 6 x cubed space end cell less than cell space 900 end cell row cell x cubed space end cell less than cell fraction numerator space 900 over denominator 6 end fraction end cell row cell x cubed space end cell less than cell space 150 end cell end table`
+$\begin{gathered} 6 x^{3} & < 900 \\ x^{3} & < \frac{ 900}{6} \\ x^{3} & < 150 \end{gathered}$
 
 > *This is a non calculator paper so finding the cube root of 150 is not possible. Instead, consider the values of the cube numbers you do know.*
 
-`table row cell 5 cubed space end cell equals cell space 125 space less than space 150 space space rightwards double arrow space x space must space be space greater space than space 5 end cell end table`
+$\begin{gathered} 5^{3} & = 125 < 150 \Leftrightarrow x \text{must} \text{be} \text{greater} \text{than} 5 \end{gathered}$
 
-`table row cell 6 cubed space end cell equals cell space 216 space greater than space 150 space space rightwards double arrow space x space must space be space less space than space 6 end cell end table`
+$\begin{gathered} 6^{3} & = 216 > 150 \Leftrightarrow x \text{must} \text{be} \text{less} \text{than} 6 \end{gathered}$
 
 > *This shows that *$x$* is between 5 and 6, and *$x$* is an integer so it can be at most 5. *
 
@@ -523,17 +520,17 @@ $\mathrm{Total} \mathrm{area}=9+3x+3x+x^{2}$
 
 > *Form an equation by setting the total area equal to 10.*
 
-`table attributes columnalign right center left columnspacing 0px end attributes row cell 9 space plus space 3 x space plus space 3 x space plus space x squared space end cell equals cell space 10 end cell end table`
+$\begin{array}{rcl} 9 + 3 x + 3 x + x^{2} & = 10 \end{array}$
 
 **[1]**
 
 > *Simplify.*
 
-`table row cell x squared space plus space 6 x space plus space 9 space end cell equals cell space 10 end cell end table`
+$\begin{gathered} x^{2} + 6 x + 9 & = 10 \end{gathered}$
 
 > *Reach the equation given in the question by subtracting 9 from each side.*
 
-`table row cell x squared space plus space 6 x space plus space 9 space end cell equals cell space 10 end cell row cell negative 9 space space space space space space space space space space space space space space space space space space space space space space space space space space space end cell equals cell space space space space space space space space space space space space space space space space space space space minus 9 end cell row cell x squared space plus space 6 x space end cell equals cell space 1 end cell end table`
+$\begin{gathered} x^{2} + 6 x + 9 & = 10 \\ - 9 & = - 9 \\ x^{2} + 6 x & = 1 \end{gathered}$
 
 $x^{2}+6x=1$** [1]**
 
@@ -545,27 +542,27 @@ $AB=AD=3+x$
 
 > *The total area of the square will be this expression squared. Form an expression for the total area of the square.*
 
-`Total space area space equals open parentheses 3 space plus space x close parentheses squared`
+$Total \text{area} = ( 3 + x ) ^{2}$
 
 ** ****[1]**
 
 > *Expand the brackets, remember to multiply each term in the first by each term in the second.*
 
-`table row cell open parentheses 3 space plus space x close parentheses open parentheses 3 space plus space x close parentheses space end cell equals cell space 9 space plus space 3 x space plus space 3 x space plus space x squared end cell end table`
+$\begin{gathered} ( 3 + x ) ( 3 + x ) & = 9 + 3 x + 3 x + x^{2} \end{gathered}$
 
 > *Simplify.*
 
-`table row cell Total space area space end cell equals cell space x squared space plus space 6 x space plus space 9 space end cell end table`
+$\begin{gathered} \text{Total} \text{area} & = x^{2} + 6 x + 9 \end{gathered}$
 
 > *Form an equation by setting this equal to 10.*
 
-`table row cell x squared space plus space 6 x space plus space 9 space end cell equals cell space 10 end cell end table`
+$\begin{gathered} x^{2} + 6 x + 9 & = 10 \end{gathered}$
 
 **[1]**
 
 > *Reach the equation given in the question by subtracting 9 from each side.*
 
-`table row cell x squared space plus space 6 x space plus space 9 space end cell equals cell space 10 end cell row cell negative 9 space space space space space space space space space space space space space space space space space space space space space space space space space space space end cell equals cell space space space space space space space space space space space space space space space space space space space minus 9 end cell row cell x squared space plus space 6 x space end cell equals cell space 1 end cell end table`
+$\begin{gathered} x^{2} + 6 x + 9 & = 10 \\ - 9 & = - 9 \\ x^{2} + 6 x & = 1 \end{gathered}$
 
 $x^{2}+6x=1$** [1]**
 
@@ -574,29 +571,29 @@ $x^{2}+6x=1$** [1]**
 ### 23() — 5 marks
 > *Form an expression for the area of the rectangle.*
 
-`table row cell A subscript r e c t end subscript space end cell equals cell space length space cross times space width space equals space open parentheses 3 x space minus space 2 close parentheses open parentheses x space minus space 1 close parentheses space end cell end table`
+$\begin{gathered} A_{r e c t} & = \text{length} \times \text{width} = ( 3 x - 2 ) ( x - 1 ) \end{gathered}$
 
 > *Form an expression for the area of the triangle using the formula *$A=\frac{1}{2}bh$*. *
 
-`table row cell A subscript t r i end subscript space end cell equals cell space 1 half open parentheses x close parentheses open parentheses 2 x close parentheses end cell end table`
+$\begin{gathered} A_{t r i} & = 1 \frac{1}{2} ( x ) ( 2 x ) \end{gathered}$
 
 **Both expressions formed **** [1]**
 
 > *Form an **inequality **by setting the expression for the area of the rectangle **greater than **the expression for the area of the triangle.*
 
-`table row cell open parentheses 3 x space minus space 2 close parentheses space open parentheses x space minus space 1 close parentheses space space end cell greater than cell space 1 half open parentheses x close parentheses open parentheses 2 x close parentheses end cell end table`
+$\begin{gathered} ( 3 x - 2 ) ( x - 1 ) & > 1 \frac{1}{2} ( x ) ( 2 x ) \end{gathered}$
 
 > *Simplify the left-hand side by expanding the double brackets and collecting the like terms together.*
 
-`table row cell 3 x squared space minus space 3 x space minus space 2 x space plus space 2 space space end cell greater than cell space 1 half open parentheses x close parentheses open parentheses 2 x close parentheses end cell row cell 3 x squared space minus space 5 x space plus space 2 space space end cell greater than cell space 1 half open parentheses x close parentheses open parentheses 2 x close parentheses end cell end table`
+$\begin{gathered} 3 x^{2} - 3 x - 2 x + 2 & > 1 \frac{1}{2} ( x ) ( 2 x ) \\ 3 x^{2} - 5 x + 2 & > 1 \frac{1}{2} ( x ) ( 2 x ) \end{gathered}$
 
 > *Simplify the right-hand side by cancelling the 2s.*
 
-`table row cell 3 x squared space minus space 5 x space plus space 2 space space end cell greater than cell space fraction numerator 1 over denominator up diagonal strike 2 end fraction open parentheses x close parentheses open parentheses up diagonal strike 2 x close parentheses end cell row cell 3 x squared space minus space 5 x space plus space 2 space space end cell greater than cell space space x squared end cell end table`
+$\begin{gathered} 3 x^{2} - 5 x + 2 & > \frac{1}{ \cancel{2} } ( x ) ( \cancel{2} x ) \\ 3 x^{2} - 5 x + 2 & > x^{2} \end{gathered}$
 
 > *Rearrange to make this a quadratic equation equal to zero.*
 
-`table row cell 3 x squared space minus space 5 x space plus space 2 space minus space x squared space end cell greater than cell space 0 end cell row cell 2 x squared space minus space 5 x space plus space 2 space space end cell greater than cell space 0 end cell end table`
+$\begin{gathered} 3 x^{2} - 5 x + 2 - x^{2} & > 0 \\ 2 x^{2} - 5 x + 2 & > 0 \end{gathered}$
 
 ** **** [1]**
 
@@ -614,11 +611,11 @@ $2x^{2}-x-4x+2>0$
 
 > *Factorise fully the first pair of terms and the second pair of terms, either 2 or -2 could be factorised out of the last two terms, but the aim is to get the brackets the same so -2 should be factorised. *
 
-`x open parentheses 2 x space minus space 1 close parentheses space minus space 2 open parentheses 2 x space minus space 1 close parentheses space greater than space 0`
+$x ( 2 x - 1 ) - 2 ( 2 x - 1 ) > 0$
 
 > *Factorise out the whole (2**x** - 1) bracket as if it were one term, leaving **x **and -2 in their own bracket.*
 
-`open parentheses x space minus space 2 close parentheses open parentheses 2 x space minus space 1 close parentheses space greater than space 0`
+$( x - 2 ) ( 2 x - 1 ) > 0$
 
 ** **** [1]**
 
@@ -634,8 +631,8 @@ $2x^{2}-x-4x+2>0$
 
 > *Considering the expressions given for the length and width of the rectangle, we can find restrictions on the value of **x. **Remember that both the length and the width must be positive.*
 
-`l space equals space 3 x space minus space 2 space rightwards double arrow x space greater than fraction numerator space 2 space over denominator 3 end fraction open parentheses as space l space greater than space 0 close parentheses
-w space equals space x space minus space 1 space space rightwards double arrow space x space greater than space 1 space space open parentheses as space w space greater than space 0 close parentheses`
+$l = 3 x - 2 \Leftrightarrow x > \frac{ 2 }{3} ( \text{as} l > 0 )
+w = x - 1 \Leftrightarrow x > 1 ( \text{as} w > 0 )$
 
 > *As *$x>1$*, disregard *$x<\frac{1}{2}$*.*
 
@@ -660,7 +657,7 @@ $4p+3c=470$
 
 > *Number the equations.*
 
-> `table row cell 3 p space plus space 4 c space end cell equals cell space 440 space space space space space space space space space space space space open parentheses 1 close parentheses end cell row cell 4 p space plus space 3 c space end cell equals cell space 470 space space space space space space space space space space space space open parentheses 2 close parentheses end cell end table`* *
+> $\begin{gathered} 3 p + 4 c & = 440 ( 1 ) \\ 4 p + 3 c & = 470 ( 2 ) \end{gathered}$* *
 
 **[1]**
 
@@ -670,8 +667,7 @@ $4p+3c=470$
 
 > *Add equation (1) to equation (2).*
 
-`table row cell space space space space space space 3 p space plus space 4 c space equals space 440 space end cell row cell bottom enclose plus space open parentheses 4 p space plus space 3 c space equals space 470 space close parentheses end enclose
-space space space space space space 7 p space plus space 7 c space equals space 910 space end cell end table space space space space space space space space space space space space`
+`| 3 p + 4 c = 440 | | bottom + ( 4 p + 3 c = 470 ) 7 p + 7 c = 910 | |`
 
 **[1]**
 
@@ -679,9 +675,9 @@ space space space space space space 7 p space plus space 7 c space equals space 
 
 > *Find the cost of 1 kg of each by dividing by 7.*
 
-`space space 7 p space plus space 7 c space equals space 910 space
-7 open parentheses p space plus space c close parentheses space equals space 910 space
-space space space space space p space plus space c space equals fraction numerator space 910 over denominator 7 end fraction`
+$7 p + 7 c = 910 
+7 ( p + c ) = 910 
+ p + c = \frac{ 910}{7}$
 
 **[1]**
 
@@ -705,37 +701,35 @@ $4p+3c=470$
 
 > *Number the equations.*
 
-> `table row cell 3 p space plus space 4 c space end cell equals cell space 440 space space space space space space space space space space space space open parentheses 1 close parentheses end cell row cell 4 p space plus space 3 c space end cell equals cell space 470 space space space space space space space space space space space space open parentheses 2 close parentheses end cell end table`* *
+> $\begin{gathered} 3 p + 4 c & = 440 ( 1 ) \\ 4 p + 3 c & = 470 ( 2 ) \end{gathered}$* *
 
 **[1]**
 
 > *Make the **p** terms equal by multiplying all parts of equation (1) by 4 and all parts of equation (2) by 3.*
 
-> `table row blank blank cell 4 open parentheses 1 close parentheses space space space space space space space space space space space space 4 open parentheses 3 p space plus space 4 c space equals space 440 close parentheses space end cell row blank blank cell 3 open parentheses 2 close parentheses space space space space space space space space space space space space 3 open parentheses 4 p space plus space 3 c space equals space 470 close parentheses space space space space end cell end table`*  *
+> $\begin{gathered} 4 ( 1 ) 4 ( 3 p + 4 c = 440 ) \\ 3 ( 2 ) 3 ( 4 p + 3 c = 470 ) \end{gathered}$*  *
 
 > *This gives the two new equations:*
 
-`table row cell 12 p space plus 16 c space end cell equals cell space 1760 space space space space space space space space space space space space space open parentheses 3 close parentheses end cell row cell 12 p space plus space space 9 c space end cell equals cell space 1410 space space space space space space space space space space space space space open parentheses 4 close parentheses end cell end table`
+$\begin{gathered} 12 p + 16 c & = 1760 ( 3 ) \\ 12 p + 9 c & = 1410 ( 4 ) \end{gathered}$
 
 > *Eliminate the **p** terms by subtracting equation (4) from equation (3).*
 
-`space space space space space space 12 p plus space 16 c space equals space 1760 space space space space space space space space space space space space
-bottom enclose space minus open parentheses 12 p space plus space 9 c space equals space 1410 close parentheses space end enclose
-space space space space space space space space space space space space space space space space space space space 7 c space equals space 350 space`
+`12 p + 16 c = 1760 bottom - ( 12 p + 9 c = 1410 ) 7 c = 350`
 
 **[1]**
 
 > *Solve the equation to find** c  **by dividing both sides by 7.*
 
-`table row cell c space end cell equals cell space 350 over 7 equals space 50 end cell end table`
+$\begin{gathered} c & = \frac{350}{7} = 50 \end{gathered}$
 
 > *Substitute *$c=50$* into either of the two original equations**.*
 
-`table row cell open parentheses 2 close parentheses space space space space space 3 p space plus space 4 c space end cell equals cell space 440 end cell row cell 3 p space plus space 4 open parentheses 50 close parentheses space end cell equals cell space 440 space end cell row cell 3 p space plus space 200 space end cell equals cell space 440 end cell end table`
+$\begin{gathered} ( 2 ) 3 p + 4 c & = 440 \\ 3 p + 4 ( 50 ) & = 440 \\ 3 p + 200 & = 440 \end{gathered}$
 
 > *Solve this equation to find** p.*
 
-`table row cell 3 p space plus space 200 space end cell equals cell space 440 end cell row cell 3 p space end cell equals cell space 240 end cell row cell p space end cell equals cell 240 over 3 space equals 80 space end cell end table`
+$\begin{gathered} 3 p + 200 & = 440 \\ 3 p & = 240 \\ p & = \frac{240}{3} = 80 \end{gathered}$
 
 **[1]**
 
@@ -757,7 +751,7 @@ $30+4x+10+x+20=180$
 
 > *Simplify and collect all **x** terms on one side and all constant terms on the other.*
 
-`table attributes columnalign right center left columnspacing 0px end attributes row cell 5 x plus 60 end cell equals 180 row cell 5 x end cell equals 120 end table`
+$\begin{array}{rcl} 5 x + 60 & = 180 \\ 5 x & = 120 \end{array}$
 
 **[1]**
 
@@ -784,38 +778,36 @@ $a+3c=22$
 
 > *Number the equations.*
 
-> `table row cell 3 a space plus space c space end cell equals cell space 30 space space space space space space space space space space space space open parentheses 1 close parentheses end cell row cell a space plus space 3 c space end cell equals cell space 22 space space space space space space space space space space space space open parentheses 2 close parentheses end cell end table`* *
+> $\begin{gathered} 3 a + c & = 30 ( 1 ) \\ a + 3 c & = 22 ( 2 ) \end{gathered}$* *
 
 > *Make the **c** terms equal by multiplying all parts of equation (1) by 3.*
 
-> `3 open parentheses 1 close parentheses space space space space space space space space space space space space 3 open parentheses 3 a space plus space c space equals space 30 close parentheses space
-space space open parentheses 2 close parentheses space space space space space space space space space space space space space space space space a space plus space 3 c space equals space 22 space space space space`*  *
+> $3 ( 1 ) 3 ( 3 a + c = 30 ) 
+ ( 2 ) a + 3 c = 22$*  *
 
 > *This gives the two equation with the same coefficient of **c.*
 
-`table row cell 9 a space plus 3 c space end cell equals cell space 90 space space space space space space space space space space space space space open parentheses 3 close parentheses end cell row cell a space plus space 3 c space end cell equals cell space 22 space space space space space space space space space space space space space open parentheses 2 close parentheses end cell end table`
+$\begin{gathered} 9 a + 3 c & = 90 ( 3 ) \\ a + 3 c & = 22 ( 2 ) \end{gathered}$
 
 > *Eliminate the **c** terms by subtracting equation (2) from equation (3).*
 
-`space space space space space space space space space table row blank blank 9 end table table row blank blank a end table table row blank blank space end table table row blank blank plus end table table row blank blank 3 end table table row blank blank c end table table row blank blank space end table table row blank equals blank end table table row blank blank space end table table row blank blank 90 end table space space space space space space space space space space space space
-bottom enclose space minus space space space open parentheses table row cell space a space plus 3 c space end cell equals cell space 22 end cell end table close parentheses space end enclose
-space space space space space space space space 8 a space space space space space space space space space space space equals space 68 space`
+`| _ _ 9 | | _ _ a | | _ _ | | _ _ + | | _ _ 3 | | _ _ c | | _ _ | | _ = _ | | _ _ | | _ _ 90 | bottom - ( | a + 3 c | = 22 | | ) 8 a = 68`
 
 **[1]**
 
 > *Solve the equation to find** a  **by dividing both sides by 8.*
 
-`table row cell a space end cell equals cell space 68 over 8 equals space 8.5 end cell end table`
+$\begin{gathered} a & = \frac{68}{8} = 8.5 \end{gathered}$
 
 > *Substitute *$a=8.5$* into either of the two original equations**.*
 
-`table row cell open parentheses 1 close parentheses space space space space space 3 a space plus space c space end cell equals cell space 30 end cell row cell 3 open parentheses 8.5 close parentheses space plus space c space end cell equals cell space 30 space end cell row cell 25.5 space plus space c space end cell equals cell space 30 end cell end table`
+$\begin{gathered} ( 1 ) 3 a + c & = 30 \\ 3 ( 8.5 ) + c & = 30 \\ 25.5 + c & = 30 \end{gathered}$
 
 **[1]**
 
 > *Solve this equation to find** c.*
 
-`table row cell c space plus space 25.5 space end cell equals cell space 30 end cell row cell c space end cell equals cell space 30 space minus space 25.5 end cell row cell c space end cell equals cell space 4.5 space end cell end table`
+$\begin{gathered} c + 25.5 & = 30 \\ c & = 30 - 25.5 \\ c & = 4.5 \end{gathered}$
 
 > *This means that 1 adult ticket costs £8.50 and 1 child ticket costs £4.50. *
 
@@ -853,7 +845,7 @@ $9x+9=360$
 
 > *It may be easiest to factorise the 9 out first.*
 
-`table row cell 9 x space plus space 9 space end cell equals cell space 360 end cell row cell 9 open parentheses x space plus space 1 close parentheses space end cell equals cell space 360 end cell row cell x space plus space 1 space end cell equals cell fraction numerator space 360 over denominator 9 end fraction space end cell row cell x space plus space 1 end cell equals cell space 40 end cell row cell x space end cell equals cell space 39 end cell end table`
+$\begin{gathered} 9 x + 9 & = 360 \\ 9 ( x + 1 ) & = 360 \\ x + 1 & = \frac{ 360}{9} \\ x + 1 & = 40 \\ x & = 39 \end{gathered}$
 
 $x=39^{\circ}$ **[1]**
 
@@ -871,11 +863,11 @@ $3x-15=2x+24$
 
 > * The easiest method is to subtract the **x** term with the smallest coefficient.*
 
-`table row cell 3 x space minus space 15 space end cell equals cell space 2 x space plus space 24 space end cell row cell negative 2 x space space space space space space space space space space space space space space space space space space end cell equals cell space space space space space space space space space space space space space space space space minus 2 x end cell row cell x space minus space 15 space end cell equals cell space 24 end cell end table`
+$\begin{gathered} 3 x - 15 & = 2 x + 24 \\ - 2 x & = - 2 x \\ x - 15 & = 24 \end{gathered}$
 
 > *Add 15 to both sides.*
 
-`table row cell x space minus space 15 space end cell equals cell space 24 end cell row cell plus space 15 space space space space space space space space space space space space space space space space space space end cell equals cell space space space space space space space space space space space space space space space space plus 15 end cell row cell x space end cell equals cell space 39 space end cell end table`
+$\begin{gathered} x - 15 & = 24 \\ + 15 & = + 15 \\ x & = 39 \end{gathered}$
 
 **[1]**
 
@@ -902,17 +894,17 @@ $x+4x+x-7=137$
 
 > *Simplify and solve.*
 
-`table row cell 6 x minus 7 end cell equals 137 row cell 6 x end cell equals 144 end table`
+$\begin{gathered} 6 x - 7 & = 137 \\ 6 x & = 144 \end{gathered}$
 
 **[1]**
 
 > *Divide both sides by 6 to obtain the number of buttons in tin **A.*
 
-`table row x equals 24 end table`
+$\begin{gathered} x = 24 \end{gathered}$
 
 > *Finally, subtract 7 to find the number of buttons in tin C.*
 
-`table attributes columnalign right center left columnspacing 0px end attributes row cell 24 minus 7 end cell equals 17 end table`
+$\begin{array}{rcl} 24 - 7 & = 17 \end{array}$
 
 **Answer = 17** **[1]**
 
@@ -935,34 +927,32 @@ $5t+4c=14.2$
 
 > *Number the equations.*
 
-> `table row cell 3 t space plus space 2 c space end cell equals cell space 7.8 space space space space space space space space space space space space space space open parentheses 1 close parentheses end cell row cell space 5 t space plus space 4 c space end cell equals cell space 14.2 space space space space space space space space space space space space open parentheses 2 close parentheses end cell end table`* *
+> $\begin{gathered} 3 t + 2 c & = 7.8 ( 1 ) \\ 5 t + 4 c & = 14.2 ( 2 ) \end{gathered}$* *
 
 > *Make the **c** terms equal by multiplying all parts of equation (1) by 2.*
 
-`2 open parentheses 1 close parentheses space space space space space space space space space space space space 2 open parentheses 3 t space plus space 2 c space equals 7.8 close parentheses space
-space space open parentheses 2 close parentheses space space space space space space space space space space space space space space space table attributes columnalign right center left columnspacing 0px end attributes row blank blank space end table table attributes columnalign right center left columnspacing 0px end attributes row blank blank 5 end table table attributes columnalign right center left columnspacing 0px end attributes row blank blank t end table table attributes columnalign right center left columnspacing 0px end attributes row blank blank space end table table attributes columnalign right center left columnspacing 0px end attributes row blank blank plus end table table attributes columnalign right center left columnspacing 0px end attributes row blank blank space end table table attributes columnalign right center left columnspacing 0px end attributes row blank blank 4 end table table attributes columnalign right center left columnspacing 0px end attributes row blank blank c end table table attributes columnalign right center left columnspacing 0px end attributes row blank blank space end table table attributes columnalign right center left columnspacing 0px end attributes row blank equals blank end table table attributes columnalign right center left columnspacing 0px end attributes row blank blank space end table table attributes columnalign right center left columnspacing 0px end attributes row blank blank 14 end table table attributes columnalign right center left columnspacing 0px end attributes row blank blank. end table table attributes columnalign right center left columnspacing 0px end attributes row blank blank 2 end table space space`*  *
+$2 ( 1 ) 2 ( 3 t + 2 c = 7.8 ) 
+ ( 2 ) \begin{array}{rcl} \end{array} \begin{array}{rcl} 5 \end{array} \begin{array}{rcl} t \end{array} \begin{array}{rcl} \end{array} \begin{array}{rcl} + \end{array} \begin{array}{rcl} \end{array} \begin{array}{rcl} 4 \end{array} \begin{array}{rcl} c \end{array} \begin{array}{rcl} \end{array} \begin{array}{rcl} = \end{array} \begin{array}{rcl} \end{array} \begin{array}{rcl} 14 \end{array} \begin{array}{rcl} . \end{array} \begin{array}{rcl} 2 \end{array}$*  *
 
 > *This gives two equations with the same coefficient of **c.*
 
-`table row cell 6 t space plus space 4 c space end cell equals cell space 15.6 space space space space space space space space space space space space open parentheses 3 close parentheses end cell row cell space 5 t space plus space 4 c space end cell equals cell space 14.2 space space space space space space space space space space space space open parentheses 2 close parentheses end cell end table`
+$\begin{gathered} 6 t + 4 c & = 15.6 ( 3 ) \\ 5 t + 4 c & = 14.2 ( 2 ) \end{gathered}$
 
 > *Eliminate the **c** terms by subtracting equation (2) from equation (3).*
 
-`space space space space space space space space space table row blank blank space end table table row blank blank space end table table row blank blank 6 end table table row blank blank t end table table row blank blank space end table table row blank blank plus end table table row blank blank space end table table row blank blank 4 end table table row blank blank c end table table row blank blank space end table table row blank equals blank end table table row blank blank space end table table row blank blank 15 end table table row blank blank. end table table row blank blank 6 end table space space space space space space space space
-bottom enclose space minus space space space open parentheses table row cell space 5 t space plus space 4 c space end cell equals cell space 14.2 end cell end table close parentheses space end enclose
-space space space space space space space space space space space space space space t space space space space space space space space space space space equals space 1.4`
+`| _ _ | | _ _ | | _ _ 6 | | _ _ t | | _ _ | | _ _ + | | _ _ | | _ _ 4 | | _ _ c | | _ _ | | _ = _ | | _ _ | | _ _ 15 | | _ _. | | _ _ 6 | bottom - ( | 5 t + 4 c | = 14.2 | | ) t = 1.4`
 
 **[1]**
 
 > *Substitute *$t=1.4$* into either of the two original equations**.*
 
-`table row cell open parentheses 1 close parentheses space space space space space 3 t space plus 2 c space end cell equals cell space 7.8 end cell row cell 3 open parentheses 1.4 close parentheses space plus space 2 c space end cell equals cell space 7.8 space end cell row cell 4.2 space plus space 2 c space end cell equals cell space 7.8 end cell end table`
+$\begin{gathered} ( 1 ) 3 t + 2 c & = 7.8 \\ 3 ( 1.4 ) + 2 c & = 7.8 \\ 4.2 + 2 c & = 7.8 \end{gathered}$
 
 **[1]**
 
 > *Solve this equation to find** c.*
 
-`table row cell 2 c space end cell equals cell space 7.8 space minus space 4.2 end cell row cell 2 c space end cell equals cell space 3.6 end cell row cell c space end cell equals cell fraction numerator 3.6 over denominator 2 end fraction space equals space 1.8 end cell end table`
+$\begin{gathered} 2 c & = 7.8 - 4.2 \\ 2 c & = 3.6 \\ c & = \frac{3.6}{2} = 1.8 \end{gathered}$
 
 > *This means that 1 tea costs £1.40 and 1 coffee costs £1.80. *
 
@@ -976,23 +966,23 @@ space space space space space space space space space space space space space sp
 
 > *Use this to form an expression for the perimeter of the rectangle.*
 
-`table row cell P space end cell equals cell space l space plus space w space plus space l space plus space w space end cell row cell P space end cell equals cell space 2 l space plus space 2 w end cell row blank equals cell space 2 open parentheses 4 space plus space 3 x close parentheses space plus space 2 open parentheses x space plus space 6 close parentheses space end cell end table`
+$\begin{gathered} P & = l + w + l + w \\ P & = 2 l + 2 w \\ = 2 ( 4 + 3 x ) + 2 ( x + 6 ) \end{gathered}$
 
 ** **** [1]**
 
 > *Form an equation for the perimeter of the rectangle, setting it equal to 32 metres.*
 
-`table row cell Perimeter space end cell equals cell space 32 end cell row cell 2 open parentheses 4 space plus space 3 x close parentheses space plus space 2 open parentheses x space plus space 6 close parentheses space end cell equals cell space 32 end cell end table`
+$\begin{gathered} \text{Perimeter} & = 32 \\ 2 ( 4 + 3 x ) + 2 ( x + 6 ) & = 32 \end{gathered}$
 
 ** **** [1]**
 
 > *Simplify by first expanding the brackets and collecting the like terms.*
 
-`table row cell 2 open parentheses 4 space plus space 3 x close parentheses space plus space 2 open parentheses x space plus space 6 close parentheses space end cell equals cell space 32 end cell row cell 8 space plus space 6 x space plus space 2 x space plus space 12 space end cell equals cell space 32 end cell row cell 8 x space plus space 20 space end cell equals cell space 32 end cell end table`
+$\begin{gathered} 2 ( 4 + 3 x ) + 2 ( x + 6 ) & = 32 \\ 8 + 6 x + 2 x + 12 & = 32 \\ 8 x + 20 & = 32 \end{gathered}$
 
 > *Solve the equation to find *$x$*.*
 
-`table row cell 8 x space plus space 20 space end cell equals cell space 32 end cell row cell negative 20 space space space space space space space space space space space space space space space space space space end cell equals cell space space space space space space space space space space space space space space space space space minus 20 end cell row cell 8 x space end cell equals cell space 12 end cell row cell divided by 8 space space space space space space space space space space space space space space space space space space end cell equals cell space space space space space space space space space space space space space space space space divided by 8 end cell row cell x space end cell equals cell space 12 over 8 space end cell end table`
+$\begin{gathered} 8 x + 20 & = 32 \\ - 20 & = - 20 \\ 8 x & = 12 \\ \div 8 & = \div 8 \\ x & = \frac{12}{8} \end{gathered}$
 
 **[1]**
 
@@ -1016,31 +1006,31 @@ $x=1.5$**  ****[1]**
 ### 22((a)) — 2 marks
 > *Substitute the values in the diagram into the formula for the area of a trapezium. *
 
-> *The formula is *`A equals 1 half open parentheses a space plus space b close parentheses h`*, where *$a$* and *$b$* are the two parallel sides and *$h$* is the perpendicular height.*
+> *The formula is *$A = 1 \frac{1}{2} ( a + b ) h$*, where *$a$* and *$b$* are the two parallel sides and *$h$* is the perpendicular height.*
 
-`A space equals space 1 half cross times open parentheses open parentheses x minus 4 close parentheses plus open parentheses x plus 5 close parentheses close parentheses cross times 2 x`
+$A = 1 \frac{1}{2} \times ( ( x - 4 ) + ( x + 5 ) ) \times 2 x$
 
 **[1]**
 
 > *The area is given as 351 cm*<sup>*2*</sup>*, so set this expression equal to 351.*
 
-`space 1 half cross times open parentheses open parentheses x minus 4 close parentheses plus open parentheses x plus 5 close parentheses close parentheses cross times 2 x space equals space 351`
+$1 \frac{1}{2} \times ( ( x - 4 ) + ( x + 5 ) ) \times 2 x = 351$
 
 > *Simplify the expression in the brackets.*
 
-`table row cell space 1 half cross times open parentheses 2 x space plus space 1 close parentheses cross times 2 x space end cell equals cell space 351 end cell end table`
+$\begin{gathered} 1 \frac{1}{2} \times ( 2 x + 1 ) \times 2 x & = 351 \end{gathered}$
 
 > *Cancel out the 2.*
 
-`table row cell space fraction numerator 1 over denominator up diagonal strike 2 end fraction cross times open parentheses 2 x space plus space 1 close parentheses cross times up diagonal strike 2 x space end cell equals cell space 351 end cell row cell x open parentheses 2 x space plus space 1 close parentheses space end cell equals cell space 351 end cell end table`
+$\begin{gathered} \frac{1}{ \cancel{2} } \times ( 2 x + 1 ) \times \cancel{2} x & = 351 \\ x ( 2 x + 1 ) & = 351 \end{gathered}$
 
 > *Expand the brackets on the right hand side.*
 
-`table row cell 2 x squared space plus space x space end cell equals cell space 351 end cell end table`
+$\begin{gathered} 2 x^{2} + x & = 351 \end{gathered}$
 
 > *Subtract 351 from both sides.*
 
-`table row cell 2 x squared space plus space x space minus space 351 space end cell equals cell space 0 end cell end table`
+$\begin{gathered} 2 x^{2} + x - 351 & = 0 \end{gathered}$
 
 $2x^{2}+x-351=0$ **[1]**
 
@@ -1092,14 +1082,14 @@ $12x+18=90$
 
 > *Solve the equation to find *$x$*.*
 
-`table row cell 12 x space plus space 18 space end cell equals cell space 90 end cell row cell 12 x space end cell equals cell space 90 space minus space 18 space end cell row cell 12 x space end cell equals cell space 72 end cell row cell x space end cell equals cell space 72 over 12 space equals space 6 end cell end table`
+$\begin{gathered} 12 x + 18 & = 90 \\ 12 x & = 90 - 18 \\ 12 x & = 72 \\ x & = \frac{72}{12} = 6 \end{gathered}$
 
 ** [1]**
 
 > *Now substitute *$x=6$* into the expressions for each of the angles.*
 
-`7 x space equals space 7 open parentheses 6 close parentheses space equals space 42 degree
-5 x space plus space 18 space equals space 5 open parentheses 6 close parentheses space plus space 18 space equals space 48 degree`
+$7 x = 7 ( 6 ) = 42^{\circ}
+5 x + 18 = 5 ( 6 ) + 18 = 48^{\circ}$
 
 **The smallest angle = 42°**** [1]**
 
@@ -1118,13 +1108,13 @@ $1620=5w\timesw$
 
 > *Simplify and start to solve by dividing both sides by 5.*
 
-`table row 1620 equals cell 5 w squared end cell row cell divided by 5 space space space space space space space end cell equals cell space space space space divided by 5 end cell row 324 equals cell w squared end cell end table`
+$\begin{gathered} 1620 = 5 w^{2} \\ \div 5 & = \div 5 \\ 324 = w^{2} \end{gathered}$
 
 **[1]**
 
 > *Square root both sides, ignoring the negative value as *$w$* is the width and must be positive.*
 
-`table row cell square root of 324 end cell equals cell w equals 18 end cell end table`
+$\begin{gathered} \sqrt{324} & = w = 18 \end{gathered}$
 
 **the width is 18 cm** **[1]**
 
@@ -1178,35 +1168,35 @@ $13$
 
 $\mathrm{Area}_{A}=15\times8=120$
 
-> *Rectangle **B** has a length of *`open parentheses 15 space minus space x close parentheses`* m and a width of 3 m.*
+> *Rectangle **B** has a length of *$( 15 - x )$* m and a width of 3 m.*
 
-`Area subscript B space equals space 3 open parentheses 15 space minus space x close parentheses`
+$Area_{B} = 3 ( 15 - x )$
 
 **[1]**
 
 > *Write down an expression for the total area of the floor plan by adding the two expressions together.*
 
-`Area space equals space 120 space plus space 3 open parentheses 15 space minus space x close parentheses`
+$Area = 120 + 3 ( 15 - x )$
 
 > *Write an **equation **for the area by setting the expression for the area equal to 138.*
 
-`120 space plus space 3 open parentheses 15 space minus space x close parentheses space equals space 138`
+$120 + 3 ( 15 - x ) = 138$
 
 **[1]**
 
 > *Expand the brackets and simplify by collecting like terms.*
 
-`table row cell 120 space plus space 45 space minus space 3 x space end cell equals cell space 138 end cell row cell 165 space minus space 3 x space end cell equals cell space 138 end cell end table`
+$\begin{gathered} 120 + 45 - 3 x & = 138 \\ 165 - 3 x & = 138 \end{gathered}$
 
 > *Isolate the **x** term by subtracting 165.*
 
-`table row cell 165 space minus space 3 x space end cell equals cell space 138 end cell row cell negative 3 x space end cell equals cell space minus 27 end cell end table`
+$\begin{gathered} 165 - 3 x & = 138 \\ - 3 x & = - 27 \end{gathered}$
 
 **[1]**
 
 > *Solve the equation by dividing both sides by -3.*
 
-`table row cell 165 space minus space 3 x space end cell equals cell space 138 end cell row cell negative 3 x space end cell equals cell space minus 27 end cell row cell x space end cell equals cell space fraction numerator negative 27 over denominator negative 3 end fraction end cell end table`
+$\begin{gathered} 165 - 3 x & = 138 \\ - 3 x & = - 27 \\ x & = \frac{- 27}{- 3} \end{gathered}$
 
 $x=9$** [1]**
 
@@ -1223,14 +1213,14 @@ $3x-5=19-x$
 
 > *Now solve the equation to find *$x$*.*
 
-`table row cell 3 x space minus space 5 space end cell equals cell space 19 space minus space x end cell row cell 4 x space minus space 5 space end cell equals cell space 19 end cell row cell 4 x space end cell equals cell space 24 end cell row cell x space end cell equals cell space 24 over 4 space equals space 6 end cell end table`
+$\begin{gathered} 3 x - 5 & = 19 - x \\ 4 x - 5 & = 19 \\ 4 x & = 24 \\ x & = \frac{24}{4} = 6 \end{gathered}$
 
 ** ****Part of method correct**** [1]  **
 **Answer correct**** [1]**
 
 > *Now substitute *$x=6$* into the expressions for each of the side lengths and add them together to find the perimeter.*
 
-`table row cell P space end cell equals cell space 3 x space minus space 5 space plus space 19 space minus space x space plus space 2 x end cell row blank equals cell space 3 open parentheses 6 close parentheses space minus space 5 space plus space 19 space minus space open parentheses 6 close parentheses space plus space 2 open parentheses 6 close parentheses end cell end table`
+$\begin{gathered} P & = 3 x - 5 + 19 - x + 2 x \\ = 3 ( 6 ) - 5 + 19 - ( 6 ) + 2 ( 6 ) \end{gathered}$
 
 **[1]**
 
@@ -1247,35 +1237,35 @@ $P=38\mathrm{cm}$** [1]**
 
 > *Use this to form an expression for the perimeter of the rectangle.*
 
-`table row cell P subscript r e c t end subscript space end cell equals cell space 4 x space plus space open parentheses 5 x space plus space 5 close parentheses space plus space 4 x space plus space open parentheses 5 x space plus space 5 close parentheses space end cell end table`
+$\begin{gathered} P_{r e c t} & = 4 x + ( 5 x + 5 ) + 4 x + ( 5 x + 5 ) \end{gathered}$
 
 **[1]**
 
 > *Form an expression for the perimeter of the trapezium by adding the expressions given for each of the sides. *
 
-`table row cell P subscript t r a p end subscript space end cell equals cell space 5 x space plus space open parentheses 7 x space minus space 2 close parentheses space plus space 5 x space plus space open parentheses 9 x space minus space 2 close parentheses space end cell end table`
+$\begin{gathered} P_{t r a p} & = 5 x + ( 7 x - 2 ) + 5 x + ( 9 x - 2 ) \end{gathered}$
 
 **[1]**
 
 > *Form an equation by setting the expressions for the perimeter of the rectangle and the perimeter of the trapezium equal to each other.*
 
-`table row cell 4 x space plus space open parentheses 5 x space plus space 5 close parentheses space plus space 4 x space plus space open parentheses 5 x space plus space 5 close parentheses space space end cell equals cell space 5 x space plus space open parentheses 7 x space minus space 2 close parentheses space plus space 5 x space plus space open parentheses 9 x space minus space 2 close parentheses space end cell end table`
+$\begin{gathered} 4 x + ( 5 x + 5 ) + 4 x + ( 5 x + 5 ) & = 5 x + ( 7 x - 2 ) + 5 x + ( 9 x - 2 ) \end{gathered}$
 
 ** **** [1]**
 
 > *Simplify both sides by collecting the like terms together.*
 
-`table row cell 4 x space plus space 5 x space plus space 5 space plus space 4 x space plus space 5 x space plus space 5 space space end cell equals cell space 5 x space plus 7 x space minus space 2 space plus space 5 x space plus space 9 x space minus space 2 space end cell row cell 4 x space plus space 5 x space plus space 4 x space plus space 5 x space plus space 5 space plus space 5 space space end cell equals cell space 5 x space plus space 7 x space plus space 5 x space plus space 9 x space minus space 2 space minus space 2 space end cell row cell 18 x space plus space 10 space end cell equals cell space 26 x space minus space 4 end cell end table`
+$\begin{gathered} 4 x + 5 x + 5 + 4 x + 5 x + 5 & = 5 x + 7 x - 2 + 5 x + 9 x - 2 \\ 4 x + 5 x + 4 x + 5 x + 5 + 5 & = 5 x + 7 x + 5 x + 9 x - 2 - 2 \\ 18 x + 10 & = 26 x - 4 \end{gathered}$
 
 > *Solve the equation to find *$x$*, begin by subtracting the term with the smallest coefficient of *$x$*.*
 
-`table attributes columnalign right center left columnspacing 0px end attributes row cell 18 x space plus space 10 space end cell equals cell space 26 x space minus space 4 end cell row cell negative 18 x space space space space space space space space space space space space space space space space space space end cell equals cell space space space space space space space space space space space space space space space space space minus 18 x end cell row cell space 10 space end cell equals cell space 8 x space minus space 4 end cell row cell plus 4 space space space space space space space space space space space space space space space space space space end cell equals cell space space space space space space space space space space space space space space space space space plus 4 end cell row cell 14 space end cell equals cell space 8 x end cell row cell divided by 8 space space space space space space space space space space space space space space space space space space end cell equals cell space space space space space space space space space space space space space space space space divided by 8 end cell row cell 14 over 8 space end cell equals cell space x space end cell row cell x space end cell equals cell space 7 over 4 space equals space 1.75 end cell end table`
+$\begin{array}{rcl} 18 x + 10 & = 26 x - 4 \\ - 18 x & = - 18 x \\ 10 & = 8 x - 4 \\ + 4 & = + 4 \\ 14 & = 8 x \\ \div 8 & = \div 8 \\ \frac{14}{8} & = x \\ x & = \frac{7}{4} = 1.75 \end{array}$
 
 **[1]**
 
 > *Substitute *$x=1.75$* into the expression for the length of **ST**.*
 
-`S T space equals 5 x space plus space 5 space equals space 5 open parentheses 1.75 close parentheses space plus space 5 space equals space 8.75 space plus space 5`
+$S T = 5 x + 5 = 5 ( 1.75 ) + 5 = 8.75 + 5$
 
 $13.75\mathrm{cm}$* ***[1] **
 **Equivalent fraction also accepted.**
@@ -1291,25 +1281,25 @@ $R=x\,S=2x\,F=x-7$
 
 > *Find the number of students by dividing the total amount paid by the amount paid by each student. *
 
-`table attributes columnalign right center left columnspacing 0px end attributes row cell Number space of space students space end cell equals cell space 1155 over 15 space equals space 77 end cell end table`
+`table columnalign right center left columnspacing 0px end | Number of students | = 1155 / 15 = 77 | |`
 
 **[1]**
 
 > *The word total means 'the sum of', so add the expressions together and form an equation for the total number of students by setting this equal to 77.*
 
-`table row cell R space plus space S space plus space F space end cell equals cell space 77 end cell row cell x space plus space 2 x space plus space open parentheses x space minus space 7 close parentheses space end cell equals cell space 77 end cell row cell 4 x space minus space 7 space end cell equals cell space 77 end cell end table`
+$\begin{gathered} R + S + F & = 77 \\ x + 2 x + ( x - 7 ) & = 77 \\ 4 x - 7 & = 77 \end{gathered}$
 
 **[1]**
 
 > *Now solve the equation to find *$x$*.*
 
-`table row cell 4 x space minus space 7 space end cell equals cell space 77 end cell row cell plus 7 space space space space space space space space space space space space space space space space space space end cell equals cell space space space space space space space space space space space space space space space space plus 7 end cell row cell 4 x space end cell equals cell space 84 end cell row cell divided by 4 space space space space space space space space space space space space space space space space space space end cell equals cell space space space space space space space space space space space space space space space space divided by 4 end cell row cell x space end cell equals cell space 84 over 4 space end cell row blank equals cell space 21 end cell end table`
+$\begin{gathered} 4 x - 7 & = 77 \\ + 7 & = + 7 \\ 4 x & = 84 \\ \div 4 & = \div 4 \\ x & = \frac{84}{4} \\ = 21 \end{gathered}$
 
 > $x=21$* means that there were 21 students from Redlands School.  *
 
 > *Now substitute *$x=21$* into the expressions for **S **and **F.*
 
-`table row cell R space end cell equals cell space x space equals space 21 end cell row cell S space end cell equals cell space 2 x space equals space 2 open parentheses 21 close parentheses end cell row cell F space end cell equals cell space x space minus space 7 space equals space 21 space minus space 7 space end cell end table`
+$\begin{gathered} R & = x = 21 \\ S & = 2 x = 2 ( 21 ) \\ F & = x - 7 = 21 - 7 \end{gathered}$
 
 **Redlands: 21 students      **** **
 **St Samuels: 42 students      **
@@ -1334,7 +1324,7 @@ $2x^{2}-3x-5=0$
 
 > *Find the solutions by factorising or using the quadratic formula*
 
-`open parentheses 2 x minus 5 close parentheses open parentheses x plus 1 close parentheses equals 0`
+$( 2 x - 5 ) ( x + 1 ) = 0$
 
 **[1]**
 
@@ -1355,19 +1345,19 @@ $2x+6=5x-9$
 
 > *Now solve the equation to find *$x$*.*
 
-`table row cell 2 x space plus space 6 space end cell equals cell space 5 x space minus space 9 end cell row cell 6 space end cell equals cell space 3 x space minus space 9 end cell row cell 15 space end cell equals cell space 3 x end cell row cell x space end cell equals cell space 5 end cell end table`
+$\begin{gathered} 2 x + 6 & = 5 x - 9 \\ 6 & = 3 x - 9 \\ 15 & = 3 x \\ x & = 5 \end{gathered}$
 
 **[1]**
 
 > *Now substitute *$x=5$* into *$2x+6$* or *$5x-9$* to find the longest side length.*
 
-`table row cell 2 open parentheses 5 close parentheses space plus space 6 space end cell equals cell space 16 space space space space space space space or space space space space space space 5 open parentheses 5 close parentheses space minus space 9 space equals space 16 end cell end table`
+$\begin{gathered} 2 ( 5 ) + 6 & = 16 \text{or} 5 ( 5 ) - 9 = 16 \end{gathered}$
 
 **[1]**
 
 > *Area = length × width. We have a length of 16, a width of *$y$*, and the area is 48, so*
 
-`table row cell 16 y space end cell equals cell space 48 end cell row cell y space end cell equals cell space 48 over 16 space equals space 3 end cell end table`
+$\begin{gathered} 16 y & = 48 \\ y & = \frac{48}{16} = 3 \end{gathered}$
 
 $y=3$** [1]**
 
@@ -1382,7 +1372,7 @@ $x+5$* **boys and *$y+8$* girls*
 
 > *If there are half as many boys as girls then;*
 
-`x plus 5 equals 1 half open parentheses y plus 8 close parentheses`
+$x + 5 = 1 \frac{1}{2} ( y + 8 )$
 
 **[1]**
 
@@ -1402,7 +1392,7 @@ $x+5$* **boys and *$y+8$* girls*
 
 > *If there are half as many boys as girls then;*
 
-`2 open parentheses x plus 5 close parentheses equals y plus 8`
+$2 ( x + 5 ) = y + 8$
 
 **[1]**
 
@@ -1439,15 +1429,15 @@ $x+9=2x+2$
 
 **[1]**
 
-`table row cell x plus 9 end cell equals cell 2 x plus 2 end cell row cell negative x space space space space space space space space space end cell equals cell space space space space space space space space space minus x end cell row 9 equals cell x plus 2 end cell row cell negative 2 space end cell equals cell space space space space minus 2 end cell row 7 equals x end table`
+$\begin{gathered} x + 9 & = 2 x + 2 \\ - x & = - x \\ 9 = x + 2 \\ - 2 & = - 2 \\ 7 = x \end{gathered}$
 
-> *Solve, in this case by subtracting  *`table row blank blank x end table`* and then subtracting 2 from both sides.*
+> *Solve, in this case by subtracting  *$\begin{gathered} x \end{gathered}$* and then subtracting 2 from both sides.*
 
 $x=7$** [1]**
 
-> *Be careful! We have not fully answered the question until we have found *`table attributes columnalign right center left columnspacing 0px end attributes row blank blank y end table`*. Substitute *`table row x equals 7 end table`* into *`table row y equals cell x plus 9 end cell end table`* or *`table attributes columnalign right center left columnspacing 0px end attributes row y equals cell 2 x plus 2 end cell end table`*.*
+> *Be careful! We have not fully answered the question until we have found *$\begin{array}{rcl} y \end{array}$*. Substitute *$\begin{gathered} x = 7 \end{gathered}$* into *$\begin{gathered} y = x + 9 \end{gathered}$* or *$\begin{array}{rcl} y = 2 x + 2 \end{array}$*.*
 
-`table row y equals cell 7 plus 9 equals 16 space space space space or space space space y equals 2 open parentheses 7 close parentheses plus 2 equals 16 end cell end table`
+$\begin{gathered} y = 7 + 9 = 16 \text{or} y = 2 ( 7 ) + 2 = 16 \end{gathered}$
 
 $y=16$* ***[1]**
 
@@ -1464,13 +1454,13 @@ $A=y\,B=2y\,C=y-3$
 
 > *The word total means 'the sum of', so add the expressions together and form an equation by setting this equal to 125.*
 
-`table row cell A space plus space B space plus space C space end cell equals cell space 125 end cell row cell y space plus space 2 y space plus space open parentheses y space minus space 3 close parentheses space end cell equals cell space 125 end cell row cell 4 y space minus space 3 space end cell equals cell space 125 end cell end table`
+$\begin{gathered} A + B + C & = 125 \\ y + 2 y + ( y - 3 ) & = 125 \\ 4 y - 3 & = 125 \end{gathered}$
 
 **[1]**
 
 > *Now solve the equation to find *$y$*.*
 
-`table row cell 4 y space minus space 3 space end cell equals cell space 125 end cell row cell plus 3 space space space space space space space space space space space space space space space space space space end cell equals cell space space space space space space space space space space space space space space space space plus 3 end cell row cell 4 y space end cell equals cell space 128 end cell row cell divided by 4 space space space space space space space space space space space space space space space space space space end cell equals cell space space space space space space space space space space space space space space space space divided by 4 end cell row cell y space end cell equals cell space 128 over 4 space end cell row blank equals cell space 32 end cell end table`
+$\begin{gathered} 4 y - 3 & = 125 \\ + 3 & = + 3 \\ 4 y & = 128 \\ \div 4 & = \div 4 \\ y & = \frac{128}{4} \\ = 32 \end{gathered}$
 
 **[1]**
 
@@ -1478,7 +1468,7 @@ $A=y\,B=2y\,C=y-3$
 
 > *Now substitute *$y=32$* into the expressions for **B **and **C.*
 
-`table row cell A space end cell equals cell space y space equals space 32 end cell row cell B space end cell equals cell space 2 y space equals space 2 open parentheses 32 close parentheses end cell row cell C space end cell equals cell space y space minus space 3 space equals space 32 space minus space 3 end cell end table`
+$\begin{gathered} A & = y = 32 \\ B & = 2 y = 2 ( 32 ) \\ C & = y - 3 = 32 - 3 \end{gathered}$
 
 **Ali: 32 years       **
 ** ****Bhavara: 64 years    **
@@ -1487,17 +1477,17 @@ $A=y\,B=2y\,C=y-3$
 ## Q37 — hard — 4 marks · exam-questions
 
 ### 10((a)) — 2 marks
-*The area of a trapezium *`equals 1 half open parentheses a plus b close parentheses h`* wh*ere $a$ and $b$ are the parallel lengths and $h$ is the height.
+*The area of a trapezium *$= 1 \frac{1}{2} ( a + b ) h$* wh*ere $a$ and $b$ are the parallel lengths and $h$ is the height.
 
 Theref*ore the area of the trapezium here is;*
 
-`1 half open parentheses b plus 2 b close parentheses h`
+$1 \frac{1}{2} ( b + 2 b ) h$
 
 **[1]**
 
 > *Simplify the expression by collecting terms inside the bracket.*
 
-`equals 1 half open parentheses 3 b close parentheses h equals 3 over 2 b h`
+$= 1 \frac{1}{2} ( 3 b ) h = \frac{3}{2} b h$
 
 $\frac{3}{2}bh$ **[1] **
 
@@ -1506,21 +1496,21 @@ $\frac{3}{2}bh$ **[1] **
 ### 10((b)) — 2 marks
 > *First write an expression for the perimeter in terms of *$b$* and *$s$*.*
 
-`table row perimeter equals cell b plus space 2 b plus s plus s end cell row blank equals cell 3 b plus 2 s end cell end table`
+$\begin{gathered} \text{perimeter} = b + 2 b + s + s \\ = 3 b + 2 s \end{gathered}$
 
 **[1]**
 
 > *Convert the ratio *$b:s=2:3$* to a fraction.*
 
-`table row cell b over s end cell equals cell fraction numerator space 2 over denominator 3 end fraction end cell end table`
+$\begin{gathered} \frac{b}{s} & = \frac{ 2}{3} \end{gathered}$
 
 > *Rearrange to find *$s$* in terms of *$b$*. We can start by "cross multiplying". *
 
-`table row cell 3 b end cell equals cell 2 s end cell row cell 1.5 b end cell equals s end table`
+$\begin{gathered} 3 b & = 2 s \\ 1.5 b & = s \end{gathered}$
 
 > *Substitute *$s=1.5b$* into the expression found above for perimeter.*
 
-`table row perimeter equals cell 3 b plus 2 open parentheses 1.5 b close parentheses end cell row blank equals cell 3 b plus 3 b end cell row blank equals cell 6 b end cell end table`
+$\begin{gathered} \text{perimeter} = 3 b + 2 ( 1.5 b ) \\ = 3 b + 3 b \\ = 6 b \end{gathered}$
 
 **perimeter =**** **$6b$** [1]**
 
@@ -1531,7 +1521,7 @@ $\frac{3}{2}bh$ **[1] **
 
 > *The area of the large rectangle, in terms of *$x$*, is;*
 
-`x open parentheses x plus 5 close parentheses`
+$x ( x + 5 )$
 
 > *The area of each corner that is taken off is;*
 
@@ -1539,19 +1529,19 @@ $10\times10=100$
 
 > *So the area of the net is;*
 
-`x open parentheses x plus 5 close parentheses minus 100`
+$x ( x + 5 ) - 100$
 
 **[1]**
 
 > *The area of the net is 1000 cm*<sup>*2*</sup>* so the expression above can be equated to 1000.*
 
-`x open parentheses x plus 5 close parentheses minus 100 equals 1400`
+$x ( x + 5 ) - 100 = 1400$
 
 **[1]**
 
 > *Expand the bracket and subtract 1400 from both sides.*
 
-`table row cell x squared plus 5 x minus 100 end cell equals 1400 row cell negative 1400 space space space space space space space space space space space space space space space space space space space space end cell equals cell space space space space space space space minus 1400 end cell row cell x squared minus 5 x minus 1500 end cell equals 0 end table`
+$\begin{gathered} x^{2} + 5 x - 100 & = 1400 \\ - 1400 & = - 1400 \\ x^{2} - 5 x - 1500 & = 0 \end{gathered}$
 
 **[1]**
 
@@ -1579,11 +1569,11 @@ $\mathrm{Theo}:18+4.5N\,\,\mathrm{James}:4N$
 
 > *Begin solving the equation.*
 
-`Theo over James space equals space fraction numerator 18 plus 4.5 N over denominator 4 N end fraction space equals space 15 over 8
+$\frac{Theo}{James} = \frac{18 + 4.5 N}{4 N} = \frac{15}{8} 
 
-8 space cross times space open parentheses 18 plus 4.5 N close parentheses space equals space 15 space cross times space 4 N
+8 \times ( 18 + 4.5 N ) = 15 \times 4 N
 
-144 space plus space 36 N space equals space 60 space N`
+144 + 36 N = 60 N$
 
 **[1]**
 
@@ -1598,23 +1588,23 @@ $144=60N-36N\,\,144=24N\,\,N=144\div24=6$
 ### 12() — 3 marks
 > *Angles that meet at a point add up to 360°. We can use this angle property to write an equation in *$x$*.*
 
-`x plus 2 open parentheses 2 x plus 20 close parentheses plus 5 x plus 40 equals 360`
+$x + 2 ( 2 x + 20 ) + 5 x + 40 = 360$
 
 **[1]**
 
 > *Expand the bracket and then collect like terms.*
 
-`table attributes columnalign right center left columnspacing 0px end attributes row cell x plus 4 x plus 40 plus 5 x plus 40 end cell equals 360 row cell 10 x plus 80 end cell equals 360 end table`
+$\begin{array}{rcl} x + 4 x + 40 + 5 x + 40 & = 360 \\ 10 x + 80 & = 360 \end{array}$
 
 > *Subtract 80 from both sides, and divide by 10.*
 
-`table attributes columnalign right center left columnspacing 0px end attributes row cell 10 x end cell equals 280 row x equals 28 end table`
+$\begin{array}{rcl} 10 x & = 280 \\ x = 28 \end{array}$
 
 **[1]**
 
 > *If **AC** is a diameter then the angle marked '*$5x+40$*' will be 180°. Substitute *$x=28$* into *$5x+40$*.*
 
-`table row cell bold 5 stretchy left parenthesis 28 stretchy right parenthesis bold plus bold 40 end cell bold equals cell bold 180 bold space end cell end table`**, yes ****AC**** is a diameter ****[1]**
+$\begin{gathered} 5 ( 28 ) + 40 & = 180 \end{gathered}$**, yes ****AC**** is a diameter ****[1]**
 
 **"yes" without correct working does not achieve marks**
 
@@ -1629,19 +1619,19 @@ $3x+46+4x-27=180$
 
 > *Solve the equation*
 
-`table row cell 7 x plus 19 end cell equals 180 row cell 7 x end cell equals 161 row x equals 23 end table`
+$\begin{gathered} 7 x + 19 & = 180 \\ 7 x & = 161 \\ x = 23 \end{gathered}$
 
 **[A1]**
 
 > *Calculate the size of angle ABC*
 
-`3 open parentheses 23 close parentheses plus 46 equals 115`
+$3 ( 23 ) + 46 = 115$
 
 **[M1]**
 
 > *Also calculate the size of angle BCD to see which is largest*
 
-`180 minus open parentheses 3 cross times 23 plus 10 close parentheses equals 101`
+$180 - ( 3 \times 23 + 10 ) = 101$
 
 > *Therefore angle ABC is the largest*
 
@@ -1676,11 +1666,11 @@ $\mathrm{small}:8\times7=56\,\,\mathrm{medium}:8\times6=48\,\,\mathrm{large}:8\t
 
 > *Begin to solve the equation.*
 
-`open parentheses 56 cross times x close parentheses space plus space open parentheses 48 cross times 2 x close parentheses space plus space open parentheses 88 cross times 3 x close parentheses space equals space 532.48
+$( 56 \times x ) + ( 48 \times 2 x ) + ( 88 \times 3 x ) = 532.48
 
-56 x space plus space 96 x space plus 264 x space equals space 532.48
+56 x + 96 x + 264 x = 532.48
 
-416 x space equals space 532.48`
+416 x = 532.48$
 
 **[1] **
 **The mark here is for setting up a correct equation.**
@@ -1700,9 +1690,9 @@ $x=532.48\div416=1.28$
 
 > *After Emma spends £450, Sundip still has £3**k** and Emma has £(5**k** - 450). Those amounts are in the ratio 2 : 3. Write that as a ratio and then rewrite the ratio as an equation with fractions.*
 
-`3 k space colon space open parentheses 5 k minus 450 close parentheses space equals space 2 space colon space 3
+$3 k : ( 5 k - 450 ) = 2 : 3
 
-fraction numerator 5 k minus 450 over denominator 3 k end fraction space equals space 3 over 2`
+ \frac{5 k - 450}{3 k} = \frac{3}{2}$
 
 **[2] **
 
@@ -1711,10 +1701,10 @@ fraction numerator 5 k minus 450 over denominator 3 k end fraction space equals 
 
 > *Now solve that equation for **k**.*
 
-`2 cross times space open parentheses 5 k minus 450 close parentheses space equals space 3 space cross times space 3 k
-10 k space minus space 900 space equals space 9 k
-10 k space minus space 9 k space equals space 900
-k space equals space 900`
+$2 \times ( 5 k - 450 ) = 3 \times 3 k
+10 k - 900 = 9 k
+10 k - 9 k = 900
+k = 900$
 
 **[1]**
 
@@ -1740,13 +1730,13 @@ $3k=3\times900=2700$
 
 > *Work out an expression for the area of the rectangle*
 
-`open parentheses x space plus thin space 2 close parentheses space cross times space 25 space equals space 25 x space plus thin space 50`
+$( x + 2 ) \times 25 = 25 x + 50$
 
 > *Work out the area of the trapezium*
 
-`1 half open parentheses 7 space plus thin space 17 close parentheses space cross times space 4 space
-equals 1 half space cross times space 24 space cross times space 4 space
-equals space 48`
+$1 \frac{1}{2} ( 7 + 17 ) \times 4 
+= 1 \frac{1}{2} \times 24 \times 4 
+= 48$
 
 **[M1]**
 

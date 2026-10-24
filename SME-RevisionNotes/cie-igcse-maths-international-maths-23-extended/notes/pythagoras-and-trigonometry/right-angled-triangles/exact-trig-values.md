@@ -72,7 +72,7 @@ guided_study: true
     - Then you can solve for $x$
 - On trig graphs, you may be expected to find a coordinate
 
-  - E.g. The coordinates `open parentheses 30 comma space k close parentheses` lie on the graph $y=\mathrm{tan}x$, find $k$
+  - E.g. The coordinates $( 30 , k )$ lie on the graph $y=\mathrm{tan}x$, find $k$
   
     - $k$ will be equal to $\mathrm{tan}30$
     - The exact value of $\mathrm{tan}30$ is $\frac{\sqrt{3}}{3}$
@@ -100,7 +100,7 @@ guided_study: true
 > 
 > > *So, *
 > 
-> `table row cell fraction numerator square root of 3 over denominator 2 end fraction end cell equals cell x over 28 end cell row cell 28 cross times fraction numerator square root of 3 over denominator 2 end fraction end cell equals x row cell 14 cross times square root of 3 end cell equals x end table`
+> $\begin{gathered} \frac{ \sqrt{3} }{2} & = \frac{x}{28} \\ 28 \times \frac{ \sqrt{3} }{2} & = x \\ 14 \times \sqrt{3} & = x \end{gathered}$
 > 
 > > *Leave in exact (surd) form*
 > 

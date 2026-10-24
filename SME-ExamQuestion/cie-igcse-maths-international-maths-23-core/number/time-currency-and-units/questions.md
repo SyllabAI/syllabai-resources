@@ -26,7 +26,7 @@ Calculate the cost of the ticket in rupees when the exchange rate is 1 rupee = \
 On the internet, Pranay sees a grey jacket for 165 euros (€) and a blue jacket for \$180. 
 These are the exchange rates.
 
-`table row cell € 1 space end cell equals cell space 76.05 space rupees space end cell row cell 1 space rupee space end cell equals cell space $ 0.0152 end cell end table`
+$\begin{gathered} \text{€} 1 & = 76.05 \text{rupees} \\ 1 \text{rupee} & = \$ 0.0152 \end{gathered}$
 
 Work out which jacket is the cheapest and by how many rupees.
 

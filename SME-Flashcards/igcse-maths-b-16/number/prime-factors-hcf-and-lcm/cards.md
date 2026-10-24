@@ -206,7 +206,7 @@ What is **prime factor decomposition**?
 
 Break a number into a pair of factors, then break those factors down in pairs in the same way until you are left with **only prime factors**.
 
-`table row 72 equals cell 8 cross times 9 end cell row blank equals cell open parentheses 2 cross times 4 close parentheses cross times open parentheses 3 cross times 3 close parentheses end cell row blank equals cell 2 cross times open parentheses 2 cross times 2 close parentheses cross times 3 cross times 3 end cell row blank bold equals cell bold 2 bold cross times bold 2 bold cross times bold 2 bold cross times bold 3 bold cross times bold 3 end cell end table`
+$\begin{gathered} 72 = 8 \times 9 \\ = ( 2 \times 4 ) \times ( 3 \times 3 ) \\ = 2 \times ( 2 \times 2 ) \times 3 \times 3 \\ = 2 \times 2 \times 2 \times 3 \times 3 \end{gathered}$
 
 
 
@@ -296,10 +296,10 @@ It can be shown, using its **prime factors**, that $10\sqrt{15}$ is the exact sq
 
 First write $1500$ as a **product of its prime factors**, e.g. $1500=2^{2}\times3\times5^{3}$
 
-Separate prime factors with an **even index **and those with an **odd index**, e.g. `1500 equals open parentheses 2 squared cross times 5 squared close parentheses cross times open parentheses 3 cross times 5 close parentheses`
+Separate prime factors with an **even index **and those with an **odd index**, e.g. $1500 = ( 2^{2} \times 5^{2} ) \times ( 3 \times 5 )$
 
 Take the **square root** of both groups, 
-e.g. `table row cell square root of 1500 end cell equals cell square root of open parentheses 2 squared cross times 5 squared close parentheses end root cross times square root of open parentheses 3 cross times 5 close parentheses end root end cell row blank equals cell 2 cross times 5 cross times square root of 15 end cell row blank equals cell 10 square root of 15 end cell end table`
+e.g. $\begin{gathered} \sqrt{1500 & = \sqrt{(} \text{parentheses} 2^{2} \times 5^{2} )} \times \sqrt{( 3 \times 5 )} \\ = 2 \times 5 \times \sqrt{15} \\ = 10 \sqrt{15} \end{gathered}$
 
 
 

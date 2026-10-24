@@ -26,7 +26,7 @@ $\mathrm{moles}=0.06757\mathrm{moles}$
 
 $\mathrm{fundamental} \mathrm{units}=\mathrm{moles}\times\mathrm{Avogadro} \mathrm{constant}$
 
-`fundamental space units space equals space 0.06757 space mol space cross times open parentheses 6.02 space cross times 10 to the power of 23 space mol to the power of negative 1 end exponent close parentheses`
+$\text{fundamental} \text{units} = 0.06757 \text{mol} \times ( 6.02 \times 10^{23} \text{mol} ^{ - } 1 )$
 
 $\mathrm{fundamental} \mathrm{units}=4.0677\times10^{22}\mathrm{formula} \mathrm{units}$
 
@@ -160,7 +160,7 @@ moles = $\frac{\mathrm{mass}}{M_{r}}$
 **Final answer:** **The correct answer is ****A**** because:**
 
 - One mole is the amount of a substance that contains $6.02\times10^{23}$ particles and is known as **Avogadro's constant.**
-- 1 mole of oxygen, which is a diatomic molecule O<sub>2</sub>, contains $6.20\times10^{23}$ **molecules** of oxygen but `2 cross times open parentheses 6.02 cross times 10 to the power of 23 close parentheses` **atoms** of oxygen.
+- 1 mole of oxygen, which is a diatomic molecule O<sub>2</sub>, contains $6.20\times10^{23}$ **molecules** of oxygen but $2 \times ( 6.02 \times 10^{23} )$ **atoms** of oxygen.
 - One mole of any element is equal to the **relative atomic mass** of that element in **grams.** E.g. Ca has an *A*<sub>r </sub>of 40, so one mole of Ca has a mass of 40g.
 - For a molecule, the relative atomic masses are **added** together. E.g. one mole of NaOH has a mass of 23 + 16 + 1 = 40g.
 

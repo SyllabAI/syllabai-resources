@@ -51,14 +51,14 @@ guided_study: false
 ### How do you find the magnitude of a vector?
 
 - The **magnitude **of a vector tells us its **size **or **length**
-- The magnitude of the vector $\overset{\rightarrow}{\mathrm{AB}}$ is denoted `open vertical bar AB with rightwards arrow on top close vertical bar`
+- The magnitude of the vector $\overset{\rightarrow}{\mathrm{AB}}$ is denoted $\left| A \vec{B} \right|$
 
   - The magnitude of the vector **a** is denoted |**a**|
 - The magnitude of a vector can be found using  *Pythagoras’ theorem*
 - The magnitude of a vector $v=v_{1}i+v_{2}j$ is found using
 
-  - `open vertical bar bold italic v close vertical bar equals blank square root of v subscript 1 superscript space 2 end superscript plus blank v subscript 2 superscript blank 2 end superscript end root`
-  - where `v equals blank open parentheses table row cell v subscript 1 end cell row cell v subscript 2 end cell end table close parentheses`
+  - $\left| v \right| = \sqrt{v_{1}^{ 2} + v_{2}^{ 2} }$
+  - where $v = ( \begin{gathered} v_{1} \\ v_{2} \end{gathered} )$
 
 ![Magnitude Direction Diagram 1a, AS & A Level Maths revision notes](../../../assets/76d004669c5f-11-1-2-magnitude-direction-diagram-1a.png)
 
@@ -77,23 +77,23 @@ guided_study: false
 >   - Commit the formula to memory and be prepared to use it in the exam
 
 > **Worked Example**
-> A vector `stack X Y with rightwards arrow on top equals open parentheses table row cell negative 12 end cell row 5 end table close parentheses`.
+> A vector $\vec{XY} = ( \begin{gathered} - 12 \\ 5 \end{gathered} )$.
 > 
-> a) Find `vertical line stack X Y with rightwards arrow on top vertical line`.
+> a) Find $\vert \vec{XY} \vert$.
 > 
-> > `vertical line stack X Y with rightwards arrow on top vertical line`* is the magnitude of the vector, so use Pythagoras' theorem.*
+> > $\vert \vec{XY} \vert$* is the magnitude of the vector, so use Pythagoras' theorem.*
 > 
-> `vertical line stack X Y with rightwards arrow on top vertical line equals square root of 12 squared plus 5 squared end root equals square root of 169`
+> $\vert \vec{XY} \vert = \sqrt{12^{2} + 5^{2}} = \sqrt{169}$
 > 
-> `vertical line stack X Y with rightwards arrow on top vertical line equals 13`
+> $\vert \vec{XY} \vert = 13$
 > 
 > b) Find the unit vector in the direction of $\overset{\rightarrow}{XY}$.
 > 
 > > *For a unit vector, divide the vector *$\overset{\rightarrow}{XY}$* by its magnitude, which was found in part (a).*
 > 
-> `fraction numerator stack X Y with rightwards arrow on top over denominator vertical line stack X Y with rightwards arrow on top vertical line end fraction equals fraction numerator negative 12 bold i plus 5 bold j over denominator 13 end fraction equals negative 12 over 13 bold i plus 5 over 13 bold j`
+> $\frac{\vec{XY}}{\vert \vec{XY} \vert} = \frac{- 12 i + 5 j}{13} = - \frac{12}{13} i + \frac{5}{13} j$
 > 
-> **The unit vector in the direction of **$\overset{\rightarrow}{XY}$** is **`open parentheses table row cell bevelled fraction numerator negative 12 over denominator 13 end fraction end cell row cell bevelled 5 over 13 end cell end table close parentheses`**.**
+> **The unit vector in the direction of **$\overset{\rightarrow}{XY}$** is **$( \begin{gathered} \text{bevelled} \frac{- 12}{13} \\ \text{bevelled} \frac{5}{13} \end{gathered} )$**.**
 
 ## Position Vectors
 
@@ -126,16 +126,16 @@ guided_study: false
 
   - From the **position vectors** of *A*  and *B*  you know their coordinates
   
-    - If  `bold a equals stack O A with rightwards arrow on top equals x subscript 1 bold i plus y subscript 1 bold j equals open parentheses table row cell x subscript 1 end cell row cell y subscript 1 end cell end table close parentheses`,  then point A has coordinates `open parentheses x subscript 1 comma space y subscript 1 close parentheses`
-    - If  `bold b equals stack O B with rightwards arrow on top equals x subscript 2 bold i plus y subscript 2 bold j equals open parentheses table row cell x subscript 2 end cell row cell y subscript 2 end cell end table close parentheses`,  then point B has coordinates `open parentheses x subscript 2 comma space y subscript 2 close parentheses`
-  - The **distance** between two points is given by `d space equals blank square root of open parentheses x subscript 1 minus blank x subscript 2 close parentheses squared space plus space open parentheses y subscript 1 minus blank y subscript 2 close parentheses squared end root blank`
+    - If  $a = \vec{OA} = x_{1} i + y_{1} j = ( \begin{gathered} x_{1} \\ y_{1} \end{gathered} )$,  then point A has coordinates $( x_{1} , y_{1} )$
+    - If  $b = \vec{OB} = x_{2} i + y_{2} j = ( \begin{gathered} x_{2} \\ y_{2} \end{gathered} )$,  then point B has coordinates $( x_{2} , y_{2} )$
+  - The **distance** between two points is given by $d = \sqrt{( x_{1} - x_{2} )^{2} + ( y_{1} - y_{2} )^{2}}$
   
-    - So  `open vertical bar stack A B with rightwards arrow on top close vertical bar space equals blank square root of open parentheses x subscript 1 minus blank x subscript 2 close parentheses squared space plus space open parentheses y subscript 1 minus blank y subscript 2 close parentheses squared end root blank`
+    - So  $\left| \vec{AB} \right| = \sqrt{( x_{1} - x_{2} )^{2} + ( y_{1} - y_{2} )^{2}}$
   - For example, if points A and B have position vectors $5i+3j$ and $3i-6j$ respectively
   
-    - then  `open vertical bar stack A B with rightwards arrow on top close vertical bar equals square root of open parentheses 5 minus 3 close parentheses squared plus open parentheses 3 minus open parentheses negative 6 close parentheses close parentheses squared end root equals square root of 85 equals 9.22 space open parentheses 3 space straight s. straight f. close parentheses`
+    - then  $\left| \vec{AB} \right| = \sqrt{( 5 - 3 )^{2} + ( 3 - ( - 6 ) )^{2}} = \sqrt{85} = 9.22 ( 3 \mathrm{s} . \mathrm{f} . )$
 
-- Alternatively, you could find `open vertical bar stack A B with rightwards arrow on top close vertical bar` by
+- Alternatively, you could find $\left| \vec{AB} \right|$ by
 
   - first using  $\overset{\rightarrow}{AB}=-\overset{\rightarrow}{OA}+\overset{\rightarrow}{OB}$ to find $\overset{\rightarrow}{AB}$ in **vector form**
   

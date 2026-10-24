@@ -112,19 +112,19 @@ Market size = number of customers x average annual spend
 
 2023
 
-`240 comma 000 space cross times space $ 85 space equals space $ 20 comma 400 comma 000` **[1]**
+$240 , 000 \times \$ 85 = \$ 20 , 400 , 000$ **[1]**
 
 2025
 
-`288 comma 000 space cross times space $ 95 space equals space $ 27 comma 360 comma 000` **[1]**
+$288 , 000 \times \$ 95 = \$ 27 , 360 , 000$ **[1]**
 
 Percentage growth = (change in market size / original market size) x 100 **[1]**
 
-`equals space fraction numerator $ 27 comma 360 comma 000 space minus space $ 20 comma 400 comma 000 over denominator $ 20 comma 400 comma 000 end fraction space space cross times space 100 space space
+$= \frac{\$ 27 , 360 , 000 - \$ 20 , 400 , 000}{\$ 20 , 400 , 000} \times 100 
 
-equals space fraction numerator $ 6 comma 960 comma 000 over denominator $ 20 comma 400 comma 000 end fraction space space cross times space 100 space space
+= \frac{\$ 6 , 960 , 000}{\$ 20 , 400 , 000} \times 100 
 
-equals space 34.1 percent sign`**[1]**
+= 34.1 \%$**[1]**
 
 > **[mark-scheme]**
 > - Award 1 mark for each correct stage of working and 1 mark for the final answer

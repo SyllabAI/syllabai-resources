@@ -48,12 +48,12 @@ guided_study: true
 
 - An example of a nuclide equation for the fission of uranium-235 is:
 
-`straight U presubscript 92 presuperscript 235 space plus space straight n presubscript 0 presuperscript 1 space rightwards arrow space Kr presubscript 36 presuperscript 92 space plus space Ba presubscript 56 presuperscript 141 space plus thin space 3 space straight n presubscript 0 presuperscript 1 space plus space energy`
+`U _ 92 ^ 235 + n _ 0 ^ 1 -> Kr _ 36 ^ 92 + Ba _ 56 ^ 141 + 3 n _ 0 ^ 1 + energy`
 
 - Where:
 
-  - `straight U presubscript 92 presuperscript 235` is an unstable isotope of uranium
-  - `straight n presubscript 0 presuperscript 1 space` is a neutron
+  - `U _ 92 ^ 235` is an unstable isotope of uranium
+  - `n _ 0 ^ 1` is a neutron
   - `space Kr presubscript 36 presuperscript 92` is an unstable isotope of krypton
   - `Ba presubscript 56 presuperscript 141` is an unstable isotope of barium
 
@@ -69,7 +69,7 @@ guided_study: true
 
 - In the example:
 
-`straight U presubscript 92 presuperscript 235 space plus space straight n presubscript 0 presuperscript 1 space rightwards arrow space Kr presubscript 36 presuperscript 92 space plus space Ba presubscript 56 presuperscript 141 space plus thin space 3 space straight n presubscript 0 presuperscript 1 space plus space energy`
+`U _ 92 ^ 235 + n _ 0 ^ 1 -> Kr _ 36 ^ 92 + Ba _ 56 ^ 141 + 3 n _ 0 ^ 1 + energy`
 
 - The sum of the nucleon (top) numbers of the reactants (left-hand side) is equal to the sum of the nucleon numbers of the products (right-hand side):
 
@@ -111,11 +111,11 @@ $92+0=36+56+(3\times0)$
 
 - An example of a nuclide equation for fusion is:
 
-`straight H presubscript 1 presuperscript 2 plus straight H presubscript 1 presuperscript 1 space rightwards arrow space He presubscript 2 presuperscript 3 space plus space energy`
+`H _ 1 ^ 2 + H _ 1 ^ 1 -> He _ 2 ^ 3 + energy`
 
 - Where:
 
-  - `straight H presubscript 1 presuperscript 2` is deuterium (isotope of hydrogen with 1 proton and 1 neutron)
+  - `H _ 1 ^ 2` is deuterium (isotope of hydrogen with 1 proton and 1 neutron)
   - `H presubscript 1 presuperscript 1` is hydrogen (with one proton)
   - `He presubscript 2 presuperscript 3` is an isotope of helium (with two protons and one neutron)
 
@@ -132,7 +132,7 @@ $92+0=36+56+(3\times0)$
 > **Worked Example**
 > A nuclide equation for nuclear fission is stated as:
 > 
-> `straight U presubscript 92 presuperscript 235 space plus space straight n presubscript 0 presuperscript 1 space rightwards arrow space Rb presubscript 37 presuperscript 96 space plus space Cs presubscript 55 presuperscript 137 space plus space N straight n presubscript 0 presuperscript 1`
+> `U _ 92 ^ 235 + n _ 0 ^ 1 -> Rb _ 37 ^ 96 + Cs _ 55 ^ 137 + N n _ 0 ^ 1`
 > 
 > Calculate the number of neutrons, *N* emitted in this reaction.
 > 
@@ -151,7 +151,7 @@ $92+0=36+56+(3\times0)$
 > 
 > - The products are on the right-hand side of the equation
 > 
-> `96 space plus space 137 space plus space open parentheses N space cross times space 1 close parentheses space equals space 233 space plus thin space N`
+> $96 + 137 + ( N \times 1 ) = 233 + N$
 > 
 > **Step 3: Equate the total nucleons of the reactants and products**
 > 

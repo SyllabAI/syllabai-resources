@@ -7,7 +7,7 @@
 ### 7((a)) — 1 marks
 > *The operations in a function machine are always performed in order from left to right*
 
-`table row cell 15 cross times 5 end cell equals 75 row cell 75 minus 7 end cell equals 68 row cell 68 divided by 2 end cell equals 34 end table`
+$\begin{gathered} 15 \times 5 & = 75 \\ 75 - 7 & = 68 \\ 68 \div 2 & = 34 \end{gathered}$
 
 **Final answer:** **34**
 
@@ -16,7 +16,7 @@
 ### 7((b)) — 2 marks
 > *Working in reverse order through the function machine and using the inverse operations will calculate the input starting from the given output*
 
-`table row cell 124 cross times 2 end cell equals 248 row cell 248 plus 7 end cell equals 255 row cell 255 divided by 5 end cell equals 51 end table`
+$\begin{gathered} 124 \times 2 & = 248 \\ 248 + 7 & = 255 \\ 255 \div 5 & = 51 \end{gathered}$
 
 **[M1]**
 
@@ -105,7 +105,7 @@ $y=11$
 
 > *Use brackets to maintain the correct order of operations*
 
-`open parentheses x space plus thin space 7 close parentheses space divided by space 5`
+$( x + 7 ) \div 5$
 
 $\frac{x+7}{5}$
 

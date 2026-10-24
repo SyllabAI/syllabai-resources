@@ -13,7 +13,7 @@
 
 > *Substitute into the formula*
 
-`negative 10 plus open parentheses n minus 1 close parentheses open parentheses 2 close parentheses`
+$- 10 + ( n - 1 ) ( 2 )$
 
 > *Simplify*
 
@@ -30,7 +30,7 @@
 
 > *Substitute into the formula*
 
-`3 plus open parentheses n minus 1 close parentheses open parentheses 8 close parentheses`
+$3 + ( n - 1 ) ( 8 )$
 
 > *Simplify*
 
@@ -45,7 +45,7 @@
 *The first term is 15 so **a** = 15 *
 *Substitute into the formula*
 
-`15 plus open parentheses n minus 1 close parentheses open parentheses negative 3 close parentheses`
+$15 + ( n - 1 ) ( - 3 )$
 
 **[1]**
 
@@ -60,7 +60,7 @@
 
 > *We are told the first term, *$u_{1}$*, is 5, and to find the next term we multiply by 2, add 15, and then square-root*
 
-`u subscript 2 equals square root of 2 open parentheses 5 close parentheses plus 15 end root space equals space square root of 10 plus 15 end root equals square root of 25`
+$u_{2} = \sqrt{2 ( 5 ) + 15} = \sqrt{10 + 15} = \sqrt{25}$
 
 **5** **[1]**
 
@@ -85,14 +85,14 @@
 ## Q7 — easy — 6 marks · exam-questions
 
 ### 1() — 2 marks
-It is an arithmetic sequence and the formula is `a plus open parentheses n minus 1 close parentheses d`
+It is an arithmetic sequence and the formula is $a + ( n - 1 ) d$
 
 - $a$ is the first term
 - $d$ is the common difference
 
-`a equals 5
-d equals 4
-5 plus open parentheses n minus 1 close parentheses cross times 4`
+$a = 5
+d = 4
+5 + ( n - 1 ) \times 4$
 
 Simplify
 
@@ -124,7 +124,7 @@ $n=1\rightarrow40-3\times1=37\,n=2\rightarrow40-3\times2=34\,n=3\rightarrow40-3\
 ### 3() — 2 marks
 Equate the *n*th term to 5 and solve the equation
 
-`table row cell 40 minus 3 n space end cell equals cell space 5 end cell row cell negative 3 n space end cell equals cell space minus 35 space end cell row cell n space end cell equals cell 11.66... end cell end table`
+$\begin{gathered} 40 - 3 n & = 5 \\ - 3 n & = - 35 \\ n & = 11.66... \end{gathered}$
 
 **[M1]**
 
@@ -140,11 +140,11 @@ Equate the *n*th term to 5 and solve the equation
 ## Q8 — medium — 3 marks · exam-questions
 
 ### 5((a)) — 2 marks
-> *The formula for the **n*<sup>*th*</sup>*  term is  *`a plus open parentheses n minus 1 close parentheses d`*  where **a** is the first term and **d** is the common difference *
+> *The formula for the **n*<sup>*th*</sup>*  term is  *$a + ( n - 1 ) d$*  where **a** is the first term and **d** is the common difference *
 *The first term is 3 *
 *The sequence is going up by 6*
 
-`3 plus open parentheses n minus 1 close parentheses open parentheses 6 close parentheses`
+$3 + ( n - 1 ) ( 6 )$
 
 **[1]**
 
@@ -155,7 +155,7 @@ $6n-3$* ***[1]**
 ### 5((b)) — 1 marks
 > *Equate "150" to the **n**th term expression found in part (a) and solve for **n**. "**n**" is the position in the sequence so must be an integer for 150 to be in the sequence*
 
-`table attributes columnalign right center left columnspacing 0px end attributes row 150 equals cell 6 n minus 3 end cell row 153 equals cell 6 n end cell row n equals cell 153 over 6 equals 51 over 2 equals 25 1 half end cell end table`
+$\begin{array}{rcl} 150 = 6 n - 3 \\ 153 = 6 n \\ n = \frac{153}{6} = \frac{51}{2} = 25 1 \frac{1}{2} \end{array}$
 
 **no because ****n**** is not an integer** **[1]**
 
@@ -164,11 +164,11 @@ $6n-3$* ***[1]**
 ## Q9 — medium — 4 marks · exam-questions
 
 ### 8((a)) — 2 marks
-> *The formula for the **n*<sup>*th*</sup>*  term is  *`a plus open parentheses n minus 1 close parentheses d`*  where **a** is the first term and **d** is the common difference *
+> *The formula for the **n*<sup>*th*</sup>*  term is  *$a + ( n - 1 ) d$*  where **a** is the first term and **d** is the common difference *
 *The first term is 3 *
 *The sequence is going up by 7*
 
-`3 plus open parentheses n minus 1 close parentheses open parentheses 7 close parentheses`
+$3 + ( n - 1 ) ( 7 )$
 
 **[1]**
 
@@ -179,11 +179,11 @@ $7n-4$* ***[1]**
 ### 8((b)) — 2 marks
 > *Equate "150" to the **n**th term expression found in part (a) and solve for **n**. "**n**" is the position in the sequence so must be an integer for 150 to be in the sequence*
 
-`table row 150 equals cell 7 n minus 4 end cell end table`
+$\begin{gathered} 150 = 7 n - 4 \end{gathered}$
 
 **[1]**
 
-`table attributes columnalign right center left columnspacing 0px end attributes row 154 equals cell 7 n end cell row n equals cell 154 over 7 equals 22 end cell end table`
+$\begin{array}{rcl} 154 = 7 n \\ n = \frac{154}{7} = 22 \end{array}$
 
 > *(Therefore 150 is the 22nd term in the sequence)*
 
@@ -194,13 +194,13 @@ $7n-4$* ***[1]**
 ## Q10 — medium — 3 marks · exam-questions
 
 ### 7((a)) — 2 marks
-> *The formula for the **n*<sup>*th*</sup>* term is  *`a plus open parentheses n minus 1 close parentheses d`*  where **a** is the first term and **d** is the common difference *
+> *The formula for the **n*<sup>*th*</sup>* term is  *$a + ( n - 1 ) d$*  where **a** is the first term and **d** is the common difference *
 
 > *The first term is 2 *
 
 > *The sequence is going up by 4*
 
-`2 plus open parentheses n minus 1 close parentheses open parentheses 4 close parentheses`
+$2 + ( n - 1 ) ( 4 )$
 
 **[1]**
 
@@ -211,7 +211,7 @@ $4n-2$* ***[1]**
 ### 7((b)) — 1 marks
 > *Equate "86" to the **n**th term expression found in part (a) and solve for **n**. "**n**" is the position in the sequence so must be an integer for 86 to be in the sequence*
 
-`table row 86 equals cell 4 n minus 2 end cell row 88 equals cell 4 n end cell row n equals cell 88 over 4 equals 22 end cell end table`
+$\begin{gathered} 86 = 4 n - 2 \\ 88 = 4 n \\ n = \frac{88}{4} = 22 \end{gathered}$
 
 > *(Therefore 86 is the 22nd term in the sequence)*
 
@@ -221,11 +221,11 @@ $4n-2$* ***[1]**
 ## Q11 — medium — 4 marks · exam-questions
 
 ### 3((a)) — 2 marks
-> *The formula for the **n*<sup>*th*</sup>*  term is  *`a plus open parentheses n minus 1 close parentheses d`*  where **a** is the first term and **d** is the common difference *
+> *The formula for the **n*<sup>*th*</sup>*  term is  *$a + ( n - 1 ) d$*  where **a** is the first term and **d** is the common difference *
 *The first term is 11 *
 *The sequence is going up by 6*
 
-`11 plus open parentheses n minus 1 close parentheses open parentheses 6 close parentheses`
+$11 + ( n - 1 ) ( 6 )$
 
 **[1]**
 
@@ -236,11 +236,11 @@ $6n+5$* ***[1]**
 ### 3((b)) — 2 marks
 > *Equate "121" to the **n**th term expression found in part (a) and solve for **n**. "**n**" is the position in the sequence so must be an integer for 121 to be in the sequence*
 
-`table row 121 equals cell 6 n plus 5 end cell end table`
+$\begin{gathered} 121 = 6 n + 5 \end{gathered}$
 
 **[1]**
 
-`table row 116 equals cell 6 n end cell row n equals cell 116 over 6 open parentheses equals 19 1 third close parentheses end cell end table`
+$\begin{gathered} 116 = 6 n \\ n = \frac{116}{6} ( = 19 1 \frac{1}{3} ) \end{gathered}$
 
 **no, because ****n**** is not an integer** **[1]**
  **A valid reason must be stated to achieve the mark**
@@ -248,11 +248,11 @@ $6n+5$* ***[1]**
 ## Q12 — medium — 4 marks · exam-questions
 
 ### 3((a)) — 2 marks
-> *The formula for the **n*<sup>*th*</sup>*  term is  *`a plus open parentheses n minus 1 close parentheses d`*  where **a** is the first term and **d** is the common difference *
+> *The formula for the **n*<sup>*th*</sup>*  term is  *$a + ( n - 1 ) d$*  where **a** is the first term and **d** is the common difference *
 *The first term is 6 *
 *The sequence is going up by 4*
 
-`6 plus open parentheses n minus 1 close parentheses open parentheses 4 close parentheses`
+$6 + ( n - 1 ) ( 4 )$
 
 **[1]**
 
@@ -265,11 +265,11 @@ $4n+2$* ***[1]**
 ### 3((b)) — 2 marks
 > *Equate "108" to the **n**th term expression and solve for **n**. "**n**" is the position in the sequence so must be an integer for 108 to be in the sequence*
 
-`table row 108 equals cell 3 n plus 5 end cell end table`
+$\begin{gathered} 108 = 3 n + 5 \end{gathered}$
 
 **[1]**
 
-`table attributes columnalign right center left columnspacing 0px end attributes row 103 equals cell 3 n end cell row n equals cell 103 over 3 open parentheses equals 33 1 third close parentheses end cell end table`
+$\begin{array}{rcl} 103 = 3 n \\ n = \frac{103}{3} ( = 33 1 \frac{1}{3} ) \end{array}$
 
 **no, because ****n**** is not an integer** **[1]**
 
@@ -278,11 +278,11 @@ $4n+2$* ***[1]**
 ## Q13 — medium — 3 marks · exam-questions
 
 ### 12((a)) — 2 marks
-> *The formula for the **n*<sup>*th*</sup>*  term is  *`a plus open parentheses n minus 1 close parentheses d`*  where **a** is the first term and **d** is the common difference *
+> *The formula for the **n*<sup>*th*</sup>*  term is  *$a + ( n - 1 ) d$*  where **a** is the first term and **d** is the common difference *
 *The first term is 4 *
 *The sequence is going up by 5*
 
-`4 plus open parentheses n minus 1 close parentheses open parentheses 5 close parentheses`
+$4 + ( n - 1 ) ( 5 )$
 
 **[1]**
 
@@ -293,9 +293,9 @@ $5n-1$* ***[1] **
 ### 12((b)) — 1 marks
 > *Comparing the two sequences, we should be able to spot that each term in the second sequence is two times the term in the first sequence*
 
-`2 cross times 2 equals 4 comma space space space space space space 2 cross times 2 equals 4 comma space space space space space space 0 cross times 2 equals 0 comma space space space space space minus 4 cross times 2 equals negative 8 space space space space minus 10 cross times 2 equals negative 20 comma space space space space... space comma space space space space space open parentheses 3 n minus n squared close parentheses cross times 2`
+$2 \times 2 = 4 , 2 \times 2 = 4 , 0 \times 2 = 0 , - 4 \times 2 = - 8 - 10 \times 2 = - 20 , ... , ( 3 n - n^{2} ) \times 2$
 
-> *So the **n**th term of the second sequence is *`2 open parentheses 3 n minus n squared close parentheses`
+> *So the **n**th term of the second sequence is *$2 ( 3 n - n^{2} )$
 
 $2(3n-n^{2})$** or **$6n-2n^{2}$  **[1] **
 
@@ -344,7 +344,7 @@ n must be a whole number
 ## Q16 — medium — 2 marks · exam-questions
 
 ### 12((a)) — 2 marks
-> *The formula for the **n*<sup>*th*</sup>*  term is  *`a plus open parentheses n minus 1 close parentheses d`*  where **a** is the first term and **d** is the common difference*
+> *The formula for the **n*<sup>*th*</sup>*  term is  *$a + ( n - 1 ) d$*  where **a** is the first term and **d** is the common difference*
 
 > *Looking at the numerators: *
 
@@ -352,7 +352,7 @@ n must be a whole number
 
 > *The sequence is going up by 1*
 
-`1 plus open parentheses n minus 1 close parentheses open parentheses 1 close parentheses equals n`
+$1 + ( n - 1 ) ( 1 ) = n$
 
 > *Looking at the denominators: *
 
@@ -360,7 +360,7 @@ n must be a whole number
 
 > *The sequence is going up by 2*
 
-`1 plus open parentheses n minus 1 close parentheses open parentheses 2 close parentheses equals 2 n minus 1`
+$1 + ( n - 1 ) ( 2 ) = 2 n - 1$
 
 **[1]**
 
@@ -373,7 +373,7 @@ n must be a whole number
 ### 16() — 2 marks
 > *The formula for the sum to **n **terms of an arithmetic sequence is given on the formula sheet (first page of exam).*
 
-> `S subscript n space equals space n over 2 open square brackets 2 a space plus space open parentheses n space minus space 1 close parentheses d close square brackets`*, where **a **is the first term, **d** is the common difference and **n** is the number of terms.*
+> $S_{n} = \frac{n}{2} [ 2 a + ( n - 1 ) d ]$*, where **a **is the first term, **d** is the common difference and **n** is the number of terms.*
 
 > *For the sequence given, **a **= 7 (first term in the sequence), *
 
@@ -391,7 +391,7 @@ $d=10-7=3$
 
 > *d** = 3  *
 
-> `S subscript n space equals space n over 2 open square brackets 2 a space plus space open parentheses n space minus space 1 close parentheses d close square brackets space equals space 100 over 2 open square brackets 2 open parentheses 7 close parentheses space plus space open parentheses 100 space minus space 1 close parentheses open parentheses 3 close parentheses close square brackets`* *
+> $S_{n} = \frac{n}{2} [ 2 a + ( n - 1 ) d ] = \frac{100}{2} [ 2 ( 7 ) + ( 100 - 1 ) ( 3 ) ]$* *
 
 **[1]**
 
@@ -400,11 +400,11 @@ $15550$ **[1]**
 ## Q18 — medium — 3 marks · exam-questions
 
 ### 7((a)) — 2 marks
-> *The formula for the **n*<sup>*th*</sup>*  term is  *`a plus open parentheses n minus 1 close parentheses d`*  where **a** is the first term and **d** is the common difference *
+> *The formula for the **n*<sup>*th*</sup>*  term is  *$a + ( n - 1 ) d$*  where **a** is the first term and **d** is the common difference *
 *The first term is 6 *
 *The sequence is going up by 4*
 
-`6 plus open parentheses n minus 1 close parentheses open parentheses 4 close parentheses`
+$6 + ( n - 1 ) ( 4 )$
 
 **[1]**
 
@@ -415,18 +415,18 @@ $4n+2$* ***[1] **
 ### 7((b)) — 1 marks
 > *Replace  **n ** with  (**n**+1)*
 
-**n***th term =* `4 open parentheses n plus 1 close parentheses plus 2 space`
+**n***th term =* $4 ( n + 1 ) + 2$
 
 ** ****n****th term =**** **$4n+6$ **[1]**
 
 ## Q19 — medium — 4 marks · exam-questions
 
 ### 3((a)) — 2 marks
-> *The formula for the **n*<sup>*th*</sup>*  term is  *`a plus open parentheses n minus 1 close parentheses d`*  where **a** is the first term and **d** is the common difference *
+> *The formula for the **n*<sup>*th*</sup>*  term is  *$a + ( n - 1 ) d$*  where **a** is the first term and **d** is the common difference *
 *The first term is 10 *
 *The sequence is going up by 6*
 
-`10 plus open parentheses n minus 1 close parentheses open parentheses 6 close parentheses`
+$10 + ( n - 1 ) ( 6 )$
 
 **[1]**
 
@@ -439,11 +439,7 @@ $6n+4$* ***[1] **
 
 > *Continue the numbers in each sequence until you find the first number in both sequences. *
 
-`1 st space term space equals space open parentheses 1 close parentheses squared minus 3 space equals space minus 2
-2 nd space term space equals space open parentheses 2 close parentheses squared minus 3 space equals space 1
-3 rd space term space equals space open parentheses 3 close parentheses squared minus 3 space equals space 6
-4 th space term space equals space open parentheses 4 close parentheses squared minus 3 space equals space 13
-5 th space term space equals space open parentheses 5 close parentheses squared minus 3 space equals space 22`
+$1 st \text{term} = ( 1 ) ^{2} - 3 = - 2 2 nd \text{term} = ( 2 ) ^{2} - 3 = 1 3 rd \text{term} = ( 3 ) ^{2} - 3 = 6 4 th \text{term} = ( 4 ) ^{2} - 3 = 13 5 th \text{term} = ( 5 ) ^{2} - 3 = 22$
 
 **[1]**
 
@@ -461,22 +457,22 @@ $6n+4=n^{2}-3$
 
 > *Rearrange the equation to form a quadratic.*
 
-`table row cell 0 space end cell equals cell space n squared minus 3 space minus space 6 n space minus space 4 space end cell end table`
+$\begin{gathered} 0 & = n^{2} - 3 - 6 n - 4 \end{gathered}$
 
 > *Simplify.*
 
-`table row cell n squared space minus space 6 n space minus space 7 space end cell equals cell space 0 space end cell end table`
+$\begin{gathered} n^{2} - 6 n - 7 & = 0 \end{gathered}$
 
 > *Factorise and solve.*
 
-`table row cell open parentheses n plus 1 close parentheses open parentheses n minus 7 close parentheses end cell equals cell space 0 space end cell row cell n space end cell equals cell space minus 1 space and space n space equals space 7 end cell end table`
+`| ( n + 1 ) ( n - 7 ) | = 0 | | n | = - 1 and n = 7 | |`
 
 > *So the terms that have the same answer in both sequences are when **n **= -1 (not possible so disregard) and when **n **= 7.*
 
 > *Find the term in each sequence when **n **= 7.*
 
-> * *`6 open parentheses 7 close parentheses plus 4 space equals space 42 space plus thin space 4 space equals space 46
-open parentheses 7 close parentheses squared minus 3 space equals space 49 space minus space 3 space equals space 46`
+> * *$6 ( 7 ) + 4 = 42 + 4 = 46
+( 7 )^{2} - 3 = 49 - 3 = 46$
 
 **  One possible answer is 46** **[1]**
 
@@ -523,16 +519,16 @@ open parentheses 7 close parentheses squared minus 3 space equals space 49 space
 
 $11-7=4\,15-11=4$
 
-> *Use the formula for an arithmetic sequence *`u subscript n equals a plus open parentheses n minus 1 close parentheses d`
+> *Use the formula for an arithmetic sequence *$u_{n} = a + ( n - 1 ) d$
 
 - $a$* is the first term = 7*
 - $d$* is the common difference = 4*
 
-`table row blank blank cell 7 plus 4 open parentheses n minus 1 close parentheses end cell end table`
+$\begin{gathered} 7 + 4 ( n - 1 ) \end{gathered}$
 
 > *Simplify*
 
-`table row blank blank cell 7 plus 4 n minus 4 end cell end table`
+$\begin{gathered} 7 + 4 n - 4 \end{gathered}$
 
 $4n+3$
 
@@ -546,9 +542,9 @@ $4n+3$
 ### 4((b)) — 2 marks
 > *Substituting  *$n=1,n=2,n=3$* into the expression gives*
 
-`80 minus 2 open parentheses 1 close parentheses equals 78
-80 minus 2 open parentheses 2 close parentheses equals 76
-80 minus 2 open parentheses 3 close parentheses equals 74`
+$80 - 2 ( 1 ) = 78
+80 - 2 ( 2 ) = 76
+80 - 2 ( 3 ) = 74$
 
 **[B1]**
 
@@ -586,13 +582,13 @@ $a+2d=25$
 
 Write a formula for the sum of the first 10 terms
 
-`10 over 2 open parentheses 2 a plus 9 d close parentheses equals space 350`
+$\frac{10}{2} ( 2 a + 9 d ) = 350$
 
 **[M1]**
 
 Simplify by dividing both sides by a common factor
 
-`table row cell 5 open parentheses 2 a plus 9 d close parentheses end cell equals 350 row cell 2 a plus 9 d end cell equals 70 end table`
+$\begin{gathered} 5 ( 2 a + 9 d ) & = 350 \\ 2 a + 9 d & = 70 \end{gathered}$
 
 Multiply the first equation by 2
 
@@ -600,7 +596,7 @@ $2a+4d=50$
 
 Subtract this equation from the simplified equation for the sum of 10 terms
 
-`table row cell 2 a plus 9 d end cell equals 70 row cell 2 a plus 4 d end cell equals 50 row blank blank blank row cell 5 d end cell equals 20 end table`
+$\begin{gathered} 2 a + 9 d & = 70 \\ 2 a + 4 d & = 50 \\ \\ 5 d & = 20 \end{gathered}$
 
 Solve for $d$
 
@@ -608,13 +604,13 @@ $d=4$
 
 Substitute into any equation to find $a$
 
-`table row cell a plus 2 cross times open parentheses 4 close parentheses end cell equals 25 row cell a plus 8 end cell equals 25 row a equals 17 end table`
+$\begin{gathered} a + 2 \times ( 4 ) & = 25 \\ a + 8 & = 25 \\ a = 17 \end{gathered}$
 
 **[M1]**
 
-Find the 12th term using the formula `a plus open parentheses n minus 1 close parentheses d`
+Find the 12th term using the formula $a + ( n - 1 ) d$
 
-`17 space plus space open parentheses 12 minus 1 close parentheses cross times 4`
+$17 + ( 12 - 1 ) \times 4$
 
 **[M1]**
 
@@ -647,36 +643,36 @@ Find the 12th term using the formula `a plus open parentheses n minus 1 close pa
 
 > *For "the 6th term of the sequence is 96", substitute **n** = 6 into **an*<sup>*2*</sup>* + **bn** and equate to 96*
 
-`table attributes columnalign right center left columnspacing 0px end attributes row cell 9 a plus 3 b end cell equals 21 row cell a open parentheses 6 close parentheses squared plus b open parentheses 6 close parentheses end cell equals 96 end table`
+$\begin{array}{rcl} 9 a + 3 b & = 21 \\ a ( 6 )^{2} + b ( 6 ) & = 96 \end{array}$
 
 **[1]**
 
 > *We have a pair of **linear simultaneous equations**. Simplify the second equations and solve using elimination (you could also solve using substitution if that is a preferred method)*
 
-`table attributes columnalign right center left columnspacing 0px end attributes row cell 9 a plus 3 b end cell equals cell 21 space space space space space space space space space space circle enclose 1 end cell row cell 36 a plus 6 b end cell equals cell 96 space space space space space space space space space space circle enclose 2 end cell row cell circle enclose 1 cross times 2 colon space 18 a plus 6 b end cell equals cell 42 space space space space space space space space space space circle enclose 3 end cell row cell space circle enclose 2 minus space circle enclose 3 colon space 18 a end cell equals 54 end table`
+$\begin{array}{rcl} 9 a + 3 b & = 21 \textcircled{1} \\ 36 a + 6 b & = 96 \textcircled{2} \\ \textcircled{1} \times 2 : 18 a + 6 b & = 42 \textcircled{3} \\ \textcircled{2} - \textcircled{3} : 18 a & = 54 \end{array}$
 
 **a valid method to solve simultaneous equations ****[1]**
 
-`table row bold italic a bold equals bold 3 end table`** [1]**
+$\begin{gathered} a = 3 \end{gathered}$** [1]**
 
 > *Substitute your found value of **a** or **b** into one of the simultaneous equations to find the missing variable. *
 
 > *For example, substituting **a** = 3 into 9**a** + 3**b** = 21,*
 
-`table row cell 9 cross times 3 plus 3 b end cell equals 21 row cell space 27 plus 3 b end cell equals 21 row cell space 3 b end cell equals cell negative 6 end cell end table`
+$\begin{gathered} 9 \times 3 + 3 b & = 21 \\ 27 + 3 b & = 21 \\ 3 b & = - 6 \end{gathered}$
 
-** **`table attributes columnalign right center left columnspacing 0px end attributes row bold italic b bold equals cell bold minus bold 2 end cell end table`** [1]**
+** **$\begin{array}{rcl} b = - 2 \end{array}$** [1]**
 
 ## Q24 — hard — 5 marks · exam-questions
 
 ### 10((a)) — 2 marks
-> *The formula for the **n*<sup>*th*</sup>*  term is  *`a plus open parentheses n minus 1 close parentheses d`*  where **a** is the first term and **d** is the common difference *
+> *The formula for the **n*<sup>*th*</sup>*  term is  *$a + ( n - 1 ) d$*  where **a** is the first term and **d** is the common difference *
 
 > *The first term is 2 *
 
 > *The sequence is going up by 3*
 
-`2 plus open parentheses n minus 1 close parentheses open parentheses 3 close parentheses`
+$2 + ( n - 1 ) ( 3 )$
 
 **[1]**
 
@@ -687,13 +683,13 @@ $3n-1$* ***[1]**
 ### 10((b)) — 2 marks
 > *Equate 299 to the **n**th term expression found in part (a) and solve for **n**. "**n**" is the position in the sequence so must be an integer for 299 to be in the sequence*
 
-`table row 299 equals cell 3 n minus 1 end cell end table`
+$\begin{gathered} 299 = 3 n - 1 \end{gathered}$
 
 **[1]**
 
 > *Solve for **n*
 
-`table row 300 equals cell 3 n end cell row n equals cell 300 over 3 equals 100 end cell end table`
+$\begin{gathered} 300 = 3 n \\ n = \frac{300}{3} = 100 \end{gathered}$
 
 > *(Therefore 299 is the 100th term in the sequence)*
 
@@ -704,11 +700,11 @@ $3n-1$* ***[1]**
 ### 10((c)) — 1 marks
 > *Substitute *$n+1$* into the **n**th term found in part (a)*
 
-`3 open parentheses n plus 1 close parentheses minus 1`
+$3 ( n + 1 ) - 1$
 
 > *The question is only worth 1 mark, which is a hint that it is not necessary to simplify this expression, but if you do simplify then *
 
-`3 open parentheses n plus 1 close parentheses minus 1 equals 3 n plus 3 minus 1 equals 3 n plus 2`
+$3 ( n + 1 ) - 1 = 3 n + 3 - 1 = 3 n + 2$
 
 $3(n+1)-1$** ****or****  **$3n+2$** [1]**
 
@@ -728,11 +724,11 @@ $3(n+1)-1$** ****or****  **$3n+2$** [1]**
 ### 3((b)) — 2 marks
 > *Writing the sequence and missing terms as "**u*<sub>*1*</sub>*,  **u*<sub>*2*</sub>*,  3,  11,  14"*
 
-`table attributes columnalign right center left columnspacing 0px end attributes row cell u subscript 2 plus 3 end cell equals 11 row cell u subscript 2 end cell equals cell 11 minus 3 equals 8 end cell end table`
+$\begin{array}{rcl} u_{2} + 3 & = 11 \\ u_{2} & = 11 - 3 = 8 \end{array}$
 
 > *Now replace **u*<sub>*2*</sub>* with 8 and repeat *
 
-`table row cell u subscript 1 plus 8 end cell equals 3 row cell u subscript 1 end cell equals cell 3 minus 8 equals negative 5 end cell end table`
+$\begin{gathered} u_{1} + 8 & = 3 \\ u_{1} & = 3 - 8 = - 5 \end{gathered}$
 
 **−5, 8** **[2]**
 
@@ -741,8 +737,8 @@ $3(n+1)-1$** ****or****  **$3n+2$** [1]**
 ### 3((c)) — 8 marks
 i) *By adding two previous terms to find the next term, write two equations*
 
-`2 plus d equals e space space space space space space space space space space circle enclose 1
-d plus e equals 10 space space space space space space space space circle enclose 2`
+$2 + d = e \textcircled{1}
+d + e = 10 \textcircled{2}$
 
 > *We now have two simultaneous equations, which we can solve by substitution or by elimination. In the solution below, we will use substitution In *`circle enclose 2`*, replace "**e**" with "2 + **d** "*
 
@@ -764,32 +760,32 @@ $e=6$** [1]**
 
 ii) *By adding two previous terms to find the next term, write three equations*
 
-`negative 33 plus x equals y space space space circle enclose 1
-x plus y equals z space space space space space space space space space circle enclose 2
-y plus z equals 18 space space space space space space space circle enclose 3`
+$- 33 + x = y \textcircled{1}
+x + y = z \textcircled{2}
+y + z = 18 \textcircled{3}$
 
 > *We have three simultaneous equations, which we can solve by substitution or by elimination. In the solution below, we will use substitution In *`circle enclose 2`*, replace "**y**" with "−33 + **x**"*
 
-`x plus open parentheses negative 33 plus x close parentheses equals z
-2 x minus 33 equals z space space space space space space space space circle enclose 4`
+$x + ( - 33 + x ) = z
+2 x - 33 = z \textcircled{4}$
 
 **[1]**
 
 > *In *`circle enclose 3`*, replace "**y**" with "-33 + **x**" and "**z**" with "2**x** − 33". (The brackets in the line below are not necessary, they are just to make the substitutions clearer)*
 
-`open parentheses negative 33 plus x close parentheses plus open parentheses 2 x minus 33 close parentheses equals 18`
+$( - 33 + x ) + ( 2 x - 33 ) = 18$
 
 **[1]**
 
 > *Simplify and solve*
 
-`table attributes columnalign right center left columnspacing 0px end attributes row cell negative 33 plus x plus 2 x minus 33 end cell equals 18 row cell 3 x minus 66 end cell equals 18 row cell 3 x end cell equals 84 end table`
+$\begin{array}{rcl} - 33 + x + 2 x - 33 & = 18 \\ 3 x - 66 & = 18 \\ 3 x & = 84 \end{array}$
 
 $x=28$** [1]**
 
 > *Substitute "**x** = 28" into *`circle enclose 4`* to find **z*
 
-`table row cell 2 open parentheses 28 close parentheses minus 33 end cell equals z row cell 56 minus 33 end cell equals z end table`
+$\begin{gathered} 2 ( 28 ) - 33 & = z \\ 56 - 33 & = z \end{gathered}$
 
 $z=23$** [1]**
 
@@ -806,7 +802,7 @@ $y=-5$* ***[1]**
 ### 16() — 4 marks
 > *The formula for the sum to **n **terms of an arithmetic series is given on the formula sheet (first page of exam).*
 
-> `S subscript n space equals space n over 2 open square brackets 2 a space plus space open parentheses n space minus space 1 close parentheses d close square brackets`*, where **a **is the first term, **d** is the common difference and **n** is the number of terms.*
+> $S_{n} = \frac{n}{2} [ 2 a + ( n - 1 ) d ]$*, where **a **is the first term, **d** is the common difference and **n** is the number of terms.*
 
 > *Method 1*
 
@@ -814,7 +810,7 @@ $y=-5$* ***[1]**
 
 > *This leaves behind the sum of the 41st to 100th term*
 
-`table attributes columnalign right center left columnspacing 0px end attributes row blank blank cell S subscript 100 minus S subscript 40 end cell end table`
+$\begin{array}{rcl} S_{100} - S_{40} \end{array}$
 
 **[1]**
 
@@ -822,7 +818,7 @@ $y=-5$* ***[1]**
 
 > *Substitute n = 40, a = 1 and d = 4 into the second sum*
 
-`space equals space 100 over 2 open square brackets 2 cross times 1 space plus space open parentheses 100 space minus space 1 close parentheses cross times 4 close square brackets space minus 40 over 2 open square brackets 2 cross times 1 space plus space open parentheses 40 space minus space 1 close parentheses cross times 4 close square brackets space`
+$= \frac{100}{2} [ 2 \times 1 + ( 100 - 1 ) \times 4 ] - \frac{40}{2} [ 2 \times 1 + ( 40 - 1 ) \times 4 ]$
 
 **[2]**
 
@@ -838,9 +834,9 @@ $16740$* ***[1]**
 
 > *This new sequence would have a first term of *$a=u_{41}$* where *$u_{41}$* is the 41st term in the old sequence*
 
-*Use *`u subscript n space equals space a space plus space open parentheses n space minus space 1 close parentheses d`* on the old sequence (not given on formula page) to find *$u_{41}$ * *
+*Use *$u_{n} = a + ( n - 1 ) d$* on the old sequence (not given on formula page) to find *$u_{41}$ * *
 
-* *`table row cell u subscript 41 space end cell equals cell space 1 space plus space open parentheses 41 space minus space 1 close parentheses open parentheses 4 close parentheses end cell row blank equals cell space 161 end cell end table`
+* *$\begin{gathered} u_{41} & = 1 + ( 41 - 1 ) ( 4 ) \\ = 161 \end{gathered}$
 
 * ***[1]**
 
@@ -850,9 +846,9 @@ $16740$* ***[1]**
 
 **n = 60*** ***[1]**
 
-> *Find the sum of all 60 terms by substituting a = 161, n = 60, d = 4 into *`S subscript n space equals space n over 2 open square brackets 2 a space plus space open parentheses n space minus space 1 close parentheses d close square brackets`*  *
+> *Find the sum of all 60 terms by substituting a = 161, n = 60, d = 4 into *$S_{n} = \frac{n}{2} [ 2 a + ( n - 1 ) d ]$*  *
 
-> `S subscript n space equals space n over 2 open square brackets 2 a space plus space open parentheses n space minus space 1 close parentheses d close square brackets space equals space 60 over 2 open square brackets 2 open parentheses 161 close parentheses space plus space open parentheses 60 space minus space 1 close parentheses open parentheses 4 close parentheses close square brackets`* *
+> $S_{n} = \frac{n}{2} [ 2 a + ( n - 1 ) d ] = \frac{60}{2} [ 2 ( 161 ) + ( 60 - 1 ) ( 4 ) ]$* *
 
 **[1]**
 
@@ -861,52 +857,50 @@ $16740$ **[1]**
 ## Q27 — hard — 5 marks · exam-questions
 
 ### 23() — 5 marks
-> *Find an equation in terms of **a **and **d **for the 2nd term of the sequence using the formula *`u subscript n space equals space a space plus space open parentheses n space minus space 1 close parentheses d`* (not given on formula page)*
+> *Find an equation in terms of **a **and **d **for the 2nd term of the sequence using the formula *$u_{n} = a + ( n - 1 ) d$* (not given on formula page)*
 
-* *`table row cell u subscript 2 space end cell equals cell space a space plus space open parentheses 2 space minus space 1 close parentheses open parentheses d close parentheses end cell row cell space a space plus space d space end cell equals cell space 8.5 end cell end table`
+* *$\begin{gathered} u_{2} & = a + ( 2 - 1 ) ( d ) \\ a + d & = 8.5 \end{gathered}$
 
 > *Find an equation in terms of **a **and **d **for the 5th term of the sequence*
 
-* *`table row cell u subscript 5 space end cell equals cell space a space plus space open parentheses 5 space minus space 1 close parentheses open parentheses d close parentheses end cell row cell space a space plus space 4 d space end cell equals cell space 13 end cell end table`
+* *$\begin{gathered} u_{5} & = a + ( 5 - 1 ) ( d ) \\ a + 4 d & = 13 \end{gathered}$
 
 **At least one equation correct*** ***[1]**
 
 > *Solve the two equations simultaneously to find the values of **a **and **d**.  *
 
-`bottom enclose table row cell space space a space plus space 4 d space end cell equals cell space 13 end cell row cell open parentheses minus close parentheses space space space space space space space space a space plus space space d space end cell equals cell space 8.5 end cell end table end enclose
-space space 3 d space equals space 4.5
-d space equals space 1.5`
+`bottom | a + 4 d | = 13 | | ( - ) a + d | = 8.5 | | 3 d = 4.5 d = 1.5`
 
 > *Substitute **d **= 1.5 into one of the equations to find **a.*
 
-`table row cell space a space plus space 1.5 space end cell equals cell space 8.5 end cell row cell a space end cell equals cell space 7 end cell end table`
+$\begin{gathered} a + 1.5 & = 8.5 \\ a & = 7 \end{gathered}$
 
 **Both correct*** ***[1]**
 
 > *The formula for the sum to **n **terms of an arithmetic series is given on the formula sheet (first page of exam).*
 
-> `S subscript n space equals space n over 2 open square brackets 2 a space plus space open parentheses n space minus space 1 close parentheses d close square brackets`*, where **a **is the first term, **d** is the common difference and **n** is the number of terms.*
+> $S_{n} = \frac{n}{2} [ 2 a + ( n - 1 ) d ]$*, where **a **is the first term, **d** is the common difference and **n** is the number of terms.*
 
 > *From the information above, **a **= 7, **d** = 1.5, **S*<sub>*N*</sub>* **= 292. Substitute into the formula for **S*<sub>*N*</sub>*.*
 
-> `S subscript N space equals space N over 2 open square brackets 2 a space plus space open parentheses N space minus space 1 close parentheses d close square brackets space
-292 equals space N over 2 open square brackets 2 open parentheses 7 close parentheses space plus space open parentheses N space minus space 1 close parentheses open parentheses 1.5 close parentheses close square brackets`* *
+> $S_{N} = \frac{N}{2} [ 2 a + ( N - 1 ) d ] 
+292 = \frac{N}{2} [ 2 ( 7 ) + ( N - 1 ) ( 1.5 ) ]$* *
 
 **[1]**
 
 > *Simplify.*
 
-> `table row cell N over 2 open square brackets 14 space plus space 1.5 open parentheses N space minus space 1 close parentheses close square brackets space end cell equals cell space 292 end cell row cell N open parentheses 14 space plus space 1.5 N space minus space 1.5 close parentheses space end cell equals cell space 584 end cell row cell N open parentheses 12.5 space plus space 1.5 N close parentheses space end cell equals cell space 584 end cell end table`* *
+> $\begin{gathered} \frac{N}{2} [ 14 + 1.5 ( N - 1 ) ] & = 292 \\ N ( 14 + 1.5 N - 1.5 ) & = 584 \\ N ( 12.5 + 1.5 N ) & = 584 \end{gathered}$* *
 
 > *Expand the brackets and rearrange to form a quadratic equation equal to zero.*
 
-> `table row cell 12.5 N space plus space 1.5 N squared space end cell equals cell space 584 end cell row cell 1.5 N squared space plus space 12.5 N space minus space 584 space end cell equals cell space 0 end cell end table`* *
+> $\begin{gathered} 12.5 N + 1.5 N^{2} & = 584 \\ 1.5 N^{2} + 12.5 N - 584 & = 0 \end{gathered}$* *
 
 > *Be sure to **show** the stages of using the quadratic formula - only use your calculator to check your answers.*
 
 $a=1.5,b=12.5,c=-584$
 
-`x equals fraction numerator negative open parentheses 12.5 close parentheses plus-or-minus square root of open parentheses 12.5 close parentheses squared minus 4 cross times 1.5 cross times open parentheses negative 584 close parentheses end root over denominator 2 cross times 1.5 end fraction`
+$x = \frac{- ( 12.5 ) \pm \sqrt{( 12.5 )^{2} - 4 \times 1.5 \times ( - 584 )} }{2 \times 1.5}$
 
 **Use of formula correct (or factorised correctly)*** ***[1]**
 
@@ -923,7 +917,7 @@ $N=16$ **[1]**
 
 > *The formula for the sum to **n **terms of an arithmetic sequence is given on the formula sheet (first page of exam).*
 
-> `S subscript n space equals space n over 2 open square brackets 2 a space plus space open parentheses n space minus space 1 close parentheses d close square brackets`*, where **a **is the first term, **d** is the common difference and **n** is the number of terms.*
+> $S_{n} = \frac{n}{2} [ 2 a + ( n - 1 ) d ]$*, where **a **is the first term, **d** is the common difference and **n** is the number of terms.*
 
 > *In the first year, Mario saves \$50, so **a **= 50. *
 
@@ -935,22 +929,22 @@ $N=16$ **[1]**
 
 > *The total amount Mario will save is \$33 125, so **S*<sub>*n*</sub>* = 33 125. Substitute these values into the formula for the sum of an arithmetic sequence.*
 
-> `S subscript n space equals space n over 2 open square brackets 2 a space plus space open parentheses n space minus space 1 close parentheses d close square brackets space
-33125 space equals space 50 over 2 open square brackets 2 open parentheses 50 close parentheses space plus space open parentheses 50 space minus space 1 close parentheses open parentheses k close parentheses close square brackets`* *
+> $S_{n} = \frac{n}{2} [ 2 a + ( n - 1 ) d ] 
+33125 = \frac{50}{2} [ 2 ( 50 ) + ( 50 - 1 ) ( k ) ]$* *
 
 **[1]**
 
 > *Simplify.*
 
-> `25 open parentheses 100 space plus space 49 k close parentheses space equals space 33125`* *
+> $25 ( 100 + 49 k ) = 33125$* *
 
 > *Solve by first dividing by 25 and subtracting 100.*
 
-`table row cell 100 space plus space 49 k space end cell equals cell space 33125 over 25 end cell row cell 100 space plus space 49 k space space end cell equals cell space 1325 end cell row cell space 49 k space end cell equals cell space 1325 space minus space 100 end cell row cell 49 k space end cell equals cell space 1225 end cell end table`
+$\begin{gathered} 100 + 49 k & = \frac{33125}{25} \\ 100 + 49 k & = 1325 \\ 49 k & = 1325 - 100 \\ 49 k & = 1225 \end{gathered}$
 
 > *Divide by 49 to find the value of **k.** *
 
-`table row cell k space end cell equals cell space 1225 over 49 end cell end table`
+$\begin{gathered} k & = \frac{1225}{49} \end{gathered}$
 
 $k=25$ **[1]**
 
@@ -959,37 +953,37 @@ $k=25$ **[1]**
 ### 22() — 4 marks
 > *The formula for the sum to **n **terms of an arithmetic sequence is given on the formula sheet (first page of exam).*
 
-> `S subscript n space equals space n over 2 open square brackets 2 a space plus space open parentheses n space minus space 1 close parentheses d close square brackets`*, where **a **is the first term, **d** is the common difference and **n** is the number of terms.*
+> $S_{n} = \frac{n}{2} [ 2 a + ( n - 1 ) d ]$*, where **a **is the first term, **d** is the common difference and **n** is the number of terms.*
 
 > *For the sequence given, **a **= -6 (first term in the sequence), **n** = 30, **d** = **d  **and **S*<sub>*n*</sub>* = 2865.*
 
 > *Find **d **by substituting in the known values and solving.   *
 
-`S subscript n space equals space n over 2 open square brackets 2 a space plus space open parentheses n space minus space 1 close parentheses d close square brackets space
-2865 space equals space 30 over 2 open square brackets 2 open parentheses negative 6 close parentheses space plus space open parentheses 30 space minus space 1 close parentheses open parentheses d close parentheses close square brackets`
+$S_{n} = \frac{n}{2} [ 2 a + ( n - 1 ) d ] 
+2865 = \frac{30}{2} [ 2 ( - 6 ) + ( 30 - 1 ) ( d ) ]$
 
 **[1]**
 
 > *Simplify.*
 
-> `15 open parentheses negative 12 space plus space 29 d close parentheses space equals space 2865`* *
+> $15 ( - 12 + 29 d ) = 2865$* *
 
 > *Solve by first dividing by 15 and adding 12.*
 
-`table attributes columnalign right center left columnspacing 0px end attributes row cell negative 12 space plus space 29 k space end cell equals cell space 2865 over 15 end cell row cell 29 k space space end cell equals cell space 191 space plus space 12 end cell row cell space 29 k space end cell equals cell space 203 end cell end table`
+$\begin{array}{rcl} - 12 + 29 k & = \frac{2865}{15} \\ 29 k & = 191 + 12 \\ 29 k & = 203 \end{array}$
 
 > *Divide by 29 to find the value of **d.** *
 
-`table row cell d space end cell equals cell space 203 over 29 space equals space 7 end cell end table`
+$\begin{gathered} d & = \frac{203}{29} = 7 \end{gathered}$
 
 **[1]**
 
-> *The formula for the **n**th term of an arithmetic sequence is *`u subscript n space equals space a space plus space open parentheses n space minus space 1 close parentheses d`*, where **a **is the first term, **d** is the common difference. (Not given on the formula sheet).*
+> *The formula for the **n**th term of an arithmetic sequence is *$u_{n} = a + ( n - 1 ) d$*, where **a **is the first term, **d** is the common difference. (Not given on the formula sheet).*
 
 > *Find the 9th term by substituting **a** = -6 and **d **= 9 and **n** = 7 into the formula for the** n**th term of an arithmetic sequence.*
 
-> `u subscript n space equals space a space plus space open parentheses n space minus space 1 close parentheses d space
-u subscript 9 space equals space minus 6 space plus space open parentheses 9 space minus space 1 close parentheses open parentheses 7 close parentheses space`* *
+> $u_{n} = a + ( n - 1 ) d 
+u_{9} = - 6 + ( 9 - 1 ) ( 7 )$* *
 
 **[1]**
 
@@ -1002,42 +996,40 @@ $9\mathrm{th} \mathrm{term}=50$ **[1]**
 ## Q30 — hard — 4 marks · exam-questions
 
 ### 18() — 4 marks
-> *Find an equation in terms of **a **and **d **for the 6th term of the sequence using the formula *`u subscript n space equals space a space plus space open parentheses n space minus space 1 close parentheses d`* (not given on formula page).*
+> *Find an equation in terms of **a **and **d **for the 6th term of the sequence using the formula *$u_{n} = a + ( n - 1 ) d$* (not given on formula page).*
 
-* *`table attributes columnalign right center left columnspacing 0px end attributes row cell u subscript 6 space end cell equals cell space a space plus space open parentheses 6 space minus space 1 close parentheses open parentheses d close parentheses end cell row cell a space plus space 5 d space end cell equals cell space 39 end cell end table`
+* *$\begin{array}{rcl} u_{6} & = a + ( 6 - 1 ) ( d ) \\ a + 5 d & = 39 \end{array}$
 
 > *Find an equation in terms of **a **and **d **for the 19th term of the sequence*
 
-* *`table row cell u subscript 19 space end cell equals cell space a space plus space open parentheses 19 space minus space 1 close parentheses open parentheses d close parentheses end cell row cell space a space plus space 18 d space end cell equals cell space 7.8 end cell end table`
+* *$\begin{gathered} u_{19} & = a + ( 19 - 1 ) ( d ) \\ a + 18 d & = 7.8 \end{gathered}$
 
 **At least one equation correct*** ***[1]**
 
 > *Solve the two equations simultaneously to find the values of **a **and **d**.  *
 
-`bottom enclose table row cell space space a space plus space 18 d space end cell equals cell space 7.8 end cell row cell open parentheses minus close parentheses space space space space space space space space a space plus space 5 d space end cell equals cell space 39 end cell end table end enclose
-space space 13 d space equals space minus 31.2
-d space equals space minus 2.4`
+`bottom | a + 18 d | = 7.8 | | ( - ) a + 5 d | = 39 | | 13 d = - 31.2 d = - 2.4`
 
 > *Substitute **d **= -2.4 into one of the equations to find **a.*
 
-`table row cell space a space plus space 5 open parentheses negative 2.4 close parentheses space end cell equals cell space 39 end cell row cell a space end cell equals cell space 39 space plus space 12 end cell row cell a space end cell equals cell space 51 end cell end table`
+$\begin{gathered} a + 5 ( - 2.4 ) & = 39 \\ a & = 39 + 12 \\ a & = 51 \end{gathered}$
 
 **Either a or d correct*** ***[1]**
 
 > *The formula for the sum to **n **terms of an arithmetic series is given on the formula sheet (first page of exam).*
 
-> `S subscript n space equals space n over 2 open square brackets 2 a space plus space open parentheses n space minus space 1 close parentheses d close square brackets`*, where **a **is the first term, **d** is the common difference and **n** is the number of terms.*
+> $S_{n} = \frac{n}{2} [ 2 a + ( n - 1 ) d ]$*, where **a **is the first term, **d** is the common difference and **n** is the number of terms.*
 
 > *From the information above, **a **= 51, **d** = -2.4, **n **= 25. Substitute into the formula for **S*<sub>*N*</sub>*.*
 
-> `S subscript n space equals space n over 2 open square brackets 2 a space plus space open parentheses n space minus space 1 close parentheses d close square brackets space
-S subscript 25 space equals fraction numerator space 25 over denominator 2 end fraction open parentheses 2 open parentheses 51 close parentheses space plus space open parentheses 25 space minus space 1 close parentheses open parentheses negative 2.4 close parentheses close parentheses`* *
+> $S_{n} = \frac{n}{2} [ 2 a + ( n - 1 ) d ] 
+S_{25} = \frac{ 25}{2} ( 2 ( 51 ) + ( 25 - 1 ) ( - 2.4 ) )$* *
 
 **[1]**
 
 > *Simplify.*
 
-> `table row cell S subscript 25 space end cell equals cell fraction numerator space 25 over denominator 2 end fraction open parentheses 102 minus 2.4 open parentheses 24 close parentheses close parentheses space equals 25 over 2 open parentheses 102 space minus space 57.6 close parentheses space equals space 25 over 2 open parentheses 44.4 close parentheses end cell end table`* *
+> $\begin{gathered} S_{25} & = \frac{ 25}{2} ( 102 - 2.4 ( 24 ) ) = \frac{25}{2} ( 102 - 57.6 ) = \frac{25}{2} ( 44.4 ) \end{gathered}$* *
 
 > *Calculate the answer carefully.*
 
@@ -1050,7 +1042,7 @@ $S_{25}=555$ **[1]**
 
 > *The formula for the sum to **n **terms of an arithmetic sequence is given on the formula sheet (first page of exam).*
 
-> `S subscript n space equals space n over 2 open square brackets 2 a space plus space open parentheses n space minus space 1 close parentheses d close square brackets`*, where **a **is the first term, **d** is the common difference and **n** is the number of terms.*
+> $S_{n} = \frac{n}{2} [ 2 a + ( n - 1 ) d ]$*, where **a **is the first term, **d** is the common difference and **n** is the number of terms.*
 
 *For the multiples of 3, the first term is 3 so, ***a ***= 3. For the multiples of 3, the common difference is 3 so, ***d ***= 3.*
 
@@ -1064,7 +1056,7 @@ $n=\frac{999}{3}=333$
 
 > *Substitute the values into the formula for the sum of **n **terms.*
 
-> `S subscript n space equals space n over 2 open square brackets 2 a space plus space open parentheses n space minus space 1 close parentheses d close square brackets space equals space 333 over 2 open square brackets 2 open parentheses 3 close parentheses space plus space open parentheses 333 space minus space 1 close parentheses open parentheses 3 close parentheses close square brackets`* *
+> $S_{n} = \frac{n}{2} [ 2 a + ( n - 1 ) d ] = \frac{333}{2} [ 2 ( 3 ) + ( 333 - 1 ) ( 3 ) ]$* *
 
 **[1]**
 
@@ -1075,15 +1067,15 @@ $166833$ **[1]**
 ### 27() — 4 marks
 > *The formula for the sum to **n **terms of an arithmetic series is given on the formula sheet (first page of exam).*
 
-> `S subscript n space equals space n over 2 open square brackets 2 a space plus space open parentheses n space minus space 1 close parentheses d close square brackets`*, where **a **is the first term, **d** is the common difference and **n** is the number of terms.*
+> $S_{n} = \frac{n}{2} [ 2 a + ( n - 1 ) d ]$*, where **a **is the first term, **d** is the common difference and **n** is the number of terms.*
 
 *For the sequence given, ***a ***= 8, ***d*** = 15 - 8 = 7.*
 
 * ***[1]**
 
-> *Find the 50th term of the sequence using the formula *`u subscript n space equals space a space plus space open parentheses n space minus space 1 close parentheses d`* (not given on formula page)*
+> *Find the 50th term of the sequence using the formula *$u_{n} = a + ( n - 1 ) d$* (not given on formula page)*
 
-* *`table row cell u subscript 50 space end cell equals cell space 8 space plus space open parentheses 50 space minus space 1 close parentheses open parentheses 7 close parentheses end cell row blank equals 351 end table`
+* *$\begin{gathered} u_{50} & = 8 + ( 50 - 1 ) ( 7 ) \\ = 351 \end{gathered}$
 
 * ***[1]**
 
@@ -1097,7 +1089,7 @@ $166833$ **[1]**
 *n** = 51*
 *d** = 7  *
 
-> `S subscript n space equals space n over 2 open square brackets 2 a space plus space open parentheses n space minus space 1 close parentheses d close square brackets space equals space 51 over 2 open square brackets 2 open parentheses 351 close parentheses space plus space open parentheses 51 space minus space 1 close parentheses open parentheses 7 close parentheses close square brackets`* *
+> $S_{n} = \frac{n}{2} [ 2 a + ( n - 1 ) d ] = \frac{51}{2} [ 2 ( 351 ) + ( 51 - 1 ) ( 7 ) ]$* *
 
 **[1]**
 
@@ -1121,11 +1113,11 @@ $\mathrm{Theo}:18+4.5N\,\,\mathrm{James}:4N$
 
 > *Begin solving the equation.*
 
-`Theo over James space equals space fraction numerator 18 plus 4.5 N over denominator 4 N end fraction space equals space 15 over 8
+$\frac{Theo}{James} = \frac{18 + 4.5 N}{4 N} = \frac{15}{8} 
 
-8 space cross times space open parentheses 18 plus 4.5 N close parentheses space equals space 15 space cross times space 4 N
+8 \times ( 18 + 4.5 N ) = 15 \times 4 N
 
-144 space plus space 36 N space equals space 60 space N`
+144 + 36 N = 60 N$
 
 **[1]**
 
@@ -1144,24 +1136,24 @@ $144=60N-36N\,\,144=24N\,\,N=144\div24=6$
 
 > *Using the fact that the 3rd term is 206, and the 2nd term is 41*
 
-`206 space equals space k open parentheses 41 close parentheses space plus space r`
+$206 = k ( 41 ) + r$
 
 **[1]**
 
 > *Using the fact that the 4th term is 1031, and the 3rd term is 206*
 
-`1031 space equals space k open parentheses 206 close parentheses space plus space r`
+$1031 = k ( 206 ) + r$
 
 **[1]**
 
 > *We now have a pair of simultaneous equations that we can solve*
 
-`circle enclose 1 space space 41 k plus r equals 206
-circle enclose 2 space space 206 k plus r equals 1031`
+$\textcircled{1} 41 k + r = 206
+\textcircled{2} 206 k + r = 1031$
 
 > *Subtract equation *`circle enclose 1`* from equation *`circle enclose 2`* to eliminate *$r$
 
-`circle enclose 2 minus circle enclose 1 space colon space space 165 k space equals space 825`
+$\textcircled{2} - \textcircled{1} : 165 k = 825$
 
 **[1]**
 
@@ -1171,7 +1163,7 @@ $k=5$
 
 > *Substitute this value back into either equation to find *$r$
 
-`table row cell circle enclose 1 space colon thin space 41 open parentheses 5 close parentheses space plus space r space end cell equals 206 row cell 205 space plus thin space r space end cell equals cell space 206 end cell row r equals 1 end table`
+$\begin{gathered} \textcircled{1} : 41 ( 5 ) + r & = 206 \\ 205 + r & = 206 \\ r = 1 \end{gathered}$
 
 $k=5$ **[1]**
 
@@ -1186,7 +1178,7 @@ i) *We have a term-to-term rule. "*$u_{n+1}=5u_{n}-15$*" means, to find the next
 
 > *Find *$u_{4}$* by substituting 6 for *$u_{3}$*.*
 
-`u subscript 4 equals 5 open parentheses 6 close parentheses minus 15`
+$u_{4} = 5 ( 6 ) - 15$
 
 **[1]**
 
@@ -1196,7 +1188,7 @@ $=15$
 
 > *Substitute this into the formula again to find the next term, *$u_{5}$*.*
 
-`u subscript 5 equals 5 open parentheses 15 close parentheses minus 15`
+$u_{5} = 5 ( 15 ) - 15$
 
 **Answer = 60** **[1]**
 
@@ -1224,7 +1216,7 @@ $u_{2}=\frac{21}{5}$** or  4.2** **[1]**
 
 ### 19() — 6 marks
 > **[exam-tip]**
-> The formula for the sum of the terms of an arithmetic sequence is given by `S subscript n space equals n over 2 open square brackets 2 a space plus thin space open parentheses n minus 1 close parentheses d close square brackets`, where $a$ is the first term, $n$ is the number of terms, and $d$ is the common difference.
+> The formula for the sum of the terms of an arithmetic sequence is given by $S_{n} = \frac{n}{2} [ 2 a + ( n - 1 ) d ]$, where $a$ is the first term, $n$ is the number of terms, and $d$ is the common difference.
 
 > *Write down what you know*
 
@@ -1234,11 +1226,11 @@ $a=3,d=4,S_{n}=7260$
 
 > *Substitute these into the formula*
 
-`7260 space equals n over 2 open square brackets 2 open parentheses 3 close parentheses space plus space open parentheses n minus 1 close parentheses cross times 4 close square brackets space`
+$7260 = \frac{n}{2} [ 2 ( 3 ) + ( n - 1 ) \times 4 ]$
 
 > *Expand the brackets and simplify*
 
-`7260 space equals n over 2 open square brackets 2 space plus space 4 n close square brackets`
+$7260 = \frac{n}{2} [ 2 + 4 n ]$
 
 **[M1]**
 
@@ -1252,7 +1244,7 @@ $2n^{2}+n-7260=0$
 
 > *Factorise into double brackets*
 
-`open parentheses 2 n space plus thin space 121 close parentheses open parentheses n space minus space 60 close parentheses space equals space 0`
+$( 2 n + 121 ) ( n - 60 ) = 0$
 
 **[M1]**
 
@@ -1271,7 +1263,7 @@ $n=60$
 
 > *You need to find the last term in the sequence, in this case, the 60th*
 
-`x space equals space 3 space plus thin space open parentheses 60 space minus space 1 close parentheses space cross times space 4`
+$x = 3 + ( 60 - 1 ) \times 4$
 
 $x=239$
 
@@ -1284,66 +1276,66 @@ $x=239$
 ### 24() — 4 marks
 > *The formula for the sum to **n **terms of an arithmetic series is given on the formula sheet (first page of exam).*
 
-> `S subscript n space equals space n over 2 open square brackets 2 a space plus space open parentheses n space minus space 1 close parentheses d close square brackets`*, where **a **is the first term, **d** is the common difference and **n** is the number of terms.*
+> $S_{n} = \frac{n}{2} [ 2 a + ( n - 1 ) d ]$*, where **a **is the first term, **d** is the common difference and **n** is the number of terms.*
 
 > *Use the formula to find an expression in terms of **a **and **d **for 2**n.*
 
-> `S subscript 2 n end subscript space equals space fraction numerator 2 n over denominator 2 end fraction open square brackets 2 a space plus space open parentheses 2 n space minus space 1 close parentheses d close square brackets space equals space n open square brackets 2 a space plus space open parentheses 2 n space minus space 1 close parentheses d close square brackets`* *
+> $S_{2 n} = \frac{2 n}{2} [ 2 a + ( 2 n - 1 ) d ] = n [ 2 a + ( 2 n - 1 ) d ]$* *
 
 **[1]**
 
 > *Use the formula to find an expression in terms of **a **and **d **for **n.*
 
-> `S subscript n space equals space n over 2 open square brackets 2 a space plus space open parentheses n space minus space 1 close parentheses d close square brackets`* *
+> $S_{n} = \frac{n}{2} [ 2 a + ( n - 1 ) d ]$* *
 
 > *S*<sub>*2n *</sub>*= 4 × **S*<sub>*n*</sub>* , use this to form an equation in terms of **a, d **and **n**.*
 
-> `n open square brackets 2 a space plus space open parentheses 2 n space minus space 1 close parentheses d close square brackets space equals 4 open parentheses n over 2 open square brackets 2 a space plus space open parentheses n space minus space 1 close parentheses d close square brackets close parentheses`* *
+> $n [ 2 a + ( 2 n - 1 ) d ] = 4 ( \frac{n}{2} [ 2 a + ( n - 1 ) d ] )$* *
 
 **[1]**
 
 > *Simplify and cancel **n **from both sides.*
 
-`table row cell up diagonal strike n open square brackets 2 a space plus space open parentheses 2 n space minus space 1 close parentheses d close square brackets space end cell equals cell fraction numerator 4 up diagonal strike n over denominator 2 end fraction open square brackets 2 a space plus space open parentheses n space minus space 1 close parentheses d close square brackets end cell row cell 2 a space plus space open parentheses 2 n space minus space 1 close parentheses d space end cell equals cell 2 space open square brackets 2 a space plus space open parentheses n space minus space 1 close parentheses d close square brackets end cell end table`
+$\begin{gathered} \cancel{n} [ 2 a + ( 2 n - 1 ) d ] & = \frac{4 \cancel{n} }{2} [ 2 a + ( n - 1 ) d ] \\ 2 a + ( 2 n - 1 ) d & = 2 [ 2 a + ( n - 1 ) d ] \end{gathered}$
 
 > *Expand the brackets on both sides.*
 
-`table row cell 2 a space plus space 2 n d space minus space d space end cell equals cell space 4 a space plus space 2 open parentheses n space minus space 1 close parentheses d end cell row cell space 2 a space plus space 2 n d space minus space d space end cell equals cell space 4 a space plus space 2 n d space minus space 2 d end cell end table`
+$\begin{gathered} 2 a + 2 n d - d & = 4 a + 2 ( n - 1 ) d \\ 2 a + 2 n d - d & = 4 a + 2 n d - 2 d \end{gathered}$
 
 > * *
 
 > *Cancel 2**nd** from both sides.*
 
-`table attributes columnalign right center left columnspacing 0px end attributes row cell 2 a space minus space d space end cell equals cell space 4 a space minus space 2 d end cell end table`
+$\begin{array}{rcl} 2 a - d & = 4 a - 2 d \end{array}$
 
 **[1]**
 
 > *Rearrange to make **a** the subject*
 
-`table row cell negative 2 a space end cell equals cell negative space d end cell row cell a space end cell equals cell space fraction numerator negative d over denominator negative 2 end fraction end cell end table`
+$\begin{gathered} - 2 a & = - d \\ a & = \frac{- d}{- 2} \end{gathered}$
 
 $a=\frac{d}{2}$ **[1]**
 
 ## Q38 — very_hard — 6 marks · exam-questions
 
 ### 21() — 6 marks
-> *Find an equation for the 4th term of the sequence (**U*<sub>*4*</sub>*) using the formula *`u subscript n space equals space a space plus space open parentheses n space minus space 1 close parentheses d`* (not given on formula page).*
+> *Find an equation for the 4th term of the sequence (**U*<sub>*4*</sub>*) using the formula *$u_{n} = a + ( n - 1 ) d$* (not given on formula page).*
 
-* *`table row cell U subscript 4 space end cell equals cell space a space plus space open parentheses 4 space minus space 1 close parentheses open parentheses d close parentheses end cell row cell space 6 space end cell equals cell space a space plus space 3 d end cell end table`
+* *$\begin{gathered} U_{4} & = a + ( 4 - 1 ) ( d ) \\ 6 & = a + 3 d \end{gathered}$
 
 * ***[1]**
 
-> *Find an equation for the sum of the first 11 terms of the sequence (**S*<sub>*4*</sub>*) using the formula *`S subscript n space equals space n over 2 open square brackets 2 a space plus space open parentheses n space minus space 1 close parentheses d close square brackets`* (given on formula page).*
+> *Find an equation for the sum of the first 11 terms of the sequence (**S*<sub>*4*</sub>*) using the formula *$S_{n} = \frac{n}{2} [ 2 a + ( n - 1 ) d ]$* (given on formula page).*
 
-* *`table row cell S subscript 11 space end cell equals cell 11 over 2 space open square brackets 2 a space plus space open parentheses 11 space minus space 1 close parentheses open parentheses d close parentheses close square brackets end cell row cell space open parentheses U subscript 6 close parentheses squared space plus space 18 space end cell equals cell 11 over 2 space open square brackets 2 a space plus space 10 d close square brackets end cell row cell space open parentheses U subscript 6 close parentheses squared space plus space 18 space end cell equals cell 11 space open parentheses a space plus space 5 d close parentheses end cell end table`
+* *$\begin{gathered} S_{11} & = \frac{11}{2} [ 2 a + ( 11 - 1 ) ( d ) ] \\ ( U_{6} )^{2} + 18 & = \frac{11}{2} [ 2 a + 10 d ] \\ ( U_{6} )^{2} + 18 & = 11 ( a + 5 d ) \end{gathered}$
 
-> *Find an expression for the 6th term of the sequence (**U*<sub>*6*</sub>*) using the formula *`u subscript n space equals space a space plus space open parentheses n space minus space 1 close parentheses d`* .*
+> *Find an expression for the 6th term of the sequence (**U*<sub>*6*</sub>*) using the formula *$u_{n} = a + ( n - 1 ) d$* .*
 
-* *`table row cell U subscript 6 space end cell equals cell space a space plus space open parentheses 6 space minus space 1 close parentheses open parentheses d close parentheses end cell row cell U subscript 6 space end cell equals cell space a space plus space 5 d end cell end table`
+* *$\begin{gathered} U_{6} & = a + ( 6 - 1 ) ( d ) \\ U_{6} & = a + 5 d \end{gathered}$
 
 > *Substitute the expression for **U*<sub>*6 *</sub>*into the equation for **S*<sub>*4*</sub>*.*
 
-`table row cell open parentheses a space plus space 5 d close parentheses squared space plus space 18 space end cell equals cell 11 space open parentheses a space plus space 5 d close parentheses end cell end table`
+$\begin{gathered} ( a + 5 d )^{2} + 18 & = 11 ( a + 5 d ) \end{gathered}$
 
 * ***[1]**
 
@@ -1351,37 +1343,37 @@ $a=\frac{d}{2}$ **[1]**
 
 > *Simplify the second equation by substituting *$a=6-3d$* in. *
 
-`table row cell open parentheses open parentheses 6 space minus space 3 d close parentheses space plus space 5 d close parentheses squared space plus space 18 space end cell equals cell 11 space open parentheses open parentheses 6 space minus space 3 d close parentheses space plus space 5 d close parentheses end cell row cell open parentheses 6 space plus space 2 d close parentheses squared space plus space 18 space end cell equals cell space 11 open parentheses 6 space plus space 2 d close parentheses end cell end table`
+$\begin{gathered} ( ( 6 - 3 d ) + 5 d )^{2} + 18 & = 11 ( ( 6 - 3 d ) + 5 d ) \\ ( 6 + 2 d )^{2} + 18 & = 11 ( 6 + 2 d ) \end{gathered}$
 
 **[1]**
 
 > *Expand the brackets and rearrange to form a quadratic equation in terms of **d.*
 
-`table row cell open parentheses 6 space plus space 2 d close parentheses open parentheses 6 space plus space 2 d close parentheses space plus space 18 space end cell equals cell space 66 space plus space 22 d end cell row cell 36 space plus space 12 d space plus 12 d space plus space 4 d squared space plus space 18 space end cell equals cell space 66 space plus space 22 d end cell row cell space 4 d to the power of 2 space end exponent plus space 24 d space plus space 54 space end cell equals cell space 66 space plus space 22 d end cell row cell space 4 d to the power of 2 space end exponent plus space 2 d space minus space 12 space end cell equals cell space 0 end cell end table`
+$\begin{gathered} ( 6 + 2 d ) ( 6 + 2 d ) + 18 & = 66 + 22 d \\ 36 + 12 d + 12 d + 4 d^{2} + 18 & = 66 + 22 d \\ 4 d^{2 } + 24 d + 54 & = 66 + 22 d \\ 4 d^{2 } + 2 d - 12 & = 0 \end{gathered}$
 
 **[1]*** *
 
 > *Simplify**.*
 
-`table row cell 2 d to the power of 2 space end exponent plus space d space minus space 6 space end cell equals cell space 0 end cell end table`
+$\begin{gathered} 2 d^{2 } + d - 6 & = 0 \end{gathered}$
 
 > *Be sure to **show** the stages of using the quadratic formula - only use your calculator to check your answers.*
 
 $a=2,b=1,c=-6$
 
-`table row cell d space end cell equals cell space fraction numerator negative open parentheses 1 close parentheses plus-or-minus square root of open parentheses 1 close parentheses squared minus 4 cross times 2 cross times open parentheses negative 6 close parentheses end root over denominator 2 cross times 2 end fraction space end cell row blank equals cell space fraction numerator negative 1 plus-or-minus square root of 49 over denominator 4 end fraction end cell row cell d space end cell equals cell space 1.5 space space space space or space space space space space space d space equals negative 2 end cell end table`
+$\begin{gathered} d & = \frac{- ( 1 ) \pm \sqrt{( 1 )^{2} - 4 \times 2 \times ( - 6 )} }{2 \times 2} \\ = \frac{- 1 \pm \sqrt{49} }{4} \\ d & = 1.5 \text{or} d = - 2 \end{gathered}$
 
 > *U*<sub>*n*</sub>* > 0 **for all **n **so **d** is positive, therefore **d **= 1.5. *
 
 > *Substitute **d **= 1.5 into the expression *$a=6-3d$*.*
 
-> `a space equals space 6 space minus space 3 open parentheses 1.5 close parentheses space equals space 1.5`* *
+> $a = 6 - 3 ( 1.5 ) = 1.5$* *
 
 **[1]**
 
-*Find the 20th term of the sequence using the formula *`u subscript n space equals space a space plus space open parentheses n space minus space 1 close parentheses d`*.* * *
+*Find the 20th term of the sequence using the formula *$u_{n} = a + ( n - 1 ) d$*.* * *
 
-* *`table row cell U subscript 20 space end cell equals cell space 1.5 space plus space open parentheses 20 space minus space 1 close parentheses open parentheses 1.5 close parentheses end cell row blank equals cell 1.5 space plus space 19 space cross times space 1.5 end cell end table`
+* *$\begin{gathered} U_{20} & = 1.5 + ( 20 - 1 ) ( 1.5 ) \\ = 1.5 + 19 \times 1.5 \end{gathered}$
 
 $30$ **[1]**
 
@@ -1396,21 +1388,21 @@ $d=\frac{3k}{4}-k=\frac{3k}{4}-\frac{4k}{4}=-\frac{k}{4}$
 
 **[1]**
 
-> *The formula for the **nth **term of an arithmetic series is *`U subscript n space equals space a space plus space open parentheses n space minus space 1 close parentheses d`*, where **a **is the first term, **d** is the common difference and **n** is the number of terms.*
+> *The formula for the **nth **term of an arithmetic series is *$U_{n} = a + ( n - 1 ) d$*, where **a **is the first term, **d** is the common difference and **n** is the number of terms.*
 
 > *Substitute **n **= 15, **a **= **k** and *$d=-\frac{k}{4}$* in to find an expression for the 15th term of the series.*
 
-> `U subscript 15 space equals space k space plus space open parentheses 15 space minus space 1 close parentheses open parentheses negative k over 4 close parentheses`* *
+> $U_{15} = k + ( 15 - 1 ) ( - \frac{k}{4} )$* *
 
 > *Form an equation in terms of **k** by setting this equal to 90 + 2**k**.*
 
-> `k space plus space open parentheses 15 space minus space 1 close parentheses open parentheses negative k over 4 close parentheses space equals space 90 space plus space 2 k`* *
+> $k + ( 15 - 1 ) ( - \frac{k}{4} ) = 90 + 2 k$* *
 
 **[1]**
 
 > *Expand the brackets and simplify.*
 
-> `table row cell k space minus fraction numerator 14 k over denominator 4 end fraction space end cell equals cell space 90 space plus space 2 k end cell row cell fraction numerator 7 k over denominator 2 end fraction space plus space k space end cell equals cell space minus 90 end cell row cell 4.5 k space end cell equals cell space minus 90 end cell end table`* *
+> $\begin{gathered} k - \frac{14 k}{4} & = 90 + 2 k \\ \frac{7 k}{2} + k & = - 90 \\ 4.5 k & = - 90 \end{gathered}$* *
 
 > *Solve to find **k**.*
 
@@ -1420,21 +1412,21 @@ $d=\frac{3k}{4}-k=\frac{3k}{4}-\frac{4k}{4}=-\frac{k}{4}$
 
 > *Substitute **k** = -20 into the expression found for **d**.*
 
-`d space space equals space minus k over 4 space equals space minus fraction numerator open parentheses negative 20 close parentheses over denominator 4 end fraction space equals space 5`
+$d = - \frac{k}{4} = - \frac{( - 20 )}{4} = 5$
 
 *Use the formula for the sum to **n** **terms of an arithmetic series (given on the formula page of exam),*
 
-> `S subscript n space equals space n over 2 open square brackets 2 a space plus space open parentheses n space minus space 1 close parentheses d close square brackets`*, where **a **is the first term, **d** is the common difference and **n** is the number of terms.*
+> $S_{n} = \frac{n}{2} [ 2 a + ( n - 1 ) d ]$*, where **a **is the first term, **d** is the common difference and **n** is the number of terms.*
 
 > *For the sequence given, **a **= **k** = -20, **d **= 5.*
 
-> `S subscript 30 space equals space 30 over 2 open square brackets 2 open parentheses negative 20 close parentheses space plus space open parentheses 30 space minus space 1 close parentheses open parentheses 5 close parentheses close square brackets`* *
+> $S_{30} = \frac{30}{2} [ 2 ( - 20 ) + ( 30 - 1 ) ( 5 ) ]$* *
 
 **[1]**
 
 > *Simplify.*
 
-`table row cell S subscript 30 space end cell equals cell space 15 open parentheses negative 40 space plus space 29 space cross times space 5 close parentheses end cell end table`
+$\begin{gathered} S_{30} & = 15 ( - 40 + 29 \times 5 ) \end{gathered}$
 
 $S_{30}=1575$ **[1]**
 
@@ -1445,11 +1437,11 @@ $S_{30}=1575$ **[1]**
 
 > *Find the common difference, *$d$* in terms of *$x$* **using the difference between the first two terms.*
 
-`d space equals space open parentheses 8 x space plus space 2 close parentheses space minus space open parentheses 2 x space plus space 23 close parentheses space equals space 6 x space minus space 21`
+$d = ( 8 x + 2 ) - ( 2 x + 23 ) = 6 x - 21$
 
 > *Find the common difference, *$d$* in terms of *$x$* **using the difference between the second and the third terms.*
 
-`d space equals space open parentheses 20 x space minus space 52 space close parentheses space minus space open parentheses 8 x space plus space 2 close parentheses space equals space open parentheses 12 x space minus space 54 close parentheses`
+$d = ( 20 x - 52 ) - ( 8 x + 2 ) = ( 12 x - 54 )$
 
 ** ****Either expression for a common difference correct ****[1]**
 
@@ -1461,13 +1453,13 @@ $6x-21=12x-54$
 
 > *Solve the equation.*
 
-`table attributes columnalign right center left columnspacing 0px end attributes row cell 6 x space minus space 21 space end cell equals cell space 12 x space minus space 54 end cell row cell negative 6 x space end cell equals cell space minus space 33 end cell row cell x space end cell equals cell space 5.5 end cell end table`
+$\begin{array}{rcl} 6 x - 21 & = 12 x - 54 \\ - 6 x & = - 33 \\ x & = 5.5 \end{array}$
 
 ** **** ****[1]**
 
 > *Substitute this value of *$x$*into either expression for *$d$*.*
 
-`table row cell d space end cell equals cell space 6 open parentheses 5.5 close parentheses space minus space 21 space equals space 33 space minus space 21 end cell end table`
+$\begin{gathered} d & = 6 ( 5.5 ) - 21 = 33 - 21 \end{gathered}$
 
 $d=33-21=12$** **** ****[1]**
 
@@ -1476,33 +1468,33 @@ $d=33-21=12$** **** ****[1]**
 ### 26() — 5 marks
 > *The formula for the sum to **n **terms of an arithmetic series is given on the formula sheet (first page of exam).*
 
-> `S subscript n space equals space n over 2 open square brackets 2 a space plus space open parentheses n space minus space 1 close parentheses d close square brackets`*, where **a **is the first term, **d** is the common difference and **n** is the number of terms.*
+> $S_{n} = \frac{n}{2} [ 2 a + ( n - 1 ) d ]$*, where **a **is the first term, **d** is the common difference and **n** is the number of terms.*
 
 > *Use the formula to find an expression in terms of **a **and **d **for **S*<sub>*m*</sub>*.*
 
-> `S subscript m space equals space m over 2 open square brackets 2 a space plus space open parentheses m space minus space 1 close parentheses d close square brackets space`* *
+> $S_{m} = \frac{m}{2} [ 2 a + ( m - 1 ) d ]$* *
 
 > *Form an equation by setting the expression for **S*<sub>*m  *</sub>*equal to 39.*
 
-> `m over 2 open square brackets 2 a space plus space open parentheses m space minus space 1 close parentheses d close square brackets space equals space 39`* *
+> $\frac{m}{2} [ 2 a + ( m - 1 ) d ] = 39$* *
 
 **[1]**
 
 > *Use the formula to find an expression in terms of **a **and **d **for **S*<sub>*2m .*</sub>
 
-> `S subscript 2 m end subscript space equals space fraction numerator 2 m over denominator 2 end fraction open square brackets 2 a space plus space open parentheses 2 m space minus space 1 close parentheses d close square brackets space`* *
+> $S_{2 m} = \frac{2 m}{2} [ 2 a + ( 2 m - 1 ) d ]$* *
 
 > *Form an equation by setting the expression for **S*<sub>*2m  *</sub>*equal to 320.*
 
-> `fraction numerator 2 m over denominator 2 end fraction open square brackets 2 a space plus space open parentheses 2 m space minus space 1 close parentheses d close square brackets space equals space 320`* *
+> $\frac{2 m}{2} [ 2 a + ( 2 m - 1 ) d ] = 320$* *
 
 **[1]**
 
 > *Simplify the equations.*
 
-`table row cell m open square brackets 2 a space plus space open parentheses m space minus space 1 close parentheses d close square brackets space end cell equals cell space 78 end cell row cell m open parentheses 2 a space plus space m d space minus space d close parentheses space end cell equals cell space 78 end cell row cell 2 m a space plus space m squared d space minus space m d space end cell equals cell space 78 space space space space space space space space circle enclose 1 end cell end table`
+$\begin{gathered} m [ 2 a + ( m - 1 ) d ] & = 78 \\ m ( 2 a + m d - d ) & = 78 \\ 2 m a + m^{2} d - m d & = 78 \textcircled{1} \end{gathered}$
 
-`table row cell m open square brackets 2 a space plus space open parentheses 2 m space minus space 1 close parentheses d close square brackets space end cell equals cell space 320 end cell row cell m open parentheses 2 a space plus space 2 m d space minus space d close parentheses space end cell equals cell space 320 end cell row cell 2 m a space plus space 2 m squared d space minus space m d space end cell equals cell space 320 space space space space space space space space circle enclose 2 end cell end table`
+$\begin{gathered} m [ 2 a + ( 2 m - 1 ) d ] & = 320 \\ m ( 2 a + 2 m d - d ) & = 320 \\ 2 m a + 2 m^{2} d - m d & = 320 \textcircled{2} \end{gathered}$
 
 > *Subtract equation *`circle enclose 1`* from equation *`circle enclose 2`*.*
 
@@ -1512,7 +1504,7 @@ $d=33-21=12$** **** ****[1]**
 
 > *d** is a prime number and **m **must be an integer, so consider the pairs of factors of 242, looking for one prime number and one square number.*
 
-`table row cell 242 space end cell equals cell space 2 space cross times space 121 end cell end table`
+$\begin{gathered} 242 & = 2 \times 121 \end{gathered}$
 
 > *The only possibility is that **d **= 2 and **m*<sup>*2 *</sup>*= 121.*
 
@@ -1525,154 +1517,148 @@ $d=2,m=11$ **[1]**
 ### 23() — 5 marks
 > *The formula for the sum to **n **terms of an arithmetic series is given on the formula sheet (first page of exam).*
 
-> `S subscript n space equals space n over 2 open square brackets 2 a space plus space open parentheses n space minus space 1 close parentheses d close square brackets`*, where **a **is the first term, **d** is the common difference and **n** is the number of terms.*
+> $S_{n} = \frac{n}{2} [ 2 a + ( n - 1 ) d ]$*, where **a **is the first term, **d** is the common difference and **n** is the number of terms.*
 
 > *Use the formula to find an expression in terms of **a **and **d **for the first 48 terms of an arithmetic series (**n** = 48).*
 
-> `S subscript 48 space equals space 48 over 2 open square brackets 2 a space plus space open parentheses 48 space minus space 1 close parentheses d close square brackets space equals space 24 open parentheses 2 a space plus space 47 d close parentheses`* *
+> $S_{48} = \frac{48}{2} [ 2 a + ( 48 - 1 ) d ] = 24 ( 2 a + 47 d )$* *
 
 **[1]**
 
 > *Use the formula to find an expression in terms of **a **and **d **for the first 36 terms of the same arithmetic series (**n** = 36).*
 
-> `S subscript 36 space equals space 36 over 2 open square brackets 2 a space plus space open parentheses 36 space minus space 1 close parentheses d close square brackets space equals space 18 open parentheses 2 a space plus space 35 d close parentheses`* *
+> $S_{36} = \frac{36}{2} [ 2 a + ( 36 - 1 ) d ] = 18 ( 2 a + 35 d )$* *
 
 > *S*<sub>*48 *</sub>*= 4 × **S*<sub>*36*</sub>* , use this to form an equation in terms of **a **and **d**.*
 
-> `space 24 open parentheses 2 a space plus space 47 d close parentheses space equals 4 open parentheses space 18 open parentheses 2 a space plus space 35 d close parentheses close parentheses`* *
+> $24 ( 2 a + 47 d ) = 4 ( 18 ( 2 a + 35 d ) )$* *
 
 **[1]**
 
 > *Simplify by canceling 4 from both sides.*
 
-`table row cell space fraction numerator 24 open parentheses 2 a space plus space 47 d close parentheses over denominator 4 end fraction space end cell equals cell fraction numerator 4 open parentheses space 18 open parentheses 2 a space plus space 35 d close parentheses close parentheses over denominator 4 end fraction end cell row cell 6 open parentheses 2 a space plus space 47 d close parentheses space end cell equals cell space 18 open parentheses 2 a space plus space 35 d close parentheses end cell end table`
+$\begin{gathered} \frac{24 ( 2 a + 47 d )}{4} & = \frac{4 ( 18 ( 2 a + 35 d ) )}{4} \\ 6 ( 2 a + 47 d ) & = 18 ( 2 a + 35 d ) \end{gathered}$
 
 > *Simplify by canceling 6 from both sides.*
 
-`table row cell fraction numerator space 6 open parentheses 2 a space plus space 47 d close parentheses over denominator 6 end fraction space end cell equals cell space fraction numerator 18 open parentheses 2 a space plus space 35 d close parentheses over denominator 6 end fraction end cell row cell 2 a space plus space 47 d space end cell equals cell space 3 open parentheses 2 a space plus space 35 d close parentheses end cell end table`
+$\begin{gathered} \frac{ 6 ( 2 a + 47 d )}{6} & = \frac{18 ( 2 a + 35 d )}{6} \\ 2 a + 47 d & = 3 ( 2 a + 35 d ) \end{gathered}$
 
 > *Expand the brackets on the right-hand side.*
 
-> `table row cell 2 a space plus space 47 d space end cell equals cell space 6 a space plus space 105 d end cell end table`* *
+> $\begin{gathered} 2 a + 47 d & = 6 a + 105 d \end{gathered}$* *
 
 > *Rearrange to make **a** (or **d**) the subject.*
 
-`table row cell 2 a space minus space 6 a space end cell equals cell space 105 d space minus space 47 d end cell row cell negative 4 a space end cell equals cell space 58 d end cell row cell a space end cell equals cell space fraction numerator 58 d over denominator negative 4 end fraction space equals space minus 14.5 d end cell end table`
+$\begin{gathered} 2 a - 6 a & = 105 d - 47 d \\ - 4 a & = 58 d \\ a & = \frac{58 d}{- 4} = - 14.5 d \end{gathered}$
 
 **[1]**
 
 > *Use the formula to find an expression in terms of **a **and **d **for the first 30 terms of an arithmetic series (**n** = 30).*
 
-> `S subscript 30 space equals space 30 over 2 open square brackets 2 a space plus space open parentheses 30 space minus space 1 close parentheses d close square brackets space equals space 15 open parentheses 2 a space plus space 29 d close parentheses`* *
+> $S_{30} = \frac{30}{2} [ 2 a + ( 30 - 1 ) d ] = 15 ( 2 a + 29 d )$* *
 
 **[1]**
 
 > *Substitute **a **= -14.5**d **into the expression found for **S*<sub>*30.*</sub>* *
 
-> `S subscript 30 space equals space 15 open parentheses 2 open parentheses negative 14.5 d close parentheses space plus space 29 d close parentheses space equals space 15 open parentheses negative 29 d space plus space 29 d close parentheses space equals space 15 space cross times space 0`* *
+> $S_{30} = 15 ( 2 ( - 14.5 d ) + 29 d ) = 15 ( - 29 d + 29 d ) = 15 \times 0$* *
 
 $S_{30}=0$ **[1]**
 
 ## Q43 — very_hard — 5 marks · exam-questions
 
 ### 19() — 5 marks
-> *Find an equation in terms of **a **and **d **for the 25th term of the sequence using the formula *`u subscript n space equals space a space plus space open parentheses n space minus space 1 close parentheses d`* (not given on formula page).*
+> *Find an equation in terms of **a **and **d **for the 25th term of the sequence using the formula *$u_{n} = a + ( n - 1 ) d$* (not given on formula page).*
 
-* *`table row cell u subscript 25 space end cell equals cell space a space plus space open parentheses 25 space minus space 1 close parentheses open parentheses d close parentheses end cell row cell a space plus space 24 d space end cell equals cell space 44.5 end cell end table`
+* *$\begin{gathered} u_{25} & = a + ( 25 - 1 ) ( d ) \\ a + 24 d & = 44.5 \end{gathered}$
 
 **[1]**
 
 > *The formula for the sum to **n **terms of an arithmetic series is given on the formula sheet (first page of exam).*
 
-> `S subscript n space equals space n over 2 open square brackets 2 a space plus space open parentheses n space minus space 1 close parentheses d close square brackets`*, where **a **is the first term, **d** is the common difference and **n** is the number of terms.*
+> $S_{n} = \frac{n}{2} [ 2 a + ( n - 1 ) d ]$*, where **a **is the first term, **d** is the common difference and **n** is the number of terms.*
 
 > *Find an equation in terms of **a **and **d ** for the sum of the first 30 terms of the series.*
 
-> `table row cell S subscript n space end cell equals cell space n over 2 open square brackets 2 a space plus space open parentheses n space minus space 1 close parentheses d close square brackets space end cell row cell S subscript 30 space end cell equals cell 30 over 2 open square brackets 2 a space plus space open parentheses 30 space minus space 1 close parentheses d close square brackets space end cell row cell space 765 space end cell equals cell space 15 open parentheses 2 a space plus space 29 d close parentheses end cell end table`* *
+> $\begin{gathered} S_{n} & = \frac{n}{2} [ 2 a + ( n - 1 ) d ] \\ S_{30} & = \frac{30}{2} [ 2 a + ( 30 - 1 ) d ] \\ 765 & = 15 ( 2 a + 29 d ) \end{gathered}$* *
 
 **[1]**
 
 > *Simplify by dividing both sides by 15.*
 
-> `table row cell 15 open parentheses 2 a space plus space 29 d close parentheses space end cell equals cell space 765 end cell row cell open parentheses 2 a space plus space 29 d close parentheses space end cell equals cell 765 over 15 end cell row cell 2 a space plus space 29 d space end cell equals cell space 51 end cell end table`* *
+> $\begin{gathered} 15 ( 2 a + 29 d ) & = 765 \\ ( 2 a + 29 d ) & = \frac{765}{15} \\ 2 a + 29 d & = 51 \end{gathered}$* *
 
 > *Solve the two equations simultaneously to find the values of **a **and **d**.   Label the equations.*
 
-`table row cell space space a space plus space 24 d space end cell equals cell space 44.5 space space space space space space space space space space space space open parentheses 1 close parentheses end cell row cell 2 a space plus space 29 d space end cell equals cell space 51 space space space space space space space space space space space space space space space open parentheses 2 close parentheses end cell end table`
+$\begin{gathered} a + 24 d & = 44.5 ( 1 ) \\ 2 a + 29 d & = 51 ( 2 ) \end{gathered}$
 
 > *Multiply equation (1) by 2 to make the **a** terms the same.*
 
-`table row cell 2 a space plus space 48 d space end cell equals cell space 89 space space space space space space space space space space space space space space space open parentheses 3 close parentheses end cell row cell 2 a space plus space 29 d space end cell equals cell space 51 space space space space space space space space space space space space space space space open parentheses 2 close parentheses end cell end table`
+$\begin{gathered} 2 a + 48 d & = 89 ( 3 ) \\ 2 a + 29 d & = 51 ( 2 ) \end{gathered}$
 
 > *Subtract equation (2) from equation (3).*
 
-`bottom enclose space space space 2 a space plus space 48 d space equals space 89
-open parentheses minus close parentheses space space space space space 2 a space plus space 29 d space equals space 51 end enclose
-space space 19 d space equals space 38
-d space equals space 2 space space`
+`bottom 2 a + 48 d = 89 ( - ) 2 a + 29 d = 51 19 d = 38 d = 2`
 
 **[1]**
 
 > *Substitute **d **= 2 into one of the equations to find **a.*
 
-`table row cell open parentheses 1 close parentheses space space space space space space space space space space space space a space plus space 24 open parentheses 2 close parentheses end cell equals cell space 44.5 end cell row cell a space end cell equals cell space 44.5 space minus space 48 end cell row cell a space end cell equals cell space minus 3.5 end cell end table`
+$\begin{gathered} ( 1 ) a + 24 ( 2 ) & = 44.5 \\ a & = 44.5 - 48 \\ a & = - 3.5 \end{gathered}$
 
 **[1]**
 
-> *Find the 16th term by substituting **a **= -3.5, **d **= 2 and **n **= 16 into the formula** **for the **n**th term of an arithmetic sequence using the formula *`u subscript n space equals space a space plus space open parentheses n space minus space 1 close parentheses d`*.*
+> *Find the 16th term by substituting **a **= -3.5, **d **= 2 and **n **= 16 into the formula** **for the **n**th term of an arithmetic sequence using the formula *$u_{n} = a + ( n - 1 ) d$*.*
 
-* *`table row cell u subscript 16 space end cell equals cell space minus 3.5 space plus space open parentheses 16 space minus space 1 close parentheses open parentheses 2 close parentheses space equals space minus 3.5 space plus space 15 space cross times space 2 end cell end table`
+* *$\begin{gathered} u_{16} & = - 3.5 + ( 16 - 1 ) ( 2 ) = - 3.5 + 15 \times 2 \end{gathered}$
 
 $u_{16}=26.5$ **[1]**
 
 ## Q44 — very_hard — 4 marks · exam-questions
 
 ### 26() — 4 marks
-> *Find an equation in terms of **a **and **d **for the 10th term of the sequence using the formula *`u subscript n space equals space a space plus space open parentheses n space minus space 1 close parentheses d`* (not given on formula page), where **a **is the first term and **d **is the common difference between the terms.*
+> *Find an equation in terms of **a **and **d **for the 10th term of the sequence using the formula *$u_{n} = a + ( n - 1 ) d$* (not given on formula page), where **a **is the first term and **d **is the common difference between the terms.*
 
-* *`table row cell u subscript 10 space end cell equals cell space a space plus space open parentheses 10 space minus space 1 close parentheses open parentheses d close parentheses end cell row cell a space plus space 9 d space end cell equals cell space 66 end cell end table`
+* *$\begin{gathered} u_{10} & = a + ( 10 - 1 ) ( d ) \\ a + 9 d & = 66 \end{gathered}$
 
 **[1]**
 
 > *The formula for the sum to **n **terms of an arithmetic series is given on the formula sheet (first page of exam).*
 
-> `S subscript n space equals space n over 2 open square brackets 2 a space plus space open parentheses n space minus space 1 close parentheses d close square brackets`*, where **a **is the first term, **d** is the common difference and **n** is the number of terms.*
+> $S_{n} = \frac{n}{2} [ 2 a + ( n - 1 ) d ]$*, where **a **is the first term, **d** is the common difference and **n** is the number of terms.*
 
 > *Find an equation in terms of **a **and **d ** for the sum of the first 20 terms of the series.*
 
-> `table row cell S subscript n space end cell equals cell space n over 2 open square brackets 2 a space plus space open parentheses n space minus space 1 close parentheses d close square brackets space end cell row cell S subscript 20 space end cell equals cell 20 over 2 open square brackets 2 a space plus space open parentheses 20 space minus space 1 close parentheses d close square brackets space end cell row cell space 1290 space end cell equals cell space 10 open parentheses 2 a space plus space 19 d close parentheses end cell end table`* *
+> $\begin{gathered} S_{n} & = \frac{n}{2} [ 2 a + ( n - 1 ) d ] \\ S_{20} & = \frac{20}{2} [ 2 a + ( 20 - 1 ) d ] \\ 1290 & = 10 ( 2 a + 19 d ) \end{gathered}$* *
 
 **[1]**
 
 > *Simplify by dividing both sides by 10.*
 
-> `table row cell 10 open parentheses 2 a space plus space 19 d close parentheses space end cell equals cell space 1290 end cell row cell 2 a space plus space 19 d space end cell equals 129 end table`* *
+> $\begin{gathered} 10 ( 2 a + 19 d ) & = 1290 \\ 2 a + 19 d & = 129 \end{gathered}$* *
 
 > *Solve the two equations simultaneously to find the values of **a **and **d**.   *
 *Label the equations.*
 
-`table row cell space space a space plus space 9 d space end cell equals cell space 66 space space space space space space space space space space space space space space space space space open parentheses 1 close parentheses end cell row cell 2 a space plus space 19 d space end cell equals cell space 129 space space space space space space space space space space space space space space space open parentheses 2 close parentheses end cell end table`
+$\begin{gathered} a + 9 d & = 66 ( 1 ) \\ 2 a + 19 d & = 129 ( 2 ) \end{gathered}$
 
 > *Multiply equation (1) by 2 to make the **a** terms the same.*
 
-`table row cell 2 a space plus space 18 d space end cell equals cell space 132 space space space space space space space space space space space space space space space open parentheses 3 close parentheses end cell row cell 2 a space plus space 19 d space end cell equals cell space 129 space space space space space space space space space space space space space space space open parentheses 2 close parentheses end cell end table`
+$\begin{gathered} 2 a + 18 d & = 132 ( 3 ) \\ 2 a + 19 d & = 129 ( 2 ) \end{gathered}$
 
 > *Subtract equation (2) from equation (3).*
 
-`bottom enclose space space space 2 a space plus space 18 d space equals space 132
-open parentheses minus close parentheses space space space space space 2 a space plus space 19 d space equals space 129 end enclose
-space space minus d space equals space 3 space space space space space
-d space equals negative 3 space space`
+`bottom 2 a + 18 d = 132 ( - ) 2 a + 19 d = 129 - d = 3 d = - 3`
 
 > *Substitute **d **= -3 into one of the equations to find **a.*
 
-`table row cell open parentheses 1 close parentheses space space space space space space space space space space space space a space plus space 9 open parentheses negative 3 close parentheses end cell equals cell space 66 end cell row cell a space minus 27 space end cell equals cell space 66 space end cell row cell a space end cell equals cell space 66 space plus space 27 end cell row cell a space end cell equals cell space 93 end cell end table`
+$\begin{gathered} ( 1 ) a + 9 ( - 3 ) & = 66 \\ a - 27 & = 66 \\ a & = 66 + 27 \\ a & = 93 \end{gathered}$
 
 ** Either a or d found**** [1]**
 
-> *Find the 5th term by substituting **a **= 93, **d **= -3 and **n **= 5 into the formula** **for the **n**th term of an arithmetic sequence using the formula *`u subscript n space equals space a space plus space open parentheses n space minus space 1 close parentheses d`*.*
+> *Find the 5th term by substituting **a **= 93, **d **= -3 and **n **= 5 into the formula** **for the **n**th term of an arithmetic sequence using the formula *$u_{n} = a + ( n - 1 ) d$*.*
 
-* *`table row cell u subscript 5 space end cell equals cell space 93 space plus space open parentheses 5 minus space 1 close parentheses open parentheses negative 3 close parentheses space equals space 93 space plus 4 space cross times space minus 3 space equals space 93 space minus space 12 end cell end table`
+* *$\begin{gathered} u_{5} & = 93 + ( 5 - 1 ) ( - 3 ) = 93 + 4 \times - 3 = 93 - 12 \end{gathered}$
 
 $u_{5}=81$ **[1]**
 
@@ -1680,7 +1666,7 @@ $u_{5}=81$ **[1]**
 
 ### 22() — 5 marks
 > **[exam-tip]**
-> The formula for an arithmetic sequence is `u subscript n equals a plus open parentheses n minus 1 close parentheses d` where $a$ is the first term and $d$ is the common difference.
+> The formula for an arithmetic sequence is $u_{n} = a + ( n - 1 ) d$ where $a$ is the first term and $d$ is the common difference.
 
 > *Form an equation using the fact that the third term is 19*
 
@@ -1689,11 +1675,11 @@ $a+2d=19$
 **[M1]**
 
 > **[exam-tip]**
-> The formula for the sum of the first  $n$ terms of an arithmetic sequence is `S subscript n equals n over 2 open square brackets 2 a plus open parentheses n minus 1 close parentheses d close square brackets` where $a$ is the first term and $d$ is the common difference.
+> The formula for the sum of the first  $n$ terms of an arithmetic sequence is $S_{n} = \frac{n}{2} [ 2 a + ( n - 1 ) d ]$ where $a$ is the first term and $d$ is the common difference.
 
 > *Form an equation using the fact that the sum of the first 10 terms is 290*
 
-`table row cell 10 over 2 open parentheses 2 a plus open parentheses 10 minus 1 close parentheses d close parentheses end cell equals 290 row cell 5 open parentheses 2 a plus 9 d close parentheses end cell equals 290 row cell 10 a plus 45 d end cell equals 290 end table`
+$\begin{gathered} \frac{10}{2} ( 2 a + ( 10 - 1 ) d ) & = 290 \\ 5 ( 2 a + 9 d ) & = 290 \\ 10 a + 45 d & = 290 \end{gathered}$
 
 **[M1]**
 
@@ -1706,21 +1692,21 @@ $a+2d=19$
 
 > *The simultaneous equations to solve are:*
 
-`table row cell 10 a plus 45 d end cell equals 290 row cell a plus 2 d end cell equals 19 end table`
+$\begin{gathered} 10 a + 45 d & = 290 \\ a + 2 d & = 19 \end{gathered}$
 
 > *First equate coefficients of one variable by multiplying one or both of the equations*
 
 > *In this case multiply the second equation by 10 to equate the coefficients of *$a$
 
-`table row cell 10 a plus 45 d end cell equals 290 row cell 10 a plus 20 d end cell equals 190 end table`
+$\begin{gathered} 10 a + 45 d & = 290 \\ 10 a + 20 d & = 190 \end{gathered}$
 
 > *Subtract the second equation from the first equation to eliminate *$a$* and then solve for *$d$
 
-`table row cell 10 a plus 45 d end cell equals cell 290 space space space space space minus end cell row cell 10 a plus 20 d end cell equals 190 end table`
+$\begin{gathered} 10 a + 45 d & = 290 - \\ 10 a + 20 d & = 190 \end{gathered}$
 
 *----------------*
 
-`table row cell 25 d end cell equals 100 row d equals cell 100 over 25 end cell row d equals 4 end table`
+$\begin{gathered} 25 d & = 100 \\ d = \frac{100}{25} \\ d = 4 \end{gathered}$
 
 **[M1]**
 
@@ -1728,19 +1714,19 @@ $a+2d=19$
 
 > *Substituting into *$a+2d=19$* gives:*
 
-`table row cell a plus 2 open parentheses 4 close parentheses end cell equals 19 row cell a plus 8 end cell equals 19 row a equals cell 19 minus 8 end cell row a equals 11 end table`
+$\begin{gathered} a + 2 ( 4 ) & = 19 \\ a + 8 & = 19 \\ a = 19 - 8 \\ a = 11 \end{gathered}$
 
 > *Substitute both values into the other equation to check both solutions work together*
 
 > *Substituting into *$10a+45d=290$* gives:*
 
-`table row cell 10 open parentheses 11 close parentheses plus 45 open parentheses 4 close parentheses end cell equals 290 row cell 110 plus 180 end cell equals 290 end table`
+$\begin{gathered} 10 ( 11 ) + 45 ( 4 ) & = 290 \\ 110 + 180 & = 290 \end{gathered}$
 
 *The solutions satisfy the equation*
 
 > *Substitute these values into the formula for  *$u_{n}$*to find the 10th term*
 
-`11 plus open parentheses 10 minus 1 close parentheses cross times 4`
+$11 + ( 10 - 1 ) \times 4$
 
 **[M1]**
 
@@ -1756,7 +1742,7 @@ $a+2d=19$
 
 > *Use the formula for the sum of a series for the sum of 80 terms to create an equation*
 
-`table row cell S subscript n end cell equals cell fraction numerator space n over denominator 2 end fraction open square brackets 2 a space plus open parentheses n minus 1 close parentheses d close square brackets end cell row cell S subscript 80 end cell equals cell space 470 end cell row cell 470 space end cell equals cell fraction numerator space 80 over denominator 2 end fraction open parentheses 2 a space plus space 79 d close parentheses end cell end table`
+$\begin{gathered} S_{n} & = \frac{ n}{2} [ 2 a + ( n - 1 ) d ] \\ S_{80} & = 470 \\ 470 & = \frac{ 80}{2} ( 2 a + 79 d ) \end{gathered}$
 
 **[M1]**
 
@@ -1768,40 +1754,40 @@ $a+74d=14.5$
 
 > *Solve your equations simultaneously*
 
-`table row cell 470 space end cell equals cell space 80 over 2 open parentheses 2 a space plus space 79 d close parentheses end cell row cell 14.5 space end cell equals cell space a space plus space 74 d end cell end table`
+$\begin{gathered} 470 & = \frac{80}{2} ( 2 a + 79 d ) \\ 14.5 & = a + 74 d \end{gathered}$
 
 > *Simplify the first equation and divide it by 40 *
 
 > *Multiply the second equation by 2 to get the same coefficient of a*
 
-`table row cell 11.75 space end cell equals cell space 2 a space plus space 79 d end cell row cell 29 space end cell equals cell space 2 a space plus space 148 d end cell end table`
+$\begin{gathered} 11.75 & = 2 a + 79 d \\ 29 & = 2 a + 148 d \end{gathered}$
 
 **[M1]**
 
 > *Subtract the first equation from the second equation and solve to find d*
 
-`table row cell 17.25 space end cell equals cell space 69 d end cell row cell d space end cell equals cell space 0.25 end cell end table`
+$\begin{gathered} 17.25 & = 69 d \\ d & = 0.25 \end{gathered}$
 
 > *Substitute d= 0.25 back into one of the original equations and solve to find a*
 
-`table row cell a space plus space 74 open parentheses 0.25 close parentheses space end cell equals cell space 14.5 end cell row cell a space plus space 18.5 space end cell equals cell space 14.5 end cell row cell a space end cell equals cell space minus 4 end cell end table`
+$\begin{gathered} a + 74 ( 0.25 ) & = 14.5 \\ a + 18.5 & = 14.5 \\ a & = - 4 \end{gathered}$
 
 **[A1]**
 
 > *Use the sum of the series formula with your values of a and d and the total 171 to create an equation with X*
 
-`table row cell S subscript X end cell equals cell X over 2 open square brackets 2 open parentheses negative 4 close parentheses space plus 0.25 open parentheses X minus 1 close parentheses close square brackets end cell row cell 171 space end cell equals cell fraction numerator space X over denominator 2 end fraction open parentheses negative 8 space plus space 0.25 X space minus space 0.25 close parentheses end cell end table`
+$\begin{gathered} S_{X} & = \frac{X}{2} [ 2 ( - 4 ) + 0.25 ( X - 1 ) ] \\ 171 & = \frac{ X}{2} ( - 8 + 0.25 X - 0.25 ) \end{gathered}$
 
 **[M1]**
 
 > *Solve the equation to find X*
 
-`table row cell 342 space end cell equals cell space X open parentheses 0.25 X space minus space 8.25 close parentheses end cell row cell 0 space end cell equals cell space 0.25 X squared space minus 8.25 X space minus 342 end cell end table`
+$\begin{gathered} 342 & = X ( 0.25 X - 8.25 ) \\ 0 & = 0.25 X^{2} - 8.25 X - 342 \end{gathered}$
 
 > *Use the quadratic formula to solve this*
 
-`X equals fraction numerator 8.25 plus-or-minus square root of open parentheses negative 8.25 close parentheses squared minus 4 cross times 0.25 cross times open parentheses negative 342 close parentheses end root over denominator 2 end fraction
-X space equals space 57 space o r space minus 24`
+$X = \frac{8.25 \pm \sqrt{( - 8.25 )^{2} - 4 \times 0.25 \times ( - 342 )} }{2} 
+X = 57 o r - 24$
 
 > *The term number cannot be negative*
 

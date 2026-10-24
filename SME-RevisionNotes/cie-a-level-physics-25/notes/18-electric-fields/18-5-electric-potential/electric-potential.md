@@ -160,4 +160,4 @@ $V=\frac{Q_{1}}{4πε_{0}r_{1}}+\frac{Q_{2}}{4πε_{0}r_{2}}$
 > 
 > **Step 3: Substitute in values**
 > 
-> `V space equals space fraction numerator 4.0 cross times 10 to the power of negative 6 end exponent over denominator 4 straight pi cross times open parentheses 8.85 cross times 10 to the power of negative 12 end exponent close parentheses cross times 0.45 end fraction space equals space 79.9 cross times 10 cubed space equals space 80` kV (2 s.f.)
+> $V = \frac{4.0 \times 10^{- 6} }{4 \mathrm{\pi } \times ( 8.85 \times 10^{- 12} ) \times 0.45} = 79.9 \times 10^{3} = 80$ kV (2 s.f.)

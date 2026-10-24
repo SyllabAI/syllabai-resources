@@ -115,12 +115,12 @@ Write down the value of the 7 in the number 673000
 ### 1((d)) — 1 mark — command: write — structured — from paper 2023 June · 4MA1/2F
 Write a number in the box to make the calculation correct.
 
-`9 cross times square space space equals 18000`
+$9 \times \text{square} = 18000$
 
 ### 4() — 1 mark — command: write — structured
 Write a number in the box to make the calculation correct.
 
-`53.7 space divided by square space equals space 0.005 space 37`
+$53.7 \div \text{square} = 0.005 37$
 
 ## Q7 — easy — 4 marks · exam-questions
 
@@ -150,7 +150,7 @@ Finn is asked to find the value of $5+3^{2}+12$
 
 Here is his working and his answer
 
-`table row cell 5 plus 3 squared plus 12 end cell equals cell 8 squared plus 12 space end cell row blank equals cell 64 plus 12 space end cell row blank equals 76 end table`
+$\begin{gathered} 5 + 3^{2} + 12 & = 8^{2} + 12 \\ = 64 + 12 \\ = 76 \end{gathered}$
 
 Finn’s answer is wrong.
 

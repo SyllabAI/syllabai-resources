@@ -1,0 +1,45 @@
+{
+  "n_chunks": 1571,
+  "content_types": {
+    "front_matter": 46,
+    "table_data": 206,
+    "topic_divider": 35,
+    "learning_objectives": 96,
+    "body": 614,
+    "checkpoint": 92,
+    "exam_hint": 143,
+    "did_you_know": 29,
+    "worked_example": 58,
+    "subject_vocabulary": 74,
+    "thinking_bigger": 69,
+    "chapter_questions": 59,
+    "maths_skills": 17,
+    "preparing_for_exams": 21,
+    "command_words": 1,
+    "glossary": 11
+  },
+  "size_min": 40,
+  "size_max": 2315,
+  "size_avg": 576,
+  "n_chunks_over_hardmax": 0,
+  "source_pdf_sha256": "3d5348894f011e3fb8351f6c8badd691e1bbb2ea54d64eb306524dd0b20372eb",
+  "parser": "docling 2.33.0 + rapidocr-onnxruntime 1.4.4 (formula enrichment OFF base corpus \u2014 2.33 CodeFormula integration emits empty formula text either way, YPH11 D-7/L-020; docling-core 2.104.0, docling-ibm-models 3.15.0, docling-parse 4.7.3; page-level JSON checkpoints; book = pdf-13 page law, front matter roman i-xiii)",
+  "formula_rescue": "see pipeline/evidence/formula_orphans.json + manual_formulas_ych11.jsonl (verbatim manual transcription pass, applied to page JSONs before chunking)",
+  "by_design_gaps": [
+    {
+      "pdf_page": 321,
+      "book_page": 308,
+      "kind": "periodic_table",
+      "reason": "image-only page: one full-page picture item; OCR yields only the 'Group Period' axis labels (12 chars, below the 40-char chunk floor) \u2014 recorded here, not chunked"
+    },
+    {
+      "pdf_page": 329,
+      "book_page": 316,
+      "kind": "graph_paper",
+      "reason": "image-only end leaf (blank practice graph grid), zero extractable text \u2014 recorded here, not chunked"
+    }
+  ],
+  "n_llm_polished": 0,
+  "llm_polished": 48,
+  "llm_polished_changed": 48
+}

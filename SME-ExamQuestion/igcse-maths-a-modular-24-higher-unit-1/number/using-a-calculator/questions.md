@@ -9,7 +9,7 @@
 Find the reciprocal of $2.5$
 
 ### 12((b)) — 2 marks — command: work_out — structured — from paper 2015	Spec1 · 1MA1/2H
-Work out    `cube root of fraction numerator 4.3 space cross times space tan space 39 to the power of ring operator over denominator 23.4 space minus space 6.06 end fraction end root`
+Work out    $\sqrt[3]{ \frac{4.3 \times \tan 39^{ring} operator}{23.4 - 6.06} }$
 
 Give your answer correct to $3$ significant figures.
 
@@ -34,7 +34,7 @@ Write your answer to part (a) correct to 1 significant figure.
 ## Q4 — hard — 2 marks · exam-questions
 
 ### 16() — 2 marks — command: find — structured — from paper 2015	Spec2 · 1MA1/2H
-i) Find the value of `fifth root of 3.2 cross times 10 to the power of 11 end root`
+i) Find the value of `fifth sqrt of 3.2 x 10 ^ 11 )`
 
 [1]
 
@@ -93,7 +93,7 @@ Write your answer to part (a) correct to 1 significant figure.
 ## Q10 — hard — 3 marks · exam-questions
 
 ### 8((a)) — 1 mark — command: work_out — structured — from paper Specimen 2015 · 8300/3H
-Use your calculator to work out `19.42 squared space – space cube root of 1006 space divided by space 4.95`
+Use your calculator to work out $19.42^{2} - \sqrt[3]{1006} \div 4.95$
 
 Write down your full calculator display.
 
@@ -136,7 +136,7 @@ Write your answer to part (a) correct to 4 significant figures.
 ### 11() — 2 marks — command: show — structured — from paper Nov 2018 · 8300/2H
 An approximation for the value of $π$ is given by
 
-`4 open parentheses 1 minus 22 over 57 plus 22 over 85 minus 22 over 105 plus 22 over 117 minus 22 over 242 close parentheses`
+$4 ( 1 - \frac{22}{57} + \frac{22}{85} - \frac{22}{105} + \frac{22}{117} - \frac{22}{242} )$
 
 Use your calculator to show that this approximation is within 0.1 of 3.14
 
@@ -148,7 +148,7 @@ Calculate.
 $\sqrt{\frac{4.8^{2}+3.6^{2}}{4}}$
 
 ### 1((b)) — 2 marks — structured — from paper June 2017 · J560/04
-`fraction numerator 1 over denominator open parentheses 2 cross times 10 to the power of 4 close parentheses plus open parentheses 5 cross times 10 cubed close parentheses end fraction`
+$\frac{1}{( 2 \times 10^{4} ) + ( 5 \times 10^{3} )}$
 
 ## Q16 — hard — 1 marks · exam-questions
 
@@ -191,12 +191,12 @@ Calculate $\sqrt{256^{0.25}+4\times8}$.
 ### 2() — 1 mark — command: calculate — structured — from paper 2019	Oct/Nov · 0580/22
 Calculate.
 
-`5 over 8 plus cube root of 340`
+$\frac{5}{8} + \sqrt[3]{340}$
 
 ## Q23 — medium — 1 marks · exam-questions
 
 ### 3() — 1 mark — command: calculate — structured — from paper 2019	May/June · 0580/21
-Calculate `cube root of 8.1 squared minus 1.3 to the power of 0.8 end exponent end root.`
+Calculate $\sqrt[3]{8.1^{2} - 1.3^{0.8} } .$
 
 ## Q24 — easy — 1 marks · exam-questions
 
@@ -208,7 +208,7 @@ $\frac{5.39-0.98}{0.743-0.0743}$
 ## Q25 — medium — 1 marks · exam-questions
 
 ### 6((b)) — 1 mark — structured — from paper 2019	May/June · 0580/23
-`cube root of 2 cubed plus 2 end root`
+$\sqrt[3]{2^{3} + 2}$
 
 ## Q26 — easy — 1 marks · exam-questions
 

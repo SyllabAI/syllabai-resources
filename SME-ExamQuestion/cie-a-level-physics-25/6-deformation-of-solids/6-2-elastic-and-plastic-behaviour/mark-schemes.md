@@ -14,7 +14,7 @@
 ![cie-ial-images300png](assets/002-cie-ial-images300png.png)
 
 - Area of shape A = $\frac{1}{2}\times500\times0.010=2.50J$
-- Area of shape B = `1 half cross times open parentheses 500 plus 550 close parentheses cross times 0.002 equals 1.05 space straight J`
+- Area of shape B = $1 \frac{1}{2} \times ( 500 + 550 ) \times 0.002 = 1.05 \mathrm{J}$
 
   - Therefore, total area $=2.50+1.05=3.55J$
 
@@ -25,18 +25,18 @@
 - Elastic energy per unit volume $=\frac{Fx}{2V}$
 - Volume $=AL$, so, substituting this into the elastic energy per unit volume equation:
 
-  - Elastic energy per unit volume `equals fraction numerator F x over denominator 2 A L end fraction equals fraction numerator x over denominator 2 L end fraction open parentheses F over A close parentheses`
+  - Elastic energy per unit volume $= \frac{F x}{2 A L} = \frac{x}{2 L} ( \frac{F}{A} )$
   - Tensile stress *S* is equal to $=\frac{F}{A}$
   - So, the elastic energy per unit volume $=\frac{xS}{2L}$
 - Strain is equal to $=\frac{x}{L}$
 
-  - So, elastic energy per unit volume `equals S over 2 open parentheses x over L close parentheses`
+  - So, elastic energy per unit volume $= \frac{S}{2} ( \frac{x}{L} )$
 - Young modulus $E=\frac{stress}{strain}$
 
   - Therefore, strain $=\frac{x}{L}=\frac{S}{E}$
 - Combining the volume and strain equations
 
-  - Elastic energy per unit volume `equals s over 2 open parentheses S over E close parentheses equals fraction numerator S squared over denominator 2 E end fraction`
+  - Elastic energy per unit volume $= \frac{s}{2} ( \frac{S}{E} ) = \frac{S^{2}}{2 E}$
 
 ### Q3
 **Final answer:** **The correct answer is ****D**** because:**
@@ -67,7 +67,7 @@
 
 - Calculate the area of the triangle
 
-  - Strain energy `equals 1 half F x equals 1 half cross times 100 cross times open parentheses 2 cross times 10 to the power of negative 3 end exponent close parentheses equals 0.1 space straight J`
+  - Strain energy $= 1 \frac{1}{2} F x = 1 \frac{1}{2} \times 100 \times ( 2 \times 10^{- 3} ) = 0.1 \mathrm{J}$
 - This is less than the area under curve shown in the graph
 - The answer should be about 10% greater to account for the curve = 0.11 J
 
@@ -197,7 +197,7 @@ strain energy = 0.5 × 3 × 0.01 = 0.015 J = 15 mJ
 - Energy stored in a spring is equal to $=\frac{1}{2}Fx$
 - The area under the tension-length graph gives the energy stored in the spring
 
-  - Therefore, strain energy =`1 half cross times open parentheses 2.0 minus 0 close parentheses cross times open parentheses 0.9 minus 0.5 close parentheses equals 0.40 space straight J`
+  - Therefore, strain energy =$1 \frac{1}{2} \times ( 2.0 - 0 ) \times ( 0.9 - 0.5 ) = 0.40 \mathrm{J}$
 
 **Exam Tip: **Strain is equal to $\frac{extension}{originallength}$   this is not the same as the energy stored in the spring
 
@@ -276,7 +276,7 @@ strain energy = 0.5 × 3 × 0.01 = 0.015 J = 15 mJ
 ![cie-ial-images312png](assets/023-cie-ial-images312png.png)
 
 - Area of a trapezium $\frac{1}{2}\times\sumparallelsides\timesheight$
-- Therefore, the strain energy stored is `equals 1 half cross times open parentheses 2.0 plus 4.0 close parentheses cross times 0.01 equals 0.030 thin space straight J`
+- Therefore, the strain energy stored is $= 1 \frac{1}{2} \times ( 2.0 + 4.0 ) \times 0.01 = 0.030 \mathrm{J}$
 
 ### Q20
 **Final answer:** **The correct answer is ****A**** because:**
@@ -356,7 +356,7 @@ strain energy = 0.5 × 3 × 0.01 = 0.015 J = 15 mJ
   - $F=\frac{2E}{x}$
 - For spring S<sub>2</sub>:
 
-  - `E subscript 2 equals 1 half F open parentheses x over 3 close parentheses equals 1 over 6 F x`
+  - $E_{2} = 1 \frac{1}{2} F ( \frac{x}{3} ) = \frac{1}{6} F x$
 - Since the load *F *applied to both springs is the same
 
   - $F=\frac{6E_{2}}{x}$

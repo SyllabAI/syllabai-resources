@@ -6,7 +6,7 @@
 ## Q1 — easy — 5 marks · exam-questions
 
 ### 1() — 1 mark — structured
-The constant acceleration equation $s=ut+\frac{1}{2}at^{2}$ is used to model the horizontal displacement  `open parentheses s italic space straight m close parentheses` at time $t$seconds of a projectile, where $ums^{-1}$ and $ams^{-2}$ are respectively the initial velocity and acceleration of the projectile in the horizontal direction.
+The constant acceleration equation $s=ut+\frac{1}{2}at^{2}$ is used to model the horizontal displacement  $( s \mathrm{m} )$ at time $t$seconds of a projectile, where $ums^{-1}$ and $ams^{-2}$ are respectively the initial velocity and acceleration of the projectile in the horizontal direction.
 
 Show that $s=ut$,  justifying any assumptions you make.
 
@@ -47,7 +47,7 @@ A particle is projected with an initial speed of  24 ms<sup>-1</sup> at an angle
 ## Q5 — easy — 4 marks · exam-questions
 
 ### 1() — 2 marks — structured
-A particle is projected with initial velocity `bold u space equals space open parentheses 5 bold i space plus space 6 bold j close parentheses space straight m space straight s to the power of negative 1 end exponent`.
+A particle is projected with initial velocity $u = ( 5 i + 6 j ) \mathrm{m} \mathrm{s}^{- 1}$.
 
 Find the angle of projection above the horizontal.
 
@@ -62,7 +62,7 @@ A particle is projected with initial velocity $7ms^{-1}$ at an angle of 18° bel
 ## Q7 — easy — 8 marks · exam-questions
 
 ### 1() — 3 marks — structured
-A particle is projected from ground level with velocity `open parentheses 8 bold i space plus space 6 bold j close parentheses space straight m space straight s to the power of negative 1 end exponent`.
+A particle is projected from ground level with velocity $( 8 i + 6 j ) \mathrm{m} \mathrm{s}^{- 1}$.
 
 (i) Write down the vertical velocity of the particle when it is at its greatest height.
 
@@ -79,7 +79,7 @@ Use the equation $s=\mathrm{ut}$ in the horizontal direction to find the range o
 ## Q8 — easy — 7 marks · exam-questions
 
 ### 1() — 2 marks — structured
-A particle is projected from a platform 5 m above ground level with velocity `open parentheses 6 bold i space plus space 8 bold j close parentheses space straight m space straight s to the power of negative 1 end exponent`.
+A particle is projected from a platform 5 m above ground level with velocity $( 6 i + 8 j ) \mathrm{m} \mathrm{s}^{- 1}$.
 
 (i) Use Pythagoras’ theorem to find the speed with which the particle is projected.
 
@@ -112,7 +112,7 @@ Find the vertical displacement of a particle 5 seconds after it is projected wit
 ### 1() — 2 marks — structured
 The equation of the trajectory of a particle projected from the origin is given by
 
-`straight y space equals space straight x space tan space straight alpha space minus space g x squared fraction numerator open parentheses 1 space plus space tan squared space straight alpha close parentheses over denominator 2 straight U squared end fraction`
+$\mathrm{y} = \mathrm{x} \tan \ \\alpha - g x^{2} \frac{( 1 + \tan ^{2} \ \\alpha )}{2 \mathrm{U}^{2}}$
 
 where *x* and *y* are respectively the horizontal and vertical displacements of the particle when projected with an initial speed of $Ums^{-1}$  at angle $α$ above the horizontal. $g$ is the constant of acceleration due to gravity.
 
@@ -124,17 +124,17 @@ Hence find the horizontal distances that have been covered by the particle at th
 ## Q11 — easy — 4 marks · exam-questions
 
 ### 1() — 1 mark — structured
-A ball is thrown from the top of a tall building with a velocity of `open parentheses 2 bold i space plus space 29.4 bold j close parentheses space straight m space straight s to the power of negative 1 end exponent`.
+A ball is thrown from the top of a tall building with a velocity of $( 2 i + 29.4 j ) \mathrm{m} \mathrm{s}^{- 1}$.
 
 Write down the vector $gms^{-2}$ - the vector for acceleration due to gravity.
 
 ### 2() — 3 marks — structured
-How long does it take for the ball to reach a velocity of `open parentheses 2 bold i space plus space 4.9 bold j close parentheses space straight m space straight s to the power of negative 1 end exponent`?
+How long does it take for the ball to reach a velocity of $( 2 i + 4.9 j ) \mathrm{m} \mathrm{s}^{- 1}$?
 
 ## Q12 — easy — 5 marks · exam-questions
 
 ### 1() — 3 marks — structured
-A particle is projected from ground level such that after 1.8 seconds its displacement is `open parentheses 2.7 bold i space plus space 3.6 bold j close parentheses space straight m`.
+A particle is projected from ground level such that after 1.8 seconds its displacement is $( 2.7 i + 3.6 j ) \mathrm{m}$.
 
 Find the velocity of the particle after 1.8 seconds.
 
@@ -166,7 +166,7 @@ Find the height of the castle turret from which the cannon was fired.
 ## Q15 — medium — 7 marks · exam-questions
 
 ### 1() — 2 marks — structured
-A golfer strikes a ball from ground level with velocity  `open parentheses 35 space square root of 3 space bold i space plus space 35 bold j close parentheses space straight m space straight s to the power of negative 1 end exponent`.
+A golfer strikes a ball from ground level with velocity  $( 35 \sqrt{3} i + 35 j ) \mathrm{m} \mathrm{s}^{- 1}$.
 
 (i) Find the initial speed of the golf ball.
 
@@ -225,24 +225,24 @@ The flight of a particle projected with an initial velocity of $Ums^{-1}$ at an 
 
 Show that the $x$-coordinate of the particle at time $t$ seconds is given by
 
-`x space equals space open parentheses U space cos space alpha close parentheses t`
+$x = ( U \cos \\alpha ) t$
 
 ### 2() — 3 marks — structured
 Show that the $y$-coordinate of the particle at time $t$ seconds is given by
 
-`y space equals space open parentheses U space sin space straight alpha close parentheses space t space minus 1 half g t squared`
+$y = ( U \sin \ \\alpha ) t - 1 \frac{1}{2} g t^{2}$
 
 where *g* m s<sup>−2</sup> is the constant of acceleration due to gravity.
 
 ### 3() — 3 marks — structured
 Hence show that the trajectory of a projectile is given by
 
-`y space equals space open parentheses tan space alpha close parentheses space x space minus space fraction numerator g x squared over denominator 2 U squared space cos squared space alpha end fraction`
+$y = ( \tan \\alpha ) x - \frac{g x^{2}}{2 U^{2} \cos ^{2} \\alpha }$
 
 ## Q20 — medium — 8 marks · exam-questions
 
 ### 1() — 2 marks — structured
-In Toon City, a coyote is desperately trying to catch the very fast roadrunner bird.  In its latest effort to keep pace with the roadrunner the coyote projects itself from a catapult at ground level.  The catapult projects the coyote with initial velocity `open parentheses 15 bold i space plus 8 bold j close parentheses space straight m space straight s to the power of negative 1 end exponent`.
+In Toon City, a coyote is desperately trying to catch the very fast roadrunner bird.  In its latest effort to keep pace with the roadrunner the coyote projects itself from a catapult at ground level.  The catapult projects the coyote with initial velocity $( 15 i + 8 j ) \mathrm{m} \mathrm{s}^{- 1}$.
 
 Modelling the coyote as a projectile find
 
@@ -283,7 +283,7 @@ Find the height above ground level and time after launch at which the ejector se
 ## Q22 — medium — 6 marks · exam-questions
 
 ### 1() — 3 marks — structured
-A football is kicked from the top of a hill and its motion is modelled as that of a particle moving in a 2D vertical plane with constant acceleration. The initial velocity of the football is `open parentheses 18 bold i space plus space 23 bold j close parentheses space straight m space straight s to the power of negative 1 end exponent` and it lands at ground level with velocity `open parentheses 18 bold i space minus space 26 bold j close parentheses space straight m space straight s to the power of negative 1 end exponent`, where $i$** **is a unit vector in the horizontal direction and $j$** **is a unit vector in the upwards vertical direction.
+A football is kicked from the top of a hill and its motion is modelled as that of a particle moving in a 2D vertical plane with constant acceleration. The initial velocity of the football is $( 18 i + 23 j ) \mathrm{m} \mathrm{s}^{- 1}$ and it lands at ground level with velocity $( 18 i - 26 j ) \mathrm{m} \mathrm{s}^{- 1}$, where $i$** **is a unit vector in the horizontal direction and $j$** **is a unit vector in the upwards vertical direction.
 
 Find the time it takes the football to first hit ground level.
 
@@ -309,7 +309,7 @@ $R=\frac{U^{2}\mathrm{sin}2α}{g}$
 ## Q24 — hard — 6 marks · exam-questions
 
 ### 1() — 3 marks — structured
-A particle is projected horizontally from the point with coordinates `open parentheses space 0 space comma space 5 space close parentheses` with an initial speed of $9ms^{-1}$.  The coordinates are expressed in metres.
+A particle is projected horizontally from the point with coordinates $( 0 , 5 )$ with an initial speed of $9ms^{-1}$.  The coordinates are expressed in metres.
 
 Throughout this question leave any coefficients in expressions and equations as exact values, given in terms of $g$ where appropriate.
 
@@ -318,14 +318,14 @@ Throughout this question leave any coefficients in expressions and equations as 
 (ii) Write down an expression for $h_{y}$, the vertical displacement of the particle from the origin.
 
 ### 2() — 3 marks — structured
-Find an equation for the trajectory of the particle in the form `y space equals space straight f open parentheses x close parentheses`.
+Find an equation for the trajectory of the particle in the form $y = \mathrm{f} ( x )$.
 
 ## Q25 — hard — 7 marks · exam-questions
 
 ### 1() — 3 marks — structured
 A golfer strikes a ball from ground level with velocity $28ms^{-1}$ at an angle of $60^{\circ}$ to the horizontal.
 
-Write down the initial velocity of the golf ball in the form `open parentheses p bold i space plus space q bold j close parentheses space straight m space straight s to the power of negative 1 end exponent`, giving the values of $p\mathrm{and}q$ as exact values.
+Write down the initial velocity of the golf ball in the form $( p i + q j ) \mathrm{m} \mathrm{s}^{- 1}$, giving the values of $p\mathrm{and}q$ as exact values.
 
 ### 2() — 4 marks — structured
 A tree of height $16m$ stands in the path of the flight of the golf ball $56m$ from the point where it is struck.  Determine whether or not the golf ball strikes the tree.
@@ -345,10 +345,10 @@ If the stuntperson wishes to jump over 16 buses using the same ramp, find the sp
 ### 1() — 3 marks — structured
 Deefa the dog is undergoing agility training, part of which involves jumping over a tennis net.  The top of the tennis net sits 91 cm above the ground.  Deefa is modelled as a projectile jumping in a two-dimensional vertical plane that is perpendicular to the surface of the net.
 
-Deefa jumps with velocity `open parentheses 3 bold i space plus space 4 bold j close parentheses space straight m space straight s to the power of negative 1 end exponent`, leaving the ground at a distance 75 cm from the net.  Determine whether Deefa will clear the net with this jump.
+Deefa jumps with velocity $( 3 i + 4 j ) \mathrm{m} \mathrm{s}^{- 1}$, leaving the ground at a distance 75 cm from the net.  Determine whether Deefa will clear the net with this jump.
 
 ### 2() — 3 marks — structured
-On another attempt Deefa clears the net by jumping with velocity `open parentheses 4 bold i space plus thin space 5 bold j close parentheses space straight m space straight s to the power of negative 1 end exponent`. Deefa jumps at the latest possible moment in order to clear the net.  Find the distance between the net and the point at which Deefa jumps off the ground. Give your answer to a sensible degree of accuracy.
+On another attempt Deefa clears the net by jumping with velocity $( 4 i + 5 j ) \mathrm{m} \mathrm{s}^{- 1}$. Deefa jumps at the latest possible moment in order to clear the net.  Find the distance between the net and the point at which Deefa jumps off the ground. Give your answer to a sensible degree of accuracy.
 
 ## Q28 — hard — 6 marks · exam-questions
 
@@ -377,7 +377,7 @@ where $h$ is the height of the waterfall in metres and $g$ is the constant of gr
 ## Q30 — hard — 6 marks · exam-questions
 
 ### 1() — 2 marks — structured
-The flight of a particle projected with an initial velocity of $Ums^{-1}$ at an angle $α$ above the horizontal is modelled as a projectile moving under gravity only.  The particle is projected from the point `open parentheses space 0 space comma space h space close parentheses` with the upward direction being taken as positive, and with the coordinates being expressed in metres. $gms^{-2}$ is the constant of acceleration due to gravity.
+The flight of a particle projected with an initial velocity of $Ums^{-1}$ at an angle $α$ above the horizontal is modelled as a projectile moving under gravity only.  The particle is projected from the point $( 0 , h )$ with the upward direction being taken as positive, and with the coordinates being expressed in metres. $gms^{-2}$ is the constant of acceleration due to gravity.
 
 Find, in terms of $U,α,h,g$ and time *t* as appropriate, expressions for
 
@@ -386,12 +386,12 @@ Find, in terms of $U,α,h,g$ and time *t* as appropriate, expressions for
 (ii) the $y$ - coordinate of the projectile at time $t$.
 
 ### 2() — 4 marks — structured
-For a particular projectile, $\mathrm{sin}α=\frac{8}{17}$, $U=51ms^{-1}$ and the particle is projected from the point `open parentheses space 0 space comma space 6 space close parentheses`.  Find an expression for the trajectory of the particle, giving your answer in the form $y=ax+bgx^{2}+c$ where $a,b\mathrm{and}c$ are rational constants.
+For a particular projectile, $\mathrm{sin}α=\frac{8}{17}$, $U=51ms^{-1}$ and the particle is projected from the point $( 0 , 6 )$.  Find an expression for the trajectory of the particle, giving your answer in the form $y=ax+bgx^{2}+c$ where $a,b\mathrm{and}c$ are rational constants.
 
 ## Q31 — hard — 5 marks · exam-questions
 
 ### 1() — 5 marks — structured
-In Toonland, a coyote is desperately trying to catch the very fast roadrunner bird.  In its latest effort to keep pace with the roadrunner the coyote projects itself from a catapult at the top of a canyon 85 m tall.  The catapult projects the coyote with initial velocity `open parentheses 3 bold i bold space plus space 9 bold j close parentheses space straight m space straight s to the power of negative 1 end exponent`.
+In Toonland, a coyote is desperately trying to catch the very fast roadrunner bird.  In its latest effort to keep pace with the roadrunner the coyote projects itself from a catapult at the top of a canyon 85 m tall.  The catapult projects the coyote with initial velocity $( 3 i + 9 j ) \mathrm{m} \mathrm{s}^{- 1}$.
 
 The roadrunner spots the coyote’s plan when the coyote is at its maximum height above the ground.  Using magic Toon paint the roadrunner paints a hole on the ground at the spot where the coyote will land.
 

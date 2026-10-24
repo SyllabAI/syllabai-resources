@@ -28,27 +28,27 @@ guided_study: false
 
 - The **coordinates** of *A* and *C* as **column vectors** are
 
-  - `A equals open parentheses table row 1 row 0 end table close parentheses` and `C equals open parentheses table row 0 row 1 end table close parentheses`
+  - $A = ( \begin{gathered} 1 \\ 0 \end{gathered} )$ and $C = ( \begin{gathered} 0 \\ 1 \end{gathered} )$
 - Under an **enlargement of scale factor *****k***** with centre at the origin **(including negative scale factors), *A* moves to *A*' and *C* moves to *C*'
 
-  - The **matrix, M** representing this enlargement is `bold M equals open parentheses table row cell A apostrophe space vertical line end cell cell C apostrophe end cell end table close parentheses`
+  - The **matrix, M** representing this enlargement is $M = ( \begin{gathered} A ' \vert & C ' \end{gathered} )$
   - *A*' and *C*' are column vectors of the new positions
   
     - So $M$ is a 2×2 matrix
   - The points *O* and *B* are not needed, as we can draw the enlarged square using just *A*' and *C*' (as *O* won't move)
-- `A apostrophe equals open parentheses table row k row 0 end table close parentheses` and `C apostrophe equals open parentheses table row 0 row k end table close parentheses`
+- $A ' = ( \begin{gathered} k \\ 0 \end{gathered} )$ and $C ' = ( \begin{gathered} 0 \\ k \end{gathered} )$
 
   - They are both just moving along the *x* and *y* axes respectively
-- So all enlargement matrices have the form `bold M equals open parentheses table row k 0 row 0 k end table close parentheses`
+- So all enlargement matrices have the form $M = ( \begin{gathered} k 0 \\ 0 k \end{gathered} )$
 
   - This is the same as $M=kI$, where** **$I$ is the identity matrix
 - For example:
 
-  - The matrix representation of an enlargement of scale factor 3 with centre at the origin is `open parentheses table row 3 0 row 0 3 end table close parentheses`
-  - The matrix representation of an enlargement of scale factor $-\frac{1}{2}$ with centre at the origin is `open parentheses table row cell negative 1 half end cell 0 row 0 cell negative 1 half end cell end table close parentheses`
+  - The matrix representation of an enlargement of scale factor 3 with centre at the origin is $( \begin{gathered} 3 0 \\ 0 3 \end{gathered} )$
+  - The matrix representation of an enlargement of scale factor $-\frac{1}{2}$ with centre at the origin is $( \begin{gathered} - 1 \frac{1}{2} & 0 \\ 0 - 1 \frac{1}{2} \end{gathered} )$
 
 > **Worked Example**
-> The matrix **M** representing a transformation is given by `open parentheses table row cell 1 fourth end cell 0 row 0 cell 1 fourth end cell end table close parentheses`.
+> The matrix **M** representing a transformation is given by $( \begin{gathered} 1 \frac{1}{4} & 0 \\ 0 1 \frac{1}{4} \end{gathered} )$.
 > 
 > Describe geometrically the transformation represented by **M**.
 > 
@@ -56,7 +56,7 @@ guided_study: false
 >   
 > *The matrix *$M$* can be written as a multiple of the identity matrix, *$I$
 > 
-> `open parentheses table row cell 1 fourth end cell 0 row 0 cell 1 fourth end cell end table close parentheses equals 1 fourth open parentheses table row 1 0 row 0 1 end table close parentheses`
+> $( \begin{gathered} 1 \frac{1}{4} & 0 \\ 0 1 \frac{1}{4} \end{gathered} ) = 1 \frac{1}{4} ( \begin{gathered} 1 0 \\ 0 1 \end{gathered} )$
 > 
 > > *So the unit square is being scaled by *$\frac{1}{4}$
 > 

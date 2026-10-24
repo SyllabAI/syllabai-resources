@@ -29,7 +29,7 @@ List the known quantities:
 
 Find the component of $g$ along the slope:
 
-- `a space equals space g sin open parentheses 6.9 degree close parentheses` **[1 mark]**
+- $a = g \sin ( 6.9^{\circ} )$ **[1 mark]**
 - $a=1.18ms^{-2}=1.2ms^{-2}$ (2 s.f.) **[1 mark]**
 
 ii) Determine the speed of the sledge at the end of the slope:
@@ -72,7 +72,7 @@ Choose a suvat equation and rearrange for $t$:
 
 ![screenshot-2023-01-12-at-16-07-51](assets/025-screenshot-2023-01-12-at-16-07-51.png)
 
-- *Some quick trigonometry then reveals why the component down the slope is *`g sin open parentheses 6.9 degree close parentheses`
+- *Some quick trigonometry then reveals why the component down the slope is *$g \sin ( 6.9^{\circ} )$
 
 ![screenshot-2023-01-12-at-16-13-05](assets/026-screenshot-2023-01-12-at-16-13-05.png)
 
@@ -95,13 +95,13 @@ From the data booklet:
 Equate gravitational potential at the end with final kinetic energy:
 
 - $mgh=\frac{1}{2}mv^{2}$ **[1 mark]**
-- `up diagonal strike m g h equals 1 half up diagonal strike m v squared`
+- $\cancel{m} g h = 1 \frac{1}{2} \cancel{m} v^{2}$
 
 Substitute in known values and calculate final velocity:
 
 - $gh=\frac{1}{2}v^{2}$
 - $9.81\times0.5=\frac{1}{2}v^{2}$ **[1 mark]**
-- `v equals square root of open parentheses 2 cross times 9.81 cross times 0.5 close parentheses end root`
+- $v = \sqrt{( 2 \times 9.81 \times 0.5 )}$
 - $v=3.13ms^{-1}$ **[1 mark]**
 
 **[Total: 3 marks]**
@@ -128,8 +128,8 @@ Determine the distance travelled using Pythagoras:
 
 Calculate the time taken to travel down the ramp from point A to B:
 
-- `s equals 1 half open parentheses u plus v close parentheses t`
-- `2.06 equals 1 half open parentheses 0 plus 3.13 close parentheses t subscript A B end subscript`
+- $s = 1 \frac{1}{2} ( u + v ) t$
+- $2.06 = 1 \frac{1}{2} ( 0 + 3.13 ) t_{A B}$
 - $t_{AB}=1.32s$ **[1 mark]**
 
 Calculate the time taken to travel from point B to C:
@@ -178,7 +178,7 @@ Calculate the time of the flight:
 Calculate the vertical displacement after 1.22:
 
 - $s=ut+\frac{1}{2}at^{2}$
-- `s equals open parentheses 4.34 cross times 1.22 close parentheses minus open parentheses 1 half cross times 9.81 cross times 1.22 squared close parentheses` **[1 mark]**
+- $s = ( 4.34 \times 1.22 ) - ( 1 \frac{1}{2} \times 9.81 \times 1.22^{2} )$ **[1 mark]**
 - Decrease in height = 2.01 m **[1 mark]**
 
 Comment on whether the skier will reach the flat surface before landing:
@@ -206,7 +206,7 @@ List the known quantities:
 Calculate the deceleration of the skier:
 
 - $v^{2}=u^{2}+2as$
-- `0 equals 23 squared plus space open parentheses 2 cross times a cross times 43 close parentheses`
+- $0 = 23^{2} + ( 2 \times a \times 43 )$
 - $a=\frac{-23^{2}}{86}=-6.15ms^{-2}$ **[1 mark]**
 
 Calculate the force required:
@@ -230,7 +230,7 @@ List the known quantities:
 
 Determine the vertical component of the initial velocity, $u_{v}$:
 
-- `u subscript v space equals space 50 sin open parentheses 40 degree close parentheses space equals space 32.1 space straight m space straight s to the power of negative 1 end exponent` **[1 mark]**
+- $u_{v} = 50 \sin ( 40^{\circ} ) = 32.1 \mathrm{m} \mathrm{s}^{- 1}$ **[1 mark]**
 
 List the known and unknown vertical suvat quantities, defining up as the positive direction:
 
@@ -243,7 +243,7 @@ List the known and unknown vertical suvat quantities, defining up as the positiv
 Choose a suvat equation and calculate $t$:
 
 - $v=u+at$
-- `t space equals space fraction numerator v space minus space u over denominator a end fraction space equals space fraction numerator 0 space minus space 50 sin open parentheses 40 degree close parentheses over denominator negative 9.81 end fraction` **[1 mark]**
+- $t = \frac{v - u}{a} = \frac{0 - 50 \sin ( 40^{\circ} )}{- 9.81}$ **[1 mark]**
 - $t=3.28s$
 - $\mathrm{time} \mathrm{to} \mathrm{reach} \mathrm{max} \mathrm{height}=3.3s$ **[1 mark]**
 
@@ -273,12 +273,12 @@ List the known and unknown vertical suvat quantities to find the maximum height:
 Use a vertical suvat equation to find maximum height of the projectile:
 
 - $s_{v,max}=u_{v}t_{max}+\frac{1}{2}at_{max}^{2}$
-- `s subscript v comma m a x end subscript space equals space open parentheses 32.1 space cross times space 3.28 close parentheses space minus space 1 half space cross times space 9.81 space cross times space open parentheses 3.28 close parentheses squared` **[1 mark]**
+- $s_{v , m a x} = ( 32.1 \times 3.28 ) - 1 \frac{1}{2} \times 9.81 \times ( 3.28 )^{2}$ **[1 mark]**
 - $s_{v,max}=52.5m$ **[1 mark]**
 
 Determine the initial horizontal velocity:
 
-- `u subscript h space equals space 50 cos open parentheses 40 degree close parentheses space equals space 38.3 space straight m space straight s to the power of negative 1 end exponent` **[1 mark]**
+- $u_{h} = 50 \cos ( 40^{\circ} ) = 38.3 \mathrm{m} \mathrm{s}^{- 1}$ **[1 mark]**
 
 Determine the horizontal displacement at $t_{max}$:
 
@@ -287,7 +287,7 @@ Determine the horizontal displacement at $t_{max}$:
 
 Compare the hill height 126 m away with maximum height of the projectile:
 
-- `h space equals space 126 tan open parentheses 20 degree close parentheses space equals space 45.9 space straight m space`**[1 mark]**
+- $h = 126 \tan ( 20^{\circ} ) = 45.9 \mathrm{m}$**[1 mark]**
 - 45.9 m > 52.5 m <u>therefore</u> the answer is no (the rock does not hit the ground before reaching its maximum height); **[1 mark]**
 
 **[Total: 6 marks]**
@@ -341,7 +341,7 @@ Determine the time taken to travel 100 m horizontally:
 Determine the vertical distance fallen in this time:
 
 - $s=u_{y}t+\frac{1}{2}at^{2}$
-- `s space equals space open parentheses 14.8 cross times 3.155 close parentheses space minus space 1 half cross times open parentheses 9.81 cross times 3.155 squared close parentheses` = −2.13 m **[1 mark]**
+- $s = ( 14.8 \times 3.155 ) - 1 \frac{1}{2} \times ( 9.81 \times 3.155^{2} )$ = −2.13 m **[1 mark]**
 - Vertical distance fallen = 2.1 m **[1 mark]**
 
 Write a concluding statement:
@@ -360,7 +360,7 @@ Determine the time to the maximum height:
 Solve the quadratic to determine the time to descend by 3 m:
 
 - $s=u_{y}t+\frac{1}{2}at^{2}$
-- `3.0 space equals space 14.8 t space minus space fraction numerator 9.81 over denominator 2 end fraction t squared space space space space space rightwards double arrow space space space space space t space equals space fraction numerator 14.8 space minus space square root of 14.8 squared space minus space open parentheses 2 cross times 9.81 cross times 3 close parentheses end root over denominator 9.81 end fraction space equals space 0.22 space straight s` **[1 mark]**
+- $3.0 = 14.8 t - \frac{9.81}{2} t^{2} \Leftrightarrow t = \frac{14.8 - \sqrt{14.8^{2} - ( 2 \times 9.81 \times 3 )} }{9.81} = 0.22 \mathrm{s}$ **[1 mark]**
 
 Determine the total time of flight of the rider:
 
@@ -450,7 +450,7 @@ $v_{max}=\frac{505\times1000}{3600}=140.3\text{m s}^{-1}$
 - Determine the total distance travelled by the train:
 
   - Since the rates of acceleration and deceleration are the same, the velocity–time graph would be a trapezium
-  - Area of trapezium `equals 1 half open parentheses a plus b close parentheses h`
+  - Area of trapezium $= 1 \frac{1}{2} ( a + b ) h$
 
 $s=\frac{1}{2}(t_{max}+T)v_{max}$
 
@@ -540,7 +540,7 @@ $v_{av}=$ $89.1\text{m s}^{-1}$ **[1 mark]**
 
 - Velocity is the gradient of a displacement-time graph
 
-  - Therefore, `v space equals space fraction numerator increment s over denominator increment t end fraction space equals space fraction numerator 2 space minus space open parentheses negative 1 close parentheses over denominator 6 space minus space 0 end fraction space equals space 0.5 space straight m space straight s to the power of negative 1 end exponent`
+  - Therefore, $v = \frac{\Delta s}{\Delta t} = \frac{2 - ( - 1 )}{6 - 0} = 0.5 \mathrm{m} \mathrm{s}^{- 1}$
 
 - This is answer option **A**
 

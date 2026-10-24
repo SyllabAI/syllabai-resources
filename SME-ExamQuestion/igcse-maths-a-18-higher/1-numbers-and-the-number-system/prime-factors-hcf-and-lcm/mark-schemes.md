@@ -100,7 +100,7 @@
 ### 10() — 2 marks
 > *8 as a product of primes is 2*<sup>*3*</sup>* . So multiplying by 8 is the same as multiplying by 2*<sup>*3*</sup>*.*
 
-`table row cell 8 A end cell equals cell 8 cross times 2 to the power of n cross times 3 cross times 5 to the power of m end cell row blank equals cell 2 cubed cross times 2 to the power of n cross times 3 cross times 5 to the power of m end cell end table`
+$\begin{gathered} 8 A & = 8 \times 2^{n} \times 3 \times 5^{m} \\ = 2^{3} \times 2^{n} \times 3 \times 5^{m} \end{gathered}$
 
 **[1]**
 
@@ -505,9 +505,9 @@ $480=2^{5}\times3\times5$
 
 > *In the same way, 10 can also be broken down into prime factors.*
 
-`10 to the power of 9 equals open parentheses 2 cross times 5 close parentheses to the power of 9`
+$10^{9} = ( 2 \times 5 )^{9}$
 
-> *Use the index law *`open parentheses a b close parentheses to the power of n equals a to the power of n cross times b to the power of n`*.*
+> *Use the index law *$( a b )^{n} = a^{n} \times b^{n}$*.*
 
 $10^{9}=2^{9}\times5^{9}$
 
@@ -515,13 +515,13 @@ $10^{9}=2^{9}\times5^{9}$
 
 > *Combine the products of primes of 480 and 10*<sup>*9*</sup>*.*
 
-`table row cell 480 cross times 10 to the power of 9 end cell equals cell 2 to the power of 5 cross times 3 cross times 5 cross times 2 to the power of 9 cross times 5 to the power of 9 end cell row blank equals cell 2 to the power of 5 cross times 2 to the power of 9 cross times 3 cross times 5 cross times 5 to the power of 9 end cell end table`
+$\begin{gathered} 480 \times 10^{9} & = 2^{5} \times 3 \times 5 \times 2^{9} \times 5^{9} \\ = 2^{5} \times 2^{9} \times 3 \times 5 \times 5^{9} \end{gathered}$
 
 > *Using the index law *$a^{m}\timesa^{n}=a^{m+n}$*.*
 
-`table row cell 480 cross times 10 to the power of 9 end cell equals cell equals 2 to the power of 5 plus 9 end exponent cross times 3 cross times 5 to the power of 1 plus 9 end exponent end cell end table`
+$\begin{gathered} 480 \times 10^{9 & = = 2^{5} + 9} \times 3 \times 5^{1 + 9} \end{gathered}$
 
-**Final answer:** **Answer**`table row blank bold equals cell bold 2 to the power of bold 14 bold cross times bold 3 bold cross times bold 5 to the power of bold 10 end cell end table`
+**Final answer:** **Answer**`| _ = 2 ^ 14 x 3 x 5 ^ 10 | |`
 
 **2**<sup>**m**</sup>** × 3 × 5**<sup>**n**</sup>** where m and n are positive integers ****[1] **
 **fully correct answer**** [1]**
@@ -935,7 +935,7 @@ $50,100,150,200,250,300,350,400,450,....\,80,160,240,320,400,...$
 ### 8((a)) — 2 marks
 > *Use a factor tree, or another method, to break 300 down to prime numbers*
 
-`table row 300 equals cell 3 cross times 100 end cell row 300 equals cell 3 cross times 2 cross times 50 end cell end table`
+$\begin{gathered} 300 = 3 \times 100 \\ 300 = 3 \times 2 \times 50 \end{gathered}$
 
 **[M1]**
 
@@ -1202,7 +1202,7 @@ $A=2\times2\times2\times5\times7\times7\times11\,B=2\times2\times2\times2\times7
 
 > *The LCM is the product of the prime numbers in the Venn diagram (in *$A\cupB\cupC$*)*
 
-`table row LCM equals cell 7 cross times 2 cross times 2 cross times 2 cross times 11 cross times 7 cross times 2 cross times 5 cross times 3 cross times 5 end cell row blank equals cell 2 to the power of 4 cross times 3 cross times 5 squared cross times 7 squared cross times 11 end cell end table`
+$\begin{gathered} \text{LCM} = 7 \times 2 \times 2 \times 2 \times 11 \times 7 \times 2 \times 5 \times 3 \times 5 \\ = 2^{4} \times 3 \times 5^{2} \times 7^{2} \times 11 \end{gathered}$
 
 > *Use your calculator to evaluate the number.*
 
@@ -1311,13 +1311,13 @@ $\frac{a}{b}=\frac{4}{3}$ **[1]**
 ### 21() — 3 marks
 > *Write out *$3N^{2}$* in full*
 
-`3 cross times open parentheses 2 cross times 3 to the power of 4 cross times y cubed close parentheses squared`
+$3 \times ( 2 \times 3^{4} \times y^{3} )^{2}$
 
-> *Remember that the power of 2 is applied to each term in the bracket, i.e. *`open parentheses a b c close parentheses squared equals a squared b squared c squared`
+> *Remember that the power of 2 is applied to each term in the bracket, i.e. *$( a b c )^{2} = a^{2} b^{2} c^{2}$
 
-`3 cross times 2 squared cross times open parentheses 3 to the power of 4 close parentheses squared cross times open parentheses y cubed close parentheses squared`
+$3 \times 2^{2} \times ( 3^{4} )^{2} \times ( y^{3} )^{2}$
 
-> *Simplify the powers using the indices law: *`open parentheses a to the power of m close parentheses to the power of n equals a to the power of m cross times n end exponent`
+> *Simplify the powers using the indices law: *$( a^{m )^{n} = a^{m} \times n}$
 
 $3\times2^{2}\times3^{8}\timesy^{6}$
 
@@ -1473,7 +1473,7 @@ $2^{2}\times3\times5\times11$ **[1]**
 ### 20() — 1 marks
 *Using index laws, 98*<sup>*91*</sup>* can be written as a multiple of each of 98*<sup>*53*</sup>*, 98*<sup>*64*</sup>*, 98*<sup>*73*</sup>* and 98*<sup>*88*</sup>
 
-`table row cell 98 to the power of 91 end cell equals cell 98 to the power of 53 plus 38 end exponent equals 98 to the power of 53 cross times 98 to the power of 38 end cell row cell 98 to the power of 91 end cell equals cell 98 to the power of 64 plus 27 end exponent equals 98 to the power of 64 cross times 98 to the power of 27 end cell row cell 98 to the power of 91 end cell equals cell 98 to the power of 73 plus 18 end exponent equals 98 to the power of 73 cross times 98 to the power of 18 end cell row cell 98 to the power of 91 end cell equals cell 98 to the power of 88 plus 3 end exponent equals 98 to the power of 88 cross times 98 cubed end cell end table`
+$\begin{gathered} 98^{91 & = 98^{53} + 38} = 98^{53 \times 98^{38} \\ 98^{91} & = 98^{64} + 27} = 98^{64 \times 98^{27} \\ 98^{91} & = 98^{73} + 18} = 98^{73 \times 98^{18} \\ 98^{91} & = 98^{88} + 3} = 98^{88} \times 98^{3} \end{gathered}$
 
 *Each of 98*<sup>*53*</sup>*, 98*<sup>*64*</sup>*, 98*<sup>*73*</sup>* and 98*<sup>*88 *</sup>*go into 98*<sup>*91*</sup>
 *98*<sup>*91*</sup>* is therefore the lowest common multiple of all five*

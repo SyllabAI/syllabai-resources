@@ -24,23 +24,23 @@ guided_study: false
 
   - For example,
 
-`table row cell 3 to the power of 2 x end exponent end cell equals 27 row cell 3 cubed end cell equals cell 27 space space space so end cell row cell 2 x space end cell equals cell space 3 end cell row cell x space end cell equals cell space 3 over 2 end cell end table`
+$\begin{gathered} 3^{2 x} & = 27 \\ 3^{3} & = 27 \text{so} \\ 2 x & = 3 \\ x & = \frac{3}{2} \end{gathered}$
 
 - The **change of base** law can also be used to solve some exponential equations
 
   - For example,
 
-`table row cell 27 to the power of x space end cell equals cell space 9 blank end cell end table`
+$\begin{gathered} 27^{x} & = 9 \end{gathered}$
 
 - Rewrite using the definition of a logarithm
 
-`table row x equals cell log subscript 27 9 end cell end table`
+$\begin{gathered} x = log_{27} 9 \end{gathered}$
 
 - Then use the change of base formula from the exam formula sheet
 
   - Use base 3 here because 9 and 27 are both powers of 3
 
-`table row x equals cell blank fraction numerator log subscript 3 9 over denominator log subscript 3 27 end fraction end cell row blank equals cell 2 over 3 end cell end table`
+$\begin{gathered} x = \frac{log_{3} 9}{log_{3} 27} \\ = \frac{2}{3} \end{gathered}$
 
 - In **more complicated** cases use the **laws of logarithms** to solve exponential equations
 
@@ -59,7 +59,7 @@ guided_study: false
 - **STEP 1**
 Take logarithms of both sides
 
-`table attributes columnalign right center left columnspacing 0px end attributes row cell 5 to the power of x end cell equals 27 row cell ln open parentheses 5 to the power of x close parentheses end cell equals cell ln 27 end cell end table`
+$\begin{array}{rcl} 5^{x} & = 27 \\ \ln ( 5^{x} ) & = \ln 27 \end{array}$
 
 - **STEP 2**
 Use the laws of logarithms to move powers out of the logarithms
@@ -76,7 +76,7 @@ $x=\frac{\mathrm{ln}27}{\mathrm{ln}5}$
 - **STEP 4**
 Use logarithms in your calculator to find the value of $x$
 
-`table attributes columnalign right center left columnspacing 0px end attributes row x equals cell 2.047818... end cell row blank equals cell 2.05 space open parentheses 3 space straight s. straight f. close parentheses end cell end table`
+$\begin{array}{rcl} x = 2.047818... \\ = 2.05 ( 3 \mathrm{s} . \mathrm{f} . ) \end{array}$
 
 - Only perform this step if required by the question
 
@@ -86,12 +86,12 @@ Use logarithms in your calculator to find the value of $x$
 
   - In particular look out for terms such as
   
-    - `4 to the power of x equals open parentheses 2 squared close parentheses to the power of x equals 2 to the power of 2 x end exponent equals open parentheses 2 to the power of x close parentheses squared`
-    - `straight e to the power of 2 x end exponent equals straight e to the power of x plus x end exponent equals straight e to the power of x cross times straight e to the power of x equals open parentheses straight e to the power of x close parentheses squared`
+    - $4^{x = ( 2^{2} )^{x} = 2^{2} x} = ( 2^{x} )^{2}$
+    - $\mathrm{e}^{2 x} = \mathrm{e}^{x + x} = \mathrm{e}^{x} \times \mathrm{e}^{x} = ( \mathrm{e}^{x} )^{2}$
   - This can be used to **factorise** quadratic expressions
   
-    - `4 to the power of x minus 2 to the power of x equals open parentheses 2 to the power of x close parentheses squared minus 2 to the power of x equals 2 to the power of x open parentheses 2 to the power of x minus 1 close parentheses`
-    - `straight e to the power of 2 x end exponent minus 4 straight e to the power of x minus 5 equals open parentheses straight e to the power of x close parentheses squared minus 4 straight e to the power of x minus 5 equals open parentheses straight e to the power of x plus 1 close parentheses open parentheses straight e to the power of x minus 5 close parentheses`
+    - $4^{x} - 2^{x} = ( 2^{x} )^{2} - 2^{x} = 2^{x} ( 2^{x} - 1 )$
+    - $\mathrm{e}^{2 x} - 4 \mathrm{e}^{x} - 5 = ( \mathrm{e}^{x} )^{2} - 4 \mathrm{e}^{x} - 5 = ( \mathrm{e}^{x} + 1 ) ( \mathrm{e}^{x} - 5 )$
 
 > **Exam Hint**
 > - Always check which form the question asks you to give your answer in
@@ -100,30 +100,30 @@ Use logarithms in your calculator to find the value of $x$
 > - If the question requires an exact value you may need to leave your answer as a logarithm
 
 > **Worked Example**
-> Solve the equation `4 to the power of x minus 3 open parentheses 2 to the power of x plus 1 end exponent close parentheses plus blank 9 equals 0`.  Give your answer correct to three significant figures.
+> Solve the equation $4^{x - 3 ( 2^{x} + 1} ) + 9 = 0$.  Give your answer correct to three significant figures.
 > 
-> > *Spot the hidden quadratic:  *`4 to the power of x equals open parentheses 2 squared close parentheses to the power of x equals 2 to the power of 2 x end exponent equals open parentheses 2 to the power of x close parentheses squared`
+> > *Spot the hidden quadratic:  *$4^{x = ( 2^{2} )^{x} = 2^{2} x} = ( 2^{x} )^{2}$
 > 
 > > *Also note that  *$2^{x+1}=2^{1}\times2^{x}=2\times2^{x}$
 > 
 > > *Substitute these into the equation and simplify*
 > 
-> `table row cell open parentheses 2 to the power of x close parentheses squared minus 3 open parentheses 2 cross times 2 to the power of x close parentheses plus 9 end cell equals 0 row cell open parentheses 2 to the power of x close parentheses squared minus 6 open parentheses 2 to the power of x close parentheses plus 9 end cell equals 0 end table`
+> $\begin{gathered} ( 2^{x} )^{2} - 3 ( 2 \times 2^{x} ) + 9 & = 0 \\ ( 2^{x} )^{2} - 6 ( 2^{x} ) + 9 & = 0 \end{gathered}$
 > 
 > > *Factorise the quadratic*
 > 
 > > *The left-hand side is in the form  *$y^{2}-6y+9$*  where *$y=2^{x}$* *
-> *This factorises to *`open parentheses y minus 3 close parentheses squared`
+> *This factorises to *$( y - 3 )^{2}$
 > 
-> `open parentheses 2 to the power of x minus 3 close parentheses squared equals 0`
+> $( 2^{x} - 3 )^{2} = 0$
 > 
 > > *Solve for *$2^{x}$
 > 
-> `table row cell 2 to the power of x minus 3 end cell equals 0 row cell 2 to the power of x end cell equals 3 end table`
+> $\begin{gathered} 2^{x} - 3 & = 0 \\ 2^{x} & = 3 \end{gathered}$
 > 
 > > *Take logarithms of both sides*
 > 
-> `ln open parentheses 2 to the power of x close parentheses equals ln 3`
+> $\ln ( 2^{x} ) = \ln 3$
 > 
 > > *Use  *$\mathrm{log}_{a}x^{k}=k\mathrm{log}_{a}x$*  to take the power out of the logarithm*
 > 
@@ -143,4 +143,4 @@ Use logarithms in your calculator to find the value of $x$
 > 
 > $x=1.58$ **(3 s.f.)**
 > 
-> **Once **$2^{x}=3$** is found, the logarithm **`x equals log subscript 2 open parentheses 3 close parentheses`** could be used instead to find the value of **$x$** **
+> **Once **$2^{x}=3$** is found, the logarithm **$x = log_{2} ( 3 )$** could be used instead to find the value of **$x$** **

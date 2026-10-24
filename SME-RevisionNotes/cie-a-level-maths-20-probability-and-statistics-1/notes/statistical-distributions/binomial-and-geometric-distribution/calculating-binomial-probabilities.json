@@ -147,7 +147,7 @@
   },
   {
    "type": "paragraph",
-   "md": "Throughout this section we will use the random variable `begin mathsize 16px style X tilde straight B left parenthesis n comma p right parenthesis end style`. For binomial, the probability of a *X* taking a non-integer or negative value is always zero. Therefore any values mentioned in this section will be assumed to be non-negative integers."
+   "md": "Throughout this section we will use the random variable $X \\sim \\mathrm{B} ( n , p )$. For binomial, the probability of a *X* taking a non-integer or negative value is always zero. Therefore any values mentioned in this section will be assumed to be non-negative integers."
   },
   {
    "type": "heading",
@@ -156,7 +156,7 @@
   },
   {
    "type": "bullets",
-   "md": "- The formula for calculating an individual **binomial probability **is\n\n  - `begin mathsize 16px style straight P left parenthesis X equals r right parenthesis equals p subscript r equals open parentheses table row n row r end table close parentheses p to the power of r open parentheses 1 minus p close parentheses to the power of n minus r end exponent end style`\n  \n    - If there are *r* successes then there are `open parentheses n minus r close parentheses` failures\n    - The number of times this can happen is calculated by the **binomial coefficient**\n    - `open parentheses table row n row r end table close parentheses equals C presuperscript n subscript r equals fraction numerator n factorial over denominator r factorial left parenthesis n minus r right parenthesis factorial end fraction`\n- This can be seen by considering a **probability tree diagram** with *n *trials, where *p* is the probability of success and the tree diagram is being used to find *r *successes\n- `stretchy left parenthesis table row n row r end table stretchy right parenthesis` is the number of pathways through the tree there would be exactly *r* successes within the *n* trials\n- The formula allows statisticians to quickly find probabilities for larger values of *n* without needing to draw the whole tree diagram\n- Your calculator may have a function that would allow you to calculate binomial probabilities\n\n  - You can learn how to use this to check your work but it is important you always show your working using the formula to get the marks in the exam"
+   "md": "- The formula for calculating an individual **binomial probability **is\n\n  - $\\mathrm{P} ( X = r ) = p_{r} = ( \\begin{gathered} n \\\\ r \\end{gathered} ) p^{r ( 1 - p )^{n} - r}$\n  \n    - If there are *r* successes then there are $( n - r )$ failures\n    - The number of times this can happen is calculated by the **binomial coefficient**\n    - $( \\begin{gathered} n \\\\ r \\end{gathered} ) = C pre^{n}_{r} = \\frac{n factorial}{r \\text{factorial} ( n - r ) factorial}$\n- This can be seen by considering a **probability tree diagram** with *n *trials, where *p* is the probability of success and the tree diagram is being used to find *r *successes\n- $( \\begin{gathered} n \\\\ r \\end{gathered} )$ is the number of pathways through the tree there would be exactly *r* successes within the *n* trials\n- The formula allows statisticians to quickly find probabilities for larger values of *n* without needing to draw the whole tree diagram\n- Your calculator may have a function that would allow you to calculate binomial probabilities\n\n  - You can learn how to use this to check your work but it is important you always show your working using the formula to get the marks in the exam"
   },
   {
    "type": "heading",
@@ -171,7 +171,7 @@
    "type": "callout",
    "variant": "worked-example",
    "label": "Worked Example",
-   "md": "If $X$ is the random variable `X tilde straight B left parenthesis 10 comma 0.35 right parenthesis`. Find:\n\n(i) $P(X=3)$\n\n(ii) $P(X\\leq3)$\n\n(iii) $P(X>3)$\n\n(iv) $P(3<X<6)$\n\n**Answer:**\n\n![3-2-2-calculating-binomial-probabilities-we-solution](assets/fa956f713b35-image.bin)"
+   "md": "If $X$ is the random variable $X \\sim \\mathrm{B} ( 10 , 0.35 )$. Find:\n\n(i) $P(X=3)$\n\n(ii) $P(X\\leq3)$\n\n(iii) $P(X>3)$\n\n(iv) $P(3<X<6)$\n\n**Answer:**\n\n![3-2-2-calculating-binomial-probabilities-we-solution](assets/fa956f713b35-image.bin)"
   },
   {
    "type": "callout",

@@ -22,37 +22,37 @@ guided_study: false
 - The **gradient of a curve** at a point is the **gradient of the tangent** to the curve at that point
 
   - **Find the** **gradient **by **substituting the value of **$x$** **at that point into the **derivative** of the curve
-- For example, if `straight f open parentheses x close parentheses equals x squared plus 3 x minus 4`
+- For example, if $\mathrm{f} ( x ) = x^{2} + 3 x - 4$
 
-  - then `straight f apostrophe open parentheses x close parentheses equals 2 x plus 3`
-  - the gradient of `y equals straight f open parentheses x close parentheses` when $x=1$ is  `straight f to the power of apostrophe open parentheses 1 close parentheses equals 2 open parentheses 1 close parentheses plus 3 equals 5`
-  - the gradient of `y equals straight f open parentheses x close parentheses` when $x=-2$ is  `straight f to the power of apostrophe open parentheses negative 2 close parentheses equals 2 open parentheses negative 2 close parentheses plus 3 equals negative 1`
+  - then $\mathrm{f} ' ( x ) = 2 x + 3$
+  - the gradient of $y = \mathrm{f} ( x )$ when $x=1$ is  $\mathrm{f}^{'} ( 1 ) = 2 ( 1 ) + 3 = 5$
+  - the gradient of $y = \mathrm{f} ( x )$ when $x=-2$ is  $\mathrm{f}^{'} ( - 2 ) = 2 ( - 2 ) + 3 = - 1$
 - Your exam calculator cannot find a derivative **function** in terms of $x$
 
   - But it may be able to find the **numerical value** of a derivative at a point
   - You can use this to **check your work**
 
 > **Worked Example**
-> A function $f$ is defined by `straight f open parentheses x close parentheses equals x cubed minus 6 x squared plus 5 x minus 12`.
+> A function $f$ is defined by $\mathrm{f} ( x ) = x^{3} - 6 x^{2} + 5 x - 12$.
 > 
-> (a) Find `straight f to the power of apostrophe open parentheses x close parentheses`.
+> (a) Find $\mathrm{f}^{'} ( x )$.
 > 
 > > *This is a 'powers of *$x$*' derivative*
 > 
-> `straight f to the power of apostrophe open parentheses x close parentheses equals 3 x to the power of 3 minus 1 end exponent minus 6 open parentheses 2 x to the power of 2 minus 1 end exponent close parentheses plus 5`
+> $\mathrm{f}^{'} ( x ) = 3 x^{3 - 1} - 6 ( 2 x^{2 - 1} ) + 5$
 > 
 > $f^{'}(x)=3x^{2}-12x+5$
 > 
-> (b) Show that the curve `y equals straight f open parentheses x close parentheses` goes through the point `open parentheses 2 comma space minus 18 close parentheses`, and find the gradient of the tangent to the curve at that point.
+> (b) Show that the curve $y = \mathrm{f} ( x )$ goes through the point $( 2 , - 18 )$, and find the gradient of the tangent to the curve at that point.
 > 
-> > *Substitute *$x=2$* into *`straight f open parentheses x close parentheses`* *
+> > *Substitute *$x=2$* into *$\mathrm{f} ( x )$* *
 > 
-> `table row cell straight f open parentheses 2 close parentheses end cell equals cell open parentheses 2 close parentheses cubed minus 6 open parentheses 2 close parentheses squared plus 5 open parentheses 2 close parentheses minus 12 end cell row blank equals cell 8 minus 24 plus 10 minus 12 end cell row blank equals cell negative 18 end cell end table`
+> $\begin{gathered} \mathrm{f} ( 2 ) & = ( 2 )^{3} - 6 ( 2 )^{2} + 5 ( 2 ) - 12 \\ = 8 - 24 + 10 - 12 \\ = - 18 \end{gathered}$
 > 
 > **Final answer:** $f(2)=-18$** so the curve goes through **$(2,-18)$
 > 
-> > *Now substitute *$x=2$* into *`straight f to the power of apostrophe open parentheses x close parentheses`* to find the gradient*
+> > *Now substitute *$x=2$* into *$\mathrm{f}^{'} ( x )$* to find the gradient*
 > 
-> `table row cell straight f apostrophe open parentheses 2 close parentheses end cell equals cell 3 open parentheses 2 close parentheses squared minus 12 open parentheses 2 close parentheses plus 5 end cell row blank equals cell 12 minus 24 plus 5 end cell row blank equals cell negative 7 end cell end table`
+> $\begin{gathered} \mathrm{f} ' ( 2 ) & = 3 ( 2 )^{2} - 12 ( 2 ) + 5 \\ = 12 - 24 + 5 \\ = - 7 \end{gathered}$
 > 
 > **Final answer:** **gradient **$=-7$

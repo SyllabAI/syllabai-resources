@@ -95,7 +95,7 @@ guided_study: false
 > 
 > **Step 3: Calculate the angle using trigonometry**
 > 
-> `table attributes columnalign left end attributes row cell t a n theta equals 2 over 5 equals 0.4 end cell row cell theta equals tan to the power of negative 1 end exponent left parenthesis 0.4 right parenthesis end cell end table`
+> $\begin{array}{l} t a n \\theta = \frac{2}{5} = 0.4 \\ \\theta = \tan ^{- 1} ( 0.4 ) \end{array}$
 > 
 > *θ* = 21.8
 > 

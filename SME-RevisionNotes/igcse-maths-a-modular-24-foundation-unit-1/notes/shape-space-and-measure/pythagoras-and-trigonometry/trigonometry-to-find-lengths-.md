@@ -73,14 +73,14 @@ guided_study: true
 
   - Remember to put brackets around the angle
   
-    - `sin open parentheses 50 close parentheses equals straight A over 7`  or  `cos open parentheses 40 close parentheses equals 3 over straight H`
+    - `sin ( 50 ) = A / 7`  or  `cos ( 40 ) = 3 / H`
 - **STEP 4**
 **Rearrange** and **solve** for the **unknown letter**
 
   - You will either need to **multiply** or **divide**
   
-    - `sin open parentheses 50 close parentheses equals straight A over 7` leads to `straight A equals 7 cross times sin open parentheses 50 close parentheses`
-    - `cos open parentheses 40 close parentheses equals 3 over straight H` leads to `straight H equals fraction numerator 3 over denominator cos open parentheses 40 close parentheses end fraction`
+    - `sin ( 50 ) = A / 7` leads to $\mathrm{A} = 7 \times \sin ( 50 )$
+    - `cos ( 40 ) = 3 / H` leads to $\mathrm{H} = \frac{3}{\cos ( 40 )}$
 - **STEP 5**
 **Type **the expression** into your calculator**
 
@@ -108,11 +108,11 @@ guided_study: true
 > 
 > > *We know A and we want to know O - that's TOA or *$\mathrm{tan}θ=\frac{\mathrm{opposite}}{\mathrm{adjacent}}$
 > 
-> `tan open parentheses 43 close parentheses equals x over 9`
+> $\tan ( 43 ) = \frac{x}{9}$
 > 
 > > *Multiply both sides by 9*
 > 
-> `9 cross times tan open parentheses 43 close parentheses space equals space x`
+> $9 \times \tan ( 43 ) = x$
 > 
 > > *Enter on your calculator*
 > 

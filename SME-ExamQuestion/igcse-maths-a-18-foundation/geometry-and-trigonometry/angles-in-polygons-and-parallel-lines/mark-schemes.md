@@ -28,7 +28,7 @@ $BFC=BCF=63^{^{\circ}}$
 
 > *Calculate angle **CBF** using the fact that angles in a triangle add up to 180*<sup>*o*</sup>
 
-`table row cell 180 minus open parentheses 63 plus 63 close parentheses end cell equals cell 180 minus 126 end cell row blank equals cell 54 to the power of degree space end exponent end cell end table`
+$\begin{gathered} 180 - ( 63 + 63 ) & = 180 - 126 \\ = 54^{^{\circ} } \end{gathered}$
 
 *because interior angles of a triangle add up to 180°*
 
@@ -36,7 +36,7 @@ $BFC=BCF=63^{^{\circ}}$
 
 > *Calculate angle *$x$* using the fact that adjacent angles on a straight line add up to 180*<sup>*o*</sup>
 
-`table row cell 180 minus open parentheses 39 plus 54 close parentheses end cell equals cell 180 minus 93 end cell row blank equals cell 87 degree end cell end table`
+$\begin{gathered} 180 - ( 39 + 54 ) & = 180 - 93 \\ = 87^{\circ} \end{gathered}$
 
 *because adjacent angles on a straight line add up to 180°*
 
@@ -58,9 +58,9 @@ $BFC=BCF=63^{^{\circ}}$
 ## Q2 — hard — 5 marks · exam-questions
 
 ### 22() — 5 marks
-> *Calculate the sum of interior angles for a pentagon using *`open parentheses n minus 2 close parentheses cross times 180`
+> *Calculate the sum of interior angles for a pentagon using *$( n - 2 ) \times 180$
 
-`open parentheses 5 minus 2 close parentheses cross times 180 equals 540`
+$( 5 - 2 ) \times 180 = 540$
 
 > *Calculate one interior angle of a regular pentagon by dividing by the 5 equal angles*
 
@@ -70,7 +70,7 @@ $540\div5=108$
 
 > *Calculate the sum of interior angles for an octagon*
 
-`open parentheses 8 minus 2 close parentheses cross times 180 equals 1080`
+$( 8 - 2 ) \times 180 = 1080$
 
 > *Calculate one interior angle of a regular octagon by dividing by the 8 equal angles*
 
@@ -88,7 +88,7 @@ $1080\div8=135$
 
 > *Calculate angle *$y$*using the sum of angles in a triangle rule*
 
-`180 minus open parentheses 27 plus 27 close parentheses equals 126`
+$180 - ( 27 + 27 ) = 126$
 
 **[M1]**
 
@@ -146,7 +146,7 @@ $AEB=180-74=106^{\circ}$
 
 > *Base angles in an isosceles triangle are equal*
 
-`x space equals space open parentheses 180 space minus space 106 close parentheses space divided by space 2`
+$x = ( 180 - 106 ) \div 2$
 
 **[M1]**
 
@@ -196,13 +196,13 @@ $180-125=55^{\circ}$
 ### 1() — 3 marks
 An exterior angle of a triangle is equal to the sum of the other two interior angles of the triangle
 
-`open parentheses 8 x plus 2 close parentheses plus open parentheses 11 x plus 10 close parentheses equals 15 x plus 32`
+$( 8 x + 2 ) + ( 11 x + 10 ) = 15 x + 32$
 
 **[M1]**
 
 Simplify the equation
 
-*  *`table row cell 19 x plus 12 space end cell equals cell space 15 x space plus space 32 end cell row cell 4 x space end cell equals 20 end table`
+*  *$\begin{gathered} 19 x + 12 & = 15 x + 32 \\ 4 x & = 20 \end{gathered}$
 
 **[M1]**
 

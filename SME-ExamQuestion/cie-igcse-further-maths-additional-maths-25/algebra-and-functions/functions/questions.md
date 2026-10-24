@@ -12,7 +12,7 @@
 
 A curve has the equation $y=5x^{2}-10x+9$.
 
-Write the equation in the form `y equals p open parentheses x plus q close parentheses squared plus r` where $p$, $q$ and $r$ are constants to be found.
+Write the equation in the form $y = p ( x + q )^{2} + r$ where $p$, $q$ and $r$ are constants to be found.
 
 **Q1** [1 mark]
 
@@ -20,31 +20,31 @@ Hence find the coordinates of the turning point on the curve.
 
 **Q1** [1 mark]
 
-Find the range of the function `straight f open parentheses x close parentheses equals 5 x squared minus 10 x plus 9` where $x\inℝ$.
+Find the range of the function $\mathrm{f} ( x ) = 5 x^{2} - 10 x + 9$ where $x\inℝ$.
 
 **Q1** [1 mark]
 
-Explain why the inverse function `straight f to the power of negative 1 end exponent open parentheses x close parentheses` does not exist.
+Explain why the inverse function $\mathrm{f}^{- 1} ( x )$ does not exist.
 
 ### Q2 — medium — 5 marks
 
 **Q2** [1 mark]
 
-Two functions are given by `straight f open parentheses x close parentheses equals 1 plus 8 x` where $x\inℝ$ and `straight g open parentheses x close parentheses equals 2 plus ln space x` where $x>0$.
+Two functions are given by $\mathrm{f} ( x ) = 1 + 8 x$ where $x\inℝ$ and $\mathrm{g} ( x ) = 2 + \ln x$ where $x>0$.
 
-Find an expression for `straight f to the power of negative 1 end exponent open parentheses x close parentheses`.
+Find an expression for $\mathrm{f}^{- 1} ( x )$.
 
 **Q2** [1 mark]
 
-State the geometric relationship between the graph of `y equals straight f open parentheses x close parentheses` and the graph of `y equals straight f to the power of negative 1 end exponent open parentheses x close parentheses`.
+State the geometric relationship between the graph of $y = \mathrm{f} ( x )$ and the graph of $y = \mathrm{f}^{- 1} ( x )$.
 
 **Q2** [2 marks]
 
-Find `fg squared open parentheses 1 close parentheses`.
+Find $fg^{2} ( 1 )$.
 
 **Q2** [1 mark]
 
-Explain why the function `gf open parentheses x close parentheses` does not exist.
+Explain why the function $gf ( x )$ does not exist.
 
 ### Q3 — very_hard — 10 marks
 
@@ -113,7 +113,7 @@ On the axes below, sketch the graph of $y=f(x)$ and the graph of $y=f^{-1}(x)$. 
 **Q5** [3 marks]
 
 $g(x)=x+5\mathrm{for}x\inℝ$
- `straight h open parentheses x close parentheses equals space square root of 2 x minus 3 end root space space for space x greater or equal than 3 over 2`
+ $\mathrm{h} ( x ) = \sqrt{2 x - 3} \text{for} x \text{greater} \text{or} \text{equal} \text{than} \frac{3}{2}$
 
 Solve $\mathrm{gh}(x)=7$.
 
@@ -126,7 +126,7 @@ Solve $\mathrm{gh}(x)=7$.
 
 ![q8-0606-m20-qp-22-additional-maths](assets/006-q8-0606-m20-qp-22-additional-maths.png)
 
-The diagram shows the graph of `straight f open parentheses x close parentheses equals a space cos space b x space plus c space for space 0 less or equal than x less or equal than fraction numerator 8 pi over denominator 3 end fraction`radians. Explain why $f$ is a function.
+The diagram shows the graph of $\mathrm{f} ( x ) = a \cos b x + c \text{for} 0 \text{less} \text{or} \text{equal} \text{than} x \text{less} \text{or} \text{equal} \text{than} \frac{8 \pi }{3}$radians. Explain why $f$ is a function.
 
 *Source: March 2020 0606/22 Q8A*
 
@@ -163,7 +163,7 @@ $f(x)=4\mathrm{ln}(2x-1)$
 
 **Q8** [5 marks]
 
-`straight g open parentheses x close parentheses equals 3 plus 1 over x space for space x greater or equal than 1`.
+$\mathrm{g} ( x ) = 3 + \frac{1}{x} \text{for} x \text{greater} \text{or} \text{equal} \text{than} 1$.
 
 (i) Find an expression for $g^{-1}(x)$.
 
@@ -184,7 +184,7 @@ $f(x)=4\mathrm{ln}(2x-1)$
 
 **Q9** [1 mark]
 
-`straight f space colon space x space rightwards arrow from bar space left parenthesis 2 x plus 3 right parenthesis squared space for space x space greater than space 0`
+$\mathrm{f} : x \rightarrow \text{from} \text{bar} ( 2 x + 3 )^{2} \text{for} x > 0$
 
 Find the range of $f$.
 
@@ -234,7 +234,7 @@ State the domain of $f^{-1}$.
 
 f : x → (2x+3)² for x > 0
 
-Given that `straight g space colon space x space rightwards arrow from bar space ln left parenthesis x plus 4 right parenthesis space for space x space greater than space 0`, find the exact solution of $\mathrm{fg}(x)=49$.
+Given that $\mathrm{g} : x \rightarrow \text{from} \text{bar} \ln ( x + 4 ) \text{for} x > 0$, find the exact solution of $\mathrm{fg}(x)=49$.
 
 *Source: june 2020 0606/12 Q5E*
 
@@ -243,7 +243,7 @@ Given that `straight g space colon space x space rightwards arrow from bar space
 
 **Q10** [4 marks]
 
-`straight h open parentheses x close parentheses space equals 2 space ln open parentheses 3 x minus 1 close parentheses space for space x greater or equal than 2 over 3`. 
+$\mathrm{h} ( x ) = 2 \ln ( 3 x - 1 ) \text{for} x \text{greater} \text{or} \text{equal} \text{than} \frac{2}{3}$. 
 The graph of $y=h(x)$ intersects the line $y=x$ at two distinct points. On the axes below, sketch the graph of $y=h(x)$ and hence sketch the graph of $y=h^{-1}(x)$.
 
 ![q10b-0606-m20-qp-22-additional-maths](assets/009-q10b-0606-m20-qp-22-additional-maths.png)
@@ -334,7 +334,7 @@ Find the exact solution of the equation $\mathrm{fg}(x)=21$, giving your answer 
 
 It is given that $h(x)=a+\frac{b}{x^{2}}$, where $a$ and $b$ are non-zero constants.
 
-(i) Explain why `– 2 space less-than or slanted equal to space x space less-than or slanted equal to space 2` is not a suitable domain for $h(x)$.
+(i) Explain why $- 2 \text{less} - \text{than} or \text{slanted} \text{equal} to x \text{less} - \text{than} or \text{slanted} \text{equal} to 2$ is not a suitable domain for $h(x)$.
 
 (ii) Given that $h(1)=4$ and $h'(1)=16$ , find the values of $a$ and $b$.
 
@@ -345,7 +345,7 @@ It is given that $h(x)=a+\frac{b}{x^{2}}$, where $a$ and $b$ are non-zero consta
 
 **Q14** [1 mark]
 
-It is given that `straight f open parentheses x close parentheses equals 5 space ln open parentheses 2 x plus 3 close parentheses space for space x greater than negative 3 over 2`.
+It is given that $\mathrm{f} ( x ) = 5 \ln ( 2 x + 3 ) \text{for} x > - \frac{3}{2}$.
 
 Write down the range of $f$.
 

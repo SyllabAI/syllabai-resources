@@ -307,10 +307,10 @@ Hydroelectric dams sometimes do use pumps to return the water to the reservoir. 
   - $E_{K}=\frac{1}{2}mv^{2}$
 - If the wind speed is reduced by half then:
 
-  - `E subscript K equals 1 half m open parentheses v over 2 close parentheses squared`
+  - $E_{K} = 1 \frac{1}{2} m ( \frac{v}{2} )^{2}$
   - $E_{K}=\frac{1}{2}m\frac{v^{2}}{2^{2}}$
   - $E_{K}=\frac{1}{2}m\frac{v^{2}}{4}$
-  - `E subscript K equals 1 fourth open parentheses 1 half m v squared close parentheses`
+  - $E_{K} = 1 \frac{1}{4} ( 1 \frac{1}{2} m v^{2} )$
 - If the wind speed is reduced by half, then the kinetic energy is reduced by a factor of 4
 
   - Or $\frac{1}{4}$ of the original *E*<sub>K</sub>
@@ -323,7 +323,7 @@ This is really a proportionality question, you need to be familiar with how to s
 
 - This question needs two equations:
 - **work done = force × distance**
-- **power = work done / time taken** work done per pallet = 5 000 × 30 = 150 000 J There are four pallets, so work done = 150 000 × 4 = 600 000 J don't forget to convert time to seconds! power = `fraction numerator 600 space 000 over denominator open parentheses 4 cross times 60 close parentheses end fraction` = 2500 W ( or J/s)
+- **power = work done / time taken** work done per pallet = 5 000 × 30 = 150 000 J There are four pallets, so work done = 150 000 × 4 = 600 000 J don't forget to convert time to seconds! power = $\frac{600 000}{( 4 \times 60 )}$ = 2500 W ( or J/s)
 
 ### Q27
 **Final answer:** **The correct answer is ****B**** because:**

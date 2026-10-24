@@ -62,7 +62,7 @@ For a **straight line** the gradient is always the same (**constant**)
 
 ### How do I find the gradient of a curve using calculus?
 
-- The **equation** of a curve can be given in the form `y equals straight f open parentheses x close parentheses`
+- The **equation** of a curve can be given in the form $y = \mathrm{f} ( x )$
 
   - Substituting *x*-coordinate **inputs** gives *y*-coordinate **outputs**
 - It is possible to create an algebraic** function **that take **inputs** of *x*-coordinates
@@ -78,10 +78,10 @@ For a **straight line** the gradient is always the same (**constant**)
 - The way to **write** this function is $\frac{dy}{dx}$
 
   - This is pronounced "d*y* by d*x*" or "d*y* over d*x*"
-  - In **function notation**, it can be written `straight f apostrophe open parentheses x close parentheses`
+  - In **function notation**, it can be written $\mathrm{f} ' ( x )$
   
     - pronounced "f-dash-of-*x" *or "f-prime-of-*x"*
-- To get from `y equals straight f open parentheses x close parentheses` to `fraction numerator straight d y over denominator straight d x end fraction equals straight f apostrophe open parentheses x close parentheses` you need to do an operation called **differentiation**
+- To get from $y = \mathrm{f} ( x )$ to $\frac{ \mathrm{d} y}{ \mathrm{d} x} = \mathrm{f} ' ( x )$ you need to do an operation called **differentiation**
 
   - Differentiation turns **curve equations** into **gradient functions**
   - There are **standard** **formulae** used to differentiate all the basic functions
@@ -90,8 +90,8 @@ For a **straight line** the gradient is always the same (**constant**)
   - There are also various **methods** for differentiating more complicated functions
   
     - See the '**Techniques of Differentiation**' revision note
-- Once you know `fraction numerator straight d y over denominator straight d x end fraction equals straight f to the power of apostrophe open parentheses x close parentheses` for a curve, you can find the **gradient** for **any point** on the curve
+- Once you know $\frac{ \mathrm{d} y}{ \mathrm{d} x} = \mathrm{f}^{'} ( x )$ for a curve, you can find the **gradient** for **any point** on the curve
 
-  - `straight f to the power of apostrophe open parentheses a close parentheses` gives the **value of the gradient** when $x=a$
+  - $\mathrm{f}^{'} ( a )$ gives the **value of the gradient** when $x=a$
   
     - See the '**Finding Gradients**' revision note for more details

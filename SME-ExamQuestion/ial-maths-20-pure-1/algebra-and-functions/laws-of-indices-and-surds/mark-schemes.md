@@ -7,7 +7,7 @@
 ### 1() — 3 marks
 (i)
 
-`81 to the power of 1 fourth end exponent equals fourth root of 81 equals 3`
+$81^{1 \frac{1}{4}} = \sqrt[4]{81} = 3$
 
 **Final answer:** **3**
 
@@ -15,7 +15,7 @@
 
 (ii)
 
-`8 to the power of 2 over 3 end exponent equals open parentheses 8 to the power of 1 third end exponent close parentheses squared equals open parentheses cube root of 8 close parentheses squared equals 2 squared equals 4`
+$8^{ \frac{2}{3} } = ( 8^{1 \frac{1}{3}} )^{2} = ( \sqrt[3]{8} )^{2} = 2^{2} = 4$
 
 **Final answer:** **4**
 
@@ -23,7 +23,7 @@
 
 (iii)
 
-`5 to the power of negative 2 end exponent equals open parentheses 5 to the power of negative 1 end exponent close parentheses squared equals open parentheses 1 fifth close parentheses squared equals 1 over 25`
+$5^{- 2} = ( 5^{- 1} )^{2} = ( 1 \frac{1}{5} )^{2} = \frac{1}{25}$
 
 $\frac{1}{25}$
 
@@ -74,17 +74,17 @@ $\frac{1}{25}$
 ### 1() — 3 marks
 > *Multiply by 9*
 
-`table row cell 1 over 9 x to the power of 4 over 5 end exponent end cell equals 9 row cell x to the power of 4 over 5 end exponent end cell equals 81 end table`
+$\begin{gathered} \frac{1}{9} x^{ \frac{4}{5} } & = 9 \\ x^{ \frac{4}{5} } & = 81 \end{gathered}$
 
 > *Rewrite as two powers*
 
-`table row cell open parentheses x to the power of 1 fifth end exponent close parentheses to the power of 4 end cell equals 81 end table`
+$\begin{gathered} ( x^{1 \frac{1}{5}} )^{4} & = 81 \end{gathered}$
 
 **[M1]**
 
 > *Find the fourth-root of both sides*
 
-`table row cell x to the power of 1 fifth end exponent end cell equals cell plus-or-minus fourth root of 81 end cell row cell x to the power of 1 fifth end exponent end cell equals cell plus-or-minus 3 end cell end table`
+$\begin{gathered} x^{1 \frac{1}{5}} & = \pm \sqrt[4]{81} \\ x^{1 \frac{1}{5}} & = \pm 3 \end{gathered}$
 
 **[M1]**
 

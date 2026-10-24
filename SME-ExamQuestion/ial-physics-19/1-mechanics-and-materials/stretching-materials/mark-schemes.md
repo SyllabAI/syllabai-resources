@@ -10,13 +10,13 @@ Show that the tension *T* in the rope is about 1.3 × 10<sup>3</sup> N:
 ![file-000---2023-01-13t155501-419](assets/009-file-000-2023-01-13t155501-419.png)
 
 - Use trignometry to resolve *T* vertically:  $\mathrm{cos}θ=\frac{adj}{hyp}=\frac{T_{v}}{T}$
-- Resolving *T* vertically:  `T subscript v space equals space T space cos space open parentheses 76 degree close parentheses`** [1 mark]**
+- Resolving *T* vertically:  $T_{v} = T \cos ( 76^{\circ} )$** [1 mark]**
 - When the forces are in equilibrium, Upward forces = Downward forces
-- Hence, `W space equals space 2 T subscript v space equals space 2 T space cos space open parentheses 76 degree close parentheses`
+- Hence, $W = 2 T_{v} = 2 T \cos ( 76^{\circ} )$
 
 Calculate the tension *T*:
 
-- `T space equals space 1 half cross times fraction numerator W over denominator cos space open parentheses 76 degree close parentheses end fraction space equals space fraction numerator 650 over denominator 2 cross times cos space open parentheses 76 degree close parentheses end fraction` **[1 mark]**
+- $T = 1 \frac{1}{2} \times \frac{W}{\cos ( 76^{\circ} )} = \frac{650}{2 \times \cos ( 76^{\circ} )}$ **[1 mark]**
 - $T=1343N$ **[1 mark]**
 
 **[Total: 3 marks]**
@@ -32,12 +32,12 @@ i) Determine the strain in the rope while it is supporting the weight of the cli
 
 ![file-000---2023-01-13t165829-653](assets/011-file-000-2023-01-13t165829-653.png)
 
-- Using trigonometry:  `1 half open parentheses x space plus space increment x close parentheses space equals fraction numerator space 60 over denominator sin space open parentheses 76 degree close parentheses end fraction space equals space 61.8 space straight m` **[1 mark]**
+- Using trigonometry:  $1 \frac{1}{2} ( x + \Delta x ) = \frac{ 60}{\sin ( 76^{\circ} )} = 61.8 \mathrm{m}$ **[1 mark]**
 
 Determine the extension:
 
-- `x space plus space increment x space equals space 2 cross times 61.8 space space space space space rightwards double arrow space space space space space increment x space equals space open parentheses 2 cross times 61.8 close parentheses space minus space x`
-- `increment x space equals space open parentheses 2 cross times 61.8 close parentheses minus 120 space equals space 3.7 space straight m`
+- $x + \Delta x = 2 \times 61.8 \Leftrightarrow \Delta x = ( 2 \times 61.8 ) - x$
+- $\Delta x = ( 2 \times 61.8 ) - 120 = 3.7 \mathrm{m}$
 
 Determine the strain:
 
@@ -48,7 +48,7 @@ ii) Determine the Young modulus of the rope material:
 
 - Stress:  $σ=\frac{F}{A}=\frac{1343}{3.14\times10^{-4}}=4.28\times10^{6}\mathrm{Pa}$ **[1 mark]**
 - Young Modulus:  $E=\frac{σ}{ε}=\frac{4.28\times10^{6}}{0.031}=1.38\times10^{8}\mathrm{Pa}$ **[1 mark]**
-- `E space equals space 1.4 cross times 10 to the power of 8 space Pa space open parentheses 2 space straight s. straight f. close parentheses` **[1 mark]**
+- $E = 1.4 \times 10^{8} \text{Pa} ( 2 \mathrm{s} . \mathrm{f} . )$ **[1 mark]**
 
 **[Total: 6 marks]**
 
@@ -76,7 +76,7 @@ List the known quantities:
 Determine an equation for the young modulus, *E *and substitute in the values:
 
 - $E=\frac{σ}{ε}$, $σ=\frac{F}{A}$ and $ε=\frac{\Deltax}{x}$
-- `E equals fraction numerator open parentheses F over A close parentheses over denominator open parentheses fraction numerator increment x over denominator x end fraction close parentheses end fraction equals fraction numerator F x over denominator A increment x end fraction` **[1 mark]**
+- $E = \frac{ ( \frac{F}{A} ) }{ ( \frac{\Delta x}{x} ) } = \frac{F x}{A \Delta x}$ **[1 mark]**
 
 Write the equation in terms of *k*:
 
@@ -85,7 +85,7 @@ Write the equation in terms of *k*:
 
 Rearrange for *k* and substitute in the values:
 
-- `k space equals fraction numerator space E A over denominator x end fraction space equals space fraction numerator open parentheses 2.70 cross times 10 to the power of 9 close parentheses cross times open parentheses 3.00 cross times 10 to the power of 4 close parentheses over denominator 6.00 end fraction` **[1 mark]**
+- $k = \frac{ E A}{x} = \frac{( 2.70 \times 10^{9} ) \times ( 3.00 \times 10^{4} )}{6.00}$ **[1 mark]**
 - $k=1.35\times10^{5}Nm^{-1}$ **[1 mark]**
 
 ii) Determine the extension of the rope while the lift is taking place:
@@ -106,7 +106,7 @@ Calculate the extension of the rope, Δx:
 
 iii) Calculate the work done in stretching the rope:
 
-- `increment E subscript e l end subscript equals 1 half F increment x equals 1 half cross times 2500 cross times open parentheses 1.85 cross times 10 to the power of negative 2 end exponent close parentheses` **[1 mark]**
+- $\Delta E_{e l} = 1 \frac{1}{2} F \Delta x = 1 \frac{1}{2} \times 2500 \times ( 1.85 \times 10^{- 2} )$ **[1 mark]**
 - Work done = 23.13 J **[1 mark]**
 
 **[Total: 8 marks]**
@@ -161,7 +161,7 @@ Use a triangle on the graph to determine the gradient:
 
 Calculate gradient:
 
-- `gradient italic space equals space fraction numerator straight capital delta y over denominator straight capital delta x end fraction space equals space fraction numerator 39 space minus space 0 over denominator open parentheses 2.1 space cross times space 10 to the power of negative 3 end exponent close parentheses space minus space 0 end fraction space equals space 18 space 570 space equals space 18 space 600 space straight N space straight m to the power of negative 1 end exponent`
+- `gradient = ( capital delta y)/( capital delta x) = (39 - 0)/(( 2.1 x 10 ^ - 3 ) - 0) = 18 570 = 18 600 N m ^ - 1`
 - $\mathrm{gradient}=19000Nm^{-1}$ (accepted answers round to 18 000 or 19 000 to 2 s.f.) **[1 mark]**
 
 ii) Determine the Young modulus of stainless steel using your value for the gradient:
@@ -180,7 +180,7 @@ From the list of data, formulae and relationships:
 
 Substitute the equations for stress and strain into the equation for Young's modulus:
 
-- `E space equals space fraction numerator bevelled F over A over denominator bevelled fraction numerator straight capital delta x over denominator x end fraction end fraction space equals space fraction numerator F x over denominator open parentheses straight capital delta x close parentheses A end fraction`
+- `E = (bevelled F / A)/(bevelled ( capital delta x)/(x)) = (F x)/(( capital delta x ) A)`
 
 Substitute the gradient from part **(i)**:
 
@@ -189,12 +189,12 @@ Substitute the gradient from part **(i)**:
 
 Calculate the cross-sectional area:
 
-- `A space equals space straight pi r squared space equals space straight pi open parentheses d over 2 close parentheses squared space equals space fraction numerator straight pi d squared over denominator 4 end fraction`
-- `A space equals space fraction numerator straight pi space cross times space open parentheses 5.6 space cross times space 10 to the power of negative 4 end exponent close parentheses squared over denominator 4 end fraction space equals space 2.46 space cross times space 10 to the power of negative 7 end exponent space straight m squared` **[1 mark]**
+- $A = \mathrm{\pi } r^{2} = \mathrm{\pi } ( \frac{d}{2} )^{2} = \frac{ \mathrm{\pi } d^{2}}{4}$
+- $A = \frac{ \mathrm{\pi } \times ( 5.6 \times 10^{- 4} )^{2}}{4} = 2.46 \times 10^{- 7} \mathrm{m}^{2}$ **[1 mark]**
 
 Calculate $E$ using this:
 
-- `capital epsilon space equals space fraction numerator k x over denominator A end fraction space equals space fraction numerator open parentheses 18 space 600 close parentheses space cross times space 2.6 over denominator open parentheses 2.46 space cross times space 10 to the power of negative 7 end exponent close parentheses end fraction space equals space 1.963 space cross times space 10 to the power of 11 space Pa`
+- $\Epsilon = \frac{k x}{A} = \frac{( 18 600 ) \times 2.6}{( 2.46 \times 10^{- 7} )} = 1.963 \times 10^{11} \text{Pa}$
 - $\mathrm{Young}'s\mathrm{modulus}=2.0\times10^{11}\mathrm{Pa}$ (range of 1.9 to 2.0 × 10<sup>11</sup> Pa accepted) **[1 mark]**
 
 **[Total: 5 marks]**
@@ -213,7 +213,7 @@ List the known quantities:
 Use the stress equation to determine the maximum force:
 
 - $σ_{max}=\frac{F_{max}}{A}$
-- `F subscript m a x end subscript space equals space A sigma subscript m a x end subscript space equals space open parentheses 2.46 space cross times space 10 to the power of negative 7 end exponent close parentheses space cross times space open parentheses 4.80 space cross times space 10 to the power of 8 close parentheses` **[1 mark]**
+- $F_{m a x} = A \sigma_{m a x} = ( 2.46 \times 10^{- 7} ) \times ( 4.80 \times 10^{8} )$ **[1 mark]**
 - $\mathrm{max} \mathrm{force}=118N$ **[1 mark]**
 
 Compare this to the student's proposed added weight:
@@ -281,7 +281,7 @@ List the known quantities:
 Calculate the kinetic energy:
 
 - $E_{k}=\frac{1}{2}mv^{2}$
-- `E subscript k space equals space 1 half cross times open parentheses 12 cross times 10 to the power of negative 3 end exponent close parentheses cross times open parentheses 8.0 cross times 10 to the power of negative 2 end exponent close parentheses squared` **[1 mark]**
+- $E_{k} = 1 \frac{1}{2} \times ( 12 \times 10^{- 3} ) \times ( 8.0 \times 10^{- 2} )^{2}$ **[1 mark]**
 - *E*<sub>*k*</sub> = 3.84 × 10<sup>−5</sup> J **[1 mark]**
 
 **[Total: 2 marks]**
@@ -298,7 +298,7 @@ Since the elastic energy stored in the spring is equal to the kinetic energy aft
 
 - $\DeltaE_{el}=\frac{1}{2}F\Deltax$
 - $\DeltaE_{el}=\frac{1}{2}\timesF\times0.05=3.84\times10^{-5}J$ **[1 mark]**
-- `F space equals space fraction numerator 2 cross times open parentheses 3.84 cross times 10 to the power of negative 5 end exponent close parentheses over denominator 0.05 end fraction`
+- $F = \frac{2 \times ( 3.84 \times 10^{- 5} )}{0.05}$
 - *F* = 1.54 × 10<sup>−3</sup> N **[1 mark]**
 
 **[Total: 2 marks]**
@@ -369,7 +369,7 @@ The graph showing the variation of launch velocity with the length of the spring
 
 - If the diameter is doubled, then the radius is doubled
 
-  - Therefore, `T space proportional to space open parentheses 2 r close parentheses squared space space space space space rightwards double arrow space space space space space T space proportional to space 4 r squared`
+  - Therefore, $T \propto ( 2 r )^{2} \Leftrightarrow T \propto 4 r^{2}$
 
 - Doubling the diameter will increase the tension force by a factor of 4
 
@@ -398,7 +398,7 @@ The graph showing the variation of launch velocity with the length of the spring
 - The equation for the Young modulus is $E=\frac{σ}{ε}$
 - Combining these equations gives:
 
-  - `E equals fraction numerator open parentheses F over A close parentheses over denominator fraction numerator increment x over denominator x end fraction end fraction equals fraction numerator F x over denominator A increment x end fraction`
+  - $E = \frac{ ( \frac{F}{A} ) }{\frac{\Delta x}{x}} = \frac{F x}{A \Delta x}$
 - Rearranging for change in length gives:
 
   - $\Deltax=\frac{Fx}{AE}$
@@ -437,7 +437,7 @@ $E=\frac{F}{A}\times\frac{L}{x}$
 
 - The cross-sectional area of a wire is
 
-`A space equals space straight pi r squared space equals space straight pi open parentheses d over 2 close parentheses squared space equals space fraction numerator straight pi d squared over denominator 4 end fraction`
+$A = \mathrm{\pi } r^{2} = \mathrm{\pi } ( \frac{d}{2} )^{2} = \frac{ \mathrm{\pi } d^{2}}{4}$
 
 - Rearrange for extension
 
@@ -445,6 +445,6 @@ $x=\frac{4FL}{Eπd^{2}}$
 
 - For the second wire, $L\rightarrow3L$ and $d\rightarrowd/2$, with $F$ and $E$ unchanged
 
-`x apostrophe space equals space fraction numerator 4 F open parentheses 3 L close parentheses over denominator E straight pi open parentheses d divided by 2 close parentheses squared end fraction space equals space 12 cross times fraction numerator 4 F L over denominator E straight pi d squared end fraction`
+$x ' = \frac{4 F ( 3 L )}{E \mathrm{\pi } ( d \div 2 )^{2}} = 12 \times \frac{4 F L}{E \mathrm{\pi } d^{2}}$
 
 $x'=12x$

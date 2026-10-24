@@ -120,7 +120,7 @@ BIDMAS/BODMAS is an acronym that stands for the **order of operations** in mathe
 
 When using **BIDMAS/BODMAS **on a calculation that only involves **addition **and **subtraction**, the calculation should be performed from **left to right**.
 
-E.g. `table row blank blank cell 2 minus 5 plus 7 minus 3 minus 2 end cell end table`
+E.g. $\begin{gathered} 2 - 5 + 7 - 3 - 2 \end{gathered}$
 
 
 **BACK**
@@ -129,8 +129,8 @@ E.g. `table row blank blank cell 2 minus 5 plus 7 minus 3 minus 2 end cell end t
 
 When using BIDMAS/BODMAS on a calculation that only involves addition and subtraction, the calculation should be performed from left to right.
 
-E.g. `table row blank blank cell 2 minus 5 plus 7 minus 3 minus 2 end cell end table`
-`table row blank equals cell negative 3 plus 7 minus 3 minus 2 end cell row blank equals cell 4 minus 3 minus 2 end cell row blank equals cell 1 minus 2 end cell row blank equals cell negative 1 end cell end table`
+E.g. $\begin{gathered} 2 - 5 + 7 - 3 - 2 \end{gathered}$
+$\begin{gathered} = - 3 + 7 - 3 - 2 \\ = 4 - 3 - 2 \\ = 1 - 2 \\ = - 1 \end{gathered}$
 
 
 

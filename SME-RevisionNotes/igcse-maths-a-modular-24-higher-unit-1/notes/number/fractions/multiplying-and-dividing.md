@@ -22,7 +22,7 @@ guided_study: false
 - **Cancel** any factors that are common to both the ***numerator*** and the ***denominator***
 
   - The common factors could be in either of the fractions
-  - `3 over 25 cross times 10 over 11 equals 3 over up diagonal strike 25 to the power of 5 cross times up diagonal strike 10 squared over 11 equals 3 over 5 cross times 2 over 11`
+  - `3 / 25 x 10 / 11 = 3 / / 25 ^ 5 x / 10 ^2 / 11 = 3 / 5 x 2 / 11`
 - **Multiply**
 
   - Multiply the **numerators**
@@ -48,7 +48,7 @@ guided_study: false
 > 
 > > *The 15 and 25 can be cancelled before multiplying*
 > 
-> `fraction numerator 4 over denominator 3 cross times 5 end fraction cross times fraction numerator 5 cross times 5 over denominator 11 end fraction equals fraction numerator 4 over denominator 3 cross times up diagonal strike 5 end fraction cross times fraction numerator up diagonal strike 5 cross times 5 over denominator 11 end fraction equals 4 over 3 cross times 5 over 11`
+> $\frac{4}{3 \times 5} \times \frac{5 \times 5}{11} = \frac{4}{3 \times \cancel{5} } \times \frac{ \cancel{5} \times 5}{11} = \frac{4}{3} \times \frac{5}{11}$
 > 
 > > *Multiply the numerators together and the denominators together*
 > 
@@ -107,7 +107,7 @@ guided_study: false
 > 
 > > *Cancel a factor of 4 from the numerators and denominators*
 > 
-> `13 over 4 cross times 8 over 3 equals fraction numerator 13 over denominator up diagonal strike 4 end fraction cross times fraction numerator up diagonal strike 4 cross times 2 over denominator 3 end fraction equals 13 over 1 cross times 2 over 3`
+> $\frac{13}{4} \times \frac{8}{3} = \frac{13}{ \cancel{4} } \times \frac{ \cancel{4} \times 2}{3} = \frac{13}{1} \times \frac{2}{3}$
 > 
 > > *Multiply the fractions*
 > 

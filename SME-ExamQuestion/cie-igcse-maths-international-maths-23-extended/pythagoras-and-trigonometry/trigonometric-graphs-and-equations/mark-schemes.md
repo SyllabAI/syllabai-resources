@@ -8,35 +8,35 @@
 ### Q1
 > *The amplitude is 4, so *$p=4$
 
-`straight f open parentheses x close parentheses equals 4 sin open parentheses q x close parentheses`
+$\mathrm{f} ( x ) = 4 \sin ( q x )$
 
 **[M1]**
 
-> *The period of *`sin open parentheses x close parentheses`* is 360, but you are told the period of *`p sin open parentheses q x close parentheses`* is 120*
+> *The period of *$\sin ( x )$* is 360, but you are told the period of *$p \sin ( q x )$* is 120*
 
 > *The period is 3 times smaller, so *$q=3$
 
-`straight f open parentheses x close parentheses equals 4 sin open parentheses 3 x close parentheses`
+$\mathrm{f} ( x ) = 4 \sin ( 3 x )$
 
 **[M1]**
 
 > **[exam-tip]**
-> Alternatively you can use the fact that the period of `a sin open parentheses b x close parentheses` is given by $\frac{360}{b}$. This means $\frac{360}{b}=120$ and hence $b=3$.
+> Alternatively you can use the fact that the period of $a \sin ( b x )$ is given by $\frac{360}{b}$. This means $\frac{360}{b}=120$ and hence $b=3$.
 
-> *Substitute in *$x=45$* to find *`straight f open parentheses 45 close parentheses`
+> *Substitute in *$x=45$* to find *$\mathrm{f} ( 45 )$
 
-`straight f open parentheses 45 close parentheses equals 4 sin open parentheses 3 cross times 45 close parentheses`
+$\mathrm{f} ( 45 ) = 4 \sin ( 3 \times 45 )$
 
 > *Evaluate using your calculator*
 
-`straight f open parentheses 45 close parentheses equals 2 square root of 2`
+$\mathrm{f} ( 45 ) = 2 \sqrt{2}$
 
 **[A1]**
 
 > **[mark-scheme]**
-> **M1**: Expression in the form `4 sin open parentheses q x close parentheses` used.
+> **M1**: Expression in the form $4 \sin ( q x )$ used.
 > 
-> **M1**: Expression in the form `p sin open parentheses 3 x close parentheses` used.
+> **M1**: Expression in the form $p \sin ( 3 x )$ used.
 > 
 > **A1**: Correct final answer.
 
@@ -78,7 +78,7 @@ $\frac{360^{\circ}}{1440^{\circ}}=\frac{1}{4}$
 **Period = **$180^{\circ}$**[1]**
 
 ### Q4
-> *For a graph in the form *`space straight f open parentheses x close parentheses equals a space sin space left parenthesis b x right parenthesis`*,  *$a$* is the amplitude of the function *
+> *For a graph in the form *$\mathrm{f} ( x ) = a \sin ( b x )$*,  *$a$* is the amplitude of the function *
 
 $a=3$
 
@@ -92,7 +92,7 @@ $b=4\,\frac{360^{\circ}}{4}=90$
 ### Q5
 > *Use inverse sin on your calculator to find the first solution*
 
-`sin to the power of negative 1 end exponent open parentheses negative 0.75 close parentheses equals negative 48.59037...`
+$\sin ^{- 1} ( - 0.75 ) = - 48.59037...$
 
 > *The range for answers for this question is *$0^{\circ}<x<360^{\circ}$*so the first solution is not an answer for this question*
 
@@ -130,21 +130,21 @@ $\frac{360}{2}=180$
 $180$** ****[1]**
 
 ### Q7
-> *For an oscillating function with equation *`straight f open parentheses x close parentheses equals a cos open parentheses b x close parentheses`*, *$a$* represents the amplitude of the function, so *$p=3$
+> *For an oscillating function with equation *$\mathrm{f} ( x ) = a \cos ( b x )$*, *$a$* represents the amplitude of the function, so *$p=3$
 
-`straight f open parentheses x close parentheses equals 3 cos open parentheses q x close parentheses`*  *
+$\mathrm{f} ( x ) = 3 \cos ( q x )$*  *
 
 **[1]**
 
 > $b$* determines the period of the function using: period = *$\frac{360^{\circ}}{b}$*, so *$q=\frac{360}{30}=12$
 
-`straight f open parentheses x close parentheses equals 3 cos open parentheses 12 x close parentheses`
+$\mathrm{f} ( x ) = 3 \cos ( 12 x )$
 
 **[1]**
 
-> *Substitute *$x=10$* into *`straight f open parentheses x close parentheses`* to find *`straight f open parentheses 10 close parentheses`
+> *Substitute *$x=10$* into *$\mathrm{f} ( x )$* to find *$\mathrm{f} ( 10 )$
 
-`straight f open parentheses 10 close parentheses equals 3 cos open parentheses 120 close parentheses`* *
+$\mathrm{f} ( 10 ) = 3 \cos ( 120 )$* *
 
 $f(10)=-1.5$** ****[1]**
 
@@ -174,8 +174,8 @@ $4\mathrm{cos}x=1\,\mathrm{cos}x=0.25$
 
 ![LNSFoWVp_ma-cie-igcse-2020-march-p2-tz2-q19b](assets/007-lnsfowvp-ma-cie-igcse-2020-march-p2-tz2-q19b.png)
 
-`x equals cos to the power of negative 1 end exponent space open parentheses 0.25 close parentheses
-x equals 75.522 space 487 space...`
+$x = \cos ^{- 1} ( 0.25 )
+x = 75.522 487 ...$
 
 * ***[1]**
 
@@ -260,7 +260,7 @@ ii) *In the interval *$0^{\circ}<x\leq360^{\circ}$* the graph of *$y=\mathrm{sin
 **Order and centre**** [1]**
 > *First rearrange the equation.*
 
-`table row cell 4 sin space x end cell equals 3 row cell sin space x end cell equals cell 3 over 4 end cell end table`
+$\begin{gathered} 4 \sin x & = 3 \\ \sin x & = \frac{3}{4} \end{gathered}$
 
 **[1]**
 
@@ -270,7 +270,7 @@ ii) *In the interval *$0^{\circ}<x\leq360^{\circ}$* the graph of *$y=\mathrm{sin
 
 > *There are indeed two solutions! Use your calculator to work out one of them.*
 
-`x equals sin to the power of negative 1 end exponent open parentheses 3 over 4 close parentheses equals 48.590 space 377 space...`
+$x = \sin ^{- 1} ( \frac{3}{4} ) = 48.590 377 ...$
 
 **[1]**
 
@@ -358,11 +358,11 @@ ii) *Check by using your calculator to input sin270°, your calculator will give
 ### Q15
 > *Isolate *$\mathrm{tan}x$* by dividing both sides by 5.*
 
-`table row cell fraction numerator 5 space tan space x over denominator 5 end fraction space end cell equals cell fraction numerator negative 7 over denominator 5 end fraction end cell row cell tan space x space end cell equals cell negative 7 over 5 end cell end table`
+$\begin{gathered} \frac{5 \tan x}{5} & = \frac{- 7}{5} \\ \tan x & = - \frac{7}{5} \end{gathered}$
 
 > *Use the *$\mathrm{tan}^{-1}$* button on your calculator to find the first value of *$x$
 
-`table row cell space x space end cell equals cell space tan to the power of space minus 1 end exponent open parentheses negative 7 over 5 close parentheses end cell row blank equals cell space minus 54.462322... end cell end table`
+$\begin{gathered} x & = \tan ^{ - 1} ( - \frac{7}{5} ) \\ = - 54.462322... \end{gathered}$
 
 **[1]**
 
@@ -372,9 +372,9 @@ ii) *Check by using your calculator to input sin270°, your calculator will give
 
 > *Look only for the solutions within the range *$0^{\circ}\leqx\leq360^{\circ}$*.*
 
-`table row cell x subscript 1 space end cell equals cell space table row blank blank minus end table table row blank blank 54 end table table row blank blank. end table table row blank blank 462322 end table table row blank blank. end table table row blank blank. end table table row blank blank. end table space plus space 180 space space equals space 125.5376... end cell end table`
+$\begin{gathered} x_{1} & = \begin{gathered} - \end{gathered} \begin{gathered} 54 \end{gathered} \begin{gathered} . \end{gathered} \begin{gathered} 462322 \end{gathered} \begin{gathered} . \end{gathered} \begin{gathered} . \end{gathered} \begin{gathered} . \end{gathered} + 180 = 125.5376... \end{gathered}$
 
-`table row cell x subscript 2 space end cell equals cell space 125.5376... space plus space 180 space equals space 305.5376.... end cell end table`
+$\begin{gathered} x_{2} & = 125.5376... + 180 = 305.5376.... \end{gathered}$
 
 > *These are the two values in the correct range. *
 
@@ -404,7 +404,7 @@ ii) *Check by using your calculator to input sin270°, your calculator will give
 ### Q17
 > *Take sin*<sup>*-1*</sup>* of both sides.*
 
-`x equals sin to the power of negative 1 end exponent open parentheses 0.36 close parentheses space`
+$x = \sin ^{- 1} ( 0.36 )$
 
 $x=21.10019...$
 
@@ -422,13 +422,13 @@ $158.9^{\circ}$* ***[1]**
 ### Q18
 > *Isolate *$\mathrm{tan}x$* by dividing both sides by 3.*
 
-`table row cell fraction numerator space 3 space tan space x over denominator 3 end fraction space end cell equals cell fraction numerator negative 4 over denominator 3 end fraction end cell row cell tan space x space end cell equals cell negative 4 over 3 end cell end table`
+$\begin{gathered} \frac{ 3 \tan x}{3} & = \frac{- 4}{3} \\ \tan x & = - \frac{4}{3} \end{gathered}$
 
 **[1]**
 
 > *Use the *$\mathrm{tan}^{-1}$* button on your calculator to find the first value of *$x$
 
-`table row cell space x space end cell equals cell space tan to the power of space minus 1 end exponent open parentheses negative 4 over 3 close parentheses end cell row blank equals cell space minus 53.1301... end cell end table`
+$\begin{gathered} x & = \tan ^{ - 1} ( - \frac{4}{3} ) \\ = - 53.1301... \end{gathered}$
 
 > *This is outside of the range given in the question so is not one of the correct answers. *
 
@@ -436,9 +436,9 @@ $158.9^{\circ}$* ***[1]**
 
 > *Look only for the solutions within the range *$0^{\circ}\leqx\leq360^{\circ}$*.*
 
-`table row cell x subscript 1 space end cell equals cell space minus 53.1301... space plus space 180 space space equals space 126.869... end cell end table`
+$\begin{gathered} x_{1} & = - 53.1301... + 180 = 126.869... \end{gathered}$
 
-`table row cell x subscript 2 space end cell equals cell space 126.869... space plus space 180 space equals space 306.869.... end cell end table`
+$\begin{gathered} x_{2} & = 126.869... + 180 = 306.869.... \end{gathered}$
 
 > *These are the two values in the correct range.*
 
@@ -473,13 +473,13 @@ $158.9^{\circ}$* ***[1]**
 ### Q20
 > *Use the *$\mathrm{tan}^{-1}$* button on your calculator to find the first value of *$x$*.*
 
-`table row cell space x space end cell equals cell space tan to the power of space minus 1 end exponent open parentheses 2 close parentheses end cell row blank equals cell space 63.434... end cell end table`
+$\begin{gathered} x & = \tan ^{ - 1} ( 2 ) \\ = 63.434... \end{gathered}$
 
 **[1]**
 
 > *The graph of*$\mathrm{tan}x$* repeats every 180° so the solutions will be this value ± 180°. Look only for the solutions within the range *$0^{\circ}\leqx\leq360^{\circ}$*.*
 
-`table row cell x space end cell equals cell space 63.434... space space end cell row blank blank blank row cell and space space space x space end cell equals cell space 180 space plus space 63.434... space end cell end table`
+`| x | = 63.434... | | _ _ _ | and x | = 180 + 63.434... | |`
 
 > *Round the answers to 1 decimal place.*
 
@@ -494,7 +494,7 @@ $\mathrm{cos}x=\frac{1}{3}$
 
 > *Use the *$\mathrm{cos}^{-1}$* button to find the first value of *$x$*.*
 
-`table row cell space x space end cell equals cell space cos to the power of negative 1 end exponent open parentheses 1 third close parentheses end cell row blank equals cell space 70.528... end cell end table`
+$\begin{gathered} x & = \cos ^{- 1} ( 1 \frac{1}{3} ) \\ = 70.528... \end{gathered}$
 
 **[1]**
 
@@ -504,7 +504,7 @@ $\mathrm{cos}x=\frac{1}{3}$
 
 > *Use the symmetry of the graph to find the second value of *$x$*.*
 
-`table row cell x space end cell equals cell space 70.528... space space end cell row blank blank blank row cell and space space space x space end cell equals cell space 360 space minus space 70.528... space end cell row blank equals cell space 289.471... end cell end table`
+`| x | = 70.528... | | _ _ _ | and x | = 360 - 70.528... | | _ = 289.471... | |`
 
 **[1]**
 
@@ -522,7 +522,7 @@ $\mathrm{cos}x=\frac{1}{3}$
 ### Q22
 *Make *$x$* the subject of the equation *$\mathrm{sin}x=0.43$* (using inverse sin)* * *
 
-`table row cell sin space x end cell equals cell 0.43 end cell row x equals cell sin to the power of negative 1 end exponent space 0.43 end cell end table` * *
+$\begin{gathered} \sin x & = 0.43 \\ x = \sin ^{- 1} 0.43 \end{gathered}$ * *
 
 *Use a calculator to find the value of *$\mathrm{sin}^{-1}0.43$ * *
 

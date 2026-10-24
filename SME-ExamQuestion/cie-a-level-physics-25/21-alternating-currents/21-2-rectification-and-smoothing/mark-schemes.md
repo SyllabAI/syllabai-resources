@@ -164,7 +164,7 @@ Recall the expression for $V_{r.m.s}$ and $V_{0}$:
 Substitute the peak voltage into the equation and calculate $V_{r.m.s}$:
 
 - $V_{r.m.s}=\frac{8}{\sqrt{2}}$
-- `V subscript r. m. s end subscript space equals space 5.66 space straight V space equals space 5.7 space straight V space open parentheses 2 s. f. close parentheses` **[1 mark]**
+- $V_{r. m. s} = 5.66 \mathrm{V} = 5.7 \mathrm{V} ( 2 s. f. )$ **[1 mark]**
 
 (ii) State the type of rectification shown in Fig. 5.1:
 
@@ -203,13 +203,13 @@ Use the capacitor discharge equation in terms of voltage:
 
 - $V=V_{0}e^{-\frac{t}{RC}}$ **[1 mark]**
 - $\frac{V}{V_{0}}=e^{-\frac{t}{RC}}$
-- `ln open parentheses V over V subscript 0 close parentheses space equals space minus fraction numerator t over denominator R C end fraction`
-- `R space equals space fraction numerator negative t over denominator C space ln open parentheses V over V subscript 0 close parentheses end fraction`
+- $\ln ( \frac{V}{V} _{0} ) = - \frac{t}{R C}$
+- `R = (- t)/(C ln ( V / V _ 0 ))`
 
 Substitute the known quantities into the equation:
 
-- `R space equals space fraction numerator negative open parentheses 3.5 space cross times space 10 to the power of negative 3 end exponent close parentheses over denominator open parentheses 85 space cross times space 10 to the power of negative 6 end exponent close parentheses space ln open parentheses 6 over 8 close parentheses end fraction` **[1 mark]**
-- `R space equals space 143 space straight capital omega space equals space 140 space straight capital omega space open parentheses 2 space straight s. straight f. close parentheses` **[1 mark]**
+- $R = \frac{- ( 3.5 \times 10^{- 3} )}{( 85 \times 10^{- 6} ) \ln ( \frac{6}{8} )}$ **[1 mark]**
+- `R = 143 capital omega = 140 capital omega ( 2 s. f. )` **[1 mark]**
 
 **[Total: 6 marks]**
 

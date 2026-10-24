@@ -357,7 +357,7 @@ $=75\mathrm{km}/\mathrm{hour}$
 
 > * Therefore before calculating the gradient, convert the times to minutes*
 
-*(20, 25) → *`open parentheses 1 third comma space 25 close parentheses`
+*(20, 25) → *$( 1 \frac{1}{3} , 25 )$
 
 ** converting the units**** [1]**
 
@@ -433,7 +433,7 @@ $=0.9\mathrm{km}/\mathrm{minute}$
 
 > *Note that Ian's speed is given in km/hour whereas the time on the graph is given in minutes. Therefore convert the speed to km/hour by multiplying by 60*
 
-`equals open parentheses 0.9 cross times 60 close parentheses space km divided by straight h`
+$= ( 0.9 \times 60 ) \text{km} \div \mathrm{h}$
 
 **Answer = 54 km/h**** [1]**
 
@@ -564,9 +564,9 @@ $h=3n+20$ **[1]**
 
 ![aqa-gcse-real-life-graphs-m10b](assets/058-aqa-gcse-real-life-graphs-m10b.png)
 
-> *Area of a trapezium *`equals 1 half open parentheses a plus b close parentheses cross times h`* where *$a$* and *$b$* are the parallel lengths and *$h$* is the height. In this case, *$a=22,b=18$* and *$h=15$*.*
+> *Area of a trapezium *$= 1 \frac{1}{2} ( a + b ) \times h$* where *$a$* and *$b$* are the parallel lengths and *$h$* is the height. In this case, *$a=22,b=18$* and *$h=15$*.*
 
-`area equals 1 half open parentheses 22 plus 18 close parentheses cross times 15`
+$\text{area} = 1 \frac{1}{2} ( 22 + 18 ) \times 15$
 
 **[1]**
 
@@ -606,11 +606,11 @@ $h=3n+20$ **[1]**
 
 > *The **area** under a **speed-time graph** represents the **distance** (because distance = speed × time).*
 
-> *The speed-time graph here is in the shape of a trapezium and area of a trapezium = *`1 half open parentheses a plus b close parentheses h`* where *$a$* and *$b$* are the parallel lengths and *$h$* is the perpendicular height. We can read these values from the graph:*
+> *The speed-time graph here is in the shape of a trapezium and area of a trapezium = *$1 \frac{1}{2} ( a + b ) h$* where *$a$* and *$b$* are the parallel lengths and *$h$* is the perpendicular height. We can read these values from the graph:*
 
 ![gcse-ocr-tqs-real-life-graphs-m6c](assets/055-gcse-ocr-tqs-real-life-graphs-m6c.png)
 
-*Distance = area = *`1 half open parentheses 35 plus 60 close parentheses cross times 20`
+*Distance = area = *$1 \frac{1}{2} ( 35 + 60 ) \times 20$
 
 **attempt seen to find the area under the graph (using trapezium or two triangles and a rectangle) ****[1]**** **
 
@@ -630,7 +630,7 @@ $h=3n+20$ **[1]**
 
 > *Round to at least 3 significant figures or state your answer as a recurring decimal.*
 
-**Answer = **$15.8$** or **`bold 15 bold. bold 8 bold 3 with bold dot on top`** m/s ****[1]**
+**Answer = **$15.8$** or **$15 . 8 \dot{3}$** m/s ****[1]**
 
 ## Q19 — medium — 4 marks · exam-questions
 
@@ -641,13 +641,13 @@ $h=3n+20$ **[1]**
 
 ![4ySv_oqn_gcse-ocr-tqs-real-life-graphs-m7](assets/049-4ysv-oqn-gcse-ocr-tqs-real-life-graphs-m7.png)
 
-> *Area of a trapezium = *`1 half open parentheses a plus b close parentheses h`* where *$a$* and *$b$* are the parallel lengths and *$h$* is the perpendicular height.*
+> *Area of a trapezium = *$1 \frac{1}{2} ( a + b ) h$* where *$a$* and *$b$* are the parallel lengths and *$h$* is the perpendicular height.*
 
-* area of trapezium 1 = *`1 half open parentheses 10 plus 14 close parentheses cross times 8 equals 96`
+* area of trapezium 1 = *$1 \frac{1}{2} ( 10 + 14 ) \times 8 = 96$
 
 **[1]**
 
-* area of trapezium 2 = *`1 half open parentheses 8 plus 10 close parentheses cross times 6 equals 54`
+* area of trapezium 2 = *$1 \frac{1}{2} ( 8 + 10 ) \times 6 = 54$
 
 **[1]**
 
@@ -738,11 +738,11 @@ $h=3n+20$ **[1]**
 ### 19() — 3 marks
 > *The **area** under a **speed-time graph** represents the **distance** (because distance = speed × time).*
 
-> *The area under the graph is a trapezium and area of a trapezium = *`1 half open parentheses a plus b close parentheses h`* where *$a$* and *$b$* are the parallel lengths and *$h$* is the perpendicular height.*
+> *The area under the graph is a trapezium and area of a trapezium = *$1 \frac{1}{2} ( a + b ) h$* where *$a$* and *$b$* are the parallel lengths and *$h$* is the perpendicular height.*
 
 ![gcse-ocr-tqs-real-life-graphs-h3a](assets/069-gcse-ocr-tqs-real-life-graphs-h3a.png)
 
-* area of trapezium = *`1 half open parentheses 25 plus 40 close parentheses cross times 30`
+* area of trapezium = *$1 \frac{1}{2} ( 25 + 40 ) \times 30$
 
 **attempt to find area under curve ****[1] **
 **correct substitution into trapezium formula (or a triangle and a rectangle) ****[1]**
@@ -754,7 +754,7 @@ $h=3n+20$ **[1]**
 ### 21((a)) — 3 marks
 > *In a **speed-time graph**, the **area under the graph** is the **distance** *
 
-> *This graph is in the shape of a trapezium and area of a trapezium *`equals 1 half open parentheses a plus b close parentheses cross times h`* where *$a$* and *$b$* are the parallel lines and *$h$* is the height. In this question, *$V$* is equivalent to *$h$* of the trapezium, so we find *$V$* by substituting into the trapeizium formula and solving for *$V$
+> *This graph is in the shape of a trapezium and area of a trapezium *$= 1 \frac{1}{2} ( a + b ) \times h$* where *$a$* and *$b$* are the parallel lines and *$h$* is the height. In this question, *$V$* is equivalent to *$h$* of the trapezium, so we find *$V$* by substituting into the trapeizium formula and solving for *$V$
 
 ![edexcel-tq-mis-2-17-h-1a](assets/002-edexcel-tq-mis-2-17-h-1a.png)
 
@@ -766,7 +766,7 @@ $h=3n+20$ **[1]**
 
 > *Now we can substitute all our values into the trapezium formula*
 
-`1750 equals 1 half open parentheses 40 plus 100 close parentheses cross times V`
+$1750 = 1 \frac{1}{2} ( 40 + 100 ) \times V$
 
 **[1]**
 
@@ -878,7 +878,7 @@ $14.8\mathrm{km}/h$* ***[1]**
 
 > *From 4 seconds onwards, the graph is a rectangle so area = length × height. The area needed is 55, the height is 10 and we need the length marked *$x$* on the diagram that gives 55. (Note that although it's marked on the diagram between 9 and 10, this is a guess and we don't actually know yet where it will be). *
 
-`table row 55 equals cell x cross times 10 end cell row x equals cell 55 over 10 equals 5.5 end cell end table`
+$\begin{gathered} 55 = x \times 10 \\ x = \frac{55}{10} = 5.5 \end{gathered}$
 
 **[1]**
 
@@ -892,7 +892,7 @@ $14.8\mathrm{km}/h$* ***[1]**
 
 > *In a **speed-time graph**, the **area under the graph** is the **distance.*
 
-> *This graph is in the shape of a trapezium and area of a trapezium *`equals 1 half open parentheses a plus b close parentheses cross times h`* where *$a$* and *$b$* are the parallel lines and *$h$* is the height.*
+> *This graph is in the shape of a trapezium and area of a trapezium *$= 1 \frac{1}{2} ( a + b ) \times h$* where *$a$* and *$b$* are the parallel lines and *$h$* is the height.*
 
 ![aqa-gcse-real-life-graphs-h6](assets/020-aqa-gcse-real-life-graphs-h6.png)
 
@@ -902,13 +902,13 @@ $t$* ***and*** '*$t-4$**'  or equivalent ****[1]**
 
 > *The smaller parallel length becomes  *$t-4$* and the height , *$h$*, is 10. Substitute these into the trapezium formula and equate to 75.*
 
-`75 equals 1 half open parentheses t plus t minus 4 close parentheses cross times 10`
+$75 = 1 \frac{1}{2} ( t + t - 4 ) \times 10$
 
 **[1]**
 
 > *Solve for *$t$*.*
 
-`table row 75 equals cell 5 open parentheses 2 t minus 4 close parentheses end cell row cell divided by 5 space space space end cell equals cell space space space space space space space space space space space space space space divided by 5 end cell row 15 equals cell 2 t minus 4 end cell row cell plus 4 space space space end cell equals cell space space space space space space space space space plus 4 space end cell row 19 equals cell 2 t end cell row cell divided by 2 space space space end cell equals cell space space space divided by 2 end cell row cell 9.5 end cell equals t end table`
+$\begin{gathered} 75 = 5 ( 2 t - 4 ) \\ \div 5 & = \div 5 \\ 15 = 2 t - 4 \\ + 4 & = + 4 \\ 19 = 2 t \\ \div 2 & = \div 2 \\ 9.5 & = t \end{gathered}$
 
 **After 9.5 seconds*** ***[1]**
 
@@ -964,7 +964,7 @@ $=\frac{4.6}{-2}=-2.3$
 
 > *Beth has 164 metres remaining, at a speed of 9 m/s. Time *$=\frac{\mathrm{distance}}{\mathrm{speed}}$*.*
 
-*Time for remaining 164 m = *`164 over 9 equals 18.2 with dot on top`* seconds*
+*Time for remaining 164 m = *$\frac{164}{9} = 18. \dot{2}$* seconds*
 
 **[1]**
 
@@ -1019,13 +1019,13 @@ $=\frac{4.6}{-2}=-2.3$
 
 ![CMA0Jupg_aqa-gcse-real-life-graphs-h10-1](assets/028-cma0jupg-aqa-gcse-real-life-graphs-h10-1.png)
 
-*Distance during first 50 seconds = Area 1 = *`1 half open parentheses 30 plus 50 close parentheses cross times 8 equals 320`
+*Distance during first 50 seconds = Area 1 = *$1 \frac{1}{2} ( 30 + 50 ) \times 8 = 320$
 
 **[1]**
 
 > *Now calculate the distance Amina completed between 50 and 64 seconds.*
 
-*Distance between 50 and 64 seconds = Area 2 = *`1 half open parentheses 5 plus 8 close parentheses cross times 14 equals 91`
+*Distance between 50 and 64 seconds = Area 2 = *$1 \frac{1}{2} ( 5 + 8 ) \times 14 = 91$
 
 **[1]**
 
@@ -1117,7 +1117,7 @@ $\mathrm{gradient}=\frac{y_{2}-y_{1}}{x_{2}-x_{1}}=\frac{350-280}{40-35}=\frac{7
 
 *The gradient is found using the difference in **y **over the difference in **x **(or rise over run). Keeping the units with the values as you substitute them in will help to see the final units.* * *
 
-* *`acceleration space equals rise over run space equals space fraction numerator 2 space space space open parentheses straight m divided by straight s close parentheses over denominator 14 space minus space 6 space space space open parentheses straight s close parentheses end fraction space equals space 1 fourth space fraction numerator straight m divided by straight s over denominator straight s end fraction`
+* *$\text{acceleration} = \frac{rise}{run} = \frac{2 ( \mathrm{m} \div \mathrm{s} )}{14 - 6 ( \mathrm{s} )} = 1 \frac{1}{4} \frac{ \mathrm{m} \div \mathrm{s} }{ \mathrm{s} }$
 
 **Final answer:** $\frac{1}{4}m/s^{2}$** **
 
@@ -1135,28 +1135,28 @@ $\mathrm{gradient}=\frac{y_{2}-y_{1}}{x_{2}-x_{1}}=\frac{350-280}{40-35}=\frac{7
 
 > *Area under graph = area of triangle **A **+ area of trapezium **B.*
 
-*Area of triangle *`table row blank blank cell table row equals cell 1 half cross times 6 space cross times space open parentheses v space minus space 2 close parentheses end cell end table table row equals cell space 3 open parentheses v space minus space 2 close parentheses end cell end table end cell end table`
+*Area of triangle *$\begin{gathered} \begin{gathered} = 1 \frac{1}{2} \times 6 \times ( v - 2 ) \end{gathered} \begin{gathered} = 3 ( v - 2 ) \end{gathered} \end{gathered}$
 
-*Area of trapezium*`table row cell table row equals cell space 1 half open parentheses v space plus space open parentheses v space minus space 2 close parentheses close parentheses cross times open parentheses 14 space minus space 6 close parentheses end cell end table end cell equals cell space 1 half open parentheses 2 v space minus space 2 close parentheses open parentheses 8 close parentheses space equals space 8 open parentheses v space minus space 1 close parentheses end cell end table`
+*Area of trapezium*$\begin{gathered} \begin{gathered} = 1 \frac{1}{2} ( v + ( v - 2 ) ) \times ( 14 - 6 ) \end{gathered} & = 1 \frac{1}{2} ( 2 v - 2 ) ( 8 ) = 8 ( v - 1 ) \end{gathered}$
 
-*Area under the graph *`table row equals cell space 3 open parentheses v space minus space 2 close parentheses space plus space 8 open parentheses v space minus space 1 close parentheses end cell end table`
+*Area under the graph *$\begin{gathered} = 3 ( v - 2 ) + 8 ( v - 1 ) \end{gathered}$
 
 **Correct expression for one area ****[1] **
 **Correct expression for both areas ****[1]**
 
 > *Form an equation using the distance of 80 m. *
 
-`3 open parentheses v space minus space 2 close parentheses space plus space 8 open parentheses v space minus space 1 close parentheses space equals space 80`
+$3 ( v - 2 ) + 8 ( v - 1 ) = 80$
 
 **Correct equation ****[1]**
 
 > *Simplify. *
 
-`table row cell 3 v space minus space 6 space plus space 8 v space minus space 8 space end cell equals cell space 80 space end cell row cell 11 v space minus space 14 space end cell equals cell space 80 end cell end table`
+$\begin{gathered} 3 v - 6 + 8 v - 8 & = 80 \\ 11 v - 14 & = 80 \end{gathered}$
 
 > *Solve by adding 14 and dividing by 11. *
 
-`table row cell 11 v space end cell equals cell space 94 end cell row cell v space end cell equals cell space 94 over 11 space equals space 8.545454... end cell end table`
+$\begin{gathered} 11 v & = 94 \\ v & = \frac{94}{11} = 8.545454... \end{gathered}$
 
 $v=8.55$** ****m/s**** ****[1]**
 
@@ -1244,30 +1244,30 @@ $v=8.55$** ****m/s**** ****[1]**
 ### 13((b)) — 5 marks
 > *The **area** under a **speed-time graph** represents the **distance** (because distance = speed × time).*
 
-> *The speed-time graph here is in the shape of a trapezium and area of a trapezium = *`1 half open parentheses a plus b close parentheses h`* where *$a$* and *$b$* are the parallel lengths and *$h$* is the perpendicular height. We can read these values from the graph:*
+> *The speed-time graph here is in the shape of a trapezium and area of a trapezium = *$1 \frac{1}{2} ( a + b ) h$* where *$a$* and *$b$* are the parallel lengths and *$h$* is the perpendicular height. We can read these values from the graph:*
 
 ![gcse-ocr-tqs-real-life-graphs-h4b](assets/016-gcse-ocr-tqs-real-life-graphs-h4b.png)
 
-*Distance = area = *`1 half open parentheses 40 plus 50 close parentheses cross times k`
+*Distance = area = *$1 \frac{1}{2} ( 40 + 50 ) \times k$
 
 **attempt to find the area under graph ****[1] **
 **correct expression in terms of k for area under graph ****[1]**
 
 > *We can equate this to 1350, the total distance in metres.*
 
-`1 half open parentheses 40 plus 50 close parentheses cross times k equals 1350`
+$1 \frac{1}{2} ( 40 + 50 ) \times k = 1350$
 
 **equating to a distance ****[1] **
 **equating to 1350 ****[1]**
 
 > *Solve for **k.*
 
-`table attributes columnalign right center left columnspacing 0px end attributes row cell 45 k end cell equals 2700 end table`
+$\begin{array}{rcl} 45 k & = 2700 \end{array}$
 
 $k=30$** ****[1]**
 
 ### 13((c)) — 3 marks
-`table row blank row blank end table`i) *Use *$\frac{\mathrm{rise}}{\mathrm{run}}$* or an equivalent method.*
+$\begin{gathered} \\ \end{gathered}$i) *Use *$\frac{\mathrm{rise}}{\mathrm{run}}$* or an equivalent method.*
 
 ![FHTTwPM-_gcse-ocr-tqs-real-life-graphs-h4c](assets/017-fhttwpm-gcse-ocr-tqs-real-life-graphs-h4c.png)
 
@@ -1313,9 +1313,9 @@ ii) *Negative gradient on a distance-time graph represents deceleration.*
 
 ** [1]**
 
-> *Area of trapezium = *`1 half open parentheses a plus b close parentheses h`* where *$a$* and *$b$* are the parallel lengths and *$h$* is the perpendicular height. Reading these values from the graph,*
+> *Area of trapezium = *$1 \frac{1}{2} ( a + b ) h$* where *$a$* and *$b$* are the parallel lengths and *$h$* is the perpendicular height. Reading these values from the graph,*
 
-*area trapezium = *`1 half open parentheses 5 plus 3 close parentheses cross times 2 equals 8`
+*area trapezium = *$1 \frac{1}{2} ( 5 + 3 ) \times 2 = 8$
 
 **[1]**
 

@@ -178,7 +178,7 @@
   },
   {
    "type": "paragraph",
-   "md": "`bold F bold left parenthesis bold italic x subscript bold 0 bold right parenthesis bold equals bold italic P bold left parenthesis bold italic X bold less or equal than bold italic x subscript bold 0 bold right parenthesis bold equals bold integral subscript bold minus bold infinity end subscript superscript bold x subscript bold 0 end superscript bold f bold left parenthesis bold italic t bold right parenthesis bold space bold d bold italic t`"
+   "md": "$F ( x_{ } 0 ) = P ( X \\le x_{ } 0 ) = integral_{ } - \\text{infinity} ^{ } x_{ } 0 f ( t ) d t$"
   },
   {
    "type": "bullets",
@@ -198,7 +198,7 @@
   },
   {
    "type": "paragraph",
-   "md": "`straight F left parenthesis x right parenthesis equals open curly brackets table row 0 cell x less than 0 end cell row cell 0.5 x squared end cell cell 0 less or equal than x less or equal than 1 end cell row cell 0.5 end cell cell 1 less or equal than x less or equal than 1.5 end cell row cell x minus 1 end cell cell 1.5 less or equal than x less or equal than 2 end cell row 1 cell x greater than 2 end cell end table close`"
+   "md": "`F ( x ) = { | 0 x less than 0 | | 0.5 x ^2 | 0 <= x <= 1 | | 0.5 | 1 <= x <= 1.5 | | x - 1 | 1.5 <= x <= 2 | | 1 x greater than 2 | | close`"
   },
   {
    "type": "figure",
@@ -231,7 +231,7 @@
   },
   {
    "type": "paragraph",
-   "md": "`straight F left parenthesis x right parenthesis equals integral subscript negative infinity end subscript superscript x straight f left parenthesis t right parenthesis space d t`"
+   "md": "$\\mathrm{F} ( x ) = \\int_{- \\infty}^{x} \\mathrm{f} ( t ) d t$"
   },
   {
    "type": "bullets",
@@ -239,7 +239,7 @@
   },
   {
    "type": "paragraph",
-   "md": "`straight F left parenthesis x right parenthesis equals integral subscript negative infinity end subscript superscript x straight f left parenthesis t right parenthesis space straight d t space equals integral subscript negative infinity end subscript superscript a straight f left parenthesis t right parenthesis space straight d t space plus integral subscript a superscript x straight f left parenthesis t right parenthesis space straight d t space equals space straight F left parenthesis a right parenthesis plus integral subscript a superscript x straight f left parenthesis t right parenthesis space straight d t`"
+   "md": "$\\mathrm{F} ( x ) = \\int_{- \\infty}^{x} \\mathrm{f} ( t ) \\mathrm{d} t = \\int_{- \\infty}^{a} \\mathrm{f} ( t ) \\mathrm{d} t + \\int_{a}^{x} \\mathrm{f} ( t ) \\mathrm{d} t = \\mathrm{F} ( a ) + \\int_{a}^{x} \\mathrm{f} ( t ) \\mathrm{d} t$"
   },
   {
    "type": "bullets",
@@ -247,7 +247,7 @@
   },
   {
    "type": "paragraph",
-   "md": "`straight F left parenthesis x right parenthesis space equals space straight F left parenthesis a right parenthesis space plus space integral subscript a superscript x straight f left parenthesis t right parenthesis space straight d t`"
+   "md": "$\\mathrm{F} ( x ) = \\mathrm{F} ( a ) + \\int_{a}^{x} \\mathrm{f} ( t ) \\mathrm{d} t$"
   },
   {
    "type": "bullets",
@@ -278,7 +278,7 @@
    "type": "callout",
    "variant": "worked-example",
    "label": "Worked Example",
-   "md": "a) The continuous random variable, $X$ , has cumulative distribution function\n\n`straight F left parenthesis x right parenthesis equals open curly brackets table row cell space space space space space space space 0 end cell cell x less than 0 end cell row cell 1 fourth x open parentheses 4 minus x close parentheses end cell cell 0 less or equal than x less or equal than 2 end cell row cell space space space space space space space 1 end cell cell x greater than 2 end cell end table close`\n\nFind\n\n(i) $P(X>1.5)$\n\n(ii) $P(0.5\\leqX\\leq1)$\n\n(iii) The lower quartile of $X$.\n\n(b) The continuous random variable, $X$, has probability density function\n\n`f left parenthesis x right parenthesis equals open curly brackets table row cell 0.5 x end cell cell 0 less or equal than x less or equal than 1 end cell row cell 0.5 end cell cell 1 less or equal than x less or equal than 2.5 end cell row 0 otherwise end table close\n`\n\nFind the cumulative frequency distribution, $F(x)$ .\n\n**Answer:**\n\n![1-4-1-ial-fig2-we-solution-part-1](assets/3c9f2d6d5fc6-image.bin)\n\n![1-4-1-ial-fig2-we-solution-part-2](assets/ad80c247277a-image.bin)"
+   "md": "a) The continuous random variable, $X$ , has cumulative distribution function\n\n$\\mathrm{F} ( x ) = \\{ \\begin{gathered} 0 & x < 0 \\\\ 1 \\frac{1}{4} x ( 4 - x ) & 0 \\text{less} \\text{or} \\text{equal} \\text{than} x \\text{less} \\text{or} \\text{equal} \\text{than} 2 \\\\ 1 & x > 2 \\end{gathered} )$\n\nFind\n\n(i) $P(X>1.5)$\n\n(ii) $P(0.5\\leqX\\leq1)$\n\n(iii) The lower quartile of $X$.\n\n(b) The continuous random variable, $X$, has probability density function\n\n`f ( x ) = { | 0.5 x | 0 <= x <= 1 | | 0.5 | 1 <= x <= 2.5 | | 0 otherwise | close`\n\nFind the cumulative frequency distribution, $F(x)$ .\n\n**Answer:**\n\n![1-4-1-ial-fig2-we-solution-part-1](assets/3c9f2d6d5fc6-image.bin)\n\n![1-4-1-ial-fig2-we-solution-part-2](assets/ad80c247277a-image.bin)"
   },
   {
    "type": "callout",

@@ -22,9 +22,9 @@ guided_study: false
 - The **determinant** is a **numerical value** (positive or negative) calculated from elements of a **square** matrix
 
   - It is used to find the **inverse** of a matrix
-- For a 2 × 2 matrix, $A$, the determinant, $\mathrm{det}(A)$ or `open vertical bar bold A close vertical bar`, is given by
+- For a 2 × 2 matrix, $A$, the determinant, $\mathrm{det}(A)$ or $\left| A \right|$, is given by
 
-`bold A equals open parentheses table row a b row c d end table close parentheses space space space rightwards double arrow space space det space bold A equals open vertical bar bold A close vertical bar equals a d minus b c`
+$A = ( \begin{gathered} a b \\ c d \end{gathered} ) \Leftrightarrow \det A = \left| A \right| = a d - b c$
 
 ### What properties of determinants do I need to know?
 
@@ -39,21 +39,21 @@ guided_study: false
 - You do **not** need to know the following rules, but they can be **good checks** in an exam:
 
   - $\mathrm{det}(\mathrm{AB})=\mathrm{det}(A)\times\mathrm{det}(B)$
-  - `det open parentheses bold A to the power of negative 1 end exponent close parentheses equals fraction numerator 1 over denominator det open parentheses bold A close parentheses end fraction`
+  - $\det ( A^{- 1} ) = \frac{1}{\det ( A )}$
 
 > **Worked Example**
-> Consider the matrix `bold A equals open parentheses table row 3 cell negative 6 end cell row p 7 end table close parentheses`, where $p$ is a constant.
+> Consider the matrix $A = ( \begin{gathered} 3 - 6 \\ p 7 \end{gathered} )$, where $p$ is a constant.
 > 
 > Given that $\mathrm{det}A=-3$, find the value of $p$.
 > 
-> > *Use that if *`bold A equals open parentheses table row a b row c d end table close parentheses space`* then *`det space bold A equals open vertical bar bold A close vertical bar equals a d minus b c`
+> > *Use that if *$A = ( \begin{gathered} a b \\ c d \end{gathered} )$* then *$\det A = \left| A \right| = a d - b c$
 > *Work out the determinant algebraically*
 > 
-> `table row cell det open parentheses bold A close parentheses end cell equals cell 3 cross times 7 minus open parentheses negative 6 close parentheses cross times p end cell row blank equals cell 21 plus 6 p end cell end table`
+> $\begin{gathered} \det ( A ) & = 3 \times 7 - ( - 6 ) \times p \\ = 21 + 6 p \end{gathered}$
 > 
 > > *Set this expression equal to -3 and solve for *$p$
 > 
-> `table row cell 21 plus 6 p end cell equals cell negative 3 end cell row cell 6 p end cell equals cell negative 24 end cell end table`
+> $\begin{gathered} 21 + 6 p & = - 3 \\ 6 p & = - 24 \end{gathered}$
 > 
 > $p=-4$
 
@@ -78,7 +78,7 @@ guided_study: false
   - **Change** the** signs** of the **other** two entries
   - **Divide** by the **determinant**
 
-`bold A equals open parentheses table row a b row c d end table close parentheses space space rightwards double arrow space space bold A to the power of negative 1 end exponent equals fraction numerator 1 over denominator det space bold A end fraction open parentheses table row d cell negative b end cell row cell negative c end cell a end table close parentheses`
+$A = ( \begin{gathered} a b \\ c d \end{gathered} ) \Leftrightarrow A^{- 1} = \frac{1}{\det A} ( \begin{gathered} d - b \\ - c & a \end{gathered} )$
 
 - Note that you **cannot divide **by zero
 
@@ -91,7 +91,7 @@ guided_study: false
 
 - The inverse of a **product** of matrices is the product of the inverses of the matrices in **reverse order**
 
-  - `open parentheses bold AB close parentheses to the power of negative 1 end exponent equals bold B to the power of negative 1 end exponent bold A to the power of negative 1 end exponent`
+  - $( \text{AB} )^{- 1} = B^{- 1} A^{- 1}$
 
 > **Exam Hint**
 > There are two ways to check whether your inverse matrix is correct:
@@ -100,32 +100,32 @@ guided_study: false
 > - or calculate $\mathrm{AA}^{-1}$ to see if you get the identity $I$.
 
 > **Worked Example**
-> Let `bold P equals open parentheses table row 1 cell negative 2 end cell row 4 k end table close parentheses` where $k\neq-8$.
+> Let $P = ( \begin{gathered} 1 - 2 \\ 4 k \end{gathered} )$ where $k\neq-8$.
 > 
 > (a)   Find $P^{-1}$, giving your answer in terms of $k$.
 > 
-> > *Use that *`bold A equals open parentheses table row a b row c d end table close parentheses space space rightwards double arrow space space bold A to the power of negative 1 end exponent equals fraction numerator 1 over denominator det space bold A end fraction open parentheses table row d cell negative b end cell row cell negative c end cell a end table close parentheses`* where *$\mathrm{det}A=ad-bc$
-> *First find *`det open parentheses bold P close parentheses`
+> > *Use that *$A = ( \begin{gathered} a b \\ c d \end{gathered} ) \Leftrightarrow A^{- 1} = \frac{1}{\det A} ( \begin{gathered} d - b \\ - c & a \end{gathered} )$* where *$\mathrm{det}A=ad-bc$
+> *First find *$\det ( P )$
 > 
-> `table row cell det open parentheses bold P close parentheses end cell equals cell 1 cross times k minus 4 cross times open parentheses negative 2 close parentheses end cell row blank equals cell k plus 8 end cell end table`
+> $\begin{gathered} \det ( P ) & = 1 \times k - 4 \times ( - 2 ) \\ = k + 8 \end{gathered}$
 > 
-> > *Now divide *$P$* by *`det open parentheses bold P close parentheses`*, swap *$a$*  and *$d$*, and change signs of *$b$* and *$c$
+> > *Now divide *$P$* by *$\det ( P )$*, swap *$a$*  and *$d$*, and change signs of *$b$* and *$c$
 > 
-> `bold P to the power of negative 1 end exponent equals fraction numerator 1 over denominator k plus 8 end fraction open parentheses table row k 2 row cell negative 4 end cell 1 end table close parentheses`
+> $P^{- 1} = \frac{1}{k + 8} ( \begin{gathered} k 2 \\ - 4 & 1 \end{gathered} )$
 > 
-> **You can also write this as **`bold P to the power of negative 1 end exponent equals open parentheses table row cell fraction numerator k over denominator k plus 8 end fraction end cell cell fraction numerator 2 over denominator k plus 8 end fraction end cell row cell negative fraction numerator 4 over denominator k plus 8 end fraction end cell cell fraction numerator 1 over denominator k plus 8 end fraction end cell end table close parentheses`
+> **You can also write this as **$P^{- 1} = ( \begin{gathered} \frac{k}{k + 8} & \frac{2}{k + 8} \\ - \frac{4}{k + 8} & \frac{1}{k + 8} \end{gathered} )$
 > 
 > (b)  Verify that $P^{-1}P=I$, where $I$ is the identity matrix.
 > 
 > > *Verify means check that it is true*
 > *Substitute *$P^{-1}$* and *$P$* into the left-hand side and multiply out the matrices*
 > 
-> `table row cell bold P to the power of negative 1 end exponent bold P end cell equals cell fraction numerator 1 over denominator k plus 8 end fraction open parentheses table row k 2 row cell negative 4 end cell 1 end table close parentheses open parentheses table row 1 cell negative 2 end cell row 4 k end table close parentheses end cell row blank equals cell fraction numerator 1 over denominator k plus 8 end fraction open parentheses table row cell k cross times 1 plus 2 cross times 4 end cell cell k cross times open parentheses negative 2 close parentheses plus 2 cross times k end cell row cell negative 4 cross times 1 plus 1 cross times 4 end cell cell negative 4 cross times open parentheses negative 2 close parentheses plus 1 cross times k end cell end table close parentheses end cell row blank equals cell fraction numerator 1 over denominator k plus 8 end fraction open parentheses table row cell k plus 8 end cell 0 row 0 cell 8 plus k end cell end table close parentheses end cell end table`* *
+> $\begin{gathered} P^{- 1} P & = \frac{1}{k + 8} ( \begin{gathered} k 2 \\ - 4 & 1 \end{gathered} ) ( \begin{gathered} 1 - 2 \\ 4 k \end{gathered} ) \\ = \frac{1}{k + 8} ( \begin{gathered} k \times 1 + 2 \times 4 & k \times ( - 2 ) + 2 \times k \\ - 4 \times 1 + 1 \times 4 & - 4 \times ( - 2 ) + 1 \times k \end{gathered} ) \\ = \frac{1}{k + 8} ( \begin{gathered} k + 8 & 0 \\ 0 8 + k \end{gathered} ) \end{gathered}$* *
 > 
 > > *The *$8+k$* is the same as *$k+8$
-> *Since *$k\neq-8$* in the question, cancel the *`open parentheses k plus 8 close parentheses`*'s *
+> *Since *$k\neq-8$* in the question, cancel the *$( k + 8 )$*'s *
 > 
-> `bold P to the power of negative 1 end exponent bold P equals open parentheses table row 1 0 row 0 1 end table close parentheses`
+> $P^{- 1} P = ( \begin{gathered} 1 0 \\ 0 1 \end{gathered} )$
 > 
 > > *The right-hand side is the 2 × 2 identity matrix*
 > 

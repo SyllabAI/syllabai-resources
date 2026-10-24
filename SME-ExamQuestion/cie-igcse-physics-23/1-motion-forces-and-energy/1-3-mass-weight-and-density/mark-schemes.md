@@ -19,7 +19,7 @@ $ρ=\frac{15}{20}=0.75\text{g/cm}^{3}$
 
 - Since $0.75\text{g/cm}^{3}$ is **less **than $1.0\text{g/cm}^{3}$, object Q will **float**
 
-**A** is incorrect because object P will sink as its density `open parentheses 15 divided by 5 space equals space 3.0 text  g/cm end text cubed close parentheses` is greater than the density of water.
+**A** is incorrect because object P will sink as its density $( 15 \div 5 = 3.0 \text{ g/cm}^{3} )$ is greater than the density of water.
 
 **B** & **C** are incorrect as floating or sinking depends on density, not mass or volume.
 
@@ -44,7 +44,7 @@ $W=4.0\times1.6=6.4N$
 ### Q3
 **Final answer:** **The correct answer is ****A**** because.**
 
-- Density is mass per unit volume `open parentheses density space equals space mass over volume space or space straight rho space equals space straight m over straight v close parentheses`
+- Density is mass per unit volume `( density = mass / volume or rho = m / v )`
 - The measuring cylinder is being used to measure the volume of the stone
 - The stone’s mass needs to be measured to find the density
 - A balance can be used to find the mass density
@@ -318,9 +318,9 @@ $m=\frac{W}{g}$
 ### Q24
 **Final answer:** **The correct answer is**** ****C because:**
 
-- `d e n s i t y space open parentheses straight g divided by cm cubed close parentheses space equals space fraction numerator m a s s space open parentheses straight g close parentheses over denominator v o l u m e space open parentheses cm cubed close parentheses end fraction`
-- `2.7 space equals space fraction numerator 583.8 over denominator v o l u m e space open parentheses cm cubed close parentheses end fraction`
-- `V o l u m e space open parentheses cm cubed close parentheses equals space fraction numerator 583.8 over denominator 2.7 end fraction space equals space 216.2 space open parentheses cm cubed close parentheses`
+- $d e n s i t y ( \mathrm{g} \div cm^{3} ) = \frac{m a s s ( \mathrm{g} )}{v o l u m e ( cm^{3} )}$
+- $2.7 = \frac{583.8}{v o l u m e ( cm^{3} )}$
+- $V o l u m e ( cm^{3} ) = \frac{583.8}{2.7} = 216.2 ( cm^{3} )$
 
 ### Q25
 **Final answer:** **The correct answer is ****B**** because: **
@@ -344,7 +344,7 @@ density = 8.33 g/cm<sup>3</sup>
 **Final answer:** **The correct answer is ****B**** because:  **
 
 - $density=\frac{mass}{volume}$** **therefore:
-- `table row cell Density space end cell equals cell space left parenthesis 190 space minus space 100 space right parenthesis space divided by space 30 end cell row blank equals cell space 90 divided by 30 end cell row blank equals cell space 3 space straight g divided by cm cubed end cell end table`
+- $\begin{gathered} \text{Density} & = ( 190 - 100 ) \div 30 \\ = 90 \div 30 \\ = 3 \mathrm{g} \div cm^{3} \end{gathered}$
 
 ### Q28
 **Final answer:** **The correct answer is ****D**** because:**

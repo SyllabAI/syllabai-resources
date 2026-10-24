@@ -56,7 +56,7 @@ $42\div7=6$
 
 > * *
 
-`6 cross times open parentheses 7 plus 3 plus 5 close parentheses equals 90`
+$6 \times ( 7 + 3 + 5 ) = 90$
 
 ** ****90 ****[1]**
 
@@ -84,13 +84,13 @@ $8:9:3$* ***[1]**
 
 > *Then multiply by 7 (section B = 7 parts of the ratio). *
 
-`begin bold style stretchy left parenthesis $ 6 divided by 4 stretchy right parenthesis end style bold cross times bold 7 bold equals bold $ bold 10 bold. bold 50`*  ***[1]**
+`begin style stretchy ( $ 6 / 4 stretchy ) x 7 = $ 10 . 50`*  ***[1]**
 
 (ii) *Divide \$6 by 4 (section C = 4 parts of the ratio), to find the value of 1 part.*
 
 > *Then multiply by 9 (section A = 9 parts of the ratio). *
 
-> `open parentheses 6 divided by 4 close parentheses cross times 9 equals 13.5`* *
+> $( 6 \div 4 ) \times 9 = 13.5$* *
 
 > *Write to 2 decimal places because it is money. *
 
@@ -166,7 +166,7 @@ $7$ **[1]**
 ### Q6
 > *A ratio of 7:2 is 9 parts in total.*
 
-`36 space divided by space 9 space equals space $ 4`
+$36 \div 9 = \$ 4$
 
 **[1]**
 
@@ -235,7 +235,7 @@ $5+2=7$
 
 > * *
 
-`$ 1190 divided by 7 equals $ 170`
+$\$ 1190 \div 7 = \$ 170$
 
 **[1]**
 
@@ -243,7 +243,7 @@ $5+2=7$
 
 > *Multiply one part (\$170) by 5 to work out Alan's share.*
 
-`$ 170 cross times space 5 equals $ 850`
+$\$ 170 \times 5 = \$ 850$
 
 `bold $ bold 850`* ***[1]**
 
@@ -261,7 +261,7 @@ $36\div3:15\div3:12\div3$
 $12:5:4$ **[1]**
 i) *Share the total number of string instruments by the ratio*
 
-`36 divided by open parentheses 9 plus 2 plus 1 close parentheses equals 3`
+$36 \div ( 9 + 2 + 1 ) = 3$
 
 > *Multiply this by the number of parts in the ratio that represent violins*
 
@@ -287,7 +287,7 @@ $\frac{3}{11}$
 
 > *Divide the cost of the flights by this fraction to determine the total cost*
 
-`861 divided by 3 over 11 equals 861 cross times 11 over 3 equals 287 cross times 11 equals $ 3157`
+$861 \div \frac{3}{11} = 861 \times \frac{11}{3} = 287 \times 11 = \$ 3157$
 
 **[1]**
 
@@ -306,7 +306,7 @@ $4\mathrm{parts}=20$
 
 > *Divide by 4 to work out 1 part.*
 
-* ** *`table row cell 1 space part space end cell equals cell 20 divided by 4 end cell row blank equals 5 end table`
+* ** *$\begin{gathered} 1 \text{part} & = 20 \div 4 \\ = 5 \end{gathered}$
 
 *  *
 
@@ -316,7 +316,7 @@ $4\mathrm{parts}=20$
 
 > * *
 
-`table row cell 3 space parts space end cell equals cell 5 cross times 3 end cell row blank equals 15 end table`
+$\begin{gathered} 3 \text{parts} & = 5 \times 3 \\ = 15 \end{gathered}$
 
 > * *
 
@@ -400,7 +400,7 @@ $50\times2.5=125$
 ### Q14
 > *Share the amount into the ratio*
 
-`880 divided by open parentheses 1 plus 10 close parentheses equals 80`
+$880 \div ( 1 + 10 ) = 80$
 
 $80\times10=800$
 
@@ -413,11 +413,11 @@ $800$ **[1]**
 
 *Total number of shares: *$3+7=10$
 
-`2100 divided by 10 equals $ 210`* per share*
+$2100 \div 10 = \$ 210$* per share*
 
 > *Asif receives 3 shares so multiply the amount per share by 3*
 
-`210 cross times 3 equals $ 630`
+$210 \times 3 = \$ 630$
 
 **[1]**
 
@@ -428,7 +428,7 @@ $800$ **[1]**
 
 > * *
 
-`60000 divided by open parentheses 2 plus 6 plus 7 close parentheses equals 4000`
+$60000 \div ( 2 + 6 + 7 ) = 4000$
 
 **[1]**
 
@@ -548,7 +548,7 @@ $22:9$* ***[1]**
 ### Q21
 > *Determine the amount given to the youngest child*
 
-`3000 minus open parentheses 1200 plus 1000 close parentheses equals $ 800`
+$3000 - ( 1200 + 1000 ) = \$ 800$
 
 > *Write the values into a ratio in the order stated*
 

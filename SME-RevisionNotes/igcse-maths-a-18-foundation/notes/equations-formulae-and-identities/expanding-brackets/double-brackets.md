@@ -74,17 +74,16 @@ guided_study: true
   - Then collect like terms: *x*<sup>2</sup> + 6*x* + 9
 
 > **Exam Hint**
-> Do not make the common mistake of saying `open parentheses x plus y close parentheses squared` is the same as $x^{2}+y^{2}$. In general, this is not true.
+> Do not make the common mistake of saying $( x + y )^{2}$ is the same as $x^{2}+y^{2}$. In general, this is not true.
 
 > **Worked Example**
-> (a) Expand  `open parentheses 2 x minus 3 close parentheses open parentheses x plus 4 close parentheses`.
+> (a) Expand  $( 2 x - 3 ) ( x + 4 )$.
 > 
 > **Answer:**
 > 
 > > *Using FOIL, multiply together the first, outer, inner and last terms*
 > 
-> `space space space space space space space straight F space space space space space space space space space space space space space space space space space space straight O space space space space space space space space space space space space space space space space space space space space space straight I space space space space space space space space space space space space space space space space space space space space space space space straight L
-> circle enclose 2 x cross times x end enclose plus circle enclose 2 x cross times 4 end enclose plus circle enclose open parentheses negative 3 close parentheses cross times x end enclose plus circle enclose open parentheses negative 3 close parentheses cross times 4 end enclose`
+> `F O I L > circle 2 x x x + circle 2 x x 4 + circle ( - 3 ) x x + circle ( - 3 ) x 4`
 > 
 > > *Simplify each term*
 > 
@@ -94,14 +93,13 @@ guided_study: true
 > 
 > $2x^{2}+5x-12$
 > 
-> (b) Expand  `open parentheses x minus 3 close parentheses open parentheses 3 x minus 5 close parentheses`.
+> (b) Expand  $( x - 3 ) ( 3 x - 5 )$.
 > 
 > **Answer:**
 > 
 > > *Using FOIL, multiply together the first, outer, inner and last terms*
 > 
-> `space space space space space space space straight F space space space space space space space space space space space space space space space space space space space space straight O space space space space space space space space space space space space space space space space space space space space space space space space space straight I space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space straight L
-> circle enclose x cross times 3 x end enclose plus circle enclose x cross times open parentheses negative 5 close parentheses end enclose plus circle enclose open parentheses negative 3 close parentheses cross times 3 x end enclose plus circle enclose open parentheses negative 3 close parentheses cross times open parentheses negative 5 close parentheses end enclose`
+> `F O I L > circle x x 3 x + circle x x ( - 5 ) + circle ( - 3 ) x 3 x + circle ( - 3 ) x ( - 5 )`
 > 
 > > *Simplify each term*
 > 
@@ -112,19 +110,18 @@ guided_study: true
 > $3x^{2}-14x+15$
 
 > **Worked Example**
-> Expand  `open parentheses 2 x plus 3 close parentheses squared`.
+> Expand  $( 2 x + 3 )^{2}$.
 > 
 > **Answer:**
 > 
 > > *Remember that the answer is not (2**x**)*<sup>*2*</sup>* + 3*<sup>*2*</sup>
 > *Rewrite the expression as two separate brackets multiplied together*
 > 
-> `open parentheses 2 x plus 3 close parentheses open parentheses 2 x plus 3 close parentheses`
+> $( 2 x + 3 ) ( 2 x + 3 )$
 > 
 > > *Using FOIL, multiply together the first, outer, inner and last terms*
 > 
-> `space space space space space space space space space straight F space space space space space space space space space space space space space space space space space space space space straight O space space space space space space space space space space space space space space space space straight I space space space space space space space space space space space space space space space space space straight L
-> circle enclose 2 x cross times 2 x end enclose plus circle enclose 2 x cross times 3 end enclose plus circle enclose 3 cross times 2 x end enclose plus circle enclose 3 cross times 3 end enclose`
+> `F O I L > circle 2 x x 2 x + circle 2 x x 3 + circle 3 x 2 x + circle 3 x 3`
 > 
 > > *Simplify each term*
 > 

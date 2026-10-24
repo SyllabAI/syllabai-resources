@@ -84,8 +84,8 @@ guided_study: false
 > 
 > - **Step 1:** Calculate the multiplier
 > 
-> `straight k space equals space fraction numerator 1 over denominator open parentheses 0.1 space plus space 0.2 space plus space 0.1 close parentheses end fraction
-> straight k space equals space fraction numerator 1 over denominator 0.4 end fraction space equals space 2.5`
+> $\mathrm{k} = \frac{1}{( 0.1 + 0.2 + 0.1 )} 
+> \mathrm{k} = \frac{1}{0.4} = 2.5$
 > 
 > - **Step 2:** Calculate the change in national income
 > 

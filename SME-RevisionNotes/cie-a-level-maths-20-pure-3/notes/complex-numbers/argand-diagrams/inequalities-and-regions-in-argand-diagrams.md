@@ -37,7 +37,7 @@ guided_study: true
 
 ***Sketching the inequalities ***$\mathrm{Re}z>3and\mathrm{Im}z\leq4$
 
-### How do I sketch `open vertical bar bold italic z minus bold italic a close vertical bar less than bold italic k` on an Argand diagram?
+### How do I sketch $\left| z - a \right| < k$ on an Argand diagram?
 
 - For a given complex number $a$, the inequality `open vertical bar z minus a close vertical bar less than k` represents all complex numbers, $z$, that lie inside the circle** **of radius $k$, centred at $a$
 - Here is how to represent the following inequalities as regions on an Argand diagram…
@@ -52,25 +52,25 @@ guided_study: true
 
 ### How do I sketch `equation` on an Argand diagram?
 
-- For two given complex numbers $a$and $b$, the inequality `open vertical bar z minus a close vertical bar less than vertical line z minus b vertical line`** **represents all complex numbers, $z$, that lie closer to $a$ than to $b$
+- For two given complex numbers $a$and $b$, the inequality $\left| z - a \right| < \vert z - b \vert$** **represents all complex numbers, $z$, that lie closer to $a$ than to $b$
 - Here is how to represent the following inequalities as regions on an Argand diagram…
 
-  - `stretchy vertical line z minus a stretchy vertical line bold less than bold vertical line bold italic z bold minus bold italic b bold vertical line`: **shade **the **region** on the side of the perpendicular bisector of $a$ and $b$ that **includes** **the point **$a$
-  - `stretchy vertical line z minus a stretchy vertical line bold greater than bold vertical line bold italic z bold minus bold italic b bold vertical line`: **shade **the **region** on the side of the **dotted** perpendicular bisector of $a$ and $b$ that **includes** **the point **$b$
+  - $\text{stretchy} \vert z - a \text{stretchy} \vert < \vert z - b \vert$: **shade **the **region** on the side of the perpendicular bisector of $a$ and $b$ that **includes** **the point **$a$
+  - $\text{stretchy} \vert z - a \text{stretchy} \vert > \vert z - b \vert$: **shade **the **region** on the side of the **dotted** perpendicular bisector of $a$ and $b$ that **includes** **the point **$b$
 - A good way to remember which side to shade is that the inequality sign points (like an arrow) to the side to be shaded
 
 ** **
 
 ![Two complex plane diagrams showing shaded regions based on inequalities. Top diagram involves \(z = 2\); bottom involves \(z = 3 + 4i\).](../../../assets/061b2ffb1ee6-16430-8-2-5-notes-fig3.png)
 
-***Sketching the inequalities ***`stretchy vertical line z minus 2 stretchy vertical line bold less than stretchy vertical line z minus 2 i stretchy vertical line`*** and ***`stretchy vertical line z minus i stretchy vertical line bold greater or equal than stretchy vertical line z minus open parentheses 3 plus 4 i close parentheses stretchy vertical line`
+***Sketching the inequalities ***$\text{stretchy} \mid z - 2 \text{stretchy} \mid < \text{stretchy} \mid z - 2 i \text{stretchy} \mid$*** and ***$\text{stretchy} \mid z - i \text{stretchy} \mid \ge \text{stretchy} \mid z - ( 3 + 4 i ) \text{stretchy} \mid$
 
-### How do I sketch `bold italic alpha bold less than bold arg bold invisible function application bold left parenthesis bold z bold minus bold a bold right parenthesis bold less than bold italic beta` on an Argand diagram?
+### How do I sketch $\\alpha < \text{arg} ( z - a ) < \\beta$ on an Argand diagram?
 
-- For a given complex number, $a$, the inequality `alpha less than arg invisible function application left parenthesis z minus a right parenthesis less than beta` represents all complex numbers, $z$, that have an **argument** between $α$ and $β$, as** measured from** the point $α$
+- For a given complex number, $a$, the inequality $\\alpha < \text{arg} ( z - a ) < \\beta$ represents all complex numbers, $z$, that have an **argument** between $α$ and $β$, as** measured from** the point $α$
 - Here is how to represent the following inequalities as regions on an Argand diagram…
 
-  - $α<\mathrm{arg}(z-a)<β$: **shade **the **wedge-shaped** **region** between the half-line $\mathrm{arg}(z-a)=α$ and the half-line `arg invisible function application left parenthesis z minus a right parenthesis equals beta`, with an open circle at $z=a$ to show the **exclusion** of this point (to avoid the undefined value of $\mathrm{arg}0$)
+  - $α<\mathrm{arg}(z-a)<β$: **shade **the **wedge-shaped** **region** between the half-line $\mathrm{arg}(z-a)=α$ and the half-line $\text{arg} ( z - a ) = \\beta$, with an open circle at $z=a$ to show the **exclusion** of this point (to avoid the undefined value of $\mathrm{arg}0$)
 
 ![8-2-5_notes_fig4](../../../assets/62552957ffc5-8-2-5-notes-fig4.png)
 
@@ -82,31 +82,31 @@ guided_study: true
 
   - E.g. the region satisfied by `2 less than open vertical bar z close vertical bar less or equal than 5` can be found as follows…
   
-    - Using diagonal lines in the same direction, lightly shade the region `vertical line z vertical line greater than 2 space`(the outside of a circle of radius 2 about the origin)
+    - Using diagonal lines in the same direction, lightly shade the region $\vert z \vert > 2$(the outside of a circle of radius 2 about the origin)
     - Using diagonal lines in a different direction, lightly shade the region `open vertical bar z close vertical bar less or equal than 5` (the inside of a circle of radius 5 about the origin)
     - Where the diagonal lines **cross each other** highlights the region satisfying both inequalities; this should be shaded** boldly**
-  - E.g. the region satisfied by `open vertical bar z minus straight i close vertical bar less than vertical line z minus 1 vertical line` and `0 less or equal than arg invisible function application z less or equal than fraction numerator 3 pi over denominator 4 end fraction` can be found as follows…
+  - E.g. the region satisfied by $\left| z - \mathrm{i} \right| < \vert z - 1 \vert$ and $0 \text{less} \text{or} \text{equal} \text{than} \text{arg} z \text{less} \text{or} \text{equal} \text{than} \frac{3 \pi }{4}$ can be found as follows…
   
-    - Using diagonal lines in the same direction, lightly shade the region `open vertical bar z minus straight i close vertical bar less than vertical line z minus 1 vertical line` (the side including $z=i$ from the perpendicular bisector of the points $i$ and 1)
-    - Using diagonal lines in a different direction, lightly shade the region `0 less or equal than arg invisible function application z less or equal than fraction numerator 3 pi over denominator 4 end fraction` (the wedge-shaped region from 0 to $\frac{3π}{4}$ radians from the origin)
+    - Using diagonal lines in the same direction, lightly shade the region $\left| z - \mathrm{i} \right| < \vert z - 1 \vert$ (the side including $z=i$ from the perpendicular bisector of the points $i$ and 1)
+    - Using diagonal lines in a different direction, lightly shade the region $0 \text{less} \text{or} \text{equal} \text{than} \text{arg} z \text{less} \text{or} \text{equal} \text{than} \frac{3 \pi }{4}$ (the wedge-shaped region from 0 to $\frac{3π}{4}$ radians from the origin)
     - Where the diagonal lines **cross each other** highlights the region satisfying both inequalities; this should be shaded** boldly**
 
 ![8-2-5_notes_fig5](../../../assets/7454d03a3c73-8-2-5-notes-fig5.png)
 
-***The inequalities ***`bold 2 bold less than stretchy vertical line z stretchy vertical line bold less or equal than bold 5` *** on the left, the inequalities ***`stretchy vertical line z minus i stretchy vertical line bold less than stretchy vertical line z minus 1 stretchy vertical line` *** and  ***$0\leq\mathrm{arg}z<\frac{3π}{4}$***on the right***
+***The inequalities ***$2 < \text{stretchy} \mid z \text{stretchy} \mid \le 5$ *** on the left, the inequalities ***$\text{stretchy} \mid z - i \text{stretchy} \mid < \text{stretchy} \mid z - 1 \text{stretchy} \mid$ *** and  ***$0\leq\mathrm{arg}z<\frac{3π}{4}$***on the right***
 
-### How do I find the greatest (or least) values of `stretchy vertical line z stretchy vertical line` or $\mathrm{arg}z$ in a region?
+### How do I find the greatest (or least) values of $\text{stretchy} \mid z \text{stretchy} \mid$ or $\mathrm{arg}z$ in a region?
 
 - Every complex number, $z$, that lies within a region on an Argand diagram will have its own modulus, `open vertical bar z close vertical bar`, that is measured from the origin
 - For any shaped region…
 
-  - The **least** value of `vertical line z vertical line` is the **distance **from the **origin** to the **nearest point** in the region
-  - The **greatest **value of `vertical line z vertical line` is the **distance **from the **origin** to the **farthest point** in the region
+  - The **least** value of $\vert z \vert$ is the **distance **from the **origin** to the **nearest point** in the region
+  - The **greatest **value of $\vert z \vert$ is the **distance **from the **origin** to the **farthest point** in the region
   - Sometimes the least value is zero (if the origin is in the region) and/or the greatest value is infinite (if the region is unbounded)
 - For circular regions that do not contain the origin…
 
   - Find the length from the origin to the centre of the circle…
-  - then add a radius for the greatest value of `vertical line z vertical line` or subtract a radius for the least value of `vertical line z vertical line`
+  - then add a radius for the greatest value of $\vert z \vert$ or subtract a radius for the least value of $\vert z \vert$
 - Every complex number, $z$, that lies within a region on an Argand diagram will have its own argument, $\mathrm{arg}z$, as measured from the origin
 - For any shaped region…
 

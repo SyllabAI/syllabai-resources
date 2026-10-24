@@ -28,10 +28,10 @@ guided_study: false
 
 - The **coordinates** of ***A ***** and *****C***  as **column vectors** are
 
-  - `A equals open parentheses table row 1 row 0 end table close parentheses` and `C equals open parentheses table row 0 row 1 end table close parentheses`
+  - $A = ( \begin{gathered} 1 \\ 0 \end{gathered} )$ and $C = ( \begin{gathered} 0 \\ 1 \end{gathered} )$
 - Under a **reflection **about an** axis or **$y=\pmx$, *A * moves to *A*'  and *C*  moves to *C*'
 
-  - The **matrix, **$M$ representing this reflection is `bold M equals open parentheses table row cell A apostrophe space vertical line end cell cell C apostrophe end cell end table close parentheses`
+  - The **matrix, **$M$ representing this reflection is $M = ( \begin{gathered} A ' \vert & C ' \end{gathered} )$
   - ***A*****' ** **and** ***C*****'**  are column vectors of their **new positions**
   
     - The points ***O**** * **and** ***B***  are **not needed**, as we can draw the reflected square using just *A*'  and *C*'  (*O*  won't move)
@@ -39,14 +39,14 @@ guided_study: false
 
   - To find the matrix representing a **reflection about the **$x$**-axis**
   
-    - *A * stays where it is, so `A apostrophe equals open parentheses table row 1 row 0 end table close parentheses`
-    - *C*  goes to `C apostrophe equals open parentheses table row 0 row cell negative 1 end cell end table close parentheses` (on the negative $y$-axis)
-    - `bold M equals open parentheses table row cell A apostrophe space vertical line end cell cell C apostrophe end cell end table close parentheses equals open parentheses table row 1 0 row 0 cell negative 1 end cell end table close parentheses`
+    - *A * stays where it is, so $A ' = ( \begin{gathered} 1 \\ 0 \end{gathered} )$
+    - *C*  goes to $C ' = ( \begin{gathered} 0 \\ - 1 \end{gathered} )$ (on the negative $y$-axis)
+    - $M = ( \begin{gathered} A ' \vert & C ' \end{gathered} ) = ( \begin{gathered} 1 0 \\ 0 - 1 \end{gathered} )$
   - To find the matrix representing a **reflection in the line **$y=x$
   
-    - *A*  goes to `A apostrophe equals open parentheses table row 0 row 1 end table close parentheses` (on the positive *y*-axis)
-    - *C * goes to `C apostrophe equals open parentheses table row 1 row 0 end table close parentheses` (on the positive *x*-axis)
-    - `bold M equals open parentheses table row cell A apostrophe space vertical line end cell cell C apostrophe end cell end table close parentheses equals open parentheses table row 0 1 row 1 0 end table close parentheses`
+    - *A*  goes to $A ' = ( \begin{gathered} 0 \\ 1 \end{gathered} )$ (on the positive *y*-axis)
+    - *C * goes to $C ' = ( \begin{gathered} 1 \\ 0 \end{gathered} )$ (on the positive *x*-axis)
+    - $M = ( \begin{gathered} A ' \vert & C ' \end{gathered} ) = ( \begin{gathered} 0 1 \\ 1 0 \end{gathered} )$
     - (This is not the same as the identity matrix, as the 1s are on the wrong diagonal)
 
 > **Worked Example**
@@ -58,21 +58,21 @@ guided_study: false
 > 
 > ![TuW80_W4_reflection-matrix-we-1](assets/496add2d026c-tuw80-w4-reflection-matrix-we-1.png)
 > 
-> *The point ***A *** *`open parentheses table row 1 row 0 end table close parentheses`* moves to ***A'***  *`open parentheses table row cell negative 1 end cell row 0 end table close parentheses`* *
+> *The point ***A *** *$( \begin{gathered} 1 \\ 0 \end{gathered} )$* moves to ***A'***  *$( \begin{gathered} - 1 \\ 0 \end{gathered} )$* *
 > 
-> *The point ***C *** *`open parentheses table row 0 row 1 end table close parentheses`* remains in the same place*
+> *The point ***C *** *$( \begin{gathered} 0 \\ 1 \end{gathered} )$* remains in the same place*
 > 
-> > *The transformation matrix is given by *`bold M equals open parentheses table row cell A apostrophe space vertical line end cell cell C apostrophe end cell end table close parentheses`* *
+> > *The transformation matrix is given by *$M = ( \begin{gathered} A ' \vert & C ' \end{gathered} )$* *
 > 
-> `bold M equals stretchy left parenthesis table row cell negative 1 end cell 0 row 0 1 end table stretchy right parenthesis`
+> $M = ( \begin{gathered} - 1 & 0 \\ 0 1 \end{gathered} )$
 > 
-> (b)  Describe fully the transformation represented by the matrix `bold N equals open parentheses table row 0 cell negative 1 end cell row cell negative 1 end cell 0 end table close parentheses`.
+> (b)  Describe fully the transformation represented by the matrix $N = ( \begin{gathered} 0 - 1 \\ - 1 & 0 \end{gathered} )$.
 > 
 > > *Consider how the points **A**  and **C**  on the unit square are transformed *
 > 
-> *The point ***A *** *`open parentheses table row 1 row 0 end table close parentheses`* moves to ***A' **`open parentheses table row 0 row cell negative 1 end cell end table close parentheses`* *
+> *The point ***A *** *$( \begin{gathered} 1 \\ 0 \end{gathered} )$* moves to ***A' **$( \begin{gathered} 0 \\ - 1 \end{gathered} )$* *
 > 
-> *The point ***C *** *`open parentheses table row 0 row 1 end table close parentheses`* moves to ***C'***  *`open parentheses table row cell negative 1 end cell row 0 end table close parentheses`
+> *The point ***C *** *$( \begin{gathered} 0 \\ 1 \end{gathered} )$* moves to ***C'***  *$( \begin{gathered} - 1 \\ 0 \end{gathered} )$
 > 
 > > *It helps to draw a picture of the unit square being transformed with vertices clearly labelled*
 > 
@@ -91,7 +91,7 @@ guided_study: false
 
 ### Which matrix represents an enlargement?
 
-- The matrix  `bold M equals open parentheses table row k 0 row 0 k end table close parentheses` represents an** enlargement** of **scale factor **$k$**  **about the **origin, *****O***
+- The matrix  $M = ( \begin{gathered} k 0 \\ 0 k \end{gathered} )$ represents an** enlargement** of **scale factor **$k$**  **about the **origin, *****O***
 
   - This is the same as $M=kI$
   
@@ -99,14 +99,14 @@ guided_study: false
 
 ### Which matrix represents a stretch?
 
-- The matrix  `bold M equals open parentheses table row a 0 row 0 1 end table close parentheses` represents a** stretch parallel **to the** **$x$**-axis **of **scale factor **$a$** **
+- The matrix  $M = ( \begin{gathered} a 0 \\ 0 1 \end{gathered} )$ represents a** stretch parallel **to the** **$x$**-axis **of **scale factor **$a$** **
 
-  - The point `open parentheses x comma space y close parentheses` becomes `open parentheses a x comma space y close parentheses`
+  - The point $( x , y )$ becomes $( a x , y )$
 
-- The matrix  `bold M equals open parentheses table row 1 0 row 0 b end table close parentheses` represents a** stretch parallel **to the** **$y$**-axis **of **scale factor **$b$** **
+- The matrix  $M = ( \begin{gathered} 1 0 \\ 0 b \end{gathered} )$ represents a** stretch parallel **to the** **$y$**-axis **of **scale factor **$b$** **
 
-  - The point `open parentheses x comma space y close parentheses` becomes `open parentheses x comma space b y close parentheses`
-- The matrix  `bold M equals open parentheses table row a 0 row 0 b end table close parentheses` represents a **combined stretch **of **scale factor **$a$  **parallel **to the $x$**-axis** and **scale factor **$b$**  parallel **to the $y$**-axis**
+  - The point $( x , y )$ becomes $( x , b y )$
+- The matrix  $M = ( \begin{gathered} a 0 \\ 0 b \end{gathered} )$ represents a **combined stretch **of **scale factor **$a$  **parallel **to the $x$**-axis** and **scale factor **$b$**  parallel **to the $y$**-axis**
 
   - If $a=b$, the combined stretch is an **enlargement**
 
@@ -114,7 +114,7 @@ guided_study: false
 > Use phrases like "parallel to the $x$-axis"  or "parallel to the $y$-axis" to describe stretches (not "left" or "up"!)
 
 > **Worked Example**
-> A transformation is represented by the matrix `bold M equals open parentheses table row cell 3 plus p end cell 0 row 0 cell 3 minus p end cell end table close parentheses`.
+> A transformation is represented by the matrix $M = ( \begin{gathered} 3 + p & 0 \\ 0 3 - p \end{gathered} )$.
 > 
 > Describe fully the transformation in each of the following cases:
 > 
@@ -122,9 +122,9 @@ guided_study: false
 > 
 > > *Substitute in *$p=0$
 > 
-> `bold M equals open parentheses table row cell 3 plus 0 end cell 0 row 0 cell 3 minus 0 end cell end table close parentheses equals open parentheses table row 3 0 row 0 3 end table close parentheses`
+> $M = ( \begin{gathered} 3 + 0 & 0 \\ 0 3 - 0 \end{gathered} ) = ( \begin{gathered} 3 0 \\ 0 3 \end{gathered} )$
 > 
-> > *This has the form *`bold M equals open parentheses table row k 0 row 0 k end table close parentheses`* where *$k=3$
+> > *This has the form *$M = ( \begin{gathered} k 0 \\ 0 k \end{gathered} )$* where *$k=3$
 > 
 > **Final answer:** $M$** represents an enlargement of scale factor 3 about the origin**
 > 
@@ -134,9 +134,9 @@ guided_study: false
 > 
 > > *Substitute in *$p=2$
 > 
-> `bold M equals open parentheses table row cell 3 plus 2 end cell 0 row 0 cell 3 minus 2 end cell end table close parentheses equals open parentheses table row 5 0 row 0 1 end table close parentheses`
+> $M = ( \begin{gathered} 3 + 2 & 0 \\ 0 3 - 2 \end{gathered} ) = ( \begin{gathered} 5 0 \\ 0 1 \end{gathered} )$
 > 
-> > *This has the form *`bold M equals open parentheses table row a 0 row 0 1 end table close parentheses`* where *$a=5$
+> > *This has the form *$M = ( \begin{gathered} a 0 \\ 0 1 \end{gathered} )$* where *$a=5$
 > 
 > **Final answer:** $M$** represents a stretch of scale factor 5 parallel to the **$x$**-axis**
 > 
@@ -159,10 +159,10 @@ guided_study: false
 
 - The **coordinates** of *A* and *C* as **column vectors** are
 
-  - `A equals open parentheses table row 1 row 0 end table close parentheses` and `C equals open parentheses table row 0 row 1 end table close parentheses`
+  - $A = ( \begin{gathered} 1 \\ 0 \end{gathered} )$ and $C = ( \begin{gathered} 0 \\ 1 \end{gathered} )$
 - Under a **rotation about the origin**, *A * moves to *A*'  and *C*  moves to *C*'
 
-  - The **matrix, **$M$ representing this rotation is `bold M equals open parentheses table row cell A apostrophe space vertical line end cell cell C apostrophe end cell end table close parentheses`
+  - The **matrix, **$M$ representing this rotation is $M = ( \begin{gathered} A ' \vert & C ' \end{gathered} )$
   - *A*'  and *C*'  are **column vectors** of their new positions
   
     - The points *O * and *B*  are not needed, as we can draw the rotated square using just *A*'  and *C*'  (*O   *won't move)
@@ -170,14 +170,14 @@ guided_study: false
 
   - To find the matrix representing a **rotation of 90° anticlockwise** about the origin
   
-    - *A*  goes to `A apostrophe equals open parentheses table row 0 row 1 end table close parentheses` (on the positive* *$y$-axis)
-    - *C*  goes to `C apostrophe equals open parentheses table row cell negative 1 end cell row 0 end table close parentheses` (on the negative $x$-axis)
-    - `bold M equals open parentheses table row cell A apostrophe space vertical line end cell cell C apostrophe end cell end table close parentheses equals open parentheses table row 0 cell negative 1 end cell row 1 0 end table close parentheses`
+    - *A*  goes to $A ' = ( \begin{gathered} 0 \\ 1 \end{gathered} )$ (on the positive* *$y$-axis)
+    - *C*  goes to $C ' = ( \begin{gathered} - 1 \\ 0 \end{gathered} )$ (on the negative $x$-axis)
+    - $M = ( \begin{gathered} A ' \vert & C ' \end{gathered} ) = ( \begin{gathered} 0 - 1 \\ 1 0 \end{gathered} )$
   - To find the matrix representing a **rotation of 180° **about the origin
   
-    - *A*  goes to `A apostrophe equals open parentheses table row cell negative 1 end cell row 0 end table close parentheses` (on the negative $x$-axis)
-    - *C * goes to `C apostrophe equals open parentheses table row 0 row cell negative 1 end cell end table close parentheses` (on the negative $y$-axis)
-    - `bold M equals open parentheses table row cell A apostrophe space vertical line end cell cell C apostrophe end cell end table close parentheses equals open parentheses table row cell negative 1 end cell 0 row 0 cell negative 1 end cell end table close parentheses`
+    - *A*  goes to $A ' = ( \begin{gathered} - 1 \\ 0 \end{gathered} )$ (on the negative $x$-axis)
+    - *C * goes to $C ' = ( \begin{gathered} 0 \\ - 1 \end{gathered} )$ (on the negative $y$-axis)
+    - $M = ( \begin{gathered} A ' \vert & C ' \end{gathered} ) = ( \begin{gathered} - 1 & 0 \\ 0 - 1 \end{gathered} )$
     - This is the same as $M=-I$ where* *$I$ is the identity matrix
 
 > **Exam Hint**
@@ -187,28 +187,28 @@ guided_study: false
 
 - A **rotation anticlockwise **by any **angle**, $θ$, about the** origin** is represented by the matrix:
 
-  - `bold M equals open parentheses table row cell cos space theta end cell cell negative sin space theta end cell row cell sin space theta end cell cell cos space theta end cell end table close parentheses`
+  - $M = ( \begin{gathered} \cos \\theta & - \sin \\theta \\ \sin \\theta & \cos \\theta \end{gathered} )$
   
     - $θ$ can be in degrees or **radians**
 - A **negative** value of $θ$ represents a **clockwise **rotation
 
-  - Remember that  `sin open parentheses negative theta close parentheses equals negative sin space theta` but that `cos open parentheses negative theta close parentheses equals cos space theta`
+  - Remember that  $\sin ( - \\theta ) = - \sin \\theta$ but that $\cos ( - \\theta ) = \cos \\theta$
 - You can **substitute** in multiples of 90° to get the matrices above
 - You may be required to recognise **common angles** from their ratios
 
-  - For example, `fraction numerator square root of 3 over denominator 2 end fraction equals cos open parentheses straight pi over 6 close parentheses`
+  - For example, `(sqrt( 3)/(2) = cos ( pi / 6 )`
 
 > **Exam Hint**
 > You are given the rotation matrix in the Formulae Booklet.
 
 > **Worked Example**
-> (a)  Describe fully the transformation represented by the matrix `bold P equals open parentheses table row 0 1 row cell negative 1 end cell 0 end table close parentheses`.
+> (a)  Describe fully the transformation represented by the matrix $P = ( \begin{gathered} 0 1 \\ - 1 & 0 \end{gathered} )$.
 > 
 > > *Consider how the points **A**  and **C**  on the unit square are transformed *
 > 
-> *The point ***A *** *`open parentheses table row 1 row 0 end table close parentheses`* moves to ***A' **`open parentheses table row 0 row cell negative 1 end cell end table close parentheses`* *
+> *The point ***A *** *$( \begin{gathered} 1 \\ 0 \end{gathered} )$* moves to ***A' **$( \begin{gathered} 0 \\ - 1 \end{gathered} )$* *
 > 
-> *The point ***C *** *`open parentheses table row 0 row 1 end table close parentheses`* moves to ***C'***  *`open parentheses table row 1 row 0 end table close parentheses`
+> *The point ***C *** *$( \begin{gathered} 0 \\ 1 \end{gathered} )$* moves to ***C'***  *$( \begin{gathered} 1 \\ 0 \end{gathered} )$
 > 
 > > *It helps to draw a picture of the unit square being transformed with vertices clearly labelled*
 > 
@@ -224,16 +224,16 @@ guided_study: false
 > 
 > (b)  Find $Q$, the matrix that represents a clockwise rotation of 120°  about the origin, giving your answer in an exact form.
 > 
-> > *The matrix for an anticlockwise rotation by *$θ$* is*`open parentheses table row cell cos space theta end cell cell negative sin space theta end cell row cell sin space theta end cell cell cos space theta end cell end table close parentheses`
+> > *The matrix for an anticlockwise rotation by *$θ$* is*$( \begin{gathered} \cos \\theta & - \sin \\theta \\ \sin \\theta & \cos \\theta \end{gathered} )$
 > $θ$* is negative, as the rotation is clockwise*
 > 
 > $θ=-120^{\circ}$
 > 
 > > *Substitute this value of *$θ$* into the matrix*
-> *Use that *`cos open parentheses negative theta close parentheses equals cos space theta`* and that *`sin open parentheses negative theta close parentheses equals negative sin space theta`
+> *Use that *$\cos ( - \\theta ) = \cos \\theta$* and that *$\sin ( - \\theta ) = - \sin \\theta$
 > 
-> `open parentheses table row cell cos open parentheses negative 120 degree close parentheses end cell cell negative sin open parentheses negative 120 degree close parentheses end cell row cell sin open parentheses negative 120 degree close parentheses end cell cell cos open parentheses negative 120 degree close parentheses end cell end table close parentheses equals open parentheses table row cell cos open parentheses 120 degree close parentheses end cell cell sin open parentheses 120 degree close parentheses end cell row cell negative sin open parentheses 120 degree close parentheses end cell cell cos open parentheses 120 degree close parentheses end cell end table close parentheses`
+> $( \begin{gathered} \cos ( - 120^{\circ} ) & - \sin ( - 120^{\circ} ) \\ \sin ( - 120^{\circ} ) & \cos ( - 120^{\circ} ) \end{gathered} ) = ( \begin{gathered} \cos ( 120^{\circ} ) & \sin ( 120^{\circ} ) \\ - \sin ( 120^{\circ} ) & \cos ( 120^{\circ} ) \end{gathered} )$
 > 
 > > *Use a calculator to find these values (or common angles and symmetry)*
 > 
-> `bold Q equals stretchy left parenthesis table row cell negative 1 half end cell cell fraction numerator square root of 3 over denominator 2 end fraction end cell row cell negative fraction numerator square root of 3 over denominator 2 end fraction end cell cell negative 1 half end cell end table stretchy right parenthesis`
+> $Q = ( \begin{gathered} - 1 \frac{1}{2} & \frac{ \sqrt{3} }{2} \\ - \frac{ \sqrt{3} }{2} & - 1 \frac{1}{2} \end{gathered} )$

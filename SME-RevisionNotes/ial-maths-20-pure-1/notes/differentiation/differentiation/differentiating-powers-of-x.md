@@ -21,20 +21,20 @@ guided_study: true
 
 - Powers of ***x*** are differentiated according to the following formula
 
-  - `fraction numerator d over denominator d x end fraction open parentheses x to the power of n close parentheses equals n x to the power of n minus 1 end exponent`
+  - $\frac{d}{d x} ( x^{n ) = n x^{n} - 1}$
   
     - Where $n$ is any real constant
   - This can be written as:
   
-    - If `straight f open parentheses x close parentheses equals x to the power of n` then `straight f apostrophe open parentheses x close parentheses equals n x to the power of n minus 1 end exponent`
+    - If $\mathrm{f} ( x ) = x^{n}$ then $\mathrm{f} ' ( x ) = n x^{n - 1}$
     - If $y=x^{n}$ then $\frac{dy}{dx}=nx^{n-1}$
 
 > **Exam Hint**
-> `straight f apostrophe open parentheses x close parentheses` is usually used when a function, `straight f open parentheses x close parentheses`, has been defined. $\frac{dy}{dx}$ is used when a graph of a function is given in the form $y=...$ They both represent the derivative of an expression.
+> $\mathrm{f} ' ( x )$ is usually used when a function, $\mathrm{f} ( x )$, has been defined. $\frac{dy}{dx}$ is used when a graph of a function is given in the form $y=...$ They both represent the derivative of an expression.
 
 - If the term involves a **scalar multiple**, then you can differentiate the power of *x* and then multiply by the scalar
 
-  - `fraction numerator d over denominator d x end fraction open parentheses a x to the power of n close parentheses equals a n x to the power of n minus 1 end exponent`
+  - $\frac{d}{d x} ( a x^{n ) = a n x^{n} - 1}$
   
     - Where $n$ and $a$ are any real constants
 
@@ -50,11 +50,11 @@ guided_study: true
 
   - The derivative of a** linear function** is a **constant**
   
-    - `fraction numerator d over denominator d x end fraction open parentheses a x close parentheses equals a`
+    - $\frac{d}{d x} ( a x ) = a$
     - Where $a$ is any real constant
   - The derivative of a **constant function** is **zero**
   
-    - `fraction numerator d over denominator d x end fraction open parentheses a close parentheses equals 0`
+    - $\frac{d}{d x} ( a ) = 0$
     - Where $a$ is any real constant
 
 - These allow you to differentiate constants and linear terms in ***x***

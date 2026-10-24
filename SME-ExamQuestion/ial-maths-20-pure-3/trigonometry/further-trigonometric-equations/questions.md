@@ -13,7 +13,7 @@ Solve the equation sec $θ=1$ for  $0^{\circ}\leqθ\leq360^{\circ}$.
 ### 1() — 3 marks — structured
 Given that
 
-tan`open parentheses A degree minus 30 degree close parentheses equals fraction numerator square root of 3 over denominator 3 end fraction`
+tan$( A^{\circ} - 30^{\circ} ) = \frac{ \sqrt{3} }{3}$
 
 find the values of $A$ such that  $-180^{\circ}\leqA^{\circ}\leq180^{\circ}$.
 
@@ -37,7 +37,7 @@ Find the only solution to $\mathrm{arcsin}x=\frac{π}{4}$.
 ### 1() — 4 marks — structured
 Use the identity
 
-`R space cos open parentheses A minus B close parentheses identical to R space cos space A space cos space B plus R space sin space A space sin space B`
+$R \cos ( A - B ) \equiv R \cos A \cos B + R \sin A \sin B$
 
 to show that
 
@@ -45,14 +45,14 @@ $8\mathrm{cos}θ+6\mathrm{sin}θ$
 
 can be written as
 
-`10 cos open parentheses theta minus straight alpha close parentheses space space space space space space space space space space space space space space space space space space space space space space space space space space`where $α=0.644$ to three significant figures.
+$10 \cos ( \\theta - \ \\alpha )$where $α=0.644$ to three significant figures.
 
 ## Q6 — easy — 5 marks · exam-questions
 
 ### 1() — 2 marks — structured
 Show that the equation  cosec<sup>2</sup> $x=2$ cosec $x-1$  can be written as
 
-`open parentheses cosec space x minus 1 close parentheses squared equals 0`
+$( \text{cosec} x - 1 ) ^{2} = 0$
 
 ### 2() — 3 marks — structured
 Hence, or otherwise, solve the equation
@@ -73,7 +73,7 @@ State your answers as multiples of $π$.
 ### 1() — 2 marks — structured
 Write down the domain and range for the function
 
-`straight f open parentheses x close parentheses equals arccos space x`
+$\mathrm{f} ( x ) = \arccos x$
 
 ### 2() — 2 marks — structured
 Solve the equation
@@ -123,7 +123,7 @@ Solve the equation cosec $2θ=2$ for $0^{\circ}\leqθ\leq180^{\circ}$.
 ### 1() — 3 marks — structured
 Given that
 
-tan`open parentheses 3 A degree minus 30 degree close parentheses equals negative fraction numerator square root of 3 over denominator 3 end fraction`
+tan$( 3 A^{\circ} - 30^{\circ} ) = - \frac{ \sqrt{3} }{3}$
 
 find the values of $A$ such that  $-120^{\circ}\leqA^{\circ}\leq120^{\circ}$.
 
@@ -139,7 +139,7 @@ $\frac{\mathrm{sin}x}{\mathrm{sec}x}=\frac{1}{4},-π\leqx\leqπ$
 ### 1() — 4 marks — structured
 Use the identity
 
-$R$sin`open parentheses A plus B close parentheses identical to R space`cos $B$ sin $A+R$sin $B$ cos $A$
+$R$sin$( A + B ) \equiv R$cos $B$ sin $A+R$sin $B$ cos $A$
 
 to show that
 
@@ -147,7 +147,7 @@ $3$ sin $θ+4$ cos $θ$
 
 can be written as
 
-$5$sin`space open parentheses theta plus straight alpha close parentheses comma space space space space space space space space space space space space where space space alpha equals tan to the power of negative 1 end exponent space open parentheses 4 over 3 close parentheses`
+$5$sin$( \\theta + \ \\alpha ) , \text{where} \\alpha = \tan ^{- 1} ( \frac{4}{3} )$
 
 ### 2() — 3 marks — structured
 Hence, or otherwise, solve the equation $3$ sin $θ+4$ cos $θ=1$ for  $0\leqθ\leqπ$.
@@ -163,7 +163,7 @@ Write down the maximum value of $3$ sin $θ+4$cos $θ$ and state the first posit
 On the same axes, sketch the graphs of $y=\mathrm{arcsin}x$ and  $y=\mathrm{arccos}x$, where $x$ is measured in radians. Label any points where the graphs intersect the coordinate axes and each other.
 
 ### 2() — 2 marks — structured
-Hence, or otherwise find the only solution to `cos open parentheses arcsin space x close parentheses equals x`.
+Hence, or otherwise find the only solution to $\cos ( \arcsin x ) = x$.
 
 ## Q17 — medium — 6 marks · exam-questions
 
@@ -193,12 +193,12 @@ State your answers as multiples of $π$.
 ### 1() — 2 marks — structured
 Write down the domain and range for the function
 
-`straight f open parentheses x close parentheses equals arcsin space x`
+$\mathrm{f} ( x ) = \arcsin x$
 
 ### 2() — 3 marks — structured
 Solve the equation
 
-`open square brackets straight f open parentheses x close parentheses close square brackets squared equals begin inline style straight pi squared over 16 end style`
+$[ \mathrm{f} ( x ) ]^{2} = \frac{\mathrm{\pi }^{2}}{16}$
 
 ## Q20 — medium — 6 marks · exam-questions
 
@@ -242,7 +242,7 @@ Solve the equation  sec<sup>2</sup> $2x=1+$tan $2x$  for  $0^{\circ}\leqx\leq180
 ### 1() — 4 marks — structured
 Given that
 
-sin`open parentheses 2 A degree minus B degree close parentheses equals fraction numerator square root of 6 plus square root of 2 over denominator 4 end fraction`
+sin$( 2 A^{\circ} - B^{\circ} ) = \frac{ \sqrt{6} + \sqrt{2} }{4}$
 
 and that
 
@@ -262,17 +262,17 @@ $\frac{\mathrm{cos}x}{\mathrm{cosec}x}-\mathrm{cot}x=0,-2π\leqx\leq2π$
 ### 1() — 3 marks — structured
 Find the value of ...
 
-(i) `arcsin open parentheses sin fraction numerator 7 straight pi over denominator 6 end fraction close parentheses`,
+(i) $\arcsin ( \sin \frac{7 \mathrm{\pi } }{6} )$,
 
-(ii) `arccos open parentheses cos open parentheses negative fraction numerator 2 straight pi over denominator 3 end fraction close parentheses close parentheses`
+(ii) $\arccos ( \cos ( - \frac{2 \mathrm{\pi } }{3} ) )$
 
 ### 2() — 2 marks — structured
-Briefly explain why `arctan open parentheses tan space straight pi close parentheses not equal to straight pi`.
+Briefly explain why $\arctan ( \tan \mathrm{\pi } ) \text{eq} \mathrm{\pi }$.
 
 ## Q27 — hard — 8 marks · exam-questions
 
 ### 1() — 3 marks — structured
-Show that $6$ cos $θ-8$ sin $θ$ can be written in the form  $R$ cos`open parentheses theta plus straight alpha close parentheses`, where $R>0$ and $α$ is an acute angle measured in radians.
+Show that $6$ cos $θ-8$ sin $θ$ can be written in the form  $R$ cos$( \\theta + \ \\alpha )$, where $R>0$ and $α$ is an acute angle measured in radians.
 
 ### 2() — 3 marks — structured
 Hence, or otherwise, solve the equation $3$ cos $θ-4$ sin $θ-2=0$,for $0\leqx\leq2π$ .
@@ -305,12 +305,12 @@ State your answers as multiples of $π$.
 ### 1() — 2 marks — structured
 Write down the domain and range for the function
 
-`straight f open parentheses x close parentheses equals cos open parentheses arcsin space x close parentheses`
+$\mathrm{f} ( x ) = \cos ( \arcsin x )$
 
 ### 2() — 4 marks — structured
 Solve the equation
 
-`2 open square brackets straight f open parentheses x close parentheses close square brackets squared minus 3 straight f open parentheses x close parentheses plus 1 equals 0`
+$2 [ \mathrm{f} ( x ) ]^{2} - 3 \mathrm{f} ( x ) + 1 = 0$
 
 ## Q31 — hard — 8 marks · exam-questions
 
@@ -358,7 +358,7 @@ Solve the equation sin<sup>3</sup> $3θ-$sin $3θ$ cos<sup>2</sup> $3θ=0$  for 
 ### 1() — 4 marks — structured
 Given that
 
-cos`open parentheses A degree minus B degree close parentheses equals negative fraction numerator square root of 3 over denominator 2 end fraction` and  tan`open parentheses 1 half A degree minus B degree close parentheses equals square root of 3`
+cos$( A^{\circ} - B^{\circ} ) = - \frac{ \sqrt{3} }{2}$ and  tan$( 1 \frac{1}{2} A^{\circ} - B^{\circ} ) = \sqrt{3}$
 
 and that
 
@@ -369,16 +369,16 @@ find the possible values of $A$ and $B$.
 ## Q36 — very_hard — 6 marks · exam-questions
 
 ### 1() — 4 marks — structured
-Sketch the graph of `y equals straight pi plus arctan open parentheses 2 x minus 1 close parentheses` for $x\inℝ$. Label the point of intercept with the $y$-axis and state the equations of any asymptotes.
+Sketch the graph of $y = \mathrm{\pi } + \arctan ( 2 x - 1 )$ for $x\inℝ$. Label the point of intercept with the $y$-axis and state the equations of any asymptotes.
 
 ### 2() — 2 marks — structured
 Hence, or otherwise, write down the intercepts between the graph of
 
-`y equals straight pi plus arctan open parentheses 1 minus 2 x close parentheses comma x element of straight real numbers` and
+$y = \mathrm{\pi } + \arctan ( 1 - 2 x ) , x \in \mathbb{R}$ and
 
 (i) the *y*-axis,
 
-(ii) the graph of `y equals straight pi plus arctan open parentheses italic 2 x minus 1 close parentheses comma x element of straight real numbers`.
+(ii) the graph of $y = \mathrm{\pi } + \arctan ( 2 x - 1 ) , x \in \mathbb{R}$.
 
 ## Q37 — very_hard — 6 marks · exam-questions
 
@@ -411,12 +411,12 @@ Give your answers to three significant figures.
 ### 1() — 2 marks — structured
 Write down the domain and range for the function
 
-`straight f open parentheses x close parentheses equals tan open parentheses arccos space x close parentheses`
+$\mathrm{f} ( x ) = \tan ( \arccos x )$
 
 ### 2() — 4 marks — structured
 Solve the equation
 
-`open square brackets straight f open parentheses x close parentheses close square brackets cubed minus straight f open parentheses x close parentheses equals 0`
+$[ \mathrm{f} ( x ) ]^{3} - \mathrm{f} ( x ) = 0$
 
 ## Q41 — very_hard — 10 marks · exam-questions
 
@@ -447,7 +447,7 @@ State your answers as multiples of $π$.
 ### 1() — 5 marks — structured
 The number of real solutions to the equation
 
-`open vertical bar sec space x minus 2 close vertical bar equals k comma space space space space space space space space space minus 2 straight pi less or equal than space x less or equal than 2 straight pi`
+$\left| \sec x - 2 \right| = k , - 2 \mathrm{\pi } \text{less} \text{or} \text{equal} \text{than} x \text{less} \text{or} \text{equal} \text{than} 2 \mathrm{\pi }$
 
 is determined by the value of the constant $k$.
 
@@ -461,6 +461,6 @@ Given that $x=-2$ is a root of $x^{3}+12x^{2}+44x+48$, solve the equation by fac
 ### 2() — 4 marks — structured
 Solve the equation
 
-`sec space theta open parentheses sec squared space theta plus 44 close parentheses plus 12 open parentheses tan squared space theta plus 5 close parentheses equals 0 comma space space space space space space space space space space 0 degree less or equal than theta less or equal than 180 degree`
+$\sec \\theta ( \sec ^{2} \\theta + 44 ) + 12 ( \tan ^{2} \\theta + 5 ) = 0 , 0^{\circ} \text{less} \text{or} \text{equal} \text{than} \\theta \text{less} \text{or} \text{equal} \text{than} 180^{\circ}$
 
 Give your answers to one decimal place where appropriate.

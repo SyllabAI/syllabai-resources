@@ -46,7 +46,7 @@ How do you write "**3 to the left and 2 up**" as a **column vector**?
 
 **BACK**
 
-"**3 to the left and 2 up**" can be written as the **column vector** `open parentheses table row cell negative 3 end cell row 2 end table close parentheses`.
+"**3 to the left and 2 up**" can be written as the **column vector** $( \begin{gathered} - 3 \\ 2 \end{gathered} )$.
 
 
 
@@ -56,14 +56,14 @@ How do you write "**3 to the left and 2 up**" as a **column vector**?
 
 **True or False?**
 
-The vector `open parentheses table row 2 row 3 end table close parentheses` **must **be drawn **starting **at `open parentheses 0 comma space 0 close parentheses` and **ending **at the point `open parentheses 2 comma space 3 close parentheses`.
+The vector $( \begin{gathered} 2 \\ 3 \end{gathered} )$ **must **be drawn **starting **at $( 0 , 0 )$ and **ending **at the point $( 2 , 3 )$.
 
 
 **BACK**
 
 **False.**
 
-The vector `open parentheses table row 2 row 3 end table close parentheses` **does not need to **be drawn **starting **at `open parentheses 0 comma space 0 close parentheses` and **ending **at the point `open parentheses 2 comma space 3 close parentheses`.
+The vector $( \begin{gathered} 2 \\ 3 \end{gathered} )$ **does not need to **be drawn **starting **at $( 0 , 0 )$ and **ending **at the point $( 2 , 3 )$.
 
 The vector can **start at** **any point**, as long as it goes 2 to the right and 3 up.
 
@@ -80,7 +80,7 @@ How do you **add **two **column vectors**?
 
 To **add **two column vectors, **add together** the numbers in the **corresponding **parts of the vector.
 
-For example, `open parentheses table row 1 row 2 end table close parentheses plus open parentheses table row 3 row cell negative 5 end cell end table close parentheses equals open parentheses table row cell 1 plus 3 end cell row cell 2 plus open parentheses negative 5 close parentheses end cell end table close parentheses equals open parentheses table row 4 row cell negative 3 end cell end table close parentheses`.
+For example, $( \begin{gathered} 1 \\ 2 \end{gathered} ) + ( \begin{gathered} 3 \\ - 5 \end{gathered} ) = ( \begin{gathered} 1 + 3 \\ 2 + ( - 5 ) \end{gathered} ) = ( \begin{gathered} 4 \\ - 3 \end{gathered} )$.
 
 
 
@@ -90,18 +90,18 @@ For example, `open parentheses table row 1 row 2 end table close parentheses plu
 
 **True or False?**
 
-`5 cross times open parentheses table row 3 row 4 end table close parentheses equals open parentheses table row 15 row 4 end table close parentheses`
+$5 \times ( \begin{gathered} 3 \\ 4 \end{gathered} ) = ( \begin{gathered} 15 \\ 4 \end{gathered} )$
 
 
 **BACK**
 
 **False.**
 
-`5 cross times open parentheses table row 3 row 4 end table close parentheses not equal to open parentheses table row 15 row 4 end table close parentheses`.
+$5 \times ( \begin{gathered} 3 \\ 4 \end{gathered} ) \text{eq} ( \begin{gathered} 15 \\ 4 \end{gathered} )$.
 
 To multiply a vector by a scalar, you need to **multiply all parts **of the vector by the scalar.
 
-`5 cross times open parentheses table row 3 row 4 end table close parentheses equals open parentheses table row cell 5 cross times 3 end cell row cell 5 cross times 4 end cell end table close parentheses equals open parentheses table row 15 row 20 end table close parentheses`.
+$5 \times ( \begin{gathered} 3 \\ 4 \end{gathered} ) = ( \begin{gathered} 5 \times 3 \\ 5 \times 4 \end{gathered} ) = ( \begin{gathered} 15 \\ 20 \end{gathered} )$.
 
 
 
@@ -175,18 +175,18 @@ The **magnitude (modulus)** of a vector is its **length**.
 
 **True or False?**
 
-The **magnitude **of the vector `open parentheses table row 2 row 3 end table close parentheses` is $2^{2}+3^{2}$.
+The **magnitude **of the vector $( \begin{gathered} 2 \\ 3 \end{gathered} )$ is $2^{2}+3^{2}$.
 
 
 **BACK**
 
 **False.**
 
-The **magnitude **of the vector `open parentheses table row 2 row 3 end table close parentheses` is **not **$2^{2}+3^{2}$.
+The **magnitude **of the vector $( \begin{gathered} 2 \\ 3 \end{gathered} )$ is **not **$2^{2}+3^{2}$.
 
 To find the magnitude of a vector, you square the numbers, add them together and then take the positive square root.
 
-The **magnitude **of the vector `open parentheses table row 2 row 3 end table close parentheses` is $\sqrt{2^{2}+3^{2}}$.
+The **magnitude **of the vector $( \begin{gathered} 2 \\ 3 \end{gathered} )$ is $\sqrt{2^{2}+3^{2}}$.
 
 
 
@@ -196,18 +196,18 @@ The **magnitude **of the vector `open parentheses table row 2 row 3 end table cl
 
 **True or False?**
 
-The **magnitude **of the vector `open parentheses table row 2 row cell negative 3 end cell end table close parentheses` is $\sqrt{2^{2}-3^{2}}$.
+The **magnitude **of the vector $( \begin{gathered} 2 \\ - 3 \end{gathered} )$ is $\sqrt{2^{2}-3^{2}}$.
 
 
 **BACK**
 
 **False.**
 
-The **magnitude **of the vector `open parentheses table row 2 row cell negative 3 end cell end table close parentheses` is **not **$\sqrt{2^{2}-3^{2}}$.
+The **magnitude **of the vector $( \begin{gathered} 2 \\ - 3 \end{gathered} )$ is **not **$\sqrt{2^{2}-3^{2}}$.
 
 You need to square the negative in front of the 3.
 
-The **magnitude **of the vector `open parentheses table row 2 row cell negative 3 end cell end table close parentheses` is `square root of 2 squared plus open parentheses negative 3 close parentheses squared end root`.
+The **magnitude **of the vector $( \begin{gathered} 2 \\ - 3 \end{gathered} )$ is $\sqrt{2^{2} + ( - 3 )^{2}}$.
 
 
 
@@ -328,6 +328,6 @@ Write a **formula **for the **position vector** of the **midpoint **of *A* and *
 
 Points *A* and *B* have position vectors $a$ and $b$, respectively.
 
-A **formula **for the **position vector** of the **midpoint **of *A* and *B* is `1 half open parentheses bold a plus bold b close parentheses`.
+A **formula **for the **position vector** of the **midpoint **of *A* and *B* is $1 \frac{1}{2} ( a + b )$.
 
 

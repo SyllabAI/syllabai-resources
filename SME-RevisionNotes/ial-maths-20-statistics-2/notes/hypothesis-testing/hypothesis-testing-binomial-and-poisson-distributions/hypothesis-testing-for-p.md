@@ -54,8 +54,8 @@ guided_study: false
 
   - Check that the next value would cause this probability to be greater than the significance level
   
-    - For **H**<sub>**1**</sub>** : ***p < ...**** ***if `straight P left parenthesis X less or equal than c right parenthesis less or equal than alpha percent sign`  and `straight P left parenthesis X less or equal than c plus 1 right parenthesis space greater than alpha percent sign` then *c *is the critical value
-    - For **H**<sub>**1**</sub>** : ***p > ... * if `straight P left parenthesis X greater or equal than c right parenthesis less or equal than alpha percent sign`  and `straight P left parenthesis X greater or equal than c minus 1 right parenthesis greater than alpha percent sign` then *c *is the critical value
+    - For **H**<sub>**1**</sub>** : ***p < ...**** ***if $\mathrm{P} ( X \le c ) \le \alpha \%$  and $\mathrm{P} ( X \le c + 1 ) > \alpha \%$ then *c *is the critical value
+    - For **H**<sub>**1**</sub>** : ***p > ... * if $\mathrm{P} ( X \ge c ) \le \alpha \%$  and $\mathrm{P} ( X \ge c - 1 ) > \alpha \%$ then *c *is the critical value
 - For a **two-tailed test **you will need to find **both critical values, **one at each end of the distribution
 
   - Find the first value for which the probability of that **or a more extreme value** is less than **half** of the given significance level in both the upper and lower tails
@@ -71,7 +71,7 @@ H<sub>0</sub> : *p = ...*
 
 H<sub>1</sub> : *p = ...*
 
-- **Step 3. **Define the test statistic, usually `begin mathsize 16px style X tilde B left parenthesis n comma p right parenthesis end style` where *n*  is a defined number of trials and *p* is the population parameter to be tested
+- **Step 3. **Define the test statistic, usually $X \sim B ( n , p )$ where *n*  is a defined number of trials and *p* is the population parameter to be tested
 - **Step 4. **Calculate either the **critical value(s) **or the **necessary probability **for the test
 - **Step 5. **Compare the observed value of the test statistic with the critical value(s) or the probability with the significance level
 - **Step 6. **Decide whether there is enough evidence to reject H<sub>0</sub> or whether it has to be accepted

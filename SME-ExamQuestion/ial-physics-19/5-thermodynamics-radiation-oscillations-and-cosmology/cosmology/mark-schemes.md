@@ -81,13 +81,13 @@ Calculate the speed of the rotation, *v*:
 
 - $\frac{\Deltaλ}{λ}=\frac{v}{c}$
 - $v=c\times\frac{\Deltaλ}{λ}$
-- `v space equals space open parentheses 3.00 space cross times space 10 to the power of 8 close parentheses space cross times space fraction numerator space 656.2837 space minus space 656.2797 over denominator 656.2797 end fraction space equals space 1828 space straight m space straight s to the power of negative 1 end exponent` **[1 mark]**
+- $v = ( 3.00 \times 10^{8 ) \times \frac{ 656.2837 - 656.2797}{656.2797} = 1828 \mathrm{m} \mathrm{s}^{-1} }$ **[1 mark]**
 
 Calculate the time period of the rotation, *T*:
 
 - $v=ωr$ and $T=\frac{2π}{ω}$
 - $v=\frac{2πr}{T}\RightarrowT=\frac{2πr}{v}$
-- `T space equals space fraction numerator 2 straight pi space cross times space open parentheses 7.0 space cross times space 10 to the power of 8 close parentheses space over denominator 1828 end fraction space equals space 2.41 space cross times space 10 to the power of 6 space straight s` **[1 mark]**
+- $T = \frac{2 \mathrm{\pi } \times ( 7.0 \times 10^{8} ) }{1828} = 2.41 \times 10^{6} \mathrm{s}$ **[1 mark]**
 
 Convert *T* from s into days:
 
@@ -121,7 +121,7 @@ Convert *T* from s into days:
 
 $z=\frac{v}{c}$
 
-`v space equals space z c space equals space 0.134 cross times open parentheses 3.00 cross times 10 to the power of 8 close parentheses`
+$v = z c = 0.134 \times ( 3.00 \times 10^{8} )$
 
 $v=4.02\times10^{7}\text{m s}^{-1}$ **[1 mark]**
 

@@ -96,7 +96,7 @@ ii) $5^{-2}.$
 
 **Q7** [1 mark]
 
-Find the value of `open parentheses square root of 25 close parentheses squared`.
+Find the value of $( \sqrt{25} )^{2}$.
 
 *Source: Feb/March 2018 0580/12 Q12A*
 
@@ -109,7 +109,7 @@ i) Write $9.314\times10^{5}$ as an ordinary number.
 
 [1]
 
-ii) Calculate `open parentheses 4.1 cross times 10 to the power of negative 3 end exponent close parentheses cross times open parentheses 8.9 cross times 10 to the power of 7 close parentheses` 
+ii) Calculate $( 4.1 \times 10^{- 3} ) \times ( 8.9 \times 10^{7} )$ 
 Give your answer in standard form.
 
 [2]
@@ -123,7 +123,7 @@ Give your answer in standard form.
 
 Find the value of
 
-i) `cube root of 512`
+i) $\sqrt[3]{512}$
 
 [1]
 
@@ -149,7 +149,7 @@ Write the number 0.0605 in standard form.
 
 **Q10** [1 mark]
 
-Calculate `open parentheses 1.63 cross times 10 to the power of 12 close parentheses cross times open parentheses 2.47 cross times 10 to the power of negative 1 end exponent close parentheses`
+Calculate $( 1.63 \times 10^{12 ) \times ( 2.47 \times 10^{-1} } )$
 
 Give your answer in standard form.
 
@@ -201,7 +201,7 @@ i) Write $4.2\times10^{-3}$ as an ordinary number.
 
 [1]
 
-ii) Calculate `open parentheses 8.1 cross times 10 cubed close parentheses plus open parentheses 7.9 cross times 10 to the power of 4 close parentheses` 
+ii) Calculate $( 8.1 \times 10^{3} ) + ( 7.9 \times 10^{4} )$ 
 Give your answer in standard form.
 
 [2]

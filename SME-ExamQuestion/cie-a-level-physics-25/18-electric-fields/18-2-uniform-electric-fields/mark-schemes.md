@@ -111,7 +111,7 @@ List the known quantities:
 Calculate the separation, *d*:
 
 - Electric field strength, *E* =$\frac{F}{Q}$ =$\frac{V}{d}$
-- *d* = $\frac{VQ}{F}$= `begin mathsize 16px style fraction numerator 400 cross times open parentheses 0.17 cross times 10 to the power of negative 6 end exponent close parentheses over denominator 34 cross times 10 to the power of negative 3 end exponent end fraction end style` **[1 mark]**
+- *d* = $\frac{VQ}{F}$= $\frac{400 \times ( 0.17 \times 10^{- 6} )}{34 \times 10^{- 3} }$ **[1 mark]**
 - *d* = 2.0 × 10<sup>–3</sup> m (20 mm) **[1 mark]**** **
 
 **[Total: 2 marks]**
@@ -157,7 +157,7 @@ $E=\frac{V}{d}$
 
 > *where **V** is the voltage across the plates and **d** is the separation distance. *
 
-> *From this equation, we can see that the electric field strength is inversely proportional to the distance between the plates *`open parentheses E space proportional to space 1 over d close parentheses`*. Therefore, if the distance between the charged plates **increases**, the electric field strength will **decrease**.*
+> *From this equation, we can see that the electric field strength is inversely proportional to the distance between the plates *$( E \propto \frac{1}{d} )$*. Therefore, if the distance between the charged plates **increases**, the electric field strength will **decrease**.*
 The properties of alpha and beta particles that can cause differences in deflections are:
 
 **Final answer:** **Any two ****pairs from:**
@@ -175,7 +175,7 @@ The properties of alpha and beta particles that can cause differences in deflect
 
 > *The faster a charged particle enters the electric field, the smaller the deflection. This is because it will spend **less** **time** in the electric field. *
 
-> *The **smaller** the potential difference applied between the charged parallel plates, the smaller the electric field strength. This is because electric field strength and potential difference are directly proportional *`open parentheses E space equals space V over d close parentheses`*.*
+> *The **smaller** the potential difference applied between the charged parallel plates, the smaller the electric field strength. This is because electric field strength and potential difference are directly proportional *$( E = \frac{V}{d} )$*.*
 
 > *This means that less force will be acting on a charged particle due to the electric field (since *$F=qE$*), and therefore less deflection.*
 The path of the negatively charged particle is as follows:
@@ -220,7 +220,7 @@ Use the equation for electric field strength:
 
 - $E=\frac{V}{d}$ **[1 mark]**
 - $E=\frac{3500}{0.054}$
-- `E space equals space 6.48 space cross times space 10 to the power of 4 space straight N thin space straight C to the power of negative 1 end exponent space equals space 6.5 space cross times space 10 to the power of 4 space straight N thin space straight C to the power of negative 1 end exponent space open parentheses 2 space straight s. straight f. close parentheses` **[1 mark]**
+- $E = 6.48 \times 10^{4 \mathrm{N} \mathrm{C}^{-1} } = 6.5 \times 10^{4 \mathrm{N} \mathrm{C}^{-1} } ( 2 \mathrm{s} . \mathrm{f} . )$ **[1 mark]**
 
 **[Total: 2 marks]**
 On Fig. 1.2, draw a line to show the path of the electron as it moves through and out of the region of the electric field:
@@ -261,7 +261,7 @@ Determine the equation for the potential difference between the plates, *V*:
 
 Substitute in the values:
 
-- `V space space equals space fraction numerator open parentheses 50 space cross times space 10 to the power of negative 9 end exponent close parentheses space cross times space open parentheses 24 space cross times space 10 to the power of negative 3 end exponent close parentheses space space over denominator 1.60 space cross times space 10 to the power of negative 19 end exponent end fraction` **[1 mark]**
+- $V = \frac{( 50 \times 10^{- 9} ) \times ( 24 \times 10^{- 3} ) }{1.60 \times 10^{- 19} }$ **[1 mark]**
 - $V=7.5\times10^{9}V=7.5\mathrm{GV}$ **[1 mark]**
 
 **[Total: 3 marks]**
@@ -285,7 +285,7 @@ Calculate the electric field strength, *E*:
 
 Substitute the values into the charge equation, *q*:
 
-- `q space equals space fraction numerator open parentheses 5.0 space cross times space 10 to the power of negative 3 end exponent close parentheses space cross times space 9.81 over denominator 3.125 space cross times space 10 to the power of 11 end fraction space` **[1 mark]**
+- $q = \frac{( 5.0 \times 10^{- 3} ) \times 9.81}{3.125 \times 10^{11} }$ **[1 mark]**
 - $q=1.5696\times10^{-13}C=1.6\times10^{-13}C$ **[1 mark]**
 
 > *Remember you **cannot** use the same electric force **F** as in part (b), because this is a different particle to the proton. We can use the same potential difference and separation between the plates because these are the property of the plates itself (which haven't changed), instead of the particle.*

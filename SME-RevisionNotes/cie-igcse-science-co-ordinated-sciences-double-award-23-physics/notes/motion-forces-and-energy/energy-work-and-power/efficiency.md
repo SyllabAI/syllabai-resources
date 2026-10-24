@@ -56,11 +56,11 @@ guided_study: false
 
 - Efficiency in terms of **energy**:
 
-`efficiency space equals space fraction numerator useful space energy space output over denominator total space energy space input end fraction space open parentheses cross times 100 percent sign close parentheses`
+$\text{efficiency} = \frac{useful \text{energy} output}{total \text{energy} input} ( \times 100 \% )$
 
 - Efficiency in terms of **power**:
 
-`efficiency space equals space fraction numerator useful space power space output over denominator total space power space input end fraction space open parentheses cross times 100 percent sign close parentheses`
+$\text{efficiency} = \frac{useful \text{power} output}{total \text{power} input} ( \times 100 \% )$
 
 > **Worked Example**
 > An electric motor has an efficiency of 35%.
@@ -73,7 +73,7 @@ guided_study: false
 > 
 > **Step 1: Write down the efficiency equation in terms of power**
 > 
-> `e fficiency space equals space fraction numerator useful space power space output over denominator total space power space input end fraction space open parentheses cross times 100 percent sign close parentheses`
+> $e \text{fficiency} = \frac{useful \text{power} output}{total \text{power} input} ( \times 100 \% )$
 > 
 > **Step 2: Rearrange to make power input the subject**
 > 

@@ -90,7 +90,7 @@ Determine the amplitude of oscillation, *x*<sub>*0*</sub>:
 Calculate the total energy of the system, *E*<sub>*T*</sub>:
 
 - Recall: $E_{T}=\frac{1}{2}mω^{2}x_{0}^{2}$
-- `E subscript T equals 1 half cross times 0.05 cross times open parentheses straight pi over 2 close parentheses squared cross times 0.06366 squared equals 2.5 cross times 10 to the power of negative 4 end exponent equals 0.25 space mJ` **[1 mark]**
+- `E _ T = 1 half x 0.05 x ( pi / 2 ) ^2 x 0.06366 ^2 = 2.5 x 10 ^ - 4 = 0.25 mJ` **[1 mark]**
 
 **[Total: 3 marks]**
 
@@ -151,7 +151,7 @@ Use the equation for total energy in SHM and rearrange to make *ω* the subject:
 
 Substitute in the known values to calculate:
 
-- `omega space equals space square root of fraction numerator 2 space cross times space 0.324 over denominator 0.02 space cross times space open parentheses 0.05 close parentheses squared end fraction end root` **[1 mark]**
+- $\\omega = \sqrt{ \frac{2 \times 0.324}{0.02 \times ( 0.05 )^{2}} }$ **[1 mark]**
 - $ω=113.84=114\mathrm{rad}s^{-1}$ **[1 mark]**
 
 **[Total: 3 marks]**
@@ -199,9 +199,9 @@ Calculate the maximum kinetic energy of the ion:
 
 - $K_{Emax}=E_{total}$
 - $E=\frac{1}{2}mω^{2}x_{0}^{2}$ and $ω=\frac{2π}{T}=2πf$
-- Combining these equations gives `E space equals space 1 half m open parentheses 2 straight pi f close parentheses squared x subscript 0 squared`
-- `E space equals space 1 half space cross times space open parentheses 6 cross times 10 to the power of negative 26 end exponent close parentheses space cross times space open parentheses 2 straight pi space cross times space open parentheses 8 cross times 10 to the power of 12 close parentheses close parentheses squared space cross times space open parentheses 2 cross times 10 to the power of negative 11 end exponent close parentheses squared`** [1 mark]**
-- `E space equals space 3 cross times 10 to the power of negative 20 end exponent space straight J space open parentheses 1 space straight s. straight f. close parentheses`** [1 mark]**
+- Combining these equations gives $E = 1 \frac{1}{2} m ( 2 \mathrm{\pi } f )^{2} x_{0}^{2}$
+- $E = 1 \frac{1}{2} \times ( 6 \times 10^{- 26} ) \times ( 2 \mathrm{\pi } \times ( 8 \times 10^{12 ) )^{2} \times ( 2 \times 10^{-11} } )^{2}$** [1 mark]**
+- $E = 3 \times 10^{- 20} \mathrm{J} ( 1 \mathrm{s} . \mathrm{f} . )$** [1 mark]**
 
 **[Total: 2 marks]**
 To sketch the variation of kinetic and potential energy over time, including appropriate values:
@@ -358,12 +358,12 @@ Recall the total energy equation and rearrange to solve for *m*:
 Substitute the equation for angular velocity into the total energy equation:
 
 - $ω=\frac{2π}{T}=2πf$
-- `m space equals space fraction numerator 2 E over denominator open parentheses 2 straight pi f close parentheses squared x subscript 0 squared end fraction` **[1 mark]**
+- $m = \frac{2 E}{( 2 \mathrm{\pi } f )^{2} x_{0}^{2}}$ **[1 mark]**
 
 Substitute in the known values to calculate mass:
 
 - $E_{Kmax}=E$ **[1 mark]**
-- `m space equals space fraction numerator 2 space cross times space 23 over denominator open parentheses 2 straight pi space cross times space 0.7 close parentheses squared space cross times space open parentheses 0.6 close parentheses squared end fraction`
+- $m = \frac{2 \times 23}{( 2 \mathrm{\pi } \times 0.7 )^{2} \times ( 0.6 )^{2}}$
 - $m=6.6\mathrm{kg}$** [1 mark]**
 
 **[Total: 4 marks]**
@@ -384,14 +384,14 @@ Determine the displacement from the equilibrium position:
 
 Using the kinetic energy equation to determine the kinetic energy at this displacement:
 
-- `E subscript K space end subscript space equals 1 half m omega squared open parentheses x subscript 0 squared space minus space x squared close parentheses space equals 1 half m open parentheses 2 pi f close parentheses squared open parentheses x subscript 0 squared space minus space x squared close parentheses`
-- `E subscript K space end subscript space equals 1 half space cross times space 6.6 space cross times space open parentheses 2 pi space cross times space 0.7 close parentheses squared space cross times space open parentheses 0.6 squared space minus space 0.36 squared close parentheses` **[1 mark]**
+- $E_{K } = 1 \frac{1}{2} m \\omega ^{2} ( x_{0}^{2} - x^{2} ) = 1 \frac{1}{2} m ( 2 \pi f )^{2} ( x_{0}^{2} - x^{2} )$
+- $E_{K } = 1 \frac{1}{2} \times 6.6 \times ( 2 \pi \times 0.7 )^{2} \times ( 0.6^{2} - 0.36^{2} )$ **[1 mark]**
 - $E_{K}=14.72J$** [1 mark]**
 
 **OR**
 
-- `E subscript K space end subscript space equals 1 half m omega squared open parentheses x subscript 0 squared space minus space x squared close parentheses space equals 1 half m omega squared open parentheses x subscript 0 squared space minus space open parentheses 0.6 x subscript 0 close parentheses squared close parentheses`
-- `E subscript K space end subscript space equals 1 half m omega squared x subscript 0 squared open parentheses 1 space minus space 0.6 squared close parentheses space equals 23 open parentheses 1 space minus space 0.6 squared close parentheses` **[1 mark]**
+- $E_{K } = 1 \frac{1}{2} m \\omega ^{2} ( x_{0}^{2} - x^{2} ) = 1 \frac{1}{2} m \\omega ^{2} ( x_{0}^{2} - ( 0.6 x_{0} )^{2} )$
+- $E_{K } = 1 \frac{1}{2} m \\omega ^{2} x_{0}^{2} ( 1 - 0.6^{2} ) = 23 ( 1 - 0.6^{2} )$ **[1 mark]**
 
 - $E_{K}=14.72J$** [1 mark]**
 
@@ -411,7 +411,7 @@ Sentences completed with the correct words:
 **[Total: 5 marks]**
 The equation for the total energy of a simple harmonic system is:
 
-- `E space equals space 1 half m omega squared open parentheses x subscript o close parentheses squared`** [1 mark]**
+- $E = 1 \frac{1}{2} m \\omega ^{2} ( x_{o} )^{2}$** [1 mark]**
 
 **[Total: 1 mark]**
 A diagram that would score 5 marks should look like this:
@@ -454,16 +454,16 @@ List the known quantities:
 
 Recall the equations for maximum kinetic energy *E*<sub>*k (max)*</sub>, volume *V* and density *ρ*:
 
-- `E subscript k space open parentheses m a x close parentheses end subscript space equals space 1 half m v subscript m a x end subscript squared` **AND**
+- $E_{k ( m a x )} = 1 \frac{1}{2} m v_{m a x}^{2}$ **AND**
 - *V *= *AL* **AND**
 - $ρ=\frac{m}{V}$ **[1 mark]**
 
 Rearrange and substitute the equations for mass *m *and volume *V*:
 
 - $ρ=\frac{m}{V}$ $\rightarrow$ $m=ρV$
-- `m space equals space rho space cross times space open parentheses A L close parentheses`
-- `E subscript k space open parentheses m a x close parentheses end subscript space equals space 1 half open parentheses rho A L close parentheses v subscript m a x end subscript squared`
-- `E subscript k space open parentheses m a x close parentheses end subscript space equals space 1 half A L rho v subscript m a x end subscript squared`** [1 mark]**
+- $m = \\rho \times ( A L )$
+- $E_{k ( m a x )} = 1 \frac{1}{2} ( \\rho A L ) v_{m a x}^{2}$
+- $E_{k ( m a x )} = 1 \frac{1}{2} A L \\rho v_{m a x}^{2}$** [1 mark]**
 
 **[Total: 2 marks]**
 
@@ -493,7 +493,7 @@ Obtain an expression for gravitational potential energy *E*<sub>*p*</sub><sub> (
 > *Gravtiational potential energy is gained when the water is a height of **x*<sub>*max*</sub>* above the equilibrium position hence the equation for the mass of the water moving above this position contains **x*<sub>*max*</sub>*. The SHM equation for **v*<sub>*max*</sub>* is **v*<sub>*max*</sub>* = **ωA** where **A **is amplitude and not cross-sectional area. Don't let this confuse you! *
 List the known quantities:
 
-- `E subscript k space open parentheses m a x close parentheses end subscript space equals space 1 half A L rho v subscript m a x end subscript squared` (From part a))
+- $E_{k ( m a x )} = 1 \frac{1}{2} A L \\rho v_{m a x}^{2}$ (From part a))
 - *E*<sub>*p (max)*</sub> = *Aρgx*<sub>*max*</sub><sup>*2 *</sup>(From part b))
 
 Combine the expressions and rearrange to get an expression for $\frac{x_{max}}{v_{max}}$:

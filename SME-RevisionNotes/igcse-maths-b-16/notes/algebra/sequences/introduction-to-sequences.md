@@ -78,11 +78,11 @@ guided_study: false
 - For example, a sequence has the *n *th term formula 8*n * + 2
 
   - Is 98 in the sequence?
-  `table row cell 8 n plus 2 end cell equals 98 row cell 8 n end cell equals 96 row n equals cell 96 over 8 end cell row n equals 12 end table`
+  $\begin{gathered} 8 n + 2 & = 98 \\ 8 n & = 96 \\ n = \frac{96}{8} \\ n = 12 \end{gathered}$
   
     - It is in the sequence, it is the 12<sup>th</sup> term
   - Is 124 in the sequence?
-  `table row cell 8 n plus 2 end cell equals 124 row cell 8 n end cell equals 122 row n equals cell 122 over 8 end cell row n equals cell 15.25 end cell end table`
+  $\begin{gathered} 8 n + 2 & = 124 \\ 8 n & = 122 \\ n = \frac{122}{8} \\ n = 15.25 \end{gathered}$
   
     - *n*  is **not** a **whole number**, so it is** not** in the sequence
 
@@ -135,7 +135,7 @@ guided_study: false
 > > *Solve to find **n*
 > *If **n** is a whole number, it is a term in the sequence*
 > 
-> `table attributes columnalign right center left columnspacing 0px end attributes row cell 3 n end cell equals cell 96 minus 2 end cell row cell 3 n end cell equals 94 row n equals cell 94 over 3 end cell end table`
+> $\begin{array}{rcl} 3 n & = 96 - 2 \\ 3 n & = 94 \\ n = \frac{94}{3} \end{array}$
 > 
 > > *94 is not divisible by 3*
 > *The nearest possible value is 95 ((95-2) ÷ 3 = 31, the 31*<sup>*st*</sup>* term)*

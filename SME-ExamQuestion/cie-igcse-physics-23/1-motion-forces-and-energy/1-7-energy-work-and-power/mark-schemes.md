@@ -47,7 +47,7 @@ gravitational potential energy → kinetic energy
 - As the students climb the stairs, they do work against gravity
 - The work done by each student is equal to the energy transferred to the gravitational potential store, which depends on
 
-  - their weight `open parentheses W space equals space m g close parentheses`
+  - their weight $( W = m g )$
   - the vertical height climbed
 - Since both students climb the same vertical height, the student with the smaller weight (student Y) does less work
 - Power is defined as the rate of doing work:
@@ -273,10 +273,10 @@ $efficiency=\frac{usefuloutputpower}{totalinputpower}$
   - $E_{K}=\frac{1}{2}mv^{2}$
 - If the wind speed is reduced by half then:
 
-  - `E subscript K equals 1 half m open parentheses v over 2 close parentheses squared`
+  - $E_{K} = 1 \frac{1}{2} m ( \frac{v}{2} )^{2}$
   - $E_{K}=\frac{1}{2}m\frac{v^{2}}{2^{2}}$
   - $E_{K}=\frac{1}{2}m\frac{v^{2}}{4}$
-  - `E subscript K equals 1 fourth open parentheses 1 half m v squared close parentheses`
+  - $E_{K} = 1 \frac{1}{4} ( 1 \frac{1}{2} m v^{2} )$
 
 If the wind speed is reduced by half, then the kinetic energy is reduced by a factor of 4
 
@@ -397,7 +397,7 @@ this question needs two equations:
 - work done per pallet = 5 000 × 30 = 150 000 J
 - There are four pallets, so work done = 150 000 × 4 = 600 000 J
 - don't forget to convert time to seconds!
-- power = `fraction numerator 600 space 000 over denominator open parentheses 4 cross times 60 close parentheses end fraction` = 2500 W ( or J/s)
+- power = $\frac{600 000}{( 4 \times 60 )}$ = 2500 W ( or J/s)
 
 ### Q28
 **Final answer:** **The correct answer is ****A**** because **

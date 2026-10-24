@@ -8,6 +8,6 @@
 ### 21() — 3 marks — command: show — structured — from paper Specimen paper · 4MA1/2F
 Solve the simultaneous equations
 
-`table row cell 6 x space plus space 4 y space end cell equals cell space 19 end cell row cell 5 x space plus space y space end cell equals cell space 3 end cell end table`
+$\begin{gathered} 6 x + 4 y & = 19 \\ 5 x + y & = 3 \end{gathered}$
 
 Show clear algebraic working

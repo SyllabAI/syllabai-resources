@@ -45,7 +45,7 @@ guided_study: true
 - You can draw a vector **anywhere **on a grid
 
   - Just make sure it has the **correct length** and the **correct direction**
-- To draw the vector `bold a equals open parentheses table row 3 row 4 end table close parentheses`
+- To draw the vector $a = ( \begin{gathered} 3 \\ 4 \end{gathered} )$
 
   - **Pick** a point on the grid and draw a **dot** there
   - Count 3 units to the right and 4 units up and **draw another dot**
@@ -53,8 +53,8 @@ guided_study: true
   - Put an **arrow **on the line **pointing toward the second dot**
 - Look out for **negatives** and **zeroes**
 
-  - `bold b equals open parentheses table row 2 row cell negative 4 end cell end table close parentheses`  goes **2 to the right** and **4 down**
-  - `bold c equals open parentheses table row 2 row 0 end table close parentheses` goes **2 to the right** but **does not go up or down**
+  - $b = ( \begin{gathered} 2 \\ - 4 \end{gathered} )$  goes **2 to the right** and **4 down**
+  - $c = ( \begin{gathered} 2 \\ 0 \end{gathered} )$ goes **2 to the right** but **does not go up or down**
 
 ![Vectors on a grid](../../../assets/b4c24275790b-21498-representing-vectors-as-diagrams-3.png)
 
@@ -64,10 +64,10 @@ guided_study: true
 
   - The **direction** stays the **same**
   - The **length** of the vector is **multiplied by the scalar**
-- For example, `bold a equals open parentheses table row 4 row cell negative 2 end cell end table close parentheses`
+- For example, $a = ( \begin{gathered} 4 \\ - 2 \end{gathered} )$
 
-  - `2 bold a equals open parentheses table row 8 row cell negative 4 end cell end table close parentheses` will have the **same direction** but **double the length**
-  - `1 half bold a equals open parentheses table row 2 row cell negative 1 end cell end table close parentheses` will have the **same direction** but **half the length**
+  - $2 a = ( \begin{gathered} 8 \\ - 4 \end{gathered} )$ will have the **same direction** but **double the length**
+  - $1 \frac{1}{2} a = ( \begin{gathered} 2 \\ - 1 \end{gathered} )$ will have the **same direction** but **half the length**
 
 ![Multiplying vectors by a scalar](../../../assets/b1fa3da6ccf2-27465-representing-vectors-as-diagrams-4.png)
 
@@ -75,10 +75,10 @@ guided_study: true
 
   - The **direction** is **reversed**
   - The** length** of the vector is **multiplied** by the **number after the negative sign**
-- For example, `bold a equals open parentheses table row 4 row cell negative 2 end cell end table close parentheses`
+- For example, $a = ( \begin{gathered} 4 \\ - 2 \end{gathered} )$
 
-  - `negative bold a equals open parentheses table row cell negative 4 end cell row 2 end table close parentheses` will be in the **opposite direction** and its **length will be the same**
-  - `negative 2 bold a equals open parentheses table row cell negative 8 end cell row 4 end table close parentheses` will be in the **opposite direction** and its **length will be doubled**
+  - $- a = ( \begin{gathered} - 4 \\ 2 \end{gathered} )$ will be in the **opposite direction** and its **length will be the same**
+  - $- 2 a = ( \begin{gathered} - 8 \\ 4 \end{gathered} )$ will be in the **opposite direction** and its **length will be doubled**
 
 ![Multiplying a vector by a negative scalar](../../../assets/75c35fc560af-1645-representing-vectors-as-diagrams-5.png)
 
@@ -112,19 +112,19 @@ guided_study: true
 > 
 > > *From **A** to **B**, it is 6 to the right and 2 up*
 > 
-> `stack bold A bold B with bold rightwards arrow on top bold equals stretchy left parenthesis table row 6 row 2 end table stretchy right parenthesis`
+> `A B -vec = stretchy ( | 6 | 2 | stretchy )`
 > 
 > > *From **A** to **C**, it is 7 to the right and 6 down*
 > 
-> `stack bold A bold C with bold rightwards arrow on top bold equals stretchy left parenthesis table row 7 row cell negative 6 end cell end table stretchy right parenthesis`
+> `A C -vec = stretchy ( | 7 | - 6 | | stretchy )`
 > 
 > > *From **C** to **B**, it is 1 to the left and 8 up*
 > 
-> `stack bold C bold B with bold rightwards arrow on top bold equals stretchy left parenthesis table row cell negative 1 end cell row 8 end table stretchy right parenthesis`
+> `C B -vec = stretchy ( | - 1 | | 8 | stretchy )`
 > 
 > (b)
 > 
-> Without using any calculations, explain why `stack A B with rightwards arrow on top plus stack B C with rightwards arrow on top plus stack C A with rightwards arrow on top equals open parentheses table row 0 row 0 end table close parentheses`.
+> Without using any calculations, explain why $\vec{AB} + \vec{BC} + \vec{CA} = ( \begin{gathered} 0 \\ 0 \end{gathered} )$.
 > 
 > **Answer:**
 > 

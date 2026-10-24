@@ -15,14 +15,14 @@ for all positive integer values of $n$.
 ## Q2 — medium — 3 marks · exam-questions
 
 ### 20() — 3 marks — command: prove — structured — from paper 2015	June · 1MA0/2H
-Show that `open parentheses n plus 3 close parentheses squared space minus space open parentheses n minus 3 close parentheses squared`  is an even number for all positive integer values of $n$.
+Show that $( n + 3 )^{2} - ( n - 3 )^{2}$  is an even number for all positive integer values of $n$.
 
 ## Q3 — medium — 4 marks · exam-questions
 
 ### 16() — 4 marks — command: prove — structured — from paper 2017	June · 1MA1/1H
 $n$ is an integer greater than $1$
 
-Prove algebraically that  `n squared space minus space 2 space minus space open parentheses space n minus 2 close parentheses squared` is always an even number.
+Prove algebraically that  $n^{2} - 2 - ( n - 2 )^{2}$ is always an even number.
 
 ## Q4 — medium — 3 marks · exam-questions
 
@@ -35,7 +35,7 @@ Show clear algebraic working.
 ### 25() — 3 marks — command: prove — structured — from paper Jan 2020 · 4MA1/2HR
 $N$ is a multiple of 5
 
-`table row cell A space end cell equals cell space N space plus space 1 end cell row cell B space end cell equals cell space N space – space 1 end cell end table`
+$\begin{gathered} A & = N + 1 \\ B & = N - 1 \end{gathered}$
 
 Prove, using algebra, that $A^{2}--B^{2}$ is always a multiple of 20
 
@@ -101,7 +101,7 @@ Give a reason for your answer.
 
 When $n$ is a positive integer, the value of $2n$ is **always** a factor of the value of $20n$.
 
-True    `begin mathsize 26px style square end style`      False    `begin mathsize 26px style square end style`
+True    $\text{square}$      False    $\text{square}$
 
 ## Q12 — medium — 4 marks · exam-questions
 
@@ -121,7 +121,7 @@ Give an example to show that the sum of four consecutive integers is **not** alw
 ### 1() — 3 marks — command: prove — structured
 Prove that
 
-`open parentheses 2 n space plus space 3 close parentheses squared space minus space open parentheses 2 n space minus space 3 close parentheses squared`  is a multiple of $8$
+$( 2 n + 3 )^{2} - ( 2 n - 3 )^{2}$  is a multiple of $8$
 
 for all positive integer values of $n$.
 
@@ -135,7 +135,7 @@ Prove that the square of an odd number is always 1 more than a multiple of 4
 ### 24() — 4 marks — command: prove — structured — from paper 2016 November · 1MA0/2H
 Prove that , for all positive values of $n$,
 
-`fraction numerator open parentheses n space plus 2 space close parentheses squared space minus space open parentheses n space plus 1 close parentheses squared over denominator 2 n squared space plus space 3 n end fraction space equals space 1 over n`
+$\frac{( n + 2 )^{2} - ( n + 1 )^{2}}{2 n^{2} + 3 n} = \frac{1}{n}$
 
 ## Q17 — hard — 4 marks · exam-questions
 
@@ -150,7 +150,7 @@ Prove algebraically that the product of any two odd numbers is always an odd num
 ## Q19 — hard — 4 marks · exam-questions
 
 ### 24((a)) — 1 mark — command: prove — structured — from paper June 2018 · 4MA1/1HR
-Show that `x left parenthesis x space minus space 1 right parenthesis space open parentheses x space plus space 1 close parentheses equals space x cubed space minus space x`
+Show that $x ( x - 1 ) ( x + 1 ) = x^{3} - x$
 
 ### 24((b)) — 3 marks — command: prove — structured — from paper June 2018 · 4MA1/1HR
 Prove that the difference between a whole number and the cube of this number is always a multiple of $6$
@@ -176,7 +176,7 @@ Prove that the result is a cube number.
 ### 20() — 4 marks — command: prove — structured — from paper June 2019 · 8300/2H
 Expressions for consecutive triangular numbers are
 
-`fraction numerator n open parentheses n plus 1 close parentheses over denominator 2 end fraction` and `fraction numerator open parentheses n plus 1 close parentheses open parentheses n plus 2 close parentheses over denominator 2 end fraction`
+$\frac{n ( n + 1 )}{2}$ and $\frac{( n + 1 ) ( n + 2 )}{2}$
 
 Prove that the sum of two consecutive triangular numbers is always a square number.
 
@@ -185,7 +185,7 @@ Prove that the sum of two consecutive triangular numbers is always a square numb
 ### 20() — 3 marks — command: prove — structured — from paper Nov 2018 · 8300/2H
 $n$ is a positive integer.
 
-Prove algebraically that  `2 n squared open parentheses 3 over n plus space n close parentheses space plus space 6 n space open parentheses n squared space minus 1 close parentheses` is a cube number.
+Prove algebraically that  $2 n^{2} ( \frac{3}{n} + n ) + 6 n ( n^{2} - 1 )$ is a cube number.
 
 ## Q24 — hard — 2 marks · exam-questions
 

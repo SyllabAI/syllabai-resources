@@ -166,7 +166,7 @@
       "spcpt_b54Tg8rD74DyCckg"
      ],
      "part_tier": null,
-     "problem_md": "Prove by induction that, for $n\\inℤ^{+}$,\n\n`sum from r equals 1 to n of fraction numerator 4 r over denominator 3 to the power of r end fraction equals 3 minus fraction numerator left parenthesis 3 plus 2 n right parenthesis over denominator 3 to the power of n end fraction`",
+     "problem_md": "Prove by induction that, for $n\\inℤ^{+}$,\n\n$\\sum_{r = 1}^{n} \\frac{4 r}{3^{r} } = 3 - \\frac{( 3 + 2 n )}{3^{n} }$",
      "solution_md": "> **[mark-scheme]**\n> ![Mathematical proof with equations and annotations, using induction to prove a series sum identity, including algebraic steps and reasoning.](assets/044-mathematical-proof-with-equations-and-annotation.png)\n> \n> **Notes**\n> \n> ![Part (ii) explains that stating LHS equals RHS alone is not enough to earn the first B1 mark in this section.](assets/045-part-ii-explains-that-stating-lhs-equals-rhs-alo.png)",
      "equations": [
       {
@@ -206,7 +206,7 @@
       "spcpt_6NkRppSFKD89hB3j"
      ],
      "part_tier": null,
-     "problem_md": "Prove by induction that for $n\\inℤ^{+}$\n\n`open parentheses table row 1 r row 0 2 end table close parentheses to the power of n equals open parentheses table row 1 cell left parenthesis 2 to the power of n minus 1 right parenthesis r end cell row 0 cell 2 to the power of n end cell end table close parentheses`\n\nwhere $r$ is a constant.",
+     "problem_md": "Prove by induction that for $n\\inℤ^{+}$\n\n$( \\begin{gathered} 1 r \\\\ 0 2 \\end{gathered} )^{n} = ( \\begin{gathered} 1 ( 2^{n} - 1 ) r \\\\ 0 2^{n} \\end{gathered} )$\n\nwhere $r$ is a constant.",
      "solution_md": "> **[mark-scheme]**\n> ![Mathematical proof with equations and matrices demonstrating induction for \\( n = k \\), algebraic steps, boxed instructions, and narratives for conclusion.](assets/021-mathematical-proof-with-equations-and-matrices-d.png)",
      "equations": [
       {
@@ -242,7 +242,7 @@
       "spcpt_DFnsnvP295B5FmbK"
      ],
      "part_tier": null,
-     "problem_md": "`bold M equals open parentheses table row 4 0 row 0 5 end table close parentheses`                `bold N equals open parentheses table row 1 cell negative 2 end cell row 0 2 end table close parentheses to the power of 4`\n\nThe transformation represented by matrix **M** followed by the transformation represented by matrix **N** is represented by the matrix **B**\n\n(i) Determine **N** in the form `open parentheses table row a b row c d end table close parentheses` where $a$, $b$, $c$ and $d$ are integers.\n\n[1]\n\n(ii) Determine **B**\n\n[2]",
+     "problem_md": "$M = ( \\begin{gathered} 4 0 \\\\ 0 5 \\end{gathered} )$                $N = ( \\begin{gathered} 1 - 2 \\\\ 0 2 \\end{gathered} )^{4}$\n\nThe transformation represented by matrix **M** followed by the transformation represented by matrix **N** is represented by the matrix **B**\n\n(i) Determine **N** in the form $( \\begin{gathered} a b \\\\ c d \\end{gathered} )$ where $a$, $b$, $c$ and $d$ are integers.\n\n[1]\n\n(ii) Determine **B**\n\n[2]",
      "solution_md": "> **[mark-scheme]**\n> (i)\n> \n> ![Matrix calculation showing \\((1 -2; 0 2)^4 = (1 -30; 0 16)\\). Comment: Correct matrix N. Could be manual or calculated. Label: B1.](assets/022-matrix-calculation-showing-1-2-0-2-4-1-30-0-16-c.png)\n> \n> (ii)\n> \n> ![Matrix calculation with conditions for forming B=NM. Includes matrix elements and rules. Correct matrix B shown below conditions, highlighting required structure.](assets/023-matrix-calculation-with-conditions-for-forming-b.png)",
      "equations": [
       {
@@ -386,7 +386,7 @@
       "spcpt_6NkRppSFKD89hB3j"
      ],
      "part_tier": null,
-     "problem_md": "Prove by induction that for $n\\inℤ^{+}$\n\n`open parentheses table row 5 cell negative 1 end cell row 4 1 end table close parentheses to the power of n equals 3 to the power of n minus 1 end exponent open parentheses table row cell 2 n plus 3 end cell cell negative n end cell row cell 4 n end cell cell 3 minus 2 n end cell end table close parentheses`",
+     "problem_md": "Prove by induction that for $n\\inℤ^{+}$\n\n$( \\begin{gathered} 5 - 1 \\\\ 4 1 \\end{gathered} )^{n = 3^{n} - 1} ( \\begin{gathered} 2 n + 3 & - n \\\\ 4 n & 3 - 2 n \\end{gathered} )$",
      "solution_md": "> **[mark-scheme]**\n> ![Mathematical induction proof table for an expression involving powers of three, binomial coefficients, and algebraic manipulation, showing detailed steps.](assets/037-mathematical-induction-proof-table-for-an-expres.png)\n> \n> **Notes**\n> \n> ![Mathematical notes with sections on proof steps; includes matrix notation, equations, and explanations for validating true for n = 1 and n = k + 1.](assets/038-mathematical-notes-with-sections-on-proof-steps-.png)",
      "equations": [
       {
@@ -504,7 +504,7 @@
       "spcpt_b54Tg8rD74DyCckg"
      ],
      "part_tier": null,
-     "problem_md": "Prove by induction that for all positive integers $n$\n\n`sum from r equals 1 to n of log left parenthesis 2 r minus 1 right parenthesis equals log space blank open parentheses fraction numerator left parenthesis 2 n right parenthesis factorial over denominator 2 to the power of n   n factorial end fraction close parentheses`",
+     "problem_md": "Prove by induction that for all positive integers $n$\n\n$\\sum_{r = 1}^{n} \\log ( 2 r - 1 ) = \\log ( \\frac{( 2 n ) factorial}{2^{n}   n factorial} )$",
      "solution_md": "> **[mark-scheme]**\n> ![Mathematical proof using induction for a logarithmic equation, detailing steps for initial case, induction hypothesis, and induction step with algebraic manipulations.](assets/027-mathematical-proof-using-induction-for-a-logarit.png)\n> \n> ![Notes table detailing steps for mathematical induction proof. Includes categories B1, M1, and A1, with instructions on checking base cases, making assumptions, and achieving correct expressions.](assets/028-notes-table-detailing-steps-for-mathematical-ind.png)\n> \n> ![Steps for splitting logs, showing summation from r equals 1 to k plus 1, transformation of log expressions, each step marked M1 on the right.](assets/029-steps-for-splitting-logs-showing-summation-from-.png)",
      "equations": [
       {
@@ -543,7 +543,7 @@
       "spcpt_P6PMYkhvyYkCXM2d"
      ],
      "part_tier": null,
-     "problem_md": "A sequence of numbers is defined by\n\n$u_{1}=3$\n\n`u subscript n plus 1 end subscript equals 2 u subscript n minus 2 to the power of n plus 1 end exponent      n greater-than or slanted equal to 1`\n\nProve by induction that, for $n\\inℕ$\n\n$u_{n}=5\\times2^{n-1}-n\\times2^{n}$",
+     "problem_md": "A sequence of numbers is defined by\n\n$u_{1}=3$\n\n$u_{n + 1} = 2 u_{n} - 2^{n + 1} n greater-than \\text{or} \\text{slanted} \\text{equal} \\text{to} 1$\n\nProve by induction that, for $n\\inℕ$\n\n$u_{n}=5\\times2^{n-1}-n\\times2^{n}$",
      "solution_md": "> **[mark-scheme]**\n> ![Mathematical proof using induction with steps and annotations explains validity of \\( u_n = 5 \\times 2^{n-1} - n \\times 2^n \\), for B1, M1, A1 marks.](assets/025-mathematical-proof-using-induction-with-steps-an.png)",
      "equations": [
       {
@@ -626,7 +626,7 @@
       "spcpt_b54Tg8rD74DyCckg"
      ],
      "part_tier": null,
-     "problem_md": "Prove by induction that, for $n\\inℕ$\n\n`sum from r equals 1 to n of r cubed equals 1 fourth n squared left parenthesis n plus 1 right parenthesis squared`",
+     "problem_md": "Prove by induction that, for $n\\inℕ$\n\n$\\sum_{r = 1}^{n} r^{3} = 1 \\frac{1}{4} n^{2} ( n + 1 )^{2}$",
      "solution_md": "> **[mark-scheme]**\n> ![Mathematical proof using induction for sum of cubes formula: true for n=1; assume n=k; prove for n=k+1; confirms true for all natural numbers.](assets/030-mathematical-proof-using-induction-for-sum-of-cu.png)\n> \n> **Notes:**\n> \n> ![Maths induction proof explanation: steps for B1, M1, A1 in verifying base case, making assumptions, performing calculations, and reaching conclusions for all n.](assets/031-maths-induction-proof-explanation-steps-for-b1-m.png)",
      "equations": [
       {
@@ -655,7 +655,7 @@
       "spcpt_43RTm6JtZxvK7VS3"
      ],
      "part_tier": null,
-     "problem_md": "Using the standard summation formulae, show that\n\n`sum from r equals 1 to n of r left parenthesis r plus 1 right parenthesis left parenthesis r minus 1 right parenthesis equals 1 fourth n left parenthesis n plus A right parenthesis left parenthesis n plus B right parenthesis left parenthesis n plus C right parenthesis`\n\nwhere $A$, $B$ and $C$ are constants to be determined.",
+     "problem_md": "Using the standard summation formulae, show that\n\n$\\sum_{r = 1}^{n} r ( r + 1 ) ( r - 1 ) = 1 \\frac{1}{4} n ( n + A ) ( n + B ) ( n + C )$\n\nwhere $A$, $B$ and $C$ are constants to be determined.",
      "solution_md": "> **[mark-scheme]**\n> ![Mathematical proof showing the summation of equations involving 'r', with text explaining a marking error. Labels used: B1, M1, A1, and a total score of 4.](assets/032-mathematical-proof-showing-the-summation-of-equa.png)\n> \n> **Notes:**\n> \n> ![Marking scheme instructions for part (b), including criteria for correct expansion, use of summation formulas, and steps for simplifying or factorising expressions.](assets/033-marking-scheme-instructions-for-part-b-including.png)",
      "equations": [
       {
@@ -694,7 +694,7 @@
       "spcpt_43RTm6JtZxvK7VS3"
      ],
      "part_tier": null,
-     "problem_md": "Determine the value of $n$ for which\n\n`3 sum from r equals 1 to n of r left parenthesis r plus 1 right parenthesis left parenthesis r minus 1 right parenthesis equals 17 sum from r equals n to 2 n of r squared`",
+     "problem_md": "Determine the value of $n$ for which\n\n$3 \\sum_{r = 1}^{n} r ( r + 1 ) ( r - 1 ) = 17 \\sum_{r = n}^{2 n} r^{2}$",
      "solution_md": "> **[mark-scheme]**\n> ![Mathematical equations with summation notations, calculations involving \\(n\\), and simplifications. Notation includes \\( \\Sigma \\) and expressions for \\( r^2 \\) and \\( r(r+1)(r-1) \\).](assets/034-mathematical-equations-with-summation-notations-.png)\n> \n> ![Mathematical equations solving for n, showing n equals 52, with annotations \"ddM1,\" \"A1,\" and \"(5)\" in a table format.](assets/035-mathematical-equations-solving-for-n-showing-n-e.png)\n> \n> ![Mathematical solution notes include summation application, simplification steps, quadratic equation solving, and marking criteria for student evaluation.](assets/036-mathematical-solution-notes-include-summation-ap.png)",
      "equations": [
       {
@@ -823,7 +823,7 @@
       "spcpt_b54Tg8rD74DyCckg"
      ],
      "part_tier": null,
-     "problem_md": "Prove by induction that for $n\\inℕ$\n\n`sum from r equals 1 to n of r squared equals n over 6 left parenthesis n plus 1 right parenthesis left parenthesis 2 n plus 1 right parenthesis`",
+     "problem_md": "Prove by induction that for $n\\inℕ$\n\n$\\sum_{r = 1}^{n} r^{2} = \\frac{n}{6} ( n + 1 ) ( 2 n + 1 )$",
      "solution_md": "> **[mark-scheme]**\n> ![Mathematics proof table showing a sequence of algebraic expressions and justification, with steps for proving \\(\\sum_{r=1}^{n} r^2 = \\frac{n}{6}(n+1)(2n+1)\\).](assets/008-mathematics-proof-table-showing-a-sequence-of-al.png)",
      "equations": [
       {
@@ -854,7 +854,7 @@
       "spcpt_43RTm6JtZxvK7VS3"
      ],
      "part_tier": null,
-     "problem_md": "Hence show that\n\n`sum from r equals 1 to n of left parenthesis r squared plus 2 right parenthesis equals n over 6 left parenthesis a n squared plus b n plus c right parenthesis`\n\nwhere $a$, $b$ and $c$ are integers to be found.",
+     "problem_md": "Hence show that\n\n$\\sum_{r = 1}^{n} ( r^{2} + 2 ) = \\frac{n}{6} ( a n^{2} + b n + c )$\n\nwhere $a$, $b$ and $c$ are integers to be found.",
      "solution_md": "> **[mark-scheme]**\n> ![Mathematical expressions showing the summation of terms with explanations and marks in a table format, including variables a, b, and c.](assets/009-mathematical-expressions-showing-the-summation-o.png)",
      "equations": [
       {
@@ -893,7 +893,7 @@
       "spcpt_43RTm6JtZxvK7VS3"
      ],
      "part_tier": null,
-     "problem_md": "Using your answers to part (b), find the value of\n\n`sum from r equals 10 to 25 of left parenthesis r squared plus 2 right parenthesis`",
+     "problem_md": "Using your answers to part (b), find the value of\n\n$\\sum_{r = 10}^{25} ( r^{2} + 2 )$",
      "solution_md": "> **[mark-scheme]**\n> ![Mathematical solution showing the evaluation of a summation from r equals 10 to 25, with detailed steps and commentary notes on calculation methods.](assets/010-mathematical-solution-showing-the-evaluation-of-.png)",
      "spec_point_codes": [
       "7.1"
@@ -969,7 +969,7 @@
       "spcpt_P6PMYkhvyYkCXM2d"
      ],
      "part_tier": null,
-     "problem_md": "A sequence of numbers  $u_{1}$, $u_{2}$, $u_{3}$,....is defined by\n\n$u_{n+1}=\\frac{1}{3}(2u_{n}-1),u_{1}=1$\n\nProve by induction that, for $n\\inℤ^{+}$\n\n`u subscript n equals 3 open parentheses 2 over 3 close parentheses to the power of n minus 1`",
+     "problem_md": "A sequence of numbers  $u_{1}$, $u_{2}$, $u_{3}$,....is defined by\n\n$u_{n+1}=\\frac{1}{3}(2u_{n}-1),u_{1}=1$\n\nProve by induction that, for $n\\inℤ^{+}$\n\n$u_{n} = 3 ( \\frac{2}{3} )^{n} - 1$",
      "solution_md": "> **[mark-scheme]**\n> ![Mathematical proof using induction to show \\( u_n = 3\\left(\\frac{2}{3}\\right)^n - 1 \\) is true for all positive integers. Steps include base case and induction.](assets/001-mathematical-proof-using-induction-to-show-u-n-3.png)\n> \n> **Notes**\n> \n> ![Mathematical proof instructions detailing steps for verifying a formula, including assumptions, substitutions, and expression expansion with conditions.](assets/002-mathematical-proof-instructions-detailing-steps-.png)",
      "equations": [
       {
@@ -1068,7 +1068,7 @@
       "spcpt_b54Tg8rD74DyCckg"
      ],
      "part_tier": null,
-     "problem_md": "(i) Prove by induction that, for $n\\inℤ^{+}$\n\n`sum from r equals 1 to n of fraction numerator 2 r squared minus 1 over denominator r squared left parenthesis r plus 1 right parenthesis squared end fraction equals fraction numerator n squared over denominator left parenthesis n plus 1 right parenthesis squared end fraction`\n\n[6]\n\n(ii) Prove by induction that, for $n\\inℤ^{+}$\n\n$f(n)=12^{n}+2\\times5^{n-1}$\n\nis divisible by 7.\n\n[6]",
+     "problem_md": "(i) Prove by induction that, for $n\\inℤ^{+}$\n\n$\\sum_{r = 1}^{n} \\frac{2 r^{2} - 1}{r^{2} ( r + 1 )^{2}} = \\frac{n^{2}}{( n + 1 )^{2}}$\n\n[6]\n\n(ii) Prove by induction that, for $n\\inℤ^{+}$\n\n$f(n)=12^{n}+2\\times5^{n-1}$\n\nis divisible by 7.\n\n[6]",
      "solution_md": "> **[mark-scheme]**\n> ![Mathematical proof table showing steps of series summation and induction, with detailed calculations and a proof for true for all \\( n \\), with annotations.](assets/013-mathematical-proof-table-showing-steps-of-series.png)",
      "equations": [
       {

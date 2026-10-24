@@ -28,7 +28,7 @@ The diagram below shows a uniform rod $AB$, of mass 6 kg and length 4 m, that is
 
 ![q2-easy-5-1-moments-edexcel-a-level-mechanics](assets/092-q2-easy-5-1-moments-edexcel-a-level-mechanics.png)
 
-i) Find the length of the string and show that the angle $ABC$ can be given as `tan to the power of negative 1 end exponent open parentheses begin inline style 3 over 4 end style close parentheses` .
+i) Find the length of the string and show that the angle $ABC$ can be given as $\tan ^{- 1} ( \frac{3}{4} )$ .
 
 ii) Find the vertical component of the tension in the string in terms of $T$.
 
@@ -384,7 +384,7 @@ Find an equation for $F$ in terms of $L$,  $m$ and $x$.  Simplify your answer fu
 ### 2() — 5 marks — structured
 Show that the direction, measured in degrees clockwise from the horizontal, of the force exerted on the rod by the hinge at $A$can be given as:
 
-`60 space plus tan to the power of negative 1 end exponent space open parentheses fraction numerator L minus 3 x over denominator 3 square root of 3 space open parentheses L minus x close parentheses end fraction close parentheses`
+$60 + \tan ^{- 1} ( \frac{L - 3 x}{3 \sqrt{3} ( L - x )} )$
 
 ## Q26 — very_hard — 10 marks · exam-questions
 
@@ -421,7 +421,7 @@ A non-uniform barge pole $AB$ , of length 4.5 m and mass $m$ kg, is placed with 
 
 Later, the same pole is placed with $A$ on the ground and $B$ against a smooth wall.  The pole is now on the point of slipping when the coefficient of friction between the pole and the ground is  $\frac{5}{18}$ .  Show that the angle between the pole and the ground now can be given as:
 
-`tan to the power of negative 1 end exponent space open parentheses fraction numerator 20 over denominator 19 minus 17 mu end fraction close parentheses`
+$\tan ^{- 1} ( \frac{20}{19 - 17 \\mu } )$
 
 ## Q29 — very_hard — 7 marks · exam-questions
 
@@ -447,7 +447,7 @@ A person with mass $m_{p}$ is standing on the ladder a distance $d$ from end $B$
 
 Given that the ladder is at rest in limiting equilibrium, show that
 
-`R subscript B equals fraction numerator a m subscript l plus d m subscript p over denominator 2 a mu subscript B open parentheses mu subscript A plus tan space theta close parentheses space end fraction g`
+$R_{B} = \frac{a m_{l} + d m_{p} }{2 a \mu_{B} ( \mu_{A} + \tan \\theta ) } g$
 
 where $R_{B}$ is the normal reaction force exerted by the ground on the ladder at point $B$ and where $g$ is the constant of acceleration due to gravity.
 

@@ -207,11 +207,11 @@ guided_study: true
 > 
 > > *Consider the first two terms*
 > 
-> `table row cell open parentheses x minus 1 close parentheses cross times r end cell equals cell 2 x end cell row r equals cell fraction numerator 2 x over denominator x minus 1 end fraction end cell end table`
+> $\begin{gathered} ( x - 1 ) \times r & = 2 x \\ r = \frac{2 x}{x - 1} \end{gathered}$
 > 
 > > *Considering the next two terms*
 > 
-> `table row cell 2 x cross times r end cell equals cell x squared end cell row r equals cell fraction numerator x squared over denominator 2 x end fraction end cell end table`
+> $\begin{gathered} 2 x \times r & = x^{2} \\ r = \frac{x^{2}}{2 x} \end{gathered}$
 > 
 > > *This is a pair of simultaneous equations*
 > *They can be solved by substituting one into the other (replacing *$r$*)*
@@ -224,25 +224,25 @@ guided_study: true
 > 
 > > *Multiply both sides by *$x-1$*, and expand*
 > 
-> `4 x squared equals x squared open parentheses x minus 1 close parentheses
-> 4 x squared equals x cubed minus x squared`
+> $4 x^{2} = x^{2} ( x - 1 )
+> 4 x^{2} = x^{3} - x^{2}$
 > 
 > > *Subtract *$4x^{2}$* from both sides and factorise*
 > 
-> `0 equals x cubed minus 5 x squared
-> 0 equals x squared open parentheses x minus 5 close parentheses`
+> $0 = x^{3} - 5 x^{2}
+> 0 = x^{2} ( x - 5 )$
 > 
 > > *Solve*
 > 
-> `table row cell x squared end cell equals 0 end table`* so *`table row x equals 0 end table`
+> $\begin{gathered} x^{2} & = 0 \end{gathered}$* so *$\begin{gathered} x = 0 \end{gathered}$
 > *or*
-> `table row cell open parentheses x minus 5 close parentheses end cell equals 0 end table`* so *`table row x equals 5 end table`
+> $\begin{gathered} ( x - 5 ) & = 0 \end{gathered}$* so *$\begin{gathered} x = 5 \end{gathered}$
 > 
 > > *You are told *$x\neq0$* so *$x=5$
 > *Substitute this into the original sequence,  *$x-1,2x,x^{2}$
 > 
-> `open parentheses 5 minus 1 close parentheses comma space 2 open parentheses 5 close parentheses comma space 5 squared
-> equals 4 comma space 10 comma space 25`* *
+> $( 5 - 1 ) , 2 ( 5 ) , 5^{2}
+> = 4 , 10 , 25$* *
 > 
 > > *Find the common ratio *$r$* (for example, by dividing a term by its previous term)*
 > 

@@ -78,12 +78,12 @@ guided_study: false
 > 
 > **Step 1: Substitute values into a percentage formula**
 > 
-> `Percentage space change space equals space fraction numerator new space minus space old over denominator old end fraction space straight x space 100
+> $\text{Percentage} \text{change} = \frac{new - old}{old} \mathrm{x} 100
 > 
-> equals space fraction numerator 7 comma 629 space minus space 7 comma 073 over denominator 7 comma 073 end fraction space straight x space 100
+> = \frac{7 , 629 - 7 , 073}{7 , 073} \mathrm{x} 100
 > 
-> equals space 7.86 space percent sign
-> ` **1 mark**
+> = 7.86 \%
+>$ **1 mark**
 > 
 > > *1 mark for correct working and 1 mark for the final answer*
 

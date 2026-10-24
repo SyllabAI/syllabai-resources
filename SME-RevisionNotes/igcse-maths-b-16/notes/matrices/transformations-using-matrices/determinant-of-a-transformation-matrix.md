@@ -26,12 +26,12 @@ guided_study: false
   
     - the area of the original shape
     - times the determinant of the transformation matrix
-- The **determinant** of a 2×2 matrix `open parentheses table row a b row c d end table close parentheses` is $ad-bc$
+- The **determinant** of a 2×2 matrix $( \begin{gathered} a b \\ c d \end{gathered} )$ is $ad-bc$
 
 > **Worked Example**
 > A triangle has vertices with coordinates (1, -3), (7, -3) and (3, 1).
 > 
-> (a) Find the coordinates of the vertices of the image triangle when that triangle is transformed by the matrix `M equals open parentheses table row cell negative square root of 3 end cell cell negative 1 end cell row 1 cell negative square root of 3 end cell end table close parentheses`.
+> (a) Find the coordinates of the vertices of the image triangle when that triangle is transformed by the matrix $M = ( \begin{gathered} - \sqrt{3} & - 1 \\ 1 - \sqrt{3} \end{gathered} )$.
 > 
 > **Answer:**
 > 
@@ -39,15 +39,15 @@ guided_study: false
 > 
 > - *This will be the coordinates of the vertices as column vectors, but written in a single matrix*
 > 
-> `open parentheses table row 1 7 3 row cell negative 3 end cell cell negative 3 end cell 1 end table close parentheses`
+> $( \begin{gathered} 1 7 3 \\ - 3 & - 3 & 1 \end{gathered} )$
 > 
 > > *To transform the triangle, multiply its matrix by the transformation matrix *$M$
 > 
-> `table row blank blank cell open parentheses table row cell negative square root of 3 end cell cell negative 1 end cell row 1 cell negative square root of 3 end cell end table close parentheses open parentheses table row 1 7 3 row cell negative 3 end cell cell negative 3 end cell 1 end table close parentheses end cell row blank equals cell open parentheses table row cell open parentheses negative square root of 3 close parentheses cross times 1 plus open parentheses negative 1 close parentheses cross times open parentheses negative 3 close parentheses end cell cell open parentheses negative square root of 3 close parentheses cross times 7 plus open parentheses negative 1 close parentheses cross times open parentheses negative 3 close parentheses end cell cell open parentheses negative square root of 3 close parentheses cross times 3 plus open parentheses negative 1 close parentheses cross times 1 end cell row cell 1 cross times 1 plus open parentheses negative square root of 3 close parentheses cross times open parentheses negative 3 close parentheses end cell cell 1 cross times 7 plus open parentheses negative square root of 3 close parentheses cross times open parentheses negative 3 close parentheses end cell cell 1 cross times 3 plus open parentheses negative square root of 3 close parentheses cross times 1 end cell end table close parentheses end cell row blank equals cell open parentheses table row cell 3 minus square root of 3 space end cell cell space 3 minus 7 square root of 3 space end cell cell space minus 1 minus 3 square root of 3 end cell row cell 1 plus 3 square root of 3 space end cell cell space 7 plus 3 square root of 3 space end cell cell space 3 minus square root of 3 end cell end table close parentheses end cell end table`
+> $\begin{gathered} ( \begin{gathered} - \sqrt{3} & - 1 \\ 1 - \sqrt{3} \end{gathered} ) ( \begin{gathered} 1 7 3 \\ - 3 & - 3 & 1 \end{gathered} ) \\ = ( \begin{gathered} ( - \sqrt{3} ) \times 1 + ( - 1 ) \times ( - 3 ) & ( - \sqrt{3} ) \times 7 + ( - 1 ) \times ( - 3 ) & ( - \sqrt{3} ) \times 3 + ( - 1 ) \times 1 \\ 1 \times 1 + ( - \sqrt{3} ) \times ( - 3 ) & 1 \times 7 + ( - \sqrt{3} ) \times ( - 3 ) & 1 \times 3 + ( - \sqrt{3} ) \times 1 \end{gathered} ) \\ = ( \begin{gathered} 3 - \sqrt{3} & 3 - 7 \sqrt{3} & - 1 - 3 \sqrt{3} \\ 1 + 3 \sqrt{3} & 7 + 3 \sqrt{3} & 3 - \sqrt{3} \end{gathered} ) \end{gathered}$
 > 
 > > *Write the new vertices as coordinates*
 > 
-> **Final answer:** `open parentheses 3 minus square root of 3 comma space 1 plus 3 square root of 3 close parentheses`**, **`open parentheses 3 minus 7 square root of 3 comma space 7 plus 3 square root of 3 close parentheses`** and **`open parentheses negative 1 minus 3 square root of 3 comma space 3 minus square root of 3 close parentheses`
+> **Final answer:** $( 3 - \sqrt{3} , 1 + 3 \sqrt{3} )$**, **$( 3 - 7 \sqrt{3} , 7 + 3 \sqrt{3} )$** and **$( - 1 - 3 \sqrt{3} , 3 - \sqrt{3} )$
 > ** **
 > 
 > (b) Find the area of the image triangle.
@@ -67,11 +67,11 @@ guided_study: false
 > 
 > $\mathrm{area} \mathrm{of} \mathrm{original} \mathrm{triangle}=\frac{1}{2}\times6\times4=12$
 > 
-> > *Find the determinant of the transformation matrix *`M equals open parentheses table row cell negative square root of 3 end cell cell negative 1 end cell row 1 cell negative square root of 3 end cell end table close parentheses`
+> > *Find the determinant of the transformation matrix *$M = ( \begin{gathered} - \sqrt{3} & - 1 \\ 1 - \sqrt{3} \end{gathered} )$
 > 
-> - *The **determinant** of a 2×2 matrix *`open parentheses table row a b row c d end table close parentheses`* is *$ad-bc$
+> - *The **determinant** of a 2×2 matrix *$( \begin{gathered} a b \\ c d \end{gathered} )$* is *$ad-bc$
 > 
-> `table row cell determinant space of space M end cell equals cell open parentheses negative square root of 3 close parentheses cross times open parentheses negative square root of 3 close parentheses minus open parentheses negative 1 close parentheses cross times 1 end cell row blank equals cell 3 minus open parentheses negative 1 close parentheses end cell row blank equals 4 end table`
+> `| determinant of M | = ( - sqrt( 3 ) x ( - sqrt( 3 ) - ( - 1 ) x 1 | | _ = 3 - ( - 1 ) | | _ = 4 |`
 > 
 > > *That is the area scale factor of the transformation*
 > 

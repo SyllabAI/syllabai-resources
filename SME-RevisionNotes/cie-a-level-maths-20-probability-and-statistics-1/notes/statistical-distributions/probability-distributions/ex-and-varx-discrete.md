@@ -70,7 +70,7 @@ $Σ$$f(x)P(X=x)$
   - The square values would be 1 and 1 so the mean of the squares would also be 1
 - In general E(f(*X*)) **does not equal** f(E(X)) where f is a function
 
-  - So if you wanted to find something like `begin mathsize 16px style E open parentheses 1 over x close parentheses end style` then you would have to use the definition and calculate:
+  - So if you wanted to find something like $E ( \frac{1}{x} )$ then you would have to use the definition and calculate:
 
 $\underset{}{\sum\frac{1}{x}P(X=x)}$
 

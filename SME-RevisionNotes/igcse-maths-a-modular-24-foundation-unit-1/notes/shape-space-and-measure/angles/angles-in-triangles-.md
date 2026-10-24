@@ -53,10 +53,10 @@ guided_study: true
 > 
 > > *Angles that meet on a straight line add up to 180°*
 > 
-> `table row cell z space plus space 130 space end cell equals cell space 180 space end cell row cell z space end cell equals cell space 50 end cell end table`
+> $\begin{gathered} z + 130 & = 180 \\ z & = 50 \end{gathered}$
 > 
 > > *Interior angles in a triangle add up to 180°*
 > 
-> `table row cell x plus 60 plus 50 end cell equals 180 row cell x plus 110 end cell equals 180 end table`
+> $\begin{gathered} x + 60 + 50 & = 180 \\ x + 110 & = 180 \end{gathered}$
 > 
 > $x=70$

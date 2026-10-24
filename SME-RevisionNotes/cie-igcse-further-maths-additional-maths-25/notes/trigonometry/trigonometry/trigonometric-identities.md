@@ -82,7 +82,7 @@ guided_study: false
 > 
 > > *Substitute *$\mathrm{sin}^{2}x=1-\mathrm{cos}^{2}x$* into the equation to form a quadratic in terms of *$\mathrm{cos}x$*.*
 > 
-> `2 open parentheses 1 minus cos squared x close parentheses minus cos x equals 0`
+> $2 ( 1 - \cos ^{2} x ) - \cos x = 0$
 > 
 > > *Expand the bracket.*
 > 
@@ -106,8 +106,8 @@ guided_study: false
 
 - Aside from the Pythagorean identity sin<sup>2</sup>*x *+ cos<sup>2</sup>*x* = 1** **there are two further Pythagorean identities you will need to learn
 
-  - `1 plus tan squared space invisible function application theta equals sec squared space invisible function application theta`
-  - `1 plus cot squared space invisible function application theta equals cosec squared space invisible function application theta`
+  - $1 + \tan ^{2} \\theta = \sec ^{2} \\theta$
+  - $1 + \cot ^{2} \\theta = cosec^{2} \\theta$
   - Both can be found in the list of formulae
 - Both of these identities can be derived from sin<sup>2</sup>*x *+ cos<sup>2</sup>*x* = 1** **
 
@@ -145,7 +145,7 @@ guided_study: false
 > 
 > > *The squared term can be rewritten using the identity *$\mathrm{sec}^{2}θ=1+\mathrm{tan}^{2}θ$*. Substitute this into the equation.*
 > 
-> `9 open parentheses 1 plus tan squared theta close parentheses minus 11 equals 3 tan theta`
+> $9 ( 1 + \tan ^{2} \\theta ) - 11 = 3 \tan \\theta$
 > 
 > > *Rearrange to form a quadratic.*
 > 
@@ -153,20 +153,20 @@ guided_study: false
 > 
 > > *Treat as a quadratic using *$x=\mathrm{tan}θ$*.*
 > 
-> `9 x squared minus 3 x minus 2 equals 0
-> open parentheses 3 x minus 2 close parentheses open parentheses 3 x plus 1 close parentheses equals 0
-> x equals 2 over 3 comma space x equals negative 1 third`
+> $9 x^{2} - 3 x - 2 = 0
+> ( 3 x - 2 ) ( 3 x + 1 ) = 0
+> x = \frac{2}{3} , x = - 1 \frac{1}{3}$
 > 
 > > *Substitute *$x=\mathrm{tan}θ$* back in and find the principal value for each equation.*
 > 
-> `tan theta equals 2 over 3 rightwards arrow tan to the power of negative 1 end exponent open parentheses 2 over 3 close parentheses equals 0.5880...
-> tan theta equals negative 1 third rightwards arrow tan to the power of negative 1 end exponent open parentheses negative 1 third close parentheses equals negative 0.3217...`
+> $\tan \\theta = \frac{2}{3} \rightarrow \tan ^{- 1} ( \frac{2}{3} ) = 0.5880...
+> \tan \\theta = - 1 \frac{1}{3} \rightarrow \tan ^{- 1} ( - 1 \frac{1}{3} ) = - 0.3217...$
 > 
 > > *Find the other solutions in the interval by adding multiples of π.*
 > 
-> `straight pi plus 0.5880... equals 3.7295...
-> straight pi plus open parentheses negative 0.3217... close parentheses equals 2.8198...
-> 2 straight pi plus open parentheses negative 0.3217... close parentheses equals 5.9614...`
+> $\mathrm{\pi } + 0.5880... = 3.7295...
+> \mathrm{\pi } + ( - 0.3217... ) = 2.8198...
+> 2 \mathrm{\pi } + ( - 0.3217... ) = 5.9614...$
 > 
 > > *Ignore the solution that is outside the interval (-0.3217...). Round the other four to three decimal places.*
 > 

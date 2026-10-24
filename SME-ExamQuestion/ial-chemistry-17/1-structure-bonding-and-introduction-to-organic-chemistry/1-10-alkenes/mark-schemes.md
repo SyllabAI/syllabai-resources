@@ -466,7 +466,7 @@ The number of double bonds in **one** molecule of the alkene is:
 - Volume of H<sub>2</sub> = 6 x 10<sup>-4</sup> **OR **0.0006 m<sup>3</sup>; **[1 mark]**
 - *n *= $\frac{PV}{RT}$ 
 **OR **
-*n* = `fraction numerator open parentheses 1.24 cross times 10 to the power of 5 close parentheses cross times open parentheses 6 cross times 10 to the power of negative 4 end exponent close parentheses over denominator 8.31 cross times 298 end fraction`; **[1 mark]**
+*n* = $\frac{( 1.24 \times 10^{5 ) \times ( 6 \times 10^{-4} } )}{8.31 \times 298}$; **[1 mark]**
 - *n* = 0.03004; **[1 mark]**
 - Ratio of alkene : H<sub>2</sub> = 0.01 : 0.03 **OR **1 : 3 
 **AND **

@@ -12,7 +12,7 @@
 
 > *Put that factor outside the brackets, and put everything else that's left inside the brackets*
 
-`3 y open parentheses 2 y space plus space 5 close parentheses`
+$3 y ( 2 y + 5 )$
 
 **[B1 B1]**
 
@@ -36,7 +36,7 @@
 
 > *Divide the terms by that to find what goes inside the brackets (or think about what you multiply *$4a^{2}b$* by to get back to the original expression)*
 
-`4 a squared b open parentheses 4 b squared plus 5 a close parentheses`
+$4 a^{2} b ( 4 b^{2} + 5 a )$
 
 **[B1 B1]**
 
@@ -50,11 +50,11 @@
 
 > *Find two numbers with a product of -22 and sum of 9*
 
-`table row cell 11 cross times open parentheses negative 2 close parentheses end cell equals cell negative 22 end cell row cell 11 plus open parentheses negative 2 close parentheses end cell equals 9 end table`
+$\begin{gathered} 11 \times ( - 2 ) & = - 22 \\ 11 + ( - 2 ) & = 9 \end{gathered}$
 
 > *Put these in the brackets*
 
-`open parentheses x plus 11 close parentheses open parentheses x minus 2 close parentheses`
+$( x + 11 ) ( x - 2 )$
 
 **[M1 A1]**
 
@@ -67,9 +67,9 @@
 
 > *Set each bracket from your answer to (i) equal to zero and solve*
 
-`table row cell x plus 11 end cell equals 0 row x equals cell negative 11 end cell end table`
+$\begin{gathered} x + 11 & = 0 \\ x = - 11 \end{gathered}$
 
-`table row cell x minus 2 end cell equals 0 row x equals 2 end table`
+$\begin{gathered} x - 2 & = 0 \\ x = 2 \end{gathered}$
 
 $x=-11,x=2$
 
@@ -88,12 +88,12 @@ $12a\div6=2a\,-18b\div6=-3b$
 
 > *Write it all together*
 
-`6 open parentheses 2 a minus 3 b close parentheses`
+$6 ( 2 a - 3 b )$
 
 **[B1 B1]**
 
 > **[mark-scheme]**
-> **B1:** If you took out a factor correctly that wasn't the highest common factor, for example `3 open parentheses 4 a minus 6 b close parentheses` or `2 open parentheses 6 a minus 9 b close parentheses`, or if you took out a factor of 6 but made a mistake inside the brackets, you get this mark.
+> **B1:** If you took out a factor correctly that wasn't the highest common factor, for example $3 ( 4 a - 6 b )$ or $2 ( 6 a - 9 b )$, or if you took out a factor of 6 but made a mistake inside the brackets, you get this mark.
 > 
 > **B1:** For the fully factorised answer.
 
@@ -109,12 +109,12 @@ $12a\div6=2a\,-18b\div6=-3b$
 
 > *Factorise by pulling out a common factor of *$6p$
 
-`6 p open parentheses 2 q space minus space 3 close parentheses`
+$6 p ( 2 q - 3 )$
 
 **[B1 B1]**
 
 > **[mark-scheme]**
-> **B1: **For any correct factorisation that is not fully factorised, e.g. `2 p open parentheses 6 q space minus space 9 close parentheses`.
+> **B1: **For any correct factorisation that is not fully factorised, e.g. $2 p ( 6 q - 9 )$.
 > 
 > **B1: **Fully factorised.
 
@@ -123,6 +123,6 @@ $12a\div6=2a\,-18b\div6=-3b$
 ### 12((b)) — 1 marks
 > *Look for the highest common factor to pull outside the bracket*
 
-`2 open parentheses 4 p space plus thin space 5 close parentheses`
+$2 ( 4 p + 5 )$
 
 **[B1]**

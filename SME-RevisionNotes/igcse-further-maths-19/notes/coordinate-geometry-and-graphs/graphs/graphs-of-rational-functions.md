@@ -26,7 +26,7 @@ guided_study: false
 - Its **range** is the set of **all real values except **$\frac{a}{c}$
 
   - Because there's no value of $x$ for which  $\frac{ax+b}{cx+d}=\frac{a}{c}$
-- The **reciprocal function  **`straight f open parentheses x close parentheses equals 1 over x`** ** is a **special case** of a rational function
+- The **reciprocal function  **$\mathrm{f} ( x ) = \frac{1}{x}$** ** is a **special case** of a rational function
 
 ### What are the key features of linear rational graphs?
 
@@ -59,7 +59,7 @@ guided_study: false
 > **Worked Example**
 > The function $f$ is defined by $f(x)=\frac{10-5x}{x+2}$ for $x\neq-2$.
 > 
-> (a) Write down the equations of the horizontal and vertical asymptotes of the graph of `y equals straight f open parentheses x close parentheses`.
+> (a) Write down the equations of the horizontal and vertical asymptotes of the graph of $y = \mathrm{f} ( x )$.
 > 
 > > *The horizontal asymptote is the limiting value as **x** becomes very large in the positive or negative direction*
 > 
@@ -67,7 +67,7 @@ guided_study: false
 > 
 > *For large values of *$x$
 > 
-> `straight f open parentheses x close parentheses almost equal to fraction numerator negative 5 x over denominator x end fraction equals negative 5`
+> $\mathrm{f} ( x ) \approx \frac{- 5 x}{x} = - 5$
 > 
 > > *That means the horizontal asymptote will be at  *$y=-5$
 > 
@@ -75,25 +75,25 @@ guided_study: false
 > 
 > > *The vertical asymptote occurs where the denominator becomes zero*
 > 
-> `table row cell x plus 2 end cell equals 0 row x equals cell negative 2 end cell end table`
+> $\begin{gathered} x + 2 & = 0 \\ x = - 2 \end{gathered}$
 > 
 > **Final answer:** **Vertical asymptote:  **$x=-2$
 > 
-> (b) Find the coordinates of the intercepts of the graph of `space y equals straight f open parentheses x close parentheses` with the coordinate axes.
+> (b) Find the coordinates of the intercepts of the graph of $y = \mathrm{f} ( x )$ with the coordinate axes.
 > 
 > > *The **y-**intercept occurs when *$x=0$
 > 
-> `straight f open parentheses 0 close parentheses equals fraction numerator 10 minus 5 open parentheses 0 close parentheses over denominator open parentheses 0 close parentheses plus 2 end fraction equals 10 over 2 equals 5`
+> $\mathrm{f} ( 0 ) = \frac{10 - 5 ( 0 )}{( 0 ) + 2} = \frac{10}{2} = 5$
 > 
 > **Final answer:** **y-****intercept:  **$(0,5)$
 > 
-> > *The **x-**intercept occurs when *`y equals straight f open parentheses x close parentheses equals 0`
+> > *The **x-**intercept occurs when *$y = \mathrm{f} ( x ) = 0$
 > 
-> `table attributes columnalign right center left columnspacing 0px end attributes row cell fraction numerator 10 minus 5 x over denominator x plus 2 end fraction end cell equals 0 row cell 10 minus 5 x end cell equals 0 row cell 5 x end cell equals 10 row x equals 2 end table`
+> $\begin{array}{rcl} \frac{10 - 5 x}{x + 2} & = 0 \\ 10 - 5 x & = 0 \\ 5 x & = 10 \\ x = 2 \end{array}$
 > 
 > **Final answer:** **x-****intercept:  **$(2,0)$
 > 
-> (c) Sketch the graph of  `y equals straight f open parentheses x close parentheses`.
+> (c) Sketch the graph of  $y = \mathrm{f} ( x )$.
 > 
 > > *Don't forget to include (and label) the asymptotes, and to label the axis intercepts*
 > 

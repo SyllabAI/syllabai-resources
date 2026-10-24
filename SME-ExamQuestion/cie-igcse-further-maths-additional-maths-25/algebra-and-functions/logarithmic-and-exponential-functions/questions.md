@@ -12,7 +12,7 @@
 
 A mathematical model is used to predict the population of an island, $P$, over time, $t$ years.
 
-A plot of $\mathrm{ln}P$ against $\mathrm{ln}t$ gives a straight line that is the **perpendicular bisector **of the points `open parentheses 0 comma space 11 close parentheses` and `open parentheses 6 comma space 7 close parentheses`, as shown.
+A plot of $\mathrm{ln}P$ against $\mathrm{ln}t$ gives a straight line that is the **perpendicular bisector **of the points $( 0 , 11 )$ and $( 6 , 7 )$, as shown.
 
 ![Graph with x-axis labelled "ln t" and y-axis labelled "ln P." A straight line with positive gradient is shown which is the perpendicular bisector to the points (0, 11) and (6, 7).](assets/001-graph-with-x-axis-labelled-ln-t-and-y-axis-label.png)
 
@@ -30,7 +30,7 @@ Give your answer(s) in the form $p\mathrm{ln}q$ where $p$ and $q$ are integers.
 
 **Q2** [2 marks]
 
-Given that $\mathrm{log}_{2}y=c$, express `log subscript 2 open parentheses 2 y close parentheses minus log subscript y 2` in terms of $c$ only.
+Given that $\mathrm{log}_{2}y=c$, express $log_{2} ( 2 y ) - log_{y} 2$ in terms of $c$ only.
 
 ### Q3 — very_hard — 4 marks
 
@@ -147,9 +147,9 @@ Find the first week in which the number of bacteria is greater than 1 000 000.
 
 Solve the simultaneous equations.
 
-`log subscript 3 open parentheses x plus y close parentheses equals 2`
+$log_{3} ( x + y ) = 2$
 
-`2 log subscript 3 open parentheses x plus 1 close parentheses equals log subscript 3 open parentheses y plus 2 close parentheses`
+$2 log_{3} ( x + 1 ) = log_{3} ( y + 2 )$
 
 *Source: Nov 2020 0606/22 Q4*
 
@@ -158,9 +158,9 @@ Solve the simultaneous equations.
 
 **Q9** [4 marks]
 
-`log subscript 2 open parentheses y plus 1 close parentheses equals 3 minus 2 space log subscript 2 x`
+$log_{2} ( y + 1 ) = 3 - 2 log_{2} x$
 
-`log subscript 2 open parentheses x plus 2 close parentheses equals 2 plus log subscript 2 y`
+$log_{2} ( x + 2 ) = 2 + log_{2} y$
 
 Show that $x^{3}+6x^{2}-32=0$.
 
@@ -356,9 +356,9 @@ Write the expression $\mathrm{log}_{a}9+(\mathrm{log}_{a}b)(\mathrm{log}_{\sqrt{
 
 In this question, $a,b,c$ and $d$ are positive constants.
 
-(i) It is given that `y equals log subscript a open parentheses x plus 3 close parentheses space plus space log subscript a open parentheses 2 x minus 1 close parentheses`. Explain why $x$ must be greater than $\frac{1}{2}$.
+(i) It is given that $y = log_{a} ( x + 3 ) + log_{a} ( 2 x - 1 )$. Explain why $x$ must be greater than $\frac{1}{2}$.
 
-(ii) Find the exact solution of the equation `fraction numerator log subscript a 6 over denominator log subscript a open parentheses y plus 3 close parentheses end fraction equals 2`
+(ii) Find the exact solution of the equation $\frac{log_{a} 6}{log_{a} ( y + 3 )} = 2$
 
 *Source: june 2021 paper 21 Q8A*
 

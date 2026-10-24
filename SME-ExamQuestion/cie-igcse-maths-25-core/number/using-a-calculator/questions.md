@@ -12,7 +12,7 @@
 
 Calculate.
 
-`fraction numerator 19.8 plus 11.53 over denominator negative 1.43 plus cube root of 42.875 end root end fraction`
+$\frac{19.8 + 11.53}{- 1.43 + \sqrt[3]{42.875} }$
 
 Give your answer correct to 2 decimal places.
 
@@ -24,7 +24,7 @@ Find the value of $27^{2}$
 
 **Q2** [1 mark]
 
-Find the value of `cube root of 6859`
+Find the value of $\sqrt[3]{6859}$
 
 ### Q3 — hard — 2 marks
 
@@ -43,7 +43,7 @@ Give your answer in standard form correct to 2 significant figures.
 
 Use your calculator to find:
 
-`fraction numerator cube root of 3 squared cross times negative 7 end root over denominator open parentheses 3 4 over 5 close parentheses to the power of negative 2 end exponent end fraction`
+$\frac{ \sqrt[3]{3^{2} \times - 7} }{( 3 \frac{4}{5} )^{- 2} }$
 
 Round your answer to 4 significant figures.
 
@@ -51,7 +51,7 @@ Round your answer to 4 significant figures.
 
 **Q5** [1 mark]
 
-Calculate `square root of open parentheses 8 plus 4 cross times 75 to the power of 0.6 end exponent close parentheses end root`.
+Calculate $\sqrt{( 8 + 4 \times 75^{0.6} )}$.
 
 *Source: Nov 2020 0580/12 Q18C*
 
@@ -71,7 +71,7 @@ $\sqrt{\frac{1}{0.01}-8^{2}}$
 
 **Q7** [1 mark]
 
-Calculate `cube root of negative 4.3 cross times 6.7 squared end root` and write down all the figures shown on your calculator.
+Calculate $\sqrt[3]{- 4.3 \times 6.7^{2}}$ and write down all the figures shown on your calculator.
 
 *Source: Feb/March 2018 0580/12 Q9A*
 
@@ -131,7 +131,7 @@ $-12\div-2$
 
 **Q11** [1 mark]
 
-`cube root of 2 cubed plus 2 end root`
+$\sqrt[3]{2^{3} + 2}$
 
 *Source: May/June 2019 0580/13 Q8B*
 
@@ -163,7 +163,7 @@ Give your answer correct to 2 significant figures.
 
 **Q14** [1 mark]
 
-Find the value of  `cube root of 0.729 end root`
+Find the value of  $\sqrt[3]{0.729}$
 
 *Source: Specimen 2020 0580/03 Q2D*
 
@@ -195,7 +195,7 @@ ii) $4^{3}$
 
 [1]
 
-iii) `cube root of 274625`
+iii) $\sqrt[3]{274625}$
 
 [1]
 
@@ -233,7 +233,7 @@ iii) $7^{0}$.
 
 Find the value of
 
-i) `cube root of 2744`
+i) $\sqrt[3]{2744}$
 
 [1]
 
@@ -336,7 +336,7 @@ $24^{2}$
 
 **Q24** [1 mark]
 
-`cube root of 2197`
+$\sqrt[3]{2197}$
 
 *Source: Nov 2019 0580/12 Q4B*
 

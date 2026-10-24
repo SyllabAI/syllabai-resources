@@ -26,11 +26,11 @@ You need to find the value of $b$
 
   - so when $n=1$, the $n$th term is equal to 3
 
-`8 open parentheses 1 close parentheses plus b equals 3`
+$8 ( 1 ) + b = 3$
 
 - Solve that for $b$
 
-`table row cell 8 plus b end cell equals 3 row b equals cell 3 minus 8 end cell row b equals cell negative 5 end cell end table`
+$\begin{gathered} 8 + b & = 3 \\ b = 3 - 8 \\ b = - 5 \end{gathered}$
 
 So the $n$th term is
 
@@ -216,14 +216,14 @@ $n^{2}$ **[1]**
 
 iv) *Substitute *$n=3$* into the formula and evaluate for *$w$
 
-`w equals 1 half cross times 3 cross times open parentheses 3 plus 1 close parentheses equals 1 half cross times 3 cross times 4 equals 1 half cross times 12 equals 6`
+$w = 1 \frac{1}{2} \times 3 \times ( 3 + 1 ) = 1 \frac{1}{2} \times 3 \times 4 = 1 \frac{1}{2} \times 12 = 6$
 
 **6 ****[2] **
 **1 mark for the correct substitution but an incorrect evaluation**
 
 v) *Substitute *$n=15$* into the n*<sup>*th*</sup>* term for the number of white triangles and evaluate*
 
-`w equals 1 half cross times 15 cross times open parentheses 15 plus 1 close parentheses equals 1 half cross times 15 cross times 16 equals 1 half cross times 240 equals 120`
+$w = 1 \frac{1}{2} \times 15 \times ( 15 + 1 ) = 1 \frac{1}{2} \times 15 \times 16 = 1 \frac{1}{2} \times 240 = 120$
 
 $w=120$** [1]**
 
@@ -251,7 +251,7 @@ $g=105$** [1]**
 **[1]**
 > *The number of black counters increases by 2 each time (one on the bottom row, one on the left hand side).*
 
-> * *`table row cell 8 plus 2 end cell equals 10 row blank blank blank row cell 10 plus 2 end cell equals 12 end table`
+> * *$\begin{gathered} 8 + 2 & = 10 \\ \\ 10 + 2 & = 12 \end{gathered}$
 
 > * *
 
@@ -286,11 +286,11 @@ $16,25$
 
 > *The first term is 4. Substitute this and **n** = 1 into the formula, and solve for **b.*
 
-> * *`4 equals open parentheses 2 cross times 1 close parentheses plus b
+> * *$4 = ( 2 \times 1 ) + b
 
-4 equals 2 plus b
+4 = 2 + b
 
-b equals 2`
+b = 2$
 
 > * *
 
@@ -317,11 +317,11 @@ $n^{2}$* ***[1]**
 
 > * *
 
-`table row Black equals cell open parentheses 2 cross times 12 close parentheses plus 2 end cell row blank equals 26 end table`
+$\begin{gathered} \text{Black} = ( 2 \times 12 ) + 2 \\ = 26 \end{gathered}$
 
 * *
 
-`table row cell White space end cell equals cell space open parentheses 12 close parentheses squared end cell row blank equals 144 end table`
+$\begin{gathered} \text{White} & = ( 12 )^{2} \\ = 144 \end{gathered}$
 
 **12 substituted into either n**<sup>**th**</sup>** term*** ***[1]**
 
@@ -479,9 +479,9 @@ $-2n=2-350\,\,-2n=-348$
 
 > * Divide both sides by -2.*
 
-> * *`n equals open parentheses negative 348 close parentheses divided by open parentheses negative 2 close parentheses
+> * *$n = ( - 348 ) \div ( - 2 )
 
-n equals 174`
+n = 174$
 
 > * Any value of n bigger than 174 will give house numbers of 0 and negative numbers, which is not possible.*
 
@@ -612,7 +612,7 @@ $2\times4+1=9$
 
 > *The 4*<sup>*th*</sup>* term in this sequence is  *
 
-`open parentheses 4 plus 1 close parentheses squared equals 5 squared equals 25`
+$( 4 + 1 )^{2} = 5^{2} = 25$
 
 | Diagram Number | 1 | 2 | 3 | 4 |   | $n$ |
 |---|---|---|---|---|---|---|
@@ -652,7 +652,7 @@ $n=21$
 
 > *  Substitute this value for *$n$* into the n*<sup>*th*</sup>* term for small squares and evaluate  *
 
-`open parentheses n plus 1 close parentheses squared equals open parentheses 21 plus 1 close parentheses squared`
+$( n + 1 )^{2} = ( 21 + 1 )^{2}$
 
 **[1]**
 
@@ -798,9 +798,9 @@ iii) *Find the n*<sup>*th*</sup>* term of the linear sequence for row 1: *$3001,
 ### Q12
 > *To find the first 3 terms of a sequence, substitute **n = **1, 2, and 3 into the **n**th term*
 
-`1 to the power of 2 space end exponent plus thin space 2 open parentheses 1 close parentheses space equals space 3
-2 squared space plus thin space 2 open parentheses 2 close parentheses space equals space 8
-3 squared space plus thin space 2 open parentheses 3 close parentheses space equals space 15`
+$1^{2 } + 2 ( 1 ) = 3
+2^{2} + 2 ( 2 ) = 8
+3^{2} + 2 ( 3 ) = 15$
 
 **Final answer:** **3, 8, 15**
 
@@ -877,7 +877,7 @@ $3n+2$ **[1]**
 
 > * *
 
-`table row cell negative 2 end cell equals cell 4 cross times 1 plus b end cell row cell negative 2 end cell equals cell 4 plus b end cell row b equals cell negative 6 end cell end table`
+$\begin{gathered} - 2 & = 4 \times 1 + b \\ - 2 & = 4 + b \\ b = - 6 \end{gathered}$
 
 > * *
 
@@ -891,7 +891,7 @@ $4n-6$* ***[2]**
 
 > *Substitute *$n=1$* into the *$n$*th term.*
 
-> * *`60 minus open parentheses 8 cross times 1 close parentheses equals 52`
+> * *$60 - ( 8 \times 1 ) = 52$
 
 > * *
 
@@ -904,7 +904,7 @@ $4n-6$* ***[2]**
 
 > *The first term is 12. Substitute this and **n** = 1 into the formula, and solve for **b. *
 
-`table row 12 equals cell 7 cross times 1 plus b end cell row 12 equals cell 7 plus b end cell row b equals 5 end table`
+$\begin{gathered} 12 = 7 \times 1 + b \\ 12 = 7 + b \\ b = 5 \end{gathered}$
 
 > * *
 
@@ -1010,7 +1010,7 @@ $7n+1$* ***[2]**
 
 > * *
 
-`open parentheses 1 close parentheses squared plus open parentheses 5 cross times 1 close parentheses equals 6`
+$( 1 )^{2} + ( 5 \times 1 ) = 6$
 
 > * *
 
@@ -1018,7 +1018,7 @@ $7n+1$* ***[2]**
 
 > * *
 
-`open parentheses 2 close parentheses squared plus open parentheses 5 cross times 2 close parentheses equals 14`
+$( 2 )^{2} + ( 5 \times 2 ) = 14$
 
 > * *
 
@@ -1026,7 +1026,7 @@ $7n+1$* ***[2]**
 
 > * *
 
-`open parentheses 3 close parentheses squared plus open parentheses 5 cross times 3 close parentheses equals 24`
+$( 3 )^{2} + ( 5 \times 3 ) = 24$
 
 > * *
 
@@ -1147,7 +1147,7 @@ ii) *The term to term rule is*
 
 > *Double the difference between the previous two terms is*
 
-`2 cross times open parentheses 49 minus 25 close parentheses equals 48`
+$2 \times ( 49 - 25 ) = 48$
 
 > *Add *$48$* to get the next term in the sequence*
 

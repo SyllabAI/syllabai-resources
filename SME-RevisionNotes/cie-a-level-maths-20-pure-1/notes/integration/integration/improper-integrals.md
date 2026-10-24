@@ -29,8 +29,8 @@ guided_study: true
     - The integral of  $y=\frac{1}{\sqrt{x}}$ with a **limit of zero** would be an improper integral
 - Examples include:
 
-  - `integral subscript 0 superscript 5 fraction numerator 1 over denominator cube root of x end fraction d x`
-  - `integral subscript 1 superscript infinity 1 over x cubed d x`
+  - $\int_{0}^{5} \frac{1}{ \sqrt[3]{x} } d x$
+  - $integral_{1}^{infinity} \frac{1}{x} ^{3} d x$
 
 ![6-1-5-improper-integrals-diagram-1](../../../assets/02e2c8fbb805-6-1-5-improper-integrals-diagram-1.png)
 

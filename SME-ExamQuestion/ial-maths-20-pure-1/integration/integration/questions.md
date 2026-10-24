@@ -19,7 +19,7 @@ Integrate
 ### 1() — 3 marks — structured
 Use calculus to find
 
-`integral space open parentheses 3 x to the power of 1 half end exponent space plus space 2 x to the power of negative 1 half end exponent close parentheses space d x.`
+$\int ( 3 x^{1 \frac{1}{2}} + 2 x^{- 1 \frac{1}{2}} ) d x.$
 
 ## Q3 — easy — 5 marks · exam-questions
 
@@ -33,7 +33,7 @@ can be written as $3x^{a}+4x^{b},$ where $a\mathrm{and}b$ are constants to be fo
 ### 2() — 3 marks — structured
 Hence find
 
-`integral space fraction numerator 3 x to the power of 2 space end exponent plus space 4 x to the power of 6 over denominator x squared end fraction space d x.`
+$\int \frac{3 x^{2 } + 4 x^{6} }{x^{2}} d x.$
 
 ## Q4 — easy — 6 marks · exam-questions
 
@@ -41,16 +41,16 @@ Hence find
 Integrate $5x^{4}+6x^{2}+2x+3.$
 
 ### 2() — 3 marks — structured
-Given that `straight f space open parentheses straight x close parentheses space equals space integral space open parentheses 5 straight x to the power of 4 space end exponent plus space 6 straight x to the power of 2 space end exponent plus space 2 straight x space plus space 3 close parentheses space dx`  and that the graph of `y space equals space straight f space open parentheses straight x close parentheses` passes through the point `open parentheses 1 space comma space 10 close parentheses comma` find an expression for `straight f space open parentheses straight x close parentheses` in terms of $x$ only.
+Given that $\mathrm{f} ( \mathrm{x} ) = \int ( 5 \mathrm{x}^{4 } + 6 \mathrm{x}^{2 } + 2 \mathrm{x} + 3 ) \text{dx}$  and that the graph of $y = \mathrm{f} ( \mathrm{x} )$ passes through the point $( 1 , 10 ) ,$ find an expression for $\mathrm{f} ( \mathrm{x} )$ in terms of $x$ only.
 
 ## Q5 — easy — 4 marks · exam-questions
 
 ### 1() — 4 marks — structured
 The curve $C$, described by the integral
 
-`y space equals space integral space open parentheses 2 x to the power of 3 space end exponent minus x close parentheses space d x comma`
+$y = \int ( 2 x^{3 } - x ) d x ,$
 
-passes through the point `open parentheses 2 space comma space minus 2 close parentheses.`
+passes through the point $( 2 , - 2 ).$
 
 Show that $2y=x^{4}-x^{2}-16.$
 
@@ -59,19 +59,19 @@ Show that $2y=x^{4}-x^{2}-16.$
 ### 1() — 2 marks — structured
 Use calculus to find
 
-`integral left parenthesis 3 x squared plus 5 x plus 3 right parenthesis d x`
+$\int ( 3 x^{2} + 5 x + 3 ) d x$
 
 ## Q7 — medium — 3 marks · exam-questions
 
 ### 1() — 3 marks — structured
-Given $y=2t^{2}+t^{-\frac{1}{2}}-3t^{-4},$ find`integral space y space d t.`
+Given $y=2t^{2}+t^{-\frac{1}{2}}-3t^{-4},$ find$\int y d t.$
 
 ## Q8 — medium — 3 marks · exam-questions
 
 ### 1() — 3 marks — structured
 Find the equation of the curve passing through the point (4, 64) and given by
 
-`y equals integral left parenthesis 3 minus 2 x plus 6 x squared right parenthesis d x`
+$y = \int ( 3 - 2 x + 6 x^{2} ) d x$
 
 ## Q9 — medium — 4 marks · exam-questions
 
@@ -83,7 +83,7 @@ $(3-2x)^{2}=9-12x+4x^{2}$
 ### 2() — 2 marks — structured
 Hence, or otherwise, work out
 
-`integral left parenthesis 3 minus 2 x right parenthesis squared space d x`
+$\int ( 3 - 2 x )^{2} d x$
 
 ## Q10 — medium — 7 marks · exam-questions
 
@@ -100,29 +100,29 @@ Find an equation for $y$ in terms of $x$, given that when $x=2,y=40.$
 ### 1() — 3 marks — structured
 Use calculus to find
 
-`integral open parentheses x squared plus 5 minus space 3 over x squared close parentheses space d x`
+$\int ( x^{2} + 5 - \frac{3}{x^{2}} ) d x$
 
 ### 2() — 3 marks — structured
 Use calculus to find
 
-`integral open parentheses 4 over x cubed plus space square root of x close parentheses space d x`
+$\int ( \frac{4}{x^{3}} + \sqrt{x} ) d x$
 
 ## Q12 — hard — 5 marks · exam-questions
 
 ### 1() — 2 marks — structured
 Use calculus to work out the following integrals:
 
-`integral open parentheses 1 third x squared space space plus space 3 x to the power of negative 1 half end exponent close parentheses space d x`
+$\int ( 1 \frac{1}{3} x^{2} + 3 x^{- 1 \frac{1}{2}} ) d x$
 
 ### 2() — 3 marks — structured
-`integral fraction numerator open parentheses x space plus space 3 close parentheses squared over denominator square root of x end fraction d x`
+$\int \frac{( x + 3 )^{2}}{ \sqrt{x} } d x$
 
 ## Q13 — hard — 4 marks · exam-questions
 
 ### 1() — 4 marks — structured
 Find the equation of the curve passing through the point (-2, 3) and given by
 
-`y equals integral open parentheses 3 minus 2 x plus space 4 over x squared close parentheses d x`
+$y = \int ( 3 - 2 x + \frac{4}{x^{2}} ) d x$
 
 ## Q14 — hard — 6 marks · exam-questions
 
@@ -130,58 +130,58 @@ Find the equation of the curve passing through the point (-2, 3) and given by
 Show that $(2-x)^{3}=8-12x+6x^{2}-x^{3}$
 
 ### 2() — 3 marks — structured
-Hence, or otherwise, work out `integral left parenthesis 2 minus x right parenthesis cubed d x`
+Hence, or otherwise, work out $\int ( 2 - x )^{3} d x$
 
 ## Q15 — hard — 5 marks · exam-questions
 
 ### 1() — 5 marks — structured
-A function, `straight f space open parentheses straight x close parentheses comma space`has second derivative given by
+A function, $\mathrm{f} ( \mathrm{x} ) ,$has second derivative given by
 
 $f^{'}'(x)=6(x-2).$
 
-Given that $f(3)=20,$and `straight f to the power of apostrophe open parentheses 2 close parentheses space equals space 8 comma space`find `straight f open parentheses straight x close parentheses.`
+Given that $f(3)=20,$and $\mathrm{f}^{'} ( 2 ) = 8 ,$find $\mathrm{f} ( \mathrm{x} ).$
 
 ## Q16 — very_hard — 3 marks · exam-questions
 
 ### 1() — 3 marks — structured
 Use calculus to find
 
-`integral space open parentheses 2 square root of x space end root plus space 5 x to the power of 1 third end exponent space close parentheses space d x`
+$\int ( 2 \sqrt{x } + 5 x^{1 \frac{1}{3}} ) d x$
 
 ## Q17 — very_hard — 6 marks · exam-questions
 
 ### 1() — 3 marks — structured
 Use calculus to work out the following integrals:
 
-`integral space open parentheses 3 x space minus space fraction numerator square root of 4 x space end root space plus space 5 x to the power of 4 over denominator x end fraction close parentheses space d x`
+$\int ( 3 x - \frac{ \sqrt{4 x } + 5 x^{4} }{x} ) d x$
 
 ### 2() — 3 marks — structured
-`integral space open parentheses fraction numerator 3 x over denominator square root of x end fraction space plus space open parentheses 2 x plus 1 close parentheses squared close parentheses space straight d x`
+$\int ( \frac{3 x}{ \sqrt{x} } + ( 2 x + 1 )^{2} ) \mathrm{d} x$
 
 ## Q18 — very_hard — 4 marks · exam-questions
 
 ### 1() — 4 marks — structured
 Find the equation of the curve passing through the point (4, -8) and given by
 
-`y equals integral space open parentheses fraction numerator 2 over denominator square root of x end fraction space minus space x space minus space 3 close parentheses space d x`
+$y = \int ( \frac{2}{ \sqrt{x} } - x - 3 ) d x$
 
 ## Q19 — very_hard — 6 marks · exam-questions
 
 ### 1() — 3 marks — structured
 Show that
 
-`open parentheses 3 minus space 1 half x close parentheses cubed space equals space 27 space minus space 27 over 2 x space plus space 9 over 4 x squared space minus 1 over 8 x cubed`
+$( 3 - 1 \frac{1}{2} x )^{3} = 27 - \frac{27}{2} x + \frac{9}{4} x^{2} - \frac{1}{8} x^{3}$
 
 ### 2() — 3 marks — structured
 Hence, or otherwise, work out
 
-`integral space open parentheses space 2 open parentheses 3 minus space 1 half x close parentheses space close parentheses cubed space d x`
+$\int ( 2 ( 3 - 1 \frac{1}{2} x ) )^{3} d x$
 
 ## Q20 — very_hard — 6 marks · exam-questions
 
 ### 1() — 6 marks — structured
-A function,`straight f open parentheses straight x close parentheses comma` has second derivative given by
+A function,$\mathrm{f} ( \mathrm{x} ) ,$ has second derivative given by
 
-`straight f apostrophe apostrophe space open parentheses straight x close parentheses space equals space 2 space open parentheses 18 straight x space minus space 5 close parentheses.`
+$\mathrm{f} '' ( \mathrm{x} ) = 2 ( 18 \mathrm{x} - 5 ).$
 
-Given that `open parentheses 2 x space minus space 1 close parentheses` and `open parentheses 3 x space plus space 2 close parentheses` are factors of `straight f open parentheses straight x close parentheses comma` find `straight f space open parentheses straight x close parentheses.`
+Given that $( 2 x - 1 )$ and $( 3 x + 2 )$ are factors of $\mathrm{f} ( \mathrm{x} ) ,$ find $\mathrm{f} ( \mathrm{x} ).$

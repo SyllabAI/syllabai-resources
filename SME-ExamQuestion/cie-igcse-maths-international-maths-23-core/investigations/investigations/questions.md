@@ -40,13 +40,13 @@ Find the value of $k$.
 
 It is possible to create a perfect number by substituting certain prime numbers, $p$, into the formula:
 
-`2 to the power of p minus 1 end exponent open parentheses 2 to the power of p minus 1 close parentheses`
+$2^{p - 1} ( 2^{p} - 1 )$
 
 The prime number $p=7$ creates a perfect number.
 
 Show that this perfect number is the 64<sup>th</sup> hexagonal number.
 
-You may use the fact that the $n$th term formula for a hexagonal number, $H_{n}$, is given by `H subscript n equals n open parentheses 2 n minus 1 close parentheses`.
+You may use the fact that the $n$th term formula for a hexagonal number, $H_{n}$, is given by $H_{n} = n ( 2 n - 1 )$.
 
 ### Q2 — hard — 7 marks
 
@@ -54,11 +54,11 @@ You may use the fact that the $n$th term formula for a hexagonal number, $H_{n}$
 
 The hexagonal numbers are a sequence of numbers. The $n$th term formula for a hexagonal number, $H_{n}$, is given by
 
-`H subscript n equals n open parentheses 2 n minus 1 close parentheses`
+$H_{n} = n ( 2 n - 1 )$
 
 For example, to find the third hexagonal number:
 
-`table row cell H subscript 3 end cell equals cell 3 open parentheses 2 cross times 3 minus 1 close parentheses end cell row blank equals cell 3 open parentheses 6 minus 1 close parentheses end cell row blank equals cell 3 cross times 5 end cell row blank equals 15 end table`
+$\begin{gathered} H_{3} & = 3 ( 2 \times 3 - 1 ) \\ = 3 ( 6 - 1 ) \\ = 3 \times 5 \\ = 15 \end{gathered}$
 
 Use the formula to find the 14<sup>th</sup> hexagonal number.
 
@@ -189,13 +189,13 @@ $H_{1}=1,H_{2}=6,H_{3}=15,H_{4}=28,H_{5}=45,H_{6}=66$
 
 To test whether a number is a hexagonal number or not, substitute it into the formula:
 
-`fraction numerator 1 plus square root of 8 cross times open parentheses number close parentheses plus 1 end root over denominator 4 end fraction`
+$\frac{1 + \sqrt{8 \times ( \text{number} ) + 1} }{4}$
 
 If the output is a whole number, then it is a hexagonal number.
 
 For example, to test if 6 is a hexagonal number, substitute it into the formula:
 
-`table row cell fraction numerator 1 plus square root of 8 cross times 6 plus 1 end root over denominator 4 end fraction end cell equals cell fraction numerator 1 plus square root of 48 plus 1 end root over denominator 4 end fraction end cell row blank equals cell fraction numerator 1 plus square root of 49 over denominator 4 end fraction end cell row blank equals cell fraction numerator 1 plus 7 over denominator 4 end fraction end cell row blank equals cell 8 over 4 end cell row blank equals 2 end table`
+$\begin{gathered} \frac{1 + \sqrt{8 \times 6 + 1} }{4} & = \frac{1 + \sqrt{48 + 1} }{4} \\ = \frac{1 + \sqrt{49} }{4} \\ = \frac{1 + 7}{4} \\ = \frac{8}{4} \\ = 2 \end{gathered}$
 
 The output is 2, which is a whole number, so 6 is a hexagonal number.
 

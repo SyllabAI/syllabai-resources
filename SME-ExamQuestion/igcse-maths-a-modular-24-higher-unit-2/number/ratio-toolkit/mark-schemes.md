@@ -91,7 +91,7 @@ $\frac{5}{8}\times120=75\mathrm{boys}$
 
 **[2]**
 
-> $\frac{16}{25}$* of the boys go climbing, which means *$\frac{9}{25}$* of the boys go sailing *`open parentheses 1 minus 16 over 25 equals 9 over 25 close parentheses`
+> $\frac{16}{25}$* of the boys go climbing, which means *$\frac{9}{25}$* of the boys go sailing *$( 1 - \frac{16}{25} = \frac{9}{25} )$
 
 $\frac{9}{25}\times75=27\mathrm{boys} \mathrm{go} \mathrm{sailing}$
 
@@ -137,7 +137,7 @@ $80\times0.7=56$
 > *That means 80 - 56 = 24 large letters weigh 101-250 g. *
 *Multiply the numbers of each type of letter by the respective prices and add them all together to get the total cost.*
 
-`open parentheses 120 space cross times space 0.60 close parentheses space plus space open parentheses 56 space cross times space 1.00 close parentheses space plus space open parentheses 24 space cross times space 1.50 close parentheses space equals space 164`
+$( 120 \times 0.60 ) + ( 56 \times 1.00 ) + ( 24 \times 1.50 ) = 164$
 
 **[1]**
 
@@ -148,7 +148,7 @@ $80\times0.7=56$
 ### 11() — 5 marks
 > *First multiply £3.50 by 5 (the number of days at work each week) to find the amount he pays for parking.*
 
-`table row cell 3.50 space cross times space 5 space end cell equals cell space £ 17.50 space parking end cell end table`
+$\begin{gathered} 3.50 \times 5 & = \pounds 17.50 \text{parking} \end{gathered}$
 
 **[1]**
 
@@ -167,13 +167,13 @@ $\frac{450}{113}\times4.546=18.10...\mathrm{litres} \mathrm{petrol}$
 
 > *Multiply the number of litres required by 136.9p (the cost per litre) to find the total cost of the petrol.*
 
-`open parentheses 450 over 113 space cross times space 4.546 close parentheses space cross times space 136.9 space equals space 2478.3... straight p space equals space £ 24.78 space for space petrol space open parentheses to space nearest space penny close parentheses space`
+$( \frac{450}{113} \times 4.546 ) \times 136.9 = 2478.3... \mathrm{p} = \pounds 24.78 \text{for} \text{petrol} ( \text{to} \text{nearest} \text{penny} )$
 
 **[1]**
 
 > *Finally add the cost for parking to the cost for petrol to find the total cost for the week.*
 
-`17. space 50 space plus space 24.78 space equals space £ 42.28 space`** **
+$17. 50 + 24.78 = \pounds 42.28$** **
 
 **£42.28****  [1]**
 
@@ -221,26 +221,26 @@ $\frac{7}{8}\times40=35$* fruit cakes sold*
 ### 1((a)) — 2 marks
 > *First divide 120 g by 10 to find out how much flour is used for 1 pancake:*
 
-`table row cell 120 space divided by space 10 space end cell equals cell space 12 end cell end table`
+$\begin{gathered} 120 \div 10 & = 12 \end{gathered}$
 
 **[1]**
 
 > *Then multiply that by 30 to see how much is needed for 30 pancakes:*
 
-`table row cell 12 space cross times space 30 space end cell equals cell space 360 end cell end table`
+$\begin{gathered} 12 \times 30 & = 360 \end{gathered}$
 
 **360 g**** [1]**
 
 ### 1((b)) — 2 marks
 > *First divide 300 ml by 10 to find out how much milk is used for 1 pancake:*
 
-`table row cell 300 space divided by space 10 space end cell equals cell space 30 end cell end table`
+$\begin{gathered} 300 \div 10 & = 30 \end{gathered}$
 
 **[1]**
 
 > *Then divide 750 ml by that to see how many pancakes she made:*
 
-`table row cell 750 space divided by space 30 space end cell equals cell space 25 end cell end table`
+$\begin{gathered} 750 \div 30 & = 25 \end{gathered}$
 
 **25 pancakes**** ****[1]**
 
@@ -249,18 +249,18 @@ $\frac{7}{8}\times40=35$* fruit cakes sold*
 ### 10() — 3 marks
 > *First substitute the Earth's mass and radius into the formula to find the surface gravity of Earth.*
 
-`g subscript E a r t h end subscript space equals fraction numerator open parentheses 6.67 space cross times space 10 to the power of negative 11 end exponent close parentheses space cross times space open parentheses 5.98 space cross times space 10 to the power of 24 close parentheses over denominator open parentheses 6.378 space cross times space 10 to the power of 6 close parentheses squared end fraction space equals space 9.805234...`
+$g_{E a r t h} = \frac{( 6.67 \times 10^{- 11} ) \times ( 5.98 \times 10^{24} )}{( 6.378 \times 10^{6} )^{2}} = 9.805234...$
 
 **[1]**
 
 > *Now substitute to find the surface gravity of Jupiter. Then write the surface gravity of Earth to the surface gravity of Jupiter as a ratio. *
 *Finally, divide the surface gravity of Jupiter by the surface gravity of Earth to find the value of **n **asked for in the question.*
 
-`g subscript J u p i t e r end subscript space equals fraction numerator open parentheses 6.67 space cross times space 10 to the power of negative 11 end exponent close parentheses space cross times space open parentheses 1.90 space cross times space 10 to the power of 27 close parentheses over denominator open parentheses 7.149 space cross times space 10 to the power of 7 close parentheses squared end fraction space equals space 24.796411...
+$g_{J u p i t e r} = \frac{( 6.67 \times 10^{- 11} ) \times ( 1.90 \times 10^{27} )}{( 7.149 \times 10^{7} )^{2}} = 24.796411...
 
-g subscript E a r t h end subscript space colon space g subscript J u p i t e r end subscript space equals space 9.805234... space colon space 24.796411...
+g_{E a r t h} : g_{J u p i t e r} = 9.805234... : 24.796411...
 
-fraction numerator 24.796411... over denominator 9.805234... end fraction space equals space 2.528895...`
+ \frac{24.796411...}{9.805234...} = 2.528895...$
 
 **[1]**
 
@@ -285,7 +285,7 @@ $1.21\times10^{4}\mathrm{km}$**  [1]**
 > $1000000$* (or *$1\times10^{6}$* in standard form) is the m to km 'scale factor' for planet distances from the sun. *
 *We're going from the 'big' distance to the 'small' distance, so **divide** *$4.503\times10^{9}$* by *$1\times10^{6}$* to find the distance in William's model.*
 
-`space open parentheses 4.503 space cross times space 10 to the power of 9 close parentheses space divided by space open parentheses 1 space cross times space 10 to the power of 6 close parentheses space equals space space 4.503 space cross times space 10 cubed space equals space 4503 space straight m`
+$( 4.503 \times 10^{9} ) \div ( 1 \times 10^{6} ) = 4.503 \times 10^{3} = 4503 \mathrm{m}$
 
 **[1]**
 
@@ -305,13 +305,13 @@ $4.5\mathrm{km}$**  [1]**
 ### 6((a)) — 2 marks
 > *First divide 25 ml by 10 ml (the amount in the recipe) to find the 'scale factor' for what Liz made:*
 
-`table row cell 25 space divided by space 10 space end cell equals cell space 2.5 end cell end table`
+$\begin{gathered} 25 \div 10 & = 2.5 \end{gathered}$
 
 **[1]**
 
 > *Then multiply that by 12 to see how many shortcakes she made. Remember, 12 *$\times$*2.5  is 'two twelves, plus half of twelve'.*
 
-`table row cell 12 space cross times space 2.5 space end cell equals cell space 12 space plus space 12 space plus space 6 space equals space 30 end cell end table`
+$\begin{gathered} 12 \times 2.5 & = 12 + 12 + 6 = 30 \end{gathered}$
 
 **30 shortcakes****  [1]**
 
@@ -324,7 +324,7 @@ $\mathrm{sugar}:500\div50=10\,\,\mathrm{butter}:1000\div200=5\,\,\mathrm{flour}:
 
 > *The **smallest **scale factor (5) is the one that will work for **all **the ingredients. Multiply that by 12 to find the greatest number of shortcakes he can make,*
 
-`table row cell 12 space cross times space 5 space end cell equals cell space 60 end cell end table`
+$\begin{gathered} 12 \times 5 & = 60 \end{gathered}$
 
 **60 shortcakes****  [1]**
 
@@ -333,7 +333,7 @@ $\mathrm{sugar}:500\div50=10\,\,\mathrm{butter}:1000\div200=5\,\,\mathrm{flour}:
 ### 1() — 3 marks
 > *Divide how many gingerbread men he wants to make (24) by the number of gingerbread men in the recipe (16) to find the 'scale factor' for scaling up the recipe:*
 
-`table row cell 24 space divided by space 16 space end cell equals cell space space 1.5 end cell end table`
+$\begin{gathered} 24 \div 16 & = 1.5 \end{gathered}$
 
 **[1]**
 
@@ -404,7 +404,7 @@ $20\div2=10\,\,10\times1=10\mathrm{red} \mathrm{counters} \mathrm{total}\,\,10-4
 ### 2() — 4 marks
 > *First divide 45 by 18 (the number of  mince pies in the recipe) to find the 'scale factor' for what Elaine wants to make:*
 
-`table row cell 45 space divided by space 18 space end cell equals cell space 2.5 end cell end table`
+$\begin{gathered} 45 \div 18 & = 2.5 \end{gathered}$
 
 **[1]**
 
@@ -426,7 +426,7 @@ $\mathrm{butter}:225\times2.5=562.5g\,\,\mathrm{flour}:350\times2.5=875g\,\,\mat
 ### 1() — 3 marks
 > *Divide the number of people he wants to serve (6) by the number of people the recipe is for (4) to find the 'scale factor' for scaling up the recipe:*
 
-`table row cell 6 space divided by space 4 space end cell equals cell space 1.5 end cell end table`
+$\begin{gathered} 6 \div 4 & = 1.5 \end{gathered}$
 
 **[1]**
 
@@ -459,7 +459,7 @@ $\frac{y+x}{k}=\frac{y-x}{1}$
 
 > *Multiply both sides by *$k.$
 
-`y space plus space x space equals space space k open parentheses y space minus space x close parentheses`
+$y + x = k ( y - x )$
 
 **[1]**
 
@@ -475,11 +475,11 @@ $x+kx=ky-y$
 
 > *Factorise out *$x$* on the left hand side and *$y$* on the right hand side.*
 
-`x open parentheses 1 space plus space k close parentheses space space equals space y open parentheses k space minus space 1 close parentheses`
+$x ( 1 + k ) = y ( k - 1 )$
 
 > *Divide by *$k-1$* to make *$y$* the subject.*
 
-`fraction numerator x open parentheses 1 space plus space k close parentheses space over denominator open parentheses k space minus space 1 close parentheses end fraction space equals space y`
+$\frac{x ( 1 + k ) }{( k - 1 )} = y$
 
 ** **
 
@@ -518,7 +518,7 @@ $\mathrm{butter}:330\div120=2\frac{90}{120}=2\frac{3}{4}=2.75\,\,\mathrm{caster}
 *Multiply that by 8 (the number of biscuits in the recipe) to find out how many biscuits Tariq can make. *
 *Remember, 8 *$\times$*2.5  is 'two eights, plus half of eight'.*
 
-`table row cell 8 space cross times space 2.5 space end cell equals cell space 8 space plus space 8 space plus space 4 space equals space 20 end cell end table`
+$\begin{gathered} 8 \times 2.5 & = 8 + 8 + 4 = 20 \end{gathered}$
 
 **[1]**
 
@@ -529,13 +529,13 @@ $\mathrm{butter}:330\div120=2\frac{90}{120}=2\frac{3}{4}=2.75\,\,\mathrm{caster}
 ### 2() — 3 marks
 > *First divide 225 g by 9 to find out how much flour is used for 1 cake:*
 
-`table row cell 225 space divided by space 9 space end cell equals cell space 25 end cell end table`
+$\begin{gathered} 225 \div 9 & = 25 \end{gathered}$
 
 **[1]**
 
 > *Then multiply that by 20 to see how much is needed for 20 cakes:*
 
-`table row cell 25 space cross times space 20 space end cell equals cell space 500 end cell end table`
+$\begin{gathered} 25 \times 20 & = 500 \end{gathered}$
 
 **[1]**
 
@@ -621,7 +621,7 @@ $210\div160=1.3125$
 
 > *Multiply that by 17.8 g to find the weight of the 210 cm wire.*
 
-`table row cell 17.8 space cross times space 1.3125 space end cell equals cell space 23.3625 end cell end table`
+$\begin{gathered} 17.8 \times 1.3125 & = 23.3625 \end{gathered}$
 
 **[1]**
 
@@ -635,20 +635,20 @@ $210\div160=1.3125$
 > *The wall is the same height everywhere, so how many bricks he needs only depends on the length of the wall. *
 *First divide 300 by 5 to find out how how many bricks he needs for 1 metre of wall:*
 
-`table row cell 300 space divided by space 5 space end cell equals cell space 60 end cell end table`
+$\begin{gathered} 300 \div 5 & = 60 \end{gathered}$
 
 **[1]**
 
 > *Then multiply that by 8 to see how many are needed for 8 metres of wall:*
 
-`table row cell 60 space cross times space 8 space end cell equals cell space 480 end cell end table`
+$\begin{gathered} 60 \times 8 & = 480 \end{gathered}$
 
 **[1]**
 
 > *Be careful now!  The question doesn't ask how many bricks he needs in total, but how many **more** bricks he needs to complete the wall. *
 *Subtract 300 from 480 to find out how many more bricks he needs:*
 
-`table row cell 480 space minus space 300 space end cell equals cell space 180 end cell end table`
+$\begin{gathered} 480 - 300 & = 180 \end{gathered}$
 
 **180 more bricks****  [1]**
 
@@ -688,7 +688,7 @@ $3\times6=18\mathrm{cm}4\times6=24\mathrm{cm}5\times6=30\mathrm{cm}$
 *In a right-angled triangle the two sides that are **not **the hypotenuse are the 'base' and 'height' for that formula. *
 *And the longest side is the hypotenuse, so use 18 and 24 as the base and height.*
 
-`table row cell Area space end cell equals cell space 1 half space cross times space 18 space cross times space 24 space end cell row blank equals cell space 9 space cross times space 24 space end cell row blank equals cell space open parentheses 9 space cross times space 20 close parentheses space plus space open parentheses 9 space cross times space 4 close parentheses space end cell row blank equals cell space 180 space plus space 36 space end cell row blank equals cell space 216 end cell end table`
+$\begin{gathered} \text{Area} & = 1 \frac{1}{2} \times 18 \times 24 \\ = 9 \times 24 \\ = ( 9 \times 20 ) + ( 9 \times 4 ) \\ = 180 + 36 \\ = 216 \end{gathered}$
 
 **[1]**
 
@@ -705,7 +705,7 @@ $1200\div60=20$
 
 > *Multiply the scale factor by 20 (the number of students who said they wanted ham pizza) to find an estimate for the total number of students who would want ham pizza.*
 
-`table row cell 20 space cross times space 20 space end cell equals cell space 400 end cell end table`
+$\begin{gathered} 20 \times 20 & = 400 \end{gathered}$
 
 **[1]**
 
@@ -719,7 +719,7 @@ $1200\div60=20$
 > *First divide £700 by 2 to find out how much they each originally get. *
 *Then work out the amounts after Ellie gives £125 to Maddie, and write as a ratio.*
 
-`table row cell 700 space divided by space 2 space end cell equals cell space 350 end cell row blank blank blank row cell 350 space minus space 125 space end cell equals cell space 225 end cell row blank blank blank row cell 350 space plus space 125 space end cell equals cell space 475 end cell end table`
+$\begin{gathered} 700 \div 2 & = 350 \\ \\ 350 - 125 & = 225 \\ \\ 350 + 125 & = 475 \end{gathered}$
 
 **[1]**
 
@@ -730,7 +730,7 @@ $1200\div60=20$
 > *First add the ratio numbers together to find out the total number of 'parts'. *
 *Then divide £630 by that to find what one part is.*
 
-`table row cell 5 space plus space 13 space end cell equals cell space 18 end cell row blank blank blank row cell 630 space divided by space 18 space end cell equals cell space 35 end cell end table`
+$\begin{gathered} 5 + 13 & = 18 \\ \\ 630 \div 18 & = 35 \end{gathered}$
 
 **[1]**
 
@@ -756,9 +756,7 @@ $\mathrm{Daniel}:35\times5=175\,\,\mathrm{Rose}:35\times13=455$
 *The sum of the 'end' ratio numbers is 7 + 9 + 8 = 24. So scale the 'start' ratio up by a factor of 4, and scale the 'end' ratio up by a factor of 3. *
 *Then the two sums will be the same (72).*
 
-`At space start comma space space Rob space colon space Tim space colon space Zak space equals space open parentheses 5 cross times 4 close parentheses space colon space open parentheses 6 cross times 4 close parentheses space colon space open parentheses 7 cross times 4 close parentheses space equals space 20 space colon space 24 space colon space 28
-
-At space end comma space space Rob space colon space Tim space colon space Zak space equals space open parentheses 7 cross times 3 close parentheses space colon space open parentheses 9 cross times 3 close parentheses space colon space open parentheses 8 cross times 3 close parentheses space equals space 21 space colon space 27 space colon space 24`
+`At start , Rob colon Tim colon Zak = ( 5 x 4 ) colon ( 6 x 4 ) colon ( 7 x 4 ) = 20 colon 24 colon 28 At end , Rob colon Tim colon Zak = ( 7 x 3 ) colon ( 9 x 3 ) colon ( 8 x 3 ) = 21 colon 27 colon 24`
 
 **[2] **
 **1 mark for scaling up both ratios to have the same sum. 1 mark for having at least one of the scaled-up 'Rob' numbers correct.**
@@ -794,7 +792,7 @@ $12-10.75=1.25$
 
 > *Now calculate this as a percentage of last week's 12 kg.*
 
-`fraction numerator 1.25 over denominator 12 end fraction space cross times space 100 space equals space 10.416666... percent sign`
+$\frac{1.25}{12} \times 100 = 10.416666... \%$
 
 **[1]**
 
@@ -809,14 +807,14 @@ $12-10.75=1.25$
 ### 19() — 3 marks
 > *First make sure the units in both measurements are the same! Remember there are 1000 metres in a kilometre.*
 
-`open parentheses 8 space cross times space 10 to the power of 8 close parentheses space cross times space 1000 space equals space 8 space cross times space 10 to the power of 11 space metres`
+$( 8 \times 10^{8} ) \times 1000 = 8 \times 10^{11} \text{metres}$
 
 **[1]**
 
 > *The 'raw' ratio is  *$16:8\times10^{11}$*. *
 *Divide  *$8\times10^{11}$* by *$16$* to get the **n** that the question is asking for.*
 
-`table row blank blank cell open parentheses 8 space cross times space 10 to the power of 11 space close parentheses divided by space 16 space equals space 5 space cross times space 10 to the power of 10 end cell end table`
+$\begin{gathered} ( 8 \times 10^{11} ) \div 16 = 5 \times 10^{10} \end{gathered}$
 
 **[1]**
 
@@ -970,11 +968,11 @@ $\mathrm{blue}:0.5\times7=3.5\mathrm{litres}\,\,\mathrm{yellow}:0.5\times3=1.5\m
 > *Now find Hanif's cost per litre for blue and yellow paint. *
 *Multiply those costs by 3.5 and 1.5 respectively to work out how much he pays for the paint in a 5-litre tin.*
 
-`blue colon space space space 225 space divided by space 50 space equals space £ 4.50 space space per space litre
-4.50 space cross times space 3.5 space equals space £ 15.75
+$\text{blue} : 225 \div 50 = \pounds 4.50 \text{per} \text{litre}
+4.50 \times 3.5 = \pounds 15.75
 
-yellow colon space space space 80 space divided by space 20 space equals space £ 4.00 space space per space litre
-4 space cross times space 1.5 space equals space £ 6.00`
+\text{yellow} : 80 \div 20 = \pounds 4.00 \text{per} \text{litre}
+4 \times 1.5 = \pounds 6.00$
 
 **[1]**
 
@@ -1050,7 +1048,7 @@ $A=\frac{1}{2}B$
 ### 24() — 4 marks
 > *Substitute the given radii and height into the formulae for sphere and cone, and equate the two.*
 
-`4 over 3 pi open parentheses 2 x close parentheses cubed space equals space 1 third pi open parentheses 3 x close parentheses squared h`
+$\frac{4}{3} \pi ( 2 x )^{3} = 1 \frac{1}{3} \pi ( 3 x )^{2} h$
 
 ** [2] **
 **1 mark for correct substitution into the sphere or the cone formula** 
@@ -1066,13 +1064,13 @@ $32πx^{3}=9πx^{2}h$
 
 > *Cancel like terms on either side (or divide both sides by *$πx^{2}$*).*
 
-`table row cell 32 up diagonal strike pi x to the power of up diagonal strike 3 end exponent space end cell equals cell space 9 up diagonal strike pi up diagonal strike x squared end strike h end cell row cell 32 x space end cell equals cell space 9 h end cell end table`
+$\begin{gathered} 32 \cancel{\pi x^{ \cancel{3} } & = 9 \cancel{\pi } \cancel{x}^{2}} h \\ 32 x & = 9 h \end{gathered}$
 
 **[1]**
 
 > *Multiply both sides by *$\frac{3}{32}$* to get '*$3x$*' on its own on one side, as the radius of the cone (the left side of the ratio required) is *$3x$*.*
 
-`table row cell 3 over 32 space cross times space 32 x space end cell equals cell space 3 over 32 space cross times space 9 h end cell row cell 3 x space end cell equals cell space 27 over 32 h end cell end table`
+$\begin{gathered} \frac{3}{32} \times 32 x & = \frac{3}{32} \times 9 h \\ 3 x & = \frac{27}{32} h \end{gathered}$
 
 > *Therefore;*
 
@@ -1095,9 +1093,9 @@ $2.6+1=3.6\,\,270\div3.6=75$
 > *So one part is £75. *
 *Multiply that by the two ratio numbers to see how much each of them gets.*
 
-`Jeff colon space space 75 space cross times space 2.6 space equals space £ 195
+$\text{Jeff} : 75 \times 2.6 = \pounds 195
 
-Kaz colon space space 75 space cross times space 1 space equals space £ 75`
+\text{Kaz} : 75 \times 1 = \pounds 75$
 
 **[1]**
 
@@ -1159,7 +1157,7 @@ $5\mathrm{metres}=5\times100=500\mathrm{centimetres}$
 *So 'scale down' the ratio by a factor of 2 (i.e., divide both sides of the ratio by 2). *
 *That will turn 2 into 1, and 500 into **n**.*
 
-`2 space colon space 500 space equals space open parentheses 2 divided by 2 close parentheses space colon space open parentheses 500 divided by 2 close parentheses space equals space 1 space colon space 250`
+$2 : 500 = ( 2 \div 2 ) : ( 500 \div 2 ) = 1 : 250$
 
 **n**** = 250**** [****1]**
 
@@ -1167,9 +1165,9 @@ $5\mathrm{metres}=5\times100=500\mathrm{centimetres}$
 > *First add the ratio numbers together to find out the total number of 'parts' that the ratio divides £7200 into. *
 *Then divide £7200 by that sum to find what one part is.*
 
-`1 space plus space 2 space plus space 5 space equals space 8
+$1 + 2 + 5 = 8
 
-7200 space divided by space 8 space equals space £ 900`
+7200 \div 8 = \pounds 900$
 
 **[1]**
 
@@ -1185,7 +1183,7 @@ $900\times5=4500$
 ### 11() — 3 marks
 > *Use your calculator to work out the value of the cube root of 512.*
 
-`cube root of 512 space equals space 8`
+$\sqrt[3]{512} = 8$
 
 **[1]**
 
@@ -1238,11 +1236,11 @@ $1\mathrm{kilogram}=1000\mathrm{grams}$
 *So 'scale down' the ratio by a factor of 50 (i.e., divide both sides of the ratio by 50). *
 *That will turn 50 into 1, and 1000 into **n**.*
 
-`50 space colon space 1000 space equals space open parentheses 50 divided by 50 close parentheses space colon space open parentheses 1000 divided by 50 close parentheses
+$50 : 1000 = ( 50 \div 50 ) : ( 1000 \div 50 )
 
-1000 over 50 space equals space 100 over 5 space equals space 20
+ \frac{1000}{50} = \frac{100}{5} = 20
 
-50 space colon space 1000 space equals space 1 space colon space 20`
+50 : 1000 = 1 : 20$
 
 **n**** = 20**** [1]**
 
@@ -1381,11 +1379,11 @@ $\mathrm{Theo}:18+4.5N\,\,\mathrm{James}:4N$
 > *Next turn the ratio we are looking for into an equation with the expressions for James' and Theo's money. *
 *Begin solving the equation.*
 
-`Theo over James space equals space fraction numerator 18 plus 4.5 N over denominator 4 N end fraction space equals space 15 over 8
+$\frac{Theo}{James} = \frac{18 + 4.5 N}{4 N} = \frac{15}{8} 
 
-8 space cross times space open parentheses 18 plus 4.5 N close parentheses space equals space 15 space cross times space 4 N
+8 \times ( 18 + 4.5 N ) = 15 \times 4 N
 
-144 space plus space 36 N space equals space 60 space N`
+144 + 36 N = 60 N$
 
 **[1]**
 
@@ -1449,11 +1447,11 @@ $\mathrm{small}:8\times7=56\,\,\mathrm{medium}:8\times6=48\,\,\mathrm{large}:8\t
 *Use this and the numbers of cakes from above to set up an equation equal to the total profit. *
 *Begin to solve the equation.*
 
-`open parentheses 56 cross times x close parentheses space plus space open parentheses 48 cross times 2 x close parentheses space plus space open parentheses 88 cross times 3 x close parentheses space equals space 532.48
+$( 56 \times x ) + ( 48 \times 2 x ) + ( 88 \times 3 x ) = 532.48
 
-56 x space plus space 96 x space plus 264 x space equals space 532.48
+56 x + 96 x + 264 x = 532.48
 
-416 x space equals space 532.48`
+416 x = 532.48$
 
 **[1] **
 **The mark here is for setting up a correct equation.**
@@ -1533,11 +1531,11 @@ $\frac{250}{25}=10\mathrm{bags} \mathrm{cement}\,\,\frac{500}{20}=25\mathrm{bags
 
 > *Now multiply the number of bags by the price per bag to find the cost for each ingredient.*
 
-`10 space cross times space 5.50 space equals space £ 55 space cement
+$10 \times 5.50 = \pounds 55 \text{cement}
 
-25 space cross times space 2.00 space equals space £ 50 space sand
+25 \times 2.00 = \pounds 50 \text{sand}
 
-50 space cross times space 3.90 space equals space £ 195 space stone`
+50 \times 3.90 = \pounds 195 \text{stone}$
 
 **[1]**
 
@@ -1545,7 +1543,7 @@ $\frac{250}{25}=10\mathrm{bags} \mathrm{cement}\,\,\frac{500}{20}=25\mathrm{bags
 
 > *Now add those together to find Bob's total cost for the 50 bags of dry concrete.*
 
-`55 space plus space 50 space plus space 195 space equals space £ 300`
+$55 + 50 + 195 = \pounds 300$
 
 **[1]**
 

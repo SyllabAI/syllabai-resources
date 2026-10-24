@@ -24,9 +24,9 @@ guided_study: false
   - So if you **differentiate **a function to find its** derivative**
   - and then **integrate** that derivative
   - you should end up back at the **original function**
-- This can be written as  `integral straight f to the power of apostrophe open parentheses x close parentheses space straight d x equals straight f open parentheses x close parentheses plus c`
+- This can be written as  $\int \mathrm{f}^{'} ( x ) \mathrm{d} x = \mathrm{f} ( x ) + c$
 
-  - `integral... space straight d x`  is the **integral with respect to **$x$** **of "..."
+  - $\int ... \mathrm{d} x$  is the **integral with respect to **$x$** **of "..."
   - $c$ is the **constant of integration**
   
     - A derivative gives the** rate of change** of a function
@@ -63,20 +63,20 @@ guided_study: false
 > > *This is a standard 'powers of *$x$*'derivative*
 > *Just remember to rewrite *$\frac{1}{x}$* as a power using laws of indices*
 > 
-> `straight f open parentheses x close parentheses equals x cubed plus x to the power of negative 1 end exponent`
+> $\mathrm{f} ( x ) = x^{3} + x^{- 1}$
 > 
-> `table row cell straight f to the power of apostrophe open parentheses x close parentheses end cell equals cell 3 x to the power of 3 minus 1 end exponent plus open parentheses open parentheses negative 1 close parentheses x to the power of negative 1 minus 1 end exponent close parentheses end cell row blank equals cell 3 x squared minus x to the power of negative 2 end exponent end cell end table`
+> $\begin{gathered} \mathrm{f}^{'} ( x ) & = 3 x^{3 - 1} + ( ( - 1 ) x^{- 1 - 1} ) \\ = 3 x^{2} - x^{- 2} \end{gathered}$
 > 
 > > *Now just use laws of indices again to write the answer in the requested form*
 > 
-> `table row cell bold f to the power of bold apostrophe stretchy left parenthesis x stretchy right parenthesis end cell bold equals cell bold 3 bold italic x to the power of bold 2 bold minus bold 1 over bold x to the power of bold 2 end cell end table`
+> $\begin{array}{ccc} f^{ } \text{apostrophe} \text{stretchy} ( x \text{stretchy} ) & = & 3 x^{ } 2 - \frac{1}{ } x^{ } 2\end{array}$
 > 
-> (b) Hence write down the answer to the indefinite integral  `integral open parentheses 3 x squared minus 1 over x squared close parentheses space straight d x`.
+> (b) Hence write down the answer to the indefinite integral  $\int ( 3 x^{2} - \frac{1}{x^{2}} ) \mathrm{d} x$.
 > 
-> > *We can use  *`integral straight f to the power of apostrophe open parentheses x close parentheses space d x equals straight f open parentheses x close parentheses plus c`* to write down the answer*
+> > *We can use  *$\int \mathrm{f}^{'} ( x ) d x = \mathrm{f} ( x ) + c$* to write down the answer*
 > 
 > > *This is because integration and differentiation are inverse operations*
 > 
 > > *Just don't forget the constant of integration  *$+c$
 > 
-> `bold integral stretchy left parenthesis 3 x squared minus 1 over x squared stretchy right parenthesis bold space bold d bold italic x bold equals bold italic x to the power of bold 3 bold plus bold 1 over bold x bold plus bold italic c`
+> $\text{integral} \text{stretchy} ( 3 x ^{2} - \frac{1}{x} ^{2} \text{stretchy} ) d x = x^{ } 3 + \frac{1}{ } x + c$

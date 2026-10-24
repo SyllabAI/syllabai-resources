@@ -37,7 +37,7 @@ $NΦ=BAN$
 - As with magnetic flux, if the field lines are not completely perpendicular to the plane of the area they are passing through
 - Therefore, the component of the flux density which is perpendicular is equal to:
 
-`N capital phi space equals space B A N cos open parentheses theta close parentheses`
+$N \\Phi = B A N \cos ( \\theta )$
 
 - Where:
 
@@ -62,6 +62,6 @@ $NΦ=BAN$
 > 
 > **Step 3:** **Substitute in values and calculate**
 > 
-> `N capital phi space equals space open parentheses 5.1 space cross times space 10 to the power of negative 3 end exponent close parentheses space cross times space 0.503 space cross times space 300 space equals space 0.7691`
+> $N \\Phi = ( 5.1 \times 10^{- 3} ) \times 0.503 \times 300 = 0.7691$
 > 
 > $NΦ=0.77$ Wb turns (2 s.f.)

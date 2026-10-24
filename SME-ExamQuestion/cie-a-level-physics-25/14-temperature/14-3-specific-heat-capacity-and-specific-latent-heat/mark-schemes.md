@@ -104,12 +104,11 @@ Determine the equation for the mass of the water evaporated, *m*:
 
 - $\mathrm{thermal} \mathrm{energy} \mathrm{lost} \mathrm{to} \mathrm{surroundings}=E-Q$ **[1 mark]**
 - $\mathrm{rate} \mathrm{of} \mathrm{thermal} \mathrm{energy} \mathrm{lost}\timest=E--mL$
-- `m equals fraction numerator E minus open parentheses rate space of space thermal space energy space lost cross times t close parentheses over denominator L end fraction`
+- $m = \frac{E - ( \text{rate} of \text{thermal} \text{energy} \text{lost} \times t ) }{L}$
 
 Substitute in the values:
 
-- `m equals fraction numerator 286 space 200 minus open parentheses 500 cross times 90 close parentheses over denominator 2.26 cross times 10 to the power of 6 end fraction
-` = 0.1067 kg = 107 g **[1 mark]**
+- $m = \frac{286 200 - ( 500 \times 90 )}{2.26 \times 10^{6} }$ = 0.1067 kg = 107 g **[1 mark]**
 
 **[Total: 3 marks]**
 
@@ -137,7 +136,7 @@ Rearrange the equation for the specific latent heat of ice, *L*:
 
 Substitute in the values:
 
-- `L space space equals space fraction numerator open parentheses 0.23 cross times 10 to the power of 6 close parentheses space minus open square brackets space open parentheses 700 cross times 10 to the power of negative 3 end exponent close parentheses space cross times space open parentheses 2.1 cross times 10 cubed close parentheses space cross times space open parentheses negative 4 minus 0 close parentheses close square brackets space over denominator 700 cross times 10 to the power of negative 3 end exponent end fraction` **[1 mark]**
+- $L = \frac{( 0.23 \times 10^{6 ) - [ ( 700 \times 10^{-3} } ) \times ( 2.1 \times 10^{3} ) \times ( - 4 - 0 ) ] }{700 \times 10^{- 3} }$ **[1 mark]**
 - $L=3.2\times10^{5}J\mathrm{kg}^{-1}$ **[1 mark]**
 
 **[Total: 3 marks]**
@@ -229,7 +228,7 @@ Obtain an equation for the conservation of energy as the cyclist comes to a stop
 Calculate the increase in temperature of the brake discs, Δ*T:*
 
 - $\DeltaT=\frac{mv^{2}}{8m_{d}c}$
-- `increment T space equals space fraction numerator 55 space cross times space 25 squared over denominator 8 space cross times space 0.25 space cross times space open parentheses 1.77 space cross times space 10 cubed close parentheses end fraction`
+- $\Delta T = \frac{55 \times 25^{2}}{8 \times 0.25 \times ( 1.77 \times 10^{3} )}$
 - $\DeltaT=9.71^{\circ}C$ **[1 mark]**
 
 **[Total: 2 marks]**
@@ -284,7 +283,7 @@ List the known quantities:
 Calculate the final velocity of the ball just before it hits the surface of the water, *v*:
 
 - Recall an equation of uniform motion: $v^{2}=u^{2}+2as$
-- So, `v space equals space square root of u squared space plus space 2 a h end root space equals space square root of 20 squared space plus space open parentheses 2 space cross times space 9.81 space cross times space 0.75 close parentheses end root space equals space 20.36 space straight m space straight s to the power of negative 1 end exponent` **[1 mark]**
+- So, $v = \sqrt{u^{2} + 2 a h} = \sqrt{20^{2} + ( 2 \times 9.81 \times 0.75 )} = 20.36 \mathrm{m} \mathrm{s}^{- 1}$ **[1 mark]**
 
 Consider the energy transfer taking place as the ball falls:
 
@@ -294,13 +293,13 @@ Consider the energy transfer taking place as the ball falls:
 Calculate the change in temperature of the ball bearing, Δ*T*:
 
 - $\DeltaT=\frac{2gh+u^{2}-v^{2}}{2c}$
-- `increment T space equals space fraction numerator open parentheses 2 space cross times space 9.81 space cross times space 0.75 close parentheses space plus 20 squared space minus space 20.36 squared space over denominator open parentheses 2 space cross times space 440 close parentheses end fraction`
+- $\Delta T = \frac{( 2 \times 9.81 \times 0.75 ) + 20^{2} - 20.36^{2} }{( 2 \times 440 )}$
 - $\DeltaT=2.1068\times10^{-4}^{\circ}C$ **[1 mark]**
 
 Calculate the temperature of the ball immediately before it hits the water, *T*<sub>*f*</sub>:
 
 - $\DeltaT=T_{f}-T_{i}$
-- `T subscript f space equals space increment T space plus space T subscript i space equals space open parentheses 2.1068 space cross times space 10 to the power of negative 4 end exponent close parentheses space plus open parentheses negative space 2.1592 close parentheses space equals space minus 2.1590 space degree straight C`** [1 mark]**
+- $T_{f} = \Delta T + T_{i} = ( 2.1068 \times 10^{- 4} ) + ( - 2.1592 ) = - 2.1590^{\circ} \mathrm{C}$** [1 mark]**
 
 **[Total: 4 marks]**
 Calculate the final temperature of the ball and the water after impact:
@@ -318,20 +317,20 @@ List the known quantities:
 Calculate the mass of the water in the pool, m<sub>w</sub>:
 
 - Recall the equation for density, $ρ=\frac{m}{V}$ so $m_{w}=ρV$
-- `m subscript w space equals space 1030 space cross times space open parentheses 1.5 space cross times space 10 to the power of negative 3 end exponent close parentheses space equals space 1.545 space kg` **[1 mark]**
+- $m_{w} = 1030 \times ( 1.5 \times 10^{- 3} ) = 1.545 \text{kg}$ **[1 mark]**
 
 Consider the energy transfer taking place when the ball is in the water:
 
 - Energy gained by ball = energy lost by water
-- `m subscript b c subscript b open parentheses T space minus space T subscript b close parentheses space equals space m subscript w c subscript w open parentheses T space minus space T subscript w close parentheses`
+- $m_{b} c_{b} ( T - T_{b} ) = m_{w} c_{w} ( T - T_{w} )$
 - $m_{b}c_{b}T-m_{b}c_{b}T_{b}=m_{w}c_{w}T-m_{w}c_{w}T_{w}$
 
-- `open parentheses m subscript b c subscript b space minus m subscript w c subscript w close parentheses space T space equals space m subscript b c subscript b T subscript b space minus space m subscript w c subscript w T subscript w`
-- `T space equals space fraction numerator m subscript b c subscript b T subscript b space minus space m subscript w c subscript w T subscript w over denominator open parentheses m subscript b c subscript b space minus m subscript w c subscript w close parentheses space end fraction` **[1 mark]**
+- $( m_{b} c_{b} - m_{w} c_{w} ) T = m_{b} c_{b} T_{b} - m_{w} c_{w} T_{w}$
+- $T = \frac{m_{b} c_{b} T_{b} - m_{w} c_{w} T_{w} }{( m_{b} c_{b} - m_{w} c_{w} ) }$ **[1 mark]**
 
 Calculate the final temperature of the ball and the water, *T*:
 
-- `T space equals space fraction numerator open parentheses open parentheses 33 space cross times space 10 to the power of negative 3 end exponent close parentheses space cross times space 440 space cross times negative 2.1590 close parentheses space minus space open parentheses 1.545 space cross times space 4300 space cross times space 22.5137 close parentheses over denominator open parentheses open parentheses 33 space cross times space 10 to the power of negative 3 end exponent close parentheses space cross times space 440 close parentheses space minus space open parentheses 1.545 space cross times space 4300 close parentheses end fraction`
+- $T = \frac{( ( 33 \times 10^{- 3} ) \times 440 \times - 2.1590 ) - ( 1.545 \times 4300 \times 22.5137 )}{( ( 33 \times 10^{- 3} ) \times 440 ) - ( 1.545 \times 4300 )}$
 - $T=22.6577^{\circ}C$ **[1 mark]**
 
 **[Total: 3 marks]**
@@ -460,7 +459,7 @@ Determine the equation to calculate the time taken to heat the food:
 
 Substitute in the values:
 
-- `t space equals space fraction numerator open parentheses 160 space cross times space 10 to the power of negative 3 end exponent close parentheses space cross times space 4200 space cross times space open parentheses 90 space minus space 15 close parentheses space over denominator 1500 end fraction` **[1 mark]**
+- $t = \frac{( 160 \times 10^{- 3} ) \times 4200 \times ( 90 - 15 ) }{1500}$ **[1 mark]**
 - $t=33.6s$
 
 Convert time into minutes:
@@ -527,26 +526,26 @@ Calculate the volume of the 4 ice spheres, *V*:
 
 - Volume of sphere = $\frac{4}{3}πr^{3}$
 - Volume of 4 spheres, *V *= $4\times\frac{4}{3}πr^{3}$
-- `V space equals space 4 space cross times space 4 over 3 space pi space open parentheses 20 space cross times space 10 to the power of negative 3 end exponent close parentheses cubed space equals space 4 space cross times space open parentheses 3.35 space cross times space 10 to the power of negative 5 end exponent close parentheses`
+- $V = 4 \times \frac{4}{3} \pi ( 20 \times 10^{- 3} )^{3} = 4 \times ( 3.35 \times 10^{- 5} )$
 - $V=1.34\times10^{-4}m^{3}$** [1 mark]**
 
 Calculate the mass of the ice spheres, *m*<sub>*i*</sub>:
 
 - Recall the equation for density: $ρ=\frac{m_{i}}{V}$ so $m_{i}=ρV$
-- `m subscript i space equals space 870 space cross times space open parentheses 1.34 space cross times space 10 to the power of negative 4 end exponent close parentheses`
+- $m_{i} = 870 \times ( 1.34 \times 10^{- 4} )$
 - $m_{i}=0.12\mathrm{kg}$ **[1 mark]**
 
 Determine the equation for the energy gained by the ice spheres, *Q*<sub>*i*</sub>:
 
 - Energy gained by ice = energy required to heat ice + energy required to melt ice + energy required to heat water
-- Energy gained by ice, `Q subscript i space equals space open parentheses m subscript i space c subscript i space increment T subscript i close parentheses space plus space open parentheses m subscript i space end subscript L close parentheses space plus space open parentheses m subscript i space c subscript w space increment T subscript w close parentheses`
-- `Q subscript i space equals space open parentheses 0.12 space cross times space open parentheses space 1.9 space cross times space 10 cubed close parentheses space cross times space open parentheses 0 space minus space minus 7.2 close parentheses close parentheses space plus space open parentheses 0.12 space cross times space open parentheses 442 space cross times space 10 cubed close parentheses close parentheses space plus space open parentheses 0.12 space cross times space open parentheses 5.7 space cross times space 10 cubed close parentheses space T subscript f close parentheses`
+- Energy gained by ice, $Q_{i = ( m_{i} c_{i} \Delta T_{i} ) + ( m_{i} } L ) + ( m_{i} c_{w} \Delta T_{w} )$
+- $Q_{i} = ( 0.12 \times ( 1.9 \times 10^{3} ) \times ( 0 - - 7.2 ) ) + ( 0.12 \times ( 442 \times 10^{3} ) ) + ( 0.12 \times ( 5.7 \times 10^{3} ) T_{f} )$
 - $Q_{i}=54681.6+684T_{f}$ **[1 mark]**
 
 Determine an equation for the energy change in the water, *Q*<sub>*w*</sub>:
 
-- Energy lost by water, `Q subscript w space equals space m subscript w c subscript w open parentheses T subscript w space minus space T subscript f close parentheses`
-- `Q subscript w space equals space 0.75 space cross times space open parentheses 5.7 space cross times space 10 cubed close parentheses space cross times space open parentheses 22.2 space minus space T subscript f close parentheses`
+- Energy lost by water, $Q_{w} = m_{w} c_{w} ( T_{w} - T_{f} )$
+- $Q_{w} = 0.75 \times ( 5.7 \times 10^{3} ) \times ( 22.2 - T_{f} )$
 - $Q_{w}=94905-4275T_{f}$ **[1 mark]**
 
 Calculate the final temperature of the water, *T*<sub>*f*</sub>:
@@ -574,19 +573,19 @@ Explanation:
 
 Calculate the surface area to volume ratio of the spheres:
 
-- Surface area of one sphere = `4 straight pi straight r squared space equals space 4 straight pi space cross times space open parentheses 20 space cross times space 10 to the power of negative 3 end exponent close parentheses squared space equals space 5.03 space cross times space 10 to the power of negative 3 end exponent space straight m squared`
+- Surface area of one sphere = $4 \mathrm{\pi } \mathrm{r}^{2} = 4 \mathrm{\pi } \times ( 20 \times 10^{- 3} )^{2} = 5.03 \times 10^{- 3} \mathrm{m}^{2}$
 - $\frac{surfacearea}{volume}=\frac{5.03\times10^{-3}}{3.35\times10^{-5}}=150.15m^{-1}$ ** [1 mark]**
 
 Calculate the side length of the cubes:
 
 - Volume of sphere = volume of cube
 - Volume of cube = *l*<sup>*3*</sup>
-- So, `l space equals space cube root of v o l u m e space o f space s p h e r e end root space equals space cube root of open parentheses 3.35 space cross times space 10 to the power of negative 5 end exponent close parentheses end root`
+- So, $l = \sqrt[3]{v o l u m e o f s p h e r e} = \sqrt[3]{( 3.35 \times 10^{- 5} )}$
 - $l=0.032m$ ** [1 mark]**
 
 Calculate the surface area to volume ratio of the cubes:
 
-- Surface area of one cube = `6 space cross times space open parentheses 0.032 close parentheses squared space equals space 6.14 space cross times space 10 to the power of negative 3 end exponent space straight m squared`
+- Surface area of one cube = $6 \times ( 0.032 )^{2} = 6.14 \times 10^{- 3} \mathrm{m}^{2}$
 - $\frac{surfacearea}{volume}=\frac{6.14\times10^{-3}}{3.35\times10^{-5}}=183.3m^{-1}$** [1 mark]**
 
 Conclusion:

@@ -53,7 +53,7 @@ $12\times6=72$
 
 > *Work out the area of the trapezium using **area = *$\frac{1}{2}(a+b)h$
 
-*** ***`table row Area equals cell 1 half cross times open parentheses 11 plus 7 close parentheses cross times x end cell row blank blank blank row blank equals cell 1 half cross times 18 cross times x end cell row blank blank blank row blank equals cell 9 x end cell row blank blank blank end table`
+*** ***$\begin{gathered} \text{Area} = 1 \frac{1}{2} \times ( 11 + 7 ) \times x \\ \\ = 1 \frac{1}{2} \times 18 \times x \\ \\ = 9 x \\ \end{gathered}$
 
 > * *
 
@@ -80,7 +80,7 @@ $12x\div4=3x$
 
 > *Square the length of the square to find the area (area of square = length*<sup>*2*</sup>*). *
 
-`open parentheses 3 x close parentheses squared equals 9 x squared`
+$( 3 x )^{2} = 9 x^{2}$
 
 **[1]**
 
@@ -125,13 +125,13 @@ $h=11$** [1]**
 ### Q5
 > *Find the perimeter of the rectangle and multiply it by 5 (the number of congruent rectangles in the shape). *
 
-`table row cell 3 plus 8 plus 3 plus 8 end cell equals 22 row blank blank blank row cell 22 cross times 5 end cell equals 110 end table`
+$\begin{gathered} 3 + 8 + 3 + 8 & = 22 \\ \\ 22 \times 5 & = 110 \end{gathered}$
 
 > * *
 
 > *Each of the 4 dotted lengths has been counted twice, but they are not parts of the perimeter of the joined-up shape. So subtract 8 lots of 3cm from 110. *
 
-`110 minus open parentheses 8 cross times 3 close parentheses equals 86`
+$110 - ( 8 \times 3 ) = 86$
 
 * ***[1]**
 
@@ -193,11 +193,11 @@ $A=0.5\times9\times2.4=10.8$
 
 > *Split the diagram into two equal trapezia *
 
-> *The area of a trapezium is calculated using the formula: *`A equals 1 half open parentheses a plus b close parentheses cross times h`* where *$a$* and *$b$* are the two parallel sides and *$h$* is the perpendicular height*
+> *The area of a trapezium is calculated using the formula: *$A = 1 \frac{1}{2} ( a + b ) \times h$* where *$a$* and *$b$* are the two parallel sides and *$h$* is the perpendicular height*
 
 > *Substitute the known values into the formula and evaluate*
 
-`A equals 1 half cross times open parentheses 7.4 plus 5 close parentheses cross times 4.5 equals 27.9`
+$A = 1 \frac{1}{2} \times ( 7.4 + 5 ) \times 4.5 = 27.9$
 
 **[1]**
 
@@ -221,9 +221,9 @@ $=1.89$
 
 > *The area of the 4 windows (4 rectangles) is*
 
-`open parentheses b cross times h close parentheses cross times 4`
+$( b \times h ) \times 4$
 
-`equals open parentheses 1.5 cross times 1.2 close parentheses cross times 4`
+$= ( 1.5 \times 1.2 ) \times 4$
 
 $=7.2$
 
@@ -292,11 +292,11 @@ $33.04...$* ***[1]**
 **Value given is also between 26 and 29**** [1]**
 
 ### Q10
-> *The area of a trapezium can be calculated using the formula: *`A equals 1 half open parentheses a plus b close parentheses cross times h`* where *$a$* and *$b$* are the parallel sides and *$h$* is the perpendicular height.*
+> *The area of a trapezium can be calculated using the formula: *$A = 1 \frac{1}{2} ( a + b ) \times h$* where *$a$* and *$b$* are the parallel sides and *$h$* is the perpendicular height.*
 
 > *Substitute *$a=16,b=24$* and *$h=14$* into the formula and evaluate*
 
-`A equals 1 half open parentheses 16 plus 24 close parentheses cross times 14`
+$A = 1 \frac{1}{2} ( 16 + 24 ) \times 14$
 
 **[1]**
 
@@ -323,7 +323,7 @@ $l=w+3$
 
 > * *
 
-`w plus open parentheses w plus 3 close parentheses plus w plus open parentheses w plus 3 close parentheses equals 26`
+$w + ( w + 3 ) + w + ( w + 3 ) = 26$
 
 * ***[1]**
 
@@ -414,11 +414,11 @@ $1.6125\times500=806.25\mathrm{ml}$
 **[1]**
 
 **806.25 ml** **[1]**
-> *The shape of the wall is a trapezium. The formula for the area of a trapezium is *`1 half open parentheses a space plus space b close parentheses space cross times space h`*.*
+> *The shape of the wall is a trapezium. The formula for the area of a trapezium is *$1 \frac{1}{2} ( a + b ) \times h$*.*
 
 > *Substitute in the values *
 
-`1 half open parentheses 1.9 space plus space 2.6 close parentheses space cross times space 1.8 space equals space 4.05`
+$1 \frac{1}{2} ( 1.9 + 2.6 ) \times 1.8 = 4.05$
 
 **[1]**
 
@@ -457,7 +457,7 @@ $\frac{36\times10.8}{2}=194.4$
 ### Q15
 (i) *Add together the two given sides and double the result (because the other two sides not labelled will be the same).*
 
-> * *`2 cross times open parentheses 8 plus 6 close parentheses equals 28`
+> * *$2 \times ( 8 + 6 ) = 28$
 
 > * *
 
@@ -501,9 +501,9 @@ $3a+a+4a+b+2b-5b$
 **one mark for each**
 
 ### Q17
-> *Substitute **a**=7**, **b**=11** and **h**=5** into **area of a trapezium*`equals 1 half open parentheses a plus b close parentheses h`*.*
+> *Substitute **a**=7**, **b**=11** and **h**=5** into **area of a trapezium*$= 1 \frac{1}{2} ( a + b ) h$*.*
 
-*area*`equals 1 half cross times open parentheses 7 plus 11 close parentheses cross times 5`
+*area*$= 1 \frac{1}{2} \times ( 7 + 11 ) \times 5$
 
 **[1]**
 
@@ -602,9 +602,9 @@ $2+4+5+5=16$
 
 ii) *Use the formula for the area of a trapezium: *
 
-> `fraction numerator open parentheses a plus b close parentheses over denominator 2 end fraction cross times h`* where *$a$* and *$b$* are the two parallel sides and *$h$* is the perpendicular height*
+> $\frac{( a + b )}{2} \times h$* where *$a$* and *$b$* are the two parallel sides and *$h$* is the perpendicular height*
 
-`fraction numerator open parentheses 2 plus 5 close parentheses over denominator 2 end fraction cross times 4 equals 14`
+$\frac{( 2 + 5 )}{2} \times 4 = 14$
 
 **14 cm**<sup>**2**</sup>** ****[1]**
 

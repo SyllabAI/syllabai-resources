@@ -62,7 +62,7 @@ guided_study: false
 > > *First draw the three straight lines, *$3x+2y=12$*, *$y=2x$* and *$x=3$
 > *You may wish to rearrange *$3x+2y=12$* to the form *$y=mx+c$* first:*
 > 
-> `table row cell 2 y end cell equals cell negative 3 x plus 12 end cell row y equals cell negative 3 over 2 x plus 6 end cell end table`
+> $\begin{gathered} 2 y & = - 3 x + 12 \\ y = - \frac{3}{2} x + 6 \end{gathered}$
 > 
 > > *The line *$3x+2y\geq12$* takes a solid line because of the "≥"*
 > *The lines *$y<2x$* and *$x<3$* take dotted lines because of the "<"*
@@ -74,12 +74,12 @@ guided_study: false
 > > *For *$3x+2y\geq12$* (or *$y\geq-\frac{3}{2}x+6$*), the wanted region is above the line*
 > *We can check this with the point (0, 0)*
 > 
-> `3 open parentheses 0 close parentheses plus 2 open parentheses 0 close parentheses greater or equal than 12`* is false, so (0, 0) does not lie in the wanted region for *`table attributes columnalign right center left columnspacing 0px end attributes row cell 3 x plus 2 y end cell greater or equal than 12 end table`
+> $3 ( 0 ) + 2 ( 0 ) \ge 12$* is false, so (0, 0) does not lie in the wanted region for *$\begin{array}{rcl} 3 x + 2 y & \text{greater} \text{or} \text{equal} \text{than} 12 \end{array}$
 > 
 > > *For *$y<2x$*, the wanted region is below the line*
 > *If unsure, check with another point, for example (1, 0)*
 > 
-> `0 less than 2 open parentheses 1 close parentheses`* is true, so (1, 0) lies in the wanted region for *`table row y less than cell 2 x end cell end table`
+> $0 < 2 ( 1 )$* is true, so (1, 0) lies in the wanted region for *$\begin{gathered} y < 2 x \end{gathered}$
 > 
 > *For *$x<3$*, the wanted region is to the left of *$x=3$* *
 > *(If unsure, you could check with a point)*
@@ -116,7 +116,7 @@ Remember that lines are drawn with:
 
 - A question may ask you to **optimise** a function for points in the region
 
-  - For example, "For all points in the region with coordinates `open parentheses x comma space y close parentheses`,  $P=3x-2y$. Find the greatest value of $P$."
+  - For example, "For all points in the region with coordinates $( x , y )$,  $P=3x-2y$. Find the greatest value of $P$."
 - In these questions the **inequalities** will usually all be ≤ or ≥
 
   - This means all the points on the lines are **included** in the region
@@ -153,7 +153,7 @@ Remember that lines are drawn with:
 > 
 > $y\leq-x+7,y\leq6x$*  **and***  **$y\geqx$**   **
 > 
-> For all points in the shaded region, with coordinates `open parentheses x comma space y close parentheses`,  $P=20x-3y$.
+> For all points in the shaded region, with coordinates $( x , y )$,  $P=20x-3y$.
 > 
 > (b) Find the greatest value of $P$.
 > 
@@ -163,10 +163,10 @@ Remember that lines are drawn with:
 > 
 > > *So we need to find the value of *$P$* at each of those points*
 > 
-> *For point (0, 0):  *`P equals 20 open parentheses 0 close parentheses minus 3 open parentheses 0 close parentheses equals 0`
+> *For point (0, 0):  *$P = 20 ( 0 ) - 3 ( 0 ) = 0$
 > 
-> *For point (1, 6):  *`P equals 20 open parentheses 1 close parentheses minus 3 open parentheses 6 close parentheses equals 2`
+> *For point (1, 6):  *$P = 20 ( 1 ) - 3 ( 6 ) = 2$
 > 
-> *For point (3.5, 3.5):  *`P equals 20 open parentheses 3.5 close parentheses minus 3 open parentheses 3.5 close parentheses equals 59.5`
+> *For point (3.5, 3.5):  *$P = 20 ( 3.5 ) - 3 ( 3.5 ) = 59.5$
 > 
 > **Final answer:** **The greatest value is**** **$P=59.5$

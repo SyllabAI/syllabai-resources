@@ -43,16 +43,16 @@ guided_study: true
 
   - If you have the **length **scale factor
   
-    - `Area space scale space factor equals open parentheses Length space scale space factor close parentheses squared`
-    - `Volume space scale space factor equals open parentheses Length space scale space factor close parentheses cubed`
+    - $Area \text{scale} \text{factor} = ( Length \text{scale} \text{factor} ) ^{2}$
+    - $Volume \text{scale} \text{factor} = ( Length \text{scale} \text{factor} ) ^{3}$
   - If you have the **area **scale factor
   
     - $\mathrm{Length} \mathrm{scale} \mathrm{factor}=\sqrt{\mathrm{Area} \mathrm{scale} \mathrm{factor}}$
-    - `Volume space scale space factor equals open parentheses square root of Area space scale space factor end root close parentheses cubed`
+    - $\text{Volume} \text{scale} \text{factor} = ( \sqrt{Area \text{scale} factor} )^{3}$
   - If you have the **volume **scale factor
   
-    - `Length space scale space factor equals cube root of Volume space scale space factor end root`
-    - `Area space scale space factor equals open parentheses cube root of Volume space scale space factor end root close parentheses squared`
+    - $\text{Length} \text{scale} \text{factor} = \sqrt[3]{Volume \text{scale} factor}$
+    - $\text{Area} \text{scale} \text{factor} = ( \sqrt[3]{Volume \text{scale} factor} )^{2}$
 
 ### How do I find missing lengths, areas and volumes for similar shapes?
 
@@ -89,20 +89,20 @@ Multiply or divide by relevant scale factor to find the **missing quantity**
 > 
 > **Answer:**
 > 
-> > *Calculate *$k^{3}$*, the scale factor of enlargement for the volumes, using: *`volume space B equals k cubed open parentheses volume space A close parentheses`
+> > *Calculate *$k^{3}$*, the scale factor of enlargement for the volumes, using: *$\text{volume} B = k ^{3} ( \text{volume} A )$
 > 
 > > *Or *$k^{3}=\frac{\mathrm{larger} \mathrm{volume}}{\mathrm{smaller} \mathrm{volume}}$
 > 
-> `table row 108 equals cell 32 k cubed end cell row cell k cubed end cell equals cell 108 over 32 equals 27 over 8 end cell end table`
+> $\begin{gathered} 108 = 32 k^{3} \\ k^{3} & = \frac{108}{32} = \frac{27}{8} \end{gathered}$
 > 
 > > *Find the length scale factor *$k$* by taking the cube root of the volume scale factor *$k^{3}$
 > 
-> `k equals cube root of 27 over 8 end root equals 3 over 2`
+> $k = \sqrt[3]{\frac{27}{8}} = \frac{3}{2}$
 > 
 > > *Substitute the value for *$k$* into formula for the heights of the similar shapes:*
 > 
-> `Height space B equals k open parentheses height space A close parentheses`
+> $Height B = k ( \text{height} A )$
 > 
-> `table row h equals cell 10 k end cell row h equals cell 10 open parentheses 3 over 2 close parentheses equals 30 over 2 equals 15 end cell end table`
+> $\begin{gathered} h = 10 k \\ h = 10 ( \frac{3}{2} ) = \frac{30}{2} = 15 \end{gathered}$
 > 
 > **Final answer:** **Height of ****B**** = 15**** ****cm**

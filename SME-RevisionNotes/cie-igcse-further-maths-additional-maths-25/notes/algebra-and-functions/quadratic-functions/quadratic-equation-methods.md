@@ -51,7 +51,7 @@ If you have to solve a quadratic equation but are not told which method to use, 
 - However, the quadratic formula is also useful when answers need to be exact
 
   - The formula lends itself to surd form after simplifying some of the values within it
-  - e.g.  `x equals fraction numerator negative 4 plus-or-minus square root of 4 squared minus 4 cross times 2 cross times open parentheses negative 2 close parentheses end root over denominator 2 cross times 2 end fraction equals fraction numerator negative 4 plus-or-minus square root of 32 over denominator 4 end fraction equals fraction numerator negative 4 plus-or-minus 4 square root of 2 over denominator 4 end fraction equals negative 1 plus-or-minus square root of 2`
+  - e.g.  $x = \frac{- 4 \pm \sqrt{4^{2} - 4 \times 2 \times ( - 2 )} }{2 \times 2} = \frac{- 4 \pm \sqrt{32} }{4} = \frac{- 4 \pm 4 \sqrt{2} }{4} = - 1 \pm \sqrt{2}$
 - **If in doubt**, use the quadratic formula - it always works
 
 ### When should I solve by completing the square?
@@ -81,7 +81,7 @@ If you have to solve a quadratic equation but are not told which method to use, 
 > > *Substitute **a** = 1, **b** = -7 and **c** = 2 into the formula, putting brackets around any negative numbers*
 > * *
 > 
-> `x equals fraction numerator negative open parentheses negative 7 close parentheses plus-or-minus square root of open parentheses negative 7 close parentheses squared minus 4 cross times 1 cross times 2 end root over denominator 2 cross times 1 end fraction`
+> $x = \frac{- ( - 7 ) \pm \sqrt{( - 7 )^{2} - 4 \times 1 \times 2} }{2 \times 1}$
 > 
 > > *Use a calculator to find each solution*
 > * *
@@ -103,7 +103,7 @@ If you have to solve a quadratic equation but are not told which method to use, 
 > *The solution below is the manual way to use a calculator, but as above, if your calculator has a quadratic solver feature, you may use that*
 > *Substitute** a** = 16, **b** = -82 and **c **= 45 into the formula, putting brackets around any negative numbers*
 > 
-> `x equals fraction numerator negative open parentheses negative 82 close parentheses plus-or-minus square root of open parentheses negative 82 close parentheses squared minus 4 cross times 16 cross times 45 end root over denominator 2 cross times 16 end fraction`
+> $x = \frac{- ( - 82 ) \pm \sqrt{( - 82 )^{2} - 4 \times 16 \times 45} }{2 \times 16}$
 > 
 > > *Use a calculator to find each solution*
 > 
@@ -113,7 +113,7 @@ If you have to solve a quadratic equation but are not told which method to use, 
 > *If you do persevere with the factorisation then use that method instead*
 > * *
 > 
-> > `16 x squared minus 82 x plus 45 equals open parentheses 2 x minus 9 close parentheses open parentheses 8 x minus 5 close parentheses equals 0`
+> > $16 x^{2} - 82 x + 45 = ( 2 x - 9 ) ( 8 x - 5 ) = 0$
 > * *
 > 
 > > *Set the first bracket equal to zero*
@@ -125,7 +125,7 @@ If you have to solve a quadratic equation but are not told which method to use, 
 > > *Add 9 to both sides then divide by 2*
 > * *
 > 
-> `table attributes columnalign right center left columnspacing 0px end attributes row cell 2 x end cell equals 9 row x equals cell 9 over 2 end cell end table`
+> $\begin{array}{rcl} 2 x & = 9 \\ x = \frac{9}{2} \end{array}$
 > 
 > > *Set the second bracket equal to zero*
 > * *
@@ -136,13 +136,13 @@ If you have to solve a quadratic equation but are not told which method to use, 
 > > *Add 5 to both sides then divide by 8*
 > * *
 > 
-> `table attributes columnalign right center left columnspacing 0px end attributes row cell 8 x end cell equals 5 row x equals cell 5 over 8 end cell end table`
+> $\begin{array}{rcl} 8 x & = 5 \\ x = \frac{5}{8} \end{array}$
 > 
 > **Final answer:** **x**** = **$\frac{9}{2}$**  or ****x**** = **$\frac{5}{8}$
 > 
 > ** **
 > 
-> (c) By writing $x^{2}+6x+5$ in the form `open parentheses x plus p close parentheses squared plus q`, solve $x^{2}+6x+5=0$
+> (c) By writing $x^{2}+6x+5$ in the form $( x + p )^{2} + q$, solve $x^{2}+6x+5=0$
 > 
 > > *Notice this question does not use the phrase 'completing the square' but shows the form of it instead*
 > *Find **p** (by halving the middle number)*
@@ -154,17 +154,17 @@ If you have to solve a quadratic equation but are not told which method to use, 
 > > *Write **x*<sup>*2*</sup>* + 6**x** as (**x** + **p**)*<sup>*2*</sup>* - **p*<sup>*2*</sup>
 > <sup>* *</sup>
 > 
-> `table row cell x squared plus 6 x end cell equals cell open parentheses x plus 3 close parentheses squared minus 3 squared end cell row blank equals cell open parentheses x plus 3 close parentheses squared minus 9 end cell end table`
+> $\begin{gathered} x^{2} + 6 x & = ( x + 3 )^{2} - 3^{2} \\ = ( x + 3 )^{2} - 9 \end{gathered}$
 > 
 > > *Replace **x*<sup>*2*</sup>* + 6**x **with (**x** + 3)*<sup>*2*</sup>* – 9 in the equation*
 > * *
 > 
-> `table row cell open parentheses x plus 3 close parentheses squared minus 9 plus 5 end cell equals 0 row cell open parentheses x plus 3 close parentheses squared minus 4 end cell equals 0 end table`
+> $\begin{gathered} ( x + 3 )^{2} - 9 + 5 & = 0 \\ ( x + 3 )^{2} - 4 & = 0 \end{gathered}$
 > 
 > > *Make **x** the subject of the equation (start by adding 4 to both sides)*
 > * *
 > 
-> > `open parentheses x plus 3 close parentheses squared equals 4`
+> > $( x + 3 )^{2} = 4$
 > * *
 > 
 > > *Take square roots of both sides (include a ± sign to get both solutions)*
@@ -200,13 +200,13 @@ If you have to solve a quadratic equation but are not told which method to use, 
 
   - $x^{4}-3x^{2}-4=0$ (a quadratic in *x*<sup>2</sup>)
   - $x^{16}-3x^{8}-4=0$ (a quadratic in *x*<sup>8</sup>)
-  - $x-3\sqrt{x}-4=0$ (a quadratic in $\sqrt{x}$ because `open parentheses square root of x close parentheses squared` is $x$)
-  - $x^{\frac{2}{3}}-3x^{\frac{1}{3}}-4=0$ (a quadratic in $x^{\frac{1}{3}}$because `open parentheses x to the power of 1 third end exponent close parentheses squared equals x to the power of 2 over 3 end exponent`)
+  - $x-3\sqrt{x}-4=0$ (a quadratic in $\sqrt{x}$ because $( \sqrt{x} )^{2}$ is $x$)
+  - $x^{\frac{2}{3}}-3x^{\frac{1}{3}}-4=0$ (a quadratic in $x^{\frac{1}{3}}$because $( x^{1 \frac{1}{3}} )^{2} = x^{ \frac{2}{3} }$)
 - Sometimes, a **change of base** helps to spot a hidden quadratic
 
-  - e.g. the first term in $4^{x}-3\times2^{x}-4=0$ can be written `4 to the power of x equals open parentheses 2 squared close parentheses to the power of x equals 2 to the power of 2 x end exponent equals open parentheses 2 to the power of x close parentheses squared`
+  - e.g. the first term in $4^{x}-3\times2^{x}-4=0$ can be written $4^{x = ( 2^{2} )^{x} = 2^{2} x} = ( 2^{x} )^{2}$
   
-    - `open parentheses 2 to the power of x close parentheses squared minus 3 cross times 2 to the power of x minus 4 equals 0` is a quadratic in $2^{x}$
+    - $( 2^{x} )^{2} - 3 \times 2^{x} - 4 = 0$ is a quadratic in $2^{x}$
 - **Trigonometric** equations can also be in the form of a quadratic
 
   - e.g. $3\mathrm{tan}^{2}3x+4\mathrm{tan}3x-6=0$ is a quadratic in $\mathrm{tan}3x$
@@ -250,7 +250,7 @@ If you have to solve a quadratic equation but are not told which method to use, 
 > 
 > > *Solve this simpler quadratic equation, for example by factorisation*
 > 
-> `open parentheses u minus 16 close parentheses open parentheses u minus 1 close parentheses equals 0`
+> $( u - 16 ) ( u - 1 ) = 0$
 > 
 > > *Write out the **u** solutions*
 > 
@@ -276,8 +276,8 @@ If you have to solve a quadratic equation but are not told which method to use, 
 > 
 > > *Solve this simpler quadratic equation, for example by factorisation*
 > 
-> `open parentheses u minus 3 close parentheses open parentheses u plus 2 close parentheses equals 0
-> u equals 3 space or space u equals negative 2`
+> $( u - 3 ) ( u + 2 ) = 0
+> u = 3 \text{or} u = - 2$
 > 
 > > *Replace **u** with √**x** and solve*
 > 

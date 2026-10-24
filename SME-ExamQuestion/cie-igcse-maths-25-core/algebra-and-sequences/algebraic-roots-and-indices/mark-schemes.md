@@ -8,9 +8,9 @@
 ### Q1
 > *Use the law of indices *$a^{m}\timesa^{n}=a^{m+n}$*  to simplify the powers of *$p$* and *$q$*. *
 
-`4 cross times p to the power of 5 plus 2 end exponent cross times q to the power of 3 plus open parentheses negative 4 close parentheses end exponent
+$4 \times p^{5 + 2} \times q^{3 + ( - 4 )} 
 
-equals 4 cross times p to the power of 7 cross times q to the power of negative 1 end exponent`
+= 4 \times p^{7 \times q^{-1} }$
 
 $4p^{7}q^{-1}$* ***[2]**
 
@@ -63,7 +63,7 @@ $w^{9}$** [1]**
 ### Q6
 > *Deal with the number and algebraic terms separately*
 
-`open parentheses 2 space cross times space 3 close parentheses space cross times space open parentheses x cubed space cross times space x squared close parentheses`
+$( 2 \times 3 ) \times ( x^{3} \times x^{2} )$
 
 > *Multiply the constant terms and apply the law of indices that states that *$a^{m}\timesa^{n}=a^{m+n}$*. Add the powers together*
 
@@ -83,7 +83,7 @@ $10-k=3$
 
 > *Solve to find *$k$
 
-`table row 10 equals cell 3 plus k end cell row 7 equals k end table`
+$\begin{gathered} 10 = 3 + k \\ 7 = k \end{gathered}$
 
 $k=7$ **[1]**
 
@@ -180,16 +180,16 @@ $p^{6}$* ***[1]**
 > $m^{15}\divm^{5}=m^{15-5}=m^{10}$* *
 
 $m^{10}$* ***[1]**
-> *Use the index law *`open parentheses a to the power of m close parentheses to the power of n equals a to the power of m n end exponent`* to simplify. *
+> *Use the index law *$( a^{m )^{n} = a^{m} n}$* to simplify. *
 
-> `open parentheses k cubed close parentheses to the power of 5 equals k to the power of 3 cross times 5 end exponent equals k to the power of 15`* *
+> $( k^{3} )^{5 = k^{3} \times 5} = k^{15}$* *
 
 $k^{15}$* ***[1]**
 
 ### Q13
-> *As *`open parentheses x to the power of a close parentheses to the power of b equals x to the power of a cross times b end exponent`
+> *As *$( x^{a )^{b} = x^{a} \times b}$
 
-`open parentheses x to the power of 8 close parentheses cubed equals x to the power of 8 cross times 3 end exponent equals x to the power of 24`
+$( x^{8 )^{3} = x^{8} \times 3} = x^{24}$
 
 $x^{24}$** [1]**
 
@@ -199,9 +199,9 @@ $x^{24}$** [1]**
 $t^{21}\divt^{7}=t^{21-7}$
 
 $t^{14}$ **[1]**
-> *As *`open parentheses x to the power of a close parentheses to the power of b equals x to the power of a cross times b end exponent`
+> *As *$( x^{a )^{b} = x^{a} \times b}$
 
-`open parentheses u to the power of 5 close parentheses to the power of 5 equals u to the power of 5 cross times 5 end exponent`
+$( u^{5 )^{5} = u^{5} \times 5}$
 
 $u^{25}$ **[1]**
 
@@ -216,21 +216,21 @@ $12-w=4$
 
 > *Solve the equation*
 
-`table row cell 12 minus w end cell equals 4 row 12 equals cell 4 plus w end cell row cell 12 minus 4 end cell equals w end table`
+$\begin{gathered} 12 - w & = 4 \\ 12 = 4 + w \\ 12 - 4 & = w \end{gathered}$
 
 $w=8$* ***[1]**
 
 ### Q16
-> *Using the index law *`open parentheses x to the power of a close parentheses to the power of b equals x to the power of a cross times b end exponent`
+> *Using the index law *$( x^{a )^{b} = x^{a} \times b}$
 
-`open parentheses w to the power of 5 close parentheses to the power of 4 equals w to the power of 5 cross times 4 end exponent`
+$( w^{5 )^{4} = w^{5} \times 4}$
 
 $w^{20}$ **[1]**
 
 ### Q17
-> *As *`open parentheses x to the power of a close parentheses to the power of b equals x to the power of a cross times b end exponent`
+> *As *$( x^{a )^{b} = x^{a} \times b}$
 
-`open parentheses x to the power of 5 close parentheses to the power of 2 equals x to the power of 5 cross times 2 end exponent end exponent`
+$( x^{5 )^{2 = x^{5} \times 2}}$
 
 $x^{10}$ **[1]**
 
@@ -266,8 +266,8 @@ $x=12-3$
 $x=9$ **[1]**
 
 ### Q20
-> *As *`open parentheses x to the power of a close parentheses to the power of b equals x to the power of a cross times b end exponent`
+> *As *$( x^{a )^{b} = x^{a} \times b}$
 
-`open parentheses y to the power of 5 close parentheses cubed equals y to the power of 5 cross times 3 end exponent equals y to the power of 15`
+$( y^{5 )^{3} = y^{5} \times 3} = y^{15}$
 
 $y^{15}$** [1]**

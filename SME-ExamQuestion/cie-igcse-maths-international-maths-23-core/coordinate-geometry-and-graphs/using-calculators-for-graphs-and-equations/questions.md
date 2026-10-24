@@ -82,7 +82,7 @@ Complete the range of values for $a$.
 
 **Q3** [2 marks]
 
-Complete the mapping diagram for  `straight f open parentheses x close parentheses equals fraction numerator 3 open parentheses x plus 4 close parentheses over denominator 2 end fraction`.
+Complete the mapping diagram for  $\mathrm{f} ( x ) = \frac{3 ( x + 4 )}{2}$.
 
 ![Diagram showing a function mapping from a set {0, 1, 2} to another set. Arrows indicate the relationships between elements of these sets.](assets/005-diagram-showing-a-function-mapping-from-a-set-0-.png)
 
@@ -92,9 +92,9 @@ Complete the mapping diagram for  `straight f open parentheses x close parenthes
 
 ![Graph of a downward-opening parabola with vertex near y=10, crossing x-axis at -2 and 4, labelled "Not to scale", with x and y axes marked.](assets/007-graph-of-a-downward-opening-parabola-with-vertex.png)
 
-The diagram shows the graph of `y equals straight f open parentheses x close parentheses` where `straight f open parentheses x close parentheses equals negative 2 x squared plus 5 x plus 6`  for  $-2\leqx\leq4.$
+The diagram shows the graph of $y = \mathrm{f} ( x )$ where $\mathrm{f} ( x ) = - 2 x^{2} + 5 x + 6$  for  $-2\leqx\leq4.$
 
-Use your calculator to find the zeros of `straight f open parentheses x close parentheses` .
+Use your calculator to find the zeros of $\mathrm{f} ( x )$ .
 
 *Source: Nov 18 0607/32 Q13A*
 
@@ -138,7 +138,7 @@ Complete the mapping diagram.
 
 **Q6** [1 mark]
 
-Complete the mapping diagram for the function  `straight f open parentheses x close parentheses equals 3 x minus 5`.
+Complete the mapping diagram for the function  $\mathrm{f} ( x ) = 3 x - 5$.
 
 ![Mapping diagram with two ovals; left labelled 'x', right 'f(x)'. Arrows connect 0, 1, 2, 3 from 'x' to 'f(x)'.](assets/010-mapping-diagram-with-two-ovals-left-labelled-x-r.png)
 
@@ -218,7 +218,7 @@ Find the coordinates of the local minimum.
 
 **Q10** [2 marks]
 
-On the diagram, sketch the graph of `y equals 2 minus open parentheses x minus 1 close parentheses squared` for $-1\leqx\leq3$
+On the diagram, sketch the graph of $y = 2 - ( x - 1 )^{2}$ for $-1\leqx\leq3$
 
 You are not required to find any axes intercepts.
 

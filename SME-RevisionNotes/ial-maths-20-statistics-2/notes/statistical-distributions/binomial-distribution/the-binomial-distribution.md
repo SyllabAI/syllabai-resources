@@ -26,14 +26,14 @@ guided_study: false
   - The outcome of each trial is **independent **of the outcomes of the other trials
   - There are **exactly two outcomes** of each trial (**success or failure**)
   - The **probability of success (*****p*****) is constant**
-- If *X* follows a binomial distribution then it is denoted `begin mathsize 16px style X tilde B left parenthesis n comma p right parenthesis end style`
+- If *X* follows a binomial distribution then it is denoted $X \sim B ( n , p )$
 
   - $n$ is the number of trials
   - $p$ is the probability of success
 - The **probability of failure is 1-*****p ***which is sometimes denoted as ***q***
 - The formula for the probability of *r* successful trials is given by:
 
-  - `begin mathsize 16px style P equals left parenthesis X equals r right parenthesis equals open parentheses table row n row r end table close parentheses space p to the power of r space left parenthesis 1 minus p right parenthesis to the power of n minus r end exponent end style` for *r = *0, 1, 2,..*..,n*
+  - $P = ( X = r ) = ( \begin{gathered} n \\ r \end{gathered} ) p^{r ( 1 - p )^{n} - r}$ for *r = *0, 1, 2,..*..,n*
   - This is equal to the term which includes $p^{r}$ in the expansion of $(p+q)^{n}$ where $q=1-p$ (this shows the link with the Binomial Expansion)
 
 #### What are the important properties of a binomial distribution?
@@ -76,7 +76,7 @@ guided_study: false
 #### What can be modelled using a binomial distribution?
 
 - Anything that satisfies the **four conditions**
-- For example, let $T$ be the number of times a fair coin lands on tails when flipped 20 times: `T tilde straight B open parentheses 20 comma 1 half close parentheses`
+- For example, let $T$ be the number of times a fair coin lands on tails when flipped 20 times: $T \sim \mathrm{B} ( 20 , 1 \frac{1}{2} )$
 
   - A trial is flipping a coin: There are 20 trials so *n* =20
   - We can assume each coin flip does not affect subsequent coin flips: They are independent

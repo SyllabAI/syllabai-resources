@@ -75,7 +75,7 @@ guided_study: false
 > 
 > > *Find the pivot *
 > 
-> `fraction numerator open parentheses 1 plus 8 close parentheses over denominator 2 end fraction equals 4.5 space rightwards arrow 5`*th item*
+> $\frac{( 1 + 8 )}{2} = 4.5 \rightarrow 5$*th item*
 > 
 > | *5. Lorcan* |
 > |---|
@@ -92,7 +92,7 @@ guided_study: false
 > 
 > > *Find the pivot of the reduced list*
 > 
-> `fraction numerator open parentheses 1 plus 4 close parentheses over denominator 2 end fraction equals 2.5 space rightwards arrow space 3`*rd item*
+> $\frac{( 1 + 4 )}{2} = 2.5 \rightarrow 3$*rd item*
 > 
 > | *3. Juan* |
 > |---|
@@ -109,7 +109,7 @@ guided_study: false
 > 
 > > *Find the pivot of the reduced list*
 > 
-> `fraction numerator open parentheses 1 plus 2 close parentheses over denominator 2 end fraction equals 1.5 space rightwards arrow space 2`*nd item*
+> $\frac{( 1 + 2 )}{2} = 1.5 \rightarrow 2$*nd item*
 > 
 > | *2. Jason* |
 > |---|
@@ -127,7 +127,7 @@ guided_study: false
 > 
 > > *Find the pivot*
 > 
-> `fraction numerator open parentheses 1 plus 8 close parentheses over denominator 2 end fraction equals 4.5 space rightwards arrow 5`*th item*
+> $\frac{( 1 + 8 )}{2} = 4.5 \rightarrow 5$*th item*
 > 
 > | *5. Lorcan* |
 > |---|
@@ -144,7 +144,7 @@ guided_study: false
 > 
 > > *Find the pivot of the reduced list*
 > 
-> `fraction numerator open parentheses 6 plus 8 close parentheses over denominator 2 end fraction equals 7`*th item*
+> $\frac{( 6 + 8 )}{2} = 7$*th item*
 > 
 > | *7. Samira* |
 > |---|

@@ -59,13 +59,13 @@ $125-120=5$* minutes*
 
 > *Substitute the known values into the formula and evaluate*
 
-`77 over 63 cross times 100 equals 122.2 with dot on top percent sign`
+$\frac{77}{63} \times 100 = 122. \dot{2} \%$
 
 **1 mark for **$\frac{77}{63}$** [2]**
 
 > *Subtract *$100$* from this value to determine the percentage increase*
 
-`122.2 with dot on top minus 100 equals 22.2 with dot on top percent sign`
+$122. \dot{2} - 100 = 22. \dot{2} \%$
 
 > *Round to 3 significant figures*
 
@@ -75,22 +75,22 @@ $125-120=5$* minutes*
 ### Q4
 > *Work out the total amount earned from selling the dresses.*
 
-`35 space cross times space $ 22 space equals space $ 770
-5 space cross times space $ 14.50 space equals space $ 72.50`
+$35 \times \$ 22 = \$ 770
+5 \times \$ 14.50 = \$ 72.50$
 
-`$ 770 space plus thin space $ 72.50 space equals space $ 842.50`
+$\$ 770 + \$ 72.50 = \$ 842.50$
 
 **[1]**
 
 > *Work out how much of the money earned is profit.*
 
-`$ 842.50 space minus space $ 500 space equals space $ 342.50`
+$\$ 842.50 - \$ 500 = \$ 342.50$
 
 **[1]**
 
 > *Work out what this is as a percentage profit by dividing by the original amount, then multiplying by 100 to convert to a percentage. *
 
-`fraction numerator 342.50 over denominator 500 end fraction space cross times space 100 space equals space 68.5 percent sign`
+$\frac{342.50}{500} \times 100 = 68.5 \%$
 
 **[1]**
 
@@ -101,18 +101,18 @@ $125-120=5$* minutes*
 
 $\frac{1.2}{16}\times100$
 
-`bold 7 bold. bold 5 bold percent sign` **[1]**
+$7 . 5 \%$ **[1]**
 
 ### Q6
 > *The price has been reduced by 18% so work out what percentage is left.*
 
-`100 percent sign space minus space 18 percent sign space equals space 82 percent sign`
+$100 \% - 18 \% = 82 \%$
 
 > *Work out 82% of the original amount. Divide by 100 to work out the decimal multiplier.*
 
-`82 percent sign space divided by space 100 space equals space 0.82`
+$82 \% \div 100 = 0.82$
 
-`0.82 space cross times space $ 560 space equals space $ 459.20`
+$0.82 \times \$ 560 = \$ 459.20$
 
 **correct calculation ****[1]**
 
@@ -140,7 +140,7 @@ $\frac{4.6-5}{5}\times100=-8$
 ### Q8
 > *An increase of 12% means we have the initial 100% plus the new 12%, which is a total of 112%. As a decimal multiplier, this is 1.12*
 
-`$ 14 space cross times space 1.12 space equals space $ 15.68`
+$\$ 14 \times 1.12 = \$ 15.68$
 
 **correct or equivalent calculation ****[1]**
 
@@ -153,7 +153,7 @@ $\frac{\mathrm{difference}}{\mathrm{original}}\times100$
 
 > *Substitute in the values*
 
-`fraction numerator 19.17 space minus space 18 over denominator 18 end fraction space cross times space 100 space equals space 6.5 percent sign`
+$\frac{19.17 - 18}{18} \times 100 = 6.5 \%$
 
 ** ****19.17 - 18 ****[1]**
 
@@ -162,7 +162,7 @@ $\frac{\mathrm{difference}}{\mathrm{original}}\times100$
 **6.5%**** ****[1]**
 
 ### Q10
-> *Calculate *`20 percent sign`* of 15 for the number of oboes*
+> *Calculate *$20 \%$* of 15 for the number of oboes*
 
 $15\times0.2=3$* oboes*
 
@@ -178,7 +178,7 @@ $2:1$
 
 > *Divide the number of flutes and clarinets into the ratio*
 
-`12 divided by open parentheses 2 plus 1 close parentheses equals 4`
+$12 \div ( 2 + 1 ) = 4$
 
 *Flutes: *$4\times2=8$
 
@@ -236,7 +236,7 @@ $18\times1.28$
 ### Q14
 > *To work out the percentage profit, work out how much of the money she made would be a profit.*
 
-`$ 21 space minus space $ 15 space equals space $ 6`
+$\$ 21 - \$ 15 = \$ 6$
 
 **[1]**
 
@@ -248,7 +248,7 @@ $\frac{6}{15}=0.4$
 
 > *Multiply by 100 to convert to a percentage*
 
-`0.4 space cross times space 100 space equals space 40 percent sign`
+$0.4 \times 100 = 40 \%$
 
 **40%**** ****[1]**
 
@@ -259,11 +259,11 @@ $240000\times0.15=36000$
 
 > *Subtract this value from the original selling price*
 
-`240 space 000 minus 36 space 000 equals $ 204 space 000`
+$240 000 - 36 000 = \$ 204 000$
 
 **[1]**
 
-`bold $ bold 204 bold space bold 000`** [1]**
+$\$ 204 000$** [1]**
 
 ### Q16
 > *Write the number of used rooms as a fraction of the total number of rooms. Multiply by 100 to express as a percentage.*
@@ -288,11 +288,11 @@ $\frac{4784-4600}{4600}\times100$
 ### Q17
 > *Work out 10% first by dividing by 10.*
 
-`10 percent sign space equals space $ 25 space divided by space 10 space equals space $ 2.50`
+$10 \% = \$ 25 \div 10 = \$ 2.50$
 
 > *Divide this by 2 to find 5%.*
 
-`5 percent sign space equals space $ 2.50 space divided by space 2 space equals space $ 1.25`
+$5 \% = \$ 2.50 \div 2 = \$ 1.25$
 
 `bold $ bold 1 bold. bold 25`** [1]**
 
@@ -328,7 +328,7 @@ $\frac{7566-7275}{7275}\times100=4$
 
 **[1]**
 
-`bold 4 bold percent sign` **[1]**
+$4 \%$ **[1]**
 
 ### Q20
 > *Multiply the amount by the decimal equivalent of the percentage*
@@ -356,7 +356,7 @@ $\frac{3}{8}$
 
 $\frac{3}{8}\times100=37.5$
 
-`bold 37 bold. bold 5 bold percent sign`* ***[1]**
+$37 . 5 \%$* ***[1]**
 
 ### Q22
 > *Find 10% and 1% of 140*
@@ -376,4 +376,4 @@ $\frac{3}{8}\times100=37.5$
 
 $\frac{142}{304}\times100=46.71052632$
 
-`bold 46 bold. bold 7 bold percent sign`** [1]**
+$46 . 7 \%$** [1]**

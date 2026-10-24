@@ -26,17 +26,17 @@ This is a quick revision guide about the different methods and when to use them.
 
   - For example, part (a) Factorise $6x^{2}+7x-3$, part (b) Solve $6x^{2}+7x-3=0$
   
-    - Factorises as  `open parentheses 3 x minus 1 close parentheses open parentheses 2 x plus 3 close parentheses equals 0`
+    - Factorises as  $( 3 x - 1 ) ( 2 x + 3 ) = 0$
     - Solutions are  $x=\frac{1}{3}$  and  $x=-\frac{3}{2}$
 - When solving **two-term quadratic equations**
 
   - For example, solve $x^{2}-4x=0$
   
-    - Take out a **common factor **of $x$ to get `x open parentheses x minus 4 close parentheses equals 0`
+    - Take out a **common factor **of $x$ to get $x ( x - 4 ) = 0$
     - Solutions are $x=0$ and $x=4$
   - For example, solve $x^{2}-9=0$
   
-    - Use **difference of two squares** to factorise it as `open parentheses x plus 3 close parentheses open parentheses x minus 3 close parentheses equals 0`
+    - Use **difference of two squares** to factorise it as $( x + 3 ) ( x - 3 ) = 0$
     - Solutions are $x=-3$ and $x=3$
     - (Could also rearrange to $x^{2}=9$ and use ±√ to get $x=\pm3$)
 
@@ -59,8 +59,8 @@ This is a quick revision guide about the different methods and when to use them.
 
   - For example, make $x$ the subject of the formula  $x^{2}+6x=y$
   
-    - Complete the square: `open parentheses x plus 3 close parentheses squared minus 9 equals y`
-    - Add 9 to both sides: `open parentheses x plus 3 close parentheses squared equals y plus 9`
+    - Complete the square: $( x + 3 )^{2} - 9 = y$
+    - Add 9 to both sides: $( x + 3 )^{2} = y + 9$
     - Take square roots and use ±:  $x+3=\pm\sqrt{y+9}$
     - Subtract 3:  $x=-3\pm\sqrt{y+9}$
 - Like the quadratic formula, completing the square will **always work**
@@ -80,7 +80,7 @@ This is a quick revision guide about the different methods and when to use them.
 > *Substitute *$a=1$*, *$b=-7$* and *$c=2$* into the formula, putting brackets around any negative numbers*
 > * *
 > 
-> `x equals fraction numerator negative open parentheses negative 7 close parentheses plus-or-minus square root of open parentheses negative 7 close parentheses squared minus 4 cross times 1 cross times 2 end root over denominator 2 cross times 1 end fraction`
+> $x = \frac{- ( - 7 ) \pm \sqrt{( - 7 )^{2} - 4 \times 1 \times 2} }{2 \times 1}$
 > 
 > > *Use a calculator to find each solution *
 > 
@@ -96,7 +96,7 @@ This is a quick revision guide about the different methods and when to use them.
 > *If you cannot spot the factorisation, use the quadratic formula*
 > *Substitute** *$a=16$*, *$b=-82$* and *$c=45$* into the formula, putting brackets around any negative numbers*
 > 
-> `x equals fraction numerator negative open parentheses negative 82 close parentheses plus-or-minus square root of open parentheses negative 82 close parentheses squared minus 4 cross times 16 cross times 45 end root over denominator 2 cross times 16 end fraction`
+> $x = \frac{- ( - 82 ) \pm \sqrt{( - 82 )^{2} - 4 \times 16 \times 45} }{2 \times 16}$
 > 
 > > *Use a calculator to find each solution*
 > 
@@ -105,7 +105,7 @@ This is a quick revision guide about the different methods and when to use them.
 > > *Method 2*
 > *If you do spot the factorisation, (2x – 9)(8x – 5), then use that method instead *
 > 
-> > `open parentheses 2 x minus 9 close parentheses open parentheses 8 x minus 5 close parentheses equals 0`* *
+> > $( 2 x - 9 ) ( 8 x - 5 ) = 0$* *
 > 
 > > *Set the first bracket equal to zero *
 > 
@@ -113,7 +113,7 @@ This is a quick revision guide about the different methods and when to use them.
 > 
 > > *Add 9 to both sides then divide by 2 *
 > 
-> `table row cell 2 x end cell equals 9 row x equals cell 9 over 2 end cell end table`
+> $\begin{gathered} 2 x & = 9 \\ x = \frac{9}{2} \end{gathered}$
 > 
 > > *Set the second bracket equal to zero *
 > 
@@ -121,30 +121,30 @@ This is a quick revision guide about the different methods and when to use them.
 > 
 > > *Add 5 to both sides then divide by 8 *
 > 
-> `table row cell 8 x end cell equals 5 row x equals cell 5 over 8 end cell end table`
+> $\begin{gathered} 8 x & = 5 \\ x = \frac{5}{8} \end{gathered}$
 > 
 > $x=\frac{9}{2}\mathrm{or}x=\frac{5}{8}$
 > 
-> ** **(c) By writing $x^{2}+6x+5$ in the form `open parentheses x plus p close parentheses squared plus q`, solve $x^{2}+6x+5=0$
+> ** **(c) By writing $x^{2}+6x+5$ in the form $( x + p )^{2} + q$, solve $x^{2}+6x+5=0$
 > 
 > > *This question wants you to complete the square first*
 > *Find *$p$* (by halving the middle number) *
 > 
 > > $p=\frac{6}{2}=3$* *
 > 
-> > *Write *$x^{2}+6x$* as *`open parentheses x plus p close parentheses squared minus p squared`
+> > *Write *$x^{2}+6x$* as *$( x + p )^{2} - p^{2}$
 > <sup>* *</sup>
 > 
-> `table row cell x squared plus 6 x end cell equals cell open parentheses x plus 3 close parentheses squared minus 3 squared end cell row blank equals cell open parentheses x plus 3 close parentheses squared minus 9 end cell end table`
+> $\begin{gathered} x^{2} + 6 x & = ( x + 3 )^{2} - 3^{2} \\ = ( x + 3 )^{2} - 9 \end{gathered}$
 > 
-> > *Replace *$x^{2}+6x$* **with *`open parentheses x plus 3 close parentheses squared minus 9`* in the equation *
+> > *Replace *$x^{2}+6x$* **with *$( x + 3 )^{2} - 9$* in the equation *
 > 
-> `table row cell open parentheses x plus 3 close parentheses squared minus 9 plus 5 end cell equals 0 row cell open parentheses x plus 3 close parentheses squared minus 4 end cell equals 0 end table`
+> $\begin{gathered} ( x + 3 )^{2} - 9 + 5 & = 0 \\ ( x + 3 )^{2} - 4 & = 0 \end{gathered}$
 > 
 > > *Make *$x$* the subject of the equation*
 > *Start by adding 4 to both sides *
 > 
-> > `open parentheses x plus 3 close parentheses squared equals 4`* *
+> > $( x + 3 )^{2} = 4$* *
 > 
 > > *Take square roots of both sides (include a ± sign to get both solutions) *
 > 
@@ -158,4 +158,4 @@ This is a quick revision guide about the different methods and when to use them.
 > 
 > $x=-5\mathrm{or}x=-1$
 > 
-> **Even though the quadratic factorises to **`open parentheses x plus 5 close parentheses open parentheses x plus 1 close parentheses`**, this is not the method asked for in the question**
+> **Even though the quadratic factorises to **$( x + 5 ) ( x + 1 )$**, this is not the method asked for in the question**

@@ -320,10 +320,10 @@ $AB$ and $CD$ are not parallel angle$w$ is 60°
 
 What effect does this have on the size of angle $y$? Tick a box.
 
-| `begin mathsize 28px style square end style` | $y$ is bigger |
+| $\text{square}$ | $y$ is bigger |
 |---|---|
-| `begin mathsize 28px style square end style` | $y$ is the same |
-| `begin mathsize 28px style square end style` | $y$ is smaller |
+| $\text{square}$ | $y$ is the same |
+| $\text{square}$ | $y$ is smaller |
 
 Show working to support your answer.
 

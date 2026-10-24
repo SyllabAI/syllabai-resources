@@ -12,7 +12,7 @@
 
 > *First multiply both sides by 2 to get rid of the fraction*
 
-`table row cell fraction numerator 6 x minus 5 over denominator 2 end fraction end cell equals cell x plus 1 end cell row cell 6 x minus 5 end cell equals cell 2 open parentheses x plus 1 close parentheses end cell end table`
+$\begin{gathered} \frac{6 x - 5}{2} & = x + 1 \\ 6 x - 5 & = 2 ( x + 1 ) \end{gathered}$
 
 **[M1]**
 
@@ -22,7 +22,7 @@ $6x-5=2x+2$
 
 > *Continue to solve the equation by collecting 'x terms' on one side of the equation and constant terms on the other side of the equation*
 
-`table row cell 6 x minus 2 x end cell equals cell 2 plus 5 end cell row cell 4 x end cell equals 7 end table`
+$\begin{gathered} 6 x - 2 x & = 2 + 5 \\ 4 x & = 7 \end{gathered}$
 
 **[M1]**
 
@@ -35,7 +35,7 @@ $x=1.75$
 **[A1]**
 
 > **[mark-scheme]**
-> **M1**: For a correct first step in solving the equation. E.g. `6 x minus 5 equals 2 open parentheses x plus 1 close parentheses` or $6x-5=2x+2$.
+> **M1**: For a correct first step in solving the equation. E.g. $6 x - 5 = 2 ( x + 1 )$ or $6x-5=2x+2$.
 > 
 > **M1**: For a correct method of isolating the $x$ terms.
 > 
@@ -51,7 +51,7 @@ $x=1.75$
 
 > $8t$* mean *$8\timest$* and the inverse operation is to divide by 8*
 
-`table row cell 8 t end cell equals 40 row t equals cell 40 over 8 end cell row t equals 5 end table`
+$\begin{gathered} 8 t & = 40 \\ t = \frac{40}{8} \\ t = 5 \end{gathered}$
 
 **[B1]**
 
@@ -62,13 +62,13 @@ $x=1.75$
 
 > *The first step is to add three to both sides*
 
-`table row cell 2 x minus 3 end cell equals 18 row cell 2 x minus 3 plus 3 end cell equals cell 18 plus 3 end cell row cell 2 x end cell equals 21 end table`
+$\begin{gathered} 2 x - 3 & = 18 \\ 2 x - 3 + 3 & = 18 + 3 \\ 2 x & = 21 \end{gathered}$
 
 **[M1]**
 
 > *Divide both sides by 2*
 
-`table row cell fraction numerator 2 x over denominator 2 end fraction end cell equals cell 21 over 2 end cell row x equals cell 10.5 end cell end table`
+$\begin{gathered} \frac{2 x}{2} & = \frac{21}{2} \\ x = 10.5 \end{gathered}$
 
 $x=10.5$
 
@@ -108,7 +108,7 @@ $\frac{23}{5}$
 ### 20((a)) — 3 marks
 > *Deal with the fraction first by multiplying both sides by 6*
 
-`2 x space plus thin space 5 space equals space 6 open parentheses 2 x space minus space 5 close parentheses`
+$2 x + 5 = 6 ( 2 x - 5 )$
 
 **[M1]**
 

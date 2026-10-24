@@ -58,9 +58,9 @@ To simplify a ratio, **divide both sides** of the ratio by the **same number**.
 
 This will find an **equivalent ratio** with smaller values.
 
-E.g.  `12 space colon space 32
-table row cell divided by 4 end cell cell space space space space space space space space space space space divided by 4 end cell end table
-3 space colon space 8`
+E.g.  $12 : 32
+ \begin{gathered} \div 4 & \div 4 \end{gathered} 
+3 : 8$
 
 
 

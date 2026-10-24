@@ -29,11 +29,11 @@ guided_study: true
 - Let's remove the *x*  term on the right-hand side
 - *x  *has been added, so subtract *x*  from both sides
 
-`table row cell 4 x minus 7 end cell equals cell 11 plus x end cell end table`
+$\begin{gathered} 4 x - 7 & = 11 + x \end{gathered}$
 
-`table row blank blank cell open parentheses negative x close parentheses space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space space open parentheses negative x close parentheses end cell end table`
+$\begin{gathered} ( - x ) ( - x ) \end{gathered}$
 
-`table row cell 3 x minus 7 end cell equals 11 end table`
+$\begin{gathered} 3 x - 7 & = 11 \end{gathered}$
 
 - There are no longer any *x*  terms on the right
 - The 4*x * has become 3*x * on the left
@@ -41,7 +41,7 @@ guided_study: true
 
   - Solve it by adding 7 then dividing by 3
 
-`table row cell 3 x minus 7 end cell equals 11 row cell 3 x end cell equals 18 row x equals 6 end table`
+$\begin{gathered} 3 x - 7 & = 11 \\ 3 x & = 18 \\ x = 6 \end{gathered}$
 
 > **Exam Hint**
 > In the exam, substitute your answer back into the original equation to check you got it right!
@@ -56,7 +56,7 @@ guided_study: true
 > > *5**x ** is smaller than 6**x ** so it's easier to remove this term first*
 > *Add 5**x**  to both sides and simplify (collect like terms)*
 > 
-> `table row cell 4 minus 5 x plus 5 x end cell equals cell 6 x minus 29 plus 5 x end cell row 4 equals cell 11 x minus 29 end cell end table`
+> $\begin{gathered} 4 - 5 x + 5 x & = 6 x - 29 + 5 x \\ 4 = 11 x - 29 \end{gathered}$
 > 
 > > *This could also have been written as 4 = -29 + 11**x*
 > *Leave the **x**'s on the right-hand side (avoid 'reflecting' the equation)*

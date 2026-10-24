@@ -21,11 +21,11 @@ guided_study: false
 
 - A definite integral is defined by the following formula
 
-  - `integral subscript a superscript b straight f to the power of apostrophe open parentheses x close parentheses space straight d x equals open square brackets straight f open parentheses x close parentheses close square brackets subscript a superscript b equals straight f open parentheses b close parentheses minus straight f open parentheses a close parentheses`
+  - $\int_{a}^{b} \mathrm{f}^{'} ( x ) \mathrm{d} x = [ \mathrm{f} ( x ) ]_{a}^{b} = \mathrm{f} ( b ) - \mathrm{f} ( a )$
   
-    - i.e. **integrate** as usual to find `straight f open parentheses x close parentheses`
-    - then **substitute** to find `straight f open parentheses b close parentheses` and `straight f open parentheses a close parentheses`
-    - and subtract `straight f open parentheses a close parentheses` from `straight f open parentheses b close parentheses` to find the **value** of the definite integral
+    - i.e. **integrate** as usual to find $\mathrm{f} ( x )$
+    - then **substitute** to find $\mathrm{f} ( b )$ and $\mathrm{f} ( a )$
+    - and subtract $\mathrm{f} ( a )$ from $\mathrm{f} ( b )$ to find the **value** of the definite integral
   - $a$ and $b$ are **numbers** and are called the **integration limits**
   
     - $a$ is the **lower limit**
@@ -37,7 +37,7 @@ guided_study: false
   - The answer to an **indefinite integral** is another **function**
 
 > **Exam Hint**
-> - Be careful when substituting in to find `straight f open parentheses b close parentheses minus straight f open parentheses a close parentheses`
+> - Be careful when substituting in to find $\mathrm{f} ( b ) - \mathrm{f} ( a )$
 > 
 >   - It's quite easy to make mistakes here
 >   - Especially when fractions and negative numbers are involved
@@ -52,26 +52,26 @@ guided_study: false
 > **Worked Example**
 > Show that
 > 
-> `integral subscript 2 superscript 4 3 x left parenthesis x squared minus 2 right parenthesis space straight d x equals 144`
+> $\int_{2}^{4} 3 x ( x^{2} - 2 ) \mathrm{d} x = 144$
 > 
 > > *Start by expanding the brackets inside the integral*
 > 
-> `integral subscript 2 superscript 4 open parentheses 3 x cubed minus 6 x close parentheses space straight d x`
+> $\int_{2}^{4} ( 3 x^{3} - 6 x ) \mathrm{d} x$
 > 
 > > *Integrate as usual (here it's a 'powers of *$x$*' integration)*
 > 
 > > *Write the answer in square brackets with the integration limits outside*
 > 
-> `table row cell integral subscript 2 superscript 4 open parentheses 3 x cubed minus 6 x close parentheses space straight d x end cell equals cell open square brackets 3 open parentheses fraction numerator x to the power of 3 plus 1 end exponent over denominator 3 plus 1 end fraction close parentheses minus 6 open parentheses fraction numerator x to the power of 1 plus 1 end exponent over denominator 1 plus 1 end fraction close parentheses close square brackets subscript 2 superscript 4 end cell row blank equals cell open square brackets 3 over 4 x to the power of 4 minus 3 x squared close square brackets subscript 2 superscript 4 end cell end table`
+> $\begin{gathered} \int_{2}^{4} ( 3 x^{3} - 6 x ) \mathrm{d} x & = [ 3 ( \frac{x^{3 + 1} }{3 + 1} ) - 6 ( \frac{x^{1 + 1} }{1 + 1} ) ]_{2}^{4} \\ = [ \frac{3}{4} x^{4} - 3 x^{2} ]_{2}^{4} \end{gathered}$
 > 
 > > *Now substitute 4 into that function*
 > *And subtract from it the function with 2 substituted in*
 > 
-> `table row cell open square brackets 3 over 4 x to the power of 4 minus 3 x squared close square brackets subscript 2 superscript 4 end cell equals cell open parentheses 3 over 4 open parentheses 4 close parentheses to the power of 4 minus 3 open parentheses 4 close parentheses squared close parentheses minus open parentheses 3 over 4 open parentheses 2 close parentheses to the power of 4 minus 3 open parentheses 2 squared close parentheses close parentheses end cell row blank equals cell open parentheses 192 minus 48 close parentheses minus open parentheses 12 minus 12 close parentheses end cell row blank equals cell 144 minus 0 end cell row blank equals 144 end table`
+> $\begin{gathered} [ \frac{3}{4} x^{4} - 3 x^{2} ]_{2}^{4} & = ( \frac{3}{4} ( 4 )^{4} - 3 ( 4 )^{2} ) - ( \frac{3}{4} ( 2 )^{4} - 3 ( 2^{2} ) ) \\ = ( 192 - 48 ) - ( 12 - 12 ) \\ = 144 - 0 \\ = 144 \end{gathered}$
 > 
 > > *And that's the answer we were asked to show!*
 > 
-> `bold integral subscript bold 2 superscript bold 4 bold 3 bold italic x stretchy left parenthesis x squared minus 2 stretchy right parenthesis bold space bold d bold italic x bold equals bold 144`
+> $integral_{ } 2^{ } 4 3 x \text{stretchy} ( x ^{2} - 2 \text{stretchy} ) d x = 144$
 
 ## Calculating Areas with Definite Integrals
 
@@ -85,7 +85,7 @@ guided_study: false
 
   - It is the region bounded by
   
-    - the **curve** `y equals straight f open parentheses x close parentheses`
+    - the **curve** $y = \mathrm{f} ( x )$
     - the $x$**-axis**
     - and the **lines** $x=a$ and and $x=b$
 
@@ -93,7 +93,7 @@ guided_study: false
 
 - The **exact area** of a region like region $R$ in the diagram can be found by evaluating the **definite integral**
 
-  - `Area equals integral subscript a superscript b straight f open parentheses x close parentheses space straight d x`
+  - $\text{Area} = \int_{a}^{b} \mathrm{f} ( x ) \mathrm{d} x$
   
     - i.e. definite integrals can be used as **area calculators**!
   - Note that **for this to work**, $a$ **must** be 'on the left' and $b$ **must** be 'on the right'
@@ -120,7 +120,7 @@ guided_study: false
   - in that case one of the limits will be $x=0$
 - The 'left' and 'right' boundaries **don't have to be** vertical lines
 
-  - One or both of them could be where `y equals straight f open parentheses x close parentheses` **intercepts the **$x$**-axis**
+  - One or both of them could be where $y = \mathrm{f} ( x )$ **intercepts the **$x$**-axis**
   
     - i.e., one of the **roots** of the equation $f(x)=0$
   - In this case **solve** the equation$f(x)=0$ to find the limit(s)
@@ -153,7 +153,7 @@ guided_study: false
 > > *The right boundary is where the curve intercepts the *$x$*-axis*
 > *Solve the equation  *$y=0$*  to find its *$x$*-coordinate*
 > 
-> `table row cell 3 plus 2 x minus x squared end cell equals 0 row cell x squared minus 2 x minus 3 end cell equals 0 row cell open parentheses x plus 1 close parentheses open parentheses x minus 3 close parentheses end cell equals 0 end table`
+> $\begin{gathered} 3 + 2 x - x^{2} & = 0 \\ x^{2} - 2 x - 3 & = 0 \\ ( x + 1 ) ( x - 3 ) & = 0 \end{gathered}$
 > 
 > $x=-1\mathrm{or}x=3$
 > 
@@ -161,7 +161,7 @@ guided_study: false
 > 
 > > *Put all that info into the definite integral*
 > 
-> `table attributes columnalign right center left columnspacing 0px end attributes row Area equals cell integral subscript 0 superscript 3 open parentheses 3 plus 2 x minus x squared close parentheses space straight d x end cell row blank equals cell open square brackets 3 x plus 2 open parentheses fraction numerator x to the power of 1 plus 1 end exponent over denominator 1 plus 1 end fraction close parentheses minus open parentheses fraction numerator x to the power of 2 plus 1 end exponent over denominator 2 plus 1 end fraction close parentheses close square brackets subscript 0 superscript 3 end cell row blank equals cell open square brackets 3 x plus x squared minus 1 third x cubed close square brackets subscript 0 superscript 3 end cell row blank equals cell open parentheses 3 open parentheses 3 close parentheses plus open parentheses 3 close parentheses squared minus 1 third open parentheses 3 close parentheses cubed close parentheses minus open parentheses 3 open parentheses 0 close parentheses plus open parentheses 0 close parentheses squared minus 1 third open parentheses 0 close parentheses cubed close parentheses end cell row blank equals cell open parentheses 9 plus 9 minus 9 close parentheses minus open parentheses 0 plus 0 minus 0 close parentheses end cell row blank equals cell 9 minus 0 end cell row blank equals 9 end table`
+> $\begin{array}{rcl} \text{Area} = \int_{0}^{3} ( 3 + 2 x - x^{2} ) \mathrm{d} x \\ = [ 3 x + 2 ( \frac{x^{1 + 1} }{1 + 1} ) - ( \frac{x^{2 + 1} }{2 + 1} ) ]_{0}^{3} \\ = [ 3 x + x^{2} - 1 \frac{1}{3} x^{3} ]_{0}^{3} \\ = ( 3 ( 3 ) + ( 3 )^{2} - 1 \frac{1}{3} ( 3 )^{3} ) - ( 3 ( 0 ) + ( 0 )^{2} - 1 \frac{1}{3} ( 0 )^{3} ) \\ = ( 9 + 9 - 9 ) - ( 0 + 0 - 0 ) \\ = 9 - 0 \\ = 9 \end{array}$
 > 
 > $9\mathrm{units}^{2}$
 
@@ -223,7 +223,7 @@ Write the definite integral **for each part**
 
   - This may involve finding the lower and upper integration **limits** for each part
   
-    - e.g. **solving** `straight f open parentheses x close parentheses equals 0` to find where `y equals straight f open parentheses x close parentheses` crosses the $x$-axis
+    - e.g. **solving** $\mathrm{f} ( x ) = 0$ to find where $y = \mathrm{f} ( x )$ crosses the $x$-axis
 - **STEP 3**
 **Find the value** of each definite integral separately
 - **STEP 4**
@@ -250,9 +250,9 @@ Write the definite integral **for each part**
 > 
 > > *That point is one of the *$x$*-axis intercepts  of the function*
 > 
-> > *Solve *`straight f open parentheses x close parentheses equals 0`* to find what those area*
+> > *Solve *$\mathrm{f} ( x ) = 0$* to find what those area*
 > 
-> `open parentheses x plus 4 close parentheses open parentheses x minus 1 close parentheses open parentheses x minus 5 close parentheses equals 0`
+> $( x + 4 ) ( x - 1 ) ( x - 5 ) = 0$
 > 
 > $x=-4,1,5$
 > 
@@ -268,15 +268,15 @@ Write the definite integral **for each part**
 > 
 > > *It lies totally above the *$x$*-axis, so the definite integral will calculate the area directly*
 > 
-> `table row cell Area space of space R subscript 1 end cell equals cell integral subscript 0 superscript 1 open parentheses x plus 4 close parentheses open parentheses x minus 1 close parentheses open parentheses x minus 5 close parentheses space straight d x end cell row blank equals cell integral subscript 0 superscript 1 open parentheses x cubed minus 2 x squared minus 19 x plus 20 close parentheses space straight d x end cell row blank equals cell open square brackets 1 fourth x to the power of 4 minus 2 over 3 x cubed minus 19 over 2 x squared plus 20 x close square brackets subscript 0 superscript 1 end cell row blank equals cell open parentheses 1 fourth open parentheses 1 close parentheses to the power of 4 minus 2 over 3 open parentheses 1 close parentheses cubed minus 19 over 2 open parentheses 1 close parentheses squared plus 20 open parentheses 1 close parentheses close parentheses minus open parentheses 1 fourth open parentheses 0 close parentheses to the power of 4 minus 2 over 3 open parentheses 0 close parentheses cubed minus 19 over 2 open parentheses 0 close parentheses squared plus 20 open parentheses 0 close parentheses close parentheses end cell row blank equals cell open parentheses 1 fourth minus 2 over 3 minus 19 over 2 plus 20 close parentheses minus open parentheses 0 minus 0 minus 0 plus 0 close parentheses end cell row blank equals cell 121 over 12 minus 0 end cell row blank equals cell 121 over 12 end cell end table`
+> `| Area of R _ 1 | = integral _ 0 ^ 1 ( x + 4 ) ( x - 1 ) ( x - 5 ) d x | | _ = integral _ 0 ^ 1 ( x ^3 - 2 x ^2 - 19 x + 20 ) d x | | _ = [ 1 fourth x ^ 4 - 2 / 3 x ^3 - 19 / 2 x ^2 + 20 x ] _ 0 ^ 1 | | _ = ( 1 fourth ( 1 ) ^ 4 - 2 / 3 ( 1 ) ^3 - 19 / 2 ( 1 ) ^2 + 20 ( 1 ) ) - ( 1 fourth ( 0 ) ^ 4 - 2 / 3 ( 0 ) ^3 - 19 / 2 ( 0 ) ^2 + 20 ( 0 ) ) | | _ = ( 1 fourth - 2 / 3 - 19 / 2 + 20 ) - ( 0 - 0 - 0 + 0 ) | | _ = 121 / 12 - 0 | | _ = 121 / 12 | |`
 > 
 > > $R_{2}$* is the region between *$x=1$* and *$x=3$
 > 
 > > *It lies totally below the *$x$*-axis, so the integral will give us the negative version of the area*
 > 
-> `table row cell negative open parentheses Area space of space R subscript 2 close parentheses end cell equals cell integral subscript 1 superscript 3 open parentheses x cubed minus 2 x squared minus 19 x plus 20 close parentheses space straight d x end cell row blank equals cell open square brackets 1 fourth x to the power of 4 minus 2 over 3 x cubed minus 19 over 2 x squared plus 20 x close square brackets subscript 1 superscript 3 end cell row blank equals cell open parentheses 1 fourth open parentheses 3 close parentheses to the power of 4 minus 2 over 3 open parentheses 3 close parentheses cubed minus 19 over 2 open parentheses 3 close parentheses squared plus 20 open parentheses 3 close parentheses close parentheses minus open parentheses 1 fourth open parentheses 1 close parentheses to the power of 4 minus 2 over 3 open parentheses 1 close parentheses cubed minus 19 over 2 open parentheses 1 close parentheses squared plus 20 open parentheses 1 close parentheses close parentheses minus end cell row blank equals cell open parentheses 81 over 4 minus 18 minus 171 over 2 plus 60 close parentheses minus open parentheses 1 fourth minus 2 over 3 minus 19 over 2 plus 20 close parentheses end cell row blank equals cell negative 93 over 4 minus 121 over 12 end cell row blank equals cell negative 400 over 12 end cell end table`
+> `| - ( Area of R _ 2 ) | = integral _ 1 ^ 3 ( x ^3 - 2 x ^2 - 19 x + 20 ) d x | | _ = [ 1 fourth x ^ 4 - 2 / 3 x ^3 - 19 / 2 x ^2 + 20 x ] _ 1 ^ 3 | | _ = ( 1 fourth ( 3 ) ^ 4 - 2 / 3 ( 3 ) ^3 - 19 / 2 ( 3 ) ^2 + 20 ( 3 ) ) - ( 1 fourth ( 1 ) ^ 4 - 2 / 3 ( 1 ) ^3 - 19 / 2 ( 1 ) ^2 + 20 ( 1 ) ) - | | _ = ( 81 / 4 - 18 - 171 / 2 + 60 ) - ( 1 fourth - 2 / 3 - 19 / 2 + 20 ) | | _ = - 93 / 4 - 121 / 12 | | _ = - 400 / 12 | |`
 > 
-> > *So the area of *$R_{2}$* is *$\frac{400}{12}$* *`open parentheses equals 100 over 3 close parentheses`
+> > *So the area of *$R_{2}$* is *$\frac{400}{12}$* *$( = \frac{100}{3} )$
 > 
 > > *Add the two areas together to get the total area*
 > 

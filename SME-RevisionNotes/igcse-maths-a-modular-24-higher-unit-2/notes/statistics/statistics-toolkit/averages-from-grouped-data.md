@@ -73,7 +73,7 @@ Find the** total** for the ***fx***** column **
 - **STEP 4**
 Estimate the **mean **by using the **formula**
 
-  - `estimated space mean equals fraction numerator total space of space open parentheses midpoints cross times frequencies close parentheses space over denominator total space frequency end fraction`
+  - $\text{estimated} \text{mean} = \frac{ \text{total} of ( \text{midpoints} \times \text{frequencies} ) }{ \text{total} frequency}$
   - i.e. **divide** the total of the *fx* column by the total number of data values
 
 ### How do I find the modal class?
@@ -125,7 +125,7 @@ Estimate the **mean **by using the **formula**
 > 
 > > *Now we can find the mean using*
 > 
-> `estimated space mean equals fraction numerator total space of space open parentheses midpoints space cross times frequencies close parentheses over denominator total space frequency end fraction`
+> $\text{estimated} \text{mean} = \frac{ \text{total} of ( \text{midpoints} \times \text{frequencies} ) }{ \text{total} frequency}$
 > 
 > $\mathrm{estimated} \mathrm{mean}=\frac{87}{20}=4.35$
 > 

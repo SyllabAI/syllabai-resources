@@ -66,7 +66,7 @@ guided_study: false
 > 
 > > *Substitute this into the equation for *$x$* and simplify*
 > 
-> `table row x equals cell a open parentheses fraction numerator y over denominator 2 a end fraction close parentheses squared end cell row x equals cell fraction numerator a y squared over denominator 4 a squared end fraction end cell row x equals cell fraction numerator y squared over denominator 4 a end fraction end cell end table`
+> $\begin{gathered} x = a ( \frac{y}{2 a} )^{2} \\ x = \frac{a y^{2}}{4 a^{2}} \\ x = \frac{y^{2}}{4 a} \end{gathered}$
 > 
 > > *Make *$y^{2}$* the subject*
 > 
@@ -80,11 +80,11 @@ guided_study: false
 
 ### What are the focus and directrix of a parabola?
 
-- The **focus** of the parabola $y^{2}=4ax$ is the **point**  `open parentheses a comma space 0 close parentheses` on the $x$-axis
+- The **focus** of the parabola $y^{2}=4ax$ is the **point**  $( a , 0 )$ on the $x$-axis
 - The **directrix** is the **vertical line **$x=-a$
 - For example, the parabola $y^{2}=12x$ where $a=3$ has
 
-  - a focus at `open parentheses 3 comma space 0 close parentheses`
+  - a focus at $( 3 , 0 )$
   - the directrix  $x=-3$
 
 ### What is the focus-directrix property?
@@ -106,7 +106,7 @@ guided_study: false
 > You are given the focus and directrix of a parabola in the Formulae Booklet, but not the focus-directrix property.
 
 > **Worked Example**
-> The diagram shows the point* *`S open parentheses a comma 0 close parentheses`, the vertical line $x=-a$ and a general point `P open parentheses x comma y close parentheses` that can move in the plane.
+> The diagram shows the point* *$S ( a , 0 )$, the vertical line $x=-a$ and a general point $P ( x , y )$ that can move in the plane.
 > 
 > ![The focus S, directrix x=-a and a general point P](assets/cbed40e72a55-we-focus-directrix-property.bin)
 > 
@@ -118,7 +118,7 @@ guided_study: false
 > 
 > ![Using the focus-directrix property to prove its a parabola](assets/8a14e1257fc8-we-focus-directrix-property-parabola.png)
 > 
-> `P S squared equals open parentheses x minus a close parentheses squared plus y squared`
+> $P S^{2} = ( x - a )^{2} + y^{2}$
 > 
 > > *The distance **PX ** can be found from the diagram*
 > 
@@ -126,12 +126,12 @@ guided_study: false
 > 
 > > *Square **PS  **= **PX  **and substitute in the results above*
 > 
-> `table row cell P S squared end cell equals cell P X squared end cell row cell open parentheses x minus a close parentheses squared plus y squared end cell equals cell open parentheses x plus a close parentheses squared end cell end table`
+> $\begin{gathered} P S^{2} & = P X^{2} \\ ( x - a )^{2} + y^{2} & = ( x + a )^{2} \end{gathered}$
 > 
 > > *Expand and simplify both sides*
 > 
-> `table row cell x squared minus 2 a x plus a squared plus y squared end cell equals cell x squared plus 2 a x plus a squared end cell row cell negative 2 a x plus y squared end cell equals cell 2 a x end cell row cell y squared end cell equals cell 4 a x end cell end table`
+> $\begin{gathered} x^{2} - 2 a x + a^{2} + y^{2} & = x^{2} + 2 a x + a^{2} \\ - 2 a x + y^{2} & = 2 a x \\ y^{2} & = 4 a x \end{gathered}$
 > 
-> > `P open parentheses x comma space y close parentheses`* must lie on this curve*
+> > $P ( x , y )$* must lie on this curve*
 > 
 > $y^{2}=4ax$

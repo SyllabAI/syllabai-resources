@@ -165,7 +165,7 @@
   },
   {
    "type": "bullets",
-   "md": "- *n* is the size of the sample\n- σ is the standard deviation of the population\n- $\\overline{x}$ is the mean of the sample\n- $z$ is the value such that `straight P left parenthesis negative z less than Z less than z right parenthesis equals alpha percent sign` where *α* is the confidence level"
+   "md": "- *n* is the size of the sample\n- σ is the standard deviation of the population\n- $\\overline{x}$ is the mean of the sample\n- $z$ is the value such that $\\mathrm{P} ( - z < Z < z ) = \\\\alpha \\%$ where *α* is the confidence level"
   },
   {
    "type": "bullets",
@@ -186,7 +186,7 @@
   },
   {
    "type": "bullets",
-   "md": "- You use the standard normal distribution `Z tilde N left parenthesis 0 comma 1 squared right parenthesis`\n- If the confidence level is % we find such that $P(-z<Z<z)=α$%\n- To do this find $P(Z<z)$- it can be shown that this is `open parentheses fraction numerator alpha plus 100 over denominator 2 end fraction close parentheses`%"
+   "md": "- You use the standard normal distribution $Z \\sim N ( 0 , 1^{2} )$\n- If the confidence level is % we find such that $P(-z<Z<z)=α$%\n- To do this find $P(Z<z)$- it can be shown that this is $( \\frac{\\\\alpha + 100}{2} )$%"
   },
   {
    "type": "figure",
@@ -243,11 +243,11 @@
   },
   {
    "type": "paragraph",
-   "md": "`p with hat on top minus z cross times square root of fraction numerator p with hat on top open parentheses 1 minus p with hat on top close parentheses over denominator n end fraction end root less than p less than p with hat on top plus z cross times square root of fraction numerator p with hat on top left parenthesis 1 minus p with hat on top right parenthesis over denominator n end fraction end root`"
+   "md": "$\\hat{p} - z \\times \\sqrt{ \\frac{ \\hat{p} ( 1 - \\hat{p} )}{n} } < p < \\hat{p} + z \\times \\sqrt{ \\frac{ \\hat{p} ( 1 - \\hat{p} )}{n} }$"
   },
   {
    "type": "bullets",
-   "md": "- *n* is the size of the sample\n- `p with hat on top` (or p<sub>s</sub>) is the proportion of the sample\n- z is the value such that `straight P left parenthesis negative z less than Z less than z right parenthesis equals alpha percent sign` where $α$ is the confidence level"
+   "md": "- *n* is the size of the sample\n- $\\hat{p}$ (or p<sub>s</sub>) is the proportion of the sample\n- z is the value such that $\\mathrm{P} ( - z < Z < z ) = \\\\alpha \\%$ where $α$ is the confidence level"
   },
   {
    "type": "bullets",
@@ -255,7 +255,7 @@
   },
   {
    "type": "paragraph",
-   "md": "`N open parentheses p comma fraction numerator p left parenthesis 1 minus p right parenthesis over denominator n end fraction close parentheses`"
+   "md": "$N ( p , \\frac{p ( 1 - p )}{n} )$"
   },
   {
    "type": "bullets",
@@ -263,7 +263,7 @@
   },
   {
    "type": "paragraph",
-   "md": "`2 cross times z cross times square root of fraction numerator p with hat on top left parenthesis 1 minus p with hat on top right parenthesis over denominator n end fraction end root`"
+   "md": "$2 \\times z \\times \\sqrt{ \\frac{ \\hat{p} ( 1 - \\hat{p} )}{n} }$"
   },
   {
    "type": "bullets",

@@ -364,29 +364,29 @@ A public limited company has limited liability, which means its shareholders are
 
 Gross profit = Revenue − Cost of sales
 
-`equals space $ 170 straight m space minus space $ 46 straight m space space space
+$= \$ 170 \mathrm{m} - \$ 46 \mathrm{m} 
 
-equals space $ 124 straight m`
+= \$ 124 \mathrm{m}$
 
 Operating profit = Gross profit − Expenses
 
-`equals space $ 124 straight m space minus space $ 109 straight m space
+$= \$ 124 \mathrm{m} - \$ 109 \mathrm{m} 
 
-equals space $ 15 straight m`
+= \$ 15 \mathrm{m}$
 
 Interest = Original interest + Interest on new borrowing
 
-`equals space $ 4 straight m space plus space left parenthesis $ 50 straight m space cross times space 5 percent sign right parenthesis space
+$= \$ 4 \mathrm{m} + ( \$ 50 \mathrm{m} \times 5 \% ) 
 
-equals space $ 4 straight m space plus space $ 2.5 straight m space equals space $ 6.5 straight m`
+= \$ 4 \mathrm{m} + \$ 2.5 \mathrm{m} = \$ 6.5 \mathrm{m}$
 
 Profit before tax = Operating profit − Interest
 
-`equals space $ 15 straight m space minus space $ 6.5 straight m space equals space $ 8.5 straight m`
+$= \$ 15 \mathrm{m} - \$ 6.5 \mathrm{m} = \$ 8.5 \mathrm{m}$
 
 > **[mark-scheme]**
 > - Up to 2 marks for valid workings
-> - 1 mark for the correct answer of `$ 8.5 straight m`
+> - 1 mark for the correct answer of $\$ 8.5 \mathrm{m}$
 > 
 > A correct answer with no working shown still receives full marks.
 
@@ -483,29 +483,29 @@ Overall, I disagree with the statement **[E]**. Published accounts are clearly u
 
 Old annual depreciation (5-year life)
 
-`equals space fraction numerator $ 25 straight m space minus space $ 3 straight m over denominator 5 end fraction space
+$= \frac{\$ 25 \mathrm{m} - \$ 3 \mathrm{m} }{5} 
 
-equals space $ 22 straight m space divided by space 5 space
+= \$ 22 \mathrm{m} \div 5 
 
-equals space $ 4.4 straight m`
+= \$ 4.4 \mathrm{m}$
 
 New annual depreciation (8-year life)
 
-`equals space fraction numerator $ 25 straight m space minus space $ 3 straight m over denominator 8 end fraction space
+$= \frac{\$ 25 \mathrm{m} - \$ 3 \mathrm{m} }{8} 
 
-equals space $ 22 straight m space divided by space 8 space
+= \$ 22 \mathrm{m} \div 8 
 
-equals space $ 2.75 straight m`
+= \$ 2.75 \mathrm{m}$
 
 Change in annual depreciation:
 
-`equals space $ 4.4 straight m space minus space $ 2.75 straight m space
+$= \$ 4.4 \mathrm{m} - \$ 2.75 \mathrm{m} 
 
-equals space $ 1.65 straight m space decrease`
+= \$ 1.65 \mathrm{m} \text{decrease}$
 
 > **[mark-scheme]**
 > - Up to 3 marks for valid workings
-> - 1 mark for the correct answer of `$ 1.65 straight m`
+> - 1 mark for the correct answer of $\$ 1.65 \mathrm{m}$
 > 
 > A correct answer with no working shown still receives full marks.
 
@@ -514,9 +514,9 @@ equals space $ 1.65 straight m space decrease`
 
 Annual revenue = Monthly fee × Number of members × 12 months
 
-`equals space $ 60 space cross times space 300 space cross times space 12 space space
+$= \$ 60 \times 300 \times 12 
 
-equals space $ 216 comma 000`
+= \$ 216 , 000$
 
 > **[mark-scheme]**
 > - 1 mark for a valid working

@@ -63,7 +63,7 @@ $\frac{\Deltaλ}{λ}=\frac{\Deltaf}{f}=\frac{v}{c}$
 > 
 > **Step 3: Rearrange for speed *****v,***** and calculate**
 > 
-> `v space equals fraction numerator c increment f over denominator f end fraction space equals fraction numerator open parentheses 3.0 space cross times space 10 to the power of 8 close parentheses space cross times space open parentheses 2.3 space cross times space 10 to the power of 12 close parentheses space over denominator 4.570 space cross times space 10 to the power of 14 end fraction space equals space 1.5 space cross times space 10 to the power of 6 space straight m space straight s to the power of negative 1 end exponent`
+> $v = \frac{c \Delta f}{f} = \frac{( 3.0 \times 10^{8 ) \times ( 2.3 \times 10^{12} ) }{4.570 \times 10^{14} } = 1.5 \times 10^{6} \mathrm{m} \mathrm{s}^{-1} }$
 > 
 > **Step 4: Write a concluding sentence**
 > 

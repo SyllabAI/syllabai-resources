@@ -484,7 +484,7 @@ Tim wants to work out the total surface area of B.
 
 Here is his working.
 
-| `table row cell 10 space divided by space 5 space end cell equals cell space 2 space end cell row cell 62 space cross times space 2 space end cell equals cell space 124 space end cell row cell Total space surface space area space of space straight B space end cell equals cell space 124 space cm squared end cell end table` |
+| $\begin{array}{ccc}10 \div 5 & = & 2 \\ 62 \times 2 & = & 124 \\ Total \text{surface} \text{area} of \mathrm{B} & = & 124 cm ^{2} \end{array}$ |
 |---|
 
 Make one criticism of Tim’s method.

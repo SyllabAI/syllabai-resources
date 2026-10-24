@@ -23,31 +23,30 @@ guided_study: false
 - **Income elasticity of demand (YED) **reveals how **responsive** the change in **quantity demanded** is to a change in **income**
 - **YED can be calculated** using the following formula
 
-`text YED =  end text fraction numerator percent sign space change space in space quantity space demanded over denominator percent sign space change space in space income end fraction space equals space fraction numerator percent sign triangle space in thin space QD over denominator percent sign triangle in space straight Y end fraction`
+$\text{YED = } \frac{\% \text{change} \text{in} \text{quantity} demanded}{\% \text{change} \text{in} income} = \frac{\% \Delta \text{in} QD}{\% \Delta \text{in} \mathrm{Y} }$
 
 > **Worked Example**
 > A consumer's **income rises** from £100 to £125 a week. They originally consumed 12 bagels at the local bakery, but this **increased** to 15 bagels a week. Calculate the **YED** of the bagels
 
 **Step 1:  Calculate the % change in QD**
 
-**  **`percent sign triangle QD space equals space fraction numerator 15 minus 12 over denominator 12 end fraction space cross times 100
+**  **$\% \Delta \text{QD} = \frac{15 - 12}{12} \times 100
 
-percent sign triangle QD space equals space 25 percent sign`** **
+\% \Delta \text{QD} = 25 \%$** **
 
 **Step 2: Calculate the % change in Y**
 
-`percent sign triangle straight Y space equals space fraction numerator 125 space minus space 100 over denominator 100 end fraction space straight x space 100
+$\% \Delta \mathrm{Y} = \frac{125 - 100}{100} \mathrm{x} 100
 
-percent sign triangle straight Y space equals space 25 percent sign`
+\% \Delta \mathrm{Y} = 25 \%$
 
 **Step 3: Insert the above values in the YED formula**
 
-`PED space equals space fraction numerator percent sign triangle space in thin space QD over denominator percent sign triangle in space straight Y end fraction
+$\text{PED} = \frac{\% \Delta \text{in} QD}{\% \Delta \text{in} \mathrm{Y} } 
 
-Y ED space equals space 25 over 25
+Y \text{ED} = \frac{25}{25} 
 
-Y ED space equals space space 1
-`
+Y \text{ED} = 1$
 
 ## Interpreting YED Values
 

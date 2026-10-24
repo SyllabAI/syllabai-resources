@@ -155,7 +155,7 @@ $3\times3=9$
 
 > *First think of two numbers that multiply to make 300*
 
-`table row 300 equals cell 3 cross times 100 end cell end table`
+$\begin{gathered} 300 = 3 \times 100 \end{gathered}$
 
 > *Check if either of these are prime (3 is, 100 isn't)*
 

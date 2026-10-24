@@ -76,7 +76,7 @@ The percentage by mass of iron in iron(II) hydroxide, Fe(OH)<sub>2 </sub>is:
 - *The percentage by mass of an element is found using the formula:*
 
   - *% of an element = *$\frac{\mathrm{mass} \mathrm{of} \mathrm{the} \mathrm{element}}{\mathrm{relative} \mathrm{formula} \mathrm{mass} \mathrm{of} \mathrm{the} \mathrm{compound}}x100$
-  - *This gives, *`56 over 90 cross times 100 space equals space 62 percent sign`
+  - *This gives, *$\frac{56}{90} \times 100 = 62 \%$
 
 ### 4() — 3 marks
 The correct sentences are:
@@ -339,7 +339,7 @@ i) To show that the empirical formula of the compound is CH<sub>2</sub>F:
 
 - Divide percentages by relative atomic masses; **[1 mark]** | C | H | F |
 |---|---|---|
-| `space fraction numerator 36.36 over denominator 12 end fraction space<br>open parentheses equals 3.03 close parentheses` | `space space fraction numerator 6.06 over denominator 1 end fraction<br>open parentheses equals 6.06 close parentheses` | `space fraction numerator 57.58 over denominator 19 end fraction<br>open parentheses equals 3.03 close parentheses` |
+| $\frac{36.36}{12} \\ ( = 3.03 )$ | $\frac{6.06}{1} \\ ( = 6.06 )$ | $\frac{57.58}{19} \\ ( = 3.03 )$ |
 - Divide results by smallest value to obtain ratio; **[1 mark]** | C | H | F |
 |---|---|---|
 | $\frac{3.03}{3.03}$ | $\frac{6.06}{3.03}$ | $\frac{3.03}{3.03}$ |
@@ -489,7 +489,7 @@ Answer given to a minimum of 2 significant figures;** [1 mark]**
 - **Step 3: ** Calculate the percentage yield using the formula
 
   - $\mathrm{percentage} \mathrm{yield}=\frac{\mathrm{actual} \mathrm{yield}}{\mathrm{theorectical} \mathrm{yield}}\times100$
-  - `percentage space yield space equals space fraction numerator 15.3 over denominator 18.9 end fraction space cross times space 100 space equals space 80.9 space percent sign` rounded to 81%
+  - $\text{percentage} \text{yield} = \frac{15.3}{18.9} \times 100 = 80.9 \%$ rounded to 81%
 
 ## Q12 — medium — 11 marks · exam-questions
 
@@ -717,7 +717,7 @@ ii)   The amount, in moles, of NaClO in 4.00 cm<sup>3</sup> of bleach:
 
 iii)  The concentration, in mol/dm<sup>3</sup>, of the bleach solution.
 
-- Concentration = `begin mathsize 14px style fraction numerator 0.0025 over denominator open parentheses begin display style fraction numerator 4.00 over denominator 1000 end fraction end style close parentheses end fraction end style` or $\frac{0.0025}{4.00}$ x 1000; **[1 mark]**
+- Concentration = $\frac{0.0025}{( \frac{4.00}{1000} )}$ or $\frac{0.0025}{4.00}$ x 1000; **[1 mark]**
 - 0.625 mol/dm<sup>3</sup>;** [1 mark]**
 
 **[Total: 5 marks]**
@@ -991,7 +991,7 @@ Theoretical n Cu(NO<sub>3</sub>)<sub>2</sub> = 0.200 ÷ 2
 **OR **
 0.100; **[1 mark]**
 - **Calculate the percentage yield:**
- `fraction numerator 0.0816 over denominator 0.100 end fraction space cross times space 100 space equals space 81.6 space open parentheses percent sign close parentheses`; **[1 mark]**
+ $\frac{0.0816}{0.100} \times 100 = 81.6 ( \% )$; **[1 mark]**
 
 **Alternative method**:
 
@@ -1000,7 +1000,7 @@ Theoretical n Cu(NO<sub>3</sub>)<sub>2</sub> = 0.200 ÷ 2 **OR **0.100; **[1 mar
 - **Calculate the theoretical mass of copper nitrate that should be formed** = 
 (moles x *M*<sub>r</sub> = ) 0.1 x 187.5 = 18.75 / 18.8 (g); **[1 mark]**
 - **Calculate the percentage yield**:
- `fraction numerator 15.3 over denominator 18.75 end fraction space cross times space 100 space equals space 81.6 space open parentheses percent sign close parentheses`; **[1 mark]** 
+ $\frac{15.3}{18.75} \times 100 = 81.6 ( \% )$; **[1 mark]** 
 *Accept 82%*
 
 **[Total: 3 marks]**
@@ -1878,7 +1878,7 @@ Answer given to a minimum of 2 significant figures; **[1 mark]**
 
 - *To calculate the percentage by mass use the equation:*
 
-> *   *`percent sign space by space mass space of space an space element space equals space fraction numerator A subscript straight r space cross times space number space of space atoms space of space the space elements over denominator M subscript straight r space of space the space compound end fraction`
+> *   *`% by mass of an element = (A _ r x number of atoms of the elements)/(M _ r of the compound)`
 
 - *Remember**: There are 2 atoms of nitrogen in ammonium sulfate, so you must multiply the mass of nitrogen by 2*
 - *You also need to remember to multiply by 100 to convert it to a percentage*

@@ -438,12 +438,12 @@ Complete the table to show the results for all 50 students.
 
 | Number of glasses of water | Tally | Frequency |
 |---|---|---|
-| 0 | `up diagonal strike vertical line vertical line vertical line vertical line end strike`  `vertical line` |   |
-| 1 | `vertical line vertical line` |   |
-| 2 | `up diagonal strike vertical line vertical line vertical line vertical line end strike space space vertical line vertical line vertical line` |   |
-| 3 | `up diagonal strike vertical line vertical line vertical line vertical line end strike space space up diagonal strike vertical line vertical line vertical line vertical line end strike space vertical line` |   |
-| 4 | `up diagonal strike vertical line vertical line vertical line vertical line end strike space vertical line vertical line vertical line` |   |
-| 5 | `up diagonal strike vertical line vertical line vertical line vertical line end strike` |   |
+| 0 | $\cancel{\vert \vert \vert \vert}$  $\vert$ |   |
+| 1 | $\vert \vert$ |   |
+| 2 | $\cancel{\vert \vert \vert \vert} \vert \vert \vert$ |   |
+| 3 | $\cancel{\vert \vert \vert \vert} \cancel{\vert \vert \vert \vert} \vert$ |   |
+| 4 | $\cancel{\vert \vert \vert \vert} \vert \vert \vert$ |   |
+| 5 | $\cancel{\vert \vert \vert \vert}$ |   |
 |   | Total | 50 |
 
 [2]
@@ -862,11 +862,11 @@ Complete the tally chart.
 
 | Favourite colour | Tally |
 |---|---|
-| Red | `up diagonal strike vertical line vertical line vertical line vertical line end strike space space up diagonal strike vertical line vertical line vertical line vertical line end strike space space vertical line` |
-| Orange | `up diagonal strike vertical line vertical line vertical line vertical line end strike space space up diagonal strike vertical line vertical line vertical line vertical line end strike space space vertical line vertical line vertical line vertical line` |
-| Yellow | `up diagonal strike vertical line vertical line vertical line vertical line end strike space space vertical line vertical line vertical line vertical line` |
-| Green | `up diagonal strike vertical line vertical line vertical line vertical line end strike space` |
-| Blue | `vertical line vertical line vertical line` |
+| Red | $\cancel{\vert \vert \vert \vert} \cancel{\vert \vert \vert \vert} \vert$ |
+| Orange | $\cancel{\vert \vert \vert \vert} \cancel{\vert \vert \vert \vert} \vert \vert \vert \vert$ |
+| Yellow | $\cancel{\vert \vert \vert \vert} \vert \vert \vert \vert$ |
+| Green | $\cancel{\vert \vert \vert \vert}$ |
+| Blue | $\vert \vert \vert$ |
 | Purple |   |
 
 *Source: June 2019 0580/12 Q9*

@@ -7,7 +7,7 @@
 ### 1() — 2 marks
 > *When **k** = 0, *
 
-`table row y equals cell 2 x squared plus 8 open parentheses 0 close parentheses squared x minus 3 end cell row cell therefore space y end cell equals cell 2 x squared minus 3 end cell end table`
+$\begin{gathered} y = 2 x^{2} + 8 ( 0 )^{2} x - 3 \\ \therefore y & = 2 x^{2} - 3 \end{gathered}$
 
 > *To find turning points by differentiating and equating the derivative to zero*
 
@@ -17,13 +17,13 @@ $\frac{dy}{dx}=4x$
 
 > *Equate to zero and solve*
 
-`table attributes columnalign right center left columnspacing 0px end attributes row cell 4 x end cell equals 0 row x equals 0 end table`
+$\begin{array}{rcl} 4 x & = 0 \\ x = 0 \end{array}$
 
 **[1]**
 
 > *Find the y-coordinate by substituting x = 0 into y*
 
-`table attributes columnalign right center left columnspacing 0px end attributes row y equals cell 2 open parentheses 0 close parentheses squared minus 3 end cell row blank equals cell negative 3 end cell end table`
+$\begin{array}{rcl} y = 2 ( 0 )^{2} - 3 \\ = - 3 \end{array}$
 
 > *Write the answer as a coordinate point*
 
@@ -38,7 +38,7 @@ $(0,-3)$ **[1]**
 
 > *To find a turning point, equate the derivative to zero and solve*
 
-`table row cell 4 x plus 8 k squared end cell equals 0 row cell 4 x end cell equals cell negative 8 k squared end cell row x equals cell negative 2 k squared end cell end table`
+$\begin{gathered} 4 x + 8 k^{2} & = 0 \\ 4 x & = - 8 k^{2} \\ x = - 2 k^{2} \end{gathered}$
 
 **[1]**
 
@@ -50,15 +50,15 @@ $(0,-3)$ **[1]**
 ### 3() — 2 marks
 > *Substitute *$x=-2k^{2}$* (from part (b)) into the equation for **y*
 
-`y equals 2 open parentheses negative 2 k squared close parentheses squared plus 8 k squared open parentheses negative 2 k squared close parentheses minus 3`
+$y = 2 ( - 2 k^{2} )^{2} + 8 k^{2} ( - 2 k^{2} ) - 3$
 
 **[1]**
 
 > *Carefully expand the brackets and simplify*
 
-`table row y equals cell 2 open parentheses 4 k to the power of 4 close parentheses minus 16 k to the power of 4 minus 3 end cell row blank equals cell 8 k to the power of 4 minus 16 k to the power of 4 minus 3 end cell row blank equals cell negative 8 k to the power of 4 minus 3 end cell end table`
+$\begin{gathered} y = 2 ( 4 k^{4} ) - 16 k^{4} - 3 \\ = 8 k^{4} - 16 k^{4} - 3 \\ = - 8 k^{4} - 3 \end{gathered}$
 
-> *Note that *`k to the power of 4 equals open parentheses k squared close parentheses squared`* so is positive*
+> *Note that *$k^{4} = ( k^{2} )^{2}$* so is positive*
 
 $k^{4}>0$** therefore **$-8k^{4}-3<0$** for all values of **$k$** and therefore the ****y****-coordinate of the turning point is negative ****[1]**** **
 **Correct answer with valid reason.**
@@ -109,18 +109,18 @@ $8x^{3}-32x=0$
 
 > *Solve for **x*
 
-`x cubed minus 4 x equals 0
-x open parentheses x squared minus 4 close parentheses equals 0
-x equals 0 comma space space x squared equals 4
-space space space space space space space space space space space space x equals plus-or-minus 2`
+$x^{3} - 4 x = 0
+x ( x^{2} - 4 ) = 0
+x = 0 , x^{2} = 4
+ x = \pm 2$
 
 **all 3 x-coordinates found ****[1]**
 
 > *Find **P, Q** and **R **by substituting **x** = -2, **x** = 0 and **x** = 2 respectively into **y **(you could also find **Q** by examining the equation for **y **and ignoring any terms in **x**, as it is the **y**-intercept)*
 
-`P colon space x equals negative 2 comma space y equals 2 open parentheses negative 2 close parentheses to the power of 4 minus 16 open parentheses negative 2 close parentheses squared plus 3 equals negative 29
-Q colon space x equals 0 comma space y equals 3
-R colon space x equals 2 comma space y equals 2 open parentheses 2 close parentheses to the power of 4 minus 16 open parentheses 2 close parentheses squared plus 3 equals negative 29`
+$P : x = - 2 , y = 2 ( - 2 )^{4} - 16 ( - 2 )^{2} + 3 = - 29
+Q : x = 0 , y = 3
+R : x = 2 , y = 2 ( 2 )^{4} - 16 ( 2 )^{2} + 3 = - 29$
 
 **all 3 y-coordinates found**** [1]**
 
@@ -179,19 +179,19 @@ $2x^{2}+4xy=25$
 
 > *Rearrange to make *$y$* the subject*
 
-`table row cell 4 x y end cell equals cell 25 minus 2 x squared end cell row y equals cell fraction numerator 25 minus 2 x squared over denominator 4 x end fraction end cell end table`
+$\begin{gathered} 4 x y & = 25 - 2 x^{2} \\ y = \frac{25 - 2 x^{2}}{4 x} \end{gathered}$
 
 **[1]**
 
 > *Substitute this version of *$y$* into the formula for volume*
 
-`table row V equals cell x squared open parentheses fraction numerator 25 minus 2 x squared over denominator 4 x end fraction close parentheses end cell end table`
+$\begin{gathered} V = x^{2} ( \frac{25 - 2 x^{2}}{4 x} ) \end{gathered}$
 
 **[1]**
 
 > *And expand*
 
-`table attributes columnalign right center left columnspacing 0px end attributes row V equals cell fraction numerator 25 x squared minus 2 x to the power of 4 over denominator 4 x end fraction end cell row blank equals cell fraction numerator 25 x minus 2 x cubed over denominator 4 end fraction end cell end table`
+$\begin{array}{rcl} V = \frac{25 x^{2} - 2 x^{4} }{4 x} \\ = \frac{25 x - 2 x^{3}}{4} \end{array}$
 
 > *Write in the form given in the question*
 
@@ -216,7 +216,7 @@ $\frac{25}{4}=\frac{3}{2}x^{2}\,x^{2}=\frac{25}{6}\,x=\pm\frac{5}{\sqrt{6}}$
 
 > *Reject the negative solution as **x** is a side length*
 
-`up diagonal strike x equals negative fraction numerator 5 over denominator square root of 6 end fraction end strike space comma space space x equals fraction numerator 5 over denominator square root of 6 end fraction`
+$\cancel{x = - \frac{5}{ \sqrt{6} } } , x = \frac{5}{ \sqrt{6} }$
 
 **[1]**
 
@@ -229,7 +229,7 @@ $x=\frac{5\sqrt{6}}{6}$ **[1]**
 ### 3() — 2 marks
 > *Substitute the value of **x** found in (b) into the formula for **V, **taking care with brackets and powers in your calculator*
 
-`V equals 25 over 4 open parentheses fraction numerator 5 square root of 6 over denominator 6 end fraction close parentheses minus 1 half open parentheses fraction numerator 5 square root of 6 over denominator 6 end fraction close parentheses cubed`
+$V = \frac{25}{4} ( \frac{5 \sqrt{6} }{6} ) - 1 \frac{1}{2} ( \frac{5 \sqrt{6} }{6} )^{3}$
 
 **[1]**
 
@@ -270,7 +270,7 @@ $v=\frac{dx}{dt}=12t^{2}-27$
 
 > *Solve *$v=0$* to find the time when the direction of motion reverses.*
 
-`table row cell 12 t squared minus 27 end cell equals 0 row cell t squared end cell equals cell 27 over 12 end cell row t equals cell 3 over 2 end cell end table`
+$\begin{gathered} 12 t^{2} - 27 & = 0 \\ t^{2} & = \frac{27}{12} \\ t = \frac{3}{2} \end{gathered}$
 
 **Method to find t ****[1] **
 **Correct value for t**** [1]**
@@ -285,7 +285,7 @@ $"a"=\frac{dv}{dt}=24t$
 
 > *At **A**, *$"a"=a$* and we now know that *$t=\frac{3}{2}$*, so we can set up and solve an equation for *$a$*.*
 
-`a equals 24 open parentheses 3 over 2 close parentheses equals 36`
+$a = 24 ( \frac{3}{2} ) = 36$
 
 $a=36m/s^{2}$* ***[1]**
 
@@ -332,13 +332,13 @@ $\mathrm{Gradient}=\frac{5.2--6}{7-3}=\frac{11.2}{4}$
 
 **[1]**
 
-`3 t squared minus 8 t plus 5 equals 0
-open parentheses 3 t minus 5 close parentheses open parentheses t minus 1 close parentheses equals 0
-t equals 5 over 3 comma space space space space t equals 1`
+$3 t^{2} - 8 t + 5 = 0
+( 3 t - 5 ) ( t - 1 ) = 0
+t = \frac{5}{3} , t = 1$
 
 **[1]**
 
-*For Q,  *$2t-4=0$* *`table row cell 2 t end cell equals 4 row t equals 2 end table`
+*For Q,  *$2t-4=0$* *$\begin{gathered} 2 t & = 4 \\ t = 2 \end{gathered}$
 
 **[1]**
 
@@ -428,7 +428,7 @@ $2kx^{3}-16=0$
 
 > *At **A**, *$x=\frac{2}{3}$*, so substitute in and rearrange to find *$k$*.*
 
-`table row cell 2 k open parentheses 2 over 3 close parentheses cubed end cell equals 16 row cell 8 over 27 k end cell equals 8 row k equals cell fraction numerator 8 cross times 27 over denominator 8 end fraction end cell row k equals 27 end table`
+$\begin{gathered} 2 k ( \frac{2}{3} )^{3} & = 16 \\ \frac{8}{27} k & = 8 \\ k = \frac{8 \times 27}{8} \\ k = 27 \end{gathered}$
 
 **[1]**
 
@@ -438,7 +438,7 @@ $y=27x^{2}+\frac{16}{x}$
 
 > *and we can use this equation with the coordinates of **A **to set up and solve an equation for *$a$*.*
 
-`table row a equals cell 27 open parentheses 2 over 3 close parentheses squared plus fraction numerator 16 over denominator open parentheses 2 over 3 close parentheses end fraction end cell row a equals cell 27 cross times 4 over 9 plus 16 cross times 3 over 2 end cell row a equals cell 12 plus 24 end cell row a equals 36 end table`
+$\begin{array}{cc}a = & 27 ( \frac{2}{3} ) ^{2} + \frac{16}{ ( \frac{2}{3} ) } \\ a = & 27 \times \frac{4}{9} + 16 \times \frac{3}{2} \\ a = & 12 + 24 \\ a = 36\end{array}$
 
 $a=36$** ****[1]**
 
@@ -476,13 +476,13 @@ $\mathrm{Gradient}=\frac{5--5}{2.6-1.4}=\frac{10}{1.2}=8.333...$
 
 > *"The point *$A$* with coordinates (2, –6) lies on *$C$*" so substitute the point into the equation to form one equation in *$a$* and *$b$*.*
 
-`negative 6 equals a open parentheses 2 close parentheses cubed plus b open parentheses 2 close parentheses squared minus 12 open parentheses 2 close parentheses plus 6`
+$- 6 = a ( 2 )^{3} + b ( 2 )^{2} - 12 ( 2 ) + 6$
 
 **[1]**
 
 > *Simplify to form the first of two simultaneous equations.*
 
-`table row cell negative 6 end cell equals cell 8 a plus 4 b minus 24 plus 6 end cell row cell 8 a plus 4 b end cell equals 12 row cell divided by 4 space space space space space space space space space space space space end cell equals cell space space space divided by 4 end cell row cell 2 a plus b end cell equals 3 end table`
+$\begin{gathered} - 6 & = 8 a + 4 b - 24 + 6 \\ 8 a + 4 b & = 12 \\ \div 4 & = \div 4 \\ 2 a + b & = 3 \end{gathered}$
 
 > *To form the second equation in *$a$* and *$b$*, **we can use "the gradient of the curve at *$A$* is 16". Differentiate *$y$*.*
 
@@ -492,23 +492,23 @@ $\frac{dy}{dx}=3ax^{2}+2bx-12$
 
 > *When *$x=2$*, *$\frac{dy}{dx}=16$*. Substitute these into the above.*
 
-`16 equals 3 a open parentheses 2 close parentheses squared plus 2 b open parentheses 2 close parentheses minus 12`
+$16 = 3 a ( 2 )^{2} + 2 b ( 2 ) - 12$
 
 **[1]**
 
 > *Simplify this to form a second equation in *$a$* and *$b$*.*
 
-`table row 16 equals cell 12 a plus 4 b minus 12 end cell row cell 12 a plus 4 b end cell equals 28 row cell divided by 4 space space space space space space space space space space space space space space end cell equals cell space space space space divided by 4 end cell row cell 3 a plus b end cell equals 7 end table`
+$\begin{gathered} 16 = 12 a + 4 b - 12 \\ 12 a + 4 b & = 28 \\ \div 4 & = \div 4 \\ 3 a + b & = 7 \end{gathered}$
 
 > *Set up the two simultaneous equations next to each other and solve.*
 
-`table row cell 3 a plus b end cell equals cell 7 space space space space circle enclose 1 end cell row cell 2 a plus b end cell equals cell 3 space space space space circle enclose 2 end cell row cell circle enclose 1 minus circle enclose 2 colon space space space space space space space space space a end cell equals 4 end table`
+$\begin{gathered} 3 a + b & = 7 \textcircled{1} \\ 2 a + b & = 3 \textcircled{2} \\ \textcircled{1} - \textcircled{2} : a & = 4 \end{gathered}$
 
 **[1]**
 
 > *Substitute this into *`circle enclose 1`* or *`circle enclose 2`*. Choosing *`circle enclose 1`*;*
 
-`table row cell 3 open parentheses 4 close parentheses plus b end cell equals 7 row cell 12 plus b end cell equals 7 row b equals cell negative 5 end cell end table`
+$\begin{gathered} 3 ( 4 ) + b & = 7 \\ 12 + b & = 7 \\ b = - 5 \end{gathered}$
 
 **[1]**
 
@@ -518,7 +518,7 @@ $y=4x^{3}-5x^{2}-12x+6$
 
 > *And we can substitute *$x=3$* to find the *$y$* coordinate.*
 
-`table row y equals cell 4 open parentheses 3 close parentheses cubed minus 5 open parentheses 3 close parentheses squared minus 12 open parentheses 3 close parentheses plus 6 end cell row blank equals 33 end table`
+$\begin{gathered} y = 4 ( 3 )^{3} - 5 ( 3 )^{2} - 12 ( 3 ) + 6 \\ = 33 \end{gathered}$
 
 $y=33$* ***[1]**
 
@@ -572,13 +572,13 @@ $\frac{dv}{dt}=6t-18$
 
 > *Equate *$\frac{dv}{dt}$* to zero and solve for *$t$*.*
 
-`table attributes columnalign right center left columnspacing 0px end attributes row cell 6 t minus 18 end cell equals 0 row cell 6 t end cell equals 18 row t equals 3 end table`
+$\begin{array}{rcl} 6 t - 18 & = 0 \\ 6 t & = 18 \\ t = 3 \end{array}$
 
 **[1]**
 
 > *Substitute *$t=3$* into the **velocity** equation, or *$\frac{ds}{dt}$*.*
 
-`v equals fraction numerator d s over denominator d t end fraction equals 3 open parentheses 3 close parentheses squared minus 18 open parentheses 3 close parentheses plus 33`
+$v = \frac{d s}{d t} = 3 ( 3 )^{2} - 18 ( 3 ) + 33$
 
 **[1]**
 
@@ -596,19 +596,19 @@ $\frac{ds}{dt}=v=3t^{2}-18t+33$
 
 **[1]**
 
-> $v$* is quadratic so you can find the minimum point by completing the square to get *`v equals a open parentheses x plus p close parentheses squared plus q`* where *`open parentheses negative p comma space q close parentheses`* is the turning point.*
+> $v$* is quadratic so you can find the minimum point by completing the square to get *$v = a ( x + p )^{2} + q$* where *$( - p , q )$* is the turning point.*
 
-`table row v equals cell 3 open parentheses t squared minus 6 t close parentheses plus 33 end cell end table`
+$\begin{gathered} v = 3 ( t^{2} - 6 t ) + 33 \end{gathered}$
 
 **attempt to complete the square ****[1]**
 
-`table row blank equals cell 3 open square brackets open parentheses t minus 3 close parentheses squared minus 9 close square brackets plus 33 end cell row blank equals cell 3 open parentheses t minus 3 close parentheses squared minus 27 plus 33 end cell row blank equals cell 3 open parentheses t minus 3 close parentheses squared plus 6 end cell end table`
+$\begin{gathered} = 3 [ ( t - 3 )^{2} - 9 ] + 33 \\ = 3 ( t - 3 )^{2} - 27 + 33 \\ = 3 ( t - 3 )^{2} + 6 \end{gathered}$
 
 **completing the square**** ****correctly**** [1]**
 
 > *Therefore;*
 
-*minimum point of velocity equation is** *`table row blank blank cell open parentheses 3 comma space 6 close parentheses end cell end table`
+*minimum point of velocity equation is** *$\begin{gathered} ( 3 , 6 ) \end{gathered}$
 
 **[1]**
 
@@ -621,7 +621,7 @@ $\frac{ds}{dt}=v=3t^{2}-18t+33$
 ### 24() — 2 marks
 > *We can estimate the gradient at the point **A ** by drawing a tangent on the graph at **A **and calculating its gradient.*
 
-> *First draw a tangent at the point *`open parentheses 2 comma space 7 close parentheses`*. This should be a straight line (use a ruler or straight edge) touching the curve at **A **but not crossing the curve.*
+> *First draw a tangent at the point *$( 2 , 7 )$*. This should be a straight line (use a ruler or straight edge) touching the curve at **A **but not crossing the curve.*
 
 ![aqa-gcse-estimating-gradients-m-q-10a-diagram-1](assets/057-aqa-gcse-estimating-gradients-m-q-10a-diagram-1.png)
 
@@ -663,13 +663,13 @@ $\mathrm{perimeter} \mathrm{of}ABCED=3x+2y$
 
 > *Equate this to 100 and write *$y$* in terms of *$x$*.*
 
-`table row cell 3 x plus 2 y end cell equals 100 row cell 2 y end cell equals cell 100 minus 3 x end cell row y equals cell fraction numerator 100 minus 3 x over denominator 2 end fraction end cell end table`
+$\begin{gathered} 3 x + 2 y & = 100 \\ 2 y & = 100 - 3 x \\ y = \frac{100 - 3 x}{2} \end{gathered}$
 
 **[1]**
 
 > *We can now write an expression for the area of rectangle **ABCD** in terms of *$x$* *
 
-`table row cell area space A B C D end cell equals cell x y end cell row blank equals cell x open parentheses fraction numerator 100 minus 3 x over denominator 2 end fraction close parentheses end cell end table`
+$\begin{gathered} \text{area} A B C D & = x y \\ = x ( \frac{100 - 3 x}{2} ) \end{gathered}$
 
 > *Triangle **CED **is equilateral so all its internal angles are 60°. So its area is;*
 
@@ -677,23 +677,23 @@ $\mathrm{area}CED=\frac{1}{2}x\timesx\times\mathrm{sin}60^{\circ}$
 
 > *It's useful to know that *$\mathrm{sin}60^{\circ}=\frac{\sqrt{3}}{2}$* (and *$\mathrm{sin}30^{\circ}=\frac{1}{2}$*) but you can also obtain the exact value of *$\mathrm{sin}60^{\circ}$* from your calculator. *
 
-`table row cell area space C E D end cell equals cell 1 half x squared cross times fraction numerator square root of 3 over denominator 2 end fraction end cell row blank equals cell fraction numerator square root of 3 over denominator 4 end fraction x squared end cell end table`
+$\begin{gathered} \text{area} C E D & = 1 \frac{1}{2} x^{2} \times \frac{ \sqrt{3} }{2} \\ = \frac{ \sqrt{3} }{4} x^{2} \end{gathered}$
 
 > *Thus *$R$*, the total area of **ABCED **in terms of *$x$*, **is;*
 
-`table row R equals cell Area space A B C D plus Area space C E D end cell row blank equals cell x open parentheses fraction numerator 100 minus 3 x over denominator 2 end fraction close parentheses plus space fraction numerator square root of 3 over denominator 4 end fraction x squared end cell end table`
+$\begin{gathered} R = \text{Area} A B C D + \text{Area} C E D \\ = x ( \frac{100 - 3 x}{2} ) + \frac{ \sqrt{3} }{4} x^{2} \end{gathered}$
 
 **[1]**
 
 > *Rewrite by factorising *$\frac{x}{4}$* out of both parts of the equation.*
 
-> `table row A equals cell x over 4 open parentheses 2 open parentheses 100 minus 3 x close parentheses close parentheses plus space x over 4 open parentheses square root of 3 x close parentheses end cell row blank equals cell x over 4 open parentheses 200 minus 6 x close parentheses plus x over 4 open parentheses square root of 3 x close parentheses end cell end table`* *
+> $\begin{gathered} A = \frac{x}{4} ( 2 ( 100 - 3 x ) ) + \frac{x}{4} ( \sqrt{3} x ) \\ = \frac{x}{4} ( 200 - 6 x ) + \frac{x}{4} ( \sqrt{3} x ) \end{gathered}$* *
 
 > *(note that the *$x$* lies outside the *$\sqrt{3}$*)*
 
 > $\frac{x}{4}$* is outside both brackets so this can be simplified into one bracket using the distributive law.*
 
-`table row A equals cell x over 4 open parentheses 200 minus 6 x plus square root of 3 x close parentheses end cell end table`
+$\begin{gathered} A = \frac{x}{4} ( 200 - 6 x + \sqrt{3} x ) \end{gathered}$
 
 `equation`** ****[1]**
 
@@ -702,27 +702,27 @@ $\mathrm{area}CED=\frac{1}{2}x\timesx\times\mathrm{sin}60^{\circ}$
 ### 19((b)) — 3 marks
 *i)** **We need to differentiate *$R$*. Start by expanding the outer bracket.*
 
-`table row R equals cell x over 4 cross times 200 minus x over 4 stretchy left square bracket 6 minus square root of 3 stretchy right square bracket x end cell row blank equals cell 50 x minus open parentheses fraction numerator 6 minus square root of 3 over denominator 4 end fraction close parentheses x squared end cell end table`
+$\begin{gathered} R = \frac{x}{4} \times 200 - \frac{x}{4} [ 6 - \sqrt{3} ] x \\ = 50 x - ( \frac{6 - \sqrt{3} }{4} ) x^{2} \end{gathered}$
 
 > *Now differentiate.*
 
-`table row cell fraction numerator d R space over denominator d x end fraction end cell equals cell 50 minus 2 open parentheses fraction numerator 6 minus square root of 3 over denominator 4 end fraction close parentheses x end cell end table`
+$\begin{gathered} \frac{d R }{d x} & = 50 - 2 ( \frac{6 - \sqrt{3} }{4} ) x \end{gathered}$
 
 **[1]**
 
 > *Simplify and equate to zero to find stationary points.*
 
-`table attributes columnalign right center left columnspacing 0px end attributes row cell 50 minus open parentheses fraction numerator 6 minus square root of 3 over denominator 2 end fraction close parentheses x end cell equals 0 end table`
+$\begin{array}{rcl} 50 - ( \frac{6 - \sqrt{3} }{2} ) x & = 0 \end{array}$
 
 > *Solve for **x. **(This is a linear equation so there is only one stationary point, so it must be the maximum asked for in the question.)*
 
-`table attributes columnalign right center left columnspacing 0px end attributes row 50 equals cell open parentheses fraction numerator 6 minus square root of 3 over denominator 2 end fraction close parentheses x end cell row 100 equals cell open parentheses 6 minus square root of 3 close parentheses x end cell end table`
+$\begin{array}{rcl} 50 = ( \frac{6 - \sqrt{3} }{2} ) x \\ 100 = ( 6 - \sqrt{3} ) x \end{array}$
 
-`bold italic x bold equals table row blank blank cell fraction numerator bold 100 over denominator bold 6 bold minus square root of bold 3 end fraction end cell end table` **[1]**
+`x = | _ _ ( 100)/( 6 - sqrt( 3) | |` **[1]**
 
 > *ii) The intention of this question could be made clearer by asking "Explain how you know this is the maximum value of *$R$* rather than a minimum or point of inflection".*
 
-> *The equation *`table attributes columnalign right center left columnspacing 0px end attributes row R equals cell 50 x minus stretchy left parenthesis fraction numerator 6 minus square root of 3 over denominator 4 end fraction stretchy right parenthesis x squared end cell end table`* is a **quadratic equation** with a negative coefficient of *$x^{2}$*. Therefore it is an** n-shaped parabola** and has only one stationary point, which is a maximum.*
+> *The equation *$\begin{array}{rcl} R = 50 x - ( \frac{6 - \sqrt{3} }{4} ) x^{2} \end{array}$* is a **quadratic equation** with a negative coefficient of *$x^{2}$*. Therefore it is an** n-shaped parabola** and has only one stationary point, which is a maximum.*
 
 $R$** is a quadratic with a negative coefficient of **$x^{2}$** so it is an n-shaped parabola ****[1]**
 
@@ -771,7 +771,7 @@ $\frac{ds}{dt}=v=3t^{2}+8t-5$
 
 **[1]**
 
-> *Substitute *`open parentheses V comma space T close parentheses`* into the equation for velocity.*
+> *Substitute *$( V , T )$* into the equation for velocity.*
 
 $V=3T^{2}+8T-5$
 
@@ -779,29 +779,29 @@ $V=3T^{2}+8T-5$
 
 > *Rearrange to equal zero.*
 
-`table row cell 3 T squared plus 8 T minus 5 minus V end cell equals 0 end table`
+$\begin{gathered} 3 T^{2} + 8 T - 5 - V & = 0 \end{gathered}$
 
 > *Now solve for *$T$*, treating "*$-5-V$*" as the  *$c$* in *$ax^{2}+bx+c=0$* ! This can be done by completing the square or using the quadratic formula- but the quadratic formula is recommended as the easier method in this instance.*
 
-`T equals fraction numerator negative 8 plus-or-minus square root of 8 squared minus 4 cross times 3 cross times open parentheses negative 5 minus V close parentheses end root over denominator 2 cross times 3 end fraction`
+$T = \frac{- 8 \pm \sqrt{8^{2} - 4 \times 3 \times ( - 5 - V )} }{2 \times 3}$
 
 **correct substitution into quadratic formula, or at least one correct step of completing the square ****[1]**
 
 > *Evaluate.*
 
-`table row T equals cell fraction numerator negative 8 plus-or-minus square root of 64 minus 12 cross times open parentheses negative 5 minus V close parentheses end root over denominator 6 end fraction end cell row blank equals cell fraction numerator negative 8 plus-or-minus square root of 64 plus 60 plus 12 V end root over denominator 6 end fraction end cell row blank equals cell fraction numerator negative 8 plus-or-minus square root of 124 plus 12 V end root over denominator 6 end fraction end cell end table`
+$\begin{gathered} T = \frac{- 8 \pm \sqrt{64 - 12 \times ( - 5 - V )} }{6} \\ = \frac{- 8 \pm \sqrt{64 + 60 + 12 V} }{6} \\ = \frac{- 8 \pm \sqrt{124 + 12 V} }{6} \end{gathered}$
 
 **[1]**
 
 > *Factorise the 4 from *$124+12V$* so that the surd can be simplified.*
 
-`table row blank equals cell fraction numerator negative 8 plus-or-minus square root of 4 open parentheses 31 plus 3 V close parentheses end root over denominator 6 end fraction end cell row blank equals cell fraction numerator negative 8 plus-or-minus square root of 4 square root of 31 plus 3 V end root over denominator 6 end fraction end cell row blank equals cell fraction numerator negative 8 plus-or-minus 2 square root of 31 plus 3 V end root over denominator 6 end fraction end cell end table`
+$\begin{gathered} = \frac{- 8 \pm \sqrt{4 ( 31 + 3 V )} }{6} \\ = \frac{- 8 \pm \sqrt{4 \sqrt{31} + 3 V} }{6} \\ = \frac{- 8 \pm 2 \sqrt{31 + 3 V} }{6} \end{gathered}$
 
 **[1]**
 
 > *Finally, cancel down the fraction.*
 
-`table attributes columnalign right center left columnspacing 0px end attributes row blank bold equals cell fraction numerator bold minus up diagonal strike bold 8 bold plus-or-minus up diagonal strike bold 2 square root of bold 31 bold plus bold 3 bold V end root over denominator up diagonal strike bold 6 end fraction bold equals fraction numerator bold minus bold 4 bold plus-or-minus square root of bold 31 bold plus bold 3 bold V end root over denominator bold 3 end fraction end cell end table`* ***[1]**
+`table columnalign right center left columnspacing 0px end | _ = ( - / 8 +/- / 2 sqrt( 31 + 3 V ))/(/ 6) = ( - 4 +/- sqrt( 31 + 3 V ))/( 3) | |`* ***[1]**
 
 ## Q20 — medium — 2 marks · exam-questions
 
@@ -916,7 +916,7 @@ $\frac{dy}{dx}=4x^{3}$* ***[1]**
 ### 2() — 1 marks
 > *Reduce the power by one and multiply by the original power*
 
-`fraction numerator d y over denominator d x end fraction equals open parentheses negative 3 close parentheses cross times 2 x to the power of negative 4 end exponent`
+$\frac{d y}{d x} = ( - 3 ) \times 2 x^{- 4}$
 
 $\frac{dy}{dx}=-6x^{-4}\mathrm{or}-\frac{6}{x^{4}}$* ***[1]**
 
@@ -929,7 +929,7 @@ $y=4x^{-1}$
 
 > *And differentiate*
 
-`fraction numerator d y over denominator d x end fraction equals open parentheses negative 1 close parentheses cross times 4 x to the power of negative 2 end exponent`
+$\frac{d y}{d x} = ( - 1 ) \times 4 x^{- 2}$
 
 $\frac{dy}{dx}=-4x^{-2}\mathrm{or}-\frac{4}{x^{2}}$* ***[1]**
 
@@ -971,7 +971,7 @@ $\frac{dy}{dx}=12x^{2}+2$ **[1]**
 ### 2() — 1 marks
 > *Reduce the power by one and multiply by the original power*
 
-`fraction numerator d y over denominator d x end fraction equals open parentheses negative 2 close parentheses cross times negative 5 x to the power of negative 3 end exponent`
+$\frac{d y}{d x} = ( - 2 ) \times - 5 x^{- 3}$
 
 $\frac{dy}{dx}=10x^{-3}\mathrm{or}\frac{10}{x^{3}}$* ***[1]**
 
@@ -984,7 +984,7 @@ $y=\frac{1}{3}\times\frac{1}{x}=\frac{1}{3}x^{-1}$
 
 > *And differentiate*
 
-`fraction numerator d y over denominator d x end fraction equals open parentheses negative 1 close parentheses cross times 1 third x to the power of negative 2 end exponent`
+$\frac{d y}{d x} = ( - 1 ) \times 1 \frac{1}{3} x^{- 2}$
 
 $\frac{dy}{dx}=-\frac{1}{3}x^{-2}\mathrm{or}-\frac{1}{3x^{2}}$* ***[1]**
 
@@ -1012,7 +1012,7 @@ $\frac{dy}{dx}=-\frac{1}{3}x^{-2}\mathrm{or}-\frac{1}{3x^{2}}$* ***[1]**
 
 > *Gradient is negative as tangent slopes downwards*
 
-`table row Gradient equals cell negative fraction numerator 3.8 minus 0 over denominator 3 minus 0 end fraction equals negative fraction numerator 3.8 over denominator 3 end fraction end cell row blank equals cell negative 1.2666... end cell end table`
+$\begin{gathered} \text{Gradient} = - \frac{3.8 - 0}{3 - 0} = - \frac{3.8}{3} \\ = - 1.2666... \end{gathered}$
 
 **[1]**
 
@@ -1040,7 +1040,7 @@ $-\frac{5}{3x^{4}}=-\frac{5}{3}\times\frac{1}{x^{4}}=-\frac{5}{3}x^{-4}$
 
 > *Reduce the power by 1 and multiply the original power*
 
-`open parentheses negative 4 close parentheses cross times open parentheses negative 5 over 3 x to the power of negative 5 end exponent close parentheses`
+$( - 4 ) \times ( - \frac{5}{3} x^{- 5} )$
 
 $\frac{20}{3}x^{-5}\mathrm{or}\frac{20}{3x^{5}}$* ***[1]**
 
@@ -1127,11 +1127,11 @@ $4x-6=2$
 
 > *Solve for x*
 
-`table row cell 4 x end cell equals 8 row x equals 2 end table`
+$\begin{gathered} 4 x & = 8 \\ x = 2 \end{gathered}$
 
 > *The question asks for the coordinates, so the y coordinate is also needed. Substitute the found x value into the **original equation **for y*
 
-`table row y equals cell 2 open parentheses 2 close parentheses squared minus 6 open parentheses 2 close parentheses minus 11 end cell row blank equals cell negative 15 end cell end table`
+$\begin{gathered} y = 2 ( 2 )^{2} - 6 ( 2 ) - 11 \\ = - 15 \end{gathered}$
 
 > *Write as a coordinate point*
 
@@ -1168,9 +1168,9 @@ $2x^{2}+x-3=0$
 
 > *Solve by factorising or using the quadratic formula. By factorising:*
 
-`open parentheses 2 x plus 3 close parentheses open parentheses x minus 1 close parentheses equals 0
-2 x plus 3 equals 0 comma space x minus 1 equals 0
-x equals negative 3 over 2 comma space space x equals 1`
+$( 2 x + 3 ) ( x - 1 ) = 0
+2 x + 3 = 0 , x - 1 = 0
+x = - \frac{3}{2} , x = 1$
 
 > *Write the answer as two coordinate points (where y = 0)*
 
@@ -1181,7 +1181,7 @@ $(-\frac{3}{2},0)\mathrm{and}(1,0)$ **[1]**
 ### 2() — 1 marks
 > *On the y-axis, x = 0*
 
-`x equals 0 comma space y equals 2 open parentheses 0 close parentheses squared plus 0 minus 3 equals negative 3`
+$x = 0 , y = 2 ( 0 )^{2} + 0 - 3 = - 3$
 
 > *Write the answer as a coordinate point*
 
@@ -1200,11 +1200,11 @@ $4x+1=0$
 
 > *Solve to find the x value of the turning point (notice that it is a quadratic graph, so there should only be one turning point and this matches the fact that *$\frac{dy}{dx}=0$* is linear*
 
-`table row cell 4 x end cell equals cell negative 1 end cell row x equals cell negative 1 fourth end cell end table`
+$\begin{gathered} 4 x & = - 1 \\ x = - 1 \frac{1}{4} \end{gathered}$
 
 > *Substitute x value into the **original **equation for y*
 
-`table attributes columnalign right center left columnspacing 0px end attributes row y equals cell 2 open parentheses negative 1 fourth close parentheses squared plus open parentheses negative 1 fourth close parentheses minus 3 equals negative 25 over 8 end cell end table`
+$\begin{array}{rcl} y = 2 ( - 1 \frac{1}{4} )^{2} + ( - 1 \frac{1}{4} ) - 3 = - \frac{25}{8} \end{array}$
 
 > *Write down the final answer as a coordinate point*
 
@@ -1237,25 +1237,25 @@ $\frac{dy}{dx}=3x^{2}+2\times\frac{7}{2}x^{1}-2x^{0}$
 ### 2() — 4 marks
 > *i) Substitute x = -3 into the derivative (which is the gradient function) found in part (a)*
 
-`table attributes columnalign right center left columnspacing 0px end attributes row cell fraction numerator d y over denominator d x end fraction end cell equals cell 3 open parentheses negative 3 close parentheses squared plus 7 open parentheses negative 3 close parentheses minus 2 end cell end table`
+$\begin{array}{rcl} \frac{d y}{d x} & = 3 ( - 3 )^{2} + 7 ( - 3 ) - 2 \end{array}$
 
 **[1]**
 
 > *And evaluate, taking care with negative numbers-put them in brackets if using a calculator*
 
-`table row blank equals cell 27 minus 21 minus 2 end cell row blank equals 4 end table`
+$\begin{gathered} = 27 - 21 - 2 \\ = 4 \end{gathered}$
 
 **gradient = 4 ****[1]**
 
 *ii)** **Substitute x = -2/3 into the derivative (which is the gradient function) found in part (a)*
 
-`table attributes columnalign right center left columnspacing 0px end attributes row cell fraction numerator d y over denominator d x end fraction end cell equals cell 3 open parentheses 2 over 3 close parentheses squared plus 7 open parentheses 2 over 3 close parentheses minus 2 end cell end table`
+$\begin{array}{rcl} \frac{d y}{d x} & = 3 ( \frac{2}{3} )^{2} + 7 ( \frac{2}{3} ) - 2 \end{array}$
 
 **[1]**
 
 > *And evaluate, taking care with fractions- put them in brackets if using a calculator*
 
-`table row blank equals cell 4 over 3 plus 14 over 3 minus 2 end cell row blank equals 4 end table`
+$\begin{gathered} = \frac{4}{3} + \frac{14}{3} - 2 \\ = 4 \end{gathered}$
 
 **gradient = 4 ****[1]**
 
@@ -1285,9 +1285,9 @@ $6t^{2}-18t-60=0$
 
 > *Solve for x. Start by looking for common factors; 6 is common so divide both sides of the equation by 6 before factorising*
 
-`table attributes columnalign right center left columnspacing 0px end attributes row cell t squared minus 3 t minus 10 end cell equals 0 row cell open parentheses t minus 5 close parentheses open parentheses t plus 2 close parentheses end cell equals 0 end table`
+$\begin{array}{rcl} t^{2} - 3 t - 10 & = 0 \\ ( t - 5 ) ( t + 2 ) & = 0 \end{array}$
 
-> * *`table row t equals cell 5 comma space up diagonal strike t equals negative 2 end strike end cell end table`
+> * *$\begin{gathered} t = 5 , \cancel{t = - 2} \end{gathered}$
 
 > *t cannot be negative so reject t = -2 (it is best practice to acknowledge it by writing it down but cross it out to show you understand it can't be a solution)*
 
@@ -1371,7 +1371,7 @@ $36t-24=3$
 
 > *Solve*
 
-`table attributes columnalign right center left columnspacing 0px end attributes row cell 36 t end cell equals 27 row t equals cell 27 over 36 end cell end table`
+$\begin{array}{rcl} 36 t & = 27 \\ t = \frac{27}{36} \end{array}$
 
 **t**** = 0.75 seconds**** [1]**
 
@@ -1394,8 +1394,8 @@ $3x^{2}-14x-5=0$
 
 > *Use any quadratic method to solve for x (notice that it is a cubic graph, so there should be two turning points and this matches the fact that *$\frac{dy}{dx}=0$* is quadratic*
 
-`open parentheses 3 x plus 1 close parentheses open parentheses x minus 5 close parentheses equals 0
-3 x plus 1 equals 0 comma space space space x minus 5 equals 0`
+$( 3 x + 1 ) ( x - 5 ) = 0
+3 x + 1 = 0 , x - 5 = 0$
 
 > *Note that you are only asked for the x-coordinates*
 
@@ -1431,7 +1431,7 @@ $x=-\frac{1}{3}$ **[1]**
 
 > *Your gradient will depend on your tangent so there is some margin of error permitted in exam questions. For the tangent drawn above, the calculation and answer would be as follows.*
 
-*gradient = *`fraction numerator 17 space minus space 7 over denominator 0 space minus space open parentheses negative 1.5 close parentheses end fraction`
+*gradient = *$\frac{17 - 7}{0 - ( - 1.5 )}$
 
 $\frac{rise}{run}$* ***or gradient formula used with tangent line**** [1]**
 
@@ -1470,7 +1470,7 @@ $15x^{2}-2x-8=0$
 
 > *Solve using your preferred method; quadratic formula, completing the square or factorisation (the question doesn't ask for any rounding, which is a clue that the quadratic will factorise). Here we will use the quadratic formula as it looks like a trickier factorisation.*
 
-`x equals fraction numerator negative open parentheses negative 2 close parentheses plus-or-minus square root of open parentheses negative 2 close parentheses squared minus 4 cross times 15 cross times open parentheses negative 8 close parentheses end root over denominator 2 cross times 15 end fraction`
+$x = \frac{- ( - 2 ) \pm \sqrt{( - 2 )^{2} - 4 \times 15 \times ( - 8 )} }{2 \times 15}$
 
 ** ****correct first step to solving using any of the above methods ****[1]**
 
@@ -1485,7 +1485,7 @@ $x=\frac{4}{5},x=-\frac{2}{3}$  **[1]**
 ### 1() — 1 marks
 > *A is the y-intersect. The curve intersects the y-axis when x = 0*
 
-`x equals 0 comma space y equals 1 minus 0 cubed minus 6 open parentheses 0 close parentheses squared minus 9 open parentheses 0 close parentheses`
+$x = 0 , y = 1 - 0^{3} - 6 ( 0 )^{2} - 9 ( 0 )$
 
 > *(or just ignore/ cover up all terms with an x)*
 
@@ -1510,27 +1510,27 @@ $-3x^{2}-12x-9=0$
 
 > *(notice that it is a cubic graph, so there should be two turning points and this matches the fact that *$\frac{dy}{dx}=0$* is quadratic*
 
-`x squared plus 4 x plus 3 equals 0
-open parentheses x plus 3 close parentheses open parentheses x plus 1 close parentheses equals 0
-x equals negative 3 comma space space x equals negative 1`
+$x^{2} + 4 x + 3 = 0
+( x + 3 ) ( x + 1 ) = 0
+x = - 3 , x = - 1$
 
 **[1]**
 
 > *We need the full coordinates so substitute each x value into the original equation to find y*
 
-`x equals minus 3 comma space y equals 1 minus open parentheses negative 3 close parentheses cubed minus 6 open parentheses negative 3 close parentheses squared minus 9 open parentheses negative 3 close parentheses equals 1`
+$x = - 3 , y = 1 - ( - 3 )^{3} - 6 ( - 3 )^{2} - 9 ( - 3 ) = 1$
 
-*therefore there is a point at *`open parentheses negative 3 comma space 1 close parentheses`
+*therefore there is a point at *$( - 3 , 1 )$
 
-`x equals minus 1 comma space y equals 1 minus open parentheses negative 1 close parentheses cubed minus 6 open parentheses negative 1 close parentheses squared minus 9 open parentheses negative 1 close parentheses equals 5`
+$x = - 1 , y = 1 - ( - 1 )^{3} - 6 ( - 1 )^{2} - 9 ( - 1 ) = 5$
 
-*therefore there is a point at *`open parentheses negative 1 comma space 5 close parentheses`
+*therefore there is a point at *$( - 1 , 5 )$
 
 > *x = -3 is further left than x = -1. We can see from the diagram that the minimum point B is the point with the smallest (furthest left) x-value, where x = -3 *
 
 > *Likewise, C is the maximum point where x = -1*
 
-**B is the minimum point at**** **`open parentheses negative 3 comma space 1 close parentheses`** ****[1] **
+**B is the minimum point at**** **$( - 3 , 1 )$** ****[1] **
 
 **C is the maximum point at **$(-1,5)$** [1]**
 
@@ -1596,7 +1596,7 @@ $x^{2}-4x-5=0$
 
 > *This is a straightforward quadratic to factorise, however you could solve using the quadratic formula or by completing the square if you wish.*
 
-`open parentheses x minus 5 close parentheses open parentheses x plus 1 close parentheses equals 0`
+$( x - 5 ) ( x + 1 ) = 0$
 
 ** ****correct first step to solving, using any of the above methods ****[1]**
 
@@ -1606,8 +1606,8 @@ $x=5,x=-1$
 
 > *Be careful! You are asked for the coordinates, not just the **x** value- so substitute each value of **x** into the equation of the curve to find the corresponding **y** value.*
 
-`y equals open parentheses negative 1 close parentheses cubed minus 6 open parentheses negative 1 close parentheses squared minus 15 open parentheses negative 1 close parentheses equals 8
-y equals open parentheses 5 close parentheses cubed minus 6 open parentheses 5 close parentheses squared minus 15 open parentheses 5 close parentheses equals negative 100`
+$y = ( - 1 )^{3} - 6 ( - 1 )^{2} - 15 ( - 1 ) = 8
+y = ( 5 )^{3} - 6 ( 5 )^{2} - 15 ( 5 ) = - 100$
 
 $(-1,8)\mathrm{and}(5,-100)$  **[1]**
 
@@ -1618,25 +1618,25 @@ $(-1,8)\mathrm{and}(5,-100)$  **[1]**
 ### 13((b)) — 5 marks
 > *The **area** under a **speed-time graph** represents the **distance** (because distance = speed × time).*
 
-> *The speed-time graph here is in the shape of a trapezium and area of a trapezium = *`1 half open parentheses a plus b close parentheses h`* where *$a$* and *$b$* are the parallel lengths and *$h$* is the perpendicular height. We can read these values from the graph:*
+> *The speed-time graph here is in the shape of a trapezium and area of a trapezium = *$1 \frac{1}{2} ( a + b ) h$* where *$a$* and *$b$* are the parallel lengths and *$h$* is the perpendicular height. We can read these values from the graph:*
 
 ![gcse-ocr-tqs-real-life-graphs-h4b](assets/024-gcse-ocr-tqs-real-life-graphs-h4b.png)
 
-*Distance = area = *`1 half open parentheses 40 plus 50 close parentheses cross times k`
+*Distance = area = *$1 \frac{1}{2} ( 40 + 50 ) \times k$
 
 **attempt to find the area under graph ****[1] **
 **correct expression in terms of k for area under graph ****[1]**
 
 > *We can equate this to 1350, the total distance in metres.*
 
-`1 half open parentheses 40 plus 50 close parentheses cross times k equals 1350`
+$1 \frac{1}{2} ( 40 + 50 ) \times k = 1350$
 
 **equating to a distance ****[1] **
 **equating to 1350 ****[1]**
 
 > *Solve for **k.*
 
-`table attributes columnalign right center left columnspacing 0px end attributes row cell 45 k end cell equals 2700 end table`
+$\begin{array}{rcl} 45 k & = 2700 \end{array}$
 
 $k=30$** ****[1]**
 
@@ -1673,18 +1673,18 @@ $4x^{2}-64=0\,x^{2}-16=0\,x^{2}=16\,x=\pm4$
 
 > *For both x coordinates (4 and -4), the y coordinate is needed so substitute each into the original equation in y*
 
-`x equals 4 comma space y equals 4 open parentheses 4 close parentheses plus 64 over 4 plus 7 equals 39
-x equals negative 4 comma space y equals 4 open parentheses negative 4 close parentheses plus fraction numerator 64 over denominator negative 4 end fraction plus 7 equals negative 25`
+$x = 4 , y = 4 ( 4 ) + \frac{64}{4} + 7 = 39
+x = - 4 , y = 4 ( - 4 ) + \frac{64}{- 4} + 7 = - 25$
 
 > *Write both coordinate answers*
 
-`open parentheses negative 4 comma space minus 25 close parentheses space and space open parentheses 4 comma space 39 close parentheses` **[1]** 
+`( - 4 , - 25 ) and ( 4 , 39 )` **[1]** 
 **Both points must be fully correct.**
 
 ### 3() — 2 marks
-> *The distance between two points *`open parentheses x subscript 1 comma space y subscript 1 close parentheses`* and *`open parentheses x subscript 2 comma space y subscript 2 close parentheses`* is *`square root of open parentheses x subscript 1 minus x subscript 2 close parentheses squared plus open parentheses y subscript 1 minus y subscript 2 close parentheses squared end root`
+> *The distance between two points *$( x_{1} , y_{1} )$* and *$( x_{2} , y_{2} )$* is *$\sqrt{( x_{1} - x_{2} )^{2} + ( y_{1} - y_{2} )^{2}}$
 
-`d equals square root of left parenthesis left parenthesis negative 4 right parenthesis minus 4 right parenthesis squared plus left parenthesis open parentheses negative 25 close parentheses minus 39 right parenthesis squared end root`
+$d = \sqrt{( ( - 4 ) - 4 )^{2} + ( ( - 25 ) - 39 )^{2}}$
 
 **correct use of distance between points formula ****[1]**
 
@@ -1714,7 +1714,7 @@ $x^{2}-9<0$
 
 > *To solve a quadratic inequality, first ignore the inequality sign and solve as an equation.*
 
-`table row cell x squared minus 9 end cell equals 0 row cell x squared end cell equals 9 row x equals cell plus-or-minus 3 end cell end table`
+$\begin{gathered} x^{2} - 9 & = 0 \\ x^{2} & = 9 \\ x = \pm 3 \end{gathered}$
 
 > *Now you have the two roots, sketch the graph of *$\frac{dy}{dx}$* and mark the region where *$\frac{dy}{dx}<0$*.*
 
@@ -1763,8 +1763,8 @@ $\mathrm{Gradient}=\frac{27-0}{40-0}=\frac{27}{40}$
 ### 1() — 1 marks
 > *Initially means when the time is zero (**t** = 0) so substitute **t** = 0 into the displacement equation*
 
-`t equals 0 comma space s equals 1 third open parentheses 0 close parentheses cubed minus 5 over 2 open parentheses 0 close parentheses squared plus 20 open parentheses 0 close parentheses minus 15
-space space space space space space space space space space space space space equals negative 15`
+$t = 0 , s = 1 \frac{1}{3} ( 0 )^{3} - \frac{5}{2} ( 0 )^{2} + 20 ( 0 ) - 15
+ = - 15$
 
 *(or just ignore all terms except the constant term)* *This means that the initial displacement was -15 metres from point **O*
 
@@ -1791,7 +1791,7 @@ $\frac{dv}{dt}=2t-5$
 
 > *Equate to zero*
 
-`table attributes columnalign right center left columnspacing 0px end attributes row cell 2 t minus 5 end cell equals 0 row cell 2 t end cell equals 5 end table`
+$\begin{array}{rcl} 2 t - 5 & = 0 \\ 2 t & = 5 \end{array}$
 
 $t=2.5$** [1] **
 **This means that the particle's velocity reached its minimum (and its acceleration was instantaneously 0) after 2.5 seconds**
@@ -1805,7 +1805,7 @@ $2t-5<0$
 
 **[1]**
 
-`table row cell 2 t end cell less than 5 row t less than cell 2.5 end cell end table`
+$\begin{gathered} 2 t & < 5 \\ t < 2.5 \end{gathered}$
 
 **The particle is decelerating for 2.5 seconds ****[1]**
 
@@ -1817,7 +1817,7 @@ $2t-5<0$
 
 > *We already found **t**-value of the minimum point in part (b) but we could also **complete the square**, or use the knowledge that for any quadratic** *$y=ax^{2}+bx+c$*, the axis of symmetry is at *$x=\frac{-b}{2a}$
 
-*axis of symmetry at *`t equals fraction numerator negative open parentheses negative 5 close parentheses over denominator 2 end fraction equals 2.5`
+*axis of symmetry at *$t = \frac{- ( - 5 )}{2} = 2.5$
 
 > *Now we can sketch; all we're really looking for is when the gradient is negative*
 
@@ -1844,15 +1844,15 @@ $2t-5<0$
 
 > *Use this to find the derivative of each term.*
 
-`table row cell y space end cell equals cell space 24 space plus space 5 x space minus space x to the power of 2 space end exponent end cell row cell fraction numerator straight d y over denominator straight d x end fraction end cell equals cell space 0 space plus thin space 5 space plus space 2 cross times open parentheses negative x to the power of 2 minus 1 end exponent space close parentheses end cell row blank equals cell space 5 space minus space 2 x end cell end table`
+$\begin{gathered} y & = 24 + 5 x - x^{2 } \\ \frac{ \mathrm{d} y}{ \mathrm{d} x} & = 0 + 5 + 2 \times ( - x^{2 - 1} ) \\ = 5 - 2 x \end{gathered}$
 
 **  1 mark for each correct term**** [2]**
 
 > *Find the gradient at the point where *$x=-1.5$* by substituting it into the derivative.*
 
-`table row cell space 5 space minus space 2 open parentheses negative 1.5 close parentheses space end cell equals cell space 5 space minus space open parentheses negative 3 close parentheses end cell end table`
+$\begin{gathered} 5 - 2 ( - 1.5 ) & = 5 - ( - 3 ) \end{gathered}$
 
-** **`table row blank blank bold 8 end table` **[1]**
+** **$\begin{gathered} 8 \end{gathered}$ **[1]**
 
 ## Q49 — very_hard — 6 marks · exam-questions
 
@@ -1925,7 +1925,7 @@ $A=lw$
 
 > *Substitute *$l$* with *$40-2w$
 
-`A equals open parentheses 40 minus 2 w close parentheses w`
+$A = ( 40 - 2 w ) w$
 
 **[1]**
 
@@ -1957,13 +1957,13 @@ $w=10$ **[1]**
 ### 5() — 2 marks
 > *In other words, find *$l$* and *$A$*when *$w=10$* Starting with *$l$*;*
 
-`table row l equals cell 40 minus 2 open parentheses 10 close parentheses end cell row blank equals 20 end table`
+$\begin{gathered} l = 40 - 2 ( 10 ) \\ = 20 \end{gathered}$
 
 **Final answer:** **Dimensions are 10 m by 20 m ****[1]**
 
 > *Now we can find *$A$* using either *$A=lw$* or *$A=40w-2w^{2}$
 
-`table row A equals cell 20 cross times 10 space space space space or space space space A equals 40 open parentheses 10 close parentheses minus 2 open parentheses 10 close parentheses squared end cell row blank equals cell 200 space space space space space space space space space space space space space space space space space space space space space space equals space 200 end cell end table`
+$\begin{gathered} A = 20 \times 10 \text{or} A = 40 ( 10 ) - 2 ( 10 )^{2} \\ = 200 = 200 \end{gathered}$
 
 **Final answer:** **Area is  200 m**<sup>**2**</sup>** ****[1]**
 
@@ -1972,19 +1972,19 @@ $w=10$ **[1]**
 ### 21((a)) — 2 marks
 > *Formula for differentiation:*
 
-`table row y equals cell space a x to the power of b end cell row cell fraction numerator d y over denominator d x end fraction end cell equals cell space a b x to the power of b minus 1 end exponent end cell end table`
+$\begin{gathered} y = a x^{b \\ \frac{d y}{d x} & = a b x^{b} - 1} \end{gathered}$
 
 > *To differentiate the first term, 6, remember that the derivative of any constant term is zero.*
 
-`table row cell y space end cell equals cell space 6 space end cell row cell fraction numerator d y over denominator d x end fraction space end cell equals cell space 0 end cell end table`
+$\begin{gathered} y & = 6 \\ \frac{d y}{d x} & = 0 \end{gathered}$
 
 > *Differentiate the second term, *$4x$*.*
 
-`table row cell y space end cell equals cell space 4 x to the power of space end cell row cell fraction numerator d y over denominator d x end fraction space end cell equals cell space open parentheses 4 cross times 1 close parentheses x to the power of 1 minus 1 end exponent space equals space 4 end cell end table`
+$\begin{gathered} y & = 4 x^{ \\ \frac{d y}{d x} & = ( 4 \times 1 ) x^{1} - 1} = 4 \end{gathered}$
 
 > *Differentiate the third term, *$-x^{2}$*.*
 
-`table row cell y space end cell equals cell space minus x squared space end cell row cell fraction numerator d y over denominator d x end fraction space end cell equals cell space open parentheses negative 1 cross times 2 close parentheses x to the power of 2 minus 1 end exponent space equals space minus x to the power of 1 space equals space minus x end cell end table`
+$\begin{gathered} y & = - x^{2} \\ \frac{d y}{d x} & = ( - 1 \times 2 ) x^{2 - 1} = - x^{1} = - x \end{gathered}$
 
 $\frac{dy}{dx}=4-2x$
 
@@ -1994,17 +1994,17 @@ $\frac{dy}{dx}=4-2x$
 ### 21((b)) — 2 marks
 > *To find the turning point, set *$\frac{dy}{dx}$* equal to zero.*
 
-`table row cell fraction numerator d y over denominator d x end fraction end cell equals cell space space 0 end cell row cell 4 space minus space 2 x space end cell equals cell space 0 end cell end table`
+$\begin{gathered} \frac{d y}{d x} & = 0 \\ 4 - 2 x & = 0 \end{gathered}$
 
 **[1]**
 
 > * Solve by subtracting 4 and dividing by -2.*
 
-`table row cell negative 2 x space end cell equals cell space minus 4 end cell row cell x space end cell equals cell space 2 end cell end table`* *
+$\begin{gathered} - 2 x & = - 4 \\ x & = 2 \end{gathered}$* *
 
 > *Find the *$y$* coordinate by substituting the value of *$x$* into the equation for the curve.*
 
-`table row cell y to the power of space end cell equals cell space 6 space plus space 4 open parentheses 2 close parentheses space minus open parentheses 2 close parentheses squared space end cell row blank equals cell space 6 space plus space 8 space minus space 4 end cell row blank equals cell space 10 end cell end table`
+$\begin{gathered} y^{ } & = 6 + 4 ( 2 ) - ( 2 )^{2} \\ = 6 + 8 - 4 \\ = 10 \end{gathered}$
 
 `equation` **[1]**
 
@@ -2018,7 +2018,7 @@ $\frac{dy}{dx}=4-2x$
 
 > *Treat each term separately*
 
-`fraction numerator d y over denominator d x end fraction equals 3 cross times x to the power of open parentheses 3 minus 1 close parentheses end exponent minus 2 cross times 6 x to the power of open parentheses 2 minus 1 close parentheses end exponent minus 1 cross times 15 x to the power of open parentheses 1 minus 1 close parentheses end exponent`
+$\frac{d y}{d x} = 3 \times x^{( 3 - 1 )} - 2 \times 6 x^{( 2 - 1 )} - 1 \times 15 x^{( 1 - 1 )}$
 
 > *Simplify to give*
 
@@ -2043,9 +2043,9 @@ $3x^{2}-12x-15=0$
 
 > *It's easiest to start by dividing through by 3 to simplify the equation*
 
-`table row cell 3 x squared minus 12 x minus 15 end cell equals 0 row cell x squared minus 4 x minus 5 end cell equals 0 row cell open parentheses x plus 1 close parentheses open parentheses x minus 5 close parentheses end cell equals 0 end table`
+$\begin{gathered} 3 x^{2} - 12 x - 15 & = 0 \\ x^{2} - 4 x - 5 & = 0 \\ ( x + 1 ) ( x - 5 ) & = 0 \end{gathered}$
 
-`table row x equals cell negative 1 space or space x equals 5 end cell end table`
+$\begin{gathered} x = - 1 \text{or} x = 5 \end{gathered}$
 
 **[M1]**
 
@@ -2053,14 +2053,14 @@ $3x^{2}-12x-15=0$
 
 *When *$x=-1$
 
-`y equals open parentheses negative 1 close parentheses cubed minus 6 open parentheses negative 1 close parentheses squared minus 15 open parentheses negative 1 close parentheses equals 8`
+$y = ( - 1 )^{3} - 6 ( - 1 )^{2} - 15 ( - 1 ) = 8$
 
 *Gives stationary point (-1,8)*
 * *
 
 *When *$x=5$
 
-`y equals open parentheses 5 close parentheses cubed minus 6 open parentheses 5 close parentheses squared minus 15 open parentheses 5 close parentheses equals negative 100`
+$y = ( 5 )^{3} - 6 ( 5 )^{2} - 15 ( 5 ) = - 100$
 
 *Gives stationary point (5, -100)*
 
@@ -2125,27 +2125,27 @@ $=\frac{7.1}{3.4}=2.088235294...$
 ### 15((a)) — 3 marks
 > *The volume of a cuboid is length × width × height.*
 
-`V equals open parentheses 2 x plus 5 close parentheses open parentheses 3 minus x close parentheses open parentheses x plus 1 close parentheses`
+$V = ( 2 x + 5 ) ( 3 - x ) ( x + 1 )$
 
 > *Start by expanding two brackets; here we will start by expanding the first two brackets following "FOIL" (first outside inside last).*
 
-`table row V equals cell open parentheses 6 x minus 2 x squared plus 15 minus 5 x close parentheses open parentheses x plus 1 close parentheses end cell end table`
+$\begin{gathered} V = ( 6 x - 2 x^{2} + 15 - 5 x ) ( x + 1 ) \end{gathered}$
 
 **correctly expanding two brackets**** [1]**
 
 > *Collect like terms in the left bracket and write terms in order of the highest power.*
 
-`table row V equals cell open parentheses negative 2 x squared plus x plus 15 close parentheses open parentheses x plus 1 close parentheses end cell end table`
+$\begin{gathered} V = ( - 2 x^{2} + x + 15 ) ( x + 1 ) \end{gathered}$
 
 > *Expand the two brackets by multiplying all terms in the first bracket by all terms in the second bracket. Follow a systematic order such as the one below.*
 
-`table row V equals cell negative 2 x cubed minus 2 x squared plus x squared plus x plus 15 x plus 15 end cell end table`
+$\begin{gathered} V = - 2 x^{3} - 2 x^{2} + x^{2} + x + 15 x + 15 \end{gathered}$
 
 **4 out of 8 terms correct in this expansion**** [1]**
 
 > *Collect like terms.*
 
-`table row bold italic V bold equals cell bold minus bold 2 bold italic x to the power of bold 3 bold minus bold italic x to the power of bold 2 bold plus bold 16 bold italic x bold plus bold 15 end cell end table`** [1] **
+$\begin{array}{cc} V = & - 2 x^{ } 3 - x^{ } 2 + 16 x + 15\end{array}$** [1] **
 
 **Throughout this question the terms can be written in any order**
 
@@ -2167,16 +2167,16 @@ $16-2x-6x^{2}=0$
 
 > *Either way, it is easiest to start by rewriting in the form *$ax^{2}+bx+c=0$* where *$a$* is positive, and dividing by any common factor.*
 
-`table row cell 6 x squared plus 2 x minus 16 end cell equals 0 row cell space divided by 2 space space space space space space space space space space space space space space space space space space space space space space space end cell equals cell space space divided by 2 end cell row cell 3 x squared plus x minus 8 end cell equals 0 end table`
+$\begin{gathered} 6 x^{2} + 2 x - 16 & = 0 \\ \div 2 & = \div 2 \\ 3 x^{2} + x - 8 & = 0 \end{gathered}$
 
 > *Here we will use the quadratic formula to solve.*
 
-`table row x equals cell fraction numerator negative 1 plus-or-minus square root of 1 squared minus 4 cross times 3 cross times open parentheses negative 8 close parentheses end root over denominator 2 cross times 3 end fraction end cell end table`
+$\begin{gathered} x = \frac{- 1 \pm \sqrt{1^{2} - 4 \times 3 \times ( - 8 )} }{2 \times 3} \end{gathered}$
 
 **correct first step using quadratic formula or completing the square**** [1]**
 
-`x equals fraction numerator negative 1 plus-or-minus square root of 97 over denominator 6 end fraction
-x equals 1.474809634... space comma space space up diagonal strike x equals negative 1.808142967... end strike`
+$x = \frac{- 1 \pm \sqrt{97} }{6} 
+x = 1.474809634... , \cancel{x = - 1.808142967...}$
 
 > *x** cannot be *$-1.808142967...$* as this would make the height negative, so ignore or cross out this value. Round  *$1.474809634...$* to 3 significant figures as instructed.*
 
@@ -2201,17 +2201,17 @@ $\frac{dy}{dx}=12x^{2}+2x-20$
 ### 11((b)) — 4 marks
 > *Set the expression for *$\frac{dy}{dx}$* equal to 4 and solve for **x*
 
-`table row cell 12 x squared plus 2 x minus 20 end cell equals 4 end table`
+$\begin{gathered} 12 x^{2} + 2 x - 20 & = 4 \end{gathered}$
 
 **[M1]**
 
 > *Set equal to zero by subtracting 4 from both sides*
 
-`table row cell 12 x squared plus 2 x minus 24 end cell equals 0 end table`
+$\begin{gathered} 12 x^{2} + 2 x - 24 & = 0 \end{gathered}$
 
 > *Simplify the coefficients by dividing both sides by 2*
 
-`table row cell 6 x squared plus x minus 12 end cell equals 0 end table`
+$\begin{gathered} 6 x^{2} + x - 12 & = 0 \end{gathered}$
 
 **[M1]**
 
@@ -2221,7 +2221,7 @@ $\frac{dy}{dx}=12x^{2}+2x-20$
 - *Two numbers that add to 1 and multiply to -72 are 9 and -8*
 - *Write *$x$* as *$9x-8x$
 
-`table row cell 6 x squared plus 9 x minus 8 x minus 12 end cell equals 0 row cell 3 x open parentheses 2 x plus 3 close parentheses minus 4 open parentheses 2 x plus 3 close parentheses end cell equals 0 row cell open parentheses 3 x minus 4 close parentheses open parentheses 2 x plus 3 close parentheses end cell equals 0 end table`
+$\begin{gathered} 6 x^{2} + 9 x - 8 x - 12 & = 0 \\ 3 x ( 2 x + 3 ) - 4 ( 2 x + 3 ) & = 0 \\ ( 3 x - 4 ) ( 2 x + 3 ) & = 0 \end{gathered}$
 
 **[M1]**
 
@@ -2248,7 +2248,7 @@ $x=\frac{4}{3},x=-\frac{3}{2}$
 
 > *Gradient is negative as water is decreasing*
 
-`table row Gradient equals cell negative fraction numerator 30 minus 9 over denominator 10 minus 0 end fraction equals negative 21 over 10 end cell row blank equals cell negative 2.1 end cell end table`
+$\begin{gathered} \text{Gradient} = - \frac{30 - 9}{10 - 0} = - \frac{21}{10} \\ = - 2.1 \end{gathered}$
 
 **Method to calculate gradient [1]**
 
@@ -2265,7 +2265,7 @@ $x=\frac{4}{3},x=-\frac{3}{2}$
 
 > *Gradient is negative as tangent slopes downwards*
 
-`table row Gradient equals cell negative fraction numerator 30 minus 15 over denominator 10 minus 4 end fraction equals negative 15 over 6 end cell row blank equals cell negative 2.5 end cell end table`
+$\begin{gathered} \text{Gradient} = - \frac{30 - 15}{10 - 4} = - \frac{15}{6} \\ = - 2.5 \end{gathered}$
 
 **Final answer:** **Gradient = -2.5**
 
@@ -2293,15 +2293,15 @@ $3t^{2}+10t-8=0$
 
 > *Solve using your preferred method; quadratic formula, completing the square or factorisation (the question asks for the answer in the form of a fraction which is a big clue that the quadratic will factorise). Here we will use the quadratic formula though, as it looks like a trickier factorisation.*
 
-`t equals fraction numerator negative 10 plus-or-minus square root of 10 squared minus 4 cross times 3 cross times open parentheses negative 8 close parentheses end root over denominator 2 cross times 3 end fraction`
+$t = \frac{- 10 \pm \sqrt{10^{2} - 4 \times 3 \times ( - 8 )} }{2 \times 3}$
 
-`up diagonal strike t equals negative 4 end strike comma space space space space t space equals 2 over 3`
+$\cancel{t = - 4} , t = \frac{2}{3}$
 
 **[1]**
 
 > *You are told in the question that *$t\geq0$* therefore discount the negative value of *$t$* by putting a line through it or ignoring it altogether. Substitute the positive value of *$t$* into the displacement formula.*
 
-`table row s equals cell open parentheses 2 over 3 close parentheses cubed plus 5 open parentheses 2 over 3 close parentheses squared minus 8 open parentheses 2 over 3 close parentheses plus 10 end cell end table`
+$\begin{gathered} s = ( \frac{2}{3} )^{3} + 5 ( \frac{2}{3} )^{2} - 8 ( \frac{2}{3} ) + 10 \end{gathered}$
 
 **[1]**
 
@@ -2367,7 +2367,7 @@ $x=\pm\frac{5}{6}$
 
 > *Draw a tangent at 2 to calculate the gradient using *$\frac{rise}{run}$
 
-`table row Gradient equals cell fraction numerator 11.4 minus 4.2 over denominator 3 minus 0 end fraction equals fraction numerator 7.2 over denominator 3 end fraction end cell row blank equals cell 2.4 end cell end table`
+$\begin{gathered} \text{Gradient} = \frac{11.4 - 4.2}{3 - 0} = \frac{7.2}{3} \\ = 2.4 \end{gathered}$
 
 **Gradient between 2.3 and 2.8 [1]**
 
@@ -2382,7 +2382,7 @@ $x=\pm\frac{5}{6}$
 
 > *Draw a tangent at 6 to calculate the gradient using *$\frac{rise}{run}$
 
-`table row Gradient equals cell fraction numerator 12.2 minus 11.2 over denominator 8 minus 4 end fraction equals 1 fourth end cell row blank equals cell 0.25 end cell end table`
+$\begin{gathered} \text{Gradient} = \frac{12.2 - 11.2}{8 - 4} = 1 \frac{1}{4} \\ = 0.25 \end{gathered}$
 
 **Gradient between 0.2 and 0.4 [1]**
 
@@ -2424,13 +2424,13 @@ $V=x^{2}y$
 
 > *We need to replace **y** with the equation in **x** found in part (c)*
 
-`V equals x squared open parentheses 9 minus 2 x close parentheses`
+$V = x^{2} ( 9 - 2 x )$
 
 **[1]**
 
 > *Expand*
 
-`table row bold italic V bold equals cell bold 9 bold italic x to the power of bold 2 bold minus bold 2 bold italic x to the power of bold 3 end cell end table`* ***[1]**
+$\begin{array}{cc} V = & 9 x^{ } 2 - 2 x^{ } 3\end{array}$* ***[1]**
 
 ### 4() — 3 marks
 > *Find the maximum by differentiating and equating the derivate function to zero*
@@ -2449,9 +2449,9 @@ $18x-6x^{2}=0$
 
 > *And solve for **x*
 
-`3 x minus x squared equals 0
-x open parentheses 3 minus x close parentheses equals 0
-up diagonal strike x equals 0 end strike comma space space x equals 3`
+$3 x - x^{2} = 0
+x ( 3 - x ) = 0
+ \cancel{x = 0} , x = 3$
 
 > *Reject "x = 0" as a length cannot be 0 or negative (it is best practice to write down both algebraic solutions but cross out the one to be discarded, showing the examiner good understanding)*
 
@@ -2460,7 +2460,7 @@ $x=3$ **[1]**
 ### 5() — 2 marks
 > *Substitute the value of **x** found in part (c) to the volume formula found in part (c)*
 
-`V equals 9 open parentheses 3 close parentheses squared minus 2 open parentheses 3 close parentheses cubed`
+$V = 9 ( 3 )^{2} - 2 ( 3 )^{3}$
 
 **[1]**
 
@@ -2500,13 +2500,13 @@ $1.25$
 ### 5((a)) — 2 marks
 *Find the *$y$* coordinate when *$x=-2$* (by substituting *$x=-2$* into the equation)* * *
 
-`y equals open parentheses negative 2 close parentheses cubed minus 3 cross times open parentheses negative 2 close parentheses minus 1`
+$y = ( - 2 )^{3} - 3 \times ( - 2 ) - 1$
 
 $y=-3$* ***[1]**
 
 *Find the *$y$* coordinate when *$x=3$* (by substituting *$x=3$* into the equation)*
 
-`table row y equals cell 3 cubed minus 3 cross times 3 minus 1 end cell end table`
+$\begin{gathered} y = 3^{3} - 3 \times 3 - 1 \end{gathered}$
 
 $y=17$ **[1]**
 

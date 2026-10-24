@@ -81,7 +81,7 @@ One diagonal is shown.
 
 Circle the length, in centimetres, of the diagonal.
 
-| $\sqrt{3}x$ | `cube root of 3 x squared end root` | $\sqrt{x^{3}}$ | `cube root of 3 x` |
+| $\sqrt{3}x$ | $\sqrt[3]{3 x^{2}}$ | $\sqrt{x^{3}}$ | $\sqrt[3]{3} x$ |
 |---|---|---|---|
 
 ## Q7 — medium — 3 marks · exam-questions
@@ -202,7 +202,7 @@ The diagram shows cuboid
 
 ![q18-paper2h-nov2020-edexcel-igcse-maths-1](assets/071-q18-paper2h-nov2020-edexcel-igcse-maths-1.png)
 
-`table row cell A B space end cell equals cell space 5 space cm space end cell row cell A H space end cell equals cell space 4 space cm end cell end table`
+$\begin{gathered} A B & = 5 \text{cm} \\ A H & = 4 \text{cm} \end{gathered}$
 
 The size of the angle between $CH$ and the plane $ABCD$ is $35^{\circ}$
 
@@ -232,7 +232,7 @@ The diagram shows a prism $ABCDEFGH$ with a horizontal base.
 
 The base of the prism, $EFGH$, is a square of side $12\mathrm{cm}.$ Trapezium $ADEF$ is a cross section of the prism where $AF$ and $DE$ are vertical edges.
 
-`table row cell D E space end cell equals cell space C H space equals space 10 space cm space end cell row cell A D space end cell equals cell space B C space equals space 15 cm end cell end table`
+$\begin{gathered} D E & = C H = 10 \text{cm} \\ A D & = B C = 15 \text{cm} \end{gathered}$
 
 Work out the size of the angle between $CF$ and the base $EFGH.$ 
 Give your answer correct to one decimal place.

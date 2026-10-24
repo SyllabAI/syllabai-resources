@@ -94,15 +94,15 @@ guided_study: true
 
   - have a **horizontal asymptote** at $y=0$
   - **do not **have a **vertical asymptote**
-  - have a $y$-intercept of `open parentheses 0 comma space 1 close parentheses`
+  - have a $y$-intercept of $( 0 , 1 )$
 - The graph of $y=ak^{x}+b$ is a similar shape to $y=k^{x}$, but there are some differences
 
   - It is first **stretched **vertically by $a$
   - It is then **shifted **$b$ units upwards
   
     - Therefore it has a **horizontal asymptote** at $y=b$
-    - and a $y$-intercept of `open parentheses 0 comma space a plus b close parentheses`
-- For example, a population may be modelled as `y equals 400 cross times open parentheses 1 half close parentheses to the power of x plus 100`, where $y$ is the population and  $x$ represents time
+    - and a $y$-intercept of $( 0 , a + b )$
+- For example, a population may be modelled as $y = 400 \times ( 1 \frac{1}{2} )^{x} + 100$, where $y$ is the population and  $x$ represents time
 
   - This is an exponential decay as $0<k<1$
   - The initial population (when $x=0$) will be 400 + 100 = 500
@@ -113,7 +113,7 @@ guided_study: true
     - The asymptote is at $y=100$
 - **Exponential decay** can also be identified by a **negative power **using **index laws**
 
-  - `open parentheses 1 half close parentheses to the power of x equals open parentheses 2 to the power of negative 1 end exponent close parentheses to the power of x equals 2 to the power of negative x end exponent` so $y=400\times2^{-x}+100$ is the model above
+  - $( 1 \frac{1}{2} )^{x = ( 2^{-1} } )^{x = 2^{-x} }$ so $y=400\times2^{-x}+100$ is the model above
   - This  has the form $y=k^{-x}$ where $k>1$
 
 > **Worked Example**

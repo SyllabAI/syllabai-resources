@@ -1,5 +1,5 @@
 version: 1
-generated_at: '2026-10-23'
+generated_at: '2026-10-24'
 courses:
   chemistry-4ch1:
     board: pearson-edexcel
@@ -25,7 +25,7 @@ courses:
         - u1:c08
         - u1:c09
         - u1:c10
-        status: in-progress
+        status: complete
       unit-2:
         lessons:
         - u2:c11
@@ -36,7 +36,7 @@ courses:
         - u2:c16
         - u2:c17
         - u2:c18
-        status: not-started
+        status: in-progress
       unit-3:
         lessons:
         - u3:c19
@@ -94,13 +94,13 @@ courses:
         updated_at: '2026-10-23'
         sections_total: '12'
       u1-c05-formulae-calculations-1:
-        last_receipt: qa/flip-published.yaml
+        last_receipt: qa/voice-retrofit-r2.yaml
         stage: S4
         sections_done: 36
+        sections_total: 36
         pack_status: published
-        last_agent: T-BOOK-039/voice-retrofit r1 (operator style directive trace 1a168b88e0391dfd;
-          standing merge+flip authorization trace 1a1658a2da08e5bd)
-        updated_at: '2026-10-23'
+        last_agent: T-BOOK-043/voice-r2 r0 (residual sweep; trace 1a16cfb5cbb7623d)
+        updated_at: '2026-10-24'
       u1-c06-formulae-calculations-2:
         last_receipt: qa/flip-published.yaml
         stage: S4
@@ -122,20 +122,40 @@ courses:
         last_receipt: qa/flip-published.yaml
         stage: S4
         sections_done: 19
+        sections_total: 19
         pack_status: published
         last_agent: T-BOOK-040 r0 (author+flip; session web-c414c074 trace 1a169ea24e2e51a1;
           standing merge+flip authorization trace 1a1658a2da08e5bd)
         updated_at: '2026-10-23'
       u1-c09-metallic-bonding:
         last_receipt: qa/flip-published.yaml
+        stage: S4
+        sections_done: 4
+        sections_total: 4
         pack_status: published
         last_agent: T-BOOK-041 r0 (author+flip; session web-c414c074 trace 1a16ac0ff45e3969;
           standing merge+flip authorization trace 1a1658a2da08e5bd)
         updated_at: '2026-10-23'
       u1-c10-electrolysis:
+        chapter_key: u1:c10
+        title: Electrolysis
         last_receipt: qa/flip-published.yaml
         stage: S4
+        sections_done: 10
+        sections_total: 10
+        pack_status: published
+        last_agent: T-BOOK-042 r0 (author + flip; trace 1a16ae3f1ebf42a5)
         updated_at: '2026-10-23'
+      u2-c11-alkali-metals:
+        chapter_key: u2:c11
+        title: Alkali metals
+        last_receipt: qa/flip-published.yaml
+        stage: S4
+        sections_done: 10
+        sections_total: 10
+        pack_status: published
+        last_agent: T-BOOK-044 r0 (author+flip; trace 1a16cfb5cbb7623d)
+        updated_at: '2026-10-24'
 decisions:
 - date: '2026-10-23'
   what: 'Lesson = 100% book replacement — standalone-voice law (lesson-prose@2.0.0):

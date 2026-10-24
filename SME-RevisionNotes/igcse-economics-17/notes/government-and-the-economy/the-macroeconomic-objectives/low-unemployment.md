@@ -95,11 +95,11 @@ guided_study: false
 > 
 > **Step 3: Calculate the unemployment rate**
 > 
-> **   **`equals fraction numerator no. space actively space seeking over denominator total space labour space force end fraction space straight x space 100
+> **   **$= \frac{no. \text{actively} seeking}{total \text{labour} force} \mathrm{x} 100
 > 
-> equals space fraction numerator 600 comma 000 over denominator 2 comma 400 comma 000 end fraction space straight x space 100
+> = \frac{600 , 000}{2 , 400 , 000} \mathrm{x} 100
 > 
-> equals space 25 percent sign`
+> = 25 \%$
 
 ## Types of Unemployment
 

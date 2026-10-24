@@ -32,7 +32,7 @@ $V=\frac{E}{Q}$
 - When an electron travels through a potential difference, energy is transferred between **two** points in a circuit or electric field
 - If an electron, with a charge of **1.6 × 10**<sup>**-19**</sup>** C**, travels through a potential difference of 1 V, the energy transferred is equal to:
 
-`E space equals space Q V space equals space open parentheses 1.60 space cross times space 10 to the power of negative 19 end exponent close parentheses space straight C space cross times space 1 space straight V space equals space 1.60 space cross times space 10 to the power of negative 19 end exponent space straight J`
+$E = Q V = ( 1.60 \times 10^{- 19} ) \mathrm{C} \times 1 \mathrm{V} = 1.60 \times 10^{- 19} \mathrm{J}$
 
 - Therefore, an electronvolt is defined as: **The energy gained by an electron travelling through a potential difference of one volt**
 
@@ -71,7 +71,7 @@ $v=\sqrt{\frac{2eV}{m}}$
 > 
 > **Step 2: Calculate the photon energy in joules**
 > 
-> `E space equals fraction numerator space h c over denominator lambda end fraction space equals space fraction numerator open parentheses 6.63 space cross times space 10 to the power of negative 34 end exponent close parentheses space cross times space open parentheses 3.0 space cross times space 10 to the power of 8 close parentheses space over denominator 700 space cross times space 10 to the power of negative 9 end exponent end fraction space equals space 2.84 space cross times space 10 to the power of negative 19 end exponent space straight J`
+> $E = \frac{ h c}{\\lambda } = \frac{( 6.63 \times 10^{- 34} ) \times ( 3.0 \times 10^{8 ) }{700 \times 10^{-9} } } = 2.84 \times 10^{- 19} \mathrm{J}$
 > 
 > **Step 3: Convert the photon energy into electronvolts**
 > 

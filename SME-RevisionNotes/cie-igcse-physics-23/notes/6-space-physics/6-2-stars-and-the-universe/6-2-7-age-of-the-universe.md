@@ -146,7 +146,7 @@ $\frac{1}{H_{0}}=\frac{d}{v}$
 > 
 > **Step 2: Convert 20 light-years to m**
 > 
-> `d space equals space 20 space ly space equals space 20 space cross times space open parentheses 9.5 space cross times space 10 to the power of 15 close parentheses`
+> $d = 20 \text{ly} = 20 \times ( 9.5 \times 10^{15} )$
 > 
 > $d=1.9\times10^{17}m$ **[1 mark]**
 > 
@@ -154,7 +154,7 @@ $\frac{1}{H_{0}}=\frac{d}{v}$
 > 
 > $v=H_{0}d$
 > 
-> `v space equals space open parentheses 2.2 space cross times space 10 to the power of negative 18 end exponent close parentheses space cross times space open parentheses 1.9 space cross times space 10 to the power of 17 close parentheses` **[1 mark]**
+> $v = ( 2.2 \times 10^{- 18} ) \times ( 1.9 \times 10^{17} )$ **[1 mark]**
 > 
 > $v=0.418m/s$
 > 

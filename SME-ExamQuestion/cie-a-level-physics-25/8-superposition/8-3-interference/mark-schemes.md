@@ -132,7 +132,7 @@ $x = \frac{λD}{a}$
   - $\frac{x_{1}}{λ_{1}}=\frac{2x_{2}}{λ_{2}}$
 - Rearrange for the new fringe spacing *x*<sub>*2*</sub>:
 
-  - `x subscript 2 space equals space x subscript 1 open parentheses lambda subscript 2 over lambda subscript 1 close parentheses open parentheses 1 half close parentheses`
+  - `x _ 2 = x _ 1 ( lambda _ 2 / lambda _ 1 ) ( 1 half )`
   - $x_{2}=4.0\times\frac{400}{600}\times\frac{1}{2}=4.0\times\frac{1}{3}$
   - $x_{2}=1.33\mathrm{mm}$
 - Therefore, the new fringe spacing is 1.3 mm
@@ -152,7 +152,7 @@ You can also solve this question by figuring out the ratio required to move from
   - *λ* is the wavelength = 600 nm
 - So, rearranging for distance *D*:
 
-  - `D equals fraction numerator x a over denominator lambda end fraction equals fraction numerator open parentheses 4.0 cross times 10 to the power of negative 3 end exponent close parentheses open parentheses 0.60 cross times 10 to the power of negative 3 end exponent close parentheses over denominator 600 cross times 10 to the power of negative 9 end exponent end fraction equals 4.0 space straight m`
+  - $D = \frac{x a}{\\lambda } = \frac{( 4.0 \times 10^{- 3} ) ( 0.60 \times 10^{- 3} )}{600 \times 10^{- 9} } = 4.0 \mathrm{m}$
 - Therefore, the distance between the double slit and the screen is 4.0 m
 
 ### Q9
@@ -203,7 +203,7 @@ Option **D **is incorrect because
   - 2*a* is the slit separation
 - So, the new fringe spacing is equal to:
 
-  - `x equals fraction numerator lambda open parentheses 2 D close parentheses over denominator open parentheses 2 a close parentheses end fraction equals fraction numerator lambda D over denominator a end fraction`
+  - $x = \frac{\\lambda ( 2 D )}{( 2 a )} = \frac{\\lambda D}{a}$
 - Therefore, the value of the fringe spacing *x* does not change
 
 ### Q12
@@ -234,8 +234,8 @@ Option **D **is incorrect because
 - Minimas occur when there is destructive interference
 - Destructive interference happens when the path difference is a whole number of wavelengths plus half a wavelength
 
-  - Path difference = `open parentheses n space plus space 1 half close parentheses lambda`
-  - Path difference = `open parentheses 1 space plus space 1 half close parentheses space lambda space equals space 3 over 2 lambda`
+  - Path difference = $( n + 1 \frac{1}{2} ) \\lambda$
+  - Path difference = $( 1 + 1 \frac{1}{2} ) \\lambda = \frac{3}{2} \\lambda$
 - This is option **B**
 
 Option **A** is incorrect because
@@ -267,7 +267,7 @@ Option **C** and **D **is incorrect because
 - Rearranging for wavelength *λ*
 
   - $λ=\frac{xa}{D}$
-  - `lambda equals fraction numerator open parentheses 3.0 cross times 10 to the power of negative 3 end exponent close parentheses open parentheses 0.90 cross times 10 to the power of negative 3 end exponent close parentheses over denominator 5.0 end fraction equals 5.4 cross times 10 to the power of negative 7 space end exponent straight m`
+  - $\\lambda = \frac{( 3.0 \times 10^{- 3} ) ( 0.90 \times 10^{- 3} )}{5.0} = 5.4 \times 10^{- 7 } \mathrm{m}$
 - Therefore, the wavelength of the light is equal to 540 nm
 
 ![cie-ial-images421png](assets/007-cie-ial-images421png.png)

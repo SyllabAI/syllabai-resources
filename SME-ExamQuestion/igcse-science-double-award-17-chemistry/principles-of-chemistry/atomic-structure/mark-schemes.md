@@ -324,7 +324,7 @@ The relative atomic mass (*A*<sub>r</sub>) of this element is:
 
 - *The relative atomic mass can be calculated by the following equation:*
 
-  - `A subscript straight r space equals fraction numerator space open parentheses percent sign space o f space i s o t o p e space straight A space straight x space m a s s space o f space i s o t o p e space straight A close parentheses space plus space space open parentheses percent sign space o f space i s o t o p e space straight B space straight x space m a s s space o f space i s o t o p e space straight B close parentheses space plus space stretchy left parenthesis percent sign space o f space i s o t o p e space straight C space straight x space m a s s space o f space i s o t o p e space straight C stretchy right parenthesis over denominator 100 end fraction space`
+  - $A_{r} = \frac{ ( \% o f i s o t o p e \mathrm{A} \mathrm{x} m a s s o f i s o t o p e \mathrm{A} ) + ( \% o f i s o t o p e \mathrm{B} \mathrm{x} m a s s o f i s o t o p e \mathrm{B} ) + ( \% o f i s o t o p e \mathrm{C} \mathrm{x} m a s s o f i s o t o p e \mathrm{C} )}{100}$
   - `equation`
 - *Make sure your answer looks sensible as it is very easy to make a calculator error when performing these calculations:*
 
@@ -376,14 +376,14 @@ i) The term isotope means:
 Atoms (of the same element) with the same atomic number; **[1 mark]**
 - But different numbers of neutrons; **[1 mark]**
 
-ii) The number of protons, neutrons and electrons in one atom of `begin mathsize 14px style Mg presubscript 12 presuperscript 26 end style` is:
+ii) The number of protons, neutrons and electrons in one atom of $Mg_{12}^{26}$ is:
 
 - Protons = 12 **AND **Electrons = 12; **[1 mark]**
 - Neutrons = 14; **[1 mark]**
 
 iii) Showing that the relative atomic mass of magnesium is 24.32:
 
-`fraction numerator open parentheses 24 cross times 79 close parentheses plus open parentheses 25 cross times 10 close parentheses plus open parentheses 26 cross times 11 close parentheses over denominator 100 end fraction`
+$\frac{( 24 \times 79 ) + ( 25 \times 10 ) + ( 26 \times 11 )}{100}$
 
 - All masses multiplied by the percentage (top line of the calculation); **[1 mark]**
 - All added together and divided by 100;** [1 mark**]
@@ -470,9 +470,9 @@ ii) Element X belongs to:
 ### 4((c)) — 3 marks
 The *A*<sub>r</sub> of element Y is:
 
-- *A*<sub>r</sub> = `fraction numerator open parentheses 32 cross times 95.0 close parentheses plus open parentheses 33 cross times 0.75 close parentheses plus open parentheses 34 cross times 4.25 close parentheses over denominator 100 end fraction` 
+- *A*<sub>r</sub> = $\frac{( 32 \times 95.0 ) + ( 33 \times 0.75 ) + ( 34 \times 4.25 )}{100}$ 
 **OR **
-*A*<sub>r</sub> = `begin mathsize 14px style fraction numerator open parentheses 3040 close parentheses plus open parentheses 24.75 close parentheses plus open parentheses 144.5 close parentheses over denominator 100 end fraction end style`; **[1 mark]**
+*A*<sub>r</sub> = $\frac{( 3040 ) + ( 24.75 ) + ( 144.5 )}{100}$; **[1 mark]**
 - *A*<sub>r</sub> = 32.0925; **[1 mark]**
 - *A*<sub>r</sub> = 32.1 (to 1 d.p.); **[1 mark]**
 
@@ -493,7 +493,7 @@ The *A*<sub>r</sub> of element Y is:
 **Final answer:** **The correct answer is B**
 
 - The relative atomic mass of this sample of boron is 10.8
-- *A*<sub>*r*</sub>* *= `fraction numerator left parenthesis percent sign space of space isotope space 1 space cross times space mass space of space isotope space 1 right parenthesis plus left parenthesis percent sign space of space isotope space 2 space cross times mass space of space isotope space 2 right parenthesis over denominator 100 end fraction`
+- *A*<sub>*r*</sub>* *= $\frac{( \% of \text{isotope} 1 \times \text{mass} of \text{isotope} 1 ) + ( \% of \text{isotope} 2 \times \text{mass} of \text{isotope} 2 )}{100}$
 - *A*<sub>*r*</sub>* *of boron = $\frac{(19\times10)+(81\times11)}{100}=10.8$
 
 ## Q13 — medium — 7 marks · exam-questions
@@ -530,7 +530,7 @@ Answer from first marking point divided by 100; **[1 mark]** *Accept 10.81 and 1
 **[Total: 2 marks]**
 
 - *The relative atomic mass can be calculated by the following equation:*
-- `A subscript straight r space equals fraction numerator space open parentheses percent sign space of space isotope space straight A space straight x space mass space of space isotope space straight A close parentheses space plus space space open parentheses percent sign space of space isotope space straight B space straight x space mass space of space isotope space straight B close parentheses over denominator 100 end fraction space`
+- `A _ r = ( ( % of isotope A x mass of isotope A ) + ( % of isotope B x mass of isotope B ))/(100)`
 - $A_{r}=\frac{(18.7x10)+(81.3x11)}{100}=10.813$
 - *Make sure your answer looks sensible as it is very easy to make a calculator error when performing these calculations:*
 

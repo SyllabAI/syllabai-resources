@@ -21,7 +21,7 @@ guided_study: false
 
 - The **binomial expansion **gives a method for expanding a **two-term** expression in a bracket raised to a power
 
-  - For example  `open parentheses a plus b close parentheses to the power of n`
+  - For example  $( a + b )^{n}$
   - You may also see it referred to as the binomial theorem
   - In this note $n$ will be a **positive integer**
   
@@ -31,13 +31,13 @@ guided_study: false
   - Determine what $a$* *and $b$ are for your example
   - Then use the **formula** **for the binomial expansion**
   
-    - `open parentheses a plus b close parentheses to the power of n space equals space a to the power of n space plus space open parentheses table row n row 1 end table close parentheses space a to the power of n minus 1 space end exponent b space plus space horizontal ellipsis space plus space open parentheses table row n row r end table close parentheses space a to the power of n minus r end exponent b to the power of r space plus space horizontal ellipsis space plus space b to the power of n`
-  - `open parentheses table row n row r end table close parentheses`  in the formula is known as the **binomial coefficient**
+    - $( a + b )^{n = a^{n} + ( \begin{gathered} n \\ 1 \end{gathered} ) a^{n} - 1 } b + \text{horizontal} \text{ellipsis} + ( \begin{gathered} n \\ r \end{gathered} ) a^{n - r} b^{r} + \text{horizontal} \text{ellipsis} + b^{n}$
+  - $( \begin{gathered} n \\ r \end{gathered} )$  in the formula is known as the **binomial coefficient**
   
-    - `open parentheses table row n row r end table close parentheses space equals space fraction numerator n factorial over denominator r factorial open parentheses n minus r close parentheses factorial end fraction space equals space fraction numerator n open parentheses n minus 1 close parentheses... open parentheses n minus r plus 1 close parentheses over denominator r factorial end fraction`
+    - $( \begin{gathered} n \\ r \end{gathered} ) = \frac{n factorial}{r \text{factorial} ( n - r ) factorial} = \frac{n ( n - 1 )... ( n - r + 1 )}{r factorial}$
     - $n!$ ("$n$ factorial") is defined by $n!=1\times2\times3\times...\timesn$
-    - You may also see `open parentheses table row n row r end table close parentheses`  written as `scriptbase straight C subscript r end scriptbase presubscript blank presuperscript n`
-    - Your **calculator** should be able to calculate `open parentheses table row n row r end table close parentheses` for you
+    - You may also see $( \begin{gathered} n \\ r \end{gathered} )$  written as `C _ r _ _ ^ n`
+    - Your **calculator** should be able to calculate $( \begin{gathered} n \\ r \end{gathered} )$ for you
     - Or you can use **Pascal's triangle** (see the next section)
 - To get **all the terms**
 
@@ -46,14 +46,14 @@ guided_study: false
   - So there will always be $n+1$ **terms** in the full expansion
 - This version of the binomial expansion formula is **not** on the exam **formula sheet**
 
-  - But it is a special case of the Binomial Series formula for `open parentheses 1 plus x close parentheses to the power of n` which is on the formula sheet
+  - But it is a special case of the Binomial Series formula for $( 1 + x )^{n}$ which is on the formula sheet
   - See the 'General Binomial Expansion' revision note
-- When expanding something like `open parentheses p plus q x close parentheses to the power of n` you may only be asked to find the **first few terms** of an expansion
+- When expanding something like $( p + q x )^{n}$ you may only be asked to find the **first few terms** of an expansion
 
   - Check whether the question wants **ascending** or **descending **powers of *x*
   
     - For **ascending **powers start with the constant term, $p^{n}$
-    - For **descending **powers start with the term with $x$*, *`open parentheses q x close parentheses to the power of n`
+    - For **descending **powers start with the term with $x$*, *$( q x )^{n}$
     - Choosing $a$ and $b$ appropriately will make it easier to follow the formula above
 - If you are **not writing the full expansion** you can either
 
@@ -72,7 +72,7 @@ guided_study: false
 
 ![Pascal's Triangle](../../../assets/c1d5880eaf55-4-1-1-binomial-expansion-notes-diagram-3-1024x86.png)
 
-- Pascal’s triangle is an alternative way of finding the **binomial coefficients** `open parentheses table row n row r end table close parentheses`  (also written `scriptbase straight C subscript r end scriptbase presubscript blank presuperscript n` )
+- Pascal’s triangle is an alternative way of finding the **binomial coefficients** $( \begin{gathered} n \\ r \end{gathered} )$  (also written `C _ r _ _ ^ n` )
 
   - It can be useful for finding the values of the coefficients without a calculator
   
@@ -85,14 +85,14 @@ guided_study: false
   - within a row the values run from $r=0$ to $r=n$
   - e.g. from the 6<sup>th</sup> row of the table ($n=5$):
   
-    - `open parentheses a plus b close parentheses to the power of 5 equals a to the power of 5 plus bold 5 a to the power of 4 b plus bold 10 a cubed b squared plus bold 10 a squared b cubed plus bold 5 a b to the power of 4 plus b to the power of 5`
+    - $( a + b )^{5} = a^{5} + 5 a^{4} b + 10 a^{3} b^{2} + 10 a^{2} b^{3} + 5 a b^{4} + b^{5}$
 
 ### How do I find the coefficient of a single term?
 
 - You may just be asked to find the **coefficient of a single term**, rather than the whole expansion
 - Use the formula for the **general term**
 
-  - `open parentheses table row n row r end table close parentheses space a to the power of n minus r end exponent space b to the power of r`
+  - $( \begin{gathered} n \\ r \end{gathered} ) a^{n - r} b^{r}$
 
 - To find a **particular power of **$x$** term** in an expansion
 
@@ -101,11 +101,10 @@ guided_study: false
   
     - For $(p+qx)^{n}$,*  *to find the coefficient of $x^{2}$* *let  $a=p,b=qx$ and use $r=2$
     - For $(p+qx^{2})^{n}$,  to find the coefficient of $x^{2}$* *let  $a=p,b=qx^{2}$ and use $r=1$
-    - For something like `open parentheses p x plus q over x close parentheses to the power of n`, you need to consider how the powers will cancel each other
+    - For something like $( p x + \frac{q}{x} )^{n}$, you need to consider how the powers will cancel each other
     
-      - `equation`E.g. for `open parentheses p x plus q over x close parentheses to the power of 6` , to find the coefficient of $x^{2}$ let $a=px,b=\frac{q}{x}$ and user $r=2$
-      - Because then `x to the power of n minus r end exponent space open parentheses 1 over x close parentheses to the power of r equals x to the power of 6 minus 2 space end exponent open parentheses 1 over x close parentheses to the power of 2 space end exponent equals x to the power of 4 open parentheses 1 over x squared close parentheses equals x squared
-      space space`
+      - `equation`E.g. for $( p x + \frac{q}{x} )^{6}$ , to find the coefficient of $x^{2}$ let $a=px,b=\frac{q}{x}$ and user $r=2$
+      - Because then $x^{n - r} ( \frac{1}{x} )^{r = x^{6} - 2 } ( \frac{1}{x} )^{2 } = x^{4} ( \frac{1}{x^{2}} ) = x^{2}$
     - There are a lot of variations, so **practice** is better than trying to memorise formulae for $r$!
 - If you know the **coefficient** of a particular term, you can use it to find an **unknown** in the brackets
 
@@ -119,17 +118,17 @@ guided_study: false
 >   - And always put terms in brackets
 
 > **Worked Example**
-> Using the binomial expansion, find the complete expansion of  `open parentheses x plus y close parentheses to the power of 4`.
+> Using the binomial expansion, find the complete expansion of  $( x + y )^{4}$.
 > 
 > > *Use the formula with *$a=x$*, *$b=y$* and *$n=4$
 > $r$* will run from 0 to 4, so there will be 5 terms*
 > 
-> `open parentheses x plus y close parentheses to the power of 4 equals open parentheses table row 4 row 0 end table close parentheses x to the power of 4 plus open parentheses table row 4 row 1 end table close parentheses x cubed y plus open parentheses table row 4 row 2 end table close parentheses x squared y squared plus open parentheses table row 4 row 3 end table close parentheses x y cubed plus open parentheses table row 4 row 4 end table close parentheses y to the power of 4`
+> $( x + y )^{4} = ( \begin{gathered} 4 \\ 0 \end{gathered} ) x^{4} + ( \begin{gathered} 4 \\ 1 \end{gathered} ) x^{3} y + ( \begin{gathered} 4 \\ 2 \end{gathered} ) x^{2} y^{2} + ( \begin{gathered} 4 \\ 3 \end{gathered} ) x y^{3} + ( \begin{gathered} 4 \\ 4 \end{gathered} ) y^{4}$
 > 
 > > *Now just work out the values of the binomial coefficients*
 > *You can use the formula, your calculator or Pascal's triangle*
 > 
-> > *Note that  *`open parentheses table row 4 row 0 end table close parentheses equals open parentheses table row 4 row 4 end table close parentheses equals 1`
+> > *Note that  *$( \begin{gathered} 4 \\ 0 \end{gathered} ) = ( \begin{gathered} 4 \\ 4 \end{gathered} ) = 1$
 > *That's why we usually don't bother writing the binomial coefficients for the first and last terms of an expansion!*
 > 
 > > $(x+y)^{4}=x^{4}+4x^{3}y+6x^{2}y^{2}+4xy^{3}+y^{4}$* *
@@ -145,12 +144,12 @@ guided_study: false
 > 
 > > *Substitute those values into the formula*
 > 
-> `open parentheses 3 minus 2 x close parentheses to the power of 5 equals open parentheses 3 close parentheses to the power of 5 plus open parentheses table row 5 row 1 end table close parentheses open parentheses 3 close parentheses to the power of 4 open parentheses negative 2 x close parentheses plus open parentheses table row 5 row 2 end table close parentheses open parentheses 3 close parentheses cubed open parentheses negative 2 x close parentheses squared plus...`
+> $( 3 - 2 x )^{5} = ( 3 )^{5} + ( \begin{gathered} 5 \\ 1 \end{gathered} ) ( 3 )^{4} ( - 2 x ) + ( \begin{gathered} 5 \\ 2 \end{gathered} ) ( 3 )^{3} ( - 2 x )^{2} +...$
 > 
 > > *Find the value of the binomial coefficients and bring the powers inside the brackets*
 > *Be careful with the minus signs!*
 > 
-> > * *`open parentheses 3 minus 2 x close parentheses to the power of 5 equals 243 plus open parentheses 5 close parentheses open parentheses 81 close parentheses open parentheses negative 2 x close parentheses plus open parentheses 10 close parentheses open parentheses 27 close parentheses open parentheses 4 x squared close parentheses plus...`
+> > * *$( 3 - 2 x )^{5} = 243 + ( 5 ) ( 81 ) ( - 2 x ) + ( 10 ) ( 27 ) ( 4 x^{2} ) +...$
 > 
 > > *Expand the remaining brackets and write down the final answer*
 > 

@@ -80,7 +80,7 @@ $x+11x=180$
 
 > *Solve the equation.*
 
-`table row cell 12 x end cell equals 180 row x equals 15 end table`
+$\begin{gathered} 12 x & = 180 \\ x = 15 \end{gathered}$
 
 **[1]**
 
@@ -89,19 +89,19 @@ $x+11x=180$
 *But be careful to answer the question! The question asks for the number of sides, not the exterior angle.* 
 *The sum of the exterior angles of a polygon is always 360°. And in a regular polygon, the exterior angles are equal, therefore if *$n$* is the number of sides,*
 
-`table attributes columnalign right center left columnspacing 0px end attributes row cell 15 n end cell equals 360 row n equals 24 end table`
+$\begin{array}{rcl} 15 n & = 360 \\ n = 24 \end{array}$
 
 **24 sides**** ****[1]**
 
 ii) *Method 1  *
-*The sum of the interior angles in any polygon is given by the formula *`180 open parentheses n minus 2 close parentheses`*where *$n$*is the number of sides.*
+*The sum of the interior angles in any polygon is given by the formula *$180 ( n - 2 )$*where *$n$*is the number of sides.*
 *We know from part (b)(i) that there are 24 sides, therefore,*
 
-*Sum of interior angles *`table attributes columnalign right center left columnspacing 0px end attributes row blank equals cell 180 open parentheses 24 minus 2 close parentheses end cell end table`
+*Sum of interior angles *$\begin{array}{rcl} = 180 ( 24 - 2 ) \end{array}$
 
 **[1]**
 
-`table row blank equals cell 180 cross times 22 equals 3960 end cell end table`
+$\begin{gathered} = 180 \times 22 = 3960 \end{gathered}$
 
 **3960°**** ****[1]**
 
@@ -115,7 +115,7 @@ $180-15=165$
 
 > *Now multiply the interior angle, 165°, by the number of sides, 24, to find the answer.*
 
-*Sum of interior angles *`table row blank equals cell 165 cross times 24 end cell end table`
+*Sum of interior angles *$\begin{gathered} = 165 \times 24 \end{gathered}$
 
 **[1]**
 
@@ -126,7 +126,7 @@ $180-15=165$
 
 *Angle ***DEC*** + Angle ***CEB  ***= 180**<sup>o</sup>*  *(Angles on a straight line)*
 
-`table row cell Angle space D E C space end cell equals cell space 180 minus 41 end cell row blank equals cell space 139 degree end cell end table`
+$\begin{gathered} \text{Angle} D E C & = 180 - 41 \\ = 139^{\circ} \end{gathered}$
 
 **[1]**
 
@@ -136,7 +136,7 @@ $180-15=165$
 
 *Angle ***DAB ***+ Angle ***CDA*** = 180**<sup>o</sup>** (Co-interior angles)*
 
-`table row cell 120 plus 38 plus Angle space E D C space end cell equals cell space 180 end cell row cell Angle space E D C end cell equals cell 180 minus 120 minus 38 end cell row cell Angle space E D C end cell equals cell 22 degree end cell end table`
+$\begin{gathered} 120 + 38 + \text{Angle} E D C & = 180 \\ \text{Angle} E D C & = 180 - 120 - 38 \\ \text{Angle} E D C & = 22^{\circ} \end{gathered}$
 
 **[1]**
 
@@ -146,7 +146,7 @@ $180-15=165$
 
 *Angle ***CDE*** + Angle ***DEC*** + Angle ***DCE ***= 180**<sup>o</sup>**   (Angles in a triangle)*
 
-`table row cell 22 plus 139 plus x end cell equals 180 row x equals cell 180 minus 22 minus 139 end cell end table`
+$\begin{gathered} 22 + 139 + x & = 180 \\ x = 180 - 22 - 139 \end{gathered}$
 
 $x=19^{\circ}$ **[1]**
 *Fully correct reasons** ***[1]**
@@ -158,7 +158,7 @@ $x=19^{\circ}$ **[1]**
 
 > *An interior angle and an exterior angle add up to 180°. Use this to find the size of an exterior angle.*
 
-`table row cell 150 degree plus Exterior space angle end cell equals cell 180 degree end cell row cell Exterior space angle end cell equals cell 180 degree minus 150 degree end cell row cell Exterior space angle end cell equals cell 30 degree end cell end table`
+$\begin{gathered} 150^{\circ} + \text{Exterior} \text{angle} & = 180^{\circ} \\ \text{Exterior} \text{angle} & = 180^{\circ} - 150^{\circ} \\ \text{Exterior} \text{angle} & = 30^{\circ} \end{gathered}$
 
 > *The formula for the exterior angle of a regular **n**-sided polygon is *$\mathrm{Exterior} \mathrm{angle}=\frac{360}{n}.$* Use this to form an equation.*
 
@@ -178,15 +178,15 @@ $n=12$ **[1]**
 
 > *Method 2*
 
-> *The formula for the interior angle of a regular **n**-sided polygon is *`Interior space angle equals fraction numerator open parentheses n minus 2 close parentheses cross times 180 over denominator n end fraction.`* Use this to form an equation.*
+> *The formula for the interior angle of a regular **n**-sided polygon is *$\text{Interior} \text{angle} = \frac{( n - 2 ) \times 180}{n} .$* Use this to form an equation.*
 
-`150 equals fraction numerator open parentheses n minus 2 close parentheses cross times 180 over denominator n end fraction`
+$150 = \frac{( n - 2 ) \times 180}{n}$
 
 **[1]**
 
 > *Multiply both sides by **n**.*
 
-`150 n equals open parentheses n minus 2 close parentheses cross times 180`
+$150 n = ( n - 2 ) \times 180$
 
 > *Expand the bracket.*
 
@@ -194,7 +194,7 @@ $150n=180n-360$
 
 > *Subtract 180**n** from both sides.*
 
-`table attributes columnalign right center left columnspacing 0px end attributes row cell 150 n minus 180 n end cell equals cell negative 360 end cell row cell negative 30 n end cell equals cell negative 360 end cell end table`
+$\begin{array}{rcl} 150 n - 180 n & = - 360 \\ - 30 n & = - 360 \end{array}$
 
 > *Divide both sides by -30.*
 
@@ -206,7 +206,7 @@ $n=12$* ***[1]**
 > *BD **is a straight line. *
 *Angles on a straight line add up to 180*<sup>*o*</sup>*.*
 
-`table attributes columnalign right center left columnspacing 0px end attributes row cell p plus 48 end cell equals 180 row p equals cell 180 minus 48 end cell end table`
+$\begin{array}{rcl} p + 48 & = 180 \\ p = 180 - 48 \end{array}$
 
 $p=132^{\circ}$** [1]**
 
@@ -214,13 +214,13 @@ $p=132^{\circ}$** [1]**
 *Angles on a straight line add up to 180*<sup>*o*</sup>*.*
 *Find the unlabelled angle inside the triangle by subtracting your answer for *$p$* from 180*<sup>*o*</sup>*.*
 
-`table attributes columnalign right center left columnspacing 0px end attributes row cell 180 minus 132 end cell equals 48 end table`
+$\begin{array}{rcl} 180 - 132 & = 48 \end{array}$
 
 **[1]**
 
 > *Angles in a triangle add up to 180*<sup>*o*</sup>*.*
 
-`table attributes columnalign right center left columnspacing 0px end attributes row cell q plus 55 plus 48 end cell equals 180 row q equals cell 180 minus 55 minus 48 end cell end table`
+$\begin{array}{rcl} q + 55 + 48 & = 180 \\ q = 180 - 55 - 48 \end{array}$
 
 $77^{\circ}$** [1]**
 
@@ -295,7 +295,7 @@ $180-5$
 $175^{\circ}$ **[1]**
 
 ### Q10
-> *The sum of the angles of a polygon of *$n$* sides is given by the formula *`180 cross times open parentheses n minus 2 close parentheses`
+> *The sum of the angles of a polygon of *$n$* sides is given by the formula *$180 \times ( n - 2 )$
 
 $180\times(5-2)=540$
 
@@ -327,7 +327,7 @@ i) *As the line *$OMR$* is a radius of the circle, and the line *$BC$* is a chor
 
 > *Considering the right-angled triangle *$OMB$*, we can use the cosine ratio, *$\mathrm{cos}θ=\frac{\mathrm{adjacent}}{\mathrm{hypotenuse}}$*, to find *$BM$
 
-`table row cell cos open parentheses 54 close parentheses end cell equals cell fraction numerator B M over denominator 12 end fraction end cell row cell 12 cos open parentheses 54 close parentheses end cell equals cell B M end cell end table`
+$\begin{gathered} \cos ( 54 ) & = \frac{B M}{12} \\ 12 \cos ( 54 ) & = B M \end{gathered}$
 
 **[1]**
 
@@ -348,11 +348,11 @@ $180-54-54=72$
 
 > *Considering the right-angled triangle *$BMX$*, we can use the cosine ratio, *$\mathrm{cos}θ=\frac{\mathrm{adjacent}}{\mathrm{hypotenuse}}$*, to find length *$BX$
 
-`cos open parentheses 72 close parentheses equals fraction numerator 7.05 over denominator B X end fraction`
+$\cos ( 72 ) = \frac{7.05}{B X}$
 
-> *Multiply both sides by *$BX$*, and then divide both sides by *`cos open parentheses 72 close parentheses`
+> *Multiply both sides by *$BX$*, and then divide both sides by *$\cos ( 72 )$
 
-`B X equals fraction numerator 7.05 over denominator cos open parentheses 72 close parentheses end fraction`
+$B X = \frac{7.05}{\cos ( 72 )}$
 
 **[2]**
 
@@ -373,11 +373,11 @@ iib) *To find the area of a non-right-angled triangle, we can use the formula:* 
 
 > *To find *$AB$*, we can find half its length (*$AZ$*) by considering the right-angled triangle *$AZO$* and using the cosine ratio; *$\mathrm{cosθ}=\frac{\mathrm{adjacent}}{\mathrm{hypotenuse}}$
 
-`cos open parentheses 54 close parentheses equals fraction numerator A Z over denominator 12 end fraction`
+$\cos ( 54 ) = \frac{A Z}{12}$
 
 > *Multiply both sides by 12*
 
-`12 cos open parentheses 54 close parentheses equals A Z`
+$12 \cos ( 54 ) = A Z$
 
 $AZ=7.05...$
 
@@ -387,7 +387,7 @@ $AX=7.05...+7.05...+22.8=36.9...$
 
 > *Now we can find the area of the triangle *$AOX$* using the formula *$\frac{1}{2}ab\mathrm{sin}C$
 
-`1 half cross times 12 cross times 36.9... cross times sin open parentheses 54 close parentheses equals 179.1...`
+$1 \frac{1}{2} \times 12 \times 36.9... \times \sin ( 54 ) = 179.1...$
 
 * 1 mark for correct strategy to find overall area*** [2]**
 $179\mathrm{cm}^{2}$ **[1]** 
@@ -399,7 +399,7 @@ $179\mathrm{cm}^{2}$ **[1]**
 
 > *Add together all of the angles and make it equal to 180*<sup>*o*</sup>*.*
 
-`2 a plus open parentheses a plus 2 b close parentheses plus open parentheses 3 b plus 10 close parentheses equals 180`
+$2 a + ( a + 2 b ) + ( 3 b + 10 ) = 180$
 
 > *Remove the brackets.*
 
@@ -417,7 +417,7 @@ $3a+5b=170$* ***[1]**
 
 > *Add together all of the angles and make it equal to 360*<sup>*o*</sup>*.*
 
-`8 a plus open parentheses b plus 50 close parentheses plus open parentheses 4 b minus 2 a close parentheses plus open parentheses 3 a plus 2 b close parentheses equals 360`
+$8 a + ( b + 50 ) + ( 4 b - 2 a ) + ( 3 a + 2 b ) = 360$
 
 > *Remove the brackets.*
 
@@ -436,11 +436,11 @@ $9a+7b=310$* ***[1]**
 
 > *Multiply the equation for the triangle by 3.*
 
-`table row cell 3 a plus 5 b end cell equals cell 170 space space space space space space space cross times 3 end cell row cell 9 a plus 15 b end cell equals 510 end table`
+$\begin{gathered} 3 a + 5 b & = 170 \times 3 \\ 9 a + 15 b & = 510 \end{gathered}$
 
 > *Subtract the equation for the quadrilateral from the adapted triangle equation.*
 
-`stack attributes charalign center stackalign right end attributes row 9 a plus 15 b equals 510 end row row minus none none 9 a plus 7 b equals 310 end row horizontal line row 8 b equals 200 end row end stack`
+`charalign center stackalign right end | 9 a + 15 b = 510 end | | - none none 9 a + 7 b = 310 end | horizontal line | 8 b = 200 end | end`
 
 > *Divide both sides by 8.*
 
@@ -448,7 +448,7 @@ $b=25$
 
 > *Substitute *$b=25$* into either equation and solve for *$a$*.*
 
-`table row cell 3 a plus 5 cross times 25 end cell equals 170 row cell 3 a plus 125 end cell equals 170 end table`
+$\begin{gathered} 3 a + 5 \times 25 & = 170 \\ 3 a + 125 & = 170 \end{gathered}$
 
 > *Subtract 125 from both sides.*
 
@@ -460,15 +460,15 @@ $a=15$
 
 *Correct method of elimination shown*** [1]**
 
-`table attributes columnalign right center left columnspacing 0px end attributes row bold italic a bold equals bold 15 end table`** [1]**
+$\begin{array}{rcl} a = 15 \end{array}$** [1]**
 
-** **`table attributes columnalign right center left columnspacing 0px end attributes row bold italic b bold equals bold 25 end table`* ***[1]**
+** **$\begin{array}{rcl} b = 25 \end{array}$* ***[1]**
 
 > *Method 2: Substitution*
 
 > *Rearrange the equation for the triangle to make *$a$* the subject.*
 
-`table row cell 3 a plus 5 b end cell equals 170 end table`
+$\begin{gathered} 3 a + 5 b & = 170 \end{gathered}$
 
 > *Subtract *$5b$* from both sides.*
 
@@ -480,15 +480,15 @@ $a=\frac{170-5b}{3}$
 
 > *Substitute the rearranged equation into the quadrilateral equation in place of *$a$*.*
 
-`9 open parentheses fraction numerator 170 minus 5 b over denominator 3 end fraction close parentheses plus 7 b equals 310`
+$9 ( \frac{170 - 5 b}{3} ) + 7 b = 310$
 
 > *Multiply both sides by 3.*
 
-`9 open parentheses 170 minus 5 b close parentheses plus 21 b equals 930`
+$9 ( 170 - 5 b ) + 21 b = 930$
 
 > *Expand the brackets on the left hand side.*
 
-`table row cell 1530 minus 45 b plus 21 b end cell equals 930 end table`
+$\begin{gathered} 1530 - 45 b + 21 b & = 930 \end{gathered}$
 
 > *Simplify the left hand side by collecting like terms.*
 
@@ -500,7 +500,7 @@ $1530=930+24b$
 
 > *Subtract 930 from both sides.*
 
-`table row 600 equals cell 24 b end cell end table`
+$\begin{gathered} 600 = 24 b \end{gathered}$
 
 > *Divide both sides by 24.*
 
@@ -508,7 +508,7 @@ $25=b$
 
 > *Substitute *$b=25$* into either equation and solve for *$a$*.*
 
-`table row cell 3 a plus 5 cross times 25 end cell equals 170 row cell 3 a plus 125 end cell equals 170 end table`
+$\begin{gathered} 3 a + 5 \times 25 & = 170 \\ 3 a + 125 & = 170 \end{gathered}$
 
 > *Subtract 125 from both sides.*
 
@@ -520,9 +520,9 @@ $a=15$
 
 *Correct method of substitution shown ***[1]**
 
-`table attributes columnalign right center left columnspacing 0px end attributes row bold italic a bold equals bold 15 end table`** [1]*** *
+$\begin{array}{rcl} a = 15 \end{array}$** [1]*** *
 
-`table attributes columnalign right center left columnspacing 0px end attributes row bold italic b bold equals bold 25 end table`** ****[1]**
+$\begin{array}{rcl} b = 25 \end{array}$** ****[1]**
 
 > *iv) Substitute the values for *$a$* and *$b$* into the expressions for the angles of the triangle and write down the smallest angle.*
 
@@ -531,21 +531,21 @@ $2a=2\times15=30\,a+2b=15+2\times25=65\,3b+10=3\times25+10=85$
 $30^{\circ}$* ***[1]**
 
 ### Q12
-> *Find the size of an interior angle of the regular 10-sided polygon using the formula: *`Interior space Angle equals fraction numerator open parentheses n minus 2 close parentheses cross times 180 degree over denominator n end fraction.`
+> *Find the size of an interior angle of the regular 10-sided polygon using the formula: *$\text{Interior} \text{Angle} = \frac{( n - 2 ) \times 180^{\circ}}{n} .$
 
-`fraction numerator open parentheses 10 minus 2 close parentheses cross times 180 degree over denominator 10 end fraction equals 144 degree`
+$\frac{( 10 - 2 ) \times 180^{\circ}}{10} = 144^{\circ}$
 
 **[1]**
 
-> *Consider the 5-sided polygon **AGHIJ**. Find the sum of the angles using the formula: *`Sum space of space Interior space Angle equals open parentheses n minus 2 close parentheses cross times 180 degree.`
+> *Consider the 5-sided polygon **AGHIJ**. Find the sum of the angles using the formula: *$Sum of Interior Angle = ( n - 2 ) \times 180 ^{\circ} .$
 
 ![angles-vhq6-1](assets/016-angles-vhq6-1.png)
 
-`open parentheses 5 minus 2 close parentheses cross times 180 degree equals 540 degree`
+$( 5 - 2 ) \times 180^{\circ} = 540^{\circ}$
 
 > *The angle at **A** is the same as the angle at **G** by symmetry. The other three angles are 144°. Form an equation and solve it to find **x**.*
 
-`table attributes columnalign right center left columnspacing 0px end attributes row cell x plus x plus 144 plus 144 plus 144 end cell equals 540 row cell 2 x plus 432 end cell equals 540 row cell 2 x end cell equals 108 row x equals 54 end table`
+$\begin{array}{rcl} x + x + 144 + 144 + 144 & = 540 \\ 2 x + 432 & = 540 \\ 2 x & = 108 \\ x = 54 \end{array}$
 
 **[1]**
 
@@ -553,20 +553,20 @@ $30^{\circ}$* ***[1]**
 
 ![angles-vhq6-2](assets/017-angles-vhq6-2.png)
 
-`table attributes columnalign right center left columnspacing 0px end attributes row cell z plus z plus 144 plus 144 end cell equals 360 row cell 2 z plus 288 end cell equals 360 row cell 2 z end cell equals 72 row z equals 36 end table`
+$\begin{array}{rcl} z + z + 144 + 144 & = 360 \\ 2 z + 288 & = 360 \\ 2 z & = 72 \\ z = 36 \end{array}$
 
 **[1]**
 
 > *The three angles in the 10-sdied polygon at A add up to 144°. Form an equation and solve it to find **y**.*
 
-`table attributes columnalign right center left columnspacing 0px end attributes row cell 54 plus y plus 36 end cell equals 144 row cell y plus 90 end cell equals 144 row y equals 54 end table`
+$\begin{array}{rcl} 54 + y + 36 & = 144 \\ y + 90 & = 144 \\ y = 54 \end{array}$
 
 $x=y=54$* ***[1]**
 
 ### Q13
-> *The sum of the interior angles of a polygon can be calculated using *`open parentheses n minus 2 close parentheses cross times 180`* so for a pentagon*
+> *The sum of the interior angles of a polygon can be calculated using *$( n - 2 ) \times 180$* so for a pentagon*
 
-*Sum of interior angles = *`open parentheses 5 minus 2 close parentheses cross times 180 equals 540 degree`
+*Sum of interior angles = *$( 5 - 2 ) \times 180 = 540^{\circ}$
 
 **[1]**
 
@@ -605,7 +605,7 @@ $\mathrm{Angle}AEK=126^{\circ}$ **[1]**
 
 > *Finding the area scale factor*
 
-`table row cell 6 space cm squared cross times Area space Scale space Factor space end cell equals cell space 73.5 space cm squared end cell row cell Area space Scale space Factor end cell equals cell fraction numerator 73.5 over denominator 6 end fraction equals 49 over 4 equals 12.25 end cell end table`
+$\begin{gathered} 6 cm^{2} \times \text{Area} \text{Scale} \text{Factor} & = 73.5 cm^{2} \\ \text{Area} \text{Scale} \text{Factor} & = \frac{73.5}{6} = \frac{49}{4} = 12.25 \end{gathered}$
 
 > *Therefore the scale factor for the lengths is*
 

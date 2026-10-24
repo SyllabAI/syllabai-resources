@@ -6,9 +6,9 @@
 ## Q1 — medium — 4 marks · exam-questions
 
 ### 1() — 4 marks — structured — from paper Specimen · WFM01/01
-Use the standard results for `sum from r equals 1 to n of r` and for `sum from r equals 1 to n of r cubed` to show that, for all positive integers $n$,
+Use the standard results for `sum from r equals 1 to n of r` and for $\sum_{r = 1}^{n} r^{3}$ to show that, for all positive integers $n$,
 
-`sum from r equals 1 to n of r left parenthesis r squared minus 3 right parenthesis equals n over 4 left parenthesis n plus a right parenthesis left parenthesis n plus b right parenthesis left parenthesis n plus c right parenthesis`
+$\sum_{r = 1}^{n} r ( r^{2} - 3 ) = \frac{n}{4} ( n + a ) ( n + b ) ( n + c )$
 
 where  $a$, $b$ and $c$ are integers to be found.
 
@@ -19,35 +19,35 @@ where  $a$, $b$ and $c$ are integers to be found.
 
 Show that for all positive integers `equation`$n$
 
-`sum from r equals 1 to n of left parenthesis 12 r squared plus 2 r minus 3 right parenthesis equals A n cubed plus B n squared`
+$\sum_{r = 1}^{n} ( 12 r^{2} + 2 r - 3 ) = A n^{3} + B n^{2}$
 
 where $A$and $B$ are integers to be determined.
 
 ### 7((b)) — 4 marks — structured — from paper June 2024 · WFM01/01
 Hence determine the value of $n$ for which
 
-`sum from r equals 1 to 2 n of r cubed minus sum from r equals 1 to n of left parenthesis 12 r squared plus 2 r minus 3 right parenthesis equals 270`
+$\sum_{r = 1}^{2 n} r^{3} - \sum_{r = 1}^{n} ( 12 r^{2} + 2 r - 3 ) = 270$
 
 ## Q3 — medium — 8 marks · exam-questions
 
 ### 8((a)) — 4 marks — structured — from paper January 2024 · WFM01/01
 Use the standard results for summations to show that, for all positive integers $n$,
 
-`sum from r equals 1 to n of r open parentheses 2 r squared minus 3 r minus 1 close parentheses equals 1 half n left parenthesis n plus 1 right parenthesis to the power of 2 space end exponent left parenthesis n minus 2 right parenthesis`
+$\sum_{r = 1}^{n} r ( 2 r^{2} - 3 r - 1 ) = 1 \frac{1}{2} n ( n + 1 )^{2 } ( n - 2 )$
 
 ### 8((b)) — 4 marks — structured — from paper January 2024 · WFM01/01
 Hence show that, for all positive integers $n$,
 
-`sum from r equals n to 2 n of r open parentheses 2 r squared minus 3 r minus 1 close parentheses equals 1 half n left parenthesis n minus 1 right parenthesis left parenthesis a n plus b right parenthesis left parenthesis c n plus d right parenthesis`
+$\sum_{r = n}^{2 n} r ( 2 r^{2} - 3 r - 1 ) = 1 \frac{1}{2} n ( n - 1 ) ( a n + b ) ( c n + d )$
 
 where  $a$, $b$, $c$ and $d$ are integers to be determined.
 
 ## Q4 — medium — 4 marks · exam-questions
 
 ### 1() — 4 marks — structured — from paper June 2023 · WFM01/01
-Use the standard results for `sum from r equals 1 to n of r squared` and `sum from r equals 1 to n of r cubed` to show that, for all positive integers $n$
+Use the standard results for $\sum_{r = 1}^{n} r^{2}$ and $\sum_{r = 1}^{n} r^{3}$ to show that, for all positive integers $n$
 
-`sum from r equals 1 to n of r squared left parenthesis r plus 2 right parenthesis equals 1 over 12 n left parenthesis n plus 1 right parenthesis left parenthesis a n squared plus b n plus c right parenthesis`
+$\sum_{r = 1}^{n} r^{2} ( r + 2 ) = \frac{1}{12} n ( n + 1 ) ( a n^{2} + b n + c )$
 
 where $a$, $b$ and $c$ are integers to be determined.
 
@@ -58,18 +58,18 @@ where $a$, $b$ and $c$ are integers to be determined.
 
 **Solutions relying entirely on calculator technology are not acceptable.**
 
-Use the standard results for `sum from r equals 1 to n of r` and `sum from r equals 1 to n of r squared` to show that for all positive integers `equation`$n$
+Use the standard results for `sum from r equals 1 to n of r` and $\sum_{r = 1}^{n} r^{2}$ to show that for all positive integers `equation`$n$
 
-`sum from r equals 1 to n of left parenthesis 7 r minus 5 right parenthesis squared equals n over 6 left parenthesis 7 n plus 1 right parenthesis left parenthesis A n plus B right parenthesis`
+$\sum_{r = 1}^{n} ( 7 r - 5 )^{2} = \frac{n}{6} ( 7 n + 1 ) ( A n + B )$
 
 where $A$and $B$ are integers to be determined.
 
 ## Q6 — medium — 8 marks · exam-questions
 
 ### 8((a)) — 5 marks — structured — from paper June 2022 · WFM01/01
-Use the standard results for `sum from r equals 1 to n of r squared` and `sum from r equals 1 to n of r` to show that for all positive integers $n$
+Use the standard results for $\sum_{r = 1}^{n} r^{2}$ and `sum from r equals 1 to n of r` to show that for all positive integers $n$
 
-`sum from r equals 0 to n of left parenthesis r plus 1 right parenthesis left parenthesis r plus 2 right parenthesis equals 1 third left parenthesis n plus 1 right parenthesis left parenthesis n plus 2 right parenthesis left parenthesis n plus 3 right parenthesis`
+$\sum_{r = 0}^{n} ( r + 1 ) ( r + 2 ) = 1 \frac{1}{3} ( n + 1 ) ( n + 2 ) ( n + 3 )$
 
 ### 8((b)) — 3 marks — structured — from paper June 2022 · WFM01/01
 Hence determine the value of
@@ -81,31 +81,31 @@ $10\times11+11\times12+12\times13+\dots+100\times101$
 ### 9((a)) — 5 marks — structured — from paper Jan 2022 · Paper 1
 Prove by induction that, for $n\inℕ$
 
-`sum from r equals 1 to n of r cubed equals 1 fourth n squared left parenthesis n plus 1 right parenthesis squared`
+$\sum_{r = 1}^{n} r^{3} = 1 \frac{1}{4} n^{2} ( n + 1 )^{2}$
 
 ### 9((b)) — 4 marks — structured — from paper Jan 2022 · Paper 1
 Using the standard summation formulae, show that
 
-`sum from r equals 1 to n of r left parenthesis r plus 1 right parenthesis left parenthesis r minus 1 right parenthesis equals 1 fourth n left parenthesis n plus A right parenthesis left parenthesis n plus B right parenthesis left parenthesis n plus C right parenthesis`
+$\sum_{r = 1}^{n} r ( r + 1 ) ( r - 1 ) = 1 \frac{1}{4} n ( n + A ) ( n + B ) ( n + C )$
 
 where $A$, $B$ and $C$ are constants to be determined.
 
 ### 9((c)) — 1 mark — structured — from paper Jan 2022 · Paper 1
 Determine the value of $n$ for which
 
-`3 sum from r equals 1 to n of r left parenthesis r plus 1 right parenthesis left parenthesis r minus 1 right parenthesis equals 17 sum from r equals n to 2 n of r squared`
+$3 \sum_{r = 1}^{n} r ( r + 1 ) ( r - 1 ) = 17 \sum_{r = n}^{2 n} r^{2}$
 
 ## Q8 — medium — 8 marks · exam-questions
 
 ### 5((a)) — 5 marks — structured — from paper Nov 2021 · Paper 1
-Use the standard results for `sum from r equals 1 to n of r cubed comma    sum from r equals 1 to n of r squared    text and end text    sum from r equals 1 to n of r` to show that for all positive integers $n$,
+Use the standard results for `SUM_ r = 1 to n of r ^3 , SUM_ r = 1 to n of r ^2 text and end text SUM_ r = 1 to n of r` to show that for all positive integers $n$,
 
-`sum from r equals 1 to n of r left parenthesis r minus 1 right parenthesis left parenthesis r minus 3 right parenthesis equals 1 over 12 n left parenthesis n plus 1 right parenthesis left parenthesis n minus 1 right parenthesis left parenthesis 3 n minus 10 right parenthesis`
+$\sum_{r = 1}^{n} r ( r - 1 ) ( r - 3 ) = \frac{1}{12} n ( n + 1 ) ( n - 1 ) ( 3 n - 10 )$
 
 ### 5((b)) — 3 marks — structured — from paper Nov 2021 · Paper 1
 Hence show that
 
-`sum from r equals n plus 1 to 2 n plus 1 of r left parenthesis r minus 1 right parenthesis left parenthesis r minus 3 right parenthesis equals 1 over 12 n left parenthesis n plus 1 right parenthesis left parenthesis a n squared plus b n plus c right parenthesis`
+$\sum_{r = n + 1}^{2 n + 1} r ( r - 1 ) ( r - 3 ) = \frac{1}{12} n ( n + 1 ) ( a n^{2} + b n + c )$
 
 where $a$, $b$ and $c$ are integers to be determined.
 
@@ -114,42 +114,42 @@ where $a$, $b$ and $c$ are integers to be determined.
 ### 7((a)) — 5 marks — structured — from paper June 2021 · Paper 1
 Prove by induction that for $n\inℕ$
 
-`sum from r equals 1 to n of r squared equals n over 6 left parenthesis n plus 1 right parenthesis left parenthesis 2 n plus 1 right parenthesis`
+$\sum_{r = 1}^{n} r^{2} = \frac{n}{6} ( n + 1 ) ( 2 n + 1 )$
 
 ### 7((b)) — 4 marks — structured — from paper June 2021 · Paper 1
 Hence show that
 
-`sum from r equals 1 to n of left parenthesis r squared plus 2 right parenthesis equals n over 6 left parenthesis a n squared plus b n plus c right parenthesis`
+$\sum_{r = 1}^{n} ( r^{2} + 2 ) = \frac{n}{6} ( a n^{2} + b n + c )$
 
 where $a$, $b$ and $c$ are integers to be found.
 
 ### 7((c)) — 2 marks — structured — from paper June 2021 · Paper 1
 Using your answers to part (b), find the value of
 
-`sum from r equals 10 to 25 of left parenthesis r squared plus 2 right parenthesis`
+$\sum_{r = 10}^{25} ( r^{2} + 2 )$
 
 ## Q10 — medium — 7 marks · exam-questions
 
 ### 5((a)) — 5 marks — structured — from paper Jan 2021 · Paper 1
-Using the formulae for  `sum from r equals 1 to n of r    text and end text    sum from r equals 1 to n of r squared`, show that
+Using the formulae for  `SUM_ r = 1 to n of r text and end text SUM_ r = 1 to n of r ^2`, show that
 
-`sum from r equals 1 to n of left parenthesis r plus 1 right parenthesis left parenthesis r plus 5 right parenthesis equals n over 6 left parenthesis n plus 7 right parenthesis left parenthesis 2 n plus 7 right parenthesis`
+$\sum_{r = 1}^{n} ( r + 1 ) ( r + 5 ) = \frac{n}{6} ( n + 7 ) ( 2 n + 7 )$
 
 for all positive integers $n$.
 
 ### 5((b)) — 2 marks — structured — from paper Jan 2021 · Paper 1
 Hence show that
 
-`sum from r equals n plus 1 to 2 n of left parenthesis r plus 1 right parenthesis left parenthesis r plus 5 right parenthesis equals fraction numerator 7 n over denominator 6 end fraction left parenthesis n plus 1 right parenthesis left parenthesis a n plus b right parenthesis`
+$\sum_{r = n + 1}^{2 n} ( r + 1 ) ( r + 5 ) = \frac{7 n}{6} ( n + 1 ) ( a n + b )$
 
 where $a$ and $b$ are integers to be determined.
 
 ## Q11 — medium — 9 marks · exam-questions
 
 ### 4((a)) — 5 marks — structured — from paper October 2020 · WFM01/01
-Use the standard results for `sum from r equals 1 to n of r squared` and `sum from r equals 1 to n of r`  to show that
+Use the standard results for $\sum_{r = 1}^{n} r^{2}$ and `sum from r equals 1 to n of r`  to show that
 
-`sum from r equals 1 to n of left parenthesis 2 r minus 1 right parenthesis squared equals 1 third n left parenthesis 4 n squared minus 1 right parenthesis`
+$\sum_{r = 1}^{n} ( 2 r - 1 )^{2} = 1 \frac{1}{3} n ( 4 n^{2} - 1 )$
 
 for all positive integers $n$.
 

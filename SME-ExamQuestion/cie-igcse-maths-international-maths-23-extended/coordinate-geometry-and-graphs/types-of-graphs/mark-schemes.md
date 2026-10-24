@@ -24,7 +24,7 @@
 
 $a=-1,b=-6$
 
-> *So the turning point is at *`open parentheses negative open parentheses negative 1 close parentheses comma space minus 6 close parentheses`*.*
+> *So the turning point is at *$( - ( - 1 ) , - 6 )$*.*
 
 **(1, -6)** **[1]**
 
@@ -74,7 +74,7 @@ $a=-1,b=-6$
 
 > *The graph crosses the **y**-axis when **x **= 0*
 
-`x equals 0 space rightwards double arrow space y equals open parentheses 0 minus 3 close parentheses squared minus 5 equals 9 minus 5 equals 4`
+$x = 0 \Leftrightarrow y = ( 0 - 3 )^{2} - 5 = 9 - 5 = 4$
 
 > *So the graph crosses the **y **axis at the point (0, 4)*
 
@@ -82,23 +82,23 @@ $a=-1,b=-6$
 
 > *The graph crosses the **x**-axis when **y **= 0*
 
-`y equals 0 space rightwards double arrow space 0 space equals open parentheses x minus 3 close parentheses squared minus 5`
+$y = 0 \Leftrightarrow 0 = ( x - 3 )^{2} - 5$
 
 > *Add 5 to both sides*
 
-`table row cell open parentheses x minus 3 close parentheses squared end cell equals 5 end table`
+$\begin{gathered} ( x - 3 )^{2} & = 5 \end{gathered}$
 
 > *Square root both sides and then add 3 to both sides*
 
-`table row cell x minus 3 end cell equals cell plus-or-minus square root of 5 end cell row x equals cell 3 plus-or-minus square root of 5 end cell end table`
+$\begin{gathered} x - 3 & = \pm \sqrt{5} \\ x = 3 \pm \sqrt{5} \end{gathered}$
 
 **[1]**
 
 > *The graph goes through the **x **axis twice, at the points *$(3+\sqrt{5},0)$* and *$(3-\sqrt{5},0)$
 
-> *The turning point of *`a open parentheses x plus b close parentheses squared plus c space`*is at the point *$(-b,c)$
+> *The turning point of *$a ( x + b )^{2} + c$*is at the point *$(-b,c)$
 
-`a equals 1 space comma space space b equals negative 3 space comma space space c equals negative 5 space rightwards double arrow space Minimum space point colon space open parentheses 3 comma negative 5 close parentheses`
+$a = 1 , b = - 3 , c = - 5 \Leftrightarrow \text{Minimum} \text{point} : ( 3 , - 5 )$
 
 **[1]**
 
@@ -116,27 +116,27 @@ $a=-1,b=-6$
 
 > *The graph crosses the **y**-axis when **x **= 0*
 
-`x equals 0 space rightwards double arrow space y equals 4 open parentheses 0 minus 1 close parentheses squared minus a equals 4 minus a`
+$x = 0 \Leftrightarrow y = 4 ( 0 - 1 )^{2} - a = 4 - a$
 
 > *We know that **a  **> 4, so the graph crosses the **y **axis **below **zero *
 
 > *The graph crosses the **x**-axis when **y **= 0*
 
-`y equals 0 space rightwards double arrow space 0 equals 4 open parentheses x minus 1 close parentheses squared minus a`
+$y = 0 \Leftrightarrow 0 = 4 ( x - 1 )^{2} - a$
 
 > *Add **a** to both sides and divide by 4*
 
-`table row cell 4 open parentheses x minus 1 close parentheses squared space end cell equals cell space a end cell row cell open parentheses x minus 1 close parentheses squared end cell equals cell a over 4 end cell end table`
+$\begin{gathered} 4 ( x - 1 )^{2} & = a \\ ( x - 1 )^{2} & = \frac{a}{4} \end{gathered}$
 
 > *Square root both sides and then add 1 to both sides*
 
-`table row cell x minus 1 end cell equals cell plus-or-minus square root of a over 4 end root end cell row x equals cell 1 plus-or-minus space square root of a over 4 end root end cell end table`
+$\begin{array}{ccc}x - 1 & = & \pm \sqrt{\frac{a}{4}} \\ x = & 1 \pm \sqrt{\frac{a}{4}}\end{array}$
 
 > *We know that **a  **> 4, so both answers are possible and the graph goes through the **x **axis twice*
 
-> *The turning point of *`a open parentheses x plus b close parentheses squared plus c space`*is at the point *$(-b,c)$
+> *The turning point of *$a ( x + b )^{2} + c$*is at the point *$(-b,c)$
 
-`a equals 4 space comma space space b equals negative 1 space comma space space c equals negative a space rightwards double arrow space space Minimum space point colon space open parentheses 1 comma negative a close parentheses`
+$a = 4 , b = - 1 , c = - a \Leftrightarrow \text{Minimum} \text{point} : ( 1 , - a )$
 
 > *We know that **a  **> 4, so -**a **< -4 and the minimum point must be in the fourth quadrant*
 
@@ -152,14 +152,14 @@ $a=-1,b=-6$
 **Fully correct graph ****[1]**
 
 ### Q7
-> *The graph of *$y=f(x)$* crosses the *$x$*-axis where *`straight f open parentheses x close parentheses equals 0`
+> *The graph of *$y=f(x)$* crosses the *$x$*-axis where *$\mathrm{f} ( x ) = 0$
 
-`x open parentheses x plus 2 close parentheses open parentheses x minus 3 close parentheses equals 0
-x equals 0 comma space x equals space minus 2 space or space x equals 3`
+$x ( x + 2 ) ( x - 3 ) = 0
+x = 0 , x = - 2 \text{or} x = 3$
 
 > *Mark points on the *$x$*-axis*
 
-> *Draw a smooth cubic curve through the points marked on the *$x$*-axis. If *`straight f open parentheses x close parentheses`* were expanded to *$ax^{3}+bx^{2}+cx+d$* then *$a$* would be positive (1) so the curve goes from bottom left to top right*
+> *Draw a smooth cubic curve through the points marked on the *$x$*-axis. If *$\mathrm{f} ( x )$* were expanded to *$ax^{3}+bx^{2}+cx+d$* then *$a$* would be positive (1) so the curve goes from bottom left to top right*
 
 ![PBxgfQ2-_cie-igcse-2025-specimen-p2-q26a](assets/010-pbxgfq2-cie-igcse-2025-specimen-p2-q26a.png)
 
@@ -198,11 +198,11 @@ x equals 0 comma space x equals space minus 2 space or space x equals 3`
 
 > *Find the **x- **intercepts by letting **y** equal zero*
 
-`open parentheses x plus 1 close parentheses open parentheses x minus 3 close parentheses squared equals 0`
+$( x + 1 ) ( x - 3 )^{2} = 0$
 
 > * Solve by letting each bracket equal zero*
 
-`table row cell open parentheses x plus 1 close parentheses end cell equals 0 row x equals cell negative 1 space end cell end table`*       **and        *`table row cell open parentheses x minus 3 close parentheses squared end cell equals 0 row x equals cell 3 space end cell end table`
+$\begin{gathered} ( x + 1 ) & = 0 \\ x = - 1 \end{gathered}$*       **and        *$\begin{gathered} ( x - 3 )^{2} & = 0 \\ x = 3 \end{gathered}$
 
 > *So the **x** intercepts are -1 and 3*
 
@@ -212,7 +212,7 @@ x equals 0 comma space x equals space minus 2 space or space x equals 3`
 
 > *Find the **y- **intercept by letting **x** equal zero *
 
-`table row cell open parentheses 0 space plus space 1 close parentheses open parentheses 0 minus 3 close parentheses squared end cell equals y row cell open parentheses 1 close parentheses open parentheses negative space 3 close parentheses squared end cell equals y row y equals 9 end table`
+$\begin{gathered} ( 0 + 1 ) ( 0 - 3 )^{2} & = y \\ ( 1 ) ( - 3 )^{2} & = y \\ y = 9 \end{gathered}$
 
 > *So the **y- **intercept must have the coordinate (0, 9)*
 

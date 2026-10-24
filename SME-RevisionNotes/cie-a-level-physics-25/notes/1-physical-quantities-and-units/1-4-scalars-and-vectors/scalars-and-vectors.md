@@ -184,9 +184,9 @@ guided_study: true
 > 
 > $\mathrm{tan}θ=\frac{\mathrm{opposite}}{\mathrm{adjacent}}=\frac{v_{1}}{v_{2}}$
 > 
-> `theta space equals space tan to the power of negative 1 end exponent open parentheses fraction numerator 2.7 over denominator 5.1 end fraction close parentheses`
+> $\\theta = \tan ^{- 1} ( \frac{2.7}{5.1} )$
 > 
-> `theta space equals space 28 degree space open parentheses 2 space straight s. straight f. close parentheses`
+> $\\theta = 28^{\circ} ( 2 \mathrm{s} . \mathrm{f} . )$
 
 ## Resolving Vectors
 

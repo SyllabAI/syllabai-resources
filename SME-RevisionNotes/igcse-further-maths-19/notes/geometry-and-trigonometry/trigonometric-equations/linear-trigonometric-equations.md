@@ -97,7 +97,7 @@ The methods for finding **all solutions** are:
     - $\mathrm{sin}x\mathrm{tan}x-3\mathrm{sin}x+\mathrm{tan}x-3=0$
   - **Factorise**
   
-    - `open parentheses sin x plus 1 close parentheses open parentheses tan x minus 3 close parentheses equals 0`
+    - $( \sin x + 1 ) ( \tan x - 3 ) = 0$
   - This gives you **two basic equations** to solve
   
     - $\mathrm{sin}x=-1$
@@ -120,7 +120,7 @@ The methods for finding **all solutions** are:
 > > *Use calculator or knowledge of exact trig values to find *$x_{1}$
 > *Note that the interval is given in radians, so we must work in radians!*
 > 
-> `x subscript 1 equals cos to the power of negative 1 end exponent open parentheses negative 1 half close parentheses equals fraction numerator 2 pi over denominator 3 end fraction`
+> $x_{1} = \cos ^{- 1} ( - 1 \frac{1}{2} ) = \frac{2 \pi }{3}$
 > 
 > > *Use symmetry of the cos function to find *$x_{2}$
 > 
@@ -179,20 +179,20 @@ The methods for finding **all solutions** are:
 > 
 > > *Rewrite the equation in terms of *$u$* and rearrange*
 > 
-> `table row cell 2 cos u end cell equals cell negative 1 end cell row cell cos u end cell equals cell negative 1 half end cell end table`
+> $\begin{gathered} 2 \cos u & = - 1 \\ \cos u & = - 1 \frac{1}{2} \end{gathered}$
 > 
 > > *Now we need to transform the interval as well*
 > *Substitute the interval limits into  *$u=2x-30$
 > 
-> `2 open parentheses negative 360 close parentheses minus 30 equals negative 750`
+> $2 ( - 360 ) - 30 = - 750$
 > 
-> `2 open parentheses 360 close parentheses minus 30 equals 690`
+> $2 ( 360 ) - 30 = 690$
 > 
 > $-750^{\circ}\lequ\leq690^{\circ}$
 > 
 > > *Use calculator or knowledge of exact trig values to find the primary value*
 > 
-> `u subscript 1 equals cos to the power of negative 1 end exponent open parentheses negative 1 half close parentheses equals 120`
+> $u_{1} = \cos ^{- 1} ( - 1 \frac{1}{2} ) = 120$
 > 
 > > *Use symmetry of cos function to find the secondary value*
 > 
@@ -210,7 +210,7 @@ The methods for finding **all solutions** are:
 > 
 > > *Invert the substitution*
 > 
-> `table row u equals cell 2 x minus 30 end cell row cell 2 x end cell equals cell u plus 30 end cell row x equals cell fraction numerator u plus 30 over denominator 2 end fraction end cell end table`
+> $\begin{gathered} u = 2 x - 30 \\ 2 x & = u + 30 \\ x = \frac{u + 30}{2} \end{gathered}$
 > 
 > > *Substitute the *$u$* values into  *$x=\frac{u+30}{2}$* to find the corresponding *$x$* values*
 > 

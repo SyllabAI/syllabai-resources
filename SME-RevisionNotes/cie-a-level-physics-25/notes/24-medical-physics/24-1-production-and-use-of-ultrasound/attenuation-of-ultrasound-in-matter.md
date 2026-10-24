@@ -70,11 +70,11 @@ $I=I_{0}e^{-μx}$
 > 
 > **Step 1: Write down the equation for intensity reflection coefficient *****α***
 > 
-> `alpha space equals space fraction numerator open parentheses Z subscript 2 space minus space Z subscript 1 close parentheses squared space over denominator open parentheses Z subscript 2 space thin space plus thin space Z subscript 1 close parentheses squared end fraction`
+> $\\alpha = \frac{( Z_{2} - Z_{1} )^{2} }{( Z_{2} + Z_{1} )^{2}}$
 > 
 > **Step 2: Calculate the intensity reflection coefficient**
 > 
-> `alpha space equals space fraction numerator open parentheses 1.7 space cross times space 10 to the power of 6 space minus space 1.3 space cross times space 10 to the power of 6 close parentheses squared space over denominator open parentheses 1.7 space cross times space 10 to the power of 6 space space plus thin space 1.3 space cross times space 10 to the power of 6 close parentheses squared end fraction space equals space fraction numerator open parentheses 0.4 close parentheses squared space over denominator open parentheses 3 close parentheses squared end fraction space equals space 0.018`
+> $\\alpha = \frac{( 1.7 \times 10^{6} - 1.3 \times 10^{6} )^{2} }{( 1.7 \times 10^{6} + 1.3 \times 10^{6} )^{2}} = \frac{( 0.4 )^{2} }{( 3 )^{2}} = 0.018$
 > 
 > - This means that 0.018 of the intensity is reflected at the interface between fat and muscle
 > - This reflected intensity will move back through the fat towards surface S
@@ -105,7 +105,7 @@ $I=I_{0}e^{-μx}$
 > 
 > **Step 3: Substitute in values for intensity and simplify**
 > 
-> `0.012 I space equals space open parentheses 0.018 I space cross times space e to the power of negative mu x end exponent close parentheses space cross times space e to the power of negative mu x end exponent`
+> $0.012 I = ( 0.018 I \times e^{- \\mu x} ) \times e^{- \\mu x}$
 > 
 > $0.012=0.018e^{-2μx}$
 > 
@@ -113,11 +113,11 @@ $I=I_{0}e^{-μx}$
 > 
 > $\frac{0.012}{0.018}=e^{-2μx}$
 > 
-> `ln open parentheses fraction numerator 0.012 over denominator 0.018 end fraction close parentheses space equals space minus 2 mu x`
+> $\ln ( \frac{0.012}{0.018} ) = - 2 \\mu x$
 > 
 > **Step 5: Rearrange and calculate the thickness***** x***
 > 
-> `x space equals space fraction numerator ln open parentheses fraction numerator 0.012 over denominator 0.018 end fraction close parentheses space over denominator negative 2 mu end fraction space equals space fraction numerator ln open parentheses fraction numerator 0.012 over denominator 0.018 end fraction close parentheses space over denominator negative 2 space cross times space 48 end fraction space equals space 4.22 space cross times space 10 to the power of negative 3 end exponent space straight m space equals space 0.42 space cm`
+> $x = \frac{\ln ( \frac{0.012}{0.018} ) }{- 2 \\mu } = \frac{\ln ( \frac{0.012}{0.018} ) }{- 2 \times 48} = 4.22 \times 10^{- 3} \mathrm{m} = 0.42 \text{cm}$
 
 > **Exam Hint**
 > The intensity equation will not be provided for you on your exam datasheet, so make sure you remember this!

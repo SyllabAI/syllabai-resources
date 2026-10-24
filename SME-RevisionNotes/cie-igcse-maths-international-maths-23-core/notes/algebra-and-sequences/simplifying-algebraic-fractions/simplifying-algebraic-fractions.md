@@ -35,8 +35,8 @@ guided_study: true
   - $\frac{n^{5}}{n^{2}}=\frac{n\timesn\timesn\timesn\timesn}{n\timesn}$
 - Terms can then be "**cancelled**"
 
-  - `equation``n to the power of 5 over n squared equals fraction numerator n cross times n cross times n cross times up diagonal strike n cross times up diagonal strike n over denominator up diagonal strike n cross times up diagonal strike n end fraction equals n cross times n cross times n equals n cubed`
-  - `m squared over m cubed equals fraction numerator m cross times m over denominator m cross times m cross times m end fraction equals fraction numerator up diagonal strike m cross times up diagonal strike m over denominator m cross times up diagonal strike m cross times up diagonal strike m end fraction equals 1 over m`
+  - `equation``n ^ 5 / n ^2 = (n x n x n x / n x / n)/(/ n x / n) = n x n x n = n ^3`
+  - $\frac{m^{2}}{m^{3}} = \frac{m \times m}{m \times m \times m} = \frac{ \cancel{m} \times \cancel{m} }{m \times \cancel{m} \times \cancel{m} } = \frac{1}{m}$
 
 - Any **numerical **fractions can be simplified as usual
 
@@ -65,7 +65,7 @@ guided_study: true
 > 
 > > *Cancel any terms that appear in both the numerator and denominator*
 > 
-> `equation``1 third cross times fraction numerator up diagonal strike p cross times up diagonal strike p cross times up diagonal strike p over denominator p cross times p cross times p cross times up diagonal strike p cross times up diagonal strike p cross times up diagonal strike p end fraction`
+> `equation`$1 \frac{1}{3} \times \frac{ \cancel{p} \times \cancel{p} \times \cancel{p} }{p \times p \times p \times \cancel{p} \times \cancel{p} \times \cancel{p} }$
 > 
 > $\frac{1}{3}\times\frac{1}{p\timesp\timesp}$
 > 
@@ -93,7 +93,7 @@ guided_study: true
 > 
 > > *Cancel any terms that appear in both the numerator and denominator*
 > 
-> `4 cross times fraction numerator q cross times q cross times q cross times up diagonal strike q cross times up diagonal strike q over denominator up diagonal strike q cross times up diagonal strike q end fraction`
+> $4 \times \frac{q \times q \times q \times \cancel{q} \times \cancel{q} }{ \cancel{q} \times \cancel{q} }$
 > 
 > $4\timesq\timesq\timesq$
 > 

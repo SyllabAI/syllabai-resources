@@ -58,14 +58,14 @@ $a^{2}=b^{2}+c^{2}-2bc\mathrm{cos}A$
   - and you want to find an angle
 - It helps to** rearrange** the formula as follows, by adding $2bc\mathrm{cos}A$ to both sides then making $\mathrm{cos}A$ the subject
 
-`table row cell a squared end cell equals cell b squared plus c squared minus 2 b c space cos space A end cell row cell a squared plus 2 b c space cos space A end cell equals cell b squared plus c squared end cell row cell 2 b c space cos space A end cell equals cell b squared plus c squared minus a squared end cell row cell cos space A end cell equals cell fraction numerator b squared plus c squared minus a squared over denominator 2 b c end fraction end cell end table`
+$\begin{gathered} a^{2} & = b^{2} + c^{2} - 2 b c \cos A \\ a^{2} + 2 b c \cos A & = b^{2} + c^{2} \\ 2 b c \cos A & = b^{2} + c^{2} - a^{2} \\ \cos A & = \frac{b^{2} + c^{2} - a^{2}}{2 b c} \end{gathered}$
 
-- Use the formula `table row cell cos space A end cell equals cell fraction numerator b squared plus c squared minus a squared over denominator 2 b c end fraction end cell end table` to find the **unknown** **angle ***A*
+- Use the formula $\begin{gathered} \cos A & = \frac{b^{2} + c^{2} - a^{2}}{2 b c} \end{gathered}$ to find the **unknown** **angle ***A*
 
   - Remember, *A *is the angle **between** sides *b *and *c*
   
     - (you may need to relabel the triangle)
-  - You will need to use** inverse cosine **at the end, `cos to the power of negative 1 end exponent open parentheses... close parentheses`
+  - You will need to use** inverse cosine **at the end, $\cos ^{- 1} (... )$
 - Unlike the sine rule, there is no ambiguous case of the cosine rule
 
 > **Exam Hint**
@@ -88,6 +88,6 @@ $a^{2}=b^{2}+c^{2}-2bc\mathrm{cos}A$
 > 
 > > *Use the cosine rule in the rearranged form *$\mathrm{cos}A=\frac{b^{2}+c^{2}-a^{2}}{2bc}$
 > 
-> `table row cell cos space theta end cell equals cell fraction numerator 4.2 squared plus 3.8 squared minus 7.1 squared over denominator 2 open parentheses 4.2 close parentheses open parentheses 3.8 close parentheses end fraction end cell row theta equals cell cos to the power of negative 1 end exponent open parentheses fraction numerator 4.2 squared plus 3.8 squared minus 7.1 squared over denominator 2 open parentheses 4.2 close parentheses open parentheses 3.8 close parentheses end fraction close parentheses end cell row theta equals cell 125.04699... end cell end table`
+> $\begin{gathered} \cos \\theta & = \frac{4.2^{2} + 3.8^{2} - 7.1^{2}}{2 ( 4.2 ) ( 3.8 )} \\ \\theta = \cos ^{- 1} ( \frac{4.2^{2} + 3.8^{2} - 7.1^{2}}{2 ( 4.2 ) ( 3.8 )} ) \\ \\theta = 125.04699... \end{gathered}$
 > 
 > **Final answer:** $θ=125.0^{\circ}$** (to 1 d.p.)**

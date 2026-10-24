@@ -10,11 +10,11 @@
 ## Q2 — easy — 4 marks · exam-questions
 
 ### 17((a)) — 2 marks
-> *Use the TABLE function on your calculator for *`f open parentheses x close parentheses equals x cubed minus 4 x`*, starting at -3, ending at 3 and with steps of 1*
+> *Use the TABLE function on your calculator for *$f ( x ) = x^{3} - 4 x$*, starting at -3, ending at 3 and with steps of 1*
 
 > *If your calculator does not have a TABLE function then substitute the values of *$x$* into the function one by one for the missing values, being careful to put negative numbers in brackets, e.g.*
 
-`x equals negative 3 comma space y equals open parentheses negative 3 close parentheses cubed minus 4 open parentheses negative 3 close parentheses equals negative 15`
+$x = - 3 , y = ( - 3 )^{3} - 4 ( - 3 ) = - 15$
 
 | $x$ | $-3$ | $-2$ | $-1$ | $0$ | $1$ | $2$ | $3$ |
 |---|---|---|---|---|---|---|---|
@@ -27,7 +27,7 @@
 
 ### 17((b)) — 2 marks
 *Carefully plot the points from your table of values in (a) on the grid, noting the different scales on the *$x$* and *$y$* axes* 
-*For example, the first column represents the point *`open parentheses negative 3 comma space minus 15 close parentheses`
+*For example, the first column represents the point *$( - 3 , - 15 )$
 
 > *After plotting the points, join them with a smooth curve- do not use a ruler!*
 
@@ -40,11 +40,11 @@
 ## Q3 — easy — 4 marks · exam-questions
 
 ### 13((a)) — 2 marks
-> *Use the TABLE function on your calculator for *`f open parentheses x close parentheses equals x cubed minus 3 x plus 1`*, starting at -2, ending at 2 and with steps of 1*
+> *Use the TABLE function on your calculator for *$f ( x ) = x^{3} - 3 x + 1$*, starting at -2, ending at 2 and with steps of 1*
 
 > *If your calculator does not have a TABLE function then substitute the values of *$x$* into the function one by one for the missing values, being careful to put negative numbers in brackets, e.g.*
 
-`x equals negative 2 comma space y equals open parentheses negative 2 close parentheses cubed minus 3 open parentheses negative 2 close parentheses plus 1 equals negative 1`
+$x = - 2 , y = ( - 2 )^{3} - 3 ( - 2 ) + 1 = - 1$
 
 | $x$ | $-2$ | $-1$ | $0$ | $1$ | $2$ |
 |---|---|---|---|---|---|
@@ -57,7 +57,7 @@
 
 ### 13((b)) — 2 marks
 *Carefully plot the points from your table of values in (a) on the grid, noting the different scales on the *$x$* and *$y$* axes* 
-*For example, the first column represents the point *`open parentheses negative 2 comma space minus 1 close parentheses`
+*For example, the first column represents the point *$( - 2 , - 1 )$
 
 > *After plotting the points, join them with a smooth curve- do not use a ruler!*
 
@@ -87,7 +87,7 @@ $x=0.5,y=\frac{6}{0.5}=12\,x=3,y=\frac{6}{3}=2\,x=5,y=\frac{6}{5}=1.2$
 
 ### 18((b)) — 2 marks
 *Carefully plot the points from your table of values in (a) on the grid, noting the different scales on the *$x$* and *$y$* axes* 
-*For example, the first column represents the point *`open parentheses 0.5 comma space 12 close parentheses`
+*For example, the first column represents the point *$( 0.5 , 12 )$
 
 > *After plotting the points, join them with a smooth curve- do not use a ruler!*
 
@@ -101,7 +101,7 @@ $x=0.5,y=\frac{6}{0.5}=12\,x=3,y=\frac{6}{3}=2\,x=5,y=\frac{6}{5}=1.2$
 ### 19((a)) — 2 marks
 > *Method 1*
 
-> *Use the TABLE function on your calculator for *`f open parentheses x close parentheses equals 4 over x`*, starting at 1, ending at 6 and with steps of 1 to fill in the 5 columns on the right. Edit one of x values to 0.5 (or go back to settings and start at 0.5) for the remaining x = 0.5 column*
+> *Use the TABLE function on your calculator for *$f ( x ) = \frac{4}{x}$*, starting at 1, ending at 6 and with steps of 1 to fill in the 5 columns on the right. Edit one of x values to 0.5 (or go back to settings and start at 0.5) for the remaining x = 0.5 column*
 
 | $x$ | $0.5$ | $1$ | $2$ | $4$ | $5$ | $6$ |
 |---|---|---|---|---|---|---|
@@ -128,7 +128,7 @@ $x=0.5,y=\frac{4}{0.5}=8\,x=4,y=\frac{4}{4}=1\,x=5,y=\frac{4}{5}=0.8\,x=8,y=\fra
 
 ### 19((b)) — 2 marks
 *Carefully plot the points from your table of values in (a) on the grid, noting the different scales on the *$x$* and *$y$* axes* 
-*For example, the first column represents the point *`open parentheses 0.5 comma space 8 close parentheses`
+*For example, the first column represents the point *$( 0.5 , 8 )$
 
 > *After plotting the points, join them with a smooth curve- do not use a ruler!*
 
@@ -147,7 +147,7 @@ $x=0.5,y=\frac{4}{0.5}=8\,x=4,y=\frac{4}{4}=1\,x=5,y=\frac{4}{5}=0.8\,x=8,y=\fra
 **(1, 4) ****[1]**
 
 ### 7((b)) — 1 marks
-> *To find the roots of *`straight f open parentheses x close parentheses equals 2`*, draw the horizontal line *$y=2$* on the grid and read the *$x$*-coordinates where the graph of *`y equals straight f open parentheses x close parentheses`* intersects *$y=2$* *
+> *To find the roots of *$\mathrm{f} ( x ) = 2$*, draw the horizontal line *$y=2$* on the grid and read the *$x$*-coordinates where the graph of *$y = \mathrm{f} ( x )$* intersects *$y=2$* *
 
 ![edexcel-tq-mis-2-14-e-6b](assets/085-edexcel-tq-mis-2-14-e-6b.png)
 
@@ -156,7 +156,7 @@ $x=-0.4,x=2.4$ **[1]**
 **Both roots must be shown to achieve the mark**
 
 ### 7((c)) — 1 marks
-> *Read up from 0.5 on the *$x$*-axis until you hit the graph of *`straight f open parentheses x close parentheses`*, then across to the *$y$*-axis to read the value*
+> *Read up from 0.5 on the *$x$*-axis until you hit the graph of *$\mathrm{f} ( x )$*, then across to the *$y$*-axis to read the value*
 
 ![edexcel-tq-mis-2-14-e-6c](assets/086-edexcel-tq-mis-2-14-e-6c.png)
 
@@ -174,7 +174,7 @@ $x=-0.4,x=2.4$ **[1]**
 **(1, −3) ****[1]**
 
 ### 11((b)) — 1 marks
-> *The roots of *`straight f open parentheses x close parentheses equals 0`*, are where the graph of *`y equals straight f open parentheses x close parentheses`* intersects *$y=0$* (the **x**-axis)** *
+> *The roots of *$\mathrm{f} ( x ) = 0$*, are where the graph of *$y = \mathrm{f} ( x )$* intersects *$y=0$* (the **x**-axis)** *
 
 ![edexcel-tq-mis-2-14-e-7b](assets/066-edexcel-tq-mis-2-14-e-7b.png)
 
@@ -183,7 +183,7 @@ $x=-0.75,x=2.75$ **[1]**
 **values of**** **$x$** from −0.8 to −0.7, and from 2.7 to 2.8, are accepted **
 
 ### 11((c)) — 1 marks
-> *Read up down from 1.5 on the *$x$*-axis until you hit the graph of *`straight f open parentheses x close parentheses`*, then across to the *$y$*-axis to read the value*
+> *Read up down from 1.5 on the *$x$*-axis until you hit the graph of *$\mathrm{f} ( x )$*, then across to the *$y$*-axis to read the value*
 
 ![edexcel-tq-mis-2-14-e-7c](assets/067-edexcel-tq-mis-2-14-e-7c.png)
 
@@ -192,14 +192,14 @@ $x=-0.75,x=2.75$ **[1]**
 ## Q8 — easy — 4 marks · exam-questions
 
 ### 15((a)) — 2 marks
-> *The differences in the steps for the **x **values makes using the table function on your calculator for *`straight f open parentheses x close parentheses space equals space 1 over x open parentheses x squared space plus space 4 close parentheses`* more difficult here. Instead, use your calculator to substitute the values of *$x$* into the function one by one for the missing values. *
+> *The differences in the steps for the **x **values makes using the table function on your calculator for *$\mathrm{f} ( x ) = \frac{1}{x} ( x^{2} + 4 )$* more difficult here. Instead, use your calculator to substitute the values of *$x$* into the function one by one for the missing values. *
 
 > *Type the function into your calculator carefully, using the fraction button and the brackets. Use the arrow keys to check your work is correct and to go back through and change the values for each one.*
 
-`x equals 0.5 comma space space y equals fraction numerator 1 over denominator 0.5 end fraction open parentheses 0.5 squared plus 4 close parentheses space equals space 8.5
-x equals 1 comma space space y equals 1 over 1 open parentheses 1 squared plus 4 close parentheses space equals space 5
-x equals 2 comma space space y equals 1 half open parentheses 2 squared plus 4 close parentheses space equals space 4
-x equals 4 comma space space y equals 1 fourth open parentheses 4 squared plus 4 close parentheses space equals space 5`
+$x = 0.5 , y = \frac{1}{0.5} ( 0.5^{2} + 4 ) = 8.5
+x = 1 , y = \frac{1}{1} ( 1^{2} + 4 ) = 5
+x = 2 , y = 1 \frac{1}{2} ( 2^{2} + 4 ) = 4
+x = 4 , y = 1 \frac{1}{4} ( 4^{2} + 4 ) = 5$
 
 | $x$ | 0.25 | 0.5 | 1 | 2 | 4 | 8 |
 |---|---|---|---|---|---|---|
@@ -211,7 +211,7 @@ x equals 4 comma space space y equals 1 fourth open parentheses 4 squared plus 4
 
 ### 15((b)) — 2 marks
 *Carefully plot the points from your table of values in (a) on the grid, noting the different scales on the *$x$* and *$y$* axes* 
-*For example, the first column represents the point *`open parentheses 0.25 comma space 16.25 close parentheses`*.*
+*For example, the first column represents the point *$( 0.25 , 16.25 )$*.*
 
 > *After plotting the points, join them with a smooth curve- do not use a ruler!*
 
@@ -270,7 +270,7 @@ ii) *Check by using your calculator to input sin270°, your calculator will give
 ## Q11 — easy — 4 marks · exam-questions
 
 ### 11((a)) — 2 marks
-> *The differences in the steps for the **x **values makes using the table function on your calculator for *`straight f open parentheses x close parentheses space equals space 1 over x open parentheses x squared space plus space 4 close parentheses`* more difficult here. Instead, use your calculator to substitute the values of *$x$* into the function one by one for the missing values. *
+> *The differences in the steps for the **x **values makes using the table function on your calculator for *$\mathrm{f} ( x ) = \frac{1}{x} ( x^{2} + 4 )$* more difficult here. Instead, use your calculator to substitute the values of *$x$* into the function one by one for the missing values. *
 
 > *Type the function into your calculator carefully using the fraction button. Use the arrow keys to go back through and change the values for each one.*
 
@@ -332,7 +332,7 @@ $2.5=\frac{1}{0.4}=2.5$* **true*
 
 $a=-1,b=-6$
 
-> *So the turning point is at *`open parentheses negative open parentheses negative 1 close parentheses comma space minus 6 close parentheses`*.*
+> *So the turning point is at *$( - ( - 1 ) , - 6 )$*.*
 
 **The correct answer is option 4, (1, -6)** **[1]**
 
@@ -377,11 +377,11 @@ ii) * *$y=x^{3}$* is one of the graphs you are expected to know the shape of. It
 ## Q17 — medium — 6 marks · exam-questions
 
 ### 5((a)) — 2 marks
-> *Use the TABLE function on your calculator for *`f open parentheses x close parentheses equals x squared minus x minus 6`*, starting at -3, ending at 3 and with steps of 1*
+> *Use the TABLE function on your calculator for *$f ( x ) = x^{2} - x - 6$*, starting at -3, ending at 3 and with steps of 1*
 
 > *If your calculator does not have a TABLE function then substitute the values of *$x$* into the function one by one for the missing values, being careful to put negative numbers in brackets, e.g.*
 
-`x equals negative 2 comma space y equals open parentheses negative 2 close parentheses squared minus open parentheses negative 2 close parentheses minus 6 equals 0`
+$x = - 2 , y = ( - 2 )^{2} - ( - 2 ) - 6 = 0$
 
 | $x$ | $-3$ | $-2$ | $-1$ | $0$ | $1$ | $2$ | $3$ |
 |---|---|---|---|---|---|---|---|
@@ -394,7 +394,7 @@ ii) * *$y=x^{3}$* is one of the graphs you are expected to know the shape of. It
 
 ### 5((b)) — 2 marks
 *Carefully plot the points from your table of values in (a) on the grid, noting the different scales on the *$x$* and *$y$* axes* 
-*For example, the first column represents the point *`open parentheses negative 3 comma space minus 6 close parentheses`
+*For example, the first column represents the point *$( - 3 , - 6 )$
 
 > *After plotting the points, join them with a smooth curve- do not use a ruler!*
 
@@ -484,11 +484,11 @@ ii) * *$y=x^{3}$* is one of the graphs you are expected to know the shape of. It
 ## Q20 — medium — 6 marks · exam-questions
 
 ### 12((a)) — 2 marks
-> *Use the TABLE function on your calculator for *`f open parentheses x close parentheses equals x squared minus 3 x plus 2`*, starting at -1, ending at 5 and with steps of 1*
+> *Use the TABLE function on your calculator for *$f ( x ) = x^{2} - 3 x + 2$*, starting at -1, ending at 5 and with steps of 1*
 
 > *If your calculator does not have a TABLE function then substitute the values of *$x$* into the function one by one for the missing values, being careful to put negative numbers in brackets, e.g.*
 
-`x equals 1 comma space y equals open parentheses 1 close parentheses squared minus 3 open parentheses 1 close parentheses plus 2 equals 0`
+$x = 1 , y = ( 1 )^{2} - 3 ( 1 ) + 2 = 0$
 
 > *Put the values found into the table*
 
@@ -503,7 +503,7 @@ ii) * *$y=x^{3}$* is one of the graphs you are expected to know the shape of. It
 
 ### 12((b)) — 2 marks
 *Carefully plot the points from your table of values in (a) on the grid, noting the different scales on the *$x$* and *$y$* axes* 
-*For example, the first column represents the point *`open parentheses negative 1 comma space 6 close parentheses`
+*For example, the first column represents the point *$( - 1 , 6 )$
 
 > *After plotting the points, join them with a smooth curve- do not use a ruler!*
 
@@ -527,11 +527,11 @@ ii) * *$y=x^{3}$* is one of the graphs you are expected to know the shape of. It
 ## Q21 — medium — 6 marks · exam-questions
 
 ### 13((a)) — 2 marks
-> *Use the TABLE function on your calculator for *`f open parentheses x close parentheses equals x squared minus 3 x plus 1`*, starting at -2, ending at 4 and with steps of 1*
+> *Use the TABLE function on your calculator for *$f ( x ) = x^{2} - 3 x + 1$*, starting at -2, ending at 4 and with steps of 1*
 
 > *If your calculator does not have a TABLE function then substitute the values of *$x$* into the function one by one for the missing values, being careful to put negative numbers in brackets, e.g.*
 
-`x equals negative 1 comma space y equals open parentheses negative 1 close parentheses squared minus 3 open parentheses negative 1 close parentheses plus 1 equals 5`
+$x = - 1 , y = ( - 1 )^{2} - 3 ( - 1 ) + 1 = 5$
 
 > *Put the values found into the table*
 
@@ -548,7 +548,7 @@ ii) * *$y=x^{3}$* is one of the graphs you are expected to know the shape of. It
 ### 13((b)) — 2 marks
 *Carefully plot the points from your table of values in (a) on the grid, noting the different scales on the *$x$* and *$y$* axes*
 
-> *For example, the first column represents the point *`open parentheses negative 2 comma space 11 close parentheses`
+> *For example, the first column represents the point *$( - 2 , 11 )$
 
 > *After plotting the points, join them with a smooth curve- do not use a ruler!*
 
@@ -578,12 +578,12 @@ ii) * *$y=x^{3}$* is one of the graphs you are expected to know the shape of. It
 ### 8((a)) — 1 marks
 > *This can be done by either using the table function on your calculator or by substituting each value of **x **in separately. Use the table function if possible to save time, this also allows you to check your work by checking the other values of **x.*
 
-> *Use the TABLE function on your calculator for *`f open parentheses x close parentheses equals x squared minus 5 x plus 6`*, starting at 0, ending at 5 and with steps of 1.*
+> *Use the TABLE function on your calculator for *$f ( x ) = x^{2} - 5 x + 6$*, starting at 0, ending at 5 and with steps of 1.*
 
 > *If your calculator does not have a TABLE function then substitute the values of *$x$* into the function one by one for the missing values.*
 
-`x equals 1 comma space space space y equals open parentheses 1 close parentheses squared minus 5 open parentheses 1 close parentheses plus 6 equals 2
-x equals 5 comma space space space y equals open parentheses 5 close parentheses squared minus 5 open parentheses 5 close parentheses plus 6 equals 6`
+$x = 1 , y = ( 1 )^{2} - 5 ( 1 ) + 6 = 2
+x = 5 , y = ( 5 )^{2} - 5 ( 5 ) + 6 = 6$
 
 | $x$ | $0$ | $1$ | $2$ | $3$ | $4$ | $5$ |
 |---|---|---|---|---|---|---|
@@ -594,7 +594,7 @@ x equals 5 comma space space space y equals open parentheses 5 close parentheses
 ### 8((b)) — 2 marks
 *Carefully plot the points from your table of values in (a) on the grid, noting the different scales on the *$x$* and *$y$* axes*
 
-> *For example, the first column represents the point *`open parentheses 0 comma space 6 close parentheses`*.*
+> *For example, the first column represents the point *$( 0 , 6 )$*.*
 
 > *After plotting the points, join them with a smooth curve- do not use a ruler!*
 
@@ -609,13 +609,13 @@ x equals 5 comma space space space y equals open parentheses 5 close parentheses
 
 > *In this case, add 6 to both sides.*
 
-`table row cell x squared space minus space 5 x space plus space 6 space end cell equals cell space x space minus space 7 space plus space 6 end cell row cell x squared space minus space 5 x space plus space 6 space end cell equals cell space x space minus space 1 end cell end table`
+$\begin{gathered} x^{2} - 5 x + 6 & = x - 7 + 6 \\ x^{2} - 5 x + 6 & = x - 1 \end{gathered}$
 
 **[1]**
 
 > *Now draw the line *$y=x-1$* on the graph and read the *$x$* values where this line and *$y=x^{2}-5x+6$* intersect.*
 
-> *To draw the line *$y=x-1$*, draw a straight line through *`open parentheses 0 comma space minus 1 close parentheses`* with a gradient of 1.*
+> *To draw the line *$y=x-1$*, draw a straight line through *$( 0 , - 1 )$* with a gradient of 1.*
 
 ![edexcel-igcse-ma-m-q6c-graph](assets/046-edexcel-igcse-ma-m-q6c-graph.png)
 
@@ -637,16 +637,16 @@ $x=-0.2,x=2.2$ **[2] **
 ### 21((b)) — 3 marks
 > *To rearrange the given equation such that it has the function of the drawn graph on one side, begin by multiplying both sides by 2, so that the coefficient of **x*<sup>*2 *</sup>*is the same.*
 
-`table row cell 2 open parentheses x to the power of 2 space end exponent minus space x space minus space 1 close parentheses space end cell equals cell space 2 open parentheses 0 close parentheses end cell row cell 2 x squared space minus space 2 x space minus space 2 space end cell equals cell space 0 end cell end table`
+$\begin{gathered} 2 ( x^{2 } - x - 1 ) & = 2 ( 0 ) \\ 2 x^{2} - 2 x - 2 & = 0 \end{gathered}$
 
 > *Rearrange *$2x^{2}-2x-2=0$*so that it has the function of the drawn graph *$y=2x^{2}-4x-1$* on the left hand side.*
 
-`table row cell 2 x squared space minus space 2 x space minus space 2 space minus space 2 x space plus space 1 end cell equals cell space 0 space minus space 2 x space plus space 1 end cell row cell 2 x squared space minus space 4 x space minus 1 space end cell equals cell space minus 2 x space plus space 1 end cell end table`
+$\begin{gathered} 2 x^{2} - 2 x - 2 - 2 x + 1 & = 0 - 2 x + 1 \\ 2 x^{2} - 4 x - 1 & = - 2 x + 1 \end{gathered}$
 
 > *Use your knowledge of linear graphs to plot *$y=-2x+1$*on the grid. The easiest method is to consider the points where the graph crosses the axes.  *
 
-`x space equals space 0 space rightwards arrow space y equals negative 2 open parentheses 0 close parentheses plus 1 space equals space 1
-y space equals space 0 space rightwards arrow space 0 equals negative 2 open parentheses x close parentheses plus 1 space rightwards arrow space x space equals space 1 half`
+$x = 0 \rightarrow y = - 2 ( 0 ) + 1 = 1
+y = 0 \rightarrow 0 = - 2 ( x ) + 1 \rightarrow x = 1 \frac{1}{2}$
 
 > *Draw a straight line through (0, 1) and (0.5, 0) on the given axes, check that the graph goes through (0, 1) and has a gradient of -2.*
 
@@ -661,7 +661,7 @@ $x=-0.6,x=1.6$** [1]*** *
 ## Q24 — medium — 2 marks · exam-questions
 
 ### 18((b)) — 2 marks
-> *There are only two possible solutions of *`straight f open parentheses x close parentheses space equals space k`* at the values of *$x$* where there are only two possible *$y$* values.  *
+> *There are only two possible solutions of *$\mathrm{f} ( x ) = k$* at the values of *$x$* where there are only two possible *$y$* values.  *
 
 > *The graph has three possible *$y$*-coordinates for every *$x$*-coordinate except at the two turning points. *
 
@@ -674,20 +674,20 @@ $k=3,k=-1$ **[2] **
 ## Q25 — medium — 4 marks · exam-questions
 
 ### 23((a)) — 3 marks
-> *The formula for completing the square for a quadratic in the form*$ax^{2}+bx+c$* is *`space space a open parentheses x plus fraction numerator b over denominator 2 a end fraction close parentheses squared minus fraction numerator b squared over denominator 4 a end fraction plus c`*. *
+> *The formula for completing the square for a quadratic in the form*$ax^{2}+bx+c$* is *$a ( x + \frac{b}{2 a} )^{2} - \frac{b^{2}}{4 a} + c$*. *
 
 > *Applying this formula gives*
 
-`3 x squared minus 12 x plus 7 equals 3 open parentheses x plus fraction numerator negative 12 over denominator 2 cross times 3 end fraction close parentheses squared minus fraction numerator open parentheses negative 12 close parentheses squared over denominator 4 cross times 3 end fraction plus 7`
+$3 x^{2} - 12 x + 7 = 3 ( x + \frac{- 12}{2 \times 3} )^{2} - \frac{( - 12 )^{2}}{4 \times 3} + 7$
 
 **[1]**
 
 > *Simplify.*
 
-`table row cell 3 x squared minus 12 x plus 7 end cell equals cell 3 open parentheses x minus 2 close parentheses squared minus 12 plus 7 end cell row blank equals cell 3 open parentheses x minus 2 close parentheses squared minus 5 end cell end table`
+$\begin{gathered} 3 x^{2} - 12 x + 7 & = 3 ( x - 2 )^{2} - 12 + 7 \\ = 3 ( x - 2 )^{2} - 5 \end{gathered}$
 
 **[1]**
-** **`begin bold style therefore 3 bold italic x squared minus 12 bold italic x plus 7 equals 3 open parentheses bold italic x minus 2 close parentheses squared minus 5 end style`* ***[1]**
+** **$\text{begin} \text{style} \therefore 3 x^{2} - 12 x + 7 = 3 ( x - 2 )^{2} - 5$* ***[1]**
 
 **i.e.  **$a=3,b=-2,c=-5$**.**
 
@@ -698,11 +698,11 @@ $k=3,k=-1$ **[2] **
 
 > *The minimum point is found by completing the square (part (a)).*
 
-`3 x squared minus 12 x plus 7 equals 3 open parentheses x minus 2 close parentheses squared minus 5`
+$3 x^{2} - 12 x + 7 = 3 ( x - 2 )^{2} - 5$
 
-> *The minimum point of *`a open parentheses x plus b close parentheses squared plus c`* is *`open parentheses negative b comma space c close parentheses`*.*
+> *The minimum point of *$a ( x + b )^{2} + c$* is *$( - b , c )$*.*
 
-`therefore Min. space point space is space open parentheses 2 comma space minus 5 close parentheses`
+$\therefore Min. \text{point} \text{is} ( 2 , - 5 )$
 
 *The line of symmetry will be a vertical line passing through this point, but we need its equation for the answer.*
 
@@ -718,7 +718,7 @@ $k=3,k=-1$ **[2] **
 
 > *The *$x-$*coordinate of each option is the same, so they can all be tested together. Make sure you type it carefully into your calculator, using brackets around the negative.*
 
-> `open parentheses negative 1 close parentheses squared space minus 4 open parentheses negative 1 close parentheses space plus space 1 space equals space 6`* *
+> $( - 1 )^{2} - 4 ( - 1 ) + 1 = 6$* *
 
 > *So the answer must be option 4, (-1, 6).*
 
@@ -729,9 +729,9 @@ $k=3,k=-1$ **[2] **
 ### 4((a)) — 2 marks
 > *Substitute the *$x$* values into the equation to calculate the *$y$* values. Be careful when squaring negative numbers*
 
-`open parentheses negative 3 close parentheses squared minus open parentheses negative 3 close parentheses minus 4 equals 8`
+$( - 3 )^{2} - ( - 3 ) - 4 = 8$
 
-`open parentheses negative 1 close parentheses squared minus open parentheses negative 1 close parentheses minus 4 equals negative 2`
+$( - 1 )^{2} - ( - 1 ) - 4 = - 2$
 
 $0^{2}-0-4=-4$
 
@@ -768,13 +768,13 @@ $3^{2}-3-4=2$
 ### 12((a)) — 2 marks
 > *Use your calculator to work out each value*
 
-`open parentheses negative 2 close parentheses cubed space minus space 3 open parentheses negative 2 close parentheses space plus thin space 1 space equals space minus 1`
+$( - 2 )^{3} - 3 ( - 2 ) + 1 = - 1$
 
-`open parentheses negative 1 close parentheses cubed space minus space 3 open parentheses negative 1 close parentheses space plus thin space 1 space equals space 3`
+$( - 1 )^{3} - 3 ( - 1 ) + 1 = 3$
 
-`open parentheses 0 close parentheses cubed space minus space 3 open parentheses 0 close parentheses space plus thin space 1 space equals space 1`
+$( 0 )^{3} - 3 ( 0 ) + 1 = 1$
 
-`open parentheses 2 close parentheses cubed space minus space 3 open parentheses 2 close parentheses space plus thin space 1 space equals space 3`
+$( 2 )^{3} - 3 ( 2 ) + 1 = 3$
 
 | $x$ | -2 | -1 | 0 | 1 | 2 |
 |---|---|---|---|---|---|
@@ -817,11 +817,11 @@ $3^{2}-3-4=2$
 ## Q29 — hard — 6 marks · exam-questions
 
 ### 15((a)) — 2 marks
-> *Use the TABLE function on your calculator for *`f open parentheses x close parentheses equals x squared minus 2 x`*, starting at -2, ending at 4 and with steps of 1*
+> *Use the TABLE function on your calculator for *$f ( x ) = x^{2} - 2 x$*, starting at -2, ending at 4 and with steps of 1*
 
 > *If your calculator does not have a TABLE function then substitute the values of *$x$* into the function one by one for the missing values, being careful to put negative numbers in brackets, e.g.*
 
-`x equals negative 2 comma space y equals open parentheses negative 2 close parentheses squared minus 2 open parentheses negative 2 close parentheses equals 8`
+$x = - 2 , y = ( - 2 )^{2} - 2 ( - 2 ) = 8$
 
 | $x$ | $-2$ | $-1$ | $0$ | $1$ | $2$ | $3$ | $4$ |
 |---|---|---|---|---|---|---|---|
@@ -836,7 +836,7 @@ $3^{2}-3-4=2$
 ### 15((b)) — 2 marks
 *Carefully plot the points from your table of values in (a) on the grid, noting the different scales on the *$x$* and *$y$* axes*
 
-> *For example, the first column represents the point *`open parentheses negative 2 comma space 8 close parentheses`
+> *For example, the first column represents the point *$( - 2 , 8 )$
 
 > *After plotting the points, join them with a smooth curve- do not use a ruler!*
 
@@ -853,7 +853,7 @@ $3^{2}-3-4=2$
 
 > *In this case, add 2 to both sides*
 
-`table attributes columnalign right center left columnspacing 0px end attributes row cell x squared minus 2 x minus 2 end cell equals 1 row cell x squared minus 2 x end cell equals 3 end table`
+$\begin{array}{rcl} x^{2} - 2 x - 2 & = 1 \\ x^{2} - 2 x & = 3 \end{array}$
 
 > *Now draw the line *$y=3$* on the graph and read the *$x$* values where this line and *$y=x^{2}-2x$* intersect*
 
@@ -871,13 +871,13 @@ $x^{2}-2x-3=0$
 
 > *Factorise*
 
-`open parentheses x minus 3 close parentheses open parentheses x plus 1 close parentheses equals 0`
+$( x - 3 ) ( x + 1 ) = 0$
 
 **[1]**
 
 > *If A × B = 0, either A = 0 or B = 0 therefore*
 
-`table row cell x minus 3 end cell equals cell 0 space space space space space or space space space space x plus 1 equals 0 end cell end table`
+$\begin{gathered} x - 3 & = 0 \text{or} x + 1 = 0 \end{gathered}$
 
 **x**** = −1, ****x ****= 3 ****[1]**
 **Both possible ****x**** values must be stated to achieve full marks**
@@ -885,11 +885,11 @@ $x^{2}-2x-3=0$
 ## Q30 — hard — 6 marks · exam-questions
 
 ### 15((a)) — 2 marks
-> *Use the TABLE function on your calculator for *`f open parentheses x close parentheses equals x squared minus 2 x minus 1`*, starting at -2, ending at 4 and with steps of 1*
+> *Use the TABLE function on your calculator for *$f ( x ) = x^{2} - 2 x - 1$*, starting at -2, ending at 4 and with steps of 1*
 
 > *If your calculator does not have a TABLE function then substitute the values of *$x$* into the function one by one for the missing values, being careful to put negative numbers in brackets, e.g.*
 
-`x equals 1 comma space y equals open parentheses negative 1 close parentheses squared minus 2 open parentheses negative 1 close parentheses minus 1 equals 2`
+$x = 1 , y = ( - 1 )^{2} - 2 ( - 1 ) - 1 = 2$
 
 > *Put the values found into the table*
 
@@ -905,7 +905,7 @@ $x^{2}-2x-3=0$
 ### 15((b)) — 2 marks
 *Carefully plot the points from your table of values in (a) on the grid, noting the different scales on the *$x$* and *$y$* axes*
 
-> *For example, the first column represents the point *`open parentheses negative 2 comma space 7 close parentheses`
+> *For example, the first column represents the point *$( - 2 , 7 )$
 
 > *After plotting the points, join them with a smooth curve- do not use a ruler!*
 
@@ -934,17 +934,17 @@ $x^{2}-2x-3=0$
 
 > *Rearrange *$x^{2}-2x-1=x+3$* to a quadratic equaling 0*
 
-`table row cell x squared minus 2 x minus x minus 1 minus 3 end cell equals 0 row cell x squared minus 3 x minus 4 end cell equals 0 end table`
+$\begin{gathered} x^{2} - 2 x - x - 1 - 3 & = 0 \\ x^{2} - 3 x - 4 & = 0 \end{gathered}$
 
 > *Factorise*
 
-`open parentheses x minus 4 close parentheses open parentheses x plus 1 close parentheses equals 0`
+$( x - 4 ) ( x + 1 ) = 0$
 
 **[1]**
 
 > *If A × B = 0, either A = 0 or B = 0 therefore*
 
-`table row cell x minus 4 end cell equals cell 0 space space space space space or space space space space x plus 1 equals 0 end cell end table`
+$\begin{gathered} x - 4 & = 0 \text{or} x + 1 = 0 \end{gathered}$
 
 **x**** = −1, ****x ****= 4 ****[1]**
 
@@ -997,17 +997,17 @@ $x+y=6$** drawn correctly on the grid**** [1]**
 ## Q32 — hard — 8 marks · exam-questions
 
 ### 14((a)) — 2 marks
-> *Use the TABLE function on your calculator for *`straight f open parentheses x close parentheses space equals space x cubed space minus space 2 x squared space minus space 3 x space plus space 4`*, starting at -2, ending at 3 and with steps of 1.*
+> *Use the TABLE function on your calculator for *$\mathrm{f} ( x ) = x^{3} - 2 x^{2} - 3 x + 4$*, starting at -2, ending at 3 and with steps of 1.*
 
 > *Before writing your answers in the table, double check that the **y **-values the calculator gives you match the values that are already in the table.*
 
 > *If your calculator does not have a TABLE function then substitute the values of *$x$* into the function one by one for the missing values, being careful to put negative numbers in brackets.*
 
-`x equals negative 2 comma space space space space space y equals open parentheses negative 2 close parentheses cubed space minus space 2 open parentheses negative 2 close parentheses to the power of 2 space end exponent minus 3 open parentheses negative 2 close parentheses space plus space 4 space equals space minus 6
-x equals negative 1 comma space space space space space y equals open parentheses negative 1 close parentheses cubed space minus space 2 open parentheses negative 1 close parentheses to the power of 2 space end exponent minus 3 open parentheses negative 1 close parentheses space plus space 4 space equals space 4
-x equals space 1 comma space space space space space space space space y equals open parentheses 1 close parentheses cubed space minus space 2 open parentheses 1 close parentheses to the power of 2 space end exponent minus 3 open parentheses 1 close parentheses space plus space 4 space equals space 0
-x equals space 2 comma space space space space y equals open parentheses 2 close parentheses cubed space minus space 2 open parentheses 2 close parentheses to the power of 2 space end exponent minus 3 open parentheses 2 close parentheses space plus space 4 space equals space minus 2
-x equals 3 comma space space space space y equals open parentheses 3 close parentheses cubed space minus space 2 open parentheses 3 close parentheses to the power of 2 space end exponent minus 3 open parentheses 3 close parentheses space plus space 4 space equals space 4`
+$x = - 2 , y = ( - 2 )^{3} - 2 ( - 2 )^{2 } - 3 ( - 2 ) + 4 = - 6
+x = - 1 , y = ( - 1 )^{3} - 2 ( - 1 )^{2 } - 3 ( - 1 ) + 4 = 4
+x = 1 , y = ( 1 )^{3} - 2 ( 1 )^{2 } - 3 ( 1 ) + 4 = 0
+x = 2 , y = ( 2 )^{3} - 2 ( 2 )^{2 } - 3 ( 2 ) + 4 = - 2
+x = 3 , y = ( 3 )^{3} - 2 ( 3 )^{2 } - 3 ( 3 ) + 4 = 4$
 
 | $x$ | -2 | -1 | -0.5 | 0 | 1 | 1.5 | 2 | 3 |
 |---|---|---|---|---|---|---|---|---|
@@ -1019,7 +1019,7 @@ x equals 3 comma space space space space y equals open parentheses 3 close paren
 ### 14((a)) — 2 marks
 *Carefully plot the points from your table of values in (a) on the grid, noting the different scales on the *$x$* and *$y$* axes*
 
-> *For example, the first column represents the point *`open parentheses negative 2 comma negative 6 close parentheses`*.*
+> *For example, the first column represents the point *$( - 2 , - 6 )$*.*
 
 > *After plotting the points, join them with a smooth curve- do not use a ruler.*
 
@@ -1035,11 +1035,11 @@ x equals 3 comma space space space space y equals open parentheses 3 close paren
 
 > *For the constants, we have + 1 but we want + 4, so add 3 to both sides.*
 
-`table row cell x cubed space minus space 2 x squared space minus space x space plus space 1 space plus space 3 space end cell equals cell space 0 space plus space 3 end cell row cell x cubed space minus space 2 x squared space minus space x space plus space 4 space end cell equals cell space 3 space end cell end table`
+$\begin{gathered} x^{3} - 2 x^{2} - x + 1 + 3 & = 0 + 3 \\ x^{3} - 2 x^{2} - x + 4 & = 3 \end{gathered}$
 
 > *For the *$x$* **term, we have *$-x$* but we want *$-3x$*, so subtract *$2x$* from both sides.*
 
-`table row cell x cubed space minus space 2 x squared space minus space x space plus space 4 space minus space 2 x space end cell equals cell space 3 space minus space 2 x end cell row cell x cubed space minus space 2 x squared space minus space 3 x space plus space 4 space end cell equals cell space 3 space minus space 2 x space end cell end table`
+$\begin{gathered} x^{3} - 2 x^{2} - x + 4 - 2 x & = 3 - 2 x \\ x^{3} - 2 x^{2} - 3 x + 4 & = 3 - 2 x \end{gathered}$
 
 **[1]**
 
@@ -1068,28 +1068,28 @@ x equals 3 comma space space space space y equals open parentheses 3 close paren
 
 > *The graph crosses the **y**-axis when **x **= 0.*
 
-`x equals 0 space rightwards double arrow space y equals 4 open parentheses 0 minus 1 close parentheses squared space minus space a space equals space 4 space minus space a`
+$x = 0 \Leftrightarrow y = 4 ( 0 - 1 )^{2} - a = 4 - a$
 
 > *We know that **a  **> 4, so the graph crosses the **y **axis **below **zero. *
 
 > *The graph crosses the **x**-axis when **y **= 0.*
 
-`y equals 0 space rightwards double arrow space 0 space equals space 4 open parentheses x minus 1 close parentheses squared space minus space a`
+$y = 0 \Leftrightarrow 0 = 4 ( x - 1 )^{2} - a$
 
 > *Add **a** to both sides and divide by 4.*
 
-`4 open parentheses x minus 1 close parentheses squared space equals space a
-open parentheses x space minus space 1 close parentheses squared space equals space a over 4`
+$4 ( x - 1 )^{2} = a
+( x - 1 )^{2} = \frac{a}{4}$
 
 > *Square root both sides and then add 1 to both sides.*
 
-`table row cell x minus 1 space end cell equals cell plus-or-minus square root of a over 4 end root end cell row x equals cell 1 space plus-or-minus space square root of a over 4 end root end cell end table`
+$\begin{array}{ccc}x - 1 & = & \pm \sqrt{\frac{a}{4}} \\ x = & 1 \pm \sqrt{\frac{a}{4}}\end{array}$
 
 > *We know that **a  **> 4, so both answers are possible and the graph goes through the **x **axis twice.*
 
-> *The turning point of *`a open parentheses x space plus space b close parentheses to the power of 2 space end exponent plus space c space`*is at the point *$(-b,c).$
+> *The turning point of *$a ( x + b )^{2 } + c$*is at the point *$(-b,c).$
 
-`b space equals space minus 1 space comma space space c space equals space minus a space rightwards double arrow space space Minimum space point colon space open parentheses 1 space comma space minus a close parentheses`
+$b = - 1 , c = - a \Leftrightarrow \text{Minimum} \text{point} : ( 1 , - a )$
 
 > *We know that **a  **> 4, so -**a **< -4 and the minimum point must be in the fourth quadrant.*
 
@@ -1107,7 +1107,7 @@ open parentheses x space minus space 1 close parentheses squared space equals sp
 ### 20((a)) — 3 marks
 > *Method 1*
 
-> *The formula for completing the square for a quadratic in the form*$ax^{2}+bx+c$* is *`space space a open parentheses x plus fraction numerator b over denominator 2 a end fraction close parentheses squared minus fraction numerator b squared over denominator 4 a end fraction plus c`*.*
+> *The formula for completing the square for a quadratic in the form*$ax^{2}+bx+c$* is *$a ( x + \frac{b}{2 a} )^{2} - \frac{b^{2}}{4 a} + c$*.*
 
 > *Rearrange *$7+12x-3x^{2}$* into the form *$ax^{2}+bx+c.$
 
@@ -1117,19 +1117,19 @@ $7+12x-3x^{2}=-3x^{2}+12x+7$
 
 > *Applying the formula gives*
 
-`negative 3 x squared plus 12 x plus 7 space equals space minus 3 open parentheses x plus fraction numerator 12 over denominator 2 cross times negative 3 end fraction close parentheses squared minus fraction numerator open parentheses 12 close parentheses squared over denominator 4 cross times negative 3 end fraction plus 7`
+$- 3 x^{2} + 12 x + 7 = - 3 ( x + \frac{12}{2 \times - 3} )^{2} - \frac{( 12 )^{2}}{4 \times - 3} + 7$
 
 **[1]**
 
 > *Simplify.*
 
-`table row cell negative 3 x squared plus 12 x plus 7 space end cell equals cell space minus 3 open parentheses x space minus space 2 close parentheses squared space plus space 12 plus 7 end cell row blank equals cell space minus 3 open parentheses x space minus space 2 close parentheses squared space plus space 19 end cell end table`
+$\begin{gathered} - 3 x^{2} + 12 x + 7 & = - 3 ( x - 2 )^{2} + 12 + 7 \\ = - 3 ( x - 2 )^{2} + 19 \end{gathered}$
 
 **[1]**
 
 > *Rearrange into the format required.*
 
-`19 space minus space 3 open parentheses bold italic x bold italic space minus space 2 close parentheses squared`* ***[1]**
+$19 - 3 ( x - 2 )^{2}$* ***[1]**
 
 ** i.e.  **$a=19,b=-3,c=-2$**.**
 
@@ -1137,11 +1137,11 @@ $7+12x-3x^{2}=-3x^{2}+12x+7$
 
 > *Expand the given expression in terms of *$a,b\mathrm{and}c.$
 
-`a space plus space b open parentheses x space plus space c close parentheses squared space equals space a space plus space b open parentheses x squared space plus space 2 c x space plus space c squared close parentheses`
+$a + b ( x + c )^{2} = a + b ( x^{2} + 2 c x + c^{2} )$
 
 > *Simplify.*
 
-`a space plus space b open parentheses x space plus space c close parentheses squared space equals space a space plus space b x squared space plus space 2 b c x space plus space b c squared`
+$a + b ( x + c )^{2} = a + b x^{2} + 2 b c x + b c^{2}$
 
 > *Therefore *$7+12x-3x^{2}=a+bx^{2}+2bcx+bc^{2}$*.*
 
@@ -1157,7 +1157,7 @@ $12x=2bcx$
 
 > *Substitute *$b=-3$*.*
 
-`table row cell 12 x space end cell equals cell space 2 open parentheses negative 3 close parentheses c x space end cell row cell 12 space end cell equals cell space minus 6 c end cell row cell c space end cell equals cell space minus 2 end cell end table`
+$\begin{gathered} 12 x & = 2 ( - 3 ) c x \\ 12 & = - 6 c \\ c & = - 2 \end{gathered}$
 
 **[1]**
 
@@ -1167,20 +1167,20 @@ $7=a+bc^{2}$
 
 > *Substitute *$b=-3$* and *$c=-2$*.*
 
-`table row cell 7 space end cell equals cell space a space plus space open parentheses negative 3 close parentheses open parentheses negative 2 close parentheses squared end cell row cell 7 space end cell equals cell space a space plus space open parentheses negative 12 close parentheses end cell row cell a space end cell equals cell space 7 space plus space 12 space end cell row cell a space end cell equals cell space 19 end cell end table`
+$\begin{gathered} 7 & = a + ( - 3 ) ( - 2 )^{2} \\ 7 & = a + ( - 12 ) \\ a & = 7 + 12 \\ a & = 19 \end{gathered}$
 
 > *Rearrange into the format required.*
 
-`19 space minus space 3 open parentheses bold italic x bold italic space minus space 2 close parentheses squared`* ***[1]**
+$19 - 3 ( x - 2 )^{2}$* ***[1]**
 
 ** i.e.  **$a=19,b=-3,c=2$**.**
 
 ### 20((b)) — 1 marks
-> *The turning point of *`a open parentheses x plus b close parentheses squared plus c`* is *`open parentheses negative b comma space c close parentheses`*.*
+> *The turning point of *$a ( x + b )^{2} + c$* is *$( - b , c )$*.*
 
-> *Rearrange *`19 space minus space 3 open parentheses x space minus space 2 close parentheses squared`* into the form *`a open parentheses x plus b close parentheses squared plus c.`
+> *Rearrange *$19 - 3 ( x - 2 )^{2}$* into the form *$a ( x + b )^{2} + c.$
 
-`19 space minus space 3 open parentheses x space minus space 2 close parentheses to the power of 2 space end exponent equals space minus 3 open parentheses x space minus space 2 close parentheses squared space plus space 19`
+$19 - 3 ( x - 2 )^{2 } = - 3 ( x - 2 )^{2} + 19$
 
 > *Therefore *$a=-3,b=-2\mathrm{and}c=19$*.*
 
@@ -1189,14 +1189,14 @@ $7=a+bc^{2}$
 ## Q35 — hard — 6 marks · exam-questions
 
 ### 22((a)) — 2 marks
-> *Use the table function on your calculator for *`straight f open parentheses x close parentheses space equals space 1 half x cubed minus 2 x space plus space 3`*, starting at -3, ending at 3 and with steps of 1.*
+> *Use the table function on your calculator for *$\mathrm{f} ( x ) = 1 \frac{1}{2} x^{3} - 2 x + 3$*, starting at -3, ending at 3 and with steps of 1.*
 
 > *If your calculator does not have a table function then substitute the values of *$x$* into the function one by one for the missing values, being careful to put negative numbers in brackets.*
 
-`x space equals negative 2 comma space space y space equals space 1 half open parentheses negative 2 close parentheses cubed minus 2 open parentheses negative 2 close parentheses plus 3 space equals space 3
-x space equals negative 1 comma space space y space equals space 1 half open parentheses negative 1 close parentheses cubed minus 2 open parentheses negative 1 close parentheses plus 3 space equals space 4.5
-x space equals space 1 comma space space y space equals space 1 half open parentheses 1 close parentheses cubed minus 2 open parentheses 1 close parentheses plus 3 space equals space 1.5
-x space equals space 3 comma space space y space equals space 1 half open parentheses 3 close parentheses cubed minus 2 open parentheses 3 close parentheses plus 3 space equals space 10.5`
+$x = - 2 , y = 1 \frac{1}{2} ( - 2 )^{3} - 2 ( - 2 ) + 3 = 3
+x = - 1 , y = 1 \frac{1}{2} ( - 1 )^{3} - 2 ( - 1 ) + 3 = 4.5
+x = 1 , y = 1 \frac{1}{2} ( 1 )^{3} - 2 ( 1 ) + 3 = 1.5
+x = 3 , y = 1 \frac{1}{2} ( 3 )^{3} - 2 ( 3 ) + 3 = 10.5$
 
 | $x$ | $--3$ | –2 | $--1$ | $0$ | $1$ | $2$ | $3$ |
 |---|---|---|---|---|---|---|---|
@@ -1226,7 +1226,7 @@ x space equals space 3 comma space space y space equals space 1 half open parent
 
 > *In this case, subtract *$x$* and subtract 1 to both sides.*
 
-`table row cell 1 half x cubed minus x plus space 4 space minus space x space minus space 1 end cell equals cell 0 space minus space x space minus space 1 end cell row cell 1 half x cubed space minus 2 x space plus space 3 space end cell equals cell negative x space minus 1 end cell end table`
+$\begin{gathered} 1 \frac{1}{2} x^{3} - x + 4 - x - 1 & = 0 - x - 1 \\ 1 \frac{1}{2} x^{3} - 2 x + 3 & = - x - 1 \end{gathered}$
 
 **[1]**
 
@@ -1244,11 +1244,11 @@ $x=-2.3$** ****[1] **
 ## Q36 — hard — 1 marks · exam-questions
 
 ### 30() — 1 marks
-> *The turning point of *`a open parentheses x plus b close parentheses squared plus c`* is *`open parentheses negative b comma space c close parentheses`*.*
+> *The turning point of *$a ( x + b )^{2} + c$* is *$( - b , c )$*.*
 
-> *Rearrange *`3 space minus space 5 open parentheses x space plus space 1 close parentheses squared`* into the form *`a open parentheses x plus b close parentheses squared plus c.`
+> *Rearrange *$3 - 5 ( x + 1 )^{2}$* into the form *$a ( x + b )^{2} + c.$
 
-`3 space minus space 5 open parentheses x space plus space 1 close parentheses to the power of 2 space end exponent equals space minus 5 open parentheses x space plus space 1 close parentheses squared space plus space 3`
+$3 - 5 ( x + 1 )^{2 } = - 5 ( x + 1 )^{2} + 3$
 
 > *Therefore *$a=-5,b=1\mathrm{and}c=3$*.*
 
@@ -1263,7 +1263,7 @@ $x=-2.3$** ****[1] **
 
 > *The graph crosses the **y**-axis when **x **= 0.*
 
-`x equals 0 space rightwards double arrow space y equals open parentheses 0 close parentheses squared space minus space 6 open parentheses 0 close parentheses space plus space 4 space equals space 4 space`
+$x = 0 \Leftrightarrow y = ( 0 )^{2} - 6 ( 0 ) + 4 = 4$
 
 > *So the graph crosses the **y **axis at the point (0, 4). *
 
@@ -1273,27 +1273,27 @@ $y=0\Rightarrow0=x^{2}-6x+4$
 
 > *This cannot be factorised so complete the square.*
 
-`table row cell open parentheses x space minus space 3 close parentheses squared space minus 9 space plus space 4 space end cell equals cell space 0 end cell row cell open parentheses x space minus space 3 close parentheses squared space minus 5 space end cell equals cell space 0 end cell end table`
+$\begin{gathered} ( x - 3 )^{2} - 9 + 4 & = 0 \\ ( x - 3 )^{2} - 5 & = 0 \end{gathered}$
 
 **[1]**
 
 > *Add 5 to both sides.*
 
-`table row cell open parentheses x space minus space 3 close parentheses squared space space end cell equals cell space 5 end cell end table`
+$\begin{gathered} ( x - 3 )^{2} & = 5 \end{gathered}$
 
 **[1]**
 
 > *Square root both sides and then add 3 to both sides.*
 
-`table row cell x minus 3 space end cell equals cell plus-or-minus square root of 5 end cell row cell x space end cell equals cell space 3 space plus-or-minus space square root of 5 end cell end table`
+$\begin{gathered} x - 3 & = \pm \sqrt{5} \\ x & = 3 \pm \sqrt{5} \end{gathered}$
 
 **[1]**
 
 > *The graph goes through the **x **axis twice, at the points *$(3+\sqrt{5},0)$* and *$(3-\sqrt{5},0)$*.*
 
-> *The turning point of *`a open parentheses x space plus space b close parentheses to the power of 2 space end exponent plus space c space`*is at the point *$(-b,c).$
+> *The turning point of *$a ( x + b )^{2 } + c$*is at the point *$(-b,c).$
 
-`b space equals space minus 3 space comma space space c space equals space minus 5 space rightwards double arrow space space Minimum space point colon space open parentheses 3 space comma space minus 5 close parentheses`
+$b = - 3 , c = - 5 \Leftrightarrow \text{Minimum} \text{point} : ( 3 , - 5 )$
 
 **[1]**
 
@@ -1309,9 +1309,9 @@ $y=0\Rightarrow0=x^{2}-6x+4$
 ## Q38 — hard — 2 marks · exam-questions
 
 ### 21((a)) — 1 marks
-> *Write *`straight f open parentheses x close parentheses`* in the form *`y equals a open parentheses x plus p close parentheses squared plus q`*. *`open parentheses negative p comma space q close parentheses`* is the turning point.*
+> *Write *$\mathrm{f} ( x )$* in the form *$y = a ( x + p )^{2} + q$*. *$( - p , q )$* is the turning point.*
 
-`y equals negative 3 open parentheses x plus 2 close parentheses squared plus 9`
+$y = - 3 ( x + 2 )^{2} + 9$
 
 > *From this we can derive the turning point, **A.*
 
@@ -1320,11 +1320,11 @@ $A=(-2,9)$* ***[1]**
 ### 21((c)) — 1 marks
 > *Method 1: Using "transformations of functions"*
 
-> *Curve *$C$* has the equation *`y equals straight f open parentheses x close parentheses`* where  *`straight f open parentheses x close parentheses equals negative 3 open parentheses x plus 2 close parentheses squared plus 9`*. Therefore;*
+> *Curve *$C$* has the equation *$y = \mathrm{f} ( x )$* where  *$\mathrm{f} ( x ) = - 3 ( x + 2 )^{2} + 9$*. Therefore;*
 
-`table row cell negative straight f open parentheses x close parentheses end cell equals cell negative open parentheses negative 3 open parentheses x plus 2 close parentheses squared plus 9 close parentheses end cell row blank equals cell 3 open parentheses x plus 2 close parentheses squared minus 9 end cell end table`
+$\begin{gathered} - \mathrm{f} ( x ) & = - ( - 3 ( x + 2 )^{2} + 9 ) \\ = 3 ( x + 2 )^{2} - 9 \end{gathered}$
 
-> *This is the same equation as curve *$T$*. And *`negative straight f open parentheses x close parentheses`* represents a reflection in the **x**-axis.*
+> *This is the same equation as curve *$T$*. And *$- \mathrm{f} ( x )$* represents a reflection in the **x**-axis.*
 
 **A reflection in the ****x****-axis*** ***[1]**
 
@@ -1332,9 +1332,9 @@ $A=(-2,9)$* ***[1]**
 
 > *Using your knowledge of **quadratic graphs** and **turning point by completing the square**, sketch the curve *$C$* and curve *$T$*.*
 
-> *The equation *`y equals negative 3 open parentheses x plus 2 close parentheses squared plus 9`* tells us curve *$C$* is a n-shaped parabola with a turning point (−2, 9).*
+> *The equation *$y = - 3 ( x + 2 )^{2} + 9$* tells us curve *$C$* is a n-shaped parabola with a turning point (−2, 9).*
 
-> *The equation *`y equals 3 open parentheses x plus 2 close parentheses squared minus 9`* tells us curve *$T$* is a u-shaped parabola, the same "width" as curve *$C$* and with a turning point (−2, −9).*
+> *The equation *$y = 3 ( x + 2 )^{2} - 9$* tells us curve *$T$* is a u-shaped parabola, the same "width" as curve *$C$* and with a turning point (−2, −9).*
 
 ![3Xp6_wOV_igcse-edexcel-transformations-of-graphs-h7c](assets/036-3xp6-wov-igcse-edexcel-transformations-of-graphs.png)
 
@@ -1347,20 +1347,20 @@ $A=(-2,9)$* ***[1]**
 ### 18((a)) — 3 marks
 > *The format required is in completed square form.*
 
-> *The formula for completing the square for a quadratic in the form*$x^{2}+bx+c$*is*`space space open parentheses x space plus space b over 2 close parentheses squared space space minus space open parentheses b over 2 close parentheses squared space plus space c`*.*
+> *The formula for completing the square for a quadratic in the form*$x^{2}+bx+c$*is*$( x + \frac{b}{2} )^{2} - ( \frac{b}{2} )^{2} + c$*.*
 
 > *Complete the square by dividing the middle term (4) by 2.*
 
-`table row cell x squared space plus space 4 x space minus space 16 space end cell equals cell space open parentheses x space plus 4 over 2 close parentheses to the power of 2 space end exponent minus open parentheses 4 over 2 close parentheses squared space minus space 16 end cell row blank equals cell space open parentheses x space plus space 2 close parentheses squared space minus space 2 squared space minus space 16 end cell end table`
+$\begin{gathered} x^{2} + 4 x - 16 & = ( x + \frac{4}{2} )^{2 } - ( \frac{4}{2} )^{2} - 16 \\ = ( x + 2 )^{2} - 2^{2} - 16 \end{gathered}$
 
 **Correct expression in the brackets**** [1] **
 **Comparison outside of brackets**** [1]**
 
 > *Simplify.*
 
-`table row blank blank cell open parentheses x space plus space 2 close parentheses squared space minus 4 space minus space 16 end cell end table`
+$\begin{gathered} ( x + 2 )^{2} - 4 - 16 \end{gathered}$
 
-`open parentheses bold italic x space plus space 2 close parentheses squared space minus space 20`* ***[1]**
+$( x + 2 )^{2} - 20$* ***[1]**
 
 ### 18((b)) — 3 marks
 > *You are not asked for axis intercepts however from *$y=x^{2}+4x-16$* it should be apparent that the **y**-intercept is (0, −16).*
@@ -1379,23 +1379,23 @@ $A=(-2,9)$* ***[1]**
 ## Q40 — hard — 7 marks · exam-questions
 
 ### 19((a)) — 3 marks
-> *The formula for completing the square for a quadratic in the form*$x^{2}+bx+c$*is*`space space open parentheses x space plus space b over 2 close parentheses squared space space minus space open parentheses b over 2 close parentheses squared space plus space c`*.*
+> *The formula for completing the square for a quadratic in the form*$x^{2}+bx+c$*is*$( x + \frac{b}{2} )^{2} - ( \frac{b}{2} )^{2} + c$*.*
 
 > *Complete the square by dividing the middle term (−10) by 2.*
 
-`table row cell x squared space minus space 10 x space plus space 22 space end cell equals cell space open parentheses x space minus 10 over 2 close parentheses to the power of 2 space end exponent minus space open parentheses fraction numerator negative 10 over denominator 2 end fraction close parentheses squared space plus 22 end cell row blank equals cell space open parentheses x space minus space 5 close parentheses squared space minus space 5 squared space plus 22 end cell end table`
+$\begin{gathered} x^{2} - 10 x + 22 & = ( x - \frac{10}{2} )^{2 } - ( \frac{- 10}{2} )^{2} + 22 \\ = ( x - 5 )^{2} - 5^{2} + 22 \end{gathered}$
 
 **Correct expression in the brackets**** [1]**
 
 > *Simplify.*
 
-`table row space equals cell open parentheses x space minus space 5 close parentheses squared space minus 25 space plus space 22 end cell end table`
+$\begin{gathered} = ( x - 5 )^{2} - 25 + 22 \end{gathered}$
 
 **'− 25 + 22' outside the brackets ****[1]**
 
 > *Simplify to its final form.*
 
-`open parentheses bold italic x space minus space 5 close parentheses squared space minus space 3`* ***[1]**
+$( x - 5 )^{2} - 3$* ***[1]**
 
 ### 19((b)) — 4 marks
 > $\circ$* **y** = **x*<sup>*2*</sup>* − 10**x** + 22 is a quadratic equation with a positive coefficient of **x*<sup>*2*</sup>* so its graph is a u-shaped parabola.*
@@ -1435,7 +1435,7 @@ $A=(-2,9)$* ***[1]**
 ### 19((b)) — 5 marks
 > *The roots of the quadratic equation are (−3, 0) and (−1, 0) which tells you that the equation takes the form;*
 
-`y equals a open parentheses x plus 3 close parentheses open parentheses x plus 1 close parentheses`
+$y = a ( x + 3 ) ( x + 1 )$
 
 **[1]**
 
@@ -1447,13 +1447,13 @@ $y=a(x^{2}+4x+3)$
 
 > *To find **a**, substitute in the point (0, 12) and solve for **a**.*
 
-`table attributes columnalign right center left columnspacing 0px end attributes row size 16px 12 size 16px equals cell size 16px a begin mathsize 16px style stretchy left parenthesis 0 squared plus 4 open parentheses 0 close parentheses plus 3 stretchy right parenthesis end style end cell row size 16px 12 size 16px equals cell size 16px 3 size 16px a end cell row size 16px 4 size 16px equals size 16px a end table`
+$\begin{array}{rcl} \text{size} 16px 12 \text{size} 16px = \text{size} 16px a ( 0^{2} + 4 ( 0 ) + 3 ) \\ \text{size} 16px 12 \text{size} 16px = \text{size} 16px 3 \text{size} 16px a \\ \text{size} 16px 4 \text{size} 16px = \text{size} 16px a \end{array}$
 
-`table row bold italic a bold equals bold 4 end table`* ***[1]**
+$\begin{gathered} a = 4 \end{gathered}$* ***[1]**
 
 > *Replace **a** with 4 in *$y=a(x^{2}+4x+3)$* and expand to find **b** and **c**.*
 
-`table row y equals cell 4 stretchy left parenthesis x squared plus 4 x plus 3 stretchy right parenthesis end cell row blank equals cell 4 x squared plus 16 x plus 12 end cell end table`
+$\begin{gathered} y = 4 ( x^{2} + 4 x + 3 ) \\ = 4 x^{2} + 16 x + 12 \end{gathered}$
 
 $b=16$** [1] **
 $c=12$** [1]**
@@ -1468,9 +1468,9 @@ $c=12$** [1]**
 > 
 > As the completed square form is also a way to find the coordinates of the turning point, it is more efficient here to use this method for both the turning point and the roots.
 
-> *The coordinates of the turning point are found by writing the function in completed square form (*`open parentheses x minus a close parentheses squared plus b`*, where *`open parentheses a comma space b close parentheses`* are the coordinates of the turning point)*
+> *The coordinates of the turning point are found by writing the function in completed square form (*$( x - a )^{2} + b$*, where *$( a , b )$* are the coordinates of the turning point)*
 
-`table row cell x squared minus 6 x plus 4 end cell equals cell open parentheses x minus 3 close parentheses squared minus 9 plus 4 end cell row blank equals cell space open parentheses x minus 3 close parentheses squared minus 5 end cell end table`
+$\begin{gathered} x^{2} - 6 x + 4 & = ( x - 3 )^{2} - 9 + 4 \\ = ( x - 3 )^{2} - 5 \end{gathered}$
 
 **[M1 A1]**
 
@@ -1480,17 +1480,17 @@ $c=12$** [1]**
 
 > *Therefore you can solve the equation for **x** using the completed square form*
 
-`table row cell open parentheses x minus 3 close parentheses squared minus 5 end cell equals 0 row cell open parentheses x minus 3 close parentheses squared end cell equals 5 row cell x minus 3 end cell equals cell plus-or-minus square root of 5 end cell end table`
+$\begin{gathered} ( x - 3 )^{2} - 5 & = 0 \\ ( x - 3 )^{2} & = 5 \\ x - 3 & = \pm \sqrt{5} \end{gathered}$
 
 $x=3+\sqrt{5}$* or *$x=3-\sqrt{5}$
 
 **[M1 A1]**
 
-*The coordinates of the intersections with the ***x***-axis are *`open parentheses 3 minus square root of 5 space comma space 0 close parentheses`* and *`open parentheses 3 plus square root of 5 space comma space 0 close parentheses`
+*The coordinates of the intersections with the ***x***-axis are *$( 3 - \sqrt{5} , 0 )$* and *$( 3 + \sqrt{5} , 0 )$
 
 > *The y-intercept can be found by substituting *$x=0$* into the function*
 
-`open parentheses 0 close parentheses squared minus 6 open parentheses 0 close parentheses plus 4 equals 4`
+$( 0 )^{2} - 6 ( 0 ) + 4 = 4$
 
 *The y-intercept is (0, 4)*
 
@@ -1501,7 +1501,7 @@ $x=3+\sqrt{5}$* or *$x=3-\sqrt{5}$
 **[B1 B1]**
 
 > **[mark-scheme]**
-> **M1**: Showing a correct first step for a correct method for finding the coordinates of the turning points (e.g. initial completed the square form `open parentheses x minus 3 close parentheses squared minus 3 squared plus 4` or differentiating to give $\frac{dy}{dx}=2x-6$ for example)
+> **M1**: Showing a correct first step for a correct method for finding the coordinates of the turning points (e.g. initial completed the square form $( x - 3 )^{2} - 3^{2} + 4$ or differentiating to give $\frac{dy}{dx}=2x-6$ for example)
 > 
 > **A1**: For calculating the* x*-coordinate of the turning point correctly. This mark will still be awarded for an incorrectly evaluated *x*-coordinate of the turning point as long as the first M1 mark has been awarded.
 > 
@@ -1525,7 +1525,7 @@ $x=3+\sqrt{5}$* or *$x=3-\sqrt{5}$
 
 > $P$* is the first positive solution*
 
-`sin open parentheses 180 degree close parentheses equals 0`
+$\sin ( 180^{\circ} ) = 0$
 
 **Final answer:** **(180, 0)**
 
@@ -1537,14 +1537,14 @@ $x=3+\sqrt{5}$* or *$x=3-\sqrt{5}$
 
 > *This occurs when *$x=270^{\circ}$
 
-`sin open parentheses 270 degree close parentheses equals negative 1`
+$\sin ( 270^{\circ} ) = - 1$
 
 **Final answer:** **(270, -1)**
 
 **[****B1]**
 
 ### 16((b)) — 2 marks
-> *The graph of *`tan open parentheses x close parentheses`* intersects the *$x$*-axis at 0*<sup>*o*</sup>*, 180*<sup>*o*</sup>* and 360*<sup>*o*</sup>* within the given range*
+> *The graph of *$\tan ( x )$* intersects the *$x$*-axis at 0*<sup>*o*</sup>*, 180*<sup>*o*</sup>* and 360*<sup>*o*</sup>* within the given range*
 
 > *It intersects the *$y$*-axis at 0*
 

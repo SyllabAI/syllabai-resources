@@ -99,14 +99,14 @@ guided_study: false
   - $n\mathrm{ln}a=\mathrm{ln}(a^{n})$
 - Any logarithm can be written in terms of the natural logarithm using the **change of base** formula
 
-  - `log subscript a invisible function application b equals fraction numerator ln invisible function application b over denominator ln invisible function application a end fraction`
+  - $log_{a} b = \frac{\ln b}{\ln a}$
 
 ### How do I solve equations involving e<sup>x</sup> & ln x?
 
 - The functions $e^{x}$ and $\mathrm{ln}x$ are **inverses** of each other
 
-  - If $e^{f(x)}=g(x)$ then `straight f stretchy left parenthesis x stretchy right parenthesis equals ln invisible function application space straight g stretchy left parenthesis x stretchy right parenthesis`
-  - If `ln invisible function application space straight f left parenthesis x right parenthesis equals straight g open parentheses x close parentheses` then `straight f open parentheses x close parentheses equals straight e to the power of straight g open parentheses x close parentheses end exponent`
+  - If $e^{f(x)}=g(x)$ then $\mathrm{f} ( x ) = \ln \mathrm{g} ( x )$
+  - If $\ln \mathrm{f} ( x ) = \mathrm{g} ( x )$ then $\mathrm{f} ( x ) = \mathrm{e}^{ \mathrm{g} ( x )}$
 - If your equation involves "e" then try to get all the "e" terms on one side
 
   - If "e" terms are multiplied, you can add the powers
@@ -121,8 +121,8 @@ guided_study: false
 - If your equation involves "ln", try to combine all "ln" terms together
 
   - Use the laws of logarithms to combine terms into a single term
-  - If you have `ln invisible function application space straight f open parentheses x close parentheses equals ln invisible function application space straight g left parenthesis x right parenthesis` then solve `straight f open parentheses x close parentheses equals straight g left parenthesis x right parenthesis`
-  - If you have `ln invisible function application space straight f open parentheses x close parentheses equals k` then solve `straight f open parentheses x close parentheses equals straight e to the power of k`
+  - If you have $\ln \mathrm{f} ( x ) = \ln \mathrm{g} ( x )$ then solve $\mathrm{f} ( x ) = \mathrm{g} ( x )$
+  - If you have $\ln \mathrm{f} ( x ) = k$ then solve $\mathrm{f} ( x ) = \mathrm{e}^{k}$
 
 > **Worked Example**
 > ![3-1-1-ln-we-solution](assets/7d7a37a6c435-3-1-1-ln-we-solution.png)

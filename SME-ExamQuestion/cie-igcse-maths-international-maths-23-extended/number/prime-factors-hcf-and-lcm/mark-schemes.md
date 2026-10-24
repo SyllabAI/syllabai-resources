@@ -101,11 +101,11 @@ $168$* ***[1]**
 
 *List the first few multiples of *$56$* (by writing out the *$56$* times-table)* * *
 
-`table attributes columnalign right center left columnspacing 0px end attributes row cell 56 cross times 1 end cell equals 56 row cell 56 cross times 2 end cell equals 112 row cell 56 cross times 3 end cell equals 168 row cell 56 cross times 4 end cell equals 224 row blank blank cell... end cell end table` * *
+$\begin{array}{rcl} 56 \times 1 & = 56 \\ 56 \times 2 & = 112 \\ 56 \times 3 & = 168 \\ 56 \times 4 & = 224 \\ ... \end{array}$ * *
 
 *List the first few multiples of *$42$ * *
 
-`table row cell 42 cross times 1 end cell equals 42 row cell 42 cross times 2 end cell equals 84 row cell 42 cross times 3 end cell equals 126 row cell 42 cross times 4 end cell equals 168 row blank blank cell... end cell end table`
+$\begin{gathered} 42 \times 1 & = 42 \\ 42 \times 2 & = 84 \\ 42 \times 3 & = 126 \\ 42 \times 4 & = 168 \\ ... \end{gathered}$
 
 **[1]**
 
@@ -144,7 +144,7 @@ $A=2\times2\times2\times5\times7\times7\times11\,B=2\times2\times2\times2\times7
 
 > *The LCM is the product of the prime numbers in the Venn diagram (in *$A\cupB\cupC$*)*
 
-`table row LCM equals cell 7 cross times 2 cross times 2 cross times 2 cross times 11 cross times 7 cross times 2 cross times 5 cross times 3 cross times 5 end cell row blank equals cell 2 to the power of 4 cross times 3 cross times 5 squared cross times 7 squared cross times 11 end cell end table`
+$\begin{gathered} \text{LCM} = 7 \times 2 \times 2 \times 2 \times 11 \times 7 \times 2 \times 5 \times 3 \times 5 \\ = 2^{4} \times 3 \times 5^{2} \times 7^{2} \times 11 \end{gathered}$
 
 > *Use your calculator to evaluate the number.*
 
@@ -465,8 +465,7 @@ $90=2\times3^{2}\times5\,48=2^{4}\times3$
 
 > *Look to see where the products "overlap"*
 
-`90 equals bottom enclose bold 2 bold cross times bold 3 end enclose cross times 3 cross times 5
-48 equals 2 cross times 2 cross times 2 cross times bottom enclose bold 2 bold cross times bold 3 end enclose`
+`90 = bottom 2 x 3 x 3 x 5 48 = 2 x 2 x 2 x bottom 2 x 3`
 
 > *So the highest common factor is *$2\times3$
 

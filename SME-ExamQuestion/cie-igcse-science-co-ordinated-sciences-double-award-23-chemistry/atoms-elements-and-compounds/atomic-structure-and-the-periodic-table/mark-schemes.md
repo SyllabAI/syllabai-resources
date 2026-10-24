@@ -52,7 +52,7 @@
 
 - The notation is as follows:
 
-`Se presubscript 34 presuperscript 79 superscript 2 minus end superscript space`
+$\text{Se} pre_{34} pre^{79^{2} -}$
 
 - The 79 is the mass number, so it is the protons and neutrons added together
 - The 34 is the atomic number, which means number of protons

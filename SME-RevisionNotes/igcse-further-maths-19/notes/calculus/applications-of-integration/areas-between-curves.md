@@ -43,7 +43,7 @@ Find the **intersections** of the curve and the line
 - **STEP 3**
 Determine whether the area required is a **sum or difference**
 
-  - Calculate the **area under a curve** using a integral of the form `integral subscript a superscript b y space straight d x`
+  - Calculate the **area under a curve** using a integral of the form $\int_{a}^{b} y \mathrm{d} x$
   - Calculate the **area under a line** using
   
     - $A=\frac{1}{2}bh$ for a **triangle**
@@ -76,7 +76,7 @@ Determine whether the area required is a **sum or difference**
 > *We need to find the points of intersection of the curve and line*
 > *Set their equations equal and solve to find the *$x$*-coordinates*
 > 
-> `table attributes columnalign right center left columnspacing 0px end attributes row cell 8 minus x end cell equals cell 10 x minus x squared minus 16 end cell row cell x squared minus 11 x plus 24 end cell equals 0 row cell open parentheses x minus 3 close parentheses open parentheses x minus 8 close parentheses end cell equals 0 end table`
+> $\begin{array}{rcl} 8 - x & = 10 x - x^{2} - 16 \\ x^{2} - 11 x + 24 & = 0 \\ ( x - 3 ) ( x - 8 ) & = 0 \end{array}$
 > 
 > $x=3\mathrm{or}x=8$
 > 
@@ -86,7 +86,7 @@ Determine whether the area required is a **sum or difference**
 > 
 > $x=3:y=8-3=5\,\,x=8:y=8-8=0$
 > 
-> > *So the points of intersection are *`open parentheses 3 comma space 5 close parentheses`* and *`open parentheses 8 comma space 0 close parentheses`
+> > *So the points of intersection are *$( 3 , 5 )$* and *$( 8 , 0 )$
 > 
 > > *That gives us enough information to sketch the graphs*
 > 
@@ -96,7 +96,7 @@ Determine whether the area required is a **sum or difference**
 > 
 > > *Here we're going to need a **difference** of areas:  (area under curve)*$-$*(area under line)*
 > 
-> > *The area under the line is a right-angled triangle with vertices at *`open parentheses 3 comma space 0 close parentheses`*, *`open parentheses 3 comma space 5 close parentheses`* and *`open parentheses 8 comma space 0 close parentheses`
+> > *The area under the line is a right-angled triangle with vertices at *$( 3 , 0 )$*, *$( 3 , 5 )$* and *$( 8 , 0 )$
 > 
 > > *So the height is *$5-0=5$* and the base is *$8-3=5$
 > 
@@ -104,7 +104,7 @@ Determine whether the area required is a **sum or difference**
 > 
 > > *For the area under a curve we need to use a definite integral between *$x=3$* and *$x=8$
 > 
-> `table row cell Area space under space the space curve end cell equals cell integral subscript 3 superscript 8 open parentheses 10 x minus x squared minus 16 close parentheses space straight d x end cell row blank equals cell open square brackets 5 x squared minus 1 third x cubed minus 16 x close square brackets subscript 3 superscript 8 end cell row blank equals cell open parentheses 5 open parentheses 8 close parentheses squared minus 1 third open parentheses 8 close parentheses cubed minus 16 open parentheses 8 close parentheses close parentheses minus open parentheses 5 open parentheses 3 close parentheses squared minus 1 third open parentheses 3 close parentheses cubed minus 16 open parentheses 3 close parentheses close parentheses end cell row blank equals cell open parentheses 320 minus 512 over 3 minus 128 close parentheses minus open parentheses 45 minus 9 minus 48 close parentheses end cell row blank equals cell 64 over 3 minus open parentheses negative 12 close parentheses end cell row blank equals cell 100 over 3 end cell end table`
+> `| Area under the curve | = integral _ 3 ^ 8 ( 10 x - x ^2 - 16 ) d x | | _ = [ 5 x ^2 - 1 third x ^3 - 16 x ] _ 3 ^ 8 | | _ = ( 5 ( 8 ) ^2 - 1 third ( 8 ) ^3 - 16 ( 8 ) ) - ( 5 ( 3 ) ^2 - 1 third ( 3 ) ^3 - 16 ( 3 ) ) | | _ = ( 320 - 512 / 3 - 128 ) - ( 45 - 9 - 48 ) | | _ = 64 / 3 - ( - 12 ) | | _ = 100 / 3 | |`
 > 
 > > *For the area of *$R$*, subtract the area of the triangle from the area under the curve*
 > 
@@ -141,7 +141,7 @@ If not given, find the **intersections** of the two curves
 - **STEP 3**
 Determine which curve is the **‘upper’ boundary** for each region
 
-  - For each region, the area is given by **definite integral** of the form`space integral subscript a superscript b left parenthesis y subscript 1 minus y subscript 2 right parenthesis space straight d x`
+  - For each region, the area is given by **definite integral** of the form$\int_{a}^{b} ( y_{1} - y_{2} ) \mathrm{d} x$
   
     - $y_{1}$ is the function forming the **‘upper’ boundary**
     - $y_{2}$ is the function forming the ‘**lower’ boundary**
@@ -177,12 +177,12 @@ Determine which curve is the **‘upper’ boundary** for each region
 > 
 > > *Set the equations of the curves equal to each other, and solve to find the *$x$*-coordinates*
 > 
-> `open parentheses x minus 2 close parentheses open parentheses x minus 3 close parentheses squared equals x squared minus 5 x plus 6`
+> $( x - 2 ) ( x - 3 )^{2} = x^{2} - 5 x + 6$
 > 
 > > *It's tempting to expand the brackets on the left-hand side of the equation*
 > *Actually. here it will be more useful to factorise the right-hand side*
 > 
-> `table row cell open parentheses x minus 2 close parentheses open parentheses x minus 3 close parentheses squared end cell equals cell open parentheses x minus 2 close parentheses open parentheses x minus 3 close parentheses end cell row cell open parentheses x minus 2 close parentheses open parentheses x minus 3 close parentheses squared minus open parentheses x minus 2 close parentheses open parentheses x minus 3 close parentheses end cell equals 0 row cell open parentheses x minus 2 close parentheses open parentheses x minus 3 close parentheses open parentheses open parentheses x minus 3 close parentheses minus 1 close parentheses end cell equals 0 row cell open parentheses x minus 2 close parentheses open parentheses x minus 3 close parentheses open parentheses x minus 4 close parentheses end cell equals 0 end table`
+> $\begin{gathered} ( x - 2 ) ( x - 3 )^{2} & = ( x - 2 ) ( x - 3 ) \\ ( x - 2 ) ( x - 3 )^{2} - ( x - 2 ) ( x - 3 ) & = 0 \\ ( x - 2 ) ( x - 3 ) ( ( x - 3 ) - 1 ) & = 0 \\ ( x - 2 ) ( x - 3 ) ( x - 4 ) & = 0 \end{gathered}$
 > 
 > $x=2,3\mathrm{or}4$
 > 
@@ -190,13 +190,13 @@ Determine which curve is the **‘upper’ boundary** for each region
 > 
 > > *We have two regions here*
 > 
-> > *The first region is from *$x=2$* to *$x=3$*, and *`straight f open parentheses x close parentheses`* is the 'upper curve'*
+> > *The first region is from *$x=2$* to *$x=3$*, and *$\mathrm{f} ( x )$* is the 'upper curve'*
 > 
-> `table row cell Region space 1 end cell equals cell integral subscript 2 superscript 3 open parentheses open parentheses x minus 2 close parentheses open parentheses x minus 3 close parentheses squared minus open parentheses x squared minus 5 x plus 6 close parentheses close parentheses space straight d x end cell row blank equals cell integral subscript 2 superscript 3 open parentheses x cubed minus 9 x squared plus 26 x minus 24 close parentheses space straight d x end cell row blank equals cell open square brackets 1 fourth x to the power of 4 minus 3 x cubed plus 13 x squared minus 24 x close square brackets subscript 2 superscript 3 end cell row blank equals cell open parentheses 1 fourth open parentheses 3 close parentheses to the power of 4 minus 3 open parentheses 3 close parentheses cubed plus 13 open parentheses 3 close parentheses squared minus 24 open parentheses 3 close parentheses close parentheses minus open parentheses 1 fourth open parentheses 2 close parentheses to the power of 4 minus 3 open parentheses 2 close parentheses cubed plus 13 open parentheses 2 close parentheses squared minus 24 open parentheses 2 close parentheses close parentheses end cell row blank equals cell open parentheses 81 over 4 minus 81 plus 117 minus 72 close parentheses minus open parentheses 4 minus 24 plus 52 minus 48 close parentheses end cell row blank equals cell negative 63 over 4 minus open parentheses negative 16 close parentheses end cell row blank equals cell 1 fourth end cell end table`
+> $\begin{gathered} \text{Region} 1 & = \int_{2}^{3} ( ( x - 2 ) ( x - 3 )^{2} - ( x^{2} - 5 x + 6 ) ) \mathrm{d} x \\ = \int_{2}^{3} ( x^{3} - 9 x^{2} + 26 x - 24 ) \mathrm{d} x \\ = [ 1 \frac{1}{4} x^{4} - 3 x^{3} + 13 x^{2} - 24 x ]_{2}^{3} \\ = ( 1 \frac{1}{4} ( 3 )^{4} - 3 ( 3 )^{3} + 13 ( 3 )^{2} - 24 ( 3 ) ) - ( 1 \frac{1}{4} ( 2 )^{4} - 3 ( 2 )^{3} + 13 ( 2 )^{2} - 24 ( 2 ) ) \\ = ( \frac{81}{4} - 81 + 117 - 72 ) - ( 4 - 24 + 52 - 48 ) \\ = - \frac{63}{4} - ( - 16 ) \\ = 1 \frac{1}{4} \end{gathered}$
 > 
-> > *The second region is from *$x=3$* to *$x=4$* and *`straight g open parentheses x close parentheses`* is the 'upper curve'*
+> > *The second region is from *$x=3$* to *$x=4$* and *$\mathrm{g} ( x )$* is the 'upper curve'*
 > 
-> `table row cell Region space 2 end cell equals cell integral subscript 3 superscript 4 open parentheses open parentheses x squared minus 5 x plus 6 close parentheses minus open parentheses x minus 2 close parentheses open parentheses x minus 3 close parentheses squared close parentheses space straight d x end cell row blank equals cell integral subscript 3 superscript 4 open parentheses negative x cubed plus 9 x squared minus 26 x plus 24 close parentheses space straight d x end cell row blank equals cell open square brackets negative 1 fourth x to the power of 4 plus 3 x cubed minus 13 x squared plus 24 x close square brackets subscript 3 superscript 4 end cell row blank equals cell open parentheses negative 1 fourth open parentheses 4 close parentheses to the power of 4 plus 3 open parentheses 4 close parentheses cubed minus 13 open parentheses 4 close parentheses squared plus 24 open parentheses 4 close parentheses close parentheses minus open parentheses negative 1 fourth open parentheses 3 close parentheses to the power of 4 plus 3 open parentheses 3 close parentheses cubed minus 13 open parentheses 3 close parentheses squared plus 24 open parentheses 3 close parentheses close parentheses end cell row blank equals cell open parentheses negative 64 plus 192 minus 208 plus 96 close parentheses minus open parentheses negative 81 over 4 plus 81 minus 117 plus 72 close parentheses end cell row blank equals cell 16 minus 63 over 4 end cell row blank equals cell 1 fourth end cell end table`
+> $\begin{gathered} \text{Region} 2 & = \int_{3}^{4} ( ( x^{2} - 5 x + 6 ) - ( x - 2 ) ( x - 3 )^{2} ) \mathrm{d} x \\ = \int_{3}^{4} ( - x^{3} + 9 x^{2} - 26 x + 24 ) \mathrm{d} x \\ = [ - 1 \frac{1}{4} x^{4} + 3 x^{3} - 13 x^{2} + 24 x ]_{3}^{4} \\ = ( - 1 \frac{1}{4} ( 4 )^{4} + 3 ( 4 )^{3} - 13 ( 4 )^{2} + 24 ( 4 ) ) - ( - 1 \frac{1}{4} ( 3 )^{4} + 3 ( 3 )^{3} - 13 ( 3 )^{2} + 24 ( 3 ) ) \\ = ( - 64 + 192 - 208 + 96 ) - ( - \frac{81}{4} + 81 - 117 + 72 ) \\ = 16 - \frac{63}{4} \\ = 1 \frac{1}{4} \end{gathered}$
 > 
 > > *Now just add the two areas together to get the total area*
 > 

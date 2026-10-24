@@ -51,25 +51,25 @@ guided_study: false
 > 
 > $f'(x)=\mathrm{cos}x$
 > 
-> ii.    *Use the chain rule or remember that when *`y equals cos open parentheses a x plus b close parentheses`*, then *`fraction numerator straight d y over denominator straight d x end fraction equals negative a sin open parentheses a x plus b close parentheses`
+> ii.    *Use the chain rule or remember that when *$y = \cos ( a x + b )$*, then *$\frac{ \mathrm{d} y}{ \mathrm{d} x} = - a \sin ( a x + b )$
 > 
 > $f'(x)=-2\mathrm{sin}(2x)$
 > 
 > iii.   *Differentiate 'term by term'*
 > 
-> `straight f apostrophe open parentheses x close parentheses equals 3 open parentheses 4 cos 4 x close parentheses minus open parentheses negative 2 sin open parentheses 2 x minus 3 close parentheses close parentheses`
+> $\mathrm{f} ' ( x ) = 3 ( 4 \cos 4 x ) - ( - 2 \sin ( 2 x - 3 ) )$
 > 
 > $f'(x)=12\mathrm{cos}4x+2\mathrm{sin}(2x-3)$
 > 
-> b)`table row blank row blank end table` Find the gradient of the tangent to the curve $y=\mathrm{sin}(2x+\frac{π}{6})$ at the point where $x=\frac{π}{8}$.
+> b)$\begin{gathered} \\ \end{gathered}$ Find the gradient of the tangent to the curve $y=\mathrm{sin}(2x+\frac{π}{6})$ at the point where $x=\frac{π}{8}$.
 > 
 > > *Gradient of tangent is equal to gradient of curve. To find the gradient, differentiate...*
 > 
-> `fraction numerator straight d y over denominator straight d x end fraction equals 2 cos open parentheses 2 x plus pi over 6 close parentheses`
+> $\frac{ \mathrm{d} y}{ \mathrm{d} x} = 2 \cos ( 2 x + \frac{\pi }{6} )$
 > 
 > > *... and substitute *$x=\frac{π}{8}$* into the derivative*
 > 
-> `fraction numerator straight d y over denominator straight d x end fraction equals 2 cos open parentheses 2 open parentheses pi over 8 close parentheses plus pi over 6 close parentheses`
+> $\frac{ \mathrm{d} y}{ \mathrm{d} x} = 2 \cos ( 2 ( \frac{\pi }{8} ) + \frac{\pi }{6} )$
 > 
 > > *Ensure that your calculator is in radians*
 > 
@@ -112,15 +112,15 @@ guided_study: false
 > 
 > > *Differentiate each term separately. *
 > 
-> `fraction numerator straight d y over denominator straight d x end fraction equals negative 3 straight e to the power of negative 3 x end exponent space plus space 2 open parentheses 1 over x close parentheses`
+> $\frac{ \mathrm{d} y}{ \mathrm{d} x} = - 3 \mathrm{e}^{- 3 x} + 2 ( \frac{1}{x} )$
 > 
 > > *Substitute *$x=2$* into the derivative.*
 > 
-> > `fraction numerator straight d y over denominator straight d x end fraction equals negative 3 straight e to the power of negative 3 open parentheses 2 close parentheses end exponent space plus space 2 open parentheses 1 half close parentheses`* *
+> > $\frac{ \mathrm{d} y}{ \mathrm{d} x} = - 3 \mathrm{e}^{- 3 ( 2 )} + 2 ( 1 \frac{1}{2} )$* *
 > 
 > > *Rearrange to the required form.*
 > 
-> `table row cell fraction numerator straight d y over denominator straight d x end fraction end cell equals cell negative 3 straight e to the power of negative 6 end exponent space plus space 1 space equals space 1 space minus space 3 straight e to the power of negative 6 end exponent end cell end table`
+> $\begin{gathered} \frac{ \mathrm{d} y}{ \mathrm{d} x} & = - 3 \mathrm{e}^{- 6} + 1 = 1 - 3 \mathrm{e}^{- 6} \end{gathered}$
 > 
 > > *Do not use your calculator to evaluate this as the question asks for the answer given in this form.*
 > 

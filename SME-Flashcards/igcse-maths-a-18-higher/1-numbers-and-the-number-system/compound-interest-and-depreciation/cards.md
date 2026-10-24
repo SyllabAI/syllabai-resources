@@ -33,7 +33,7 @@ E.g. If you are investing \$500 over a period of 3 years, compound interest woul
 
 **BACK**
 
-**Compound interest** is applied to the amount $P$ at a rate of $r$% for $n$ years. The **final amount** is found by calculating `P open parentheses 1 plus r over 100 close parentheses to the power of n`.
+**Compound interest** is applied to the amount $P$ at a rate of $r$% for $n$ years. The **final amount** is found by calculating $P ( 1 + \frac{r}{100} )^{n}$.
 
 
 
@@ -90,7 +90,7 @@ For a **reverse** percentage problem, you can find the **original amount **by di
 
 E.g.
 
-`table row cell 771.75 end cell equals cell P cross times open parentheses 1 plus 5 over 100 close parentheses squared end cell row cell 771.75 end cell equals cell P cross times 1.05 squared end cell row cell fraction numerator 771.75 over denominator 1.05 squared end fraction end cell equals P row P equals cell $ 700 end cell end table`
+$\begin{gathered} 771.75 & = P \times ( 1 + \frac{5}{100} )^{2} \\ 771.75 & = P \times 1.05^{2} \\ \frac{771.75}{1.05^{2}} & = P \\ P = \$ 700 \end{gathered}$
 
 
 
@@ -116,7 +116,7 @@ An **item **that initially had a value of $P$ depreciates at a rate of $r$% each
 
 **BACK**
 
-An item that **initially **had a value of $P$ **depreciates **at a rate of $r$% each year. After $n$ years the **value **of the item can be found by calculating `P open parentheses 1 minus r over 100 close parentheses to the power of n`.
+An item that **initially **had a value of $P$ **depreciates **at a rate of $r$% each year. After $n$ years the **value **of the item can be found by calculating $P ( 1 - \frac{r}{100} )^{n}$.
 
 
 

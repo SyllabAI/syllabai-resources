@@ -32,7 +32,7 @@ guided_study: true
 
   - E.g. For the first solution of the equation $\mathrm{sin}x=0.5$ for $0^{\circ}\leqx\leq360^{\circ}$
   
-    - This gives `x equals sin to the power of negative 1 end exponent open parentheses 0.5 close parentheses equals 30 degree`
+    - This gives $x = \sin ^{- 1} ( 0.5 ) = 30^{\circ}$
 - Then **sketch** the **sine graph** for the **given interval**
 
   - Identify the **first solution** on the graph
@@ -40,7 +40,7 @@ guided_study: true
   - E.g. For the equation $\mathrm{sin}x=0.5$ for $0^{\circ}\leqx\leq360^{\circ}$
   
     - Sketch the graph $y=\mathrm{sin}x$ for $0^{\circ}\leqx\leq360^{\circ}$
-    - Draw on `sin open parentheses 30 close parentheses equals 0.5`
+    - Draw on $\sin ( 30 ) = 0.5$
     - By the symmetry, the new value of $x$ is $180^{\circ}-30^{\circ}=150^{\circ}$
     - The solutions are $30^{\circ}$ or $150^{\circ}$
 
@@ -51,7 +51,7 @@ guided_study: true
   - E.g.  For the equation $\mathrm{sin}x=0.5$ for $0^{\circ}\leqx\leq360^{\circ}$
   
     - Substitute $x=30^{\circ}$ and $x=150^{\circ}$ in to the calculator
-    - `sin open parentheses 30 close parentheses` and `sin open parentheses 150 close parentheses` both give a value of $0.5$, so are correct
+    - $\sin ( 30 )$ and $\sin ( 150 )$ both give a value of $0.5$, so are correct
 - In general, if $x$ is an **acute** solution to $\mathrm{sin}x=...$
 
   - Then $180-x$ is an **obtuse** solution to the same equation
@@ -62,7 +62,7 @@ guided_study: true
 
   - E.g. For the first solution of the equation $\mathrm{cos}x=0.5$ for $0^{\circ}\leqx\leq360^{\circ}$
   
-    - This gives `x equals cos to the power of negative 1 end exponent open parentheses 0.5 close parentheses equals 60 degree`
+    - This gives $x = \cos ^{- 1} ( 0.5 ) = 60^{\circ}$
 - Then **sketch** the **cosine graph** for the **given interval**
 
   - Identify the **first solution** on the graph
@@ -80,7 +80,7 @@ guided_study: true
   - E.g.  For the equation $\mathrm{cos}x=0.5$ for $0^{\circ}\leqx\leq360^{\circ}$
   
     - Substitute $x=60^{\circ}$ and $x=300^{\circ}$ in to the calculator
-    - `cos open parentheses 60 close parentheses` and `cos open parentheses 300 close parentheses` both give a value of $0.5$ so are correct
+    - $\cos ( 60 )$ and $\cos ( 300 )$ both give a value of $0.5$ so are correct
 
 - In general, if $x$ is a **solution** to $\mathrm{cos}x=...$
 
@@ -92,7 +92,7 @@ guided_study: true
 
   - E.g. For the first solution of the equation $\mathrm{tan}x=1$ for $0^{\circ}\leqx\leq360^{\circ}$
   
-    - This gives `x equals tan to the power of negative 1 end exponent open parentheses 1 close parentheses equals 45 degree`
+    - This gives $x = \tan ^{- 1} ( 1 ) = 45^{\circ}$
 - Then **sketch** the **tangent graph** for the **given interval**
 
   - Identify the **first solution** on the graph
@@ -109,7 +109,7 @@ guided_study: true
   - E.g.  For the equation $\mathrm{tan}x=0.5$ for $0^{\circ}\leqx\leq360^{\circ}$
   
     - Substitute $x=45^{\circ}$ and $x=225^{\circ}$ in to the calculator
-    - `tan open parentheses 45 close parentheses` and `tan open parentheses 225 close parentheses` both give a value of $1$ so are correct
+    - $\tan ( 45 )$ and $\tan ( 225 )$ both give a value of $1$ so are correct
 
 - In general, if $x$ is a solution to $\mathrm{tan}x=...$
 
@@ -144,7 +144,7 @@ guided_study: true
 > > *Use a calculator to find the first solution *
 > *Take the inverse sin of both sides*
 > 
-> `x equals sin to the power of negative 1 end exponent open parentheses 0.25 close parentheses equals 14.47751...`
+> $x = \sin ^{- 1} ( 0.25 ) = 14.47751...$
 > 
 > > *Sketch the graph of *$y=\mathrm{sin}x$
 > 

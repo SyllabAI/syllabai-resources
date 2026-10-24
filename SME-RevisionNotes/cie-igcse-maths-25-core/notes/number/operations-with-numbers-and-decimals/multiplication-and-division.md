@@ -37,9 +37,7 @@ guided_study: true
   
     - Always work from** right to left**
     - Use 0s as place holders when multiplying digits in columns other than the ones column
-  - For example, 87 × 426 = 37 062 `bottom enclose table row blank blank blank 8 7 row blank cross times 4 2 6 end table end enclose
-  bottom enclose table row space blank 5 2 2 row blank 1 7 4 0 row cell space space 3 end cell 4 8 0 0 end table end enclose
-  table row cell space space 3 end cell 7 0 6 2 end table`
+  - For example, 87 × 426 = 37 062 `bottom | _ _ _ 8 7 | _ x 4 2 6 | bottom | _ 5 2 2 | _ 1 7 4 0 | 3 | 4 8 0 0 | | 3 | 7 0 6 2 |`
 
 ### How do I use the lattice method?
 
@@ -121,7 +119,7 @@ guided_study: true
 > 
 > > *Add together the numbers in the grid*
 > 
-> `stack attributes charalign center stackalign right end attributes 7000 200 50 6300 180 row plus none none 45 end row horizontal line 13775 end stack`
+> `charalign center stackalign right end 7000 200 50 6300 180 | + none none 45 end | horizontal line 13775 end`
 > 
 > > *Use an estimate to check your answer*
 > 
@@ -153,14 +151,14 @@ guided_study: true
   - Starting from the left; 3 fits into 1, 0 times, with a remainder of 1
   
     - Carry the remainder of 1 over to the next digit, which forms 17
-    - `long division by 3 yields 0 pile 1 space 7 presuperscript 1 none 4 end pile end long division`
+    - `long division by 3 yields 0 pile 1 7 ^ 1 none 4 end pile end long division`
   - 3 fits into 17, 5 times, with a remainder of 2
   
     - Carry the remainder of 2 over to the next digit, which forms 24
-    - `long division by 3 yields 05 pile 1 space 7 presuperscript 1 space 4 presuperscript 2 end pile end long division`
+    - `long division by 3 yields 05 pile 1 7 ^ 1 4 ^ 2 end pile end long division`
   - 3 fits into 24, 8 times, with no remainder
   
-    - `long division by 3 yields 058 pile 1 space 7 presuperscript 1 space 4 presuperscript 2 end pile end long division`
+    - `long division by 3 yields 058 pile 1 7 ^ 1 4 ^ 2 end pile end long division`
   - So, 174 ÷ 3 = 58
 
 #### Factorising & cancelling

@@ -14,7 +14,7 @@ $6b^{\circ}-b^{\circ}=180^{\circ}$
 
 > *Simplify the equation and then solve it.*
 
-`table attributes columnalign right center left columnspacing 0px end attributes row cell 5 b end cell equals 180 row b equals cell 180 over 5 end cell row b equals 36 end table`
+$\begin{array}{rcl} 5 b & = 180 \\ b = \frac{180}{5} \\ b = 36 \end{array}$
 
 **[1]**
 
@@ -71,7 +71,7 @@ $w=360-150-143=67$
 
 > *You can use the cosine rule *$b^{2}=a^{2}+c^{2}-2ac\mathrm{cos}B$* to find *$x$
 
-`table row cell x squared end cell equals cell 9 squared plus 8 squared plus 2 cross times 9 cross times 8 cross times cos open parentheses 67 close parentheses end cell row cell x squared end cell equals cell 88.734... end cell row x equals cell 9.419... end cell end table`
+$\begin{gathered} x^{2} & = 9^{2} + 8^{2} + 2 \times 9 \times 8 \times \cos ( 67 ) \\ x^{2} & = 88.734... \\ x = 9.419... \end{gathered}$
 
 **[1]**
 
@@ -79,7 +79,7 @@ $w=360-150-143=67$
 
 > *You can use the sine rule *$\frac{\mathrm{sin}A}{a}=\frac{\mathrm{sin}B}{b}$* to find *$y$
 
-`table row cell fraction numerator sin y over denominator 9 end fraction end cell equals cell fraction numerator sin open parentheses 67 close parentheses over denominator 9.419... end fraction end cell row cell sin y end cell equals cell 9 cross times fraction numerator sin open parentheses 67 close parentheses over denominator 9.419... end fraction end cell row cell sin y end cell equals cell 0.8794... end cell row y equals cell sin to the power of negative 1 end exponent open parentheses 0.8794... close parentheses end cell row y equals cell 61.57... end cell end table`
+$\begin{gathered} \frac{\sin y}{9} & = \frac{\sin ( 67 )}{9.419...} \\ \sin y & = 9 \times \frac{\sin ( 67 )}{9.419...} \\ \sin y & = 0.8794... \\ y = \sin ^{- 1} ( 0.8794... ) \\ y = 61.57... \end{gathered}$
 
 **Correct use of the sine rule [1]**
 
@@ -109,7 +109,7 @@ $x=180-140=40^{\circ}$
 
 > *Now we can calculate the bearing by using the the rule that angles around a point sum to 360°.*
 
-`table row cell bearing space from space A space to space B end cell equals cell 360 degree minus 40 degree end cell end table`
+$\begin{gathered} \text{bearing} \text{from} A \text{to} B & = 360^{\circ} - 40^{\circ} \end{gathered}$
 
 **[1]**
 
@@ -134,13 +134,13 @@ $260-155=105$
 
 > *Substitute **a** = **x**, **b **= 12, **c** = 28 and **A** = 105 into the formula.*
 
-`table row cell x squared end cell equals cell 12 squared plus 28 squared minus 2 open parentheses 12 close parentheses open parentheses 28 close parentheses cos open parentheses 105 close parentheses end cell row blank equals cell 1101.926... end cell end table`
+$\begin{gathered} x^{2} & = 12^{2} + 28^{2} - 2 ( 12 ) ( 28 ) \cos ( 105 ) \\ = 1101.926... \end{gathered}$
 
 **[1]**
 
 > *Take the positive square root. Use the answer button on your calculator.*
 
-`table row x equals cell square root of 1101.926... end root end cell row blank equals cell 33.1952... end cell end table`
+$\begin{gathered} x = \sqrt{1101.926...} \\ = 33.1952... \end{gathered}$
 
 **[1]**
 
@@ -203,13 +203,13 @@ $282^{\circ}$** [1]**
 > *The formula for the cosine rule is *$a^{2}=b^{2}+c^{2}-2bc\mathrm{cos}A$*, where **b** and **c** are the lengths of the two sides that form angle **A** and **a** is the length of the side opposite **A**. *
 *Substitute **a** = **z**, **b** = 275, **c** = 150 and **A** = 120 into the formula.*
 
-`z squared equals 275 squared plus 150 squared minus 2 open parentheses 275 close parentheses open parentheses 150 close parentheses cos open parentheses 120 close parentheses`
+$z^{2} = 275^{2} + 150^{2} - 2 ( 275 ) ( 150 ) \cos ( 120 )$
 
 **[1]**
 
 > *Type the expression into your calculator altogether as one line. If you do it separately you need to remember the order of operations (multiplication before addition). Take the positive square root and leave as an exact answer or store in your calculator.*
 
-`table attributes columnalign right center left columnspacing 0px end attributes row cell z squared end cell equals 139375 row z equals cell square root of 139375 end cell row blank equals cell 373.329613... end cell end table`
+$\begin{array}{rcl} z^{2} & = 139375 \\ z = \sqrt{139375} \\ = 373.329613... \end{array}$
 
 **[1]**
 
@@ -220,19 +220,19 @@ $282^{\circ}$** [1]**
 > *The formula for the sine rule is *$\frac{\mathrm{sin}A}{a}=\frac{\mathrm{sin}B}{b}$*, where **a** and **b** are the lengths of the two sides that are opposite the angles **A **and **B **respectively. *
 *Substitute **A** = **y**, **B** = 120, **a** = 275 and **b** = √139375 into the formula.*
 
-`fraction numerator sin y over denominator 275 end fraction equals fraction numerator sin open parentheses 120 close parentheses over denominator square root of 139375 end fraction`
+$\frac{\sin y}{275} = \frac{\sin ( 120 )}{ \sqrt{139375} }$
 
 **[1]**
 
 > *Multiply both sides by 275 and then use the inverse sin function on your calculator.*
 
-`table row y equals cell sin to the power of negative 1 end exponent open parentheses fraction numerator sin open parentheses 120 close parentheses over denominator square root of 139375 end fraction cross times 275 close parentheses end cell row blank equals cell 39.637403... end cell end table`
+$\begin{gathered} y = \sin ^{- 1} ( \frac{\sin ( 120 )}{ \sqrt{139375} } \times 275 ) \\ = 39.637403... \end{gathered}$
 
 **[1]**
 
 > *Find the bearing by subtracting from 180.*
 
-`table attributes columnalign right center left columnspacing 0px end attributes row x equals cell 180 minus 39.637403... end cell row blank equals cell 140.362596... end cell end table`
+$\begin{array}{rcl} x = 180 - 39.637403... \\ = 140.362596... \end{array}$
 
 > *Round to the nearest degree.140*
 
@@ -243,19 +243,19 @@ $140^{\circ}(\mathrm{nearest} \mathrm{degree})$** [1]**
 > *The formula for the cosine rule is *$\mathrm{cos}A=\frac{b^{2}+c^{2}-a^{2}}{2bc}$*, where **a** and **b** are the lengths of the two sides that form the angle **A **and **a** is the length of the side opposite **A**. *
 *Substitute **A** = **y**, **a** = 275, **b** = 150 and **c** = √139375 into the formula.*
 
-`cos y equals fraction numerator 150 squared plus open parentheses square root of 139375 close parentheses squared minus 275 squared over denominator 2 cross times 150 cross times square root of 139375 end fraction`
+$\cos y = \frac{150^{2} + ( \sqrt{139375} )^{2} - 275^{2}}{2 \times 150 \times \sqrt{139375} }$
 
 **[1]**
 
 > *Use the inverse cos function on your calculator.*
 
-`table row y equals cell cos to the power of negative 1 end exponent open parentheses fraction numerator 150 squared plus open parentheses square root of 139375 close parentheses squared minus 275 squared over denominator 2 cross times 150 cross times square root of 139375 end fraction close parentheses end cell row blank equals cell 39.637403... end cell end table`
+$\begin{gathered} y = \cos ^{- 1} ( \frac{150^{2} + ( \sqrt{139375} )^{2} - 275^{2}}{2 \times 150 \times \sqrt{139375} } ) \\ = 39.637403... \end{gathered}$
 
 **[1]**
 
 > *Find the bearing by subtracting from 180.*
 
-`table attributes columnalign right center left columnspacing 0px end attributes row x equals cell 180 minus 39.637403... end cell row blank equals cell 140.362596... end cell end table`
+$\begin{array}{rcl} x = 180 - 39.637403... \\ = 140.362596... \end{array}$
 
 > *Round to the nearest degree.140*
 
@@ -288,7 +288,7 @@ $x=128$
 
 > *The angles *$x^{\circ}$* and 128° are co-interior angles between parallel lines so add to 180°.*
 
-`table attributes columnalign right center left columnspacing 0px end attributes row x equals cell 180 minus 128 end cell row blank equals 52 end table`
+$\begin{array}{rcl} x = 180 - 128 \\ = 52 \end{array}$
 
 **[1]**
 
@@ -340,19 +340,19 @@ ii) *Due east means at a bearing of 090°.*
 
 > *Sine Rule:  *$\frac{\mathrm{sin}A}{a}=\frac{\mathrm{sin}B}{b}=\frac{\mathrm{sin}C}{c}$*.*
 
-`table row cell fraction numerator space sin space A B D over denominator A D end fraction end cell equals cell space fraction numerator space sin space B A D over denominator B D end fraction end cell row cell fraction numerator space sin space 52 over denominator 205.8 end fraction end cell equals cell space fraction numerator sin space B A D over denominator 168 end fraction end cell end table`
+$\begin{gathered} \frac{ \sin A B D}{A D} & = \frac{ \sin B A D}{B D} \\ \frac{ \sin 52}{205.8} & = \frac{\sin B A D}{168} \end{gathered}$
 
 **[1]**
 
 > *Rearrange the equation to make sin**BAD **the subject.*
 
-`table row cell fraction numerator space 168 space sin space 52 over denominator 205.8 end fraction space end cell equals cell space sin space B A D end cell end table`
+$\begin{gathered} \frac{ 168 \sin 52}{205.8} & = \sin B A D \end{gathered}$
 
 ** ****[1]**
 
 > *Use the *$\mathrm{sin}^{-1}$* button on your calculator to find angle **BAD**.*
 
-`table row cell space B A D degree space end cell equals cell sin to the power of negative 1 end exponent space open parentheses fraction numerator space 168 space sin space 52 over denominator 205.8 end fraction close parentheses end cell row blank equals cell space 40.03639... degree end cell end table`
+$\begin{gathered} B A D^{\circ} & = \sin ^{- 1} ( \frac{ 168 \sin 52}{205.8} ) \\ = 40.03639...^{\circ} \end{gathered}$
 
 ** ****[1]**
 
@@ -385,15 +385,15 @@ $180+34.2=214.2$
 
 ![cie-igcse-2020-may-jun-p4-tz2-q4a-ma](assets/029-cie-igcse-2020-may-jun-p4-tz2-q4a-ma.png)
 
-> *The triangle formed by the points **BCD** is right angled. You know the lengths of the sides opposite and adjacent to the required angle so you can use the trig ratio: *`tan open parentheses B C D close parentheses equals Opposite over Adjacent.`
+> *The triangle formed by the points **BCD** is right angled. You know the lengths of the sides opposite and adjacent to the required angle so you can use the trig ratio: *$\text{tan} ( B C D ) = \frac{Opposite}{Adjacent}.$
 
-`tan open parentheses B C D close parentheses equals 350 over 450`
+$\tan ( B C D ) = \frac{350}{450}$
 
 **[1]**
 
 > *Use inverse tan on your calculate to find the angle.*
 
-`B C D equals tan to the power of negative 1 end exponent open parentheses 350 over 450 close parentheses equals 37.8749...`
+$B C D = \tan ^{- 1} ( \frac{350}{450} ) = 37.8749...$
 
 > *Bearings are written as 3 digit numbers so round to the nearest integer and put a zero at the front.*
 
@@ -492,7 +492,7 @@ $\mathrm{tan}x=\frac{45}{25}$
 
 > *Use the inverse tan function on your calculator.*
 
-`table attributes columnalign right center left columnspacing 0px end attributes row x equals cell tan to the power of negative 1 end exponent open parentheses 45 over 25 close parentheses end cell row blank equals cell 60.9453... end cell end table`
+$\begin{array}{rcl} x = \tan ^{- 1} ( \frac{45}{25} ) \\ = 60.9453... \end{array}$
 
 **[1]**
 
@@ -552,7 +552,7 @@ $x=105$
 
 > *The angles *$x^{\circ}$* and 105° are co-interior angles between parallel lines so add to 180°.*
 
-`table row x equals cell 180 minus 105 end cell row blank equals 75 end table`
+$\begin{gathered} x = 180 - 105 \\ = 75 \end{gathered}$
 
 **[1]**
 
@@ -569,13 +569,13 @@ $x=105$
 
 ![ma-cie-igcse-2020-may-jun-p4-tz1-q7a](assets/047-ma-cie-igcse-2020-may-jun-p4-tz1-q7a.png)
 
-`open parentheses B C close parentheses squared equals 115 squared plus 80 squared minus 2 cross times 115 cross times 80 cross times cos space 72 degree`
+$( B C )^{2} = 115^{2} + 80^{2} - 2 \times 115 \times 80 \times \cos 72^{\circ}$
 
 **[1]**
 
 > *Avoid rounding before your final answer - store the exact value in your calculator's memory.*
 
-`open parentheses B C close parentheses squared equals 13 space 939.087 space...` 
+$( B C )^{2} = 13 939.087 ...$ 
 $BC=118.063911...$
 
 > *Final answer is to be shown to **one decimal place.*
@@ -600,7 +600,7 @@ $\mathrm{sin}ABC=\frac{115\mathrm{sin}72^{\circ}}{118.063...}$
 
 > *Use inverse sine (sin*<sup>*-1*</sup>*) to find angle **ABC**.*
 
-`table row cell A B C end cell equals cell sin to the power of negative 1 end exponent open parentheses fraction numerator 115 sin space 72 degree over denominator 118.063 space... end fraction close parentheses end cell row cell A B C end cell equals cell 67.876 space 670 space... end cell end table`
+$\begin{gathered} A B C & = \sin ^{- 1} ( \frac{115 \sin 72^{\circ}}{118.063 ...} ) \\ A B C & = 67.876 670 ... \end{gathered}$
 
 **Angle ****ABC**** = 67.9° (1 d.p.)*** ***[1]**
 > *Add the information to the diagram and mark the bearings required for both parts of the question.*
@@ -675,19 +675,19 @@ $285-230=55$
 
 > *Substitute **a** = 95, **b** = 180, **A** = **y** and **B** = 55 into the formula.*
 
-`fraction numerator sin open parentheses y close parentheses over denominator 95 end fraction equals fraction numerator sin open parentheses 55 close parentheses over denominator 180 end fraction`
+$\frac{\sin ( y )}{95} = \frac{\sin ( 55 )}{180}$
 
 **[1]**
 
 > *Multiply both sides by 95 and then find the angle by using the inverse sin function.*
 
-`table row cell sin open parentheses y close parentheses end cell equals cell fraction numerator sin open parentheses 55 close parentheses over denominator 180 end fraction cross times 95 end cell row y equals cell sin to the power of negative 1 end exponent open parentheses fraction numerator sin open parentheses 55 close parentheses over denominator 180 end fraction cross times 95 close parentheses end cell row y equals cell 25.615534... end cell end table`
+$\begin{gathered} \sin ( y ) & = \frac{\sin ( 55 )}{180} \times 95 \\ y = \sin ^{- 1} ( \frac{\sin ( 55 )}{180} \times 95 ) \\ y = 25.615534... \end{gathered}$
 
 **[1]**
 
 > *The interior angles of the triangle should add up to 180°. Use the answer button on your calculator to find the third angle.*
 
-`table row cell Angle space A C B end cell equals cell 180 minus 55 minus 25.615534... end cell row blank equals cell 99.384465... end cell end table`
+$\begin{gathered} \text{Angle} A C B & = 180 - 55 - 25.615534... \\ = 99.384465... \end{gathered}$
 
 > *You now have enough information to find the side **LN** using either the sine rule or the cosine rule.*
 
@@ -696,7 +696,7 @@ $285-230=55$
 > *The formula for the sine rule is *$\frac{a}{\mathrm{sin}A}=\frac{b}{\mathrm{sin}B}$*, where **a** and **b** are the lengths of the two sides that are opposite the angles **A **and **B **respectively. *
 *Substitute **a** = **x**, **b** = 180, **A** = 99.384465... (using the answer button) and **B** = 55 into the formula.*
 
-`table row cell fraction numerator x over denominator sin open parentheses 99.384465... close parentheses end fraction end cell equals cell fraction numerator 180 over denominator sin open parentheses 55 close parentheses end fraction end cell row x equals cell fraction numerator 180 over denominator sin open parentheses 55 close parentheses end fraction cross times sin open parentheses 99.384465... close parentheses end cell row x equals cell 216.798523... end cell end table`
+$\begin{gathered} \frac{x}{\sin ( 99.384465... )} & = \frac{180}{\sin ( 55 )} \\ x = \frac{180}{\sin ( 55 )} \times \sin ( 99.384465... ) \\ x = 216.798523... \end{gathered}$
 
 **[1]**
 
@@ -709,9 +709,9 @@ $217\mathrm{km}(3\mathrm{sf})$** [1]**
 > *The formula for the cosine rule is *$a^{2}=b^{2}+c^{2}-2bc\mathrm{cos}A$*, where **b** and **c** are the lengths of the two sides that form angle **A** and **a** is the length of the side opposite **A**. *
 *Substitute **a** = **x**, **b** = 95, **c** = 180 and **A** = 99.384465... (using the answer button) into the formula.*
 
-`x squared equals 95 squared plus 180 squared minus 2 open parentheses 95 close parentheses open parentheses 180 close parentheses cos open parentheses 99.384465... close parentheses
-x equals square root of 95 squared plus 180 squared minus 2 open parentheses 95 close parentheses open parentheses 180 close parentheses cos open parentheses 99.384465... close parentheses end root
-x equals 216.798523...`
+$x^{2} = 95^{2} + 180^{2} - 2 ( 95 ) ( 180 ) \cos ( 99.384465... )
+x = \sqrt{95^{2} + 180^{2} - 2 ( 95 ) ( 180 ) \cos ( 99.384465... )} 
+x = 216.798523...$
 
 **[1]**
 

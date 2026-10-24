@@ -46,7 +46,7 @@ Show that $P$ lies on $OB$ extended.
 
 **Q2** [2 marks]
 
-Find the magnitude of the vector `open parentheses table row cell negative 1 end cell row 7 end table close parentheses`.
+Find the magnitude of the vector $( \begin{gathered} - 1 \\ 7 \end{gathered} )$.
 
 *Source: 2018	Feb/Mar 0580/42 Q9A*
 
@@ -55,8 +55,8 @@ Find the magnitude of the vector `open parentheses table row cell negative 1 end
 
 **Q3** [2 marks]
 
-`stack V W with rightwards arrow on top equals open parentheses table row 10 row cell negative 24 end cell end table close parentheses` 
-Find  `open vertical bar stack V W with rightwards arrow on top close vertical bar.`
+$\vec{VW} = ( \begin{gathered} 10 \\ - 24 \end{gathered} )$ 
+Find  $\left| \vec{VW} \right| .$
 
 *Source: 2020	May/June 0580/21 Q17A*
 
@@ -118,13 +118,13 @@ Give your answer in its simplest form.
 
 **Q5** [4 marks]
 
-`bold p equals open parentheses table row 4 row 5 end table close parentheses`       `bold q equals open parentheses table row cell negative 2 end cell row 7 end table close parentheses`
+$p = ( \begin{gathered} 4 \\ 5 \end{gathered} )$       $q = ( \begin{gathered} - 2 \\ 7 \end{gathered} )$
 
 i) Find $2p+q.$
 
-`open parentheses table row cell space space space space space end cell row blank end table close parentheses` [2]
+$( \begin{gathered} \\ \end{gathered} )$ [2]
 
-ii) Find `open vertical bar bold p close vertical bar`.
+ii) Find $\left| p \right|$.
 
 [2]
 
@@ -287,13 +287,13 @@ What does your answer to part (b) tell you about the position of point $S$?
 
 **Q11** [4 marks]
 
-`bold a equals open parentheses table row cell negative 3 end cell row 2 end table close parentheses space space space space space space space bold b equals open parentheses table row 5 row 4 end table close parentheses space space space space space space space bold c equals open parentheses table row 14 row 9 end table close parentheses`
+$a = ( \begin{gathered} - 3 \\ 2 \end{gathered} ) b = ( \begin{gathered} 5 \\ 4 \end{gathered} ) c = ( \begin{gathered} 14 \\ 9 \end{gathered} )$
 
 i) Find  $3a-2b$ .
 
-`open parentheses table row cell space space space space space end cell row cell space space space space space end cell end table close parentheses` [2]
+$( \begin{gathered} \\ \end{gathered} )$ [2]
 
-ii) Find  `vertical line space bold a bold space vertical line`.
+ii) Find  $\vert a \vert$.
 
 [2]
 
@@ -326,11 +326,11 @@ Give your answer in its simplest form.
 
 i) Find the column vector $\overset{\rightarrow}{AB}$.
 
-`stack A B with rightwards arrow on top equals open parentheses table row cell space space space space end cell row cell space space space space space space end cell end table close parentheses` [1]
+$\vec{AB} = ( \begin{gathered} \\ \end{gathered} )$ [1]
 
-ii) Find  `vertical line stack A B with rightwards arrow on top vertical line`.
+ii) Find  $\vert \vec{AB} \vert$.
 
-`vertical line stack A B with rightwards arrow on top vertical line equals`................................................. [2]
+$\vert \vec{AB} \vert =$................................................. [2]
 
 *Source: 2018	Oct/Nov 0580/43 Q1B*
 
@@ -339,7 +339,7 @@ ii) Find  `vertical line stack A B with rightwards arrow on top vertical line`.
 
 **Q14** [5 marks]
 
-`bold a equals open parentheses table row cell negative 3 end cell row 2 end table close parentheses space space space space space space space bold b equals open parentheses table row 5 row 4 end table close parentheses space space space space space space space bold c equals open parentheses table row 14 row 9 end table close parentheses`
+$a = ( \begin{gathered} - 3 \\ 2 \end{gathered} ) b = ( \begin{gathered} 5 \\ 4 \end{gathered} ) c = ( \begin{gathered} 14 \\ 9 \end{gathered} )$
 
 $ma+nb=\text{c}$
 
@@ -355,17 +355,17 @@ $m$ = ................................................
 
 **Q15** [5 marks]
 
-`stack O A with rightwards arrow on top equals open parentheses table row 4 row 3 end table close parentheses`      `stack A B with rightwards arrow on top equals open parentheses table row 8 row cell negative 7 end cell end table close parentheses`      `stack A C with rightwards arrow on top equals open parentheses table row cell negative 3 end cell row 6 end table close parentheses`
+$\vec{OA} = ( \begin{gathered} 4 \\ 3 \end{gathered} )$      $\vec{AB} = ( \begin{gathered} 8 \\ - 7 \end{gathered} )$      $\vec{AC} = ( \begin{gathered} - 3 \\ 6 \end{gathered} )$
 
 Find
 
-i) `open vertical bar stack O B with rightwards arrow on top close vertical bar`,
+i) $\left| \vec{OB} \right|$,
 
-`open vertical bar stack O B with rightwards arrow on top close vertical bar equals`............................................... [3]
+$\left| \vec{OB} \right| =$............................................... [3]
 
 ii) $\overset{\rightarrow}{BC}$.
 
-$\overset{\rightarrow}{BC}=$`open parentheses table row blank row blank end table space space space close parentheses` [2]
+$\overset{\rightarrow}{BC}=$$( \begin{gathered} \\ \end{gathered} )$ [2]
 
 *Source: 2018	May/June 0580/41 Q11A*
 
@@ -374,26 +374,26 @@ $\overset{\rightarrow}{BC}=$`open parentheses table row blank row blank end tabl
 
 **Q16** [6 marks]
 
-`stack A B with rightwards arrow on top space equals space open parentheses 6
-minus 1 close parentheses`               `stack B C with rightwards arrow on top space equals space open parentheses negative 2
-5 close parentheses`                `stack D C with rightwards arrow on top space equals space open parentheses 2
-minus 3 close parentheses`
+$\vec{AB} = ( 6
+- 1 )$               $\vec{BC} = ( - 2
+5 )$                $\vec{DC} = ( 2
+- 3 )$
 
 Find
 
 i) $\overset{\rightarrow}{AC}$,
 
-`stack A C with rightwards arrow on top space equals space open parentheses
-space space space
-space space space space space space space close parentheses`  [2]
+$\vec{AC} = (
+ 
+ )$  [2]
 
 ii) $\overset{\rightarrow}{BD}$,
 
-`stack B D with rightwards arrow on top space equals space open parentheses
-space space space
-space space space space space space space close parentheses`  [2]
+$\vec{BD} = (
+ 
+ )$  [2]
 
-iii) `open vertical bar stack B C with rightwards arrow on top close vertical bar`.
+iii) $\left| \vec{BC} \right|$.
 
 [2]
 

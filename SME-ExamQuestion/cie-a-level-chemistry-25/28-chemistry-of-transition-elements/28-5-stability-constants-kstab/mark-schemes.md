@@ -274,7 +274,7 @@ The completed order of stability is:
 > **[mark-scheme]**
 > The stability constant expression for the formation of [Cu(NH<sub>3</sub>)<sub>4</sub>(H<sub>2</sub>O)<sub>2</sub>]<sup>2+</sup> is:
 > 
-> - *K*<sub>stab</sub> = `fraction numerator left square bracket left square bracket Cu left parenthesis NH subscript 3 right parenthesis subscript 4 left parenthesis straight H subscript 2 straight O right parenthesis subscript 2 right square bracket to the power of 2 plus end exponent right square bracket over denominator left square bracket left square bracket Cu left parenthesis straight H subscript 2 straight O right parenthesis subscript 6 right square bracket to the power of 2 plus end exponent right square bracket space left square bracket NH subscript 3 right square bracket to the power of 4 end fraction` **[1 mark]**
+> - *K*<sub>stab</sub> = `(left square bracket left square bracket Cu ( NH _ 3 ) _ 4 ( H _ 2 O ) _ 2 right square bracket ^ 2 + right square bracket)/(left square bracket left square bracket Cu ( H _ 2 O ) _ 6 right square bracket ^ 2 + right square bracket left square bracket NH _ 3 right square bracket ^ 4)` **[1 mark]**
 > 
 > Water is not included in the *K*<sub>stab</sub> expression as it is the solvent / present in large excess
 

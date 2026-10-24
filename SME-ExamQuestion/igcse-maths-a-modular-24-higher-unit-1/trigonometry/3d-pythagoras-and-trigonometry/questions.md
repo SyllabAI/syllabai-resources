@@ -122,7 +122,7 @@ The diagram shows a prism $ABCDEFGH$ with a horizontal base.
 
 The base of the prism, $EFGH$, is a square of side $12\mathrm{cm}.$ Trapezium $ADEF$ is a cross section of the prism where $AF$ and $DE$ are vertical edges.
 
-`table row cell D E space end cell equals cell space C H space equals space 10 space cm space end cell row cell A D space end cell equals cell space B C space equals space 15 cm end cell end table`
+$\begin{gathered} D E & = C H = 10 \text{cm} \\ A D & = B C = 15 \text{cm} \end{gathered}$
 
 Work out the size of the angle between $CF$ and the base $EFGH.$ 
 Give your answer correct to one decimal place.
@@ -243,7 +243,7 @@ One diagonal is shown.
 
 Circle the length, in centimetres, of the diagonal.
 
-| $\sqrt{3}x$ | `cube root of 3 x squared end root` | $\sqrt{x^{3}}$ | `cube root of 3 x` |
+| $\sqrt{3}x$ | $\sqrt[3]{3 x^{2}}$ | $\sqrt{x^{3}}$ | $\sqrt[3]{3} x$ |
 |---|---|---|---|
 
 ## Q16 — very_hard — 5 marks · exam-questions

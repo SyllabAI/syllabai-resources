@@ -51,9 +51,9 @@ guided_study: false
 > 
 > **Step 1: Substitute the values into the formula**
 > 
-> `equals space fraction numerator $ 200 comma 000 over denominator $ 30 comma 000 end fraction space space
+> $= \frac{\$ 200 , 000}{\$ 30 , 000} 
 > 
-> equals space space space 6.67 space years space space` **(1)**
+> = 6.67 \text{years}$ **(1)**
 > 
 > **Step 2: Convert the outcome to years and months**
 > 
@@ -76,7 +76,7 @@ guided_study: false
 
   - This makes it easy to **compare different investment options**
 
-`ARR space equals space fraction numerator open parentheses Total space returns space minus space Capital space cost close parentheses space divided by space Years space of space use over denominator Capital space cost end fraction space space space cross times space space 100 space space space space space space`
+$ARR = \frac{ ( Total \text{returns} - Capital \text{cost} ) \div Years of use}{Capital cost} \times 100$
 
 > **Worked Example**
 > Creative Frames, a small artwork framing business based in Bermuda, is considering an investment of \$40,000 in new machinery. Megan, the business owner, believes that total returns over a 6-year period will be \$76,000
@@ -87,15 +87,13 @@ guided_study: false
 > 
 > **Step 1 - Deduct the capital cost from the total returns**
 > 
-> `equals space $ 76 comma 000 space minus space $ 40 comma 000 space space space
+> $= \$ 76 , 000 - \$ 40 , 000 
 > 
-> equals space space space $ 36 comma 000 space`       **(1)**
+> = \$ 36 , 000$       **(1)**
 > 
 > **Step 2 - Divide the outcome by the number of years of use**
 > 
-> `equals space $ 36 comma 000 space divided by space 6 space years
-> 
-> equals space space space space space space $ 6 comma 000`           **(1)**
+> `= $ 36 , 000 / 6 years > > = $ 6 , 000`           **(1)**
 > ** **
 > 
 > **Step 3 - Substitute the values into the formula**
@@ -104,9 +102,9 @@ guided_study: false
 > 
 > **Step 4 - Multiply the outcome by 100 to find the percentage**
 > 
-> ** **`equals space 0.15 space cross times space 100 space
+> ** **$= 0.15 \times 100 
 > 
-> equals space 15 percent sign`         **(1)**
+> = 15 \%$         **(1)**
 
 #### Evaluating the use of average rate of return
 
@@ -169,9 +167,9 @@ guided_study: false
 > 
 > **Step 2: Add together the discounted cash flow values for each year, including Year 0   **
 > 
-> `open parentheses £ 325 comma 000 close parentheses space plus space £ 100 comma 100 space plus space £ 74 comma 400 space £ 56 comma 250 space plus space £ 44 comma 200 space plus space £ 37 comma 200
+> $( \pounds 325 , 000 ) + \pounds 100 , 100 + \pounds 74 , 400 \pounds 56 , 250 + \pounds 44 , 200 + \pounds 37 , 200
 > 
-> equals space left parenthesis £ 12 comma 550 right parenthesis`       **(1)**
+> = ( \pounds 12 , 550 )$       **(1)**
 > 
 > - The net present value of the investment is -£12,550
 
@@ -212,9 +210,7 @@ guided_study: false
 > 
 > **Net present value calculation**
 > 
-> `NPV space equals space $ 60 comma 000 space – space $ 50 comma 000 space
-> 
-> equals space $ 10 comma 000`
+> `NPV = $ 60 , 000 - $ 50 , 000 > > = $ 10 , 000`
 > 
 > **Business decision**
 > 

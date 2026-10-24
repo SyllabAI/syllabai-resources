@@ -29,7 +29,7 @@ guided_study: true
     - $y=mx+c$
   - The area of a trapezium
   
-    - `Area space equals space fraction numerator open parentheses a space plus space b close parentheses h over denominator 2 end fraction`
+    - $\text{Area} = \frac{( a + b ) h}{2}$
   - Pythagoras' theorem
   
     - $a^{2}+b^{2}=c^{2}$
@@ -66,8 +66,8 @@ guided_study: true
   
     - The following are acceptable **alternative** forms 
     $x=\frac{2y}{5}-\frac{6}{5}$
-    `x equals fraction numerator 2 open parentheses y minus 3 close parentheses over denominator 5 end fraction`
-    `x equals 0.4 open parentheses y minus 3 close parentheses`
+    $x = \frac{2 ( y - 3 )}{5}$
+    $x = 0.4 ( y - 3 )$
     $x=0.4y-1.2$
 
 ### Should I expand brackets?
@@ -81,8 +81,8 @@ guided_study: true
   - You can expand and then rearrange
   
     - $3+3x=y$
-    - `table row cell 3 x end cell equals cell y minus 3 end cell end table`
-    - `table row x equals cell fraction numerator y minus 3 over denominator 3 end fraction end cell end table`
+    - $\begin{gathered} 3 x & = y - 3 \end{gathered}$
+    - $\begin{gathered} x = \frac{y - 3}{3} \end{gathered}$
   - You can divide and then rearrange
   
     - $1+x=\frac{y}{3}$
@@ -94,7 +94,7 @@ guided_study: true
 > **Exam Hint**
 > Stop and think when you see a bracket. If the variable you are trying to make the subject is not inside the bracket, then you do not need to expand.
 > 
-> For example, to make $x$ the subject of `open parentheses 1 plus k close parentheses x equals y`, you can simply divide both sides by `open parentheses 1 plus k close parentheses` to get $x=\frac{y}{1+k}$.
+> For example, to make $x$ the subject of $( 1 + k ) x = y$, you can simply divide both sides by $( 1 + k )$ to get $x=\frac{y}{1+k}$.
 
 ### What if I get fractions in fractions?
 
@@ -116,12 +116,12 @@ guided_study: true
   - Though be careful, as $\frac{-a}{-b}$ is $\frac{a}{b}$
 - $-2x=y-3$ becomes $x=\frac{y-3}{-2}$ (minus** below**)
 
-  - This is the same as `x equals fraction numerator negative open parentheses y minus 3 close parentheses over denominator 2 end fraction` (minus **above**) or $-\frac{y-3}{2}$ (minus **outside**)
+  - This is the same as $x = \frac{- ( y - 3 )}{2}$ (minus **above**) or $-\frac{y-3}{2}$ (minus **outside**)
   
     - **brackets** are **required** for minus **above**
     - **brackets** are **assumed** for minus **outside**
   - You can also **expand** the brackets
-  `fraction numerator negative open parentheses y minus 3 close parentheses over denominator 2 end fraction equals fraction numerator negative y plus 3 over denominator 2 end fraction equals fraction numerator 3 minus y over denominator 2 end fraction`
+  $\frac{- ( y - 3 )}{2} = \frac{- y + 3}{2} = \frac{3 - y}{2}$
 
 > **Exam Hint**
 > - Mark schemes will accept different forms of the same answer, as long as they are correct and fully simplified.
@@ -153,13 +153,13 @@ guided_study: true
 > 
 > $x=\frac{2}{3t}$
 > 
-> (c) `A equals fraction numerator 9 open parentheses 1 minus 4 x close parentheses over denominator 2 g end fraction`
+> (c) $A = \frac{9 ( 1 - 4 x )}{2 g}$
 > 
 > **Answer:**
 > 
 > > *Remove fractions by multiplying both sides by the denominator, 2**g*
 > 
-> `2 g A equals 9 open parentheses 1 minus 4 x close parentheses`
+> $2 g A = 9 ( 1 - 4 x )$
 > 
 > > *x ** is inside the brackets*
 > *Expand the brackets to release the **x**  term*
@@ -173,8 +173,8 @@ guided_study: true
 > 
 > > *Now get **x**  on its own by subtracting 2**gA **then dividing by 36*
 > 
-> `table row cell 36 x end cell equals cell 9 minus 2 g A end cell row x equals cell fraction numerator 9 minus 2 g A over denominator 36 end fraction end cell end table`
+> $\begin{gathered} 36 x & = 9 - 2 g A \\ x = \frac{9 - 2 g A}{36} \end{gathered}$
 > 
 > $x=\frac{9-2gA}{36}$
 > 
-> **Final answer:** **Other accepted forms of the answer are: **`fraction numerator 2 g A minus 9 over denominator negative 36 end fraction space comma space space space fraction numerator negative open parentheses 2 g A minus 9 close parentheses over denominator 36 end fraction space comma space space space minus fraction numerator 2 g A minus 9 over denominator 36 end fraction space comma space space space 1 fourth minus fraction numerator g A over denominator 18 end fraction`
+> **Final answer:** **Other accepted forms of the answer are: **$\frac{2 g A - 9}{- 36} , \frac{- ( 2 g A - 9 )}{36} , - \frac{2 g A - 9}{36} , 1 \frac{1}{4} - \frac{g A}{18}$

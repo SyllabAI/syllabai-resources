@@ -28,23 +28,23 @@ $v=\frac{18}{2.0}=9.0\text{m/s}$
 
 $\mathrm{momentum}=\mathrm{mass}\times\mathrm{velocity}$  or $p=mv$
 
-- The change in the momentum of the object `open parentheses increment p close parentheses` can be found using:
+- The change in the momentum of the object $( \Delta p )$ can be found using:
 
-`table row cell change space in space momentum space end cell equals cell space final space momentum space minus space initial space momentum end cell end table`  or  `table row cell increment p space end cell equals cell space p subscript final space minus space p subscript initial end cell end table`
+$\begin{array}{ccc} \text{change} in \text{momentum} & = & \text{final} \text{momentum} - \text{initial} \text{momentum} \end{array}$  or  $\begin{gathered} \Delta p & = p_{final} - p_{initial} \end{gathered}$
 
-`table row cell space p subscript initial space end subscript end cell equals cell space 1.2 space kg space cross times space 2.0 space straight m divided by straight s space equals space 2.4 space kg space straight m divided by straight s end cell end table`
+$\begin{gathered} p_{initial } & = 1.2 \text{kg} \times 2.0 \mathrm{m} \div \mathrm{s} = 2.4 \text{kg} \mathrm{m} \div \mathrm{s} \end{gathered}$
 
-`table row cell italic space p subscript final space end subscript end cell equals cell space 1.2 space kg space cross times space 5.0 space straight m divided by straight s space equals space 6.0 space kg space straight m divided by straight s end cell end table`
+$\begin{gathered} p_{final } & = 1.2 \text{kg} \times 5.0 \mathrm{m} \div \mathrm{s} = 6.0 \text{kg} \mathrm{m} \div \mathrm{s} \end{gathered}$
 
-`table row cell increment p space end cell equals cell space p subscript final space minus space p subscript initial space equals space 6.0 space minus space 2.4 space equals space 3.6 space kg space straight m divided by straight s end cell end table`
+$\begin{gathered} \Delta p & = p_{final} - p_{initial} = 6.0 - 2.4 = 3.6 \text{kg} \mathrm{m} \div \mathrm{s} \end{gathered}$
 
 - This allows the impulse equation to be used:
 
-`table row cell impulse space end cell equals cell space F increment t space equals space increment open parentheses m v close parentheses space equals space increment p space end cell end table`
+$\begin{gathered} \text{impulse} & = F \Delta t = \Delta ( m v ) = \Delta p \end{gathered}$
 
-`table row cell increment t space end cell equals cell space fraction numerator increment p over denominator F end fraction end cell end table`
+$\begin{gathered} \Delta t & = \frac{\Delta p}{F} \end{gathered}$
 
-`table row cell increment t space end cell equals cell space fraction numerator 3.6 space kg space straight m divided by straight s over denominator 4.0 space straight N end fraction space equals space 0.90 space straight s end cell end table`
+$\begin{gathered} \Delta t & = \frac{3.6 \text{kg} \mathrm{m} \div \mathrm{s} }{4.0 \mathrm{N} } = 0.90 \mathrm{s} \end{gathered}$
 
 Since the mass of the object does not change, the answer can be found more quickly by rearranging the impulse equation directly to $\Deltat=\frac{m\Deltav}{F}$ . The change in velocity $\Deltav$ is 3.0 m/s (5.0 m/s – 2.0 m/s). If you are confident in manipulating equations, use this method.
 
@@ -67,11 +67,11 @@ total momentum before=total momentum after
 
 - The total momentum before the collision is:
 
-`p subscript b e f o r e end subscript space equals space open parentheses 0.16 space cross times space 0.50 close parentheses space plus space open parentheses 0.10 space cross times space 0 close parentheses space equals space 0.08 space kg space straight m divided by straight s`
+$p_{b e f o r e} = ( 0.16 \times 0.50 ) + ( 0.10 \times 0 ) = 0.08 \text{kg} \mathrm{m} \div \mathrm{s}$
 
 - The total momentum after the collision is
 
-`p subscript a f t e r end subscript space equals space open parentheses 0.16 v close parentheses space plus space open parentheses 0.10 space cross times space 0.50 close parentheses space equals space 0.16 v space plus space 0.05 space kg space straight m divided by straight s`
+$p_{a f t e r} = ( 0.16 v ) + ( 0.10 \times 0.50 ) = 0.16 v + 0.05 \text{kg} \mathrm{m} \div \mathrm{s}$
 
 - Apply conservation of momentum and rearrange for the unknown velocity, v:
 
@@ -101,7 +101,7 @@ $m_{1}u_{1}+m_{2}u_{2}=m_{1}v_{1}+m_{2}v_{2}$
   - Here, forward is taken as the positive direction
   - Substitute in the known quantities and simplify
 
-`open parentheses 0.16 space cross times space 0.50 close parentheses space plus space open parentheses 0.10 space cross times space 0 close parentheses space equals space open parentheses 0.16 v subscript 1 close parentheses space plus space open parentheses 0.10 space plus space 0.50 close parentheses`
+$( 0.16 \times 0.50 ) + ( 0.10 \times 0 ) = ( 0.16 v_{1} ) + ( 0.10 + 0.50 )$
 
 $0.08=0.16v_{1}+0.05$
 
@@ -136,9 +136,9 @@ Therefore, the momentum of the object changes in **all three** situations
 
 $p=mv$
 
-`increment p space equals space m open parentheses v subscript f space minus space v subscript i close parentheses`
+$\Delta p = m ( v_{f} - v_{i} )$
 
-`increment p space equals space 0.12 open parentheses 5.0 space minus space 0 close parentheses`
+$\Delta p = 0.12 ( 5.0 - 0 )$
 
 $\Deltap=0.60\mathrm{kg}m/s$
 
@@ -209,7 +209,7 @@ There is a second equation for calculating impulse  $I=m(v-u)$, where *m *= mass
 
 - Impulse is equal to change in momentum
 
-  - Impulse = `increment p space equals space m increment v space equals space m open parentheses v space minus space u close parentheses`
+  - Impulse = $\Delta p = m \Delta v = m ( v - u )$
 - So the impulse on the passenger is:
 
   - Impulse = $90\mathrm{kg}\times12m/s=1080\mathrm{kg}m/s$
@@ -221,7 +221,7 @@ There is a second equation for calculating impulse  $I=m(v-u)$, where *m *= mass
 
 **B** is incorrect as this has calculated $90\times12\times0.2=216\approx220Ns$
 
-**D** is incorrect as this has calculated `90 cross times open parentheses 12 divided by 0.2 close parentheses space equals space 5400 space straight N space straight s`
+**D** is incorrect as this has calculated $90 \times ( 12 \div 0.2 ) = 5400 \mathrm{N} \mathrm{s}$
 
 ### Q14
 **Final answer:** **The correct answer is ****C**** because:**
@@ -241,7 +241,7 @@ There is a second equation for calculating impulse  $I=m(v-u)$, where *m *= mass
 - Impulse is given by $\mathrm{Ft}=\mathrm{mΔv}$
 - Rearranging gives $F=\frac{m\Deltav}{t}$
 - Convert 150g to kg: 150 x 10<sup>-3</sup> kg
-- `F space equals space fraction numerator 150 cross times 10 blank to the power of negative 3 end exponent space cross times space 220 over denominator 0.025 end fraction space equals space 1320 space straight N space equals space 1.3 space cross times 10 cubed space straight N space open parentheses 2 space straight s. straight f. close parentheses`
+- $F = \frac{150 \times 10^{- 3} \times 220}{0.025} = 1320 \mathrm{N} = 1.3 \times 10^{3} \mathrm{N} ( 2 \mathrm{s} . \mathrm{f} . )$
 
 **B** is incorrect as this is 150 x 10<sup>-3</sup> x 220, the time has not been considered.
 

@@ -100,7 +100,7 @@ ii)*The cube of a number is that number raised to the power of 3.*
 
 > *e.g.  The second cube number is *$2^{3}=2\times2\times2=8$*. You can easily work out cube numbers (if you've not remembered them).*
 
-`table attributes columnalign right center left columnspacing 0px end attributes row cell 1 cubed end cell equals 1 row cell 2 cubed end cell equals 8 row cell 3 cubed end cell equals 27 end table`
+$\begin{array}{rcl} 1^{3} & = 1 \\ 2^{3} & = 8 \\ 3^{3} & = 27 \end{array}$
 
 > *No number on the list is bigger than 27 so we can stop.*
 

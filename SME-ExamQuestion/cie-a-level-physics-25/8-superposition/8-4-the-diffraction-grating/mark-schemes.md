@@ -49,14 +49,14 @@ $θ_{3}-θ_{2}=53^{\circ}-32^{\circ}=21^{\circ}$
   - $dsinθ=nλ$
 - When *n* = 2 for the second-order maxima
 
-  - `d space s i n open parentheses 18 close parentheses space equals space 2 lambda`
-  - `lambda over d space equals space fraction numerator s i n open parentheses 18 close parentheses over denominator 2 end fraction space equals space 0.1545`
+  - $d s i n ( 18 ) = 2 \\lambda$
+  - $\frac{ \lambda }{d} = \frac{s i n ( 18 ) }{2} = 0.1545$
 - $\frac{λ}{d}$ remains constant for all of the maximas
 - When *n* = 3 for the third-order maxima
 
   - $dsinθ=3λ$
   - $sinθ=3\frac{λ}{d}=3\times0.1545$
-  - `theta space equals space s i n to the power of negative 1 end exponent space open parentheses 3 space cross times space 0.1545 close parentheses space equals space 27.6 degree`(3 s.f)
+  - $\\theta = s i n^{- 1} ( 3 \times 0.1545 ) = 27.6^{\circ}$(3 s.f)
 - This is the angle between the central and third-order maxima
 - The angle between the two third-order maximas is
 
@@ -85,16 +85,16 @@ $θ_{3}-θ_{2}=53^{\circ}-32^{\circ}=21^{\circ}$
 
   - *d* sin *θ* = λ
   - sin *θ = *$\frac{λ}{d}$
-  - *θ = *sin<sup>−1</sup>`open parentheses lambda over d close parentheses`
+  - *θ = *sin<sup>−1</sup>$( \frac{ \lambda }{d} )$
 - If $\frac{d}{λ}=4$
 
   - $\frac{λ}{d}=\frac{1}{4}$
-  - *θ = *sin<sup>−1 </sup>`open parentheses 1 fourth close parentheses`
+  - *θ = *sin<sup>−1 </sup>$( 1 \frac{1}{4} )$
   - *θ = *14.5*° *(3 s.f)
 - If $\frac{d}{λ}=5$
 
   - $\frac{λ}{d}=\frac{1}{5}$
-  - *θ = *sin<sup>−1 </sup>`open parentheses 1 fifth close parentheses`
+  - *θ = *sin<sup>−1 </sup>$( 1 \frac{1}{5} )$
   - *θ = *11.5*° *(3 s.f)
 - Therefore the range for the angle between the central and first-order maxima is
 
@@ -110,9 +110,9 @@ $θ_{3}-θ_{2}=53^{\circ}-32^{\circ}=21^{\circ}$
 - For *n *= 1
 
   - $sinβ=\frac{λ}{d}$
-  - So, `beta equals s i n to the power of negative 1 end exponent open parentheses lambda over d close parentheses`
+  - So, $\beta = s i n^{ - } 1 ( \frac{ \lambda }{d} )$
 - From the diagram, $2β=α$
-- Therefore, `2 beta equals alpha equals 2 space s i n to the power of negative 1 end exponent open parentheses lambda over d close parentheses`
+- Therefore, $2 \beta = \alpha = 2 s i n^{ - } 1 ( \frac{ \lambda }{d} )$
 
 ### Q5
 **Final answer:** **The correct answer is ****A**** because:**
@@ -127,7 +127,7 @@ $θ_{3}-θ_{2}=53^{\circ}-32^{\circ}=21^{\circ}$
   - *θ* is the angle between the light and the horizontal =$\frac{60^{^{\circ}}}{2}=30^{\circ}$
 - Rearranging for wavelength λ
 
-  - `lambda equals fraction numerator d space s i n space theta over denominator n end fraction equals 1.15 cross times 10 to the power of negative 6 end exponent open parentheses s i n space 30 close parentheses equals 5.75 cross times 10 to the power of negative 7 end exponent space straight m`
+  - $\\lambda = \frac{d s i n \\theta }{n} = 1.15 \times 10^{- 6} ( s i n 30 ) = 5.75 \times 10^{- 7} \mathrm{m}$
 - Therefore, the wavelength of the light is 575 nm
 
 ### Q6
@@ -148,7 +148,7 @@ $θ_{3}-θ_{2}=53^{\circ}-32^{\circ}=21^{\circ}$
 
   - $\frac{λ}{d}=sinθ_{1}=\frac{1}{2}sinθ_{2}=0.2656$
   - $sinθ_{2}=2\times0.2656=0.5311$
-  - `theta subscript 2 equals sin to the power of negative 1 end exponent open parentheses 0.5311 close parentheses equals 32.08 to the power of degree`
+  - $theta_{2} = \text{sin} ^{ - } 1 ( 0.5311 ) = 32.08^{ ^{\circ} }$
 - Therefore, the angle between the first order and second order maxima is:
 
   - $θ_{2}-θ_{1}=32.1^{\circ}-15.4^{\circ}=16.7^{\circ}$
@@ -165,15 +165,15 @@ $θ_{3}-θ_{2}=53^{\circ}-32^{\circ}=21^{\circ}$
 
   - $dsinθ_{1}=nλ$
   - $sinθ_{1}=\frac{λ}{d}=\frac{600\times10^{-9}}{2.00\times10^{-6}}=0.30$
-  - So, `theta subscript 1 equals s i n to the power of negative 1 end exponent open parentheses 0.30 close parentheses equals 17.45 degree`
+  - So, $\theta_{1} = s i n^{- 1} ( 0.30 ) = 17.45^{\circ}$
 - For *n* = 2
 
   - $dsinθ_{2}=2λ$
   - $sinθ_{2}=\frac{2λ}{d}=2\times0.30=0.60$
-  - So,`theta subscript 2 equals s i n to the power of negative 1 end exponent open parentheses 0.60 close parentheses equals 36.87 degree`
+  - So,$\theta_{2} = s i n^{- 1} ( 0.60 ) = 36.87^{\circ}$
 - Angular separation is equal to (*θ*<sub>*2*</sub> – *θ*<sub>*1*</sub>), so:
 
-  - `open parentheses theta subscript 2 minus theta subscript 1 close parentheses equals 36.87 degree minus 17.45 degree equals 19.42 degree`
+  - $( \theta_{2} - \theta_{1} ) = 36.87^{\circ} - 17.45^{\circ} = 19.42^{\circ}$
 - Therefore, the angular separation is equal to 19.4°
 
 ### Q8
@@ -266,7 +266,7 @@ It is important to be confident in how the terms of the diffraction equation (*d
 - Rearrange the diffraction equation to make *n *the subject:
 
   - $dsinθ=nλ$
-  - `n equals fraction numerator d space s i n space theta over denominator lambda end fraction equals fraction numerator open parentheses 3.33 cross times 10 to the power of negative 6 end exponent close parentheses s i n space 90 degree over denominator 690 cross times 10 to the power of negative 9 end exponent end fraction equals 4.8`
+  - $n = \frac{d s i n \\theta }{\\lambda } = \frac{( 3.33 \times 10^{- 6} ) s i n 90^{\circ}}{690 \times 10^{- 9} } = 4.8$
 - This means, the 4th bright fringe can be observed but not the 5th bright fringe
 
   - Since 4.8 < 5
@@ -289,7 +289,7 @@ It is important to be confident in how the terms of the diffraction equation (*d
 - Rearranging for *n *:
 
   - $dsinθ=nλ$
-  - `n equals fraction numerator d space s i n space theta over denominator lambda end fraction equals fraction numerator open parentheses 2.0 cross times 10 to the power of negative 6 end exponent close parentheses s i n space 90 degree over denominator 600 cross times 10 to the power of negative 9 end exponent end fraction equals 3.3`
+  - $n = \frac{d s i n \\theta }{\\lambda } = \frac{( 2.0 \times 10^{- 6} ) s i n 90^{\circ}}{600 \times 10^{- 9} } = 3.3$
 - This means, the 3rd image can be seen but not the 4th image since we cannot have 3.3 images, so, we can have up to 3 images on one side
 - We will also have 3 bright fringes on the other side and one central fringe
 
@@ -350,6 +350,6 @@ The diagram illustrates the difference between primary and secondary maxima.  It
 - Rearrange to obtain the highest order *n*
 
   - $\frac{\sqrt{2}}{6}=\frac{1}{n}$
-  - `n space equals space fraction numerator 1 over denominator open parentheses fraction numerator square root of 2 over denominator 6 end fraction close parentheses end fraction space equals space fraction numerator 6 over denominator square root of 2 end fraction`
+  - $n = \frac{1}{( \frac{ \sqrt{2} }{6} )} = \frac{6}{ \sqrt{2} }$
   - $n=4.2$
 - The order should be an integer, so the highest order is *n* = 4

@@ -31,7 +31,7 @@ guided_study: false
 
   - This can be found using Pythagoras' theorem
   
-    - For centres `open parentheses x subscript 1 comma space y subscript 1 close parentheses` and `open parentheses x subscript 2 comma space y subscript 2 close parentheses`, `d squared equals open parentheses x subscript 2 minus x subscript 1 close parentheses squared plus open parentheses y subscript 2 minus y subscript 1 close parentheses squared`
+    - For centres $( x_{1} , y_{1} )$ and $( x_{2} , y_{2} )$, $d^{2} = ( x_{2} - x_{1} )^{2} + ( y_{2} - y_{1} )^{2}$
 - The radii of the two circles, $r_{1}$ and $r_{2}$, where $r_{2}\geqr_{1}$ are also needed
 - If $r_{2}-r_{1}<d<r_{1}+r_{2}$ then the circles intersect **twice**
 
@@ -60,13 +60,13 @@ guided_study: false
 >   - You can then see if your final answers make sense with your sketch
 
 > **Worked Example**
-> a) Determine the number of intersections between the circles with equations $x^{2}+y^{2}=2$ and `open parentheses x minus 4 close parentheses squared plus y squared equals 10`.
+> a) Determine the number of intersections between the circles with equations $x^{2}+y^{2}=2$ and $( x - 4 )^{2} + y^{2} = 10$.
 > 
-> > $x^{2}+y^{2}=2$* has centre *`open parentheses 0 comma space 0 close parentheses`*and radius *$\sqrt{2}$*.*
+> > $x^{2}+y^{2}=2$* has centre *$( 0 , 0 )$*and radius *$\sqrt{2}$*.*
 > 
-> > `open parentheses x minus 4 close parentheses squared plus y squared equals 10`* has centre *`open parentheses 4 comma space 0 close parentheses`*and radius *$\sqrt{10}$*.*
+> > $( x - 4 )^{2} + y^{2} = 10$* has centre *$( 4 , 0 )$*and radius *$\sqrt{10}$*.*
 > 
-> `table attributes columnalign right center left columnspacing 0px end attributes row cell d squared end cell equals cell open parentheses 4 minus 0 close parentheses squared plus open parentheses 0 minus 0 close parentheses squared end cell row d equals 4 end table`
+> $\begin{array}{rcl} d^{2} & = ( 4 - 0 )^{2} + ( 0 - 0 )^{2} \\ d = 4 \end{array}$
 > 
 > > *Using a sketch may help you to 'see' that *$d=4$*.*
 > 
@@ -74,29 +74,29 @@ guided_study: false
 > 
 > > *Compare *$d$* with the sum and difference of *$r_{1}$* and *$r_{2}$*.*
 > 
-> `table row cell r subscript 1 plus r subscript 2 end cell equals cell 4.576 space... end cell row cell r subscript 2 minus r subscript 1 end cell equals cell 1.748 space... end cell end table`
+> $\begin{gathered} r_{1} + r_{2} & = 4.576 ... \\ r_{2} - r_{1} & = 1.748 ... \end{gathered}$
 > 
-> `table row cell therefore space r subscript 2 minus r subscript 1 end cell less than cell d less than r subscript 1 plus r subscript 2 end cell end table`
+> $\begin{gathered} \therefore r_{2} - r_{1} & < d < r_{1} + r_{2} \end{gathered}$
 > 
 > **Final answer:** **The circles intersect twice**
 > 
-> b) Determine the coordinates of any intersections between the circles with equations $x^{2}+y^{2}=2$ and `open parentheses x minus 4 close parentheses squared plus y squared equals 10`.
+> b) Determine the coordinates of any intersections between the circles with equations $x^{2}+y^{2}=2$ and $( x - 4 )^{2} + y^{2} = 10$.
 > 
 > > *STEP 1 - Rearrange both equations so zero is on one side*
 > 
-> `table row cell x squared plus y squared minus 2 end cell equals 0 row cell open parentheses x minus 4 close parentheses squared plus y squared minus 10 end cell equals 0 end table`
+> $\begin{gathered} x^{2} + y^{2} - 2 & = 0 \\ ( x - 4 )^{2} + y^{2} - 10 & = 0 \end{gathered}$
 > 
 > > *STEP 2 - Put the equations equal to each other*
 > 
-> `x squared plus y squared minus 2 equals open parentheses x minus 4 close parentheses squared plus y squared minus 10`
+> $x^{2} + y^{2} - 2 = ( x - 4 )^{2} + y^{2} - 10$
 > 
 > > *STEP 3 - Expand and rearrange until in linear form*
 > 
-> `table row cell x squared plus 8 end cell equals cell x squared minus 8 x plus 16 end cell row cell 8 x minus 8 end cell equals 0 row x equals 1 end table`
+> $\begin{gathered} x^{2} + 8 & = x^{2} - 8 x + 16 \\ 8 x - 8 & = 0 \\ x = 1 \end{gathered}$
 > 
 > > *STEP 4 - Substitute into either circle equation*
 > 
-> `table row cell open parentheses 1 close parentheses squared plus y squared end cell equals 2 row cell y squared end cell equals 1 row y equals cell 1 comma space y equals negative 1 end cell end table`
+> $\begin{gathered} ( 1 )^{2} + y^{2} & = 2 \\ y^{2} & = 1 \\ y = 1 , y = - 1 \end{gathered}$
 > 
 > > *STEP 5 - Not required in this case*
 > 
@@ -132,13 +132,13 @@ guided_study: false
   - If the points of **intersection** are known
   
     - Use the method of finding the **equation** of a **straight line** from **two known points**
-    - If the intersection points are `open parentheses x subscript 1 comma space y subscript 1 close parentheses` and `open parentheses x subscript 2 comma space y subscript 2 close parentheses` then the equation of the common chord would be
+    - If the intersection points are $( x_{1} , y_{1} )$ and $( x_{2} , y_{2} )$ then the equation of the common chord would be
     
-      - `y minus y subscript 1 equals fraction numerator y subscript 2 minus y subscript 1 over denominator x subscript 2 minus x subscript 1 end fraction open parentheses x minus x subscript 1 close parentheses`
+      - $y - y_{1} = \frac{y_{2} - y_{1} }{x_{2} - x_{1} } ( x - x_{1} )$
       - $\frac{y_{2}-y_{1}}{x_{2}-x_{1}}$ is the gradient and it can be easier to work this out first, separately
 
 > **Worked Example**
-> Two circles intersect at the points with coordinates `open parentheses 3 comma space minus 1 close parentheses` and `open parentheses 8 comma space 4 close parentheses`.
+> Two circles intersect at the points with coordinates $( 3 , - 1 )$ and $( 8 , 4 )$.
 > 
 > Find the equation of the common chord of the two circles.
 > 
@@ -146,10 +146,10 @@ guided_study: false
 > 
 > > *First find the gradient,*
 > 
-> `m equals fraction numerator y subscript 2 minus y subscript 1 over denominator x subscript 2 minus x subscript 1 end fraction equals fraction numerator 4 minus open parentheses negative 1 close parentheses over denominator 8 minus 3 end fraction equals 5 over 5 equals 1`
+> $m = \frac{y_{2} - y_{1} }{x_{2} - x_{1} } = \frac{4 - ( - 1 )}{8 - 3} = \frac{5}{5} = 1$
 > 
-> > *Apply *`y minus y subscript 1 equals m open parentheses x minus x subscript 1 close parentheses`* to get the equation of the common chord.*
+> > *Apply *$y - y_{1} = m ( x - x_{1} )$* to get the equation of the common chord.*
 > 
-> `table attributes columnalign right center left columnspacing 0px end attributes row cell y minus open parentheses negative 1 close parentheses end cell equals cell 1 open parentheses x minus 3 close parentheses end cell row cell y plus 1 end cell equals cell x minus 3 end cell end table`
+> $\begin{array}{rcl} y - ( - 1 ) & = 1 ( x - 3 ) \\ y + 1 & = x - 3 \end{array}$
 > 
 > **Final answer:** **The equation of the common chord is**** **$y=x-4$

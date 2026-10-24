@@ -142,7 +142,7 @@ A hotel manager recorded the number of towels that went missing at the end of ea
 
 Find the mean and the standard deviation for the number of towels missing at the end of each day. 
 You may use the summary statistics $n=11$,  $\sumx=40$, $\sumx^{2}=190$ with the formulae $\overline{x}=\frac{\sumx}{n}$ and
-  `sigma equals space square root of fraction numerator sum x squared over denominator n end fraction minus open parentheses x with bar on top close parentheses squared end root`.
+  $\\sigma = \sqrt{ \frac{sum x^{2}}{n} - ( \bar{x} )^{2}}$.
 
 ### 2() — 2 marks — structured
 An outlier is defined as any data value lying outside of 2 standard deviations of the mean. Find any outliers in the data.
@@ -465,7 +465,7 @@ Find the value of this measure of skewness for the number of customers the café
 ## Q23 — medium — 4 marks · exam-questions
 
 ### 1() — 2 marks — structured
-David buys and sells small antique items as a hobby, aiming to make a few hundred pounds profit each month.  Over the last two years David has kept a record of how much profit he has made each month `left parenthesis £ X right parenthesis` and wants to analyse the figures by calculating his mean monthly profit – and, to account for the variation in the antiques market – the standard deviation of his monthly profit.
+David buys and sells small antique items as a hobby, aiming to make a few hundred pounds profit each month.  Over the last two years David has kept a record of how much profit he has made each month $( \pounds X )$ and wants to analyse the figures by calculating his mean monthly profit – and, to account for the variation in the antiques market – the standard deviation of his monthly profit.
 
 David codes the data using the relationship $Y=0.1X-50$. For one of the months, the $Y$ value is $-6$. Work out the profit David made in this month.
 
@@ -853,7 +853,7 @@ The data can be summarised by $\sum(m-a)=90$ and  $\sum(m-a)^{2}=2182818$, where
 Given that the mean mass of the 30 cars, $\overline{m}=1423$ kg, find the value of the constant  and the standard deviation of the masses of the 30 cars.
 
 ### 2() — 3 marks — structured
-Given that an outlier is defined as any value $m$ satisfying `vertical line m minus m with bar on top vertical line greater than 2 sigma` find the lowest and highest masses (to the nearest whole kilogram) that are not considered outliers.
+Given that an outlier is defined as any value $m$ satisfying $\vert m - \bar{m} \vert > 2 \\sigma$ find the lowest and highest masses (to the nearest whole kilogram) that are not considered outliers.
 
 ## Q42 — very_hard — 7 marks · exam-questions
 

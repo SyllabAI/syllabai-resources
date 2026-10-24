@@ -25,7 +25,7 @@
 
   - $\frac{I_{1}}{I_{2}}=\frac{A_{1}^{2}}{A_{2}^{2}}$
   - $\frac{1.6\times10^{-6}}{I_{2}}=\frac{4}{9}$
-  - `I subscript 2 equals 9 over 4 cross times open parentheses 1.6 cross times 10 to the power of negative 6 end exponent close parentheses equals 3.6 cross times 10 to the power of negative 6 end exponent`
+  - $I_{2} = \frac{9}{4} \times ( 1.6 \times 10^{- 6} ) = 3.6 \times 10^{- 6}$
 - Therefore, the intensity of wave 2 is 3.6 × 10<sup>–6</sup> W m<sup>–2</sup>
 
 ### Q2
@@ -54,7 +54,7 @@
 
   - $\frac{I_{B}}{I_{A}}=\frac{f_{B}^{2}}{f_{A}^{2}}$
   - Substitute the expression for frequency A in terms of frequency B
-  - `I subscript B over I subscript A equals space f subscript B squared over open parentheses 1 half f subscript B close parentheses squared space equals space 1 over open parentheses 1 half close parentheses squared space equals space 4`
+  - `I _ B / I _ A = f _ B ^2 / ( 1 half f _ B ) ^2 = 1 / ( 1 half ) ^2 = 4`
 - Rearranging this gives $I_{B}=4I_{A}$
 
 ### Q3

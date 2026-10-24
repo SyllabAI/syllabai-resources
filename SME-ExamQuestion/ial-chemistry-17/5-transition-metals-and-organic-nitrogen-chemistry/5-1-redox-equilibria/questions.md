@@ -31,7 +31,7 @@ Write the ionic equation for the reaction of the aqueous solution of **E** with 
 ### 18((a)) — 8 marks — command: multiple — structured — from paper June 2021 · WCH15/01
 This question is about manganese compounds. Some data are given below.
 
-|   | **Electrode reaction** | `bold italic E to the power of bold ⦵`**/ V** |
+|   | **Electrode reaction** | `E ^ ⦵`**/ V** |
 |---|---|---|
 | 1 | $\mathrm{MnO}_{4}^{-}+e^{-}$⇌ Mn$O_{4}^{2-}$ | +0.56 |
 | 2 | $\mathrm{MnO}_{4}^{2-}$ + 2H<sub>2</sub>O + 2e<sup>−</sup> ⇌ MnO<sub>2</sub> + 4OH<sup>−</sup> | +0.59 |
@@ -316,7 +316,7 @@ Which is the correct cell diagram to measure *E*<sup>θ</sup><sub>cell</sub> for
 ### 2((a)) — 1 mark — multiple_choice — from paper June 2021 · WCH15/01
 This question is about the reaction
 
-2Fe<sup>3+ </sup>(aq) + Ti (s) → 2Fe<sup>2+ </sup>(aq) + Ti<sup>2+ </sup>(aq)        `E subscript cell superscript ⦵ space equals space plus 2.40 straight V`
+2Fe<sup>3+ </sup>(aq) + Ti (s) → 2Fe<sup>2+ </sup>(aq) + Ti<sup>2+ </sup>(aq)        $E_{cell} ^{\circ} = + 2.40 \mathrm{V}$
 
 The electrode potential for the Fe<sup>3+</sup>/ Fe<sup>2+</sup> electrode system is +0.77 V.
 
@@ -421,11 +421,11 @@ Which of these is the correctly balanced half-equation for the reduction of MnO<
 ### 3((a)) — 1 mark — multiple_choice — from paper Jan 2022 · WCH15/01
 An electrochemical cell is made from the electrode systems shown by these half‐equations.
 
-Ag<sup>+ </sup>(aq) + e<sup>−</sup>       ⇌  Ag (s)      `E to the power of ⦵` = +0.80V
+Ag<sup>+ </sup>(aq) + e<sup>−</sup>       ⇌  Ag (s)      `E ^ ⦵` = +0.80V
 
-V$O_{2}^{+}$ (aq) + 2H<sup>+ </sup>(aq) + e<sup>−      </sup> ⇌  VO<sup>2+</sup> (aq) + H<sub>2</sub>O (l)   `E to the power of ⦵`= +1.00V
+V$O_{2}^{+}$ (aq) + 2H<sup>+ </sup>(aq) + e<sup>−      </sup> ⇌  VO<sup>2+</sup> (aq) + H<sub>2</sub>O (l)   `E ^ ⦵`= +1.00V
 
-The apparatus used to measure the value for `space E subscript cell space end subscript superscript ⦵` under standard conditions is shown.
+The apparatus used to measure the value for $E_{cell} ^{\circ}$ under standard conditions is shown.
 
 ![q3-paper-5-jan-2022-edexcel-ial-chemistry](assets/002-q3-paper-5-jan-2022-edexcel-ial-chemistry.png)
 
@@ -458,17 +458,17 @@ Which is the value of `E subscript cell superscript ⦵` in volts?
 
 ### 3((e)) — 1 mark — multiple_choice — from paper Jan 2022 · WCH15/01
 Which is the cell diagram for this cell, using the conventional representation of half‐cells?
-- **A.** Ag(s) | Ag<sup>+</sup>(aq) || [ `begin mathsize 16px style V O subscript 2 to the power of plus sign open parentheses aq close parentheses end style` + 2H<sup>+</sup>(aq)] | [VO<sup>2+</sup>(aq) + H<sub>2</sub>O(l)] | Pt(s)
-- **B.** Ag(s) | Ag<sup>+</sup>(aq) || [ `VO subscript 2 superscript plus open parentheses aq close parentheses` + 2H<sup>+</sup>(aq)] , [VO<sup>2+</sup>(aq) + H<sub>2</sub>O(l)] | Pt(s)
-- **C.** Ag(s) | Ag<sup>+</sup>(aq) || [ VO<sup>2+</sup>(aq)  + H<sub>2</sub>O(l)] | [`begin mathsize 16px style V O subscript 2 to the power of plus sign open parentheses aq close parentheses end style` + 2H<sup>+</sup>(aq)] | Pt(s)
-- **D.** Ag(s) | Ag<sup>+</sup>(aq) || [ VO<sup>2+</sup>(aq)  + H<sub>2</sub>O(l)] , [`begin mathsize 16px style V O subscript 2 to the power of plus sign open parentheses aq close parentheses end style` + 2H<sup>+</sup>(aq)] | Pt(s)
+- **A.** Ag(s) | Ag<sup>+</sup>(aq) || [ $V O_{2} ^{+} ( aq )$ + 2H<sup>+</sup>(aq)] | [VO<sup>2+</sup>(aq) + H<sub>2</sub>O(l)] | Pt(s)
+- **B.** Ag(s) | Ag<sup>+</sup>(aq) || [ $VO_{2}^{+} ( \text{aq} )$ + 2H<sup>+</sup>(aq)] , [VO<sup>2+</sup>(aq) + H<sub>2</sub>O(l)] | Pt(s)
+- **C.** Ag(s) | Ag<sup>+</sup>(aq) || [ VO<sup>2+</sup>(aq)  + H<sub>2</sub>O(l)] | [$V O_{2} ^{+} ( aq )$ + 2H<sup>+</sup>(aq)] | Pt(s)
+- **D.** Ag(s) | Ag<sup>+</sup>(aq) || [ VO<sup>2+</sup>(aq)  + H<sub>2</sub>O(l)] , [$V O_{2} ^{+} ( aq )$ + 2H<sup>+</sup>(aq)] | Pt(s)
 
 ## Q15 — hard — 1 marks · multiple-choice-questions
 
 ### 3() — 1 mark — multiple_choice — from paper Oct 2021 · WCH15/01
 Some standard electrode potentials are shown.
 
-| **Electrode system** | `E to the power of ⦵`** / V** |
+| **Electrode system** | `E ^ ⦵`** / V** |
 |---|---|
 | Bk<sup>3+</sup> + e<sup>–</sup> ⇌ Bk<sup>2+</sup> | –2.80 |
 | Cu<sup>2+</sup> + e<sup>–</sup> ⇌ Cu<sup>+</sup> | +0.15 |

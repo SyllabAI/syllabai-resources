@@ -235,7 +235,7 @@ State the equation for ***A***<sub>**r**</sub> in terms of the percentage abunda
 
 The equation for calculating relative atomic mass in terms of the percentage abundance and mass of isotopes A and B is:
 
-`fraction numerator left parenthesis percent sign space of space isotope space straight A space cross times space mass space of space isotope space straight A right parenthesis space plus space left parenthesis percent sign space of space isotope space straight B space cross times space mass space of space isotope space straight B right parenthesis over denominator 100 end fraction`
+$\frac{( \% of \text{isotope} \mathrm{A} \times \text{mass} of \text{isotope} \mathrm{A} ) + ( \% of \text{isotope} \mathrm{B} \times \text{mass} of \text{isotope} \mathrm{B} )}{100}$
 
 
 
@@ -275,14 +275,14 @@ In terms of isotopes, abundance is the amount of each isotope present in a sampl
 
 Which of the following are** isotopes**?
 
-`straight C presubscript 6 presuperscript 13`             `straight C presubscript 6 presuperscript 14`                 `straight N presubscript 7 presuperscript 14`
+`C _ 6 ^ 13`             `C _ 6 ^ 14`                 `N _ 7 ^ 14`
 
 
 **BACK**
 
-The isotopes are `straight C presubscript 6 presuperscript 13` and `straight C presubscript 6 presuperscript 14`.
+The isotopes are `C _ 6 ^ 13` and `C _ 6 ^ 14`.
 
-`straight N presubscript 7 presuperscript 14` is not an isotope because it is a different element (nitrogen not carbon).
+`N _ 7 ^ 14` is not an isotope because it is a different element (nitrogen not carbon).
 
 
 
@@ -349,6 +349,6 @@ Calculate the **relative atomic mass **of an element using this information abou
 
 The relative atomic mass of the element is:
 
-`fraction numerator open parentheses 71 cross times 39 close parentheses plus open parentheses 69 cross times 61 close parentheses over denominator 100 end fraction` =  69.8 or 70
+$\frac{( 71 \times 39 ) + ( 69 \times 61 )}{100}$ =  69.8 or 70
 
 

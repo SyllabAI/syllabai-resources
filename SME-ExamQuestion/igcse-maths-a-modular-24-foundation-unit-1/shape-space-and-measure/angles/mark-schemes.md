@@ -28,7 +28,7 @@ $BFC=BCF=63^{^{\circ}}$
 
 > *Calculate angle **CBF** using the fact that angles in a triangle add up to 180*<sup>*o*</sup>
 
-`table row cell 180 minus open parentheses 63 plus 63 close parentheses end cell equals cell 180 minus 126 end cell row blank equals cell 54 to the power of degree space end exponent end cell end table`
+$\begin{gathered} 180 - ( 63 + 63 ) & = 180 - 126 \\ = 54^{^{\circ} } \end{gathered}$
 
 *because interior angles of a triangle add up to 180°*
 
@@ -36,7 +36,7 @@ $BFC=BCF=63^{^{\circ}}$
 
 > *Calculate angle *$x$* using the fact that adjacent angles on a straight line add up to 180*<sup>*o*</sup>
 
-`table row cell 180 minus open parentheses 39 plus 54 close parentheses end cell equals cell 180 minus 93 end cell row blank equals cell 87 degree end cell end table`
+$\begin{gathered} 180 - ( 39 + 54 ) & = 180 - 93 \\ = 87^{\circ} \end{gathered}$
 
 *because adjacent angles on a straight line add up to 180°*
 
@@ -122,7 +122,7 @@ $AEB=180-74=106^{\circ}$
 
 > *Base angles in an isosceles triangle are equal*
 
-`x space equals space open parentheses 180 space minus space 106 close parentheses space divided by space 2`
+$x = ( 180 - 106 ) \div 2$
 
 **[M1]**
 

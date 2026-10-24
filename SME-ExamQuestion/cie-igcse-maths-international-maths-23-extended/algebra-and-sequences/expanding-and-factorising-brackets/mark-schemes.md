@@ -8,18 +8,18 @@
 ### Q1
 > *Expand the first two sets of brackets by multiplying everything in the first by everything in the second*
 
-`open parentheses x squared minus x y plus 7 x y minus 7 y squared close parentheses open parentheses x minus 6 y close parentheses`
+$( x^{2} - x y + 7 x y - 7 y^{2} ) ( x - 6 y )$
 
 **[1]**
 
 > *Simplify by collecting like terms*
 
-`open parentheses x squared plus 6 x y minus 7 y squared close parentheses open parentheses x minus 6 y close parentheses`
+$( x^{2} + 6 x y - 7 y^{2} ) ( x - 6 y )$
 
 > *Expand the remaining brackets by multiplying everything in the first set of brackets by everything in the second*
 
-`x open parentheses x squared plus 6 x y minus 7 y squared close parentheses negative 6 y open parentheses x squared plus 6 x y minus 7 y squared close parentheses
-x cubed plus 6 x squared y minus 7 x y squared minus 6 x squared y minus 36 x y squared plus 42 y cubed`
+$x ( x^{2} + 6 x y - 7 y^{2} ) - 6 y ( x^{2} + 6 x y - 7 y^{2} )
+x^{3} + 6 x^{2} y - 7 x y^{2} - 6 x^{2} y - 36 x y^{2} + 42 y^{3}$
 
 **[1]**
 
@@ -32,7 +32,7 @@ $x^{3}-43xy^{2}+42y^{3}$
 ### Q2
 > *The only common factor in both terms is *$x$* so take out *$x$* from each term and put it in front of the brackets*
 
-`x open parentheses y plus 2 w close parentheses`
+$x ( y + 2 w )$
 
 **[1]**
 > *The first two terms *$2px$* and *$-x$* have a common factor of *$x$
@@ -40,18 +40,18 @@ $x^{3}-43xy^{2}+42y^{3}$
 
 > *Factorise the first two terms, using *$x$* as a common factor*
 
-`x open parentheses 2 p minus 1 close parentheses plus 14 p minus 7`* *
+$x ( 2 p - 1 ) + 14 p - 7$* *
 
 > *Factorise the next two terms, using *$7$* as a common factor *
 
-`x open parentheses 2 p minus 1 close parentheses plus 7 open parentheses 2 p minus 1 close parentheses`
+$x ( 2 p - 1 ) + 7 ( 2 p - 1 )$
 
 **[1]**
 
-> `open parentheses 2 p minus 1 close parentheses`* is a common bracket *
-*We can now factorise out the bracket *`open parentheses 2 p minus 1 close parentheses`
+> $( 2 p - 1 )$* is a common bracket *
+*We can now factorise out the bracket *$( 2 p - 1 )$
 
-`open parentheses 2 p minus 1 close parentheses open parentheses x plus 7 close parentheses`
+$( 2 p - 1 ) ( x + 7 )$
 
 **[1]**
 
@@ -70,18 +70,18 @@ $3x^{2}+15x-4x-20$
 
 *Factorise fully the first pair of terms and the second pair of terms *
 
-`3 x open parentheses x plus 5 close parentheses minus 4 open parentheses x plus 5 close parentheses`
+$3 x ( x + 5 ) - 4 ( x + 5 )$
 
 **or x(3x - 4) + 5(3x - 4) if terms written other way round**** [1] **
 
 *Factorise out the whole (x + 5) bracket as if it were one term, leaving 3**x** and -4 in their own bracket*
 
-`open parentheses x plus 5 close parentheses open parentheses 3 x minus 4 close parentheses`
+$( x + 5 ) ( 3 x - 4 )$
 
 $(x+5)(3x-4)$ **[1]**
 
 ### Q4
-> *Factorise **completely **means we must factorise using the highest common factor, e.g. *$5x^{3}+10x^{2}$* would factorise to *`5 x squared open parentheses x plus 2 close parentheses`* rather than just *`x open parentheses 5 x squared plus 10 x close parentheses`
+> *Factorise **completely **means we must factorise using the highest common factor, e.g. *$5x^{3}+10x^{2}$* would factorise to *$5 x^{2} ( x + 2 )$* rather than just *$x ( 5 x^{2} + 10 x )$
 
 i) *The highest common factor of these two terms is *$5q^{2}$
 
@@ -92,26 +92,26 @@ $5q^{2}(3p^{2}-5q)$ **[1]**
 
 ii) *The first two terms have a highest common factor of *$2g$*, so this can be factored out*
 
-`2 g open parentheses 2 f plus 3 h close parentheses space plus space 10 f k space plus space 15 h k`
+$2 g ( 2 f + 3 h ) + 10 f k + 15 h k$
 
 > *The second two terms have a highest common factor of *$5k$*, so this can be factored out*
 
-`2 g open parentheses 2 f plus 3 h close parentheses space plus space 5 k open parentheses 2 f plus 3 h close parentheses`
+$2 g ( 2 f + 3 h ) + 5 k ( 2 f + 3 h )$
 
 **[1]**
 
-> *These two terms have a common factor of *`open parentheses 2 f plus 3 h close parentheses`* so this can be factored out*
+> *These two terms have a common factor of *$( 2 f + 3 h )$* so this can be factored out*
 
 $(2f+3h)(2g+5k)$ **[1] **
 **It is worth expanding your answer to check**
 
 iii) *This is a "difference of two squares pattern" as it is in the form of "something squared" subtract "something else squared" *
 
-> *e.g. *`x squared minus 9 equals open parentheses x plus 3 close parentheses open parentheses x minus 3 close parentheses`* or *`open parentheses a squared minus b squared close parentheses equals open parentheses a plus b close parentheses open parentheses a minus b close parentheses`
+> *e.g. *$x^{2} - 9 = ( x + 3 ) ( x - 3 )$* or *$( a^{2} - b^{2} ) = ( a + b ) ( a - b )$
 
-> *Rewrite as *`open parentheses a squared minus b squared close parentheses`
+> *Rewrite as *$( a^{2} - b^{2} )$
 
-`open parentheses 81 k squared minus m squared close parentheses space equals space open parentheses open parentheses 9 k close parentheses squared minus open parentheses m close parentheses squared close parentheses`
+$( 81 k^{2} - m^{2} ) = ( ( 9 k )^{2} - ( m )^{2} )$
 
 > *Use the pattern of difference of two squares*
 
@@ -147,7 +147,7 @@ iii) *When factorising quadratics like this, it's helpful to remember "TEAM": **
 
 > *So we're looking for two integers that will times to +8 and add to -6, to go into the blank spaces below*
 
-`t squared minus 6 t plus 8 equals left parenthesis t plus box enclose blank end enclose right parenthesis left parenthesis t plus box enclose blank end enclose right parenthesis`
+`t ^2 - 6 t + 8 = ( t + box _ ) ( t + box _ )`
 
 > *Factors of 8 are;         1 and 8      can't sum to -6*
 
@@ -155,7 +155,7 @@ iii) *When factorising quadratics like this, it's helpful to remember "TEAM": **
 
 > *So the numbers in the blank spaces are -2 and -4*
 
-`t squared minus 6 t plus 8 equals left parenthesis t plus box enclose negative 2 end enclose right parenthesis left parenthesis t plus box enclose negative 4 end enclose right parenthesis`
+`t ^2 - 6 t + 8 = ( t + box - 2 ) ( t + box - 4 )`
 
 $(t-2)(t-4)$
 
@@ -170,7 +170,7 @@ $(t-2)(t-4)$
 
 > *These factors go outside the brackets and whatever is left goes inside the brackets.*
 
-`3 x squared minus 12 x y equals 3 x open parentheses x minus 4 y close parentheses`
+$3 x^{2} - 12 x y = 3 x ( x - 4 y )$
 
 $3x(x-4y)$
 
@@ -184,33 +184,33 @@ $3x(x-4y)$
 
 > * *$a$* and *$b$* go into both terms, so *$ab$* is a common factor.*
 
-`fraction numerator 3 a squared b over denominator a b end fraction space equals space fraction numerator 3 space cross times space up diagonal strike a space cross times space a space cross times space up diagonal strike b over denominator up diagonal strike a space cross times space up diagonal strike b end fraction space equals space 3 a`
+$\frac{3 a^{2} b}{a b} = \frac{3 \times \cancel{a} \times a \times \cancel{b} }{ \cancel{a} \times \cancel{b} } = 3 a$
 
-`fraction numerator a b squared over denominator a b end fraction space equals space fraction numerator space up diagonal strike a space cross times space b space cross times space up diagonal strike b over denominator up diagonal strike a space cross times space up diagonal strike b end fraction space equals space b`
+$\frac{a b^{2}}{a b} = \frac{ \cancel{a} \times b \times \cancel{b} }{ \cancel{a} \times \cancel{b} } = b$
 
 $ab(3a-b)$* *** **
 **At least one factor taken out correctly ****[1] **** **
 **Both factors and bracket correct ****[1]**
 
 ### Q8
-*We need to recognise "*$x^{2}-25$*" as the difference of two squares: *`a squared minus b squared equals open parentheses a plus b close parentheses open parentheses a minus b close parentheses`*.*
+*We need to recognise "*$x^{2}-25$*" as the difference of two squares: *$a^{2} - b^{2} = ( a + b ) ( a - b )$*.*
 
 > *The square root of *$x^{2}$* is *$x$* and the square root of *$25$* is *$5$* so *
 
-`x squared minus 25 equals open parentheses x plus 5 close parentheses open parentheses x minus 5 close parentheses`
+$x^{2} - 25 = ( x + 5 ) ( x - 5 )$
 
 $(x+5)(x-5)$ **[1]**
 
 ### Q9
 > *First expand the first pair of brackets.*
 
-`open parentheses y plus 3 close parentheses open parentheses y minus 4 close parentheses open parentheses 2 y minus 1 close parentheses equals open parentheses y squared minus y minus 12 close parentheses open parentheses 2 y minus 1 close parentheses`
+$( y + 3 ) ( y - 4 ) ( 2 y - 1 ) = ( y^{2} - y - 12 ) ( 2 y - 1 )$
 
 **[1]**
 
 > *Carefully expand, using separate lines to make sure all terms are included and lining like terms up so simplifying is easy.*
 
-`table row cell open parentheses y squared minus y minus 12 close parentheses open parentheses 2 y minus 1 close parentheses end cell equals cell 2 y cubed minus y squared end cell row blank blank cell space space space space space space space minus 2 y squared plus y end cell row blank blank cell space space space space space space space space space space space space space space space space space space minus 24 y plus 12 end cell end table`
+$\begin{gathered} ( y^{2} - y - 12 ) ( 2 y - 1 ) & = 2 y^{3} - y^{2} \\ - 2 y^{2} + y \\ - 24 y + 12 \end{gathered}$
 
 **[1]**
 
@@ -223,7 +223,7 @@ $2y^{3}-3y^{2}-23y+12$** ****[1]**
 ### Q10
 *Multiply the terms inside the first bracket by 5 and the second bracket by -2*
 
-`5 cross times p plus 5 cross times 3 minus 2 cross times 1 minus 2 cross times open parentheses negative 2 p close parentheses`
+$5 \times p + 5 \times 3 - 2 \times 1 - 2 \times ( - 2 p )$
 
 *Simplify the terms (by multiplying their parts together and being careful with signs)*
 
@@ -246,58 +246,58 @@ $9p+13$ **[1]**
 ### Q11
 > *Rewrite the equation with the squared brackets as two separate brackets.*
 
-> `open parentheses x space plus space 1 close parentheses open parentheses x space minus space 3 close parentheses open parentheses x space minus space 3 close parentheses`*  *
+> $( x + 1 ) ( x - 3 ) ( x - 3 )$*  *
 
 > *Expand the first two brackets by multiplying everything in the first bracket by everything in the second bracket.*
 
-`table row blank blank cell open parentheses x space plus space 1 close parentheses open parentheses x space minus space 3 close parentheses end cell row blank equals cell space x open parentheses x space minus space 3 close parentheses space plus space 1 open parentheses x space space minus space 3 close parentheses end cell row blank equals cell space x squared space minus space 3 x space plus space 1 x space minus space 3 end cell end table`
+$\begin{gathered} ( x + 1 ) ( x - 3 ) \\ = x ( x - 3 ) + 1 ( x - 3 ) \\ = x^{2} - 3 x + 1 x - 3 \end{gathered}$
 
 **[1]**
 
 > *Simplify this. *
 
-`table row cell x squared space minus 3 x space plus space 1 x space minus space 3 space end cell equals cell space x squared space minus space 2 x space minus space 3 end cell end table`
+$\begin{gathered} x^{2} - 3 x + 1 x - 3 & = x^{2} - 2 x - 3 \end{gathered}$
 
 > *Write the expanded expression out next to the third bracket. *
 
-`table row blank blank cell open parentheses table row blank blank cell space x squared space minus space 2 x space minus space 3 end cell end table close parentheses open parentheses x space minus space 3 close parentheses space end cell end table`
+$\begin{gathered} ( \begin{gathered} x^{2} - 2 x - 3 \end{gathered} ) ( x - 3 ) \end{gathered}$
 
-> *Multiply each part of the first bracket by *`open parentheses x space minus space 3 close parentheses`*. *
+> *Multiply each part of the first bracket by *$( x - 3 )$*. *
 
-`table row blank blank cell x squared open parentheses x space minus space 3 close parentheses space space minus space 2 x open parentheses x space minus space 3 close parentheses space space minus space 3 open parentheses x space minus space 3 close parentheses space end cell end table`
+$\begin{gathered} x^{2} ( x - 3 ) - 2 x ( x - 3 ) - 3 ( x - 3 ) \end{gathered}$
 
 > *Expand the brackets, taking extra care with the negatives. *
 
-`table row cell x cubed space minus space 3 x squared space space minus space 2 x squared space plus space 6 x space space minus space 3 x space minus space open parentheses negative 9 close parentheses space end cell end table`
+$\begin{gathered} x^{3} - 3 x^{2} - 2 x^{2} + 6 x - 3 x - ( - 9 ) \end{gathered}$
 
 **[1]**
 
 > *Simplify, taking extra care with the negatives. *
 
-`table row cell bold italic x to the power of bold 3 bold space bold minus bold space bold 5 bold italic x to the power of bold 2 bold space bold plus bold space bold 3 bold italic x bold space bold plus bold space bold 9 end cell end table`**[1] **
+$\begin{array}{c} x^{ } 3 - 5 x^{ } 2 + 3 x + 9\end{array}$**[1] **
 **This could be done by expanding (****x**** -3)**<sup>**2 **</sup>**first.**
 
 ### Q12
 > *Factorise by "grouping" the first two terms and the last two terms*
 
-`table row cell 2 x plus 6 – 3 x y – 9 y end cell equals cell 2 x plus 6 space left enclose negative 3 x y minus 9 y end enclose end cell row blank equals cell 2 open parentheses x plus 3 close parentheses space left enclose negative 3 y open parentheses x plus 3 close parentheses end enclose end cell end table`
+`| 2 x + 6 - 3 x y - 9 y | = 2 x + 6 left - 3 x y - 9 y | | _ = 2 ( x + 3 ) left - 3 y ( x + 3 ) | |`
 
-**or**** '**`x open parentheses 2 y minus 3 close parentheses plus 3 open parentheses 2 y minus 3 close parentheses`**' [1]**
+**or**** '**$x ( 2 y - 3 ) + 3 ( 2 y - 3 )$**' [1]**
 
-> *Now factorise out the '*`open parentheses x plus 3 close parentheses`*'*
+> *Now factorise out the '*$( x + 3 )$*'*
 
 `equation`** [1]**
 
 ### Q13
 > *Expanding (multiplying out the brackets) means every term in the first set of brackets will be multiplied by every term in the second set of brackets.*
 
-`table row cell open parentheses 3 x minus 5 y close parentheses open parentheses 2 x plus y close parentheses end cell equals cell 3 x cross times 2 x plus 3 x cross times y plus open parentheses negative 5 y close parentheses cross times 2 x plus open parentheses negative 5 y close parentheses cross times y end cell row blank equals cell 6 x squared plus 3 x y minus 10 x y minus 5 y squared end cell end table`
+$\begin{gathered} ( 3 x - 5 y ) ( 2 x + y ) & = 3 x \times 2 x + 3 x \times y + ( - 5 y ) \times 2 x + ( - 5 y ) \times y \\ = 6 x^{2} + 3 x y - 10 x y - 5 y^{2} \end{gathered}$
 
 **3 correct terms**** [1]**
 
 > *Now simplify by collecting like terms; *$3xy$* and *$-10xy$* are like terms.*
 
-`open parentheses 2 x minus 5 y close parentheses open parentheses 2 x plus y close parentheses equals 6 x squared minus 7 x y minus 5 y squared`
+$( 2 x - 5 y ) ( 2 x + y ) = 6 x^{2} - 7 x y - 5 y^{2}$
 
 $6x^{2}-7xy-5y^{2}$* ***[1]**
 
@@ -316,11 +316,11 @@ i) *Find the highest common factor of the two terms by finding the factors of ea
 
 ii) *This is an example of the "difference of two squares" as it is in the form of *$a^{2}-b^{2}$*.*
 
-> *The formula for difference of two squares is *`a squared minus b squared equals open parentheses a plus b close parentheses open parentheses a minus b close parentheses`*.*
+> *The formula for difference of two squares is *$a^{2} - b^{2} = ( a + b ) ( a - b )$*.*
 
 > *Rewrite as *$a^{2}-b^{2}$*.*
 
-`y squared space minus space 9 x squared space equals space open parentheses y close parentheses squared minus open parentheses 3 x close parentheses squared`
+$y^{2} - 9 x^{2} = ( y )^{2} - ( 3 x )^{2}$
 
 > *Use the pattern of difference of two squares.*
 
@@ -349,7 +349,7 @@ $(y+3x)(y-3x)$** **
 
 *Write *$6ab^{2}$* outside brackets and write two terms inside the brackets that, if expanded, give *$12ab^{3}+18a^{3}b^{2}$
 
-`6 a b squared open parentheses 2 b plus 3 a squared close parentheses`
+$6 a b^{2} ( 2 b + 3 a^{2} )$
 
 **Any correct partial factorisation**** [1]**
  $6ab^{2}(2b+3a^{2})$** ****[1]**
@@ -357,36 +357,36 @@ $(y+3x)(y-3x)$** **
 ### Q16
 > *Expand the first two brackets by multiplying everything in the first bracket by everything in the second bracket.*
 
-`table row blank blank cell open parentheses x space minus space 2 close parentheses open parentheses x space plus space 5 close parentheses end cell row blank equals cell space x open parentheses x space plus space 5 close parentheses space minus 2 open parentheses x space plus space 5 close parentheses end cell row blank equals cell space x squared space plus space 5 x space minus space 2 x space minus space 10 end cell end table`
+$\begin{gathered} ( x - 2 ) ( x + 5 ) \\ = x ( x + 5 ) - 2 ( x + 5 ) \\ = x^{2} + 5 x - 2 x - 10 \end{gathered}$
 
 **[1]**
 
 > *Simplify this. *
 
-`table row cell x squared space plus space 5 x space minus 2 x space minus space 10 space end cell equals cell space x squared space plus space 3 x space minus space 10 end cell end table`
+$\begin{gathered} x^{2} + 5 x - 2 x - 10 & = x^{2} + 3 x - 10 \end{gathered}$
 
 > *Write the expanded expression out next to the third bracket. *
 
-`table row blank blank cell open parentheses x squared space plus space 3 x space minus space 10 close parentheses open parentheses 2 x space minus space 1 close parentheses space end cell end table`
+$\begin{gathered} ( x^{2} + 3 x - 10 ) ( 2 x - 1 ) \end{gathered}$
 
-> *Multiply each part of the first bracket by *`open parentheses 2 x space minus space 1 close parentheses`*. *
+> *Multiply each part of the first bracket by *$( 2 x - 1 )$*. *
 
-`table row blank blank cell x squared open parentheses 2 x space minus space 1 close parentheses space space plus space 3 x open parentheses 2 x space minus space 1 close parentheses space space minus space 10 open parentheses 2 x space minus space 1 close parentheses space end cell end table`
+$\begin{gathered} x^{2} ( 2 x - 1 ) + 3 x ( 2 x - 1 ) - 10 ( 2 x - 1 ) \end{gathered}$
 
 > *Expand the brackets. *
 
-`table row cell 2 x cubed space minus space x squared space space plus space 6 x squared space minus space 3 x space space minus space 20 x space minus space open parentheses negative 10 close parentheses space end cell end table`
+$\begin{gathered} 2 x^{3} - x^{2} + 6 x^{2} - 3 x - 20 x - ( - 10 ) \end{gathered}$
 
 **[1]**
 
 > *Simplify. *
 
-`table row cell bold 2 bold italic x to the power of bold 3 bold space bold plus bold space bold 5 bold italic x to the power of bold 2 bold space bold minus bold space bold 23 bold italic x bold space bold plus bold space bold 10 end cell end table`**[1]**
+$\begin{array}{c} 2 x^{ } 3 + 5 x^{ } 2 - 23 x + 10\end{array}$**[1]**
 
 ### Q17
 *Multiply all terms in the first bracket by all terms in the second bracket* * *
 
-`p cross times p plus p cross times open parentheses negative 4 close parentheses plus 9 cross times p plus 9 cross times open parentheses negative 4 close parentheses` * *
+$p \times p + p \times ( - 4 ) + 9 \times p + 9 \times ( - 4 )$ * *
 
 *Simplify the terms (by multiplying their parts together)* * *
 
@@ -403,7 +403,7 @@ $-4p+9p=5p$ * *
 $p^{2}+5p-36$ **[1]**
 
 ### Q18
-> *Multiply *$x$* by *`open parentheses x minus 3 close parentheses`* and then multiply *$7$* by *`open parentheses x minus 3 close parentheses`
+> *Multiply *$x$* by *$( x - 3 )$* and then multiply *$7$* by *$( x - 3 )$
 
 $x^{2}-3x+7x-21$
 
@@ -418,21 +418,21 @@ $x^{2}+4x-21$ **[1]**
 
 *Take out a common factor of 5* * *
 
-`5 m squared minus 20 p to the power of 4 equals 5 open parentheses m squared minus 4 p to the power of 4 close parentheses`
+$5 m^{2} - 20 p^{4} = 5 ( m^{2} - 4 p^{4} )$
 
 **[1]**
 
-*The "difference of two squares" is *`a squared minus b squared equals open parentheses a plus b close parentheses open parentheses a minus b close parentheses`
+*The "difference of two squares" is *$a^{2} - b^{2} = ( a + b ) ( a - b )$
 
 *Use the difference of two squares to factorise *$m^{2}-4p^{4}$* (*$a=m$* and *$b=2p^{2}$*)* * *
 
-`m squared minus 4 p to the power of 4 equals open parentheses m plus 2 p squared close parentheses open parentheses m minus 2 p squared close parentheses`
+$m^{2} - 4 p^{4} = ( m + 2 p^{2} ) ( m - 2 p^{2} )$
 
 **[1]**
 
 *Put this back into the question* * *
 
-`5 m squared minus 20 p to the power of 4 equals 5 open parentheses m plus 2 p squared close parentheses open parentheses m minus 2 p squared close parentheses`
+$5 m^{2} - 20 p^{4} = 5 ( m + 2 p^{2} ) ( m - 2 p^{2} )$
 
 $5(m+2p^{2})(m-2p^{2})$** ****[1]**
 
@@ -455,17 +455,17 @@ $-x^{2}+8x-3x+24$
 
 > *Factorise the first two terms by taking the common factor of *$x$* outside of the brackets.*
 
-`x open parentheses negative x space plus space 8 close parentheses space minus 3 x space plus space 24`
+$x ( - x + 8 ) - 3 x + 24$
 
 > *Factorise the last two terms by taking the common factor of 3 outside of the brackets.*
 
-`x open parentheses negative x space plus space 8 close parentheses plus space 3 open parentheses negative x space plus space 8 close parentheses`
+$x ( - x + 8 ) + 3 ( - x + 8 )$
 
 **[1]**
 
-> *Both the *$x$* and the +3 are multiplied by *`open parentheses negative x space plus space 8 close parentheses`*. *
+> *Both the *$x$* and the +3 are multiplied by *$( - x + 8 )$*. *
 
-> *Factorise the whole *`open parentheses negative x space plus space 8 close parentheses`* bracket out, leaving *$x$* and +3 together in their own bracket*
+> *Factorise the whole *$( - x + 8 )$* bracket out, leaving *$x$* and +3 together in their own bracket*
 
 $(x+3)(-x+8)$ **[1]**
 ** (8 - x)(3 + x) also correct**
@@ -473,30 +473,30 @@ $(x+3)(-x+8)$ **[1]**
 ### Q21
 *"Factorise" means write as brackets to be expanded* *Take out a common factor of 2* * *
 
-`2 t squared minus 98 m squared equals 2 open parentheses t squared minus 49 m squared close parentheses`
+$2 t^{2} - 98 m^{2} = 2 ( t^{2} - 49 m^{2} )$
 
 **[1]**
 
-*The "difference of two squares" says  *`a squared minus b squared equals open parentheses a plus b close parentheses open parentheses a minus b close parentheses`
+*The "difference of two squares" says  *$a^{2} - b^{2} = ( a + b ) ( a - b )$
 
 *Use the difference of two squares to factorise *$t^{2}-49m^{2}$* (using *$a=t$* and *$b=7m$*)* * *
 
-`t squared minus 49 m squared equals open parentheses t plus 7 m close parentheses open parentheses t minus 7 m close parentheses`
+$t^{2} - 49 m^{2} = ( t + 7 m ) ( t - 7 m )$
 
 **[1]**
 
 *Write the final answer out* * *
 
-`2 t squared minus 98 m squared equals 2 open parentheses t plus 7 m close parentheses open parentheses t minus 7 m close parentheses`
+$2 t^{2} - 98 m^{2} = 2 ( t + 7 m ) ( t - 7 m )$
 
 $2(t+7m)(t-7m)$* ***[1]** 
-**Final answers such as **`open parentheses 2 t plus 14 m close parentheses open parentheses t minus 7 m close parentheses`** are not factorised completely**
+**Final answers such as **$( 2 t + 14 m ) ( t - 7 m )$** are not factorised completely**
 
 ### Q22
 > *Look for the the highest common factor in the expression and take it out in front of the brackets.*
 
 > *The highest common factor of *$4$* and *$-8x$* is *$4$*.*
 
-`table row cell 4 space divided by space 4 space end cell equals cell space 1 end cell row cell negative 8 x space divided by space 4 space end cell equals cell space minus 2 x end cell end table`
+$\begin{gathered} 4 \div 4 & = 1 \\ - 8 x \div 4 & = - 2 x \end{gathered}$
 
 $4(1-2x)$** ****[1]**

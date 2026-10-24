@@ -256,7 +256,7 @@ ii) Calculating the rate constant for the reaction:
 
 *Example calculation:*
 
-k =  `fraction numerator rate over denominator space left square bracket BrO subscript 3 to the power of ‒ right square bracket left square bracket space Br to the power of ‒ right square bracket left square bracket space straight H to the power of plus right square bracket squared space end fraction` 
+k =  `(rate)/( left square bracket BrO _ 3 ^ ‒ right square bracket left square bracket Br ^ ‒ right square bracket left square bracket H ^ + right square bracket ^2 )` 
 **OR**
 k = $\frac{2.01x10^{-}^{4}}{0.15\times0.25\times0.60^{2}}$ k = 0.014889 / 0.015 / 1.4889 x 10<sup>-2</sup> / 1.5 x 10<sup>-2</sup> dm<sup>9</sup> mol<sup>-3 </sup>s<sup>-1</sup>
 
@@ -358,7 +358,7 @@ iii) The overall rate equation for this reaction, with units is:
 - *When giving the rate equation and units, you would be allowed error carried forward for any incorrectly identified orders*
 - *To find the units, substitute the units into the rearranged rate equation and simplify:*
 
-> `k space equals space fraction numerator rate over denominator straight k left square bracket Br to the power of minus right square bracket left square bracket BrO subscript 3 to the power of minus right square bracket left square bracket straight H to the power of plus right square bracket squared end fraction space equals space fraction numerator mol space dm to the power of negative 3 end exponent space straight s to the power of negative 1 end exponent over denominator open parentheses mol space dm to the power of negative 3 end exponent close parentheses open parentheses mol space dm to the power of negative 3 end exponent close parentheses open parentheses mol space dm to the power of negative 3 end exponent close parentheses squared end fraction space equals space fraction numerator straight s to the power of negative 1 end exponent over denominator stretchy left parenthesis mol space dm to the power of negative 3 end exponent stretchy right parenthesis stretchy left parenthesis mol space dm to the power of negative 3 end exponent stretchy right parenthesis squared end fraction space`*= dm*<sup>*9*</sup>* mol*<sup>*-3*</sup>* s*<sup>*-1*</sup>
+> $k = \frac{rate}{ \mathrm{k} [ Br^{ - } ] [ BrO_{3}^{ - } ] [ \mathrm{H} ^{ + } ] ^{2} } = \frac{ \text{mol} dm^{ - } 3 \mathrm{s} ^{ - } 1}{ ( \text{mol} dm^{ - } 3 ) ( \text{mol} dm^{ - } 3 ) ( \text{mol} dm^{ - } 3 ) ^{2} } = \frac{ \mathrm{s} ^{ - } 1}{ \text{stretchy} ( \text{mol} dm^{ - } 3 \text{stretchy} ) \text{stretchy} ( \text{mol} dm^{ - } 3 \text{stretchy} ) ^{2} }$*= dm*<sup>*9*</sup>* mol*<sup>*-3*</sup>* s*<sup>*-1*</sup>
 
 - *It is the convention to write the positive indices first but can write them in any order to gain this mark*
 
@@ -380,7 +380,7 @@ Units for x axis: K<sup>-1</sup>; **[1 mark]**
 **AND**
 Best-fit straight line; **[1 mark]**
 - Calculation of gradient
-e.g. `fraction numerator negative 9.8 space minus space open parentheses negative 5.85 close parentheses over denominator 3.3 space cross times space 10 to the power of negative 3 space end exponent minus space 3.0 space cross times space 10 to the power of negative 3 end exponent end fraction` = (-)13167; **[1 mark]**
+e.g. $\frac{- 9.8 - ( - 5.85 )}{3.3 \times 10^{- 3 } - 3.0 \times 10^{- 3} }$ = (-)13167; **[1 mark]**
 - Sign and units of gradient: negative sign **AND** units K; **[1 mark]**
 - Calculation of activation energy
 *E*<sub>a</sub> = -gradient x *R*
@@ -448,7 +448,7 @@ rate = *k*[BrO<sub>3</sub><sup>−</sup>][Br<sup>−</sup>][H<sup>+</sup>]<sup>2
 
 - Rearrange the equation for *k*:
 
-*k* = `fraction numerator rate over denominator left square bracket BrO subscript 3 to the power of minus right square bracket left square bracket Br minus right square bracket left square bracket straight H plus right square bracket squared end fraction`
+*k* = $\frac{rate}{[ BrO_{3}^{ - } ] [ Br - ] [ \mathrm{H} + ] ^{2} }$
 
 - Known values from Experiment 1:
 
@@ -456,7 +456,7 @@ rate = *k*[BrO<sub>3</sub><sup>−</sup>][Br<sup>−</sup>][H<sup>+</sup>]<sup>2
   - [BrO<sub>3</sub><sup>−</sup>] = [Br<sup>−</sup>] = [H<sup>+</sup>] = 0.10 mol dm<sup>−3</sup>
 - Substitute and calculate:
 
-*k* = `fraction numerator 1.20 cross times 10 to the power of negative 3 end exponent over denominator open square brackets 0.10 close square brackets open square brackets 0.10 close square brackets open square brackets 0.10 close square brackets squared end fraction`
+*k* = $\frac{1.20 \times 10^{- 3} }{[ 0.10 ] [ 0.10 ] [ 0.10 ]^{2}}$
 
 *k* = **12** **[1 mark]**
 
@@ -694,8 +694,8 @@ gradient = −1.11 × 10<sup>4</sup> K
 
 - Rearranging the rate expression gives
 
-  - *k *= `fraction numerator rate over denominator open square brackets straight A close square brackets squared open square brackets straight B close square brackets to the power of 0 end fraction`, however [B]<sup>0</sup> is 1, so substituting in the other values
-  - *k* = `fraction numerator 9.0 cross times 10 to the power of negative 5 end exponent over denominator open parentheses 0.3 close parentheses squared end fraction`= 1.0 x 10<sup>-3</sup>
+  - *k *= $\frac{rate}{[ \mathrm{A} ]^{2} [ \mathrm{B} ]^{0} }$, however [B]<sup>0</sup> is 1, so substituting in the other values
+  - *k* = $\frac{9.0 \times 10^{- 5} }{( 0.3 )^{2}}$= 1.0 x 10<sup>-3</sup>
 
 **A **is incorrect as the initial rate and the rate constant have been mixed up
 
@@ -808,9 +808,9 @@ $K_{p} = \frac{p(\text{SO}_{3})^{2}}{p(\text{SO}_{2})^{2}\timesp(\text{O}_{2})}$
 ## Q15 — hard — 1 marks · multiple-choice-questions
 
 ### 7() — 1 marks
-**Correct answer: A** — `CH subscript 3 COCH subscript 3 space plus space straight H to the power of plus space space space space space space space space rightwards harpoon over leftwards harpoon space CH subscript 3 straight C left parenthesis straight O with plus on top straight H right parenthesis CH subscript 3 space space space space space space space space space space space space space space space space space fast
-CH subscript 3 straight C left parenthesis straight O with plus on top straight H right parenthesis CH subscript 3 space space space space space space space space space space space space rightwards arrow space CH subscript 3 straight C left parenthesis OH right parenthesis ═ CH subscript 2 space plus space straight H to the power of plus space space space space slow space
-CH subscript 3 straight C left parenthesis OH right parenthesis ═ CH subscript 2 space plus space straight I subscript 2 space rightwards arrow space CH subscript 3 COCH subscript 2 straight I space plus space HI space space space space space space space space space space space space space fast`
+**Correct answer: A** — $CH_{3} COCH_{3} + \mathrm{H}^{+} \rightleftharpoons CH_{3} \mathrm{C} ( \mathrm{O} \text{with} + \text{on} \text{top} \mathrm{H} ) CH_{3} \text{fast}
+CH_{3} \mathrm{C} ( \mathrm{O} \text{with} + \text{on} \text{top} \mathrm{H} ) CH_{3} \rightarrow CH_{3} \mathrm{C} ( \text{OH} ) ═ CH_{2} + \mathrm{H}^{+} \text{slow} 
+CH_{3} \mathrm{C} ( \text{OH} ) ═ CH_{2} + \mathrm{I}_{2} \rightarrow CH_{3} COCH_{2} \mathrm{I} + \text{HI} \text{fast}$
 
 **Final answer:** **The correct answer is ****A**** because:**
 

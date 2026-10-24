@@ -31,39 +31,39 @@ guided_study: true
 |---|---|---|
 | $a^{1}=a$ | Anything to the power of 1 is itself | $x^{1}=x$ |
 | $a^{0}=1$ | Anything to the power of 0 is 1 | $b^{0}=1$ |
-| $a^{m}\timesa^{n}=a^{m+n}$ | To multiply indices with the same base, add their powers | `c cubed cross times c squared<br>equals open parentheses c cross times c cross times c close parentheses cross times open parentheses c cross times c close parentheses<br>equals c to the power of 5` |
-| $a^{m}\diva^{n}=\frac{a^{m}}{a^{n}}=a^{m-n}$ | To divide indices with the same base, subtract their powers | `d to the power of 5 divided by d squared<br>equals fraction numerator d cross times d cross times d cross times up diagonal strike d cross times up diagonal strike d over denominator up diagonal strike d cross times up diagonal strike d end fraction<br>equals d to the power of 3 space end exponent` |
-| `open parentheses a to the power of m close parentheses to the power of n equals a to the power of m n end exponent` | To raise indices to a new power, multiply their powers | `open parentheses e cubed close parentheses squared<br>equals open parentheses e cross times e cross times e close parentheses cross times open parentheses e cross times e cross times e close parentheses<br>equals e to the power of 6` |
-| `open parentheses a b close parentheses to the power of n equals a to the power of n b to the power of n` | To raise a product to a power, apply the power to both numbers, and multiply | `open parentheses f cross times g close parentheses squared<br>equals f squared cross times g squared<br>equals f squared g squared` |
-| `open parentheses a over b close parentheses to the power of n equals a to the power of n over b to the power of n` | To raise a fraction to a power, apply the power to both the numerator and denominator | `open parentheses h over i close parentheses squared equals h squared over i squared` |
+| $a^{m}\timesa^{n}=a^{m+n}$ | To multiply indices with the same base, add their powers | $c^{3} \times c^{2} \\ = ( c \times c \times c ) \times ( c \times c ) \\ = c^{5}$ |
+| $a^{m}\diva^{n}=\frac{a^{m}}{a^{n}}=a^{m-n}$ | To divide indices with the same base, subtract their powers | $d^{5 \div d^{2} \\ = \frac{d \times d \times d \times \cancel{d} \times \cancel{d} }{ \cancel{d} \times \cancel{d} } \\ = d^{3} }$ |
+| $( a^{m )^{n} = a^{m} n}$ | To raise indices to a new power, multiply their powers | $( e^{3} )^{2} \\ = ( e \times e \times e ) \times ( e \times e \times e ) \\ = e^{6}$ |
+| $( a b )^{n} = a^{n} b^{n}$ | To raise a product to a power, apply the power to both numbers, and multiply | $( f \times g )^{2} \\ = f^{2} \times g^{2} \\ = f^{2} g^{2}$ |
+| `( a / b ) ^ n = a ^ n / b ^ n` | To raise a fraction to a power, apply the power to both the numerator and denominator | $( \frac{h}{i} )^{2} = \frac{h^{2}}{i^{2}}$ |
 | $a^{-1}=\frac{1}{a}$<br><br>$a^{-n}=\frac{1}{a^{n}}$ | A negative power is the reciprocal | $j^{-1}=\frac{1}{j}$<br><br>$k^{-3}=\frac{1}{k^{3}}$ |
 
 - These can be used to **simplify **expressions
 
   - Work out the **number** and **algebra** parts **separately**
   
-    - `open parentheses 3 x to the power of 7 close parentheses cross times open parentheses 6 x to the power of 4 close parentheses equals open parentheses 3 cross times 6 close parentheses cross times open parentheses x to the power of 7 cross times x to the power of 4 close parentheses equals 18 x to the power of 7 plus 4 end exponent equals 18 x to the power of 11`
+    - $( 3 x^{7 ) \times ( 6 x^{4} ) = ( 3 \times 6 ) \times ( x^{7} \times x^{4} ) = 18 x^{7} + 4} = 18 x^{11}$
     - $\frac{6x^{7}}{3x^{4}}=\frac{6}{3}\times\frac{x^{7}}{x^{4}}=2x^{7-4}=2x^{3}$
-    - `open parentheses 3 x to the power of 7 close parentheses squared equals open parentheses 3 close parentheses squared cross times open parentheses x to the power of 7 close parentheses squared equals 9 x to the power of 14`
+    - $( 3 x^{7} )^{2} = ( 3 )^{2} \times ( x^{7} )^{2} = 9 x^{14}$
 
 ### How can I solve equations with an unknown in the index?
 
 - Write **both** **sides** of the equation over the **same base** number
 
   - Then work out what* x* should be
-  `table row cell 5 to the power of x end cell equals 125 row cell 5 to the power of x end cell equals cell 5 cubed end cell row cell x space end cell equals cell space 3 end cell end table`
+  $\begin{gathered} 5^{x} & = 125 \\ 5^{x} & = 5^{3} \\ x & = 3 \end{gathered}$
 
 - You might have to use **negative** **indices**
-`table attributes columnalign right center left columnspacing 0px end attributes row cell 2 to the power of x end cell equals cell 1 over 8 end cell row cell 2 to the power of x end cell equals cell 1 over 2 cubed end cell row cell 2 to the power of x end cell equals cell 2 to the power of negative 3 end exponent end cell row x equals cell negative 3 end cell end table`
+$\begin{array}{rcl} 2^{x & = \frac{1}{8} \\ 2^{x} & = \frac{1}{2^{3}} \\ 2^{x} & = 2^{-3} } \\ x = - 3 \end{array}$
 
 > **Worked Example**
-> (a) Simplify `open parentheses u to the power of 5 close parentheses to the power of 5`
+> (a) Simplify $( u^{5} )^{5}$
 > 
 > **Answer:**
 > 
-> *Use *`open parentheses a to the power of m close parentheses to the power of n equals a to the power of m n end exponent`
+> *Use *$( a^{m )^{n} = a^{m} n}$
 > 
-> `open parentheses u to the power of 5 close parentheses to the power of 5 equals u to the power of 5 cross times 5 end exponent`
+> $( u^{5 )^{5} = u^{5} \times 5}$
 > 
 > $u^{25}$
 > 

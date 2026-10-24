@@ -30,9 +30,9 @@ guided_study: true
 - The recurring part can be written with a **dot above the digit that repeats**
 - If multiple digits repeat, dots are used on the** first and last digits that repeat**
 
-  - `0.3333... space equals space 0.3 with dot on top`
-  - `0.121212... space equals 0.1 with dot on top 2 with dot on top`
-  - `0.325632563256... equals 0.3 with dot on top 25 6 with dot on top`
+  - $0.3333... = 0. \dot{3}$
+  - $0.121212... = 0. \dot{1} \dot{2}$
+  - $0.325632563256... = 0. \dot{3} 25 \dot{6}$
 - **Recurring decimals are rational numbers**, they are not irrational
 
   - They can be **written as fractions**
@@ -48,16 +48,16 @@ Write the recurring decimal as $x=...$
 - **STEP 2**
 **Multiply both sides by 10** **repeatedly** until two lines have the same recurring decimal part
 
-  - `table row x equals cell 0.35353535... end cell end table`
-  - `table row cell 10 x end cell equals cell 3.5353535... end cell end table`
-  - `table row cell 100 x end cell equals cell 35.353535... end cell end table`
+  - $\begin{gathered} x = 0.35353535... \end{gathered}$
+  - $\begin{gathered} 10 x & = 3.5353535... \end{gathered}$
+  - $\begin{gathered} 100 x & = 35.353535... \end{gathered}$
   
     - Note that *x* and 100*x* have 35 repeating after the decimal point, the repeating pattern after 10*x* is 53 repeating
 - **STEP 3**
 **Subtract** the two lines which have matching recurring decimal parts
 
-  - `table row cell 100 x minus x end cell equals cell 35.353535... negative 0.35353535... end cell end table`
-  - `table row cell 99 x end cell equals 35 end table`
+  - $\begin{gathered} 100 x - x & = 35.353535... - 0.35353535... \end{gathered}$
+  - $\begin{gathered} 99 x & = 35 \end{gathered}$
 - **STEP 4**
 **Divide both sides **to get $x=...$ 
 **Cancel** if necessary to get fraction in its lowest terms
@@ -65,7 +65,7 @@ Write the recurring decimal as $x=...$
   - $x=\frac{35}{99}$
 
 > **Worked Example**
-> Write `0.3 with dot on top 0 7 with dot on top` as a fraction in its lowest terms.
+> Write $0. \dot{3} 0 \dot{7}$ as a fraction in its lowest terms.
 > 
 > **Answer:**
 > 
@@ -75,13 +75,13 @@ Write the recurring decimal as $x=...$
 > 
 > > *Multiply both sides by 10 repeatedly until two lines have the same recurring decimal part*
 > 
-> `table row cell 10 x end cell equals cell 3.07307307307... end cell row cell 100 x end cell equals cell 30.730730730... end cell row cell 1000 x end cell equals cell 307.307307307... end cell end table`
+> $\begin{gathered} 10 x & = 3.07307307307... \\ 100 x & = 30.730730730... \\ 1000 x & = 307.307307307... \end{gathered}$
 > 
 > > *Notice that *$x$* and *$1000x$* have matching recurring decimal parts*
 > 
 > > *Subtract one from the other*
 > 
-> `table row cell 1000 x minus x end cell equals cell 307.307307307... negative 0.307307307... end cell row cell 999 x end cell equals 307 end table`
+> $\begin{gathered} 1000 x - x & = 307.307307307... - 0.307307307... \\ 999 x & = 307 \end{gathered}$
 > 
 > > *Divide both sides by 999*
 > 

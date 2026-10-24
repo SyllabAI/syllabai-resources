@@ -75,7 +75,7 @@ guided_study: true
 > **Worked Example**
 > Without use of a calculator, write these numbers in the spaces below.
 > 
-> $\frac{7}{8}$,       $\frac{5}{6}$,       $0.8$,       `78 percent sign`
+> $\frac{7}{8}$,       $\frac{5}{6}$,       $0.8$,       $78 \%$
 > 
 > ..... < ..... < ..... < .....
 > 
@@ -87,18 +87,18 @@ guided_study: true
 > 
 > > *Convert 78% to a decimal by dividing by 100*
 > 
-> `78 percent sign space equals space 0.78`
+> $78 \% = 0.78$
 > 
 > > *Convert *$\frac{7}{8}$* to a decimal by either using short division, or halving three times*
 > 
-> `table row cell 7 divided by 2 end cell equals cell 3.5 end cell row cell 3.5 divided by 2 end cell equals cell 1.75 end cell row cell 1.75 divided by 2 end cell equals cell 0.875 end cell end table`
+> $\begin{gathered} 7 \div 2 & = 3.5 \\ 3.5 \div 2 & = 1.75 \\ 1.75 \div 2 & = 0.875 \end{gathered}$
 > *so *$\frac{7}{8}=0.875$
 > 
 > > *Convert *$\frac{5}{6}$* to a decimal by using short division*
 > 
 > `equation`
 > 
-> *so *`5 over 6 equals 0.8333... equals 0.8 3 with dot on top`
+> *so *$\frac{5}{6} = 0.8333... = 0.8 \dot{3}$
 > 
 > > *Write them all with 3 decimal places to determine the order*
 > 
@@ -106,8 +106,8 @@ guided_study: true
 > 
 > > *Rewrite the decimals in order*
 > 
-> `0.78 comma space 0.8 comma space 0.8 3 with dot on top comma space 0.875`
+> $0.78 , 0.8 , 0.8 \dot{3} , 0.875$
 > 
 > > *Rewrite in their original form, and recall that < means "less than", so the smallest value will be first*
 > 
-> `78 percent sign space less than space 0.8 space less than space 5 over 6 space less than space 7 over 8`
+> $78 \% < 0.8 < \frac{5}{6} < \frac{7}{8}$

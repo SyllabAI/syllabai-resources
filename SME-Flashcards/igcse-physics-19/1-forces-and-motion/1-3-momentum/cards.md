@@ -207,7 +207,7 @@ State the equation for force as the rate of change in momentum.
 
 **BACK**
 
-The equation for force as the rate of change in momentum is `F space equals space fraction numerator open parentheses m v space minus space m u close parentheses over denominator t end fraction`
+The equation for force as the rate of change in momentum is $F = \frac{( m v - m u )}{t}$
 
 Where:
 

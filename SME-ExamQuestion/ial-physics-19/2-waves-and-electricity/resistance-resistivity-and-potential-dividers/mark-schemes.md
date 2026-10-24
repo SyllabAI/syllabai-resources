@@ -46,14 +46,14 @@ Determine the resistance of the lamp:
 
 Determine the cross-sectional area of the wire:
 
-- `A space equals space straight pi r squared space equals space straight pi open parentheses d over 2 close parentheses squared`
-- `A space equals space fraction numerator pi space cross times space open parentheses 0.25 space cross times space 10 to the power of negative 3 end exponent close parentheses squared over denominator 4 end fraction` **[1 mark]**
+- $A = \mathrm{\pi } r^{2} = \mathrm{\pi } ( \frac{d}{2} )^{2}$
+- $A = \frac{\pi \times ( 0.25 \times 10^{- 3} )^{2}}{4}$ **[1 mark]**
 - $A=4.91\times10^{-8}m^{2}$
 
 Determine length using the resistivity equation:
 
 - $R=\frac{ρl}{A}$
-- `l space equals space fraction numerator A R over denominator rho end fraction space equals space fraction numerator open parentheses 4.91 space cross times space 10 to the power of negative 8 end exponent close parentheses space cross times space 2.4 over denominator 5.6 space cross times space 10 to the power of negative 8 end exponent end fraction` **[1 mark]**
+- $l = \frac{A R}{\\rho } = \frac{( 4.91 \times 10^{- 8} ) \times 2.4}{5.6 \times 10^{- 8} }$ **[1 mark]**
 - $l=2.1m$ **[1 mark]**
 
 **[Total: 4 marks]**
@@ -94,7 +94,7 @@ The student states that both lamps will operate normally. Evaluate whether the s
 Calculate the resistivity of nichrome:
 
 - Resistivity, $R=\frac{ρl}{A}$
-- `rho space equals space fraction numerator R A over denominator l end fraction space equals space fraction numerator 2.0 space cross times space open parentheses 2.5 cross times 10 to the power of negative 7 end exponent close parentheses over denominator 0.45 end fraction` **[1 mark]**
+- $\\rho = \frac{R A}{l} = \frac{2.0 \times ( 2.5 \times 10^{- 7} )}{0.45}$ **[1 mark]**
 - $ρ=1.11\times10^{-6}Ωm$ **[1 mark]**
 
 **[Total: 2 marks]**
@@ -114,7 +114,7 @@ Calculate the current:
 Calculate the drift velocity:
 
 - $I=nqvA$
-- `v space equals fraction numerator space I over denominator n q A end fraction space equals space fraction numerator 1.5 over denominator open parentheses 9.0 cross times 10 to the power of 28 close parentheses space cross times space open parentheses 1.60 cross times 10 to the power of negative 19 end exponent close parentheses space cross times space open parentheses 2.5 cross times 10 to the power of negative 7 end exponent close parentheses end fraction` **[1 mark]**
+- $v = \frac{ I}{n q A} = \frac{1.5}{( 9.0 \times 10^{28 ) \times ( 1.60 \times 10^{-19} } ) \times ( 2.5 \times 10^{- 7} )}$ **[1 mark]**
 - $v=4.17\times10^{-4}ms^{-1}$ **[1 mark]**
 
 **[Total: 3 marks]**

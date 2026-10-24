@@ -108,7 +108,7 @@ ii) *The interquartile range (IQR) is equal to the upper quartile (UQ) subtract 
 
 iii) *The 60*<sup>*th*</sup>* percentile will be 60% of the way through the data.*
 
-`60 percent sign space of space 120 space equals 60 over 100 space cross times space 120 space equals space 72`
+$60 \% of 120 = \frac{60}{100} \times 120 = 72$
 
 > *i.e. The 60*<sup>*th*</sup>* percentile will be the 72*<sup>*nd*</sup>* value.*
 
@@ -217,7 +217,7 @@ $60<t\leq80:76-50=26$
 
 ii) *First find the sum of the products of the midpoint of each class interval and its frequency.*
 
-`open parentheses 10 cross times 6 close parentheses plus open parentheses 30 cross times 18 close parentheses plus open parentheses 50 cross times 26 close parentheses plus open parentheses 70 cross times 26 close parentheses plus open parentheses 90 cross times 4 close parentheses equals 4080`
+$( 10 \times 6 ) + ( 30 \times 18 ) + ( 50 \times 26 ) + ( 70 \times 26 ) + ( 90 \times 4 ) = 4080$
 
 **Correct midpoints**** [1] **
 **Calculating the sum of the frequencies multiplied by the midpoints**** [1]**
@@ -281,7 +281,7 @@ ii) *'Variation' means 'spread' in this case so we should consider either the **
 *This means that (approximately) 42 male runners took less than 240 minutes (4 hours) to finish the London marathon.* 
 *To write as a probability, we write this as a fraction out of the total number of male runners (100) - be careful here, the questions states "A **male** runner is chosen at random."*
 
-`42 over 100 open parentheses equals 21 over 50 close parentheses`
+$\frac{42}{100} ( = \frac{21}{50} )$
 
 **An estimate for he probability that a male runner chosen at random took less than four hours is **$\frac{21}{50}$* ***[1]**
 
@@ -321,7 +321,7 @@ ii) *The interquartile range is the difference between the upper quartile (UQ) a
 
 ![cie-igcse-2019-may-jun-p2-tz3-q23aii](assets/025-cie-igcse-2019-may-jun-p2-tz3-q23aii.png)
 
-`table row UQ equals 6 row LQ equals cell 3.5 end cell end table`
+$\begin{gathered} \text{UQ} = 6 \\ \text{LQ} = 3.5 \end{gathered}$
 
 **UQ at 6, or LQ between 3.4 and 3.6**** [1]**
 
@@ -376,7 +376,7 @@ ii) *No students had a time of less than 20 minutes. So plot the first point at 
 **all points correctly plotted on the cumulative frequency axis ****[1] ****all points joined with a smooth curve ****[1]**
 
 iii) *The median is halfway along the 120 students, for an estimate we use the (120 ÷ 2 =) 60*<sup>*th*</sup>* student. *
-*(For small data sets, or accurate location of the median, we would use *`open parentheses fraction numerator n plus 1 over denominator 2 end fraction close parentheses th`* data value.)* 
+*(For small data sets, or accurate location of the median, we would use *$( \frac{n + 1}{2} ) \text{th}$* data value.)* 
 *Use a ruler to draw a horizontal line across from 60 on the cumulative frequency axis until it hits the curve, then draw a vertical line down to the time axis.*
 
 ![gBrMf_pf_cie-igcse-2018-may-jun-tz2-p4-q2biii](assets/029-gbrmf-pf-cie-igcse-2018-may-jun-tz2-p4-q2biii.png)
@@ -494,7 +494,7 @@ i) *Draw vertical lines up from the distance axis at the upper boundary of each 
 
 > *Find the frequency of each class interval by subtract the number of male cyclists in the previous class from the cumulative frequency readings for each class.*
 
-`50 less than t less or equal than 60 colon space space 41 minus open parentheses 9 plus 18 close parentheses equals 14`
+$50 < t \le 60 : 41 - ( 9 + 18 ) = 14$
 
 $60<t\leq70:53-41=12$
 
@@ -516,7 +516,7 @@ $70<t\leq90:58-53=5$
 
 ii) *To estimate the mean we first need to multiply the midpoint of each group by its frequency.*
 
-`open parentheses 20 cross times 18 close parentheses plus open parentheses 45 cross times 9 close parentheses plus open parentheses 55 cross times 14 close parentheses plus open parentheses 65 cross times 12 close parentheses plus open parentheses 80 cross times 5 close parentheses plus open parentheses 105 cross times 2 close parentheses equals 2925`
+$( 20 \times 18 ) + ( 45 \times 9 ) + ( 55 \times 14 ) + ( 65 \times 12 ) + ( 80 \times 5 ) + ( 105 \times 2 ) = 2925$
 
 **Correct midpoints**** [1] **
 **Calculating the sum of the frequencies multiplied by the midpoints**** [1]**
@@ -541,7 +541,7 @@ $2925\div60=48.75$
 
 > *A quick check can be that the final value in your table is equal to the number of children (180).*
 *Plot the height "end-points" on the horizontal (height) axis and the cumulative frequency on the vertical axis.* 
-*Start from the point *`open parentheses 60 comma 0 close parentheses`* (the lowest height in the table).  *
+*Start from the point *$( 60 , 0 )$* (the lowest height in the table).  *
 
 ![cie-igcse-2018-oct-nov-p4-tz1-q4d-solution](assets/039-cie-igcse-2018-oct-nov-p4-tz1-q4d-solution.png)
 
@@ -595,7 +595,7 @@ iii) *Use a ruler to draw a vertical line up to the curve from 106 cm on the hei
 **Around 72 children have a height greater than 106 cm*** ***[1]*** ***Answers between 66 and 72 are accepted.**
 
 ### Q10
-*As this is a large data set, use the *`open parentheses 80 over 2 close parentheses to the power of th equals 40 to the power of th`* value as the median.* 
+*As this is a large data set, use the *$( \frac{80}{2} )^{th} = 40^{th}$* value as the median.* 
 *Take a reading from 40 on the cumulative frequency axis, use a straight edge to be as accurate as possible.*
 
 ![6-4-hard-q5a](assets/044-6-4-hard-q5a.png)
@@ -612,7 +612,7 @@ iii) *Use a ruler to draw a vertical line up to the curve from 106 cm on the hei
 *This means there are (approximately) 28 swimmers with a time of 60 seconds or less to swim 50 metres.* 
 *Express this as a percentage by dividing 28 by the total number of swimmers (80) and multiplying by 100%, and compare to 25%.*
 
-`28 over 80 cross times 100 percent sign equals 35 percent sign`
+$\frac{28}{80} \times 100 \% = 35 \%$
 
 **[1]**
 
@@ -654,7 +654,7 @@ iii) *Use a ruler to draw a vertical line up to the curve from 106 cm on the hei
 
 > *To express this as a percentage, write this as a fraction out of the total number of office workers, 80, and multiply by 100%.*
 
-`5 over 80 cross times 100 percent sign equals 6.25 percent sign`
+$\frac{5}{80} \times 100 \% = 6.25 \%$
 
 **[1]**
 
@@ -665,7 +665,7 @@ iii) *Use a ruler to draw a vertical line up to the curve from 106 cm on the hei
 ### Q12
 i) *The 60*<sup>*th*</sup>* percentile will be 60% of the way through the number of children.*
 
-`60 percent sign space of space 100 space equals 60 over 100 space cross times space 100 space equals space 60`
+$60 \% of 100 = \frac{60}{100} \times 100 = 60$
 
 > *Use a ruler to draw a horizontal line from 60 on the cumulative frequency axis to the curve and then draw a vertical line down to the time axis.   *
 
@@ -729,6 +729,6 @@ ii) *Use the cumulative frequency graph to estimate the number of children who s
 > *This means there are (approximately) 56 parcels with a weight less than 3.4 kg. *
 *To express this as a percentage so we can compare to what Sue says, write 56 out of 80 as a fraction and multiplying by 100%.*
 
-`56 over 80 cross times 100 percent sign equals 70 percent sign`
+$\frac{56}{80} \times 100 \% = 70 \%$
 
 **Sue is not correct as approximately 70% of the parcels weighed less than 2.4 kg ****[1]**

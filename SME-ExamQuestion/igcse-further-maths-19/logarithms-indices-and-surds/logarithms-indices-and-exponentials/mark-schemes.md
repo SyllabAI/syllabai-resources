@@ -74,7 +74,7 @@ Plot the six points from the table, then join them with a single smooth curve
 > - Drawing straight lines between the points, or going over the curve repeatedly until it is furry, both lose the second mark
 
 ### 7((c)) — 4 marks
-The graph you have drawn is `y equals 2 to the power of open parentheses x over 2 plus 1 close parentheses end exponent plus 1`, so rearrange the equation until that expression appears
+The graph you have drawn is $y = 2^{( \frac{x}{2} + 1 )} + 1$, so rearrange the equation until that expression appears
 
 Start with the equation and use the power law on the left
 

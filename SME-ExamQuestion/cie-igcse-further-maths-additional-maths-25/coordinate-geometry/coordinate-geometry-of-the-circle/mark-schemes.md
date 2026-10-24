@@ -8,9 +8,9 @@
 ### Q1
 > *The tangent at *$P$* is perpendicular to the radius *$CP$
 
-> *Find the coordinates of *$C$* from *`open parentheses x minus a close parentheses squared plus open parentheses y minus b close parentheses squared equals r squared`* having centre *`open parentheses a comma space b close parentheses`
+> *Find the coordinates of *$C$* from *$( x - a )^{2} + ( y - b )^{2} = r^{2}$* having centre *$( a , b )$
 
-`C open parentheses 2 comma space 0 close parentheses`
+$C ( 2 , 0 )$
 
 **[B1]**
 
@@ -20,7 +20,7 @@
 
 > *Find the gradient of the radius *$CP$
 
-`table row cell m subscript C P end subscript end cell equals cell fraction numerator 8 minus 0 over denominator 8 minus 2 end fraction end cell row blank equals cell 4 over 3 end cell end table`
+$\begin{gathered} m_{C P} & = \frac{8 - 0}{8 - 2} \\ = \frac{4}{3} \end{gathered}$
 
 > *Find the gradient perpendicular to the radius *$CP$* (i.e. the negative reciprocal)*
 
@@ -31,15 +31,15 @@ $m=-\frac{3}{4}$
 > **[exam-tip]**
 > A quick check of the diagram confirms to you that this gradient is meant to be negative!
 
-> *Substitute *`open parentheses 8 comma space 8 close parentheses`* and *$m=-\frac{3}{4}$* into *`y minus y subscript 1 equals m open parentheses x minus x subscript 1 close parentheses`* for the equation of the tangent*
+> *Substitute *$( 8 , 8 )$* and *$m=-\frac{3}{4}$* into *$y - y_{1} = m ( x - x_{1} )$* for the equation of the tangent*
 
-`y minus 8 equals negative 3 over 4 open parentheses x minus 8 close parentheses`
+$y - 8 = - \frac{3}{4} ( x - 8 )$
 
 > *Rearrange into the form *$y=mx+c$
 
-`table row cell y minus 8 end cell equals cell negative 3 over 4 x plus 6 end cell end table`
+$\begin{gathered} y - 8 & = - \frac{3}{4} x + 6 \end{gathered}$
 
-`table row y equals cell negative 3 over 4 x plus 14 end cell end table`
+$\begin{gathered} y = - \frac{3}{4} x + 14 \end{gathered}$
 
 **[A1 A1]**
 
@@ -51,11 +51,11 @@ $m=-\frac{3}{4}$
 > **A1**: For $y=mx+c$ with the correct gradient.
 > 
 > **A1:** For $y=mx+c$ with the correct $y$-intercept.
-> *The point *$Q$* has coordinates *`open parentheses 0 comma space 14 close parentheses`* from the answer in part (a)*
+> *The point *$Q$* has coordinates *$( 0 , 14 )$* from the answer in part (a)*
 
-`Q open parentheses 0 comma space 14 close parentheses`
+$Q ( 0 , 14 )$
 
-> *Find the length of the radius *$CP$* from the equation *`open parentheses x minus 2 close parentheses squared plus y squared equals 100 equals 10 squared`
+> *Find the length of the radius *$CP$* from the equation *$( x - 2 )^{2} + y^{2} = 100 = 10^{2}$
 
 $CP=10$
 
@@ -69,7 +69,7 @@ $CP=10$
 
 > *To find *$PQ$* use the length formula (or Pythagoras on the horizontal and vertical differences)*
 
-`table row cell P Q end cell equals cell square root of open parentheses x subscript 2 minus x subscript 1 close parentheses squared plus open parentheses y subscript 2 minus y subscript 1 close parentheses squared end root end cell row blank equals cell square root of open parentheses 8 minus 0 close parentheses squared plus open parentheses 8 minus 14 close parentheses squared end root end cell end table`
+$\begin{gathered} P Q & = \sqrt{( x_{2} - x_{1} )^{2} + ( y_{2} - y_{1} )^{2}} \\ = \sqrt{( 8 - 0 )^{2} + ( 8 - 14 )^{2}} \end{gathered}$
 
 **[M1]**
 
@@ -78,7 +78,7 @@ $CP=10$
 
 > *Simplify*
 
-`table row cell P Q end cell equals cell square root of 100 end cell row blank equals 10 end table`
+$\begin{gathered} P Q & = \sqrt{100} \\ = 10 \end{gathered}$
 
 **[A1]**
 
@@ -91,26 +91,26 @@ $\frac{1}{2}\times10\times10$
 **[A1]**
 
 ### Q2
-> `open parentheses x minus a close parentheses squared plus open parentheses y minus b close parentheses squared equals r squared`* is the equation of a circle at centre *`open parentheses a comma space b close parentheses`* with radius *$r$
+> $( x - a )^{2} + ( y - b )^{2} = r^{2}$* is the equation of a circle at centre *$( a , b )$* with radius *$r$
 
-`open parentheses x minus 3 close parentheses squared plus open parentheses y minus 4 close parentheses squared equals 9`
+$( x - 3 )^{2} + ( y - 4 )^{2} = 9$
 
 **[B1]**
 > *First find the centre and radius of *$C_{2}$* by completing the square*
 
-`table row cell x squared minus 12 x plus y squared minus 16 y end cell equals cell k squared minus 100 end cell row cell open parentheses x minus 6 close parentheses squared minus 36 plus open parentheses y minus 8 close parentheses squared minus 64 end cell equals cell k squared minus 100 end cell row cell open parentheses x minus 6 close parentheses squared plus open parentheses y minus 8 close parentheses squared end cell equals cell k squared end cell end table`
+$\begin{gathered} x^{2} - 12 x + y^{2} - 16 y & = k^{2} - 100 \\ ( x - 6 )^{2} - 36 + ( y - 8 )^{2} - 64 & = k^{2} - 100 \\ ( x - 6 )^{2} + ( y - 8 )^{2} & = k^{2} \end{gathered}$
 
 **[M1 A1]**
 
-> *This has centre *`open parentheses 6 comma space 8 close parentheses`* and radius *$k$
+> *This has centre *$( 6 , 8 )$* and radius *$k$
 
-> *Calculate *$d$*, the distance between centres of *$C_{1}$* and *$C_{2}$*,  *`open parentheses 3 comma space 4 close parentheses`* and *`open parentheses 6 comma space 8 close parentheses`
+> *Calculate *$d$*, the distance between centres of *$C_{1}$* and *$C_{2}$*,  *$( 3 , 4 )$* and *$( 6 , 8 )$
 
-`d equals square root of open parentheses 6 minus 3 close parentheses squared plus open parentheses 8 minus 4 close parentheses squared end root`
+$d = \sqrt{( 6 - 3 )^{2} + ( 8 - 4 )^{2}}$
 
 > *Simplify to find *$d$
 
-`table row d equals cell square root of 3 squared plus 4 squared end root end cell row blank equals cell square root of 9 plus 16 end root end cell row blank equals cell square root of 25 end cell row blank equals 5 end table`
+$\begin{gathered} d = \sqrt{3^{2} + 4^{2}} \\ = \sqrt{9 + 16} \\ = \sqrt{25} \\ = 5 \end{gathered}$
 
 **[B1]**
 
@@ -161,7 +161,7 @@ $k=8$
 **[A1]**
 > *The equation of the common chord is the equation of the line connecting the two points of intersection*
 
-> *The quickest method to find *$w$* is to say *`open parentheses w comma space 7 close parentheses`* lies on *$x+y=10$
+> *The quickest method to find *$w$* is to say *$( w , 7 )$* lies on *$x+y=10$
 
 $w+7=10$
 
@@ -174,16 +174,16 @@ $w=3$
 ### Q3
 i) *Complete the square for *$x$* and for *$y$* in the given equation of the circle*
 
-`x squared minus 16 x plus y squared minus 10 y plus 73 equals 0
-open parentheses x minus 8 close parentheses squared minus 64 plus open parentheses y minus 5 close parentheses squared minus 25 plus 73 equals 0`
+$x^{2} - 16 x + y^{2} - 10 y + 73 = 0
+( x - 8 )^{2} - 64 + ( y - 5 )^{2} - 25 + 73 = 0$
 
 **[1]**
 
-`open parentheses x minus 8 close parentheses squared plus open parentheses y minus 5 close parentheses squared equals 16`
+$( x - 8 )^{2} + ( y - 5 )^{2} = 16$
 
 > * *
 
-> *Remember that the equation of a circle is  where *`open parentheses p comma space q close parentheses`* is the centre and *$r$* is the radius. *
+> *Remember that the equation of a circle is  where *$( p , q )$* is the centre and *$r$* is the radius. *
 *Therefore the centre of the circle is *
 
 **Centre: (8, 5)**  **[1]**
@@ -194,7 +194,7 @@ open parentheses x minus 8 close parentheses squared minus 64 plus open parenthe
 
 ii) *Find the distance between (10, 6.5) and the centre of the circle, (8, 5) found in part (i) *
 
-`square root of open parentheses 10 minus 8 close parentheses squared plus open parentheses 6.5 minus 5 close parentheses squared end root`
+$\sqrt{( 10 - 8 )^{2} + ( 6.5 - 5 )^{2}}$
 
 **[1]**
 
@@ -217,7 +217,7 @@ $\sqrt{2.25}=1.5$
 > *We should recognise the equation as the **equation of a circle** *$x^{2}+y^{2}=r^{2}$* where *$r$* is the radius and the centre is (0, 0) *
 *From this we can find the radius*
 
-`table attributes columnalign right center left columnspacing 0px end attributes row cell r squared end cell equals 16 row r equals 4 end table`
+$\begin{array}{rcl} r^{2} & = 16 \\ r = 4 \end{array}$
 
 > *Now, using a pair of compasses, draw a circle with centre (0, 0) and radius 4. The circumference should pass through  (4, 0), (0, 4), (-4, 0) and (0, -4) *
 
@@ -243,25 +243,25 @@ $\sqrt{2.25}=1.5$
 
 ![cie-spec1-q10](assets/009-cie-spec1-q10.png)
 
-> *First write the equation of the circle using the information given. *`open parentheses x minus h close parentheses squared plus open parentheses y minus k close parentheses squared equals r squared`* where *`open parentheses h comma space k close parentheses`* is the centre and *$r$* is the radius*
+> *First write the equation of the circle using the information given. *$( x - h )^{2} + ( y - k )^{2} = r^{2}$* where *$( h , k )$* is the centre and *$r$* is the radius*
 
-`open parentheses x minus 2 close parentheses squared plus open parentheses y plus 4 close parentheses squared equals 3 squared`
+$( x - 2 )^{2} + ( y + 4 )^{2} = 3^{2}$
 
 **[1]**
 
 > *Now substitute *$y=2x-3$* into the equation of the circle to find the two possible *$x$* values of the intersection of the line and circle*
 
-`table attributes columnalign right center left columnspacing 0px end attributes row cell open parentheses x minus 2 close parentheses squared plus open parentheses 2 x minus 3 plus 4 close parentheses squared end cell equals cell 3 squared end cell end table`
+$\begin{array}{rcl} ( x - 2 )^{2} + ( 2 x - 3 + 4 )^{2} & = 3^{2} \end{array}$
 
 **[1]**
 
 > *Solve for *$x$
 
-`table row cell x squared minus 4 x plus 4 plus open parentheses 2 x plus 1 close parentheses squared end cell equals 9 row cell x squared minus 4 x plus 4 plus 4 x squared plus 4 x plus 1 end cell equals 9 row cell 5 x squared plus 5 end cell equals 9 row cell 5 x squared end cell equals 4 row cell x squared end cell equals cell 4 over 5 end cell row x equals cell plus-or-minus fraction numerator 2 over denominator square root of 5 end fraction end cell end table`
+$\begin{gathered} x^{2} - 4 x + 4 + ( 2 x + 1 )^{2} & = 9 \\ x^{2} - 4 x + 4 + 4 x^{2} + 4 x + 1 & = 9 \\ 5 x^{2} + 5 & = 9 \\ 5 x^{2} & = 4 \\ x^{2} & = \frac{4}{5} \\ x = \pm \frac{2}{ \sqrt{5} } \end{gathered}$
 
 > *Substitute both possible values into the equation of the straight line in order to find pairs of coordinate points for **A **and **B*
 
-> `table row y equals cell 2 open parentheses fraction numerator 2 over denominator square root of 5 end fraction close parentheses minus 3 end cell row blank equals cell fraction numerator 4 over denominator square root of 5 end fraction minus 3 end cell row A equals cell open parentheses fraction numerator 2 over denominator square root of 5 end fraction comma space fraction numerator 4 over denominator square root of 5 end fraction minus 3 close parentheses end cell end table`*           *`table row y equals cell 2 open parentheses negative fraction numerator 2 over denominator square root of 5 end fraction close parentheses minus 3 end cell row blank equals cell fraction numerator negative 4 over denominator square root of 5 end fraction minus 3 end cell row B equals cell open parentheses fraction numerator negative 2 over denominator square root of 5 end fraction comma space fraction numerator negative 4 over denominator square root of 5 end fraction minus 3 close parentheses end cell end table`
+> $\begin{gathered} y = 2 ( \frac{2}{ \sqrt{5} } ) - 3 \\ = \frac{4}{ \sqrt{5} } - 3 \\ A = ( \frac{2}{ \sqrt{5} } , \frac{4}{ \sqrt{5} } - 3 ) \end{gathered}$*           *$\begin{gathered} y = 2 ( - \frac{2}{ \sqrt{5} } ) - 3 \\ = \frac{- 4}{ \sqrt{5} } - 3 \\ B = ( \frac{- 2}{ \sqrt{5} } , \frac{- 4}{ \sqrt{5} } - 3 ) \end{gathered}$
 
 **one mark for each correct pair of coordinates**** [2]**
 
@@ -269,23 +269,23 @@ $\sqrt{2.25}=1.5$
 
 > *Find **AB** using Pythagoras' theorem*
 
-`table row cell A B end cell equals cell square root of open parentheses fraction numerator 2 over denominator square root of 5 end fraction minus fraction numerator negative 2 over denominator square root of 5 end fraction close parentheses squared plus space open parentheses fraction numerator 4 over denominator square root of 5 end fraction minus 3 minus open parentheses fraction numerator negative 4 over denominator square root of 5 end fraction minus 3 close parentheses close parentheses squared end root end cell end table`
+$\begin{gathered} A B & = \sqrt{( \frac{2}{ \sqrt{5} } - \frac{- 2}{ \sqrt{5} } )^{2} + ( \frac{4}{ \sqrt{5} } - 3 - ( \frac{- 4}{ \sqrt{5} } - 3 ) )^{2}} \end{gathered}$
 
 **[1]**
 
-`table attributes columnalign right center left columnspacing 0px end attributes row blank equals cell square root of open parentheses fraction numerator 4 over denominator square root of 5 end fraction close parentheses squared plus open parentheses fraction numerator 8 over denominator square root of 5 end fraction close parentheses squared end root end cell row blank equals cell square root of 16 over 5 plus 64 over 5 end root end cell row blank equals cell square root of 16 end cell row blank equals 4 end table`
+`table columnalign right center left columnspacing 0px end | _ = sqrt( ( (4)/(sqrt( 5) ) ^2 + ( (8)/(sqrt( 5) ) ^2 ) | | _ = sqrt( 16 / 5 + 64 / 5 ) | | _ = sqrt( 16 | | _ = 4 |`
 
 ** ****[1]**
 
 > *XY** is a perpendicular bisector of **AB** which is a chord. Therefore **XY** passes through the centre and therefore it is the diameter of the circle, so no real working is required! The radius is 3 so*
 
-`table row cell X Y end cell equals 6 end table`
+$\begin{gathered} X Y & = 6 \end{gathered}$
 
 **[1]**
 
 > *The area of the kite is*
 
-*Area *`table row blank equals cell 1 half cross times 4 cross times 6 end cell end table`
+*Area *$\begin{gathered} = 1 \frac{1}{2} \times 4 \times 6 \end{gathered}$
 
 **12** **[1]**
 
@@ -293,7 +293,7 @@ $\sqrt{2.25}=1.5$
 > *We should recognise the equation as the **equation of a circle** *$x^{2}+y^{2}=r^{2}$* where *$r$* is the radius and the centre is (0, 0) *
 *From this we can find the radius*
 
-`table attributes columnalign right center left columnspacing 0px end attributes row cell r squared end cell equals 9 row r equals 3 end table`
+$\begin{array}{rcl} r^{2} & = 9 \\ r = 3 \end{array}$
 
 > *Now, using a pair of compasses, draw a circle with centre (0, 0) and radius 3. The circumference should pass through  (3, 0), (0, 3), (-3, 0) and (0, -3) *
 

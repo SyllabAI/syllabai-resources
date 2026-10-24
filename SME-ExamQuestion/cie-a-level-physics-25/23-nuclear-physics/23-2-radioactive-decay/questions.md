@@ -10,7 +10,7 @@
 
 **Q1** [2 marks]
 
-A source of water is found to be contaminated with the radioactive isotope radium-228 `open parentheses Ra presubscript 88 presuperscript 228 close parentheses`.
+A source of water is found to be contaminated with the radioactive isotope radium-228 $( Ra_{88}^{228} )$.
 
 This isotope of radium has a half-life of 5.75 years.
 
@@ -44,7 +44,7 @@ Calculate
 
 (ii) the ratio
 
-`fraction numerator number space of space molecules space of space water space in space 1.0 space kg space of space water over denominator number space of space Ra presuperscript 228 space atoms space in space 1.0 space kg space of space water end fraction`
+`(number of molecules of water in 1.0 kg of water)/(number of Ra ^ 228 atoms in 1.0 kg of water)`
 
 [2]
 
@@ -151,7 +151,7 @@ State the feature of Fig. 1.1 which provides evidence for
 
 **Q3** [6 marks]
 
-The element neptunium has at least 24 isotopes. One of the isotopes is neptunium-231 `open parentheses Np presubscript 93 presuperscript 231 close parentheses`, which has a half-life of 49 minutes.
+The element neptunium has at least 24 isotopes. One of the isotopes is neptunium-231 $( Np_{93}^{231} )$, which has a half-life of 49 minutes.
 
 (i) State what is meant by *isotopes* and circle the possible isotopes of neptunium
 
@@ -179,11 +179,11 @@ The diagram shows the position of three isotopes of neptunium and their respecti
 
 Use Fig. 1.2 to complete the following nuclear decay equations
 
-`Np presubscript... end presubscript presuperscript... end presuperscript space rightwards arrow space Pu presubscript... end presubscript presuperscript... end presuperscript space plus space.....................`
+`Np _... ^... -> Pu _... ^... + .....................`
 
-`Np presubscript... end presubscript presuperscript... end presuperscript space rightwards arrow space straight U presubscript... end presubscript presuperscript... end presuperscript space plus space.....................`
+`Np _... ^... -> U _... ^... + .....................`
 
-`Np presubscript... end presubscript presuperscript... end presuperscript space rightwards arrow space Pa presubscript... end presubscript presuperscript... end presuperscript space plus space.....................`
+`Np _... ^... -> Pa _... ^... + .....................`
 
 ### Q4 — hard — 9 marks
 
@@ -233,11 +233,11 @@ State and explain how the student could demonstrate
 
 **Q5** [3 marks]
 
-Technetium-101 `open parentheses Tc presubscript 43 presuperscript 101 close parentheses` decays by beta-minus emission to form a stable isotope of Ruthenium `open parentheses Ru close parentheses`.
+Technetium-101 $( Tc_{43}^{101} )$ decays by beta-minus emission to form a stable isotope of Ruthenium $( Ru )$.
 
 Complete the equation for this decay.
 
-`Tc presubscript 43 presuperscript 101 space rightwards arrow space Ru presubscript...... end presubscript presuperscript...... end presuperscript space plus space straight beta presubscript...... end presubscript presuperscript...... end presuperscript space plus space......`
+`Tc _ 43 ^ 101 -> Ru _...... ^...... + beta _...... ^...... + ......`
 
 **Q5** [8 marks]
 
@@ -337,7 +337,7 @@ Calculate the fraction of undecayed nuclei *N *remaining* *relative to *N*<sub>*
 
 **Q7** [4 marks]
 
-The radioisotope uranium-238 `open parentheses straight U presubscript 92 presuperscript 238 close parentheses` decays through a decay chain to the radioisotope lead-206 `open parentheses Pb presubscript 82 presuperscript 206 close parentheses`, which is stable.
+The radioisotope uranium-238 `( U _ 92 ^ 238 )` decays through a decay chain to the radioisotope lead-206 $( Pb_{82}^{206} )$, which is stable.
 
 During the decay chain, 8 alpha particles are emitted, and X beta particles are emitted.
 
@@ -381,13 +381,13 @@ Use Fig. 1.1 to complete the nuclear decay equations for
 
 (i) the polonium isotope
 
-`Po presubscript 84 presuperscript 213 space rightwards arrow space Pb presubscript 82 presuperscript 209 space plus space.....................`
+$Po_{84}^{213} \rightarrow Pb_{82}^{209} + .....................$
 
 [1]
 
 (ii) the lead isotope
 
-`Pb presubscript 82 presuperscript 209 space rightwards arrow space Bi presubscript 83 presuperscript..... end presuperscript space plus space straight e presubscript negative 1 end presubscript presuperscript 0 space plus space.....................`
+`Pb _ 82 ^ 209 -> Bi _ 83 ^..... + e _ - 1 ^ 0 + .....................`
 
 [2]
 

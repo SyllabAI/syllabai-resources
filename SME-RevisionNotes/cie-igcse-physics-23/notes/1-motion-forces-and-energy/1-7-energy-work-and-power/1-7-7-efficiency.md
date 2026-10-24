@@ -45,11 +45,11 @@ recall and use these equations
 
 - Efficiency in terms of **energy**:
 
-`efficiency space equals space fraction numerator useful space energy space output over denominator total space energy space input end fraction space open parentheses cross times 100 percent sign close parentheses`
+$\text{efficiency} = \frac{useful \text{energy} output}{total \text{energy} input} ( \times 100 \% )$
 
 - Efficiency in terms of **power**:
 
-`efficiency space equals space fraction numerator useful space power space output over denominator total space power space input end fraction space open parentheses cross times 100 percent sign close parentheses`
+$\text{efficiency} = \frac{useful \text{power} output}{total \text{power} input} ( \times 100 \% )$
 
 - Efficiency can be given as a decimal between 0 and 1, or as a percentage between 0 and 100%.
 

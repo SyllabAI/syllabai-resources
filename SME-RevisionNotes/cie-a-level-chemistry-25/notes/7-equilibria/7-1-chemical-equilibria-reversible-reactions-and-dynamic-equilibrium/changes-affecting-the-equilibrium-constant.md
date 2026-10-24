@@ -26,7 +26,7 @@ guided_study: true
 
 - The equilibrium expression is:
 
-***K***<sub>**c**</sub>** = **`fraction numerator stretchy left square bracket H subscript 2 stretchy right square bracket bold space stretchy left square bracket I subscript 2 stretchy right square bracket over denominator stretchy left square bracket HI stretchy right square bracket to the power of bold 2 end fraction`**= 6.25 x 10**<sup>**–3**</sup>
+***K***<sub>**c**</sub>** = **`(stretchy left square bracket H _ 2 stretchy right square bracket stretchy left square bracket I _ 2 stretchy right square bracket)/(stretchy left square bracket HI stretchy right square bracket ^ 2)`**= 6.25 x 10**<sup>**–3**</sup>
 
 - Adding more HI makes the ratio of [ products ] to [ reactants ] smaller
 - To restore equilibrium, [H<sub>2</sub>] and [I<sub>2</sub>] increase and [HI] decreases
@@ -42,7 +42,7 @@ guided_study: true
 - Changes in temperature **change **the equilibrium constant *K*<sub>*c*</sub>
 - For an endothermic reaction such as:
 
-2HI (g) $\rightleftharpoons$ H<sub>2</sub> (g) + I<sub>2</sub> (g)   *K*<sub>c</sub> = `fraction numerator open square brackets straight H subscript 2 close square brackets space open square brackets straight I subscript 2 close square brackets over denominator open square brackets HI close square brackets squared end fraction`
+2HI (g) $\rightleftharpoons$ H<sub>2</sub> (g) + I<sub>2</sub> (g)   *K*<sub>c</sub> = $\frac{[ \mathrm{H}_{2} ] [ \mathrm{I}_{2} ]}{[ \text{HI} ]^{2}}$
 
 - With an increase in temperature:
 
@@ -52,7 +52,7 @@ guided_study: true
 
 - For an exothermic reaction such as:
 
-2SO<sub>2</sub> (g) + O<sub>2</sub> (g) $\rightleftharpoons$ 2SO<sub>3</sub> (g)   *K*<sub>c</sub> = `fraction numerator open square brackets SO subscript 3 close square brackets squared over denominator open square brackets SO subscript 2 close square brackets squared space open square brackets straight O subscript 2 close square brackets end fraction`
+2SO<sub>2</sub> (g) + O<sub>2</sub> (g) $\rightleftharpoons$ 2SO<sub>3</sub> (g)   *K*<sub>c</sub> = $\frac{[ SO_{3} ]^{2}}{[ SO_{2} ]^{2} [ \mathrm{O}_{2} ]}$
 
 - With an increase in temperature:
 

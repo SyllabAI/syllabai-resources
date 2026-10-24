@@ -190,4 +190,4 @@ guided_study: false
 > 
 > **Step 5: Calculate the resistivity of the wire**
 > 
-> `rho space equals space g r a d i e n t cross times A space equals space 15.71 cross times open parentheses 2.87 cross times 10 to the power of negative 8 end exponent close parentheses space equals space 4.51 cross times 10 to the power of negative 7 end exponent space straight capital omega straight m`
+> `rho = g r a d i e n t x A = 15.71 x ( 2.87 x 10 ^ - 8 ) = 4.51 x 10 ^ - 7 capital omega m`

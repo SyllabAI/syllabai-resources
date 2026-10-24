@@ -140,7 +140,7 @@ $4x+7y=1\,3x+10y=15$
 ### 10() — 3 marks — command: show — structured — from paper Jan 2019 · 4MA1/2H
 Solve the simultaneous equations
 
-`table row cell 4 x space plus space 5 y space end cell equals cell space 4 space end cell row cell 2 x space – space y space end cell equals cell space 9 end cell end table`
+$\begin{gathered} 4 x + 5 y & = 4 \\ 2 x - y & = 9 \end{gathered}$
 
 Show clear algebraic working.
 
@@ -149,7 +149,7 @@ Show clear algebraic working.
 ### 19() — 5 marks — command: show — structured — from paper Jan 2022 · 4MA1/1H
 Solve the simultaneous equations
 
-`table attributes columnalign right center left columnspacing 0px end attributes row cell 3 x squared plus y squared minus x y end cell equals 5 row y equals cell 2 x minus 3 end cell end table`
+$\begin{array}{rcl} 3 x^{2} + y^{2} - x y & = 5 \\ y = 2 x - 3 \end{array}$
 
 Show clear algebraic working.
 
@@ -174,7 +174,7 @@ $2x-3y=9$
 ### 8() — 3 marks — command: show — structured — from paper Jan 2019 · 4MA1/1HR
 Solve the simultaneous equations
 
-`table row cell 4 x space plus space 2 y space end cell equals cell space 9 space space end cell row cell x space – space 4 y space end cell equals cell space 9 end cell end table`
+$\begin{gathered} 4 x + 2 y & = 9 \\ x - 4 y & = 9 \end{gathered}$
 
 Show clear algebraic working.
 
@@ -185,7 +185,7 @@ $x=\,y=$
 ### 19() — 5 marks — command: show — structured — from paper Jan 2021 · 4MA1/1H
 Solve the simultaneous equations
 
-`table row cell x squared space – space 9 y space – space x space end cell equals cell space 2 y squared space – space 12 end cell row cell x space plus space 2 y space – space 1 space end cell equals cell space 0 end cell end table`
+$\begin{gathered} x^{2} - 9 y - x & = 2 y^{2} - 12 \\ x + 2 y - 1 & = 0 \end{gathered}$
 
 Show clear algebraic working.
 
@@ -212,7 +212,7 @@ $3y+2x=\frac{1}{2}\,2y-3x=-\frac{113}{12}\,$
 ### 9() — 3 marks — command: show — structured — from paper June 2018 · 4MA1/2H
 Solve the simultaneous equations
 
-`table attributes columnalign right center left columnspacing 0px end attributes row cell x space plus space y space end cell equals cell space 15 space end cell row cell 7 x space – space 5 y space end cell equals cell space 3 end cell end table`
+$\begin{array}{rcl} x + y & = 15 \\ 7 x - 5 y & = 3 \end{array}$
 
 Show clear algebraic working.
 
@@ -255,7 +255,7 @@ Find the total area of the pattern.
 ### 9() — 3 marks — command: show — structured — from paper June 2019 · 4MA1/2H
 Solve the simultaneous equations
 
-`table row cell x space plus space 2 y space end cell equals cell space minus 0.5 end cell row cell 3 x space minus space y space end cell equals cell space 16 end cell end table`
+$\begin{gathered} x + 2 y & = - 0.5 \\ 3 x - y & = 16 \end{gathered}$
 
 Show clear algebraic working.
 
@@ -266,7 +266,7 @@ $x=...............\,y=...............$
 ### 17() — 5 marks — command: show — structured — from paper Jan 2021 · 4MA1/1HR
 Solve the simultaneous equations
 
-`table row cell x space – space 6 y space end cell equals cell space 5 space end cell row cell x y space – space 2 y squared space end cell equals cell space 6 end cell end table`
+$\begin{gathered} x - 6 y & = 5 \\ x y - 2 y^{2} & = 6 \end{gathered}$
 
 Show clear algebraic working.
 
@@ -281,29 +281,29 @@ Work out the cost of one tea and the cost of one coffee.
 ## Q31 — medium — 4 marks · exam-questions
 
 ### 12() — 4 marks — command: show — structured — from paper Jan 2021 · 4MA1/2HR
-Solve the simultaneous equations     `table row cell 2 x space plus space 7 y space end cell equals cell space 17 space end cell row cell 5 x space plus space 3 y space end cell equals cell space – 1 end cell end table`
+Solve the simultaneous equations     $\begin{gathered} 2 x + 7 y & = 17 \\ 5 x + 3 y & = - 1 \end{gathered}$
 
 Show clear algebraic working.
 
-`table row cell x space end cell equals cell space.................................. end cell row cell y space end cell equals cell space.................................. space end cell end table`
+$\begin{gathered} x & = .................................. \\ y & = .................................. \end{gathered}$
 
 ## Q32 — easy — 3 marks · exam-questions
 
 ### 7() — 3 marks — command: show — structured — from paper Jan 2020 · 4MA1/2HR
 Solve the simultaneous equations
 
-`table row cell 3 x space plus space 5 y space end cell equals cell space 6 space end cell row cell 7 x space – space 5 y space end cell equals cell space – 11 end cell end table`
+$\begin{gathered} 3 x + 5 y & = 6 \\ 7 x - 5 y & = - 11 \end{gathered}$
 
 Show clear algebraic working.
 
-`table row cell x space end cell equals cell space............... end cell row cell y space end cell equals cell space............... end cell end table`
+$\begin{gathered} x & = ............... \\ y & = ............... \end{gathered}$
 
 ## Q33 — very_hard — 5 marks · exam-questions
 
 ### 19() — 5 marks — command: show — structured — from paper June 2021 · 4MA1/2H
 Solve the simultaneous equations
 
-`table row cell y space end cell equals cell space 3 space – space 2 x space end cell row cell x squared space plus space y squared space end cell equals cell space 18 end cell end table`
+$\begin{gathered} y & = 3 - 2 x \\ x^{2} + y^{2} & = 18 \end{gathered}$
 
 Show clear algebraic working.
 
@@ -312,18 +312,18 @@ Show clear algebraic working.
 ### 10() — 3 marks — command: show — structured — from paper Jan 2022 · 4MA1/2H
 Solve the simultaneous equations
 
-`table attributes columnalign right center left columnspacing 0px end attributes row cell 3 x plus 5 y end cell equals cell 3.1 end cell row cell 6 x plus 3 y end cell equals cell 3.75 end cell end table`
+$\begin{array}{rcl} 3 x + 5 y & = 3.1 \\ 6 x + 3 y & = 3.75 \end{array}$
 
 Show clear algebraic working.
 
-`table row cell x space end cell equals cell space........................... end cell row cell y space end cell equals cell space........................... end cell end table`
+$\begin{gathered} x & = ........................... \\ y & = ........................... \end{gathered}$
 
 ## Q35 — medium — 3 marks · exam-questions
 
 ### 8() — 3 marks — command: solve — structured — from paper June 2021 · 4MA1/2H
 Solve the simultaneous equations
 
-`table row cell 5 a space plus space 2 c space end cell equals cell space 10 space end cell row cell 2 a space – space 4 c space end cell equals cell space 7 end cell end table`
+$\begin{gathered} 5 a + 2 c & = 10 \\ 2 a - 4 c & = 7 \end{gathered}$
 
 Show clear algebraic working.
 
@@ -340,7 +340,7 @@ Two straight lines intersect at point $P$.
 
 Circle the coordinates of $P$.
 
-| $(--3,--1)$ | `open parentheses negative 1 space comma negative space 1 third close parentheses` | $(--1,--3)$ | `open parentheses negative space 1 third space comma space minus 1 space close parentheses` |
+| $(--3,--1)$ | $( - 1 , - 1 \frac{1}{3} )$ | $(--1,--3)$ | $( - 1 \frac{1}{3} , - 1 )$ |
 |---|---|---|---|
 
 ## Q37 — very_hard — 6 marks · exam-questions
@@ -364,7 +364,7 @@ Find the coordinates of $A$ and the coordinates of $B$ Show clear algebraic work
 ### 15() — 4 marks — command: show — structured — from paper Nov 2020 · 4MA1/1H
 Solve the simultaneous equations
 
-`table row cell 7 x space – space 2 y space end cell equals cell space 34 space end cell row cell 3 x space plus space 5 y space end cell equals cell space minus 3 end cell end table`
+$\begin{gathered} 7 x - 2 y & = 34 \\ 3 x + 5 y & = - 3 \end{gathered}$
 
 Show clear algebraic working.
 
@@ -407,7 +407,7 @@ You **must** show your working.
 ### 21() — 4 marks — command: solve — structured — from paper June 2019 · 8300/1H
 Solve the simultaneous equations
 
-`table row cell 2 x space plus space 3 y space end cell equals cell space 5 p end cell row cell y space end cell equals cell space 2 x space plus space p end cell end table`
+$\begin{gathered} 2 x + 3 y & = 5 p \\ y & = 2 x + p \end{gathered}$
 
 where $p$ is a constant.
 
@@ -418,7 +418,7 @@ Give your answers in terms of $p$in their simplest form.
 ### 18() — 4 marks — command: solve — structured — from paper Nov 2020 · 8300/1H
 Solve the simultaneous equations
 
-`table row cell 2 x space plus space 4 y space end cell equals cell space – 9 space end cell row cell 2 y space end cell equals cell space 4 x space – space 7 end cell end table`
+$\begin{gathered} 2 x + 4 y & = - 9 \\ 2 y & = 4 x - 7 \end{gathered}$
 
 $x=........................\,y=........................$
 
@@ -427,7 +427,7 @@ $x=........................\,y=........................$
 ### 10() — 3 marks — command: solve — structured — from paper June 2017 · 8300/1H
 Solve the simultaneous equations.
 
-`table row cell 2 x space plus space y space end cell equals cell space 18 end cell row cell x space minus space y space end cell equals cell space 6 end cell row blank blank blank end table`
+$\begin{gathered} 2 x + y & = 18 \\ x - y & = 6 \\ \end{gathered}$
 
 ## Q45 — very_hard — 3 marks · exam-questions
 
@@ -471,7 +471,7 @@ $4x--3y=12$ and  $3x+2y=6$
 ### 5() — 3 marks — command: solve — structured — from paper Nov 2019 · 8300/3H
 Solve the simultaneous equations
 
-`table attributes columnalign right center left columnspacing 0px end attributes row cell 7 x space plus space 2 y space end cell equals cell space 36 space end cell row cell 3 x space plus space 2 y space end cell equals cell space 16 end cell end table`
+$\begin{array}{rcl} 7 x + 2 y & = 36 \\ 3 x + 2 y & = 16 \end{array}$
 
 $x=......................\,y=......................$
 
@@ -480,7 +480,7 @@ $x=......................\,y=......................$
 ### 10() — 4 marks — command: show — structured — from paper Specimen paper · 4MA1/1H
 Solve the simultaneous equations
 
-`table row cell 7 x plus 3 y end cell equals 20 row cell 3 x plus 5 y end cell equals 3 end table`
+$\begin{gathered} 7 x + 3 y & = 20 \\ 3 x + 5 y & = 3 \end{gathered}$
 
 Show clear algebraic working.
 
@@ -500,7 +500,7 @@ Do **not** use a graphical method.
 ### 20() — 6 marks — command: show — structured — from paper Nov 2020 · J560/04
 Solve.
 
-`table attributes columnalign right center left columnspacing 0px end attributes row cell x squared plus y squared end cell equals 34 row y equals cell x plus 2 end cell end table`
+$\begin{array}{rcl} x^{2} + y^{2} & = 34 \\ y = x + 2 \end{array}$
 
 Show your working.
 
@@ -522,7 +522,7 @@ $y$ = ....................
 ### 9() — 3 marks — command: show — structured — from paper 2023 June · 4MA1/1H
 Solve the simultaneous equations
 
-`table row cell 2 x plus 9 y end cell equals cell 14.5 end cell row cell 7 x plus 3 y end cell equals 8 end table`
+$\begin{gathered} 2 x + 9 y & = 14.5 \\ 7 x + 3 y & = 8 \end{gathered}$
 
 Show clear algebraic working.
 
@@ -572,7 +572,7 @@ Calculate the value of *t *.
 ### 20((b)) — 5 marks — command: find — structured — from paper Nov 2018 · J560/06
 Given that
 
-`m open parentheses table row 4 row 1 end table close parentheses space plus space n open parentheses table row 5 row 2 end table close parentheses space equals space open parentheses table row 12 row 6 end table close parentheses`
+$m ( \begin{gathered} 4 \\ 1 \end{gathered} ) + n ( \begin{gathered} 5 \\ 2 \end{gathered} ) = ( \begin{gathered} 12 \\ 6 \end{gathered} )$
 
 find the value of $m$ and the value of $n$.
 
@@ -585,7 +585,7 @@ $n$ = .......................
 ### 21() — 5 marks — command: show — structured — from paper 2023 June · 4MA1/2H
 Solve the simultaneous equations
 
-`table row cell 2 x squared plus 3 y squared end cell equals cell 11 space end cell row x equals cell 3 y – 1 end cell end table`
+$\begin{gathered} 2 x^{2} + 3 y^{2} & = 11 \\ x = 3 y - 1 \end{gathered}$
 
 Show clear algebraic working
 
@@ -611,7 +611,7 @@ Here is the graph of the equation $2y+x=1$ drawn on a grid.
 
 By drawing another straight line on the grid, solve the simultaneous equations
 
-`table row cell y minus x minus 2 end cell equals 0 row cell 2 y plus x end cell equals 1 end table`
+$\begin{gathered} y - x - 2 & = 0 \\ 2 y + x & = 1 \end{gathered}$
 
 ## Q61 — very_hard — 5 marks · exam-questions
 

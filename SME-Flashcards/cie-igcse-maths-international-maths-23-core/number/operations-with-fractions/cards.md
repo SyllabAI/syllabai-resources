@@ -79,7 +79,7 @@ It is easiest to **convert **the** mixed numbers** into **improper fractions** f
 
 E.g. $5\frac{2}{3}-4\frac{1}{6}$
 
-`table row cell fraction numerator 5 cross times 3 plus 2 over denominator 3 end fraction minus fraction numerator 4 cross times 6 plus 1 over denominator 6 end fraction end cell equals cell 17 over 3 minus 25 over 6 end cell row blank equals cell 34 over 6 minus 25 over 6 equals 9 over 6 equals 3 over 2 equals 1 1 half end cell row blank blank blank end table`
+$\begin{gathered} \frac{5 \times 3 + 2}{3} - \frac{4 \times 6 + 1}{6} & = \frac{17}{3} - \frac{25}{6} \\ = \frac{34}{6} - \frac{25}{6} = \frac{9}{6} = \frac{3}{2} = 1 1 \frac{1}{2} \\ \end{gathered}$
 
 
 
@@ -161,7 +161,7 @@ E.g. $\frac{3}{9}\div\frac{4}{5}=\frac{3}{9}\times\frac{5}{4}=\frac{15}{36}=\fra
 
 When **multiplying** two fractions together, you can cancel out a **common factor** between the **numerator **of **one fraction **and the **denominator **of the **other fraction**.
 
-E.g. `4 over 15 cross times 25 over 11 equals fraction numerator 4 over denominator stack down diagonal strike 15 with 3 below end fraction cross times fraction numerator stack down diagonal strike 25 with 5 on top over denominator 11 end fraction`.
+E.g. $\frac{4}{15} \times \frac{25}{11} = \frac{4}{\cancel{15}_{3}} \times \frac{\cancel{25}^{5}}{11}$.
 
 
 **BACK**

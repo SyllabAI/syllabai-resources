@@ -26,20 +26,20 @@ $x=\mathrm{log}y$
 ### Q2
 > *Use the relationship that *$\mathrm{log}_{a}y=x$* can be rewritten as *$a^{x}=y$
 
-`table row cell log subscript 3 open parentheses 4 x plus 1 close parentheses end cell equals 4 row cell 3 to the power of 4 end cell equals cell 4 x plus 1 end cell end table`
+$\begin{gathered} log_{3} ( 4 x + 1 ) & = 4 \\ 3^{4} & = 4 x + 1 \end{gathered}$
 
 **[M1]**
 
 > *Solve for *$x$
 
-`table row 81 equals cell 4 x plus 1 end cell row 80 equals cell 4 x end cell row cell 80 over 4 end cell equals x end table`
+$\begin{gathered} 81 = 4 x + 1 \\ 80 = 4 x \\ \frac{80}{4} & = x \end{gathered}$
 
 $x=20$
 
 **[A1]**
 
 > **[mark-scheme]**
-> **M1**: Reaching the line `table row cell 3 to the power of 4 end cell equals cell 4 x plus 1 end cell end table` or equivalent.
+> **M1**: Reaching the line $\begin{gathered} 3^{4} & = 4 x + 1 \end{gathered}$ or equivalent.
 > 
 > **A1**: Correct final answer.
 
@@ -81,16 +81,16 @@ $2^{n}=\frac{200000}{200}=1000$* *
 **[1]**
 
 > *Rewrite using the definition of logarithms *
-*If *$a^{x}=b$* then *`log subscript a open parentheses b close parentheses equals x`
+*If *$a^{x}=b$* then *$log_{a} ( b ) = x$
 
-`n equals log subscript 2 open parentheses 1000 close parentheses`
+$n = log_{2} ( 1000 )$
 
 **[1]**
 
 > *Rewrite by changing the base into base 10 as follows:*
-*If  *`x equals log subscript a open parentheses b close parentheses`* then *$x=\frac{\mathrm{log}b}{\mathrm{log}a}$
+*If  *$x = log_{a} ( b )$* then *$x=\frac{\mathrm{log}b}{\mathrm{log}a}$
 
-`log subscript 2 open parentheses 1000 close parentheses equals fraction numerator log space 1000 over denominator log space 2 end fraction`
+$log_{2} ( 1000 ) = \frac{\log 1000}{\log 2}$
 
 $n=\frac{\mathrm{log}1000}{\mathrm{log}2}$** [1]**
 
@@ -105,16 +105,16 @@ $A=2$** [1]**
 
 $b=1.2$** [1]**
 
-(ii) *Solve  *`2 cross times open parentheses 1.2 close parentheses to the power of n equals 5`*  by first dividing both sides by *$2$
+(ii) *Solve  *$2 \times ( 1.2 )^{n} = 5$*  by first dividing both sides by *$2$
 
 $1.2^{n}=\frac{5}{2}\,1.2^{n}=2.5$* *
 
 **[1]**
 
 > *Rewrite using the definition of logarithms*
-*If *$a^{x}=b$* then *`log subscript a open parentheses b close parentheses equals x`
+*If *$a^{x}=b$* then *$log_{a} ( b ) = x$
 
-`n equals log subscript 1.2 end subscript open parentheses 2.5 close parentheses`** [1]**
+$n = log_{1.2} ( 2.5 )$** [1]**
 
 ### Q5
 (i) *10% is the same as 0.1 *
@@ -123,29 +123,29 @@ $1.2^{n}=\frac{5}{2}\,1.2^{n}=2.5$* *
 
 $a=0.9$** [1]**
 
-(ii) *Solve  *`1000 cross times open parentheses 0.9 close parentheses to the power of n equals 800`*  by first dividing both sides by *$1000$
+(ii) *Solve  *$1000 \times ( 0.9 )^{n} = 800$*  by first dividing both sides by *$1000$
 
 $0.9^{n}=\frac{800}{1000}=0.8$* *
 
 **[1]**
 
 > *Rewrite using the definition of logarithms*
-*If *$a^{x}=b$* then *`log subscript a open parentheses b close parentheses equals x`
+*If *$a^{x}=b$* then *$log_{a} ( b ) = x$
 
-`log subscript 0.9 end subscript open parentheses 0.8 close parentheses equals n`
+$log_{0.9} ( 0.8 ) = n$
 
 **log of base 0.9 [1]**
 
-`log subscript 0.9 end subscript open parentheses 0.8 close parentheses`** [1]**
+$log_{0.9} ( 0.8 )$** [1]**
 
 $n=\frac{\mathrm{log}0.8}{\mathrm{log}0.9}$** also accepted (using logs of base 10)**
 
 ### Q6
-> *If *`log subscript a open parentheses b close parentheses equals x`* then  *$a^{x}=b$
+> *If *$log_{a} ( b ) = x$* then  *$a^{x}=b$
 
 > *If no base is shown then use log to the base ten*
 
-`table row cell log subscript 10 open parentheses 2 x close parentheses end cell equals 5 row a equals 10 row b equals cell 2 x end cell row blank blank blank row cell 2 x end cell equals cell 10 to the power of 5 end cell end table`
+$\begin{gathered} log_{10} ( 2 x ) & = 5 \\ a = 10 \\ b = 2 x \\ \\ 2 x & = 10^{5} \end{gathered}$
 
 **[1]**
 
@@ -156,7 +156,7 @@ $x=\frac{10^{5}}{2}=\frac{100000}{2}$* *
 $x=50000$**[1]**
 
 ### Q7
-> *If *$a^{x}=b$* then *`log subscript a open parentheses b close parentheses equals x`
+> *If *$a^{x}=b$* then *$log_{a} ( b ) = x$
 
 $a=10$
 
@@ -166,36 +166,36 @@ $x=\mathrm{log}y$ **[1]**
 $x=\mathrm{log}_{10}y$** also accepted**
 
 ### Q8
-> *Rewrite using the definition of logarithms: If *`log subscript a open parentheses b close parentheses equals x`* then *$a^{x}=b$
+> *Rewrite using the definition of logarithms: If *$log_{a} ( b ) = x$* then *$a^{x}=b$
 
-`3 to the power of x equals fourth root of 1 over 9 end root`
+`3 ^ x = fourth sqrt of 1 / 9 )`
 
 **[1]**
 
-> *Rewrite *`fourth root of 1 over 9 end root`* as a power*
+> *Rewrite *`fourth sqrt of 1 / 9 )`* as a power*
 
-`3 to the power of x equals open parentheses 1 over 9 close parentheses to the power of 1 fourth end exponent`
+$3^{x = ( \frac{1}{9} )^{1} \frac{1}{4}}$
 
 > *Rewrite 9 as a power of 3*
 
-`3 to the power of x equals open parentheses 1 over 3 squared close parentheses to the power of 1 fourth end exponent`
+$3^{x = ( \frac{1}{3^{2}} )^{1} \frac{1}{4}}$
 
 > *Rewrite *$\frac{1}{3^{2}}$* using the law of negative indices*
 
-`3 to the power of x equals open parentheses 3 to the power of negative 2 end exponent close parentheses to the power of 1 fourth end exponent`
+$3^{x = ( 3^{-2} } )^{1 \frac{1}{4}}$
 
 **[1]**
 
-> *Rewrite *`open parentheses 3 to the power of negative 2 end exponent close parentheses to the power of 1 fourth end exponent`* using the law *`open parentheses a to the power of m close parentheses to the power of n equals a to the power of m cross times n end exponent`
+> *Rewrite *$( 3^{- 2} )^{1 \frac{1}{4}}$* using the law *$( a^{m )^{n} = a^{m} \times n}$
 
 $3^{x}=3^{-\frac{2}{4}}=3^{-\frac{1}{2}}$
 
 > *As the bases are equal, the powers are also equal*
 
-`log subscript 3 open parentheses fourth root of 1 over 9 end root close parentheses equals negative 1 half`** ****[1]**
+`log _ 3 ( fourth sqrt of 1 / 9 ) ) = - 1 half`** ****[1]**
 
 ### Q9
-> *Rewrite using the definition of logarithms: If *`log subscript a open parentheses b close parentheses equals x`* then *$a^{x}=b$
+> *Rewrite using the definition of logarithms: If *$log_{a} ( b ) = x$* then *$a^{x}=b$
 
 $4^{x}=\frac{1}{16}$
 
@@ -211,10 +211,10 @@ $4^{x}=4^{-2}$
 
 > *As the bases are equal, the powers are also equal*
 
-`log subscript 4 open parentheses 1 over 16 close parentheses equals negative 2`** ****[1]**
+$log_{4} ( \frac{1}{16} ) = - 2$** ****[1]**
 
 ### Q10
-> *Rewrite using the definition of logarithms: If *`log subscript a open parentheses b close parentheses equals x`* then *$a^{x}=b$
+> *Rewrite using the definition of logarithms: If *$log_{a} ( b ) = x$* then *$a^{x}=b$
 
 $2^{x}=16$
 
@@ -227,11 +227,11 @@ $2^{x}=2^{4}$
 $\mathrm{log}_{2}16=4$** ****[1]**
 
 ### Q11
-> *This can be solved using logarithms, if *`log subscript a open parentheses b close parentheses equals x`* then *$a^{x}=b$
+> *This can be solved using logarithms, if *$log_{a} ( b ) = x$* then *$a^{x}=b$
 
 > *If no base is shown then use log to the base ten*
 
-`table row cell log subscript 10 open parentheses fraction numerator 1 over denominator 3 x minus 2 end fraction close parentheses end cell equals cell negative 2 end cell row a equals 10 row b equals cell 3 x minus 2 end cell row blank blank blank row cell fraction numerator 1 over denominator 3 x minus 2 end fraction end cell equals cell 10 to the power of negative 2 end exponent end cell end table`
+$\begin{gathered} log_{10} ( \frac{1}{3 x - 2} ) & = - 2 \\ a = 10 \\ b = 3 x - 2 \\ \\ \frac{1}{3 x - 2} & = 10^{- 2} \end{gathered}$
 
 **[1]**
 
@@ -252,11 +252,11 @@ $x=\frac{102}{3}$* *
 $x=34$**[1]**
 
 ### Q12
-> *This can be solved using logarithms, if *`log subscript a open parentheses b close parentheses equals x`* then *$a^{x}=b$
+> *This can be solved using logarithms, if *$log_{a} ( b ) = x$* then *$a^{x}=b$
 
 > *If no base is shown then use log to the base ten*
 
-`table row cell log subscript 10 open parentheses 5 x plus 2 close parentheses end cell equals 2 row a equals 10 row b equals cell 5 x plus 2 end cell row blank blank blank row cell 10 squared end cell equals cell 5 x plus 2 end cell end table`
+$\begin{gathered} log_{10} ( 5 x + 2 ) & = 2 \\ a = 10 \\ b = 5 x + 2 \\ \\ 10^{2} & = 5 x + 2 \end{gathered}$
 
 **[1]**
 

@@ -26,7 +26,7 @@ guided_study: false
 
 e.g.
 
-`straight f left parenthesis x right parenthesis equals open curly brackets table row x cell 0 less or equal than x less or equal than 1 end cell row 1 cell 1.5 less or equal than x less or equal than 2 end cell row 0 otherwise end table close`
+`f ( x ) = { | x 0 <= x <= 1 | | 1 1.5 <= x <= 2 | | 0 otherwise | close`
 
 - f(x) should be defined for all values of $x\inℝ$
 - The distribution (or **density**) of probabilities can be illustrated by the graph of f(x)
@@ -42,7 +42,7 @@ e.g.
     - This is the equivalent to $P(X=x)\geq0$  for a discrete random variable
   - The **area under the graph** must total 1
 
-`integral subscript negative infinity end subscript superscript infinity straight f left parenthesis x right parenthesis space straight d x equals 1`
+$integral_{ - } \text{infinity} ^{infinity} \mathrm{f} ( x ) \mathrm{d} x = 1$
 
 - This is equivalent to $Σ$ $P(X=x)=1$ for a discrete random variable
 
@@ -51,7 +51,7 @@ e.g.
 - The probability that the continuous random variable *X* lies in the interval
 $a\leqX\leqb$, where *X* has the probability density function f(x) , is given by
 
-`straight P left parenthesis a less or equal than X less or equal than b right parenthesis equals integral subscript a superscript b straight f left parenthesis straight x right parenthesis space dx`
+$\mathrm{P} ( a \text{less} \text{or} \text{equal} \text{than} X \text{less} \text{or} \text{equal} \text{than} b ) = \int_{a}^{b} \mathrm{f} ( \mathrm{x} ) \text{dx}$
 
 - As with the **normal** **distribution **$P(a\leqX\leqb)=P(a<X<b)$
 
@@ -74,7 +74,7 @@ $a\leqX\leqb$, where *X* has the probability density function f(x) , is given by
   - STEP 1
   As the **probability** **density** **function**, f(x), is usually given **piecewise** make sure you are clear about the values of x for which each part applies
 
-e.g.  `straight f left parenthesis straight x right parenthesis equals open curly brackets table row cell x minus 1 space space space 1 less or equal than x less or equal than 2 end cell row cell 3 minus x space space space 2 less or equal than x less or equal than 3 end cell row cell 0 space space space space space space space space otherwise end cell end table close`
+e.g.  `f ( x ) = { | x - 1 1 <= x <= 2 | | 3 - x 2 <= x <= 3 | | 0 otherwise | | close`
 
 - STEP 2
 
@@ -95,7 +95,7 @@ If simple to do so, **sketching** the **graph** of y= f(x) may help to find the 
 > **Worked Example**
 > The continuous random variable, $X$ , has probability density function
 > 
-> `straight f left parenthesis x right parenthesis equals open curly brackets table row cell 0.4 left parenthesis x minus 1 right parenthesis end cell cell 1 less or equal than x less or equal than 2 end cell row cell 0.1 left parenthesis 6 minus x right parenthesis end cell cell 2 less or equal than x less or equal than 6 end cell row cell space space space space space space space 0 end cell otherwise end table close`
+> `f ( x ) = { | 0.4 ( x - 1 ) | 1 <= x <= 2 | | 0.1 ( 6 - x ) | 2 <= x <= 6 | | 0 | otherwise | close`
 > 
 > (a) Show that $f(x)$ can represent a probability density function.
 > 
@@ -142,11 +142,11 @@ $P(X<m)=P(X>m)=0.5$
 
 - By solving one of the equations to find *m*
 
-`integral subscript negative infinity end subscript superscript m straight f left parenthesis x right parenthesis space dx space equals space 0.5`
+$\int_{- \infty}^{m} \mathrm{f} ( x ) \text{dx} = 0.5$
 
 and
 
-`integral subscript m superscript infinity straight f left parenthesis straight x right parenthesis space dx equals 0.5`
+$integral_{m}^{infinity} \mathrm{f} ( \mathrm{x} ) dx = 0.5$
 
 - If the graph of $y=f(x)$ is **symmetrical**, symmetry may be used to deduce the median
 - For ***piecewise functions***, you will need to determine which part of the function the median lies within to determine which equation to use
@@ -186,7 +186,7 @@ and
 > **Worked Example**
 > The continuous random variable $X$  has probability density function $f(x)$ defined as
 > 
-> `straight f left parenthesis x right parenthesis equals open curly brackets table row cell 1 over 64 x open parentheses 16 minus x squared close parentheses end cell cell 0 less or equal than x less or equal than 4 end cell row cell space space space space space space space space 0 end cell otherwise end table close space space space space space space space space space space space space space space space space space space space space space space`
+> $\mathrm{f} ( x ) = \{ \begin{gathered} \frac{1}{64} x ( 16 - x^{2} ) & 0 \text{less} \text{or} \text{equal} \text{than} x \text{less} \text{or} \text{equal} \text{than} 4 \\ 0 & \text{otherwise} \end{gathered} )$
 > 
 > (a) Find the median of *X*, giving your answer to three significant figures
 > 

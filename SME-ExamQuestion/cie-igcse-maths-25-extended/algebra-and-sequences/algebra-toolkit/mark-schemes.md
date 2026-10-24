@@ -31,22 +31,22 @@ $\frac{4a+2b}{10a+5b}$
 
 > *Factorise both the numerator and the denominator.*
 
-`fraction numerator 2 open parentheses 2 a plus b close parentheses over denominator 5 open parentheses 2 a plus b close parentheses end fraction`
+$\frac{2 ( 2 a + b )}{5 ( 2 a + b )}$
 
 **Either the numerator OR the denominator correctly factorised**** [1]**
 
-> *Cancel out the common factor *`open parentheses 2 a plus b close parentheses`*.*
+> *Cancel out the common factor *$( 2 a + b )$*.*
 
 $\frac{2}{5}$ **[1]**
 
 ### Q3
 > *Substitute the given values into the given formula.*
 
-`table row s equals cell 5 cross times 10 plus 1 half cross times 3 cross times 10 squared end cell row blank equals cell 50 plus 3 over 2 cross times 100 end cell end table`
+$\begin{gathered} s = 5 \times 10 + 1 \frac{1}{2} \times 3 \times 10^{2} \\ = 50 + \frac{3}{2} \times 100 \end{gathered}$
 
 **[1]**
 
-`table row s equals cell 50 plus 150 end cell row blank equals 200 end table`
+$\begin{gathered} s = 50 + 150 \\ = 200 \end{gathered}$
 
 $s=200$ **[1]**
 
@@ -94,11 +94,11 @@ $21\times1.80^{2}=m$
 
 > *If using your calculator it is good practice to put negative numbers in brackets.*
 
-`table row G equals cell open parentheses negative 5 close parentheses squared minus 4 open parentheses negative 5 close parentheses end cell end table`
+$\begin{gathered} G = ( - 5 )^{2} - 4 ( - 5 ) \end{gathered}$
 
 **[1]**
 
-`table row G equals cell 25 minus open parentheses negative 20 close parentheses end cell row blank equals cell 25 plus 20 end cell row blank equals 45 end table`
+$\begin{gathered} G = 25 - ( - 20 ) \\ = 25 + 20 \\ = 45 \end{gathered}$
 
 $G=45$ **[1]**
 
@@ -124,7 +124,7 @@ $y=\sqrt{7^{2}\times25}=\sqrt{49\times25}$
 ### Q9
 *Substitute **x** = 0.7 into the formula* * *
 
-`fraction numerator open parentheses 0.7 plus 1 close parentheses squared over denominator 2 cross times 0.7 end fraction`
+$\frac{( 0.7 + 1 )^{2}}{2 \times 0.7}$
 
 **[1]**
 
@@ -139,7 +139,7 @@ $y=\sqrt{7^{2}\times25}=\sqrt{49\times25}$
 ### Q10
 *Substitute **g** = -5 and **h** = 2 into the formula (remember to put negative numbers in brackets)*
 
-`f equals 3 cross times open parentheses negative 5 close parentheses plus 7 cross times 2`
+$f = 3 \times ( - 5 ) + 7 \times 2$
 
 **[1]**
 
@@ -152,13 +152,13 @@ $f=-1$** [1]**
 ### Q11
 > *Substitute *$c=8$* into the second equation and solve to find the value of *$b$*.*
 
-`table row cell b over 8 end cell equals 2 row b equals cell 2 cross times 8 end cell row b equals 16 end table`
+$\begin{gathered} \frac{b}{8} & = 2 \\ b = 2 \times 8 \\ b = 16 \end{gathered}$
 
 **[1]**
 
 > *Substitute *$b=16$* and *$c=8$* into the first equation and solve to find the value of *$a$*.*
 
-`table row cell a over 16 end cell equals cell 3 cross times 8 end cell row cell a over 16 end cell equals 24 row a equals cell 24 cross times 16 end cell end table`
+$\begin{gathered} \frac{a}{16} & = 3 \times 8 \\ \frac{a}{16} & = 24 \\ a = 24 \times 16 \end{gathered}$
 
 **[1]**
 
@@ -195,11 +195,11 @@ $s=75.6$ **[1]**
 ### Q14
 > *Substitute the given values into the given formula.*
 
-`table row s equals cell 12 cross times 4 plus 1 half cross times 10 cross times 4 squared end cell end table`
+$\begin{gathered} s = 12 \times 4 + 1 \frac{1}{2} \times 10 \times 4^{2} \end{gathered}$
 
 **[1]**
 
-`table row s equals cell 48 plus 5 cross times 16 end cell row blank equals cell 48 plus 80 end cell row blank equals 128 end table`
+$\begin{gathered} s = 48 + 5 \times 16 \\ = 48 + 80 \\ = 128 \end{gathered}$
 
 $s=128$ **[1]**
 
@@ -208,11 +208,11 @@ $s=128$ **[1]**
 
 > *If using your calculator it is good practice to put negative numbers in brackets.*
 
-`table row w equals cell 5 open parentheses negative 2 close parentheses squared minus open parentheses negative 2 close parentheses cubed end cell end table`
+$\begin{gathered} w = 5 ( - 2 )^{2} - ( - 2 )^{3} \end{gathered}$
 
 **[1]**
 
-`table row w equals cell 5 cross times 4 minus open parentheses negative 2 close parentheses cubed end cell row blank equals cell 20 minus open parentheses negative 8 close parentheses end cell row blank equals cell 20 plus 8 end cell row blank equals 28 end table`
+$\begin{gathered} w = 5 \times 4 - ( - 2 )^{3} \\ = 20 - ( - 8 ) \\ = 20 + 8 \\ = 28 \end{gathered}$
 
 $w=28$** ****[1]**
 
@@ -232,7 +232,7 @@ $y=11$** [1]**
 ### Q17
 > *Substitute the given values into the given formula*
 
-`s equals open parentheses 104.3 close parentheses open parentheses 26.5 close parentheses plus 1 half open parentheses negative 2.2 close parentheses open parentheses 26.5 close parentheses squared`
+$s = ( 104.3 ) ( 26.5 ) + 1 \frac{1}{2} ( - 2.2 ) ( 26.5 )^{2}$
 
 **[1]**
 

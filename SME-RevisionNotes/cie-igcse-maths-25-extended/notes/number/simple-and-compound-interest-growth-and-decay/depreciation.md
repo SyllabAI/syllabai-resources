@@ -43,7 +43,7 @@ guided_study: true
 
 - An **alternate method** is to use the **following formula** to calculate the final balance
 
-  - Final balance = `P open parentheses 1 minus r over 100 close parentheses to the power of n space end exponent` where
+  - Final balance = $P ( 1 - \frac{r}{100} )^{n }$ where
   
     - *P* is the original amount,
     - *r* is the % increase
@@ -77,9 +77,9 @@ guided_study: true
 > **Final answer:** **£12 282.50**
 > 
 > > *Alternative method*
-> *Use the formula for the final amount   *`P open parentheses 1 minus r over 100 close parentheses to the power of n space end exponent`
+> *Use the formula for the final amount   *$P ( 1 - \frac{r}{100} )^{n }$
 > *Substitute **P** = 20 000, **r** = 15 and **n** = 3 into the formula *
 > 
-> `20 space 000 open parentheses 1 minus 15 over 100 close parentheses cubed`
+> $20 000 ( 1 - \frac{15}{100} )^{3}$
 > 
 > **Final answer:** **£12 282.50**

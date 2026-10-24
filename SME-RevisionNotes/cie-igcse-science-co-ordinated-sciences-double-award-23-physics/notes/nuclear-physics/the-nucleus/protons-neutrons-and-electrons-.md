@@ -79,7 +79,7 @@ $\mathrm{nuclear} \mathrm{charge}=\mathrm{number} \mathrm{of} \mathrm{protons} \
 > - The number of protons is the proton number
 > - This is the Z number in the AZX notation
 > 
-> `straight X presubscript straight Z presuperscript straight A`
+> $\mathrm{X} pre_{Z} pre^{A}$
 > 
 > - This chromium nucleus has 24 protons
 > 

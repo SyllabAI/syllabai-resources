@@ -30,7 +30,7 @@ guided_study: false
 
 - To find the **volume** of **revolution** created when the area bounded by the function $y=f(x)$, the lines $x=a$ and $x=b$, and the *x*-axis is rotated 360° about the *x*-axis use the formula
 
-`begin mathsize 22px style V equals pi integral subscript a superscript b y squared d x end style`
+$V = \pi \int_{a}^{b} y^{2} d x$
 
 - The formula may look complicated or confusing at first due to the *y* and d*x*
 

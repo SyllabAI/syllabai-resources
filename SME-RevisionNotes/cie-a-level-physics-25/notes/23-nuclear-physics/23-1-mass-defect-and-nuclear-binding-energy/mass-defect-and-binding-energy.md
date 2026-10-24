@@ -27,7 +27,7 @@ guided_study: true
 
 - The mass defect $\Deltam$ of a nucleus can be calculated using:
 
-`increment m space equals space Z m subscript p space plus space open parentheses A space minus space Z close parentheses m subscript n space minus space m subscript t o t a l end subscript`
+$\Delta m = Z m_{p + ( A - Z ) m_{n} - m_{t} o t a l}$
 
 - Where:
 
@@ -72,7 +72,7 @@ $E=\Deltamc^{2}$
   - This is why nuclear reactions produce **much more energy** than chemical reactions
 
 > **Worked Example**
-> Calculate the binding energy per nucleon, in MeV, for the radioactive isotope potassium-40 (`straight K presubscript 19 presuperscript 40`).
+> Calculate the binding energy per nucleon, in MeV, for the radioactive isotope potassium-40 (`K _ 19 ^ 40`).
 > 
 > - Nuclear mass of potassium-40 = 39.953 548 u
 > - Mass of one neutron = 1.008 665 u
@@ -187,7 +187,7 @@ $E=\Deltamc^{2}$
 > - Number of protons, Z = 26
 > - Number of neutrons, A – Z = 56 – 26 = 30
 > 
-> Mass defect: `increment m space equals space Z m subscript p space plus space open parentheses A space minus space Z close parentheses m subscript n space minus space m subscript t o t a l end subscript`
+> Mass defect: $\Delta m = Z m_{p + ( A - Z ) m_{n} - m_{t} o t a l}$
 > 
 > ∆*m* = (26 × 1.673 × 10<sup>-27</sup>) + (30 × 1.675 × 10<sup>-27</sup>) – (9.288 × 10<sup>-26</sup>)
 > 

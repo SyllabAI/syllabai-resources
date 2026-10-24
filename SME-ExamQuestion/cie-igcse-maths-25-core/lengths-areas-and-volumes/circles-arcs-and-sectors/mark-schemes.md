@@ -203,7 +203,7 @@ $=32π$
 
 > *Substitute the known values into the formula and evaluate*
 
-`A equals fraction numerator open parentheses 8 cross times 2 close parentheses cross times 8 over denominator 2 end fraction`
+$A = \frac{( 8 \times 2 ) \times 8}{2}$
 
 **[1]**
 
@@ -239,7 +239,7 @@ $22π$** [1]**
 
 (ii) *Work out angle **OBC **by subtracting *$140^{\circ}$* from *$180^{\circ}$* (angles on a straight line add up to *$180^{\circ}$*).  *
 
-`table row cell Angle space O B C end cell equals cell 180 minus 140 end cell row blank equals cell 40 degree end cell end table`
+$\begin{gathered} \text{Angle} O B C & = 180 - 140 \\ = 40^{\circ} \end{gathered}$
 
 **[1]**
 
@@ -303,7 +303,7 @@ $C=π\times8=25.13274123m$
 
 ii) *The area of a circle is calculated using the formula *$A=πr^{2}$* where *$r$* is the radius of the circle*
 
-`A equals straight pi cross times open parentheses 8 divided by 2 close parentheses squared`
+$A = \mathrm{\pi } \times ( 8 \div 2 )^{2}$
 
 **[1]**
 
@@ -387,7 +387,7 @@ $\frac{4.25}{π}\times100=135.2817...$
 
 > *For a semicircle, the arc length is half of the circumference*
 
-`1 half open parentheses C close parentheses equals fraction numerator straight pi d over denominator 2 end fraction equals fraction numerator straight pi cross times 9 over denominator 2 end fraction equals 4.5 straight pi`
+$1 \frac{1}{2} ( C ) = \frac{ \mathrm{\pi } d}{2} = \frac{ \mathrm{\pi } \times 9}{2} = 4.5 \mathrm{\pi }$
 
 **1 mark for **$9π$** ****[2]**
 
@@ -448,7 +448,7 @@ $\mathrm{area}=π\times3^{2}$
 
 > *Round to 3 significant figures.*
 
-`28.2743... space equals space 28.3 space open parentheses 3 sf close parentheses`
+$28.2743... = 28.3 ( 3 sf )$
 
 > *The unit is *$\mathrm{cm}^{2}$* because we have found an **area**.*
 

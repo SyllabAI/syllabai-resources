@@ -11,10 +11,10 @@ $21x+9y=24$
 
 > *Subtract the original first equation from your new second equation to eliminate y*
 
-`space space space space space 21 x space plus space 9 y space equals space 24
-minus open parentheses 2 x space plus space 9 y space equals space 14.5 close parentheses
-minus negative negative negative negative negative negative negative negative negative
-space space space space space space space space space space space space space space space 19 x equals 9.5`
+$21 x + 9 y = 24
+- ( 2 x + 9 y = 14.5 )
+- - - - - - - - - -
+ 19 x = 9.5$
 
 **[M1]**
 
@@ -24,22 +24,22 @@ $x=\frac{9.5}{19}=0.5$
 
 > *Substitute **x** back into one of the original equations and solve to get y*
 
-`table row cell 2 open parentheses 0.5 close parentheses space plus space 9 y space end cell equals cell space 14.5 end cell row cell 1 plus 9 y end cell equals cell 14.5 end cell end table`
+$\begin{gathered} 2 ( 0.5 ) + 9 y & = 14.5 \\ 1 + 9 y & = 14.5 \end{gathered}$
 
 > *Subtract 1 from both sides*
 
-`table row cell 9 y space end cell equals cell space 13.5 end cell end table`
+$\begin{gathered} 9 y & = 13.5 \end{gathered}$
 
 > *Divide both sides by 9*
 
-`table row y equals cell fraction numerator 13.5 over denominator 9 end fraction end cell row y equals cell 1.5 end cell end table`
+$\begin{gathered} y = \frac{13.5}{9} \\ y = 1.5 \end{gathered}$
 
 **[M1]**
 
 > **[exam-tip]**
 > It is a good idea to check your answers, by substituting them into the original equation you didn't use to find $y$:
 > 
-> `table row cell 7 open parentheses 0.5 close parentheses plus 3 open parentheses 1.5 close parentheses end cell equals 8 row cell 3.5 plus 4.5 end cell equals 8 row 8 equals cell 8 space space space ✔ end cell end table`
+> $\begin{gathered} 7 ( 0.5 ) + 3 ( 1.5 ) & = 8 \\ 3.5 + 4.5 & = 8 \\ 8 = 8 ✔ \end{gathered}$
 
 $x=0.5,y=1.5$
 
@@ -57,19 +57,19 @@ $x=0.5,y=1.5$
 
 > *Make the coefficient of *$y$* the same by multiplying the second equation by 4*
 
-`table row cell 5 x plus y end cell equals cell 3 space space space space space open parentheses cross times 4 close parentheses end cell end table`* *
+$\begin{gathered} 5 x + y & = 3 ( \times 4 ) \end{gathered}$* *
 
 *gives:*
 
-`table row cell 20 x plus 4 y end cell equals 12 end table`
+$\begin{gathered} 20 x + 4 y & = 12 \end{gathered}$
 
 > *Write the first equation in the question underneath this equation*
 
-`table row cell 20 x plus 4 y end cell equals 12 row cell 6 x plus 4 y end cell equals 19 end table`
+$\begin{gathered} 20 x + 4 y & = 12 \\ 6 x + 4 y & = 19 \end{gathered}$
 
 > *Subtract the second equation from the first equation to eliminate the *$y$* variable*
 
-`table row cell 20 x plus 4 y end cell equals cell 12 space space space minus end cell row cell 6 x plus 4 y end cell equals 19 end table`
+$\begin{gathered} 20 x + 4 y & = 12 - \\ 6 x + 4 y & = 19 \end{gathered}$
 
 *___________*
 
@@ -79,13 +79,13 @@ $14x=-7$
 
 > *Solve for *$x$* by dividing both sides by 14*
 
-`table row cell fraction numerator 14 x over denominator 14 end fraction end cell equals cell fraction numerator negative 7 over denominator 14 end fraction end cell row x equals cell negative 0.5 end cell end table`
+$\begin{gathered} \frac{14 x}{14} & = \frac{- 7}{14} \\ x = - 0.5 \end{gathered}$
 
 **[M1]**
 
 > *Substitute the value of *$x$* into *$5x+y=3$*, using either of the original equations will work*
 
-`table row cell 5 open parentheses negative 0.5 close parentheses plus y end cell equals 3 row cell negative 2.5 plus y end cell equals 3 end table`
+$\begin{gathered} 5 ( - 0.5 ) + y & = 3 \\ - 2.5 + y & = 3 \end{gathered}$
 
 > *Solve for *$y$* by adding 2.5 to both sides*
 
@@ -102,7 +102,7 @@ $x=-0.5,y=5.5$
 
 > *Substitute the values for *$x$* and *$y$* into *$6x+4y=19$
 
-`6 open parentheses negative 0.5 close parentheses plus 4 open parentheses 5.5 close parentheses equals 19`
+$6 ( - 0.5 ) + 4 ( 5.5 ) = 19$
 
 > *Calculate the left hand side to check if it equals 19*
 

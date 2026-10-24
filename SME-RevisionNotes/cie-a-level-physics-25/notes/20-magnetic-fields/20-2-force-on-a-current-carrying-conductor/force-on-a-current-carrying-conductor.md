@@ -81,11 +81,11 @@ $F=BIL$
 > 
 > **Step 2:** **Write down the equation for force on a current-carrying conductor**
 > 
-> `F space equals space B I L sin open parentheses theta close parentheses`
+> $F = B I L \sin ( \\theta )$
 > 
 > **Step 3: Substitute in values and calculate**
 > 
-> `F space equals space open parentheses 80 space cross times space 10 to the power of negative 3 end exponent close parentheses space cross times space 0.87 space cross times space 1.4 space cross times space sin open parentheses 30 close parentheses space equals space 0.049 space straight N space open parentheses 2 space straight s. straight f. close parentheses`
+> $F = ( 80 \times 10^{- 3} ) \times 0.87 \times 1.4 \times \sin ( 30 ) = 0.049 \mathrm{N} ( 2 \mathrm{s} . \mathrm{f} . )$
 
 > **Exam Hint**
 > Remember that the direction of current flow is the flow of **positive** charge (positive to negative), and this is in the **opposite direction** to the flow of electrons

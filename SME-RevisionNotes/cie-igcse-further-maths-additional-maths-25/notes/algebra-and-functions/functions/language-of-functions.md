@@ -37,18 +37,18 @@ guided_study: false
 
 ### What notation is used for functions?
 
-- Functions are denoted by `straight f open parentheses x close parentheses comma space straight g open parentheses x close parentheses`, etc
+- Functions are denoted by $\mathrm{f} ( x ) , \mathrm{g} ( x )$, etc
 
-  - e.g.  `straight f open parentheses x close parentheses equals x squared minus 3 x plus 2`
+  - e.g.  $\mathrm{f} ( x ) = x^{2} - 3 x + 2$
   - These would be pronounced as 'f of x', 'g of x', etc
 - There is an alternative notation
 
-  - e.g.  `straight f colon x rightwards arrow from bar x squared minus 3 x plus 2`
+  - e.g.  $\mathrm{f} : x \rightarrow \text{from} \text{bar} x^{2} - 3 x + 2$
   - Which may be pronounced 'the function f maps x to x-squared minus three x plus two'
 
 ### How does a function work?
 
-- A function has an **input **`open parentheses x close parentheses` and **output **`left parenthesis straight f open parentheses x close parentheses space or space space y right parenthesis`
+- A function has an **input **$( x )$ and **output **$( \mathrm{f} ( x ) \text{or} y )$
 - Whatever goes in the bracket (instead of $x$) with f, replaces the $x$ on the other side
 
   - This is the input
@@ -68,15 +68,15 @@ guided_study: false
     - Solving this equation gives an input of 7
 
 > **Worked Example**
-> A function is defined as `straight f open parentheses x close parentheses space equals space 3 x to the power of 2 space end exponent minus space 2 x space plus space 1`.
+> A function is defined as $\mathrm{f} ( x ) = 3 x^{2 } - 2 x + 1$.
 > 
-> a) Find `straight f open parentheses 7 close parentheses`.
+> a) Find $\mathrm{f} ( 7 )$.
 > 
 > > *The input is *$x=7$*, so substitute 7 into the expression everywhere you see an *$x$*.*
 > 
 > > *  *
 > 
-> `straight f open parentheses 7 close parentheses space equals space 3 open parentheses 7 close parentheses squared space minus space 2 open parentheses 7 close parentheses space plus space 1`
+> $\mathrm{f} ( 7 ) = 3 ( 7 )^{2} - 2 ( 7 ) + 1$
 > 
 > > *  *
 > 
@@ -84,33 +84,33 @@ guided_study: false
 > 
 > > *  *
 > 
-> `table row cell straight f open parentheses 7 close parentheses space end cell equals cell space 3 open parentheses 49 close parentheses space minus space 14 space plus space 1 end cell row blank equals cell space 147 space minus space 14 space plus space 1 end cell end table`
+> $\begin{gathered} \mathrm{f} ( 7 ) & = 3 ( 49 ) - 14 + 1 \\ = 147 - 14 + 1 \end{gathered}$
 > 
 > > *  *
 > 
 > $f(7)=134$
 > 
-> b) Find `straight f open parentheses x space plus space 3 close parentheses`.
+> b) Find $\mathrm{f} ( x + 3 )$.
 > 
 > > *The input is *$x=x+3$* so substitute *$x+3$* into the expression everywhere you see an *$x$*.  *
 > 
-> > `straight f open parentheses x space plus space 3 close parentheses space equals space 3 open parentheses x space plus space 3 close parentheses squared space minus space 2 open parentheses x space plus space 3 close parentheses space plus space 1`*  *
+> > $\mathrm{f} ( x + 3 ) = 3 ( x + 3 )^{2} - 2 ( x + 3 ) + 1$*  *
 > 
 > > *Expand the brackets and simplify.  *
 > 
-> > `table row cell straight f open parentheses x space plus space 3 close parentheses space end cell equals cell space 3 open parentheses x squared space plus space 6 x space plus space 9 close parentheses space minus space 2 open parentheses x space plus space 3 close parentheses space plus space 1 end cell row blank equals cell space 3 x squared space plus space 18 x space plus space 27 space minus space 2 x space minus space 6 space plus space 1 end cell row blank equals cell space 3 x squared space plus space 16 x space plus space 22 end cell end table`*  *
+> > $\begin{gathered} \mathrm{f} ( x + 3 ) & = 3 ( x^{2} + 6 x + 9 ) - 2 ( x + 3 ) + 1 \\ = 3 x^{2} + 18 x + 27 - 2 x - 6 + 1 \\ = 3 x^{2} + 16 x + 22 \end{gathered}$*  *
 > 
 > $f(x+3)=3x^{2}+16x+22$
 > 
-> A second function is defined `straight g space colon space x space rightwards arrow from bar space 3 x space – space 4`.
+> A second function is defined $\mathrm{g} : x \rightarrow \text{from} \text{bar} 3 x - 4$.
 > 
-> c) Find the value of $x$ for which `straight g space colon space x space rightwards arrow from bar space minus 16`.
+> c) Find the value of $x$ for which $\mathrm{g} : x \rightarrow \text{from} \text{bar} - 16$.
 > 
 > > *Form an equation by setting the function equal to -16.*
 > 
 > > * *
 > 
-> `table row cell 3 x space minus space 4 space end cell equals cell space minus 16 end cell end table`
+> $\begin{gathered} 3 x - 4 & = - 16 \end{gathered}$
 > 
 > > * *
 > 
@@ -118,7 +118,7 @@ guided_study: false
 > 
 > > * *
 > 
-> `table row cell 3 x space minus space 4 space end cell equals cell space minus 16 end cell row cell 3 x space end cell equals cell space minus 12 end cell row cell x space end cell equals cell space minus 12 over 3 end cell end table`
+> $\begin{gathered} 3 x - 4 & = - 16 \\ 3 x & = - 12 \\ x & = - \frac{12}{3} \end{gathered}$
 > 
 > > * *
 > 
@@ -137,7 +137,7 @@ guided_study: false
 
   - If a domain is not stated then it is assumed that the domain is the **largest set of possible values**
   
-    - e.g. the largest set of possible values for the function `straight f open parentheses x close parentheses equals square root of x` would be $x\geq0$
+    - e.g. the largest set of possible values for the function $\mathrm{f} ( x ) = \sqrt{x}$ would be $x\geq0$
 - **Restrictions** on a domain can turn **many**-**one** functions into **one**-**one** functions
 
 ![Restricting the domain can turn a many-one function into a one-one function](../../../assets/6cb505714009-restricting-the-domain.png)
@@ -162,24 +162,24 @@ guided_study: false
   - $f(2)=5$ corresponds to the coordinates (2, 5)
 - Graphing the function can help you visualise the range
 
-  - For example the range of the function `straight f open parentheses x close parentheses space equals space x squared` for a domain of all real values of $x$ will be `straight f open parentheses x close parentheses space greater or equal than 0 space`as the *y-*coordinates on the graph are all greater than or equal to zero
+  - For example the range of the function $\mathrm{f} ( x ) = x^{2}$ for a domain of all real values of $x$ will be $\mathrm{f} ( x ) \ge 0$as the *y-*coordinates on the graph are all greater than or equal to zero
 
 > **Worked Example**
 > The many-one function, $f(x)$, is given by
 > 
-> `straight f open parentheses x close parentheses equals open parentheses x minus 3 close parentheses to the power of 2 space end exponent`
+> $\mathrm{f} ( x ) = ( x - 3 )^{2 }$
 > 
 > for all values of $x$.
 > 
-> a)  State the range of `straight f open parentheses x close parentheses`.
+> a)  State the range of $\mathrm{f} ( x )$.
 > 
 > > *The 'output' from the function *$f$* is a squared value and so will be positive, or zero.*
 > 
 > $f(x)\geq0$
 > 
-> b) The domain of `straight f open parentheses x close parentheses` is changed to $x>5$. Write down the changed range of `straight f open parentheses x close parentheses`.
+> b) The domain of $\mathrm{f} ( x )$ is changed to $x>5$. Write down the changed range of $\mathrm{f} ( x )$.
 > 
-> *As *$x>5$*, *`straight f open parentheses x close parentheses greater than open parentheses 5 minus 3 close parentheses squared`
+> *As *$x>5$*, *$\mathrm{f} ( x ) > ( 5 - 3 )^{2}$
 > 
 > $\thereforef(x)>4$
 
@@ -197,14 +197,14 @@ guided_study: false
   - The modulus function is indicated by a pair of vertical lines being written around the input
   
     - Similar to how brackets are used
-    - e.g.  `vertical line 7 vertical line equals 7 comma space space space vertical line minus 7 vertical line equals 7`
+    - e.g.  $\vert 7 \vert = 7 , \vert - 7 \vert = 7$
 
 ### What is the relationship between a function and its modulus?
 
-- For an 'output' such that `straight f open parentheses x close parentheses greater or equal than 0`, then `vertical line straight f open parentheses x close parentheses vertical line equals straight f open parentheses x close parentheses`
+- For an 'output' such that $\mathrm{f} ( x ) \ge 0$, then $\vert \mathrm{f} ( x ) \vert = \mathrm{f} ( x )$
 
   - Both the function and its modulus are positive
 
-- For an 'output' such that `straight f open parentheses x close parentheses less than 0`, then `vertical line straight f open parentheses x close parentheses vertical line equals negative straight f open parentheses x close parentheses`
+- For an 'output' such that $\mathrm{f} ( x ) < 0$, then $\vert \mathrm{f} ( x ) \vert = - \mathrm{f} ( x )$
 
   - The function value is **negative,** but its modulus is **positive**

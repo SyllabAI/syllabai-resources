@@ -215,7 +215,7 @@ the code forms an even number,
 
 **Q13** [4 marks]
 
-Given that `45 space cross times space straight C presuperscript n subscript 4 equals space open parentheses n plus 1 close parentheses space cross times to the power of n plus 1 end exponent straight C subscript 5`, find the value of $n$.
+Given that $45 \times \mathrm{C} pre^{n}_{4} = ( n + 1 ) \times^{n + 1} \mathrm{C}_{5}$, find the value of $n$.
 
 *Source: june 2021 paper 11 Q6B*
 

@@ -33,7 +33,7 @@ When are **exchange rates** used?
 
 **Exchange rates** can be written as ratios.
 
-E.g. `table row blank blank cell GBP space open parentheses £ close parentheses space colon space USD space open parentheses $ close parentheses space end cell row blank blank cell space space space space space space space space space space space space space space 1 space colon space 1.27 end cell end table`
+E.g. $\begin{gathered} \text{GBP} ( \pounds ) : \text{USD} ( \$ ) \\ 1 : 1.27 \end{gathered}$
 
 
 

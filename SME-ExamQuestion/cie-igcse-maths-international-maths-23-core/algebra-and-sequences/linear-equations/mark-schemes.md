@@ -16,17 +16,17 @@ $2x+x+23+2x-13=180$
 
 > *Simplify*
 
-`table row cell 5 x plus 10 end cell equals 180 end table`
+$\begin{gathered} 5 x + 10 & = 180 \end{gathered}$
 
 > *Solve for *$x$
 
-`table row cell 5 x end cell equals 170 row x equals cell 170 over 5 end cell row x equals 34 end table`
+$\begin{gathered} 5 x & = 170 \\ x = \frac{170}{5} \\ x = 34 \end{gathered}$
 
 **[M1 A1]**
 
 > *Substitute *$x=34$* into each of the expressions for the angles in the triangle*
 
-`table row cell 2 x end cell equals cell 2 open parentheses 34 close parentheses equals 68 end cell row cell x plus 23 end cell equals cell 34 plus 23 equals 57 end cell row cell 2 x minus 13 end cell equals cell 2 open parentheses 34 close parentheses minus 13 equals 55 end cell end table`
+$\begin{gathered} 2 x & = 2 ( 34 ) = 68 \\ x + 23 & = 34 + 23 = 57 \\ 2 x - 13 & = 2 ( 34 ) - 13 = 55 \end{gathered}$
 
 **[M1]**
 
@@ -185,7 +185,7 @@ $n=11$
 
 (ii) *Rearrange the terms to get the *$x$* terms together, then combine like terms.*
 
-> * *`table row cell 2 x plus x plus 2 x plus 23 minus 13 end cell equals 180 row blank blank blank row cell 5 x plus 10 end cell equals 180 end table`
+> * *$\begin{gathered} 2 x + x + 2 x + 23 - 13 & = 180 \\ \\ 5 x + 10 & = 180 \end{gathered}$
 
 *   ***[1] **
 
@@ -203,7 +203,7 @@ $x=34^{\circ}$* ***[1]**
 
 (iii) *Substitute *$x=34$* into each of the expressions for the angles in the triangle. *
 
-`table row cell 2 cross times 34 end cell equals 68 row blank blank blank row cell 34 plus 23 end cell equals 57 row blank blank blank row cell 2 cross times 34 minus 13 end cell equals 55 end table`
+$\begin{gathered} 2 \times 34 & = 68 \\ \\ 34 + 23 & = 57 \\ \\ 2 \times 34 - 13 & = 55 \end{gathered}$
 
 * ***[1]**
 
@@ -214,7 +214,7 @@ $x=34^{\circ}$* ***[1]**
 ### Q8
 > *Work out the perimeter of the kite by adding all the sides.*
 
-> * *`open parentheses 3 x minus 1 close parentheses plus open parentheses 3 x minus 1 close parentheses plus open parentheses 2 x plus 5 close parentheses plus open parentheses 2 x plus 5 close parentheses`
+> * *$( 3 x - 1 ) + ( 3 x - 1 ) + ( 2 x + 5 ) + ( 2 x + 5 )$
 
 * ***[1]**
 
@@ -242,7 +242,7 @@ $10x+8=33$
 
 > *Substitute *$x=2.5$* into *$3x-1$* (the length of the shorter side).*
 
-> * *`open parentheses 3 cross times 2.5 close parentheses minus 1 equals 6.5`
+> * *$( 3 \times 2.5 ) - 1 = 6.5$
 
 > * *
 
@@ -304,11 +304,11 @@ $15x+625=19x+117$
 
 > *Solve this equation for *$x$
 
-`table row cell 15 x plus 625 minus 117 end cell equals cell 19 x end cell row cell 15 x plus 508 end cell equals cell 19 x end cell end table`
+$\begin{gathered} 15 x + 625 - 117 & = 19 x \\ 15 x + 508 & = 19 x \end{gathered}$
 
 **[1]**
 
-`table row 508 equals cell 19 x minus 15 x end cell row 508 equals cell 4 x end cell row x equals cell 508 divided by 4 end cell end table`
+$\begin{gathered} 508 = 19 x - 15 x \\ 508 = 4 x \\ x = 508 \div 4 \end{gathered}$
 
 $x=127$ **[1]**
 
@@ -325,11 +325,11 @@ i) *Convert all masses to kilograms*
 
 > *Form an equation from the balanced scales*
 
-`table row cell 0.005 plus 0.01 plus 0.02 plus w end cell equals 2 end table`
+$\begin{gathered} 0.005 + 0.01 + 0.02 + w & = 2 \end{gathered}$
 
 **[1]**
 
-`table row cell 0.035 plus w end cell equals 2 end table`
+$\begin{gathered} 0.035 + w & = 2 \end{gathered}$
 
 > *Solve the equation for *$w$
 
@@ -366,17 +366,17 @@ $100\div2=50$
 ### Q12
 > *One magazine costs \$2.45. Find the cost of 8 magazines.*
 
-`8 space cross times space $ 2.45 space equals space $ 19.60`
+$8 \times \$ 2.45 = \$ 19.60$
 
 > *Esme spent \$60.55 in total so subtract the cost of the magazines to find out how much she spent on cards.*
 
-`$ 60.55 space minus space $ 19.60 space equals space $ 40.95`
+$\$ 60.55 - \$ 19.60 = \$ 40.95$
 
 **[1]**
 
 > *To work out how many cards she bought, divide the total cost of the cards by the cost of one card.*
 
-`$ 40.95 space divided by space $ 3.15 space equals space 13`
+$\$ 40.95 \div \$ 3.15 = 13$
 
 **13**** ****[1]**
 
@@ -459,7 +459,7 @@ $x=-1.5$* ***[1]**
 ### Q15
 > *Expand the bracket by multiplying everything inside the bracket by 5. *
 
-`5 open parentheses 2 x plus 4 close parentheses equals 10 x plus 20`
+$5 ( 2 x + 4 ) = 10 x + 20$
 
 > *Set equal to 85.*
 
@@ -537,7 +537,7 @@ $x=-2$* ***[1]**
 
 (iii) *Subtract *$4x$* from both sides of the equation.*
 
-> * *`table row cell 12 x minus 4 x minus 3 end cell equals 21 row blank blank blank row cell 8 x minus 3 end cell equals 21 end table`
+> * *$\begin{gathered} 12 x - 4 x - 3 & = 21 \\ \\ 8 x - 3 & = 21 \end{gathered}$
 
 > * Add 3 to both sides.*
 
@@ -562,7 +562,7 @@ $6=5x$
 
 > *Divide both sides by 5.*
 
-> * *`table row cell 6 divided by 5 end cell equals x row blank blank blank row cell 1.2 end cell equals x end table`
+> * *$\begin{gathered} 6 \div 5 & = x \\ \\ 1.2 & = x \end{gathered}$
 
 $x=1.2$* ***[1]**
 
@@ -586,19 +586,19 @@ $x=15-7$
 
 $x=8$ **[1]**
 
-ii) *Expand the bracket *`5 open parentheses 3 x plus 8 close parentheses`
+ii) *Expand the bracket *$5 ( 3 x + 8 )$
 
-`5 open parentheses 3 x plus 8 close parentheses equals 15 x plus 40`
+$5 ( 3 x + 8 ) = 15 x + 40$
 
 **[1]**
 
 > *Solve for *$x$
 
-`table row cell 15 x plus 40 end cell equals 10 row cell 15 x end cell equals cell 10 minus 40 end cell end table`
+$\begin{gathered} 15 x + 40 & = 10 \\ 15 x & = 10 - 40 \end{gathered}$
 
 **[1]**
 
-`table row cell 15 x end cell equals cell negative 30 end cell row x equals cell negative 30 divided by 15 end cell end table`
+$\begin{gathered} 15 x & = - 30 \\ x = - 30 \div 15 \end{gathered}$
 
 $x=-2$ **[1]**
 
@@ -650,7 +650,7 @@ $x=11$
 
 > *Divide both sides by 10 to find *$w$
 
-`table row cell 10 w end cell equals 70 row w equals 7 end table`
+$\begin{gathered} 10 w & = 70 \\ w = 7 \end{gathered}$
 
 > *So when *$w=7$*, *$10w$* will be equal to 70*
 
@@ -659,7 +659,7 @@ $w=7$ **[1]**
 
 > *Divide both sides by 5*
 
-`table row cell 5 x end cell equals 15 row x equals 3 end table`
+$\begin{gathered} 5 x & = 15 \\ x = 3 \end{gathered}$
 
 > *Find the value of *$12x$
 

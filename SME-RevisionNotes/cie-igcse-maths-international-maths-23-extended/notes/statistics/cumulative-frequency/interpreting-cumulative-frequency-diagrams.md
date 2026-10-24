@@ -70,7 +70,7 @@ guided_study: true
   - **STEP 1**
   Find the **position** of the upper quartile
   
-    - For $n$ data values this will be `fraction numerator 3 n over denominator 4 end fraction space open parentheses straight i. straight e. space space 3 cross times n over 4 close parentheses`
+    - For $n$ data values this will be $\frac{3 n}{4} ( \mathrm{i} . \mathrm{e} . 3 \times \frac{n}{4} )$
   - **STEP 2**
   Draw a **horizontal line** from $\frac{3n}{4}$ on the cumulative frequency axis until it hits the curve
   - **STEP 3**
@@ -89,7 +89,7 @@ guided_study: true
   - **STEP 1**
   Find the **position** of the *p*<sup>th</sup> percentile
   
-    - For $n$ data values, this will be `fraction numerator n p over denominator 100 end fraction space open parentheses straight i. straight e. space space n over 100 cross times p close parentheses`
+    - For $n$ data values, this will be $\frac{n p}{100} ( \mathrm{i} . \mathrm{e} . \frac{n}{100} \times p )$
     - So for the 10<sup>th</sup> percentile ($p=10$) with 60 data values ($n=60$)
     - The position is $\frac{10}{100}\times60=\frac{1}{10}\times60=6$
   - **STEP 2**
@@ -114,7 +114,7 @@ guided_study: true
 > 
 > > *There are 100 pieces of data, so *$n=100$
 > 
-> `table row cell n over 2 end cell equals cell 100 over 2 equals 50 end cell row cell n over 4 end cell equals cell 100 over 4 equals 25 end cell row cell fraction numerator 3 n over denominator 4 end fraction end cell equals cell 3 cross times 25 equals 75 end cell end table`
+> $\begin{gathered} \frac{n}{2} & = \frac{100}{2} = 50 \\ \frac{n}{4} & = \frac{100}{4} = 25 \\ \frac{3 n}{4} & = 3 \times 25 = 75 \end{gathered}$
 > 
 > > *So the median is the 50*<sup>*th*</sup>* value*
 > *The lower quartile is the 25*<sup>*th*</sup>* value*

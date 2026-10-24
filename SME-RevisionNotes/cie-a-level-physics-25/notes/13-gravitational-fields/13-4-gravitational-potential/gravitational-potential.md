@@ -75,9 +75,9 @@ $\Deltaϕ=ϕ_{f}-ϕ_{i}$
 
 - The change in gravitational potential $\Deltaϕ$ is calculated using the equation:
 
-`increment ϕ space equals space minus fraction numerator G M over denominator r subscript 2 end fraction space minus space open parentheses negative fraction numerator G M over denominator r subscript 1 end fraction close parentheses`
+$\Delta ϕ = - \frac{G M}{r_{2} } - ( - \frac{G M}{r_{1} } )$
 
-`increment ϕ space equals space space G M open parentheses 1 over r subscript 1 space minus space 1 over r subscript 2 close parentheses`
+$\Delta ϕ = G M ( \frac{1}{r} _{1} - \frac{1}{r} _{2} )$
 
 - Where:
 
@@ -104,7 +104,7 @@ $\Deltaϕ=ϕ_{f}-ϕ_{i}$
 > 
 > **Step 3:  Substitute in values**
 > 
-> `ϕ space equals space minus fraction numerator open parentheses 6.67 cross times 10 to the power of negative 11 end exponent close parentheses space cross times space open parentheses 3.5 cross times 10 to the power of 23 close parentheses over denominator 4.2 cross times 10 to the power of 6 end fraction space equals space minus 5.6 cross times 10 to the power of 6 space straight J space kg to the power of negative 1 end exponent`
+> $ϕ = - \frac{( 6.67 \times 10^{- 11} ) \times ( 3.5 \times 10^{23 )}{4.2 \times 10^{6} } = - 5.6 \times 10^{6} \mathrm{J} kg^{-1} }$
 
 > **Exam Hint**
 > Remember to keep the negative sign in your solution for gravitational potential. However, if you’re asked for the ‘change in’ gravitational potential, no negative sign should be included since you are finding a difference in values (between 0 at infinity and the gravitational potential from your calculation).
@@ -173,9 +173,9 @@ $\Deltaϕ=ϕ_{f}-ϕ_{i}$
 - The work done against a gravitational field is equal to the **change **in gravitational potential energy
 - The change in GPE when a small mass *m*<sub>*2*</sub> moves towards, or away from, another larger mass *m*<sub>*1*</sub> is given by:
 
-`increment E subscript p space equals space minus fraction numerator G m subscript 1 m subscript 2 over denominator r subscript 2 end fraction space minus space open parentheses negative fraction numerator G m subscript 1 m subscript 2 over denominator r subscript 1 end fraction close parentheses`
+$\Delta E_{p} = - \frac{G m_{1} m_{2} }{r_{2} } - ( - \frac{G m_{1} m_{2} }{r_{1} } )$
 
-`increment E subscript p space equals space G m subscript 1 m subscript 2 open parentheses 1 over r subscript 1 space minus space 1 over r subscript 2 close parentheses`
+$\Delta E_{p} = G m_{1} m_{2} ( \frac{1}{r} _{1} - \frac{1}{r} _{2} )$
 
 - Where:
 
@@ -193,4 +193,4 @@ $\Deltaϕ=ϕ_{f}-ϕ_{i}$
 > 
 > Remember, multiplying two negative numbers equals a positive number, for example:
 > 
-> `negative open parentheses negative fraction numerator G M over denominator r end fraction close parentheses space equals space plus fraction numerator G M over denominator r end fraction`
+> $- ( - \frac{G M}{r} ) = + \frac{G M}{r}$

@@ -24,8 +24,8 @@ guided_study: false
 
   - If the gradient of line *l*<sub>1 </sub>is *m*<sub>1</sub> and gradient of line *l*<sub>2 </sub>is *m*<sub>2 </sub>then...
   
-    - `m subscript 1 equals m subscript 2 rightwards double arrow l subscript 1 blank & blank l subscript 2 blank are blank parallel`
-    - `l subscript 1 blank & blank l subscript 2 blank are blank parallel rightwards double arrow m subscript 1 equals m subscript 2`
+    - `m _ 1 = m _ 2 <-> l _ 1 _ & _ l _ 2 _ are _ parallel`
+    - `l _ 1 _ & _ l _ 2 _ are _ parallel <-> m _ 1 = m _ 2`
 - To determine if two lines are parallel:
 
   - Rearrange into the gradient-intercept form $y=mx+c$
@@ -49,7 +49,7 @@ guided_study: false
 > 
 > > *Substitute in the coordinate that the line passes through: *
 > 
-> `1 equals 3 open parentheses 2 close parentheses plus d`
+> $1 = 3 ( 2 ) + d$
 > 
 > > *Simplify: *
 > 
@@ -78,8 +78,8 @@ guided_study: false
 
   - If the gradient of line *l*<sub>1 </sub>is *m*<sub>1</sub> and gradient of line *l*<sub>2 </sub>is *m*<sub>2 </sub>then...
   
-    - `space m subscript 1 cross times m subscript 2 equals negative 1 space rightwards double arrow space l subscript 1 space & space l subscript 2 space are space perpendicular`
-    - `l subscript 1 space & space l subscript 2 space are space perpendicular space rightwards double arrow space m subscript 1 cross times m subscript 2 equals negative 1`
+    - `m _ 1 x m _ 2 = - 1 <-> l _ 1 & l _ 2 are perpendicular`
+    - `l _ 1 & l _ 2 are perpendicular <-> m _ 1 x m _ 2 = - 1`
 - To determine if two lines are perpendicular:
 
   - Rearrange into the gradient-intercept form $y=mx+c$
@@ -109,17 +109,17 @@ guided_study: false
 > 
 > $m_{2}=-\frac{1}{2}$
 > 
-> > *Now we need to find *$c$* for the line we're after Do this by substituting the point *`open parentheses 2 comma space minus 3 close parentheses`* into the equation *$y=-\frac{1}{2}x+c$* and solving for *$c$
+> > *Now we need to find *$c$* for the line we're after Do this by substituting the point *$( 2 , - 3 )$* into the equation *$y=-\frac{1}{2}x+c$* and solving for *$c$
 > 
-> `table attributes columnalign right center left columnspacing 0px end attributes row cell negative 3 end cell equals cell negative 1 half cross times 2 plus c end cell row cell negative 3 end cell equals cell negative 1 plus c end cell row c equals cell negative 2 end cell end table`
+> $\begin{array}{rcl} - 3 & = - 1 \frac{1}{2} \times 2 + c \\ - 3 & = - 1 + c \\ c = - 2 \end{array}$
 > 
 > > *Now we know the line we want is *
 > 
-> `table attributes columnalign right center left columnspacing 0px end attributes row y equals cell negative 1 half x minus 2 end cell end table`
+> $\begin{array}{rcl} y = - 1 \frac{1}{2} x - 2 \end{array}$
 > 
 > > *But this is not in the form asked for in the question. So rearrange into the form *$ax+by+c=0$* where *$a$*, *$b$* and *$c$* are integers*
 > 
-> `table attributes columnalign right center left columnspacing 0px end attributes row cell y plus 1 half x plus 2 end cell equals 0 row cell 2 y plus x plus 4 end cell equals 0 end table`
+> $\begin{array}{rcl} y + 1 \frac{1}{2} x + 2 & = 0 \\ 2 y + x + 4 & = 0 \end{array}$
 > 
 > > *Write the final answer*
 > 

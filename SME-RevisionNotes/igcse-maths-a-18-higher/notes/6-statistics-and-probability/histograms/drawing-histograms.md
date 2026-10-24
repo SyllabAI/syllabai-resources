@@ -36,7 +36,7 @@ guided_study: true
 
 - **Drawing** a histogram first requires the calculation of the **frequency densities** for each class interval (group)
 
-  - Use  `table row cell frequency space density end cell equals cell fraction numerator frequency over denominator class space width end fraction end cell end table`
+  - Use  $\begin{gathered} \text{frequency} \text{density} & = \frac{frequency}{class width} \end{gathered}$
   - Exam questions often ask you to **finish** an incomplete histogram, rather than start with a blank graph
 - Once the frequency densities are known, the bars (rectangles) for each class interval can be **drawn**
 

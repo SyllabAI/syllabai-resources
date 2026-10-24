@@ -22,22 +22,21 @@ Hence find an expression in terms of x for the integral
 ### 1() — 4 marks — structured
 Use the substitution u = 4x + 1 to find
 
-`integral subscript 2 superscript 6 4 open parentheses 4 x plus 1 close parentheses to the power of 1 half end exponent space d x
-`
+$\int_{2}^{6} 4 ( 4 x + 1 )^{1 \frac{1}{2}} d x$
 
 ## Q3 — easy — 6 marks · exam-questions
 
 ### 1() — 6 marks — structured
 Use integration by parts to find an expression for
 
-`integral negative 3 x space sin space x space d x.`
+$\int - 3 x \sin x d x.$
 
 ## Q4 — easy — 7 marks · exam-questions
 
 ### 1() — 3 marks — structured
 Show that
 
-`fraction numerator 2 x space minus space 1 over denominator open parentheses x space plus space 1 close parentheses open parentheses x space minus space 2 close parentheses end fraction`
+$\frac{2 x - 1}{( x + 1 ) ( x - 2 )}$
 
 can be written in the form
 
@@ -46,7 +45,7 @@ $\frac{A}{x+1}+\frac{B}{x-2}$
 ### 2() — 4 marks — structured
 Hence find
 
-`integral fraction numerator 2 x space minus 1 over denominator open parentheses x space plus space 1 close parentheses open parentheses x space minus 2 close parentheses end fraction d x space space space space space x greater than 2`
+$\int \frac{2 x - 1}{( x + 1 ) ( x - 2 )} d x x > 2$
 
 writing your answer as a single logarithm.
 
@@ -66,7 +65,7 @@ The diagram below shows the region R, bounded by the straight lines with equatio
 ### 1() — 6 marks — structured
 Use the substitution u = sin x to find the value of
 
-`integral subscript 2 superscript pi over 2 end superscript cos squared space 2 x space cos x space d x.`
+$\int_{2}^{ \frac{\pi }{2} } \cos ^{2} 2 x \cos x d x.$
 
 ## Q7 — easy — 4 marks · exam-questions
 
@@ -85,7 +84,7 @@ Use a suitable substitution to find
 ### 1() — 7 marks — structured
 Use calculus and the substitution u = x + 4 to show that
 
-`integral subscript 1 superscript 2 fraction numerator x over denominator x space plus space 4 end fraction d x space equals space 1 plus 4 space I n space 5 over 6`
+$\int_{1}^{2} \frac{x}{x + 4} d x = 1 + 4 I n \frac{5}{6}$
 
 ## Q10 — medium — 6 marks · exam-questions
 
@@ -99,16 +98,16 @@ Use integration by parts to find, in terms of e, the exact value of
 ### 1() — 3 marks — structured
 Show that
 
-`fraction numerator 11 over denominator open parentheses 2 x minus 3 close parentheses open parentheses x plus 4 close parentheses end fraction`
+$\frac{11}{( 2 x - 3 ) ( x + 4 )}$
 
 can be written in the form
 
-`fraction numerator A over denominator open parentheses 2 x minus 3 close parentheses end fraction plus fraction numerator B over denominator open parentheses x plus 4 close parentheses end fraction`
+$\frac{A}{( 2 x - 3 )} + \frac{B}{( x + 4 )}$
 
 ### 2() — 4 marks — structured
 Hence find
 
-`integral fraction numerator 11 over denominator open parentheses 2 x minus 3 close parentheses open parentheses x plus 4 close parentheses end fraction d x`
+$\int \frac{11}{( 2 x - 3 ) ( x + 4 )} d x$
 
 writing your answer as a single logarithm.
 
@@ -130,14 +129,14 @@ Find the volume of the shape generated.
 ### 1() — 5 marks — structured
 Use a suitable substitution to find the following
 
-`integral 8 x space sin left parenthesis 3 x squared plus 1 right parenthesis space d x`
+$\int 8 x \sin ( 3 x^{2} + 1 ) d x$
 
 ## Q14 — hard — 5 marks · exam-questions
 
 ### 1() — 5 marks — structured
 Use the substitution u = 2 + In x to show that
 
-`integral fraction numerator 1 over denominator x left parenthesis 2 plus l n space x right parenthesis cubed end fraction space d x space equals fraction numerator negative 1 over denominator 2 left parenthesis ln space x plus space 2 right parenthesis squared end fraction space plus c`
+$\int \frac{1}{x ( 2 + l n x )^{3}} d x = \frac{- 1}{2 ( \ln x + 2 )^{2}} + c$
 
 where c is the constant of integration.
 
@@ -146,12 +145,12 @@ where c is the constant of integration.
 ### 1() — 5 marks — structured
 Use integration by parts to find
 
-`integral left parenthesis 2 x squared minus 1 right parenthesis e to the power of x space d x`
+$\int ( 2 x^{2} - 1 ) e^{x} d x$
 
 ### 2() — 4 marks — structured
 Show that
 
-`integral I n space x space d x space equals space x space ln space x minus x plus space c`
+$\int I n x d x = x \ln x - x + c$
 
 where c is the constant of integration.
 
@@ -167,7 +166,7 @@ as partial fractions.
 ### 2() — 3 marks — structured
 Hence, or otherwise, find
 
-`integral fraction numerator x squared minus 4 x plus space 7 over denominator left parenthesis x minus 1 right parenthesis left parenthesis x minus 3 right parenthesis squared space d x end fraction`
+$\int \frac{x^{2} - 4 x + 7}{( x - 1 ) ( x - 3 )^{2} d x}$
 
 ## Q17 — hard — 5 marks · exam-questions
 
@@ -201,45 +200,45 @@ Given that the volume of the solid formed when the region R is rotated 360° abo
 ### 1() — 3 marks — structured
 Find an expression for y given that
 
-`y space equals integral 6 x squared e to the power of x cubed end exponent space d x`
+$y = \int 6 x^{2} e^{x^{3}} d x$
 
 ### 2() — 3 marks — structured
 Integrate
 
-`integral left parenthesis 16 minus 32 x right parenthesis space sin left parenthesis 4 x minus 2 right parenthesis squared space d x`
+$\int ( 16 - 32 x ) \sin ( 4 x - 2 )^{2} d x$
 
 ## Q20 — very_hard — 5 marks · exam-questions
 
 ### 1() — 5 marks — structured
 Use calculus and the substitution x = cos $θ$ to find the exact value of
 
-`integral subscript fraction numerator 1 over denominator square root of 2 end fraction end subscript superscript fraction numerator square root of 3 over denominator 2 end fraction end superscript fraction numerator 1 over denominator square root of 1 minus x squared end root end fraction space d x`
+$\int_{\frac{1}{ \sqrt{2}}^{\frac{ \sqrt{3} }{2}} \frac{1}{ \sqrt{1} - x^{2}} } d x$
 
 ## Q21 — very_hard — 10 marks · exam-questions
 
 ### 1() — 6 marks — structured
 Find
 
-`integral x squared space sin space 3 x space d x`
+$\int x^{2} \sin 3 x d x$
 
 ### 2() — 4 marks — structured
 Find
 
-`integral fraction numerator I n space x over denominator x cubed end fraction space d x`
+$\int \frac{I n x}{x^{3}} d x$
 
 ## Q22 — very_hard — 6 marks · exam-questions
 
 ### 1() — 6 marks — structured
 Find the integral
 
-`integral fraction numerator 8 x squared minus 8 x minus 1 over denominator left parenthesis 4 x squared minus 1 right parenthesis left parenthesis x minus 2 right parenthesis end fraction d x`
+$\int \frac{8 x^{2} - 8 x - 1}{( 4 x^{2} - 1 ) ( x - 2 )} d x$
 
 ## Q23 — very_hard — 7 marks · exam-questions
 
 ### 1() — 7 marks — structured
 Use integration by parts to show that
 
-`integral e to the power of x sin x space d x space equals 1 half space e to the power of x left parenthesis sin x minus cos x right parenthesis space plus space C`
+$\int e^{x} \sin x d x = 1 \frac{1}{2} e^{x} ( \sin x - \cos x ) + C$
 
 where c is the constant of integration.
 
@@ -277,4 +276,4 @@ Express $\frac{7y+13}{12y^{2}+43y+36}$ in partial fractions.
 ### 2() — 4 marks — structured
 Use your answer from part (a) to help find
 
-`integral fraction numerator 7 x squared plus 13 over denominator 12 x to the power of 4 plus 43 x squared plus 36 end fraction space d x`
+$\int \frac{7 x^{2} + 13}{12 x^{4} + 43 x^{2} + 36} d x$

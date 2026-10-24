@@ -16,7 +16,7 @@ In the first 4 seconds
 - the speed changes from 0 to 17 m/s
 - as time goes from 0 to 4 seconds
 
-`table row acceleration equals cell fraction numerator 17 minus 0 over denominator 4 minus 0 end fraction end cell row blank equals cell 17 over 4 end cell row blank equals cell 4.25 end cell end table`
+$\begin{gathered} \text{acceleration} = \frac{17 - 0}{4 - 0} \\ = \frac{17}{4} \\ = 4.25 \end{gathered}$
 
 **Final answer:** **4.25 m/s**<sup>**2**</sup>
 
@@ -56,11 +56,11 @@ $34+136=170$
 > **A1**: For correct answer. You don't need to include units to get this mark.
 
 > **[exam-tip]**
-> You could also calculate this as a single area using the trapezium formula `Area equals 1 half open parentheses a plus b close parentheses h`
+> You could also calculate this as a single area using the trapezium formula $\text{Area} = 1 \frac{1}{2} ( a + b ) h$
 > 
 > - with $a=12$, $b=8$ and $h=17$
 > 
-> `Area equals 1 half open parentheses 8 plus 12 close parentheses 17 equals 1 half cross times 20 cross times 17 equals 170`
+> $\text{Area} = 1 \frac{1}{2} ( 8 + 12 ) 17 = 1 \frac{1}{2} \times 20 \times 17 = 170$
 
 ### Q2
 > *The distance is the area under the speed-time graph*
@@ -93,7 +93,7 @@ $t=\frac{25}{6}$
 > **[exam-tip]**
 > The area of trapezium formula
 > 
-> `1 half open parentheses a plus b close parentheses h`
+> $1 \frac{1}{2} ( a + b ) h$
 > 
 > could also be used to quickly calculate the total area.
 > *Acceleration for speed-time graph is the slope of the line*
@@ -253,7 +253,7 @@ $1\frac{2}{3}$ **m/s**<sup>**2**</sup> **[1]**
 
 > *The distance is the area under the speed-time graph.*
 
-> *Find the whole area under the graph is a trapezium so use the formula *`A equals 1 half open parentheses a plus b close parentheses h.`* **a** and **b **are the lengths of the parallel sides and **h** is the perpendicular height between them.*
+> *Find the whole area under the graph is a trapezium so use the formula *$A = 1 \frac{1}{2} ( a + b ) h.$* **a** and **b **are the lengths of the parallel sides and **h** is the perpendicular height between them.*
 
 **a*** = 50, ***b*** = 50 - 15 = 35, ***h ***=25*
  $\frac{1}{2}(50+35)(25)$
@@ -300,7 +300,7 @@ $m=\frac{12-0}{40-0}=\frac{12}{40}$
 
 > *The distance is the area under the speed-time graph.*
 
-> *Find the whole area under the graph is a trapezium so use the formula *`A equals 1 half open parentheses a plus b close parentheses h.`* **a** and **b **are the lengths of the parallel sides and **h** is the perpendicular height between them.*
+> *Find the whole area under the graph is a trapezium so use the formula *$A = 1 \frac{1}{2} ( a + b ) h.$* **a** and **b **are the lengths of the parallel sides and **h** is the perpendicular height between them.*
 
 **a*** = 300, ***b*** = 250 - 40 = 210, ***h ***=12* $\frac{1}{2}(300+210)(12)$
 
@@ -344,11 +344,11 @@ $240+2520+300$
 
 *Area under graph = area of trapezium + area of triangle*
 
-*Area of trapezium*`table row cell space table row equals cell space fraction numerator v space plus space open parentheses v space plus space 10 close parentheses over denominator 2 end fraction cross times 24 end cell end table end cell equals cell space 12 open parentheses 2 v space plus space 10 close parentheses end cell end table`
+*Area of trapezium*$\begin{gathered} \begin{gathered} = \frac{v + ( v + 10 )}{2} \times 24 \end{gathered} & = 12 ( 2 v + 10 ) \end{gathered}$
 
-*Area of triangle *`table row blank blank cell table row equals cell 1 half cross times open parentheses v space plus space 10 close parentheses cross times open parentheses 40 space minus space 24 close parentheses end cell end table table row equals cell space 8 open parentheses v space plus space 10 close parentheses end cell end table end cell end table`
+*Area of triangle *$\begin{gathered} \begin{gathered} = 1 \frac{1}{2} \times ( v + 10 ) \times ( 40 - 24 ) \end{gathered} \begin{gathered} = 8 ( v + 10 ) \end{gathered} \end{gathered}$
 
-*Area under the graph *`table row equals cell space 12 open parentheses 2 v space plus space 10 close parentheses space plus space 8 open parentheses v space plus space 10 close parentheses end cell end table`
+*Area under the graph *$\begin{gathered} = 12 ( 2 v + 10 ) + 8 ( v + 10 ) \end{gathered}$
 
 *Correct expression for one area*** ****[1] **
 *Correct expression for both areas*** ****[1]**
@@ -359,17 +359,17 @@ $1.24\mathrm{km}=1.24\times100m=1240m$
 
 > *Form an equation using the distance of 1240 m. *
 
-`12 open parentheses 2 v space plus space 10 close parentheses space plus space 8 open parentheses v space plus space 10 close parentheses space equals space 1240 space`
+$12 ( 2 v + 10 ) + 8 ( v + 10 ) = 1240$
 
 *Correct equation*** ****[1]**
 
 > *Simplify. *
 
-`table row cell 24 v space plus space 120 space plus space 8 v space plus space 80 space end cell equals cell space 1240 space end cell row cell 32 v space plus space 200 space end cell equals cell space 1240 end cell end table`
+$\begin{gathered} 24 v + 120 + 8 v + 80 & = 1240 \\ 32 v + 200 & = 1240 \end{gathered}$
 
 > *Solve by subtracting 200 and dividing by 32. *
 
-`table row cell 32 v space plus space 200 space end cell equals cell space 1240 end cell row cell 32 v space end cell equals cell space 1240 space minus space 200 end cell row cell 32 v space end cell equals cell space 1040 end cell row cell v space end cell equals cell fraction numerator space 1040 over denominator 32 end fraction end cell row cell v space end cell equals cell space 32.5 end cell end table`
+$\begin{gathered} 32 v + 200 & = 1240 \\ 32 v & = 1240 - 200 \\ 32 v & = 1040 \\ v & = \frac{ 1040}{32} \\ v & = 32.5 \end{gathered}$
 
 $v=32.5$** ****m/s**** ****[1]**
 
@@ -403,7 +403,7 @@ $1300\text{m}$ **[1]**
 
 ![cie-igcse-20120-oct-nov-p2-tz3-q19a-working](assets/012-cie-igcse-20120-oct-nov-p2-tz3-q19a-working.png)
 
-`table row cell m space end cell equals cell space fraction numerator v space plus space 10 space minus space v over denominator 24 end fraction end cell row cell m space end cell equals cell space 10 over 24 space end cell row blank equals cell 5 over 12 end cell end table`
+$\begin{gathered} m & = \frac{v + 10 - v}{24} \\ m & = \frac{10}{24} \\ = \frac{5}{12} \end{gathered}$
 
 **Acceleration = **$\frac{5}{12}$**m/s**<sup>**2 **</sup>** [1] **
 
@@ -427,15 +427,15 @@ $\frac{3}{10}$* ***m/s**<sup>**2**</sup>** ****[1]**
 **The decimal equivalent of 0.3 will also be accepted.**
 > *The distance travelled on a speed-time graph is the area under the line.*
 
-> *Find the area under the line for the first 20 seconds using the area of a trapezium rule, *`A equals 1 half open parentheses a plus b close parentheses h`*, where *$a$* and *$b$* are the lengths of the parallel edges of the trapezium and *$h$* is the perpendicular height between them.*
+> *Find the area under the line for the first 20 seconds using the area of a trapezium rule, *$A = 1 \frac{1}{2} ( a + b ) h$*, where *$a$* and *$b$* are the lengths of the parallel edges of the trapezium and *$h$* is the perpendicular height between them.*
 
-`A subscript 1 equals 1 half open parentheses 16 plus 10 close parentheses cross times 20
-A subscript 1 equals 260`
+$A_{1} = 1 \frac{1}{2} ( 16 + 10 ) \times 20
+A_{1} = 260$
 
 > *Find the distance travelled between 20 seconds and 70 seconds by calculating the area of the rectangle.*
 
-`A subscript 2 equals open parentheses 70 minus 20 close parentheses cross times 10
-A subscript 2 equals 500`
+$A_{2} = ( 70 - 20 ) \times 10
+A_{2} = 500$
 
 **One correct area statement**** [1]**
 
@@ -457,11 +457,11 @@ $\frac{8}{3}$ **or 2.67 m/s**<sup>**2**</sup>**  ****[1]**
 
 *We can divide this area into a rectangle and a triangle, or a trapezium as shown below*
 
-> *You are expected to know that the area of trapezium = *`1 half open parentheses a plus b close parentheses cross times h`
+> *You are expected to know that the area of trapezium = *$1 \frac{1}{2} ( a + b ) \times h$
 
 ![cie-igcse-2025-specimen-p4-q9b](assets/016-cie-igcse-2025-specimen-p4-q9b.png)
 
-*distance = area = *`1 half open parentheses 10 plus 13 close parentheses cross times 8`
+*distance = area = *$1 \frac{1}{2} ( 10 + 13 ) \times 8$
 
 **the calculation above, or '10×8 + 0.5×3×8'*** ***[1]**
 **Answer = 92 m**** [1]**
@@ -471,7 +471,7 @@ $\frac{8}{3}$ **or 2.67 m/s**<sup>**2**</sup>**  ****[1]**
 
 *acceleration = *$\frac{\mathrm{change} \mathrm{in} \mathrm{speed}}{\mathrm{time}}$ *Substitute (3.0 - 1.2) m/s as the change in speed and 3 seconds as the time into the formula* * *
 
-*acceleration = *`fraction numerator open parentheses 3.0 minus 1.2 close parentheses over denominator 3 end fraction equals 0.6`* m/s**<sup>2</sup>*
+*acceleration = *$\frac{( 3.0 - 1.2 )}{3} = 0.6$* m/s**<sup>2</sup>*
 
 **0.6 m/s**<sup>**2**</sup>** [1]**
 
@@ -499,11 +499,11 @@ $\frac{8}{3}$ **or 2.67 m/s**<sup>**2**</sup>**  ****[1]**
 
 * Find the area of the upper trapezium on the graph (by substituting in **a** = 12, **b** = 19 and **h** =1.8)* * *
 
-`1 half cross times open parentheses 12 plus 19 close parentheses cross times 1.8` * *
+$1 \frac{1}{2} \times ( 12 + 19 ) \times 1.8$ * *
 
 *Add both areas together* * *
 
-`19 cross times 1.2 space plus 1 half cross times open parentheses 12 plus 19 close parentheses cross times 1.8`
+$19 \times 1.2 + 1 \frac{1}{2} \times ( 12 + 19 ) \times 1.8$
 
 **[1]**
 
@@ -606,7 +606,7 @@ $\mathrm{Distance}=2200m$** [1]**
 
 > *From part (a), total distance = 2200 m and from the diagram, total time = 130 s*
 
-`table row cell Average space speed end cell equals cell fraction numerator 2200 space straight m over denominator 130 space straight s end fraction end cell row blank equals cell 16.92307692... space straight m divided by straight s end cell end table`
+$\begin{gathered} \text{Average} \text{speed} & = \frac{2200 \mathrm{m} }{130 \mathrm{s} } \\ = 16.92307692... \mathrm{m} \div \mathrm{s} \end{gathered}$
 
 > *Round your answer to at least 3 significant figures*
 

@@ -45,7 +45,7 @@ Same electron arrangement; **[1 mark]**
 
 iv) The percentage abundances of the isotopes <sup>63</sup>Cu and <sup>65</sup>Cu in this sample are:
 
-- Expression relating isotopic masses *A*<sub>r</sub> and X  `63.4 space equals space fraction numerator open parentheses open parentheses 1 minus straight X close parentheses space cross times space 65 close parentheses space plus space open parentheses straight X space cross times space 63 close parentheses over denominator 1 end fraction`; **[1 mark]**
+- Expression relating isotopic masses *A*<sub>r</sub> and X  $63.4 = \frac{( ( 1 - \mathrm{X} ) \times 65 ) + ( \mathrm{X} \times 63 )}{1}$; **[1 mark]**
 - Abundance of (Cu) 63 = 0.8 or 80%  
 **AND** 
 Abundance of (Cu) 65 = 0.2 or 20%; **[1 mark]**
@@ -60,7 +60,7 @@ Abundance of (Cu) 65 = 0.2 or 20%; **[1 mark]**
 - *Remember: **Chemical properties are determined by the number of electrons in the outer shell so if there are the same number of electrons, the isotopes will react in the same way*
 - *Part iv) requires manipulation of the equation used to calculate RAM:*
 
-  - `fraction numerator open parentheses abundance space of space isotope space straight x space mass close parentheses plus open parentheses abundance space of space isotope space straight x space mass close parentheses over denominator 100 end fraction`
+  - $\frac{ ( \text{abundance} of \text{isotope} \mathrm{x} \text{mass} ) + ( \text{abundance} of \text{isotope} \mathrm{x} \text{mass} ) }{100}$
 - *There are many ways this calculation can be done so a correct answer with no workings scores 2 marks*
 - *An alternative method is:*
 

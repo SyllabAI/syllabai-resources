@@ -65,7 +65,7 @@ guided_study: true
 > 
 > $\mathrm{Time} \mathrm{constant}=τ=RC$
 > 
-> `tau space equals space open parentheses 2.6 space cross times space 10 cubed close parentheses space cross times space open parentheses 60 space cross times space 10 to the power of negative 12 end exponent close parentheses space equals space 1.56 space cross times space 10 to the power of negative 7 end exponent space equals space 156 space ns`
+> $\\tau = ( 2.6 \times 10^{3} ) \times ( 60 \times 10^{- 12} ) = 1.56 \times 10^{- 7} = 156 \text{ns}$
 > 
 > **Step 2:** **Compare the time constant of 60 pF capacitor with the interval between adjacent peaks of the output signal**
 > 
@@ -77,7 +77,7 @@ guided_study: true
 > 
 > **Step 3: Calculate the time constant with the 800 µF capacitor**
 > 
-> `tau space equals space open parentheses 2.6 space cross times space 10 cubed close parentheses space cross times space open parentheses 800 space cross times space 10 to the power of negative 6 end exponent close parentheses space equals space 2.08 space straight s`
+> $\\tau = ( 2.6 \times 10^{3} ) \times ( 800 \times 10^{- 6} ) = 2.08 \mathrm{s}$
 > 
 > **Step 4: Compare the time constant of 800 µF capacitor with the interval between adjacent peaks of the output signal**
 > 

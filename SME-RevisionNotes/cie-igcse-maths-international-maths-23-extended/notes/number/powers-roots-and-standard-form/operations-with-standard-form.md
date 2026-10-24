@@ -19,9 +19,9 @@ guided_study: true
 
 ### How do I perform calculations in standard form using a calculator?
 
-- Make **use of brackets** around each number, and use the `box enclose cross times 10 to the power of x end enclose` button to enter numbers in standard form
+- Make **use of brackets** around each number, and use the `box x 10 ^ x` button to enter numbers in standard form
 
-  - e.g. `open parentheses 3 cross times 10 to the power of 8 close parentheses cross times open parentheses 2 cross times 10 to the power of negative 3 end exponent close parentheses`
+  - e.g. $( 3 \times 10^{8 ) \times ( 2 \times 10^{-3} } )$
   - You can instead use the standard multiplication and index buttons
 - If your calculator answer is **not in standard form**, but the question requires it:
 
@@ -36,7 +36,7 @@ guided_study: true
 
 #### Multiplication
 
-- Consider the example `open parentheses 3 cross times 10 squared close parentheses space cross times space open parentheses 4 cross times 10 to the power of 5 close parentheses`
+- Consider the example $( 3 \times 10^{2} ) \times ( 4 \times 10^{5} )$
 - **STEP 1**
 **Multiply **the **ordinary **numbers
 
@@ -56,7 +56,7 @@ Write the ordinary number in **standard form** and simplify the powers of 10 by 
 
 #### Division
 
-- Consider the example `open parentheses 2 cross times 10 to the power of negative 5 end exponent close parentheses space divided by space open parentheses 8 cross times 10 to the power of negative 3 end exponent close parentheses`
+- Consider the example $( 2 \times 10^{- 5} ) \div ( 8 \times 10^{- 3} )$
 - **STEP 1**
 **Divide **the **first ordinary **number by the **second ordinary** number
 
@@ -64,7 +64,7 @@ Write the ordinary number in **standard form** and simplify the powers of 10 by 
 - **STEP 2**
 **Divide **the **first power **of 10 by the **second power **of 10 by **subtracting **the indices
 
-  - e.g. `10 to the power of negative 5 end exponent divided by 10 to the power of negative 3 end exponent equals 10 to the power of negative 5 minus open parentheses negative 3 close parentheses end exponent equals 10 to the power of negative 2 end exponent`
+  - e.g. $10^{- 5} \div 10^{- 3} = 10^{- 5 - ( - 3 )} = 10^{- 2}$
   
     - Be careful with negatives!
 - **STEP 3**
@@ -80,7 +80,7 @@ Write the ordinary number in **standard form** and simplify the powers of 10 by 
 
 #### Method 1
 
-- Consider the example `open parentheses 3.2 cross times 10 cubed close parentheses plus open parentheses 2.1 cross times 10 squared close parentheses`
+- Consider the example $( 3.2 \times 10^{3} ) + ( 2.1 \times 10^{2} )$
 - **STEP 1**
 **Convert **both numbers to **ordinary **numbers
 
@@ -96,7 +96,7 @@ Write the ordinary number in **standard form** and simplify the powers of 10 by 
 
 #### Method 2
 
-- Consider the example `open parentheses 4 cross times 10 to the power of 50 close parentheses minus open parentheses 2 cross times 10 to the power of 48 close parentheses`
+- Consider the example $( 4 \times 10^{50} ) - ( 2 \times 10^{48} )$
 - **STEP 1**
 **Rewrite **the number with the **biggest power **of 10 so that it has the same power of 10 as the number with the **lowest power **of 10
 
@@ -106,7 +106,7 @@ Write the ordinary number in **standard form** and simplify the powers of 10 by 
 - **STEP 2**
 **Collect like terms** by adding or subtracting the **ordinary **numbers
 
-  - e.g. `open parentheses 400 cross times 10 to the power of 48 close parentheses minus open parentheses 2 cross times 10 to the power of 48 close parentheses equals 398 cross times 10 to the power of 48`
+  - e.g. $( 400 \times 10^{48} ) - ( 2 \times 10^{48} ) = 398 \times 10^{48}$
   
     - Do not change the power of 10
 - **STEP 3**
@@ -115,17 +115,17 @@ Write the ordinary number in **standard form** and simplify the powers of 10 by 
   - e.g. $398=3.98\times10^{2}$ and $3.98\times10^{2}\times10^{48}=3.98\times10^{50}$
 - This method works for** negative powers** too
 
-  - e.g. consider `open parentheses 8 cross times 10 to the power of negative 20 end exponent close parentheses minus open parentheses 5 cross times 10 to the power of negative 21 end exponent close parentheses`
+  - e.g. consider $( 8 \times 10^{- 20} ) - ( 5 \times 10^{- 21} )$
   
     - $8\times10^{-20}=8\times10^{1}\times10^{-21}=80\times10^{-21}$
-    - `open parentheses 80 cross times 10 to the power of negative 21 end exponent close parentheses minus open parentheses 5 cross times 10 to the power of negative 21 end exponent close parentheses equals 75 cross times 10 to the power of negative 21 end exponent`
+    - $( 80 \times 10^{- 21} ) - ( 5 \times 10^{- 21} ) = 75 \times 10^{- 21}$
     - $75=7.5\times10^{1}$ and $7.5\times10^{1}\times10^{-21}=7.5\times10^{-20}$
 
 > **Exam Hint**
 > The second method is the most efficient when the powers of 10 have large positive or large negative indices.
 
 > **Worked Example**
-> Without using a calculator, find  `open parentheses 45 cross times 10 to the power of negative 3 end exponent close parentheses space divided by space open parentheses 0.9 cross times 10 to the power of 5 close parentheses`.
+> Without using a calculator, find  $( 45 \times 10^{- 3} ) \div ( 0.9 \times 10^{5} )$.
 > 
 > Write your answer in the form $A\times10^{n}$, where $1\leqA<10$ and $n$ is an integer.
 > 
@@ -145,7 +145,7 @@ Write the ordinary number in **standard form** and simplify the powers of 10 by 
 > 
 > > *Combine back together*
 > 
-> `equation``open parentheses 45 cross times 10 to the power of negative 3 end exponent close parentheses space divided by space open parentheses 0.9 cross times 10 to the power of 5 close parentheses equals 50 cross times 10 to the power of negative 8 end exponent`
+> `equation`$( 45 \times 10^{- 3} ) \div ( 0.9 \times 10^{5 ) = 50 \times 10^{-8} }$
 > 
 > > *Rewrite in standard form, where *$a$* is between 1 and 10*
 > 
@@ -154,7 +154,7 @@ Write the ordinary number in **standard form** and simplify the powers of 10 by 
 > $5\times10^{-7}$
 
 > **Worked Example**
-> Without using a calculator, find  `open parentheses 2.8 cross times 10 to the power of negative 6 end exponent close parentheses space plus space open parentheses 9.7 cross times 10 to the power of negative 8 end exponent close parentheses`.
+> Without using a calculator, find  $( 2.8 \times 10^{- 6} ) + ( 9.7 \times 10^{- 8} )$.
 > 
 > Write your answer in the form $A\times10^{n}$, where $1\leqA<10$ and $n$ is an integer.
 > 
@@ -166,7 +166,7 @@ Write the ordinary number in **standard form** and simplify the powers of 10 by 
 > 
 > > *The numbers can now be added together, keeping the power of 10 the same*
 > 
-> `open parentheses 280 cross times 10 to the power of negative 8 end exponent close parentheses plus open parentheses 9.7 cross times 10 to the power of negative 8 end exponent close parentheses equals 289.7 cross times 10 to the power of negative 8 end exponent`
+> $( 280 \times 10^{- 8} ) + ( 9.7 \times 10^{- 8} ) = 289.7 \times 10^{- 8}$
 > 
 > > *Write the number in standard form*
 > 

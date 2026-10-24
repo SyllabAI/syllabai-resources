@@ -75,7 +75,7 @@ Moles of ammonium nitrate:  0.1; **[1 mark]**
 **OR **
 Calculating Δ*H*: $\frac{2420}{0.1}$ 
 **OR **
-Calculating Δ*H*: `begin mathsize 14px style fraction numerator Answer space to space part space open parentheses straight b close parentheses over denominator 0.1 end fraction end style`; **[1 mark]**
+Calculating Δ*H*: $\frac{Answer \text{to} \text{part} ( \mathrm{b} )}{0.1}$; **[1 mark]**
 - Δ*H* = (+) 24.2 kJ / mol; **[1 mark]** 
 *Accept any number of significant figures except 1*
 * Error carried forward from the previous calculation(s) is allowed*
@@ -315,7 +315,7 @@ ii) The amount, in moles, of CuSO<sub>4</sub> in 2.00 g is:
 
 iii) The value of the enthalpy change *(ΔH),* in kilojoules per mole, for the reaction between zinc and copper(II) sulfate is:
 
-- `straight Q over straight n space bold OR space fraction numerator 1300 over denominator 0.0125 end fraction space bold OR space fraction numerator answer space to space straight b open parentheses straight i close parentheses over denominator answer space to space straight b open parentheses ii close parentheses end fraction`; **[1 mark]** *accept any number of sig figs in the numerator except 1*
+- `Q / n OR (1300)/(0.0125) OR (answer to b ( i ))/(answer to b ( ii ))`; **[1 mark]** *accept any number of sig figs in the numerator except 1*
 - Δ*H* = (-) 104 (kJ/mol); **[1 mark]** *accept any number of sig figs* *allow ECF *
 - Negative sign included; **[1 mark]** *Correct answer with no working and no sign or incorrect sign scores 2* *Correct answer with no working and correct sign scores 3* *104.5(04)   104.48   104.8   105 all score 2* *-104.5(04)   -104.48   -104.8   -105 all score 3*
 

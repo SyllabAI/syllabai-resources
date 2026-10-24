@@ -110,7 +110,7 @@ $P(A\cupB)=P(A)+P(B)$
 
 - The key phrase here is “**given** **that**” – it essentially means something has already happened.
 
-  - In set notation, “**given** **that**” is indicated by a vertical line ( **| **) so the above example would be written `text P( end text right enclose 2 to the power of nd space is space white end enclose space 1 to the power of st space is space white right parenthesis equals 5 over 8`
+  - In set notation, “**given** **that**” is indicated by a vertical line ( **| **) so the above example would be written `text P( end text right 2 ^ nd is white 1 ^ st is white ) = 5 / 8`
   - There are other phrases that imply or mean the same things as “given that”
 - Venn diagrams are helpful again but beware – the denominator of fractional probabilities will no longer be the total of all the frequencies or probabilities shown
 
@@ -120,14 +120,14 @@ $P(A\cupB)=P(A)+P(B)$
 
 - The diagrams above also show two more **conditional** **probability** results
 
-  - `straight P left parenthesis A intersection B right parenthesis equals straight P left parenthesis A right parenthesis cross times straight P left parenthesis B vertical line A right parenthesis`
-  - `straight P left parenthesis A intersection B right parenthesis equals straight P left parenthesis B right parenthesis cross times straight P left parenthesis A vertical line B right parenthesis`
+  - $\mathrm{P} ( A \cap B ) = \mathrm{P} ( A ) \times \mathrm{P} ( B \vert A )$
+  - $\mathrm{P} ( A \cap B ) = \mathrm{P} ( B ) \times \mathrm{P} ( A \vert B )$
   - These are essentially the same as letters are interchangeable
 
 - For **independent** **events** we know $P(A\capB)=P(A)\timesP(B)$ so
 
-  - `straight P left parenthesis B vertical line A right parenthesis equals fraction numerator horizontal strike straight P left parenthesis A right parenthesis end strike cross times straight P left parenthesis B right parenthesis over denominator horizontal strike straight P left parenthesis A right parenthesis end strike end fraction equals text P end text left parenthesis B right parenthesis`
-- and similarly `straight P left parenthesis A vertical line B right parenthesis equals straight P left parenthesis A right parenthesis`
+  - `P ( B | A ) = (-- P ( A ) x P ( B ))/(-- P ( A ) ) = text P end text ( B )`
+- and similarly $\mathrm{P} ( A \vert B ) = \mathrm{P} ( A )$
 - The independent result should make sense logically – if events *A* and *B*   are independent then the fact that event *B*  has already occurred has no effect on the probability of event *A* happening
 
 > **Worked Example**
@@ -137,11 +137,11 @@ $P(A\cupB)=P(A)+P(B)$
 > 
 > (a) Find
 > 
-> (i) `straight P left parenthesis A vertical line B right parenthesis`
+> (i) $\mathrm{P} ( A \vert B )$
 > 
-> (ii) `straight P left parenthesis B vertical line A apostrophe right parenthesis`
+> (ii) $\mathrm{P} ( B \vert A ' )$
 > 
-> (iii) `straight P left parenthesis C apostrophe vertical line A apostrophe right parenthesis`
+> (iii) $\mathrm{P} ( C ' \vert A ' )$
 > 
 > (b) Show, in two different ways, that the events $B$and $C$ are independent.
 > 
@@ -194,8 +194,8 @@ $P(A\cupB)=P(A)+P(B)$
 
 - You may need to use the results
 
-  - `straight P left parenthesis A intersection B right parenthesis equals straight P left parenthesis A right parenthesis cross times straight P left parenthesis B vertical line A right parenthesis`
-  - `straight P left parenthesis A vertical line B right parenthesis equals straight P left parenthesis A right parenthesis` (for independent events)
+  - $\mathrm{P} ( A \cap B ) = \mathrm{P} ( A ) \times \mathrm{P} ( B \vert A )$
+  - $\mathrm{P} ( A \vert B ) = \mathrm{P} ( A )$ (for independent events)
 
 > **Worked Example**
 > The incomplete two-way table below shows the type of main meal provided by 80 owners to their cat(s) or dog(s).

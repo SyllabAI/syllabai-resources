@@ -52,16 +52,16 @@ guided_study: false
 - If you are **given** one **complex **root, $z_{1}$, the **other **root** **is its **complex conjugate**, $z_{1}\ast$
 - You can then write its** quadratic equation** in **factorised form**
 
-  - `open parentheses z minus z subscript 1 close parentheses open parentheses z minus z subscript 1 asterisk times close parentheses equals 0`
+  - $( z - z_{1} ) ( z - z_{1} \text{asterisk} \times ) = 0$
   - **Expand **this to give the equation in **expanded form**  $az^{2}+bz+c=0$
   
     - Any **multiple** of this equation also works
 - A good** trick **when expanding is to **group** the **first two terms** in each bracket
 
-  - So `open parentheses straight z minus open parentheses 2 plus 3 straight i close parentheses close parentheses open parentheses straight z minus open parentheses 2 minus 3 straight i close parentheses close parentheses` becomes `open parentheses open parentheses z minus 2 close parentheses minus 3 straight i close parentheses open parentheses open parentheses z minus 2 close parentheses plus 3 straight i close parentheses`
+  - So $( \mathrm{z} - ( 2 + 3 \mathrm{i} ) ) ( \mathrm{z} - ( 2 - 3 \mathrm{i} ) )$ becomes $( ( z - 2 ) - 3 \mathrm{i} ) ( ( z - 2 ) + 3 \mathrm{i} )$
   - Then use the **difference of two squares**
   
-    - `open parentheses z minus 2 close parentheses squared minus open parentheses 3 straight i close parentheses squared identical to open parentheses z minus 2 close parentheses squared plus 9 identical to z squared minus 4 z plus 4 plus 9`
+    - $( z - 2 )^{2} - ( 3 \mathrm{i} )^{2} \equiv ( z - 2 )^{2} + 9 \equiv z^{2} - 4 z + 4 + 9$
   - The equation is therefore $z^{2}-4z+13=0$
 
 > **Exam Hint**
@@ -73,11 +73,11 @@ guided_study: false
 > > *Use the quadratic formula with *$a=1$*, *$b=-2$* and *$c=37$
 > *Find the discriminant *$b^{2}-4ac$
 > 
-> `table row cell b squared minus 4 a c end cell equals cell open parentheses negative 2 close parentheses squared minus 4 cross times 1 cross times 37 end cell row blank equals cell 4 minus 148 end cell row blank equals cell negative 144 end cell end table`
+> $\begin{gathered} b^{2} - 4 a c & = ( - 2 )^{2} - 4 \times 1 \times 37 \\ = 4 - 148 \\ = - 144 \end{gathered}$
 > 
 > > *Substitute these values into the quadratic formula *$\frac{-b\pm\sqrt{b^{2}-4ac}}{2a}$
 > 
-> `table row z equals cell fraction numerator negative open parentheses negative 2 close parentheses plus-or-minus square root of negative 144 end root over denominator 2 cross times 1 end fraction end cell row blank equals cell fraction numerator 2 plus-or-minus square root of negative 144 end root over denominator 2 end fraction end cell end table`
+> $\begin{gathered} z = \frac{- ( - 2 ) \pm \sqrt{- 144} }{2 \times 1} \\ = \frac{2 \pm \sqrt{- 144} }{2} \end{gathered}$
 > 
 > > *Use that *$\sqrt{-144}=\sqrt{144i^{2}}=12i$
 > 
@@ -94,25 +94,25 @@ guided_study: false
 > 
 > $-\frac{1}{2}-\frac{3i}{2}$
 > 
-> > *Write down the quadratic equation in factorised form, *`open parentheses z minus z subscript 1 close parentheses open parentheses z minus z subscript 1 asterisk times close parentheses equals 0`
+> > *Write down the quadratic equation in factorised form, *$( z - z_{1} ) ( z - z_{1} \text{asterisk} \times ) = 0$
 > 
-> `open parentheses z minus open parentheses negative 1 half plus fraction numerator 3 straight i over denominator 2 end fraction close parentheses close parentheses open parentheses z minus open parentheses negative 1 half minus fraction numerator 3 straight i over denominator 2 end fraction close parentheses close parentheses equals 0`
+> $( z - ( - 1 \frac{1}{2} + \frac{3 \mathrm{i} }{2} ) ) ( z - ( - 1 \frac{1}{2} - \frac{3 \mathrm{i} }{2} ) ) = 0$
 > 
 > > *Expand inside each bracket*
 > 
-> `open parentheses z plus 1 half minus fraction numerator 3 straight i over denominator 2 end fraction close parentheses open parentheses z plus 1 half plus fraction numerator 3 straight i over denominator 2 end fraction close parentheses equals 0`
+> $( z + 1 \frac{1}{2} - \frac{3 \mathrm{i} }{2} ) ( z + 1 \frac{1}{2} + \frac{3 \mathrm{i} }{2} ) = 0$
 > 
 > > *Group the first two terms in each bracket*
 > 
-> `open parentheses open parentheses z plus 1 half close parentheses minus fraction numerator 3 straight i over denominator 2 end fraction close parentheses open parentheses open parentheses z plus 1 half close parentheses plus fraction numerator 3 straight i over denominator 2 end fraction close parentheses equals 0`
+> $( ( z + 1 \frac{1}{2} ) - \frac{3 \mathrm{i} }{2} ) ( ( z + 1 \frac{1}{2} ) + \frac{3 \mathrm{i} }{2} ) = 0$
 > 
 > > *Use the difference of two squares to expand*
 > 
-> `open parentheses z plus 1 half close parentheses squared minus open parentheses fraction numerator 3 straight i over denominator 2 end fraction close parentheses squared equals 0`
+> $( z + 1 \frac{1}{2} )^{2} - ( \frac{3 \mathrm{i} }{2} )^{2} = 0$
 > 
 > > *Expand and collect, using *$i^{2}=-1$
 > 
-> `table row cell z squared plus z plus 1 fourth plus 9 over 4 end cell equals 0 row cell z squared plus z plus 5 over 2 end cell equals 0 end table`
+> $\begin{gathered} z^{2} + z + 1 \frac{1}{4} + \frac{9}{4} & = 0 \\ z^{2} + z + \frac{5}{2} & = 0 \end{gathered}$
 > 
 > > *The question wants the final answer to have positive integer coefficients*
 > *Multiply both sides of the equation by 2*
@@ -142,19 +142,19 @@ guided_study: false
   - Another root is** **$m-ni$
   
     - Its complex conjugate
-  - So `left parenthesis z minus open parentheses m plus n straight i close parentheses right parenthesis` and $(z-(m-ni))$ are **factors**
+  - So $( z - ( m + n \mathrm{i} ) )$ and $(z-(m-ni))$ are **factors**
   - **Multiply** the factors together to get a **quadratic factor **
   
     - $(Az^{2}+Bz+C)$
   - You need to find the remaining **linear** factor $(Pz+Q)$
   - Either use **equating coefficients** to find $α$
   
-    - `open parentheses A z squared plus B z plus C close parentheses open parentheses P z plus Q close parentheses identical to a x cubed plus b x squared plus c x plus d`
+    - $( A z^{2} + B z + C ) ( P z + Q ) \equiv a x^{3} + b x^{2} + c x + d$
     - Expand** **and simplify the left-hand side
     - Match each coefficient with the right-hand side
-  - Or use **polynomial division** to find `open parentheses P z plus Q close parentheses`
+  - Or use **polynomial division** to find $( P z + Q )$
   
-    - `open parentheses a z cubed plus b z squared plus c z plus d close parentheses divided by open parentheses A z squared plus B z plus C close parentheses`
+    - $( a z^{3} + b z^{2} + c z + d ) \div ( A z^{2} + B z + C )$
   - Write out your **three roots** clearly
 
 ### How do I solve a quartic with complex roots?
@@ -169,19 +169,19 @@ guided_study: false
   - Another root is** **$m-ni$
   
     - Its complex conjugate
-  - So `left parenthesis z minus open parentheses m plus n straight i close parentheses right parenthesis` and $(z-(m-ni))$ are **factors**
+  - So $( z - ( m + n \mathrm{i} ) )$ and $(z-(m-ni))$ are **factors**
   - **Multiply** the factors together to get a **quadratic factor **
   
     - $(Az^{2}+Bz+C)$
-  - You need to find the remaining **quadratic **factor `open parentheses P z squared plus Q z plus R close parentheses`
+  - You need to find the remaining **quadratic **factor $( P z^{2} + Q z + R )$
   - Either use **equating coefficients** to find $P$, $Q$ and $R$
   
-    - `open parentheses A z squared plus B z plus C close parentheses open parentheses P z squared plus Q z plus R close parentheses identical to a z to the power of 4 plus b z cubed plus c z squared plus d z plus e`
+    - $( A z^{2} + B z + C ) ( P z^{2} + Q z + R ) \equiv a z^{4} + b z^{3} + c z^{2} + d z + e$
     - Expand** **and simplify the left-hand side
     - Match each coefficient with the right-hand side
-  - Or use **polynomial division** to find `open parentheses P z squared plus Q z plus R close parentheses`
+  - Or use **polynomial division** to find $( P z^{2} + Q z + R )$
   
-    - `open parentheses a z to the power of 4 plus b z cubed plus c z squared plus d z plus e close parentheses divided by open parentheses A z squared plus B z plus C close parentheses`
+    - $( a z^{4} + b z^{3} + c z^{2} + d z + e ) \div ( A z^{2} + B z + C )$
   - Solve $Pz^{2}+Qz+R=0$
   - Write out your **four roots** clearly
 
@@ -191,9 +191,9 @@ guided_study: false
 
   - **Real **roots give **linear** factors
   
-    - $z=α$ gives `open parentheses z minus alpha close parentheses`
+    - $z=α$ gives $( z - \\alpha )$
   - **Complex **roots give **quadratic** factors (from **conjugate** pairs)
-  - $z=m+ni$ gives `left parenthesis z minus open parentheses m plus n straight i close parentheses right parenthesis left parenthesis z minus open parentheses m minus n straight i close parentheses right parenthesis identical to A z squared plus B z plus C`
+  - $z=m+ni$ gives $( z - ( m + n \mathrm{i} ) ) ( z - ( m - n \mathrm{i} ) ) \equiv A z^{2} + B z + C$
 - Then write out the rest **algebraically **and use **equating coefficients**
 
   - Start by matching coefficients of the **highest powers** and of the **constants**
@@ -211,35 +211,35 @@ guided_study: false
 > $-4-2i$
 > 
 > > *Write down a factorised quadratic factor of the cubic *
-> *Use the form *`open parentheses z minus open parentheses negative 4 plus 2 straight i close parentheses close parentheses open parentheses z minus open parentheses negative 4 minus 2 straight i close parentheses close parentheses`
+> *Use the form *$( z - ( - 4 + 2 \mathrm{i} ) ) ( z - ( - 4 - 2 \mathrm{i} ) )$
 > 
-> `open parentheses z minus open parentheses negative 4 plus 2 straight i close parentheses close parentheses open parentheses z minus open parentheses negative 4 minus 2 straight i close parentheses close parentheses`
+> $( z - ( - 4 + 2 \mathrm{i} ) ) ( z - ( - 4 - 2 \mathrm{i} ) )$
 > 
 > > *Expand inside each bracket*
 > 
-> `equals open parentheses z plus 4 minus 2 straight i close parentheses open parentheses z plus 4 plus 2 straight i close parentheses`
+> $= ( z + 4 - 2 \mathrm{i} ) ( z + 4 + 2 \mathrm{i} )$
 > 
 > > *Group the first pair of terms in each bracket *
 > *Then expand using the difference between two squares*
 > *Simplify the quadratic factor*
 > 
-> `table row blank equals cell open parentheses open parentheses z plus 4 close parentheses minus 2 straight i close parentheses open parentheses open parentheses z plus 4 close parentheses plus 2 straight i close parentheses end cell row blank equals cell open parentheses z plus 4 close parentheses squared minus open parentheses 2 straight i close parentheses squared end cell row blank equals cell z squared plus 8 z plus 16 plus 4 end cell row blank equals cell z squared plus 8 z plus 20 end cell end table`
+> $\begin{gathered} = ( ( z + 4 ) - 2 \mathrm{i} ) ( ( z + 4 ) + 2 \mathrm{i} ) \\ = ( z + 4 )^{2} - ( 2 \mathrm{i} )^{2} \\ = z^{2} + 8 z + 16 + 4 \\ = z^{2} + 8 z + 20 \end{gathered}$
 > 
 > > *Write the cubic as the quadratic factor multiplied by a linear factor *$Pz+Q$
 > 
-> `z cubed plus 5 z squared minus 4 z minus 60 identical to open parentheses z squared plus 8 z plus 20 close parentheses open parentheses P z plus Q close parentheses`
+> $z^{3} + 5 z^{2} - 4 z - 60 \equiv ( z^{2} + 8 z + 20 ) ( P z + Q )$
 > 
 > > *Either expand the right-hand side and equate coefficients*
 > *Or see that *$P=1$* to get *$z^{3}$*  on the left, and *$Q=-3$* to get *$-60$* on the left*
 > 
-> `z cubed plus 5 z squared minus 4 z minus 60 identical to open parentheses z squared plus 8 z plus 20 close parentheses open parentheses z minus 3 close parentheses`
+> $z^{3} + 5 z^{2} - 4 z - 60 \equiv ( z^{2} + 8 z + 20 ) ( z - 3 )$
 > 
 > > $z^{3}+5z^{2}-4z-60=0$* so set the factorised cubic equal to zero*
 > 
-> `open parentheses z squared plus 8 z plus 20 close parentheses open parentheses z minus 3 close parentheses equals 0`
+> $( z^{2} + 8 z + 20 ) ( z - 3 ) = 0$
 > 
 > > *The solutions from the quadratic factor are the complex conjugates*
-> *The solution from *`open parentheses z minus 3 close parentheses equals 0`* is *$z=3$
+> *The solution from *$( z - 3 ) = 0$* is *$z=3$
 > *Write down all three solutions*
 > 
 > **Final answer:** $z=-4+2i$**, **$-4-2i$** or **$3$
@@ -251,51 +251,51 @@ guided_study: false
 > $1-3i$
 > 
 > > *Write down a factorised quadratic factor of the quartic*
-> *Use the form *`open parentheses z minus open parentheses 1 plus 3 straight i close parentheses close parentheses open parentheses z minus open parentheses 1 minus 3 straight i close parentheses close parentheses`
+> *Use the form *$( z - ( 1 + 3 \mathrm{i} ) ) ( z - ( 1 - 3 \mathrm{i} ) )$
 > 
-> `open parentheses z minus open parentheses 1 plus 3 straight i close parentheses close parentheses open parentheses z minus open parentheses 1 minus 3 straight i close parentheses close parentheses`
+> $( z - ( 1 + 3 \mathrm{i} ) ) ( z - ( 1 - 3 \mathrm{i} ) )$
 > 
 > > *Expand inside each bracket*
 > 
-> `equals open parentheses z minus 1 minus 3 straight i close parentheses open parentheses z minus 1 plus 3 straight i close parentheses`
+> $= ( z - 1 - 3 \mathrm{i} ) ( z - 1 + 3 \mathrm{i} )$
 > 
 > > *Group the first pair of terms in each bracket *
 > *Then expand using the difference between two squares*
 > *Simplify the quadratic factor*
 > 
-> `table row blank equals cell open parentheses open parentheses z minus 1 close parentheses minus 3 straight i close parentheses open parentheses open parentheses z minus 1 close parentheses plus 3 straight i close parentheses end cell row blank equals cell open parentheses z minus 1 close parentheses squared minus open parentheses 3 straight i close parentheses squared end cell row blank equals cell z squared minus 2 z plus 1 plus 9 end cell row blank equals cell z squared minus 2 z plus 10 end cell end table`
+> $\begin{gathered} = ( ( z - 1 ) - 3 \mathrm{i} ) ( ( z - 1 ) + 3 \mathrm{i} ) \\ = ( z - 1 )^{2} - ( 3 \mathrm{i} )^{2} \\ = z^{2} - 2 z + 1 + 9 \\ = z^{2} - 2 z + 10 \end{gathered}$
 > 
 > > *The other two roots are repeated and real*
-> *Write the quartic as the quadratic factor multiplied by the square of a linear factor *`open parentheses P z plus Q close parentheses squared`
+> *Write the quartic as the quadratic factor multiplied by the square of a linear factor *$( P z + Q )^{2}$
 > 
-> `z to the power of 4 minus 8 z cubed plus A z squared plus B z plus 90 identical to open parentheses z squared minus 2 z plus 10 close parentheses open parentheses P z plus Q close parentheses squared`
+> $z^{4} - 8 z^{3} + A z^{2} + B z + 90 \equiv ( z^{2} - 2 z + 10 ) ( P z + Q )^{2}$
 > 
 > *Imagine expanding the right-hand side*
 > *To get* $z^{4}$* on the left, you can let *$P$* equal 1*
 > 
-> `table row cell z to the power of 4 minus 8 z cubed plus A z squared plus B z plus 90 end cell identical to cell open parentheses z squared minus 2 z plus 10 close parentheses open parentheses z plus Q close parentheses squared end cell row blank identical to cell open parentheses z squared minus 2 z plus 10 close parentheses open parentheses z squared plus 2 Q z plus Q squared close parentheses end cell end table`
+> $\begin{gathered} z^{4} - 8 z^{3} + A z^{2} + B z + 90 & \equiv ( z^{2} - 2 z + 10 ) ( z + Q )^{2} \\ \equiv ( z^{2} - 2 z + 10 ) ( z^{2} + 2 Q z + Q^{2} ) \end{gathered}$
 > 
 > > *To get 90 on the left, let *$Q^{2}=9$* so *$Q=\pm3$
 > *To find out which value *$Q$* takes, expand and collect the right-hand side further*
 > 
-> `table row cell z to the power of 4 minus 8 z cubed plus A z squared plus B z plus 90 end cell identical to cell z to the power of 4 plus 2 Q z cubed plus 9 z squared minus 2 z cubed minus 4 Q z squared minus 18 z plus 10 z squared plus 20 Q z plus 90 end cell row blank identical to cell z to the power of 4 plus open parentheses 2 Q minus 2 close parentheses z cubed plus open parentheses 9 minus 4 Q plus 10 close parentheses z squared plus open parentheses negative 18 plus 20 Q close parentheses z plus 90 end cell end table`
+> $\begin{gathered} z^{4} - 8 z^{3} + A z^{2} + B z + 90 & \equiv z^{4} + 2 Q z^{3} + 9 z^{2} - 2 z^{3} - 4 Q z^{2} - 18 z + 10 z^{2} + 20 Q z + 90 \\ \equiv z^{4} + ( 2 Q - 2 ) z^{3} + ( 9 - 4 Q + 10 ) z^{2} + ( - 18 + 20 Q ) z + 90 \end{gathered}$
 > 
 > > *The *$z^{4}$* and *$+90$* are correct*
 > *Equate the *$z^{3}$* coefficients to get an equation in *$Q$* and solve*
 > 
-> `table row cell negative 8 end cell equals cell 2 Q minus 2 end cell row cell negative 6 end cell equals cell 2 Q end cell row cell negative 3 end cell equals Q end table`
+> $\begin{gathered} - 8 & = 2 Q - 2 \\ - 6 & = 2 Q \\ - 3 & = Q \end{gathered}$
 > 
 > > *Substitute *$Q=-3$* into the coefficient of *$z^{2}$* to get *$A$
 > 
-> `table row A equals cell 9 minus 4 open parentheses negative 3 close parentheses plus 10 end cell row blank equals 31 end table`
+> $\begin{gathered} A = 9 - 4 ( - 3 ) + 10 \\ = 31 \end{gathered}$
 > 
 > > *Substitute *$Q=-3$* into the coefficient of *$z$* to get *$B$
 > 
-> `table row B equals cell negative 18 plus 20 open parentheses negative 3 close parentheses end cell row blank equals cell negative 78 end cell end table`
+> $\begin{gathered} B = - 18 + 20 ( - 3 ) \\ = - 78 \end{gathered}$
 > 
 > > *Write out the answers clearly*
 > 
 > **Final answer:** $A=31$** and **$B=-78$
 > 
 > **Polynomial division is not recommended as **$A$** and **$B$** are algebraic**
-> $P=-1$** and **$Q=3$** also work, as the bracket **`open parentheses P z plus Q close parentheses squared`**  is squared**
+> $P=-1$** and **$Q=3$** also work, as the bracket **$( P z + Q )^{2}$**  is squared**

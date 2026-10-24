@@ -5,7 +5,7 @@
 ## Q1 — easy — 3 marks · exam-questions
 
 ### 16() — 3 marks
-`percent sign thin space change space equals fraction numerator change space over denominator original end fraction cross times 100`
+$\% \text{change} = \frac{change }{original} \times 100$
 
 $\frac{64.8-59.3}{64.8}\times100=8.487654321...$
 
@@ -24,13 +24,13 @@ $\frac{64.8-59.3}{64.8}\times100=8.487654321...$
 
 > *Subtract the deposit of £3000 which has been paid*
 
-`£ 8400 space minus space £ 3000 space equals space £ 5400`
+$\pounds 8400 - \pounds 3000 = \pounds 5400$
 
 **[1]**
 
 > *Split into 6 equal monthly payments, use the fact that 54 ÷ 6 = 9*
 
-`£ 5400 space divided by space 6 space equals £ 900`
+$\pounds 5400 \div 6 = \pounds 900$
 
 **£900 ****[1]**
 
@@ -60,7 +60,7 @@ $\frac{64.8-59.3}{64.8}\times100=8.487654321...$
 
 > *Express the saving as a percentage of the total cost of buying separately*
 
-`fraction numerator £ 127 over denominator £ 552 end fraction cross times 100 equals 23.00724638...`
+$\frac{\pounds 127}{\pounds 552} \times 100 = 23.00724638...$
 
 **[1]**
 
@@ -81,7 +81,7 @@ $\frac{64.8-59.3}{64.8}\times100=8.487654321...$
 
 > *Express the profit as a percentage of the money Emily spent on the water, this is the "percentage profit"*
 
-`fraction numerator £ 0.36 over denominator £ 5.64 end fraction cross times 100 equals 6.382978723... space percent sign`
+$\frac{\pounds 0.36}{\pounds 5.64} \times 100 = 6.382978723... \%$
 
 **[1]**
 
@@ -98,9 +98,9 @@ $\frac{64.8-59.3}{64.8}\times100=8.487654321...$
 
 **[1]**
 
-> *Use this to calculate the percentage profit, given percentage profit = *`fraction numerator profit over denominator original space amount end fraction cross times 100 percent sign`
+> *Use this to calculate the percentage profit, given percentage profit = *$\frac{profit}{original amount} \times 100 \%$
 
-`percent sign space profit space equals space 55 over 465 cross times 100 percent sign equals 11.82795699... percent sign`
+$\% \text{profit} = \frac{55}{465} \times 100 \% = 11.82795699... \%$
 
 **[1]**
 
@@ -142,9 +142,9 @@ $\frac{64.8-59.3}{64.8}\times100=8.487654321...$
 
 *profit per bottle = 2.45 − 1.75 = 0.70*
 
-> *Calculate the percentage profit using percentage profit = *`fraction numerator profit over denominator original space amount end fraction cross times 100 percent sign`*.*
+> *Calculate the percentage profit using percentage profit = *$\frac{profit}{original amount} \times 100 \%$*.*
 
-`percent sign space profit equals fraction numerator 0.70 over denominator 1.75 end fraction cross times 100 percent sign`
+$\% \text{profit} = \frac{0.70}{1.75} \times 100 \%$
 
 **[1]**
 
@@ -162,9 +162,9 @@ $\frac{64.8-59.3}{64.8}\times100=8.487654321...$
 
 *profit per bottle = 29.40 − 21 = 8.40*
 
-> *Calculate the percentage profit using percentage profit = *`fraction numerator profit over denominator original space amount end fraction cross times 100 percent sign`*.*
+> *Calculate the percentage profit using percentage profit = *$\frac{profit}{original amount} \times 100 \%$*.*
 
-`percent sign space profit equals fraction numerator 8.40 over denominator 21 end fraction cross times 100 percent sign`
+$\% \text{profit} = \frac{8.40}{21} \times 100 \%$
 
 **[1]**
 
@@ -204,7 +204,7 @@ $\frac{64.8-59.3}{64.8}\times100=8.487654321...$
 ### 3() — 1 marks
 > *To find 320 as a percentage of 80*
 
-`320 over 80 cross times 100 equals 400 percent sign`
+$\frac{320}{80} \times 100 = 400 \%$
 
 **The 4th option, 400%** **[1]**
 
@@ -215,7 +215,7 @@ $\frac{64.8-59.3}{64.8}\times100=8.487654321...$
 ### 4() — 1 marks
 > *To find 40 as a percentage of 10*
 
-`40 over 10 cross times 100 equals 400 percent sign`
+$\frac{40}{10} \times 100 = 400 \%$
 
 **The fourth option, 400%** **[1]**
 
@@ -228,7 +228,7 @@ $\frac{64.8-59.3}{64.8}\times100=8.487654321...$
 
 > *First, find the percentage increase from 2001 to 2011 using *$\frac{\mathrm{Change}}{\mathrm{Original}}\times100$
 
-`fraction numerator 480 space 000 space minus space 420 space 000 over denominator 420 space 000 end fraction cross times 100 equals 100 over 7 equals 14.29 space percent sign`
+$\frac{480 000 - 420 000}{420 000} \times 100 = \frac{100}{7} = 14.29 \%$
 
 **[1]**
 
@@ -240,14 +240,14 @@ $480000\times1.1429=548592$
 
 **Therefore the population of 540 000 does not support Liam's claim as for the same percentage increase, the increase in the number of people would have to be larger than 60 000.**** ****[1]**
 
-**An alternative method is to find the percentage increase suggested by Liam and compare it** `fraction numerator 540 space 000 space minus space 480 space 000 over denominator 480 space 000 end fraction cross times 100 equals 12.5 percent sign`** and we can see that this is not as large as 14.29 %**
+**An alternative method is to find the percentage increase suggested by Liam and compare it** $\frac{540 000 - 480 000}{480 000} \times 100 = 12.5 \%$** and we can see that this is not as large as 14.29 %**
 
 ## Q13 — easy — 3 marks · exam-questions
 
 ### 5() — 3 marks
 > *To find the percentage increase we can use *$\frac{\mathrm{Increase}}{\mathrm{Original}}\times100$
 
-`fraction numerator 6.31 space minus space 3.60 over denominator 3.60 end fraction cross times 100 equals 75.27777... space percent sign`
+$\frac{6.31 - 3.60}{3.60} \times 100 = 75.27777... \%$
 
 **Finding the difference**** [1]** 
 **Appropriate division**** [1]**
@@ -286,7 +286,7 @@ $480000\times1.1429=548592$
 ### 3() — 4 marks
 > *Work out the price that Nina paid*
 
-`1500 space plus thin space open parentheses 36 space cross times space 450 close parentheses`
+$1500 + ( 36 \times 450 )$
 
 $17700$
 
@@ -308,7 +308,7 @@ $\frac{5200}{12500}=0.416$
 
 $0.416\times100=41.6$
 
-`41.6 percent sign`
+$41.6 \%$
 
 **[A1]**
 
@@ -441,7 +441,7 @@ $0.416\times100=41.6$
 
 > *Find the percentage of students who are present*
 
-`1092 over 1210 cross times 100 equals 90.24793388... space percent sign`
+$\frac{1092}{1210} \times 100 = 90.24793388... \%$
 
 **[1]**
 
@@ -631,7 +631,7 @@ $\frac{3}{10}\times100$
 
 > *A percentage decrease can be found by *$\frac{\mathrm{Actual} \mathrm{Decrease}}{\mathrm{Original} \mathrm{Value}}\times100$
 
-`fraction numerator 68 minus 60 over denominator 68 end fraction cross times 100 equals 11.76470588... space percent sign`
+$\frac{68 - 60}{68} \times 100 = 11.76470588... \%$
 
 **[1]**
 
@@ -641,7 +641,7 @@ $\frac{3}{10}\times100$
 
 > *Find the final amount as a percentage of the starting amount*
 
-`60 over 68 cross times 100 equals 88.2 space percent sign`
+$\frac{60}{68} \times 100 = 88.2 \%$
 
 *100 - 88.2 = 11.8*
 
@@ -689,7 +689,7 @@ $P_{2}=\frac{70+10}{20+10}=\frac{8}{3}=2.666666...$
 
 > *Find the percentage decrease using *$\frac{\mathrm{Difference}}{\mathrm{Original}}\times100$
 
-`fraction numerator 3.5 minus 2.666... over denominator 3.5 end fraction cross times 100 equals 23.8 space percent sign`
+$\frac{3.5 - 2.666...}{3.5} \times 100 = 23.8 \%$
 
 **[1]**
 
@@ -747,7 +747,7 @@ $180000+5400=185400$
 
 > *Add 3% to  100% and then convert this to a decimal equivalent (by dividing by 100)*
 
-`table row cell 100 percent sign plus 3 percent sign end cell equals cell 103 percent sign end cell row cell 103 percent sign end cell equals cell 1.03 end cell end table`
+$\begin{gathered} 100 \% + 3 \% & = 103 \% \\ 103 \% & = 1.03 \end{gathered}$
 
 > *Multiply the equivalent decimal by the original amount*
 
@@ -779,7 +779,7 @@ $1.03\times180000=185400$
 
 > *Find 1% of the price of the camera first (by dividing by 85) and then use this to calculate 100% (by multiplying by 100)*
 
-`table row cell 85 percent sign end cell equals 6630 row cell 1 percent sign end cell equals cell 6630 divided by 85 equals 78 end cell row cell 100 percent sign end cell equals 7800 end table`
+$\begin{gathered} 85 \% & = 6630 \\ 1 \% & = 6630 \div 85 = 78 \\ 100 \% & = 7800 \end{gathered}$
 
 **[M1]**
 
@@ -867,7 +867,7 @@ $290,000+20,300=310,300$
 
 Add 7% to 100%
 
-`100 percent sign plus 7 percent sign equals 107 percent sign`
+$100 \% + 7 \% = 107 \%$
 
 **[M1]**
 
@@ -1000,7 +1000,7 @@ $m=1.031535514...$
 
 > *They have one third off the normal price, which means the sale price is two thirds of the normal price, so we can write (where M is the normal price of microwave ovens)*
 
-`2 over 3 cross times M space equals space £ 90`
+$\frac{2}{3} \times M = \pounds 90$
 
 **Equation for either M or C**** [1]**
 
@@ -1018,7 +1018,7 @@ $m=1.031535514...$
 
 > *Combination ovens have 40% off, which means the sale price is 60% of the normal price, so we can write (where C is the normal price of combination ovens)*
 
-`0.6 cross times C equals £ 84`
+$0.6 \times C = \pounds 84$
 
 > *Divide both sides by 0.6*
 
@@ -1093,25 +1093,25 @@ $0.85x$
 
 > *In 2019 and 2020 the house increases by the same percentage each year. If this percentage rate is *$r$* then the value of the house at the end of 2020 is:*
 
-`0.85 x cross times open parentheses 1 plus r close parentheses squared`
+$0.85 x \times ( 1 + r )^{2}$
 
 > *And the value of the house is also 2.85% greater than the amount paid at the beginning of 2018. A 2.85% increase on the initial value of the house is 1.0285*$x$*. Therefore:*
 
-`0.85 x cross times open parentheses 1 plus r close parentheses squared equals 1.0285 x`
+$0.85 x \times ( 1 + r )^{2} = 1.0285 x$
 
 **[1]**
 
 > *Divide both sides by *$0.85x$*.*
 
-`table row cell open parentheses 1 plus r close parentheses squared end cell equals cell fraction numerator 1.0285 up diagonal strike x over denominator 0.85 up diagonal strike x end fraction end cell row cell open parentheses 1 plus r close parentheses squared end cell equals cell 1.21 end cell end table`
+$\begin{gathered} ( 1 + r )^{2} & = \frac{1.0285 \cancel{x} }{0.85 \cancel{x} } \\ ( 1 + r )^{2} & = 1.21 \end{gathered}$
 
 > *Square root both sides.*
 
-`table attributes columnalign right center left columnspacing 0px end attributes row cell 1 plus r end cell equals cell square root of 1.21 end root end cell row cell 1 plus r end cell equals cell 1.1 end cell end table`
+$\begin{array}{rcl} 1 + r & = \sqrt{1.21} \\ 1 + r & = 1.1 \end{array}$
 
 **[1]**
 
-`table attributes columnalign right center left columnspacing 0px end attributes row r equals cell 0.1 end cell end table`
+$\begin{array}{rcl} r = 0.1 \end{array}$
 
 > $r=0.1$* is equivalent to a 10% increase in 2019 (and 2020).*
 
@@ -1184,7 +1184,7 @@ $19.35\div9=2.15$
 
 > *Now calculate this as a percentage decrease of last week's 12 kg.*
 
-*percentage decrease *`equals fraction numerator 1.25 over denominator 12 end fraction cross times 100 percent sign`
+*percentage decrease *$= \frac{1.25}{12} \times 100 \%$
 
 **[1]**
 
@@ -1221,7 +1221,7 @@ $19.35\div9=2.15$
 
 > *Finding the percentage decrease, using *$\frac{\mathrm{change}}{\mathrm{original}}\times100$
 
-`fraction numerator 200 minus 174 over denominator 200 end fraction cross times 100 equals 13 space percent sign space decrease`
+$\frac{200 - 174}{200} \times 100 = 13 \% \text{decrease}$
 
 **Percentage change calculated ****[1]**
 
@@ -1236,7 +1236,7 @@ $19.35\div9=2.15$
 
 > *So in general to find **a**% of **b*
 
-`a percent sign space o f space b space equals space a over 100 cross times b equals 1 over 100 cross times a cross times b`
+$a \% o f b = \frac{a}{100} \times b = \frac{1}{100} \times a \times b$
 
 > *To find **b**% of **a*
 
@@ -1290,8 +1290,8 @@ $a\times\frac{b}{100}=\frac{1}{100}\timesa\timesb$
 ### 21() — 5 marks
 > *Using the ratio 7 : 3, there are 10 'parts' in total*
 
-`7 over 10 equals 70 percent sign`* is blue*
- `3 over 10 equals 30 percent sign`* is yellow*
+$\frac{7}{10} = 70 \%$* is blue*
+ $\frac{3}{10} = 30 \%$* is yellow*
 
 > *In the 5 litre tins which are to be sold, this means 70% of the tin will be blue, and 30% of the tin will be yellow*
 
@@ -1335,7 +1335,7 @@ $a\times\frac{b}{100}=\frac{1}{100}\timesa\timesb$
 
 > *Find 6 out of 80 as a percentage - this is the percentage of the 80 microwaves from last month that were faulty and the same percentage can be used to estimate how many of this months' will be.*
 
-`6 over 80 space cross times space 100 space equals space 7.5 percent sign`
+$\frac{6}{80} \times 100 = 7.5 \%$
 
 **[1]**
 
@@ -1379,15 +1379,15 @@ $\frac{7.5}{100}\times133=9.975$
 
 > *Find the profit as a percentage of the total costs by dividing the profit by the costs and then multiplying by 100. *
 
-`table row cell 2543 over 5437 space cross times space 100 space end cell equals cell space 46.77221169... end cell end table`
+$\begin{gathered} \frac{2543}{5437} \times 100 & = 46.77221169... \end{gathered}$
 
 ** [1]**
 
 > *Round the final answer to 3 significant figures.*
 
-| Expected number of faulty microwaves:<br><br>`6 over 80 space cross times space 100 space equals space 7.5 percent sign`<br><br>$\frac{7.5}{100}\times133=9.975$ | Expected costs:<br><br>*133 × £39 = £5187*<br><br>*10 × £25 = £250*<br><br>*£5187 + £250 = £5437* |
+| Expected number of faulty microwaves:<br><br>$\frac{6}{80} \times 100 = 7.5 \%$<br><br>$\frac{7.5}{100}\times133=9.975$ | Expected costs:<br><br>*133 × £39 = £5187*<br><br>*10 × £25 = £250*<br><br>*£5187 + £250 = £5437* |
 |---|---|
-| Income from sales:<br><br>*133 × £60 = £7980* | Expected percentage profit:<br><br>`table row cell fraction numerator 7980 space minus space 5437 over denominator 5437 end fraction space cross times space 100 space end cell equals cell space 46.77221169... end cell end table` |
+| Income from sales:<br><br>*133 × £60 = £7980* | Expected percentage profit:<br><br>$\begin{gathered} \frac{7980 - 5437}{5437} \times 100 & = 46.77221169... \end{gathered}$ |
 
 **46.8 %**** ****[1]**
 
@@ -1396,21 +1396,21 @@ $\frac{7.5}{100}\times133=9.975$
 ### 10() — 3 marks
 > *Let the price of a painting be **x. **To increase the price of a painting by **k**%, a multiplier of *$1+\frac{k}{100}$* should be used. *
 
-*Commission: *`x open parentheses 1 space plus space k over 100 close parentheses`
+*Commission: *$x ( 1 + \frac{k}{100} )$
 
 > *To increase the\is new price of a by 15%, a multiplier of *$1+\frac{15}{100}$* should be used. *
 
-*Tax: *`x open parentheses 1 space plus space k over 100 close parentheses open parentheses 1 space plus space 15 over 100 close parentheses space equals space x open parentheses 1 space plus space k over 100 close parentheses space cross times space 1.15`
+*Tax: *$x ( 1 + \frac{k}{100} ) ( 1 + \frac{15}{100} ) = x ( 1 + \frac{k}{100} ) \times 1.15$
 
 **[1]**
 
 > *This is the same as a single multiplier of 1.403, so form an equation by setting this equal to 1.403**x.*
 
-`x open parentheses 1 space plus space k over 100 close parentheses space cross times space 1.15 space equals space 1.403 x`
+$x ( 1 + \frac{k}{100} ) \times 1.15 = 1.403 x$
 
 > *Divide both sides by **x.*
 
-`1.15 open parentheses 1 space plus space k over 100 close parentheses space space equals space 1.403`
+$1.15 ( 1 + \frac{k}{100} ) = 1.403$
 
 > *Divide both sides by 1.15**.*
 
@@ -1420,7 +1420,7 @@ $1+\frac{k}{100}=\frac{1.403}{1.15}$
 
 > *Subtract 1.*
 
-`table row cell k over 100 space space end cell equals cell space fraction numerator 1.403 over denominator 1.15 end fraction space minus space 1 end cell row blank equals cell space 0.22 end cell end table`
+$\begin{gathered} \frac{k}{100} & = \frac{1.403}{1.15} - 1 \\ = 0.22 \end{gathered}$
 
 > *Multiply both sides by 100.*
 
@@ -1432,7 +1432,7 @@ $1+\frac{k}{100}=\frac{1.403}{1.15}$
 > *Let Bethan's income be *$x$*,** find Amrit's income in terms of Bethan's income.** *
 *To increase Bethan's income by 32%, a multiplier of *$1+\frac{32}{100}$* should be used. *
 
-*Amrit's income = *`x open parentheses 1 space plus space 32 over 100 close parentheses space equals space 1.32 x`
+*Amrit's income = *$x ( 1 + \frac{32}{100} ) = 1.32 x$
 
 **[1]**
 
@@ -1500,7 +1500,7 @@ $\frac{2}{2+1}=\frac{2}{3}\mathrm{male}\,\,\frac{1}{2+1}=\frac{1}{3}\mathrm{fema
 
 > *Turn 40% into a fraction, to see what fraction of the village are right-handed males.*
 
-`40 percent sign space equals space 40 over 100 space equals fraction numerator space 2 space over denominator 5 end fraction`
+$40 \% = \frac{40}{100} = \frac{ 2 }{5}$
 
 > *So 2/5 of the village are right handed males. *
 *And 2/3 of the village are males. *
@@ -1513,7 +1513,7 @@ $\frac{2}{5}\div\frac{2}{3}=\frac{3}{5}$
 
 > *Turn 25% into a fraction, to see what fraction of the village are right-handed females.*
 
-`25 percent sign space equals space 25 over 100 space equals fraction numerator space 1 space over denominator 4 end fraction`
+$25 \% = \frac{25}{100} = \frac{ 1 }{4}$
 
 > *So 1/4 of the village are right handed females. *
 *And 1/3 of the village are females. *

@@ -59,7 +59,7 @@ $\frac{dy}{dx}=\frac{dy}{du}\times\frac{du}{dx}$
     - $\frac{dy}{dx}=\frac{dy}{du}\times\frac{du}{dx}=a\times\frac{1}{2}u^{-\frac{1}{2}}=\frac{a}{2}u^{-\frac{1}{2}}$
   - **Substitute** *u = ax + b *back into your answer
   
-    - `fraction numerator straight d y over denominator straight d x end fraction equals blank a over 2 open parentheses a x plus b close parentheses to the power of negative 1 half end exponent blank equals fraction numerator a over denominator 2 square root of a x plus b end root end fraction`
+    - $\frac{ \mathrm{d} y}{ \mathrm{d} x} = \frac{a}{2} ( a x + b )^{- 1 \frac{1}{2}} = \frac{a}{2 \sqrt{a x + b} }$
 - This method can be used for any **fractional power** of any linear or non-linear expression
 
   - Provided you know how to differentiate the non-linear expression
@@ -69,7 +69,7 @@ $\frac{dy}{dx}=\frac{dy}{du}\times\frac{du}{dx}$
 - This method can be used for any linear or non – linear expression
 
   - Let *u *= f(*x*) and follow the method above
-  - In general if $y=(f(x))^{n}$ then `fraction numerator straight d y over denominator straight d x end fraction equals n straight f to the power of straight apostrophe open parentheses x close parentheses open parentheses straight f open parentheses x close parentheses close parentheses to the power of n minus 1 end exponent`
+  - In general if $y=(f(x))^{n}$ then $\frac{ \mathrm{d} y}{ \mathrm{d} x} = n \mathrm{f}^{ \mathrm{'} ( x ) ( \mathrm{f} ( x ) )^{n} - 1}$
 - With practice you will be able to carry out this method **without the need for *****u***
 
   - This is essential for learning the **reverse chain rule** later in the course

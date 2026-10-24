@@ -70,7 +70,7 @@ guided_study: true
 > 
 > - The units of *γ* will be labelled as G
 > 
-> `straight m space straight s to the power of negative 1 end exponent space equals space square root of fraction numerator straight G space up diagonal strike kg space straight m to the power of negative 1 end exponent space straight s to the power of negative 2 end exponent over denominator up diagonal strike kg space straight m to the power of negative 3 end exponent end fraction end root space equals space square root of straight G space straight m squared space straight s to the power of negative 2 end exponent end root space equals space square root of straight G space straight m space straight s to the power of negative 1 end exponent`
+> $\mathrm{m} \mathrm{s}^{- 1} = \sqrt{ \frac{ \mathrm{G} \cancel{kg} \mathrm{m}^{- 1} \mathrm{s}^{- 2} }{ \cancel{kg} \mathrm{m}^{- 3} } } = \sqrt{ \mathrm{G} \mathrm{m}^{2} \mathrm{s}^{- 2} } = \sqrt{G} \mathrm{m} \mathrm{s}^{- 1}$
 > 
 > - This shows us that the square root of G is equal to 1, so G is equal to 1
 > - Therefore *γ* has no units - this is sometimes called being **dimensionless**

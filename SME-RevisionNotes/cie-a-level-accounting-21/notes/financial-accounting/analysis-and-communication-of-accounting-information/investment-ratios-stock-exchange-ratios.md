@@ -88,11 +88,11 @@ guided_study: false
 > 
 > - Calculate the number of shares
 > 
-> `fraction numerator $ 600 space 000 over denominator $ 1.50 end fraction equals 400 space 000`
+> $\frac{\$ 600 000}{\$ 1.50} = 400 000$
 > 
 > - Calculate the total interim dividend payment
 > 
-> `400 space 000 cross times $ 0.14 equals $ 56 space 000`
+> $400 000 \times \$ 0.14 = \$ 56 000$
 > 
 > - Calculate the profit for the year
 > 
@@ -194,11 +194,11 @@ guided_study: false
 > 
 > - Calculate the number of shares
 > 
-> `fraction numerator $ 1 space 000 space 000 over denominator $ 2 end fraction equals 500 space 000`
+> $\frac{\$ 1 000 000}{\$ 2} = 500 000$
 > 
 > - Calculate the dividend per share for the interim dividend
 > 
-> `fraction numerator $ 80 space 000 over denominator 500 space 000 end fraction equals $ 0.16`
+> $\frac{\$ 80 000}{500 000} = \$ 0.16$
 > 
 > - Add this to the proposed final dividend per share for 2025
 > 
@@ -274,12 +274,11 @@ guided_study: false
 > 
 > - Calculate the number of shares
 > 
-> `fraction numerator $ 750 space 000 over denominator $ 1.50 end fraction equals 500 space 000`
+> $\frac{\$ 750 000}{\$ 1.50} = 500 000$
 > 
 > - Calculate the annual ordinary dividend paid
 > 
-> `$ 0.11 plus $ 0.10 equals $ 0.21 space per space share
-> $ 0.21 cross times 500 space 000 equals $ 105 space 000`
+> `$ 0.11 + $ 0.10 = $ 0.21 per share > $ 0.21 x 500 000 = $ 105 000`
 > 
 > - Calculate the dividend cover
 > 

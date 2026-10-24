@@ -84,9 +84,9 @@ The ideas of compound interest and depreciation can be applied to other (non-mon
 - You may see exponential models in the form $y=ba^{x}$
 
   - The coefficient, $b$, scales (**stretches**) the graph **vertically**
-  - The $y$-intercept will be `open parentheses 0 comma space b close parentheses`
+  - The $y$-intercept will be $( 0 , b )$
   
-    - This is because when $x=0$,  `y equals b a to the power of 0 equals b open parentheses 1 close parentheses equals b`
+    - This is because when $x=0$,  $y = b a^{0} = b ( 1 ) = b$
   - $b$ is the **initial **(starting) **amount **of the quantity being modelled
 
 > **Exam Hint**
@@ -133,7 +133,7 @@ The ideas of compound interest and depreciation can be applied to other (non-mon
 > 
 > > *Find *$a$* by taking the cube root of both sides*
 > 
-> `table row cell cube root of 0.512 end root end cell equals a row cell 0.8 end cell equals a end table`
+> $\begin{gathered} \sqrt[3]{0.512} & = a \\ 0.8 & = a \end{gathered}$
 > 
 > $a=0.8$
 > 

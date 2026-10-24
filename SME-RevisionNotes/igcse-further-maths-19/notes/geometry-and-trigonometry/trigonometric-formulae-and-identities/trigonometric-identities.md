@@ -57,11 +57,11 @@ guided_study: false
 > 
 > > *We can do this using the identity *$\mathrm{sin}^{2}θ+\mathrm{cos}^{2}θ=1$*, rearranged as  *$\mathrm{sin}^{2}θ=1-\mathrm{cos}^{2}θ$
 > 
-> `table attributes columnalign right center left columnspacing 0px end attributes row cell 2 sin squared theta minus cos theta end cell equals cell 2 open parentheses 1 space minus space cos squared theta close parentheses minus cos theta end cell row blank equals cell 2 minus 2 cos squared theta minus cos theta end cell row blank equals cell negative 2 cos squared theta minus cos theta plus 2 end cell end table`
+> $\begin{array}{rcl} 2 \sin ^{2} \\theta - \cos \\theta & = 2 ( 1 - \cos ^{2} \\theta ) - \cos \\theta \\ = 2 - 2 \cos ^{2} \\theta - \cos \\theta \\ = - 2 \cos ^{2} \\theta - \cos \\theta + 2 \end{array}$
 > 
 > > *Substitute that back into the original equation*
 > 
-> `table row cell negative 2 cos squared theta minus cos theta plus 2 end cell equals 0 end table`
+> $\begin{gathered} - 2 \cos ^{2} \\theta - \cos \\theta + 2 & = 0 \end{gathered}$
 > 
 > > *Multiply both sides of the equation by *$-1$* to make the *$\mathrm{cos}^{2}θ$* coefficient positive*
 > 

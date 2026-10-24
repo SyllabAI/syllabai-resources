@@ -79,9 +79,9 @@ Because the **data was not normally distributed** they decided to use Spearmanâ€
 
 **Step 5**: Substitute the appropriate numbers into the equation (remember ***n*** = 10)
 
-`straight r subscript straight s equals 1 minus open parentheses fraction numerator 6 cross times sum from blank to blank of straight D squared over denominator straight n cubed minus straight n end fraction close parentheses`
+$\mathrm{r}_{s} = 1 - ( \frac{6 \times \sum_{ }^{ } \mathrm{D}^{2}}{ \mathrm{n}^{3} - \mathrm{n} } )$
 
-`straight r subscript straight s equals 1 minus open parentheses fraction numerator 6 open parentheses 6 close parentheses over denominator 10 cubed minus 10 end fraction close parentheses equals 0.964`
+$\mathrm{r}_{s} = 1 - ( \frac{6 ( 6 )}{10^{3} - 10} ) = 0.964$
 
 **Step 5:**  Refer to a table that relates values of *r*<sub>*s*</sub> to probability. Look for the 0.05 probability level with n = 10
 

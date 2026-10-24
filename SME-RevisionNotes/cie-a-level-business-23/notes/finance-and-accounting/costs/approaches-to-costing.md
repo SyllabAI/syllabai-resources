@@ -60,15 +60,15 @@ guided_study: false
 > 
 > **Step 1: Add total direct costs to total indirect costs**
 > 
-> `equals space € 52 comma 300 space plus space € 120 comma 600`
+> $= \text{€} 52 , 300 + \text{€} 120 , 600$
 > 
-> `begin mathsize 16px style equals space € 172 comma 900 end style`   **(1)**
+> $= \text{€} 172 , 900$   **(1)**
 > 
 > **Step 2: Divide total costs by output**
 > 
-> `equals space fraction numerator € 172 comma 900 over denominator 455 comma 000 space bottles end fraction`
+> $= \frac{\text{€} 172 , 900}{455 , 000 bottles}$
 > 
-> `equals space € 0.38`**   ****(1)**
+> $= \text{€} 0.38$**   ****(1)**
 
 - When a business manufactures** more than one product**, it needs to decide how to **allocate indirect costs **across the range of products
 
@@ -98,21 +98,21 @@ guided_study: false
 > 
 > **Step 1: Calculate the value of indirect costs allocated to the product**
 > 
-> `equals space 30 percent sign space cross times space € 120 comma 600`
+> $= 30 \% \times \text{€} 120 , 600$
 > 
-> `begin mathsize 16px style equals space € 36 comma 180 end style`**  **** ****(1)**
+> $= \text{€} 36 , 180$**  **** ****(1)**
 > 
 > **Step 2: Add total direct costs to allocated indirect costs**
 > 
-> `equals space € 18 comma 220 space plus space € 36 comma 180`
+> $= \text{€} 18 , 220 + \text{€} 36 , 180$
 > 
-> `equals space € 54 comma 400`   **(1)**
+> $= \text{€} 54 , 400$   **(1)**
 > 
 > **Step 3: Divide total costs by output**
 > 
-> `begin mathsize 16px style equals space fraction numerator € 54 comma 400 over denominator 136 comma 000 space bottles end fraction end style`
+> $= \frac{\text{€} 54 , 400}{136 , 000 bottles}$
 > 
-> `equals space € 0.40`**  ****(1)**
+> $= \text{€} 0.40$**  ****(1)**
 
 ## Uses and limitations of full costing
 
@@ -258,11 +258,11 @@ guided_study: false
 > 
 > **Step 1: Total direct costs and subtract from the selling price**
 > 
-> `equals space $ 400 space minus space open parentheses $ 84 space plus space $ 72 close parentheses
+> $= \$ 400 - ( \$ 84 + \$ 72 )
 > 
-> equals space $ 400 space minus space $ 156
+> = \$ 400 - \$ 156
 > 
-> equals space $ 244`**       ****(1)**
+> = \$ 244$**       ****(1)**
 > **         **
 > 
 > **Step 2: State your answer and explain your reasoning**

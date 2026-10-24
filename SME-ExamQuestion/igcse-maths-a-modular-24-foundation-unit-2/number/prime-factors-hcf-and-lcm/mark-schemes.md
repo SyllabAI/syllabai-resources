@@ -9,7 +9,7 @@
 
 > *First think of two numbers that multiply to make 300*
 
-`table row 300 equals cell 3 cross times 100 end cell end table`
+$\begin{gathered} 300 = 3 \times 100 \end{gathered}$
 
 > *Check if either of these are prime (3 is, 100 isn't)*
 
@@ -107,7 +107,7 @@ $50,100,150,200,250,300,350,400,450,....\,80,160,240,320,400,...$
 
 > *First think of two numbers that multiply to make 300*
 
-`table row 300 equals cell 3 cross times 100 end cell end table`
+$\begin{gathered} 300 = 3 \times 100 \end{gathered}$
 
 > *Check if either of these are prime (3 is, 100 isn't)*
 

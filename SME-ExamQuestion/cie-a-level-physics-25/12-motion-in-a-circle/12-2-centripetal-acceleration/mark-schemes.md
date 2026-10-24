@@ -46,7 +46,7 @@ List the known quantities:
 
 Calculate the centripetal force, *F*:
 
-- `F space equals space m a space equals space open parentheses 1.48 space cross times space 10 to the power of 23 close parentheses space cross times space 0.11` **[1 mark]**
+- $F = m a = ( 1.48 \times 10^{23} ) \times 0.11$ **[1 mark]**
 - $F=1.628\times10^{22}=1.6\times10^{22}N$ **[1 mark]**
 
 **[Total: 2 marks]**
@@ -106,11 +106,11 @@ List the known quantities:
 
 Determine the radius of the satellite's circular orbit, *r*:
 
-- `r space equals space R space plus space h space equals space open parentheses 6400 space cross times space 10 cubed close parentheses space plus space open parentheses 36 space 000 space cross times space 10 cubed close parentheses space equals space 42.4 space cross times space 10 to the power of 6 space straight m` **[1 mark]**
+- $r = R + h = ( 6400 \times 10^{3} ) + ( 36 000 \times 10^{3} ) = 42.4 \times 10^{6} \mathrm{m}$ **[1 mark]**
 
 Substitute values into the centripetal acceleration equation, *a*:
 
-- `a space equals space r omega squared space equals space open parentheses 42.4 space cross times space 10 to the power of 6 close parentheses space cross times space open parentheses 7.272 space cross times 10 to the power of negative 5 end exponent close parentheses squared` **[1 mark]**
+- $a = r \\omega ^{2} = ( 42.4 \times 10^{6 ) \times ( 7.272 \times 10^{-5} } )^{2}$ **[1 mark]**
 - $a=0.2242=0.22ms^{-2}$ **[1 mark]**
 
 **[Total: 3 marks]**
@@ -164,7 +164,7 @@ Determine the equation for the radius of the Moon's orbit, *r*:
 
 Substitute in the values:
 
-- `r space equals space fraction numerator open parentheses 7.35 space cross times 10 to the power of 22 close parentheses space cross times space open parentheses 1023 close parentheses squared space over denominator 2.21 space cross times 10 to the power of 20 end fraction` **[1 mark]**
+- $r = \frac{( 7.35 \times 10^{22} ) \times ( 1023 )^{2} }{2.21 \times 10^{20} }$ **[1 mark]**
 - $r$ = 3.4805 × 10<sup>8</sup> m **[1 mark]**
 
 Calculate the distance from the surface of the Earth, *h*:
@@ -195,7 +195,7 @@ Determine the average speed for the journey, *v*:
 
 Determine an expression for the time taken* *to A, , *t*<sub>*1/2*</sub>* *:
 
-- Circumference of ½ circle = `1 half space cross times space open parentheses 2 pi space r close parentheses space equals space pi space r`
+- Circumference of ½ circle = $1 \frac{1}{2} \times ( 2 \pi r ) = \pi r$
 - Time taken to A, *t*<sub>*1/2*</sub>  = $\frac{distance}{averagespeed}$ = $\frac{\mathrm{πr}}{s}$ = $\frac{π\times0.15}{1.61}=0.29$ = 0.3 s **[1 mark]**
 
 Calculate the total time taken, *t*:
@@ -242,7 +242,7 @@ The maximum reaction force:
 - Occurs at the <u>bottom</u> of the loop
 - When the normal reaction force = centripetal force + weight
 - Maximum reaction force = $\frac{mv^{2}}{r}+mg$
-- Maximum reaction force = `fraction numerator open parentheses 70 space cross times space 10 to the power of negative 3 end exponent close parentheses space cross times space 2 squared over denominator 0.15 end fraction space plus space open parentheses 70 space cross times space 10 to the power of negative 3 end exponent close parentheses space cross times space 9.81` = 2.55 N **[1 mark]**** **
+- Maximum reaction force = $\frac{( 70 \times 10^{- 3} ) \times 2^{2}}{0.15} + ( 70 \times 10^{- 3} ) \times 9.81$ = 2.55 N **[1 mark]**** **
 
 **[Total: 4 marks]**** **
 
@@ -282,7 +282,7 @@ Equate change in Δ*E*<sub>*p*</sub>  to *E*<sub>*k*</sub>:
 
 Substitute in the expression for minimum velocity into the kinetic energy expression:
 
-- `1 half m v squared space equals space 1 half m open parentheses square root of g r end root close parentheses squared space equals space m g h space minus space m g 2 r`
+- $1 \frac{1}{2} m v^{2} = 1 \frac{1}{2} m ( \sqrt{g r} )^{2} = m g h - m g 2 r$
 - $\frac{1}{2}$*mgr*  = *mgh* – *mg2r*
 - $\frac{5}{2}$*mgr*  = *mgh*
 - *h *= $\frac{5}{2}$*r ***[1 mark]**** **
@@ -303,7 +303,7 @@ List the known quantities:
 Determine an equation for the maximum speed, *v*:
 
 - $F = \frac{mv^{2}}{r} \Rightarrow v = \sqrt{\frac{Fr}{m}}$ **[1 mark]**
-- `v equals square root of fraction numerator open parentheses 57 cross times 10 to the power of negative 3 end exponent close parentheses cross times 37.7 over denominator 75 end fraction end root equals 0.169 equals 0.17 space straight m space straight s to the power of negative 1 end exponent` **[1 mark]**
+- $v = \sqrt{ \frac{( 57 \times 10^{- 3} ) \times 37.7}{75} } = 0.169 = 0.17 \mathrm{m} \mathrm{s}^{- 1}$ **[1 mark]**
 
 **[Total: 2 marks]**
 The comparison between the centripetal acceleration and maximum speed of the runner on path X compared to path Y is:
@@ -322,7 +322,7 @@ List the known quantities:
 
 Determine an equation for the time period, *T*:
 
-- `F space equals space m omega squared r space equals space m open parentheses fraction numerator 2 pi over denominator T end fraction close parentheses squared r`
+- $F = m \\omega ^{2} r = m ( \frac{2 \pi }{T} )^{2} r$
 - $T=\sqrt{\frac{m4π^{2}r}{F}}$
 
 Substitute the values into the time period equation:
@@ -353,7 +353,7 @@ Calculate the previous centripetal acceleration, *a*<sub>p</sub> :
 
 Determine the change in centripetal acceleration:
 
-- `a space equals space r omega squared space equals space r open parentheses fraction numerator 2 straight pi over denominator T end fraction close parentheses squared space equals fraction numerator space r 4 straight pi squared over denominator T squared end fraction`
+- $a = r \\omega ^{2} = r ( \frac{2 \mathrm{\pi } }{T} )^{2} = \frac{ r 4 \mathrm{\pi }^{2}}{T^{2}}$
 - $a\propto\frac{1}{T^{2}}$
 - Therefore, if *T *doubles, then *a* decreases by 4
 
@@ -416,11 +416,11 @@ Determine an equation for the angle, *θ*:
 - $W=F\mathrm{tan}θ$ (from part b)
 - $W = m g$ and $F = \frac{mv^{2}}{r}$
 - $mg=\frac{mv^{2}}{r}\mathrm{tan}θ$
-- `tan theta equals fraction numerator r g over denominator v squared end fraction rightwards double arrow theta equals tan to the power of negative 1 end exponent open parentheses fraction numerator r g over denominator v squared end fraction close parentheses` **[1 mark]**
+- $\tan \\theta = \frac{r g}{v^{2}} \Leftrightarrow \\theta = \tan ^{- 1} ( \frac{r g}{v^{2}} )$ **[1 mark]**
 
 Calculate the angle, *θ:*
 
-- `theta equals tan to the power of negative 1 end exponent open parentheses fraction numerator r g over denominator v squared end fraction close parentheses equals tan to the power of negative 1 end exponent open parentheses fraction numerator 2.3 cross times 9.81 over denominator 6.0 squared end fraction close parentheses` = 32° **[1 mark]**
+- $\\theta = \tan ^{- 1} ( \frac{r g}{v^{2}} ) = \tan ^{- 1} ( \frac{2.3 \times 9.81}{6.0^{2}} )$ = 32° **[1 mark]**
 
 **[Total: 2 marks]**
 
@@ -442,7 +442,7 @@ Equate Newton’s Law of Gravitation with centripetal force:
 Substitute in the equation for orbital velocity, *v *into the equation for centripetal force, *F*<sub>*cent*</sub>* *:
 
 - Recall the equation for orbital velocity: $v=\frac{2πr}{T}$
-- `F subscript c e n t end subscript space equals space fraction numerator m space open parentheses fraction numerator 2 pi r over denominator T end fraction close parentheses squared over denominator r end fraction`
+- $F_{c e n t} = \frac{m ( \frac{2 \pi r}{T} )^{2}}{r}$
 - $F_{cent}=\frac{4mπ^{2}r^{2}}{T^{2}}\times\frac{1}{r}$ **[1 mark]**
 
 Combine the equations for centripetal and gravitational force:
@@ -450,8 +450,8 @@ Combine the equations for centripetal and gravitational force:
 - $\frac{4mπ^{2}r^{2}}{rT^{2}}$ = *G *$\frac{m_{E}m}{r^{2}}$
 - $\frac{4π^{2}r^{3}}{T^{2}}=Gm_{E}$
 - $r^{3}=\frac{Gm_{E}T^{2}}{4π^{2}}$
-- *r  =  *`cube root of fraction numerator G m subscript E T squared over denominator 4 straight pi squared end fraction end root`**[1 mark]**
-- *r  =  *`cube root of fraction numerator open parentheses 6.67 cross times 10 to the power of negative 11 end exponent close parentheses cross times open parentheses 6.0 cross times 10 to the power of 24 close parentheses cross times open parentheses 12 space 000 close parentheses squared over denominator 4 straight pi squared end fraction end root`* *= 11 343 836 m **[1 mark]**
+- *r  =  *$\sqrt[3]{ \frac{G m_{E} T^{2}}{4 \mathrm{\pi }^{2}} }$**[1 mark]**
+- *r  =  *$\sqrt[3]{ \frac{( 6.67 \times 10^{- 11} ) \times ( 6.0 \times 10^{24} ) \times ( 12 000 )^{2}}{4 \mathrm{\pi }^{2}} }$* *= 11 343 836 m **[1 mark]**
 
 Determine the height of the orbit by subtracting the radius of Earth:
 
@@ -543,13 +543,13 @@ List the known quantities:
 
 Calculate centripetal acceleration:
 
-- *a* =$\frac{v^{2}}{r}$ = `fraction numerator open parentheses 1.23 close parentheses squared over denominator 0.167 end fraction` (**OR** *a = *$ω^{2}$*r*) **[1 mark]**
+- *a* =$\frac{v^{2}}{r}$ = $\frac{( 1.23 )^{2}}{0.167}$ (**OR** *a = *$ω^{2}$*r*) **[1 mark]**
 - *a =* 9.06 m s<sup>–2</sup> **[1 mark]**
 
 Calculate centripetal force:
 
 - *F* =$\frac{mv^{2}}{r}$ (**OR **F = $mω^{2}r$) =* ma*
-- *F* = 23.4 × `fraction numerator open parentheses 1.23 close parentheses squared over denominator 0.167 end fraction` = 212 N **[1 mark]**** **
+- *F* = 23.4 × $\frac{( 1.23 )^{2}}{0.167}$ = 212 N **[1 mark]**** **
 
 **[Total: 3 marks]**
 Whilst the roundabout is rotating:

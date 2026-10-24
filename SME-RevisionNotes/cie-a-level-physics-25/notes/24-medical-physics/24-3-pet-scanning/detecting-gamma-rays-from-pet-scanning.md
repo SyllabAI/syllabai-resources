@@ -58,7 +58,7 @@ $p=\frac{E}{c}$
 > 
 > **Step 3: Substitute in values and calculate energy**
 > 
-> `E space equals space 2 space cross times space open parentheses 9.11 space cross times space 10 to the power of negative 31 end exponent close parentheses space cross times space open parentheses 3.0 space cross times space 10 to the power of 8 close parentheses squared space equals space 1.6 space cross times space 10 to the power of negative 13 end exponent space straight J`
+> $E = 2 \times ( 9.11 \times 10^{- 31} ) \times ( 3.0 \times 10^{8 )^{2} = 1.6 \times 10^{-13} } \mathrm{J}$
 > 
 > **Part (b)**
 > 

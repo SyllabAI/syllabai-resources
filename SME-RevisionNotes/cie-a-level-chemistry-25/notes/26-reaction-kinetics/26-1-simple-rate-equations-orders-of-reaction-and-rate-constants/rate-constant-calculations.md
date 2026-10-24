@@ -44,11 +44,11 @@ guided_study: true
 - To find the rate constant (*k*):
 
   - Rearrange the rate equation to find *k*:
-  - Rate = *k* [CaCO<sub>3</sub>] [Cl<sup>–</sup>] → *k* = `fraction numerator rate over denominator open square brackets CaCO subscript 3 close square brackets space open square brackets Cl to the power of minus close square brackets end fraction`
+  - Rate = *k* [CaCO<sub>3</sub>] [Cl<sup>–</sup>] → *k* = $\frac{rate}{[ CaCO_{3} ] [ Cl^{-} ]}$
 - Substitute the values of one of the experiments to find *k*:
 
   - For example, using the measurements from experiment 1
-  - *k* = `fraction numerator 4.38 cross times 10 to the power of negative 6 end exponent over denominator open square brackets 0.0250 close square brackets space open square brackets 0.0125 close square brackets end fraction`
+  - *k* = $\frac{4.38 \times 10^{- 6} }{[ 0.0250 ] [ 0.0125 ]}$
   - *k* = 1.40 x 10<sup>-2</sup> dm<sup>3</sup> mol<sup>-1</sup> s<sup>-1</sup>
 - The measurements from experiments 2 or 3** **could also have been used to find *k*
 

@@ -8,17 +8,17 @@
 ### Q1
 **Method 1 - interior angles**
 
-Find the sum of the interior angles in a hexagon using `open parentheses n minus 2 close parentheses cross times 180 degree`
+Find the sum of the interior angles in a hexagon using $( n - 2 ) \times 180^{\circ}$
 
-`open parentheses 6 minus 2 close parentheses cross times 180 degree equals 720 to the power of ring operator`
+$( 6 - 2 ) \times 180^{\circ} = 720^{ring} \text{operator}$
 
 Find the interior angle in a regular hexagon by dividing by the number of angles
 
 * *$720^{\circ}\div6=120^{\circ}$
 
-Find the sum of the interior angles in a pentagon using `open parentheses n minus 2 close parentheses cross times 180 degree`
+Find the sum of the interior angles in a pentagon using $( n - 2 ) \times 180^{\circ}$
 
-* *`open parentheses 5 minus 2 close parentheses cross times 180 degree equals 540 to the power of ring operator`
+* *$( 5 - 2 ) \times 180^{\circ} = 540^{ring} \text{operator}$
 
 Find the interior angle in a regular pentagon by dividing by the number of angles
 
@@ -92,7 +92,7 @@ $x=64$
 
 > *The sum of interior angles of an *$n$*-sided polygon is*
 
-`180 cross times open parentheses n minus 2 close parentheses`
+$180 \times ( n - 2 )$
 
 **[M1]**
 
@@ -102,8 +102,8 @@ $n=6$
 
 > *Therefore*
 
-`180 cross times open parentheses 6 minus 2 close parentheses
-180 cross times 4 equals 720 degree`
+$180 \times ( 6 - 2 )
+180 \times 4 = 720^{\circ}$
 
 **Final answer:** **The sum of interior angles of a hexagon = **$720^{\circ}$
 
@@ -222,7 +222,7 @@ $a=32$* ***[1]*** *
 
 > *Angle *$b$* and the angle made up of *$32^{\circ}$* and *$50^{\circ}$* are **co-interior angles**, and co-interior angles add up to *$180^{\circ}$*.** **Add *$32^{\circ}$* and *$50^{\circ}$* and subtract from *$180^{\circ}$*. *
 
-`180 minus open parentheses 32 plus 50 close parentheses equals 98`
+$180 - ( 32 + 50 ) = 98$
 
 $b=98$* ***[1]**
 
@@ -252,7 +252,7 @@ $360\div18=20$
 $20$ **[1]**
 
 ### Q9
-> *The interior angle of a regular pentagon is calculated using the formula: *`A equals fraction numerator 180 open parentheses n minus 2 close parentheses over denominator n end fraction`* where *$n$* is the number of sides of the regular polygon.*
+> *The interior angle of a regular pentagon is calculated using the formula: *$A = \frac{180 ( n - 2 )}{n}$* where *$n$* is the number of sides of the regular polygon.*
 
 > *For a pentagon, *
 
@@ -260,7 +260,7 @@ $n=5$
 
 > *Substitute *$n=5$* into the formula and evaluate.*
 
-`A equals fraction numerator 180 open parentheses 5 minus 2 close parentheses over denominator 5 end fraction equals fraction numerator 180 cross times 3 over denominator 5 end fraction equals 108 degree`
+$A = \frac{180 ( 5 - 2 )}{5} = \frac{180 \times 3}{5} = 108^{\circ}$
 
 **[1]**
 
@@ -342,17 +342,17 @@ $q=34^{\circ}$** ****because **$DBE$** is an alternate angle to **$ADB$ **[2] **
 
 ii) *As the sum of angles in a triangle is *$180^{\circ}$*:*
 
-`r equals 180 minus open parentheses 34 plus 34 close parentheses equals 112`
+$r = 180 - ( 34 + 34 ) = 112$
 
 $r=112$** [1]**
 
-`s equals 180 minus open parentheses 90 plus 34 close parentheses equals 56`
+$s = 180 - ( 90 + 34 ) = 56$
 
 $s=56$** [1]**
 
 iii) *Use the angle fact the sum of angles on a straight line is *$180^{\circ}$*.*
 
-`t equals 180 minus open parentheses q plus r close parentheses equals 180 minus open parentheses 34 plus 112 close parentheses equals 180 minus 146 equals 34`
+$t = 180 - ( q + r ) = 180 - ( 34 + 112 ) = 180 - 146 = 34$
 
 **Final answer:** $t=34$** because angles on a straight line sum to 180°**** [2] **
 
@@ -385,7 +385,7 @@ $135^{\circ}+135^{\circ}+90^{\circ}=360^{\circ}$* ***[1]**
 ### Q15
 > *Angle *$x$* and *$120^{\circ}$* are **co-interior**. Subtract *$120^{\circ}$* from *$180^{\circ}$* to find the size of angle *$x$*. *
 
-`table row cell 180 minus 120 end cell equals 60 row blank blank blank row x equals 60 end table`
+$\begin{gathered} 180 - 120 & = 60 \\ \\ x = 60 \end{gathered}$
 
 > * The missing angle to the left of *$y$* and *$140^{\circ}$* are also **co-interior**, so subtract *$140^{\circ}$* from *$180^{\circ}$* to find the missing angle.  *
 
@@ -397,7 +397,7 @@ $180-140=40$
 
 > *Add together *$40^{\circ}$* and *$60^{\circ}$* and subtract from *$180^{\circ}$* to find angle *$y$* (angles on a straight line add up to *$180^{\circ}$*). *
 
-`table row cell 180 minus open parentheses 40 plus 60 close parentheses end cell equals 80 row blank blank blank row y equals 80 end table`
+$\begin{gathered} 180 - ( 40 + 60 ) & = 80 \\ \\ y = 80 \end{gathered}$
 
 $x=60$* ***[1]**
 
@@ -425,7 +425,7 @@ $a=63^{\circ}$**, ****corresponding angles are equal**** ****[2]**
 
 > *Subtract the known angles from *$180^{\circ}$*. *
 
-`180 minus open parentheses 63 plus 58 close parentheses`
+$180 - ( 63 + 58 )$
 
 $b=59^{\circ}$*,*** the sum of angles in a triangle is **$180^{\circ}$* ***[2] **
 
@@ -459,7 +459,7 @@ $48^{\circ}$*, ***corresponding*** ***[2]**
 (ii) *Angle *$b$* is on a straight line with angle *$a$* and *$65^{\circ}$*.*
 *Add *$48^{\circ}$* (angle *$a$*) and *$65^{\circ}$* and subtract from *$180^{\circ}$* (degrees on a straight line). *
 
-> `180 minus open parentheses 48 plus 65 close parentheses equals 67`* *
+> $180 - ( 48 + 65 ) = 67$* *
 
 $67^{\circ}$*, ***angles on a straight line add up to **$180^{\circ}$* ***[2]**
 **1 mark for angle, 1 mark for reason**
@@ -488,7 +488,7 @@ $x=72$** because corresponding angles are equal*** ***[2] **
 **1 mark for angle, 1 mark for reason**
 > *Angle *$y$* is at a point with three other angles. Add up the given angles and subtract from *$360^{\circ}$* (angles at a point add up to *$360^{\circ}$*).*
 
-> * *`360 minus open parentheses 72 plus 88 plus 135 close parentheses equals 65`
+> * *$360 - ( 72 + 88 + 135 ) = 65$
 
 * *$y=65$* ***because angles at a point sum to **$360^{\circ}$* ***[2]**
 
@@ -498,7 +498,7 @@ $x=72$** because corresponding angles are equal*** ***[2] **
 i) *Angles in a triangle sum to *$180^{\circ}$*.*
 *Subtract the known angles in the triangle from *$180^{\circ}$*.*
 
-`180 minus open parentheses 74 plus 71 close parentheses`
+$180 - ( 74 + 71 )$
 
 $35^{\circ}$ **[1]**
 
@@ -535,11 +535,11 @@ i) *A polygon with 8 sides is an octagon.*
 
 ii) *The interior angle sum of an *$n-$*sided polygon is calculated using the formula:*
 
-> *Interior angle sum *`equals 180 open parentheses n minus 2 close parentheses`*.*
+> *Interior angle sum *$= 180 ( n - 2 )$*.*
 
 > *Substitute *$n=24$* into this formula and evaluate.*
 
-`180 cross times open parentheses 24 minus 2 close parentheses equals 3960`
+$180 \times ( 24 - 2 ) = 3960$
 
 **[1]**
 
@@ -610,7 +610,7 @@ $157.5^{\circ}$* ***[1]**
 
 > *The sum of interior angles = 180° × **(*$n-2$*) because a polygon can be split into *$n-2$* triangles. *
 
-`table row cell Sum space of space interior space angles end cell equals cell 180 cross times open parentheses 16 minus 2 close parentheses end cell row blank blank blank row blank equals cell 180 cross times 14 end cell row blank blank blank row blank equals 2520 end table`
+`| Sum of interior angles | = 180 x ( 16 - 2 ) | | _ _ _ | _ = 180 x 14 | | _ _ _ | _ = 2520 |`
 
 > *Divide 2520 by 16 to find the size of one **interior **angle. *
 

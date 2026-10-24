@@ -55,7 +55,7 @@ $m=\frac{y_{2}-y_{1}}{x_{2}-x_{1}}$
 - You will need the **gradient**
 
   - If you are given **two points** then first find the gradient
-- It is easiest to start with the **point-gradient form **`space y minus y subscript 1 equals m open parentheses x minus x subscript 1 close parentheses`
+- It is easiest to start with the **point-gradient form **$y - y_{1} = m ( x - x_{1} )$
 
   - then **rearrange** into whatever form is required
   
@@ -80,15 +80,15 @@ $m=\frac{y_{2}-y_{1}}{x_{2}-x_{1}}$
 > 
 > > *First find the gradient of the line using 'rise over run'*
 > 
-> `m equals fraction numerator negative 7 minus 5 over denominator 6 minus open parentheses negative 2 close parentheses end fraction equals fraction numerator negative 12 over denominator 8 end fraction equals negative 3 over 2`
+> $m = \frac{- 7 - 5}{6 - ( - 2 )} = \frac{- 12}{8} = - \frac{3}{2}$
 > 
-> > *Substitute the gradient and the coordinates of **one** of the points into  *`space y minus y subscript 1 equals m open parentheses x minus x subscript 1 close parentheses`
+> > *Substitute the gradient and the coordinates of **one** of the points into  *$y - y_{1} = m ( x - x_{1} )$
 > 
-> `table attributes columnalign right center left columnspacing 0px end attributes row cell y minus 5 end cell equals cell negative 3 over 2 open parentheses x minus open parentheses negative 2 close parentheses close parentheses end cell row cell y minus 5 end cell equals cell negative 3 over 2 open parentheses x plus 2 close parentheses end cell row cell y minus 5 end cell equals cell negative 3 over 2 x minus 3 end cell end table`
+> $\begin{array}{rcl} y - 5 & = - \frac{3}{2} ( x - ( - 2 ) ) \\ y - 5 & = - \frac{3}{2} ( x + 2 ) \\ y - 5 & = - \frac{3}{2} x - 3 \end{array}$
 > 
 > > *Multiply both sides of the equation by 2 to get rid of the fraction*
 > 
-> `table row cell 2 open parentheses y minus 5 close parentheses end cell equals cell 2 open parentheses negative 3 over 2 x minus 3 close parentheses end cell row cell 2 y minus 10 end cell equals cell negative 3 x minus 6 end cell end table`
+> $\begin{gathered} 2 ( y - 5 ) & = 2 ( - \frac{3}{2} x - 3 ) \\ 2 y - 10 & = - 3 x - 6 \end{gathered}$
 > 
 > > *Rearrange into the required form*
 > 
@@ -124,13 +124,13 @@ $m=\frac{y_{2}-y_{1}}{x_{2}-x_{1}}$
 > 
 > > *First find the gradient of the given line from its equation*
 > 
-> `table row cell 2 x minus 5 y end cell equals 3 row cell 5 y end cell equals cell 2 x minus 3 end cell row y equals cell 2 over 5 x minus 3 over 5 end cell end table`
+> $\begin{gathered} 2 x - 5 y & = 3 \\ 5 y & = 2 x - 3 \\ y = \frac{2}{5} x - \frac{3}{5} \end{gathered}$
 > 
 > > *So the gradient of line *$l$* is *$\frac{2}{5}$
 > 
-> > *Insert that gradient and the coordinates of the point into  *`y minus y subscript 1 equals m open parentheses x minus x subscript 1 close parentheses`
+> > *Insert that gradient and the coordinates of the point into  *$y - y_{1} = m ( x - x_{1} )$
 > 
-> `table row cell y minus open parentheses negative 1 close parentheses end cell equals cell 2 over 5 open parentheses x minus 4 close parentheses end cell row cell y plus 1 end cell equals cell 2 over 5 x minus 8 over 5 end cell end table`
+> $\begin{gathered} y - ( - 1 ) & = \frac{2}{5} ( x - 4 ) \\ y + 1 & = \frac{2}{5} x - \frac{8}{5} \end{gathered}$
 > 
 > > *Rearrange into the form required*
 > 
@@ -174,14 +174,14 @@ $m=\frac{y_{2}-y_{1}}{x_{2}-x_{1}}$
 > 
 > > *Rearrange the *$l_{1}$* equation into *$y=mx+c$* form*
 > 
-> `table row cell 3 x minus 5 y end cell equals 7 row cell 5 y end cell equals cell 3 x minus 7 end cell row y equals cell 3 over 5 x minus 7 over 5 end cell end table`
+> $\begin{gathered} 3 x - 5 y & = 7 \\ 5 y & = 3 x - 7 \\ y = \frac{3}{5} x - \frac{7}{5} \end{gathered}$
 > 
 > > *So the gradient of *$l_{1}$* is *$\frac{3}{5}$
 > 
 > > *The gradient of *$l_{2}$* is *$-\frac{5}{3}$*  (don't be fooled by the order of the terms in the equation!)*
 > *Find the product of the two gradients*
 > 
-> `3 over 5 cross times open parentheses negative 5 over 3 close parentheses equals negative 15 over 15 equals negative 1`
+> $\frac{3}{5} \times ( - \frac{5}{3} ) = - \frac{15}{15} = - 1$
 > 
 > > *The product of the gradients is equal to *$-1$*, so the lines are perpendicular*
 > 

@@ -63,7 +63,7 @@ $\frac{p_{1}}{T_{1}}=\frac{p_{2}}{T_{2}}$
 > 
 > - To make *p*<sub>*2*</sub>* *the subject, multiply both sides by* T*<sub>*2 *</sub>to cancel out the *T*<sub>*2*</sub>* *in the fraction under* p*<sub>*2*</sub>
 > 
-> `p subscript 1 over T subscript 1 space cross times space T subscript 2 space equals space fraction numerator p subscript 2 over denominator up diagonal strike T subscript 2 end strike end fraction space cross times space up diagonal strike T subscript 2 end strike`
+> `p _ 1 / T _ 1 x T _ 2 = (p _ 2)/(/ T _ 2 ) x / T _ 2`
 > 
 > $\frac{p_{1}}{T_{1}}\timesT_{2}=p_{2}$
 > 

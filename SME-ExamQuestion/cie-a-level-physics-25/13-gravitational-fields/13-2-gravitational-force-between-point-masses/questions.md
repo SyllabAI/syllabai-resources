@@ -272,7 +272,7 @@ The mass *M *of the planet may be considered to be concentrated at its centre.
 
 Show that the time period *T* of the orbit of the satellite is given by the expression
 
-`T squared space equals space open parentheses fraction numerator 4 pi squared R cubed over denominator G M end fraction close parentheses`
+$T^{2} = ( \frac{4 \pi ^{2} R^{3}}{G M} )$
 
 where *R* is the radius of the orbit of the satellite and *G* is the gravitational constant.
 

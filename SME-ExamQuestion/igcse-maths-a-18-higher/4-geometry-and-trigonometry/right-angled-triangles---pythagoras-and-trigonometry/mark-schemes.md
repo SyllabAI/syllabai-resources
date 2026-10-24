@@ -7,13 +7,13 @@
 ### 11() — 3 marks
 > *It is a right angled triangle so you can use Pythagoras' Theorem: *$a^{2}+b^{2}=c^{2}$*, where **c** is the length of the hypotenuse and **a** and **b **are the lengths of the other two sides.*
 
-`table row cell X Y squared plus Y Z squared end cell equals cell X Z squared end cell row cell 1.35 squared plus 3.25 squared end cell equals cell X Z squared end cell row cell 12.385 end cell equals cell X Z squared end cell end table`
+$\begin{gathered} X Y^{2} + Y Z^{2} & = X Z^{2} \\ 1.35^{2} + 3.25^{2} & = X Z^{2} \\ 12.385 & = X Z^{2} \end{gathered}$
 
 **[1]**
 
 > *Take the positive square root of both sides.*
 
-`table attributes columnalign right center left columnspacing 0px end attributes row cell X Z end cell equals cell square root of 12.385 end root end cell row blank equals cell 3.519232... end cell end table`
+$\begin{array}{rcl} X Z & = \sqrt{12.385} \\ = 3.519232... \end{array}$
 
 **[1]**
 
@@ -26,13 +26,13 @@ $XZ=3.52m(3\mathrm{sf})$ **[1]**
 ### 15() — 3 marks
 > *It is a right angled triangle so you can use Pythagoras' Theorem: *$a^{2}+b^{2}=c^{2}$*, where **c** is the length of the hypotenuse and **a** and **b **are the lengths of the other two sides.*
 
-`table row cell A B squared plus B C squared end cell equals cell A C squared end cell row cell 39 squared plus 70 squared end cell equals cell A C squared end cell row 6421 equals cell A C squared end cell end table`
+$\begin{gathered} A B^{2} + B C^{2} & = A C^{2} \\ 39^{2} + 70^{2} & = A C^{2} \\ 6421 = A C^{2} \end{gathered}$
 
 **[1]**
 
 > *Take the positive square root of both sides.*
 
-`table row cell A C end cell equals cell square root of 6421 end cell row blank equals cell 80.131142... end cell end table`
+$\begin{gathered} A C & = \sqrt{6421} \\ = 80.131142... \end{gathered}$
 
 **[1]**
 
@@ -45,13 +45,13 @@ $AC=80.1\mathrm{cm}(1\mathrm{dp})$ **[1]**
 ### 16() — 3 marks
 > *It is a right angled triangle with an angle (**θ**) so you can use trigonometry. You know the length of the hypotenuse (**H**) and the length of the side that is adjacent (**A**) to the angle. Therefore you can use the cos ratio: *$\mathrm{cos}θ=\frac{A}{H}$*.*
 
-`cos open parentheses x close parentheses equals fraction numerator 6.4 over denominator 9.6 end fraction`
+$\cos ( x ) = \frac{6.4}{9.6}$
 
 **[1]**
 
 > *Use the inverse cos function to get **x** by itself.*
 
-`table row x equals cell cos to the power of negative 1 end exponent open parentheses fraction numerator 6.4 over denominator 9.6 end fraction close parentheses end cell row blank equals cell 48.189685... end cell end table`
+$\begin{gathered} x = \cos ^{- 1} ( \frac{6.4}{9.6} ) \\ = 48.189685... \end{gathered}$
 
 **[1]**
 
@@ -64,13 +64,13 @@ $x=48.2(1\mathrm{dp})$ **[1]**
 ### 17() — 3 marks
 > *It is a right angled triangle with an angle (**θ**) so you can use trigonometry. You know the length of the hypotenuse (**H**) and you want the length of the side that is opposite (**O**) the angle. Therefore you can use the sin ratio: *$\mathrm{sin}θ=\frac{O}{H}$*.*
 
-`sin open parentheses 60 close parentheses equals x over 32`
+$\sin ( 60 ) = \frac{x}{32}$
 
 **[1]**
 
 > *Multiply both sides by 32 to get **x** by itself.*
 
-`table row x equals cell 32 cross times sin open parentheses 60 close parentheses end cell row blank equals cell 16 square root of 3 end cell row blank equals cell 27.721812... end cell end table`
+$\begin{gathered} x = 32 \times \sin ( 60 ) \\ = 16 \sqrt{3} \\ = 27.721812... \end{gathered}$
 
 **[1]**
 
@@ -83,13 +83,13 @@ $x=27.7(1\mathrm{dp})$ **[1]**
 ### 13((b)) — 3 marks
 > *It is a right angled triangle with an angle (**θ**) so you can use trigonometry. Angle **RPQ** is the angle in the triangle at **P**. You know the length of the hypotenuse (**H**) and the length of the side that is adjacent (**A**) to the angle. Therefore you can use the cos ratio: *$\mathrm{cos}θ=\frac{A}{H}$*.*
 
-`cos open parentheses theta close parentheses equals 17 over 25`
+$\cos ( \\theta ) = \frac{17}{25}$
 
 **[1]**
 
 > *Use the inverse cos function to get **θ** by itself.*
 
-`table row theta equals cell cos to the power of negative 1 end exponent open parentheses 17 over 25 close parentheses end cell row blank equals cell 47.156356... end cell end table`
+$\begin{gathered} \\theta = \cos ^{- 1} ( \frac{17}{25} ) \\ = 47.156356... \end{gathered}$
 
 **[1]**
 
@@ -102,13 +102,13 @@ $\mathrm{Angle}RPQ=47.2^{\circ}(1\mathrm{dp})$ **[1]**
 ### 7() — 2 marks
 > *It is a right angled triangle with an angle (**θ**) so you can use trigonometry. You know the length of the hypotenuse (**H**) and you want the length of the side that is opposite (**O**) the angle. Therefore you can use the sin ratio: *$\mathrm{sin}θ=\frac{O}{H}$*.*
 
-`sin open parentheses 23 close parentheses equals fraction numerator A B over denominator 15 end fraction`
+$\sin ( 23 ) = \frac{A B}{15}$
 
 **[1]**
 
 > *Multiply both sides by 15 to get **AB** by itself.*
 
-`table row cell A B end cell equals cell 15 cross times sin open parentheses 23 close parentheses end cell row blank equals cell 5.860966... end cell end table`
+$\begin{gathered} A B & = 15 \times \sin ( 23 ) \\ = 5.860966... \end{gathered}$
 
 > *Round to 3 significant figures. Remember to include the units for the length.*
 
@@ -119,13 +119,13 @@ $AB=5.86\mathrm{cm}(3\mathrm{sf})$ **[1]**
 ### 2() — 2 marks
 > *It is a right angled triangle with an angle (**θ**) so you can use trigonometry. You know the length of the hypotenuse (**H**) and the length of the side that is opposite (**O**) to the angle. Therefore you can use the sin ratio: *$\mathrm{sin}θ=\frac{O}{H}$*.*
 
-`sin open parentheses x close parentheses equals 5 over 14`
+$\sin ( x ) = \frac{5}{14}$
 
 **[1]**
 
 > *Use the inverse sin function to get **x** by itself.*
 
-`table row x equals cell sin to the power of negative 1 end exponent open parentheses 5 over 14 close parentheses end cell row blank equals cell 20.924832... end cell end table`
+$\begin{gathered} x = \sin ^{- 1} ( \frac{5}{14} ) \\ = 20.924832... \end{gathered}$
 
 > *Round to 1 decimal place. Remember to include the units for the angle.*
 
@@ -136,13 +136,13 @@ $x=20.9^{\circ}(1\mathrm{dp})$ **[1]**
 ### 5() — 2 marks
 > *It is a right angled triangle with an angle (**θ**) so you can use trigonometry. You know the length of the hypotenuse (**H**) and you want the length of the side that is opposite (**O**) the angle. Therefore you can use the sin ratio: *$\mathrm{sin}θ=\frac{O}{H}$*.*
 
-`sin open parentheses 38 close parentheses equals fraction numerator A B over denominator 16 end fraction`
+$\sin ( 38 ) = \frac{A B}{16}$
 
 **[1]**
 
 > *Multiply both sides by 16 to get **AB** by itself.*
 
-`table row cell A B end cell equals cell 16 cross times sin open parentheses 38 close parentheses end cell row blank equals cell 9.850583... end cell end table`
+$\begin{gathered} A B & = 16 \times \sin ( 38 ) \\ = 9.850583... \end{gathered}$
 
 > *Round to 2 decimal places. Remember to include the units for the length.*
 
@@ -184,7 +184,7 @@ $\mathrm{tan}x=\frac{3.4}{4.7}$
 
 > *Take the inverse tan of both sides to get *$x$* on its own.*
 
-`x equals tan to the power of negative 1 end exponent open parentheses fraction numerator 3.4 over denominator 4.7 end fraction close parentheses`
+$x = \tan ^{- 1} ( \frac{3.4}{4.7} )$
 
 **[1]**
 
@@ -215,11 +215,11 @@ $c^{2}=103.61$
 
 > *Find the value of *$a$* by taking the square root of both sides.*
 
-`table attributes columnalign right center left columnspacing 0px end attributes row c equals cell square root of 103.61 end root end cell end table`
+$\begin{array}{rcl} c = \sqrt{103.61} \end{array}$
 
 **[1]**
 
-`table attributes columnalign right center left columnspacing 0px end attributes row c equals cell 10.1788... end cell end table`
+$\begin{array}{rcl} c = 10.1788... \end{array}$
 
 > *Round to 1 decimal place.*
 
@@ -259,7 +259,7 @@ $\mathrm{cos}x=\frac{12}{15}$
 
 Find the inverse of this as you are finding an angle
 
-`cos to the power of negative 1 end exponent open parentheses 12 over 15 close parentheses equals 36.869...`
+$\cos ^{- 1} ( \frac{12}{15} ) = 36.869...$
 
 **[M1]**
 
@@ -274,17 +274,17 @@ Round to 1 decimal place
 ### 13() — 3 marks
 > *It is a right angled triangle so you can use Pythagoras' Theorem: *$a^{2}+b^{2}=c^{2}$*, where **c** is the length of the hypotenuse and **a** and **b **are the lengths of the other two sides.*
 
-`table row cell A C squared plus B C squared end cell equals cell A B squared end cell row cell 6 squared plus B C squared end cell equals cell 13 squared end cell row cell 36 plus B C squared end cell equals 169 end table`
+$\begin{gathered} A C^{2} + B C^{2} & = A B^{2} \\ 6^{2} + B C^{2} & = 13^{2} \\ 36 + B C^{2} & = 169 \end{gathered}$
 
 > *Subtract 36 from both sides.*
 
-`table row cell B C squared end cell equals cell 169 minus 36 end cell row blank equals 133 end table`
+$\begin{gathered} B C^{2} & = 169 - 36 \\ = 133 \end{gathered}$
 
 **[1]**
 
 > *Take the positive square root of both sides.*
 
-`table row cell B C end cell equals cell square root of 133 end cell row blank equals cell 11.532562... end cell end table`
+$\begin{gathered} B C & = \sqrt{133} \\ = 11.532562... \end{gathered}$
 
 **[1]**
 
@@ -303,13 +303,13 @@ $BC=11.5\mathrm{cm}(3\mathrm{sf})$ **[1]**
 
 > *It is a right angled triangle so you can use Pythagoras' Theorem: *$a^{2}+b^{2}=c^{2}$*, where **c** is the length of the hypotenuse and **a** and **b **are the lengths of the other two sides.*
 
-`table row cell 6 squared plus 8 squared end cell equals cell x squared end cell row 100 equals cell x squared end cell end table`
+$\begin{gathered} 6^{2} + 8^{2} & = x^{2} \\ 100 = x^{2} \end{gathered}$
 
 **[1]**
 
 > *Take the positive square root of both sides.*
 
-`table row x equals cell square root of 100 end cell row blank equals 10 end table`
+$\begin{gathered} x = \sqrt{100} \\ = 10 \end{gathered}$
 
 **[1]**
 
@@ -330,23 +330,23 @@ $\mathrm{Perimeter}=48\mathrm{cm}$ **[1]**
 
 > *It is a right angled triangle so you can use Pythagoras' Theorem: *$a^{2}+b^{2}=c^{2}$*, where **c** is the length of the hypotenuse and **a** and **b **are the lengths of the other two sides.*
 
-`table attributes columnalign right center left columnspacing 0px end attributes row cell 10 squared plus 7 squared end cell equals cell x squared end cell row cell 100 plus 49 end cell equals cell x squared end cell row 149 equals cell x squared end cell end table`
+$\begin{array}{rcl} 10^{2} + 7^{2} & = x^{2} \\ 100 + 49 & = x^{2} \\ 149 = x^{2} \end{array}$
 
 **[1]**
 
 > *Take the positive square root of both sides. Leave as a surd.*
 
-`table attributes columnalign right center left columnspacing 0px end attributes row x equals cell square root of 149 end cell end table`
+$\begin{array}{rcl} x = \sqrt{149} \end{array}$
 
 **[1]**
 
 > *Add together the lengths around the shape to find the perimeter.*
 
-`table attributes columnalign right center left columnspacing 0px end attributes row blank blank cell 11 plus 10 plus 18 plus square root of 149 end cell end table`
+$\begin{array}{rcl} 11 + 10 + 18 + \sqrt{149} \end{array}$
 
 **[1]**
 
-`table attributes columnalign right center left columnspacing 0px end attributes row cell 39 plus square root of 149 end cell equals cell 51.206555... end cell end table`
+$\begin{array}{rcl} 39 + \sqrt{149} & = 51.206555... \end{array}$
 
 **[1]**
 
@@ -359,23 +359,23 @@ $\mathrm{Perimeter}=48\mathrm{cm}$ **[1]**
 ### 9() — 4 marks
 > *Find the diagonal length **DB**. **DCB** is a right angled triangle so you can use Pythagoras' Theorem: *$a^{2}+b^{2}=c^{2}$*, where **c** is the length of the hypotenuse and **a** and **b **are the lengths of the other two sides.*
 
-`table attributes columnalign right center left columnspacing 0px end attributes row cell D C squared plus C B squared end cell equals cell D B squared end cell row cell 60 squared plus 200 squared end cell equals cell D B squared end cell row 43600 equals cell D B squared end cell end table`
+$\begin{array}{rcl} D C^{2} + C B^{2} & = D B^{2} \\ 60^{2} + 200^{2} & = D B^{2} \\ 43600 = D B^{2} \end{array}$
 
 **[1]**
 
 > *Take the positive square root of both sides. Leave as a surd.*
 
-`table attributes columnalign right center left columnspacing 0px end attributes row cell D B end cell equals cell square root of 43600 end cell row blank equals cell 20 square root of 109 end cell end table`
+$\begin{array}{rcl} D B & = \sqrt{43600} \\ = 20 \sqrt{109} \end{array}$
 
 **[1]**
 
 > *Add together the lengths of the 5 rods.*
 
-`table row cell 60 plus 200 plus 60 plus 200 plus 20 square root of 109 end cell equals cell 520 plus 20 square root of 109 end cell row blank equals cell 728.806... space cm end cell end table`
+$\begin{gathered} 60 + 200 + 60 + 200 + 20 \sqrt{109} & = 520 + 20 \sqrt{109} \\ = 728.806... \text{cm} \end{gathered}$
 
 > *Convert to metres by dividing by 100.*
 
-`table row cell 728.806... space divided by 100 end cell equals cell 7.28806... space straight m end cell end table`
+$\begin{gathered} 728.806... \div 100 & = 7.28806... \mathrm{m} \end{gathered}$
 
 > *Multiply by 0.9 to find the total mass of the framework in kilograms.*
 
@@ -392,7 +392,7 @@ $6.56\mathrm{kg}(3\mathrm{sf})$* ***[1]**
 ### 4() — 4 marks
 > *The perimeter is the sum of the three lengths. Subtract the two lengths from the perimeter to find the length of the third side.*
 
-`table row cell A C end cell equals cell 20 minus 4 minus 7 end cell row blank equals cell 9 space cm end cell end table`
+$\begin{gathered} A C & = 20 - 4 - 7 \\ = 9 \text{cm} \end{gathered}$
 
 > *Sketch a triangle to help visualise the sides. **AC** is the hypotenuse as it is the biggest length.*
 
@@ -402,28 +402,28 @@ $6.56\mathrm{kg}(3\mathrm{sf})$* ***[1]**
 
 > *If the triangle is right angled then Pythagoras' theorem will apply, *$a^{2}+b^{2}=c^{2}$*, where **c** is the length of the hypotenuse and **a** and **b **are the lengths of the other two sides. Work out the value of both sides of the equation to see if they are equal. If they are equal then it is a right angled triangle.*
 
-`table row cell A B squared plus B C squared end cell equals cell 7 squared plus 4 squared end cell row blank equals cell 49 plus 16 end cell row blank equals 65 end table`
+$\begin{gathered} A B^{2} + B C^{2} & = 7^{2} + 4^{2} \\ = 49 + 16 \\ = 65 \end{gathered}$
 
 **[1]**
 
-`table attributes columnalign right center left columnspacing 0px end attributes row cell A C squared end cell equals cell 9 squared end cell row blank equals 81 end table`
+$\begin{array}{rcl} A C^{2} & = 9^{2} \\ = 81 \end{array}$
 
 **[1]**
 
-**ABC**** is ****not**** a ****right angled**** triangle as**** **`table row cell bold italic A bold italic B to the power of bold 2 bold plus bold italic B bold italic C to the power of bold 2 end cell bold not equal to cell bold italic A bold italic C to the power of bold 2 end cell end table`** [1]**
+**ABC**** is ****not**** a ****right angled**** triangle as**** **$\begin{array}{ccc} A B^{ } 2 + B C^{ } 2 & \text{not} \text{equal} to & A C^{ } 2\end{array}$** [1]**
 
 ## Q19 — medium — 3 marks · exam-questions
 
 ### 20() — 3 marks
 > *It is a right angled triangle with an angle (**θ**) so you can use trigonometry. You know the length of the hypotenuse (**H**) and the length of the side that is adjacent (**A**) to the angle. Therefore you can use the cos ratio: *$\mathrm{cos}θ=\frac{A}{H}$*.*
 
-`cos open parentheses y close parentheses equals fraction numerator 2.25 over denominator 6 end fraction`
+$\cos ( y ) = \frac{2.25}{6}$
 
 **[1]**
 
 > *Use the inverse cos function to get **y** by itself.*
 
-`table row y equals cell cos to the power of negative 1 end exponent open parentheses fraction numerator 2.25 over denominator 6 end fraction close parentheses end cell row blank equals cell 67.975687... end cell end table`
+$\begin{gathered} y = \cos ^{- 1} ( \frac{2.25}{6} ) \\ = 67.975687... \end{gathered}$
 
 **[1]**
 
@@ -436,13 +436,13 @@ $6.56\mathrm{kg}(3\mathrm{sf})$* ***[1]**
 ### 5((a)) — 2 marks
 > *It is a right angled triangle with an angle (**θ**) so you can use trigonometry. You know the length of the hypotenuse (**H**) and the length of the side that is adjacent (**A**) to the angle. Therefore you can use the cos ratio: *$\mathrm{cos}θ=\frac{A}{H}$*.*
 
-`cos open parentheses theta close parentheses equals 7 over 11`
+$\cos ( \\theta ) = \frac{7}{11}$
 
 **[1]**
 
 > *Use the inverse cos function to get **θ** by itself.*
 
-`table row theta equals cell cos to the power of negative 1 end exponent open parentheses 7 over 11 close parentheses end cell row blank equals cell 50.478803... end cell end table`
+$\begin{gathered} \\theta = \cos ^{- 1} ( \frac{7}{11} ) \\ = 50.478803... \end{gathered}$
 
 > *Round to 1 decimal place. Remember to include the units for the angle.*
 
@@ -451,7 +451,7 @@ $\mathrm{Angle}ABC=50.5^{\circ}(1\mathrm{dp})$ **[1]**
 ### 5((b)) — 1 marks
 > *The hypotenuse has changed to 10 but the adjacent side has remained the same. You can still use *$\mathrm{cos}θ=\frac{A}{H}$*.*
 
-`cos open parentheses A B C close parentheses equals 7 over 10`
+$\cos ( A B C ) = \frac{7}{10}$
 
 $\mathrm{cos}(ABC)$ **has ****increased**** as **$\frac{7}{10}>\frac{7}{11}$**[1]**
 
@@ -460,13 +460,13 @@ $\mathrm{cos}(ABC)$ **has ****increased**** as **$\frac{7}{10}>\frac{7}{11}$**[1
 ### 15((a)) — 3 marks
 > *ABC** is a right angled triangle so you can use Pythagoras' Theorem: *$a^{2}+b^{2}=c^{2}$*, where **c** is the length of the hypotenuse and **a** and **b **are the lengths of the other two sides.*
 
-`table row cell A B squared plus B C squared end cell equals cell A C squared end cell row cell 6 squared plus 4.5 squared end cell equals cell A C squared end cell row cell 56.25 end cell equals cell A C squared end cell end table`
+$\begin{gathered} A B^{2} + B C^{2} & = A C^{2} \\ 6^{2} + 4.5^{2} & = A C^{2} \\ 56.25 & = A C^{2} \end{gathered}$
 
 **[1]**
 
 > *Take the positive square root of both sides.*
 
-`table attributes columnalign right center left columnspacing 0px end attributes row cell A C end cell equals cell square root of 56.25 end root end cell row blank equals cell 7.5 end cell end table`
+$\begin{array}{rcl} A C & = \sqrt{56.25} \\ = 7.5 \end{array}$
 
 **[1]**
 
@@ -481,23 +481,23 @@ $AC=7.5\mathrm{km}$ **[1]**
 
 > *It is a right angled triangle with an angle (**θ**) so you can use trigonometry.  You know the length of the side opposite (**O**) to the angle and the length of the side adjacent (**A**) to the angle. Therefore you can use the tan ratio: *$\mathrm{tan}θ=\frac{O}{A}$*.*
 
-`tan open parentheses theta close parentheses equals fraction numerator 4.5 over denominator 6 end fraction`
+$\tan ( \\theta ) = \frac{4.5}{6}$
 
 **[1]**
 
 > *Use the inverse tan function to get **θ** by itself.*
 
-`table row theta equals cell tan to the power of negative 1 end exponent open parentheses fraction numerator 4.5 over denominator 6 end fraction close parentheses end cell end table`
+$\begin{gathered} \\theta = \tan ^{- 1} ( \frac{4.5}{6} ) \end{gathered}$
 
 **[1]**
 
-`table row theta equals cell 36.869897... end cell end table`
+$\begin{gathered} \\theta = 36.869897... \end{gathered}$
 
 **[1]**
 
 > *Add to 180° and round to nearest degree.*
 
-`180 plus table row blank blank 36 end table table row blank blank. end table table row blank blank 869897 end table table row blank blank. end table table row blank blank. end table table row blank blank. end table table row blank equals blank end table table row blank blank 216 end table table row blank blank. end table table row blank blank 869897 end table table row blank blank. end table table row blank blank. end table table row blank blank. end table`
+$180 + \begin{gathered} 36 \end{gathered} \begin{gathered} . \end{gathered} \begin{gathered} 869897 \end{gathered} \begin{gathered} . \end{gathered} \begin{gathered} . \end{gathered} \begin{gathered} . \end{gathered} \begin{gathered} = \end{gathered} \begin{gathered} 216 \end{gathered} \begin{gathered} . \end{gathered} \begin{gathered} 869897 \end{gathered} \begin{gathered} . \end{gathered} \begin{gathered} . \end{gathered} \begin{gathered} . \end{gathered}$
 
 $\mathrm{Bearing}=217(\mathrm{nearest} \mathrm{degree})$ **[1]**
 
@@ -510,19 +510,19 @@ $\mathrm{Bearing}=217(\mathrm{nearest} \mathrm{degree})$ **[1]**
 
 > *The new triangle is a right angled triangle with an angle (**θ**) so you can use trigonometry. You know the length of the side that is adjacent (**A**) to the angle and you want the length of the side that is opposite (**O**) the angle. Therefore you can use the tan ratio: *$\mathrm{tan}θ=\frac{O}{A}$*.*
 
-`tan open parentheses 54 close parentheses equals x over 6`
+$\tan ( 54 ) = \frac{x}{6}$
 
 **[1]**
 
 > *Multiply both sides by 6.*
 
-`table row x equals cell 6 cross times tan open parentheses 54 close parentheses end cell row blank equals cell 8.258291... end cell end table`
+$\begin{gathered} x = 6 \times \tan ( 54 ) \\ = 8.258291... \end{gathered}$
 
 **[1]**
 
 > *You can now find the area of the triangle using the formula *$A=\frac{1}{2}\timesb\timesh$*, where **b** is the length of the base and **h** is the length of the perpendicular height. Use the answer button or store the height in your calculator's memory.*
 
-`table row Area equals cell 1 half cross times 12 cross times 8.258291... end cell row blank equals cell 49.549749... end cell end table`
+$\begin{gathered} \text{Area} = 1 \frac{1}{2} \times 12 \times 8.258291... \\ = 49.549749... \end{gathered}$
 
 **[1]**
 
@@ -540,17 +540,17 @@ $\mathrm{Area}=49.5\mathrm{cm}^{2}(3\mathrm{sf})$* ***[1] **
 
 > *The new triangle is a right angled triangle with an angle (**θ**) so you can use trigonometry. You know the length of the hypotenuse (**H**) and you want the length of the side that is opposite (**O**) the angle. Therefore you can use the sin ratio: *$\mathrm{sin}θ=\frac{O}{H}$*.*
 
-`sin open parentheses 70 close parentheses equals x over 8`
+$\sin ( 70 ) = \frac{x}{8}$
 
 > *Multiply both sides by 8.*
 
-`table row x equals cell 8 cross times sin open parentheses 70 close parentheses end cell row blank equals cell 7.517540... end cell end table`
+$\begin{gathered} x = 8 \times \sin ( 70 ) \\ = 7.517540... \end{gathered}$
 
 **[1]**
 
 > *This is half the length of **PR**. So double this value. Use the answer button.*
 
-`table row cell 2 cross times 8 cross times sin open parentheses 70 close parentheses end cell equals cell 2 cross times 7.517540... end cell row blank equals cell 15.035081... end cell end table`
+$\begin{gathered} 2 \times 8 \times \sin ( 70 ) & = 2 \times 7.517540... \\ = 15.035081... \end{gathered}$
 
 **[1]**
 
@@ -621,7 +621,7 @@ $\mathrm{tan}x=\frac{24.5}{244}$
 
 > *Take the inverse tan of both sides.*
 
-`x equals tan to the power of negative 1 end exponent open parentheses fraction numerator 24.5 over denominator 244 end fraction close parentheses`
+$x = \tan ^{- 1} ( \frac{24.5}{244} )$
 
 **[1]**
 
@@ -772,7 +772,7 @@ $\mathrm{tan}y=\frac{8.3}{12.5}$
 
 > *Take the inverse tan of both sides.*
 
-`y equals tan to the power of negative 1 end exponent open parentheses fraction numerator 8.3 over denominator 12.5 end fraction close parentheses`
+$y = \tan ^{- 1} ( \frac{8.3}{12.5} )$
 
 **[1]**
 
@@ -801,7 +801,7 @@ $x=123.5841...$
 
 ![Isosceles triangle with equal sides of 14.5 cm, base 10 cm, altitude with right angle to base. Label states the diagram is not accurately drawn.](assets/008-isosceles-triangle-with-equal-sides-of-14-5-cm-b.png)
 
-`open parentheses height close parentheses squared equals 14.5 squared minus 10 squared equals 110.25`
+$( \text{height} ) ^{2} = 14.5 ^{2} - 10 ^{2} = 110.25$
 
 $\mathrm{height}=\sqrt{110.25}=10.5$
 
@@ -838,11 +838,11 @@ $\frac{1}{2}\times20\times10.5=105$
 
 > *Use the labelled triangle to select the trigonometric ratio to use (sine, cosine or tangent)*
 
-`tan open parentheses x close parentheses equals opposite over adjacent`
+$\tan ( x ) = \frac{opposite}{adjacent}$
 
 > *Substitute values into the equation and solve for *$x$
 
-`table row cell tan open parentheses x close parentheses end cell equals cell 8 over 12 end cell row x equals cell tan to the power of negative 1 end exponent open parentheses 8 over 12 close parentheses end cell row x equals cell 33.690... end cell end table`
+$\begin{gathered} \tan ( x ) & = \frac{8}{12} \\ x = \tan ^{- 1} ( \frac{8}{12} ) \\ x = 33.690... \end{gathered}$
 
 **[M1 M1]**
 
@@ -870,11 +870,11 @@ $\frac{1}{2}\times20\times10.5=105$
 
 > *First work out *$AD$* to be able to work out the length of *$DB$
 
-`tan open parentheses 40 close parentheses space equals fraction numerator space 8 over denominator A D end fraction`
+$\tan ( 40 ) = \frac{ 8}{A D}$
 
 **[M1]**
 
-`A D thin space equals fraction numerator space 8 over denominator tan open parentheses 40 close parentheses end fraction`
+$A D = \frac{ 8}{\tan ( 40 )}$
 
 **[M1]**
 
@@ -886,11 +886,11 @@ $BD=22-9.53...=12.47...$
 
 **[M1]**
 
-`tan open parentheses x close parentheses thin space equals fraction numerator space 8 over denominator 12.47... end fraction`
+$\tan ( x ) = \frac{ 8}{12.47...}$
 
 **[M1]**
 
-`table row cell x space end cell equals cell space tan to the power of negative 1 end exponent open parentheses fraction numerator 8 over denominator 12.47... end fraction close parentheses end cell row blank equals cell 32.69... end cell end table`
+$\begin{gathered} x & = \tan ^{- 1} ( \frac{8}{12.47...} ) \\ = 32.69... \end{gathered}$
 
 > *Round to 1 decimal place*
 
@@ -906,7 +906,7 @@ $x=32.7^{\circ}$
 ### 2() — 4 marks
 > *Use Pythagoras' Theorem with *$ABC$* to work out the length of *$BC$
 
-`table row cell 8 squared space plus space B C squared space end cell equals cell space 10 squared end cell row cell B C squared space end cell equals cell space 10 squared space minus space 8 squared end cell row cell B C squared space end cell equals cell space 36 end cell end table`
+$\begin{gathered} 8^{2} + B C^{2} & = 10^{2} \\ B C^{2} & = 10^{2} - 8^{2} \\ B C^{2} & = 36 \end{gathered}$
 
 **[M1]**
 
@@ -941,7 +941,7 @@ $17.8\mathrm{cm}$
 
 ![f1~SR4et_4-10-edexcel-gcse-hq1-1](assets/068-f1-sr4et-4-10-edexcel-gcse-hq1-1.png)
 
-`table row cell A B squared plus B D squared end cell equals cell A D squared end cell row cell 5 squared plus y squared end cell equals cell 10 squared end cell row cell 25 plus y squared end cell equals 100 row cell y squared end cell equals 75 row y equals cell square root of 75 end cell end table`
+$\begin{gathered} A B^{2} + B D^{2} & = A D^{2} \\ 5^{2} + y^{2} & = 10^{2} \\ 25 + y^{2} & = 100 \\ y^{2} & = 75 \\ y = \sqrt{75} \end{gathered}$
 
 **[1]**
 
@@ -949,13 +949,13 @@ $17.8\mathrm{cm}$
 
 ![4-10-edexcel-gcse-hq1-2](assets/069-4-10-edexcel-gcse-hq1-2.png)
 
-`table row cell B D squared plus D C squared end cell equals cell B D squared end cell row cell open parentheses square root of 75 close parentheses squared plus 4 squared end cell equals cell x squared end cell row 91 equals cell x squared end cell end table`
+$\begin{gathered} B D^{2} + D C^{2} & = B D^{2} \\ ( \sqrt{75} )^{2} + 4^{2} & = x^{2} \\ 91 = x^{2} \end{gathered}$
 
 **[1]**
 
 > *Take the positive square root of both sides.*
 
-`table row x equals cell square root of 91 end cell row blank equals cell 9.539392... end cell end table`
+$\begin{gathered} x = \sqrt{91} \\ = 9.539392... \end{gathered}$
 
 **[1]**
 
@@ -970,11 +970,11 @@ $x=9.54(2dp)$ **[1]**
 
 ![4-10-edexcel-gcse-hq2-1](assets/061-4-10-edexcel-gcse-hq2-1.png)
 
-`table row cell A D squared plus D B squared end cell equals cell A B squared end cell row cell 12 squared plus y squared end cell equals cell 16 squared end cell end table`
+$\begin{gathered} A D^{2} + D B^{2} & = A B^{2} \\ 12^{2} + y^{2} & = 16^{2} \end{gathered}$
 
 **[1]**
 
-`table attributes columnalign right center left columnspacing 0px end attributes row cell 144 plus y squared end cell equals 256 row cell y squared end cell equals 112 row y equals cell square root of 112 end cell end table`
+$\begin{array}{rcl} 144 + y^{2} & = 256 \\ y^{2} & = 112 \\ y = \sqrt{112} \end{array}$
 
 **[1]**
 
@@ -982,13 +982,13 @@ $x=9.54(2dp)$ **[1]**
 
 ![4-10-edexcel-gcse-hq2-2](assets/062-4-10-edexcel-gcse-hq2-2.png)
 
-`table attributes columnalign right center left columnspacing 0px end attributes row cell sin open parentheses 40 close parentheses end cell equals cell fraction numerator square root of 112 over denominator x end fraction end cell end table`
+$\begin{array}{rcl} \sin ( 40 ) & = \frac{ \sqrt{112} }{x} \end{array}$
 
 **[1]**
 
 > *Multiply both sides by **x** and divide both sides by sin(40).*
 
-`table row x equals cell fraction numerator square root of 112 over denominator sin open parentheses 40 close parentheses end fraction end cell row blank equals cell 16.464233... end cell end table`
+$\begin{gathered} x = \frac{ \sqrt{112} }{\sin ( 40 )} \\ = 16.464233... \end{gathered}$
 
 **[1]**
 
@@ -1001,7 +1001,7 @@ $CD=16.5\mathrm{cm}(3\mathrm{sf})$ **[1]**
 ### 9() — 4 marks
 > *The ratio tells you that the length **CD **is 1.5 times bigger than the length **AB**.*
 
-`table row cell C D end cell equals cell 1.5 cross times 1.7 end cell row blank equals cell 2.55 space straight m end cell end table`
+$\begin{gathered} C D & = 1.5 \times 1.7 \\ = 2.55 \mathrm{m} \end{gathered}$
 
 > *Draw a horizontal line from **A** to the line **CD** and use this to form a right angled triangle. Find the difference of the vertical lengths to find the height of the triangle.*
 
@@ -1011,13 +1011,13 @@ $CD=16.5\mathrm{cm}(3\mathrm{sf})$ **[1]**
 
 > *In the right angled triangle you have an angle and the length of the side opposite. As you want the length of the adjacent side you should use the tan ratio.*
 
-`tan open parentheses 52 close parentheses equals fraction numerator 0.85 over denominator x end fraction`
+$\tan ( 52 ) = \frac{0.85}{x}$
 
 **[1]**
 
 > *Multiply both sides by **x** and divide both sides by tan(52).*
 
-`table attributes columnalign right center left columnspacing 0px end attributes row x equals cell fraction numerator 0.85 over denominator tan open parentheses 52 close parentheses end fraction end cell row blank equals cell 0.664092... end cell end table`
+$\begin{array}{rcl} x = \frac{0.85}{\tan ( 52 )} \\ = 0.664092... \end{array}$
 
 **[1]**
 
@@ -1070,7 +1070,7 @@ $60.4\mathrm{cm}^{2}$
 
 > *The triangle is right angled. You have the lengths of two of the sides so you can use Pythagoras' theorem to find the length of the third side.*
 
-`table attributes columnalign right center left columnspacing 0px end attributes row cell y squared plus 6 squared end cell equals cell 10 squared end cell row cell y squared plus 36 end cell equals 100 row cell y squared end cell equals 64 row y equals 8 end table`
+$\begin{array}{rcl} y^{2} + 6^{2} & = 10^{2} \\ y^{2} + 36 & = 100 \\ y^{2} & = 64 \\ y = 8 \end{array}$
 
 **[1]**
 
@@ -1078,13 +1078,13 @@ $60.4\mathrm{cm}^{2}$
 
 ![4-10-edexcel-gcse-hq4-2](assets/049-4-10-edexcel-gcse-hq4-2.png)
 
-`table row cell 8 squared plus 9 squared end cell equals cell x squared end cell row 145 equals cell x squared end cell end table`
+$\begin{gathered} 8^{2} + 9^{2} & = x^{2} \\ 145 = x^{2} \end{gathered}$
 
 **[1]**
 
 > *Take the positive square root of both sides.*
 
-`table attributes columnalign right center left columnspacing 0px end attributes row x equals cell square root of 145 end cell row blank equals cell 12.041594... end cell end table`
+$\begin{array}{rcl} x = \sqrt{145} \\ = 12.041594... \end{array}$
 
 **[1]**
 
@@ -1099,17 +1099,17 @@ $AC=12.0\mathrm{cm}(3\mathrm{sf})$ **[1]**
 
 > *You can find the length of **AB** by adding together **AD** and **DB**.*
 
-`table row cell A B end cell equals cell 10.4 plus 5.2 end cell row blank equals cell 15.6 end cell end table`
+$\begin{gathered} A B & = 10.4 + 5.2 \\ = 15.6 \end{gathered}$
 
 > *You know two lengths of the right angled triangle **ABC** so you can use Pythagoras' theorem to find the length **BC**. Leave as an exact value.*
 
 ![4-10-edexcel-gcse-hq5-1](assets/053-4-10-edexcel-gcse-hq5-1.png)
 
-`table attributes columnalign right center left columnspacing 0px end attributes row cell A B squared plus B C squared end cell equals cell A C squared end cell row cell 15.6 squared plus y squared end cell equals cell 18 squared end cell end table`
+$\begin{array}{rcl} A B^{2} + B C^{2} & = A C^{2} \\ 15.6^{2} + y^{2} & = 18^{2} \end{array}$
 
 **[1]**
 
-`table row cell 243.36 plus y squared end cell equals 324 row cell y squared end cell equals cell 80.64 end cell row y equals cell square root of 80.64 end root end cell end table`
+$\begin{gathered} 243.36 + y^{2} & = 324 \\ y^{2} & = 80.64 \\ y = \sqrt{80.64} \end{gathered}$
 
 **[1]**
 
@@ -1117,11 +1117,11 @@ $AC=12.0\mathrm{cm}(3\mathrm{sf})$ **[1]**
 
 ![4-10-edexcel-gcse-hq5-2](assets/054-4-10-edexcel-gcse-hq5-2.png)
 
-`table row cell tan open parentheses x close parentheses end cell equals cell fraction numerator 5.2 over denominator square root of 80.64 end root end fraction end cell end table`
+$\begin{gathered} \tan ( x ) & = \frac{5.2}{ \sqrt{80.64} } \end{gathered}$
 
 > *Find the angle by using the inverse tan function.*
 
-`table row x equals cell tan to the power of negative 1 end exponent open parentheses fraction numerator 5.2 over denominator square root of 80.64 end root end fraction close parentheses end cell row blank equals cell 30.073674... end cell end table`
+$\begin{gathered} x = \tan ^{- 1} ( \frac{5.2}{ \sqrt{80.64} } ) \\ = 30.073674... \end{gathered}$
 
 **[1]**
 
@@ -1133,25 +1133,25 @@ $x=30.1^{\circ}(1\mathrm{dp})$ **[1]**
 
 > *You can find the length of **AB** by adding together **AD** and **DB**.*
 
-`table attributes columnalign right center left columnspacing 0px end attributes row cell A B end cell equals cell 10.4 plus 5.2 end cell row blank equals cell 15.6 end cell end table`
+$\begin{array}{rcl} A B & = 10.4 + 5.2 \\ = 15.6 \end{array}$
 
 > *You know two lengths of the right angled triangle **ABC** (the hypotenuse and the side opposite **C**) so you can use the sin ratio to find the angle **ACB**.*
 
 ![4-10-edexcel-gcse-hq5-3](assets/055-4-10-edexcel-gcse-hq5-3.png)
 
-`table row cell sin open parentheses y close parentheses end cell equals cell fraction numerator 15.6 over denominator 18 end fraction end cell end table`
+$\begin{gathered} \sin ( y ) & = \frac{15.6}{18} \end{gathered}$
 
 **[1]**
 
 > *Find the angle by using the inverse sin function.*
 
-`table row y equals cell sin to the power of negative 1 end exponent open parentheses fraction numerator 15.6 over denominator 18 end fraction close parentheses end cell row blank equals cell 60.073565... end cell end table`
+$\begin{gathered} y = \sin ^{- 1} ( \frac{15.6}{18} ) \\ = 60.073565... \end{gathered}$
 
 **[1]**
 
 > *The angle ACB is made up of **x **and 30, so make the sum of these two equal to **y** and solve for **x**.*
 
-`table row cell x plus 30 end cell equals cell 60.073565... end cell row x equals cell 30.073565... end cell end table`
+$\begin{gathered} x + 30 & = 60.073565... \\ x = 30.073565... \end{gathered}$
 
 **[1]**
 
@@ -1168,29 +1168,29 @@ $x=30.1^{\circ}(1\mathrm{dp})$ **[1]**
 
 > *You know two lengths of the left right angled triangle so you can use Pythagoras' theorem to find the value of **z**. *
 
-`table attributes columnalign right center left columnspacing 0px end attributes row cell z squared plus 6 squared end cell equals cell 7.5 squared end cell row cell z squared plus 36 end cell equals cell 56.25 end cell end table`
+$\begin{array}{rcl} z^{2} + 6^{2} & = 7.5^{2} \\ z^{2} + 36 & = 56.25 \end{array}$
 
 **[1]**
 
-`table row cell z squared end cell equals cell 20.25 end cell row z equals cell square root of 20.25 end root end cell row z equals cell 4.5 end cell end table`
+$\begin{gathered} z^{2} & = 20.25 \\ z = \sqrt{20.25} \\ z = 4.5 \end{gathered}$
 
 **[1]**
 
 > *Subtract 4.5 and 10 from 24 to find the value of **y**.*
 
-`table attributes columnalign right center left columnspacing 0px end attributes row y equals cell 24 minus 4.5 minus 10 end cell row blank equals cell 9.5 end cell end table`
+$\begin{array}{rcl} y = 24 - 4.5 - 10 \\ = 9.5 \end{array}$
 
 **[1]**
 
 > *You now know the lengths of the sides adjacent and opposite to the required angle in the other right angled triangle so you can use the tan ratio to find the angle.*
 
-`table row cell tan open parentheses x close parentheses end cell equals cell fraction numerator 6 over denominator 9.5 end fraction end cell end table`
+$\begin{gathered} \tan ( x ) & = \frac{6}{9.5} \end{gathered}$
 
 **[1]**
 
 > *Find the angle by using the inverse tan function.*
 
-`table row x equals cell tan to the power of negative 1 end exponent open parentheses fraction numerator 6 over denominator 9.5 end fraction close parentheses end cell row blank equals cell 32.275644... end cell end table`
+$\begin{gathered} x = \tan ^{- 1} ( \frac{6}{9.5} ) \\ = 32.275644... \end{gathered}$
 
 > *Round to 1 decimal place. Remember to include units for the angle.*
 
@@ -1203,13 +1203,13 @@ $\mathrm{Angle}CDA=32.3^{\circ}(1\mathrm{dp})$* ***[1]**
 
 ![-WIAceuo_4-10-edexcel-gcse-hq7-1](assets/064-wiaceuo-4-10-edexcel-gcse-hq7-1.png)
 
-`table row cell sin open parentheses 62 close parentheses end cell equals cell y over 15 end cell end table`
+$\begin{gathered} \sin ( 62 ) & = \frac{y}{15} \end{gathered}$
 
 **[1]**
 
 > *Multiply both sides by 15. Leave as an exact answer.*
 
-`table row y equals cell 15 cross times sin open parentheses 62 close parentheses end cell row blank equals cell 15 sin open parentheses 62 close parentheses end cell end table`
+$\begin{gathered} y = 15 \times \sin ( 62 ) \\ = 15 \sin ( 62 ) \end{gathered}$
 
 **[1]**
 
@@ -1217,13 +1217,13 @@ $\mathrm{Angle}CDA=32.3^{\circ}(1\mathrm{dp})$* ***[1]**
 
 ![8eu6lZqb_4-10-edexcel-gcse-hq7-2](assets/065-8eu6lzqb-4-10-edexcel-gcse-hq7-2.png)
 
-`table row cell tan open parentheses x close parentheses end cell equals cell fraction numerator 15 sin open parentheses 62 close parentheses over denominator 24 end fraction end cell end table`
+$\begin{gathered} \tan ( x ) & = \frac{15 \sin ( 62 )}{24} \end{gathered}$
 
 **[1]**
 
 > *Find the angle by using the inverse tan function.*
 
-`table row x equals cell tan to the power of negative 1 end exponent open parentheses fraction numerator 15 sin open parentheses 62 close parentheses over denominator 24 end fraction close parentheses end cell row blank equals cell 28.891769... end cell end table`
+$\begin{gathered} x = \tan ^{- 1} ( \frac{15 \sin ( 62 )}{24} ) \\ = 28.891769... \end{gathered}$
 
 **[1]**
 
@@ -1236,17 +1236,17 @@ $\mathrm{Angle}BCD=28.9^{\circ}(1\mathrm{dp})$ **[1]**
 ### 26() — 4 marks
 > *DCF** is a right angled triangle so you can use Pythagoras' Theorem: *$a^{2}+b^{2}=c^{2}$*, where **c** is the length of the hypotenuse hypotenuse and **a** and **b **are the lengths of the other two sides.*
 
-`table row cell D C squared plus C F squared end cell equals cell D F squared end cell row cell D C squared plus 2 squared end cell equals cell open parentheses 2 square root of 10 close parentheses squared end cell row cell D C squared plus 4 end cell equals 40 row blank blank blank end table`
+$\begin{gathered} D C^{2} + C F^{2} & = D F^{2} \\ D C^{2} + 2^{2} & = ( 2 \sqrt{10} )^{2} \\ D C^{2} + 4 & = 40 \\ \end{gathered}$
 
 > *Subtract 4 from both sides.*
 
-`table row cell D C squared end cell equals cell 40 minus 4 end cell row blank equals 36 end table`
+$\begin{gathered} D C^{2} & = 40 - 4 \\ = 36 \end{gathered}$
 
 **[1]**
 
 > *Take the positive square root of both sides.*
 
-`table attributes columnalign right center left columnspacing 0px end attributes row cell D C end cell equals cell square root of 36 end cell row blank equals 6 end table`
+$\begin{array}{rcl} D C & = \sqrt{36} \\ = 6 \end{array}$
 
 **[1]**
 
@@ -1258,7 +1258,7 @@ $\mathrm{Angle}BCD=28.9^{\circ}(1\mathrm{dp})$ **[1]**
 
 > *Find the areas of the three right angled triangles using the formula *$A=\frac{1}{2}\timesb\timesh$*, where **b** is the length of the base and **h** is the length of the perpendicular height.*
 
-`table row cell Area space of space A D E end cell equals cell 1 half cross times 4 cross times 4 equals 8 end cell row cell Area space of space E F B end cell equals cell 1 half cross times 2 cross times 2 equals 2 end cell row cell Area space of space D C F end cell equals cell 1 half cross times 6 cross times 2 equals 6 end cell end table`
+$\begin{array}{ccc}Area of A D E & = & 1 \text{half} \times 4 \times 4 = 8 \\ Area of E F B & = & 1 \text{half} \times 2 \times 2 = 2 \\ Area of D C F & = & 1 \text{half} \times 6 \times 2 = 6\end{array}$
 
 > *Find the area of the rectangle using the formula *$A=b\timesh$*.*
 
@@ -1282,23 +1282,23 @@ $\mathrm{Area} \mathrm{of}DEF=8\mathrm{cm}^{2}$ **[1]**
 > *Calculate the perpendicular height of the triangle (and parallelogram) using SOHCAHTOA. *
 *Use *$\mathrm{sin}θ=\frac{Opp}{Hyp}$*, as you know the hypotenuse and you want to find the opposite.*
 
-`sin open parentheses 40 close parentheses equals h over 5`
+$\sin ( 40 ) = \frac{h}{5}$
 
 > *Multiply both sides by 5.*
 
-`table attributes columnalign right center left columnspacing 0px end attributes row cell 5 sin open parentheses 40 close parentheses end cell equals h end table`
+$\begin{array}{rcl} 5 \sin ( 40 ) & = h \end{array}$
 
 **[1]**
 
-`table attributes columnalign right center left columnspacing 0px end attributes row cell 3.213938... end cell equals h end table`
+$\begin{array}{rcl} 3.213938... & = h \end{array}$
 
 > *Calculate the area of the parallelogram by using the formula: *$A=bh$*, where *$b$* is the base and *$h$* is the perpendicular height.*
 
-`table row A equals cell 7 cross times 3.213938... end cell end table`
+$\begin{gathered} A = 7 \times 3.213938... \end{gathered}$
 
 **[1]**
 
-`table attributes columnalign right center left columnspacing 0px end attributes row A equals cell 22.497566... end cell end table`
+$\begin{array}{rcl} A = 22.497566... \end{array}$
 
 > *Round to 1 decimal place.*
 
@@ -1311,7 +1311,7 @@ $22.5\mathrm{cm}^{2}$* ***[1]**
 ### 9() — 5 marks
 ![6251_uv5_edexcel-tq-mis-right-angle-trig-vh-5](assets/044-6251-uv5-edexcel-tq-mis-right-angle-trig-vh-5.png)
 
-> *If the short side of one triangle is labelled *$y$* and the mid-length side is labelled *$x$*, then the perimeter of the shape is made from 5 lots of 12.8 and 5 lots of *`open parentheses x minus y close parentheses`
+> *If the short side of one triangle is labelled *$y$* and the mid-length side is labelled *$x$*, then the perimeter of the shape is made from 5 lots of 12.8 and 5 lots of *$( x - y )$
 
 > *First find *$x$* using right-angle trigonometry*
 
@@ -1327,23 +1327,23 @@ $x=\frac{12.8}{\mathrm{sin}72}=13.45871647...$
 
 > *Next find *$y$* using right-angle trigonometry or Pythagoras' Theorem with your answer for *$x$*. Here we will use trigonometry*
 
-`table row cell tan 72 end cell equals cell fraction numerator 12.8 over denominator x end fraction end cell row x equals cell fraction numerator 12.8 over denominator tan 72 end fraction equals 4.158972112... end cell end table`
+$\begin{gathered} \tan 72 & = \frac{12.8}{x} \\ x = \frac{12.8}{\tan 72} = 4.158972112... \end{gathered}$
 
 **[1]**
 
 > *As above, store the exact answer in your calculator or round to at least 4 significant figures*
 
-`table row cell x minus y end cell equals cell 13.45871647... negative 4.158972112... end cell row blank equals cell 9.299744358... end cell end table`
+$\begin{gathered} x - y & = 13.45871647... - 4.158972112... \\ = 9.299744358... \end{gathered}$
 
 > *As above, store the exact answer in your calculator or round to at least 4 significant figures*
 
 > *Now calculate the perimeter*
 
-`table row P equals cell 5 open parentheses 12.8 plus 9.299744358... close parentheses end cell end table`
+$\begin{gathered} P = 5 ( 12.8 + 9.299744358... ) \end{gathered}$
 
 **[1]**
 
-`table row blank equals cell 110.4987218... end cell end table`
+$\begin{gathered} = 110.4987218... \end{gathered}$
 
 > *Remember to give your answer to exactly 3 significant figures, as requested*
 
@@ -1360,11 +1360,11 @@ $x=\frac{12.8}{\mathrm{sin}72}=13.45871647...$
 > *Calculate the length of the **AP** on the right-angled triangle **APC** using SOHCAHTOA, when *$x=5$*. *
 *You know the length of the adjacent side and you want to work out the length of the opposite side so use *$\mathrm{tan}θ=\frac{Opp}{Adj}$*.*
 
-`table row cell tan space 5 end cell equals cell fraction numerator A P over denominator 12 end fraction end cell end table`
+$\begin{gathered} \tan 5 & = \frac{A P}{12} \end{gathered}$
 
 **[1]**
 
-`table row cell 12 cross times tan space 5 end cell equals cell A P end cell row cell A P end cell equals cell 1.0498... end cell end table`
+$\begin{gathered} 12 \times \tan 5 & = A P \\ A P & = 1.0498... \end{gathered}$
 
 > *Calculate the length **AB** by adding the length **AP** to the length **CD**.*
 
@@ -1381,15 +1381,15 @@ $1.0498...+2.6=3.6498...$
 ### 12((a)) — 3 marks
 *Find the length *$d$* by using SOHCAHTOA.* *You know the opposite side and you want to work out the adjacent side so use *$\mathrm{tan}θ=\frac{Opp}{Adj}$*.*
 
-`table row cell tan space 20 end cell equals cell 100 over d end cell end table`
+$\begin{gathered} \tan 20 & = \frac{100}{d} \end{gathered}$
 
 **[1]**
 
-`table row d equals cell fraction numerator 100 over denominator tan space 20 end fraction end cell end table`
+$\begin{gathered} d = \frac{100}{\tan 20} \end{gathered}$
 
 **[1]**
 
-`table attributes columnalign right center left columnspacing 0px end attributes row d equals cell 274.7477... end cell end table`
+$\begin{array}{rcl} d = 274.7477... \end{array}$
 
 > *Round to 3 significant figures.*
 
@@ -1402,15 +1402,15 @@ $1.0498...+2.6=3.6498...$
 
 > *You know the length of the adjacent side and you want to work out the length of the opposite side so use *$\mathrm{tan}θ=\frac{Opp}{Adj}$*.*
 
-`table row cell tan space 25 end cell equals cell fraction numerator h over denominator 274.7477... end fraction end cell end table`
+$\begin{gathered} \tan 25 & = \frac{h}{274.7477...} \end{gathered}$
 
 **[1]**
 
-`table row cell 274.7477... cross times tan space 25 end cell equals h end table`
+$\begin{gathered} 274.7477... \times \tan 25 & = h \end{gathered}$
 
 **[1]**
 
-`table row h equals cell 128.1169... end cell end table`
+$\begin{gathered} h = 128.1169... \end{gathered}$
 
 > *Calculate the height of the tower by subtracting the height of the cliff from the height of the top of the tower to the base of the cliff.*
 
@@ -1427,33 +1427,33 @@ $128.1169...-100=28.1169...$
 ### 11() — 5 marks
 > *Calculate the length **AC** from the right-angled triangle **ACD** using Pythagoras' theorem, *$a^{2}+b^{2}=c^{2}$*.*
 
-`table row cell 17 squared end cell equals cell 15 squared plus A C squared end cell end table`
+$\begin{gathered} 17^{2} & = 15^{2} + A C^{2} \end{gathered}$
 
 **[1]**
 
-`table row 289 equals cell 225 plus A C squared end cell row 64 equals cell A C squared end cell end table`
+$\begin{gathered} 289 = 225 + A C^{2} \\ 64 = A C^{2} \end{gathered}$
 
 **[1]**
 
-`table row cell A C end cell equals 8 end table`
+$\begin{gathered} A C & = 8 \end{gathered}$
 
 > *The diameter of the semi-circle is therefore 8 cm.*
 
 > *Calculate the arc length of the semi-circle by using the formula for the circumference of a circle, *$C=πd$*, and multiplying it by *$\frac{1}{2}$*.*
 
-> * *`table row cell A r c space l e n g t h space end cell equals cell 1 half cross times straight pi cross times 8 end cell end table`
+> * *$\begin{gathered} A r c l e n g t h & = 1 \frac{1}{2} \times \mathrm{\pi } \times 8 \end{gathered}$
 
 **[1]**
 
-`table row cell A r c space l e n g t h space end cell equals cell 4 straight pi end cell end table`
+$\begin{gathered} A r c l e n g t h & = 4 \mathrm{\pi } \end{gathered}$
 
 > *Work out the perimeter of the shaded shape by adding together the arc length of the semi-circle and the lengths of the sides **AD** and **CD**.*
 
-`table row cell P e r i m e t e r end cell equals cell 4 straight pi plus 17 plus 15 end cell end table`
+$\begin{gathered} P e r i m e t e r & = 4 \mathrm{\pi } + 17 + 15 \end{gathered}$
 
 **[1]**
 
-`table attributes columnalign right center left columnspacing 0px end attributes row cell P e r i m e t e r end cell equals cell 44.5663... end cell end table`
+$\begin{array}{rcl} P e r i m e t e r & = 44.5663... \end{array}$
 
 > *Round to 3 significant figures.*
 
@@ -1464,15 +1464,15 @@ $128.1169...-100=28.1169...$
 ### 13() — 5 marks
 *Find the length **AB**  for the right-angled triangle **ABJ**  using SOHCAHTOA.* *You know the adjacent side and you want to work out the hypotenuse, so use *$\mathrm{cos}θ=\frac{Adj}{Hyp}$*.*
 
-`table row cell cos space 35 end cell equals cell fraction numerator 15 over denominator A B end fraction end cell end table`
+$\begin{gathered} \cos 35 & = \frac{15}{A B} \end{gathered}$
 
 **[1]**
 
-`table row cell A B end cell equals cell fraction numerator 15 over denominator cos space 35 end fraction end cell end table`
+$\begin{gathered} A B & = \frac{15}{\cos 35} \end{gathered}$
 
 **[1]**
 
-`table row cell A B end cell equals cell 18.3116... end cell end table`
+$\begin{gathered} A B & = 18.3116... \end{gathered}$
 
 > *Because the triangles are congruent, multiply the length **AB** by 4 to calculate the length **AE**.*
 
@@ -1501,7 +1501,7 @@ $\mathrm{cos}BAD=\frac{8}{14}$
 
 **[M1]**
 
-`B A D equals cos to the power of negative 1 end exponent open parentheses 8 over 14 close parentheses space equals 55.1500...`
+$B A D = \cos ^{- 1} ( \frac{8}{14} ) = 55.1500...$
 
 **[M1]**
 
@@ -1535,37 +1535,37 @@ $CD=8\times\mathrm{tan}17.1500...=2.4687...$
 
 ![4-10-edexcel-gcse-vhq4-1](assets/025-4-10-edexcel-gcse-vhq4-1.png)
 
-`table attributes columnalign right center left columnspacing 0px end attributes row cell A B squared plus B C squared end cell equals cell A C squared end cell row cell 5 squared plus 3 squared end cell equals cell z squared end cell row 34 equals cell z squared end cell end table`
+$\begin{array}{rcl} A B^{2} + B C^{2} & = A C^{2} \\ 5^{2} + 3^{2} & = z^{2} \\ 34 = z^{2} \end{array}$
 
 **[1]**
 
 > *Take the positive square root of both sides. Leave as an exact value.*
 
-`table row z equals cell square root of 34 end cell end table`
+$\begin{gathered} z = \sqrt{34} \end{gathered}$
 
 **[1]**
 
 > *You now know the lengths of all three sides so you can find any angle. To find **BAC, **you should use the lengths given in the question (the opposite and adjacent sides). Use the tan ratio.*
 
-`tan open parentheses y close parentheses equals 3 over 5`
+$\tan ( y ) = \frac{3}{5}$
 
 **[1]**
 
 > *Find the angle by using the inverse tan function.*
 
-`table row y equals cell tan to the power of negative 1 end exponent open parentheses 3 over 5 close parentheses end cell row blank equals cell 30.963756... end cell end table`
+$\begin{gathered} y = \tan ^{- 1} ( \frac{3}{5} ) \\ = 30.963756... \end{gathered}$
 
 > *You now know an angle and the length of the hypotenuse in the triangle **ABD**. You want to find the length of the side that is opposite the angle so use the sine ratio. Use the answer button or your calculator's memory to use the exact value for the angle **BAC**.*
 
 ![4-10-edexcel-gcse-vhq4-2](assets/026-4-10-edexcel-gcse-vhq4-2.png)
 
-`table attributes columnalign right center left columnspacing 0px end attributes row cell sin open parentheses 30.963756... close parentheses end cell equals cell x over 5 end cell end table`
+$\begin{array}{rcl} \sin ( 30.963756... ) & = \frac{x}{5} \end{array}$
 
 **[1]**
 
 > *Multiply both sides by 5.*
 
-`table row x equals cell 5 cross times sin open parentheses 30.963756... close parentheses end cell row blank equals cell 2.572478... end cell end table`
+$\begin{gathered} x = 5 \times \sin ( 30.963756... ) \\ = 2.572478... \end{gathered}$
 
 > *Add together the four lengths. Use the answer button for the length of **BD**.*
 
@@ -1581,13 +1581,13 @@ $\mathrm{Total} \mathrm{length}=16.4m(3\mathrm{sf})$ **[1]**
 
 ![4-10-edexcel-gcse-vhq4-3](assets/027-4-10-edexcel-gcse-vhq4-3.png)
 
-`table row cell A B squared plus B C squared end cell equals cell A C squared end cell row cell 5 squared plus 3 squared end cell equals cell z squared end cell row 34 equals cell z squared end cell end table`
+$\begin{gathered} A B^{2} + B C^{2} & = A C^{2} \\ 5^{2} + 3^{2} & = z^{2} \\ 34 = z^{2} \end{gathered}$
 
 **[1]**
 
 > *Take the positive square root of both sides. Leave as an exact value.*
 
-`table row z equals cell square root of 34 end cell end table`
+$\begin{gathered} z = \sqrt{34} \end{gathered}$
 
 **[1]**
 
@@ -1601,7 +1601,7 @@ $\frac{BD}{BC}=\frac{AB}{AC}\,\frac{x}{3}=\frac{5}{\sqrt{34}}$
 
 > *Multiply both sides by 3.*
 
-`table row x equals cell 3 cross times fraction numerator 5 over denominator square root of 34 end fraction end cell row blank equals cell fraction numerator 15 over denominator square root of 34 end fraction end cell end table`
+$\begin{gathered} x = 3 \times \frac{5}{ \sqrt{34} } \\ = \frac{15}{ \sqrt{34} } \end{gathered}$
 
 **[1]**
 
@@ -1620,31 +1620,31 @@ $\mathrm{Total} \mathrm{length}=16.4m(3\mathrm{sf})$ **[1]**
 
 ![4-10-edexcel-gcse-vhq2-1](assets/036-4-10-edexcel-gcse-vhq2-1.png)
 
-`table row cell sin open parentheses 60 close parentheses end cell equals cell 12 over y end cell end table`
+$\begin{gathered} \sin ( 60 ) & = \frac{12}{y} \end{gathered}$
 
 **[1]**
 
 > *Multiply both sides by **y** and divide both sides by sin(60). Leave your answer as an exact value.*
 
-`table attributes columnalign right center left columnspacing 0px end attributes row y equals cell fraction numerator 12 over denominator sin open parentheses 60 close parentheses end fraction end cell row blank equals cell 8 square root of 3 end cell end table`
+$\begin{array}{rcl} y = \frac{12}{\sin ( 60 )} \\ = 8 \sqrt{3} \end{array}$
 
 **[1]**
 
 > *The angle in the rectangle at **C** is 90°.*
 
-`table row cell Angle space A C D end cell equals cell 90 degree minus 60 degree end cell row blank equals cell 30 degree end cell end table`
+$\begin{gathered} \text{Angle} A C D & = 90^{\circ} - 60^{\circ} \\ = 30^{\circ} \end{gathered}$
 
 > *You now know an angle and the length of the adjacent side for the right angled triangle **ACE** so you can use the cos ratio to find the length of the hypotenuse **CE**.*
 
 ![4-10-edexcel-gcse-vhq2-2](assets/037-4-10-edexcel-gcse-vhq2-2.png)
 
-`table row cell cos open parentheses 30 close parentheses end cell equals cell fraction numerator 8 square root of 3 over denominator x end fraction end cell end table`
+$\begin{gathered} \cos ( 30 ) & = \frac{8 \sqrt{3} }{x} \end{gathered}$
 
 **[1]**
 
 > *Multiply both sides by **x** and divide both sides by cos(30).*
 
-`table row x equals cell fraction numerator 8 square root of 3 over denominator cos open parentheses 30 close parentheses end fraction end cell row blank equals 16 end table`
+$\begin{gathered} x = \frac{8 \sqrt{3} }{\cos ( 30 )} \\ = 16 \end{gathered}$
 
 **[1]**
 
@@ -1662,31 +1662,31 @@ $CE=16\mathrm{cm}$ **[1]**
 
 ![eHQYCeZ2_4-10-edexcel-gcse-vhq3b-1](assets/021-ehqycez2-4-10-edexcel-gcse-vhq3b-1.png)
 
-`table row cell sin open parentheses 35 close parentheses end cell equals cell r over 7 end cell end table`
+$\begin{gathered} \sin ( 35 ) & = \frac{r}{7} \end{gathered}$
 
 **[1]**
 
 > *Multiply both sides by 7. Leave as an exact answer.*
 
-`table row r equals cell 7 cross times sin open parentheses 35 close parentheses end cell row blank equals cell 7 sin open parentheses 35 close parentheses end cell end table`
+$\begin{gathered} r = 7 \times \sin ( 35 ) \\ = 7 \sin ( 35 ) \end{gathered}$
 
 **[1]**
 
 > *BD** is the diameter of the circle so it is double the radius.*
 
-`table row cell B D end cell equals cell 2 cross times 7 sin open parentheses 35 close parentheses end cell row blank equals cell 14 sin open parentheses 35 close parentheses end cell end table`
+$\begin{gathered} B D & = 2 \times 7 \sin ( 35 ) \\ = 14 \sin ( 35 ) \end{gathered}$
 
 > *You now know an angle and the length of the hypotenuse for the right angled triangle **BCD** so you can use the cos ratio to find the length of the adjacent side **BC**.*
 
 ![w26bhSx0_4-10-edexcel-gcse-vhq3b-2](assets/022-w26bhsx0-4-10-edexcel-gcse-vhq3b-2.png)
 
-`table row cell cos open parentheses 70 close parentheses end cell equals cell fraction numerator x over denominator 14 sin open parentheses 35 close parentheses end fraction end cell end table`
+$\begin{gathered} \cos ( 70 ) & = \frac{x}{14 \sin ( 35 )} \end{gathered}$
 
 **[1]**
 
 > *Multiply both sides by 14sin(35).*
 
-`table row x equals cell 14 sin open parentheses 35 close parentheses cross times cos open parentheses 70 close parentheses end cell row blank equals cell 2.746445... end cell end table`
+$\begin{gathered} x = 14 \sin ( 35 ) \times \cos ( 70 ) \\ = 2.746445... \end{gathered}$
 
 **[1]**
 
@@ -1709,21 +1709,21 @@ $π\timesr^{2}=49$
 
 > *Rearrange to make **r** the subject.*
 
-`table row cell r squared end cell equals cell 49 over straight pi end cell row r equals cell square root of 49 over straight pi end root end cell end table`
+`| r ^2 | = 49 / pi | | r = sqrt( 49 / pi ) | |`
 
 > *You can form a right angled triangle using one side of the square and two radii. The length of the square is the hypotenuse of the triangle, you can use Pythagoras' theorem.*
 
-`table row cell r squared plus r squared end cell equals cell x squared end cell end table`
+$\begin{gathered} r^{2} + r^{2} & = x^{2} \end{gathered}$
 
 **[1]**
 
-`table row cell open parentheses square root of 49 over straight pi end root close parentheses squared plus open parentheses square root of 49 over straight pi end root close parentheses squared end cell equals cell x squared end cell row cell 49 over straight pi plus 49 over straight pi end cell equals cell x squared end cell row cell 98 over straight pi end cell equals cell x squared end cell end table`
+`| ( sqrt( 49 / pi ) ) ^2 + ( sqrt( 49 / pi ) ) ^2 | = x ^2 | | 49 / pi + 49 / pi | = x ^2 | | 98 / pi | = x ^2 | |`
 
 **[1]**
 
 > *Take the positive square root of both sides.*
 
-`table row x equals cell square root of 98 over straight pi end root end cell row blank equals cell 5.585191... end cell end table`
+`| x = sqrt( 98 / pi ) | | _ = 5.585191... | |`
 
 > *Round to 3 significant figures.*
 
@@ -1735,15 +1735,15 @@ $x=5.59(3\mathrm{sf})$* ***[1]**
 *Calculate the length **CD** using SOHCAHTOA on the right-angled triangle **ACD**.* 
 *You know the adjacent side and you want to work out the opposite side so use *$\mathrm{tan}θ=\frac{Opp}{Adj}$*.*
 
-`table row cell tan space 20 end cell equals cell fraction numerator C D over denominator 13 end fraction end cell end table`
+$\begin{gathered} \tan 20 & = \frac{C D}{13} \end{gathered}$
 
 **[1]**
 
-`table row cell 13 cross times tan space 20 end cell equals cell C D end cell end table`
+$\begin{gathered} 13 \times \tan 20 & = C D \end{gathered}$
 
 **[1]**
 
-`table attributes columnalign right center left columnspacing 0px end attributes row cell C D end cell equals cell 4.7316... end cell end table`
+$\begin{array}{rcl} C D & = 4.7316... \end{array}$
 
 > *Find the length **BD** by adding together the lengths **BC** and **CD**.*
 
@@ -1752,15 +1752,15 @@ $8+4.7316...=12.7316...$
 > *Calculate the angle **BAD** by using SOHCAHTOA on the right-angled triangle **ABD**. *
 *You know the opposite side and the adjacent side so use *$\mathrm{tan}θ=\frac{Opp}{Adj}$* again.*
 
-`table row cell tan space open parentheses B A D close parentheses end cell equals cell fraction numerator 12.7316... over denominator 13 end fraction end cell end table`
+$\begin{gathered} \tan ( B A D ) & = \frac{12.7316...}{13} \end{gathered}$
 
 **[1]**
 
-`table attributes columnalign right center left columnspacing 0px end attributes row cell B A D end cell equals cell tan to the power of negative 1 end exponent open parentheses fraction numerator 12.7316... over denominator 13 end fraction close parentheses end cell end table`
+$\begin{array}{rcl} B A D & = \tan ^{- 1} ( \frac{12.7316...}{13} ) \end{array}$
 
 **[1]**
 
-`table row cell B A D end cell equals cell 44.4024... end cell end table`
+$\begin{gathered} B A D & = 44.4024... \end{gathered}$
 
 > *Find the size of angle **BAC** by subtracting angle **CAD** from angle **BAD**.*
 
@@ -1781,29 +1781,29 @@ $44.4024...-20=24.4024...$
 
 > *You want the length of the hypotenuse and you know the length of the side that is adjacent to the angle. Therefore you can use the cosine ratio: *$cosθ=\frac{O}{H}$*.*
 
-`cos open parentheses 30 close parentheses equals fraction numerator 24 over denominator A C end fraction`
+$\cos ( 30 ) = \frac{24}{A C}$
 
 **[1]**
 
 > *Rearrange to get **AC** by itself.*
 
-`table row cell A C space cos space open parentheses 30 close parentheses space end cell equals cell space 24 end cell row cell A C end cell equals cell fraction numerator 24 over denominator space cos space open parentheses 30 close parentheses end fraction end cell row blank equals cell 16 square root of 3 space cm end cell end table`
+$\begin{gathered} A C \cos ( 30 ) & = 24 \\ A C & = \frac{24}{ \cos ( 30 )} \\ = 16 \sqrt{3} \text{cm} \end{gathered}$
 
 **[1]**
 
 > *Find the diameter of the semicircle by multiplying its radius by 2.*
 
-`table row cell d space end cell equals cell 3 space cross times space 2 space equals space 6 space cm end cell end table`
+$\begin{gathered} d & = 3 \times 2 = 6 \text{cm} \end{gathered}$
 
 > *Calculate the length of the arc **FED**, using the formula for the circumference of a circle: *$C=2πr$*, and dividing the result by 2.*
 
-`table row cell Arc space length space end cell equals cell space fraction numerator 2 cross times straight pi cross times 3 over denominator 2 end fraction equals space 3 straight pi space cm end cell end table`
+$\begin{gathered} \text{Arc} \text{length} & = \frac{2 \times \mathrm{\pi } \times 3}{2} = 3 \mathrm{\pi } \text{cm} \end{gathered}$
 
 **[1]**
 
 > *Work out the length of **AFEDC  **by subtracting the diameter of the semicircle from the length of **AC** and then adding the arc length of the semicircle on. *
 
-`table row cell A F E D C space end cell equals cell space 16 square root of 3 space minus space 6 space plus space 3 straight pi space cm space end cell row blank equals cell space 31.13759... space cm end cell end table`
+$\begin{gathered} A F E D C & = 16 \sqrt{3} - 6 + 3 \mathrm{\pi } \text{cm} \\ = 31.13759... \text{cm} \end{gathered}$
 
 **[1]**
 
@@ -1811,7 +1811,7 @@ $44.4024...-20=24.4024...$
 
 > *The second non-zero digit is 1 and the digit following it is also 1, which is less than 5 so you so not need to round the 1 up. *
 
-`3 right enclose 1 bottom enclose.1 end enclose 3759... space equals space 31 space open parentheses 2 space s. f. close parentheses`
+`3 right 1 bottom .1 3759... = 31 ( 2 s. f. )`
 
 **31 cm ****[1] **
 **Answers in the range 31 - 31.15 accepted**
@@ -1845,7 +1845,7 @@ $L=141\times\frac{2}{3}=94\mathrm{cm}$
 
 > *We can find **H** using Pythagoras' Theorem*
 
-`table row H equals cell square root of 94 squared minus 24 squared end root end cell row blank equals cell 90.88455214... end cell end table`
+$\begin{gathered} H = \sqrt{94^{2} - 24^{2}} \\ = 90.88455214... \end{gathered}$
 
 **[1]**
 
@@ -1853,15 +1853,15 @@ $L=141\times\frac{2}{3}=94\mathrm{cm}$
 
 > *We can connect this value for **H** with **h** using the scale factor.*
 
-`table attributes columnalign right center left columnspacing 0px end attributes row cell 90.88455214... end cell equals cell 2 over 3 h end cell end table`
+$\begin{array}{rcl} 90.88455214... & = \frac{2}{3} h \end{array}$
 
 > *Divide both sides by *$\frac{2}{3}$* to find **h**.*
 
-`table row h equals cell 90.88455214... divided by 2 over 3 end cell end table`
+$\begin{gathered} h = 90.88455214... \div \frac{2}{3} \end{gathered}$
 
 **[1]**
 
-`table row blank equals cell 136.3268132... end cell end table`
+$\begin{gathered} = 136.3268132... \end{gathered}$
 
 > *As no level of accuracy is specified in the question, round your answer to a sensible level of accuracy- as a general rule, at least 3 significant figures but here we will use 1 decimal place.*
 
@@ -1874,11 +1874,11 @@ $L=141\times\frac{2}{3}=94\mathrm{cm}$
 
 > *Substitute the given values into the formula.*
 
-`table row cell cos space x end cell equals cell fraction numerator O A over denominator 15 end fraction end cell end table`
+$\begin{gathered} \cos x & = \frac{O A}{15} \end{gathered}$
 
 **[1]**
 
-`table row cell 15 cos space x end cell equals cell O A end cell end table`
+$\begin{gathered} 15 \cos x & = O A \end{gathered}$
 
 > *Let **P** be the lowest point on the wheel, forming a straight line **OAPB**.*
 
@@ -1922,7 +1922,7 @@ $θ=120-90=30$
 > *Calculate the vertical distance **DQ** using **SOHCAHTOA**. *
 *You know the length of the hypotenuse **OD** and you want to work out the length of the opposite side **DQ**, so use *$\mathrm{sin}θ=\frac{Opp}{Hyp}$*.*
 
-`table row cell sin space 30 end cell equals cell fraction numerator D Q over denominator 15 end fraction end cell row cell 15 sin space 30 end cell equals cell D Q end cell row cell 7.5 end cell equals cell D Q end cell end table`
+$\begin{gathered} \sin 30 & = \frac{D Q}{15} \\ 15 \sin 30 & = D Q \\ 7.5 & = D Q \end{gathered}$
 
 **[1]**
 
@@ -1942,7 +1942,7 @@ $x_{P}=180$
 
 > *Substitute the angle at which the maximum vertical height occurs into the expression found in part (a) in order to work out the maximum vertical height of the wheel. *
 
-`table row cell h subscript P end cell equals cell 17 minus 15 space cos space 180 equals 32 end cell end table`
+$\begin{gathered} h_{P} & = 17 - 15 \cos 180 = 32 \end{gathered}$
 
 > *Write down the coordinates of **P**.*
 
@@ -1986,23 +1986,23 @@ $(180,32)$** 180**** [1]*** *
 
 > *Triangle **BCD** is a right angled triangle with an angle so you can use trigonometry. You know the length of the side that is opposite to the angle and you want the length of the hypotenuse. Therefore you can use the sine ratio: *$\mathrm{sin}θ=\frac{O}{H}$*.*
 
-`sin open parentheses 28 close parentheses space equals space fraction numerator 6.4 over denominator B D end fraction`
+$\sin ( 28 ) = \frac{6.4}{B D}$
 
 **[1]**
 
 > *Rearrange to make **BD **the subject.*
 
-`table row cell 6.4 thin space end cell equals cell space B D cross times sin open parentheses 28 close parentheses end cell row cell B D end cell equals cell fraction numerator 6.4 over denominator sin open parentheses 28 close parentheses end fraction end cell row blank equals cell space 13.632348... end cell end table`
+$\begin{gathered} 6.4 & = B D \times \sin ( 28 ) \\ B D & = \frac{6.4}{\sin ( 28 )} \\ = 13.632348... \end{gathered}$
 
 **[1]**
 
 > *The radius is equal to half of the diameter.*
 
-`table row cell r space end cell equals cell space fraction numerator 13.632348... over denominator 2 end fraction space equals space 6.8161742... end cell end table`
+$\begin{gathered} r & = \frac{13.632348...}{2} = 6.8161742... \end{gathered}$
 
 > *You can now find the area of the circle using the formula *$A=πr^{2}$*, where **r** is the radius of the circle. Use the answer button or store the radius in your calculator's memory.*
 
-`table row cell Area space end cell equals cell space pi open parentheses 6.8161742... close parentheses squared end cell row blank equals cell 145.959123... end cell end table`
+$\begin{gathered} \text{Area} & = \pi ( 6.8161742... )^{2} \\ = 145.959123... \end{gathered}$
 
 **[1]**
 
@@ -2033,11 +2033,11 @@ $\sqrt{4}\times\sqrt{5}=2\sqrt{5}$ **[1]**
 
 > *Substitute the given direct distance between A and B into Pythagoras' theorem, *$c^{2}=a^{2}+b^{2}$*, where *$a$* and *$b$* are the lengths of the two shorter sides and *$c$* is the length of the hypotenuse.*
 
-`open parentheses 2 square root of 5 close parentheses squared equals a squared plus b squared`
+$( 2 \sqrt{5} )^{2} = a^{2} + b^{2}$
 
 > *Simplify, using your answer of *$\sqrt{20}=2\sqrt{5}$* from part (a).*
 
-`table attributes columnalign right center left columnspacing 0px end attributes row cell open parentheses square root of 20 close parentheses squared end cell equals cell a squared plus b squared end cell row 20 equals cell a squared plus b squared end cell end table`
+$\begin{array}{rcl} ( \sqrt{20} )^{2} & = a^{2} + b^{2} \\ 20 = a^{2} + b^{2} \end{array}$
 
 **[1]**
 

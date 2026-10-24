@@ -23,20 +23,19 @@ guided_study: true
   - The **equilibrium concentration **of the **weak acid **and its **conjugate base** (salt)
 - To determine the pH, the concentration of **hydrogen** **ions **is needed which can be found using the equilibrium expression:
 
-***K***<sub>**a**</sub>** =** `fraction numerator stretchy left square bracket salt stretchy right square bracket bold space stretchy left square bracket H to the power of plus stretchy right square bracket over denominator stretchy left square bracket acid stretchy right square bracket end fraction`
+***K***<sub>**a**</sub>** =** $\frac{[ \text{salt} ] [ H^{+} ]}{[ \text{acid} ]}$
 
 - This can be rearranged to determine the concentration of hydrogen ions:
 
-**[H**<sup>**+**</sup>**] = **`bold italic K subscript bold a bold cross times fraction numerator stretchy left square bracket acid stretchy right square bracket over denominator stretchy left square bracket salt stretchy right square bracket end fraction`
+**[H**<sup>**+**</sup>**] = **$K_{ } a \times \frac{ \text{stretchy} [ \text{acid} \text{stretchy} ]}{ \text{stretchy} [ \text{salt} \text{stretchy} ]}$
 
 - To simplify the calculations, **logarithms **are used such that the expression becomes:
 
-**–log**<sub>**10**</sub>** [H**<sup>**+**</sup>**] = **`bold minus bold log subscript bold 10 bold italic K subscript bold a bold cross times bold minus bold log subscript bold 10 fraction numerator stretchy left square bracket acid stretchy right square bracket over denominator stretchy left square bracket salt stretchy right square bracket end fraction`
+**–log**<sub>**10**</sub>** [H**<sup>**+**</sup>**] = **$- log_{ } 10 K_{ } a \times - log_{ } 10 \frac{ \text{stretchy} [ \text{acid} \text{stretchy} ]}{ \text{stretchy} [ \text{salt} \text{stretchy} ]}$
 
 - Since -log<sub>10</sub> [H<sup>+</sup>] = pH and -log<sub>10</sub> [*K*<sub>a</sub>] = p*K*<sub>a</sub>, the expression can also be rewritten as:
 
-`
-bold pH bold equals bold p bold italic K subscript bold italic a bold a bold plus bold log subscript bold 10 fraction numerator stretchy left square bracket salt stretchy right square bracket over denominator stretchy left square bracket acid stretchy right square bracket end fraction`
+$pH = p K_{ } a a + log_{ } 10 \frac{ \text{stretchy} [ \text{salt} \text{stretchy} ]}{ \text{stretchy} [ \text{acid} \text{stretchy} ]}$
 
 > **Worked Example**
 > **Calculating the pH of a buffer solution**
@@ -53,15 +52,15 @@ bold pH bold equals bold p bold italic K subscript bold italic a bold a bold plu
 > 
 > - **Step 1: **Write down the equilibrium expression to find *K*<sub>a</sub>:
 > 
-> *K*<sub>a</sub> = `fraction numerator open square brackets CH subscript 3 COO to the power of minus close square brackets space open square brackets straight H to the power of plus close square brackets over denominator open square brackets CH subscript 3 COOH close square brackets end fraction`
+> *K*<sub>a</sub> = $\frac{[ CH_{3} COO^{-} ] [ \mathrm{H}^{+} ]}{[ CH_{3} \text{COOH} ]}$
 > 
 > - **Step 2: **Rearrange the equation to find [H<sup>+</sup>]:
 > 
-> [H<sup>+</sup>] = *K*<sub>a</sub> x `fraction numerator open square brackets CH subscript 3 COOH close square brackets over denominator open square brackets CH subscript 3 COO to the power of minus close square brackets end fraction`
+> [H<sup>+</sup>] = *K*<sub>a</sub> x $\frac{[ CH_{3} \text{COOH} ]}{[ CH_{3} COO^{-} ]}$
 > 
 > - **Step 3: **Substitute the values into the expression:
 > 
-> [H<sup>+</sup>] = 1.43 x 10<sup>-5</sup> x `begin mathsize 14px style fraction numerator open square brackets 0.305 close square brackets over denominator open square brackets 0.520 close square brackets end fraction end style`
+> [H<sup>+</sup>] = 1.43 x 10<sup>-5</sup> x $\frac{[ 0.305 ]}{[ 0.520 ]}$
 > 
 > [H<sup>+</sup>] = 8.39 x 10<sup>-6</sup> mol dm<sup>-3</sup>
 > 

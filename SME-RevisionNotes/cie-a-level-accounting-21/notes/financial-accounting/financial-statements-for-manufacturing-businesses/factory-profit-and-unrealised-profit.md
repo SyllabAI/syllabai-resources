@@ -94,19 +94,19 @@ the reasons why a business may account for manufacturing profit
 
 ### How do I calculate the balance of the provision for unrealised profit?
 
-- Use the formula `fraction numerator Factory space profit percent sign over denominator 100 percent sign plus Factory space profit percent sign end fraction cross times Transfer space value space of space the space closing space finished space goods`
+- Use the formula `(Factory profit %)/(100 % + Factory profit %) x Transfer value of the closing finished goods`
 
   - For example, suppose the rate of factory profit is 25% mark-up on cost and finished goods at transfer value is \$20 000
-  - `25 over 125 cross times $ 20 space 000 equals $ 4 space 000`
+  - $\frac{25}{125} \times \$ 20 000 = \$ 4 000$
 - The fractional part of the formula is the **factory profit margin**
 
-  - In the example above, the factory profit margin is `25 over 125 cross times 100 percent sign equals 20 percent sign`
+  - In the example above, the factory profit margin is $\frac{25}{125} \times 100 \% = 20 \%$
 - The remaining value of the closing finished goods is the **cost to produce them**
 
-  - In the example above, the goods cost `$ 20 space 000 space minus $ 4 space 000 equals $ 16 space 000`
+  - In the example above, the goods cost $\$ 20 000 - \$ 4 000 = \$ 16 000$
 - If you know the balance of the provision, then you can find the **transfer value **of the finished goods by rearranging the formula
 
-  - `Transfer space value equals Provision space for space unrealised space profit cross times fraction numerator 100 percent sign plus Factory space profit percent sign over denominator Factory space profit percent sign end fraction`
+  - $\text{Transfer} \text{value} = \text{Provision} \text{for} \text{unrealised} \text{profit} \times \frac{100 \% + \text{Factory} \text{profit} \%}{Factory \text{profit} \%}$
 
 > **Exam Hint**
 > Remember, you use a mark-up percentage to find the transfer value. But if you have the transfer value, you use the margin percentage to find the provision for unrealised profit.
@@ -148,15 +148,15 @@ Calculate the **change **in the balance of the provision
 > 
 > Calculate the opening balance of the provision for unrealised profit
 > 
-> `20 over 120 cross times $ 28 space 800 equals $ 4 space 800`
+> $\frac{20}{120} \times \$ 28 800 = \$ 4 800$
 > 
 > Calculate the closing balance of the provision for unrealised profit
 > 
-> `20 over 120 cross times $ 21 space 600 equals $ 3 space 600`
+> $\frac{20}{120} \times \$ 21 600 = \$ 3 600$
 > 
 > Calculate the decrease
 > 
-> `$ 4 space 800 minus $ 3 space 600 equals $ 1 space 200`
+> $\$ 4 800 - \$ 3 600 = \$ 1 200$
 > 
 > **Provision for unrealised profit account**
 > 

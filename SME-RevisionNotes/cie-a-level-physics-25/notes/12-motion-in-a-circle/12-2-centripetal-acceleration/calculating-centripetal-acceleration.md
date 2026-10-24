@@ -37,7 +37,7 @@ $v=rω$
 
 - These equations can be combined to give another form of the centripetal acceleration equation:
 
-`a space equals fraction numerator space open parentheses r omega close parentheses squared over denominator r end fraction`
+$a = \frac{ ( r \\omega )^{2}}{r}$
 
 $a=rω^{2}$
 
@@ -69,7 +69,7 @@ $a=rω^{2}$
 > 
 > **Step 2: Increase angular acceleration with twice the radius and twice the angular speed**
 > 
-> `a space equals space open parentheses 2 r close parentheses space cross times space open parentheses 2 omega close parentheses squared space equals space 2 r space cross times space 4 space omega squared space equals space 8 r omega squared`
+> $a = ( 2 r ) \times ( 2 \\omega )^{2} = 2 r \times 4 \\omega ^{2} = 8 r \\omega ^{2}$
 > 
 > - The centripetal acceleration will be 8× bigger
 > 

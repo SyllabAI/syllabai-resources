@@ -65,7 +65,7 @@ The cuboid has two of each type of face
 
 - so the total area is
 
-`table row cell 2 cross times 21 plus 2 cross times 28 plus 2 cross times 12 end cell equals cell 42 plus 56 plus 24 end cell row blank equals 122 end table`
+$\begin{gathered} 2 \times 21 + 2 \times 28 + 2 \times 12 & = 42 + 56 + 24 \\ = 122 \end{gathered}$
 
 **Final answer:** **122 cm**<sup>**2**</sup>
 
@@ -74,7 +74,7 @@ The cuboid has two of each type of face
 > **[mark-scheme]**
 > **M1**: For $7\times3$, $7\times4$ or $4\times3$ or equivalent, seen or implied.
 > 
-> **A1**: For `2 cross times open parentheses 7 cross times 3 plus 7 cross times 4 plus 4 cross times 3 close parentheses` or equivalent, leading to 122.
+> **A1**: For $2 \times ( 7 \times 3 + 7 \times 4 + 4 \times 3 )$ or equivalent, leading to 122.
 
 (iii)
 
@@ -122,7 +122,7 @@ Now you need to solve that for $r$
 
 - First multiply by 3, to get rid of the fraction on the right-hand side
 
-`table row cell 3 cross times 381 end cell equals cell 3 cross times 4 over 3 pi r cubed end cell row 1143 equals cell 4 pi r cubed end cell end table`
+$\begin{gathered} 3 \times 381 & = 3 \times \frac{4}{3} \pi r^{3} \\ 1143 = 4 \pi r^{3} \end{gathered}$
 
 - Then divide both sides by $4π$, to get rid of the $4π$ on the right-hand side
 
@@ -138,7 +138,7 @@ $r^{3}=90.957049...$
 
   - Use your calculator's memory, or the Ans key, to make sure you are taking the cube root of that exact value
 
-`r equals cube root of 90.957049... end root equals 4.497233...`
+$r = \sqrt[3]{90.957049...} = 4.497233...$
 
 Round to 3 significant figures
 
@@ -170,7 +170,7 @@ If you answered part (a), you can use the exact value for the radius from there
 
 - Otherwise just use 4.50 as given in part (a) of the question
 
-`A equals 4 cross times pi cross times open parentheses 4.497233... close parentheses squared`
+$A = 4 \times \pi \times ( 4.497233... )^{2}$
 
 **[M1]**
 
@@ -192,12 +192,12 @@ Round to a suitable degree of accuracy
 > **[exam-tip]**
 > If you used 4.50 for the radius, you would find
 > 
-> `A equals 4 cross times pi cross times open parentheses 4.50 close parentheses squared equals 254.469004...`
+> $A = 4 \times \pi \times ( 4.50 )^{2} = 254.469004...$
 > 
 > - To 3 significant figures, that would also round to 254
 
 > **[mark-scheme]**
-> **M1**: For `A equals 4 cross times pi cross times open parentheses 4.497233... close parentheses squared` or $A=4\timesπ\times4.50^{2}$ or equivalent.
+> **M1**: For $A = 4 \times \pi \times ( 4.497233... )^{2}$ or $A=4\timesπ\times4.50^{2}$ or equivalent.
 > 
 > **A1**: For 254 or 254.1 to 254.5 .
 
@@ -417,7 +417,7 @@ $848\mathrm{cm}^{2}$** [1]**
 ### Q10
 > *Determine the side length of the cube by cube rooting the volume  *
 
-`cube root of 1000`
+$\sqrt[3]{1000}$
 
 **[1]**
 
@@ -440,7 +440,7 @@ $600\mathrm{cm}^{2}$ **[1]**
 
 > * Find the area of one circle by substituting *$r=3$* into *$\mathrm{area}=\mathrm{πr}^{2}$*. *
 
-`table row Area equals cell straight pi cross times 3 squared end cell row blank equals cell 9 straight pi end cell end table`
+$\begin{gathered} \text{Area} = \mathrm{\pi } \times 3^{2} \\ = 9 \mathrm{\pi } \end{gathered}$
 
 > * Multiply by 2 to find the total area of both circles.*
 
@@ -450,7 +450,7 @@ $600\mathrm{cm}^{2}$ **[1]**
 
 > *Find the circumference of the circle, which is also the width of the rectangle, by substituting *$r=3$* into *$\mathrm{circumference}=2\mathrm{πr}$*.*
 
-> * *`table row cell Circumference space end cell equals cell space 2 cross times straight pi cross times 3 end cell row blank equals cell 6 straight pi end cell end table`
+> * *$\begin{gathered} \text{Circumference} & = 2 \times \mathrm{\pi } \times 3 \\ = 6 \mathrm{\pi } \end{gathered}$
 
 * ***[1]**
 
@@ -593,7 +593,7 @@ $=1922.654704$
 
 (ii) *Multiply the base of the triangle, 5 cm, by the perpendicular height from part (i), and halve (area of a triangle = *$\frac{1}{2}$* x base x height). *
 
-`open parentheses 5 cross times 4.3 close parentheses divided by 2 equals 10.75`
+$( 5 \times 4.3 ) \div 2 = 10.75$
 
 * ***[1]**
 
@@ -659,7 +659,7 @@ $180\div36=5\mathrm{cm}$
 ### Q18
 > *Substitute **r = 4.5** and **h = 10.4** into *$V=\frac{1}{3}πr^{2}h$*.  *
 
-`V equals 1 third cross times pi cross times open parentheses 4.5 close parentheses squared cross times 10.4`
+$V = 1 \frac{1}{3} \times \pi \times ( 4.5 )^{2} \times 10.4$
 
 **[1]**
 
@@ -672,7 +672,7 @@ $\frac{351}{5}π$**  ****(or **$70.2π$**)**** [1]**
 ### Q19
 > *Substitute **r** = 15** and **h** = 24** into *$V=πr^{2}h$*.  *
 
-`V equals pi cross times open parentheses 15 close parentheses squared cross times 24`
+$V = \pi \times ( 15 )^{2} \times 24$
 
 **[1]**
 
@@ -768,11 +768,11 @@ $V=4\times10\times4=160$
 ### Q25
 > *Work out the volume of both cuboids (**Volume of a cuboid = length × width × height**). *
 
-`table row cell Volume italic space A end cell equals cell 8 cross times 5 cross times 12 end cell row blank equals 480 end table`
+$\begin{gathered} \text{Volume} A & = 8 \times 5 \times 12 \\ = 480 \end{gathered}$
 
 **[1]**
 
-`table row cell Volume italic space B end cell equals cell 16 cross times 10 cross times h end cell row blank equals cell 160 h end cell end table`
+$\begin{gathered} \text{Volume} B & = 16 \times 10 \times h \\ = 160 h \end{gathered}$
 
 > * *
 
@@ -803,7 +803,7 @@ $h=3\mathrm{cm}$* ***[1]**
 
 > *Double each of these values and add all 6 areas together*
 
-`2 cross times open parentheses 90 plus 37.5 plus 60 close parentheses`
+$2 \times ( 90 + 37.5 + 60 )$
 
 **[1]**
 
@@ -839,7 +839,7 @@ i) *The surface area is the sum of the area of each face of the cuboid  *
 
 > *Therefore, double the area of each face, and then add these values to get the total surface area  *
 
-`A equals open parentheses 18 cross times 2 close parentheses plus open parentheses 12 cross times 2 close parentheses plus open parentheses 24 cross times 2 close parentheses`
+$A = ( 18 \times 2 ) + ( 12 \times 2 ) + ( 24 \times 2 )$
 
 **[1] **
 

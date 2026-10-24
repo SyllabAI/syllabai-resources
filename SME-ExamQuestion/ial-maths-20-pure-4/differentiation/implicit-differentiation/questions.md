@@ -33,7 +33,7 @@ The curve *C* has equation
 
 $y^{2}-4x+2=0.$
 
-Show that *C* intersects the x-axis at the point `open parentheses 1 half space comma space 0 close parentheses`.
+Show that *C* intersects the x-axis at the point $( 1 \frac{1}{2} , 0 )$.
 
 ### 2() — 3 marks — structured
 (i) Find an expression for  $\frac{dy}{dx}$.
@@ -43,7 +43,7 @@ Show that *C* intersects the x-axis at the point `open parentheses 1 half space 
 ## Q5 — easy — 5 marks · exam-questions
 
 ### 1() — 2 marks — structured
-Show that the point `open parentheses negative 4 over pi comma pi over 2 close parentheses` lies on the curve with equation  $2\mathrm{cos}2y=xy$ .
+Show that the point $( - \frac{4}{\pi } , \frac{\pi }{2} )$ lies on the curve with equation  $2\mathrm{cos}2y=xy$ .
 
 ### 2() — 3 marks — structured
 Find an expression for $\frac{dy}{dx}$.
@@ -185,7 +185,7 @@ Find the distance *OQ*, where *O* is the origin.
 ### 1() — 3 marks — structured
 Use implicit differentiation to show that
 
-`straight d over dx open square brackets a to the power of x close square brackets equals a to the power of x ln space a`
+`d / dx [ a ^ x ] = a ^ x ln a`
 
 where *a* is a constant.
 
@@ -270,7 +270,7 @@ occur when $x=4$, and find the **exact** *y*-coordinates of the stationary point
 ### 1() — 1 mark — structured
 Verify that the point *A*(1 , 1) lies on the curve with equation
 
-`ln open parentheses space x y close parentheses space plus x y squared equals 1.`
+$\ln ( x y ) + x y^{2} = 1.$
 
 ### 2() — 8 marks — structured
 The tangent at point *A* intercepts the x-axis at point B and the *y*-axis at point *C*.
@@ -282,7 +282,7 @@ Find the area of the triangle *OBC*.
 ### 1() — 3 marks — structured
 Show that
 
-`fraction numerator straight d over denominator straight d x end fraction open square brackets a to the power of k x end exponent close square brackets equals k a to the power of k x end exponent ln space a`
+$\frac{ \mathrm{d} }{ \mathrm{d} x} [ a^{k x} ] = k a^{k x} \ln a$
 
 where *a* and *k* are constants.
 
@@ -291,9 +291,9 @@ where *a* and *k* are constants.
 ### 1() — 5 marks — structured
 Find an expression for $\frac{dy}{dx}$in terms of *x* and *y* for the following
 
-(i) `e to the power of x y end exponent plus ln space open parentheses x y close parentheses equals cos e c space open parentheses x space close parentheses plus 4`
+(i) $e^{x y} + \ln ( x y ) = \cos e c ( x ) + 4$
 
-(ii) `4 cos space open parentheses x squared y close parentheses minus 3 e to the power of x squared y end exponent equals 4 e to the power of y`
+(ii) $4 \cos ( x^{2} y ) - 3 e^{x^{2} y} = 4 e^{y}$
 
 ## Q28 — very_hard — 5 marks · exam-questions
 
@@ -323,7 +323,7 @@ The curve *C* is described by the equation
 
 $\mathrm{ln}y+x^{2}y^{2}=9.$
 
-Show that the tangents of the two points on *C* where$y=1$meet at the point `open parentheses 0 space comma 37 over 19 close parentheses`.
+Show that the tangents of the two points on *C* where$y=1$meet at the point $( 0 , \frac{37}{19} )$.
 
 ## Q32 — very_hard — 8 marks · exam-questions
 
@@ -347,9 +347,9 @@ Find the stationary points and determine their nature for the curve with equatio
 ### 1() — 8 marks — structured
 The curve *C* is defined by
 
-`e to the power of sin space x y end exponent space equals 1 space space space space space space space space space space space space space space open curly brackets space y greater than 0 close curly brackets`
+$e^{\sin x y} = 1 \{ y > 0 \}$
 
-Points *A *and *B* have coordinates `open parentheses pi over 2 space comma space 2 close parentheses` and `open parentheses negative pi over 2 space comma space 2 close parentheses` respectively.
+Points *A *and *B* have coordinates $( \frac{\pi }{2} , 2 )$ and $( - \frac{\pi }{2} , 2 )$ respectively.
 
 The tangents to *C* at points *A* and *B* intersect at the point *P*.
 
@@ -364,6 +364,6 @@ Find the area of triangle *PQR*.
 ### 1() — 3 marks — structured
 Show that
 
-`fraction numerator straight d over denominator straight d x end fraction open square brackets a to the power of x to the power of k end exponent close square brackets equals k a to the power of x to the power of k end exponent x to the power of k minus 1 end exponent ln space a`
+$\frac{ \mathrm{d} }{ \mathrm{d} x} [ a^{x^{k} } ] = k a^{x^{k} } x^{k - 1} \ln a$
 
 where *a* and *k* are constants.

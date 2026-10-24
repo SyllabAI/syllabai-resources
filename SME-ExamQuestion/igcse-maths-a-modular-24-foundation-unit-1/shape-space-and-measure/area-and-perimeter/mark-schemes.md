@@ -31,7 +31,7 @@ $4x-16=54$
 
 > *Solve the equation for *$x$*by using inverse operations and doing the same to both sides of the equation*
 
-`table row cell 4 x minus 16 end cell equals 54 row cell 4 x end cell equals cell 54 plus 16 end cell row cell 4 x end cell equals 70 row x equals cell 70 over 4 end cell row x equals cell 17.5 end cell end table`
+$\begin{gathered} 4 x - 16 & = 54 \\ 4 x & = 54 + 16 \\ 4 x & = 70 \\ x = \frac{70}{4} \\ x = 17.5 \end{gathered}$
 
 **[M1]**
 
@@ -78,7 +78,7 @@ $29-15=14\mathrm{cm}$
 
 > *Calculate the difference between the full length of the rectangle and the three rectangular tiles*
 
-`29 minus open parentheses 7 plus 7 plus 7 close parentheses equals 8 cm`
+$29 - ( 7 + 7 + 7 ) = 8 cm$
 
 > *The two square tiles left are equivalent to this distance meaning:*
 
@@ -135,19 +135,19 @@ $π\times8.5^{2}=72.25π$
 
 **[M1]**
 
-> *Substitute known values into the formula for the area of a trapezium,*`1 half open parentheses a plus b close parentheses h`
+> *Substitute known values into the formula for the area of a trapezium,*$1 \frac{1}{2} ( a + b ) h$
 
-`1 half open parentheses 20 plus 25 close parentheses h`
+$1 \frac{1}{2} ( 20 + 25 ) h$
 
 **[M1]**
 
 > *Form an equation by, equating the expression for the area of the trapezium to the area of the circle, and solve to find the value of *$h$
 
-`1 half open parentheses 20 plus 25 close parentheses h equals 72.25 pi`
+$1 \frac{1}{2} ( 20 + 25 ) h = 72.25 \pi$
 
 > *Simplify*
 
-`table row cell 1 half cross times 45 cross times h end cell equals cell 72.25 pi end cell row cell 22.5 h end cell equals cell 72.25 pi end cell end table`
+$\begin{gathered} 1 \frac{1}{2} \times 45 \times h & = 72.25 \pi \\ 22.5 h & = 72.25 \pi \end{gathered}$
 
 > *Solve to find the value of *$h$
 

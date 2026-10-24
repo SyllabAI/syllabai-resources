@@ -50,7 +50,7 @@ $180000+5400=185400$
 
 > *Add 3% to  100% and then convert this to a decimal equivalent (by dividing by 100)*
 
-`table row cell 100 percent sign plus 3 percent sign end cell equals cell 103 percent sign end cell row cell 103 percent sign end cell equals cell 1.03 end cell end table`
+$\begin{gathered} 100 \% + 3 \% & = 103 \% \\ 103 \% & = 1.03 \end{gathered}$
 
 > *Multiply the equivalent decimal by the original amount*
 
@@ -82,7 +82,7 @@ $1.03\times180000=185400$
 
 > *Find 1% of the price of the camera first (by dividing by 85) and then use this to calculate 100% (by multiplying by 100)*
 
-`table row cell 85 percent sign end cell equals 6630 row cell 1 percent sign end cell equals cell 6630 divided by 85 equals 78 end cell row cell 100 percent sign end cell equals 7800 end table`
+$\begin{gathered} 85 \% & = 6630 \\ 1 \% & = 6630 \div 85 = 78 \\ 100 \% & = 7800 \end{gathered}$
 
 **[M1]**
 
@@ -207,7 +207,7 @@ $750\div100$
 ### 17() — 4 marks
 > *Work out the price that Nina paid*
 
-`1500 space plus thin space open parentheses 36 space cross times space 450 close parentheses`
+$1500 + ( 36 \times 450 )$
 
 $17700$
 
@@ -229,7 +229,7 @@ $\frac{5200}{12500}=0.416$
 
 $0.416\times100=41.6$
 
-`41.6 percent sign`
+$41.6 \%$
 
 **[A1]**
 
@@ -238,7 +238,7 @@ $0.416\times100=41.6$
 ### 13() — 4 marks
 > *Work out 10% of the number of football shirts*
 
-`10 percent sign thin space of space 150 space equals space 150 space divided by space 10 space equals space 15`
+$10 \% of 150 = 150 \div 10 = 15$
 
 **[M1]**
 

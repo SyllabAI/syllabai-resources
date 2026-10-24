@@ -168,7 +168,7 @@
  "blocks": [
   {
    "type": "paragraph",
-   "md": "Throughout this section we will use the random variable `X tilde straight N left parenthesis mu comma space sigma squared right parenthesis` . For normal, $X$ can take any real number. Therefore any values mentioned in this section will be assumed to be any real number."
+   "md": "Throughout this section we will use the random variable $X \\sim \\mathrm{N} ( \\\\mu , \\\\sigma ^{2} )$ . For normal, $X$ can take any real number. Therefore any values mentioned in this section will be assumed to be any real number."
   },
   {
    "type": "spec_point",
@@ -198,7 +198,7 @@
   },
   {
    "type": "bullets",
-   "md": "- A random variable `X tilde straight N left parenthesis mu comma sigma squared right parenthesis`  can be coded to model the standard normal distribution `equation` using the formula"
+   "md": "- A random variable $X \\sim \\mathrm{N} ( \\\\mu , \\\\sigma ^{2} )$  can be coded to model the standard normal distribution `equation` using the formula"
   },
   {
    "type": "paragraph",
@@ -206,13 +206,13 @@
   },
   {
    "type": "bullets",
-   "md": "- You can calculate a probability $P(X<x)$ using the relationship `straight P left parenthesis X less than x right parenthesis equals straight P open parentheses Z less than fraction numerator x minus mu over denominator sigma end fraction close parentheses`\n- **Always sketch** a quick diagram to visualise which area you are looking for\n- Once you have determined the *z *value use the table of the normal distribution to find the probability\n\n  - Refer to your sketch to decide if you need to subtract the probability from one\n- The probability of a **single value** is **always zero** for a normal distribution\n\n  - You can picture this as the area of a single line is zero\n  - $P(X=x)=0$\n- $P(X<μ)=P(X>μ)=0.5$\n\n  - You can look at which side of the mean *x *is on and the direction of the inequality to decide if your answer should be greater or less than 0.5\n- As $P(X=a)=0$ you can use:\n\n  - $P(X<a)+P(X>a)=1$\n  - `straight P left parenthesis X greater than a right parenthesis equals 1 minus straight P left parenthesis X less than a right parenthesis equals 1 minus straight capital phi open parentheses fraction numerator a minus mu over denominator sigma end fraction close parentheses`\n  - `straight P left parenthesis a less than X less than b right parenthesis equals straight P left parenthesis X less than b right parenthesis minus straight P left parenthesis X less than a right parenthesis equals straight capital phi open parentheses fraction numerator b minus mu over denominator sigma end fraction close parentheses minus straight capital phi open parentheses fraction numerator a minus mu over denominator sigma end fraction close parentheses`"
+   "md": "- You can calculate a probability $P(X<x)$ using the relationship $\\mathrm{P} ( X < x ) = \\mathrm{P} ( Z < \\frac{x - \\\\mu }{\\\\sigma } )$\n- **Always sketch** a quick diagram to visualise which area you are looking for\n- Once you have determined the *z *value use the table of the normal distribution to find the probability\n\n  - Refer to your sketch to decide if you need to subtract the probability from one\n- The probability of a **single value** is **always zero** for a normal distribution\n\n  - You can picture this as the area of a single line is zero\n  - $P(X=x)=0$\n- $P(X<μ)=P(X>μ)=0.5$\n\n  - You can look at which side of the mean *x *is on and the direction of the inequality to decide if your answer should be greater or less than 0.5\n- As $P(X=a)=0$ you can use:\n\n  - $P(X<a)+P(X>a)=1$\n  - `P ( X greater than a ) = 1 - P ( X less than a ) = 1 - capital phi ( (a - mu)/(sigma) )`\n  - `P ( a less than X less than b ) = P ( X less than b ) - P ( X less than a ) = capital phi ( (b - mu)/(sigma) ) - capital phi ( (a - mu)/(sigma) )`"
   },
   {
    "type": "callout",
    "variant": "worked-example",
    "label": "Worked Example",
-   "md": "The random variable `X tilde straight N left parenthesis 20 comma 5 squared right parenthesis`. Calculate:\n\n(a) $P(X\\leq22)$,\n\n(b) $P(18\\leqX\\leq27)$\n\n**Answer:**\n\n![3-3-3-calculating-normal-probabilities-we-solution-1_a](assets/8573c303562f-image.bin)\n\n![3-3-3-calculating-normal-probabilities-we-solution-1_b](assets/d80e4fe25e60-image.bin)"
+   "md": "The random variable $X \\sim \\mathrm{N} ( 20 , 5^{2} )$. Calculate:\n\n(a) $P(X\\leq22)$,\n\n(b) $P(18\\leqX\\leq27)$\n\n**Answer:**\n\n![3-3-3-calculating-normal-probabilities-we-solution-1_a](assets/8573c303562f-image.bin)\n\n![3-3-3-calculating-normal-probabilities-we-solution-1_b](assets/d80e4fe25e60-image.bin)"
   },
   {
    "type": "spec_point",
@@ -253,7 +253,7 @@
   },
   {
    "type": "bullets",
-   "md": "- A sketch making use of the symmetry of the graph is essential\n- If you are given `P left parenthesis mu minus a less than X less than mu plus a right parenthesis equals alpha percent sign`  then $P(X<μ+a)$ will be `open parentheses fraction numerator 100 plus alpha over denominator 2 end fraction close parentheses percent sign`\n\n  - This is easier to see from a sketch than to remember\n  - You can then look through the tables for the corresponding z-value and substitute into the formula** ** $z=\\frac{(μ+a)-μ}{σ}=\\frac{a}{σ}$"
+   "md": "- A sketch making use of the symmetry of the graph is essential\n- If you are given $P ( \\\\mu - a < X < \\\\mu + a ) = \\\\alpha \\%$  then $P(X<μ+a)$ will be $( \\frac{100 + \\\\alpha }{2} ) \\%$\n\n  - This is easier to see from a sketch than to remember\n  - You can then look through the tables for the corresponding z-value and substitute into the formula** ** $z=\\frac{(μ+a)-μ}{σ}=\\frac{a}{σ}$"
   },
   {
    "type": "figure",
@@ -266,7 +266,7 @@
    "type": "callout",
    "variant": "worked-example",
    "label": "Worked Example",
-   "md": "The random variable  `W tilde straight N left parenthesis 50 comma 36 right parenthesis`.\n\nFind the value of $w$ such that $P(W>w)=0.7673$\n\n**Answer:**\n\n![3-2-3-inverse-normal-we-solution](assets/1540f87d52d3-image.bin)"
+   "md": "The random variable  $W \\sim \\mathrm{N} ( 50 , 36 )$.\n\nFind the value of $w$ such that $P(W>w)=0.7673$\n\n**Answer:**\n\n![3-2-3-inverse-normal-we-solution](assets/1540f87d52d3-image.bin)"
   },
   {
    "type": "callout",

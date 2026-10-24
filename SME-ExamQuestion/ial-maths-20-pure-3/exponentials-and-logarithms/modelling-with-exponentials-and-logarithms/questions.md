@@ -8,13 +8,13 @@
 ### 1() — 4 marks — structured
 State whether the following functions could represent exponential growth or exponential decay.
 
-(i) `straight f open parentheses x close parentheses equals 5 straight e to the power of 2 x end exponent`
+(i) $\mathrm{f} ( x ) = 5 \mathrm{e}^{2 x}$
 
-(ii) `straight f open parentheses straight t close parentheses equals 100 straight e to the power of negative straight t end exponent`
+(ii) $\mathrm{f} ( \mathrm{t} ) = 100 \mathrm{e}^{- \mathrm{t} }$
 
-(iii) `straight f open parentheses straight a close parentheses equals 20 straight e to the power of negative ka end exponent space comma space space straight k greater than 0`
+(iii) $\mathrm{f} ( \mathrm{a} ) = 20 \mathrm{e}^{- ka} , \mathrm{k} > 0$
 
-(iv) `straight f open parentheses straight t close parentheses equals Ae to the power of kt space comma space space straight A comma straight k greater than 0`
+(iv) $\mathrm{f} ( \mathrm{t} ) = Ae^{kt} , \mathrm{A} , \mathrm{k} > 0$
 
 ## Q2 — easy — 3 marks · exam-questions
 
@@ -34,9 +34,9 @@ Write the following in the form $e^{-kx}$, where $k$ is a constant and $k>0$.
 
 (i) $\frac{e^{-2x}}{e^{4x}}$
 
-(ii) `open parentheses 1 fifth close parentheses to the power of x`
+(ii) $( 1 \frac{1}{5} )^{x}$
 
-(iii) `open parentheses 1 half close parentheses to the power of x`
+(iii) $( 1 \frac{1}{2} )^{x}$
 
 ## Q4 — easy — 3 marks · exam-questions
 
@@ -134,19 +134,19 @@ Hence estimate the values of $A$ and $k$.
 ## Q9 — medium — 3 marks · exam-questions
 
 ### 1() — 1 mark — structured
-Write `open parentheses begin inline style 1 third end style close parentheses to the power of x`  in the form  $e^{kx}$.
+Write $( 1 \frac{1}{3} )^{x}$  in the form  $e^{kx}$.
 
 ### 2() — 2 marks — structured
-Write `open parentheses begin inline style 2 over 7 end style close parentheses to the power of t`  in the form  $e^{kt}$. 
+Write $( \frac{2}{7} )^{t}$  in the form  $e^{kt}$. 
 State whether this would represent exponential growth or exponential decay.
 
 ## Q10 — medium — 3 marks · exam-questions
 
 ### 1() — 1 mark — structured
-Write `open parentheses begin inline style 7 over 10 end style close parentheses to the power of x`  in the form  $e^{-kx}$.
+Write $( \frac{7}{10} )^{x}$  in the form  $e^{-kx}$.
 
 ### 2() — 2 marks — structured
-Sketch the graph of `y equals open parentheses begin inline style 7 over 10 end style close parentheses to the power of x`.
+Sketch the graph of $y = ( \frac{7}{10} )^{x}$.
 
 State the coordinates of the $y$-axis intercept.
 
@@ -333,19 +333,19 @@ $\mathrm{log}P=\mathrm{log}P_{0}+k\mathrm{log}y$
 ## Q20 — hard — 4 marks · exam-questions
 
 ### 1() — 2 marks — structured
-Write  `open parentheses 3 over 5 close parentheses to the power of x` in the form $e^{kx}$ , giving the value of $k$ to three significant figures.
+Write  $( \frac{3}{5} )^{x}$ in the form $e^{kx}$ , giving the value of $k$ to three significant figures.
 
 ### 2() — 2 marks — structured
-Write `open parentheses begin inline style 4 over 7 end style close parentheses to the power of 3 t end exponent`  in the form $e^{kt}$ , giving the value of $k$ to three significant figures. 
+Write $( \frac{4}{7} )^{3 t}$  in the form $e^{kt}$ , giving the value of $k$ to three significant figures. 
 State, and justify, whether this would represent exponential growth or decay.
 
 ## Q21 — hard — 4 marks · exam-questions
 
 ### 1() — 2 marks — structured
-Write `open parentheses 0.7 close parentheses to the power of x plus 1 end exponent`  in the form  $Ae^{-kx}$.
+Write $( 0.7 )^{x + 1}$  in the form  $Ae^{-kx}$.
 
 ### 2() — 2 marks — structured
-Sketch the graph of `y equals open parentheses 0.7 close parentheses to the power of x plus 1 end exponent minus 3`. State the coordinates of the $y$-axis intercept. 
+Sketch the graph of $y = ( 0.7 )^{x + 1} - 3$. State the coordinates of the $y$-axis intercept. 
 Write down the equation of the asymptote.
 
 ## Q22 — hard — 4 marks · exam-questions
@@ -523,10 +523,10 @@ State a potential problem with using the model to predict the profit in the comp
 ## Q31 — very_hard — 5 marks · exam-questions
 
 ### 1() — 1 mark — structured
-Write  `open parentheses 0.8 close parentheses to the power of x` in the form $e^{kx}$ , giving the value of $k$ to three significant figures.
+Write  $( 0.8 )^{x}$ in the form $e^{kx}$ , giving the value of $k$ to three significant figures.
 
 ### 2() — 4 marks — structured
-(i) Write  `open parentheses begin inline style 2 over 3 end style close parentheses to the power of 4 t plus 1 end exponent`  in the form  $Ae^{kt}$, giving the values of $A$ and $k$ to three significant figures where necessary.
+(i) Write  $( \frac{2}{3} )^{4 t + 1}$  in the form  $Ae^{kt}$, giving the values of $A$ and $k$ to three significant figures where necessary.
 
 (ii) State, and justify, whether this would represent exponential growth or decay.
 
@@ -535,7 +535,7 @@ Write  `open parentheses 0.8 close parentheses to the power of x` in the form $e
 ## Q32 — very_hard — 4 marks · exam-questions
 
 ### 1() — 4 marks — structured
-Sketch the graph of  `y equals open parentheses 3 over 5 close parentheses to the power of 2 x plus 1 end exponent minus 4`.
+Sketch the graph of  $y = ( \frac{3}{5} )^{2 x + 1} - 4$.
 
 State the coordinates of any points where the graph intercepts the coordinate axes.
 

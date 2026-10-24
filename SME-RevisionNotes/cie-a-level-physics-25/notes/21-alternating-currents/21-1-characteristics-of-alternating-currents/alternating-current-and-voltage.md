@@ -82,7 +82,7 @@ $T=\frac{1}{f}$
 
 - The equation representing alternating current which gives the value of the current *I* at any time *t* is:
 
-`I space equals space I subscript 0 sin open parentheses omega t close parentheses`
+$I = I_{0} \sin ( \\omega t )$
 
 - Where:
 
@@ -94,7 +94,7 @@ $T=\frac{1}{f}$
 - **Note: **this a sine function since the alternative current graph is *sinusoidal*
 - A similar equation can be used for representing alternating voltage:
 
-`V space equals space V subscript 0 sin open parentheses omega t close parentheses`
+$V = V_{0} \sin ( \\omega t )$
 
 - Where:
 
@@ -120,7 +120,7 @@ $ω=\frac{2π}{T}=2πf$
 > 
 > **Step 1: Write out the equation for alternating current**
 > 
-> `I space equals space I subscript 0 sin open parentheses omega t close parentheses`
+> $I = I_{0} \sin ( \\omega t )$
 > 
 > **Step 2: Write out the equation for angular frequency**
 > 
@@ -135,12 +135,12 @@ $ω=\frac{2π}{T}=2πf$
 > 
 > - Using the time given in the question, *t* = 0.48 s
 > 
-> `I space equals space I subscript 0 sin open parentheses omega t close parentheses space equals space I subscript 0 sin open parentheses fraction numerator 2 pi t over denominator T end fraction close parentheses`
+> $I = I_{0} \sin ( \\omega t ) = I_{0} \sin ( \frac{2 \pi t}{T} )$
 > 
-> `I space equals space 17 sin open parentheses fraction numerator 2 pi open parentheses 0.48 close parentheses over denominator 0.1 end fraction close parentheses space equals space minus 16.168 space equals space minus 16 space straight A space open parentheses 2 space straight s. straight f close parentheses`
+> $I = 17 \sin ( \frac{2 \pi ( 0.48 )}{0.1} ) = - 16.168 = - 16 \mathrm{A} ( 2 \mathrm{s} . \mathrm{f} )$
 
 > **Exam Hint**
-> These equations are written as  `x space equals space x subscript 0 sin open parentheses omega t close parentheses`, the *x* is replaced with *I* or *V,* depending on the question.
+> These equations are written as  $x = x_{0} \sin ( \\omega t )$, the *x* is replaced with *I* or *V,* depending on the question.
 > 
 > Remember to check that your calculator is in **radians** mode when using any of these equations. This is because the angular frequency *⍵* is measured in rad s<sup>-1</sup>.
 > 

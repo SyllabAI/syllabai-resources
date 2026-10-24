@@ -63,7 +63,7 @@ $mg=\frac{GMm}{r^{2}}$
 
 - **Cancel out** the mass, *m*, on each side:
 
-`up diagonal strike m g space equals space fraction numerator G M up diagonal strike m over denominator r squared end fraction`
+$\cancel{m} g = \frac{G M \cancel{m} }{r^{2}}$
 
 - The equation for gravitational field strength **due to a point mass** is:
 
@@ -139,7 +139,7 @@ $g\propto\frac{1}{r^{2}}$
 > 
 > **Step 4: Substitute the volume of a sphere equation and simplify**
 > 
-> `g space equals space fraction numerator G rho open parentheses 4 straight pi r cubed close parentheses over denominator 3 r squared end fraction space equals space fraction numerator 4 straight pi G rho r over denominator 3 end fraction`
+> $g = \frac{G \\rho ( 4 \mathrm{\pi } r^{3} )}{3 r^{2}} = \frac{4 \mathrm{\pi } G \\rho r}{3}$
 > 
 > **Step 5: Find the ratio of the gravitational field strengths**
 > 
@@ -147,6 +147,6 @@ $g\propto\frac{1}{r^{2}}$
 > 
 > **Step 6:** **Rearrange and calculate the ratio of the Moon’s radius r**<sub>**M**</sub>** and the Earth’s radius r**<sub>**E**</sub>
 > 
-> `r subscript M over r subscript E space equals space fraction numerator rho subscript E g subscript M over denominator rho subscript M g subscript E end fraction space equals space fraction numerator rho subscript E open parentheses 1 over 6 g subscript E close parentheses over denominator open parentheses 3 over 5 rho subscript E close parentheses g subscript E end fraction`
+> `r _ M / r _ E = (rho _ E g _ M)/(rho _ M g _ E) = (rho _ E ( 1 / 6 g _ E ))/(( 3 / 5 rho _ E ) g _ E)`
 > 
 > $\frac{r_{M}}{r_{E}}=\frac{1}{6}\div\frac{3}{5}=\frac{5}{18}=0.28$

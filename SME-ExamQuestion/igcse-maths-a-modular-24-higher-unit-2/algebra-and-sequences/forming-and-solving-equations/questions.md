@@ -344,7 +344,7 @@ Each metal bar is gold or silver or zinc.
 
 - $y$ metal bars are gold.
 - $(3y+7)$ metal bars are silver.
-- `open parentheses 2 y minus 5 close parentheses` metal bars are zinc.
+- $( 2 y - 5 )$ metal bars are zinc.
 
 Work out the number of metal bars that are zinc. 
 Show clear algebraic working
@@ -409,7 +409,7 @@ You must show all your working.
 ### 17() — 4 marks — command: find — structured — from paper June 2019 · 1MA1/1H
 Given that
 
-`x squared space colon space open parentheses 3 x plus 5 close parentheses space equals space 1 space colon space 2`
+$x^{2} : ( 3 x + 5 ) = 1 : 2$
 
 find the possible values of $x$.
 
@@ -501,7 +501,7 @@ Is her answer correct?
 
 Tick a box.
 
-`square` Yes         `begin mathsize 26px style square end style` No
+`square` Yes         $\text{square}$ No
 
 Give a reason for your answer.
 

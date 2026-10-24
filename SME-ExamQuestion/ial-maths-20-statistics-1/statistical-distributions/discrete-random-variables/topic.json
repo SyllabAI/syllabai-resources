@@ -276,7 +276,7 @@
       "spcpt_hNzSdgbyZxJrpzwx"
      ],
      "part_tier": null,
-     "problem_md": "The discrete random variable $X$ has the probability function\n\n`P open parentheses X equals x close parentheses open curly brackets table row cell 1 fourth end cell cell x equals 0 comma 1 comma 2 comma 3 end cell row 0 otherwise end table close`\n\nBriefly explain why $X$ has a **uniform** probability distribution.",
+     "problem_md": "The discrete random variable $X$ has the probability function\n\n$P ( X = x ) \\{ \\begin{gathered} 1 \\frac{1}{4} & x = 0 , 1 , 2 , 3 \\\\ 0 \\text{otherwise} \\end{gathered} )$\n\nBriefly explain why $X$ has a **uniform** probability distribution.",
      "solution_md": "![](assets/006-img.png)",
      "equations": [
       {
@@ -354,7 +354,7 @@
       "spcpt_bxWFJwqxDSR3cBsC"
      ],
      "part_tier": null,
-     "problem_md": "The discrete random variable $X$ has the probability function\n\n`P open parentheses X equals x close parentheses space equals space open curly brackets table row cell k x end cell cell x equals 2 comma 3 end cell row 0 otherwise end table close`\n\nUse the fact that the sum of all probabilities equals 1 to show that $k=0.2$.",
+     "problem_md": "The discrete random variable $X$ has the probability function\n\n$P ( X = x ) = \\{ \\begin{gathered} k x & x = 2 , 3 \\\\ 0 \\text{otherwise} \\end{gathered} )$\n\nUse the fact that the sum of all probabilities equals 1 to show that $k=0.2$.",
      "solution_md": "![](assets/004-img.png)",
      "equations": [
       {
@@ -550,7 +550,7 @@
       "spcpt_bxWFJwqxDSR3cBsC"
      ],
      "part_tier": null,
-     "problem_md": "The discrete random variable $X$ has the probability function\n\n`P open parentheses X equals x close parentheses equals open curly brackets table row cell k x end cell cell x equals 1 comma space 3 end cell row cell fraction numerator k x over denominator 2 end fraction end cell cell x equals 2 comma space 4 end cell row 0 otherwise end table close`\n\nUse the fact that the sum of all probabilities equals 1 to show that $k=\\frac{1}{7}$.",
+     "problem_md": "The discrete random variable $X$ has the probability function\n\n$P ( X = x ) = \\{ \\begin{gathered} k x & x = 1 , 3 \\\\ \\frac{k x}{2} & x = 2 , 4 \\\\ 0 \\text{otherwise} \\end{gathered} )$\n\nUse the fact that the sum of all probabilities equals 1 to show that $k=\\frac{1}{7}$.",
      "solution_md": "![](assets/011-img.png)",
      "equations": [
       {
@@ -1130,7 +1130,7 @@
       "spcpt_bxWFJwqxDSR3cBsC"
      ],
      "part_tier": null,
-     "problem_md": "The discrete random variable $X$ has the probability function\n\n`P open parentheses X equals x close parentheses equals open curly brackets table row cell 1 fourth end cell cell x equals 0 end cell row cell 1 over 8 end cell cell x equals 1 comma space 2 end cell row cell 5 over 16 end cell cell x equals 3 end cell row p cell x equals 4 end cell row 0 otherwise end table close`\n\nBriefly explain how you can deduce that $p=\\frac{3}{16}$.",
+     "problem_md": "The discrete random variable $X$ has the probability function\n\n$P ( X = x ) = \\{ \\begin{gathered} 1 \\frac{1}{4} & x = 0 \\\\ \\frac{1}{8} & x = 1 , 2 \\\\ \\frac{5}{16} & x = 3 \\\\ p x = 4 \\\\ 0 \\text{otherwise} \\end{gathered} )$\n\nBriefly explain how you can deduce that $p=\\frac{3}{16}$.",
      "solution_md": "![](assets/019-img.png)",
      "equations": [
       {
@@ -1330,7 +1330,7 @@
       "spcpt_ZMNyvHd7JK6WfHTm"
      ],
      "part_tier": null,
-     "problem_md": "Given that `straight E open parentheses straight X close parentheses equals 33 over 10`, use the formula $E(X)=\\sumxp$to show that $7p+5q=\\frac{29}{10}$.",
+     "problem_md": "Given that $\\mathrm{E} ( \\mathrm{X} ) = \\frac{33}{10}$, use the formula $E(X)=\\sumxp$to show that $7p+5q=\\frac{29}{10}$.",
      "solution_md": "![](assets/002-img.png)",
      "equations": [
       {
@@ -1560,7 +1560,7 @@
       "spcpt_hNzSdgbyZxJrpzwx"
      ],
      "part_tier": null,
-     "problem_md": "The random variable $X$ has the probability function\n\n`P open parentheses X equals x close parentheses equals open curly brackets table attributes columnalign left columnspacing 1.4ex end attributes row cell 1 over k end cell cell x equals 1 comma 2 comma 3 comma 4 comma 5 end cell row 0 otherwise end table close`\n\n(i) Show that $k=5$.\n\n(ii) Write down the name of this probability distribution.",
+     "problem_md": "The random variable $X$ has the probability function\n\n`P ( X = x ) = { table columnalign left columnspacing 1.4ex end | 1 / k | x = 1 , 2 , 3 , 4 , 5 | | 0 otherwise | close`\n\n(i) Show that $k=5$.\n\n(ii) Write down the name of this probability distribution.",
      "solution_md": "![](assets/079-img.png)",
      "equations": [
       {
@@ -1604,7 +1604,7 @@
       "spcpt_hNzSdgbyZxJrpzwx"
      ],
      "part_tier": null,
-     "problem_md": "The random variable $X$ has the probability function\n\n`P open parentheses X equals x close parentheses equals open curly brackets table attributes columnalign left columnspacing 1.4ex end attributes row cell k x end cell cell x equals 1 comma 3 comma 5 comma 7 end cell row 0 otherwise end table close`\n\nFind the value of $k$.",
+     "problem_md": "The random variable $X$ has the probability function\n\n`P ( X = x ) = { table columnalign left columnspacing 1.4ex end | k x | x = 1 , 3 , 5 , 7 | | 0 otherwise | close`\n\nFind the value of $k$.",
      "solution_md": "![](assets/082-img.png)",
      "equations": [
       {
@@ -1706,7 +1706,7 @@
       "spcpt_hNzSdgbyZxJrpzwx"
      ],
      "part_tier": null,
-     "problem_md": "The random variable $X$ has the probability function\n\n`P open parentheses X equals x close parentheses equals open curly brackets table row cell 0.23 end cell cell x equals negative 1 comma space 4 end cell row k cell x equals 0 comma space 2 end cell row cell 0.13 end cell cell x equals 1 comma 3 end cell row 0 otherwise end table close`\n\nFind the value of $k$.",
+     "problem_md": "The random variable $X$ has the probability function\n\n$P ( X = x ) = \\{ \\begin{gathered} 0.23 & x = - 1 , 4 \\\\ k x = 0 , 2 \\\\ 0.13 & x = 1 , 3 \\\\ 0 \\text{otherwise} \\end{gathered} )$\n\nFind the value of $k$.",
      "solution_md": "![](assets/086-img.png)",
      "equations": [
       {
@@ -2582,7 +2582,7 @@
       "spcpt_qBdSyWddQNFVvkBj"
      ],
      "part_tier": null,
-     "problem_md": "The random variable $X$ has the probability function\n\n`straight P open parentheses X equals x close parentheses equals open curly brackets table row cell 1 over k end cell cell x equals 1 comma 2 comma 3 comma 4 comma 5 comma 6 space end cell row 0 cell otherwise. end cell end table close`\n\n(i) Write down the value of $k$.\n\n(ii) Write down the name of this probability distribution.\n\n(iii) Find the values of $E(X)$ and $\\mathrm{Var}(X)$.",
+     "problem_md": "The random variable $X$ has the probability function\n\n$\\mathrm{P} ( X = x ) = \\{ \\begin{gathered} \\frac{1}{k} & x = 1 , 2 , 3 , 4 , 5 , 6 \\\\ 0 otherwise. \\end{gathered} )$\n\n(i) Write down the value of $k$.\n\n(ii) Write down the name of this probability distribution.\n\n(iii) Find the values of $E(X)$ and $\\mathrm{Var}(X)$.",
      "solution_md": "![](assets/059-img.png)",
      "equations": [
       {
@@ -2637,7 +2637,7 @@
       "spcpt_hNzSdgbyZxJrpzwx"
      ],
      "part_tier": null,
-     "problem_md": "A student claims that a random variable $X$ has a probability distribution defined by the following probability mass function:\n\n`P open parentheses X equals x close parentheses equals open curly brackets table row cell x squared over 30 end cell cell x equals negative 1 comma 1 comma 3 comma 5 end cell row 0 otherwise end table close`\n\nExplain how you know that the student’s function does not describe a probability distribution",
+     "problem_md": "A student claims that a random variable $X$ has a probability distribution defined by the following probability mass function:\n\n$P ( X = x ) = \\{ \\begin{gathered} \\frac{x^{2}}{30} & x = - 1 , 1 , 3 , 5 \\\\ 0 \\text{otherwise} \\end{gathered} )$\n\nExplain how you know that the student’s function does not describe a probability distribution",
      "solution_md": "![](assets/063-img.png)",
      "equations": [
       {
@@ -2666,7 +2666,7 @@
       "spcpt_hNzSdgbyZxJrpzwx"
      ],
      "part_tier": null,
-     "problem_md": "Given that the correct probability mass function is of the form\n\n`straight P open parentheses X equals x close parentheses equals open curly brackets table row cell x squared over k end cell cell x equals negative 1 comma 1 comma 3 comma 5 end cell row 0 otherwise end table close`\n\nwhere $k$ is a constant,\n\nfind the exact value of $k$.",
+     "problem_md": "Given that the correct probability mass function is of the form\n\n$\\mathrm{P} ( X = x ) = \\{ \\begin{gathered} \\frac{x^{2}}{k} & x = - 1 , 1 , 3 , 5 \\\\ 0 \\text{otherwise} \\end{gathered} )$\n\nwhere $k$ is a constant,\n\nfind the exact value of $k$.",
      "solution_md": "![](assets/064-img.png)",
      "equations": [
       {
@@ -2768,7 +2768,7 @@
       "spcpt_hNzSdgbyZxJrpzwx"
      ],
      "part_tier": null,
-     "problem_md": "The random variable $X$ has the probability function\n\n`straight P open parentheses X equals x close parentheses equals open curly brackets table row cell 0.21 end cell cell x equals 0 comma 1 end cell row cell k x end cell cell x equals 3 comma 6 end cell row cell 0.11 end cell cell x equals 10 comma 15 end cell row 0 otherwise end table close`\n\nFind the value of $k$.",
+     "problem_md": "The random variable $X$ has the probability function\n\n$\\mathrm{P} ( X = x ) = \\{ \\begin{gathered} 0.21 & x = 0 , 1 \\\\ k x & x = 3 , 6 \\\\ 0.11 & x = 10 , 15 \\\\ 0 \\text{otherwise} \\end{gathered} )$\n\nFind the value of $k$.",
      "solution_md": "![](assets/069-img.png)",
      "equations": [
       {
@@ -3639,7 +3639,7 @@
       "spcpt_ZMNyvHd7JK6WfHTm"
      ],
      "part_tier": null,
-     "problem_md": "A discrete random variable, $X$, can take the values 1, 3, 5 or 7 and it has the cumulative distribution function `straight F open parentheses x close parentheses` given in the table.\n\n| $x$ | 1 | 3 | 5 | 7 |\n|---|---|---|---|---|\n| `straight F open parentheses x close parentheses` | 0.5 | 0.65 | 0.9 | 1 |\n\nFind the value of:\n\n(i) $P(X=3)$\n\n(ii) $P(3X+3>X+9)$\n\n(iii) $E(X)$\n\n(iv) $\\text{Var}(X)$.",
+     "problem_md": "A discrete random variable, $X$, can take the values 1, 3, 5 or 7 and it has the cumulative distribution function $\\mathrm{F} ( x )$ given in the table.\n\n| $x$ | 1 | 3 | 5 | 7 |\n|---|---|---|---|---|\n| $\\mathrm{F} ( x )$ | 0.5 | 0.65 | 0.9 | 1 |\n\nFind the value of:\n\n(i) $P(X=3)$\n\n(ii) $P(3X+3>X+9)$\n\n(iii) $E(X)$\n\n(iv) $\\text{Var}(X)$.",
      "solution_md": "![](assets/067-img.png)",
      "equations": [
       {
@@ -3695,7 +3695,7 @@
       "spcpt_z62kKf5gJXGW9M9q"
      ],
      "part_tier": null,
-     "problem_md": "Find the value of:\n\n(i) `E open parentheses X over 2 plus 7 close parentheses`\n\n(ii) `Var open parentheses fraction numerator 2 minus straight x over denominator 5 end fraction close parentheses`\n\n(iii) $E(3X^{2}-1)$.",
+     "problem_md": "Find the value of:\n\n(i) $E ( \\frac{X}{2} + 7 )$\n\n(ii) $\\text{Var} ( \\frac{2 - \\mathrm{x} }{5} )$\n\n(iii) $E(3X^{2}-1)$.",
      "solution_md": "![](assets/068-img.png)",
      "equations": [
       {
@@ -3816,7 +3816,7 @@
       "spcpt_hNzSdgbyZxJrpzwx"
      ],
      "part_tier": null,
-     "problem_md": "A student claims that a random variable $X$ has a probability distribution defined by the following probability mass function:\n\n`P open parentheses X equals x close parentheses equals open curly brackets table row cell fraction numerator 1 over denominator 3 x squared end fraction end cell cell x equals negative 3 comma space minus 1 end cell row cell fraction numerator 1 over denominator 3 x cubed end fraction end cell cell x equals 1 comma space 3 end cell row 0 otherwise end table close`\n\nExplain how you know that the student’s function does not describe a probability distribution.",
+     "problem_md": "A student claims that a random variable $X$ has a probability distribution defined by the following probability mass function:\n\n$P ( X = x ) = \\{ \\begin{gathered} \\frac{1}{3 x^{2}} & x = - 3 , - 1 \\\\ \\frac{1}{3 x^{3}} & x = 1 , 3 \\\\ 0 \\text{otherwise} \\end{gathered} )$\n\nExplain how you know that the student’s function does not describe a probability distribution.",
      "solution_md": "![](assets/035-img.png)",
      "equations": [
       {
@@ -3845,7 +3845,7 @@
       "spcpt_hNzSdgbyZxJrpzwx"
      ],
      "part_tier": null,
-     "problem_md": "Given that the correct probability mass function is of the form\n\n`P open parentheses X equals x close parentheses equals open curly brackets table row cell k over x squared end cell cell x equals negative 3 comma space minus 1 end cell row cell k over x cubed end cell cell x equals 1 comma space 3 end cell row 0 otherwise end table close`\n\nwhere $k$ is a constant,\n\nFind the exact value of $k$.",
+     "problem_md": "Given that the correct probability mass function is of the form\n\n$P ( X = x ) = \\{ \\begin{gathered} \\frac{k}{x^{2}} & x = - 3 , - 1 \\\\ \\frac{k}{x^{3}} & x = 1 , 3 \\\\ 0 \\text{otherwise} \\end{gathered} )$\n\nwhere $k$ is a constant,\n\nFind the exact value of $k$.",
      "solution_md": "![](assets/036-img.png)",
      "equations": [
       {
@@ -4684,7 +4684,7 @@
       "spcpt_qBdSyWddQNFVvkBj"
      ],
      "part_tier": null,
-     "problem_md": "A biased four-sided dice is rolled and the number that it lands on is denoted  which has probability distribution shown below.\n\n| $x$ | $-2$ | $-1$ | $\\frac{1}{2}$ | $2$ |\n|---|---|---|---|---|\n| `P open parentheses X equals x close parentheses` | $a$ | $b$ | $c$ | $c$ |\n\nThe cumulative distribution function of $X$ is given by:\n\n| $x$ | $-2$ | $-1$ | $\\frac{1}{2}$ | $2$ |\n|---|---|---|---|---|\n| `straight F open parentheses x close parentheses` | $\\frac{1}{7}$ | $\\frac{2}{5}$ | $d$ | $e$ |\n\nFind the values of $a,b,c,d,$and $e$.",
+     "problem_md": "A biased four-sided dice is rolled and the number that it lands on is denoted  which has probability distribution shown below.\n\n| $x$ | $-2$ | $-1$ | $\\frac{1}{2}$ | $2$ |\n|---|---|---|---|---|\n| $P ( X = x )$ | $a$ | $b$ | $c$ | $c$ |\n\nThe cumulative distribution function of $X$ is given by:\n\n| $x$ | $-2$ | $-1$ | $\\frac{1}{2}$ | $2$ |\n|---|---|---|---|---|\n| $\\mathrm{F} ( x )$ | $\\frac{1}{7}$ | $\\frac{2}{5}$ | $d$ | $e$ |\n\nFind the values of $a,b,c,d,$and $e$.",
      "solution_md": "![](assets/042-img.png)",
      "equations": [
       {

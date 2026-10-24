@@ -15,17 +15,17 @@ Use the differentiation formula to differentiate $y$
 
 - Keep your answer in terms of $m$ and $p$
 
-`table row cell fraction numerator straight d y over denominator straight d x end fraction end cell equals cell 5 cross times m x to the power of m minus 1 end exponent plus p cross times 12 x to the power of 12 minus 1 end exponent end cell row blank equals cell 5 m x to the power of m minus 1 end exponent plus 12 p x to the power of 11 end cell end table`
+$\begin{gathered} \frac{ \mathrm{d} y}{ \mathrm{d} x} & = 5 \times m x^{m - 1} + p \times 12 x^{12 - 1} \\ = 5 m x^{m - 1} + 12 p x^{11} \end{gathered}$
 
 Compare coefficients with the derivative given in the question
 
-`table row cell 5 m end cell equals 30 row m equals cell 30 over 5 end cell end table`
+$\begin{gathered} 5 m & = 30 \\ m = \frac{30}{5} \end{gathered}$
 
 $m=6$
 
 **[B1]**
 
-`table row cell 12 p end cell equals 6 row p equals cell 6 over 12 end cell end table`
+$\begin{gathered} 12 p & = 6 \\ p = \frac{6}{12} \end{gathered}$
 
 $p=\frac{1}{2}$
 
@@ -63,8 +63,8 @@ $\frac{d^{2}y}{dx^{2}}=12x-4$
 
 > *Substituting the x-value from part a*
 
-`fraction numerator straight d squared y over denominator straight d x squared end fraction equals 12 open parentheses 1.12... close parentheses minus 4
-fraction numerator straight d squared y over denominator straight d x squared end fraction equals 9.4... greater than 0`
+$\frac{ \mathrm{d}^{2} y}{ \mathrm{d} x^{2}} = 12 ( 1.12... ) - 4
+ \frac{ \mathrm{d}^{2} y}{ \mathrm{d} x^{2}} = 9.4... > 0$
 
 **Final answer:** **Since the second derivative at point **$P$** is positive, it is a minimum point**
 
@@ -75,67 +75,67 @@ fraction numerator straight d squared y over denominator straight d x squared en
 
 > * Find the gradient of the curve in terms of *$x$* by differentiating.*
 
-> *Formula for differentiation: If *`table row y equals cell space a x to the power of b end cell end table`*, *`table row cell fraction numerator d y over denominator d x end fraction end cell equals cell space a b x to the power of b minus 1 end exponent end cell end table`*.*
+> *Formula for differentiation: If *$\begin{gathered} y = a x^{b} \end{gathered}$*, *$\begin{gathered} \frac{d y}{d x} & = a b x^{b - 1} \end{gathered}$*.*
 
 > *To differentiate the first term, *$x^{3}$*.*
 
-`table row cell y space end cell equals cell space x to the power of 3 space end exponent end cell row cell fraction numerator d y over denominator d x end fraction space end cell equals cell space 3 x to the power of 3 minus 1 end exponent space equals space 3 x squared end cell end table`
+$\begin{gathered} y & = x^{3 } \\ \frac{d y}{d x} & = 3 x^{3 - 1} = 3 x^{2} \end{gathered}$
 
 **[1]**
 
 > *To differentiate the second term, *$-6x^{2}$*.*
 
-`table row cell y space end cell equals cell space minus 6 x to the power of 2 space end exponent end cell row cell fraction numerator d y over denominator d x end fraction space end cell equals cell space open parentheses negative 6 cross times 2 close parentheses x to the power of 2 minus 1 end exponent space equals space minus 12 x end cell end table`
+$\begin{gathered} y & = - 6 x^{2 } \\ \frac{d y}{d x} & = ( - 6 \times 2 ) x^{2 - 1} = - 12 x \end{gathered}$
 
 **[1]**
 
 > *To differentiate the third term, *$16$*.*
 
-`table row cell y space end cell equals cell space 16 x to the power of 0 space end cell row cell fraction numerator d y over denominator d x end fraction space end cell equals cell space open parentheses 16 cross times 0 close parentheses x to the power of 0 minus 1 end exponent space equals space 0 end cell end table`
+$\begin{gathered} y & = 16 x^{0 \\ \frac{d y}{d x} & = ( 16 \times 0 ) x^{0} - 1} = 0 \end{gathered}$
 
 > *Remember, the derivative of a constant term will always by zero. To find the turning points, set *$\frac{dy}{dx}$* equal to zero.*
 
-`table row cell fraction numerator d y over denominator d x end fraction end cell equals cell space space 0 end cell row cell 3 x to the power of 2 space end exponent minus space 12 x space end cell equals cell space 0 end cell end table`
+$\begin{gathered} \frac{d y}{d x} & = 0 \\ 3 x^{2 } - 12 x & = 0 \end{gathered}$
 
 **[1]**
 
 > *Use a method to solve the quadratic, factorising is easiest here.*
 
-`table row cell 3 x open parentheses x space minus space 4 to the power of space close parentheses space end cell equals cell space 0 end cell end table`
+$\begin{gathered} 3 x ( x - 4^{ } ) & = 0 \end{gathered}$
 
 **[1]**
 
 > * Solve by setting each part to zero.*
 
-`table row cell 3 x space end cell equals cell space space 0 end cell row cell x subscript 1 end cell equals 0 end table`* *
+$\begin{gathered} 3 x & = 0 \\ x_{1} & = 0 \end{gathered}$* *
 
 > *and,*
 
-`table row cell open parentheses x space minus space 4 close parentheses space end cell equals cell space space 0 end cell row cell x subscript 2 end cell equals 4 end table`
+$\begin{gathered} ( x - 4 ) & = 0 \\ x_{2} & = 4 \end{gathered}$
 
 > *Find the *$y$* coordinate by substituting the values for *$x$* into the equation for the curve.*
 
-`table row cell y subscript 1 to the power of space end cell equals cell space x subscript 1 cubed space minus space 6 x subscript 1 squared space plus space 16 end cell row blank equals cell space open parentheses 0 close parentheses cubed space minus 6 open parentheses 0 close parentheses squared space plus space 16 end cell row blank equals cell space 16 end cell end table`
+$\begin{gathered} y_{1}^{ } & = x_{1}^{3} - 6 x_{1}^{2} + 16 \\ = ( 0 )^{3} - 6 ( 0 )^{2} + 16 \\ = 16 \end{gathered}$
 
 > *and, *
 
-`table row cell y subscript 2 to the power of space end cell equals cell space x subscript 2 cubed space minus space 6 x subscript 2 squared space plus space 16 end cell row blank equals cell space open parentheses 4 close parentheses cubed space minus 6 open parentheses 4 close parentheses squared space plus space 16 end cell row blank equals cell space minus 16 end cell end table`
+$\begin{gathered} y_{2}^{ } & = x_{2}^{3} - 6 x_{2}^{2} + 16 \\ = ( 4 )^{3} - 6 ( 4 )^{2} + 16 \\ = - 16 \end{gathered}$
 
 `equation` **[1]**
 > *This can be done by either considering the shape of the graph and the location of the turning points, or by finding the second derivative. *
 
 > *Find the second derivative by differentiating the expression found for *$\frac{dy}{dx}$*in part (a).*
 
-`fraction numerator d y over denominator d x end fraction space equals space 3 x to the power of 2 space end exponent minus space 12 x
-fraction numerator straight d squared y over denominator d x squared end fraction space equals space open parentheses 3 cross times 2 close parentheses x blank to the power of 2 minus 1 space end exponent minus space 12 x to the power of 1 minus 1 end exponent space equals space 6 x space minus space 12`
+$\frac{d y}{d x} = 3 x^{2 } - 12 x
+ \frac{ \mathrm{d}^{2} y}{d x^{2}} = ( 3 \times 2 ) x^{2 - 1 } - 12 x^{1 - 1} = 6 x - 12$
 
 **[1]**
 
-> *Substitute each value of *$x$*into the expression for *$\frac{d^{2}y}{dx^{2}}$*and determine whether that coordinate is a minimum *`open parentheses fraction numerator straight d squared y over denominator d x squared end fraction space is space positive close parentheses`* or a maximum *`open parentheses fraction numerator straight d squared y over denominator d x squared end fraction space is space negative close parentheses`*.*
+> *Substitute each value of *$x$*into the expression for *$\frac{d^{2}y}{dx^{2}}$*and determine whether that coordinate is a minimum *$( \frac{ \mathrm{d}^{2} y}{d x^{2}} \text{is} \text{positive} )$* or a maximum *$( \frac{ \mathrm{d}^{2} y}{d x^{2}} \text{is} - )$*.*
 
-`For space x space equals space 0 comma space fraction numerator straight d squared y over denominator d x squared end fraction space equals space 6 open parentheses 0 close parentheses space minus space 12 space equals space minus 12`
+$\text{For} x = 0 , \frac{ \mathrm{d}^{2} y}{d x^{2}} = 6 ( 0 ) - 12 = - 12$
 
-`For space x space equals space 4 comma space fraction numerator straight d squared y over denominator d x squared end fraction space equals space 6 open parentheses 4 close parentheses space minus space 12 space equals space 12`
+$\text{For} x = 4 , \frac{ \mathrm{d}^{2} y}{d x^{2}} = 6 ( 4 ) - 12 = 12$
 
 **(0, 16) is a maximum as **$\frac{d^{2}y}{dx^{2}}$**  is negative ****[1]**
 
@@ -164,7 +164,7 @@ $15x^{2}-2x-8=0$
 
 > *Solve using your preferred method; quadratic formula, completing the square or factorisation (the question doesn't ask for any rounding, which is a clue that the quadratic will factorise). Here we will use the quadratic formula as it looks like a trickier factorisation.*
 
-`x equals fraction numerator negative open parentheses negative 2 close parentheses plus-or-minus square root of open parentheses negative 2 close parentheses squared minus 4 cross times 15 cross times open parentheses negative 8 close parentheses end root over denominator 2 cross times 15 end fraction`
+$x = \frac{- ( - 2 ) \pm \sqrt{( - 2 )^{2} - 4 \times 15 \times ( - 8 )} }{2 \times 15}$
 
 * **correct first step to solving using any of the above methods*** ****[1]**
 
@@ -197,7 +197,7 @@ $12x^{2}-3=0$
 
 *Solve the equation.* *Add 3 to both sides and then divide both sides by 12.*
 
-`table row cell 12 x squared end cell equals 3 row cell x squared end cell equals cell 3 over 12 equals 1 fourth end cell end table`
+$\begin{gathered} 12 x^{2} & = 3 \\ x^{2} & = \frac{3}{12} = 1 \frac{1}{4} \end{gathered}$
 
 > *Square root both sides, remember there are two solutions: a positive and a negative.*
 
@@ -207,7 +207,7 @@ $x=\pm\sqrt{\frac{1}{4}}=\pm\frac{1}{2}$
 
 > *Substitute each value of **x** back in to the expression for **y **to find the **y**-coordinate.*
 
-`table row x equals cell 1 half rightwards double arrow y equals 4 open parentheses 1 half close parentheses cubed minus 3 open parentheses 1 half close parentheses plus 3 equals 2 end cell row x equals cell negative 1 half rightwards double arrow y equals 4 open parentheses negative 1 half close parentheses cubed minus 3 open parentheses negative 1 half close parentheses plus 3 equals 4 end cell end table`
+$\begin{gathered} x = 1 \frac{1}{2} \Leftrightarrow y = 4 ( 1 \frac{1}{2} )^{3} - 3 ( 1 \frac{1}{2} ) + 3 = 2 \\ x = - 1 \frac{1}{2} \Leftrightarrow y = 4 ( - 1 \frac{1}{2} )^{3} - 3 ( - 1 \frac{1}{2} ) + 3 = 4 \end{gathered}$
 
 > *Write the **x** values and their corresponding **y** values together as two pairs of coordinates.*
 
@@ -223,8 +223,8 @@ $\frac{d^{2}y}{dx^{2}}=2\times12x^{2-1}-0\,\frac{d^{2}y}{dx^{2}}=24x$
 
 > *Substitute the **x** coordinates into the second derivative and check if the answer is positive or negative.*
 
-`x equals 1 half rightwards double arrow fraction numerator straight d squared y over denominator d x squared end fraction equals 24 open parentheses 1 half close parentheses equals 12 greater than 0
-x equals negative 1 half rightwards double arrow fraction numerator straight d squared y over denominator d x squared end fraction equals 24 open parentheses negative 1 half close parentheses equals negative 12 less than 0`
+$x = 1 \frac{1}{2} \Leftrightarrow \frac{ \mathrm{d}^{2} y}{d x^{2}} = 24 ( 1 \frac{1}{2} ) = 12 > 0
+x = - 1 \frac{1}{2} \Leftrightarrow \frac{ \mathrm{d}^{2} y}{d x^{2}} = 24 ( - 1 \frac{1}{2} ) = - 12 < 0$
 
 > *If the answer is positive then the point is a minimum. If the answer is negative then it is a maximum.*
 
@@ -245,18 +245,18 @@ $8x^{3}-32x=0$
 
 > *Solve for **x*
 
-`x cubed minus 4 x equals 0
-x open parentheses x squared minus 4 close parentheses equals 0
-x equals 0 comma space space x squared equals 4
-space space space space space space space space space space space space x equals plus-or-minus 2`
+$x^{3} - 4 x = 0
+x ( x^{2} - 4 ) = 0
+x = 0 , x^{2} = 4
+ x = \pm 2$
 
 *all 3 x-coordinates found*** ****[1]**
 
 > *Find **P, Q** and **R **by substituting **x** = -2, **x** = 0 and **x** = 2 respectively into **y **(you could also find **Q** by examining the equation for **y **and ignoring any terms in **x**, as it is the **y**-intercept)*
 
-`P colon space x equals negative 2 comma space y equals 2 open parentheses negative 2 close parentheses to the power of 4 minus 16 open parentheses negative 2 close parentheses squared plus 3 equals negative 29
-Q colon space x equals 0 comma space y equals 3
-R colon space x equals 2 comma space y equals 2 open parentheses 2 close parentheses to the power of 4 minus 16 open parentheses 2 close parentheses squared plus 3 equals negative 29`
+$P : x = - 2 , y = 2 ( - 2 )^{4} - 16 ( - 2 )^{2} + 3 = - 29
+Q : x = 0 , y = 3
+R : x = 2 , y = 2 ( 2 )^{4} - 16 ( 2 )^{2} + 3 = - 29$
 
 *all 3 y-coordinates found*** [1]**
 
@@ -289,28 +289,28 @@ R colon space x equals 2 comma space y equals 2 open parentheses 2 close parenth
 
 > *Use this to find the derivative of each term.*
 
-`table row cell y space end cell equals cell space 24 space plus space 5 x space minus space x to the power of 2 space end exponent end cell row cell fraction numerator straight d y over denominator straight d x end fraction end cell equals cell space 0 space plus thin space 5 space plus space 2 cross times open parentheses negative x to the power of 2 minus 1 end exponent space close parentheses end cell row blank equals cell space 5 space minus space 2 x end cell end table`
+$\begin{gathered} y & = 24 + 5 x - x^{2 } \\ \frac{ \mathrm{d} y}{ \mathrm{d} x} & = 0 + 5 + 2 \times ( - x^{2 - 1} ) \\ = 5 - 2 x \end{gathered}$
 
 ** *** 1 mark for each correct term*** [2]**
 
 > *Find the gradient at the point where *$x=-1.5$* by substituting it into the derivative.*
 
-`table row cell space 5 space minus space 2 open parentheses negative 1.5 close parentheses space end cell equals cell space 5 space minus space open parentheses negative 3 close parentheses end cell end table`
+$\begin{gathered} 5 - 2 ( - 1.5 ) & = 5 - ( - 3 ) \end{gathered}$
 
-** **`table row blank blank bold 8 end table` **[1]**
+** **$\begin{gathered} 8 \end{gathered}$ **[1]**
 
 ### Q8
 > *We can use the information given to form two simultaneous equations in *$a$* and *$b$*.*
 
 > *"The point *$A$* with coordinates (2, –6) lies on *$C$*" so substitute the point into the equation to form one equation in *$a$* and *$b$*.*
 
-`negative 6 equals a open parentheses 2 close parentheses cubed plus b open parentheses 2 close parentheses squared minus 12 open parentheses 2 close parentheses plus 6`
+$- 6 = a ( 2 )^{3} + b ( 2 )^{2} - 12 ( 2 ) + 6$
 
 **[1]**
 
 > *Simplify to form the first of two simultaneous equations.*
 
-`table row cell negative 6 end cell equals cell 8 a plus 4 b minus 24 plus 6 end cell row cell 8 a plus 4 b end cell equals 12 row cell divided by 4 space space space space space space space space space space space space end cell equals cell space space space divided by 4 end cell row cell 2 a plus b end cell equals 3 end table`
+$\begin{gathered} - 6 & = 8 a + 4 b - 24 + 6 \\ 8 a + 4 b & = 12 \\ \div 4 & = \div 4 \\ 2 a + b & = 3 \end{gathered}$
 
 > *To form the second equation in *$a$* and *$b$*, **we can use "the gradient of the curve at *$A$* is 16". Differentiate *$y$*.*
 
@@ -320,23 +320,23 @@ $\frac{dy}{dx}=3ax^{2}+2bx-12$
 
 > *When *$x=2$*, *$\frac{dy}{dx}=16$*. Substitute these into the above.*
 
-`16 equals 3 a open parentheses 2 close parentheses squared plus 2 b open parentheses 2 close parentheses minus 12`
+$16 = 3 a ( 2 )^{2} + 2 b ( 2 ) - 12$
 
 **[1]**
 
 > *Simplify this to form a second equation in *$a$* and *$b$*.*
 
-`table row 16 equals cell 12 a plus 4 b minus 12 end cell row cell 12 a plus 4 b end cell equals 28 row cell divided by 4 space space space space space space space space space space space space space space end cell equals cell space space space space divided by 4 end cell row cell 3 a plus b end cell equals 7 end table`
+$\begin{gathered} 16 = 12 a + 4 b - 12 \\ 12 a + 4 b & = 28 \\ \div 4 & = \div 4 \\ 3 a + b & = 7 \end{gathered}$
 
 > *Set up the two simultaneous equations next to each other and solve.*
 
-`table row cell 3 a plus b end cell equals cell 7 space space space space circle enclose 1 end cell row cell 2 a plus b end cell equals cell 3 space space space space circle enclose 2 end cell row cell circle enclose 1 minus circle enclose 2 colon space space space space space space space space space a end cell equals 4 end table`
+$\begin{gathered} 3 a + b & = 7 \textcircled{1} \\ 2 a + b & = 3 \textcircled{2} \\ \textcircled{1} - \textcircled{2} : a & = 4 \end{gathered}$
 
 **[1]**
 
 > *Substitute this into *`circle enclose 1`* or *`circle enclose 2`*. Choosing *`circle enclose 1`*;*
 
-`table row cell 3 open parentheses 4 close parentheses plus b end cell equals 7 row cell 12 plus b end cell equals 7 row b equals cell negative 5 end cell end table`
+$\begin{gathered} 3 ( 4 ) + b & = 7 \\ 12 + b & = 7 \\ b = - 5 \end{gathered}$
 
 **[1]**
 
@@ -346,7 +346,7 @@ $y=4x^{3}-5x^{2}-12x+6$
 
 > *And we can substitute *$x=3$* to find the *$y$* coordinate.*
 
-`table row y equals cell 4 open parentheses 3 close parentheses cubed minus 5 open parentheses 3 close parentheses squared minus 12 open parentheses 3 close parentheses plus 6 end cell row blank equals 33 end table`
+$\begin{gathered} y = 4 ( 3 )^{3} - 5 ( 3 )^{2} - 12 ( 3 ) + 6 \\ = 33 \end{gathered}$
 
 $y=33$* ***[1]**
 
@@ -363,25 +363,25 @@ $\frac{dy}{dx}=3x^{2}+2\times\frac{7}{2}x^{1}-2x^{0}$
 * **fully correct answer ***[1]**
 i)* **Substitute x = -3 into the derivative (which is the gradient function) found in part (a)*
 
-`table attributes columnalign right center left columnspacing 0px end attributes row cell fraction numerator d y over denominator d x end fraction end cell equals cell 3 open parentheses negative 3 close parentheses squared plus 7 open parentheses negative 3 close parentheses minus 2 end cell end table`
+$\begin{array}{rcl} \frac{d y}{d x} & = 3 ( - 3 )^{2} + 7 ( - 3 ) - 2 \end{array}$
 
 **[1]**
 
 > *And evaluate, taking care with negative numbers-put them in brackets if using a calculator*
 
-`table attributes columnalign right center left columnspacing 0px end attributes row blank equals cell 27 minus 21 minus 2 end cell row blank equals 4 end table`
+$\begin{array}{rcl} = 27 - 21 - 2 \\ = 4 \end{array}$
 
 **gradient = 4 ****[****1]**
 
 ii)* **Substitute x = 2/3 into the derivative (which is the gradient function) found in part (a)*
 
-`table attributes columnalign right center left columnspacing 0px end attributes row cell fraction numerator d y over denominator d x end fraction end cell equals cell 3 open parentheses 2 over 3 close parentheses squared plus 7 open parentheses 2 over 3 close parentheses minus 2 end cell end table`
+$\begin{array}{rcl} \frac{d y}{d x} & = 3 ( \frac{2}{3} )^{2} + 7 ( \frac{2}{3} ) - 2 \end{array}$
 
 **[1]**
 
 > *And evaluate, taking care with fractions- put them in brackets if using a calculator*
 
-`table attributes columnalign right center left columnspacing 0px end attributes row blank equals cell 4 over 3 plus 14 over 3 minus 2 end cell row blank equals 4 end table`
+$\begin{array}{rcl} = \frac{4}{3} + \frac{14}{3} - 2 \\ = 4 \end{array}$
 
 **gradient = 4 ****[1]**
 > *The gradients are equal therefore*
@@ -403,14 +403,14 @@ $3x^{2}+16x+5=0$
 
 **[1]**
 
-`open parentheses 3 x plus 1 close parentheses open parentheses x plus 5 close parentheses equals 0
-x equals negative 1 third comma space space space space x equals negative 5`
+$( 3 x + 1 ) ( x + 5 ) = 0
+x = - 1 \frac{1}{3} , x = - 5$
 
 *Both*** [1]**
 
 > *Work out the corresponding *$y$*-coordinates.*
 
-`table row x equals cell negative 1 third comma space space y equals open parentheses negative 1 third close parentheses cubed plus 8 open parentheses negative 1 third close parentheses squared plus 5 open parentheses negative 1 third close parentheses equals negative 22 over 27 end cell row x equals cell negative 5 comma space space y equals open parentheses negative 5 close parentheses cubed plus 8 open parentheses negative 5 close parentheses squared plus 5 open parentheses negative 5 close parentheses equals 50 end cell end table`
+$\begin{gathered} x = - 1 \frac{1}{3} , y = ( - 1 \frac{1}{3} )^{3} + 8 ( - 1 \frac{1}{3} )^{2} + 5 ( - 1 \frac{1}{3} ) = - \frac{22}{27} \\ x = - 5 , y = ( - 5 )^{3} + 8 ( - 5 )^{2} + 5 ( - 5 ) = 50 \end{gathered}$
 
 *Both *$y$*-coordinates ***[1]**
 
@@ -423,11 +423,11 @@ $\frac{d^{2}y}{dx^{2}}=6x+16$
 
 > *Find the value of *$\frac{d^{2}y}{dx^{2}}$* at each stationary point. Minimum points have a second derivative greater than zero; maximum points have a second derivative less than zero.*
 
-`x equals negative 1 third comma fraction numerator space straight d squared y over denominator straight d x squared end fraction equals 6 open parentheses negative 1 third close parentheses plus 16 equals 14 greater than 0`
+$x = - 1 \frac{1}{3} , \frac{ \mathrm{d}^{2} y}{ \mathrm{d} x^{2}} = 6 ( - 1 \frac{1}{3} ) + 16 = 14 > 0$
 
 $(-\frac{1}{3},-\frac{22}{27})$** is a minimum point because **$\frac{d^{2}y}{dx^{2}}>0$** at **$x=-\frac{1}{3}$ **[1]**
 
-`x equals negative 5 comma fraction numerator space straight d squared y over denominator straight d x squared end fraction equals 6 open parentheses negative 5 close parentheses plus 16 equals negative 14 less than 0`
+$x = - 5 , \frac{ \mathrm{d}^{2} y}{ \mathrm{d} x^{2}} = 6 ( - 5 ) + 16 = - 14 < 0$
 
 $(-5,50)$** is a maximum point because **$\frac{d^{2}y}{dx^{2}}<0$** at**** **$x=-5$** [1]**
 
@@ -443,7 +443,7 @@ $2kx^{k-1}+7ux^{6}=18x^{k-1}+21x^{6}$
 
 > *Therefore*
 
-`table row cell box enclose 2 k end enclose x to the power of k minus 1 end exponent space plus space 7 u x to the power of 6 space end cell equals cell space box enclose 18 x to the power of k minus 1 end exponent space plus space 21 x to the power of 6 end cell row blank blank blank row cell 2 k end cell equals 18 end table`
+`| box 2 k x ^ k - 1 + 7 u x ^ 6 | = box 18 x ^ k - 1 + 21 x ^ 6 | | _ _ _ | 2 k | = 18 |`
 
 > *Solve*
 
@@ -451,7 +451,7 @@ $k=9$ **[1]**
 
 > *And *
 
-`table row cell 2 k x to the power of k minus 1 end exponent space plus box enclose space 7 u end enclose x to the power of 6 space end cell equals cell space 18 x to the power of k minus 1 end exponent space plus space box enclose 21 x to the power of 6 end cell row blank blank blank row cell 7 u end cell equals 21 end table`
+`| 2 k x ^ k - 1 + box 7 u x ^ 6 | = 18 x ^ k - 1 + box 21 x ^ 6 | | _ _ _ | 7 u | = 21 |`
 
 > *Solve*
 

@@ -31,7 +31,7 @@ guided_study: true
 
 - The value of its **equilibrium constant **is also called the **partition coefficient**
 
-***K***<sub>***pc***</sub>*** = ***`fraction numerator stretchy left square bracket CH subscript 3 NH subscript 2 space open parentheses organic space solvent close parentheses stretchy right square bracket over denominator stretchy left square bracket CH subscript 3 NH subscript 2 space open parentheses aq close parentheses stretchy right square bracket end fraction`
+***K***<sub>***pc***</sub>*** = ***$\frac{[ CH_{3} NH_{2} ( \text{organic} \text{solvent} ) ]}{[ CH_{3} NH_{2} ( \text{aq} ) ]}$
 
 #### Defining the partition coefficient
 
@@ -64,7 +64,7 @@ guided_study: true
 > 
 > - **Step 2: **Write down the equilibrium expression:
 > 
-> ***K***<sub>***pc***</sub>*** = ***`fraction numerator stretchy left square bracket CH subscript 3 NH subscript 2 space open parentheses organic space solvent close parentheses stretchy right square bracket over denominator stretchy left square bracket CH subscript 3 NH subscript 2 space open parentheses aq close parentheses stretchy right square bracket end fraction`
+> ***K***<sub>***pc***</sub>*** = ***$\frac{[ CH_{3} NH_{2} ( \text{organic} \text{solvent} ) ]}{[ CH_{3} NH_{2} ( \text{aq} ) ]}$
 > 
 > - **Step 3: **Determine how many moles of CH<sub>3</sub>NH<sub>2</sub> have reacted with HCl at the end-point:
 > 

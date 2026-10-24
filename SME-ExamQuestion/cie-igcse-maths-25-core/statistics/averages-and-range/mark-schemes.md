@@ -141,7 +141,7 @@ $9.4\times5=47$
 
 > *Subtract the known values from the sum to determine the missing value*
 
-`47 minus open parentheses 3 plus 5 plus 10 plus 12 close parentheses equals 17`
+$47 - ( 3 + 5 + 10 + 12 ) = 17$
 
 **[1]**
 
@@ -177,7 +177,7 @@ $150\times3=450$
 
 > *The sum of the numbers must be equal to 450 so form an equation*
 
-`361 space plus thin space 2 n space plus thin space open parentheses n minus 1 close parentheses space equals space 450`
+$361 + 2 n + ( n - 1 ) = 450$
 
 **for 361 + 2n + n - 1**** ****[1] **
 
@@ -251,7 +251,7 @@ $2.76$* ***[1]**
 
 > *Keep crossing a number off the beginning and the end of the list to find the middle. *
 
-`up diagonal strike 78 comma space up diagonal strike 82 comma space 82 comma space 88 comma space up diagonal strike 94 comma space up diagonal strike 103`
+$\cancel{78} , \cancel{82} , 82 , 88 , \cancel{94} , \cancel{103}$
 
 > * The median is halfway between 82 and 88. *
 
@@ -265,17 +265,17 @@ $2.76$* ***[1]**
 
 > *Mean (89) = total (527 + *$x$*) *$\div$* how many pieces of data (7).*
 
-> * *`89 equals open parentheses 527 plus x close parentheses divided by 7`
+> * *$89 = ( 527 + x ) \div 7$
 
 > * Multiply both sides of the equation by 7.*
 
-`table row cell 89 cross times 7 end cell equals cell 527 plus x end cell row blank blank blank row 623 equals cell 527 plus x end cell end table`
+$\begin{gathered} 89 \times 7 & = 527 + x \\ \\ 623 = 527 + x \end{gathered}$
 
 * ***[1]**
 
 > *Subtract 527 from both sides. *
 
-`table row cell 623 minus 527 end cell equals x row blank blank blank row 96 equals x end table`
+$\begin{gathered} 623 - 527 & = x \\ \\ 96 = x \end{gathered}$
 
 ** ****96 g** **[1]**
 
@@ -321,7 +321,7 @@ iii)*The mean is the sum of all the data points, divided by the total frequency*
 
 > *The sum of all the data points is calculated by multiplying the number of examinations by their frequency, and adding these together*
 
-`open parentheses 27 cross times 5 close parentheses plus open parentheses 6 cross times 42 close parentheses plus open parentheses 7 cross times 63 close parentheses plus open parentheses 8 cross times 64 close parentheses`
+$( 27 \times 5 ) + ( 6 \times 42 ) + ( 7 \times 63 ) + ( 8 \times 64 )$
 
 **[1]  **
 
@@ -364,7 +364,7 @@ ii)*The mean is the sum of all the data points, divided by the total frequency*
 
 > *The sum of all the data points is calculated by multiplying the number on the spinner by the frequency of spins, and adding these together*
 
-`open parentheses 3 cross times 2 close parentheses plus open parentheses 2 cross times 3 close parentheses plus open parentheses 4 cross times 6 close parentheses plus open parentheses 5 cross times 4 close parentheses plus open parentheses 6 cross times 5 close parentheses`
+$( 3 \times 2 ) + ( 2 \times 3 ) + ( 4 \times 6 ) + ( 5 \times 4 ) + ( 6 \times 5 )$
 
 $=86$
 
@@ -423,7 +423,7 @@ $14,14,16,21,32,40,50$
 
 iii) *The mean of a set of data is calculated by dividing the sum of all the data values by the total number of data values*
 
-`open parentheses 0 cross times 14 close parentheses plus open parentheses 1 cross times 0 close parentheses plus open parentheses 2 cross times 2 close parentheses plus open parentheses 3 cross times 5 close parentheses plus open parentheses 4 cross times 11 close parentheses plus open parentheses 5 cross times 8 close parentheses plus open parentheses 6 cross times 10 close parentheses equals 163`**[1]**
+$( 0 \times 14 ) + ( 1 \times 0 ) + ( 2 \times 2 ) + ( 3 \times 5 ) + ( 4 \times 11 ) + ( 5 \times 8 ) + ( 6 \times 10 ) = 163$**[1]**
 
 $163\div50=3.26$
 
@@ -497,7 +497,7 @@ $8,14,14,27,32,38,47,55,73,93$
 
 > *The median is the middle number. Find it by crossing off the numbers from either end in turn. There are an even number of numbers in this case, so there will be two middle numbers.*
 
-`up diagonal strike 8 comma space up diagonal strike 14 comma space up diagonal strike 14 comma space up diagonal strike 27 comma space circle enclose 32 comma space 38 end enclose comma space up diagonal strike 47 comma space up diagonal strike 55 comma space up diagonal strike 73 comma space up diagonal strike 93`
+`/ 8 , / 14 , / 14 , / 27 , circle 32 , 38 , / 47 , / 55 , / 73 , / 93`
 
 > *The median is halfway between these numbers. Halfway between 32 and 38 is 35.*
 
@@ -517,7 +517,7 @@ $1,1,2,2,3,3,4,4,4,5,5,7$
 
 > *Find the middle number(s) by crossing out numbers from both ends*
 
-`up diagonal strike 1 comma space up diagonal strike 1 comma space up diagonal strike 2 comma space up diagonal strike 2 comma space up diagonal strike 3 comma space 3 comma space 4 comma space up diagonal strike 4 comma space up diagonal strike 4 comma space up diagonal strike 5 comma space up diagonal strike 5 comma space up diagonal strike 7`
+$\cancel{1} , \cancel{1} , \cancel{2} , \cancel{2} , \cancel{3} , 3 , 4 , \cancel{4} , \cancel{4} , \cancel{5} , \cancel{5} , \cancel{7}$
 
 > *The median is halfway between 3 and 4*
 
@@ -582,11 +582,11 @@ $14.9-7.1=7.8$
 
 > *Median = middle value. *
 
-`up diagonal strike 44 comma space up diagonal strike 51 comma space up diagonal strike 52 comma space up diagonal strike 55 comma space 77 comma space 85 comma space up diagonal strike 90 comma space up diagonal strike 103 comma space up diagonal strike 110 comma space up diagonal strike 135`
+$\cancel{44} , \cancel{51} , \cancel{52} , \cancel{55} , 77 , 85 , \cancel{90} , \cancel{103} , \cancel{110} , \cancel{135}$
 
 > *The middle value is halfway between 77 and 85. Add together the two numbers and divide by 2. *
 
-> `open parentheses 77 plus 85 close parentheses divided by 2 equals 81`* *
+> $( 77 + 85 ) \div 2 = 81$* *
 
 **81 kW**** ****[1]**
 
@@ -648,7 +648,7 @@ $\frac{120}{10}=12$
 
 > * Find the middle. *
 
-> `up diagonal strike 95 comma space up diagonal strike 175 comma space up diagonal strike 182 comma space up diagonal strike 194 comma space 200 comma space 238 comma space up diagonal strike 250 comma space up diagonal strike 256 comma space up diagonal strike 280 comma space up diagonal strike 1180`* *
+> $\cancel{95} , \cancel{175} , \cancel{182} , \cancel{194} , 200 , 238 , \cancel{250} , \cancel{256} , \cancel{280} , \cancel{1180}$* *
 
 > *Halfway between 200 and 238 is 219.  (You can find that by adding 200 and 238 together and dividing by 2.)*
 
@@ -683,7 +683,7 @@ $305$* ***[1]**
 
 > *Cross off the smallest and largest numbers to find the middle.*
 
-> * *`up diagonal strike 1 comma up diagonal strike 1 comma space up diagonal strike 1 comma space up diagonal strike 2 comma space up diagonal strike 2 comma space 2 comma space 3 comma space up diagonal strike 3 comma space up diagonal strike 3 comma space up diagonal strike 3 comma space up diagonal strike 4 comma space up diagonal strike 4`
+> * *$\cancel{1} , \cancel{1} , \cancel{1} , \cancel{2} , \cancel{2} , 2 , 3 , \cancel{3} , \cancel{3} , \cancel{3} , \cancel{4} , \cancel{4}$
 
 > * The median is halfway between 2 and 3.*
 
@@ -695,7 +695,7 @@ $305$* ***[1]**
 
 (iii) *Add up all the numbers and divide by how many there are, 12.*
 
-> * *`open parentheses 1 plus 1 plus 1 plus 2 plus 2 plus 2 plus 3 plus 3 plus 3 plus 3 plus 4 plus 4 close parentheses divided by 12 equals 2.41666...`
+> * *$( 1 + 1 + 1 + 2 + 2 + 2 + 3 + 3 + 3 + 3 + 4 + 4 ) \div 12 = 2.41666...$
 
 **[1]**
 

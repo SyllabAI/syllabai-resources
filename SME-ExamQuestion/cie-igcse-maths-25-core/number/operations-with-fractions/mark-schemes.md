@@ -8,7 +8,7 @@
 ### Q1
 > *Convert the mixed number into an improper fraction*
 
-`fraction numerator open parentheses 2 cross times 5 close parentheses plus 2 over denominator 5 end fraction equals 12 over 5`
+$\frac{( 2 \times 5 ) + 2}{5} = \frac{12}{5}$
 
 **[M1]**
 
@@ -29,7 +29,7 @@ $\frac{72}{25}$
 ### Q2
 > *Convert *$1\frac{1}{3}$* into an improper fraction by multiplying the whole number by the denominator and adding the numerator.*
 
-`table row cell 1 1 third end cell equals cell 4 over 3 end cell end table`
+$\begin{gathered} 1 1 \frac{1}{3} & = \frac{4}{3} \end{gathered}$
 
 * ***[1]**
 
@@ -306,7 +306,7 @@ $\frac{5}{16}\times\frac{8}{7}$
 
 > *The 16 and the 8 can be cancelled before multiplying to make the next step easier. Rewrite them as products of 8.*
 
-`fraction numerator 5 over denominator 8 space cross times space 2 end fraction space cross times space fraction numerator 8 space cross times space 1 over denominator 7 end fraction space equals space fraction numerator 5 over denominator up diagonal strike 8 space cross times space 2 end fraction space cross times space fraction numerator up diagonal strike 8 space cross times space 1 over denominator 7 end fraction space equals 5 over 2 space cross times 1 over 7`
+$\frac{5}{8 \times 2} \times \frac{8 \times 1}{7} = \frac{5}{ \cancel{8} \times 2} \times \frac{ \cancel{8} \times 1}{7} = \frac{5}{2} \times \frac{1}{7}$
 
 > *Multiply the numerators together and the denominators together*
 

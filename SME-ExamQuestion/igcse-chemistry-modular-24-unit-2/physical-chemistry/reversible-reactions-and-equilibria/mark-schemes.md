@@ -610,7 +610,7 @@ The mass, in kilograms, of 750 dm<sup>3</sup> of sulfur dioxide, measured at roo
 
 - *The amount, in moles, of SO*<sub>*2*</sub>* in 750 dm*<sup>*3*</sup>* is calculated by the equation:*
 
-  - *moles = *`fraction numerator volume space open parentheses dm cubed close parentheses over denominator 24 end fraction`
+  - *moles = *$\frac{volume ( dm^{3} )}{24}$
 - *The mass of SO*<sub>*2*</sub>* is calculated using the equation:*
 
   - *mass = moles x molar mass, where the molar mass is the relative formula mass in grams*

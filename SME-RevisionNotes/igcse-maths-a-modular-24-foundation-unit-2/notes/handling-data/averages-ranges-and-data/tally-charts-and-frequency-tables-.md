@@ -23,7 +23,7 @@ guided_study: true
 - Each time you count an item, draw a vertical line
 
   - Do this the **first four** times
-  - The **fifth time**, draw a **diagonal line** through the four vertical lines `up diagonal strike vertical line vertical line vertical line vertical line end strike`
+  - The **fifth time**, draw a **diagonal line** through the four vertical lines $\cancel{\vert \vert \vert \vert}$
   - Continue counting in **sets of five**
 - For example
 
@@ -31,9 +31,9 @@ guided_study: true
 
 | Colour | Tally |
 |---|---|
-| Blue | `up diagonal strike vertical line vertical line vertical line vertical line end strike` |
-| Red | `up diagonal strike vertical line vertical line vertical line vertical line end strike space space up diagonal strike vertical line vertical line vertical line vertical line end strike space space vertical line vertical line space space` |
-| Yellow | `vertical line vertical line vertical line` |
+| Blue | $\cancel{\vert \vert \vert \vert}$ |
+| Red | $\cancel{\vert \vert \vert \vert} \cancel{\vert \vert \vert \vert} \vert \vert$ |
+| Yellow | $\vert \vert \vert$ |
 
 ### What is a frequency table?
 
@@ -43,7 +43,7 @@ guided_study: true
   - Find the** totals**
   
     - Count up in 5's then add any extras
-    - `up diagonal strike vertical line vertical line vertical line vertical line end strike space up diagonal strike vertical line vertical line vertical line vertical line end strike space vertical line vertical line`means 5 + 5 + 2 = 12
+    - $\cancel{\vert \vert \vert \vert} \cancel{\vert \vert \vert \vert} \vert \vert$means 5 + 5 + 2 = 12
 - The tally chart above gives the following frequency table:
 
 | Colour | Frequency |
@@ -69,9 +69,9 @@ guided_study: true
 > 
 > | ***Type of pet*** | ***Tally*** |
 > |---|---|
-> | *Dog* | * *`up diagonal strike vertical line vertical line vertical line vertical line end strike space vertical line up diagonal strike vertical line vertical line vertical line end strike space vertical line` |
-> | *Cat* | * *`up diagonal strike vertical line vertical line vertical line vertical line end strike space space vertical line` |
-> | *Rabbit* | * *`vertical line vertical line vertical line` |
+> | *Dog* | * *$\cancel{\vert \vert \vert \vert} \vert \cancel{\vert \vert \vert} \vert$ |
+> | *Cat* | * *$\cancel{\vert \vert \vert \vert} \vert$ |
+> | *Rabbit* | * *$\vert \vert \vert$ |
 > 
 > *Then write the tally chart as a frequency table *
 > 

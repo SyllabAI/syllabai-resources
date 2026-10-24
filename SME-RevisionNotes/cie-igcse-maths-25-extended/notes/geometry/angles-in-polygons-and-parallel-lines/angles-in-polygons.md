@@ -65,12 +65,12 @@ guided_study: true
 - **Method 1**
 Find the **sum** of the **interior angles**
 
-  - For a pentagon: `180 degree cross times open parentheses 5 minus 2 close parentheses space equals space 540 degree`
+  - For a pentagon: $180^{\circ} \times ( 5 - 2 ) = 540^{\circ}$
   - **Divide** by the **number of sides** ($n$)
   
     - For a pentagon: $540^{\circ}\div5=108^{\circ}$
 - **Method 2**
-Use the **formula** `fraction numerator 180 open parentheses n minus 2 close parentheses over denominator n end fraction` which calculates the interior angle directly
+Use the **formula** $\frac{180 ( n - 2 )}{n}$ which calculates the interior angle directly
 - To find the **size of an exterior angle** in a **regular polygon**:
 
   - either divide 360° by the number of sides ($n$)
@@ -95,20 +95,20 @@ Use the **formula** `fraction numerator 180 open parentheses n minus 2 close par
 
 - To find a **missing angle** in a polygon:
 
-  - Use the formula `180 degree cross times open parentheses n minus 2 close parentheses` to work out the** sum** of the interior angles
+  - Use the formula $180^{\circ} \times ( n - 2 )$ to work out the** sum** of the interior angles
   - **Subtract** the **other interior angles** in the polygon
 
 ### How do I find the number of sides in a regular polygon?
 
 - If you are given the interior angle of a regular polygon
 
-  - set the angle equal to `fraction numerator 180 open parentheses n minus 2 close parentheses over denominator n end fraction`
+  - set the angle equal to $\frac{180 ( n - 2 )}{n}$
   - then solve the equation to find $n$
 
 > **Exam Hint**
 > Make sure you identify whether you are dealing with a **regular **or **irregular **polygon before you start a question.
 > 
-> Finding the sum of the interior angles using `180 cross times open parentheses n minus 2 close parentheses` can often be a good starting point for finding missing angles.
+> Finding the sum of the interior angles using $180 \times ( n - 2 )$ can often be a good starting point for finding missing angles.
 
 > **Worked Example**
 > The exterior angle of a regular polygon is 45°.
@@ -125,7 +125,7 @@ Use the **formula** `fraction numerator 180 open parentheses n minus 2 close par
 > 
 > > *Solve by rearranging*
 > 
-> `table row n equals cell 360 over 45 end cell row n equals 8 end table`
+> $\begin{gathered} n = \frac{360}{45} \\ n = 8 \end{gathered}$
 > 
 > > *Write down the name of a shape with 8 sides*
 > 

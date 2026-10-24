@@ -19,11 +19,11 @@ List the known quantities:
 
 State the equation converting from radians into degrees:
 
-- `space theta open parentheses r a d close parentheses space equals space theta open parentheses degrees close parentheses space cross times space open parentheses pi over 180 close parentheses space space space space rightwards double arrow space space space space theta open parentheses degrees close parentheses space equals space theta open parentheses rad close parentheses space cross times space open parentheses 180 over straight pi close parentheses`
+- `theta ( r a d ) = theta ( degrees ) x ( pi / 180 ) <-> theta ( degrees ) = theta ( rad ) x ( 180 / pi )`
 
 Substitute in the values:
 
-- `theta to the power of ring operator space equals space 0.22 space cross times space open parentheses 180 over straight pi close parentheses space equals space 12.605 to the power of ring operator` **[1 mark]**
+- `theta ^ ring operator = 0.22 x ( 180 / pi ) = 12.605 ^ ring operator` **[1 mark]**
 
 State your final answer to the appropriate number of significant figures:
 
@@ -44,9 +44,9 @@ Calculate the value of tan(*θ*°):
 
 Calculate the percentage error:
 
-- `percent sign space e r r o r space equals space fraction numerator d i f f e r e n c e space i n space v a l u e s space over denominator o r i g i n a l space v a l u e end fraction space cross times space 100 percent sign`
-- `percent sign space e r r o r space equals space fraction numerator 0.2236 space minus space 0.22 space over denominator 0.22 end fraction space cross times space 100 percent sign` ** [1 mark]**
-- `percent sign space e r r o r space equals space 1.636 space equals space 1.6 space percent sign` (2 s.f.)** [1 mark]**
+- $\% e r r o r = \frac{d i f f e r e n c e i n v a l u e s }{o r i g i n a l v a l u e} \times 100 \%$
+- $\% e r r o r = \frac{0.2236 - 0.22 }{0.22} \times 100 \%$ ** [1 mark]**
+- $\% e r r o r = 1.636 = 1.6 \%$ (2 s.f.)** [1 mark]**
 
 **[Total: 2 marks]**
 
@@ -99,7 +99,7 @@ Determine the equation for the angular speed of Europa, *ω*<sub>*e*</sub>:
 
 Substitute the values and calculate the angular speed, *ω*<sub>*e*</sub>:
 
-- `omega subscript e space equals space square root of fraction numerator open parentheses 422 space 000 space cross times space 10 cubed close parentheses cubed space cross times open parentheses 4.1 space cross times space 10 to the power of negative 5 end exponent close parentheses squared over denominator open parentheses 670 space 900 space cross times space 10 cubed close parentheses cubed end fraction end root` **[1 mark]**
+- $\omega_{e} = \sqrt{ \frac{( 422 000 \times 10^{3} )^{3} \times ( 4.1 \times 10^{- 5} )^{2}}{( 670 900 \times 10^{3} )^{3}} }$ **[1 mark]**
 - $ω_{e}=2.0\times10^{-5}\mathrm{rad}s^{-1}$ **[1 mark]**
 
 **[Total: 3 marks]**
@@ -135,7 +135,7 @@ Determine the change in radius:
 
 Calculate the radius of the moon, *r*<sub>moon</sub>:
 
-- `r subscript m o o n end subscript space equals 2 over 3 space cross times space open parentheses 422 space 000 close parentheses space equals space 281 space 333 space equals space 280 space 000 space km space`**[1 mark]**
+- $r_{m o o n} = \frac{2}{3} \times ( 422 000 ) = 281 333 = 280 000 \text{km}$**[1 mark]**
 
 **[Total: 2 marks]**
 
@@ -308,7 +308,7 @@ Calculate the angular displacement, Δ*θ*:
 
 Convert Δ*θ *from radians to degrees:
 
-- `theta open parentheses degree close parentheses equals theta open parentheses rad close parentheses cross times open parentheses 180 over straight pi close parentheses equals 0.643 cross times open parentheses 180 over straight pi close parentheses` = 36.8° = 37° **[1 mark]**
+- `theta ( deg ) = theta ( rad ) x ( 180 / pi ) = 0.643 x ( 180 / pi )` = 36.8° = 37° **[1 mark]**
 
 **[Total: 3 marks]**
 Calculate the linear speed of child B
@@ -324,7 +324,7 @@ Calculate the frequency, *f*:
 
 Calculate the linear speed, *v*:
 
-- `v space equals space omega r space equals space open parentheses 2 straight pi f close parentheses r`
+- $v = \\omega r = ( 2 \mathrm{\pi } f ) r$
 - $v=2π\times2.5\times0.70$ **[1 mark]**
 - $v=10.996=11ms^{-1}$ **[1 mark]**
 

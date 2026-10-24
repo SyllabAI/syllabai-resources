@@ -59,35 +59,35 @@ guided_study: false
 > 
 > *Find the first derivative of the function first by considering each term in turn.*
 > 
-> `table row cell fraction numerator d y over denominator d x end fraction end cell equals cell space 5 x to the power of 4 space minus space 6 x squared space plus space 14 x space plus space 9 end cell end table`* *
+> $\begin{gathered} \frac{d y}{d x} & = 5 x^{4} - 6 x^{2} + 14 x + 9 \end{gathered}$* *
 > 
 > > *Find the second derivative, *$\frac{d^{2}y}{dx^{2}}$* by differentiating each term in the first derivative.*
 > 
-> `table row cell fraction numerator bold d to the power of bold 2 bold italic y over denominator bold d bold italic x to the power of bold 2 end fraction end cell bold equals cell bold space bold 20 bold italic x to the power of bold 3 bold space bold minus bold space bold 12 bold italic x bold space bold plus bold space bold 14 end cell end table`**  **
+> $\begin{array}{ccc}\frac{ d^{ } 2 y}{ d x^{ } 2} & = & 20 x^{ } 3 - 12 x + 14\end{array}$**  **
 > 
-> (b)`table row blank row blank row blank end table` $y=\frac{3x+7}{x^{4}}$
+> (b)$\begin{gathered} \\ \\ \end{gathered}$ $y=\frac{3x+7}{x^{4}}$
 > 
 > > *To find the first derivative of the function, begin by separating the terms in the fraction.*
 > 
-> > `table row cell y space end cell equals cell space fraction numerator 3 x over denominator x to the power of 4 end fraction space plus space 7 over x to the power of 4 end cell end table`*  *
+> > $\begin{gathered} y & = \frac{3 x}{x^{4} } + \frac{7}{x^{4}} \end{gathered}$*  *
 > 
 > > *Rewrite each term using index notation so that they are in a form that can be differentiated. *
 > 
-> `table row cell y space end cell equals cell space 3 x open parentheses x to the power of negative 4 end exponent close parentheses space plus space 7 x to the power of negative 4 end exponent space equals space 3 x to the power of negative 3 end exponent space plus space 7 x to the power of negative 4 end exponent end cell end table`
+> $\begin{gathered} y & = 3 x ( x^{- 4} ) + 7 x^{- 4} = 3 x^{- 3} + 7 x^{- 4} \end{gathered}$
 > 
 > > *Find the first derivative of the function first by differentiating each term in turn.*
 > 
-> > `table row cell fraction numerator d y over denominator d x end fraction end cell equals cell space minus 9 x to the power of negative 4 end exponent space minus space 28 x to the power of negative 5 end exponent end cell end table`* *
+> > $\begin{gathered} \frac{d y}{d x} & = - 9 x^{- 4} - 28 x^{- 5} \end{gathered}$* *
 > 
 > > *Find the second derivative, *$\frac{d^{2}y}{dx^{2}}$* by differentiating each term in the first derivative.*
 > 
-> `table row cell fraction numerator d squared y over denominator d x squared end fraction end cell equals cell space minus 9 open parentheses negative 4 close parentheses x to the power of negative 5 end exponent space minus space 28 open parentheses negative 5 close parentheses x to the power of negative 6 end exponent space equals space 36 x to the power of negative 5 end exponent space plus space 140 x to the power of negative 6 end exponent end cell end table`
+> $\begin{gathered} \frac{d^{2} y}{d x^{2}} & = - 9 ( - 4 ) x^{- 5} - 28 ( - 5 ) x^{- 6} = 36 x^{- 5} + 140 x^{- 6} \end{gathered}$
 > 
 > > *You can turn the second derivative back into the same format as the original function by rewriting as a fraction.*
 > 
-> `table row cell fraction numerator d squared y over denominator d x squared end fraction end cell equals cell space 36 over x to the power of 5 plus space 140 over x to the power of 6 space equals space fraction numerator 36 x space plus space 140 over denominator x to the power of 6 end fraction end cell end table`
+> $\begin{gathered} \frac{d^{2} y}{d x^{2}} & = \frac{36}{x^{5}} + \frac{140}{x^{6}} = \frac{36 x + 140}{x^{6} } \end{gathered}$
 > 
-> `table row cell fraction numerator bold d to the power of bold 2 bold italic y over denominator bold d bold italic x to the power of bold 2 end fraction end cell bold equals cell bold space fraction numerator bold 36 bold italic x bold space bold plus bold space bold 140 over denominator bold italic x to the power of bold 6 end fraction end cell end table`
+> $\begin{array}{ccc}\frac{ d^{ } 2 y}{ d x^{ } 2} & = & \frac{ 36 x + 140}{ x^{ } 6}\end{array}$
 
 ## Stationary Points & Turning Points
 
@@ -135,11 +135,11 @@ guided_study: false
 > 
 > > *Solve *$\frac{dy}{dx}=0$
 > 
-> `table row cell 2 x space minus space 2 space end cell equals cell space 0 end cell row cell 2 x space end cell equals cell space 2 end cell row cell x space end cell equals cell space 1 end cell end table`
+> $\begin{gathered} 2 x - 2 & = 0 \\ 2 x & = 2 \\ x & = 1 \end{gathered}$
 > 
 > > *Find the corresponding *$y$*-coordinate.*
 > 
-> `table row x equals cell 1 comma space space y equals open parentheses 1 close parentheses squared space minus space 2 open parentheses 1 close parentheses space equals space minus 1 end cell end table`
+> $\begin{gathered} x = 1 , y = ( 1 )^{2} - 2 ( 1 ) = - 1 \end{gathered}$
 > 
 > > *Write the answer as a coordinate.*
 > 
@@ -193,7 +193,7 @@ guided_study: false
 > **Worked Example**
 > Find the stationary points of
 > 
-> `y equals x squared open parentheses 2 x squared minus 4 close parentheses`
+> $y = x^{2} ( 2 x^{2} - 4 )$
 > 
 > and determine the nature of each.
 > 
@@ -207,15 +207,15 @@ guided_study: false
 > 
 > *Step 2* *Solve *$\frac{dy}{dx}=0$
 > 
-> `table row cell 8 x cubed minus 8 x end cell equals 0 end table`
+> $\begin{gathered} 8 x^{3} - 8 x & = 0 \end{gathered}$
 > 
 > > *Divide through by 8*
 > 
-> `table attributes columnalign right center left columnspacing 0px end attributes row cell x cubed minus x end cell equals 0 end table`
+> $\begin{array}{rcl} x^{3} - x & = 0 \end{array}$
 > 
 > > *Fully factorise, spotting the difference of two squares*
 > 
-> `table row cell x open parentheses x squared minus 1 close parentheses end cell equals 0 row cell x open parentheses x minus 1 close parentheses open parentheses x plus 1 close parentheses end cell equals 0 end table`
+> $\begin{gathered} x ( x^{2} - 1 ) & = 0 \\ x ( x - 1 ) ( x + 1 ) & = 0 \end{gathered}$
 > 
 > > *Solve to find the *$x$*-coordinates of the stationary (turning) points*
 > 
@@ -223,7 +223,7 @@ guided_study: false
 > 
 > *Step 3* *Find the corresponding *$y$*-coordinates*
 > 
-> `table row cell x subscript 1 end cell equals cell 0 comma space space space space space space space space y subscript 1 equals open parentheses 0 close parentheses squared open parentheses 2 open parentheses 0 close parentheses squared minus 4 close parentheses equals 0 end cell row cell x subscript 2 end cell equals cell 1 comma space space space space space space space space y subscript 2 equals open parentheses 1 close parentheses squared open parentheses 2 open parentheses 1 close parentheses squared minus 4 close parentheses equals negative 2 end cell row cell x subscript 3 end cell equals cell negative 1 comma space space space space y subscript 3 equals open parentheses negative 1 close parentheses squared open parentheses 2 open parentheses negative 1 close parentheses squared minus 4 close parentheses equals negative 2 end cell end table`
+> $\begin{gathered} x_{1} & = 0 , y_{1} = ( 0 )^{2} ( 2 ( 0 )^{2} - 4 ) = 0 \\ x_{2} & = 1 , y_{2} = ( 1 )^{2} ( 2 ( 1 )^{2} - 4 ) = - 2 \\ x_{3} & = - 1 , y_{3} = ( - 1 )^{2} ( 2 ( - 1 )^{2} - 4 ) = - 2 \end{gathered}$
 > 
 > > *Write the answers as coordinates, being careful to correctly match *$x$*'s and *$y$*'s*
 > 
@@ -237,7 +237,7 @@ guided_study: false
 > 
 > > *Step 5 Evaluate the second derivative at each stationary point*
 > 
-> `table row x equals cell 0 comma fraction numerator space straight d squared y over denominator straight d x squared end fraction equals 24 open parentheses 0 close parentheses squared minus 8 equals negative 8 space space open parentheses less than 0 close parentheses end cell row x equals cell 1 comma space fraction numerator space straight d squared y over denominator straight d x squared end fraction equals 24 open parentheses 1 close parentheses squared minus 8 equals 16 space space space open parentheses greater than 0 close parentheses end cell row x equals cell negative 1 comma space fraction numerator space straight d squared y over denominator straight d x squared end fraction equals 24 open parentheses negative 1 close parentheses squared minus 8 equals 16 space open parentheses greater than 0 close parentheses end cell end table`
+> $\begin{gathered} x = 0 , \frac{ \mathrm{d}^{2} y}{ \mathrm{d} x^{2}} = 24 ( 0 )^{2} - 8 = - 8 ( < 0 ) \\ x = 1 , \frac{ \mathrm{d}^{2} y}{ \mathrm{d} x^{2}} = 24 ( 1 )^{2} - 8 = 16 ( > 0 ) \\ x = - 1 , \frac{ \mathrm{d}^{2} y}{ \mathrm{d} x^{2}} = 24 ( - 1 )^{2} - 8 = 16 ( > 0 ) \end{gathered}$
 > 
 > > *The nature of each stationary point is now determined*
 > 

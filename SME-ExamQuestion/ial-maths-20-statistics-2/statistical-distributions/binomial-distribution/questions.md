@@ -6,7 +6,7 @@
 ## Q1 — easy — 8 marks · exam-questions
 
 ### 1() — 2 marks — structured
-A random variable `X space tilde space B left parenthesis 9 comma 0.6 right parenthesis`.
+A random variable $X \sim B ( 9 , 0.6 )$.
 
 Write down the values of and  which make the following statements true:
 
@@ -15,7 +15,7 @@ Write down the values of and  which make the following statements true:
 (ii) $P(X\geq3)=1-P(X\leqb).$
 
 ### 2() — 6 marks — structured
-Use calculations of the form `open parentheses table row n row r end table close parentheses p to the power of r open parentheses 1 minus p close parentheses to the power of n minus r end exponent` with $n=9$ and $p=0.6$to find:
+Use calculations of the form $( \begin{gathered} n \\ r \end{gathered} ) p^{r ( 1 - p )^{n} - r}$ with $n=9$ and $p=0.6$to find:
 
 (i) $P(X=5)$
 
@@ -28,7 +28,7 @@ Give your answers to three significant figures.
 ## Q2 — easy — 8 marks · exam-questions
 
 ### 1() — 3 marks — structured
-A random variable `space X space tilde space B left parenthesis 25 comma 0.3 right parenthesis`.
+A random variable $X \sim B ( 25 , 0.3 )$.
 
 Calculate:
 
@@ -37,7 +37,7 @@ Calculate:
 (ii) $P(X\leq2)$
 
 ### 2() — 3 marks — structured
-A random variable `Y space tilde space B left parenthesis 25 comma 0.7 right parenthesis`.
+A random variable $Y \sim B ( 25 , 0.7 )$.
 
 Calculate:
 
@@ -55,7 +55,7 @@ By comparing your answers to part (a) and part (b), write down the values of $a$
 ## Q3 — easy — 7 marks · exam-questions
 
 ### 1() — 3 marks — structured
-A random variable `X tilde B left parenthesis 20 comma 0.15 right parenthesis`.
+A random variable $X \sim B ( 20 , 0.15 )$.
 
 (i) Write down the name of this distribution
 
@@ -88,9 +88,9 @@ Use Sunita’s calculation to find $P(X=4)$ to four decimal places.
 ### 2() — 3 marks — structured
 Mark decides to use statistical tables to determine any probabilities.
 
-(i) Explain why Mark will not be able to use the random variable `X tilde B left parenthesis 10 comma space 0.8 right parenthesis` with statistical tables.
+(i) Explain why Mark will not be able to use the random variable $X \sim B ( 10 , 0.8 )$ with statistical tables.
 
-(ii) Mark says that instead of considering the number of heads obtained he will consider the number of tails obtained, $Y$, instead.  He will use the random variable `Y tilde space B left parenthesis 10 comma space p subscript 2 right parenthesis`.  Find the value of $p_{2}$ and explain how you found it.
+(ii) Mark says that instead of considering the number of heads obtained he will consider the number of tails obtained, $Y$, instead.  He will use the random variable $Y \sim B ( 10 , p_{2} )$.  Find the value of $p_{2}$ and explain how you found it.
 
 ### 3() — 3 marks — structured
 Sunita and Mark use their methods to calculate the probability that the coin lands on heads at least 9 times.
@@ -106,7 +106,7 @@ A snowboarder is trying to perform the Poptart trick.
 
 The snowboarder has a success rate of 25% of completing the trick.
 
-The snowboarder will model the number of times they can expect to successfully complete the Poptart trick, out of their next 12 attempts, using the random variable `X tilde B left parenthesis 12 comma 0.25 right parenthesis`.
+The snowboarder will model the number of times they can expect to successfully complete the Poptart trick, out of their next 12 attempts, using the random variable $X \sim B ( 12 , 0.25 )$.
 
 (i) Give a reason why the model is suitable in this case.
 
@@ -122,7 +122,7 @@ Using the model, find the probability that the snowboarder
 ## Q6 — easy — 4 marks · exam-questions
 
 ### 1() — 4 marks — structured
-A random variable `X tilde B left parenthesis 50 comma 0.05 right parenthesis`. Use either the statistical features on your calculator or statistical tables to find:
+A random variable $X \sim B ( 50 , 0.05 )$. Use either the statistical features on your calculator or statistical tables to find:
 
 (i) $P(X=4)$
 
@@ -135,7 +135,7 @@ Give your answers to four decimal places.
 ## Q7 — easy — 4 marks · exam-questions
 
 ### 1() — 4 marks — structured
-A random variable `Y tilde B left parenthesis 25 comma 0.55 right parenthesis`. Find:
+A random variable $Y \sim B ( 25 , 0.55 )$. Find:
 
 (i) $P(Y=13)$
 
@@ -150,7 +150,7 @@ Give your answers to four decimal places.
 ### 1() — 2 marks — structured
 A company manufacturing energy-saving light bulbs claims the mean lifetime of a bulb is 8000 hours. It is known from past quality assurance procedures that the probability of any particular light bulb having a lifetime of less than 5000 hours is 0.1.
 
-A random sample of 30 light bulbs is taken. The random variable `X tilde B left parenthesis n comma space p right parenthesis` is used to model the probability that $X$ light bulbs in the sample last less than 5000 hours.
+A random sample of 30 light bulbs is taken. The random variable $X \sim B ( n , p )$ is used to model the probability that $X$ light bulbs in the sample last less than 5000 hours.
 
 (i) Write down the values of $n$ and $p$.
 
@@ -188,11 +188,11 @@ alpacas in Farmer Kate’s sample test **positive** for Tuberculosis.
 ## Q10 — easy — 4 marks · exam-questions
 
 ### 1() — 4 marks — structured
-For each of the given binomial distributions find the mean `open parentheses n p close parentheses` and the variance `open parentheses n p left parenthesis 1 minus p right parenthesis close parentheses`.
+For each of the given binomial distributions find the mean $( n p )$ and the variance $( n p ( 1 - p ) )$.
 
-(i) `X tilde B left parenthesis 50 comma 0.4 right parenthesis`
+(i) $X \sim B ( 50 , 0.4 )$
 
-(ii)`Y tilde B left parenthesis 32 comma 0.14 right parenthesis`
+(ii)$Y \sim B ( 32 , 0.14 )$
 
 ## Q11 — medium — 4 marks · exam-questions
 
@@ -252,7 +252,7 @@ contain less than 320 ml of soft drink.
 ## Q15 — medium — 4 marks · exam-questions
 
 ### 1() — 4 marks — structured
-The random variable `X tilde B left parenthesis 40 comma 0.15 right parenthesis`. Find:
+The random variable $X \sim B ( 40 , 0.15 )$. Find:
 
 (i) $P(X<10)$
 
@@ -265,7 +265,7 @@ The random variable `X tilde B left parenthesis 40 comma 0.15 right parenthesis`
 ## Q16 — medium — 5 marks · exam-questions
 
 ### 1() — 5 marks — structured
-The random variable `X tilde B left parenthesis 40 comma space 0.25 right parenthesis`.  Find:
+The random variable $X \sim B ( 40 , 0.25 )$.  Find:
 
 (i) the largest value of $k$ such that $P(X<k)<0.10$
 
@@ -276,7 +276,7 @@ The random variable `X tilde B left parenthesis 40 comma space 0.25 right parent
 ## Q17 — medium — 5 marks · exam-questions
 
 ### 1() — 5 marks — structured
-In an experiment, the number of specimens testing positive for a certain characteristic is modelled by the random variable `X tilde B left parenthesis 50 comma 0.35 right parenthesis`.  Find the probability of
+In an experiment, the number of specimens testing positive for a certain characteristic is modelled by the random variable $X \sim B ( 50 , 0.35 )$.  Find the probability of
 
 (i) fewer than 20
 
@@ -327,7 +327,7 @@ Find the probability that, during a normal five-day working week, Yussuf catches
 ## Q20 — medium — 5 marks · exam-questions
 
 ### 1() — 1 mark — structured
-The random variable `Y tilde B left parenthesis n comma 0.4 right parenthesis`.
+The random variable $Y \sim B ( n , 0.4 )$.
 
 Given that $E(Y)=12$, find the value of $n$.
 
@@ -399,7 +399,7 @@ Work out the greatest number of attendees that a meeting will be able to have un
 ## Q25 — hard — 4 marks · exam-questions
 
 ### 1() — 4 marks — structured
-The random variable `X tilde B left parenthesis 50 comma 0.3 right parenthesis`. Find:
+The random variable $X \sim B ( 50 , 0.3 )$. Find:
 
 (i) $P(X>20)$
 
@@ -412,7 +412,7 @@ The random variable `X tilde B left parenthesis 50 comma 0.3 right parenthesis`.
 ## Q26 — hard — 6 marks · exam-questions
 
 ### 1() — 6 marks — structured
-The random variable `X tilde B left parenthesis 50 comma 0.85 right parenthesis`.  Find:
+The random variable $X \sim B ( 50 , 0.85 )$.  Find:
 
 (i) the largest value of $q$ such that $P(X<q)<0.16$
 
@@ -466,7 +466,7 @@ Find the value of $k$.
 ## Q29 — hard — 8 marks · exam-questions
 
 ### 1() — 2 marks — structured
-The random variable `X tilde B left parenthesis 40 comma 0.15 right parenthesis`.
+The random variable $X \sim B ( 40 , 0.15 )$.
 
 Find:
 
@@ -482,12 +482,12 @@ Find:
 (ii) $P(X\geq3).$
 
 ### 3() — 2 marks — structured
-Find `P left parenthesis X equals 5 space vertical line space X greater or equal than 3 right parenthesis`.
+Find $P ( X = 5 \mid X \ge 3 )$.
 
 ## Q30 — hard — 5 marks · exam-questions
 
 ### 1() — 5 marks — structured
-The random variable `Y tilde B left parenthesis 5 comma p right parenthesis`.
+The random variable $Y \sim B ( 5 , p )$.
 
 (i) Find the value of $p$ when $E(Y)=3$.
 
@@ -528,9 +528,9 @@ Maifreda is rolling a biased dice, for which the probability of landing on a pri
 
 Your answer for (ii) should be given in terms of $k$, in the form
 
-`open parentheses table row a row b end table close parentheses open parentheses p over 16 close parentheses to the power of q open parentheses r over 16 close parentheses to the power of s`
+$( \begin{gathered} a \\ b \end{gathered} ) ( \frac{p}{16} )^{q} ( \frac{r}{16} )^{s}$
 
-where `open parentheses table row a row b end table close parentheses equals fraction numerator a factorial over denominator b factorial open parentheses a minus b close parentheses factorial end fraction` is a binomial coefficient, and $a,b,p,q,r\mathrm{and}s$ are constants to be found.
+where $( \begin{gathered} a \\ b \end{gathered} ) = \frac{a factorial}{b \text{factorial} ( a - b ) factorial}$ is a binomial coefficient, and $a,b,p,q,r\mathrm{and}s$ are constants to be found.
 
 ## Q34 — very_hard — 15 marks · exam-questions
 
@@ -561,7 +561,7 @@ Find the probability that the number of routines in which Zara makes a mistake i
 ## Q35 — very_hard — 3 marks · exam-questions
 
 ### 1() — 3 marks — structured
-The random variable `X tilde B left parenthesis 50 comma 0.75 right parenthesis`. Find:
+The random variable $X \sim B ( 50 , 0.75 )$. Find:
 
 (i) $P(X\leq52\mathrm{and}X>31)$
 
@@ -572,7 +572,7 @@ The random variable `X tilde B left parenthesis 50 comma 0.75 right parenthesis`
 ## Q36 — very_hard — 6 marks · exam-questions
 
 ### 1() — 6 marks — structured
-The table below contains part of the cumulative distribution function for the random variable `X tilde B left parenthesis 30 comma 0.45 right parenthesis`:
+The table below contains part of the cumulative distribution function for the random variable $X \sim B ( 30 , 0.45 )$:
 
 | $x$ | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 |
 |---|---|---|---|---|---|---|---|---|
@@ -582,7 +582,7 @@ The table below contains part of the cumulative distribution function for the ra
 |---|---|---|---|---|---|---|---|---|
 | 0.5025 | 0.6448 | 0.7691 | 0.8644 | 0.9286 | 0.9666 | 0.9862 | 0.9950 | 0.9984 |
 
-The random variable $Y$ is defined in terms of $X$ as $Y=30-X$, while the random variable `Z tilde B left parenthesis 30 comma 0.55 right parenthesis`.
+The random variable $Y$ is defined in terms of $X$ as $Y=30-X$, while the random variable $Z \sim B ( 30 , 0.55 )$.
 
 Using the table above, and showing your working, find:
 

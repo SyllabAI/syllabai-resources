@@ -221,8 +221,8 @@
       "spcpt_wt53CcTmwpZ3sjm3"
      ],
      "part_tier": "extended_only",
-     "problem_md": "A different function, `straight g open parentheses x close parentheses`, is a cubic function of the form `straight g open parentheses x close parentheses equals a x cubed plus b x squared plus c x plus d`.\n\nThe graph of `y equals straight g open parentheses x close parentheses` is translated by the vector `open parentheses table row 5 row 0 end table close parentheses`.\n\nWrite down the equation of the transformed graph in terms of $a,b,c,d$, and $x$.",
-     "solution_md": "> *The vector *`open parentheses table row 5 row 0 end table close parentheses`* means the graph has translated 5 units right*\n\n> *The transformation *$y=g(x+b)$* corresponds to a translation horizontally left by *$b$* units*\n\n> *The new equation will be *$y=g(x-5)$\n\n> *Replace all the *$x$* terms with *`open parentheses x minus 5 close parentheses`\n\n`y equals a open parentheses x minus 5 close parentheses cubed plus b open parentheses x minus 5 close parentheses squared plus c open parentheses x minus 5 close parentheses plus d`\n\n**[B1 B1]**\n\n> **[mark-scheme]**\n> **B1**: At least one $x$ term replaced with `open parentheses x minus 5 close parentheses`.\n> \n> **B1**: Fully correct answer; all $x$ terms replaced with `open parentheses x minus 5 close parentheses`.",
+     "problem_md": "A different function, $\\mathrm{g} ( x )$, is a cubic function of the form $\\mathrm{g} ( x ) = a x^{3} + b x^{2} + c x + d$.\n\nThe graph of $y = \\mathrm{g} ( x )$ is translated by the vector $( \\begin{gathered} 5 \\\\ 0 \\end{gathered} )$.\n\nWrite down the equation of the transformed graph in terms of $a,b,c,d$, and $x$.",
+     "solution_md": "> *The vector *$( \\begin{gathered} 5 \\\\ 0 \\end{gathered} )$* means the graph has translated 5 units right*\n\n> *The transformation *$y=g(x+b)$* corresponds to a translation horizontally left by *$b$* units*\n\n> *The new equation will be *$y=g(x-5)$\n\n> *Replace all the *$x$* terms with *$( x - 5 )$\n\n$y = a ( x - 5 )^{3} + b ( x - 5 )^{2} + c ( x - 5 ) + d$\n\n**[B1 B1]**\n\n> **[mark-scheme]**\n> **B1**: At least one $x$ term replaced with $( x - 5 )$.\n> \n> **B1**: Fully correct answer; all $x$ terms replaced with $( x - 5 )$.",
      "equations": [
       {
        "latex": "a,b,c,d",
@@ -292,7 +292,7 @@
       "spcpt_wt53CcTmwpZ3sjm3"
      ],
      "part_tier": null,
-     "problem_md": "The diagram shows a sketch of the graph of `space y equals straight j open parentheses x close parentheses`.\n\n![Graph of the function j(x) with x-axis from -10 to 10 and y-axis from -10 to 10, showing a curve with a minimum and a maximum.](assets/001-graph-of-the-function-j-x-with-x-axis-from-10-to.png)\n\nOn the same diagram, sketch the graph of `space y equals straight j open parentheses x plus 2 close parentheses.`",
+     "problem_md": "The diagram shows a sketch of the graph of $y = \\mathrm{j} ( x )$.\n\n![Graph of the function j(x) with x-axis from -10 to 10 and y-axis from -10 to 10, showing a curve with a minimum and a maximum.](assets/001-graph-of-the-function-j-x-with-x-axis-from-10-to.png)\n\nOn the same diagram, sketch the graph of $y = \\mathrm{j} ( x + 2 ).$",
      "solution_md": "> *A translation of the graph *$j(x)$* to the graph *$j(x+2)$* will be a movement 2 units to the left*\n\n> *Draw the graph with exactly the same shape but 2 units to the left of the original graph*\n\n![Diagram from question with another identical curve added approximately 2 units to the left of the original](assets/002-diagram-from-question-with-another-identical-cur.png)\n\n**Graph moved to the left [1]**\n**Graph moved 2 units right or left [1]**",
      "equations": [
       {
@@ -332,7 +332,7 @@
      "spec_point_ids": [],
      "part_tier": null,
      "problem_md": "The graph with equation $y=x^{2}+ax+b$  undergoes a translation of two units in the positive $x$ direction and four units in the negative $y$ direction.\n\nThe equation of the translated graph is $y=x^{2}-x-10.$\n\nFind the values of $a$ and $b$.",
-     "solution_md": "> *Method 1*\n\n> *The easiest method is to consider the translation in reverse*\n*A translation of a graph two units to the right and four units down can be reversed by translating it four units up and two units to the left *\n\n> *Consider translating  *$y=x^{2}-x-10$*  four units up and two units to the left *\n\n> *A translation of a graph *$f(x)$* four units up will be *$f(x)+4$\n\n> *Add 4 to the equation of the translated graph*\n\n`table row y equals cell x squared minus x minus 10 plus 4 end cell row blank equals cell x squared minus x minus 6 end cell end table`\n\n**[1]**\n\n> *A translation of a graph *$f(x)$* two units to the left will be *$f(x+2)$\n\n> *Replace both *$x$*'s with *$x+2$* in the new equation of the translated graph  *\n\n`y equals open parentheses x plus 2 close parentheses squared minus open parentheses x plus 2 close parentheses minus 6`\n\n**[1]**\n\n> *Expand the double brackets and simplify*\n\n`table row y equals cell open parentheses x plus 2 close parentheses open parentheses x plus 2 close parentheses minus open parentheses x plus 2 close parentheses minus 6 end cell row blank equals cell open parentheses x squared plus 2 x plus 2 x plus 4 close parentheses minus open parentheses x plus 2 close parentheses minus 6 end cell row blank equals cell x squared plus 4 x plus 4 minus open parentheses x plus 2 close parentheses minus 6 end cell row blank equals cell x squared plus 4 x minus 2 minus open parentheses x plus 2 close parentheses end cell end table`\n\n> *Expand the single brackets and simplify*\n\n`table row y equals cell x squared plus 4 x minus 2 minus x minus 2 end cell row blank equals cell x squared plus 3 x minus 4 end cell end table`\n\n> *Compare the *$x$* coefficients*\n\n$a=3$\n\n> *Compare the constant terms*\n\n$b=-4$\n\n$a=3,b=-4$** ****[1]**\n\n> *Method 2*\n\n> *A translation of a graph *$f(x)$* two units to the right will be *$f(x-2)$\n\n> *Replace both *$x$*'s with *$x-2$* in the equation of the graph *\n\n`y equals open parentheses x minus 2 close parentheses squared plus a open parentheses x minus 2 close parentheses plus b`\n\n**[1]**\n\n> *A translation of a graph *$f(x)$* four units downwards will be *$f(x)-4$\n\n> *Subtract 4 from the equation of the graph *\n\n`y equals open parentheses x minus 2 close parentheses squared plus a open parentheses x minus 2 close parentheses plus b minus 4`\n\n**[1]**\n\n> *Expand the double brackets and simplify*\n\n`table row y equals cell open parentheses x minus 2 close parentheses open parentheses x minus 2 close parentheses plus a open parentheses x minus 2 close parentheses plus b minus 4 end cell row blank equals cell open parentheses x squared minus 2 x minus 2 x plus 4 close parentheses plus a open parentheses x minus 2 close parentheses plus b minus 4 end cell row blank equals cell x squared minus 4 x plus 4 plus a open parentheses x minus 2 close parentheses plus b minus 4 end cell row blank equals cell x squared minus 4 x plus a open parentheses x minus 2 close parentheses plus b end cell end table`\n\n> *Expand the single brackets*\n\n`table row y equals cell x squared minus 4 x plus a x minus 2 a plus b end cell end table`\n\n> *Collect like terms*\n\n`y equals x squared plus open parentheses a minus 4 close parentheses x plus open parentheses b minus 2 a close parentheses`\n\n> *Compare the *$x$* coefficients*\n\n$a-4=-1$\n\n> *Solve for *$a$* *\n\n`table row a equals cell negative 1 plus 4 end cell row a equals 3 end table`\n\n> *Compare the constant terms*\n\n$b-2a=-10$\n\n> *Substitute in your value of *$a$* *\n\n`b minus 2 open parentheses 3 close parentheses equals negative 10`\n\n> *Solve for *$b$* *\n\n`table row cell b minus 6 end cell equals cell negative 10 end cell row b equals cell negative 10 plus 6 end cell end table`\n\n$a=3,b=-4$** ****[1]**",
+     "solution_md": "> *Method 1*\n\n> *The easiest method is to consider the translation in reverse*\n*A translation of a graph two units to the right and four units down can be reversed by translating it four units up and two units to the left *\n\n> *Consider translating  *$y=x^{2}-x-10$*  four units up and two units to the left *\n\n> *A translation of a graph *$f(x)$* four units up will be *$f(x)+4$\n\n> *Add 4 to the equation of the translated graph*\n\n$\\begin{gathered} y = x^{2} - x - 10 + 4 \\\\ = x^{2} - x - 6 \\end{gathered}$\n\n**[1]**\n\n> *A translation of a graph *$f(x)$* two units to the left will be *$f(x+2)$\n\n> *Replace both *$x$*'s with *$x+2$* in the new equation of the translated graph  *\n\n$y = ( x + 2 )^{2} - ( x + 2 ) - 6$\n\n**[1]**\n\n> *Expand the double brackets and simplify*\n\n$\\begin{gathered} y = ( x + 2 ) ( x + 2 ) - ( x + 2 ) - 6 \\\\ = ( x^{2} + 2 x + 2 x + 4 ) - ( x + 2 ) - 6 \\\\ = x^{2} + 4 x + 4 - ( x + 2 ) - 6 \\\\ = x^{2} + 4 x - 2 - ( x + 2 ) \\end{gathered}$\n\n> *Expand the single brackets and simplify*\n\n$\\begin{gathered} y = x^{2} + 4 x - 2 - x - 2 \\\\ = x^{2} + 3 x - 4 \\end{gathered}$\n\n> *Compare the *$x$* coefficients*\n\n$a=3$\n\n> *Compare the constant terms*\n\n$b=-4$\n\n$a=3,b=-4$** ****[1]**\n\n> *Method 2*\n\n> *A translation of a graph *$f(x)$* two units to the right will be *$f(x-2)$\n\n> *Replace both *$x$*'s with *$x-2$* in the equation of the graph *\n\n$y = ( x - 2 )^{2} + a ( x - 2 ) + b$\n\n**[1]**\n\n> *A translation of a graph *$f(x)$* four units downwards will be *$f(x)-4$\n\n> *Subtract 4 from the equation of the graph *\n\n$y = ( x - 2 )^{2} + a ( x - 2 ) + b - 4$\n\n**[1]**\n\n> *Expand the double brackets and simplify*\n\n$\\begin{gathered} y = ( x - 2 ) ( x - 2 ) + a ( x - 2 ) + b - 4 \\\\ = ( x^{2} - 2 x - 2 x + 4 ) + a ( x - 2 ) + b - 4 \\\\ = x^{2} - 4 x + 4 + a ( x - 2 ) + b - 4 \\\\ = x^{2} - 4 x + a ( x - 2 ) + b \\end{gathered}$\n\n> *Expand the single brackets*\n\n$\\begin{gathered} y = x^{2} - 4 x + a x - 2 a + b \\end{gathered}$\n\n> *Collect like terms*\n\n$y = x^{2} + ( a - 4 ) x + ( b - 2 a )$\n\n> *Compare the *$x$* coefficients*\n\n$a-4=-1$\n\n> *Solve for *$a$* *\n\n$\\begin{gathered} a = - 1 + 4 \\\\ a = 3 \\end{gathered}$\n\n> *Compare the constant terms*\n\n$b-2a=-10$\n\n> *Substitute in your value of *$a$* *\n\n$b - 2 ( 3 ) = - 10$\n\n> *Solve for *$b$* *\n\n$\\begin{gathered} b - 6 & = - 10 \\\\ b = - 10 + 6 \\end{gathered}$\n\n$a=3,b=-4$** ****[1]**",
      "equations": [
       {
        "latex": "y=x^{2}+ax+b",
@@ -512,7 +512,7 @@
       "spcpt_wt53CcTmwpZ3sjm3"
      ],
      "part_tier": null,
-     "problem_md": "A curve with equation $y=f(x)$ has one minimum point at $P(3,---4)$.\n\nWrite down the coordinates of the minimum point of the curve with the equation  `y space equals space straight f open parentheses x minus 5 close parentheses plus 6`.",
+     "problem_md": "A curve with equation $y=f(x)$ has one minimum point at $P(3,---4)$.\n\nWrite down the coordinates of the minimum point of the curve with the equation  $y = \\mathrm{f} ( x - 5 ) + 6$.",
      "solution_md": "> $y=f(x-5)+6$* represents two translations*\n\n> *Following the order of operations (BIDMAS), \"*$-5$*\" **inside** the bracket signifies a **translation** 5 units to the **right*\n*Add 5 to the *$x$*-coordinate*\n\n$x$*-coordinate: *$3+5=8$\n\n> *Next, \"*$+6$*\" **outside** the bracket signifies a **translation** 6 units **up*\n*Add** 6 to the *$y$*-coordinate*\n\n$y$*-coordinate: *$-4+6=2$\n\n$(8,2)$** [2]**\n**1 mark for each correct coordinate**",
      "equations": [
       {
@@ -593,8 +593,8 @@
       "spcpt_wt53CcTmwpZ3sjm3"
      ],
      "part_tier": null,
-     "problem_md": "**Extract:**\n\nA curve with equation y = f(x) has one minimum point at P(3, -4).\n\nWrite down an equation of the graph if the minimum point is instead translated to the point `open parentheses 0 comma space 0 close parentheses`",
-     "solution_md": "> *The minimum point has moved 3 units to the left and 4 units vertically upwards*\n\n> *The top number in the translation vector is -3*\n*The bottom number in the translation vector is 4*\n\n> $y=f(x+a)+b$* is a horizontal translation by the vector *`open parentheses table row cell negative a end cell row b end table close parentheses`\n\n`y equals straight f open parentheses x plus 3 close parentheses plus 4` **[2]**\n**1 mark for each correct value**",
+     "problem_md": "**Extract:**\n\nA curve with equation y = f(x) has one minimum point at P(3, -4).\n\nWrite down an equation of the graph if the minimum point is instead translated to the point $( 0 , 0 )$",
+     "solution_md": "> *The minimum point has moved 3 units to the left and 4 units vertically upwards*\n\n> *The top number in the translation vector is -3*\n*The bottom number in the translation vector is 4*\n\n> $y=f(x+a)+b$* is a horizontal translation by the vector *$( \\begin{gathered} - a \\\\ b \\end{gathered} )$\n\n$y = \\mathrm{f} ( x + 3 ) + 4$ **[2]**\n**1 mark for each correct value**",
      "equations": [
       {
        "latex": "y=f(x+a)+b",
@@ -631,8 +631,8 @@
       "spcpt_6bYjJ8kxTNBbcSjX"
      ],
      "part_tier": null,
-     "problem_md": "The graph of `y equals cos open parentheses x minus 35 close parentheses` for $0^{\\circ}\\leqx\\leq360^{\\circ}$ crosses the $x$-axis at two points.\n\nWrite down the coordinates of the points where this occurs.",
-     "solution_md": "> *From your knowledge of trig graphs you should know that the graph of *`y equals cos open parentheses x close parentheses`* cuts the *$x$*-axis at *$90^{\\circ}$* and *$270^{\\circ}$\n\n$y=\\mathrm{cos}(x-35)$* represents a translation of *$y=\\mathrm{cos}(x)$* in the *$x$*-axis by *$+35^{\\circ}$* *\n\n$90^{\\circ}+35^{\\circ}=125^{\\circ}\\,270^{\\circ}+35^{\\circ}=305^{\\circ}$* *\n\n**[1]**\n\n> *Write your final answers as coordinates*\n\n**    **`open parentheses 125 comma space 0 close parentheses space comma space open parentheses 305 comma space 0 close parentheses`**[1]**",
+     "problem_md": "The graph of $y = \\cos ( x - 35 )$ for $0^{\\circ}\\leqx\\leq360^{\\circ}$ crosses the $x$-axis at two points.\n\nWrite down the coordinates of the points where this occurs.",
+     "solution_md": "> *From your knowledge of trig graphs you should know that the graph of *$y = \\cos ( x )$* cuts the *$x$*-axis at *$90^{\\circ}$* and *$270^{\\circ}$\n\n$y=\\mathrm{cos}(x-35)$* represents a translation of *$y=\\mathrm{cos}(x)$* in the *$x$*-axis by *$+35^{\\circ}$* *\n\n$90^{\\circ}+35^{\\circ}=125^{\\circ}\\,270^{\\circ}+35^{\\circ}=305^{\\circ}$* *\n\n**[1]**\n\n> *Write your final answers as coordinates*\n\n**    **$( 125 , 0 ) , ( 305 , 0 )$**[1]**",
      "equations": [
       {
        "latex": "0^{\\circ}\\leqx\\leq360^{\\circ}",
@@ -714,7 +714,7 @@
      ],
      "part_tier": null,
      "problem_md": "The graph with equation $y=x^{2}+2$  undergoes a translation of 3 units to the right.\n\nShow that the equation of the translated graph simplifies to  $y=x^{2}-6x+11.$",
-     "solution_md": "> *A translation of a graph *$f(x)$* by 3 units to the right will be *$f(x-3)$\n\n> *Replace *$x$* with *$x-3$* in the equation of the graph*\n\n`y equals open parentheses x minus 3 close parentheses squared plus 2`\n\n**[1]**\n\n> *Expand the brackets*\n\n`y equals open parentheses x minus 3 close parentheses open parentheses x minus 3 close parentheses plus 2\nequals open parentheses x squared minus 3 x minus 3 x plus 9 close parentheses plus 2`\n\n> *Simplify*\n\n$y=x^{2}-6x+9+2$\n\n$y=x^{2}-6x+11$** ****[1]**",
+     "solution_md": "> *A translation of a graph *$f(x)$* by 3 units to the right will be *$f(x-3)$\n\n> *Replace *$x$* with *$x-3$* in the equation of the graph*\n\n$y = ( x - 3 )^{2} + 2$\n\n**[1]**\n\n> *Expand the brackets*\n\n$y = ( x - 3 ) ( x - 3 ) + 2\n= ( x^{2} - 3 x - 3 x + 9 ) + 2$\n\n> *Simplify*\n\n$y=x^{2}-6x+9+2$\n\n$y=x^{2}-6x+11$** ****[1]**",
      "equations": [
       {
        "latex": "y=x^{2}+2",
@@ -786,7 +786,7 @@
      ],
      "part_tier": null,
      "problem_md": "The graph with equation $y=x^{2}-4x$  undergoes a translation of one unit in the negative $x$ direction and five units in the positive $y$ direction.\n\nFind the equation of the translated graph.\nGive your answer in the form  $y=ax^{2}+bx+c.$",
-     "solution_md": "> *A translation of a graph *$f(x)$* one unit to the left will be *$f(x+1)$\n\n> *Replace both *$x$*'s with *$x+1$* in the equation of the graph *\n\n`y equals open parentheses x plus 1 close parentheses squared minus 4 open parentheses x plus 1 close parentheses`\n\n**[1]**\n\n> *A translation of a graph *$f(x)$* five units upwards will be *$f(x)+5$\n\n> *Add 5 to the equation of the graph *\n\n`y equals open parentheses x plus 1 close parentheses squared minus 4 open parentheses x plus 1 close parentheses plus 5`\n\n**[1]**\n\n> *Expand the double brackets and simplify*\n\n`table row y equals cell open parentheses x plus 1 close parentheses open parentheses x plus 1 close parentheses minus 4 open parentheses x plus 1 close parentheses plus 5 end cell row blank equals cell open parentheses x squared plus x plus x plus 1 close parentheses minus 4 open parentheses x plus 1 close parentheses plus 5 end cell row blank equals cell x squared plus 2 x plus 1 minus 4 open parentheses x plus 1 close parentheses plus 5 end cell end table`\n\n> *Expand the single brackets, be careful with the negative sign*\n\n`table row y equals cell x squared plus 2 x plus 1 minus 4 x minus 4 plus 5 end cell end table`\n\n> *Simplify by collecting like terms*\n\n$y=x^{2}-2x+2$\n\n$y=x^{2}-2x+2$** ****[1]**",
+     "solution_md": "> *A translation of a graph *$f(x)$* one unit to the left will be *$f(x+1)$\n\n> *Replace both *$x$*'s with *$x+1$* in the equation of the graph *\n\n$y = ( x + 1 )^{2} - 4 ( x + 1 )$\n\n**[1]**\n\n> *A translation of a graph *$f(x)$* five units upwards will be *$f(x)+5$\n\n> *Add 5 to the equation of the graph *\n\n$y = ( x + 1 )^{2} - 4 ( x + 1 ) + 5$\n\n**[1]**\n\n> *Expand the double brackets and simplify*\n\n$\\begin{gathered} y = ( x + 1 ) ( x + 1 ) - 4 ( x + 1 ) + 5 \\\\ = ( x^{2} + x + x + 1 ) - 4 ( x + 1 ) + 5 \\\\ = x^{2} + 2 x + 1 - 4 ( x + 1 ) + 5 \\end{gathered}$\n\n> *Expand the single brackets, be careful with the negative sign*\n\n$\\begin{gathered} y = x^{2} + 2 x + 1 - 4 x - 4 + 5 \\end{gathered}$\n\n> *Simplify by collecting like terms*\n\n$y=x^{2}-2x+2$\n\n$y=x^{2}-2x+2$** ****[1]**",
      "equations": [
       {
        "latex": "y=x^{2}-4x",
@@ -877,7 +877,7 @@
      ],
      "part_tier": null,
      "problem_md": "![Graph of a parabola opening upwards, labelled \"y = f(x)\", crossing the y-axis at 0, and an identical parabola below it with the same point crossing the y axis at -5, on an xy coordinate plane.](assets/003-graph-of-a-parabola-opening-upwards-labelled-y-f.png)\n\nA curve with equation $y=f(x)$ is translated so that the point at $(0,0)$ is mapped to the point $(0,-5)$.\n\nFind the equation of the translated curve.",
-     "solution_md": "> *The point has moved 5 units vertically downwards, so the translation is -5 units in the *$y$* direction*\n\n`y equals straight f open parentheses x close parentheses minus 5` **[1]**",
+     "solution_md": "> *The point has moved 5 units vertically downwards, so the translation is -5 units in the *$y$* direction*\n\n$y = \\mathrm{f} ( x ) - 5$ **[1]**",
      "equations": [
       {
        "latex": "y=f(x)",
@@ -927,8 +927,8 @@
       "spcpt_wt53CcTmwpZ3sjm3"
      ],
      "part_tier": null,
-     "problem_md": "`open parentheses 7 comma space 13 close parentheses` is a point on the graph  `y equals straight f open parentheses x close parentheses`.\n\nWrite down the coordinates of a point which must be on the graph of  `y equals straight f open parentheses x close parentheses minus 2`.",
-     "solution_md": "> *A transformation in the form *`y equals straight f open parentheses x close parentheses plus a`* represents a translation of *$a$* units up the ** *$y$*-axis*\n\n> *This is a translation by 2 units vertically downwards on the *$y$*-axis*\n\n> *The *$x$*-coordinates will stay the same but the *$y$*-coordinates will decrease by 2 units*\n\n`table row cell 7 plus 0 end cell equals 7 row cell 13 minus 2 end cell equals 11 end table`\n\n`open parentheses 7 comma space 11 close parentheses`** ****[1]**",
+     "problem_md": "$( 7 , 13 )$ is a point on the graph  $y = \\mathrm{f} ( x )$.\n\nWrite down the coordinates of a point which must be on the graph of  $y = \\mathrm{f} ( x ) - 2$.",
+     "solution_md": "> *A transformation in the form *$y = \\mathrm{f} ( x ) + a$* represents a translation of *$a$* units up the ** *$y$*-axis*\n\n> *This is a translation by 2 units vertically downwards on the *$y$*-axis*\n\n> *The *$x$*-coordinates will stay the same but the *$y$*-coordinates will decrease by 2 units*\n\n$\\begin{gathered} 7 + 0 & = 7 \\\\ 13 - 2 & = 11 \\end{gathered}$\n\n$( 7 , 11 )$** ****[1]**",
      "equations": [
       {
        "latex": "a",
@@ -983,8 +983,8 @@
       "spcpt_wt53CcTmwpZ3sjm3"
      ],
      "part_tier": null,
-     "problem_md": "![Graph of a quadratic function y=f(x) with vertex at (3, -4). Axes are labelled x and y.](assets/004-graph-of-a-quadratic-function-y-f-x-with-vertex-.png)\n\nThe diagram shows part of the curve with equation  `y equals straight f open parentheses x close parentheses`.\nThe coordinates of the minimum point of this curve are `open parentheses 3 comma negative 4 close parentheses`\n\nWrite down the coordinates of the minimum point of each of the curves below:\n\n(i)   `y equals straight f open parentheses x close parentheses plus 3`\n\n[1]\n\n(ii)  `y equals straight f open parentheses x plus 2 close parentheses`\n\n[1]",
-     "solution_md": "(i)  `straight f open parentheses x close parentheses plus 3`* represents a translation of 3 units vertically upwards*\n\n> *The *$x$*-coordinate of every point will stay the same but the *$y$*-coordinate will increase by 3*\n\n`table row cell negative 4 plus 3 end cell equals cell negative 1 end cell end table`\n\n`open parentheses 3 comma negative 1 close parentheses`** ****[1]**\n\n(ii)  `straight f open parentheses x plus 2 close parentheses`* represents a translation of 2 units to the left*\n\n> *The *$x$*-coordinate of every point will  decrease by 2 but the *$y$*-coordinate will stay the same*\n\n`table row cell 3 minus 2 end cell equals 1 end table`\n\n`open parentheses 1 comma negative 4 close parentheses`** ****[1]**",
+     "problem_md": "![Graph of a quadratic function y=f(x) with vertex at (3, -4). Axes are labelled x and y.](assets/004-graph-of-a-quadratic-function-y-f-x-with-vertex-.png)\n\nThe diagram shows part of the curve with equation  $y = \\mathrm{f} ( x )$.\nThe coordinates of the minimum point of this curve are $( 3 , - 4 )$\n\nWrite down the coordinates of the minimum point of each of the curves below:\n\n(i)   $y = \\mathrm{f} ( x ) + 3$\n\n[1]\n\n(ii)  $y = \\mathrm{f} ( x + 2 )$\n\n[1]",
+     "solution_md": "(i)  $\\mathrm{f} ( x ) + 3$* represents a translation of 3 units vertically upwards*\n\n> *The *$x$*-coordinate of every point will stay the same but the *$y$*-coordinate will increase by 3*\n\n$\\begin{gathered} - 4 + 3 & = - 1 \\end{gathered}$\n\n$( 3 , - 1 )$** ****[1]**\n\n(ii)  $\\mathrm{f} ( x + 2 )$* represents a translation of 2 units to the left*\n\n> *The *$x$*-coordinate of every point will  decrease by 2 but the *$y$*-coordinate will stay the same*\n\n$\\begin{gathered} 3 - 2 & = 1 \\end{gathered}$\n\n$( 1 , - 4 )$** ****[1]**",
      "equations": [
       {
        "latex": "x",
@@ -1035,7 +1035,7 @@
      ],
      "part_tier": null,
      "problem_md": "A curve with equation$y=f(x)$is translated so that the point at $(0,0)$ is mapped onto the point $(4,0)$.\n\n(i)    Find the translation vector.\n\n[1]\n\n(ii)   Find the equation of the translated curve.\n\n[1]",
-     "solution_md": "(i)   *The point has moved 4 units to the right, so the whole curve has translated 4 units in the positive *$x$* direction*\n\n> *The top number in the translation vector is 4*\n\n> *The curve has not moved up or down so the bottom number in the translation vector is 0*\n\n`open parentheses 4\n0 close parentheses`** ****[1]**\n\n(ii)  * *$y=f(x-a)$* is a horizontal translation by the vector *`open parentheses table row a row 0 end table close parentheses`\n\n`y equals straight f open parentheses x minus 4 close parentheses` **[1]**",
+     "solution_md": "(i)   *The point has moved 4 units to the right, so the whole curve has translated 4 units in the positive *$x$* direction*\n\n> *The top number in the translation vector is 4*\n\n> *The curve has not moved up or down so the bottom number in the translation vector is 0*\n\n$( 4\n0 )$** ****[1]**\n\n(ii)  * *$y=f(x-a)$* is a horizontal translation by the vector *$( \\begin{gathered} a \\\\ 0 \\end{gathered} )$\n\n$y = \\mathrm{f} ( x - 4 )$ **[1]**",
      "equations": [
       {
        "latex": "y=f(x)",
@@ -1091,7 +1091,7 @@
      ],
      "part_tier": null,
      "problem_md": "$P$ is the point $(-3,6)$.\n$Q$ is the point $(0,2)$.\n\nFind the translation vector that maps the point $P$ onto the point $Q$.",
-     "solution_md": "> *A translation vector *`open parentheses a\nb close parentheses`* moves a point *$a$* units in the *$x$* direction and *$b$* units in the *$y$* direction*\n\n> *The *$x$*-coordinate changes from *$-3$* to *$0$* so it moves *$3$* units to the right, or *$3$* units in the *$x$* direction*\n\n> *The *$y$*-coordinate changes from *$6$* to *$2$* so it moves *$4$* units downwards, or *$-4$* units in the *$y$* direction*\n\n`open parentheses space space space space 3\nminus 4 close parentheses`\n**1 mark for each [2]**",
+     "solution_md": "> *A translation vector *$( a\nb )$* moves a point *$a$* units in the *$x$* direction and *$b$* units in the *$y$* direction*\n\n> *The *$x$*-coordinate changes from *$-3$* to *$0$* so it moves *$3$* units to the right, or *$3$* units in the *$x$* direction*\n\n> *The *$y$*-coordinate changes from *$6$* to *$2$* so it moves *$4$* units downwards, or *$-4$* units in the *$y$* direction*\n\n$( 3\n- 4 )$\n**1 mark for each [2]**",
      "equations": [
       {
        "latex": "P",
@@ -1232,8 +1232,8 @@
       "spcpt_v6tP4DSVShVJMJhk"
      ],
      "part_tier": null,
-     "problem_md": "$F$  is the point $(5,7)$. \nThe vector that maps $F$ onto the point $G$ is `open parentheses negative 1\nspace space space 3 close parentheses`.\n\nFind the coordinates of $G$.\n\n(...................... , ......................)",
-     "solution_md": "> *A translation vector *`open parentheses a\nb close parentheses`* moves a point *$a$* units in the *$x$* direction and *$b$* units in the *$y$* direction*\n\n> *The *$x$*-coordinate starts at *$5$* and moves *$-1$* units in the *$x$* direction, which is *$1$* unit to the left*\n\n$5-1=4$\n\n> *The *$y$*-coordinate starts at *$7$* and moves *$3$* units in the *$y$* direction, which is *$3$* units upwards*\n\n$7+3=10$\n\n`open parentheses 4 comma space 10 close parentheses`** ****[1]**",
+     "problem_md": "$F$  is the point $(5,7)$. \nThe vector that maps $F$ onto the point $G$ is $( - 1\n 3 )$.\n\nFind the coordinates of $G$.\n\n(...................... , ......................)",
+     "solution_md": "> *A translation vector *$( a\nb )$* moves a point *$a$* units in the *$x$* direction and *$b$* units in the *$y$* direction*\n\n> *The *$x$*-coordinate starts at *$5$* and moves *$-1$* units in the *$x$* direction, which is *$1$* unit to the left*\n\n$5-1=4$\n\n> *The *$y$*-coordinate starts at *$7$* and moves *$3$* units in the *$y$* direction, which is *$3$* units upwards*\n\n$7+3=10$\n\n$( 4 , 10 )$** ****[1]**",
      "equations": [
       {
        "latex": "F",
@@ -1370,7 +1370,7 @@
      ],
      "part_tier": null,
      "problem_md": "Find the vector that translates the point $(1,5)$ to the point $(-1,7).$",
-     "solution_md": "> *A translation vector *`open parentheses a\nb close parentheses`* moves a point *$a$* units in the *$x$* direction and *$b$* units in the *$y$* direction*\n\n> *The *$x$*-coordinate changes from *$1$* to *$-1$* so it moves *$2$* units to the left, or *$-2$* units in the *$x$* direction*\n\n> *The *$y$*-coordinate changes from *$5$* to *$7$* so it moves *$2$* units upwards, or *$2$* units in the *$y$* direction*\n\n`open parentheses negative 2\nspace space space 2 close parentheses`\n**1 mark for each [2]**",
+     "solution_md": "> *A translation vector *$( a\nb )$* moves a point *$a$* units in the *$x$* direction and *$b$* units in the *$y$* direction*\n\n> *The *$x$*-coordinate changes from *$1$* to *$-1$* so it moves *$2$* units to the left, or *$-2$* units in the *$x$* direction*\n\n> *The *$y$*-coordinate changes from *$5$* to *$7$* so it moves *$2$* units upwards, or *$2$* units in the *$y$* direction*\n\n$( - 2\n 2 )$\n**1 mark for each [2]**",
      "equations": [
       {
        "latex": "(1,5)",

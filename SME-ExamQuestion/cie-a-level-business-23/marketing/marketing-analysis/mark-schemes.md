@@ -237,29 +237,27 @@ Income elasticity of demand measures how responsive the quantity demanded of a p
 ### Q9
 **\$345,600**** [3]**
 
-`Promotional space elasticity space of space demand space equals space fraction numerator percent sign space change space in space quantity space demanded over denominator percent sign space change space in space promotional space spending end fraction`
+$Promotional \text{elasticity} of \text{demand} = \frac{ \% \text{change} in \text{quantity} demanded}{ \% \text{change} in \text{promotional} spending}$
 
 **% change in promotional spending**
 
-`equals space fraction numerator 195 comma 000 space minus space 150 comma 000 over denominator 150 comma 000 end fraction space cross times space 100 space
+$= \frac{195 , 000 - 150 , 000}{150 , 000} \times 100 
 
-equals space space space fraction numerator 45 comma 000 over denominator 150 comma 000 end fraction space space cross times space space 100 space
+= \frac{45 , 000}{150 , 000} \times 100 
 
-equals space 30 percent sign`
+= 30 \%$
 
 **% change in quantity demanded**
 
-`percent sign space change space in space quantity space demanded space equals space PrED space cross times space percent sign space change space in space promotional space spending space
-
-equals space 0.2 space cross times space space 30 percent sign space equals space 6 percent sign`
+$\% \text{change} in \text{quantity} \text{demanded} = PrED \times \% \text{change} in \text{promotional} \text{spending} = 0.2 \times 30 \% = 6 \%$
 
 Increase in revenue
 
-`equals space 6 percent sign space cross times space $ 5.76 straight m
+$= 6 \% \times \$ 5.76 \mathrm{m} 
 
-equals space 0.06 space cross times space $ 5.76 straight m space space space
+= 0.06 \times \$ 5.76 \mathrm{m} 
 
-equals space $ 345 comma 600`
+= \$ 345 , 600$
 
 > **[mark-scheme]**
 > - Up to 2 marks for valid workings
@@ -369,13 +367,13 @@ Overall, following the product development process is very important for FF, pre
 ### Q12
 **40%** **[3]**
 
-`PED space equals fraction numerator space percent sign space change space in space demand over denominator space percent sign space change space in space price end fraction`
+$\text{PED} = \frac{ \% \text{change} \text{in} demand}{ \% \text{change} \text{in} price}$
 
-Rearranged to `percent sign space change space in space demand space equals space PED space cross times space percent sign space change space in space price`
+Rearranged to $\% \text{change} in \text{demand} = PED \times \% \text{change} in \text{price}$
 
-`equals space – 4 space cross times space minus 10 percent sign
+$= - 4 \times - 10 \%
 
-equals space 40 percent sign`
+= 40 \%$
 
 > **[mark-scheme]**
 > - Up to 2 marks for valid workings
@@ -386,7 +384,7 @@ equals space 40 percent sign`
 ### Q13
 **0.4**** [2]**
 
-`XED space equals space space fraction numerator percent sign space change space in space quantity space demanded space of space Good space straight A over denominator percent sign space change space in space price space of space Good space straight B space end fraction`
+$XED = \frac{ \% \text{change} in \text{quantity} \text{demanded} of Good \mathrm{A} }{ \% \text{change} in \text{price} of Good \mathrm{B} }$
 
 $=\frac{-8}{-20}=0.4$
 
@@ -399,9 +397,9 @@ $=\frac{-8}{-20}=0.4$
 ### Q14
 **-0.8**** [3]**
 
-`PED space equals space fraction numerator percent sign space change space in space quantity space demanded over denominator percent sign space space change space in space price end fraction`
+$\text{PED} = \frac{\% \text{change} \text{in} \text{quantity} demanded}{\% \text{change} \text{in} price}$
 
-`equals space fraction numerator negative 40 percent sign over denominator plus 50 percent sign end fraction space equals space minus 0.8`
+$= \frac{- 40 \%}{+ 50 \%} = - 0.8$
 
 > **[mark-scheme]**
 > - Up to 2 marks for valid workings
@@ -420,7 +418,7 @@ Price elasticity of demand is a measure of how much the quantity demanded of a p
 > **Indicative content**
 > 
 > - Price elasticity of demand (PED) measures the degree of responsiveness of demand to a change in the price of the product/service
-> - `PED equals fraction numerator percent sign space change space in space quantity space of space demand space for space straight a space product over denominator percent sign space change space in space price space of space the space product end fraction`
+> - `PED = (% change in quantity of demand for a product)/(% change in price of the product)`
 
 ### Q16
 Price elasticity of demand (PED) measures how sensitive the quantity demanded of a product is to a change in its price **[1]**. If a business knows that demand for its product is price elastic, it can use this information to decide to lower its price, knowing that the percentage increase in the quantity demanded will be greater than the percentage fall in price  **[1]**. This means that total revenue will rise as a result of the price reduction  **[1]**
@@ -449,19 +447,19 @@ Price elasticity of demand (PED) measures how sensitive the quantity demanded of
 ### Q17
 **0.25** **[3]**
 
-`Promotional space elasticity space of space demand space equals space fraction numerator percent sign space Change space in space demand over denominator percent sign space Change space in space promotional space spending end fraction`
+$Promotional \text{elasticity} of \text{demand} = \frac{ \% Change in demand}{ \% Change in \text{promotional} spending}$
 
 **% change in promotional spending**
 
 - Promotional spending increases by \$0.5m, from a current level of \$1.25m (\$1.75m − \$0.5m) to \$1.75m
 
-`percent sign space change space in space promotional space spending space equals space fraction numerator 0.5 over denominator 1.25 end fraction space cross times space 100 space
+$\% \text{change} \text{in} \text{promotional} \text{spending} = \frac{0.5}{1.25} \times 100 
 
-equals space 40 percent sign`
+= 40 \%$
 
 **Promotional elasticity of demand**
 
-`equals space fraction numerator 10 percent sign over denominator 40 percent sign end fraction space equals space 0.25`
+$= \frac{10 \%}{40 \%} = 0.25$
 
 > **[mark-scheme]**
 > - Up to 2 marks for valid workings

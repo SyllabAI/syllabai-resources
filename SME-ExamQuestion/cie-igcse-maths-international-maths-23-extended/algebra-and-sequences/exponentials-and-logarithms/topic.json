@@ -170,8 +170,8 @@
       "spcpt_6RvsM8sgsQBvtjGP"
      ],
      "part_tier": "extended_only",
-     "problem_md": "Find the value of $x$.\n\n`log subscript 3 open parentheses 4 x plus 1 close parentheses equals 4`",
-     "solution_md": "> *Use the relationship that *$\\mathrm{log}_{a}y=x$* can be rewritten as *$a^{x}=y$\n\n`table row cell log subscript 3 open parentheses 4 x plus 1 close parentheses end cell equals 4 row cell 3 to the power of 4 end cell equals cell 4 x plus 1 end cell end table`\n\n**[M1]**\n\n> *Solve for *$x$\n\n`table row 81 equals cell 4 x plus 1 end cell row 80 equals cell 4 x end cell row cell 80 over 4 end cell equals x end table`\n\n$x=20$\n\n**[A1]**\n\n> **[mark-scheme]**\n> **M1**: Reaching the line `table row cell 3 to the power of 4 end cell equals cell 4 x plus 1 end cell end table` or equivalent.\n> \n> **A1**: Correct final answer.",
+     "problem_md": "Find the value of $x$.\n\n$log_{3} ( 4 x + 1 ) = 4$",
+     "solution_md": "> *Use the relationship that *$\\mathrm{log}_{a}y=x$* can be rewritten as *$a^{x}=y$\n\n$\\begin{gathered} log_{3} ( 4 x + 1 ) & = 4 \\\\ 3^{4} & = 4 x + 1 \\end{gathered}$\n\n**[M1]**\n\n> *Solve for *$x$\n\n$\\begin{gathered} 81 = 4 x + 1 \\\\ 80 = 4 x \\\\ \\frac{80}{4} & = x \\end{gathered}$\n\n$x=20$\n\n**[A1]**\n\n> **[mark-scheme]**\n> **M1**: Reaching the line $\\begin{gathered} 3^{4} & = 4 x + 1 \\end{gathered}$ or equivalent.\n> \n> **A1**: Correct final answer.",
      "equations": [
       {
        "latex": "x",
@@ -354,7 +354,7 @@
      ],
      "part_tier": null,
      "problem_md": "**Extract:**\n\nThe population, P, at the end of n years is given by the formula P = 200 × 2^n\n\nFind the exact time the population becomes 200 000.\n\nGive your answer in the form $n=\\frac{\\mathrm{log}b}{\\mathrm{log}a}$.",
-     "solution_md": "> *Solve *$200\\times2^{n}=200000$* by first dividing both sides by 200*\n\n$2^{n}=\\frac{200000}{200}=1000$* *\n\n**[1]**\n\n> *Rewrite using the definition of logarithms *\n*If *$a^{x}=b$* then *`log subscript a open parentheses b close parentheses equals x`\n\n`n equals log subscript 2 open parentheses 1000 close parentheses`\n\n**[1]**\n\n> *Rewrite by changing the base into base 10 as follows:*\n*If  *`x equals log subscript a open parentheses b close parentheses`* then *$x=\\frac{\\mathrm{log}b}{\\mathrm{log}a}$\n\n`log subscript 2 open parentheses 1000 close parentheses equals fraction numerator log space 1000 over denominator log space 2 end fraction`\n\n$n=\\frac{\\mathrm{log}1000}{\\mathrm{log}2}$** [1]**",
+     "solution_md": "> *Solve *$200\\times2^{n}=200000$* by first dividing both sides by 200*\n\n$2^{n}=\\frac{200000}{200}=1000$* *\n\n**[1]**\n\n> *Rewrite using the definition of logarithms *\n*If *$a^{x}=b$* then *$log_{a} ( b ) = x$\n\n$n = log_{2} ( 1000 )$\n\n**[1]**\n\n> *Rewrite by changing the base into base 10 as follows:*\n*If  *$x = log_{a} ( b )$* then *$x=\\frac{\\mathrm{log}b}{\\mathrm{log}a}$\n\n$log_{2} ( 1000 ) = \\frac{\\log 1000}{\\log 2}$\n\n$n=\\frac{\\mathrm{log}1000}{\\mathrm{log}2}$** [1]**",
      "equations": [
       {
        "latex": "n=\\frac{\\mathrm{log}b}{\\mathrm{log}a}",
@@ -413,7 +413,7 @@
      "spec_point_ids": [],
      "part_tier": null,
      "problem_md": "A small tree is initially 2 metres tall.\nEach year, the height of the tree increases by 20%.\n\nThe height, $H$ metres, of the tree at the end of $n$ years is given by the formula:\n\n$H=A\\timesb^{n}$\n\n(i) Write down the value of $A$and $b$.\n\n[2]\n\n(ii) Find the exact time it takes for the tree to reach a height of 5 metres.\n\nGive your answer in the form $n=\\mathrm{log}_{b}a$.\n\n[2]",
-     "solution_md": "(i) *The value of *$A$*is equal to the initial height*\n\n$A=2$** [1]**\n\n> *20% is the same as 0.2 *\n\n> *Increasing by 20% is the same as multiplying by 1.2 as *$1+0.2=1.2$\n\n$b=1.2$** [1]**\n\n(ii) *Solve  *`2 cross times open parentheses 1.2 close parentheses to the power of n equals 5`*  by first dividing both sides by *$2$\n\n$1.2^{n}=\\frac{5}{2}\\,1.2^{n}=2.5$* *\n\n**[1]**\n\n> *Rewrite using the definition of logarithms*\n*If *$a^{x}=b$* then *`log subscript a open parentheses b close parentheses equals x`\n\n`n equals log subscript 1.2 end subscript open parentheses 2.5 close parentheses`** [1]**",
+     "solution_md": "(i) *The value of *$A$*is equal to the initial height*\n\n$A=2$** [1]**\n\n> *20% is the same as 0.2 *\n\n> *Increasing by 20% is the same as multiplying by 1.2 as *$1+0.2=1.2$\n\n$b=1.2$** [1]**\n\n(ii) *Solve  *$2 \\times ( 1.2 )^{n} = 5$*  by first dividing both sides by *$2$\n\n$1.2^{n}=\\frac{5}{2}\\,1.2^{n}=2.5$* *\n\n**[1]**\n\n> *Rewrite using the definition of logarithms*\n*If *$a^{x}=b$* then *$log_{a} ( b ) = x$\n\n$n = log_{1.2} ( 2.5 )$** [1]**",
      "equations": [
       {
        "latex": "H",
@@ -510,7 +510,7 @@
      ],
      "part_tier": null,
      "problem_md": "The population of a village is 1000 people.\n\nEach year, the population decreases by 10%.\n\nThe population at the end of $n$ years is given by the formula\n\n$P=1000\\timesa^{n}$\n\n(i)  Write down the value of $a$.\n\n[1]\n\n(ii)  Find the exact time the population reaches 800.\nGive your answer in an exact logarithm form.\n\n[3]",
-     "solution_md": "(i) *10% is the same as 0.1 *\n\n> *Decreasing by 10% is the same as multiplying by 0.9 as *$1-0.1=0.9$\n\n$a=0.9$** [1]**\n\n(ii) *Solve  *`1000 cross times open parentheses 0.9 close parentheses to the power of n equals 800`*  by first dividing both sides by *$1000$\n\n$0.9^{n}=\\frac{800}{1000}=0.8$* *\n\n**[1]**\n\n> *Rewrite using the definition of logarithms*\n*If *$a^{x}=b$* then *`log subscript a open parentheses b close parentheses equals x`\n\n`log subscript 0.9 end subscript open parentheses 0.8 close parentheses equals n`\n\n**log of base 0.9 [1]**\n\n`log subscript 0.9 end subscript open parentheses 0.8 close parentheses`** [1]**\n\n$n=\\frac{\\mathrm{log}0.8}{\\mathrm{log}0.9}$** also accepted (using logs of base 10)**",
+     "solution_md": "(i) *10% is the same as 0.1 *\n\n> *Decreasing by 10% is the same as multiplying by 0.9 as *$1-0.1=0.9$\n\n$a=0.9$** [1]**\n\n(ii) *Solve  *$1000 \\times ( 0.9 )^{n} = 800$*  by first dividing both sides by *$1000$\n\n$0.9^{n}=\\frac{800}{1000}=0.8$* *\n\n**[1]**\n\n> *Rewrite using the definition of logarithms*\n*If *$a^{x}=b$* then *$log_{a} ( b ) = x$\n\n$log_{0.9} ( 0.8 ) = n$\n\n**log of base 0.9 [1]**\n\n$log_{0.9} ( 0.8 )$** [1]**\n\n$n=\\frac{\\mathrm{log}0.8}{\\mathrm{log}0.9}$** also accepted (using logs of base 10)**",
      "equations": [
       {
        "latex": "n",
@@ -586,7 +586,7 @@
      ],
      "part_tier": null,
      "problem_md": "Solve.\n\n$\\mathrm{log}2x=5$\n\n$x=$..............",
-     "solution_md": "> *If *`log subscript a open parentheses b close parentheses equals x`* then  *$a^{x}=b$\n\n> *If no base is shown then use log to the base ten*\n\n`table row cell log subscript 10 open parentheses 2 x close parentheses end cell equals 5 row a equals 10 row b equals cell 2 x end cell row blank blank blank row cell 2 x end cell equals cell 10 to the power of 5 end cell end table`\n\n**[1]**\n\n> *Rearrange to find *$x$\n\n$x=\\frac{10^{5}}{2}=\\frac{100000}{2}$* *\n\n$x=50000$**[1]**",
+     "solution_md": "> *If *$log_{a} ( b ) = x$* then  *$a^{x}=b$\n\n> *If no base is shown then use log to the base ten*\n\n$\\begin{gathered} log_{10} ( 2 x ) & = 5 \\\\ a = 10 \\\\ b = 2 x \\\\ \\\\ 2 x & = 10^{5} \\end{gathered}$\n\n**[1]**\n\n> *Rearrange to find *$x$\n\n$x=\\frac{10^{5}}{2}=\\frac{100000}{2}$* *\n\n$x=50000$**[1]**",
      "equations": [
       {
        "latex": "\\mathrm{log}2x=5",
@@ -647,7 +647,7 @@
      ],
      "part_tier": null,
      "problem_md": "$y=10^{x}$\n\nWrite $x$ in terms of $y$.\n\n$x=$......................",
-     "solution_md": "> *If *$a^{x}=b$* then *`log subscript a open parentheses b close parentheses equals x`\n\n$a=10$\n\n> *There is no need to write the base of ten, however doing so will not lose the mark*\n\n$x=\\mathrm{log}y$ **[1]**\n$x=\\mathrm{log}_{10}y$** also accepted**",
+     "solution_md": "> *If *$a^{x}=b$* then *$log_{a} ( b ) = x$\n\n$a=10$\n\n> *There is no need to write the base of ten, however doing so will not lose the mark*\n\n$x=\\mathrm{log}y$ **[1]**\n$x=\\mathrm{log}_{10}y$** also accepted**",
      "equations": [
       {
        "latex": "y=10^{x}",
@@ -718,8 +718,8 @@
       "spcpt_6RvsM8sgsQBvtjGP"
      ],
      "part_tier": null,
-     "problem_md": "Find the value of  `log subscript 3 open parentheses fourth root of 1 over 9 end root close parentheses`",
-     "solution_md": "> *Rewrite using the definition of logarithms: If *`log subscript a open parentheses b close parentheses equals x`* then *$a^{x}=b$\n\n`3 to the power of x equals fourth root of 1 over 9 end root`\n\n**[1]**\n\n> *Rewrite *`fourth root of 1 over 9 end root`* as a power*\n\n`3 to the power of x equals open parentheses 1 over 9 close parentheses to the power of 1 fourth end exponent`\n\n> *Rewrite 9 as a power of 3*\n\n`3 to the power of x equals open parentheses 1 over 3 squared close parentheses to the power of 1 fourth end exponent`\n\n> *Rewrite *$\\frac{1}{3^{2}}$* using the law of negative indices*\n\n`3 to the power of x equals open parentheses 3 to the power of negative 2 end exponent close parentheses to the power of 1 fourth end exponent`\n\n**[1]**\n\n> *Rewrite *`open parentheses 3 to the power of negative 2 end exponent close parentheses to the power of 1 fourth end exponent`* using the law *`open parentheses a to the power of m close parentheses to the power of n equals a to the power of m cross times n end exponent`\n\n$3^{x}=3^{-\\frac{2}{4}}=3^{-\\frac{1}{2}}$\n\n> *As the bases are equal, the powers are also equal*\n\n`log subscript 3 open parentheses fourth root of 1 over 9 end root close parentheses equals negative 1 half`** ****[1]**",
+     "problem_md": "Find the value of  `log _ 3 ( fourth sqrt of 1 / 9 ) )`",
+     "solution_md": "> *Rewrite using the definition of logarithms: If *$log_{a} ( b ) = x$* then *$a^{x}=b$\n\n`3 ^ x = fourth sqrt of 1 / 9 )`\n\n**[1]**\n\n> *Rewrite *`fourth sqrt of 1 / 9 )`* as a power*\n\n$3^{x = ( \\frac{1}{9} )^{1} \\frac{1}{4}}$\n\n> *Rewrite 9 as a power of 3*\n\n$3^{x = ( \\frac{1}{3^{2}} )^{1} \\frac{1}{4}}$\n\n> *Rewrite *$\\frac{1}{3^{2}}$* using the law of negative indices*\n\n$3^{x = ( 3^{-2} } )^{1 \\frac{1}{4}}$\n\n**[1]**\n\n> *Rewrite *$( 3^{- 2} )^{1 \\frac{1}{4}}$* using the law *$( a^{m )^{n} = a^{m} \\times n}$\n\n$3^{x}=3^{-\\frac{2}{4}}=3^{-\\frac{1}{2}}$\n\n> *As the bases are equal, the powers are also equal*\n\n`log _ 3 ( fourth sqrt of 1 / 9 ) ) = - 1 half`** ****[1]**",
      "equations": [
       {
        "latex": "a^{x}=b",
@@ -764,8 +764,8 @@
       "spcpt_6RvsM8sgsQBvtjGP"
      ],
      "part_tier": null,
-     "problem_md": "Find the value of  `log subscript 4 open parentheses 1 over 16 close parentheses`",
-     "solution_md": "> *Rewrite using the definition of logarithms: If *`log subscript a open parentheses b close parentheses equals x`* then *$a^{x}=b$\n\n$4^{x}=\\frac{1}{16}$\n\n**[1]**\n\n> *Rewrite 16 as a power of 4*\n\n$4^{x}=\\frac{1}{4^{2}}$\n\n> *Rewrite *$\\frac{1}{4^{2}}$* using the law of negative indices*\n\n$4^{x}=4^{-2}$\n\n> *As the bases are equal, the powers are also equal*\n\n`log subscript 4 open parentheses 1 over 16 close parentheses equals negative 2`** ****[1]**",
+     "problem_md": "Find the value of  $log_{4} ( \\frac{1}{16} )$",
+     "solution_md": "> *Rewrite using the definition of logarithms: If *$log_{a} ( b ) = x$* then *$a^{x}=b$\n\n$4^{x}=\\frac{1}{16}$\n\n**[1]**\n\n> *Rewrite 16 as a power of 4*\n\n$4^{x}=\\frac{1}{4^{2}}$\n\n> *Rewrite *$\\frac{1}{4^{2}}$* using the law of negative indices*\n\n$4^{x}=4^{-2}$\n\n> *As the bases are equal, the powers are also equal*\n\n$log_{4} ( \\frac{1}{16} ) = - 2$** ****[1]**",
      "equations": [
       {
        "latex": "a^{x}=b",
@@ -821,7 +821,7 @@
      ],
      "part_tier": null,
      "problem_md": "Find the value of $\\mathrm{log}_{2}16$",
-     "solution_md": "> *Rewrite using the definition of logarithms: If *`log subscript a open parentheses b close parentheses equals x`* then *$a^{x}=b$\n\n$2^{x}=16$\n\n> *Rewrite 16 as a power of 2*\n\n$2^{x}=2^{4}$\n\n> *As the bases are equal, the powers are also equal*\n\n$\\mathrm{log}_{2}16=4$** ****[1]**",
+     "solution_md": "> *Rewrite using the definition of logarithms: If *$log_{a} ( b ) = x$* then *$a^{x}=b$\n\n$2^{x}=16$\n\n> *Rewrite 16 as a power of 2*\n\n$2^{x}=2^{4}$\n\n> *As the bases are equal, the powers are also equal*\n\n$\\mathrm{log}_{2}16=4$** ****[1]**",
      "equations": [
       {
        "latex": "\\mathrm{log}_{2}16",
@@ -877,8 +877,8 @@
       "spcpt_6RvsM8sgsQBvtjGP"
      ],
      "part_tier": null,
-     "problem_md": "`log open parentheses fraction numerator 1 over denominator 3 x minus 2 end fraction close parentheses equals negative 2`\n\nFind the value of $x$.",
-     "solution_md": "> *This can be solved using logarithms, if *`log subscript a open parentheses b close parentheses equals x`* then *$a^{x}=b$\n\n> *If no base is shown then use log to the base ten*\n\n`table row cell log subscript 10 open parentheses fraction numerator 1 over denominator 3 x minus 2 end fraction close parentheses end cell equals cell negative 2 end cell row a equals 10 row b equals cell 3 x minus 2 end cell row blank blank blank row cell fraction numerator 1 over denominator 3 x minus 2 end fraction end cell equals cell 10 to the power of negative 2 end exponent end cell end table`\n\n**[1]**\n\n> *Rewrite *$10^{-2}$* as a fraction*\n\n$\\frac{1}{3x-2}=\\frac{1}{10^{2}}=\\frac{1}{100}$* *\n\n> *Now the denominators are equal to each other*\n\n$3x-2=100$* *\n\n**[1]**\n\n> *Rearrange to find *$x$\n\n$x=\\frac{102}{3}$* *\n\n$x=34$**[1]**",
+     "problem_md": "$\\log ( \\frac{1}{3 x - 2} ) = - 2$\n\nFind the value of $x$.",
+     "solution_md": "> *This can be solved using logarithms, if *$log_{a} ( b ) = x$* then *$a^{x}=b$\n\n> *If no base is shown then use log to the base ten*\n\n$\\begin{gathered} log_{10} ( \\frac{1}{3 x - 2} ) & = - 2 \\\\ a = 10 \\\\ b = 3 x - 2 \\\\ \\\\ \\frac{1}{3 x - 2} & = 10^{- 2} \\end{gathered}$\n\n**[1]**\n\n> *Rewrite *$10^{-2}$* as a fraction*\n\n$\\frac{1}{3x-2}=\\frac{1}{10^{2}}=\\frac{1}{100}$* *\n\n> *Now the denominators are equal to each other*\n\n$3x-2=100$* *\n\n**[1]**\n\n> *Rearrange to find *$x$\n\n$x=\\frac{102}{3}$* *\n\n$x=34$**[1]**",
      "equations": [
       {
        "latex": "x",
@@ -948,8 +948,8 @@
       "spcpt_6RvsM8sgsQBvtjGP"
      ],
      "part_tier": null,
-     "problem_md": "`log open parentheses 5 x plus 2 close parentheses equals 2`\n\nFind the value of $x$.",
-     "solution_md": "> *This can be solved using logarithms, if *`log subscript a open parentheses b close parentheses equals x`* then *$a^{x}=b$\n\n> *If no base is shown then use log to the base ten*\n\n`table row cell log subscript 10 open parentheses 5 x plus 2 close parentheses end cell equals 2 row a equals 10 row b equals cell 5 x plus 2 end cell row blank blank blank row cell 10 squared end cell equals cell 5 x plus 2 end cell end table`\n\n**[1]**\n\n> *Simplify*\n\n$5x+2=100$* *\n\n> *Subtract 2 from both sides*\n\n$5x=98$* *\n\n> *Rearrange to find *$x$\n\n$x=\\frac{98}{5}$* *\n\n$x=\\frac{98}{5}$**[1]**\n**19.6 also accepted**",
+     "problem_md": "$\\log ( 5 x + 2 ) = 2$\n\nFind the value of $x$.",
+     "solution_md": "> *This can be solved using logarithms, if *$log_{a} ( b ) = x$* then *$a^{x}=b$\n\n> *If no base is shown then use log to the base ten*\n\n$\\begin{gathered} log_{10} ( 5 x + 2 ) & = 2 \\\\ a = 10 \\\\ b = 5 x + 2 \\\\ \\\\ 10^{2} & = 5 x + 2 \\end{gathered}$\n\n**[1]**\n\n> *Simplify*\n\n$5x+2=100$* *\n\n> *Subtract 2 from both sides*\n\n$5x=98$* *\n\n> *Rearrange to find *$x$\n\n$x=\\frac{98}{5}$* *\n\n$x=\\frac{98}{5}$**[1]**\n**19.6 also accepted**",
      "equations": [
       {
        "latex": "x",

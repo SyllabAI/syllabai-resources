@@ -35,7 +35,7 @@ guided_study: false
 
 - Promotional elasticity is calculated using the formula:
 
-`begin mathsize 16px style Promotional space elasticity space of space demand space equals space fraction numerator percent sign space change space in space quantity space demanded over denominator percent sign space change space in space promotional space spending end fraction space equals space ? space colon space 1 end style`
+$Promotional \text{elasticity} of \text{demand} = \frac{ \% \text{change} in \text{quantity} demanded}{ \% \text{change} in \text{promotional} spending} = ? : 1$
 
 - The outcome is expressed as a **ratio**
 
@@ -54,13 +54,13 @@ guided_study: false
 > 
 > $=\frac{600,000}{2,400,000}\times100$
 > 
-> `equals space 25 percent sign`**     ****[1]**
+> $= 25 \%$**     ****[1]**
 > 
 > **Step 2: Calculate promotional elasticity of demand**
 > 
-> `begin mathsize 16px style Promotional space elasticity space of space demand space equals space fraction numerator percent sign space change space in space quantity space demanded over denominator percent sign space change space in space promotional space spending end fraction end style`
+> $Promotional \text{elasticity} of \text{demand} = \frac{ \% \text{change} in \text{quantity} demanded}{ \% \text{change} in \text{promotional} spending}$
 > 
-> `equals fraction numerator space 30 percent sign over denominator 25 percent sign end fraction`   **[1]**
+> $= \frac{ 30 \%}{25 \%}$   **[1]**
 > 
 > $=1.2:1$   **[1]**
 > 
@@ -96,9 +96,9 @@ guided_study: false
 > 
 > **Step 1: Calculate the promotional elasticity of demand**
 > 
-> **   **`Promotional space elasticity space of space demand space equals space fraction numerator percent sign space change space in space quantity space demanded over denominator percent sign space change space in space promotional space spending end fraction`
+> **   **$Promotional \text{elasticity} of \text{demand} = \frac{ \% \text{change} in \text{quantity} demanded}{ \% \text{change} in \text{promotional} spending}$
 > 
-> `equals space fraction numerator 25 percent sign over denominator 55 percent sign end fraction`
+> $= \frac{25 \%}{55 \%}$
 > 
 > $=0.45:1$**   ****[1]**
 > 

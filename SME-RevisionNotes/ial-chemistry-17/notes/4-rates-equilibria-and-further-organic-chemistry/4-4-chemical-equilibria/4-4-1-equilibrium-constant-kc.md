@@ -26,7 +26,7 @@ guided_study: false
 
 - The corresponding** equilibrium constant expression** is written as:
 
-`bold italic K bold space bold equals bold space fraction numerator stretchy left square bracket C stretchy right square bracket to the power of bold c stretchy left square bracket D stretchy right square bracket to the power of bold d over denominator stretchy left square bracket A stretchy right square bracket to the power of bold a stretchy left square bracket B stretchy right square bracket to the power of bold b end fraction`
+`K = (stretchy left square bracket C stretchy right square bracket ^ c stretchy left square bracket D stretchy right square bracket ^ d)/(stretchy left square bracket A stretchy right square bracket ^ a stretchy left square bracket B stretchy right square bracket ^ b)`
 
 - Where:
 
@@ -49,17 +49,17 @@ guided_study: false
 > 
 > **Answer 1:**
 > 
-> `K space equals fraction numerator open square brackets Fe to the power of 3 plus end exponent open parentheses aq close parentheses close square brackets over denominator open square brackets Fe to the power of 2 plus end exponent space open parentheses aq close parentheses close square brackets space open square brackets Ag to the power of plus space open parentheses aq close parentheses close square brackets end fraction`
+> $K = \frac{[ Fe^{3 +} ( \text{aq} ) ]}{[ Fe^{2 +} ( \text{aq} ) ] [ Ag^{+} ( \text{aq} ) ]}$
 > 
 > - [Ag (s)] is not included in the equilibrium constant expression as it is a solid
 > 
 > **Answer 2:**
 > 
-> `K space equals fraction numerator open square brackets NH subscript 3 space open parentheses straight g close parentheses close square brackets squared over denominator stretchy left square bracket straight N subscript 2 space open parentheses straight g close parentheses stretchy right square bracket space stretchy left square bracket straight H subscript 2 space open parentheses straight g close parentheses stretchy right square bracket cubed end fraction`
+> $K = \frac{[ NH_{3} ( \mathrm{g} ) ]^{2}}{[ \mathrm{N}_{2} ( \mathrm{g} ) ] [ \mathrm{H}_{2} ( \mathrm{g} ) ]^{3}}$
 > 
 > **Answer 3: **
 > 
-> `K space equals fraction numerator stretchy left square bracket SO subscript 3 space open parentheses straight g close parentheses stretchy right square bracket squared over denominator stretchy left square bracket SO subscript 2 space stretchy left parenthesis straight g stretchy right parenthesis stretchy right square bracket squared space stretchy left square bracket straight O subscript 2 space stretchy left parenthesis straight g stretchy right parenthesis stretchy right square bracket end fraction`
+> $K = \frac{[ SO_{3} ( \mathrm{g} ) ]^{2}}{[ SO_{2} ( \mathrm{g} ) ]^{2} [ \mathrm{O}_{2} ( \mathrm{g} ) ]}$
 
 ## Kc Expressions - Calculations
 
@@ -101,15 +101,15 @@ guided_study: false
 > 
 > **Step 2: **Write the equilibrium constant for this reaction in terms of concentration
 > 
-> - *K*<sub>c</sub> = `fraction numerator left square bracket straight H subscript 2 straight O right square bracket space left square bracket CH subscript 3 COOC subscript 2 straight H subscript 5 right square bracket over denominator left square bracket straight C subscript 2 straight H subscript 5 OH right square bracket space left square bracket CH subscript 3 COOH right square bracket end fraction`
+> - *K*<sub>c</sub> = `(left square bracket H _ 2 O right square bracket left square bracket CH _ 3 COOC _ 2 H _ 5 right square bracket)/(left square bracket C _ 2 H _ 5 OH right square bracket left square bracket CH _ 3 COOH right square bracket)`
 > 
 > **Step 3: **Substitute the equilibrium concentrations into the expression
 > 
-> - *K*<sub>c</sub> = `fraction numerator left square bracket 0.364 right square bracket space cross times space left square bracket 0.364 right square bracket over denominator left square bracket 0.070 right square bracket space cross times space left square bracket 0.470 right square bracket end fraction space equals space 4.03`
+> - *K*<sub>c</sub> = $\frac{[ 0.364 ] \times [ 0.364 ]}{[ 0.070 ] \times [ 0.470 ]} = 4.03$
 > 
 > **Step 4: **Deduce the correct units for *K*<sub>*c*</sub>* *
 > 
-> - *K*<sub>c</sub> = `fraction numerator left square bracket m o l space d m to the power of negative 3 end exponent right square bracket space cross times space left square bracket m o l space d m to the power of negative 3 end exponent right square bracket over denominator left square bracket m o l space d m to the power of negative 3 end exponent right square bracket space cross times space left square bracket m o l space d m to the power of negative 3 end exponent right square bracket end fraction`
+> - *K*<sub>c</sub> = $\frac{[ m o l d m^{ - } 3 ] \times [ m o l d m^{ - } 3 ]}{[ m o l d m^{ - } 3 ] \times [ m o l d m^{ - } 3 ]}$
 > 
 >   - All units cancel out
 > 
@@ -150,15 +150,15 @@ guided_study: false
 > 
 > **Step 3: **Write the equilibrium constant for this reaction in terms of concentration
 > 
-> - *K*<sub>c</sub> = `fraction numerator left square bracket straight C subscript 2 straight H subscript 5 OH right square bracket space left square bracket CH subscript 3 COOH right square bracket space over denominator left square bracket straight H subscript 2 straight O right square bracket space left square bracket CH subscript 3 COOC subscript 2 straight H subscript 5 right square bracket end fraction`
+> - *K*<sub>c</sub> = `(left square bracket C _ 2 H _ 5 OH right square bracket left square bracket CH _ 3 COOH right square bracket )/(left square bracket H _ 2 O right square bracket left square bracket CH _ 3 COOC _ 2 H _ 5 right square bracket)`
 > 
 > **Step 4: **Substitute the equilibrium concentrations into the expression
 > 
-> - *K*<sub>c</sub> = `fraction numerator left square bracket 0.346 right square bracket space cross times space left square bracket 0.346 right square bracket over denominator left square bracket 0.654 right square bracket space cross times space left square bracket 0.654 right square bracket end fraction space equals space 0.28`
+> - *K*<sub>c</sub> = $\frac{[ 0.346 ] \times [ 0.346 ]}{[ 0.654 ] \times [ 0.654 ]} = 0.28$
 > 
 > **Step 4: **Deduce the correct units for *K*<sub>*c*</sub>* *
 > 
-> - *K*<sub>c</sub> = `fraction numerator left square bracket m o l space d m to the power of negative 3 end exponent right square bracket space cross times space left square bracket m o l space d m to the power of negative 3 end exponent right square bracket over denominator left square bracket m o l space d m to the power of negative 3 end exponent right square bracket space cross times space left square bracket m o l space d m to the power of negative 3 end exponent right square bracket end fraction`
+> - *K*<sub>c</sub> = $\frac{[ m o l d m^{ - } 3 ] \times [ m o l d m^{ - } 3 ]}{[ m o l d m^{ - } 3 ] \times [ m o l d m^{ - } 3 ]}$
 > 
 >   - All units cancel out
 > 

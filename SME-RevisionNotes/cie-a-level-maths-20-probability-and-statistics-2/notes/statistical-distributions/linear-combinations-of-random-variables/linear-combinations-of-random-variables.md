@@ -80,10 +80,10 @@ guided_study: true
 
 - If ***X*** and ***Y*** are **two independent Poisson** distributions then ***X *****+***** Y*** is also a **Poisson** distribution
 
-  - If `begin mathsize 16px style X to the power of tilde P o left parenthesis lambda right parenthesis end style` and `size 16px Y to the power of size 16px tilde size 16px P size 16px o size 16px left parenthesis size 16px mu size 16px right parenthesis` then `begin mathsize 16px style X plus Y to the power of tilde P o left parenthesis lambda plus mu right parenthesis end style`
+  - If $X^{\sim } P o ( \\lambda )$ and $\text{size} 16px Y^{size} 16px \sim \text{size} 16px P \text{size} 16px o \text{size} 16px ( \text{size} 16px \\mu \text{size} 16px )$ then $X + Y^{\sim } P o ( \\lambda + \\mu )$
 - If ***X*** and ***Y*** are **two independent normal** distributions then ***X *****+***** Y*** is also a **normal** distribution
 
-  - If `begin mathsize 16px style X to the power of tilde N open parentheses mu subscript 1 comma sigma subscript 1 squared close parentheses end style` and `Y to the power of size 16px tilde size 16px N begin mathsize 16px style stretchy left parenthesis mu subscript 2 comma sigma subscript 2 squared stretchy right parenthesis end style` then `X plus Y to the power of tilde N left parenthesis mu subscript 1 plus mu subscript 2 size 16px comma size 16px sigma subscript size 16px 1 to the power of size 16px 2 size 16px plus size 16px sigma subscript size 16px 2 to the power of size 16px 2 size 16px right parenthesis`
+  - If $X^{\sim } N ( \mu_{1} , \sigma_{1}^{2} )$ and $Y^{size} 16px \sim \text{size} 16px N ( \mu_{2} , \sigma_{2}^{2} )$ then $X + Y^{\sim } N ( \mu_{1} + \mu_{2} \text{size} 16px , \text{size} 16px \sigma_{size} 16px 1^{size} 16px 2 \text{size} 16px + \text{size} 16px \sigma_{size} 16px 2^{size} 16px 2 \text{size} 16px )$
 
 #### What does the distribution of aX + bY look like?
 
@@ -177,7 +177,7 @@ guided_study: true
     - Use z-values and the table of values
 
 > **Worked Example**
-> `X tilde N left parenthesis 10 comma space 4 squared right parenthesis space and space Y tilde N left parenthesis negative 5 comma space 8 squared right parenthesis`
+> `X tilde N ( 10 , 4 ^2 ) and Y tilde N ( - 5 , 8 ^2 )`
 > 
 > Find $P(3X>2Y+50)$
 > 

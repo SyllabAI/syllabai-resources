@@ -54,7 +54,7 @@ $\Deltav=v-u$
   - $u$ = initial velocity in metres per second (m/s)
 - Therefore, the acceleration, or the rate of change in velocity, equation can be written as:
 
-`a space equals space fraction numerator open parentheses v space minus space u close parentheses over denominator t end fraction`
+$a = \frac{( v - u )}{t}$
 
 ### Speeding up and slowing down
 
@@ -107,7 +107,7 @@ $\Deltav=v-u$
 > 
 > **Step 2: Write the relevant equation**
 > 
-> `a space equals space fraction numerator open parentheses v space minus space u close parentheses over denominator t end fraction space equals space fraction numerator increment v over denominator t end fraction`
+> $a = \frac{( v - u )}{t} = \frac{\Delta v}{t}$
 > 
 > **Step 3: Substitute the values for change in velocity and time**
 > 

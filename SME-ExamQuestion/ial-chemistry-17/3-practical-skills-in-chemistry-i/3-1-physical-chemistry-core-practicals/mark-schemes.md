@@ -205,7 +205,7 @@ ii)
 - *To work out the concentration of sodium hydroxide you must use: *
 
   - *Moles = concentration x volume (dm*<sup>*3*</sup>*) OR moles =*$\frac{\mathrm{concentration}\times\mathrm{volume}(\mathrm{cm}^{3})}{1000}$
-  - *Concentration = *`fraction numerator moles over denominator volume space open parentheses dm cubed close parentheses end fraction`* OR concentration = *`fraction numerator moles over denominator volume space open parentheses cm cubed close parentheses end fraction cross times 1000`
+  - *Concentration = *$\frac{moles}{volume ( dm^{3} )}$* OR concentration = *$\frac{moles}{volume ( cm^{3} )} \times 1000$
 
 ## Q3 — medium — 8 marks · structured-questions
 
@@ -1067,7 +1067,7 @@ volume = 0.250 dm<sup>3</sup>
 
 - Calculate the concentration:
 
-concentration = `fraction numerator moles over denominator volume space open parentheses dm cubed close parentheses end fraction`
+concentration = $\frac{moles}{volume ( dm^{3} )}$
 
 concentration = $\frac{0.02498}{0.2500}$
 

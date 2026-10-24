@@ -144,7 +144,7 @@
   },
   {
    "type": "paragraph",
-   "md": "Throughout this section we will use the random variable `X tilde Po left parenthesis lambda right parenthesis`  . For a Poisson distribution, the probability of a *X* taking a non-integer or negative value is always zero. Therefore any values mentioned in this section (other than *λ*) will be assumed to be non-negative integers."
+   "md": "Throughout this section we will use the random variable $X \\sim \\text{Po} ( \\\\lambda )$  . For a Poisson distribution, the probability of a *X* taking a non-integer or negative value is always zero. Therefore any values mentioned in this section (other than *λ*) will be assumed to be non-negative integers."
   },
   {
    "type": "heading",
@@ -175,7 +175,7 @@
   },
   {
    "type": "bullets",
-   "md": "- Having to type a lot of calculations into your calculator can be time consuming and cause errors\n- Consider the calculation $P(X\\leq3)=e^{-λ}\\times\\frac{λ^{0}}{0!}+e^{-λ}\\times\\frac{λ^{1}}{1!}+e^{-λ}\\times\\frac{λ^{2}}{2!}+e^{-λ}\\times\\frac{λ^{3}}{3!}$\n\n  - Note that $e^{-λ}$ exists in every term and can be factorised out\n  - Recall that $λ^{0}=1$ and 0! = 1\n  - Recall also that $λ^{1}=λ$ and 1! = 1\n- This calculation could be factorised and simplified to\n\n  - `begin mathsize 16px style P left parenthesis X less or equal than 3 right parenthesis equals e to the power of negative lambda end exponent open parentheses 1 plus lambda plus fraction numerator lambda squared over denominator 2 factorial end fraction plus fraction numerator lambda cubed over denominator 3 factorial end fraction close parentheses end style`\n  - This is much simpler and easier to type into your calculator in exam conditions"
+   "md": "- Having to type a lot of calculations into your calculator can be time consuming and cause errors\n- Consider the calculation $P(X\\leq3)=e^{-λ}\\times\\frac{λ^{0}}{0!}+e^{-λ}\\times\\frac{λ^{1}}{1!}+e^{-λ}\\times\\frac{λ^{2}}{2!}+e^{-λ}\\times\\frac{λ^{3}}{3!}$\n\n  - Note that $e^{-λ}$ exists in every term and can be factorised out\n  - Recall that $λ^{0}=1$ and 0! = 1\n  - Recall also that $λ^{1}=λ$ and 1! = 1\n- This calculation could be factorised and simplified to\n\n  - $P ( X \\text{less} \\text{or} \\text{equal} \\text{than} 3 ) = e^{- \\\\lambda } ( 1 + \\\\lambda + \\frac{\\\\lambda ^{2}}{2 factorial} + \\frac{\\\\lambda ^{3}}{3 factorial} )$\n  - This is much simpler and easier to type into your calculator in exam conditions"
   },
   {
    "type": "heading",

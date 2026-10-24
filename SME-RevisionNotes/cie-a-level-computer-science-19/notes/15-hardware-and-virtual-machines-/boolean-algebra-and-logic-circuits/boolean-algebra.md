@@ -48,7 +48,7 @@ guided_study: false
 
 | **Symbol** | **Meaning** | **Example** | **Explanation** |
 |---|---|---|---|
-| `A space times space B`  or `AB` | **AND** | `A · B` | True only if **both** A and B are 1 |
+| $A \times B$  or `AB` | **AND** | `A · B` | True only if **both** A and B are 1 |
 | $A+B$ | **OR** | `A + B` | True if **either** A or B is 1 |
 | $\overline{A}$ | **NOT** / complement | $\overline{A}$ | True if A is 0, False if A is 1 |
 | `( )` | Brackets / grouping | `(A + B)·C` | Do A OR B **first**, then AND with C |
@@ -86,23 +86,23 @@ guided_study: false
 - There are two key rules:
 
   1. **NOT (A AND B)** is equivalent to **(NOT A) OR (NOT B)** $\overline{A.B}=\overline{A}+\overline{B}$
-  2. **NOT (A OR B)** is equivalent to **(NOT A) AND (NOT B)** `stack A space plus space B with bar on top equals top enclose A space. space top enclose B`
+  2. **NOT (A OR B)** is equivalent to **(NOT A) AND (NOT B)** `A + B -bar = top A . top B`
 
 #### Worked example 1: Simplify ¬(A ∧ B)
 
 | **Step** | **Explanation** | **Expression** |
 |---|---|---|
-| Step 1 | Start with the original expression | `top enclose A space. space B end enclose` |
-| Step 2 | Apply De Morgan’s Law: change ∧ to ∨ and negate both terms | `top enclose A plus top enclose B` |
-| Step 3 | Remove unnecessary brackets | `top enclose A plus top enclose B` |
+| Step 1 | Start with the original expression | `top A . B` |
+| Step 2 | Apply De Morgan’s Law: change ∧ to ∨ and negate both terms | $\vec{A} + \vec{B}$ |
+| Step 3 | Remove unnecessary brackets | $\vec{A} + \vec{B}$ |
 
 #### Worked example 2: Simplify ¬(A ∨ B)
 
 | **Step** | **Explanation** | **Expression** |
 |---|---|---|
-| Step 1 | Start with the original expression | `top enclose A plus B end enclose` |
-| Step 2 | Apply De Morgan’s Law: change ∨ to ∧ and negate both terms | `top enclose A. top enclose B` |
-| Step 3 | Remove unnecessary brackets | `top enclose A. top enclose B` |
+| Step 1 | Start with the original expression | `top A + B` |
+| Step 2 | Apply De Morgan’s Law: change ∨ to ∧ and negate both terms | $\vec{A} . \vec{B}$ |
+| Step 3 | Remove unnecessary brackets | $\vec{A} . \vec{B}$ |
 
 ### Why use De Morgan’s Laws?
 

@@ -20,7 +20,7 @@ $y=10^{x}$
 
 Find the value of $x$.
 
-`log subscript 3 open parentheses 4 x plus 1 close parentheses equals 4`
+$log_{3} ( 4 x + 1 ) = 4$
 
 ### Q3 — very_hard — 7 marks
 
@@ -132,13 +132,13 @@ $x=$......................
 
 **Q8** [3 marks]
 
-Find the value of  `log subscript 3 open parentheses fourth root of 1 over 9 end root close parentheses`
+Find the value of  `log _ 3 ( fourth sqrt of 1 / 9 ) )`
 
 ### Q9 — hard — 2 marks
 
 **Q9** [2 marks]
 
-Find the value of  `log subscript 4 open parentheses 1 over 16 close parentheses`
+Find the value of  $log_{4} ( \frac{1}{16} )$
 
 ### Q10 — medium — 1 marks
 
@@ -150,7 +150,7 @@ Find the value of $\mathrm{log}_{2}16$
 
 **Q11** [3 marks]
 
-`log open parentheses fraction numerator 1 over denominator 3 x minus 2 end fraction close parentheses equals negative 2`
+$\log ( \frac{1}{3 x - 2} ) = - 2$
 
 Find the value of $x$.
 
@@ -158,7 +158,7 @@ Find the value of $x$.
 
 **Q12** [2 marks]
 
-`log open parentheses 5 x plus 2 close parentheses equals 2`
+$\log ( 5 x + 2 ) = 2$
 
 Find the value of $x$.
 

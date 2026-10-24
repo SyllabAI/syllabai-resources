@@ -10,10 +10,10 @@
 
 > *The formula for the volume of a cone is given by *$V=\frac{1}{3}πr^{2}h$
 
-> *Find the volume of the larger cone *`open parentheses V subscript L close parentheses`
+> *Find the volume of the larger cone *$( V_{L} )$
 
-`V subscript L equals 1 third pi open parentheses 9 squared close parentheses open parentheses 15 close parentheses
-V subscript L equals 405 pi`
+$V_{L} = 1 \frac{1}{3} \pi ( 9^{2} ) ( 15 )
+V_{L} = 405 \pi$
 
 **[M1 A1]**
 
@@ -27,21 +27,21 @@ V subscript L equals 405 pi`
 
 > *The triangles are similar; there is a constant scale factor for the side lengths*
 
-`table row cell 4 over 15 end cell equals cell r over 9 end cell row cell 4 over 15 cross times 9 end cell equals r row cell 2.4 end cell equals r end table`
+$\begin{gathered} \frac{4}{15} & = \frac{r}{9} \\ \frac{4}{15} \times 9 & = r \\ 2.4 & = r \end{gathered}$
 
 **[M1]**
 
-> *Find the volume of the smaller cone *`open parentheses V subscript S close parentheses`
+> *Find the volume of the smaller cone *$( V_{S} )$
 
-`V subscript S equals 1 third pi open parentheses 2.4 close parentheses squared open parentheses 4 close parentheses
-V subscript S equals 192 over 25 pi`
+$V_{S} = 1 \frac{1}{3} \pi ( 2.4 )^{2} ( 4 )
+V_{S} = \frac{192}{25} \pi$
 
 **[A1]**
 
 > **[exam-tip]**
 > Alternatively, you could use a volume scale factor to find the smaller cone's volume:
 > 
-> `V subscript S equals open parentheses 4 over 15 close parentheses cubed cross times V subscript L`
+> $V_{S} = ( \frac{4}{15} )^{3} \times V_{L}$
 
 > *The volume of the frustum is the volume of the larger cone subtract the volume of the smaller cone*
 
@@ -58,7 +58,7 @@ $\frac{9933}{25}π$
 > 
 > **A1**: Finding the volume of the larger cone. Can be implied by later working.
 > 
-> **M1**: Evidence of using similarity. Either to find the unknown radius or using a volume scale factor `open parentheses 4 over 15 close parentheses cubed`.
+> **M1**: Evidence of using similarity. Either to find the unknown radius or using a volume scale factor $( \frac{4}{15} )^{3}$.
 > 
 > **A1**: Finding the volume of the smaller cone. Can be implied by later working.
 > 
@@ -101,15 +101,15 @@ $k=\sqrt{\frac{226}{94}}$
 
 *Find the volume scale factor, **k*<sup>*3*</sup>*, by cubing **k* * *
 
-`k cubed equals open parentheses square root of 226 over 94 end root close parentheses cubed` * *
+$k ^{3} = ( \sqrt{\frac{226}{94}} ) ^{3}$ * *
 
 *This scale factor is how much bigger the larger container is compared to the smaller container* * *
 
-*the larger volume, 680 cm**<sup>3</sup>**, is *`open parentheses square root of 226 over 94 end root close parentheses cubed`* times bigger than the smaller volume* * *
+*the larger volume, 680 cm**<sup>3</sup>**, is *$( \sqrt{\frac{226}{94}} ) ^{3}$* times bigger than the smaller volume* * *
 
-*Find the smaller volume, by dividing the large volume by *`open parentheses square root of 226 over 94 end root close parentheses cubed` * *
+*Find the smaller volume, by dividing the large volume by *$( \sqrt{\frac{226}{94}} ) ^{3}$ * *
 
-*smaller volume = *`680 over open parentheses square root of 226 over 94 end root close parentheses cubed`
+*smaller volume = *$\frac{680}{open} \text{parentheses} \sqrt{\frac{226}{94}} ) ^{3}$
 
 **[1]**
 
@@ -118,23 +118,23 @@ $k=\sqrt{\frac{226}{94}}$
 **182 cm**<sup>**3**</sup>** ****[1]**
 
 ### Q4
-> *The height of model **A** and the height of model **B** are corresponding lengths in similar shapes so find **k, **the scale factor, using**  *`table attributes columnalign right center left columnspacing 0px end attributes row k equals cell space fraction numerator second space corresponding space length over denominator first space corresponding space length end fraction end cell end table`
+> *The height of model **A** and the height of model **B** are corresponding lengths in similar shapes so find **k, **the scale factor, using**  *$\begin{array}{rcl} k = \frac{second \text{corresponding} length}{first \text{corresponding} length} \end{array}$
 
 > *Method 1*
 
 > *The height of model **B** is smaller than the height of model **A**. **To go from the big shape to the small shape, put the small length on top in the fraction so that **k** will be smaller than 1*
 
-`table row cell k space end cell equals cell fraction numerator height space bold B over denominator height space bold A end fraction equals space 147 over 187 end cell end table`
+$\begin{gathered} k & = \frac{height B}{height A} = \frac{147}{187} \end{gathered}$
 
 **[1]**
 
 > *Find the height of model **B** by multiplying the height of model **A** by **k **(notice that **k** < 1 so multiplying by **k** will make the length smaller)*
 
-`table row cell height space bold B end cell equals cell space k open square brackets height space bold A close square brackets space equals space 147 over 187 cross times 90 end cell end table`
+$\begin{gathered} \text{height} B & = k [ \text{height} A ] = \frac{147}{187} \times 90 \end{gathered}$
 
 **[1]**
 
-`table row blank equals cell space 70.7486631... end cell end table`
+$\begin{gathered} = 70.7486631... \end{gathered}$
 
 > *This answer is already in centimetres but give the final answer to the nearest centimetre as requested in the question*
 
@@ -142,48 +142,48 @@ $k=\sqrt{\frac{226}{94}}$
 
 > *Method 2*
 
-> *Finding **k **using**  *`table attributes columnalign right center left columnspacing 0px end attributes row k equals cell space fraction numerator second space corresponding space length over denominator first space corresponding space length end fraction end cell end table`*, if you put the larger length on top of the fraction then;*
+> *Finding **k **using**  *$\begin{array}{rcl} k = \frac{second \text{corresponding} length}{first \text{corresponding} length} \end{array}$*, if you put the larger length on top of the fraction then;*
 
-`table row cell k space end cell equals cell fraction numerator height space bold A over denominator height space bold B end fraction equals space 187 over 147 space end cell end table`
+$\begin{gathered} k & = \frac{height A}{height B} = \frac{187}{147} \end{gathered}$
 
 > *Notice that **k** > 1 so multiplying by **k** will make the length bigger- but in going from the height of model **A** to the height of model of **B**, we want to go from a longer length to a smaller length. So divide by **k **instead*
 
-`table row cell height space bold B space end cell equals cell space height space bold A divided by k equals space 90 divided by 187 over 147 end cell end table`
+$\begin{gathered} \text{height} B & = \text{height} A \div k = 90 \div \frac{187}{147} \end{gathered}$
 
 **[1]**
 
-`table row blank equals cell space 70.7486631... end cell end table`
+$\begin{gathered} = 70.7486631... \end{gathered}$
 
 > *This answer is already in centimetres but give the final answer to the nearest centimetre as requested in the question*
 
 **71 cm**** ****[1]**
 
 ### Q5
-> *The radius of **A** and the radius of **B** are corresponding lengths in similar shapes so find **k, **the scale factor, using**  *`table attributes columnalign right center left columnspacing 0px end attributes row k equals cell space fraction numerator second space corresponding space length over denominator first space corresponding space length end fraction end cell end table`
+> *The radius of **A** and the radius of **B** are corresponding lengths in similar shapes so find **k, **the scale factor, using**  *$\begin{array}{rcl} k = \frac{second \text{corresponding} length}{first \text{corresponding} length} \end{array}$
 
 > *Method 1*
 
 > *The radius of **B** is smaller than the radius of **A**. **To go from the big shape to the small shape, put the small length on top in the fraction so that **k** will be smaller than 1*
 
-`table row cell k space end cell equals cell fraction numerator height space bold B over denominator height space bold A end fraction equals space fraction numerator 0.6 over denominator 1.6 end fraction space equals space 3 over 8 end cell end table`
+$\begin{gathered} k & = \frac{height B}{height A} = \frac{0.6}{1.6} = \frac{3}{8} \end{gathered}$
 
 **[1]**
 
 > *Find radius of **B** by multiplying the radius of **A** by **k **(notice that **k** < 1 so multiplying by **k** will make the length smaller)*
 
-`table row cell radius space bold B end cell equals cell space k open square brackets radius space bold A close square brackets space equals space 3 over 8 cross times 0.56 end cell end table`
+$\begin{gathered} \text{radius} B & = k [ \text{radius} A ] = \frac{3}{8} \times 0.56 \end{gathered}$
 
 **0.21 m**** ****[1]**
 
 > *Method 2*
 
-> *Finding **k **using**  *`table attributes columnalign right center left columnspacing 0px end attributes row k equals cell space fraction numerator second space corresponding space length over denominator first space corresponding space length end fraction end cell end table`*, if you put the larger length on top of the fraction then;*
+> *Finding **k **using**  *$\begin{array}{rcl} k = \frac{second \text{corresponding} length}{first \text{corresponding} length} \end{array}$*, if you put the larger length on top of the fraction then;*
 
-`table row cell k space end cell equals cell fraction numerator height space bold A over denominator height space bold B end fraction equals space fraction numerator 1.6 over denominator 0.6 end fraction space equals space 8 over 3 end cell end table`
+$\begin{gathered} k & = \frac{height A}{height B} = \frac{1.6}{0.6} = \frac{8}{3} \end{gathered}$
 
 > *Notice that **k** > 1 so multiplying by **k** will make the length bigger- but in going from the radius of **A** to the radius of **B**, we want to go from a longer length to a smaller length. So divide by **k **instead*
 
-`table row cell radius space bold B space end cell equals cell space radius space bold A divided by k equals space 0.56 divided by 3 over 8 end cell end table`
+$\begin{gathered} \text{radius} B & = \text{radius} A \div k = 0.56 \div \frac{3}{8} \end{gathered}$
 
 **0.21 m**** ****[1]**
 
@@ -192,17 +192,17 @@ $k=\sqrt{\frac{226}{94}}$
 
 > *Form an equation using the two volumes.*
 
-`table row cell V subscript straight S space end cell equals cell space space k cubed V subscript straight M end cell row cell 40 space 500 space end cell equals cell space 12 k cubed end cell end table`
+$\begin{gathered} V_{S} & = k^{3} V_{M} \\ 40 500 & = 12 k^{3} \end{gathered}$
 
 > *Solve to find *$k$*.*
 
-`table row cell k cubed space end cell equals cell space fraction numerator 40 space 500 over denominator 12 end fraction space equals space 3375 end cell row cell k space end cell equals cell space cube root of 3375 space equals space 15 end cell end table`
+$\begin{gathered} k^{3} & = \frac{40 500}{12} = 3375 \\ k & = \sqrt[3]{3375} = 15 \end{gathered}$
 
 **[1]**
 
-> *The same proportions will apply to the height of the model and the statue, however height is one dimension so the formula *`table row cell h subscript straight S space end cell equals cell space k open parentheses h subscript straight M close parentheses end cell end table`* is used.*
+> *The same proportions will apply to the height of the model and the statue, however height is one dimension so the formula *$\begin{gathered} h_{S} & = k ( h_{M} ) \end{gathered}$* is used.*
 
-`table row cell h subscript straight S space end cell equals cell space 4 open parentheses h subscript straight M close parentheses end cell row space equals cell space left parenthesis 4 right parenthesis left parenthesis 15 right parenthesis end cell end table`
+$\begin{gathered} h_{S} & = 4 ( h_{M} ) \\ = ( 4 ) ( 15 ) \end{gathered}$
 
 **[1]**
 
@@ -235,7 +235,7 @@ $PU:UQ=4k:3k$
 
 > * *
 
-`table row cell P U space colon space open parentheses P U space plus space U Q close parentheses space end cell equals cell space 4 k space colon space open parentheses 4 k space plus space 3 k close parentheses end cell row cell P U space colon space P Q space end cell equals cell space 4 k space colon space 7 k end cell end table`
+$\begin{gathered} P U : ( P U + U Q ) & = 4 k : ( 4 k + 3 k ) \\ P U : P Q & = 4 k : 7 k \end{gathered}$
 
 > * *
 
@@ -255,13 +255,13 @@ ii) *For two lengths, **A** and **B**  to be mathematically similar, there must 
 
 > *Use the ratio **PU **: **PQ **= 4 : 7 to find the value of** k such that PU **=** kPQ .*
 
-`table row cell 7 P U space end cell equals cell space 4 P Q end cell row cell P U space end cell equals cell fraction numerator 4 P Q over denominator 7 end fraction end cell row cell P U space end cell equals cell 4 over 7 P Q end cell row cell k space end cell equals cell 4 over 7 end cell end table`
+$\begin{gathered} 7 P U & = 4 P Q \\ P U & = \frac{4 P Q}{7} \\ P U & = \frac{4}{7} P Q \\ k & = \frac{4}{7} \end{gathered}$
 
 > *The area of triangle **PQR **= **k*<sup>*2*</sup>*(area **PUT**). *
 
 > *Use this value of **k** with the area of triangle **PUT ** to find the area of triangle **PQR.** Remember to use **k*<sup>*2  *</sup>*in the formula as we are working with area.*
 
-`table row cell Area subscript P U T end subscript space end cell equals cell space k squared space cross times space Area subscript P Q R end subscript end cell row cell 20 space end cell equals cell space open parentheses 4 over 7 close parentheses squared space cross times space Area subscript P Q R end subscript end cell row cell Area subscript P Q R end subscript space end cell equals cell fraction numerator space 20 over denominator space open parentheses 4 over 7 close parentheses squared end fraction end cell row blank equals cell space 61.25 end cell end table`
+`| Area _ P U T end _ | = k ^2 x Area _ P Q R end _ | | 20 | = ( 4 / 7 ) ^2 x Area _ P Q R end _ | | Area _ P Q R end _ | = ( 20)/( ( 4 / 7 ) ^2) | | _ = 61.25 | |`
 
 *  **Correct scale factor squared*** ****[1]  **
 
@@ -280,18 +280,18 @@ $k^{3}=\frac{0.5}{0.25}=2$
 
 > *Therefore the length scale factor is the cube root of 2.*
 
-`k equals cube root of 2`
+$k = \sqrt[3]{2}$
 
 **[1]**
 
 > *The height of the larger glass is 13 cm. To get get the height of the smaller glass we need to divide by the length scale factor. *
 *A common mistake here is to multiply rather than divide, but this will give you a larger height- remember we're finding the height of the smaller glass.*
 
-`table row h equals cell 13 divided by cube root of 2 end cell end table`
+$\begin{gathered} h = 13 \div \sqrt[3]{2} \end{gathered}$
 
 **[1]**
 
-`table attributes columnalign right center left columnspacing 0px end attributes row blank equals cell 10.31810684... end cell end table`
+$\begin{array}{rcl} = 10.31810684... \end{array}$
 
 > *Round your answer to at least 3 significant figures.*
 
@@ -303,7 +303,7 @@ $h=10.3$** [1]**
 
 *Triangles ***AEC ***and ***BDC ***are similar*
 
-> *The triangles are similar so there will exist a value of **k **such that  *`table row cell A E space end cell equals cell space k B D end cell end table`*, *`table row cell C D space end cell equals cell space k C E end cell end table`* and *`table row cell B C space end cell equals cell space k A C end cell end table`*. *
+> *The triangles are similar so there will exist a value of **k **such that  *$\begin{gathered} A E & = k B D \end{gathered}$*, *$\begin{gathered} C D & = k C E \end{gathered}$* and *$\begin{gathered} B C & = k A C \end{gathered}$*. *
 *k **is known as the scale factor.*
 
 > *It may help to draw the two triangles out separately next to each other.*
@@ -312,37 +312,37 @@ $h=10.3$** [1]**
 
 > *Form an equation using the two known sides of the triangle.*
 
-`table row cell C E space end cell equals cell space k C D end cell end table`
+$\begin{gathered} C E & = k C D \end{gathered}$
 
 > *Substitute the values of *$CE$* and *$CD$* into the equation and solve to find *$k$*.*
 
-`table row cell 8.1 space end cell equals cell space 5.4 k end cell row cell k space end cell equals cell space fraction numerator 8.1 over denominator 5.4 end fraction space equals space 3 over 2 end cell end table`
+$\begin{gathered} 8.1 & = 5.4 k \\ k & = \frac{8.1}{5.4} = \frac{3}{2} \end{gathered}$
 
 **[1]**
 
-> *Substitute into *`table row cell A E space end cell equals cell space k B D end cell end table`*.*
+> *Substitute into *$\begin{gathered} A E & = k B D \end{gathered}$*.*
 
-`table row cell A E space end cell equals cell space k B D end cell row cell x space end cell equals cell space left parenthesis 3 over 2 right parenthesis open parentheses 2.6 close parentheses end cell end table`
+$\begin{gathered} A E & = k B D \\ x & = ( \frac{3}{2} ) ( 2.6 ) \end{gathered}$
 
 $AE=3.9$** cm**** ****[1]**
 > *Add the new information to the diagram.*
 
 ![4-8-edexcel-gcse-mq6b](assets/011-4-8-edexcel-gcse-mq6b.png)
 
-> *Find *`table attributes columnalign right center left columnspacing 0px end attributes row blank blank cell B C end cell end table`* by substituting *`table row cell k space end cell equals cell space 3 over 2 end cell end table`* into *`table row cell A C space end cell equals cell space k B C end cell end table`*.*
+> *Find *$\begin{array}{rcl} B C \end{array}$* by substituting *$\begin{gathered} k & = \frac{3}{2} \end{gathered}$* into *$\begin{gathered} A C & = k B C \end{gathered}$*.*
 
-`table row cell A C space end cell equals cell space k B C end cell row cell 6.15 space end cell equals cell space left parenthesis 3 over 2 right parenthesis B C end cell end table`
+$\begin{gathered} A C & = k B C \\ 6.15 & = ( \frac{3}{2} ) B C \end{gathered}$
 
-> *Solve to find *`B C space open parentheses space equals space y close parentheses`*.*
+> *Solve to find *$B C ( = y )$*.*
 
-`table row cell 6.15 space end cell equals cell space fraction numerator space 3 y over denominator 2 end fraction end cell row cell y space end cell equals cell space fraction numerator 2 open parentheses 6.15 close parentheses over denominator 3 end fraction space equals space 4.1 end cell end table`
+$\begin{gathered} 6.15 & = \frac{ 3 y}{2} \\ y & = \frac{2 ( 6.15 )}{3} = 4.1 \end{gathered}$
 
 **[1]**
 
 > $AB=AC-BC$*. *
 *Substitute the values of*$AC$* and*$BC$* in.*
 
-`table row cell A B space end cell equals cell space A C space minus space B C space equals space 6.15 space minus space 4.1 end cell end table`
+$\begin{gathered} A B & = A C - B C = 6.15 - 4.1 \end{gathered}$
 
 $AB=2.05$** cm**** ****[1]**
 
@@ -423,8 +423,8 @@ $h_{2}=k\timesh_{1}\,7=k\times4\,k=\frac{7}{4}$
 *Remember to use **k*<sup>*3  *</sup>*in the formula as we are working with volume. *
 *Make sure you do not mix up which paperweight is which.*
 
-`V subscript 2 space equals space k cubed space cross times space V subscript 1
-space V subscript 2 space equals space open parentheses 7 over 4 close parentheses cubed space cross times space 38.4`
+$V_{2} = k^{3} \times V_{1} 
+ V_{2} = ( \frac{7}{4} )^{3} \times 38.4$
 
 *  **Correct scale factor cubed*** ****[1]  **
 *Correct formula ***[1]**
@@ -435,7 +435,7 @@ space V subscript 2 space equals space open parentheses 7 over 4 close parenthes
 
 > *Finding the area scale factor*
 
-`table row cell 6 space cm squared cross times Area space Scale space Factor space end cell equals cell space 73.5 space cm squared end cell row cell Area space Scale space Factor end cell equals cell fraction numerator 73.5 over denominator 6 end fraction equals 49 over 4 equals 12.25 end cell end table`
+$\begin{gathered} 6 cm^{2} \times \text{Area} \text{Scale} \text{Factor} & = 73.5 cm^{2} \\ \text{Area} \text{Scale} \text{Factor} & = \frac{73.5}{6} = \frac{49}{4} = 12.25 \end{gathered}$
 
 > *Therefore the scale factor for the lengths is*
 
@@ -571,8 +571,7 @@ $\frac{4}{3}πr^{3}=\frac{1}{9}\times1885$
 
 > *Find *$r$* (by cube-rooting both sides*
 
-`r equals cube root of fraction numerator 1 over 9 cross times 1885 over denominator 4 over 3 straight pi end fraction end root
-`
+`r = cbrt( (1 / 9 x 1885)/(4 / 3 pi) )`
 
 **3.68 cm*** ***[1]**
 
@@ -580,17 +579,17 @@ $\frac{4}{3}πr^{3}=\frac{1}{9}\times1885$
 *The ratio of radii is 1: 2 so write the smaller sphere radius as *$r$* and the bigger sphere radius as *$2r$
  *Form an equation in *$r$* (the sum of the volumes of the two spheres equals *$1885$*)* * *
 
-`4 over 3 straight pi r cubed plus 4 over 3 straight pi open parentheses 2 r close parentheses cubed equals 1885`
+$\frac{4}{3} \mathrm{\pi } r^{3} + \frac{4}{3} \mathrm{\pi } ( 2 r )^{3} = 1885$
 
 **[1]**
 
-*Collect like terms, using *`open parentheses 2 r close parentheses cubed equals 8 r cubed` * *
+*Collect like terms, using *$( 2 r )^{3} = 8 r^{3}$ * *
 
 $\frac{4}{3}πr^{3}+\frac{4}{3}π\times8r^{3}=1885\,\frac{36}{3}πr^{3}=1885\,12πr^{3}=1885$ * *
 
 *Find *$r$* (by dividing both sides by *$12π$* then cube-rooting)*
 
-`r equals cube root of fraction numerator 1885 over denominator 12 straight pi end fraction end root`
+$r = \sqrt[3]{ \frac{1885}{12 \mathrm{\pi } } }$
 
 **[1]**
 
@@ -622,17 +621,15 @@ $\mathrm{VSF}=\frac{2187}{648}\,\mathrm{VSF}=\frac{27}{8}$
 
 > *Work out the length scale factor (LSF), by taking the cube root of the VSF.*
 
-`LSF equals cube root of VSF
-LSF equals cube root of 27 over 8 end root
-LSF equals 3 over 2`
+`LSF = cbrt( VSF LSF = cbrt( 27 / 8 ) LSF = 3 / 2`
 
 **[1]**
 
 > *Work out the area scale factor (ASF), by squaring the LSF.*
 
-`ASF equals LSF squared
-ASF equals open parentheses 3 over 2 close parentheses squared
-ASF equals 9 over 4`
+$\text{ASF} = LSF^{2}
+\text{ASF} = ( \frac{3}{2} )^{2}
+\text{ASF} = \frac{9}{4}$
 
 > *Multiply the area of the smaller prism by the ASF to find the area of the larger prism.*
 
@@ -649,15 +646,15 @@ $36\times\frac{9}{4}$
 
 > *To help find the angle of the sector, first find the acute angle **DOE**. *
 
-> *Triangle **ODE** is right-angled and we have the hypotenuse (**DO** = 0.5) and the adjacent side (**OE** = 0.25). So we can use *`cos open parentheses D O E close parentheses equals Adjacent over Hypotenuse.`
+> *Triangle **ODE** is right-angled and we have the hypotenuse (**DO** = 0.5) and the adjacent side (**OE** = 0.25). So we can use *$\text{cos} ( D O E ) = \frac{Adjacent}{Hypotenuse}.$
 
-`cos open parentheses D O E close parentheses equals fraction numerator 0.25 over denominator 0.5 end fraction equals 1 half`
+$\cos ( D O E ) = \frac{0.25}{0.5} = 1 \frac{1}{2}$
 
 **[1]**
 
 > *Use inverse cos on your calculator to find the size of the angle.*
 
-`D O E equals cos to the power of negative 1 end exponent open parentheses 1 half close parentheses equals 60`
+$D O E = \cos ^{- 1} ( 1 \frac{1}{2} ) = 60$
 
 > *Subtract angle **DOE** from 270° to get the size of the angle of the sector.*
 
@@ -680,7 +677,7 @@ $l=\frac{210}{360}\times2π\times0.5\,l=\frac{7}{12}π$
 
 > *Add together the lengths.*
 
-`table row blank blank cell 1.5 plus 0.5 plus 1.5 plus 7 over 12 straight pi plus 0.5 end cell row blank equals cell 4 plus 7 over 12 straight pi end cell row blank equals cell 5.8325... end cell end table`
+$\begin{gathered} 1.5 + 0.5 + 1.5 + \frac{7}{12} \mathrm{\pi } + 0.5 \\ = 4 + \frac{7}{12} \mathrm{\pi } \\ = 5.8325... \end{gathered}$
 
 **[1]**
 
@@ -770,22 +767,22 @@ $15\times1.4$
 
 ![4-8-edexcel-gcse-easy-q4](assets/021-4-8-edexcel-gcse-easy-q4.png)
 
-> *As the triangles are similar, there will exist a value of **k **such that *`table row cell A B space end cell equals cell space k B D end cell end table`* and *`table row cell B C space end cell equals cell space k A B end cell end table`*.*
+> *As the triangles are similar, there will exist a value of **k **such that *$\begin{gathered} A B & = k B D \end{gathered}$* and *$\begin{gathered} B C & = k A B \end{gathered}$*.*
 * *$k$* **is known as the scale factor.*
 
 > *Form an equation using the two known sides of the triangle.*
 
-`table row cell A B space end cell equals cell space k B D end cell row cell 13 space end cell equals cell space 5 k end cell end table`
+$\begin{gathered} A B & = k B D \\ 13 & = 5 k \end{gathered}$
 
 **[1]**
 
 > *Solve to find *$k$*.*
 
-`table row cell k space end cell equals cell space 13 over 5 end cell end table`
+$\begin{gathered} k & = \frac{13}{5} \end{gathered}$
 
-> *Substitute into *`table row cell B C space end cell equals cell space k A B end cell end table`*.*
+> *Substitute into *$\begin{gathered} B C & = k A B \end{gathered}$*.*
 
-`table row cell B C space end cell equals cell space 13 over 5 open parentheses 13 close parentheses space equals space 169 over 5 end cell end table`
+$\begin{gathered} B C & = \frac{13}{5} ( 13 ) = \frac{169}{5} \end{gathered}$
 
 **[1]**
 
@@ -818,13 +815,13 @@ $28^{2}+18^{2}=AD^{2}$
 
 > *Rearrange to get *$AD$
 
-`table row cell A D end cell equals cell square root of 28 squared plus 18 squared end root end cell row blank equals cell space 33.28663395 end cell end table`
+$\begin{gathered} A D & = \sqrt{28^{2} + 18^{2}} \\ = 33.28663395 \end{gathered}$
 
 **[1]**
 
 > *The radius is half of *$AD$
 
-`table row r equals cell space open parentheses 33.28663395... close parentheses divided by 2 end cell row blank equals cell 16.64331698... end cell end table`
+$\begin{gathered} r = ( 33.28663395... ) \div 2 \\ = 16.64331698... \end{gathered}$
 
 > *Round the answer to at least 3 significant figures*
 
@@ -858,7 +855,7 @@ $m=5$* ***[1]**
 > *Do not round this! *
 *Height is a linear (1D) measurement so the height scale factor will be the cube root of the volume scale factor.*
 
-`cube root of 8 over 27 end root equals 2 over 3`
+$\sqrt[3]{\frac{8}{27}} = \frac{2}{3}$
 
 **[1]**
 
@@ -871,20 +868,20 @@ $29.7\times\frac{2}{3}=\frac{99}{5}=19.8$
 **19.8 cm ****[1]**
 
 ### Q25
-> *The triangles are similar so there will exist a value of **k **such that  *`table row cell P Q space end cell equals cell space k A B end cell end table`* and *`table attributes columnalign right center left columnspacing 0px end attributes row cell P R space end cell equals cell space k A C end cell end table`*.*
+> *The triangles are similar so there will exist a value of **k **such that  *$\begin{gathered} P Q & = k A B \end{gathered}$* and *$\begin{array}{rcl} P R & = k A C \end{array}$*.*
 
 > *Form an equation using the two known sides of the triangle.*
 
-`table row cell P R space end cell equals cell space k A C end cell end table`
+$\begin{gathered} P R & = k A C \end{gathered}$
 
 > *Substitute the values of *$PR$* and *$AC$* into the equation and solve to find *$k$*.*
 
-`table row cell 21.7 space end cell equals cell space 12.4 k end cell row cell k space end cell equals cell space fraction numerator 21.7 over denominator 12.4 end fraction space equals space 1.75 end cell end table`
+$\begin{gathered} 21.7 & = 12.4 k \\ k & = \frac{21.7}{12.4} = 1.75 \end{gathered}$
 
 **[1]**
 
-> *Substitute into *`table row cell P Q space end cell equals cell space k A B end cell end table`*.*
+> *Substitute into *$\begin{gathered} P Q & = k A B \end{gathered}$*.*
 
-`table row cell P Q space end cell equals cell space k A B end cell row cell P Q space end cell equals cell space left parenthesis 1.75 right parenthesis left parenthesis 5.2 right parenthesis end cell end table`
+$\begin{gathered} P Q & = k A B \\ P Q & = ( 1.75 ) ( 5.2 ) \end{gathered}$
 
 $PQ=9.1$** cm**** ****[1]**

@@ -19,7 +19,7 @@ guided_study: false
 
 ### What is the general binomial expansion?
 
-- The **general binomial expansion** lets us write `open parentheses 1 plus x close parentheses to the power of n` as a **binomial series**
+- The **general binomial expansion** lets us write $( 1 + x )^{n}$ as a **binomial series**
 
   - It is valid for **any **$n\inℚ$
   
@@ -38,7 +38,7 @@ guided_study: false
 
 - A general binomial expansion is found using the binomial series **formula**
 
-  - `open parentheses 1 plus x close parentheses to the power of n equals 1 plus n x plus fraction numerator n open parentheses n minus 1 close parentheses over denominator 2 factorial end fraction x squared plus... plus fraction numerator n open parentheses n minus 1 close parentheses... open parentheses n minus r plus 1 close parentheses over denominator r factorial end fraction x to the power of r plus... space space space space for space open vertical bar x close vertical bar less than 1 comma space n element of straight rational numbers`
+  - $( 1 + x )^{n} = 1 + n x + \frac{n ( n - 1 )}{2 factorial} x^{2} +... + \frac{n ( n - 1 )... ( n - r + 1 )}{r factorial} x^{r} +... \text{for} \left| x \right| < 1 , n \in \mathbb{Q}$
   - This formula is on the exam **formula sheet**
   
     - So you don't need to **remember** it
@@ -54,13 +54,13 @@ guided_study: false
 
 ### How do I use the binomial series formula?
 
-- Usually you will be asked to **expand** something **in the form **`open parentheses p plus q x close parentheses to the power of n`
+- Usually you will be asked to **expand** something **in the form **$( p + q x )^{n}$
 - But the formula **only works** if the constant term is a 1
 
   - So start by pulling out a **factor** of $p$
   
-    - `open parentheses p plus q x close parentheses to the power of n equals open parentheses p open parentheses 1 plus q over p x close parentheses close parentheses to the power of n equals p to the power of n open parentheses 1 plus q over p x close parentheses to the power of n`
-  - Then **expand**  `open parentheses 1 plus q over p x close parentheses to the power of n`
+    - $( p + q x )^{n} = ( p ( 1 + \frac{q}{p} x ) )^{n} = p^{n} ( 1 + \frac{q}{p} x )^{n}$
+  - Then **expand**  $( 1 + \frac{q}{p} x )^{n}$
   
     - **Substitute** $\frac{q}{p}x$ everywhere that $x$ is in the formula
     - The **interval of convergence** becomes   `open vertical bar p over q x close vertical bar less than 1`
@@ -69,13 +69,13 @@ guided_study: false
 
   - The expression may be in the **denominator** of a fraction
   
-    - `1 over open parentheses p plus q x close parentheses to the power of k equals open parentheses p plus q x close parentheses to the power of negative k end exponent`
+    - $\frac{1}{( p + q x )^{k = ( p + q x )^{-k}} }$
   - Or inside a **square root**
   
-    - `square root of p plus q x end root equals open parentheses p plus q x close parentheses to the power of 1 half end exponent`
+    - $\sqrt{p + q x} = ( p + q x )^{1 \frac{1}{2}}$
   - Or be written as a **more complex root**
   
-    - `m-th root of open parentheses p plus q x close parentheses to the power of k end root equals open parentheses p plus q x close parentheses to the power of k over m end exponent`
+    - $\sqrt[m]{ ( p + q x ) ^{k}} = ( p + q x ) ^{\frac{k}{m}}$
 
 > **Exam Hint**
 > - Remember the formula is on the formula sheet
@@ -91,21 +91,21 @@ guided_study: false
 > 
 > > *Start by rewriting using laws of indices*
 > 
-> `fraction numerator 1 over denominator square root of 9 minus 3 x end root end fraction equals open parentheses 9 minus 3 x close parentheses to the power of negative 1 half end exponent`
+> $\frac{1}{ \sqrt{9 - 3 x} } = ( 9 - 3 x )^{- 1 \frac{1}{2}}$
 > 
 > > *Now pull out a factor to make the constant term inside the brackets a 1*
 > 
-> `table row cell open parentheses 9 minus 3 x close parentheses to the power of negative 1 half end exponent end cell equals cell open parentheses 9 to the power of negative 1 half end exponent close parentheses open parentheses 1 minus 3 over 9 x close parentheses to the power of negative 1 half end exponent end cell row blank equals cell 1 third open parentheses 1 minus x over 3 close parentheses to the power of negative 1 half end exponent end cell end table`
+> $\begin{gathered} ( 9 - 3 x )^{- 1 \frac{1}{2}} & = ( 9^{- 1 \frac{1}{2}} ) ( 1 - \frac{3}{9} x )^{- 1 \frac{1}{2}} \\ = 1 \frac{1}{3} ( 1 - \frac{x}{3} )^{- 1 \frac{1}{2}} \end{gathered}$
 > 
-> > *Now use the binomial series formula to expand *`open parentheses 1 minus x over 3 close parentheses to the power of negative 1 half end exponent`
+> > *Now use the binomial series formula to expand *$( 1 - \frac{x}{3} )^{- 1 \frac{1}{2}}$
 > 
 > > *Use *$n=\frac{1}{2}$* and substitute  *$-\frac{x}{3}$* everywhere that *$x$* appears in the formula*
 > 
-> > `table row cell open parentheses 1 minus x over 3 close parentheses to the power of negative 1 half end exponent end cell equals cell 1 plus open parentheses negative 1 half close parentheses open parentheses negative x over 3 close parentheses plus fraction numerator open parentheses negative 1 half close parentheses open parentheses negative 1 half minus 1 close parentheses over denominator 2 factorial end fraction open parentheses negative x over 3 close parentheses squared plus fraction numerator open parentheses negative 1 half close parentheses open parentheses negative 1 half minus 1 close parentheses open parentheses negative 1 half minus 2 close parentheses over denominator 3 factorial end fraction open parentheses negative x over 3 close parentheses cubed plus... end cell row blank equals cell 1 plus 1 over 6 x plus fraction numerator open parentheses negative 1 half close parentheses open parentheses negative 3 over 2 close parentheses over denominator 2 end fraction open parentheses x squared over 9 close parentheses plus fraction numerator open parentheses negative 1 half close parentheses open parentheses negative 3 over 2 close parentheses open parentheses negative 5 over 2 close parentheses over denominator 6 end fraction open parentheses negative x cubed over 27 close parentheses plus... end cell row blank equals cell 1 plus 1 over 6 x plus fraction numerator open parentheses 3 over 4 close parentheses over denominator 2 end fraction open parentheses x squared over 9 close parentheses plus fraction numerator open parentheses negative 15 over 8 close parentheses over denominator 6 end fraction open parentheses negative x cubed over 27 close parentheses plus... end cell row blank equals cell 1 plus 1 over 6 x plus open parentheses 3 over 8 close parentheses open parentheses x squared over 9 close parentheses plus open parentheses negative 5 over 16 close parentheses open parentheses negative x cubed over 27 close parentheses plus... end cell row blank equals cell 1 plus 1 over 6 x plus 1 over 24 x squared plus 5 over 432 x cubed plus... end cell end table`
+> > `| ( 1 - x / 3 ) ^ - 1 half | = 1 + ( - 1 half ) ( - x / 3 ) + (( - 1 half ) ( - 1 half - 1 ))/(2 factorial) ( - x / 3 ) ^2 + (( - 1 half ) ( - 1 half - 1 ) ( - 1 half - 2 ))/(3 factorial) ( - x / 3 ) ^3 +... | | _ = 1 + 1 / 6 x + (( - 1 half ) ( - 3 / 2 ))/(2) ( x ^2 / 9 ) + (( - 1 half ) ( - 3 / 2 ) ( - 5 / 2 ))/(6) ( - x ^3 / 27 ) +... | | _ = 1 + 1 / 6 x + (( 3 / 4 ))/(2) ( x ^2 / 9 ) + (( - 15 / 8 ))/(6) ( - x ^3 / 27 ) +... | | _ = 1 + 1 / 6 x + ( 3 / 8 ) ( x ^2 / 9 ) + ( - 5 / 16 ) ( - x ^3 / 27 ) +... | | _ = 1 + 1 / 6 x + 1 / 24 x ^2 + 5 / 432 x ^3 +... | |`
 > 
 > *Now don't forget to multiply by *$\frac{1}{3}$* (factorised out earlier) to get the final answer!*
 > 
-> `fraction numerator 1 over denominator square root of 9 minus 3 x end root end fraction equals 1 third open parentheses table attributes columnalign right center left columnspacing 0px end attributes row blank blank cell 1 plus 1 over 6 x plus 1 over 24 x squared plus 5 over 432 x cubed plus... end cell end table close parentheses`
+> $\frac{1}{ \sqrt{9 - 3 x} } = 1 \frac{1}{3} ( \begin{array}{rcl} 1 + \frac{1}{6} x + \frac{1}{24} x^{2} + \frac{5}{432} x^{3} +... \end{array} )$
 > 
 > $\frac{1}{\sqrt{9-3x}}=\frac{1}{3}+\frac{1}{18}x+\frac{1}{72}x^{2}+\frac{5}{1296}x^{3}+...$
 > 

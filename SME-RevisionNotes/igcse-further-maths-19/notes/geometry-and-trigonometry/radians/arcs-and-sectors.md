@@ -74,7 +74,7 @@ guided_study: false
 > > *Use the arc length formula (in the degrees form) with *$r=12$* and *$θ=38$
 > *(You could also convert *$38^{\circ}$* to radians and use the radians version of the formula)*
 > 
-> `l equals 38 over 360 cross times 2 pi open parentheses 12 close parentheses equals fraction numerator 38 pi over denominator 15 end fraction equals 7.958701...`
+> $l = \frac{38}{360} \times 2 \pi ( 12 ) = \frac{38 \pi }{15} = 7.958701...$
 > 
 > > *Round to 3 significant figures*
 > 
@@ -96,7 +96,7 @@ guided_study: false
 > 
 > > *Use the arc length formula (in the degrees form) with *$r=12$* and *$θ=322$
 > 
-> `perimeter equals open parentheses 322 over 360 cross times 2 pi open parentheses 12 close parentheses close parentheses plus 12 plus 12 equals fraction numerator 322 pi over denominator 15 end fraction plus 24 equals 91.439522...`
+> $\text{perimeter} = ( \frac{322}{360} \times 2 \pi ( 12 ) ) + 12 + 12 = \frac{322 \pi }{15} + 24 = 91.439522...$
 > 
 > > *Round to 3 significant figures*
 > 
@@ -115,7 +115,7 @@ guided_study: false
 > 
 > > *Use the arc length formula (in the radians form) with *$r=7$* and *$θ=\frac{π}{6}$
 > 
-> `perimeter equals open parentheses 7 close parentheses open parentheses pi over 6 close parentheses plus 7 plus 7 equals fraction numerator 7 pi over denominator 6 end fraction plus 14`
+> $\text{perimeter} = ( 7 ) ( \frac{\pi }{6} ) + 7 + 7 = \frac{7 \pi }{6} + 14$
 > 
 > > *The question asks for an exact value answer, so just write that down (with units!)*
 > 
@@ -181,7 +181,7 @@ guided_study: false
 > 
 > > *(You could also convert *$100^{\circ}$* to radians and use the radians version of the formula)*
 > 
-> `A equals 100 over 360 cross times pi open parentheses 50 close parentheses squared equals fraction numerator 6250 pi over denominator 9 end fraction equals 2181.6615...`
+> $A = \frac{100}{360} \times \pi ( 50 )^{2} = \frac{6250 \pi }{9} = 2181.6615...$
 > 
 > > *Round to 3 significant figures*
 > 
@@ -195,7 +195,7 @@ guided_study: false
 > 
 > > *Use the sector area formula (degrees form) with *$r=50$* and *$θ=260$
 > 
-> `A equals 260 over 160 cross times pi open parentheses 50 close parentheses squared equals fraction numerator 16250 pi over denominator 9 end fraction equals 5672.3200...`
+> $A = \frac{260}{160} \times \pi ( 50 )^{2} = \frac{16250 \pi }{9} = 5672.3200...$
 > 
 > > *Round to 3 significant figures*
 > 
@@ -212,7 +212,7 @@ guided_study: false
 > 
 > > *Use the sector area formula (radians form) with *$r=7$* and *$θ=\frac{π}{6}$
 > 
-> `A equals 1 half open parentheses 7 close parentheses squared open parentheses pi over 6 close parentheses equals fraction numerator 49 pi over denominator 12 end fraction`
+> $A = 1 \frac{1}{2} ( 7 )^{2} ( \frac{\pi }{6} ) = \frac{49 \pi }{12}$
 > 
 > > *The question asks for an exact value answer, so just write that down (with units!)*
 > 

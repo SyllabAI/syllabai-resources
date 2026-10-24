@@ -235,7 +235,7 @@
       "spcpt_sH6wmW3VVsjtnMYT"
      ],
      "part_tier": "a_level_only",
-     "problem_md": "By separating the variables, show that the solution to the differential equation\n\n$\\frac{dy}{dx}=2xy,y>0$\n\ncan be found by solving\n\n`integral 1 over y space space straight d y equals integral 2 x space space d x.`",
+     "problem_md": "By separating the variables, show that the solution to the differential equation\n\n$\\frac{dy}{dx}=2xy,y>0$\n\ncan be found by solving\n\n$\\int \\frac{1}{y} \\mathrm{d} y = \\int 2 x d x.$",
      "solution_md": "![](assets/004-img.png)",
      "equations": [
       {
@@ -463,7 +463,7 @@
       "spcpt_sH6wmW3VVsjtnMYT"
      ],
      "part_tier": "a_level_only",
-     "problem_md": "Show that\n\n`integral 1 over V space d V equals k integral space straight d t`\n\nand hence find the general solution to the differential equation.",
+     "problem_md": "Show that\n\n$\\int \\frac{1}{V} d V = k \\int \\mathrm{d} t$\n\nand hence find the general solution to the differential equation.",
      "solution_md": "![](assets/018-img.png)",
      "spec_point_codes": [
       "6.4"
@@ -568,7 +568,7 @@
       "spcpt_kp9mJX8PDbPPf4w6"
      ],
      "part_tier": "a_level_only",
-     "problem_md": "Given that $y>-2$, find the general solution to the differential equation\n\n$\\frac{dy}{dx}=9(y+2)x^{\\frac{1}{2}}$\n\ngiving your answer in the form\n\n`y equals A e to the power of straight f open parentheses x close parentheses end exponent minus 2.`",
+     "problem_md": "Given that $y>-2$, find the general solution to the differential equation\n\n$\\frac{dy}{dx}=9(y+2)x^{\\frac{1}{2}}$\n\ngiving your answer in the form\n\n$y = A e^{ \\mathrm{f} ( x )} - 2.$",
      "solution_md": "![](assets/010-img.png)",
      "equations": [
       {
@@ -798,7 +798,7 @@
       "spcpt_fT888hj3nWRtGBpn"
      ],
      "part_tier": "a_level_only",
-     "problem_md": "A tree disease is spreading throughout a large forested area.\n\nThe differential equation\n\n$e^{-kt}\\frac{dN}{dt}=\\frac{2}{5}$\n\nwhere *k* is a positive constant, is used to model the number of infected trees, N, at a time *t* days after the disease was first discovered.\n\nShow that\n\n`integral 5 space space straight d N equals integral 2 e to the power of k t end exponent space space straight d t.`",
+     "problem_md": "A tree disease is spreading throughout a large forested area.\n\nThe differential equation\n\n$e^{-kt}\\frac{dN}{dt}=\\frac{2}{5}$\n\nwhere *k* is a positive constant, is used to model the number of infected trees, N, at a time *t* days after the disease was first discovered.\n\nShow that\n\n$\\int 5 \\mathrm{d} N = \\int 2 e^{k t} \\mathrm{d} t.$",
      "solution_md": "![](assets/011-img.png)",
      "equations": [
       {
@@ -2289,7 +2289,7 @@
       "spcpt_sH6wmW3VVsjtnMYT"
      ],
      "part_tier": "a_level_only",
-     "problem_md": "Using the standard integral result\n\n`integral s e c space k theta space space d theta equals 1 over k ln open vertical bar space tan space open parentheses fraction numerator k theta over denominator 2 end fraction plus pi over 4 close parentheses space close vertical bar plus c`\n\n(where *k* is a constant, and *c* is a constant of integration), show that the solution to the differential equation\n\n$\\mathrm{cos}x\\frac{dy}{dx}=\\mathrm{cos}y$\n\nwith boundary condition$x=0$,  $y=π$,  may be written in the form\n\n`open vertical bar tan space open parentheses y over 2 plus pi over 4 close parentheses space close vertical bar equals open vertical bar tan space open parentheses x over 2 plus pi over 4 close parentheses close vertical bar`",
+     "problem_md": "Using the standard integral result\n\n$\\int s e c k \\\\theta d \\\\theta = \\frac{1}{k} \\ln \\left| \\tan ( \\frac{k \\\\theta }{2} + \\frac{\\pi }{4} ) \\right| + c$\n\n(where *k* is a constant, and *c* is a constant of integration), show that the solution to the differential equation\n\n$\\mathrm{cos}x\\frac{dy}{dx}=\\mathrm{cos}y$\n\nwith boundary condition$x=0$,  $y=π$,  may be written in the form\n\n$\\left| \\tan ( \\frac{y}{2} + \\frac{\\pi }{4} ) \\right| = \\left| \\tan ( \\frac{x}{2} + \\frac{\\pi }{4} ) \\right|$",
      "solution_md": "![](assets/027-img.png)",
      "equations": [
       {
@@ -2326,7 +2326,7 @@
      },
      "spec_point_ids": [],
      "part_tier": "a_level_only",
-     "problem_md": "(i) Show that the relationship between *x* and *y* in  `open vertical bar tan space open parentheses y over 2 plus pi over 4 close parentheses close vertical bar space equals open vertical bar tan open parentheses space x over 2 plus pi over 4 close parentheses close vertical bar` may also be expressed by the set of all equations of the forms\n\n`y equals x plus 2 n pi space space space space space space o r space space space space space space y equals negative x plus open parentheses 2 n minus 1 close parentheses pi`\n\nwhere *n* is an integer.\n\n(ii) Hence deduce that the particular solution to the differential equation in part (a), with the given boundary condition, is  $y=π-x$ .",
+     "problem_md": "(i) Show that the relationship between *x* and *y* in  $\\left| \\tan ( \\frac{y}{2} + \\frac{\\pi }{4} ) \\right| = \\left| \\tan ( \\frac{x}{2} + \\frac{\\pi }{4} ) \\right|$ may also be expressed by the set of all equations of the forms\n\n$y = x + 2 n \\pi o r y = - x + ( 2 n - 1 ) \\pi$\n\nwhere *n* is an integer.\n\n(ii) Hence deduce that the particular solution to the differential equation in part (a), with the given boundary condition, is  $y=π-x$ .",
      "solution_md": "![](assets/028-img.png)",
      "equations": [
       {
@@ -2363,7 +2363,7 @@
       "spcpt_sH6wmW3VVsjtnMYT"
      ],
      "part_tier": "a_level_only",
-     "problem_md": "A tree disease is spreading throughout a large forested area.\n\nThe rate of increase in the number of infected trees is modelled by the differential equation\n\n`fraction numerator straight d N over denominator straight d t end fraction equals k N open parentheses N minus 1 close parentheses comma space space space N greater than 1`\n\nwhere *N* is the number of infected trees, *t* is the time in days since the disease was first identified and *k* is a positive constant.\n\nSolve the differential equation above, and show that the general solution can be written in the form\n\n$N=\\frac{1}{1-Ae^{kt}}$\n\nwhere *A* is a positive constant.",
+     "problem_md": "A tree disease is spreading throughout a large forested area.\n\nThe rate of increase in the number of infected trees is modelled by the differential equation\n\n$\\frac{ \\mathrm{d} N}{ \\mathrm{d} t} = k N ( N - 1 ) , N > 1$\n\nwhere *N* is the number of infected trees, *t* is the time in days since the disease was first identified and *k* is a positive constant.\n\nSolve the differential equation above, and show that the general solution can be written in the form\n\n$N=\\frac{1}{1-Ae^{kt}}$\n\nwhere *A* is a positive constant.",
      "solution_md": "![](assets/022-img.png)",
      "equations": [
       {

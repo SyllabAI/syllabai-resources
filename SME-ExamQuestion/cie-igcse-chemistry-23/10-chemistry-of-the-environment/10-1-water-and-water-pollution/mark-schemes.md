@@ -176,7 +176,7 @@ The explanations for the other steps are all correct:
   - % by mass = $\frac{\mathrm{total} \mathrm{mass} \mathrm{of} \mathrm{the} \mathrm{element} \mathrm{in} \mathrm{the} \mathrm{compound}}{M_{r}\mathrm{of} \mathrm{the} \mathrm{compound}}\times100$
 - For (**N**H<sub>4</sub>)<sub>2</sub>SO<sub>4</sub>
 
-  - % by mass = `fraction numerator 2 space cross times space 14 over denominator 2 space cross times space open parentheses 14 space plus space open parentheses 4 space cross times space 1 close parentheses close parentheses space plus space 32 space plus space open parentheses 4 space cross times space 16 close parentheses end fraction space cross times space 100`= 21.2%
+  - % by mass = $\frac{2 \times 14}{2 \times ( 14 + ( 4 \times 1 ) ) + 32 + ( 4 \times 16 )} \times 100$= 21.2%
 - For **N**H<sub>4</sub>**N**O<sub>3</sub>
 
   - % by mass =  $\frac{2\times14}{(2\times14)+(4\times1)+(3\times16)}\times100$= 35.0%
@@ -185,7 +185,7 @@ The explanations for the other steps are all correct:
   - % by mass = $\frac{2\times39}{(2\times39)+32+(4\times16)}\times100$= 44.8%
 - Ca<sub>3</sub>(**P**O<sub>4</sub>)<sub>2</sub>
 
-  - % by mass =  `fraction numerator 2 space cross times space 31 over denominator stretchy left parenthesis 3 space cross times space 40 stretchy right parenthesis space plus space 2 space cross times open parentheses 31 plus space stretchy left parenthesis 4 space cross times space 16 close parentheses stretchy right parenthesis end fraction space cross times space 100`= 20%
+  - % by mass =  $\frac{2 \times 31}{( 3 \times 40 ) + 2 \times ( 31 + ( 4 \times 16 ) )} \times 100$= 20%
 
 ### Q13
 **Final answer:** **The correct answer is ****B**** because**

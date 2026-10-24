@@ -7,7 +7,7 @@
 ### 13((e)) — 2 marks
 > *Solve for *$q$*, using the balance method for example and doing the same thing to each side of the inequality*
 
-`table row cell 2 q end cell greater or equal than cell 31 minus 3 q end cell row cell 2 q plus 3 q end cell greater or equal than 31 row cell 5 q end cell greater or equal than 31 row q greater or equal than cell 31 over 5 end cell end table`
+$\begin{gathered} 2 q & \text{greater} \text{or} \text{equal} \text{than} 31 - 3 q \\ 2 q + 3 q & \text{greater} \text{or} \text{equal} \text{than} 31 \\ 5 q & \text{greater} \text{or} \text{equal} \text{than} 31 \\ q \text{greater} \text{or} \text{equal} \text{than} \frac{31}{5} \end{gathered}$
 
 **[M1]**
 

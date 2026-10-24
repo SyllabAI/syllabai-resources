@@ -47,9 +47,9 @@ $\mathrm{Current} \mathrm{ratio}=\frac{\mathrm{Current} \mathrm{assets}}{\mathrm
 > 
 > **Step 1: Substitute the values into the equation**
 > 
-> `equals space fraction numerator $ 15 comma 545 space over denominator $ 5 comma 060 end fraction
+> $= \frac{\$ 15 , 545 }{\$ 5 , 060} 
 > 
-> equals space space space space 3.07 space colon space 1`       **(2)**
+> = 3.07 : 1$       **(2)**
 > 
 > - **In this example, Packer Sports Ltd has \$3.07 of current assets to cover each \$1 of short-term debt**
 
@@ -77,17 +77,17 @@ $\mathrm{Current} \mathrm{ratio}=\frac{\mathrm{Current} \mathrm{assets}}{\mathrm
 > 
 > **Step 1: Subtract inventory from current assets **
 > 
-> `$ 15 comma 545 space minus space $ 8 comma 250
+> $\$ 15 , 545 - \$ 8 , 250
 > 
-> equals space $ 7 comma 295`      **(1)**
+> = \$ 7 , 295$      **(1)**
 > 
 > **Step 1: Substitute the values into the equation**
 > 
-> `Acid space test space ratio space equals space fraction numerator space Current space assets space minus space Inventory over denominator Current space liabilities end fraction
+> $\text{Acid} \text{test} \text{ratio} = \frac{ \text{Current} \text{assets} - Inventory}{Current liabilities} 
 > 
-> equals space fraction numerator space $ 7 comma 295 over denominator $ 5 comma 060 end fraction
+> = \frac{ \$ 7 , 295}{\$ 5 , 060} 
 > 
-> equals space 1.44`**(1)**
+> = 1.44$**(1)**
 > 
 > **Step 2: Express the outcome as a ratio**
 > 

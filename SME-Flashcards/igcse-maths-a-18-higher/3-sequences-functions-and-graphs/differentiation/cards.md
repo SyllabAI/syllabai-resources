@@ -103,7 +103,7 @@ To differentiate powers of $x$:
 - multiply the number in front by the power
 - then subtract one from the power
 
-So the derivative of $2x^{3}$ is  `open parentheses 3 cross times 2 close parentheses x to the power of 3 minus 1 end exponent equals 6 x squared`.
+So the derivative of $2x^{3}$ is  $( 3 \times 2 ) x^{3 - 1} = 6 x^{2}$.
 
 
 
@@ -148,7 +148,7 @@ What is the **main rule** for differentiating a **number of terms** added or sub
 
 The **main rule** for differentiating a **number of terms** added or subtracted together is simply to differentiate **each term one at a time**.
 
-So the derivative of  $2x^{3}-3x+4$  is  `open parentheses 3 cross times 2 close parentheses x to the power of 3 minus 1 end exponent minus 3 plus 0 equals 6 x squared minus 3`.
+So the derivative of  $2x^{3}-3x+4$  is  $( 3 \times 2 ) x^{3 - 1} - 3 + 0 = 6 x^{2} - 3$.
 
 
 
@@ -492,7 +492,7 @@ To find its area, $A$ m<sup>2</sup>, in terms of $x$ only
 ($2x+2y=100$)
 3. Make $y$ the subject ($y=50-x$) and substitute it into $A$
 
-This gives `A equals x open parentheses 50 minus x close parentheses` which expands to give $A=50x-x^{2}$. This is now in **one variable** only.
+This gives $A = x ( 50 - x )$ which expands to give $A=50x-x^{2}$. This is now in **one variable** only.
 
 
 

@@ -70,22 +70,22 @@ guided_study: true
 > > *Cosine Rule:  *$a^{2}=b^{2}+c^{2}-2bc\mathrm{cos}A$*, *
 > *where *$A$* is the angle opposite side *$a$*  *
 > 
-> `table row cell A C squared end cell equals cell A B squared plus B C squared minus 2 open parentheses A B close parentheses open parentheses B C close parentheses space cos space A B C end cell row cell 4.4 squared end cell equals cell 7.4 squared plus 4.8 squared minus 2 open parentheses 7.4 close parentheses open parentheses 4.8 close parentheses space cos space A B C end cell end table`
+> $\begin{gathered} A C^{2} & = A B^{2} + B C^{2} - 2 ( A B ) ( B C ) \cos A B C \\ 4.4^{2} & = 7.4^{2} + 4.8^{2} - 2 ( 7.4 ) ( 4.8 ) \cos A B C \end{gathered}$
 > 
 > > *Rearrange to make*$\mathrm{cos}ABC$* the subject*
 > 
-> `table row cell 4.4 squared minus open parentheses space 7.4 squared plus 4.8 squared close parentheses end cell equals cell negative 2 open parentheses 7.4 close parentheses open parentheses 4.8 close parentheses space cos space A B C end cell row cell cos space A B C end cell equals cell fraction numerator 4.4 squared minus 7.4 squared minus 4.8 to the power of 2 space end exponent over denominator negative 2 open parentheses 7.4 close parentheses open parentheses 4.8 close parentheses end fraction end cell end table`
+> $\begin{gathered} 4.4^{2} - ( 7.4^{2} + 4.8^{2} ) & = - 2 ( 7.4 ) ( 4.8 ) \cos A B C \\ \cos A B C & = \frac{4.4^{2} - 7.4^{2} - 4.8^{2 } }{- 2 ( 7.4 ) ( 4.8 )} \end{gathered}$
 > 
 > > *Use your calculator to find the value of *$\mathrm{cos}ABC$
 > 
-> `table row cell cos space A B C end cell equals cell 487 over 592 end cell end table`
+> $\begin{gathered} \cos A B C & = \frac{487}{592} \end{gathered}$
 > 
 > > *Use the cos*<sup>*-1*</sup>* button on your calculator to find the value of *$ABC$
 > 
-> `table row cell A B C end cell equals cell cos to the power of negative 1 end exponent open parentheses 487 over 592 close parentheses end cell row blank equals cell 34.65054... end cell end table`
+> $\begin{gathered} A B C & = \cos ^{- 1} ( \frac{487}{592} ) \\ = 34.65054... \end{gathered}$
 > 
 > > *Now we can find the area of the triangle using the formula and angle  **ABC **as the known angle*
 > 
-> `table row Area equals cell 1 half cross times 4.8 cross times 7.4 cross times sin space 34.65054... end cell row blank equals cell 10.09779... end cell end table`
+> $\begin{gathered} \text{Area} = 1 \frac{1}{2} \times 4.8 \times 7.4 \times \sin 34.65054... \\ = 10.09779... \end{gathered}$
 > 
 > **Final answer:** $\mathrm{Area}=10.1\mathrm{cm}^{2}$** (3.s.f)**

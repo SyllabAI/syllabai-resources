@@ -8,19 +8,19 @@
 ### Q1
 Use the information to fill in more of the Venn diagram
 
-- `straight n open parentheses A intersection B apostrophe close parentheses` is the region inside the $A$ circle but outside the $B$ circle
+- $\mathrm{n} ( A \cap B ' )$ is the region inside the $A$ circle but outside the $B$ circle
 
 ![The Venn diagram from the question, with a 9 added to the part of the A circle that is outside the B circle.](assets/002-the-venn-diagram-from-the-question-with-a-9-adde.png)
 
-- `straight n open parentheses A union B close parentheses` is the entire region inside the $A$ circle or the $B$ circle (or both)
+- $\mathrm{n} ( A \cup B )$ is the entire region inside the $A$ circle or the $B$ circle (or both)
 
-  - `straight n open parentheses A union B close parentheses equals 23`, so the number in the overlap, `straight n open parentheses A intersection B close parentheses`, must be
+  - $\mathrm{n} ( A \cup B ) = 23$, so the number in the overlap, $\mathrm{n} ( A \cap B )$, must be
 
-`straight n open parentheses A intersection B close parentheses equals 23 minus 9 minus 2`
+$\mathrm{n} ( A \cap B ) = 23 - 9 - 2$
 
 **[M1]**
 
-`straight n open parentheses A intersection B close parentheses equals 12`
+$\mathrm{n} ( A \cap B ) = 12$
 
 **[A1]**
 
@@ -32,14 +32,14 @@ From part (a) you know all the numbers inside the circles
 
 ![The Venn diagram from the question, with a 9 added to the part of the A circle that is outside the B circle, and a 12 added in the overlap of the two circles.](assets/003-the-venn-diagram-from-the-question-with-a-9-adde.png)
 
-`straight n open parentheses A union B close parentheses apostrophe` is the region inside the rectangle but outside both circles
+$\mathrm{n} ( A \cup B ) '$ is the region inside the rectangle but outside both circles
 
-- `straight n open parentheses calligraphic E close parentheses equals 30`, so everything inside the rectangle must add up to 30
+- $\mathrm{n} ( \text{calligraphic} E ) = 30$, so everything inside the rectangle must add up to 30
 - Therefore
 
-`straight n open parentheses A union B close parentheses apostrophe equals 30 minus 9 minus 12 minus 2`
+$\mathrm{n} ( A \cup B ) ' = 30 - 9 - 12 - 2$
 
-`straight n open parentheses A union B close parentheses apostrophe equals 7`
+$\mathrm{n} ( A \cup B ) ' = 7$
 
 **[B1]**
 
@@ -48,7 +48,7 @@ From part (a) you know all the numbers inside the circles
 > **[exam-tip]**
 > You could also find the answer here directly from the information in the question:
 > 
-> `table row cell straight n open parentheses A union B close parentheses apostrophe end cell equals cell straight n open parentheses calligraphic E close parentheses minus straight n open parentheses A union B close parentheses end cell row blank equals cell 30 minus 23 end cell row blank equals 7 end table`
+> $\begin{gathered} \mathrm{n} ( A \cup B ) ' & = \mathrm{n} ( \text{calligraphic} E ) - \mathrm{n} ( A \cup B ) \\ = 30 - 23 \\ = 7 \end{gathered}$
 
 ### Q2
 > *Start by completing the information for *$A\capB$*.*
@@ -57,7 +57,7 @@ From part (a) you know all the numbers inside the circles
 
 **[1]**
 
-> *If we consider *$B'$* and *$A'$*, 7, 8 and 14 are not in **B** or in **A**, so put 7, 8 and 14 in *`open parentheses A union B close parentheses apostrophe`*.*
+> *If we consider *$B'$* and *$A'$*, 7, 8 and 14 are not in **B** or in **A**, so put 7, 8 and 14 in *$( A \cup B ) '$*.*
 
 ![Venn diagram with two circles labelled A and B, overlapping area shows numbers 5, 10, 15; outside numbers are 7, 8, 14; universal set symbol at top left.](assets/007-venn-diagram-with-two-circles-labelled-a-and-b-o.png)
 
@@ -104,13 +104,13 @@ $n(A'\cupB'\cupC')=6+3+8+2+5+4$
 ### Q4
 > *Write out the set of everything (the "universal" set) by listing numbers from 1 to 10 inclusive.*
 
-`calligraphic E equals open curly brackets 1 comma 2 comma 3 comma 4 comma 5 comma 6 comma 7 comma 8 comma 9 comma 10 close curly brackets`
+`calligraphic E = { 1 , 2 , 3 , 4 , 5 , 6 , 7 , 8 , 9 , 10 }`
 
 > *Write out the set *$A$* (by listing all even numbers in the universal set).*
 
-> `A equals open curly brackets 2 comma 4 comma 6 comma 8 comma 10 close curly brackets`* *
+> $A = \{ 2 , 4 , 6 , 8 , 10 \}$* *
 
-$4\inA\capB$* means 4 is a number that is common in both *$A$* and *$B$ `n open parentheses A intersection B close parentheses equals 1`* means there is only one number common to both *$A$* and *$B$ 
+$4\inA\capB$* means 4 is a number that is common in both *$A$* and *$B$ $n ( A \cap B ) = 1$* means there is only one number common to both *$A$* and *$B$ 
 *Write 4 in the overlap of the circles (the"intersection") and 2, 6, 8 and 10 in just *$A$*'s side* * *
 
 ![cie-igcse-2018-oct-nov-p4-tz1-q6bi-solution-1](assets/014-cie-igcse-2018-oct-nov-p4-tz1-q6bi-solution-1.png)
@@ -119,7 +119,7 @@ $4\inA\capB$* means 4 is a number that is common in both *$A$* and *$B$ `n open 
 
 ** ****2, 6, 8, 10 correct**** [1]**
 
-`open parentheses A union B close parentheses apostrophe equals open curly brackets 1 comma 7 comma 9 close curly brackets`* means that 1, 7 and 9 are not in *$A$*, *$B$* or both* *Write the numbers 1, 7 and 9 outside of the circles * * *
+$( A \cup B ) ' = \{ 1 , 7 , 9 \}$* means that 1, 7 and 9 are not in *$A$*, *$B$* or both* *Write the numbers 1, 7 and 9 outside of the circles * * *
 
 ![cie-igcse-2018-oct-nov-p4-tz1-q6bi-solution-2](assets/015-cie-igcse-2018-oct-nov-p4-tz1-q6bi-solution-2.png)
 
@@ -132,7 +132,7 @@ $4\inA\capB$* means 4 is a number that is common in both *$A$* and *$B$ `n open 
 **3 and 5 correct**** ****[1]**
 > *List the numbers that are in the whole *$B$* circle*
 
-`bold italic B bold equals stretchy left curly bracket 3 comma space 4 comma space 5 stretchy right curly bracket`** [1]**
+`B = stretchy left curly bracket 3 , 4 , 5 stretchy right curly bracket`** [1]**
 
 ### Q5
 > *Using the fact that 90 students play football but not baseball*
@@ -213,12 +213,12 @@ $10+8+7=25$
 > *'*$n(A\cupB)'=3$*' means there are 3 elements outside **A** or **B '*$n(E)=20$*' **means there are 20 elements in total in the universal set, leaving 17 in **A** or **B** *
 * **'*$n(A)=10$*' **means there are 10 elements in **A**, and  *$n(B)=13$* means there are 13 elements in **B **giving a total of 23. However we know there are only 17 elements in **A **and **B** so*
 
-`straight n open parentheses A intersection B close parentheses equals 23 minus 17`
+$\mathrm{n} ( A \cap B ) = 23 - 17$
 
 **[1]**
 
 **6**** ****[1]**
-> *We know from the question that *`straight n open parentheses A close parentheses equals 13`*, and we know from part (a) that  but 6 of these are included in *`straight n open parentheses A intersection B close parentheses equals 6`*. So 13 elements are in **A** but 6 of these are included in the '**A **and **B**' section*
+> *We know from the question that *$\mathrm{n} ( A ) = 13$*, and we know from part (a) that  but 6 of these are included in *$\mathrm{n} ( A \cap B ) = 6$*. So 13 elements are in **A** but 6 of these are included in the '**A **and **B**' section*
 
 > *To find , the number of elements in **B** but not in **A**, subtract 6 from 13*
 
@@ -234,11 +234,11 @@ $10+8+7=25$
 
 > *As the total number of students is 40, we can now set up and solve an equation in *$x$*.*
 
-`table row cell x plus open parentheses 8 minus x close parentheses plus open parentheses 6 minus x close parentheses plus open parentheses 3 minus x close parentheses plus 7 plus 11 plus 9 plus 0 end cell equals 40 end table`
+$\begin{gathered} x + ( 8 - x ) + ( 6 - x ) + ( 3 - x ) + 7 + 11 + 9 + 0 & = 40 \end{gathered}$
 
 **[1]**
 
-`table row cell 44 minus 2 x end cell equals 40 row cell 2 x end cell equals 4 row x equals 2 end table`
+$\begin{gathered} 44 - 2 x & = 40 \\ 2 x & = 4 \\ x = 2 \end{gathered}$
 
 > *Now we can complete all sections of the Venn diagram with values.*
 
@@ -246,14 +246,14 @@ $10+8+7=25$
 
 **5 correct values, must include '2'**** [1] **
 **Fully correct diagram**** [1]**
-> *Use a 'mini-Venn' to shade the area for *`open parentheses P union B close parentheses apostrophe`* - this is **"not** (*$P$* **or** *$B$* **or** both)".*
+> *Use a 'mini-Venn' to shade the area for *$( P \cup B ) '$* - this is **"not** (*$P$* **or** *$B$* **or** both)".*
 
 ![rb4RUvHG_ma-cie-igcse-2020-march-p4-tz2-q9b](assets/030-rb4ruvhg-ma-cie-igcse-2020-march-p4-tz2-q9b.png)
 
 > *As one of the highlighted sections is 0 we can write the answer straight down.*
 
-`bold n stretchy left parenthesis open parentheses P union B close parentheses apostrophe stretchy right parenthesis bold equals bold 11`**[1]**
-> *Use a 'mini-Venn' to shade the area for *`open parentheses P union T union B close parentheses apostrophe`* - this is **"not** (*$P$* **or** *$T$* **or** *$B$* **or** any 2 **or** all 3)".*
+$n ( ( P \cup B ) ' ) = 11$**[1]**
+> *Use a 'mini-Venn' to shade the area for *$( P \cup T \cup B ) '$* - this is **"not** (*$P$* **or** *$T$* **or** *$B$* **or** any 2 **or** all 3)".*
 
 ![ma-cie-igcse-2020-march-p4-tz2-q9c](assets/031-ma-cie-igcse-2020-march-p4-tz2-q9c.png)
 
@@ -304,7 +304,7 @@ $25-x+x-6+16-x+6+3+2+9+5=50$
 
 > *Now collect like terms and solve.*
 
-`table attributes columnalign right center left columnspacing 0px end attributes row cell 60 minus x end cell equals 50 row 10 equals x end table`
+$\begin{array}{rcl} 60 - x & = 50 \\ 10 = x \end{array}$
 
 **10**** ****[1]**
 > $n(Cʹ\capDʹ)$* means the number of students who do not have a cat and who do not have a dog (i.e. only have a rabbit, or have no pet, circled in the diagram below)*
@@ -396,7 +396,7 @@ $d\inA$ **[1]**
 
 ii) *The curly brackets means that it is a set of elements. The               elements **f **and **g **are the only elements in the intersection     of **A **and **B**, this means they are the only elements that are in both **A **and **B**. The symbol for intersection is ∩.*
 
-`bold left curly bracket bold italic f bold comma bold space bold italic g bold right curly bracket bold equals bold italic A bold intersection bold italic B` **[1]**
+`left curly bracket f , g right curly bracket = A AND B` **[1]**
 
 iii) *n(**X**) means the number of elements in the set **X**.*
 
@@ -431,7 +431,7 @@ ii) $W\capG'$ *means the members of set **B** that are not in set **G**. Write t
 ### Q15
 > *5 do not study any languages, so place 5 in the Venn diagram outside of both bubbles.*
 
-> *Find the intersection of both bubbles *`open parentheses G intersection S close parentheses`* by finding how many students have been counted twice in German and Spanish. *
+> *Find the intersection of both bubbles *$( G \cap S )$* by finding how many students have been counted twice in German and Spanish. *
 
 *German + Spanish - both + neither = 32 *
 
@@ -504,14 +504,14 @@ i) $A\capC$* is "*$A$* **and** *$C$*" (intersection). *
 
 **The elements in  **$A\capC$**are 41, 43 and 47*** ***[1]**
 
-ii) `open parentheses B union C close parentheses apostrophe`* is "**not** (*$B$* **or** *$C$*)" (not the union). *
+ii) $( B \cup C ) '$* is "**not** (*$B$* **or** *$C$*)" (not the union). *
 
 > *You can quickly sketch a 'mini' Venn diagram to help identify the region(s) needed.*
 
 ![ma-cie-igcse-2020-may-jun-p4-tz1-q5bii](assets/053-ma-cie-igcse-2020-may-jun-p4-tz1-q5bii.png)
 
 **The elements in **$(B\cupC)'$** are 44, 46, 49 and 50*** ***[1]**
-`straight n open parentheses A intersection B intersection C close parentheses`* is the number of elements in *$A$* **and** *$B$* **and** *$C$* **(intersection** of all three).* 
+$\mathrm{n} ( A \cap B \cap C )$* is the number of elements in *$A$* **and** *$B$* **and** *$C$* **(intersection** of all three).* 
 *You can quickly sketch a 'mini' Venn diagram to help identify the region(s) needed.*
 
 ![ma-cie-igcse-2020-may-jun-p4-tz1-q5c](assets/054-ma-cie-igcse-2020-may-jun-p4-tz1-q5c.png)
@@ -594,18 +594,18 @@ $4+2+6+9+9+2x+x+11=80$
 
 > *Simplify and solve.*
 
-`table attributes columnalign right center left columnspacing 0px end attributes row cell 3 x plus 41 end cell equals 80 row cell 3 x end cell equals 39 row x equals 13 end table`
+$\begin{array}{rcl} 3 x + 41 & = 80 \\ 3 x & = 39 \\ x = 13 \end{array}$
 
 **[1]**
 
 > *Find the number of people that study Russian by adding together the numbers in that circle.*
 
-`2 open parentheses 13 close parentheses plus 6 plus 2 plus 4`
+$2 ( 13 ) + 6 + 2 + 4$
 
 **38 study Russian** **[1]**
 
 ### Q21
-> `open parentheses E union S close parentheses`* or "*$E$*-union-*$S$*", means the people who use the exercise machines or the swimming pool (or both). Shade this region on the diagram*
+> $( E \cup S )$* or "*$E$*-union-*$S$*", means the people who use the exercise machines or the swimming pool (or both). Shade this region on the diagram*
 
 ![5bCXr1T0_cie-igcse-2018-may-jun-1-p4-q10civ1](assets/062-5bcxr1t0-cie-igcse-2018-may-jun-1-p4-q10civ1.png)
 
@@ -613,7 +613,7 @@ $4+2+6+9+9+2x+x+11=80$
 
 ![_qb-DprU_cie-igcse-2018-may-jun-1-p4-q10civ2](assets/063-qb-dpru-cie-igcse-2018-may-jun-1-p4-q10civ2.png)
 
-> `T intersection open parentheses E union S close parentheses`* or "the intersection of *$T$*and *$E$*-**union-*$S$*" means the people who are **both** use the tennis courts **and** use the exercise machines or the swimming pool. It is where the two shaded regions overlap*
+> $T \cap ( E \cup S )$* or "the intersection of *$T$*and *$E$*-**union-*$S$*" means the people who are **both** use the tennis courts **and** use the exercise machines or the swimming pool. It is where the two shaded regions overlap*
 
 *7 + 4 + 8 = 19*
 

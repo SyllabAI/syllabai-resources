@@ -45,7 +45,7 @@ Give your answer in kg in standard form.
 ### 11() — 2 marks — command: show — structured — from paper Nov 2018 · 8300/2H
 An approximation for the value of $π$ is given by
 
-`4 open parentheses 1 minus 22 over 57 plus 22 over 85 minus 22 over 105 plus 22 over 117 minus 22 over 242 close parentheses`
+$4 ( 1 - \frac{22}{57} + \frac{22}{85} - \frac{22}{105} + \frac{22}{117} - \frac{22}{242} )$
 
 Use your calculator to show that this approximation is within 0.1 of 3.14
 
@@ -103,8 +103,8 @@ Work out the value of $T$.
 Give your answer in standard form correct to $3$ significant figures.
 
 ### 9((b)) — 2 marks — command: explain — structured — from paper 2018	June · 1MA1/3H
-$w$ is increased by `10 percent sign` 
-$d$ is increased by `5 percent sign`
+$w$ is increased by $10 \%$ 
+$d$ is increased by $5 \%$
 
 Lottie says,
           "The value of $T$ will increase because both $w$ and $d$ are increased."
@@ -174,7 +174,7 @@ ii) 0.0584
 [1]
 
 ### 1((b)) — 1 mark — command: work_out — structured — from paper Nov 2020 · J560/04
-Work out `open parentheses 4.2 space cross times 10 to the power of 5 close parentheses cross times open parentheses 1.8 cross times 10 to the power of negative 2 end exponent close parentheses` giving your answer in standard form.
+Work out $( 4.2 \times 10^{5 ) \times ( 1.8 \times 10^{-2} } )$ giving your answer in standard form.
 
 ## Q20 — easy — 3 marks · exam-questions
 

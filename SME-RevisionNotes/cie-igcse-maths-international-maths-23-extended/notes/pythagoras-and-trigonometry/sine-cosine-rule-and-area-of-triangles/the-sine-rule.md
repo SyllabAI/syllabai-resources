@@ -58,7 +58,7 @@ $\frac{a}{\mathrm{sin}A}=\frac{b}{\mathrm{sin}B}=\frac{c}{\mathrm{sin}C}$
   - The angles are now in the numerators of the fractions
   - Substitute the values you have into the formula and solve
   
-    - You will need to use** inverse sine** in your calculation, `sin to the power of negative 1 end exponent open parentheses... close parentheses`
+    - You will need to use** inverse sine** in your calculation, $\sin ^{- 1} (... )$
 
 > **Exam Hint**
 > You are given the formula $\frac{a}{\mathrm{sin}A}=\frac{b}{\mathrm{sin}B}=\frac{c}{\mathrm{sin}C}$ in your exam.
@@ -103,7 +103,7 @@ $\frac{a}{\mathrm{sin}A}=\frac{b}{\mathrm{sin}B}=\frac{c}{\mathrm{sin}C}$
 > > $\frac{\mathrm{sin}A}{a}=\frac{\mathrm{sin}B}{b}=\frac{\mathrm{sin}C}{c}$
 > *In practice, you only need to equate two of these three parts*
 > 
-> `table row cell fraction numerator sin space x over denominator 12.3 end fraction end cell equals cell fraction numerator sin space 27 over denominator 8.1 end fraction end cell row cell sin space x end cell equals cell fraction numerator 12.3 space sin space 27 over denominator 8.1 end fraction end cell row x equals cell sin to the power of negative 1 end exponent open parentheses fraction numerator 12.3 space sin space 27 over denominator 8.1 end fraction close parentheses end cell row x equals cell 43.58207... end cell end table`
+> $\begin{gathered} \frac{\sin x}{12.3} & = \frac{\sin 27}{8.1} \\ \sin x & = \frac{12.3 \sin 27}{8.1} \\ x = \sin ^{- 1} ( \frac{12.3 \sin 27}{8.1} ) \\ x = 43.58207... \end{gathered}$
 > 
 > **Final answer:** $43.6^{\circ}$** ****(to 1 d.p)**
 > 
@@ -114,11 +114,11 @@ $\frac{a}{\mathrm{sin}A}=\frac{b}{\mathrm{sin}B}=\frac{c}{\mathrm{sin}C}$
 > > *To find** y** you need to know the angle opposite (angle ABC)*
 > *You know 27 and **x** from above, so subtract these from 180*
 > 
-> `table row cell Angle space A B C end cell equals cell 180 minus 27 minus 43.58207... end cell row blank equals cell 109.41792... end cell end table`
+> $\begin{gathered} \text{Angle} A B C & = 180 - 27 - 43.58207... \\ = 109.41792... \end{gathered}$
 > 
 > > *y** is a length so use the sin rule with the sides on the top*
 > $\frac{a}{\mathrm{sin}A}=\frac{b}{\mathrm{sin}B}=\frac{c}{\mathrm{sin}C}$
 > 
-> `table row cell fraction numerator y over denominator sin open parentheses 109.41792... close parentheses end fraction end cell equals cell fraction numerator 8.1 over denominator sin space 27 end fraction end cell row y equals cell fraction numerator 8.1 space sin open parentheses 109.41792... close parentheses over denominator sin space 27 end fraction end cell row y equals cell 16.82691... end cell end table`
+> $\begin{gathered} \frac{y}{\sin ( 109.41792... )} & = \frac{8.1}{\sin 27} \\ y = \frac{8.1 \sin ( 109.41792... )}{\sin 27} \\ y = 16.82691... \end{gathered}$
 > 
 > **Final answer:** $y=16.8\mathrm{cm}$** (to 3 s.f.)**

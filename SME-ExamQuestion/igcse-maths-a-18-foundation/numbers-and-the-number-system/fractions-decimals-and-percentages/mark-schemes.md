@@ -12,7 +12,7 @@
 
 > *Convert the denominator to a power of 10, for example 10, by using equivalent fractions*
 
-`table row cell 1 fifth end cell equals cell fraction numerator 1 cross times 2 over denominator 5 cross times 2 end fraction end cell row blank equals cell 2 over 10 end cell end table`
+$\begin{gathered} 1 \frac{1}{5} & = \frac{1 \times 2}{5 \times 2} \\ = \frac{2}{10} \end{gathered}$
 
 > *The fraction is equivalent to 2 tenths and is written as 2 in the tenths column in decimal form*
 
@@ -30,7 +30,7 @@ $0.2$
 
 > *Use equivalent fractions to write *$\frac{7}{10}$* as a fraction with a denominator of 100*
 
-`table row cell 7 over 10 end cell equals cell fraction numerator 7 cross times 10 over denominator 10 cross times 10 end fraction end cell row blank equals cell 70 over 100 end cell end table`
+$\begin{gathered} \frac{7}{10} & = \frac{7 \times 10}{10 \times 10} \\ = \frac{70}{100} \end{gathered}$
 
 > *The fraction is 70 parts out of 100 and is therefore equivalent to 70%*
 
@@ -43,7 +43,7 @@ $0.2$
 ### 19() — 3 marks
 > *Calculate the proportions of rectangle A and rectangle C that are unshaded*
 
-`table row cell 1 minus 5 over 8 end cell equals cell 3 over 8 end cell row cell 100 percent sign minus 80 percent sign end cell equals cell 20 percent sign end cell end table`
+$\begin{gathered} 1 - \frac{5}{8} & = \frac{3}{8} \\ 100 \% - 80 \% & = 20 \% \end{gathered}$
 
 **[M1]**
 
@@ -53,7 +53,7 @@ $0.2$
 
 > *Use the diagram to work out the calculation that gives the shaded section for rectangle B*
 
-`5 over 8 minus 20 percent sign`
+$\frac{5}{8} - 20 \%$
 
 **[M1]**
 
@@ -104,7 +104,7 @@ $\frac{7}{50}=\frac{14}{100}$
 ### 5((b)) — 1 marks
 > *"Per-cent" means "out of 100" so write an equivalent fraction out of 100*
 
-`3 over 10 space equals 30 over 100 space equals space 30 percent sign`
+$\frac{3}{10} = \frac{30}{100} = 30 \%$
 
 **Final answer:** **30%**
 
@@ -145,14 +145,14 @@ $\frac{3}{100}$
 
 - *Of these two, look for the smallest number in the hundredths column*
 
-`0.2 bottom enclose 0 4 comma space 0.24`
+`0.2 bottom 0 4 , 0.24`
 
 > *For the three numbers with a 4 in the tenths column, look at the numbers in the hundredths column*
 
 > **[exam-tip]**
 > You can use a placeholder if needed. For example, 0.4 is the same as 0.40 and 0.400.
 
-`0.4 bottom enclose 0 comma space 0.4 bottom enclose 0 8 comma space 0.48`
+`0.4 bottom 0 , 0.4 bottom 0 8 , 0.48`
 
 **Final answer:** **0.204, 0.24, 0.4, 0.408, 0.48**
 
@@ -165,9 +165,7 @@ $\frac{7}{10}=0.7$
 
 > *Add the decimals together*
 
-`space space space space space 0.93
-bottom enclose plus thin space 0.70 end enclose
-space space space space 1.63`
+`0.93 bottom + 0.70 1.63`
 
 **Final answer:** **1.63**
 
@@ -218,6 +216,6 @@ $0.23,0.26,0.267,0.269,0.273$
 
 Rewrite in the original format
 
-`23 percent sign space space space space space space 0.26 space space space space space space space 0.267 space space space space space space 7 over 26 space space space space space 3 over 11`
+$23 \% 0.26 0.267 \frac{7}{26} \frac{3}{11}$
 
 **[A1]**

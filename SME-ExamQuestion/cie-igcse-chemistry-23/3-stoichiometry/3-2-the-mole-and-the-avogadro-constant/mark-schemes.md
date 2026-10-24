@@ -30,11 +30,11 @@ moles of H<sub>2</sub> = 0.2083 mol
 
 **Step 3:** Calculate the volume of hydrogen gas produced
 
-`volume space of space hydrogen space open parentheses straight H subscript 2 close parentheses space equals space moles space cross times space 24 space dm cubed mol to the power of negative 1 end exponent`
+`volume of hydrogen ( H _ 2 ) = moles x 24 dm ^3 mol ^ - 1`
 
-`volume space of space hydrogen space open parentheses straight H subscript 2 close parentheses space equals space 0.2083 space mol space cross times space 24 space dm cubed mol to the power of negative 1 end exponent`
+`volume of hydrogen ( H _ 2 ) = 0.2083 mol x 24 dm ^3 mol ^ - 1`
 
-`volume space of space hydrogen space open parentheses straight H subscript 2 close parentheses space equals space 5.0 space dm cubed`
+`volume of hydrogen ( H _ 2 ) = 5.0 dm ^3`
 
 ### Q2
 **Final answer:** **The correct answer is D**
@@ -57,7 +57,7 @@ $\mathrm{moles}=0.06757\mathrm{moles}$
 
 $\mathrm{fundamental} \mathrm{units}=\mathrm{moles}\times\mathrm{Avogadro} \mathrm{constant}$
 
-`fundamental space units space equals space 0.06757 space mol space cross times open parentheses 6.02 space cross times 10 to the power of 23 space mol to the power of negative 1 end exponent close parentheses`
+$\text{fundamental} \text{units} = 0.06757 \text{mol} \times ( 6.02 \times 10^{23} \text{mol} ^{ - } 1 )$
 
 $\mathrm{fundamental} \mathrm{units}=4.0677\times10^{22}\mathrm{formula} \mathrm{units}$
 
@@ -126,7 +126,7 @@ $\mathrm{number} \mathrm{of} \mathrm{oxygen} \mathrm{atoms}=2.44\times10^{23}\ma
 **Final answer:** **The correct answer is ****A**** because:**
 
 - One mole is the amount of a substance that contains** **$6.02\times10^{23}$ particles and is known as **Avogadro's constant.**
-- 1 mole of oxygen, which is a diatomic molecule O<sub>2</sub>, contains** **$6.20\times10^{23}$ **molecules** of oxygen but ** **`2 cross times open parentheses 6.02 cross times 10 to the power of 23 close parentheses` **atoms** of oxygen.
+- 1 mole of oxygen, which is a diatomic molecule O<sub>2</sub>, contains** **$6.20\times10^{23}$ **molecules** of oxygen but ** **$2 \times ( 6.02 \times 10^{23} )$ **atoms** of oxygen.
 - One mole of any element is equal to the **relative atomic mass** of that element in **grams.** 
 E.g. Ca has an *A*<sub>r </sub>of 40, so one mole of Ca has a mass of 40g.
 - For a molecule, the relative atomic masses are **added** together. E.g. one mole of NaOH has a mass of 23 + 16 + 1 = 40g.

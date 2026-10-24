@@ -75,7 +75,7 @@ guided_study: true
 > 
 > > *Use the output of the first operation as the input for the second operation*
 > 
-> `table row 11 rightwards arrow cell 11 cross times 3 rightwards arrow 33 end cell end table`
+> $\begin{gathered} 11 \rightarrow 11 \times 3 \rightarrow 33 \end{gathered}$
 > 
 > $33$
 > 

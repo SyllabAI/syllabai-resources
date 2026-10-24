@@ -53,7 +53,7 @@ We can investigate the energy content of food in a simple calorimetry experiment
 - The** larger the increase** **in water temperature**, the **more energy** is stored in the sample
 - We can calculate the energy in each food sample using the following equation:
 
-`text energy transferred per gram of food  end text open parentheses J close parentheses space equals space fraction numerator text mass of water  end text open parentheses g close parentheses thin space cross times space text temperature increase end text space open parentheses degree C close parentheses thin space cross times space 4.2 over denominator text mass of food sample end text space open parentheses g close parentheses end fraction`
+$\text{ \text{energy} \text{transferred} \text{per} \text{gram} of food} ( J ) = \frac{\text{ \text{mass} of water} ( g ) \times \text{ \text{temperature} increase} ( ^{\circ} C ) \times 4.2}{\text{ \text{mass} of \text{food} sample} ( g ) }$
 
 - 4.2 kJ is the specific heat capacity of water, meaning that it is the energy required to raise 1 kg of water by 1 °C
 - 1 cm<sup>3</sup> of water has a mass of 1 g

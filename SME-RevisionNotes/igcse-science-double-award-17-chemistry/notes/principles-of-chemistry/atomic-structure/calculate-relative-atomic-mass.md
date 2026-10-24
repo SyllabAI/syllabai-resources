@@ -20,11 +20,11 @@ guided_study: true
 - The relative atomic mass of each element is calculated from the **mass number** and **relative abundances **of all the isotopes of a particular element
 - The equation below is used where the top line of the equation can be extended to include the number of different isotopes of a particular element present
 
-`A subscript straight r equals fraction numerator left parenthesis percent sign space of space isotope space straight A space straight x space mass space of space isotope space straight A right parenthesis space plus space left parenthesis percent sign space of space isotope space straight B space straight x space mass space of space isotope space straight B right parenthesis over denominator 100 end fraction`
+`A _ r = (( % of isotope A x mass of isotope A ) + ( % of isotope B x mass of isotope B ))/(100)`
 
 - So, if there were 3 isotopes present then the equation would read:
 
-`fraction numerator left parenthesis percent sign space of space isotope space straight A space straight x space mass space of space isotope space straight A right parenthesis space plus space left parenthesis percent sign space of space isotope space straight B space straight x space mass space of space isotope space straight B right parenthesis space plus space left parenthesis percent sign space of space isotope space straight C space straight x space mass space of space isotope space straight C right parenthesis over denominator 100 end fraction`
+$\frac{( \% of \text{isotope} \mathrm{A} \mathrm{x} \text{mass} of \text{isotope} \mathrm{A} ) + ( \% of \text{isotope} \mathrm{B} \mathrm{x} \text{mass} of \text{isotope} \mathrm{B} ) + ( \% of \text{isotope} \mathrm{C} \mathrm{x} \text{mass} of \text{isotope} \mathrm{C} )}{100}$
 
 > **Worked Example**
 > The table shows information about the Isotopes in a sample of rubidium with 72% <sup>85</sup>Rb and 28% <sup>87</sup>Rb
@@ -40,7 +40,7 @@ guided_study: true
 > 
 > **Answer:**
 > 
-> - Relative atomic mass = `fraction numerator open parentheses 72 cross times 85 close parentheses plus open parentheses 28 cross times 87 close parentheses over denominator 100 end fraction`
+> - Relative atomic mass = $\frac{( 72 \times 85 ) + ( 28 \times 87 )}{100}$
 > - Relative Atomic Mass = **85.6**
 
 > **Exam Hint**

@@ -10,19 +10,19 @@ Find the highest factor that divides into 6y and 21
 
 - 3 is a common factor
 
-`3 open parentheses 2 y plus 7 close parentheses`
+$3 ( 2 y + 7 )$
 
 **[B1]**
 Find the factors that divide into both $10a^{2}$ and $15ab$
 
 - 5 and $a$ are both factors
 
-`5 a open parentheses 2 a minus 3 b close parentheses`
+$5 a ( 2 a - 3 b )$
 
 **[M1 A1]**
 
 > **[mark-scheme]**
-> **M1:** For a correct factorisation. You get this mark for the correct answer of for either of `5 open parentheses 2 a squared minus 3 a b close parentheses` or `a open parentheses 10 a minus 15 b close parentheses`.
+> **M1:** For a correct factorisation. You get this mark for the correct answer of for either of $5 ( 2 a^{2} - 3 a b )$ or $a ( 10 a - 15 b )$.
 > 
 > **A1:** Correct answer.
 
@@ -32,13 +32,13 @@ Find the factors that divide into both $10a^{2}$ and $15ab$
 ### Q2
 > *Factor out the common *$x$* term*
 
-`x open parentheses 10 x plus 24 close parentheses`
+$x ( 10 x + 24 )$
 
 **[M1]**
 
 > *Factor out the highest common factor of the numbers*
 
-**Final answer:** ** **`2 x open parentheses 5 x plus 12 close parentheses`
+**Final answer:** ** **$2 x ( 5 x + 12 )$
 
 **[A1]**
 
@@ -54,20 +54,20 @@ Find the factors that divide into both $10a^{2}$ and $15ab$
 
 $2d^{2}e\times3-3e^{2}\times3$
 
-`3 open parentheses 2 d squared e minus 3 e squared close parentheses`
+$3 ( 2 d^{2} e - 3 e^{2} )$
 
 **[1]**
 
 > *Both terms also share a factor of *$e$
 
-`3 open parentheses 2 d squared cross times e minus 3 e cross times e close parentheses`
+$3 ( 2 d^{2} \times e - 3 e \times e )$
 
 $3e$$(2d^{2}-3e)$* ***[1]**
 
 ### Q5
 > *Expand each bracket separately by multiplying everything inside the bracket by the number outside. Be careful with any negatives. *
 
-`table row cell 4 open parentheses 2 m plus 3 close parentheses end cell equals cell 8 m plus 12 end cell row blank blank blank row cell negative 5 open parentheses m minus 2 close parentheses end cell equals cell negative 5 m plus 10 end cell end table`
+$\begin{gathered} 4 ( 2 m + 3 ) & = 8 m + 12 \\ \\ - 5 ( m - 2 ) & = - 5 m + 10 \end{gathered}$
 
 **one correct expansion*** ***[1]**
 
@@ -87,7 +87,7 @@ $8m-5m+12+10\,\,=3m+22$
 ### Q7
 (i) *Multiply each term inside the brackets by *$x$*.*
 
-> * *`table row cell x cross times 3 end cell equals cell 3 x end cell row blank blank blank row cell x cross times open parentheses negative 5 x close parentheses end cell equals cell negative 5 x squared end cell end table`
+> * *$\begin{gathered} x \times 3 & = 3 x \\ \\ x \times ( - 5 x ) & = - 5 x^{2} \end{gathered}$
 
 > * Write together.*
 
@@ -104,7 +104,7 @@ $5x$$(1-4x)$* ***[2]**
 ### Q8
 > *Both terms in the expression share a common factor of 3 so factor out this 3*
 
-`3 open parentheses x squared minus 4 x y close parentheses`
+$3 ( x^{2} - 4 x y )$
 
 ** [1]**
 
@@ -124,8 +124,7 @@ $m^{2}-m-6$** [1]**
 ### Q9
 > *Using FOIL, multiply together: the first terms, the outside terms, the inside terms and the last terms.*
 
-`space space space space space space straight F space space space space space space space space space space space space space space space space space space straight O space space space space space space space space space space space space space space space space space space space space space space straight I space space space space space space space space space space space space space space space space space space space space space space space space space space space space space straight L
-circle enclose x cross times x end enclose plus circle enclose x cross times open parentheses negative 7 close parentheses end enclose plus circle enclose open parentheses negative 5 close parentheses cross times x end enclose plus circle enclose open parentheses negative 5 close parentheses cross times open parentheses negative 7 close parentheses end enclose`
+`F O I L circle x x x + circle x x ( - 7 ) + circle ( - 5 ) x x + circle ( - 5 ) x ( - 7 )`
 
 > *Simplify.*
 
@@ -178,13 +177,13 @@ $6(3x-4)$ **[1]**
 ### Q13
 > *Both terms have a common factor of *$4$
 
-`4 cross times 2 g squared minus 4 cross times g equals 4 open parentheses 2 g squared minus g close parentheses`
+$4 \times 2 g^{2} - 4 \times g = 4 ( 2 g^{2} - g )$
 
 **[1]**
 
 > *Both terms also share a common factor of *$g$
 
-`4 open parentheses g cross times 2 g minus g cross times 1 close parentheses equals 4 g open parentheses 2 g minus 1 close parentheses`
+$4 ( g \times 2 g - g \times 1 ) = 4 g ( 2 g - 1 )$
 
 $4g(2g-1)$** [1]**
 
@@ -209,7 +208,7 @@ $x^{2}+8x+15$ **[1]**
 ### Q15
 > *Both terms share a common factor of *$x$
 
-`x cross times 2 x minus x cross times 1 equals x open parentheses 2 x minus 1 close parentheses`
+$x \times 2 x - x \times 1 = x ( 2 x - 1 )$
 
 $x(2x-1)$** [1]**
 
@@ -220,7 +219,7 @@ $5\timesp+t\timesp$
 
 > *"Take out" the common factor of *$p$
 
-`p open parentheses 5 space plus space t close parentheses`
+$p ( 5 + t )$
 
 $p(5+t)$ **[1]**
 
@@ -237,14 +236,14 @@ $3(4x+5)$** ****[1]**
 ### Q19
 > *Both of the terms share a common factor of *$y$
 
-`open parentheses 5 cross times y close parentheses minus open parentheses 6 p cross times y close parentheses`
+$( 5 \times y ) - ( 6 p \times y )$
 
 $y(5-6p)$** [1]**
 
 ### Q20
 > *Multiply each term inside the bracket by 9. *
 
-`table row cell 9 cross times 3 end cell equals 27 row blank blank blank row cell 9 cross times open parentheses negative x close parentheses end cell equals cell negative 9 x end cell end table`
+$\begin{gathered} 9 \times 3 & = 27 \\ \\ 9 \times ( - x ) & = - 9 x \end{gathered}$
 
 > * Write together. *
 
@@ -253,6 +252,6 @@ $27-9x$* ***[1]**
 ### Q21
 > *Multiply both terms inside the bracket by 5.*
 
-`table row cell 5 cross times x end cell equals cell 5 x end cell row cell 5 cross times open parentheses negative 3 close parentheses end cell equals cell negative 15 end cell end table`
+$\begin{gathered} 5 \times x & = 5 x \\ 5 \times ( - 3 ) & = - 15 \end{gathered}$
 
 $5x-15$* ***[1]**

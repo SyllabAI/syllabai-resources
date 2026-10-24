@@ -103,7 +103,7 @@ $R=\frac{ρL}{A}$
 > 
 > $A=πr^{2}=π(\frac{d}{2})^{2}=π(\frac{5\times10^{-3}}{2})^{2}=2.0\times10^{-5}m^{2}$
 > 
-> `R space equals space fraction numerator open parentheses 1.7 space cross times 10 to the power of negative 8 space end exponent close parentheses space open parentheses 8 cross times 10 to the power of negative 3 end exponent close parentheses over denominator 2.0 cross times 10 to the power of negative 5 space end exponent end fraction equals 6.8 cross times 10 to the power of negative 6 end exponent space straight capital omega`
+> `R = (( 1.7 x 10 ^ - 8 ) ( 8 x 10 ^ - 3 ))/(2.0 x 10 ^ - 5 ) = 6.8 x 10 ^ - 6 capital omega`
 > 
 > **Step 3: Determine the resistance of the aluminium cylinder**
 > 
@@ -120,4 +120,4 @@ $R=\frac{ρL}{A}$
 > **Exam Hint**
 > You won’t need to memorise the value of the resistivity of any material, these will be given in the exam question.
 > 
-> Remember, for a circular wire, `A space equals space pi r squared space equals space pi open parentheses d over 2 close parentheses squared`, so the cross-sectional area  is proportional to the diameter squared. This means if the diameter doubles, the area increases by a factor of four, causing the resistance to drop by a quarter.
+> Remember, for a circular wire, $A = \pi r^{2} = \pi ( \frac{d}{2} )^{2}$, so the cross-sectional area  is proportional to the diameter squared. This means if the diameter doubles, the area increases by a factor of four, causing the resistance to drop by a quarter.

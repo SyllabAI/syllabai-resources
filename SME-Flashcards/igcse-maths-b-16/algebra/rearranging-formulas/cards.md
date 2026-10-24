@@ -60,8 +60,7 @@ If a formula contains the **power *****n***, you can use the ***n*****th root** 
 
 E.g.
 
-`x to the power of 5 equals y plus 3
-x equals fifth root of y plus 3 end root`
+`x ^ 5 = y + 3 x = fifth sqrt of y + 3 )`
 
 Just be careful if *n* is an even number as you need a $\pm$** sign**, for example if $x^{2}=...$  then $x=\pm\sqrt{...}$
 
@@ -86,7 +85,7 @@ This gets rid of the fractions and makes the formula easier to rearrange.
 
 E.g.
 
-`table row cell fraction numerator 2 a over denominator 7 end fraction plus b end cell equals c row cell 2 a plus 7 b end cell equals cell 7 c end cell end table`
+$\begin{gathered} \frac{2 a}{7} + b & = c \\ 2 a + 7 b & = 7 c \end{gathered}$
 
 
 
@@ -109,10 +108,10 @@ If the letter you want to make the **subject **appears** twice** in a formula, y
 
 For example, to make $a$ the subject of $b=\frac{2a}{c-a}$:
 
-- Multiply both sides by $c-a$:   `b open parentheses c minus a close parentheses equals 2 a`
+- Multiply both sides by $c-a$:   $b ( c - a ) = 2 a$
 - Expand the brackets:   $bc-ab=2a$
 - Get the terms with $a$ onto one side:   $bc=2a+ab$
-- **Factorise** the right-hand side:   `b c equals a open parentheses 2 plus b close parentheses`
+- **Factorise** the right-hand side:   $b c = a ( 2 + b )$
 - Divide both sides by $2+b$:   $\frac{bc}{2+b}=a$
 
 

@@ -93,7 +93,7 @@ The pH of **weak acids** can be calculated when the following is known: The **co
 > 
 > **Step 1: **Write down the equilibrium expression to find *K*<sub>*a*</sub>* *
 > 
-> *K*<sub>a</sub> = `fraction numerator left square bracket straight H to the power of plus right square bracket space left square bracket CH subscript 3 COO to the power of minus right square bracket over denominator left square bracket CH subscript 3 COOH right square bracket end fraction`
+> *K*<sub>a</sub> = $\frac{[ \mathrm{H} ^{ + } ] [ CH_{3} COO^{ - } ]}{[ CH_{3} COOH ]}$
 > 
 > **   Step 2: **Simplify the expression
 > 
@@ -102,15 +102,15 @@ The pH of **weak acids** can be calculated when the following is known: The **co
 >   - The concentration of H<sup>+</sup> and CH<sub>3</sub>COO<sup>-</sup> ions are therefore the same
 >   - The expression can be simplified to:
 > 
-> *K*<sub>a</sub> = `fraction numerator left square bracket straight H to the power of plus right square bracket squared over denominator left square bracket CH subscript 3 COOH right square bracket end fraction`
+> *K*<sub>a</sub> = $\frac{[ \mathrm{H} ^{ + } ] ^{2} }{[ CH_{3} COOH ]}$
 > 
 > **   Step 3: **Rearrange the expression to find [H<sup>+</sup>]
 > 
-> [H<sup>+</sup>] = `square root of K subscript a cross times left square bracket CH subscript 3 COOH right square bracket end root`
+> [H<sup>+</sup>] = $\sqrt{K_{a} \times [ CH_{3} COOH ] }$
 > 
 > **   Step 4: **Substitute the values into the expression to find [H<sup>+</sup>]
 > 
-> [H<sup>+</sup>] = `square root of left parenthesis 1.74 cross times 10 to the power of negative 5 end exponent right parenthesis cross times left square bracket 0.100 right square bracket end root` **= 1.32 x 10**<sup>**-3**</sup>** mol dm**<sup>**-3**</sup>
+> [H<sup>+</sup>] = $\sqrt{ ( 1.74 \times 10^{ - } 5 ) \times [ 0.100 ] }$ **= 1.32 x 10**<sup>**-3**</sup>** mol dm**<sup>**-3**</sup>
 > 
 > **   Step 5: **Find the pH
 > 

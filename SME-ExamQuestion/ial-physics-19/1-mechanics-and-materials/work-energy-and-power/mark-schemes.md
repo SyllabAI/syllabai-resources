@@ -90,7 +90,7 @@ List the known quantities:
 - GPE: $\DeltaE_{grav}=mg\Deltah$
 - For the lift: $\DeltaE_{grav}=2250\times9.81\times40.0=8.829\times10^{5}J$ **AND**
 - For the counterweight: $\DeltaE_{grav}=1300\times9.81\times40.0=5.101\times10^{5}J$ **[1 mark]**
-- `increment W space equals space open parentheses 8.829 cross times 10 to the power of 5 close parentheses space minus space open parentheses 5.101 cross times 10 to the power of 5 close parentheses space equals space 3.728 cross times 10 to the power of 5 space straight J` **[1 mark]**
+- $\Delta W = ( 8.829 \times 10^{5} ) - ( 5.101 \times 10^{5} ) = 3.728 \times 10^{5} \mathrm{J}$ **[1 mark]**
 
 **OR**
 
@@ -99,14 +99,14 @@ List the known quantities:
 - Weight: $F=mg$ and Work done: $\DeltaW=F\Deltax$
 - Weight of lift: $F=2250\timesg$
 - Weight of counterweight: $F=1300\timesg$
-- `increment F space equals space open parentheses 2250 minus 1300 close parentheses cross times g space equals space 950 cross times g` **[1 mark]**
+- $\Delta F = ( 2250 - 1300 ) \times g = 950 \times g$ **[1 mark]**
 - $\DeltaW=950\times9.81\times40.0=3.728\times10^{5}J$ **[1 mark]**
 
 Calculate the total power output:
 
 - $P=\frac{\DeltaW}{\Deltat}$
 - $P=\frac{3.728\times10^{5}}{30}$ **[1 mark]**
-- `P space equals space 1.243 cross times 10 to the power of 4 space straight W space equals space 12.4 space kW space open parentheses 3 space straight s. straight f. close parentheses` **[1 mark]**
+- $P = 1.243 \times 10^{4} \mathrm{W} = 12.4 \text{kW} ( 3 \mathrm{s} . \mathrm{f} . )$ **[1 mark]**
 
 **[Total: 4 marks]**
 
@@ -115,7 +115,7 @@ Determine the efficiency of the electric motor:
 
 - Efficiency = useful power output ÷ total power input
 - Efficiency $=\frac{12400}{12400+3600}$ **[1 mark]**
-- Efficiency `equals space 0.78 space open parentheses 2 space straight s. straight f. close parentheses`**[1 mark]**
+- Efficiency $= 0.78 ( 2 \mathrm{s} . \mathrm{f} . )$**[1 mark]**
 
 **[Total: 2 marks]**
 
@@ -173,11 +173,11 @@ List the known quantities:
 Calculate the displacement $Δs$ of the block:
 
 - The displacement is the length of the ramp
-- `straight capital delta s space equals space fraction numerator 4.35 over denominator sin open parentheses 6.0 degree close parentheses end fraction space equals space 41.62 space straight m` **[1 mark]**
+- `capital delta s = (4.35)/(sin ( 6.0 deg )) = 41.62 m` **[1 mark]**
 
 Use the equation for work done:
 
-- `straight capital delta W space equals space F straight capital delta s space equals space open parentheses 13.9 space cross times space 10 cubed close parentheses space cross times space 41.62` **[1 mark]**
+- `capital delta W = F capital delta s = ( 13.9 x 10 ^3 ) x 41.62` **[1 mark]**
 - $ΔW=578500J$
 - $\mathrm{Total} \mathrm{work} \mathrm{done}=5.8\times10^{5}J$ (2 s.f.) **[1 mark]**
 
@@ -195,7 +195,7 @@ List the known quantities:
 Determine the useful work done:
 
 - Useful work = gain in energy in gravitational potential store
-- `straight capital delta E subscript g r a v end subscript space equals space m g straight capital delta h space equals space open parentheses 2.10 space cross times space 10 cubed close parentheses space cross times space 9.81 space cross times space 4.35` **[1 mark]**
+- `capital delta E _ g r a v end _ = m g capital delta h = ( 2.10 x 10 ^3 ) x 9.81 x 4.35` **[1 mark]**
 - $ΔE_{grav}=89610J$
 - $\mathrm{Useful} \mathrm{work}=89.6\mathrm{kJ}$ (3 s.f.) **[1 mark]**
 
@@ -247,13 +247,13 @@ $\mathrm{sin}θ=\frac{a}{L}=\frac{1}{\sqrt{10}}$
 
 - The component of weight parallel to the slope is:
 
-`W subscript parallel to space equals space m g space sin space theta` **[1 mark]**
+$W_{parallel} \text{to} = m g \sin \\theta$ **[1 mark]**
 
 - Substitute and evaluate the answer:
 
-`W subscript parallel to space equals space m g cross times fraction numerator 1 over denominator square root of 10 end fraction`
+$W_{parallel} \text{to} = m g \times \frac{1}{ \sqrt{10} }$
 
-`W subscript parallel to space equals space 75 cross times 9.81 cross times fraction numerator 1 over denominator square root of 10 end fraction space equals space 232.6 text  N end text space almost equal to space 230 text  N end text` **[1 mark]**
+$W_{parallel} \text{to} = 75 \times 9.81 \times \frac{1}{ \sqrt{10} } = 232.6 \text{ N} \approx 230 \text{ N}$ **[1 mark]**
 
 > **[mark-scheme]**
 > 1 mark for resolving the weight parallel to the slope as $mg\mathrm{sin}θ$
@@ -281,7 +281,7 @@ To calculate the cyclist's total power output:
 
   - At constant velocity, the resultant force is zero, so the total (driving) force balances the parallel component of weight plus the resistive force
 
-`F space equals space W subscript parallel to space plus space F subscript R`
+$F = W_{parallel} \text{to} + F_{R}$
 
 $F=232.6+25=257.6\text{N}$ **[1 mark]**
 

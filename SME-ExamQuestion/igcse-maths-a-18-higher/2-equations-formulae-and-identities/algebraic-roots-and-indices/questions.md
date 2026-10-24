@@ -6,7 +6,7 @@
 ## Q1 — easy — 1 marks · exam-questions
 
 ### 16((a)) — 1 mark — command: simplify — structured — from paper 2012	June · 1MA0/1H
-Simplify      `open parentheses m to the power of negative 2 end exponent close parentheses to the power of 5`
+Simplify      $( m^{- 2} )^{5}$
 
 ## Q2 — easy — 3 marks · exam-questions
 
@@ -33,7 +33,7 @@ Simplify      $p^{2}\timesp^{5}$
 Simplify      $g^{6}\divg^{4}$
 
 ### 4((c)) — 1 mark — command: simplify — structured — from paper 2016	June · 1MA0/1H
-Simplify       `open parentheses k cubed close parentheses squared`
+Simplify       $( k^{3} )^{2}$
 
 ## Q5 — easy — 1 marks · exam-questions
 
@@ -43,7 +43,7 @@ Simplify    $t^{8}\divt^{3}$
 ## Q6 — easy — 2 marks · exam-questions
 
 ### 1((b)) — 1 mark — command: simplify — structured — from paper 2015	Spec2 · 1MA1/1H
-Simplify      `open parentheses t cubed close parentheses squared`
+Simplify      $( t^{3} )^{2}$
 
 ### 1((c)) — 1 mark — command: simplify — structured — from paper 2015	Spec2 · 1MA1/1H
 Simplify     $\frac{w^{9}}{w^{4}}$
@@ -97,7 +97,7 @@ $a^{6}\diva^{2}$
 ### 2() — 1 mark — command: simplify — structured — from paper Nov 2017 · J560/04
 Simplify.
 
-`open parentheses b to the power of 5 close parentheses cubed`
+$( b^{5} )^{3}$
 
 ## Q15 — easy — 1 marks · exam-questions
 
@@ -109,7 +109,7 @@ $\frac{3y^{3}}{y^{-4}}$
 ## Q16 — easy — 3 marks · exam-questions
 
 ### 1() — 1 mark — command: simplify — structured
-Simplify `open parentheses b to the power of 11 close parentheses cubed`
+Simplify $( b^{11} )^{3}$
 
 ### 2() — 2 marks — command: simplify — structured
 Simplify $5g^{-2}h^{3}\times6g^{-3}h^{7}$
@@ -122,7 +122,7 @@ Simplify     $5u^{2}w^{4}\times7uw^{3}$
 ## Q18 — medium — 2 marks · exam-questions
 
 ### 14((d)) — 2 marks — command: simplify — structured — from paper 2012	June · 1MA0/2H
-Simplify     `open parentheses 9 x to the power of 8 y cubed close parentheses to the power of 1 half end exponent`
+Simplify     $( 9 x^{8 y^{3} )^{1} \frac{1}{2}}$
 
 ## Q19 — medium — 4 marks · exam-questions
 
@@ -141,7 +141,7 @@ Write down the value of   $9^{\frac{1}{2}}$
 Simplify        $x^{7}\timesx^{3}$
 
 ### 11((b)) — 1 mark — command: simplify — structured — from paper 2013	November · 1MA0/2H
-Simplify       `open parentheses m to the power of 4 close parentheses cubed`
+Simplify       $( m^{4} )^{3}$
 
 ### 11((c)) — 2 marks — command: simplify — structured — from paper 2013	November · 1MA0/2H
 Simplify    $\frac{36af^{8}}{12a^{5}f^{2}}$
@@ -149,12 +149,12 @@ Simplify    $\frac{36af^{8}}{12a^{5}f^{2}}$
 ## Q21 — medium — 2 marks · exam-questions
 
 ### 22((a)) — 2 marks — command: simplify — structured — from paper 2014	June · 1MA0/1H
-Simplify      `open parentheses 3 x squared y to the power of 4 close parentheses cubed`
+Simplify      $( 3 x^{2} y^{4} )^{3}$
 
 ## Q22 — medium — 4 marks · exam-questions
 
 ### 10((a)) — 1 mark — command: simplify — structured — from paper 2014	June · 1MA0/2H
-Simplify      `open parentheses p cubed close parentheses squared`
+Simplify      $( p^{3} )^{2}$
 
 ### 10((b)) — 1 mark — command: simplify — structured — from paper 2014	June · 1MA0/2H
 Simplify     $\frac{t^{8}}{t^{3}}$
@@ -183,7 +183,7 @@ Solve     $3x^{2}=147$
 Work out the value of $2^{-3}$
 
 ### 11((c)) — 2 marks — command: simplify — structured — from paper 2015	November · 1MA0/2H
-Simplify    `open parentheses 3 x squared close parentheses cubed`
+Simplify    $( 3 x^{2} )^{3}$
 
 ### 11((d)) — 2 marks — structured — from paper 2015	November · 1MA0/2H
 $w=4p-16$
@@ -206,7 +206,7 @@ Simplify fully    $\frac{n^{7}\timesn^{3}}{n^{6}}$
 Simplify    $m^{3}\timesm^{4}$
 
 ### 1((b)) — 2 marks — command: simplify — structured — from paper 2018	June · 1MA1/2H
-Simplify     `open parentheses 5 n p cubed close parentheses cubed`
+Simplify     $( 5 n p^{3} )^{3}$
 
 ### 1((c)) — 2 marks — command: simplify — structured — from paper 2018	June · 1MA1/2H
 Simplify       $\frac{32q^{9}r^{4}}{4q^{3}r}$
@@ -224,12 +224,12 @@ Simplify   $(16e^{10}f^{6})^{\frac{1}{2}}$
 ## Q30 — medium — 2 marks · exam-questions
 
 ### 4((a)) — 2 marks — structured — from paper June 2018 · J560/06
-Show that `a to the power of 5 cross times space open parentheses a cubed close parentheses squared` can be expressed as $a^{11}$.
+Show that $a^{5} \times ( a^{3} )^{2}$ can be expressed as $a^{11}$.
 
 ## Q31 — medium — 3 marks · exam-questions
 
 ### 6((a)) — 2 marks — command: simplify — structured — from paper 2023 June · 4MA1/1H
-Simplify `open parentheses 2 c to the power of 4 d to the power of 7 close parentheses cubed`
+Simplify $( 2 c^{4} d^{7} )^{3}$
 
 ### 6((b)) — 1 mark — command: find — structured — from paper 2023 June · 4MA1/1H
 Find the value of $5y^{0}$ where $y>0$
@@ -240,7 +240,7 @@ Find the value of $5y^{0}$ where $y>0$
 Simplify $h^{15}\divh^{3}$
 
 ### 4((c)) — 2 marks — command: simplify — structured — from paper 2023 Nov · 4MA1-2H
-Simplify fully `open parentheses 2 g cubed k to the power of 5 close parentheses to the power of 4`
+Simplify fully $( 2 g^{3} k^{5} )^{4}$
 
 ### 4((d)) — 2 marks — command: work_out — structured — from paper 2023 Nov · 4MA1-2H
 Given that  $\frac{y^{5}\timesy^{n}}{y^{7}}=y^{12}$, work out the value of $n$.
@@ -260,7 +260,7 @@ $p^{3}\timesp^{x}=p^{9}$
 Find the value of $x$.
 
 ### 6((b)) — 1 mark — command: find — structured — from paper 2017	November · 1MA1/2H
-`open parentheses 7 squared close parentheses to the power of y space equals space 7 to the power of 10`
+$( 7^{2} )^{y} = 7^{10}$
 
 Find the value of $y$.
 
@@ -272,10 +272,10 @@ Show that $w=2a+3b$
 ## Q35 — hard — 3 marks · exam-questions
 
 ### 22((a)) — 1 mark — command: simplify — structured — from paper 2014	November · 1MA0/1H
-Simplify fully    `open parentheses 3 e close parentheses to the power of 0`
+Simplify fully    $( 3 e )^{0}$
 
 ### 22((b)) — 2 marks — command: simplify — structured — from paper 2014	November · 1MA0/1H
-Simplify fully      `open parentheses fraction numerator 64 x to the power of 6 over denominator 25 y squared end fraction close parentheses to the power of negative 1 half end exponent`
+Simplify fully      $( \frac{64 x^{6}{25 y^{2}} )^{-1} \frac{1}{2}}$
 
 ## Q36 — hard — 2 marks · exam-questions
 
@@ -289,7 +289,7 @@ $m$ = ................................................
 ## Q37 — hard — 1 marks · exam-questions
 
 ### 19((a)) — 1 mark — command: find — structured — from paper Jan 2022 · 4MA1/1HR
-Given that  `open parentheses cube root of 1 over x end root close parentheses to the power of 4 equals x to the power of m`
+Given that  $( \sqrt[3]{\frac{1}{x}} ) ^{4} = x^{m}$
 
 find the value of $m$
 
@@ -307,7 +307,7 @@ $n=$...........................................
 ## Q39 — hard — 1 marks · exam-questions
 
 ### 11() — 1 mark — command: simplify — structured — from paper Jan 2021 · 4MA1/2H
-Simplify fully  `open parentheses fraction numerator 9 t to the power of 4 w to the power of 9 over denominator 18 t to the power of 6 w to the power of 10 end fraction close parentheses to the power of negative 2 end exponent`
+Simplify fully  $( \frac{9 t^{4 w^{9} }{18 t^{6} w^{10} } )^{-2} }$
 
 ## Q40 — hard — 4 marks · exam-questions
 
@@ -323,12 +323,12 @@ k = ..................................................
 ## Q41 — hard — 3 marks · exam-questions
 
 ### 13((b)) — 3 marks — command: simplify — structured — from paper Jan 2022 · 4MA1/1H
-Simplify completely      `open parentheses fraction numerator 16 w to the power of 8 over denominator y to the power of 20 end fraction close parentheses to the power of begin inline style negative 3 over 4 end style end exponent`
+Simplify completely      `( (16 w ^ 8)/(y ^ 20) ) ^ begin inline style - 3 / 4`
 
 ## Q42 — hard — 4 marks · exam-questions
 
 ### 19((b)) — 4 marks — command: find — structured — from paper Jan 2021 · 4MA1/2HR
-Given that  `n to the power of open parentheses negative begin inline style 4 over 5 end style close parentheses end exponent equals open parentheses 1 half close parentheses to the power of 4` where $n>0$
+Given that  $n^{( - \frac{4}{5} )} = ( 1 \frac{1}{2} )^{4}$ where $n>0$
 
 find the value of $n$.
 
@@ -341,7 +341,7 @@ The $n$th term of a sequence is  $4(2^{n}+2^{n-1})$
 
 Circle the expression that is equivalent to $4(2^{n}+2^{n-1})$
 
-| $2^{n+2}+2^{n+1}$ | `2 to the power of 2 n end exponent space plus space 2 to the power of 2 open parentheses n minus 1 close parentheses end exponent` |
+| $2^{n+2}+2^{n+1}$ | $2^{2 n} + 2^{2 ( n - 1 )}$ |
 |---|---|
 | $8^{n}+8^{n-1}$ | $2^{n+2}+2^{n-1}$ |
 
@@ -353,7 +353,7 @@ Simplify fully   $\frac{a^{3}b^{2}}{cd}\times\frac{c}{ab^{5}}$
 ## Q45 — hard — 2 marks · exam-questions
 
 ### 12() — 2 marks — command: work_out — structured — from paper June 2017 · 8300/3H
-`open parentheses a r to the power of b close parentheses to the power of 4 equals 16 r to the power of 20`  where $a$ and $b$ are positive integers.
+$( a r^{b} )^{4} = 16 r^{20}$  where $a$ and $b$ are positive integers.
 
 Work out $a$ and $b$
 
@@ -362,7 +362,7 @@ $a=......................\,b=......................$
 ## Q46 — hard — 3 marks · exam-questions
 
 ### 17() — 3 marks — command: prove — structured — from paper June 2019 · J560/04
-Show that  `open parentheses a cubed close parentheses to the power of negative 1 third end exponent cross times open parentheses a squared close parentheses to the power of 1 half end exponent equals 1`.
+Show that  $( a^{3} )^{- 1 \frac{1}{3}} \times ( a^{2} )^{1 \frac{1}{2}} = 1$.
 
 ## Q47 — hard — 3 marks · exam-questions
 
@@ -374,10 +374,10 @@ Work out the value of $n$. Show your working clearly.
 ## Q48 — hard — 4 marks · exam-questions
 
 ### 15((a)) — 2 marks — command: simplify — structured — from paper 2023 June · 4MA1/2H
-Simplify fully  `open parentheses 32 a to the power of 15 close parentheses to the power of 3 over 5 end exponent`
+Simplify fully  $( 32 a^{15} ) ^{\frac{3}{5}}$
 
 ### 15((b)) — 2 marks — command: express — structured — from paper 2023 June · 4MA1/2H
-Express `open parentheses fraction numerator 1 over denominator 10 x end fraction close parentheses to the power of negative 3 end exponent` in the form $px^{n}$ where $p$ and $n$ are integers.
+Express $( \frac{1}{10 x} )^{- 3}$ in the form $px^{n}$ where $p$ and $n$ are integers.
 
 ## Q49 — hard — 4 marks · exam-questions
 
@@ -387,4 +387,4 @@ $2^{7}\times4^{5}=4^{x}$
 Calculate the value of $x$
 
 ### 12((b)) — 2 marks — command: simplify — structured — from paper 2023 Nov · 4MA1/2H
-Simplify fully  `open parentheses 125 space p to the power of 6 space y to the power of 24 close parentheses to the power of 2 over 3 end exponent`
+Simplify fully  $( 125 p^{6} y^{24} ) ^{\frac{2}{3}}$

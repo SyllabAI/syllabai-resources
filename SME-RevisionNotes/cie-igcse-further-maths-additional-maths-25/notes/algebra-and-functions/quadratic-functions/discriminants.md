@@ -37,15 +37,15 @@ $ax^{2}+bx+c=0$
 > 
 > > *First write the quadratic equation in the form *$ax^{2}+bx+c=0$*.*
 > 
-> `table row cell 3 x squared minus k x squared plus 2 k x plus 4 k x minus k minus 2 end cell equals 0 row cell open parentheses 3 minus k close parentheses x squared plus 6 k x minus open parentheses k plus 2 close parentheses end cell equals 0 end table`
+> $\begin{gathered} 3 x^{2} - k x^{2} + 2 k x + 4 k x - k - 2 & = 0 \\ ( 3 - k ) x^{2} + 6 k x - ( k + 2 ) & = 0 \end{gathered}$
 > 
 > > *It can be easier/clearer to pick out *$a,b$* and *$c$* first, before finding the discriminant.*
 > 
-> `table attributes columnalign right center left columnspacing 0px end attributes row a equals cell 3 minus k end cell row b equals cell 6 k end cell row c equals cell negative open parentheses k plus 2 close parentheses end cell end table`
+> $\begin{array}{rcl} a = 3 - k \\ b = 6 k \\ c = - ( k + 2 ) \end{array}$
 > 
 > > *The discriminant is *$b^{2}-4ac$*.*
 > 
-> `table row increment equals cell open parentheses 6 k close parentheses squared minus 4 cross times open parentheses 3 minus k close parentheses cross times negative open parentheses k plus 2 close parentheses end cell row increment equals cell 36 k squared plus 4 open parentheses 6 plus k minus k squared close parentheses space end cell end table`
+> $\begin{gathered} \Delta = ( 6 k )^{2} - 4 \times ( 3 - k ) \times - ( k + 2 ) \\ \Delta = 36 k^{2} + 4 ( 6 + k - k^{2} ) \end{gathered}$
 > 
 > $\Delta=32k^{2}+4k+24$
 
@@ -85,43 +85,43 @@ $ax^{2}+bx+c=0$
 
 ### How do I use the discriminant to find the number of intersections between a line and a curve?
 
-- For the graphs of two functions, `y equals straight f open parentheses x close parentheses` and `y equals straight g open parentheses x close parentheses` where
+- For the graphs of two functions, $y = \mathrm{f} ( x )$ and $y = \mathrm{g} ( x )$ where
 
-  - `straight f open parentheses x close parentheses` is **quadratic**
-  - `straight g open parentheses x close parentheses` is **linear**
+  - $\mathrm{f} ( x )$ is **quadratic**
+  - $\mathrm{g} ( x )$ is **linear**
 
 the number of intersections between the graphs can be found using the discriminant.
 
 - **STEP 1**
 
-  - Set `straight f open parentheses x close parentheses equals straight g open parentheses x close parentheses`
+  - Set $\mathrm{f} ( x ) = \mathrm{g} ( x )$
 - **STEP 2**
 
-  - Rearrange into the form `straight h open parentheses x close parentheses equals 0` such that `straight h open parentheses x close parentheses` is in the quadratic form $ax^{2}+bx+c=0$
+  - Rearrange into the form $\mathrm{h} ( x ) = 0$ such that $\mathrm{h} ( x )$ is in the quadratic form $ax^{2}+bx+c=0$
 - **STEP 3**
 
-  - Find the **discriminant** and thus determine the **number** of **intersections** between the graphs of `y equals straight f open parentheses x close parentheses`and `y equals straight g open parentheses x close parentheses`
+  - Find the **discriminant** and thus determine the **number** of **intersections** between the graphs of $y = \mathrm{f} ( x )$and $y = \mathrm{g} ( x )$
   
     - if $b^{2}-4ac>0$ (two real roots) the graphs **intersect twice**
     - if $b^{2}-4ac=0$ (equal roots) the graphs **intersect once**
-    - this means the line (`straight g open parentheses x close parentheses`) is a *tangent* to the curve (`straight f open parentheses x close parentheses`)
+    - this means the line ($\mathrm{g} ( x )$) is a *tangent* to the curve ($\mathrm{f} ( x )$)
     - if $b^{2}-4ac<0$ (no real roots) the graphs **do not intersect**
 
 ![The possible intersections between a line and a quadratic](../../../assets/b463f361330f-discriminants-and-lines-and-quadratics.png)
 
 > **Worked Example**
-> Show that the line with equation $y=3x-7$ is tangent to the curve with equation `y equals open parentheses x plus 3 close parentheses open parentheses x minus 2 close parentheses`.
+> Show that the line with equation $y=3x-7$ is tangent to the curve with equation $y = ( x + 3 ) ( x - 2 )$.
 > 
 > > *STEP 1 - set the equations of the line and curve equal to each other.*
 > 
-> `3 x minus 7 equals open parentheses x plus 3 close parentheses open parentheses x minus 2 close parentheses`
+> $3 x - 7 = ( x + 3 ) ( x - 2 )$
 > 
 > > *STEP 2 - rearrange to quadratic form.*
 > 
-> `table row cell 3 x minus 7 end cell equals cell x squared plus x minus 6 end cell row cell x squared minus 2 x plus 1 end cell equals 0 end table`
+> $\begin{gathered} 3 x - 7 & = x^{2} + x - 6 \\ x^{2} - 2 x + 1 & = 0 \end{gathered}$
 > 
 > > *STEP 3 - find the discriminant and interpret its value.*
 > 
-> `increment equals open parentheses negative 2 close parentheses squared minus 4 open parentheses 1 close parentheses open parentheses 1 close parentheses equals 0`
+> $\Delta = ( - 2 )^{2} - 4 ( 1 ) ( 1 ) = 0$
 > 
 > **Final answer:** **Since the discriminant is zero, the line and the curve intersect at one point only. Therefore the line is a tangent to the curve.**

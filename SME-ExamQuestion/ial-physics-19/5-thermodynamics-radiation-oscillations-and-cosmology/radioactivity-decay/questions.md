@@ -10,7 +10,7 @@ Cobalt‐60 is a source of gamma radiation. Gamma radiation can be used to steri
 
 i) Complete the nuclear equation for the decay of cobalt-60 to nickel.
 
-`Co presubscript 27 presuperscript 60 space rightwards arrow space Ni presubscript midline horizontal ellipsis midline horizontal ellipsis end presubscript presuperscript midline horizontal ellipsis midline horizontal ellipsis end presuperscript space plus space straight beta presubscript midline horizontal ellipsis midline horizontal ellipsis end presubscript presuperscript midline horizontal ellipsis midline horizontal ellipsis end presuperscript superscript minus space plus space scriptbase straight v with bar on top end scriptbase presubscript 0 presuperscript 0 subscript straight e`
+`Co _ 27 ^ 60 -> Ni _ midline horizontal ellipsis midline horizontal ellipsis ^ midline horizontal ellipsis midline horizontal ellipsis + beta _ midline horizontal ellipsis midline horizontal ellipsis ^ midline horizontal ellipsis midline horizontal ellipsis ^ - + v -bar _ 0 ^ 0 _ e`
 
 **(2)**
 
@@ -138,11 +138,11 @@ Power of source = ......................................... W
 ## Q6 — hard — 11 marks · structured-questions
 
 ### 1() — 2 marks — command: determine — structured
-Protactinium, $\mathrm{Pa}$, is one of the products in the decay series of uranium-238, `straight U presubscript 92 presuperscript 238`. `straight U presubscript 92 presuperscript 238` decays to thorium, $\mathrm{Th}$, by emitting an alpha particle. $\mathrm{Th}$ then decays to $\mathrm{Pa}$ and then to a different isotope of uranium, `straight U presubscript 92 presuperscript 234`.
+Protactinium, $\mathrm{Pa}$, is one of the products in the decay series of uranium-238, `U _ 92 ^ 238`. `U _ 92 ^ 238` decays to thorium, $\mathrm{Th}$, by emitting an alpha particle. $\mathrm{Th}$ then decays to $\mathrm{Pa}$ and then to a different isotope of uranium, `U _ 92 ^ 234`.
 
 Determine the number of $α$ particles and $β$ particles emitted during this process to complete the nuclear equation.
 
-`straight U presubscript 92 presuperscript 238 space rightwards arrow with blank on top space space straight U presubscript 92 presuperscript 234 space plus space.... cross times straight alpha presubscript.... end presubscript presuperscript.... end presuperscript space plus space.... cross times straight beta presubscript.... end presubscript presuperscript.... end presuperscript`
+`U _ 92 ^ 238 -> with _ on top U _ 92 ^ 234 + .... x alpha _.... ^.... + .... x beta _.... ^....`
 
 ### 2() — 2 marks — command: describe — structured
 The diagram shows the apparatus used by a teacher to demonstrate the decay of protactinium.
@@ -206,7 +206,7 @@ Which radiation would be the most suitable to use?
 ### 1() — 1 mark — multiple_choice
 The radioactive decay of uranium-234 to thorium-230 is described by the equation
 
-`scriptbase text U end text end scriptbase presubscript   92 end presubscript presuperscript 234 space rightwards arrow space   scriptbase text Th end text end scriptbase presubscript   90 end presubscript presuperscript 230 space plus space text X end text`
+`text U end text _ 92 ^ 234 -> text Th end text _ 90 ^ 230 + text X end text`
 
 Particle X is
 - **A.** a beta-minus particle
