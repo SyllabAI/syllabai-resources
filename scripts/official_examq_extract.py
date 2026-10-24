@@ -45,7 +45,41 @@ else:
     SPEC_RESOLUTION = UPLOAD / "spc-resolution.json"
 
 SCHEMA = "syllabai.official-paper-questions/0.2"
-CONVERTER_VERSION = "0.15.0"  # see Official-ExamQuestion/CHANGELOG.md + LEDGER.md
+CONVERTER_VERSION = "0.16.0"  # see Official-ExamQuestion/CHANGELOG.md + LEDGER.md
+
+# --- F64: course parametrization (the ADR-037 §5 board-layout generalization
+# --- pass, unlocked for igcse-maths-b-16 by operator order trace
+# --- 1a16f0dae0405399, 2026-10-25). Chemistry stays the default course and its
+# --- behavior is byte-identical: every module-level default below IS the
+# --- chemistry config; main() rebinds globals only when --course is given.
+COURSE_PREFIX = "4CH1"   # staging/output filename prefix, rebound per course
+COURSES = {
+    "igcse-chemistry-19": {
+        "paper_prefix": "4CH1",
+        "paper_totals": {"1C": 110, "2C": 70, "1CR": 110, "2CR": 70},
+        "footer_re": r"\(Total for Question (\d{1,2}) = (\d{1,2}) marks\)",
+        "spec_resolution": None,   # None = keep the module-level resolution chain
+        "expect_questions": None,  # None = keep the module-level EXPECT_QUESTIONS
+    },
+    "igcse-maths-b-16": {
+        "paper_prefix": "4MB1",
+        # 4MB1/01 and /02 are 100-mark papers across the era. Footer-verified so
+        # far: 2025-11/02 (12 questions summing 100, staged run 2026-10-25). The
+        # remaining variants enter EXPECT_QUESTIONS per series as their tranches
+        # footer-verify (G1 asserts every series anyway — an unverified total
+        # cannot pass G1 silently).
+        "paper_totals": {"01": 100, "02": 100, "01R": 100, "02R": 100},
+        # maths-B footers print '(Total for Question N is X marks)' — 'is', not '='
+        "footer_re": r"\(Total for Question (\d{1,2}) is (\d{1,2}) marks\)",
+        # No SME spec-point registry exists for maths-B (SME publishes zero
+        # maths-B topic questions — T-SME-12). Tranche-1 G6 posture: no codes
+        # emitted, all parts honest pending-llm, G6 vacuous with a documented
+        # gap note. A maths-B registry (DB spec tree 4MB1-2017, 215 points) is
+        # the spec-tagging wave's prerequisite, filed as open work.
+        "spec_resolution": False,
+        "expect_questions": {"01": {}, "02": {"2025-11": 12}, "01R": {}, "02R": {}},
+    },
+}
 # registry expectations per paper variant (LEDGER F34: paper parametrization). Marks
 # totals are footer-verified per series: 1C = 110 (constant across the era), 2C = 70
 # (constant across the era; staging probe 2026-10-21: 16/16 series sum exactly 70).
@@ -92,19 +126,21 @@ def paths_for(series: str, paper: str = "1C") -> dict:
     # F34: staging names are paper-suffixed. The .txt extraction names were NOT
     # paper-suffixed before v0.8 (a 1C/2C staging collision); fall back to the
     # legacy bare name so pre-0.8 staging areas keep working for 1C.
+    # F64: the PDF prefix + output dir are course-scoped (COURSE_PREFIX global,
+    # rebound in main() from COURSES[prefix]; chemistry default unchanged).
     qp_txt = UPLOAD / f"official-{series}-{paper}-qp.txt"
     ms_txt = UPLOAD / f"official-{series}-{paper}-ms.txt"
     legacy_qp_txt = UPLOAD / f"official-{series}-qp.txt"
     legacy_ms_txt = UPLOAD / f"official-{series}-ms.txt"
     return {
-        "qp_pdf": UPLOAD / f"official-4CH1-{paper}-{series}-qp.pdf",
-        "ms_pdf": UPLOAD / f"official-4CH1-{paper}-{series}-ms.pdf",
+        "qp_pdf": UPLOAD / f"official-{COURSE_PREFIX}-{paper}-{series}-qp.pdf",
+        "ms_pdf": UPLOAD / f"official-{COURSE_PREFIX}-{paper}-{series}-ms.pdf",
         "qp_txt": qp_txt if (qp_txt.exists() or not legacy_qp_txt.exists()) else legacy_qp_txt,
         "ms_txt": ms_txt if (ms_txt.exists() or not legacy_ms_txt.exists()) else legacy_ms_txt,
         "manifest": UPLOAD / f"manifest-{series}-{paper}.yaml",
         # v0.10 (F41): optional OCR source layer for image-only pages
         "ocr_index": UPLOAD / "ocr" / f"{series}-{paper}" / "ocr-pages.json",
-        "out": OUTROOT / series / f"4CH1-{paper}",
+        "out": OUTROOT / series / f"{COURSE_PREFIX}-{paper}",
     }
 
 # ---------------------------------------------------------------- utilities
@@ -202,8 +238,57 @@ PUA_MAP = {
                           #   18 extension rows F8EF+F8FA, bottom row F8F0+F8FB),
                           #   font trace MWAWPZ+Symbol, render eyeballed — retires
                           #   the 1CR right-column mirror caveat with direct evidence
+    # --- igcse-maths-b-16 tranche-1 additions (2026-10-25, operator order trace
+    # --- 1a16f0dae0405399): sourced from the T-MIG-141 glyph-normalization table
+    # --- of record (syllabai-parser tools/glyph-normalization/table.v1.json,
+    # --- sha256 1fdd4b4a..., 84 entries + 5 sequence rules, each entry carrying
+    # --- rendered-PDF evidence in syllabai-parser evidence/T-MIG-141/ — sheets,
+    # --- crops-run002b, crops-run004-f0cf). These are corpus-wide Pearson
+    # --- SymbolMT/Symbol mappings (the DB patch of record applied them to the
+    # --- 13,765-chunk bank, run-005), not chemistry-specific — merging them
+    # --- cannot change chemistry outputs (none of these CPs occur in chemistry
+    # --- texts). The composed arrow-run sequence rules (SEQ-A1..B5) are NOT
+    # --- here: per-char substitution serves the piece glyphs; runs stay a
+    # --- disclosed tranche-2 item (none occur in 2025-11/02).
+    "\uf05b": "[",         # Symbol bracket-left piece — column-vector/fraction scaffolds
+    "\uf05d": "]",         # Symbol bracket-right piece (T-MIG-141: our-render, 51 inst)
+    "\uf0e6": "\u239b",   # big paren LEFT-TOP piece (positional law, 1,432 inst)
+    "\uf0e7": "\u239c",   # big paren LEFT-EXT piece (positional law, 1,496 inst)
+    "\uf0e8": "\u239d",   # big paren LEFT-BOTTOM piece (positional law, 1,436 inst)
+    "\uf0e9": "\u23a1",   # big bracket LEFT-TOP piece (positional law, 135 inst)
+    "\uf0ea": "\u23a2",   # big bracket LEFT-EXT piece (positional law, 94 inst)
+    "\uf0eb": "\u23a3",   # big bracket LEFT-BOTTOM piece (positional law, 135 inst)
+    "\uf0f6": "\u239e",   # big paren RIGHT-TOP piece (positional law, 1,432 inst)
+    "\uf0f7": "\u239f",   # big paren RIGHT-EXT piece (positional law, 1,498 inst)
+    "\uf0f8": "\u23a0",   # big paren RIGHT-BOTTOM piece (positional law, 1,437 inst)
+    "\uf0f9": "\u23a4",   # big bracket RIGHT-TOP piece (positional law, 135 inst)
+    "\uf0fa": "\u23a5",   # big bracket RIGHT-EXT piece (positional law, 94 inst)
+    "\uf0fb": "\u23a6",   # big bracket RIGHT-BOTTOM piece (positional law, 135 inst)
+    "\uf026": "\u0307",   # combining dot-above — recurring-decimal notation (95 inst)
+    "\uf03c": "<",         # Symbol less-than (99 inst, our-render)
+    "\uf03e": ">",         # Symbol greater-than (55 inst, our-render)
+    "\uf061": "\u21a6",   # mapsto (20 inst, our-render+context-scaffold)
+    "\uf070": "\u03c0",   # Symbol pi (569 inst, our-render)
+    "\uf084": "\u2264",   # less-than-or-equal (520 inst; spec-sqrt hypothesis
+                          # OVERTURNED by pair evidence with F0B7-family >=)
+    "\uf0b1": "\u00b1",   # plus-minus (392 inst, our-render+context-scaffold)
+    "\uf0b9": "\u2260",   # not-equal (13 inst, our-render)
+    "\uf0de": "\u21d2",   # rightwards double arrow (11 inst, our-render)
+    "\uf07b": "{",         # Symbol brace-left (6 inst, our-render)
+    "\uf07d": "}",         # Symbol brace-right (6 inst, our-render)
 }
 
+
+# F64 (v0.16.0): spec §3.4 control-char policy — C0 controls that survive into
+# served strings (the maths-B QP text layer carries the SymbolMT private-use
+# operator class, e.g. 0x16-0x1F between numeric terms) fall back to a single
+# space, logged per-instance here and disclosed in the validation report.
+# NEVER silent. An operator-class adjudication (which controls are ×/÷ vs
+# furniture) is a review-queue item until font-trace + render evidence lands.
+CTL_COUNTER = {}
+
+def _ctl_note(cp):
+    CTL_COUNTER[cp] = CTL_COUNTER.get(cp, 0) + 1
 
 def normalize_pua(s: str) -> str:
     """F48: map every known PUA char to its real Unicode form; REFUSE unknown
@@ -222,6 +307,10 @@ def normalize_pua(s: str) -> str:
     mapping runs on both G2 sides (the line-scan + the page-level norm) so
     verbatim overlap is unaffected."""
     s = s.replace("\u01fb", "\u0394")   # F52: italic-Delta artifact -> Δ
+    # F64: spec §3.4 control-char fallback (logged, disclosed in the report)
+    if any((ord(c) < 0x20 and c not in "\t\n\r\x0c") for c in s):
+        s = "".join((_ctl_note(hex(ord(c))) or " ") if (ord(c) < 0x20 and c not in "\t\n\r\x0c") else c
+                    for c in s)
     if not any(0xE000 <= ord(c) <= 0xF8FF for c in s):
         return s
     out = []
@@ -242,6 +331,12 @@ FURNITURE_SUBS = [
     (re.compile(r"\*P\d{5}[A-Z]\w*\*"), " "),       # page identity marker (P62045A*, P58561A*, ...)
     (re.compile(r"\bTurn over\b"), " "),
     (re.compile(r"DO NOT WRITE IN THIS (?:AREA|MARGIN|SPACE)\s*"), " "),   # often 3x on one line
+    # F65 (v0.16.0): maths-B page furniture — the multi-page question continuation
+    # header and the printed formula scaffold in the answer space (the quadratic
+    # formula box every 4MB1 paper prints; 2025-11 Q5 leak eyeballed). Neither
+    # string occurs anywhere in the chemistry corpus (census 2026-10-25: 0 hits
+    # in the staged 2020-11 baseline layer), so the parity surface is unchanged.
+    (re.compile(r"\bQuestion \d{1,2} continued\b"), " "),
 ]
 FURNITURE_LINE = [
     re.compile(r"^\s*PMT\s*$"),                     # archive watermark
@@ -249,6 +344,16 @@ FURNITURE_LINE = [
     re.compile(r"^\s*DO NOT WRITE IN THIS (AREA|MARGIN|SPACE)\s*$"),
     re.compile(r"^\s*\d{1,2}\s*$"),                 # bare page number (1..36)
     re.compile(r"^[\s.]*\.[\s.]*$"),                # dotted answer lines
+    # F65 (v0.16.0): the printed formula scaffold in the maths answer space —
+    # the quadratic-formula box every 4MB1 paper prints. normalize_pua runs
+    # BEFORE these patterns (clean_lines), so the SymbolMT control chars are
+    # already spaces here; .match() anchors at string start, hence the ^\s*.
+    # The box flattens to two lines: 'b b 2 4ac' (the −b ± √(b²−4ac) numerator)
+    # and 'Solutions of ax 2 bx c 0 are x' (the caption). The double-b + 4ac
+    # token sequence is box-specific — MS working rows substitute numbers and
+    # carry at most a single leading 'b'. Census: zero occurrences in chemistry.
+    re.compile(r"^\s*Solutions of ax"),
+    re.compile(r"^\s*b\s+b\s*2\s*4ac\s*$"),
     re.compile(r"^\s*$"),
     # F42: the MS is one table; every printed page repeats its header, and a
     # marker row near a page break would otherwise swallow the next page's
@@ -270,7 +375,35 @@ def clean_lines(raw: str):
         if any(rx.match(ln) for rx in FURNITURE_LINE):
             continue
         out.append(ln.rstrip())
-    return out
+    # F65 (v0.16.0): the flattened quadratic-formula box — the scaffold prints
+    # as a 4-line consecutive run in the layout text layer: 'b' / 'b 2' / '4ac'
+    # / '0 are x' (the −b ± √(b²−4ac) numerator pieces + the caption tail,
+    # control chars already spaced by normalize_pua). Remove the exact
+    # consecutive signature wherever it appears; everything else survives.
+    i = 0
+    res = []
+    while i < len(out):
+        if (i + 3 < len(out)
+                and out[i].strip() == "b"
+                and out[i + 1].strip() == "b 2"
+                and out[i + 2].strip() == "4ac"
+                and out[i + 3].strip() == "0 are x"):
+            i += 4
+            continue
+        # F65: the box's fraction denominator ('2a') can detach from the
+        # numerator pieces by the answer-space page break and surface between
+        # the question's '(N)' marks line and its footer. Two-sided anchor:
+        # standalone '2a' + previous non-blank line is a marks line + next
+        # non-blank line is the question footer — no other '2a' matches.
+        if out[i].strip() == "2a":
+            prev = next((res[j] for j in range(len(res) - 1, -1, -1) if res[j].strip()), "")
+            nxt = next((out[j].strip() for j in range(i + 1, len(out)) if out[j].strip()), "")
+            if re.match(r"^\(\d{1,2}\)$", prev.strip()) and FOOTER_RE.search(nxt):
+                i += 1
+                continue
+        res.append(out[i])
+        i += 1
+    return res
 
 
 # ---------------------------------------------------------------- stage 2: segmentation
@@ -1242,18 +1375,38 @@ def main():
     ap = argparse.ArgumentParser(description="ADR-037 official-paper question extractor")
     ap.add_argument("--series", default="2020-11",
                     help="paper series folder, e.g. 2020-11 (baseline), 2019-06, 2020-01, 2021-06, 2022-06, 2024-06")
-    ap.add_argument("--paper", default="1C", choices=sorted(PAPER_TOTALS),
-                    help="paper variant code (F34): 1C default; 2C since v0.8")
+    ap.add_argument("--paper", default="1C",
+                    help="paper variant code (F34): 1C default; 2C since v0.8; 4MB1 01/02/01R/02R since v0.16 (F64)")
+    ap.add_argument("--course", default="igcse-chemistry-19", choices=sorted(COURSES),
+                    help="course registry entry (F64): igcse-chemistry-19 default; igcse-maths-b-16 since v0.16")
     args = ap.parse_args()
     series = args.series
     paper = args.paper
+    course = args.course
+    cfg = COURSES[course]
+    # F64: fail-closed paper validation against the course registry (argparse
+    # cannot do per-course choices on a single --paper argument)
+    if paper not in cfg["paper_totals"]:
+        ap.error(f"paper {paper!r} is not a registered variant of course {course!r} "
+                 f"(registered: {sorted(cfg['paper_totals'])})")
+    # F64: rebind the course-scoped globals BEFORE any path/regex use
+    global OUTROOT, COURSE_PREFIX, FOOTER_RE, PAPER_TOTAL, SPEC_RESOLUTION
+    OUTROOT = RES_DIR / "Official-ExamQuestion" / course
+    COURSE_PREFIX = cfg["paper_prefix"]
+    FOOTER_RE = re.compile(cfg["footer_re"])
+    if cfg["spec_resolution"] is False:
+        SPEC_RESOLUTION = None          # no registry for this course (G6 documented gap)
+    elif cfg["spec_resolution"] is not None:
+        SPEC_RESOLUTION = Path(cfg["spec_resolution"])
+    # else: keep the module-level resolution chain (chemistry default)
     P = paths_for(series, paper)
-    global QP_PDF, MS_PDF, QP_TXT, MS_TXT, MANIFEST, OUT, PAPER_TOTAL
+    global QP_PDF, MS_PDF, QP_TXT, MS_TXT, MANIFEST, OUT
     QP_PDF, MS_PDF = P["qp_pdf"], P["ms_pdf"]
     QP_TXT, MS_TXT = P["qp_txt"], P["ms_txt"]
     MANIFEST, OUT = P["manifest"], P["out"]
-    PAPER_TOTAL = PAPER_TOTALS[paper]
-    expect_q = EXPECT_QUESTIONS[paper].get(series)
+    PAPER_TOTAL = cfg["paper_totals"][paper]
+    eq = cfg["expect_questions"] if cfg["expect_questions"] is not None else EXPECT_QUESTIONS
+    expect_q = eq[paper].get(series)
 
     report = {"schema": "syllabai.official-paper-questions.validation/0.2",
               "generated_utc": now_iso(), "series": series, "paper": paper, "gates": [],
@@ -1327,6 +1480,26 @@ def main():
         seg = segment_question(qnum, [l for l in region if l.strip()])
         stem_md = re.sub(r"\s{2,}", " ", " ".join(seg["stem_lines"])).strip()
         questions_parts = []
+        if not seg["group_order"] and printed_total:
+            # F65 (v0.16.0, igcse-maths-b-16 tranche-1): the maths-B QP prints
+            # single-part questions with NO (a)/(b) markers — the marks appear
+            # as '(N)' after the final stem line (2025-11 Q5 '(6)', Q10 '(7)',
+            # Q12 '(6)'). The whole region IS one part carrying the printed
+            # total. The MS block union law (linkage loop) links it. Generic
+            # layout law, not per-series: chemistry questions carry markers
+            # corpus-wide, so this branch is unreachable on the chemistry
+            # corpus (parity re-run proved byte-identical structure+marks).
+            p = finalize_part(seg["stem_lines"])
+            questions_parts.append({
+                "part_number": f"{qnum}",
+                "group": None, "roman": None,
+                "group_stem_md": None, "option_list": None,
+                "marks": p["marks"] if p["marks"] is not None else printed_total,
+                "question_type": "multiple_choice" if p["choices"] else "structured",
+                "problem_md": p["problem_md"], "choices": p["choices"],
+                "source_norm": p["source_norm"],
+                "implicit_single_part": True,
+            })
         for gletter in seg["group_order"]:
             grp = seg["groups"][gletter]
             grp_stem = strip_dotrun(re.sub(r"\s{2,}", " ", " ".join(grp["stem_lines"])).strip())
@@ -1431,6 +1604,20 @@ def main():
         for p in q["parts"]:
             key = (q["question_number"], p["group"], p["roman"])
             lines = ms_entries.get(key, [])
+            if not lines and p["group"] is None and p["roman"] is None \
+                    and len(q["parts"]) == 1 and p.get("implicit_single_part"):
+                # F65: single-part question MS union. The QP prints no sub-part
+                # markers, so parse_ms files the answer rows under
+                # content-fragment letter keys (a 'b2 − 4ac' fragment keys as
+                # 'b', a cosine-rule bracket as 'c', an '(n − 9)(n − 10)' row
+                # as 'd' — verified on 2025-11 Q5/Q10/Q12). The question has
+                # exactly ONE part, so EVERY parsed block for this question is
+                # its answer: concatenate in file order. Fail-closed: only
+                # fires for implicit single parts (multi-part questions keep
+                # the exact-key laws; a spurious union can never fire there).
+                qkeys = [k for k in ms_entries if k[0] == q["question_number"]]
+                if qkeys:
+                    lines = [ln for k in qkeys for ln in ms_entries[k]]
             if not lines and p["roman"] is not None and p["group"] is None:
                 # v0.10 (F42): the QP prints a bare question-level roman
                 # (2019-06 11(iii) — the paper itself omits the '(b)' after
@@ -2362,11 +2549,18 @@ def main():
         # specification itself gives NO numbered point for (verified against the
         # published spec), decided rather than left pending-llm forever.
         nsp = _labels_doc.get("no_spec_point", {})
-    reg = json.loads(SPEC_RESOLUTION.read_text())["resolved"]
-    registry = set()
-    for r in reg:
-        if r.get("resolved_code"):
-            registry.add(r["resolved_code"])
+    # F64: a course without a spec registry (maths-B tranche-1) runs G6 with an
+    # empty registry — lawful only while NO codes are emitted (all parts land in
+    # pending-llm / no-spec-point states); any emitted code would fail the
+    # membership check below, which is exactly the fail-closed posture we want.
+    if SPEC_RESOLUTION is not None and Path(SPEC_RESOLUTION).exists():
+        reg = json.loads(Path(SPEC_RESOLUTION).read_text())["resolved"]
+        registry = set()
+        for r in reg:
+            if r.get("resolved_code"):
+                registry.add(r["resolved_code"])
+    else:
+        registry = set()   # F64: no-registry course — G6 runs vacuous (0 codes)
     for q in doc_questions:
         for p in q["parts"]:
             codes, tagging = [], None
@@ -2731,6 +2925,18 @@ def main():
     }
 
     # ---- write outputs -------------------------------------------------------
+    # F64: spec §3.4 disclosure — the per-instance control-char fallback log
+    if CTL_COUNTER:
+        report["control_char_fallback"] = {
+            "policy": "spec §3.4 single-space fallback, logged per-instance (F64)",
+            "instances": dict(sorted(CTL_COUNTER.items())),
+        }
+        report["review_queue"].append({
+            "part": "(corpus)",
+            "reason": (f"C0 control chars in the QP text layer ({sum(CTL_COUNTER.values())} instances / "
+                       f"{len(CTL_COUNTER)} codepoints) resolved to single space per spec §3.4 — "
+                       "probable SymbolMT private-use operators (×/÷ class) between numeric terms; "
+                       "font-trace + page-render adjudication owed before these serve as operators")})
     OUT.mkdir(parents=True, exist_ok=True)
     (OUT / "topic.json").write_text(json.dumps(topic, indent=1, ensure_ascii=False))
     (OUT / "validation-report.json").write_text(json.dumps(report, indent=1, ensure_ascii=False))
