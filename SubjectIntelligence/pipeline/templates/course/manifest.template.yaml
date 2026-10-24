@@ -1,0 +1,32 @@
+# {{LIBRARY}} — SIB v1 subject manifest [TEMPLATE]
+# Instantiate with pipeline/new_course.py — it substitutes every template placeholder,
+# creates the work directories and, given --taxonomy <syllabai-checkout>, generates
+# the 95-row artifacts list directly from the taxonomy of record
+# (SyllabAI/syllabai@tools/sib/taxonomy.py). Do not hand-write artifact rows.
+#
+# Applicability law (SUBJECT_INTELLIGENCE_BUILD_V1.md §3/§6): the taxonomy is
+# universal, applicability is subject-specific. Statuses stay empty until artifacts
+# exist (the validator rejects landing artifacts that self-declare past GENERATED).
+sib_protocol: SIB-1.0
+manifest_version: "0.1"
+subject: {{SUBJECT}}
+qualification: {{QUALIFICATION}}
+specification: {{SPECIFICATION}}
+curriculum_version: "{{CURRICULUM_VERSION}}"
+notebook: {{SPECIFICATION}}-SIB-NOTEBOOK-001 (provisioned at generation time per docs/PIPELINE.md §3)
+source_manifest: source_manifest.yaml
+
+artifacts:
+  # --- GENERATED SECTION (new_course.py --taxonomy) -------------------------
+  # One row per taxonomy artifact of record, emitted as:
+  #   - artifact_id: <ID>
+  #     applicability: REQUIRED
+  # Default applicability: REQUIRED for every family except HIS, which instantiates
+  # as OPTIONAL until the course's legacy corpus is onboarded (mirror of the
+  # validated CHEMISTRY_4CH1 precedent). APPLICABILITY REVIEW IS A MANDATORY
+  # ONBOARDING STEP: flip rows with a justification comment for this subject, and
+  # disclose every unfillable REQUIREMENT as a source_gaps entry — never delete rows.
+  # The validator (tools.sib.cli validate-manifest) owns the final shape gate.
+
+source_gaps: []   # [{id: GAP-SRC-NNN, description: >- ...}] — disclosed, never fabricated
+backlog: []       # operator-ordered future waves (BL-NNN)

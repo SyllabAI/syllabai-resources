@@ -1,0 +1,20 @@
+# {{LIBRARY}} — pinned curriculum registry for SIB anchor resolution (SIB-ANCH-*) [TEMPLATE]
+# Pin from the course's authoritative curriculum plane of record — e.g.
+# graph/<course-slug>/specification_points.yaml in syllabai-resources, or the
+# validated SpecificationPoint rows in the core data plane. The authoritative live
+# registry stays where it lives; this pin exists so anchor resolution is
+# reproducible inside the library boundary.
+registry_version: "0.1"
+pinned_from: null               # path of the live registry of record
+pinned_at_tree: null            # git tree id at pin time (verifiable with git cat-file)
+curriculum_code: {{SPECIFICATION}}-{{CURRICULUM_VERSION}}
+specification: {{SPECIFICATION}}
+spec_issue: null
+counts:
+  spec_points: null
+  c_points: null
+  topics: null
+  subtopics: null
+  practicals: null
+  command_words: null
+spec_point_codes: []            # the pinned codes; artifact anchor tokens cite these

@@ -1,0 +1,47 @@
+# {{LIBRARY}} — SIB v1 source manifest [TEMPLATE]
+# Instantiate with pipeline/new_course.py, then fill by the inventory-first sweep
+# (docs/COURSE_ONBOARDING.md step 2) BEFORE any artifact generation.
+#
+# Law (docs/SOURCE_REQUIREMENTS_TEMPLATE.md §4): source files stay in their
+# canonical repositories; this manifest POINTS at them with stable identifiers,
+# repository paths, versions, session metadata and checksums where available.
+# Nothing is duplicated into this library for its own sake.
+#
+# Classification vocabulary:
+#   CURRENT — AUTHORITATIVE | CURRENT — ASSESSMENT EVIDENCE | SUPPLEMENTARY |
+#   LEGACY — HISTORICAL | RESEARCH / INFERRED
+#
+# Identifier law: pin `tree_sha` / `blob_sha` git object ids at a stated tree of
+# record and quote of-record checksums from the owning repo's own ledgers — never
+# invent identifiers; the validator never invents source identifiers either.
+#
+# Row shape: see the validated worked example CHEMISTRY_4CH1/source_manifest.yaml.
+# A source row carries: id, title, classification, type, issuer, specification,
+# version, paths[], identifiers{}, coverage, provenance, limitations, feeds_families[].
+manifest_version: "0.1"
+manifest_history:
+  - version: "0.1"
+    date: "{{YEAR}}"
+    change: template instantiation (onboarding; inventory sweep not yet executed)
+subject: {{SUBJECT}}
+specification: {{SPECIFICATION}}
+qualification: {{QUALIFICATION}}
+curriculum_version: "{{CURRICULUM_VERSION}}"
+inventoried_at: null            # set to the sweep date when onboarding step 2 completes
+inventory_basis:
+  repos_swept: []               # [{repo, tree/ref, method}] swept for THIS course
+  census_method: path census + ledger cross-read
+
+sources: []
+# ^ fill with classified source rows; group them by the six minimum-corpus groups:
+#   1 specification + validated spec-point registry
+#   2 student book / teaching material
+#   3 official QP/MS corpus (paper/session/variant identity preserved)
+#   4 official examiner reports
+#   5 SME notes + question-to-specification mappings (preserve validation state)
+#   6 practical guidance + data sheets / reference material
+#   (+ legacy group for longitudinal analysis, classified LEGACY — HISTORICAL)
+
+source_gaps: []   # [{id: GAP-SRC-NNN, description: >- ...}] — the absence of an
+                  # optional source is not a blocker; record it and proceed where the
+                  # available evidence is sufficient. NEVER fabricate missing evidence.

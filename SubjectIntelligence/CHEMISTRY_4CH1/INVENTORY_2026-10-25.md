@@ -6,7 +6,7 @@ entries, a known hazard filed as LEDGER F16). `syllabai-pastpapers`, `syllabai-e
 `syllabai-parser` swept via the trees API. Cross-reads: `books/CATALOG.md`,
 `Official-Specifications/igcse-chemistry/spec.json`, `LICENSE-DATA.md`, `LEDGER.md`,
 `graph/igcse-chemistry/specification_points.yaml` header. Machine-readable, per-source detail:
-`../CHEMISTRY_4CH1/source_manifest.yaml` (ids cited below).
+`source_manifest.yaml` (same directory; ids cited below). *(Moved from docs/ 2026-10-25, SIB-LIBRARY-003 — course-specific docs live in the course library.)*
 
 ## Verdict against the six minimum-corpus groups (requirements §5)
 

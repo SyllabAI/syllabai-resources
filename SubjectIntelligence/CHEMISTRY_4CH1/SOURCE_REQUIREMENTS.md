@@ -1,7 +1,7 @@
 # Source Requirements — 4CH1 Subject Intelligence Build
 
 **Status:** OF RECORD (operator directive, 2026-10-25 — "For SIB, there are requirements. I want you to create a folder in syllabai-resources folder. called SubjectIntelligence. There create docs/copy existing docs. Create the pipeline.")
-**Provenance note:** requirements body below is the operator-provided assessment (ChatGPT-drafted), filed verbatim in substance. The inline marketplace/image proxy links from the chat export were dead weight and are stripped; their role (indicative source types) is preserved in the tables. The key-next-step instruction was executed the same day — see `SOURCE_INVENTORY_2026-10-25.md`.
+**Provenance note:** requirements body below is the operator-provided assessment (ChatGPT-drafted), filed verbatim in substance. The inline marketplace/image proxy links from the chat export were dead weight and are stripped; their role (indicative source types) is preserved in the tables. The key-next-step instruction was executed the same day — see `INVENTORY_2026-10-25.md` (same directory). Moved here 2026-10-25 (SIB-LIBRARY-003): course-specific docs live inside the course library per the all-courses architecture; the generalized template is `../docs/SOURCE_REQUIREMENTS_TEMPLATE.md`.
 
 ---
 
@@ -92,4 +92,4 @@ Then inventory 4CH0 as a separate legacy group for longitudinal analysis.
 
 **Limitation law:** the absence of an optional source is not a blocker. If examiner reports or a teaching guide are unavailable, record the gap and proceed where the available evidence is sufficient. Never fabricate missing evidence to make an artifact appear complete.
 
-**Key next step:** inspect the actual repositories and report which sources are already accessible. That inventory determines what needs collecting, rather than making the operator manually gather material SyllabAI already holds. *(Executed 2026-10-25 → `SOURCE_INVENTORY_2026-10-25.md`; live status lives in `../CHEMISTRY_4CH1/source_manifest.yaml`.)*
+**Key next step:** inspect the actual repositories and report which sources are already accessible. That inventory determines what needs collecting, rather than making the operator manually gather material SyllabAI already holds. *(Executed 2026-10-25 → `INVENTORY_2026-10-25.md`; live status lives in `source_manifest.yaml`, same directory.)*
