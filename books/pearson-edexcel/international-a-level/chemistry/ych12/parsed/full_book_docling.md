@@ -1,0 +1,19784 @@
+# Pearson Edexcel International AS/A Level Chemistry Student Book 2 — Cliff Curtis, Jason Murgatroyd, David Scott
+
+CHEMISTRY Student Book 2
+
+Cliff Curtis Jason Murgatroyd with David Scott
+
+www.pearsonglobalschools.com
+
+website:https://qualifications.pearson.com
+
+TextPearsonEducationLimited2019 DesignedbyTech-SetLtd,Gateshead,UK TypesetbyTech-SetLtd,Gateshead,UK EditedbyGerardDelaney,SharonJordanandSarahWright OriginalillustrationsPearsonEducationLimited2019 llustratedbyTech-SetLtd,Gateshead,UK CoverdesignPearsonEducationLimited2019
+
+Coverimages:Front:GettyImages:DavidMalin/ScienceFaction
+
+Insidefrontcover:Shutterstock.com/DmitryLobanov
+
+TherightsofCliffCurtis,JasonMurgatroydandDavidScotttobeidentifiedas authorsof thisworkhavebeenassertedbytheminaccordancewiththeCopyright, DesignsandPatentsAct1988.
+
+Firstpublished2019
+
+22212019
+
+10987654321
+
+BritishLibraryCataloguinginPublicationData AcataloguerecordforthisbookisavailablefromtheBritishLibrary ISBN9781292244723
+Copyrightnotice
+
+andwhetherornottransientlyorincidentallytosomeotheruseof thispublication) withoutthewrittenpermissionofthecopyrightowner,exceptinaccordancewith theprovisionsoftheCopyright,DesignsandPatentsAct1988orundertheterms ofa licenceissuedbytheCopyrightLicensingAgency,5thFloor,ShackletonHouse, 4BattlebridgeLane,London,SE12HX(www.cla.co.uk).Applicationsfor the copyrightowner'swrittenpermissionshouldbe addressed tothepublisher.
+
+PrintedinSlovakiabyNeografia
+
+Acknowledgements
+
+Theauthorsandpublisherwouldliketothankthefollowingindividualsand organisationsforpermissiontoreproduce copyrightmaterial:
+Photographs
+
+(Key:b-bottom; c-centre;I-left;r-right; t-top)
+
+2-3Shutterstock:Marilynbarbone/Shutterstock;5SciencePhotoLibrary Ltd:(tr)AndrewLambertPhotography/SciencePhotoLibraryLtd;(cl)Martyn F.Chillmaid/SciencePhotoLibraryLtd;(br)TrevorCliffordPhotography/Science PhotoLibraryLtd;30GettyImages:AdrideVisser/MindenPictures/GettyImages; 38Shutterstock:Vlastas/Shutterstock;50PearsonEducationLtd:(tl1)Trevor Clifford/PearsonEducationLtd;123RF:(tl2)AntonStarikov/123RF;54Toyota MotorSales:CourtesyofToyotaMotorSalesU.S.A.,Inc.;58-59Shutterstock: ValentinValkov/Shutterstock;71AlamyStockPhoto:PCNPhotography/Alamy StockPhoto;74GettyImages:ReinhardDirscherl/WaterFrame/GettyImages; 78-79Shutterstock:Ikpro/Shutterstock;80AlamyStockPhoto:(cl1)Historic Images/AlamyStockPhoto;(cl2)ThomasMartinLowry:T.M.Lowry;91Science PhotoLibraryLtd:AndrewLambertPhotography/SciencePhotoLibraryLtd;99 Shutterstock:Gennady/Shutterstock;102123RF:Federicofoto/123RF;106107Shutterstock:WitR/Shutterstock;116123RF:Oksix/123RF;118Science PhotoLibraryLtd:(cl)AndrewLambertPhotography/SciencePhotoLibrary Ltd;(bl)AndrewLambertPhotography/SciencePhotoLibraryLtd;120Science PhotoLibraryLtd:AndrewLambertPhotography/SciencePhotoLibraryLtd; 123Shutterstock:Gucio_55/Shutterstock;125123RF:ShaneMaritch/123RF; 127SciencePhotoLibraryLtd:AndrewLambertPhotography/SciencePhoto LibraryLtd;129123RF:Karandaev/123RF;135GettyImages:UlrichBaumgarten/ GettyImages;136AlamyStockPhoto:CHASSENET/BSIP/AlamyStockPhoto; 138GettyImages:BSiP/UniversalImagesGroup/GettyImages;140Alamy StockPhoto:ACImages/AlamyStockPhoto;141123RF:Angellodeco/123RF;
+
+#### Photographs
+142Shutterstock:ImageSourceTradingLtd/Shutterstock;143SciencePhoto LibraryLtd:MauroFermariello/SciencePhotoLibraryLtd;158-159Shutterstock: Assistant/Shutterstock;173GettyImages:Tramino/iStock/GettyImages;174 SciencePhotoLibraryLtd:AndrewLambertPhotography/SciencePhoto LibraryLtd;178123RF:SinishaKarich/123RF;182-183Shutterstock:Rost9/ Shutterstock;185SciencePhotoLibraryLtd;190SciencePhotoLibrary Ltd:AndrewLambertPhotography/SciencePhotoLibraryLtd;195Science PhotoLibraryLtd:RamonAndrade3dciencia/SciencePhotoLibraryLtd;198 Shutterstock:Sashkin/Shutterstock;199SciencePhotoLibraryLtd:Andrew LambertPhotography/SciencePhotoLibraryLtd;200SciencePhotoLibraryLtd: (tl)MartynF.Chillmaid/SciencePhotoLibraryLtd;(cl)MartynF.Chillmaid/Science Herbert/StockFoodLtd/AlamyStockPhoto;206SciencePhotoLibraryLtd: TrevorCliffordPhotography/SciencePhotoLibraryLtd;208SciencePhotoLibrary Ltd:AndrewLambertPhotography/SciencePhotoLibraryLtd;212SciencePhoto LibraryLtd:DickLuria/SciencePhotoLibraryLtd;213SciencePhotoLibrary Ltd:Astrid&Hanns-FriederMichler/SciencePhotoLibraryLtd;215Science PhotoLibraryLtd:MartynF.Chillmaid/SciencePhotoLibraryLtd;216Science PhotoLibraryLtd:BritishAntarcticSurvey/SciencePhotoLibraryLtd;220-221 Shutterstock:DiyanaDimitrova/Shutterstock;222123RF:NilaNewsom/123RF; 223SciencePhotoLibraryLtd:TrevorCliffordPhotography/SciencePhoto LibraryLtd;227123RF:GrzegorzKula/123RF;231AlamyStockPhoto:IS981/ ImageSourcePlus/AlamyStockPhoto;232123RF:DmitriySyechin/123RF; 236-237Shutterstock:Estas/Shutterstock;238123RF:Dolgachov/123RF;246 Shutterstock:(tl)Topseller/Shutterstock;SciencePhotoLibraryLtd:(bl)Cordelia Molloy/SciencePhotoLibraryLtd;247Shutterstock:OlgaMiltsova/Shutterstock; 251Shutterstock:Suriyayapin/Shutterstock;258-259GettyImages:Cultura/Phil Boorman/GettyImages;265AlamyStockPhoto:Chronicle/AlamyStockPhoto;
+
+AllotherimagesPearsonEducationLimited2019
+
+Wearegratefultothefollowingforpermissiontoreproducecopyrightmaterial:
+Figures
+
+Figure onpage 43fromMassNumberand Isotope',http://www.shimadzu.com, copyright@2014ShimadzuCorporation.Allrightsreserved;Figuresonpage 273fromEducationScotland@Crowncopyright2012;Figuresonpage144from Catalystsforagreenindustry'EducationinChemistry(TonyHargreaves),July 2009,http://www.rsc.org/education/eic/issues/2009July/catalyst-green-chemistry286from'Fiveringsgood,fourringsbad',EducationinChemistry(DrSimon Cotton),March2010,http://www.rsc.org/education/eic/issues/2010Mar/FiveRings GoodFourRingsBad.asp,copyrightRoyalSocietyofChemistry.
+TextCredit(s):
+
+26RoyalSocietyofChemistry:EngineeredMetalloenzymeCatalysesFriedalCraftsReactionbyDebbieHoughton,3November,2014,Reproducedby permissionofTheRoyalSocietyofChemistry.;54ToyotaMotorSales:From ToyotaTheOfficialBlogofToyotaUKbyJoeCliffordblog.toyota.co.uk/howdoes-toyotas-fuel-cell-vehicle-work;74GuardianNewsandMediaLimited: FromanarticleinTheGuardian,ScientistsStudyOceanAbsorptionofHuman CarbonPollutionbyJohnAbraham,16February2017,https://www.theguardian. com/environment/climate-consensus-97-per-cent/2017/feb/16/scientists-studyocean-absorption-of-human-carbon-pollution;102MiguelLlanos:FromThe DailyClimatebyMiguelLlaneshttps://www.dailyclimate.org/-2598789581.html; 154RoyalSocietyofChemistry:Enrichingtheoriginof lifetheorybyJoanne Thomson,26November,2010,ReproducedbypermissionofTheRoyalSociety ofChemistry.;178AnthonyEdwardHargreaves:FromAfterBatteryPowerby article;216NationalGeographicSociety:BlueBloodHelpsOctopusSurvive BrutallyColdTemperatures,10July2013,NationalGeographicSociety.Used withpermission;232RoyalSocietyofChemistry:FromTheSweetScentof SuccessbyEmmaDavies,February2009.ReproducedbypermissionofTheRoyal synthesis'byRichardVanNoorden,1November2007,@2007,Reproducedby permission of TheRoyalSocietyof Chemistry.
+Endorsementstatement
+
+Inordertoensurethatthisresourceoffershigh-qualitysupportfortheassociated body.Thisprocessconfirmedthatthisresourcefullycoverstheteachingand learningcontentofthespecificationatwhichitisaimed.Italsoconfirmsthatit
+
+Endorsementdoesnotcoveranyguidanceonassessmentactivitiesorprocesses (e.g.practicequestionsoradviceonhowtoanswerassessmentquestions) teachingordeliveryofarelatedcourse.
+
+qualificationanditsassessmentisaccurate,theofficialspecificationand associatedassessmentguidancematerialsaretheonlyauthoritativesourceof informationandshouldalwaysbereferredtofordefinitiveguidance.
+
+Pearsonexaminershavenotcontributedtoanysectionsinthisresourcerelevantto examinationpapersforwhichtheyhaveresponsibility.
+
+Examinerswillnotuseendorsedresourcesasasourceofmaterialforany resourceisrequiredtoachievethisPearsonqualification,nordoesitmeanthat itistheonlysuitablematerialavailabletosupportthequalification,andany resourcelistsproducedbythe awardingbodyshallincludethisandother appropriateresources.
+
+#### Endorsementstatement
+| COURSESTRUCTURE       | iv   |
+|-----------------------|------|
+| ABOUTTHISBOOK         | vili |
+| PRACTICAL SKILLS      | X    |
+| ASSESSMENTOVERVIEW    | xii  |
+| TOPIC 11              | 2    |
+| TOPIC 12              | 30   |
+| TOPIC 13              | 58   |
+| TOPIC 14              | 78   |
+| TOPIC 15              | 106  |
+| TOPIC 16              | 158  |
+| TOPIC 17              | 182  |
+| TOPIC 18              | 220  |
+| TOPIC 19              | 236  |
+| TOPIC 20              | 258  |
+| MATHS SKILLS          | 282  |
+| PREPARINGFORYOUREXAMS | 286  |
+| COMMANDWORDS          | 293  |
+| GLOSSARY              | 295  |
+| PERIODIC TABLE        | 298  |
+| INDEX                 | 299  |
+UNIT 4: RATES, EQUILIBRIA AND FURTHER ORGANIC CHEMISTRY
+
+#### 11AFURTHERKINETICS
+|                                                   |   1TECHNIQUESFORMEASURING THERATEOFREACTION 4 |
+|---------------------------------------------------|-----------------------------------------------|
+| 2RATEEQUATIONS,RATE CONSTANTSANDORDERSOF REACTION |                                             7 |
+| 3DETERMININGORDERSOF REACTION                     |                                            10 |
+| 4RATEEQUATIONSAND MECHANISMS                      |                                            15 |
+| 5ACTIVATIONENERGYAND CATALYSIS                    |                                            19 |
+| 6EFFECTOFTEMPERATURE ONTHERATECONSTANT            |                                            22 |
+| THINKING BIGGER: CATALYSTCRAFT                    |                                            26 |
+| EXAMPRACTICE                                      |                                            28 |
+
+#### TOPIC 13 CHEMICAL EQUILIBRIA
+| 12AENTROPY                                   | 12AENTROPY                            |
+|----------------------------------------------|---------------------------------------|
+| 1INTRODUCTIONTO ENTROPY                      | 32                                    |
+| 2TOTALENTROPY                                | 36                                    |
+| 3UNDERSTANDINGENTROPY CHANGES                | 40                                    |
+| 12BLATTICEENERGY                             | 12BLATTICEENERGY                      |
+| 1 LATTICE ENERGY, △H ANDBORN-HABER CYCLES    | 44                                    |
+| 2EXPERIMENTALAND THEORETICALLATTICE ENERGIES | 48                                    |
+| 3ENTHALPYCHANGESOF SOLUTIONANDHYDRATION51    |                                       |
+| THINKINGBIGGER: HYDROGENREVOLUTION 54        | THINKINGBIGGER: HYDROGENREVOLUTION 54 |
+| EXAMPRACTICE 56                              | EXAMPRACTICE 56                       |
+
+#### 13ACHEMICALEQUILIBRIA
+| 1EQUILIBRIUMCONSTANT,K                    | 60   |
+|-------------------------------------------|------|
+| 2 EQUILIBRIUM CONSTANT, K                 | 63   |
+| 3FACTORSAFFECTING EQUILIBRIUMCONSTANTS165 |      |
+| 4FACTORSAFFECTING EQUILIBRIUMCONSTANTS267 |      |
+| 5RELATINGENTROPYTO EQUILIBRIUMCONSTANTS   | 71   |
+| THINKINGBIGGER: CATASTROPHEFORCORAL       | 74   |
+| EXAMPRACTICE                              | 76   |
+14ASTRONGANDWEAK ACIDS
+
+• 1 THEBRONSTED-LOWRY THEORY
+
+80
+
+• 2HYDROGEN ION CONCENTRATIONAND THE pH SCALE
+
+83
+
+• 3IONICPRODUCTOF WATER, K
+
+86
+
+• 4ANALYSINGDATAFROM pHMEASUREMENTS
+
+• 88
+
+#### 14BACID-BASE TITRATIONS
+| 1ACID-BASETITRATIONS,pH CURVES AND INDICATORS91   |     |
+|---------------------------------------------------|-----|
+| 2BUFFERSOLUTIONS                                  |  96 |
+| 3BUFFERSOLUTIONSAND pH CURVES                     | 100 |
+| THINKINGBIGGER: APROBLEMGROWS                     | 102 |
+| EXAMPRACTICE                                      | 104 |
+TOPIC 15 ORGANICCHEMISTRY: CARBONYLS, CARBOXYLICACIDS ANDCHIRALITY 106
+
+#### 15ACHIRALITY
+| 1 CHIRALITY AND ENANTIOMERS                | 108   |
+|--------------------------------------------|-------|
+| 20PTICALACTIVITY                           | 110   |
+| 3 0PTICALACTIVITYAND REACTIONMECHANISMS112 |       |
+15BCARBONYL COMPOUNDS
+
+• 1CARBONYLCOMPOUNDS ANDTHEIRPHYSICAL PROPERTIES 114
+
+• 2 REDOXREACTIONSOF CARBONYLCOMPOUNDS 117
+
+• 3NUCLEOPHILICADDITION REACTIONS
+
+119
+
+15CCARBOXYLICACIDS
+
+• 1CARBOXYLICACIDSAND THEIR PHYSICAL PROPERTIES 122
+
+• 2PREPARATIONSAND REACTIONSOFCARBOXYLIC ACIDS 124
+
+15DCARBOXYLICACID DERIVATIVES
+
+• 1CARBOXYLICACID DERIVATIVES:ACYL CHLORIDES
+
+126
+
+2CARBOXYLICACID
+
+DERIVATIVES:ESTERS
+
+129
+
+3CARBOXYLICACID
+
+DERIVATIVES:
+
+POLYESTERS
+
+132
+
+#### 15ESPECTROSCOPYAND CHROMATOGRAPHY
+| 1 SIMPLE CHROMATOGRAPHY             | 134                    |
+|-------------------------------------|------------------------|
+| 2DETERMININGSTRUCTURES              | 2DETERMININGSTRUCTURES |
+| USINGMASSSPECTRA                    | 136                    |
+| 3CHROMATOGRAPHY: HPLC AND GC        | 138                    |
+| 4CHROMATOGRAPHYAND MASSSPECTROMETRY | 140                    |
+| 5PRINCIPLESOFNMR SPECTROSCOPY       | 142                    |
+| 613CNMRSPECTROSCOPY                 | 144                    |
+| 7HNMRSPECTROSCOPY                   | 148                    |
+| 8SPLITTINGPATTERNSIN 1HNMRSPECTRA   | 151                    |
+| LIFE'SMIRRORIMAGES                  | 154                    |
+| EXAMPRACTICE                        | 156                    |
+UNIT5:TRANSITION METALSAND ORGANICNITROGEN CHEMISTRY
+
+TOPIC16 REDOXEQUILIBRIA 158
+
+16ASTANDARD ELECTRODE POTENTIAL
+
+• 1STANDARDELECTRODE (REDOX) POTENTIALS 160
+
+• 2 ELECTROCHEMICAL CELLS
+
+• 3STANDARDELECTRODE POTENTIALSAND THERMODYNAMIC FEASIBILITY
+
+• 166
+
+168
+
+16BRED0XINACTION
+
+172
+
+1 FUEL CELLS
+
+174
+
+2REDOXTITRATIONS
+
+THINKING BIGGER:
+
+178
+
+ELECTROLYTEEVOLUTION
+
+EXAMPRACTICE
+
+180
+
+TOPIC17 TRANSITIONMETALS AND THEIR CHEMISTRY
+
+182
+17APRINCIPLESOF TRANSITIONMETAL CHEMISTRY
+
+• 1 TRANSITIONMETAL ELECTRONIC CONFIGURATIONS
+
+• 184
+
+• 2 LIGANDS AND
+
+• COMPLEXES 187
+
+• 3THEORIGINOFCOLOURIN COMPLEXES 189
+
+• 4COMMONSHAPESOF COMPLEXES 192
+
+• 5SQUAREPLANAR COMPLEXES 194
+
+• 6MULTIDENTATELIGANDS 196
+
+#### 17BTRANSITIONMETAL REACTIONS
+| 1DIFFERENTTYPESOF REACTIONS 199         |
+|-----------------------------------------|
+| 2REACTIONSOFCOBALTAND IRONCOMPLEXES 201 |
+| 3 THECHEMISTRYOF CHROMIUM 203           |
+| 4REACTIONSOFMANGANESE COMPLEXES 207     |
+| VANADIUM 208                            |
+| 6REACTIONSOFNICKELAND ZINCCOMPLEXES 210 |
+17CTRANSITIONMETALS AS CATALYSTS
+
+• 1HETEROGENEOUS CATALYSIS
+
+212
+
+• 2HOMOGENEOUSCATALYSIS214
+
+THINKING BIGGER:
+
+POWERFULPIGMENTS
+
+216
+
+EXAMPRACTICE
+
+218
+
+18AARENES:BENZENE
+
+• 1BENZENE:AMOLECULEWITH TWO MODELS 222
+
+• 2SOMEREACTIONSOF
+
+• BENZENE 226
+
+• 3ELECTROPHILICSUBSTITUTION MECHANISMS 228
+
+• 4 PHENOL
+
+230
+
+THINKINGBIGGER: MOLECULESOFFRAGRANCE ANDTASTE
+
+232
+
+EXAMPRACTICE
+
+234
+
+TOPIC19 ORGANICNITROGEN COMPOUNDS:AMINES AMIDES,AMINOACIDS ANDPROTEINS 236
+
+#### 19AAMINES,AMIDES AMINOACIDSAND PROTEINS
+| 1 AMINESANDTHEIR PREPARATIONS                    | 238   |
+|--------------------------------------------------|-------|
+| 2ACID-BASEREACTIONSOF AMINES                     | 240   |
+| 3OTHERREACTIONSOF AMINES                         | 242   |
+| 4AMIDESAND POLYAMIDES                            | 245   |
+| 5AMINO ACIDS                                     | 249   |
+| 6PEPTIDESANDPROTEINS252                          |       |
+| THINKINGBIGGER: PROTEINMOLECULES: LIFE'SHARDWARE | 254   |
+| EXAMPRACTICE                                     | 256   |
+
+#### 20AORGANIC STRUCTURES
+| 1ORGANICANALYSIS                                 |   260 |
+|--------------------------------------------------|-------|
+| 2ORGANICSYNTHESIS                                |   264 |
+| 3HAZARDS,RISKSAND CONTROLMEASURES                |   269 |
+| 4PRACTICALTECHNIQUES IN ORGANICCHEMISTRY: PART 1 |   272 |
+| 5PRACTICALTECHNIQUES INORGANICCHEMISTRY: PART 2  |   274 |
+| THINKINGBIGGER: CHALLENGINGORGANIC SYNTHESES     |   278 |
+| EXAMPRACTICE                                     |   280 |
+
+#### 20AORGANIC STRUCTURES
+MATHSSKILLS
+
+282
+
+PREPARINGFORYOUR EXAMS
+
+286
+
+SAMPLEEXAMANSWERS
+
+288
+
+COMMANDWORDS
+
+293
+
+GLOSSARY
+
+295
+
+PERIODICTABLE
+
+298
+
+INDEX
+
+299
+ABOUT THIS BOOK
+
+ThisbookiswrittenforstudentsfollowingthePearsonEdexcelInternationalAdvancedLevel(IAL) Chemistryspecification.Thisbookcovers thefullInternationalAdvancedSubsidiary(IAS) course and the firstyearof theInternational A Level(IAL) course.
+
+Thebook containsfull coverageof IAL units(orexampapers) 4 and 5.Eachunit hasfiveTopic areas that matchthetitlesandorderofthoseinthespecification.YoucanrefertotheAssessmentOverviewon ChemistryLabBook(seepagesx-xiofthisbook).
+
+EachTopicisdividedintochaptersandsectionstobreakthecontentdownintomanageablechunks.Each sectionfeaturesamixoflearningandactivitiessupportedbythefeaturesexplainedbelow.
+
+Learningtips
+
+Theexactspecification
+
+points covered inthe
+
+sectionareprovided.
+
+LEARNING OBJECTIVES
+
+Be able to calculate a standard emf. Eas by combining two standard electrode potentials.
+
+Be able to write celldiagrams using the conventional representation of half-cells.
+ELECTROCHEMICALCELLS
+
+At the positive electrode: Cu²*(aq) + 2e → Cu[s).
+
+At the negative electrode: Zn(s) Zn²*(aq) + 2e*
+
+The overallcell rection i:
+
+An electrochemical cel is a device for producing an electric current from chemical reactions It is constructed from two esde electrochemical ell from a Zn* | Zn half-celland a Ou²* I u half-cell under standard conditions.
+
+Zn(s) + Ou²*(aq) Zn²(aq) + Cu(s)
+
+ap jo eog
+CELL DIAGRAMS
+
+Zn²*(aq) 1 Zn(s)
+
+E° = 0.76 V
+
+It is not aways covenient to draw a diagram of the fullapparatus for a cell. For simplicity chemists use a shorthend notation to represent half-cells The half-cellmade frm zinc ions and zinc metal Is written as:
+
+The solid vertical line indicates a phase boundary in this case between an aqueous phase, Zn (aq). and a solid phase, Zn(s).
+
+Some other examples are
+
+Ag(aq) 1 Ag(s)
+
+(8 1(b),8W
+
+E° = 2.37V
+
+Cu²*(aq] I Cu[s)
+
+E° = +0.34 V
+
+AP*(aq) I Al(s)
+
+E° = 1.66V
+
+E° = +0.80V
+
+hemical cell cons
+
+EXAM HINT
+
+xgo-g n-r pe vz]-z3us A0+ = (be),a “(be),μa I (sd When the electrode, ie.the clectrical connection between the solution and the extemal circuit,Is a piece of platinum foil, the following covention is used:
+
+Itismranthyouandesielrhwthchew
+
+electrochemical cel (suchas the oe shwn infig ). Rememthat iistttwit t bdt ectrMkeethatcalinwKstwd
+
+The relevant standard electrode potentials for the redox systems imvolved are:
+
+Zn²*(aq) + 2e = Zn(s) E° = ~0.76 V
+
+Cu²*(aq) + 2e = Ou(s) E= +0.34V
+
+oaneau aow ap s (a-je uz 1 uz xog n a the zinc electrode will be the negative electrode of the cell. When the cell s in operation, Le. it is generating an eectric curren, electrons wil fow through the eoxtemal circut from the zinc electrode to the copper electrode.
+Exam hints
+
+Notice that because there is no phase boundary between Fe²*(aq) and Fe²(aq], a comma is used to separate them, not a solid vertical line.
+
+The standard hydrogen electrode is representedas follows: H'(aq) 1 H(e) 1 P(s)
+
+These shorthand notations can nowbe used to represent & cell comprising two half-cells Coevention dictates two things:
+
+• 2 The poitive electrode ls show on the righthand side of the cell diagram.
+
+• 1 The two reduced forms of the species are shown on the outside of the cell diagram.
+
+Applying these conventions produoes the following cell diagram for a cel formed by combining the Zn²*(aq) IZn(s) and the Cu(aq) I Cu(s) half-cells:
+
+Zn(s) I Zn²(aq) = Cu²(aq) I Cu(s)
+
+Did you know?
+
+Thesehelpyoufocusyourlearning andavoidcommonerrors.Cross referencestopreviousorfollowing StudentBookcontenthelpyouto navigatecoursecontent.
+
+TOPIC16
+
+Workedexamplesshowyou howtoworkthroughquestions, andsetoutcalculations.
+
+Workedexamples
+
+167
+
+The doule vertical lines () epresent the salt bridge.
+BREAKING THE CELL CONVENTIN
+
+The emf E°a of this oelis simly the dereo between the two standard electrode potentials of the two hal-cells.
+
+Zn(s) 1 Zn²*(aq) Ou²*(aq) I Ou(s)
+
+E°=-0.76VE°=+0.34V
+
+The differene between these two mumbers is 1.10, so the emf of the celis 1.10 V To indicate that the right-hand electrode, ie. the coppet is the positive electrode of the oell,the emf is ghven a positive (+) sign.
+
+So, the complete cell diagram is:
+
+Zn(s) 1 Zn²*(aq) Cu²*(aq) I Cu(s)E° = +1.10 V
+
+LEARNING TIP
+
+Note hat hesignforthEof theZnZnalf-celissils negtiveiteth-elbengwritennvrmne in Section16A1 the sinofastandard electrode ptential remais the samen aterhow th haf-cellis represented.
+DID YOU KNOW?
+
+E=E-E
+
+Iisaspsbletcalulateheemfthelfmel diagram by sutracting the value of the left-hand half-oell frm that of the right-hand half-oell:
+
+It is important to remember, however, that you must ot change th siftlf tlhnd flt reaction is written as an oxidafion and not a reduction.
+WHAT IS MEANT BY THE°DIFFERENCE' BETWEEN TWO STANDARD ELECTRODEPOTENTIALS?
+
+The easiest wayto explan this is toreresent the tw vales on a number scale, such as the one showm in fig B. + 1.00
+
+1.00
+
+• figB
+
+To move from one number to the other on the umber scale Involves a change of 1.10 units.
+CHECKPOINT
+
+Chemists alow themelves to break the rulesif it suits their to represent the measurement of astandard electrode potentil. In this case, the standard hydrogen electrode is ahways written on the left-hand side.
+
+The celldiagrams for the set-up used when meauring the standard electrode potentials of the Zn²*(eq] I Zn(s) and the Ou'(ag) I Cu(s) half-cels are therefore:
+
+Pt(s) 1 H(g) 1 H*(aq) = Zn²*(aq) 1 Zn(s) E°。 = 0.76 V
+
+Pu(s) 1Hμg) 1H*(aq) Cu*(aq) I Cu(s)E° = +0.34 V
+
+As before, the sign of E° indicates the polarity of the righhand electrode. Zinc is the negative electrode of the cellformed in combintionwith the standardhydrogen electrodeCoppers the positive electrode of the cel formed in combination with the standard hydrogen electrode.
+CHECKPOINT
+
+TIVE LEAIMNG
+
+(b) The standard electrode potentils forthehalf-cells are:
+
+1.(a)Drwabddahasht anb to construct acelunderstandard condiions frma Zn |Zn hal-celland a Fe,Fe |Pt half-ce.
+
+Zn²|nE²--0.76V
+
+Explain the direction of electron flow in the etemal circuit when this oellis in use.
+
+Feb,Fe-|PtE°=+0.77V
+
+• () Write thecelldiagram for this celand caculate the m (F" sa) of the cell.
+
+Cg)+e' = O(ag) E°=+1.36V MnO,(aq] + 8H(ag) · 5e = Mn²(aq) + 4H;O0) E° = +1.51V (a) Caulatethemf Esofacell costrcted fromthee w SaasAs xopu
+
+• 2.Chlorinemay be prpardinthe labratorybyreating dile electrode potentials that relate to this reaction are:
+
+• (b] Explain the direction ofelectron fow that would tae place
+
+• in the esteal Circult of this celwfhen in use. (c) Write the celldiagram for this cell.
+SUBJECT VOCABULARY
+
+thermodynamically feasible reaction a reaction that should take place without any intervention by us,if we consider the enthalpy and entropy changes involved
+
+kinetically stable the reaction does not take place, or is very slow, because the activation energy for the reaction is very high disproportionation a reaction in which an element is both oxidised and reduced at the same time
+SUBJECT VOCABULARY
+
+Tipsonhowtoanswerexamstylequestionsandguidance forexampreparation,including requirementsindicatedby particularcommandwords.
+
+Interestingfactshelpyou rememberthekeyconcepts.
+
+Questionsattheendofeach sectioncheckunderstandingof thekeylearningpointsin each chapter.Certainquestionsallow youtodevelopskillsthatwill be valuableforfurtherstudyandin theworkplace.
+
+Key terms arehighlighted inblueinthetext.Clear definitionsareprovidedat theendofeachsectionfor easyreference,andarealso collatedinaglossaryatthe backofthebook.
+
+Eachchapterstartswithalistof key learning objectives.
+
+Youshouldbeabletoputeverystage ofyourlearningincontext,chapter by chapter.
+
+• ·LinkstootherareasofChemistry includepreviousknowledge thatisbuilt oninthetopic,and futureareasofknowledgeand applicationthatyouwillcoverlater inyourcourse.
+
+• ·Mathsknowledgerequired is detailedinahandychecklist.Ifyou needtopractisethemathsyou need,youcanusetheMathsSkills referenceatthebackofthebookas a starting point.
+
+CATASTROPHEFORCORAL?
+
+SXLLSNPE
+
+os lie In oR
+OCEANSABSORBHUMANCARBONPOLLUTION
+
+As bmf s g liose goses esiter the atnnospbere vbere dhiey cause iner p Raiers
+
+ai f 2 proesin te ile Ourcrb ddsally ggint
+
+Thc pro ef b zn a tot sizplc -the z speC war ls sylk ng dobd vurnng Bu t ige g nkoel gA
+
+Kigete h key to ndertadinghow fast dle cange silloou Tis b sn acie area of rcarch, Is gariuat, scietis are cosdy thr (ver tinn.
+EXAM PRACTICE
+
+Exam-stylequestionsat theendofeachchapterare tailoredtothePearsonEdexcel specificationtoallowforpractice anddevelopmentofexam writingtechnique. Theyalso allowforpracticeresponding tothecommandwordsusedin theexams(seethecommand wordsglossaryatthebackof this book).
+
+Youcanalsorefertothe PreparingforYourExams sectionatthebackofthebook, forsampleexamanswerswith commentary.
+
+TOPIC13
+CHEMISTRY IN DETAIL
+
+c0jg CO,x)
+
+• Ord ds w ceeration of disoived cartboe
+
+• sa ut atiM [) oado ad u pppu 10u nfore co(sctin onforK). rtueH,Ok
+
+• CO,a ,0( HCO)a4| H)
+
+• (b) A sme of swter show ohe DOT gof CO, p dm dWed in t, Caloge the concerration of ms sioninmol dm
+
+• (A045x10 bse fhe pH cf tfsis sol
+
+ACTIVITY
+
+• uwebse hpsmtens.ay otrese the toflouing questk
+
+• Whgt ismeamtby opogic ce cange?
+
+• peonpodla
+
+• kgicalmeeidheAntoceeWhr does this ler
+
+14
+EXAM PRACTICE
+
+• 4 The fng gluminiuefd nitric acd and ccntd sulfuric acid: HNO, + 2H,90, NO + 2HSO, + H,O*
+
+• Thisdagmlmpent t
+
+• B CH,COOH(a( and KOHa
+
+• A CH,COOH(aq and NH,(q
+
+• C HCIg a NH,
+
+(Total fer Questios 1 = 1 merk)
+
+• D HCI)i4 and KOH(g)
+
+[
+
+• Hards ajhzec e Bagtig.sg pesseuntag scuro. lors
+
+• Which cf fhese, is aqptcs solasion, couldbe wed to do th?
+
+• The Indcaorrthis ti rqur pl tobe msmsised at.abor 10.
+
+• A armoria ssd ammosium chlotde
+
+• C sodun hroe s hcic add D sodiunhydroside and sodiut cthasouDc
+
+• ar d a hyricad
+
+( ）
+
+A 40
+
+C60
+
+CT0D80
+
+[
+
+• 3 A10 x 10mol g sf heel. monoprotic acid HAls a pH c 40 Wer lF a
+
+• 1 n as acid-bse rtion, 0.20 ml soltion of a baie is pe u p sotros,1up puw ot0 # jo ,uo gz o1 peppe Thedigm ep v esid ppr amq p urps ng ope
+
+• A 1NO, and NO a c -s
+
+• Which statement.is coect?
+
+• Thnidg
+
+• D The sifac acid acts aabe.
+
+• C The sa acid acs a detydng .
+
+( 1 )
+
+• Aslof n
+
+• Whutis wg vih d smes?
+
+• A dd
+
+• A Aques mim sudlis not acdc
+
+• C Tbefis ( asis d m
+
+• D The pH of the soi villbe @ecesed, not iceased.
+
+• 6 Afuic bccid H
+
+250 × mld Caof eut c [2]
+
+• a)Thtjihaogincg
+
+• BA25ef y 26.70cf0000lsdiuhde i
+
+• ) Cat r(i De fult jice. [3]
+
+• Cml H Sute bls ot qd
+
+• ot h cf iAu
+
+• erp ppe sg ag uopo r, cf HA(g I:1
+
+• ) nidif HAitisi
+
+• () Te ul I, HA(g 60 ×10mln wgpuo agapen
+
+Attheendofeachtopicthere isanopportunitytoreadand workwithreal-liferesearchand writingaboutscience.
+Thinking Bigger
+
+Theactivitieshelpyoutoread real-lifematerialthat'srelevant toyourcourse,analysehow scientistswrite,thinkcritically andconsiderhowdifferent aspectsofyourlearningpiece together.
+
+TheseThinkingBiggeractivities focusonkeytransferableskills, whichareanimportantbasisfor keyacademicqualities.
+EXAPRACTICE
+
+• Amir eic aciL CHCOOHandis sodum sal CHOt
+
+• 10Sulur diotide n H,SO, wtichis a wek dbesic acid. Thd
+
+[2]
+
+HI
+
+• 2 = 1.30 × 10mn
+
+• (a) State what is meet byetem ?ffer sltio. pee pxe grga yo arpqu t nougeghg (l sodisn efanoate acts as albuffe
+
+• f cad the tenp i 1.70 × 18°moil de]
+
+H,90/H H0
+
+• Asydf sodin hdeof conceon1.00ld.a smpleof L9mlnicaue fCl uopps arq eg
+
+( = m)
+
+• () Cll e p wreihf s lerperetzes.
+
+• 8Te leeic a x8py x 001 323K.
+
+• 4] B) Ungyrs (0]. cmdty f
+
+oA fi
+
+• Pre wris el bece thspfof 7. [2] ) Shv(e dane dt
+
+(=)
+
+2]
+
+• s192a Ld y
+) uwbmtse
+
+• Eq1:CCOO+HFCH0CH+F gaion 2: CHCOOH+ CN CH,COO+ HCN
+
+• ) thetetidys Brersted-Lowry acid [2]
+
+• s ps o me hat both eqilrielie H]
+
+• NH,+NHH + NH;
+
+• Lgii w s angwgiot
+
+• Forhs uue pteu uorost nestral'. mie woud be acifik, besic' or
+
+(@) Sodum amide, Na*NH;
+
+H]
+
+• fAnmorien tloride NHQC-
+
+• () Cf (3]U f anq [=]
+
+• (0 T ct /, hasa mle f 1.0 x 1*mdn 298K
+
+• sof 0.500ml 4m11,90, 290K ()Thmd p1 dH,O,isgly lerthanthat calcsed in pen [] Comet a psRle frths doe
+
+Gn of the ct
+
+• ( g sltin Caua d ff Q.500ml KOH 01 = 0I 0 [)
+
+f) W eesn br f
+
+• 11 The griph shons he chasge in pH when dlule hydrochiofc
+
+• ( +/ +(+(b Aad
+
+3 g xg ub
+
+• Byha w f 10-dte n he at B
+
+(2]
+
+• (c) Sueit eguatios fr fe rach stage. si tiaiirg place at.
+
+( = I )
+
+(1 = 9 )
+
+The UK3 Mer Officehas
+
+pedicid thar CO, le wll
+PRACTICALSKILLS
+
+Practicalworkiscentraltothestudyofchemistry.ThesecondyearofthePearsonEdexcel InternationalAdvanced practical scenarios.
+
+Yourknowledgeandunderstandingofpractical skills andactivitieswillbeassessed inallexaminationpapersfortheIAL Chemistryqualification.
+
+• ·Papers4and5will includequestionsbasedonpracticalactivities,includingnovelscenarios.
+
+In orderto developpractical skills,you should carry out a range of practical experimentsrelated to thetopicscovered in yourcourse.Further suggestions inadditiontotheCorePracticals are included in the specification,whichis available online.
+
+#### PRACTICALSKILLS
+| STUDENTBOOKTOPIC                                                      | IALCOREPRACTICALS   | IALCOREPRACTICALS                                                                                                                |
+|-----------------------------------------------------------------------|---------------------|----------------------------------------------------------------------------------------------------------------------------------|
+| TOPIC11 KINETICS                                                      | CP9a CP9b           | Followingtherateoftheiodine-propanonereactionbyatitrimetric method Investigating a‘clock reaction'(Harcourt-Esson, iodine clock) |
+| TOPIC14 ACID-BASEEQUILIBRIA                                           | CP11                | Finding theKvalue for aweak acid                                                                                                 |
+| TOPIC 16 REDOXEQUILIBRIA                                              | CP12 CP13a CP13b    | Investigating some electrochemical cells Redoxtitrationswithsodiumthiosulfateandiodine                                           |
+| TOPIC17 TRANSITIONMETALSANDTHEIRCHEMISTRY                             | CP14                | Preparationof a transitionmetal complex                                                                                          |
+| TOPIC19 ORGANICNITROGENCOMPOUNDS:AMINES, AMIDES,AMINOACIDSANDPROTEINS | CP15                | Analysisofsomeinorganicandorganicunknowns                                                                                        |
+| TOPIC20 ORGANICSYNTHESIS                                              | CP16                | Preparationofaspirin                                                                                                             |
+LEARNING OBJECTIVES
+
+• Understand that colour changes in transition metal ions may arse as aresult of changs i:
+
+• (i)ligand
+
+• ()oxidation number of the ion
+
+• (il coordination number of the complex.
+
+• ()[Cu(NHH,O)P from [Cu(H,OLP via Cu(OHI)(H,O)
+
+• Understand that ligand exchange, and an acompanying colour change, occurs in the fomation of:
+
+• (i) [CuCIJ- from [Cu(H;O]P
+
+• Be able to write onic equations to showthemeaning of amphoteric behaviour, deprotonationandligand echange reactions.
+TYPES OF REACTIONS
+
+• •redox the cnidstion number of the transition metal on changes
+
+So fat we he nideed the origin of olourin ransition metal ion. We can now coider why threareofe colur chnges when transition metal ions take part in reactions Four main types of reactions can occu:
+
+• ·deprotonation one or more of the ligmds gins or loses a hydrogem ion (proton)
+
+• Loseg] ailrs (t(uox Ion(phate(Fea(so) figA Sold samls larly sho colour derenos bewen ions.
+FORMATIONOF[C(NH](H,O)]:DEPROTONATIONAND LIGAND EXCHANGE REACTIONS
+
+[Cu(H,O)P* + 2OH- [Ca(H,O)(OH)] + 2H,O
+
+Conside th rection tht occurs when aqueous sodium hydroxide is added to copperl) sulfate solkutionThe beration is that a pale bue solution form a ble precipitate. The equatin for tis resction is
+
+You might think th this is a ligand substiution rection tht pd hyrfd is# deprotoetion reaction the two hydrxide jons hee remowed them inco water molecules The two water Igands that hve lost hydrogem ions are ncw hydroaxide llgands.
+PRACTICALSKILLS
+
+CP14
+
+• •coordination rumber change ~the mumber of ligands changes.
+
+• The oerall eqation forthe raction s
+
+• ·ligand exchangeone or more a the ligands around the transition metal ion Is replaced by a drferent igand
+
+Any one f these types of reactions can case a change in the colcur of the complex. Some reactions iroe more than ne of these types of reactions.
+
+a ss dde prearedbyaddingaqus ammonia toanaqueous solutionf copper[I] sulfate.
+
+[Cu(H,O] + 4NH, + SO][Cu(NH,]SO,H,O + SH,O ThisinhntiTsrtn youmight invesaten CP14: The preparatiofatransitin d pr
+CHANGEIN OXIDATIN NUMBER
+
+Bqtirlyf iasi i the only chamge is the oxidation mumber of the transition metal ioe.
+
+Anaqueo solution ctaning Fe(aq ins is pale green,bt when itis eposed to airit gradually tus yell rbrowm, as the oidation mumber of iroe increases fom +2 to +3. The type and mumber inds minchaned in tis datio retin so the foxmulae of the two compiexes ae [F(HO)* and [Fe(HO)]*. Colour changes sach as the ne inthis mactinare best ilustatedusing solid samples contaiing the ions (se Fig A).
+
+CORE PRACTICAL 14: PREPARATION OFA TRANSITION METAL COMPLEX
+Procedure
+
+• 2Add 4cm of water to the test tube using a graduated pipette.
+
+Exacty the same obervatioes canbe made duringthe carefl addiion of aqutous ammonia instead of aqueous sodlum tydrcxide. The equation for this reaction is
+
+[Cu(H,O)]* + 2NH [Ou(H;O)(OH)] + 2NH,*
+DID YOU KNOW?
+
+The fmlafecppeammnemlxnaus soltion is smetmes given as [Cu(NH]. hisisnfcorect. The cot fmlaishinthtfsiae esmug e ThisistltfinaldTelefft xplanation for this effectis beyond the aims of this bok.
+
+• 1Weigh between 1g and 1.6g of copper(ll sulfate. Todo this, you should weigh a test tube and record its mass Then add the copperll sulfate to the test tube, reweigh and recrd the mass. The mass of the coper(I) sulfate is the difference between the two masses
+
+• 3Prepare water bath by pouring hot water from a ketle into a 100cm beaker. Stand the test tube in the water bath.Stir gently todissolve th copper(Bl) sulfate.
+
+• 5 Remove the test tube containing the copper(ll sulfate solution from the
+
+• 4 Pipette 6 cm2 of ethanol into a beaket.
+
+• 6Perform this stepin the fumecubrd, wearing gloves. Stiring all the time,add 2cm² of concentrated ammonie solution to the copper(l sulfate solution.
+
+• 8Usina cherunel an flaskfiterth rystalsWah yor testte with cold ethanol and add the washings to the Buchner funnel. Finally. rinse the crystals with cold ethanol.
+
+• 7Pour the contents of the test tube into the beaker containing the ethanol. Mix well and then cool the mixture in an ice bath.
+
+• 9Carefully scrape the crystals offthe filter paper nto a fresh piece of filter paper.Coerth crystals wtha secnd piece of fitr paper Carefully pat the paper to dry the crystals, Note: to get the crystals completely dry. you may need tomove them todry parts of the fiter paper several tmes
+
+• 10 Oncethe crystals are dry,measure and record their mass.
+
+Results (Use this space to record your results)
+
+58
+
+Objectives
+
+• uopsuen e ajedaid o ● metal complex,
+
+• tetramminecopperl slfate1water
+Equipment
+
+• ●copperl sulfate pentahydrate (CuSO,-5H,0)
+
+• ● 2cm concentrated ammonia solution
+
+• ● Bichner flask and funnel and snqeuedde uogeng wnneA
+
+• p
+
+• ●filter peper
+
+• ●one 50cm beaker
+
+• ● one test tube
+
+• one 100cm? beaker
+
+• one 10cm? graduated pipett
+
+• one spatula
+
+• one pipette iller
+
+• pouBuuns auo
+
+accessto a kettle
+
+• mass balance (2 d.p) and weighing boat
+
+Safety
+
+• pinous uognjos ejuowwe at ● only be used in a working fume cupboard while wearing suitable chemical resistant gloves.
+
+• aod ala
+
+• ●The water bath must not be heated with a Bunsen buner as ethanol is highly flammable.
+
+IntheStudentBook,the CorePracticalspecifications aresuppliedintherelevant sections.
+PracticalSkills
+
+Practicalskillsboxesexplain techniquesusedintheCore Practicals,andalsodetailuseful skillsandknowledgegainedin otherrelatedinvestigations.
+
+ThisStudentBookis
+
+accompaniedbyaLab Book,whichincludes instructionsandwriting framesfortheCore Practicalsforyoutorecord yourresultsandreflecton yourwork.Practical skills practicequestionsand answersarealsoprovided. TheLabBookrecordscan beusedaspreparationfor
+
+thePractical SkillsPaper.
+ASSESSMENTOVERVIEW
+
+ThefollowingtablesgiveanoverviewoftheassessmentforPearsonEdexcelInternationalAdvancedLevelcourse inChemistry.Youshouldstudythisinformationcloselytohelpensurethatyouarefullypreparedforthiscourseand knowexactlywhattoexpectineachpartoftheexaminations.Moreinformationaboutthisqualification,andaboutthe
+
+#### ASSESSMENTOVERVIEW
+| PAPER/UNIT4                                                                                                                       | PERCENTAGE OFIA2   | PERCENTAGE OF IAL   | MARK   | TIME            | AVAILABILITY                                          |
+|-----------------------------------------------------------------------------------------------------------------------------------|--------------------|---------------------|--------|-----------------|-------------------------------------------------------|
+| RATES,EQUILIBRIAANDFURTHER ORGANICCHEMISTRY Writtenexampaper PapercodeWCH14/01                                                    | 40%                | 20%                 | 90     | 1hour 45minutes | January,June and October First assessment:January2020 |
+| PAPER/UNIT5                                                                                                                       | PERCENTAGE OFIA2   | PERCENTAGE OFIAL    | MARK   | TIME            | AVAILABILITY                                          |
+| TRANSITIONMETALSANDORGANIC NITROGENCHEMISTRY Writtenexampaper Paper codeWCH15/01 Externallyset and markedbyPearson Edexcel        | 40%                | 20%                 | 90     | 1hour 45minutes | January,June and October First assessment:June 2020   |
+| PAPER/UNIT6                                                                                                                       | PERCENTAGE OFIA2   | PERCENTAGE OF IAL   | MARK   | TIME            | AVAILABILITY                                          |
+| PRACTICALSKILLSINCHEMISTRYII Writtenexampaper Paper/UnitcodeWCH16/01 Externallysetandmarkedby PearsonEdexcel Single tier of entry | 20%                | 10%                 | 50     | 1hour 20minutes | January,June and October First assessment:June 2020   |
+
+#### ASSESSMENTOBJECTIVESANDWEIGHTINGS
+| ASSESSMENTOBJECTIVE   | DESCRIPTION                                                                                                                                                                                    | % IN IAS   | %IN IA2     | % IN IAL    |
+|-----------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------|-------------|-------------|
+| A01                   | Demonstrateknowledge and understandingofscience.                                                                                                                                               | 34-36      | 29-31       | 32-34       |
+| A02                   | (a) Application of knowledge and understanding of science in familiar and unfamiliar contexts. (b) Analysis and evaluation of scientific information to make judgements and reach conclusions. | 34-36 9-11 | 33-36 14-16 | 33-36 11-14 |
+| A03                   | Experimental skills in science, including analysis and evaluation of data andmethods.                                                                                                          | 20         | 20          | 20          |
+RELATIONSHIPOFASSESSMENTOBJECTIVESTOUNITS
+
+#### RELATIONSHIPOFASSESSMENTOBJECTIVESTOUNITS
+| UNIT NUMBER                             | ASSESSMENTOBJECTIVE(%) - A01   | ASSESSMENTOBJECTIVE(%) - A02(A)   | ASSESSMENTOBJECTIVE(%) - A02(B)   |   ASSESSMENTOBJECTIVE(%) - A03 |
+|-----------------------------------------|--------------------------------|-----------------------------------|-----------------------------------|--------------------------------|
+| UNIT1                                   | 17-18                          | 17-18                             | 4.5-5.5                           |                            0.0 |
+| UNIT2                                   | 17-18                          | 17-18                             | 4.5-5.5                           |                            0.0 |
+| UNIT3                                   | 0.0                            | 0.0                               | 0.0                               |                             20 |
+| TOTALFORINTERNATIONALADVANCEDSUBSIDIARY | 33-36                          | 34-36                             | 9-11                              |                             20 |
+
+#### RELATIONSHIPOFASSESSMENTOBJECTIVESTOUNITS
+| UNIT NUMBER                        | ASSESSMENTOBJECTIVE(%) - A01   | ASSESSMENTOBJECTIVE(%) - A02(A)   | ASSESSMENTOBJECTIVE(%) - A02 (B)   |   ASSESSMENTOBJECTIVE(%) - A03 |
+|------------------------------------|--------------------------------|-----------------------------------|------------------------------------|--------------------------------|
+| UNIT 1                             | 8.5-9.0                        | 8.5-9.0                           | 2.2-2.8                            |                            0.0 |
+| UNIT2                              | 8.5-9.0                        | 8.5-9.0                           | 2.2-2.8                            |                            0.0 |
+| UNIT3                              | 0.0                            | 0.0                               | 0.0                                |                             10 |
+| UNIT4                              | 7.3-7.8                        | 8.4-8.9                           | 3.6-4.0                            |                            0.0 |
+| UNIT5                              | 7.3-7.8                        | 8.4-8.9                           | 3.6-4.0                            |                            0.0 |
+| UNIT6                              | 0.0                            | 0.0                               | 0.0                                |                             10 |
+| TOTALFORINTERNATIONALADVANCEDLEVEL | 32-34                          | 33-36                             | 11-14                              |                             20 |
+
+## Topic 11: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### Topic 11: Kinetics II
+
+A FURTHERKINETICS
+
+Your health depends on a complex interplay of a large number of chemical reactions taking place in the cells of right time. These reactions are controlled by enzymes. The branch of chemistry concerned with the rates of chemical reactions is called chemical kinetics.The term'kinetics'implies motion and comesfrom the ancient Greekword for movement,kinesis.We can use the information obtained from the study of chemical kinetics to:
+
+• understand the body's metabolism (the chemical processes in the body)
+
+• model the effectsofpollutantsin theEarth's atmosphere
+
+• ·develop new catalysts,which is of great importance to the chemical industry.
+
+In Topic 9 (Book 1: IAs), we used a qualitative approach to the understanding of reaction rates. In this topic we will develop this further by adopting a quantitative approach. This will enable us to begin to understand whatishappening during chemical reactions:
+
+• We know how atoms can bond together to form molecules, but why do the atoms change partners during chemicalreactions?
+
+• What exactly happens when a hydrogen molecule meets an iodine molecule and they subsequently react to produce hydrogen iodide?
+
+It has been reported by scientists that the herb ginseng may be just as effective as Prozac at treating depression.Herbs and plantextractshavebeen used forcenturiestocure diseases and torelievepain.In many cases they are effective because they control the rates of chemical reactions within the body. In this topic we will study the rates of chemical reactions and the mechanisms by which they take place.
+MATHS SKILLS FOR THIS TOPIC
+
+• ·Recognise and make use of appropriate units in calculation
+
+• Recognise and use expressions in decimal and ordinary form
+
+• Use calculators to find and use power functions
+
+• Use an appropriate number of significant figures
+
+• Change the subject of an equation
+
+• Substitute numerical values into algebraic expressions using appropriate units for physical quantities
+
+• Solve algebraic expressions
+
+• Translate information between graphical, numerical and algebraic forms
+
+• Plot two variables from experimental or other data
+
+• Determine the slope and intercept of a linear graph
+
+• Calculate the rate of change for a graph showing a linear relationship
+
+• Draw and use the slope of a tangent to a curve as a measure of the rate of change
+
+## Topic 11: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 11A Further Kinetics
+
+1TECHNIQUESFORMEASURING THERATEOFREACTION
+
+## Topic 11: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 11A Further Kinetics
+
+LEARNING OBJECTIVES
+
+• Understand the term‘rate of reaction'.
+
+• Select and justify a suitable experimental tecUique to obtain rate data for a given reaction, including:
+
+• (i titration
+
+• (ii) colorimetry
+
+• (ii) mass change
+
+• (iv) volumeofgasevolved
+
+• (v) other suitable tecUique(s) for a given reaction.
+
+## Topic 11: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 11A Further Kinetics
+
+RATEOFREACTION
+
+Therate of a reaction can be expressed in twoways:
+
+• (1)Howthe concentrationofaproductincreaseswithtime.
+
+changeinconcentrationofproduct
+
+rate = change in concentration of product / time
+
+• (2) How the concentration of a reactant decreaseswith time.
+
+change in concentration of reactant
+
+rate = − change in concentration of reactant / time
+
+The negative sign inthe second expression shows that the concentration of thereactant isdecreasing and thereforegives a positive value for the rate.
+
+Rateismeasuredinunits ofconcentrationperunittime,and the most common units are mol dm-3 s-1.
+
+• 5 measuringthechangeinpHofasolution
+
+• 6 measuringthechangeinelectrical conductivityofareaction mixture.
+
+Thetechniquechosentofollowthereactionwilldependonthe nature of the reactants and products,as well as the conditions underwhich thereaction iscarried out.
+
+For example,the reaction between calcium carbonate and dilute hydrochloricacid,
+
+CaCO₃(s) + 2HCl(aq) → CaCl₂(aq) + H₂O(l) + CO₂(g)
+
+could conveniently be followed by measuring the volume of gas the change in mass of the reaction mixture with time (technique 2).
+
+However, the reaction between propanone and iodine in aqueous solution,
+
+CH₃COCH₃(aq) + I₂(aq) → CH₃COCH₂I(aq) + H⁺(aq) + I⁻(aq)
+
+could not befollowed by measuring the change in mass because allproductsofthereactionremaininsolution.Itwould be possible,however, to follow the reaction by monitoring the decrease in intensity of colour of the reaction mixture, since I(aq) is the only coloured species present (technique 3).
+TECHNIQUE1:MEASURINGTHEVOLUMEOFAGASEVOLVED
+
+The two most common techniques for collecting and measuring the volume of a gas evolved during a reaction are:
+
+The expressionsincalculusnotation are:
+
+• 1 collection over water into a measuring cylinder (fig A), and
+
+rate = d[product]/dt rate = − d[reactant]/dt
+
+Thisrateofreactionissometimescalledthe'overallrateof reaction'.
+TECHNIQUESFORMEASURINGTHERATEOF REACTION
+
+Beforeinvestigatingtherate ofaparticularreaction,itis necessarytoknowtheoverallequation,includingstatesymbols, forthereactionsothatwecandecidewhattechniquetouseto follow the reaction.
+
+There arevarioustechniques availabletouse,suchas:
+
+• 1measuring the volume of a gas evolved
+
+• 2 measuringthe change inmass of areactionmixture
+
+• 3 monitoring the change in intensity of colour of a reaction mixture(colorimetry)
+
+• measuringthechangeinconcentrationofareactant or productusingtitration
+
+• 2 collection using a gas syringe (fig B).
+
+The technique chosenwill depend partly on thelevel ofprecision required.Thegassyringehasagreaterdegreeofprecision,but if a large volume of gas isbeing measured,the difference in the degree ofmeasurement uncertaintybecomesso small thateither instrument is sufficientlyprecise.
+
+figACollectingagas overwater.
+
+## Topic 11: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 11A Further Kinetics
+
+EXAM HINT
+
+Reactionsproducinggasesthatareverysolubleinwater,suchas sulfur dioxide,cannotusethegascollectionoverwatertecUique.
+
+figB Collecting a gas in agas syringe.
+
+## Topic 11: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 11A Further Kinetics
+
+TECHNIQUE2:MEASURINGTHECHANGEINMASSOFAREACTIONMIXTURE
+
+This is another technique applicable to reactions in which a gas is evolved.
+
+Thereactionflask and contents are placed on a digital balance and the decrease inmass ismeasured as the reaction proceeds (fig C).
+
+Thistechnique is most precisewhen the gasgiven off has a relatively high density,such as with carbon dioxide. With a low-density (i.e. low relative molecular mass) gas such as hydrogen, the mass changesaresosmallthatthemeasurementuncertaintiesbecomesignificant.
+TECHNIQUE3:MONITORINGACOLOURCHANGE(COLORIMETRY)
+
+Colour change can sometimes be monitored using observation only. However, using a colorimeter gives more precise results (fig D). A colorimeter can detect far more subtle changes than the human eye can observe,and provides a quantitative(rather than a subjective) measurement.
+
+fig D A colorimeter.
+TECHNIQUE4:ANALYSISBYTITRATION
+
+This technique involves using a pipette to remove small samples (aliquots) from a reaction mixture at regular intervals.Thereaction in the aliquot can either be stopped by adding another substance to it or slowed down to almost zeroby immersing it in an icebath.The aliquot is then titrated to determine the concentrationof a reactantorproductspecies.
+
+The process of stopping or slowing down the reaction in an aliquot is known as‘quenching'.
+
+For example,if thereaction involves an acid, the aliquot, after quenching,could be titrated against a standardsolutionofsodiumhydroxidetodeterminetheconcentrationoftheacid.Thistechniqueis used to investigate the reaction between iodine and propanone,which is catalysed by acid. Sodium hydrogencarbonateis added tothe aliquot toremove the acidcatalyst and,asaresult,effectively stopsthereaction.Theremainingiodineisthentitratedagainstastandardsolutionofsodium thiosulfate (fig E).
+
+CH₃COCH₃(aq) + I₂(aq) → CH₃COCH₂I(aq) + H⁺(aq) + I⁻(aq) I₂(aq) + 2S₂O₃²⁻(aq) → 2I⁻(aq) + S₄O₆²⁻(aq)
+
+figCCottonwool isplacedin theneckoftheflasktoprevent the loss of liquid spray.
+
+figETitratingiodine against sodiumthiosulfate.
+TECHNIQUE5:MEASURINGTHEELECTRICALCONDUCTIVITY
+
+If the total number, or type, of ions in solution changes during a reaction, it might be possible to follow the reaction by measuring changes in the electrical conductivity of the solution using a conductivity meter For example, it could be used to follow this reaction:
+
+5Br-(aq)+BrO(aq)+6H+(aq)→3Br(aq)+3H2O(l)
+
+TECHNIQUE6:MEASURINGANYOTHERPHYSICALPROPERTYTHATSHOWSASIGNIFICANT CHANGE
+
+Possible physical properties that have not alreadybeenmentioned include changes in thevolume of liquid ('dilatometry'), chirality and refractive index.
+
+## Topic 11: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 11A Further Kinetics
+
+CHECKPOINT
+
+• 1. StatesuitabletecUiquestocollectratedataforeachof thefollowingreactions.
+
+• (a)Magnesiumwith dilutesulfuricacid:
+
+Mg(s)+2H+(aq)→Mg²+(aq)+H2(g)
+
+• (b)Ethylethanoatewithsodiumhydroxide:
+
+CHCOOCH2CHs(I)+OH-(aq)→CH3COO-(aq)+CHCH2OH(aq)
+
+• (c)Hydrogengaswithiodinegas:
+
+H2(g)+12(g)→2HI(g)
+
+• WhywouldthetecUiqueof measuringthechangeinmassofareactionvesselandcontentsnot workwell in thereactionbetweenmagnesium and dilute sulfuric acid?
+
+• 3.Thereactionbetween calcium carbonate and dilute hydrochloric acid canbefollowed by collecting and measuring thevolume of gasproduced.The gas could be collected over water in a measuring youranswer.
+
+## Topic 11: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 11A Further Kinetics
+
+SUBJECT VOCABULARY
+
+(overall) rate of reaction the change inconcentrationof a speciesdividedbythe time it takesforthe changetooccur.Allreactionratesarepositive
+
+(chemical)speciesanatom,amoleculeoranionthatistakingpartinachemicalreaction
+
+or:
+
+rate = k[A]
+
+wherekistheproportionalityconstant.
+
+This is called the first order rate equation.The constant kis called the rate constant.
+
+• ·Every reaction has its own particular rate equation and its own rate constant.
+
+• ·Rate constantswill only change their valuewith a change in temperature.
+
+secondorderrateequation: rate=k[A]²
+
+zeroorderrateequation:
+
+rate=k[A]orrate=k
+
+why they should occur at all. However, you will find out shortly why they can occur.
+
+If two or morereactants are involved,then it is possible to have a third order rate equation:
+
+thirdorderrateequation:
+
+rate =k[A]²[B]
+
+## Topic 11: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 11A Further Kinetics
+
+THEUNITSOFRATECONSTANTS
+
+Table A shows the units for rate constants,using mol dm-3 as the unit of concentration and seconds as the unit of time. You find the units by rearranging the rate equation.
+
+## Topic 11: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 11A Further Kinetics
+
+
+#### THEUNITSOFRATECONSTANTS
+| ORDER   | UNIT          |
+|---------|---------------|
+| Zero    | mol dm-3 s-1  |
+| First   | s-1           |
+| Second  | dm² mol-1 s-1 |
+| Third   | dm6 mol-2 s-1 |
+
+## Topic 11: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 11A Further Kinetics
+
+2RATEEQUATIONS,RATECONSTANTS ANDORDERSOFREACTION 11.1(iv)
+
+## Topic 11: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 11A Further Kinetics
+
+LEARNING OBJECTIVES
+
+• Understandthe terms:
+
+• rateequation,rate=k[A]m[B],wheremandnareO,1or2
+
+• (ii) orderwithrespecttoasubstanceinarateequation
+
+• (i) overallorderofareaction
+
+• (iv) rate constant
+
+• (v) rate-determining step.
+
+## Topic 11: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 11A Further Kinetics
+
+WHATISARATEEQUATION?
+
+The usualrelationshipbetween therate ofreaction and the concentration of a reactant is that the rateofreactionisdirectlyproportional totheconcentration.Inotherwords,astheconcentrationis doubled,therateofreactiondoubles.
+
+Unfortunately, this is not always the case.Sometimes the rate will double,but sometimes it will increasebyafactoroffourInsomecases,therateofreactiondoesnotincreaseatall,oritincreases in an unexpected way.
+
+Let us consider the simple relationship where the rate is directly proportional to the concentration of a reactant,say A.We canrepresent this by the expression:
+
+rate ∝ [A]
+
+SPECIFICATION REFERENCE
+
+11.1(i)
+
+11.1(ii)
+
+11.1(v)
+
+11.1(vii)
+
+## Topic 11: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 11A Further Kinetics
+
+EXAM HINT
+
+Thevaluesforordersof reactioninrateequationswill onlyeverbe0,1or2at InternationalA Level.
+
+The units are obtained by rearranging the rate equation. For example,forasecondorderreaction:
+
+If, however, this is not the case,and changes in [C] really do not have any effect on the overall rate of reaction,then a different explanation
+
+k = rate / [A]²
+
+Inserting the units we obtain:
+
+mol dm⁻³ s⁻¹ / (mol dm⁻³ × mol dm⁻³)
+
+This cancels down to:
+
+s⁻¹ / mol dm⁻³
+
+whichequatestodm?mol-1s-1
+
+The majority of reactions involve two or more reactants.If we call thereactantsA,Band C,thenthereactionmaybefirstorderwith respecttoA,firstorderwithrespecttoBandsecondorderwith respecttoC.Theoverall rateequationwill be:
+
+rate = k[A][B][C]²
+
+and theoverallorderof thereactionisfour(1+1+2).Note thatyou areaddingthepowers.
+
+In this case, there must be a step involving a reaction between A andBthathasaneffectontherateofreaction.Theremustalsobe anotherstepinwhichCreacts,butthisreactionhasnoeffectonthe overallrateofreaction.Thiscouldbeexplainedbyassumingthat thereactionbetweenAandBtakesplacebeforeChasachance toreact,and thatthereactionbetweenAandBissignificantly slowerthanthereactioninvolvingC.If thiswerethe case,then the mechanismforthereactioncouldbe:
+
+Step 1:A+B→Z SLOW Step2:Z+C→D+E FAST
+
+Since only Step 1 is rate-determining, then only changes in [A] and[B]willaffecttheoverallrateofreaction.Changesintherate at which Step 2 occurs, owing to changes in [C], will be negligible.
+
+Importantpointstorememberarethat:
+
+• ·Thesloweststepinareactiondetermines theoverallrateofthe reaction.
+
+Fora general reaction in which the orders are m,n and p,we have: rate=k[A]"[B]"[C]
+
+The overall order of the reaction is m + n + p.
+
+## Topic 11: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 11A Further Kinetics
+
+REACTIONMECHANISMS
+
+Manyreactionscanberepresentedbyastoichiometricequation containing many reactant particles.For example,thereaction between manganate(VIl) ions and iron(Il) ions in acidic solution canberepresentedby:
+
+MnO4(aq) + 8H+(aq) + 5Fe²+(aq) →→ Mn2+(aq) + 4H2O(l) + 5Fe3+(aq)
+
+If this reaction actually proceeded in a single step,then the reactionwouldbeveryslowindeed.Theprobabilityof14 particles simultaneously colliding,all with the correct orientation reactionis,however,veryfastindeedevenatroomtemperature. It must,therefore,proceed via a series of steps,all of which followonquicklyfrom one anotherIt isimportanttorecognise that a reaction involving simultaneous collision of more than two particles isvery rare.
+
+Theordersofreactionoftheindividualreactantscanhelpusto suggestapossiblemechanismforareaction.Themechanism cannotbeinferredfromthestoichiometricequation,becausethe mathematicalrelationshipbetweentherateofreactionandthe concentrationofreactants(i.e.theordersofreaction)canonlybe determinedthroughexperiments.
+
+Consider the reaction:
+
+A + B + C → D + E
+
+for which the experimentally determined rate equation is:
+
+rate = k[A][B]
+
+Thiscould meanthat Cwaspresentinsuchalargeexcessthat changesinitsconcentrationwerenegligibleand thereforehadno measurableeffectontherateofreaction.
+
+• ·The slowest stepisknown as the rate-determining step of the reaction.
+
+Wewill returntotheconceptofreactionmechanisms,and consider them in much more detail,inSection11A.4.
+
+## Topic 11: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 11A Further Kinetics
+
+WORKED EXAMPLE
+
+A useful way of visualising the idea of a rate-determining step is to imagine that threestudents are arrangingsome sheets of notes into sets(figA).
+
+Step 1: the notes are arranged into ten piles and the first student collectsasheetfromeachofthepiles.
+
+Step2:thesecondstudenttakesthesetoftenpapersandshuffles ds o pe ae os sa
+
+Step3:thethirdstudentstaplesthesetofnotestogether.
+
+Theoverall rateof thisprocess(i.e.therateatwhichthefinalsetsof notes areprepared) depends on the rate ofStep 1,the collecting of thesheetsof notes,sincethisisbyfarthesloweststep.
+
+It does not matter, within reason, how quickly the tidying up for staplingis done.Formostof thetime thesecond and thirdstudents willbedoingnothingwhiletheywaitforthefirststudenttocollect thesheets.Themechanismof theprocessistherefore:
+
+Step1:Student1collectssheets
+
+SLOW
+
+Step2:Student2tidiessetofsheets
+
+SFAST
+
+Step3:Student3staples set of sheetsFAST
+
+figAAnalogyforrate-determiningstep
+
+## Topic 11: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 11A Further Kinetics
+
+LEARNING TIP
+
+Allreactantspeciesinvolvedeitherin,orbefore,therate-determiningstephave aneffectontherateofthe reactionandwill appearintherateequation.
+
+## Topic 11: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 11A Further Kinetics
+
+CHECKPOINT
+
+• 1.The rate equationfor thereactionbetweenperoxydisulfate ions and iodide ionsis:
+
+• rate=k[S2O-][1-]
+
+• (a) What is the order of reaction with respect to(i) peroxydisulfate ions and (i) iodideions?
+
+• (b)Whatistheoverallorderofreaction?
+
+• 2.The rate equation for thereaction betweenP and Q is:
+
+• rate =k[P][Q]
+
+Whatwillbetheincreaseinrateif:
+
+• (a)[P] is doubled,while [Q] is kept constant?
+
+• (b) [Q] is doubled, while [P] is kept constant?
+
+• (c)[P] and[Q] areboth doubled?
+
+• 3. In thereactionbetweenR,SandT:
+
+• whentheconcentrationofRisdoubled,therateincreasesbyfourtimes
+
+• whentheconcentrationofSisdoubled,theratedoesnotchange
+
+• whentheconcentrationofTisdoubled,theratedoubles.
+
+• (a)DeducetheordersofreactionwithrespecttoR,SandT.
+
+• (b)Writetherateequationforthereaction.
+
+• (c)What istheoverallorderof reaction?
+
+## Topic 11: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 11A Further Kinetics
+
+SUBJECT VOCABULARY
+
+rateequationanequationexpressingthemathematicalrelationshipbetweentherateofreactionandthe concentrationsofthereactants
+
+order(ofareactantspecies)thepowertowhichtheconcentrationofthespeciesisraisedintherate equation
+
+overallorder(ofareaction)thesumofalltheindividualorders
+
+rate-determiningstep(ofareaction)thesloweststepinthemechanismforthereaction
+
+## Topic 11: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 11A Further Kinetics
+
+LEARNING OBJECTIVES
+
+• Understand theterms:
+
+• ? rate equation, rate = k[A]m[B]', where m and n are 0, 1 or 2
+
+• (ii) half-life.
+
+• Be able to calculate the half-life of a reaction,using data from a suitable graph, and identify a reaction with a constanthalf-life asbeing first order.
+
+• Understand experiments thatcanbe used to investigatereactionratesby:
+
+• (i) an initial-rate method
+
+• (ii)a continuous monitoring method.
+
+• Be able to deduce the order (0,1or2) withrespect toasubstanceinarateequation,usingdatafrom:
+
+• aconcentration-timegraph
+
+• (i) arate-concentrationgraph
+
+• (i) an initial-rate method.
+
+## Topic 11: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 11A Further Kinetics
+
+HOWCANWEDETERMINETHERATEEQUATION?
+
+This question can equally be phrased'How can we determine the orderofreactionwithrespecttoeachreactant?
+
+figAAgraph of concentrationofreactant against timeforafirstorder reaction.
+
+The 2nd half-life,for the change in concentration from 60 to 30 units, is 100 s.
+
+The 3rd half-life,for the change in concentration from 30 to 15 units, is 100 s.
+
+Sinceall threehalf-lives arethesame,thereactionisfirstorder with respect tothe concentration of thereactantplotted.
+
+If thehalf-lifedoubles as thereactionproceeds,thenthereaction is second order.
+
+There are two methods for determining orders of reaction.They arebothexperimental.Indeed,ordersofreactioncanonlybe determinedbyexperiment.
+
+Thefirstis sometimes called the‘continuousmethod'.
+
+Thesecond is sometimes called the‘initial-ratemethod'.
+THECONTINUOUSMETHOD
+
+In thismethod,onereactionmixture ismadeup and samples of thereactionmixturearewithdrawn atregulartimeintervals.The reaction in the sample is stopped,if necessary,by quenching. Theconcentrationofthereactantisthendeterminedby an appropriate experimental technique, such as titration.
+
+• ·The first step is to draw a‘concentration-time' graph.
+
+• Thesecondstepistofind out thehalf-lifefor thereaction at differentconcentrations.
+
+Ifthehalf-lifehasa constantvalue,thenthereactionisfirst order withrespecttothereactant.
+
+The1sthalf-life,forthe change in concentrationfrom120to60 units, is 100 s (fig A).
+
+If the graph is a straight line with a negative gradient, then the rateofreactionisconstantnomatterwhattheconcentrationof the reactant (fig B). In other words, the reaction is zero order with respecttothereactant.
+
+• figBAgraphofconcentration against timefora zero orderreaction.
+
+A typical set of results is shown in table A for the reaction: 2N2O5(g)→ 4NO2(g) + O2(g)
+
+## Topic 11: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 11A Further Kinetics
+
+
+#### THECONTINUOUSMETHOD
+| TIME/min            |     0 |    10 |    20 |   30 |   40 |   50 |   60 |   70 |   80 |   90 |
+|---------------------|-------|-------|-------|------|------|------|------|------|------|------|
+| [N20s]/10-3mol dm-3 | 22.90 | 16.27 | 12.29 | 9.35 | 6.89 | 4.88 | 3.68 | 2.74 | 2.16 | 1.85 |
+
+## Topic 11: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 11A Further Kinetics
+
+tableA
+
+If you plot a graph of [NzOs] against time using the above data, you will find that the line is curved and the half-life is constant; as a result, the reaction is first order with respect to NOs.
+CALCULATINGRATEFROMACONCENTRATION-TIMEGRAPH
+
+The rate of reaction at any given time canbe determined from a concentration-time or volume-time graphby drawing a tangent to the curve at the given time and calculating the gradient of the tangent.
+
+FigCshowsthechangeinconcentrationofareactantwithtime.
+
+figCDetermining aninstantaneousrateofreactionfromagraphof concentrationofreactant against time.
+
+A tangent to the curve has been drawn at time = 400 s.
+
+To find the rate at this time point, draw as large a triangle as possible and then measure x and y.
+
+x= 1470 s and y = -1.60 mol dm-3.
+
+rate = − change in concentration of reactant / time = − (−1.60 mol dm⁻³ / 1470 s) = 1.09 × 10⁻³ mol dm⁻³ s⁻¹
+CALCULATINGRATEFROMAVOLUME-TIMEGRAPH
+
+The procedure is exactly the same for a volume-time graph for a gas evolved (Section 11A.1) This time the curve will slope upwards not downwards (fig D).
+
+Time
+
+figDDetermininganinstantaneousrateof reactionfromagraphofvolumeofgasevolvedagainst time.
+
+Therateofreactionobtainedinthiswayissometimescalledtheinstantaneousreactionrate.
+THEINITIAL-RATEMETHODFORDETERMININGTHERATEEQUATION
+
+In thismethod,severalreactionmixtures aremadeup and theinitialrate(i.e.the timetakenfor a fixed amountofreactanttobeused uporforafixed amountofproducttobeformed)ismeasured. Fromthesetimes,itisthenpossibletocalculatethemathematical relationshipbetweentherate of thereactionand theconcentrationofthereactant.
+
+A typical set of results is shown in tableB for thereaction:
+
+A + B → C
+
+## Topic 11: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 11A Further Kinetics
+
+
+#### THEINITIAL-RATEMETHODFORDETERMININGTHERATEEQUATION
+| EXPERIMENT   |   [A]/mol dm-3 |   [B]/mol dm-3 |   INITIALRATEOFFORMATIONOFC/moldm-3s-1 |
+|--------------|----------------|----------------|----------------------------------------|
+|              |            0.1 |            0.1 |                                   0.02 |
+| 2            |            0.1 |            0.2 |                                   0.04 |
+| 3            |            0.2 |            0.1 |                                   0.04 |
+| 4            |            0.2 |            0.2 |                                   0.08 |
+
+## Topic 11: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 11A Further Kinetics
+
+tableB
+
+Ifwenowlookatexperiments1and3,wecanseethat[A]hasdoubledwhile[B]hasremained constant.Therateofreactionhasalsodoubled.Thisindicatesthatthereactionisfirstorderwith respecttoA and,asaresult,wecanwrite:
+
+rate ∝ [A]
+
+If we now look at experiments 1 and 2,or experiments 3 and 4,we can see that [B]has doubled while[A]hasremained constant.Theinitial rate ofreactionhasalsodoubled.This indicates that the rate of reaction is directly proportional to[B]. That is,the reaction isfirst order withrespect to B. As a result, we can write:
+
+rate ∝ [B]
+
+The overall order of the reaction is two, and the complete rate law (rate equation) is: rate =k[A][B]
+
+Note that thenumbersintableBwere deliberatelykept simpletoillustrate apoint.Real experimentalresultsrarelyfit such an exact pattern,andyou mayhave tolookforthenearest whole numberstoobtainorders.
+DETERMININGORDERFROMARATE-CONCENTRATIONGRAPH
+
+The method described above to determine initial rates, with changing concentrations, results in only approximatevaluesfor theinitial rates.However,since mostordersofreactionwith respect to individualreactantshaveintegervalues,this approximationisusuallyacceptable
+
+Inaninitialratesexperiment,thetimemeasuredisthatforafixedamountofproducttobeformed, orthatforafixedamountofreactanttobeusedup.Sincetheamountofproductformed,orreactant used up,iskept constant,the initial rate of reaction is proportional to the reciprocal of the time,t, measured.Thatis:
+
+rate ∝ 1/t
+
+This assumes thattherateis constantforthewholetimeperiod,t.However,this isnottruebecause as soon as thereaction starts theratebeginsto decrease.Theratecalculated from the expression is,therefore,the mean (average) rate over time, t, and not the true initial rate of reaction.The approximation becomes poorer with larger values of t. However, the approximation is good enough todetermineintegerorder
+
+It might bepossibletodetermine orders ofreactionfrom just a fewmeasurements.However,it is usual to record a range of results and plot a graph of against concentration of reactant.
+
+The shape of thegraph intableC indicates theorder ofreaction.
+
+table C
+
+It is impossible to determine directly by sight from a rate-concentration graph that the reaction is second order If the graph is a curve as shown, then it is necessary to then plot against [A]. f this 1 produces a straight line passing through the origin,then the reaction is second order with respect to A.
+
+## Topic 11: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 11A Further Kinetics
+
+CHECKPOINT
+
+• A compoundPdecomposeswhen heated.Thegraphshowsthe changeinconcentrationwhena sampleofPisheated.
+
+• (a)Statewhatismeantbythetermhalf-lifeofreaction.
+
+• (b)UsethegraphtoshowthatthedecompositionofPisafirstorderreaction.
+
+• (c)Explaintheeffectonthehalf-lifeofdoublingtheinitialconcentrationofP.
+
+• (d)Calculate therateconstant,k,forthisreactionusingthefollowingexpression:
+
+• 0.693 k= half-life
+
+Includeunits in your answer.
+
+• (e)Writetherateequationforthisreaction.
+
+• (f)(i)Use the graph to determine the concentration of P at 800s.
+
+• (i) Usetherateequationfrom(e)andyour answersto(d)and(f)(i)to calculate therate of reaction at800s.Include unitsinyour answer.
+
+• (g)Describehowcouldyou determinethereactionrate at 800s directlyfromthegraph.
+
+## Topic 11: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 11A Further Kinetics
+
+EXAM HINT
+
+Be careful to check the units on theaxesofgraphs.Graphswith thesameshapewillhave differentmeaningsif there are differentunitsontheaxes!
+
+• Theequationforthereactionbetweenbromideionsandbromate(V)ionsinacidifiedaqueoussolutionis: 5Br-(aq)+BrO（aq)+6H+（aq)→3Br(aq)+3HO(1)
+
+Thetableshowstheresultsoffourexperimentscarriedoutusingdifferentconcentrationsofthe threereactants.
+
+## Topic 11: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 11A Further Kinetics
+
+
+#### EXAM HINT
+| EXPERIMENT   |   [Br-(aq)]/ mol dm-3 |   [Br03-(aq)]/ |   [H+(aq)]/ moldm-3 | INITIAL RATE/   |
+|--------------|-----------------------|----------------|---------------------|-----------------|
+|              |                  0.10 |           0.10 |                0.10 | 1.2 × 10-3      |
+| 2            |                  0.10 |           0.20 |                0.10 | 2.4 × 10-3      |
+| 3            |                  0.30 |           0.10 |                0.10 | 3.6×10-3        |
+| 4            |                  0.10 |           0.20 |                0.20 | 9.6 × 10-3      |
+
+## Topic 11: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 11A Further Kinetics
+
+
+#### EXAM HINT
+• (a)Deducetheorderofreactionwithrespectto:
+
+• (i)Br
+
+• (i) BrO
+
+• (i) H+
+
+• (b)Writetherateequationforthereaction.
+
+• (c)Using theresultsfrom experiment1,calculatetherate constant,k,forthereaction.Include units in youranswer.
+
+## Topic 11: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 11A Further Kinetics
+
+SUBJECT VOCABULARY
+
+half-life(ofareaction)thetimetakenfortheconcentrationofthereactanttofalltoone-halfofitsinitial value
+
+instantaneousreactionratethegradientofatangentdrawntothelineofthegraphofconcentration
+
+## Topic 11: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 11A Further Kinetics
+
+LEARNING OBJECTIVES
+
+• Deduce the rate-determining step from a rate equation and vice versa.
+
+• Deduce a reaction mechanism, using knowledge of the rate equation and the stoichiometric equation for a reaction.
+
+• Understand thatknowledgeof therateequationsfor thehydrolysisofhalogenoalkanescanbe used toprovide evidenceforSn1orSv2mechanismsfor tertiary andprimaryhalogenoalkanehydrolysis.
+
+• Understandhowto:
+
+• (i)obtain data to calculate the order with respect to the reactants (and the hydrogen ion) in the acid-catalysed iodination of propanone
+
+• use these data to makepredictions about species involved in therate-determining step
+
+• (ii) deduce a possible mechanism for the reaction.
+
+## Topic 11: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 11A Further Kinetics
+
+REACTIONMECHANISMS
+
+YouwillrememberfromBook1thatthebasicviewastohowareactiontakesplaceataparticulate andwithsufficientenergyforproductstobeformed.
+
+For the following reaction:
+
+P + Q → products
+
+weexpecttheratelawtobe:
+
+rate = k[P][Q]
+
+In other words,wemight expect the reaction tobefirst order with respect to eachreactant and second order overall.
+ELEMENTARYREACTIONS
+
+A reaction taking place in this manner (a single collision between the two reactant particles) is described as being elementary.
+
+Ifweknowthatareactioniselementary,thenwecandeducetheratelawdirectlyfromthe stoichiometric equation.For example,thefollowing reaction is known tobe elementary:
+
+NO(g) + O₃(g) → NO₂(g) + O₂(g)
+
+so therate equation is:
+
+rate = k[NO][O₃]
+
+Thereaction takes place when a molecule of NO collides with a molecule of O3.
+
+thestoichiometricequationforthereaction.
+
+orderwithrespecttodinitrogenpentoxide,notsecond.
+
+2N₂O₅(g) → 4NO₂(g) + O₂(g)
+
+The experimentally determined rate equation is:
+
+rate = k[N₂O₅]
+
+Areactionthatisnotelementarytakesplaceviaaseriesofinterconnectedelementaryreactionsthat are collectively called the mechanismfor thereaction.You will have already come across a number of such mechanisms in your study of organic chemistry.For example, the radical substitution reaction between methane and chlorine to form chloromethane (CHsCl) is thought to have the following mechanism:
+
+11.6
+
+11.7
+
+11.8
+
+11.9
+
+CP9A
+
+CP9B
+
+Step 1: Cl2 → 2Cl·
+
+Step 2:Cl·+ CH4→HCl +·CH
+
+Step 3:Cl2 + ·CH3→ Cl· + CHCl
+
+The overall stoichiometric equation for the reaction is:
+
+CH₄ + Cl₂ → CH₃Cl + HCl
+
+ThespeciesCl·and·CHarecalledintermediates.Theydonot appearintheoverallequationforthereaction,butareinvolved in reactions that ultimatelyresult in thereactantsbeingconverted into the products.
+
+#### ELEMENTARYREACTIONS
+If the experimentally determined rate equation does not match the overallstoichiometry,thenitisalmostcertainthatthereaction is not elementary. For example, the rate equation for the following reaction:
+
+NO₂(g) + CO(g) → NO(g) + CO₂(g)
+
+rate = k[NO₂]²
+
+This suggests that only molecules of NO2 are involved in the rate-determining step, and that two molecules of NO2 are involved in this step.
+
+Theorderindicatesthenumber ofmoleculesinvolved inthe rate-determining step.
+
+Indicatesthatonlymolecules ofNO2areinvolved in theratedetermining step.
+
+fig AMolecules involved in the rate-determining step.
+
+Usingourknowledge ofmolecules that do exist,twopossible rate-determining steps are:
+
+1 NO2 + NO2 → N2O4,or
+
+2 NO₂ + NO₂ → 2NO + O₂
+
+Both of these reactions are equally valid, and we have noway of morelikelytobetakingplace.
+
+We also have no way of knowing what is involved in the remaining steps, but we do know that the sum of all the steps must add up to the overall stoichiometric equation.
+
+Usingthesecond ofthetwopossiblerate-determiningsteps,the following mechanism is consistent with the data:
+
+NO2+NO2→2NO+O2
+
+SLOW
+
+CO+O2→CO2+0
+
+FAST
+
+NO +O→NO2
+
+FAST
+
+Thisshows how the particles in theproposed mechanism cancel toproduce the overall equation:
+
+As it happens, further investigations into this reaction have identified themechanism as:
+
+NO2+ NO2→NO+ NOSLOW
+
+NO+ CO→NO2+ CO2FAST
+
+Thisis notwhatwewould immediately suspect asthemechanism because the existence of NOis not somethingwithwhich we would befamiliar.
+
+#### ELEMENTARYREACTIONS
+does not necessarily follow that the reaction proceeds in a single elementary step.For example,therate expressionfor thefollowing gas-phase reaction:
+
+2N₂O₅(g) → 4NO₂(g) + O₂(g)
+
+Yet, the reaction is thought to involve several steps and a number ofintermediates.
+
+ALKALINEHYDROLYSISOFHALOGENOALKANES
+
+weintroduced inTopic10 (Book1:IAS).Thehydroxideion acts asanucleophileandreplacesthehalogeninthehalogenoalkanes. Thereaction,therefore,can alsobedescribed asnucleophilic substitution.
+HYDROLYSISOFATERTIARYHALOGENOALKANE
+
+The equation for the alkaline hydrolysis of 2-chloromethylpropane is:
+
+(CH₃)₃CCl + OH⁻ → (CH₃)₃COH + Cl⁻
+
+The experimentally determined rate equation for this reaction is: rate =k[(CH)CCl]
+
+The reaction is first order with respect to 2-chloromethylpropane, butzeroorderwithrespecttothehydroxideion.
+
+Thesensibleconclusiontoreachisthatthe2-chloromethylpropane undergoes slow ionisation as therate-determining step.This is then followed by a very fast step involving attack by the hydroxide ion on thecarbocationformed inStep1.
+
+Step 1: (CH₃)₃CCl → (CH₃)₃C⁺ + Cl⁻ SLOW Step 2: (CH₃)₃C⁺ + OH⁻ → (CH₃)₃COH FAST
+
+CH₃CH₂CH₂CH₂Cl + OH⁻ → CH₃CH₂CH₂CH₂OH + Cl⁻
+
+This type of mechanism is named Sn1,i.e.Substitution Nucleophilic unimolecular.
+
+The rate-determining step is said to be unimolecular because there is only one reactant particle present, (CHs)sCCl.
+
+The carbocation, (CHs)C+, formed in Step 1 is an intermediate (seeSection 11A.6).
+
+HYDROLYSISOFAPRIMARYHALOGENOALKANE
+
+The equation for the alkaline hydrolysis of 1-chlorobutane is: CH;CHCHCHCI + OH-→ CH;CHCHCH2OH + Cl
+
+The experimentally determined rate equation for this reaction is: rate = K[CHCH2CH2CH2C][OH-]
+TOPIC11
+
+This time the reaction isfirst order with respect toeach reactant,so it is reasonable to suggest that oneparticleofeachreactantispresentintherate-determiningstepofthemechanism.
+
+Theacceptedmechanismforthereactionis:
+
+transitionstate
+
+• figBSv2mechanismof thealkalinehydrolysisof1-chlorobutane.
+
+This type of mechanism is named Sv2,i.e. Substitution Nucleophilic bimolecular
+
+Therate-determiningstepisbimolecularbecausetherearetworeactantparticlespresent.
+
+It is a continuous single one-step reaction. The complex shown in square brackets is not an intermediate (likethecarbocationformed intheSv1mechanism),butis a transitionstate(seeSection11A.6))
+Astudyoftheacid-catalysediodinationofpropanone
+
+The reaction between propanone and iodine in aqueous solution maybe acid catalysed:
+
+I2(aq) +CHCOCHs(aq)+H*(aq)→ CHsCOCH21(aq)+ 2H*(aq) + I-(aq)
+
+Theinfluenceof theiodine on thereactionratemaybestudied if theconcentrationsofpropanone and hydrogen ions effectivelyremain constant during the reaction.Thisis achieved by using a large excess of bothpropanone and acid in the original reaction mixture.Youwill investigate thisinCP9AFollowingthe rate of iodine-propanone reaction by a titrimetric method.
+Procedure
+
+• 1Mix 25 cm3 of 1mol dm-3 aqueous propanone with 25cm3 of 1 mol dm-3 sulfuric acid.
+
+• 2Start the stop clock the moment you add 50 cm3of 0.02 mol dm-3iodine solution.Shake well.
+
+• 3 Using a pipette,withdraw a 10 cm3 sample and place it in a conical flask.Stop the reaction by adding a carbonateisadded.
+
+• 4Titrate the remaining iodine present in the sample with 0.01 mol dm-3 sodium thiosulfate(Vl) solution, usingstarchindicator.
+
+• Withdrawfurther10cm3samplesatsuitabletimeintervals(approx.5to7minutes)andtreatthem similarly,alwaysnoting the exact time at which thesodium hydrogen carbonate is added.Waste should be containedin a fume cupboard.
+Treatmentofresults
+
+The LabBook can give additional guidance in the treatment and analysis of results.
+
+• Plotagraphof titre against time.(Thetitreisproportionaltotheconcentrationofiodine.)
+
+• ·Deducefrom thegraphtheorderof reactionwithrespect toiodine.
+
+Analysisofresults
+
+Thegraphproduced shows that thereactioniszeroorderwithrespect toiodine.
+
+Similarexperiments showthat thereactionisfirst orderwithrespect tobothpropanone and hydrogenions.
+
+This gives us the following rate equation:
+
+rate=k[CHCOCH3][H+]
+
+Thiswould suggest thefollowing reaction asthefirst step of thereaction:
+
++O—H
+
+Similar reactions in other mechanisms are very fast, so this reaction is unlikely to be the rate-determining step ofthisreaction.
+
+## Topic 11: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 11A Further Kinetics
+
+EXAM HINT
+
+Examinersmayaskyouto evaluatedifferentmethodsfor investigatingratesofreaction. Onelimitationofthemethod describedhereisthetimedelay betweenwithdrawingareaction samplebypipetteand quenchingitwithsodium hydrogencarbonate.
+
+Thesecond stepprobably controlstherateof thereaction and producesH+that,beingacatalyst,isnotusedupinthereaction:
+
+This rearrangement is likely tobe very slow and hence is probably the rate-determiningstepofthereaction.
+
+lodinecannowreactinafaststepasfollows:
+
+## Topic 11: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 11A Further Kinetics
+
+Testingthemechanism
+
+We havea proposed mechanismforthereactionthat isconsistent withthekineticdataobtainedfromexperiment.Thisisnotthesame assayingthatthemechanismisthecorrectone,orindeed themost likely one.
+
+Wenowneedtocarryoutfurtherexperimentstoconfirm,ordeny, ourproposed mechanism.Hereare three tecUiquesthat can be employedinthiscase.
+
+• ·Useawiderrangeofconcentrations
+
+alimitedrangeofconcentrations.Forexample,themechanism wehaveproposedfortheiodinationofpropanonepredictsthat, atverylowconcentrationsofiodine,theorderofreactionwith respecttoiodinewill changefromzerotofirst.Thisisbecausethe rateof thefinalstepinthemechanismisgivenbytheexpression:
+
+Rate = k[I₂][CH₃C(OH)=CH₂]
+
+andsotherateofthe stepwill decrease as[]decreases.Thishas beenshowntobethecase,so supportstheproposedmechanism.
+
+• Useinstrumentalanalysis
+
+• Thismaybeabletodetectthepresenceofintermediatesthat have been proposed. Nuclear magnetic resonance can be used to showthatacidifiedpropanonecontainsaboutonemoleculein a millionintheformCHC(OH)=CH2.Thisisanintermediatestated intheproposedmechanism.
+
+• Carryoutthereactionwithdeuteratedpropanone,CDCOCD3 DeuteriumH(or simply D) behaves slightly differently to hydrogenH (or simply H).
+
+A C-D bond is slightly stronger,and therefore harderto break, thanaC-Hbond.Ifthisisthebondthatbreaksinthe rate-determiningstep,assuggestedby ourproposedmechanism, thentheiodinationofCDCOCDwillbeslowerthanthatof CHCOCH3.Thisisfound tobe the case.
+
+## Topic 11: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 11A Further Kinetics
+
+CHECKPOINT
+
+• 1. Theequationforthereactionbetweenethanal,CHCHO,and hydrogencyanide,HCN,is:
+
+CH;CHO +HCN →CHCH(OH)CN
+
+Twomechanismsthathavebeenproposedforthisreactionare: Mechanism1
+
+Step1:CHCHO+H+→[CHCHOH]+
+
+Step2:[CHCHOH]++CN-→CHCH(OH)CN
+
+Mechanism2
+
+Step1:CHCHO+CN-→[CHCHOCN]-
+
+Step 2:[CHCHOCN]-+H+→CHCH(OH)CN
+
+Therateequationforthereactionis:
+
+rate=k[CHCHO][CN-][H+]
+
+• (a)Explainwhichofthetwomechanismsisconsistentwiththe rateequation.
+
+• (b)Whichstepinthismechanismistherate-determiningstep?
+
+• The equation for the reaction between hydrogen and nitrogenmonoxide is:
+
+2H2(g)+2NO(g)→2H2O(g)+N2(g)
+
+Therateequationforthereactionis: rate=k[H2][NO]²
+
+Aproposedmechanismforthisreactionis:
+
+Step 1:2NO(g)→N2O2(g)
+
+FAST
+
+Step 2:N2O2(g)+H2(g)→H2O(g)+N2O(g)
+
+SLOW
+
+Step3:N2O(g)+H2(g)→N2(g)+H2O(g)
+
+FAST
+
+Isthismechanismconsistentwiththerateequation? Explainyour answer.
+
+• 3.Assume the following proposed reaction mechanism is correct:
+
+• (a)Writetheoverallequationforthereaction.
+
+• (b)Writearateequationforthereactionthatisconsistentwith themechanism.
+
+• (c)Whatwouldbetheeffectontherateofreactionofdoubling the concentrationof Clz?
+
+• (d) What would be the effect onthe rate of reaction of doubling the concentration of H2?
+
+• Thenucleophilicsubstitutionreactionbetweenequimolar quantitiesof CHClandOH-issecondorderoverall.However,if thereactioniscarried outusingalarge excessof OH,thereaction becomesfirst orderoverall.Suggest an explanationforthese observations.
+
+• 5. Bromine can be formed by the oxidation of hydrogenbromide with oxygen.
+
+Cl2→2Cl·
+
+SLOW
+
+H2+Cl→HCI +H
+
+FAST
+
+H·+Cl·→HCI
+
+FAST
+
+#### CHECKPOINT
+Aproposedmechanismforthisreactionis:
+
+Step 1:
+
+HBr+O2→HBrO2
+
+Step2:
+
+HBrO2+HBr→2HBrO
+
+Step3:
+
+HBrO+HBr→Br2+H2O
+
+Step 4:
+
+HBrO+HBr→Br2+H2O(arepeatofStep3)
+
+Therate equationfor thisreaction is:
+
+rate=k[HBr][O2]
+
+• (a) Explain which of the above four steps is the rate-determing stepforthisreaction.
+
+• (b)Writetheoverallequationforthereaction.
+
+## Topic 11: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 11A Further Kinetics
+
+LEARNING OBJECTIVES
+
+• Understandtheterms:
+
+• (i) activation energy
+
+• (ii) heterogeneousandhomogeneouscatalyst
+
+• (ii) autocatalysis.
+
+• Understand the use of a solid (heterogeneous) catalyst for industrial reactions, in the gas phase, in terms of providing a surface for the reaction.
+
+## Topic 11: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 11A Further Kinetics
+
+ACTIVATIONENERGY,E
+
+In Topic 9 (Book 1: IAS), we defined activation energy, Ea, as the minimum energy that colliding particlesmustpossessfor areactionto occur.
+
+The activation energyrepresents the energy that the colliding particles must obtain in order to reach the energy level of the transition state(seeSection11A.6formore details).Once the energy level of as they doso. The energy profile diagram for an exothermic reaction is shown in fig A.
+
+Progress of reaction
+
+• figAAreactionprofileforanelementaryexothermicreaction.
+CATALYSTS
+
+In Topic 9 (Book 1:IAS),we defined a catalyst as a substance that increases the rate of a chemical reactionbutischemicallyunchanged attheendofthereaction.
+
+We then went on to explain that a catalyst works by providing an alternative route for the reaction, and that this alternative route has a lower activation energy than the original route.Although the original route is still available for the reactants,most collisions resulting in reaction will occur by the alternativeroute,sincethefractionofparticlespossessingthisloweractivationenergywillbegreaten
+
+Catalystscanbedividedintotwogroups:
+
+• homogeneouscatalysts
+
+• ·heterogeneous catalysts.
+11A.5ACTIVATIONENERGYANDCATALYSIS
+
+Many reactions in aqueous solution are catalysed by the hydrogen ion,H+(aq).An example is the iodination ofpropanone,a reaction wediscussedindetailinSection11A.4:
+
+CHCOCH(aq) + I(aq) → CH;COCH2I(aq) + H+(aq) + I(aq)
+
+Theproductionofchlorineradicalsfromchlorofluorocarbons (CFCs)isresponsiblefor thedestruction ofozonein theupper atmosphere.UltravioletradiationfromtheSunproduceschlorine radicals, Cl·, from CFCs such as dichlorodifluoromethane, CCl2F2:
+
+CCl₂F₂(g) — ultraviolet radiation → •CClF₂(g) + Cl•(g)
+
+Theequationfor theformation ofammonia intheHaberprocessis:
+
+N₂(g) + 3H₂(g) ⇌ 2NH₃(g)
+
+Ironis abletoactasacatalystbecauseitcanformaninterstitial hydridewithhydrogenmolecules.Inthishydride,hydrogenatoms areheldinspacesbetweenthemetalionsinthelattice.Theatoms arethenabletoreactwithnitrogenmoleculesthatareadsorbed ontothemetalsurfacenearby.Therearethreestagesincatalysis involvingsurfaceadsorption.These are:
+
+• 1.Adsorption-thereactantsarefirstadsorbedontothesurface of the catalyst.
+
+Thechlorineradicalsthen takepartinachainreactionwith ozone:
+
+Cl•(g) + O₃(g) → ClO•(g) + O₂(g)
+
+ClO•(g) + O₃(g) → 2O₂(g) + Cl•(g)
+
+Thechlorineradicalisregeneratedandsoisactingasacatalyst. Since the catalyst is in the same phase,i.e. the gas phase, as the reactingspecies,itisclassifiedas ahomogeneouscatalyst.
+
+The overall reaction is:
+
+2O₃(g) → 3O₂(g)
+
+Anotherreactioninvolvingahomogeneouscatalystisthe one betweenperoxydisulfateionsandiodideionsinaqueoussolution:
+
+S₂O₈²⁻(aq) + 2I⁻(aq) → 2SO₄²⁻(aq) + I₂(aq)
+
+This reaction is catalysed by either Fe2+(aq) or Fe3+(aq).
+
+WithFe²+(aq),thereactionmechanism is:
+
+Step 1: S2O-(aq) + 2Fe²+(aq)→2SO2-(aq) + 2Fe3+(aq)
+
+With Fe3+(aq) as the catalyst, Steps 1 and 2 occur in the reverse order
+
+## Topic 11: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 11A Further Kinetics
+
+LEARNING TIP
+
+Theactionof Fe²+（aq)orFe3+(aq)asacatalystinthereactionbetween S2O?(aq)andI-(aq)issometimesexplainedintermsofstandard electrodepotentials(Evalues).
+
+However,itisimportanttonotethatstandardelectrodepotentials canpredictonlythethermodynamicfeasibilityofareaction,andnot thekinetics.Thereasonwhythereactionsarefasterinthepresence ofeitherFe2+orFe3+isthattheactivationenergiesforbothSteps1 and2arelowerthantheactivationenergyfortheoverallreaction.
+
+## Topic 11: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 11A Further Kinetics
+
+HETEROGENEOUSCATALYSTS
+
+A heterogeneous catalyst isin a differentphaseto that of the reactants.
+
+Twoimportant usesofheterogeneouscatalystsinindustry are in theHaberprocessand theContactprocess.Theuseofsolid vanadium(V)oxide (V2Os),in which the vanadium changes its oxidationnumber,intheContactprocessisdescribedinthe section on transition elements (Topic 17).
+
+Wewillnowdescribetheactionofsolid ironasacatalystinthe reaction between nitrogen gas and hydrogen gas toform ammonia gas in theHaberprocess.
+
+• 2.Reaction-thereactantmolecules areheld inpositions that enablethemtoreacttogether
+
+• 3.Desorption-theproductmoleculesleavethesurface.
+
+Therateofreactioniscontrolledbyhowfastthereactantsare adsorbedandhowfasttheproductsaredesorbed.Asmentioned inTopic9(Book1:IAS),oncethesurfaceoftheironiscovered withmolecules,there isnofurtherincreaseinreactionrateevenif thepressure of thereactantsisincreased.
+
+## Topic 11: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 11A Further Kinetics
+
+DID YOU KNOW?
+
+Theefficiencyofaheterogeneouscatalystdependsonthesurface
+
+## Topic 11: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 11A Further Kinetics
+
+POISONING
+
+Manycatalystsaremadeineffectivebytraceimpurities.For example,catalystsused inhydrogenationreactionsarepoisoned bysulfurimpurities.Thisisonereasonwhynickel ispreferredto platinumasacatalystinthehydrogenationofalkenes.Nickel is relativelyinexpensive,soalargequantitycanbeused.Ifsome of effective.ntheotherhand,platinumisexpensive,andsosmall quantities would have to be used.In this case,it is possible for all ofthecatalysttobecomepoisoned.
+PROMOTERS
+
+Thespacingonthesurfaceof thecatalystisimportant.For example,onlysomesurfacesoftheironcrystalsactaseffective catalystsintheHaberprocess.Theadditionoftracesofpotassium oxideandaluminiumoxideactaspromotersbyproducingactive siteswherethereactiontakesplacemostreadily.
+
+## Topic 11: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 11A Further Kinetics
+
+DID YOU KNOW?
+
+Aninterstitial hydride,sometimescalledametallichydride,is notstrictlya compound.It ismore like an alloy thana compound. Thehydrogenabsorbsintothemetal andcanexistintheform ofeitheratomsordiatomicmolecules.Forexample,palladium absorbsupto900timesitsownvolumeofhydrogenatroom temperature,andformspalladiumhydride.Thismaterialhasbeen considered asamethod tocarryhydrogeninfuelcellsforusein vehicles (see Section 14.2.1).
+
+A heterogeneous catalyst is used in a three-way catalytic converter,whichisemployed intheexhaustofcars.Thisconverts unburnedhydrocarbonsintowaterandcarbondioxide,and carbonandcarbonmonoxideintocarbondioxide.Italsoconverts
+
+oxides of nitrogen into oxygen and nitrogen. The reactions involved are discussed in more detail in Topic 17.
+DID YOU KNOW?
+
+Theelectrophilicadditionreactionbetweenetheneandbromine vapour(Topic5(Book1:IAs))wasonce thoughttobeentirelya homogeneous process in which the molecules collided in the gas phase andreacted.
+
+Itisnowknownthatthereactiontakesplacealmostentirelyon thesurfaceofthewallsofthereactionvessel.Thereactiontakes aS cetyl alcohol (hexadecan-1-ol,CH(CH2)15OH).It takesplace evenmorequicklystillonasurfaceofstearicacid(octadecanoic acid,CH(CH2)COOH),presumablybecausestearicacid moleculesaremorepolarthanmoleculesofcetylalcohol.
+
+However,ifthewallsofthereactionvesselarecoatedwitha any,occurs.So,aprocess once thoughttobe a homogeneousgas phasereactionisnowknowntobeheterogeneouslycatalysed.
+
+Itissometimesstatedthatacatalystdoesnotchangethe productsofareaction,butonlyincreasestherateatwhichthe reactiontakesplace.Thisisnotentirelytrue,asdemonstrated by thedifferentproductsobtainedwhenhotethanolvapourispassed overdifferentsolidcatalysts.
+
+Withcopperornickelasthecatalyst,at400°C,adehydrogenation reactiontakesplaceinwhichtheproductsareethanal and hydrogen:
+
+CHCH2OH(g) →→CHCHO(g) +H2(g)
+
+If,atthesametemperature,aluminiumoxideisusedasthe catalyst,themorefamiliardehydrationreactionintoetheneand watertakesplace:
+
+(6)0²H+(b)²H=H(b)HO²HH
+
+Itisinterestingtonotethatthedehydrogenationcatalysts copperandnickel,adsorbhydrogenverystrongly,whereas thedehydrationcatalyst,aluminiumoxide,adsorbswaterin preference.
+
+Thesetwoexamplesillustratethatthereisalotmoreto heterogeneouscatalysisthanismentionedat Internationall A Level. This might encourage you to do your own research into thetopicandlearnevenmoreaboutit.
+
+## Topic 11: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 11A Further Kinetics
+
+OXIDATIONOFETHANEDIOICACIDBYMANGANATE(VII)IONS
+
+Inautocatalysis,thereactioniscatalysedbyoneofits products.Oneofthesimplestexamplesofthisistheoxidation equationforthereactionis:
+
+5(COOH)2(aq)+2MnO(aq)+6H+(aq) →10CO2(g)+2Mn²+(aq)+8H2O(l)
+
+Thereactionisveryslowatroomtemperature,butiscatalysedby manganese(Il) ions,Mn²+. The Mn²+ions are not present initially, sothereactionstartsoffextremelyslowlyatroomtemperature. However,Mn²+is a product of thereaction.Assoon as it is producedinacatalyticamount,thereactionrateincreases.
+
+You can show this effect by plotting the concentration of one ofthereactantsagainsttime.Thegraphobtainedisunlikethe normalratecurveforareaction.
+
+Concentration ofreactant Time
+
+• fig BAgraphofconcentration against timeforanautocatalysedreaction
+
+InfigB youcansee the slow (uncatalysed) reaction at the beginning. As catalyst begins to be formed in the mixture,the reactionspeedsup-itgetsfasterandfasterasmoreandmore catalystisformed.Eventually,theratedecreasesinthenormal way astheconcentrationsofthereactantsdecrease.
+
+## Topic 11: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 11A Further Kinetics
+
+LEARNING TIP
+
+DonotassumethataratecurvesimilartothecurveinfigBalways showsanexampleofautocatalysis.Thereareothereffectsthatmight produceasimilargraph.
+
+Forexample,ifthereactioninvolvesasolidreactingwithaliquid liquidmighthavetopenetrateasubstanceonthesurfaceof thesolid beforetheexpectedreactioncanhappen.
+
+Anotherpossibilityisthatthereactionisstronglyexothermicandthe temperatureisnotbeingcontrolled.Theheatevolvedduringthe reactionspeedsupthereaction.
+
+## Topic 11: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 11A Further Kinetics
+
+CHECKPOINT
+
+• 1. Explainwhy only a small quantity of a homogeneous catalyst is requiredinorderforittobeeffective.
+
+• 2. Carsinsomepartsoftheworldstillrunonleadedpetrol.Leaded petrolcontainsa compoundcalledtetraethyl lead,(CHCH2)4Pb Tetraethylleadreactsintheenginewithoxygenandformslead andlead(ll)oxide.Thesesubstancesremoveradical intermediatesinthecombustionreactions,thusincreasingthe octaneratingofthepetrol.Excessleadandlead(ll)oxideis removedbyadding1,2-dibromoethane.Thisformsvolatile lead(ll)bromidethatescapesthroughtheexhaust.
+
+Suggestwhyacatalyticconvertercouldnotbeusedinacar runningonleadedpetrol.
+
+## Topic 11: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 11A Further Kinetics
+
+SUBJECT VOCABULARY
+
+adsorptiontheadhesionofatoms,moleculesorionstothesurface of a solid
+
+autocatalysiswhenareactionproductactsasacatalystforthe reaction
+
+## Topic 11: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 11A Further Kinetics
+
+11A 6EFFECTOFTEMPERATUREON THERATECONSTANT
+
+## Topic 11: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 11A Further Kinetics
+
+LEARNING OBJECTIVES
+
+• UsetheArrhenius equationto explain the effectof temperature on therate constantof a reaction.
+
+• Usecalculations andgraphical methodstofind the activationenergyfora reactionfromexperimental data.
+
+## Topic 11: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 11A Further Kinetics
+
+RELATIONSHIPBETWEENTEMPERATUREANDRATEOFREACTION
+
+InBook1 we discussed qualitatively why anincrease in temperatureincreased therate of a reaction. Therearetworeasonsforthis:
+
+• ·anincrease in the fractionof molecules with energy equal to or greater than the activation energy forthereaction
+
+• ·anoverallincreaseinthefrequencyofcollisionsbetweenthereactingmolecules.
+
+The second effect is considerablylesssignificant thanthefirst andmeansthat we can effectively ignoretheoverallincreaseinthefrequencyofcollisions.
+THEARRHENIUSEQUATION
+
+In 1889,Svante Arrhenius,a Swedish chemist,proposed a quantitative relationshipbetween temperature and the rate constant,k,for a reaction.This is described by the Arrhenius equation and is usually expressed in theform:
+
+k = Ae^(−Eₐ/RT)
+
+where:
+
+• ·A is a constant knowm asthepre-exponentialfactor,whichis ameasureoftherate atwhichcollisions occurirrespective of their energy.It alsoincludes other factors,the most important of which is that reactionscanonlyoccurwhenthemoleculesarecorrectlyorientated atthetimeofcollision.
+
+• ·Eis the activationenergyofthereaction.
+
+• .Ris the gas constant.
+
+• ·Tis the absolute temperature (i.e. the temperature in kelvin).
+
+If we take natural logarithms(i.e.logarithms to the base‘e') of the Arrhenius equation.we obtain:
+
+Ea 1
+
+ln k = − Eₐ/R × 1/T + ln A
+
+If a graph of Ink is plotted against , a straight line is obtained with a gradient of -
+
+This provides an experimental method for determining the activation energy of a reaction.
+
+Theinterceptwith thevertical axisgives InA.
+
+## Topic 11: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 11A Further Kinetics
+
+WORKED EXAMPLE
+
+TableAshowssomedatarelatedtothereactionbetweenperoxydisulfateandiodideionsinaqueous solution:
+
+S₂O₈²⁻(aq) + 2I⁻(aq) → 2SO₄²⁻(aq) + I₂(aq)
+
+## Topic 11: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 11A Further Kinetics
+
+
+#### WORKED EXAMPLE
+|   TEMPERATURE/K |   MAGNITUDEOFRATE CONSTANT,K |   Ink |   1/T/K-1 |
+|-----------------|------------------------------|-------|-----------|
+|             300 |                      0.00513 | -5.27 |   0.00333 |
+|             310 |                      0.00833 | -4.79 |   0.00323 |
+|             320 |                       0.0128 | -4.36 |   0.00313 |
+|             330 |                       0.0201 | -3.91 |   0.00303 |
+|             340 |                       0.0301 | -3.50 |   0.00294 |
+
+## Topic 11: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 11A Further Kinetics
+
+EXAM HINT
+
+You will always begiventhe Arrheniusequationifitis neededinanexamquestion.
+
+## Topic 11: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 11A Further Kinetics
+
+DID YOU KNOW?
+
+When we state that the relationship between Ink and -i is linear,we have assumed that bothEa and A remain constant over a range of temperatures.This is not strictly true. However, the change in the values of EandAwithtemperatureareinsignificantcomparedwiththeeffectoftemperatureontherateconstant, andso canbe ignored.
+
+## Topic 11: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 11A Further Kinetics
+
+The significance of the factor e-
+
+The factor e-represents thefraction of collisions that have energy equal to or greater than the e-(60000/8.31 ×298) = 3×10-11
+
+So,only one collision in3×1011 hassufficient energy toreact.
+
+ItisoftenassumedthatthefractionofcollisionswithenergyequaltoorgreaterthanEaisthesameas the fraction of molecules with this energy.This is not strictly true,but the difference is insignificant at highenergies,wherethefractionisverysmall.
+
+It is,therefore,reasonableto drawthe molecular energy distributioncurve,instead of thecollision frequency curve,whendemonstrating the effectof temperatureoncollisionfrequency.(SeeTopic9 (Book 1: IAS).
+
+## Topic 11: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 11A Further Kinetics
+
+LEARNING TIP
+
+TheeffectofEonreactionrate:
+
+• reactionswithalargeEaareslow,buttherateincreasesrapidlywithanincreaseintemperature
+
+• reactionswithasmallEaarefast,buttheratedoesnotincreaseasrapidlywithanincreasein temperature
+
+• catalysedreactionshavesmallvaluesofEa
+
+## Topic 11: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 11A Further Kinetics
+
+Reactionprofiles
+
+Whendrawingreactionprofilediagramsformulti-stepreactions,itisimportanttodistinguishbetween anintermediateandatransitionstate:
+
+• ·anintermediatehasanenergyminimum
+
+• ·a transitionstateoccursatthetopof theenergycurveandthereforehasanenergymaximum.
+
+Anintermediateisadefinitechemicalspeciesthatexistsforafinitelengthoftime.Bycomparison,a transition statehas nosignificant permanent lifetime of its own:it existsfor aperiod of the order of 10-15 seconds,when themolecules are in contact with one another.Even a veryreactive intermediate, with a lifetime of only10-6seconds,has a long lifetimein comparisonwith theperiod thatcolliding moleculesareincontactwithoneanother.
+
+Asimpleone-stepreaction,suchastheS2hydrolysisofaprimaryhalogenoalkane,hasasingle RHal, is therefore:
+
+Thereactionprofile for theSv1hydrolysis of a tertiaryhalogenoalkane,RCHal,which is a two-step reactioninvolving theintermediateRC+,is:
+
+fig CThe reaction profile diagram for the hydrolysis of a tertiary halogenoalkane.
+
+## Topic 11: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 11A Further Kinetics
+
+LEARNING TIP
+
+In the S1 hydrolysis of a tertiary halogenoalkane, the first step of the mechanism is the rate-determining step of the reaction,and it therefore has thehigheractivation energy.That is,Ea(1)>E(2). If the second step in a reaction mechanism is rate-determining,Ea(1)<Ea(2).
+
+## Topic 11: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 11A Further Kinetics
+
+TherelativeratesofS1andS2reactionsdependonstructure
+
+You learned inBook1 that alkyl groups donate electronsbythe inductiveeffect.Thismeans that the stabilityofcarbocationsincreasesintheorder1°<2°<3°,asthenumberofalkylgroupsdonating electronstowardsthepositivecarbonatomincreases.
+
+As thestability of the carbocation increases,the activation energyfor thereaction leadingtoits formation also decreases.
+
+Progress of reaction
+
+WethereforeexpecttherateoftheSv1reactiontoincreaseintheorder1°<2°<3°.
+
+No carbocations are formed during the Sv2 reaction.In an Sv2 reaction,the transition state has five groups arranged around the central carbon atom. It is therefore more crowded than either the starting halogenoalkaneorthealcoholproduct,eachofwhichhaveonlyfourgroupsaroundthecentral carbonatom.
+
+Alkyl groups are much larger than hydrogen atoms.Therefore,the more alkyl groups around the centralcarbonatom,themorecrowdedwillbethetransitionstate,andthehighertheactivation energyforitsformation.
+
+We therefore expect therate of theSv2reaction to increase in the order 3°< 2°<1°.
+
+Thetwo effectsreinforce one another.TheSv1reactionisfastestwithtertiaryhalidesand slowestwith primaryhalides,whiletheSv2reactionisfastestwithprimaryhalidesandslowestwithtertiaryhalides. Overall,primaryhalidesreactpredominantlyviatheS2mechanismandtertiaryhalidesreactpredominantly viatheSu1mechanism.Secondaryhalidestendtoreactviaamixtureofthetwomechanisms.
+
+Relative rate
+
+figES1andS2hydrolysisreactionsforprimary,secondary and tertiaryhalogenoalkanes
+CREATIVITY
+
+UsetheArrhenius equationtoexplainwhy anincreasein temperatureresultsinan increaseintherateof reaction.
+
+• 2. Therateconstant,k,fora reactionincreasesfrom 10.0s-1to100.0s-1when thetemperatureis increasedfrom300K to 400K.
+
+Calculatetheactivation energy,Ea,forthisreaction. [R=8.31] mol-1k-1].
+
+## Topic 11: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### Topic 11: Kinetics II
+
+CATALYSTCRAFT
+
+In this article you will look at an example of how an engineered metalloenzyme can improve both the kinetics and specificity of a
+ENGINEEREDMETALLOENZYME CATALYSES FRIEDEL-CRAFTS REACTION
+
+Reprogramming the genetic code of bacteriatoincludeanunnatural aminoacid hasallowedscientistsintheNetherlands to create a new metalloenzyme capable of catalysinganenantioselectivereaction.
+
+• 'Nature is extremely good at catalysing reactionswithveryhighrate accelerations andveryhighselectivity.Butit doesso,
+
+from our perspective,with a relatively limitedsetofreactions,explains Gerard RoelfesfromtheUniversityofGroningen in theNetherlands,wholed the study.His group is looking at existing reactions that usetraditionalcatalysts,butfailto achieve thesamerate acceleration andselectivity as enzymecatalysedreactions.
+
+Metalloenzymes combine theflexibility ofmetalcatalystswiththehighactivity andselectivityofenzymes.Artificial metalloenzymes are produced by inserting a catalyticallyactivetransitionmetal complexintoabiomolecularscaffold,like a protein.
+
+figAThe artificialmetalloenzymeswereappliedinacatalyticasymmetricFriedel-Craftsalkylation reaction.
+
+3November2014
+
+Roelfes'team engineeredEscherichiacoli cellstoinclude acopper-binding amino acid into one ofits proteins.This method requiresnofurtherchemicalmodification or purification steps, giving it an advantage over existing methods.The resulting metalloenzymewastested onacatalytic asymmetricFriedel-Crafts alkylation reaction,achievinganenantiomericexcess of up to 83%.
+
+#### ENGINEEREDMETALLOENZYME CATALYSES FRIEDEL-CRAFTS REACTION
+Takafumi Ueno,whoresearches the mechanisms of chemical reactions in living cells at theTokyoInstitute of Technology in Japan, is impressed by the work. Itcouldbe appliednotonlyforrapid screeningof artificialmetalloenzymesbut alsofor in vivo use ofthem to govern cell fate in future'.
+
+The group are now looking to develop new artificial metalloenzymeswiththe capability to perform chemistry that traditional transitionmetal catalystscannot. Ultimately,theyhopetointegratethese enzymesintobiosyntheticpathways.
+SCIENCE COMMUNICATION
+
+• 1(a)After reading the article forthe first time,write a one-paragraph summary of what you think the article is about.
+
+• (b) Now write down a list of any words from the article of which you do not know the meaning. Do some research into what they mean. Is there anything about your summary from (a) that you would change?
+CHEMISTRY IN DETAIL
+
+• 2 Assuming the reaction is exothermic, sketch an energy profile for the catalysed reaction showing:
+
+• (a)the overall reaction enthalpy change
+
+• (b) the activation energy for the formation of the enzyme-substrate complex.
+
+• 3Under certain conditions the rate equation for an enzyme-catalysed reaction takes the form: Rate = k[E], where [E] is the enzyme concentration and k and n are experimentally determined constants. What does this rate equation suggest about the reaction mechanism under these conditions?
+
+• 4Name the type of bond that is formed between the copper ion and the unusual amino acid in themetalloenzymeshowninfigA.
+
+• 5 Suggestwhy the useof a metalloenzyme of thistypemightbe a better alternative than the traditional Friedel-Crafts methods for alkylation.
+
+• 6Suggest why this method might be expected to increase the enantioselectivity of this reaction.
+
+• Suggest why the Zn2+ ion may not be a suitable replacement for the Cu²+ ion in this enzyme.
+ACTIVITY
+
+Although the metalloenzyme detailed above is genetically engineered, there are many naturally occurring metalloenzymes that carry out a range of reactions in organisms. Most of these can be found in a freely accessible online database called thePDB (alternatively,thePDBe).
+
+Choose one of thefollowingmetals:Fe,Zn,Cu,Mo,Co
+
+• ·Find a protein that contains the metal.
+
+• ·Find out what the protein does.
+
+• ·Find out howmuch of the metal is present in a typical healthy adult.
+
+Give a five-minutepresentation on yourchosen metal,featuringno more thanfive slides.You willhave theopportunitytodisplayyourchosenmoleculesusingsomeof thefreely availablesoftwarepackages such as Jmol.
+DID YOU KNOW?
+
+copper has disastrous effects.For example,the inability to excrete excess copper from thebody (Wilson'sdisease)canbefatal ifleftuntreated.Menkes'syndromemanifestsitself ifthebodyis unable toretain(hold on to) copper.Although notfatal, it canlead to developmental delay and neurological problems.
+
+INTERPRETATIONNOTE
+
+Youmayfindthatitiseasier thanyou thinktogetan overallunderstandingof whatadetailedscientific article is about. You do notneed tounderstand every singleword to learn something new and interesting.
+
+THINKING BIGGER TIP
+
+Whenyouareaskedtodraw something,makesureyou useasharpHBpencil so that your drawing is clear, andusearulerifyou are drawing straight lines.
+
+## Topic 11: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### Topic 11: Kinetics II
+
+11 EXAMPRACTICE
+
+• 1An experiment is set up to measure the rate of hydrolysis of methyl ethanoate, CH,COOCH3.
+
+• 5The reaction of acidified aqueous potassium iodide with aqueoushydrogenperoxide
+
+CHCOOCH+H2O=CHCOOH + CHOH
+
+2I-(aq)+ H2O2(aq)+ 2H+(aq)→I2(aq)+ 2H2O(l)
+
+The hydrolysis is very slow in neutral aqueous solution.When dilutehydrochloricacidis added,thereactionisfaster
+
+What is the function of thehydrochloric acid?
+
+• Atoincrease thereactionratebyacting asacatalyst
+
+• Btomakesure that thereactionreachesequilibrium
+
+• C to maintain a constant pH during the reaction
+
+• Dto dissolve themethylethanoate
+
+[1]
+(Total for Question 1 = 1 mark)
+
+• 2 For the gaseous reaction 2X(g) + Y(g) →Z(g),the rate equation is
+
+rate = k[X]²[Y]°
+
+If thepressureinthereactionvesselisdoubledbutthe temperatureremainsconstant,bywhatfactordoestherateof reactionincrease?
+
+A2
+
+B3
+
+C4
+
+D8
+
+[1]
+(Total for Question 2 = 1 mark)
+
+• 3 The alkaline hydrolysis of RBr, where RBr =(CH)Br, takes placeintwosteps:
+
+RBr→R++BrSLOW
+
+R++OH-→ROH
+
+FAST
+
+Whichofthefollowingrateequationsisconsistentwith this scheme?
+
+• A rate =k[OH-]
+
+• B rate = k[RBr]
+
+• C rate = k[RBr][OH-]
+
+• D rate = k[R+][OH-]
+
+[1] (Total for Question 3=1 mark)
+
+• 4The table gives data for thereactionbetweenX andY at constanttemperature.
+
+## Topic 11: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### Topic 11: Kinetics II
+
+
+#### [1] (Total for Question 3=1 mark)
+| Experiment   |   [x] / mol dm-3 |   /[x] mol dm-3 | Initial rate / mol dm-3s-1   |
+|--------------|------------------|-----------------|------------------------------|
+|              |              0.3 |             0.2 | 4.0 × 10-4                   |
+| 2            |              0.6 |             0.4 | 1.6 × 10-3                   |
+| 3            |              0.6 |             0.8 | 6.4×10-3                     |
+
+## Topic 11: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### Topic 11: Kinetics II
+
+
+#### [1] (Total for Question 3=1 mark)
+What is the rate equation for the reaction?
+
+• A rate = k[X][Y]2
+
+• B rate = k[X][Y]
+
+• C rate =k[x]²
+
+• D rate = k [Y]2
+
+is thoughttoinvolvethreesteps:
+
+H2O2+I→H2O+OI
+
+SLOW
+
+OI+H+→HOI
+
+FAST
+
+HOI + H++I→I2+H2O
+
+FAST
+
+Whichofthefollowingconclusionscannotbededucedfrom this information?
+
+• A The acid is a catalyst.
+
+• B The reaction is first order with respect to theiodide ion.
+
+• C The rate determining step is H2O2 + I → H2O + OI-
+
+• D The rate equation for the reaction is:rate =k[HO2][I-][1]
+
+(TotalforQuestion5=1mark)
+
+• 6Propanone and iodine react in aqueous acidic solution according to thefollowing overall equation: CHCOCH+I2+H+→CHCOCHI+2H++I-
+
+The experimentally determined rate equationfor this reaction is: rate=k[CHCOCH][H+]
+
+• (a)With initial concentrations as shown, the initial rate of reactionwas1.43×10-6moldm-3s-1.
+
+## Topic 11: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### Topic 11: Kinetics II
+
+
+#### [1] (Total for Question 3=1 mark)
+|         | Initial concentration/mol dm-3   |
+|---------|----------------------------------|
+| CH,COCH | 0.400                            |
+| H+      | 0.200                            |
+| I2      | 4.00 × 10-4                      |
+
+## Topic 11: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### Topic 11: Kinetics II
+
+
+#### [1] (Total for Question 3=1 mark)
+Calculate a valuefor therate constant,k,forthe reaction.[3]
+
+• (b)Explain the effect on the rate of reaction of doubling the concentration of iodine,but keeping the concentrations of propanone and hydrogenions constant. [2]
+
+• (c)The proposed mechanism for the overall reaction is:
+
+[1]
+
+(Total for Question 4 = 1 mark)
+
+Explain which of thefour steps could be the rate-determing step. [3]
+(Total for Question 6 = 8marks)
+
+• 7Most chemical reactions involve two or more steps.The experimentallydeterminedrateequationindicateswhichspecies are involved either before or in the rate-determining step.
+
+• (a)State what is meant by the term rate-determining step. [1]
+
+• (b)Hydrogen reacts with iodine monochloride in a two-step mechanismaccordingtothefollowingoverallequation:
+
+• H2(g) + 2ICl(g)→ 2HCl(g) + I2(g)
+
+The experimentallydeterminedrateequationforthis reaction is:
+
+rate =k[H2(g)][ICl(g)]
+
+Therate-determiningstepisthefirststepinthemechanism for the reaction.
+
+• (i)Write an equation for the rate-determining step.
+
+• [1]
+
+• (i)Write an equation for the second step.
+
+• [1]
+
+• (c）Aseriesofexperimentswerecarriedoutonthereaction A + B + C →products. The results are shown in the table.
+
+• (i)Determine the order of reaction with respect to A,B andC.Showhowyou obtainyour answers. [3]
+
+• (ii) ）Writetherateequationforthereaction. [1]
+
+• (ii)Which reactant is unlikely to be in the rate determining step? [1]
+
+## Topic 11: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### Topic 11: Kinetics II
+
+
+#### (Total for Question 6 = 8marks)
+|   Experiment |   Initial concentrations/ moldm-3 - [A] |   Initial concentrations/ moldm-3 - [B] |   Initial concentrations/ moldm-3 - [C] | Initial rate/   |
+|--------------|-----------------------------------------|-----------------------------------------|-----------------------------------------|-----------------|
+|            1 |                                   0.100 |                                   0.100 |                                   0.100 | 6.20 × 10-4     |
+|            2 |                                   0.100 |                                   0.200 |                                   0.100 | 6.20 ×10-4      |
+|            3 |                                   0.100 |                                   0.100 |                                   0.200 | 2.48 × 10-3     |
+|            4 |                                   0.200 |                                   0.100 |                                   0.100 | 1.24 × 10-3     |
+
+## Topic 11: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### Topic 11: Kinetics II
+
+(TotalforQuestion7=8marks)
+
+• 8Nitrogen pentoxide decomposes on heating toform nitrogen tetroxide andoxygen.Theequationforthereactionis:
+
+N₂O₅(g) → N₂O₄(g) + ½O₂(g)
+
+The progress of the reaction can befollowed by measuring the concentration of NzOs present. The graph shows the results obtained in an experiment conducted at constant temperature.
+
+• (a)(i)Use the graph to predict the rate of reaction after 20 minutes and after 90 minutes. [3]
+
+• (i)Deducetherateofproductionofoxygen after 20 minutes?
+
+[1]
+
+• (b）(i)Plot on the graph two successive half-lives for this reaction.
+
+[2]
+
+• (i)Deduce the order of reaction with respect to N2O5. Justifyyour answer.
+
+[2]
+
+• (ii)Write a rate equation for the reaction.
+
+[1]
+
+• (c)(i)Calculate a value for the rate constant, k,for this reaction.
+
+[3]
+
+• (i）Deduce the initial rate of reaction when the initial concentration ofN2Ois 1.50moldm-3.Assume the reactioniscarriedoutunderthesame conditionsof temperatureandpressure.
+
+[2]
+(Total for Question 8 =14marks)
+
+• Nitrogendioxide,NO2,is decomposed onheatingintonitrogen monoxide, NO, and oxygen. The proposed mechanism for this reaction is:
+
+NO₂ + NO₂ → NO₃ + NO SLOW NO₃ → NO + O₂ FAST
+
+• (a)(i)Write an overall equation for the decomposition of nitrogen dioxide. [1]
+
+• (i)Write a rate equation for the reaction. [1]
+
+• (b）Therateconstant,k,forthedecompositionwas determined at several different temperatures.Theresultsobtainedwere usedtoplotthegraphshownbelow.
+
+• (i)Use the graph and the expression
+
+ln k = − Eₐ/R × 1/T + ln A
+
+to calculate the activation energy,Ea,for the thermal decomposition of nitrogen dioxide. Give your answer to an appropriate number of significant figures. [4]
+
+• (ii）A vessel ofvolume 2.00 dm²isfilled with 4.00mol of rate of reactionwas found tobe12.64 moldm-3s-1.
+
+• ntitrogendioxideata temperatureof650K.Theinitial Calculateavaluefortherate constant,k,atthis temperature. [3]
+
+(TotalforQuestion9=9marks)
+
+## Topic 12: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### Topic 12: Entropy and Energetics
+
+A ENTROPYIB LATTICEENERGY
+
+People lived very simply in the Stone Age. Their energy needs were supplied by the Sun, and by burning plants and trees. Because the plants and trees were continuously renewed, and populations were small, energy supplies during the Stone Age period were plentiful. However, this simple lifestyle has almost completely vanished, and people today cannot survive without abundant fuel.
+
+Today, most of the world's energy is supplied from fossil fuels, which consist of natural gas, coal and products from crude oil, such as gasoline, diesel and kerosene. Fossil fuels are not renewable and will one day run out. To manage these energy resources and develop new fuels we need to understand how energy is released or used in chemical reactions, including the reactions in plants, animals and our own bodies.
+
+Energy is an essential part of chemistry as well as of civilisation as we know it. In chemistry, energy determines which reactions can occur and which compounds can exist. You have already studied a large number of chemical reactions. All of these reactions either absorb or release energy. In this topic we will develop an understanding of how to measure and report these energy changes.
+
+#### A ENTROPYIB LATTICEENERGY
+Have you ever wondered why water evaporates? Why hot objects cool? Why hydrogen combines with oxygen? Why green leaves turn red in the autumn? Why anything happens? Part of the answer is related to energy. We need energy to think, to move and to live. Every chemical reaction makes use of energy to rearrange the bonding between elements in compounds. Thermodynamics deals with questions like these.
+
+In the first half of this topic we will deal with the second law of thermodynamics, which governs the direction of natural change. The second law enables us to predict whether or not a reaction has a tendency to occur, and to what extent it will occur. The second law is of fundamental importance in chemistry because it provides a basis for discussing, explaining and predicting equilibria, the subject of Topics 13 and 14 in this book. The second law is also the foundation of the whole field of electrochemistry, the subject of Topic 16.
+MATHS SKILLS FOR THIS TOPIC
+
+• Recognise and make use of appropriate units in calculations
+
+• Recognise and use expressions indecimal and ordinaryform
+
+• . Use calculators to find and use power, exponential and logarithmic functions
+
+• Use an appropriate number of significant figures
+
+• Change the subject of an equation
+
+• Substitute numerical values into algebraic equations using appropriate units for physical quantities
+
+• Solve algebraic equations
+
+• Use logarithms in relation to quantities that range over several orders of magnitude
+
+What prior knowledge do I need? Topic6(Book 1: IAS)
+
+• Standardconditionsoftemperatureandpressure forthermodynamicmeasurements
+What will I study in this topic?
+
+• LatticeenergiesandBorn-Habercycles
+
+• Enthalpy changes of atomisation, solution and hydration
+
+• EnthalpychangesandHess'sLaw
+
+• Electron affinity
+
+• Energy level diagrams and enthalpy profile diagrams
+
+• Polarisation of anions by cations to explain the degree of covalent character of ionic compounds
+
+• Bond enthalpiesandmeanbondenthalpies
+
+• Entropy
+
+## Topic 12: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 12A Entropy
+
+LEARNING OBJECTIVES
+
+• Understand that,since endothermicreactionscan occur spontaneously atroom temperature,enthalpy changes alone donot controlwhetherreactionsoccur.
+
+• Understandentropyasameasureofdisorderof a systemintermsof therandomdispersalofmolecules andofenergyquanta betweenmolecules.
+
+• Understandthattheentropyofasubstanceincreaseswithtemperature,thatentropyincreasesas solid → liquid → gas and that perfect crystals at zero kelvin have zero entropy.
+
+## Topic 12: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 12A Entropy
+
+WHATMAKESAREACTIONOCCUR?
+
+Perhaps one of the most important questions to ask in chemistry is'Will a reaction occur?
+
+We know that,once started, some chemical reactions simply'go with nofurther, continuoushelpfromus.
+
+For example, ammonia gas and hydrogen chloride gas react together atroomtemperaturetoformthewhitesolid,ammoniumchloride:
+
+NH(g) + HCI(g) → NH4Cl(s)
+
+Magnesium, once ignited, will burn in oxygen to form magnesium oxide:
+
+Mg(s) + ½O₂(g) → MgO(s)
+
+In other reactions,rather than the reactants changing completely into the products,a position of equilibrium is reached,with the final mixture containing a measurable amount of both reactants andproducts.
+
+For example, ethanoic acid dissociates in water In a 0.1 mol dm-3 solutionofethanoicacid,onlyabout1%oftheethanoicacid moleculesarepresentasions:
+
+CH;COOH(aq) = CH;COO-(aq) + H+(aq)
+
+Another example is the dimerisation of nitrogen dioxide in the gas phase:
+
+2NO₂(g) ⇌ N₂O₄(g)
+
+Atatemperatureof298Kandapressureof100kPa,the equilibrium mixture contains about 70% N2O4.
+
+the reaction has gone to completion.For some other reactions, significant amounts ofboth reactants and products arepresent at equilibrium.Forotherreactions,theequilibriumliessofartothe left that they appear not to take place at all.
+
+So, perhaps the better question to ask is not'Will a chemical reaction occur?' but'What will be the position of equilibrium? This is thequestionwehopetoanswerin thistopic.
+
+## Topic 12: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 12A Entropy
+
+DID YOU KNOW?
+
+A campfireisanexampleof increasesinentropy.Thesolidwood burns and becomes ash,smoke and gases,all of which spread energyoutwardsmoreeasilythanthesolidfuel.
+
+## Topic 12: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 12A Entropy
+
+EXOTHERMICANDENDOTHERMICREACTIONS
+
+The reaction between magnesium and oxygen is exothermic and can berepresentedbytheenthalpyleveldiagramshowninfigA
+
+Enthalpy
+
+figAEnthalpyleveldiagramforthereactionbetweenmagnesiumand oxygen.
+
+Thereareothertypesofreactionsthatsimplydonotoccur atall, atleastnotwithoutsomehelp.Forexample：
+
+• ·ammoniumchloridedoesnotspontaneouslydecomposeinto ammonia andhydrogenchloride
+
+• magnesium oxide does not break apart toform magnesium and oxygenwithoutsomecontinuousinterventionfromusinthe form of heating.
+
+If we consider all of these types of reaction together, we see that therealdifferencebetweenthemisthepositionofequilibriumthat isestablished.Forsomereactions,thepositionofequilibriumis sofar over to the products side that,to all intents and purposes, As theproductshaveless energythanthereactants,weoftensay It isvery tempting toconclude that this reaction occurs because the magnesium oxide is energetically more stable than its elements, magnesium and oxygen. However tempting this argument maybe,we must discard it,because experience tells us thatmanyendothermicreactionsoccuratroomtemperature.
+
+Let us consider the dimerisation of NO2(g) at 298 K:
+
+2NO₂(g) ⇌ N₂O₄(g)
+
+TheenthalpyleveldiagramforthisreactionisshowninfigB
+
+Enthalpy
+
+Reactionpathway
+
+• figBEnthalpyleveldiagramforthedimerisationof NO2
+
+Thisreaction isreadilyreversibleandreaches aposition of equilibriumat298K.Theforwardreactionleadingtothe formation of N2O4(g)is exothermic.However, thebackward reaction isendothermic.
+
+#### EXOTHERMICANDENDOTHERMICREACTIONS
+Fromthepoint ofviewofthermodynamics,all reactions are reversible,sowesuggestedthatanevenbetterquestiontoaskis:
+
+Whenareactionreachesapointofequilibrium,what determineswhethertheequilibriumwillfavourthereactants ortheproducts,andtowhatextent?
+
+This question is answered using theSecond Law of Thermodynamics, in which the concept of entropy is introduced.
+ENTROPY
+
+TheSecond Law of Thermodynamics allows us to predict whether aprocessis likelyto occur.It is,therefore,thekey tounderstandingwhatdriveschemicalreactionsandwhat determines theposition ofequilibrium.
+
+As we discovered inTopic9(Book1:IAS),theposition of equilibriumcanbereachedfromeitherdirection.Thismeans that ifweplacesomeNzO4(g) ina sealed containerat room temperature,some ofitwill decompose toformNO2(g).So,an endothermicreactionistakingplaceatroomtemperaturewithout usdoing anythingtoit.Wesay thatthereactionisspontaneous (seelaterin thissection).
+
+Clearly,itisnotonlyexothermicreactionsthatcantakeplace spontaneously.Thedrivingforceforspontaneousendothermic reactionscannotbetheformationofmoreenergetically favourable, i.e. lower-energy, products but must involve another factorwehaveyettoconsider.
+
+That factor is a quantity known as entropy, which is governed by theSecondLawofThermodynamics.
+
+But first, we need to appreciate what is meant by the term spontaneousprocess.
+SPONTANEOUSPROCESSES
+
+Aspontaneousprocessisonethattakesplacewithoutcontinuous interventionby us.
+
+A goodexample of a spontaneousprocessisthefreezing ofwater toform ice.Ifwateris placed in an environment at-20°C it will turnintoice.However,thereversewill neverhappen:at-20°C icewill nevermelttoformwater.
+
+Another example of a spontaneous process is the mixing of mix completely in a process known as diffusion.
+
+Wecanbringaboutthereverseofspontaneousprocessesby intervening.For example,we can melticebyheating it,and we can separate a mixture ofgases by liquefyingfollowed by distillation.
+
+Thekeypoint,however, is that the reverse of a spontaneous process never happens on its own.A mixture of gases will never separateontheirown.
+
+Atthebeginningofthissectionwestated that,inchemistry,we areconcernedwithwhetherornotchemicalreactionswilloccur in chemistry is'Why doesareaction occur?
+
+TheSecond Law of Thermodynamics introduces a term called The simplest way to describe entropy is to say that it is a quantity associatedwithrandomnessordisorder.
+
+Thisdefinitionisratherbasic and hastobeusedwithcare. Entropy refers not only to the distribution of molecules but also energylevelsavailable.
+
+To help you to understand entropy,it helps to think about what happensduringthediffusionofgases.
+DISTRIBUTIONOFMOLECULES
+
+Fig C shows two gas jars.The bottom one contains bromine gas and thetoponecontains air.
+
+figCGasjarscontainingairandbromine
+
+When the cover slipbetween the two gas jars is removed, the bromine andairdiffusesothatthemoleculesofeachgasare spread out evenly throughout both gas jars.
+
+To understand why this happens we canlook at a much simpler examplewherethereareonlyfivemolecules.FigDshowstwo gas jars. The left-hand jar contains five molecules of bromine and theright-hand jarcontainsnomolecules.
+
+## Topic 12: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 12A Entropy
+
+EXAM HINT
+
+It issatisfyingtomakelinks betweentopicsin chemistry.If youmultiplytheBoltzmann constantk(1.38x10-23)bythe AvogadroconstantL(6.02x 1023),
+
+you will get 8.31.This is also knownasthegasconstant,R, whichyoushouldremember fromPV=nRTinTopic1 (Book 1: IAS).
+
+Assoonasthecoverslipisremoved,themoleculesarefree tomovebetween the jars
+
+• present but have not been shown.
+
+Eachmolecule has twopossible arrangements.It can bein either theleft-hand jar or the right-hand jar Wecanwrite the number of possible arrangements for molecule1 as W,and the number of possible arrangements for molecule 2 as W2, and so on.
+
+As there are two possible arrangements for molecule 1, W, = 2. For molecule 2, W2 = 2, and so on.
+
+The equation for the total number of ways, W, that the five molecules can be arranged is given by:
+
+W=W×W2×W×W×W5 =2×2×2×2×2 = 25 =32
+
+Most of the 32 possible arrangements have molecules in both jars. Only one has all five molecules in theleft-handjarItwouldbesurprisingif this arrangementhappenedveryoften.
+
+If we increase the number of molecules to100,Wbecomes 21oo. The left-hand gas jar would contain all100 molecules only once in every 3.2× 1022years!We would have towait for a verylong time indeedtoseeall100moleculesintheleft-handjar!
+
+You can see that as the number of molecules increases,the number of possible arrangements also increasesveryrapidly.Tomakethenumberseasiertoworkwithweneedtouseanequationtohelp us.You do notneed to remember the equation,but it helps us toseehow the spreadingout of the molecules is related toanincrease in entropy.
+
+Entropy, S, is linked to Wby the equation
+
+S=klnW
+
+whereWisthenumberofwaysofarrangingthemolecules,kisaconstantcalledtheBoltzmann
+
+Entropy is measured in units of JK-1mol-1.
+
+showthatthisisthecaseforwatervapour,waterandice.
+
+## Topic 12: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 12A Entropy
+
+
+#### EXAM HINT
+tableAEntropiesofwatervapour,waterandice.
+
+| SUBSTANCE   |   ENTROPY,S/JK-1mol-1 |
+|-------------|-----------------------|
+| watervapour |                   189 |
+| water       |                    70 |
+| ice         |                    48 |
+
+## Topic 12: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 12A Entropy
+
+
+#### EXAM HINT
+tableAEntropiesofwatervapour,waterandice.
+
+## Topic 12: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 12A Entropy
+
+DISTRIBUTIONOFENERGY
+
+The spreading out of molecules in diffusion is an increase in entropy,because the molecules become morerandomlydispersed.Inthesameway,the spreadingout ofheat energy alsorepresents an increase in entropy.
+
+Energyexistsin'packets'calledquanta.Youcanhaveawholenumberofquanta,butnothalves or fractions of quanta.
+TOPIC 12
+
+The distribution of the quanta between molecules is random.The more quanta there are,the more ways there areof arranging thembetween the molecules.Also,the moremolecules there are,the morewaysthereareofsharingthequanta.
+
+As an example,table B shows that there arefivepossible arrangements offour quanta between twomolecules. Table C shows that there are six possible arrangements of five quanta between two molecules.TableDshows that there are10 possible arrangementsof threequanta between three molecules.
+
+## Topic 12: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 12A Entropy
+
+
+#### table D
+| MOLECULE1   |   MOLECULE2 |
+|-------------|-------------|
+| 4           |           0 |
+| 3           |           1 |
+| 2           |           2 |
+|             |           3 |
+| 0           |           4 |
+
+|   MOLECULE1 |   MOLECULE2 |
+|-------------|-------------|
+|           5 |           0 |
+|           4 |           1 |
+|           3 |           2 |
+|           2 |           3 |
+|           1 |           4 |
+|           0 |           5 |
+
+## Topic 12: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 12A Entropy
+
+
+#### table D
+• tableB2molecules,4quanta,5arrangements
+
+table2molecules,5quanta,6arrangements
+
+• tableD3molecules,3quanta,10arrangements
+
+## Topic 12: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 12A Entropy
+
+
+#### table D
+| MOLECULE1   |   MOLECULE2 |   MOLECULE3 |
+|-------------|-------------|-------------|
+| 3           |           0 |           0 |
+| 0           |           3 |           0 |
+| 0           |           0 |           3 |
+| 2           |           1 |           0 |
+| 2           |           0 |           1 |
+| 1           |           1 |           1 |
+|             |           2 |           0 |
+| 1           |           0 |           2 |
+| 0           |           1 |           2 |
+| 0           |           2 |           1 |
+
+## Topic 12: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 12A Entropy
+
+
+#### table D
+The higher the temperature, the more energy a substance has.The more energy a substance has,the moreways there aretodistributethe energy.Themoreways therearetodistribute the energy,the higher the entropy.So, increasing the temperature will increase the entropy.
+PERFECTCRYSTALS
+
+A'perfect'crystalis one inwhich theinternal latticestructure is thesame atalltimes.In otherwords, the particles (atoms, molecules or ions) are fixed and are not moving in any way, rotating or vibrating.
+
+TheThird Lawof Thermodynamicsstates that the entropyof aperfect crystal at the temperature of absolute zero (i.e.O K) is zero.
+THESECONDLAWOFTHERMODYNAMICS
+
+TheSecond Law of Thermodynamicsis sometimes misquoted.You may have come across the statement that in a spontaneous change,entropy always increases.This cannot be true: if it were, water could neverfreezebecause thischangeinvolvesadecrease inentropy.
+
+Anotherexample is thereactionbetween ammoniagas and hydrogenchloridegas:
+
+NH(g) + HCI(g) → NH4Cl(s)
+
+Clearly,thereis a reduction inthe entropy of the system,sincetwogases areforming a solid,yet this reactionoccursspontaneouslyatroomtemperature.
+
+Thestatement entropy always increasesis almost correct.It needstobe expressed morecarefully to give the Second Law of Thermodynamics:
+
+In a spontaneousprocess,the total entropyincreases.
+
+In Section 12A.2, we explain what is meant by the term‘total entropy'.
+
+## Topic 12: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 12A Entropy
+
+CHECKPOINT
+
+• For each of the following,predict whetherthechange is accompanied by an increaseora decrease in totalentropy.
+
+(a)H2O(g)→H2O(1)
+
+• (b) I2(s)→l2(g)(c) Na(l)→Na(s)
+
+• 2.Arrange thefollowing in order of entropy,with the lowest first: steamat110°C;iceat-10°C;waterat30°C
+
+## Topic 12: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 12A Entropy
+
+SUBJECT VOCABULARY
+
+entropyapropertyofmatter thatisassociatedwiththe degreeofdisorder,ordegree of randomness,ofparticles(i.e atoms,moleculesorions),and alsowiththedistributionofthe quantaofenergybetweenthe particles
+
+spontaneousprocessaprocess thattakesplacewithout continuousinterventionby us
+
+## Topic 12: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 12A Entropy
+
+LEARNING OBJECTIVES
+
+• Understand that the total entropy change of any reaction is the sum of the entropy change of the system and the entropy change of the surroundings,summarised by the expression:
+
+Stotal =Ssystem +Ssurroundings
+
+• Be able to calculate the entropy change of the system for a reaction, Ssystem given the entropies of the reactants and products.
+
+• Be able to calculate the entropy change of the surroundings, and hence Stotal, using the expression
+
+• Understand that the feasibility of a reaction depends on:
+
+• (i) the balance between Ssystem and Ssuroundings so that even endothermic reactions can occur spontaneously at room temperature
+
+• (i) temperature, as higher temperatures decrease the magnitude ofSsuroundings so its contribution to Stota is less.
+
+• Understand that reactions can occur as long as Stota is positive even if one of the other entropy changes is negative.
+
+• Understand and distinguishbetween theconcepts of thermodynamicstability andkineticstability.
+
+## Topic 12: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 12A Entropy
+
+TOTAL ENTROPY CHANGE, △Stotal
+
+The total entropy change of a processcomprises two components:
+
+• ·the entropy change of the system, Ssystem, and
+
+• · the entropy change of the surroundings, Ssuroundings-
+
+In a chemical reaction, the system is the species that are taking part in the reaction.
+
+The surroundings is everything else. In practice, this usually means the reaction vessel, e.g. test tube or beaker, and the air in the laboratory.
+
+changeof thesurroundings.Thatis:
+
+ΔS_total = ΔS_system + ΔS_surroundings
+
+For a reaction to be spontaneous,△Stotal must be positive. This is another way of expressing the Second Lawof Thermodynamics.
+
+## Topic 12: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 12A Entropy
+
+DID YOU KNOW?
+
+The official definition of the Second Law of Thermodynamics does not use the term'total entropy changeInstead,itreferstothe'entropychangeoftheuniverseThesetwotermshavethesame meaning.Wewill use theterm'total entropychange'throughout thisbook.
+
+## Topic 12: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 12A Entropy
+
+ENTROPYCHANGEOFTHESYSTEM
+
+Ssystem is calculated using the expression:
+
+ΔS_system = ΣS (products) − ΣS (reactants)
+
+where Srepresents entropy and represents‘the sum of'.
+
+ThestandardentropyvaluesofsomesubstancesareshownintableA.
+
+Standardrefers toconditionsof100kPa and298K.
+
+## Topic 12: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 12A Entropy
+
+
+#### ENTROPYCHANGEOFTHESYSTEM
+| GAS    |   ENTROPYS9 /JK-1mol-1 |
+|--------|------------------------|
+| H2O(g) |                  188.7 |
+| H2     |                  130.6 |
+| O2     |                  205.0 |
+| N2     |                  191.6 |
+| Cl2    |                  165.0 |
+| CO2    |                  213.6 |
+| NH3    |                  192.3 |
+
+## Topic 12: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 12A Entropy
+
+WORKEDEXAMPLE1
+
+Use the values in table A to calculate △Ssstem for the following reaction: system
+
+CaCO₃(s) → CaO(s) + CO₂(g)
+
+Ssystem = Se[CaO(s)] + Se[CO2(g)] - Se[CaCOs(s)]
+
+=39.7+213.6-92.9
+
+= +160.4J K-1 mol-1
+
+## Topic 12: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 12A Entropy
+
+ENTROPYCHANGEOFTHESURROUNDINGS
+
+The entropy change of the surroundings, Ssuroundings is related to the enthalpy change of the reaction, △H, by the expression:
+
+ΔS_surroundings = − ΔH / T
+
+whereTisthe temperatureinkelvin.
+
+For an exothermic reaction, where His negative, Ssuroundings willalways be positive, so the entropy ofthesurroundingsincreases.
+
+Conversely, for an endothermic reaction, Ssuroundins will always be negative, so the entropy of the surroundings decreases.
+
+## Topic 12: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 12A Entropy
+
+EXAM HINT
+
+An examinermay ask you to suggestwhythestandard entropyvalueofdiamondis lowerthanthatofgraphite. Diamondisorderedinthree dimensions(a3Dlattice), whereasgraphiteisorderedin twodimensionsandhasgreater degreesoffreedombetween thelayers.
+
+LEARNING TIP
+
+Calculate Ssuroundings at 298 K when one mole of hydrogen gas is burned in oxygen.
+
+H₂(g) + ½O₂(g) → H₂O(l) ΔH = −286 kJ mol⁻¹
+
+ΔS_surroundings = − 286 / 298
+
+=+0.960kJK-1mol-1or+960JK-1mol-1
+
+## Topic 12: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 12A Entropy
+
+CALCULATING THE TOTAL ENTROPY CHANGE, Stotal
+
+Nowthatweknowhowtocalculateboth△Ss systemand△S Ssurroundings we are in a position to calculate the total entropy change, Stotal, for a reaction.
+
+ΔS_total
+
+Notethatentropyvaluesare usuallyquoted inJK-1mol-1, whereasenthalpychangesare usuallyquoted inkmol-.So,in any equation linkingSand H,oneoftheenergyterms will need a conversion of units.
+
+## Topic 12: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 12A Entropy
+
+
+#### CALCULATING THE TOTAL ENTROPY CHANGE, Stotal
+| LIQUID   |   ENTROPYS /JK-1mol-1 |
+|----------|-----------------------|
+| H2O()    |                  69.9 |
+| CH;OH    |                 239.7 |
+| CHCH2OH  |                 160.7 |
+| CH6      |                 172.8 |
+
+#### CALCULATING THE TOTAL ENTROPY CHANGE, Stotal
+| SOLID       |   ENTROPYS /JK-1mol-1 |
+|-------------|-----------------------|
+| H2O(s)      |                  47.9 |
+| C(diamond)  |                   2.4 |
+| C(graphite) |                   5.7 |
+| CaO         |                  39.7 |
+| CaCO3       |                  92.9 |
+
+## Topic 12: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 12A Entropy
+
+WORKEDEXAMPLE4
+
+H₂(g) + ½O₂(g) → H₂O(l) ΔH = −286 kJ mol⁻¹
+
+ΔS_system = S[H₂O(l)] − S[H₂(g)] − ½ × S[O₂(g)] = 69.9 − 130.6 − (½ × 205) = −163.2 J K⁻¹ mol⁻¹ ΔS_total = −163.2 J K⁻¹ mol⁻¹ + 960 J K⁻¹ mol⁻¹ = +796.8 J K⁻¹ mol⁻¹
+
+= 69.9 - 130.6 -(× 205)
+
+= -163.2J K-1 mol-1
+
+Stotal = -163.2J K-1 mol-1 + 960] K-1 mol-1
+
+= +796.8J K-1mol-1
+
+## Topic 12: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 12A Entropy
+
+SUMMARY
+
+Stotal will be positive if:
+
+• · both △Ssuroundins and Ssystem are positive
+
+• · Ssuroundings is negative and Ssystem is positive,but the magnitude of Ssuroundings < the magnitude Of Ssystem
+
+• · Ssuroundins is positive and Ssysem is negative,but the magnitude of Ssurounins > the magnitude of Ssystem
+THERMODYNAMICANDKINETICSTABILITY
+
+The reactionbetween methane and oxygen is exothermic,and the total entropy change has a positivevalue:
+
+CH₄(g) + 2O₂(g) → CO₂(g) + 2H₂O(l) ΔH꜀° = −890.3 kJ mol⁻¹ ΔS_total = +2.95 kJ mol⁻¹
+
+Since △Stotal is positive,the reaction is thermodynamically feasible at 298K. However, the reaction doesnottakeplaceuntil thereactionmixtureisignited,usuallywithaflame.
+
+The added heat energy is required to overcome the high activation energy of the reaction.
+
+A reaction mixture with a high activation energy, where a reaction will not take place spontaneously atroomtemperature,issaidtobekineticallystable
+
+You can see here that a reaction mixture (such as methane and oxygen) canbe thermodynamically unstablebut kinetically stable,so a reaction doesnot take place under standard conditions.
+THEROLEOFTEMPERATURE
+
+The increase in entropy obtained by supplying a certain amount of heat energy to an object depends on thetemperatureofthesystem.
+
+If an object is very cold, the molecules are not moving around very much.Supplying some heat energy tothe objectwill make themoleculesmove around more,so theentropy increases.
+
+If we supply the same amount of heat energy to a much hotter object, the entropy will still increase, but not by as much as with the cold object. This is because in the hot object the molecules are already moving around vigorously and the increased degree of movement is less for the hot object.
+WHYDOESWATERFREEZE?
+
+We will now apply these principles to explain why,under certain conditions, water will freeze.
+
+Ice has lower entropy than liquid water, so Ssystem is negative.
+
+The process is exothermic, so △Ssuroundings is positive.
+
+If the magnitude of Ssuroundings > the magnitude of Ssystem, then Siotal is positive and the water will freeze.
+
+We will now calculate △Sota for the change of water into ice at +5 °C and -5 °C using the following data.
+
+H₂O(l) → H₂O(s) ΔH = −6010 J mol⁻¹
+
+• ·S(water) = 69.9J K-1 mol-1
+
+• ·S°(ice) = 47.9J K-1 mol-1
+
+At +5°C (278 K):
+
+ΔS_system = (47.9 − 69.9) = −22.0 J K⁻¹ mol⁻¹ ΔS_surroundings = − −6010 / 278 = +21.6 J K⁻¹ mol⁻¹ ΔS_total = −0.4 J K⁻¹ mol⁻¹
+
+The total entropy change is negative, meaning that the change is not thermodynamically spontaneous. Thewaterwill notfreeze.
+
+At-5°C(268K):
+
+ΔS_system = (47.9 − 69.9) = −22.0 J K⁻¹ mol⁻¹ ΔS_surroundings = − −6010 / 268 = +22.4 J K⁻¹ mol⁻¹ ΔS_total = +0.4 J K⁻¹ mol⁻¹
+
+The total entropy change is positive, meaning that the change is thermodynamically spontaneous. Thewaterwill freeze.
+
+It is interesting to note that what has changed between+5°C and-5°Cis the entropy of the surroundings. The reason that Ssuroundings has changed in magnitude is simply because of the temperature change.The same amount ofheatenergyhasbeen transferred tothesurroundings but,because the entropy of the surroundings has a higher temperature when at +5°C thanwhen at -5 °C, the change in entropy is smaller, as explained earlier.
+
+So,the reasonwe put waterinto a freezer whenwewant tomakeice is because the entropy change of the surroundings (i.e.essentially the air inside the freezer) is large enough to compensate for the decreaseinentropywhenthewaterfreezes.
+
+## Topic 12: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 12A Entropy
+
+CHECKPOINT
+
+• 1.Hydrated cobalt(ll) chloride dehydrates on heating according to the following equation:
+
+CoCl2.6H2O(s)→ CoCl2(s) + 6H2O(1)△H°298k= + 88.1 kJ mol-1
+
+• (a) Calculate the standard entropy change of the system, Ssystem-
+
+S[CoCl2.6H2O(s)]=343.0JK-1mol-1
+
+• S[CoCl2(s)] = 109.2] K-1mol-1
+
+• S[H2O(1)] = 69.9] K-1mol-1
+
+• (b) Calculate the standard entropy change of the surroundings, S suroundings at 298 K.
+
+• (c) Calculate the standard total entropy change, △Stotal, at 298 K for this reaction.
+
+• (d)Explainwhether hydratedcobalt(ll) chloridecanbestored at298Kwithout it dehydrating?
+
+• 2. Use the data provided to calculate the total standard entropy change,Stotal, at 298 K,for the followingreaction:
+
+2Fe(s) + 12O2(g) → Fe2O3(s) △H= -822k mol-1 S[Fe(s)] = 27.2] K-1 mol-1 S[O2(g)] = 205.0] K-1 mol-1
+
+S[Fe2O3(s)] = 90.0] K-1 mol-1
+
+## Topic 12: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 12A Entropy
+
+LEARNING OBJECTIVES
+
+• Understand why entropy changes occur during:
+
+• (i)changes of state
+
+• ）dissolvingofasolidioniclattice
+
+• (ii)reactionsinwhichthereisa changeinthenumberofmolesfromreactantstoproducts
+
+• Be able to use entropy and enthalpy changes of solution values to predict the solubility of ionic compounds and discuss trends inthesolubilityofioniccompoundscoveredinUnit2
+
+## Topic 12: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 12A Entropy
+
+REACTIONSINVOLVINGACHANGEOFSTATE
+
+We have already mentioned that,in general, entropy increases in the order:
+
+solid< liquid<gas
+
+gas is produced from a reaction involving a solid and/or a liquid.
+EXAMPLE1
+
+Whensolidammoniumcarbonateisaddedtopureethanoic acid,bubbles ofgas are rapidlyproduced.Despite its violent appearance, this is an endothermic reaction, as can be shown by placing a thermometer in the acid before the ammonium carbonate is added.The temperaturefallsconsiderably as the reactiontakesplace.
+
+2CH₃COOH(l) + (NH₄)₂CO₃(s) → 2CH₃COONH₄(aq) + H₂O(l) + CO₂(g)
+
+Since the reaction is endothermic, Ssuroundings will be negative. However,thereis alargeincreaseinthe entropyofthesystem, Ssystem, because a gas is produced from a liquid and a solid. The magnitude of Ssystem is greater than that of Ssuroundings and this makes △Stotal positive, so the reaction is thermodynamically spontaneous.
+EXAMPLE2
+
+Hydrated barium hydroxide reacts with solid ammonium chloride in a rapid endothermic reaction at room temperature:
+
+Ba(OH)₂·8H₂O(s) + 2NH₄Cl(s) → BaCl₂(s) + 10H₂O(l) + 2NH₃(g)
+
+Asinthepreviousexample,thedrivingforceof thereaction is Ssystem, which overcomes the negative value of △Ssuroundings causedbytheendothermicnatureofthereaction.Thereactants are solids and the products are a solid, a liquid and a gas.
+EXAMPLE3
+
+Magnesium burns in oxygen to form solid magnesium oxide: Mg(s) +O2(g) → MgO(s)
+
+The reaction is highly exothermic, so ASsuroundings will be positive. Ssystem is negative since a solid and a gas are changing into a solid. However, the magnitude of the value of Ssuroundings is greater than that of Ssystem, making Stotal positive. So, the reaction is thermodynamicallyspontaneous.
+DISSOLVINGIONICSOLIDSINWATER
+
+Whenanionicsoliddissolvesinwater,twochangestakeplace:
+
+• ·thelatticestructureisbrokendown,and
+
+• ·the ions become hydrated.
+
+Thebreakingdownofthelatticestructureisanendothermic process,equivalent to the reverse of thelattice energy.It also resultsinanincreased numberofmoles ofparticlespresent,so increasestheentropyofthesalt.
+
+Thehydration of theions is anexothermicprocess,butresults in thewatermoleculesbecomingmore ordered as they arrange themselvesinanorderlymanneraroundthepositiveandnegative ions.The increaseinorderingof thewatermoleculesproduces adecreaseinentropyofthewaterThisorderingofthewater molecules is particularly significant when dissolving anhydrous solids in water.
+
+Toexplainwhysomeionicsolidsaresolubleinwater,whileothers are insoluble,we need to look at both the enthalpy and the entropy changes involved.
+
+The solubility of an ionic solid is determined by the total entropy change for the solid.
+
+Since
+
+ΔS_surroundings = − Δ_sol H / T
+
+this expression becomes:
+
+ΔS_total = ΔS_system − Δ_sol H / T
+
+The value of △Stotal, and hence the solubility of the solid, depends on thevaluesof threefactors:
+
+• · the entropy change of the system, Ssysem
+
+• ·the enthalpy change of solution, soH
+
+• ·the temperature,in kelvin,of the water, T.
+
+Letushaveacloselookatthedissolvingofammoniumnitrate crystalsinwateratatemperatureof298K.
+
+#### DISSOLVINGIONICSOLIDSINWATER
+NHNO:(s)aq NH4(aq) + NO3-(aq) soH = +25.8kJ mol-1 △Ssystem = S[NH4+(aq)] + S[NO3-(aq)] - S[NH4NO3(s)] =+113.4 + 146.4 - 151.1J K-1 mol-1 = +108.7J K-1 mol-1 Hsol +25800 △S =-86.6JK-1mol-1 surroundings T 298 Stotal =(+108.7 - 86.6) = +22.1 J K-1 mol-1
+
+Since △Stotal is positive, the dissolving of ammonium nitrate in water at 298K is thermodynamically spontaneous.Since the activation energyfor this processis very low, ammonium chloride is soluble in water at 298K.
+
+We are now in aposition to think about thesolubility inwater ofsome otherionic solids.
+
+TableAshowstherelevantthermodynamicdataforsomesolidsatatemperatureof298K. Thevalueshavebeenquotedtothenearestwholenumber.
+
+## Topic 12: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 12A Entropy
+
+
+#### DISSOLVINGIONICSOLIDSINWATER
+| IONICSOLID   |   soH/kJmol-1 |   Ssurounding/JK-1 mol-1 |   Ssystem/JK-1 mol-1 |   Stotal/JK-1mol-1 | SOLUBILITY   |
+|--------------|---------------|--------------------------|----------------------|--------------------|--------------|
+| NaCl         |            +4 |                      -13 |                  +43 |                +56 | soluble      |
+| NH,CI        |           +15 |                      -50 |                 +167 |               +117 | soluble      |
+| AgCI         |           +66 |                     -221 |                  +33 |               -188 | insoluble    |
+| MgSO4        |           -91 |                     +305 |                 -213 |                +92 | soluble      |
+| CuSO4        |           -73 |                     +245 |                 -192 |                +53 | soluble      |
+| CaSO4        |           -18 |                      +60 |                 -145 |                -85 | insoluble    |
+
+## Topic 12: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 12A Entropy
+
+REACTIONSINVOLVINGACHANGEINNUMBEROFMOLESFROM REACTANTSTOPRODUCTS
+
+If you increase thenumber of moles that you have,you automatically increase thenumber of particles (i.e. atoms, molecules or ions) present. This will result in an increase in the number of ways that the particles can be arranged, and this increases the entropy of the system, making Ssystem positive.
+
+We will now look again at the reactions shown above, but this time we will consider the change in the numberofmolesfromreactantstoproducts.
+
+EXAMPLE1
+
+2CHCOOH(1) + (NH4)CO3(S)
+
+→ 2CH,COONH4(s) + H2O() + CO2(g)
+
+Number of moles of reactants=3
+
+Numberof moles ofproducts=4
+
+So, ASsystem is positive.
+
+EXAMPLE2
+
+Ba(OH)2.8H2O(s) + 2NH,CI(s) →BaCl2(s) + 10H2O(l) + 2NH3(g)
+
+Number of moles ofreactants=3
+
+Number of moles of products =13
+
+So, △Ssystem is positive.
+
+## Topic 12: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 12A Entropy
+
+DID YOU KNOW?
+
+Whenwestatethatthe solidsAgCl and CaSOare insoluble inwater,thisis a simplification.Bothsolids haveameasurablesolubility in water, but the solubility isverysmall.Whatweare really sayingisthatthe position of the equilibrium in bothcasesisveryfaroverto thesolidsideof theequation. Wewillcomebacktothis pointinTopic13,whenwe discusstherelationship betweenthetotalentropy changeforareactionandthe equilibriumconstant,K,for the reaction.
+
+## Topic 12: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 12A Entropy
+
+EXAMPLE3
+
+Mg(s) + O2 → MgO(s)
+
+Numberofmolesofreactants=1.5
+
+Number of moles of products = 1
+
+So, Ssystem is negative.
+SOLUBILITYTRENDSINGROUP2
+
+In Topic8 (Book 1: IAS),we mentioned that for Group 2 the solubility of the metal hydroxides increases down thegroup and thesolubility of themetal sulfatesdecreases down thegroup.Wecan now explain the reason for these trends in solubility.
+
+As wehave mentioned earlier, the twofactors that affect the solubility of ionic compounds are the standard enthalpy change of solution of the compound,sqH,and the standard entropy change of the system, △S system·
+
+It is diffcult to work out Ssystem accurately for many ionic compounds. We can use the standard entropy values of the ions as a guide.
+
+SOLUBILITYOFGROUP2METALHYDROXIDES
+
+TableB shows thestandard enthalpy and standard entropy changes involved in dissolving the Group 2 metal hydroxides.Thevalues are given here to the nearest whole number.
+
+## Topic 12: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 12A Entropy
+
+
+#### SOLUBILITYOFGROUP2METALHYDROXIDES
+| METAL HYDROXIDE   | HSOI   |   /JK-1mol-1 | HYDRATEDCATION   |   STANDARDENTROPYOFHYDRATED CATI0N/JK-1mol-1 |
+|-------------------|--------|--------------|------------------|----------------------------------------------|
+| Mg(OH)2           | E+     |          -10 | Mg2+(aq)         |                                         -138 |
+| Ca(OH)2           | -16    |          +54 | Ca2+(aq)         |                                          -53 |
+| Sr(OH)2           | -46    |         +154 | Sr2+(aq)         |                                          -33 |
+| Ba(OH)2           | -52    |         +174 | Ba2+(aq)         |                                          +10 |
+
+## Topic 12: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 12A Entropy
+
+tableB
+
+Thevaluesfor the standard entropy of the hydroxide ionhave beenleft out here,because the ion is commonto all of themetalhydroxides.Thetrend in thestandardentropies ofthecationsmirrors the trend in the standard entropy change of the system, Ssysem·
+
+The standard enthalpy change of solutionbecomes more negative down the group. This favours solubility as Ssuroundings becomes more positive.
+
+The values of the entropies of the hydrated cations become less negative (i.e.more positive), and this also favours solubility.
+
+Asbothfactorsfavour anincrease in solubility,the metal hydroxides become more soluble asyou go down the group.
+
+SOLUBILITYOFGROUP2METALSULFATES
+
+Table C shows the standard enthalpy and standard entropy changes involved in dissolving the Group 2 metal sulfates.Thevalues aregiven here to the nearest whole number.
+
+## Topic 12: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 12A Entropy
+
+
+#### SOLUBILITYOFGROUP2METALSULFATES
+| METALSULFATE   |   HSOI |   /JK-1mol-1 | HYDRATEDCATION   |   STANDARDENTROPYOFHYDRATED CATION/JK-1mol-1 |
+|----------------|--------|--------------|------------------|----------------------------------------------|
+| MgSO4          |    -91 |         +305 | Mg2+(aq)         |                                         -138 |
+| CaSO4          |    -18 |          +60 | Ca2+(aq)         |                                          -53 |
+| SrSO4          |     -9 |          +30 | Sr2+(aq)         |                                          -33 |
+| BaSO4          |    +19 |          -63 | Ba2+(aq)         |                                          +10 |
+
+## Topic 12: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 12A Entropy
+
+TOPIC 12
+
+Again,thevaluesforthestandardentropyofthesulfateionhavebeenleftouthere,becausetheion is common to all of the metal sulfates. The trend in the standard entropies of the cations mirrors the trend in the standard entropy change of the system, Ssy system
+
+The standard enthalpy change of solution becomes less negative down the group. This favours insolubility, as △Ssuroundings becomes less positive.
+
+The values of the entropy of the hydrated cationbecome less negative(i.e.more positive),and this alsofavourssolubility.
+
+The overall decrease in Ssuroundings down the group is 368 JK-1 mol-1 (+ 305 to -63).
+
+The overall increase in the standard entropy change of the hydrated cations is 148 JK-1 mol-1 (-138 to +10).
+
+As the decrease in the standard entropy of the hydrated cations is much less than the increase in the entropy of the surroundings, the Group 2 metal sulfates becomeless soluble as you go down the group.
+
+## Topic 12: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 12A Entropy
+
+LEARNING TIP
+
+At this level, it is assumed thatSsystem does not changewith temperature, since theentropies ofboth the reactants andtheproductschangebysimilaramounts.
+
+Themagnitudeofsurroundings willalways decrease with increasing temperature.Ifsurroundings isnegative, it will become less negative. If Ssurroundins is positive, it will become less positive.
+
+Evidencefromthermodynamicsdoesnotindicatetherateatwhichareactionwilloccur.Areactionthatis thermodynamically spontaneous at a given temperaturemay have a high activation energy.This could resultinthereactionnottakingplaceatall.
+
+## Topic 12: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 12A Entropy
+
+CHECKPOINT
+
+• 1. Predictwhetherthereislikelytobeanincrease,adecreaseornochangeintheentropyofthesystem ineachofthefollowingreactions.Ineachcase,giveyourreasons.
+
+• (a)CuSO4.5H2O(s)→CuSO4(s)+5H2O()
+
+• (b) HCI(g) +NH3(g)→NH4CI(s)
+
+• (c) SO2(g)+O2(g)→SO3(g)
+
+• (d) Co(H2O)2+(aq)+EDTA²-(aq)→Co(EDTA)(aq)+6H2O(1)
+
+• 2.This question is about the following reaction:
+
+H2(g)+I2(g)→ 2HI(g)
+
+• (a)Statewhyyoumightpredictthattheentropychangeinthesystemforthisreactioniszero.
+
+• (b) The actual △Ssystem for this reaction is +22] K-1 mol-1. Explain why the total entropy change for this reactionisnotzero.
+
+## Topic 12: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 12B Lattice Energy
+
+1 LATTICE ENERGY, LEH ANDBORN-HABERCYCLES
+
+## Topic 12: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 12B Lattice Energy
+
+LEARNING OBJECTIVES
+
+• Beabletodefinetheterms:
+
+• (i) standard enthalpy change of atomisation, atH
+
+• (ii) electron affinity
+
+• (ii) lattice energy (as the exothermic process for the formation of one mole of an ionic solid from its gaseous ions).
+
+• Understand that lattice energy provides a measure of the strength of ionic bonding.
+
+• ConstructBorn-Habercyclesandcarryoutrelatedcalculations.
+
+• Understand the effectof ioniccharge and ionicradius on thevalue of thelatticeenergy of an ioniccompound.
+
+## Topic 12: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 12B Lattice Energy
+
+LATTICEENERGY
+
+InBook1,we saw thatbond enthalpies canbeused asameasure of the strength of the covalent bonding in molecules. The equivalent energy change forionic bonding in ionic compounds is lattice energy,△LeH (or lattice enthalpy)
+
+The lattice energy of a compound is the energy change when one moleoftheionicsolidisformedfromitsgaseousions.Ifstandard conditionsof100kPaand astatedtemperature(usually298K) standard lattice energy.
+
+The equation that represents the standard lattice energy of sodium chloride is:
+
+Na+(g) + Cl-(g) → NaCl(s)
+
+LEH=-780kJ mol-1
+
+For magnesium chloride it is:
+
+Mg²+(g) + 2Cl-(g) →→ MgCl2(s)
+
+LEH=-2526kJmol-1
+
+## Topic 12: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 12B Lattice Energy
+
+LEARNING TIP
+
+The termslattice energy'andlattice enthalpy' are commonly used as if they meanexactlythesame thing.You willoftenfindbothterms usedwithinthesametextbook,articleorwebsite,includingsome universitywebsites.
+
+Infact,thereisadifferencebetweenthem.Itrelatestotheconditions underwhichthey arecalculated.However,the difference isnegligible whencomparedwiththedifferentvaluesforlatticeenergiesthatyou willfindindifferentsources.
+
+Unless you go on to study chemistry at degree level, you do not need toworryaboutthedifferencebetweenthetwoterms.
+
+## Topic 12: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 12B Lattice Energy
+
+DID YOU KNOW?
+
+There are two ways of defining lattice energy.The onementioned inthespecificationistheonewehavealreadydefined.Thisis sometimescalledlatticeenergyofformation,sincethecompound is being formed from its ions. Using this definition, the energy changewillalwaysbenegative.
+
+However,somebooksdefineitaslatticeenergyofdissociation,in whichitistheenergychangewhenonemoleofthecompound is broken down (or dissociated) into its ions. In this case, the energy changewill bepositive.
+
+## Topic 12: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 12B Lattice Energy
+
+FACTORSAFFECTINGTHEMAGNITUDEOFLATTICEENERGY
+
+The lattice energy of magnesium chloride, Mg2+(Cl-)2, is much larger (i.e. more negative) than that of sodium chloride, Na+Cl-. Anumberoffactorsareresponsibleforthisdifference:
+
+• ·Thefirst thing to realise is that a magnesium ion carries twice thechargeofa sodium ion.
+
+• ·Second,there aremore cation-to-anioninteractions in magnesium chloride because there are twice as many chloride ionsper cationthaninsodiumchloride.
+
+• Athirdfactoristhedistancebetweenthecentresofthecations and their neighbouring anions,which is equal to the sum of theirionicradi.Thisdistance isdetermined inpartby the relative sizes of theions involved(theMg²+ionissmaller than Na+,soreducingthe sum of theionicradi)and alsoby the type of lattice structure the compound has.In fact,the relative ionsizesdeterminethetypeoflatticestructure.
+
+TableAshowstheeffectsthatboththeinter-ionicdistanceand the charges on the ions have on the lattice energy.
+
+## Topic 12: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 12B Lattice Energy
+
+
+#### FACTORSAFFECTINGTHEMAGNITUDEOFLATTICEENERGY
+| COMPOUND   |   INTER-IONIC DISTANCE/nm | CHARGESON THEIONS   | LATTICEENERGY/ kJmol-1   |
+|------------|---------------------------|---------------------|--------------------------|
+| LiF        |                     0.207 | +1, -1              | -1031                    |
+| NaF        |                     0.235 | +1, -1              | -918                     |
+| CaF2       |                     0.233 | +2, -1              | -2630                    |
+| Li2O       |                     0.214 | +1, -2              | -2814                    |
+| MgO        |                     0.212 | +2, -2              | -3791                    |
+| AlO3       |                     0.193 | +3,-2               | -15 504                  |
+
+## Topic 12: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 12B Lattice Energy
+
+tableA
+
+Comparison of LiF and NaF,where the charges on the ions are thesame,showsthatadecreaseinthedistancebetweenthe centresof thetwoions(theinter-ionicdistance)resultsina more negative value for the lattice energy.
+
+ComparisonofNaFandCaF2,wheretheinter-ionicdistancesare almostthesame,showsthatanincreaseinchargeofevenone oftheions(Ca²+asopposed toNa+)resultsin a morenegative value for theionisation energy.Similar comparisons can be made between LizO and MgO and also between LizO and AlO3.
+
+Finally,aswewill seelaterinthistopic,there are alsocovalent interactionsbetweentheions,and theseaffectthemagnitude ofthelatticeenergy.ThevaluesquotedintableAtakethese interactionsintoconsiderationsincetheyarecalculatedvalues usingaBorn-Habercycle(seelaterin this section).
+
+There is a notableexceptionwith thenoblegases.Forthese, repulsion caused by the electrons already present in the valence shell results in a positive value for the first electron affinity as the additional electron would have to occupy a newvalence shell.
+
+## Topic 12: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 12B Lattice Energy
+
+LEARNING TIP
+
+Latticeenergiesaredeterminedby:
+
+• themagnitudesofthechargesontheions
+
+• thesumoftheionicradi
+
+• thetypeoflatticestructure
+
+• theextentofcovalentinteractionsbetweentheions.
+
+In contrast,secondelectronaffinities,2ndEA,tendtobepositive asenergyisrequiredtoovercometherepulsionbetweenthe negative ion and the electron being added.For example:
+
+O⁻(g) + e⁻ → O²⁻(g) 2nd EA = +798 kJ mol⁻¹
+
+Therefore,theformationof the oxideion,O²-,inthegaseous state from its atom in the gaseous state is an endothermic process overall:
+
+O(g) + 2e⁻ → O²⁻(g) 1st EA + 2nd EA = +657 kJ mol⁻¹
+
+AtInternationalALevel,youarenotrequiredtoknowthedifferent typesoflatticestructures.Inaddition,theextentofthecovalent interactionsisalreadytakenintoconsiderationinthequotedvalues forlattice energy.Therefore,youneed only considerthemagnitude of thechargesontheions andthesizesof theions.
+
+This raises an interesting question: why does oxygen form O2ions in its binary ionic compounds rather than O-ions,as the Oion would appear to be themore energetically favourable state? We will attempt to answer this question later in this topic.
+
+## Topic 12: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 12B Lattice Energy
+
+STANDARDENTHALPYCHANGEOF ATOMISATION,△atH°
+
+The enthalpy changemeasured at a stated temperature(usually 298K)and100kPawhenonemoleofgaseousatomsisformed fromanelementinitsstandardstateiscalledthestandard enthalpychangeofatomisationoftheelement(seeTopic6 (Book 1:IAS)).It isgiven the symbol △aH
+
+Equationsrepresenting some standard enthalpy changes of atomisationat298Karegivenbelow.
+
+C(s)→C(g)
+
+aH = +717kJ mol-1
+
+Na(s) → Na(g)
+
+aH = +107 kJ mol-1
+
+H2(g) → H(g)
+
+aH= +218kJ mol-1
+
+Cl2(g) → Cl(g)
+
+aH = +122kJ mol-1
+
+## Topic 12: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 12B Lattice Energy
+
+LEARNING TIP
+
+Notethatthestandardenthalpychangeofatomisationisthe enthalpychangewhenonemoleofgaseousatomsisformed.Inthe case ofelementsthatexist aspolyatomicmolecules,it isnotthe enthalpychangewhenonemoleofgaseousmolecules is atomised.
+
+## Topic 12: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 12B Lattice Energy
+
+ELECTRONAFFINITY
+
+The frst electron affinity of an element, 1st EA, is the energy changewheneachatominonemoleofatomsinthegaseous state gains an electron toform a -1 ion.
+
+The equations below represent thefirst electron affinities of some elements.
+
+Cl(g) +e → Cl-(g)
+
+1stEA =-349kJmol-1
+
+Br(g)+e-→ Br-(g)
+
+1st EA =-325kJmol-1
+
+O(g) +e- → O-(g)
+
+1st EA =-141 kJ mol-1
+
+The first electron affinity has a negative value for many elements, including thealkalimetals.Examples include:
+
+Li(g) + e⁻ → Li⁻(g) 1st EA = −60 kJ mol⁻¹
+
+1st EA = -60 kJ mol-1
+
+Na(g) + e⁻ → Na⁻(g) 1st EA = −53 kJ mol⁻¹
+
+1st EA =-53kJ mol-1
+BORN-HABERCYCLES
+
+We are now in aposition to consider the overallenergy changes thattakeplacewhenanioniccompoundismadefromits leveldiagramcalledtheBorn-Habercycle.FigAshowsthe Born-Haber cycle for sodium chloride.
+
+Energy
+
+figABorn-Haber cycleforsodiumchloride.
+
+## Topic 12: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 12B Lattice Energy
+
+EXAM HINT
+
+Examinersmayaskyoutolabelenthalpychangeof atomisation, enthalpychangeofionisation,electron affinity andenthalpychange offormationonBorn-HabercyclediagramslikefigA.Makesurethat youcanrecogniseeachprocessandlabel itcorrectly.
+
+The cycle includes the following energy changes, all of which can be determined experimentally:
+
+• .The enthalpy change of formation of NaCl(s), △H[NaCl(s)] = -411 kJ mol-1
+
+• ·atH[Na(s)] = +107 kJ mol-1
+
+• ·the first ionisation energy, 1s IE[Na(g)] = +496 kJ mol-1
+
+• ·△aH[Cl2(g)] = +122kJ mol-1
+
+• ·EA[Cl(g)] = -349 kJ mol-1
+
+ApplyingHess'sLaw to the cycle gives us:
+
++107 + 496 + 122 + (−349) + Δ_LE H = −411
+
+Hence:
+
+Δ_LE H[NaCl(s)] = −411 − 107 − 496 − 122 + 349 kJ mol⁻¹ = −787 kJ mol⁻¹
+
+LEARNING TIP
+
+Note: see Topic 2 (Book 1: IAs) for the definition of ionisation energy andTopic6(Book1:IAs)foranexplanationof Hess'sLaw.
+
+## Topic 12: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 12B Lattice Energy
+
+WHYISCALCIUMOXIDECa2+O2-ANDNOTCa+O-?
+
+You may think that the answer to this question is obvious. You might say that calcium oxide is Ca2+O2- becauseboth ions would then have a stable noble gas electronic configuration.
+
+If that is what you believe, then the following may come as a surprise.Acquiringanoblegaselectronicconfigurationisnot areasonforelectronicchangestotakeplacewhen atoms and moleculesreacttogether
+
+After all,manyionsexistinstablecompounds,inparticular, cationsofthetransitionmetals,inwhichtheydonothavethe electronicconfigurationofanoblegas.Infact,compoundsin whichtheionsdohavea noblegaselectronicconfiguration arein the minority.
+
+So,why does calcium oxide form as Ca2+O²-and not as Ca+O-, and why are we asking the question?
+
+Youmayrememberthatwehavementionedthattheformationof O-(g)fromO(g)is exothermic:
+
+O(g) + e⁻ → O⁻(g) 1st EA = −141 kJ mol⁻¹
+
+However, the formation of O²-(g) from O(g)is endothermic:
+
+O(g) + 2e⁻ → O²⁻(g) 1st EA + 2nd EA = +657 kJ mol⁻¹
+
+Since more energy is required, why is the formation of the O²- ion preferredovertheformationofO-?
+
+A similar pattern is observed with the formation of Ca+(g) and Ca²+(g) from Ca(g):
+
+Ca(g) → Ca+(g) + e- 1st IE = +590kJ mol-1 Ca(g) → Ca2+(g) + 2e- 1st IE+ 2nd IE= +1735kJ mol-1
+
+Similarly, since more energy is required, why is the formation of theCa²+ionpreferredovertheformationoftheCa+ion?
+
+#### WHYISCALCIUMOXIDECa2+O2-ANDNOTCa+O-?
+To answer this question it is necessary to consider all of the energychangesinvolvedintheformationofanioniccompound fromitselements-notjustthoseinvolvedintheformationofthe gaseous ions from the gaseous atoms. In other words, we need to look at the information supplied by the Born-Haber cycle for each compound (see fig B and fig C).
+
+figCBorn-Haber cycleforCa²+O²-(s)
+
+Using the equation:
+
+△H[Ca+O-(s)] = △aH[Ca(s)] + 1st IE[Ca(g)] + △aH[O2(g)] + 1st EA[O(g)] + △LEH[Ca+O-(s)]
+
+we can calculate a value for △H[Ca+O-(s)] using a theoretical valuefor△LeH[Ca+O-(s)] of -650kJ mol-1.
+
+In this way, the value calculated for △H[Ca+O-(s)] is:
+
+178 + 590 + 249 +(-141) + (-650) = +226kJmol-1.
+TOPIC 12
+
+Similarly, the value calculated for △H[Ca2+O²-(s)] is -635kJ mol-1. From these values,it is clear that the formation of Ca²+O²-is energeticallymorefavourablethantheformationofCa+O-.
+
+However,it isimportant torecognisethat the conditionsunder which a reaction takes place will infuence the overall energy changeinvolved,andhencethenatureofthecompoundformed.
+
+The extra energy required to form the 2+ and 2- ions is more thancompensatedforbythemuchlarger(i.e.morenegative) lattice energy of Ca2+O²-(-3401kJ mol-1) compared to that of Ca+O-(-650kJmol-1).
+
+It is the overall energy change involved,and not the incorrect notionofdesirabilitytoobtainanoblegaselectronic configuration,thatdetermineshowatomsandmoleculeswill interactwithoneanothertoformacompound
+
+## Topic 12: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 12B Lattice Energy
+
+CHECKPOINT
+
+• 1 lattice energy of potassium chloride, K+Cl-.
+
+• (b) Explain why the lattice energy of calcium oxide,Ca2+O2-, is approximately fourtimes larger(i.e. morenegative)thanthelatticeenergyofpotassiumfluoride,K+F-. [lonicradi:Ca2+0.100 nm;K+0.138nm;O2-0.140nm;F-0.133nm.]
+
+？
+
+△_H[MgO(s)]
+
+• (a)(i)State the namesforeach of the enthalpy changeslabelled△H,△H2and △H3
+
+• (i)Give the formula missing at the top of the cycle, indicated by a question mark (?). Give the statesymbols.
+
+• (b) The equations representing the first and second electron affinities of oxygen are:
+
+O(g)+e → O-(g)
+
+1st EA = -141 kJ mol-1
+
+O-(g) +e- → O2-(g)
+
+2nd EA = +798 kJ mol-1
+
+Suggest why the second of these processesis endothermic.
+
+• (c) Usetheinformationin theBorn-Haber cycle shown abovetocalculatethelatticeenergy of magnesium oxide,△LeH[MgO(s)]
+
+• (d)Explainhowthelatticeenergyofbariumoxidediffersfromthatofmagnesiumoxide.
+
+For example,if iron is heated in chlorine gas, iron(Ill) chloride is the product. However, if hydrogen chloride gas is used in place of chlorine,iron(Il) chloride is formed.
+
+Therefore, changing the conditions of temperature and/or pressurecanalsohaveaneffectontheexactcompoundformed.
+
+## Topic 12: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 12B Lattice Energy
+
+SUBJECT VOCABULARY
+
+standard latticeenergy(of an ionic compound) the energy changemeasuredatastated temperature,usually298K,and 100kPawhenonemoleofan ioniccompoundisformedfrom itsionsinthegaseousstate standardenthalpychangeof atomisation(ofanelement)the enthalpychangemeasuredata statedtemperature,usually298K， and100kPawhenonemoleof gaseousatomsisformedfrom anelementinitsstandardstate (first) electron affinity(of an element)theenergychange wheneachatominamoleof atomsinthegaseousstategains anelectrontoforma-1ion
+
+## Topic 12: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 12B Lattice Energy
+
+12B 2EXPERIMENTALAND THEORETICALLATTICEENERGIES
+
+## Topic 12: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 12B Lattice Energy
+
+LEARNING OBJECTIVES
+
+• Understand that a comparison of the experimental lattice energy value (obtained from a Born-Haber cycle) with the theoretical value (obtained from electrostatic theory) in a particular compound indicates the degree of covalent bonding.
+
+• Understand thatpolarisationof anionsbycationsleadstosomecovalencyin anionicbond,basedonevidencefromthe Born-Habercycle.
+
+## Topic 12: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 12B Lattice Energy
+
+EXPERIMENTALLATTICEENERGY
+
+TheBorn-Haber cycle allows us to calculate avaluefor the lattice energy of anionic compound from knowledge of the other energy changes, all of which can be determined experimentally. The value of the lattice energy calculated this way is called the experimental lattice energy.
+THEORETICALLATTICEENERGY
+
+The type of lattice structure and the inter-ionic distance can be found by X-ray crystallography. Using this information, it is possible for us to calculate a value for the lattice energy of an ionic compound. However,wefirstneed tomake thefollowingassumptions.
+
+• ·Theionsareincontactwithoneanother.
+
+• The ions are perfectly spherical.
+
+• Thechargeoneachionisevenlydistributed aroundthecentresothateachioncanbeconsidered as point charges.
+
+A value for the theoretical lattice energy can be calculated using the principles of electrostatics. There are three main methods for performing such calculations. If you are interested, you can researchthemundertheheadingsofthe'Born-Landeequation',the'Born-Mayerequation'and the 'Kapustinskii equation'.
+
+Table A shows a comparison of the experimental lattice energies(obtained by using a Born-Haber cycle)with the theoretical lattice energies(calculated using theprinciples of electrostatics)for various compounds.
+
+## Topic 12: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 12B Lattice Energy
+
+
+#### THEORETICALLATTICEENERGY
+| COMPOUND   |   EXPERIMENTALLATTICEENERGY/KJmol-1 |   THEORETICALLATTICEENERGY/KJmol-1 |
+|------------|-------------------------------------|------------------------------------|
+| NaF        |                                -918 |                               -912 |
+| NaCl       |                                -780 |                               -770 |
+| NaBr       |                                -742 |                               -735 |
+| AgF        |                                -958 |                               -920 |
+| AgCI       |                                -905 |                               -833 |
+| AgBr       |                                -891 |                               -816 |
+
+## Topic 12: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 12B Lattice Energy
+
+tableA
+
+You will notice that there is good agreement between the experimental values and the theoretical valuesforthehalidesofsodium.However,theagreementisnotsogoodforthehalidesofsilver
+
+that theionicmodel needs tobemodified.Insuch compounds,thebondingin thelatticehas a considerable covalent character, which makes the experimental value for the lattice energymore negativethanthetheoreticalvalue.
+
+## Topic 12: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 12B Lattice Energy
+
+LEARNING TIP
+
+Beverycarefulnottoconfuse experimentalandtheoretical lattice energies.
+
+The experimental latticeenergy iscalculatedfromaBorn-Haber cycle.
+
+The theoretical lattice energyis calculatedusingtheprinciples ofelectrostatics.
+EXAM HINT
+
+Thelargedifferencesbetween thetheoreticaland experimental latticeenergiesfor AgClandAgBrhelptoexplain whythesecompoundsare insolubleinwater.The differenceissmallerforAgF, andAgFissolubleinwater.
+
+The covalency in bonding is caused by polarisation of the anion by the cation. Polarisation results indistortion oftheelectrondensitywithinthe anion,resultinginahigherelectrondensitynearthe cation.Thismeansthatthereissomeelectrondensityexistingbetweenthetwoions.Inotherwords, therewillbe a degree ofcovalent bondingin the compound.
+
+## Topic 12: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 12B Lattice Energy
+
+EXTENTOFCOVALENTCHARACTER:POLARISATIONOFTHEANION
+
+In an ionic lattice, the positive ion (cation) will attract the electrons of the anion. If the electrons arepulled towards the cation,the anionis said to bepolarisedbecause the even distribution of its electron density has been distorted (fig A).
+
+Theextenttowhichananionispolarisedbyacationdependsonseveralfactors.Thetwomain factorsaresummarisedbelow.TheseareknownasFajan'sRules.
+
+Polarisationwill beincreasedby:
+
+• ·a high charge and small size of the cation (i.e. a high charge density of the cation)
+
+• ·a high charge and large size of the anion.
+HIGHCHARGEANDSMALLSIZEOFCATION
+
+The ability of a cation to attract electrons from the anion towards itself is called its 'polarising valueforthepolarisingpowerofacationcanbeobtainedbycalculatingitschargedensity (sometimes called surface charge density). The charge density of a cation is the charge divided by the surface area of the ion.If theion is assumed tobe a sphere,its surface area is equal to 4πr2, whereristheionicradius.
+
+A rough approximation of the charge density can be determined by dividing the charge by the square of its ionic radius. This calculation is beyond the scope of your International A Level course.
+
+TableBcomparestheextentofcovalentbondinginsodiumchlorideandmagnesiumchloride.
+
+Regionwhereelectrons areexisting in an area of orbital overlap
+
+figAArepresentation of a cation attracting the electrons of an anion in an ionic lattice.
+
+## Topic 12: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 12B Lattice Energy
+
+
+#### HIGHCHARGEANDSMALLSIZEOFCATION
+| COMPOUND   | CHARGEDENSITY OFCATION   |   EXPERIMENTALLATTICE ENERGY/kJmol-1 |   THEORETICALLATTICE ENERGY/kJmol-1 |   PERCENTAGE DIFFERENCE | EXTENTOFCOVALENT BONDING   |
+|------------|--------------------------|--------------------------------------|-------------------------------------|-------------------------|----------------------------|
+| NaCl       | = 111 (0.095)2           |                                 -780 |                                -770 |                    1.28 | very little                |
+| MgCl2      | 2 = 556 (0.060)2         |                                -2526 |                               -2326 |                    7.92 | more thaninNaCl            |
+
+## Topic 12: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 12B Lattice Energy
+
+tableB
+
+The charge density of the magnesium ion is larger than that of the sodium ion, resulting in greater polarisation of the chloride ion and greater covalent bonding in MgCl, than in NaCl.
+HIGHCHARGEANDLARGESIZEOFTHEANION
+
+The ease with which an anion is polarised depends on its charge and its size.Anions with a large chargeandalargesizearepolarisedmosteasily
+
+Table C compares the extentofcovalent bonding insilverfuoride and silveriodide.
+
+## Topic 12: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 12B Lattice Energy
+
+
+#### HIGHCHARGEANDLARGESIZEOFTHEANION
+| COMPOUND   |   CHARGEOF ANION |   RADIUSOF ANION/nm |   EXPERIMENTALLATTICE ENERGY/kJmol-1 |   THEORETICALLATTICE ENERGY/kJmol-1 |   PERCENTAGE DIFFERENCE | EXTENTOFCOVALENT BONDING   |
+|------------|------------------|---------------------|--------------------------------------|-------------------------------------|-------------------------|----------------------------|
+| AgF        |               -1 |               0.133 |                                 -958 |                                -920 |                    3.97 | fairly large               |
+| Agl        |               -1 |               0.215 |                                 -889 |                                -778 |                   12.49 | greater than in AgF        |
+
+## Topic 12: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 12B Lattice Energy
+
+tableC
+
+The larger iodide ion is more easily polarised, which leads to a greater degree of covalent bonding in silveriodide.
+
+fig BSodium chloride.
+
+figCSilver chloride.
+
+## Topic 12: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 12B Lattice Energy
+
+DID YOU KNOW?
+
+The interesting case of silver compounds
+
+TableD compares the extent ofcovalent bondingin sodium chloride and silver chloride.
+
+## Topic 12: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 12B Lattice Energy
+
+
+#### DID YOU KNOW?
+| COMPOUND   | CHARGE DENSITY OFCATION   |   EXPERIMENTAL LATTICEENERGY/ kJmol-1 |   THEORETICAL LATTICEENERGY/ kJmol-1 |   PERCENTAGE DIFFERENCE | EXTENTOF COVALENT BONDING   |
+|------------|---------------------------|---------------------------------------|--------------------------------------|-------------------------|-----------------------------|
+| NaCl       | 111 (0.095)2              |                                  -780 |                                 -770 |                    0.13 | very little                 |
+| AgCI       | 1 =63 (0.126)2            |                                  -905 |                                 -833 |                    7.96 | much greater than in NaCl   |
+
+## Topic 12: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 12B Lattice Energy
+
+table D
+
+Despitethepolarising power of theAg+ionbeingless than that of theNa+ion,there is considerably morecovalentbondinginAgCl.
+
+Thisis explained by considering thevalenceshell electronic configurations of the two ions concerned.
+
+Na+ 1s2 2s2 2p6
+
+Ag+[Kr] 4d10
+
+A d10 configuration offerslessshielding thana pelectronic configuration,so compounds that have a d10configuration show a greater tendency towards a covalent character.
+
+For the samereason,zinc compounds alsocontain a significant degree of covalent bonding.
+
+## Topic 12: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 12B Lattice Energy
+
+CHECKPOINT
+
+• Theexperimental andtheoretical latticeenergies,inkmol-,ofcalciumfluoride,CaF2,andsilver fluoride,AgF,aregivenbelow.
+
+experimentalvalue
+
+theoreticalvalue
+
+CaF2
+
+-2630
+
+-2609
+
+AgF
+
+-958
+
+-920
+
+Suggestwhythereisgood agreementbetweenthetwovaluesforCaF2,but thereisasignificant differencebetween the twovaluesforAgF.
+
+• 2. Anionsinanioniclatticecanbepolarisedbythecationsadjacenttothem.Theextentofpolarisation depends on the nature of both the anion and thecationinvolved.
+
+• (a)Explainwhatismeantbytheterm‘polarised'inthiscontext.
+
+• (b)Statewhethertheoxideion,O²-,orthesulfideion,S²-,ismoreeasilypolarised.
+
+• (c) Place the following cations (with ionic radi shown in parenthesis) in order of increasing polarising power:
+
+Mg2+ (0.072 nm) Al3+(0.053 nm) Lit (0.074 nm)
+
+Na+(0.102nm)Ca2+(0.100nm)K+(0.138nm)
+
+Supportyourconclusionwithsuitablecalculations.
+
+• 3 Suggest why theoxideNa2+O²-doesnotexist.Statewhat furtherenergy change,otherthan those quoted in the data books, you would require in orderto confirm your suggestion.
+
+## Topic 12: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 12B Lattice Energy
+
+SUBJECT VOCABULARY
+
+experimental latticeenergy thelatticeenergy calculated from aBorn-Haber cycle theoretical lattice energy thelattice energy calculated usingtheprinciples ofelectrostatics polarisation the distortion of the electron density of a negative ion(anion)
+
+and
+
+## Topic 12: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 12B Lattice Energy
+
+LEARNING OBJECTIVES
+
+• Define the terms 'enthalpy change of solution, soH', and 'enthalpy change of hydration, hyaH of an ion'.
+
+• Use energy cycles and energy level diagrams to calculate the enthalpy change of solution of an ionic compound using the enthalpy change of hydration and the lattice energy
+
+• Understand the effect of ionic charge and ionic radius on the values of the enthalpy change of hydration and the lattice energy of anioniccompound.
+
+## Topic 12: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 12B Lattice Energy
+
+ENTHALPYCHANGEOFSOLUTION,△SoH
+
+The solubilities of ionic solids in water show a very wide variation, and there is no obvious pattern.
+
+Oneofthefactorsthatdeterminessolubilityisthevalueoftheenthalpychangeofsolution, soH, the enthalpy change when one mole of anionic solid dissolves in water to form an infinitely dilute solution.
+
+The enthalpy change of solutionfor sodium chloride is the energy change associated with the following process:
+
+It is important to specify the extent of dilution of the final solution when quoting a value for the enthalpy change.Upon dilution,theions in the solution move further apart(an endothermic process) andalsobecomemorehydrated(anexothermicprocess).
+
+Therelativeimportanceofthesetwoprocesses(endothermicandexothermic)changeswithdilution, and they affect thevalueofsoHin a complicatedway.For thisreason,thequotedvaluesforsoH refer to aninfinitelydilutesolution.Thisvalue cannot bedetermined experimentally andisfound by aprocessofextrapolation.
+
+In practice, there comes a point when further dilution has no measurable effect on soH. This is known as the point of infinite dilution.
+
+Enthalpy changes of solution canbe either negative or positive, as is shown in table A.
+
+## Topic 12: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 12B Lattice Energy
+
+
+#### ENTHALPYCHANGEOFSOLUTION,△SoH
+| IONICSOLID   | EQUATION                       |   soH/kJmol-1 |
+|--------------|--------------------------------|---------------|
+| NaCl         | NaCI(s) q→ Na*(aq) + Cl-(aq)   |         +11.0 |
+| NaOH         | NaOH(s) → Na*(aq) + OH-(aq)    |         -44.5 |
+| NH4NO3       | NH4NO;(s) →NH(aq) +NO(aq)      |         +25.7 |
+| MgSO4        | MgSO4(s) → Mg2+(aq) + SOz-(aq) |         -91.3 |
+
+## Topic 12: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 12B Lattice Energy
+
+ENTHALPY CHANGE OF HYDRATION, hyaH
+
+The enthalpy change of hydration, hydH, is the enthalpy change when one mole of an ion in its gaseous state is completely hydrated bywaterIn practice,completehydration is said to have occurredwhenthesolutionformedisatinfinitedilution.
+
+For the sodium and chloride ions, the enthalpy change of hydration is the enthalpy change for the following processes:
+
+Na+(g) aq, Na+(aq)
+
+Cl-(g) Cl-(aq)
+
+## Topic 12: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 12B Lattice Energy
+
+EXAM HINT
+
+Whenyouwriteanequationfor the enthalpy change of hydrationofanion,makesure thatyouputthegaseousionon theleft-handside.
+LEARNING TIP
+
+Itisimportanttounderstand whatismeantby'magnitude' here.Avalueforahydration enthalpyof-322issmallerthan avalueof-406.Thenegative signreferstothetypeof enthalpy change;inthiscase,it is an exothermicchange.Less energy is given out if the change is-322than if thechangeis -406.So-322hasa smaller magnitudethan-406.
+
+Inmathematics,thenegative signcouldindicateanegative number,inwhichcase-322 wouldbegreaterthan-406.
+
+Wecanalsodescribethetrend inhydrationenthalpiesby sayingthatthevaluesbecome lessnegative aswego down agroup.
+
+Whenanionisplacedinwateritimmediatelyinteractswiththewatermolecules.Watermolecules showsthehydrationofsodiumandchlorideions.
+
+figAHydrationof sodium andchlorideions.
+
+In the case of the sodium ion,the interaction is the result of the attraction between the 8- oxygen atomofthewatermoleculeandthecation.Suchaninteractionisoftenreferredtoas anion-dipole interaction.Withsomeotherpositiveions,notablythoseofthetransitionmetals,adativecovalent bondisformedbetween thewatermolecule and thecationusingoneofthelonepairsofelectrons on the oxygen atom.
+
+Ion-dipole interactions exist in the hydrated chloride ion,but some hydrogen bonds are alsoformed between the8+hydrogen atoms of the watermolecules and the chloride ion,makinguse of thelone pairs of electrons on the chloride ion (see Topic 7 (Book 1: IAS)).
+
+## Topic 12: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 12B Lattice Energy
+
+
+#### LEARNING TIP
+tableB
+
+| ION   |   IONICRADIUS/nm | EQUATION            |   hydH/kJmol-1 |
+|-------|------------------|---------------------|----------------|
+| Na+   |            0.102 | Na(g) g, Na(aq)     |           -406 |
+| K+    |            0.138 | K+(g) →K*(aq)       |           -322 |
+| Rb+   |            0.149 | Rb+(g) → Rb+(aq)    |           -301 |
+| Mg2+  |            0.072 | Mg2+(g) → Mg2*(aq)  |          -1920 |
+| Ca2+  |            0.100 | Ca2+(g )q, Ca2+(aq) |          -1650 |
+| Sr2+  |            0.113 | Sr2+(g) a→ sr2+(aq) |          -1480 |
+| CI-   |            0.180 | CI-(g) , CI-(aq)    |           -363 |
+| Br-   |            0.195 | Br(g)  Br(aq)       |           -335 |
+|       |            0.215 | I-(g) 1(aq)         |           -293 |
+
+## Topic 12: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 12B Lattice Energy
+
+FACTORSAFFECTINGTHEMAGNITUDEOFTHEHYDRATIONENTHALPY
+
+The first thing you will notice from the values in table B is that hydHis much more negative for 2+ ions thanfor1+ions.Thismakessensebecausewewouldexpect adoublycharged iontohave a stronger interaction with thewater molecules compared to a singly charged ion.That is to say,the electrostaticforceofattractionbetweenadoublychargedionandwatermoleculeswillbegreater thanthatbetweenasinglychargedionandwatermolecules.
+
+As we go down a group (e.g. Na+ to Rb+ or Cl- to I) the magnitude of hydH decreases. This seems to correlatewithanincreaseinionicradius.Thistrend canbeexplainedusinga simpleelectrostatic modelforhydration,similartothatusedtoexplainthevariationinlatticeenergiesforionicsolids (seeSection12B.1).Astheionsbecomelarger,theelectrostaticforceofattractionbetweenthem andthewatermoleculesdecreases,andhencetheenergyreleaseduponhydrationdecreases.
+
+As with lattice energy, there is a strong correlation between hydH andthechargedensitiesoftheions.TableCshowsthisforfour cations.
+
+## Topic 12: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 12B Lattice Energy
+
+
+#### FACTORSAFFECTINGTHEMAGNITUDEOFTHEHYDRATIONENTHALPY
+table C
+
+| CATION   | CHARGEDENSITYOFCATION   |   hyaH/kJ mol-1 |
+|----------|-------------------------|-----------------|
+| Na*      | 1 111 (0.095)2          |            -406 |
+| K+       | 1 =57 (0.133)2          |            -322 |
+| Mg2+     | 2 =556 (0.060)2         |           -1920 |
+| Ca2+     | 2 =204 (0.099)2         |           -1650 |
+
+## Topic 12: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 12B Lattice Energy
+
+
+#### FACTORSAFFECTINGTHEMAGNITUDEOFTHEHYDRATIONENTHALPY
+table C
+
+The greater the charge density of the cation, the more negative the value of hydH.
+RELATIONSHIP BETWEEN soH, hyaHAND LEH
+
+TherelationshipbetweensoH,hydHandLeHisbestshownby an energy level diagram similar to thatofaBorn-Haber cycle as shown in fig B.
+
+• fig BEnergy level diagram for the dissolution of sodium chloride.
+
+Applying Hess's Law:
+
+LEH[NaCl(s)] + △soH[NaCl(s)] = △hydH[Na+(g)] + △hydH[Cl-(g)] soH[NaCl(s)] = -406 + (-363)kJ mol-1 - (-780)kJ mol-1 = +11 kJmol-1
+
+The relationship can also be shown in the form of a Hess cycle (showninquestion3below).
+INTERPRETATION
+
+• Whenpotassiumfluoridedissolvesinwater,thelatticebreaks
+
+• up and thepotassium and fluoride ionsbecome hydrated.
+
+• (a) Draw diagrams to represent (i) a hydrated potassium ion and (i) a hydrated fluorideion.
+
+• (b)Namethetypeofinteractionthatoccursbetweenthewater moleculesandtheionforboththehydratedpotassiumion and thefluorideion.Describehoweachinteractionoccurs.
+
+• 2. These data refertosome of theenergy changesinvolvedwhen magnesiumchloridedissolvesinwater.
+
+Mg2+(g)+ 2CI-(g)→→Mg²+(CI-)2(s)
+
+LeH[Mg2+(CI-)2(s)] = -2526 k] mol-1
+
+hydH[Mg2+(g)] = -1920 k] mol-1
+
+Use thisinformation to calculate theenthalpy changeof hydration of the chloride ion, hyaH[Cl-(g)].
+
+• 3. The diagram below is a Hess cycleforthe dissolving of lithium fluoridein water.
+
+• (a)Completethecyclebyfillingintheemptybox
+
+• (b)Statethenameoftheenergy changerepresentedby△H
+
+• (c)ApplyHess'sLawtoobtainanexpressionforsoHinterms of △H and△H2.
+
+• (d) Calculate△soH[Li+F-(s)], given that △H = -1031 k] mol-1.
+
+• 4. The standard enthalpy change of solutionof sodiumfluoride is +0.3 kJ mol-1.
+
+• Asampleofsodiumfluorideofmass1gis addedto250cm3of waterinabeakerandstirredwithathermometergraduatedin intervalsof1°℃.
+
+Explainwhatislikelytohappentothereadingonthethermometer as the sodium fluoride dissolves.No calculation is necessary.
+
+## Topic 12: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 12B Lattice Energy
+
+SUBJECT VOCABULARY
+
+enthalpychangeofsolution,soHtheenthalpychangewhenone moleofanionicsoliddissolvesinwatertoformaninfinitelydilute solution
+
+infinitelydilutesolutionasolutioninwhichthereissomuchwater that adding any more does not cause a further enthalpy change enthalpychangeofhydration,hydHistheenthalpychangewhen onemoleof anioninitsgaseousstateiscompletelyhydratedbywater ion-dipoleinteractionthe attractioninaqueoussolutionbetween ionsandpolarwatermolecules
+
+## Topic 12: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### Topic 12: Entropy and Energetics
+
+HYDROGENREVOLUTION
+
+Like many car manufacturers, Toyota hopes to become a leader in the next generation of hydrogen-powered cars. Toyota calls its Mirai fuel cell car'...the nearest thing yet to an ultimate eco-car.Thefollowing extractfrom the car manufacturer's blogexplainshow theywork.
+HOWDOESTOYOTA'SFUELCELLVEHICLEWORK?
+
+figATheToyotaMiraifuel cellcarwon theWorldGreenCarAward in 2016.
+
+Onsalesince2015,theToyotaMiraihasbeendescribedasthenearest thingyetto theultimate eco-car, andakey stepinfinding asolutionto energy demands and emissionsissues associatedwith traditional petrol and diesel engines.
+
+ButToyota'snewfuelcellvehicleismuchmorethantherealisationof cutting-edge science theory.
+Howdofuel cell vehiclesactuallywork?
+
+Afuelcellconvertsfuelintoelectricitybyforcingittoreactwith oxygen.
+
+Hydrogenis the most commonfuel used in today'sfuel cells,but almost any hydrocarbon, including gas and alcohol, can be used.Fuel cells require aconstantsupplyoffueland oxygentosustaintheelectricity-generating reaction.
+
+It'sworthpointingout that theidea offuel cellsis nothing new;in fact,thefirst examples were designed in the mid-1800s.However,it tookmore than100yearsfortheideatogetofftheground-literally, asNASAadaptedtheirusefortheApolloMoonproject.
+
+This environmentallyfriendly and highly energy-efficient process of generatingelectricityinafuelcell producesnotailpipeemissions,but lotsofpurewaterinstead-greatnewsifyou arerunningoneinside aspaceship.BackonEarththesamequalitiesmakefuel cellvehicles ideal for achieving sustainable mobility,which is whyToyota has been tryingtomakethistechnologywidely available assoonaspossible.
+
+polymerelectrolyte
+
+figBHow a fuel cellmakeselectricity.
+Fuel cell
+
+Thefuelcellgenerateselectricitythroughachemicalreactionbetween hydrogen and oxygen.This is achieved by supplying hydrogen to the negativeanodeofthefuelcell and ambient airtothepositivecathode.
+
+Afuelcellconsistsofindividualcellswithinamembraneelectrode assembly(MEA)sandwichedbetween separators.TheMEA consists ofapolymerelectrolytemembranewithpositiveandnegativecatalyst layers oneither side.Eachcellyieldsless than onevolt of electricity,so several hundredcells are connectedinseries toincrease thevoltage.This combinedbodyof cellsis called astack,whichis commonlyreferred to as a fuel cell unit.
+
+Thoughitispossibletouseotherelementsinafuel cell,the advantage ofhydrogenisitshighenergyefficiency.Sinceelectricitycanbe produced directlyfromhydrogen without combustion,it is possible to convert83%oftheenergywithinahydrogenmoleculeintoelectricity. Thisismorethandoubletheenergyefficiencyofapetrol-powered engine.
+High-pressurehydrogen tank
+
+Hydrogenis stored in twohigh-pressure(70MPa)tanks.The innermostlayerfeatures apolyamideresinlinerthathashighstrength andsuperbresistancetohydrogenpermeation.Thisisnecessary becausethediameterofthehydrogenmoleculeisthesmallestknown toscience,and they tendtoescape throughinferiormaterials.
+
+That understood, it is now necessary to explain the functions of the twoprimarycomponentsusedinafuelcellvehicle.
+
+Furtheruseofoptimalmaterialshasincreased tankcapacity (historically,mostFCVshaveneededfourseparatetankstoimprove capacity,and thereforecruisingrange)andreducedweight.This can beseen in the winding angle,tension,volume andwall thickness of the carbonfibreusedintheoutershell.
+
+SCIENCE COMMUNICATION
+
+• 1Write a list of any advantages and disadvantages of fuel cell vehicles that are mentioned in the blog post. Do you think that the post provides a balanced viewpoint of the tecUology?Justify youranswer.
+CHEMISTRY IN DETAIL
+
+• 2 (a) Write a balanced chemical equation for the reaction between hydrogen and oxygen to produce water.
+
+• (b)Explain why the volumes of hydrogen to oxygen must be in the ratio of 2: 1 to ensure complete combustion.
+
+• (c) The enthalpy of combustion of one mole of hydrogen to produce water is -286 k] mol-1 under standard conditions. The extract says that "83% of this energy can be converted into electricity" in a fuel cell. Calculate the energy converted to electricity by 50 dm3 of hydrogen (measured at standard temperature and pressure) using the enthalpy of combustion value given.
+
+• 3Use the data in the table below to answer this question.
+
+• (a)Write down the balanced equation for the reaction of hydrogen with oxygen in a fuel cell and calculate thecell emf.
+
+## Topic 12: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### Topic 12: Entropy and Energetics
+
+
+#### CHEMISTRY IN DETAIL
+| HALF-EQUATION   |   STANDARDELECTRODEPOTENTIAL/V |
+|-----------------|--------------------------------|
+| H++e=H2         |                           0.00 |
+| O2+2H++2e=H2O   |                          +1.23 |
+
+## Topic 12: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### Topic 12: Entropy and Energetics
+
+
+#### CHEMISTRY IN DETAIL
+The total entropy change,△Stotal, canbecalculated from theexpression:
+
+whereTisthetemperatureinK.
+
+• (b)Calculate the total entropy change for the reaction in the fuel cell. You can assume that F=96500CandT=298K.
+
+• (c)What does the sign for the total entropy change tell you about the reaction?
+
+• 4State two challenges that manufacturers of fuel cell vehicles may face.
+ACTIVITY
+
+The concept of total entropy, △Stotal, is a central one in chemistry and links a number of topics in the syllabus:
+
+• Stotal nFE T
+
+• ·△Stotal = RlnK
+
+• Stotal = Ssystem △H T
+
+Choose one of the three equations above and give a short (5-8 slides) presentation on the also point out the limitations of using the equation in making predictions about chemical reactions.
+
+INTERPRETATIONNOTE
+
+Alwaysrememberto consider thesourcewhen you read scientific writing. Doesthe authorhavean interest in presenting a particular viewpoint?
+
+WRITING SCIENTIFICALLY
+
+If theword'explain' is used in a question,your answerneedstoinclude a justification. This could involvereasoning or a mathematicalexplanation.
+DID YOU KNOW?
+
+Althoughpredictedasearly as1935,the creationofthe metallicstateofhydrogen wasfinallyreported in2011. ScientistsattheMaxPlanck InstituteinGermanyreported that thisform of hydrogen hadfinallybeenmadeat a pressure of 260billion Pa. Metallichydrogenhelps explain, among other things, the strong magneticfield generated bythe'gasgiant' Jupiter,which,unlikeEarth, has no iron core.
+
+## Topic 12: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### Topic 12: Entropy and Energetics
+
+12 EXAMPRACTICE
+
+• 1The table shows the ionic radi and charges for six different ions.
+
+## Topic 12: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### Topic 12: Entropy and Energetics
+
+
+#### 12 EXAMPRACTICE
+| Ion              |   J+ |   L+ |   M2+ |   X- |   Y- |   Z2- |
+|------------------|------|------|-------|------|------|-------|
+| Ionic radius /nm | 0.14 | 0.18 |  0.15 | 0.14 | 0.18 |  0.15 |
+
+## Topic 12: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### Topic 12: Entropy and Energetics
+
+
+#### 12 EXAMPRACTICE
+TheionicsolidsJX,LYandMZhave thesamelatticestructure. What is the order of magnitude of theirlattice energies,giving themostexothermicfirst?
+
+• AJX>LY>MZ
+
+• B JX>MZ>LY
+
+• C MZ>JX>LY
+
+• D MZ>LY>JX
+
+[1]
+(TotalforQuestion 1=1mark)
+
+• 2The table shows the lattice energies of rubidium fluoride, RbF, and caesium chloride,CsCl.
+
+• 3WhydocalciumandchlorinereacttogethertoformCaCl2(s) rather than CaCl(s)?
+
+• A Less energy is required to remove one electron from the calciumatomthantoremovetwoelectrons.
+
+• BMore energyisreleasedinforming chlorideionsfrom chlorine molecules in theformation of CaClz(s) thanin the formation of CaCl(s).
+
+• C The lattice energy of CaCl(s) is less exothermic than the lattice energy of CaCl2(s).
+
+• D When CaCl(s) is formed from its elements, more energy is released than when CaClz(s) is formed from its elements. [1]
+
+## Topic 12: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### Topic 12: Entropy and Energetics
+
+
+#### (TotalforQuestion 1=1mark)
+| COMPOUND              |   LATTICEENERGY/kJ mol-1 |
+|-----------------------|--------------------------|
+| rubidium fuoride,RbF  |                     -783 |
+| caesium chloride,CsCl |                     -661 |
+
+## Topic 12: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### Topic 12: Entropy and Energetics
+
+
+#### (TotalforQuestion 1=1mark)
+Which is most likely to be the lattice energy of caesium fluoride?
+
+• A -647 kJmol-1
+
+• B -747kJmol-1
+
+• C -847 kJmol-1
+
+• D -947kJmol-1
+
+[1]
+(Total for Question 3 = 1 mark)
+
+• 4Howdoes the entropy of the system changewhen ammonium nitratecrystalsdissolveinwater?
+
+• AIt remains the same.
+
+• BIt decreases,because thehydratedions aremoreorderedin the solution than they are in the crystal.
+
+• CIt increases,because theionsin the crystalbecome hydrated in the solution.
+
+• D It increases, because the ions are arranged more randomly in the solution than they are in the crystal. [1]
+
+• (Total for Question 4 = 1 mark)
+
+• 5Whichstatementistruefortheexothermicreaction Zn(s) + 2HCl(aq) → ZnCl2(aq) + H2(g)
+
+• A△Hispositive
+
+• B △Ssuroundings is positive
+
+• D △Stotal is negative
+
+[1]
+
+(Total for Question 5 = 1 mark)
+
+• 6Calcium carbonate decomposes in an endothermic reaction when heated to 1113K.
+
+What are the signs of the entropy changes at 1113 K?
+
+## Topic 12: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### Topic 12: Entropy and Energetics
+
+
+#### (Total for Question 5 = 1 mark)
+|    | Ssystem   | Ssurroundings                  |
+|----|-----------|--------------------------------|
+| A  |           |                                |
+| B  |           |                                |
+| C  |           |                                |
+| D  |           | [1]                            |
+|    |           | (Total for Question 6 =1 mark) |
+
+## Topic 12: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### Topic 12: Entropy and Energetics
+
+
+#### (Total for Question 5 = 1 mark)
+• 7 The Born-Haber cycle shown below can be used to calculate the lattice energy for magnesium oxide.
+
+• (a)Give the name of each of the enthalpy changes labelled H, △H and △H3.
+
+[3]
+
+• (b)Writethemissingformulaefrom thetopof theBorn-Haber cycle. Include state symbols. [2]
+
+• C Ssystem is negative
+
+• (c)The equations for the first and second electron affinities of oxygen are:
+
+O(g) + e= O-(g) 1st EA=-141kJmol-1 O-(g) +e-= O²-(g) 2nd EA =+798kJmol-1
+
+Suggest why the second electron affinity of oxygen is endothermic.
+
+[2]
+
+• (d)Use thedataintheBorn-Habercycletocalculatethe lattice energy of magnesium oxide.
+
+[2]
+(Total for Question 7 = 9 marks)
+
+• 8Latticeenergiescanbefoundeitherviaexperimentallydetermined energy changes,using theBorn-Haber cycle,orby theoretical calculation using the ionic model for the crystalline compound.
+
+• (i)Use the data to show that magnesium carbonate is stable at 298K.
+
+## Topic 12: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### Topic 12: Entropy and Energetics
+
+
+#### (Total for Question 7 = 9 marks)
+| Substance    |   MgCO;(s) |   MgO(s) |   CO2(g) |
+|--------------|------------|----------|----------|
+| S/JK-1 mol-1 |       65.7 |     27.0 |    214.0 |
+
+## Topic 12: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### Topic 12: Entropy and Energetics
+
+
+#### (Total for Question 7 = 9 marks)
+[4]
+
+• (i)Calculate the minimum temperature at which magnesium carbonate will decompose.
+
+[2]
+(Total for Question 9 = 10 marks)
+
+• 10(a)The equation for the combustion of hydrogen is: (1)O²H←(B)O + (B)H The table gives the standard entropies at 298K for H2(g),
+
+△H°=-285.5kJmol-1 O2(g) and H,O(l).
+
+• (a)Statetheenergy changes thatneed tobedeterminedin order tofind the lattice energy of sodiumfluoride,using theBorn-Habercycle [4]
+
+• (b)Thetableliststheexperimentallydetermined and theoretically calculated lattice energies for some compounds.
+
+## Topic 12: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### Topic 12: Entropy and Energetics
+
+
+#### (Total for Question 9 = 10 marks)
+| Compound                    |   NaF |   NaI |   AgF |   Agl |
+|-----------------------------|-------|-------|-------|-------|
+| Experimental value/kJ mol-1 |  -918 |  -705 |  -958 |   889 |
+| Theoreticalvalue/kJmol-1    |  -912 |  -687 |  -920 |  -778 |
+
+## Topic 12: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### Topic 12: Entropy and Energetics
+
+
+#### (Total for Question 9 = 10 marks)
+Comment on the discrepanciesbetween theexperimental and theoretical values of the lattice energies. [4]
+
+• (c)The enthalpy changes of hydration, in kJ mol-1, of the ions in the compounds listed in the table in part (b) are:
+
+Na+-406
+
+6Ag+-464F--506
+
+I-293
+
+• (i)Using the experimental lattice energy values, show by calculationwhichofthefourcompoundsisthemost soluble. [2]
+
+• (ii)Explain what other information is necessary in order to make a valid comparison of the solubilities of the four compounds.
+
+[2]
+(Total for Question 8 = 12 marks)
+
+• 9 9Entropy changes areimportant in determining the feasibility of a process.
+
+• (a)For each of the four processes below, predict the likely sign of the entropy change of the system, Ssystem In each case,justifyyour answer. [4]
+
+• (i)N2(g) +3H2(g)→ 2NH(g)
+
+• (i)H2O(s)→H2O(l)
+
+• (ii)2Na(s) + O2(g)→Na2O2(s)
+
+• (iv) S(s) + O2(g) → 2SO2(g)
+
+• (b) Magnesium oxide is used as a refractory lining for furnaces.
+
+• It can be made by heating magnesium carbonate. ）△H°=+117kJmol-1
+
+Thetableshowsthestandardentropiesat298Kof
+
+MgCO3(s) → MgO(s) + CO2(g) MgCO(s), MgO(s) and CO2(g).
+
+## Topic 12: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### Topic 12: Entropy and Energetics
+
+
+#### (Total for Question 8 = 12 marks)
+| Substance   |   H(g) |   O2(g) |   H,O(l) |
+|-------------|--------|---------|----------|
+| S/JK-1mol-1 |  131.0 |   205.0 |     69.9 |
+
+## Topic 12: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### Topic 12: Entropy and Energetics
+
+
+#### (Total for Question 8 = 12 marks)
+• Calculatethestandardentropychangeofthe of hydrogen.
+
+• (ii) Calculate thestandard entropy change of the surroundings at 298 K, Ssuroundings for the combustion of hydrogen.
+
+[2]
+
+• (ii Calculatethetotalstandardentropychange at 298K,△Stotal,for the combustion of onemole of hydrogen. Give your answer to an appropriate number ofsignificantfigures.
+
+[3]
+
+• (b)E Explain why hydrogen does not react with oxygen unless the mixture is ignited. [1]
+(TotalforQuestion10=8marks)
+
+• 11 Ammonia can be made by reacting together nitrogen and hydrogen. The reaction is reversible.
+
+-0I-= (00) H'V (3)HN =(3)H +()N Stotal (700 K) = -78.7 JK-1 mol-1
+
+• (a)The°symbol represents standard conditions of a specifiedtemperature andstandardpressure.In this instance,thetemperature specified is700K.State the standard pressureforthermodynamicmeasurements.[1]
+
+• (b) Calculate △S suroundings (700 K).
+
+• [2]
+
+• (c) Calculate △S system (700 K). [2]
+
+• (d) If the reactionmixture is left forlongenough,in contact withasuitablecatalyst,itispossibletoestablish an equilibrium between the nitrogen, hydrogen and the ammonia.
+
+Comment on what the value of △Stotal (7o0 K) indicates about the relative proportions of nitrogen,hydrogen and ammonia in the equilibrium mixture at 700 K. [1]
+
+## Topic 13: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### Topic 13: Chemical Equilibria
+
+A CHEMICALEQUILIBRIA
+
+Wheneverchemical engineers design a chemical planttomanufacture a newchemical they must overcome a problem.Theywantthebestpossibleyieldfromthereactants,buttheyfind that mostchemical reactions do not go to completion because they are reversible and can reach a state of dynamic equilibrium.
+
+All reactions have a tendency to approach equilibrium, whether they seem to go to completion or whether
+
+Reactions that don't seem to take place at all, like the corrosion of gold in air, also tend to approach equilibrium, but in these cases the equilibrium composition corresponds to virtually unchanged reactants.
+
+Many reactions approach an equilibrium in which there are significant amounts of both reactants and products present. Finding and controlling the position of equilibrium in such reactions is the focus of this topic.
+MATHS SKILLS FOR THIS TOPIC
+
+• .Recognise and make use of appropriate units in calculations
+
+• Recognise and use expressionsindecimalandordinaryform
+
+• Useratios,fractionsandpercentages
+
+• Use an appropriatenumberofsignificantfigures
+
+• Changethesubjectofanequation
+
+• Substitute numerical values into algebraic equations using appropriate units for physical quantities
+
+• Solve algebraic expressions
+
+• Uselogarithmsinrelation toquantities thatrangeoverseveral ordersofmagnitude
+
+WhatpriorknowledgedoI need?
+
+• Deducing expressionsfor K.forboth homogeneous and heterogeneoussystems
+
+Topic9(Book1:IAS)
+
+• Theconceptofreversiblereactionsanddynamic equilibrium
+
+• Thequalitativeeffectofchangeinconcentration, temperatureandpressureonthepositionof equilibrium
+Whatwill I studyin this topic?
+
+• HowtodeduceanexpressionforK,for homogeneous and heterogeneous systems, in termsofequilibriumconcentrations
+
+• Howtodeduceanexpressionfortheequilibrium constant, K, in terms of partial pressures
+
+• Thequantitativeeffectofchangeinconcentration
+
+• Howtopredicttheeffectofchangeintemperature on the values of K. and K,
+
+• Howtopredicttheeffectofachangein temperatureonthepositionofequilibriumin termsofchangestoK.andKp
+
+• Whythevalueofanequilibriumconstantisnot alteredbytheadditionofacatalyst
+
+## Topic 13: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 13A Chemical Equilibria
+
+LEARNING OBJECTIVES
+
+• Be able to deduce an expression for Ke, for homogeneous and heterogeneous systems, in terms of equilibrium concentrations.
+
+• Be able to calculate a value, with units where appropriate, for the equilibrium constant K. for homogeneous and heterogeneousreactions,fromexperimental data.
+
+## Topic 13: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 13A Chemical Equilibria
+
+HOMOGENEOUSREACTIONS
+
+A homogeneous reaction is one in which all reactants and products are in the same phase.For example, all are gases or all are in aqueous solution.
+
+whentheconditionsarealtered.
+
+In this section, we will study quantitatively how changes in concentration affect the equilibrium position.
+
+For thereversiblereaction:
+
+it canbeshown experimentally that atequilibrium and at agiven temperature:
+
+This value is called the equilibrium constant and is given the symbol Ke.
+
+Thesubscript'c'indicates thatthisequilibriumconstantis calculated usingconcentrations.Thisis to distinguish it from another equilibrium constant,Kp,which uses partial pressures.
+
+The subscript'eq'indicates that the concentrations are those at equilibrium.
+
+Atagiventemperature,thevalueoftheequilibriumconstantdoesnotchangewithconcentration, unlike the equilibrium position.Theonlyfactor that affects thevalue of theequilibrium constant is temperature.
+
+There aretwowaysofobtainingavaluefortheequilibriumconstant:
+
+• ·thefirst is by experimentation, and this is the method wewilllook at in this section
+
+• ·the second is by calculation using thermodymnamic equations, and this will be covered inSection 13A.5.
+
+Forageneralreaction:
+
+For convenience,the‘eq'sign is often not included,but is taken for granted.
+DETERMINATIONOFTHEEQUILIBRIUMCONSTANT
+
+Todeterminethevalueoftheequilibriumconstantforareaction,knownamountsofreactantsare allowedtoreachequilibriumwiththeirproducts.Atequilibrium,theamountofoneofthesubstances ismeasuredandtheamountsoftheotherscanbecalculatedusingthestoichiometryoftheequation.
+
+## Topic 13: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 13A Chemical Equilibria
+
+WORKEDEXAMPLE1
+
+2.00molofethanoicacidand2.00molofethanolaremixedand allowedtoreachequilibriumwith ethyl ethanoate andwater at 298K.The amount of ethanoic acid at equilibrium is found tobe 0.67mol. CalculateK.forthereactionat298K.
+
+## Topic 13: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 13A Chemical Equilibria
+
+Answer
+
+Work out the amounts,and hence the concentrations,of each substance atequilibrium:
+
+CHCOOH(I)+CHCHOH(I)=CHCOOCHCH;(I)+H2O(I)
+
+amountatstart/mol
+
+2.00
+
+0
+
+amount at equilibrium/mol
+
+0.67
+
+(2.00 - 0.67)
+
+=1.33
+
+concentration at equilibrium/mol dm-3
+
+0.67 0.67 1.33 1.33 V V V V
+
+whereVisthetotalvolumeindm3ofthereactionmixture.
+
+[CHCOOCHCH(1)][H2O(1)] (1.33/M(1.33/V) [CHCOOH()][CHCH2OH(I)] (0.67/M)(0.67/M)
+
+= 3.94 (no units)
+
+Khasnounitsbecause thesamenumberofmolesarepresentoneachsideof theequation.Forthe samereason,Valso cancels.
+
+## Topic 13: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 13A Chemical Equilibria
+
+WORKEDEXAMPLE2
+
+0.100 mol of N2O4 is placed into a 0.100 dm3flask and allowed to reach equilibrium with NO2 at 398K. Atequilibrium,there is0.071mol ofNO4.CalculateKatthistemperature.
+
+Answer
+
+N2O4(g)
+
+2NO2(g)
+
+1
+
+0.100
+
+0
+
+amountatstart/mol
+
+0.071
+
+(0.100 - 0.071) × 2
+
+amountat
+
+equilibrium/mol
+
+=0.058
+
+0.071/0.100
+
+0.058/0.100
+
+concentrationat equilibrium/mol dm-3
+
+= 0.71
+
+=0.58
+
+[NO2(g)]2 0.582 0.474moldm-3 [N204(g] 0.71
+
+Note: this time, K has units of mol dm-3
+
+mol dm-3 × mol dm-3
+
+=mol dm-3
+
+mol dm-3
+
+## Topic 13: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 13A Chemical Equilibria
+
+HETEROGENEOUSREACTIONS
+
+A heterogeneousreaction is one in which at least one of the reactants and/or products is in a differentphasetotheothers.
+
+Examplesinclude:
+
+CaCO3(s) = CaO(s) + CO2(g)
+
+3Fe(s)+ 4H2O(g) =FeO4(s) + 4H2(g)
+
+H2O(l) = H+(aq) + OH-(aq)
+
+WRITINGEQUILIBRIUMCONSTANTSFORHETEROGENEOUSREACTIONS
+
+If we apply the equilibrium law to the reaction:
+
+we obtain:
+
+## Topic 13: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 13A Chemical Equilibria
+
+DID YOU KNOW?
+
+The concentrationtermof a solid ina heterogeneous equilibriumisconstant.Itcan thereforebeabsorbedintothe equilibrium constant.
+
+SKILLS
+
+ADAPTIVELEARNING
+
+## Topic 13: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 13A Chemical Equilibria
+
+EXAM HINT
+
+Inquestion2,theamountof acidatequilibriumcanbe quantifiedbytitration.You mightexpecttheequilibriumto shifttotheleftastheacidis neutralised.However,therate ofthisreactionisveryslow (notethatthereactionisleftfor severaldays).Thismeansthat theamountofacidcanbe quantifiedbeforethe equilibrium has had time to respond.
+
+## Topic 13: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 13A Chemical Equilibria
+
+SUBJECT VOCABULARY
+
+homogeneousreactiona reactioninwhichallthe reactantsandproductsarein thesamephase
+
+equilibriumconstantanumber thatexpressestherelationship betweentheamountsof productsandreactantspresent atequilibriuminareversible chemicalreactionatagiven temperature
+
+## Topic 13: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 13A Chemical Equilibria
+
+heterogeneousreactiona
+
+reactioninwhichatleastoneof thereactantsand/orproductsis inadifferentphasetotheothers However, the concentration of a solid at a given temperature is determined byits density,which has a constant value. Hence, the expression can be simplified to:
+
+[CO2(g)] = a constant
+
+This constant is given the symbol Kc.
+
+So, K = [CO2(g)] for the above equilibrium.
+
+Similarly,fortheequilibrium:
+
+3Fe(s) + 4H2O(g) = FeO4(s) + 4H2(g)
+
+[H2(g)]4
+
+• K= [H2O(g)]4
+
+## Topic 13: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 13A Chemical Equilibria
+
+CHECKPOINT
+
+• 1. A dynamicequilibriumissetupbetweencarbonmonoxide,hydrogenandmethanol.Theequation for the reaction is:
+
+CO(g)+2H2(g) = CHsOH(g)
+
+Theequilibriumconcentrations,inmol dm-3,forthethreecomponents areshownbelow: CO(g), 3.1 ×10-3;H2(g), 2.4 ×10-2;CH;OH(g), 2.6 ×10-5
+
+• (a)WriteanexpressionforKforthisreaction.
+
+• (b)Calculate a value forK.State theunits,if any.
+
+• 2.Thereactionbetweenethanoicacidandethanolisreversible.Theequationforthereactionis: CHCOOH(I)+CHCH2OH(I)=CHCOOCHCH(I)+H2O(1)
+
+6.0molofethanoicacidand12.5molofethanolaremixedtogetherwithsomesulfuricacidtoactas acatalyst.ThetotalvolumeofthereactionmixtureisVdm3.Themixtureisleftforseveraldaysto reachequilibrium,afterwhichonly1.0molofethanoicacidremains.
+
+• (a)WriteanexpressionforKcforthereaction.
+
+• (c)Useyouranswerstopart(b)tocalculateavalueforKc.Giveyouranswertoanappropriate numberof significantfiguresandstate theunits,if any.
+
+• 3.Thereactionbetween hydrogen and iodine toform hydrogen iodide is reversible. H2(g)+I2(g)=2HI(g)
+
+• 0.30molofH2(g)ismixedwith0.20molofl2(g)andthemixtureisallowedtoreachequilibrium.At equilibrium,0.14molofH2(g)ispresent.
+
+• Calculate thevalue of Kforthereaction.Giveyour answer to an appropriate number of significant figures andstate the units,if any.
+
+• 4 N2(g)+O2(g)=2NO(g) △Hispositive
+
+The equilibrium constant at 289 K for this reaction is 4.8 × 10-31.
+
+• (a)Whatdoesthevalueof theequilibriumconstant tellyou about thepositionof equilibriumof this reactionat298K?
+
+#### CHECKPOINT
+• (b)An equilibrium mixture of volume 1.2 dm²of the threegases contains 1.1 mol of N2(g) and 4.0x 10-16 mol of NO(g).Calculate the equilibrium concentration of O2(g) in this mixture.
+
+• 5. Theequilibriumconstant,K,forthereaction:
+
+H2O(g)+C(s)=H2(g)+CO(g)
+
+has a value of4.92×10-5mol dm-3at700K.
+
+Amixtureofwatervapourandcarbonisheatedto7o0Kinaclosedvesselandallowedtoreach equilibriumwithhydrogenandcarbonmonoxide.
+
+Write an expression for K. and use it to calculate the equilibrium concentrations of H2 and CO in the aboveequilibriummixture,at700K,whentheequilibriumconcentrationofH2Ois2.00×10-2mol dm-3.
+
+## Topic 13: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 13A Chemical Equilibria
+
+LEARNING OBJECTIVES
+
+• Be able to deduce an expression for K, for homogeneous andheterogeneoussystemsintermsofequilibriumpartial pressuresin atm.
+
+• Beabletocalculateavalue,withunitswhereappropriate, for the equilibrium constant K,for homogeneous and heterogeneousreactionsfromexperimental data.
+
+## Topic 13: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 13A Chemical Equilibria
+
+HOMOGENEOUSREACTIONS
+
+For reversiblereactions involvinggases we can express the concentrationsofthereactants andproductsintermsoftheir partial pressures. The partial pressure of an individual gas in a mixture of gases is defined as the pressure that the gas would exertifitaloneoccupiedthevolumeofthemixture.Thetotal pressure of the mixture is then equal to the sum of the partial pressures of all the gases present in the mixture.
+
+If we have a mixture of two gases,A and B, then the total pressure,p,ofthemixtureisrelatedtothepartialpressures of A and B by the following equation:
+
+For the general reaction:
+
+Answer
+
+PCIs(g) = PCl;(g) + Cl2(g) Total
+
+1.00
+
+0
+
+1.00
+
+amountatstart/mol
+
+1.00 -0.60
+
+0.60
+
+1.60
+
+amountat equilibrium/mol
+
+0.40
+
+0.60
+
+molefractionat equilibrium
+
+1.60
+
+0.25×6
+
+0.375×60.375×6
+
+partial pressure/atm
+
+)(d(d)) (0.375 × 6)(0.375 × 6)_ =3.38atm (Ddd)) (0.25 × 6)
+
+## Topic 13: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 13A Chemical Equilibria
+
+EXAM HINT
+
+Note that you must use(p)forpartial pressures.Do not use square brackets,which areforsubstancesmeasured inmol dm-3.
+
+## Topic 13: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 13A Chemical Equilibria
+
+SOLIDSANDGASES
+
+we can define another equilibrium constant,K,in terms of partial pressures:
+CALCULATINGPARTIALPRESSURES
+
+The partial pressure of an individual gas in a mixture of gases is calculated by multiplying its mole fraction by the total pressure, for example:
+
+where xA = the mole fraction of gas A in the mixture.
+
+Forsolidsthat areinequilibriumwithgases,thepartialpressure terms of any solids are not included in the expression for Kp. You will recall thatKhasa similarrule.
+
+Consider thereaction:
+
+The equilibrium constant in terms of partial pressures is given by:
+
+This equation suggests thatfora particular temperature,the pressure of carbon dioxide in the equilibrium mixture is constant regardless of themasses of calcium carbonate and calcium oxide present. This prediction can be confirmed experimentally.
+
+At 1073K, the pressure of carbon dioxide in equilibrium with CaCO(s) and CaO(s) is 0.25 atm.
+
+Hence, at 1073 K, Kp = 0.25 atm.
+
+For this reaction, K, increases with increasing temperature. It onlyexceeds1atm attemperatures above1173K.So,calcium carbonatemust beheatedto thistemperatureforit to decompose at 1 atm ofpressure.
+
+## Topic 13: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 13A Chemical Equilibria
+
+WORKED EXAMPLE
+
+1.00mol ofPClsvapourisheatedto500K inasealedvessel.The equilibriummixture,atapressureof6atm,contains0.60molof chlorine.CalculateK,for thereaction:
+
+## Topic 13: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 13A Chemical Equilibria
+
+DID YOU KNOW?
+
+Asimilarsituationexistsforliquidsthatareinequilibriumwithgases.Fortheequilibriumbetween liquidwaterandwatervapour:
+
+H20() =H20(g)
+
+K = PH20(g)
+
+pressure'of water.
+
+At 298 K, K, and hence Pho, is equal to 0.03 atm; whereas at 373 K, K, and hence Pho, is equal to 1.00 atm.
+
+Since theboiling temperature of a liquid isdefined as the temperature at which the saturatedvapour pressure equals the external pressure, the boiling temperature of water at 1 atm is 373K(100 °℃).
+
+## Topic 13: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 13A Chemical Equilibria
+
+CHECKPOINT
+
+• 1. Onestageinthemanufactureofsulfuricacidbythecontactprocessinvolvesthereactionbetween sulfurdioxideandoxygentoformsulfurtrioxide:
+
+• (a)WriteanexpressionforK,forthisreaction.
+
+• (b) An equilibrium is set up for this reaction at 700 K.
+
+Atthistemperature:
+
+• thepartialpressureofSO2is 0.100atm
+
+• thepartialpressureofO2is 0.500 atm
+
+• K,for thereaction is3.00x104 atm-1
+
+Calculate thepartial pressure of SOinthis equilibrium mixture andhence determine the percentageofSOpresent.
+
+• Thereactionbetweencarbonmonoxideandchlorinetoformphosgene,CoCl2,isreversible.The equationforthereactionis:
+
+Somecarbonmonoxideandchlorineareallowedtoreactandreachapositionofequilibrium.The equilibriumpartialpressuresofthemixtureare:
+
+CO(g), 2.47 × 10-8 atm; Cl2(g), 2.47 × 10-8 atm; COCl2(g), 4.08 × 10-10 atm
+
+• (a)Whatismeantbytheterm'partialpressure'?
+
+• (b) Write an expressionforK,for this reaction and calculate its value,giving the units, if any.
+
+• 3.When chlorine gas is heated to a high temperature,the molecules dissociate into chlorine atoms.
+
+Some chlorine gas is placed in a closed container and heated to1400K until equilibrium is established. ThepartialpressureofCl2(g)is0.84atmand thatofCl(g)is0.030atm.
+
+• (a)DeterminethemolefractionofClintheequilibriummixture.
+
+• (b)(i)Write anexpressionforK,forthisreaction.
+
+• (i)Calculate the value of K, for this reaction at 700 K. Give the units, if any.
+
+## Topic 13: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 13A Chemical Equilibria
+
+SUBJECT VOCABULARY
+
+partial pressure(ofagasinamixtureofgases) thepressure that thegaswould exert if it alone occupied thevolumeofthemixture
+
+## Topic 13: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 13A Chemical Equilibria
+
+LEARNING OBJECTIVES
+
+• Know the effect of changing the temperature on the equilibrium constant (K. and K,) for both exothermic and endothermic reactions.
+
+• Understand that the effect of temperature on the position of equilibrium is explained using a change in the value of the equilibriumconstant.
+
+## Topic 13: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 13A Chemical Equilibria
+
+EFFECTOFTEMPERATUREONK,ANDKc
+
+Inthissectionwewilldiscusstheeffectsoftemperatureonequilibriumconstants.TableAgivesthe values of the equilibrium constant,Kp, at different temperatures for two gaseous reactions.
+
+N(g) + 3H2(g) = 2NH(g); △H =-92.2 kJ mol-1
+
+N2O4(g) =2NO2(g); △He =+57.2 kJ mol-1
+
+## Topic 13: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 13A Chemical Equilibria
+
+
+#### EFFECTOFTEMPERATUREONK,ANDKc
+|   T/K | Kp/atm-2    |   T/K | Kp/atm      |
+|-------|-------------|-------|-------------|
+|   298 | 6.76 × 105  |   298 | 1.15 × 10-1 |
+|   400 | 4.07 × 101  |   400 | 4.79 × 101  |
+|   500 | 3.55×10-2   |   500 | 1.70 ×103   |
+|   600 | 1.66 × 10-3 |   600 | 1.78 × 104  |
+
+## Topic 13: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 13A Chemical Equilibria
+
+tableA
+
+For the exothermicreactionbetween N2(g),H2(g)and NH(g),the value ofK,decreases with increasing temperature.
+
+The opposite is trueforthe endothermicreaction betweenNzO4(g)andNO2(g).
+
+Exactly thesame trend is observed with thevalues ofKc.
+
+## Topic 13: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 13A Chemical Equilibria
+
+
+#### tableA
+TableB summarises the effect of changing the temperature on the value of the equilibrium constant.
+
+| THERMICITYOFREACTION   | INCREASEINTEMPERATURE   | DECREASEINTEMPERATURE   |
+|------------------------|-------------------------|-------------------------|
+| exothermic             | Kdecreases              | Kincreases              |
+| endothermic            | Kincreases              | Kdecreases              |
+
+## Topic 13: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 13A Chemical Equilibria
+
+
+#### tableA
+TableB summarises the effect of changing the temperature on the value of the equilibrium constant.
+
+tableB
+CHANGEINTEMPERATUREALTERSTHEEQUILIBRIUMPOSITION
+
+Iftheequilibriumconstantforareactionchangeswithachangeintemperature,thenitfollowsthat the equilibrium position also changes. This is illustrated by the data in table C, which shows the value of K.and the amounts of reactants and products at equilibriumforthe reactionbetween hydrogen and iodine to formhydrogen iodide:
+
+In each case, one mole of hydrogen is mixed with one mole of iodine and equilibrium is allowed to establish, at the given temperature, in a vessel of volume 1 dm3.
+
+## Topic 13: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 13A Chemical Equilibria
+
+
+#### CHANGEINTEMPERATUREALTERSTHEEQUILIBRIUMPOSITION
+|   TEMPERATURE |   Kp |   AMOUNT/mol - H(9) |   AMOUNT/mol - 12(g) |   AMOUNT/mol - HI(g) |
+|---------------|------|---------------------|----------------------|----------------------|
+|           500 |  160 |                0.14 |                 0.14 |                 1.72 |
+|           700 |   54 |                0.21 |                 0.21 |                 1.58 |
+
+## Topic 13: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 13A Chemical Equilibria
+
+
+#### CHANGEINTEMPERATUREALTERSTHEEQUILIBRIUMPOSITION
+tableC
+
+As the value of K, decreases,the percentages of H2(g) and I2(g)increase,and the percentage of HI(g) decreases. The equilibrium shifts to the left, in the endothermic direction, as the temperature is increased.
+
+## Topic 13: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 13A Chemical Equilibria
+
+CHECKPOINT
+
+• Adynamicequilibriumissetupbetweencarbonmonoxide,hydrogenandmethanol.Theequation forthereaction is:
+
+Whenthereactioniscarriedoutatahighertemperature,thevalueofK.decreases. Explainwhethertheforwardreactionisexothermicorendothermic.
+
+• 2.Thereactionbetween hydrogen andiodinetoform hydrogeniodideisreversible:
+
+SomeH2(g)is mixedwith I2(g)and themixture is allowed toreachequilibrium.Atequilibrium, 0.14 mol of H2(g) is present.
+
+The experiment isrepeated with the same amountsof H2(g)andI2(g),but ata highertemperature. Thistime the amount of H2(g) at equilibrium is greater than0.14 mol.
+
+Explainwhat thisinformationtellsyou about thereaction.
+
+• N2(g) +O2(g) = 2NO(g) Hispositive
+
+The equilibrium constant at 298Kfor this reaction is 4.8×10-31.
+
+Explain the change, if any, in the proportion of NO(g) at a temperature higher than 298 K.
+
+## Topic 13: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 13A Chemical Equilibria
+
+LEARNING OBJECTIVES
+
+• Understand how, if at all, a change in temperature, pressure or the presence of a catalyst affects the equilibrium composition in a homogeneous or heterogeneous system.
+
+• Understand that the value of the equilibrium constant is not affected by changes in concentration or pressure or by the additionofacatalyst.
+
+## Topic 13: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 13A Chemical Equilibria
+
+EFFECTOFCONCENTRATION
+
+In Topic9(Book1:IAS) we saw that theequilibrium position changeswhen the concentration of a component of the equilibriummixture is altered.In this section wewill discuss the effects of concentration, pressure and catalysts on equilibrium constants and provide an explanation for this phenomenonintermsofKc
+
+The most important thing to appreciate is that the only factor that can change the value of K. is a change in temperature.That is,K is constant at a given temperature.
+
+When the concentration of one of the components of an equilibrium mixture is altered,there is an concentrationsofthecomponents.
+
+At this point, the reaction quotient is no longer equal to the equilibrium constant, Ke. Therefore, the equilibrium composition changes until the reaction quotient and equilibrium constant become equal.
+
+The following examples illustrate this process.
+
+REACTIONQUOTIENT,QC
+
+Forageneral reaction:
+
+the reaction quotient, Qe, is given by the expression:
+
+where the concentration terms arenot necessarily those at equilibrium.
+
+At equilibrium Q= Ke.
+
+## Topic 13: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 13A Chemical Equilibria
+
+WORKEDEXAMPLE1
+
+The equationfor the reaction between hydrogen and iodine toform hydrogen iodide is:
+
+Explain theeffectonthepositionofequilibriumof increasingtheconcentrationof hydrogenat a constanttemperatureandconstantvolume.
+
+• If [H2(g)] is suddenly increased, then Q decreases and is no longer equal to Ke.
+
+• In orderforequilibrium tobere-established,themagnitudeof thedenominator in the expressionfor Qhas to decrease in value.
+
+• Thiswillproduceasubsequentincreaseinthevalueof thenumerator.
+
+• ThetwovalueswilladjustuntilthevalueofQ.becomesequaltothatofK.andanewequilibrium system isestablished.
+
+The net result of an increase in [H2(g)] is that the equilibrium shifts to the right. This is in agreement with the qualitative prediction that we made in Topic 9 (Book 1: IAs).
+
+## Topic 13: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 13A Chemical Equilibria
+
+QUALITATIVEPREDICTIONS
+
+In Topic 9 (Book 1: IAS) we said that qualitative predictions do not always give us the correct result.Theworkedexamplebelowshowsthis.
+
+## Topic 13: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 13A Chemical Equilibria
+
+WORKEDEXAMPLE2
+
+The amounts of N2, H2 and NH in an equilibrium mixture are 0.510 mol, 0.197 mol and 0.204 mol, respectively:
+
+The total volume of the gaseous mixture is 1.00 dm3.
+
+Workoutthedirectionof theshift inequilibriumpositionif 0.140molof Ngasissuddenly addedtothe equilibrium system at constant temperature and pressure.
+
+Showyourcalculations.
+
+wherenisthe amount(inmol)andVisthetotalvolume(indm²)of themixture.
+
+(Rememberthatconcentration=amount÷volume.)
+
+Step 2: Calculation of new total number of moles of gas.
+
+Original total moles of gas = (0.510 + 0.197 + 0.204) = 0.911 New total moles of gas = (0.911 + 0.140) = 1.051
+
+Step3: Calculation of new volume of gasmixture.
+
+behaves like an ideal gas, then the volume of gas is proportional to the number of moles:
+
+So thenewvolumeof thegasmixture=
+
+(1.051 ÷ 0.911) x 1 dm3 = 1.154 dm3
+
+Step 4:Calculation of Qimmediately afterthe additionof nitrogen.
+
+Step 5: Compare Qwith Ke
+
+For equilibrium to be re-established, Qe must decrease. This can only happen by the equilibrium shifting to the left,to increase the denominatorin the equation.
+
+The addition of more nitrogen,at constant pressure,results in a shift of the equilibrium position to theleft. Ourprediction toldus that the equilibriumwouldshift to theright,awayfrom thenitrogen added.
+
+The problem with makingpredictions is that two conflictingchanges are occurring here:
+
+• 1. the increase in the number of moles of nitrogen should result in a shift of equilibrium to the right
+
+• 2. the increase in volume should result in a shift to the left.
+
+We have no way of knowing which effect is greater unless we perform the calculations shown above.
+
+## Topic 13: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 13A Chemical Equilibria
+
+EFFECTOFPRESSURE
+
+containing gases has no effect on the value of either Ke or Kp.
+
+constantataconstantvalue.
+
+If the partial pressure of onlyone of thecomponentgasesischanged,then the overall effect on Kp canbepredictedinthesamewaytheeffectsofchangesinconcentrationonKweredescribedinthe previous section.
+
+However,if the totalpressure of a gaseoussystemis suddenly increased or decreased,then thepartial pressures ofall thegaseswill eitherincrease or decrease.Theeffect on thepositionofequilibriumcan beexplainedusingtheequilibriumlaw.Thisisshowninthefollowingworkedexample
+
+## Topic 13: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 13A Chemical Equilibria
+
+WORKEDEXAMPLE3
+
+Considerthereaction:
+
+for which:
+
+respectively.Then:
+
+If the total pressure is suddenly doubled,the partial pressures of nitrogen,hydrogen and ammonia will be doubledto2a,2band2crespectively:
+
+The value of Q,is now one-quarter of thevalue of Kp.In order to re-establish equilibrium the numerator has to increase, with a subsequent decrease in the denominator, until Qp = Kp. This is achieved by some nitrogenandhydrogenreactingtoformmoreammonia.
+
+the right.
+
+## Topic 13: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 13A Chemical Equilibria
+
+EFFECTOFADDINGACATALYST
+
+The expressionfor an equilibrium constant of a given reaction contains only those substances includedintheoverallstoichiometricequationforthereaction.Acatalystdoesnot appearinthe overallequation,andsocannotinfluencethevalueoftheequilibriumconstant,andhencethe equilibriumposition.
+
+Wecanthinkaboutthisinanotherway.InTopic9(Book1:IAS)youlearned thatacatalyst increasestherateofboththeforwardreactionandthebackwardreactiontothesameextent.The catalystthereforeincreasestherateatwhichequilibriumisestablished,buthasnoeffectonthefinal concentrations of reactants and products at equilibrium. Therefore, a catalyst has no effect on the value oftheequilibriumconstantforareaction.
+
+## Topic 13: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 13A Chemical Equilibria
+
+CHECKPOINT
+
+• forthereactionis:
+
+State the effect that an increase inpressure,at constant temperature,has on thevalue of Kand also onthepositionofequilibrium.Justifyyouranswers.
+
+• 2.Thereactionbetweenethanoicacidandethanolisreversible.Theequationforthereactionis: CHCOOH(I)+CHCH2OH(I)=CHCOOCHCH3(I)+H2O(1)
+
+Someethanoicacidandethanolaremixedtogether,andsomesulfuricacidisaddedtoactasa catalyst.Themixtureisleftforseveraldaystoreachequilibrium.
+
+• (a)Explainwhat happenstothecompositionof theequilibriummixtureif somemoreethanol is added.
+
+• (b) Explain what happensto the composition of theequilibrium mixture if some more sulfuric acid is added.
+
+• 3.The reaction between hydrogen and iodine to form hydrogen iodide is reversible:
+
+SomeH2(g)ismixedwithI2(g)and themixtureisallowedtoreachequilibrium.Atequilibrium, 0.14 mol of H2(g)is present.
+
+Themixturewas compressed toreduce itsvolume and then lefttoreachequilibrium at the original temperature.Explain the change, if any, in the composition of the equilibrium mixture.
+
+## Topic 13: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 13A Chemical Equilibria
+
+SUBJECT VOCABULARY
+
+reactionquotientameasureoftherelativeamountsofproductsandreactantspresentduringareaction atanygiventime
+
+## Topic 13: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 13A Chemical Equilibria
+
+LEARNING OBJECTIVES
+
+• Understandtheeffectofachangeintemperatureon
+
+• (i) the magnitude of the equilibrium constant, since △Stotal = R InK
+
+• (i the value of Stotal
+
+• Be ableto applyknowledge of thevalue of equilibrium constants topredict the extent towhich a reaction takes place.
+
+## Topic 13: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 13A Chemical Equilibria
+
+EFFECTOFTEMPERATURECHANGEONTHE VALUE OF △Stotal
+
+We are going to use ideas from Topic 12 on entropy and apply themto equilibriumsituations.
+
+• In Topic 12,we introduced the equation for calculating the total entropy change:
+
+We also stated thatStotal is positivefor all spontaneous changes.
+
+There is very little change in Ssystem with a change in temperature, unlessthereisachangeinstateofoneofthereactantsor products. However, there are significant changes to △Ssurroundings
+
+The entropy change of the surroundings during a chemical reaction isgiven by:
+
+where △His the enthalpy change and T is the absolute temperature(i.e.the temperature measured in kelvin).
+
+Wecanusethisinformationtofindoutifareactionis spontaneousataparticulartemperature.
+
+## Topic 13: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 13A Chemical Equilibria
+
+WORKEDEXAMPLE1
+
+Wewill lookatthedecompositionofcalciumcarbonateinto calciumoxideandcarbondioxide:
+
++177900J mol-1 At 293 K (20°C), Ssuroundings = = -607.2J K-1 mol-1 293K
+
+So thedecompositionofcalciumcarbonateisnotspontaneousat 293K,butitiswhenheatedto1173K
+
+figASpeedskaterscangofastbecausethepressureof theskateson theiceis changing the equilibriumpositionbetweenwateras a solid and water as a liquid.
+
+## Topic 13: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 13A Chemical Equilibria
+
+RELATIONSHIP BETWEEN TOTAL ENTROPY CHANGE, △Stotals ANDTHEEQUILIBRIUMCONSTANT,K
+
+Forareversiblereactionthatcanreachequilibrium,theequilibrium position can be reached from either side of the reaction. This meansthatboththeforwardandthebackwardreactionsare spontaneous,so△Stotalmustbepositiveinboth directions.
+
+You may think this is impossible. To explain it we can look at the equilibriumreaction
+
+fig B A mixture of NO4 gas and NO2 gas in a gas syringe: (a) at room temperature:(b)immersed inhotwater;(c)immersed in crushed ice.
+
+## Topic 13: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 13A Chemical Equilibria
+
+LEARNING TIP
+
+ThethermodynamicvalueofK calculated from△Stotal=RInk hasnounits.This isbecauseyou cantakethelogarithmofa numberbutnotofaquantity withunits.ThevalueofK calculatedfromexperimental data doeshave units.
+
+Toconvertanexperimental valueofK,intoa thermodynamicvalue,youneed toremove theunitsbydividing eachpartialpressurebythe standardpressureof1atm. Sinceeachpartialpressurehas beendividedbyafactorof1,the numericalvaluedoesnotalter.
+
+The same istrueforK.To convertanexperimentalvalue ofKintoathermodynamic value,youneedtoremovethe unitsbydividingeach concentrationbythestandard concentrationof1mol dm-3.
+
+The differences in colour in fig B show how the position of equilibrium changes as the temperature changes.
+
+In hot water the mixture becomes darker brown.The equilibrium position has shifted to the right to produce moreNO2. Note that thevolumehas becomelargerbecause themixture expands as it getshotter.
+
+In iced water, the mixture becomes lighter brown. This shows that the equilibrium position has shifted to the left toproduce moreNzO4.Note that the volume has become smaller because thereaction mixture has cooled.
+
+Fig C showshow it ispossiblefor thereaction tobe spontaneousin each direction.
+
+• figCA graph of entropy against percentage NO2 in a mixture of NzO4 and NO2.
+
+The entropy of NzO4 is less than the entropy of the equilibrium mixture. The change in entropy from pure NzO4 to the equilibrium mixture is positive, so the change is spontaneous.
+
+Similarly, the change in entropy from NO2 to the equilibrium mixture is also positive.
+
+#### LEARNING TIP
+The entropy change for a mixture of the two gases in any proportions moving to the equilibrium mixtureis alsopositive,sosuchchangesarespontaneous.
+
+Fig C also shows that neithertheforward reaction nor the backward reaction can go to completion, as theentropy changefrom theequilibrium mixture toeitherreactant is negative.
+
+At equilibrium,the total entropy change is zero and
+
+Stota[forward reaction]=△Stota [backward reaction]
+
+The relationshipbetween the total entropy of the reaction and the equilibrium constant is given by
+
+whereK can beK or Kp,and Ris the gas constant.
+
+Note that this matches with the conclusion that a high value ofK corresponds to a large positive total entropy change.
+
+## Topic 13: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 13A Chemical Equilibria
+
+USINGTOTALENTROPYCHANGETOCALCULATEANEQUILIBRIUMCONSTANT
+
+As mentioned above, △Stotal = Rln K.
+
+Rearranging the equation gives us:
+
+So:
+
+## Topic 13: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 13A Chemical Equilibria
+
+WORKEDEXAMPLE2
+
+The equation for the reaction to form sulfur trioxide from sulfur dioxide and oxygen is:
+
+Calculate a value for the equilibrium constant, K, for this reaction (R = 8.31J mol-1 K-1).
+
+• K=eStotal/R
+
+• =e238.3/8.31
+
+= 2.84×1012
+
+To solve this calculation,press thee*or ebutton onyour calculator.Then enter 238.3÷8.31followed by the equalsbutton.The answer will be displayed.
+
+Thereisnofirmruleabouttherelationshipbetweentheequilibriumconstant,K,andthepositionof equilibrium of thereaction.
+
+However, as a general rule we can say that a very large value of K suggests that the position of equilibrium is well over to the products side (i.e. the right-hand side of the equation).
+
+Similarly, avery small value ofK suggests that theposition of equilibrium iswell overto the reactants side(i.e.theleft-hand side of the equation).
+
+## Topic 13: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 13A Chemical Equilibria
+
+CHECKPOINT
+
+• 1.Hydrogen canbe manufacturedbyreacting methane with steam.The equation for the reaction is:
+
+CH4(g)+H2O(g) =CO(g)+3H2(g);△H,θ= +206 k mol-1
+
+• (a)The equilibrium constant,Kp,forthis reaction,at a given temperature,has a numerical value of8.54.
+
+• Calculate the total entropy change at the temperature of the reaction.
+
+• (b) Use your answer to (a) to calculate the temperature at which this reaction reaches equilibrium. (△System = +225 J K-1 mol-1; R = 8.31 J mol-1 K-1)
+
+• (c) Usethemagnitudeandsignsof the entropy changestoexplain theeffectof a temperature increaseontheequilibriumconstantforthisreaction.
+
+• Thisquestionisabout theequilibriumreaction:
+
+Fe²+（aq)+Ag*(aq)=Fe3+(aq)+Ag(s)
+
+The equilibrium is reached slowly.
+
+• (a)Statetwoobservationsthat aremadeif aqueoussolutions containingiron(ll) ions and silverions aremixedandallowedtostandforseveralhours.
+
+• (b) (i)△Stotal for this reaction is + 47.64J K-1 mol-1. Calculatethenumericalvaluefortheequilibriumconstant,Ke (R=8.31Jmol-1K-1)
+
+• (ii)Ssystem for this reaction is -208.3J K-1 mol-1. Explainwhythisvalueisnegative.
+
+• (ii) Calculate △Ssurroundings for this reaction.
+
+• (iv)Useyouranswerto(b)(ii)tocalculate△Heforthisreaction,andthenexplaintheeffectof increasing thetemperature onthevalueofStotal
+
+## Topic 13: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 13A Chemical Equilibria
+
+LEARNING TIP
+
+RememberthatavalueofK calculatedfromthermodynamic data has no units.
+
+## Topic 13: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### Topic 13: Chemical Equilibria
+
+CATASTROPHEFORCORAL?
+
+CRITICALTHINKING, INTERPRETATION
+
+You should kmow about the impact of rising carbon dioxidelevels on the Earth's atmosphere. The following extract describes the impact onlifeinouroceans.
+OCEANSABSORBHUMANCARBON POLLUTION
+
+As humans burn fossil fuels and release greenhouse gases, thosegasesentertheatmospherewheretheycauseincreases inglobaltemperaturesandclimateconsequencessuchasmore frequent and severe heat waves,droughts,changes to rainfall patterns,and risingseas.Butformanyyears scientists have knownthatnotallofthecarbondioxideweemitendsupin theatmosphere.About40%actuallygetsabsorbedintheocean waters.
+
+I like to use an analogy from everyday experience: the ocean is a littlelike a soda.Whenwe shakesoda,itfizzes.Thatfizzis the carbon dioxide coming out of the liquid (that is why sodas are called"carbonated beverages").We're doingthereverse process in the climate. Our carbon dioxide is actually going into the oceans.
+
+Theprocessofabsorptionisnotsimple-theamountof carbondioxidethattheoceancanholddependsontheocean temperatures.Colderwaterscan absorbmorecarbondioxide; warmerwaterscanabsorbless.Scientistsbelievethatasthe oceans warm, they will become less and less capable of taking up carbon dioxide. As a result, more of our carbon pollution will stay in the atmosphere,worsening global warming. But it's clear that, at least for now, the oceans are doing us a great favour by absorbing large amounts of carbon pollution.
+
+figACoral bleachingnearChristmas Island,Australia.Thisis anexample of theeffectofglobal warminginouroceans.
+
+#### OCEANSABSORBHUMANCARBON POLLUTION
+Knowing therate atwhichthe oceans absorbcarbondioxideis key to understanding howfast climate change will occur. This is an active area of research.In particular, scientists are closely watching the oceans to see if their ability to absorb is changing over time.
+
+From an articleinTheGuardian,'ScientistsStudyOceanAbsorptionofHumanCarbonPollution?byJohnAbraham,16February2017, https://www.theguardian.com/environment/climate-consensus-97-per-cent/2017/feb/16/scientists-study-ocean-absorption-of-human-carbon-pollution
+
+SCIENCE COMMUNICATION
+
+• You may have heard people say that"a picture is worth a thousand words". Carry out an Internet climate change. Add a short caption to each of the images you choose.
+CHEMISTRY IN DETAIL
+
+• 2 The equilibrium between gaseous carbon dioxide and dissolved carbon dioxide can be representedbytheequation:
+
+Suggest the impact that an increasing concentration of atmospheric carbon dioxide will have on the concentration of dissolved carbon dioxide in the oceans.
+
+• 3Oncedissolved,carbondioxidereactswithwaterasfollows:
+
+CO2(aq) +H2O(I) =HCO3(aq) +H+(aq)
+
+• notincludedintheexpressionforK).
+
+• (b)A sample of seawater is shown to have 0.07g of CO2per dm3 dissolved in it. Calculate the concentrationof thissolutioninmol dm-3.
+
+• (c)Assuming that the value for K. in (a) is 4.5x 10-7 mol dm-3, calculate the pH of this solution. State any assumptionsyouhavemade.
+ACTIVITY
+
+The evidence for anthropogenic climate change is now very strong. Using the Internet (including the useful website https://climate.nasa.gov), carry out research to answer the following questions:
+
+• ? What ismeant by anthropogenic climate change?
+
+• Are there any other gases responsible for climate change? If so,what are they and how are they produced?
+
+• Some scientists now callthe current geological time period theAnthropocene.What does this term mean and why do you think scientists are using it?
+
+THINKING BIGGER TIP
+
+Thematerial coveredin Topic13isdeveloped further in Topic 14. You may prefer towait until you have studiedTopic14before answering questions 2 and 3.
+
+CHEMISTRYTIP
+
+The hydrogen carbonate ion(HCOs)issometimes referred to as the bicarbonateion.
+
+DID YOU KNOW?
+
+TheUK'sMetOfficehas predictedthatCO2levelswill risetoarecord415ppmin 2019.
+
+## Topic 13: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### Topic 13: Chemical Equilibria
+
+13 EXAMPRACTICE
+
+• 1 An equilibrium is represented by the following equation:
+
+-[ 76-= eHV :(3)HNZ = (3)²H + (8)N
+
+Which change would affect both thevalue of the equilibrium constant, Kp, and the proportion of ammonia present at equilibrium?
+
+• A adding a catalyst of finely divided iron
+
+• Breducingthetemperature atconstantpressure
+
+• C increasing the amount of nitrogen
+
+• D increasing the pressure at constant temperature [1]
+(Total forQuestion 1 =1mark)
+
+• 2In a reversible reaction,what is the effect of adding a catalyst ontherateconstantk,fortheforwardreaction,therate constant k,for the backward reaction and on the equilibrium constant K?
+
+• 3Hydrogen and iodine vapour exist in equilibrium with hydrogen iodide ataconstanttemperatureinagassyringe:
+
+k1
+
+k-1
+
+K
+
+• A increases
+
+decreases
+
+no effect
+
+• B increases
+
+decreases
+
+increases
+
+• C increases
+
+increases
+
+no effect
+
+• D increases
+
+increases
+
+[1]
+(Total for Question 2 = 1 mark)
+
+H2(g) + I2(g)= 2HI(g)
+
+When 4.0 mol of nitrogen dioxide is put into a 1 dm? container andheated,theequilibriummixtureobtainedcontains0.8mol of oxygen.
+
+What is the numerical value of the equilibrium constant,Ke,at the temperature of the experiment?
+(Total for Question 5 = 1 mark)
+
+• 6 This question is about the equilibrium:
+
+N(g)+3H2(g)=2NH(g) △H=-92kJmol-1
+
+Which of the following statements is not correct?
+
+• A The units of K, are atm-2.
+
+• BK,increases when the temperature decreases.
+
+• CK, increases when the pressure increases.
+
+• D K, increases when the total entropy change, Sotal increases.
+
+[1]
+(TotalforQuestion6=1mark)
+
+• 7Nitrogen and hydrogenreact together toform ammonia in a reversible reaction that can reach a position of equilibrium. The equationfor thereaction is:
+
+N(g)+3H2(g)=2NH(g); △H, = -92kJ mol-1
+
+Whatwillincreasewhenthepressureisincreased atconstant temperature?
+
+• A the activation energy of the reaction
+
+• B the enthalpy change of the reaction
+
+• C Kp
+
+• D the partial pressure of hydrogen iodide
+
+[1]
+(Total for Question 3 = 1 mark)
+
+• 4 A nitrogen-hydrogen mixture, initially in the mole ratio of 1:3, reaches equilibrium with ammonia when50% of the nitrogen has reacted.
+
+N2(g)+3H2(g)=2NH(g)
+
+Thetotalpressure of theequilibriummixtureisP.
+
+What is thepartial pressure of ammonia in the equilibrium mixture?
+
+AP/6
+
+BP/4
+
+CP/3
+
+D P/2
+
+[1]
+(Total for Question 4 = 1 mark)
+
+• 5Nitrogen dioxide decomposes on heating according to the following equation:
+
+2NO2(g) = 2NO(g) + O2(g)
+
+At a fixed temperature and a total pressure of 5.00 atm, a sealed vessel of volume 20.0 dm² contained 1.00 mol of N2(g), 2.00 mol of H2(g) and 1.00 mol of NH(g).
+
+• (i)Calculatethevalue,statingunits,of theequilibrium constant,K,for this reaction.
+
+[5]
+
+• (ii) Calculate the value, stating units, of the equilibrium constant, K, for this reaction.
+
+[5]
+(TotalforQuestion 7=10marks)
+
+• 8Whenphosphorus(V)chloride,PCls,isheated toa constant temperature in a sealedvessel,it formsagaseous equilibrium mixture with phosphorus(Ill) chloride,PCl,and chlorine. The equationforthereaction is:
+
+PCl5(g) = PCl(g) + Cl2(g)
+
+• (a)The equilibrium constant may be expressed in terms of either concentration, Ke, or partial pressure, Kp
+
+• (i) Write an expression for Kp
+
+[1]
+
+• (ii)If theunitsofpartialpressure areatm,state the units ofK,for the above equilibrium.
+
+• (b）Explain,in terms of the expression for Kp,the effect on the position of equilibrium of increasing thepressure at constanttemperature.
+
+[1]
+
+• Kp =Kc(0.0821 T)An
+
+where T= the absolute temperature in kelvin (K) and △n = the change in number of moles from reactants to products.
+
+Calculate a value for Kif the value for K,at500K is 0.810 atm.
+
+[3]
+(Total for Question 8 = 9 marks)
+
+• 9A chemist has discovered a method for making a commerciallyimportantchemical,R.Thereactioninvolves the following reversible reaction:
+
+The process is normally carried out inindustry at a pressure of 500 atm and a temperature of 573 K.
+
+• (a) (i) Write an expression for K, for this reaction. [1]
+
+• (i)Give the units of K, in this expression.
+
+• [1]
+
+• (b)During their initial research, the chemist carried out several experiments,all at500 atmpressure,using mixtures of P and Q, starting with 2.0 mol of P and 1.0 molofQ.Ineachcasetheyallowedthereactionmixture to reach equilibrium before determining the percentage of Qconverted.
+
+• The table gives the results of two of his experiments.
+
+• Calculate,using the results from experiment 1, the valueofKp
+
+## Topic 13: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### Topic 13: Chemical Equilibria
+
+
+#### (Total for Question 8 = 9 marks)
+|                           |   Experiment 1 |   Experiment 2 |
+|---------------------------|----------------|----------------|
+| Temperature/K             |            423 |            573 |
+| Percentage of Q converted |             50 |             70 |
+
+## Topic 13: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### Topic 13: Chemical Equilibria
+
+
+#### (Total for Question 8 = 9 marks)
+[4]
+
+• (i)Deduce the conditions of temperature and pressure that would give the highest yield of R. [2]
+
+• i1 Explain why the conditions you have suggested in part (i) may be different from those used industrially. [2]
+(TotalforQuestion9=10marks)
+
+• 10Hydrogen and iodine react together, in the presence of a suitablecatalyst,inareversiblereaction.Theequationforthe reaction is:
+
+H2(g) + I2(g) = 2HI(g); △Hθ = -9kJmol-1
+
+• (a)The graph shows the changes in concentration when 2.0 × 10-3 mol of H2 were mixed with 2.0 × 10-3 mol of I2 ina sealed container ofvolume 1 dm? and left toreach equilibrium.
+
+• (i)Write the expression for the equilibrium constant, K, for this reaction.
+
+• (i)Use the graph to determine the time at which equilibrium was established.
+
+• (i)Use the graph to determine the equilibrium concentrations of HI(g), H2(g) and I2(g).
+
+• (iv) Calculate a valuefor the equilibrium constant,K. State the units.
+
+• (b)Explain how the value of K changes when:
+
+• (i)thetotalpressure atequilibrium is increased at constanttemperature
+
+[1]
+
+[2]
+
+• (i)the temperature is increased at constant pressure.[2]
+(TotalforQuestion10=10marks)
+
+• 11The composition of an equilibrium mixture produced at 2 atm pressure is shown here:
+
+• (a)Give the expressionfor the equilibrium constant, Kp, for the reaction and calculate its value. Include units in your answer.
+
+CH4(g) +H2O(g) = CO(g) + 3H2(g)
+
+0.80
+
+1.20
+
+3.60
+
+Amount in equilibrium mixture/mol
+
+[6]
+
+• (b)The total entropy change,in J mol-1 K-1,is related to the equilibrium constant by the equation
+
+Calculate the total entropy change for thisreaction. (R = 8.31 J mol-1 K-1) [1]
+
+(Total for Question 11 = 7 marks)
+
+## Topic 14: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### Topic 14: Acid-Base Equilibria
+
+ASTRONGANDWEAKACIDSIBACID-BASETITRATIONS
+
+Acids and bases play an important part in our lives. They are extremely important in industry. Life itself depends on the complex networks of acid-base reactions taking place inside living organisms. To understand life, and death, we need to understand acids and bases and the reactions they undergo. In this topic we will build on the knowledge you have already gained on the properties of acids and bases. In particular, we will look at their properties quantitatively using the concept of equilibrium constants. We will also see how the strengthsofacids arerelatedto theirmolecular structures.
+
+The pH of your blood plasma is kept fairly constant at around 7.4 when your body is working normally. If it risesorfallsbymorethan0.4from thisnormalvalue,you arelikelytodie.ThepHofyourbloodplasmacan fall as a result of disease or shock, both of which can generate acidic conditions in your body. You are also likely to die if the pH of your blood plasma rises; this could happen during recoveryfrom severeburns. To survive,yourbodymustcontrol itsownpH.Ifyournaturalcontrolsystemsfail,thenyoumustbesavedwith medicinesuchasintravenouselectrolytesolutions.
+
+In thistopicwewill lookathowdifferentions affectpH,andhowtheseionscanbeused tocontrolpH.
+MATHS SKILLS FOR THIS TOPIC
+
+• Recogniseandmakeuseofappropriateunitsincalculation
+
+• Recogniseanduseexpressionsindecimal andordinaryform
+
+• Useratios,fractions andpercentages
+
+• .Use calculators to find and use power, exponential and logarithmic functions
+
+• Usean appropriatenumberofsignificantfigures
+
+• Change the subject of an equation
+
+• ·Substitute numerical values into algebraic equations using appropriate units for physical quantities
+
+• ·Solve algebraic expressions
+
+• Uselogarithmsinrelationtoquantitiesthatrangeoverseveralordersofmagnitude
+
+Whatprior knowledge do I need?
+
+• Reactionsofacidsandbases
+
+• A qualitative appreciationof thesignificance ofpH of aqueous solutions
+
+Topic11
+
+• Acid-catalysedreactionssuchastheiodinationof propanone
+
+Topic13
+
+• Calculation of equilibrium constantsbasedon concentrations (i.e.K)
+
+• Anunderstandingof theeffectofchanges in temperatureonthevalueofequilibriumconstants
+What will I study in this topic?
+
+• Acid-basereactionsintermsofprotontransfer
+
+• Therelationshipbetweenhydrogenion concentration andpH
+
+• HowtocalculatethepHof aqueoussolutions
+
+• The differencebetween strong andweak acids
+
+• Howtodraw andinterprettitrationcurves
+
+• Howtoselectasuitableindicatorforanacid-base titration
+
+• Theconceptofbuffersolutions
+
+## Topic 14: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 14A Strong and Weak Acids
+
+LEARNING OBJECTIVES
+
+• Understand that aBronsted-Lowry acid is a proton donorandaBronsted-Lowrybaseisaprotonacceptor andthatacid-basereactionsinvolveprotontransfer.
+
+the casewhen it is bonded to ahighly electronegative atom to the right of the Periodic Table, e.g. oxygen or a halogen.
+
+In order to accept a proton,a base has to contain a lone pair of electronsthatitcanusetoformadativecovalentbondwiththe proton.So, a base must contain an atom to the right-hand side of the Periodic Table, and this is often oxygen.
+
+• Be able to identify Bronsted-Lowry conjugate acidbase pairs.
+
+• Understandthedifferencebetweenastronganda weak acid in terms of the degree of dissociation.
+
+## Topic 14: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 14A Strong and Weak Acids
+
+CONJUGATEACID-BASEPAIRS
+
+Anequilibrium isestablishedwhenhydrogenchloridedissolvesin water. The following equation represents this equilibrium:
+BRONSTED-LOWRYACIDSANDBASES
+
+In the forward reaction:
+
+In 1923, physical chemists Johannes Nicolaus Bronsted in DenmarkandThomasMartinLowryinEnglandindependently proposed the theory that carries their names. In the BronstedLowry theory,acids and bases are defined by theway they react witheachother
+
+figA JohannesNicolausBronsted(1879-1947))
+
+fig BThomas Martin Lowry(1874-1936).
+
+They defined an acid as a substance that can donate a proton, i.e. a proton donor (hydrogen ion, H+). They defined a base as a substance that can accept a proton,i.e.a proton acceptor.
+
+Wemight expect that any substance containinghydrogen could act asan acid.Inpractice,asubstancebehavesasanacidonlyif the hydrogen carries a slight positive charge.As an example,this is
+
+• ·HCl is acting as an acid because it is donating a proton to HzO
+
+• ·HzO is behaving as a base as it is accepting a proton from HCl.
+
+In the reverse reaction:
+
+• ·HO+is behaving as an acidbecause it is donatinga proton toCl-.
+
+• Cl-is behaving as a base because it is accepting a proton from HO+.
+
+When the acid HCl loses a proton it forms a base, Cl-. These two species are called a conjugate acid-base pair.
+
+When the acid HO+loses a proton it forms the baseHzO. These two species alsoform a conjugate acid-base pair.
+
+So the equilibrium mixture above contains two conjugate acidbase pairs:
+
+figCConjugate acid-basepairsformedfrom hydrochloric acid and water.
+
+## Topic 14: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 14A Strong and Weak Acids
+
+EXAM HINT
+
+TheconjugatebaseforHCl istheCl-ion,whichisaveryweak conjugatebase.However,in thepresence of a strong acid(such as concentratedsulfuricacid),eventheCl-ionwillacceptaprotonto formHClfumes.YousawthisinTopic8(Book1:IAS).
+
+Cl- is the conjugate base of HCl; HzO is the conjugate base of H,O+.
+
+Hydrochloric acid can donate one proton -it is called a monoprotic or monobasic acid.
+
+Sulfuricacidcandonatetwoprotons andis thereforecalleda diprotic ordibasic acid.
+
+Step 1:
+
+H2SO4→H+ + HSO4
+
+Step 2: HSO→H++SO2-
+
+Similarly,some bases such as the carbonate ion can accept more than one proton:
+
+Step 1:
+
+CO-+H+→HCO
+
+Step 2: HCO+H+→HCO
+
+Thecarbonateionis thereforedescribedas a diproticordiacidicbase.
+
+## Topic 14: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 14A Strong and Weak Acids
+
+DID YOU KNOW?
+
+• Acidsthatdonateamaximumofone,twoorthreeprotonsare calledmonoprotic,diproticortriprotic,respectively.Theyare alsocalledmonobasic,dibasicortribasic.
+
+• Basesthatcanacceptone,twoorthreeprotonsarecalled monoprotic,diproticortriprotic,respectively.Theyarealso called monoacidic,diacidicortriacidic.
+
+We will use the terms monobasic, dibasic, etc.for acids throughout this book.
+
+## Topic 14: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 14A Strong and Weak Acids
+
+ANOTHEREXAMPLEOFACONJUGATEACID-BASEPAIR
+
+An equilibrium is established when ammonia dissolves in water. The following equation represents this equilibrium:
+
+In theforwardreaction:
+
+• NHis acting as a base because it is accepting a proton from HO.
+
+• HzO is acting as an acid because it is donating a proton toNH3.
+
+In thereversereaction:
+
+• NHisbehavingasanacidbecauseit isdonatingaproton to OH-.
+
+• OH-is behavingas a basebecause it is accepting a proton from NHt.
+
+So the equilibrium contains two acid-base conjugate pairs:
+
+fig DConjugate acid-base pairs formed from ammonia and water.
+
+## Topic 14: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 14A Strong and Weak Acids
+
+EXAM HINT
+
+Theequilibriumthatammoniaformswithwaterhelpsusto understandthetestfortheammoniumionthatyousawinTopic8 (Book1:IAs).Whenweaddhydroxideionstoasolutioncontaining ammoniumions,theequilibriumshiftstotheleft.Ammoniagasis liberatedandwecantestforitusingdampredlitmuspaper.
+
+## Topic 14: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 14A Strong and Weak Acids
+
+AMPHOTERICSUBSTANCES
+
+In its reaction with HCl, HzO behaves as a base by accepting a proton. However, in its reaction with NH,HzO behaves as an acid by donating a proton.
+
+Asubstancethatcanactaseither anacidorabaseisdescribed asbeingamphoteric.
+
+## Topic 14: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 14A Strong and Weak Acids
+
+DID YOU KNOW?
+
+You may also see the term amphiprotic. An amphiprotic substance is one thatcanbothdonate and acceptprotons.Sowateris describedasbeing amphiprotic.Otherexamplesofamphiprotic
+
+nottrue.Thereareamphotericsubstances,likealuminiumoxide, thatdonotdonateoracceptprotonswhentheyactasacidsor bases,respectively.Thesesubstancesareinthecategoryofacting asacidsorbasesaccordingtotheLewistheory.TheLewistheory statesthatanacidis anelectronpairacceptorand abaseisan electronpairdonor.
+
+TheadvantageoftheLewistheoryisthatitshowsthesimilarity betweenacid-basereactionsthatinvolveprotontransferandother acid-basereactionsthatdonot.Itisausefulwayofexplainingwhy some reactions in organic chemistry that are catalysed by acids canalsobecatalysedbysomesubstancesthatcanacceptapair ofelectrons.Forexample,thenitrationofbenzeneiscatalysedby sulfuricacid,butthereactionalsooccursifnitricacidisusedwith boron trifluoride, BF3-
+
+Neithertheterm'amphiprotic'northeLewistheoryofacidsand basesisrequiredlearningforyour International A Level course.
+
+## Topic 14: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 14A Strong and Weak Acids
+
+NITRICACIDASABASE
+
+Themostcommonmethodtonitratebenzene(seeTopic18) is touse the'nitratingmixture'ofconcentrated nitric acid and concentrated sulfuric acid.Thismixtureforms theequilibrium:
+
+H2SO4+ HNO= HSO4+HNO
+
+Acid1Base 2 Base 1Acid 2
+
+In this reaction:
+
+• ·H2SO4 is an acid; its conjugate base is HSO
+
+• .HNO, is a base; its conjugate acid is H,NO.
+
+Itseemsstrangetorefertonitricacid as a base.However,in this reactionthenitricacidisbehavingasabase.
+STRONGANDWEAKACIDS
+
+A strong acid is defined as one that is almost completely dissociatedinaqueoussolution.
+
+Virtuallyall thehydrogenchloridemolecules aredissociatedina dilute solution of hydrochloric acid.We usually represent this by usingasingledirectionarrowintheequationforthedissociation:
+
+## Topic 14: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 14A Strong and Weak Acids
+
+LEARNING TIP
+
+From now on,we are going to use H(aq)to represent the acid protonsinaqueoussolution,ratherthanHO.Itisnotcertainhow manywatermoleculesarebondedtoagivenhydrogenion.The formula could justaseasilybeHsOorH,O.Forthisreason,H+（aq) ispossiblythebestrepresentationofacidprotonsinaqueous solution.Thechoiceof formulashouldnotaffectyourunderstanding oftheconceptsinvolved.
+
+LEARNING TIP
+
+lonisationisalsousedto describetheconversionofacid moleculesintoionswhenan aciddissolvesinwater.You may seethistermusedinother books.
+
+## Topic 14: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 14A Strong and Weak Acids
+
+DID YOU KNOW?
+
+Although,strictlyspeaking, anequilibriumexistsbetween HCI molecules,H+ions and Cl-ions,the acid is consideredtobecompletely dissociatedindilutesolution. So,strong acids are often saidtobe100%dissociated.
+
+By contrast, a weak acid is defined as one that is only partially dissociated (often less than 10%) in aqueous solution.Organic acids such as ethanoic acid are typically weak acids.
+
+Werepresentpartial dissociationbyusing thereversible arrowsign(=）in theequationfor the dissociation:
+
+CH;COOH(aq) = CH,COO-(aq) + H+(aq)
+
+## Topic 14: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 14A Strong and Weak Acids
+
+CHECKPOINT
+
+• 1. Give theformula of the conjugate acid ofeach of thefollowingspecies:
+
+• (a) CH;COO-
+
+• (b) CHNH2
+
+• (c) HSO
+
+• Givetheformulaoftheconjugatebaseofeachofthefollowingspecies: (a) HCIO4 (b)H3O+ (c) HSO4
+
+• 2.
+
+• 3. Ineachof thefollowingexamples,identifythe two conjugate acid-basepairs.Ineachcase,identify the species that are acting as a Bronsted-Lowry acid.
+
+• (a)H2CO3+H2O=HCO+HO
+
+• (b)HCO+H2O=CO-+HO+
+
+• (c)CHCOOH+HNO3=CHCOOH+NO3
+
+• Explain why the following reaction may be described as an acid-base reaction: NH + NH→ 2NH3
+
+• 4.
+
+## Topic 14: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 14A Strong and Weak Acids
+
+SUBJECT VOCABULARY
+
+proton donor an acidis a proton donor protonacceptorabaseisaprotonacceptor conjugate acid-basepair eithera base and its conjugate acid or an acid and itsconjugate base conjugate base when an acid donates a proton,thespeciesformed isthe conjugatebase of theacid amphoteric(substance)asubstancethatcanactbothasanacidandasabase dissociatedacidmoleculesaresaidtobedissociatedwhentheyhavesplittoformions
+
+partiallydissociatedonly a small fractionof the acidmoleculeshavedissociated
+
+## Topic 14: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 14A Strong and Weak Acids
+
+2HYDROGENION CONCENTRATION AND THE pH SCALE
+
+## Topic 14: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 14A Strong and Weak Acids
+
+LEARNING OBJECTIVES
+
+• Be able to define the term‘pH'.
+
+• Be able to calculate pH from the hydrogen ion concentration.
+
+• Beabletocalculatetheconcentrationofhydrogenionsin asolution,inmoldm-3,fromitspH,usingtheexpression [H+] = 10-pH.
+
+• Understand the difference between a strong acid and a weakacidintermsofthedegreeofdissociation.
+
+• Be abletocalculate thepHof a strong acid.
+
+• Beabletodeducetheexpressionfortheaciddissociation constant,Ka,fora weakacid.
+
+• Be able to calculate the pH of a weak acid fromKa or pka values, making relevant assumptions.
+
+• Be able to define the term'pKa.
+
+## Topic 14: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 14A Strong and Weak Acids
+
+STRONG ACIDS
+
+As already mentioned,we assume strong acids are dissociated completelywhentheyaredissolved inwater.Thismeans thatthe hydrogen ion concentration is related directly to the concentration of the acid.
+
+For example, a solution of HCl of concentration 0.100 mol dm-3 will produce a hydrogen ion concentration of 0.100 mol dm-3.
+
+The pH of an aqueous solution is related to the hydrogen ion concentration by the following equation:
+
+The hydrogen ion concentration, [H+], is measured in mol dm-3. Which equation you decide to use is a matter of personal preference.
+
+## Topic 14: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 14A Strong and Weak Acids
+
+DID YOU KNOW?
+
+Logarithmscanonlybetakenofanumber,notaquantitywitha unit.So,strictly speaking,thehydrogen ion concentration has to bedividedbythestandardconcentration,ce,whichhasavalueof 1 mol dm-3.
+
+Therefore,thecorrectexpressionforcalculatingpH is-lg[H+]/ce This,however,isnotsomethingyouneedtoconsider atthislevel.
+
+## Topic 14: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 14A Strong and Weak Acids
+
+LEARNING TIP
+
+Do not worry if you areunfamiliarwith the use of logarithms.They aremerelyawaytoconvertascaleofnumbersinpowersof10toa linearscale.Forexample:
+
+lg 100 = 2(as 100 is 102)
+
+lg 10 = 1 (as 10 is 101)
+
+lg 1 = 0(as 1 is10%)
+
+lg 0.01 = -2(as 0.01 is10-2)
+
+Thelgof a numbercan easilybefoundbyusingthegorlog'button onyourcalculator.
+
+The acceptedabbreviationforlogarithmtothebase10islg,butyou can also uselog1o or evenlog.
+
+## Topic 14: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 14A Strong and Weak Acids
+
+WORKEDEXAMPLE1
+
+• CalculatethepHofaqueoussolutionsofthefollowingmonobasic strong acids. In each case, assume that the acid is completely dissociated.Giveyouranswerstotwodecimalplaces.
+
+• (a) 0.00100 moldm-3HCl (b) 0.0500moldm-3HNO3 (c)0.150moldm-3HBr
+
+## Topic 14: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 14A Strong and Weak Acids
+
+Answer
+
+• 2CalculatethepHof an aqueoussolutionof10.00mol dm-3of HCl.In thissolution theHClis55%dissociated.Giveyouranswer to two decimalplaces.
+
+Answer
+
+[H] = 0.55×10.00 mol dm-3 = 5.50 mol dm-3 pH = -lg (5.50) lg (5.50) = 0.74 SO, pH = -0.74
+pH and activity
+
+ThemeasuredpHofaconcentratedacid isneveraslowas thecalculatedvalue,eventhoughtheacidmaybecompletely dissociated.Thisisbecausetheionsthatareclosetogetherin solutioninteractwithoneanother.Thismakestheireffective concentrationlessthantheactual concentration.Thiseffective concentration is called the activity.For example, a solution of HCl of1.00mol dm-3hasaneffectivehydrogenionconcentrationof 0.81mol dm-3.Thismakes thepH of this solution0.09,not0.00, as calculated from a hydrogen ion concentration of 1.00 mol dm-3.
+
+Only atconcentrationsbelow0.10 mol dm-3doactivities and concentrationshavesimilarvalues.
+
+ThisactivityeffectmeansthattheminimumpHandmaximum pH thatconcentratedsolutionscanhaveare0.30and14.30, respectively.This activity effect can beignored at International A Level,whichexplainsthecalculationof-0.74above.
+
+CALCULATINGHYDROGENIONCONCENTRATIONFROMpH
+
+It is a simple matter to calculate the hydrogen ion concentration from a given pH value.
+
+You should use the following equation:
+
+[H+(aq)] = 10-pH
+
+## Topic 14: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 14A Strong and Weak Acids
+
+WORKEDEXAMPLE2
+
+Calculate the hydrogen ion concentration of a solution with a pH of 4.8:
+
+value of Kfor ethanoic acid is 1.74×10-5moldm-3 at 298K.
+
+CH;COOH(aq) = CH;COO-(aq) + H+(aq)
+
+Ka = [CH₃COO⁻(aq)][H⁺(aq)] / [CH₃COOH(aq)]
+
+Every time a molecule of CHCOOH dissociates, a CHCOO-ion and a H+ionareformed.
+
+This means that [CH;COO-(aq)] = [H+(aq)].
+
+So, the expression for Ka can be simplified to:
+
+Ka = [H⁺(aq)]² / [CH₃COOH(aq)]
+
+At this stage,it is important to recognise that the concentrations in the expressionforK。are the equilibrium concentrations. However, if the value of Kis very small (as it is in this case) then theconcentrationof theundissociated acid atequilibriumis verysimilartotheinitialconcentrationoftheacid.Itistherefore reasonable to say the concentration at equilibrium is the same as the initial concentration.
+
+Therefore,
+
+Ka = [H⁺(aq)]² / 0.0500 = 1.74 × 10⁻⁵ mol dm⁻³ [H⁺(aq)] = √(0.0500 × 1.74 × 10⁻⁵) = 9.33 × 10⁻⁴ mol dm⁻³
+
+This gives a pH of 3.03.
+
+## Topic 14: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 14A Strong and Weak Acids
+
+LEARNING TIP
+
+Ifyouareworriedthattheapproximationwemadeinthecalculation isnotjustified,thenitispossibletosolvethepreciseequation:
+
+Ka = [H⁺(aq)]²/(0.0500 − [H⁺(aq)]) = 1.74 × 10⁻⁵ mol dm⁻³
+
+To solve this calculation,press the10or10button on your calculator.Then enter thenegativepHvalue,followedbytheequals button.The answerwill thenbe displayed.
+
+## Topic 14: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 14A Strong and Weak Acids
+
+WEAKACIDS
+
+Determiningthehydrogenionconcentrationofanaqueous solutionofaweakacid ismorecomplicated.Thisisbecausea significant amountofundissociated acid ispresentinsolution.It isnecessarytorefertotheacid dissociationconstant,K,forthe acid.
+ACIDDISSOCIATIONCONSTANT
+
+Ka= [H+（aq)]2/(0.0500-[H+(aq)])=1.74×10-5moldm-3
+
+The solution to this equationgives a value for[H(aq)] of 9.327×10-4moldm-3
+
+Thedifferenceissignificantonlyforveryaccuratework.
+
+Thereisalsooneotherapproximationthatwemadeinboththe original calculation and thiscalculation.Aswewill seeinSection 14A.3,water ionisesvery slightly toform hydrogen ions and hydroxideions.Wehaveignored the contributionfrom the dissociationofwatertothetotalhydrogenionconcentration. However,unlesstheacidisverydilute,thisapproximationisalso justified.
+
+The following equation can be used to calculate the hydrogen ion concentrationofanaqueoussolutionofaweakmonobasicacid:
+
+[H⁺(aq)] = √(Ka × [acid])
+
+If we use HA to represent a weak acid, then the equation for its dissociationin aqueoussolution is:
+
+HA(aq) ⇌ H⁺(aq) + A⁻(aq)
+
+When we apply the equilibrium law to this reactionwe obtain:
+
+[H⁺(aq)][A⁻(aq)] / [HA(aq)]
+
+= a constant
+
+This constant is called the acid dissociation constant and is given the symbol Ka.
+
+We will now calculate the hydrogen ion concentration of an aqueous solution of ethanoic acid of concentration 0.0500 mol dm-3. The whereKis thedissociation constantfortheweakacid.
+K。 AND pK。 VALUES
+
+Table A (next page) lists some weak monobasic organic acids together with their Ka and pKavalues at 298K, where:
+
+pKa = −lg Ka
+
+Youwill noticethatthelargerthevalueofKthestrongertheacid.
+
+By contrast, the smaller the value of pKathe stronger the acid.
+
+## Topic 14: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 14A Strong and Weak Acids
+
+
+#### K。 AND pK。 VALUES
+| NAMEOFACID            | FORMULAOFACID   | K/moldm-3   |   pKa |
+|-----------------------|-----------------|-------------|-------|
+| propanoicacid         | CHCH2COOH       | 1.35 × 10-5 |  4.87 |
+| ethanoic acid         | CH;COOH         | 1.74 × 10-5 |  4.76 |
+| benzoic acid          | CHCOOH          | 6.31 ×10-5  |  4.20 |
+| methanoicacid         | HCOOH           | 1.60 ×10-4  |  3.80 |
+| chloroethanoicacid    | CH2CICOOH       | 1.38 ×10-3  |  2.86 |
+| dichloroethanoicacid  | CHCICOOH        | 5.13 × 10-2 |  1.29 |
+| trichloroethanoicacid | CCI;COOH        | 2.24 × 10-1 |  0.65 |
+
+## Topic 14: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 14A Strong and Weak Acids
+
+CALCULATINGTHEpHOFADIBASICACID
+
+Sulfuric acid is themostcommondibasic acid.Itdissociatesintwostages:
+
+H2SO4(aq) → H+(aq) + HSO4(aq)
+
+HSO4(aq) = H+(aq) + SO2-(aq)
+
+H2SOq is a strong acid and is therefore fully dissociated. HSO is a weak acid (Ka = 0.0100 mol dm-3.)
+
+In a 0.500 mol dm-3 aqueous solution of H2SO4 the contribution to the [H+(aq)] from the H2SO4 willbe0.500moldm-3.Ifwe assume that thecontribution to the[H+(aq)] from theHSOion is xmol dm-3, then we have the following relationship:
+
+Ka (HSO4)= 0.0100 = (0.500 - x)x/0.500
+
+Solving this quadratic equation gives x= 0.0098.
+
+This gives a total [H+(aq)] of 0.05098 mol dm-3 with a subsequent pH of 0.293.
+
+This calculation shows that the contribution to the [H+(aq)] from the HSO ions is negligible. This is becauseitsdissociationissignificantlyreducedbecause ofthehigh[H+(aq)] from thefull first ionisationof theHSO4
+
+A second interesting reasonforperforming this calculation is because manybooksstate that 0.5mol dm-3HSO4(aq) can beused as the acid solution in a standard hydrogenelectrode(see Topic16 on standard electrodepotentials).As thestandard hydrogen electrode requires a[H+(aq)] of 1.00 mol dm-3 (pH = 0.00), this is clearly incorrect.
+
+## Topic 14: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 14A Strong and Weak Acids
+
+CHECKPOINT
+
+• 1. Calculate thepH of eachof thefollowing aqueous solutions of strong monobasic acids.Assume the acidisfullydissociatedineachcase.Giveyouranswerstotwodecimalplaces.
+
+• (a)0.0100moldm-3 Hl
+
+• (b) 0.500 moldm-3 HNO3
+
+• (c) 0.00405mol dm-3 HCl
+
+• 2. Calculate the pH of a mixture of 20.0 cm3 of 1.00 moldm-3 HCl(aq) and 5 cm3 of 1.00 mol dm-3 NaOH(aq).
+
+• 3. Calculate thepH of each of thefollowing aqueous solutionsof weakmonobasic acids.Giveyour answerstotwodecimalplaces.
+
+• (a) 0.100moldm-3HCOOH[Ka(HCOOH)=1.60×10-4moldm-3]
+
+• (b) 1.00 mol dm-3 HF[Ka(HF) = 5.62 × 10-4mol dm-3]
+
+• (c) 0.505moldm-3NH4CI [Ka(NH) = 5.62×10-10mol dm-3]
+
+• The pH of an aqueous solution of a weak acid,HA,of concentration 0.0305 mol dm-3 is 4.97. Calculatethedissociationconstant,Ka,forthisweakacid.
+
+## Topic 14: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 14A Strong and Weak Acids
+
+SUBJECT VOCABULARY
+
+pH(of an aqueoussolution)thereciprocal of thelogarithm to thebase10of thehydrogenion concentration,measured inmolespercubicdecimetre,pH=-lg[H+].Thisdefinitionisdifficultto remember,soeitherof thetwoequationsgivenonpage83canbeusedto definepH pKa=-lg Ka
+
+## Topic 14: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 14A Strong and Weak Acids
+
+LEARNING OBJECTIVES
+
+• Be abletodefinetheionicproductofwater,Kw
+
+• Be able to define the term'pKw
+
+• Be ableto calculate thepHof a strongbasefrom its concentration,usingKworpkw
+
+## Topic 14: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 14A Strong and Weak Acids
+
+DISSOCIATIONOFWATER
+
+Pure water has a slight electrical conductivity, so it must contain some ions. It self-ionises according to the following equation:
+
+H2O(l) = H+(aq) + OH-(aq)
+
+If we apply the equilibrium law to this reaction we obtain:
+
+As [HO(l)] is constant at a given temperature,the expression may be simplified to:
+
+[H+(aq)][OH-(aq)] = a constant
+
+Thisconstant iscalled theionicproduct ofwater andisgiven thesymbolKw
+
+The value of Kw at 298 K is 1.00 × 10-14 mol2 dm-6.
+
+A neutral solution is defined as one in which thehydrogen ion concentration is equal to the hydroxide ionconcentration.This is the case forpurewater
+
+At 298 K, [H+(aq)] = 1.00 × 10-7 mol dm-3 [(1.00 × 10-14)]
+
+So, the pH of pure water at 298K is 7.00 [-lg (1.00 × 10-7)]
+
+KwAND pKw
+
+The relationship between Kw and pKw is given by the following equation:
+
+At298K,whenK=1.00×10-14mol²dm-6,pKw=14.00
+
+Table A gives thevalues ofKwand pKw at various temperatures.
+
+## Topic 14: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 14A Strong and Weak Acids
+
+
+#### KwAND pKw
+| TEMPERATURE/K   | 273          | 283          | 293          | 303          | 313          |
+|-----------------|--------------|--------------|--------------|--------------|--------------|
+| Kw/mol2dm-6     | 1.14 × 10-15 | 2.93 × 10-15 | 6.81 × 10-15 | 1.47 × 10-14 | 2.92 × 10-14 |
+| pKw             | 14.94        | 14.53        | 14.17        | 13.83        | 13.53        |
+
+## Topic 14: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 14A Strong and Weak Acids
+
+pHOFAQUEOUSSOLUTIONSOFSTRONGBASES
+
+An acid dissolved in water produces so many hydrogen ions that the small contribution from the wateris insignificant,unless the acid concentration is very small.
+
+However, even the most alkaline solutions contain some hydrogen ionsbecause waterionises.
+
+Sodium hydroxide is a strong base,so in dilute aqueous solutions we can consider its ions to be completely dissociated.
+
+## Topic 14: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 14A Strong and Weak Acids
+
+LEARNING TIP
+
+ThepHofaneutralsolutionis oftensaidtobe7.00.However, thisistrueonlyfora solution thathasa temperatureof298K.
+
+Aswithallequilibrium constants,Kwvarieswith temperature.
+
+At288Kithasavalueof 4.52×10-15mol²dm-6.
+
+Atthistemperature, [H+（aq)]=6.72×10-8mol dm-3, giving a pH of 7.17.
+
+So,at288Kaneutralsolution has a pH of 7.17.
+
+Similarlyitcanbeshownthatat 308K,thepHofaneutral solution is6.84.
+
+LEARNING TIP
+
+The equationshouldstrictlybe pKw=-1gKw/(c)²,wherecis thestandardconcentrationof1 mol dm-3,inordertobeableto takethelogarithmofa dimensionless quantity. Howeverwewill usethe simplifiedversionofthe equation.
+
+## Topic 14: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 14A Strong and Weak Acids
+
+TOPIC14
+
+A sodium hydroxide solution of concentration 0.100mol dm-3 therefore has a hydroxide ion concentrationof0.100moldm-3.
+
+If [OH-(aq)] = 0.100 mol dm-3 and [H+(aq)][OH-(aq)] = 1.00 × 10-14 mol2 dm-6, then
+
+[H+(aq)] = 1.00 × 10-14/0.100 mol dm-3
+
+= 1.00 × 10-13 mol dm-3
+
+The pH of this solution is therefore 13.0.
+
+## Topic 14: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 14A Strong and Weak Acids
+
+WORKED EXAMPLE
+
+Calculate the pH, at 298 K, of an aqueous solution of potassium hydroxide of concentration 0.0200 mol dm-3. Kw (298 K) = 1.00 × 10-14 mol2 dm-6
+
+## Topic 14: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 14A Strong and Weak Acids
+
+Answer
+
+As potassium hydroxide is a strong base we may assume that its ions are completely dissociated.
+
+[OH-(aq)] = 0.0200 mol dm-3
+
+So,[H+(aq)] = 1.00 × 10-14/0.0200 = 5.00 × 10-13 mol dm-3
+
+pH = -lg (5.00 × 10-13) = 12.3
+
+## Topic 14: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 14A Strong and Weak Acids
+
+CHECKPOINT
+
+• 1. Theionicproductofwater,Kw,hasavalueof1.00x10-14mol2dm-6at298Kand avalueof 6.81x10-15mol2 dm-6at 293K.Use this information,where relevant,to answer thefollowing questions.
+
+• (a)CalculatethepHofwaterat(i)298Kand(i)293K.
+
+• (b)Eventhoughpurewaterat298Kand at293Khasdifferent pH values,both samples of waterare said tobeneutral.Explainwhy.
+
+• (c)Isthefollowingreaction exothermicorendothermic?
+
+• H2O(I)→H+(aq) +OH-(aq)
+
+• Explainhowyouarrivedatyouranswer.
+
+• 2. CalculatethepHat298Kofeachofthefollowingaqueoussolutionsofstrongbases.Assumethe baseisfullydissociatedineachcase.Giveyouranswerstotwodecimalplaces.
+
+• (a) 0.0100moldm-3NaOH
+
+• (b) 0.0500 mol dm-3 Ca(OH)2
+
+• (c)0.0315moldm-3KOH
+
+[Kw= 1.00 × 10-14 mol2 dm-6 at 298 K]
+
+## Topic 14: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 14A Strong and Weak Acids
+
+SUBJECT VOCABULARY
+
+ionicproduct of water,Kwthe product of theconcentration of thehydrogenions and the hydroxideions, both measured in mol dm-3
+
+Kw=[H+(aq)][OH-(aq)]
+
+## Topic 14: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 14A Strong and Weak Acids
+
+LEARNING TIP
+
+Youcanusethelogarithmic formof the equation[H+（aq)] [OH-（aq)]=1.00×10-14,which ispH+pOH=14.0,where pOH=-lg[OH-（aq)] ifyou do not likeworkingwiththe logarithmsofsmall numbers.
+
+So,intheworkedexampleabove:
+
+pH=14.0-pOH
+
+• =14.0-(-lg(0.0200))
+
+• =(14.0-1.70)= 12.3
+
+## Topic 14: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 14A Strong and Weak Acids
+
+tableB
+
+The higher the value of the pH, the stronger thebase.
+SALTS
+
+Table C shows the pH of aqueous solutions ofvarious salts of concentration 0.100mol dm-3 at 298K.
+
+YoucanexplainwhythepHof 0.100moldm-3NH4Cl isacidic byshowinghowtheNH4ion behavesin aqueoussolution. TheNH4+ionbehavesasaweak acidinaqueoussolution,andit dissociatesasshownbythe followingequation:
+
+NH=NH+H+
+
+## Topic 14: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 14A Strong and Weak Acids
+
+
+#### SALTS
+| FORMULAOFSALT       |   NaCl |   KNO3 |   CH;COONa |   NH,CI |   CHCOONH4 |
+|---------------------|--------|--------|------------|---------|------------|
+| pHOFAQUEOUSSOLUTION |   7.00 |   7.00 |       8.88 |    5.13 |       7.00 |
+
+## Topic 14: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 14A Strong and Weak Acids
+
+tableC
+
+The pH of NaClis 7.00 because the salt is made from a strong acid (HCl) and a strong base (NaOH). The same is true for KNO3, which is a product of the strong acid HNO and the strong base KOH. An aqueous solution of CHCOONa is alkalinebecause it is theproduct of a weak acid(CHCOOH) and a strong base (NaOH).
+
+An aqueous solution ofNHClis acidicbecause it is theproduct of a strong acid(HCl) and a weak base (NH3).
+
+## Topic 14: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 14A Strong and Weak Acids
+
+LEARNING OBJECTIVES
+
+• Be able to analyse data from the following experiments:
+
+• (i)measuring thepH of a variety of substances,includingequimolar solutions of strong andweak acids, strong andweak bases,andsalts
+
+• (i) comparing the pH of a strong and weak acid after dilution 10, 100 and 1000 times.
+
+• Be abletocalculateKafora weakacidfrom experimental datagiven thepH of an aqueoussolution containingaknownmass of acid.
+
+## Topic 14: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 14A Strong and Weak Acids
+
+STRONGANDWEAKACIDS
+
+The relative strengths ofdifferent acids canbe determined by measuring thepH of equimolar aqueoussolutionsoftheacids,atthesametemperature.
+
+Table A shows the pH of 0.100 mol dm-3 aqueous solutions of various acids at 298 K.
+
+## Topic 14: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 14A Strong and Weak Acids
+
+
+#### STRONGANDWEAKACIDS
+| FORMULAOFACID                     |   HCI |      |   CHCICOOHCHCICOOH |   HCOOH |   CHCOOH |   CHCHCOOH |
+|-----------------------------------|-------|------|--------------------|---------|----------|------------|
+| pH OF0.100moldm-3 AQUEOUSSOLUTION |  1.00 | 1.14 |               1.93 |    2.38 |     2.87 |       2.93 |
+
+## Topic 14: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 14A Strong and Weak Acids
+
+tableA
+
+Thehigher thevalue of thepH,theweaker the acid.
+
+STRONGANDWEAKBASES
+
+Thesamemethodcanbeused todeterminetherelativestrengthsofbases.
+
+Table B shows the pH of 0.100 mol dm-3 aqueous solutions of various bases at 298 K.
+
+## Topic 14: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 14A Strong and Weak Acids
+
+
+#### STRONGANDWEAKBASES
+| FORMULAOFBASE                    |   NH3 |   CH3NH2 |   (CH3)2NH |   CHCHNH2 |   CHCHCHNH2 |   NaOH |
+|----------------------------------|-------|----------|------------|-----------|-------------|--------|
+| pHOF0.100moldm-3 AQUEOUSSOLUTION | 11.13 |    11.82 |      11.83 |     11.84 |       11.86 |  13.00 |
+
+## Topic 14: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 14A Strong and Weak Acids
+
+TOPIC14
+
+An aqueous solution of CHCOONH4 is neutral (pH = 7.0o) because it is the product of a weak acid (CHCOOH) and a weak base (NHs), and the relative strengths of the acid and base are the same. Thisis shownby theirdissociation constants:
+
+CHCOOH: Ka = 1.74 × 10-5 mol dm-3
+
+NH3:
+
+K, = 1.74 × 10-5 mol dm-3
+
+## Topic 14: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 14A Strong and Weak Acids
+
+LEARNING TIP
+
+Kais a measure of acid strength andK, is ameasure of basestrength.
+
+K,forabaseiscalculatedinasimilarwaytoKaforanacid.Theequilibriumsetupwhenammoniadissolves inwateris:
+
+NH3（aq)+H2O(1)=NH（aq)+OH-(aq)
+
+[NH][OH-]
+
+Kb
+
+[NH3]
+
+NH3（aq)+H2O(1)=NH（aq)+OH-(aq)
+
+[NH][OH-]
+
+Kb
+
+[NH3]
+
+YouwillnotbeaskedtocalculatevaluesforK,intheexam.
+
+## Topic 14: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 14A Strong and Weak Acids
+
+SUMMARYTABLEFORAQUEOUSSOLUTI0NSAT298K
+
+SALTOFASTRONGACIDANDASTRONGBASE
+
+pH=7 (solution isneutral)
+
+SALTOFAWEAKACIDANDASTRONGBASE
+
+pH>7(solution is alkaline)
+
+SALTOFASTRONGACIDANDAWEAKBASE
+
+pH<7(solution is acidic)
+
+SALTOFAWEAKACIDANDAWEAKBASE
+
+pH depends onrelativestrengths of acid andbase;
+
+if Ka=Kb,pH=7
+
+ifKa>Kb,pH<7
+
+if Ka<Kb,pH>7
+
+tableD
+
+EFFECTOFDILUTIONONTHEpHOFAQUEOUSSOLUTIONSOFACIDS
+
+STRONGACIDS
+
+Table E shows the pH of five aqueous solutions of hydrochloric acid.In each case,the acid has been diluted by a factor of ten from 1.00 (1.00 × 10°) to 0.000100 (1.00 × 10-4)mol dm-3. All solutions are at a temperatureof298K.
+
+## Topic 14: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 14A Strong and Weak Acids
+
+DID YOU KNOW?
+
+Thereasonwhysomesalts form alkaline or acidic solutionsisthattheyundergo hydrolysis.
+
+Tolearn more about this, research'salt hydrolysis'
+
+It is important to recognise that differentsaltshave differentpHvaluesbecause thiswill explain why,for example,thepHofthe solutionformedwhena strong acidreactswithan equivalentamountofaweak baseislessthan 7.Wewill meetthisconceptwhenwe lookat acid-basetitration curves in Section 14B.1.
+
+## Topic 14: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 14A Strong and Weak Acids
+
+
+#### DID YOU KNOW?
+| CONCENTRATION/moldm-3   | 1.00 (1.00 × 10%) 0.100 (1.00×10-1)   |   0.0100 (1.00×10-2) |   0.00100 (1.00 ×10-3) |   0.00100 (1.00×10-4) |
+|-------------------------|---------------------------------------|----------------------|------------------------|-----------------------|
+| pH                      | 0.00 1.00                             |                 2.00 |                   3.00 |                  4.00 |
+
+## Topic 14: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 14A Strong and Weak Acids
+
+tableE
+
+Youwill noticethatthepHincreasesbyafactorofoneunitforeach10-folddecreaseinconcentration.
+
+If we follow this to its logical conclusion, then an aqueous solution of hydrochloric acid of concentration 1.00× 10-8mol dm-3 should have a pH of 8.00.This is clearly nonsense because this would mean that asolution of an acidwas alkaline.
+
+Earlierin thistopicwementioned thefact that the contributionto the hydrogenion concentrationfrom the dissociation of water can usually be ignored. When solutions are as dilute as 10-8mol dm-3 this is no longer the case. The pH of 10-8 mol dm-3 hydrochloric acid is very close to 7, as the contribution to the concentration of hydrogen ions from the water(10-7mol dm-3) is now greater than that of the acid.
+WEAKACIDS
+
+Table F shows the pH of five aqueous solutions of ethanoic acid(CHCOOH). Ineach case the acid has been diluted by a factor of ten from 1.00 (1.00 × 10%) to 0.000100 (1.00 × 10-4)mol dm-3. Once again, all solutions are at a temperature of 298K.
+
+## Topic 14: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 14A Strong and Weak Acids
+
+
+#### WEAKACIDS
+| CONCENTRATION/moldm-3   |      |   1.00 (1.00×109)0.100 (1.00×10-1) |   0.0100 (1.00× 10-2) |   0.00100 (1.00 ×10-3) |   0.000100 (1.00×10-4) |
+|-------------------------|------|------------------------------------|-----------------------|------------------------|------------------------|
+| pH                      | 2.38 |                               2.88 |                  3.38 |                   3.88 |                   4.38 |
+
+## Topic 14: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 14A Strong and Weak Acids
+
+CP11
+
+DeterminingKaofaweakacidfromexperimentaldata
+
+Note thatthisisa differentwayofdoingCorePractical11:Finding theKavalueforaweakacidtothatmentionedinyourLabBook. The followingexperiment can be performed to determineKa of benzoicacid (CHsCOOH),whichisaweakmonobasicacid.
+
+• ·Accuratelyweighbetween0.40and0.50gofbenzoicacid.Then dissolveitinasmallvolume(say50cm3)ofdeionisedwater contained ina beaker.(Benzoic acid isnotvery soluble,soit may benecessarytowarmthewatertogetittodissolve.Allowthe solutiontocoolbeforeperformingthenextstage.)
+
+• Transferthesolutiontoa250cm3volumetricflask.Addseveral washingsfromthebeakerusingdeionisedwater,andthenmake uptothemarkwithdeionisedwater.
+
+• Putastopperintheflaskandthenturntheflaskupsidedown several timestomixthesolution.
+
+• Withdrawasampleofthesolutionandplaceitinasmallbeaker.
+
+• ·MeasurethepHof thesolutionusingacalibratedpHmeter.
+Sampleresults
+
+Mass of benzoic acid = 0.49 g pH of solution=3.00
+
+OurexperimentalresultfortheKofbenzoicacidisclosetothe acceptedvalue.However,thatdoesnotnecessarilymeanthatwe have performed an accurate experiment.There may have been a numberoferrors that have,by chance,cancelledout one another
+
+To startwith,wehave assumed that the[CHsCOOH(aq)] at equilibrium is identical to the original concentration of benzoic acid.Obviously,thisis notcorrectbecause it musthave dissociated slightly toproduce a solution of pH=3.00.
+
+The major uncertainty in this experiment is the measurement of thepHvalue.Evenasmallerrorleadstoalargediscrepancyin thefinalanswerApHof3.10would giveafinal answer of 3.92×10-5,whereas a value of 2.90wouldgive 9.87×10-5for the value of Ka.
+
+Transfer errors may also be significant when weighing out small amounts.
+
+## Topic 14: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 14A Strong and Weak Acids
+
+CHECKPOINT
+
+• 1. Predictwhetheraqueoussolutionsofthefollowingsaltswillbe neutral,acidicoralkaline.Justifyyouranswers.
+
+## Topic 14: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 14A Strong and Weak Acids
+
+Analysisofresults
+
+CH5COOH(aq)=CH5COO-(aq)+H+(aq) Molar mass of benzoic acid (CHsCOOH) = 122 g mol-1 n(CHsCOOH)in250cm3ofsolution=0.49/122mol So,[CHsCOOH(aq)] = (0.49/122) × 4 mol dm-3 pH =3.00
+
+So,[H*(aq)] =10-3.00 =[CgHsCOO-(aq)] Ka = (10-3.00)2 ÷ (0.49/122) × 4)
+
+• =6.22×10-5moldm-3
+
+TheDataBookvalueis6.32x10-5moldm-3at298K.
+
+SafetyNote:Weareyeprotection.Avoidskincontactwith,and donotraisedustfrom,thebenzoicacid.
+
+• (a)Ammoniumnitrate,NH4NO3
+
+• (b)Potassium propanoate,CHCHCOOK
+
+• (c)Sodiumnitrate,NaNO3
+
+• 2. Whatinformationisrequiredinordertomake aprediction about thepHof anaqueoussolutionof ammonium methanoate,HCOONH?
+
+PROBLEM-SOLVING
+
+• 3.CalculateKaforchloroethanoicacidfromthefollowingdata. 1.89gofchloroethanoicacidwasdissolvedin50cm²ofwater andthesolutionwasdilutedto250cm²inavolumetricflask. ThepH of this solution was1.99.
+
+## Topic 14: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 14B Acid-Base Titrations
+
+14B 1 ACID-BASE TITRATIONS, pH CURVESAND INDICATORS
+
+## Topic 14: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 14B Acid-Base Titrations
+
+LEARNING OBJECTIVES
+
+• Be ableto draw andinterpret titration curves,using all combinations of strong and weak monoprotic and diprotic acids with bases, and apply these principles to diprotic acids andbases.
+
+• Be able to select a suitable indicator for a titration, using a titrationcurveand appropriatedata.
+
+## Topic 14: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 14B Acid-Base Titrations
+
+ENDPOINTANDEQUIVALENCEPOINT
+
+Whenyou carry out a simple acid-base titration,you usually useanindicatortotellyouwhentheacid andbasearemixed in exactly the right proportions to react in equivalent amounts, asdictatedbythestoichiometricequation.Whentheindicator changes colour,this is often described as the'endpoint'of the titration.
+
+Theequivalencepointiswhentheacidandbasehavereacted togetherintheexactproportionsasdictatedbythestoichiometric equation.When titrating an aqueous solution of a monobasic acidwithan aqueoussolutionofamonoacidicbaseofthesame concentration, 25 cm²ofacid will react exactly with 25 cm² of base.
+
+The pH at the equivalencepoint depends on the combination ofacid and base used.Forexample,ifyou aretitrating aqueous sodiumhydroxidewithdilutehydrochloricacid,thenthepHatthe equivalencepointis7.00(at298K),asboththebaseand the acid arestrong.Thesolutionattheequivalencepointwillcontainthe saltsodiumchloride.
+
+If, however, ethanoic acid (a weak acid) is titrated against sodium hydroxide(astrongbase),thesolutionattheequivalencepointwill containthesaltsodiumethanoate,and thepHwill begreaterthan 7(seeSection 14A.4).
+
+If hydrochloric acid (a strong acid) is titrated against aqueous ammonia(aweakbase),thesolutionattheequivalencepoint willcontainthesaltammoniumchloride,and thepHwill beless than 7.
+
+## Topic 14: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 14B Acid-Base Titrations
+
+LEARNING TIP
+
+Theterm'neutralisationpoint'shouldnotbeusedtodescribethepoint atwhichtheacidandbasehavereactedintheexactproportionsas dictatedbythestoichiometricequation.Asseenbytheexampleslisted, thepHofthesolutionformedisnotalways'neutral(i.e.doesnot alwayshaveapHof7.00 at298K)
+
+Rememberthattheterm'endpoint'referstowhenthecolourof theindicatorjustchangescolour-thisdoesnot alwaysoccur at the equivalencepoint(seediscussionofindicatorchoicelaterin this section).
+
+## Topic 14: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 14B Acid-Base Titrations
+
+TITRATIONOFASTRONGACIDWITHASTRONGBASE
+
+Asyou add an aqueoussolutionofanacidtoanaqueoussolution of a base, you might expect there tobe a gradual change in the pH of the solution formed. This is not the case. When the pH of thesolutionisplottedagainstthevolumeofacidadded,theshape ofthecurvedependsonthenatureoftheacid andbaseused. The curvesproduced in thisway are called'pH titrationcurves'.
+
+figA A pH meter.
+
+We will start by looking at the pH titration curve when a strong acid is addedto a strongbase.
+
+The following graph is produced when adding 1.00 mol dm-3 HCl(aq) to a 25 cm? sample of 1.00 mol dm-3 NaOH(aq). The pH is measured using a pH meter such as the one shown in fig A.
+
+Volumeofacidadded/cm?
+
+figBpHcurvefora strong acid-strongbase titration.
+
+You can see in fig B that the pH falls only a very small amount until it is quite near the equivalence point. Then there is a really steep plunge. If you calculate the values, the pH falls all the way from11.30whenyouhaveadded 24.90cm3to2.70whenyouhave added25.10cm3.
+
+Thereis alarge'steepsection'tothecurve.Aswewillseelaterin this section, this is an important point to consider when choosing an appropriate acid-base indicator todetermine the endpoint of this titration.
+TITRATIONOFAWEAKACIDWITHAWEAKBASE
+
+For thisexamplewewill add1.00moldm-3ethanoicacid to 25 cm²of1.00moldm-3sodiumhydroxide.
+
+Forthisexamplewewill add1.00moldm-3ethanoicacid to 25 cm²of 1.00 moldm-3aqueous ammonia.
+
+figCpH curveforaweak acid-strongbase titration.
+
+The curve (fig C) is the same as that for a strong acid-strong base up to theequivalencepoint,butthereisadifferenceoncetheacid is presentinexcess.Pasttheequivalencepoint,thesolution contains a mixture of ethanoic acid and sodium ethanoate. This mixture acts as a buffer solution and therefore resists any large change in pH upon addition of further acid. (See Section 14B.2).
+
+Note that the pH at the equivalencepoint isbetween 8 and 9;it is not7.
+TITRATIONOFASTRONGACIDWITHAWEAKBASE
+
+For this example we will add 1.00 mol dm-3 hydrochloric acid to 25 cm²of1.00moldm-3 aqueous ammonia.
+
+figDpHcurvefora strong acid-weakbase titration.
+
+Whentheacidisfirst addedthepHstartstofallquitesharply, but the curve quickly levels out (fig D). This is because a buffer solution has been formed, containing ammonia and ammonium chloride(again,seeSection 14B.2).
+
+NoticethatthepHattheequivalencepointislessthan7because the salt formed, ammonium chloride, is composed of a strong acid and aweakbase.
+
+fig EpH curve for a weak acid-weak base titration.
+
+Notice that there is not any steep section to this graph (fig E). Instead, there is what is known as a 'point of inflection'. The lack ofa steepsectionmeansthatit isdifficult todoa titrationof a weak acid against a weak base using anindicator Thereason for thiswill beexplained inSection14B.3.
+ACID-BASEINDICATORS
+
+Earlierinthissectionwelooked atthepHtitrationcurves obtained when an aqueous solution of an acid is added to an aqueoussolutionofabase.Thefourcasesweconsideredwere:
+
+• ·strong acid-strongbase
+
+• weak acid-strongbase
+
+• strong acid-weak base
+
+• weakacid-weakbase.
+
+We are now going to use these four curves to help us understand why different indicators arerequiredfor different types of titrations.
+
+An acid-base indicatoris either aweak acid or a weak base. Mostindicators areweak acids(HIn).Foran indicator that is a weak acid, its dissociation in aqueous solution can be represented as:
+
+HIn(aq) = H+(aq) + In-(aq)
+
+The molecule, HIn, and its conjugate base, In, have different colours in aqueous solution.For methyl orange, these are red and yellow,respectively:
+
+When [H+(aq)] is sufficiently large the equilibrium will shift far enough to the left for the red colour to predominate. If [H+(aq)] is verylowthentheequilibriumwillliefarovertotherightandthe yellow colour will predominate.Therefore,the indicator changes colour accordingtothepHofthesolution.
+
+There will be a stage at which [HIn(aq)] = [In-(aq)] and the indicator will appear orange. The exact pH at which this stage is reached can be determined using the equilibrium constant,Kin,for methyl orange.
+
+When [HIn(aq)] = [In-(aq)], the expression becomes: [H+(aq)] = 2.00 × 10-4 mol dm-3
+
+This gives a pH of 3.70 for the 'half-way' stage. So, methyl orange will change colour at a pH of 3.70.
+
+Notethat thispHvalueis alsothesameasthevalueofpK,for methylorange.Therefore,thepHatwhichdifferentindicatorswill change colour can be determined from their pKivalues.
+pHRANGEOFINDICATORS
+
+As a'rule of thumb',the red colour of methyl orange will first predominate when [HIn(aq)] is ten times [In-(aq)], and the yellow colour will predominate when [In-(aq)] is ten times [HIn(aq)].
+
+The approximate pH at which each colour predominates can be calculated asfollows.
+
+So, the pH at which the red colour first predominates is 2.70.
+
+AsimilarcalculationwillshowthatthepHatwhichtheyellow colourfirstpredominates is 4.70.
+
+to 4.70.
+
+The exact pH range of methyl orange is 3.10 to 4.40. This means that at pH values below 3.10, methyl orange will appear red. At pHvalues above4.40,methyl orangewill appearyellow.Between 3.10 and 4.40, methyl orange will be a shade of orange.
+
+Table A shows the pKinvalues,pH ranges and colours of several common indicators.
+
+## Topic 14: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 14B Acid-Base Titrations
+
+
+#### pHRANGEOFINDICATORS
+table A
+
+| INDICATOR        |   pKin | pH RANGE   | COLOUR - HIn(aq)   | COLOUR - In-(aq)   |
+|------------------|--------|------------|--------------------|--------------------|
+| methyl orange    |   3.70 | 3.10-4.40  | red                | yellow             |
+| bromophenol blue |   4.00 | 2.80-4.60  | yellow             | blue               |
+| bromothymolblue  |   7.00 | 6.00-7.60  | yellow             | blue               |
+| phenol red       |   7.90 | 6.80-8.40  | yellow             | red                |
+| phenolphthalein  |   9.30 | 8.20-10.00 | colourless         | red                |
+
+## Topic 14: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 14B Acid-Base Titrations
+
+CHOICEOFINDICATOR
+
+A good indicator shows a complete colour change upon the addition of one drop of acid from the burette. This is necessary inordertoaccuratelydeterminetheendpointofthetitration.
+
+Therefore,therehastobea minimumpH changeequivalent to the pH range of the indicator in order for the indicator to successfully determine the end point.
+STRONGACID-STRONGBASETITRATION
+
+Let us first of all consider the use of methyl orange and phenolphthalein as indicators for a strong acid-strong base titration.
+
+Fig F shows the pH titration curve for 25 cm? of 1.00 mol dm-3 NaOH(aq) titrated with 1.00 mol dm-3 HCl(aq). The pH ranges of methylorangeandphenolphthaleinhavealsobeenincluded.
+
+figFStrong acid-strongbasepH curve.
+
+You will notice that the pH range of each indicator falls within the steepsectionofthecurve,wherealargepHchangeisoccurring upontheadditionofjustonedropofacid.Thismeansthatboth indicators will change colour at the end point and therefore both aresuitable indicators touse in this titration.
+WEAKACID-STRONGBASETITRATION
+
+Wewill nowconsiderthesuitabilityofeachindicatorforaweak acid-strongbase titration.
+
+Fig G shows the pH titration curve for 25 cm? of 1.00 mol dm-3 NaOH(aq) titrated with 1.00 mol dm-3 CH;COOH(aq). Once again, the pH ranges of methyl orange and phenolphthalein have also been included.
+
+figGWeakacid-strongbasepHcurve.
+
+This time, only the pH range of phenolphthalein falls within the steep section of the curve. So, phenolphthalein is suitable, but methyl orange is not.
+STRONGACID-WEAKBASETITRATION
+
+Fig H shows the pH titration curve for 25 cm? of 1.00 mol dm-3 NH(aq) titrated with 1.00 mol dm-3 HCl(aq). Again, the pH ranges of methyl orange and phenolphthalein have also been included.
+
+fig HStrong acid-weak base pH curve.
+
+This time, only the pH range of methyl orange falls within the steep section of the curve. So, methyl orange is suitable,butphenolphthalein is not.
+WEAKACID-WEAKBASETITRATION
+
+Fig I shows the pH titration curve for 25 cm? of 1.00 mol dm-3 NH(aq) titrated with 1.00 mol dm-3
+
+figIWeakacid-weakbasepHcurve.
+
+Infact,the end point of a titration of aweak acid and a weak base cannot be determined using an acid-base indicator The end point of such a titration is best determined by measuring the temperature changes (thermometric titration) or electrical conductivity changes (conductometric titration).
+TITRATIONCURVESWITHDIPROTICACIDS
+
+A diprotic acid is an acid that produces two H+ions per acid molecule.Examples ofdiprotic acids are sulfuric acid, H,SO4, and carbonic acid, HCO3.
+
+A diprotic acid dissociates inwater in twostages:
+
+Stage 1:
+
+H2X(aq) → H+(aq) + HX-(aq)
+
+Stage 2:
+
+HX-(aq) → H+(aq) + X²-(aq)
+
+Because ofthe successivedissociations(onefollowing immediately after the other), the titration curves of diprotic acids have two equivalencepoints,as shown infig J.
+
+figJDiprotic acid-strong base pH curve.
+
+The equationsforthe acid-basereactionsoccurringbetween a diprotic acid, HX, and the base sodium hydroxide, NaOH, are as follows.
+
+From the beginning of the reaction to thefirst equivalence point:
+
+Fromthebeginningofthereactionthroughtothesecond equivalencepoint(overall reaction):
+
+HX + 2NaOH →Na2X + 2H2O
+
+At the first equivalence point, all H+ ions from the first dissociation havereactedwithNaOH.
+
+At the second equivalence point, all H+ions from both reactions have reacted (twice as many as at the first equivalence point).
+
+Therefore,the volume of NaOH added at the second equivalence point is exactly twice that at the first equivalence point.
+CHOOSINGTHEBESTINDICATOR
+
+Thebestindicatortochoosefor aparticulartitrationisthe onewhosepKinvalueis as close aspossibleto thepH at the equivalencepoint.
+
+Bromothymol blue (pKin = 7.00) is a particularly good indicator for a strong acid-strongbase titration.
+
+## Topic 14: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 14B Acid-Base Titrations
+
+EXAM HINT
+
+In an exam,youwillbegivena databookthatcontainsthepKin values,pHrangesandcoloursof10commonindicators.
+
+## Topic 14: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 14B Acid-Base Titrations
+
+INTERPRETATION
+
+1.Theequationforthereactionbetweenhydrochloricacid and ammonia is:
+
+A 25.0cm²sampleof0.0200moldm-3HCl(aq)wasplaced in a conicalflask.Aqueousammoniawasaddedgraduallyfroma burette and thepH was measured aftereach addition,until the pH no longer changed.
+
+ThepHcurveforthistitrationisshownbelow.
+
+• (a)Statehowthecurvesuggeststhatammoniaisaweakbase.
+
+• (b) Use the informationgiven to calculate the concentration of theammoniasolution.
+
+• (c)The pH ranges for three indicators are:
+
+Thymol blue:1.2 to 2.8
+
+Methylred:4.2to6.3
+
+Thymolphthalein: 9.3 to 10.5
+
+Explainwhichofthesethreeindicatorsisthemostsuitable for this titration.
+INTERPRETATION
+
+• 2.(a) Calculate the pH at 298K of an aqueous solution of CHsCOOH of concentration 0.100mol dm-3. [Ka = 1.74 × 10-5 mol dm-3 at 298 K]
+
+• (b)SketchthepH titrationcurveforthe additionof50.0cm3 of 0.100 mol dm-3 NaOH(aq) to 25.0 cm² of 0.100 mol dm-3 CH3COOH(aq).
+
+• (c)StatetwodifferencesinthepHcurvethatwouldbe obtained if the titration were repeated using 25.0 cm3 of 0.0500moldm-3CHCOOH(aq)instead of 25.0 cm²of 0.100 mol dm-3 CHsCOOH(aq).
+
+## Topic 14: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 14B Acid-Base Titrations
+
+SUBJECT VOCABULARY
+
+equivalencepointthepointina titrationwhentheacid andbase havereactedtogetherintheexactproportionsasdictatedbythe stoichiometricequation
+
+## Topic 14: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 14B Acid-Base Titrations
+
+LEARNING OBJECTIVES
+
+• Know what is meant by the term 'buffer solution'.
+
+• Understandtheactionofabuffersolution.
+
+• BeabletocalculatethepHofabuffersolutiongiven appropriate data.
+
+• Beabletocalculatetheconcentrationsofsolutions requiredtoprepareabuffersolutionofagivenpH.
+
+• Understand theimportance of buffer solutions in biologicalenvironments:
+
+• (i)buffers in cells and in blood (H2CO3/HCO3-)
+
+• (i) in foods to prevent deterioration due to pH change (caused by bacterial or fungal activity).
+
+## Topic 14: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 14B Acid-Base Titrations
+
+WHATISABUFFERSOLUTION?
+
+Many experiments,particularly in biochemistry,have to be performedinaqueoussolutionsoffairlyconstantpH.Unfortunately, itisimpossibletomakeasolutionwhosepHistotallyunaffected by the addition ofevensmall amountsofacid orbase.However, it is possible to make a solution whose pH remains almost unchanged whensmall amountsofacidorbaseareadded.Such asolution is called abuffersolution.
+
+There are many ways of making a buffer solution, but two of the mostcommonare:
+
+• ·to mix a weak acid with its conjugate base
+
+• .to mix a weak base with its conjugate acid.
+BUFFERMADEFROMAWEAKACIDANDITSCONJUGATEBASE
+
+Thesimplestexampleof thisis ethanoicacid and sodiumethanoate.Thesaltoftheweakacidhastobesolublein used tomakebuffersolutions.
+
+In this mixture the acid is partially dissociated, whereas the salt is fully dissociated. The relevant equations are:
+
+CH;COOH(aq) = CH;COO-(aq) + H+(aq)
+
+CH;COONa(aq) → CH;COO-(aq) + Na+(aq)
+
+This mixturewill produce a buffer solution with a pH less than7. TheexactpHdependsontheconcentrationofbothacid andits conjugate base, and can be calculated as follows.
+CALCULATINGTHEpHOFABUFFERSOLUTION
+
+For our examplewe will use a solution that has been made by mixing equal volumes of 1.00 mol dm-3ethanoic acid and 1.00moldm-3sodiumethanoateat298K.
+
+Ifweassumethattheextentofdissociationoftheacidis negligible,then the concentration of CHCOOH at equilibrium will be 0.500 moldm-3.
+
+Also,againbecause thedissociationofthe acid isnegligible,the concentrationoftheethanoateionsatequilibriumcanbe considered tobe entirely madeupfrom thesodiumsalt.So,theconcentration of ethanoate ions at equilibrium is also 0.500 mol dm-3.
+
+Notethattheconcentrationofbothacid andsaltinthemixtureis halfoftheconcentrationsusedbecauseequalvolumesofeach solutionweremixed.Thetotalvolumeofthemixtureistwicethat of theoriginalvolume ofeach solutionused.
+
+At 298K,
+
+Rearranging this equation and substituting values for [CH;COOH(aq)] and [CH;COO-(aq)] gives:
+
+[Ht(aq)] = (1.74 × 10-5 x 0.500)/0.500 mol dm-3
+
+= 1.74 × 10-5 mol dm-3
+
+This gives a pH for the buffer solution of 4.76.
+
+## Topic 14: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 14B Acid-Base Titrations
+
+LEARNING TIP
+
+Apotential trapwhencalculatingthepHofabuffersolutionisnot understandingthatwhentwosolutionsaremixedthereisadilution. If50cmofonesolutionismixedwith50cm3ofanothersolution, thenthetotalvolumeofthemixturewillbe100cm3.So,the concentration of each solution will be halved onmixing.
+
+## Topic 14: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 14B Acid-Base Titrations
+
+HOWDOESTHEBUFFERACTIONWORK?
+
+Whenasmallamountofacidisaddedtothebuffersolution,the majority of the H+ions added react with the CHCOO-ions to form CHCOOH molecules:
+
+CH;COO-(aq) + H+(aq) → CH;COOH(aq)
+
+When a little base is added,the majority of the OH-ions added reactwiththeCHCOOHmolecules:
+
+CH;COOH(aq) + OH-(aq) → CH;COO-(aq) + H2O(l)
+
+Anewequilibriummixturewill beestablishedinwhichthe concentrationsofbothCHCOOH and CHCOO-willhavechanged slightly from their original values. So, there willbe a change in pH, but this willbe minimal. This is shown by the following argument.
+
+To show that the pH has changed very little,we once again need tomake use of the expressionforKaofthe acid:
+
+Rearranging this equation gives:
+
+As there are a relatively large number of CHCOOH molecules in thesolution,astheextentofdissociationoftheacidisverysmall, the change in [CH;COOH(aq)] will be negligible.
+
+Also, the change in [CHCOO-(aq)] will be negligible because there are a relatively large number of CHCOO-ions present, resultingfromthetotaldissociationoftheCHCOONa.
+
+[CH;COOH(aq)] This means that the ratio will remainfairly constant. [CH,COO-(aq)]
+
+If thisratio remains fairly constant, then [H+(aq)] remains fairly constant because,atagiventemperature,Kis also constant.
+
+If [H+(aq)] remains fairly constant, then the pH remains fairly constant.
+
+To summarise,a buffer solution of a weak acid and its conjugate basemaintainsafairlyconstantpHbecausetheratioof [CHCOOH(aq)] to [CH;COO-(aq)] remains fairly constant when smallamountsofeitheracidorbaseareadded.
+
+#### HOWDOESTHEBUFFERACTIONWORK?
+The best way to demonstrate the effect of addinga small amount of acid on the pH of a buffer solution is to calculate the pH of the bufferbothbeforeandafteraddingtheacid.
+
+We have already calculated thepH ofa buffer solution made bymixingequalvolumesof1.00moldm-3ethanoicacid and 1.00 moldm-3sodiumethanoate at298K.It is 4.76.
+
+Let us imagine that we have mixed 500 cm? of each solution to make1dm²ofbuffersolution.TheamountsofCHCOOH and CHCOO-in thissolutionwill bothbeequal to0.500mol.
+
+Let us imagine we have 1 dm? of this solution and we add 1.00× 10-²(0.0100)mol of HCl to it.To make themathematics easierwewillassumethatthevolumeofthesolutiondoesnot change.
+
+0.0100 mol of HCl will provide 0.0100 mol of H+ ions. These will reactwith theCHCOO-ions in thebufferina 1:1molarratio:
+
+The amount of CHCOOHpresent will now have increased from 0.500 to 0.510 mol.
+
+The amount of CHCOO-present will have decreased from 0.500 to 0.490 mol.
+
+So,thenewconcentrationsof acid and basepresent are: [CH;COOH(aq)] = 0.510 mol dm-3 and [CH;COO-(aq)] = 0.490 mol dm-3
+
+The new hydrogen ion concentration is given by:
+
+The new pH = -lg (1.81 × 10-5) = 4.74 (to 3 significant figures).
+
+The pH has changed by 0.02 units from 4.76 to 4.74.
+
+Tounderstandhoweffectivethebuffersolutionisincontrolling the pH,let us consider adding 0.0100 mol of H+ ions to 1 dm² of deionised water
+
+The pH, at 298 K, of deionised water is 7.00 so:
+
+[H+(aq)] = 1.00 × 10? mol dm-3
+
+Adding 0.0100 mol of H+ ions gives:
+
+[H+(aq)] =(1.00 × 10-7 + 0.0100)= 1.00001 × 10-2mol dm-3
+
+The new pH is given by:
+
+The pH has dropped by5units as opposed to 0.02 units with the buffersolution.Aconsiderabledifference!
+HENDERSON-HASSELBALCHEQUATION
+
+TheHenderson-Hasselbalch equation canalsobe used to calculatethepHofabuffersolution.
+
+For a weak acid, HA, and its conjugate base, A, the following equationapplies:
+
+concentrations atequilibrium.However it isreasonabletotakethe original concentrations, for reasons we have already discussed.
+
+TheoriginalconcentrationofA-will bethesameasthatofthe salt,provided thatasodiumorpotassiumsalthasbeenused.The equationcannowberewrittenas:
+
+Ifwe take thelogarithm tobase 10 of both sides of this equation weget:
+
+This last equation is themost common form of the HendersonHasselbalch equation.
+
+## Topic 14: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 14B Acid-Base Titrations
+
+LEARNING TIP
+
+Donotworryifyoudidnotfullyunderstandthederivationofthe Henderson-Hasselbalchequation.Youdonotneedtolearnthis equationfortheexam,althoughyoumayuseitifyouwish.The equation is alsogivenin anotherforminwhich[base]replaces[salt], becauseA-isthebaseinthebuffer.
+
+IfweusetheHenderson-Hasselbalchequationtocalculatethe pH ofoursolution containingethanoic andethanoateions,both ofconcentration0.500moldm-3,weobtain:
+
+Thisisthesame answer asweobtainedearlier.
+
+## Topic 14: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 14B Acid-Base Titrations
+
+BUFFERMADEFROMAWEAKBASEANDITSCONJUGATEACID
+
+The most common example of this type of bufferis ammonia and the ammonium ion.The ammoniumionis usually supplied in the form ofammonium chloride.Thismixturewill provide a buffer solutionwithapHgreater than7.
+
+The most convenient equilibrium to consider is:
+
+NH₄⁺(aq) ⇌ NH₃(aq) + H⁺(aq)
+
+ThismixtureprovidesarelativelyhighconcentrationofbothNH3 molecules and NH ions.
+
+The buffer works ina similar manner to the weak acid-conjugate base system.The addition of acid results in the added H+ions reactingwithNHmolecules:
+
+NH(aq) +H+(aq)→NH(aq)
+
+whereastheadditionofbaseresultsinthe addedOH-ions reactingwithNHions:
+
+NH(aq) + OH-(aq)→NH(aq) +H2O(l)
+
+Asthereis a relativelyhighconcentration ofbothNHmolecules and NH ions, the ratio of [NH(aq)] to [NH(aq)] remains relativelyconstantwhenweaddsmallamountsofeitheracidor base.This results in the pH remainingfairly constant because it is given by the equation:
+
+pH = pKa + lg ([NH₃(aq)] / [NH₄⁺(aq)])
+
+As pKa is constant at a given temperature, the pH of the solution depends on the ratio of [NHs(aq)] to [NH(aq)].
+HOWTOMAKEABUFFERSOLUTIONWITHAREQUIREDpH
+
+Tomakeabuffersolutionwith a pHless than7,you need touse a mixtureofaweakacid anditsconjugatebase.
+
+In theoppositeway,you needtouseamixtureofaweakbase and itsconjugateacid tomakeabuffersolutionwithapHgreaterthan7.
+
+## Topic 14: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 14B Acid-Base Titrations
+
+WORKEDEXAMPLE1
+
+Imaginewe have tomake a buffer solution of pH 5.00 at a temperatureof298K.
+
+Tomakethissolution,weneedahydrogenionconcentration, [H+（aq)].of 1.00×10-5moldm-3.
+
+Thehydrogen ion concentrationof a buffersolution of aweak acid anditsconjugatebaseiscalculatedusingtheformula:
+
+[H⁺(aq)] = Ka × ([acid] / [salt])
+
+Ifweuseethanoicacid astheweakacid,then:
+
+Ka = 1.74 × 10⁻⁵ mol dm⁻³
+
+Ifwenowsubstituteourknownvaluesintotheequationweobtain:
+
+1.00 × 10⁻⁵ = 1.74 × 10⁻⁵ × ([acid] / [salt])
+
+This gives a value for:
+
+[acid]/[salt] of (1.00 × 10⁻⁵ ÷ 1.74 × 10⁻⁵) = 0.575 (to 3 significant figures)
+
+So,if we were supplied with an ethanoic acid solution of concentration 0.575moldm-3andasodiumethanoatesolutionof1.00moldm-3, wecouldmake abuffersolution ofpH5.00by mixingequal volumes of the two solutions.This would give us a solution in which the acid concentrationwas0.2875moldm-3andthesaltconcentrationwas 0.500moldm-3
+
+[(0.2875 + 0.500) = 0.575]
+WORKEDEXAMPLE2
+
+Inwhatproportionsshouldwemix0.100moldm-3solutionsof
+
+ammoniaandammoniumchloridetoobtainabufferofpH9.80? The equation for the dissociation of NHt in aqueous solution is:
+
+NH₄⁺(aq) ⇌ NH₃(aq) + H⁺(aq) Ka = [NH₃(aq)][H⁺(aq)] / [NH₄⁺(aq)] = 5.62 × 10⁻¹⁰ mol dm⁻³ [NH₃(aq)] / [NH₄⁺(aq)] = 5.62 × 10⁻¹⁰ / [H⁺(aq)] [H⁺(aq)] = 10⁻pH = 10⁻⁹·⁸⁰ = 1.58 × 10⁻¹⁰ mol dm⁻³ [NH₃(aq)] / [NH₄⁺(aq)] = 5.62 × 10⁻¹⁰ / 1.58 × 10⁻¹⁰ = 3.56
+
+Therefore,wehavetomixthesolutionsin aratiobyvolumeof3.56 NHs(aq) to 1 NHCI(aq).
+
+## Topic 14: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 14B Acid-Base Titrations
+
+CONTROLLINGTHEpHOFBLOOD
+
+Thehumanbodyworkswithin a narrowrangeofpHvalues. For example,the pH of arterial blood plasma needs to be in the rangeof7.35to7.45.Thewaythatthewholebodyfunctions would be affected ifthepH of thisblood plasmawere to change significantly, particularly if it were to fall.
+
+ThepHofblood incellsiscontrolledbyamixtureofbuffers The most important one is the carbonic acid-hydrogen carbonate buffermixture.
+
+In thismixture the carbonic acid molecule,HCO,acts as the weak acid.The hydrogen carbonate ion,HCO,is the conjugate base of H2CO3.
+
+The equilibrium that exists is represented by the equation:
+
+H₂CO₃(aq) ⇌ HCO₃⁻(aq) + H⁺(aq)
+
+Undernormalcircumstances,theamountofHCOionpresent is approximately20timesthatofH2CO.Asnormalmetabolism produces more acids than bases,this is consistent with the needs of the body.
+
+Any increase in the concentration of hydrogen ions in the blood (for example,by the production of lactic acid in the muscles), resultsintheequilibriumshownabovemovingtotheleft asthe addedH+ionsreactwith theHCOions.
+
+Avarietyofrespiratoryandmetabolicfactorscanalsocausethe pH oftheblood torise.Forexample,theoveruseofdiuretics increases theamountofurineexcretedfromthebody.Iftheurine contains large amounts ofacids,thenthepHoftheblood will increase.Ifthishappens,theequilibriumshown abovewillmove to theright as theH2COmoleculesionise toincrease theH+ concentrationandrestorethepHtoitsnormal level.
+
+#### CONTROLLINGTHEpHOFBLOOD
+Thisisconsidered tobethemostimportantbufferbecauseitis coupledwiththerespiratorysystemofthebody.Carbonic acid is not particularly stable, and in aqueous solution it decomposes to form carbondioxideandwater:
+
+H₂CO₃(aq) ⇌ CO₂(aq) + H₂O(aq)
+
+It is the respiratory system that is responsible for removing carbondioxidefromthebody.Aqueouscarbondioxideexistsin equilibriumwithgaseouscarbondioxide:
+
+CO2(g) = CO2(aq)
+
+Combiningthesethreereactionsgivesus:
+
+CO2(g) +H2O(aq)= CO2(aq) +H2O(aq) =H2CO(aq) =HCO(aq) +H+(aq)
+
+Whentheseequilibriashifttotheleftasaresultofanincrease in hydrogen ion concentration,the concentration of carbon dioxidein theblood increases.The carbondioxideleaves the blood in the lungs and is then exhaled,thus maintaining the normalpH of theblood.
+BUFFERSINFOOD
+
+A combination of variousfactors such as light,oxygen,heat, humidity and/ormanykindsofmicroorganisms(bacteria and fungi) can spoil food. We try to reduce spoilage by keeping certain foods in the dark, in airtight containers and/or in refrigerators.
+
+Spoilageoffoodbymicroorganismsdependsgreatlyonthe pH value of the food. Most microorganisms thrive when the pH of their surroundings is close toneutral (pH6.6-7.5).The metabolismofthesemicroorganismsisthengreatestandthey canmultiplyquickly.MostbacteriacansurviveatpHvaluesas outside this range.
+
+One important factor in the spoilage of food is its buffer capacity. Buffercapacityisameasureoftheamountofacidorbaserequired to change significantly the pH of the food. The more protein there is in thefood,thehigheris its buffer capacity.This is because the amino acidspresenthaveboth acidicand basicproperties. This means that it takes longer for the pH of the food to change enoughfor thebacteria to start multiplying.Bacteria and moulds causingill-effects.
+
+## Topic 14: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 14B Acid-Base Titrations
+
+DID YOU KNOW?
+
+Manyprocessedfoods,suchasjams,containbuffersystemssuch ascitricacidandsodiumcitrate.ThesehelptomaintainthepH withinarangewherethegrowthofmicroorganismsisveryslow or non-existent.
+
+figAJamis an exampleofaprocessedfood thatcan containcitric acid andsodium citrate.
+
+## Topic 14: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 14B Acid-Base Titrations
+
+CHECKPOINT
+
+• 1. (a)Explainwhatismeantbythe term'buffersolution'
+
+• (b) Explain how an aqueous solution containinga mixture ofmethanoicacid,HCOOH,andpotassiummethanoate, HCOOK, acts as a buffer.
+
+• (c)Abuffersolutioncontainsequalconcentrationsof methanoicacidandpotassiummethanoate. ExplaintheeffectonthepHofthissolutionofaddingsome solidpotassiummethanoate.
+
+• (d)CalculatethepH,at298K,ofabuffersolutionmadeby mixing equal volumes of 1.00mol dm-3methanoic acid and 0.500moldm-3potassiummethanoate.
+
+[Ka(HCOOH)= 1.79 ×10-4mol dm-3]
+
+## Topic 14: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 14B Acid-Base Titrations
+
+SKILLS CREATIVITY
+
+• 2. Astudentpreparestwosolutions.
+
+• Solution A is prepared by mixing 50 cm3 of 0.100 mol dm-3 CHCOOH(aq)with25cm²of0.100moldm-3NaOH(aq). Solution B is prepared by mixing 25 cm3 of 0.200 mol dm-3 CHCOOH(aq)with50cm²of0.100moldm-3NaOH(aq).
+
+• ExplainwhysolutionAisabuffersolutionbutsolutionBisnot.
+
+• 3. Abuffersolutionwasmadebymixing50cm3of 0.200moldm-3 aqueousammonia,NHs(aq),with50cm3ofaqueousammonium chloride, NH4CI(aq). The pH of the resulting solution was 9.55. Calculate the concentration of the NH4Cl(aq) used.
+
+[Ka(NHt) = 5.62 × 10-10 mol dm-3]
+
+• 4. CalculatethepHofabuffersolutioncontaining12.20gof benzoicacid(CHsCOOH)and7.20gofsodiumbenzoate (CHsCOONa) in 1.00 dm² of solution.
+
+[pKa(CsHsCOOH) = 4.20]
+
+• Likewater,liquidammoniaundergoesself-dissociation:
+
+• 2NH3 = NH +NH
+
+• (a) Explain why ammonia can be classified as an amphoteric substance.
+
+• (b)Foreachofthefollowingsubstances,indicatewhethera solutionofitinliquid ammoniawillbe'acidic''basic'or 'neutral'.
+
+• (i)Ammonium chloride,NH4Cl
+
+• (ii)Sodium amide,NaNH2
+
+• (i)Potassiumhydroxide,KOH
+
+## Topic 14: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 14B Acid-Base Titrations
+
+SUBJECT VOCABULARY
+
+buffersolutionasolutionthatminimisesthechangeinpHwhen a smallamountofeitheracidorbaseisadded
+
+buffercapacityameasureoftheamountofacidorbaserequiredto changesignificantlythepHof foodorofasolutionofanacidand abase
+
+## Topic 14: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 14B Acid-Base Titrations
+
+LEARNING OBJECTIVES
+
+• Understand howtouse a weak acid-strongbase orstrong acid-weakbase titrationcurveto:
+
+• (i)demonstratebufferaction
+
+• (ii)determineKfromthepHatthepointwherehalftheacidisneutralised/equivalencepoint
+
+## Topic 14: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 14B Acid-Base Titrations
+
+BUFFERACTIONDURINGATITRATION
+
+A typical pH titration curve is shown in fig B.
+
+Fig A shows a typical pH curve obtained when a weak acid is titrated against a strongbase.
+
+fig AStrong base-weak acid pH curve showing buffer range.
+
+## Topic 14: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 14B Acid-Base Titrations
+
+EXAM HINT
+
+Whenaweakacid istitratedagainstastrongbase,thereisafairlyrapid changeof about1.5pHunits when the strongbaseisfirst added.This is beforethebufferrangebegins.Besuretoshowthisclearlyifyouare askedtosketchacurveforthistitrationinanexamquestion.
+
+In the region marked buffer range', the change in pH as the base is added isgradual.Over thisrange thereisa considerable concentration of both acid and conjugate base molecules. This mixture is displaying buffer action.
+
+## Topic 14: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 14B Acid-Base Titrations
+
+DETERMININGKFROMApHTITRATIONCURVE
+
+This experiment involves performing a titration with an aqueous solutionofaweakacidinaconicalflask.Fromaburette,weadd a standard solution of a strong base, such as sodium hydroxide. WemeasurethepHofthesolutionaftereachaddition.
+
+Then we are able toplot a graph of pH against volume of base added.From this graph we can determine the minimum volume of base required to completely react with all of the acid.
+
+Then we can use the graph to determine the pH at the halfequivalence point. This pH value is equal to the pKa value of the weak acid. From this it is a simple matter to calculate Ka for the acid.
+
+The volume at the equivalence point is 25 cm3, so the volume at the half-equivalence point is 12.5 cm². The pH when 12.5 cm? of base is added is 4.80.
+
+figBStrongbase-weakacidpH curve showingequivalence and halfequivalencepoints.
+
+## Topic 14: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 14B Acid-Base Titrations
+
+EXAM HINT
+
+Makesureyou usethetermhalf-equivalencepoint andnothalfneutralisationpointwhendeterminingthepkaofaweakacid.
+
+## Topic 14: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 14B Acid-Base Titrations
+
+SUPPORTINGTHEORY
+
+The theoretical justificationfor determiningKfor a weak acid by themethodshown aboveisquitestraightforward.
+
+Themixtureatthehalf-equivalencepointisabuffersolution(as stated above). The pH of a buffer solution is calculated using the following equation:
+
+At thehalf-equivalencepoint:
+
+[salt] =[acid], so [salt]/[acid] = 1
+
+The logarithm to the base 10 of 1 (lg 1) = 0.
+
+So,the equationbecomes:
+
+pH = pKa
+ALTERNATIVEMETHOD
+
+Thismethodhasbeencalled the‘half-volumemethod'.
+
+• ·Using a volumetric pipette,place 25.0 cm² of an aqueous solution of the weak acid into a conical flask.
+
+• Add a few drops of phenolphthalein indicator.
+
+• Titrate against a solution of aqueous sodium hydroxide until the end point colour is obtained.
+
+• Note the volume of sodium hydroxide required. This is the minimum volume required to completelyreactwiththeacid.
+
+• Use a fresh 25.0 cm? sample of the same aqueous solution of theweak acid and the same aqueous solution of sodium hydroxide,but this time do not add the phenolphthalein.
+
+• Add only halfthevolume of sodium hydroxide required toreact with the acid.
+
+• Measure the pH of this solution. This pH value is equal to the pKa value of the acid.
+
+PRACTICALSKILLS CP11
+
+Notethatyoualsoconsidered this corepracticalinSection 14A.4.
+
+SafetyNote:Weareye protectionandavoidskin contactwiththesolutions. Makesurethetopofthe buretteisbeloweyelevel when you fill it.
+
+## Topic 14: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### Topic 14: Acid-Base Equilibria
+
+APROBLEMGROWS
+
+Ocean acidification makes it difficult for mussels to attach to surfaces.This is a worryingprospect in the waters around PugetSound, USA.
+MUSSELS LOSE FOOTING IN MORE ACIDIC OCEAN
+
+figACarbondioxidefromgreenhousegasemissionshassteadily causedseawatertobecomemoreacidic.Thishasdisruptedorganisms accustomedtotheslightlyalkalinewatersof thepast20millionyears.
+
+PENNCOVE,Wash.-Cookietrayinhandandlifejacketaround chest,LauraNewcomblooksmorelike a confusedbaker thana marinebiologist.ButtheUniversityofWashingtonmarinebiologist isdressedforwork.Herjob:testinghowmusselsinthisidyllicbayare affected by changing ocean conditions,especially warmer and more acidicwaters.It's aquestionthatiskeytounderstandingwhether climate change threatensmussels aroundtheworld,aswell asthefood chainsmusselssupportandprotectinthewild.
+
+AlongtheWest Coast,mussels arewell-known ecosystemengineers, saidBruceMenge,anOregonStateUniversityresearcherwhostudies how climate impacts coastal ecosystems.'They provide habitat for dozensofspecies,theyprovidefoodformanypredators andoccupya large amount of space,so are truly a dominant species.
+20millionyears
+
+anearlierUniversityofWashingtonlabstudyfoundthatincreased carbon dioxideweakensthestickyfibres,calledbyssus,thatmussels use to surviveby clingingto objects like shorelines orropes.
+
+'Ifbyssal threadweakeningdoes eventuallybecomeimportant, Menge added,'the consequences would be major if not catastrophic.
+
+Newcomb'sgoalnowistostudyintherealworldwhatwaslearnedin thelab.'Iusethenaturalseasonalvariationtotrytoanswerthesame questions,Newcomb said.
+
+Newcomb'sfieldofficeisthereardeckofaboat-rightbetweenthe toilet and themicrowave.The quarters arecramped,buttheviewis grand:thebluewaters ofPenn CoveonWashingtonstate'sWhidbey Island are set againstrollingbluffs and snow-capped mountains.
+30percentincreaseinacidity
+
+Placingmussels onhertray,Newcombsamples themforsize,thickness and strength.The mussels grow on the long ropes that hangfrom several dozenraftsinthebay.Newcombtakessamplesfromtwodepths:3feet and 21feet.She also sampleswatertemperature and pH levels at those depths.
+
+Prior to the Industrial Revolution and the explosion of anthropogenic CO2, ocean pH averaged 8.2. Today it's 8.1, a 30 per cent increase in acidity on thelogarithmic scale.Computermodelspeg ocean acidity at 7.8to7.7bytheendofthecentury atthecurrentrateofgreenhouse gas emissions.
+
+WashingtonStateisabitaheadofthatcurvebecauseancientcarbon storesinthedeepoceanareperiodicallychurnedupbylocal currents. Thesurprisinglabdiscoverywas thatmusselbyssusweakenedby40 per centwhen exposed to a pH of 7.5.AtPenn Cove,lowpHlevels are not uncommon-Newcombhasevenseen7.4intheyear thatshe's been sampling.
+
+'We'reworried they'regoingtoseeitmorefrequently'saidEmily Carrington,Newcomb'sgraduateadviserandleaderoftheUniversity ofWashingtonteamthatpublishedtheearlierlabresults.
+
+Carbondioxidefromgreenhousegas emissionshassteadilyturned seawatermore acidic,disruptingorganisms accustomedtotheslightly alkaline waters ofthepast 20millionyears.Inthe case ofmussels,
+
+FromTheDailyClimate²byMiguelLlaneshttps://www.dailyclimate.org/-2598789581.html
+SCIENCE COMMUNICATION
+
+• 1This article is not taken from a scientific journal. Instead it is designed to draw a wider audience's attention to an important environmental problem. Identify writing techniques in the text that the authorusestomakethesciencemoreaccessible.
+CHEMISTRY IN DETAIL
+
+• 2Write an equationfor thereaction ofcarbon dioxidewithwater toformhydrogencarbonate ions and H+(aq) ions.
+
+• 3 (a) Using the relationship pH = -lg [H+], show that a change in pH from 8.2 to 8.1 is
+
+• (b)Calculate thepH of theocean if the acidity increasesby100%froma startingpH of 8.2.
+
+• 4Many sea organisms form shellsmadeof calcium carbonate.Use the equationbelow to explain why increasing levels of carbon dioxide in the air are making this process increasingly difficult. CO2(aq)+CO2-(aq)+H2O(1) =2HCO3(aq)
+
+• 5Many organisms use intracellular HCO ions to buffer changes in pH. Use equations to show how HCO ions can buffer small changes in H+(aq) and OH-(aq).
+
+• 6Theequationfor the dissociation of carbonic acid inwater canberepresented as: HCO3（aq)=H+(aq)+HCO(aq)
+
+• (a)Write anexpressionforKforcarbonicacid.
+
+• (b)Given that the value of this pKa is 6.3 and that the pH of blood is 7.4, calculate the ratio of hydrogen carbonate ions to non-dissociated carbonic acid molecules in blood plasma.
+
+• (c)What assumptions haveyou made inyour answertoquestion6b?
+ACTIVITY
+
+Themoleculehistidineisoneofthe20aminoacidsthatmakeupallproteins.Histidineresidues in haemoglobin molecules are also involved in buffering the blood's pH. Research and create a presentationsuitablefor14-to16-year-oldChemistrystudentsaddressingthequestionsbelow:
+
+• ·Whatdoesahistidinemoleculelooklike?
+
+• Whichpart of the molecule acts as the proton donor and which as theproton acceptor?
+
+• ·Histidine canfrequently be found at the catalytic centres of enzymes.Can you suggest why?
+
+WRITINGSCIENTIFICALLY
+
+Beingabletocommunicate scientificideastoawide audienceisanimportant skill,particularlywhenthe sciencehasimplicationsfor decision-makinginsociety.
+
+THINKING BIGGERTIPS
+
+Think abouthowanincrease incarbondioxidewould affecttheequilibriumof thisreaction,andtherefore theavailabilityofcarbonate ions.
+DID YOU KNOW?
+
+March2014wasthefirst monthinwhichtheaverage atmosphericcarbondioxide levelsreachedthe400ppm milestone.Butcarbon dioxideisnottheonlycause of climatechange.lIfwe factorinoxidesofnitrogen andmethaneandtrace amountsofothergasessuch asSF,the'equivalent CO2" atmospheric concentrationis about480ppm.TheNational OceanicandAtmospheric Administration(NOAA climate.gov) predicts that if carbondioxideproduction continues atcurrentrates then the average ocean pH willbe7.3by2100.
+
+## Topic 14: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### Topic 14: Acid-Base Equilibria
+
+14 EXAMPRACTICE
+
+• 1In an acid-basetitration,a 0.10 mol dm-3solutionofa base is addedto25cm²ofa 0.10moldm-3solutionofanacid. The diagram shows thepH valueofthe solutionplotted
+
+against thevolume,V,of base added.
+
+This diagram could represent a titrationbetween:
+
+• A CH;COOH(aq) and NH(aq)
+
+• B CH;COOH(aq) and KOH(aq)
+
+• C HCl(aq) and NH;(aq)
+
+• D HCl(aq) and KOH(aq)
+
+[1]
+(Total for Question 1 = 1 mark)
+
+• 2Hardness in water canbe determined by titrating a sample against a reagent that forms complexions with dissolved metal ions.
+
+• Theindicatorfor this titrationrequiresthepH tobemaintained at about10.
+
+• 4The following equilibrium exists in a mixture of concentrated nitric acidandconcentratedsulfuric acid:
+
+HNO+2H2SO4=NO+2HSO+HO+
+
+Whichstatementiscorrect?
+
+• A HNO and NOz are a conjugate acid-base pair.
+
+• B The nitric acid acts as an oxidising agent.
+
+• C The sulfuric acid acts as a dehydrating agent.
+
+• DThe sulfuric acid acts as a base.
+
+[1]
+(Total for Question 4 = 1 mark)
+
+• 5A sales leaflet claims that'applications of a solution of ammonium sulfate, which is acidic, improve the growth of acidlovingrhododendronbushesbyincreasingtheavailabilityof nitrogen and also by increasing the pH of the soil.
+
+• What iswrong with this statement?
+
+• AAqueous ammoniumsulfate isnot acidic.
+
+• BAmmonium sulfate does not dissolve in water.
+
+• C To be a fertiliser, nitrogen is needed in its oxidised form (nitrate) and not in its reduced form (ammonium).
+
+• DThepHof thesoil will bedecreased,notincreased.
+
+[1]
+(Total for Question 5 = 1 mark)
+
+• 6A fruit juice contains a monobasic acid HA.
+
+• (a) The fruit juice has a hydrogen ion concentration of 2.50 x 10-4 mol dm-3. Calculate the pH of the fruit juice. [2]
+
+• (b)A 25.0 cm² sample of the fruit juice reacted exactly with 26.70cm²of0.0100moldm-3sodiumhydroxide.
+
+• (i)Write a chemical equation for the reaction taking place. Statesymbols arenotrequired. [1]
+
+• (i)Calculate the concentration,in moldm-3,of HA in the fruit juice.
+
+Which of these, in aqueous solution, could be used to do this?
+
+• Aammonia and ammonium chloride
+
+• Bammonium chloride andhydrochloric acid
+
+• C sodium ethanoate and ethanoic acid
+
+• Dsodiumhydroxideand sodiumethanoate.
+
+[1]
+
+(Total for Question 2 = 1 mark)
+
+• 3 A 1.0 × 10-2 mol dm-3 aqueous solution of the weak, monoproticacid HAhasapHof4.0.
+
+What is the approximate pKa value for the acid?
+
+A 4.0
+
+C 6.0
+
+C 7.0
+
+D 8.0
+
+[1]
+
+(Total for Question 3 = 1 mark)
+
+[3]
+
+• (ii)Compareand contrastyouranswerin(b)(ii)with the hydrogenion concentration.Then,make a deduction about the strength of the acid, HA, in the fruit juice. [2]
+
+• (c)(i) Write an equation to represent the dissociation of HA into its ions in aqueous solution.
+
+[1]
+
+• (ii)Write an expression for the acid dissociation constant, Ka, of HA(aq). [1]
+
+• (i) The value of Ka for HA(aq) is 6.00 × 10-5 mol dm-3 Calculate the concentration of the undissociated acid under these conditions.
+
+[2]
+
+(Total for Question 6 = 12 marks)
+
+• 7A mixture ofethanoic acid,CHCOOH,andits sodiumsalt CHCOONa, can act as a buffer solution.
+
+#### (Total for Question 5 = 1 mark)
+• 10Sulfurdioxidereactswithwater toproduce sulfurous acid, HSO3, which is a weak dibasic acid.
+
+• (a)State what is meant by the term buffer solution'. [2]
+
+• (b)Explain how a mixture of ethanoic acid and sodiumethanoateactsasabuffer. [4]
+
+• (c)A buffer solution is made by adding a solution of sodium hydroxide, of concentration 1.00 mol dm-3, to a sample of 1.00 mol dm-3 ethanoic acid until half of the amount of acid present has reacted.Calculate the pH of this buffer solution.
+
+[Ka of ethanoic acid at the temperature used is 1.70 × 10-5 mol dm-3]
+
+[3]
+(Total for Question 7 = 9 marks)
+
+• 8The values of the ionic product of water, Kw,are 1.00 × 10-14 mol2 dm-6 at 298 K and 5.48 × 10-14 mol2 dm-6 at 323K.
+
+• (a)Calculate the pH of water at each of these two temperatures. [4]
+
+• (b) Using your answers to (a), comment on the validity of the following statement:
+
+• 'Pure water is neutral because it has a pH of 7'. [2]
+
+• (c)Show that the data supplied can be used to deduce the sign of△Hfor the dissociation of water intoions. [2]
+(TotalforQuestion8=8marks)
+
+• 9In 1923, Johannes Bronsted and Thomas Lowry proposed independentlyatheorythatwhenanacidreactswithabase the acid forms its conjugate base.The theory is known as the 'Bronsted-Lowry' theory.
+
+• (a)Statewhat ismeant by the term conjugatebase.
+
+[1]
+
+• (b)(i)In each of the two equations,identify the species on theleft-handsideof theequationthatisbehaving as a Bronsted-Lowry acid.
+
+[2]
+
+Equation 1: CsHsCOO-+ HF = CHsCOOH + F-
+
+Equation 2: CHsCOOH + CN-= CHsCOO-+HCN
+
+• (i)Explain the relative strengths of the three acids involved in the two equilibria. [Assume that both equilibria lie well to the right-hand side.] [4]
+
+• (c)Liquid ammonia, like water, undergoes self-ionisation, accordingtothefollowingequation:
+
+NH+NH=NH+ NH
+
+Foreachofthetwosubstanceslisted,explainwhether a solution in liquid ammonia would be'acidic', basic' or 'neutral'.
+
+• (i)Ammonium chloride, NHCl-
+
+• (i)Sodium amide,Na+NH
+
+[4]
+(Total for Question 9 = 11 marks)
+
+• The equation for the first dissociation into ions is: HSO(aq) = H+(aq) + HSO(aq) Ka(1)(298 K) = 1.20 × 10-2 mol dm-3
+
+• (a)
+
+• Calculate the value of pKa(1) for H2SO3. [1]
+
+• (b) Use Ka(1) to calculate the approximate pH of an aqueous solutionof0.500moldm-3H2SOat298K. [3]
+
+• (c) The measured pH of 0.500 mol dm-3 H2SO is slightly lower than thatcalculated in part (b). Commenton a possible reason for this difference.
+
+[1]
+
+• (d) The constant Kw has a value of 1.00 x 10-14 mol2 dm-6 at 298 K.
+
+• (i) Give the name of the constant Kw. [1]
+
+• (i) Write the expression for Kw. [1]
+
+• (e) Potassiumhydroxide,KOH,is a strongbase in aqueous solution. Calculate the pH of 0.500 mol dm-3 KOH. [3]
+(Total for Question 10 = 10 marks)
+
+• 11The graph shows the change in pH when dilute hydrochloric acid istitratedwithsodiumcarbonatesolution.
+
+The overall equation for the reaction is: Na2CO(aq) + 2HCl(aq) → 2NaCl(aq) + CO2(g) + H2O(l)
+
+• (a)Suggest suitable indicators to detect the changes at A and at B.
+
+• (b) Explainwhy the change at Awouldbemoredifficult to detect than the change at B.
+
+[2]
+
+• (c)S Suggest equationsfor thereactions takingplace at each stage.
+
+[2]
+
+(Total for Question 11 = 6 marks)
+
+## Topic 15: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### Topic 15: Organic Chemistry: Carbonyls, Carboxylic Acids and Chirality
+
+TOPIC15ORGANIC CHEMISTRY:CARBONYLS CARBOXYLICACIDSAND CHIRALITY
+CHIRALITYIBCARBONYLCOMPOUNDS CARBOXYLICACIDSIDCARBOXYLICACIDDERIVATIVES E SPECTROSCOPYANDCHROMATOGRAPHY
+
+In Book 1 you learned about the simplest hydrocarbons (alkanes and alkenes) and how to name them using IUPAC (International Union of Pure and Applied Chemistry) rules.You then considered halogenoalkanes and alcohols, including important practical techniques used to convert one organic compound into another. You the structures oforganiccompounds.
+
+In this topic, you will extend your understanding of organic chemistry by considering compounds with functional groups such as aldehydes, ketones, carboxylic acids, acyl chlorides and esters. This topic introduces
+
+Here are some important areas of organic chemistry you will encounter:
+
+• How measurements of optical activity can be used as evidence for organicreaction mechanisms
+
+• How simple chemical tests can beused to identify differentfunctional groups
+
+• The uses of estersin solvents,food flavourings andperfumes.
+MATHS SKILLS FOR THIS TOPIC
+
+• Useratios,fractions and percentages(i.e.formulae based on experiments)
+
+• Translate information between graphical, numerical and algebraic forms
+
+• Visualise and represent2D and 3D forms,including two-dimensional representations of 3D objects
+
+• Understand thesymmetryof 2D and3D shapes
+Whatpriorknowledge do I need? Topics4,5and10
+
+• Howtousedifferentkindsofformulaeto representorganiccompounds
+
+• Using IUPACrulesto name organiccompounds
+
+• Recognisingdifferenttypesofisomerism, including geometrical isomerism
+
+• How to convertone organiccompound into another
+
+• Howtowritereactionmechanisms
+
+Topic10
+
+• Howtousemassspectrometry andinfrared spectroscopytodeterminethestructuresof organiccompounds
+What will I study in this topic?
+
+• Chiralityandopticalisomerism
+
+• Examplesofconvertingoneorganiccompound intoanother
+
+• Different types of reaction mechanisms
+
+• Theanalyticaltechniqueofnuclearmagnetic resonance spectroscopy
+
+• Theuseofchromatographytoidentifythe componentsinamixture
+
+## Topic 15: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 15A Chirality
+
+LEARNING OBJECTIVES
+
+• Know that optical isomerism is a result of chirality inmolecules with a single chiral centre.
+
+• Understand that optical isomerism results from chiral centre(s) in a molecule with asymmetriccarbon atom(s) and that optical isomers(enantiomers) areobject and non-superimposable mirrorimages and be able to draw3D diagrams of these optical isomers.
+
+## Topic 15: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 15A Chirality
+
+DIFFERENTTYPESOFISOMERISM
+
+InBook1,youlearned aboutstructuralisomerism anditsdivisionintochainisomerism andposition isomerism.You then considered a different type of isomerism called'geometric isomerism',including the termsE-Z and cis-trans isomerism-thisisonetypeofstereoisomerism.
+
+This chapterlooks at a second type of stereoisomerism-opticalisomerism.Before we introduce this,it is useful to consider all the types of isomerism thatyou need to befamiliarwith, in the form of a family tree.
+
+figATheisomerismfamilytree.
+
+Structural isomers are compounds with the same molecular formula but with different structural formulae.
+
+Functional group isomers differ because they have different functional groups (e.g. aldehydes and ketones, alcohols and ethers).
+
+Chain isomers differ because they have different patterns of branching in their carbon chains.
+
+Positional isomers differ because the same functional group is attached to different carbon atoms in the chain.
+
+Stereoisomershavethesamestructuralformulabutdifferbecausetheiratomsorgroups are arrangeddifferentlyinthreedimensions.
+
+Geometricisomers differbecause their atoms orgroups are attached at different positions on opposite sides of a C=C double bond.
+
+OPTICALISOMERISM
+
+Howdoesopticalisomerismfitintothisfamilytree?Opticalisomersarenon-superimposablemirror images of each otherbut are otherwise the same.This needs careful explanation!
+CHIRALITY
+
+This is a term derived from the Greek word for'hand',and could be translated as'handedness'. Many objects,includinghumanhands,canbedescribed aschiral.Yourhandshavethesamefeatures,and you could describeboth hands using the same words.Both consist of a palm with a thumb on one
+
+15.2
+
+sideandfourfingersofdifferentsizes.However,ifyouplace one cannotsuperimposeonehand ontheother.
+
+Nowputyourhandstogether-youcanseethatthethumbsare corresponds.Next,putyourlefthand infront of a mirror,then lookattheimage inthemirror andyourright hand atthesame time-theyshould lookidentical,soyour hands canbe described asmirrorimages,or sometimes as an object and itsmirrorimage.
+CHIRALITYINSIMPLEMOLECULES
+
+The key to understanding chirality in molecules is to visualise them in 3D,and ideallyuse models tohelpyou.Think of a molecule consistingofasinglecarbon atom joined tofour different groups or atoms (represented by W, X, Y and Z). If you represent themoleculeintwodimensions,withbond angles of 90°,you cannot easily see why there should be two different arrangements.However,youmayrememberfromTopic3
+
+(Book 1:IAS) on the shapes of molecules that you can attempt toshowthe3Dnatureofmoleculesusingdifferentstylesto represent thebonds.Ordinarylines areused torepresentbonds in the plane of the paper, tapered or wedge-shaped lines indicate those above theplane of thepaper, and dashed lines indicate thosebelowtheplaneofthepaperDrawingthetwostructures side-by-sideclearlyshowshowtheyrelatetoeachotherasobject and mirror image (fig B).
+
+The asterisk(*)indicates that the carbon atom nexttoitis achiral centre,alsoknownas anasymmetriccarbon atom.
+
+If the attached atoms or groups are W, W, X and Y (so that two are thesame)itispossibletoshowthattheyrelatetoeachotherinthe same way (they aremirror images).However,there is no chirality because one can also be superimposed on the other(fig C).
+
+• figCThesestructures arenotoptical isomersbecause thereareonly threedifferentgroupsjoinedtothecentral carbonatom.
+
+HOWTOIDENTIFYCHIRALCENTRESINSTRUCTURALFORMULAE
+
+Youneed tobeabletoidentifychiral centresinmoleculessuch astheexamplesshownintableA.Youonlyneedtoconsider whetherthereisacarbonatomjoinedtofourdifferentatoms or groups.
+
+## Topic 15: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 15A Chirality
+
+
+#### HOWTOIDENTIFYCHIRALCENTRESINSTRUCTURALFORMULAE
+| STRUCTURE       | COMMENTS                                                                                                                                                                                                                                                                                      |
+|-----------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| CBr2CIF         | The single carbon atom has only three differentatoms attached,sothereisno chiral centre.                                                                                                                                                                                                      |
+| CHCHBrCH2CH3    | Carbons1,3and4in thechainhave twoormorehydrogens attached, so arenot chiral.Carbon2isjoined to four different groups (methyl, hydrogen, bromine and ethyl), so it is a chiral centre.                                                                                                         |
+| CHCHCHBrCHCH3   | Carbons1,2,4and5inthechainhave twoormorehydrogensattached,so arenotchiral.Carbon3isjoinedto only three different groups (two ethyl, one hydrogen and one bromine), so it isnota chiral centre.                                                                                                |
+| CHCHCHBrCHBrCH3 | Carbons1,2and5inthechainhave twoormorehydrogensattached,so arenotchiral.Carbon3isjoinedto four different groups (ethyl, hydrogen, bromineand CHBrCH),soitisachiral centre.Carbon 4 is joined to four different groups (methyl, hydrogen, bromine and CHCHCHBr),so it is also a chiral centre. |
+
+## Topic 15: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 15A Chirality
+
+tableA
+
+If amoleculehas a chiral centre,thenitcanexist as optical isomers-eachoneisknown asanenantiomer.
+
+## Topic 15: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 15A Chirality
+
+LEARNING TIP
+
+It isreallyworthwhileusingmolecularmodelstomakesomemodels ofsimplestructurestochecktheideaofmirrorimagesand superimposability.
+
+## Topic 15: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 15A Chirality
+
+CHECKPOINT
+
+• 1. Whatisthemainsimilarityandthemaindifferencebetween opticalisomersandgeometricisomers?
+
+• 2. Howmanychiral centresarethereineachofthesemolecules? (a) CH;CCICH3
+
+• (b) CH;CH(OH)COOH
+
+• (c) CH2CI-CHCI-CHFCH3
+
+## Topic 15: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 15A Chirality
+
+SUBJECT VOCABULARY
+
+chiralachiralatominamoleculeisonethatallowsittoexistas non-superimposableforms.Itcanalsorefertothemoleculeitself asymmetricanasymmetriccarbonatominamoleculeisonethatis joinedtofourdifferentatomsorgroups
+
+enantiomersisomersthatarerelatedasobjectandmirrorimage
+
+## Topic 15: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 15A Chirality
+
+LEARNING OBJECTIVES
+
+• monochromaticlight in molecules containinga singlechiral centre.
+
+• Knowwhatismeantbytheterm'racemicmixture'.
+
+## Topic 15: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 15A Chirality
+
+PLANE-POLARISEDLIGHT
+
+In theprevioussectionwelooked at the causes ofoptical isomerism.Beforewe consider optical activity,wemusthavesomeunderstandingofplane-polarisedlight.Onewaytoconsiderlightis aselectromagneticradiationthattravelsasatransversewave.Thismeansthattheoscillationsexistin planes at right angles to the direction of travel.FigA shows'normal'unpolarised light and planepolarised light with the oscillations in only one plane.
+
+figAIn an unpolarised wave,oscillations mayoccurin any plane,while in a plane-polarisedwave theyoccur in onlyoneplane.
+
+Somenaturalmaterials,andsyntheticmaterialssuchasPolaroid(thematerialusedinsome sunglasses), can absorb all of the oscillations except those in a single plane. This means that they convertunpolarisedlightintoplane-polarised light.Forconvenience,thesingleplane thatremainsis often assumed to be the vertical plane, as shown in fig B.
+
+• fig BPolarisation of light.
+
+Fig B shows that the second sheet of Polaroid has horizontal lines, which means that only horizontally plane-polarised lightcanpass through.Asthefirst sheet hasproducedvertically planepolarised light,then nolight canpass through thesecond sheet.
+POLARIMETRY
+
+Polarimetry is the use of a polarimeter to measure the amount of optical activity,if any, of a substance. Fig C shows how a polarimeter works.A monochromatic light source (light of only one colour or frequency) passes through a polarising filter (such as a piece of Polaroid). This is called the polarised light then passes through a sample tube containing some of the substance in solution. If thesubstanceis opticallyactive(becauseit containsanenantiomer),thentheplaneofpolarisation
+
+willberotatedsothatitisnolongervertical.Inthisexample therotationisanticlockwise,and thesubstancecanthereforebe describedaslaevorotatory'.If therotationisclockwise,thenthe substance is'dextrorotatory'.
+
+light
+
+source
+
+figCYoucanseehowtheplaneofpolarisationofthepolarisedlightis rotatedanticlockwiseasitpassesthroughthesampletube.
+
+Thesecondpolarisingfilter,knownastheanalyser,isrotatedtoa positionwherethemaximumlightintensitycanbeseen.Theangle of rotation (α) is measured, and is quoted as a positive value if therotationisclockwiseandasanegativevalueiftherotationis anticlockwise. In fig C, the rotation, α, is approximately -90°.
+PROPERTIESOFENANTIOMERS
+
+Two enantiomers have identical physical properties, with one exception.Theenantiomersrotatetheplaneofpolarisationof plane-polarised light by equal angles, but in opposite directions. So,if therotationforoneenantiomeris+60°,thentherotationfor theotherenantiomeris-60°.
+
+Twoenantiomershaveidentical chemicalproperties,withone exception-thewayinwhichtheyreactwithenantiomersof other substances.This chemical property maybe different for eachenantiomer
+RACEMICMIXTURES
+
+Whathappensifacompoundwithachiralcentreispresent as amixtureofbothenantiomers?You canimaginethat the dextrorotatoryandlaevoratatoryenantiomershaveequal but opposite effects on plane-polarised light. This means that the analyserdoesnotneedtoberotatedtoallowthemaximum lightintensitytobeseen.Withoutknowinganythingaboutthe substance,it isnotpossibletodistinguishbetweenasubstance thathasnooptical activityandonethathasopticallyactive enantiomers whose effects cancel out.A mixture containing equal amountsoftwoenantiomersiscalled aracemicmixture.
+
+We will briefly explain here the origin of this scientific term.The Latin word racemus means a bunch of grapes. How is this related to optical activity?TheFrenchchemist LouisPasteur achieved a lotinhislifetime(1822-1895),and his name lives on in theword pasteurisation',often associated withmilkproduction.He also realisedthattartaricacidproducedduringthefermentationof otherwaysdidnot.Heeventuallyrealisedthatasingleenantiomer of tartaric acid was produced from fermenting grapes and that amixtureofbothenantiomersoftartaricacidwasproduced in the other ways.Becausetartaric acid is present ingrapes, theterm'racemicacid'wasused,andthe'racemic'partofthis termwasthenusedtodescribeanequimolarmixtureofthetwo enantiomers.
+
+Herearethestructuresofthetwoenantiomersoftartaricacid:
+
+figDThetwoenantiomersof tartaricacid.
+
+## Topic 15: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 15A Chirality
+
+EXAM HINT
+
+Youmaybeaskedtodrawopticalisomersinanexam.Makesure thatyouidentifythechiralcarbonwitha*andusethewedgeand dottedlinenotation.
+
+LEARNING TIP
+
+Itisworthspendingsometimemakingsureyouunderstandthe differencesbetweentheseterms:
+
+unpolarised,polariserlane-polarised,planeofpolarisation.
+
+## Topic 15: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 15A Chirality
+
+CHECKPOINT
+
+• Outlinehowapolariserworks
+
+SKILLS
+
+REASONING
+
+• 2.Adextrorotatoryenantiomerhasarotationof+43°.Amixture of thisenantiomeranditslaevorotatoryenantiomerhasa rotationof-10°.Whatdoesthisinformationindicateaboutthe compositionofthismixture?
+
+## Topic 15: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 15A Chirality
+
+SUBJECT VOCABULARY
+
+optical activitya substance shows optical activityif it rotatesthe planeofpolarisationofplane-polarisedlight
+
+plane-polarisedlightmonochromaticlightthathasoscillationsin onlyoneplane
+
+unpolarisedlightlightthathasoscillationsinallplanesatrightangles tothedirectionoftravel
+
+polarimeterthe apparatus used tomeasure the angleof rotation causedbyasubstance
+
+polariseramaterialthatconvertsunpolarisedlightintoplanepolarisedlight
+
+analyseramaterialthatallowsplane-polarisedlighttopassthroughit racemicmixtureanequimolarmixtureoftwoenantiomersthathas noopticalactivity
+
+## Topic 15: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 15A Chirality
+
+15A 3OPTICALACTIVITYAND REACTIONMECHANISMS
+
+## Topic 15: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 15A Chirality
+
+LEARNING OBJECTIVES
+
+• Be able to use data on optical activity of reactants and products as evidence for S1 and Sv2 mechanisms.
+
+## Topic 15: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 15A Chirality
+
+NUCLEOPHILICSUBSTITUTIONINHALOGENOALKANES
+
+InBook1you learned towritemechanismsfor thesereactions,but thiswaslimited.Wesuggested that the explanationgiven inBook1 was incomplete and that therewasmore to come.
+
+Now is the appropriate time to develop the explanation in greater depth.First, let us revise what you may remember from Book 1. Fig A shows how we represented the mechanism of the reaction betweentheprimaryhalogenoalkanebromoethaneandhydroxideions.
+
+figAThisisa simplewaytorepresentanucleophilicsubstitutionmechanism.
+
+Wemust now accept that thismechanismhasbeen madetoosimpleand thatweneed toconsider twoalternativemechanisms.Thismechanismshowsthemovementoftwopairsofelectrons happening at the same time - those from the O of OH- ions and those from the C——Br bond. In fact, therearetwodistinctmechanisms.
+THESN2MECHANISM
+
+The individual symbols in‘Sn2' have the following meanings.
+
+S=substitutionN=nucleophilic2=bimolecular
+
+Thetermbimolecular'meansthattherearetwospeciesinvolvedintherate-determiningstep-in this example,theOH-ion and thehalogenoalkane.
+
+Bimolecular reactions were considered in Topic 11 in this book. In this topic, we are going to revisit the mechanism provided in Book 1, by looking at it in more detail. Here is the mechanism for a primary halogenoalkane that is also an enantiomer.
+
+figBThisis theSv2mechanism showing thetransition state.
+
+Noticethatthecurlyarrowsareusedinthesameway.Themechanismnowincludesatransition state showing the HO—C bond forming and the C—Br bond breaking. The dashed lines represent partial bonds-those being broken and formed. The most important thing to notice is that the arrangementofthethreegroupsthatremainattachedtothecentralcarbonatomhasbeeninverted (turned inside out).
+
+## Topic 15: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 15A Chirality
+
+LEARNING TIP
+
+Remembertoincludesquare brackets and anegativecharge outsidethebracketswhen writingthetransitionstatein theS2mechanism.Using8+ and8-toindicatethepolar bondsisgoodpractice,butin thissection,theyhavebeenleft out for clarity.
+
+EXAM HINT
+
+Nowisagoodtimetomake sureyouknowtheexact definitionsfornucleophile and electrophile.
+
+15.5
+
+PART
+
+## Topic 15: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 15A Chirality
+
+EVIDENCEFROMOPTICALACTIVITY
+
+If thereaction actuallyoccursaccordingtotheSv2mechanism, then the optical activity of theproductisdifferentfrom that of thereactant.(This is because of theinversion thatoccurs.)If the reactantis dextrorotatory,then theproductwill belaevorotatory, and vice versa. So, by measuring the optical activity of the original halogenoalkaneandthealcoholformed,wecanshowwhetherthe reaction has occurred by theSv2 mechanism.
+THESN1MECHANISM
+
+The individual symbols in ‘Sn1' have the following meanings.
+
+S =substitution N =nucleophilic 1 =unimolecular
+
+The term'unimolecular'means that only one species is involved in therate-determiningstep-in thisexample,just the halogenoalkane.InfigCwehaveused thesamehalogenoalkane asfortheSv2mechanismsothatyoucanfocusonthedifferences betweenthetwomechanisms.
+
+• figCIn theS1mechanism,theplanarcarbocationcanbeattackedfrom the left or from the right, giving a pair of enantiomers.
+
+## Topic 15: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 15A Chirality
+
+EXAM HINT
+
+Whenshowingthehydroxideion asanucleophile,makesureyou indicatethelonepairandthenegativechargeontheoxygenatom. Donot show itasOH-.
+
+The original halogenoalkanehas a tetrahedral shape,but the productofthefirststepofthereactionisacarbocationwitha planarshape.Thismeansthatinthesecondstepofthereaction, thereis anequal chancethat theattackingHO-ion can approach from theleftorfrom theright.There arethereforetwoproducts, bothofwhich are enantiomers. These arepresent in equal numbers,so aracemicmixtureisformed.
+
+## Topic 15: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 15A Chirality
+
+EVIDENCEFROMOPTICALACTIVITY
+
+If the reaction actually occurs according to the Sn1 mechanism, thentheoptical activityoftheproductisdifferentfromthatofthe reactant.Whetherthereactantisdextrorotatoryorlaevorotatory, the product has no optical activity.So,by measuring the optical activityoftheoriginalhalogenoalkane and the alcoholformed,we canshowwhether thereactionhasoccurredbythismechanism.
+WHICHMECHANISM?
+
+In general, the main mechanism for primary halogenoalkanes is Sn2,and for tertiary halogenoalkanes is Sv1.For secondary halogenoalkanes,bothmechanismscanoccur,althoughthemain one depends on the actual halogenoalkane and the conditions.
+DECISION-MAKING
+
+• 1.2-Bromobutane and cyanide ions react together by an SN2 mechanism.Drawthestructureofthetransitionstateformedin this reaction.
+
+• 2. 2-BromopropaneandcyanideionsreacttogetherbyanS1 mechanism.Explain why there is no change in optical activity in thisreaction.
+
+## Topic 15: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 15A Chirality
+
+SUBJECT VOCABULARY
+
+bimolecular(mechanism)amechanisminwhichtwospeciesare reactingintherate-determiningstep
+
+unimolecular(mechanism) a mechanism in which only one species is reactingintherate-determiningstep
+
+## Topic 15: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 15B Carbonyl Compounds
+
+1CARBONYLCOMPOUNDSAND THEIRPHYSICALPROPERTIES
+
+## Topic 15: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 15B Carbonyl Compounds
+
+LEARNING OBJECTIVES
+
+• Understand thenomenclatureof aldehydesandketones andbe ableto draw theirstructural,displayed andskeletalformulae.
+
+• Understandthataldehydesandketones:
+
+• (i)do not form intermolecular hydrogen bonds, and this affects their physical properties
+
+• (ii)canform hydrogenbondswithwater, and this affects their solubility.
+
+## Topic 15: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 15B Carbonyl Compounds
+
+LEARNING TIP
+
+Whennamingketoneswitha chainoffive ormorecarbon atoms,alocantisneededto showthepositionofthe carbonylgroup.Whennaming aldehydes,alocantisneverused toshowthepositionofthe carbonylgroupbecause the CHOgroupmustbeat theend of the chain.
+
+## Topic 15: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 15B Carbonyl Compounds
+
+DID YOU KNOW?
+
+Some naturally occurring aldehydesandketonesare important inliving systems. Somefunction assex hormones;others are used as flavourings.Forexample, testosterone,the malesex hormone,and progesterone, a hormonesecreted by the ovaries thatstimulates thegrowthofcellsinthe uterinewall,bothcontain a ketone functional group. Aldehydescanbefound in foods,perfumes and medicines.Some aldehydes areresponsibleforvery pleasanttastes and odours, suchasvanillinfromvanilla beans,benzaldehydefrom almondsandcinnamaldehyde from cinnamon.About 82%ofthechemicals present in coriander leaves arealdehydeswith9or 10 carbonatomsinthe molecules.
+
+## Topic 15: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 15B Carbonyl Compounds
+
+NOMENCLATURE
+
+Wemet carbonyl compounds briefly inBook 1,but only as the products of the oxidation of alcohols.
+
+types of compounds contain this group (such as carboxylic acids, which contain COOH), but only two types are classified as carbonyl compounds-these are aldehydes and ketones.
+ALDEHYDES
+
+A carbonyl compound is described as an aldehyde if there is a hydrogen atom joined to the carbonyl group. The naming system uses the suffix -al, and the carbon chain is named in the same way as an alkane. If locants are used, then the carbon of the carbonyl group is carbon 1 in the chain. Table A shows some examples.
+
+## Topic 15: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 15B Carbonyl Compounds
+
+
+#### ALDEHYDES
+| STRUCTURALFORMULA   | NAME                | COMMONNAME         |
+|---------------------|---------------------|--------------------|
+| HCHO                | methanal            | formaldehyde       |
+| CH;CHO              | ethanal             | acetaldehyde       |
+| CH;CH2CHO           | propanal            | (propionaldehyde)  |
+| (CH3)CHCHO          | methylpropanal      | (isobutyraldehyde) |
+| CH;CHCH2CHO         | butanal             | (butyraldehyde)    |
+| CHsCHO              | benzenecarbaldehyde | benzaldehyde       |
+
+## Topic 15: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 15B Carbonyl Compounds
+
+KETONES
+
+A carbonyl compound is described as aketone if there are only hydrocarbon groups joined to the carbonyl group. The naming system uses the suffx-one,and the carbon chain is named in the same way as an alkane.If locants are used, then one of the end carbon atoms in the chain of the carbonyl group is carbon 1 in the chain. The rules about using the lowest possible numbers, as with alkanes, apply to ketones. Table B shows some examples.
+
+## Topic 15: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 15B Carbonyl Compounds
+
+
+#### KETONES
+| STRUCTURALFORMULA   | NAME                | COMMONNAME                |
+|---------------------|---------------------|---------------------------|
+| CH;COCH3            | propanone           | acetone                   |
+| CH;COCHCH3          | butanone            | (methyl ethyl ketone)     |
+| CHCOCHCHCH3         | pentan-2-one        | (methyl propyl ketone)    |
+| CH;CHCOCHCH3        | pentan-3-one        | (diethyl ketone)          |
+| (CH3)2CHCOCH3       | 3-methylbutan-2-one | (methyl isopropyl ketone) |
+
+## Topic 15: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 15B Carbonyl Compounds
+
+
+#### KETONES
+tableB
+
+SPECIFICATION REFERENCE
+
+15.6
+
+15.7(i) 15.7(i)
+
+Thegeneral formula isRCOR'.
+
+For both aldehydes and ketones, the common names in brackets are rarely used.
+
+DISPLAYEDANDSKELETALFORMULAEOFALDEHYDESANDKETONES
+
+TableC and tableDshow the displayed and skeletalformulaeforsome aldehydes andketones.
+
+## Topic 15: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 15B Carbonyl Compounds
+
+
+#### DISPLAYEDANDSKELETALFORMULAEOFALDEHYDESANDKETONES
+tableC
+
+| NAME           | DISPLAYEDFORMULA   | SKELETAL FORMULA   | NAME                 | DISPLAYEDFORMULA   | SKELETAL FORMULA   |
+|----------------|--------------------|--------------------|----------------------|--------------------|--------------------|
+| methanal       |                    |                    | propanone            | H H                | O                  |
+| ethanal        | H H                |                    | butanone             | H H H H H          |                    |
+| propanal       | H H H H            |                    | pentan-2-one         | H H H O H H H H H  |                    |
+| methylpropanal | H                  |                    | pentan-3-one         | H H O H H H H      |                    |
+| butanal        | H H H H H H        |                    | 3-methylbutan-2- one | H H O H H H H      |                    |
+
+## Topic 15: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 15B Carbonyl Compounds
+
+BONDING
+
+Youarefamiliarwiththenatureofthe C=Cdoublebondinalkenes.Itiscomposedofacombination ofsigma and pi bonding.However,thebond isnon-polarbecause there aretwoidentical(carbon) atoms involved. The situation in the carbonyl group is very similar, except that thebond is polar becauseof thedifferingelectronegativitiesofcarbon and oxygen.FigAcomparesthetwo.
+
+• figAThebonding in an alkene is on theleft.The bonding in a carbonyl compound is on the right.Green isused
+
+Notethattheelectrondensityinthepibondofthealkeneisevenlydistributed acrossbothcarbon atoms,but thatin thecarbonylcompound the electron densityisgreaternear the oxygen atom than nearthecarbonatom.
+PHYSICALPROPERTIES
+
+Aldehydeshavedistinctivesmells.Thosewithshortcarbonchains have unpleasant smells (butanal smells of rancid butter). Some of those with long carbon chains have very pleasant smells and are used in expensive perfumes (nonanal, with nine carbon atoms per molecule, smells of roses). The smells of the lower ketones, especially propanone,remind most people of solvents.In fact, propanone is widely used as a solvent, including as nail varnish remover.
+
+figBCinnamon(whichcontainsthe alehyde cinnamaldehyde)comes fromthedriedbarkofthetreeCinnamomumzeylanicum.Itiswidelyused as a spice in cookery.
+BOILINGTEMPERATURES
+
+Aldehydes and ketones contain the polar C=O group and so have permanent dipole-dipole interactions, as well as London forces.Theydonothavehydrogenbondingbecauseall oftheir hydrogen atoms arejoined to carbon atoms.Aswith other homologous series,for example, alkanes and alcohols, boiling temperaturesincreasewithincreasingmolarmassastheextentof London forces increases. At room temperature,methanal is a gas. The other carbonyl compounds are liquids. Fig C compares the boilingtemperaturesofsomecarbonylcompounds.
+
+alcohols
+
+figCTheboiling temperatures of some alkanes,aldehydes,ketones and alcohols. The effect of the intermolecular forces on the boiling temperaturescanbeseenclearly,withdipole-dipoleattractions,which result from the carbonyl groups of the aldehydes and ketones,causing higherboilingtemperaturesthantheequivalent alkanesbutlowerthanthe alcoholswiththeirhydrogenbonding.
+SOLUBILITYINWATER
+
+The lower (shorter chain) aldehydes and ketones are soluble in waterbecause they can form hydrogenbonds (shown as a dashed line) with water molecules.Fig D shows hydrogen bonding betweenethanal andwater.
+
+• figDHydrogenbondingbetweenwatermoleculesandethanal moleculesisstrongerthantheintermolecularbondsinthepure aldehyde.
+
+The solubility of aldehydes and ketones decreases with increasing chainlength,as thehydrocarbonpartof themoleculesbecomes more significant.
+
+## Topic 15: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 15B Carbonyl Compounds
+
+CHECKPOINT
+
+• 1.
+
+• Writethedisplayedformulafor: (a) propanal
+
+• (b) propanone.
+
+• 2. Drawa diagramtoexplainwhypropanoneissolubleinwater.
+
+## Topic 15: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 15B Carbonyl Compounds
+
+LEARNING OBJECTIVES
+
+• Understand the reactions of carbonyl compounds with:
+
+• (i)Fehling's orBenedict's solution,Tollens'reagent and acidified dichromate(Vl) ions
+
+• (ii) iodine in the presence of alkali (the iodoform test).
+
+## Topic 15: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 15B Carbonyl Compounds
+
+OXIDATIONREACTIONS
+
+You may remember from Topic 10 (Book 1: IAS) that carbonyl compounds(formedbytheoxidationofalcohols)differintheir easeofoxidation-aldehydes(butnotketones)areeasilyoxidised tocarboxylicacids.Inthissection,wewilllookatthesereactions inmoredetail,and alsoconsiderthereductionreactionsof carbonylcompounds.FigAsummarises thesereactions.
+
+fig AAldehydes can be reduced and oxidised,but ketones can only be reduced.
+REDUCTIONREACTIONS
+
+Both aldehydesandketonescanbereducedto alcoholsbythe same reagent, lithium tetrahydridoaluminate. This reagent is also known as lithium aluminiumhydride,and itsformula isLiAlH. Thereductionreactionsarecarriedoutwithboththecarbonyl compoundandreducingagentdissolvedindryetherTosimplify the equations, the reducing agent is represented by [H], which is the symbol for an atom of hydrogen provided by thereducing agentinanunspecifiedway.Notethatthisisadifferentuseof squarebrackets-it does not indicate a molar concentration(as in kinetics). Here are some examples of equations.
+
+Reduction of propanal to propan-1-ol:
+
+CH;CHCHO + 2[H] → CHCH,CH,OH
+
+Reduction of butanone to butan-2-ol:
+
+CH;COCH,CH + 2[H] → CH;CH(OH)CH,CH3
+
+Inallofthesereductionreactions,a hydrogen atombecomes attached toeach of the atoms in the carbonyl group.
+
+Ketones are very difficult to oxidise, and, as far as this book is concerned,ketonescannotbeoxidised.TableAshowsthe reagents that can oxidise aldehydes to carboxylic acids.
+
+## Topic 15: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 15B Carbonyl Compounds
+
+
+#### REDUCTIONREACTIONS
+tableA
+
+| REAGENT                            | COLOURCHANGE                                  | NOTES                                                                                                                                                                                                         |
+|------------------------------------|-----------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Acidified potassium dichromate(VI) | orange solution →green solution               | The colour change is duetothereductionof chromiumfrom+6to+3.                                                                                                                                                  |
+| Fehling's solution                 | deepbluesolution →redprecipitate (see fig B)  | Inboth of these solutions, the colourchange is due totheconversionofa copper(ll) complex to copper(l) oxide. It isnotnecessaryto understandthedifference between thechemical compositionsofthese tworeagents. |
+| Benedict's solution                | deepbluesolution →redprecipitate              | Inboth of these solutions, the colourchange is due totheconversionofa copper(ll) complex to copper(l) oxide. It isnotnecessaryto understandthedifference between thechemical compositionsofthese tworeagents. |
+| Tollens' reagent                   | colourless solution →silvermirror (see fig C) | The colour change is dueto theconversion of a silver(l)complex tometallic silver,which oftenstickstotheinside of the tube.Thereagent is also described as ammoniacalsilvernitrate.                            |
+
+## Topic 15: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 15B Carbonyl Compounds
+
+PRACTICALSKILLS
+
+Alloftheseoxidationreactionscanbecarriedoutinthelaboratoryin a test tube,by mixing the carbonyl compound with the oxidising agentandleavingthemixtureinabeakerofhotwater.
+
+Safety Note:Weareyeprotection and avoid skin contact.Only heatinhotwaterfromanelectrickettle,NOToveraflame.
+
+## Topic 15: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 15B Carbonyl Compounds
+
+LEARNING TIP
+
+Thereductionreactions areincludedtoshowtheconversionof aldehydesandketonestoalcohols.
+
+The oxidationreactionsareincluded toshowhowtodistinguish betweenaldehydesandketones.
+
+As for the reduction reaction equations, all of the oxidising agents in table A can be represented by [O]. This is the symbol for an
+
+atom of oxygen provided by the oxidising agent in an unspecified way. Here are some examples of equations.
+
+Oxidation of propanal to propanoic acid: CHCH2CHO +[O] → CHCHCOOH
+
+Oxidation ofbutanal tobutanoic acid: CHCH,CH,CHO + [O] → CHCH,CH,COOH
+
+The oxidation reactions using Fehling's solution, Benedict's solution and Tollens'reagent are often used to distinguishbetween aldehydesandketones.Apositiveresult,asdescribedintableA, indicates the presence of an aldehyde. A negative result indicates the absence of an aldehyde. If it is also known that the substance being tested is a carbonyl compound,then the negative result can betakenas confirmationofthepresenceofaketone.
+
+• figBColourchangeofFehling'ssolutionfrom a bluesolutiontoa red precipitateinthetestforan aldehyde.
+
+figCColourchangeof Tollens'reagentfromacolourlesssolutiontoa silvermirrorin thetestforan aldehyde.
+
+## Topic 15: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 15B Carbonyl Compounds
+
+REACTIONSWITHIODINE
+
+Another redox reaction of some carbonyl compounds is rather different-itused tobeknownastheiodoformreaction,butis now described asthetriodomethanereaction.This isbecause the product is CHI3,a yellow insoluble solid.
+
+Ifacarbonyl compoundisaddedtoanalkalinesolutionof iodineandthemixturewarmedandthencooled,apaleyellow precipitate sometimes forms. This result is a positive test for carbonyl compounds containing the CH,CO group. This group is found in only one aldehyde(ethanal) and in all methyl ketones (those with the carbonyl group as the second carbon in the chain). Thismeansthatthereactionoccurswithpropanone,butanone and pentan-2-one,butnotpentan-3-one.
+
+Because oxidising conditions are used in the reaction, some alcohols will also give positive results. Table B shows the results forsome common alcohols.
+
+## Topic 15: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 15B Carbonyl Compounds
+
+
+#### REACTIONSWITHIODINE
+tableB
+
+| ALCOHOL             | OXIDATIONPRODUCT   | RESULT   |
+|---------------------|--------------------|----------|
+| ethanol             | CHCHO              | positive |
+| propan-1-ol         | CHCHCHO            | negative |
+| propan-2-ol         | CHCOCH3            | positive |
+| butan-1-ol          | CHCHCHCHO          | negative |
+| butan-2-ol          | CHCOCHCH3          | positive |
+| 2-methylpropan-1-ol | (CH3)2CHCHO        | negative |
+
+## Topic 15: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 15B Carbonyl Compounds
+
+EXAM HINT
+
+Astheiodoformtestisanoxidisingreaction,asecondary alcoholwith a terminal methyl group(e.g.butan-2-ol) will alsogive a positive result.
+
+## Topic 15: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 15B Carbonyl Compounds
+
+CHECKPOINT
+
+• 1. What are the names of the organic products of thesereactions?
+
+• (a)ThereductionofCHCH2CHCHO.
+
+• (b) The oxidation of CHsCH2CH2CH2CHO.
+
+## Topic 15: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 15B Carbonyl Compounds
+
+REASONING
+
+2.What colour changes would be observed in these tests?
+
+• (a) Heating a mixture of propanone and acidified potassium dichromate(VI).
+
+• (b) Heating a mixture of ethanal and Tollens'reagent.
+
+## Topic 15: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 15B Carbonyl Compounds
+
+LEARNING OBJECTIVES
+
+• Understandthereactionsofcarbonylcompoundswith:
+
+• (i)）HCN,in thepresenceofKN,asanucleophilic additionreaction,usingcurly arrows,relevant lonepairs,dipoles and evidenceofopticalactivitytoshowthemechanism
+
+• (i)2,4-dinitrophenylhydrazine (2,4-DNPH), as a qualitative test for the presence of a carbonyl group and to identify a carbonyl compound given data forthe melting temperatures of derivatives.
+
+• Be ableto use data on optical activity of reactants andproducts as evidenceforaddition tocarbonyl compounds.
+
+## Topic 15: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 15B Carbonyl Compounds
+
+REACTIONWITHHYDROGENCYANIDE
+
+Both aldehydes and ketones react with hydrogen cyanide.The reaction is carried out in an aqueous alkaline solution containing potassium cyanide (KCN). The equations and mechanisms are the same forbothaldehydesandketones.Herearesomeexamplesofequations.
+
+Additiontopropanal:
+
+CHCHCHO + HCN → CH;CH,CH(OH)CN
+
+Additiontobutanone:
+
+CH;COCH,CH + HCN → CH;C(CN)(OH)CH,CH,
+
+These addition reactions involve a hydrogen atom attaching to the oxygen atom of the carbonyl group and a cyanide group attaching to the carbon atom of the carbonyl group.
+
+TheseproductscontainacarbonatomjoinedtothefunctionalgroupsOHandCN.Theyarenamed differentlyfrom other organic compoundswehave met sofar.According toIUPAC rules,the OH group should be shown as a prefix and the CN group should be shown as a suffix.When this happens, the OH group is shown as hydroxy- and not as -ol, and the CN group is shown as the ending -nitrile. In general, theseproducts aredescribed ashydroxynitriles.
+
+Applying thesenamingrules:
+
+CH,CH,CH(OH)CN is 2-hydroxybutanenitrile CHC(CN)(OH)CH2CH, is 2-hydroxy-2-methylbutanenitrile
+THENUCLEOPHILICADDITIONMECHANISM
+
+Nucleophilic addition is a two-stepmechanism, illustrated using ethanal as an example.
+
+Step1 involves thenucleophilic attack bya cyanideion on thecarbon atom of the carbonyl compound.
+
+Step 2involves thereactionbetween the intermediate and a hydrogen cyanide molecule.
+
+SPECIFICATION REFERENCE 15.8(ii) 15.8(iv) 15.5PART
+
+## Topic 15: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 15B Carbonyl Compounds
+
+LEARNING TIP
+
+Rememberthatwhenacyanide groupbecomespartof an organiccompound,thenumber ofcarbonatomsincreasesby one,which affects the name.So, forexample,propanal becomes 2-hydroxybutanenitrile.
+
+## Topic 15: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 15B Carbonyl Compounds
+
+USINGOPTICALACTIVITYASEVIDENCE
+
+Aconsiderationofoptical activitycanbeusedasevidenceforthismechanism.The arrangementof the two atoms or groups joined to C=O is planar which means that in Step 1 there is an equal chance of the cyanide ion attacking from each side of the plane. So, although the product of this reaction containsanasymmetriccarbon atom(achiralcentre),thereareequalamountsofbothdextrorotatory and laevorotatory enantiomers formed,giving a product mixture with no optical activity.
+
+Using ethanal as the example,the product is 2-hydroxypropanenitrile.Fig A shows the formation of a racemicmixturecontainingequal numbersofbothenantiomers.
+
+figAAttackbythecyanideionfromthetopleadstotheproductshownhigherup,whileattackfromthebottom leadstotheproductshownlowerdown.Eachethanalmoleculeis attackedbyonlyoneof thesecyanideions.
+
+The cyanideioncan attackfrom above orbelow,producingequal amounts of bothenantiomers.
+REACTIONWITH2,4-DINITROPHENYLHYDRAZINE
+
+This compound is sometimes known as Brady's reagent,and its name is often abbreviated as 2,4DNPH. You do not need to write equations or mechanisms for any reactions involving this reagent. However,it isusefultoshowitsstructure,and thestructure ofaproductofitsreactionwith a carbonyl compound.FigB shows its reactionwith propanal.
+
+fig BThereactionbetween 2,4-dinitrophenylhydrazine and propanal.
+
+fig CThis is the bright orange precipitate formed when a carbonylcompoundreactswith 2, 4-dinitrophenylhydrazine.
+
+This means that the appearance of an orange precipitate is apositive result that indicates the presenceof a carbonylcompound.
+MELTINGTEMPERATURESOFDERIVATIVES
+
+These reactions with 2,4-dinitrophenylhydrazine give a visual indication of a positive result for the presence of a carbonyl compound.They can also beused toidentify individual carbonyl compounds. Thisisbecausethecompoundsformed,knownasderivatives(becausetheyarederivedfrom particular carbonyl compounds), can be filtered, purified and dried, and their melting temperatures measured.These derivatives have the ending-one,so the derivative of butanal is butanal 2,4-dinitrophenylhydrazone.
+
+Theidentity of the original carbonyl compound can often be confirmed by comparing the experimental valuesofmeltingtemperaturesofthesederivativeswithdatabookvalues.Forexample,thethree carbonyl compoundspentanal,pentan-2-one andpentan-3-one allhavethesameboilingtemperatures and all form coloured precipitates with 2,4-dinitrophenylhydrazine. Table A shows the boiling temperaturesofthecarbonylcompoundsandthemeltingtemperaturesoftheirderivatives.
+
+## Topic 15: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 15B Carbonyl Compounds
+
+
+#### MELTINGTEMPERATURESOFDERIVATIVES
+| CARBONYLCOMPOUND   |   BOILINGTEMPERATURE/°C |   MELTINGTEMPERATUREOF 2,4-DINITROPHENYLHYDRAZONEDERIVATIVE/°C |
+|--------------------|-------------------------|----------------------------------------------------------------|
+| pentanal           |                     102 |                                                            104 |
+| pentan-2-one       |                     102 |                                                            144 |
+| pentan-3-one       |                     102 |                                                            156 |
+
+## Topic 15: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 15B Carbonyl Compounds
+
+tableA
+
+You can see that the original carbonyl compound can now beidentified bymatching the experimental meltingtemperature ofitsderivativeto avaluein thetable.
+
+## Topic 15: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 15B Carbonyl Compounds
+
+CHECKPOINT
+
+• 1. Whatarethenamesoftheorganicproductsofthesereactions?
+
+• (a)methanal+hydrogencyanide→ (b)propanone+hydrogen cyanide→
+
+• CompoundXreacts with 2,4-dinitrophenylhydrazine andwith iodine in aqueous alkaliinseparate tests.In both cases a coloured precipitate forms.Explain which of these couldbe compound X: propanal,propan-1-ol,propan-2-ol,propanone
+
+## Topic 15: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 15B Carbonyl Compounds
+
+SUBJECT VOCABULARY
+
+nucleophilicaddition a type of mechanism in which amoleculecontaining two atoms or groups is added across a polar double bond(usually C=O) and the attacking species in the first step is a nucleophile derivativescompoundsformedfrom othercompounds,especiallywhenthepropertiesof thederivatives canbeusedtoidentifytheoriginal compound
+
+## Topic 15: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 15C Carboxylic Acids
+
+1CARBOXYLICACIDSANDTHEIR PHYSICALPROPERTIES
+
+## Topic 15: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 15C Carboxylic Acids
+
+LEARNING OBJECTIVES
+
+• Understand the nomenclature of carboxylic acids and be able to draw their structural, displayed and skeletal formulae.
+
+• Understand that hydrogen bonding affects the physical properties of carboxylic acids, in relation to their boiling temperatures and solubility.
+
+## Topic 15: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 15C Carboxylic Acids
+
+NOMENCLATURE
+
+We met carboxylic compounds briefly in Book 1, as the products of theoxidation ofprimary alcohols.
+
+The carboxylic acid group consists of a carbonyl group (C=O) witha hydroxyl group on the same carbon atom.Bothgroups influence each other, so carboxylic acids have some properties thatarenotsharedwitheithercarbonylcompoundsoralcohols. The group is usually abbreviated to COOH (and sometimes to COH,althoughthisisnotrecommended).
+
+The suffix-oic acidisused,with thecarbon chainbeingnamed in thesamewayasforalkanes.Iflocantsareused,thenthecarbonof the carboxylic acid group is carbon 1 in the chain. Table A shows someexamples.
+
+## Topic 15: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 15C Carboxylic Acids
+
+
+#### NOMENCLATURE
+table A
+
+| STRUCTURAL FORMULA   | NAME                   | COMMONNAME        |
+|----------------------|------------------------|-------------------|
+| HCOOH                | methanoic acid         | formicacid        |
+| CHCOOH               | ethanoicacid           | aceticacid        |
+| CHCHCOOH             | propanoicacid          | (propionicacid)   |
+| CHCHCHCOOH           | butanoic acid          | (butyric acid)    |
+| (CH3)2CHCOOH         | methylpropanoic acid   | (isobutyric acid) |
+| HOOCCOOH             | ethanedioic acid       | oxalic acid       |
+| CHsCOOH              | benzenecarboxylic acid | benzoic acid      |
+
+## Topic 15: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 15C Carboxylic Acids
+
+
+#### NOMENCLATURE
+table A
+
+The general formula is RCOOH; the common names in brackets intableA arerarelyused.
+
+DISPLAYEDANDSKELETALFORMULAE
+
+TableB shows the displayed and skeletal formulae ofsome carboxylic acids.
+
+## Topic 15: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 15C Carboxylic Acids
+
+
+#### DISPLAYEDANDSKELETALFORMULAE
+table B
+
+| NAME                 | DISPLAYEDFORMULA   | SKELETAL FORMULA   |
+|----------------------|--------------------|--------------------|
+| methanoicacid        | H—C—OH             | O OH               |
+| ethanoicacid         | H OH H             | OH                 |
+| propanoic acid       | H H H H            | OH                 |
+| butanoic acid        | H H OH H H H       | OH                 |
+| methylpropanoic acid | H H O -OH H H      | OH                 |
+
+## Topic 15: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 15C Carboxylic Acids
+
+BONDING
+
+YouarefamiliarwiththenatureoftheC=Odoublebondin carbonyl compounds, and of the single bonds in alcohols. The bonding in the carboxylic acid group is a combination of the two. There arenowthreepolarbondspresent.
+
+Many reactions of carboxylic acids involve the loss of the hydrogen atom as H+. This produces the carboxylate ion (COO-) in which thetwo carbon-oxygenbonds areidentical.Fig A compares the two.
+
+15.9
+
+15.10
+
+carboxylic acid
+
+carboxylateion
+
+• figAThestructuresofa carboxylicacid anditscarboxylateion
+
+Notethatthechargeanddoublebondcharacter areevenly distributed across both oxygen atoms in the carboxylate ion.
+PHYSICALPROPERTIES
+
+Carboxylicacidshavedistinctivesmellsandsourtastes.The smells of some of them are considered unpleasant.For example, butanoic acid is responsible forthe smell of stale sweat,and hexanoic acidfor thecharacteristic smell ofgoats.Citric acid giveslemonstheirverysourtaste.
+
+The Latin word for sour is acidus, and acetum means vinegar, the sourtasteofwhichcomesfromtheaceticaciditcontains.
+
+## Topic 15: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 15C Carboxylic Acids
+
+DID YOU KNOW?
+
+Methanoicacidisfound inantsandnettlestings.Formica,the origin of thenameformicacid,is theLatinwordfor ant.
+
+## Topic 15: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 15C Carboxylic Acids
+
+BOILINGTEMPERATURES
+
+The presence of three polar bonds, including a polar O——H bond, in the carboxylic acid group means that they have strong intermolecular forces (hydrogen bonding). This means that they have high boiling temperatures compared with other organic compoundswith asimilarmolarmass.Asthecarbon chain lengthens,the Londonforces between the non-polarhydrocarbon chains increase.Therefore,boiling temperature increases with increasingmolarmass,asshown intable C.
+
+## Topic 15: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 15C Carboxylic Acids
+
+
+#### BOILINGTEMPERATURES
+| NAME           | FORMULA    |   MOLARMASS/ gmol-1 |   BOILING TEMPERATURE /°℃ |
+|----------------|------------|---------------------|---------------------------|
+| methanoic acid | HCOOH      |                  46 |                       101 |
+| ethanoic acid  | CH;COOH    |                  60 |                       118 |
+| propanoic acid | CH;CHCOOH  |                  74 |                       141 |
+| butanoic acid  | CHCHCHCOOH |                  88 |                       164 |
+
+## Topic 15: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 15C Carboxylic Acids
+
+
+#### BOILINGTEMPERATURES
+• figBMethanoic acid,HCOOH,makes upmore than half of an ant's body mass!
+
+The extent of hydrogen bonding in the shorter-chain carboxylic acidsmeansthattheyformdimers(doublemolecules)inthe absence of a solvent such aswaterFig C shows the hydrogen bonding (dashed lines) between two molecules of ethanoic acid.
+
+fig C Hydrogen bonding in ethanoic acid.
+
+## Topic 15: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 15C Carboxylic Acids
+
+EXAM HINT
+
+Insomeformsofmassspectrometry,theethanoicaciddimercanbe seen atanm/zof120.
+
+## Topic 15: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 15C Carboxylic Acids
+
+SOLUBILITYINWATER
+
+The shorter-chain carboxylic acids are soluble in waterbecause theycanformhydrogenbondswithwatermolecules.FigDshows hydrogenbondingbetweenethanoicacidandwater.
+
+fig DHydrogenbondingbetween ethanoic acid andwater.
+
+Solubilitydecreaseswithincreasingchainlength,as the hydrocarbon part of themolecules becomeslarger.
+
+## Topic 15: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 15C Carboxylic Acids
+
+LEARNING TIP
+
+Notethat thehydrogenbondingbetweencarboxylicacid andwater moleculesinvolves:
+
+wherehydrogenbondsarerepresentedbydashedlines.
+
+## Topic 15: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 15C Carboxylic Acids
+
+CHECKPOINT
+
+• 1. Writethedisplayedformulafor:
+
+• (a) methanoic acid
+
+• (b) ethanedioicacid.
+
+• 2. Explainwhyhexanoicacidismuchlesssolublethanethanoic acid inwater.
+
+## Topic 15: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 15C Carboxylic Acids
+
+2PREPARATIONSANDREACTIONS OFCARBOXYLICACIDS
+
+## Topic 15: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 15C Carboxylic Acids
+
+LEARNING OBJECTIVES
+
+• Understand that carboxylic acids can be prepared by the oxidation of alcohols or aldehydes and the hydrolysis of nitriles.
+
+• Understand the reactions of carboxylic acidswith:
+
+• (i)lithiumtetrahydridoaluminate(lll)(lithiumaluminiumhydride)indryether(ethoxyethane)
+
+• (ii)basestoproducesalts
+
+• (ii)phosphorus(V) chloride(phosphorus pentachloride)
+
+• (iv)alcohols in the presence of an acid catalyst.
+
+## Topic 15: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 15C Carboxylic Acids
+
+PREPARATIONBYOXIDATION
+
+Although carboxylic acids are formed in many chemical reactions, two main methods are used to prepare them in the laboratory.
+
+Oxidationuseseitheraprimaryalcohol or analdehydeasthe startingmaterial.Theusualoxidisingagentisacidifiedpotassium dichromate(Vl), and the method is to heat the mixture under reflux. If a primary alcohol is used,it first oxidises to an aldehyde,then to a carboxylicacid,butbothoxidationsoccurinsidetheapparatusused.
+
+Whenthe oxidationis complete,thereactionmixtureisfractionally distilled to obtain a pure sample of the carboxylic acid.
+EXAMPLES
+
+Propanoic acid can be prepared from either propan-1-ol or propanal. The equations use [O] to represent the oxygen supplied by acidifiedpotassium dichromate(VI).
+
+From propan-1-ol:
+
+CH;CH2CH2OH + 2[O] → CH,CH2COOH + H2O From propanal:
+
+CH;CH,CHO + [O] → CH,CH,COOH
+PREPARATIONBYHYDROLYSIS
+
+Nitriles are organic compounds containing the CN group. They can be hydrolysed by heating under reflux with either a dilute acid or aqueous alkali. The same apparatus is used for preparation and purificationasforoxidation.
+
+In both cases,the C=N triple bond breaks. The carbon atom remainspart of the organic product and the nitrogen atom becomeseither ammoniaorthe ammoniumion.
+
+ACIDICHYDROLYSIS
+
+Propanoic acid canbeprepared frompropanenitrile.Theequation for thereaction is:
+
+CHCHCN+H++2H2O→CHCHCOOH+NH
+ALKALINEHYDROLYSIS
+
+Butanoicacidcanbepreparedfrombutanenitrile.Theequation for the reaction is:
+
+CHCHCHCN +OH-+HO→CHCHCHCOO-+ NH
+
+SPECIFICATION REFERENCE
+
+15.11 15.12() 15.12() 15.12(i) 15.12(iv)
+
+The product is actually the butanoate ion,but this is easily convertedtobutanoicacidbyaddingdiluteacid:
+
+CHCH,CHCOO-+ H+→ CHCH,CH,COOH
+INTRODUCTIONTOREACTIONS
+
+TherearefourmainreactionstoconsiderThese aresummarised in fig A.
+
+fig AThese are the four main reactions of carboxylic acids to form other organic compounds.
+
+Someoftheproductsofthesereactions,especiallyacylchlorides andesters,will bediscussed inmoredetaillater on.
+1REDUCTION
+
+Youwillrememberthatcarboxylicacidsareproductsofoxidation. Theycanbereducedinthesamewayas aldehydesandketones. Carboxylicacidscanbereducedtoprimaryalcohols,butnotto aldehydes.Thisisbecause aldehydes are more easilyreduced than carboxylic acids, and so any aldehyde produced during the reductionwill be immediately reduced to a primary alcohol. The reducing agent is lithium tetrahydridoaluminate, and is used in a solvent of dry ether.As an example, an equation using butanoic acid is:
+
+CH;CH2CHCOOH + 4[H] → CH;CH2CH2CH2OH + H2O
+
+The product is butan-1-ol.
+2NEUTRALISATION
+
+Although carboxylicacids areweakacids,they canbe completely
+
+carboxylatesalts,whichhaveawiderangeofuses.Thecommonest,sodiumethanoate,isused in hand warmers and to make the additive that gives the flavour to salt and vinegar potato crisps. Anequationfor thereactiontomakesodium ethanoate occursbetween ethanoic acid andsodium hydroxide:
+
+CHCOOH+NaOH→CHCOONa +H2O
+
+Carboxylate salts are ionic, and are sometimes shown with formulae such as CHCOO-Na+. TheirgeneralformulaisRCOONa.
+3HALOGENATION
+
+In this reaction, the OH group is replaced by a halogen atom, usually chlorine, so the functional group becomesCOCl.Theseproductsareknowmasacyl chlorides.They arehighlyreactivecompounds (old name'phosphorus pentachloride').It must be used in anhydrous conditionsbecause both the reagent and the acyl chloride product react with water The reactionis vigorous(very active),so no heating is required. An equation for the reaction, using propanoic acid as the example, is:
+
+## Topic 15: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 15C Carboxylic Acids
+
+DID YOU KNOW?
+
+Aspirinisaveryfamiliarand inexpensivemedication,and it isusefulintreatingmany medical conditions.Itis an exampleofacarboxylicacid.
+
+Acyl chlorides arenamedusingthesuffix-oyl chloride,sothisproductispropanoylchloride Theirgeneral formula is RCOCl.
+
+The phosphorus-containing product is phosphorus trichloride oxide (also known as phosphorus oxychloride).Itis aliquidthatmixeswiththeacylchloride,whichhasthereforetobeseparated by fractional distillation. The hydrogen chloride gas produced escapes, appearing as misty fumes.
+
+## Topic 15: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 15C Carboxylic Acids
+
+4ESTERIFICATION
+
+In this reaction, a carboxylic acid is mixed with an alcohol and a small amount of an acid catalyst, oftenconcentratedsulfuricacid.Evenwithacatalyst,thereactionsareslowandreversible
+
+Esters are used in industry for many purposes, including as solvents and in making polymers smellsoffruits,andmostanimalfats andvegetableoilsareesters.
+
+An equationfor the reaction betweenmethanoic acid and ethanol is:
+
+HCOOH + CHCH2OH =HCOOCH,CH+H2O
+
+The names of esters always contain two words -the first is the alkyl group from the alcohol and the second is the carboxylate from the carboxylic acid.So, this product is ethyl methanoate.
+
+## Topic 15: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 15C Carboxylic Acids
+
+CHECKPOINT
+
+• Writeequationsforthe preparationof methylpropanoic acid:
+
+• (a)bytheoxidationofan alcohol
+
+• (b) by the hydrolysis of a nitrile.
+
+• 2. Writeanequationfortheconversionof methylpropanoicacid:
+
+• (a) into an acyl chloride
+
+• (b)intoamethylester.
+
+## Topic 15: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 15C Carboxylic Acids
+
+LEARNING TIP
+
+Withanester,becarefulto makesurethatthenameand formulamatch.CHCOOCHis methylethanoatebut HCOOCH2CHisethyl methanoate.
+
+## Topic 15: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 15D Carboxylic Acid Derivatives
+
+1CARBOXYLICACIDDERIVATIVES: ACYLCHLORIDES
+
+## Topic 15: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 15D Carboxylic Acid Derivatives
+
+LEARNING OBJECTIVES
+
+• Understand the nomenclature of acyl chlorides andbe able to draw their structural, displayed and skeletal formulae.
+
+• Understandthereactionsofacylchlorideswith:
+
+• (i)water
+
+• (ii) alcohols
+
+• (ii) concentrated ammonia
+
+• (iv) amines.
+
+## Topic 15: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 15D Carboxylic Acid Derivatives
+
+WHATAREACYLCHLORIDES?
+
+These used tobeknown as acid chlorides,and have thegeneralformulaRCOCl.They are derivatives of carboxylic acids, and can be imagined as the result of replacing the OH group in COOH with Cl. Although they contain a carbonyl group (like carboxylic acids, aldehydes and ketones), they are not classed as carbonyl compounds. As with carboxylic acids, having two functional groups sharing thesamecarbon atommeansthattheproperties aredifferentfrombothcarbonyl compounds and halogenoalkanes.
+
+The commonest example is ethanoyl chloride, CHCOCl, which is still called by its old name acetyl chloride. You may come across others, such as:
+
+propanoyl chloride
+
+CH,CHCOC1
+
+and
+
+butanoylchloride
+
+CHCH,CH,COC
+
+DISPLAYEDANDSKELETALFORMULAE
+
+TableAshowsthedisplayed andskeletalformulaeofsome acyl chlorides.
+
+## Topic 15: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 15D Carboxylic Acid Derivatives
+
+
+#### DISPLAYEDANDSKELETALFORMULAE
+tableA
+
+| NAME               | DISPLAYEDFORMULA   | SKELETALFORMULA   |
+|--------------------|--------------------|-------------------|
+| ethanoylchloride   | H                  |                   |
+| propanoyl chloride | H                  |                   |
+| butanoylchloride   | H H H              |                   |
+
+## Topic 15: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 15D Carboxylic Acid Derivatives
+
+REACTIONSOFACYLCHLORIDES
+
+The carbon atom inRCOClisjoined to twoelectronegative atoms,and sois electron-deficient (8+). You can therefore predict that it will be readily attacked by nucleophiles, such as molecules containing O or N atoms.You need toknow about four reactions of acyl chlorides,although no mechanisms are needed for any of them.
+
+SPECIFICATION REFERENCE
+
+15.13
+
+15.14(i)
+
+PART
+
+15.14(i)
+
+15.14(ii)15.14(iv)
+
+REACTIONWITHWATER
+
+Acyl chlorides react vigorously (very actively) with cold water, forming a carboxylic acid and ofethanoylchloridewithwaterisasfollows:
+
+fig AAdding ethanoyl chloridetowaterproducesfumes of hydrogen chloride.
+REACTIONWITHALCOHOLS
+
+Acyl chlorides react readily with ethanol toform an ester andhydrogen chloridegas.The equation for thereaction of ethanoyl chloridewith ethanol is as follows:
+
+Noticethesimilaritybetweenthesetworeactions.Inbothcases,theHofthesecondreactantcombines with CltoformHCl, and the other part of the reactant becomes joined to the carbonyl group.
+REACTIONWITHCONCENTRATEDAMMONIASOLUTION
+
+Similartoalcohols,acylchloridesreactreadilywithconcentratedammoniasolution.Youcannow predict the reaction that occurs:the H of the second reactant combines with Cl to form HCl, and the other part of the reactant becomesjoined to the carbonyl group. TheNH2 group joined to the carbonyl group produces a different functional group - amide (not to be confused with amine). The equationforthereactionofethanoyl chloridewith ammoniais asfollows:
+
+Unlike with water and alcohols,a furtherreaction occurs.The reactant is a base and the product is an acidic gas, so these react together to form ammonium chloride:
+
+NH + HCI → NHCl
+
+You could write a single equation that combines both of thesereactions:
+
+CHCOCI+2NH→CHCONH2+NH4Cl
+
+Youwill learnmoreabout amideslaterinthisbook.
+REACTIONWITHAMINES
+
+This reaction is similar to the previous one.A primary amine can be shown as RNH2,so you can againpredict the reaction that occurs:the H of the second reactant combines with Cl toform HCl, and the otherpart of thereactant(RNH) becomes joined to thecarbonyl group.The equationfor the reaction of ethanoyl chloride with the simplest primary amine,methylamine,is as follows:
+
+Theproductofthisreactionisasubstitutedamide,oftencalled anN-substituted amide.Thecapital N emphasises that there is an alkyl group attached to N,rather than the usual situation in which it is attachedtoanotherCatom.Youcanseefromtheproductname(N-methylethanamide)thatN-is used as a locant, in the same way as in names such as 2-methylbutane - it shows where the methyl group is attached.
+
+Secondary amines(represented asRNH)react in the sameway,although theproduct will contain twosubstituted alkyl groups.A sample equation is:
+
+CHCOCI +(CH)NH→CHCON(CH)2+HC1
+
+The organicproduct is N,N-dimethylethanamide.
+
+Besure notto confuseamines (RNH2)withamides(RCONH2).
+
+You might be able to predict why this type of reaction does not occur with a tertiary amine (RN). With three alkyl groups, there is nownoH atom toreact with Cl toform hydrogen chloride.
+
+## Topic 15: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 15D Carboxylic Acid Derivatives
+
+CHECKPOINT
+
+• Write thenamesof the organicproduct formed inthefour similarreactionsof propanoyl chloride withwater,methanol,ammoniaandmethylamine.
+
+• 2. Writeanequationforbutanoylchloridereactingwith:
+
+• (a) propan-1-ol
+
+• (b) ethylamine.
+
+## Topic 15: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 15D Carboxylic Acid Derivatives
+
+LEARNING OBJECTIVES
+
+• Understand the nomenclature of esters andbe able to draw their structural,displayed andskeletal formulae.
+
+• Understandthehydrolysisreactionsofesters,inacidicandalkalinesolution.
+
+## Topic 15: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 15D Carboxylic Acid Derivatives
+
+INTRODUCTION
+
+Inprevioussections,you havecome acrossestersastheproducts ofreactionsofotherorganiccompounds.Wewill nowtakea closerlookatesters,includingtheirreactions.
+NAMINGESTERS
+
+This is straightforward,but you need to remember these points:
+
+• Asfor carboxylic acids and acylchlorides(butnot amides),an esternamecontainstwowords.
+
+• The first word comes from the alkyl group joined to O.
+
+• The second word comes from the alkyl group joined to C.
+
+Table A shows some examples.
+
+## Topic 15: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 15D Carboxylic Acid Derivatives
+
+
+#### NAMINGESTERS
+table A
+
+| STRUCTURALFORMULA   | NAME             |
+|---------------------|------------------|
+| HCOOCH3             | methylmethanoate |
+| CHCOOCH3            | methyl ethanoate |
+| HCOOCH2CH3          | ethyl methanoate |
+| CH;COOCHCH3         | ethylethanoate   |
+| CHCOOCHCHCH3        | propyl ethanoate |
+
+## Topic 15: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 15D Carboxylic Acid Derivatives
+
+DISPLAYEDANDSKELETALFORMULAE
+
+TableB shows the displayed and skeletal formulaeofsomeesters.
+
+## Topic 15: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 15D Carboxylic Acid Derivatives
+
+
+#### DISPLAYEDANDSKELETALFORMULAE
+| NAME              | DISPLAYEDFORMULA   | SKELETAL FORMULA   |
+|-------------------|--------------------|--------------------|
+| methyl methanoate | H H                | O                  |
+| methyl ethanoate  | H O H H H          |                    |
+| ethyl methanoate  | H H H H            |                    |
+
+## Topic 15: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 15D Carboxylic Acid Derivatives
+
+PHYSICALPROPERTIES
+
+Esters are colourless liquids with relatively low melting and boiling temperatures, and are insoluble in water. All of the hydrogen atomsintheirmoleculesare attachedto carbonatoms,so hydrogen bonding is not possible.
+
+Thegenerallypleasant smellsofesters arelargelyresponsiblefor thefamiliarodoursofflowersandfruits.Examplesinclude:
+
+pentylethanoate 3-methylbutyl ethanoate methyl butanoate
+
+pears
+
+bananas
+
+apples
+
+Esters are present in perfumes,food favourings,solvents, anaestheticsandbiofuels.
+
+HYDROLYSISOFESTERS
+
+Theonlyreactionsofestersthatyouneedtoknowaboutaretwo slightly different types ofhydrolysis.The term'hydrolysis'means
+
+## Topic 15: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 15D Carboxylic Acid Derivatives
+
+LEARNING TIP
+
+Acidichydrolysisofanesterisa reversiblereaction,butalkaline hydrolysisreactionsgoto completion.
+
+breaking down (lysis) using water (hydro). It can be considered as the reverse of esterification. You mayrememberequationssuch asthisfrom aprevioussection:
+
+CHCOOH+CHCHOH=CHCOOCHCH+HO
+
+reversiblearrowindicatesthatamixtureofethylethanoateandwaterreactstogethertoformethanoic acid and ethanol. This reversereaction could be described as the hydrolysis of ethyl ethanoate.
+
+## Topic 15: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 15D Carboxylic Acid Derivatives
+
+HYDROLYSISINACIDICSOLUTION
+
+We partly covered this type of hydrolysis in the previous paragraph. For a given ester, warming it with waterwill causehydrolysis.Aswithesterification,thereactionisslow.Acatalystsuch assulfuricacid willspeeduphydrolysis,butwillnotaffectthepositionofequilibrium,sothereactionwillnotgoto completion:
+
+CHCOOCHCH+H2O = CHCOOH + CHCH2OH
+HYDROLYSISINALKALINESOLUTION
+
+The disadvantage of using an alkali such as aqueous sodium hydroxide instead of sulfuric acid is that thereactionproducesacarboxylatesalt instead of a carboxylic acid.However,theadvantageeasily outweighs this disadvantage-thereactiongoestocompletion instead ofreaching an equilibrium.
+
+Theequationformethyl propanoateis:
+
+CHCHCOOCH+NaOH→CHCHCOO-+Na++CHOH
+
+Converting the carboxylate salt into a carboxylic acid only needs a dilute acid tobe added:
+
+Thefinal organicproducts are methanol and propanoicacid.
+SAPONIFICATION
+
+The Latinword for soap is sapo,so saponification means'soap-making'.This is a particular example ofthe alkalinehydrolysisofesters.Soaps anddetergentshavesimilaruses,butthemaindifferenceis obtainedfromvegetable(and,originally,animal)sources.
+
+Vegetable oils containlarge quantities oftriglycerides.These are triesters,each ofwhich consists of a large ester molecule that canbehydrolysed to one alcohol and three carboxylicacid molecules. The hydrolysis of a typical triglyceride is shown in fig B.
+
+a triglyceride:anester oflong-chain carboxylic acidsandatriol sodium octadecanoate (sodium stearate)
+
+propane-1,2,3-triol
+
+(glycerol)
+
+In this example, hydrolysis produces an alcohol with three hydroxyl groups (glycerol). Glycerol has manyuses,including as a sweetenerinfoods and toothpastes,and in skin careproducts.It is also used as a component of the liquid in electronic cigarettes.
+
+The other product of thisreaction,commonlyknown as sodiumstearate,is avery common ingredient ofmostsoaps.
+
+## Topic 15: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 15D Carboxylic Acid Derivatives
+
+CHECKPOINT
+
+• Whatarethenamesoftheseesters? (a) CHCHCOOCH2CH2CH3 (b)(CH)CHCOOCH3
+
+• 2. Write equations forthe hydrolysis of propyl butanoate in:
+
+• (a) acidic conditions
+
+• (b) alkaline conditions.
+
+## Topic 15: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 15D Carboxylic Acid Derivatives
+
+SUBJECT VOCABULARY
+
+hydrolysisthebreaking of a compound by waterinto two compounds
+
+## Topic 15: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 15D Carboxylic Acid Derivatives
+
+LEARNING OBJECTIVES
+
+• Understand howpolyesters,such as terylene,areformedby condensationpolymerisationreactions.
+
+## Topic 15: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 15D Carboxylic Acid Derivatives
+
+ADDITIONPOLYMERISATION
+
+for reminding you of this type of polymerisation. The monomer propene can combine with many thousands of otherpropenemolecules toform a very long chain.Thisprocess canbe represented as:
+
+figAThisequationrepresentsthepolymerisationofpropene.
+
+Onethingtonoticeis that allofthe atomsinthemonomermoleculesendupinthestructureofthe polymer
+CONDENSATIONPOLYMERISATION
+
+There aretwomaindifferencesbetween additionpolymerisation and condensation polymerisation.In condensationpolymerisation:
+
+• ·each time twomonomer molecules jointogether, another small molecule isformed
+
+• ·usuallytwodifferentmonomersreacttogether
+
+In many examples of condensationpolymerisation,the small moleculeformed iswater,which is the origin of the term'condensation'. In other examples, the small molecule formed is hydrogen chloride, but theterm'condensation'isstill used todescribethoseexamples.
+
+One type of polymer formed in this way is a polyamide, which we will meet in Topic 19
+POLYESTERS
+
+The example we will use to introduce condensationpolymerisation is the formation of polyesters. You will rememberthat esters are the products of the reactionbetween alcohols and carboxylic acids. reaction is complete.Theonly organicproductisaslightlylargerestermolecule.
+
+For a reaction toproduce a polymer, weneed two monomers,eachwith tworeactive groups(one at each end). The alcohol usually involved in this type of reaction, more accurately called a'diol', has twohydroxyl groups,one at each end:
+
+Oneof the most common carboxylic acidsused (more accurately a dicarboxylic acid) has the structure below.The common namefor this compound is terephthalic acid.
+
+Consider how these molecules react together The OH of the carboxylic acid and the H of the alcohol reacttogether toform the small molecule,water, and thetwomolecules arelinked together by an ester group. This equation shows what happens during the formation of a typical polyester.
+
+SPECIFICATION REFERENCE
+
+15.16
+
+This larger molecule that has formed still has reactive groups at both ends. This means it can continuereacting with other molecules in the same way as above,until avery long polymer chain hasformed.Thestructureofthepolymeris:
+
+Because of the original name of the acid (terephthalic acid), the polymer was originally known as Terylene.
+
+Polyesters have a very wide range of uses, including soft drink bottles, food packaging, many types of clothing and duvet fllings.
+
+It is also possible to use a dioyl chloride instead of a dicarboxylic acid, although this is not used as a monomer in industry. The reaction occurs in the same way-the only difference is that the small moleculeformed ishydrogen chloride,notwater.
+
+## Topic 15: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 15D Carboxylic Acid Derivatives
+
+LEARNING TIP
+
+Whenshowinghowapolyesterforms,rememberthat,intheformationofthesmallmolecule,theHcomes fromthediol andtheOHfromthedicarboxylicacid(ortheClfromthedioylchloride).
+
+## Topic 15: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 15D Carboxylic Acid Derivatives
+
+CHECKPOINT
+
+• Why isit not possible tomake a polymerby reactingtogethermolecules of HOOCCH2COOH andCHOH?
+
+• 2. Drawtherepeatunit of thepolymerformedbetweenmoleculesof HOoCCOOH and CHCH(OH)CH(OH)CH3.
+
+## Topic 15: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 15D Carboxylic Acid Derivatives
+
+SUBJECT VOCABULARY
+
+condensationpolymerisationtheformationofapolymer,usuallybythereactionoftwodifferent monomers,whenanothersmallmoleculeisalsoformed
+
+## Topic 15: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 15D Carboxylic Acid Derivatives
+
+EXAM HINT
+
+Youmayliketothinkabout whydicarboxylicacidsrather thandioylchloridesareusedin industry.Hint:lookbackat Topic4(Book1:IAS)and think abouthazardsandrisks.
+
+## Topic 15: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 15E Spectroscopy and Chromatography
+
+LEARNING OBJECTIVES
+
+• Knowthatchromatography separates components ofa mixture using a mobile phase and a stationary phase.
+
+• BeabletocalculateRvaluesfromone-waychromatograms understandthereasonsfordifferencesinRvalues.
+
+## Topic 15: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 15E Spectroscopy and Chromatography
+
+PAPERCHROMATOGRAPHY
+
+You may know about paper chromatography from your early experiences ofchemistry.This is a suitableplaceto remind you of thistechnique and to explain some of theprinciplesthat relate to most types of chromatography.Theword'chromatography comes from the Greekfor colour(chroma)and writing (graphein) becausemixturesofcolouredsubstanceswereusedinearly experiments.However, thetechniquecan alsobe usedwith colourlesssubstancesbecausethesecanbedetectedinother ways without considering their colours.Chromatography is used:
+
+• ·toseparate amixtureintoitsindividual components
+
+• toidentify the components of a mixture by considering how far they have travelled up the paper.
+
+If you have synthesised an organic compound, chromatography is a good way to checkwhether it is pure and, if not, what impurities are present.
+APPARATUS
+
+All formsofpaper chromatography need thefollowing:
+
+• ·A container (usually glass) with a lid. The lid is there to prevent evaporationofthesolvent.Thecontainercouldbeabeakeror a rectangular tank.
+
+• Paper In introductory experiments you may have used filter paper or kitchen towel, but specially formulated chromatography paper gives better results. There also needs to be a method of supporting the paper in the container.
+
+• ·A solvent.In some cases,waterworks well,but often the solvent is a mixture of organic compounds, and is chosen to fit the characteristics ofthecomponents of themixture.
+
+In paper chromatography,the mixture is spotted onto thepaper a short distance from one edge. Often, spots of known substances arespottedseparatelyatthesamelevel asthemixture.Asmall volumeofthechosensolventisaddedtothecontainer,andthen thepaperisinsertedandsuitablysupported.Thelid isreplaced andtheapparatusleftuntil thesolventfronthasreached almostto the top of the paper. The paper is then removed, the position of the solvent front marked, and the paper left to dry.The resulting driedpaperisknownasachromatogram.FigAshowsthetypical apparatus used to set up a chromatography experiment and the resultingchromatogram.
+
+figAThechromatogramhereis showninaratheridealisedway-in realitythespots areoftenelongatedandtheircentresaredifficultto identify.
+HOWDOESCHROMATOGRAPHYWORK?
+
+All typesofchromatographydepend on theuseofa stationary phaseandamobilephase.Eachcomponentinthemixtureis attracted to both phases, but more strongly to one than the other
+
+• ·A component that is strongly attracted to the stationary phase butweaklyattractedtothemobilephasewillnottravelveryfar up thepaper.
+
+• but strongly attracted to the mobile phase will travel a long way up the paper.
+
+In paper chromatography,the stationary phase is the water trapped in the fibres of the chromatography paper, and the mobile phaseis thesolvent.
+
+Wehaveusedcolourstoillustratethedifferentsubstances in the mixture, but most organic compounds are colourless. Chromatography can still be used,but the components on the chromatogrammust bevisualised using ultravioletradiation componenttoformacolouredproduct.
+THIN-LAYERCHROMATOGRAPHY
+
+The apparatus and method used in thin-layer chromatography (TLC) are very similarto those of paperchromatography.The only difference is that instead of paper, a sheet of glass or plastic coated in a thinlayer ofa solidsuchas silica oralumina is used (fig B).
+
+figBThis isa TLCplate aftera chromatography experiment.
+CALCULATINGRVALUES
+
+The chromatogram is analysed and the distance travelled by thesolvent(from thebaselinetothesolventfront) is measured. For each component in the mixture, the distance it has travelled (starting from the baseline) is measured.
+
+The Rr value is calculated using the expression:
+
+distance travelled by component
+
+Rvalueshavenounitsbecause they are a ratio of two distances.The lettersinthetermreferto'retardation'(sometimes'retention')and factor'. Each component has a characteristic R value. This means that,in theory,different components can beidentified by reference to a table ofknownRvalues.Unfortunately,Rvalues depend on the solventused and otherfactors.
+
+In practice, paper and thin-layer chromatography are usually carried outwithkmownsubstancesincludedinthesameexperimentsothata comparisoncanbemade.
+
+figCChromatogram.
+
+The chromatogram in fig C suggests that the mixture on the leftcontainsthreedifferentsubstances.Twoofthesethree are probably the green and blue substances on the right. The third substance(yellow) cannot beidentified by this experiment.
+
+## Topic 15: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 15E Spectroscopy and Chromatography
+
+LEARNING TIP
+
+Remember,whencalculatingRvalues,thedistancemovedbythe solventismeasuredfromthebaselinetothesolventfront.
+
+## Topic 15: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 15E Spectroscopy and Chromatography
+
+COLUMNCHROMATOGRAPHY
+
+chromatography.The stationaryphase is aluminaorsilicapacked intoa tube(aburettewillbesuitable)andsoakedinasolvent.The mixture isplaced ontopof thestationaryphase and moresolvent (themobilephase)addedontop.Whenthetapisopened,the solventdripsthroughthetipandthecomponentsofthemixture begin to move down the tube and separate.
+
+fig DSeparation of a mixture by column chromatography.
+
+Moresolventisaddedatthetop,andeventuallyonecomponent (yellowinthisexample)leavesthecolumn andcanbecollected in a container(figD). If the experimentis continued,the blue component can be collected in the same way.
+
+The advantage of column chromatography is that much largerquantities ofmaterial canbeseparated thanwith paper chromatography.
+
+## Topic 15: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 15E Spectroscopy and Chromatography
+
+CHECKPOINT
+
+• 1. Suggest why,in paper chromatography,the non-polar substancehexanehasa highRfvalue.
+
+• 2. CalculatetheRvalueofcomponentXinthisdiagram.
+
+## Topic 15: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 15E Spectroscopy and Chromatography
+
+SUBJECT VOCABULARY
+
+stationaryphaseinchromatographytheliquidorsolidthatdoesnot move
+
+mobilephasein chromatographytheliquid thatmoves through the stationaryphase and transportsthe components
+
+## Topic 15: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 15E Spectroscopy and Chromatography
+
+DID YOU KNOW?
+
+• Be abletousedatafrommassspectrato:
+
+• suggestpossiblestructuresofa simpleorganic compound,given accurate relative molecular masses
+
+• (ii)calculate the accuraterelative molecular mass of a compound,given accurate relative molecularmasses to four decimal places.
+
+## Topic 15: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 15E Spectroscopy and Chromatography
+
+MASSSPECTROMETRYSOFAR
+
+In Topic 10 (Book 1: IAS) you learned about two aspects of massspectrometry.Theywere:
+
+• ·determining therelative atomicmassesofelementsfrom isotopicabundances
+
+• usingfragmentationpatterns to determine thestructures of organiccompounds.
+
+In this section we will learn about another use-determining the molecular formula (although not always the structure oridentity) ofanorganiccompoundfromapreciserelativemolecularmass obtainedfromhighresolutionmassspectrometry(HRMS).
+HIGHRESOLUTIONMASSSPECTROMETRY
+
+Without going into technical detail, there are mass spectrometers thatcanprovideavalueforarelativemolecularmasstofour ormoredecimalplaces.Valueswiththisdegreeofprecision sometimesenableacompoundtobepositivelyidentifiedfrom therelativemolecularmassalone,withouttheneedforanyother information.Considercompoundswith M,=58(or58.0).There areseveralpossiblestructures,includingthoseintableA:
+
+## Topic 15: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 15E Spectroscopy and Chromatography
+
+
+#### HIGHRESOLUTIONMASSSPECTROMETRY
+tableA
+
+| FORMULA   | STRUCTURE          |   ACCURATEM, |
+|-----------|--------------------|--------------|
+| C4H10     | CHCHCHCHOr (CH3)CH |      58.0780 |
+| C3HO      | CHCOCHorCHCHCHO    |      58.0417 |
+| C2HN2     | H2NCH=CHNH2        |      58.0530 |
+
+## Topic 15: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 15E Spectroscopy and Chromatography
+
+LEARNING TIP
+
+HRMSgivesinformationonlyaboutmolecularformulae,notabout structure.Structurescanbededucedfromthefragmentationpatterns inmassspectrometry.
+
+OnceanaccurateMhasbeenobtainedfromHRMS,itispossible to decide whether the compound has the molecularformula CH1o or CHOorCHN2.Notethat if theaccurateM,isfound tobe 58.0417,it isstillnotpossibletodecidewhetherthecompound is propanone or propanal because they both have the same accurate M, value.
+
+UsesofHRMSincludeinforensicsandenvironmentalanalysis.
+
+figAHRMSequipmentlooksvery similartoothermassspectrometry equipment.
+
+## Topic 15: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 15E Spectroscopy and Chromatography
+
+CALCULATINGTHEACCURATERELATIVE MOLECULARMASS
+
+We can also obtain accurate M, values by doing some simple calculations.Youknow thatrelativeatomicmasses arerelative to the average massof acarbon atom(12C)takenasexactly 12,whichfor ourpurposes means12.0000.Table B shows the accurateatomicmassesofsomecommonelements:
+
+## Topic 15: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 15E Spectroscopy and Chromatography
+
+
+#### CALCULATINGTHEACCURATERELATIVE MOLECULARMASS
+tableB
+
+| ELEMENT   | SYMBOL   |   ACCURATEATOMICMASS |
+|-----------|----------|----------------------|
+| hydrogen  | H        |               1.0078 |
+| carbon    | C        |              12.0000 |
+| nitrogen  | N        |              14.0031 |
+| oxygen    | O        |              15.9949 |
+
+## Topic 15: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 15E Spectroscopy and Chromatography
+
+
+#### CALCULATINGTHEACCURATERELATIVE MOLECULARMASS
+tableB
+
+You will need to use information from table B in the following examples.
+
+## Topic 15: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 15E Spectroscopy and Chromatography
+
+WORKEDEXAMPLE1
+
+A compound isfound tohave anM,valueof84.0573.Which of thesestructures doesthecompoundhave?
+
+CH2=CHCHCHCHCHorCHCH=CHCHCHO
+
+## Topic 15: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 15E Spectroscopy and Chromatography
+
+Answer
+
+Themolecularformula of CH=CHCHCHCHCHisCH12and its relativemolecularmassiscalculatedasfollows:
+
+(6 x12.0000) + (12×1.0078)= 84.0936
+
+Themolecularformulaof CHCH=CHCHCHOisCsHO and its relativemolecularmassiscalculatedasfollows:
+
+(5 × 12.0000) + (8 × 1.0078) + 15.9949 = 84.0573
+
+Thismeans thatthe compoundisCHCH=CHCHCHO
+
+## Topic 15: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 15E Spectroscopy and Chromatography
+
+WORKEDEXAMPLE2
+
+Threecompoundshavethesestructures:
+
+• ACHCHCHCH=CH2
+
+• BCHCH(NH)CN
+
+• CCH=CHCOCH3
+
+In a high resolutionmass spectrometer, compoundY is found to have an M, value of 70.0423.
+
+What istheidentityofY?
+
+## Topic 15: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 15E Spectroscopy and Chromatography
+
+Answer
+
+Themolecularformulaof AisCsHoanditsM,value is:
+
+(5 × 12.0000) + (10 × 1.0078) = 70.0780
+
+Themolecularformula ofBisCHNand itsM,value is:
+
+(3 x 12.0000) + (6 ×1.0078) +(2×14.0031) = 70.0530
+
+Themolecularformula of CisC4HsO and itsM,value is:
+
+(4 × 12.0000) + (6 x 1.0078) + 15.9949 = 70.0417
+
+Although none of the calculated M, values exactly matches the accurate M,value obtained from thehigh resolutionmassspectrometer,thevalueismuchclosertoCthantoAorB,socompoundYisC.
+
+## Topic 15: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 15E Spectroscopy and Chromatography
+
+WORKEDEXAMPLE3
+
+figBA highresolutionmassspectrum.
+
+Suggest whichof these compounds areresponsibleforthemassspectrum:
+
+• PC3H8
+
+• Q CH;CHO
+
+• RO=C=O
+
+## Topic 15: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 15E Spectroscopy and Chromatography
+
+Answer
+
+M,of P=(3×12.0000)+(8×1.0078)=44.0624
+
+M,of Q = (2 ×12.0000) + (4 × 1.0078) + 15.9949 = 44.0261
+
+M,of R=12.0000+(2×15.9949)=43.9898
+
+The twopeaks correspond toP and Q,but not toR,sopropane and ethanal arepresent,but not carbondioxide.
+
+## Topic 15: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 15E Spectroscopy and Chromatography
+
+CHECKPOINT
+
+• TwocompoundshavethestructuresCHCH2CH2CH2NH2andHN=CHCOOH.Inahighresolution compound it is. You do not need to show any working.
+
+• A compound isthoughttobeeither1,2-diaminoethaneorethanoicacid.ItsaccurateM,valueis 60.0213.Whichcompoundisit?Showyourworking
+
+m/z
+
+## Topic 15: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 15E Spectroscopy and Chromatography
+
+SUBJECT VOCABULARY
+
+highresolutionmass spectrometry(HRMS)atypeof massspectrometrythatcan produceM,valuestoseveral decimalplaces,usuallyfouror more
+
+## Topic 15: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 15E Spectroscopy and Chromatography
+
+LEARNING OBJECTIVES
+
+• Know that high performance liquid chromatography, HPLC, and gas chromatography, GC, are types of column chromatography that separate substances because of differentretentiontimesinthecolumn.
+
+## Topic 15: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 15E Spectroscopy and Chromatography
+
+HIGHPERFORMANCELIQUIDCHROMATOGRAPHY
+
+High performance liquid chromatography (HPLC) is a refinement of column chromatography, described in Section 15E.1. The main differences are:
+
+• ·The solvent is forced through a metal tube under high pressure, rather than being allowed to pass through by gravity.
+
+• The particle size of the stationary phase is much smaller, which leadstobetterseparationofthecomponents.
+
+• Thesampleis injectedinto thecolumn.
+
+• The components are detected after passing through the column, usually by their absorption of ultraviolet radiation.
+
+• The wholeprocess is automated, and the results are quickly available on a computer display.
+
+Fig A shows a typical setup.
+
+figAApparatusfor HPLC.
+
+Aseachcomponentreachesthedetector,asignalisdisplayed onthecomputerscreen.Justasretentionfactor(R)valuescan be obtained from paper and thin-layer chromatography, in HPLC valuesofretentiontimeareobtained.Theretentiontimeofa componentisthetimetakenfrominjectiontodetection,andthese values canbeimportant inidentifying the components.However, retention times depend on several variables, including:
+
+• ·thenature ofthe solvent
+
+• ·thepressure used
+
+• .thetemperatureinsidethe column.
+GASCHROMATOGRAPHY
+
+Gas chromatography(GC) is another refinement of column chromatography.Themaindifferences are:
+
+• ·Themetaltubecanbeseveralmetreslongandiscoiledtosave space.
+
+• The stationary phase is a solid or liquid coated on the inside of the tube.
+
+• The mobile phase is an inert carrier gas (often nitrogen or helium)
+
+• The sample is injected into the column, as in HPLC.
+
+• The components passing through the column are detected.
+
+• The whole process is automated, and the results are quickly available on a computer display (fig B).
+
+figBThe complete GCequipment takesupvery littleroom.
+
+Fig C shows a typical setup.
+
+Aiddns
+
+figCApparatusfor GC.
+
+After the sample is injected,the componentsvaporise and move through the coiled tubewith the carrier gas. They move at different speeds,depending on how strongly they are attracted to the stationary phase.Thosewith weaker attractionsmove more quickly and have shorter retention times. Fig D shows the separation occurring in the coiled tube.
+
+• figDAgaschromatographseparatingthreecomponents.
+
+The relative concentrations of the different components are oftendisplayed on a graph like that in fig E.
+
+fig ETheareasunderthepeaksrepresent therelative concentrationsof thecomponents.
+
+## Topic 15: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 15E Spectroscopy and Chromatography
+
+LEARNING TIP
+
+Traditional columnchromatography（usingaburette,forexample)hasoneadvantageoverHPLCand GC-reasonable amountsof thecomponentscanbecollected.InGCthecomponentsareoftendetected in a flame,so they aredestroyed duringthe detectionprocess at the end.
+
+## Topic 15: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 15E Spectroscopy and Chromatography
+
+CHECKPOINT
+
+• HowdoesthemovementofthemobilephaseinHPLCdifferfromthatintraditionalcolumn chromatography?
+
+• Suggestreasonswhyretentiontimesforagivensubstancemaybedifferentwhenobtainedfrom differentgaschromatograms.
+
+## Topic 15: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 15E Spectroscopy and Chromatography
+
+SUBJECT VOCABULARY
+
+retentiontime(ofacomponent)inHPLCandGC,thetimetakenfrominjectiontodetection
+
+## Topic 15: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 15E Spectroscopy and Chromatography
+
+LEARNING OBJECTIVES
+
+• Know that high performance liquid chromatography, HPLC, and gas chromatography, GC, are types of column chromatography that separate substances because of differentretentiontimesinthecolumnandmaybeused in conjunctionwithmassspectrometry,in applicationssuch as forensics or drug testing in sport.
+
+## Topic 15: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 15E Spectroscopy and Chromatography
+
+LIMITATIONSOFHPLCANDGC
+
+The two types of chromatography described in Section 15E.3 them.This ispartlybecauseit isdifficult tocontrol all ofthe variables(such as solvent,pressure and temperature)and partly becausedifferentsubstancesmayhavethesameretentiontimes. Componentsareoftenidentifiedbyreferencetoadatabaseofthe retentiontimesofknownsubstances.However,ifacomponent hasaretentiontimeforwhichthereisnoreference,thenthese techniquesprovidenousefulinformation.
+
+Here are two areas inwhich theresults of these chromatography methodshavetobeexactlycorrect:
+
+• ·inprovidingforensicevidence(foruseina courtoflaw)
+
+• in detectingbanned drugs in sportsmen and sportswomen and racehorses.
+
+They are used in other areas, including analysis of pollutants in the environment, detecting explosives in airport baggage and in spaceprobes onotherplanets.
+
+Because HPLC and GC do not give results that are beyond doubt, they are often combined with a different technique that youlearned aboutinTopics2 and10(Book1:IAS).This is massspectrometry(MS),a technique thatcannotseparate a mixture but which can provide information about the structures ofcompounds.Thecombinationsofthesetechniquesareoften abbreviated toHPLC-MSandGC-MS.
+
+fig AGC-MS iswidely used forforensicpurposes.
+
+GC-MS
+
+As the two combined techniques are very similar, we will focus only on GC-MS. Fig B shows the stages in a typical setup.
+TOPIC15
+
+Imagine a sample containinga mixture offive different substances,A-E.
+
+Stage1:Themixture isinjected into agas chromatograph
+
+Stage 2:Each componenthas a differentretentiontime,so emergesatadifferenttime.
+
+Stage3:Oneata time,eachcomponententersthemass spectrometer
+
+Stage 4: Component C has its mass spectrum displayed.
+
+Stage 5: The m/z values and relative abundances of components arecomparedwithadatabaseofknownsubstances.
+
+Stage 6: When a match is found, component C has been positively identified.
+
+Very small traces of substances, for example in a human hair or a paintfleck,canbe accuratelyidentified bythismethod.
+PROBLEMSWITHDRUGTESTING
+
+AlthoughtheuseofGC-MSfordetectingsmallamountsof banned drugs is usually accepted as producing reliable results, sometimesaproblemarises.Oneexampleinvolvestheanabolic steroidcallednandrolone.Anabolicsteroidshavelegitimateuses inmedicine,especiallyinthetreatmentofanaemia,osteoporosis andsomeformsofcancerItseffectsincludemusclegrowthand increasedredbloodcellproductionandbonedensity.
+
+Mainlybecauseoftheireffectsinpromotingmusclegrowth, sportingauthoritieshaveprohibited theuseofanabolicsteroidsin sportsmen andsportswomen,includingathletes.Whensomeone takesnandrolone,it is converted in thehumanbody intoa similarcompound,19-norandrosterone,whichisthenexcreted inurine.Participantsmayberoutinelytestedforthepresence of 19-norandrosterone in their urine, and the International Olympic Committee has set a limit of 2 nanograms (ng) per cm? of urine, which is only 0.000 000 002 g per cm². A participant with a concentrationhigherthanthishas'testedpositive'Theskeletal formulaeofthesetworelatedcompoundsare:
+
+#### PROBLEMSWITHDRUGTESTING
+In the 1998 Winter Olympic Games in Nagano, over 600 participantsweretestedfornandrolone,andnonetestedpositive. Intheyearsthatfollowed,someveryhigh-profileathletesina rangeofsportshavebeenbannedfromcompetitionbecause oftestingpositivefornandrolone.However,manyscientists believethatthenumberofpositivetestsishigherthanexpected. Thesuspicionisthatnandrolonemaybeaningredientinsome nutritionalsupplementsthatparticipantsareallowedtotake. Another theory is that a combination of permitted dietary supplements andexercisemayincrease theconcentrationof nandrolone in the human body.
+
+fig DA urine sample from an athlete about to be tested for illegal drugs.
+
+## Topic 15: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 15E Spectroscopy and Chromatography
+
+LEARNING TIP
+
+Inquotingverysmallconcentrationsofdrugs,rememberthata microgram(μg) is one millionth of a gram,1 ×10-6g.
+
+## Topic 15: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 15E Spectroscopy and Chromatography
+
+CHECKPOINT
+
+• 1. WhatisthemainfunctionofeachtechniqueinHPLC-MS?
+
+SKILLS
+
+ETHICS
+
+2.Which of the two compounds nandrolone and
+
+• 19-norandrosteronewouldyouexpecttoreactwith:
+
+• (a)brominewater
+
+• (b)2,4-dinitrophenylhydrazine?
+
+## Topic 15: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 15E Spectroscopy and Chromatography
+
+LEARNING OBJECTIVES
+
+• Understand the key aspects of NMR spectroscopy.
+
+• Understandhow13CandHaredetectedbyNMR
+
+## Topic 15: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 15E Spectroscopy and Chromatography
+
+EXAMHINT:EXTRAMATERIAL
+
+You donotneedtorevisetheprinciplesofNMRspectroscopy,as youwill notbe askedquestions about it inyourexam.
+
+## Topic 15: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 15E Spectroscopy and Chromatography
+
+WHATISNMR?
+
+You learned about two major techniques used in analysing organic compounds in Topic 10 (Book1:IAS).These are mass spectrometry and infrared (IR) spectroscopy. In Section 15E.2 you learned more about mass spectrometry (high resolution mass spectrometry).
+
+This section and thefollowingsectionsinTopic15 are about a thirdmajortechnique,nuclearmagneticresonance spectroscopy(NMR).Thisisimportantfor determining the structures oforganiccompounds.Everymajorhospital has a departmentwithanNMRscanner,althoughtheyarenormally described asMRI (magneticresonanceimaging)scanners.
+
+figAA hospital patient about tohaveanMRI scan.MRl isa development of NMR spectroscopy.
+ASIMPLIFIEDEXPLANATION
+
+NMRismuchmoredifficulttofullyunderstand thanMSorIR spectroscopy.Fortunately,our emphasis will be on interpreting the spectraproduced,and notonfullyunderstandinghowitworks. Evenso,itwill helpifyou read abitofthetheorybehind it. TableAshowssome ofthekeypoints.
+
+## Topic 15: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 15E Spectroscopy and Chromatography
+
+
+#### ASIMPLIFIEDEXPLANATION
+| POINT                                                                                                        | COMMENT                                                                                                                                                                              |
+|--------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Nucleons(protons and neutrons) have spin.                                                                    | Youknowthatelectronsinatoms that pair up in orbitals have opposite spins.Well,protons and neutrons in thenucleus alsohave opposite spins.                                            |
+| Nuclei haveeitheran evenoranoddnumber of nucleons.                                                           | Innucleiwithanevennumberof nucleons,these spinscancel out. Innucleiwithanoddnumberof nucleons,these spins cancel out, exceptfortheoddone,whichleaves the nucleus with residual spin. |
+| Residual spin causesa tiny magnetic field.                                                                   | Such nuclei can be imagined as tiny magnets.                                                                                                                                         |
+| Thesenucleiareaffected by anexternalmagnetic field.                                                          | Nuclei canbeimagined aseither lining up or opposing the external magneticfield.                                                                                                      |
+| There is a difference in energybetweenthese twodifferentstatesofa nucleus.                                   | Asthespinsofnuclei'flip'between lining up and opposing the external magneticfield,thenucleicanabsorb electromagneticradiation.                                                       |
+| Thenucleiof two adjacent(neighbouring) atomsinamolecule influenceeachother, andelectrons alsohave an effect. | Thismeansthatelectromagnetic radiationisabsorbeddifferentlyby different atoms in a molecule, and thesearedetectedasdifferent'signals at differentfrequencies.                        |
+
+## Topic 15: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 15E Spectroscopy and Chromatography
+
+KEYASPECTSOFNMR
+
+YouneedtoknowaboutseveralaspectsofNMR.
+NMRSPECTRUM
+
+Theoutputofamassspectrometerorofaninfraredspectrometer produces a spectrum (a kind of graph). Similarly, each compound testedusingNMRproducesacharacteristicspectrum.The verticalaxisissometimeslabelled'absorption'(for'absorption of radio frequency energy) and has no units, although the label isoftenomitted.Thehorizontal axisislabelledchemicalshift (or sometimes with the & symbol - the same symbol as used for partial charges) and has the units'ppm'(parts per million). The scaleusuallystartswitha zerovalue ontheright,with thevalues increasing totheleft.
+WHICHATOMSAREDETECTEDBYNMR?
+
+Foranatom toshowupinanNMRspectrum,it musthave an odd number of nucleons(protons and neutrons).Thatrules out carbon atoms,or atleast12Catoms,astheyeachhavethreepairs
+
+ofprotons and threepairs ofneutrons.However,innaturally occurringcarbon,about1.1%ofthe carbon atoms areof the isotope13C,and theyhave anodd numberofneutrons(seven). So,carbon atomsinmoleculescanbedetected becausesome of them are 13C atoms.Thisprocess isknown as carbon-13 or 13C NMR. Hydrogen atoms are also detected - at least the 1H isotopesthatmakeup99.985%ofallhydrogenatoms.In the context of NMR, 1H hydrogen atoms are often referred to as protons, so an alternative name for the process is proton NMR.
+
+You canseethatitresemblesamethanemolecule,butwithsilicon instead of carbon and methyl groups instead of hydrogen atoms. SiHiscalledsilane,bycomparisonwithmethane,soperhaps you can understand the origin of the name tetramethylsilane. Themoleculeissuitablebecauseitcontains12hydrogen atoms, it produces a singlestrongsignal thatis easytoidentify.It is alsochemicallyunreactive,sowill notreactwithmostorganic compounds.
+
+We often refer to these two atoms (13C and 1H) as'producing a signal. In this book we will consider only these two atoms, although NMR can be successfully used for other atoms, including 15N and 31P.
+SUITABLESOLVENTS
+
+Theorganiccompound beinganalysedhastobedissolved ina solvent,butmostsolventmoleculescontain carbonand hydrogen atoms.Thismeansthattheywill producesignals thatinterfere withthoseproducedbythecompound beinganalysed.The commonestsolventusedhastheformulaCDCls.Thesymbol D stands for deuterium,which is the2Hisotope of hydrogen. Deuteriumatoms containaproton andaneutron,andtheirspins cancel out.Thissolventproducesnosignalsthatcould interfere with the signalsfrom hydrogen atoms. It produces only one signal thatcaninterferewiththesignalsfrom carbon atoms,and this can easilyberemovedfromthespectrum.
+TMS
+
+Carbonandhydrogenatomsindifferentchemicalenvironments willproducedifferentsignals.Therefore,thereneedstobe areferencestandard thatwillgiveaprominentsignal.The compoundusedforthispurposeistetramethylsilane(usually abbreviated toTMS).Itsstructureis shownbelow:
+
+figBThelargestpartof NMRequipmentisoftenthelargevacuumflask containingliquidhelium,neededtocool themagnetstobelow4K.
+CHEMICALSHIFT
+
+characteristicchemical shift(8value),dependingontheother atoms it is joinedto.Thereferencestandard,TMS,isgiven a chemical shift of zero (8 = 0.0 ppm), and all other atoms have valuesrelatedtothis.Chemicalshiftcanbethoughtofasthe resonantfrequencyofanatom.InSections15E.6and15E.7you willlearntouseadatabookletcontainingvalues(ormoreoften, ranges)ofchemical shiftstoidentifyspecificatomsinmolecules. Herearetwoexamples:
+
+carbon in a ketone group
+
+—C-cO—C—8
+
+8=210ppm
+
+carboninan alcohol
+
+—C—OH
+
+8= 60 ppm
+
+Note that these values refer only to the carbon atoms shown in bold, and not to any other carbon atoms or to any hydrogen atoms in the molecule.
+
+## Topic 15: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 15E Spectroscopy and Chromatography
+
+LEARNING TIP
+
+DonotworryifyouthinkyoudonotunderstandthedetailsofNMR theory-byfarthemostimportantthingforyoutounderstandisits application.
+
+## Topic 15: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 15E Spectroscopy and Chromatography
+
+CHECKPOINT
+
+• 1. Some organiccompounds contain these atoms:16O,19F,32s. ExplainwhichofthesearenotsuitableforuseinNMR spectroscopy,andwhy.
+
+• 2. Suggest why water(H2O) is less suitable than TMS as a reference in NMRspectroscopy.
+
+## Topic 15: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 15E Spectroscopy and Chromatography
+
+SUBJECT VOCABULARY
+
+nuclearmagneticresonancespectroscopy(NMR) a technique used tofindthestructuresoforganiccompounds.Itdependsontheability ofnucleitoresonateinamagneticfield
+
+chemical shift(ofa protonorgroupof protons) a number (in the units ppm) that indicates its behaviour in a magnetic field comparedwithtetramethylsilane.Itcanbeusedtoidentifythe chemicalenvironmentofthecarbonatomsorofthehydrogenatoms (protons)attachedtoit
+
+13CNMR theuse of NMRspectroscopy to detect 13Cnucleiwithin the moleculesofasubstance,inordertodeterminethestructure protonNMRtheuseofNMRspectroscopytodetectHnucleiwithin themoleculesofasubstance,inordertodeterminethestructure
+
+## Topic 15: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 15E Spectroscopy and Chromatography
+
+LEARNING OBJECTIVES
+
+• Understand that 13C NMR spectroscopy provides information about the positions of 13C atoms in a molecule.
+
+• Be abletousedatafrom13CNMRspectroscopyto:
+
+• (i)predictthedifferentenvironmentsforcarbonatomspresentinamolecule,givenvaluesofthechemicalshift,8
+
+• (ii)justify the number of peaks present in a 13C NMR spectrum in terms of the number of carbon atoms in different environments.
+
+## Topic 15: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 15E Spectroscopy and Chromatography
+
+WHATISSHOWNBYA13CNMRSPECTRUM?
+
+The actual spectrum of a compound is usually shown as a horizontal line just above the horizontal scale, but with vertical lines showing the signals produced by the 13C carbon atoms in the molecule. These vertical lines are usually referred to as signals or peaks.
+
+• ·Thenumberofverticallinestellsyouthenumberofdifferentchemicalenvironmentsof carbon atoms in the molecule, but not necessarily the total number of carbon atoms.
+
+• Thepositions of theverticallines on thehorizontalscaletell you thechemical shiftsofeach carbonatom and,withreferencetoalistofchemicalshifts,allowyoutodeducethechemical environments.
+
+The two isomers of propanol can be used to illustrate these points.
+
+Propan-1-ol has the structure CH——CH2—CH2—OH. Each molecule contains three carbon atoms, all in different chemical environments.You might think that the two carbon atoms in the CH2 groups are in the same chemical environment,but they are not. The second one is joined to CH and CH2, but the third one is joined to CHz and OH, which means they are in different chemical environments. Thereshouldthereforebethreepeaksinthespectrum.
+
+Propan-2-ol hasthestructureCH—CH(OH)—CH.Eachmolecule contains three carbon atoms,but those in the two CH groups are in the same chemical environment. This is because each CHs group is joinedtoCH(OH).Thismeansthatthereshouldbetwopeaksinthespectrum.FigAshowsthe 13C spectra of these isomers.
+
+• fig A 13C NMR spectra of propan-1-ol and propan-2-ol.
+
+The spectra confirm the number ofpeaks expected,but show two otherfeatures.
+
+• ·.The less important feature is that in propan-1-ol the three peaks are of equal height, but in propan-2-ol the two peaks have different heights.
+
+• ·Themore important oneis that thepeakshavedifferentchemical shifts.
+INTERPRETINGCHEMICALSHIFTS
+
+To interpret chemical shifts you need a table of values and corresponding carbon atoms or a chart. The chart in fig B will be provided in an examination, and you need to become familiar with using it.
+
+fig B13C NMR chemical shift ranges.
+
+We will use this chart to analyse the two spectra for propanol.
+Propan-1-ol:
+
+In the spectrum of propan-1-ol the peaks appear at 65, 25 and 10 ppm. The only relevant ranges in the chart are C—C (the range is approximately 60-0 ppm) and C—OH (the range is approximately 75-55 ppm).
+
+This means that the peak at 65 ppm corresponds to C—OH, so this is the carbon in the CH2OH group. The peaks at 25 and 10 ppm correspond to C—C, so these are the carbons in the CH; and CH2 groups.Notice that it is not possible to decide whether the peak at 25 ppm is due to the CH or the CH2 group.
+Propan-2-ol:
+
+In the spectrum of propan-2-ol the peaks appear at 65 and 27 ppm. The only relevant ranges in the chart are again C—C and C—OH.
+
+This means that the peak at 65 ppm corresponds to C—OH, so this is the carbon in the CHOH group. The peak at 27 ppm corresponds to C—C, so this is due to the carbons in the two CH3 groups. The peak at 27 ppm is bigger than the one at 65 ppm because it is caused by two carbon atoms, not one.
+
+Fig C shows theinterpretation of these twospectra.
+
+HO
+
+60
+
+40
+
+20
+
+fig CInterpreting the 13C NMR spectra of propan-1-ol and propan-2-ol.
+
+PRACTICEMAKESPERFECT!
+
+The way to check how well you understand how touse 13C NMR spectra is to try lots of examples. In this section we will continue with some examples of varying types.
+
+Absorption d/ppm
+Predictingthenumberofpeaks
+
+You need to consider each carbon atom and whether it is uniquelypositioned in the molecule or whether there is one or more carbon atoms identically positioned in the molecule.
+
+Foreach of these compounds,predict the numberof peaks due to the carbon atoms:
+
+• A CH3-CH2-CH2-CH3
+
+• B(CH3)2-CH-CH2-CH3
+
+• C (CH3)4C
+
+The answersareintableA.
+
+## Topic 15: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 15E Spectroscopy and Chromatography
+
+
+#### Predictingthenumberofpeaks
+tableA
+
+| COMPOUND   | NUMBER OFPEAKS   | COMMENTS                                                                                                                                                                                                                                                                                                                                                                  |
+|------------|------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|            | 2                | One due toboth CH3groups(theseareboth joined to CHCHCH,sO areidentical). One due to both CH2 groups (these are both joined to CHs and CHCH,so are identical).                                                                                                                                                                                                             |
+| B          |                  | One due to the two left-hand CHs groups (these are identically joined totherestof themolecule)-thisshouldbebigger than the other twopeaks because it is due to two carbon atoms. One due to the CH group. One due to the CH2 group. One due to the right-hand CH3group (this is not identical to the other CHsgroupsbecause it is joined toCH2 and theyare joined to CH). |
+|            | 2                | One due to the four CH3 groups, which are all identically joined to the central C atom-this should bemuchbigger than the other peak as it is due to four carbon atoms. OneduetothecentralCatom.                                                                                                                                                                           |
+
+## Topic 15: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 15E Spectroscopy and Chromatography
+
+Predictingtheappearanceofaspectrum
+
+Youneedtoconsiderallof thecarbon atoms,asinExample1,butthistime alsouse thechartin fig B when considering the other atoms joined to them.
+
+Foreach of thesecompounds.predict the number of peaks and chemical shiftranges due to the carbon atoms:
+
+• ACH-CH2-CH2-NH2
+
+• B(CH3)2CH-COOH
+
+• C (CH3)3N
+
+TheanswersareintableB.
+
+## Topic 15: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 15E Spectroscopy and Chromatography
+
+
+#### Predictingtheappearanceofaspectrum
+| COMPOUND   | NUMBER OFPEAKS   | CHEMICALSHIFTRANGES                                               | COMMENTS                                                               |
+|------------|------------------|-------------------------------------------------------------------|------------------------------------------------------------------------|
+| A          | 3                | 2 peaks in range 60-0 1 peak in range 63-35                       | Due to CHs and first CH2 group. Due to CH2 joined to NH2.              |
+| B          | 3                | 1 peak in range 60-0 1 peak in range 60-0 1 peak in range 182-165 | Due to the two CHs groups. Due to the CH group. Due to the COOH group. |
+|            |                  | 1 peak in range 63-35                                             | Due to the three CHgroups,which are all identical.                     |
+
+## Topic 15: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 15E Spectroscopy and Chromatography
+
+Interpreting a spectrum
+
+figDWhichcompoundhasthis13CNMRspectrum?
+
+Usethespectrumandthechemicalshiftcharttoexplainwhetherthecompound'sstructureis
+
+CH2=CH-CH2OH orCH3-CH2-CHO.
+Answer
+
+Thepeakat 8=203ppm is duetoa carbon in an aldehydeorketone.
+
+The peaks at 8=37 and 6ppm are dueto a carbon joined to another carbonby a single bond This interpretation fits CH3-CH2-CHObut not CH=CH-CH2OH.
+
+correspondingtoC=C,andapeakintherange8=75-55ppmcorrespondingtoC-OH.
+
+## Topic 15: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 15E Spectroscopy and Chromatography
+
+CHECKPOINT
+
+• Workoutthenumberofdifferentchemicalenvironmentsforthecarbonatomsinthefirstsix straight-chain alkanes.
+
+• An aromatic compound has the molecular formula CgHsO2.
+
+The compound contains both a phenol functional group and a ketone functional group. The 13C NMR spectrum of thecompound is shown below.
+
+Use the spectrum todeduce the structureof the compound.Explainyourreasoning.
+
+## Topic 15: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 15E Spectroscopy and Chromatography
+
+SUBJECT VOCABULARY
+
+chemicalenvironmentsthechemicalenvironmentsofcarbonatomsinamoleculearerelatedtowhether thecarbonatomsareidentically,ordifferently,positionedwithinamolecule
+
+## Topic 15: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 15E Spectroscopy and Chromatography
+
+LEARNING TIP
+
+Whenyouneedtodecidehow many differentchemical environmentsthereareforthe carbonatomsinamolecule,itis agoodideatowritethestructure withthecarbon atomsseparated, e.g.CH3-CH(OH)-CH3.
+
+## Topic 15: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 15E Spectroscopy and Chromatography
+
+LEARNING OBJECTIVES
+
+• Be abletousebothlow andhighresolutionprotonNMRspectroscopyto:
+
+• (i)predictthedifferent typesofprotonspresentin amolecule,givenvaluesof thechemical shift,8
+
+• (i) relate relative peak areas, or ratio numbers of protons, to the relative numbers of H atoms in different environments.
+
+## Topic 15: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 15E Spectroscopy and Chromatography
+
+LOWRESOLUTION'HNMRSPECTROSCOPY
+
+1H NMR spectroscopy comes in two forms - low resolution and high resolution. The low resolution form is no longer used, but if westartwiththis,itwillhelpyoutounderstandthehighresolution form more easily.
+
+8 = 0.0 ppm. This is due to the reference standard tetramethylsilane(TMS)andshould beignored.Thechemical shiftsaremeasuredrelativetothepeakforTMS.
+WHATDOESALOWRESOLUTION'HNMR SPECTRUMSHOW?
+
+Theactualspectrumofacompoundisusuallyshownasa horizontallinejustabovethehorizontalscale,butwithpeaks produced by the 'H hydrogen atoms in the molecule. The horizontal scale often starts from 8 = 12.0 ppm on the left to 0.0ppm on theright.Quiteoften,onlythepartofthescalewhere thepeaks appearisshown.
+
+• ·Thenumberofpeaks tellsyou thenumber ofdifferent chemical environments of the hydrogen atoms in the molecule, butnotthetotalnumberofhydrogenatoms.
+
+• Thepositionsofthepeaksonthehorizontalscaletellyou the chemical shifts of each hydrogen atom, and, with reference to a listorchartofchemicalshifts,theseallowyoutodeducethe types ofchemical environment.
+
+• The areas under thepeaks represent therelative numbers of hydrogen atoms in each environment.
+
+• .Sometimesanumberisaddedatthesideofeachpeaktoshow the relative area underthepeak.
+
+Anotherwaytorepresenttherelativeareasisbyanintegration trace.This is a horizontal line that becomeshigherasit passes eachpeak.The increases in height canbe measured-they representtherelativeareasunderthepeaks.
+
+The two isomers of propanol can be used toillustrate thesepoints.
+
+#### WHATDOESALOWRESOLUTION'HNMR SPECTRUMSHOW?
+Propan-1-ol has the structure CH-CH2-CH2-OH. There are eighthydrogenatoms,infourdifferentchemicalenvironments. YoumightthinkthatthetwopairsofhydrogenatomsintheCH2 groups are in the same chemical environment, but they are not. The first CH2 group is joined to CH, and CH2, but the second oneis joined toCH2and OH,and these are different chemical environments.Thismeansthatthereshouldbefourpeaksinthe spectrum. Fig A shows the low resolution H NMR spectrum of thisisomerwith anintegration trace.
+
+Propan-2-ol has the structure CHs-CH(OH)-CH3. There are eight hydrogen atoms,butthoseinthetwoCHgroups areinthesame chemical environments.ThisisbecauseeachCHgroupisjoined to CH(OH)CH3. The hydrogen atoms in the CH group and in the OH group are in unique chemical environments. This means that there should be three peaks in the spectrum.FigB shows the low resolutionHNMRspectrumofthisisomerwiththeratioofpeak areasindicatedbycircled numbers.
+
+figAThelowresolutionH NMRspectrum ofpropan-1-ol
+
+figBThelowresolutionH NMRspectrum of propan-2-ol.
+INTERPRETINGCHEMICALSHIFTS
+
+To interpret chemical shifts you need a table of reference values withcorrespondinghydrogen atoms or a chart.Fig C shows a simplified version of the chart that will be provided in an examination, and you need to become familiar with using it.
+
+figCH NMR chemical shift ranges.
+
+For two of the chemical shift ranges in this chart, the compounds included show trends in chemical shiftvalues,asshownhereintableA.
+
+## Topic 15: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 15E Spectroscopy and Chromatography
+
+
+#### INTERPRETINGCHEMICALSHIFTS
+tableA
+
+| TYPEOFCOMPOUND   | TREND                  |
+|------------------|------------------------|
+| halogenoalkane   | RCHF>RCHCI >RCHBr>RCHI |
+| alkane           | RCH>RCH2>RCH3          |
+
+## Topic 15: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 15E Spectroscopy and Chromatography
+
+BUTANALANDBUTANONE
+
+Wewilluse the chart tointerpret thelowresolutionH NMRspectra of these isomerswith the molecular formula CHgO. Fig D shows the spectrum for butanal.
+
+figDThelowresolutionHNMRspectrumofbutanal.
+
+The peak at 8 = 9.8 ppm is within the aldehyde range, so must be due to the H in the CHO group.
+
+The peak at 8 = 2.4 ppm is within the range for H——C—C=O, so must be due to the two H atoms in the CH2 group joined to the CHO group.
+
+The peak at 8 = 1.6 ppm is within the range for H—C—C (alkane), so must be due to the two H atoms in the CH2 group not directly joined to the CHO group. Note that although the spectrum is for an aldehyde, the shift for an alkane is appropriate because this CH2 group is part of the CHCH2CH2 alkyl group.
+
+The peak at 8 = 1.0 ppm is within the range for H—C—C (alkane), so must be due to the three H atoms in the CH group.
+
+## Topic 15: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 15E Spectroscopy and Chromatography
+
+EXAM HINT
+
+Rememberthattheareasunder thepeaks(integrals)will give youthesimplestratiosofthe hydrogen environments.Ratios of3:3:2couldmeanhydrogen numbersof6:6:4intheactual molecule.You will need to checkthemolecularionpeakin themassspectrumtohelp identifythemolecule.
+
+Now for the spectrum of butanone, shown in Fig E.
+
+• figEThelowresolutionH NMRspectrum of butanone
+
+The peak at 8 = 2.5 ppm is within the range for H——C—C=O, so must be due to the two H atoms in the CH2 group joined to the CO group.
+
+The peak at 8 = 2.1 ppm is within the range for H—C—C=O, so must be due to the three H atoms in the CH group joined to the CO group.
+
+The peak at 8 = 1.1 ppm is within the range for H——C—C (alkane), so must be due to the three H atoms in the CHgroup not directly joined to the COgroup.
+LEARNING TIP
+
+Bothlowresolution and highresolution(seeTopic15E.8formoredetails)HNMRspectra indicate three things:
+
+• Thenumberof peaksrepresents thenumber of different chemical environmentsof thehydrogen atoms(protons).
+
+• Theareasunderthepeaksindicatetherelativenumbersofprotonsineachchemicalenvironment.
+
+• Thechemical shift of apeakcan indicate thefunctionalgroupresponsible(e.g.aldehyde orketone).
+
+## Topic 15: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 15E Spectroscopy and Chromatography
+
+CHECKPOINT
+
+• Predict thenumberof peaksintheH NMRspectrumofeachof theisomersof CsH12-
+
+• 2 Why doesanintegrationtracenot alwaysindicatetheactual numbersof hydrogen atomsin a molecule?
+
+• HowwouldyoueasilydecidefromaH NMRspectrumwhethera compound isethylamine (CHCHNH2)orethanamide(CHCONH2)?
+
+## Topic 15: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 15E Spectroscopy and Chromatography
+
+SUBJECT VOCABULARY
+
+peak a peak in a H NMR spectrum shows the presence of hydrogen atoms(protons) in a specific chemical environment
+
+integrationtracethisshowstherelativenumbersofequivalentprotons(i.e.inthesamechemicalenvironment)
+
+## Topic 15: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 15E Spectroscopy and Chromatography
+
+LEARNING OBJECTIVES
+
+• Be able touseboth low andhighresolutionprotonNMR spectroscopyto:
+
+• (i) deduce the splitting patterns of adjacent, nonequivalentprotonsusingthe(n+1)ruleandhence suggestthepossiblestructuresforamolecule
+
+• (ii)predict the chemical shifts and splitting patterns of the 1H atomsinagivenmolecule.
+
+## Topic 15: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 15E Spectroscopy and Chromatography
+
+HIGHRESOLUTIONHNMRSPECTROSCOPY
+
+In Section 15E.7 we introduced NMR by starting with the low resolutionform,althoughonlythehighresolutionformisactually used now.Bothformshave twofeatures in common:
+
+• ·Peaksatdifferentchemical shiftvalueshelptoidentifythe differentchemicalenvironmentsofthehydrogenatoms.Ifthe environmentsareidentical,thentheprotons areoftendescribed as being equivalent (i.e.they are equivalent protons)
+
+• ·The relative peak areas(i.e.theratio ofpeak areas) help to decide the numbers of hydrogen atomsresponsible.
+
+Ahighresolution'HNMRspectrumhasoneextrafeature not seen in a low resolution spectrum-the peaksmay have a consideringthesesplitpeaks:
+
+• ·you can take the chemical shift to be at the centre of the group of sub-peaks
+
+• the relative peak areas are shown in the same way asin a low numbersnexttothepeaks
+
+• rememberthatthenumbersindicatetheratiosofthenumbers of protons - they may happen to be the actual numbers of protons,but thisis not always the case.
+WHATCAUSESTHESPLITTINGOFPEAKS?
+
+Although the most important thing is for you to be able to interpret the splitting patterns, it will help if you understand how the splitting is caused. The fundamental point to be aware of is that hydrogen atoms (we will call them protons from now on) joined toacarbon atomhaveaninfluenceontheprotonson adjacentorneighbouringcarbonatoms.Consideramoleculeof butanone,inwhichtheprotons arelabelledwithletters:
+
+figAThethree differentchemicalenvironmentsfortheprotonsin butanone.
+
+SPECIFICATION REFERENCE
+
+15.20(ii)
+
+15.20(iv)
+
+because there arenone on the adjacentcarbon atom.Theprotons labelledbareinfluencedbytheprotonslabelledcandviceversa. Theseinfluences arewhatcause splittingof thepeaks(sometimes referred to as spin-spin coupling), usually considered in terms of the n+1 rule. Very simply, if a carbon atom has n protons, then thepeaksonadjacentcarbonatoms aresplitinton+1sub-peaks The split peaks are sometimes referred to as multiplets,but more often by a term indicating the number of sub-peaks.
+
+If the peak is not split, it is called a singlet.
+
+If the peak is split into two sub-peaks, it is called a doublet.
+
+If the peak is split into three sub-peaks, it is called a triplet.
+
+If the peak is split into four sub-peaks, it is called a quartet.
+
+The sub-peaks in a split peak have distinctive shapes, owing to splitting into different sub-peak areas, as shown in table A.
+
+## Topic 15: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 15E Spectroscopy and Chromatography
+
+
+#### WHATCAUSESTHESPLITTINGOFPEAKS?
+tableA
+
+| N   | N+1   | MULTIPLET   | RATIOOF PEAKAREAS   |
+|-----|-------|-------------|---------------------|
+|     |       | singlet     | 1                   |
+| 1   | 2     | doublet     | 1: 1                |
+| 2   | 3     | triplet     | 1 : 2: 1            |
+| 3   | 4     | quartet     | 1:3:3:1             |
+
+## Topic 15: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 15E Spectroscopy and Chromatography
+
+LEARNING TIP
+
+The splittingpattern of agroup ofprotons indicatesnothing about thegroup ofprotonsbeingsplit,butrelates onlyto thenumberof protonson an adjacent atom.
+
+## Topic 15: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 15E Spectroscopy and Chromatography
+
+UNDERSTANDINGTHESPECTRUMOFBUTANONE
+
+We can apply the information provided above to explain the spectrumofbutanoneintableB.
+
+## Topic 15: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 15E Spectroscopy and Chromatography
+
+
+#### UNDERSTANDINGTHESPECTRUMOFBUTANONE
+tableB
+
+| PROTONS   | MULTIPLET   | EXPLANATION                                                                                                        |
+|-----------|-------------|--------------------------------------------------------------------------------------------------------------------|
+| a         | singlet     | There are no protons on the adjacent carbon atom (C=O), so there is no splitting.                                  |
+| b         | quartet     | Therearethreeprotonsonthe adjacentCHgroup,so applying then+1rule,thepeakforthetwo protonsissplit intoaquartet.     |
+|           | triplet     | Therearetwoprotonsonthe adjacentCHgroup,soapplying then+1rule,thepeakforthe three protons is split into a triplet. |
+
+## Topic 15: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 15E Spectroscopy and Chromatography
+
+TWOMOREPOINTSTOREMEMBER
+
+• .We have said that protons cause splitting of peaks on adjacent atoms.While this is generally true, it doesnot applyin caseswherethemolecule is completely symmetrical.For example,thereis splitting ofpeaksfor 1,1-dichloroethane,CHCl—CH3.The singleproton splits thepeakfor the CHgroup into a doublet, and the three protons in the CHgroup split the CH peakinto a quartet, following the n+1 rule. However, in 1,2-dichloroethane, CH2Cl—CHzCl, neither of the CH2 groups affects theprotons of the other CH2groupbecause all of theprotons are equivalent(the CH2 groups are in the same chemical environment).
+
+• Now consider 1-chloropropane, CH—CH2—CH2—Cl. This time, the two CH2 groups are in different chemical environments (so the protons are not equivalent). One is joined to CH and CH2,and the otherisjoined toCH2 and Cl, so therewill be splitting ofpeaks by the CH2groups. However, this example has been included to make a different point. The first CH2 group would be influenced by the CH group on its left and by the CH2 group on its right. Using the n+1 rule, you would make the correct prediction that the CH and the CH2 group acting together would cause splitting into six sub-peaks-this splitting pattern would be described as a sextet. In other compounds, a quintet would be formed by four protons on adjacent carbon atoms -these could betwoCH2groups oroneCHgroupand oneproton.
+
+PRACTICEMAKESPERFECT,AGAIN!
+
+The best way to check how well you understand how to useH NMR spectra is to try lots of examples.Wewill use three examples, all ofwhich require you to use the chart of chemical shifts in Section15E.7.
+
+Predicting the appearance ofa spectrum(chemical shifts and splittingpatterns)
+
+(CHCHCOOCH)?
+Answer
+
+The CHs in the ethyl group is part of an alkyl group and is joined only to a hydrocarbon (CH2) group, so it the adjacent CH2group.
+
+The CHz in the ethyl group is part of an alkyl group and is joined to a hydrocarbon (CHs) group but also to the C of the COO (ester) group, so it should have a peak in the range 8 = 2.9-1.8 ppm, which is split intoaquartetbecauseof thethreeprotonsin the adjacentCH3group.
+
+The CH in the methyl group is joined only to an oxygen atom in the COO group, so it should have a peakintherange8=4.2-2.8ppm,whichisa singlet.Thispeakisnot splitbecausetherearenoprotons on the adjacentatom.
+
+FigBshowstheactualspectrumofmethylpropanoate,soyoucancheckwhetherthepredictionsare correct.
+Predicting the structure ofacompoundfrom itsspectrum
+
+FigCshowstheHNMRspectrumofacompoundwiththe molecular formula CHO2.
+
+figCTheHNMRspectrumofacompoundwithmolecularformula C4HgO2.
+
+Whatisitsstructure?
+
+Rememberthatthespectrumshowsfourfeatures:
+
+• ·thenumberof differenthydrogen environments
+
+• ·relativepeakareas
+
+• ·chemical shifts
+
+• ·splitting patterns
+
+all of whichneed tobe considered together.
+Answer
+
+There are three peaks, so there are three different hydrogen environments.Thepeakontheleftisaquartetat8=4.1ppm representing two protons. This suggests a CH2 group next to a CH3 group and an O in an alcohol, ether or ester, so O-CH2-CH3.
+
+The peak in the middle is a singlet at 8 = 2.0 ppm representing three protons. This suggests a CH3 group joined to C=O in an aldehyde,ketone,ester, amide or acid, so CHO-.
+
+The peak on the right is a triplet at 8 = 1.3 ppm representing three protons.This suggests a CH3 group next to a CH2 group SO-CH2-CH3.
+
+often easy to dobut difficult toexplain.The only structure thatfits theinterpretationsisCH-CO-O-CH2-CH3,which istheester ethylethanoate.
+
+## Topic 15: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 15E Spectroscopy and Chromatography
+
+WORKEDEXAMPLE3
+
+Anotherpredictionofthestructureofacompoundfromits spectrum
+
+FigDshowstheHNMRspectrumofacompoundwiththe molecular formula CHO2 (the same molecular formula as in Example 2).
+
+## Topic 15: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 15E Spectroscopy and Chromatography
+
+Anotherpredictionofthestructureofacompoundfromits spectrum
+
+FigDshowstheHNMRspectrumof acompoundwith the molecular formula CHO2(the same molecular formula as in Example 2).
+
+fig DThe H NMR spectrum of a compound with the formula CHsO2
+
+What isits structure?
+Answer
+
+The peak on the left is a singlet at 8 = 11.9 ppm representing one proton. This suggests a proton in a COOH group, so COOH.
+
+The peak in the middle is a quartet (or multiplet) at 8 = 2.6 ppm representingoneproton.ThissuggestsaCHgroupjoinedtoa CH3group,soCH-CH-.
+
+The peak on the right is a doublet at 8 = 1.2 ppm representing six protons.This suggests two CH3 groups next to a CH group, so (CH3)2-CH-.
+
+Thefinal stepistoput all theseinterpretationstogether.Again this iseasyto dobut difficult to explain.The only structure that fits the interpretations is(CHs)2-CH-COOH- this is the acid methylpropanoic acid.
+REASONING
+
+• Acompoundhasthemolecularformula CHsO.ItsH NMR spectrumcontainsonlythreesinglets,withchemicalshiftvalues of4.0,3.4 and2.1ppm.Theintegration traceshows theratios 2:3:3.What is its structure?
+
+• A compound has themolecular formula CsH1oO2.ItsH NMR spectrum contains a singlet with a chemical shift of 2.3 ppm, a quartetwithachemical shiftof5.0ppmanda doubletwitha chemicalshiftof1.2ppm.Theintegrationtraceshowstheratios 3:1:6.Whatisitsstructure?
+
+## Topic 15: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### 15E Spectroscopy and Chromatography
+
+SUBJECT VOCABULARY
+
+equivalent protons hydrogen atoms in the same chemical environment
+
+splittingpatternthe appearanceofapeakasasmall numberofsmall sub-peaksveryclosetoeachother
+
+multipletsthedifferentsplittingpatternsobserved(singlets,doublets, tripletsorquartets)inahighresolutionHNMRspectrum
+
+## Topic 15: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### Topic 15: Organic Chemistry: Carbonyls, Carboxylic Acids and Chirality
+
+LIFE'SMIRRORIMAGES
+
+Some molecules exist as optical isomers, and living systems show a clear preference for one optical isomer over the other. This is particularisomermayhaveoccurred early in thehistory of planetEarth.
+ENRICHING THE ORIGIN OF LIFE THEORY
+
+Anenantioenrichmentofthe aminoacidvaline,which couldshed light ontheoriginofchiralityonEarth,hasbeen achieved by scientists in Spain.
+
+Chiralityisimportant as amino acids andsugars arepresent as one singleenantiomerinall organisms,andenzymes andreceptors are chiral too.As organisms donot have the sameresponsetodifferent enantiomersandmany activecomponents ofmedicines arechiral, understandinghowpureenantiomersformcanhelpusunderstand howweevolved andhelpdevelopthemedicinesofthefuture.
+
+CristobalViedma,from theComplutenseUniversityinMadrid,and colleagues,havebeenabletoamplifythepurityofoneenantiomer overanotherinvaline,oneoflife'sbuildingblocks.Theychosevaline becauseitwasfoundinmeteoritesamplesinanon-racemicform, andtheenantiomericexcessesmatchedthevaluesobtainedunder simulatedinterstellarconditions.
+
+figAScientistsobservetheenantiomericenrichmentof theamino acidvalineinasublimationexperiment.(Note:thelettersLandDrefer tothetwodifferentopticalisomersofthevalinemolecule.TheLandD encouragedtolookitup.)
+
+From an articleinChemistryWorld.Enriching theorigin of life theory'byJoanneThomson,26November2010. https://www.chemistryworld.com/news/enriching-the-origin-of-life-theory/3001444.article
+
+#### ENRICHING THE ORIGIN OF LIFE THEORY
+Viedma'steamsublimated a racemicmixture ofvaline(figA).When thevaline condensed,it formeda conglomerate.Aconglomerateis amixtureofcrystalsformedbypureenantiomers-thepurecrystals canbeextractedfromthemixture.Thegroupfound thatwhenthey continuedtoheattheflask,this amplifiedtheinitial enantiomeric excess."Onecanimaginesimilarprocessesoccurringnearvolcanoes, where temperaturegradientsareenormous,andsuchscenarioswould havebeenplausibleonprimitiveEarth,"commentsViedma.
+
+Upuntilnow,enantioenrichmenthasbeenstudiedwithsolid-liquid systems,eventhoughgas-solidtransformationsmayhavebeen plausibleonboth ourprimeval planet andinstar-formingregions."It is true thatgas-solidtransformationsmaynotbe asgeneral assolid liquidequilibria,butyou neverknowwhatisgoingtoturn outtobe useful,"says Viedma."This is an interesting project in terms of the intriguingconundrumoftheoriginofbiologicalchiralityaswell as extensionstothemanufactureofchiralsubstances."
+
+"I havenodoubt thatitwill changemyunderstandingofhowcrystals growinaprofoundway,"saysMichaelMcBride,whostudies the chemicalreactivityandphysicalpropertiesoforganicsolidsatYale University, USA."Understanding this behaviour might expand the range ofwhatwecancontrolinchemistryandmaterialsscience."
+SCIENCE COMMUNICATION
+
+• 1 Communicating ideas about three-dimensional (3D) molecules using books and leaflets can be difficult. Modern 3D molecular modelling software lets us display molecules in different ways, and allows us to rotate molecules virtually. Download and install a 3D software package (such as Jmol). Then prepare a presentation (e.g. using PowerPoint) in which you display and rotate a valinemolecule.
+CHEMISTRY IN DETAIL
+
+• 2Theamino acidvaline mentionedin the articlehasthe IUPACname2-amino-3-methylbutanoic acid.
+
+• (a)Draw both optical isomers of valine, clearly indicating the chiral carbon.
+
+• (b)Draw the zwitterion formed by valine in aqueous solution.
+
+• (c)The isoelectric point (pl) of valine at 25 °C is 6.02. Explain what this means.
+
+• 3 An equimolar mixture of both optical isomers of valine is optically inactive. Explain why.
+
+• 4 Suggest why pharmaceutical molecules with one or more chiral carbons may have different biological activities.
+
+ACTIVITY
+
+Valine is an example of an essential amino acid. Use the Internet to help you classify each of the 20 biogenic'aminoacidsaseitheressentialornon-essential.Thenchoosetwooftheessentialamino acidsandfindoutapossibledietarysourceforeachofthem.
+
+INTERPRETATIONNOTE
+
+Why do you think it is difficulttowriteaboutand explain3Dmolecules?
+
+THINKING BIGGER TIP
+
+Lookupthestructureofthe amino acid called glycine, for example in a dictionary oronline.Canyouexplain why glycine does not form optical isomers?
+
+## Topic 15: Unit 4: Rates, Equilibria and Further Organic Chemistry
+
+### Topic 15: Organic Chemistry: Carbonyls, Carboxylic Acids and Chirality
+
+15 EXAMPRACTICE
+
+• 5An organic compound has the following properties:
+
+• ·it gives a positive tri-iodomethane(iodoform) test
+
+• 1 it gives a yellow precipitate with 2,4-dinitrophenylhydrazine
+
+• ·it does not react with either Tollens'reagent or Fehling's solution
+
+Which compound gives these results?
+
+• A CH,CHO
+
+• B CHCH2OH
+
+• CCHCHCOCH3
+
+• D CHCH,CHCHO
+
+[1]
+
+(Total for Question 5 = 1 mark)
+
+• 6 What are the principal inorganic and organic products when propanal reacts with Tollens' reagent?
+
+• AAg and CHCHCOOH
+
+• B Ag and CH;CH2COO-
+
+• CAg2O andCHCHCOOH
+
+• D Ag2O and CHCH2COO-
+
+[1]
+
+(Total for Question 6 = 1 mark)
+
+• 7The structures of three organic compounds,A,B and C,are shown.
+
+• (a)Explain which two of these compounds are enantiomers.[2]
+
+• (b)Explain why a mixture containing equal numbers of these enantiomermoleculescannotbedistinguishedfromthe othercompoundofthethreeinapolarimeter. [2]
+
+• (c)Compound A reacts with aqueous sodium hydroxide.
+
+Explain how measurements of the optical activity of compoundAandtheorganicproductofthereactioncan beusedtoconfirmwhetherthereactionoccursbyanSN1 mechanism or anSv2 mechanism. [6]
+
+(Totalfor Question 7=10marks)
+
+(Total for Question 1 = 1 mark)
+
+• 2The same carboxylic acid is obtained either by the hydrolysis ofanitrilePorbytheoxidationofanalcoholQ. WhichpaircouldbePandQ?
+
+P
+
+Q
+
+• A CHCH,CN
+
+CH;CH,OH
+
+• B (CH)CHCN
+
+(CH):COH
+
+• C CH5CH(CH)CN
+
+CH5CH,CH(OH)CH3
+
+• D CH5CH,CN
+
+CH5CH,CH2OH [1]
+
+(Total for Question 2 = 1 mark)
+
+• 3Whichpairofreactantsproducesanesterwiththeformula CH,COOC,H?
+
+• A CH5Cl and CH,COOH
+
+• B C2H5OH and CH,COOH
+
+• C CH,OH and CHCOCl
+
+• D CH-OH and CHCOOH
+
+[1]
+
+#### 15 EXAMPRACTICE
+(Total for Question 3 = 1 mark)
+
+• 4Oneoftheconstituentsofbeeswaxhastheformula CH(CH2)24CO(CH2)2gCH3.
+
+What are the products of its alkaline hydrolysis?
+
+• A CH;(CH2)24COOH and CH(CH2)2gO-
+
+• B CH,(CH2)24COOH and CH,(CH2)2gOH
+
+• C CH;(CH2)24COO- and CH;(CH2)29OH
+
+• D CH(CH2)24COO- and CH(CH2)2gO[1] (Total for Question 4 = 1 mark)
+
+• 8The structures of two carbonyl compounds are:
+
+• (i)Deduce the name of the alcohol. [1]
+
+• (a)State whyboth compounds are soluble in water. [1]
+
+• (b）(i)Name the mechanism of the reaction between each of the compounds and hydrogen cyanide. [1]
+
+• (i)Both compounds react with 2,4-dinitrophenylhydrazine. Describe how the organic product of each of these reactions could be used to identify the carbonyl compounds. [2]
+
+• (c)Give the structure of the organic product of the reaction ofeach compound with lithiumtetrahydridoaluminate, followed bywater. [2]
+
+• (d) Only one of the two compounds reacts on warming with Tollens'reagent.
+
+Write an equation for the reaction that occurs,using[O]to
+
+representTollens'reagent,andstatetheobservationsthat
+
+will be made when a positive result is obtained.
+
+[2]
+(Total for Question 8=8marks)
+
+• 9 (a) The structures of three alcohols are:
+
+• (b)Draw the displayed formula of the nitrile that can be hydrolysed to the carboxylic acid with the formula (CH)CHCHCOOH.
+
+• (c)The diagram summarises a sequence of two reactions.
+
+reagent
+
+[1]
+
+• (i)Explain how the homologous series to which reagent X belongs canbe deduced from the diagram. [2]
+
+• (ii）Deduce the structural formula of the carboxylic acid. [1]
+
+• (iv）The yield of carboxylic acid in the second step can be improved by using a different reagent before the acid in a two-stepprocess.
+
+Write an equation foreach of these steps. [2]
+(Total for Question 9 = 10 marks)
+
+• 10Thestructures oftwo compounds are:
+
+• (a)Explain why infrared spectroscopy is not used to distinguishthesetwocompounds.
+
+• [2]
+
+• (b) Explain how the number of peaks in the 13C NMR spectra of thesecompounds canbeused toidentifywhich spectrum is obtained from each compound. [4]
+
+• (c) One of these compounds has a 'H NMR spectrum that shows onlytwosinglets. Explain which compound can be identified from this information.
+
+[3]
+
+• (d)A simplified mass spectrum of each of the compounds is shownbelow.
+
+Explain how this information can be used toidentify each compound. [6]
+
+(Total for Question 10 =15 marks)
+
++HCI
+
+## Topic 16: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### Topic 16: Redox Equilibria
+
+ASTANDARDELECTRODEPOTENTIALT B REDOX IN ACTION
+
+InTopic8(Book 1:IAs)you learned aboutoneof themain types ofreactions:redoxreactions.Now thatwe have studied equilibrium and thermodynamics we can investigate these reactions in more depth. Redox reactions keep us alive. They capture the energy of the Sun by photosynthesis, and we can then use that energy. However, redox reactions can also kill, because,for example, they can result in explosions.Redox also destroy.
+
+In Topic 12 we saw that some chemical reactions take place spontaneously. In this topic we will look at the branch of chemistry known as electrochemistry,which dealswith the use of spontaneousreactions to produce electricity.
+
+In Topic 14, where you developed your knowledge of acid-base equilibria, we saw that a great deal of chemistry can be discussed in terms of the transfer of protons. In thistopicwe will see that another large area of chemistry canbe understood in terms of the transferof anotherfundamental particle,the electron.Proton transferis thebasisof acid-basereactions;electron transferis thebasisofredoxreactions.
+
+MATHS SKILLS FOR THIS TOPIC
+
+• .Recognise andmakeuseofappropriateunitsincalculation
+
+• Recogniseanduseexpressionsindecimalandordinaryform
+
+• Use anappropriatenumberofsignificantfigures
+
+• Change the subject of an equation
+
+• ·Solvealgebraicequations
+What prior knowledge do I need? Topic8(Book1:IAS)
+
+• Redoxreactions,includingdisproportionation
+
+• Calculatingoxidation numbers
+
+• Using oxidation numbers to balance chemical equations
+
+• Using oxidation numbers to name compounds and towritechemicalformulae
+
+Topic15
+
+• Redox reactions in organic chemistry
+Whatwill I studyin thistopic?
+
+• Howtoconstructelectrochemicalcellsandto calculatecellpotential(emf)
+
+• Howtodeterminestandardelectrode(redox) potentials
+
+• Usingstandardelectrode(redox)potentialsto predictfeasibilityofchemicalreactions
+
+• Fuel cells
+
+• Redoxtitrations
+
+## Topic 16: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### 16A Standard Electrode Potential
+
+LEARNING OBJECTIVES
+
+• Understandtheterms'oxidation'and'reduction'intermsof electron transfer and changes in oxidation number, applied tos-,p-and d-blockelements.
+
+• Knowwhatismeantbytheterm'standardelectrode potential,E
+
+• Knowthatthestandardelectrodepotential,Ee,ismeasured in conditions of:
+
+• (i)298Ktemperature
+
+• (ii)100 kPa pressure of gases
+
+• (ii) 1.00 mol dm-3 concentration of ions.
+
+• Knowthefeaturesofthestandardhydrogenelectrodeand understand why a reference electrode is necessary.
+
+• Understandthatdifferentmethodsareusedtomeasure standardelectrodepotentialsof:
+
+• (i)metalsornon-metalsincontactwiththeirionsin aqueoussolution
+
+• (ii)ions of the same element with different oxidation numbers.
+
+• Knowthatstandardelectrodepotentialsaresometimes referredtoasstandardredoxpotentialsandcanbelisted asanelectrochemicalseries.
+
+## Topic 16: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### 16A Standard Electrode Potential
+
+REVISIONOFOXIDATIONANDREDUCTION
+
+You should remember from Topic 8(Book 1: IAS) that there aretwoveryusefuldefinitionsofoxidationandreduction.One is interms oflossorgain ofelectrons.Theotherisinterms of changestotheoxidationnumberofanelement.
+
+In terms ofelectrons:
+
+• ·Oxidation is theloss ofelectrons.
+
+• ·Reductionisthegainofelectrons.
+
+In terms ofchanges in oxidation number:
+
+• ·Anelementinaspeciesisoxidisedwhenitsoxidationnumber increases.
+
+• ·An element in a species is reduced when its oxidation number decreases.
+
+These definitions apply to all elements whether they are in the S-,p-or d-block of thePeriodicTable.
+
+Howwellyouwillunderstandthetopicofelectrodepotentials dependsveryheavily onyour appreciation ofredoxreactions.If you are at all unsure of your understanding,then we suggest that you revisit Topic 8 (Book 1: IAS).
+STANDARDELECTRODE(REDOX)POTENTIAL
+
+Thetwoterms'standardelectrodepotential'and'standard redox potential'mean the same thing. The reactions involved inthemeasurementofastandardelectrodepotentialareredox reactions.Therefore,thetermredoxpotentialisalsocommonly used.InordertomatchtheEdexcelspecificationwewillusethe term'standardelectrodepotential'throughoutthisbook.
+
+There are many ways of teaching this topic, but very often a crucial mistakeis made attheoutset.It issometimesforgotten to emphasisethatthereactionsinvolvedareequilibria.Toooftenyou reactions,rather than reversible.This very simple mistake can make the whole topic much more difficult to understand than is necessary.
+
+Throughout this topic we will avoid this problem by always talking in terms ofequilibria.
+BACKGROUND:THEDIFFERENTTENDENCIESOFMETALSTO RELEASEELECTRONSTOFORMPOSITIVEIONS
+
+When a metal such as magnesium or copper is placed in water, there is avery small tendencyfor the metal atoms tolose electrons andgointosolutionaspositiveions:
+
+M(s)→Mr+(aq) + ne(where M =Mg or Cu)
+
+Theelectronswill remainonthesurfaceofthemetal.
+
+Inaveryshorttimetherewillbeabuild-upofelectronsonthe surfaceofthemetal,and theresultingnegative charge attracts positive ions. In this way, a layer of positive ions is formed surrounding the metal (fig A).
+
+Someofthepositiveionswillregaintheirelectronsfromthe surfaceofthemetal andreturntoformpartofthemetalsurface:
+
+Eventually, a dynamic equilibrium will be established in which the rateatwhichions areleavingthesurfaceofthemetaltogointo solution is the same as the rate at which they are joining it from solution. This equilibrium is represented by the equation:
+
+figAMetal Mimmersed in water.n*represents metal ions.
+
+The equations for magnesium and copper are:
+
+Mg2+(aq) + 2e- = Mg(s)
+
+Cu²+(aq)+2e-=Cu(s)
+
+Thedifferencebetweenmagnesiumandcopperisthatthe equilibriumpositionwill befurthertotheleft-handsidefor
+
+magnesiumthanforcopper,becausethetendencyofmagnesium toreleaseelectronsisgreaterthanthatofcopperSo,with magnesium therewillbe agreater negative chargeon themetal, and morepositiveions in solution.
+
+## Topic 16: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### 16A Standard Electrode Potential
+
+LEARNING TIP
+
+Notehowthetwoequilibriaarewritten.Byconventiontheyare writtenwith theelectrons ontheleft-handside.Makesureyou stick tothisconventionatall times.
+
+In the case of both magnesium and copper there is a potential differencebetweenthemetalandthesolution.However,the potential difference isgreater with magnesium thanwith copper Ineachcase,wewould liketomeasurethepotentialdifference betweenthemetalandthesolution.Thisiscalledtheabsolute potential difference.
+
+However,it is not possible to measure the absolute potential differencebetweenametalelectrode anditssolution.Thereason is thatalthoughitisasimplemattertoconnectthemetalelectrode to one terminal of a voltmeter, the other terminal would have to be connected tothesolution,and the onlywayofdoing thisisto dip another piece of metal into the solution. This second piece of metal would create its own potential difference.So, you would be measuring thepotential differencebetweenthe twopieces of metal, and notbetween the original metal and thesolution.
+
+Thewaytosolvethisproblemistocreateareferenceelectrode and thenmeasurethedifferenceinpotentialbetweenthis referenceelectrodeandthemetalelectrode.
+
+## Topic 16: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### 16A Standard Electrode Potential
+
+STANDARDHYDROGENELECTRODE
+
+The reference electrode of choice is the standard hydrogen electrode.This electrode consists of hydrogen gas at a pressure of 100 kPa (1 bar) bubbling over a piece of platinum foil dipped into a solution of hydrochloric acid(orsulfuric acid)with ahydrogenion concentrationof1moldm-3,atatemperatureof298K.
+
+Thesurfaceoftheplatinumfoiliscovered inporousplatinum.Porous platinumhasalargesurfaceareaandallowsanequilibriumbetween hydrogen ions in solution and hydrogen gas to be established quickly.
+
+It is this equilibrium that we are going compare with all others.
+
+Fig B shows a cross section of a typical standard hydrogen electrode.
+
+figBAstandardhydrogenelectrode
+IMPORTANCEOFUSINGSTANDARDCONDITIONS
+
+You will remember that the position of an equilibrium can be changed by altering theconditions.Ifwe aregoingtomake fair comparisons it is therefore necessary to standardise the conditions used.The standard conditions are:
+
+• ·gas pressure, 100 kPa (1bar)
+
+• ·temperature,298K
+
+• ·concentration of ions in solution, 1 mol dm-3.
+
+These standard conditions apply to all equilibria.
+
+## Topic 16: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### 16A Standard Electrode Potential
+
+EXAM HINT
+
+Manyexamquestionswill askyoutoprovideacleardefinitionfor standardelectrodepotential.Thismaybeworth2or3marks.Make surethatyouknowtheexactdefinition,includingthespecific standardconditions.
+
+## Topic 16: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### 16A Standard Electrode Potential
+
+MEASURINGASTANDARDELECTRODEPOTENTIAL
+
+We arenow inapositionto appreciatehow tomeasurethe standardelectrodepotentialofametalion|metalsystem,such as that between magnesium ions and magnesium (Mg2+ | Mg).
+
+Todothisweconnectthestandard hydrogenelectrodetothe magnesiumelectrodeviaacircuit containing a highresistance voltmeterFigCshowsthearrangementoftheapparatus.
+
+figCUsinga standard hydrogenelectrode tomeasure a standard electrodepotential.
+
+The two components of the apparatus are knowm as half-cells. The two half-cells combine to make a complete cell.
+
+Thesaltbridgeisneededto completetheelectricalcircuit.It usuallycontainsaconcentratedsolutionofpotassiumnitratein the form of liquid or a gel. It functions by allowing the movement ofions.Theoretically,the salt bridge can contain anyionic salt,butneitheroftheionspresentshouldinterferewiththe components of the half-cells. For example,if the right-hand half-cell containsasolutionofsilvernitrate,thenpotassium chloridewouldbeunsuitableforthesaltbridgebecausethe chlorideionswouldinteractwith thesilverionstoform a precipitateofsilverchloride.
+
+## Topic 16: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### 16A Standard Electrode Potential
+
+DID YOU KNOW?
+
+Thebest instrument touse tomeasure thepotential differenceis apotentiometer. No electronsflowwhenthis instrumentisused,soboth half-cell reactions arein equilibrium.
+
+However,thebestpractical wayofmeasuringthe potential difference isto use a high-resistancevoltmeter.
+
+## Topic 16: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### 16A Standard Electrode Potential
+
+LEARNING TIP
+
+Thesignofastandardelectrode potentialindicatesthepolarity oftheelectrodewhen comparedwiththehydrogen electrode.Thissignisfixedand doesnotchangeif the equation forthehalf-cellreactionis reversed,assometimesstated elsewhere.Remember,standard electrodepotentialsare measuredwhennoelectronsare flowing andhencebothhalf-cell reactionsareinequilibrium.
+
+So,ifthehalf-cellreactionfor magnesium isrepresented as: Mg（s)=Mg2+（aq)+2e,theE valueisstill-2.37V.Itdoesnot change to+2.37V.
+
+Standardelectrodepotentialis described asbeing a'sign invariantquantity.Thismeans thathoweverthereactionis represented,thesignremains thesame.
+LEARNING TIP
+
+Remember,anegativeEdoes notsuggestthattheequilibrium of thehalf-cellreactionliesto theleft.Itmerelymeansthatit liesfurthertotheleftthanthe equilibriumofthestandard hydrogenelectrode.
+
+Inthesameway,apositiveE meansthattheequilibriumof thehalf-cellreactionliesfurther totherightthantheequilibrium of thestandardhydrogen electrode.
+
+Thereisareasonwhya high-resistancevoltmeterisused.Ideally,thevoltmetershould haveinfinite resistance so that there is no flow of electrons (i.e. no current flowing) around the external circuit. If thiswerepossible,thereadingonthevoltmeterwouldrepresentthedifferenceinpotentialbetween thetwohalf-cellswhenbothreactionsareinequilibrium.Thetworeactionsconcernedare:
+
+H+(aq) + e = H2(g)
+
+Mg²+(aq) + 2e-= Mg(s)
+
+With the magnesium half-cell connected to the standard hydrogen electrode,thereading on the voltmeteris2.37V.
+
+of copper sulfate with [Cu²+(aq)] = 1 mol dm-3), then the reading on the voltmeter would be 0.34 V.
+
+Thereis,however,afurtherissuetobeconsidered.Inthecaseofmagnesium,if thevoltmeter were taken out of the circuit,electrons would flowfrom the magnesium electrode to the hydrogen electrode.Thismeans that magnesium is the negative electrodeof the cell.
+
+With copper,electronswould flowfrom thehydrogenelectrodetothe copperelectrode,making copperthepositiveelectrodeofthecell.
+
+that the metal electrode is negative with respect to the hydrogen electrode,while a positive sign indicates thereverse.
+
+#### LEARNING TIP
+The differencein potential measured,together with the appropriate sign, is called the standard electrodepotentialofthemetal.Standardelectrodepotentialisgiventhesymbol E°.
+
+Standardelectrodepotentials arequoted togetherwiththerelevanthalf-cellreaction.Forexample, formagnesiumandcoppertheyare:
+
+Mg²+(aq) + 2e-= Mg(s) E=-2.37V
+
+Cu²+(aq)+2e-= Cu(s)
+
+E=+0.34V
+
+By convention,thestandard electrodepotentialofthestandard hydrogenelectrode is zero.
+
+H+(aq) +e = H2(g)
+
+Some otherEvalues,togetherwith therelevant half-cell reactions,are shown intable A.
+
+## Topic 16: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### 16A Standard Electrode Potential
+
+
+#### LEARNING TIP
+| HALF-CELLREACTION     |   E/N |
+|-----------------------|-------|
+| Ag*(aq)+e-= Ag(s)     | +0.80 |
+| Al+（aq)+3e=Al(s)     | -1.66 |
+| Cr3+(aq) +3e-= Cr(s)  | -0.74 |
+| Fe2+(aq)+ 2e-=Fe(s)   | -0.44 |
+| Ni2+(aq) + 2e-= Ni(s) | -0.25 |
+| Zn²+(aq)+2e=Zn(s)     | -0.76 |
+
+## Topic 16: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### 16A Standard Electrode Potential
+
+WHATDOEVALUESTELLUS?
+
+Itisimportanttorememberthatthestandardelectrodepotentialofametalion|metalhalf-cellis thepotential differencemeasuredwhen thehalf-cell is connected toastandard hydrogen electrode.
+
+Thepotentialdifferenceprovidesa comparisonbetween thepositionof themetalion|metal equilibrium andthepositionofequilibriuminthehydrogenelectrode.
+
+To illustrate this point, let us consider thefollowing two standard electrode potentials:
+
+Mg²+(aq) + 2e- = Mg(s) E=-2.37V
+
+H+(aq) + 2e- = H2(g) E°=0.00V
+
+Cu²+(aq)+2e-= Cu(s) E°=+0.34V
+TOPIC 16
+
+furthertotheleftthantheequilibriumpositionofthereactioninthehydrogenelectrode.
+
+ThepositivesignforCu²+(aq)|Cu(s)indicatesthattheequilibriumpositionofthisreactionisfurther totherightthantheequilibriumpositionofthereactioninthehydrogenelectrode.
+
+This is another way of saying that magnesium releases electrons more readily than hydrogen (and also than copper),but that copperreleases electrons lessreadily thanhydrogen.
+
+Magnesium is,therefore,a better reducing agent than both hydrogen and copper In addition, hydrogen is a better reducing agent than copper. This point will be developed later in the topic.
+
+## Topic 16: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### 16A Standard Electrode Potential
+
+EXAM HINT
+
+Areducing agent is a species thatreduces another speciesby addingone ormore electronsto it.When a reducing agent reacts it loses electrons and is, therefore, oxidised.
+
+When an oxidisingagentreacts it gains electrons and is,therefore,reduced.
+
+## Topic 16: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### 16A Standard Electrode Potential
+
+SUMMARY
+
+E° values provide a method of comparing the positions of equilibria when metal atoms lose electronstoformionsinsolution.
+
+• ·Themorenegative theEvalue,thefurthertheequilibriumliestotheleft,i.e.themorereadily the metalloseselectronstoformions.
+
+• The more positive(or less negative) the E°value,the further the equilibrium lies to the right,i.e. thelessreadilythemetal loseselectronstoform ions.
+
+Laterin thistopicwewill extendthistoincludebothmolecules and ionslosingelectrons.
+ELECTROMOTIVEFORCE
+
+Asalreadymentioned,whenwearedeterminingastandardelectrodepotential,thepotentialdifference is measured when no electrons are flowing(i.e.no current is flowing) through the external circuit. The potentialdifferencemeasuredundertheseconditionsiscalledtheelectromotiveforce(emf)ofthecell. The standard emf of a cell is given the symbol Een and is sometimes called the standard cell potential.
+
+Emfvalues can be positive or negative,depending on thereference point against which the potential differenceismeasured.Whenmeasuringstandardelectrodepotentials,thereferencepointisthe potentialofthestandardhydrogenelectrode,whichisset atzero.Theemfofacellinwhichthe hydrogen electrode is the positive electrodewill havea negativevalue.Similarly,the emfof a cell in which thehydrogenelectrodeis thenegativeelectrodewill have a positivevalue.
+
+Thisnow allowsustodefinestandard electrodepotential asfollows:
+
+The standard electrode potential of a half-cell is the emf of a cell containing the half-cell connected to the standard hydrogen electrode.Standard conditions of 298K,100kPa pressure of gases and solution concentrations of 1 mol dm-3 apply.
+
+MEASURINGSTANDARDELECTRODEPOTENTIALSOFMORECOMPLICATED REDOXSYSTEMS
+SYSTEMSINVOLVINGGASES
+
+Supposewewantedtomeasurethestandardelectrodepotential of thefollowingredoxsystem:
+
+We can do this by settingup a half-cell in which chlorine gas is bubbled into a solution containing chlorideions.However,inordertoestablishanequilibriumbetweenthechlorinemoleculesandthe chlorideions,andalsotoprovideanelectricalconnectiontotheexternalcircuit,wewouldneedto place a piece of platinum into the solution.Fig D shows the set up.
+
+Itisusefultorememberthatthe electrodewhereoxidationtakes placeisthe anode.Thisistrue forallelectrochemicaland electrolyticcells.
+
+This half-cell is then connected to a standard hydrogen electrode and the emf is measured in the usual way. Themeasured emf is +1.36 V. Hence:
+OTHERSYSTEMS
+
+• 1.Non-metalelementsandtheirionsinsolution
+
+Examples: Br2(aq) I Br-(aq) and I2(aq) I I(aq)
+
+To determine the E°of the redox systemBr2| Br,a half-cell containinga solutionofBr2andBrions,eachofconcentration 1 mol dm-3,is connectedtoastandardhydrogenelectrode. Asimilarset-upisusedtodeterminetheE°oftheredoxsystem I2I I.
+
+Br2(aq) +e-= Br-(aq)
+
+E=+1.09V
+
+I2(aq) + e-= I-(aq) E°=+0.54V
+
+• 2.Ionsofthesameelementwithdifferentoxidationnumbers Example: Fe3+(aq) I Fe2+(aq)
+
+The half-cell is arranged as shown in fig E.
+
+Note that each ion has a concentration of 1 mol dm-3. Fe3+(aq) + e = Fe²+(aq) E=+0.77V
+ARRANGINGREDOXEQUILIBRIAINORDEROFTHEIRE VALUES
+
+The electrochemical series is built up by arranging various redox equilibriainorderoftheirstandardelectrode(redox)potentials. Themost negative Evalues are placed at the top of the series, and themostpositive at thebottom.
+
+## Topic 16: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### 16A Standard Electrode Potential
+
+
+#### ARRANGINGREDOXEQUILIBRIAINORDEROFTHEIRE VALUES
+TableBshowspartoftheelectrochemicalseries.
+
+| HALF-CELLREACTION    |    EN |
+|----------------------|-------|
+| Lit(aq) +e = Li(s)   | -3.03 |
+| K+(aq)+e=K(s)        | -2.92 |
+| Ca²+(aq)+2e=Ca(s)    | -2.87 |
+| Na+(aq)+e= Na(s)     | -2.71 |
+| Al3+(aq)+3e=Al(s)    | -1.66 |
+| Zn²+(aq) + 2e= Zn(s) | -0.76 |
+| Cr3+(aq)+3e-= Cr(s)  | -0.74 |
+| Fe2+(aq)+2e-=Fe(s)   | -0.44 |
+| H*(aq)+e=H2(g)       |  0.00 |
+| Cu²+(aq)+2e-= Cu(s)  | +0.34 |
+| (aq)+e= I-(aq)       | +0.54 |
+| Ag+(aq)+e-=Ag(s)     | +0.80 |
+| Br2(aq)+e=Br-(aq)    | +1.09 |
+| Cl2(aq)+e= Cl-(aq)   | +1.36 |
+| F2(aq)+e-= F-(aq)    | +2.87 |
+
+## Topic 16: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### 16A Standard Electrode Potential
+
+
+#### ARRANGINGREDOXEQUILIBRIAINORDEROFTHEIRE VALUES
+TableBshowspartoftheelectrochemicalseries.
+
+tableB
+REDUCINGAGENTSANDOXIDISINGAGENTS
+
+The species on the right-hand side of the half-cell reactions are all capableofbehaving asreducing agentsbecause they canlose electrons.
+
+The most powerful reducing agent in table B is lithium because itsredox system has themost negativeEvalue;the equilibrium position of its half-cell reaction is furthest to the left.
+
+The least powerful reducing agent in the list is the fuoride ion, F-(aq) because its redox system has the least negative (most positive) E? value. The position of equilibrium of its half-cell reaction isfurthest to theright.
+
+The species on the left-hand side of the half-cell reactions are all capable of acting as oxidising agents because they can gain electrons.
+
+The most powerful oxidising agent is fuorine and the least powerful is the lithium ion, Li+(aq).
+
+## Topic 16: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### 16A Standard Electrode Potential
+
+
+#### TOPIC16
+| OXIDISEDFORM   | REDUCEDFORM   |
+|----------------|---------------|
+| Li*(aq)        | Li(s)         |
+| K+(aq)         | K(s)          |
+| Ca2+(aq)       | Ca(s)         |
+| Na*(aq)        | Na(s)         |
+| A13+(aq)       | Al(s)         |
+| Zn2+(aq)       | Zn(s)         |
+| Cr3+(aq)       | Cr(s)         |
+| Fe2+(aq)       | Fe(s)         |
+| H*(aq)         | H2(g)         |
+| Cu2+(aq)       | Cu(s)         |
+| /2(aq)         | I-(aq)        |
+| Ag*(aq)        | Ag(s)         |
+| Br2(aq)        | Br(aq)        |
+| Cl2(aq)        | CI-(aq)       |
+| F2(aq)         | F-(aq)        |
+
+|   E/V |
+|-------|
+| -3.03 |
+| -2.92 |
+| -2.87 |
+| -2.71 |
+| -1.66 |
+| -0.76 |
+| -0.74 |
+| -0.44 |
+|  0.00 |
+| +0.34 |
+| +0.54 |
+| +0.80 |
+| +1.09 |
+| +1.36 |
+| +2.87 |
+
+## Topic 16: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### 16A Standard Electrode Potential
+
+SUMMARY
+
+The more negative the E°value,the more the equilibrium position lies towards theleft-and the morereadilythespeciesontherightloseselectrons.ThemorenegativetheEvalue,themore powerfulthereducingagent.
+
+The more positive the E value,the more the equilibrium position lies towards the right - and themorereadilythespeciesontheleftloseselectrons.ThemorepositivetheEvalue,themore powerful theoxidisingagent.
+
+## Topic 16: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### 16A Standard Electrode Potential
+
+CHECKPOINT
+
+• Drawalabelleddiagramofapparatusthatcouldbeused tomeasurethestandard electrodepotential of a Cu²+(aq)|Cu(s)half-cell.
+
+• 2. The standard electrode potential of the Br2(aq)|Br-(aq) half-cellis +1.09 V. Explain what is meant by thisstatement andstatethesignificanceof thepositivesign.
+
+• 3. Whatismeantbytheterm'electromotiveforce(emf).Howistheelectromotiveforceofacell measured?
+
+## Topic 16: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### 16A Standard Electrode Potential
+
+SUBJECT VOCABULARY
+
+absolutepotentialdifferencethepotentialdifferencebetweenametalandasolutionofitsions standard electrodepotential theemf measuredwhen ahalf-cell isconnected toa standardhydrogen electrodeunderstandardconditions
+
+electromotiveforce(emf) themeasuredpotential differenceof a cell when nocurrent isflowing
+
+## Topic 16: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### 16A Standard Electrode Potential
+
+DID YOU KNOW?
+
+Thestandardelectrode potentialsof lithium,sodium, calciumandpotassium cannotbedetermined experimentallybecause eachofthesemetalsreacts tocompletionwithwater; i.e.they donotestablish an equilibrium.TheEvaluesfor these metals arecalculated from thermodynamic data.
+
+The same is trueforfluorine, whichalsoreactswithwater.
+
+## Topic 16: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### 16A Standard Electrode Potential
+
+LEARNING OBJECTIVES
+
+• Be able to calculate a standard emf, Eell, by combining two standard electrode potentials.
+
+• Be able to write cell diagrams using the conventional representation of half-cells.
+
+## Topic 16: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### 16A Standard Electrode Potential
+
+ELECTROCHEMICALCELLS
+
+An electrochemical cell is a device for producing an electric currentfromchemicalreactions.Itisconstructedfromtwo half-cells. Fig A shows the apparatus used to construct an electrochemicalcellfrom aZn²+|Znhalf-cell and aCu²+| Cu half-cell under standard conditions.
+
+temperature=298K
+
+fig AAn electrochemical cell consisting of Zn²+|Zn and Cu²+|Cu half-cells.
+
+## Topic 16: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### 16A Standard Electrode Potential
+
+EXAM HINT
+
+The reactions taking place under these conditions are shown below.
+
+At the negative electrode: Zn(s) → Zn²+(aq) + 2e-.
+
+At the positive electrode:Cu²+(aq)+ 2e-→Cu(s).
+
+The overall cell reaction is:
+
+Zn(s) + Cu²+(aq)→ Zn²+(aq) + Cu(s)
+
+## Topic 16: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### 16A Standard Electrode Potential
+
+CELLDIAGRAMS
+
+Itisnotalwaysconvenienttodrawadiagramofthefullapparatus for a cell. For simplicity, chemists use a shorthand notation to represent half-cells. The half-cell made from zinc ions and zinc metal is written as:
+
+Zn2+(aq) I Zn(s)
+
+E=-0.76V
+
+Thesolidvertical lineindicatesaphaseboundary,inthiscase between an aqueous phase, Zn²+(aq), and a solid phase, Zn(s).
+
+Someotherexamples are:
+
+Mg2+(aq) I Mg(s)
+
+E=-2.37V
+
+Cu2+(aq) I Cu(s)
+
+E=+0.34V
+
+A13+(aq) I Al(s)
+
+E=-1.66V
+
+Ag+(aq) I Ag(s)
+
+E=+0.80V
+
+Whentheelectrode,i.e.theelectricalconnectionbetweenthe solution and the externalcircuit,is apieceofplatinumfoil,the following convention is used:
+
+Pt(s) | Fe3+(aq),Fe2+(aq)E=+0.77V
+
+It isimportant thatyoucandescribe clearlyhowthechargeflowsin an electrochemical cell(suchastheoneshown infigA).
+
+Rememberthatitistheionsthatflowinthesaltbridgeandnot electrons.MakesurethatyoucanexplainwhytheK+ionsmovetowards thecopperhalf-celland thenitrateionsmovetowardsthezinchalf-cell
+
+Therelevantstandardelectrodepotentialsfortheredoxsystems involved are:
+
+Zn²+(aq) + 2e= Zn(s)E=-0.76V
+
+Cu²+(aq)+2e-=Cu(s)E°=+0.34V
+
+The E value for the Zn²+| Zn half-cell is the more negative, so the zinc electrode will be the negative electrode of the cell.When the cell is in operation, i.e. it is generating an electric current, electronswillflowthroughtheexternalcircuitfromthezinc electrodetothecopperelectrode.
+
+Notice that because there is no phaseboundarybetween Fe3+(aq) and Fe2+(aq), a comma is used to separate them, not a solid verticalline.
+
+The standard hydrogen electrode is represented as follows:
+
+#### CELLDIAGRAMS
+H+(aq) I H2(g) I Pt(s)
+
+These shorthand notations can now be used to represent a cell comprising two half-cells. Convention dictates two things:
+
+• 1The two reduced forms of the species are shown on the outside of the cell diagram.
+
+• 2Thepositiveelectrodeisshown ontheright-handsideof the cell diagram.
+
+Applying these conventions produces thefollowing cell diagram for a cell formed by combining the Zn2+(aq) I Zn(s) and the Cu²+(aq) | Cu(s) half-cells:
+
+Zn(s) I Zn²+(aq) : Cu2+(aq) I Cu(s)
+
+The double vertical lines (ti) represent the salt bridge.
+BREAKINGTHECELLCONVENTION
+
+The emf, E°cel,of this cell is simply the difference between the two standardelectrodepotentialsofthetwohalf-cells.
+
+Zn(s) I Zn2+(aq) i: Cu2+(aq) I Cu(s) E=-0.76V E=+0.34V
+
+The differencebetween these two numbersis1.10,so the emf of thecell is 1.10V.To indicate that the right-hand electrode,i.e. the copper, is the positive electrode of the cell, the emf is given a positive(+) sign.
+
+So, the complete cell diagram is:
+
+Zn(s) I Zn2+(aq) : Cu²+(aq) I Cu(s) E°cell= +1.10 V
+
+## Topic 16: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### 16A Standard Electrode Potential
+
+LEARNING TIP
+
+Note that thesignforthe Eof theZn²+|Znhalf-cell is still givenas negative,despite thehalf-cell beingwritteninreverse.Asmentioned inSection16A.1,thesignofastandardelectrodepotentialremains thesamenomatterhowthehalf-cell isrepresented.
+
+## Topic 16: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### 16A Standard Electrode Potential
+
+DID YOU KNOW?
+
+Itis alsopossibletocalculatetheemfofthecellfrom acell diagrambysubtractingtheEvalueoftheleft-handhalf-cellfrom thatof theright-handhalf-cell:
+
+Itisimportanttoremember,however,thatyoumustnotchange the sign of theE°value of theleft-hand half-cell, even though the reactioniswrittenasanoxidationandnotareduction.
+
+## Topic 16: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### 16A Standard Electrode Potential
+
+WHATISMEANTBYTHE'DIFFERENCE'BETWEENTWO STANDARDELECTRODEPOTENTIALS?
+
+The easiest way to explain this is to represent the two values on a number scale, such as the one shown in fig B.
+
++ 1.00
+
+-1.00
+
+figBExampleofanumberscaletocalculate anemf.
+
+Tomovefromonenumbertotheotheronthenumberscale involves a change of 1.10 units.
+
+Chemistsallowthemselvestobreaktherulesifit suitstheir purpose. This is exactly what we do when we write cell diagrams torepresentthemeasurementofastandardelectrodepotential In this case,the standard hydrogen electrode is always written on theleft-hand side.
+
+The cell diagrams forthe set-up used when measuring the standard electrode potentials of the Zn2+(aq) I Zn(s) and the Cu²+(aq)| Cu(s) half-cells are therefore:
+
+Pt(s) I H2(g) I H+(aq) i Zn²+(aq) I Zn(s)
+
+E°cel=-0.76V
+
+Pt(s) I H2(g) I H+(aq) i: Cu²+(aq) I Cu(s)
+
+Ecl= +0.34V
+
+As before, the sign of E°cen indicates the polarity of the righthandelectrode.Zincisthenegativeelectrodeofthecellformed incombinationwiththestandardhydrogenelectrode.Copperis thepositive electrode of the cell formed in combination with the standardhydrogenelectrode.
+CREATIVITY,
+
+ADAPTIVELEARNING
+
+• (a)Drawa labelled diagramof the apparatusthat canbeused toconstructacell,understandardconditions,froma Zn²+|Znhalf-cell and aFe3+,Fe²+|Pthalf-cell.
+
+• (b)The standard electrodepotentialsforthe half-cells are:
+
+Explainthe directionofelectronflowintheexternalcircuit when this cell is in use.
+
+• (c)Writethecelldiagramforthiscellandcalculatetheemf (E cell) of the cell.
+
+• 2. Chlorinemaybepreparedinthelaboratorybyreactingdilute hydrochloric acid with potassium manganate(Vll). The standard electrodepotentialsthatrelatetothisreactionare:
+
+Cl2(g) +e = Cl-(aq)
+
+E°= +1.36V
+
+MnO4(aq)+8H+(aq)+5e=Mn²+(aq)+4H2O(l）E=+1.51V
+
+• (a)Calculatetheemf,Ecell,ofacellconstructedfromthesetwo redoxsystems.
+
+• (b)Explainthedirectionofelectronflowthatwouldtakeplace intheexternalcircuitof thiscellwheninuse.
+
+• (c) Write the cell diagram for this cell.
+
+3STANDARD ELECTRODEPOTENTIALS AND THERMODYNAMICFEASIBILITY
+
+## Topic 16: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### 16A Standard Electrode Potential
+
+LEARNING OBJECTIVES
+
+• Understand theimportanceoftheconditionswhen measuringanelectrodepotential,E.
+
+• Beabletousestandardelectrodepotentialstopredictthe thermodynamicfeasibilityofareaction.
+
+• Understand thatEcel is directlyproportional to thetotal entropychangeandtoInkforareaction.
+
+• Understand the limitations of predictions madeusing standardelectrodepotentials,intermsofthekinetic stabilityofsystemsanddeparturefromstandard conditions.
+
+• Understandhowstandardelectrodepotentialscan beusedtopredictthethermodynamicfeasibilityof disproportionationreactions.
+
+## Topic 16: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### 16A Standard Electrode Potential
+
+MAKINGPREDICTIONSUSINGSTANDARD ELECTRODEPOTENTIALS
+
+Usingstandardelectrodepotentialsisonewayofmeasuringhow easily a species loses electrons.This method provides information onhowfartotheleftanequilibriumisrelativetotheequilibrium in the standard hydrogen electrode.For example,for thefollowing two equilibria, the equilibrium of the top reaction lies further to theleftthan thatof thehydrogenelectrode.Also,theequilibrium of thebottom reaction lies further to the right than that of the hydrogen electrode.
+
+Zn²+(aq)+ 2e-= Zn(s)
+
+E=-0.76V
+
+Cu²+(aq) + 2e-= Cu(s)
+
+E=+0.34V
+
+It follows,therefore,thatthepositionofequilibriumof the Zn²+(aq)|Zn(s) reaction lies further to the left than that of the Cu²+(aq) I Cu(s) reaction.
+
+Ifthesetwoequilibria arelinkedbycombiningthetwohalf-cells tomakeanelectrochemicalcell,thenelectronswillflowfromthe zinc electrode to the copper electrode.Therefore,the equilibria will be disturbed and the following reactions will take place in each half-cell:
+
+Electrons flowfrom the half-cell with the more negative E value to the half-cell with the less negative (i.e. more positive) E value (fig A).
+
+figAElectrochemicalcell showingdirectionofflowofelectrons.
+LINKINGTHISTOATESTTUBEREACTION
+
+Is the following reaction thermodynamically feasible (possible)?
+
+Zn(s) +Cu²+(aq)→Zn²+(aq) + Cu(s)
+
+That is, will zinc displace copper from an aqueous solution containing copper(Il) ions?
+
+ToanswerthisquestionwewilllookattheEvaluesforthe relevanthalf-cell reactions:
+
+Zn²+(aq) + 2e-= Zn(s)
+
+E°=-0.76V
+
+equilibrium 1
+
+Cu²+(aq)+2e-=Cu(s)
+
+E°=+0.34V equilibrium2
+
+The E value for equilibrium 1 is more negative than that for equilibrium2.So,theposition ofequilibrium1will shift to the left,releasing electrons,and theposition of equilibrium 2 will shift to the right, accepting electrons. This means that the reaction
+
+FigB illustrates thisprocess.
+
+fig BReaction of zinc with copper(ll) ions in aqueous solution.
+WILLZINCREACTWITHDILUTESULFURICACID?
+
+Toanswerthisquestionweneedtoconsiderthefollowingreaction: Zn(s) + 2H+(aq) →Zn²+(aq) + H2(g)
+
+figCReaction of zincwithdilute sulfuric acid.
+
+thereactionisthermodynamicallyfeasible,aszincwill release electrons to the hydrogen ions (fig C).
+WILLCOPPERREACTWITHDILUTESULFURICACID?
+
+To answer this question,we will consider the following reaction:
+
+• fig DCopper does not react with dilute sulfuric acid.
+
+This time, E[Cu2+(aq) | Cu(s)] is more positive than E[2H+(aq)|H2(g)],so the reaction is not thermodynamically feasiblebecause copperwill notrelease electrons to hydrogenions (fig D). The two equilibria tend to move in the opposite directions tothoserequiredforreaction.
+
+Interestingly,the reverse reaction:
+
+is thermodynamically feasible.However, no reaction takes place when hydrogen is bubbled into an aqueous solution containing copper(Il)ions because the activation energy for the reaction is verylarge.Thereactants are thereforekineticallystable.
+ANALTERNATIVEMETHOD
+
+There is an alternativemethod we can use topredict the thermodynamic feasibility of a reactionusing standard electrode (redox)potentials.Howeveryouneedtounderstandthatthis method is based on imperfect science, since it involves reversing (i.e.changingback)oneof thehalf-equationsand changingthe signoftheelectrodepotential.Aswehave alreadypointedoutin Section16A.1,it isincorrecttochange thesignwhenreversingthe half-equation. This is because the sign gives only the polarity of the half-cell when it isconnected toastandardhydrogenelectrode.
+
+However,thisalternativemethoddoesproduceacorrect answer regarding the feasibility of the reaction, despite the imperfect science.It involves calculatingavalueforEcenfor theproposed reaction.Youshould alsounderstand thatcalculatingavaluefor Ee for a reaction is meaningless. This is because a reaction taking place in a reaction vessel, such as a test tube, does not generate an emf.
+
+Belowaretwocalculationsusingthealternativemethod.
+
+## Topic 16: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### 16A Standard Electrode Potential
+
+WORKEDEXAMPLE1
+
+Will zincdisplacecopperwhen added to an aqueoussolution containing copper ions?
+
+Theproposedreaction is:
+
+Thetwostandardelectrodepotentialstoconsiderare:
+
+Topredict thefeasibility of thereaction using this method,it is necessary towrite the twohalf-equations as they occur in the proposed reaction, changing the sign of the standard electrode potential as necessary:
+
+Zn(s)→Zn²+（aq)+2e
+
+E=+0.76V
+
+Cu²+(aq)+2e-→Cu(s) E=+0.34V
+
+Thebestmethodisnowtoaddtogetherthesetwoelectrode potentialstoproduce anEelfor theproposed reaction:
+
+Because the value for Eel is positive, the reaction is feasible.
+WORKEDEXAMPLE2
+
+Willcopper produce hydrogen gas when added to dilute sulfuric acid?
+
+Theproposedreaction is:
+
+Cu(s)+2H+(aq)→Cu²+(aq)+H2(g)
+
+Thetwoelectrodepotentialstoconsiderare:
+
+Cu2+(aq)+2e-=Cu(s) E= +0.34 V
+
+2H+(aq)+2e-=H2(g)
+
+E=0.00V
+
+Reversing the tophalf-equation and adding together the two electrodepotentialsgives:
+
+Cu(s)→Cu²+(aq)+2e E=-0.34V 2H+(aq)+2e-→H2(g) E=0.00V
+
+and
+
+Ecll=-0.34V+0.00V =-0.34 V
+
+Because thevalueforEel isnegative,thereaction isnotfeasible.
+
+Youmaybe asked tocalculate avalue ofEceltopredict the feasibility of a reaction.We suggest that youlearn this alternative method aswell asthemethoddescribedearlierthatisbased on correctscience.
+
+## Topic 16: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### 16A Standard Electrode Potential
+
+REACTIONBETWEENMANGANESE(IV)OXIDEAND HYDROCHLORICACID
+
+• othereactionmaynotbetakingplaceunderstandard conditions.
+
+One method of preparing chlorine in the laboratory is to react manganese(IV)oxidewithhydrochloricacid:
+
+MnO₂(s) + 4HCl(aq) → Mn²⁺(aq) + 2Cl⁻(aq) + 2H₂O(l) + Cl₂(g)
+
+However,thestandardelectrodepotentialssuggestthatthis reactionisnotfeasible.
+
+MnO₂(s) + 4H⁺(aq) + 2e⁻ ⇌ Mn²⁺(aq) + 2H₂O(l) E° = +1.23 V equilibrium 1 Cl₂(g) + 2e⁻ ⇌ 2Cl⁻(aq) E° = +1.36 V equilibrium 2
+
+TheE°valueforequilibrium 2is morepositive(i.e.less negative) than thatforequilibrium1.So,chlorideionscannotrelease electronstoMnO2,and thisisrequiredforthereactionshown abovetotakeplace.Thereactionisnotthermodynamically feasibleunderstandardconditions,inwhichtheconcentrationof thehydrochloricacid,and thereforetheconcentrationofboththe hydrogen ions and chloride ions, is 1 mol dm-3.
+
+The key tomaking thereaction take place is to increase the concentrationofhydrochloricacid.
+
+If concentrated hydrochloricacid(~10 mol dm-3)is used,then the concentrationofboth thehydrogenionsandthechlorideions increases.Theeffectistoshiftthepositionofequilibrium1tothe right and the position of equilibrium 2 to the left (fig E).
+
+MnO₂(s) + 4H⁺(aq) + 2e⁻ ⇌ Mn²⁺(aq) + 2H₂O(l) Cl₂(g) + 2e⁻ ⇌ 2Cl⁻(aq)
+
+fig EEquilibria for thereaction of manganese(IV) oxide with hydrochloric
+
+acid.
+
+As aresult,theelectrodepotential,E,forequilibrium1becomes morepositivebecausetheredoxsystemisnowabetterelectron acceptor
+
+The electrodepotential forequilibrium2becomes lesspositive becausetheredoxsystemisnowabetterelectronreleaser
+
+#### REACTIONBETWEENMANGANESE(IV)OXIDEAND HYDROCHLORICACID
+The net effect is that the electrode potential of equilibrium 2 becomes less positive (more negative) than that of equilibrium 1, so the chloride ions can now release electrons to manganese(IV) oxide.Thereactionhasbecomethermodynamicallyfeasible underthesenon-standardconditions.
+SUMMARY
+
+• ·Thethermodynamicfeasibilityofachemicalreactioncanbe predicted usingstandard electrodepotentials.
+
+• Althoughthestandardelectrodepotentialsindicatethata reactionisthermodynamicallyfeasible,itmaynottakeplace fortworeasons:
+
+• othereactantsmaybekineticallystablebecausethe activationenergyforthereactionisverylarge,and
+
+• ·Areactionthatisnotthermodynamicallyfeasibleunder standardconditionsmaybecomefeasiblewhentheconditions are altered.
+
+• Changingthe conditions mayalter the electrodepotential,E, ofahalf-cellbecausethepositionofequilibriumofthehalfcell reaction may change.
+DISPROPORTIONATIONREACTIONS
+
+InTopic8(Book1:IAS)welearnedthatadisproportionation reactionis oneinwhich anelementina speciesisboth oxidised andreducedinthesamereactionatthesametime.
+
+A typical disproportionation reaction is the conversion of copper(I)
+
+Cu⁺(aq) + Cu⁺(aq) → Cu²⁺(aq) + Cu(s)
+
+This reaction can be explained in terms of standard electrode potentials.
+
+Cu²⁺(aq) + e⁻ ⇌ Cu⁺(aq) E° = +0.15 V equilibrium 1 Cu⁺(aq) + e⁻ ⇌ Cu(s) E° = +0.52 V equilibrium 2
+
+The E°valuefor equilibrium1 is more negative than that for equilibrium2,sothepositionofequilibrium1willmovetotheleft, and the equilibrium position of 2 will move to the right. Therefore, Cu+ionswill bothrelease and acceptelectronstooneanotherto form Cu2+ ions and Cu atoms. That is, Cu+ ions disproportionate into Cu2+ ions and Cu atoms (fig F).
+
+figFDisproportionation of Cu+ ions into Cu²+ions and Cu atoms.
+RELATIONSHIP BETWEEN TOTAL ENTROPY AND ECELL
+
+The relationship between the total entropy change, △Stotal, and the emf of the cell, Eel, is given by the following equation:
+
+TΔS°_total = nFE°_cell
+
+wherenisthenumberofmolesofelectronsinvolvedinthecell reaction and Fis theFaradayconstant.
+
+As n is a constant for a given cell reaction, and Fis also a constant,it follows that,at a given temperature,the totalentropy change of the cell reaction is proportional to the emf of the cell.
+
+ΔS°_total ∝ E°_cell
+
+## Topic 16: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### 16A Standard Electrode Potential
+
+EXAM HINT
+
+If you aregoing to use this equation in your answer youmust indicate that it is Sotal that is proportional to Ecel and notSsystem
+
+If Een is positive, the reaction as written from left to right in the cell diagram is thermodynamically feasible because△Stota will bepositive.
+
+## Topic 16: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### 16A Standard Electrode Potential
+
+SKILLS
+
+PROBLEM-SOLVING
+
+• (a)Usethefollowingdata toexplainwhy,understandard conditions,VO²+canbeusedtoreduceMnO4-inacidic solution.
+
+For example,for the following cell diagram:
+
+Zn(s) | Zn²⁺(aq) ¦ Cu²⁺(aq) | Cu(s) E°cell = +1.10 V
+
+the half-cell reactions that will take place in the cell are:
+
+Zn(s) → Zn²⁺(aq) + 2e⁻ and Cu²⁺(aq) + 2e⁻ → Cu(s)
+
+giving an overall reaction of:
+
+VO(aq)+2H+(aq)+e=VO2+(aq)+H2O(l)E=+1.00V MnO4(aq) + 8H*(aq) +5e= Mn²+(aq) + 4H2O(l) E=+1.51V
+
+• (b)Write anionicequationforthereactionthattakesplace.
+
+• 2. Usethefollowingdatatoexplaintowhichoxidationstate vanadium(V),intheformofVO2*,canbereducedbyzinc.
+
+VO(aq)+2H+(aq)+e=VO²+(aq)+H2O()
+
+E=+1.00V
+
+Zn(s) + Cu²⁺(aq) → Zn²⁺(aq) + Cu(s)
+
+In the following cell diagram:
+
+Pt(s) | ½H₂(g) | H⁺(aq) ¦ Zn²⁺(aq) | Zn(s) E°cell = −0.76 V
+
+thehalf-cellreactionsaswrittenfromlefttorightwill notoccur, as Eeen is negative. Instead the half-cell reactions will occur from right toleft:
+
+VO2+(aq)+2H+(aq)+e=V3+(aq)+H2O(1)
+
+E°=+0.34V
+
+v3+(aq)+e=V2+(aq)
+
+E=-0.26V
+
+v2+(aq)+ 2e-=V(s)
+
+E=-1.18V
+
+Zn²+(aq)+ 2e-=Zn(s)
+
+E=-0.76V
+
+• 3. (a) Use the following data to explain why hydrogen peroxide, H2O2,decomposesintowaterandoxygeninaqueous solution.
+
+Zn(s) → Zn²⁺(aq) + 2e⁻ and H⁺(aq) + e⁻ → ½H₂(g)
+
+giving an overall reaction of:
+
+Zn(s) + 2H⁺(aq) → Zn²⁺(aq) + H₂(g)
+
+This means that Een can be used to predict the direction of a cell reaction.
+RELATIONSHIP BETWEEN THE EQUILIBRIUM CONSTANT AND EELL
+
+The total entropy change for a reaction and the equilibrium constant, K, are related by the following equation:
+
+ΔS°_total = R ln K
+
+However:
+
+Therefore:
+
+VO₂⁺(aq) + 2H⁺(aq) + e⁻ ⇌ VO²⁺(aq) + H₂O(l) E° = +1.00 V MnO₄⁻(aq) + 8H⁺(aq) + 5e⁻ ⇌ Mn²⁺(aq) + 4H₂O(l) E° = +1.51 V
+
+• (b) Write an equation for this decomposition.
+
+• (c) Explain,using oxidation numbers, why this reaction is classified asdisproportionation.
+
+• 4. Fe3+(aq) ions can be reduced by I-(aq) ions. The equation for the reaction is:
+
+Fe3+(aq)+I(aq)→Fe²+(aq)+2(aq)
+
+The standard electrode potentials forFe3+(aq),Fe2+(aq) and
+
+2(aq), I-(aq) are +0.77V and +0.54V, respectively.
+
+[The gas constant,R, is 8.31] mol-1 K-1.TheFaraday constant, F,=96500 C mol-1.]
+
+• (a)Calculatetheemfofacellmadebycombiningthesetwo half-cells.
+
+R ln K = nFE°cell / T
+
+or:
+
+ln K = nFE°cell / RT
+
+Asn,FandRare constants,it follows that at agiventemperature, T, InK is proportional to Eel-
+
+ln K ∝ E°cell
+
+Eencan therefore beused to calculate the thermodynamic equilibrium constant,K,for a cell reaction.
+
+• (b)Calculatethevalueoftheequilibriumconstant,K,forthe cell reaction.
+
+## Topic 16: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### 16A Standard Electrode Potential
+
+SUBJECT VOCABULARY
+
+thermodynamicallyfeasiblereactionareactionthatshouldtake placewithoutanyinterventionbyus,ifweconsidertheenthalpyand entropychangesinvolved
+
+kineticallystablethereactiondoesnottakeplace,orisveryslow,
+
+becausethe activationenergyforthereactionisveryhigh disproportionationareactioninwhichanelementisbothoxidised andreducedatthesametime
+
+## Topic 16: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### 16B Redox in Action
+
+LEARNING OBJECTIVES
+
+• Understand that fuel cells use the energy released on the reaction of a fuel with oxygen to generate a voltage.
+
+• Knowtheelectrodereactionsthatoccurinahydrogen-oxygenfuel cell.
+
+## Topic 16: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### 16B Redox in Action
+
+HYDROGEN-OXYGENFUELCELL
+
+A fuel cell produces a voltage from the chemical reaction of a fuel with oxygen.Several types of fuel cells have been developed, with the most common type using hydrogen as the fuel (the hydrogenoxygen fuel cell). In this fuel cell, hydrogen is supplied externally as a gas, and the cell can operate as long as the fuel supply is maintained.
+
+Other fuel cells usemethanol/ethanol orhydrogen-rich methanol as thefuels.
+
+figAAhydrogen-oxygenfuel cell.
+
+In the hydrogen-oxygen fuel cell (fig A), both metal electrodes are coated with platinum, which catalysesthereactionsthattakeplaceattheelectrodes.Thetworeactionsthattakeplaceinthe presence of an acidic electrolyte are shownbelow.
+
+At the negative electrode:H2(g)→ 2H+(aq)+ 2e-.
+
+At the positive electrode: O2(g) + 2H+(aq) + 2e-→ HzO(l).
+
+The hydrogen ions (protons) pass through the proton exchange membrane, which allows them to enter the compartment containingthepositive electrode,where they canreactwith oxygen.
+
+The overall cell reaction is:
+
+There is also a hydrogen-oxygen fuel cell that has an alkaline electrolyte. The electrode reactions for this cell are shownbelow.
+
+At the negative electrode: H2(g) + 2OH-(aq) → 2HzO(l) + 2e".
+
+At the positive electrode: O2(g) + H2O(l) + 2e- → 2OH-(aq).
+
+The overall cell reactionis the same as above:
+
+Advantagesofhydrogen-oxygenfuelcells
+
+• .They offer an alternative to the direct use offossil fuels such as petrol and diesel.
+
+• .Unlike fossil fuels, their products do not include carbon dioxide or pollutants such as carbon monoxide and the oxides of nitrogen.
+
+• ·They are lighter and moreefficient than engines that usefossil fuels.
+TOPIC16
+
+Problemsassociatedwithhydrogen-oxygenfuel cells
+
+Hydrogenexplodes easilywhen ignited,sogreat care hastobe takenwhentransportingit.Wewill consider thefollowingoptions in turn.
+
+• ·compressing the gas
+
+• adsorbing it onto the surface of a suitable solid material
+
+• absorbingit intoa suitablematerial.
+
+Compressing the gas has disadvantages in terms of safety. Transporting hydrogen under pressure is particularly hazardous.
+
+Many metals adsorb hydrogen, but so far no firm conclusion has been reached as to the best one to use. One of the most promising areas of research is the use ofcarbon nanotubes to adsorb hydrogen.
+
+Many metal hydrides absorb hydrogen,which can be released under the correct conditions.Theproblemis that high temperatures arerequired toreleasethehydrogen.
+
+Anotherproblemisthesupplyofhydrogen.Atthemoment,most of thehydrogenisproducedfrom methane,whichis afinite or limited source.It can be produced using renewable sources,but it is anexpensiveprocess.Integratedwind-to-hydrogen(power-togas) plants, using electrolysis of water, are exploring technologies todelivercostslowenough,andquantitiesgreatenough,to competewithtraditionalenergysources.
+
+Fig B shows a prototype car that uses fuel cell technology.
+
+## Topic 16: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### 16B Redox in Action
+
+DID YOU KNOW?
+
+Fuel cellshavebeenusedinvariouskindsofvehicles,including
+
+forklifts, especially in indoor applications where their clean Thefirstcommerciallyproducedhydrogenfuel cellautomobile, theToyotaMiraiwasintroducedin2015,afterwhichHyundaiand Hondaenteredthemarket.Fuelcellsarealsobeingdeveloped and tested intrucks,buses,boats,motorcyclesand bicycles, amongotherkindsofvehicles.
+
+fig BA car that uses a hydrogen-oxygen fuel cell.
+
+## Topic 16: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### 16B Redox in Action
+
+CHECKPOINT
+
+• 1. Nickel-cadmium(Nicd)cells areused inmany electronicdevices becausetheyareveryreliable,economicalandeasytouse.
+
+• The standard electrodepotentialsfortheredoxsystems inNiCd cells are:
+
+Cd(OH)2(s)+2e-=Cd(s)+2OH-(aq）E°=-0.88V NiO(OH)(s)+H2O(I)+e-=Ni(OH)2(s)+OH-(aq) E°=+0.52V
+
+• (a) What is the standard cell potential, Eeel, of a NiCd cell?
+
+• (b)ConstructtheoverallreactionthattakesplacewhenaNiCd cellisproducinganelectriccurrent.
+
+• (c)Useoxidationnumberstoshowwhichelementisoxidised and which is reduced during the discharge of a Nicd cell.
+
+• 2. Fuelcellsarebeingdevelopedasanalternativetotheuseof petrol anddieselincars.Themostcommonfuel usedinthese cellsishydrogen,butcellsusingotherfuels arebeing developed.
+
+• Inamethanolfuelcell,thefuelissuppliedatthenegative electrode,withoxygenatthepositiveelectrode.
+
+• Theionichalf-equationforthereactionofoxygenatthe positive electrodeis:
+
+O2(g)+2H+（aq)+2e-→HO(1)
+
+• (a)Writeachemicalequationforthecompletecombustionof methanol in oxygen.
+
+• (b)Usetheequationin(a),andtheionichalf-equationforthe reactionofoxygenatthepositiveelectrode,todeducean ionichalf-equationforthereactionthattakesplace atthe negativeelectrode.
+
+## Topic 16: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### 16B Redox in Action
+
+ETHICS, INNOVATION
+
+• (c)Givetwoadvantagesofusingfuelcellscomparedwiththe combustionofpetrol ordiesel.
+
+• (d) Give an advantage of using methanol, rather than hydrogen, inafuelcellforuseincars.
+
+• 3.(a)Whatistheessentialdifferencebetweenafuelcelland a conventionalelectrochemicalcell?
+
+SKILLS
+
+ETHICS, INNOVATION
+
+• (b) State twoways that hydrogen might be stored as a fuel for useincars.
+
+• (c)Suggestwhysomescientistsconsiderthatusinghydrogenas a fuelfor cars uses upmore energy than using petrol or dieselasthefuel.
+
+## Topic 16: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### 16B Redox in Action
+
+LEARNING OBJECTIVES
+
+• Beabletocarryoutbothstructuredandunstructured titration calculations involving redox reactions, including iron(ll) ions and potassium manganate(Vill) and sodium thiosulfate and iodine.
+
+• Understandthemethodsused inredoxtitrations.
+
+## Topic 16: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### 16B Redox in Action
+
+REDOXTITRATIONSWITHPOTASSIUM MANGANATE(VII),KMnO
+
+Potassium manganate(VIl) is a powerful oxidising agent. It is used for the quantitative estimation of many reducing agents, especially compoundsof iron(Il) andforethanedioic acid and its salts.
+
+In acidicsolution,thehalf-equationfor thereduction of the manganate(VIl) ion is:
+
+MnO(aq) + 8H+(aq) + 5e-→Mn²+(aq) + 4H2O(l)
+
+In alkaline solution, potassium manganate(VIl) yields manganese(IV)oxide as abrown precipitate,and thisinterferes with theendpointcolourForthisreason,therefore,potassium manganate(VIl) is almostalways used insolutions that are sufficiently acidic to prevent the formation of manganese(IV) oxide.
+
+As the titration proceeds,manganese(Il) ions, Mn2+, accumulate but, at the dilution used, they give a colourless solution.As soon as thepotassiummanganate(VIl) is in excess,the solution becomespink.It thereforeactsasitsownindicator-theendpoint is thefirst permanentpink colour
+TITRATIONOFPOTASSIUMMANGANATE(VII)WITHIRON(II) IONS
+
+In this reaction, the iron(Il) ions are oxidised and the manganate(VIl) ions are reduced.
+
+Theionichalf-equationsinvolved are:
+
+Theoverallequationforthereaction is:
+
+→ Mn2+(aq) + 4H2O(l) + 5Fe3+(aq)
+
+An aqueous solution containing MnO4-ions is purple. In reasonably concentrated solutions containingFe²+,Fe3+ and Mn2+, the ions have the following colours:
+
+Fe2+(aq) - pale green
+
+Fe3+(aq) - yellow
+
+Mn2+(aq) - pale pink
+
+However,thesolutionsusedintitrations areusuallysodilutethat theyappearcolourless.
+
+The method of performing the titration is:
+
+• .Pipette anaccuratelymeasuredvolume,usually25.0 cm²,of the iron(Il) solution intoa conical flask and then add a small volume ofdilute sulfuric acid.
+
+• Slowly addpotassium manganate(VIl) solution of accurately known concentration from a burette and swirl the mixture.
+
+• The potassium manganate(VIl) solution will turn colourless until all of the iron(Il) ionshave been oxidised.
+
+• The addition of onemore drop of potassium manganate(VII) solution will turn the mixture pale pink (fig A).
+
+• figAEndpoint colourin apotassiummanganate(Vil) titration.
+
+## Topic 16: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### 16B Redox in Action
+
+EXAM HINT
+
+Couldacidifiedpotassiumdichromatebeusedasanoxidisingagent forquantitativeredoxtitrations?Intheory,theanswerisyes. However,inpractice,theanswerisno.Thisisbecausethecolour changefrom orangetogreen hasno clearendpoint.
+
+## Topic 16: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### 16B Redox in Action
+
+WORKED EXAMPLE
+
+25.0 cm3of iron(ll)sulfate solutionreactswith22.40 cm²of 0.0200 mol dm-3 potassium manganate(Vill) solution. Calculate the concentration of theiron(ll)sulfate.
+
+5Fe²+(aq) = MnO(aq)
+
+25.0 cm3of xmol dm-3 Fe2+= 22.40 cm² of 0.0200mol dm-3MnO
+
+## Topic 16: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### 16B Redox in Action
+
+TITRATIONOFPOTASSIUMMANGANATE(VII)WITH ETHANEDIOICACID
+
+In thisreaction,theethanedioic acid isreducedto carbondioxide. The ionic half-equationfor this reduction is:
+
+H2C2O4(aq)→ 2H+(aq) + 2CO2(g) + 2e)
+
+The overallequationfor thereactionis:
+
+2MnO4 (aq) + 6H+(aq) + 5H2C2O4(aq)
+
+→2Mn²+(aq) + 8H2O(l) + 10CO2(g)
+
+Aqueousethanedioicacidispipettedintotheconicalflask(Care: ethanedioic acid is extremely poisonous,so a pipettefiller must beused)andisthen acidifiedwithdilutesulfuricacid.Aqueous potassium manganate(VIl) is added from the burette. However, the reactionisveryslow,sotheethanedioicacidisheatedtoaround 60°Cbeforestartingthetitration.Eventhen,thereactionisslow tobegin with and the pink colour does not immediately disappear when thefirst sample of potassium manganate(VIl) is added. This mayleadyoutoerroneouslythinkthatthetitrationiscomplete. Aftertheinitialsampleisadded,theMn²+ionsproducedact as a catalyst and the reaction speeds up, allowingyou to titrate normallyandobtainanaccurateendpoint.
+PRACTICALSKILLS
+
+CP13A
+
+A redoxtitration:the determination of thenumberofmolesof waterof crystallisationpermoleof hydrated iron(ll) sulfate crystals
+
+Notethat this suggested practical usestechniques and skills similarto those needed inthe CorePractical 13a:Redoxtitrations withiron(ll) ions andpotassiummanganate(Iv)inyourLabBook.
+Procedure
+
+• Bringtotheboil100 cm3of dilutesulfuricacid and then allow it tocooltoroomtemperature.
+
+• Weigh accuratelya weighingbottlecontainingapproximately7g ofhydrated iron(ll) sulfatecrystals.
+
+• 3 Dissolve the crystals in thecool acid and reweigh the bottle.Transferthe solutionto a 250 cm3volumetricflask.Add several washingsfrom thebeakerandthenmakeuptothemark.Shakewell.
+
+• 4Titratea 25.0cm²sampleoftheiron(ll) solution,asbefore,with the standardpotassiummanganate(Vll) solution.
+
+• 5Performrepeat titrationsuntil you obtain concordant results.
+Calculations
+
+• 1Calculatethemeantitrefromyourconcordantresults.
+
+• Calculatetheconcentrationoftheiron(ll)sulfatesolution.
+
+• Calculatethemassof iron(ll)sulfateinthe250cm3ofsolution.
+
+• 4Calculate themassofwaterinthemassof crystalstaken andhencecalculatethenumberofmolesof waterpermoleof salt.
+Sampleresults
+
+Concentration of potassium manganate(Vll) solution = 0.0198 mol dm-3
+
+Mass of hydrated iron(ll) sulfate = 6.84g
+
+Mean titre =24.95 cm3
+
+[Molar masses:FeSO4 = 151.9g mol-1;H2O = 18.0g mol-1]
+
+5FeSO4=KMnO4
+
+25.0cm²ofxmoldm-3FeSO4=24.95cm3of0.0198moldm-3KMnO4
+
+[FeSO4(aq)] = 0.0988 mol dm-3
+
+MassofFeSO4in250cm3
+
+Mass of water =(6.84 -3.75)= 3.09 g
+
+IftheformulaofthehydratedsaltisFeSO4.yHO,then
+
+18.0y_3.09
+
+151.93.75
+
+3.09 x 151.9
+
+y 18.0×3.75
+
+= 6.95
+
+16B.2RED0XTITRATIONS
+
+Potassiummanganate(Vll)canalsobeusedtoestimatethe amount of ethanedioate ion present in a solution. The equation for the reaction is:
+
+2MnO4(aq) + 16H+(aq) + 5C2O4²-(aq) → 2Mn2+(aq) + 8H2O(l) + 10CO2(g)
+
+## Topic 16: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### 16B Redox in Action
+
+DID YOU KNOW?
+
+Areactioninwhichaproductactsasacatalystissaidtobe autocatalysed.Autocatalysisisdiscussed inTopic11.
+
+## Topic 16: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### 16B Redox in Action
+
+LEARNING TIP
+
+Thedilutesulfuricacidisboiledtoremovedissolvedoxygenthat mightotherwiseoxidisesome of theiron(ll) ionstoiron(lll)
+EXAM HINT
+
+Inyourexamyoumaybeaskedtocalculatethemeasurement uncertaintyfora titration.You canfindoutmore aboutthisin
+
+Topic8(Book1:IAS).
+
+SafetyNote:Weareyeprotection and avoid skin contact withthe solutions. Makesurethetopoftheburetteisbeloweyelevelwhenyoufill it.
+
+## Topic 16: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### 16B Redox in Action
+
+REDOXTITRATIONSWITHIODINEANDSODIUM THIOSULFATE
+
+Thiosulfate ionsreduce iodinetoiodide ions.Theionichalf-equations involved are:
+
+2S2O3²-(aq) →S4O²-(aq) + 2e I2(aq) + 2e- → 2I-(aq)
+
+Theoverallequationforthereactionis:
+
+2S2O3²-(aq) + I2(aq) → S4O²-(aq) + 2I-(aq)
+
+Thereactioncanbeusedforthedirectestimationofiodine,orfor theestimationofasubstancethatcantakepartinareactionthat produces iodine.
+
+Theindicator used in titratingiodinewithsodium thiosulfateis starchsolution.Withfreeiodineitproducesadeepblue-black colourTheblue-blackcolour disappears assoon as sufficient sodiumthiosulfatehasbeenaddedtoreactwithalloftheiodine.
+PRACTICALSKILLS
+
+Theprocedure isasfollows.
+
+• ·Addsodium thiosulfatesolutionfromtheburettetotheiodine solution until theoriginal brown colourof theiodine changes to pale yellow.
+
+• Add a fewdrops of starchsolution toproduce ablue colouration.
+
+• Add the sodium thiosulfate solution drop by drop until theblueblacksolutionturns colourless.
+
+If thestarchis added tooearly,it adsorbs some of theiodine and reducesthe accuracyofthetitration.
+
+Ifstarchwerenotadded,itwouldbeverydifficulttodetectthe endpoint.Thecolouroftheiodinesolutionbecomesveryfaint towardstheendofthereaction,and thismakesitdifficultto accuratelyassesswhentheendpointhasbeenreached.
+
+CP13B
+
+A redox titration: determination of the percentage of copper(ll) ions in a sample of hydrated copper(ll) sulfate
+
+NotethatthissuggestedpracticalusestechniquesandskillssimilartothoseneededintheCorePractical13b:Redoxtitrationswithsodium thiosulfateandiodineinyourLabBook.
+
+Thecopper(ll)sulfatesolutionmustbefreefromanythingbutatraceofmineralacid,otherwisetheendpointisnotaccurate.Thissolution producesiodinewhenpotassiumiodideisadded.Theionicequationforthisreactionis:
+
+The iodine produced isthen titratedwith standard sodium thiosulfate solution.
+Procedure
+
+• 1Weigh accurately a weighing bottle containing approximately 6g of hydrated copper(ll) sulfate crystals.
+
+• Transferthecrystalstoa250cm?volumetricflaskandreweighthebottle.
+
+• 3 Add sodiumcarbonatesolution until a slight permanent bluishprecipitate of copper(ll) carbonate isformed.
+
+• 4 Acidify themixturewith a littledilute ethanoicacid until aclearblue solutionisformed.Makeupthesolutionto250cm3withdeionised(or distilled)waterandshakewell.
+
+• Pipette25.0cm3ofthesolutionintoaconicalflaskand add about1.5gofsolidpotassiumiodide.
+
+• 5 Titrate theiodineproducedwith sodium thiosulfatesolution,adding starch solutionjust as the colour of the mixturechangestopale yellow.The
+
+• 7Perform repeat titrations until you obtain concordant results.
+
+Calculation
+
+Calculate thepercentage of copper(ll) ions in the sample of hydrated copper(ll) sulfate crystals.
+Sampleresults
+
+Concentration of sodium thiosulfate solution= 0.0995mol dm-3
+
+Mass of hydrated copper(ll) sulfate crystals = 5.85g
+
+Meantitre=23.45cm3
+
+[MolarmassofCu2+=63.5gmol-1]
+
+• Cu2+=Na2S2O3
+
+25.0 cm3 of xmol dm-3Cu2+ = 23.45 cm3 of 0.0995 mol dm-3 Na2S2O3
+
+• 25.0 x= 23.45x0.0995
+
+• x=0.0933
+
+1.48 ×100 = 25.3% PercentageofCu²+inthesample= 5.85
+
+SafetyNote:Weareyeprotection and avoidskincontact withthesolidsandliquids,especiallythehotacid.Boilthe acidgentlyforashorttimeinalargerbeakertoavoidit boilingoverandtocool itfaster.Makesurethetopofthe burette isbeloweyelevel whenyoufill it.
+
+## Topic 16: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### 16B Redox in Action
+
+CHECKPOINT
+
+• 1. An iron nail of mass 1.50g wasreacted with dilute sulfuric acid.The resulting solution was transferred toavolumetricflaskandmadeupto250cm3withdeionisedwater.
+
+• A25.0cm²sampleofthissolutionreactedwithexactly24.40cm3of0.0218moldm-3potassium manganate(Vill)solution.
+
+Theionicequationfor thereactionbetween theironnail and the acid is: Fe(s)+2H+(aq)→Fe²+(aq)+H2(g)
+
+Calculatethepercentagebymassof ironinthenail.
+
+[Molarmass of iron=55.8gmol-]
+
+• 2. A 50 cm3 volume of a solution of hydrogen peroxide was diluted with water to 1.00 dm3. A 25.0 cm3 sampleofthissolutionwasacidifiedandthentitratedagainst0.0200moldm-3potassium manganate(Vll).Themeantitrevaluewas23.90cm3.Calculatetheconcentration,inmol dm-3,ofthe originalsolutionofhydrogenperoxide.
+
+Theionichalf-equationfortheoxidationofhydrogenperoxideis:
+
+H2O2(aq)→2H+(aq)+O2(g)+2e
+
+• 3. Calculatethevolumeofa0.0200moldm-3solutionofpotassiummanganate(Vll)requiredto completelyoxidise1.00gofiron(ll)ethanedioate(FeC2O4).
+
+[MolarmassofFeC2O4=143.8gmol-]
+
+• An aqueous solution contains a mixture of iron(ll) ions and iron(ll) ions. A 25.0 cm² volume of the solution required 21.60 cm3 of 0.0210 mol dm-3 potassiummanganate(Vll)for oxidation.
+
+• Aseparate25.0cm²sampleofthesolutionwasreactedwithanexcessofzincamalgaminorderto reducetheiron(lll)ionstoiron(ll).Thissample,afterfiltrationtoremovetheexcesszinc,required 44.40cm3of0.0210moldm-3potassiummanganate(Vll)solutionforcompleteoxidation.
+
+Calculate theconcentrations,in mol dm-3,of boththeiron(ll)and iron(lll) ionsintheaqueous solution.
+
+#### CHECKPOINT
+• 5. When bleachingpowder reacts with a dilute acid,chlorine is produced.This chlorine is availablefor bleachingandisknownas'available'chlorine.
+
+• A 2.50g sampleof bleachingpowderis addedto an excessof potassiumiodidesolution and the mixtureisthenacidified.Thesolutionisplacedinavolumetricflaskandmadeupto250cm²with deionised water.A 25.0 cm3volume of this solution required 23.20cm3of0.105mol dm-3sodium thiosulfatesolutiontooxidisetheiodinepresent.
+
+Calculatethepercentage of'available'chlorineinthe 2.50g sampleofbleachingpowder.
+
+Cl(aq)+21-(aq)→2Cl-(aq)+1(aq)
+
+[Molar massof Cl2=71.0gmol-1]
+
+• 6.A25.0cm²sampleofof0.0210moldm-3potassiumperoxydisulfate,K2S2Og,wastreatedwith excess potassium iodide.Theiodineproduced reacted with 21.00 cm3 of 0.0500 mol dm-3sodium thiosulfate solution.
+
+SuggestalikelyionicequationforthereactionbetweenS2O²-ionsandI-ions.
+
+PROBLEM-SOLVING CREATIVITY
+
+## Topic 16: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### Topic 16: Redox Equilibria
+
+ELECTROLYTEEVOLUTION
+
+One of the reasons that your laptops and smartphones are significantly lighter and slimmer than those of ten years ago is not so much
+Primary cells
+
+These are the disposable cells -they are discharged once and discarded - that for over a century powered small and portable equipment. Nowadays,aswebecomemore wasteconscious,wefind that many of these cells are givingway torechargeable(secondary)cells and batteries.
+
+Themost common primary cells arebased on the zinc-manganese dioxide couple:either zinc-carbon cells or alkaline manganese cells. Forashortperiod,some manufacturersofferedmercury cells,which werereplacedbyzinc-airbatteries,andsomecompaniesnowproduce 3Vlithium-MnO2cells.
+Zinc-carbon
+
+Thiscell becamecommercially availableinthelate1800s andwas a drycellversionofthe originalwetLeclanchecell.(Thelatterwas madeupofaconductingsolution(electrolyte)ofammoniumchloride withanegativeterminalofzincandapositiveterminalofmanganese dioxide.)Replacing the liquid electrolyte with a gel and then sealing thewholecell madeitsuitablefordomestic applicationswhere portabilitywasakeyfeature.Thesecellsweredevelopedandmarketed byEverReadyforuseinradiosandtorches and arestillpopular today,thoughEverReadyhasnowchanged toEnergizer andmany othermakeshavebecomeavailable.
+
+The drycell zinc-carbon chemistryperformswellin applications wherethereisintermittentuse,suchasfashlights,butperformance isnotsogood indevices thatput aheavydrain upon thecell.In such applications,polarisation and loss of output results.However,the cell chemistryrecoverswhenleftidleforawhile-thewell-known case ofthedeadbatterythat comesbacktolife.Polarisationiscausedby the products of the electrode reactions building up on the electrode surface and preventing newreactants arriving.Onstanding,diffusion occurs and newreactantsreach theelectrode as theproducts disperse.
+
+Anode:Znmetal
+
+Cathode:MnO2powderwith graphite powder for electrical conduction
+
+Electrolyte:NH4Cl(aq) and/or ZnCl(aq)
+
+Inearliercells,thezincdoubledastheoutercan,whichtendedtoleak as the cell ran down and the zinc passed into solution.
+
+Zn(s)+4NH(aq)+2MnO2(s)+2HO+(aq) →[Zn(NH3)4]²+(aq)+2Mn(OH);(s)
+
+figAAlkaline-manganesebatteries.
+Alkaline-manganese
+
+Thesebatteriesdevelopedfromthezinc-carboncellandbecame availablefordomesticuseinthe1960s andquicklygainedin popularity because they were less prone to polarisation, had greater capacity andwerelesslikely toleak.
+
+Here the anodeispowderedzinc,which providesagreaterreactive surface area and thus more power.Theelectrolyteis an alkali,in contrast totheprevious cell,whichwas acidic.
+
+Anode:Znmetalpowder
+
+Cathode:MnO2powderwithgraphitepowderforelectrical conduction
+
+Electrolyte:KOH(aq)
+
+Zn+2MnO2→ZnO+Mn2O3E=1.5V
+
+Developmentof thesebatteriescontinues,andPanasonicintroduced a vacuum-formingprocesstocompactmanganesedioxideandgraphite powders,which the companyclaims givesimproved capacity.
+
+FromAfterBatteryPowerbyTonyHargreaves.https://eic.rsc.org/section/feature/battery-power/2020096.article
+
+SCIENCE COMMUNICATION
+
+• 1 In the final sentence of the extract, the author tells us that Panasonic claim their vacuum forming would the technology need togo through beforePanasonic's claimwasproven?
+CHEMISTRY IN DETAIL
+
+• 2Write half-equations forthereactions takingplace at the anode and the cathode of the zinccarboncell.
+
+• 3 The electrolyte for this cell is NHCl(aq). Why would you expect this electrolyte to be acidic? You may use equations to help explain your answer.
+
+• 4 Give details of the bonding in the [Zn(NHs)4]2+ complex and explain why this species is colourless in solution.
+
+• 5 In the alkaline-manganese cell, the standard electrode potential for Zn is -0.76 V. Calculate hydroxide given that the Ecell = 1.50 V.
+ACTIVITY
+
+One of the major technological developments over the lastfewyearshasbeen the lithiumionbattery.This has enabledmobile devices tobe rechargeable and light-weight.Produce a presentation on the technology behind lithium-ion batteries.Your presentation should be 5-8 slides inlengthandshouldinclude:
+
+• ·the reactions involved in generating thevoltage
+
+• theadvantagesof lithium-ionbatteriesoverearliersecondarycells
+
+• anydisadvantagesassociatedwith lithium-ionbatteries.
+
+INTERPRETATIONNOTE
+
+Thinkabouttheroleofthe scientificcommunityin validating newknowledge and ensuring integrity.
+
+WRITINGSCIENTIFICALLY
+
+Equations, diagrams and calculationscanallbeuseful toolstohelpjustify an answer, particularly when a question uses the command words 'explain' or 'justify'.
+
+THINKING BIGGER TIP
+
+Thinkabouttheelectronic configuration of the Zn2+ ion.
+
+DID YOU KNOW?
+
+In2013,around five billion lithium-ionbatterieswere sold tosupplyelectronic devices such asphones, laptops,tablets,cameras, powertoolsandevenelectric cars.
+
+## Topic 16: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### Topic 16: Redox Equilibria
+
+16 EXAM PRACTICE
+
+• 1 Mg²+(aq) + 2e- = Mg(s)
+
+E=-2.37V
+
+Cu²+(aq) + 2e = Cu(s)
+
+E=+0.34V
+
+What is the standard cell potential, E?cel, of the following cell? Mg(s) I Mg²+(aq) Il Cu²+(aq) | Cu(s)
+
+A2.71V B2.37V
+
+C2.03V
+
+D 0.34V
+
+[1]
+(Total for Question 1 = 1 mark)
+
+• 2 I2(aq) + 2e-= 2I-(aq)
+
+E=+0.54V
+
+2H+(aq) + O2(g) + 2e-= H2O2(aq)
+
+E=+0.68V
+
+H2O2(aq)+ 2H+(aq) + 2e= 2H2O(l)
+
+E=+1.77 V
+
+What is observed when a few drops of acidified hydrogen peroxidesolution are added toan excessofaqueouspotassium iodide?
+
+• AThe solution turnsbrown andeffervescence occurs.
+
+• BThe solution turnsbrownwith no effervescence.
+
+• C The solution does not change colour and effervescence occurs.
+
+• DThe solution doesnotchangecolour and noeffervescence occurs. [1]
+(Total for Question 2 = 1 mark)
+
+• 3 From the following two standard electrode (redox)potentials: MnO2(s)+ 4H+(aq) + 2e-= Mn2+(aq) + 2H2O(l)E=+1.23 V Cl2(g)+2e-=2Cl-(aq) E=+1.36V
+
+Which standard cell potential, Ecell,could be obtained by combining two of these standard half-cells?
+
+A0.42V B0.54V
+
+C0.56V
+
+D0.98V
+
+[1]
+
+(Total for Question 4 = 1 mark)
+
+• 5 5The standard electrode potentials of Ag+(aq)|Ag(s) and Zn2+(aq)|Zn(s) are +0.80 V and -0.76 V, respectively.
+
+Which conclusion canbe made from these data?
+
+• A Silver displaces zinc from a solution containing zinc ions.
+
+• B Silver is an oxidising agent.
+
+• C Zinc has a greater tendency than silver to form positive ions.
+
+• D Zinc ions can act as a reducing agent.
+
+[1]
+(Total for Question 5 = 1 mark)
+
+• 6Thetableshows theformulaeofsomevanadiumions thatcan existin aqueoussolution,togetherwiththecolourofeachion.
+
+• (a)Complete the table by inserting the oxidation numbers.[1]
+
+• (b)Iron powderis added to an acidified solution of ammonium vanadate(V),NHVO,and the mixture is shaken until no furtherchangetakesplace.
+
+• it canbe predicted that chloride ionswill not be oxidised by solid manganese(IV) oxide.
+
+## Topic 16: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### Topic 16: Redox Equilibria
+
+
+#### (Total for Question 5 = 1 mark)
+|                             | VO(aq)   | VO2+(aq)   | V3+(aq)   | V2+(aq)   |
+|-----------------------------|----------|------------|-----------|-----------|
+| oxidationnumber of vanadium |          |            |           |           |
+| colour of ion               | yellow   | blue       | green     | violet    |
+
+## Topic 16: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### Topic 16: Redox Equilibria
+
+
+#### (Total for Question 5 = 1 mark)
+Infact,chlorine canbepreparedbyheatingmanganese(IV) oxidewithconcentratedhydrochloricacid.
+
+Whydoes thispredictionfail?
+
+• A The reaction does not produce manganese(Il) ions.
+
+• B The standard electrode (redox) potentials apply only if one mole ofmanganese(IV)oxide is used.
+
+• C The manganese(IV) oxide needs to be in alkaline solution.
+
+• D Standard electrode (redox) potentials apply only under specified conditions of concentration and temperature. [1]
+
+(Total for Question 3 = 1 mark)
+
+Usethefollowingdatatoexplainwhatyouwouldexpectto observeinthesequenceofreactionsthattakeplace.Your answershouldconsider alloftheelectrodereactionslisted. [5]
+
+## Topic 16: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### Topic 16: Redox Equilibria
+
+
+#### (Total for Question 3 = 1 mark)
+|    | Electrodereaction                    |   E/V |
+|----|--------------------------------------|-------|
+|  1 | V2+(aq) + 2e-= V(s)                  | -1.18 |
+|  2 | V3+(aq) + e-=V2+(aq)                 | -0.26 |
+|  3 | VO2+(aq) + 2H+(aq) + e-= V3+(aq)     | +0.34 |
+|  4 | VO(aq) + 4H+(aq)+e=VO2+(aq)+ 2H2O(l) | +1.00 |
+|  5 | Fe²+(aq) + 2e-=Fe(s)                 | -0.44 |
+
+## Topic 16: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### Topic 16: Redox Equilibria
+
+(TotalforQuestion6=6marks)
+
+• 4 The standard electrode (redox) potential of four half-cells are listed below:
+
+• 7(a)Draw a suitably labelled diagram to show how you wouldmeasurethestandardelectrodepotentialofthe Cu²+(aq) | Cu(s) half-cell.
+
+• (b)The table contains some standard electrode (redox) potentials involving copper and its ions.
+
+Cu²+(aq) + 2e- = Cu(s)
+
+E°=+0.34V
+
+AgCl(s) + e = Ag(s) + Cl-(aq)
+
+E=+0.22V
+
+H+(aq) + e =H2(g)
+
+E=+0.00V
+
+Zn²+(aq) + 2e-= Zn(s)
+
+E=-0.76V
+
+[6]
+
+## Topic 16: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### Topic 16: Redox Equilibria
+
+
+#### (TotalforQuestion6=6marks)
+| Electrodereaction      |   E°/V |
+|------------------------|--------|
+| Cu2+(aq) + e-= Cu+(aq) |  +0.15 |
+| Cu²+(aq) + 2e-= Cu(s)  |  +0.34 |
+| Cu+(aq) + e= Cu(s)     |  +0.52 |
+
+## Topic 16: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### Topic 16: Redox Equilibria
+
+
+#### (TotalforQuestion6=6marks)
+• (i)Use the data in the table to explain why the following reaction islikely to occur. [2]
+
+2Cu+(aq)→Cu²+(aq)+Cu(s)
+
+In this titration:
+
+• ·Themanganate(VIl)ionsarereducedfrom the+7to the +2 oxidation state.
+
+• .ThevanadiuminsolutionYis oxidised tothe+5oxidation state.
+
+• (a)Giveareasonwhythestudentcarried outtheexperiment in a fume cupboard. [1]
+
+• (b)Usethedatatoshow that theoxidationstateofthe vanadium in solutionY is +3.
+
+[5]
+
+• (ii)Use oxidation numbers to explain why this reaction is classifiedas adisproportionationreaction. [3]
+(Total for Question 7 = 11 marks)
+
+• 8Chlorine gas can be prepared in the fume cupboard of a laboratory by reacting hydrochloric acid with potassium manganate(VII). The two standard electrode (redox) potentials thatrelatetothisreaction are:
+
+• Cl2(g) + e- = Cl-(aq)
+
+E=+1.36V
+
+MnO4(aq) + 8H+(aq) + 5e-= Mn²+(aq) + 4H2O(l)E=+1.52V
+
+• (a)Statewhat is meant bythetermstandard electrode potential.
+
+[2]
+
+• (b)Calculate the standard emf, E°cel,for an electrochemical cellconstructedfromthesetworedoxsystems.
+
+[1]
+
+• (c）(i)Construct an ionic equation for the reaction that takesplacebetweenhydrochloricacid andpotassium manganate(VIl). Include state symbols.
+
+[2]
+
+• (ii)Use oxidation numbers to explain which species is acting asthereducing agent inthis reaction. [2]
+
+• (d)When very dilute solutions of potassium manganate(VIl) andhydrochloricacidareaddedtogether,thereisnovisible change.Explain,using the changes in electrode potentials thatoccurwhynoreactiontakesplacewhenthesolutions are diluted.
+
+[3]
+(Totalfor Question 8=10 marks)
+
+• 9 Vanadium(V), in the form of vanadate(V) ions, can be reduced in acidifiedsolutionby addingsulfurdioxide.
+
+• A student carriesout anexperiment to determine the new oxidationstateofthevanadiumafterthereactionhastaken place.He uses this method:
+
+• He dissolves 2.24g of ammonium vanadate(V), NHVO3, (molar mass =116.9gmol-1) inwater and makesup the solution to250cm3.
+
+• Inafume cupboard,hebubblessulfurdioxide through the solution until there is no further colour change.
+
+• He thenboilsthesolutionforfiveminutes and allows the solution to cool.
+
+• Helabelsthissolution‘SolutionY'.
+
+• Hethentitrates25.0cm3ofsolutionYagainst 0.0200moldm-3KMnOsolution.Hefinds that38.40 cm3 ofKMnOarerequiredtooxidisethevanadium.
+
+• (c) The student repeats the experiment with the same mass ofammoniumvanadate(V),but thistimeheboilsthe solutionfor only oneminute.Hefindsthat thevolumeof potassiummanganate(VIl)solutionrequiredinthetitration has increased.Explain thisobservation. [2]
+(TotalforQuestion9=8marks)
+
+• 10 The diagram shows a hydrogen-oxygen fuel cell.
+
+• (a) Identify the particles represented by A and B.
+
+• (b)Thetwoelectrodesarecoatedwithametalcatalyst. Name a suitablemetal touse asthe catalyst.
+
+• (c) State two advantages of fuel cells over the use of fossil fuels in cars.
+
+[2]
+
+[1]
+
+[2]
+
+• (d)Apart from cost, state two disadvantages of using fuel cells rather thanfossil fuels in cars.
+
+[2]
+
+• (e) The zinc-silver oxide cell is used in button cells for watch batteries.Itisbased onthefollowinghalf-cell reactions:
+
+Zn²+(aq)+2e-=Zn(s) E=-0.76V
+
+Ag2O(s) +H2O(l)+ 2e= 2Ag(s) + 2OH-(aq) E=+0.34V
+
+• (i)Write the cell diagram for this cell. [2]
+
+• (i)Write the equation for the overall reaction taking place in the cell when it is in use. Include state symbols. [2]
+
+• (i)Calculate the standard emf, E°ce, of the cell. [1]
+
+• (iv)Use your answer to part (ii) to calculate the equilibrium constant,K,forthereaction at298K. [R=8.31Jmol-1K-1]
+
+[2]
+
+(TotalforQuestion10=14marks)
+
+## Topic 17: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### Topic 17: Transition Metals and Their Chemistry
+
+TOPIC17TRANSITIONMETALS ANDTHEIRCHEMISTRY
+
+PRINCIPLESOFTRANSITIONMETALCHEMISTRYI B TRANSITIONMETALREACTIONSI C TRANSITIONMETALSASCATALYSTS
+
+InBook1you learned about thePeriodicTable, and inparticular the elementsof Groups 1, 2 and 7. These three groups show typical properties of s-block and p-block elements and clear trends in physical and chemical properties. For example, in Group 1, the first ionisation energy decreases down the group, and in Group 7 the reactivity decreases down the group. You learned to understand simple chemical reactions of theseelementsandtheircompoundsandhowtotestforionssuchaschlorideandiodide.
+
+In this topic, you will learn about transition metals, in particular those in the first row between the s-block not generally found in s-block and p-block elements, for example:
+
+• .the elements have important uses as industrial catalysts
+
+• · they help to remove pollutants from car exhausts
+
+• theyareimportantstructural metals,such asiron andcopper
+
+• ·. they are used in jewellery, especially platinum, gold and silver
+
+• theircompoundshavebrightcolours,such ascopper(ll) sulfate
+
+• . they form ions and compounds with different oxidation numbers, such as iron(ll) and iron(lll) compounds
+
+• ·they form complexes, some of which are vital to life, such as haemoglobin, and cis-platin, which is used in cancertreatment.
+
+Many of these properties will be explained, especially those that involve complexes. The term 'complex' will becarefullyexplained.Rememberthat'complex'doesnotmean'complicated！
+
+MATHS SKILLS FOR THIS TOPIC
+
+• ·Appreciate angles and shapes in regular 2D and 3D structures
+
+Topic2
+
+• Writingelectronicconfigurationsforelementsand ions
+
+Topic3
+
+• Howdativecovalentbondsform
+
+• Howtopredicttheshapesofmoleculesandions
+
+Topic5
+
+• Themeaningsofcis-andtrans-instereoisomerism
+
+• Using oxidation numbers to consider whether species areoxidisedorreduced
+
+Topic9
+
+• Predictinghowchangesinconditionsaffectthe positionofanequilibrium
+Whatwill I study in thistopic?
+
+• Understandhowthevarietyofoxidationnumbers canbeexplainedintermsofelectronic configurations
+
+• Themeaningsofsomenewterms,suchasligand, complex,monodentateandmultidentate
+
+• Howcarbonmonoxidepreventsthetransportof oxygenthroughthebloodstream
+
+• Thetwodifferentwaysinwhichtransitionmetals andtheircompoundscanactascatalysts
+
+• Howcarbonmonoxide andoxidesof nitrogen are removedfromvehicleexhaustsbycatalytic converters
+
+## Topic 17: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### 17A Principles of Transition Metal Chemistry
+
+1TRANSITIONMETAL ELECTRONICCONFIGURATIONS
+
+## Topic 17: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### 17A Principles of Transition Metal Chemistry
+
+LEARNING OBJECTIVES
+
+• Be able to deduce the electronicconfigurations of atoms and ions of the d-blockelements of Period 4 (Sc-Zn) given their atomicnumberandcharge(ifany).
+
+• Understandwhytransitionmetalsshowvariableoxidationnumbers.
+
+## Topic 17: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### 17A Principles of Transition Metal Chemistry
+
+WHEREARETHEYFOUNDINTHEPERIODICTABLE?
+
+YouwillbefamiliarwiththePeriodicTable and thenumbersofthedifferentgroups.Group1isonthe farleft.Onthefarright arethenoblegases,whichareinagroupnumbered 0(orsometimes8).When you studied periodicity using the elements inPeriods 2 and 3, youignored thebiggapbetweenGroups 2and3.However,whenyoulookatPeriod4youcanseeelementsbetweenGroups2and4.Someof theseelementsaretransitionmetals.
+
+You will also be familiar with the idea of classifying elements as belonging to one of the blocks (s, p, d or f) of the Periodic Table. The transition metals are in the d-block of the Periodic Table (fig A). In thistopicwewill concentrateonthe10elementsinPeriod4.
+
+## Topic 17: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### 17A Principles of Transition Metal Chemistry
+
+
+#### WHEREARETHEYFOUNDINTHEPERIODICTABLE?
+fig ATheposition of the transitionmetalsin theperiodic table. |       | 2     |                                     | H                                   |                                     |                                     |                                     |                                     |                                     |                                     |                                     | 3                                   |                                     | 5                                   | 6                                   |                                     | 0(8) - He 2                         | |-------|-------|-------------------------------------|-------------------------------------|-------------------------------------|-------------------------------------|-------------------------------------|-------------------------------------|-------------------------------------|-------------------------------------|-------------------------------------|-------------------------------------|-------------------------------------|-------------------------------------|-------------------------------------|-------------------------------------|-------------------------------------| | Li 3  | Be 4  |                                     |                                     |                                     |                                     |                                     |                                     |                                     |                                     |                                     | B 5                                 | C 6                                 | N 7                                 | 8                                   | F 9                                 | Ne 10                               |
+
+#### WHEREARETHEYFOUNDINTHEPERIODICTABLE?
+| Na 11 | Mg 12 |                                     |                                     |                                     |                                     |                                     |                                     |                                     |                                     |                                     | AI 13                               | Si 14                               | P 15                                | S 16                                | CI 17                               | Ar 18                               | | K 19  | Ca 20 | Sc 21                               | Ti 22                               | V 23                                | Cr 24                               | Mn 25                               | Fe 26                               | Co 27                               | Ni Cu 28 29                         | Zn 30                               | Ga 31                               | Ge 32                               | As 33                               | Se 34                               | Br 35                               | Kr 36                               | | Rb 37 | Sr 38 | Y 39                                | Zr 40                               | Nb 41                               | Mo 42                               | Tc 43                               | Ru 44                               | Rh 45                               | Pd Ag 46 47                         | Cd 48                               | In 49                               | Sn 50                               | Sb 51                               | Te 52                               | 53                                  | Xe 54                               |
+
+#### WHEREARETHEYFOUNDINTHEPERIODICTABLE?
+| Cs 55 | Ba 56 | Lanthanide series                   | Hf 72                               | Ta 73                               | W 74                                | Re 75                               | Os 76                               | Ir 77                               | Pt 78                               | Au Hg 79 80                         | TI 81                               | Pb 82                               | Bi 83                               | Po 84                               | At 85                               | Rn 86                               | | Fr 87 | Ra 88 | the d-blockelements Actinide series | the d-blockelements Actinide series | the d-blockelements Actinide series | the d-blockelements Actinide series | the d-blockelements Actinide series | the d-blockelements Actinide series | the d-blockelements Actinide series | the d-blockelements Actinide series | the d-blockelements Actinide series | the d-blockelements Actinide series | the d-blockelements Actinide series | the d-blockelements Actinide series | the d-blockelements Actinide series | the d-blockelements Actinide series | the d-blockelements Actinide series |
+
+## Topic 17: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### 17A Principles of Transition Metal Chemistry
+
+
+#### WHEREARETHEYFOUNDINTHEPERIODICTABLE?
+fig ATheposition of the transitionmetalsin theperiodic table.
+WHATISATRANSITIONMETAL?
+
+It is easier tolist the characteristics of transitionmetals than to explainfully what they are.To describethemasbeinginthed-blockindicatesonlytheirlocationand nottheircharacteristics.Most definitions of a transition metal refer to the electronic configurations of their atoms orions(see the Subject Vocabulary for a simple definition).
+
+Afullerdefinitionisquotedin theEdexcelspecification:
+
+'Transition metals are d-block elements that form one or more stable ions with incompletely filled d-orbitals.'
+CHARACTERISTICSOFTRANSITIONMETALS
+
+Transitionmetals:
+
+• arehardsolids
+
+• havehighmeltingandboilingtemperatures
+
+• canactascatalysts
+
+• form colouredions andcompounds
+
+• formionswithdifferentoxidationnumbers
+
+• ·form ions with incompletely filled d-orbitals
+
+Of thetend-blockelements inPeriod 4,thefirst and thelast(scandium and zinc)donothavesome ofthesecharacteristics.So,althoughit is correcttodescribe them as d-blockelements,theyarenot considered tobetransitionmetals.Inparticular,eachformsonlyoneion and theircompoundsare not coloured.
+
+figBTransitionmetals includepreciousmetals such as silverandgold,along withfamiliarmetalssuchascopper,ironandzinc.Eachtransitionmetal hasmore thanoneoxidationstate,andtheirsaltsformcolouredsolutionsinwater.
+THEELEMENTS
+
+You learned in Topic 2 (Book 1: IAS) how to write the electronic configurations of the elements from hydrogentokrypton,whichincludesthetend-blockelementsinPeriod4.Forreference,weshowthese in full in table A using the spdf notation, with electrons-in-box diagrams for the electrons in the 4s and 3d orbitals.Copper and chromium donot follow theexpected pattern.Where irregularities in the spdf notation exist, they are shown in red. In the electrons-in-box diagrams, paired electrons are shown with a green background and unpaired electrons with a blue background.
+
+It issometimesacceptabletouse an abbreviatedshorterform ofelectronicconfiguration that represents the complete shells withreference to the previous noble gas.For example,the electronic configurationoftitanium isshowninfullas1s²2s²2p°3s²3p°3d²4s²,butcanbe abbreviated as[Ar]3d²4s2.
+THEIONS
+
+When these elements form ions,they lose one or more electrons.Scandium loses both of its 4s electrons and its only 3d electron,forming theSc3+ion.Zinc losesboth of its 4s electrons and none of its 3d electrons,forming the Zn²+ ion.Because these two elements form only one ion each,and theseionshavenoincompletelyfilled d-orbitals,theyarenotclassified astransitionmetals.
+
+## Topic 17: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### 17A Principles of Transition Metal Chemistry
+
+LEARNING TIP
+
+RememberthatinTopic2 (Book1:IAs)youlearned that the3dorbitalstartstofillbefore the4sandthatthe4selectrons have higherenergythanthe electronsinthe3dorbitals.This iswhythe4selectronsarelost firstwhentheatomsformions.
+
+## Topic 17: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### 17A Principles of Transition Metal Chemistry
+
+
+#### LEARNING TIP
+tableAElectronicconfigurationsof theelementsscandiumtozinc.
+
+| ELEMENT   |   Z | ELECTRONICCONFIGURATION      | ELECTRONS-IN-BOXESDIAGRAMFOR3d AND4SELECTRONS   |
+|-----------|-----|------------------------------|-------------------------------------------------|
+| scandium  |  21 | 1s2 2s2 2p6 3s2 3p6 3d1 4s2  |                                                 |
+| titanium  |  22 | 1s2 2s2 2p6 3s2 3p6 3d2 4s2  |                                                 |
+| vanadium  |  23 | 1s2 2s2 2p6 3s2 3p6 3d3 4s2  |                                                 |
+| chromium  |  24 | 1s²2s²2p63s23p63d54s2        |                                                 |
+| maganese  |  25 | 1s2 2s2 2p6 3s2 3p6 3d5 4s2  |                                                 |
+| iron      |  26 | 1s2 2s2 2p6 3s2 3p6 3d7 4s2  |                                                 |
+| cobalt    |  27 | 1s2 2s2 2p6 3s2 3p6 3d8 4s2  | T                                               |
+| nickel    |  28 | 1s2 2s2 2p6 3s2 3p6 3d8 4s2  |                                                 |
+| copper    |  29 | 1s2 2s2 2p6 3s2 3p6 3d10 4s1 |                                                 |
+| zinc      |  30 | 1s2 2s2 2p6 3s2 3p6 3d10 4s2 |                                                 |
+
+## Topic 17: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### 17A Principles of Transition Metal Chemistry
+
+
+#### LEARNING TIP
+tableAElectronicconfigurationsof theelementsscandiumtozinc.
+
+When the other eight elements form ions,theylose their 4s electrons before their 3d electrons. Eachelementcanloseavariablenumberofelectrons,andsoformsionswithdifferentoxidation numbers. The higher oxidation numbers are not found in simple ions.For example,manganese forms an ion with oxidation number +2 (the Mn2+ ion), but the manganese ion with oxidation number +7 isMnO,notMn7+.Transitionmetalionsinvolvinghigheroxidationnumbersusuallycontain an electronegativeelement,oftenoxygen.TableBshowsthemostcommonoxidationnumbersand examplesofcompoundsformed.
+
+## Topic 17: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### 17A Principles of Transition Metal Chemistry
+
+
+#### LEARNING TIP
+tableBThemostcommonoxidationnumbersandcompoundsforPeriod4transitionelements.
+
+| ELEMENT   | COMMONOXIDATIONNUMBERS   | COMMONOXIDATIONNUMBERS   | COMMONOXIDATIONNUMBERS   | COMMONOXIDATIONNUMBERS   | COMMONOXIDATIONNUMBERS   | COMMONOXIDATIONNUMBERS   | COMMONOXIDATIONNUMBERS   | COMPOUNDS   | COMPOUNDS   | COMPOUNDS   |
+|-----------|--------------------------|--------------------------|--------------------------|--------------------------|--------------------------|--------------------------|--------------------------|-------------|-------------|-------------|
+| Ti        |                          |                          | +3                       | +4                       |                          |                          |                          | 0"!! | !
+
+#### LEARNING TIP
+|             |
+| V         |                          | +2                       | +3                       | +4                       | +5                       |                          |                          | VCl3        | V2O5        |             |
+| Cr        |                          |                          | +3                       |                          |                          | +6                       |                          | CrCl3       | K2CrO4      |             |
+| Mn        |                          | +2                       |                          | +4                       |                          |                          | +7                       | MnCl2       | MnO2        | KMnO4       |
+| Fe        |                          | +2                       | +3                       |                          |                          |                          |                          | FeCl2       | Fe2O3       |             |
+| Co        |                          | +2                       | +3                       |                          |                          |                          |                          | CoSO4       | CoCl3       |             |
+| Ni        |                          | +2                       |                          |                          |                          |                          |                          | NiSO4       |             |             |
+| Cu        | +1                       | +2                       |                          |                          |                          |                          |                          | Cu2O        | CuSO4       |             |
+
+## Topic 17: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### 17A Principles of Transition Metal Chemistry
+
+
+#### LEARNING TIP
+tableBThemostcommonoxidationnumbersandcompoundsforPeriod4transitionelements.
+
+You can see that the highest common oxidation number increases from Ti(+4)to Mn(+7) as all the 4s and 3d electrons become involved in bonding.From Fe to Cu, theincreasing nuclear charge means that the electrons are attracted more strongly and are less likely to be involved in bonding. Therefore, ions with higher oxidation numbers are less common.
+
+## Topic 17: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### 17A Principles of Transition Metal Chemistry
+
+CHECKPOINT
+
+• 1. Writeoutthefullandabbreviatedelectronicconfigurationsfortheelementchromium.
+
+• 2. Describe,withreferencetoitselectrons,howanatomofmanganesebecomesanionwithan oxidationnumberof+4.
+
+## Topic 17: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### 17A Principles of Transition Metal Chemistry
+
+SUBJECT VOCABULARY
+
+transitionmetalanelementthatformsoneormorestableionswithincompletelyfilledd-orbitals
+
+## Topic 17: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### 17A Principles of Transition Metal Chemistry
+
+LEARNING OBJECTIVES
+
+• Know what is meant by the term ligand'.
+
+• Understandthatdative(coordinate)covalentbondingis involvedintheformationofcomplexions.
+
+• Knowthatacomplexionisacentralmetalionsurrounded by ligands.
+
+• Understand the meaning of the term'coordination number.
+
+## Topic 17: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### 17A Principles of Transition Metal Chemistry
+
+SYMBOLSANDEQUATIONSWITHOUTLIGANDS
+
+Anexample of thesymbol of a metalion is Na+,thesodium ion. Youwill alsohaveused thesymbol Na+(aq),which shows that the sodium ion is dissolved in water. The process of dissolving solid sodiumchlorideinwatermayhavebeenexplainedintermsofthe slightly negative (8-) oxygen atoms in the water molecules being attracted tothepositivelycharged sodium ions and keeping them in solution (fig A). You may have a mental picture of Na+ being surroundedbyanunspecifiednumberofwatermolecules,with these water molecules leaving and being replaced by others.
+
+• figAPositivesodiumionssurroundedby&-oxygen atomsinwater molecules,andnegative chlorideionssurroundedby&+hydrogen atoms inwatermolecules.
+
+When you write equationsfor the reactionsof transition metal ionsyou cansometimesusethesamemethod.Forexample,the iron(II) ion can be shown as Fe2+,or as Fe2+(aq) to show that it is dissolved in water.
+
+Theequationforadisplacementreactioninvolvingatransition metal ion is:
+
+This equation clearly shows that the reaction is an example of redox, as magnesium transfers electrons to iron(II) ions.
+
+However,itisoftenbettertoconsiderthereactionsoftransition metalionsinadifferentwayinordertobetterunderstandthe reactions.This method will be described next.
+SYMBOLSANDEQUATIONSWITHLIGANDS
+
+Theions ofnon-transitionmetals tend tohavelargerradi than thoseoftransitionmetalsinthesameperiodofthePeriodicTable. For example,theionic radius of K+is 0.133nm,and that of Fe2+is 0.076nm.Therelativelysmallsizeoftransitionmetalionsenables themtoattractelectron-richspeciesmorestrongly,including thewatermoleculespresentinaqueoussolutions.Thesewater molecules areattracted tothetransitionmetalionssostronglythat they form a specific number of bonds, usually six, giving a structure thatcanberepresented indiagrams such asthese:
+
+• fig BHere are two ways torepresent a complex ion:(i) shows one of the lonepairsofelectronsontheoxygen atomsandthedativecovalentbonds witharrows:(ii)showsthe3Darrangementofbondsandwatermolecules aroundthemetalion.
+In fig B (i):
+
+• ·thebonds areshownwitharrowheads,indicatingthat they aredative(coordinate)bonds-oneofthelonepairsof electrons on each oxygen atom is used toform the bond
+
+• thewhole structureisshowninsidesquarebrackets,and the originalchargeoftheFe²+ionisshownoutsidethebracket
+
+• thewater molecules are arranged in a regularpattern around the Fe-this arrangement can be explained in terms of the electronpairrepulsiontheory.
+
+In fig B (ii):
+
+• ·solidwedgesrepresentbondscomingoutoftheplaneof thepaper
+
+• striped wedges represent bonds goingbehind theplane of the paper.
+
+## Topic 17: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### 17A Principles of Transition Metal Chemistry
+
+EXAM HINT
+
+PractisedrawingthesecomplexesasinfigB.Makesureyoushow whichpartoftheligandformsthedativebondwiththecentralmetal ion.Forxample,youcanrepresentwateras:OH,toshowthatthe oxygenpartofthewatermoleculeisresponsibleforthebond.
+
+Althoughit isoftenuseful tothinkaboutdiagramslikethis,when writingequationsitismore usual to abbreviatethem.In an equation, the example above would be shown as [Fe(HzO)]2+. Noticethatthesquarebracketsandthepositionofthechargeare thesamein this abbreviated form.
+
+EXAM HINT
+
+Inanexamquestionyoumaybe askedtonamecomplexions.
+LEARNING TIP
+
+Youcanworkout thechargeon themetal ioninacomplexby considering the overall charge on the complex and knowing thecharges on theligands.For example,[FeCl4]-hasanoverall chargeof2-,andtherearefour chlorideionseachwithacharge of1-,so thechargeonthe metalion mustbe2+.
+
+These water molecules, and other electron-rich species that can form dative bonds in the same way, are called ligands.The complete formulae are called complexes.As most complexes have charges, theyareoftencalledcomplexions,butwherethereisnooverallcharge,itisbettertousetheterm complex'.Thetotalnumberofdativebondsaroundthemetalioniscalledthecoordinationnumber.
+
+## Topic 17: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### 17A Principles of Transition Metal Chemistry
+
+EXAMPLESOFLIGANDS
+
+Many species can act as ligands.However, those that we will meet most often are shown in table A, which also shows how the name of the ligand changes when used in the name of a complex.
+
+## Topic 17: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### 17A Principles of Transition Metal Chemistry
+
+
+#### EXAMPLESOFLIGANDS
+| LIGAND    | FORMULA   |   CHARGE | NAMEINCOMPLEX   |
+|-----------|-----------|----------|-----------------|
+| water     | H2O       |        0 | aqua            |
+| hydroxide | -OH       |       -1 | hydroxo         |
+| ammonia   | NH3       |        0 | ammine          |
+| chloride  | Cl-       |       -1 | chloro          |
+
+## Topic 17: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### 17A Principles of Transition Metal Chemistry
+
+tableA
+
+Note these points about thenames used in complexes:
+
+• ·ligands with a negative charge end in -o
+
+• ammineshouldnotbeconfusedwiththeorganictermamine.
+
+NAMINGCOMPLEXES
+
+TableB showssome examplestoillustrate thenamingsystem used.
+
+## Topic 17: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### 17A Principles of Transition Metal Chemistry
+
+
+#### NAMINGCOMPLEXES
+| COMPLEX            | NAME                       | NOTES                                                                                                                                                                                                                                                     |
+|--------------------|----------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [Fe(H2O)]2+        | hexaaquairon(ll)           | In order, there is: ·thenumberof ligands thenameof theligand thenameofthemetalion theoxidationnumberofthemetalion.                                                                                                                                        |
+| [FeCl4]-           | tetrachloroferrate(Ill)    | The overall charge is1-because the ion is formedfromoneFe3+ionandfourCl-ions. '-ate'isaddedtothemetalnametoshowthat itisnowpartofanegativelychargedcomplex ion. As it is negatively charged, a Latin name for the metal is used (inLatin, iron isferrum). |
+| [Cu(NH3)4(H2O)2]2+ | tetraamminediaquacopper(ll | With two different ligands, they appear in alphabetical order(so amminebefore aqua) ignoring the tetra- and di-parts of the name.                                                                                                                         |
+
+## Topic 17: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### 17A Principles of Transition Metal Chemistry
+
+CHECKPOINT
+
+• Explainwhy themethanemoleculecannot act asaligand.
+
+• 2. Anequationforareactioninvolvingatransitionmetalcomplexis:
+
+• [Cu(H2O)6]2+ + 2OH-→[Cu(H2O)4(OH)2] + 2H2O
+
+Explain why thefirst product is a complexbut not a complexion.
+
+## Topic 17: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### 17A Principles of Transition Metal Chemistry
+
+SUBJECT VOCABULARY
+
+dative(coordinate)bondacovalentbondformedbetweenthecentral metalatomorionandaligand,in whichbothof thebonding electrons are suppliedby theligand
+
+ligandaspeciesthatusesa lonepairofelectronstoforma dativebondwithametal ion
+
+complex a species containing a metal ion joined to ligands
+
+complex ion a complex with an overall positive or negative charge
+
+coordination number thenumberof dative(coordinate)bondsin the complex
+
+## Topic 17: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### 17A Principles of Transition Metal Chemistry
+
+LEARNING OBJECTIVES
+
+• Know that aqueous solutions of transition metal ions are usually coloured.
+
+• Understand that the colour of aqueous ions, and other complexions,is a consequence of the splitting of the energy levels of the d-orbitals by ligands.
+
+• Understand why there is a lack of colour in some aqueous ions and other complex ions.
+
+## Topic 17: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### 17A Principles of Transition Metal Chemistry
+
+ACOMPLEXEXPLANATION!
+
+Colour is veryimportant in ourworld-think of traffic lights,paint charts,clothing and the colours offlowers.There arescientificexplanationsforcolourinplants,paints and dyes.However,these explanationsareoftenspecifictothetypeofchemicalsubstancebeingconsidered.
+
+Asfar as transition metal complexes are concerned,a full explanation includes three main concepts:
+
+• ·theelectromagneticspectrum and thecolourwheel
+
+• the connectionbetweencolour,energy andwavelength
+
+• theelectronicconfigurationsoftransitionmetalions.
+THEELECTROMAGNETICSPECTRUM
+
+We first need to find out about the electromagnetic spectrum (fig A). You are probably familiar with theidea that thevisiblepart of theelectromagneticspectrum(sometimesdescribed as'white light') is made up of a mixture of colours (sometimes described as the colours of the rainbow).
+
+700nm
+
+400nm
+
+figAThediagramshowshowthevisiblepartof thespectrumfitsintothecompleteelectromagneticspectrum.
+
+So, how many colours make up white light? A traditional answer is seven:
+
+red orange yellow green blue indigo violet
+
+However,sevenisarandomlychosennumber,andthislistofcoloursdoesnotcontainsomethatare nowmorefamiliar,such ascyan andmagenta.
+
+Thereal answer is that visible light is made up of a limitless number of colours!Ifwe takered light tohaveawavelengthof700nmandvioletlighttohaveawavelengthof400nm,theneachprecise value within this range(such as 651.0 and 438.4) represents a different wavelength and therefore a different colour. There is clearly no limit to the number of values in this range.
+
+colour wheel.
+THECOLOURSINACOLOURWHEEL
+
+Nowconsiderthecoloursinthevisiblespectrumshownasawheel,withthered andvioletends of thespectrum next toeach other Therearemany differentcolour wheelswithvarying numbers of colours (just try a web search), but fig B shows one that contains seven colours corresponding to those listed above. Clockwise from the top, they are shown in order from red to violet.
+COMPLEMENTARYCOLOURS
+
+In colour wheels,complementary colours are the colours shown opposite each other. In this one, red is opposite blue and green.When white light is passed through a solution containing a transition therefore contain proportionately more of the complementary colour So, if a complex absorbs red light, the light emergingwill look blue or green (fig C).
+
+figCArangeof transition metal solutions.From left toright:Ti2+,V3+,VO2+,Cr3+,CrO²,Mn2+,MnOz,Fe3+,Co²+, Niz+ and Cu2+.
+COLOURDEPENDSONELECTRONSIN3dENERGYLEVELS
+
+A completeexplanationofcolour,or absenceofcolour,in aqueoussolutionsofmetalionsisquite complicated.However,thefollowing explanation should helpyou tounderstand thebasics.Wewill use an aqueous solution containingcopper(Il)ions as an example.
+
+An aqueous solution of zinc sulfate is colourless, but an aqueous solution of copper(Il) sulfate is blue. As the sulfate ion is present in both solutions we can assume that any difference in colour is caused by the zinc ions and the copper(Il) ions. Zinc and copper are next to each other in the Periodic Table, so why should copper,but not zinc,form coloured ions?
+
+The electronic configurations of the Zn2+ and Cu²+ ions are shown in fig D in the electrons-in-boxes format.
+
+fig DThe diagram shows the configurations of the 3d and 4s electrons in Zn2+ and Cu2+.
+
+Ions that have completelyfilled 3d energy levels(such as Zn2+)and ions that have no electrons in their 3d energy levels (such as Sc3+) are not coloured.However, the copper(Il),or Cu²+,ion has only nine electrons in the 3d energylevel, so it is not completelyfilled.Whenwaterligands are attached
+
+TOPIC 17
+
+to the copper(Il) ion, the energy level splits into two levels with
+
+• figEIntheCu²+ion,thewaterligandssplit the3denergylevelintolower andhigherenergy levels.
+
+## Topic 17: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### 17A Principles of Transition Metal Chemistry
+
+DID YOU KNOW?
+
+Aswithanumberoftheoriessuggestedatadvancedlevelsofthe
+
+studyofchemistry,theconceptthatcolourintransitionmetal complexesistheresultsolelyofd-dtransitionsistoosimple. Thecoloursofanumberoftransitionmetalions,suchasthe purplecolourofMnO,arearesultofcharge-transfertransitions. Thesetransitionsoccurwhenanelectronmovesfromaligandbasedorbitaltoametal-basedorbital,orviceversa.lfyouare interested, you might like to do some research into this theory.
+
+If one of the electrons in thelower energy level absorbs energy from the visible spectrum, it can move to the higher energy level (fig F). Movement from a lower energy level to a higher energy leveliscalledpromotionorexcitation.Whenanelectronmoves on the difference in energy between the two levels-thebigger the energydifference,themoreenergytheelectron absorbs.It is important to know that the amount of energy gained by the electron is directly proportional to the frequency of the absorbed light (so the energygained increases as thefrequency increases), and inversely proportional to thewavelength of the light (so the energy gained increasesasthewavelength decreases).In thecase of the Cu2+ ion, the small difference in energy levels means that low frequency (or high wavelength) radiation is absorbed from the red end of the spectrum.Therefore, blue light is transmitted.
+
+figFNotethatoneelectronhasmovedfromthelowerenergylevelto the higher energy level.
+
+## Topic 17: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### 17A Principles of Transition Metal Chemistry
+
+LEARNING TIP
+
+Trytofindawaytorememberthatredlighthasalongerwavelength thanvioletlight.TheRedSea(betweenAfrica andAsia)isalong(and narrow)sea.Perhapsyou canfindabetterway!
+EXAM HINT
+
+Changingthetypeofligandinacomplex(forexample,fromwaterto ammonia)canchangethegapbetweenthesplit d-orbitals.This resultsinachangeinthecolourofthecomplex.
+
+Asanexampleyoucouldthinkaboutthedifferenceincolour between[Cu（H2O)。]+and[Cu(NH3)4(H2O)2]+inSection17B.1.Use thecolourwheelto decidewhichcolours arebeing absorbedby eachcomplex.
+
+## Topic 17: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### 17A Principles of Transition Metal Chemistry
+
+CHECKPOINT
+
+• 1. Solutions containingFe3+(aq) ions are yellow.Explain which part of the electromagnetic spectrum is absorbed by theseions.
+
+• 2. StatewhysolutionscontainingAl+(aq)ionsarecolourless.
+
+## Topic 17: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### 17A Principles of Transition Metal Chemistry
+
+SUBJECT VOCABULARY
+
+electromagneticspectrum therangeof all wavelengthsand
+
+complementarycolourscoloursoppositeeachotheronacolour
+
+frequenciesofallthetypesofradiation wheel
+
+promotion(or excitation) when an electron moves from a lower energyleveltoahigherenergylevel
+
+## Topic 17: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### 17A Principles of Transition Metal Chemistry
+
+LEARNING OBJECTIVES
+
+• Understand why complexeswith six-fold coordination have anoctahedral shape,such as those formed by metal ions with H2O OH- and NH3 as ligands.
+
+• KnowthattransitionmetalionsmayformtetrahedralcomplexeswithrelativelylargeionssuchasCl-.
+
+## Topic 17: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### 17A Principles of Transition Metal Chemistry
+
+USINGELECTRONPAIRREPULSIONTHEORY
+
+You already know from Topic 3 (Book 1: IAS) about the use of the electron pair repulsion theory to predict and explain the shapes of simple molecules and ions.It is quite easy to extend this idea to predicting and explaining the shapes of complexes.A ligand bonds to the central metal ion by donating a pair of electrons to form a dative bond.The only differences are that you should ignore the 3delectronsinthetransitionmetalionand theoverall chargeonthecomplex-justcount thenumber of electron pairs donated by the ligands.Table A shows how this theory can be applied inexactly the sameway topredict the shapeof a transition metal complex and the shape of a simplemolecule.
+
+## Topic 17: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### 17A Principles of Transition Metal Chemistry
+
+
+#### USINGELECTRONPAIRREPULSIONTHEORY
+tableATheelectronpairrepulsiontheorycanpredicttheshapesofsimplemoleculesandcomplexions.
+
+|   NUMBEROF LIGANDS |   ELECTRONPAIRS DONATED | SHAPE       | BOND ANGLE   | EXAMPLEOFA COMPLEXION   | EXAMPLEOFASIMPLE MOLECULE   |
+|--------------------|-------------------------|-------------|--------------|-------------------------|-----------------------------|
+|                  6 |                       6 | octahedral  | .06          | [Co(NH3)6]2+            | SF6                         |
+|                  4 |                       4 | tetrahedral | 109.5°       | [CuCl4]-                | CH4                         |
+|                  2 |                       2 | linear      | 180°         | [Ag(NH3)2]*             | BeCl2                       |
+
+## Topic 17: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### 17A Principles of Transition Metal Chemistry
+
+
+#### USINGELECTRONPAIRREPULSIONTHEORY
+tableATheelectronpairrepulsiontheorycanpredicttheshapesofsimplemoleculesandcomplexions.
+OCTAHEDRALCOMPLEXES
+
+Themostcommonligandsinmostoctahedralcomplexesarewater,ammoniaandthehydroxideion These ligands have different numbers of lone pairs of electrons (ammonia has one, water has two andthehydroxideionhasthree).Howevereachligandusesonlyonelonepairtoformacoordinate bondwiththetransitionmetalion.Astheycontainsixligands,thecomplexesaresometimes described ashavingsix-foldcoordination.Note that the electron pair donorineach of these ligands is an element in Period 2 of thePeriodic Table, so all threeligands are of approximately equal size.TableB shows some common examples.
+
+## Topic 17: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### 17A Principles of Transition Metal Chemistry
+
+
+#### OCTAHEDRALCOMPLEXES
+tableBExamplesofoctahedralcomplexes.
+
+| ABBREVIATEDFORMULA   | NAME                       | COLOUR                                           |
+|----------------------|----------------------------|--------------------------------------------------|
+| [Mn(H2O)6]2+         | hexaaquamanganese(ll)      | very pale pink (usually described as colourless) |
+| [Fe(H2O)(OH)2]       | tetraaquadihydroxoiron(Il) | pale green                                       |
+| [Cr(OH)]3-           | hexahydroxochromate(lll)   | green                                            |
+
+## Topic 17: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### 17A Principles of Transition Metal Chemistry
+
+
+#### OCTAHEDRALCOMPLEXES
+tableBExamplesofoctahedralcomplexes.
+
+figAThestructuresofsomeoctahedralcomplexes.
+
+FigA shows theshapes of these complexes.
+Note that:
+
+• ·Solid and striped wedgebonds are used to indicate the shapes,although the 3D shape can be shown in other ways.
+
+• The overall charges are all different -this depends on the charge on the original transition metal ion and on how many negatively charged ligands there are.
+
+• All three structures usesquare brackets,although these aresometimesleftout when the complex is neutral.
+
+• The water ligands are shown as both H2O and OH2- the important point is that the bond must be shown to come from oxygen because it supplies the lone pair of electrons for the dativebond.
+TETRAHEDRALANDLINEARCOMPLEXES
+
+Thesearemuchlesscommonthanoctahedralcomplexes.Theonlytetrahedralcomplexesthatyou are likely to see in your course are those in which chloride ions act as ligands, such as in the [CuCl4]2ion.NotethatbecausechlorineisaPeriod3element,itsions aremuchbiggerthanwatermolecules, ammonia molecules and hydroxide ions. So, there is usually not enough room around the central metalionforsixchlorideionstoact asligands.
+
+reagent(sometimes called ammoniacal silver nitrate).An explanationofwhy theAg+ion hasonly twoligands, and not six, is beyond the aims of this book,but note that silver is a transition metal in Period 5(notPeriod 4) of thePeriodic Table.It therefore behaves differently from the transition metals inPeriod 4.
+
+FigBshowstheshapesofthesetwocomplexes.
+
+## Topic 17: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### 17A Principles of Transition Metal Chemistry
+
+LEARNING TIP
+
+Youcanusuallyassumethata complexwithsixligandsis octahedral,onewithfour ligandsistetrahedral andone withtwoligandsislinear.
+
+figBThestructuresofatetrahedralcomplexandalinearcomplex
+
+## Topic 17: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### 17A Principles of Transition Metal Chemistry
+
+CHECKPOINT
+
+• Acomplexthatformsbetweencobaltionsandnitriteions(NOz)hastheabbreviatedformula [Co(NO2)]-.Predictitsshapeandtheoxidationnumberofthetransitionmetalion.
+
+• A complex forms between nickel(ll) ions and chlorideions.Predict its shape,name and formula.
+
+## Topic 17: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### 17A Principles of Transition Metal Chemistry
+
+SUBJECT VOCABULARY
+
+six-fold coordination complexes in which there are six ligandsforming coordinate bonds with the transitionmetalion
+
+## Topic 17: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### 17A Principles of Transition Metal Chemistry
+
+LEARNING OBJECTIVES
+
+• complex, which is used in cancer treatment where it is supplied as a single isomer and not in a mixture with the trans form.
+
+## Topic 17: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### 17A Principles of Transition Metal Chemistry
+
+SQUAREPLANARMOLECULES
+
+Weknow that the electronpair repulsion theory can be applied topredict the shapes of simple molecules and ions. However, you may not have seen an example of a square planar shape. One example is xenon tetrafuoride,XeF4.Although xenon is a noblegas,it doesform some stable compounds.
+
+An atom of xenon has eight electrons in its outermost energy level, and each fluorine atom uses one of its electrons to form a covalent bond. The outer energy shell now contains 12 electrons. These are arranged insixpairs,forming anoctahedral arrangement.Twoofthesepairs arelonepairs,which repel eachother and are thereforelocated opposite each otherSo,thefourbonding pairs are in a plane, with the four fuorine atoms at the corners of a square and an F-Xe-F bond angle of 90°,as shown in fig A.
+
+figAThesquareplanar shape of thexenon tetrafluoridemolecule.
+CiS-PLATIN
+
+Squareplanarcomplexes aremuchlesscommonthanoctahedral and tetrahedral complexes.One particular complex of this type, cis-platin, has become well known in recent years because of its use
+
+Anexplanationofwhythefourligandsinthiscomplexformasquareplanarshape,andnot a tetrahedralshape,isbeyondtheaimsofthisbook.Itisnoteasilyexplainedbytheelectronpair repulsiontheory.PartoftheexplanationisthatplatinumisatransitionmetalinPeriod6,andso behavesdifferentlyfrom the transitionmetals inPeriod 4.
+CIS-TRANSISOMERS
+
+Youhavelearned aboutE-Zandcis-transisomerisminTopic5(Book1:IAS).Yourunderstanding of this type of isomerism can now be applied to inorganic compounds such as cis-platin and its isomer, trans-platin.These consist of a platinum(Il) ion,two ammonia ligands and two chloride ion ligands.
+
+FigBshows thestructures of these isomers and therelationshipbetweenthem.
+
+• ·The cis-prefix indicates that identical ligands arenext to each other.
+
+• .The trans-prefixindicatesthat they are oppositeeachother.
+ANTI-CANCERACTION
+
+A full understanding of how cis-platin kills cancer cells is beyond the aims of this book.Put simply:
+
+• ·All cells, including cancer cells, contain deoxyribonucleic acid (DNA).
+
+• Duringcelldivision,thetwostrandsofDNAmustseparatefromeachothertoformmoreDNA.
+
+• The structure of cis-platin enables it to form a bond between the two strands of DNA (fig C), which prevents them from separating and so prevents the cancer cells from dividing.
+
+fig CDNA strands are shown in grey and cis-platin in pink.
+trans-PLATIN
+
+The isomers trans-platin and cis-platin have different structures. The difference in structure means that trans-platin is a much less effective cancer treatment than cis-platin.It is also more toxic. So, it is important touseonly thecis-isomer in thecancertreatment.
+
+## Topic 17: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### 17A Principles of Transition Metal Chemistry
+
+CHECKPOINT
+
+• 1. Explainwhyyouwouldexpect theICliontohaveasquareplanarshape.
+
+• 2. (a)Drawthestructuresofthetwocis-transisomersoftheIF2Clion. (b) Why are there no cis-trans isomers of the IFCl ion?
+
+## Topic 17: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### 17A Principles of Transition Metal Chemistry
+
+SUBJECT VOCABULARY
+
+square planarthis shapecontains a central atom or ion surrounded by four atoms or ligands in the same planeandwithbondanglesof90°
+
+## Topic 17: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### 17A Principles of Transition Metal Chemistry
+
+LEARNING TIP
+
+Youshouldknowthestructures ofcis-platinandtrans-platin, but youdonotneedtoknow exactlywhycis-platiniseffective attreatingcancerbuttransplatin is not.
+
+## Topic 17: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### 17A Principles of Transition Metal Chemistry
+
+LEARNING OBJECTIVES
+
+• Understand that H2O, Cl and NH3 act as monodentate ligands
+
+• Understand the terms'bidentate'and'hexadentate'in relation to ligands, and be able to identify examples such as NH2CH2CH2NH2 and EDTA4-
+
+• Know that haemoglobin is an iron(ll) complex containing a polydentate ligand and that ligand exchange occurs when an oxygen molecule bound to haemoglobin is replaced by a carbon monoxide molecule.
+
+• Understand, in terms of the positive increase in Ssystem, that the substitution of a monodentate ligand by a bidentate or hexadentateligandleadstoamorestablecomplexion.
+
+## Topic 17: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### 17A Principles of Transition Metal Chemistry
+
+DENTICITY
+
+ligandsthatyoushouldbeawareof.ItcomesfromtheLatinword dentis(meaning'tooth'),fromwhichwegetthefamiliarword 'dentist'.There is a connection!
+
+Whenligandswereintroducedearlierinthisbookwecouldhave describedthemasmonodentateligands.Youcanthinkof monodentate as meaning'one tooth'or'one bite',which means thattheligandusesonelonepairofelectronsononeatomto form the dativebondwith themetalion.H2O,OH-and NHall actasmonodentateligandsbecausetheyuseonlyonepairof electronstoformadative(coordinate)bondincomplexes.
+
+Now for bidentate ligands.Bi means two, so a bidentate ligand hastwoatoms,eachofwhichcanusealonepairofelectronsto form a dativebondwith themetalion.You can imaginethata bidentateligand has two atoms thatcanbite'onto themetal ion.
+
+You can work out for yourselfwhat a multidentate ligand is-aligandwithseveralatoms,eachofwhichusesalonepair ofelectronstoform adativebond with themetalion.Themost commonexampleyouarelikelytomeet hassixsuch atoms,soit could be described as a hexadentate ligand.
+BIDENTATELIGANDS
+
+Themostlikelybidentateligandyouwillmeetinyourchemistry course is the organic compound with the structural formula NHCH2CHNH2.Its correct name is1,2-diaminoethane, althoughforareasonwewillsoonsee,itissometimescalled ethylenediamine-theethylenecomesfrom theCH2CH2part,and itiscorrectlydescribedasadiaminebecausetherearetwoamino groups. Its structure is:
+
+figAThe structure of1,2-diaminoethane.
+
+## Topic 17: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### 17A Principles of Transition Metal Chemistry
+
+EXAM HINT
+
+Havingtwolonepairsisnotenoughforamoleculetoactasa bidentate ligand.NH4(hydrazine)hastwolonepairs.However,it cannotbendtotherightshapeforbothlonepairstoformdative bonds.So NH4 cannot act as a bidentateligand.
+
+Occasionallyitis abbreviated to'en',especiallywhenused in equations representing its reactions as a ligand.
+
+Whenit acts as abidentateligand,it uses thelonepairof electronsoneachnitrogenatomtoattachtothemetalion.FigB showsanNi2+ionjoinedtothreemoleculesof1,2-diaminoethane.
+
+fig BThe structureof the complexformed when Ni2+reacts with three moleculesof1,2-diaminoethane.
+
+If this complexwere formed by the reaction between a hexaaqua metal ion and 1,2-diaminoethane, this abbreviated equation could be written:
+
+## Topic 17: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### 17A Principles of Transition Metal Chemistry
+
+MULTIDENTATELIGANDS
+
+The most likely multidentate ligand you will see in your chemistry courseis anorganicionwitharathercomplicatedstructure.
+
+First, consider the structure of 1,2-diaminoethane.Next,imagine thateachofthefourhydrogen atomsonthetwonitrogens are replaced by-CH2COOH(thisisethanoicacidbondedtothe nitrogens via the CHs group), as shown in fig C.
+THESTABILITYOFCOMPLEXES
+
+Mostcomplexesarestable,inthesensethattheydonot decomposeeasily.Inthisheading,'stability'doesnotreferto complexescontainingtransitionmetalionswithunstableoxidation numbers,such as+2in scandium(Sc²+).Instead,it refers to a comparisonofthestabilitiesoftwocomplexesinwhichthenumber of ligands has changed.For a discussion of'stability'see Topic 12 Consider thisligandexchangereactioninwhicha monodentate ligand is replaced by a bidentate ligand:
+
+figCThestructureof theEDTAmolecule
+
+Youmayknowthattheold nameforethanoicacidisaceticacid. Fourofthesemoleculeshavebeenusedtoformthisstructure. Now,remembering the alternativenamefor1,2-diaminoethane, you should be able to see that one name for this structure could beethylenediaminetetraaceticacid.Thisisdifficulttosay,sopick outfourkeylettersfromthenametogettheabbreviationthatis normallyused forthecompound.EthyleneDiamineTetraAcetic acid nowbecomes'EDTA'.WewillnotattempttheIUPACname!
+
+Thefinalstepistoconsidertheionformedwheneachofthe ethanoicacidgroupslosesitsH+ion-thisgivesanionwithfour negative charges. It is a hexadentate ligand referred to as EDTA4andhasthisstructure:
+
+figDThe structure of the EDTA4-ion.
+
+TheadvantageofdisplayingtheEDTA4-ioninthiswayisthatit clearlyshowsthesixlonepairsofelectronsthatareusedtoform thedativebondswhentheion acts as a ligand(twopairsonthe nitrogenatoms andfourpairs onthe oxygenatoms).FigEusesa skeletal formula to show the complex formed between one M2+ ion andoneEDTA4-ion.
+
+figEThestructureof thecomplexformedbetweenM²+andEDTA4-.
+
+#### THESTABILITYOFCOMPLEXES
+The six dative bonds formed by EDTA4- are shown as dashed lines.
+
+Sixwaterligandsarereplacedbythree1,2-diaminoethaneligands. sothetotalnumberofspecieshasincreasedfromfourtoseven. This means that the system is more disordered,and so there is an increase in △Ssystem. Ligand exchange reactions of this sort lead to andsoformationoftheproductsisfavoured.
+
+Whenamonodentateligandisreplacedbyabidentateor hexadentate ligand, the increase in stability is even greater, as in this examplewithEDTA4-:
+
+totalnumberofspecieshasincreasedfromtwotoseven.
+HAEMOGLOBINANDOXYGENTRANSPORT
+
+You may know that haemoglobin is aprotein inred blood cells that plays a vital role in transporting oxygen through the bloodstream in humans and other animals. Here is a simplified explanation of the role of haemoglobin in oxygen transport, without including detailsofitsstructure andofthehaemgroupthatitcontains:
+
+• ·Haemoglobin consists ofthreemainparts,thelargest ofwhich is protein (the'globin'part).
+
+• .Withintheprotein,therearefourhaemgroups that aremade upmostlyofcarbon and hydrogen atoms.
+
+• Insideeachhaemgroup,there arefournitrogenatoms thathold anFe2+ionbyformingdativebondswith it inasquareplanar structure.
+
+• There is a fifth dative bond from the protein to the Fe2+ ion.
+
+• Whenbloodpassesthroughthelungs,haemoglobincollects oxygenmoleculesand transportsthemto cells,where itis released.
+
+• ·When haemoglobin collects oxygen, the oxygen molecule acts as a ligand by using one of its lone pairs of electrons to form a dativebondwith oneoftheFe²+ions.
+
+Fig F is a very simplified diagram showing the six dativebonds in oxyhaemoglobin.
+
+figFPartof thestructureofoxyhaemoglobin,showingthedative covalentbonds to the central metal ion.
+
+## Topic 17: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### 17A Principles of Transition Metal Chemistry
+
+DID YOU KNOW?
+
+Carbon monoxide poisoning canbetreatedbybreathing inpureoxygentoreverse theprocessofabsorptionof carbonmonoxide.Insevere casesofcarbonmonoxide poisoning,a completeblood transfusionisrequired.
+
+## Topic 17: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### 17A Principles of Transition Metal Chemistry
+
+LEARNING TIP
+
+In1,2-diaminoethane,thereare onlytwolonepairsofelectrons inthemoleculeandbothare usedwhenitactsasaligand.In EDTA4-thelonepairsof electronsontheOoftheC=O arenotused.Onlythoseonthe Natoms and thenegatively charged O atoms are used.
+
+## Topic 17: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### 17A Principles of Transition Metal Chemistry
+
+HAEMOGLOBINANDCARBONMONOXIDE
+
+A carbon monoxide molecule has a lone pair of electrons on its carbon atom that enables it to act as a ligand.The strength of the dative bond between oxygen and haemoglobin is not particularly strong. However, the advantage of this is that the oxygen molecule is relatively easily released when it is needed.
+
+Unfortunately, a much stronger dative bond forms between carbon monoxide and haemoglobin. This means that any carbonmonoxide breathed in isvery likelytoreplace the oxygen already bound to haemoglobin-this is a ligand substitution reaction.Once the carbon monoxidehas formed carboxyhaemoglobin, the dative bond is so strong that it does not break easily. This means that if transported tosupportlife.
+
+Putvery simply,thisreaction isreversible:
+
+haemoglobin + oxygen = oxyhaemoglobin
+
+but this reaction is not easily reversible
+
+haemoglobin + carbon monoxide → carboxyhaemoglobin
+
+fig GThese red blood cells contain haemoglobin that transports oxygen from the lungs to the cells in thebody.
+
+## Topic 17: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### 17A Principles of Transition Metal Chemistry
+
+CHECKPOINT
+
+• 1. Thewatermoleculecontainsthree atomsand hastwolonepairsof electrons.Explainwhy it can only actasamonodentateligand,andnotasabidentateligand
+
+• Write anequationfortheligand substitutionreactionthat occurswhenfourof the ligands in the hexaaquairon(ll) ion are replaced by 1,2-diaminoethane (en).
+
+## Topic 17: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### 17A Principles of Transition Metal Chemistry
+
+SUBJECT VOCABULARY
+
+monodentateligandamoleculeorionthatformsonedativebondwithametalion bidentateligandamoleculeorionthatformstwodativebondswithametalion multidentateligandamoleculeorionthatformsseveraldativebondswithametal ion hexadentateligandamoleculeorionthatformssixdativebondswithametalion
+
+## Topic 17: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### 17B Transition Metal Reactions
+
+LEARNING OBJECTIVES
+
+• Understand that colour changes in transition metal ions mayariseasaresultofchangesin:
+
+• (i) oxidationnumberoftheion
+
+• (ii) ligand
+
+• (ii) coordinationnumberofthecomplex
+
+• Understand that ligand exchange, and an accompanying colour change, occurs in the formation of:
+
+• (i) [Cu(NH3)4(H2O)2]2+ from [Cu(H2O)]+ via Cu(OH)2(H2O)4
+
+• (i) [CuCI4]- from [Cu(H2O)6]2+.
+
+• Be able towrite ionicequationsto show the meaningof amphoteric behaviour, deprotonation and ligand exchange reactions.
+
+## Topic 17: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### 17B Transition Metal Reactions
+
+TYPESOFREACTIONS
+
+Sofarwehaveconsidered theoriginofcolourin transitionmetal ions.We can now consider why there are often colour changes when transitionmetalions takepartinreactions.Four main types of reactions can occur:
+
+• redox-theoxidationnumberofthetransitionmetalionchanges
+
+• deprotonation-oneormoreoftheligandsgainsorlosesa hydrogen ion (proton)
+
+• ligand exchange - one or more of the ligands around the transitionmetalionisreplacedbyadifferentligand
+
+• coordination number change - the number of ligands changes.
+
+Anyoneofthesetypesofreactionscancauseachangeinthe colourofthecomplex.Somereactionsinvolvemorethanoneof thesetypesofreactions.
+CHANGEINOXIDATIONNUMBER
+
+An aqueous solution containingFe²+(aq) ions is palegreen,but when it is exposed to air it gradually turns yellow or brown, as the oxidationnumberofiron increasesfrom+2to+3.Thetypeand number ofligandsremain unchangedinthis oxidationreaction, so the formulae of the two complexes are [Fe(H2O)]²+ and [Fe(HzO)]+.Colourchangessuch astheonein thisreaction are best illustrated usingsolid samples containing theions(seefigA).
+
+Equationsarenotusuallywrittenforoxidationreactionsinwhich the onlychangeistheoxidationnumberofthetransitionmetalion.
+
+Iron(ll) sulphate (FeSO4)
+
+Iron(l) sulphate (Fe2(SO4)3)
+
+figASolidsamplesclearlyshowcolourdifferencesbetweenions.
+FORMATIONOF[Cu(NH3)4(H2O)2]2+:DEPROTONATIONAND LIGANDEXCHANGEREACTIONS
+
+Considerthereactionthatoccurswhenaqueoussodium hydroxide is added to copper(Il) sulfate solution. The observation is that a pale blue solution forms ablue precipitate.The equation for this reaction is:
+
+Youmightthinkthatthisis aligandsubstitutionreaction-that twohydroxideionshavereplacedtwowatermolecules.Infact,it isadeprotonationreaction-thetwohydroxideionshaveremoved hydrogenionsfromtwoofthewaterligands andconverted themintowatermolecules.Thetwowaterligandsthathavelost hydrogenionsarenowhydroxideligands.
+CP14
+
+Tetramminecopper(lI) sulfate-1-water, [Cu(NH3)4.SO4].H2O, can be copper(ll) sulfate.
+
+The overall equationfor the reaction is:
+
+[Cu(H2O)]++ 4NH3 +SO2-→[Cu(NH3)4].SO4.H2O +5H2O
+
+Thisisanexampleofaligand exchangereaction.Thisisthereaction you might investigate inCP14:The preparation of a transition metal complex.
+
+Exactly the same observations can bemade during the careful addition of aqueous ammonia instead of aqueous sodium hydroxide.The equationforthis reaction is:
+
+[Cu(H2O)]2+ + 2NH3 → [Cu(H2O)4(OH)2] + 2NH4+
+
+## Topic 17: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### 17B Transition Metal Reactions
+
+DID YOU KNOW?
+
+Theformulaforthecopper(ll)-ammine complexin aqueous solutionis sometimesgiven as[Cu(NH)4]²+.Thisis not correct. Thecorrectformulaisshowninthetext.Theconfusionarose becausethebondsfromtheCu²+iontothewaterligandsare longerthanthebondsfromtheCu²+iontotheammonialigands. Thisistheresult of something called theJahn-Tellereffect.The explanationforthiseffectisbeyondtheaimsofthisbook.
+
+• figBThe pale blue solution contains[Cu(HO)]²+,the paleblueprecipitatecontains [Cu(HO)(OH)]andthe deepblue solution contains [Cu(NH3)(H2O)2]+
+
+figCThepaleblue solution contains[Cu(HO)]²+,theyellow solution on therightcontains [CuCl]-and thegreen solution inthemiddlecontainsamixture of the two.
+
+## Topic 17: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### 17B Transition Metal Reactions
+
+SUBJECT VOCABULARY
+
+It is again easyto see that this equation involves a deprotonation-two of the waterligands transfer a hydrogen ion to the ammonia molecules.
+
+solution.The equationfor thisreaction is:
+
+This is a ligand exchange reaction -four ammonia molecules replace two water molecules and two hydroxide ions.The solutions at the start and end of the reaction and the intermediate precipitate are shown in fig B.
+
+## Topic 17: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### 17B Transition Metal Reactions
+
+FORMATIONOF[CuCI4]2-:CHANGEINCOORDINATIONNUMBER
+
+These reactions always involve a change of ligand as well as a change in coordination number. A good example is the reaction between copper(Il) sulfate solution and concentrated hydrochloric acid. When the acid is added slowly and continuously,the colour gradually changesfrom blue togreen andfinallytoyellow.This is theequationforthereaction:
+
+The state symbols, all (aq), have been left out for clarity.
+
+You cansee that all sixwaterligands have been replaced byfour chloride ions.Thisreaction is also complexhaschangedfrom2+to2-,therehasbeennochangeinoxidationnumber
+
+The arrowshowsthatthereactionisreversible,whichhelpstoexplainthecolourchangeobserved. The hexaaquacopper(Il) ion isblue and thetetrachlorocuprate(Il) ion is yellow,so thegreencolour is dueto a mixtureoftheblue andyellowcomplexions.Thesolutionsat thestart and endofthe reaction and the intermediate mixture are shown in fig C.
+
+## Topic 17: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### 17B Transition Metal Reactions
+
+LEARNING TIP
+
+Youshouldrememberthecoloursofthespeciesinthesereactions,butyoudonotneedtounderstand whythespecieshavetheactualcolours.
+
+## Topic 17: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### 17B Transition Metal Reactions
+
+AMPHOTERICHYDROXIDES
+
+We have already seen that hydrated transitionmetal ions can be deprotonated by adding abase such as aqueous sodium hydroxide toform a precipitate of the metal hydroxide.For example, chromium(Il) hydroxide is precipitated from an aqueous solution containing Cr3+ ions:
+
+When an excess of sodium hydroxide is added to this precipitate,further deprotonation can take place:
+
+In this reaction, chromium(Ill) hydroxide is acting as an acid, since it is reacting with a base.
+
+Chromium(IIl) hydroxide is also a base,because it can react with acids:
+
+deprotonationtheremoval of oneormorehydrogenions (protons)fromacomplexion ligandexchangewhenone ligandinacomplexionis replacedbyadifferentligand amphoteric(substance)a substancethatcanactbothas an acidandasabase amphotericbehaviourthe abilityofaspeciestoreactwith bothacidsandbases A metal hydroxide that can act as both an acid and a base is called an amphoteric hydroxide. This is an example of amphoteric behaviour.
+
+## Topic 17: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### 17B Transition Metal Reactions
+
+CHECKPOINT
+
+• 1.The equation fora reaction of a transition metal ion is: [Fe(H2O)]3++SCN-→[Fe(SCN)(H2O)s]2++H2O
+
+Explainwhichof thefourmaintypesof reactionsareillustratedbythisequation.
+
+• 2.
+
+• The complex [Co(H2O)]+ is converted into [Co(NH3)6]3+. Explainwhichtypesofreactionsoccurinthisconversion
+
+## Topic 17: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### 17B Transition Metal Reactions
+
+LEARNING OBJECTIVES
+
+• Be able torecord observations and write suitable equations forthe reactions of Fe2+(aq),Fe3+(aq) and Co²+(aq) with aqueous sodiumhydroxideandaqueousammonia,includinginexcess.
+
+• Understand that ligand exchange, and an accompanying colour change, occurs in the formation of [CoCl4]- from [Co(H2O)]2+.
+
+## Topic 17: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### 17B Transition Metal Reactions
+
+REACTIONSINVOLVINGCOBALTCOMPLEXES
+
+figAThebrightcolourof theseglassbottlesiscausedbybluecobaltcompounds.
+REACTIONWITHALKALIS
+
+Consider thereaction that occurswhen aqueous sodium hydroxide is added to a solution containing the hexaaquacobalt(Il) ion until no further change is seen. The observation is that a pink solution forms a blue precipitate. The equation for this reaction is:
+
+As with copper, this is a deprotonationreaction-thetwo hydroxide ionshaveremoved hydrogen ionsfromtwoofthewaterligandsandconvertedthemintowatermolecules.Thetwowaterligands that have lost hydrogen ions are now hydroxide ligands.Upon standing,the colour of the precipitate gradually changes to pink.
+
+Thesameobservationscanbemadewhenaqueousammoniaisused asthealkali.However,when aqueous ammoniais addedtoexcess,thereis anobservationnotmadewithaqueoussodiumhydroxidethe precipitate dissolves toform a pale yellow solution.The equation for the deprotonation reaction is:
+
+The equation for the ligand exchange reaction forming the pale yellow solution is:
+
+[Co(H2O)(OH)2] + 6NH3 → [Co(NH3)]2+ + 4H2O + 2OH-
+
+Somefeatures of transition metal chemistry areimpossible to explainwithoutgoingwell beyond the aims of this book. One of these is why six ammonia ligands are involved in the reaction with the cobalt complex, while in the corresponding reaction with copper only four ammonia ligands are involved.
+
+#### REACTIONWITHALKALIS
+Upon standing, this pale yellow solution changes colour because of oxidation by the oxygen in the atmosphere.Theoxidationnumberofcobaltincreasesfrom+2to+3,and thedarkeryellow [Co(NH)]3+ ion forms. Unfortunately, the resulting solution usually looks brown rather than yellow.Thisis because otherproducts areformed,from ligand exchange reactions with both water moleculesandanynegativeionspresent.
+
+• fig B Ordinary glass is often verypalegreen.This ismore noticeableif youlook througha considerablethicknessofglass. Thegreencolouriscausedby thepresence ofimpurities containing iron.
+
+## Topic 17: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### 17B Transition Metal Reactions
+
+EXAM HINT
+
+Youwill alwaysbeasked questionsontransitionmetal complexesinyourexam.To answerthesequestionswellyou mustlearnthereactions, rememberthecoloursand makesureyou usethecorrect notation.
+
+LEARNING TIP
+
+Notethatatmospheric oxidationoccurswith complexescontaininga transitionmetalionwitha+2 oxidationnumber,butnotfor thosewitha+3oxidation number.
+
+## Topic 17: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### 17B Transition Metal Reactions
+
+REACTIONWITHCONCENTRATEDHYDROCHLORICACID
+
+slowly added to a solution containing the hexaaquacobalt(Il) ion, the pink solution gradually changes toblue.This is the equation for the reaction:
+
+You can see that all six water ligands have been replaced byfour chloride ions. This reaction is also anexampleofachangeincoordinationnumberfrom6to4.Notethatalthoughthechargeonthe complexhaschangedfrom2+to2-,therehasbeennochangeinoxidationnumber
+REACTIONOFIRON(II)COMPLEXESWITHALKALIS
+
+Consider the reaction that occurs when aqueous sodium hydroxide is added to a solution containing the hexaaquairon(Il) ion until nofurther change is seen.The observation is that a pale green solution forms a green precipitate. The equation for this reaction is:
+
+As with copper and cobalt, this is a deprotonation reaction-the two hydroxideions have removed hydrogenionsfromtwoofthewaterligandsandconvertedthemintowatermolecules.Thetwo water ligands that have lost hydrogen ions are now hydroxide ligands.
+
+Thesameobservationscanbemadewhen aqueous ammonia isusedasthealkali.Theequationfor the deprotonationreactionis:
+
+Upon standing,the colour of the green precipitate gradually changes to brown as oxygen from the atmosphere causes oxidation,forming [Fe(H2O)s(OH)3] - this is the triaquatrihydroxoiron(III) complex.
+REACTIONOFIRON(III)COMPLEXESWITHALKALIS
+
+Consider the reaction that occurs when aqueous sodium hydroxide is added to a solution containing the hexaaquairon(Ill) ion until no further change is seen. The observation is that a yellow-brown solutionformsabrownprecipitate.Theequationforthisreactionis:
+
+As with iron(Il), this is a deprotonation reaction -the three hydroxide ions have removed hydrogen ionsfromthreeofthewaterligands andconverted themintowatermolecules.Thethreewater ligands that havelost hydrogenions are nowhydroxideligands.
+
+The same observations can bemade when aqueous ammonia is used as the alkali.The equation for thedeprotonationreactionis:
+
+There are nofurtherreactions when an excess of either aqueous sodium hydroxide or aqueous ammonia is added and no further changes upon standing.
+
+## Topic 17: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### 17B Transition Metal Reactions
+
+CHECKPOINT
+
+• 1. Whenaqueous ammoniaisaddedinexcesstoasolutioncontaining[Co(H2O)]+ions,anacid-base reaction occurs,followed by a ligand exchangereaction.Write an equation to describe this reaction.
+
+• 2 ammoniawasaddedtoasolutioncontainingFe3+ions:
+
+Why is the above reactionless likely to occur than the one shown below?
+
+[Fe(HO)]3++3NH3→[Fe(H2O)（OH)3]+3NH
+
+## Topic 17: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### 17B Transition Metal Reactions
+
+LEARNING OBJECTIVES
+
+• Be able to record observations and write suitable equationsfor the reactions of Cr+(aq) with aqueous sodiumhydroxide and aqueousammonia,includinginexcess.
+
+• Understand,intermsoftherelevantEvalues,thatthedichromate(Vl)ion,Cr2O:
+
+• (i)can be reduced to Cr3+ and Cr²+ions using zinc in acidic conditions
+
+• (i) can be produced by the oxidation of Cr3+ ions using hydrogen peroxide in alkaline conditions (followed by acidification).
+
+• Know that the dichromate(Vi) ion,Cr2O²,canbe converted into chromate(Vl) ions asa result of the equilibrium Cr2O²-+H2O=2CrO2-+2H+
+
+## Topic 17: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### 17B Transition Metal Reactions
+
+INTRODUCTION
+
+Some of thereactions of chromium are similar to thosewehave already metfor theions ofcopper, cobalt,iron(Il)and iron(IlI).However, chromium has ions inwhich themetal has an oxidation number of +6, so reactions involving these ions must be considered in a different way.
+AWORDOFWARNING
+
+Wehavealreadydiscussedthatthereareaninfinitenumberofcoloursinthespectrumofvisiblelight althoughwesometimesrefertothesevencoloursoftherainbow.Theperceptionofcoloursbyhumans varies a lot.A specificcolour might bedescribed aspinkorpurple bydifferentpeople,and a colour described as blue-green by one person might be described as blue, green or turquoise by others.
+
+The situationwith thecolours used to describe chromium compounds isfurther complicated by thesefactors:
+
+• ·Some compounds have different colours as solids and aqueous solutions.
+
+• ·The colour of a solution depends on concentration.
+
+• Thepresence ofdissolved oxygen in an aqueoussolution can affect the colour observed.
+
+This means that the colours used in this book may not always correspond to those in other books, andmaybedifferentfromthoseobservedintesttubereactionsthatyousee.
+
+REACTIONSINVOLVINGCHROMIUM(III)COMPLEXES
+
+REACTIONOFCHROMIUM(III)COMPLEXESWITHALKALIS
+
+Consider the reaction that occurs when aqueous sodium hydroxide is added to a solution containing
+
+[Cr(H2O)6]3+ + 3OH- → [Cr(H2O)s(OH)3] + 3H2O
+
+## Topic 17: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### 17B Transition Metal Reactions
+
+LEARNING TIP
+
+Thecolourof the[Cr(NH)]+oninasolid,suchaschrome alum,isviolet.However,when thissolidis dissolved inwater theresulting solution isgreen,not violet.This isbecause of ligand exchange reactions thatoccurwiththenegativeionspresent.
+
+As with iron(IlI), this is a deprotonation reaction - the three hydroxide ions have removed hydrogen ionsfromthreeofthewaterligandsandconvertedthemintowatermolecules.Thethreewater ligands that have lost hydrogen ions are now hydroxide ligands.
+
+The same observations can be made when aqueous ammonia is used as the alkali. The equation for thedeprotonationreactionis:
+
+[Cr(H2O)]3++3NH→[Cr(H2O)(OH)3] +3NH
+EXAM HINT
+
+Inreactionswithtransition metalcomplexes,makesure youknowwhenandhowto showammoniaactingasabase and ammoniaactingasa ligand When an excess of aqueous sodium hydroxide is added, thegreen precipitate dissolves toform a green solution.The equation for this deprotonation reaction can be represented as:
+
+[Cr(H₂O)₆(OH)₃] + OH⁻ → [Cr(H₂O)₂(OH)₄]⁻ + H₂O
+
+If the aqueous sodium hydroxide is more concentrated, further deprotonation reactions occur, such as
+
+[Cr(H₂O)₂(OH)₄]⁻ + 2OH⁻ → [Cr(OH)₆]³⁻ + 2H₂O
+
+although there is nofurther change in colour.
+
+The reactions involving hydroxide ions can be reversed by the addition of acid,illustrating the amphoteric nature of theneutral complex.
+
+When an excess of aqueous ammonia is added to thegreen precipitate,theprecipitate is slow to dissolve,buteventuallyavioletorpurplesolutionforms:
+
+[Cr(H₂O)₃(OH)₃] + 6NH₃ → [Cr(NH₃)₆]³⁺ + 3H₂O + 3OH⁻
+
+In all of the reactions so far, the oxidation number of chromium has remained unchanged at +3. However provided that the solutions are alkaline, oxidation is easily achievedby the addition of the oxidising agent hydrogen peroxide. In this reaction the solution changes from green to yellow as the chromate(Vl) ion,withoxidation number +6,isformed.The equationfor this oxidation is:
+
+2[Cr(OH)₆]³⁻ + 3H₂O₂ → 2CrO₄²⁻ + 2OH⁻ + 8H₂O
+
+Note that although the chromate(VI) ion is a complex, it is not enclosed in square brackets.
+
+## Topic 17: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### 17B Transition Metal Reactions
+
+CHROMATE(VI)ANDDICHROMATE(VI)IONS
+
+Chromate(VI)ionsarestablein alkalinesolution,butin acidicconditions thedichromate(VI)ion is more stable.So, if acid is added there is a colour change from yellow to orange as the following reaction occurs:
+
+2CrO₄²⁻ + 2H⁺ ⇌ Cr₂O₇²⁻ + H₂O
+
+This reaction is easily reversed by adding alkali.When considering redox reactions,it is often easier reactions,especiallywater.
+REDUCTIONOFDICHROMATE(VI)IONS
+
+When zinc metal is added to an acidic solution containing dichromate(VI) ions, reduction reactions occurinwhichtheoxidationnumberofchromiumdecreasesfirstto+3andthento+2.
+
+The first stage of the reduction involves a colour change from orange to green, as this reaction occurs:
+
+Cr₂O₇²⁻ + 14H⁺ + 3Zn → 2Cr³⁺ + 7H₂O + 3Zn²⁺
+
+The second stage of thereductioninvolves a colour changefromgreen toblue,as thisreaction occurs:
+
+2Cr3++Zn→2Cr²++Zn2+
+EXPLANATIONOFREDOXREACTIONSUSINGE?VALUES
+
+It isoften helpful toexplainwhyredoxreactions occurby considering thestandard electrode potentials of the different redoxsystemsinvolved.For chromium,weneed toconsider these values:
+
+1
+
+Zn²++2e=Zn
+
+E°=-0.76V
+
+• 2 Cr3++e = Cr2+
+
+E=-0.41V
+
+• 3 CrO2- + 4H2O + 3e- = Cr(OH) + 5OH-
+
+• E°=-0.13V
+
+• 4 H2O2+2e=2OH-
+
+E=+1.24V
+
+• 5 Cr2O²-+ 14H++ 6e-=2Cr3++7H2O
+
+E°=+1.33V
+
+Ifyouhavealreadylearned aboutstandardelectrodepotentialsearlierinthisbookyoumay remember that when half-equations are arranged from high negative E° values at the top to high positivevalues at thebottom,then thebest reducingagent is at thetopand on theright,and thebest oxidisingagentis at thebottom andontheleft.
+EXPLAININGOXIDATIONFROM+3TO+6
+
+The simplified equation for the oxidation of chromium(Ill) by hydrogen peroxide in alkaline conditionsis:
+
+2Cr(OH)3+3H2O2+4OH-→2CrO2-+8H2O
+
+How can this equation be obtained from the half-equations?
+
+The relevant half-equations are 3 and 4 (see previous page). In these equations, the best reducing agent is Cr(OH)3,and thebest oxidising agent is H2O2.For these two species toreact together,we need to add half-equation 3 (reversed) to half-equation 4. When adding half-equations, they may need tobemultipliedsothatthenumberofelectronsisthesameinboth.Inthisexample,weneed
+
+2Cr(OH)₃ + 10OH⁻ ⇌ 2CrO₄²⁻ + 8H₂O + 6e⁻ 3H₂O₂ + 6e⁻ ⇌ 6OH⁻
+
+Adding the half-equations and cancelling identical species on both sides gives:
+
+2Cr(OH)₃ + 3H₂O₂ + 4OH⁻ → 2CrO₄²⁻ + 8H₂O
+
+Since the E value for half-equation 3 is more negative than the E value for half-equation 4, Cr(OH)3 the solution is then acidified by adding dilute sulfuric acid, the chromate(VI) ion is converted into the dichromate(VI) ion:
+
+2CrO₄²⁻ + 2H⁺ → Cr₂O₇²⁻ + H₂O
+
+The simplified equation for the reduction of chromium(VI) by zinc in acidic conditions is:
+
+Cr₂O₇²⁻ + 14H⁺ + 3Zn → 2Cr³⁺ + 7H₂O + 3Zn²⁺
+
+How can this equationbeobtainedfrom the half-equations?
+
+add half-equation 1 (reversed) to half-equation 6, bearing in mind multiplying half-equations:
+
+3Zn ⇌ 3Zn²⁺ + 6e⁻ Cr₂O₇²⁻ + 14H⁺ + 6e⁻ ⇌ 2Cr³⁺ + 7H₂O
+
+As in the previous example, adding gives:
+
+Cr₂O₇²⁻ + 14H⁺ + 3Zn → 2Cr³⁺ + 7H₂O + 3Zn²⁺
+
+SincetheE°valueforhalf-equation1ismorenegativethantheE°valueforhalf-equation5,Znis
+
+#### EXPLAININGOXIDATIONFROM+3TO+6
+The simplified equation for the reduction of chromium(Il) by zinc in acidic conditions is:
+
+2Cr³⁺ + Zn → 2Cr²⁺ + Zn²⁺
+
+Howcanthisequationbeobtainedfromthehalf-equations?
+
+The relevant half-equations are 1 and 2. In these equations, the best reducing agent is Zn and the best oxidising agent is Cr3+.For these two species to react together, we need to add half-equation 1 (reversed) to half-equation 2, bearing in mind multiplying half-equations:
+
+Zn ⇌ Zn²⁺ + 2e⁻ 2Cr³⁺ + 2e⁻ ⇌ 2Cr²⁺
+
+As in the previous example, adding gives:
+
+2Cr³⁺ + Zn → 2Cr²⁺ + Zn²⁺
+
+electron releasingwith respect toCr3+,and therefore thereactionis thermodynamicallyfeasible.
+
+## Topic 17: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### 17B Transition Metal Reactions
+
+LEARNING TIP
+
+Understandingchromium chemistryinvolvesmoreeffort thanforsomeothertransition metalsbecauseofthenumber of differentions.Aswell asall of thecomplexesinvolvingCr2+ andCr3+,therearetwo complexeswithoxidation number+6(CrO2-andCr2O²-).
+
+## Topic 17: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### 17B Transition Metal Reactions
+
+CHROMIUMCHEMISTRYSUMMARY
+
+Table A summarises the important reactions of chromium complexes infour sequences.Some of thecolouredsolutionsareshowninfigA.
+
+## Topic 17: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### 17B Transition Metal Reactions
+
+
+#### CHROMIUMCHEMISTRYSUMMARY
+tableA
+
+| START                       | REAGENT      | INTERMEDIATE                     | REAGENT      | FINISH                     |
+|-----------------------------|--------------|----------------------------------|--------------|----------------------------|
+| [Cr(H2O)]3+ greensolution   | add NaOH(aq) | [Cr(H2O);(OH)3] greenprecipitate | add NaOH(aq) | [Cr(OH)]3- green solution  |
+| [Cr(H20),]3+ green solution | add NH;(aq)  | [Cr(H2O);(OH)] green precipitate | add NH(aq)   | [Cr(NH3)]3+ violetsolution |
+| [Cr(OH),]3- green solution  | addH2O2/OH-  | CrOz- yellow solution            | add H+       | Cr2O2- orange solution     |
+| CrO2- yellow solution       | add Zn/H+    | [Cr(H2O)6]3+ greensolution       | add Zn/H+    | [Cr(H2O)6]2+ bluesolution  |
+
+## Topic 17: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### 17B Transition Metal Reactions
+
+
+#### CHROMIUMCHEMISTRYSUMMARY
+tableA
+
+• fig A Tube (a) contains the very pale blue [Cr(HO)。]2+ion, produced by reduction using zinc. Tube (b) contains the[Cr(HO)。]+ion,which is normallygreen,butcan appearviolet inthe presence of otherions,as here.Tube(c) contains the[Cr(OH)]²-ion,which is alsogreen,present in alkaline solutions.The tubes in(d) contain chromium withoxidationnumber+6.TheorangesolutioncontainstheCrO7-ion and theyellowsolutioncontainsthe CrOz-ion.
+
+## Topic 17: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### 17B Transition Metal Reactions
+
+CHECKPOINT
+
+• Excess acid is added to a green solution containing[Cr(OH)]- ions.Write an equation for the reaction in which a different green chromium-containing solution is formed.
+
+• 2. ThestandardelectrodepotentialfortheredoxsystemMn2++2e=Mnis-1.18V. ExplainwhetherornotzinccanreduceMn2+ionstotheelementMn.
+
+## Topic 17: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### 17B Transition Metal Reactions
+
+LEARNING OBJECTIVES
+
+• Be abletorecord observations andwrite suitableequationsforthereactionsof Mn2+(aq) with aqueoussodiumhydroxide and aqueous ammonia, including in excess.
+
+• Be abletowrite ionicequations to show themeaning of deprotonation and ligand exchange in thereactionsof manganese ions.
+
+## Topic 17: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### 17B Transition Metal Reactions
+
+REACTIONSOFMANGANESE(II)COMPLEXESWITHALKALIS
+
+Consider the reaction that occurs when aqueous sodium hydroxide is added to a solution containing thehexaaquamanganese(Il)ionuntil nofurther changeisseen.The observationis that apale pink solution forms a pale brown precipitate. The equation for the reaction is:
+
+[Mn(H2O)6]²++ 2OH-→ [Mn(H2O)4(OH)2] + 2H2O
+
+This is a deprotonationreaction-the two hydroxideionshaveremoved hydrogenionsfrom two of the water ligands and converted them intowater molecules.The twowater ligands that have lost hydrogen ions are now hydroxide ligands. The pale brown precipitate turns darker brown on standing in air as it is oxidised to [Mn(H2O)s(OH)3], and then turns very dark brown, forming hydrated manganese(IV) oxide, MnO2.xH2O.
+
+The precipitate does not dissolve in excess aqueous sodium hydroxide.
+
+The same observations are made when aqueous ammonia is used as the alkali. The equation for this deprotonation reaction, forming the pale brown precipitate, is:
+
+[Mn(H2O)]²++2NH→[Mn(H2O)4(OH)2]+2NH
+
+## Topic 17: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### 17B Transition Metal Reactions
+
+CHECKPOINT
+
+• s sodiumhydroxideisadded.Rdarkensonstandinginairtoformadarkbrownsolid,S.Whensolids is heated it forms a darkbrownmetal oxide,TO2
+
+• (a)TO2contains36.82%bymassofoxygen.Usethisinformationtocalculatethemolarmassofthe metalT,and usethistoidentifyT.
+
+• (b) Identify thecationpresent inthe aqueoussolutionofQ.
+
+• (c)IdentifyRand S.
+
+• Forthereactionsabove:
+
+• (a)Writeanionicequationfortheformationof RfromthesolutionofQ.Includestatesymbols.
+
+• (b)Write anequationforthe actionofheatonsolids.
+
+## Topic 17: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### 17B Transition Metal Reactions
+
+LEARNING TIP
+
+Therearetwoimportantpoints youneed tobe aware of for the reactionbetween manganese(Ill) ionsandaqueoussodium hydroxide.Thefirstisthatdilute solutionscontaining [Mn(H2O)]+areverylikely to appearcolourless,notpale pink.Thesecond isthatthetrue colourof[Mn(H2O)(OH)2]is white,but thewhite colourmay notbeseenastheprecipitate rapidlyturnspalebrown.
+
+## Topic 17: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### 17B Transition Metal Reactions
+
+LEARNING OBJECTIVES
+
+• Know the colours of the oxidation states of vanadium(+5,+4,+3 and +2) in its compounds.
+
+• Understandredoxreactionsfortheinterconversionoftheoxidationstatesofvanadium(+5,+4,+3and+2),intermsofthe relevantEvalues.
+
+## Topic 17: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### 17B Transition Metal Reactions
+
+REDOXREACTIONS
+
+Like chromium, vanadium is a transition metal that forms ions with several oxidation numbers. TableA showstheimportant ones.
+
+## Topic 17: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### 17B Transition Metal Reactions
+
+
+#### REDOXREACTIONS
+|   OXIDATIONNUMBER | FORMULA   | NAME             | COLOUROFAQUEOUSSOLUTION   |
+|-------------------|-----------|------------------|---------------------------|
+|                +2 |           | vanadium(ll)     | purple                    |
+|                +3 |           | vanadium(IlI)    | green                     |
+|                +4 | VO2+      | oxovanadium(IV)  | blue                      |
+|                +5 | VO        | dioxovanadium(V) | yellow                    |
+
+## Topic 17: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### 17B Transition Metal Reactions
+
+tableA
+
+Unlike with chromium and the other transition elements, the focus here with vanadium is purely on redoxreactions.Vanadiumisagoodchoiceforthisbecausethereisonedistinctcolourforeach ofthemainoxidationnumbersfoundinitscompounds.So,itisrelativelyeasytodemonstrate the change in oxidation number by observing the change in colour during the reaction. As with chromium,we will consider the feasibility of these redox reactions in terms of Evalues.Although mostofthespeciesinvolvedarecomplexes,andsomecontainwaterligands,thesquarebrackets andwaterligands areleftoutfor clarity.
+REDUCINGVANADIUMFROM+5TO+2
+
+The usual source of vanadium with oxidation number +5 is the compound ammonium vanadate(V), NHVO.Anacidicsolutionof thiscompoundcontainsthedioxovanadium(V)ion,VO2+.Whenzinc is added to this solution, reduction begins and there is a gradual colour change from yellow, through blue and green, to purple as the oxidation number decreases from +5 to +2. All of these colours are ofsolutions-therearenoprecipitatesinvolved.ThetesttubesinfigAshowthecolours.
+
+figAThetubeon theleft(yellow)containstheVO2*ion.Thesecond tube(blue)containstheVO2+ion.The third tube(green)contains theV3+ion.The tube ontheright(purple)contains theV2+ion.
+
+## Topic 17: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### 17B Transition Metal Reactions
+
+EXAM HINT
+
+Youcaneasilylosemarksinan examquestionifyouare carelesswhenshowingthe differencebetweenVO2+and Vo2+inyouranswer.Makesure youwriteyour answerclearly.
+
+## Topic 17: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### 17B Transition Metal Reactions
+
+REDUCTIONFROM+2T00
+
+Forvanadium,weneedtoconsiderthesevalues:
+
+1
+
+V2++2e-=V
+
+E=-1.18V
+
+• 2 Zn2++ 2e-=Zn
+
+E°=-0.76V
+
+• 3 v3++ e=V2+
+
+E=-0.26V
+
+• 4 VO+ 2H++e-=V3++H2O
+
+E°=+0.34V
+
+• VO+2H++e=VO2++H2O 5
+
+E=+1.00V
+
+Ifyoufollowedtheexplanationsfortheredoxreactionsof chromium in the previous topic, you should be able to understand ashortenedexplanationforeachstagethatjustshowsthetwo relevanthalf-equationsandthentheoverallequation.
+
+REDUCTI0NFR0M+5TO+4
+
+Overall reaction:
+
+Since theEvalueforhalf-equation 2 is more negative than the E valueforhalf-equation5,Zniselectronreleasingwithrespectto VO.Therefore,thereactionisthermodynamicallyfeasible.
+
+REDUCTI0NFROM+4T0+3
+
+Overallreaction:
+
+Since theEvalue for half-equation 2 is more negative than the E value for half-equation 4, Zn is electron releasing with respect to VO2+.Therefore,the reaction is thermodynamically feasible.
+REDUCTI0NFROM+3T0+2
+
+Overall reaction:
+
+Since the Evalue for half-equation 2 is more negative than the Evalueforhalf-equation3,Znis electronreleasingwithrespect to V3+. Therefore, the reaction is thermodynamically feasible.
+
+Overall reaction:
+
+Since the E°value forhalf-equation 2 is less negative than the E? valueforhalf-equation1,Znisnotelectronreleasingwithrespect toV2+.Therefore,the reaction is not thermodynamically feasible.
+
+PREDICTINGOXIDATIONREACTIONS
+
+A similar method can beused topredictwhether a given oxidising agent will oxidise a vanadium species to one with a higher oxidation numberYou canseehow todothisinQuestion2in this topic.
+
+## Topic 17: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### 17B Transition Metal Reactions
+
+LEARNING TIP
+
+Itisimportantthatyoudonotgetconfusedbetweenthetwooxo ionsofvanadium:VOandvO2+
+
+## Topic 17: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### 17B Transition Metal Reactions
+
+SKILLS
+
+PROBLEM-SOLVING
+
+• Thestandardelectrodepotentialfortheredoxsystem Sn2++2e=Sn is-0.14V.
+
+Explain why the use of tin as a reducing agent will not obtain V2+from a solution containing VO2+ions.
+
+• 2. Thestandardelectrodepotentialfortheredoxsystem Cu²++2e=Cu is+0.34V.
+
+Explain whether copper(ll) ions can be used to oxidise VO2+ ions toVO ions.
+
+## Topic 17: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### 17B Transition Metal Reactions
+
+LEARNING OBJECTIVES
+
+• Be abletorecordobservations andwritesuitableequationsforthereactionsof Ni2+(aq) andZn²+(aq)withaqueoussodium hydroxide and aqueous ammonia, including in excess.
+
+• Beabletowriteionicequationstoshowthemeaningofamphotericbehaviour,deprotonationandligandexchangeinthe reactionsofnickelionsandzincions.
+
+## Topic 17: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### 17B Transition Metal Reactions
+
+REACTIONSOFNICKELCOMPLEXESWITHALKALIS
+
+is added to a solution containing the hexaaquanickel(Il) ion until no further change is seen. The observation is that a green solution forms a green precipitate. The equation for the reaction is:
+
+Thisisadeprotonationreaction-thetwohydroxideionshave removed hydrogen ions from two of the water ligands and convertedthemintowatermolecules.Thetwowaterligandsthat have lost hydrogen ions are now hydroxide ligands.
+
+Thesameobservationsaremadewhenaqueous ammonia is used as the alkali.However,when aqueous ammonia is added in excess,thereisanobservationnotmadewithaqueoussodium hydroxide-theprecipitate dissolves toform a deepblue solution. Theequationforthedeprotonationreactionformingthegreen precipitate is:
+
+The equation for the ligand exchange reaction forming the blue solution is:
+
+[Ni(H2O)4(OH)2] + 6NH3 → [Ni(NH3)6]2+ + 4H2O + 2OH-
+REACTIONSOFZINCCOMPLEXESWITHALKALIS
+
+Consider the reaction that occurswhen aqueous sodium hydroxide is added to a solution containing the hexaaquazinc(II) ionuntil nofurtherchangeisseen.Theobservation is that a colourlesssolutionformsawhiteprecipitate.Theequationforthe reaction is:
+
+Thisisadeprotonationreaction-thetwohydroxideionshave removed hydrogenionsfromtwoofthewaterligands and convertedthemintowatermolecules.Thetwowaterligandsthat have lost hydrogen ions are now hydroxide ligands.
+
+Whenanexcessofaqueoussodiumhydroxideisadded,thewhite precipitate dissolves to form a colourless solution. The equation for thisdeprotonationreactionis:
+
+Zinc hydroxide also reacts with acid, showing its amphoteric behaviour:
+
+[Zn(H2O)4(OH)2] + 2H+→ [Zn(H2O)6]2+
+
+Similar observations are made when aqueous ammonia is used as the alkali. The equation for the deprotonation reaction forming the whiteprecipitateis:
+
+The equation for the ligand exchange reaction forming the colourless solution is:
+
+[Zn(H2O)4(OH)2] + 4NH3 → [Zn(NH3)4]2++ 4H2O + 2OH-
+
+## Topic 17: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### 17B Transition Metal Reactions
+
+LEARNING TIP
+
+Some textsquote theformula of theammine complexas[Zn(NH3)] ratherthan[Zn(NH3)4]+
+
+Aresearcharticleinthe1993editionofChemicalPhysicsLetters suggests that thecoordinationnumbercanbeeither4or6,but that [Zn（NH3)4]+isfavouredasithasalowerenergy.Therefore,itis reasonabletosaythatbothformulaearecorrect.
+
+## Topic 17: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### 17B Transition Metal Reactions
+
+SUMMARY
+
+TableAsummarisesthereactionsofthehydratedd-blockmetal ionswith aqueous sodiumhydroxide.
+
+## Topic 17: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### 17B Transition Metal Reactions
+
+
+#### SUMMARY
+| IONIN SOLUTION   | COLOUROF SOLUTION   | COLOUROF PRECIPITATE                              | EFFECTOFADDING EXCESSNaOH(aq)   |
+|------------------|---------------------|---------------------------------------------------|---------------------------------|
+| [Cr(H2O)6]3+     | green               | green                                             | forms green solution            |
+| [Mn(H2O)]2+      | pale pink           | palebrown (turns darker brown on exposure to air) | none                            |
+| [Fe(H2O)6]2+     | pale green          | green (turns brown on exposure in air)            | none                            |
+| [Fe(H2O)6]3+     | yellow-brown        | brown                                             | none                            |
+| [Co(H2O)6]2+     | pink                | blue (turns pink on exposureto air)               | none                            |
+| [Ni(H2O)6]+      | green               | green                                             | none                            |
+| [Cu(H2O)6]2+     | blue                | blue                                              | none                            |
+| [Zn(H2O)]2+      | colourless          | white                                             | formscolourless solution        |
+
+## Topic 17: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### 17B Transition Metal Reactions
+
+
+#### SUMMARY
+tableA
+
+TableBsummarisesthereactionsofthehydratedd-blockmetalionswithaqueousammonia.
+
+## Topic 17: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### 17B Transition Metal Reactions
+
+
+#### SUMMARY
+table B
+
+| IONINSOLUTION   | COLOUROFSOLUTION   | COLOUROFPRECIPITATE                             | EFFECTOFADDINGEXCESS NH3(aq)                           |
+|-----------------|--------------------|-------------------------------------------------|--------------------------------------------------------|
+| [Cr(H2O),]3+    | green              | green                                           | forms purple solution                                  |
+| [Mn(H2O)6]2+    | pale pink          | pale brown (turns darker brownonexposureto air) | none                                                   |
+| [Fe(H2O)]2+     | pale green         | green (turns brown on exposure in air)          | none                                                   |
+| [Fe(H2O)6]3+    | yellow-brown       | brown                                           | none                                                   |
+| [Co(H2O)]2+     | pink               | blue (turns pink on exposure to air)            | formspaleyellowsolution (turnsbrown onexposure to air) |
+| [Ni(H2O)6]2+    | green              | green                                           | forms deepbluesolution                                 |
+| [Cu(H2O)]2+     | blue               | blue                                            | forms deep blue solution                               |
+| [Zn(H2O)6]2+    | colourless         | white                                           | forms colourlesssolution                               |
+
+## Topic 17: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### 17B Transition Metal Reactions
+
+CHECKPOINT
+
+• 1.Theelectronicconfigurationsofnickel andzincare:
+
+• Ni [Ar] 3d8 4s2
+
+• Zn [Ar] 3d10 4s2
+
+• (a)Statewhybothelements areclassified as d-blockelements.
+
+• (b) State why nickel is classified as a transition metal, but zinc is not.
+
+• 2. TheEDTA4-ionforms a complexionwith theNi2+ion.
+
+• (a) Complete the electronic configuration of theNi2+ion.
+
+1s2 2s2 2p6 3s2 3p6.
+
+• (b)Thevisiblespectrumof the complexionformedbetweenNi2+and EDTA4-is shownbelow.
+
+• (c)TheEDTA4-ionhasthefollowingstructure.
+
+• (i)Draw a ring around two different types of atoms in the EDTA4-ion that are capable of forming a dative(coordinate)bondwiththeNi2+ion.
+
+• (ii)WhatfeatureoftheseatomsallowsthemtoformabondwithNi2+?
+
+Explainthecolourof thiscomplexion.
+
+## Topic 17: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### 17C Transition Metals as Catalysts
+
+LEARNING OBJECTIVES
+
+• Knowthattransitionmetalsandtheircompoundscanact asheterogeneouscatalysts.
+
+• Know that a heterogeneous catalyst is ina different phase fromthereactantsandthatthereactionoccursatthe surfaceofthecatalyst.
+
+PART
+
+17.26
+
+17.27
+
+17.28
+
+17.29(i)
+
+17.29(ii)
+
+finely divided form, as small particles (including powder) rather than as largelumps.Sometimes,they are used instead as a thin coating on an inertsupportmaterial.
+
+## Topic 17: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### 17C Transition Metals as Catalysts
+
+EXAM HINT
+
+Industrialchemistsoftenuseheterogeneouscatalystsratherthan homogeneouscatalysts.Thisisbecauseitiseasiertoseparatethe reactionproductsfromthecatalystiftheyareindifferentphases.
+
+• Understand,intermsofoxidationnumber,howV2Oacts asacatalystintheContactprocess.
+
+• Understand howa catalyticconverterdecreasescarbon monoxideandnitrogenmonoxideemissionsfrominternal combustionenginesby:
+
+• (i)adsorption of CO andNOmoleculesonto the surface of the catalyst,resultingin the weakening of bonds and chemicalreaction
+
+• (ii)desorption of CO2 and N2product molecules from the surfaceofthecatalyst.
+
+## Topic 17: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### 17C Transition Metals as Catalysts
+
+DIFFERENTWAYSTOUNDERSTANDCATALYSIS
+
+When you first learned about catalysts you probably recognised themassubstancesthatincreasedtherateofareactionand remainedchemicallyunchangedattheendofthereaction.This descriptionisfineas anintroductiontocatalysis,butitdoesnot tell you anything about how catalysts work.
+
+In Topic 9 (Book 1: IAS) you learned about catalysis in terms of its effect on the activationenergyofa reaction.You alsolearned how to represent catalytic action usingMaxwell-Boltzmann energydistributionsandenergyprofiles.
+
+In this section and thenextone,wewill considercatalysis in more detail by looking at the two main types of action: heterogeneous andhomogeneous.
+TRANSITIONMETALSASHETEROGENEOUS CATALYSTS
+
+A heterogeneous catalyst isone that isinadifferent phase fromthatofthereactants.Youcanprobablyremember Oxygen gascan be made in the laboratoryby decomposing a hydrogen peroxide solution. The catalyst used in this reaction is usually manganese(IV) oxide - note that this is a compound ofa transitionmetal.However,whatmakes this anexample of heterogeneous catalysis is that manganese(IV) oxide is a solid and hydrogen peroxide solution is a liquid.
+
+Manytransitionmetals,and theircompounds,areused assolid catalysts.Theiractioncanbeexplainedintermsofwhathappens onthesurfaceofthecatalyst.Thefactthattheactiontakesplace
+THECONTACTPROCESS
+
+Sulfuric acid is one of themostwidelyused chemicals,bothin termsofthequantityproducedandthenumberofindustriesthat use it.Itsbiggest single use is in the manufacture of fertilisers.A completedescriptionoftheContactprocessused tomanufacture sulfuric acid isbeyond the aims of thisbook,butthekeyreaction in theprocessistheconversionofsulfurdioxidetosulfurtrioxide in this reaction:
+
+At the temperatures and pressures used in the process, all of the substances arein thegasphase,and themixture ofreactantsis passed over a catalyst of vanadium(V) oxide, V2Os, usually known in industry as vanadium pentoxide (fig A).
+
+fig A Sample of vanadium(V) oxide, as used as the catalyst in the Contact process.
+SURFACEADSORPTIONTHEORY
+
+This theory is often used to explain theway that a heterogeneous catalyst works.It is usually considered as having three steps:
+
+• 1Adsorption,inwhichoneormorereactantsbecome attached tothesurfaceofthecatalyst.
+
+• 2 Reaction,followingtheweakeningofbondsinthe adsorbed reactants.
+
+• 3 Desorption,inwhichthereactionproductbecomesdetached from the surface ofthecatalyst.
+
+In theContactprocess,the reactionstephas twoparts:
+
+Part1:sulfur dioxide adsorbs onto thevanadium(V)oxide and a redoxreaction occurs:
+TOPIC 17
+
+Notethattheoxidationnumberofvanadiumdecreasesfrom+5 to+4.The sulfur trioxidethen desorbs.
+
+Part 2:oxygen reacts with theV2O4on the surface of the catalyst and anotherredoxreactionoccurs:
+
+Notethattheoriginalcatalystisregenerated astheoxidation numberincreasesfrom+4to+5.
+THEPROBLEMS
+
+One of themajorproblems associatedwith increased roadvehicle usage over several decades is the increased amount of pollution from vehicle exhaustgases.In some cities,the quality of air breathedbyhumansisbelowacceptablelevels.Withoutcatalytic converters,thesituationwould nowbemuchworse.
+
+Although many different pollutants comefromvehicle exhausts, two of the most significant are carbon monoxide and nitrogen monoxide.
+
+• Carbonmonoxideisatoxicgasthatinterfereswithoxygen transport from thelungs through thebloodstream tovital organs in thebody(seeSection17A.6).
+
+• Nitrogenmonoxideiseasilyoxidised intheatmosphere tonitrogendioxide.It can act as a respiratoryirritant and contributetotheformationofacidrain.
+
+Carbon monoxide forms through the incomplete combustion of hydrocarbonfuels.Nitrogenmonoxideformsthroughthereaction an internal combustion engine.
+THESOLUTIONS
+
+For over 20years,carssold worldwidehavebeenfitted with catalyticconvertersinanattempttoreducetheeffectofvehicle emissions onairquality.Themain transitionmetalsused in catalytic converters are platinum and rhodium, and sometimes palladium (fig B). The method of action can be explained by thesurfaceadsorptiontheorydescribedabove.Inonetypeof catalyst,moleculesofcarbonmonoxideandnitrogenmonoxide areadsorbedontothesurface.Then,becausetheirbondsare weakened,theyreact togethertoform carbondioxide and nitrogen,which are then desorbed from the surface of the catalyst. The overall reactioncanberepresented bythisequation:
+
+• figBViewthroughtheelementofacatalyticconverterfromacar exhaust.Theinnersurfaceis coatedwith an alloy containingplatinum, rhodium and palladium.
+
+## Topic 17: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### 17C Transition Metals as Catalysts
+
+LEARNING TIP
+
+Donot confuse absorb/absorptionwith adsorb/adsorption.Very simply,absorptioninvolvesonesubstancebecomingdistributed throughout another (for example,waterin a sponge),while adsorptiononlyhappensatthesurfaceofasubstance.
+
+## Topic 17: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### 17C Transition Metals as Catalysts
+
+SKILLS CREATIVITY,ETHICS
+
+• 1. Howdoesthedescriptionofthecatalyticroleofvanadium(V) oxideshowthatthisstatementisnottrue?
+
+'Acatalystincreasestherateofachemicalreactionbutdoesnot takepartinthereaction.'
+
+• 2. Writeanequationtoshowhownitrogenmonoxidecanform acid rain.
+
+## Topic 17: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### 17C Transition Metals as Catalysts
+
+SUBJECT VOCABULARY
+
+heterogeneouscatalystacatalyst thatisinadifferentphasefrom thereactants
+
+adsorptiontheprocessthatoccurswhenreactantsformweakbonds withasolidcatalyst
+
+desorptiontheprocessthatoccurswhenproductsleavethesurface of a solidcatalyst
+
+## Topic 17: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### 17C Transition Metals as Catalysts
+
+LEARNING OBJECTIVES
+
+• Knowthattransitionmetalsand theircompoundscanactashomogeneouscatalysts.
+
+• Know that a homogeneouscatalyst isin thesamephase asthereactants and appreciate that the catalysedreaction will proceedvia anintermediatespecies.
+
+• Understand therole of Fe2+ ions in catalysing the reactionbetweenI andS2Oions.
+
+• Know therole ofMn2+ions in autocatalysing thereactionbetweenMnO and C2O2-ions.
+
+## Topic 17: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### 17C Transition Metals as Catalysts
+
+TRANSITIONMETALSASHOMOGENEOUSCATALYSTS
+
+A homogeneous catalyst is one that is in the same phase as thereactants.Thismeans that they are either all gases, or more often, all in aqueous solution. You have not seen many examples of this type s also much less common in industry.
+
+Thekeyfeature ofhomogeneous catalysis is theformation of anintermediate speciesfor which a specificformulacanbewritten.
+AREACTIONOFTHES2O?-ION
+
+The ion with this formula has several names, the simplest of which is the'persulfate ion', although it is often known as the'peroxydisulfate ion'.Wewill not use the IUPAC name,which isvery complicated!
+
+It acts as an oxidising agent in its reaction with iodide ions,the equation for which is: S2O-+ 2I-→ 2SO2-+ I2
+
+Onereasonwhythisreactionisslowatroomtemperatureisthatthetworeactantionsareboth negatively charged and so repel each other Thereaction is much faster in the presence of Fe2+ ions, which act as a catalyst.All of thereactants and products,and the catalyst,arein the aqueous phase, so thisreactionis an exampleofhomogeneouscatalysis.
+
+STEPSINTHECATALYSEDREACTION
+
+They react together as follows:
+
+as follows:
+
+The iron(Il) ions are used in Step 1 and regenerated in Step 2, so the two steps can repeat continuously.
+ALTERNATIVEMECHANISM
+
+The reaction is also catalysed by Fe3+ ions, for which the following mechanism can be written.
+
+Step 1: 2Fe3++ 2I-→2Fe2++ I2
+
+Step 2: S2O-+ 2Fe2+→ 2SO2-+ 2Fe3+
+
+The same tworeactions are involved,but they occurin a different order.
+OXIDATIONOFETHANEDIOATEIONS
+
+Youmayknowabouttitrationsinwhichpotassiummanganate(VIl)inacidicconditionsactsasan oxidising agent.For these titrations towork well enough,it is important that the reactions arefast,so that the endpoint of thereaction canbe accurately observed(figA).
+TOPIC 17
+
+One example of a redox reaction that can be used in titrations is the oxidation of ethanedioate ions by potassium manganate(Vll). The equation for this reaction is:
+
+As with the SO?-/I reaction, the reacting species are both negatively charged. Therefore, the reaction is slow.However, as more potassium manganate(Vll) solution is added,thereactionrate increases.
+
+(a)
+
+(q)
+
+(c)
+
+figA(a)Atthestartofthetitration,thecolourof thepotassiummanganate(Vll)solutiontakessome time to Mn²+ionstocatalysethereaction;(c)at the end of the titration,therearenomore ethanedioateionslefttoreact,so the remaining potassium manganate(Vill) solution gives the mixture a pink colour.
+
+Note that one of the reaction products is theMn2+ion.This can act as a catalyst in the reaction, whichexplainswhy thereactionrate increases as the titrationproceeds.Theformation of a reaction product that increases therate of thereaction is sometimesreferred to as autocatalysis.This effect is sometimes represented using a graph (fig B).
+
+## Topic 17: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### 17C Transition Metals as Catalysts
+
+LEARNING TIP
+
+NotethatinSection17C.1,allofthetransitionmetalcatalystsweresolids,butthatinthissectiontheyare all ionsin aqueoussolution.
+
+## Topic 17: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### 17C Transition Metals as Catalysts
+
+CHECKPOINT
+
+• 1. StatewhyMg²+ionsdonotactasacatalystinthereactionbetweenS2O2-andI-ions.
+
+• 2. StatewhyautocatalysisofthereactionbetweenMnOandC2O2-ionsdoesnotoccurunderalkaline conditions.
+
+## Topic 17: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### 17C Transition Metals as Catalysts
+
+SUBJECT VOCABULARY
+
+homogeneouscatalystacatalystthatisinthesamephaseasthereactants autocatalysiswhenareactionproductactsasacatalystforthereaction
+
+• figB (1) The slow decrease inthereactantconcentration isbecausethereactionis uncatalysed at first.(2) The reactantconcentrationdecreases morerapidlyasthereactionrate increases because of catalysis.(3) Thereactantconcentration then decreasesmoreslowlybecause thereislittlereactantleft.
+
+## Topic 17: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### Topic 17: Transition Metals and Their Chemistry
+
+POWERFULPIGMENTS
+
+INITIATIVE, SELF-DIRECTION
+
+Octopuses are complex and intelligent creatures.One of their many fascinating characteristics is the blue colour of their blood.What is thechemical thatcausesthiscolourandwhatisitsfunction?Readthearticlebelowtofindout.
+BLUE BLOODHELPSOCTOPUSSURVIVE BRUTALLY COLD TEMPERATURES
+
+Posted byStefanSirucek inWeird&Wild on10July2013
+
+figAAPareledoneoctopusphotographednearSouthGeorgia Island.
+
+ResearchersattheAlfredWegenerInstituteforPolarandMarine ResearchinGermanyhavefoundthataspecializedpigmentinthe bloodofAntarcticoctopods allowsthemtosurvivetemperatures thatoftendropbelowfreezing.
+
+It's all down to a respiratory pigment in their blood called haemocyanin that allows the octopus'to maintain an aerobic lifestyle atsub-zerotemperatures,saidMichael Oellermann,who tookpartintheresearch.Haemocyanin alsohastheeffectof makingtheoctopods'bloodblue.
+
+• ‘Haemocyanin contains copper, which is the responsible
+
+ion for binding oxygen,explained Oellermann in an email. Haemoglobinscontainironinstead,whichgivesourbloodared color.'
+Blood chilling
+
+It's not a questionofbloodfreezing.
+
+'The reason why octopus blood does not freeze at-1.9 degrees C[28.58degreesFahrenheit]is thatthey areisosmotic,which means that their blood shares the same salinity as the surrounding seawater'explained Oellermann.
+
+The problem invery cold temperatures is that,without special adaptations,the aerobicprocesswould,inmostcases,shut down.
+
+Cold temperatures increase oxygen affinity to the extent that oxygen cannot be released in the tissue anymore,explained Oellermann,making survival in waters that can drop to as low as 29 degrees Fahrenheit a challenge to say the least.
+Comparingoctopods
+
+TheresearcherslookedataparticularspeciesofAntarctic octopodcalledPareledonecharcotiandcompareditwithtemperate and warm-adapted octopods to observe the difference inhow coldwater octopods transport oxygen in their blood.
+
+Pareledone charcoti decreased the oxygen affinity ofits haemocyanin to counter the adverse effect of temperature on oxygen binding accompanied by changes in their protein sequence, toassuresufficientoxygensupplytoitstissues and organs, explainedOellermann.
+
+Octopodslikelydevelopedtheadaptationbecausetheyrequirea lot of oxygen compared to other invertebrates, notes Oellermann, and because they are largely non-migratory and must instead adapttotheirenvironment.
+
+In contrast,said Oellermann,Antarcticicefishsurviveinthesame frigidenvironmentbydintoftheirloweroxygendemand,rather than through the adapted system of oxygen transport employed by theirblue-blooded neighbors.
+
+Interestingly,the same adaptation may be what allows octopods to survive temperatures on the other end of the thermometer,such as the86-degreeFheatoftenfoundnearthermalvents.
+
+From the National Geographic magazine website https://blog.nationalgeographic.org/2013/07/10/blue-blood-helps-octopus-survive-brutally-cold-temperatures
+
+SCIENCE COMMUNICATION
+
+• 1How might an article like the one opposite be used to highlight the importance of species diversityandenvironmental conservation?
+CHEMISTRY IN DETAIL
+
+• 2 Oxygenated haemocyanin is blue in colour, whereas deoxygenated haemocyanin is colourless. Explain this observation using your knowledge of copper chemistry.
+
+• 3Describe the type of the bond between copper and nitrogen in oxyhaemocyanin, as shown below in fig B.
+
+• figBAnoxyhaemocyaninmolecule.
+
+• 4Suggest whyzinc is unlikely to be able toform a protein complex that is capable of reversibly binding oxygen.
+
+• 5(a)Usethetwohalf-equationsbelowto showthat thereactionbetweenoxygen andcopper(l) ionsunderstandardconditionsisfeasible:
+
+Cu²+（aq)+e²=Cu+(aq)
+
+O2(g)+4H+(aq)+4e-=2H2O(1)
+
+• (b)Calculate the total entropy change for this reaction under standard conditions (298K)(F=96500Cmol-1)
+ACTIVITY
+
+Design anA3poster forthe general public to illustrate the role of transition metals and their compounds as catalysts. You could choose to focus on their role in biological systems (enzymes) or their role in industrial chemistry.In each case,choose a specificexample to illustrate thegeneral principles.
+
+INTERPRETATIONNOTE
+
+Why might it be more effectivetofocusonone specific example of a fascinating species than to talk about species diversity in general?
+
+WRITINGSCIENTIFICALLY
+
+Focusingonaspecific example of an enzyme or industrial catalyst can behelpfulifyouwantto illustrate general principles.
+
+## Topic 17: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### Topic 17: Transition Metals and Their Chemistry
+
+17 EXAMPRACTICE
+
+• 1A precipitate of copper(Il) hydroxide dissolves in aqueous ammonia.Whatistheformula ofthecomplexionformed?
+
+• 5Titanium has the electronic configuration of 1s² 2s²3s² 3p6 3d² 4s². Which of the following compounds is unlikely to exist?
+
+• A [Cu(NH3)2]2+
+
+• B [Cu(NH3)4]2+
+
+• C [Cu(NH3)]2+
+
+• D [Cu(NH3)(H2O),]2+
+
+[1]
+(Total for Question 1 = 1 mark)
+
+• 2Whatistheelectronic configuration of theiron cation thatcan form the complex ion [Fe(CN)]4-? [The cyanide ligand has the formula CN-.]
+
+• A [Ar] 3d4 4s2
+
+• B [Ar] 3d5 4s0
+
+• C [Ar] 3d6 4s0
+
+• D [Ar] 3d6 4s2
+
+[1]
+
+(Total for Question 2 = 1 mark)
+
+• 3The anti-cancer drug cis-platin has the general formula Pt(NHs)2Cl2. In the human body, one of the chloride ions of cis-platin is replaced by one watermolecule:
+
+What are the oxidation numbers of platinum in these substances?
+
+## Topic 17: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### Topic 17: Transition Metals and Their Chemistry
+
+
+#### (Total for Question 1 = 1 mark)
+|    |   Oxidationnumber in cis-platin |   Oxidationnumberin the aqua complex |
+|----|---------------------------------|--------------------------------------|
+| A  |                              +2 |                                   +1 |
+| B  |                              +2 |                                   +2 |
+| C  |                              +4 |                                   +3 |
+| D  |                              +4 |                                   +4 |
+
+## Topic 17: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### Topic 17: Transition Metals and Their Chemistry
+
+
+#### (Total for Question 1 = 1 mark)
+[1]
+
+(Total for Question 3 =1 mark)
+
+• 4A compound of chromium with the general formula CrCl.6H2OisdissolvedinwaterWhenanexcessofaqueous silvernitrateis added,onlyone-thirdofthetotalchloride present is precipitated as AgCl.
+
+Whatistheformulaofthechromiumcomplexpresentin CrCl3.6H,O?
+
+• A [Cr(H2O)6]3+
+
+• B [Cr(H2O)sC1]2+
+
+• C [Cr(H2O)4Cl2]+
+
+• D [Cr(H2O);Cl]
+
+[1]
+
+(Total for Question 4 = 1 mark)
+
+• A TiO
+
+• B TiO2
+
+• C KTiF6
+
+• D K,TiO4
+
+[1]
+
+(Total for Question 5 = 1 mark)
+
+• 6 What are the colours of aqueous solutions containing Cr2O7²-, CrO4²-, [Cr(H2O)]²+ and [Cr(H2O)6]2+?
+
+## Topic 17: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### Topic 17: Transition Metals and Their Chemistry
+
+
+#### (Total for Question 1 = 1 mark)
+|    | Cr202-   | CrO2-   | [Cr(H2O)6]3+   | [Cr(H2O)6]2+   |
+|----|----------|---------|----------------|----------------|
+| A  | yellow   | orange  | green          | blue           |
+| B  | orange   | yellow  | green          | blue           |
+| C  | orange   | yellow  | blue           | green          |
+| D  | orange   | green   | yellow         | blue           |
+
+## Topic 17: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### Topic 17: Transition Metals and Their Chemistry
+
+(Total for Question 6 = 1 mark)
+
+• 7 Why is the hexaaquacopper(II) ion,[Cu(H2O)6]²+, blue?
+
+• AThe water ligands split the p-orbital energies and p-p electron transitions emit blue light.
+
+• B The water ligands split the d-orbital energies and d-d electron transitions absorball butbluelight.
+
+• C The water ligands split the p-orbital energies and p-p electron transitions absorb all but blue light.
+
+• D The water ligands split the d-orbital energies and d-d electron transitions emit blue light.
+
+[1]
+(Total for Question 7 = 1 mark)
+
+• 8Scandium and titanium are both d-block elements, but only titanium is a transition metal.
+
+• (a) Complete the electronic configuration of each of these ions.
+
+Sc3+ 1s22s22p6
+
+Ti3+ 1s22s22p6
+
+[2]
+
+• (b)Explain why titanium is a transition metal, but scandium is not.
+
+[2]
+
+• (c)What is the oxidation number of the d-block element in each of these compounds?
+
+Sc(OH)3 ....
+
+CaTiO3.
+
+[2]
+
+(Total for Question 8 = 6marks)
+
+• 9 (a)What is the meaning of the term ligand'?
+
+[2]
+
+• (b) (i) Give the formula of the complex with the name tetraaquadihydroxoiron(II)
+
+• (ii) Give the name of the complex with the formula [CoCl4]-.
+
+• (c) The arrangement of d-electrons in the complex with the formula [Cr(HzO)]3+ can be represented using this diagram.
+
+Explain,withreferencetothisdiagram,whyasolution containing thiscomplexis coloured.
+
+[1]
+
+[5]
+(TotalforQuestion9=9marks)
+
+• 10Most transition metal complexes have octahedral or tetrahedralshapes.
+
+• ion and six water molecules has an octahedral shape. [2]
+
+• (b)Concentrated hydrochloricacidisaddedtoasolution containingthe complexinpart(a).During thereaction that occurs,thereis a colourchangefrombluetoyellow.
+
+• (i)Explain why the number of ligands around the metal ion decreases during thisreaction. [2]
+
+[2]
+
+• (c) A complex with a linear shape has the formula [Ag(NHs)2]*, and is used in a test to distinguish between aldehydes and ketones.
+
+• (i)State one other feature of the complex that changes duringthisreaction,andonefeaturethatdoesnot change.
+
+• (i)Name this complex and the reagent that contains it. [2]
+
+• (i)State the type of change that this complexundergoes when it reacts with an aldehyde, and the name of the metal speciesformed.
+
+[2]
+
+• (d)A complexwith a different shape,used in cancer treatment, is cis-platin, and has the formula [Pt(NHs)Cl2].
+
+• Draw the structure of cis-platin and state the name of its shape. [2]
+
+• (e)A multidentate ligand has a formula abbreviated to EDTA4-.Its structure is:
+
+• (i)Explain why EDTA4-is described as a multidentate ligand. [1]
+
+• (ii)Draw the structure of EDTA4-showing thelone pairs ofelectronsusedintheformationofbondswitha transition metalion.
+
+[1]
+
+• (i)Using the abbreviation EDTA, give the formula of the complex formed when [Fe(H2O)6]3+ reacts with EDTA4-.
+
+[1]
+(Total for Question 10 = 15marks)
+
+• 11 The following sequence summarises some reactions, 1, 2, 3 and4,ofchromiumcompounds.
+
+• (a) State the appearance of thereactant and product in reaction 1.
+
+• (b) State the reagent used in both reactions 1 and 2.
+
+[1]
+
+[2]
+
+• (c)With reference to oxidation numbers,identify which reactionis a redoxreaction.
+
+[2]
+
+• (d) Describe the colour change in reaction 4.
+
+[1]
+
+• (e)Write an equationfor reaction 4.
+
+[1]
+(TotalforQuestion 11=7marks)
+
+• 12 The heterogeneous catalyst used in the Contact process to manufacture sulfuric acid has the formula VOs.
+
+Explain,with the helpof suitable equations and with referencetotheoxidationstatesofvanadium,thesteps in this catalysed reaction. [6]
+
+(Total for Question 12 = 6 marks)
+
+## Topic 18: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### Topic 18: Organic Chemistry: Arenes
+
+AARENES:BENZENE
+
+Your study of organic chemistry so far has been limited to aliphatic compounds. These are compounds containingjust unbranched orbranched chains ofcarbon atoms.
+
+In thistopicyou will extendyourknowledgeoforganicchemistrybylookingat aromaticcompounds.These arecompoundsthatcontain one ormorebenzenerings.Thesecompounds are also called arenesoraromatic compounds.
+
+Aromatic compounds play a very important role in helping tokeep us healthy. For some people, pharmaceuticals mean a better quality of life. For others, they mean the difference between life and death. In both cases,aromatic compounds play an essential part.Phenol,for example,is used as a startingmaterial to make 2,4,6-trichlorophenol (TcP) and also paracetamol. Salicylic acid is used to make aspirin.
+
+Modern transport depends on the products manufactured from aromatic compounds. If all of the components ofacar,lorryor aircraftmadefrom aromatic-basedproductswereremoved,all ofthosemightceasetoexist! Car body parts, bumpers, dashboards, seats and upholstery are generally all made from products derived from especially on wet roads, and also increase tyre mileage.
+
+Todaywewantourclothestobewarm,butnot thick and itchy.Orwewant them tokeepuscool,especially whenweareexercising.Wewantthemtobecolourful,butwedonotwantthecolourtofadeafterafew washes.We donotwant them tocrease after a fewhours'wear,butwe dowant them tobesupple and soft on theskin.Wewantthemtobewear-resistant,too.
+
+#### AARENES:BENZENE
+All thishasbeenmadepossiblebythenewfibresthat havebeencreated thanksto theinputof thearomatics industry.Have a look at thelabels onyour clothes:acrylicfibres,polyester,nylon.These substances arevery often added to luxuriousfibressuch as linen, silkand cashmerewool togivethemmoreresistance towear.
+
+Aromatic compounds are used today in most of our sports equipment, from polyurethane footballs to nylon parachutes,fromlightrunningshoestopolyesterswimwear.
+
+Theworld asweknow ittodaywouldbeverydifferent if therewerenoaromaticsindustry.
+Topics4,5,10（IAS:Book1）,15
+
+• Howtousedifferentkindsofformulae to representorganiccompounds
+
+• UsingIUPACrulestonameorganiccompounds
+
+• Recognisingdifferenttypesofisomerism, includinggeometricalisomerism
+
+• Howtoconvertone organiccompound into another
+
+• Howtowritereactionmechanisms
+
+Whatwill I study in this topic?
+
+• Howaromaticcompoundsaredifferentfrom aliphaticcompounds
+
+• Whybenzeneundergoessubstitutionreactions ratherthanadditionreactions
+
+• Themechanismofelectrophilicsubstitution reactionsintoa benzenering
+
+## Topic 18: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### 18A Arenes: Benzene
+
+LEARNING OBJECTIVES
+
+• Be able to use thermochemical, X-ray diffraction and infrared data as evidence for the structure and stability of the benzene ring.
+
+• Understandthatthedelocalisedmodelforthestructureofbenzeneinvolvesoverlapofp-orbitalstoformπ-bonds.
+
+• comparedtothelocalisedelectrondensityoftheπ-bondinalkenes.
+
+## Topic 18: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### 18A Arenes: Benzene
+
+PHYSICALPROPERTIESOFBENZENE
+
+ThesectionsinTopic18dealwithcompoundscontaininga benzenering.Youhave alreadyseenbenzeneringsinprevious sections.However,nodetailwasgivenaboutthem.Forexample in thesectionofTopic15oncarbonyl compounds,therewas a reactioninvolving2,4-dinitrophenylhydrazine,whichcontains a benzene ring. In the section of Topic 15 on carboxylic acids, one ofthemonomersused tomakepolyesterswasterephthalicacid, which also contains a benzene ring.
+
+Benzene is a colourless liquid with a boiling temperature of 80°C, and it is insoluble in water It is present in crude oil and thefuelsobtainedfromit,so thepetroltankofa carcontains some benzene. The one place you will not find it is in a school or college laboratory,because of its toxicnature;in particular,it is a carcinogen(i.e.it can cause cancer).It was first isolated by the English chemist Michael Faraday in 1825.Within a few years,the compound became known as benzene and its molecularformula wasestablished.
+
+figAManybrightly coloured dyes are made from aromatic compounds.
+
+ORIGINOFTHETERM
+
+The word'aromatic'in everyday language refers to smells, usuallypleasant.Someherbsused in cookingareoftendescribed as aromatic.
+ALIPHATICANDAROMATIC
+
+With a few exceptions,almost all the organic compounds you haveseensofarinthiscoursecouldhavebeendescribed as aliphatic', although this is a term we did not use to describe them because therewas no point.You can regard aliphatic compounds asallthosethatarenotaromatic!
+BENZENE
+
+Thecompoundbenzeneis attheheartofeveryaromatic compound. So, the first thing we must do is understand what is special aboutbenzene.
+
+Benzenecanbedescribed as anarene,ascanmanyofits derivatives. Youalreadykmowthat-eneindicatesthepresenceofa C=Cdouble bond in a molecule (as in ethene). Therefore, you would expect that an arene also contains C=C doublebonds.The answer is-yes and no.Thisobviouslyneeds careful explanation!
+
+Its molecular formula is CHe, which suggests that it is highly unsaturated,because thealkanewithsixcarbon atomshas14 hydrogen atoms.Finding a structural formula tofit themolecular formula, and which was supported by studies of its chemical reactions,was a challengeforchemists.
+THEKEKULESTRUCTURE
+
+Oneofthebetter-knownstoriesinthehistoryofchemistryishow theGermanchemistFriedrichAugustKekulecametosuggestthe structure of benzene that still bears his name. The story goes like this...Kekulewas sleeping in an armchair in front of a fire. In the flames he imagined some snake-like molecules dancing,one of which held its own tail and whirled around intheflames.Inspired by this dream about snakes, in 1865 he proposed a cyclic or ring structureforbenzene.FigBshowsthedisplayedandskeletalforms ofthisstructure.
+
+• fig BKekulestructure of benzene.
+
+Perhaps Kekule was also influenced by Josef Loschmidt, who hadsuggested a ringstructureforbenzeneafewyears earlier Loschmidt's role in developing the structure of benzene is not well remembered.However, you may remember his name from Book 1 asthesourceofthesymbol LfortheAvogadroconstant.
+
+18.3
+PROBLEMSWITHTHEKEKULESTRUCTURE
+
+We still use the original skeletal structure to represent benzene today. However, since it was first used, there has been mounting experimental evidence that does notfit with the structure.Several problems arose in the 19th century, although more became apparent in the 20th century.
+PROBLEM1
+
+If benzene contains three C=C double bonds,it should readily decolourisebrominewaterin anadditionreaction.However,it doesnotdecolourisebrominewaterWhenbrominedoesreact withbenzene,a substitutionreaction occurs(seeSection18A.2). This evidence suggests that there are no C=C double bonds.
+
+Fig C shows the results of shaking bromine water with a liquid alkane,benzene and a liquid alkeneinseparatetesttubes.
+
+figCThe yellow colour is caused by unreacted bromine.
+PROBLEM2
+
+As more compounds containing the benzene ring were discovered, including those such as dibromobenzene (C4H4Br2), another problemarose.IftheKekulestructureiscorrect,thereshouldbe fourisomerswiththismolecularformula:
+
+figDThesearethefourisomers ofCHBr2.assuming that theKekule structureiscorrect.
+
+However,only threewereknowntoexist.So,thetwoisomerswith bromineonadjacentcarbon atoms areidentical.Itisnotthecase that adjacent atoms in one isomer are joined by C—C and in the other by C=C. This suggests that thebonds between the carbon atoms in thebenzeneringare thesame,not different.
+PROBLEM3
+
+When datafromX-ray diffraction about the lengths ofcovalent bondsinmoleculesbecameavailable,therewas anotherproblem
+
+TableAshowsthebondlengthsinbenzene andcyclohexene (a cyclic alkene with five C——C single bonds and one C=C doublebond)inpicometres.
+
+## Topic 18: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### 18A Arenes: Benzene
+
+
+#### PROBLEM3
+| BOND              |   BONDLENGTH/pm |
+|-------------------|-----------------|
+| C-Cin cyclohexene |             154 |
+| C=Cin cyclohexene |             134 |
+| C-Cinbenzene      |             139 |
+
+## Topic 18: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### 18A Arenes: Benzene
+
+tableA
+
+This evidence suggests that the carbon-carbon bonds in benzene are all the same,and perhaps also intermediate in character betweenC—CandC=Cbonds.
+
+PROBLEM4
+
+When thermochemical data about enthalpy changes of hydrogenation became available,there was yet anotherproblem.Table B shows these enthalpy changes for three relevant compounds.
+
+## Topic 18: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### 18A Arenes: Benzene
+
+
+#### PROBLEM4
+| COMPOUND                             |   ENTHALPYCHANGEOF HYDROGENATION/KJmol-1 |
+|--------------------------------------|------------------------------------------|
+| Cyclohexene                          |                                     -120 |
+| cyclohexa-1,4-diene                  |                                     -239 |
+| cyclohexa-1,3,5-triene (theoretical) |                                     -360 |
+| benzene (actual)                     |                                     -208 |
+
+## Topic 18: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### 18A Arenes: Benzene
+
+tableB
+
+All of these hydrogenation reactions form the cyclic alkane cyclohexane. This evidence suggests the following.
+
+• ·The first two values indicate that the enthalpy change for adding 1 mol of H2to 1 molof C=C bonds is around-120kJmol-1 (thevalueforcyclohexa-1,4-dieneisdoublethatofcyclohexene because there are twice as many C=C bonds).
+
+• TheKekule structure could be named cyclohexa-1,3,5-triene, forwhichthevalueshouldbetreblethatofcyclohexene.
+
+• The actual benzene has a value very much lower (152 kJ mol-1 lower)thana theoretical structurewiththreeC=Cdouble bonds would have.
+
+The values for cyclohexa-1,3,5-triene (theoretical) and benzene (actual)canberepresentedonanenthalpyleveldiagram,as shown in fig E.
+
+fig EThisdiagram shows theenthalpy changesforKekule'sbenzene and real benzene.
+
+## Topic 18: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### 18A Arenes: Benzene
+
+EXAM HINT
+
+Whenwritinganequationforthe complete hydrogenationof benzene,makesureyouinclude3Htobalancetheequation(see Section 18A.2).
+
+## Topic 18: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### 18A Arenes: Benzene
+
+PROBLEM5
+
+Fig F shows a comparison of the infrared spectra of cyclohexene and benzene.
+
+fig F Comparison of the infrared spectra of (a) cyclohexene and (b) benzene.
+
+Cyclohexene has an absorption at around 1650 cm-', which is typical of an isolated alkene C=C stretch (normally between 1680 and 1645 cm-1).
+
+Benzene has a strong absorption at around 1500 cm-1, and also absorptions at 1580 cm-1 and 1450 cm-′, which are typical of an aromatic C=C stretch.
+ANEWMODELFORBENZENE
+
+The weaknesses of theKekule structure and growing evidence from other areas of chemistry led to a newmodel ofbenzene.In Book 1,weexplained the C=C double bond in ethene in terms of single sigma C—C bonds and pi bonds formed by the sideways overlap of orbitals.
+
+Now consider the situation in benzene after all the sigma (o) bonds have formed. Each carbon atom has one electron in a p-orbital. You can imagine the formation of three individual π-bonds,but instead imagine the formation of one large π-bond made up of all six electrons.Three are in a doughnut shapeabovetheatomsandthreeareinanotherdoughnutshapebelowtheatoms.Together,thesesix electrons form a delocalised π-bond, as shown in Fig G.
+
+fig G The delocalised structure of benzene forms when the p-orbitals overlap sideways forming a π-electron cloud above and below the plane of the carbon atoms.Each carbon atom contributes one electron to the cloud,giving a delocalisedsystemofsixelectronsintotal.
+ANEWMEANINGOF'AROMATIC'
+
+Letusseehowthisnewmodelovercomestheproblems associatedwiththeKekulestructure.
+
+Problem 1There arenoindividual C=C bonds,sothere is no additionreactionwithbromine.
+
+Problem 2There are three,notfour,isomers of CH4Brbecause whenthebromineatoms areonadjacentcarbon atomsthereisnodifferenceinthearrangementof electronsbetweentheseatoms.
+
+Problem3Thecarbon-carbonbonds are all thesamelength because they are identical and are not individual C—C and C=Cbonds.
+
+• Problem 4 When charge is spread around in a species,there is increased stability, which explains the 152 kJ mol-1 greater stability of benzene compared with cyclohexa-
+
+1,3,5-triene.
+
+Problem5Theinfraredspectrumofbenzenehasaverystrong absorption at around 1500cm-1, which is typical of C=C in an aromatic compound. Absorptions for C=C in non-aromaticcompounds arebetween1680 and 1645cm-1.
+
+Thefactthatbenzeneundergoesasubstitutionreactionwith brominetoformCHsBr,rather thanadditiontoformCH4Br2, canbeexplainedbecausesubstitutionpreservesthestabilityof thedelocalisedelectronsinthepibond.Theadditionreaction wouldinsteadproduceacompoundwithtwoC=Cdouble bonds, and that would lack the extra stability of the product of the substitutionreaction.
+
+Nowwecanusetheoldword'aromatic'inanewway-itrefers to a hydrocarbon ring containing delocalised electrons. The traditionalskeletalformulaforbenzenecannowbereplaced by this:
+
+• fig HThe circle represents the delocalised pi bonds with six electrons in total.
+
+## Topic 18: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### 18A Arenes: Benzene
+
+LEARNING TIP
+
+When explaining thebonding in a benzene molecule,becareful to avoidconfusionbetweenelectronsinp-orbitalsanddelocalised electronsinπ-bonds.
+
+## Topic 18: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### 18A Arenes: Benzene
+
+CHECKPOINT
+
+• 1. UsingtheKekulestructureforbenzene,drawtheisomersof tribromobenzene,CHBr3
+
+• 2. Howmanyelectronsinabenzenemoleculeareinvolvedin: (a) o-bonding
+
+• (b)π-bonding?
+
+## Topic 18: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### 18A Arenes: Benzene
+
+SUBJECT VOCABULARY
+
+aromatic the original meaning was a description of the smell of certain organiccompounds.Thenewmeaningisa descriptionof the bondingina compound-delocalisedelectronsformingpi(π) bonding in a hydrocarbon ring
+
+## Topic 18: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### 18A Arenes: Benzene
+
+LEARNING OBJECTIVES
+
+• Know the followingreactions of benzene, limited to:
+
+• oxygen in air (combustion to form a smoky flame)
+
+• (i) ）bromine,in the presence of a catalyst
+
+• () )amixtureofconcentratednitricandsulfuricacids
+
+• (iv) )fumingsulfuricacid
+
+• (v) halogenoalkanes and acyl chlorideswith aluminium chloride ascatalyst(Friedel-Craftsreaction).
+
+## Topic 18: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### 18A Arenes: Benzene
+
+REACTIONSASAHYDROCARBON
+
+In Section 18A.1, hydrogenation was mentioned. This reaction occursin thesamewaywithbenzeneaswith alkenes.The sameis true for combustion.
+
+HYDROGENATION
+
+This is done by mixing benzene with hydrogen and heating under pressure with a nickel catalyst. The equation for the reaction can be shown using molecular or skeletal formulae:
+BROMINATION
+
+Thetermbromination'hasmorethanonepossiblemeaning.It
+
+couldrefertotheadditionreactionbetweenbenzeneandbromine. This reaction does occur in the presence of ultraviolet radiation, but it is of little importance. In this book, the term refers to a substitutionreaction.
+
+Benzene andbromine areheated underreflux,inthepresenceof acatalystcalledahalogencarrier.Halogencarriersareusually metal-halogen compounds such as aluminium chloride, aluminium bromide oriron(Ill)bromide.Forbromination,it is enough to add iron filings because they react with some of the bromine to form iron(Ill) bromide.Theproducts arebromobenzene and hydrogen bromide. The equation for the reaction is:
+NITRATION
+
+Thisreferstothereplacementofa hydrogenatombya nitro group. The nitro group has the formula NO2 and should not be confused with the gas nitrogen dioxide.The reaction is carried out bywarmingbenzenewithamixtureofconcentratednitricand sulfuric acids.Thenitric acid canbeconsidered asthe source of the NO2 group and the sulfuric acid as a catalyst. The products are nitrobenzene andwaterTheequationforthereactionis:
+
+or:
+
+Note the plain hexagon (without a circle) used for the skeletal formula for cyclohexane.
+COMBUSTION
+
+Aswith all hydrocarbons,benzene burns in air, although with a smoky flame. This is typical of many compounds with a high carbon-to-hydrogen ratio. The equation for complete combustion is:
+
+The reaction is carried out between50 and 60°C.At lower temperatures the reaction is too slow.At higher temperatures it is possible to form dinitrobenzene, and even trinitrobenzene.
+
+REACTIONSASANARENE
+
+Themostimportantreactionsofbenzenearesubstitution reactions,inwhich theproducts are also aromatic.Wewill considerthemechanismsofthesereactionsinthenextsection (Section 18A.3).
+
+## Topic 18: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### 18A Arenes: Benzene
+
+LEARNING TIP
+
+Brominationreferstoputtingbromineintoamolecule.Thiscouldbe by anadditionreaction,butinthissectionitrefersonlytoa substitutionreaction.
+
+## Topic 18: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### 18A Arenes: Benzene
+
+FRIEDEL-CRAFTSREACTIONS
+
+Reactions with this namewere developed by CharlesFriedel (aFrenchchemist) andJamesCrafts(anAmerican chemist) Thereareseveral typesofreactionbearingtheirnames,butwe will consider only two of them:alkylation and acylation.They bothhavethesefeaturesincommon:
+
+• using a reagent represented byXY,one of the hydrogen atoms inbenzeneis substituted byY,and theotherproduct isHX
+
+• a catalystisneeded-often aluminium chloride,althoughother halogen carriers such as iron(II) chloride and iron(III) bromide alsowork
+
+• anhydrousconditionsareneededbecausewaterwouldreact withthecatalystandsometimesalsowiththeorganicproduct.
+FRIEDEL-CRAFTSALKYLATIONREACTIONS
+
+Alkylation means the substitution of one of the hydrogen atoms of benzene by an alkyl group.The reagent is a halogenoalkane, and the products are an alkylbenzene (methylbenzene) and hydrogen chloride.Theequationforthereactionwithchloromethaneis:
+FRIEDEL-CRAFTSACYLATIONREACTIONS
+
+Acylation means the substitution of one of the hydrogen atoms inbenzene by an acyl group. The reagent is an acyl chloride,and the products are a ketone (phenylethanone) and hydrogen chloride. Theequationforthereactionwithethanoylchlorideis:
+SULFONATION
+
+Sulfonation refers to thereplacement of a hydrogen atom by a-SOH group.Thereaction is carried out by warming benzenewith fuming sulfuric acid at 40°Cfor 20 to30 minutes.
+
+The product is benzenesulfonic acid.
+
+Fuming sulfuric acid is made by dissolving sulfur(VI) oxide (sulfur trioxide, SOs) in concentrated sulfuric acid.
+
+## Topic 18: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### 18A Arenes: Benzene
+
+LEARNING TIP
+
+Theequationforsulfonationmayalsobewritten as
+
+Which equation youuse depends on the questionyou arebeing asked.If thequestion is about thereaction with sulfuric acid,thenyoumustuse the equationwith HSO4.If the questionhasSOas theelectrophile, thenyoucouldusethisequation.
+
+## Topic 18: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### 18A Arenes: Benzene
+
+NAMINGAROMATICCOMPOUNDS
+
+The rules for naming aromatic compounds are similar to those used for aliphatic compounds. Prefixes, locants, hyphens and commas, and multiplying prefixes are used in the same way. In some names, you will see'phen'or'phenyl' used to represent the benzene ring when it is attached to another functional group.For example,the organic product of the last reaction is phenylethanone: 'ethan'referstothetwocarbon atomsinCHCO,'one'indicates that thecompoundisaketone and 'phenyl' refers to the CHs group. You might expect benzyl' to be used rather than'phenyl', but it is not.Theexplanationforthisisbeyond theaimsofthisbook.
+
+## Topic 18: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### 18A Arenes: Benzene
+
+CHECKPOINT
+
+• 1. Write anequationforthereactionbetweenbenzeneand2-bromopropane.
+
+• 2. What isthe name of theorganicproduct formed in thereactionbetweenbenzene and butanoyl chloride?
+
+benzenesulfonic acid
+
+figAShoepolish is one of themanycommercialproducts containing aromaticcompounds.
+
+## Topic 18: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### 18A Arenes: Benzene
+
+SUBJECT VOCABULARY
+
+halogencarrieracompound suchasAlXorFeX3,whereXis ahalogen,thatcancatalysethe halogenationofarenes.They producea strongerelectrophile, such asBr+
+
+## Topic 18: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### 18A Arenes: Benzene
+
+LEARNING OBJECTIVES
+
+• Understand themechanism of theelectrophilic substitutionreactionsofbenzeneinhalogenation,nitration and Friedel-Crafts reactions, including the generation of the electrophile.
+
+## Topic 18: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### 18A Arenes: Benzene
+
+ELECTROPHILICSUBSTITUTION
+
+Although you have not seen this mechanism before, you have studied substitution reactions in Topics 4 and 10 (Book 1: IAS), and electrophilic addition reactions in Topic 5 (Book 1: IAS).
+
+Beforeweconsiderthemechanismsoftheindividualreactions,it is worth considering what they all have in common:
+
+• .The benzene ring is electron-rich.Although it is electrically neutral, the delocalised electrons in the pi (π)bond above andbelowtheatomsmeanthatthemoleculeattracts electrophiles-species attracted to negative charge.
+
+• UsingY+to represent the electrophile,as Y+ approaches the delocalised-bond,it attractstwo ofthesixelectrons,which form a covalent bond with it. This gives an intermediate species with a positive charge(shown by convention in the centre of thehexagon),inwhich one carbon atomisjoined to bothY and H. There are now only four delocalised electrons, and these arerepresented by two-thirds of a circle.
+
+• Thisintermediate species lacks the stabilityof an aromatic compound (because the circle is broken), so in the next step the Hleaves as H+ and the two electrons in the C—H bond join theremainingfourtorestorethedelocalisedπ-bond(withits relativelyhighstability).
+
+When drawingthesemechanisms,orskeletalformulae,a substituenton thebenzeneringcanbeshowninanyofthesix positions. It is usually shown at the top of the hexagon or the next position clockwise.
+
+To helpyou see the similarities and differences in these mechanisms,they are all set out in the same way.
+BROMINATION
+
+Step 1:formation of the electrophile
+
+BrominereactswiththecatalysttoformBr+:
+
+AlBr+Br2→Br++AlBr
+
+Step 2:electrophilic attack
+
+18.5
+
+NotethattheH atomshownintheproductof thisstepis already present inbenzene,although it is not shown.It is shownhere because it will be lost in Step 3.
+
+Step3:formationofthearomaticproduct
+
+Step 4:regeneration of the catalyst
+
+AIBr+H+→AIBr+HBr
+NITRATION
+
+Step1:formation of theelectrophile
+
+Nitric acid and sulfuric acid react to form NO2+ (the nitryl ion or nitronium ion):
+
+Step 2: electrophilic attack
+
+Step 3: formation of the aromatic product
+
+Step 4:regeneration of the catalyst
+
+HSO+ H+→H2SO4
+
+## Topic 18: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### 18A Arenes: Benzene
+
+EXAM HINT
+
+Theformationoftheelectrophileinthisreactioninvolvesnitricacid acting as a base.Thisis because it accepts a proton from the sulfuric acid(seeTopic14).
+
+## Topic 18: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### 18A Arenes: Benzene
+
+ALKYLATION
+
+Step 1:formation of the electrophile
+
+Chloromethane reacts with the catalyst to form CH:
+
+AICl,+ CHCI →CH + AlCl
+
+Step 2:electrophilic attack
+
+Step3:formationofthearomaticproduct
+
+Step 4:regeneration of the catalyst
+
+AlCl+H+→AICl+HCI
+
+ACYLATION
+
+Step 1:formation of the electrophile
+
+Ethanoyl chloridereactswith thecatalyst toformCHCO+:
+
+AICl, + CH,COCI → CHCO++ AlCl
+
+Step2:electrophilic attack
+
+Step 3: formation of the aromatic product
+
+Step4:regeneration of the catalyst
+
+## Topic 18: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### 18A Arenes: Benzene
+
+CHECKPOINT
+
+• 1. Write an equationforStep1 in the bromination reaction in which the halogen carrier is iron(ll)bromide.
+
+• 2. Write equations forSteps 2 and 3 in the alkylation reaction using 1-bromopropane as a starting material.
+
+## Topic 18: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### 18A Arenes: Benzene
+
+SUBJECT VOCABULARY
+
+substitutionareactioninwhichanatom,orgroupof atoms,inamolecule sreplacedbyanotheratom,or groupofatoms
+
+electrophilica reactionmechanism inwhich the attacking species is anelectrophile
+
+electrophileanatom,moleculeorionthatcanacceptapairofelectrons
+
+## Topic 18: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### 18A Arenes: Benzene
+
+EXAM HINT
+
+If you areaskedtoshowthe mechanismforanalkylationor acylationreaction,makesure youshowtheformationofthe electrophileasthefirststep. Many studentsmissthisstepout.
+
+LEARNING TIP
+
+Notethesimilaritiesbetweenall thesemechanisms.Thefirststep involvesformationofthe electrophile,andthelastst showswhathappenstothe replacedH*.Thesecondand thirdstepsshowtheactual substitutioninthebenzenering.
+
+## Topic 18: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### 18A Arenes: Benzene
+
+LEARNING OBJECTIVES
+
+• Understand thereactionofphenolwithbrominewater and thereasonsfortherelative easeof thisreactioncompared tobenzene.
+
+## Topic 18: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### 18A Arenes: Benzene
+
+WHATISPHENOL?
+
+Most aromatic compounds have a benzene ring and an aliphatic part. In previous sections of this topicyou have covered some important reactions of thebenzene ring.You know many of the reactions of aliphatic compounds from Topic 15 and from Book 1. In this section we will look at one more aromatic compound with a familiar aliphatic group, the hydroxyl (OH) group.
+
+Phenol consists of a hydroxyl group joined to a benzene ring. It has some properties similar to an aliphatic alcohol such as ethanol, and you would expect it to undergo electrophilic substitution reactions becauseitcontains abenzenering.Itsstructureis:
+BROMINATIONOFPHENOL
+
+Youwill rememberfromSection18A.2thatbenzeneundergoesbromination,butthereactionneeds acatalystandthereactionmixturehastobeheatedunderreflux.Incontrast,thebrominationof phenoloccursatroomtemperaturewithoutacatalyst,andworkswithbrominewater.Thebromine wateris decolourised during thereaction, and the organicproduct forms as awhite precipitate.The equationforthereactionis:
+
+Another obvious difference betweenbenzene and phenol is that the substitution reaction occurs three times, as there are three bromine atoms in the organic product.You can probably see why the name is 2,4,6-tribromophenol.The carbon joined to OHis carbon 1, the other carbons are numbered clockwise, and the three bromine atoms are joined to carbons 2, 4 and 6 in the ring.
+
+It is beyond the aims of this book to tryto explain why the reaction involves substitution by three bromineatomsandnotanyothernumberHoweverwecantrytoexplainwhythereactionoccurs muchmorereadilywithphenolthanwithbenzene.
+
+• ·The lone pair of electrons in the pz-orbital on the oxygen atom of the OH group interacts with the delocalisedpi(π)electronsinthering(figA).
+
+• Theelectrondensityabove andbelowtheringofatomsisincreased,aprocesssometimes referredtoas'activation'becausethemoleculeisnowmuchmorereactivetowardselectrophiles.
+
+• ·Bromine molecules, although originally non-polar, are polarised as they approach the benzene ring. Eventually, the Br—Br bond breaks and the Br+ electrophile attacks the benzene ring.
+
+Fig A shows how the delocalised electrons in the π-bond change because of the presence of the oxygen.
+
+• figATheelectronsinthepz-orbitalofthe oxygen atombecomepartof thedelocalised electronsystem.This increasestheelectrondensityaboveandbelowthering andmakesthemoleculemore attractivetoelectrophiles such asBr*.
+USESOFPHENOLANDITSDERIVATIVES
+
+Oneoftheearliest andbestknownusesofphenolwasinantisepticsurgery,especiallybythe surgeon Joseph Lister.Since then,other antiseptics have been developed fromphenol. One of the most familiar of these is the product of the chlorination of phenol - this is 2,4,6-trichlorophenol, better known as the antiseptic TCP. Nowadays, phenol is widely used in many industries, notably in themanufacture ofpolymers andpharmaceuticals.
+
+## Topic 18: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### 18A Arenes: Benzene
+
+DID YOU KNOW?
+
+You will remember phenolphthalein as an indicator in acid-base titrations, and will not be surprised to learn that it contains a benzene ring joined to a hydroxyl group! Although you do not need toknow its structure, notice that its colour change involves a change in the structure of phenol.
+
+## Topic 18: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### 18A Arenes: Benzene
+
+pink
+
+• figCThephenolphthaleincolour change involvesachangein the structure of phenol.
+
+ThecolourlessformisamoleculewiththreebenzeneringsandtwoOHgroups,whilethepinkformis an ion with no OH groups and two benzene rings.
+
+## Topic 18: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### 18A Arenes: Benzene
+
+CHECKPOINT
+
+• 1. Suggest whyphenol is a solid at room temperature and is slightly solubleinwater.
+
+• 2. WriteanequationfortheformationofTCPfromphenol.
+
+figBAntisepticsbased on phenol areuseful for treating small wounds andgrazes.
+
+## Topic 18: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### 18A Arenes: Benzene
+
+LEARNING TIP
+
+Becarefultodistinguish betweentheuseof'benz'and 'phen'in organicnames.In general,benz'comes afterthe othergroupsinthemolecule.
+
+## Topic 18: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### Topic 18: Organic Chemistry: Arenes
+
+MOLECULESOFFRAGRANCE ANDTASTE
+
+INITIATIVE, SELF-DIRECTION
+
+Behind theflavours and scents that we experience every day thereis often a complexmix of organicmolecules.Thefollowing extract is fromChemistryWorld,thetheonline andprintRoyalSocietyofChemistrymagazine.
+
+THESWEET SCENT OFSUCCESS
+
+EmmaDaviestalkstoPhilipKraft,whodesignsmolecules that elicit strong and immediate emotions in people, and Toni Gautier, corporate vice-president of R&D at Firmenich.
+Charttoppers
+
+To make a fine fragrance, new molecules are mixed with old favourites.But which fragrance compounds are most valued by industry-akindoffragrancetop10?It's adifficultquestion toanswer.GautierhasnodoubtaboutthevalueofHedione (methyldihydrojasmonate),usedin almostallfinefragrances andFirmenich'stopsellerintermsofvolume.Thecompound wasdiscovered atFirmenichintheearly1960s asan analogueof methyl jasmonate,akeycomponent of jasmine oil.Said togive a warmfloral-jasminenote,Hedionehasbeenusedinperfumesfor over40years,firststarringinDior'sEauSauvagein1966.
+
+figASkeletal structureofHedione.
+
+figBα-andβ-damasconearefruity componentsofroseoil.
+
+The synthesis ofHedionegivesfourstereoisomers，explains Gautier. 'Only one of them truly contributes to the odour -(+)-cis-methyl dihydrojasmonate-whiletheothersarethoughttomodulateother fragrances.Overtheyearswe'vebeenabletosynthesisenewversions ofHedionewhichhaveamuchhigherquantityoftherightisomer.'
+
+#### Charttoppers
+From"TheSweet Scent of Success'by Emma Davies,Chemistry World,February 2009. https://www.chemistryworld.com/feature/the-sweet-scent-of-success/3004856.article Gautier alsohas a soft spotfortheroseketones:damascenone, and alpha andbeta damascone.Firmenichisfamedfortheir discovery and synthesis in the 1960s during a quest to identify the characteristicsmellofBulgarianroseoil.Butbatchpurity problemsmeantthatdamascenonewasnotreleasedcommercially until 1982. Then came alpha-damascone (rose-apple note) and beta-damascone(blackcurrant-plum note).Theroseketones brokenewgroundinthe1980s,givingfemaleperfumessuch as Dior'sPoison their unusual and distinctivefragrance.Today, beta-damascenoneandbeta-damasconeremaintwoofthemost importantfragranceingredients.
+
+#### Charttoppers
+Chemists are forever improving on the rose ketones,which are still trendsetters.OneofKraft'srecentand'verysuccessful'captives is Pomarose,a'cut-open'seco-damascone.Pomarose introduced thedried-fruitcharacterofPoisontothemalemarketandhad itsdebutinDKNY'smalefragranceBeDeliciousMen.'Ithas a very specific note of cooked apple,rose,and dried plums.It's verydiffusivesoitgives alotofbloomtoafragrance，enthuses Kraft.Givaudan'sprocessdevelopmentteamhad totry19 differentsynthesisroutesbeforeitmanagedtoproducePomarose. 'Initiallywe thoughtwe couldn't produceit.It was a crazyidea thatoriginatedfroma1percentimpurityforwhichdifferent structureswereproposedbasedontheNMRspectrum.Afterwe had discovered the correct structure we synthesised the"wrong proposal" for fun but it turned out to be so powerful, recalls Kraft. Interestingly,itwasn'ttheimpurityitself thatbecamePomarose, butoneofthealternativestructures.
+
+SCIENCE COMMUNICATION
+
+• 1What techniques does the author use to make the articles interesting to a wider target audience?
+CHEMISTRY IN DETAIL
+
+• 2 (a)Deduce the molecular formula of Hedione from the skeletal structure given in fig A.
+
+• (b)Identify the two chiral centres in themolecule Hedione and explain how four isomers arepossible.
+
+• (c)Write anequationfor the hydrolysisreaction of Hedione and 2 mol dm-3sodiumhydroxide solutionanddrawstructuresoftheproducts.
+
+• 3 The mass spectrumbelow shows the molecular isomers a-damascone andβ-damascone both found in rose oil.
+
+• (a)Using the structures in fig C, identify which of the two is able to form optical isomers and explainwhytheotherisomerisnot.
+
+• fragment isso abundant in thespectrum?
+ACTIVITY
+
+Many different molecules are now used in adding or augmenting both the flavour and aroma of foods. Choose one of the following groups of flavour molecules and write a report for your classmates on their use asflavouring and smell additives:
+
+• thiazoles
+
+• (i) pyrazines
+
+• (ii ketones and aldehydes
+
+• (iv)furanones and lactones
+
+Your report should include the following:
+
+• molecularstructures
+
+• ketonesand aldehydes
+
+• furanonesandlactones.
+
+THINKING BIGGER TIP
+
+Try to highlight some specific examples from the sourceinyouranswer.
+INTERPRETATIONNOTE
+
+Theskills thatyouhave developedthroughoutyour coursewillbevaluable whetherornotyoucontinue your study of chemistry beyond International A Level.Wheneveryoureada scientificarticle,remember toconsiderthesource,think criticallyand,aboveall,think like ascientist!
+DID YOU KNOW?
+
+A surprising ingredient forluxuryfragrancesis ambergris,ayellowish-grey waxysubstancethatformsin the digestivetractofsperm whales.Despite initially having a strongfaecal smell, the substance develops an unusual earthyscent asit ages.Ambergrishaslargely beenreplacedbysynthetic alternatives;however,it s stillasought aftersubstance. In 2013,a dog walker in Morecombe,UKfound a 3kglumpofambergrison the beach.Thisfind was estimatedtobeworth 100000.
+
+## Topic 18: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### Topic 18: Organic Chemistry: Arenes
+
+18 EXAMPRACTICE
+
+• 1Benzeneandcyclohexenearetestedseparatelywithbromine waterWhichobservationsaremade?
+
+• Abenzeneandcyclohexenebothdecolourisebrominewater
+
+• Bbenzenedecolourisesbrominewater,butcyclohexene doesnot
+
+• Cneitherbenzenenor cyclohexenedecolourisebrominewater
+
+• Dbenzenedoesnotdecolourisebrominewaterbut [1] cyclohexenedoes
+
+(Total for Question 1 = 1 mark)
+
+• 2Brominereactswithbenzene onheatinginthepresence ofa catalyst.It reactswith cyclohexa-1,3-diene atroom temperature.Whattypesofreactionsareinvolved?
+
+## Topic 18: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### Topic 18: Organic Chemistry: Arenes
+
+
+#### (Total for Question 1 = 1 mark)
+| brominewith benzene   | bromine with cyclohexa-1,3-diene   |
+|-----------------------|------------------------------------|
+| addition              | addition                           |
+| addition              | substitution                       |
+| substitution          | addition                           |
+| substitution          | substitution                       |
+
+## Topic 18: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### Topic 18: Organic Chemistry: Arenes
+
+
+#### (Total for Question 1 = 1 mark)
+[1]
+
+(TotalforQuestion 2=1mark)
+
+• 3Benzenereacts very slowlywith chlorine.Why does the reaction speed up when finely divided iron is added?
+
+• Athechlorinemoleculedonatesanelectronpairtotheiron producinganelectrophile
+
+• B the iron reacts with chlorine to form iron(Ill) chloride, which then acts as an electrophile in its reaction with benzene
+
+• Cthe ironreacts with chlorine to form iron(Ill) chloride,which then acts as anelectronpair acceptor
+
+• Dironisatransitionmetal andactsas aheterogeneous catalystinthereaction
+
+[1]
+
+(TotalforQuestion3=1mark)
+
+• 4It is calculated that benzene has a stabilisation energy of 150kJmol-1,asaresultofdelocalisation.Whatdoesthis mean?
+
+• A the enthalpy changefor the conversion ofbenzene to cyclohexa-1,3,5-triene is +150 kJ mol-1
+
+• B the enthalpy change for the conversion of cyclohexa1,3,5-triene to benzene is +150 kJ mol-1
+
+• C the enthalpy changefor the conversion of cyclohexene to benzene is +150 kJmol-1
+
+• D the enthalpy change for the conversion of benzene to cyclohexene is +150 kJ mol-1
+
+[1]
+
+(Total for Question 4 = 1 mark)
+
+• 5Benzenereactswithanitratingmixtureofconcentratednitric andsulfuricacids.Whichspeciesisleastlikelytobepresentin the nitratingmixture?
+
+• A NO3
+
+• B H;O+
+
+• C HSO4
+
+• D NOz
+
+[1]
+(Total for Question 5 = 1 mark)
+
+• 6 The reaction between hydrogen and benzene is normally very slow.Why does it speed upin thepresenceoffinely divided nickel?
+
+• A the nickel acts as a homogeneous catalyst by acting as an electronpair acceptorin theformation of an electrophile
+
+• B the nickel acts as a homogeneous catalyst by acting as an electronpairdonorintheformationofanelectrophile
+
+• C the nickel acts as a heterogeneous catalyst by providing activesitesonwhichreactionoccurs
+
+• D the nickel reacts with the hydrogen to form nickel(II) hydride, which then reacts with the benzene
+
+[1]
+(Total for Question 6 = 1 mark)
+
+• 7Addition and substitution reactions are common types of reactionsin organicchemistry.
+
+• (a)(i)Bromine reacts with both propene and benzene. Write an equationforeach of thesereactions.
+
+• (i)Statethetypeofmechanismineachofthese
+
+[2]
+
+reactions.
+
+• (b)The reagent used in the nitration of benzene is concentrated nitric acid. The reaction is usually carriedoutusingacatalystofconcentrated sulfuric acid.
+
+• Write equations to show how the sulfuric acid acts as a catalyst.
+
+[2]
+(Total for Question 7 = 6 marks)
+
+• 8AKekule structure ofbenzene suggests that the molecule consistsofalternatesingle anddoublecarbontocarbonbonds.
+
+The standard enthalpy change of hydrogenation of a carbon to carbon doublebond is-120kJ mol-1.
+
+• (a) (i) Calculate the standard enthalpy change of hydrogenation of benzenefor theKekule structure.
+
+structureA
+
+Explain how the evidence from each of thefollowing supports the viewthatstructureBisthebetterrepresentationforbenzene:
+
+[1]
+
+• (i)The actual standard enthalpy change of hydrogenation of benzene is -208 kJ mol-1.
+
+• Use this information, and your answer to (i), to calculatethedifferenceinstabilityofbenzene and theKekule structure.
+
+Statewhat thistellsus about thebondinginbenzene.
+
+Explain how this influences the type of chemical reactionsthatbenzeneundergoes.
+
+[4]
+
+• (b)The flow chart shows some typical reactions of benzene.
+
+• (i）Name thetwo chemicals needed to make nitrobenzene from benzene. [2]
+
+• (i)Classify the type ofreagent required in all three reactions.
+
+[1]
+
+• (ii)Show,with appropriatediagrams,themechanism forthereactionofbenzenewithbromine,inthe presence of iron(Ill) bromide, to form bromobenzene. Includeanequationtoshowformationoftheion attacking the benzene molecule. [4]
+
+• (iv)Give the structural formula and name of compound A.
+
+[2]
+
+(Total for Question 8 =14 marks)
+
+• (a) X-ray diffraction
+
+[2]
+
+• (b)enthalpy change of hydrogenation [2]
+
+• (c)thetypeofreaction thatoccurswithbromine.
+
+[2]
+
+(Total for Question 10 = 6marks)
+
+• 9Benzenereactswithamixture ofconcentrated nitric acid and concentratedsulfuricacidtoformnitrobenzene.
+
+• (a) Give the mechanism for this reaction, including an equationfortheformationoftheelectrophile.
+
+[4]
+
+• (b)The preparation of nitrobenzene is usually carried out between50and60°C. Explain why the temperature used should not behigher or lower.
+
+[2]
+
+(Total for Question 9 = 6 marks)
+
+• 10Benzene can berepresented by either structure A or structure
+
+B.
+
+## Topic 19: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### Topic 19: Organic Nitrogen Compounds: Amines, Amides, Amino Acids and Proteins
+
+TOPIC19ORGANICNITROGEN COMPOUNDS:AMINES AMIDES,AMINOACIDS SAND PROTEINS
+AAMINES,AMIDES,AMINOACIDSANDPROTEINS
+
+In Topic 18, you learned about the chemistry of arenes. In this topic you will extend your understanding of organic chemistry by considering compounds with functional groups such as amines and amides. You will also learn about condensation polymers such as polyesters and polyamides. Amino acids and proteins will be introduced.
+
+MATHS SKILLS FOR THIS TOPIC
+
+• Visualise andrepresent2Dand3Dforms,includingtwo-dimensionalrepresentationsof3Dobjects
+
+• Understandthesymmetryof2Dand3Dshapes
+
+Topics4,5,10（IAS:Book1),15,18
+
+• Howtousedifferentkindsofformulaeto representorganiccompounds
+
+• UsingIUPACrulestonameorganiccompounds
+
+• Howtonameamines,amidesandamino acids
+
+• Recognisingdifferenttypesofisomerism, including geometrical isomerism
+Whatwill I study in this topic?
+
+• Howtodrawstructural,displayedandskeletal formulaeofamines,amidesand amino acids
+
+• How to convert one organic compound into another
+
+• Howtowritereactionmechanisms
+
+• The similarities between manufacturing polyamides and theformation of proteinsfrom aminoacids
+
+## Topic 19: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### 19A Amines, Amides, Amino Acids and Proteins
+
+LEARNING OBJECTIVES
+
+• Understandthenomenclatureofaminesandbeableto drawtheirstructural,displayedandskeletalformulae.
+
+• Understand, in terms of reagents and general reaction conditions,thepreparationofprimaryaliphaticamines:
+
+• (i)fromhalogenoalkanes
+
+• (ii)by the reduction of nitriles.
+
+• Know the preparation of aromatic amines by the reduction of aromatic nitro-compounds using tin and concentrated hydrochloric acid.
+
+## Topic 19: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### 19A Amines, Amides, Amino Acids and Proteins
+
+INTRODUCTIONTOAMINES
+
+These nitrogen-containing compoundshave some similaritieswith ammonia. The three bonding pairs of electrons around nitrogen are distributed in a trigonalpyramidalshape.Thenitrogen atom has a lone pair of electrons and three bonds to one or more alkyl groups. If there is one alkyl group, the amine is classed as primary. If there aretwo,thenit issecondary.Withthree itistertiary.FigAshows thestructuresofthesimplestamineineachoftheseclasses.
+
+figAThesearethesimplestexamplesofprimary,secondaryand tertiary amines.
+
+In this book we will focus on primary amines. Methylamine is a gas at room temperature,ethylamine has a boiling temperature of 17 °C, and propylamine and butylamine are volatile liquids. This list of names shows the naming system used -the suffix is -amine and the usual codes methyl, ethyl, propyl, butyl etc. are used.
+
+We will also meet the simplest aromatic amine, CHsNH2, which is phenylamine.
+
+Amines occur widely in nature,and many drugs (bothlegal and illegal) are amines, including the group of compounds called amphetamines.
+
+figBSome cold andfluremediescontain amines.
+
+NOMENCLATURE
+
+We learned about amines in Topic 10 (Book 1: IAS),but only as the product of reactions between halogenoalkanes and ammonia.
+
+TableAshowsthestructuralformulaeandnamesofsome examples of amines.
+
+## Topic 19: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### 19A Amines, Amides, Amino Acids and Proteins
+
+
+#### NOMENCLATURE
+tableA
+
+| STRUCTURALFORMULA   | NAME        |
+|---------------------|-------------|
+| CH3NH2              | methylamine |
+| CHCHNH2             | ethylamine  |
+| CHCH2CHNH2          | propylamine |
+| CHCH2CH2CHNH2       | butylamine  |
+| CHsNH2              | phenylamine |
+
+## Topic 19: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### 19A Amines, Amides, Amino Acids and Proteins
+
+DISPLAYEDANDSKELETALFORMULAEOFAMINES
+
+TableB shows the displayed and skeletal formulae of the amines in table A.
+
+## Topic 19: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### 19A Amines, Amides, Amino Acids and Proteins
+
+
+#### DISPLAYEDANDSKELETALFORMULAEOFAMINES
+tableB
+
+| NAME        | DISPLAYEDFORMULA   | SKELETAL FORMULA   |
+|-------------|--------------------|--------------------|
+| methylamine | H H                | NH2                |
+| ethylamine  | H H H H            | HN                 |
+| propylamine | 口 H H H H         | HN                 |
+| butylamine  | H H H H H H H      | NH                 |
+| phenylamine |                    | NH,                |
+
+## Topic 19: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### 19A Amines, Amides, Amino Acids and Proteins
+
+PREPARATIONOFALIPHATICAMINES
+
+startingfromhalogenoalkanesorfromnitriles.
+PREPARATIONFROMHALOGENOALKANES
+
+The method involves heating a halogenoalkane with ammonia. Because ammonia is a gas, this must be done under pressure and in a sealed container.Alternatively,the halogenoalkane canbemixed with concentrated aqueous ammonia.The equationfor the preparation of methylamine is:
+
+Thereactioninvolvesnucleophilicattackbythelonepairofelectronsofammoniaontheelectrondeficient carbon atom in thehalogenoalkane.Notice that the amineformed also has a nitrogen atom containing a lone pair of electrons. This means that it could also act as a nucleophile, competing withammoniainthe attackon thehalogenoalkane.Thiswouldresult in thereaction:
+
+The product of thisreaction is a secondary amine,in this case dimethylamine.
+
+Topreventsuchunwantedside-reactionsoccurring,oratleastreducethechancesofthem happening,the ammonia is used in excess,so that it outnumbers the molecules of primary amine formed.Someoftheexcessammoniareactswiththeacidichydrogenchlorideformed,soabetter equation torepresent thepreparation is:
+
+CHCI+2NH→CHNH2+NH4CI
+PREPARATIONFROMNITRILES
+
+Nitriles can be reduced to primary amines by reduction, using the reducing agent lithium tetrahydridoaluminate,whichyoumayrememberfromTopic15canalsobeusedtoreduce carbonyl compounds.Asbefore,thereactants are mixed in dry ether,to ensure that thereis nowater thatcould affectthereaction.Theequationforthereduction ofethanenitrileis:
+
+[H] represents hydrogen atomsproduced by thereagent in away that you donot need toknow.
+PREPARATIONOFAROMATICAMINES
+
+A specific method is used to prepare aromatic amines, especially phenylamine, which is made by the reduction of nitrobenzene. In this method, the reducing agent is tin mixed with concentrated hydrochloricacid,andthereactionmixtureisheatedunderreflux(figC).Thereductionis achieved partly through the oxidation of tin to tin(Il) ions and tin(IV) ions, and partly through the hydrogen produced in the reaction between tin and the acid. To make things simple we will represent the reducing agent by[H]. The equation for thereaction is:
+
+Aswithotheramines,phenylamineisbasicandwillreactwiththeacidpresenttoformthe phenylammoniumion,butthiscaneasilybeconvertedintophenylaminebyaddinganalkalisuchas sodium hydroxide solution:
+
+In the 19th century,phenylamine was called aniline, and was the source of large numbers of dyes used mainly for clothing. It is still used in the manufacture of synthetic indigo, most familiar as the colour ofbluedenimjeans.Nowadays,muchphenylamineisused inthemanufacture ofpolymers andpharmaceuticals.
+
+## Topic 19: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### 19A Amines, Amides, Amino Acids and Proteins
+
+LEARNING TIP
+
+Note that inthename usedfora nitrile,thecodeindicatingthenumberofcarbon atomsincludestheCin theCNgroup,so CHCHCHCNisbutanenitrile,notpropanenitrile.
+
+## Topic 19: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### 19A Amines, Amides, Amino Acids and Proteins
+
+CHECKPOINT
+
+Write an equationforthepreparationof propylamine startingfrom:
+
+• (a) a halogenoalkane
+
+(b) a nitrile.
+
+• 2. Explainwhyanotherorganicproductwouldbeformedin1(a)ifthetworeactantswereusedin a 1:1 ratio.
+
+## Topic 19: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### 19A Amines, Amides, Amino Acids and Proteins
+
+EXAM HINT
+
+Althoughyoucanuse[H]forthe reducingagent,youmust ensuretheequationisbalanced bywritingtheappropriate number.Inthiscaseitis4[H]
+
+figCApparatus suitable for convertingnitrobenzene into phenylamine.
+
+## Topic 19: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### 19A Amines, Amides, Amino Acids and Proteins
+
+19A 2ACID-BASEREACTIONSOFAMINES 19.2(i) 19.2(ii) 19.3
+
+## Topic 19: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### 19A Amines, Amides, Amino Acids and Proteins
+
+LEARNING OBJECTIVES
+
+• Understand the reactions of primary aliphatic amines (using butylamine as an example) and aromatic amines (using phenylamineasanexample)with:
+
+• (i)watertoformanalkalinesolution
+
+• (ii)acidstoform salts.
+
+• Understand that amines are miscible with water as a result of hydrogen bonding, and the reasons for the difference inbasicity betweenammonia,primaryaliphaticaminesandprimaryaromaticamines.
+
+## Topic 19: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### 19A Amines, Amides, Amino Acids and Proteins
+
+REACTIONSWITHWATER
+
+The first few members of the homologous series of primary aliphatic amines are completely miscible(capable of mixing)withwaterHowever, asthehydrocarbon part of themoleculebecomes proportionatelylarger,thesolubilitydecreases.
+
+They dissolve in water because they canform hydrogen bonds withwater molecules (see fig A).
+
+Phenylamineis only slightly soluble inwater.
+
+As well as dissolving in water, amines also react slightly with water to form alkaline solutions. Comparetheequationsusingmethylamineandammonia:
+
+CHNH2+H2O=CHNH+OH- NH+HO = NH + OH-
+
+You can see the similarity-this is because the nitrogen atom in both molecules can use its lone pair ofelectronstoformadativebondwiththehydrogenofawatermolecule.Thecationinthefirst equation is themethylammonium ion-think of it as an ammoniumion in which onehydrogen has been replaced bya methyl group.So,howdo amines and ammonia compare asbases?What is the positionofequilibriuminthesereactions?
+
+COMPARINGBASICITIES
+
+ThepK,ofwaterat298Kis7.00,and anyvaluelower than7.00indicates abasicitygreater than that ofwaterWater is equallygood as a base and as an acid.Table A shows the pK,values at 298K for ammonia and some amines.
+
+## Topic 19: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### 19A Amines, Amides, Amino Acids and Proteins
+
+
+#### COMPARINGBASICITIES
+| NAME        | FORMULA   |   pKb |
+|-------------|-----------|-------|
+| ammonia     | NH3       |  4.75 |
+| methylamine | CHNH2     |  3.36 |
+| ethylamine  | CHCHNH2   |  3.27 |
+| propylamine | CHCHCHNH2 |  3.16 |
+| phenylamine | CgHsNH2   |  9.38 |
+
+## Topic 19: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### 19A Amines, Amides, Amino Acids and Proteins
+
+tableA
+
+What these values show is that methylamine is a stronger base than ammonia, and that extending the hydrocarbon chain causesfurther, but smaller, increases in basicity. Phenylamine is a much weaker basethananyofthealiphaticamines,andisaweakerbasethanevenwater
+
+Methylamineisa strongerbasethanammoniabecause themethylgroupis electron-releasing,and so has an increased electron density on nitrogen compared with ammonia. The ethyl and propyl groups areonlyslightlymoreelectron-releasingthanmethyl,sotheireffects areverysimilarFigBshows the situation.
+
+• figAThe diagram shows the formationof hydrogenbonds between a primary amine and water.
+
+## Topic 19: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### 19A Amines, Amides, Amino Acids and Proteins
+
+LEARNING TIP
+
+Notethebigdifferencein basicitybetweenaliphatic aminesandaromaticamines andthesmalldifferencesin basicitybetweendifferent aliphaticamines.
+
+• increaseinelectrondensityonthenitrogenatoms.
+
+Theequationforthereactionofbutylaminewithwateris
+
+CHCHCHCHNH+HO=CHCHCHCH,NH+OH-
+
+The situation with phenylamine is very different.Think back to the diagram inSection 18A.4 showing that in phenol one of the lone pairs of electrons on oxygen is incorporated into the delocalised electrons in the benzene ring. A similar thing happens with phenylamine, and this makesthenitrogenlesselectron-richand thelonepairofelectronslessavailablefordonatingto thehydrogenofawatermolecule.FigCshowshowthedelocalisedelectronsnowextend above and below the nitrogen.So,as the original lone pair of electrons on nitrogen is now part of the delocalised system, it is less availableforbondingto thehydrogen of a water molecule.
+
+lonepair now delocalised withtheringelectrons
+
+• figCTheelectronsfromthelonepaironthenitrogenhavejoinedwith thedelocalisedelectronsonthe benzene ring.
+
+## Topic 19: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### 19A Amines, Amides, Amino Acids and Proteins
+
+REACTIONSWITHACIDS
+
+Even though the amines vary in their basicity, they all react with strong acids to form ionic salts. Sample equations are:
+
+CHNH2 + HNO3
+
+• CHNHNO
+
+methylamine
+
+methylammonium nitrate
+
+CHCHCHCHNH+HCI butylamine
+
+• CHCHCHCHNHCI butylammoniumchloride
+
+CHsNH2 + HCI
+
+• CHNHCI
+
+phenylamine
+
+phenylammonium chloride
+
+## Topic 19: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### 19A Amines, Amides, Amino Acids and Proteins
+
+CHECKPOINT
+
+• 1. Writeanequationforthereactionof ethylamine with:
+
+(a)water
+
+(b) sulfuric acid.
+
+• 2. Predict,withareason,whetherdimethylaminehasalowerorhigherbasicitythanmethylamine.
+
+## Topic 19: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### 19A Amines, Amides, Amino Acids and Proteins
+
+SUBJECT VOCABULARY
+
+basicity the extent towhich abase can donate alonepairof electronsto the hydrogen atom of awater molecule
+
+## Topic 19: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### 19A Amines, Amides, Amino Acids and Proteins
+
+LEARNING OBJECTIVES
+
+• Understand the reactions of primary aliphatic amines (using butylamine as an example) and aromatic amines (using phenylamineasanexample)with:
+
+• (i)halogenoalkanes
+
+• (i)ethanoyl chloride
+
+• (ii)copper(ll) ions to form a complex ion.
+
+• Be able to describe the reaction of aromatic amines with nitrous acid to form benzenediazonium ions, followed by a coupling reactionwithphenol toform a dye.
+
+## Topic 19: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### 19A Amines, Amides, Amino Acids and Proteins
+
+LEARNING TIP
+
+Addition-eliminationreactions arealsocalledcondensation reactions.
+
+## Topic 19: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### 19A Amines, Amides, Amino Acids and Proteins
+
+REACTIONSWITHETHANOYLCHLORIDE
+
+Youdonotneed toknow themechanismsofthesereactions.However,thenameofthemechanism willhelpyouunderstandhowthereactionsoccur.Thereactiontypeisaddition-elimination, whichmeansthatthetwomoleculesjointogether and thenasmallmoleculeiseliminated-inthese examples,hydrogen chloride.The organic product contains an newfunctional group-amide -in whichacarbonylgroupisnexttoanNHgroup.
+
+The equation for the reaction of phenylamine with ethanoyl chloride is:
+
+CHCOCI+CHNH2 CHCONHCH+HCI
+
+Theequationforthereactionbetween ethanoyl chloride and butylamine is:
+
+Wewill meet amides in a later section,but we can introduce the naming system here.The most common amide is ethanamide,and the product of the above reaction can be thought of as the result of replacing one of the hydrogens in the NH2 groupby the butyl group.Its name contains two words -the first is the alkyl group from the amine and the second indicates the number of carbon atoms in the original acyl chloride.As the butyl group is attached via a nitrogen atom, Nis used as thelocant.The name isN-butylethanamide.
+PARACETAMOL
+
+This is one of the most common pharmaceuticals used to relieve the symptoms of fever and pain. Itismanufacturedinasequenceofreactions,oneofwhichis anaddition-eliminationreaction.Its structure is:
+
+You can see how paracetamol got its name.The'para'part indicates that the two groups attached to the benzene ring are at opposite ends of the ring. The'acetam' part comes from the old name for ethanamide,which used tobe called acetamide.Finally, the'ol'part indicates the presence of a hydroxyl group.
+REACTIONSWITHHALOGENOALKANES
+
+Youdonotneed toknow themechanismsofthesereactions.Howeveryou canseethatthetwo wouldreacttogetherbecauseahalogenoalkanecontainsanelectron-deficientcarbonatomand
+
+an amine contains an electron-rich nitrogen atom. Using general formulae,the reaction can be represented as:
+
+R'NH2 + R"X → R'NHR" + HX
+
+where R'is the alkyl group in the amine and R"is the alkyl group in the halogenoalkane. The reactionisanotherexampleofsubstitution.Theorganicproductisasecondaryamineandthe inorganic product is a hydrogen halide, often hydrogen chloride.
+
+Theequationforthereactionbetweenphenylamine andchloroethaneis:
+
+CHsNH2+ CHCHCl → CHsNHCHCH +HCl
+
+An example equation using butylamine and chloroethane is:
+
+CHCH2CH2CH,NH2 + CHCH2CI → CHCHCH,CH,NHCH,CH + HCI
+
+chloroethane.The equationforthisfurtherreaction is:
+
+CHCHCHCHNHCH,CH+CHCHCI→CHCHCHCHN(CHCH3)2+HCI
+
+The organicproduct of this reaction is a tertiary amine.
+
+reactwiththehalogenoalkanes.Theequationforthisfurtherreactionis:
+
+Notethattheequationisdifferentthistime-HClisnotformedbecausethiswouldrequiretheloss of H from the nitrogen of the organic reactant, which a tertiary amine does not have. The product ammonium ion have been replaced by alkyl groups.It is known as a quaternary ammonium salt.
+
+amixtureofsimilarproductswillbeformed.Ifthereisanexcessofthehalogenoalkane,thenthe fabric softeners.
+REACTIONSWITHCOPPER(II)IONS
+
+You will remember from Topic17that ammonia can act as a lonepair donorinits reactions with transitionmetalions.This is the overall equationforitsreaction withhexaaquacopper(Il) ions:
+
+[Cu(H2O)6]2+ + 4NH → [Cu(NH3)4(H2O)2]2+ + 4H2O
+
+Amines also have a lone pair of electrons on nitrogen,so can take part in similar reactions.The observationsarethesameaswith ammonia-firstofall apaleblueprecipitateforms,thenwithexcess butylamine the precipitate dissolves to give a deep blue solution. The equations for these reactions look complicated, but the only difference is the use of CHCH2CH2CHNH2 in place of NH3.
+
+Formationofthepaleblueprecipitate:
+
+[Cu(H2O)]2+ + 2CHCH,CH2CH,NH2 → [Cu(H2O)4(OH)2] + 2CH,CH,CH,CH,NH
+
+Formation of thedeepbluesolution:
+
+HOZ + O"HZ + +[(OH)(HN"HOHOHOHO)NO] “HN"HOHHHO + [(HO)(OH)N]
+
+With phenylamine, the overall equation to form the complex is:
+
+[Cu(H2O)6]2+ + 4CH5NH2 → [Cu(CH5NH2)4(H2O)]2+ + 4H2O
+REACTIONOFPHENYLAMINEWITHNITROUSACID
+
+Nitrous acidis averyunstablecompound.Itexistsonlyinaqueoussolution anddecomposes at roomtemperature.Thismeansthatanyreactionsinvolvingnitrousacidhavetobecarriedoutunder very carefully controlled conditions. The nitrous acid must be prepared in situ by mixing ice-cold solutionsofsodiumnitrite anddilutehydrochloricacid.Theequationforthereactionis:
+
+NaNO2(aq) + HCl(aq) → NaCl(aq) + HNO2(aq)
+
+## Topic 19: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### 19A Amines, Amides, Amino Acids and Proteins
+
+LEARNING TIP
+
+Becarefulnottoconfuse amines,amminesandamides, allofwhichappearinthis section.
+
+If an aromatic amine, such as phenylamine, is then added to this reaction mixture, a diazonium ion is formed:
+
+Thereactionvessel must bekept in anice-water mixturebecause thereactionmust be carried out at 5°C orlower If the temperature rises above5°C,phenol isformed:
+
+## Topic 19: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### 19A Amines, Amides, Amino Acids and Proteins
+
+REACTIONOFDIAZONIUMIONSWITHPHENOLS
+
+Diazonium ions carry a positive charge and therefore can act as strong electrophiles.For example,the benzenediazoniumionreactsreadilyin cold,alkalinesolutionwithboth aromaticphenols and amines.
+
+The benzenediazonium ion reacts with an alkaline solution of phenol to produce, after acidification withdilutehydrochloricacid,a compoundcalled(4-hydroxyphenyl)azobenzene:
+
+This reaction is called a coupling reaction.The compound formed is an energetically stable,yellow azo dye.Its stability comes from extensive delocalisation of electrons via the nitrogen-to-nitrogen double bond. If you examine the structure you can see how the double and single bonds alternate. Systemsofalternating double and singlebonds are called conjugated systems.Where extensive conjugation occurs, absorption of light takes place, so the compound is coloured.
+
+Thedye(4-hydroxyphenyl)azobenzeneisjustoneofthewiderangeofdyesthatcanbemadefrom aromatic amines and other arenes. These are known as azo dyes. They are very stable, so they do notfade.Anotherexampleistheacid-baseindicatormethylorange,whichhasthestructure:
+
+## Topic 19: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### 19A Amines, Amides, Amino Acids and Proteins
+
+CHECKPOINT
+
+• Write an equationfor thereactionbetweenpropanoyl chloride andpropylamine.
+
+• 2.Drawthestructureofthequaternaryammoniumsaltformedwhenethylaminereactswith 1-bromopropane.
+
+## Topic 19: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### 19A Amines, Amides, Amino Acids and Proteins
+
+SUBJECT VOCABULARY
+
+addition-eliminationreactionwhentwomoleculesjointogether,followedbythelossof asmallmolecule couplingreactionareactioninwhichtwoorganicmoleculesorionsjointogethertoformonenew molecule
+
+conjugatedsystemwheresingle anddoublebondsalternate,allowingtheelectronsinthep-orbitalsofthe atomstooverlapandformadelocalisedelectroncloud
+
+## Topic 19: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### 19A Amines, Amides, Amino Acids and Proteins
+
+LEARNING OBJECTIVES
+
+• Understand the nomenclatureof amidesandbeabletodraw their structural,displayed and skeletal formulae.
+
+• Understand that amides can be prepared from acyl chlorides.
+
+• Beabletodescribe:
+
+• (i)condensationpolymerisationfortheformationofpolyamidessuch asnylon
+
+• (i)addition polymerisation, including poly(propenamide) and poly(ethenol).
+
+• Be able to draw the structural formulae of the repeat units of polyamides, poly(propenamide) and poly(ethenol).
+
+• Be able to comment on thephysical properties ofpolyamides and the solubility in water of the additionpolymerpoly(ethenol)
+
+## Topic 19: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### 19A Amines, Amides, Amino Acids and Proteins
+
+AMIDES
+
+We learned about amides inprevious sections as theproducts of reactions.Amides have a functional group consisting of a carbonylgroupjoinedtoanaminogroupasshown.
+
+## Topic 19: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### 19A Amines, Amides, Amino Acids and Proteins
+
+EXAM HINT
+
+Youmightexpect the amidefunctionalgroup toshowbasic character,but it doesnot.The carbonyl group alters the chemical characterof theNHgroup,just likethecarbonylgroup altersthe chemicalcharacteroftheOHgroupincarboxylicacids.
+
+Aswithothercompoundsinwhichtwofunctionalgroupsshare thesamecarbon,amideshavepropertiesthat aredifferentfrom bothcarbonyl compounds and amines.They aresolids(exceptfor methanamide,whichisaliquid).Also,thelower aliphatic amidesare solubleinwaterbecausetheycontaintwoelectronegativeatoms andpolarbonds.Thismeansthattheycanformhydrogenbonds with water The carbon atom is very electron-deficient because it is joined to both nitrogen and oxygen.
+
+## Topic 19: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### 19A Amines, Amides, Amino Acids and Proteins
+
+
+#### NOMENCLATURE
+| NAME        | DISPLAYEDFORMULA   | SKELETAL FORMULA   |
+|-------------|--------------------|--------------------|
+| methanamide |                    | 'HN                |
+| ethanamide  | H                  | NH                 |
+| propanamide | H H                | NH,                |
+| butanamide  | H H H              | O NH,              |
+
+## Topic 19: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### 19A Amines, Amides, Amino Acids and Proteins
+
+PREPARATIONOFAMIDES
+
+TableAshowsthestructuralformulaeandnamesofsomeamides.
+
+A convenient way to prepare amides in thelaboratory is by mixing
+
+## Topic 19: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### 19A Amines, Amides, Amino Acids and Proteins
+
+
+#### PREPARATIONOFAMIDES
+| STRUCTURALFORMULA   | NAME        |
+|---------------------|-------------|
+| HCONH2              | methanamide |
+| CHCONH2             | ethanamide  |
+| CHCH2CONH2          | propanamide |
+| CHCHCHCONH2         | butanamide  |
+
+## Topic 19: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### 19A Amines, Amides, Amino Acids and Proteins
+
+DISPLAYEDANDSKELETALFORMULAEOFAMIDES
+
+Table B shows the displayed and skeletal formulae of the amides in table A.
+
+an acyl chloridewithconcentrated aqueous ammonia.Although youdonot need toknowthemechanismsof thesereactions,it helpstounderstand thereactionifwerefertothemechanism. Thelonepairofelectronsonthenitrogenoftheammonia moleculeisstronglyattractedtotheelectron-deficientcarbon atomoftheacylchloride.Thechlorineofacylchloridecombines with one of thehydrogen atoms of ammonia toform hydrogen chloride, which appears as misty fumes. The equation for the reactionbetweenpropanoyl chloride andammoniais:
+
+CHCH,COCI +NH→CHCHCONH2+HCl
+
+SPECIFICATION REFERENCE
+
+19.1
+
+19.7
+
+19.8()
+
+PART
+
+19.8(i)
+
+19.9
+
+PART
+
+19.10
+
+fig A Balloon fabric is made of nylon.
+
+## Topic 19: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### 19A Amines, Amides, Amino Acids and Proteins
+
+LEARNING TIP
+
+Intheformationofa polyamide,thesmallmolecule formed iswater(if a dicarboxylicacidisused)or hydrogenchloride(if a dioyl chloride is used).
+
+figBKevlarisused tomake bulletproofvests.
+
+Notethatammoniaisbasicand thattheinorganicproductisacidic,sotherewillbeareaction betweenthetwomolecules:
+
+NH+HCl →NH4CI
+
+So, a better overall equation for the reaction, combining these equations, is:
+
+CH,CH,COCI + 2NH→ CH,CH,CONH, + NHCI
+
+## Topic 19: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### 19A Amines, Amides, Amino Acids and Proteins
+
+POLYAMIDES
+
+InTopic15welearnedaboutpolyestersasexamplesofpolymersformedbycondensation polymerisation reactions. The formation of these polymers needs two monomers- a dicarboxylic acid and a diol. Theformation of polyamides also needs twomonomers-a dicarboxylic acid and a diamine.
+
+The simplest examples of a dicarboxylic acid and a diamine are HOOCCOOH and HNCHNH2. You can see how these molecules can react together-one has acidic groups and the other has basic groups, sotheycanreactwitheachothertoformaCONHgroupwiththeeliminationofH2O
+NYLON
+
+Nylon is almost certainly the most familiar example of a polyamide.Both of the monomers usedintheproductionofitsmostcommonformcontainsixcarbonatoms.Commonexamples of these monomers are hexanedioic acid (known as adipic acid in the polymer industry) and hexane-1,6-diamine(alsoknown as1,6-diaminohexane).Bothofthesemonomershavethesame number ofCH2groupswith reactivegroups at eachend of the chain.Theformationof thispolymer is shown below:
+
+There are different types of nylon, and this example is described as nylon 6,6becauseboth of the monomerscontainsixcarbonatoms.
+KEVLAR?
+
+If benzene rings take the place of the CH2 groups in the monomers used to make nylon 6,6, and a dioyl chloride is used in place of a dicarboxylic acid, then themonomers and the polymer structure canbeshownlike this:
+
+This polymer produced is known as Kevlar and has very many uses, the most familiar of which is as as awebsearchwill reveal.
+PROPERTIESOFPOLYAMIDES
+
+The majority of polyamides (nylons) tend to be semi-crystalline. They are generallyvery tough materialswithgoodthermalandchemicalresistance.Polyamidestendtoabsorbmoisturefrom
+
+their surroundings. This absorption continues until equilibrium is reached. In general, the impact resistance and flexibility of polyamides tends to increase with moisture content,while the strength andstiffnessdecrease.
+
+The strong bonds in polyamides make the polyamide chains themselves strong. Polyamides such as nylon canbemadeintostrongfibresfor makingclothing,fishinglinesandcarpets.Kevlar?is also a polyamide.
+
+Polyamidefilm(clingfilm)isusedforfoodpackagingbecauseofitstoughnessandbecausegas molecules do not pass through it easily. Polyamide film is also used for boil-in-the-bag'food packagingbecauseofitshightemperatureresistance.
+
+Polyamidestend toprovidegood resistancetomost chemicals.However,theycanbe attacked by strong acids and alkalis. This is because they contain the amide link (peptide link), which is hydrolysed by acids and alkalis (seeSection 19A.6).
+POLY(PROPENAMIDE)
+
+In Topic5 (Book 1: IAS) you learned about additionpolymerisation.This iswhen many molecules (monomers) with double bonds join together to form a long-chain molecule (polymer). In this reaction, one of the bonds in the double bond is broken and the monomers are linked togetherby singlebonds.The most common example of this is theformation of poly(ethene)from ethene:
+
+Poly(propenamide) is an addition polymer It is formed by polymerising 2-propenamide (sometimes called acrylamide):
+
+Thepolymer isused as a thickener and as a filler in facial surgery.It is also used in water treatment and papermaking.
+
+The polymer chains in poly(propenamide) can be easily cross-linked with other chains. The resulting used for making soft contact lenses (fig C).
+POLY(ETHENOL)
+
+Poly(ethenol) is another addition polymer. It is sometimes called poly(vinyl alcohol). It is not manufactured in the usual way by directly polymerising a monomer Instead it is made in two stages.
+
+Thefirststageis thepolymerisationofethenyl ethanoate:
+
+ethenyl ethanoate
+
+poly(ethenyl ethanoate)
+
+figCSoftcontactlensesare madeofpoly(propenamide)
+
+In the second stage, poly(ethenyl ethanoate) is reacted with methanol to form poly(ethenol) and methyl ethanoate,in a process called esterexchange:
+
+poly(ethenyl ethanoate)
+
+poly(ethenol)
+
+The amount of ester exchange can be controlledby altering the temperature.
+
+Poly(ethenol) molecules contain many OH groups. These groups can form hydrogen bonds with water,andsothepolymercanbemadetobesolubleinwater.Theexactsolubilityofthefinal polymer depends on the percentage of ester groups that have been replaced by OH groups.The solubility can range from insoluble, to soluble in hot/warm water, to soluble in cold water.
+
+Poly(ethenol) is used to make disposable laundry bags for use in hospitals. The laundry bags are soluble in waterDirty bedding and clothes that may be covered in microorganismsfrom patients are put into the dirty fabrics.During washing,the bag dissolves completely and the fabrics are washed clean.
+
+quantitiesofdetergentforuseinwashingmachinesanddishwashers.Thebagsdissolveinthewater.
+
+## Topic 19: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### 19A Amines, Amides, Amino Acids and Proteins
+
+CHECKPOINT
+
+• 1. Write theoverallequationfortheformationof ethanamidefrom an acyl chloride.
+
+• WriteanequationfortheformationofKevlarstartingfromadiamineandadicarboxylicacid
+
+## Topic 19: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### 19A Amines, Amides, Amino Acids and Proteins
+
+LEARNING OBJECTIVES
+
+• Understand the nomenclature of amino acids and be able to draw their structural, displayed and skeletal formulae.
+
+• Be able to describe experiments to investigate thecharacteristicbehaviour of amino acids limited to:
+
+• (i)acidityandbasicityandtheformationofzwitterions
+
+• (i)effectofaqueoussolutionsonplane-polarisedmonochromaticlight.
+
+## Topic 19: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### 19A Amines, Amides, Amino Acids and Proteins
+
+WHATAREAMINOACIDS?
+
+The name suggests the presence of an amino group and a carboxylic acid group. Unlike amides, Below is the general displayed formula of an amino acid.
+
+When R (the symbol for an alkyl group) is only a hydrogen, the amino acid is the simplest one, glycine. Over 20 amino acids arefound in humans.Some of these are synthesised in the body, andothersmustbeincludedinthediet.Proteinsaremadefromaminoacids,andthesewillbe considered inthenextsection.AlthoughRisnormallyused torepresentanalkylgroup,inthecase of amino acids it can represent a more complex structure. Table A shows information about some importantaminoacids.
+
+## Topic 19: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### 19A Amines, Amides, Amino Acids and Proteins
+
+
+#### WHATAREAMINOACIDS?
+| NAME          | ABBREVIATION   | STRUCTURE                         |   ISOELECTRICPOINT |
+|---------------|----------------|-----------------------------------|--------------------|
+| alanine       | ala            | H,N—CH—COOH CH;                   |                6.0 |
+| cysteine      | cys            | H,N—CH—COOH CH—SH                 |                5.1 |
+| glutamic acid | glu            | H,N—CH—COOH CH,—CH,—COOH          |                3.2 |
+| glycine       | gly            | H,N—CH—COOH                       |                6.0 |
+| lysine        | lys            | H,N—CH—COOH CH——CH,——CH,——CH,——NH |                9.7 |
+
+## Topic 19: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### 19A Amines, Amides, Amino Acids and Proteins
+
+table A
+
+There are 20 naturally occurring amino acids. They are often referred to as 2-amino acids because the NHz is attached to the second carbon atom in the chain, counting the C in COOH as carbon 1. Note that most amino acids have one NH2 group and one COOH group, although some have two of one andoneoftheother
+NOMENCLATURE
+
+Although amino acids are usually referred toby their common names,such asglycine,HNCHCOOH, and alanine,HNCH(CH)COOH,they also have systematic names using the rules defined byIUPAC They are named as amine derivatives of carboxylic acids, using the prefix amino to indicate the presence of the amine group,NH2. A locant is used to indicate the position of the amine group in the carbonchain ofthe carboxylic acid.
+
+TableBshowsthestructuralformulaeandnamesofsomeaminoacids.The3-aminoacidsarenot naturally occurring.
+
+## Topic 19: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### 19A Amines, Amides, Amino Acids and Proteins
+
+
+#### NOMENCLATURE
+| STRUCTURALFORMULA   | NAME                      |
+|---------------------|---------------------------|
+| H2NCHCOOH           | 2-aminoethanoic acid      |
+| CH;CH(NH2)COOH      | 2-aminopropanoic acid     |
+| HNCHCHCOOH          | 3-aminopropanoic acid     |
+| CHCH(NH2)CH2COOH    | 3-aminobutanoicacid       |
+| CHsCH(NH2)COOH      | 2-aminophenylethanoicacid |
+
+## Topic 19: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### 19A Amines, Amides, Amino Acids and Proteins
+
+DISPLAYEDANDSKELETALFORMULAEOFAMINES
+
+Table C shows the displayed and skeletal formulae of the amines intable B.
+
+## Topic 19: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### 19A Amines, Amides, Amino Acids and Proteins
+
+
+#### DISPLAYEDANDSKELETALFORMULAEOFAMINES
+table C
+
+| NAME                      | DISPLAYEDFORMULA   | SKELETALFORMULA   |
+|---------------------------|--------------------|-------------------|
+| 2-aminoethanoic acid      | H —H H             | O ~OH             |
+| 2-aminopropanoicacid      | H H -H H           | O HO NH,          |
+| 3-aminopropanoicacid      | H H H O—H H H      | O H,N ~OH         |
+| 3-aminobutanoicacid       | H H H O一H N H     | HN HO             |
+| 2-aminophenylethanoicacid | H 一H              | HO                |
+
+## Topic 19: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### 19A Amines, Amides, Amino Acids and Proteins
+
+ACIDICANDBASICPROPERTIES
+
+Thevalues of theisoelectricpoints of the amino acids have been included to helpyou understand their acid-basecharacterTheyare allsolubleinwater, and youcanimaginethatoneoftworeactions might occur The molecule could act as a base and form an alkaline solution in a reaction like this:
+
+Alternatively,itcould actasanacidandform anacidicsolutionin a reactionlike this:
+
+Thereis athird alternative-anH+ioncould transferfrom the COOH group to the NH2 group in a reaction like this:
+
+The product of this reaction is electricallyneutral because it has apositivechargeandanegativechargethatbalanceeachother Suchspeciesarecalledzwitterions.ZwitteristheGermanword for hybrid, meaning a cross between two things and having the characteristics of both.
+
+Nowtotheisoelectricpoint.ThisisthepH atwhichthezwitterion existsin aqueoussolution.Alowisoelectricpointindicatesthat the molecule is predominantly acidic(glutamic acid has avalue of 3.2),while a high value indicates that it ispredominantly basic (lysinehasavalueof9.7).Youcanseethatthesevaluesare related to the numbers of NH2 and COOH groups in the molecule (glutamic acid has an extra carboxylic acid group and lysine has an extra amino group).
+
+## Topic 19: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### 19A Amines, Amides, Amino Acids and Proteins
+
+EXAM HINT
+
+ThereisalinkheretoTopic14onacid-baseequilibria.Youmightliketo thinkabouthowproteinscouldbeinvolvedinbufferingpH.
+
+## Topic 19: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### 19A Amines, Amides, Amino Acids and Proteins
+
+SALTFORMATION
+
+Allaminoacids canform saltswith acids andbases.Forexample alanine can react with acids to form this protonated structure:
+
+Glutamicacidcanreactwithsodiumhydroxidetoformthree possible salts.This is because there are two COOH groups, so eitherofthemcanreact,orbothcanreact.Onesalthasthe structure:
+
+You may have heard of this salt -its name is monosodium glutamate and is often used as a flavour enhancer in food.
+
+figAMonosodiumglutamatecanbe usedasaflavourenhancer in cooking.
+OPTICALACTIVITY
+
+Almostall 2-amino acidscontainachiralcentre(theCof theCH group), and so are optically active. The exception is glycine, which hasaCH2groupinstead.Aqueoussolutionsoftheenantiomers rotatetheplaneofpolarisationofplane-polarisedlight-some enantiomersaredextrorotatory(+) andothers arelaevorotatory (-). If an amino acid is synthesised in the laboratory, then a
+
+• racemicmixtureisformed.
+
+## Topic 19: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### 19A Amines, Amides, Amino Acids and Proteins
+
+LEARNING TIP
+
+Practicewritingequationsfordifferent amino acidstoshowhowthey canreactasbothacidsandbases.
+
+## Topic 19: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### 19A Amines, Amides, Amino Acids and Proteins
+
+CHECKPOINT
+
+• Drawthestructureofglycineinasolutionwith: (a) a pH of 6.0
+
+• (b) a very low pH
+
+• (c) a very high pH.
+
+• 2. Drawstructurestoshowhowthetwoenantiomersofcysteine arerelatedtoeachother.
+
+## Topic 19: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### 19A Amines, Amides, Amino Acids and Proteins
+
+SUBJECT VOCABULARY
+
+isoelectricpoint(of an aminoacid)thepHof an aqueoussolution in whichitisneutral
+
+zwitterion a molecule containingpositive and negative charges but which has no overall charge
+
+## Topic 19: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### 19A Amines, Amides, Amino Acids and Proteins
+
+LEARNING OBJECTIVES
+
+• Beabletodrawthestructuralformulaeoftherepeatunitsofproteins.
+
+• Be ableto describe experimentstoinvestigate thecharacteristicbehaviour of amino acidsin theformation ofpeptidebonds by condensation polymerisation.
+
+## Topic 19: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### 19A Amines, Amides, Amino Acids and Proteins
+
+WHATISAPEPTIDE?
+
+When two amino acid molecules react together, an acid-base reaction occurs.The OH of the COOH group combines with one of the H atoms of the NH2 group to form water This is a condensation reaction, in which the two amino acids are joined together by an amide group (CO—NH). The bond thatforms isknown as apeptidebond, and the organicproduct is a dipeptide.
+MORETHANONEDIPEPTIDE
+
+When two amino acids combine together toform a dipeptide,there are always twopossibilitiessometimes more.For example,when glycine reacts with alanine,the OH could be lost from either molecule,as shown below.
+
+alanine + glycine:
+
+glycine + alanine:
+TRIPEPTIDES
+
+Whenonemoleculeofeachofthreedifferentaminoacidsreactstogethertoformatripeptide,the sixpossibilities canbe summarised using the three-letter abbreviations shown in the table in the previous section.They are:
+
+If you work out the possibilities in which two or more molecules of the same amino acid in these threereact toforma tripeptideyouwill find that there aremanymore!
+POLYPEPTIDESANDPROTEINS
+
+Polypeptidesandproteins areformed bycondensationpolymerisationofmany amino acids.The main difference between a long-chain polypeptide and a protein is that proteins have further levels to their structures.These aretodowith theway inwhich thepolypeptide chains interact with each other in three dimensions, to give secondary, tertiary and quaternary structures, but these are beyond the aims of this book.
+ANALYSINGPROTEINS
+
+moreproteinshavebeen analysed.Asseveral million different proteins are thought to exist,thiswork is still continuing but far from complete.Table A shows three examples of proteins,the first two of which have vital roles in the human body.
+
+## Topic 19: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### 19A Amines, Amides, Amino Acids and Proteins
+
+
+#### ANALYSINGPROTEINS
+| PROTEIN     | WHEREFOUND   |   APPROXIMATEMOLAR MASS/gmol-1 |   APPROXIMATENUMBEROF AMINOACIDS |
+|-------------|--------------|--------------------------------|----------------------------------|
+| insulin     | pancreas     |                           5700 |                               51 |
+| haemoglobin | blood        |                          66000 |                              574 |
+| urease      | soya beans   |                         480000 |                             4500 |
+
+## Topic 19: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### 19A Amines, Amides, Amino Acids and Proteins
+
+tableA
+
+The first step in discovering the structure of a protein is to find which amino acids are present. The second is tofind the order in which they occur in the polypeptide chains.
+HYDROLYSINGPROTEINS
+
+The polypeptide chains in a protein can be broken down into their individual amino acids by prolongedheatingwithconcentratedhydrochloricacid.Thisbreaksthepeptidebondsbetweenthe amino acids,although,becauseofthe strongly acidicconditions,all the amino acidsformed will have their NH2 groups protonated as +NHgroups.You can see this process more easily in the hydrolysis of a dipeptide.As an example we will use the dipeptide formed between alanine and glycine,referred toearlierin thissection.Theequationfor thishydrolysis is:
+
+You can see that this hydrolysis reaction is the reverse of the original dipeptideformation,except that the twoNH2groups are protonated, which explains the inclusion of the two H+ions in the equation.
+USINGCHROMATOGRAPHY
+
+simplechromatographyfrom your previous study ofchemistry.A mixture of amino acids produced by hydrolysis of a protein can be spotted onto chromatography paper Using a suitable solvent, the individual amino acids will rise to different heights during the experiment. As amino acids are colourless,the chromatogram can be sprayed with a developing agent so that the positions of the amino acids can be seen.You may read about the use of ninhydrin as a developing agent.Although this works well, ninhydrin is not normally used nowbecause of its toxic nature.
+
+However, once thepositions of the amino acids have been established, their Rvalues can be calculated, and so the individual amino acids can be identified. Working out how they are all joined togetherisrathermore complicated and beyond theaimsof thisbook.
+
+Insulin is a protein with the molecular formula C25sH381Ne5O7gSe. It is made up of a total of 51 amino acids,including17different ones.Its structure is shown in abbreviated form infig A.
+
+## Topic 19: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### 19A Amines, Amides, Amino Acids and Proteins
+
+EXAM HINT
+
+Rememberthatseparating aminoacidsusingchromatography dependsontherelativesolubilitiesof the amino acids inthemobile andstationary phases.It does not depend onthe sizeof the amino acids(seeTopic15).
+
+## Topic 19: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### 19A Amines, Amides, Amino Acids and Proteins
+
+CHECKPOINT
+
+• Writethestructuresofthetwodipeptidesformedwhenalanineandcysteinereacttogether.
+
+• 2. Write thestructuresof thetwoaminoacidsformedwhen thisdipeptide ishydrolysedby concentratedhydrochloricacid:
+
+## Topic 19: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### 19A Amines, Amides, Amino Acids and Proteins
+
+SUBJECT VOCABULARY
+
+peptidebond thebondformedbya condensationreactionbetween thecarbonyl groupofoneamino acid andtheaminogroupofanotheraminoacid
+
+polypeptideacondensationpolymerformedfrommany amino acids
+
+proteinapolypeptidethathasfoldedintoaspecificshapeinordertohaveaspecificfunction
+
+• fig AThis diagram shows the sequence of amino acids in insulinfromasheep.Youcan seethatthereare actuallytwo separatesequencesofamino acidsinwhichcysteinemolecules are joinedby disulfidebonds.
+
+## Topic 19: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### 19A Amines, Amides, Amino Acids and Proteins
+
+LEARNING TIP
+
+Twopossibledipeptidescan formbetweentwodifferent aminoacids.lfoneorbothof theaminoacidshasmorethan oneNH2orCOOHgroup,then morepossibledipeptidescan beformed.
+
+## Topic 19: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### Topic 19: Organic Nitrogen Compounds: Amines, Amides, Amino Acids and Proteins
+
+PROTEINMOLECULES: LIFE'SHARDWARE
+
+The sciencebehind protein structures hascome alongway since thefirstprotein structure,myoglobin,was solved byKendrew and Perutz in1958.Developments in theknowledge of how proteinsfold have since led to the development of'designer'proteins.
+DESIGNERPROTEINS
+
+Researchers have successfully designed entirely new proteins based onbiologicalprinciples.
+
+fig ARibbon diagram and space-filling diagram for Top7.
+
+Aswelearnmore andmoreaboutproteinsandhowtheywork wenaturallyhavethedesiretousethisknowledgeanddosome tinkeringofourown.Sincetheearly1980s,scientistshavebeen usingtheever-expandingunderstandingofproteinstructure and function to redesign existing proteins, and, more recently, to design entirelynewproteins.
+Designing proteins
+
+Asscientistsbeganthisquesttheyquicklyfound thatproteins are more complicated than they might seem. The different types ofaminoacids,eachwiththeirownchemicalfeatures,work togethertocoaxaproteinchaintofoldintoacompactstable structure.Acollectionofcarbon-richaminoacids,likeleucineand phenylalanine,areusuallyplacedinside theprotein,all chosen to lockperfectlytogether.On the otherhand,charged amino acids, suchaslysine and aspartic acid,aretypicallyspread acrossthe surface tomaketheproteinsolubleinwater.Hydrogen-bonding amino acids, such as serine and asparagine, are dotted in strategic placestotiedifferentportionsofthechaintogether.Finally,the oddglycineorprolineisaddedtoredirectthechainintheproper direction.
+Negative design
+
+Thiscombinationoffavourableforceslocktheproteinchaininto astable,compactstructure.Butthisisonlythefirststepinprotein design. In order to design a protein that will successfully fold youalsoneed tomakesurethattheproteinhasonlyonestable structure.If there are any otherways tofold theprotein theywill competewithyourdesiredstructure andspoil theconstruction. So,it is not enough todesign a stableprotein structure...you alsoneed to design a proteinthat is unstable inevery other conformation.
+Proteins from scratch
+
+Building ondecades ofproteinstructureresearch,scientists at theFred Hutchinson CancerResearch Center and theUniversity ofWashingtoninSeattlehavesuccessfullyweighed thesepositive andnegativedesignelementstocreate anentirelynovelprotein. Theystartedwithafoldthathadneverbeenseeninnature,shown here above.Then,theyused a computational method todesign a sequence of amino acids that would adopt thisfold.When they builtthisprotein,whichtheycallTop7,theyfound thatitfolded up and adopted exactly the structure they designed, as seen in PDB entrylqys.
+
+From theProteinDataBank'sRCSBeducational portal:‘Moleculeof theMonth',PDB101.http://pdb101.rcsb.org/motm/70
+
+SCIENCE COMMUNICATION
+
+• 1 There are a number of 'non-scientific' words used in this article, such as 'tinkering' and 'coaxed'. What do you think the author is trying to achieve by using such words?
+CHEMISTRY IN DETAIL
+
+• 2 Suggest why it is important that a protein has "only one stable structure".
+
+• 3 The IUPAC name for the amino acid known as aspartic acid is 2-amino-butan-1,4-dioic acid. Drawtheskeletalstructureofthismoleculeandcalculateisrelativemolecularmass.
+
+• 4 One of the amino acids mentioned in the text is phenylalanine, whose structure is shown below:
+
+• (a)Give the molecular formula of phenylalanine.
+
+• (b)Suggest why it would be unlikely for this amino acid to be found on the surface of a watersoluble enzyme.
+ACTIVITY
+
+In the final paragraph the author refers to a protein "fold that had never been seen in nature". Working in groups if you prefer, answer the following questions:
+
+• (i)Whatismeantby'bioethics'?
+
+• (i) What are some of the ethical issues scientistsmight encounter as they use genetic tecUiques to design new proteins?
+
+THINKING BIGGER TIP
+
+In this extract you will seehowthesubjectsof chemistry and biology overlap.TheProteinData Bankisanexcellentonline resourcewhereyoucan learnalotmoreaboutthese 'molecules of life'(https:// www.rcsb.org).
+
+CHEMISTRYTIP
+
+Thinkabout which typesof functional groups can be classed as hydrophobic or hydrophilic. You can also thinkabouthowbenzene interactswithwater.
+
+## Topic 19: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### Topic 19: Organic Nitrogen Compounds: Amines, Amides, Amino Acids and Proteins
+
+19 EXAMPRACTICE
+
+• 1 After the reduction of nitrobenzene to phenylamine, using tin andhydrochloric acid,anexcessofsodiumhydroxideis added. What is the purpose of the sodium hydroxide?
+
+• A to dry the product
+
+• B to liberate phenylamine
+
+• C to lower the boiling point for subsequent distillation
+
+• D to precipitate tin(II) hydroxide
+
+[1]
+(Total for Question 1 = 1 mark)
+
+• 2The amino acids aspartic acid and glutamic acid can react with each other to form amide linkages.
+
+Whatisthemaximumnumberofdifferentcompounds,each containing only one amidelinkage,that canbeformed from one molecule of aspartic acid and one molecule of glutamic acid?
+
+• 3What is theformula of theorganic product obtained from the coupling reaction of the benzenediazonium ion, CHsN,and the phenoxide ion, CHsO- in alkaline solution?
+
+• 4The structure of a herbicide called karbutilate may be represented as:
+
+Which compound would be formed by prolonged boiling of karbutilatewith aqueous sodium hydroxide?
+
+(Total for Question 4 = 1 mark)
+
+• 5Nylon6hasthefollowingformula:
+
+-NH(CH)CO
+
+n
+
+What is the product of the acidic hydrolysis of nylon 6?
+
+• A H,N(CH2)COOH
+
+• B H2N(CH2)5COO-
+
+• C H,N+(CH2)sCOOH
+
+• D HN+(CH2)sCOO-
+
+[1]
+(Total for Question5 =1 mark)
+
+• 6 The addition polymer poly(ethenol) is water-soluble. Which is the repeating unit of poly(ethenol)?
+
+(Total for Question 6 = 1 mark)
+
+• 7A student proposed tomake the compound 2,5-dimethylphenylamineusingthefollowingscheme:
+
+• (a) (i)Name the two reagents needed for Step 1.
+
+[2]
+
+• (ii) Suggest why 1,4-dimethylbenzene is more reactive than benzene in reactions such as Step 1. [2]
+
+• (b)What type of reaction occurs in Step 2?
+
+[1]
+
+• (c)2,5-Dimethylphenylamine can be used to make azo-dyes. State thereagents and conditions needed to make an azo-dye from 2,5-dimethylphenylamine and phenol. Include equations for the organic reactions. [5]
+(Total for Question 7= 10 marks)
+
+• 8The simplest amino acid is glycine.
+
+glycine
+
+• (a) Give the systematic (IUPAC) name for glycine.
+
+[1]
+
+• (b) (i)Give the structural formula for the zwitterion of glycine in the solid state.
+
+• (i)Explain why glycine has a relatively high melting temperature for a molecule with such a low molar mass.
+
+• (c)Alanine,HNCH(CH)COOH,is another amino acid. Alanine has optical isomers(enantiomers).
+
+• (i)Draw diagrams to show the two optical isomers of alanine.
+
+• (i)Explain how the two optical isomers can be distinguishedfromeachanother.
+
+[1]
+
+[2]
+
+• (d)Alanine and glycine react together in a condensation reactiontoformtwodipeptides.
+
+• (i)State why this is described as a condensation reaction.
+
+[1]
+
+• (iiGive the structural formula for each of the two dipeptides that can be formed between alanine and glycine.
+
+[2]
+(Total for Question 8=11 marks)
+
+• 9 9Butylamine, CHCHCHCH,NH2, and phenylamine, CH5NH2, bothbehaveasbases.
+
+• (a) (i)State the feature of an amine molecule that allows ittoactasabase.
+
+[1]
+
+• (ii) Explain why phenylamine is a weaker base than butylamine.
+
+[2]
+
+• (ii)Give the formulae of the salts formed when butylamine reactswithsulfuricacid and with ethanoicacid. [2]
+
+• (b）Phenylamineisformedbythereductionofnitrobenzene, CHsNO2.
+
+Statethereagentsusedforthisreaction. [2]
+
+• (c)When phenylamine is reacted with a mixture of sodium nitrite, NaNO2,and concentratedhydrochloricacidatatemperature between 0 and5°C,a diazoniumion isformed.
+
+• If phenylamine is added to the cold solution containing
+
+the benzenediazonium ion, a coupling reaction takes place
+
+[1]
+
+similar to that between the benzenediazonium ion and phenol.
+
+• (i）Draw the structure of the diazonium ion, clearly displaying the functional group present in the ion.
+
+• ii ）Suggest a structureforthe organicproduct of the couplingreactionbetweenthebenzenediazonium ionand phenylamine.
+
+• (ii)Suggest a use for this organic product.
+
+[1]
+(TotalforQuestion9=10marks)
+
+• 10 Naturally occurring amino acids have the formula H,N(RCH)COOH.
+
+• (a)In the amino acid glycine, the formula of the R group is—H.
+
+• Write the structuralformula of thezwitterionionformed
+
+• by glycine. [1]
+
+• (b) In the amino acid serine, the formula of the R group is —CH,OH.
+
+• Write the structural formula of serine at pH 1.0 and pH 10.0.
+
+• (c) In the amino acid alanine, the formula of the R group is —CH3. Drawasectionofthecondensationpolymerthatcan beformedfrom alanine.Showtworepeatunitsofthe polymeranddisplaythelinkbetweenthem.
+
+• (d) Compound P can be converted in three steps into a cyclic compound T.
+
+ReagentQ
+
+• (i) Give the systematic name for compound P. [1]
+
+• (ii) Namereagent Q.
+
+[1]
+
+• (ii) Name the two types of reactions that are occurring when compound Pis converted into compound S.[2]
+
+• (iv)Suggest the identity of compound U.
+
+• [1]
+
+• (v) When compound T reacts with hot dilute hydrochloric acid,compoundPisformed,aswellastwoother products.
+
+• Suggest the type ofreaction that is occurring. [1]
+
+• (vi）Suggest the identity of the two products that also form in the reaction in (d)(v).
+
+[2]
+
+(TotalforQuestion10=13marks)
+
+[2]
+
+## Topic 20: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### Topic 20: Organic Synthesis
+
+A ORGANICSTRUCTURES
+
+In organic chemistry so far you have learned about the reactions of a number of functional groups, such as alcohols,aldehydes,ketones,carboxylicacids,acyl chlorides,esters,amines and amides.
+
+In this topic you will learn how to use your knowledge of these reactions to produce a reaction synthesis for an of organic compounds, such as refluxing, solvent extraction, recrystallisation and distillaton.
+
+medicines obtained from plants and herbs for thousands of years. During most of that time they had no idea how or why the medicines worked. The effectiveness of the plants or herbs was discovered by trial and error, andsometimesthereweredisastrousmistakes.
+
+Today's synthetic medicines are increasingly designed to have specific effects, something that is becoming easier as we learn more about the body's chemistry. Aspirin and paracetamol are perhaps two of the best known and earliestmedicinestohavebeen synthesised.Today there are thousands of synthesised medicines to help combat all types of illnesses and diseases, ranging from antibiotics, to cure illnesses caused by bacteria, tostatins,whichhelptolowerthelevelof LDLcholesterol in theblood.
+
+Whoknows!Maybeonedayyouwillbeinvolved inthesynthesisofalife-savingmedicine.
+
+MATHS SKILLS FOR THIS TOPIC
+
+• ·Recogniseanduseexpressionsindecimalandordinaryform
+
+• .Use ratios,fractions and percentages
+
+• . Use an appropriate number of significant figures
+
+Topics10,15
+
+• Mass spectrometry appears in Topic 15
+Topics4,5,10（Book1:AS),18,19
+
+• Howtousedifferentkindsofformulaeto representorganiccompounds
+
+• UsingIUPACrulestonameorganiccompounds
+
+• Recognisingdifferenttypesofisomerism, including geometrical isomerism and optical isomerism
+
+• Howto convertoneorganiccompound into another
+WhatwillIstudylater?
+
+• Howpharmaceuticalcompaniesinvestheavilyin researchanddevelopmenttodesignnew medicinestotreatawiderangeofmedical problemsandillnesses
+
+• Howbiocatalystsbasedonnaturalenzymesallow somereactionstooccuratlowertemperatures andpressuresthanothercatalysts
+Whatwill I studyin this topic?
+
+• How to convert one organic compound into anotherinvolvinguptofoursteps
+
+• Thetechniquesinvolvedinthepreparation and purificationoforganiccompounds
+
+• Howtoincrease thecarbonchainlengthina moleculebyusingGrignardreagents
+
+• Howtopredictthepropertiesofunfamiliar organiccompoundscontainingoneormore functionalgroups
+
+## Topic 20: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### 20A Organic Structures
+
+LEARNING OBJECTIVES
+
+• Be abletodeduce theempiricalformulae,molecularformulae andstructural formulaefrom data drawnfromcombustion NMRspectra(both13Cand proton).
+
+## Topic 20: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### 20A Organic Structures
+
+TRADITIONALMETHODS
+
+Thetraditionalmethodofanalysisistofindtheempiricalformula. followed by themolecularformula and thenthefunctionalgroups present.
+FINDINGTHEEMPIRICALANDMOLECULARFORMULAE
+
+You learned the method for finding the empirical formula of a compound in Topic 1 (Book 1: IAS).
+
+To find the empirical formula from the percentage composition composition of each element by its relative atomic mass.You then divide thevalues obtained by the smallest value.Thenumbers you obtainshouldgiveyouanobviouswholenumberratio.
+
+Thisworkedexamplewillremindyouofthemethod.
+
+## Topic 20: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### 20A Organic Structures
+
+WORKEDEXAMPLE1
+
+Find the empirical formula of the compound that has the following composition bymass:
+
+C40.00%
+
+H6.67%
+
+## Topic 20: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### 20A Organic Structures
+
+Answer
+
+C(40.00÷12.0)=3.33
+
+H(6.67÷1.0)=6.67
+
+O (53.33 ÷16.0)=3.33
+
+Dividing all three numbers by the smallest (i.e. 3.33) gives the following ratio:
+
+Theempiricalformula=CH2O
+
+If weknowthemolecularmass(ormolarmassingmol-1)of the compoundwecanfind themolecularformulabydividingthe molecularmassbytheempiricalformulamass.Themolecular formula is always a simple multiple of the empirical formula.
+
+Let us assume that this compound has a molecular mass of 60.0.
+
+The empirical formula mass=(12.0+2.0 +16.0)=30.0.
+
+Themolecularformulamustthereforecontaintwiceasmanyatoms ofeachelement.
+
+The molecular formula = C2H4O2.
+COMBUSTIONANALYSIS
+
+We can use combustion analysis to find the percentage composition of a compound.
+
+A known mass of the compound is burned in excess dry oxygen. The masses of carbon dioxide and water produced aremeasured.
+
+For a compound that contains carbon,hydrogen and oxygen only we can then work out the following:
+
+• ·mass ofcarbon dioxide→mass ofcarbon→%carbon
+
+• ss
+
+• ·% oxygen = 100 - (% carbon + % hydrogen).
+
+## Topic 20: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### 20A Organic Structures
+
+WORKEDEXAMPLE2
+
+2.90 g of an organic compound, containing carbon, hydrogen and oxygen only, was burned in excess oxygen.
+
+6.60 g of carbon dioxide and 2.70 g of water were produced.
+
+Calculatethepercentagecompositionof thecompound
+
+## Topic 20: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### 20A Organic Structures
+
+Answer
+
+12.0 6.60g of carbon dioxide contains x 6.60 = 1.80g of carbon. 44.0
+
+2.70 g of water contains 2.0 x 2.70 = 0.30 g of hydrogen. 18.0
+
+% oxygen = 100 - (62.1 + 10.3) = 27.6%
+
+The percentage composition by mass of the compound is:
+
+C62.1%
+
+H10.3%
+
+027.6%
+CHARACTERISTICREACTIONSOFFUNCTIONALGROUPS
+
+Todeterminethestructuralformulafromthemolecular formulaweneed toidentify thefunctionalgroupsinthe compound.Traditionally,thisisdonebyperformingreactions in test tubes,using test reagents such as bromine water or 2,4-dinitrophenylhydrazine.
+
+You have already seen details of these tests inBook 1 and in Topics 15,18 and 19.
+
+A reminder of these tests is given in table A.
+
+## Topic 20: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### 20A Organic Structures
+
+
+#### CHARACTERISTICREACTIONSOFFUNCTIONALGROUPS
+tableATestsforfunctional groups.
+
+| FUNCTIONALGROUP                            | TEST                                                                         | OBSERVATION                                                                                        | NOTES                                                                                                                                                                                                         |
+|--------------------------------------------|------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Alkene (C=C)                               | add Br2(aq)                                                                  | brominedecolourises immediately                                                                    | aldehydesandketonesdecolourise Br2(aq), but very slowly phenolsdecolouriseBr(aq) immediatelyandalsoproducea white precipitate                                                                                 |
+| Halogenoalkanes (R-X), where X=Cl, Br or 1 | warm with NaOH(aq) and then add diluteHNO3,followedbyafew drops of AgNO3(aq) | R-Cl produces a white precipitate R-Brproducesacream precipitate R-1 produces a yellow precipitate | the precipitate is insoluble in dilute NH;(aq) the precipitate is insoluble in dilute NHs(aq),but soluble in concentrated NH(aq) the precipitate is insoluble in both dilute NHs(aq) and concentrated NH3(aq) |
+| Hydroxy group (-OH)                        | add solid PCls                                                               |
+
+#### CHARACTERISTICREACTIONSOFFUNCTIONALGROUPS
+misty fumes                                                                                        | bothalcohols andcarboxylicacids, but not phenols, produce misty fumes                                                                                                                                         |
+| Primary alcohol (RCH2OH)                   | add acidified KzCr2O7 solution and warm                                      | solutionturnsfrom orange to green                                                                  | the organic product of this reaction producesa silvermirrorwithTollens reagent                                                                                                                                |
+| Secondary alcohol (R2CHOH)                 | add acidified KCr2O7 solution and warm                                       | solution turns from orange to green                                                                | theorganicproductdoesnot produce a silvermirror withTollens' reagent                                                                                                                                          |
+| Carbonyl group Ror H C=O Ror H             | add 2,4-dinitrophenylhydrazine                                               | orange precipitate                                                                                 | bothaldehydesandketones produceanorangeprecipitate                                                                                                                                                            |
+| Aldehydes Ror H                            | addTollens'reagentandwarm                                                    | silvermirrorforms                                                                                  | Fehling's or Benedict's solutions can alsobeused ketones
+
+#### CHARACTERISTICREACTIONSOFFUNCTIONALGROUPS
+do not react with Tollens' reagent,Fehling'ssolutionor Benedict'ssolution                                                                            |
+| CH3 or CH CHOH                             | addanalkalinesolutionof iodine andwarm                                       | yellow precipitate forms                                                                           | thisisknownasthetriodomethane (oriodoform)test                                                                                                                                                                |
+| Carboxylic acids (R-COOH)                  | add NaHCO3(aq) or NazCO3(aq) and warm if necessary                           | bubbles of gas                                                                                     |                                                                                                                                                                                                               |
+| Phenol OH                                  | addbrominewater                                                              | bromineimmediately decolourisesandawhite precipitate forms                                         | phenylamine produces the same observation however,phenolissoluble in NaOH(aq)but insoluble in dilute HCl; phenylamine is insoluble in NaOH(aq)but soluble in dilute HCI                                       |
+
+## Topic 20: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### 20A Organic Structures
+
+MODERNANALYTICTECHNIQUES
+
+Chemists use a combination of techniques to identify organic compounds and determine their structures, including:
+
+• ·mass spectra
+
+• 1 infrared spectra
+
+• ·NMR spectra (both 13C and proton)
+
+Massspectrometryallowsustodeterminetheaccuraterelative molecularmassofacompound.Thefragmentationpatterns also compound.Forexample,apeakwithanm/zvalueof15could indicate that a CH group is present.
+
+Infrared spectroscopy allows us to identify particular functional groups and features in an organic compound. For example,an absorptionbetween1740and1720cm-indicatesthepresenceof a C=Ogroupin an aldehyde
+
+13C NMR spectroscopy allows us identify the number of different environmentsforthecarbon atomsinacompound.Forexample the spectrumforethanol,CHCH2OH,hastwopeaks.This shows thattherearetwodifferentenvironmentsforthecarbonatoms.
+
+The13CNMRspectrumof 1-methylethylpropanoate, CHCH2COOCH(CHs)2, has five peaks. This shows that there arefivedifferentenvironmentsforthecarbon atoms.Ifyou are is because the carbons in the two methyl groups at the right-hand endof themoleculeareinidentical environments.
+
+ProtonNMR spectroscopy allows us toidentify groups of hydrogenatomsinacompound.Forexample,iftherearethree hydrogenatomsinthesameenvironment,thisindicatesthat a -CH3 group is present. Splitting patterns also allow us to identify the number of hydrogen atoms on an adjacent carbon atom.
+
+None of thesemethodsgives a complete answer,but together theyprovidegood evidence to allowyou toidentifythemolecular structure.
+
+Mass spectrometry and infrared spectroscopy were introduced in Topic 10 (Book 1: IAS). NMR spectroscopy was introduced in Topic15.
+
+It maybeusefultore-readthesetwotopicssothatyoufully understandthetwoworkedexamples.
+
+## Topic 20: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### 20A Organic Structures
+
+WORKEDEXAMPLE3
+
+Compound X has the following percentage composition by mass:
+
+C 62.07%
+
+H10.34%
+
+027.59%
+
+Compound X produces an orange precipitate with
+
+2,4-dinitrophenylhydrazine,but it does not react with either Fehlings
+
+solutionorTollens'reagent.
+
+FigAshowsthemassspectrumofcompoundX.
+
+FigBshowstheinfraredspectrumofcompoundX
+
+TheprotonNMRspectrumofcompoundXhasasinglepeakwitha chemical shiftof 2.2ppm.Thepeakarea correspondstosixcarbon atoms.
+
+UseallthisinformationtodeterminethestructureofcompoundX.
+
+## Topic 20: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### 20A Organic Structures
+
+Answer
+
+Calculationoftheempiricalformula:
+
+Divide by Ar
+
+Dividebysmallest
+
+C (62.07 ÷ 12.0) =5.17
+
+(5.17 ÷ 1.72)= 3
+
+H (10.34 ÷ 1.0) = 10.34
+
+(10.34÷1.72)=6
+
+O (27.59 ÷ 16.0) = 1.72
+
+(1.72 ÷1.72)= 1
+
+Theempirical formula isCHO
+
+The molecular ion peak in the mass spectrum has a value of 58. The relativemolecularmassofcompoundXistherefore58.
+
+The empirical formula mass is(12.0x3)+(1.0x6) +16.0=58.0.
+
+Therefore themolecularformulaof compoundXisCHO.
+
+The absorption at 1720 cm-1 indicates thataC=Ogroup ispresent. Thiscouldbein eitheran aldehydeoraketone.
+
+Compound X produces an orange precipitate with
+
+2,4-dinitrophenylhydrazine,showing that it is a carbonyl compound (i.e.it is eitheran aldehyde oraketone).
+
+However,itdoesnotreactwitheitherFehling'ssolutionorTollens reagent,showingthatitmustbeaketone.
+
+TheprotonNMRspectrumshowsthattherearesixhydrogenatoms inidenticalenvironments,indicatingthattherearetwoCHgroups attached to the third carbon atom.The chemical shift of 2.2 ppm indicates hydrogen atoms in the environment: H-C-C=O.
+
+So the structure of compound X is CH;COCHs (propanone).
+
+## Topic 20: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### 20A Organic Structures
+
+WORKEDEXAMPLE4
+
+• (a) An organic compound Y contains carbon, hydrogen, nitrogen and oxygen.
+
+• 0.132g of Y is burned completely in oxygen to produce 0.176g of carbon dioxide,0.072 g of water and 24.0 cm3 of nitrogen(molarvolumeofnitrogenundertheconditionsof the experiment=24.0 dm3mol-1).
+
+## Topic 20: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### 20A Organic Structures
+
+ANALYSIS
+
+• CompoundTdoesnotimmediatelydecolourisebrominewater. Italsodoesnotreactwithanaqueoussolutionofsodium carbonate.WhenexcessPClsisaddeditproducesonemole (1mol)ofhydrogenchloridegaspermoleofT.Itproducesan orangeprecipitatewhenaddedto2,4-dinitrophenylhydrazine.
+
+• TherelativemolecularmassofcompoundYis132.
+
+DeterminethemolecularformulaofY.
+
+• (b)Asampleof Yishydrolysedbyheatingunderrefluxwith concentratedhydrochloricacidforseveral hours.Thereaction mixtureis thencooledandneutralised.The onlyorganic product,Z, of this reaction has the molecular formula C2HsO2N Onemoleof Zreactswitheitheronemoleofhydrochloricacid oronemoleofsodiumhydroxide
+
+• Z can exist as a zwitterion.
+
+Useall theinformationabovetodeducethestructuresof compoundsZandY.
+Answer
+
+• (a)Step 1: calculate mass of oxygen
+
+12.0
+
+44.0
+
+mass of carbon =
+
+x 0.176 = 0.048 g
+
+mass of hydrogen =
+
+× 0.072 = 0.008 g
+
+2.0
+
+18.0
+
+mass of nitrogen =(24.0 ÷ 24 000) × 28.0 = 0.028 g
+
+mass of oxygen = 0.132 g - (0.008 + 0.048 + 0.028) g
+
+= 0.048g
+
+Step2:calculateempirical formula ofY
+
+moles of carbon =(0.048÷12.0)=0.004 moles of hydrogen = (0.008 ÷ 1.0) = 0.008 moles of nitrogen = (0.028 ÷ 14.0) = 0.002 moles of oxygen = (0.048 - 16.0) = 0.003 Empirical formula of Y is C4HaN2O3 Empiricalformulamass =(12.0x4)+ (1.0×8) +(14.0×2) +(16.0×3) =132
+
+Theempiricalformulamass=therelativemolecularmass Therefore,the molecular formula of Yis CHNO3.
+
+• (b)Z reacts with HCl, so it contains an amine group (-NH2).
+
+• Z reacts with NaOH, so it contains a carboxylic acid group (-COOH).
+
+There is one -NH2 group per molecule and one -COOH per molecule(onemoleof ZreactswithbothonemoleofHCl and onemoleof NaOH).
+
+• Zcanform a zwitterion,soit mustbe anamino acid.
+
+The structureofZisHNCHCOOH.
+
+• Zis produced by hydrolysis of Y. Y must therefore be an amide. Since thereis only one organicproduct,thestructureof Ymust beHNCHCONHCHCOOH.
+
+• ThasamolecularformulaofCHO2
+
+• (a)WritethestructuralformulaeofthreepossibleisomersofT. Justifyyour answer.
+
+• (b)ThemassspectrumofThaspeaksatm/zvaluesof29and 59.Usethisinformationtodeduce theidentity ofT.
+
+• 2.The proton NMR spectrum of an organic compound is shown below.
+
+Usethisinformationtoidentifythecompound.
+
+## Topic 20: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### 20A Organic Structures
+
+LEARNING OBJECTIVES
+
+• Understand methods of increasing the length of the carbon chain in a molecule by the use of magnesium to form Grignard reagents and thereactionsof thelatterwithcarbon dioxide andwithcarbonyl compoundsindryether.
+
+• Beabletouseknowledgeoforganicchemistrytosolveproblemssuch as:
+
+• (i)predicting the properties of unfamiliar compounds containing one or more of the functional groups included in thespecificationandexplainthesepredictions
+
+• (i)planningreactionschemes of uptofoursteps,recallingfamiliarreactions and usingunfamiliarreactionsgiven sufficientinformation.
+
+## Topic 20: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### 20A Organic Structures
+
+WHATISORGANICSYNTHESIS?
+
+Theterm'synthesis'(thepluralis'syntheses')referstomaking somethingnewfromwhatalreadyexists.Inorganicchemistryit usuallymeansusingafamiliarcompound tomakeanunfamiliar compound.You have alreadylearned manyexamples of converting one compound into another - for example, converting a halogenoalkaneinto analcohol.Inthissectionwewill consider convertingonecompoundintoanothercompoundthatcannotbe relatively simple,in this book the number of stepswill be limited to four.
+
+Theabilitytoplanareactionschemetoachievethissynthesisis noteasilylearned.It is not likerecalling a simple mathematical expressionandputtingthenumbersintoacalculatortoobtain the answerInstead,it reliesona thoroughknowledge ofarange ofchemicalreactions andtheabilitytoselecttheonesthatare appropriate to the problem.
+
+Here is a simple example of a two-step synthesis-how to convert bromoethane to ethyl propanoate. You could start by considering thereactions ofbromoethane,and thenconsiderreactionsin whichethyl propanoateis aproduct.Youcould consider the question asapuzzleinwhichyouneedtofindtheidentityofXin thissequence:
+
+bromoethane→X→ethyl propanoate
+
+Ifyouknowaproductofareactionofbromoethanethatisthe sameasacompoundthatcanbeconvertedintoethylpropanoate, thenyouonlyneedtoincludethereagentsandconditionsto achieveeachofthesetwosteps.Whenthesynthesisinvolves threestepsitismoredifficultbecauseyouneedtoidentifytwo intermediate compoundsinthe synthesis.If therearefoursteps, thenwehavereachedthelimitofwhatisreasonabletoexpectat thispointinyourstudyofchemistry!
+
+In the example above,X is ethanol, and the steps are:
+
+Step1:bromoethane→ethanol reflux with aqueous potassium hydroxide (hydrolysis)
+
+Step2:ethanol→ethylpropanoate heat with propanoic acid using an acid catalyst (esterification).
+PREPARINGFORPLANNINGASYNTHESIS
+
+Onethingthatwillhelpyoulearnhowtoplanasynthesisisto couldleaveoutreactionsthatarelessusefulinsynthesis,such as combustion,polymerisation and chemical tests.You could try toproduceadiagram(likeaspiderdiagram)thatwouldinclude all thereactions,but thatwould probablybetoo complicated to easilyuse.It mightbebettertoproduceaseriesofsmallerones. For example, fig A shows reactions based on alcohols.
+
+figAReactions of alcohols.
+
+Where the arrows point in both directions,this means that you need tokmowbothconversions.NotethatreactionsfromBook1 are formulae of reagents and any special conditions on the arrows.You could usedifferentcolourstoemphasisedifferentfeatures.
+EXTENDINGACARBONCHAIN
+
+Itispossiblethatoneofthestepsinyoursynthesiswillinvolve extendinganexistingcarbonchainbyoneormorecarbonatoms. Youhavealreadylearnedthreewaysofdoingthis:
+
+• 1Reactingahalogenoalkanewithacyanideionformsanitrile withonemorecarbon atom than thehalogenoalkane.
+
+• 2The addition of hydrogen cyanide to a carbonyl compound
+
+• 3The alkylation of benzene, which introduces an alkyl group into a benzene ring.
+
+A different way, which is more versatile, involves the use of Grignard reagents.
+GRIGNARDREAGENTS
+
+VictorGrignard was aFrench chemist who devised a newway to synthesise organic compounds. His method involved the use of organometallic compounds containing magnesium,which are now knowmasGrignardreagents.Theyaremadebyheatingunderrefluxthechosenhalogenoalkane with magnesium in a solvent ofdry ether.Halogenoarenessuch as bromobenzene are also used.Bromoalkanesareusedinpreferencetootherhalogenoalkanes.Grignardreagentscontain magnesium covalentlybonded toboth the alkyl group and the halogen.A general equationforthe formationofaGrignardreagent is:
+
+R—Br+Mg→R—Mg—Br
+
+Grignard reagentsreact withwater,so they areboth made and used in a solvent ofdryether.
+GRIGNARDREACTIONS
+
+OnceaGrignardreagenthasbeenmadeitcanthenbeconvertedintoarangeoforganic compounds,depending on thereagent used.In this bookwe will consider only two of these reactions:withcarbondioxideandwithcarbonylcompounds.Theycanbesummarisedasfollows.
+
+• 1with carbon dioxide
+
+RMgBr→RCOOH
+
+carboxylic acid
+
+• 2awithmethanal
+
+RMgBr → RCH,OH
+
+primary alcohol
+
+• 2bwith an aldehydeR'CHO
+
+RMgBr →RR'CHOH
+
+secondary alcohol
+
+• 2cwith aketone R'COR"
+
+RMgBr → RR'R"COH
+
+tertiary alcohol
+
+R,R'and R"represent different alkyl groups, although they could be the same.Note that both carbondioxideandmethanalincreasethecarbonchainbyonecarbonatom.Bothaldehydes and ketonesproduceabranch,ofvariablelength,ontheexistingcarbonchain.
+
+Havingmade the appropriateGrignard reagent,thesecond reagent(carbon dioxideorthecarbonyl compound) is added.After thereactionis complete,a dilute acid is added to obtain the desired organic product.
+FORMATIONOF3-METHYLBUTANOICACID
+
+This is an example of reaction 1, described above.The COOH part comes from carbon dioxide,so i.e. 1-bromo-2-methylpropane. The equations for the reactions that occur in this example are:
+
+Step1:formationof theGrignard reagent
+
+(CH)CHCH,Br + Mg →(CH)CHCH,MgBr
+
+Step2:reactionwithchosenreagent
+
+(CH3)CHCH,MgBr + CO2 →(CH)CHCH,COOMgBr
+
+Step 3: hydrolysis using a dilute acid
+
+(CH)CHCH,COOMgBr + H2O →(CH)CHCH,COOH + Mg(OH)Br
+
+The inorganicproduct of Step3 will react with the dilute acid.You do not need to know details of the mechanisms.
+FORMATIONOFPROPAN-1-OL
+
+This and the other examples are abbreviated as reaction schemes, rather than being shown as three steps.
+
+Propan-1-ol, CHCHCHOH, is a primary alcohol. So, methanal is the source of the CHOH part, and the starting compound is bromoethane,which is thesource of the CHCH2part.
+
+fig B Victor Grignard (18711935) won the NobelPrize in Chemistryfor hiswork in organic synthesis.
+
+## Topic 20: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### 20A Organic Structures
+
+EXAM HINT
+
+Grignardreactions are alot saferthan usinghydrogen cyanideandpotassiumcyanide toaddacarbonatomtoa molecule(seeSection20A.3). Grignardreactionsalsogivea widerrangeofchemical additions.
+EXAM HINT
+
+Youcantestyourknowledgeof organicsynthesisandanalysisby settingyourselfasynthesistask. Forexample,thinkabouthowto converta three-carbonalkene intoafive-carbonsecondary alcohol.Thentrytopredictthe changesintheNMRspectra fromreactanttoproduct.
+LEARNING TIP
+
+Practise choosingreagentsfora Grignardsynthesis.First, identifyingtheproducttype (acidoralcohol)tellsyouthe typeofcompoundtoreactwith theGrignardreagent.Then, workouthowmanycarbon atomsareneededinthe halogenoalkaneusedtoform theGrignardreagent.Seehow yougetonwith thequestions in thissection!
+EXAM HINT
+
+YouhaveseeninTopic10 (Book1:IAS)thatprimary alcoholsareeasilyoxidisedby heatingwithamixtureof potassium dichromate(Vl) and dilutesulfuricacid.There isa colourchangefrom orangeto green in this reaction.
+
+Youmayhavelearnedthat phenols arenoteasilyoxidised. Soyoumaythinkthat 4-methylphenolwill notbe oxidisedbyheatingwiththe samemixtureofpotassium dichromate(Vl)anddilute sulfuric acid.Youmay decide to usethisreagenttodistinguish betweenthetwocompounds.
+
+Unfortunately,thistestwillnot work.Althoughthephenol groupwill notbeoxidisedby themixtureofpotassium dichromate(Vl) anddilute sulfuric acid,the methylgroup attached to the benzenering willbeoxidised.Soacolour changefromorangetogreen willbeobserved.
+
+This isagoodwarningtobe very careful when choosing reagents for distinguishing betweentwocompounds.The bestadviceistouseonlythe reactionsdescribedinBook1 andBook2.
+
+## Topic 20: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### 20A Organic Structures
+
+FORMATIONOFPENTAN-2-OL
+
+Pentan-2-ol, CHCH(OH)CH2CH2CH, is a secondary alcohol, so ethanal is the source of the CHCH(OH)part,and the starting compound is 1-bromopropane,whichis the source of the CHCHCH2 part.
+
+FORMATIONOF2-METHYLPR0PAN-2-OL
+
+2-Methylpropan-2-ol, (CH3)COH, is a tertiary alcohol, so propanone is the source of the (CH)COH part, and the starting compound is bromomethane,which is the source of the CH part.
+PREDICTINGTHECHEMICALPROPERTIESOFCOMPOUNDS
+
+As we have seen in Section 2oA.1, chemical reagents can be used to show which functional groups are presentin a compound.
+
+Functionalgroupscaninfluencethebehaviourofcompoundsthatcontainthem.Forexample:
+
+• ·some compoundswill act as nucleophiles and others as electrophiles
+
+• somewill be susceptible to addition reactions and others to substitution reactions
+
+• ·some will be easily oxidised and others are more easily reduced.
+
+WecanshowthisbylookingattwocompoundswiththemolecularformulaCHsO:phenylmethanol and 4-methylphenol (see fig C).
+
+phenylmethanol
+
+4-methylphenol
+
+fig C
+
+Both compounds are slightly soluble in water Phenylmethanol forms a neutral solution,but aqueous 4-methylphenol is slightly acidic. This is because one of the lone pairs of electrons on the oxygen atom is incorporated into the delocalised electrons in the ring. This makes the O-H bond more carbonate toform carbon dioxide, distinguishing it from carboxylic acids.
+
+Phenylmethanol is a primary alcohol because it contains a -CHzOH group. 4-Methylphenol is a phenol because it has an -OH group attached to the benzene ring.
+
+Phenylmethanolwillformanesterwhenheatedwithacarboxylicacidinthepresenceof concentrated sulfuric acid. This is because it is an alcohol (Topic 15):
+
+4-Methylphenol will not form an ester with carboxylic acids.
+
+4-Methylphenolwilldecolourisebrominewater:
+
+However,phenylmethanoldoesnotreactwithbrominewater.
+MULTI-STEPSYNTHESES
+
+You may be asked to plan to a reaction scheme that shows all the intermediate compounds aswell as the reagents and conditions required for each step.There are several ways you can approach this:
+
+• bycheckingifthecarbonchainlengthhasincreasedordecreased
+
+• by looking at the final product and ‘working back' to the starting compound
+
+• bylooking at the starting compound and thinking of the types of reactions it can undergo
+
+Fig D shows how working back can be used to plan the synthesis of one compound from another. In thiscasethestartingcompoundisbromoethaneand thefinal compoundisethanoicacid:
+fig D
+
+Youcanplanthereactionschemeusingthefollowingstages.
+
+• Beginbywritingtheformulaeofthecompoundsthatcanbereadilyconvertedintoethanoicacid Theseincludeethanenitrile,ethanol,methyl ethanoate andethanol.
+
+• Nowlook at the startingcompound,bromoethane,to see if it canbe converted into one of these compounds.If necessary,write theformulae of the compounds that bromoethane can easily be convertedinto.Theseincludeethanol,etheneandethylamine.
+
+• You should now be able to see a clear two-step route from bromoethane to ethanoic acid. In this case, the route is to convert bromoethane into ethanol, and then to convert ethanol into ethanoic acid.
+
+• Finally, you need to add the reagents and conditions required for each step. To convert bromoethaneintoethanolyouneedtoaddaqueoussodiumhydroxideandheatunderreflux. Toconvertethanolintoethanoicacidyouneedtoaddpotassiumdichromate(Vl)anddilute sulfuricacid and heatunderrefux.
+
+You can set out your final answer as shown in fig E:
+
+figE
+
+You can use the same process for three-and four-step syntheses, although it will be a bit more complex.
+
+## Topic 20: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### 20A Organic Structures
+
+WORKEDEXAMPLE1
+
+Deduce the reagents and conditions, and identify the two intermediates, in the three-step synthesis of the followingcompoundfrombenzene:
+
+ethylamine ethanol
+
+## Topic 20: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### 20A Organic Structures
+
+Workingbackwards
+
+The final compound is an N-substituted amide (a secondary amide). It can be made by the reactionbetween an chloride, CHCOCl.
+
+Phenylamine can bemade by heating nitrobenzene,CHsNO2,under reflux with tin and concentrated hydrochloric acid.
+Workingforwards
+
+Benzene, CH, is converted into nitrobenzene by heating under reflux at 50-60 °℃ with a mixture of concentrated nitricacidandconcentratedsulfuricacid
+
+The three-step synthesis is therefore:
+
+concHNO/concH,SO
+
+Sn/concHCI
+
+CH,COCI
+
+heat underreflux 50-60°℃
+
+## Topic 20: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### 20A Organic Structures
+
+WORKEDEXAMPLE2
+
+Deduce thereagents and conditions,and identify the threeintermediates,in thefour-step synthesisof ethanol,CHCHOH,from methanol,CHOH.
+
+## Topic 20: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### 20A Organic Structures
+
+Answer
+
+Thefirstpointtonoteistheincreaseincarbonchainlengthfrom2to3.Youhaveseenthreemethods forincreasingthecarbon chain:
+
+• reactionbetweenahalogenoalkaneandKCN
+
+• reactionbetweenanalkeneandHCN
+
+• theuse of Grignard reagents.
+
+We are going tolook at how to do this conversion without the use of a Grignard reagent.
+Workingbackwards
+
+Thereareseveralwaysofmakingethanol.Forexample:
+
+• hydrolysingchloroethane,CHCHCl,orbromoethane,CHCHBr
+
+• reducingethanal,CHCHO
+
+• reducingethanoicacid,CHCOOH.
+
+Ethanoic acid can bemadeby hydrolysing ethanenitrile,CHCN.
+
+Converting a halogenoalkane into a nitrile is one method of increasing the carbon chain.CHCN can be made by reacting CHsCl with KCN.
+
+Workingforwards
+
+CHsOHcanbeconverted intoCHCIbyreactionwithPCls.
+
+Apossible four-step synthesis istherefore:
+
+## Topic 20: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### 20A Organic Structures
+
+CHECKPOINT
+
+• DrawthestructureoftheorganicproductobtainedinaGrignardsynthesisstartingfrom 1-bromo-2,2-dimethylpropane and propanal.
+
+• DrawthestructuresofthetwocompoundsneededinaGrignardsynthesisof3,3-dimethylhexan-4ol.
+
+• Deducethereagentsandconditions,andidentifyallintermediates,ineachofthefollowingconversions:
+
+• (a) CH3Br to CHsCHNH2 (two steps)
+
+• (b) CH2=CH2to CHCH2CH2OH (four steps).
+
+heatunderreflux roomtemperature
+
+• 3.
+
+NHCOCH,
+
+## Topic 20: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### 20A Organic Structures
+
+LEARNING OBJECTIVES
+
+• Beabletouseknowledgeoforganicchemistrytosolveproblemssuch as:
+
+• (i) selecting suitable practical procedures for carrying out reactions involving compounds with functional groups
+
+• (i) identifying appropriate control measures to reduce risk based on data for hazards.
+
+## Topic 20: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### 20A Organic Structures
+
+CONVERTINGONEFUNCTIONALGROUPINTOANOTHER
+
+This is a summary of some of themost useful organic conversions thatyou havelearned on your International AS/A Level course.
+
+## Topic 20: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### 20A Organic Structures
+
+
+#### CONVERTINGONEFUNCTIONALGROUPINTOANOTHER
+| CONVERSION                                        | EQUATION                                | REAGENT                                         | CONDITIONS                                                                    | |---------------------------------------------------|-----------------------------------------|-------------------------------------------------|-------------------------------------------------------------------------------| | Alkene to halogenoalkane                          | CH=CH2+HX→CHCHX                         | hydrogen halide                                 | mix the gases at room temperature                                             | | Halogenoalkanetoalcohol                           | RX+NaOH→ROH+NaX                         | aqueous sodium hydroxide                        | heat underreflux                                                              | | Halogenoalkane to nitrile                         | RX+KCN→RCN+KX                           | alcoholicpotassiumcyanide                       | heatunderreflux                                                               | | Halogenoalkane to amine                           | RX+2NH→RNH2+NHX                         | aqueousammonia                                  | heat underpressure                                                            | | Alcoholtochloroalkane                             | ROH+PCIs→RCI+HCI+POCl                   | phosphorus(V) chloride                          | roomtemperature                                                               | | Alcoholtobromoalkane                              | ROH +HBr→RBr +H2O                       | 50%concentratedsulfuric acidandpotassiumbromide | warm                                                                          |
+
+#### CONVERTINGONEFUNCTIONALGROUPINTOANOTHER
+| Alcoholtoiodoalkane                               | 3ROH+Pl→3RI+HPO3                        | red phosphorus and iodine                       | heat under reflux                                                             | | Primary alcohol to aldehyde                       | RCH2OH+[O]→RCHO+H2O                     | potassium dichromate(VI) anddilutesulfuricacid  | addthereagenttohotalcohol and allow the aldehyde todistil off as it is formed | | Primary alcohol to carboxylic acid                | RCHOH+2[O]→RCOOH+HO                     | potassium dichromate(VI) anddilute sulfuricacid | heat underreflux                                                              | | Secondaryalcoholtoketone                          | RCH(OH)R'+[O] →RCOR'+H2O                | potassium dichromate(VI) anddilutesulfuricacid  | heat underreflux                                                              | | Aldehydetoprimaryalcohol                          | RCHO+2[H]→RCH2OH                        | lithium aluminium hydride in dry ether          | roomtemperature                                                               | | Ketonetosecondary alcohol                         | RCOR'+2[H]→RCH(OH)R                     | lithium aluminium hydride in dry ether          | roomtemperature                                                               | | Aldehydeandketoneto 2-hydroxynitrile              | RCHO+HCN→RCH(OH)CN RCOR'+HCN→RR'C(OH)CN | potassium cyanide in dilute sulfuricacid        | 10-20°℃                                                                       | | Carboxylic acid to primary alcohol                | RCOOH+4[H]→RCH2OH+H2O                   | lithium aluminium hydride in dryether           | roomtemperature                                                               |
+
+#### CONVERTINGONEFUNCTIONALGROUPINTOANOTHER
+| Carboxylicacidtoester                             | RCOOH+R'OH→RCOOR'+H2O                   | alcoholandconcentrated sulfuric acid            | heat                                                                          | | Acylchloridetocarboxylic acid                     | RCOCI+HO→RCOOH+HCI                      | water                                           | roomtemperature                                                               | | Acylchloridetoester                               | RCOCI+R'OH→RCOOR'+HCI                   | alcohol                                         | roomtemperature                                                               | | Acylchloride toprimary amide                      | RCOCI+2NH3→RCONH2+ NH,CI                | aqueous ammonia                                 | roomtemperature                                                               | | Acylchloridetosecondary amide(N-substitutedamide) | RCOCI+R'NH2→RCONHR'+HCI                 | amine                                           | roomtemperature                                                               |
+
+#### CONVERTINGONEFUNCTIONALGROUPINTOANOTHER
+| CONVERSION                         | EQUATION                | REAGENT                                            | CONDITIONS                                         |
+|------------------------------------|-------------------------|----------------------------------------------------|----------------------------------------------------|
+| Nitriletoprimaryamine              | RCN + 4[H] → RCH2NH2    | lithium aluminium hydride in dry ether             | roomtemperature                                    |
+| Nitrationofbenzene                 | CH+HNO3→CH5NO2+HO       | concentratednitricacidand concentratedsulfuricacid | heatunderrefluxbetween 50 and 60°C                 |
+| Sulfonationofbenzene               | CH6 +H2SO4→ CH5SOH +H2O | fumingsulfuricacid                                 | 40°℃                                               |
+| Brominationofbenzene               | CH+Br2→CHsBr+HBr        | liquidbrominewithiron(to form iron(lll)bromide)    | dryandroomtemperature                              |
+| Friedel-Craftsalkylationof benzene | CH+RX→CHsR+HX           | halogenoalkane                                     | dry,in thepresence of anhydrousaluminiumhalide     |
+| Friedel-Craftsacylationof benzene  | CH+RCOCI → CHsCOR +HCI  | acyl chloride                                      | dry, in the presence of anhydrousaluminiumchloride |
+
+## Topic 20: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### 20A Organic Structures
+
+SAFETYINCHEMISTRYLABORATORIES
+
+Incidents that cause harm to people are rare in school and college chemistry laboratories. One ofthereasonsforthisisthatalllaboratoriesmustconsiderthehazardsofcarryingoutchemistry experiments and use safemethods ofworking.
+
+This applies to all chemistry experiments, whether you are given the instructions for doing them, or whether you plan your own.When you plan an organic synthesis you must consider the hazards associated with thereactants,the substance you aresynthesising and with any intermediate compoundsformed.
+HAZARDS,RISKSANDCONTROLMEASURES
+
+The hazardsofchemical substances relate to the inherent properties of each substance and the way in which it will be used. Most people would consider that water(HzO) is completely safe and has no hazards.In most situations thisis thecase.However,consider abeaker ofboilingwater.The steam comingfrom the boilingwater, and theboilingwateritself, could bothcause harmful effects if they cameintocontactwithyourskin.
+
+Now consider a substance that mostpeoplewould consider dangerous.You probably used dilute hydrochloric acid years ago in experimentsinvolvingmarble chips.You will have been told towear eye protection when using the acid, because of the harm it could do if it got into your eyes.
+
+Thehazardexistsbecausehydrochloricacidiscorrosive.
+
+The risk is that hydrochloric acid may get into your eyes and cause harm.
+
+The control measure is to wear eye protection to reduce the risk of the acid getting into your eyes.
+
+This simpleexample should helpyou to understand the differencebetweenhazard and risk-these twowords are oftenthought,wrongly,tohavethesamemeaning
+HAZARDWARNINGSYMBOLS
+
+early attempt to prevent harm to laboratory workerswas well intentioned,but some people may have thought that bottles without such a label contained harmless substances.
+
+More recently, symbols (sometimes called pictograms) have been used as labels for bottles to identify theactualhazardofthesubstanceinside.Theactualsymbolshavechanged overtheyears,andyou may still see older ones used,especially those in squares with an orangebackground, such as these:
+
+Thesymbolsincurrentusearereddiamondshapes.TableAshowssomeofthemorecommon ones,alongwithasimpledescriptionoftheirmeanings
+
+## Topic 20: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### 20A Organic Structures
+
+
+#### HAZARDWARNINGSYMBOLS
+tableA
+
+| MEANING        |                                                            |
+|----------------|------------------------------------------------------------|
+| Health hazard  | includes warnings on skin rashes, eye damage and ingestion |
+| Corrosive      | can cause skin burns and permanent eye damage              |
+| Flammable      | cancatchfireifheatedorcomes intocontactwithaflame          |
+| Acute toxicity | can cause life-threatening effects, eveninsmallquantities  |
+
+## Topic 20: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### 20A Organic Structures
+
+
+#### HAZARDWARNINGSYMBOLS
+tableA
+
+In some cases,the substancemay especiallywhenitisanaqueousso likely to use hydrochloric acid in th
+
+## Topic 20: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### 20A Organic Structures
+
+LEARNING TIP
+
+• whenused inatitration,itwill h approximately 0.1 mol dm-3
+
+Becomefamiliarwiththe hazardsof thesubstancesyou useinanexperiment,and consider how any risks of using them maybereduced.
+
+• as a general laboratory reagent, it will probably have a concentration of approximately 1 or 2 mol dm-3
+
+• abottlelabelled'concentratedhydrochloricacid'mayhavea concentration of more than 10 mol dm-3.
+
+These very different concentrations have different risks.
+
+There are several other hazard symbols,including those that you aremorelikelytofind inbiologyorphysicslaboratories.
+
+## Topic 20: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### 20A Organic Structures
+
+CONTROLMEASURES
+
+It is the responsibility of whoeveris in charge of thelaboratory toidentify risks and hazards,and to prescribe appropriate control measures.Thisresponsibilityis sharedwiththe student doing the experiment,whoshouldfollowtheguidance.Thereareseveral organisations that provide advice and support to schools and colleges, and it is likely that the health and safety information you seeinyourlaboratoryhascomefromoneofthesesources.
+
+Asastudentyoumaybeaskedtoplananexperimentora synthesis,includingidentifyingthehazards and control measures needed,soyou need tobefamiliarwith this information.
+
+• your home.
+APPARATUS
+
+Youalsoneedtoconsiderrisksassociatedwithapparatus.For example,mercurythermometersareoftenreplacedbyspirit thermometersordigitalthermometers,whichhavemuchlower risks. Heating may be done using an electrical heating mantle instead of a Bunsen burnerYou may use glass apparatus with ground glass joints, as these are safer to set up than those that use corks or bungs.You alsohave toconsider where to support apparatus with a clamp and stand.
+
+## Topic 20: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### 20A Organic Structures
+
+CHECKPOINT
+
+SELF-REGULATION,
+
+RESPONSIBILITY
+
+• 1. Suggestsomecontrolmeasuresyoushoulduseinan experimenttoconvertbromoethane intoethanol.
+
+• 2.Use your chemical knowledge to suggest why spilling sodium hydroxidesolutionontoyourskin maycausemoreharmthanhydrochloricacidofthesame concentration.
+
+## Topic 20: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### 20A Organic Structures
+
+SUBJECT VOCABULARY
+
+hazardapropertyofasubstancethatcouldcauseharmtoauser risk thepossible effect that a substance may cause toa user,and this willdependonfactorssuchasconcentrationandapparatus.Thelevel ofriskiscontrolledusingcontrol measures
+
+## Topic 20: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### 20A Organic Structures
+
+4PRACTICALTECHNIQUESIN ORGANICCHEMISTRY:PART1
+
+## Topic 20: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### 20A Organic Structures
+
+LEARNING OBJECTIVES
+
+• Understand the following techniquesused in the preparation and purification of organic compounds:
+
+• (i) refluxing
+
+• (ii) distillation
+
+• (ii)steam distillation.
+
+## Topic 20: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### 20A Organic Structures
+
+DIFFERENTPRACTICALTECHNIQUES
+
+In the preparation and purification of any organic compound, there are likely tobe several techniques used.Eachpreparation or synthesiswill useone ormore ofthetechniquesinthis section and the next. Most of them have been covered in Book 1, but all are included inthesesectionsforcompleteness.
+HEATINGUNDERREFLUX
+
+Some reactions involving organic compounds are slow at room temperature,so the obvious thing to dois heat thereactionmixture. However as many organic compounds are volatile, there is a risk that they will escape from the reaction mixture during the heating process. The normal way to prevent this happening is to heat the reaction mixture in a flask fitted with a reflux condenser (fig A). This technique is alsokmown asrefuxing.All thevapoursrisingfromthe reaction mixture during heating enter the condenser and change back into liquids. They then return to the fask so that the unreacted compoundscanreact.
+
+figAApparatusforheatingunderreflux.
+
+Theflaskcanbeheatedusinghotwateroroilinabeakerheated by aBunsenburner orby usinganelectricmantle.Theuse of anti-bumping granules in the reaction mixture helps to make the boilingsmooth.Agentleflowofcoldwaterentersatthebottom of the condenser.
+SIMPLEDISTILLATION
+
+This is a separation technique used to obtain a liquid product from areactionmixture that has aboilingtemperaturemuchlower than the other substancesinthereactionmixture.
+
+Distillationofanimpureliquid involvesheatingit in aflask connected to a condenser(fig B). The liquid with the lowest boiling temperature evaporates orboils offfirst and passes intothecondenserfirst,andsocanbecollectedinthereceiver separatelyfrom anotherliquid thatmayevaporatelaterThe purposeof thethermometeris tomonitorthe temperature of thevapourasitpassesintothecondenserIfthetemperature remains steady,this indicates that one compound isbeing distilled If after a while the temperature begins to rise, this indicates that a differentcompoundisbeingdistilled.
+
+• fig BApparatusfor simple distillation.
+
+The advantages of using simple distillation, rather than fractional distillation, are that it is easier to set up and is quicker The disadvantage is that it does not separate the liquids as well as fractional distillation. It should only be used if the boiling temperature of the liquid being purified is very different from the otherliquids in themixture,ideally a difference ofmore than25°C.
+
+## Topic 20: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### 20A Organic Structures
+
+EXAM HINT
+
+Youmaybeasked todraw distillation apparatus(simple or fractional).lf so,makesure thatyou drawthebulbof the thermometerlevelwiththeside-armlinkedtothecondenser.
+
+## Topic 20: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### 20A Organic Structures
+
+STEAMDISTILLATION
+
+Steamdistillationisatechniqueusedtoseparateaninsoluble liquidfrom an aqueoussolution.It involvespassingsteaminto a reactionmixture thatcontainsanaqueoussolution and a liquid
+
+SPECIFICATION REFERENCE
+
+20.5(i)
+
+20.5(vi)
+
+20.5(vii)
+TOPIC 20
+
+that forms a separate layer (fig C). The agitation of the liquid causedbythesteambubblingthroughthemixtureensuresthat both the insoluble liquid and the aqueous solution are on the surfaceofthemixtureandsocanformpartoftheliquid that evaporates.Theadvantageofthisprocessisthat theinsoluble liquid is removed from thereactionmixture at a temperature belowitsnormalboilingtemperature.
+
+An example is phenylamine, a liquid with a boiling temperature of 184 °C. During steam distillation of a reaction mixture containing phenylamine,aliquid containingphenylamineandwaterdistils ata temperatureof98°C.Anadvantageofdoingthisisthat the temperatureatwhichphenylaminedistilsismuchlowerthanits boiling temperature, so there is less chance of decomposition.
+
+figCApparatusfor steam distillation.
+FRACTIONALDISTILLATION
+
+Fractional distillation uses the same apparatus as simple distillation, butwithafractionatingcolumnbetweentheheatingflask and the still head(figD).The column is usuallyfilled withglassbeads or pieces of broken glass.These act as surfaces on which the vapour leaving the column cancondense, and thenbe evaporated again asmorehotvapourpassesupthecolumn.Effectively,thevapour experiencesseveralrepeateddistillationsasitpassesupthecolumn, whichprovidesabetterseparation.
+
+fig DApparatus for fractional distillation.
+
+Fractionaldistillationtakeslongerthan simpledistillation.It isbest used when the difference in boiling temperatures is small, and when there areseveral compoundstobeseparated from a mixture.
+
+## Topic 20: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### 20A Organic Structures
+
+LEARNING TIP
+
+Rememberthattherearethreetypesofdistillation,andthatyouneed toconsiderwhichonetouseinaparticularcase.
+
+## Topic 20: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### 20A Organic Structures
+
+SKILLS
+
+SELF-DIRECTION, CREATIVITY
+
+• Explainbrieflywhythecondenserisverticalinrefluxingbut nearlyhorizontal inthethreemethodsof distillation.
+
+• 2. Suggest,withareason,whichfractionatingcolumnprovides thebetterseparation-verysmallglassbeadsorlargerpiecesof glass.
+
+5PRACTICALTECHNIQUESIN ORGANICCHEMISTRY:PART2
+
+## Topic 20: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### 20A Organic Structures
+
+LEARNING OBJECTIVES
+
+• Understand the following techniques used in the preparation and purification of organic compounds:
+
+• (i)purificationby washing,includingwithwater and sodium carbonate solution
+
+• (ii)solvent extraction
+
+• (ii) )recrystallisation
+
+• (iv) drying
+
+• (v) )meltingtemperature determination
+
+• (vi) boiling temperature determination.
+
+## Topic 20: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### 20A Organic Structures
+
+SOLVENTEXTRACTION
+
+fromtheothersubstancesinthereactionmixture.Severalsolventscanbeused,butthechoice dependsmainlyonthesefeatures:
+
+• .Thesolvent added should beimmiscible(i.e.doesnotform a mixture)withthesolvent containing the desired organicproduct.
+
+• Thedesiredorganicproduct should bemuchmore solublein the added solvent than inthe reaction mixture.
+The method is this:
+
+• ·Place the reaction mixture in a separating funnel (fig A), and then add the chosen solvent - it shouldformaseparatelayer.
+
+• while (put a finger on the stopper, invert, open the tap,agitate in a circular motion, close the tap andreturnthefunnel toitsnormalposition)
+
+• Allowthecontentstosettleintotwolayers.
+
+• Removethestopperandopenthetaptoallowthelowerlayertodrainintoaflask,andthendothe sametoallowtheupperlayertodrainintoaseparateflask.
+
+• fig AApparatus for separating immiscible liquids.
+
+Ifasuitablesolventisused andthemethodisfollowedcorrectly,mostofthedesiredorganicproduct willhavemovedintotheaddedsolvent.Itisbettertousethesolventinsmallportionsratherthan in a single volume (e.g.four portions of 25 cm? rather than one portion of 100 cm?) because this is more efficient.Usingmore portions of solvent,but with the same totalvolume,removes more of the desiredorganicproduct.
+
+The desired organic product has been removed from the reaction mixture,but is now mixed with the addedsolvent.Therefore,simpledistillationorfractionaldistillationmustnowbeusedtoseparate thedesiredorganicproductfromthesolventused.
+
+SPECIFICATION REFERENCE
+
+20.5(ii)20.5(ii)20.5(iv)
+
+20.5(v)
+
+20.5(vii)20.5(ix)
+WASHING
+
+Youmight assumethatwashingisatechniqueused toremoveimpuritiesfromasolid.Although thisiscorrect,itis alsousedtoremoveimpuritiesfromaliquid.Washingcouldinvolvetheuse of wateroranorganicsolvent.Itcould alsoinvolvetheuseofsodiumcarbonatesolution,toremove anyexcessacidthatmaybepresent.Whicheverliquidisused,itmustbechosencarefullysoasto dissolvetheimpuritiesbutaslittleaspossibleofthesubstancebeingpurified.
+
+Animpuresolid isstirred insomeofthesolvent,thenthemixtureisfiltered.If thesolid isalreadyin afilterfunnel,thesolventcouldbeaddedontopofthesolid.
+
+Aliquidwouldbemixedwithasolventchosensothatitwilldissolvelittle,ifany,oftheliquidtobe purified. The mixture is then shaken in a separating funnel. After allowing the two liquid layers to separate,thetapisopenedtoalloweachlayertodrainintoaseparatecontainer
+DRYING
+
+adesiccatorwithasuitabledryingagent(figB).
+
+• figBDryingan organicsolid in a desiccator
+
+Manyorganicliquidsarepreparedusinginorganicreagents,whichareoftenusedinaqueous watermaybeanimpuritythatneedstoberemovedbyadryingagent.Obviously,oneimportant
+
+Several drying agents are available, but the most common ones are anhydrous metal salts - usually calcium chloride,magnesium sulfate and sodium sulfate.The property that these compounds have in commonisthattheyformhydratedsalts.So,whentheycomeintocontactwithwaterinanorganic liquid,they absorbthewater aswater ofcrystallisation.
+
+The drying agent is added to the organic liquid and themixture is gently agitated or shaken,and then left for a period of time. Before use, a drying agent is powdery, but after absorbing water it looks morecrystalline.Ifabitmoredryingagentisadded andremainspowdery,thenthisis anindication that theliquid is dry.The liquid alsogoes from cloudy to clear when water is removed.
+
+The drying agent is removed either by decantation (pouring the organic liquid off the solid drying agent) or by filtration.
+
+FILTRATION
+
+arenormallyusedwillbeconsideredunderthenextheading.Theuseofavacuumpumpmeansthat thesemethods aredescribed asfiltrationunderreducedpressure.
+RECRYSTALLISATION
+
+impuritiesisthetechniqueofrecrystallisation.Theprinciplebehind thistechniqueisthat asolid compound is dissolved in a suitable solvent that can dissolve all ormost of any impurities but very little of the compound beingpurified.The steps used in a typical purification are:
+
+• ·Addtheimpuresolidtoaconicalflask
+
+• ·Add some of the chosensolvent andwarm until themixturenears theboiling temperature of themixture.
+
+• .If thereisstill someundissolvedsolid,addfurthersolvent andwarmuntil themixtureboils again.
+
+• ·Continue adding further solvent and heating until all of the soluble solid has dissolved.
+
+• ·If insoluble impurities are present, then hot filtration could be done using fluted filter paper in a heated funnel.
+
+• Allow the liquid to cool until crystals of the organic solid have formed.
+
+• More crystalscan be obtained by cooling the solution below room temperature in an icebath.
+
+• The mixture is then filtered to remove soluble impurities using a Buchner funnel or a Hirsch funnel (fig C).
+
+• The crystals arewashed with a small amount of ice-cold solvent and then dried in a desiccator orwarmoven.
+
+## Topic 20: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### 20A Organic Structures
+
+LEARNING TIP
+
+Theimpuresolidneedstobedissolvedintheminimumvolumeofhotsolvent.Thisistomakesurethatthe pure solid will crystallise when the solution is cooled.
+
+Hot filtration is used to make sure that the pure solid does not crystallise at this stage.
+
+Crystals of thepure solid formwhen the solution iscooled.This isbecause thesolid islesssolubleinthe coldsolventthaninthehotsolvent.
+
+Thecrystals arewashedwitha small amountof ice-coldsolvent.This istoremove anysolubleimpurities, andtomakesurethatverylittleofthepuresoliddissolves.
+
+Buchner funnel
+
+Hirsch funnel
+
+fig C Apparatus for filtration under reduced pressure.
+
+LEARNING TIP
+
+Study the information about recrystallisation carefully. Many students do not understand why there might betwofiltrationsneeded.Somethrowawaythesubstancetheyhavejustpurified!
+
+## Topic 20: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### 20A Organic Structures
+
+TESTINGFORPURITY
+
+Having prepared an organic compound,a simple test can be performed to give an indication of whetherthecompoundispure.Ifthecompoundisasolid,thenitsmeltingtemperaturecanbe measured. If it is a liquid, then its boiling temperature can bemeasured.
+
+## Topic 20: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### 20A Organic Structures
+
+LEARNING TIP
+
+Apuresolidhasasharpmeltingtemperatureratherthanmeltingoverarangeoftemperatures.Thiscanbe used asatestforpurity.
+
+## Topic 20: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### 20A Organic Structures
+
+DETERMINATIONOFMELTINGTEMPERATURE
+
+For solids,impurities reduce the melting temperature.If you measure the melting temperature of willenableyou toestimatehowpure it is.
+
+Thetraditionalwaytomeasureameltingtemperatureofasolidistoplacesomeofthesolidina small capillary tube attached to thebulb of a thermometer and then place the assembly in a liquid that has a boiling temperature above that of the melting temperature of thesolid (fig D).
+
+In practice, this apparatus is often replaced by various electrical devices.
+DETERMINATIONOFBOILINGTEMPERATURE
+
+For liquids, impurities increase the boiling temperature.
+
+availableindatabooksandonline.Ifyoumeasuretheboilingtemperatureofyourorganiccompound, youcancompare thevalueyou obtainwiththeknownvalueof thepurecompound and thenestimate howpurethecompound is.
+
+The apparatus used depends on the volume of liquid available, and whether it is toxic or flammable. The apparatus used for simple distillation canbe used in most cases.
+
+A word of caution. This test may not be enough proof because you may not be able to measure the boilingtemperatureofyourorganiccompound accuratelyenough-yourthermometermightread too low or too high. So, even if your measured boiling temperature exactly matches the one in the
+
+It is also worth remembering that different organic compounds can,by coincidence,have the same boilingtemperature.Forexample,both1-chloropentane and 2-methylpropan-1-olboilat108°C.
+
+## Topic 20: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### 20A Organic Structures
+
+CHECKPOINT
+
+Explainwhythesolventextractionmethodwill notworkif thesolventdissolvestheimpurities.
+
+Explainwhy,inrecrystallisation,insolubleimpuritiesareremoved from ahotsolution,not a cooledone.
+
+• figDApparatusfor determinationofmelting temperature.
+
+## Topic 20: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### Topic 20: Organic Synthesis
+
+CHALLENGINGORGANICSYNTHESES
+
+The following article describes the catalytic oxidation of a specific C-H bond in an organic molecule.Specific chemical transformations likethis areessentialinthemanufactureofdrugmolecules.
+IRON CATALYST SELECTIVELY OXIDISES UNREACTIVE C-H BONDS, UNAIDED
+
+USchemistshavecrackedoneofthetoughestchallengesin organicsynthesis:howtoattacka complexmolecule'sunreactive carbon-hydrogen bonds,without resorting to wasteful synthetic aidslikeprotecting anddirectinggroups.
+
+ChristinaWhiteandMarkChenfromtheUniversityofIllinois, USA,saytheiriron catalyst-whichwithhydrogenperoxide selectivelyandpredictablyoxidisesC-Hbondsintomore reactiveC-OHgroups-willfundamentallyalterthewaycomplex molecules such as drugs are made in the laboratory.
+
+TheC-H bondsdotted aroundmoleculesaremostlyleft alone inorganicsynthesesastheyareoftenveryunreactive.Selectively attackingoneC-Hbondfromacomplexmoleculefilled withmany otherfunctional groups(in otherwords,a typical pharmaceutical)is especiallydifficult.ManyC-H bonds,ifnotthe entiremolecule,arelikelytobedisrupted.
+
+fig ATheChen-White catalyst with hydrogen peroxide selectively hydroxylated themostelectron-rich C-H bond in thecomplex antimalarial,artemisinin.
+
+Thoughplatinumandpalladiumcatalysts areabletohydroxylate, aminate,andalkylateC-Hbondsselectively,theyrelyonnearby activatingordirectinggroups(which enhance a C-H bond's reactivity,orguide a catalyst toone C-Hbond inparticular)and protecting groups. But these synthetic crutches mean extra steps in areaction.Onlynatural enzymes are abletopick out C-H bonds fromacomplexmoleculewithouthelp,buttheirelaborateprotein binding pockets mean they only work on specific substrates.
+
+#### IRON CATALYST SELECTIVELY OXIDISES UNREACTIVE C-H BONDS, UNAIDED
+YetWhiteand Chen'selectrophilicironcatalyst,withhydrogen peroxide,selectively oxidised lone C-H bondsfrom complex moleculeswithease.Thenewmethodwas demonstrated successfully onseveral complexproducts,including the antimalarialartemisinin.Here,one C-H bond outoffivewas selectivelyoxidised,inyieldhigherthan that achievedbya previousenzymatictransformation.Particularlyimpressive was that White and Chen laid down a series of rules predicting the catalyst'sselectivity:dependingon theelectron-richnessof the C-Hbond,orwhetheritwasphysicallyhinderedfrom the catalyst'sapproach.
+
+"This is an absolutely beautiful piece of work,"commented Alan Goldman,who works on C-H activation at Rutgers University, NewJersey,USA."TheabilitytofunctionaliseC-Hbonds selectivelyis the ultimate challenge in organic synthesis,with immensepotentialvalue."
+Workinprogress
+
+The mechanism ofreaction is not clear,butWhite suggests it involves aniron-oxooriron-peroxointermediate,with an oxygen atomeventuallytransferringfromirontoformC-OH.Such chemistryhasbeenattemptedbefore,butusuallythecatalyst decomposestogeneratefreeiron-whichwithhydrogenperoxide generates hydroxide radicals that wreak havoc on organic molecules.White thinksthekey tosuccess this timewasmaking the catalyst's ligand,which surrounds the central iron,more rigid. This means that the catalyst decomposes more slowly, although it stillstopsworkingafterfourorfivecycles.
+
+Modifyingpharmaceuticalstocheckifderivativeshavegreater activityhas often meant reworking the entire synthesisfrom scratch,saysWhite.Nowit shouldbeeasier tosimplyinstall OH functionalgroupsneartheendofthesynthesis.
+
+"The reaction adds a new drawer to the synthetic chemist's hydroxylationtoolbox.Oneparticularapplicationinthe pharmaceutical industrywill likelyresideinthepreparation of drugmetabolites,"commentedStevenBrickner,whoresearches antibacterialsforpharmaceuticalsgiantPfizer.
+SCIENCE COMMUNICATION
+
+• 1 The chemistry in this extract is very detailed and will be difficult for a general audience to understand.Writeashortarticlethatcommunicatestheimportantideasfromthisextractto thegeneral public.
+
+• 2 Why do you think such a small chemical transformation is so important to the pharmaceutical industry?
+CHEMISTRY IN DETAIL
+
+• 3 The organic molecule shown in fig A is the antimalarial drug artemisinin. Work out its molecular formulafrom theskeletalformulashown.
+
+• 4How many chiral carbons are there in a molecule of artemisinin?
+
+• 5 You have 1 kg of artemisinin. Assuming a 54% conversion for the oxidation reaction, calculate the mass of product to3 s.f.
+
+• 6Identify theesterfunctional group in artemisinin.
+
+• 7 What is the shape of the iron(ll) complex?
+ACTIVITY
+
+Artemisinin is a naturally occurringmolecule derived from the plant Artemisia annua.Carry out your own research on another plant-based medicine. Address the following:
+
+• (i)Is the medicine extracted from plant material or is it synthesised in the laboratory?
+
+• (i)Aremolecular derivativesmade,and if sowhy?
+THINKING BIGGER TIP
+
+Thinkabouthowimportant the position and type of functional group can be to thebehaviourofabiological molecule.Forexample
+
+figBshowshowsmallthe differencesarebetweenthe molecules (a) oestrogen (a femalesexhormone)and (b) testosterone(a male sex hormone).
+
+figB (a) Oestrogen and (b) testosterone
+
+## Topic 20: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### Topic 20: Organic Synthesis
+
+20 EXAMPRACTICE
+
+• Organic solids are often purified by recrystallisation. What is thebasisforthistechnique?
+
+• A the impuritiesmust be insoluble in the solvent used
+
+• B the impurities must react with the solvent used
+
+• C the impurities crystallise first when the hot solution is cooled
+
+• Dthecooledsolutionissaturatedwiththedesired material but not with the impurities.
+
+[1]
+(Total for Question 1 = 1 mark)
+
+• 2Steam distillation may beused in the purification of some compounds.What does this technique depend on?
+
+• A the compound being purified forms a singlelayer withwater
+
+• B the compound being purified forms two layers withwater
+
+• C the compound being purified has a lower boiling temperaturethanwater
+
+• D the compound being purified is fammable.
+
+• [1]
+
+• 5Look at thisreactionsequence:
+
+• (a) What is compound X?
+
+• A pentan-1-ol
+
+• B pentan-2-ol
+
+• C 2-methylbutan-1-ol
+
+• D 2-methylbutan-2-ol [1]
+
+• (b)Which substances are required for step 2?
+
+• A acidified potassium dichromate(VI)
+
+• B iodine in alkali, followed by hydrochloric acid
+
+• C sodium hydroxide solution followed by hydrochloric acid
+(Total for Question 2 = 1 mark)
+
+• 3In thefirst stage of the synthesis of methyl 3-nitrobenzoate, methyl benzoate(CHsCOOCHs) is prepared by the reaction ofbenzoicacidwithmethanolinthepresenceofconcentrated sulfuric acid.
+
+• When the reactionis complete,the sulfuric acid is neutralised by adding aqueous sodium carbonate.What is the simplest way of obtaining the impure methyl benzoate from this mixture?
+
+• A refluxing
+
+• B solvent extraction
+
+• C filtration
+
+• D recrystallisation.
+
+[1]
+(Total for Question3 =1 mark)
+
+• 4This question concerns the reaction scheme:
+
+• (a)Which step is most likely to need tin and concentrated
+
+• hydrochloric acid?
+
+• D ammoniacal silver nitrate(Tollens'reagent) [1]
+
+• (c)Which is the reagent for step 3?
+
+• A aqueous chlorine
+
+• B chlorine gas
+
+• C hydrochloric acid
+
+• D phosphorus(V) chloride
+
+[1]
+
+• (d) Which is the reagent for step 4?
+
+• A CHCHCHCHNH2
+
+• BCHCH(NH2)CH2CH3
+
+• C CHCH,CH2CONH2
+
+• D CH,CH(CONH2)CH3
+
+[1]
+(Total for Question 5 = 4 marks)
+
+• 6Two organic compounds,P and Q,have the same molecular formula, CHgO.
+
+• Both compounds contain a carbonyl group.
+
+• (a)Describewhatyouwouldseewhen 2,4-dinitrophenylhydrazineis addedtoeitherofthese compounds.
+
+[1]
+
+• (b)Outline a testyoucould performto show thatPisaketone andthatQisan aldehyde. [3]
+
+• (c) (i)Give the structural formulae of the two possible isomers
+
+• A Step1
+
+• BStep 2
+
+• C Step3
+
+• D Step 4 [1]
+
+• ofQ thatare aldehydes.
+
+[1]
+
+• (b)Which step is most likely to need a mixture of concentrated nitric acid andconcentratedsulfuricacid?
+
+• (i)Name the technique you would use to purify the product of thetest with 2,4-dinitrophenylhydrazine. [1]
+
+• A Step 1 B Step2
+
+• C Step3
+
+• D Step 4 [1]
+
+• (c)Which step is most likely to need a catalyst of aluminium chloride?
+
+• A Step1
+
+• B Step 2
+
+• C Step3
+
+D Step 4
+
+[1]
+
+(Total for Question 4 =3marks)
+
+• (i) Other than by spectroscopic techniques, explain how youwould use thepurified product toidentify compoundQ.
+
+[2]
+
+(TotalforQuestion6=8marks)
+
+• 7Procaine can be synthesised from benzoic acid. The simplified reaction route is:
+
+• (a)Suggest the two reagents needed for step 1.
+
+• (b)Suggest why the reaction mixture in step 2 needs to be heated underreflux.
+
+[2]
+
+• (c)Give the structural formula for the organic reagent needed in step 3.
+
+[1]
+
+• (d)Name the type of reaction taking place in step 4. [1]
+(Total for Question 7 = 6 marks)
+
+• 8A student produced a sampleof aspirinby the esterification of 9.40 g of 2-hydroxybenzoic acid with excess ethanoic anhydride:
+
+After purification by recrystallisation, 7.77 g of aspirin was obtained.
+
+• (a)Calculate the percentage yield obtained. [4]
+
+• (b) (i)Outline how you would purify a solid such as aspirin by recrystallisation, using water as the solvent. [5]
+
+• (i)Explain what effect recrystallisation has on the final yield. [2]
+(TotalforQuestion8=11marks)
+
+• 9 Biodiesel can be made from vegetable oils and methanol. The equation for the reaction is:
+
+• (a) Describe two hazards when carrying out this reaction. Foreachone,statetheprecautionyouwould taketo minimise the risk.
+
+[4]
+
+• (b) Suggest two environmental benefits of carrying out
+
+• this reaction. [2]
+(Total for Question 9 = 6 marks)
+
+• 10ParacetamolisawidelyusedpainkillerItcanbemadefrom phenol asshownbelow.
+
+• (a) State the reagent(s) used in each of steps 1, 2 and 3. [3]
+
+• (b) In the nitration of phenol in step 1, two compounds are produced:
+
+Thesecompoundscanbeseparatedbysteamdistillation, since 2-nitrophenol is volatile in steam but 4-nitrophenol is not.
+
+Describe briefly how 2-nitrophenol is obtained by steam distillation, and give one advantage of steam distillation over normal distillation. [4]
+
+• (c) The paracetamol obtained in the above synthesis can be purified by recrystallisation. In this process, the impure paracetamol is dissolved in the minimum volume of hot waterand themixtureisthenfilteredwhilestill hot.The filtrateobtainediscooled,andtheresultingcrystalsare filtered and dried.
+
+The table shows the solubility in water ofparacetamol at varioustemperatures.
+
+## Topic 20: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### Topic 20: Organic Synthesis
+
+
+#### (Total for Question 9 = 6 marks)
+| Temperature/C       |    5 |   10 |   20 |   95 |
+|---------------------|------|------|------|------|
+| Solubility/gper100g | 0.82 | 0.94 |  1.3 |  5.2 |
+
+## Topic 20: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### Topic 20: Organic Synthesis
+
+
+#### (Total for Question 9 = 6 marks)
+• (i）Explain the purpose of each of the two filtrations in therecrystallisation process.
+
+• (i)Explain, using the temperatures given in the table, which pair of temperatures will give the highest yield ofparacetamol.
+
+[2]
+
+• (ii) Name the technique that could be used in a school laboratory to check thepurity of therecrystallised paracetamol.
+
+[1]
+
+(TotalforQuestion10=12marks)
+
+## Topic 20: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### Maths skills
+
+MATHSSKILLS
+
+For you tobe able to developyour skills,knowledge and understanding in Chemistry you will need to have developed your mathematical skills in a number of key areas. This section givesmore explanation and examples of somekey mathematical concepts you need to understand.Further examples relevant to your International A Level Chemistry studies aregiven throughout this book and Book 1.
+CALCULATINGLOGARITHMS
+
+Many formulae in science and mathematics involve powers.Consider the equation:
+
+10*=62
+
+The value of x obviously lies between 1 and 2, but how can you find a precise answer? The term logarithm means'index'or'power'.Logarithms enableyou to solve such equations.Youcantake the logarithm tobase 10 of each side of the equation using thelogbutton of a calculator
+
+WORKEDEXAMPLE1
+
+10*=62
+
+log1o(10x) = log10(62)
+
+x= 1.792392.
+
+You can calculate logarithms using any number as the base by using the logx() button.
+
+WORKEDEXAMPLE2
+
+2×= 7 log2(2x) = log2(7) x=2.807355..
+
+Many equations relating to the natural world involvepowers of e.These are called exponentials.The logarithm tobase eis referred to as the natural logarithm and written In.
+USINGLOGARITHMICPLOTS
+
+An earthquake measuring 8.0 on the Richter scale is much more than twice as powerful as an earthquakemeasuring 4.0 on theRichterscale,because the units used formeasuringearthquakes arelogarithmic.Logarithmicscalesinchartsandgraphscanaccommodateenormousincreases or decreasesinonevariable as anothervariablechanges.
+
+0
+
+3
+
+5
+
+6
+
+Lograteofreaction/arbitraryunits
+
+fig ALogarithmic scales are useful when representing a very large range of values, such as in the case of rates of reaction.
+
+100
+
+90
+
+80
+
+70
+
+6
+
+40
+
+50
+
+30
+
+20
+
+10
+
+0
+
+Temperature/℃
+UNDERSTANDING THATy= mX+CREPRESENTS A LINEAR RELATIONSHIP
+
+Two variables have a linear relationship if they increase at a constant rate in relation to one another If you plot a graph with one such variable on the x-axis and the other on the y-axis, you get a straight line.
+
+Anylinearrelationshipcanberepresentedbytheequationy=mx+c,wherethegradientoftheline is m and thevalueat which the line crosses they-axisisc.An example of a linearrelationship is that between degrees Celsius and degreesFahrenheit,which can be represented by the equation F=9/5C +32,whereCistemperatureindegreesCelsius andFistemperatureindegreesFahrenheit.
+USINGTHEGRADIENTASAMEASUREOFARATEOFCHANGE
+
+SirIsaacNewton drew tangentsto curves on graphsto find the rates of change of the variables as partofhisjourneytowardsdiscoveringcalculus,afascinatingbranchofmathematics.Hestatedthat that point.
+
+Tofind thegradient at a point on a curve:
+
+• 1Use a ruler to draw a tangent to the curve at that point.
+
+• 2Calculate the gradient of the tangent using the equation for a linear relationship. This gradient is equal tothegradientofthecurve at thepointof thetangent.
+
+• 3Include theunit withyour answer
+
+APPLYINGYOURSKILLS
+
+You will often find that you need to use more than one maths technique to answer a question. In this sectionyouwill look at twoexample questions and consider which mathsskills are required and how to apply them.
+WORKEDEXAMPLE3
+
+ThepH of an aqueoussolutionisrelated tothehydrogenionconcentrationby thefollowingequation:
+
+wherethehydrogen ion concentration,[H+], ismeasured inmol dm-3
+
+Calculate thepHof an aqueous solutionof O.oo1mol dm-3HCl.Assumetheacid iscompletely dissociated. Giveyouranswertotwodecimalplaces.
+
+pH =-lg[H+]
+
+pH = -lg(0.001)
+
+lg(0.001) = -3
+
+pH=3.00
+WORKEDEXAMPLE4
+
+A scientist observes an interestingby-product forming during a chemical reaction:
+
+reactant1+reactant2→desiredproduct+by-product
+
+agraph of concentrationagainst time.She alsoplots thechangeinconcentrationof thedesiredproduct and reactant1.
+
+• figCConcentrationofreactant andproductsoverthecourseofareaction.
+
+• (a)Whatwas theconcentrationof reactant1at thestartof thereaction?
+
+• (b)Calculate therateof change of concentration of theby-product after10 minutes.Giveyour answer in moldm-3s-1.
+
+• (c)Calculate therateof changeof concentrationof thedesiredproduct after10minutes.
+
+• (a)Toanswerthisquestionyouneedtofind thevaluefortheconcentrationofreactant1whenthe time isequal tozero.That is,youneedtofind theinterceptwith they-axisof thelineforthe concentration of reactant 1.From the graphyou can see that this is 0.85mol dm-3.
+
+• (b)In order to calculate the rate of change of by-product concentration during the reaction you need to find the gradient of its line.The line is straight, meaning that there is a linear relationship between the concentration and time. To find the rate of change you just have tofind the gradient of thelinebydividingthechangeinconcentrationofby-productbythetimetakenforthe change. Since the line is straight you can choose any two values.
+
+Take care to use the correct units. Concentration is in mol dm-3 but time is in minutes, so you must converttimetosecondstogetthecorrectanswer.
+
+concentration after 8minutes= 0.24 mol dm-3
+
+concentration after 12 minutes = 0.36 mol dm-3
+
+change of concentration = 0.12 mol dm-3
+
+time taken for change = 4 x 60 = 240 s
+
+#### WORKEDEXAMPLE4
+• (c)To find the rate of change of the desired product is a little trickier because the line is curved. To do this you need to draw a tangent to the curve and then calculate the gradient of the tangent. A simple way to do this is to draw a triangle with the tangent as its hypotenuse,centred on the 10-minute point as asked (fig D).
+
+change inconcentrationbetween8and 12minutes=0.04mol dm-3
+
+time taken for change= 4x60 =240 s
+
+rateofchange=
+
+change inconcentration of desiredproduct
+
+time takenforchange
+
+= 0.04mol dm-3/240 s = 0.0001666 = 0.0002moldm-3 s-1
+
+## Topic 20: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### Preparing for your exams
+
+IASANDIALOVERVIEW
+
+The Pearson Edexcel International Advanced Subsidiary (IAS) in Chemistry and the Pearson Edexcel International Advanced Level (IAL) inChemistry aremodular qualifications.TheIAS canbe claimed on completionof theInternationalAdvanced Subsidiary (IAS) units. The International Advanced Level can be claimed on completion of all the units (IAS and IAL units).
+
+• · International AS students will sit three exam papers. The IAS qualification can either be standalone or contribute 50% of themarksfortheInternationalAdvancedLevel.
+
+• ·International A Level students will sit six exam papers, the three IAS papers and three IAL papers.
+
+The tablesbelowgive details of the exampapersforeach qualification.
+
+## Topic 20: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### Preparing for your exams
+
+
+#### IASANDIALOVERVIEW
+| IAS Papers              | Unit1:Structure,Bonding and Introduction to Organic Chemistry                                                                                          | Unit2:Energetics,Group Chemistry,Halogenoalkanes and Alcohols*                                                                                         | Unit3:Practical Skills in Chemistry I                                                                                                                  |
+|-------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Topics covered          | Topics 1-5                                                                                                                                             | Topics 6-10                                                                                                                                            | Topics 1-10                                                                                                                                            |
+| %of theIASqualification | 40%                                                                                                                                                    | 40%                                                                                                                                                    | 20%
+
+#### IASANDIALOVERVIEW
+|
+| Length of exam          | 1 hour 30 minutes                                                                                                                                      | 1 hour 30minutes                                                                                                                                       | 1 hour 20 minutes                                                                                                                                      |
+| Marks available         | 80 marks                                                                                                                                               | 80 marks                                                                                                                                               | 50 marks                                                                                                                                               |
+| Question types          | multiple-choice short open openresponse calculation                                                                                                    | multiple-choice short open openresponse calculation extended writing                                                                                   | short open openresponse calculation                                                                                                                    |
+| Mathematics             | ForbothUnit1andUnit2,aminimumof18markswillbeawardedformathematicsatLevel2or above.ForUnit3,aminimumof6markswillbeawardedformathematicsatLevel2orabove. | ForbothUnit1andUnit2,aminimumof18markswillbeawardedformathematicsatLevel2or above.ForUnit3,aminimumof6markswillbeawardedformathematicsatLevel2orabove.
+
+| ForbothUnit1andUnit2,aminimumof18markswillbeawardedformathematicsatLevel2or above.ForUnit3,aminimumof6markswillbeawardedformathematicsatLevel2orabove. |
+
+## Topic 20: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### Preparing for your exams
+
+
+#### IASANDIALOVERVIEW
+* This paper may contain some synoptic questions which require knowledge and understanding from Unit 1.
+
+## Topic 20: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### Preparing for your exams
+
+
+#### IASANDIALOVERVIEW
+| IAL Papers                | Unit4:Rates,Equilibria and Further Organic Chemistry**                                                                                      | Unit5:TransitionMetalsand Organic Nitrogen Chemistryt                                                                                       | Unit6:PracticalSkillsin Chemistry II                                                                                                        |
+|---------------------------|---------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------|
+| Topics covered            | Topics 11-15                                                                                                                                | Topics 16-20                                                                                                                                | Topics 11-20                                                                                                                                |
+| %of the IAL qualification | 20%                                                                                                                                         | 20%                                                                                                                                         | 10%                                                                                                                                         |
+| Length of exam            | 1hour45minutes
+
+#### IASANDIALOVERVIEW
+| 1hour45minutes                                                                                                                              | 1hour20minutes                                                                                                                              |
+| Marks available           | 90 marks                                                                                                                                    | 90 marks                                                                                                                                    | 50 marks                                                                                                                                    |
+| Question types            | multiple-choice short open openresponse calculation extended writing                                                                        | multiple-choice short open openresponse calculation extended writing                                                                        | short open openresponse calculation                                                                                                         |
+| Mathematics               | ForUnit4,aminimumof22markswillbeawardedformathematicsatLevel2orabove. ForUnit5,aminimumof18markswillbeawardedformathematicsatLevel2orabove. | ForUnit4,aminimumof22markswillbeawardedformathematicsatLevel2orabove. ForUnit5,aminimumof18markswillbeawardedformathematicsatLevel2orabove. | ForUnit4,aminimumof22markswillbeawardedformathematicsatLevel2orabove. ForUnit5,aminimumof18markswillbeawardedformathematicsatLevel2orabove. |
+
+## Topic 20: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### Preparing for your exams
+
+
+#### IASANDIALOVERVIEW
+• ** This paper may contain some synoptic questions which require knowledge and understanding from Units I and 2.
+
+↑Thispaper may contain some synoptic questionswhichrequireknowledge and understandingfromUnits1, 2 and4.
+ARRIVEEQUIPPED
+
+Makesureyou have all of the correct equipment needed for your exam.As a minimum you should take:
+
+• pen (black ink or ballpoint pen)
+
+• pencil (HB)
+
+• rule (ideally 30 cm)
+
+• rubber(make sure it's clean and doesn't smudge the pencil marks or rip the paper)
+
+• calculator (scientific).
+
+MAKESUREYOURANSWERSCANBEREAD
+
+Yourhandwritingdoesnothavetobeperfect,butthe examinermustbeabletoreadit!
+PLANYOURTIME
+
+Notehowmanymarks areavailableonthepaperandhow manyminutes you have to complete it.Thiswill giveyou an ideaofhowlongtospendon eachquestion.Besuretoleave some time at the end of the examforchecking answers.A roughguide ofa minute a mark is agood start,but short answers and multiple-choice questions may be quicker.
+
+Longer answersmightrequiremoretime.
+UNDERSTANDTHEQUESTION
+
+Alwaysreadthequestioncarefullyandspendafewmoments workingoutwhatyouarebeingaskedtodo.Thecommand wordusedwill giveyou anindication ofwhatisrequired in your answer.
+
+Bescientific and accurate,evenwhenwritinglonger answers. Use the technical terms you've been taught.
+
+Always showyourworkingforany calculations.Marksmay be available for individual steps,not just for the final answer. Also,evenifyoumakeacalculationerroryoumaybe awarded marksfor applying the correct technique.
+PLANYOURANSWER
+
+In questions marked with an asterisk (*), marks will be awarded for your ability to structure your answer logically, showinghowthepointsthatyoumakearerelatedorfollow on from each other, where appropriate.Read the question fully and carefully (at least twice!) before beginning your answer.
+MAKETHEMOSTOFGRAPHSANDDIAGRAMS
+
+Diagrams and sketch graphs can earn marks, often more easily andquicklythanwrittenexplanations,buttheywill only earn marks if they are carefully drawn.
+
+• ·Ifyou are askedtoread agraph,payattentiontothe labels andnumbersonthex-andy-axes.Rememberthat each axis is a numberline.
+
+• ·If asked to draw or sketchagraph,always ensure you useasensiblescale,andlabelbothaxeswithquantities and units. If plotting a graph, use a pencil and draw small crossesordotsforthepoints.
+
+• Diagrams must always be neat, clear and fully labelled.
+CHECKYOURANSWERS
+
+For open-response and extended writing questions,check the number of marks that are available. If three marks are available,haveyoumadethreedistinctpoints?
+
+For calculations, read through each stage of your working. Substitutingyourfinal answerintothe originalquestioncan beasimplewayofcheckingthatthefinal answeriscorrect. Anothersimplestrategyistoconsiderwhether theanswer seems sensible.Makesureyouusethecorrectunits.
+
+QUESTIONTYPE:MULTIPLE-CHOICE
+
+Whichsubstancehasnon-polarmolecules?
+
+• Ahydrogenfluoride
+
+• B 3water
+
+• C carbondioxide
+
+• Dammonia
+
+[1]
+Question analysis
+
+• Multiple-choice questions may require simple recall, as in thiscase,butsometimesacalculationorsomeotherform ofanalysiswill berequired.
+
+• In multiple-choice questions you are given the correct answer along with three incorrect answers (called distractors).You need toselect the correct answer and put a cross in the box of the letter next to it.
+
+• The three distractors supplied will feature the answers that you arelikely to arrive at if youmake typical or common errors.For this reason, multiple-choice questions aren't as easy as you might at first think. If possible, try to answer the question before you look at any of the answers.
+
+• If you change your mind, put a line through the box with the incorrect answer (）and then mark the box for your new answer with a cross () .
+
+• If you have any time left at theend of thepaper,multiplechoice questionsshouldbeputhigh onyourlist of priorities for checking answers.
+
+COMMENTARY
+
+Thisis anincorrect answerbecause:
+
+• The student has shown a lack of understanding of this topic.
+QUESTIONTYPE:SHORTOPEN
+
+CompletetheelectronicconfigurationforthecopperatomCu and theCu2+ion.
+
+Cu: 1s2 2s2 2p6 Cu2+ 1s2 2s² 2p6
+
+[2]
+
+This question is about bond polarity. Electronegative atoms havetheabilitytodrawtheelectronsinacovalentbond towardsthem,sothattheelectrondensityisunevenly distributedbetweenthetwoatoms.Thisresultsinapolar bondordipolebeingsetup.Allofthesemoleculescontain bondsbetweenatomswithverydifferentelectronegativities, andhencepolarbonds.However,sincecarbondioxideis symmetrical overall, then the molecule itself is non-polar.
+
+Thestudenthasselectedthewronganswer.Theyhaven't remembered that symmetrical molecules can still contain bonds between very electronegative atoms and be nonpolar,andjusthadaguess,ortheyhaventrealisedthat the lonepairof electrons on the nitrogen atom means that ammoniaisnotsymmetrical.
+
+Youneedtoknowtheelectronicconfigurationsofthefirst rowoftransitionmetalelements.Generally,thesefollowa pattern,butthere are a couple of exceptions,and copper is one of them. The points you need to remember are:
+
+• ·Copper atoms have a full 3d sub-shell and only one 4s electronasthisgivesamorestableelectronarrangement thanifthe4sorbitalcontainedtwoelectrons,asisthe case for themajority of the transition metals.
+
+• ·Forallofthetransitionmetalsthe4selectronsarelost beforethe3delectrons.
+QUESTIONANALYSIS
+
+• Short open questionsusuallyrequire simple short answers, often one word. Generally, they will be simple recall of the chemistryyou havebeen taught.
+
+• Thecommandwordwill tell you whatyou need to do. Here the command word is^complete',soyou simply need to complete the electronic configurationsin the space provided.
+
+Studentanswer
+
+Cu:1s²2s²2p63s²3p63d94s2
+
+Cu2+: 1s2 2s2 2p6 3s2 3p6 3d9
+
+COMMENTARY
+
+This is a poor answer because:
+
+• ·The student has forgotten the electronic configuration of the copper atom.
+QUESTIONTYPE:OPENRESPONSE
+
+ChlorineandbromineareelementsinGroup7ofthePeriodic Table.Bothelementspossessanumberofdifferentoxidation numbersandthereforeareinvolvedinmanyredoxreactions. Chlorinedioxidereactswithcold,diluteaqueoussodium hydroxide.Theequationforthereactionis:
+
+2ClO2(aq)+2OH-(aq)→ClO2-(aq) +ClO3(aq)+H2O(l) Usingoxidationnumbers,explainwhythechlorineinClOhas undergonedisproportionation. [3]
+Question analysis
+
+• The command word in this question is'explain'. This requiresajustification/exemplificationofapoint, which in this case is that chlorine has undergone disproportionation.In some cases of this type of question, a mathematical explanation could also be used.
+Studentanswer
+
+InClO2,chlorinehasanoxidationstateof+4.Whenit reacts,its oxidation state changes to+3 in ClO and +5 in ClO.Thismeansthatitsoxidationstatehasboth increased anddecreasedinthesamereaction.Thatisto say,it has been reduced and oxidised at the same time.
+COMMENTARY
+
+Thisis an excellent answerbecause:
+
+• The answer islogicallystructured.
+
+• Thestudenthascalculatedallthreeoxidationstates correctly and shown that theyunderstand theterm disproportionation.
+
+The student has the electronic configuration of the Cu²+ion correct. However, they have clearly forgotten that copper atomshave10 electrons in the3d sub-shell andonly one 4s electron.
+
+Thecommandword hereis'describe，soyouwill need to give an account of the results shown.You do not need to explainthescientificreasonsbehindanypatterns.Itis important to note the command word carefully in graphbased questions, as you may be asked to analyse, explain or compare and contrast results, each of which requires a very differentapproach.
+QUESTIONTYPE:EXTENDEDWRITING
+
+• *The equilibrium reactionbetween carbon dioxide and water isimportantformaintainingthepHofthebodythrough buffering.
+
+Theequationforthereactionis:
+
+CO2+HO=HCO+H+
+
+State what is meant by a buffer solution and explain how a buffersolutionworksbyreferringtothisequation.
+Question analysis
+
+• ·In questions marked with an asterisk (*),marks will be awarded for your ability tostructure your answers logically,showinghowthepointsthatyoumakeare relatedorfollowonfromeachother,whereappropriate.
+
+• Fourmarksareavailableformakingvalidpointsin responsetothequestion.Inmarkschemes,these are referred to as 'indicative marking points'. To gain all four marks,your answer needs toinclude sixindicative marking points. The remaining two marks are awarded for structuring your answer well, with clear lines of reasoning and linkages between points.
+
+• It isvital toplan outyour answerbeforeyou write it down. There is always space given on an exam paper to dothis,sojustjotdown the points thatyou want to make beforeyou answer the questioninthespaceprovided. Thiswill helpto ensure that your answeriscoherent and logical and that you don't end up contradicting yourself. However, once you have written your answer, go back and cross these notes outso that it is clear they do not formpartof theanswer.
+Studentanswer
+
+A buffer solution is a solution that resists changes in pH whenasmallamountofacidoralkaliis added.So,if an acid is added,the pH won't change very much.If an alkali is added,thepHwon't changeverymuch.Bufferscandothis becausethey containachemical thatcanreactwith any acid added.Theyalsocontainanotherchemicalthatcanreact withanyalkaliadded,soeffectivelytheseareremoved,and that means that the pH doesn't change very much.
+COMMENTARY
+
+This is a poor answer because:
+
+• Thestudentshouldhavestatedwhathappenswhenboth acidandalkaliareaddedtothissolutionandhowthis will not affect the pH significantly.When acid is added, theH+ionswillreactwithHCOions.Whenalkali is added,theOH-ionswillreactwithCO2molecules. ThepHof thesolutionisdeterminedbytheratioof the
+
+[6]
+
+It helps when composing answers to extended writing questions to think about the number of marks that are likely tobeawardedtoeachpartofthequestion.Thefirstpart requiresasimplestatementofwhatabuffersolutionis,so onlyonemarkislikelytobeawardedforthis.Thesecond requires an explanation of how a buffer works, making referencetothisparticularreaction.Onemarkwill be availableformakingreferencetothereaction,andtheother fourmarkswillbeforanexplanationofhowthebufferworks.
+
+Thefirstsentenceofthestudent'sanswerisasatisfactory statementofwhatabuffersolutionis,soonemarkcanbe awarded.Thesecondsentenceisarepeatoftheinformation in the first using different words, so gains no further credit. Thestudenthasmadenoreferencetothisparticular reaction,socannotbegiventhesecondmarkTherestof the answer is far too vague,so no marks can be awarded for theexplanation.
+
+concentrations of HCO to CO2 (i.e. [HCO]/[CO2]. If both of these two concentrations are relatively large, then this ratio will not change significantly when either H+ or OH-ions are added.Hence the pH remains fairly constant.
+
+QUESTIONTYPE:CALCULATION
+
+Aphosphatebuffersystemoperatesinhumancells.
+
+Thereactioninvolvedis:
+
+H2PO4=H++HPO2
+
+Calculate thepH of a0.10mol dm3solutionof H2PO4.
+
+Ka=6.2 x 10-8mol dm-3
+
+[2]
+Question analysis
+
+• Thecommandwordhereis^calculate'.Thismeans that you need to obtain a numerical answer to the question, showing relevant working.If the answer has a unit,this must be included.
+
+• Always have a go at calculation questions.You may get some small part correct that will gain credit.
+
+• The important thingwith calculations is toshowyour working clearly and fully.The correct answer on the line will gain all of the available marks. However, an incorrect answer cangain all butone ofthe available marks if your working is shown and is correct.Show the calculation that you are performing at each stage and not just the result. When you have finished, look at your result and see if it is sensible.
+
+• Take anapprovedcalculatorintoeveryexam andmake sure thatyouknowhow touse it!
+
+Studentanswer
+
+Ka = [H+]2/0.1 = 6.2 × 10-8
+
+[H+]=√(6.2× 10-8× 0.1) = 7.87× 10-5
+
+pH= -log[H+] = 4.1
+COMMENTARY
+
+This is a good answer because:
+
+• ·The student has completed all steps correctly and has shown their working.
+
+Forweakacidsthepositionofequilibrium isovertothe left-handside,andsothehydrogenionconcentration cannotbeassumedtobethesameastheoriginalacid concentrationasisthecasewithstrongacids.Tocalculate thepHofaweakacidyouneedtofirstwritethe expressionfor the equilibrium constantand then rearrange that to work out the hydrogen ion concentration. Remember, youcan assumethattheconcentrationofH2POis O.1 mol dm-3. The expression pH = -log [H+] can then be used tocalculatethepH.
+
+Thestudenthascorrectlyusedtheequilibriumexpression for thereaction tocalculatetheH+concentration.Forthis theyobtained thefirstofthetwo availablemarks.They then went on to use the expression pH = -log [H+] to calculate thepH andgain thesecond ofthetwo availablemarks.
+QUESTIONTYPE:SYNOPTIC
+
+Astudentcarryingoutatitrationwantstoidentifythepieceof apparatusthatcontributesmosttomeasurementuncertainties intheexperiment.
+
+Thepercentagemeasurementuncertaintyismarkedonthe 25 cm² pipette as ±0.06 cm², on the 250cm² volumetric flask as±0.2cm²and on theburetteas±0.05cm².The average titre was25.50cm²
+
+Deducethemostsignificantsourceofmeasurementuncertainty in this procedure. (4)
+QUESTIONANALYSIS
+
+• ·A synoptic question is one that addresses ideas from different areas of chemistry in one context.Inyour answeryouneed touse these differentideas and show howtheycombinetoexplain thechemistryinthecontext of the question.
+
+• QuestionsinPaper3maydraw on anyof the topics in this specification. This question is assessing understandingofexperimental methods.
+
+Studentanswer
+
+Percentage uncertainty of pipette = 0.06 × 100/25 = 0.24% Percentageuncertaintyofvolumetricflask
+
+=0.2 × 100/250 =0.08%
+
+Percentageuncertaintyofburette
+
+=0.05×100/25.50=0.2%
+
+Thepipette has the greatest percentage uncertainty.
+COMMENTARY
+
+Thisis agood answerbecause:
+
+• .Thestudenthasusedthecorrectformulatocalculatethe percentage uncertainty. There is only one error, and that is not doubling the percentage for the burette. This is penalised only once.
+
+Paper3containsmainlyquestionsthatexamineyour knowledgeofpracticalchemistry.However,italsoincludes synoptic questions that can draw on knowledge from any part of the specification. This question is expecting that you cancalculatethepercentageuncertainty associatedwith the apparatus used in a titration experiment.These are calculationsthatyoushouldcompletewhenusingtitration apparatus.
+
+Thestudenthascalculatedthepercentageuncertainty correctlyforeachpieceofapparatus.However,theyhave forgottenthatthepercentagefortheburetteneedstobe doubledbecausethisreadingistakentwiceandtherefore theerrorwillbedoubled.ThishaslostthemonemarkThis answerscoresthreeoutofthefouravailablemarks.
+
+## Topic 20: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### Command words
+
+COMMAND WORDS
+
+The following tablelists the commandwords used across the IAs/IAL Sciencequalifications in the external assessments.You should make sure you understandwhatisrequiredwhenthesewordsareusedinquestionsintheexam.
+
+## Topic 20: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### Command words
+
+
+#### COMMAND WORDS
+| COMMANDWORD        | THISTYPEOFQUESTIONWILLREQUIRESTUDENTSTO:                                                                                                                                                                                                                      |
+|--------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| ADD/LABEL          | Requiresthe additionof labellingtostimulusmaterialgiveninthequestion,for example,labellinga diagram or addingunits toa table. |
+| ASSESS             | Give careful consideration to all thefactors or eventsthat apply and identify whicharethemostimportantorrelevant.Makeajudgementontheimportance ofsomething,andcometoaconclusionwhereneeded. |
+| CALCULATE          | Obtain a numerical answer, showing relevant working. lf the answer has a unit, thismustbeincluded. |
+| COMMENTON          | Requiresthesynthesisofa number offactorsfromdata/informationtoform a judgement.More than twofactors need to be synthesised. |
+| COMPAREANDCONTRAST | Looking for the similarities and differences between two (or more) things.Should not require the drawing of a conclusion.Answer must relate to both (or all) things mentionedinthequestion. The answermust include at least one similarity and onedifference. |
+| COMPLETE/RECORD    | Requiresthecompletionofa table/diagram/equation. |
+| CRITICISE          | Inspect a set of data, an experimental plan or a scientific statement and consider theelements.Lookatthemeritsand/orfaultsoftheinformationpresented and backjudgementsmade. |
+| DEDUCE             | Draw/reachconclusion(s)fromtheinformationprovided.
+
+#### COMMAND WORDS
+|
+| DERIVE             | Combine two or more equations or principles to develop a new equation. |
+| DESCRIBE           | Give an account ofsomething.Statements intheresponseneed tobe developed,asthey are often linked,but donot need to include a justification orreason. |
+| DETERMINE          | Theanswermusthaveanelementthatisquantitativefromthestimulusprovided, ormustshowhowthe answercanbereachedquantitatively. |
+| DEVISE             | Plan or invent a procedure from existing principles/ideas. |
+| DISCUSS            | Identifytheissue/situation/problem/argumentthat isbeing assessedwithin the question. Exploreallaspectsofanissue/situation/problem. Investigate the issue/situation/problem etc. by reasoning or argument. |
+
+#### COMMAND WORDS
+| COMMANDWORD         | THISTYPEOFQUESTIONWILLREQUIRESTUDENTSTO:                                                                                                                                                                                                               |
+|---------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| DRAW                | Produce a diagram either using a ruler or drawing freehand. |
+| ESTIMATE            | Give an approximate value for a physical quantity or measurement or uncertainty. |
+| EVALUATE            | Review information then bring it together to form a conclusion, drawing on evidenceincluding strengths,weaknesses,alternativeactions,relevant data or information.Come to a supported judgement of a subject's qualities and its relationtoitscontext. |
+| EXPLAIN             | An explanationrequires a justification/exemplification of a point.Theanswer mustcontainsome element ofreasoning/justification;this can include mathematicalexplanations. |
+| GIVE/STATE/NAME     | All of these command words are really synonyms. They generally all require recallofoneormorepiecesofinformation. |
+| GIVEAREASON/REASONS | When a statement hasbeen made and therequirement is only to give thereasons why. |
+| IDENTIFY            | Usually requires some key information to be selected from a given stimulus/ resource. |
+| JUSTIFY             | Giveevidence to support(either the statement given in the question or an earlieranswer). |
+| PLOT                | provided and then drawing a line of best fit through these points.A suitable scale and appropriately labelled axes mustbe included if these are notprovided in the question.
+
+#### COMMAND WORDS
+|
+| PREDICT             | Giveanexpectedresultoroutcome. |
+| SHOWTHAT            | Prove that a numerical figure is as stated in the question. The answer must be to at least 1 more significant figure than the numerical figure in the question. |
+| SKETCH              | Produce a freehand drawing. For a graph, this would need a line and labelled axes with important features indicated;the axes are not scaled. |
+| STATEWHATISMEANTBY  | When themeaning of a term is expectedbut there are different ways inwhich thesecanbedescribed. |
+| SUGGEST             | Useyourknowledgeandunderstanding in anunfamiliarcontext.Mayinclude material orideas that havenotbeen learned directlyfrom thespecification. |
+| WRITE               | When thequestions ask for anequation. |
+
+## Topic 20: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### Glossary
+
+GLOSSARY
+
+absolutepotentialdifferencethepotentialdifferencebetweenametal andasolutionofitsions conjugatebasewhenanaciddonatesaproton,thespeciesformedis theconjugatebaseoftheacid
+
+addition-eliminationreactionwhentwomoleculesjointogether, followedbythelossofasmallmolecule
+
+adsorptiontheadhesionofatoms,moleculesorionstothesurfaceofa solid,ortheprocessthatoccurswhenreactantsformweakbondswith a solidcatalyst
+
+amphoteric(substance)asubstancethatcan actbothasanacid and as abase conjugated system where single and double bonds alternate, allowing theelectronsinthep-orbitalsoftheatomstooverlapandforma delocalisedelectroncloud coordinationnumberthenumberofdative(coordinate)bondsinthe complex couplingreactionareactioninwhichtwoorganicmoleculesorions jointogethertoformonenewmolecule
+
+amphotericbehaviourtheabilityofaspeciestoreactwithbothacids andbases
+
+analyseramaterialthatallowsplane-polarisedlighttopassthroughit
+
+aromatictheoriginalmeaningwasadescriptionofthesmellofcertain organiccompounds.Thenewmeaningisadescriptionofthebonding inacompound-delocalisedelectronsformingpi(π)bondingina hydrocarbonring
+
+asymmetricanasymmetriccarbonatominamoleculeisonethatis joinedtofourdifferentatomsorgroups
+
+autocatalysiswhenareactionproductactsasacatalystforthereaction basicitytheextenttowhichabasecandonatealonepairofelectrons tothehydrogenatomofawatermolecule
+
+bidentateligandamoleculeorionthatformstwodativebondswitha metal ion
+
+bimolecular(mechanism)amechanisminwhichtwospeciesare reactingintherate-determiningstep
+
+#### GLOSSARY
+buffercapacityameasureoftheamountofacidorbaserequiredto changesignificantlythepHoffoodorofasolutionofanacidanda base
+
+buffer solution a solution that minimisesthe change inpH when a small amountofeitheracidorbaseisadded
+
+13CNMR theuseof NMRspectroscopy to detect13Cnucleiwithin the moleculesofasubstance,inordertodeterminethestructure
+
+chemicalenvironmentsthechemicalenvironmentsofcarbonatomsin amoleculearerelatedtowhetherthecarbonatomsareidentically,or differently,positionedwithinthemolecule
+
+chemical shift(of a proton orgroup of protons)a number(in the units ppm) that indicates its behaviour in a magneticfield relative to tetramethylsilane.Itcanbeusedtoidentifythechemicalenvironment of thecarbonatomsorofthehydrogenatoms(protons)attachedtoit
+
+chiralachiral atomina moleculeisone that allowsittoexist asnonsuperimposableforms.Itcanalsorefertothemoleculeitself
+
+complementarycolourscoloursoppositeeachotheronacolour wheel
+
+complexaspeciescontainingametalionjoinedtoligands complexionacomplexwithanoverallpositiveornegativecharge condensationpolymerisationtheformationofapolymer,usuallyby thereactionoftwodifferentmonomers,whenanothersmallmolecule isalsoformed
+
+conjugateacidwhenabaseacceptsaproton,thespeciesformedisthe conjugateacid of thebase
+
+#### GLOSSARY
+conjugateacid-basepaireitherabaseanditsconjugate acidoranacid anditsconjugatebase dative(coordinate)bondacovalentbondformedbetweenthecentral metalatomorionandaligand,inwhichbothofthebondingelectrons aresuppliedbytheligand deprotonationtheremovalofoneormorehydrogenions(protons) fromacomplexion derivativescompoundsformedfromothercompounds,especially when the properties of the derivatives canbeused to identify the original compound desorption the processthat occurswhenproducts leave the surface of a solidcatalyst disproportionationareactioninwhichanelementisbothoxidisedand reducedatthesametime dissociatedmoleculesaresaidtobedissociatedwhentheyhavesplitto formions electromagneticspectrumtherangeofallwavelengthsand frequenciesof allthetypesofradiation electromotiveforce(emf)themeasuredpotentialdifferenceofacell whenno current isflowing
+
+(first)electron affinity(ofanelement)theenergy changewheneach atominamoleofatomsinthegaseousstategainsanelectrontoform a-1ion
+
+electrophileanatom,moleculeorionthatcanacceptapairofelectrons electrophilicareactionmechanisminwhichtheattackingspeciesisan electrophile
+
+enantiomersisomersthatarerelatedasobjectandmirrorimage
+
+moleofanioninitsgaseousstateiscompletelyhydratedbywater
+
+enthalpychangeofsolution,soHtheenthalpychangewhenone moleofanionicsoliddissolvesinwatertoformaninfinitelydilute solution
+
+entropyapropertyof matterthatis associatedwiththedegreeof disorder,ordegreeofrandomness,ofparticles(i.e.atoms,molecules orions),andalsowiththedistributionofthequantaofenergybetween theparticles
+
+#### GLOSSARY
+equilibriumconstantanumberthatexpressestherelationship betweentheamountsofproducts andreactantspresentatequilibrium inareversiblechemicalreactionatagiventemperature
+
+equivalencepointthepointinatitrationwhentheacidandbasehave reactedtogetherintheexactproportionsasdictatedbythe stoichiometricequation
+
+equivalentprotonshydrogenatomsinthesamechemicalenvironment experimental lattice energythelattice energy calculatedfrom aBornHaber cycle
+296 GLOSSARY
+
+half-life(ofareaction)thetimetakenfortheconcentrationofthe reactanttofalltoone-halfofitsinitialvalue
+
+halogencarrieracompoundsuchasAlXorFeX,whereXisahalogen, thatcancatalysethehalogenationofarenes.Theyproduceastronger electrophile,suchasBr+
+
+hazard aproperty of asubstance thatcould cause harm to auser heterogeneouscatalystacatalystthatisinadifferentphasefromthe reactants
+
+heterogeneousreactionareactioninwhichatleastoneofthe reactantsand/orproductsisinadifferentphasetotheothers
+
+hexadentateligandamoleculeorionthatformssixdativebondswith ametalion
+
+highresolutionmassspectrometry(HRMS)atypeofmass spectrometrythatcanproduceM,valuestoseveral decimalplaces, usuallyfourormore
+
+homogeneouscatalystacatalystthatisinthesamephaseasthereactants homogeneousreactionareactioninwhichallthereactantsand productsareinthesamephase
+
+hydrolysisthebreakingofacompoundbywaterintotwocompounds infinitelydilutesolutionasolutioninwhichthereissomuchwater
+
+instantaneousreactionratethegradientofatangentdrawntotheline of thegraphofconcentrationagainsttime.Theinstantaneousrate variesasthereactionproceeds(exceptforazeroorderreaction)
+
+integrationtracethisshowstherelativenumbersofequivalentprotons (i.e.inthesamechemicalenvironment)
+
+ion-dipoleinteractiontheattractioninaqueoussolutionbetweenions andpolarwatermolecules
+
+ionicproductofwater,Kwtheproductoftheconcentrationofthe hydrogen ions and the hydroxide ions, both measured in mol dm-3
+
+isoelectricpoint(of anaminoacid)thepHofanaqueoussolution in whichitisneutral
+
+Kw=[H+(aq)][OH-(aq)]
+
+kineticallystablethereactiondoesnottakeplace,orisveryslow
+
+#### 296 GLOSSARY
+ligandaspeciesthatusesalonepairofelectronstoformadativebond withametalion
+
+differentligand
+
+mobilephaseinchromatography theliquid that movesthroughthe stationaryphaseandtransportsthecomponents
+
+monodentateligandamoleculeorionthatformsonedativebond withametalion overallorder(ofareaction)thesumofalltheindividualorders partial pressure(of a gasin a mixture of gases) the pressure that the gas wouldexertifitaloneoccupiedthevolumeofthemixture partiallydissociatedonlyasmallfractionoftheacidmoleculeshave dissociated peaka peakinaH NMRspectrum shows thepresence of hydrogen atoms(protons)inaspecificchemicalenvironment peptide bond the bond formed by a condensation reaction between thecarbonylgroupofoneaminoacidandtheaminogroupofanother aminoacid pH(ofanaqueoussolution)thereciprocalofthelogarithmtothebase 10ofthehydrogenionconcentrationmeasuredinmolespercubic decimetre:pH=-lg[H+].This definition is difficult toremember,so either of thetwoequationsgiven onpage83canbe used to definepH
+
+plane-polarised light monochromatic light that has oscillations in only oneplane
+
+polarimeterthe apparatus used tomeasure theangleof rotation causedbyasubstance
+
+polarisation the distortion of the electron density of a negative ion (anion)
+
+light
+
+polypeptideacondensationpolymerformedfrommanyaminoacids promotion(orexcitation)whenanelectronmovesfromalower energyleveltoahigherenergylevel
+
+proteinapolypeptidethathasfoldedintoaspecificshapeinorderto have aspecificfunction
+
+protonacceptorabaseisaprotonacceptor
+
+protondonoranacidisaprotondonor
+
+#### 296 GLOSSARY
+protonNMRtheuseofNMRspectroscopytodetectHnucleiwithin themoleculesofasubstance,inordertodeterminethestructure
+
+racemicmixtureanequimolarmixtureoftwoenantiomersthathasno optical activity
+
+rate-determiningstep(ofareaction)thesloweststepinthe mechanismforthereaction
+
+betweentherateofreactionandtheconcentrationsofthereactants
+
+(overall)rateofreactionthechangeinconcentrationofaspecies dividedbythetimeittakesforthechangetooccur.Allreactionrates arepositive
+
+reactionquotientameasureoftherelativeamountsofproductsand reactantspresentduringareactionatanygiventime
+
+multidentateligandamoleculeorionthatformsseveraldativebonds withametalion retentiontime(ofacomponent)inHPLCandGC,thetimetakenfrom injectiontodetection
+
+multipletsthedifferentsplittingpatternsobserved(singlets,doublets, tripletsorquartets)inahighresolutionHNMRspectrum
+
+nuclearmagneticresonancespectroscopy(NMR)atechniqueused to find thestructuresof organiccompounds.It dependsonthe abilityof nucleitoresonateinamagneticfield
+
+nucleophilicadditionatypeofmechanisminwhichamolecule containingtwoatomsorgroupsisadded acrossapolardoublebond (usuallyC=O) andthe attackingspeciesinthefirststepisa nucleophile
+
+opticalactivityasubstanceshowsopticalactivityif itrotatestheplane ofpolarisationofplane-polarisedlight
+
+#### 296 GLOSSARY
+order(ofareactantspecies)thepowertowhichtheconcentrationof thespeciesisraisedintherateequation riskthepossibleeffectthatasubstancemaycausetoauser,andthis willdependonfactorssuchasconcentrationandapparatus.Thelevel ofriskiscontrolledusingcontrolmeasures six-fold coordination complexesin which there are six ligandsforming coordinatebondswiththetransitionmetalion
+
+(chemical)speciesanatom,a moleculeoranionthatistakingpartina chemicalreaction
+
+splittingpatterntheappearanceofapeakasasmallnumberofsmall sub-peaksveryclosetoeachother
+
+spontaneousprocessaprocessthattakesplacewithoutcontinuous interventionbyus
+
+squareplanarthisshapecontainsacentralatomorionsurroundedby fouratomsorligandsinthesameplaneandwithbondanglesof90°
+
+theoretical lattice energy the lattice energy calculated using the principles of electrostatics
+
+standardelectrodepotentialtheemfmeasuredwhenahalf-cellis connectedtoastandardhydrogenelectrodeunderstandardconditions
+
+standard enthalpy change of atomisation(of an element)the enthalpy changemeasuredatastatedtemperature,usually298K,and100kPa whenonemoleofgaseous atomsisformedfromanelementinits standardstate
+
+standard lattice energy(of anioniccompound) the energy change measured ata stated temperature,usually298K,and100kPawhenone moleofanioniccompoundisformedfromitsionsinthegaseousstate
+
+stationaryphaseinchromatographythe stationaryphaseistheliquid orsolidthatdoesnotmove
+
+#### 296 GLOSSARY
+substitutionareactioninwhichanatom,orgroupofatoms,ina moleculeisreplacedby another atom,orgroupof atoms thermodynamicallyfeasiblereactionareactionthatshouldtakeplace without any intervention by us, if we consider the enthalpy and entropy changesinvolved transitionmetalanelementthatformsoneormorestableionswith incompletelyfilledd-orbitals unimolecular(mechanism)amechanisminwhichonlyonespeciesis reactingintherate-determiningstep unpolarisedlightlightthathasoscillationsinallplanesatright angles tothedirectionoftravel zwitterionamoleculecontainingpositiveandnegativechargesbut whichhasno overall charge
+
+## Topic 20: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### Index
+
+
+#### A
+| absolutepotentialdifference161 acid dissociationconstant(Ka)84-5,89 fromexperimentaldata90,100                                                                                                                       |
+|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| acid-base titrations91-5                                                                                                                                                                                             |
+| buffer action100-1 endpoint91 equivalencepoint91,92 indicators92-5 strong acid-strongbase91,93 strong acid-weak base 91,92,94 weak acid-strongbase91,92,93-4, 100 weakacid-weakbase92,94 acidichydrolysis124,130,253 |
+
+#### A
+| alkylationreactions226-7,228-9 amides127,245-8,256-7 conversions270 namesandstructure242,245 polyamides246-8 preparation245-6 amines238-44,256-7 basicity 240-1 formationof azodyes243-4 namesandstructure238 preparation238-9 reactions128,240-4                                                                                                                                      | |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------| | amino acids249-51,254-5,257 peptide formation 252 proteins252-5 ammonia81,239,240,245-6 ammoniasolution97-8,127 reactionwithcomplexes199-204,207, 210-11 titrations 91,92,95 ammoniumchloride32,97-8 amphiproticsubstances81 amphotericsubstances81,200,204,210 anabolicsteroids141 anions 44,49-50 apparatus272-7 arenes220-35 reactions226-7 seealsobenzene aromaticcompounds220,222 | | amines239,240-1,242,243-4 definitionofaromatic225                                                                                                                                                                                                                                                                                                                                      | | naming 227                                                                                                                                                                                                                                                                                                                                                                             |
+
+#### A
+| Arrheniusequation22-3                                                                                                                                                                                                                                                                                                                                                                  | | asymmetriccarbonatoms109 atomisation,enthalpychange45                                                                                                                                                                                                                                                                                                                                  | | atmosphericoxidation199,201,202,207 autocatalysis21,215                                                                                                                                                                                                                                                                                                                                | | azo dyes243-4                                                                                                                                                                                                                                                                                                                                                                          | | base dissociation constant(Kb)89,240 bases86-7,88-9 buffersolutions97-8                                                                                                                                                                                                                                                                                                                |
+
+#### A
+| conjugate base 80,81                                                                                                                                                                                                                                                                                                                                                                   | | basicity240-1                                                                                                                                                                                                                                                                                                                                                                          | | batteries178-9                                                                                                                                                                                                                                                                                                                                                                         | | Benedict'ssolution117-18 benzene222-31,270                                                                                                                                                                                                                                                                                                                                             | | electrons224-5,228,241 Kevlarproduction246 inorganicsynthesis267-8                                                                                                                                                                                                                                                                                                                     |
+
+#### A
+| electrophilicsubstitution228-9 andphenol230-1                                                                                                                                                                                                                                                                                                                                          | | physical properties 222                                                                                                                                                                                                                                                                                                                                                                |
+
+#### A
+| structure222-5                                              |
+|-------------------------------------------------------------|
+| benzoic acid90 bidentateligands196                          |
+| bimolecularreactions112-13                                  |
+| blood 197-8,216-17 pH78,98-9 boiling temperatures 273-4,277 |
+| carbonylcompounds116,120-1 carboxylicacids123               |
+| bonding48-50,115,122-3 Born-Habercycles45-7,48              |
+| Brady's reagent 120-1 bromination226,228,230-1              |
+| bromine21,33-4                                              |
+| andbenzene223,225,226,228 brominewater223,230               |
+| bromoethane264,265,267 Bronsted-Lowrytheory80-2             |
+| buffer action100-1 buffer capacity99                        |
+| buffersolutions92,96-100                                    |
+| pH of 96-7,98,100                                           |
+| butanal120,149                                              |
+| butanoicacid124                                             |
+| butanone150,151 butylamine241,242                           |
+
+#### C
+| 13CNMRspectroscopy143,144-7,262 calciumcarbonate4,63,71 cancertreatment195 carbon atoms122,126,224-5                             |
+|----------------------------------------------------------------------------------------------------------------------------------|
+| asymmetric109 carbonylcompounds114,115,119 NMR spectroscopy142-3,144-7,151, 262                                                  |
+| carbonchain114,116,122,123,250 extending240,264-6                                                                                |
+| carbondioxide63,98-9,260,265 in oceans74-5,102-3 carbonmonoxide198,213                                                           |
+| carbonateion81                                                                                                                   |
+| carbonicacid98-9                                                                                                                 |
+| carbonyl compounds114-21,261 derivatives 120-1 names andstructure114-15                                                          |
+| nucleophilicaddition119-21 physicalproperties116 reactions117-21 asreagents265 testingfor118,120-1 carboxylicacids117,122-33,261 |
+| derivatives125,126-33                                                                                                            |
+| name andstructure122-3                                                                                                           |
+| conversions269                                                                                                                   |
+| carboxylatesalts124-5                                                                                                            |
+
+#### C
+| physicalproperties123                                                                  | |----------------------------------------------------------------------------------------| | preparation124 reactions124-5                                                          | | catalysis26-7                                                                          | | acid-catalysediodinationof                                                             | | propanone17-18 autocatalysis21,215                                                     | | catalyticoxidationofC-Hbond278-9 heterogeneous20-1,212-13                              | | homogeneous19-20,214-15                                                                | | catalysts 69,226,227 transitionmetals212-15                                            | | catalyticconverters213                                                                 | | cations 42-3,49,53                                                                     | | cell diagrams 166-7                                                                    | | changeofstatereactions40 chargedensity49-50,52-3                                       | | chemicalenvironments144,148                                                            | | chemicalequilibria58-77                                                                | | endothermic/exothermicreactions65 andentropy71-3 equilibriumcomposition67-8,69         | | equilibriumconcentrations60-2                                                          | | equilibriumpartialpressures63-4                                                        | | factorsaffectingequilibriumconstants 65-70                                             | | heterogeneousreactions61-2,63-4 homogeneousreactions60-1,63                            |
+
+#### C
+| qualitativepredictions68                                                               | | seealsoequilibriumconstants;position                                                   | | ofequilibrium                                                                          | | chemicalshift142,143 interpreting144-5,148-50 chirality108-9 seealsoopticalisomerism   | | chlorideions51-2,170,193                                                               | | chromate(Vi)ions204                                                                    | | aminoacids253                                                                          | | chromatography134-5,138-9 andmassspectrometry140-1                                     | | chromium203-6 cis-platin194-5                                                          | | cis-transisomers194                                                                    | | cobaltcomplexes201-2                                                                   | | collisions22-3                                                                         | | colorimity5                                                                            | | colour189-91,216-17 208,210-11                                                         | | changeinreactions199-204,206,207, andstructureofphenol231 vanadiumoxidationstates208-9 | | columnchromatography135,138-9                                                          | | combustionanalysis260 combustionofbenzene226                                           | | complexions188                                                                         | | complexes187-8                                                                         | | colour189-91                                                                           |
+
+#### C
+| 210-11                                                                                 | | coordinationnumber188,200,202                                                          | | colour change199-204,206,207,208,                                                      |
+
+#### C
+| shapesof192-5 stability197 conjugateacid81                                                                                                                                                                                                            |
+|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| concentration 60-2,67-8,89-90 concentration-timegraphs10-11,21 condensationpolymerisation132-3,252 conjugate acid-basepairs 80-1 conjugatebase 80,81 conjugatedsystem(bonds)244                                                                       |
+| Contactprocess212-13 continuousmonitoringmethod10-11 controlmeasures270,271 coordinationnumber188,199,200,202 copper                                                                                                                                  |
+| complexes199-200 disproportionation 170 electrochemicalcells166-7,168 electronrelease160-1,163 standardelectrodepotentials162-3, 168,169 copper(1l) ions 176, 190-1,243 couplingreaction244 covalentbonding48-50 cyanide group119-20 cyclohexene223-4 |
+
+#### D
+| d-blockelements184-6 dativebonds187-8 denticity196 deprotonation199-200                                            |
+|--------------------------------------------------------------------------------------------------------------------|
+| derivatives                                                                                                        |
+| carbonylcompounds120-1 phenol231                                                                                   |
+| carboxylicacids125,126-33                                                                                          |
+| desorption 212-13                                                                                                  |
+| 1,2-diaminoethane196,198 diazoniumions244 dibasicacids80-1,85 dicarboxylicacids132-3,246 dichromate(Vl)ions117,204 |
+| diffusion ofgases33-4 dilution51,89-90                                                                             |
+| dimerisationofnitrogenoxide32-3                                                                                    |
+| 2,4-dinitrophenylhydrazine 120-1 dipeptides252,253                                                                 |
+| displayedandskeletalformulae acylchlorides126 aldehydesandketones115 amides245                                     |
+| amines238                                                                                                          |
+| diproticacids80,94-5                                                                                               |
+| dimethylamine239                                                                                                   |
+
+#### D
+| benzene222 carboxylicacids122 esters129                                                               |
+|-------------------------------------------------------------------------------------------------------|
+| disproportionationreactions170                                                                        |
+| dissociation81-2,86 acid constant(Ka)84-5,89,90,100 base constant(Kb)89,240 distillation 273-4 DNA195 |
+| drug manufacture 220,231,242,278-9 drugtesting141 drying 275-6                                        |
+
+#### E
+| Ea 19,22-5 EDTA4-197,198 electrical conductivity6 electrochemicalcells166-71,180-1 fuel cells172-3 electrochemicalseries164-5 electromagneticspectrum189 electronaffinity45 electronpairrepulsiontheory192,194 electrontransfer160 electronic configurations184-6,190-1   | Ea 19,22-5 EDTA4-197,198 electrical conductivity6 electrochemicalcells166-71,180-1 fuel cells172-3 electrochemicalseries164-5 electromagneticspectrum189 electronaffinity45 electronpairrepulsiontheory192,194 electrontransfer160 electronic configurations184-6,190-1   | Ea 19,22-5 EDTA4-197,198 electrical conductivity6 electrochemicalcells166-71,180-1 fuel cells172-3 electrochemicalseries164-5 electromagneticspectrum189 electronaffinity45 electronpairrepulsiontheory192,194 electrontransfer160 electronic configurations184-6,190-1   | Ea 19,22-5 EDTA4-197,198 electrical conductivity6 electrochemicalcells166-71,180-1 fuel cells172-3 electrochemicalseries164-5 electromagneticspectrum189 electronaffinity45 electronpairrepulsiontheory192,194 electrontransfer160 electronic configurations184-6,190-1   | Ea 19,22-5 EDTA4-197,198 electrical conductivity6 electrochemicalcells166-71,180-1 fuel cells172-3 electrochemicalseries164-5 electromagneticspectrum189 electronaffinity45 electronpairrepulsiontheory192,194 electrontransfer160 electronic configurations184-6,190-1   |
+
+#### E
+|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+
+#### E
+| electrons benzene ring224-5,228,241 andcolourofcomplexes190-1 and energylevels190-1,194 lone pairs187,192,196,197,198 releasedbymetals160-1 electrophiles228-9                                                                                                            | electrons benzene ring224-5,228,241 andcolourofcomplexes190-1 and energylevels190-1,194 lone pairs187,192,196,197,198 releasedbymetals160-1 electrophiles228-9                                                                                                            | electrons benzene ring224-5,228,241 andcolourofcomplexes190-1 and energylevels190-1,194 lone pairs187,192,196,197,198 releasedbymetals160-1 electrophiles228-9                                                                                                            | electrons benzene ring224-5,228,241 andcolourofcomplexes190-1 and energylevels190-1,194 lone pairs187,192,196,197,198 releasedbymetals160-1 electrophiles228-9                                                                                                            | electrons benzene ring224-5,228,241 andcolourofcomplexes190-1 and energylevels190-1,194 lone pairs187,192,196,197,198 releasedbymetals160-1 electrophiles228-9                                                                                                            |
+
+#### E
+| electromotiveforce(emf)163,166,167                                                                                                                                                                                                                                        | electromotiveforce(emf)163,166,167                                                                                                                                                                                                                                        | electromotiveforce(emf)163,166,167                                                                                                                                                                                                                                        | electromotiveforce(emf)163,166,167                                                                                                                                                                                                                                        | electromotiveforce(emf)163,166,167                                                                                                                                                                                                                                        |
+
+#### E
+| electrophilicadditionreaction21                                                                                                                                                                                                                                           | electrophilicadditionreaction21                                                                                                                                                                                                                                           | electrophilicadditionreaction21                                                                                                                                                                                                                                           | electrophilicadditionreaction21                                                                                                                                                                                                                                           | electrophilicadditionreaction21                                                                                                                                                                                                                                           |
+
+#### E
+| electrophilicsubstitutionreactions226-9, 230-1                                                                                                                                                                                                                            | electrophilicsubstitutionreactions226-9, 230-1                                                                                                                                                                                                                            | electrophilicsubstitutionreactions226-9, 230-1                                                                                                                                                                                                                            | electrophilicsubstitutionreactions226-9, 230-1                                                                                                                                                                                                                            | electrophilicsubstitutionreactions226-9, 230-1                                                                                                                                                                                                                            |
+
+#### E
+| elementaryreactions15-16 empiricalformulae260,262,263 enantiomers109,111,154 endpoint91                                                                                                                                                                                   | elementaryreactions15-16 empiricalformulae260,262,263 enantiomers109,111,154 endpoint91                                                                                                                                                                                   | elementaryreactions15-16 empiricalformulae260,262,263 enantiomers109,111,154 endpoint91                                                                                                                                                                                   | elementaryreactions15-16 empiricalformulae260,262,263 enantiomers109,111,154 endpoint91                                                                                                                                                                                   | elementaryreactions15-16 empiricalformulae260,262,263 enantiomers109,111,154 endpoint91                                                                                                                                                                                   |
+
+#### E
+| endothermicreactions32-3,65 and entropy37,40                                                                                                                                                                                                                              | endothermicreactions32-3,65 and entropy37,40                                                                                                                                                                                                                              | endothermicreactions32-3,65 and entropy37,40                                                                                                                                                                                                                              | endothermicreactions32-3,65 and entropy37,40                                                                                                                                                                                                                              | endothermicreactions32-3,65 and entropy37,40                                                                                                                                                                                                                              |
+
+#### E
+| energeticallystableproducts32,244                                                                                                                                                                                                                                         | energeticallystableproducts32,244                                                                                                                                                                                                                                         | energeticallystableproducts32,244                                                                                                                                                                                                                                         | energeticallystableproducts32,244                                                                                                                                                                                                                                         | energeticallystableproducts32,244                                                                                                                                                                                                                                         |
+
+#### E
+| energyleveldiagrams45,53 energyquanta34-5                                                                                                                                                                                                                                 | energyleveldiagrams45,53 energyquanta34-5                                                                                                                                                                                                                                 | energyleveldiagrams45,53 energyquanta34-5                                                                                                                                                                                                                                 | energyleveldiagrams45,53 energyquanta34-5                                                                                                                                                                                                                                 | energyleveldiagrams45,53 energyquanta34-5                                                                                                                                                                                                                                 |
+
+#### E
+| enthalpychange ofatomisation45                                                                                                                                                                                                                                            | enthalpychange ofatomisation45                                                                                                                                                                                                                                            | enthalpychange ofatomisation45                                                                                                                                                                                                                                            | enthalpychange ofatomisation45                                                                                                                                                                                                                                            | enthalpychange ofatomisation45                                                                                                                                                                                                                                            |
+
+#### E
+| and entropy change 37 of formation45-6                                                                                                                                                                                                                                    | and entropy change 37 of formation45-6                                                                                                                                                                                                                                    | and entropy change 37 of formation45-6                                                                                                                                                                                                                                    | and entropy change 37 of formation45-6                                                                                                                                                                                                                                    | and entropy change 37 of formation45-6                                                                                                                                                                                                                                    |
+
+#### E
+| ofhydration51-3                                                                                                                                                                                                                                                           | ofhydration51-3                                                                                                                                                                                                                                                           | ofhydration51-3                                                                                                                                                                                                                                                           | ofhydration51-3                                                                                                                                                                                                                                                           | ofhydration51-3                                                                                                                                                                                                                                                           |
+
+#### E
+| of hydrogenation 223                                                                                                                                                                                                                                                      | of hydrogenation 223                                                                                                                                                                                                                                                      | of hydrogenation 223                                                                                                                                                                                                                                                      | of hydrogenation 223                                                                                                                                                                                                                                                      | of hydrogenation 223                                                                                                                                                                                                                                                      |
+
+#### E
+| 42-3                                                                                                                                                                                                                                                                      | 42-3                                                                                                                                                                                                                                                                      | 42-3                                                                                                                                                                                                                                                                      | 42-3                                                                                                                                                                                                                                                                      | 42-3                                                                                                                                                                                                                                                                      |
+
+#### E
+| andioniccompoundsolubility40-1,                                                                                                                                                                                                                                           | andioniccompoundsolubility40-1,                                                                                                                                                                                                                                           | andioniccompoundsolubility40-1,                                                                                                                                                                                                                                           | andioniccompoundsolubility40-1,                                                                                                                                                                                                                                           | andioniccompoundsolubility40-1,                                                                                                                                                                                                                                           |
+
+#### E
+| standardvalues42-3,45                                                                                                                                                                                                                                                     | standardvalues42-3,45                                                                                                                                                                                                                                                     | standardvalues42-3,45                                                                                                                                                                                                                                                     | standardvalues42-3,45                                                                                                                                                                                                                                                     | standardvalues42-3,45                                                                                                                                                                                                                                                     |
+
+#### E
+| of solution 40-1,42-3,51,53                                                                                                                                                                                                                                               | of solution 40-1,42-3,51,53                                                                                                                                                                                                                                               | of solution 40-1,42-3,51,53                                                                                                                                                                                                                                               | of solution 40-1,42-3,51,53                                                                                                                                                                                                                                               | of solution 40-1,42-3,51,53                                                                                                                                                                                                                                               |
+
+#### E
+| enthalpyleveldiagrams32,33,223                                                                                                                                                                                                                                            | enthalpyleveldiagrams32,33,223                                                                                                                                                                                                                                            | enthalpyleveldiagrams32,33,223                                                                                                                                                                                                                                            | enthalpyleveldiagrams32,33,223                                                                                                                                                                                                                                            | enthalpyleveldiagrams32,33,223                                                                                                                                                                                                                                            |
+
+#### E
+| changeseeentropychange                                                                                                                                                                                                                                                    | changeseeentropychange                                                                                                                                                                                                                                                    | changeseeentropychange                                                                                                                                                                                                                                                    | changeseeentropychange                                                                                                                                                                                                                                                    | changeseeentropychange                                                                                                                                                                                                                                                    |
+
+#### E
+| entropy30-43,56-7                                                                                                                                                                                                                                                         | entropy30-43,56-7                                                                                                                                                                                                                                                         | entropy30-43,56-7                                                                                                                                                                                                                                                         | entropy30-43,56-7                                                                                                                                                                                                                                                         | entropy30-43,56-7                                                                                                                                                                                                                                                         |
+
+#### E
+| changesofstate40                                                                                                                                                                                                                                                          | changesofstate40                                                                                                                                                                                                                                                          | changesofstate40                                                                                                                                                                                                                                                          | changesofstate40                                                                                                                                                                                                                                                          | changesofstate40                                                                                                                                                                                                                                                          |
+
+#### E
+| andchemicalequilibria71-3                                                                                                                                                                                                                                                 | andchemicalequilibria71-3                                                                                                                                                                                                                                                 | andchemicalequilibria71-3                                                                                                                                                                                                                                                 | andchemicalequilibria71-3                                                                                                                                                                                                                                                 | andchemicalequilibria71-3                                                                                                                                                                                                                                                 |
+
+#### E
+| definition33,35                                               |
+|---------------------------------------------------------------|
+| dissolvingionicsolidsinwater40-1                              |
+| distributionof energy quanta 34-5                             |
+| distributionofmolecules33-4                                   |
+| endothermicreactions37,40                                     |
+| andequilibriumconstants71-3                                   |
+| exothermicreactions37                                         |
+| molesofreactants/products41-2                                 |
+| perfectcrystals35                                             |
+| standardentropyvalues36-7,42-3                                |
+| andtemperature35                                              |
+| entropychange40-3                                             |
+| andenthalpychange37                                           |
+| andsolubility40-3                                             |
+| ofthesurroundings37-8,39                                      |
+| ofthe system36-7,39                                           |
+| and temperature38-9,71-2 total entropy change 36-9,71-3,170-1 |
+| equilibriaseeacid-baseequilibria; |
+| chemicalequilibria equilibriumcomposition67-8,69              |
+| equilibriumconcentration60-2,84                               |
+| equilibriumconstants60-77                                     |
+| acid dissociation(Ka)84-5,89,90,100                           |
+| base dissociation(Kb)89,240                                   |
+| catalysts,effectof69                                          |
+| concentration,effectof67-8                                    |
+| defined by concentrations(Kc)60-2.
+
+#### E
+67-8                       |
+| defined by partial pressures (Kp) 63-4, 69                    |
+| electrochemicalcellreactions171 experimentalvalues60-1,63,90  |
+| ionicproductofwater(Kw)86-7                                   |
+| andpositionofequilibrium65-9,72,73                            |
+| pressure,effectof69                                           |
+| temperature,effectof65-6,71-2,86                              |
+| thermodynamicvalue72-3                                        |
+| andtotalentropychange71-3                                     |
+| esterexchange248                                              |
+| esterification125                                             |
+| esters125,127,129-31                                          |
+| ethanedioicacid21,174-5                                       |
+| ethanoicacid40,84,89,196-7                                    |
+| buffersolutions96,97,98                                       |
+| reactionwithethanol60-1                                       |
+| synthesisfrombromoethane267 titrations92                      |
+| synthesis264,267,268                                          |
+| reactionswithamines128,242 ethylenediamine196                 |
+| ethene21,247                                                  |
+| exams andexampractice286-94                                   |
+| ethanoylchloride126,127,229                                   |
+| equilibriumlaw61,69,84,86                                     |
+| equivalencepoint91,92                                         |
+| properties123                                                 |
+| ethanol60-1,125,127                                           |
+| ethanedioateions175,214-15                                    |
+
+#### E
+| aminesandamides256-7       |
+|----------------------------|
+| benzene234-5               |
+| command words 293-4        |
+| entropyandenergetics56-7   |
+| equilibriumconstants76-7   |
+| kinetics/reactionrates28-9 |
+| organiccompounds156-7      |
+| organicsynthesis280-1      |
+| redoxequilibria180-1       |
+| sampleanswers288-92        |
+| transitionmetals218-19     |
+| exothermicreactions32-3,51 |
+| andentropy37,38,40         |
+| equilibriumconstants65     |
+| reactionprofiles19         |
+
+#### F
+| Fehling'ssolution117-18 filtration276                                                                                                                                                                                                                                        | |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------| | first orderreactions7,10-11                                                                                                                                                                                                                                                  | | food 99,114,129                                                                                                                                                                                                                                                              | | fractionaldistillation274                                                                                                                                                                                                                                                    | | fragrance compounds116,232-3                                                                                                                                                                                                                                                 |
+
+#### F
+| freezingwater38-9                                                                                                                                                                                                                                                            | | Friedel-Craftsreactions226-7,228-9                                                                                                                                                                                                                                           | | fuelcells54-5,172-3                                                                                                                                                                                                                                                          | | functionalgroups260-3 acylchloride125,126 carbonyl group 114, 115 carboxylicacidgroup122-3 andcompoundproperties266-7 conversions117-19,125,127-8,269-70 cyanidegroup119-20 hydroxyl(OH)group119,230,261 andisomerism108-9 andNMRspectra144-6,148-50,151-3 testsfor118,260-1 |
+
+#### G
+| gas chromatography (GC) 138-41 gases 4-5, 163-4   |
+|---------------------------------------------------|
+| diffusion33-4 equilibrium63,64,68-9               |
+| glossary295-7                                     |
+| Grignardreactions265-6                            |
+| Grignardreagents265                               |
+| Group2elements42-3                                |
+
+#### H
+| 1H NMRspectroscopy143,148-53,262                   |
+|----------------------------------------------------|
+| Haberprocess20                                     |
+| haemocyanin216-17                                  |
+| haemoglobin197-8                                   |
+| half-cellreactions161-5 electrochemicalcells166-71 |
+| half-lifeofareaction10-11                          |
+| half-volumemethod101                               |
+| halogencarrier226,227                              |
+| halogenation125                                    |
+
+#### H
+| halogenoalkanes261,269 hydrolysis of 16-17, 24-5 nucleophilicsubstitution112-13 preparationofamines239 reactionswithamines242-3 hazardsandwarningsymbols270-2   | |-----------------------------------------------------------------------------------------------------------------------------------------------------------------| | heatingunderreflux273 Henderson-Hasselbachequation97                                                                                                            | | Hess cycle53                                                                                                                                                    | | heterogeneous catalysts 20-1,212-13 heterogeneous reactions 61-2,63-4 hexadentateligands196 highperformanceliquidchromatrography (HPLC)138,140                  | | highresolutionmassspectrometry (HRMS)136-7                                                                                                                      | | homogeneouscatalysts19-20,214-15 homogeneousreactions60-1,63                                                                                                    | | human body98-9,114,195 aminoacidsandproteins249,253 anabolicsteroids141                                                                                         | | hydration40-1,51-3 hydrochloricacid80,81,89 reactions170,200,202 titrations91,92                                                                                | | preparation of aromatic amines 239                                                                                                                              | | hydrogen atoms 143,148-53,262 inbenzene222,226,227 hydrogenbonds116,123,240,248                                                                                 |
+
+#### H
+| hydrogencarbonate98-9                                                                                                                                           | | hydrogen chloride 80,81-2,127,227                                                                                                                               | | hydrogencyanide119-20                                                                                                                                           | | reaction with ammoniagas32,35                                                                                                                                   | | hydrogenion concentration83-5                                                                                                                                   | | hydrogen-oxygenfuel cell54-5,172-3                                                                                                                              | | hydrogenation20,223,226 hydrolysis124,129-31,253 ofhalogenoalkanes16-17,24-5                                                                                    | | hydroxyl (OH) group 119, 230,261                                                                                                                                | | hydrogen iodide65-6,67                                                                                                                                          |
+
+## Topic 20: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### Index
+
+
+#### H
+hydroxyl (OH) group 119, 230,261
+
+infinitelydilutesolution51
+
+infrared spectroscopy262
+
+ofbenzene224,225
+
+initial-ratemethod12
+
+instantaneousreactionrate11
+
+insulin253
+
+interstitialhydride20
+
+iodine
+
+reaction with carbonyl compounds
+
+118
+
+reactionwithhydrogen65-6,67
+
+reactionwithpropanone4,5,17-18
+
+redoxtitrations176
+
+iodoformreaction118
+
+ion-dipoleinteraction52
+
+ionicbonding44-50
+
+ioniccompounds44-50
+
+solubility 40-1,42-3
+
+## Topic 20: Unit 5: Transition Metals and Organic Nitrogen Chemistry
+
+### Index
+
+
+#### H
+| ionicproductofwater(Kw)86-7 ionic salts124-5,161,241 ionicsolids 40-1   |
+|-------------------------------------------------------------------------|
+| ions                                                                    |
+| ionisation82                                                            |
+| charge density 49-50,53 formation163,185-6                              |
+| ionic radius 49,52,187                                                  |
+| ironcomplexes202                                                        |
+| iron(ll) ions 174, 175, 214                                             |
+| iron(ll) sulfate 175                                                    |
+| isoelectricpoints249,250-1                                              |
+| isomerism108,194                                                        |
+| seealsoopticalisomerism                                                 |
+
+#### K
+| Ka 84-5,90,100                                                                                                                                                                                                        | |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------| | Kb 89,240                                                                                                                                                                                                             | | Kc60-2,67-8                                                                                                                                                                                                           | | Kp 63-4,69                                                                                                                                                                                                            | | Kw86-7                                                                                                                                                                                                                | | Kekulestructure222-4                                                                                                                                                                                                  | | ketones114-16,269 reactionwithhydrogencyanide 119-20 redoxreactions117-18 testingfor118 Kevlar?246                                                                                                                    |
+
+#### K
+| kineticstability38,169                                                                                                                                                                                                | | kinetics2-29                                                                                                                                                                                                          | | activation energy19,22-5 catalysis17-18,19-21 continuousmonitoring10-11 determiningorderofreaction10-14 initial-ratemethod12 measuringtechniques4-6 mechanisms8,15-18 rate constant7-8,22-5 rate equation7-9,12,15-18 | | andtemperature22-5                                                                                                                                                                                                    |
+
+#### K
+| laboratory safety 270-2                                                                                                                                   |
+|-----------------------------------------------------------------------------------------------------------------------------------------------------------|
+| lattice energy 44-50,53,56-7 Born-Habercycles45-7 ioniccompoundformation45-7 standardlatticeenergy44                                                      |
+| experimentalandtheoretical48-50 magnitude,factorsaffecting44-5                                                                                            |
+| lattice enthalpyseelattice energy ligandexchangereactions197,198, 199-200 chromiumcomplexes203 cobaltcomplexes201,202 nickelcomplexes210 zinccomplexes210 |
+| multidentate196-8                                                                                                                                         |
+| ligands187-8,192-3                                                                                                                                        |
+| linearcomplexes193                                                                                                                                        |
+
+| linearrelationships283                 |
+|----------------------------------------|
+| liquidsinequilibrium64                 |
+| logarithms83,282                       |
+| lone electron pairs187,192,196,197,198 |
+
+| nucleophilicadditionreactions119-21 nucleophilicsubstitutionreactions16-17,   |
+|-------------------------------------------------------------------------------|
+| 24-5,112-13 nylon 246-7                                                       |
+
+#### 0
+| magnesium160-3,265-6 reactionwithoxygen32,40 magnesium chloride44,49 manganesecomplexes207 manganese(IV)oxide170,174,212 and chromatography 140-1   |
+|-----------------------------------------------------------------------------------------------------------------------------------------------------|
+| massspectrometry136-7,262 mathsskills282-5 meltingtemperatures120-1,276-7 metalhydroxides42,200 metalsulfates42-3                                   |
+
+#### N
+| nandrolone141 neutralisation124-5 nickelcomplexes210 nitration226,228 nitrobenzene226,239 nitrous acid 243-4   |
+|----------------------------------------------------------------------------------------------------------------|
+| NMRspectroscopy142-53,262 13CNMR143,144-7,262 protonNMR143,148-53,262 nomenclature                             |
+| acylchlorides126 amides242,245 amines238                                                                       |
+| nitric acid81,226,228 nitriles 124,239,270                                                                     |
+| nitrogendioxide32-3                                                                                            |
+| amino acids249,250                                                                                             |
+| aromaticcompounds227                                                                                           |
+| carbonylcompounds114-15                                                                                        |
+| carboxylic acids122                                                                                            |
+| complexesandligands188 esters129                                                                               |
+| see NMR spectroscopy                                                                                           |
+| nuclearmagneticresonancespectroscopy                                                                           |
+
+#### N
+| oceans74-5,102-3                                                                                                       |
+|------------------------------------------------------------------------------------------------------------------------|
+| octahedralcomplexes192-3                                                                                               |
+| optical activity110-13,120,251                                                                                         |
+| optical isomerism108-9,154-5 optical activity110-13,120,251 andplane-polarisedlight110-11 reactionmechanisms112-13,120 |
+| ordersofreaction7-8,9 determining10-14 organicanalysis260-3                                                            |
+| organicconversions269-70                                                                                               |
+| organicsynthesis264-8                                                                                                  |
+| drugmanufacture278-9                                                                                                   |
+| extendingacarbonchain264-6 Grignardreactions265-6 multistep 267-8 planning264 practical techniques 273-7               |
+| selecting suitable procedures266, 269-70                                                                               |
+| overallrateequation8 oxidation21,160,214-15 atmospheric199,201,202,207                                                 |
+| carbonylcompounds117-18 preparationby124                                                                               |
+| transitionmetals199,204,205,209 seealsoredoxreactions                                                                  |
+| changes199,201-2,204-6,208-9,213                                                                                       |
+| oxygen32,38,40 inblood197-8,216-17                                                                                     |
+| fuel cells 54-5,172-3                                                                                                  |
+| oxidising agents 163,164-5,174                                                                                         |
+| oxidationnumbers186,208                                                                                                |
+
+#### N
+| paper chromatography134                                                        |
+|--------------------------------------------------------------------------------|
+| paracetamol242                                                                 |
+| partial dissociation 82                                                        |
+| partial pressures 63-4,69                                                      |
+| pentan-2-ol 266 peptides 252,253                                               |
+| perfectcrystals35                                                              |
+| periodictable184,298 persulfate ion214 pH 83-90                                |
+| of blood 78,98-9                                                               |
+| ofbuffersolutions96-7,98,100 calculating85,86-7 definition83,85 ofindicators93 |
+| measurementdataanalysis88-90                                                   |
+| titrationcurves91-5,100-1                                                      |
+
+#### N
+| phenol230-1,244,261                                                           | |-------------------------------------------------------------------------------| | phenolphthalein93-4,231 phenylamine239,240-1,274 reactions242-4               | | phenylmethanol266-7                                                           | | pi bonds 224-5,228,230-1                                                      | | pKw86                                                                         | | plane-polarisedlight110                                                       | | pointofinflection92                                                           | | poisoning 20                                                                  | | polarimetry110-11                                                             | | polarisation(ofanions)49-50                                                   | | polarisation(of light)110-11                                                  | | polyamides246-8                                                               | | polyesters132-3                                                               | | poly(ethanol)247-8                                                            | | polymerisation132-3,247-8,252                                                 | | polypeptides252-3                                                             | | poly(propenamide)247                                                          | | position ofequilibrium 32-3,162-3                                             | | andequilibriumconstants73 andpartialpressures69                               | | qualitativepredictions68                                                      | | andtemperature65-6,71-2                                                       | | potassium dichromate(Vl)117,124,174, 266                                      |
+
+#### N
+| potassium manganate(Vll) 21, 174-5, 214-15                                    | | potentialdifference160-1                                                      | | practicaltechniques4-6,273-7                                                  | | precipitationreactions230,243,261,262                                         | | carbonylcompounds117,118,120 transitionmetals199-204,206-11 preparations273-6 | | amides245-6 amines238-9                                                       | | carboxylicacids124 testingforpurity276-7                                      | | pressure63-4,69 primary alcohol124                                            | | promotors20                                                                   | | propan-1-ol144,145,148,265 propan-2-ol144,145,148                             | | propanoicacid124                                                              | | propanone4,5,17-18,116                                                        | | propene132 proteins252-5                                                      | | protondonor80                                                                 | | protonNMRspectroscopy143,148-53,262 protons 80-1,151-3                        | | purificationtechniques273-4,275,276                                           | | purity, testing for 276-7                                                     | | protonacceptor80                                                              |
+
+| qualitative predictions 68   |
+|------------------------------|
+| quanta of energy 34-5        |
+| quenching5                   |
+
+#### R
+| Rfvalues135 racemicmixtures111,120 rateofchange283,284-5 rate constants7-8,22-5 rate equations7-9,12 andreactionmechanisms15-18 rate ofreaction28-9 andconcentration12-13 definition4 from concentration-time graphs11 fromvolume-timegraphs11 initialrate12-13 instantaneous11 measuringtechniques4-6   |                                              |                | |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------|----------------| | reaction profiles19,24,25 reactionquotientQc67-8 reagents117-18 choosing 264-7 multistepsyntheses267-8 organic analysis260-1                                                                                                                                                                             |                                              |                | | recrystallisation276                                                                                                                                                                                                                                                                                     |                                              |                | | redoxequilibria158-71,180-1 electrochemicalseries164-5                                                                                                                                                                                                                                                   |                                              |                |
+
+#### R
+| half-cellreactions161-4                                                                                                                                                                                                                                                                                  |                                              |                | | 168-70,205,209 standardconditions161                                                                                                                                                                                                                                                                     |                                              |                | | predictingthermodynamicfeasibility                                                                                                                                                                                                                                                                       |                                              |                | | standardelectrodepotentials160-71                                                                                                                                                                                                                                                                        |                                              |                | | and temperature22-5 rate-concentrationgraphs12-13 rate-determining step8-9,16-18 electrophilicaddition21 electrophilicsubstitution228-9 nucleophilicaddition119-20                                                                                                                                       |                                              |                |
+
+#### R
+| reactionmechanisms8,15-18                                                                                                                                                                                                                                                                                |                                              |                | | nucleophilicsubstitution16-17, 112-13                                                                                                                                                                                                                                                                    |                                              |                | | andopticalactivity112-13,120                                                                                                                                                                                                                                                                             |                                              |                | | systems involving gases 163-4                                                                                                                                                                                                                                                                            |                                              |                | | carbonylcompounds117-18 disproportionation170 titrations174-7                                                                                                                                                                                                                                            |                                              |                |
+
+#### R
+| preparationofamines239                                                                                                                                                                                                                                                                                   |                                              |                | | seealsoredoxreactions                                                                                                                                                                                                                                                                                    |                                              |                | | transitionmetals204,205,208-9                                                                                                                                                                                                                                                                            |                                              |                | | retentiontime138,140                                                                                                                                                                                                                                                                                     |                                              |                | | refluxing273                                                                                                                                                                                                                                                                                             |                                              |                |
+
+#### R
+| relativemolecularmass(Mr)136-7                                                                                                                                                                                                                                                                           |                                              |                | | transition metals199,204-5,208-9                                                                                                                                                                                                                                                                         |                                              |                | |                                                                                                                                                                                                                                                                                                          | reducingagents163,164-5 reduction117,124,160 | redoxreactions |
+
+| saltbridge161          |
+|------------------------|
+| salts 88-9,161,241,251 |
+| carboxylatesalts124-5  |
+| saponification130      |
+
+#### S
+| SecondLawofThermodynamics35 secondorderreactions7-8,10                     | |----------------------------------------------------------------------------| | separationtechniques273-6                                                  | | silvercompounds49-50                                                       | | skeletalformulaeseedisplayedand skeletalformulae                           | | SN1reactions16,24-5,113                                                    | | SN2reactions16-17,24-5,112-13                                              | | sodiumchloride44,51,53,187                                                 | | Born-Haber cycle45-6 covalentbonding49,50                                  | | sodiumethanoate96-7,125                                                    | | sodiumhydroxide86-7                                                        | | acid-base titrations91,92,95 reactions199-204,207,210                      | | sodiumions51-2,187                                                         | | sodiumthiosulfate176                                                       | | solidsinequilibrium63                                                      | | solubility 40-3,51,53                                                      | | amines240                                                                  | | carbonylcompounds116                                                       | | carboxylicacids123                                                         | | ionicsolidsinwater40-1 polymers248                                         | | solvents 116,143,276                                                       | | chromatography134,135 solventextraction275                                 | | splittingpatterns151-3 spontaneousprocesses33,35,36                        | | squareplanarcomplexes194-5                                                 |
+
+#### S
+| standardconditions161                                                      | | standardelectrodepotentials20,160-5 180-1                                  | | cell diagrams 166-7                                                        | | chromiumreactions204-5 difference'between167                               | | measuring161-2                                                             | | thermodynamicequilibriumconstant 171                                       | | thermodynamicfeasibility168-70,                                            | | 205,209                                                                    | | vanadiumreactions209                                                       | | standard enthalpy changeof atomisation45 standardenthalpyvalues42-3        | | standardentropyvalues36-7,42-3 standard hydrogen electrode161              | | standard lattice energy44                                                  | | stationary phase134,135                                                    | | steamdistillation273-4                                                     | | stoichiometricequations8,15-16                                             | | strong acid-strongbase titration91,93 strongacid-weakbasetitration91,92,94 | | strong acids 83-4,88-9 definition81-2                                      | | titrations 91,92,93,94                                                     | | strongbases 86-7,88-9                                                      | | titrations91,92,93-4,100 structuralformulae109                             | | amides245                                                                  | | aldehydesandketones114                                                     |
+
+#### S
+| amino acids250 carboxylicacids122 esters129                       |
+|-------------------------------------------------------------------|
+| structures,determining136-7,261-3 sulfonation227                  |
+| sulfuricacid80,85,175,227 manufacture212-13 reactionwithzinc168-9 |
+| surfaceadsorptiontheory20,212-13                                  |
+
+#### T
+| tartaricacid111                                                                                                                                                                                      |
+|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| temperature120-1,276-7 and entropy35 and entropy change 38-9, 71-3 equilibriumconstants,effecton65-6, 71-2, 86 and position ofequilibrium 65-6,71-2 andrateofreaction22-5 seealsoboilingtemperatures |
+| thermodynamicfeasibility38,168-70, 205, 209 thin-layerchromatography135 titrations5,174-7 seealsoacid-basetitrations                                                                                 |
+| total entropychange36-9 cellreactions170-1                                                                                                                                                           |
+| calculating equilibrium constants 72-3                                                                                                                                                               |
+| Tollens'reagent117-18,193                                                                                                                                                                            |
+| TMS143                                                                                                                                                                                               |
+| andtemperaturechange71-3                                                                                                                                                                             |
+
+#### T
+| trans-platin195                                                                                                                                                                                                                                                                                                                                                                                                                            |
+|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| transitionmetals182-219 amphotericbehaviour200,204,210 as catalysts 212-15 characteristics184-5 colouredions189-91 coordinationnumber188,200,202 definition184 electronic configurations 184-6,190-1 ionformation185-6 ligands 187-8,192-3,196-8 oxidationnumber186,208 oxidationnumberchanges199,201-2, 204-6,208-9,213 reaction types199-200 reactions197,199-211 symbols and equations 187-8 seealsocomplexes transition state19,24,112 |
+
+| unimolecularmechanism113   |
+|----------------------------|
+| unpolarised light 110      |
+
+| vanadium208-9,212-13   |
+|------------------------|
+| volume-timegraphs11    |
+
+#### T
+| washing 275                                                                            |
+|----------------------------------------------------------------------------------------|
+| water38-9,86-7 ammoniain81                                                             |
+| hydration enthalpy 51-3                                                                |
+| hydrogen chloride in 80 ligands 187-8,190-1,192-3,199-200                              |
+| metals in 160-1 reactionwithacylchlorides127                                           |
+| reactionwithamines240-1 removal by drying276                                           |
+| solubilityof amines240 solubilityofcarbonylcompounds116 solubilityofcarboxylicacids123 |
+| solubility of ionicsolids40-1                                                          |
+| solubility ofpolymers248                                                               |
+| weakacid-strongbasetitration91,92, 93-4,100                                            |
+| weakacid-weakbasetitration92,94 weak acids84,88-90                                     |
+| buffer solution96-7,98 definition81-2                                                  |
+| titrations91,92,93-4,100                                                               |
+| titrations 91,92,94                                                                    |
+| weakbases88-9,97-8                                                                     |
+
+| zero orderreactions7,10 zinc 166-7,185-6                                   |
+|----------------------------------------------------------------------------|
+| feasibilityofreactions168-9 reactions204,205,208,210 zinc-carbon cell178-9 |

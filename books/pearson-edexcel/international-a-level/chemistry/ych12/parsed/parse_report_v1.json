@@ -1,0 +1,64 @@
+{
+  "n_chunks": 1400,
+  "content_types": {
+    "front_matter": 45,
+    "table_data": 197,
+    "topic_divider": 32,
+    "body": 549,
+    "learning_objectives": 76,
+    "exam_hint": 128,
+    "checkpoint": 68,
+    "subject_vocabulary": 48,
+    "worked_example": 30,
+    "did_you_know": 30,
+    "thinking_bigger": 69,
+    "chapter_questions": 84,
+    "maths_skills": 8,
+    "preparing_for_exams": 25,
+    "command_words": 1,
+    "glossary": 9,
+    "index": 1
+  },
+  "size_min": 41,
+  "size_max": 2367,
+  "size_avg": 632,
+  "n_chunks_over_hardmax": 0,
+  "source_pdf_sha256": "44af34a590914e81bac53b0fbdca92a742ce7c0b43cd6b85166a39be670ee748",
+  "parser": "docling 2.33.0 + rapidocr-onnxruntime 1.4.4 (formula enrichment OFF base corpus \u2014 2.33 CodeFormula integration emits empty formula text either way, YCH11 D-7/L-020; page-level JSON checkpoints; book = pdf-12 page law, front matter roman ii-xiii; transformers 4.52.4 + torch 2.14.1+cpu/torchvision 0.29.1+cpu rebuilt environment)",
+  "formula_rescue": "315 empty formula regions on 101 pages exported (pipeline/evidence/formula_orphans.json); 133 regions transcribed VERBATIM from 150dpi renders by the agent across 12 batch windows (127 fills + 6 adjudicated slivers/duplicates) -> pipeline/evidence/manual_formulas_ych12.jsonl, applied idempotently with 0 bbox mismatches; 182 orphans on 71 pages REMAIN UNRESCUED (resumable: render_orphan_pages -> transcribe -> manual_formula_ws) \u2014 partial rescue shipped honestly, the YCH11 r0 pattern. 1 further formula item converts to a sub-4-char symbol (benign residue, skipped by the chunker floor).",
+  "by_design_gaps": [
+    {
+      "pdf_page": 310,
+      "book_page": 298,
+      "kind": "periodic_table",
+      "reason": "image-only page: OCR yields only the 'Group Period' axis labels (below the 40-char chunk floor) \u2014 recorded here, not chunked"
+    },
+    {
+      "pdf_page": 317,
+      "book_page": 305,
+      "kind": "graph_paper",
+      "reason": "image-only end leaf (blank practice graph grid, printed '305'), zero extractable text \u2014 recorded here, not chunked"
+    },
+    {
+      "pdf_page": 318,
+      "book_page": 306,
+      "kind": "graph_paper",
+      "reason": "image-only end leaf (blank practice graph grid, printed '306'), zero extractable text \u2014 recorded here, not chunked"
+    },
+    {
+      "pdf_page": 319,
+      "book_page": 307,
+      "kind": "graph_paper",
+      "reason": "image-only end leaf (blank practice graph grid, printed '307'), zero extractable text \u2014 recorded here, not chunked"
+    },
+    {
+      "pdf_page": 320,
+      "book_page": 308,
+      "kind": "graph_paper",
+      "reason": "image-only end leaf (blank practice graph grid, printed '308'), zero extractable text \u2014 recorded here, not chunked"
+    }
+  ],
+  "n_llm_polished": 0,
+  "llm_polish_staged": "select_noisy_ych12.py: 800/1400 selected (80 question chunks force-included), ids at pipeline/evidence/llm_repair_ids_ych12.json; R1 run quota-walled \u2014 NOT started (the 2026-10-24/25 account-level 429 wall), resumable per PM-3",
+  "page_law": "book = pdf - 12 (4-way: TOC openers, printed '299' on PDF 311, graph leaves '305'/'306' on PDF 317/318, end leaf '308' on PDF 320); roman = pdf - 0 (ii-xiii = PDF 2-13); book page 1 does not exist; L-021 complete (INDEX 299 present)"
+}

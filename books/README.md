@@ -57,6 +57,7 @@ books/
 | Edexcel IAL Physics YPH11 **SB1** (Miles Hudson), 225 pp | `yph1_v1_…` | v1 **881** chunks | Parsed 2026-10-22 (T-PARSE-YPH11-1): first IAL lane, OCR route; page law book = pdf−11 (book page 1 absent from the PDF); 4 topics / 11 chapters; 260 display equations rescued by manual transcription (docling 2.33 blank-formula bug); validation green; polish R1 partial (1/404, quota-walled) |
 | Edexcel IAL Physics YPH11 **SB2** (Miles Hudson), 237 pp | `yph2_v1_…` | v1 **826** chunks | Parsed 2026-10-22 (T-PARSE-YPH11-1 SB2 delta lane): page law book = pdf−10 (no printed page 1); 7 topics / 13 chapters; intake archive copy was TRUNCATED — re-sourced + replaced (E-004, L-021/L-022); validators ALL CHECKS PASSED; 278 formula orphans logged for the manual-transcription rescue; polish R1 staged (794/826), quota-walled |
 | Edexcel IAL Chemistry YCH11 **SB1** (Curtis, Murgatroyd & Scott), 329 pp | `ych1_v1_…` | v1 **1571** chunks | Parsed 2026-10-24 (T-PARSE-YCH11-1): page law book = pdf−13 (no printed page 1); 2 units / 10 topics / 35 chapters; 291 blank formula regions + 4 fraction-mangled items recovered by verbatim manual transcription (295-record sidecar, 8 adjudicated slivers); validators ALL CHECKS PASSED; image-only periodic-table page + graph-paper end leaf registered as by-design gaps; polish R1 partial (48/800, quota-walled, resumable) |
+| Edexcel IAL Chemistry YCH12 **SB2** (Curtis, Murgatroyd & Scott), 320 pp | `ych2_v1_…` | v1 **1400** chunks | Parsed 2026-10-25 (T-PARSE-YCH12-1): page law book = pdf−12, roman = pdf−0 (i absent; no printed page 1); 2 units / 10 topics / 19 chapters (11A–20A); 315 blank formula regions exported, 133 verbatim-transcribed (127 fills + 6 adjudicated), 182 resumable; validator ALL CHECKS PASSED, byte-identity double-run verified; periodic-table page + FOUR graph-paper end leaves registered as by-design gaps; polish R1 staged (800/1400, quota-walled, not started) |
 
 ## 2. Read order (do not skip)
 
@@ -731,6 +732,20 @@ E-ID they correct)*
 ```
 
 ## 10. Change log
+
+- **2026-10-25 — v1.6 (T-PARSE-YCH12-1):** IAL chemistry SB2 (YCH12) lane
+  executed end-to-end per the operator directive "Restore polish R2, and if
+  not possible right now, then Open a new SB2 (YCH12) lane" (R2 quota-walled,
+  probe-verified; fetch-first confirmed no YCH12 lane/source on the live
+  remote): OCR route on the Acrobat Image Conversion print replica; page law
+  book = pdf−12 with roman = pdf−0 (i absent) — both DIFFERENT from SB1 and
+  probe-caught, not assumed; chapter-list-chip ≠ chapter-banner layout law;
+  315 blank formula regions exported, 133 verbatim-transcribed (182 resumable,
+  shipped partial like the YCH11 polish precedent); FOUR graph-paper end
+  leaves (books 305–308) as by-design gaps; corpus v1 1400 chunks (`ych2_v1_`)
+  validated ALL CHECKS PASSED, byte-identity double-run verified; polish R1
+  staged (800/1400, quota-walled, not started); ledgers CATALOG row 12 +
+  §3.6 + §4.2 queue updated.
 
 - **2026-10-24 — v1.5 (T-PARSE-YCH11-1):** first IAL chemistry lane executed
   end-to-end (SB1): OCR route on the Chromium/Skia print replica; page law
