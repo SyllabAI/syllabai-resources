@@ -90,6 +90,19 @@ preservation-grade snapshot of a stable source.
   calculus stations were already fully of record via lanes 5–7, so this lane imports new text only and
   records its cross-lane 1.8 mappings as facts pointing at `pure-1-differentiation/`).
 
+- **Lane 9 — `pure-3-algebra/`** (35 resources — the **first lane on the pure-3 course plane**, task
+  **`T-UGM-IMPORT-9`**). Sibling facts file:
+  `UGM-Enrichment/cie-a-level-maths-20-pure-3-algebra.json` (task **`T-UGM-MODE1-9`**).
+  Cross-map of record: `cross-map-algebra.json` in `SyllabAI/syllabai-experimental`
+  (CIE 9709 **Pure 3** 3.1 Algebra, 3.1.1–3.1.6 — the first lane beyond the completed Pure 1 spine;
+  candidate-model lane per the lane-8 law: 90 corpus-sweep candidates resolved as 47 aligned rows
+  (38 fresh rows over the 35 new-text resources here + 9 cross-lane joins riding lanes 2/6/7/8 bodies —
+  5 of them flips: r8427 from the lane-2 non-overlaps and r5245/r6295/r6340/r7477 from the lane-6
+  non-overlaps whose P3 bearings were recorded at lane 6) + 16 fresh non-overlaps recorded by reference
+  only (`bodyImported: false`) + 30 of-record candidates rejected with reasons — the integer-index
+  binomial pool stays 1.6.1 of record; 3.1.6 is the rational-index `|x| < 1` expansion, realising the
+  lane-6 P3 preview pool. Spine rows verbatim from the repaired hub parse (`T-SPECS-CIE-PARSE-REPAIR-1`).
+  Primary picks: absolutely / inequalities / whats-left / r6577 / r7792 / r7436).
 `UGM-Enrichment/` carries slugs/titles/types/levels/relations; this corpus adds
 the text bodies. `MANIFEST.json` is **v7 (multi-lane)** — one block per lane;
 lane-1/2/3/4/5/6 rows carried forward untouched from v6.
@@ -221,6 +234,13 @@ subtopic with no dedicated UGM station: the seven-station calculus family was al
 via lanes 5–7, so the directory carries only the 10 new-text resources whose tested skill is 1.8.x,
 while the 18 cross-lane alignments live as facts in the sibling enrichment with `textOfRecordUnder`
 pointers at `pure-1-differentiation/`. Station provenance stays first-class in front-matter.
+
+A **candidate-model lane** (lane 8's import law, applied to lane 9) sweeps corpus-wide against a spec
+subsection and imports only the fresh candidates whose tested skill is the subsection's: lane 9
+(CIE 9709 **Pure 3** 3.1 Algebra) imports 35 such resources into `pure-3-algebra/`, records its 9
+cross-lane 3.1 alignments as facts pointing at `pure-1-functions/`, `pure-1-series/`,
+`pure-1-differentiation/` and `pure-1-integration/`, and leaves the 16 fresh non-overlaps as
+`bodyImported: false` rows in the sibling enrichment — recorded, never imported, never forced.
 
 ---
 

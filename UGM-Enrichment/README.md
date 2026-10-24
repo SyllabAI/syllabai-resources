@@ -102,6 +102,20 @@ there. Nothing in this directory renders or embeds UGM content.
   P3/Mechanics, trapezium-rule resources with no spine home) and 31 rejected with reasons — recorded,
   never forced.
 
+- **Lane 9 (CIE 9709 Pure 3 3.1 Algebra)** — `cie-a-level-maths-20-pure-3-algebra.json`: the **first
+  lane on the pure-3 course plane** (course `cie-a-level-maths-20-pure-3`; spine rows 3.1.1–3.1.6 verbatim
+  from the repaired hub parse — `T-SPECS-CIE-PARSE-REPAIR-1` split official 2.1.1 into the 3.1.1/3.1.2
+  limbs and recovered bullets 2–5 as 3.1.3–3.1.6): 47 aligned rows (38 fresh rows over 35 new-text
+  resources — inequalities, r5276 and r6577 each carry two codes — plus 9 cross-lane fact joins to
+  already-of-record bodies under `pure-1-functions/`, `pure-1-series/`, `pure-1-differentiation/` and
+  `pure-1-integration/`; 5 joins flip standing non-overlaps of record — r8427 (lane 2) and
+  r5245/r6295/r6340/r7477 (lane 6, whose "P3 Series bearing" reasons predicted exactly this landing) —
+  4 add one-to-many rows beside standing alignments), 16 fresh non-overlaps **recorded by reference only**
+  (`bodyImported: false` — the lane-8 candidate-model law) with the modulus-vs-surd-squaring and
+  vector-norm boundaries argued per row, 30 of-record candidates rejected with reasons (the
+  positive-integer binomial pool stays 1.6.1 of record; 3.1.6 is the rational-index `|x| < 1` expansion),
+  primary picks absolutely / inequalities / whats-left / r6577 / r7792 / r7436 — recorded, never forced.
+
 ## Rights
 
 UGM content © University of Cambridge; sourced exam questions © UCLES.

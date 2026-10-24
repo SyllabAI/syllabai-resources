@@ -1,6 +1,6 @@
 {
  "manifest_version": 2,
- "version_note": "v8 (T-UGM-IMPORT-8, 2026-10-24): lane-8 block appended (pure-1-integration, 10 files — the strand lane closing the Pure 1 spine: 10 new-text calculus-family resources whose tested skill is 1.8.x, all mapped; UGM's dedicated calculus stations were already fully of record via lanes 5-7, and the 18 further 1.8 rows are cross-lane joins to pure-1-differentiation/ bodies recorded in the enrichment) — lane-1/2/3/4/5/6/7 rows carried forward untouched from v7 (469 files corpus-wide; 479 after this lane).; v9 (T-UGM-ASSETS-1, 2026-10-24): static-figure assets block appended — 976 files\nunder `UGM-Assets/` (37.7 MB, SHA-256 identity in `UGM-Assets/MANIFEST.json`) + the figure\nmap of record `UGM-Resources/figures-map.json` (1,233 figure occurrences across 275 resources,\nsection-anchored). Text bodies and lanes 1–8 rows are untouched by this task.",
+ "version_note": "v10 (T-UGM-IMPORT-9, 2026-10-25): lane-9 block appended (pure-3-algebra, 35 files — the FIRST LANE on the pure-3 course plane: CIE 9709 Pure 3 3.1 Algebra 3.1.1–3.1.6, candidate-model substrate corpus-wide; 47 aligned rows incl. 9 cross-lane by reference, 16 non-overlaps by reference with reasons; lanes 1–8 rows and the v9 assets block carried forward untouched; corpus fleet 479 → 514 files). v8 (T-UGM-IMPORT-8, 2026-10-24): lane-8 block appended (pure-1-integration, 10 files — the strand lane closing the Pure 1 spine: 10 new-text calculus-family resources whose tested skill is 1.8.x, all mapped; UGM's dedicated calculus stations were already fully of record via lanes 5-7, and the 18 further 1.8 rows are cross-lane joins to pure-1-differentiation/ bodies recorded in the enrichment) — lane-1/2/3/4/5/6/7 rows carried forward untouched from v7 (469 files corpus-wide; 479 after this lane).; v9 (T-UGM-ASSETS-1, 2026-10-24): static-figure assets block appended — 976 files\nunder `UGM-Assets/` (37.7 MB, SHA-256 identity in `UGM-Assets/MANIFEST.json`) + the figure\nmap of record `UGM-Resources/figures-map.json` (1,233 figure occurrences across 275 resources,\nsection-anchored). Text bodies and lanes 1–8 rows are untouched by this task.",
  "corpus": "UGM-Resources",
  "source": {
   "site": "undergroundmathematics.org",
@@ -10,8 +10,8 @@
   "capture_corpus": "syllabai-experimental undergroundmathematics/ @ 915bfa8c (P2 crawl + ugm-clean)",
   "import_law": "text-only: images/PDF/GeoGebra components are recorded as references, not fetched"
  },
- "built": "2026-10-24T12:48:49+06:00",
- "file_count": 479,
+ "built": "2026-10-25T01:37:17+06:00",
+ "file_count": 514,
  "lanes": [
   {
    "task": "T-UGM-IMPORT-1",
@@ -5680,6 +5680,449 @@
      "resource_type_label": "Food for thought",
      "spec_points": [
       "1.8.3"
+     ],
+     "captured": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "task": "T-UGM-IMPORT-9",
+   "lane_dir": "pure-3-algebra",
+   "sibling_domain": "UGM-Enrichment/ (facts-only spec enrichment; lane-9 file cie-a-level-maths-20-pure-3-algebra.json, task T-UGM-MODE1-9) — this corpus adds the text bodies under the 2026-10-23 operator attestation; FIRST LANE ON THE PURE-3 COURSE PLANE: candidate-model substrate (lane-8 shape) — 35 fresh 3.1-bearing resources corpus-wide imported as text of record, 16 non-overlaps by reference, 9 cross-lane 3.1 mappings by reference to lanes 2/6/7/8 bodies",
+   "capture_corpus": "syllabai-experimental undergroundmathematics/ @ 3098d8eb (P2 crawl + ugm-clean; cross-map lane 9 in the same commit)",
+   "cross_map_of_record": {
+    "file": "undergroundmathematics/resources/derived/cross-map-algebra.json @ 3098d8eb",
+    "pilot": "P3c algebra cross-map (generalisation lane 9, first pure-3 lane)",
+    "aligned": 47,
+    "resources": 35,
+    "alignmentRows": 47,
+    "nonOverlap": 16,
+    "crossLaneAligned": 9,
+    "routed": 30
+   },
+   "built": "2026-10-25T01:37:17+06:00",
+   "file_count": 35,
+   "files": [
+    {
+     "path": "pure-3-algebra/absolutely-absolutely.md",
+     "sha256": "9aba967247da6512b5a428c6e6fdd2ccddcd1981bc19472e6df66e3818521de6",
+     "ugm_id": "absolutely",
+     "title": "Absolutely!",
+     "url": "https://undergroundmathematics.org/thinking-about-functions/absolutely",
+     "resource_type_label": "Investigation",
+     "spec_points": [
+      "3.1.1"
+     ],
+     "captured": "2026-10-22"
+    },
+    {
+     "path": "pure-3-algebra/can-you-find-cubic-edition-can-you-find...-cubic-edition.md",
+     "sha256": "8671ca651a57409bbe283ff8edf627bdb30fffde1f0d42f4feed23609851de45",
+     "ugm_id": "can-you-find-cubic-edition",
+     "title": "Can you find... cubic edition",
+     "url": "https://undergroundmathematics.org/polynomials/can-you-find-cubic-edition",
+     "resource_type_label": "Many ways problem",
+     "spec_points": [
+      "3.1.4"
+     ],
+     "captured": "2026-10-22"
+    },
+    {
+     "path": "pure-3-algebra/frightening-function-frightening-function.md",
+     "sha256": "4d47c864e6c433a8e8775b4a44815334c3ea93190a1b1f7315ca802f3b94c940",
+     "ugm_id": "frightening-function",
+     "title": "Frightening function",
+     "url": "https://undergroundmathematics.org/polynomials/frightening-function",
+     "resource_type_label": "Food for thought",
+     "spec_points": [
+      "3.1.5"
+     ],
+     "captured": "2026-10-22"
+    },
+    {
+     "path": "pure-3-algebra/from-parabolas-to-catenaries-from-parabolas-to-catenaries.md",
+     "sha256": "96e5c5a9c7a9711a5979b6299b9e4c8a0cf57772eb14e3df6a1584a36cc7e204",
+     "ugm_id": "from-parabolas-to-catenaries",
+     "title": "From parabolas to catenaries",
+     "url": "https://undergroundmathematics.org/hyperbolic-functions/from-parabolas-to-catenaries",
+     "resource_type_label": "Package of problems",
+     "spec_points": [
+      "3.1.6"
+     ],
+     "captured": "2026-10-22"
+    },
+    {
+     "path": "pure-3-algebra/function-builder-ii-function-builder-ii.md",
+     "sha256": "03c0e88a90bdbc90b939b42fd88b780ff575c061444168cf1ea8ab2e10007a01",
+     "ugm_id": "function-builder-ii",
+     "title": "Function builder II",
+     "url": "https://undergroundmathematics.org/polynomials/function-builder-ii",
+     "resource_type_label": "Building blocks",
+     "spec_points": [
+      "3.1.3"
+     ],
+     "captured": "2026-10-22"
+    },
+    {
+     "path": "pure-3-algebra/how-not-to-solve-a-cubic-how-not-to-solve-a-cubic....md",
+     "sha256": "8a88695ee041efb87f750459ebb655c7ea1934588823ddaa0c76c7186fcf586e",
+     "ugm_id": "how-not-to-solve-a-cubic",
+     "title": "How not to solve a cubic...",
+     "url": "https://undergroundmathematics.org/polynomials/how-not-to-solve-a-cubic",
+     "resource_type_label": "Food for thought",
+     "spec_points": [
+      "3.1.4"
+     ],
+     "captured": "2026-10-22"
+    },
+    {
+     "path": "pure-3-algebra/inequalities-inequality-sets.md",
+     "sha256": "8e907a6cb330455f14ebd471cc2248a6b1f63b0289c523332b04342acb4b3cee",
+     "ugm_id": "inequalities",
+     "title": "Inequality sets",
+     "url": "https://undergroundmathematics.org/polynomials/inequalities",
+     "resource_type_label": "Many ways problem",
+     "spec_points": [
+      "3.1.1",
+      "3.1.2"
+     ],
+     "captured": "2026-10-22"
+    },
+    {
+     "path": "pure-3-algebra/piece-it-together-piece-it-together.md",
+     "sha256": "db48816630a8c4304b496e8940a4b6fcc8cb400dc612a2c8cd360b7e1488676e",
+     "ugm_id": "piece-it-together",
+     "title": "Piece it together",
+     "url": "https://undergroundmathematics.org/thinking-about-functions/piece-it-together",
+     "resource_type_label": "Problem requiring decisions",
+     "spec_points": [
+      "3.1.1"
+     ],
+     "captured": "2026-10-22"
+    },
+    {
+     "path": "pure-3-algebra/r5032-can-we-prove-that-26n-always-ends-in-the-same-two-digits.md",
+     "sha256": "9132bf6e7581e3dc3320d9ce2bb644e9d42b6c59a8ce2e41821fabb80d5e1ed5",
+     "ugm_id": "r5032",
+     "title": "Can we prove that $26^n$ always ends in the same two digits?",
+     "url": "https://undergroundmathematics.org/polynomials/r5032",
+     "resource_type_label": "Review question",
+     "spec_points": [
+      "3.1.4"
+     ],
+     "captured": "2026-10-22"
+    },
+    {
+     "path": "pure-3-algebra/r5126-can-we-find-all-three-integrals.md",
+     "sha256": "db7900cf7ea0adc244aef2f2b68a2a5e56e9b2a90d39c5258bdfa6b62b9a0dac",
+     "ugm_id": "r5126",
+     "title": "Can we find all three integrals?",
+     "url": "https://undergroundmathematics.org/product-rule/r5126",
+     "resource_type_label": "Review question",
+     "spec_points": [
+      "3.1.5"
+     ],
+     "captured": "2026-10-22"
+    },
+    {
+     "path": "pure-3-algebra/r5196-if-this-cubic-has-two-equal-roots-what-can-p-be.md",
+     "sha256": "bdb1eb5b35ac14dde24549944cff5377228402f339dcde731c528cdfd59c3ce2",
+     "ugm_id": "r5196",
+     "title": "If this cubic has two equal roots, what can $p$ be?",
+     "url": "https://undergroundmathematics.org/product-rule/r5196",
+     "resource_type_label": "Review question",
+     "spec_points": [
+      "3.1.4"
+     ],
+     "captured": "2026-10-22"
+    },
+    {
+     "path": "pure-3-algebra/r5248-given-three-remainders-what-is-the-function.md",
+     "sha256": "38ce825a8b0cc98913f992aaa9e56f477a3aa4a6e55bd18f26899e76b927dc2b",
+     "ugm_id": "r5248",
+     "title": "Given three remainders, what is the function?",
+     "url": "https://undergroundmathematics.org/polynomials/r5248",
+     "resource_type_label": "Review question",
+     "spec_points": [
+      "3.1.4"
+     ],
+     "captured": "2026-10-22"
+    },
+    {
+     "path": "pure-3-algebra/r5276-what-is-the-remainder-when-p_n-x-is-divided-by-p_{n-1}-x.md",
+     "sha256": "2609305cb6bc7129f7a550151bfa4ef1931fd96fc6024f33a831e6fb57d09e2b",
+     "ugm_id": "r5276",
+     "title": "What is the remainder when $p_n (x)$ is divided by $p_{n-1} (x)$?",
+     "url": "https://undergroundmathematics.org/polynomials/r5276",
+     "resource_type_label": "Review question",
+     "spec_points": [
+      "3.1.3",
+      "3.1.4"
+     ],
+     "captured": "2026-10-22"
+    },
+    {
+     "path": "pure-3-algebra/r6299-can-we-sketch-the-reciprocal-of-a-polynomial.md",
+     "sha256": "bec2c007bfacc5b8e112f7455b24750b146fcc31cd72ccb3cdcf4a179ea115f1",
+     "ugm_id": "r6299",
+     "title": "Can we sketch the reciprocal of a polynomial?",
+     "url": "https://undergroundmathematics.org/polynomials/r6299",
+     "resource_type_label": "Review question",
+     "spec_points": [
+      "3.1.4"
+     ],
+     "captured": "2026-10-22"
+    },
+    {
+     "path": "pure-3-algebra/r6317-can-we-sketch-the-graph-of-y-4x-1-x5.md",
+     "sha256": "8701777bebbd3136604186a08d504aebbb28d78df09f8d7f7ad164ea8d6800c9",
+     "ugm_id": "r6317",
+     "title": "Can we sketch the graph of $y = (4x-1)/(x+5)$?",
+     "url": "https://undergroundmathematics.org/polynomials/r6317",
+     "resource_type_label": "Review question",
+     "spec_points": [
+      "3.1.3"
+     ],
+     "captured": "2026-10-22"
+    },
+    {
+     "path": "pure-3-algebra/r6431-can-we-solve-sqrt{4x13}-sqrt{x1}sqrt{12-x}.md",
+     "sha256": "2798995aa57438b1424f658a77bcb891444d598770d44f5c0a714fc972df07d2",
+     "ugm_id": "r6431",
+     "title": "Can we solve  $\\sqrt{4x+13}-\\sqrt{x+1}=\\sqrt{12-x}?$",
+     "url": "https://undergroundmathematics.org/polynomials/r6431",
+     "resource_type_label": "Review question",
+     "spec_points": [
+      "3.1.4"
+     ],
+     "captured": "2026-10-22"
+    },
+    {
+     "path": "pure-3-algebra/r6488-if-dividing-by-xa-or-x-2a-gives-the-same-remainder-whats-a.md",
+     "sha256": "e43c444bd8079f43c6c939226363ead55cfdecf2e8139a6762a3b0771877051e",
+     "ugm_id": "r6488",
+     "title": "If dividing by $x+a$ or $x-2a$ gives the same remainder, what's $a$?",
+     "url": "https://undergroundmathematics.org/polynomials/r6488",
+     "resource_type_label": "Review question",
+     "spec_points": [
+      "3.1.4"
+     ],
+     "captured": "2026-10-22"
+    },
+    {
+     "path": "pure-3-algebra/r6546-can-we-prove-the-arithmetic-and-geometric-mean-inequality.md",
+     "sha256": "865e5866676ac4e8e2c5d8ac0c9748827a86165c45eebc688d00b1eae24041d1",
+     "ugm_id": "r6546",
+     "title": "Can we prove the Arithmetic and Geometric Mean Inequality?",
+     "url": "https://undergroundmathematics.org/polynomials/r6546",
+     "resource_type_label": "Review question",
+     "spec_points": [
+      "3.1.4"
+     ],
+     "captured": "2026-10-22"
+    },
+    {
+     "path": "pure-3-algebra/r6577-can-we-factorise-6x35x2-17x-6-completely.md",
+     "sha256": "89a98b7185b696a11b5caec9e2b7c33c563638bc4b40adb3e9bbf949531ce20f",
+     "ugm_id": "r6577",
+     "title": "Can we factorise $6x^3+5x^2-17x-6$ completely?",
+     "url": "https://undergroundmathematics.org/polynomials/r6577",
+     "resource_type_label": "Review question",
+     "spec_points": [
+      "3.1.3",
+      "3.1.4"
+     ],
+     "captured": "2026-10-22"
+    },
+    {
+     "path": "pure-3-algebra/r6601-what-is-this-algebraic-fraction-if-its-expansion-has-no-x-term.md",
+     "sha256": "5207eed3954a61b20eb0c615ad8642173265a264336d7b388e27a2f9f41f44e1",
+     "ugm_id": "r6601",
+     "title": "What is this algebraic fraction if its expansion has no $x$ term?",
+     "url": "https://undergroundmathematics.org/power-series/r6601",
+     "resource_type_label": "Review question",
+     "spec_points": [
+      "3.1.6"
+     ],
+     "captured": "2026-10-22"
+    },
+    {
+     "path": "pure-3-algebra/r6612-can-we-sketch-the-graph-yx3-x2-x1.md",
+     "sha256": "a800655ab1f0f75a8d05d7282c84d23073e3cf96047e477e7b6cf3646d1bf452",
+     "ugm_id": "r6612",
+     "title": "Can we sketch the graph $y=x^3-x^2-x+1$?",
+     "url": "https://undergroundmathematics.org/polynomials/r6612",
+     "resource_type_label": "Review question",
+     "spec_points": [
+      "3.1.4"
+     ],
+     "captured": "2026-10-22"
+    },
+    {
+     "path": "pure-3-algebra/r6790-if-we-divide-by-x-1-the-remainder-is.md",
+     "sha256": "28421638f204f9f6ad3eabd8faea6a8c60f926a5037e8832ded141253c04ff8d",
+     "ugm_id": "r6790",
+     "title": "If we divide by $x-1$, the remainder is?",
+     "url": "https://undergroundmathematics.org/polynomials/r6790",
+     "resource_type_label": "Review question",
+     "spec_points": [
+      "3.1.4"
+     ],
+     "captured": "2026-10-22"
+    },
+    {
+     "path": "pure-3-algebra/r7036-when-is-n2-x{2n3}-25n-x{n1}-150x7-divisible-by-x2-1.md",
+     "sha256": "b19c12bc6ffc087a84efa64a2277a45ce7db02aa1e7e21f0fcd27f9c49436f8d",
+     "ugm_id": "r7036",
+     "title": "When is $n^2 x^{2n+3} - 25n x^{n+1} + 150x^7$ divisible by $x^2-1$?",
+     "url": "https://undergroundmathematics.org/polynomials/r7036",
+     "resource_type_label": "Review question",
+     "spec_points": [
+      "3.1.4"
+     ],
+     "captured": "2026-10-22"
+    },
+    {
+     "path": "pure-3-algebra/r7108-when-is-xn-1-divisible-by-x-1.md",
+     "sha256": "e7adc16cb37cd76df28da24a980846f11a9571a4cd5f8ca74bac5d574e48cb01",
+     "ugm_id": "r7108",
+     "title": "When is  $x^n + 1$ divisible by $x + 1$?",
+     "url": "https://undergroundmathematics.org/polynomials/r7108",
+     "resource_type_label": "Review question",
+     "spec_points": [
+      "3.1.4"
+     ],
+     "captured": "2026-10-22"
+    },
+    {
+     "path": "pure-3-algebra/r7243-when-is-x2-1-a-factor-of-3x4n-x23nx2-1n.md",
+     "sha256": "0d5e35e4b5c6ce446468fecb2de48e0f76af838aa85e2b2f81f3979caca321cc",
+     "ugm_id": "r7243",
+     "title": "When is $x^2 +1$ a factor of  $(3+x^4)^n-(x^2+3)^n(x^2-1)^n$?",
+     "url": "https://undergroundmathematics.org/polynomials/r7243",
+     "resource_type_label": "Review question",
+     "spec_points": [
+      "3.1.4"
+     ],
+     "captured": "2026-10-22"
+    },
+    {
+     "path": "pure-3-algebra/r7436-can-we-expand-1x{3-2}-1-2x{3-4}-as-far-as-the-term-in-x3.md",
+     "sha256": "c00ffc72d2e77093c4fc3a263483060a53e7764561890809c6d83374c435d1eb",
+     "ugm_id": "r7436",
+     "title": "Can we expand $(1+x)^{3/2} + (1-2x)^{3/4}$ as far as the term in $x^3$?",
+     "url": "https://undergroundmathematics.org/power-series/r7436",
+     "resource_type_label": "Review question",
+     "spec_points": [
+      "3.1.6"
+     ],
+     "captured": "2026-10-22"
+    },
+    {
+     "path": "pure-3-algebra/r7792-how-many-real-roots-does-x-1x2x33x-have.md",
+     "sha256": "b859426c00d90a08edfb5c3f755da91958174cade8a1ba713f5cbce9fbaf5e31",
+     "ugm_id": "r7792",
+     "title": "How many real roots does $(x-1)(x+2)(x+3)=3x$ have?",
+     "url": "https://undergroundmathematics.org/chain-rule/r7792",
+     "resource_type_label": "Review question",
+     "spec_points": [
+      "3.1.5"
+     ],
+     "captured": "2026-10-22"
+    },
+    {
+     "path": "pure-3-algebra/r7991-can-we-factorise-a3b-cb3c-ac3a-b.md",
+     "sha256": "55188da8df3319a5d05d2268565590c6c4a10bfef2cb06c6f4db0b04e1f2f9f5",
+     "ugm_id": "r7991",
+     "title": "Can we factorise $a^3(b-c)+b^3(c-a)+c^3(a-b)$?",
+     "url": "https://undergroundmathematics.org/polynomials/r7991",
+     "resource_type_label": "Review question",
+     "spec_points": [
+      "3.1.4"
+     ],
+     "captured": "2026-10-22"
+    },
+    {
+     "path": "pure-3-algebra/r8152-what-is-the-average-density-of-this-spherical-planet.md",
+     "sha256": "9adcb8870ea818278042e5d29134aac5ef211922ac3a1b57399b7c0cd2c492aa",
+     "ugm_id": "r8152",
+     "title": "What is the average density of this spherical planet?",
+     "url": "https://undergroundmathematics.org/product-rule/r8152",
+     "resource_type_label": "Review question",
+     "spec_points": [
+      "3.1.5"
+     ],
+     "captured": "2026-10-22"
+    },
+    {
+     "path": "pure-3-algebra/r8468-if-two-remainders-are-related-can-we-find-a.md",
+     "sha256": "d139361772f7eacaa05300144f054096a78c315fdf11e801e732ed9b3da0185c",
+     "ugm_id": "r8468",
+     "title": "If two remainders are related can we find $a$?",
+     "url": "https://undergroundmathematics.org/polynomials/r8468",
+     "resource_type_label": "Review question",
+     "spec_points": [
+      "3.1.4"
+     ],
+     "captured": "2026-10-22"
+    },
+    {
+     "path": "pure-3-algebra/r8694-how-could-we-integrate-tan3-theta.md",
+     "sha256": "1fad74aef2664b269c2f59e0c71ca13a0bd840c09154d19a2f56c47f68d2f26c",
+     "ugm_id": "r8694",
+     "title": "How could we integrate $\\tan^3 \\theta$?",
+     "url": "https://undergroundmathematics.org/chain-rule/r8694",
+     "resource_type_label": "Review question",
+     "spec_points": [
+      "3.1.5"
+     ],
+     "captured": "2026-10-22"
+    },
+    {
+     "path": "pure-3-algebra/r8701-what-if-the-remainder-when-we-divide-by-x-k-is-k.md",
+     "sha256": "49c2d091fa97e05a189864ebccad93de13477f7b853a7d0449a9c252cd60745b",
+     "ugm_id": "r8701",
+     "title": "What if the remainder when we divide by $x-k$ is $k$?",
+     "url": "https://undergroundmathematics.org/polynomials/r8701",
+     "resource_type_label": "Review question",
+     "spec_points": [
+      "3.1.4"
+     ],
+     "captured": "2026-10-22"
+    },
+    {
+     "path": "pure-3-algebra/r9006-what-kind-of-roots-does-x3-30x2-108x-104-0-have.md",
+     "sha256": "fb75b8e8e21cbcbdf335fdbafb1245e8936e2fcdc442bced5280e333f0d3ea48",
+     "ugm_id": "r9006",
+     "title": "What kind of roots does $x^3 - 30x^2 + 108x - 104 = 0$ have?",
+     "url": "https://undergroundmathematics.org/polynomials/r9006",
+     "resource_type_label": "Review question",
+     "spec_points": [
+      "3.1.4"
+     ],
+     "captured": "2026-10-22"
+    },
+    {
+     "path": "pure-3-algebra/r9330-can-we-find-the-coefficients-and-factorise-this-quartic.md",
+     "sha256": "eeca1cdc3eecd7298412e267a5cf187784b78904ed78b7a52ab2405bd977c4b1",
+     "ugm_id": "r9330",
+     "title": "Can we find the coefficients and factorise this quartic?",
+     "url": "https://undergroundmathematics.org/polynomials/r9330",
+     "resource_type_label": "Review question",
+     "spec_points": [
+      "3.1.4"
+     ],
+     "captured": "2026-10-22"
+    },
+    {
+     "path": "pure-3-algebra/whats-left-whats-left.md",
+     "sha256": "a1b6dfe862eefc7b43e9215be85a9d13dbbfb1fa9290d5c815f2e8ffee9746d5",
+     "ugm_id": "whats-left",
+     "title": "What's left?",
+     "url": "https://undergroundmathematics.org/polynomials/whats-left",
+     "resource_type_label": "Package of problems",
+     "spec_points": [
+      "3.1.3"
      ],
      "captured": "2026-10-22"
     }
