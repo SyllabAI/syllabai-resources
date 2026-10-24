@@ -1,0 +1,256 @@
+# CHEMISTRY_4CH1 — SIB v1 subject manifest
+# Generated against the 95-artifact taxonomy of record (SyllabAI/syllabai tools/sib/taxonomy.py @ aa32db1413ea).
+# Applicability per SUBJECT_INTELLIGENCE_BUILD_V1.md §3/§6: the taxonomy is universal,
+# applicability is subject-specific. Statuses are left empty until artifacts exist
+# (the validator rejects landing artifacts that self-declare past GENERATED).
+sib_protocol: SIB-1.0
+manifest_version: "1.0"
+subject: Chemistry
+qualification: International GCSE
+specification: 4CH1
+curriculum_version: "2017"
+notebook: 4CH1-SIB-NOTEBOOK-001 (provisioned at generation time per docs/PIPELINE.md §3)
+source_manifest: source_manifest.yaml
+artifacts:
+  - artifact_id: CUR-01
+    applicability: REQUIRED
+  - artifact_id: CUR-02
+    applicability: REQUIRED
+  - artifact_id: CUR-03
+    applicability: REQUIRED
+  - artifact_id: CUR-04
+    applicability: REQUIRED
+  - artifact_id: CUR-05
+    applicability: REQUIRED
+  - artifact_id: CUR-06
+    applicability: REQUIRED
+  - artifact_id: CUR-07
+    applicability: REQUIRED
+  - artifact_id: CUR-08
+    applicability: REQUIRED
+  - artifact_id: EXP-01
+    applicability: REQUIRED
+  - artifact_id: EXP-02
+    applicability: REQUIRED
+  - artifact_id: EXP-03
+    applicability: REQUIRED
+  - artifact_id: EXP-04
+    applicability: REQUIRED
+  - artifact_id: EXP-05
+    applicability: REQUIRED
+  - artifact_id: EXP-06
+    applicability: REQUIRED
+  - artifact_id: EXP-07
+    applicability: REQUIRED
+  - artifact_id: EXP-08
+    applicability: REQUIRED
+  - artifact_id: MIS-01
+    applicability: REQUIRED
+  - artifact_id: MIS-02
+    applicability: REQUIRED
+  - artifact_id: MIS-03
+    applicability: REQUIRED
+  - artifact_id: MIS-04
+    applicability: REQUIRED
+  - artifact_id: MIS-05
+    applicability: REQUIRED
+  - artifact_id: MIS-06
+    applicability: REQUIRED
+  - artifact_id: MIS-07
+    applicability: REQUIRED
+  - artifact_id: MIS-08
+    applicability: REQUIRED
+  - artifact_id: MIS-09
+    applicability: REQUIRED
+  - artifact_id: ASM-01
+    applicability: REQUIRED
+    notes: 'grounded on the 54-paper official corpus (source_manifest SRC-QPMS-4CH1)'
+  - artifact_id: ASM-02
+    applicability: REQUIRED
+  - artifact_id: ASM-03
+    applicability: REQUIRED
+  - artifact_id: ASM-04
+    applicability: REQUIRED
+  - artifact_id: ASM-05
+    applicability: REQUIRED
+  - artifact_id: ASM-06
+    applicability: REQUIRED
+  - artifact_id: ASM-07
+    applicability: REQUIRED
+  - artifact_id: ASM-08
+    applicability: REQUIRED
+  - artifact_id: ASM-09
+    applicability: REQUIRED
+  - artifact_id: ASM-10
+    applicability: REQUIRED
+  - artifact_id: MS-01
+    applicability: REQUIRED
+    notes: 'grounded on the same 54-paper corpus mark schemes of record'
+  - artifact_id: MS-02
+    applicability: REQUIRED
+  - artifact_id: MS-03
+    applicability: REQUIRED
+  - artifact_id: MS-04
+    applicability: REQUIRED
+  - artifact_id: MS-05
+    applicability: REQUIRED
+  - artifact_id: MS-06
+    applicability: REQUIRED
+  - artifact_id: MS-07
+    applicability: REQUIRED
+  - artifact_id: MS-08
+    applicability: REQUIRED
+  - artifact_id: EXM-01
+    applicability: REQUIRED
+    notes: 'primary evidence = official examiner reports; none in corpus yet (source_manifest GAP-SRC-001) — QA cannot pass without acquired reports'
+  - artifact_id: EXM-02
+    applicability: REQUIRED
+    notes: 'primary evidence = official examiner reports; none in corpus yet (source_manifest GAP-SRC-001) — QA cannot pass without acquired reports'
+  - artifact_id: EXM-03
+    applicability: REQUIRED
+    notes: 'primary evidence = official examiner reports; none in corpus yet (source_manifest GAP-SRC-001) — QA cannot pass without acquired reports'
+  - artifact_id: EXM-04
+    applicability: REQUIRED
+    notes: 'primary evidence = official examiner reports; none in corpus yet (source_manifest GAP-SRC-001) — QA cannot pass without acquired reports'
+  - artifact_id: EXM-05
+    applicability: REQUIRED
+    notes: 'primary evidence = official examiner reports; none in corpus yet (source_manifest GAP-SRC-001) — QA cannot pass without acquired reports'
+  - artifact_id: EXM-06
+    applicability: REQUIRED
+  - artifact_id: PED-01
+    applicability: REQUIRED
+  - artifact_id: PED-02
+    applicability: REQUIRED
+  - artifact_id: PED-03
+    applicability: REQUIRED
+  - artifact_id: PED-04
+    applicability: REQUIRED
+  - artifact_id: PED-05
+    applicability: REQUIRED
+  - artifact_id: PED-06
+    applicability: REQUIRED
+  - artifact_id: PED-07
+    applicability: REQUIRED
+  - artifact_id: PED-08
+    applicability: REQUIRED
+  - artifact_id: PED-09
+    applicability: REQUIRED
+  - artifact_id: PRA-01
+    applicability: REQUIRED
+  - artifact_id: PRA-02
+    applicability: REQUIRED
+  - artifact_id: PRA-03
+    applicability: REQUIRED
+    notes: 'REQUIRED for 4CH1: the spec names 12 Core Practicals (graph/igcse-chemistry/practicals.yaml is the validated registry)'
+  - artifact_id: PRA-04
+    applicability: REQUIRED
+  - artifact_id: PRA-05
+    applicability: REQUIRED
+  - artifact_id: PRO-01
+    applicability: REQUIRED
+  - artifact_id: PRO-02
+    applicability: REQUIRED
+  - artifact_id: PRO-03
+    applicability: REQUIRED
+  - artifact_id: PRO-04
+    applicability: REQUIRED
+  - artifact_id: PRO-05
+    applicability: REQUIRED
+  - artifact_id: PRO-06
+    applicability: REQUIRED
+  - artifact_id: PRO-07
+    applicability: REQUIRED
+  - artifact_id: HIS-01
+    applicability: OPTIONAL
+    notes: '4CH0 legacy corpus absent from all repos (source_manifest GAP-SRC-002); enable when legacy evidence is acquired'
+  - artifact_id: HIS-02
+    applicability: OPTIONAL
+    notes: '4CH0 legacy corpus absent from all repos (source_manifest GAP-SRC-002); enable when legacy evidence is acquired'
+  - artifact_id: HIS-03
+    applicability: OPTIONAL
+    notes: '4CH0 legacy corpus absent from all repos (source_manifest GAP-SRC-002); enable when legacy evidence is acquired'
+  - artifact_id: HIS-04
+    applicability: OPTIONAL
+    notes: '4CH0 legacy corpus absent from all repos (source_manifest GAP-SRC-002); enable when legacy evidence is acquired'
+  - artifact_id: HIS-05
+    applicability: OPTIONAL
+    notes: '4CH0 legacy corpus absent from all repos (source_manifest GAP-SRC-002); enable when legacy evidence is acquired'
+  - artifact_id: HIS-06
+    applicability: OPTIONAL
+    notes: '4CH0 legacy corpus absent from all repos (source_manifest GAP-SRC-002); enable when legacy evidence is acquired'
+  - artifact_id: HIS-07
+    applicability: OPTIONAL
+    notes: '4CH0 legacy corpus absent from all repos (source_manifest GAP-SRC-002); enable when legacy evidence is acquired'
+  - artifact_id: TUT-01
+    applicability: REQUIRED
+  - artifact_id: TUT-02
+    applicability: REQUIRED
+  - artifact_id: TUT-03
+    applicability: REQUIRED
+  - artifact_id: TUT-04
+    applicability: REQUIRED
+  - artifact_id: TUT-05
+    applicability: REQUIRED
+  - artifact_id: TUT-06
+    applicability: REQUIRED
+  - artifact_id: TUT-07
+    applicability: REQUIRED
+  - artifact_id: TUT-08
+    applicability: REQUIRED
+  - artifact_id: TUT-09
+    applicability: REQUIRED
+  - artifact_id: TUT-10
+    applicability: REQUIRED
+  - artifact_id: GAP-01
+    applicability: REQUIRED
+  - artifact_id: GAP-02
+    applicability: REQUIRED
+  - artifact_id: GAP-03
+    applicability: REQUIRED
+  - artifact_id: GAP-04
+    applicability: REQUIRED
+  - artifact_id: GAP-05
+    applicability: REQUIRED
+  - artifact_id: GAP-06
+    applicability: REQUIRED
+  - artifact_id: GAP-07
+    applicability: REQUIRED
+  - artifact_id: GAP-08
+    applicability: REQUIRED
+source_gaps:
+  - id: GAP-SRC-001
+    description: >-
+      Official examiner reports for 4CH1 sessions are absent from every SyllabAI repo
+      (sweep 2026-10-25: syllabai-resources full 82,234-path tree, syllabai-pastpapers,
+      syllabai-experimental, syllabai-parser — zero examiner-report artifacts). Highest-value
+      acquisition target; feeds MIS/MS/EXM/PED/TUT families. Do not synthesize examiner
+      sentiment from mark schemes alone.
+  - id: GAP-SRC-002
+    description: >-
+      Legacy 4CH0 specification / papers / books absent (zero path hits repo-wide). The HIS
+      family is OPTIONAL until a legacy corpus is acquired; legacy material must stay
+      explicitly labeled LEGACY — HISTORICAL per protocol §2.
+  - id: GAP-SRC-003
+    description: >-
+      No standalone official periodic-table / data-sheet artifact. Evidence exists embedded:
+      spec PDF (58 pp, Issue 3) and the student book's PERIODIC TABLE back-matter page; exam
+      assets carry per-question periodic-table extracts. A standalone reference intake is
+      optional, not blocking.
+  - id: GAP-SRC-004
+    description: >-
+      Official teaching guide / scheme of work absent. Topic sequencing evidence currently
+      limited to the student book chapter order and the validated CourseLessons spine.
+backlog:
+  - id: BL-001
+    description: Acquire official 4CH1 examiner reports for available sessions (GAP-SRC-001);
+      record session coverage + provenance in source_manifest.yaml on arrival.
+  - id: BL-002
+    description: Acquire 4CH0 legacy corpus (spec + representative papers) for the HIS family
+      (GAP-SRC-002); classify LEGACY — HISTORICAL.
+  - id: BL-003
+    description: Provision NotebookLM notebook 4CH1-SIB-NOTEBOOK-001 and upload the
+      CURRENT — AUTHORITATIVE / CURRENT — ASSESSMENT EVIDENCE sources; label legacy vs current
+      inside the notebook per protocol §2.
+  - id: BL-004
+    description: First artifact wave = CUR-01..CUR-08 (generation order pass 2, protocol §4),
+      grounded on SRC-SPEC-4CH1 + SRC-GRAPH-4CH1 + SRC-BOOK-4CH1-SB1.

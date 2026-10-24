@@ -1,0 +1,303 @@
+# CHEMISTRY_4CH1 — SIB v1 source manifest (v1.0)
+# Built 2026-10-25 from a full read-only inventory of the SyllabAI repos.
+# Law (SOURCE_REQUIREMENTS_4CH1.md §4): source files stay in their canonical
+# repositories; this manifest POINTS at them with stable identifiers, repository
+# paths, versions, session metadata and checksums where available. Nothing is
+# duplicated into this library for its own sake.
+#
+# Classification vocabulary (requirements §4):
+#   CURRENT — AUTHORITATIVE | CURRENT — ASSESSMENT EVIDENCE | SUPPLEMENTARY |
+#   LEGACY — HISTORICAL | RESEARCH / INFERRED
+#
+# Identifier law: `tree_sha` / `blob_sha` are git object ids pinned at
+# syllabai-resources @ f42033e01de382f8962af4944df10655c21baf9a (verifiable with
+# `git cat-file`); of-record sha256/sha1 values are quoted from the repo's own
+# ledgers (books/CATALOG.md, Official-Specifications/igcse-chemistry/spec.json).
+
+manifest_version: "1.0"
+subject: Chemistry
+specification: 4CH1
+qualification: International GCSE
+curriculum_version: "2017"
+inventoried_at: "2026-10-25"
+inventory_basis:
+  repos_swept:
+    - SyllabAI/syllabai-resources (full 82,234-path tree @ f42033e0, API-truncation-proof via local git ls-tree)
+    - SyllabAI/syllabai-pastpapers (tree sweep)
+    - SyllabAI/syllabai-experimental (tree sweep)
+    - SyllabAI/syllabai-parser (tree sweep)
+  census_method: path census + ledger cross-read (books/CATALOG.md, Official-Specifications spec.json, LICENSE-DATA.md)
+
+sources:
+
+  # ------------------------------------------------------------- 1. specification
+  - id: SRC-SPEC-4CH1
+    title: Pearson Edexcel International GCSE Chemistry (2017) Specification, Issue 3
+    classification: CURRENT — AUTHORITATIVE
+    type: official specification PDF + canonical parse
+    issuer: Pearson Education Ltd (Edexcel)
+    specification: 4CH1 (also covers shared 4SD0 / 4XCH1 statements)
+    version: Issue 3, first teaching 2017, first exams 2019
+    paths:
+      - syllabai-resources@Official-Specifications/igcse-chemistry/international-gcse-chemistry-2017-specification.pdf
+      - syllabai-resources@Official-Specifications/igcse-chemistry/spec.json   (parse provenance record)
+      - syllabai-resources@international-gcse-chemistry-2017-specification.pdf (root intake copy, same artifact)
+    identifiers:
+      blob_sha_root_copy: 133e5f50edcaccb26aabd807ed3ff22bb0c2fb45
+      sha1_of_record: 3ad641b7c60b314fa3b10680feda30bf56280a53
+      bytes: 1724747
+      pages: 58
+    coverage: all 4CH1 statements incl. Core Practicals, command words, assessment objectives
+    provenance: official Pearson download URL recorded in spec.json (source_url field, Issue 3 revalidated)
+    limitations: single-issue snapshot; future issue changes require a re-intake + registry re-pin
+    feeds_families: [CUR, EXP, ASM, PRA, PRO, HIS]
+
+  # ------------------------------------------------------------- 2. student book
+  - id: SRC-BOOK-4CH1-SB1
+    title: Edexcel International GCSE (9-1) Chemistry Student Book (the books plane of record)
+    classification: CURRENT — AUTHORITATIVE
+    type: student book (scan) + validated parse + served spine
+    issuer: Pearson Education Ltd
+    specification: 4CH1
+    version: parse v3 (2026-10-18), doc build e6c0db50… (2026-10-20, 29 chapters), CATALOG row 1
+    paths:
+      - syllabai-resources@books/pearson-edexcel/international-gcse/chemistry/4ch1/
+      - ledger: syllabai-resources@books/CATALOG.md (row 1 + §3.1)
+    identifiers:
+      tree_sha: 5fad9de78e19de4e0069b9b1063d12f2534eb135
+      sha256_of_record_student_book_pdf: d48020e0cc0b5545b330bb59b242472198210e424525e4381cd5d2a58a58cc04
+      bytes: 54298792
+      pages: 383
+    coverage: full book text/chunks (v3, 1,234 chunks), 29-chapter spine, VALIDATED, card+shelf live in v2 hub
+    provenance: books-plane intake law (books/README.md, books/pearson-edexcel/PARSE_STANDARD.md); OCR route for image-only scan
+    limitations: image-only scan origin — formulas/figures carry parse-era rescue disclosures; use v3 chunks, not re-OCR
+    feeds_families: [EXP, CUR, PED, PRA, TUT]
+
+  # ------------------------------------------------------------- 3. official QP/MS corpus
+  - id: SRC-QPMS-4CH1
+    title: Official 4CH1 question papers + mark schemes (the exam corpus of record)
+    classification: CURRENT — ASSESSMENT EVIDENCE
+    type: per-series QP/MS bundles (markdown transcriptions + figure assets)
+    issuer: Pearson Education Ltd (Edexcel)
+    specification: 4CH1
+    version: 16 sessions 2019-06 → 2026-06; 54 papers (1C ×16, 2C ×16, 1CR ×11, 2CR ×11)
+    paths:
+      - syllabai-resources@Official-ExamQuestion/igcse-chemistry-19/
+    identifiers:
+      tree_sha: 942bb7a650c4cd3b87d2b0d1147e25fee707f08d
+      file_census: 575
+    coverage: every available session 2019-06..2026-06 incl. 1C/2C and 1CR/2CR variants; per-paper questions.md + mark-scheme(s).md + cropped figure assets
+    provenance: Official-ExamQuestion parse pipeline (LEDGER.md F1–F19 scars; canaries + golden-master parity of record)
+    limitations: transcriptions, not scans (mark-loss nuance lives in the mark schemes as parsed); 463 DEBRIS + 150 NEEDS-EYES rows pending UIUX-TIER-B run-007 adjudication on the sibling maths-b bundle law
+    feeds_families: [ASM, MS, EXM, MIS, PRO]
+
+  # ------------------------------------------------------------- 4. topic-organized question bank
+  - id: SRC-SME-EXAMQ-4CH1
+    title: SME topic-organized exam question bank (igcse-chemistry-19)
+    classification: SUPPLEMENTARY
+    type: topic-organized question/mark-scheme bank (SME corpus lineage, ADR-026)
+    issuer: SyllabAI SME pipeline (derived; upstream mix of official + SME-authored items)
+    specification: 4CH1
+    version: live corpus (igcse-chemistry-19 course binding)
+    paths:
+      - syllabai-resources@SME-ExamQuestion/igcse-chemistry-19/
+    identifiers:
+      tree_sha: 0f67552d45109c120f7a43064e1e0e379a58a8fe
+      file_census: 675
+    coverage: 4 spec units (1-principles / 2-inorganic / 3-physical / 4-organic), per-topic questions.md + mark-schemes.md + assets
+    provenance: SME corpus import lineage (syllabai-v2 ADR-026); served as EXTERNAL_QUESTIONS plane in v2
+    limitations: not the official paper identity — paper/session boundaries are dissolved by topic organization; official identity work must cite SRC-QPMS-4CH1
+    feeds_families: [ASM, MS, MIS, TUT]
+
+  # ------------------------------------------------------------- 5. SME revision notes
+  - id: SRC-SME-NOTES-4CH1
+    title: SME-authored 4CH1 revision notes (with spec-point mappings + validation state)
+    classification: SUPPLEMENTARY
+    type: revision notes (markdown + assets) with per-note provenance front matter
+    issuer: SyllabAI SME notes corpus (derived from Save My Exams material per LICENSE-DATA.md)
+    specification: 4CH1
+    version: live corpus
+    paths:
+      - syllabai-resources@SME-RevisionNotes/igcse-chemistry-19/
+    identifiers:
+      tree_sha: 6d7a76ae243ba7a5e34a79ae0575ed58beb8a184
+      file_census: 420
+    coverage: the 112 DB-registered EXTERNAL_NOTES docs (+ their assets) with spec-point mappings and capture dates per T-C09/T-C10 governance
+    provenance: per-note YAML front matter carries source URL, capture date, sha256 identity, spec-point mappings (LICENSE-DATA.md, AGENT.md rule 4)
+    limitations: second-order teaching material — preserve existing mappings/validation status; never treat as curriculum truth
+    feeds_families: [EXP, MIS, PED, TUT]
+
+  # ------------------------------------------------------------- 6. external revision notes
+  - id: SRC-EXT-NOTES-4CH1
+    title: "Chemistry IGCSE Revision Notes" tree (Save-My-Exams-style Edexcel IGCSE 2017 notes)
+    classification: SUPPLEMENTARY
+    type: external revision notes (markdown), topic-organized by spec sections
+    issuer: Save My Exams (derived content, licensed use per LICENSE-DATA.md)
+    specification: 4CH1 (Edexcel IGCSE Chemistry 2017 wording in note titles)
+    version: live tree
+    paths:
+      - "syllabai-resources@Chemistry IGCSE Revision Notes/"
+    identifiers:
+      tree_sha: eabdfc99746cd78168840ce25d7039582aacba70
+      file_census: 392
+    coverage: sections 1–4 principles/inorganic/physical/organic + exam-technique notes
+    provenance: intake corpus of 2026-09/10 (CORPUS_REVIEW_2026-09-10.md era); non-commercial educational use
+    limitations: overlaps SRC-SME-NOTES-4CH1 substantially; dedupe/overlap adjudication required before either feeds an artifact
+    feeds_families: [EXP, MIS, PED]
+
+  # ------------------------------------------------------------- 7. PMT resources
+  - id: SRC-PMT-4CH1
+    title: PhysicsAndMathsTutor (PMT) Edexcel IGCSE Chemistry resources
+    classification: SUPPLEMENTARY
+    type: topic banks — canonical QP/MS JSON, notes markdown, per-topic question/MS PDF sets
+    issuer: PhysicsAndMathsTutor (derived; exam material © Pearson)
+    specification: 4CH1
+    version: live tree
+    paths:
+      - "syllabai-resources@PMT Edexcel IGCSE Chemistry Resources/"
+    identifiers:
+      tree_sha: 05114692ac43b790590adda78726ab24707e5721
+      file_census: 1189
+    coverage: Units 1–4; Canonical (JSON) QP/MS per topic (186+134+105+94), Notes (Markdown) (111+79+38+90), Questions + Mark Schemes PDFs
+    provenance: PMT intake (LICENSE-DATA.md scope)
+    limitations: third-party organization of official material — verify against SRC-QPMS-4CH1 for any claim needing official identity
+    feeds_families: [ASM, MS, EXP, MIS]
+
+  # ------------------------------------------------------------- 8. curriculum graph (registry anchor)
+  - id: SRC-GRAPH-4CH1
+    title: Validated 4CH1 curriculum knowledge graph (specification points, concepts, practicals, command words)
+    classification: CURRENT — AUTHORITATIVE
+    type: SyllabAI validated curriculum model (YAML) + canonical KG golden
+    issuer: SyllabAI (validated curriculum plane)
+    specification: 4CH1-2017
+    version: definitive lineage 2026-09-19 (c23_emit_definitive_specpoints.py, canonical-builder-2.0)
+    paths:
+      - syllabai-resources@graph/igcse-chemistry/specification_points.yaml   (182 spec points / 52 C-points)
+      - syllabai-resources@graph/igcse-chemistry/concepts.yaml + concept_edges.yaml + point_edges.yaml + relationships.yaml
+      - syllabai-resources@graph/igcse-chemistry/topics.yaml + practicals.yaml (12 Core Practicals) + command_words.yaml (25) + assessment_objectives.yaml
+      - syllabai-resources@graph/igcse-chemistry/spec_chunk_mappings.yaml + spec_command_kinds.yaml
+      - syllabai-resources@graph/igcse-chemistry/_golden/canonicalKG.edexcel-chemistry-4ch1.json
+    identifiers:
+      tree_sha: b8e0a2a61619a19b339fdcb6588a04fdea80c4dd
+    coverage: 182 spec points (verbatim official wording, zero-LLM pdf-span-geometry extraction), concept/prerequisite graph, practicals, command words, assessment objectives
+    provenance: word authority = official spec PDF (sha1 3ad641b7…); structure authority = ratified store overlay; RULE_DERIVED validation tiers preserved
+    limitations: SIB artifacts must NOT mutate this graph (protocol §7 runtime boundary); anchors resolve against it via curriculum_registry.yaml pin
+    feeds_families: [CUR, PED, PRA, GAP]
+
+  # ------------------------------------------------------------- 9. spec-links (question↔spec mappings)
+  - id: SRC-SPECLINKS-4CH1
+    title: Validated question↔specification mappings (igcse-chemistry-19)
+    classification: CURRENT — AUTHORITATIVE
+    type: mapping JSON of record
+    issuer: SyllabAI (validated mapping plane)
+    specification: 4CH1
+    version: live file
+    paths:
+      - syllabai-resources@spec-links/igcse-chemistry-19.json
+    identifiers:
+      blob_sha: d30f06b308038abb5fdb095a20ff60a20d9728b7
+    coverage: question-to-SpecificationPoint mappings for the igcse-chemistry-19 course
+    provenance: spec-links plane of record (README.md at spec-links/)
+    limitations: agent-generated mapping candidates elsewhere remain suggestions until the review/promotion gate accepts them (AGENT.md rule 2)
+    feeds_families: [ASM, GAP]
+
+  # ------------------------------------------------------------- 10. lessons spine
+  - id: SRC-LESSONS-4CH1
+    title: CourseLessons validated lesson packs (chemistry-4ch1)
+    classification: SUPPLEMENTARY
+    type: lesson packs (lesson.yaml, glossary, QA receipts) — teaching-sequencing evidence
+    issuer: SyllabAI lessons pipeline
+    specification: 4CH1
+    version: live tree
+    paths:
+      - syllabai-resources@CourseLessons/lessons/pearson-edexcel/international-gcse/chemistry-4ch1/
+    identifiers:
+      tree_sha: ef85fcd7a42e64a92c718607114cd270bf0cb0fe
+      file_census: 302
+    coverage: per-chapter lessons across the 4CH1 spine with QA receipts (flip-published states)
+    provenance: lessons plane; QA receipts carry lint/validation state per pack
+    limitations: sequencing evidence is SyllabAI-authored intent, not official scheme-of-work
+    feeds_families: [PED, CUR, TUT]
+
+  # ------------------------------------------------------------- 11. RAG package (release asset)
+  - id: SRC-RAG-PKG-4CH1
+    title: edexcel_igcse_chemistry RAG package (books-intake release asset)
+    classification: SUPPLEMENTARY
+    type: release-asset archive (chunk JSONL v1/v2/v3 + full_book markdowns + parse reports + pipeline scripts)
+    issuer: SyllabAI books-intake (T-MIG-133c archive-upload gate)
+    specification: 4CH1
+    version: tag books-intake-2026-10-18
+    paths:
+      - syllabai-resources@edexcel_igcse_chemistry_rag_package.manifest.json (pointer record; archive lives as the tagged release asset)
+    identifiers:
+      blob_sha: 3e3a16e357cc02302f674c0225b754d420af6182
+      release_url: https://github.com/SyllabAI/syllabai-resources/releases/tag/books-intake-2026-10-18
+      sha256_of_record_zip: 9efdd9d61aa3e1ad249e9efbfc7b3dbb9462e4833c3a7396dd7cfaae5e849720
+      bytes: 52650661
+    coverage: 824 files — RAG chemistry chunks + parse pipeline of the same SB1 book
+    provenance: manifest-of-record JSON at repo root points at the release asset
+    limitations: superseded chunk generations coexist (v1/v2/v3); cite v3-of-record from SRC-BOOK-4CH1-SB1 for artifact grounding; this package is re-provisioning insurance
+    feeds_families: [EXP]
+
+  # ------------------------------------------------------------- 12. root intake copies (provenance-pending)
+  - id: SRC-ROOT-BOOK-COPIES-4CH1
+    title: Root-level student-book PDF intake copies (pre-books-plane)
+    classification: SUPPLEMENTARY
+    type: PDF intake copies, provenance-pending
+    issuer: Pearson Education Ltd (attributed; intake provenance not re-verified)
+    specification: 4CH1
+    version: undated intake copies
+    paths:
+      - syllabai-resources@edexcel-chemistry-igcse-book.pdf
+      - syllabai-resources@edexcel-international-gcse-9-1-chemistry-student-book-pdf-free.pdf
+    identifiers:
+      blob_sha_copy_a: 0f43d8a7c8bd5b0b0e6fcdd54a345df4e4f3148e
+      blob_sha_copy_b: 3ae87e01106a71a073eed7ac5a628f33570488b6
+    coverage: unknown until adjudicated vs SRC-BOOK-4CH1-SB1
+    provenance: PENDING — not the CATALOG row-1 source of record; "pdf-free" filename indicates a redistributor copy
+    limitations: DO NOT ground artifacts here while SRC-BOOK-4CH1-SB1 is the validated book of record; adjudicate (dedupe or retire) before SIB generation
+    feeds_families: []
+
+# ------------------------------------------------------------------ gaps
+source_gaps:
+  - id: GAP-SRC-001
+    title: Official examiner reports
+    detail: zero examiner-report artifacts in any SyllabAI repo (2026-10-25 sweep). Strongly recommended
+      per requirements §2A — feeds MIS/MS/EXM/PED/TUT. Acquisition is backlog BL-001. Until acquired,
+      examiner-sentiment artifacts (EXM-01..05) cannot pass QA on real evidence.
+    severity: HIGH
+  - id: GAP-SRC-002
+    title: Legacy 4CH0 corpus
+    detail: zero 4CH0 path hits repo-wide. HIS family evidence (requirements §2F) missing; HIS kept
+      OPTIONAL in manifest.yaml. Acquisition is backlog BL-002. Any future 4CH0 material must be
+      classified LEGACY — HISTORICAL.
+    severity: MEDIUM
+  - id: GAP-SRC-003
+    title: Standalone periodic table / data sheet
+    detail: no standalone official reference artifact; evidence embedded in spec PDF + SB1 back matter
+      + per-question exam assets. Optional standalone intake (requirements §2D); not blocking.
+    severity: LOW
+  - id: GAP-SRC-004
+    title: Official teaching guide / scheme of work
+    detail: absent (requirements §3). Sequencing evidence limited to SB1 chapter order + validated
+      lesson spine (SRC-LESSONS-4CH1). Not blocking.
+    severity: LOW
+
+# ------------------------------------------------------------------ minimum-corpus check
+minimum_corpus_check:   # requirements §5 — the six groups, inventoried 2026-10-25
+  - group: 1. Official 4CH1 specification + validated SpecificationPoint registry
+    status: PRESENT   # SRC-SPEC-4CH1 + SRC-GRAPH-4CH1 (182 points)
+  - group: 2. Current student book + official teaching/support material
+    status: PARTIAL   # SRC-BOOK-4CH1-SB1 validated v3; teaching guide ABSENT (GAP-SRC-004)
+  - group: 3. Complete available QP/MS corpus with paper/session identities
+    status: PRESENT   # SRC-QPMS-4CH1 — 54 papers / 16 sessions / 4 variants, identities preserved
+  - group: 4. Official examiner reports
+    status: ABSENT    # GAP-SRC-001 — record and proceed where evidence suffices; never fabricate
+  - group: 5. Validated SME revision notes + question-to-spec mappings
+    status: PRESENT   # SRC-SME-NOTES-4CH1 + SRC-SPECLINKS-4CH1 (+ SRC-EXT-NOTES-4CH1, SRC-PMT-4CH1)
+  - group: 6. Practical guidance, data sheets, reference material
+    status: PARTIAL   # 12 Core Practicals registry (graph/igcse-chemistry/practicals.yaml) + spec practical
+    detail: statements; standalone data sheet absent (GAP-SRC-003)
+legacy_inventory:      # requirements §5, final line — 4CH0 as separate legacy group
+  group: 4CH0 legacy
+  status: ABSENT       # GAP-SRC-002
