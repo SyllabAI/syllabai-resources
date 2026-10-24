@@ -221,3 +221,16 @@ subtopic with no dedicated UGM station: the seven-station calculus family was al
 via lanes 5–7, so the directory carries only the 10 new-text resources whose tested skill is 1.8.x,
 while the 18 cross-lane alignments live as facts in the sibling enrichment with `textOfRecordUnder`
 pointers at `pure-1-differentiation/`. Station provenance stays first-class in front-matter.
+
+---
+
+## Static figures — `T-UGM-ASSETS-1` (2026-10-24)
+
+The corpus text bodies are byte-untouched by the figure import. The figures
+of record live in [`UGM-Assets/`](../UGM-Assets/) (976 files, 37.7 MB,
+paths mirroring the UGM site) with the figure map of record at
+[`figures-map.json`](figures-map.json): 1,233 figure occurrences across 275
+resources, each anchored to a body section name and an ordinal. The hub
+consumer serves them from `/ugm-assets/**`. Rights and scope: see
+`LICENSE-DATA.md` (Amendment 2026-10-24) and `UGM-Assets/README.md` — static
+images only; GeoGebra embeds and PDFs stay excluded.
