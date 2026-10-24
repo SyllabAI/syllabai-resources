@@ -30,12 +30,12 @@ The operator asked for this work to be saved either in a new folder or inside
 
 | Path | Purpose |
 |---|---|
-| `wave-1/`, `wave-2/`, `wave-3/` | The exports of record per wave: `guided-lesson-rn_<id>.json` (the lesson layer) + `timing-receipt-rn_<id>.json` (export-gate telemetry). Waves 1–2 additionally carry their `wave<N>-receipt.json` (wave aggregate); wave-1 carries the `snapshot-pin-reverify-20261024.json`. |
+| `wave-1/`, `wave-2/`, `wave-3/` | The exports of record per wave: `guided-lesson-rn_<id>.json` (the lesson layer) + `timing-receipt-rn_<id>.json` (export-gate telemetry). Waves 1–3 additionally carry their aggregate `wave<N>-receipt.json` (wave receipt of record, minted at each close-out with the recalibration block and event-log ground truth); wave-1 carries the `snapshot-pin-reverify-20261024.json`. |
 | `event-logs/wave-<N>/` | The P0–P8 chain logs (`rn_<id>.events.json`) — one per note. Wave-1 also carries the per-note `note-body.md` extracts used during the instrumented first run. |
 | `corpus-snapshot.json` | The **pinned authoring substrate**: all 112 note bodies, sha256 `e23e2ab79df6b0e957bf12933779e4701b37c88736d87c20b19bac130553487d`. Every round re-verifies this pin; body text is read from here, never from a live DB. |
 | `pacing/wave-pacing-open-20261024.json` | The **register of record**: all 112 notes with wave plan, subtopics, body char counts, spec point codes. |
-| `tooling/` | The gate + harness + verifier scripts: `a1-lint.js` (the lint gate), `wave1-run.js` (the authoring harness, incl. the save() patch lineage), `wave<N>-round-verify.js` (per-round verifiers), `wave3-row-dump.js`, `wave3-schema-check.js`, `wave3-p0flag-repair.js` (the disclosed P0-flag repair), receipt/report builders. Paths inside are sandbox-absolute (`/home/z/my-project/...`) — they are records of how gates were run. |
-| `reports/` | Wave report deliverables (docx): Wave-1 instrumented-authoring report, Wave-2 report. |
+| `tooling/` | The gate + harness + verifier scripts: `a1-lint.js` (the lint gate), `wave1-run.js` (the authoring harness, incl. the save() patch lineage), `wave<N>-round-verify.js` (per-round verifiers, wave-3's carrying the close-out guards), `wave3-row-dump.js`, `wave3-schema-check.js`, `wave3-p0flag-repair.js` (the disclosed P0-flag repair tool), the wave receipt builders (`wave<N>-wave-receipt.js`) and report generators (`wave<N>-report*.js`). Paths inside are sandbox-absolute (`/home/z/my-project/...`) — they are records of how gates were run. |
+| `reports/` | Wave report deliverables (docx): Wave-1 instrumented-authoring report, Wave-2 report, Wave-3 report. |
 | `MANIFEST.json` | Machine twin: per-file sha256 + byte counts for every file in this folder. Verify with `sha256sum -c`-style tooling of your choice. |
 
 ## Status — 34 / 112 notes authored
@@ -44,11 +44,11 @@ The operator asked for this work to be saved either in a new folder or inside
 |---|---|---|---|---|
 | wave-1 | 10 | register[0..9] | States & Solutions → Separation techniques (instrumented calibration run) | 22 |
 | wave-2 | 12 | register[10..21] | Atoms, formulas, electrolysis band | 25 |
-| wave-3 | 12 | register[22..33] | Chemical Formulae, Equations, Calculations → Ionic Bonding | 24 |
+| wave-3 | 12 | register[22..33] | Chemical Formulae, Equations, Calculations → Ionic Bonding | 25 |
 
-**NEXT (operator-gated):** wave-3 closeout at 12/12 — wave receipt + wave report
-+ recalibration checkpoint (wave-2 closeout precedent). Then waves 4+ against
-the remaining 78 register rows.
+Waves 1–3 are **CLOSED of record** (wave receipts `wave1/wave2/wave3-receipt.json`, wave reports in `reports/`, recalibration checkpoints discharged — the wave-3 checkpoint reaffirmed the wave-2 decision: estimator basis frozen at the wave-1 instrumented 283 s/note; receipts are export-gate telemetry). Subtopics closed outright through wave-3: States of Matter, Elements Compounds & Mixtures, Atomic Structure, The Periodic Table, Chemical Formulae Equations & Calculations. Ionic Bonding is open (2/5).
+
+**NEXT (operator-gated):** wave-4 open — 11 notes (39,034 chars, 25 spec points): Ionic Bonding tail (formulae, dot-and-cross, bonds & properties) → Covalent Bonding (all four notes) → Metallic Bonding → Electrolysis opening (3 notes incl. the aqueous-solutions practical). All wave-4 artefacts append to this folder on the standing convention.
 
 ## The hard laws of this programme (as run)
 
@@ -81,7 +81,9 @@ the remaining 78 register rows.
 - **Spec texts of record:** read from the `syllabai-v2` content pack
   (`apps/hub/content/igcse-chemistry-19/curriculum.json`), read-only.
 - **Saved here:** 2026-10-25, lane `w0a`, session
-  `web-e79a3bd8-5bc9-4aae-abe2-eb5f5d3964dd`, operator trace `1a16f959b77972c1`,
-  as a single Git-Data-API commit on `main` (the repo is ~5.6 GB — clone-impractical
-  in the sandbox; see LEDGER F16 for why verification here uses the contents API,
-  never the recursive `git/trees` endpoint).
+  `web-e79a3bd8-5bc9-4aae-abe2-eb5f5d3964dd`. Initial landing: operator trace
+  `1a16f959b77972c1`, single Git-Data-API commit `7dbdf2ba` on `main` (the repo is ~5.6
+  GB — clone-impractical in the sandbox; see LEDGER F16 for why verification here uses
+  the contents API, never the recursive `git/trees` endpoint). Wave-3 close-out append
+  (wave receipt + wave report + tooling + manifest refresh): operator trace
+  `1a16fa91188c8f3d`, same single-commit method. Waves 4+ append on this convention.
