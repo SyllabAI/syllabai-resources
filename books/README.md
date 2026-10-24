@@ -56,7 +56,8 @@ books/
 | Edexcel IGCSE Biology (4BI1), 357 pp | `bio_v1_…` | v1 **871** chunks | Parsed 2026-10-21 (T-PARSE-4BI1-1): **first text-layer lane** (PyMuPDF, no OCR); validation green; polish round 1 (see parsed report) |
 | Edexcel IAL Physics YPH11 **SB1** (Miles Hudson), 225 pp | `yph1_v1_…` | v1 **881** chunks | Parsed 2026-10-22 (T-PARSE-YPH11-1): first IAL lane, OCR route; page law book = pdf−11 (book page 1 absent from the PDF); 4 topics / 11 chapters; 260 display equations rescued by manual transcription (docling 2.33 blank-formula bug); validation green; polish R1 partial (1/404, quota-walled) |
 | Edexcel IAL Physics YPH11 **SB2** (Miles Hudson), 237 pp | `yph2_v1_…` | v1 **826** chunks | Parsed 2026-10-22 (T-PARSE-YPH11-1 SB2 delta lane): page law book = pdf−10 (no printed page 1); 7 topics / 13 chapters; intake archive copy was TRUNCATED — re-sourced + replaced (E-004, L-021/L-022); validators ALL CHECKS PASSED; 278 formula orphans logged for the manual-transcription rescue; polish R1 staged (794/826), quota-walled |
-| CIE A-Level Chemistry **9701** Coursebook 3rd ed (Ryan & Norris), 889 pp | `c9701_v1_…` | v1 **1083** chunks | Parsed 2026-10-24 (T-PARSE-9701-1, FIRST CIE lane): text-layer, NO OCR — regenerated/accessibility re-layout (DejaVu/STIX, single column); NO printed page numbers anywhere → pdf-anchored, book_pages=None (L-023); Unicode sub/sup rebuilt from span geometry incl. stacked isotopes ⁵²₂₄Cr²⁺ (L-024); watermark pdf31+66 stripped, validator-gated; 30/30 chapters + P1/P2 + appendices; validator ALL CHECKS PASSED; polish census pending (quota-walled) |
+| Edexcel IAL Chemistry YCH11 **SB1** (Curtis, Murgatroyd & Scott), 329 pp | `ych1_v1_…` | v1 **1571** chunks | Parsed 2026-10-24 (T-PARSE-YCH11-1): page law book = pdf−13 (no printed page 1); 2 units / 10 topics / 35 chapters; 291 blank formula regions + 4 fraction-mangled items recovered by verbatim manual transcription (295-record sidecar, 8 adjudicated slivers); validators ALL CHECKS PASSED; image-only periodic-table page + graph-paper end leaf registered as by-design gaps; polish R1 partial (48/800, quota-walled, resumable) |
+| Edexcel IAL Chemistry YCH11 **SB1** (Curtis, Murgatroyd & Scott), 329 pp | `ych1_v1_…` | v1 **1571** chunks | Parsed 2026-10-24 (T-PARSE-YCH11-1): page law book = pdf−13 (no printed page 1); 2 units / 10 topics / 35 chapters; 291 blank formula regions + 4 fraction-mangled items recovered by verbatim manual transcription (295-record sidecar, 8 adjudicated slivers); validators ALL CHECKS PASSED; image-only periodic-table page + graph-paper end leaf registered as by-design gaps; polish R1 partial (48/800, quota-walled, resumable) |
 
 ## 2. Read order (do not skip)
 
@@ -553,37 +554,26 @@ rm -f "$GIT_INDEX_FILE"; unset GIT_INDEX_FILE
   equally a no-op on JPEG pass-through). Evidence: 120.8MB → 120.8MB (/ebook)
   vs 48.3MB with the flag. Action: always set the flag + verify output size
   when re-deriving oversized scan copies for the 100MiB GitHub limit.
-- **L-023** (2026-10-24, T-PARSE-9701-1, Super Z): accessibility/regenerated
-  re-layouts may carry NO printed page numbers at all — no TOC page numbers,
-  no running heads, no edge digits, zero "page N" self-references — which
-  kills the offset-law probe (no anchor to converge on). Action: detect the
-  class at phase 1 (census pure-digit tails + edge spans + "page \d+" refs;
-  all-zero ⇒ re-layout); ship pdf-anchored (book_pages=None) with the
-  absence PROVEN in the parse report (D-decision), not guessed; validator
-  substitutes chapter-range coherence for the offset law.
-- **L-024** (2026-10-24, T-PARSE-9701-1, Super Z): clean text-layer PDFs can
-  yield docling-class Unicode chemistry WITHOUT OCR via span-geometry
-  assembly — sub/sup glyphs are separate small-font spans (size<8 vs 9.2pt
-  body) offset ±4.4pt from the body baseline; pool them page-wide, attach to
-  the nearest body line whose x-window brackets them, order same-x ties
-  sup-before-sub. This restores stacked isotope notation (⁵²₂₄Cr²⁺) that
-  per-dict-line assembly garbles (sup/sub split into separate dict lines).
-  Action: for any text-layer lane, extract in dict mode and rebuild
-  sub/superscripts geometrically BEFORE chunking; verify on an isotope + a
-  kJ mol⁻¹ page, not just prose pages.
-- **L-025** (2026-10-24, T-PARSE-9701-1, Super Z): TEMP-INDEX BASE RACE —
-  composing a commit via read-tree(origin/main) + hash-object/update-index +
-  write-tree is NOT atomic against parallel lanes: if origin/main moves
-  between read-tree and commit-tree, the new tree silently lacks the rival
-  lane's paths (phantom deletions land on main). Action: (1) immediately
-  before commit-tree, re-fetch and assert the intended parent ==
-  origin/main; (2) after write-tree, diff-tree BOTH directions — vs the
-  base (must be exactly the declared paths) and vs the previous HEAD
-  (must show no third-party deletions); (3) if a race slipped through, DO
-  NOT force-push (fleet law) — repair forward: read-tree the last good
-  base, re-stage the declared paths, commit with parent = current HEAD,
-  push, and file the correction of record in the commit message.
-  Evidence: 31931f7 (transient revert of T-BOOK-044) repaired by dde7570.
+- **L-023** (2026-10-24, T-PARSE-YCH11-1, zai-web): image-only end-matter pages
+  (full-page periodic-table graphic, blank graph-paper end leaf) produce NO
+  text chunks and will fail any text-coverage check — the honest treatment is
+  a by-design-gaps register in the parse report (page + kind + reason), which
+  the validator then asserts, instead of either fabricating a placeholder
+  chunk or widening the coverage check. Evidence:
+  `chemistry/ych11/parsed/parse_report_v1.json → by_design_gaps` +
+  `validate_ych11.py`. Action: at phase 6, classify zero-text pages first
+  (blank / image-only-but-content-bearing / decorative); register the latter
+  two, never chunk them silently.
+- **L-023** (2026-10-24, T-PARSE-YCH11-1, zai-web): image-only end-matter pages
+  (full-page periodic-table graphic, blank graph-paper end leaf) produce NO
+  text chunks and will fail any text-coverage check — the honest treatment is
+  a by-design-gaps register in the parse report (page + kind + reason), which
+  the validator then asserts, instead of either fabricating a placeholder
+  chunk or widening the coverage check. Evidence:
+  `chemistry/ych11/parsed/parse_report_v1.json → by_design_gaps` +
+  `validate_ych11.py`. Action: at phase 6, classify zero-text pages first
+  (blank / image-only-but-content-bearing / decorative); register the latter
+  two, never chunk them silently.
 ### 9.5 Errata ledger
 
 - **E-001** (2026-10-21, T-INTAKE-4BI1-1): `books/CATALOG.md` §4.1 queue
@@ -719,17 +709,29 @@ E-ID they correct)*
   yph11b_v1_ build discarded, kept only as local evidence). Lessons
   appended: L-021, L-022. Errata filed: E-004.
 
-- **R-006** (2026-10-24, T-PARSE-9701-1, CIE 9701 lane): pages extracted
-  889/889 (PyMuPDF native, no OCR); chunks **1083** (`c9701_v1_`), 10
-  content types; validator ALL CHECKS PASSED (unique IDs, 13-key grammar,
-  30/30 chapters + P1/P2 + appendices + front matter, 0 order breaks,
-  chapter-range coherence vs the 35-range map, exam-style banks anchored,
-  0 watermark/CJK, 0 'images' junk, size bounds). Deviations from playbook:
-  (1) pdf-anchored corpus — no offset law exists (L-023); (2) span-pool
-  extractor supersedes per-line assembly for text-layer lanes (L-024);
-  (3) v1 shipped with polish census pending (R-002/R-004/R-005 precedent,
-  quota-walled period); (4) margin features absent from the source render
-  (parse_report D-2) — not a parser miss. Lessons appended: L-023, L-024.
+- **R-006** (2026-10-24, T-PARSE-YCH11-1, YCH11 SB1): pages parsed 329/329
+  (14 foreground windows, ~10 s/page avg, index tail 70–305 s/page, 0 page
+  errors); chunks **1571** (`ych1_v1_`, per the two-book law); content types
+  16; offset −13 (3-way confirmed: roman = pdf−1 i–xiii, TOC openers, printed
+  header digits "27"/"309"/"311"; book page 1 does not exist); validation
+  **ALL CHECKS PASSED** (unique IDs, 35/35 chapters, 10/10 topics, dual
+  numbering + offset law, 10/10 EXAM PRACTICE banks page-anchored, 0 order
+  breaks, char_count, size bounds 40–2315, 0 LaTeX remnants, back-matter
+  coverage, image-only end matter registered); formula rescue: 291 empty
+  regions on 100 pages + 4 fraction-mangled items transcribed VERBATIM from
+  150 dpi renders (295-record sidecar, bbox+context aligned, idempotent
+  apply, 0 mismatches; 8 regions adjudicated slivers/duplicates) — chunker
+  converted 309/309; byte-identity double-run verified (chunker sha256
+  0bdb1c5e… twice); archive derivative 145 dpi landed (L-022 flag, pixel MAE
+  1.17/255); LLM polish R1: selected 800 (59 forced question chunks), applied
+  48, rejected 4, error 2 (two brief quota windows then account-level wall;
+  resumable); anchor diff vs pristine 0 drift; post-polish audit 0 Unicode
+  regressions. Deviations from playbook: (1) formula-enrichment OFF base
+  corpus (the ladder's ON rung is dead code on docling 2.33 per L-019/L-020 —
+  YCH11 METHOD D-7); (2) EP banks are per-TOPIC (10 banks) and typed
+  `chapter_questions` with chapter_no None per the YPH11 EP precedent
+  (METHOD D-9); (3) image-only end matter registered as by-design gaps
+  (L-023) rather than chunked. Lessons appended: L-023. Errata filed: none.
 
 ```
 - **R-<seq>** (<date>, <TASK-ID>, <book>): pages parsed N/N; chunks N;
@@ -740,6 +742,15 @@ E-ID they correct)*
 ```
 
 ## 10. Change log
+
+- **2026-10-24 — v1.5 (T-PARSE-YCH11-1):** first IAL chemistry lane executed
+  end-to-end (SB1): OCR route on the Chromium/Skia print replica; page law
+  book = pdf−13 with an omitted print blank (book page 1); 291 blank formula
+  regions + 4 mangled items rescued by verbatim manual transcription from
+  rendered pages; image-only end matter handled via the by-design-gaps
+  register (L-023); corpus v1 1571 chunks validated ALL CHECKS PASSED;
+  polish R1 partial (48/800, quota-walled, resumable); ledgers L-023 + R-006
+  recorded.
 
 - **2026-10-22 — v1.4 (T-PARSE-YPH11-1):** first IAL lane executed end-to-end
   (SB1): OCR route on the Chromium/Skia print replica; page law book = pdf−11
