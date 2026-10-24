@@ -102,19 +102,23 @@ artifacts:
     applicability: REQUIRED
   - artifact_id: EXM-01
     applicability: REQUIRED
-    notes: 'primary evidence = official examiner reports; none in corpus yet (source_manifest GAP-SRC-001) — QA cannot pass without acquired reports'
+    notes: 'primary evidence = official examiner reports — NOW PRESENT (BL-001, 2026-10-25): 24 official
+      4CH1 ERs across 8/16 held sessions (SRC-ER-4CH1); residuals disclosed (COVID-era/Jan-Nov sessions
+      have no public ER; Nov-2025/June-2026 silver-tier)'
   - artifact_id: EXM-02
     applicability: REQUIRED
-    notes: 'primary evidence = official examiner reports; none in corpus yet (source_manifest GAP-SRC-001) — QA cannot pass without acquired reports'
+    notes: 'primary evidence = official examiner reports — NOW PRESENT (BL-001, 2026-10-25, SRC-ER-4CH1);
+      residual sessions disclosed in source_manifest GAP-SRC-001'
   - artifact_id: EXM-03
     applicability: REQUIRED
-    notes: 'primary evidence = official examiner reports; none in corpus yet (source_manifest GAP-SRC-001) — QA cannot pass without acquired reports'
+    notes: 'primary evidence = official examiner reports — NOW PRESENT (BL-001, 2026-10-25, SRC-ER-4CH1)'
   - artifact_id: EXM-04
     applicability: REQUIRED
-    notes: 'primary evidence = official examiner reports; none in corpus yet (source_manifest GAP-SRC-001) — QA cannot pass without acquired reports'
+    notes: 'primary evidence = official examiner reports — NOW PRESENT (BL-001, 2026-10-25, SRC-ER-4CH1);
+      4CH0 legacy ERs additionally available for longitudinal comparison (SRC-ER-4CH0-LEGACY)'
   - artifact_id: EXM-05
     applicability: REQUIRED
-    notes: 'primary evidence = official examiner reports; none in corpus yet (source_manifest GAP-SRC-001) — QA cannot pass without acquired reports'
+    notes: 'primary evidence = official examiner reports — NOW PRESENT (BL-001, 2026-10-25, SRC-ER-4CH1)'
   - artifact_id: EXM-06
     applicability: REQUIRED
   - artifact_id: PED-01
@@ -162,25 +166,27 @@ artifacts:
     applicability: REQUIRED
   - artifact_id: HIS-01
     applicability: OPTIONAL
-    notes: '4CH0 legacy corpus absent from all repos (source_manifest GAP-SRC-002); enable when legacy evidence is acquired'
+    notes: 'legacy evidence NOW AVAILABLE (BL-002, 2026-10-25): 4CH0 QP/MS corpus (40 dirs / 16 sessions),
+      34 legacy ERs, official Issue-3/Issue-5 spec docs — all LEGACY — HISTORICAL (SRC-ER-4CH0-LEGACY,
+      SRC-LEGACY-SPEC-4CH0; archive at syllabai-pastpapers 4ch0/)'
   - artifact_id: HIS-02
     applicability: OPTIONAL
-    notes: '4CH0 legacy corpus absent from all repos (source_manifest GAP-SRC-002); enable when legacy evidence is acquired'
+    notes: 'legacy evidence NOW AVAILABLE (BL-002, 2026-10-25) — see HIS-01 note; LEGACY — HISTORICAL labeling per protocol §2 is binding'
   - artifact_id: HIS-03
     applicability: OPTIONAL
-    notes: '4CH0 legacy corpus absent from all repos (source_manifest GAP-SRC-002); enable when legacy evidence is acquired'
+    notes: 'legacy evidence NOW AVAILABLE (BL-002, 2026-10-25) — see HIS-01 note; LEGACY — HISTORICAL labeling per protocol §2 is binding'
   - artifact_id: HIS-04
     applicability: OPTIONAL
-    notes: '4CH0 legacy corpus absent from all repos (source_manifest GAP-SRC-002); enable when legacy evidence is acquired'
+    notes: 'legacy evidence NOW AVAILABLE (BL-002, 2026-10-25) — see HIS-01 note; LEGACY — HISTORICAL labeling per protocol §2 is binding'
   - artifact_id: HIS-05
     applicability: OPTIONAL
-    notes: '4CH0 legacy corpus absent from all repos (source_manifest GAP-SRC-002); enable when legacy evidence is acquired'
+    notes: 'legacy evidence NOW AVAILABLE (BL-002, 2026-10-25) — see HIS-01 note; LEGACY — HISTORICAL labeling per protocol §2 is binding'
   - artifact_id: HIS-06
     applicability: OPTIONAL
-    notes: '4CH0 legacy corpus absent from all repos (source_manifest GAP-SRC-002); enable when legacy evidence is acquired'
+    notes: 'legacy evidence NOW AVAILABLE (BL-002, 2026-10-25) — see HIS-01 note; LEGACY — HISTORICAL labeling per protocol §2 is binding'
   - artifact_id: HIS-07
     applicability: OPTIONAL
-    notes: '4CH0 legacy corpus absent from all repos (source_manifest GAP-SRC-002); enable when legacy evidence is acquired'
+    notes: 'legacy evidence NOW AVAILABLE (BL-002, 2026-10-25) — see HIS-01 note; LEGACY — HISTORICAL labeling per protocol §2 is binding'
   - artifact_id: TUT-01
     applicability: REQUIRED
   - artifact_id: TUT-02
@@ -220,16 +226,23 @@ artifacts:
 source_gaps:
   - id: GAP-SRC-001
     description: >-
-      Official examiner reports for 4CH1 sessions are absent from every SyllabAI repo
-      (sweep 2026-10-25: syllabai-resources full 82,234-path tree, syllabai-pastpapers,
-      syllabai-experimental, syllabai-parser — zero examiner-report artifacts). Highest-value
-      acquisition target; feeds MIS/MS/EXM/PED/TUT families. Do not synthesize examiner
-      sentiment from mark schemes alone.
+      RESOLVED 2026-10-25 (BL-001): official Pearson examiner reports acquired from Pearson's own
+      public CDN and placed in the syllabai-pastpapers archive of record — 24 official 4CH1 ERs across
+      8 of 16 held sessions (SRC-ER-4CH1) plus 34 legacy 4CH0 ERs across 13 of 16 sessions
+      (SRC-ER-4CH0-LEGACY). Residuals honestly disclosed, never fabricated: no public ER exists for
+      the COVID-era / January / November sessions (zero catalog rows at the issuing body);
+      Nov-2025 + June-2026 PEFs exist but sit behind Pearson's silver tier (401 anonymous) —
+      operator-side queue. Wave report: syllabai-pastpapers@docs/ER-ACQUISITION-2026-10-25.md.
   - id: GAP-SRC-002
     description: >-
-      Legacy 4CH0 specification / papers / books absent (zero path hits repo-wide). The HIS
-      family is OPTIONAL until a legacy corpus is acquired; legacy material must stay
-      explicitly labeled LEGACY — HISTORICAL per protocol §2.
+      RESOLVED 2026-10-25 (BL-002): the legacy corpus was found already complete for QP/MS
+      (syllabai-pastpapers 4ch0/ — 40 dirs / 16 sessions; the earlier sweep's 'zero 4CH0 hits'
+      claim corrected by first-hand re-walk, case-sensitive miss of the lowercase subtree);
+      this run added the missing doc classes: 34 legacy ERs + official legacy specification corpus
+      (Issue 3 spec / Issue 5 spec+SAMs / 2009 SAMs — resources Official-Specifications/
+      igcse-chemistry-legacy-4ch0/). All 4CH0 material is classified LEGACY — HISTORICAL per
+      protocol §2. Residual: 2018-06 1CR/2CR QP/MS variants never ingested (their verified ERs
+      placed-NOT under the no-speculative-folders law; sha256s of record in the wave report).
   - id: GAP-SRC-003
     description: >-
       No standalone official periodic-table / data-sheet artifact. Evidence exists embedded:
@@ -242,11 +255,15 @@ source_gaps:
       limited to the student book chapter order and the validated CourseLessons spine.
 backlog:
   - id: BL-001
-    description: Acquire official 4CH1 examiner reports for available sessions (GAP-SRC-001);
-      record session coverage + provenance in source_manifest.yaml on arrival.
+    description: "DONE 2026-10-25 (trace 1a16f5bd6146b01d): 54 official ERs placed in
+      syllabai-pastpapers @ 3632b0e6 (20 × 4CH1, 34 × 4CH0) from Pearson's own public CDN;
+      session coverage + provenance recorded in source_manifest.yaml v1.1 (SRC-ER-4CH1,
+      SRC-ER-4CH0-LEGACY); residual sessions disclosed in the wave report."
   - id: BL-002
-    description: Acquire 4CH0 legacy corpus (spec + representative papers) for the HIS family
-      (GAP-SRC-002); classify LEGACY — HISTORICAL.
+    description: "DONE 2026-10-25 (trace 1a16f5bd6146b01d): QP/MS corpus verified already complete
+      (40 dirs / 16 sessions); added 34 legacy ERs + official legacy spec corpus (Issue 3 /
+      Issue 5+SAMs / 2009 SAMs) landed in Official-Specifications/igcse-chemistry-legacy-4ch0/
+      with spec.json provenance; all LEGACY — HISTORICAL."
   - id: BL-003
     description: Provision NotebookLM notebook 4CH1-SIB-NOTEBOOK-001 and upload the
       CURRENT — AUTHORITATIVE / CURRENT — ASSESSMENT EVIDENCE sources; label legacy vs current

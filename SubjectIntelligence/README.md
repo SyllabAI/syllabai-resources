@@ -53,7 +53,11 @@ SubjectIntelligence/
 
 - Scaffold + manifests + registry landed and validated (shape CLEAN; completeness honestly
   0/88 REQUIRED until generation starts — the gate is the scoreboard).
-- Corpus verdict: assessment + explanation evidence strong (54 official papers / 16 sessions,
-  validated book parse, validated graph + mappings); examiner reports and 4CH0 legacy absent
-  and disclosed.
+- Corpus verdict (updated 2026-10-25, BL-001/BL-002 executed): assessment + explanation evidence
+  strong (54 official papers / 16 sessions, validated book parse, validated graph + mappings);
+  **examiner reports ACQUIRED** (24 official 4CH1 ERs over 8 sessions + 34 legacy 4CH0 ERs over
+  13 sessions — Pearson's own CDN, `SRC-ER-4CH1` / `SRC-ER-4CH0-LEGACY`); **4CH0 legacy corpus
+  PRESENT** (complete QP/MS + official spec docs, `SRC-LEGACY-SPEC-4CH0`) — EXM family evidence
+  real, HIS family unlocked; residual sessions without a public ER are disclosed, never
+  fabricated (wave report: `syllabai-pastpapers@docs/ER-ACQUISITION-2026-10-25.md`).
 - Next runs (operator-ordered): BL-003 notebook provisioning → CUR-01..CUR-08 first wave.

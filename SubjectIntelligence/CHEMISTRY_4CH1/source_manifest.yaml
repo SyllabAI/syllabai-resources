@@ -1,5 +1,9 @@
-# CHEMISTRY_4CH1 — SIB v1 source manifest (v1.0)
+# CHEMISTRY_4CH1 — SIB v1 source manifest (v1.1)
 # Built 2026-10-25 from a full read-only inventory of the SyllabAI repos.
+# v1.1 (2026-10-25, same day): BL-001/BL-002 acquisitions landed — official examiner reports
+# (4CH1 + 4CH0) and the legacy 4CH0 specification corpus acquired from Pearson's own public
+# CDN; GAP-SRC-001/002 resolved with disclosed residuals; see docs/SOURCE_INVENTORY_2026-10-25.md
+# addendum + repo worklogs.
 # Law (SOURCE_REQUIREMENTS_4CH1.md §4): source files stay in their canonical
 # repositories; this manifest POINTS at them with stable identifiers, repository
 # paths, versions, session metadata and checksums where available. Nothing is
@@ -14,7 +18,14 @@
 # `git cat-file`); of-record sha256/sha1 values are quoted from the repo's own
 # ledgers (books/CATALOG.md, Official-Specifications/igcse-chemistry/spec.json).
 
-manifest_version: "1.0"
+manifest_version: "1.1"
+manifest_history:
+  - version: "1.0"
+    date: "2026-10-25"
+    change: initial inventory of record (SIB-LIBRARY-001)
+  - version: "1.1"
+    date: "2026-10-25"
+    change: BL-001 + BL-002 executed — SRC-ER-4CH1 / SRC-ER-4CH0-LEGACY / SRC-LEGACY-SPEC-4CH0 added; GAP-SRC-001/002 resolved with residuals; inventory correction filed (4CH0 QP/MS was already complete in syllabai-pastpapers — the v1.0 sweep's 'zero 4CH0 hits' claim is corrected, see inventory addendum)
 subject: Chemistry
 specification: 4CH1
 qualification: International GCSE
@@ -23,7 +34,7 @@ inventoried_at: "2026-10-25"
 inventory_basis:
   repos_swept:
     - SyllabAI/syllabai-resources (full 82,234-path tree @ f42033e0, API-truncation-proof via local git ls-tree)
-    - SyllabAI/syllabai-pastpapers (tree sweep)
+    - SyllabAI/syllabai-pastpapers (tree sweep; RE-SWEPT first-hand 2026-10-25 @ 3632b0e6 — chemistry subtree walked session-by-session, correcting the v1.0 sweep)
     - SyllabAI/syllabai-experimental (tree sweep)
     - SyllabAI/syllabai-parser (tree sweep)
   census_method: path census + ledger cross-read (books/CATALOG.md, Official-Specifications spec.json, LICENSE-DATA.md)
@@ -129,7 +140,7 @@ sources:
 
   # ------------------------------------------------------------- 6. external revision notes
   - id: SRC-EXT-NOTES-4CH1
-    title: "Chemistry IGCSE Revision Notes" tree (Save-My-Exams-style Edexcel IGCSE 2017 notes)
+    title: '"Chemistry IGCSE Revision Notes" tree (Save-My-Exams-style Edexcel IGCSE 2017 notes)'
     classification: SUPPLEMENTARY
     type: external revision notes (markdown), topic-organized by spec sections
     issuer: Save My Exams (derived content, licensed use per LICENSE-DATA.md)
@@ -258,20 +269,96 @@ sources:
     limitations: DO NOT ground artifacts here while SRC-BOOK-4CH1-SB1 is the validated book of record; adjudicate (dedupe or retire) before SIB generation
     feeds_families: []
 
+  # ------------------------------------------------------- 13. examiner reports (4CH1)
+  - id: SRC-ER-4CH1
+    title: Official 4CH1 examiner reports (post-examination feedback), Pearson CDN of record
+    classification: CURRENT — ASSESSMENT EVIDENCE
+    type: per-paper examiner-report PDFs (er.pdf inside the paper dirs of the exam archive)
+    issuer: Pearson Education Ltd (Edexcel)
+    specification: 4CH1
+    version: 24 reports across 8 of the 16 held sessions (2019-06, 2022-06, 2023-06, 2023-11,
+      2024-06, 2024-11, 2025-06 + silver-tier Nov-2025/June-2026 not acquirable anonymously)
+    paths:
+      - syllabai-pastpapers@past-papers/pearson-edexcel/international-gcse/chemistry/4ch1/past-papers/<session>/4CH1-<paper>/er.pdf
+    identifiers:
+      tree_sha: 54d3220b1c6c6fba9e1ed3f5ee4368fede70a310   # 4ch1 subtree @ syllabai-pastpapers 3632b0e6
+      per_file_sha256: recorded in each paper dir's manifest.yaml (type examiner-report)
+    coverage: every 4CH1 session for which Pearson publishes a public examiner report and the
+      corpus holds the paper (8/16 sessions; the 2023-06 quartet pre-dated this run via wave 8,
+      byte-untouched, with Pearson's own URLs of record filed for future byte adjudication)
+    provenance: official Pearson qualifications CDN (issuing body's own public catalog rows;
+      no third-party archive); wave report of record = syllabai-pastpapers@docs/ER-ACQUISITION-2026-10-25.md
+    limitations: COVID-era and January/November sessions have no public ER (no catalog row —
+      no fabrication); Nov-2025 + June-2026 PEFs exist but sit behind Pearson's silver tier
+      (401 anonymous); ERs are commentary on the official papers — cite SRC-QPMS-4CH1 for paper identity
+    feeds_families: [EXM, MIS, MS, PED, TUT]
+
+  # ------------------------------------------------------- 14. examiner reports (4CH0 legacy)
+  - id: SRC-ER-4CH0-LEGACY
+    title: Official 4CH0 legacy examiner reports (LEGACY — HISTORICAL)
+    classification: LEGACY — HISTORICAL
+    type: per-paper examiner-report PDFs (er.pdf inside the legacy paper dirs)
+    issuer: Pearson Education Ltd (Edexcel)
+    specification: 4CH0 (A*-G legacy; Certificate-tree rows print 4CH0 paper codes)
+    version: 34 reports across 13 of the 16 held legacy sessions (2011-06 .. 2019-01;
+      2013/2014/2016/2017-06 include the 1CR/2CR quartets)
+    paths:
+      - syllabai-pastpapers@past-papers/pearson-edexcel/international-gcse/chemistry/4ch0/past-papers/<session>/4CH0-<paper>/er.pdf
+    identifiers:
+      tree_sha: fe54f0d76314b953ed9097852b94fd7cef500fce   # 4ch0 subtree @ syllabai-pastpapers 3632b0e6
+      per_file_sha256: recorded in each paper dir's manifest.yaml (type examiner-report)
+    coverage: 13/16 legacy sessions; the only absent sessions are 2014-01, 2015-06, 2016-01
+      (no public Pearson ER — verified soft-404 + zero catalog rows) and the 2018-06 CR variants
+      (ERs verified downloadable but their QP/MS dirs were never ingested — placed-NOT, §21, with
+      sha256s of record in the wave report)
+    provenance: official Pearson qualifications CDN; wave report of record =
+      syllabai-pastpapers@docs/ER-ACQUISITION-2026-10-25.md
+    limitations: LEGACY — historical comparison only, never 4CH1 curriculum truth; some early
+      files are board scans — identity verified from printed text where present else catalog-of-record
+    feeds_families: [HIS, EXM]
+
+  # ------------------------------------------------------- 15. legacy specification corpus
+  - id: SRC-LEGACY-SPEC-4CH0
+    title: Official 4CH0 legacy specification + sample assessment materials (LEGACY — HISTORICAL)
+    classification: LEGACY — HISTORICAL
+    type: specification PDFs + SAMs (unmodified official downloads + spec.json provenance)
+    issuer: Pearson Education Ltd (Edexcel)
+    specification: 4CH0 (A*-G legacy; first teaching 2008/2011 revisions)
+    version: Issue 3 spec (32 pp) + Issue 5 spec+SAMs combined (118 pp) + 2009 SAMs booklet (70 pp)
+    paths:
+      - syllabai-resources@Official-Specifications/igcse-chemistry-legacy-4ch0/
+    identifiers:
+      tree_sha: c315d6be09ad730a961325a01a3015b265dbdd6c   # dir-content tree @ this commit
+      sha1_issue3_spec: 1ca8219b0207c20d7a0c21e7fe3da9a6ba9bec94
+      sha1_issue5_specsams_comb: 51e6505a41278aeb351653ecca9bc4fb137f2bbf
+      sha1_2009_sams: 0853b039d40c73dadef57bb8ef52b701a0cf9d21
+    coverage: legacy curriculum boundaries + specimen papers for longitudinal HIS analysis
+    provenance: official Pearson qualifications CDN (public Specification and sample assessments
+      folders); spec.json in the directory carries per-file sha1/bytes/pages/source_url
+    limitations: LEGACY — HISTORICAL; outside the 39-SME-course manifest.json scope by design
+      (manifest.json covers live-course qualifications); never ground CUR-family artifacts on it
+    feeds_families: [HIS, CUR]
+
 # ------------------------------------------------------------------ gaps
 source_gaps:
   - id: GAP-SRC-001
     title: Official examiner reports
-    detail: zero examiner-report artifacts in any SyllabAI repo (2026-10-25 sweep). Strongly recommended
-      per requirements §2A — feeds MIS/MS/EXM/PED/TUT. Acquisition is backlog BL-001. Until acquired,
-      examiner-sentiment artifacts (EXM-01..05) cannot pass QA on real evidence.
-    severity: HIGH
+    detail: "RESOLVED 2026-10-25 (BL-001, manifest v1.1): 24 official 4CH1 ERs across 8/16 held
+      sessions + 34 4CH0 legacy ERs across 13/16 sessions landed in syllabai-pastpapers
+      (SRC-ER-4CH1, SRC-ER-4CH0-LEGACY) from Pearson's own public CDN. Residuals honestly
+      disclosed in the wave report: no public ER exists for the COVID-era/January/November
+      sessions (no catalog row — not fabricated); Nov-2025 + June-2026 PEFs sit behind
+      Pearson's silver tier (401 anonymous) and remain operator-side queue items."
+    severity: RESOLVED
   - id: GAP-SRC-002
     title: Legacy 4CH0 corpus
-    detail: zero 4CH0 path hits repo-wide. HIS family evidence (requirements §2F) missing; HIS kept
-      OPTIONAL in manifest.yaml. Acquisition is backlog BL-002. Any future 4CH0 material must be
-      classified LEGACY — HISTORICAL.
-    severity: MEDIUM
+    detail: "RESOLVED 2026-10-25 (BL-002, manifest v1.1): the QP/MS corpus was already complete
+      in syllabai-pastpapers (40 dirs / 16 sessions — v1.0's 'zero 4CH0 hits' claim corrected by
+      first-hand re-sweep); this run adds 34 legacy ERs + the official legacy spec corpus
+      (Issue 3 / Issue 5+SAMs / 2009 SAMs) as SRC-ER-4CH0-LEGACY + SRC-LEGACY-SPEC-4CH0,
+      all classified LEGACY — HISTORICAL. Residual: the 2018-06 1CR/2CR QP/MS variants were
+      never ingested (their verified ERs placed-NOT per no-speculative-folders law)."
+    severity: RESOLVED
   - id: GAP-SRC-003
     title: Standalone periodic table / data sheet
     detail: no standalone official reference artifact; evidence embedded in spec PDF + SB1 back matter
@@ -292,7 +379,9 @@ minimum_corpus_check:   # requirements §5 — the six groups, inventoried 2026-
   - group: 3. Complete available QP/MS corpus with paper/session identities
     status: PRESENT   # SRC-QPMS-4CH1 — 54 papers / 16 sessions / 4 variants, identities preserved
   - group: 4. Official examiner reports
-    status: ABSENT    # GAP-SRC-001 — record and proceed where evidence suffices; never fabricate
+    status: PARTIAL   # RESOLVED-2026-10-25 (v1.1): SRC-ER-4CH1 24 ERs / 8 sessions — every session
+    detail: with a public Pearson ER is covered; COVID-era/Jan-Nov sessions have no public ER and
+      Nov-2025/June-2026 are silver-tier (401) — disclosed in GAP-SRC-001, never fabricated
   - group: 5. Validated SME revision notes + question-to-spec mappings
     status: PRESENT   # SRC-SME-NOTES-4CH1 + SRC-SPECLINKS-4CH1 (+ SRC-EXT-NOTES-4CH1, SRC-PMT-4CH1)
   - group: 6. Practical guidance, data sheets, reference material
@@ -300,4 +389,9 @@ minimum_corpus_check:   # requirements §5 — the six groups, inventoried 2026-
     detail: statements; standalone data sheet absent (GAP-SRC-003)
 legacy_inventory:      # requirements §5, final line — 4CH0 as separate legacy group
   group: 4CH0 legacy
-  status: ABSENT       # GAP-SRC-002
+  status: PRESENT      # RESOLVED-2026-10-25 (v1.1) — see SRC-ER-4CH0-LEGACY + SRC-LEGACY-SPEC-4CH0
+  classification: "LEGACY — HISTORICAL"
+  detail: complete QP/MS (40 dirs / 16 sessions, pre-existing in syllabai-pastpapers,
+    first-hand re-verified this run) + 34 legacy ERs (13/16 sessions) + official spec corpus
+    (Issue 3 / Issue 5+SAMs / 2009 SAMs). The v1.0 sweep's 'zero 4CH0 hits' claim is corrected
+    by the first-hand re-sweep (case-sensitive miss of the lowercase 4ch0/ subtree).

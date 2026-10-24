@@ -55,6 +55,29 @@ Qualification slugs group SME courses that share one official spec (e.g. `ial-ma
 - Verification: `scripts/sme_spec_verify.py` (G1–G5: schema totals, sha1/page integrity, 39-course coverage with no duplicates, codes present, legacy-copy identity) — ALL PASS.
 - These are official Pearson Edexcel documents, downloaded from Pearson's public CDN; provenance per file in `spec.json`.
 
+## Legacy qualification — 4CH0 (SIB BL-002, 2026-10-25, trace 1a16f5bd6146b01d)
+
+`igcse-chemistry-legacy-4ch0/` — official documents for the **legacy A*-G Edexcel International
+GCSE Chemistry (4CH0)** qualification (final sessions January 2019), acquired for the Subject
+Intelligence build's HIS family (longitudinal comparison). Three unmodified Pearson-CDN
+downloads + per-file provenance in the directory's own `spec.json`:
+
+| file | what | pages | sha1 |
+| --- | --- | --- | --- |
+| `IGCSE Chemistry (4CH0) Issue 3.pdf` | legacy specification, Issue 3 | 32 | `1ca8219b0207c20d7a0c21e7fe3da9a6ba9bec94` |
+| `INT_GCSE_CHEM_SPECSAMS_ISS5_comb.PDF` | specification + sample assessment material, Issue 5 combined | 118 | `51e6505a41278aeb351653ecca9bc4fb137f2bbf` |
+| `IGCSE2009_Chemistry_SAMs.pdf` | sample assessment materials booklet (2009 spec) | 70 | `0853b039d40c73dadef57bb8ef52b701a0cf9d21` |
+
+**Scope note:** this directory is deliberately **outside `manifest.json`** — that manifest and
+its `sme_spec_verify.py` gates cover the live qualifications behind the 39 SME courses, and 4CH0
+backs no SME course. The legacy dir is self-documented (spec.json carries source URLs, sha1s,
+byte counts, page counts, cover codes, fetched_utc); everything in it is classified
+LEGACY — HISTORICAL in the SIB library (`SubjectIntelligence/CHEMISTRY_4CH1/source_manifest.yaml`
+v1.1, `SRC-LEGACY-SPEC-4CH0`) and must never ground current-curriculum artifacts. Companion
+legacy assessment material (complete 4CH0 QP/MS archive + 34 examiner reports) lives in
+`SyllabAI/syllabai-pastpapers@past-papers/pearson-edexcel/international-gcse/chemistry/4ch0/`
+(wave report: that repo's `docs/ER-ACQUISITION-2026-10-25.md`).
+
 ## CIE qualifications (T-SPECS-CIE-1, 2026-10-18)
 
 Official Cambridge International Education syllabus PDFs for every qualification behind the 44 `cie-*` SME courses in `../SME-ExamQuestion/` and `../SME-RevisionNotes/`. 33 qualifications — one per unique syllabus edition — 44/44 courses covered. Each `<qualification>/spec.json` carries the source URL, edition window, SHA-1, byte size, page count, cover code and the SME courses it covers; `manifest.json` totals now span both boards.
