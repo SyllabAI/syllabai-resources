@@ -60,3 +60,39 @@ Stage Summary:
   llm_repair_ych11.js` → `merge_llm_ych11.py` → `audit_polish_ych11.py` →
   `validate_ych11.py`. CATALOG row 11 + books/README.md records land in the
   same commit. SB2 (YCH12 book) is the follow-on lane (ych2_v1_ law).
+
+---
+Task ID: T-PARSE-YCH11-1-R2
+Agent: Z.ai (main, zai-web)
+Task: Polish R2 restoration window(s) under the operator directive "Restore
+polish R2, and if not possible right now, then Open a new SB2 (YCH12) lane"
+(trace 1a16eb539f8701c1).
+
+Work Log:
+- Quota probe: 429 wall confirmed at session start; one foreground window
+  (PROBE_MAX=2) attempted late in the session — the wall briefly lifted:
+  22 OK / 2 rejected / 3 error-cum-429, then the script's 2-consecutive-429
+  stop fired cleanly (resumable design working as intended).
+- Cumulative polish ledger: R1 48 + R2 22 = **70/800 OK** (81 records total:
+  70 ok / 6 rejected / 5 error-cum-429).
+- MERGE FROM PRISTINE BASELINE (the r1-lesson fix): re-running the R1-style
+  merge over an already-polished corpus would clobber text_original with
+  repaired text for previously-repaired chunks; instead the out/ corpus was
+  reset to .pristine and the FULL repairs file (all 70 ok) applied once —
+  text_original = pre-polish truth for every repaired chunk, idempotent.
+- merge_llm_ych11.py: 1571 chunks, llm_repaired 70, text changed 70,
+  anchor check PASS (0 drift). audit_polish_ych11.py: corpus-wide space_run
+  635 → 7 (the 7 residuals are genuine long chemistry words:
+  disproportionation, tetrachloromethane, trifluoromethanesulfonate, ...),
+  0 Unicode-unit regressions vs text_original. validate_ych11.py: ALL CHECKS
+  PASSED (after rebuilding out/parse_report_v1.json from the lane report —
+  the merge regenerates the report and had dropped by_design_gaps; the lane
+  report remains the base of record).
+- Landed: parsed/ corpus + parse_report + full_book_docling.md refreshed;
+  evidence/llm_repairs_ych11.jsonl now 81 records. Ledgers updated in the
+  same commit.
+
+Stage Summary:
+- Polish parked at **70/800** (730 selected ids remain, quota-walled,
+  resumable: node llm_repair_ych11.js → cp pristine → merge → audit →
+  validate). YCH11 lane otherwise COMPLETE (r0 + r1 + R2).

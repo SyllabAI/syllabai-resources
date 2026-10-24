@@ -1088,15 +1088,17 @@ THEPURPOSEOFTHISSECTION
 In your previous study of chemistry, you have learned about several terms at anintroductorylevel. In this book,you will study them ingreaterdepth.
 
 This topic is designed to revise some of the terms that you have metbefore,andwill meet again in more detail.
-WHATISANELEMENT?
 
-We can start by looking at a simplified version of thePeriodic Table ofElements.You have alreadylearned something about thePeriodicTableandwill learnmoreaboutit inTopic2.
+#### WHATISANELEMENT?
+WHAT IS AN ELEMENT?
 
-EachboxinthePeriodicTable contains a capital letter,ormore often apair of letters.Thefirst one is always acapital letter and thesecond oneisneveracapital letterEachletterorpair of lettersrepresentsanelement.Youwill knowsomeofthemfrom your everyday life.For example,oxygen is an element youbreathe, andiron isanelementusedtomakebodiesofcars andbicycles.
+We can start by looking at a simplified version of the Periodic Table of Elements. You have already learned something about the Periodic Table and will learn more about it in Topic 2.
 
-Youmayhavebeentaughtthatanelementisasubstancethat containsatoms ofonlyone type.Elementsare chemically the simplest substances so they cannot be broken down using chemical reactions.For example,neon is an element because it contains only neon atoms,which havethe symbol Ne.It cannot bebroken down into atomsof any otherelement.Wateris not anelementbecauseitcanbebrokendowninto theelements hydrogen and oxygen.
+Each box in the Periodic Table contains a capital letter, or more often a pair of letters. The first one is always a capital letter and the second one is never a capital letter. Each letter or pair of letters represents an element. You will know some of them from your everyday life. For example, oxygen is an element you breathe, and iron is an element used to make bodies of cars and bicycles.
 
-This way of describing an element is sufficient for this stage of your studies, but more details will be required as you progress through this course.Forexample,some elements contain isotopes.You will learn about isotopes inTopic 2. Neon contains three stable isotopes, 2°Ne, 21Ne,and 22Ne. All isotopes of the same elementhave the samenumberofprotons and electrons, but different numbers ofneutrons.
+You may have been taught that an element is a substance that contains atoms of only one type. Elements are chemically the simplest substances so they cannot be broken down using chemical reactions. For example, neon is an element because it contains only neon atoms, which have the symbol Ne. It cannot be broken down into atoms of any other element. Water is not an element because it can be broken down into the elements hydrogen and oxygen.
+
+This way of describing an element is sufficient for this stage of your studies, but more details will be required as you progress through this course. For example, some elements contain isotopes. You will learn about isotopes in Topic 2. Neon contains three stable isotopes, ²⁰Ne, ²¹Ne, and ²²Ne. All isotopes of the same element have the same number of protons and electrons, but different numbers of neutrons.
 WHATISANATOM?
 
 You alreadyknowwhat an atom is,becausewehaveused the term tohelpyou understandwhat an element is.Atoms are far toosmall tobeseenwith thehuman eye.You can see a tinygrain of sand and this contains many billions of atoms of silicon and oxygen.An atom canbe described as the smallestpart of an is fine when you work through Topic 1. However, in Topic 2 youwill needtorecallthatatomscontainevensmallerparticles (protons, neutrons and electrons).
@@ -3493,11 +3495,11 @@ isotopesatomsofthesameelementthathavethesameatomic numberbutdifferentmassnumber
 2MASSSPECTROMETRYAND RELATIVEMASSESOFATOMS ISOTOPESANDMOLECULES
 LEARNING OBJECTIVES
 
-• Understand thebasicprinciplesof a massspectrometer andbe ableto analyse andinterpretspectrato:deduce theisotopic composition of an element;calculate relative atomicmassfrom the relative abundance of isotopes and vice versa; determine therelativemolecularmassof a molecule,and identifymoleculesinasample.
+• Understand the basic principles of a mass spectrometer and be able to analyse and interpret spectra to: deduce the isotopic composition of an element; calculate relative atomic mass from the relative abundance of isotopes and vice versa; determine the relative molecular mass of a molecule, and identify molecules in a sample.
 
-• Understand thationsinamassspectrometermayhave a 2+charge.
+• Understand that ions in a mass spectrometer may have a 2+ charge.
 
-• Be able topredictthemassspectra,includingrelativepeakheights,fordiatomicmoleculesincludingchlorine,giventhe isotopicabundances.
+• Be able to predict the mass spectra, including relative peak heights, for diatomic molecules including chlorine, given the isotopic abundances.
 RELATIVEATOMICMASSANDRELATIVE ISOTOPICMASS
 RELATIVEATOMICMASS
 
@@ -4298,7 +4300,7 @@ REASONING
 • 5. Whydoesneonhave thehighestfirstionisationenergyof all theelementsinPeriod2?
 SUBJECT VOCABULARY
 
-periodicproperties(periodicity)regularlyrepeatingpatternsof atomic,physical andchemicalproperties,whichcanbepredicted usingthePeriodicTable andexplainedusingtheelectron configurationsoftheelements
+periodic properties (periodicity) regularly repeating patterns of atomic, physical and chemical properties, which can be predicted using the Periodic Table and explained using the electron configurations of the elements
 
 ## Topic 2: Unit 1: Structure, Bonding and Introduction to Organic Chemistry
 
@@ -4836,37 +4838,37 @@ Ioniccompoundscanconductelectricityandundergoelectrolysiswheneithermoltenorinaqu
 For example, when you pass a direct electric current through molten sodium chloride (fig D), sodium is formed at the negative electrode and chlorine isformed at the positive electrode.
 LEARNING TIP
 
-Avoidsayingthatthereisan 'ionicbond'betweentwoions.
+Avoid saying that there is an 'ionic bond' between two ions.
 
-Thisisbecauseinanionicsolid
+This is because in an ionic solid
 
-eachioninteractswithmany otherions,ofboththesame and opposite chargeto itself. The energythatbindsthe structuredoesnotcomefrom singleinteractionsbetweenions (so-called ionicbonds),but fromtheinteractionsbetween alloftheionsinthelattice.This energyiscalledthelattice energy'andyou will meet thisin Topic12B(Book2:IAL).
+each ion interacts with many other ions, of both the same and opposite charge to itself. The energy that binds the structure does not come from single interactions between ions (so-called ionic bonds), but from the interactions between all of the ions in the lattice. This energy is called the 'lattice energy' and you will meet this in Topic 12B (Book 2: IAL).
 
-• fig E The effect of passing an electriccurrent through aqueous copper(ll) chromate.
+• fig E The effect of passing an electric current through aqueous copper(II) chromate.
 
 The explanation for this phenomenon is that:
 
 • ·the positive sodium ions migrate towards the negative electrode where they gain electrons and become sodium atoms
 
-• ·the negative chloride ions migrate towards the positive electrode where they lose electrons and become chlorinemolecules.
+• ·the negative chloride ions migrate towards the positive electrode where they lose electrons and become chlorine molecules.
 
-At thenegative electrode:2Na++2e-→2Na
+At the negative electrode: 2Na⁺ + 2e⁻ → 2Na
 
-At the positive electrode: 2Cl- → Cl2 + 2e-
+At the positive electrode: 2Cl⁻ → Cl₂ + 2e⁻
 
 Overall equation:
 
-2NaCl→ 2Na + Cl2
+2NaCl → 2Na + Cl₂
 
-chromate(VI) solution (fig E). Aqueous copper(Il) ions, Cu²+(aq), are blue and aqueous chromate(VI) ions, CrOz-(aq), are yellow.
+chromate(VI) solution (fig E). Aqueous copper(II) ions, Cu²⁺(aq), are blue and aqueous chromate(VI) ions, CrO₄²⁻(aq), are yellow.
 
-The Cu2+(aq) ions migrate towards the negative electrode and the solution around this electrode turns blue. The CrO2-(aq) ions migrate towards the positive terminal and the solution around this electrode turns yellow.
+The Cu²⁺(aq) ions migrate towards the negative electrode and the solution around this electrode turns blue. The CrO₄²⁻(aq) ions migrate towards the positive terminal and the solution around this electrode turns yellow.
 
-Furtherevidencefortheexistenceofionsis suppliedbyelectron densitymaps
+Further evidence for the existence of ions is supplied by electron density maps
 
-FigF is an electron density mapfor sodium chloride.
+Fig F is an electron density map for sodium chloride.
 
-• fig FElectron density map of sodium chloride produced from X-ray diffraction patterns
+• fig F Electron density map of sodium chloride produced from X-ray diffraction patterns
 
 The electron density map clearly shows separate ions. A represents a sodium ion and B represents a chloride ion.
 CHECKPOINT
@@ -6043,7 +6045,7 @@ figAFlowchartfordeterminingbonding and structure.
 There will, of course,always be exceptions.For example,graphite has a giant covalent structure and yetit isarelativelygoodconductorofelectricitywhensolid.
 EXAM HINT
 
-Ifaquestion asksyou toexplain theproperties ofa substance,it isnotenoughsimplyto describethebonding.Youmust refertotheparticlesinvolved andhowtheyarearrangedor behave.Forexample,metals conductelectricitybecausethe delocalisedelectronsarefreeto movethroughthemetallic crystal whenapotential differenceisapplied.
+If a question asks you to explain the properties of a substance, it is not enough simply to describe the bonding. You must refer to the particles involved and how they are arranged or behave. For example, metals conduct electricity because the delocalised electrons are free to move through the metallic crystal when a potential difference is applied.
 
 Table B gives a summary of the major properties of each type of structure.
 
@@ -6837,27 +6839,29 @@ LEARNING OBJECTIVES
 • Understand the term'structural isomerism'and draw the structural isomers oforganicmolecules,given their molecular formula.
 
 • Draw thestructuralisomersofalkanesandcycloalkaneswithuptosixcarbon atoms.
-STRUCTURALISOMERS
 
-Considerthesetwostructures:
+#### STRUCTURALISOMERS
+STRUCTURAL ISOMERS
+
+Consider these two structures:
 
 CH₃—CH₂—CH₂—CH₃ CH₃—CH(CH₃)—CH₃
 
 butane methylpropane
 
-Youcanseethattheyaredifferentcompoundsbecausetheir names and structures are different.However, theirmolecular formulae are the same. They can both be represented by C4H10 These two compounds are simple examples of structural isomers.In otherwords,theyhave the samemolecularformula but different structuralformulae.
+You can see that they are different compounds because their names and structures are different. However, their molecular formulae are the same. They can both be represented by C₄H₁₀. These two compounds are simple examples of structural isomers. In other words, they have the same molecular formula but different structural formulae.
 
-fig ABy counting the atomsyou can see that both structureshave the molecularformula C4H10-
+fig A By counting the atoms you can see that both structures have the molecular formula C₄H₁₀.
 
-The molecular formula CHio represents only two possible structures,butmorecomplicatedmolecularformulaecanbe represented byseveralpossiblestructures.Asthenumber of carbonatomsincreases,thenumberofpossiblestructurescanbe hundreds orthousands.
+The molecular formula C₄H₁₀ represents only two possible structures, but more complicated molecular formulae can be represented by several possible structures. As the number of carbon atoms increases, the number of possible structures can be hundreds or thousands.
 
-TYPESOFSTRUCTURALISOMERISM
+TYPES OF STRUCTURAL ISOMERISM
 
 There are two important types of structural isomerism.
 
-CHAINISOMERISM
+CHAIN ISOMERISM
 
-Chainisomerismrefers tomoleculeswithdifferentcarbonchains. Butane and methylpropane (shown in fig A above) are examples ofchain isomers because their carbon chains are different.
+Chain isomerism refers to molecules with different carbon chains. Butane and methylpropane (shown in fig A above) are examples of chain isomers because their carbon chains are different.
 POSITIONISOMERISM
 
 Position isomerism refers to molecules with the same functional group attached indifferent positions on the same carbon chain.Propan-1-ol and propan-2-ol are simple examples of position isomerism:
@@ -7611,15 +7615,15 @@ ALKANES,ALKANESEVERYWHERE
 The articlebelow considers alkanes as they occurin nature.
 ALKANES: NATURAL PRODUCTS
 
-Alkanes are widespread in nature, originating mostly from biological processes.Forexample,odd-numbered,unbranched alkanescanbefoundinthesporesoffungiwhileeven-numbered alkanes are contained in sedimentary rocks.A theory stating that largeamountsofmethanefoundonEarthandJupiterareofnonbiogenicoriginhasnotbeenproven asyet.
+Alkanes are widespread in nature, originating mostly from biological processes. For example, odd-numbered, unbranched alkanes can be found in the spores of fungi while even-numbered alkanes are contained in sedimentary rocks. A theory stating that large amounts of methane found on Earth and Jupiter are of nonbiogenic origin has not been proven as yet.
 
-Scientifictheories state thatmethane played anessentialrolein theoriginoflifeonEarth.Methaneandammoniawerethemain components of theprimordial atmosphere.Under theinfluence of UV irradiation, they form hydrogen cyanide (HCN) which subsequently could polymerise to adenine,an important building blockofribonucleicacid.Reactionofmethaneandammoniainthe presence of waterleads to amino acids.
+Scientific theories state that methane played an essential role in the origin of life on Earth. Methane and ammonia were the main components of the primordial atmosphere. Under the influence of UV irradiation, they form hydrogen cyanide (HCN) which subsequently could polymerise to adenine, an important building block of ribonucleic acid. Reaction of methane and ammonia in the presence of water leads to amino acids.
 
-In nature,methaneis mostlyproduced bybacteria,for example intheintestinesofcows.Additionally,thesimplestalkaneis also produced by bacteria in wetlands, so for a long time it was known as marsh gas.
+In nature, methane is mostly produced by bacteria, for example in the intestines of cows. Additionally, the simple stalkane is also produced by bacteria in wetlands, so for a long time it was known as marsh gas.
 
-figAMethane is naturallyproduced in animals'digestive tracts.
+fig A Methane is naturally produced in animals' digestive tracts.
 
-Methane alsoexists incoal mines(minegas)andbecause of theveryexplosivenatureofanairandmethanemixtureit is responsibleforminegasexplosions.Theoutputofmethane hasdoubled in thelasthundredyears makingit one of themost importantgreenhouse gases which are responsibleforglobal warming.
+Methane also exists in coal mines (mine gas) and because of the very explosive nature of an air and methane mixture it is responsible for mine gas explosions. The output of methane has doubled in the last hundred years making it one of the most important greenhouse gases which are responsible for global warming.
 
 fig B Candida albicans is a single-celled fungus that is commonly found on the skin and mucous membranes of the mouth, and in digestive and respiratory tracts.
 
@@ -8728,15 +8732,15 @@ C₆H₈O₇(aq) + 3NaHCO₃(s) → C₆H₅O₇³⁻(aq) + 3Na⁺(aq) + 3CO₂(
 △H= +70 kJ mol⁻¹
 LEARNING TIP
 
-The negative(-) signindicates that heat energy is transferred from the system to the surroundings.
+The negative(-) sign indicates that heat energy is transferred from the system to the surroundings.
 
-The positive(+) signindicates that heat energyis transferredfrom the surroundingstothesystem.
+The positive(+) sign indicates that heat energy is transferred from the surroundings to the system.
 
-Exothermicreactionscanusuallyberecognised becausethey resultinanimmediateincreaseintemperature.Forexample when hydrochloric acid is added to aqueous sodium hydroxide, thetemperature ofthereactionmixtureincreases.Similarly,when natural gas burns in oxygen, the flame produced is hot.
+Exothermic reactions can usually be recognised because they result in an immediate increase in temperature. For example when hydrochloric acid is added to aqueous sodium hydroxide, the temperature of the reaction mixture increases. Similarly, when natural gas burns in oxygen, the flame produced is hot.
 
-Conversely,endothermicreactions oftenproduce a decrease intemperatureofthereactionmixture,forexamplewhensolid sodium hydrogencarbonate is added to aqueous citric acid.
+Conversely, endothermic reactions often produce a decrease in temperature of the reaction mixture, for example when solid sodium hydrogencarbonate is added to aqueous citric acid.
 
-Anyreaction thathastobecontinuallyheatedinorderfor it to takeplaceis endothermic.Forinstance,the thermal decompositionofcalciumcarbonateintocalciumoxideand carbondioxideis an endothermicreaction:
+Any reaction that has to be continually heated in order for it to take place is endothermic. For instance, the thermal decomposition of calcium carbonate into calcium oxide and carbon dioxide is an endothermic reaction:
 
 CaCO₃(s) → CaO(s) + CO₂(g) ΔH = +178 kJ mol⁻¹
 STANDARDCONDITIONS
@@ -10353,17 +10357,17 @@ EXAM HINT
 Youmaybe asked to sketch agraphorplota graph.lf youare asked to sketch,youonlyneed toshowthepatternortrend.lf youareaskedto plot,youneedtoprovideclear,evenscalesoneachaxisandpoints plottedtowithinanaccuracyof1mm².
 DID YOU KNOW?
 
-Therearethreeintermolecularinteractionswithineach compound.Theyare:
+There are three intermolecular interactions within each compound. They are:
 
-• 1Londonforces
+• 1 London forces
 
-• 2 permanentdipole-dipoleinteractions
+• 2 permanent dipole-dipole interactions
 
-• 3hydrogen bonding.
+• 3 hydrogen bonding.
 
-However,withHCl,HBrand HI,theelectronegativityof the halogen islowenoughfor thepermanent dipole-dipole interactionsandthehydrogenbondingtoberelativelyweak.The predominant interaction in each compound is the London force.
+However, with HCl, HBr and HI, the electronegativity of the halogen is low enough for the permanent dipole-dipole interactions and the hydrogen bonding to be relatively weak. The predominant interaction in each compound is the London force.
 
-TheboilingtemperatureofHFissignificantlyhigherthanthat of theotherthreehydrogenhalides,despitehavingfewer electronspermolecule.TheLondonforce isweakerinHF,but thehydrogenbondingissignificantlygreaterbecauseofthehigh electronegativityoffluorine.
+The boiling temperature of HF is significantly higher than that of the other three hydrogen halides, despite having fewer electrons per molecule. The London force is weaker in HF, but the hydrogen bonding is significantly greater because of the high electronegativity of fluorine.
 ANOMALOUSPROPERTIESOFWATER
 
 Waterhas some anomalousproperties.Thefollowingtwo are particularlyimportant:
@@ -10665,15 +10669,17 @@ The structural formula and shape of each molecule is:
 ### Topic 8: Redox Chemistry and Groups 1, 2 and 7
 
 TOPIC8REDOXCHEMISTRY AND GR0UPS 1, 2 AND 7
-AREDOXCHEMISTRYIBTHEELEMENTSOFGROUPS1 AND2ICINORGANICCHEMISTRYOFGROUP71 D QUANTITATIVECHEMISTRY
 
-Redoxreactions are amongthemostcommon and mostimportant chemical reactionsineveryday life. Herearetwoexamplesofredoxreactionsthatoccurinourdailylives:
+#### AREDOXCHEMISTRYIBTHEELEMENTSOFGROUPS1 AND2ICINORGANICCHEMISTRYOFGROUP71 D QUANTITATIVECHEMISTRY
+AREDOX CHEMISTRY IB THE ELEMENTS OF GROUPS 1 AND 2 IC INORGANIC CHEMISTRY OF GROUP 7 D QUANTITATIVE CHEMISTRY
 
-• 1Oneofthemostcommonchemicalreactions,combustion,isaclassicredoxreaction.Forexample,when petrolburnswithintheinternal combustionengineofacar,carbonatomsinthefuel areoxidised to carbon dioxide and carbon monoxide. As this is happening, oxygen in the air is reduced when it combines withthehydrogenatomsofthefueltoformwater.
+Redox reactions are among the most common and most important chemical reactions in everyday life. Here are two examples of redox reactions that occur in our daily lives:
 
-• 2Photosynthesis is probably the single most important process on the planet.It uses the energy of sunlight to grow plants and so provide food for all higher organisms.Photosynthesis is accomplished through a series of redoxreactionsinwhich energyfrom light is finally converted into carbohydrates on which animals andhumans canfeed.Oxygen is also avital by-productofphotosynthesis.
+• 1 One of the most common chemical reactions, combustion, is a classic redox reaction. For example, when petrol burns within the internal combustion engine of a car, carbon atoms in the fuel are oxidised to carbon dioxide and carbon monoxide. As this is happening, oxygen in the air is reduced when it combines with the hydrogen atoms of the fuel to form water.
 
-ThePeriodicTableof elementsis afamiliarfeaturein anystudyofchemistry.It helpsus tomakesenseof the varietyofchemicalelementsandtheirdifferentreactions,someofwhichareredoxreactions.Italsohelpsus mostly on three groups (columns) of the Periodic Table to illustrate the trends within the groups and several featuresoftheelementsandcompoundsinthem.
+• 2 Photosynthesis is probably the single most important process on the planet. It uses the energy of sunlight to grow plants and so provide food for all higher organisms. Photosynthesis is accomplished through a series of redox reactions in which energy from light is finally converted into carbohydrates on which animals and humans can feed. Oxygen is also a vital by-product of photosynthesis.
+
+The Periodic Table of elements is a familiar feature in any study of chemistry. It helps us to make sense of the variety of chemical elements and their different reactions, some of which are redox reactions. It also helps us mostly on three groups (columns) of the Periodic Table to illustrate the trends within the groups and several features of the elements and compounds in them.
 
 #### AREDOXCHEMISTRYIBTHEELEMENTSOFGROUPS1 AND2ICINORGANICCHEMISTRYOFGROUP71 D QUANTITATIVECHEMISTRY
 In thesegroups,youwill meetfamiliarelementssuch asmagnesium andchlorine,but alsolessfamiliar elements such asbarium and bromine.For example, you will learn how the limewater test for carbon dioxide works,howmilkof magnesiarelieves indigestion andwhyfarmersspread lime on theirfields.You will learn that although barium compounds are very poisonous, you can safely eat a'barium meal' before having an X-ray.
@@ -10718,25 +10724,25 @@ What will I study in this topic?
 
 LEARNING OBJECTIVES
 
-• Understandoxidationandreductionintermsofelectrontransferandchangesinoxidationnumber.
+• Understand oxidation and reduction in terms of electron transfer and changes in oxidation number.
 
-• Understand the application of theseideastoreactions of s-block and p-blockelements.
+• Understand the application of these ideas to reactions of s-block and p-block elements.
 
-• Knowthatoxidisingagentsgainelectrons andthatreducingagentsloseelectrons.
+• Know that oxidising agents gain electrons and that reducing agents lose electrons.
 
-• Understand that a disproportionation reaction involves an element in a single species being simultaneously oxidised andreduced.
+• Understand that a disproportionation reaction involves an element in a single species being simultaneously oxidised and reduced.
 
-You originallykmew'oxidation'as the addition of oxygen and 'reduction' as the removal of oxygen.
+You originally knew 'oxidation' as the addition of oxygen and 'reduction' as the removal of oxygen.
 
-The reaction between iron(Il) oxide and carbon monoxide that takes place in the blast furnace provides an example of each (fig A).
+The reaction between iron(II) oxide and carbon monoxide that takes place in the blast furnace provides an example of each (fig A).
 
-figAExample of oxidation and reduction during the reaction between iron(Ill)oxideandcarbonmonoxide.
+fig A Example of oxidation and reduction during the reaction between iron(III) oxide and carbon monoxide.
 
-We thenexpandedthesedefinitionsso thatoxidationisdescribed as the removal of hydrogen and reduction is described as the addition ofhydrogen.Thereactionbetween chlorineand hydrogen sulfide provides an example (fig B).
+We then expanded these definitions so that oxidation is described as the removal of hydrogen and reduction is described as the addition of hydrogen. The reaction between chlorine and hydrogen sulfide provides an example (fig B).
 
-figBExample ofoxidation andreductionduring thereactionbetween chlorine andhydrogensulfide.
+fig B Example of oxidation and reduction during the reaction between chlorine and hydrogen sulfide.
 
-Areaction thatinvolvesbothreduction and oxidationiscalled a redox reaction.
+A reaction that involves both reduction and oxidation is called a redox reaction.
 OXIDATIONANDREDUCTIONINTERMSOF ELECTRONLOSSANDGAIN
 ELECTRONTRANSFERINREDOXREACTIONS
 
@@ -11025,15 +11031,15 @@ In each case, the oxidation number of one of the elements involved has decreased
 This concept can now be applied to full equations.
 WORKED EXAMPLE
 
-Useoxidationnumberstoshowwhetherthefollowingreactionsareexamplesofredoxreactions.
+Use oxidation numbers to show whether the following reactions are examples of redox reactions.
 
 H₂S(g) + Cl₂(g) → 2HCl(g) + S(s)
 
-Oxidationnumbers:+1-2
+Oxidation numbers: +1 -2
 
 0
 
-+1-1
++1 -1
 
 0
 
@@ -12038,15 +12044,17 @@ TableA shows some information about the Group7elements.
 
 #### INTRODUCTIONTOTHEGROUP7ELEMENTS
 table A Physical properties of Group7elements.
-TRENDSINMELTINGANDBOILINGTEMPERATURE
 
-All of the halogens exist as diatomic molecules, so their melting and boiling temperatures depend on thestrengthsoftheintermolecularforcesofattractionbetweenthesemolecules.Welooked atthese forces, known as London forces, in Topic 7. Here is a reminder of how they happen.
+#### TRENDSINMELTINGANDBOILINGTEMPERATURE
+TRENDS IN MELTING AND BOILING TEMPERATURE
 
-As the two atoms in the diatomic molecule are identical, the pair of electrons forming the covalent bondbetweenthemissharedequallybetween thetwo atoms.Thismeansthatthehalogenmolecules arenon-polar,at least on average.However, as thepositive charges of theprotons in thetwonuclei areinfixedpositions,but the electrondensityin ahalogenmolecule continuouslyfluctuates, sometimesthecentresofpositive andnegativechargedonot coincide.This situationresultsin a temporary dipole,which is oftenreferred to as aninstantaneous dipole.
+All of the halogens exist as diatomic molecules, so their melting and boiling temperatures depend on the strengths of the intermolecular forces of attraction between these molecules. We looked at these forces, known as London forces, in Topic 7. Here is a reminder of how they happen.
 
-We will use a rectangular shape to represent a halogen molecule.The two dots represent the nuclei of the two halogen atoms.When twomolecules are close together, you would expect no interaction betweenthetwobecausetheyarebothnon-polar.
+As the two atoms in the diatomic molecule are identical, the pair of electrons forming the covalent bond between them is shared equally between the two atoms. This means that the halogen molecules are non-polar, at least on average. However, as the positive charges of the protons in the two nuclei are in fixed positions, but the electron density in a halogen molecule continuously fluctuates, sometimes the centres of positive and negative charge do not coincide. This situation results in a temporary dipole, which is often referred to as an instantaneous dipole.
 
-If the molecule on the left becomes an instantaneous dipole,then it will cause an induced dipole in themoleculeontheright.Thisresultsinaforce ofattractionbetweenthetwomolecules:
+We will use a rectangular shape to represent a halogen molecule. The two dots represent the nuclei of the two halogen atoms. When two molecules are close together, you would expect no interaction between the two because they are both non-polar.
+
+If the molecule on the left becomes an instantaneous dipole, then it will cause an induced dipole in the molecule on the right. This results in a force of attraction between the two molecules:
 
 #### TRENDSINMELTINGANDBOILINGTEMPERATURE
 Thisforce of attraction is described as aninstantaneousdipole-induced dipole attraction,and these are theintermolecularforces ofattractionthatexistbetweenhalogen molecules.Theseweakforces increaseasthenumberofelectrons andthereforethesizeoftheelectroncloudincreases.The forces increase instrengthdownGroup7as the number ofelectronsinthemolecules increases.This explains the increase inboth melting temperature and boiling temperature down Group 7.
@@ -12221,23 +12229,23 @@ In this topic,we will look at reactions of halide ions,not halogen molecules.It 
 | Low               | astatine  | At2       | astatide | At-      | High             |
 
 #### REDOXREACTIONSAGAIN
-table A Notice that thedecreasing trenddown thegroupinoxidisingpowerofhalogensgoeswith theincreasing trend in reducing power of halides.
+table A Notice that the decreasing trend down the group in oxidising power of halogens goes with the increasing trend in reducing power of halides.
 
 The reducing action of halide ions can be represented by this general half-equation:
 
 2X⁻ → X₂ + 2e⁻
 
-Sulfuric acidis ofcourse an acid,but whenconcentratedit containsveryfewions.Wecanwrite an equationforitspartialionisation:
+Sulfuric acid is of course an acid, but when concentrated it contains very few ions. We can write an equation for its partial ionisation:
 
 H₂SO₄ ⇌ H⁺ + HSO₄⁻
 
-Notethereversiblearrow.Thepositionofthisequilibriumlieswell totheleftintheconcentrated acid,and thisfirstionisationisfarfrom complete.The second ionisation,toproduce sulfateions, occurs onlytoa smallextentin the concentrated acid:
+Note the reversible arrow. The position of this equilibrium lies well to the left in the concentrated acid, and this first ionisation is far from complete. The second ionisation, to produce sulfate ions, occurs only to a small extent in the concentrated acid:
 
 HSO₄⁻ ⇌ H⁺ + SO₄²⁻
 
-it acts as an oxidising agent,it is reduced,but the extent of its reduction and the products formed depend on the speciesbeingoxidised.
+it acts as an oxidising agent, it is reduced, but the extent of its reduction and the products formed depend on the species being oxidised.
 
-Thethreepossiblereductionproductsare:
+The three possible reduction products are:
 
 • ·sulfur dioxide
 
@@ -12245,9 +12253,9 @@ Thethreepossiblereductionproductsare:
 
 • ·hydrogen sulfide.
 
-Three different half-equations can be written to represent its oxidising action. Note the change in oxidationnumber of the sulfurin each case:
+Three different half-equations can be written to represent its oxidising action. Note the change in oxidation number of the sulfur in each case:
 
-Half-equation 1.H2SO4+ 2H++2e-→2H2O+SO2 +6 +4 Half-equation 2.H2SO4+ 6H++ 6e-→ 4H2O +S +6 0 Half-equation 3. H2SO4 + 8H++ 8e-→ 4H2O + H2S
+Half-equation 1. H2SO4 + 2H+ + 2e- → 2H2O + SO2 +6 +4 Half-equation 2. H2SO4 + 6H+ + 6e- → 4H2O + S +6 0 Half-equation 3. H2SO4 + 8H+ + 8e- → 4H2O + H2S
 
 H₂SO₄ + 8H⁺ + 8e⁻ → 4H₂O + H₂S
 EXAM HINT
@@ -12480,27 +12488,29 @@ Hydrogen halides all react with ammonia gas to form salts, all of which are whit
 LEARNING OBJECTIVES
 
 • Beabletocalculatesolutionconcentrations,includingsimple acid-base titrations.
-WHATARESTANDARDSOLUTIONSANDPRIMARYSTANDARDS?
 
-Thenext topic,Topic8D.2,is about doing titrations.One substance needed in a titration is a standard solution,which we will look at in this topic.
+#### WHATARESTANDARDSOLUTIONSANDPRIMARYSTANDARDS?
+WHAT ARE STANDARD SOLUTIONS AND PRIMARY STANDARDS?
 
-Astandardsolutionisasolutionwhoseconcentrationis accurately known. One obvious way to prepare a standard solution istotakeaknownmassofa substanceanddissolveit in watertomakeaknownvolumeofsolution.
+The next topic, Topic8D.2, is about doing titrations. One substance needed in a titration is a standard solution, which we will look at in this topic.
+
+A standard solution is a solution whose concentration is accurately known. One obvious way to prepare a standard solution is to take a known mass of a substance and dissolve it in water to make a known volume of solution.
 
 These substances are known as primary standards. Ideally, primary standards should:
 
-• ·besolidswithhighmolarmasses
+• · be solids with high molar masses
 
-• ·be available in a high degree of purity
+• · be available in a high degree of purity
 
-• ·bechemicallystable(neither decomposenorreactwith substances in the air)
+• · be chemically stable (neither decomposes nor react with substances in the air)
 
-• notabsorbwaterfrom the atmosphere
+• not absorb water from the atmosphere
 
-• .besolubleinwater
+• . be soluble in water
 
 • react rapidly and completely with other substances when used in titrations.
 
-Unfortunately,several substancesthatareoftenusedintitrations arenotsuitable asprimarystandards.For example,hydrochloric acid does not exist as a solid, but only as HCl(g) and HCl(aq). Sodiumhydroxideisasolid,butitreadilyabsorbswatervapour and reacts with carbon dioxide from the atmosphere. A sample of sodiumhydroxidecanbe accuratelyweighed,but it isnotcertain what is beingweighed, as there will be unknown masses of water and sodium carbonate mixed with it. You may remember seeing awhitepowderaroundtheneckofabottleofsodiumhydroxide solution. This white powder is sodium carbonate.
+Unfortunately, several substances that are often used in titrations are not suitable as primary standards. For example, hydrochloric acid does not exist as a solid, but only as HCl(g) and HCl(aq). Sodium hydroxide is a solid, but it readily absorbs water vapour and reacts with carbon dioxide from the atmosphere. A sample of sodium hydroxide can be accurately weighed, but it is not certain what is being weighed, as there will be unknown masses of water and sodium carbonate mixed with it. You may remember seeing a white powder around the neck of a bottle of sodium hydroxide solution. This white powder is sodium carbonate.
 MAKINGASTANDARDSOLUTIONOFSULFAMICACID
 
 Sulfamic acid is probably unfamiliar to you. It is a readily available primary standardforuse in acid-base titrations that has the necessarycharacteristics.Itsformulacanbeshowninmore than one way, including NHSOH, and it has a molar mass of 97.1gmol-1.
@@ -13253,19 +13263,19 @@ In ourworldtodaythereis anincreasingneed tocommunicatescientificideasandconcepts
 Imagine you need to give a 5-10 minute presentation to the chief executive officer(CEO) of an oil Howmight you convince the CEO that the benefits are outweighed by any perceived concerns about genetic engineering?
 DID YOU KNOW?
 
-Brazil nuts are aparticularlyrichsourceof selenium,but don'tgooverboard!Toomuchseleniuminthedietcancause thebodytobreakdownandexcreteexcessseleniuminthe form of gaseous hydrogen selenide(HSe).This can leave the unwittingconsumeroftoomanybrazilnutsbreathingoutan odour not unlikegarlic.
+Brazil nuts are a particularly rich source of selenium, but don't go overboard! Too much selenium in the diet can cause the body to break down and excrete excess selenium in the form of gaseous hydrogen selenide (HSe). This can leave the unwitting consumer of too many brazil nuts breathing out an odour not unlike garlic.
 
-WRITINGSCIENTIFICALLY
+WRITING SCIENTIFICALLY
 
-Note thatwhentheword criticise is given in this contextitdoesnotmean thatyoushouldbenegative Instead, your comments shouldshowreasoned judgement. Try to be constructive.
+Note that when the word criticise is given in this context it does not mean that you should be negative. Instead, your comments should show reasoned judgement. Try to be constructive.
 
 THINKING BIGGER TIP
 
-Consider theposition ofseleniumrelativetosulfur and tellurium in Group 6 when you are drawing your plot.Make sureyou use suitable axes and scale in ordertoobtainareasonable suggestion for the boiling point.
+Consider the position of selenium relative to sulfur and tellurium in Group 6 when you are drawing your plot. Make sure you use suitable axes and scale in order to obtain a reasonable suggestion for the boiling point.
 
-INTERPRETATIONNOTE
+INTERPRETATION NOTE
 
-Referbackto the article's final paragraph. You might alsoliketodosome research.If you do,make sureyoucarefullyconsider thenatureof thesource.
+Refer back to the article's final paragraph. You might also like to do some research. If you do, make sure you carefully consider the nature of the source.
 8 EXAMPRACTICE
 
 • 1 The equation for a reaction is:
@@ -13383,45 +13393,45 @@ Commenton thechangeinoxidationnumber ofthe chlorine in this reaction.
 [3]
 (Total for Question 7 = 8 marks)
 
-• 8Bromine is present in sea water as aqueousbromide ions, Br-(aq). Bromine can be extracted from sea water by adding chlorine.Theionic equationfor thereaction is:
+• 8 Bromine is present in sea water as aqueous bromide ions, Br⁻(aq). Bromine can be extracted from sea water by adding chlorine. The ionic equation for the reaction is:
 
-Cl(aq) +2Br(aq)→2Cl-(aq) +Br(aq)
+Cl₂(aq) + 2Br⁻(aq) → 2Cl⁻(aq) + Br₂(aq)
 
-• (a)(i)State what is meant by oxidation and reduction in terms ofelectron transfer
+• (a)(i) State what is meant by oxidation and reduction in terms of electron transfer
 
-• (i)State which species is acting as an oxidising agent. Justify your answer.
+• (ii) State which species is acting as an oxidising agent. Justify your answer.
 
-• (b)The chlorine required for extraction of bromine is manufacturedfromaconcentratedsolutionofsodium chlorideusingelectrolysis.
+• (b) The chlorine required for extraction of bromine is manufactured from a concentrated solution of sodium chloride using electrolysis.
 
-• The ionic half-equations for the reactions at the electrodesare:
+• The ionic half-equations for the reactions at the electrodes are:
 
 At the anode:
 
-2Cl-(aq)→Cl2(aq) + 2e-
+2Cl⁻(aq) → Cl₂(g) + 2e⁻
 
-At the cathode: ：2HO(l)+2e-→2OH(aq)+H(g)
+At the cathode: 2H₂O(l) + 2e⁻ → 2OH⁻(aq) + H₂(g)
 
-Use these two half-equations to produce an overall ionicequationfor thereaction takingplace duringthe electrolysis.
+Use these two half-equations to produce an overall ionic equation for the reaction taking place during the electrolysis.
 
-1]
+[1]
 
 [2]
 
-(Total for Question 8=5marks)
+(Total for Question 8 = 5 marks)
 
-• 9Thisquestionis about thechemistryoftheelementsin Groups1and 2of thePeriodicTable.
+• 9 This question is about the chemistry of the elements in Groups 1 and 2 of the Periodic Table.
 
-• 11 Radium (Ra) and astatine (At) are radioactive elements in Groups 2 and 7 respectively in thePeriodicTable.
+• 11 Radium (Ra) and astatine (At) are radioactive elements in Groups 2 and 7 respectively in the Periodic Table.
 
-• (a)When magnesium burns in air it forms a mixture of magnesium oxide and magnesium nitride.
+• (a) When magnesium burns in air it forms a mixture of magnesium oxide and magnesium nitride.
 
 • Give the formula of both magnesium oxide and magnesium nitride.
 
-• (b)(i)Write an equation for the reaction between calcium andwaterIncludestatesymbols.
+• (b)(i) Write an equation for the reaction between calcium and water. Include state symbols.
 
-• (i)Explain how the reactivity of the Group 2 metals with water changes down the group.
+• (ii) Explain how the reactivity of the Group 2 metals with water changes down the group.
 
-• (ii)Statehow thesolubilityof thehydroxidesof the Group 2metals changes down thegroup.
+• (iii) State how the solubility of the hydroxides of the Group 2 metals changes down the group.
 
 [2]
 
@@ -13429,7 +13439,7 @@ Use these two half-equations to produce an overall ionicequationfor thereaction 
 
 [1]
 
-• (c)Explain thetrendin thermalstabilityofthecarbonates of the Group 2 metals.
+• (c) Explain the trend in thermal stability of the carbonates of the Group 2 metals.
 
 [3]
 
@@ -14042,13 +14052,13 @@ H₂O₂(aq) → H₂O(l) + ½O₂(g) ΔrH° = −196 kJ mol⁻¹
 • (b) Explainthechangeinrateofreactionthatoccurswhenmanganese(IV)oxideisaddedtothe hydrogen peroxide solution.
 SUBJECT VOCABULARY
 
-reactionpathway thereaction,orseries ofreactions,thatthereactantsundergo inorderto changeinto theproducts
+reaction pathway the reaction, or series of reactions, that the reactants undergo in order to change into the products
 
-catalysta substancethatincreasestherateofa chemicalreactionbutischemicallyunchangedatthe end ofthereaction
+catalyst a substance that increases the rate of a chemical reaction but is chemically unchanged at the end of the reaction
 
-heterogeneouscatalyst a catalyst that isina differentphase to thatof thereactants
+heterogeneous catalyst a catalyst that is in a different phase to that of the reactants
 
-phaseaphysicallydistinctformofmatter,suchasasolid,liquid,gasorplasma;aphaseofmatteris characterisedbyhavingrelativelyuniform chemical andphysicalproperties
+phase a physically distinct form of matter, such as a solid, liquid, gas or plasma; a phase of matter is characterised by having relatively uniform chemical and physical properties
 
 ## Topic 9: Unit 2: Energetics, Group Chemistry, Halogenoalkanes and Alcohols
 
@@ -14542,49 +14552,51 @@ with
 • D The enthalpy change of reaction is reduced using a catalyst.
 
 [1]
-(Totalfor Question5=1mark)
 
-• 6(a)R reacts with Tin a reversible,exothermic reaction. The reaction is allowed to reach equilibrium.
+#### (Totalfor Question5=1mark)
+(Total for Question 5 = 1 mark)
 
-• The concentration of one reactant,R,is plotted against time. The graph shows the results.
+• 6(a) R reacts with T in a reversible, exothermic reaction. The reaction is allowed to reach equilibrium.
 
-Which of the graphs below could be obtained if the reaction were repeated at a higher temperature,but with thesame concentrations ofR and T?
+• The concentration of one reactant, R, is plotted against time. The graph shows the results.
 
-energyE
+Which of the graphs below could be obtained if the reaction were repeated at a higher temperature, but with the same concentrations of R and T?
 
-Explain, using the graph, the effect of adding a catalyst on the rate ofreaction. [4]
+energy E
 
-• (b)The graph below shows the change in mass observed in anexperimenttoinvestigatetherateofreactionbetween marblechips and dilutehydrochloric acid.
+Explain, using the graph, the effect of adding a catalyst on the rate of reaction. [4]
+
+• (b) The graph below shows the change in mass observed in an experiment to investigate the rate of reaction between marble chips and dilute hydrochloric acid.
 
 Time/s
 
-• (i)State the purpose of the cotton wool in the neck of the conical flask. [1]
+• (i) State the purpose of the cotton wool in the neck of the conical flask. [1]
 
-• (ii Explain why themass of the flask and contents decreases during the course of theexperiment. [2]
+• (ii) Explain why the mass of the flask and contents decreases during the course of the experiment. [2]
 
-• (ii)Theexperimentwasrepeated at thesametemperature, with thesamevolume andconcentrationofacid and with thesamemass ofpowdered marble.
+• (iii) The experiment was repeated at the same temperature, with the same volume and concentration of acid and with the same mass of powdered marble.
 
 • Sketch, on the graph, the curve you would expect to obtain.
 
 [2]
 
-(Totalfor Question 7=9marks)
+(Total for Question 7 = 9 marks)
 
-• 8This question is about the effect that an increase in temperaturehasontherateofa chemical reaction.
+• 8 This question is about the effect that an increase in temperature has on the rate of a chemical reaction.
 
-• (a)A student found this statement in a text book:
+• (a) A student found this statement in a text book:
 
-'The rate of a chemical reaction increases as the temperatureincreasesbecause theparticlescollide more often'
+'The rate of a chemical reaction increases as the temperature increases because the particles collide more often'
 
-Discuss the extent towhich this statement is true. [5]
+Discuss the extent to which this statement is true. [5]
 
-• (b)The graph below shows a Maxwell-Boltzmann distribution curve for a gas at temperature T1.
+• (b) The graph below shows a Maxwell-Boltzmann distribution curve for a gas at temperature T1.
 
-• (i)Label the axes on the diagram.
+• (i) Label the axes on the diagram.
 
 [2]
 
-• (i) On the graph, sketch a curve to represent the
+• (ii) On the graph, sketch a curve to represent the
 
 • distribution at higher temperature. Label this curve T2.
 
@@ -16633,19 +16645,21 @@ Be scientific and accurate, even when writing longer answers. Use the technical 
 Alwaysshowyourworkingfor anycalculations.Marksmay be available for individual steps, not just for the final answer. Also,evenifyoumake a calculationerror,youmaybe
 
 awarded marks for applying the correct technique.
-CHECKYOURANSWERS
 
-For open-response and extended writing questions, check thenumberofmarksthatareavailable.Ifthreemarks are available,haveyoumadethreedistinctpoints?
+#### CHECKYOURANSWERS
+CHECK YOUR ANSWERS
 
-For calculations, read through each stage of your working. Substitutingyourfinal answerinto the originalquestion can beasimplewayofcheckingthatthefinal answeriscorrect. Anothersimple strategyistoconsiderwhether the answer seems sensible.Payparticular attention to using thecorrect units.
+For open-response and extended writing questions, check the number of marks that are available. If three marks are available, have you made three distinct points?
 
-QUESTIONTYPE:MULTIPLECHOICE
+For calculations, read through each stage of your working. Substituting your final answer into the original question can be a simple way of checking that the final answer is correct. Another simple strategy is to consider whether the answer seems sensible. Pay particular attention to using the correct units.
 
-Solutions containingchlorate(I)ionsareused ashousehold bleaches anddisinfectants.Thesesolutionsdecomposeon heatingasshownintheequationbelow.
+QUESTION TYPE: MULTIPLE CHOICE
 
-3C1O-→C1O-+2Cl-
+Solutions containing chlorate(I) ions are used as household bleaches and disinfectants. These solutions decompose on heating as shown in the equation below.
 
-Whichoxidationstateisshownbychlorineineachofthese threeions?
+3ClO⁻ → ClO₃⁻ + 2Cl⁻
+
+Which oxidation state is shown by chlorine in each of these three ions?
 
 #### QUESTIONTYPE:MULTIPLECHOICE
 |    |   C10 |   C10 |   C- |
@@ -16677,17 +16691,17 @@ QUESTIONTYPE:SHORTOPEN
 CompoundsinGroup2showtrendsintheirproperties. StatetheblockinthePeriodicTableinwhichtheGroup2 elementsarefound.
 Question analysis
 
-• ·The command word in this question is state.It requires you to recall and write down one or more pieces of information.
+• ·The command word in this question is state. It requires you to recall and write down one or more pieces of information.
 
-Threeoxidationstateshavetobecorrectlycalculated beforean answer canbeselected.However,beforeany answersaregiven,the question isveryclearlystated: Whichoxidationstateisshownbychlorineineachofthese threeions?'Calculatethethreeoxidationstatesbefore lookingatanyoftheanswersandthenselectthecorrect answerfromthelistbasedonthethreeoxidationstates thatyouhavealreadydetermined.
+Three oxidation states have to be correctly calculated before an answer can be selected. However, before any answers are given, the question is very clearly stated: 'Which oxidation state is shown by chlorine in each of these three ions?' Calculate the three oxidation states before looking at any of the answers and then select the correct answer from the list based on the three oxidation states that you have already determined.
 
-Multiplechoicequestionsalwayshaveonemarkandthe answerisgiven!Forthisreasonstudentsoftenmakethe mistakeofthinkingthattheyaretheeasiestquestionson thepaper.Unfortunately,thisisnotthecase.These questionsoftenrequireseveralanswerstobeworkedout anderrorinoneofthemwillleadtothewronganswer being selected.The threeincorrect answers supplied (distractors)willfeaturetheanswersthatstudentsarriveat if they make typical or common errors. The trick is to answer the questionbeforeyoulook at any of the answers.
+Multiple choice questions always have one mark and the answer is given! For this reason students often make the mistake of thinking that they are the easiest questions on the paper. Unfortunately, this is not the case. These questions often require several answers to be worked out and error in one of them will lead to the wrong answer being selected. The three incorrect answers supplied (distractors) will feature the answers that students arrive at if they make typical or common errors. The trick is to answer the question before you look at any of the answers.
 
-In ClO-chlorine hasan oxidation state of+1,in Cl-it is-1 and in ClO- it is +5. The correct answer is D. However, thestudenthasselectedanswerA,andsodoesnotgain any marks.
+In ClO⁻ chlorine has an oxidation state of +1, in Cl⁻ it is -1 and in ClO₃⁻ it is +5. The correct answer is D. However, the student has selected answer A, and so does not gain any marks.
 
-Ifyouhaveanytimeleftattheendofthepapergoback andcheckyouranswertoeachpartofamultiplechoice question so that a slip like this does not cost you a mark.
+If you have any time left at the end of the paper go back and check your answer to each part of a multiple choice question so that a slip like this does not cost you a mark.
 
-State,give or name areused interchangeably whenyou are required to simplyrecall andwrite downapiece of information.These are usually simple shortanswers,often oneword,requiringyoutorecollectthechemistryyouhave been taught.
+State, give or name are used interchangeably when you are required to simply recall and write down a piece of information. These are usually simple short answers, often one word, requiring you to recollect the chemistry you have been taught.
 
 [1]
 
@@ -16765,13 +16779,13 @@ COMMENTARY
 
 This is an average answer because:
 
-• The student has given results for all of the tests.However, in several cases the results are not given precisely enough for the markstobescored.Forexample,forchlorideions thestudent doesnotspecifywhetherthesilver chlorideprecipitatewill dissolve indilute or concentrated ammonia and so does not score the second mark.
+• The student has given results for all of the tests. However, in several cases the results are not given precisely enough for the marks to be scored. For example, for chloride ions the student does not specify whether the silver chloride precipitate will dissolve in dilute or concentrated ammonia and so does not score the second mark.
 
-Itisreasonabletoassumethatthemarkswillbedivided equallybetween thetwopartsof thequestion;threemarks for describing theresultyou would expect to seefor each ion(oneforeach)whensilvernitrateisaddedwithan explanationofhowthisisusedtodistinguisheachion,and threemarksfordescribingwhatyouwouldobservewhen aqueousammoniaisaddedtoeachofthesesolutions.
+It is reasonable to assume that the marks will be divided equally between the two parts of the question; three marks for describing the result you would expect to see for each ion (one for each) when silver nitrate is added with an explanation of how this is used to distinguish each ion, and three marks for describing what you would observe when aqueous ammonia is added to each of these solutions.
 
-Beverycarefulaboutmakingstatementswiththeword'it". Inthisanswer,itisclearthatthestudentmeanssilver nitratebutifthereisambiguityyoumaynotgainthemark
+Be very careful about making statements with the word 'it". In this answer, it is clear that the student means silver nitrate but if there is ambiguity you may not gain the mark
 
-QUESTIONTYPE:CALCULATION
+QUESTION TYPE: CALCULATION
 
 But-I-enereactswithhydrogenbromidetoformtwodifferentproducts. Analysisofoneof theproductsshowed thatitcontained35.0%carbon, 6.6%hydrogenand58.4%brominebymass.
 
