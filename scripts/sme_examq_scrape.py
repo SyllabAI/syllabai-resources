@@ -19,6 +19,12 @@ downloads question images to per-topic assets/, and writes a structured corpus:
 Operator authorization for SME material: see LICENSE-DATA.md ("Amendment
 2026-09-17 — Save My Exams authorization (operator attestation)").
 
+RE-SCRAPE WARNING (T-SME-13, 2026-10-25): a re-run regenerates the corpus from
+upstream and will REVERT the 12 operator-adjudicated corrections recorded in
+SME-ExamQuestion/igcse-chemistry-19/CORRECTIONS.md (3 marks overstatements +
+9 label drifts repointed to the official MS of record). After any re-scrape,
+re-apply per that ledger before treating the corpus as current.
+
 Usage:
   sme_examq_scrape.py [--out DIR] [--only SLUG ...] [--limit N] [--delay S]
                       [--skip-assets] [--offline-landing FILE]
