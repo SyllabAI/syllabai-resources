@@ -309,6 +309,20 @@ spine:
     pages:
     - 137
     - 143
+    # join_set DERIVED (never authored): the chapter's LEARNING OBJECTIVES
+    # chunk chem_v3_u2_c13_pdf146_0523 lists exactly SIX objectives, matched
+    # to the spine node igcse-chemistry-T2:SUBc (6 children 2.9-2.14 in
+    # apps/hub/spines/igcse-chemistry-19.json, resourcesSha law). All six
+    # fragments match spine titles verbatim (case-insensitive); ALL SIX are
+    # non-suffixed (papers [1C, 2C], double_award_shared true per spine
+    # applicability) — chem_only: false CONFIRMED (course row default upheld
+    # by derived evidence). Pinned at S1 (T-BOOK-046 r0, 2026-10-24); the
+    # c11/c12 rows were left unpinned by their lanes (debt noted in the c13
+    # receipt).
+    # learning_objective: VERBATIM from chunk 0523 (margin items in printed
+    # order; bullet glyphs joined with ';'; no paraphrase)
+    learning_objective: "Know the approximate percentages by volume of the four most abundant gases in dry air; Understand how to determine the percentage by volume of oxygen in air using experiments involving the reactions of metals (e.g. iron) and non-metals (e.g. phosphorus) with air; Describe the combustion of elements in oxygen, including magnesium, hydrogen and sulfur; Describe the formation of carbon dioxide from the thermal decomposition of metal carbonates, including copper(II) carbonate; Know that carbon dioxide is a greenhouse gas and that increasing amounts in the atmosphere may contribute to climate change; Practical: Determine the approximate percentage by volume of oxygen in air using a metal or a non-metal"
+    join_set: ["2.9", "2.10", "2.11", "2.12", "2.13", "2.14"]  # STRINGS (emit -> JSON strings; zod specRefs is z.string())
     section_count: 7
   - key: u2:c14
     slug: reactivity-series
