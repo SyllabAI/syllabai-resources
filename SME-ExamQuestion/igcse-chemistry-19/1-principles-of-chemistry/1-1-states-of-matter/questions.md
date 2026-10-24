@@ -1,6 +1,6 @@
 # Exam Questions — States of Matter
 **1. Principles of Chemistry** · Edexcel IGCSE Chemistry 4CH1
-> Source: [https://www.savemyexams.com/igcse/chemistry/edexcel/19/topic-questions/1-principles-of-chemistry/1-1-states-of-matter/exam-questions/](https://www.savemyexams.com/igcse/chemistry/edexcel/19/topic-questions/1-principles-of-chemistry/1-1-states-of-matter/exam-questions/) · 23 questions · total 120 marks
+> Source: [https://www.savemyexams.com/igcse/chemistry/edexcel/19/topic-questions/1-principles-of-chemistry/1-1-states-of-matter/exam-questions/](https://www.savemyexams.com/igcse/chemistry/edexcel/19/topic-questions/1-principles-of-chemistry/1-1-states-of-matter/exam-questions/) · 23 questions · total 119 marks
 
 
 ## Q1 — easy — 7 marks
@@ -509,7 +509,7 @@ Which of these statements is supported by the graph?
 - **C.** The solubility of copper(II) sulfate doubles for every 10 <sup>o</sup>C rise
 - **D.** 30 g of copper(II) sulfate can dissolve in 100 g of water at 20 <sup>o</sup>C
 
-## Q19 — hard — 8 marks
+## Q19 — hard — 7 marks
 
 ### 3(a) — 2 marks — command: name — structured — from paper 2021 · Ja1C
 Lead nitrate and potassium iodide react to form the insoluble solid lead iodide. Crystals of lead nitrate and potassium iodide are placed at opposite ends of a container of water. Solid lead iodide forms after several minutes.
@@ -520,7 +520,7 @@ The diagram shows the container at the start and after several minutes.
 
 Name the two processes that occur before the solid lead iodide forms.
 
-### 3(b) — 3 marks — command: explain — structured — from paper 2021 · Ja1C
+### 3(b) — 2 marks — command: explain — structured — from paper 2021 · Ja1C
 Explain why solid lead iodide takes less time to form when the reaction is repeated using water at a higher temperature.
 
 ### 3(c) — 2 marks — command: give — structured — from paper 2021 · Ja1C

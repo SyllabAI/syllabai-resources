@@ -120,14 +120,14 @@ iii) Give a test for chlorine gas.
 
 (2)
 
-### 5(b) — 3 marks — command: give — structured — from paper 2020 · Nov1CR
+### 6(b) — 3 marks — command: give — structured — from paper 2020 · Nov1CR
 Give a test to show that a solution contains iodide ions.
 
 Test
 
 Result
 
-### 5(c) — 6 marks — command: explain — structured — from paper 2020 · Nov1CR
+### 6(c) — 6 marks — command: explain — structured — from paper 2020 · Nov1CR
 A student compares the reactivity of the elements bromine, chlorine and iodine. He mixes these pairs of solutions and observes the reactions that occur.
 
 - chlorine solution and potassium bromide solution

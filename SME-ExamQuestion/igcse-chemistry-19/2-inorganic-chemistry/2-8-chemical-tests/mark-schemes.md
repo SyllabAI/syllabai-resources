@@ -207,7 +207,7 @@ iii) The test for chlorine gas is:
 - *You will be given the mark for saying (damp) universal indicator paper turns white*
 - *The litmus (universal) paper should be damp as the gas needs something to dissolve into *
 
-### 5(b) — 3 marks
+### 6(b) — 3 marks
 A test to show that a solution contains iodide ions is:
 
 A description that refers to the following three points
@@ -230,7 +230,7 @@ A description that refers to the following three points
   |---|---|---|
   | > *Cream* | > *White * | > *Yellow* |
 
-### 5(c) — 6 marks
+### 6(c) — 6 marks
 An explanation to explain how the reactions can be used to show the order of reactivity of the three elements that links the following six points is:
 
 - Chlorine solution and potassium bromide solution (solution) turns orange;** [1 mark] **

@@ -548,7 +548,7 @@ Explain why this is a problem when using crude oil fractions as fuels.
 
 ## Q18 — easy — 10 marks
 
-### 2(b) — 3 marks — command: complete — structured — from paper 2022 · Ja2CR
+### 2(a) — 3 marks — command: complete — structured — from paper 2022 · Ja2CR
 Crude oil is a mixture of hydrocarbons.
 
 This passage is about the industrial separation of crude oil. Complete the passage by adding the missing words.

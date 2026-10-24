@@ -304,7 +304,7 @@ mass of salt that crystallises = **55 g**** [1 mark]**
 > **[exam-tip]**
 > The more soluble a substance is in the solvent, the further up the paper it will travel.
 
-## Q4 — medium — 8 marks
+## Q4 — medium — 7 marks
 
 ### 2(a) — 1 marks
 **Correct answer: A** — substance S
@@ -331,7 +331,7 @@ Reject if Yellow / Y is listed
 - *The number of dyes each sample contains is counted vertically *
 - *The dyes contained in V match those in B and R, these are compared horizontally * ![3a5cd6c8-5bc0-4c56-acc3-b54f25dfb05b](assets/010-3a5cd6c8-5bc0-4c56-acc3-b54f25dfb05b.jpeg)
 
-### 2(c) — 5 marks
+### 2(c) — 4 marks
 i) To calculate the *R*<sub>*f*</sub> value:
 
 - Correct measurement of distance moved by spot Y; **[1 mark]**
@@ -343,7 +343,7 @@ ii) The chromatogram suggests that the yellow food dye Y is less soluble in the 
 - Spot from yellow food dye / Y does not move as far; **[1 mark]**
 - As spot from red food dye / R; **[1 mark]**
 
-**[Total: 5 marks] **
+**[Total: 4 marks] **
 
 - *Use your ruler to measure the distance*
 

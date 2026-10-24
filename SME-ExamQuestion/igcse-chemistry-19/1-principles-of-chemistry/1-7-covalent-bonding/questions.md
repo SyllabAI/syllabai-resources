@@ -1,6 +1,6 @@
 # Exam Questions — Covalent Bonding
 **1. Principles of Chemistry** · Edexcel IGCSE Chemistry 4CH1
-> Source: [https://www.savemyexams.com/igcse/chemistry/edexcel/19/topic-questions/1-principles-of-chemistry/1-7-covalent-bonding/exam-questions/](https://www.savemyexams.com/igcse/chemistry/edexcel/19/topic-questions/1-principles-of-chemistry/1-7-covalent-bonding/exam-questions/) · 19 questions · total 136 marks
+> Source: [https://www.savemyexams.com/igcse/chemistry/edexcel/19/topic-questions/1-principles-of-chemistry/1-7-covalent-bonding/exam-questions/](https://www.savemyexams.com/igcse/chemistry/edexcel/19/topic-questions/1-principles-of-chemistry/1-7-covalent-bonding/exam-questions/) · 19 questions · total 135 marks
 
 
 ## Q1 — easy — 7 marks
@@ -83,7 +83,7 @@ Explain how a catalyst increases the rate of a reaction.
 
 ## Q4 — hard — 11 marks
 
-### 8(a) — 2 marks — command: which — structured — from paper 2020 · Nov1CR
+### 9(a) — 2 marks — command: which — structured — from paper 2020 · Nov1CR
 This question is about some compounds of the elements in Group 4 of the Periodic Table.
 
 When carbon dioxide dissolves in water, a weak acid forms.
@@ -108,7 +108,7 @@ ii) Which of these is a correct statement about acids?
 | ☐ | **C** | acids are proton acceptors |
 | ☐ | **D** | acids are proton donors |
 
-### 8(b) — 2 marks — command: multiple — structured — from paper 2020 · Nov1CR
+### 9(b) — 2 marks — command: multiple — structured — from paper 2020 · Nov1CR
 When lead(II) carbonate is heated, lead(II) oxide and carbon dioxide form.
 
 i) Give the name of this type of reaction.
@@ -121,7 +121,7 @@ ii) Complete the equation for this reaction.
 
 PbCO<sub>3</sub> → .............................................. + ..............................................
 
-### 8(c) — 7 marks — command: multiple — structured — from paper 2020 · Nov1CR
+### 9(c) — 7 marks — command: multiple — structured — from paper 2020 · Nov1CR
 Silicon dioxide, SiO<sub>2</sub>, and silicon(IV) chloride, SiCl<sub>4</sub>, are both covalently bonded compounds. The table shows the melting and  boiling points of these two compounds, and the physical state of silicon dioxide at room temperature.
 
 | **Compound** | **Melting point in °C** | **Boiling point in °C** | **Physical state at** **room temperature** |
@@ -454,9 +454,9 @@ Graphite is another naturally‐occurring form of carbon. Graphite can be used i
 
 Explain why graphite is soft and conducts electricity. Refer to structure and bonding in your answer.
 
-## Q18 — medium — 13 marks
+## Q18 — medium — 12 marks
 
-### 5(a) — 3 marks — command: explain — structured — from paper 2020 · Nov1C
+### 5(a) — 2 marks — command: explain — structured — from paper 2020 · Nov1C
 Chlorine, bromine and iodine are elements in the Periodic Table.
 
 Explain how the position of these elements in the Periodic Table depends on their electronic configurations.
