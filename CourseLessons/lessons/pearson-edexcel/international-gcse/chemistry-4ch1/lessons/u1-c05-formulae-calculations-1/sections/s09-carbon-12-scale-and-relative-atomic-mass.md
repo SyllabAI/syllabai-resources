@@ -47,7 +47,7 @@ decimals where given (Cl 35.5, Cu 63.5).
 :::key-point
 To work out a weighted average you have to know **how much of each isotope
 is present** in the sample — the weighted-average method from Chapter 3
-(page 26) is the same mathematics again here.
+(u1:c03) is the same mathematics again here.
 :::
 
 :::exam-hint

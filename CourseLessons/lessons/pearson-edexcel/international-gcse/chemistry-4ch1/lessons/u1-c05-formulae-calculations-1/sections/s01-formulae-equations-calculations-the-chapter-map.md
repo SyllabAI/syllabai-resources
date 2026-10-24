@@ -21,7 +21,7 @@ masses and yields.
 You will use ideas from earlier chapters throughout: **balancing and
 reading formulae** builds on writing word and symbol equations (Chapter 1);
 the **relative atomic mass** recap in this chapter leans directly on
-isotopes and weighted averages from Chapter 3 (page 26); and the
+isotopes and weighted averages from Chapter 3 (u1:c03); and the
 **Periodic Table** supplies the Aᵣ values you will be given in every
 calculation.
 :::

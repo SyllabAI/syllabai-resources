@@ -11,3 +11,5 @@ banned_phrases:
 banned_regex:
   - '\([Ii]l+\)'                            # OCR artifact: identity-I misread as lowercase l — '(Il)'/'(Ill)' class (f-0010 refined from the over-broad '\(l\)' which also matched the legitimate liquid state symbol)
   - '[\uFFFD]'                             # mojibake replacement char
+  - '[Pp]ages? \d+'                        # print-book page deflection — lesson is 100% book replacement; internal refs use course chapter keys (f-0017)
+  - 'pp\. \d+'                             # print-book page-range deflection (f-0017)
