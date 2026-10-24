@@ -96,3 +96,28 @@ Stage Summary:
 - Polish parked at **70/800** (730 selected ids remain, quota-walled,
   resumable: node llm_repair_ych11.js → cp pristine → merge → audit →
   validate). YCH11 lane otherwise COMPLETE (r0 + r1 + R2).
+
+---
+Task ID: T-PARSE-YCH11-1-R3
+Agent: Z.ai (main, zai-web)
+Task: Polish continuation under the operator directive "Run YCH12 polish R1
+(800 ids already staged) + YCH11 with 730 ids remaining" (trace
+1a16f2faf1f993f5).
+
+Work Log:
+- Two windows attempted (W2 +20 OK, W1/W3 walled); the intermittent 429 wall
+  pattern (lift ~5-10 min, then down) held all session.
+- Cumulative polish: R1 48 + R2 22 + R3 20 = **90/800 OK** (108 records:
+  90 ok / 10 rejected / 8 error-cum-429).
+- Merge from pristine baseline again (idempotent law): anchor check PASS
+  (0 drift); audit: on changed chunks space_run 765 → 9 (real long chemistry
+  words), corpus-wide space_run 3446 → 2690; 0 Unicode-unit regressions.
+  validate_ych11.py: ALL CHECKS PASSED.
+- Landed: parsed/ corpus + parse_report + full_book_docling.md refreshed;
+  evidence/llm_repairs_ych11.jsonl (108 records). Ledgers updated in the
+  same commit.
+
+Stage Summary:
+- Polish parked at **90/800** (710 ids remain — todo is 710 because 10
+  rejected ids are permanently skipped by the resume done-set; the "730"
+  figure counted rejected as pending). Recipe unchanged.

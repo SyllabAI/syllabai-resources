@@ -67,17 +67,19 @@ Figure on page 43 from *Mass Number and Isotope', http://www.shimadzu.com, 273fr
 Text
 
 Extractsonpage36fromAncientcoins',http://www.rsc.org/Education/EiC/ issues/2006Nov/AncientCoins.asp,copyright @Royal Society of Chemistry; Extractonpage60fromFromStarstoStalagmites:HowEverythingConnects 2012WorldScientificPublishingCo.PteLtd;Extractonpage94From'Cooling chemical fuels snowy spat'byVictoria Gill copyright @ 2007Royal Society of Chemistry;Extract onpage 124From'Alkanes:NaturalProducts'byProf.Dr. Verlag GmbH&Co.KGaA;Extracts onpages144and 286 from'Catalysts for a green industry'http://www.rsc.org/education/eic/issues/2009July/catalystgreenchemistry-research-industry.asp,and'Five rings good,fourringsbad',http:// www.rsc.org/education/eic/issues/2010Mar/FiveRingsGoodFourRingsBad. ChemistsContribute toRenewableEnergy'http://www.rsc.org/Membership/ onpage180from'Howfishkeeponestepahead of ice',NewScientistMagazine, 02/10/2004,Issue 2467(Katharine Davis)Copyright @2004 NewScientist Ltd. All rightsreserved.DistributedbyTribuneContentAgency;Extractsonpages230 fromSomeofourselenium ismissing',NewScientist Magazine,18/11/1995, Issue2004(MichelleKnott),copyright2002Reed BusinessInformation.All rights reserved.Distributed by Tribune ContentAgency;Extracts onpages 254 fromSomethinginthewater...',NewScientistMagazine,13/04/2002,Issue 2338(Emma Young),copyright @2007 Reed Business Information -UK.Allrights reserved.DistributedbyTribune ContentAgency;Extract onpage 287from Howathleticsisstill scarredbythereignof thechemical sisters',TheDailyMail, 06/08/2012(MattLawton),copyrightSoloSyndication,2012.
-Endorsementstatement
 
-Inordertoensure that thisresourceoffershigh-qualitysupportfortheassociated Pearsonqualification,ithasbeenthroughareviewprocessbytheawarding body.Thisprocessconfirmedthatthisresourcefullycoverstheteachingand learningcontentofthespecificationatwhichitisaimed.Italsoconfirmsthatit
+#### Endorsementstatement
+Endorsement statement
 
-(e.g.practice questions oradvice on how to answer assessment questions) included in the resource,nor does it prescribe anyparticular approach to the teaching ordelivery ofarelated course.
+In order to ensure that this resource offers high-quality support for the associated Pearson qualification, it has been through a review process by the awarding body. This process confirmed that this resource fully covers the teaching and learning content of the specification at which it is aimed. It also confirms that it
 
-Whilethepublishershavemadeevery attempttoensurethatadviceonthe qualificationanditsassessmentisaccurate,theofficialspecificationand associatedassessmentguidancematerialsaretheonlyauthoritativesourceof informationandshouldalwaysbereferredtofordefinitiveguidance.
+(e.g. practice questions or advice on how to answer assessment questions) included in the resource, nor does it prescribe any particular approach to the teaching or delivery of a related course.
 
-Pearsonexaminershavenotcontributedtoanysectionsinthisresourcerelevantto examinationpapersforwhichtheyhaveresponsibility.
+While the publishers have made every attempt to ensure that advice on the qualification and its assessment is accurate, the official specification and associated assessment guidance materials are the only authoritative source of information and should always be referred to for definitive guidance.
 
-Examinerswill notuseendorsedresourcesasasourceofmaterialforany assessmentsetbyPearson.Endorsementofaresourcedoesnotmeanthatthe resourceisrequiredtoachievethisPearsonqualification,nordoesitmeanthat it is the only suitable material availabletosupport thequalification, andnay appropriate resources.
+Pearson examiners have not contributed to any sections in this resource relevant to examination papers for which they have responsibility.
+
+Examiners will not use endorsed resources as a source of material for any assessment set by Pearson. Endorsement of a resource does not mean that the resource is required to achieve this Pearson qualification, nor does it mean that it is the only suitable material available to support the qualification, and nay appropriate resources.
 
 #### Endorsementstatement
 | COURSESTRUCTURE          | iv   |
@@ -1954,29 +1956,31 @@ Question
 A16.7gsampleofahydrateofsodiumcarbonate（Na2CO3.10HO) isheated at a constant temperaturefora specified timeuntil the reaction iscomplete.Amassof3.15gofwaterisobtained.Whatis the equation for the reaction occurring?
 Method
 
-Step1:calculatethemolarmassesof therelevantsubstances
+Step 1: calculate the molar masses of the relevant substances
 
 M(Na₂CO₃·10H₂O) = 286.1 g mol⁻¹ and M(H₂O) = 18.0 g mol⁻¹
 
-Step2:calculatetheamountsof thesesubstances
+Step 2: calculate the amounts of these substances
 
 Na₂CO₃·10H₂O: n = m ÷ M = 16.7 ÷ 286.1 = 0.0584 mol
 
-Step 3: use these amounts to calculate the simplest whole-number ratioforthesesubstances
+Step 3: use these amounts to calculate the simplest whole-number ratio for these substances
 
 water: n = m ÷ M = 3.15 ÷ 18.0 = 0.175 mol
 
-NaCO3.10H2O and H2O are in the ratio 0.0584:0.175 or 1:3 Step 4:use this ratio towork out the equation for thereaction
+NaCO₃·10H₂O and H₂O are in the ratio 0.0584:0.175 or 1:3
 
-NaCO3.10HO→NaCO3.7HO+3HO
+Step 4: use this ratio to work out the equation for the reaction
 
-We have worked out theNaCO3.7H2O formula by considering the ratiooftheothertwoformulae.
+NaCO₃·10H₂O → NaCO₃·7H₂O + 3H₂O
 
-Copperforms two oxides.Both oxides can be converted to copper byheatingwithhydrogen.
+We have worked out the NaCO₃·7H₂O formula by considering the ratio of the other two formulae.
+
+Copper forms two oxides. Both oxides can be converted to copper by heating with hydrogen.
 
 Question
 
-An oxide of copper is heated in a stream of hydrogen to constant mass. The masses of copper and water formed are Cu = 17.6g and H2O = 2.56g.What is the equation for the reaction occurring?
+An oxide of copper is heated in a stream of hydrogen to constant mass. The masses of copper and water formed are Cu = 17.6g and H₂O = 2.56g. What is the equation for the reaction occurring?
 Method
 
 Step 1: M(Cu) = 63.5 g mol⁻¹ and M(H₂O) = 18.0 g mol⁻¹ Step 2: n(Cu) = 17.6 ÷ 63.5 = 0.277 mol and n(H₂O) = 2.56 ÷ 18.0 = 0.142 mol
@@ -3819,7 +3823,7 @@ However, other atoms do not always act in this way. The nuclear charge increases
 For example, you might think, incorrectly, that the most stable electronic configuration for chromium (Cr) is 3d⁴4s² and for copper (Cu) is 3d⁹4s². This is not the case, as we have shown in the table of electronic configurations (table B).
 LEARNING TIP
 
-Youmayhave heard of aprinciple called the'Aufbauprinciple Chemistsoftenquotethisprincipleasamethodforworkingoutthe electronicconfigurationof the atoms.Accordingto theAufbau principle,asprotonsareaddedtothenucleus,theelectrons are successively added to orbitals of increasing energy.Thisbeginswith the lowestenergy orbitals,andcontinuesuntil allelectrons are accommodated.Itcanbeausefulgeneralruleforworkingoutthe configurationsofthefirst36elements,withtheexceptionsof chromium and copper.However,asyou studymore elementsyou will discovermoreexceptions.You can usetheAufbauprincipleto workoutelectronicconfigurations,butitdoesnotofferan explanationforthem.
+You may have heard of a principle called the 'Aufbau principle'. Chemists often quote this principle as a method for working out the electronic configuration of the atoms. According to the Aufbau principle, as protons are added to the nucleus, the electrons are successively added to orbitals of increasing energy. This begins with the lowest energy orbitals, and continues until all electrons are accommodated. It can be a useful general rule for working out the configurations of the first 36 elements, with the exceptions of chromium and copper. However, as you study more elements you will discover more exceptions. You can use the Aufbau principle to work out electronic configurations, but it does not offer an explanation for them.
 SPIN-SPINPAIRINGANDELECTRONIC CONFIGURATIONS
 HUND'SRULEANDTHEPAULIEXCLUSIONPRINCIPLE
 
@@ -3920,17 +3924,17 @@ tableASuccessiveionisationenergies,inkjmol-of sodium
 | 20 115 | 25 491 | 28934 |       | 141367 | 159079 |
 
 #### SUCCESSIVEIONISATIONENERGIES
-tableASuccessiveionisationenergies,inkjmol-of sodium
+table A Successive ionisation energies, in kJ mol⁻¹ of sodium
 
-Thefirstelectronisconsiderablyeasiertoremove than the second.There is asteadyriseinionisationenergyforthenext eight electrons. Then there is a big jump in energy from the ninth electrontothetenth.Thelasttwoelectronsaremuchmore difficult to remove than thepreviouseight.
+The first electron is considerably easier to remove than the second. There is a steady rise in ionisation energy for the next eight electrons. Then there is a big jump in energy from the ninth electron to the tenth. The last two electrons are much more difficult to remove than the previous eight.
 
-Theexplanationforthistrendisthatthelasttwoelectronstobe removed areinthefirstquantumshell,theonethathasthelowest energy.Thenexteightelectrons are in thesecond quantum shell, which is of lower energy than the third. The first electron to be removed is in the third quantum shell of highest energy.This means that thebasicelectronic configuration of a sodium atom is 2,8,1.
+The explanation for this trend is that the last two electrons to be removed are in the first quantum shell, the one that has the lowest energy. The next eight electrons are in the second quantum shell, which is of lower energy than the third. The first electron to be removed is in the third quantum shell of highest energy. This means that the basic electronic configuration of a sodium atom is 2,8,1.
 
-The trend in successive ionisation energies can be seen when the logarithm of the ionisation energy is plotted against the order of electronremoval.Fig A shows thegraphfor a sodium atom.
+The trend in successive ionisation energies can be seen when the logarithm of the ionisation energy is plotted against the order of electron removal. Fig A shows the graph for a sodium atom.
 
-It iseasytoseefromthegraph thattherearethreedistinct quantum shells containing electrons. The first quantum shell containstwoelectrons,thesecondquantumshellcontainseight electrons and the third quantum shellcontains oneelectron.
+It is easy to see from the graph that there are three distinct quantum shells containing electrons. The first quantum shell contains two electrons, the second quantum shell contains eight electrons and the third quantum shell contains one electron.
 
-figAGraphshowingthetrend insuccessiveionisationenergiesforsodium
+fig A Graph showing the trend in successive ionisation energies for sodium
 EXAM HINT
 
 In anexam,itisworthquicklysketchingagraphofsuccessive ionisationenergies,sothatyoucanclearlyseethepattern.
@@ -3967,7 +3971,7 @@ Rememberthatelectron-electronrepulsion:
 • is sometimes called shielding or screening.
 DID YOU KNOW?
 
-Theterms'shielding'and'screening'areinsomewaysan unfortunatechoiceofwordsfortheeffectthatelectron-electron repulsionhasontheenergiesoftheelectronsintheirrespective orbitals.Thetermsseemtosuggestthat,forexample,the electronsinaninnerquantumshellwillsetupabarriertothe attractiveforceofthenucleustothoseelectronsinanouter quantumshell.Thisisnotnecessarilythecase.Theeffectof electron-electronrepulsionistoraisetheenergyoftheelectrons involvedabovethevaluetheywouldhaveiftherewasno repulsion between them.This then affects the amount of energy requiredtoremovetheelectronfromtheatomorion.Thatis,it affectsthemagnitudeoftheionisationenergy.
+The terms 'shielding' and 'screening' are in some ways an unfortunate choice of words for the effect that electron-electron repulsion has on the energies of the electrons in their respective orbitals. The terms seem to suggest that, for example, the electrons in an inner quantum shell will set up a barrier to the attractive force of the nucleus to those electrons in an outer quantum shell. This is not necessarily the case. The effect of electron-electron repulsion is to raise the energy of the electrons involved above the value they would have if there was no repulsion between them. This then affects the amount of energy required to remove the electron from the atom or ion. That is, it affects the magnitude of the ionisation energy.
 WHATDETERMINESTHEENERGYOFANELECTRON?
 
 You might think it is determinedby the orbitalinwhich the electron hasbeenplaced.Asyou will oftenfind in chemistry,there are a number ofdifferentfactors that affect the answer
@@ -4278,9 +4282,9 @@ Thefirstelectronremovedfromtheoxygen atomisoneof thetwo paired electrons in the 
 Thepresence oftwo electronsin a single orbitalincreases the electron-electron repulsion in this orbital. So less energy is required toremoveone of theseelectrons than isrequired to remove a 2p electron from a nitrogen atom, despite the larger nuclear charge of the oxygen atom.
 LEARNING TIP
 
-oxygenislessthanthatofnitrogen,sayingthisisbecausewhenthe oxygenatomlosesanelectron,it acquiresastablehalf-full2psubshell.However,thereisnospecialstabilityassociatedwithahalf-full sub-shell.Also,aswith theboron atom,energymustbesupplied to theoxygenatominordertoremoveanelectron,sotheionformedis energeticallylessstablethantheatom.
+oxygen is less than that of nitrogen, saying this is because when the oxygen atom loses an electron, it acquires a stable half-full 2p subshell. However, there is no special stability associated with a half-full sub-shell. Also, as with the boron atom, energy must be supplied to the oxygen atom in order to remove an electron, so the ion formed is energetically less stable than the atom.
 
-You may alsohear orread about an explanation stating that the outer electron in theoxygen atom isfurther fromthe nucleusthan the outerelectron in thenitrogen atom.Thisisnotcorrect.Theoxygen atomissmallerthanthenitrogenatomasshowninfigB.
+You may also hear or read about an explanation stating that the outer electron in the oxygen atom is further from the nucleus than the outer electron in the nitrogen atom. This is not correct. The oxygen atom is smaller than the nitrogen atom as shown in fig B.
 SKILLS
 
 REASONING
@@ -5144,9 +5148,9 @@ Thisviewofthebondingin chlorineisverysimple.
 An alternative theory describesthebonding as the overlapbetweentwo sp3 hybrid orbitals.This theoryis notincluded inthisbook,but wewould encourageyouto carryoutyourownresearch if you are interested.Look up 'orbital hybridisation'
 LEARNING TIP
 
-Whenmakingacomparison betweenbondlengthandbond strength,itisimportantto comparelikewithlike'inother words,comparethingsthatare thesameorverysimilar.
+When making a comparison between bond length and bond strength, it is important to compare 'like with like' — in other words, compare things that are the same or very similar.
 
-Forexample,thestrengthofthe C-Cbond(347kmol-1) is greaterthan thatof theN-N bond(158kmol-1)despite beinglonger(0.154nm comparedwith0.145nm). Inamoleculesuchashydrazine (HN-NH2),each nitrogen atom has a non-bonding(lone)pair ofelectronsandtheserepelone another,weakening the bond. Inamoleculesuchasethane (HC-CH),the carbon atoms donot haveanylonepairs.
+For example, the strength of the C-C bond (347 kJ mol⁻¹) is greater than that of the N-N bond (158 kJ mol⁻¹) despite being longer (0.154 nm compared with 0.145 nm). In a molecule such as hydrazine (H₂N-NH₂), each nitrogen atom has a non-bonding (lone) pair of electrons and these repel one another, weakening the bond. In a molecule such as ethane (CH₃-CH₃), the carbon atoms do not have any lone pairs.
 BONDLENGTHANDBONDSTRENGTH
 
 Thebond length is thedistancebetween the nuclei of two atoms that are covalentlybonded together.
@@ -6079,19 +6083,19 @@ Analysethedata and thendecidewhat typeof bondingandstructureislikelytobepresent 
 |  801 | poor                     |                                         |                                          | soluble              |
 
 #### CHECKPOINT
-• 2.Each of the substances listed belowhas at least one property that is unusual forits type of bonding and properties.Suggesta possibleidentityforeachsubstance.
+• 2. Each of the substances listed below has at least one property that is unusual for its type of bonding and properties. Suggest a possible identity for each substance.
 
-• (a)Substance P.
+• (a) Substance P.
 
-Meltingtemperature813°C;goodconductorofelectricitywhensolid andwhenmolten;reactswith watertoformammoniagasandanalkalinesolution.
+Melting temperature 813°C; good conductor of electricity when solid and when molten; reacts with water to form ammonia gas and an alkaline solution.
 
-• (b)Substance Q.
+• (b) Substance Q.
 
-Melting temperature1414°C;semi-conductorof electricitywhen solid;insolubleinwater.
+Melting temperature 1414°C; semi-conductor of electricity when solid; insoluble in water.
 
-• (c)Substance R.
+• (c) Substance R.
 
-Meltingtemperature98°C;goodconductorofelectricitywhensolid;reactswithwatertoform hydrogen gas and an alkaline solution.
+Melting temperature 98°C; good conductor of electricity when solid; reacts with water to form hydrogen gas and an alkaline solution.
 
 ## Topic 3: Unit 1: Structure, Bonding and Introduction to Organic Chemistry
 
@@ -6427,43 +6431,45 @@ What prior knowledge do I need?
 • Calculation of empirical and molecular formulae
 
 • Representing organic compounds by structural formulae
-Whatwill I study in thistopic?
 
-• Using different typesof formulae to represent organiccompounds
+#### Whatwill I study in thistopic?
+What will I study in this topic?
 
-• Structuralisomerism
+• Using different types of formulae to represent organic compounds
 
-• Problems caused bythecombustionoffuels,and solutionstotheseproblems
+• Structural isomerism
 
-• Usingreactionmechanismstounderstandhow organicreactionsoccur
+• Problems caused by the combustion of fuels, and solutions to these problems
 
-• Theformationofpolymers anddealingwith polymerwaste
+• Using reaction mechanisms to understand how organic reactions occur
 
-Topic10
+• The formation of polymers and dealing with polymer waste
 
-• Alkenes,alcoholsandhalogenoalkanes
+Topic 10
 
-Topic15(Book2:IAL)
+• Alkenes, alcohols and halogenoalkanes
 
-• Opticalisomerism
+Topic 15 (Book2: IAL)
 
-• Reactionsofcarbonylandcarboxyl compounds
+• Optical isomerism
 
-Topic18(Book2:IAL)
+• Reactions of carbonyl and carboxyl compounds
 
-• Thetypeofbondinginbenzeneandother aromaticcompounds
+Topic 18 (Book2: IAL)
 
-Topic19(Book2:IAL)
+• The type of bonding in benzene and other aromatic compounds
 
-• Condensationpolymers
+Topic 19 (Book2: IAL)
 
-• Nitrogen-containingcompounds,including amino acids and proteins
+• Condensation polymers
 
-Topic20(Book2:IAL)
+• Nitrogen-containing compounds, including amino acids and proteins
 
-• Planningreaction schemestoprepare organic compounds
+Topic 20 (Book2: IAL)
 
-• Practical techniquesforpreparing andpurifying organiccompounds
+• Planning reaction schemes to prepare organic compounds
+
+• Practical techniques for preparing and purifying organic compounds
 
 ## Topic 4: Unit 1: Structure, Bonding and Introduction to Organic Chemistry
 
@@ -7273,11 +7279,11 @@ SKILLS
 
 PROBLEM-SOLVING,
 
-ADAPTIVELEARNING
+ADAPTIVE LEARNING
 
-• 1.Onemoleculeofthe alkaneC2H26iscrackedtoformtwo moleculesofetheneandonemoleculeofadifferentalkane.What isthemolecularformulaofthealkaneformed?
+• 1. One molecule of the alkane C₂H₆ is cracked to form two molecules of ethene and one molecule of a different alkane. What is the molecular formula of the alkane formed?
 
-• 2.Theproductsofa crackingreaction aretwomoleculesofethene andonemoleculeofpentane.Whatisthemolecularformulaof thealkanethatiscracked?
+• 2. The products of a cracking reaction are two molecules of ethene and one molecule of pentane. What is the molecular formula of the alkane that is cracked?
 SUBJECT VOCABULARY
 
 fractional distillationtheprocessusedtoseparatealiquidmixture into fractions by boiling and condensing cracking thebreakdown of molecules into shorteronesbyheating with acatalyst reformingtheconversionofstraight-chainhydrocarbonsinto branched-chain andcyclichydrocarbons temperaturegradientthewayinwhichthetemperaturechangesup anddownthecolumn
@@ -9256,11 +9262,11 @@ Calculate△,Heforthethermal decompositionofcalciumcarbonate intocalciumoxide an
 
 CaCO₃(s) + 2HCl(aq) → CaCl₂(aq) + H₂O(l) + CO₂(g) ΔrH° = −17 kJ mol⁻¹ CaO(s) + 2HCl(aq) → CaCl₂(aq) + H₂O(l) ΔrH° = −195 kJ mol⁻¹
 
-CaO(s) + 2HCI(aq) →CaCl2(aq) +H2O(l) △,H= -195 k) mol-1
+CaO(s) + 2HCI(aq) →CaCl2(aq) +H2O(l) △,H= -195 kJ mol-1
 
-A,H
+△H
 
-fig DAn enthalpy cycle using Hess's Law to calculate the enthalpy change ofreactionfor thethermal decompositionof calciumcarbonate. △H=-17-(-195)=+178kmol-1
+fig DAn enthalpy cycle using Hess's Law to calculate the enthalpy change ofreactionfor thethermal decompositionof calciumcarbonate. △H=-17-(-195)=+178kJ mol-1
 WORKEDEXAMPLE3
 
 Calculate ,H for the hydration of anhydrous copper(ll) sulfate. given the following data:
@@ -9510,7 +9516,7 @@ To solve the problem, simply substitute the known mean bond enthalpies and the u
 Rearrange the expression to make the unknown bond enthalpy the subject, and solve the problem.
 WORKEDEXAMPLE3
 
-Calculate the bond enthalpy of the C=C bond in ethene,given the following data. C2H4(g)+H2(g)→C2Hs(g) △H=-147kmol-1 E(H-H) = 436k)mol-1 E(C-H)= 413kJmol-1 E(C-C) = 347 kJmol-1 ∑(bonds broken)=E(C=C)+E(H-H)=E(C=C)+436k)mol-1 ∑(bonds made)=2E(C-H)+E(C-C)=(2×413)+347= 1173kmol-1 △H=∑(bonds broken)-E(bonds made) -147 =E(C=C)+ 436-1173 E(C=C)=1173-147-436 E(C=C)=590kJmol-1
+Calculate the bond enthalpy of the C=C bond in ethene, given the following data. C2H4(g)+H2(g)→C2H6(g) △H=-147kJmol-1 E(H-H) = 436kJmol-1 E(C-H)= 413kJmol-1 E(C-C) = 347 kJmol-1 ∑(bonds broken)=E(C=C)+E(H-H)=E(C=C)+436kJmol-1 ∑(bonds made)=2E(C-H)+E(C-C)=(2×413)+347= 1173kJmol-1 △H=∑(bonds broken)-∑(bonds made) -147 =E(C=C)+ 436-1173 E(C=C)=1173-147-436 E(C=C)=590kJmol-1
 WORKEDEXAMPLE4
 
 Inthefollowingexample,carbonisinthesolidstateinthereaction,soyouneedtothinkaboutthe enthalpy change for the conversion of the solid into the gas.
@@ -10492,13 +10498,13 @@ CURIOSITYCONTINUOUSLEARNING
 The article below describes how the antifreeze proteins produced by some animals help them to survive in freezing conditions.
 HOW FISH KEEP ONE STEP AHEAD OF ICE
 
-Until now, no one has quite figured out how antifreeze proteins help insects,fish and plants to survive at subzero temperatures.But a detailed computer model has lent strong support to a theory that the antifreezeproteinsstopthegrowthoficecrystalsby attaching to thecrystals andforcingthem tochangetheirshape-muchlike a pillowis deformedwhen stones are placed on it.
+Until now, no one has quite figured out how antifreeze proteins help insects, fish and plants to survive at subzero temperatures. But a detailed computer model has lent strong support to a theory that the antifreeze proteins stop the growth of ice crystals by attaching to the crystals and forcing them to change their shape - much like a pillow is deformed when stones are placed on it.
 
-Several organisms,including icefish and Antarctic cod,produce Normally,theformation of ice crystals in their bodyfuids should rupturedelicatemembranes andcellularstructures,but theAFPs bind to the surface of ice crystals and prevent them growing.
+Several organisms, including icefish and Antarctic cod, produce Normally, the formation of ice crystals in their body fluids should rupture delicate membranes and cellular structures, but the AFPs bind to the surface of ice crystals and prevent them growing.
 
-Now,LeonardSander andAlexei Tkachenkoof theUniversity of Michigan in Ann Arbor have shown just how this could happen. When the proteins attach to ice crystals,theice is forced togrow in a bulgebetween them.The computer model shows that if the bulgegetslargeenough,thentheicewillengulf theproteinsrather than keep on growing. This slows down the expansion of the ice crystals.'If theicegrowsslowly,moreproteinswill[attach]than canbe absorbed,so theice can't"eat"them fast enough,，says Sander.^The process collapses and the ice stopsgrowing.
+Now, Leonard Sander and Alexei Tkachenko of the University of Michigan in Ann Arbor have shown just how this could happen. When the proteins attach to ice crystals, the ice is forced to grow in a bulge between them. The computer model shows that if the bulge gets large enough, then the ice will engulf the proteins rather than keep on growing. This slows down the expansion of the ice crystals. 'If the ice grows slowly, more proteins will [attach] than can be absorbed, so the ice can't "eat" them fast enough,' says Sander. The process collapses and the ice stops growing.
 
-lce is forced tobulge as it grows betweenproteinmolecules.
+Ice is forced to bulge as it grows between protein molecules.
 
 #### HOW FISH KEEP ONE STEP AHEAD OF ICE
 As the ice stops forming,the surrounding fluid can become supercooled to below freezing point. Some animals can survive evenif theirbodyfuids arechilled to-2°C.Theresearchers testedthemodelwithproteinsofdifferentshapestopredicthow far thewater could be supercooledbefore ice started toform again, and theirpredictionsmatchedexperimentaldatacollectedby otherresearchers almostexactly(PhysicalReviewLetters,vol93, 128102).Themodel alsoshows that sphericalproteins aremost effectivebecause theyhavenoregionfortheicetopreferentially attack.Rod-shaped proteins are not as good because the ice can grow over their pointed ends quite easily.
@@ -11266,7 +11272,7 @@ In order tobalance the electrons,thefirst half-equation must be multiplied by 5:
 5Fe²+(aq) + MnO4(aq) + 8H+(aq)→
 EXAM HINT
 
-Acidifiedpotassiummanganate(Vll) isvery commonlyusedasan oxidisingagentinanalyticalchemistry.Itwillbeusefultolearnthis halfequationbyheart.
+Acidified potassium manganate(VII) is very commonly used as an oxidising agent in analytical chemistry. It will be useful to learn this half equation by heart.
 
 Here's another challenging example
 
@@ -11274,11 +11280,11 @@ The reaction between aqueous acidified potassium manganate(VII) and hydrogen per
 
 MnO₄⁻(aq) + 8H⁺(aq) + 5e⁻ → Mn²⁺(aq) + 4H₂O(l) and H₂O₂(aq) → 2H⁺(aq) + O₂(g) + 2e⁻
 
-The lowest common multiple of 2 and 5 is 10. This means that the first half-equation should be multiplied by 2 and the second by 5 beforetheyareadded together.
+The lowest common multiple of 2 and 5 is 10. This means that the first half-equation should be multiplied by 2 and the second by 5 before they are added together.
 
-2MnO4(aq) + 16H+(aq) + 10e-→ 2Mn²+(aq) + 8H2O(l)
+2MnO₄⁻(aq) + 16H⁺(aq) + 10e⁻ → 2Mn²⁺(aq) + 8H₂O(l)
 
-5H2O2(aq)→10H+(aq)+5O2(g)+10e
+5H₂O₂(aq) → 10H⁺(aq) + 5O₂(g) + 10e⁻
 
 2MnO₄⁻(aq) + 16H⁺(aq) + 10e⁻ → 2Mn²⁺(aq) + 8H₂O(l) 5H₂O₂(aq) → 10H⁺(aq) + 5O₂(g) + 10e⁻
 MORECOMPLICATEDEXAMPLES
@@ -13840,19 +13846,19 @@ SKILLS
 
 REASONING
 
-• Ammoniaandhydrogenchloridereactinthegasphasetoformammoniumchloride. NH(g) +HCI(g)→NH4CI(s)
+• Ammonia and hydrogen chloride react in the gas phase to form ammonium chloride. NH(g) + HCI(g)→NH₄CI(s)
 
-Stateandexplaintheeffect,if any,ontherateofreactionof:
+State and explain the effect, if any, on the rate of reaction of:
 
-• (a)halving thevolumeof thecontainerat constant temperature
+• (a) halving the volume of the container at constant temperature
 
-• (b)increasing the pressure by adding more ammonia at constant volume and temperature.
+• (b) increasing the pressure by adding more ammonia at constant volume and temperature.
 
-• 2. (a)Drawa concentration-timegraphforthereactionbetweenmarble chips(calcium carbonate)and excess dilute hydrochloric acid.Place the concentrationof the hydrochloric acid on thevertical axis.
+• 2. (a) Draw a concentration-time graph for the reaction between marble chips (calcium carbonate) and excess dilute hydrochloric acid. Place the concentration of the hydrochloric acid on the vertical axis.
 
-• (b)Onthesameaxes,drawthecurvethatwouldbeobtainedif thereactionwasrepeated atthe sametemperature,withthesamemassofpowderedmarble.
+• (b) On the same axes, draw the curve that would be obtained if the reaction was repeated at the same temperature, with the same mass of powdered marble.
 
-• (c)Explain thereasonforthedifferent-shaped curves obtained.
+• (c) Explain the reason for the different-shaped curves obtained.
 LEARNING OBJECTIVES
 
 • Understand qualitatively, in terms of the Maxwell-Boltzmann distribution of molecular energies, how changes in temperaturecanaffecttherateofareaction.
@@ -13961,29 +13967,31 @@ The combined blue and red shaded areas represent the fraction of molecules that 
 LEARNING TIP
 
 TheMaxwell-Boltzmanndiagramshowingtheeffectofacatalyst consistsof one curve and two activation energy lines.Do not confuse thiswith thediagramusedtoshowtheeffectof temperature.
-REACTIONPROFILEDIAGRAMS
 
-A reactionprofilediagramis an extension of an enthalpylevel diagram (see Topic 6B). In addition to showing the relative enthalpy levelsofreactants andproducts,it includestheactivation energy for the reaction.
+#### REACTIONPROFILEDIAGRAMS
+REACTION PROFILE DIAGRAMS
 
-A typical reaction profile, not to scale,for the combustion of methane is shown infig B
+A reaction profile diagram is an extension of an enthalpy level diagram (see Topic 6B). In addition to showing the relative enthalpy levels of reactants and products, it includes the activation energy for the reaction.
 
-figBAreactionprofileforthe combustion of methane.
+A typical reaction profile, not to scale, for the combustion of methane is shown in fig B
 
-For an endothermicreaction,the enthalpylevelof theproducts is abovethe enthalpylevelof thereactants,butotherwisetheprofile is the same.
+fig B A reaction profile for the combustion of methane.
 
-Fig C shows the simplified reaction profiles for an uncatalysed reactionand acatalysedreaction.
+For an endothermic reaction, the enthalpy level of the products is above the enthalpy level of the reactants, but otherwise the profile is the same.
 
-fig CSimplified reaction profiles for an uncatalysed and a catalysed reaction.
+Fig C shows the simplified reaction profiles for an uncatalysed reaction and a catalysed reaction.
 
-If the catalysed reactioninvolves theformationof an intermediate,then thereactionprofile is more complicated,as shownby theexampleinfigD
+fig C Simplified reaction profiles for an uncatalysed and a catalysed reaction.
+
+If the catalysed reaction involves the formation of an intermediate, then the reaction profile is more complicated, as shown by the example in fig D
 
 • formation of an intermediate.
 
-Anexampleofareaction thatfallsintothiscategoryis the reactionbetweenperoxydisulfateionsandiodideions,catalysed by Fe2+ ions.
+An example of a reaction that falls into this category is the reaction between peroxydisulfate ions and iodide ions, catalysed by Fe²⁺ ions.
 
-Mostcatalystsused inindustry areheterogeneouscatalysts A heterogeneous catalyst is one that is in a different phase to that of thereactants.Solids are commonly used asheterogeneous catalysts for reactions involving gases.The most well-known examples are the use of iron in the Haber process and of vanadium(V) oxide in the Contact process (see Topic 17 (Book 2:IAL)).
+Most catalysts used in industry are heterogeneous catalysts. A heterogeneous catalyst is one that is in a different phase to that of the reactants. Solids are commonly used as heterogeneous catalysts for reactions involving gases. The most well-known examples are the use of iron in the Haber process and of vanadium(V) oxide in the Contact process (see Topic 17 (Book 2: IAL)).
 
-A solid catalyst provides a surface on which the gas molecules can adsorb and thenreact. Theproduct molecules then desorbfrom thesurface andmorereactantmolecules taketheirplace.This process is described in more detail in Topic 11 (Book 2: IAL).
+A solid catalyst provides a surface on which the gas molecules can adsorb and then react. The product molecules then desorb from the surface and more reactant molecules take their place. This process is described in more detail in Topic 11 (Book 2: IAL).
 DID YOU KNOW?
 
 Environmentalcatalystshavealsobeendevelopedtoremovetoxic productsfrom industrial waste materials.Do some research to identifythesecatalysts.
@@ -14224,17 +14232,17 @@ Thereversechangesaretruefor adecreaseinpressure.
 The effect of changes in pressure as a result of using different amounts of gaseous reactants in a fixed volume containeris shown infigB.Thereaction isbetween nitrogen and hydrogen,forming ammonia.
 EXAM HINT
 
-Whenyouanswerquestions dealingwiththeeffectof temperature change,avoid phrasessuch as'anincreasein temperaturefavoursthe endothermicdirection'. Anincreaseintemperature favours'(i.e.increases therate of)boththeendothermicand theexothermicreactions.
+When you answer questions dealing with the effect of temperature change, avoid phrases such as 'an increase in temperature favours the endothermic direction'. An increase in temperature favours' (i.e. increases the rate of) both the endothermic and the exothermic reactions.
 
-Theimportantpointto rememberisthatitincreases therateoftheendothermic reactionmorethanitincreases therateoftheexothermic reaction.
+The important point to remember is that it increases the rate of the endothermic reaction more than it increases the rate of the exothermic reaction.
 
 The equation for the reaction is:
 
-N(g)+3H2(g)=2NH(g)
+N(g) + 3H₂(g) = 2NH(g)
 
 In the balanced equation, there are 4 moles of gas on the left-hand side and 2 moles of gas on the right-hand side.
 
-The graph in fig B shows that the higher the pressure, the more ammonia there is in the equilibrium mixture formed.This agreeswith the prediction in table B which states that anincrease in pressure shifts theposition of equilibrium to the side that has fewer moles of gas.
+The graph in fig B shows that the higher the pressure, the more ammonia there is in the equilibrium mixture formed. This agrees with the prediction in table B which states that an increase in pressure shifts the position of equilibrium to the side that has fewer moles of gas.
 EFFECTOFACHANGEINTEMPERATURE
 
 If the temperature of an equilibrium mixture is raised,the rates of both the forward and the backwardreactionswillincrease.However,theincreaseintherateoftheendothermicreaction will be greater than the increase in the rate of the exothermic reaction. Therefore, an increase in temperaturewill shift theposition ofequilibriuminthedirectionof theendothermicreaction.
@@ -14727,27 +14735,29 @@ The indicator appears green because it contains sufficient amounts of both the y
 ### Topic 10: Organic Chemistry: Halogenoalkanes, Alcohols and Spectra
 
 TOPIC10 ORGANIC CHEMISTRY: HALOGENOALKANES ALCOHOLSAND SPECTRA
-A GENERALPRINCIPLESIBHALOGENOALKANESI ALCOHOLSIDMASSSPECTRAANDIR
 
-InTopics 4and 5,you learned about thebasicsoforganicchemistry and about twohomologousseries, alkanes and alkenes. In this topic,you will learn about two more homologous series, halogenoalkanes and alcohols.Thereis also a newreactionmechanism to consider,nucleophilicsubstitution.
+#### A GENERALPRINCIPLESIBHALOGENOALKANESI ALCOHOLSIDMASSSPECTRAANDIR
+A GENERAL PRINCIPLES HALOGENOALKANES ALCOHOLS MASS SPECTRA AND IR
 
-Although you have alreadylearned something about massspectrometry,wewill build on thisknowledge to seehow the techniquewasdeveloped tobecome a useful tool to discover thestructuresoforganic compounds. A new technique,infrared spectroscopy, is introduced to show another way to discover different information about the structuresoforganiccompounds.
+In Topics 4 and 5, you learned about the basics of organic chemistry and about two homologous series, alkanes and alkenes. In this topic, you will learn about two more homologous series, halogenoalkanes and alcohols. There is also a new reaction mechanism to consider, nucleophilic substitution.
+
+Although you have already learned something about mass spectrometry, we will build on this knowledge to see how the technique was developed to become a useful tool to discover the structures of organic compounds. A new technique, infrared spectroscopy, is introduced to show another way to discover different information about the structures of organic compounds.
 
 MATHS SKILLS FOR THIS TOPIC
 
-• .Useratiostoconstruct andbalanceequations
+• Use ratios to construct and balance equations
 
-• ·Represent chemical structures using angles and shapes in 2D and 3D structures
+• · Represent chemical structures using angles and shapes in 2D and 3D structures
 
-What prior knowledge do I need? Topic1D
+What prior knowledge do I need? Topic 1
 
-• Calculationofempiricalandmolecularformulae
+• Calculation of empirical and molecular formulae
 
-Topic4
+Topic 4
 
 • The names of simple organic compounds
 
-• Homologousseriesandgeneral formula
+• Homologous series and general formula
 
 • Representing organic compounds by structural formulae
 Whatwill I study in this topic?
@@ -15740,13 +15750,15 @@ LEARNING TIP
 Itissometimesworthcomparingthem/zvaluesoffragmentionswiththatofthemolecularion.The differencebetweenthetwoindicateswhathasbeenlostduringfragmentation.
 
 Forexample,if themolecularionpeakisatm/z=60andthereisafragmentionwithm/z=45,the difference is15,whichsuggeststhelossofaCH3group.
-WORKEDEXAMPLE2
 
-Twocompounds,Aand B,have themolecularformula CHO.Their simplifiedmassspectra areshownbelow.
+#### WORKEDEXAMPLE2
+WORKED EXAMPLE 2
 
-Twocompounds,CandD,have themolecularformula CHO.Their simplifiedmassspectraareshownbelow.
+Two compounds, A and B, have the molecular formula CHO. Their simplified mass spectra are shown below.
 
-Canyoudeduce thestructureofeachone?
+Two compounds, C and D, have the molecular formula CHO. Their simplified mass spectra are shown below.
+
+Can you deduce the structure of each one?
 INTERPRETATION
 
 Herearethemainpointsthatcanbededucedfrom thesimplified massspectra.
@@ -16417,53 +16429,46 @@ APPLYINGYOURSKILLS
 You will oftenfind that you need touse more than onemaths technique to answer a question.In this section,we will look at three example questions and consider which maths skills are required and how to apply them.
 WORKED EXAMPLE
 
-wassetalightbecauseoftheexothermicnatureofthereaction.
+was set alight because of the exothermic nature of the reaction.
 
-• (i)Calculatethenumberofmolesofpotassiumusedinthereaction.
+• (i) Calculate the number of moles of potassium used in the reaction.
 
-• (i)Calculate thenumberofmolesofH2(g)
+• (i) Calculate the number of moles of H2(g)
 
-• (ii)Calculate the volume of H2(g) produced in dm3.
+• (ii) Calculate the volume of H2(g) produced in dm3.
 
-This type of question isvery common.Thekeyis to befamiliar with the three different types of moles equations andwhen to use them.You will also usuallyhave towork with ratios in ordertofind the correct numberofmolesofareactantorproduct.Thistends tobewherelotsofmistakesaremade.
+This type of question is very common. The key is to be familiar with the three different types of moles equations and when to use them. You will also usually have to work with ratios in order to find the correct number of moles of a reactant or product. This tends to be where lots of mistakes are made.
 
-Therelevanceof thisquestiontothewiderworldisthat,aschemists,wemustknowhowmuchproduct we are going to make. This makes sense both for economic reasons, and in the case above where we are producing a highly flammable gas,for our safety as wel!
+The relevance of this question to the wider world is that, as chemists, we must know how much product we are going to make. This makes sense both for economic reasons, and in the case above where we are producing a highly flammable gas, for our safety as well!
 
 Moles equations
 
-• (a)moles=
+• (a) moles = mass
+            molar mass
 
-mass
+This equation tends to be used when dealing with solids or masses.
 
-molarmass
+• (b) moles = volume × concentration
 
-Thisequationtendstobeusedwhendealingwithsolidsormasses.
-
-• （b)moles=volumexconcentration
-
-Thisequationcanbeusedwhendealingwithsolutionsor titrations
+This equation can be used when dealing with solutions or titrations
 
 • (c) moles = volume in dm3
-
-oryolumeincm3
-
-24
-
-or
+             24
+          or
+             volume in cm3
+          24000
 
 This equation is used for gases.
 
-24000
-
-If you are confident with mathematics then you can also combine the above equations and rearrange them to solve themissing value.
+If you are confident with mathematics then you can also combine the above equations and rearrange them to solve the missing value.
 
 mass ÷ molar mass = volume × concentration
 
-Using theinformation above:
+Using the information above:
 
-Step1:Calculatethenumberofmolesofpotassiumused inthereaction.
+Step 1: Calculate the number of moles of potassium used in the reaction.
 
-knowwe are dealing with solids,sowe should use equation(a).Knowing this,it is now a simple case of substitutinginthenumericalvalues andsolvingtheequation.
+We know we are dealing with solids, so we should use equation (a). Knowing this, it is now a simple case of substituting in the numerical values and solving the equation.
 
 moles = 10 g ÷ 39.1 g mol⁻¹ = 0.2558 mol
 

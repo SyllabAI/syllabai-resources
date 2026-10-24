@@ -71,3 +71,32 @@ Stage Summary:
   transcribe remaining orphans → manual_formula_ws_ych12.py → parse →
   validate. LLM polish R1 staged at 800/1400, quota-walled. CATALOG row 12 +
   books/README.md records land in the same commit.
+
+---
+Task ID: T-PARSE-YCH12-1-R1
+Agent: Z.ai (main, zai-web)
+Task: Polish R1 execution under the operator directive "Run YCH12 polish R1
+(800 ids already staged) + YCH11 with 730 ids remaining" (trace
+1a16f2faf1f993f5).
+
+Work Log:
+- The 2026-10-24/25 account-level 429 wall finally lifted in intermittent
+  ~5-10 min windows; four windows attempted, two caught openings:
+  W1 +40 OK (9 min run), W2 +22 OK, W3 +12 OK, W4-5 walled.
+- Cumulative R1: **74/800 OK** (87 records: 74 ok / 6 rejected / 7 error).
+- MERGE FROM PRISTINE BASELINE (the YCH11 r1-lesson law): out/ corpus reset
+  to .pristine, the FULL repairs file applied once — text_original =
+  pre-polish truth for every repaired chunk.
+- merge_llm_ych12.py: 1400 chunks, llm_repaired 74, text changed 74,
+  anchor check PASS (0 drift). audit_polish_ych12.py: on changed chunks
+  space_run 702 → 8, caps_glue 32 → 7; corpus-wide space_run 3675 → 2981
+  (726 remaining selected ids will grind it further); 0 Unicode-unit
+  regressions vs text_original. validate_ych12.py: ALL CHECKS PASSED.
+- Landed: parsed/ corpus + parse_report + full_book_docling.md refreshed;
+  evidence/llm_repairs_ych12.jsonl (87 records). Ledgers updated in the
+  same commit.
+
+Stage Summary:
+- Polish R1 parked at **74/800** (726 ids remain — the wall is intermittent;
+  resume recipe unchanged: node llm_repair_ych12.js → cp pristine → merge →
+  audit → validate). YCH12 lane otherwise COMPLETE (r0 + R1-partial).

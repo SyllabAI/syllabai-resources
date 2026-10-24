@@ -163,7 +163,7 @@ SOURCE · `P` PARSED · `I` INTEGRATED · `L` LIVE.
 | Lane | Course slug | Book(s) | State |
 |---|---|---|---|
 | **Physics YPH11** | `ial-physics-19` | **Student Book 1** (Miles Hudson, IAS Units 1–2, ISBN 978-1292244877) + **Student Book 2** (IAL Units 4–5, ISBN 978-1292244478) — a TWO-book course; Units 3/6 are practicals, no SB | **SB1 = P · SB2 = P** (SB1 parsed 2026-10-22: 881 chunks; SB2 parsed 2026-10-22 delta lane: 826 chunks, §3.4; SB2 archive copy replaced after truncation fix, books/README.md E-004; polish R1 staged both books, quota-walled resumable) |
-| **Chemistry YCH11** | `ial-chemistry-17` | **Student Book 1** (Curtis/Murgatroyd/Scott, IAS Units 1–2 = Topics 1–10, ISBN 978-1292244860) + **Student Book 2** (IAL Units 4–5 = Topics 11–20, ISBN 978-1-292-24472-3) | **SB1 = P** (parsed 2026-10-24: 1571 chunks, §3.5; polish R1+R2 70/800 quota-walled resumable) · **SB2 = P** (parsed 2026-10-25: 1400 chunks, §3.6; formula rescue partial resumable; polish R1 staged quota-walled) |
+| **Chemistry YCH11** | `ial-chemistry-17` | **Student Book 1** (Curtis/Murgatroyd/Scott, IAS Units 1–2 = Topics 1–10, ISBN 978-1292244860) + **Student Book 2** (IAL Units 4–5 = Topics 11–20, ISBN 978-1-292-24472-3) | **SB1 = P** (parsed 2026-10-24: 1571 chunks, §3.5; polish R1-R3 90/800 quota-walled resumable) · **SB2 = P** (parsed 2026-10-25: 1400 chunks, §3.6; formula rescue partial resumable; polish R1 partial 74/800 quota-walled resumable) |
 | Biology YBI11 | `ial-biology-18` | Student Book 1 + Student Book 2 | — |
 | Maths YMA01 (P1-P4, M1-M2, S1-S2, D1) | `ial-maths-20-*` | per-component SBs | — |
 | Further Maths YFM01 | `ial-further-maths-18-*` | per-component SBs | — |
