@@ -800,7 +800,7 @@ Any **three **from:
 - **C** is incorrect as the solubility does not double for every 10 <sup>o</sup>C rise; comparing any two temperature lines 10 <sup>o</sup>C apart would show this, e.g. at 30 <sup>o</sup>C and 40 <sup>o</sup>C the solubility is 23 g per 100 g and 28 g per 100 g water respectively
 - **D** is incorrect as at 20 <sup>o</sup>C the solubility is only 19 g per 100 g water so 30 g cannot dissolve
 
-## Q19 — hard — 8 marks
+## Q19 — hard — 7 marks
 
 ### 3(a) — 2 marks
 The two processes that occur before the solid lead iodide forms are:
@@ -815,14 +815,14 @@ The two processes that occur before the solid lead iodide forms are:
 - *The ions will then diffuse so will spread out in the water*
 - *You do not need to give dissolving or diffusion in any particular order to be awarded the marks*
 
-### 3(b) — 3 marks
+### 3(b) — 2 marks
 Solid lead iodide takes less time to form when the reaction is repeated using water at a higher temperature because:
 
 - Crystals dissolve faster; **[1 mark]**
 - (Potassium iodide / lead nitrate / water) particles move faster / have more (kinetic) energy / (lead / iodide) ions move faster / rate of diffusion increases; **[1 mark]**
 - Therefore (lead and iodide) ions / particles meet / collide after a shorter period of time / sooner; **[1 mark]**
 
-**[Total:  3 marks]**
+**[Total:  2 marks]**
 
 - *As the temperature of the water increases, the amount of kinetic energy the particles have increases causing them to move faster*
 

@@ -1188,7 +1188,7 @@ To find the mass of the fuel used / burned; **[1 mark]**
 - *The liquid fuel will evaporate from the wick so the mass will decrease over time. This will cause the resulting calculations to be inaccurate*
 - *If flame is put out and the mass is measured immediately after the water has been heated, this will reduce the amount lost to evaporation resulting in more accurate results*
 
-### 9(c) — 3 marks
+### 9(b) — 3 marks
 i) The black solid is:
 
 - Soot / carbon; **[1 mark]**

@@ -268,7 +268,7 @@ C = 38.4%      H = 4.8%      Cl = 56.8%
 
 Show, by calculation, that the empirical formula of chloroethene is C<sub>2</sub>H<sub>3</sub>Cl
 
-### 5(b) — 5 marks — command: multiple — structured — from paper 2019 · Ju1CR
+### 6(b) — 5 marks — command: multiple — structured — from paper 2019 · Ju1CR
 The molecular formula of chloroethene is also C<sub>2</sub>H<sub>3</sub>Cl
 
 Chloroethene can be prepared by a two‐stage process.

@@ -773,7 +773,7 @@ This is the student’s method.
 
 Suggest why the student measures the mass of the spirit burner and fuel immediately after heating the water.
 
-### 9(c) — 3 marks — command: multiple — structured — from paper 2020 · Ja1C
+### 9(b) — 3 marks — command: multiple — structured — from paper 2020 · Ja1C
 When the fuel is burned, the student notices that a black solid forms on the bottom of the copper can.
 
 i) Identify the black solid.

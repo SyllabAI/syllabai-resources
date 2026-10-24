@@ -494,7 +494,7 @@ iii) Name this element. Use the Periodic Table to help you.
 
 (1)
 
-### 1(b) — 2 marks — command: give — structured — from paper 2020 · Ja2C
+### 1(b) — 2 marks — command: give — structured — from paper 2021 · Ja2C
 There are two isotopes of this element.
 
 Give one way, in terms of sub-atomic particles, that these isotopes are the same and one way that they are different.

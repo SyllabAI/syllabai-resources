@@ -1,6 +1,6 @@
 # Exam Questions — Elements, Compounds & Mixtures
 **1. Principles of Chemistry** · Edexcel IGCSE Chemistry 4CH1
-> Source: [https://www.savemyexams.com/igcse/chemistry/edexcel/19/topic-questions/1-principles-of-chemistry/1-2-elements-compounds-and-mixtures/exam-questions/](https://www.savemyexams.com/igcse/chemistry/edexcel/19/topic-questions/1-principles-of-chemistry/1-2-elements-compounds-and-mixtures/exam-questions/) · 25 questions · total 187 marks
+> Source: [https://www.savemyexams.com/igcse/chemistry/edexcel/19/topic-questions/1-principles-of-chemistry/1-2-elements-compounds-and-mixtures/exam-questions/](https://www.savemyexams.com/igcse/chemistry/edexcel/19/topic-questions/1-principles-of-chemistry/1-2-elements-compounds-and-mixtures/exam-questions/) · 25 questions · total 186 marks
 
 
 ## Q1 — medium — 13 marks
@@ -157,7 +157,7 @@ iii) Which food dye is most soluble in ethanol?
 
 [1]
 
-## Q4 — medium — 8 marks
+## Q4 — medium — 7 marks
 
 ### 2(a) — 1 mark — multiple_choice — from paper 2020 · Nov2C
 In a chromatography experiment a student uses samples of three pure food dyes, blue (B), red (R) and yellow (Y). He also uses samples of four unknown substances, S, T, U and V. The student puts a small drop of each substance on the pencil line. The diagram shows the student’s chromatogram at the end of the experiment.
@@ -173,7 +173,7 @@ Which of the unknown substances contains only one food dye?
 ### 5 — 2 marks — command: explain — structured
 Explain which pure food dyes are in substance V.
 
-### 2(c) — 5 marks — command: multiple — structured — from paper 2020 · Nov2C
+### 2(c) — 4 marks — command: multiple — structured — from paper 2020 · Nov2C
 i) Calculate the *R*<sub>*f*</sub><sub>  </sub>value of the yellow food dye Y.
 
 (3)

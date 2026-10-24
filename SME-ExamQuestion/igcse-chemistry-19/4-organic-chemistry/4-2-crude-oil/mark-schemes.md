@@ -919,7 +919,7 @@ Sulfur as an impurity is a problem becasue:
 
 ## Q18 — easy — 10 marks
 
-### 2(b) — 3 marks
+### 2(a) — 3 marks
 The completed the passage is:
 
 - Crude oil is **heated** to form vapour; **[1 mark]**

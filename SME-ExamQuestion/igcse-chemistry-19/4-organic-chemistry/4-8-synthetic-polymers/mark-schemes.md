@@ -544,7 +544,7 @@ The empirical formula of chloroethene can be shown to be C<sub>2</sub>H<sub>3</s
 
 - *The empirical formula is therefore C*<sub>*2*</sub>*H*<sub>*3*</sub>*Cl*
 
-### 5(b) — 5 marks
+### 6(b) — 5 marks
 i) The formula of iron(III) chloride is:
 
 - FeCl<sub>3</sub>; **[1 mark] **

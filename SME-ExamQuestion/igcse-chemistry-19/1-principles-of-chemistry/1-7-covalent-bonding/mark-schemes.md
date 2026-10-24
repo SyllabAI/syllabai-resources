@@ -135,7 +135,7 @@ A catalyst increases the rate of a reaction by:
 
 ## Q4 — hard — 11 marks
 
-### 8(a) — 2 marks
+### 9(a) — 2 marks
 i) The correct choice is:
 
 - B / 5; **[1 mark] **
@@ -159,7 +159,7 @@ ii) The correct choice is:
   - *C is incorrect as bases are proton acceptors not acids*
   - *D is correct as acids are proton donors*
 
-### 8(b) — 2 marks
+### 9(b) — 2 marks
 i) The name of this type of reaction is:
 
 - Thermal decomposition; **[1 mark] **
@@ -175,7 +175,7 @@ PbCO<sub>3</sub> → PbO + CO<sub>2</sub>
 - *When a compound is heated and breaks down, the reaction is known as thermal decomposition*
 - *When a carbonate breaks down the metal oxide and carbon dioxide gas are formed*
 
-### 8(c) — 7 marks
+### 9(c) — 7 marks
 i) The completed table is:
 
 - Liquid (shown in table); **[1 mark] **
@@ -843,9 +843,9 @@ Graphite conducts electricity because:
 - *When referring to the delocalised electron in M5, you can use words such as unbonded and free electron to describe them, or, for this mark, you could explain that not all (or only three) of the electrons are involved in bonding *
 - *Note how you would not gain a mark in M6 for using the term free electron*
 
-## Q18 — medium — 13 marks
+## Q18 — medium — 12 marks
 
-### 5(a) — 3 marks
+### 5(a) — 2 marks
 How the position of these elements in the Periodic Table depends on their electronic configurations:
 
 - They are all in Group 7 / the same group; **[1 mark]**
@@ -854,7 +854,7 @@ How the position of these elements in the Periodic Table depends on their electr
 ** **Because they all have the same number of outer electrons; **[1 mark]**
 - The number of shells determines the period that they are in; **[1 mark]**
 
-**[Total: 3 marks]**
+**[Total: 2 marks]**
 
 - *Using the Periodic Table, you should recognise that chlorine, bromine and iodine are all in Group 7*
 
