@@ -564,3 +564,34 @@ served bundle PR carries a full disclosure census.
   the only join key). MANIFEST v10 (lane-9 block appended; lane-1..8 rows + v9 assets untouched;
   file_count 479 → 514). Fleet audits: sha256 35/35, delimiter parity 35/35, fm↔enrichment membership
   38/38 fresh rows, primaryPick 6/6 unique, 0 `ugm_id` collisions against lanes 1–8.
+
+- **T-UGM-MODE1-10 — UGM mode-1 lane enrichment, Pure 3 Log-and-Exp lane (this run)**: eleventh landing from the
+  UGM corpus, and the **second lane on the pure-3 course plane** (`course: cie-a-level-maths-20-pure-3`).
+  Target of record: CIE 9709 Pure 3 subtopic 3.2 Logarithmic and exponential functions, spec points 3.2.1–3.2.4,
+  verbatim from the hub spine parse (the dropped-math artifacts in the 3.2.2/3.2.3 titles are carried verbatim;
+  no `T-SPECS` repair needed) — no fold fragments. Facts file of record:
+  `UGM-Enrichment/cie-a-level-maths-20-pure-3-logarithmic-and-exponential-functions.json` (task `T-UGM-MODE1-10`, review_state SUGGESTED).
+  Corpus sweep 855 → 71 raw hits → 71 candidates (pass-1 title/description + pass-2 body-text sweeps) →
+  **39 aligned rows** (34 fresh rows over 34 substrate resources, all single-code + 5 cross-course rows: one-to-many
+  joins r9824/r7607 (lane-2 functions), r6137/r8260 (lane-6 series), r7184 (lane-5 trigonometry), all riding bodies
+  of record, join law unchanged; no flips) **+ 26 fresh non-overlaps recorded by reference only**
+  (`bodyImported: false` — the lane-8 candidate-model law) **+ 6 of-record candidates rejected with reasons**.
+  The dedicated exp-and-log station is the workhorse (31 of 34 fresh; it held only 2 of-record resources before
+  this lane); the lane-5 pre-baked "2.2 Logarithmic and exponential functions" bearings land here (9 of 10 aligned);
+  the 3.2.2 e/ln limb is structurally thin (2 fresh + 1 join — UGM's e/ln corpus rides the lane-7/8 recorded P3
+  3.4/3.5 bearings, which stand); the lane-9 `to-log-or-not-to-log` nonOverlapByReference row flips to aligned
+  (3.2.3 pick). Primary picks of record: proving-laws-of-logs (3.2.1) / an-irrational-inequality (3.2.2) /
+  to-log-or-not-to-log (3.2.3) / how-far-did-the-earth-move (3.2.4). Cross-map of record:
+  `undergroundmathematics/resources/derived/cross-map-log-and-exp.json` + narrative
+  `undergroundmathematics/docs/cross-map-log-and-exp.md` @ syllabai-experimental 980556af.
+  Text of record: 34 new files under `UGM-Resources/pure-3-logarithmic-and-exponential-functions/` (T-UGM-IMPORT-10, below) with
+  `primaryPick` cross-referenced to `UGM-Enrichment/` T-UGM-MODE1-10.
+- **T-UGM-IMPORT-10 — UGM text corpus import, Pure 3 Log-and-Exp lane (this run)**: eleventh landing; the
+  candidate-model law continues (lane-8/9 shape): 34 fresh 3.2-bearing resources, converted from `ugm-clean`
+  through the byte-proven converter (pre-flight: **45/45 byte-identity against the lane-8 AND lane-9 of-record
+  bodies**), fm planes `curriculum_code: CIE-9709-P3-2023`, `lane: cie-a-level-maths-20-pure-3`, `task: T-UGM-IMPORT-10`,
+  `examProvenance` = acknowledgement first line verbatim (22 of 34 carry acknowledgements). Filenames
+  `{ugm_id}-{title-slug}.md` under the majority slug law (the of-record filename space is non-uniform across
+  the lost lane builds — `ugm_id` remains the only join key). MANIFEST v11 (lane-10 block appended; lane-1..9 rows
+  + v9 assets untouched; file_count 514 → 548). Fleet audits: sha256 34/34, delimiter parity 34/34, fm↔enrichment
+  membership 34/34 fresh rows, primaryPick 4/4 unique, 0 `ugm_id` collisions against lanes 1–9.

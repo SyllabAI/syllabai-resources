@@ -116,6 +116,21 @@ there. Nothing in this directory renders or embeds UGM content.
   positive-integer binomial pool stays 1.6.1 of record; 3.1.6 is the rational-index `|x| < 1` expansion),
   primary picks absolutely / inequalities / whats-left / r6577 / r7792 / r7436 — recorded, never forced.
 
+- **Lane 10 (CIE 9709 Pure 3 3.2 Logarithmic and exponential functions)** — `cie-a-level-maths-20-pure-3-logarithmic-and-exponential-functions.json`: the
+  **second lane on the pure-3 course plane** and the first **dedicated-station lane** there
+  (the exp-and-log station held only two of-record resources before this lane): 39 aligned rows
+  (34 fresh rows over 34 new-text resources — all single-code — plus 5 cross-course fact joins to
+  already-of-record bodies under `pure-1-functions/` (r9824 → 3.2.2, r7607 → 3.2.1),
+  `pure-1-series/` (r6137 → 3.2.1, r8260 → 3.2.3) and `pure-1-trigonometry/` (r7184 → 3.2.1);
+  all one-to-many beside standing alignments, no flips), 26 fresh non-overlaps **recorded by
+  reference only** (`bodyImported: false`) — the no-e/ln exponential-graph family, the lane-7/8
+  recorded P3 3.4/3.5 bearings standing, the no-extractable-text trio, the index-law pair and the
+  timber-log sweep false positive — 6 of-record candidates rejected with reasons, primary picks
+  proving-laws-of-logs / an-irrational-inequality / to-log-or-not-to-log / how-far-did-the-earth-move
+  (the lane-9 `to-log-or-not-to-log` nonOverlapByReference row flips to aligned with a fresh body),
+  and the 3.2.2 e/ln limb honestly thin (2 fresh + 1 join — UGM's e/ln corpus rides the lane-7/8
+  recorded P3 differentiation/integration bearings) — recorded, never forced.
+
 ## Rights
 
 UGM content © University of Cambridge; sourced exam questions © UCLES.

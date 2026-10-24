@@ -242,9 +242,20 @@ cross-lane 3.1 alignments as facts pointing at `pure-1-functions/`, `pure-1-seri
 `pure-1-differentiation/` and `pure-1-integration/`, and leaves the 16 fresh non-overlaps as
 `bodyImported: false` rows in the sibling enrichment — recorded, never imported, never forced.
 
----
+A **dedicated-station lane on the pure-3 plane** (lane 10, CIE 9709 Pure 3 3.2 Logarithmic and
+exponential functions) returns to the lanes 1–3 station binding under the candidate-model import
+law: the substrate is UGM's dedicated Exponentials & Logarithms station (31 of the 34 fresh
+bodies; the station held only two of-record resources before this lane — r7184 and r8260, both
+now cross-course joins), plus three strays whose tested skill is 3.2.x (to-the-limit from
+Calculus of Trigonometry & Logarithms; r7077 and powerful-fractions from Thinking about Algebra,
+both lane-5 pre-baked "2.2 Logarithmic and exponential functions" routings). The 5 cross-course
+3.2 mappings live as facts in the sibling `UGM-Enrichment/` file with `textOfRecordUnder`
+pointers at `pure-1-functions/`, `pure-1-series/` and `pure-1-trigonometry/`; the 26 fresh
+non-overlaps are `bodyImported: false` rows — recorded, never imported, never forced. The
+converter pre-flight ran 45/45 byte-identity against the lane-8 AND lane-9 of-record bodies.
 
-## Static figures — `T-UGM-ASSETS-1` (2026-10-24)
+---
+ — `T-UGM-ASSETS-1` (2026-10-24)
 
 The corpus text bodies are byte-untouched by the figure import. The figures
 of record live in [`UGM-Assets/`](../UGM-Assets/) (976 files, 37.7 MB,
