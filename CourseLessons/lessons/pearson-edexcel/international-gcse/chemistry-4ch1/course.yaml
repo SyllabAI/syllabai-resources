@@ -331,6 +331,27 @@ spine:
     pages:
     - 145
     - 156
+    # join_set DERIVED (never authored): the chapter's LEARNING OBJECTIVES
+    # chunk chem_v3_u2_c14_pdf154_0559 carries SEVEN objectives, matched to the
+    # spine node igcse-chemistry-T2:SUBd (7 children 2.15-2.21 in
+    # apps/hub/spines/igcse-chemistry-19.json, resourcesSha law). The chunk is
+    # COLUMN-INTERLEAVED (Figure 14.2 gold caption splits the 2.16 and 2.20
+    # objectives across fragments; f-0016 reassembly law — "2.x practicals are
+    # candidates" confirmed): 10 raw fragments reassemble to 7 logical
+    # objectives, each matching its spine child verbatim (case-insensitive,
+    # bullet glyphs dropped): water/dilute-acids -> 2.15; displacement
+    # metal-oxides/salt-solutions -> 2.16; order-of-reactivity list -> 2.17;
+    # iron-rusts conditions -> 2.18; barrier/galvanising/sacrificial -> 2.19;
+    # oxidation/reduction/redox/agents oxygen+electron terms -> 2.20;
+    # practical metals+dilute acids -> 2.21. ALL SEVEN are non-suffixed
+    # (papers [1C, 2C], double_award_shared true per spine applicability) —
+    # chem_only: false CONFIRMED (course row default upheld by derived
+    # evidence). Pinned at S0-L0 (T-BOOK-047 r0, 2026-10-25).
+    # learning_objective: VERBATIM from chunk 0559 (margin items reassembled in
+    # spine order; sub-bullets joined inline after their ':' leads; bullet
+    # glyphs joined with ';'; no paraphrase — f-0016 disclosure above)
+    learning_objective: "Understand how metals can be arranged in a reactivity series based on their reactions with: water; dilute hydrochloric or sulfuric acid; Understand how metals can be arranged in a reactivity series based on their displacement reactions between: metals and metal oxides; metals and aqueous solutions of metal salts; Know the order of reactivity of these metals: potassium, sodium, lithium, calcium, magnesium, aluminium, zinc, iron, copper, silver, gold; Know the conditions under which iron rusts; Understand how the rusting of iron may be prevented by: barrier methods; galvanising; sacrificial protection; Understand the terms: oxidation; reduction; redox; oxidising agent; reducing agent in terms of gain or loss of oxygen and loss or gain of electrons; Practical: Investigate reactions between dilute hydrochloric and sulfuric acids and metals (e.g. magnesium, zinc and iron)"
+    join_set: ["2.15", "2.16", "2.17", "2.18", "2.19", "2.20", "2.21"]  # STRINGS (emit -> JSON strings; zod specRefs is z.string())
     section_count: 20
   - key: u2:c15
     slug: extraction-metals
