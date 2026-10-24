@@ -1,0 +1,651 @@
+{
+ "format": "wave1-receipt/0.1",
+ "wave": "wave-1 (instrumented first authoring wave, OPEN posture)",
+ "generatedAt": "2026-10-23T18:05:55.202Z",
+ "protocolOfRecord": "A1 spec section 7 measurement discipline, extended per operator OPEN posture decision (A5 brief of record A5-Posture-Decision-Brief-Open-20261023.docx): guided study + guided practice corpus commitment; instrumented wave retained as measurement discipline (per-phase timing receipts + declared assistance), no longer a gate; ~2 h/note open-flip threshold dissolved.",
+ "posture": "OPEN (build it fully) — operator decision of record, trace 1a1683ec43a016a9",
+ "corpusPin": {
+  "corpusVersion": "sme-revision-notes-igcse-chemistry-19-2026-09-18",
+  "snapshotFile": "/home/z/my-project/.tmp/wave1/corpus-snapshot.json",
+  "snapshotManifest": {
+   "pulledAt": "2026-10-23T11:00:31.218Z",
+   "pullElapsedMs": 1255,
+   "lane": "t0_readonly, SELECT-only, one connection, one query",
+   "noteCount": 112,
+   "topicCount": 4,
+   "subtopicCount": 28,
+   "perTopic": [
+    {
+     "topic": "T1:1. Principles of Chemistry",
+     "subtopics": 9,
+     "notes": 40
+    },
+    {
+     "topic": "T2:2. Inorganic Chemistry",
+     "subtopics": 8,
+     "notes": 36
+    },
+    {
+     "topic": "T3:3. Physical Chemistry",
+     "subtopics": 3,
+     "notes": 15
+    },
+    {
+     "topic": "T4:4. Organic Chemistry",
+     "subtopics": 8,
+     "notes": 21
+    }
+   ],
+   "corpusVersions": [
+    "sme-revision-notes-igcse-chemistry-19-2026-09-18"
+   ],
+   "totalBodyChars": 361272,
+   "verifyAgainstCensusOfRecord": {
+    "topics": 4,
+    "subtopics": 28,
+    "notes": 112,
+    "perTopicNotes": [
+     40,
+     36,
+     15,
+     21
+    ]
+   }
+  },
+  "censusOfRecord": {
+   "topics": 4,
+   "subtopics": 28,
+   "notes": 112,
+   "perTopicNotes": [
+    40,
+    36,
+    15,
+    21
+   ]
+  },
+  "dbContact": "single read-only SELECT snapshot pull (scripts/wave1-corpus-snapshot.js); zero DB writes all wave"
+ },
+ "calibrationReference": {
+  "noteId": "rn_kb2VkFMdBTbmG33t",
+  "role": "A1 seed note; calibration reference layer of record; excluded from the timed roster"
+ },
+ "rosterNote": "10-note roster of record covers 8+ note genres and both size extremes to maximise format-overfit information (spec section 9 risk); floor 0.2 h/topic is never quotable as a human rate; bands 28/56/93 author-days remain the exposure arithmetic of record.",
+ "totals": {
+  "notes": 10,
+  "lessons": 24,
+  "keyPoints": 116,
+  "checks": 120,
+  "focusedSeconds": 2830,
+  "focusedHours": 0.79,
+  "meanSecondsPerNote": 283,
+  "meanHoursPerNote": 0.08,
+  "meanHoursPerLesson": 0.033,
+  "wallSecondsAll": 22499,
+  "loggedPauses": 5
+ },
+ "phaseAggregateSeconds": {
+  "P0": 882,
+  "P1": 128,
+  "P2": 217,
+  "P3": 143,
+  "P4": 263,
+  "P5": 162,
+  "P6": 113,
+  "P7": 743,
+  "P8": 174
+ },
+ "phaseSharePercent": {
+  "P0": 31.2,
+  "P1": 4.5,
+  "P2": 7.7,
+  "P3": 5.1,
+  "P4": 9.3,
+  "P5": 5.7,
+  "P6": 4,
+  "P7": 26.3,
+  "P8": 6.1
+ },
+ "perNote": [
+  {
+   "noteId": "rn_HZM2WRjPPT8Srcxt",
+   "noteTitle": "Solutions",
+   "topicTitle": "1. Principles of Chemistry",
+   "subtopicTitle": "States of Matter",
+   "specPointCodes": [
+    "4CH1-1.4"
+   ],
+   "bodyChars": 920,
+   "bodySha256": "264026582325c689527cbd887b4514d0501ef7da2790249551c373c80797dd6f",
+   "rosterGenre": "definitional single-lesson (small)",
+   "lessons": 1,
+   "lessonTitles": [
+    "Solutions Terminology"
+   ],
+   "checks": 5,
+   "keyPoints": 5,
+   "workedExample": "null (declared: none in source note)",
+   "phaseSeconds": {
+    "P0": 106,
+    "P1": 0,
+    "P2": 10,
+    "P3": 12,
+    "P4": 17,
+    "P5": 23,
+    "P6": 0,
+    "P7": 36,
+    "P8": 8
+   },
+   "totalSeconds": 214,
+   "authoringHoursPerTopic": 0.06,
+   "wallClockSpanSeconds": 214,
+   "pauseLog": [],
+   "assistedPhases": [
+    "P1",
+    "P2",
+    "P3",
+    "P4",
+    "P5",
+    "P6",
+    "P7"
+   ],
+   "schemaValidation": "PASS (ajv draft-07, additionalProperties false)",
+   "lintHardFails": 0,
+   "lintWarnings": 1,
+   "layerFile": "/home/z/my-project/download/wave1/guided-lesson-rn_HZM2WRjPPT8Srcxt.json",
+   "receiptFile": "/home/z/my-project/download/wave1/timing-receipt-rn_HZM2WRjPPT8Srcxt.json"
+  },
+  {
+   "noteId": "rn_xT8XsdJtDX5gNFXj",
+   "noteTitle": "Moles, Mass & RFM",
+   "topicTitle": "1. Principles of Chemistry",
+   "subtopicTitle": "Chemical Formulae, Equations, Calculations",
+   "specPointCodes": [
+    "4CH1-1.27",
+    "4CH1-1.28"
+   ],
+   "bodyChars": 3937,
+   "bodySha256": "1e79e5945158640198153021058500f7b4cfb85369b84438411844e2877b74c5",
+   "rosterGenre": "procedural calculation",
+   "lessons": 2,
+   "lessonTitles": [
+    "The Mole",
+    "Moles-Mass Calculations"
+   ],
+   "checks": 10,
+   "keyPoints": 10,
+   "workedExample": "present",
+   "phaseSeconds": {
+    "P0": 63,
+    "P1": 0,
+    "P2": 17,
+    "P3": 11,
+    "P4": 22,
+    "P5": 12,
+    "P6": 9,
+    "P7": 68,
+    "P8": 15
+   },
+   "totalSeconds": 217,
+   "authoringHoursPerTopic": 0.06,
+   "wallClockSpanSeconds": 2152,
+   "pauseLog": [
+    {
+     "phase": "P0",
+     "reason": "tooling-fix-arithmetic-linter",
+     "seconds": 63
+    },
+    {
+     "phase": "P1",
+     "reason": "turn-boundary",
+     "seconds": 0
+    }
+   ],
+   "assistedPhases": [
+    "P1",
+    "P2",
+    "P3",
+    "P4",
+    "P5",
+    "P6",
+    "P7"
+   ],
+   "schemaValidation": "PASS (ajv draft-07, additionalProperties false)",
+   "lintHardFails": 0,
+   "lintWarnings": 0,
+   "layerFile": "/home/z/my-project/download/wave1/guided-lesson-rn_xT8XsdJtDX5gNFXj.json",
+   "receiptFile": "/home/z/my-project/download/wave1/timing-receipt-rn_xT8XsdJtDX5gNFXj.json"
+  },
+  {
+   "noteId": "rn_TM4QVMgXVxs4vbfY",
+   "noteTitle": "Writing Half-Equations",
+   "topicTitle": "1. Principles of Chemistry",
+   "subtopicTitle": "Electrolysis",
+   "specPointCodes": [
+    "4CH1-1.59C"
+   ],
+   "bodyChars": 4130,
+   "bodySha256": "898de355a21031c873de5accf9b76aeefca697dc8dbf92d9c8521c92f2986f93",
+   "rosterGenre": "procedural equations",
+   "lessons": 3,
+   "lessonTitles": [
+    "Electrolysis half equations",
+    "Electrolysis of molten lead(II) bromide",
+    "Electrolysis of dilute sulfuric acid"
+   ],
+   "checks": 15,
+   "keyPoints": 14,
+   "workedExample": "present",
+   "phaseSeconds": {
+    "P0": 170,
+    "P1": 14,
+    "P2": 25,
+    "P3": 18,
+    "P4": 47,
+    "P5": 17,
+    "P6": 19,
+    "P7": 99,
+    "P8": 62
+   },
+   "totalSeconds": 471,
+   "authoringHoursPerTopic": 0.13,
+   "wallClockSpanSeconds": 471,
+   "pauseLog": [],
+   "assistedPhases": [
+    "P1",
+    "P2",
+    "P3",
+    "P4",
+    "P5",
+    "P6",
+    "P7"
+   ],
+   "schemaValidation": "PASS (ajv draft-07, additionalProperties false)",
+   "lintHardFails": 0,
+   "lintWarnings": 0,
+   "layerFile": "/home/z/my-project/download/wave1/guided-lesson-rn_TM4QVMgXVxs4vbfY.json",
+   "receiptFile": "/home/z/my-project/download/wave1/timing-receipt-rn_TM4QVMgXVxs4vbfY.json"
+  },
+  {
+   "noteId": "rn_JCfdFrHsCkrmMbFj",
+   "noteTitle": "Word & Chemical Equations",
+   "topicTitle": "1. Principles of Chemistry",
+   "subtopicTitle": "Chemical Formulae, Equations, Calculations",
+   "specPointCodes": [
+    "4CH1-1.25"
+   ],
+   "bodyChars": 9662,
+   "bodySha256": "6830e1486a3185270be66c028455ffbe43281613dae13603f3f17520f1adf615",
+   "rosterGenre": "multi-spec-point worked-equation note (largest authored body at open)",
+   "lessons": 3,
+   "lessonTitles": [
+    "Conservation of mass",
+    "How to write word equations",
+    "How to write balanced equations"
+   ],
+   "checks": 15,
+   "keyPoints": 13,
+   "workedExample": "present",
+   "phaseSeconds": {
+    "P0": 40,
+    "P1": 0,
+    "P2": 33,
+    "P3": 16,
+    "P4": 41,
+    "P5": 21,
+    "P6": 49,
+    "P7": 126,
+    "P8": 11
+   },
+   "totalSeconds": 336,
+   "authoringHoursPerTopic": 0.09,
+   "wallClockSpanSeconds": 8440,
+   "pauseLog": [
+    {
+     "phase": "P2",
+     "reason": "turn-boundary",
+     "seconds": 0
+    }
+   ],
+   "assistedPhases": [
+    "P1",
+    "P2",
+    "P3",
+    "P4",
+    "P5",
+    "P6",
+    "P7"
+   ],
+   "schemaValidation": "PASS (ajv draft-07, additionalProperties false)",
+   "lintHardFails": 0,
+   "lintWarnings": 0,
+   "layerFile": "/home/z/my-project/download/wave1/guided-lesson-rn_JCfdFrHsCkrmMbFj.json",
+   "receiptFile": "/home/z/my-project/download/wave1/timing-receipt-rn_JCfdFrHsCkrmMbFj.json"
+  },
+  {
+   "noteId": "rn_wTtM2fQVVjntRm64",
+   "noteTitle": "Classify Metals & Non-Metals",
+   "topicTitle": "1. Principles of Chemistry",
+   "subtopicTitle": "The Periodic Table",
+   "specPointCodes": [
+    "4CH1-1.20",
+    "4CH1-1.21"
+   ],
+   "bodyChars": 2160,
+   "bodySha256": "923a1c33eda37d527689a77b61d397586dc077010b5f47623e75a5ea03a39fd9",
+   "rosterGenre": "classification comparison",
+   "lessons": 2,
+   "lessonTitles": [
+    "Properties of metals and non-metals",
+    "Metals and non-metals in the periodic table"
+   ],
+   "checks": 10,
+   "keyPoints": 10,
+   "workedExample": "null (declared: none in source note)",
+   "phaseSeconds": {
+    "P0": 16,
+    "P1": 0,
+    "P2": 19,
+    "P3": 23,
+    "P4": 17,
+    "P5": 23,
+    "P6": 8,
+    "P7": 55,
+    "P8": 5
+   },
+   "totalSeconds": 165,
+   "authoringHoursPerTopic": 0.05,
+   "wallClockSpanSeconds": 8562,
+   "pauseLog": [
+    {
+     "phase": "P2",
+     "reason": "turn-boundary",
+     "seconds": 0
+    }
+   ],
+   "assistedPhases": [
+    "P1",
+    "P2",
+    "P3",
+    "P4",
+    "P5",
+    "P7"
+   ],
+   "schemaValidation": "PASS (ajv draft-07, additionalProperties false)",
+   "lintHardFails": 0,
+   "lintWarnings": 1,
+   "layerFile": "/home/z/my-project/download/wave1/guided-lesson-rn_wTtM2fQVVjntRm64.json",
+   "receiptFile": "/home/z/my-project/download/wave1/timing-receipt-rn_wTtM2fQVVjntRm64.json"
+  },
+  {
+   "noteId": "rn_jNJ4gTmcHqdFqsNh",
+   "noteTitle": "Group 1 (Alkali Metals)",
+   "topicTitle": "2. Inorganic Chemistry",
+   "subtopicTitle": "Group 1 (Alkali Metals)",
+   "specPointCodes": [
+    "4CH1-2.1",
+    "4CH1-2.2",
+    "4CH1-2.3"
+   ],
+   "bodyChars": 6191,
+   "bodySha256": "f008a7362f29fb417b0504fc0d25546fb9e099e05ed13e321ec3fa344bdaf791",
+   "rosterGenre": "family-trends note (3 spec points)",
+   "lessons": 3,
+   "lessonTitles": [
+    "Group 1 elements",
+    "Trends in Group 1",
+    "Predicting properties in Group 1"
+   ],
+   "checks": 15,
+   "keyPoints": 14,
+   "workedExample": "present",
+   "phaseSeconds": {
+    "P0": 191,
+    "P1": 8,
+    "P2": 37,
+    "P3": 0,
+    "P4": 18,
+    "P5": 12,
+    "P6": 9,
+    "P7": 69,
+    "P8": 6
+   },
+   "totalSeconds": 351,
+   "authoringHoursPerTopic": 0.1,
+   "wallClockSpanSeconds": 351,
+   "pauseLog": [],
+   "assistedPhases": [
+    "P1",
+    "P2",
+    "P4",
+    "P5",
+    "P6",
+    "P7"
+   ],
+   "schemaValidation": "PASS (ajv draft-07, additionalProperties false)",
+   "lintHardFails": 0,
+   "lintWarnings": 1,
+   "layerFile": "/home/z/my-project/download/wave1/guided-lesson-rn_jNJ4gTmcHqdFqsNh.json",
+   "receiptFile": "/home/z/my-project/download/wave1/timing-receipt-rn_jNJ4gTmcHqdFqsNh.json"
+  },
+  {
+   "noteId": "rn_kJg2gwF77vdFZZ2H",
+   "noteTitle": "Tests for Anions",
+   "topicTitle": "2. Inorganic Chemistry",
+   "subtopicTitle": "Chemical Tests",
+   "specPointCodes": [
+    "4CH1-2.48"
+   ],
+   "bodyChars": 4788,
+   "bodySha256": "2378c63a70b706cf7ec15a4fcf85332854d06377aec28f16880b5deb377d05df",
+   "rosterGenre": "parallel-test-structure note",
+   "lessons": 3,
+   "lessonTitles": [
+    "Test for carbonate ions",
+    "Test for halide ions",
+    "Test for sulfate ions"
+   ],
+   "checks": 15,
+   "keyPoints": 15,
+   "workedExample": "null (declared: none in source note)",
+   "phaseSeconds": {
+    "P0": 27,
+    "P1": 0,
+    "P2": 22,
+    "P3": 16,
+    "P4": 46,
+    "P5": 15,
+    "P6": 10,
+    "P7": 119,
+    "P8": 6
+   },
+   "totalSeconds": 262,
+   "authoringHoursPerTopic": 0.07,
+   "wallClockSpanSeconds": 871,
+   "pauseLog": [
+    {
+     "phase": "P2",
+     "reason": "turn-boundary",
+     "seconds": 0
+    }
+   ],
+   "assistedPhases": [
+    "P1",
+    "P2",
+    "P3",
+    "P4",
+    "P5",
+    "P6",
+    "P7"
+   ],
+   "schemaValidation": "PASS (ajv draft-07, additionalProperties false)",
+   "lintHardFails": 0,
+   "lintWarnings": 1,
+   "layerFile": "/home/z/my-project/download/wave1/guided-lesson-rn_kJg2gwF77vdFZZ2H.json",
+   "receiptFile": "/home/z/my-project/download/wave1/timing-receipt-rn_kJg2gwF77vdFZZ2H.json"
+  },
+  {
+   "noteId": "rn_fQSYvKRMDBj3s2Bx",
+   "noteTitle": "Practical: Prepare Copper(II)Sulfate",
+   "topicTitle": "2. Inorganic Chemistry",
+   "subtopicTitle": "Acids, Bases & Salt Preparations",
+   "specPointCodes": [
+    "4CH1-2.39",
+    "4CH1-2.42"
+   ],
+   "bodyChars": 1983,
+   "bodySha256": "a74ad7ae0222744e2b1587c7262f0647b71f8f541d1377766456487d7988cd77",
+   "rosterGenre": "practical method",
+   "lessons": 2,
+   "lessonTitles": [
+    "Method",
+    "Results"
+   ],
+   "checks": 10,
+   "keyPoints": 10,
+   "workedExample": "null (declared: none in source note)",
+   "phaseSeconds": {
+    "P0": 37,
+    "P1": 106,
+    "P2": 15,
+    "P3": 12,
+    "P4": 16,
+    "P5": 13,
+    "P6": 9,
+    "P7": 47,
+    "P8": 59
+   },
+   "totalSeconds": 315,
+   "authoringHoursPerTopic": 0.09,
+   "wallClockSpanSeconds": 939,
+   "pauseLog": [],
+   "assistedPhases": [
+    "P1",
+    "P2",
+    "P3",
+    "P4",
+    "P5",
+    "P6",
+    "P7"
+   ],
+   "schemaValidation": "PASS (ajv draft-07, additionalProperties false)",
+   "lintHardFails": 0,
+   "lintWarnings": 1,
+   "layerFile": "/home/z/my-project/download/wave1/guided-lesson-rn_fQSYvKRMDBj3s2Bx.json",
+   "receiptFile": "/home/z/my-project/download/wave1/timing-receipt-rn_fQSYvKRMDBj3s2Bx.json"
+  },
+  {
+   "noteId": "rn_2d6Yb8GwGfRRd6pZ",
+   "noteTitle": "Dynamic Equilibrium",
+   "topicTitle": "3. Physical Chemistry",
+   "subtopicTitle": "Reversible Reactions & Equilibria",
+   "specPointCodes": [
+    "4CH1-3.19C",
+    "4CH1-3.20C"
+   ],
+   "bodyChars": 2792,
+   "bodySha256": "5507efbb30ab6b8a4eb8a61911c926e2a9f5aa3c972f7b131b664c9524ca9ef6",
+   "rosterGenre": "concepts + worked system example",
+   "lessons": 2,
+   "lessonTitles": [
+    "Dynamic equilibrium",
+    "Reaching equilibrium: the Haber process"
+   ],
+   "checks": 10,
+   "keyPoints": 10,
+   "workedExample": "null (declared: none in source note)",
+   "phaseSeconds": {
+    "P0": 97,
+    "P1": 0,
+    "P2": 15,
+    "P3": 18,
+    "P4": 18,
+    "P5": 13,
+    "P6": 0,
+    "P7": 52,
+    "P8": 1
+   },
+   "totalSeconds": 215,
+   "authoringHoursPerTopic": 0.06,
+   "wallClockSpanSeconds": 215,
+   "pauseLog": [],
+   "assistedPhases": [
+    "P2",
+    "P3",
+    "P4",
+    "P5",
+    "P6",
+    "P7"
+   ],
+   "schemaValidation": "PASS (ajv draft-07, additionalProperties false)",
+   "lintHardFails": 0,
+   "lintWarnings": 1,
+   "layerFile": "/home/z/my-project/download/wave1/guided-lesson-rn_2d6Yb8GwGfRRd6pZ.json",
+   "receiptFile": "/home/z/my-project/download/wave1/timing-receipt-rn_2d6Yb8GwGfRRd6pZ.json"
+  },
+  {
+   "noteId": "rn_4SgDJv8rKxpQQSBh",
+   "noteTitle": "Addition Polymers",
+   "topicTitle": "4. Organic Chemistry",
+   "subtopicTitle": "Synthetic polymers",
+   "specPointCodes": [
+    "4CH1-4.44",
+    "4CH1-4.45",
+    "4CH1-4.46"
+   ],
+   "bodyChars": 4051,
+   "bodySha256": "b9579ca54a8a579b867ba160d0f4f816131019e4fa61719160f3eed58cd1bde4",
+   "rosterGenre": "drawing-skill note (3 spec points)",
+   "lessons": 3,
+   "lessonTitles": [
+    "Monomers",
+    "Drawing polymers",
+    "Deducing monomers and repeat units"
+   ],
+   "checks": 15,
+   "keyPoints": 15,
+   "workedExample": "null (declared: none in source note)",
+   "phaseSeconds": {
+    "P0": 135,
+    "P1": 0,
+    "P2": 24,
+    "P3": 17,
+    "P4": 21,
+    "P5": 13,
+    "P6": 0,
+    "P7": 72,
+    "P8": 1
+   },
+   "totalSeconds": 284,
+   "authoringHoursPerTopic": 0.08,
+   "wallClockSpanSeconds": 284,
+   "pauseLog": [],
+   "assistedPhases": [
+    "P2",
+    "P3",
+    "P4",
+    "P5",
+    "P6",
+    "P7"
+   ],
+   "schemaValidation": "PASS (ajv draft-07, additionalProperties false)",
+   "lintHardFails": 0,
+   "lintWarnings": 1,
+   "layerFile": "/home/z/my-project/download/wave1/guided-lesson-rn_4SgDJv8rKxpQQSBh.json",
+   "receiptFile": "/home/z/my-project/download/wave1/timing-receipt-rn_4SgDJv8rKxpQQSBh.json"
+  }
+ ],
+ "warningInventory": {
+  "arithmetic-truth: workedExample is null — declared as none in source note (receipt must carry the declaration)": 6,
+  "arithmetic-truth: no arithmetic expression found to verify (verify manually if the example is non-numeric)": 1
+ },
+ "integrityRecord": {
+  "assistFlagCorrection": "Notes 7-10 initially had P2-P7 (and note 8 P1) closed unflagged despite model-drafted content; corrected via scripts/wave1-assist-fix.js + wave1-integrity-final.js; receipts recomputed.",
+  "timingRestoration": "wave1-run.js export does not persist the event log on the success path; the assist-flag re-exports re-closed P8 at re-export time inflating it. P8 closures restored from the console totals of record of each note's successful first export (scripts/wave1-receipt-restore.js). All totals reconcile with the console of record within 1 s rounding.",
+  "p1DriftDisclosure": "Notes 9/10: the phase command moved P0 directly to P2; the P1 split decision was authored inside the P0 clocked span. Disclosed in each receipt; no hours understated.",
+  "harnessDefectFiled": "wave1-run.js success-path save() omission — to be patched in the toolchain before any future timed wave."
+ },
+ "reader": {
+  "numberofRecord": "0.08 h per note (mean of 10 focused totals, declared-assisted, model-drafted under OPEN posture)",
+  "caveat": "All figures are model-drafted under the operator OPEN posture with per-phase declared assistance; they measure the instrumented pipeline, not unassisted human rates. The floor 0.2 h/topic and the bands 28/56/93 author-days remain the only corpus-wide arithmetic of record."
+ }
+}

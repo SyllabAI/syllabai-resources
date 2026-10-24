@@ -1,0 +1,1284 @@
+{
+ "format": "wave-pacing-open/0.1",
+ "at": "2026-10-23T18:29:19.418Z",
+ "operatorInstruction": "pace the remaining 102 notes under OPEN (trace 1a169f7a1cd353f5)",
+ "posture": {
+  "name": "OPEN (build it fully) — operator decision of record, trace 1a1683ec43a016a9; brief of record A5-Posture-Decision-Brief-Open-20261023.docx",
+  "semantics": "guided study + guided practice full-corpus commitment (112 notes, 1:1 with the 28 subtopics); pacing is a SCHEDULE, not a gate; the ~2 h/note open-flip threshold is dissolved; per-phase timing receipts + declared assistance continue as measurement discipline, not admission control",
+  "floorRule": "the 0.2 h/topic floor is never quotable as a human rate; the only corpus-wide human-exposure arithmetic of record is the 28/56/93 author-day band set, re-disclosed below"
+ },
+ "preconditionsClosedThisRound": {
+  "saveDefect": "PATCHED + regression-proven: wave1-run.js export now persists the event log at mutation time and re-exports are idempotent (never re-close a phase); proof: scripts/wave1-savepatch-regression.js, 10/10 assertions, negative control reproduced the defect (P8 300s -> 308s on re-export), of-record files byte-identical (21 files)",
+  "snapshotPin": "RE-VERIFIED zero-DB: 16/16 checks (112/112 body hashes, census 4/28/112 @ 40-36-15-21, 361,272 chars, single corpus_version, canonical order, 10 receipts + wave receipt reconciled); receipt: download/wave1/snapshot-pin-reverify-20261024.json; going-forward file pin e23e2ab79df6b0e957bf12933779e4701b37c88736d87c20b19bac130553487d",
+  "dbContact": "zero this round; waves 2-10 run entirely off the pinned local snapshot (all 112 bodies local) — zero further DB contact planned"
+ },
+ "basis": {
+  "measuredWave1": {
+   "notes": 10,
+   "lessons": 24,
+   "checks": 120,
+   "focusedSeconds": 2830,
+   "focusedHours": 0.79,
+   "meanSecondsPerNote": 283,
+   "meanHoursPerNote": 0.08,
+   "meanHoursPerLesson": 0.033,
+   "phaseSharePercent": {
+    "P0": 31.2,
+    "P1": 4.5,
+    "P2": 7.7,
+    "P3": 5.1,
+    "P4": 9.3,
+    "P5": 5.7,
+    "P6": 4,
+    "P7": 26.3,
+    "P8": 6.1
+   },
+   "sourceNotesChars": 40614,
+   "characterOfSample": "roster deliberately covered 8+ note genres and both size extremes to maximise format-overfit information; thin-note and largest-note cases already measured"
+  },
+  "perCharRateSeconds": 0.06968,
+  "standingBandsOfRecord": {
+   "source": "bands 28 / 56 / 93 author-days per 112-note corpus (exposure arithmetic of record; never gates; floor 0.2 h/topic never quotable as a human rate)",
+   "perNoteHours": [
+    2,
+    4,
+    6.64
+   ],
+   "scaledTo102": {
+    "authorDays": [
+     25.5,
+     51,
+     84.7
+    ],
+    "hours": [
+     204,
+     408,
+     677.6
+    ]
+   }
+  }
+ },
+ "pacingPrinciples": [
+  "SCHEDULE NOT GATE: the plan paces the work; it does not admit or block it. Deviations are disclosed at the wave receipt, never hidden.",
+  "PREREQUISITE ORDER: waves run T1 -> T2 -> T3 -> T4 and subtopic order within each topic, so every primer cites an already-built earlier subtopic (wave-1 precedent).",
+  "MEASURED-LANE ESTIMATORS: mean-based (283 s/note) and char-based (0.0697 s/ch) are both carried; the char-based figure is the more honest extrapolator because the roster over-weights size extremes by design.",
+  "BANDS ARE DISCLOSURE: the scaled 25.5 / 51 / 84.75 author-day figures describe plausible unassisted human-author exposure of the remaining corpus; they are not commitments and not gates.",
+  "RECEIPT DISCIPLINE CONTINUES: every note exports with per-phase seconds + declared assistance; every wave closes with a wave receipt + wave report (wave-1 pattern).",
+  "RECALIBRATION POINTS: at each wave receipt, recompute mean s/note, s/ch and phase shares from that wave's receipts, re-state the estimators, and disclose any drift — before the next wave opens.",
+  "SESSION SHAPE: turn-boundary pauses are expected and logged; multi-session notes carry honest wall spans (the save() patch keeps re-exports from ever inflating them again)."
+ ],
+ "wavePlan": [
+  {
+   "wave": 2,
+   "topic": "T1: 1. Principles of Chemistry",
+   "noteCount": 12,
+   "totalBodyChars": 41207,
+   "specPoints": 22,
+   "expectedFocusedHours": {
+    "meanBased": 0.94,
+    "charBased": 0.8
+   },
+   "register": [
+    {
+     "noteId": "rn_2VnK66PqbvFKdKYt",
+     "title": "The Three States of Matter",
+     "subtopic": "States of Matter",
+     "bodyChars": 4876,
+     "specPointCodes": [
+      "4CH1-1.1",
+      "4CH1-1.2"
+     ]
+    },
+    {
+     "noteId": "rn_S7GPh8BBPBbmhYKm",
+     "title": "Diffusion & Dilution",
+     "subtopic": "States of Matter",
+     "bodyChars": 3150,
+     "specPointCodes": [
+      "4CH1-1.3"
+     ]
+    },
+    {
+     "noteId": "rn_cTk2cs2h2BKQ3y3B",
+     "title": "Solubility",
+     "subtopic": "States of Matter",
+     "bodyChars": 2515,
+     "specPointCodes": [
+      "4CH1-1.4",
+      "4CH1-1.5C",
+      "4CH1-1.6C"
+     ]
+    },
+    {
+     "noteId": "rn_QVmDs8X4szpds3cP",
+     "title": "Practical: Investigate the Solubility of a Solid in Water at a Specific Temperature",
+     "subtopic": "States of Matter",
+     "bodyChars": 3308,
+     "specPointCodes": [
+      "4CH1-1.5C",
+      "4CH1-1.7C"
+     ]
+    },
+    {
+     "noteId": "rn_TWGVV6RXN3Ktqb9h",
+     "title": "Element, Compound or Mixture",
+     "subtopic": "Elements, Compounds & Mixtures",
+     "bodyChars": 1615,
+     "specPointCodes": [
+      "4CH1-1.8"
+     ]
+    },
+    {
+     "noteId": "rn_RvgxXR36425BFMcx",
+     "title": "Pure Substance vs Mixture",
+     "subtopic": "Elements, Compounds & Mixtures",
+     "bodyChars": 2317,
+     "specPointCodes": [
+      "4CH1-1.8",
+      "4CH1-1.9"
+     ]
+    },
+    {
+     "noteId": "rn_YBWYstSRgM2QPzQq",
+     "title": "Separation Techniques",
+     "subtopic": "Elements, Compounds & Mixtures",
+     "bodyChars": 6829,
+     "specPointCodes": [
+      "4CH1-1.10"
+     ]
+    },
+    {
+     "noteId": "rn_R3ptwxGTTvdBFvyP",
+     "title": "Interpreting Chromatograms",
+     "subtopic": "Elements, Compounds & Mixtures",
+     "bodyChars": 3445,
+     "specPointCodes": [
+      "4CH1-1.11",
+      "4CH1-1.12"
+     ]
+    },
+    {
+     "noteId": "rn_TsfqyK9BYMtN2Bfd",
+     "title": "Practical: Investigating Paper Chromatography",
+     "subtopic": "Elements, Compounds & Mixtures",
+     "bodyChars": 4079,
+     "specPointCodes": [
+      "4CH1-1.10",
+      "4CH1-1.13"
+     ]
+    },
+    {
+     "noteId": "rn_kb2VkFMdBTbmG33t",
+     "title": "Atoms: Definitions & Structure",
+     "subtopic": "Atomic Structure",
+     "bodyChars": 4984,
+     "specPointCodes": [
+      "4CH1-1.14",
+      "4CH1-1.15",
+      "4CH1-1.16"
+     ]
+    },
+    {
+     "noteId": "rn_vzGMZxqQtWYVWB7h",
+     "title": "Calculate Relative Atomic Mass",
+     "subtopic": "Atomic Structure",
+     "bodyChars": 2471,
+     "specPointCodes": [
+      "4CH1-1.16",
+      "4CH1-1.17"
+     ]
+    },
+    {
+     "noteId": "rn_b3XCzdtfQddbJjVf",
+     "title": "Periodic Table: Basics",
+     "subtopic": "The Periodic Table",
+     "bodyChars": 1618,
+     "specPointCodes": [
+      "4CH1-1.18"
+     ]
+    }
+   ],
+   "entryConditions": [
+    "snapshot pin re-verified zero-DB against the file pins of record (wave-2: snapshot-pin-reverify-20261024.json; later waves: re-run scripts/wave1-pin-verify.js)",
+    "harness save() patch in effect (scripts/wave1-run.js 2026-10-24; regression proof .tmp/wave1/patch-verify/regression-result.json)",
+    "roster = next notes in topic order; format-minimums check at P1 per note (lessons 1-5, checks 5/lesson, keyPoints 3-6, glossary 3-8, two depth layers)",
+    "ajv present (npm install --prefix /home/z ajv --no-save post-recycle; documented recurring pattern)",
+    "protocol section 7: single author/session, declared assistance per phase, pauses logged with reason codes, P0 body read end to end from the pinned snapshot"
+   ],
+   "exit": "wave receipt (per-wave aggregate of the per-note timing receipts) + wave report; recalibration checkpoint applied before the next wave opens"
+  },
+  {
+   "wave": 3,
+   "topic": "T1: 1. Principles of Chemistry",
+   "noteCount": 12,
+   "totalBodyChars": 46306,
+   "specPoints": 23,
+   "expectedFocusedHours": {
+    "meanBased": 0.94,
+    "charBased": 0.9
+   },
+   "register": [
+    {
+     "noteId": "rn_Syxyh4Fct8KFg8NQ",
+     "title": "Electronic Configurations",
+     "subtopic": "The Periodic Table",
+     "bodyChars": 5169,
+     "specPointCodes": [
+      "4CH1-1.19",
+      "4CH1-1.22"
+     ]
+    },
+    {
+     "noteId": "rn_mBqgkpZ3hbSBmWCC",
+     "title": "Electronic Configuration & Reactivity",
+     "subtopic": "The Periodic Table",
+     "bodyChars": 3194,
+     "specPointCodes": [
+      "4CH1-1.22",
+      "4CH1-1.23",
+      "4CH1-1.24"
+     ]
+    },
+    {
+     "noteId": "rn_N4HX8tqbdhTQcHyS",
+     "title": "Calculate Relative Mass",
+     "subtopic": "Chemical Formulae, Equations, Calculations",
+     "bodyChars": 2447,
+     "specPointCodes": [
+      "4CH1-1.26"
+     ]
+    },
+    {
+     "noteId": "rn_VyXFNyxZHZGkxqTG",
+     "title": "Calculate Reacting Masses",
+     "subtopic": "Chemical Formulae, Equations, Calculations",
+     "bodyChars": 4869,
+     "specPointCodes": [
+      "4CH1-1.25",
+      "4CH1-1.28",
+      "4CH1-1.29"
+     ]
+    },
+    {
+     "noteId": "rn_vXPcH3vS8wv7BFkK",
+     "title": "Calculate Percentage Yield",
+     "subtopic": "Chemical Formulae, Equations, Calculations",
+     "bodyChars": 3201,
+     "specPointCodes": [
+      "4CH1-1.30"
+     ]
+    },
+    {
+     "noteId": "rn_pWzTTBv3B4yGFfj3",
+     "title": "Experiment: Finding Formulae of Compounds",
+     "subtopic": "Chemical Formulae, Equations, Calculations",
+     "bodyChars": 2447,
+     "specPointCodes": [
+      "4CH1-1.31",
+      "4CH1-1.33"
+     ]
+    },
+    {
+     "noteId": "rn_yj4y972FxCWnDnSg",
+     "title": "Practical: Determine the Formula of a Metal Oxide",
+     "subtopic": "Chemical Formulae, Equations, Calculations",
+     "bodyChars": 3597,
+     "specPointCodes": [
+      "4CH1-1.31",
+      "4CH1-1.33",
+      "4CH1-1.36"
+     ]
+    },
+    {
+     "noteId": "rn_Hkwmd9GSp3gdxxR5",
+     "title": "Empirical & Molecular Formulae",
+     "subtopic": "Chemical Formulae, Equations, Calculations",
+     "bodyChars": 8551,
+     "specPointCodes": [
+      "4CH1-1.31",
+      "4CH1-1.32",
+      "4CH1-1.33"
+     ]
+    },
+    {
+     "noteId": "rn_4tzwS4GZjPybwtkS",
+     "title": "Calculate Concentrations of Solutions",
+     "subtopic": "Chemical Formulae, Equations, Calculations",
+     "bodyChars": 4994,
+     "specPointCodes": [
+      "4CH1-1.34C"
+     ]
+    },
+    {
+     "noteId": "rn_T55t3HNsgyZcXZtN",
+     "title": "Calculate Volumes of Gases",
+     "subtopic": "Chemical Formulae, Equations, Calculations",
+     "bodyChars": 4479,
+     "specPointCodes": [
+      "4CH1-1.35C"
+     ]
+    },
+    {
+     "noteId": "rn_mbcBZkygY4YpG2bf",
+     "title": "Formation of Ions",
+     "subtopic": "Ionic Bonding",
+     "bodyChars": 1526,
+     "specPointCodes": [
+      "4CH1-1.37"
+     ]
+    },
+    {
+     "noteId": "rn_8Nv33F4dD3kkZnY6",
+     "title": "Common Ions",
+     "subtopic": "Ionic Bonding",
+     "bodyChars": 1832,
+     "specPointCodes": [
+      "4CH1-1.37",
+      "4CH1-1.38"
+     ]
+    }
+   ],
+   "entryConditions": [
+    "snapshot pin re-verified zero-DB against the file pins of record (wave-2: snapshot-pin-reverify-20261024.json; later waves: re-run scripts/wave1-pin-verify.js)",
+    "harness save() patch in effect (scripts/wave1-run.js 2026-10-24; regression proof .tmp/wave1/patch-verify/regression-result.json)",
+    "roster = next notes in topic order; format-minimums check at P1 per note (lessons 1-5, checks 5/lesson, keyPoints 3-6, glossary 3-8, two depth layers)",
+    "ajv present (npm install --prefix /home/z ajv --no-save post-recycle; documented recurring pattern)",
+    "protocol section 7: single author/session, declared assistance per phase, pauses logged with reason codes, P0 body read end to end from the pinned snapshot"
+   ],
+   "exit": "wave receipt (per-wave aggregate of the per-note timing receipts) + wave report; recalibration checkpoint applied before the next wave opens"
+  },
+  {
+   "wave": 4,
+   "topic": "T1: 1. Principles of Chemistry",
+   "noteCount": 11,
+   "totalBodyChars": 39034,
+   "specPoints": 25,
+   "expectedFocusedHours": {
+    "meanBased": 0.86,
+    "charBased": 0.76
+   },
+   "register": [
+    {
+     "noteId": "rn_J7ZcTWyRxRgWQ45R",
+     "title": "Formulae for Ionic Compounds",
+     "subtopic": "Ionic Bonding",
+     "bodyChars": 3862,
+     "specPointCodes": [
+      "4CH1-1.39"
+     ]
+    },
+    {
+     "noteId": "rn_FCnWFz9MhgsqnZGM",
+     "title": "Ionic Bonds: Dot & Cross Diagrams",
+     "subtopic": "Ionic Bonding",
+     "bodyChars": 2640,
+     "specPointCodes": [
+      "4CH1-1.37",
+      "4CH1-1.40"
+     ]
+    },
+    {
+     "noteId": "rn_jVwPmjqHbqQkXcjG",
+     "title": "Ionic compounds: Bonds, Structure & Properties",
+     "subtopic": "Ionic Bonding",
+     "bodyChars": 3217,
+     "specPointCodes": [
+      "4CH1-1.41",
+      "4CH1-1.42",
+      "4CH1-1.43"
+     ]
+    },
+    {
+     "noteId": "rn_vfmJxw4VQgXKzXF3",
+     "title": "Formation of Covalent Bonds",
+     "subtopic": "Covalent Bonding",
+     "bodyChars": 2779,
+     "specPointCodes": [
+      "4CH1-1.44",
+      "4CH1-1.45"
+     ]
+    },
+    {
+     "noteId": "rn_MVnFKDMVkswzpmpw",
+     "title": "Covalent Bonds: Dot & Cross Diagrams",
+     "subtopic": "Covalent Bonding",
+     "bodyChars": 3058,
+     "specPointCodes": [
+      "4CH1-1.46"
+     ]
+    },
+    {
+     "noteId": "rn_KpvF2TWr5fYHk2Jz",
+     "title": "Simple Molecular Structures",
+     "subtopic": "Covalent Bonding",
+     "bodyChars": 5157,
+     "specPointCodes": [
+      "4CH1-1.47",
+      "4CH1-1.48",
+      "4CH1-1.50",
+      "4CH1-1.51"
+     ]
+    },
+    {
+     "noteId": "rn_GkJG52NCN98ShGRm",
+     "title": "Giant Covalent Structures",
+     "subtopic": "Covalent Bonding",
+     "bodyChars": 4591,
+     "specPointCodes": [
+      "4CH1-1.49",
+      "4CH1-1.50"
+     ]
+    },
+    {
+     "noteId": "rn_Hp2nK8XpN2SmjdQc",
+     "title": "Metallic Bonding",
+     "subtopic": "Metallic Bonding",
+     "bodyChars": 2319,
+     "specPointCodes": [
+      "4CH1-1.52C",
+      "4CH1-1.53C",
+      "4CH1-1.54C"
+     ]
+    },
+    {
+     "noteId": "rn_rHKCkt3PTXDBpmJG",
+     "title": "Explaining Conductivity",
+     "subtopic": "Electrolysis",
+     "bodyChars": 3062,
+     "specPointCodes": [
+      "4CH1-1.55C",
+      "4CH1-1.56C",
+      "4CH1-1.57C"
+     ]
+    },
+    {
+     "noteId": "rn_3YZNCXSQQqXTT6HR",
+     "title": "Electrolysis Experiments",
+     "subtopic": "Electrolysis",
+     "bodyChars": 5951,
+     "specPointCodes": [
+      "4CH1-1.56C",
+      "4CH1-1.58C"
+     ]
+    },
+    {
+     "noteId": "rn_kdRjZHjHcpVZsD3h",
+     "title": "Practical: Investigate the Electrolysis of Aqueous Solutions",
+     "subtopic": "Electrolysis",
+     "bodyChars": 2398,
+     "specPointCodes": [
+      "4CH1-1.58C",
+      "4CH1-1.60C"
+     ]
+    }
+   ],
+   "entryConditions": [
+    "snapshot pin re-verified zero-DB against the file pins of record (wave-2: snapshot-pin-reverify-20261024.json; later waves: re-run scripts/wave1-pin-verify.js)",
+    "harness save() patch in effect (scripts/wave1-run.js 2026-10-24; regression proof .tmp/wave1/patch-verify/regression-result.json)",
+    "roster = next notes in topic order; format-minimums check at P1 per note (lessons 1-5, checks 5/lesson, keyPoints 3-6, glossary 3-8, two depth layers)",
+    "ajv present (npm install --prefix /home/z ajv --no-save post-recycle; documented recurring pattern)",
+    "protocol section 7: single author/session, declared assistance per phase, pauses logged with reason codes, P0 body read end to end from the pinned snapshot"
+   ],
+   "exit": "wave receipt (per-wave aggregate of the per-note timing receipts) + wave report; recalibration checkpoint applied before the next wave opens"
+  },
+  {
+   "wave": 5,
+   "topic": "T2: 2. Inorganic Chemistry",
+   "noteCount": 12,
+   "totalBodyChars": 30208,
+   "specPoints": 18,
+   "expectedFocusedHours": {
+    "meanBased": 0.94,
+    "charBased": 0.58
+   },
+   "register": [
+    {
+     "noteId": "rn_V9tPMnX6Hq2XnqcP",
+     "title": "Group 1: Reactivity & Electronic Configurations",
+     "subtopic": "Group 1 (Alkali Metals)",
+     "bodyChars": 1661,
+     "specPointCodes": [
+      "4CH1-2.4C"
+     ]
+    },
+    {
+     "noteId": "rn_7Q8M9nVkr2FxCzxd",
+     "title": "Group 7 (Halogens)",
+     "subtopic": "Group 7 (Halogens)",
+     "bodyChars": 6639,
+     "specPointCodes": [
+      "4CH1-2.5",
+      "4CH1-2.6",
+      "4CH1-2.7"
+     ]
+    },
+    {
+     "noteId": "rn_jXXsc4wt2344BjxX",
+     "title": "Group 7: Reactivity & Electronic Configurations",
+     "subtopic": "Group 7 (Halogens)",
+     "bodyChars": 1910,
+     "specPointCodes": [
+      "4CH1-2.8C"
+     ]
+    },
+    {
+     "noteId": "rn_6M5JB7CjvwdDykMS",
+     "title": "Composition of Air",
+     "subtopic": "Gases in the Atmosphere",
+     "bodyChars": 2322,
+     "specPointCodes": [
+      "4CH1-2.10",
+      "4CH1-2.9"
+     ]
+    },
+    {
+     "noteId": "rn_WJD4ZN4kQfzJNSPV",
+     "title": "Practical: Determine the % of Oxygen in Air",
+     "subtopic": "Gases in the Atmosphere",
+     "bodyChars": 2050,
+     "specPointCodes": [
+      "4CH1-2.10",
+      "4CH1-2.14"
+     ]
+    },
+    {
+     "noteId": "rn_S2fg29M7cqvMj5kT",
+     "title": "Combustion",
+     "subtopic": "Gases in the Atmosphere",
+     "bodyChars": 1144,
+     "specPointCodes": [
+      "4CH1-2.11"
+     ]
+    },
+    {
+     "noteId": "rn_QzYRzzmwRxk2gKqV",
+     "title": "Carbon Dioxide from Thermal Decomposition",
+     "subtopic": "Gases in the Atmosphere",
+     "bodyChars": 1747,
+     "specPointCodes": [
+      "4CH1-2.12"
+     ]
+    },
+    {
+     "noteId": "rn_5WvdZNzzhHdjj2Qq",
+     "title": "The Greenhouse Effect",
+     "subtopic": "Gases in the Atmosphere",
+     "bodyChars": 2038,
+     "specPointCodes": [
+      "4CH1-2.13"
+     ]
+    },
+    {
+     "noteId": "rn_Kd76WccxD9ytSJJC",
+     "title": "Metals Reacting with Water & Acids",
+     "subtopic": "Reactivity Series",
+     "bodyChars": 2593,
+     "specPointCodes": [
+      "4CH1-2.15",
+      "4CH1-2.17"
+     ]
+    },
+    {
+     "noteId": "rn_gBGX339WBpwyCrFF",
+     "title": "Metal Displacement Reactions",
+     "subtopic": "Reactivity Series",
+     "bodyChars": 3390,
+     "specPointCodes": [
+      "4CH1-2.16"
+     ]
+    },
+    {
+     "noteId": "rn_DGkNCJRcCN4VQ28p",
+     "title": "Order of Reactivity",
+     "subtopic": "Reactivity Series",
+     "bodyChars": 1107,
+     "specPointCodes": [
+      "4CH1-2.17"
+     ]
+    },
+    {
+     "noteId": "rn_3B8JxsSjJvR9B4fk",
+     "title": "Rusting of Iron",
+     "subtopic": "Reactivity Series",
+     "bodyChars": 3607,
+     "specPointCodes": [
+      "4CH1-2.18",
+      "4CH1-2.19"
+     ]
+    }
+   ],
+   "entryConditions": [
+    "snapshot pin re-verified zero-DB against the file pins of record (wave-2: snapshot-pin-reverify-20261024.json; later waves: re-run scripts/wave1-pin-verify.js)",
+    "harness save() patch in effect (scripts/wave1-run.js 2026-10-24; regression proof .tmp/wave1/patch-verify/regression-result.json)",
+    "roster = next notes in topic order; format-minimums check at P1 per note (lessons 1-5, checks 5/lesson, keyPoints 3-6, glossary 3-8, two depth layers)",
+    "ajv present (npm install --prefix /home/z ajv --no-save post-recycle; documented recurring pattern)",
+    "protocol section 7: single author/session, declared assistance per phase, pauses logged with reason codes, P0 body read end to end from the pinned snapshot"
+   ],
+   "exit": "wave receipt (per-wave aggregate of the per-note timing receipts) + wave report; recalibration checkpoint applied before the next wave opens"
+  },
+  {
+   "wave": 6,
+   "topic": "T2: 2. Inorganic Chemistry",
+   "noteCount": 12,
+   "totalBodyChars": 34316,
+   "specPoints": 20,
+   "expectedFocusedHours": {
+    "meanBased": 0.94,
+    "charBased": 0.66
+   },
+   "register": [
+    {
+     "noteId": "rn_sX8yyBxHn8bS7t46",
+     "title": "Oxidation & Reduction",
+     "subtopic": "Reactivity Series",
+     "bodyChars": 3823,
+     "specPointCodes": [
+      "4CH1-2.20"
+     ]
+    },
+    {
+     "noteId": "rn_BX88twwgffRMgx82",
+     "title": "Practical: Investigate Metals Reacting with Acids",
+     "subtopic": "Reactivity Series",
+     "bodyChars": 2590,
+     "specPointCodes": [
+      "4CH1-2.15",
+      "4CH1-2.21"
+     ]
+    },
+    {
+     "noteId": "rn_xq9jy75y43kDXkvx",
+     "title": "Sources of Metals",
+     "subtopic": "Extraction & Uses of Metals",
+     "bodyChars": 1446,
+     "specPointCodes": [
+      "4CH1-2.22C"
+     ]
+    },
+    {
+     "noteId": "rn_nzW5ppBTV3ZnfSYY",
+     "title": "Extracting Metals",
+     "subtopic": "Extraction & Uses of Metals",
+     "bodyChars": 7376,
+     "specPointCodes": [
+      "4CH1-2.23C",
+      "4CH1-2.24C"
+     ]
+    },
+    {
+     "noteId": "rn_sf7s7s6bQ2cZv29s",
+     "title": "Using Metals",
+     "subtopic": "Extraction & Uses of Metals",
+     "bodyChars": 1625,
+     "specPointCodes": [
+      "4CH1-2.25C"
+     ]
+    },
+    {
+     "noteId": "rn_MMkxbt9y3M3XvXrc",
+     "title": "Alloys",
+     "subtopic": "Extraction & Uses of Metals",
+     "bodyChars": 1382,
+     "specPointCodes": [
+      "4CH1-2.26C",
+      "4CH1-2.27C"
+     ]
+    },
+    {
+     "noteId": "rn_dTP52nzhYb96XrJx",
+     "title": "Indicators",
+     "subtopic": "Acids, Alkalis & Titrations",
+     "bodyChars": 3374,
+     "specPointCodes": [
+      "4CH1-2.28",
+      "4CH1-2.29",
+      "4CH1-2.30"
+     ]
+    },
+    {
+     "noteId": "rn_ZWrmDYtNGnmFycPM",
+     "title": "Acids, Alkalis & Neutralisation",
+     "subtopic": "Acids, Alkalis & Titrations",
+     "bodyChars": 2289,
+     "specPointCodes": [
+      "4CH1-2.29",
+      "4CH1-2.31",
+      "4CH1-2.32"
+     ]
+    },
+    {
+     "noteId": "rn_qV5R2cKB59bSKD33",
+     "title": "Acid-Alkali Titrations",
+     "subtopic": "Acids, Alkalis & Titrations",
+     "bodyChars": 3283,
+     "specPointCodes": [
+      "4CH1-2.33C"
+     ]
+    },
+    {
+     "noteId": "rn_p2FmkrXqZSzFngpg",
+     "title": "Solubility Rules",
+     "subtopic": "Acids, Bases & Salt Preparations",
+     "bodyChars": 1615,
+     "specPointCodes": [
+      "4CH1-2.34"
+     ]
+    },
+    {
+     "noteId": "rn_by5FDNfkqdBCkmXb",
+     "title": "Acids, Bases & Protons",
+     "subtopic": "Acids, Bases & Salt Preparations",
+     "bodyChars": 1052,
+     "specPointCodes": [
+      "4CH1-2.35",
+      "4CH1-2.36"
+     ]
+    },
+    {
+     "noteId": "rn_9WM8QhSxmYpGhjqd",
+     "title": "Reactions of Acids",
+     "subtopic": "Acids, Bases & Salt Preparations",
+     "bodyChars": 4461,
+     "specPointCodes": [
+      "4CH1-2.37"
+     ]
+    }
+   ],
+   "entryConditions": [
+    "snapshot pin re-verified zero-DB against the file pins of record (wave-2: snapshot-pin-reverify-20261024.json; later waves: re-run scripts/wave1-pin-verify.js)",
+    "harness save() patch in effect (scripts/wave1-run.js 2026-10-24; regression proof .tmp/wave1/patch-verify/regression-result.json)",
+    "roster = next notes in topic order; format-minimums check at P1 per note (lessons 1-5, checks 5/lesson, keyPoints 3-6, glossary 3-8, two depth layers)",
+    "ajv present (npm install --prefix /home/z ajv --no-save post-recycle; documented recurring pattern)",
+    "protocol section 7: single author/session, declared assistance per phase, pauses logged with reason codes, P0 body read end to end from the pinned snapshot"
+   ],
+   "exit": "wave receipt (per-wave aggregate of the per-note timing receipts) + wave report; recalibration checkpoint applied before the next wave opens"
+  },
+  {
+   "wave": 7,
+   "topic": "T2: 2. Inorganic Chemistry",
+   "noteCount": 9,
+   "totalBodyChars": 18964,
+   "specPoints": 12,
+   "expectedFocusedHours": {
+    "meanBased": 0.71,
+    "charBased": 0.37
+   },
+   "register": [
+    {
+     "noteId": "rn_VvsXMdW3TB37JhWF",
+     "title": "Bases",
+     "subtopic": "Acids, Bases & Salt Preparations",
+     "bodyChars": 1547,
+     "specPointCodes": [
+      "4CH1-2.38"
+     ]
+    },
+    {
+     "noteId": "rn_6ZCysv9GnNQmc3w2",
+     "title": "Prepare a Soluble Salt",
+     "subtopic": "Acids, Bases & Salt Preparations",
+     "bodyChars": 2436,
+     "specPointCodes": [
+      "4CH1-2.39"
+     ]
+    },
+    {
+     "noteId": "rn_5g8Dd6y89tkCVJsN",
+     "title": "Prepare a Soluble Salt II",
+     "subtopic": "Acids, Bases & Salt Preparations",
+     "bodyChars": 1536,
+     "specPointCodes": [
+      "4CH1-2.40C"
+     ]
+    },
+    {
+     "noteId": "rn_qb9TBhB6VmnFGjvf",
+     "title": "Prepare an Insoluble Salt",
+     "subtopic": "Acids, Bases & Salt Preparations",
+     "bodyChars": 1473,
+     "specPointCodes": [
+      "4CH1-2.41C"
+     ]
+    },
+    {
+     "noteId": "rn_pBp5Z5C2RHTKk7Wn",
+     "title": "Practical: Prepare Lead(II)Sulfate",
+     "subtopic": "Acids, Bases & Salt Preparations",
+     "bodyChars": 2055,
+     "specPointCodes": [
+      "4CH1-2.41C",
+      "4CH1-2.43C"
+     ]
+    },
+    {
+     "noteId": "rn_T6S7R66N2wSZpWyc",
+     "title": "Tests for Gases",
+     "subtopic": "Chemical Tests",
+     "bodyChars": 4394,
+     "specPointCodes": [
+      "4CH1-2.44"
+     ]
+    },
+    {
+     "noteId": "rn_vVdP57QhDYSVfZgy",
+     "title": "Flame Tests",
+     "subtopic": "Chemical Tests",
+     "bodyChars": 1801,
+     "specPointCodes": [
+      "4CH1-2.45",
+      "4CH1-2.46"
+     ]
+    },
+    {
+     "noteId": "rn_v5JjfpT6grhtq3QW",
+     "title": "Tests for Cations",
+     "subtopic": "Chemical Tests",
+     "bodyChars": 2325,
+     "specPointCodes": [
+      "4CH1-2.47"
+     ]
+    },
+    {
+     "noteId": "rn_YWDXCCmjfjkJcs6c",
+     "title": "Tests for Water",
+     "subtopic": "Chemical Tests",
+     "bodyChars": 1397,
+     "specPointCodes": [
+      "4CH1-2.49",
+      "4CH1-2.50"
+     ]
+    }
+   ],
+   "entryConditions": [
+    "snapshot pin re-verified zero-DB against the file pins of record (wave-2: snapshot-pin-reverify-20261024.json; later waves: re-run scripts/wave1-pin-verify.js)",
+    "harness save() patch in effect (scripts/wave1-run.js 2026-10-24; regression proof .tmp/wave1/patch-verify/regression-result.json)",
+    "roster = next notes in topic order; format-minimums check at P1 per note (lessons 1-5, checks 5/lesson, keyPoints 3-6, glossary 3-8, two depth layers)",
+    "ajv present (npm install --prefix /home/z ajv --no-save post-recycle; documented recurring pattern)",
+    "protocol section 7: single author/session, declared assistance per phase, pauses logged with reason codes, P0 body read end to end from the pinned snapshot"
+   ],
+   "exit": "wave receipt (per-wave aggregate of the per-note timing receipts) + wave report; recalibration checkpoint applied before the next wave opens"
+  },
+  {
+   "wave": 8,
+   "topic": "T3: 3. Physical Chemistry",
+   "noteCount": 14,
+   "totalBodyChars": 52595,
+   "specPoints": 24,
+   "expectedFocusedHours": {
+    "meanBased": 1.1,
+    "charBased": 1.02
+   },
+   "register": [
+    {
+     "noteId": "rn_x5m8QBWxtKvxQ9sx",
+     "title": "Exothermic & Endothermic",
+     "subtopic": "Energetics",
+     "bodyChars": 3442,
+     "specPointCodes": [
+      "4CH1-3.1"
+     ]
+    },
+    {
+     "noteId": "rn_w25KHshCMNQWwftj",
+     "title": "Calorimetry",
+     "subtopic": "Energetics",
+     "bodyChars": 4590,
+     "specPointCodes": [
+      "4CH1-3.2"
+     ]
+    },
+    {
+     "noteId": "rn_dgVRCKCwn4rTGxGZ",
+     "title": "Energetics Calculations",
+     "subtopic": "Energetics",
+     "bodyChars": 5876,
+     "specPointCodes": [
+      "4CH1-3.3",
+      "4CH1-3.4"
+     ]
+    },
+    {
+     "noteId": "rn_HNXFQt7vM32g6PMv",
+     "title": "Energy Level Diagrams",
+     "subtopic": "Energetics",
+     "bodyChars": 2176,
+     "specPointCodes": [
+      "4CH1-3.5C"
+     ]
+    },
+    {
+     "noteId": "rn_KTZjJ7sPdDt4tkTH",
+     "title": "Bond Energy",
+     "subtopic": "Energetics",
+     "bodyChars": 4860,
+     "specPointCodes": [
+      "4CH1-3.6C",
+      "4CH1-3.7C"
+     ]
+    },
+    {
+     "noteId": "rn_6478QfpYNQDjZSvt",
+     "title": "Practical: Investigating Temperature Changes",
+     "subtopic": "Energetics",
+     "bodyChars": 1656,
+     "specPointCodes": [
+      "4CH1-3.2",
+      "4CH1-3.8"
+     ]
+    },
+    {
+     "noteId": "rn_XJ8qXfzZJJFKXHnF",
+     "title": "Measuring Rates",
+     "subtopic": "Rates of Reaction",
+     "bodyChars": 7564,
+     "specPointCodes": [
+      "4CH1-3.10",
+      "4CH1-3.9"
+     ]
+    },
+    {
+     "noteId": "rn_Zh6Pw56rjdMkPCD4",
+     "title": "Explaining Rates",
+     "subtopic": "Rates of Reaction",
+     "bodyChars": 4709,
+     "specPointCodes": [
+      "4CH1-3.10",
+      "4CH1-3.11"
+     ]
+    },
+    {
+     "noteId": "rn_tvwj4VZ6yFscPJfD",
+     "title": "Catalysts",
+     "subtopic": "Rates of Reaction",
+     "bodyChars": 2502,
+     "specPointCodes": [
+      "4CH1-3.12",
+      "4CH1-3.13"
+     ]
+    },
+    {
+     "noteId": "rn_y85XYRv5QfgZFQxv",
+     "title": "Activation Energy",
+     "subtopic": "Rates of Reaction",
+     "bodyChars": 2521,
+     "specPointCodes": [
+      "4CH1-3.14C"
+     ]
+    },
+    {
+     "noteId": "rn_H6ZVkxvdNgYDvfFb",
+     "title": "Practical: Effect of Surface Area on Rate of Reaction",
+     "subtopic": "Rates of Reaction",
+     "bodyChars": 2177,
+     "specPointCodes": [
+      "4CH1-3.15",
+      "4CH1-3.9"
+     ]
+    },
+    {
+     "noteId": "rn_3wZh9qRT7qFJn9QW",
+     "title": "Practical: Effect of Catalysts on Rate of Reaction",
+     "subtopic": "Rates of Reaction",
+     "bodyChars": 1428,
+     "specPointCodes": [
+      "4CH1-3.16",
+      "4CH1-3.9"
+     ]
+    },
+    {
+     "noteId": "rn_t68QRDhwR6r5gxYX",
+     "title": "Reversible Reactions",
+     "subtopic": "Reversible Reactions & Equilibria",
+     "bodyChars": 3242,
+     "specPointCodes": [
+      "4CH1-3.17",
+      "4CH1-3.18"
+     ]
+    },
+    {
+     "noteId": "rn_DRQXrcSrmgQ7jcbZ",
+     "title": "The Position of Equilibrium",
+     "subtopic": "Reversible Reactions & Equilibria",
+     "bodyChars": 5852,
+     "specPointCodes": [
+      "4CH1-3.21C",
+      "4CH1-3.22C"
+     ]
+    }
+   ],
+   "entryConditions": [
+    "snapshot pin re-verified zero-DB against the file pins of record (wave-2: snapshot-pin-reverify-20261024.json; later waves: re-run scripts/wave1-pin-verify.js)",
+    "harness save() patch in effect (scripts/wave1-run.js 2026-10-24; regression proof .tmp/wave1/patch-verify/regression-result.json)",
+    "roster = next notes in topic order; format-minimums check at P1 per note (lessons 1-5, checks 5/lesson, keyPoints 3-6, glossary 3-8, two depth layers)",
+    "ajv present (npm install --prefix /home/z ajv --no-save post-recycle; documented recurring pattern)",
+    "protocol section 7: single author/session, declared assistance per phase, pauses logged with reason codes, P0 body read end to end from the pinned snapshot"
+   ],
+   "exit": "wave receipt (per-wave aggregate of the per-note timing receipts) + wave report; recalibration checkpoint applied before the next wave opens"
+  },
+  {
+   "wave": 9,
+   "topic": "T4: 4. Organic Chemistry",
+   "noteCount": 12,
+   "totalBodyChars": 37482,
+   "specPoints": 30,
+   "expectedFocusedHours": {
+    "meanBased": 0.94,
+    "charBased": 0.73
+   },
+   "register": [
+    {
+     "noteId": "rn_wDdXr5k7gknQ7xJp",
+     "title": "Organic Compounds",
+     "subtopic": "Introduction",
+     "bodyChars": 5301,
+     "specPointCodes": [
+      "4CH1-4.1",
+      "4CH1-4.2",
+      "4CH1-4.3",
+      "4CH1-4.5"
+     ]
+    },
+    {
+     "noteId": "rn_NdJGQM8BqHmTy7Vg",
+     "title": "Naming Organic Compounds",
+     "subtopic": "Introduction",
+     "bodyChars": 2195,
+     "specPointCodes": [
+      "4CH1-4.4"
+     ]
+    },
+    {
+     "noteId": "rn_HqqBFgKRHykMMhbB",
+     "title": "Classifying Organic Reactions",
+     "subtopic": "Introduction",
+     "bodyChars": 2275,
+     "specPointCodes": [
+      "4CH1-4.6"
+     ]
+    },
+    {
+     "noteId": "rn_H9chr9BWCfXYW472",
+     "title": "Crude Oil & Fractional Distillation",
+     "subtopic": "Crude Oil",
+     "bodyChars": 5324,
+     "specPointCodes": [
+      "4CH1-4.10",
+      "4CH1-4.7",
+      "4CH1-4.8",
+      "4CH1-4.9"
+     ]
+    },
+    {
+     "noteId": "rn_V3hNWh6QWrbCRHrX",
+     "title": "Combustion",
+     "subtopic": "Crude Oil",
+     "bodyChars": 5167,
+     "specPointCodes": [
+      "4CH1-4.11",
+      "4CH1-4.12",
+      "4CH1-4.13"
+     ]
+    },
+    {
+     "noteId": "rn_9J7DQhskyxzhd7CP",
+     "title": "Nitrogen Oxides & Sulfur Dioxide",
+     "subtopic": "Crude Oil",
+     "bodyChars": 3303,
+     "specPointCodes": [
+      "4CH1-4.14",
+      "4CH1-4.15",
+      "4CH1-4.16"
+     ]
+    },
+    {
+     "noteId": "rn_DrqzYWZMScqGrbWT",
+     "title": "Cracking",
+     "subtopic": "Crude Oil",
+     "bodyChars": 3186,
+     "specPointCodes": [
+      "4CH1-4.17",
+      "4CH1-4.18"
+     ]
+    },
+    {
+     "noteId": "rn_6c2G8nJpFSnQnbcP",
+     "title": "Alkanes",
+     "subtopic": "Alkanes",
+     "bodyChars": 1716,
+     "specPointCodes": [
+      "4CH1-4.19",
+      "4CH1-4.20",
+      "4CH1-4.21"
+     ]
+    },
+    {
+     "noteId": "rn_MmqCNJfWbtYzRVqT",
+     "title": "Halogens & Alkanes",
+     "subtopic": "Alkanes",
+     "bodyChars": 1726,
+     "specPointCodes": [
+      "4CH1-4.22"
+     ]
+    },
+    {
+     "noteId": "rn_H2zGfgH76qYV5cmr",
+     "title": "Alkenes",
+     "subtopic": "Alkenes",
+     "bodyChars": 2573,
+     "specPointCodes": [
+      "4CH1-4.23",
+      "4CH1-4.24",
+      "4CH1-4.25",
+      "4CH1-4.26"
+     ]
+    },
+    {
+     "noteId": "rn_DBGf3WVffDBNDp4R",
+     "title": "Bromine & Alkenes",
+     "subtopic": "Alkenes",
+     "bodyChars": 2798,
+     "specPointCodes": [
+      "4CH1-4.27",
+      "4CH1-4.28"
+     ]
+    },
+    {
+     "noteId": "rn_2MpXPtNXvn8pQm3r",
+     "title": "Alcohols",
+     "subtopic": "Alcohols",
+     "bodyChars": 1918,
+     "specPointCodes": [
+      "4CH1-4.29C",
+      "4CH1-4.30C"
+     ]
+    }
+   ],
+   "entryConditions": [
+    "snapshot pin re-verified zero-DB against the file pins of record (wave-2: snapshot-pin-reverify-20261024.json; later waves: re-run scripts/wave1-pin-verify.js)",
+    "harness save() patch in effect (scripts/wave1-run.js 2026-10-24; regression proof .tmp/wave1/patch-verify/regression-result.json)",
+    "roster = next notes in topic order; format-minimums check at P1 per note (lessons 1-5, checks 5/lesson, keyPoints 3-6, glossary 3-8, two depth layers)",
+    "ajv present (npm install --prefix /home/z ajv --no-save post-recycle; documented recurring pattern)",
+    "protocol section 7: single author/session, declared assistance per phase, pauses logged with reason codes, P0 body read end to end from the pinned snapshot"
+   ],
+   "exit": "wave receipt (per-wave aggregate of the per-note timing receipts) + wave report; recalibration checkpoint applied before the next wave opens"
+  },
+  {
+   "wave": 10,
+   "topic": "T4: 4. Organic Chemistry",
+   "noteCount": 8,
+   "totalBodyChars": 20546,
+   "specPoints": 18,
+   "expectedFocusedHours": {
+    "meanBased": 0.63,
+    "charBased": 0.4
+   },
+   "register": [
+    {
+     "noteId": "rn_8T5GfPn2q7sY2YCh",
+     "title": "Oxidation of Ethanol",
+     "subtopic": "Alcohols",
+     "bodyChars": 2702,
+     "specPointCodes": [
+      "4CH1-4.31C"
+     ]
+    },
+    {
+     "noteId": "rn_ncFJkGhXFsKrkNkH",
+     "title": "Manufacture of Ethanol",
+     "subtopic": "Alcohols",
+     "bodyChars": 2959,
+     "specPointCodes": [
+      "4CH1-4.32C",
+      "4CH1-4.33C"
+     ]
+    },
+    {
+     "noteId": "rn_2z53qk2CdWrVVc7V",
+     "title": "Carboxylic Acids",
+     "subtopic": "Carboxylic acids",
+     "bodyChars": 3287,
+     "specPointCodes": [
+      "4CH1-4.34C",
+      "4CH1-4.35C",
+      "4CH1-4.37C"
+     ]
+    },
+    {
+     "noteId": "rn_BBGMYy3Yx9Nm4GV3",
+     "title": "Reactions of Carboxylic Acids",
+     "subtopic": "Carboxylic acids",
+     "bodyChars": 1394,
+     "specPointCodes": [
+      "4CH1-4.36C"
+     ]
+    },
+    {
+     "noteId": "rn_BDkhS5vQpRd4hvwf",
+     "title": "Esters",
+     "subtopic": "Esters",
+     "bodyChars": 2398,
+     "specPointCodes": [
+      "4CH1-4.38C",
+      "4CH1-4.39C",
+      "4CH1-4.40C",
+      "4CH1-4.41C",
+      "4CH1-4.42C"
+     ]
+    },
+    {
+     "noteId": "rn_7ZMc3T3J4SJXfNdR",
+     "title": "Practical: Preparation of Ethyl Ethanoate",
+     "subtopic": "Esters",
+     "bodyChars": 1497,
+     "specPointCodes": [
+      "4CH1-4.39C",
+      "4CH1-4.43C"
+     ]
+    },
+    {
+     "noteId": "rn_bvyrkKqRBMKCRzHM",
+     "title": "Disposal of Addition Polymers",
+     "subtopic": "Synthetic polymers",
+     "bodyChars": 1314,
+     "specPointCodes": [
+      "4CH1-4.47"
+     ]
+    },
+    {
+     "noteId": "rn_bGgYrQXP2tqrYwdV",
+     "title": "Condensation Polymers",
+     "subtopic": "Synthetic polymers",
+     "bodyChars": 4995,
+     "specPointCodes": [
+      "4CH1-4.48C",
+      "4CH1-4.49C",
+      "4CH1-4.50C"
+     ]
+    }
+   ],
+   "entryConditions": [
+    "snapshot pin re-verified zero-DB against the file pins of record (wave-2: snapshot-pin-reverify-20261024.json; later waves: re-run scripts/wave1-pin-verify.js)",
+    "harness save() patch in effect (scripts/wave1-run.js 2026-10-24; regression proof .tmp/wave1/patch-verify/regression-result.json)",
+    "roster = next notes in topic order; format-minimums check at P1 per note (lessons 1-5, checks 5/lesson, keyPoints 3-6, glossary 3-8, two depth layers)",
+    "ajv present (npm install --prefix /home/z ajv --no-save post-recycle; documented recurring pattern)",
+    "protocol section 7: single author/session, declared assistance per phase, pauses logged with reason codes, P0 body read end to end from the pinned snapshot"
+   ],
+   "exit": "wave receipt (per-wave aggregate of the per-note timing receipts) + wave report; recalibration checkpoint applied before the next wave opens"
+  }
+ ],
+ "totals": {
+  "waves": 9,
+  "notes": 102,
+  "bodyChars": 320658,
+  "specPoints": 192,
+  "expectedFocusedHoursMeanBased": 8,
+  "expectedFocusedHoursCharBased": 6.22,
+  "corpusAfterCompletion": "112/112 notes authored 1:1 with the 28 subtopics (guided study + guided practice, OPEN commitment closed)"
+ },
+ "standingClosures": [
+  "zero DB writes; zero further DB reads planned (snapshot is the pinned source of record)",
+  "learner-side metering deferred (A5 of record); not-build classes stay closed",
+  "operator-gated standing items remain closed and unconsumed (workflow_dispatch, secret writes, waiter/scheduler; Vercel lane GET-only; DB t0_readonly SELECT-only)",
+  "SME content red line: process mechanisms only, never SME content text"
+ ]
+}

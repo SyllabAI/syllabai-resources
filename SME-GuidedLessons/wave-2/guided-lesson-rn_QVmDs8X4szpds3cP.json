@@ -1,0 +1,484 @@
+{
+ "format": "guided-lesson/0.1",
+ "noteRef": {
+  "noteId": "rn_QVmDs8X4szpds3cP",
+  "corpusVersion": "sme-revision-notes-igcse-chemistry-19-2026-09-18",
+  "topicTitle": "1. Principles of Chemistry",
+  "subtopicTitle": "States of Matter",
+  "sourceUrl": "https://www.savemyexams.com/igcse/chemistry/edexcel/19/revision-notes/1-principles-of-chemistry/1-1-states-of-matter/1-1-5-practical-investigate-the-solubility-of-a-solid-in-water-at-a-specific-temperature"
+ },
+ "specPoints": [
+  {
+   "code": "4CH1-1.5C",
+   "text": "know what is meant by the term solubility in the units g per 100 g of solvent"
+  },
+  {
+   "code": "4CH1-1.7C",
+   "text": "practical: investigate the solubility of a solid in water at a specific temperature"
+  }
+ ],
+ "primer": {
+  "text": "You already know from States of Matter what a solution is, and from Solubility how it is measured in grams per 100 grams of solvent. This note makes that measurement hands-on: prepare a saturated solution at a fixed temperature, evaporate the water away, weigh the solid left behind, and calculate the solubility from the masses recorded.",
+  "prerequisiteSubtopic": "States of Matter"
+ },
+ "lessons": [
+  {
+   "title": "Method",
+   "sourceHeadings": ["Practical: Investigate the solubility of a solid in water at a specific temperature", "Method"],
+   "specRefs": ["4CH1-1.7C"],
+   "opening": "The aim is to find how much of a solid dissolves in water at one chosen temperature. Excess solid is stirred into warm water until no more will dissolve, the saturated solution cools to exactly 30 °C, and a portion of the clear liquid is weighed into an evaporating basin before all the water is evaporated away.",
+   "keyPoints": [
+    "The practical measures a solid's solubility at one chosen temperature.",
+    "Excess solid is added and stirred until some refuses to dissolve.",
+    "Leftover undissolved solid is the guarantee that the solution is saturated.",
+    "The saturated solution cools to the target temperature before any is poured off.",
+    "Only clear solution may enter the pre-weighed evaporating basin.",
+    "The basin is reheated, cooled and reweighed until two masses agree, confirming all water has gone."
+   ],
+   "confidenceGate": {
+    "ratings": ["low", "medium", "high"],
+    "continueDisabledUntilChoice": true,
+    "resumeWithoutReRate": true,
+    "postCheckRecalibration": true
+   },
+   "depthLayers": {
+    "low": {
+     "restatement": "Stir in more solid than the water can take, let it settle at the chosen temperature, pour off the clear liquid only, and weigh what remains once every trace of water is gone.",
+     "analogy": "It is like drying a wet cloth on a scale: keep weighing after more drying until the number stops changing, and that is the true dry mass.",
+     "examPointer": "The phrase to quote is heating to constant mass: reheat, cool, reweigh, repeat until two readings match."
+    },
+    "medium": {
+     "restatement": "Excess solid guarantees a saturated solution; cooling to the exact target temperature fixes the conditions; leaving the undissolved solid behind keeps the measured mass honest; and heating to constant mass proves every trace of water has been driven off before the final weighing.",
+     "analogy": "The wet-cloth picture carries over: repeated dry-and-weigh cycles until two consecutive readings agree, at which point any further heating would change nothing.",
+     "examPointer": "Method questions award marks for the guards: excess solid, no transferred crystals, the exact temperature, and constant mass; name all four."
+    }
+   },
+   "check": [
+    {
+     "stem": "Why is the solid added in excess during the method?",
+     "misconceptionClass": "excess solid purpose",
+     "options": [
+      {
+       "key": "A",
+       "text": "So that some undissolved solid remains, proving the solution is saturated",
+       "correct": true,
+       "explanation": "Solid left over after thorough stirring shows the water is holding all it can.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "To make the solid dissolve faster",
+       "correct": false,
+       "explanation": "The amount added changes how much can dissolve, not how quickly it does.",
+       "misconception": "rate confused with extent"
+      },
+      {
+       "key": "C",
+       "text": "To raise the temperature of the water",
+       "correct": false,
+       "explanation": "The water bath sets the temperature; the solid's job is saturation.",
+       "misconception": "dissolving mistaken for heating"
+      },
+      {
+       "key": "D",
+       "text": "Because the balance needs a minimum mass to read",
+       "correct": false,
+       "explanation": "Excess serves the saturation guarantee, not the balance.",
+       "misconception": "instrument quirk invented"
+      }
+     ]
+    },
+    {
+     "stem": "What error does pouring undissolved crystals into the evaporating basin cause?",
+     "misconceptionClass": "transfer guard",
+     "options": [
+      {
+       "key": "A",
+       "text": "The dissolved mass is overestimated, so the calculated solubility is too high",
+       "correct": true,
+       "explanation": "Crystals that never dissolved would be weighed as if they had, inflating the solute mass.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "The solubility comes out too low",
+       "correct": false,
+       "explanation": "Extra solid adds mass, so the error pushes the value up, not down.",
+       "misconception": "direction reversed"
+      },
+      {
+       "key": "C",
+       "text": "No effect, because the extra solid dissolves during evaporation",
+       "correct": false,
+       "explanation": "Evaporation removes water; it does not make the leftover solid part of the true dissolved mass.",
+       "misconception": "assumed redissolution"
+      },
+      {
+       "key": "D",
+       "text": "No effect, because only dissolved matter is measured",
+       "correct": false,
+       "explanation": "Transferred crystals would sit in the basin and be weighed along with everything else.",
+       "misconception": "guard dismissed"
+      }
+     ]
+    },
+    {
+     "stem": "What does heating to constant mass actually confirm?",
+     "misconceptionClass": "constant mass meaning",
+     "options": [
+      {
+       "key": "B",
+       "text": "That all the water has been evaporated from the basin",
+       "correct": true,
+       "explanation": "When two consecutive weighings agree, no water remains to be lost.",
+       "misconception": null
+      },
+      {
+       "key": "A",
+       "text": "That the solid is completely pure",
+       "correct": false,
+       "explanation": "Constant mass speaks to water content, not to impurities in the solid.",
+       "misconception": "purity claim substituted"
+      },
+      {
+       "key": "C",
+       "text": "That the balance is working correctly",
+       "correct": false,
+       "explanation": "The repeated readings test the sample's mass, not the instrument.",
+       "misconception": "instrument check confused with result"
+      },
+      {
+       "key": "D",
+       "text": "That the solution was truly saturated",
+       "correct": false,
+       "explanation": "Saturation was settled back at the stirring stage, long before evaporation.",
+       "misconception": "wrong step credited"
+      }
+     ]
+    },
+    {
+     "stem": "Why must the saturated solution cool to exactly 30 °C before the portion is taken?",
+     "misconceptionClass": "temperature control",
+     "options": [
+      {
+       "key": "C",
+       "text": "Because solubility depends on temperature, so the value only applies at the stated one",
+       "correct": true,
+       "explanation": "A solubility figure is only meaningful at the temperature it was measured at.",
+       "misconception": null
+      },
+      {
+       "key": "A",
+       "text": "Because the evaporating basin could crack if poured hot",
+       "correct": false,
+       "explanation": "That is a safety courtesy, not the measurement reason.",
+       "misconception": "safety story substituted"
+      },
+      {
+       "key": "B",
+       "text": "Because solids stop dissolving above room temperature",
+       "correct": false,
+       "explanation": "Solids keep dissolving when warmed; in fact more goes into solution.",
+       "misconception": "impossible physics claimed"
+      },
+      {
+       "key": "D",
+       "text": "Because the balance reads incorrectly at other temperatures",
+       "correct": false,
+       "explanation": "The balance is not the constraint; the temperature-dependence of solubility is.",
+       "misconception": "instrument blamed"
+      }
+     ]
+    },
+    {
+     "stem": "Why is the empty evaporating basin weighed before anything is added?",
+     "misconceptionClass": "baseline weighing",
+     "options": [
+      {
+       "key": "D",
+       "text": "So every later reading can have the basin's own mass subtracted",
+       "correct": true,
+       "explanation": "Each combined weighing needs the empty-basin mass removed to reveal the contents.",
+       "misconception": null
+      },
+      {
+       "key": "A",
+       "text": "To check the basin is clean and dry",
+       "correct": false,
+       "explanation": "Cleanliness matters, but the recorded mass exists for subtraction.",
+       "misconception": "cleanliness check substituted for measurement purpose"
+      },
+      {
+       "key": "B",
+       "text": "To calibrate the balance against a known mass",
+       "correct": false,
+       "explanation": "Weighing the basin records its own mass; it calibrates nothing.",
+       "misconception": "calibration confused with weighing"
+      },
+      {
+       "key": "C",
+       "text": "Because the method requires two identical basins",
+       "correct": false,
+       "explanation": "Only one basin appears in the method.",
+       "misconception": "requirement invented"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Results",
+   "sourceHeadings": ["Results"],
+   "specRefs": ["4CH1-1.5C", "4CH1-1.7C"],
+   "opening": "The weighed results tell the whole story in three numbers: the solution poured in, the solid recovered, and therefore the water that carried it. From those, the solubility comes out in the standard unit, grams per 100 grams of water, and the solute's share of the solution can be stated as a percentage.",
+   "keyPoints": [
+    "Mass of solution is the filled basin minus the empty basin.",
+    "Mass of recovered solid is the dry basin minus the same empty basin.",
+    "Mass of water is the solution mass minus the solid mass.",
+    "Solubility is the solid mass scaled up to 100 grams of water.",
+    "The recorded data gives 32.0 grams per 100 grams of water at 30 °C.",
+    "Expressed as a share of the whole solution, the solute is 24.2 percent."
+   ],
+   "confidenceGate": {
+    "ratings": ["low", "medium", "high"],
+    "continueDisabledUntilChoice": true,
+    "resumeWithoutReRate": true,
+    "postCheckRecalibration": true
+   },
+   "depthLayers": {
+    "low": {
+     "restatement": "Subtract the empty basin's mass to get the solution mass, do the same for the dry solid, and the difference between those two is the water.",
+     "analogy": "Think of weighing a full lunchbox, then the food alone: subtract the box's own weight each time, and the masses of the contents appear on their own.",
+     "examPointer": "State the unit with the answer: grams per 100 grams of water at the stated temperature."
+    },
+    "medium": {
+     "restatement": "Two subtractions recover the solute and solution masses, their difference gives the water mass, and scaling the solute to 100 grams of water converts the data into a solubility value that can be compared across temperatures.",
+     "analogy": "The lunchbox subtraction still works, with one extra step: after finding the food and total contents, the packaging itself is what remains to be counted.",
+     "examPointer": "A follow-up part often asks for the solute's percentage of the solution; that divides by the solution mass, never by the water mass."
+    }
+   },
+   "check": [
+    {
+     "stem": "With basin 25.00 g, basin plus solution 74.50 g and basin plus dry solid 37.00 g, what is the mass of water?",
+     "misconceptionClass": "subtraction chain",
+     "options": [
+      {
+       "key": "B",
+       "text": "37.50 g",
+       "correct": true,
+       "explanation": "Solution 49.50 g minus solid 12.00 g leaves 37.50 g of water.",
+       "misconception": null
+      },
+      {
+       "key": "A",
+       "text": "49.50 g",
+       "correct": false,
+       "explanation": "That is the whole solution; the dissolved solid must still come out of it.",
+       "misconception": "solution mass mistaken for water mass"
+      },
+      {
+       "key": "C",
+       "text": "12.00 g",
+       "correct": false,
+       "explanation": "That is the solid's mass, not the water's.",
+       "misconception": "solid mass substituted"
+      },
+      {
+       "key": "D",
+       "text": "12.50 g",
+       "correct": false,
+       "explanation": "Subtracting the empty basin a second time produces this meaningless figure.",
+       "misconception": "basin subtracted twice"
+      }
+     ]
+    },
+    {
+     "stem": "In the same data, what is the mass of dissolved solid recovered?",
+     "misconceptionClass": "solute mass",
+     "options": [
+      {
+       "key": "C",
+       "text": "12.00 g",
+       "correct": true,
+       "explanation": "Basin plus dry solid, 37.00 g, minus the empty basin, 25.00 g, gives 12.00 g.",
+       "misconception": null
+      },
+      {
+       "key": "A",
+       "text": "49.50 g",
+       "correct": false,
+       "explanation": "That is the solution mass, solvent and solute together.",
+       "misconception": "solution mass mistaken for solute"
+      },
+      {
+       "key": "B",
+       "text": "37.00 g",
+       "correct": false,
+       "explanation": "The empty basin's 25.00 g still has to be removed from that reading.",
+       "misconception": "combined reading not corrected"
+      },
+      {
+       "key": "D",
+       "text": "62.00 g",
+       "correct": false,
+       "explanation": "Adding the basin's mass instead of subtracting it doubles the error.",
+       "misconception": "added instead of subtracted"
+      }
+     ]
+    },
+    {
+     "stem": "Why is the solid mass finally divided by the water mass and multiplied by 100?",
+     "misconceptionClass": "unit scaling",
+     "options": [
+      {
+       "key": "A",
+       "text": "To express the solubility in the standard unit of grams per 100 grams of water",
+       "correct": true,
+       "explanation": "The spec unit fixes the solvent at 100 grams, so the measured pair must be scaled to it.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "To convert grams into centimetres",
+       "correct": false,
+       "explanation": "Mass and length are different quantities; no conversion links them here.",
+       "misconception": "unit nonsense"
+      },
+      {
+       "key": "C",
+       "text": "To work out the percentage of the solution that is solid",
+       "correct": false,
+       "explanation": "That separate calculation divides by the solution mass, not the water mass.",
+       "misconception": "denominator swapped"
+      },
+      {
+       "key": "D",
+       "text": "To cancel out the mass of the evaporating basin",
+       "correct": false,
+       "explanation": "The basin was already removed at the subtraction stage.",
+       "misconception": "already-subtracted quantity reused"
+      }
+     ]
+    },
+    {
+     "stem": "The calculation gives 24.2 percent. What does that number describe?",
+     "misconceptionClass": "percentage meaning",
+     "options": [
+      {
+       "key": "D",
+       "text": "The solute's share of the whole solution by mass",
+       "correct": true,
+       "explanation": "Solute mass divided by solution mass, times 100, gives the solute's percentage of the solution.",
+       "misconception": null
+      },
+      {
+       "key": "A",
+       "text": "The solubility in grams per 100 grams of water",
+       "correct": false,
+       "explanation": "That is the other result, 32.0; the percentage uses a different denominator.",
+       "misconception": "two result types conflated"
+      },
+      {
+       "key": "B",
+       "text": "The water's share of the solution",
+       "correct": false,
+       "explanation": "The water's share would be about 75.8 percent, the complement.",
+       "misconception": "complement mistaken for the value"
+      },
+      {
+       "key": "C",
+       "text": "The increase in solubility per degree of warming",
+       "correct": false,
+       "explanation": "No gradient was measured; the figure comes from one set of masses.",
+       "misconception": "slope invented"
+      }
+     ]
+    },
+    {
+     "stem": "What solubility do the recorded masses give for copper(II) sulfate at 30 °C?",
+     "misconceptionClass": "final value selection",
+     "options": [
+      {
+       "key": "B",
+       "text": "32.0 g per 100 g of water",
+       "correct": true,
+       "explanation": "Scaling 12.00 g of solid to 37.50 g of water gives 32.0 g per 100 g of water.",
+       "misconception": null
+      },
+      {
+       "key": "A",
+       "text": "24.2 g per 100 g of water",
+       "correct": false,
+       "explanation": "That is the percentage figure misread as a solubility.",
+       "misconception": "percentage misread as solubility"
+      },
+      {
+       "key": "C",
+       "text": "49.5 g per 100 g of water",
+       "correct": false,
+       "explanation": "The solution mass was scaled, not the solid mass.",
+       "misconception": "solution mass scaled instead"
+      },
+      {
+       "key": "D",
+       "text": "12.0 g per 100 g of water",
+       "correct": false,
+       "explanation": "That quotes the raw solid mass without the scaling to 100 grams of water.",
+       "misconception": "raw mass quoted unscaled"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "noteAssets": {
+  "glossary": [
+   {
+    "term": "saturated solution",
+    "definition": "A solution holding as much dissolved solid as it can at that temperature.",
+    "firstLesson": 1
+   },
+   {
+    "term": "evaporating basin",
+    "definition": "A shallow dish in which small quantities of liquid are gently evaporated.",
+    "firstLesson": 1
+   },
+   {
+    "term": "heating to constant mass",
+    "definition": "Repeated reheating, cooling and reweighing until two consecutive masses agree, showing all water has gone.",
+    "firstLesson": 1
+   },
+   {
+    "term": "solubility",
+    "definition": "The mass of a substance that dissolves in 100 grams of solvent at a given temperature.",
+    "firstLesson": 1
+   },
+   {
+    "term": "solvent",
+    "definition": "The liquid, here water, that does the dissolving.",
+    "firstLesson": 1
+   },
+   {
+    "term": "solute",
+    "definition": "The solid that dissolves; here copper(II) sulfate.",
+    "firstLesson": 1
+   },
+   {
+    "term": "percentage by mass",
+    "definition": "The solute's mass divided by the solution's mass, multiplied by 100.",
+    "firstLesson": 2
+   }
+  ],
+  "workedExample": {
+   "prompt": "A saturated copper(II) sulfate solution is prepared at 30 °C. The empty evaporating basin weighs 25.00 g, the basin plus saturated solution weighs 74.50 g, and the basin plus dry solid after heating to constant mass weighs 37.00 g. Find the solubility in grams per 100 grams of water, and the solute's percentage by mass of the solution.",
+   "steps": [
+    "Mass of solution: 74.50 - 25.00 = 49.50 g",
+    "Mass of dissolved solid: 37.00 - 25.00 = 12.00 g",
+    "Mass of water: 49.50 - 12.00 = 37.50 g",
+    "Solubility at 30 °C: 12.00 / 37.50 x 100 = 32.0 g per 100 g of water",
+    "Percentage by mass of solute: 12.00 / 49.50 x 100 = 24.2 %"
+   ],
+   "finalAnswer": "32.0 g per 100 g of water at 30 °C, with the solute making up 24.2 % of the solution by mass"
+  }
+ }
+}

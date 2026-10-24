@@ -1,0 +1,44 @@
+{
+ "format": "wave1-timing-receipt/0.1",
+ "noteId": "rn_2d6Yb8GwGfRRd6pZ",
+ "noteTitle": "Dynamic Equilibrium",
+ "topicTitle": "3. Physical Chemistry",
+ "subtopicTitle": "Reversible Reactions & Equilibria",
+ "corpusVersion": "sme-revision-notes-igcse-chemistry-19-2026-09-18",
+ "bodySha256": "5507efbb30ab6b8a4eb8a61911c926e2a9f5aa3c972f7b131b664c9524ca9ef6",
+ "bodyChars": 2792,
+ "specPointCodes": [
+  "4CH1-3.19C",
+  "4CH1-3.20C"
+ ],
+ "protocol": "A1 spec section 7 (single author, single session, declared assistance per phase, corpus pinned to snapshot of record)",
+ "declaredAssistance": "model-drafted under operator OPEN posture; per-phase assist flags of record: P2, P3, P4, P5, P6, P7; unflagged phases produced no drafted content (P0 read-only, P8 mechanical)Workflow drift disclosed: the phase command moved P0 directly to P2, so the P1 split decision was authored inside the P0 clocked span — P1 has no separate clock entry and no hours are understated; the split of record is documented in the lane worklog.",
+ "phaseSeconds": {
+  "P0": 97,
+  "P1": 0,
+  "P2": 15,
+  "P3": 18,
+  "P4": 18,
+  "P5": 13,
+  "P6": 0,
+  "P7": 52,
+  "P8": 1
+ },
+ "totalSeconds": 215,
+ "authoringHoursPerTopic": 0.06,
+ "wallClockSpanSeconds": 215,
+ "pauseLog": [],
+ "assistedPhases": [
+  "P2",
+  "P3",
+  "P4",
+  "P5",
+  "P6",
+  "P7"
+ ],
+ "schemaValidation": "PASS (ajv draft-07, additionalProperties false)",
+ "lint": "LINT .tmp/wave1/layer-rn_2d6Yb8GwGfRRd6pZ.json (note rn_2d6Yb8GwGfRRd6pZ): hard-fails 0, warnings 1\n  [WARNING] arithmetic-truth @ noteAssets.workedExample: workedExample is null — declared as none in source note (receipt must carry the declaration)",
+ "exportedAt": "2026-10-23T17:52:43.566Z",
+ "layerFile": "/home/z/my-project/download/wave1/guided-lesson-rn_2d6Yb8GwGfRRd6pZ.json",
+ "correctionNote": "Receipt corrected of record 2026-10-24 (wave1-assist-fix.js, wave1-receipt-restore.js, wave1-integrity-final.js): (1) assist flags set true on all model-drafted phases after P2-P7 were initially closed unflagged; (2) P8 closure timestamps restored from the console totals of record of each note's successful first export after the harness success path was found not to persist the event log. Workflow drift disclosed: the phase command moved P0 directly to P2, so the P1 split decision was authored inside the P0 clocked span — P1 has no separate clock entry and no hours are understated; the split of record is documented in the lane worklog."
+}

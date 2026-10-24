@@ -1,0 +1,865 @@
+{
+ "format": "wave2-receipt/0.1",
+ "wave": "wave-2 (OPEN posture, topic T1 Principles of Chemistry, 12 notes of the 102-note remaining register)",
+ "generatedAt": "2026-10-24T16:20:04.469Z",
+ "protocolOfRecord": "A1 spec section 7 measurement discipline under the operator OPEN posture (trace 1a1683ec43a016a9; brief A5-Posture-Decision-Brief-Open-20261023.docx), paced by wave-pacing-open/0.1; receipts are measurement discipline, not admission control; wave-2 receipts additionally carry the event-log ground truth per the recalibration checkpoint decision.",
+ "posture": "OPEN (build it fully) — operator decision of record, trace 1a1683ec43a016a9",
+ "corpusPin": {
+  "corpusVersion": "sme-revision-notes-igcse-chemistry-19-2026-09-18",
+  "snapshotFile": "/home/z/my-project/.tmp/wave1/corpus-snapshot.json",
+  "snapshotFilePinSha256RecomputedThisRound": "e23e2ab79df6b0e957bf12933779e4701b37c88736d87c20b19bac130553487d",
+  "snapshotManifest": {
+   "pulledAt": "2026-10-23T11:00:31.218Z",
+   "pullElapsedMs": 1255,
+   "lane": "t0_readonly, SELECT-only, one connection, one query",
+   "noteCount": 112,
+   "topicCount": 4,
+   "subtopicCount": 28,
+   "perTopic": [
+    {
+     "topic": "T1:1. Principles of Chemistry",
+     "subtopics": 9,
+     "notes": 40
+    },
+    {
+     "topic": "T2:2. Inorganic Chemistry",
+     "subtopics": 8,
+     "notes": 36
+    },
+    {
+     "topic": "T3:3. Physical Chemistry",
+     "subtopics": 3,
+     "notes": 15
+    },
+    {
+     "topic": "T4:4. Organic Chemistry",
+     "subtopics": 8,
+     "notes": 21
+    }
+   ],
+   "corpusVersions": [
+    "sme-revision-notes-igcse-chemistry-19-2026-09-18"
+   ],
+   "totalBodyChars": 361272,
+   "verifyAgainstCensusOfRecord": {
+    "topics": 4,
+    "subtopics": 28,
+    "notes": 112,
+    "perTopicNotes": [
+     40,
+     36,
+     15,
+     21
+    ]
+   }
+  },
+  "censusOfRecord": {
+   "topics": 4,
+   "subtopics": 28,
+   "notes": 112,
+   "perTopicNotes": [
+    40,
+    36,
+    15,
+    21
+   ]
+  },
+  "dbContact": "ZERO database contact for the entire wave — all twelve bodies read from the pinned local snapshot (per-note SHA-verified before authoring each round); the wave-1 snapshot pull remains the single DB contact of the programme"
+ },
+ "registerNote": "the 12-note register is the pacing file wavePlan wave-2 register verbatim (cross-asserted at receipt build); it spans definitional, procedural, classification, comparison, practical, data-reading and calculation genres at both size extremes of the wave (6,829 ch Separation Techniques to 1,618 ch Periodic Table: Basics), and reuses the calibration note as a production authoring seed (note 10, L1).",
+ "totals": {
+  "notes": 12,
+  "lessons": 24,
+  "keyPoints": 137,
+  "checks": 120,
+  "glossaryTerms": 86,
+  "bodyChars": 41207,
+  "focusedSeconds": 418,
+  "focusedHours": 0.12,
+  "meanSecondsPerNote": 35,
+  "wallSecondsAll": 590,
+  "loggedPauses": 0,
+  "meanSecondsPerLesson": 17.4,
+  "secondsPerChar": 0.0101
+ },
+ "phaseAggregateSeconds": {
+  "P0": 0,
+  "P1": 0,
+  "P2": 0,
+  "P3": 0,
+  "P4": 0,
+  "P5": 0,
+  "P6": 0,
+  "P7": 0,
+  "P8": 416
+ },
+ "phaseSharePercent": {
+  "P0": 0,
+  "P1": 0,
+  "P2": 0,
+  "P3": 0,
+  "P4": 0,
+  "P5": 0,
+  "P6": 0,
+  "P7": 0,
+  "P8": 99.5
+ },
+ "eventLogGroundTruth": [
+  {
+   "noteId": "rn_2VnK66PqbvFKdKYt",
+   "p0toP7Ms": 206,
+   "p8WindowMs": 70535,
+   "exportEvents": 2,
+   "reExportEvents": 1
+  },
+  {
+   "noteId": "rn_S7GPh8BBPBbmhYKm",
+   "p0toP7Ms": 215,
+   "p8WindowMs": 59754,
+   "exportEvents": 2,
+   "reExportEvents": 1
+  },
+  {
+   "noteId": "rn_cTk2cs2h2BKQ3y3B",
+   "p0toP7Ms": 191,
+   "p8WindowMs": 77386,
+   "exportEvents": 1,
+   "reExportEvents": 0
+  },
+  {
+   "noteId": "rn_QVmDs8X4szpds3cP",
+   "p0toP7Ms": 207,
+   "p8WindowMs": 61942,
+   "exportEvents": 2,
+   "reExportEvents": 1
+  },
+  {
+   "noteId": "rn_TWGVV6RXN3Ktqb9h",
+   "p0toP7Ms": 208,
+   "p8WindowMs": 31250,
+   "exportEvents": 2,
+   "reExportEvents": 1
+  },
+  {
+   "noteId": "rn_RvgxXR36425BFMcx",
+   "p0toP7Ms": 193,
+   "p8WindowMs": 34845,
+   "exportEvents": 1,
+   "reExportEvents": 0
+  },
+  {
+   "noteId": "rn_YBWYstSRgM2QPzQq",
+   "p0toP7Ms": 199,
+   "p8WindowMs": 51342,
+   "exportEvents": 3,
+   "reExportEvents": 2
+  },
+  {
+   "noteId": "rn_R3ptwxGTTvdBFvyP",
+   "p0toP7Ms": 222,
+   "p8WindowMs": 28648,
+   "exportEvents": 1,
+   "reExportEvents": 0
+  },
+  {
+   "noteId": "rn_TsfqyK9BYMtN2Bfd",
+   "p0toP7Ms": 193,
+   "p8WindowMs": 23,
+   "exportEvents": 1,
+   "reExportEvents": 0
+  },
+  {
+   "noteId": "rn_kb2VkFMdBTbmG33t",
+   "p0toP7Ms": 219,
+   "p8WindowMs": 26,
+   "exportEvents": 1,
+   "reExportEvents": 0
+  },
+  {
+   "noteId": "rn_vzGMZxqQtWYVWB7h",
+   "p0toP7Ms": 213,
+   "p8WindowMs": 25,
+   "exportEvents": 1,
+   "reExportEvents": 0
+  },
+  {
+   "noteId": "rn_b3XCzdtfQddbJjVf",
+   "p0toP7Ms": 207,
+   "p8WindowMs": 25,
+   "exportEvents": 1,
+   "reExportEvents": 0
+  }
+ ],
+ "flowVariationDisclosure": "All twelve layers were authored outside the instrumented chain (pre-written working copies; the P0-P7 chain commands ran as ms-scale flag closures — 191-222 ms per note from the event logs). The receipts therefore record chain-execution time: P8 export windows of 29-78 s on notes 1-8 (which included in-flight lint/fix and re-export cycles) and 0 s (sub-resolution, 23-26 ms) on notes 9-12 (single-pass exports). The focused tally 418 s is chain telemetry, not authoring effort, and is NOT comparable to wave-1 — see the recalibration block, which owns the absorption decision.",
+ "recalibration": {
+  "format": "wave-recalibration/0.1 (pacing file wave-pacing-open/0.1, RECALIBRATION POINTS clause)",
+  "computedAt": "2026-10-24T16:20:04.469Z",
+  "recomputedFromWave2Receipts": {
+   "meanSecondsPerNote": 35,
+   "secondsPerChar": 0.0101,
+   "meanSecondsPerLesson": 17.4,
+   "phaseSharePercent": {
+    "P0": 0,
+    "P1": 0,
+    "P2": 0,
+    "P3": 0,
+    "P4": 0,
+    "P5": 0,
+    "P6": 0,
+    "P7": 0,
+    "P8": 99.5
+   }
+  },
+  "eventLogGroundTruth": {
+   "method": "phase spans recomputed from the twelve persisted event logs at millisecond resolution",
+   "p0toP7PerNoteMs": {
+    "min": 191,
+    "max": 222,
+    "note": "sub-second on every note — phase-flag closures only; authoring sat outside the instrumented chain wave-wide"
+   },
+   "p8WindowMs": {
+    "notes1to8": "28,648-77,386 ms (export machinery incl. in-flight fix and re-export cycles)",
+    "notes9to12": "23-26 ms (single-pass exports inside fully batched invocations)"
+   },
+   "idempotence": "exactly ONE P8 phase-end per note across all twelve logs, including the five notes that re-exported (re-export events never re-close a phase) — save() patch live proof, fifth and sixth consecutive production rounds"
+  },
+  "wave1BasisOfRecord": {
+   "notes": 10,
+   "bodyChars": 40614,
+   "focusedSeconds": 2830,
+   "meanSecondsPerNote": 283,
+   "secondsPerChar": 0.0697,
+   "phaseSharePercent": {
+    "P0": 31.2,
+    "P1": 4.5,
+    "P2": 7.7,
+    "P3": 5.1,
+    "P4": 9.3,
+    "P5": 5.7,
+    "P6": 4,
+    "P7": 26.3,
+    "P8": 6.1
+   }
+  },
+  "driftDisclosure": {
+   "meanSecondsPerNote": "wave-2 nominal 35 s vs wave-1 283 s — an 8.1x deflation, structural not behavioural: the wave-2 clocks measure chain execution (flag closures + export windows), while wave-1 clocked authoring inside the phases",
+   "secondsPerChar": "wave-2 0.0101 s/ch vs wave-1 0.0697 s/ch — same structural cause",
+   "phaseShare": "wave-2 nominal P8 99.5% vs wave-1 P0 31.2% + P7 26.3% — the wave-2 share is an export-window artefact of the pre-write flow",
+   "refinementOfRoundNotes": "the round-by-round narrative characterised notes 1-8 as sequential (29-78 s) vs notes 9-12 as batch (0 s); the event logs show both were pre-write batch chains — notes 1-8 simply carried heavy P8 windows (lint/fix/re-export cycles) while notes 9-12 exported single-pass. The event-log ground truth supersedes the round notes on this point."
+  },
+  "decisionOfRecord": [
+   "The planning estimator of record REMAINS the wave-1 instrumented basis: 283 s/note, 0.0697 s/ch, wave-1 phase shares. Wave-2 receipts are reclassified of record as export-gate telemetry (schema verdict, lint state, chain-order discipline, idempotence proof, wall spans) and are NOT used to restate the pacing estimators.",
+   "Re-timing a paced round is DECLINED: under the batch authoring posture the instrument would still measure the chain window, not authoring effort — a re-timed round produces another non-comparable number. Instrumented measurement comparable to wave-1 re-opens only if authoring returns inside the P0-P8 chain, which is an authoring-posture choice, not a measurement fix.",
+   "Receipts continue on every future wave regardless (measurement discipline, not gate), each carrying its own event-log ground-truth block; focused tallies are never compared across waves with different authoring placement.",
+   "The corpus-wide exposure arithmetic of record is unchanged: bands 28/56/93 author-days; the 0.2 h/topic floor remains never quotable as a human rate; wave means remain pipeline rates under declared assistance."
+  ]
+ },
+ "perNote": [
+  {
+   "noteId": "rn_2VnK66PqbvFKdKYt",
+   "noteTitle": "The Three States of Matter",
+   "topicTitle": "1. Principles of Chemistry",
+   "subtopicTitle": "States of Matter",
+   "specPointCodes": [
+    "4CH1-1.1",
+    "4CH1-1.2"
+   ],
+   "bodyChars": 4876,
+   "bodySha256": "21361357ef748019d399f24c34a83bed5344533e05bece3d7d97692b5e952b9a",
+   "rosterGenre": "definitional states + interconversion",
+   "lessons": 2,
+   "lessonTitles": [
+    "States of matter",
+    "Interconversion Between the States of Matter"
+   ],
+   "checks": 10,
+   "keyPoints": 11,
+   "workedExample": "null (designed declaration: none in source note)",
+   "phaseSeconds": {
+    "P0": 0,
+    "P1": 0,
+    "P2": 0,
+    "P3": 0,
+    "P4": 0,
+    "P5": 0,
+    "P6": 0,
+    "P7": 0,
+    "P8": 71
+   },
+   "totalSeconds": 71,
+   "wallClockSpanSeconds": 88,
+   "pauseLog": [],
+   "assistedPhases": [
+    "P1",
+    "P2",
+    "P3",
+    "P4",
+    "P5",
+    "P6",
+    "P7"
+   ],
+   "schemaValidation": "PASS (ajv draft-07, additionalProperties false)",
+   "lintHardFails": 0,
+   "lintWarningLines": 1,
+   "layerFile": "/home/z/my-project/download/wave2/guided-lesson-rn_2VnK66PqbvFKdKYt.json",
+   "receiptFile": "/home/z/my-project/download/wave2/timing-receipt-rn_2VnK66PqbvFKdKYt.json"
+  },
+  {
+   "noteId": "rn_S7GPh8BBPBbmhYKm",
+   "noteTitle": "Diffusion & Dilution",
+   "topicTitle": "1. Principles of Chemistry",
+   "subtopicTitle": "States of Matter",
+   "specPointCodes": [
+    "4CH1-1.3"
+   ],
+   "bodyChars": 3150,
+   "bodySha256": "62e03a12840dee28ea5b18ceeb45953679ad77820e60002a1a9add6c872c3670",
+   "rosterGenre": "process explanation (A1 named contingency note)",
+   "lessons": 2,
+   "lessonTitles": [
+    "Diffusion",
+    "Dilution"
+   ],
+   "checks": 10,
+   "keyPoints": 10,
+   "workedExample": "null (designed declaration: none in source note)",
+   "phaseSeconds": {
+    "P0": 0,
+    "P1": 0,
+    "P2": 0,
+    "P3": 0,
+    "P4": 0,
+    "P5": 0,
+    "P6": 0,
+    "P7": 0,
+    "P8": 60
+   },
+   "totalSeconds": 60,
+   "wallClockSpanSeconds": 88,
+   "pauseLog": [],
+   "assistedPhases": [
+    "P1",
+    "P2",
+    "P3",
+    "P4",
+    "P5",
+    "P6",
+    "P7"
+   ],
+   "schemaValidation": "PASS (ajv draft-07, additionalProperties false)",
+   "lintHardFails": 0,
+   "lintWarningLines": 1,
+   "layerFile": "/home/z/my-project/download/wave2/guided-lesson-rn_S7GPh8BBPBbmhYKm.json",
+   "receiptFile": "/home/z/my-project/download/wave2/timing-receipt-rn_S7GPh8BBPBbmhYKm.json"
+  },
+  {
+   "noteId": "rn_cTk2cs2h2BKQ3y3B",
+   "noteTitle": "Solubility",
+   "topicTitle": "1. Principles of Chemistry",
+   "subtopicTitle": "States of Matter",
+   "specPointCodes": [
+    "4CH1-1.4",
+    "4CH1-1.5C",
+    "4CH1-1.6C"
+   ],
+   "bodyChars": 2515,
+   "bodySha256": "7179c3239ec9ef5083c108945623b40ae968f71ff1437a0c466f80650f989a27",
+   "rosterGenre": "concepts + solubility-curve reading, arithmetic example",
+   "lessons": 2,
+   "lessonTitles": [
+    "Solubility",
+    "Solubility Curves"
+   ],
+   "checks": 10,
+   "keyPoints": 12,
+   "workedExample": "present, arithmetic verified",
+   "phaseSeconds": {
+    "P0": 0,
+    "P1": 0,
+    "P2": 0,
+    "P3": 0,
+    "P4": 0,
+    "P5": 0,
+    "P6": 0,
+    "P7": 0,
+    "P8": 77
+   },
+   "totalSeconds": 78,
+   "wallClockSpanSeconds": 78,
+   "pauseLog": [],
+   "assistedPhases": [
+    "P1",
+    "P2",
+    "P3",
+    "P4",
+    "P5",
+    "P6",
+    "P7"
+   ],
+   "schemaValidation": "PASS (ajv draft-07, additionalProperties false)",
+   "lintHardFails": 0,
+   "lintWarningLines": 0,
+   "layerFile": "/home/z/my-project/download/wave2/guided-lesson-rn_cTk2cs2h2BKQ3y3B.json",
+   "receiptFile": "/home/z/my-project/download/wave2/timing-receipt-rn_cTk2cs2h2BKQ3y3B.json"
+  },
+  {
+   "noteId": "rn_QVmDs8X4szpds3cP",
+   "noteTitle": "Practical: Investigate the Solubility of a Solid in Water at a Specific Temperature",
+   "topicTitle": "1. Principles of Chemistry",
+   "subtopicTitle": "States of Matter",
+   "specPointCodes": [
+    "4CH1-1.5C",
+    "4CH1-1.7C"
+   ],
+   "bodyChars": 3308,
+   "bodySha256": "c0bb07200186c8cf6cf64cd427fe5c78bc2ee83e7b56bf3e11e68235a0975b97",
+   "rosterGenre": "practical method + percentage arithmetic",
+   "lessons": 2,
+   "lessonTitles": [
+    "Method",
+    "Results"
+   ],
+   "checks": 10,
+   "keyPoints": 12,
+   "workedExample": "present, arithmetic verified",
+   "phaseSeconds": {
+    "P0": 0,
+    "P1": 0,
+    "P2": 0,
+    "P3": 0,
+    "P4": 0,
+    "P5": 0,
+    "P6": 0,
+    "P7": 0,
+    "P8": 62
+   },
+   "totalSeconds": 62,
+   "wallClockSpanSeconds": 111,
+   "pauseLog": [],
+   "assistedPhases": [
+    "P1",
+    "P2",
+    "P3",
+    "P4",
+    "P5",
+    "P6",
+    "P7"
+   ],
+   "schemaValidation": "PASS (ajv draft-07, additionalProperties false)",
+   "lintHardFails": 0,
+   "lintWarningLines": 0,
+   "layerFile": "/home/z/my-project/download/wave2/guided-lesson-rn_QVmDs8X4szpds3cP.json",
+   "receiptFile": "/home/z/my-project/download/wave2/timing-receipt-rn_QVmDs8X4szpds3cP.json"
+  },
+  {
+   "noteId": "rn_TWGVV6RXN3Ktqb9h",
+   "noteTitle": "Element, Compound or Mixture",
+   "topicTitle": "1. Principles of Chemistry",
+   "subtopicTitle": "Elements, Compounds & Mixtures",
+   "specPointCodes": [
+    "4CH1-1.8"
+   ],
+   "bodyChars": 1615,
+   "bodySha256": "5a625a1b6751408e8d7821c085163e43e7a9da151b0abc28903e362939da8028",
+   "rosterGenre": "classification, workedExample-null",
+   "lessons": 2,
+   "lessonTitles": [
+    "Elements and Compounds",
+    "Mixtures and Classification"
+   ],
+   "checks": 10,
+   "keyPoints": 10,
+   "workedExample": "null (designed declaration: none in source note)",
+   "phaseSeconds": {
+    "P0": 0,
+    "P1": 0,
+    "P2": 0,
+    "P3": 0,
+    "P4": 0,
+    "P5": 0,
+    "P6": 0,
+    "P7": 0,
+    "P8": 31
+   },
+   "totalSeconds": 31,
+   "wallClockSpanSeconds": 63,
+   "pauseLog": [],
+   "assistedPhases": [
+    "P1",
+    "P2",
+    "P3",
+    "P4",
+    "P5",
+    "P6",
+    "P7"
+   ],
+   "schemaValidation": "PASS (ajv draft-07, additionalProperties false)",
+   "lintHardFails": 0,
+   "lintWarningLines": 1,
+   "layerFile": "/home/z/my-project/download/wave2/guided-lesson-rn_TWGVV6RXN3Ktqb9h.json",
+   "receiptFile": "/home/z/my-project/download/wave2/timing-receipt-rn_TWGVV6RXN3Ktqb9h.json"
+  },
+  {
+   "noteId": "rn_RvgxXR36425BFMcx",
+   "noteTitle": "Pure Substance vs Mixture",
+   "topicTitle": "1. Principles of Chemistry",
+   "subtopicTitle": "Elements, Compounds & Mixtures",
+   "specPointCodes": [
+    "4CH1-1.8",
+    "4CH1-1.9"
+   ],
+   "bodyChars": 2317,
+   "bodySha256": "ab68b5871c87b916bc7bbc8d44b4b0041a232ad6c06d3bd2cbffb686c8049bd2",
+   "rosterGenre": "comparison + melting/boiling evidence, arithmetic example",
+   "lessons": 2,
+   "lessonTitles": [
+    "What Pure Means in Chemistry",
+    "Melting and Boiling Point Evidence"
+   ],
+   "checks": 10,
+   "keyPoints": 12,
+   "workedExample": "present, arithmetic verified",
+   "phaseSeconds": {
+    "P0": 0,
+    "P1": 0,
+    "P2": 0,
+    "P3": 0,
+    "P4": 0,
+    "P5": 0,
+    "P6": 0,
+    "P7": 0,
+    "P8": 35
+   },
+   "totalSeconds": 35,
+   "wallClockSpanSeconds": 35,
+   "pauseLog": [],
+   "assistedPhases": [
+    "P1",
+    "P2",
+    "P3",
+    "P4",
+    "P5",
+    "P6",
+    "P7"
+   ],
+   "schemaValidation": "PASS (ajv draft-07, additionalProperties false)",
+   "lintHardFails": 0,
+   "lintWarningLines": 0,
+   "layerFile": "/home/z/my-project/download/wave2/guided-lesson-rn_RvgxXR36425BFMcx.json",
+   "receiptFile": "/home/z/my-project/download/wave2/timing-receipt-rn_RvgxXR36425BFMcx.json"
+  },
+  {
+   "noteId": "rn_YBWYstSRgM2QPzQq",
+   "noteTitle": "Separation Techniques",
+   "topicTitle": "1. Principles of Chemistry",
+   "subtopicTitle": "Elements, Compounds & Mixtures",
+   "specPointCodes": [
+    "4CH1-1.10"
+   ],
+   "bodyChars": 6829,
+   "bodySha256": "768c4449368f315e4b77ac0a978672d8238cc0d93c3cf8ea5c53c286a02798c1",
+   "rosterGenre": "five-technique procedural, largest of the wave",
+   "lessons": 2,
+   "lessonTitles": [
+    "Distillation: Simple and Fractional",
+    "Filtration, Crystallisation and Chromatography"
+   ],
+   "checks": 10,
+   "keyPoints": 12,
+   "workedExample": "present, non-numeric (designed declaration)",
+   "phaseSeconds": {
+    "P0": 0,
+    "P1": 0,
+    "P2": 0,
+    "P3": 0,
+    "P4": 0,
+    "P5": 0,
+    "P6": 0,
+    "P7": 0,
+    "P8": 51
+   },
+   "totalSeconds": 52,
+   "wallClockSpanSeconds": 98,
+   "pauseLog": [],
+   "assistedPhases": [
+    "P1",
+    "P2",
+    "P3",
+    "P4",
+    "P5",
+    "P6",
+    "P7"
+   ],
+   "schemaValidation": "PASS (ajv draft-07, additionalProperties false)",
+   "lintHardFails": 0,
+   "lintWarningLines": 1,
+   "layerFile": "/home/z/my-project/download/wave2/guided-lesson-rn_YBWYstSRgM2QPzQq.json",
+   "receiptFile": "/home/z/my-project/download/wave2/timing-receipt-rn_YBWYstSRgM2QPzQq.json"
+  },
+  {
+   "noteId": "rn_R3ptwxGTTvdBFvyP",
+   "noteTitle": "Interpreting Chromatograms",
+   "topicTitle": "1. Principles of Chemistry",
+   "subtopicTitle": "Elements, Compounds & Mixtures",
+   "specPointCodes": [
+    "4CH1-1.11",
+    "4CH1-1.12"
+   ],
+   "bodyChars": 3445,
+   "bodySha256": "29cadb4e0ae711fcd64fec5979a8b9922f6977a0e2413989a58010d29d8a94c7",
+   "rosterGenre": "data reading + Rf arithmetic",
+   "lessons": 2,
+   "lessonTitles": [
+    "Reading the Spots",
+    "Rf Values"
+   ],
+   "checks": 10,
+   "keyPoints": 12,
+   "workedExample": "present, arithmetic verified",
+   "phaseSeconds": {
+    "P0": 0,
+    "P1": 0,
+    "P2": 0,
+    "P3": 0,
+    "P4": 0,
+    "P5": 0,
+    "P6": 0,
+    "P7": 0,
+    "P8": 29
+   },
+   "totalSeconds": 29,
+   "wallClockSpanSeconds": 29,
+   "pauseLog": [],
+   "assistedPhases": [
+    "P1",
+    "P2",
+    "P3",
+    "P4",
+    "P5",
+    "P6",
+    "P7"
+   ],
+   "schemaValidation": "PASS (ajv draft-07, additionalProperties false)",
+   "lintHardFails": 0,
+   "lintWarningLines": 0,
+   "layerFile": "/home/z/my-project/download/wave2/guided-lesson-rn_R3ptwxGTTvdBFvyP.json",
+   "receiptFile": "/home/z/my-project/download/wave2/timing-receipt-rn_R3ptwxGTTvdBFvyP.json"
+  },
+  {
+   "noteId": "rn_TsfqyK9BYMtN2Bfd",
+   "noteTitle": "Practical: Investigating Paper Chromatography",
+   "topicTitle": "1. Principles of Chemistry",
+   "subtopicTitle": "Elements, Compounds & Mixtures",
+   "specPointCodes": [
+    "4CH1-1.10",
+    "4CH1-1.13"
+   ],
+   "bodyChars": 4079,
+   "bodySha256": "b51bd426613e7742f22d917e369c56f8290372ee78e6bb9ec1c067b9453ab07f",
+   "rosterGenre": "practical method + error analysis, workedExample-null",
+   "lessons": 2,
+   "lessonTitles": [
+    "Apparatus and Method",
+    "Common Errors and Results"
+   ],
+   "checks": 10,
+   "keyPoints": 12,
+   "workedExample": "null (designed declaration: none in source note)",
+   "phaseSeconds": {
+    "P0": 0,
+    "P1": 0,
+    "P2": 0,
+    "P3": 0,
+    "P4": 0,
+    "P5": 0,
+    "P6": 0,
+    "P7": 0,
+    "P8": 0
+   },
+   "totalSeconds": 0,
+   "wallClockSpanSeconds": 0,
+   "pauseLog": [],
+   "assistedPhases": [
+    "P1",
+    "P2",
+    "P3",
+    "P4",
+    "P5",
+    "P6",
+    "P7"
+   ],
+   "schemaValidation": "PASS (ajv draft-07, additionalProperties false)",
+   "lintHardFails": 0,
+   "lintWarningLines": 1,
+   "layerFile": "/home/z/my-project/download/wave2/guided-lesson-rn_TsfqyK9BYMtN2Bfd.json",
+   "receiptFile": "/home/z/my-project/download/wave2/timing-receipt-rn_TsfqyK9BYMtN2Bfd.json"
+  },
+  {
+   "noteId": "rn_kb2VkFMdBTbmG33t",
+   "noteTitle": "Atoms: Definitions & Structure",
+   "topicTitle": "1. Principles of Chemistry",
+   "subtopicTitle": "Atomic Structure",
+   "specPointCodes": [
+    "4CH1-1.14",
+    "4CH1-1.15",
+    "4CH1-1.16"
+   ],
+   "bodyChars": 4984,
+   "bodySha256": "bf99e22d19c633a0ae64484a3ec090fe8c482545d532d21325077596ad13ef63",
+   "rosterGenre": "calibration-note reuse (fixture L1) + counting particles",
+   "lessons": 2,
+   "lessonTitles": [
+    "The Structure of the Atom",
+    "Key Terms and Counting Particles"
+   ],
+   "checks": 10,
+   "keyPoints": 12,
+   "workedExample": "present, arithmetic verified",
+   "phaseSeconds": {
+    "P0": 0,
+    "P1": 0,
+    "P2": 0,
+    "P3": 0,
+    "P4": 0,
+    "P5": 0,
+    "P6": 0,
+    "P7": 0,
+    "P8": 0
+   },
+   "totalSeconds": 0,
+   "wallClockSpanSeconds": 0,
+   "pauseLog": [],
+   "assistedPhases": [
+    "P1",
+    "P2",
+    "P3",
+    "P4",
+    "P5",
+    "P6",
+    "P7"
+   ],
+   "schemaValidation": "PASS (ajv draft-07, additionalProperties false)",
+   "lintHardFails": 0,
+   "lintWarningLines": 0,
+   "layerFile": "/home/z/my-project/download/wave2/guided-lesson-rn_kb2VkFMdBTbmG33t.json",
+   "receiptFile": "/home/z/my-project/download/wave2/timing-receipt-rn_kb2VkFMdBTbmG33t.json"
+  },
+  {
+   "noteId": "rn_vzGMZxqQtWYVWB7h",
+   "noteTitle": "Calculate Relative Atomic Mass",
+   "topicTitle": "1. Principles of Chemistry",
+   "subtopicTitle": "Atomic Structure",
+   "specPointCodes": [
+    "4CH1-1.16",
+    "4CH1-1.17"
+   ],
+   "bodyChars": 2471,
+   "bodySha256": "4b82483f27fcfaa41cb41799c69f071aea074725e17a1d1c4d06a4b94f8cb0d9",
+   "rosterGenre": "weighted-average calculation, stepwise arithmetic",
+   "lessons": 2,
+   "lessonTitles": [
+    "Calculating Relative Atomic Mass",
+    "Worked Example: Rubidium"
+   ],
+   "checks": 10,
+   "keyPoints": 12,
+   "workedExample": "present, arithmetic verified",
+   "phaseSeconds": {
+    "P0": 0,
+    "P1": 0,
+    "P2": 0,
+    "P3": 0,
+    "P4": 0,
+    "P5": 0,
+    "P6": 0,
+    "P7": 0,
+    "P8": 0
+   },
+   "totalSeconds": 0,
+   "wallClockSpanSeconds": 0,
+   "pauseLog": [],
+   "assistedPhases": [
+    "P1",
+    "P2",
+    "P3",
+    "P4",
+    "P5",
+    "P6",
+    "P7"
+   ],
+   "schemaValidation": "PASS (ajv draft-07, additionalProperties false)",
+   "lintHardFails": 0,
+   "lintWarningLines": 0,
+   "layerFile": "/home/z/my-project/download/wave2/guided-lesson-rn_vzGMZxqQtWYVWB7h.json",
+   "receiptFile": "/home/z/my-project/download/wave2/timing-receipt-rn_vzGMZxqQtWYVWB7h.json"
+  },
+  {
+   "noteId": "rn_b3XCzdtfQddbJjVf",
+   "noteTitle": "Periodic Table: Basics",
+   "topicTitle": "1. Principles of Chemistry",
+   "subtopicTitle": "The Periodic Table",
+   "specPointCodes": [
+    "4CH1-1.18"
+   ],
+   "bodyChars": 1618,
+   "bodySha256": "cccc54f9f917c44bd73aaea613a5db20b8045acc3672f395cc50f85ddedf1299",
+   "rosterGenre": "arrangement vocabulary, smallest of the wave, workedExample-null",
+   "lessons": 2,
+   "lessonTitles": [
+    "In Order of Atomic Number",
+    "Groups and Periods"
+   ],
+   "checks": 10,
+   "keyPoints": 10,
+   "workedExample": "null (designed declaration: none in source note)",
+   "phaseSeconds": {
+    "P0": 0,
+    "P1": 0,
+    "P2": 0,
+    "P3": 0,
+    "P4": 0,
+    "P5": 0,
+    "P6": 0,
+    "P7": 0,
+    "P8": 0
+   },
+   "totalSeconds": 0,
+   "wallClockSpanSeconds": 0,
+   "pauseLog": [],
+   "assistedPhases": [
+    "P1",
+    "P2",
+    "P3",
+    "P4",
+    "P5",
+    "P6",
+    "P7"
+   ],
+   "schemaValidation": "PASS (ajv draft-07, additionalProperties false)",
+   "lintHardFails": 0,
+   "lintWarningLines": 1,
+   "layerFile": "/home/z/my-project/download/wave2/guided-lesson-rn_b3XCzdtfQddbJjVf.json",
+   "receiptFile": "/home/z/my-project/download/wave2/timing-receipt-rn_b3XCzdtfQddbJjVf.json"
+  }
+ ],
+ "warningInventory": {
+  "arithmetic-truth: workedExample is null — declared as none in source note (receipt must carry the declaration)": 5,
+  "arithmetic-truth: no arithmetic expression found to verify (verify manually if the example is non-numeric)": 1
+ },
+ "warningReconciliation": {
+  "inventoryOfRecord": "6 designed lint warning lines across 6 notes: workedExample-null declarations on notes 1, 2, 5, 9, 12 (sources carry no worked example) and one no-arithmetic declaration on note 7 (ported non-numeric example). Zero non-designed warnings survived to export on any note.",
+  "reconciliation": "the round-by-round worklog tally from the 6/12 round onward read \"4 designed warnings (notes 5, 7, 9, 12)\", dropping notes 1-2, whose workedExample-null declarations were present in their receipts from first export (the 1-2 round stage summary itself counted \"2 designed warnings\"). The receipts are authoritative; the narrative tally is corrected to 6 by this receipt. The round verifier designed-or-none check passes on all twelve either way."
+ },
+ "integrityRecord": {
+  "warningTallyCorrection": "see warningReconciliation — receipts authoritative over the narrative tally.",
+  "flowVariationRefinement": "event-log ground truth supersedes the per-round sequential-vs-batch characterisation; disclosed in recalibration.driftDisclosure.",
+  "patchLiveProof": "the wave-1 save() omission stayed patched all wave: blocked first exports (notes 1, 2, 4, 5, 7) persisted their event logs and every re-export ran idempotent (exactly one P8 phase-end per note; verified by assert at receipt build).",
+  "chainDiscipline": "all twelve receipts carry assistedPhases exactly P1..P7 (P0 read-only unflagged, P8 closed mechanically by export); asserted at receipt build.",
+  "ajvPattern": "ajv went missing at the harness path after sandbox recycles and was reinstalled --no-save before any export or verification, per the documented recurring pattern.",
+  "toolingNotes": "arithmetic-scanner handling of record: note 8 formulated \"Rf value: 3 / 6 = 0.5\" to avoid the scanner latching a non-numeric lhs (Rf); note 11 formulated the rubidium weighted average stepwise ((72 x 85) + (28 x 87) = 8556; 8556 / 100 = 85.56; rounded in a stated step) because the flat one-line form mis-evaluates under operator precedence (6144.36)."
+ },
+ "reader": {
+  "numberofRecord": "no human-rate number is quotable from wave-2 (chain telemetry under pre-write batch flow, declared-assisted). Planning continues on the wave-1 instrumented basis (283 s/note, 0.0697 s/ch) and the 28/56/93 author-day bands.",
+  "caveat": "All figures are model-drafted under the operator OPEN posture with per-phase declared assistance. The focused tally measures the P0-P8 chain window, not authoring effort, under the batch flow disclosed above; the exposure bands remain the only corpus-wide arithmetic of record."
+ }
+}

@@ -1,0 +1,125 @@
+{
+ "format": "snapshot-pin-reverify/0.1",
+ "at": "2026-10-23T18:27:51.168Z",
+ "operatorInstruction": "re-verify the snapshot pin (trace 1a169f7a1cd353f5)",
+ "method": "local recomputation only — ZERO DB contact (single read-only pull consumed and declared final 2026-10-23); sha256 + census recomputed from local bytes and cross-checked against every artifact that pinned itself to the snapshot",
+ "snapshotFile": "/home/z/my-project/.tmp/wave1/corpus-snapshot.json",
+ "checks": [
+  {
+   "name": "A1 per-note bodySha256 recomputed 112/112",
+   "ok": true,
+   "detail": "112/112 match"
+  },
+  {
+   "name": "A2 per-note bodyChars recomputed",
+   "ok": true,
+   "detail": "all match"
+  },
+  {
+   "name": "B1 noteCount 112",
+   "ok": true,
+   "detail": "112"
+  },
+  {
+   "name": "B2 topicCount 4",
+   "ok": true,
+   "detail": "4"
+  },
+  {
+   "name": "B3 subtopicCount 28",
+   "ok": true,
+   "detail": "28"
+  },
+  {
+   "name": "B4 perTopic 40/36/15/21",
+   "ok": true,
+   "detail": "[40,36,15,21]"
+  },
+  {
+   "name": "B5 totalBodyChars 361272",
+   "ok": true,
+   "detail": "361272 vs 361272"
+  },
+  {
+   "name": "B6 single corpus_version == version of record",
+   "ok": true,
+   "detail": "sme-revision-notes-igcse-chemistry-19-2026-09-18"
+  },
+  {
+   "name": "C1 notes in canonical pull order (topic,subtopic,note), no dupes",
+   "ok": true,
+   "detail": "ordered"
+  },
+  {
+   "name": "C2 noteIds unique",
+   "ok": true,
+   "detail": "112 unique"
+  },
+  {
+   "name": "D1 all 10 wave receipts pinned to snapshot rows",
+   "ok": true,
+   "detail": "10/10 receipts match on 7 pin fields each"
+  },
+  {
+   "name": "D2 calibration note present in snapshot",
+   "ok": true,
+   "detail": "rn_kb2VkFMdBTbmG33t"
+  },
+  {
+   "name": "E1 wave receipt embedded manifest == manifest file",
+   "ok": true,
+   "detail": "identical"
+  },
+  {
+   "name": "E2 wave receipt censusOfRecord == census of record",
+   "ok": true,
+   "detail": "match"
+  },
+  {
+   "name": "E3 wave receipt perNote body pins == snapshot rows",
+   "ok": true,
+   "detail": "10 distinct pins, all match"
+  },
+  {
+   "name": "F1 file-level pin minted (disclosed as new, not retroactive)",
+   "ok": true,
+   "detail": "e23e2ab79df6b0e957bf12933779e4701b37c88736d87c20b19bac130553487d"
+  }
+ ],
+ "filePinsMinted": {
+  "disclosure": "the manifest of record pins per-note body hashes; the snapshot FILE had no whole-file pin. These file pins are minted NOW as the going-forward local mutation detectors; they are not retroactive claims.",
+  "corpusSnapshotSha256": "e23e2ab79df6b0e957bf12933779e4701b37c88736d87c20b19bac130553487d",
+  "snapshotManifestSha256": "bbedbf0b9bf18a6927bf41dc796ce6c637f989a9a61af09e4d61a8db57aa029f"
+ },
+ "remainingCensusAfterWave1": {
+  "notes": 102,
+  "totalBodyChars": 320658,
+  "perTopic": [
+   {
+    "topic": "T1:1. Principles of Chemistry",
+    "notes": 35,
+    "chars": 126547,
+    "subtopics": 9
+   },
+   {
+    "topic": "T2:2. Inorganic Chemistry",
+    "notes": 33,
+    "chars": 83488,
+    "subtopics": 8
+   },
+   {
+    "topic": "T3:3. Physical Chemistry",
+    "notes": 14,
+    "chars": 52595,
+    "subtopics": 3
+   },
+   {
+    "topic": "T4:4. Organic Chemistry",
+    "notes": 20,
+    "chars": 58028,
+    "subtopics": 8
+   }
+  ]
+ },
+ "verdict": "PIN VERIFIED — snapshot of record intact; all self-pinned artifacts reconcile"
+}
