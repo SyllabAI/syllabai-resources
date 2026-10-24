@@ -125,6 +125,45 @@ failure-class evidence, and the two deliberate non-imports live in
 8. **Gates measure the learner surface** — parse correctness is not UX
    correctness; new surfaces get their gate class on day one.
 
+## The handover rule — SME EQ → Official EQ on Past Papers (per course)
+
+The hub serves a course's Past Papers "Interactive" buttons from exactly one
+source at a time. Before this pipeline starts for a course, the parsed
+SME-ExamQuestion sets (their per-part `sourcePaper` provenance) reconstruct
+past papers and light the buttons. When this pipeline finishes for that
+course, its Official output **replaces** the SME sets as the past-paper
+source. The handover is a mandatory pipeline stage with three receipts —
+chemistry (igcse-chemistry-19, 2026-10) is the executed precedent:
+
+1. **H1 — baseline census (at pipeline start).** Before converting the first
+   series, census what SME EQ currently connects to Past Papers for the
+   course: which corpus paper rows carry an active Interactive button via SME
+   provenance, questions/parts per reconstruction, coverage chips shown.
+   Receipt: `receipts/handover-<course>-h1-baseline.json` (local, gitignored,
+   cited from the PR like any battery receipt). This is the state the cutover
+   must not silently degrade.
+2. **H2 — comparison (when the course's conversion is complete, all gates
+   green).** Diff the Official output against H1 per paper: papers/sessions
+   each source covers, questions, parts, mark_points, assets, keyed MCQs.
+   Any paper SME served that the Official output would serve **worse** (fewer
+   parts, lost figures, unkeyed MCQs, missing solutions) is a cutover
+   BLOCKER — fix the official set, or disclose the regression and obtain a
+   human verdict first. Receipt: `receipts/handover-<course>-h2-comparison.json`.
+3. **H3 — cutover (record in LEDGER.md).** Ship the course's official sets on
+   the dedicated hub plane
+   (`apps/hub/content/<course>/official-papers.json` → `officialPaperTopics`;
+   they NEVER render in the Exam Questions topic tree — IA decision, user
+   directive) and disconnect the SME sets from past-paper matching for that
+   course. On the hub, the Official sets enter the Past Papers pairing FIRST
+   (first-match-wins), so the complete official paper shadows any partial SME
+   reconstruction of the same session; the invariant is that a course's
+   past-paper interactive source is either SME or Official — never a blend.
+   The LEDGER entry names the replaced state (rollback-anchor discipline).
+
+The invariant the rule protects: "connect the new" may never silently drop
+coverage "disconnect the old" was serving — the learner surface only improves
+or discloses.
+
 ## Gate catalog
 
 | Gate    | Proves                                   | Fails when                                          |
