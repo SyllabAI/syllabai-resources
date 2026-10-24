@@ -571,6 +571,19 @@ rm -f "$GIT_INDEX_FILE"; unset GIT_INDEX_FILE
   Action: for any text-layer lane, extract in dict mode and rebuild
   sub/superscripts geometrically BEFORE chunking; verify on an isotope + a
   kJ mol⁻¹ page, not just prose pages.
+- **L-025** (2026-10-24, T-PARSE-9701-1, Super Z): TEMP-INDEX BASE RACE —
+  composing a commit via read-tree(origin/main) + hash-object/update-index +
+  write-tree is NOT atomic against parallel lanes: if origin/main moves
+  between read-tree and commit-tree, the new tree silently lacks the rival
+  lane's paths (phantom deletions land on main). Action: (1) immediately
+  before commit-tree, re-fetch and assert the intended parent ==
+  origin/main; (2) after write-tree, diff-tree BOTH directions — vs the
+  base (must be exactly the declared paths) and vs the previous HEAD
+  (must show no third-party deletions); (3) if a race slipped through, DO
+  NOT force-push (fleet law) — repair forward: read-tree the last good
+  base, re-stage the declared paths, commit with parent = current HEAD,
+  push, and file the correction of record in the commit message.
+  Evidence: 31931f7 (transient revert of T-BOOK-044) repaired by dde7570.
 ### 9.5 Errata ledger
 
 - **E-001** (2026-10-21, T-INTAKE-4BI1-1): `books/CATALOG.md` §4.1 queue
