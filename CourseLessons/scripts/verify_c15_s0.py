@@ -148,7 +148,7 @@ if pack_path.exists():
     p_refs = [r for s in psecs for r in s['chunkRefs']]
     p_specs = sorted({r for s in psecs for r in s['specRefs']})
     check('S0.20 emitted pack: chunkRefs == lesson spine, specRefs == join_set', p_refs == refs and p_specs == ['2.22C', '2.23C', '2.24C', '2.25C', '2.26C', '2.27C'])
-    check('S0.21 emitted pack: learningObjective NON-NULL == course pin; paperRoute chemistry-only; status draft', pack.get('learningObjective') == row.get('learning_objective') and pack.get('paperRoute') == 'chemistry-only' and pack.get('status') == 'draft')
+    check('S0.21 emitted pack: learningObjective NON-NULL == course pin; paperRoute chemistry-only; status draft-or-published (law-7 flip tolerance, disclosed in flip receipt)', pack.get('learningObjective') == row.get('learning_objective') and pack.get('paperRoute') == 'chemistry-only' and pack.get('status') in ('draft', 'published'))
     check('S0.22 emitted pack sources sha-pinned', 'b2c67eaf' in (pack.get('sources') or {}).get('parseOfRecord', ''))
 else:
     print('SKIP S0.20-S0.22 (qa/lessonPackV1.json not emitted yet)')
