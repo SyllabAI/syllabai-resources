@@ -45,7 +45,7 @@ else:
     SPEC_RESOLUTION = UPLOAD / "spc-resolution.json"
 
 SCHEMA = "syllabai.official-paper-questions/0.2"
-CONVERTER_VERSION = "0.16.0"  # see Official-ExamQuestion/CHANGELOG.md + LEDGER.md
+CONVERTER_VERSION = "0.16.1"  # see Official-ExamQuestion/CHANGELOG.md + LEDGER.md
 
 # --- F64: course parametrization (the ADR-037 §5 board-layout generalization
 # --- pass, unlocked for igcse-maths-b-16 by operator order trace
@@ -77,7 +77,7 @@ COURSES = {
         # gap note. A maths-B registry (DB spec tree 4MB1-2017, 215 points) is
         # the spec-tagging wave's prerequisite, filed as open work.
         "spec_resolution": False,
-        "expect_questions": {"01": {}, "02": {"2025-11": 12}, "01R": {}, "02R": {}},
+        "expect_questions": {"01": {"2026-06": 26, "2024-11": 27, "2025-06": 26, "2023-11": 28, "2025-10": 27, "2024-06": 27, "2023-06": 28, "2022-01": 27, "2021-11": 29, "2021-01": 26, "2020-11": 29, "2020-06": 29, "2022-06": 27, "2023-01": 26, "2019-06": 28, "2018-06": 28}, "02": {"2025-11": 12, "2025-06": 12, "2026-06": 12, "2024-11": 11, "2023-11": 11, "2023-06": 12, "2023-01": 12, "2022-01": 12, "2021-11": 11, "2020-11": 12, "2020-06": 12, "2020-01": 12, "2019-06": 11, "2024-06": 11, "2018-06": 11, "2022-06": 11, "2021-01": 12, "2019-01": 12}, "01R": {"2026-06": 27, "2025-06": 26, "2023-06": 26, "2023-01": 26, "2022-01": 29, "2021-01": 28, "2019-06": 29, "2024-06": 26, "2018-06": 27, "2020-11": 26, "2020-01": 29}, "02R": {"2026-06": 12, "2025-06": 12, "2023-06": 11, "2023-01": 12, "2022-06": 11, "2022-01": 11, "2021-01": 11, "2020-11": 12, "2020-06": 12, "2019-01": 11, "2018-06": 12, "2024-06": 12, "2020-01": 11}},
     },
 }
 # registry expectations per paper variant (LEDGER F34: paper parametrization). Marks
@@ -276,6 +276,109 @@ PUA_MAP = {
     "\uf0de": "\u21d2",   # rightwards double arrow (11 inst, our-render)
     "\uf07b": "{",         # Symbol brace-left (6 inst, our-render)
     "\uf07d": "}",         # Symbol brace-right (6 inst, our-render)
+    # --- tranche-2 completion (2026-10-25): the REMAINING table.v1.json
+    # --- entries — the PUA_MAP is now table.v1-complete (every entry carries
+    # --- the T-MIG-141 rendered-PDF evidence trail; sha 1fdd4b4a). The
+    # --- sequence-first law (run-002b ordering law) is implemented as the
+    # --- _PUA_SEQ pre-pass below: composed shaft runs collapse to ONE arrow
+    # --- before per-char mapping (SEQ-A: F075 shaft run + optional F072 head;
+    # --- SEQ-B: F067 runs). Standalone leftovers then map per-char.
+    "\uf028": "(",         # Symbol paren (242 inst)
+    "\uf029": ")",         # Symbol paren (242 inst)
+    "\uf02b": "+",         # Symbol plus (624 inst)
+    "\uf02f": "\u0338",   # combining solidus — cancel stroke (55 inst)
+    "\uf03d": "=",         # Symbol equals (819 inst)
+    "\uf041": "A",         # Symbol A (1 inst, context-scaffold)
+    "\uf053": "\u03a3",   # Symbol Sigma (1 inst)
+    "\uf067": "\u2192",   # arrow (singles; runs consumed by _PUA_SEQ first, 41 inst)
+    "\uf06c": "\u03bb",   # lambda (160 inst)
+    "\uf06d": "\u03bc",   # mu (74 inst)
+    "\uf06f": "\u00b0",   # degree (2 inst)
+    "\uf071": "\u03b8",   # theta (3 inst)
+    "\uf077": "\u03c9",   # omega (2 inst)
+    "\uf085": "\u2265",   # greater-or-equal (34 inst)
+    "\uf0a3": "\u2264",   # less-or-equal (127 inst)
+    "\uf0a5": "\u221e",   # infinity (11 inst)
+    "\uf0b3": "\u2265",   # greater-or-equal variant (51 inst)
+    "\uf0b5": "\u221d",   # proportional to (13 inst)
+    "\uf0b6": "\u21cc",   # equilibrium (1 inst)
+    "\uf0bc": "\u2026",   # ellipsis (2 inst)
+    "\uf0c6": "\u2205",   # empty set (2 inst)
+    "\uf0c7": "\u2229",   # intersection (26 inst)
+    "\uf0c8": "\u222a",   # union (3 inst)
+    "\uf0cf": "\u2209",   # NOT AN ELEMENT OF — the operator-ruled mapping (run-004, trace 1a169e3fdeaecd11)
+    "\uf0d0": "\u2220",   # angle (31 inst)
+    "\uf0d7": "\u00b7",   # middle dot (8 inst)
+    "\uf0db": "\u25ca",   # lozenge (1 inst)
+    "\uf8eb": "\u239b",   # big paren LEFT-TOP, Symbol variant (32 inst)
+    "\uf8ec": "\u239c",   # big paren LEFT-EXT, Symbol variant (32 inst)
+    "\uf8ed": "\u239d",   # big paren LEFT-BOTTOM, Symbol variant (32 inst)
+    "\uf8f6": "\u239e",   # big paren RIGHT-TOP, Symbol variant (32 inst)
+    "\uf8f7": "\u239f",   # big paren RIGHT-EXT, Symbol variant (32 inst)
+    "\uf8f8": "\u23a0",   # big paren RIGHT-BOTTOM, Symbol variant (32 inst)
+    # --- tranche-2 drain additions (2026-10-25, each render-evidenced at
+    # --- 150dpi on the staged paper of record, font-trace Symbol layout):
+    "\uf021": "\u25b3",   # WHITE UP-POINTING TRIANGLE — 'Prove that \u25b3DAN is congruent
+                          # to \u25b3CDM' (2025-10 01 p10 render eyeballed)
+    "\uf04a": "\u03d1",   # GREEK THETA SYMBOL (script variant) — 'or tan \u03d1 =' distinct
+                          # from F071's upright theta in the SAME MS (2025-06 01 p28:
+                          # rows 'tan \u03b8' AND 'tan \u03d1', Notes '[\u03b8=16.35] / [\u03d1=73.649]')
+    "\uf066": "\u03c6",   # phi — scalar parameter row 'OR = 3a + \u03c6("3a-3b")' (2026-06 02 p20)
+    "\uf079": "\u03c8",   # psi — scalar parameter row 'OR = 3b + \u03c8("3a-3b")' (2026-06 02 p20)
+    "\uf062": "\u03b2",   # beta — scalar parameter rows 'OR = 3b + \u03b2("3a-3b")' (2026-06 02 p20
+                          # render) + 'OD = 2a + (a+2b) + \u03b2(a+2b)' (2025-10 01) + (2025-06 01)
+    "\uf063": "\u03c7",   # chi — Notes 'eg AR = AM \u00b1 \u03c7 NM' (2026-06 02 p21 render eyeballed)
+    "\uf06a": "\u03c6",   # phi (second SymbolMT phi CP, same printed letter as F066 — the
+                          # two-variant-one-target precedent F0B3/F085->U+2265; 2024-06 01 p24
+                          # render: 'MP = 3b + \u03c6("3a-5b")')
+    "\uf020": " ",        # SymbolMT space glyph — '0 < w \u2264 5' frequency-table class bounds
+                          # (2024-11 02 QP p20 render: '0 < w \u2264 5' with a single space)
+    "\uf0ec": "\u23a7",   # left curly hook TOP — the multi-row system brace '{ tan\u2220FEH=... /
+                          # EH=...' (2024-06 02 MS p14 render eyeballed)
+    "\uf0ef": "\u23aa",   # curly brace EXTENSION piece (both brace sides, same MS page render)
+    "\uf064": "\u03b4",   # delta — 'PD = 1/5(3a-b) + \u03b4/(1-\u03b4)(a+2b)' (2025-10 01 p27 render)
+    "\uf0bb": "\u2248",   # almost equal to — 'Allow (90/145)^2 = 324/841 \u2248 0.385'
+                          # (2024-06 02R p15 render eyeballed)
+    "\uf0ba": "\u2261",   # identical to — 'NB k + 215 + 362 + 181 + 94 + 15 \u2261 k + 867'
+                          # (2023-06 01R p20 render eyeballed)
+    "\uf065": "\u03b5",   # epsilon — 'CP = a - c + \u03b5(2a + c)' (2023-01 01R p22 render)
+    "\uf068": "\u03b7",   # eta — 'MP = a + c + \u03b7(-2a - c)' (2023-01 01R p22 render, values row)
+    "\uf06b": "\u03ba",   # kappa — 'OR = 2a + \u03ba("2a - 6/5 b")' (2026-06 02 p21 render)
+    "\uf07a": "\u03b6",   # zeta — 'CP = \u03b6("21/10 a - 3/10 c")' (2023-01 01R p22 render)
+    "\uf0ed": "\u23a9",   # left curly hook BOTTOM — the 2024-06 02 p14 system brace (render)
+    "\uf05c": "\u2234",   # therefore - '"6 - 4kt" = 0 \u2234 t = 3/2k' (2021-06 01 p19 render)
+    "\uf0a4": "\u211a",   # DOUBLE-STRUCK Q - '<\u211a> is the set of rational numbers'
+                          # (2022-06 01 QP p6 Venn render; no conflicting class)
+    "\uf0fd": "\u23ab",   # right curly hook TOP - 'eg {2\u03c0r\u00b2 and 2\u03c0(3r)\u00b2}' pair
+                          # braces (2024-06 01R p18 render eyeballed)
+    "\uf8e6": "|",         # modulus vertical bars - '|AC| = 5' pair around the vector
+                          # (2020-11 01R QP p21 render eyeballed)
+    "\uf0ee": "\u23a9",   # left curly hook BOTTOM (second variant) - system-brace row 2 left
+                          # side '<F0EF><F0EE> cos(12.68...)' (2024-06 02 p14 render)
+    "\uf0fe": "\u23ad",   # right curly hook BOTTOM - row 2 right side '<F0EF><F0FE>'
+                          # (2024-06 02 p14 render eyeballed)
+    "\uf8f1": "\u23a7",   # left curly hook TOP (compact brace class) - the
+                          # '{(972/4500)^(1/3)}^2' scaffold (2018-06 01 MS p11 render)
+    # F70: the SymbolMT digit embedding - 2020-01 02R MS p16 carries table
+    # values wholly in PUA; the decode (F030->0, F02E->'.', F034->4, F037->7,
+    # F02C->',') reproduces the printed row '- 0.47, 0.47, 2.53, 2.36' EXACT.
+    # Standard Symbol layout 0x30-0x39 = 0-9; F02C comma, F02E period.
+    "\uf02c": ",",
+    "\uf02e": ".",
+    "\uf030": "0", "\uf031": "1", "\uf032": "2", "\uf033": "3", "\uf034": "4",
+    "\uf035": "5", "\uf036": "6", "\uf037": "7", "\uf038": "8", "\uf039": "9",
+    "\uf8fc": "\u23ab",   # right curly hook TOP (compact brace class) - the same
+                          # 2018-06 01 MS p11 scaffold's right side, sibling of F8F1
+    "\uf8f4": "\u23aa",   # brace EXTENSION (both sides) - the taller 2018-06 01 p11
+                          # scaffold's second expression carries it at both ends
+    "\uf8fd": "\u23ac",   # right curly EXTENSION - the taller nested scaffold's right
+                          # brace (2018-06 01 MS p11, 'F8EC F8F7 F8FD' context)
+    "\uf8f2": "\u23a8",   # left curly EXTENSION - the same scaffold's left brace
+                          # ('F8F2 F8EC F8F7 F8FD' context line)
+    "\uf8f3": "\u23a9",   # left curly hook BOTTOM - 'F8F4 F8F3 F8ED 4500' (same
+                          # scaffold; completes the F8F1-3 left curly trio)
+    "\uf8fe": "\u23ad",   # right curly hook BOTTOM - '... F8F8 F8F4 F8FE' (same
+                          # scaffold; completes the F8FC/FD/FE right curly trio)
 }
 
 
@@ -286,6 +389,12 @@ PUA_MAP = {
 # NEVER silent. An operator-class adjudication (which controls are ×/÷ vs
 # furniture) is a review-queue item until font-trace + render evidence lands.
 CTL_COUNTER = {}
+
+# F66: composed-run collapse laws (sequence-first, run-002b ordering law)
+_PUA_SEQ = [
+    (re.compile("[\uf075]{2,8}\uf072?"), "\u2192"),
+    (re.compile("[\uf067]{2,8}"), "\u2192"),
+]
 
 def _ctl_note(cp):
     CTL_COUNTER[cp] = CTL_COUNTER.get(cp, 0) + 1
@@ -313,6 +422,42 @@ def normalize_pua(s: str) -> str:
                     for c in s)
     if not any(0xE000 <= ord(c) <= 0xF8FF for c in s):
         return s
+    # F66 (v0.16.1): sequence-first law (run-002b ordering law) — composed
+    # arrow runs collapse to ONE arrow before per-char mapping. SEQ-A: a run
+    # of F075 shaft glyphs (2-8, drawn width varies) optionally terminated by
+    # the F072 head = one rightwards arrow; SEQ-B: F067 runs. A STANDALONE
+    # F072 is Delta (U+0394) and still maps per-char below — the font-split
+    # that dissolved the OEQ-Delta conflict.
+    for rx, rep in _PUA_SEQ:
+        s = rx.sub(rep, s)
+    # F66: igcse-maths-b-16 course overrides — the maths-B SymbolMT embeddings
+    # re-encode two codepoints the chemistry/4MA1 embeddings use differently
+    # (the run-002b font-split class, per-course law with render evidence):
+    #   F061: the mapsto class ('f : x \u21a6 ...', 85 census instances, the
+    #         standard function-definition notation) keeps U+21A6; every OTHER
+    #         maths-B instance is the scalar parameter alpha (2023-01 01R p22
+    #         'minus 2\u03b1 = -3 + \u03b2'; 2021-01 01 p18 'sin(\u03b1) = 63.5...' renders).
+    #   F067: gamma course-wide (2026-06 02 p21 'OR = b + \u03b7...\u03b3(2a-b)', 2023-01 01R
+    #         p22 '1 + 2\u03b3 = \u03b4', 2025-10 01 p27 'PD = \u03b3/(1-\u03b3)(a+2b)' renders);
+    #         the DB's arrow evidence for F067 belongs to the 4MA1 run-head
+    #         embeddings (SEQ-B family, consumed above). One 2019-06 01R
+    #         instance is a tiny unresolved superscript square at 600dpi —
+    #         served as \u03b3, disclosed low-confidence in the ledger.
+    if COURSE_PREFIX == "4MB1":
+        s = re.sub(r"(?<=x )[]", "\u21a6", s)
+        s = s.replace("", "\u03b3")
+        s = s.replace("", "\u03b1")
+        # F69: number-set symbols (the Venn-diagram class). The maths-B
+        # embeddings encode the double-struck set letters at F0A5/F0A2/F0A4
+        # (2022-06 01 QP p6: 'the sets \u2115, \u2124, \u211a and E' + the legend
+        # '\u211a is the set of rational numbers'). The DB-corpus evidence for
+        # F0A5 (infinity) and F0A2 (the dotted answer-line rule, 5,146 inst)
+        # belongs to OTHER embeddings. LINE-SCOPED law anchored on the
+        # unambiguous \u211a: a line carrying F0A4 is a set-notation line, so
+        # F0A5->\u2115 and F0A2->\u2124 there; elsewhere the older mappings stand.
+        if "\uf0a4" in s:
+            s = s.replace("\uf0a5", "\u2115").replace("\uf0a2", "\u2124")
+            s = s.replace("\uf0a4", "\u211a")
     out = []
     for c in s:
         cp = ord(c)
@@ -585,6 +730,13 @@ MS_DEGRADED_MARKER_RE = re.compile(
 # and M2 answer rows ('    b(iv)').
 MS_GLUED_MARKER_RE = re.compile(
     r"^ {0,12}(?:(\d{1,2}))?([a-h])(?:(i{1,3}|iv|v|vi{1,3})|\((i{1,3}|iv|v|vi{1,3})\s*\))(?=\s{2,}|$)\s*(.*)$")
+# F68 (v0.16.1): the glued QUESTION-NUMBER + paren-letter marker - the
+# 2022-01..2023-06 maths-B MS layouts print '6(a)   AB = 5b - 4a ...' (digit
+# and paren-letter glued; MS_ROW_RE requires whitespace after the digit so it
+# never matched, and MS_GLUED_MARKER_RE expects a bare letter). Optional
+# roman sub-part, parened or bare.
+MS_QPAREN_GLUED_RE = re.compile(
+    r"^ {0,12}(\d{1,2})\(([a-h])\)(?:(i{1,3}|iv|v|vi{1,3})|\((i{1,3}|iv|v|vi{1,3})\s*\))?(?=\s{2,}|$)\s*(.*)$")
 # v0.12 (F50): half-paren BARE roman continuation row — 2020-11 1CR 3(b)(ii)
 # prints 'ii)    M1 add bromine water' (open paren lost in the text layer).
 # Same ascending-sequence gate as the bare form; a strictly separate branch so
@@ -661,6 +813,7 @@ def parse_ms(ms_lines):
         mb = MS_BARE_LETTER_RE.match(ln)
         mdm = MS_DEGRADED_MARKER_RE.match(ln)
         mg = MS_GLUED_MARKER_RE.match(ln)
+        mqp = MS_QPAREN_GLUED_RE.match(ln)
         mro = MS_BARE_ROMAN_RE.match(ln)
         mhr = MS_HALF_ROMAN_RE.match(ln)
         msl = MS_SIDEBAR_LETTER_RE.match(ln)
@@ -682,6 +835,21 @@ def parse_ms(ms_lines):
             if roman and cur_q is not None and cur_letter:
                 last_roman[(cur_q, cur_letter)] = _roman_idx(roman)
             entries.setdefault(cur, [])
+        elif mqp:
+            # F68: glued '<qnum>(<letter>)' marker - the same state machine as
+            # the mg branch: marker evidence wins, the ascending-sequence gate
+            # in _honour_qn applies, and the roman sub-part is optional.
+            qn, letter, roman, roman_paren, rest = mqp.groups()
+            roman = (roman or roman_paren).lower() if (roman or roman_paren) else None
+            new_q = _honour_qn(qn, True)
+            if new_q is not None:
+                cur_q = new_q
+            cur_letter = letter
+            key = (cur_q, letter, roman)
+            entries.setdefault(key, [])
+            if rest.strip():
+                entries[key].append(rest)
+            cur = key
         elif mdm and not (mdm.group(2) and mdm.group(4) and mdm.group(5) and mdm.group(7)):
             # F42 bare letter + bare roman ('    d   i    Impurities...') and
             # v0.12 (F50) degraded-paren variants — see MS_DEGRADED_MARKER_RE.
@@ -1519,6 +1687,30 @@ def main():
                     "source_norm": p["source_norm"],
                 })
                 continue
+            # F72 (maths-B): romans without printed marks inside a marks-carrying
+            # letter group are continuation list items (2021-06 02 Q7: '(b)
+            # Calculate the interest she receives in one year. (2)' then
+            # '(i) change his dollars into euros...' '(ii) ... straight into
+            # pounds.' with no marks of their own) - the WHOLE group finalizes
+            # as one part from its raw lines, so the extraction baseline (and
+            # G2-D's 5-gram check) stays byte-faithful.
+            if COURSE_PREFIX == "4MB1" and grp["order"]:
+                roman_probes = [finalize_part(grp["parts"][r]["lines"]) for r in grp["order"]]
+                letter_probe = finalize_part(grp["stem_lines"])
+                if (letter_probe["marks"] is not None
+                        and all(rp["marks"] is None for rp in roman_probes)):
+                    whole = finalize_part(grp["stem_lines"]
+                                          + [l for r in grp["order"] for l in grp["parts"][r]["lines"]])
+                    questions_parts.append({
+                        "part_number": f"{qnum}({gletter})",
+                        "group": gletter, "roman": None,
+                        "group_stem_md": grp_stem or None, "option_list": option_list,
+                        "marks": whole["marks"],
+                        "question_type": "multiple_choice" if whole["choices"] else "structured",
+                        "problem_md": whole["problem_md"], "choices": whole["choices"],
+                        "source_norm": whole["source_norm"],
+                    })
+                    continue
             for roman in grp["order"]:
                 p = finalize_part(grp["parts"][roman]["lines"])
                 part_number = f"{qnum}({gletter})({roman})" if gletter != "_" else f"{qnum}({roman})"
@@ -1530,6 +1722,25 @@ def main():
                     "problem_md": p["problem_md"], "choices": p["choices"],
                     "source_norm": p["source_norm"],
                 })
+        # F71 (maths-B): romans whose parts ALL lack printed marks are
+        # instruction list items, not markable parts (2020-11 01R Q20:
+        # construction steps '(i) closer to DA...' with no per-part marks
+        # printed). Collapse to one implicit part carrying the printed total;
+        # the single-part MS union law then links it.
+        if (COURSE_PREFIX == "4MB1" and printed_total and questions_parts
+                and len(questions_parts) > 1
+                and all(p["marks"] is None for p in questions_parts)):
+            p = finalize_part([l for l in region if l.strip()][1:])
+            questions_parts = [{
+                "part_number": f"{qnum}",
+                "group": None, "roman": None,
+                "group_stem_md": None, "option_list": None,
+                "marks": p["marks"] if p["marks"] is not None else printed_total,
+                "question_type": "multiple_choice" if p["choices"] else "structured",
+                "problem_md": p["problem_md"], "choices": p["choices"],
+                "source_norm": p["source_norm"],
+                "implicit_single_part": True,
+            }]
         doc_questions.append({"question_number": qnum, "printed_total": printed_total,
                               "stem_md": stem_md, "parts": questions_parts,
                               "region_norm": norm(" ".join(region))})
@@ -1550,7 +1761,16 @@ def main():
         # (4 marks, incl. three MCQs) vanished and (b)(i)/(ii) landed in the
         # virtual roman group as 3(i)/3(ii).
         pieces = []
+        # F67: a missing question's content lives ONLY in the first region after
+        # it — the handler whose footer question number is the next one above m.
+        # In EARLIER regions a QSTART@m match is always a digit-leading source
+        # line (the F49 class — e.g. 2023-01 02 Q10's right-aligned '(3)' marks
+        # tuple after a probability '11'), and firing there emitted Q11 twice
+        # (a 5-mark fragment + the true 13-mark question; sum 113/100).
+        prev_qnum = footers[fi - 1][1] if fi else 0
         for m in missing:
+            if not (prev_qnum < m < qnum):
+                continue
             ms_ = [i for i, ln in enumerate(region)
                    if QSTART_RE.match(ln) and int(QSTART_RE.match(ln).group(1)) == m]
             if ms_:
@@ -2873,6 +3093,10 @@ def main():
     if flat_parts:
         nc = copy.deepcopy(topic)
         tgt = max(nc["questions"], key=lambda q: len(q["parts"]))["parts"][-1]
+        # F70: a degenerate part can lack the marks key (a roman-continuation
+        # fragment whose finalize found no marks line - 2020-01 01R); the N1
+        # bump must not crash the run for it
+        tgt.setdefault("marks", 0)
         tgt["marks"] = (tgt["marks"] or 0) + 1
         orig_by_part = {p["part_number"]: p for q in topic["questions"] for p in q["parts"]}
         nc_results.append({"id": "N1-mark-bump", "expected_gate": "G2-D/value-trace",

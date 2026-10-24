@@ -761,6 +761,14 @@
    "series": "*",
    "assertion": "F64: the COURSES registry chemistry entry stays identical to the module-level chemistry defaults (prefix 4CH1, PAPER_TOTALS {1C:110,2C:70,1CR:110,2CR:70}, the '=' footer regex, OUTROOT igcse-chemistry-19) \u2014 a divergence means the course table and the chemistry defaults drifted apart; chemistry outputs regenerate byte-identical only while this holds",
    "check": "course_registry_chemistry_default"
+  },
+  {
+   "id": "C74-maths-drain-state",
+   "series": "*",
+   "assertion": "F66-F72 tranche-2 drain state of record: the igcse-maths-b-16 corpus holds 66 converted slices - 58 with all gates G0-G7 PASS and 8 honestly-disclosed GATE-FAIL residuals (the 2018-2021 first-sitting-era layout tail, LEDGER F66-F72 disclosures). Either count moving without a ledger entry fails this canary.",
+   "check": "maths_drain_state",
+   "expected_pass": 58,
+   "expected_failing": 8
   }
  ]
 }

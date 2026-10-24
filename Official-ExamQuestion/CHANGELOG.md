@@ -692,3 +692,29 @@ zero C0 controls, so the §3.4 fallback is provably inert there).
   controls 3/3 DETECTED, MS linkage 100%, solutions on every linked part,
   4 crops rendered / 7 crop-required honestly queued, control-char fallback
   156 instances / 10 codepoints disclosed. All 69 chemistry canaries hold.
+
+## 0.16.1 — 2026-10-25 · tranche-2: the drain (F66-F72)
+
+58 of the 66 archive paper dirs converted, all gates PASS, zero crashes.
+Chemistry byte-identity re-proven post-everything (staged parity +
+problem_md byte-equal); all 71 canaries hold; the tranche-1 slice
+re-verified all-gates-PASS. CONVERTER_VERSION -> 0.16.1.
+
+- **F66**: PUA_MAP 89 -> 126 (render-evidenced; the greek parameter family,
+  the number sets, the digit embedding, the brace-piece families) + the
+  _PUA_SEQ sequence-first pre-pass + the course-scoped F061/F067 font-split
+  overrides + the F69 number-set line law.
+- **F67**: the missing-question region law (a footerless question fires only
+  in the first region after it).
+- **F68**: the glued '<qnum>(<letter>)' MS marker law (the 2022-2023 layout).
+- **F70**: the SymbolMT digit embedding (F030-F039 + comma + period).
+- **F71/F72**: unmarked romans are list items (collapse + segmentation-level
+  fold; the G2-D refusal of the first fold attempt is the proof the
+  disclosure machinery works).
+- **EXPECT_QUESTIONS**: 58 footer-verified per-series entries registered.
+
+Residual (disclosed): 8 papers honest GATE-FAIL on the 2018-2021
+first-sitting-era layouts (2022-06 01R, 2020-06 01R, 2020-01 01, 2019-06 02R,
+2019-01 01, 2019-01 01R, 2021-06 01, 2021-06 02 - G1 parts-sum / G5 linkage
+classes; 2019-01 also needs the F41 OCR layer for image-only pages) + the
+EXPECT_QUESTIONS entries for those 8 await their own loop rounds.

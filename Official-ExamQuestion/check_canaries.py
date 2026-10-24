@@ -98,6 +98,28 @@ for c in cans:
             ok = ok and n_parts == c["expected_parts"]
             ok = ok and all(
                 p.get("solution_md") for q in t["questions"] for p in q["parts"])
+        elif chk == "maths_drain_state":
+            # C74 (F66-F72): the tranche-2 drain state of record - 66 slices
+            # exist, expected_pass all-gates-PASS, expected_failing honestly
+            # disclosed (the 2018-2021 layout tail). Either count moving
+            # without a ledger entry fails.
+            base = HERE / "igcse-maths-b-16"
+            n_pass = n_fail = 0
+            import json as _json
+            for d in sorted(base.iterdir()):
+                if not d.is_dir():
+                    continue
+                for pd in sorted(d.iterdir()):
+                    if not (pd / "topic.json").exists():
+                        continue
+                    rep = _json.loads((pd / "validation-report.json").read_text())
+                    if all(g["status"] == "PASS" for g in rep["gates"]):
+                        n_pass += 1
+                    else:
+                        n_fail += 1
+            conv = (HERE.parent / "scripts" / "official_examq_extract.py").read_text()
+            ok = (n_pass == c["expected_pass"] and n_fail == c["expected_failing"]
+                  and '"expect_questions"' in conv)
         elif chk == "course_registry_chemistry_default":
             # C73 (F64): drift guard — the COURSES chemistry entry must stay
             # identical to the module-level chemistry defaults (footer regex,

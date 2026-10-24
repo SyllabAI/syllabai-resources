@@ -1,0 +1,159 @@
+{
+ "schema": "syllabai.official-paper-questions.validation/0.2",
+ "generated_utc": "2026-10-24T19:35:04Z",
+ "series": "2022-06",
+ "paper": "02R",
+ "gates": [
+  {
+   "gate": "G0-identity",
+   "status": "PASS",
+   "summary": "paper_id=pearson-edexcel:international-gcse:mathematics-b:4mb1:2022-06:4MB1/02R; series=2022-06; printed='June 2022'; sha256 qp/ms match manifest: True; manifest variant '02R' == requested '02R': True",
+   "details": {
+    "qp_sha256": "c53a6bb274613b75c71a8a9d9ab247528078affdc18ef8647e048a02063332ef",
+    "ms_sha256": "d381ebd23e11477e321c725e5b76dd2525ff0ea7f13f895abc8b1aa6cf1f569a",
+    "registry_paper_id": "pearson-edexcel:international-gcse:mathematics-b:4mb1:2022-06:4MB1/02R"
+   }
+  },
+  {
+   "gate": "G1-structure",
+   "status": "PASS",
+   "summary": "11 questions; Σ question totals=100/100; parts-sum == printed total for all questions: True",
+   "details": {
+    "mismatches": [],
+    "unattributed": [],
+    "inferred_totals": {},
+    "footer_gaps": [],
+    "image_only_pages": [],
+    "count_expected": null
+   }
+  },
+  {
+   "gate": "G2-D-disclosure",
+   "status": "PASS",
+   "summary": "provenance matches reality for all 34 parts (0 disclosed, 34 extracted at ≥0.95 5-gram): True",
+   "details": {
+    "violations": [],
+    "min_ratio": 1.0
+   }
+  },
+  {
+   "gate": "G3-mcq-integrity",
+   "status": "PASS",
+   "summary": "0 MCQ parts; all have printed A–D and MS-keyed answer: True",
+   "details": {
+    "issues": []
+   }
+  },
+  {
+   "gate": "G4-figure-resolution",
+   "status": "PASS",
+   "summary": "12 asset records cover every table/diagram/grid/apparatus mention: 5 cropped to assets/*.png (150 dpi), 5 remain crop-required; 11 parts without page anchor",
+   "details": {
+    "dangling": [],
+    "pages_unanchored": 11,
+    "crop_stats": {
+     "crops": 5,
+     "pending": 5,
+     "shared": 4
+    }
+   }
+  },
+  {
+   "gate": "G5-answer-linkage",
+   "status": "PASS",
+   "summary": "MS linkage 37/37 (100%)",
+   "details": {
+    "unmatched": []
+   }
+  },
+  {
+   "gate": "G6-registry-codes",
+   "status": "PASS",
+   "summary": "all emitted codes ∈ spec_point_resolution registry (0 codes) or documented gaps→review; 37 parts pending-llm tagging; 0 parts no-spec-point (terminal, documented per part)",
+   "details": {
+    "violations": [],
+    "allowed_gaps": [
+     "4CH1-3.15C"
+    ]
+   }
+  },
+  {
+   "gate": "G7-solution-emission",
+   "status": "PASS",
+   "summary": "solution_md on 37/37 linked parts; mark_points sum == part marks everywhere: True; MS marks-column digit read for 9 parts, agrees with QP marks on 1",
+   "details": {
+    "missing_solution": [],
+    "sum_mismatches": [],
+    "ms_marks_seen": 9,
+    "ms_marks_agree": 1,
+    "ms_marks_disagree": [
+     "1(d) (ms=8 qp=3)",
+     "2 (ms=1 qp=4)",
+     "3(a) (ms=92 qp=2)",
+     "5(a) (ms=3 qp=2)",
+     "8(d) (ms=7 qp=5)",
+     "9(a)(i) (ms=2 qp=4)",
+     "9(b) (ms=7 qp=5)",
+     "11 (ms=2 qp=8)"
+    ]
+   }
+  }
+ ],
+ "negative_controls": [
+  {
+   "id": "N1-mark-bump",
+   "expected_gate": "G2-D/value-trace",
+   "detected": true
+  },
+  {
+   "id": "N2-paraphrase",
+   "expected_gate": "G2-D/edits[]",
+   "detected": true,
+   "target": "2"
+  },
+  {
+   "id": "N3-fake-spec-code",
+   "expected_gate": "G6",
+   "detected": true
+  }
+ ],
+ "review_queue": [
+  {
+   "part": "2",
+   "reason": "figure crop required (diagram, page None)"
+  },
+  {
+   "part": "4(d)",
+   "reason": "figure crop emitted — human verify (assets/asset_4_d_grid.png)"
+  },
+  {
+   "part": "6(d)",
+   "reason": "figure crop required (diagram, page 10)"
+  },
+  {
+   "part": "7(a)",
+   "reason": "figure crop required (table, page None)"
+  },
+  {
+   "part": "7(b)",
+   "reason": "figure crop emitted — human verify (assets/asset_7_b_grid.png)"
+  },
+  {
+   "part": "7(b)",
+   "reason": "figure crop required (table, page 14)"
+  },
+  {
+   "part": "11",
+   "reason": "figure crop required (diagram, page None)"
+  }
+ ],
+ "ocr_pages": [],
+ "mcq_keys_applied": [],
+ "ms_link_overrides_applied": [],
+ "spec_tagging": {
+  "tagged": 0,
+  "parts": 37,
+  "pending_llm": 37,
+  "no_spec_point": 0
+ }
+}
