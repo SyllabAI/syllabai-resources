@@ -500,3 +500,16 @@ served bundle PR carries a full disclosure census.
   **v7 → v8** (file_count 469 → 479; lanes 1–7 rows carried forward untouched). Capture provenance:
   syllabai-experimental @ c04abfbd (cross-map lane 8 in the same commit). Rights © Cambridge/UCLES/MAT/O&C
   per file; takedown law unchanged. Base commit dc5ff598 (syllabai-experimental).
+
+- **T-UGM-MODE1-8 amendment — crossLaneAligned primary-pick flags (this run)**: consume-phase facts-file
+  fix for `T-UGM-HUB-CONSUME-8` (the T-UGM-MODE1-7 amendment pattern): the lane-8 enrichment declared its
+  four 1.8 primary picks (r8716 → 1.8.1, r7734 → 1.8.2, r6067 → 1.8.3, r9357 → 1.8.4) on the
+  `perSpecPoint` rows only, but all four picks ride the CROSS-LANE join — the first lane whose pick set
+  is entirely joined text — and the hub importer's join law serves per-resource pick flags from the
+  `crossLaneAligned` rows. The regenerated hub bundle therefore declared index-level picks that no
+  resource row knew, failing the hub regression law's "every declared spec-point primaryPick resolves to
+  a resource that knows it" invariant for all four 1.8 codes (an audit gap: the corpus-side build audit
+  cross-checked pick membership but not cross-lane pick-flag parity with the perSpecPoint declarations).
+  Amendment: the four `crossLaneAligned` rows gain `"primaryPick": true` — nothing else moves
+  (perSpecPoint rows, censuses, sweep routing, texts and MANIFEST v8 untouched; 18 joins still 18, 28
+  rows still 28). Unblocks T-UGM-HUB-CONSUME-8 at the amendment merge.
