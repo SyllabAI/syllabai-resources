@@ -18,8 +18,26 @@
 # `git cat-file`); of-record sha256/sha1 values are quoted from the repo's own
 # ledgers (books/CATALOG.md, Official-Specifications/igcse-chemistry/spec.json).
 
-manifest_version: "1.2.1"
+manifest_version: "1.2.2"
 manifest_history:
+  - version: "1.2.2"
+    date: "2026-10-25"
+    change: "LOCATOR PRECISION REPAIR of record (BL-008 batch orchestration, run
+      SIB-CHEMISTRY_4CH1-RUN-002 preflight). SRC-BOOK-4CH1-SB1's evidence path resolved
+      as a DIRECTORY (the 4ch1 lane root); the resolver's bounded dir digest scan (first
+      400 sorted members) enumerates the 1,234 parsed chunk files that sort before
+      student-book.pdf, so the of-record PDF digest could never be matched from the
+      directory entry — RUN-001's SRC-BOOK-4CH1-SB1 'FAILED;DIGEST_UNMATCHED' was this
+      locator+scan artifact, not file drift. First-hand verification this session: the
+      PDF at syllabai-resources ebe914b (books/pearson-edexcel/international-gcse/
+      chemistry/4ch1/student-book.pdf) hashes to sha256
+      d48020e0cc0b5545b330bb59b242472198210e424525e4381cd5d2a58a58cc04, 54,298,792
+      bytes — byte-identical to the digest this manifest already pins AND to
+      books/CATALOG.md §3.1's source-of-record row. NO digest changed; the evidence
+      path now points at the exact file of record, and the CATALOG pointer row is
+      quoted so the resolver classifies it as a pointer (ALT) rather than UNPARSEABLE.
+      Pair fix: pipeline/source_resolver.py dir-scan now hashes direct children first
+      (same 400 cap), so lane-root files can no longer be starved by deep chunk trees."
   - version: "1.2.1"
     date: "2026-10-25"
     change: "IDENTIFIER DIGEST REPAIR of record (SIB-GEN preflight run SIB-CHEMISTRY_4CH1-RUN-001,
@@ -97,8 +115,8 @@ sources:
     specification: 4CH1
     version: parse v3 (2026-10-18), doc build e6c0db50… (2026-10-20, 29 chapters), CATALOG row 1
     paths:
-      - syllabai-resources@books/pearson-edexcel/international-gcse/chemistry/4ch1/
-      - ledger: syllabai-resources@books/CATALOG.md (row 1 + §3.1)
+      - syllabai-resources@books/pearson-edexcel/international-gcse/chemistry/4ch1/student-book.pdf
+      - "ledger: syllabai-resources@books/CATALOG.md (row 1 + §3.1)"
     identifiers:
       tree_sha: 5fad9de78e19de4e0069b9b1063d12f2534eb135
       sha256_of_record_student_book_pdf: d48020e0cc0b5545b330bb59b242472198210e424525e4381cd5d2a58a58cc04

@@ -1,0 +1,447 @@
+{
+  "schema": "sib-evidence-pack/1.0",
+  "run_id": "SIB-CHEMISTRY_4CH1-RUN-002",
+  "artifact_id": "CUR-04",
+  "family": "CUR",
+  "library": "CHEMISTRY_4CH1",
+  "policy_version": "r0",
+  "sources": [
+    {
+      "source_id": "SRC-SPEC-4CH1",
+      "role": "primary",
+      "classification": "CURRENT — AUTHORITATIVE",
+      "title": "Pearson Edexcel International GCSE Chemistry (2017) Specification, Issue 3",
+      "resolution_status": "RESOLVED",
+      "files": [
+        {
+          "repo": "syllabai-resources",
+          "path": "Official-Specifications/igcse-chemistry/international-gcse-chemistry-2017-specification.pdf",
+          "sha256": "36e2080d2e99f060bcc18f2a9d0bbd8b29498b45e007fa232e3befcd89b73362",
+          "excerpts": [
+            {
+              "locator": "page 15",
+              "chars": 258,
+              "text": "Pearson Edexcel International GCSE in Chemistry \nSpecification – Issue 3 – September 2024 © Pearson Education Limited 2024 \n9\n2 Chemistry content \n1 \nPrinciples of chemistry \n11 \n2 \nInorganic chemistry \n16 \n3 \nPhysical chemistry \n21 \n4 \nOrganic chemistry \n23"
+            }
+          ]
+        }
+      ],
+      "excerpt_caps": {
+        "per_source_chars": 40000,
+        "per_excerpt_chars": 1600
+      }
+    },
+    {
+      "source_id": "SRC-GRAPH-4CH1",
+      "role": "primary",
+      "classification": "CURRENT — AUTHORITATIVE",
+      "title": "Validated 4CH1 curriculum knowledge graph (specification points, concepts, practicals, command words)",
+      "resolution_status": "RESOLVED",
+      "files": [
+        {
+          "repo": "syllabai-resources",
+          "path": "graph/igcse-chemistry/concept_edges.yaml",
+          "sha256": "cbef02513ddbb0121a7ba139512c128185311ae3ebf0ef5121e1ed792522aa10",
+          "excerpts": [
+            {
+              "locator": "lines 944-958",
+              "chars": 561,
+              "text": "version: 1\n  created_at: '2026-09-22'\n- source: 4CH1-CON-ANION-TESTS\n  relation: PART_OF\n  target: 4CH1-2.48\n  role: CORE\n  evidence:\n  - file: Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/h. Chemical Tests/Tests for Anions  Edexcel\n      IGCSE Chemistry Revision Notes 2017.md\n    kind: NOTE\n    quote: Negatively charged non-metal ions are known as anions\n  - file: Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/h. Chemical Tests/Tests for Anions  Edexcel\n      IGCSE Chemistry Revision Notes 2017.md\n    kind: NOTE\n    quote: Add dilute acid"
+            },
+            {
+              "locator": "lines 1355-1369",
+              "chars": 666,
+              "text": "validated_by: operator-directive-session-106\n  validated_date: '2026-09-18'\n- source: 4CH1-CON-BOND-ENERGY-CALC\n  relation: PART_OF\n  target: 4CH1-3.7C\n  role: CORE\n  evidence:\n  - kind: NOTE\n    file: Chemistry IGCSE Revision Notes/3. Physical Chemistry/a. Energetics/What is bond energy - IGCSE\n      Chemistry Revision Notes.md\n    quote: Each chemical bond has a specific bond energy associated with it\n  - kind: NOTE\n    file: Chemistry IGCSE Revision Notes/3. Physical Chemistry/a. Energetics/What is bond energy - IGCSE\n      Chemistry Revision Notes.md\n    quote: This is the amount of energy required to break the bond or the amount of energy given out when"
+            },
+            {
+              "locator": "lines 2442-2456",
+              "chars": 576,
+              "text": "version: 1\n  created_at: '2026-09-24'\n- source: 4CH1-CON-CRUDE-OIL-FRACTIONS\n  relation: PART_OF\n  target: 4CH1-4.10\n  role: CORE\n  evidence:\n  - file: Chemistry IGCSE Revision Notes/4. Organic Chemistry/b. Crude Oil/Fractional distillation - IGCSE\n      Chemistry Revision Notes.md\n    kind: NOTE\n    quote: As carbon chain length increases the colour of the liquid gets darker as it gets thicker and\n      more viscous\n  - file: Chemistry IGCSE Revision Notes/4. Organic Chemistry/b. Crude Oil/Fractional distillation - IGCSE\n      Chemistry Revision Notes.md\n    kind: NOTE"
+            },
+            {
+              "locator": "lines 2479-2493",
+              "chars": 672,
+              "text": "version: 1\n  created_at: '2026-09-24'\n- source: 4CH1-CON-CRUDE-OIL-FRACTIONS\n  relation: PART_OF\n  target: 4CH1-4.8\n  role: CORE\n  evidence:\n  - file: Chemistry IGCSE Revision Notes/4. Organic Chemistry/b. Crude Oil/Fractional distillation - IGCSE\n      Chemistry Revision Notes.md\n    kind: NOTE\n    quote: The fractions in petroleum are separated from each other in a process called **fractional distillation**\n  - file: Chemistry IGCSE Revision Notes/4. Organic Chemistry/b. Crude Oil/Fractional distillation - IGCSE\n      Chemistry Revision Notes.md\n    kind: NOTE\n    quote: Fractional distillation is carried out in a **fractionating column** which has a temperature"
+            },
+            {
+              "locator": "lines 2521-2535",
+              "chars": 573,
+              "text": "version: 1\n  created_at: '2026-09-24'\n- source: 4CH1-CON-CRUDE-OIL-FRACTIONS\n  relation: PART_OF\n  target: 4CH1-4.9\n  role: CORE\n  evidence:\n  - file: Chemistry IGCSE Revision Notes/4. Organic Chemistry/b. Crude Oil/Fractional distillation - IGCSE\n      Chemistry Revision Notes.md\n    kind: NOTE\n    quote: '| Refinery gas | Domestic heating & cooking |'\n  - file: Chemistry IGCSE Revision Notes/4. Organic Chemistry/b. Crude Oil/Fractional distillation - IGCSE\n      Chemistry Revision Notes.md\n    kind: NOTE\n    quote: '| Gasoline / petrol | Fuel for cars (gasoline) |'"
+            },
+            {
+              "locator": "lines 3686-3700",
+              "chars": 677,
+              "text": "version: 1\n  created_at: '2026-09-22'\n- source: 4CH1-CON-EXTRACTION-METHOD\n  relation: PART_OF\n  target: 4CH1-2.23C\n  role: CORE\n  evidence:\n  - kind: NOTE\n    file: Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/e. Extraction & Uses of Metals/Extraction\n      of metals from ores - IGCSE Chemistry.md\n    quote: The position of the metal on the reactivity series determines the method of extraction\n  - kind: NOTE\n    file: Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/e. Extraction & Uses of Metals/Extraction\n      of metals from ores - IGCSE Chemistry.md\n    quote: Higher placed metals (above carbon) have to be extracted using electrolysis as they are too"
+            },
+            {
+              "locator": "lines 4220-4234",
+              "chars": 578,
+              "text": "version: 1\n  created_at: '2026-09-22'\n- source: 4CH1-CON-G7-REACTIVITY-ECONFIG\n  relation: PART_OF\n  target: 4CH1-2.8C\n  role: CORE\n  evidence:\n  - kind: NOTE\n    file: Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/b. Group 7 (Halogens)/Group 7 reactivity\n      - IGCSE Chemistry Revision Notes.md\n    quote: We can use electronic configuration to explain the trends in chemical reactivity down Group\n      7\n  - kind: NOTE\n    file: Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/b. Group 7 (Halogens)/Group 7 reactivity\n      - IGCSE Chemistry Revision Notes.md"
+            },
+            {
+              "locator": "lines 7909-7923",
+              "chars": 601,
+              "text": "version: 1\n  created_at: '2026-09-22'\n- source: 4CH1-CON-ANION-TESTS\n  relation: REQUIRES_PREREQUISITE\n  target: 4CH1-CON-GAS-TESTS\n  evidence:\n  - file: Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/h. Chemical Tests/Tests for Anions  Edexcel\n      IGCSE Chemistry Revision Notes 2017.md\n    kind: NOTE\n    quote: Bubble the gas released through limewater\n  - file: Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/h. Chemical Tests/Gas tests - IGCSE Chemistry\n      Revision Notes.md\n    kind: NOTE\n    quote: If the gas is carbon dioxide, the limewater turns cloudy white\n  provenance:"
+            },
+            {
+              "locator": "lines 7939-7953",
+              "chars": 624,
+              "text": "version: 1\n  created_at: '2026-09-24'\n- source: 4CH1-CON-ANION-TESTS\n  relation: REQUIRES_PREREQUISITE\n  target: 4CH1-CON-ION-CHARGE-RULES\n  evidence:\n  - file: Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/h. Chemical Tests/Tests for Anions  Edexcel\n      IGCSE Chemistry Revision Notes 2017.md\n    kind: NOTE\n    quote: Sulfate compounds contain the sulfate ion, SO42-\n  - file: Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/h. Chemical Tests/Tests for Anions  Edexcel\n      IGCSE Chemistry Revision Notes 2017.md\n    kind: NOTE\n    quote: Carbonate compounds contain the carbonate ion, CO32-\n  provenance:"
+            },
+            {
+              "locator": "lines 8120-8134",
+              "chars": 563,
+              "text": "version: 1\n  created_at: '2026-09-13'\n- source: 4CH1-CON-BOND-ENERGY-CALC\n  relation: REQUIRES_PREREQUISITE\n  target: 4CH1-CON-BOND-BREAKING-MAKING\n  evidence:\n  - kind: NOTE\n    file: Chemistry IGCSE Revision Notes/3. Physical Chemistry/a. Energetics/What is bond energy - IGCSE\n      Chemistry Revision Notes.md\n    quote: This is the amount of energy required to break the bond or the amount of energy given out when\n      the bond is formed\n  provenance:\n    tier: AI_SUGGESTED\n    model_version: GLM (Super Z agent, z.ai)\n    extraction_pass: c11-s16-batch-4"
+            },
+            {
+              "locator": "lines 8146-8160",
+              "chars": 649,
+              "text": "version: 1\n  created_at: '2026-09-13'\n- source: 4CH1-CON-BOND-ENERGY-CALC\n  relation: REQUIRES_PREREQUISITE\n  target: 4CH1-CON-COVALENT-BOND\n  evidence:\n  - kind: NOTE\n    file: Chemistry IGCSE Revision Notes/3. Physical Chemistry/a. Energetics/What is bond energy - IGCSE\n      Chemistry Revision Notes.md\n    quote: Each chemical bond has a specific bond energy associated with it\n  - kind: NOTE\n    file: Chemistry IGCSE Revision Notes/3. Physical Chemistry/a. Energetics/What is bond energy - IGCSE\n      Chemistry Revision Notes.md\n    quote: To do this it is necessary to know the bonds present in both the reactants and products\n  provenance:"
+            },
+            {
+              "locator": "lines 8890-8904",
+              "chars": 658,
+              "text": "version: 1\n  created_at: '2026-09-24'\n- source: 4CH1-CON-CRUDE-OIL-FRACTIONS\n  relation: REQUIRES_PREREQUISITE\n  target: 4CH1-CON-CRUDE-OIL\n  evidence:\n  - file: Chemistry IGCSE Revision Notes/4. Organic Chemistry/b. Crude Oil/Fractional distillation - IGCSE\n      Chemistry Revision Notes.md\n    kind: NOTE\n    quote: Crude oil as a mixture is not a very useful substance\n  - file: Chemistry IGCSE Revision Notes/4. Organic Chemistry/b. Crude Oil/Fractional distillation - IGCSE\n      Chemistry Revision Notes.md\n    kind: NOTE\n    quote: The fractions in petroleum are separated from each other in a process called **fractional distillation**\n  provenance:"
+            },
+            {
+              "locator": "lines 8918-8932",
+              "chars": 712,
+              "text": "version: 1\n  created_at: '2026-09-24'\n- source: 4CH1-CON-CRUDE-OIL-FRACTIONS\n  relation: REQUIRES_PREREQUISITE\n  target: 4CH1-CON-FRACTIONAL-DISTILLATION\n  evidence:\n  - file: Chemistry IGCSE Revision Notes/4. Organic Chemistry/b. Crude Oil/Fractional distillation - IGCSE\n      Chemistry Revision Notes.md\n    kind: NOTE\n    quote: The fractions in petroleum are separated from each other in a process called **fractional distillation**\n  - file: Chemistry IGCSE Revision Notes/4. Organic Chemistry/b. Crude Oil/Fractional distillation - IGCSE\n      Chemistry Revision Notes.md\n    kind: NOTE\n    quote: Fractional distillation is carried out in a **fractionating column** which has a temperature\n      gradient"
+            },
+            {
+              "locator": "lines 9801-9815",
+              "chars": 697,
+              "text": "version: 1\n  created_at: '2026-09-22'\n- source: 4CH1-CON-EXTRACTION-METHOD\n  relation: REQUIRES_PREREQUISITE\n  target: 4CH1-CON-ELECTROLYSIS\n  evidence:\n  - kind: NOTE\n    file: Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/e. Extraction & Uses of Metals/Extraction\n      of metals from ores - IGCSE Chemistry.md\n    quote: Instead, aluminium is extracted by electrolysis\n  - kind: NOTE\n    file: Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/e. Extraction & Uses of Metals/Extraction\n      of metals from ores - IGCSE Chemistry.md\n    quote: Higher placed metals (above carbon) have to be extracted using electrolysis as they are too\n      reactive and cannot be reduced by carbon"
+            },
+            {
+              "locator": "lines 9834-9848",
+              "chars": 677,
+              "text": "version: 1\n  created_at: '2026-09-22'\n- source: 4CH1-CON-EXTRACTION-METHOD\n  relation: REQUIRES_PREREQUISITE\n  target: 4CH1-CON-OX-RED-AGENTS\n  evidence:\n  - kind: NOTE\n    file: Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/e. Extraction & Uses of Metals/Extraction\n      of metals from ores - IGCSE Chemistry.md\n    quote: Lower placed metals can be extracted by heating with carbon which reduces them\n  - kind: NOTE\n    file: Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/e. Extraction & Uses of Metals/Extraction\n      of metals from ores - IGCSE Chemistry.md\n    quote: Carbon monoxide reduces the iron(III) oxide in the iron ore to form iron\n  provenance:"
+            },
+            {
+              "locator": "lines 9864-9878",
+              "chars": 583,
+              "text": "version: 1\n  created_at: '2026-09-22'\n- source: 4CH1-CON-EXTRACTION-METHOD\n  relation: REQUIRES_PREREQUISITE\n  target: 4CH1-CON-REACT-ORDER\n  evidence:\n  - kind: NOTE\n    file: Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/e. Extraction & Uses of Metals/Extraction\n      of metals from ores - IGCSE Chemistry.md\n    quote: The position of the metal on the reactivity series determines the method of extraction\n  provenance:\n    tier: AI_SUGGESTED\n    model_version: GLM (Super Z agent, z.ai)\n    extraction_pass: c11-s16-batch-6\n    derivation_method: DEFINITIONAL_DEPENDENCY"
+            },
+            {
+              "locator": "lines 10200-10214",
+              "chars": 560,
+              "text": "version: 1\n  created_at: '2026-09-22'\n- source: 4CH1-CON-G7-REACTIVITY-ECONFIG\n  relation: REQUIRES_PREREQUISITE\n  target: 4CH1-CON-ELECTRONIC-CONFIGURATION\n  evidence:\n  - kind: NOTE\n    file: Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/b. Group 7 (Halogens)/Group 7 reactivity\n      - IGCSE Chemistry Revision Notes.md\n    quote: We can use electronic configuration to explain the trends in chemical reactivity down Group\n      7\n  provenance:\n    tier: AI_SUGGESTED\n    model_version: GLM (Super Z agent, z.ai)\n    extraction_pass: c11-s16-batch-5"
+            },
+            {
+              "locator": "lines 13028-13042",
+              "chars": 623,
+              "text": "created_at: '2026-09-25'\n- source: 4CH1-CON-AIR-COMPOSITION\n  relation: EXPLAINED_BY\n  target: 4CH1-CON-O2-PERCENT-DETERMINATION\n  evidence:\n  - kind: NOTE\n    file: Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/c. Gases in the Atmosphere/Oxygen percentage\n      in air - IGCSE Chemistry Revision Notes.md\n    quote: percentage of oxygen = 19.7%\n  - kind: NOTE\n    file: Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/c. Gases in the Atmosphere/Oxygen percentage\n      in air - IGCSE Chemistry Revision Notes.md\n    quote: The oxygen takes up approximately 20% of the air\n  provenance:\n    tier: AI_SUGGESTED"
+            },
+            {
+              "locator": "lines 13059-13073",
+              "chars": 688,
+              "text": "created_at: '2026-09-22'\n- source: 4CH1-CON-CRYSTALLISATION\n  relation: EXPLAINED_BY\n  target: 4CH1-CON-SOLUBILITY\n  evidence:\n  - kind: NOTE\n    file: Chemistry IGCSE Revision Notes/1. Principles of Chemistry/b. Elements, Compounds and Mixtures/Separation\n      techniques - IGCSE Chemistry Revision Notes.md\n    quote: Crystals begin to grow as solids will come out of solution due to decreasing solubility\n  provenance:\n    tier: AI_SUGGESTED\n    model_version: GLM (Super Z agent, z.ai)\n    extraction_pass: c11-s16-batch-1\n    derivation_method: SINGLE_SOURCE_CAUSAL_TEACHING\n    derivation_notes: The note explains WHY crystals grow on cooling CAUSALLY by the solubility-temperature"
+            },
+            {
+              "locator": "lines 13084-13098",
+              "chars": 662,
+              "text": "created_at: '2026-09-12'\n- source: 4CH1-CON-DIFFUSION\n  relation: EXPLAINED_BY\n  target: 4CH1-CON-STATE-PARTICLE-MODEL\n  evidence:\n  - kind: NOTE\n    file: Chemistry IGCSE Revision Notes/1. Principles of Chemistry/a. States of Matter/Diffusion - IGCSE\n      Chemistry Revision Notes.md\n    quote: Diffusion occurs in gases and liquids, due to the random motion of their particles\n  provenance:\n    tier: AI_SUGGESTED\n    model_version: GLM (Super Z agent, z.ai)\n    extraction_pass: c11-s16-batch-1\n    derivation_method: SINGLE_SOURCE_CAUSAL_TEACHING\n    derivation_notes: 'The note explains diffusion CAUSALLY by particle behavior (\"due to the random motion\"):"
+            },
+            {
+              "locator": "lines 13108-13122",
+              "chars": 616,
+              "text": "created_at: '2026-09-12'\n- source: 4CH1-CON-DILUTION\n  relation: EXPLAINED_BY\n  target: 4CH1-CON-STATE-PARTICLE-MODEL\n  evidence:\n  - kind: NOTE\n    file: Chemistry IGCSE Revision Notes/1. Principles of Chemistry/a. States of Matter/Diffusion - IGCSE\n      Chemistry Revision Notes.md\n    quote: This indicates that there are a lot of particles in a small amount of potassium manganate (VII)\n      and therefore the particles must be very small\n  provenance:\n    tier: AI_SUGGESTED\n    model_version: GLM (Super Z agent, z.ai)\n    extraction_pass: c11-s16-batch-1\n    derivation_method: SINGLE_SOURCE_CAUSAL_TEACHING"
+            },
+            {
+              "locator": "lines 13133-13147",
+              "chars": 627,
+              "text": "created_at: '2026-09-12'\n- source: 4CH1-CON-EQ-SYMBOL\n  relation: EXPLAINED_BY\n  target: 4CH1-CON-CONSERVATION-MASS\n  evidence:\n  - kind: NOTE\n    file: Chemistry IGCSE Revision Notes/1. Principles of Chemistry/e. Chemical Formulae, Equations, Calculations/Writing\n      chemical equations - IGCSE Chemistry Revision Notes.md\n    quote: The Law of Conservation of Mass enables us to balance chemical equations, since no atoms can\n      be lost or created\n  provenance:\n    tier: AI_SUGGESTED\n    model_version: GLM (Super Z agent, z.ai)\n    extraction_pass: c11-pilot-pass-1\n    derivation_method: SINGLE_SOURCE_CAUSAL_TEACHING"
+            },
+            {
+              "locator": "lines 13158-13172",
+              "chars": 772,
+              "text": "created_at: '2026-09-11'\n- source: 4CH1-CON-G1-TREND\n  relation: EXPLAINED_BY\n  target: 4CH1-CON-G1-REACTIVITY-ECONFIG\n  evidence:\n  - kind: NOTE\n    file: Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/a. Group 1 (Alkali Metals)/Group 1 Reactivity\n      & Electronic Configurations  Edexcel IGCSE Chemistry Revision Notes 2017.md\n    quote: Less energy is required to overcome the force of attraction as it gets weaker, so the outer\n      electron is lost more easily\n  - kind: NOTE\n    file: Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/a. Group 1 (Alkali Metals)/Group 1 Reactivity\n      & Electronic Configurations  Edexcel IGCSE Chemistry Revision Notes 2017.md\n    quote: So, the alkali metals get more reactive as you descend the group\n  provenance:"
+            },
+            {
+              "locator": "lines 13189-13203",
+              "chars": 721,
+              "text": "created_at: '2026-09-22'\n- source: 4CH1-CON-GROUP-SIMILARITY\n  relation: EXPLAINED_BY\n  target: 4CH1-CON-ELECTRONIC-CONFIGURATION\n  evidence:\n  - kind: NOTE\n    file: Chemistry IGCSE Revision Notes/1. Principles of Chemistry/d. The Periodic Table/Electronic Configuration\n      & Reactivity  Edexcel IGCSE Chemistry Revision Notes 2017.md\n    quote: This is because they have the same number of outer electrons so will react and bond similarly\n  provenance:\n    tier: AI_SUGGESTED\n    model_version: GLM (Super Z agent, z.ai)\n    extraction_pass: c11-s16-batch-2\n    derivation_method: SINGLE_SOURCE_CAUSAL_TEACHING\n    derivation_notes: The 1.23 \"understand WHY\" demand with an explicit causal sentence (\"This is because"
+            },
+            {
+              "locator": "lines 13214-13228",
+              "chars": 674,
+              "text": "created_at: '2026-09-12'\n- source: 4CH1-CON-METAL-PROPERTIES\n  relation: EXPLAINED_BY\n  target: 4CH1-CON-METALLIC-BOND\n  evidence:\n  - kind: NOTE\n    file: Chemistry IGCSE Revision Notes/1. Principles of Chemistry/h. Metallic Bonding/Metallic bonding\n      - IGCSE Chemistry Revision Notes.md\n    quote: This is because the atoms/ions are arranged in layers which can slide over each other when\n      a force is applied\n  - kind: NOTE\n    file: Chemistry IGCSE Revision Notes/1. Principles of Chemistry/h. Metallic Bonding/Metallic bonding\n      - IGCSE Chemistry Revision Notes.md\n    quote: There are delocalised electrons available to move and carry charge\n  - kind: NOTE"
+            },
+            {
+              "locator": "lines 13251-13265",
+              "chars": 677,
+              "text": "created_at: '2026-09-12'\n- source: 4CH1-CON-MOLAR-GAS-VOL\n  relation: EXPLAINED_BY\n  target: 4CH1-CON-AVOGADRO-LAW\n  evidence:\n  - kind: NOTE\n    file: Chemistry IGCSE Revision Notes/1. Principles of Chemistry/e. Chemical Formulae, Equations, Calculations/Calculate\n      Gas Volumes - IGCSE Chemistry Revision Notes.md\n    quote: From the molar gas volume the following formula triangle can be derived\n  provenance:\n    tier: AI_SUGGESTED\n    model_version: GLM (Super Z agent, z.ai)\n    extraction_pass: c11-pilot-pass-1\n    derivation_method: SINGLE_SOURCE_CAUSAL_TEACHING\n    derivation_notes: 'The same note section teaches the law (\"equal amounts of gases occupy the same"
+            },
+            {
+              "locator": "lines 13275-13289",
+              "chars": 711,
+              "text": "created_at: '2026-09-11'\n- source: 4CH1-CON-NOBLE-GAS-INERTNESS\n  relation: EXPLAINED_BY\n  target: 4CH1-CON-ELECTRONIC-CONFIGURATION\n  evidence:\n  - kind: NOTE\n    file: Chemistry IGCSE Revision Notes/1. Principles of Chemistry/d. The Periodic Table/Electronic Configuration\n      & Reactivity  Edexcel IGCSE Chemistry Revision Notes 2017.md\n    quote: Group 0 elements do not do this because they have full outer shells of electrons\n  provenance:\n    tier: AI_SUGGESTED\n    model_version: GLM (Super Z agent, z.ai)\n    extraction_pass: c11-s16-batch-2\n    derivation_method: SINGLE_SOURCE_CAUSAL_TEACHING\n    derivation_notes: The 1.24 \"understand why\" demand with an explicit causal sentence (\"...because they"
+            },
+            {
+              "locator": "lines 13299-13313",
+              "chars": 705,
+              "text": "created_at: '2026-09-12'\n- source: 4CH1-CON-RATE-FACTORS\n  relation: EXPLAINED_BY\n  target: 4CH1-CON-COLLISION-THEORY\n  evidence:\n  - kind: NOTE\n    file: Chemistry IGCSE Revision Notes/3. Physical Chemistry/b. Rates of Reaction/Explaining Rates  Edexcel\n      IGCSE Chemistry Revision Notes 2017.md\n    quote: We can use collision theory to explain why these factors influence the reaction rate\n  - kind: NOTE\n    file: Chemistry IGCSE Revision Notes/3. Physical Chemistry/b. Rates of Reaction/Explaining Rates  Edexcel\n      IGCSE Chemistry Revision Notes 2017.md\n    quote: Increasing the concentration means that there are more reactant particles in a given volume\n  provenance:\n    tier: AI_SUGGESTED"
+            },
+            {
+              "locator": "lines 13330-13344",
+              "chars": 689,
+              "text": "created_at: '2026-09-13'\n- source: 4CH1-CON-YIELD\n  relation: EXPLAINED_BY\n  target: 4CH1-CON-YIELD-FACTORS\n  evidence:\n  - kind: NOTE\n    file: Chemistry IGCSE Revision Notes/1. Principles of Chemistry/e. Chemical Formulae, Equations, Calculations/Calculate\n      percentage yield - IGCSE Chemistry Revision Notes.md\n    quote: In practice, you never get 100% yield in a chemical process for several reasons\n  provenance:\n    tier: AI_SUGGESTED\n    model_version: GLM (Super Z agent, z.ai)\n    extraction_pass: c11-pilot-pass-1\n    derivation_method: SINGLE_SOURCE_CAUSAL_TEACHING\n    derivation_notes: 'Single anchor teaches the explanation of the actual-yield shortfall (five enumerated"
+            },
+            {
+              "locator": "lines 13354-13368",
+              "chars": 617,
+              "text": "created_at: '2026-09-11'\n- source: 4CH1-CON-DIAMOND-GRAPHITE\n  relation: RELATED_TO\n  target: 4CH1-CON-SIMPLE-MOLECULAR\n  evidence:\n  - kind: NOTE\n    file: Chemistry IGCSE Revision Notes/1. Principles of Chemistry/g. Covalent Bonding/Simple molecular\n      structures - IGCSE Chemistry Revision Notes.md\n    quote: C60 is a simple molecular structure\n  provenance:\n    tier: AI_SUGGESTED\n    model_version: GLM (Super Z agent, z.ai)\n    extraction_pass: c11-s16-batch-3\n    derivation_method: RELATED_RESIDUAL\n    derivation_notes: 'The 1.50 allotrope set spans BOTH structure classes: diamond and graphite are giant"
+            },
+            {
+              "locator": "lines 13388-13402",
+              "chars": 701,
+              "text": "created_at: '2026-09-12'\n- source: 4CH1-CON-FLAME-TEST\n  relation: RELATED_TO\n  target: 4CH1-CON-CATION-TESTS\n  evidence:\n  - file: Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/h. Chemical Tests/Flame tests - IGCSE\n      Chemistry Revision Notes.md\n    kind: NOTE\n    quote: The flame test is used to identify the positive metal ion (cations) by the colour of the flame\n      they produce\n  - file: Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/h. Chemical Tests/Tests for cations -\n      IGCSE Chemistry Revision Notes.md\n    kind: NOTE\n    quote: Metal cations in aqueous solution can be identified by the colour of the precipitate formed\n      when sodium hydroxide (NaOH) is added"
+            },
+            {
+              "locator": "lines 13428-13442",
+              "chars": 614,
+              "text": "created_at: '2026-09-24'\n- source: 4CH1-CON-ATOMIC-NUMBER\n  relation: COMMONLY_CONFUSED_WITH\n  target: 4CH1-CON-MASS-NUMBER\n  evidence:\n  - kind: NOTE\n    file: Chemistry IGCSE Revision Notes/1. Principles of Chemistry/c. Atomic Structure/Atoms Definitions\n      & Structure  Edexcel IGCSE Chemistry Revision Notes 2017.md\n    quote: Both the atomic number and the mass number are given on the Periodic Table, but it can be easy\n      to confuse them\n  provenance:\n    tier: AI_SUGGESTED\n    model_version: GLM (Super Z agent, z.ai)\n    extraction_pass: c11-s16-batch-2\n    derivation_method: EXAMINER_TIP_EXPLICIT"
+            },
+            {
+              "locator": "lines 13461-13475",
+              "chars": 677,
+              "text": "created_at: '2026-09-12'\n- source: 4CH1-CON-IONIC-BOND\n  relation: COMMONLY_CONFUSED_WITH\n  target: 4CH1-CON-COVALENT-BOND\n  evidence:\n  - kind: NOTE\n    file: Chemistry IGCSE Revision Notes/1. Principles of Chemistry/g. Covalent Bonding/Forming covalent\n      bonds - IGCSE Chemistry Revision Notes.md\n    quote: A key difference between covalent bonds and ionic bonds is that in covalent bonds the electrons\n      are shared between the atoms, they are not transferred (donated or gained) and no ions are formed\n  provenance:\n    tier: AI_SUGGESTED\n    model_version: GLM (Super Z agent, z.ai)\n    extraction_pass: c11-s16-batch-3\n    derivation_method: EXAMINER_TIP_EXPLICIT"
+            },
+            {
+              "locator": "lines 13499-13513",
+              "chars": 636,
+              "text": "created_at: '2026-09-12'\n- source: 4CH1-MIS-EQ-SUBSCRIPT\n  relation: MISCONCEPTION_OF\n  target: 4CH1-CON-EQ-SYMBOL\n  evidence:\n  - kind: NOTE\n    file: Chemistry IGCSE Revision Notes/1. Principles of Chemistry/e. Chemical Formulae, Equations, Calculations/Writing\n      chemical equations - IGCSE Chemistry Revision Notes.md\n    quote: A common mistake when balancing symbol equations is to add, change or remove small numbers\n      in the chemical formula of a substance\n  provenance:\n    tier: AI_SUGGESTED\n    model_version: GLM (Super Z agent, z.ai)\n    extraction_pass: c11-pilot-pass-1\n    derivation_method: EXAMINER_TIP_EXPLICIT"
+            },
+            {
+              "locator": "lines 13524-13538",
+              "chars": 652,
+              "text": "created_at: '2026-09-11'\n- source: 4CH1-MIS-IONIC-CONDUCTION-ELECTRONS\n  relation: MISCONCEPTION_OF\n  target: 4CH1-CON-IONIC-CONDUCTION\n  evidence:\n  - kind: NOTE\n    file: Chemistry IGCSE Revision Notes/1. Principles of Chemistry/f. Ionic Bonding/Ionic bonding and\n      lattices - IGCSE Chemistry Revision Notes.md\n    quote: A common mistake students make in exams is to say that ionic compounds conduct electricity\n      because 'electrons' move and carry a charge, when they should say the ions can move and carry a\n      charge\n  provenance:\n    tier: AI_SUGGESTED\n    model_version: GLM (Super Z agent, z.ai)\n    extraction_pass: c11-s16-batch-3"
+            },
+            {
+              "locator": "lines 13549-13563",
+              "chars": 592,
+              "text": "created_at: '2026-09-12'\n- source: 4CH1-MIS-BOND-ENERGY-COUNT\n  relation: WRONG_ANSWER_PATTERN\n  target: 4CH1-CON-BOND-ENERGY-CALC\n  evidence:\n  - kind: MARK_SCHEME\n    file: scripts/c11_evidence/ENERGETICS_MS_P2.txt\n    quote: Deduct 1 mark for each mistake\n  - kind: NOTE\n    file: Chemistry IGCSE Revision Notes/3. Physical Chemistry/a. Energetics/What is bond energy - IGCSE\n      Chemistry Revision Notes.md\n    quote: Don't forget to take into account the balancing numbers when working out how many of each type\n      of bond is being broken/formed\n  provenance:\n    tier: AI_SUGGESTED"
+            },
+            {
+              "locator": "lines 13579-13593",
+              "chars": 566,
+              "text": "created_at: '2026-09-13'\n- source: 4CH1-MIS-CATALYST-PARTICLE-ENERGY\n  relation: WRONG_ANSWER_PATTERN\n  target: 4CH1-CON-CATALYST\n  evidence:\n  - kind: MARK_SCHEME\n    file: scripts/c11_evidence/RATES_MS_P2.txt\n    quote: MAX 1 if any reference to particles gaining energy or moving more quickly\n  - kind: MARK_SCHEME\n    file: scripts/c11_evidence/RRE_MS_P2.txt\n    quote: MAX 1 if any reference to particles gaining energy or moving more quickly\n  provenance:\n    tier: AI_SUGGESTED\n    model_version: GLM (Super Z agent, z.ai)\n    extraction_pass: c11-s16-batch-4"
+            },
+            {
+              "locator": "lines 13606-13620",
+              "chars": 650,
+              "text": "created_at: '2026-09-13'\n- source: 4CH1-MIS-CONC-UNIT\n  relation: WRONG_ANSWER_PATTERN\n  target: 4CH1-CON-CONC-CALC\n  evidence:\n  - kind: MARK_SCHEME\n    file: scripts/c11_evidence/CFEC2_MS_P1.txt\n    quote: an answer of 10(.0) for 1 mark (i.e. failing to divide by 1000)\n  provenance:\n    tier: AI_SUGGESTED\n    model_version: GLM (Super Z agent, z.ai)\n    extraction_pass: c11-pilot-pass-1\n    derivation_method: ASSESSMENT_DOCUMENTED\n    derivation_notes: 'The pattern manifests in concentration-calculation question contexts (MS Q4: 0.096/24\n      with (25 x 0.4)/1000 — an amount-from-concentration question); kept distinct from MISCONCEPTION_OF"
+            },
+            {
+              "locator": "lines 13630-13644",
+              "chars": 657,
+              "text": "created_at: '2026-09-11'\n- source: 4CH1-MIS-COVALENT-BONDS-BROKEN\n  relation: WRONG_ANSWER_PATTERN\n  target: 4CH1-CON-SIMPLE-MOLECULAR\n  evidence:\n  - kind: MARK_SCHEME\n    file: scripts/c11_evidence/COVALENT_MS_P2.txt\n    quote: Any reference to bonds between molecules\n  provenance:\n    tier: AI_SUGGESTED\n    model_version: GLM (Super Z agent, z.ai)\n    extraction_pass: c11-s16-batch-3\n    derivation_method: ASSESSMENT_DOCUMENTED\n    derivation_notes: The wrong answer manifests in simple-molecular melting/boiling question contexts\n      (the Q1(d) fullerene-vs-diamond comparison rejects bonds-between-molecules answers and caps covalent-bonds-broken"
+            },
+            {
+              "locator": "lines 13654-13668",
+              "chars": 668,
+              "text": "created_at: '2026-09-12'\n- source: 4CH1-MIS-CRYSTALLISATION-DRYNESS\n  relation: WRONG_ANSWER_PATTERN\n  target: 4CH1-CON-CRYSTALLISATION\n  evidence:\n  - kind: MARK_SCHEME\n    file: scripts/c11_evidence/ECM2_MS_P1.txt\n    quote: If evaporated to dryness then award no marks for whole question\n  provenance:\n    tier: AI_SUGGESTED\n    model_version: GLM (Super Z agent, z.ai)\n    extraction_pass: c11-s16-batch-1\n    derivation_method: ASSESSMENT_DOCUMENTED\n    derivation_notes: 'The wrong answer is documented against the 1.10/1.7C-class crystallisation method\n      question (ECM2 MS Q1(d) — salt-from-solution preparation): evaporating to dryness zeroes the question;"
+            },
+            {
+              "locator": "lines 13678-13692",
+              "chars": 626,
+              "text": "created_at: '2026-09-12'\n- source: 4CH1-MIS-CUO-COLOUR\n  relation: WRONG_ANSWER_PATTERN\n  target: 4CH1-CON-CO2-FROM-CARBONATES\n  evidence:\n  - kind: MARK_SCHEME\n    file: scripts/c11_evidence/GASES_MS_P2.txt\n    quote: REJECT all other colours\n  provenance:\n    tier: AI_SUGGESTED\n    model_version: GLM (Super Z agent, z.ai)\n    extraction_pass: c11-s16-batch-5\n    derivation_method: ASSESSMENT_DOCUMENTED\n    derivation_notes: 'The pinned GASES MS Q1c documents the wrong-answer pattern OF the carbonate-decomposition\n      concept''s named example: any colour other than black for the CuO product is rejected (IGNORE brown"
+            },
+            {
+              "locator": "lines 13701-13715",
+              "chars": 545,
+              "text": "created_at: '2026-09-22'\n- source: 4CH1-MIS-ENDPOINT-PH-ABOVE-7\n  relation: WRONG_ANSWER_PATTERN\n  target: 4CH1-CON-NEUTRALISATION\n  evidence:\n  - file: scripts/c11_evidence/ACIDS_ALKALIS_TITRATIONS_MS_P2.txt\n    kind: MARK_SCHEME\n    quote: Reject changing to any pH value > 7\n  - file: scripts/c11_evidence/ACIDS_ALKALIS_TITRATIONS_MS_P2.txt\n    kind: MARK_SCHEME\n    quote: temperature goes down/stops rising/stays constant\n  provenance:\n    tier: AI_SUGGESTED\n    model_version: GLM (Super Z agent, z.ai)\n    extraction_pass: c11-s16-batch-7"
+            },
+            {
+              "locator": "lines 13729-13743",
+              "chars": 517,
+              "text": "created_at: '2026-09-23'\n- source: 4CH1-MIS-ENTHALPY-UNIT-J\n  relation: WRONG_ANSWER_PATTERN\n  target: 4CH1-CON-MOLAR-ENTHALPY\n  evidence:\n  - kind: MARK_SCHEME\n    file: scripts/c11_evidence/ENERGETICS_MS_P2.txt\n    quote: Award 1 mark for 50 000\n  - kind: MARK_SCHEME\n    file: scripts/c11_evidence/ENERGETICS_MS_P2.txt\n    quote: Award 2 marks for 50 000 if units changed to J/mol on answer line\n  provenance:\n    tier: AI_SUGGESTED\n    model_version: GLM (Super Z agent, z.ai)\n    extraction_pass: c11-s16-batch-4"
+            },
+            {
+              "locator": "lines 13756-13770",
+              "chars": 641,
+              "text": "created_at: '2026-09-13'\n- source: 4CH1-MIS-EQ-PRESSURE-FEWER\n  relation: WRONG_ANSWER_PATTERN\n  target: 4CH1-CON-EQ-POSITION\n  evidence:\n  - kind: MARK_SCHEME\n    file: scripts/c11_evidence/RRE_MS_P2.txt\n    quote: shifts to the side with fewer (gas) moles/molecules\n  provenance:\n    tier: AI_SUGGESTED\n    model_version: GLM (Super Z agent, z.ai)\n    extraction_pass: c11-s16-batch-4\n    derivation_method: ASSESSMENT_DOCUMENTED\n    derivation_notes: 'The wrong answer manifests in equilibrium-shift question contexts (the pinned RRE\n      Paper-2 MS rejects \"shifts to the side with fewer (gas) moles/molecules\" on the pressure question)"
+            },
+            {
+              "locator": "lines 13782-13796",
+              "chars": 613,
+              "text": "created_at: '2026-09-13'\n- source: 4CH1-MIS-EQ-TEMP-EXO\n  relation: WRONG_ANSWER_PATTERN\n  target: 4CH1-CON-EQ-POSITION\n  evidence:\n  - kind: MARK_SCHEME\n    file: scripts/c11_evidence/RRE_MS_P2.txt\n    quote: moves in the exothermic direction\n  provenance:\n    tier: AI_SUGGESTED\n    model_version: GLM (Super Z agent, z.ai)\n    extraction_pass: c11-s16-batch-4\n    derivation_method: ASSESSMENT_DOCUMENTED\n    derivation_notes: The wrong answer manifests in equilibrium-shift question contexts (the pinned RRE\n      Paper-2 MS rejects \"moves in the exothermic direction\" on the temperature question — its Accept"
+            },
+            {
+              "locator": "lines 13806-13820",
+              "chars": 664,
+              "text": "created_at: '2026-09-13'\n- source: 4CH1-MIS-G1-SHELL-EXPLANATION\n  relation: WRONG_ANSWER_PATTERN\n  target: 4CH1-CON-G1-REACTIVITY-ECONFIG\n  evidence:\n  - kind: MARK_SCHEME\n    file: scripts/c11_evidence/GROUP1_MS_P2.txt\n    quote: IGNORE references to more shells / larger atomic radius / more\n  provenance:\n    tier: AI_SUGGESTED\n    model_version: GLM (Super Z agent, z.ai)\n    extraction_pass: c11-s16-batch-5\n    derivation_method: ASSESSMENT_DOCUMENTED\n    derivation_notes: 'The pinned GROUP1 MS documents the wrong-answer pattern OF the 2.4C explanation\n      concept: shell-count/larger-radius/shielding explanations are explicitly non-scoring (Q1d IGNORE"
+            },
+            {
+              "locator": "lines 13829-13843",
+              "chars": 633,
+              "text": "created_at: '2026-09-22'\n- source: 4CH1-MIS-GAS-PARTICLES-TOUCH\n  relation: WRONG_ANSWER_PATTERN\n  target: 4CH1-CON-STATE-PARTICLE-MODEL\n  evidence:\n  - kind: MARK_SCHEME\n    file: scripts/c11_evidence/SOM_MS_P1.txt\n    quote: Reject any touching circles\n  provenance:\n    tier: AI_SUGGESTED\n    model_version: GLM (Super Z agent, z.ai)\n    extraction_pass: c11-s16-batch-1\n    derivation_method: ASSESSMENT_DOCUMENTED\n    derivation_notes: 'The wrong answer is documented against the 1.1-assessed drawing task (particles\n      in a gas): SOM MS Q3(a)(i) and Q4(a) both reject touching/bonded circles; the concept whose understanding"
+            },
+            {
+              "locator": "lines 13853-13867",
+              "chars": 541,
+              "text": "created_at: '2026-09-12'\n- source: 4CH1-MIS-GLOWING-SPLINT-HYDROGEN\n  relation: WRONG_ANSWER_PATTERN\n  target: 4CH1-CON-GAS-TESTS\n  evidence:\n  - file: scripts/c11_evidence/CHEMICAL_TESTS_MS_P2.txt\n    kind: MARK_SCHEME\n    quote: Reject reference to glowing splint\n  - file: scripts/c11_evidence/CHEMICAL_TESTS_MS_P2.txt\n    kind: MARK_SCHEME\n    quote: Reference to splint/match with no indication of flame is not enough\n  provenance:\n    tier: AI_SUGGESTED\n    model_version: GLM (Super Z agent, z.ai)\n    extraction_pass: c11-s16-batch-8"
+            },
+            {
+              "locator": "lines 13879-13893",
+              "chars": 669,
+              "text": "created_at: '2026-09-24'\n- source: 4CH1-MIS-GRAPHITE-LAYER-BONDS\n  relation: WRONG_ANSWER_PATTERN\n  target: 4CH1-CON-DIAMOND-GRAPHITE\n  evidence:\n  - kind: MARK_SCHEME\n    file: scripts/c11_evidence/COVALENT_MS_P2.txt\n    quote: Any reference to bonds between layers / molecules\n  provenance:\n    tier: AI_SUGGESTED\n    model_version: GLM (Super Z agent, z.ai)\n    extraction_pass: c11-s16-batch-3\n    derivation_method: ASSESSMENT_DOCUMENTED\n    derivation_notes: The wrong answer manifests in graphite-property question contexts (the Q1(b) why-is-graphite-soft\n      question rejects bonds-between-layers answers) — the pattern corrupts the 1.50 graphite explanation."
+            },
+            {
+              "locator": "lines 13902-13916",
+              "chars": 491,
+              "text": "created_at: '2026-09-12'\n- source: 4CH1-MIS-HALIDE-TEST-HCL\n  relation: WRONG_ANSWER_PATTERN\n  target: 4CH1-CON-ANION-TESTS\n  evidence:\n  - file: scripts/c11_evidence/CHEMICAL_TESTS_MS_P2.txt\n    kind: MARK_SCHEME\n    quote: Reject hydrochloric acid / HCl\n  - file: scripts/c11_evidence/CHEMICAL_TESTS_MS_P2.txt\n    kind: MARK_SCHEME\n    quote: (dilute) nitric acid / HNO3\n  provenance:\n    tier: AI_SUGGESTED\n    model_version: GLM (Super Z agent, z.ai)\n    extraction_pass: c11-s16-batch-8"
+            },
+            {
+              "locator": "lines 13928-13942",
+              "chars": 625,
+              "text": "created_at: '2026-09-24'\n- source: 4CH1-MIS-HALOGEN-HALIDE\n  relation: WRONG_ANSWER_PATTERN\n  target: 4CH1-CON-G7-DISPLACEMENT\n  evidence:\n  - kind: MARK_SCHEME\n    file: scripts/c11_evidence/GROUP7_MS_P2.txt\n    quote: Reject any references to a halogen\n  provenance:\n    tier: AI_SUGGESTED\n    model_version: GLM (Super Z agent, z.ai)\n    extraction_pass: c11-s16-batch-5\n    derivation_method: ASSESSMENT_DOCUMENTED\n    derivation_notes: 'The pinned GROUP7 MS Q1bii Reject column documents the wrong-answer pattern OF\n      the displacement concept: reasoning about a halogen''s reactivity relative to a HALIDE ION (either"
+            },
+            {
+              "locator": "lines 13952-13966",
+              "chars": 516,
+              "text": "created_at: '2026-09-22'\n- source: 4CH1-MIS-ION-OXIDE-REASONING\n  relation: WRONG_ANSWER_PATTERN\n  target: 4CH1-CON-METAL-DISPLACEMENT\n  evidence:\n  - kind: MARK_SCHEME\n    file: scripts/c11_evidence/REACTIVITY_MS_P2.txt\n    quote: Reject references to ions and oxides\n  - kind: MARK_SCHEME\n    file: scripts/c11_evidence/REACTIVITY_MS_P2.txt\n    quote: (it/iron is) less reactive (than aluminium)\n  provenance:\n    tier: AI_SUGGESTED\n    model_version: GLM (Super Z agent, z.ai)\n    extraction_pass: c11-s16-batch-6"
+            },
+            {
+              "locator": "lines 13978-13992",
+              "chars": 684,
+              "text": "created_at: '2026-09-22'\n- source: 4CH1-MIS-IONIC-BOND-ATOMS\n  relation: WRONG_ANSWER_PATTERN\n  target: 4CH1-CON-IONIC-BOND\n  evidence:\n  - kind: MARK_SCHEME\n    file: scripts/c11_evidence/IONIC_MS_P2.txt\n    quote: If any reference to attraction between atoms/molecul es/electrons scores 0/3\n  provenance:\n    tier: AI_SUGGESTED\n    model_version: GLM (Super Z agent, z.ai)\n    extraction_pass: c11-s16-batch-3\n    derivation_method: ASSESSMENT_DOCUMENTED\n    derivation_notes: The wrong answer manifests in ionic-bonding question contexts (the Q2(a)(iii) explain-high-mp\n      question zeroes atom/molecule/electron attraction answers; the Q1(a) REJECT column rejects intermolecular"
+            },
+            {
+              "locator": "lines 14002-14016",
+              "chars": 623,
+              "text": "created_at: '2026-09-12'\n- source: 4CH1-MIS-ISOTOPES-DIFFER-PROTONS\n  relation: WRONG_ANSWER_PATTERN\n  target: 4CH1-CON-ISOTOPES\n  evidence:\n  - kind: MARK_SCHEME\n    file: scripts/c11_evidence/ATOM2_MS_P1.txt\n    quote: different number of protons\n  provenance:\n    tier: AI_SUGGESTED\n    model_version: GLM (Super Z agent, z.ai)\n    extraction_pass: c11-s16-batch-2\n    derivation_method: ASSESSMENT_DOCUMENTED\n    derivation_notes: The wrong answer is documented against the isotope questions (ATOM2 MS Q1(b) REJECT\n      column — \"why the isotopes have the same chemical properties\"; ATOM3 MS Q1(a) documents \"different"
+            },
+            {
+              "locator": "lines 14027-14041",
+              "chars": 512,
+              "text": "created_at: '2026-09-12'\n- source: 4CH1-MIS-KEROSENE-DOUBLE-BONDS\n  relation: WRONG_ANSWER_PATTERN\n  target: 4CH1-CON-CRUDE-OIL-FRACTIONS\n  evidence:\n  - file: scripts/c11_evidence/CRUDE_OIL_MS_P2.txt\n    kind: MARK_SCHEME\n    quote: Reject references to double bonds in kerosene\n  - file: scripts/c11_evidence/CRUDE_OIL_MS_P2.txt\n    kind: MARK_SCHEME\n    quote: larger molecules in crude oil\n  provenance:\n    tier: AI_SUGGESTED\n    model_version: GLM (Super Z agent, z.ai)\n    extraction_pass: c11-s16-batch-9"
+            },
+            {
+              "locator": "lines 14053-14067",
+              "chars": 564,
+              "text": "created_at: '2026-09-24'\n- source: 4CH1-MIS-POLYMER-DOUBLE-BOND\n  relation: WRONG_ANSWER_PATTERN\n  target: 4CH1-CON-ADDITION-POLYMERS\n  evidence:\n  - file: scripts/c11_evidence/ALKENES_MS_P2.txt\n    kind: MARK_SCHEME\n    quote: Any double-bonded product scores 0/2\n  provenance:\n    tier: AI_SUGGESTED\n    model_version: GLM (Super Z agent, z.ai)\n    extraction_pass: c11-s16-batch-11\n    generated_date: '2026-09-25'\n    derivation_method: ASSESSMENT_DOCUMENTED\n    derivation_notes: the pinned Alkenes MS Q2(c) Reject column (dual-pinned as Synthetic Polymers MS"
+            },
+            {
+              "locator": "lines 14076-14090",
+              "chars": 568,
+              "text": "created_at: '2026-09-25'\n- source: 4CH1-MIS-PRECIPITATE-IN-FILTRATE\n  relation: WRONG_ANSWER_PATTERN\n  target: 4CH1-CON-SALT-PRECIPITATION\n  evidence:\n  - file: scripts/c11_evidence/ACIDS_BASES_SALT_PREP_MS_P2.txt\n    kind: MARK_SCHEME\n    quote: the filtrate does not contain lead(II) sulfate/the insoluble salt\n  - file: scripts/c11_evidence/ACIDS_BASES_SALT_PREP_MS_P2.txt\n    kind: MARK_SCHEME\n    quote: they would obtain sodium nitrate instead\n  provenance:\n    tier: AI_SUGGESTED\n    model_version: GLM (Super Z agent, z.ai)\n    extraction_pass: c11-s16-batch-7"
+            },
+            {
+              "locator": "lines 14103-14117",
+              "chars": 555,
+              "text": "created_at: '2026-09-23'\n- source: 4CH1-MIS-PROPANOL-POSITION\n  relation: WRONG_ANSWER_PATTERN\n  target: 4CH1-CON-ALCOHOLS\n  evidence:\n  - file: scripts/c11_evidence/ALKENES_MS_P2.txt\n    kind: MARK_SCHEME\n    quote: Reject propan-1-ol / 1-propanol\n  provenance:\n    tier: AI_SUGGESTED\n    model_version: GLM (Super Z agent, z.ai)\n    extraction_pass: c11-s16-batch-10\n    generated_date: '2026-09-25'\n    derivation_method: ASSESSMENT_DOCUMENTED\n    derivation_notes: the pinned Alkenes MS Q4(b)(ii) Reject column documents the wrong-answer class against"
+            },
+            {
+              "locator": "lines 14125-14139",
+              "chars": 592,
+              "text": "created_at: '2026-09-25'\n- source: 4CH1-MIS-RAM-MASS-NUMBER\n  relation: WRONG_ANSWER_PATTERN\n  target: 4CH1-CON-AR\n  evidence:\n  - kind: MARK_SCHEME\n    file: scripts/c11_evidence/PT_MS_P1.txt\n    quote: Reject mass number\n  provenance:\n    tier: AI_SUGGESTED\n    model_version: GLM (Super Z agent, z.ai)\n    extraction_pass: c11-s16-batch-2\n    derivation_method: ASSESSMENT_DOCUMENTED\n    derivation_notes: 'The wrong answer is documented against the Periodic Table reading question (PT\n      MS Q1(b): \"which number increases from 9 to 226 in Group 2?\" — expected \"(relative) atomic mass\","
+            },
+            {
+              "locator": "lines 14150-14164",
+              "chars": 752,
+              "text": "created_at: '2026-09-12'\n- source: 4CH1-MIS-BOND-ENERGY-COUNT\n  relation: REMEDIATED_BY\n  target: 4CH1-CON-BOND-ENERGY-CALC\n  evidence:\n  - kind: NOTE\n    file: Chemistry IGCSE Revision Notes/3. Physical Chemistry/a. Energetics/What is bond energy - IGCSE\n      Chemistry Revision Notes.md\n    quote: For bond energy questions, it is helpful to write down a displayed formula equation for the\n      reaction before identifying the type and number of bonds\n  - kind: NOTE\n    file: Chemistry IGCSE Revision Notes/3. Physical Chemistry/a. Energetics/What is bond energy - IGCSE\n      Chemistry Revision Notes.md\n    quote: Don't forget to take into account the balancing numbers when working out how many of each type\n      of bond is being broken/formed"
+            }
+          ]
+        },
+        {
+          "repo": "syllabai-resources",
+          "path": "graph/igcse-chemistry/concepts.yaml",
+          "sha256": "24fa91ac7149682b1083ff47112362a11180bcfb7899c1343c6f536682447e3f",
+          "excerpts": [
+            {
+              "locator": "lines 251-265",
+              "chars": 656,
+              "text": "generated: '2026-09-25'\n  provenance_default: AI_SUGGESTED\n  validation_gate: 'operator review (pilot: graph/reports/C11_PILOT_REVIEW_SHEET.md; batch 1: graph/reports/C11_BATCH1_REVIEW_SHEET.md;\n    batch 2: graph/reports/C11_BATCH2_REVIEW_SHEET.md) — no promotion from generation; HUMAN_VALIDATED\n    is operator-only'\n  edge_vocabulary: V2 knowledge_edges enum + COMMONLY_CONFUSED_WITH + WRONG_ANSWER_PATTERN (frozen §8A.11\n    triple distinction; V2 projection documented in C11_ARCHITECTURE.md §13)\n  counts:\n    nodes: 193\n    concepts: 167\n    misconceptions: 26\n    part_of_edges: 211\n    semantic_edges: 277\nnodes:\n- code: 4CH1-CON-ACID-ALKALI-IONS"
+            },
+            {
+              "locator": "lines 254-268",
+              "chars": 582,
+              "text": "batch 2: graph/reports/C11_BATCH2_REVIEW_SHEET.md) — no promotion from generation; HUMAN_VALIDATED\n    is operator-only'\n  edge_vocabulary: V2 knowledge_edges enum + COMMONLY_CONFUSED_WITH + WRONG_ANSWER_PATTERN (frozen §8A.11\n    triple distinction; V2 projection documented in C11_ARCHITECTURE.md §13)\n  counts:\n    nodes: 193\n    concepts: 167\n    misconceptions: 26\n    part_of_edges: 211\n    semantic_edges: 277\nnodes:\n- code: 4CH1-CON-ACID-ALKALI-IONS\n  family: CONCEPT\n  title: Acids as hydrogen-ion sources and alkalis as hydroxide-ion sources in aqueous solution\n  aliases:"
+            }
+          ]
+        }
+      ],
+      "excerpt_caps": {
+        "per_source_chars": 40000,
+        "per_excerpt_chars": 1600
+      }
+    },
+    {
+      "source_id": "SRC-TL-4CH1",
+      "role": "primary",
+      "classification": "CURRENT — AUTHORITATIVE (tier-1) / SUPPLEMENTARY (tier-2)",
+      "title": "Official Pearson teaching-and-learning corpus for International GCSE Chemistry (2017)",
+      "resolution_status": "RESOLVED",
+      "files": [
+        {
+          "repo": "syllabai-resources",
+          "path": "Official-Specifications/igcse-chemistry/teaching-and-learning-materials/gstt-int-gcse-chemistry.pdf",
+          "sha256": "cfc42ce0bc763515241c63cba8087be725126152f95047fbad90a83227b50419",
+          "excerpts": [
+            {
+              "locator": "page 3",
+              "chars": 1025,
+              "text": "Pearson Edexcel International GCSE Chemistry (Modular) – Getting Started Guide – Issue 2 – October 2024 \n© Pearson Education Limited 2024 \nChemistry (2017) (4CH1) \nGetting Started Guide  \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \nThrough initiatives such as onscreen marking and administration, Pearson is leading the way in using technology to \nmodernise educational assessment, and to support teachers and learners. \nThis guide is Issue 2. We will inform centres of any changes to this issue. The latest issue can be found on the Pearson \nEdexcel website: \nhttps://qualifications.pearson.com/ \n \nReferences to third-party material made in this guide are made in good faith. We do not endorse, approve or accept \nresponsibility for the content of materials, which may be subject to change, or any opinions expressed therein. (Material \nmay include textbooks, journals, magazines and other publications and websites.) \n \nAll the material in this publication is copyright. \n© Pearson Education Limited 2024"
+            }
+          ]
+        }
+      ],
+      "excerpt_caps": {
+        "per_source_chars": 40000,
+        "per_excerpt_chars": 1600
+      }
+    },
+    {
+      "source_id": "SRC-SAMS-4CH1",
+      "role": "supplementary",
+      "classification": "CURRENT — ASSESSMENT EVIDENCE",
+      "title": "Official 4CH1 sample assessment materials + series-structure change notice",
+      "resolution_status": "RESOLVED",
+      "files": [
+        {
+          "repo": "syllabai-resources",
+          "path": "Official-Specifications/igcse-chemistry/international-gcse-Chemistry-2017-SAM.pdf",
+          "sha256": "beb9dc1d1efa108b854573d7c3be2020108daefd43db6b8611e40513323f4923",
+          "excerpts": [
+            {
+              "locator": "page 1",
+              "chars": 188,
+              "text": "INTERNATIONAL \nGCSE\nChemistry (9-1)\nSAMPLE ASSESSMENT MATERIALS\nPearson Edexcel International GCSE in Chemistry (4CH1)\nFor first teaching September 2017\nFirst examination June 2019\nIssue 2"
+            }
+          ]
+        }
+      ],
+      "excerpt_caps": {
+        "per_source_chars": 40000,
+        "per_excerpt_chars": 1600
+      }
+    },
+    {
+      "source_id": "SRC-BOOK-4CH1-SB1",
+      "role": "supplementary",
+      "classification": "CURRENT — AUTHORITATIVE",
+      "title": "Edexcel International GCSE (9-1) Chemistry Student Book (the books plane of record)",
+      "resolution_status": "RESOLVED",
+      "files": [
+        {
+          "repo": "syllabai-resources",
+          "path": "books/pearson-edexcel/international-gcse/chemistry/4ch1/student-book.pdf",
+          "sha256": "d48020e0cc0b5545b330bb59b242472198210e424525e4381cd5d2a58a58cc04",
+          "excerpts": []
+        }
+      ],
+      "excerpt_caps": {
+        "per_source_chars": 40000,
+        "per_excerpt_chars": 1600
+      }
+    }
+  ],
+  "caps": {
+    "max_excerpts_per_source": 60,
+    "max_chars_per_excerpt": 1600,
+    "max_total_chars_per_source": 40000
+  },
+  "licensing_law": "bounded excerpts + locator identity preserved; no bulk export"
+}

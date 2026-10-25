@@ -1,0 +1,27 @@
+{
+  "artifact_id": "CUR-08",
+  "content_sha256": "3061510f64059fe1eb5b59c92fa6950e7fbbcc273e18cdb9f38d210d7b65f4c2",
+  "filename": "CHEMISTRY_4CH1_CUR-08_CURRICULUM_BOUNDARIES.md",
+  "qa_passed": true,
+  "report": {
+    "context": {},
+    "counts": {
+      "ERROR": 0,
+      "INFO": 1,
+      "WARNING": 0
+    },
+    "issues": [
+      {
+        "artifact_id": "CUR-08",
+        "code": "SIB-ANCH-003",
+        "field": "curriculum_anchor_refs",
+        "message": "no curriculum registry supplied; anchor existence not checked",
+        "record_id": "",
+        "severity": "INFO"
+      }
+    ],
+    "qa_passed": true,
+    "unit": "CUR-08"
+  },
+  "sib_protocol": "SIB-1.0"
+}

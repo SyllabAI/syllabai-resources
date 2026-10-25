@@ -1,0 +1,163 @@
+{
+  "schema": "sib-run-manifest/1.0",
+  "program": "SIB-GEN",
+  "run_id": "SIB-CHEMISTRY_4CH1-RUN-002",
+  "library": "CHEMISTRY_4CH1",
+  "provider": {
+    "provider": "z.ai",
+    "model": "GLM",
+    "agent_version": "SIB-GEN-r0"
+  },
+  "source_revisions": {
+    "syllabai_resources": "ebe914b10cf938fa5c219f73881ae853922eef8a",
+    "syllabai_pastpapers": "4bae2886d123d0f597c0091dbe0c6d9f9acdb44d",
+    "syllabai": "357ace0a230f5e0095ad230320af587dca6bb71f"
+  },
+  "preflight": {
+    "resolution_report": "preflight/resolution_report.json",
+    "gate": "PASS",
+    "families": [
+      "CUR"
+    ],
+    "sources_resolved": 8,
+    "sources_total": 17,
+    "disclosed": "9 sources FAILED (SME/EXT/PMT corpora, spec-links, lessons, RAG pointer, legacy 4CH0 tree — none a CUR primary; QPMS and ER-4CH1 RESOLVED). v1.2.2 locator repair recovered SRC-BOOK-4CH1-SB1 to RESOLVED (first-hand sha256-verified); all failures disclosed, none filled."
+  },
+  "artifacts": [
+    {
+      "artifact_id": "CUR-02",
+      "filename": "CHEMISTRY_4CH1_CUR-02_SPECIFICATION_INTERPRETATION.md",
+      "evidence_pack": "evidence/CUR-02/evidence_pack.json",
+      "evidence_pack_sha256": "62077d57e1d12426255ce62868cf3e8127e4795a7ce12d0c6b0725ceaefad1cc",
+      "artifact_sha256": "1a9404a562e8f390e1957fa8497dd5a5150d2917c9a714b86d66b584d10407d9",
+      "attempts": 2,
+      "outcome": "QA_PASSED",
+      "gates": {
+        "source_preflight": "PASS (CUR primaries SRC-SPEC/SRC-GRAPH/SRC-TL RESOLVED)",
+        "structural": "PASS (tools.sib.cli qa: 0 errors / 0 warnings; 1 INFO anchor-registry notice, pre-existing operator-queued defect)",
+        "evidence_claim_qa": "PASS (43 citations checked — (SRC-*, locator) resolve to pack excerpts; (census.json, path) resolve to the annex — 0 violations)",
+        "educational_review": "PASS (criteria: citation resolution / source coverage / current-legacy separation / educational accuracy / output usefulness — authored from pack excerpts verbatim where quoted; census numbers machine-verified; fully CURRENT, no legacy claims; honest limitations per artifact)",
+        "staging_publication": "NOT REQUESTED (operator gates)"
+      },
+      "qa_report": "qa-reports/CUR-02.qa.json"
+    },
+    {
+      "artifact_id": "CUR-03",
+      "filename": "CHEMISTRY_4CH1_CUR-03_CONCEPT_TAXONOMY.md",
+      "evidence_pack": "evidence/CUR-03/evidence_pack.json",
+      "evidence_pack_sha256": "ab5d9cc85ccbc3318af1ef581b0272c960947a0b0141b2e75e29ca25463b6654",
+      "artifact_sha256": "d0748496cf3074a46b6fb19a361edce4f50c0c1e6db44e9ba06e3264251a6588",
+      "attempts": 2,
+      "outcome": "QA_PASSED",
+      "gates": {
+        "source_preflight": "PASS (CUR primaries SRC-SPEC/SRC-GRAPH/SRC-TL RESOLVED)",
+        "structural": "PASS (tools.sib.cli qa: 0 errors / 0 warnings; 1 INFO anchor-registry notice, pre-existing operator-queued defect)",
+        "evidence_claim_qa": "PASS (25 citations checked — (SRC-*, locator) resolve to pack excerpts; (census.json, path) resolve to the annex — 0 violations)",
+        "educational_review": "PASS (criteria: citation resolution / source coverage / current-legacy separation / educational accuracy / output usefulness — authored from pack excerpts verbatim where quoted; census numbers machine-verified; fully CURRENT, no legacy claims; honest limitations per artifact)",
+        "staging_publication": "NOT REQUESTED (operator gates)"
+      },
+      "qa_report": "qa-reports/CUR-03.qa.json"
+    },
+    {
+      "artifact_id": "CUR-04",
+      "filename": "CHEMISTRY_4CH1_CUR-04_CONCEPT_RELATIONSHIPS.md",
+      "evidence_pack": "evidence/CUR-04/evidence_pack.json",
+      "evidence_pack_sha256": "247facb23ec981d83946602a83b2672a9b9dcd0db73e9d08f7fd286441a24dd0",
+      "artifact_sha256": "0e449864abfea731af2b665c7a37713e9b1bb2798ce9df8e73e1facf28744185",
+      "attempts": 2,
+      "outcome": "QA_PASSED",
+      "gates": {
+        "source_preflight": "PASS (CUR primaries SRC-SPEC/SRC-GRAPH/SRC-TL RESOLVED)",
+        "structural": "PASS (tools.sib.cli qa: 0 errors / 0 warnings; 1 INFO anchor-registry notice, pre-existing operator-queued defect)",
+        "evidence_claim_qa": "PASS (20 citations checked — (SRC-*, locator) resolve to pack excerpts; (census.json, path) resolve to the annex — 0 violations)",
+        "educational_review": "PASS (criteria: citation resolution / source coverage / current-legacy separation / educational accuracy / output usefulness — authored from pack excerpts verbatim where quoted; census numbers machine-verified; fully CURRENT, no legacy claims; honest limitations per artifact)",
+        "staging_publication": "NOT REQUESTED (operator gates)"
+      },
+      "qa_report": "qa-reports/CUR-04.qa.json"
+    },
+    {
+      "artifact_id": "CUR-05",
+      "filename": "CHEMISTRY_4CH1_CUR-05_PREREQUISITE_KNOWLEDGE_MAP.md",
+      "evidence_pack": "evidence/CUR-05/evidence_pack.json",
+      "evidence_pack_sha256": "0c1a03b245c69378819347e68beb906f048ba4c2d4de11615d21e3aca208d303",
+      "artifact_sha256": "68c7b4b949b6926d3dc5c1033fe42ff74e4c5d9410fd678d72a477471d4a188d",
+      "attempts": 2,
+      "outcome": "QA_PASSED",
+      "gates": {
+        "source_preflight": "PASS (CUR primaries SRC-SPEC/SRC-GRAPH/SRC-TL RESOLVED)",
+        "structural": "PASS (tools.sib.cli qa: 0 errors / 0 warnings; 1 INFO anchor-registry notice, pre-existing operator-queued defect)",
+        "evidence_claim_qa": "PASS (29 citations checked — (SRC-*, locator) resolve to pack excerpts; (census.json, path) resolve to the annex — 0 violations)",
+        "educational_review": "PASS (criteria: citation resolution / source coverage / current-legacy separation / educational accuracy / output usefulness — authored from pack excerpts verbatim where quoted; census numbers machine-verified; fully CURRENT, no legacy claims; honest limitations per artifact)",
+        "staging_publication": "NOT REQUESTED (operator gates)"
+      },
+      "qa_report": "qa-reports/CUR-05.qa.json"
+    },
+    {
+      "artifact_id": "CUR-06",
+      "filename": "CHEMISTRY_4CH1_CUR-06_CROSS_TOPIC_CONNECTIONS.md",
+      "evidence_pack": "evidence/CUR-06/evidence_pack.json",
+      "evidence_pack_sha256": "d888671dc0cf50617c6de01f2825daafdb17c313891517b8ad343a4a9ebf7312",
+      "artifact_sha256": "d8cf6ce11d69546881f59c8a89b8251db8fc2cd2a6d371c0838b990073d82e91",
+      "attempts": 2,
+      "outcome": "QA_PASSED",
+      "gates": {
+        "source_preflight": "PASS (CUR primaries SRC-SPEC/SRC-GRAPH/SRC-TL RESOLVED)",
+        "structural": "PASS (tools.sib.cli qa: 0 errors / 0 warnings; 1 INFO anchor-registry notice, pre-existing operator-queued defect)",
+        "evidence_claim_qa": "PASS (35 citations checked — (SRC-*, locator) resolve to pack excerpts; (census.json, path) resolve to the annex — 0 violations)",
+        "educational_review": "PASS (criteria: citation resolution / source coverage / current-legacy separation / educational accuracy / output usefulness — authored from pack excerpts verbatim where quoted; census numbers machine-verified; fully CURRENT, no legacy claims; honest limitations per artifact)",
+        "staging_publication": "NOT REQUESTED (operator gates)"
+      },
+      "qa_report": "qa-reports/CUR-06.qa.json"
+    },
+    {
+      "artifact_id": "CUR-07",
+      "filename": "CHEMISTRY_4CH1_CUR-07_TERMINOLOGY_DEFINITIONS.md",
+      "evidence_pack": "evidence/CUR-07/evidence_pack.json",
+      "evidence_pack_sha256": "cd50878d87c45e2486b4bc2b1c06ea988da7826b55a7c587387a8bc33fda9e7e",
+      "artifact_sha256": "97b6485b61ebc2b4a2f31a7810aa7054d02ff18715961b63c7c39d5162082f88",
+      "attempts": 1,
+      "outcome": "QA_PASSED",
+      "gates": {
+        "source_preflight": "PASS (CUR primaries SRC-SPEC/SRC-GRAPH/SRC-TL RESOLVED)",
+        "structural": "PASS (tools.sib.cli qa: 0 errors / 0 warnings; 1 INFO anchor-registry notice, pre-existing operator-queued defect)",
+        "evidence_claim_qa": "PASS (30 citations checked — (SRC-*, locator) resolve to pack excerpts; (census.json, path) resolve to the annex — 0 violations)",
+        "educational_review": "PASS (criteria: citation resolution / source coverage / current-legacy separation / educational accuracy / output usefulness — authored from pack excerpts verbatim where quoted; census numbers machine-verified; fully CURRENT, no legacy claims; honest limitations per artifact)",
+        "staging_publication": "NOT REQUESTED (operator gates)"
+      },
+      "qa_report": "qa-reports/CUR-07.qa.json"
+    },
+    {
+      "artifact_id": "CUR-08",
+      "filename": "CHEMISTRY_4CH1_CUR-08_CURRICULUM_BOUNDARIES.md",
+      "evidence_pack": "evidence/CUR-08/evidence_pack.json",
+      "evidence_pack_sha256": "6068a87627e61367612acdb36f914ccfdda90cb907a23719ab34530ba86e4f97",
+      "artifact_sha256": "3061510f64059fe1eb5b59c92fa6950e7fbbcc273e18cdb9f38d210d7b65f4c2",
+      "attempts": 3,
+      "outcome": "QA_PASSED",
+      "gates": {
+        "source_preflight": "PASS (CUR primaries SRC-SPEC/SRC-GRAPH/SRC-TL RESOLVED)",
+        "structural": "PASS (tools.sib.cli qa: 0 errors / 0 warnings; 1 INFO anchor-registry notice, pre-existing operator-queued defect)",
+        "evidence_claim_qa": "PASS (27 citations checked — (SRC-*, locator) resolve to pack excerpts; (census.json, path) resolve to the annex — 0 violations)",
+        "educational_review": "PASS (criteria: citation resolution / source coverage / current-legacy separation / educational accuracy / output usefulness — authored from pack excerpts verbatim where quoted; census numbers machine-verified; fully CURRENT, no legacy claims; honest limitations per artifact)",
+        "staging_publication": "NOT REQUESTED (operator gates)"
+      },
+      "qa_report": "qa-reports/CUR-08.qa.json"
+    }
+  ],
+  "gates": {
+    "source_preflight": "PASS (CUR primaries RESOLVED: SRC-SPEC/SRC-GRAPH/SRC-TL; supplementaries SRC-SAMS + SRC-BOOK-SB1 RESOLVED)",
+    "structural": "PASS (tools.sib.cli qa @ validator of record 357ace0a: 0 errors / 0 warnings x7 artifacts)",
+    "evidence_claim_qa": "PASS (scripts/sib_bl008_evidence_claim_qa.py: 209 citations checked across 7 artifacts, 0 violations)",
+    "educational_review": "PASS (five pilot acceptance criteria applied per artifact; wave completes protocol §4 pass 2 for 4CH1)",
+    "staging_publication": "NOT REQUESTED (operator gates)"
+  },
+  "disclosures": [
+    "BL-008 WAVE 1 OF RECORD: CUR-02..CUR-08 generated through the full chain (preflight -> packs -> authoring -> stamping -> validator QA -> evidence-claim QA -> educational review); protocol §4 pass 2 (CUR family) now COMPLETE for 4CH1 (CUR-01 pilot + CUR-02..08 wave); pass 3 (EXP) next in §4 order but BLOCKED on SRC-BOOK-4CH1-SB1 text extraction (image-only scan; identity-only in packs this run) and pass 4 (MIS remainder) is unblocked evidence-wise but was out of this wave's operator-ordered scope (BL-004 defines wave 1 = CUR-01..CUR-08).",
+    "SOURCE MANIFEST v1.2.2 LOCATOR REPAIR (pair fix with resolver hardening): SRC-BOOK-4CH1-SB1's directory-locator digest scan was starved by 1,234 parsed chunk files sorting before student-book.pdf (RUN-001's DIGEST_UNMATCHED was this artifact, not file drift). First-hand verified this session: the PDF @ resources ebe914b hashes to sha256 d48020e0cc0b5545b330bb59b242472198210e424525e4381cd5d2a58a58cc04 (54,298,792 bytes), byte-identical to this manifest's pin AND books/CATALOG.md §3.1. Locator now points at the exact file; resolver hashes direct children first (same cap).",
+    "RESOLVER HARDENING of record (pipeline/source_resolver.py): resolved-dir digest scans now hash direct children before deep members (cap unchanged at 400); members_total disclosed per entry. Deterministic; verified against this library's 17 sources.",
+    "RE-STAMP DISCLOSURES (all within-run, before receipts; no governed state overwritten): CUR-02 attempts=2 (semicolon-joined multi-citations split into separate paren citations); CUR-03 attempts=2 (same); CUR-04 attempts=2 (census multi-path citation split); CUR-05 attempts=2 (pack extended with spec p29 to ground the S4 page claim); CUR-06 attempts=2 (joined citations split); CUR-07 attempts=1; CUR-08 attempts=3 (joined citations split x2). The evidence-claim QA script itself was hardened mid-run (RUN-COMPUTED census citations now split on ';' and each path machine-verified; prose inside citations rejected) — all seven final artifacts re-verified under the stricter law.",
+    "RUN-COMPUTED CENSUS LAW: quantitative claims carry (census.json, <path>) citations machine-verified against the run's deterministic census annex (inputs pinned by sha256 in the annex); stores with their own published census rows (concepts meta: 193/167/26) are cited store-first.",
+    "GRAPH-PLANE DEFECTS FOUND, DISCLOSED, NOT FIXED (canonical planes read-only; repairs queued operator-side): command_kinds covers 181/182 (4CH1-4.15 missing, the same gap explaining the explain-verb 16-vs-15 delta); concepts.yaml all 193 nodes at AI_SUGGESTED; concept_edges 2 rows REVIEW_REQUIRED; curriculum_registry pin-key defect (spec_point_codes vs validator law) still operator-queued from RUN-001.",
+    "Staging/publication NOT REQUESTED — operator gates per BL-008 law."
+  ]
+}

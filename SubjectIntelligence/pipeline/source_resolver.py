@@ -213,11 +213,24 @@ def resolve_source(source: dict, repo_roots: dict[str, Path]) -> dict:
                 if cand.is_dir():
                     rec.update(status="RESOLVED_DIR")
                     if digests:
-                        members = sorted(p for p in cand.rglob("*") if p.is_file())[:_DIR_DIGEST_CAP]
-                        for mem in members:
+                        # BL-008 r0 hardening: hash DIRECT CHILDREN first, then deep
+                        # members in sorted order, all under the same cap. Deep chunk
+                        # trees (e.g. a books lane's 1,234 parsed chunks sorting before
+                        # the lane-root student-book.pdf) must not starve the files a
+                        # lane-root path most plausibly denotes (v1.2.2 locator-precision
+                        # repair pair; RUN-001's DIGEST_UNMATCHED was this starvation).
+                        direct = sorted(p for p in cand.iterdir() if p.is_file())
+                        seen = set(direct)
+                        deep = [p for p in sorted(cand.rglob("*"))
+                                if p.is_file() and p not in seen]
+                        ordered = direct + deep
+                        hashed = 0
+                        for mem in ordered[:_DIR_DIGEST_CAP]:
                             h = _hash_file_rec(mem)
                             _match_digests(digests, h, matched_digests)
-                        rec["members_hashed"] = len(members)
+                            hashed += 1
+                        rec["members_hashed"] = hashed
+                        rec["members_total"] = len(ordered)
                 elif cand.is_file():
                     rec.update(status="RESOLVED_FILE", **_hash_file_rec(cand))
                     _match_digests(digests, rec, matched_digests)

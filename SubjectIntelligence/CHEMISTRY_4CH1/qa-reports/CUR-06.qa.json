@@ -1,0 +1,27 @@
+{
+  "artifact_id": "CUR-06",
+  "content_sha256": "d8cf6ce11d69546881f59c8a89b8251db8fc2cd2a6d371c0838b990073d82e91",
+  "filename": "CHEMISTRY_4CH1_CUR-06_CROSS_TOPIC_CONNECTIONS.md",
+  "qa_passed": true,
+  "report": {
+    "context": {},
+    "counts": {
+      "ERROR": 0,
+      "INFO": 1,
+      "WARNING": 0
+    },
+    "issues": [
+      {
+        "artifact_id": "CUR-06",
+        "code": "SIB-ANCH-003",
+        "field": "curriculum_anchor_refs",
+        "message": "no curriculum registry supplied; anchor existence not checked",
+        "record_id": "",
+        "severity": "INFO"
+      }
+    ],
+    "qa_passed": true,
+    "unit": "CUR-06"
+  },
+  "sib_protocol": "SIB-1.0"
+}
