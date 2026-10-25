@@ -1,6 +1,6 @@
 {
  "manifest_version": 2,
- "version_note": "v11 (T-UGM-IMPORT-10, 2026-10-25): lane-10 block appended (pure-3-logarithmic-and-exponential-functions, 34 files — the SECOND lane on the pure-3 course plane: CIE 9709 Pure 3 3.2 Logarithmic and exponential functions 3.2.1–3.2.4, dedicated-station substrate from the exp-and-log station (31 of 34) plus 3 strays; 39 aligned rows incl. 5 cross-course by reference, 26 non-overlaps by reference with reasons; lanes 1–9 rows and the v9 assets block carried forward untouched; corpus fleet 514 → 548 files). v10 (T-UGM-IMPORT-9, 2026-10-25): lane-9 block appended (pure-3-algebra, 35 files — the FIRST LANE on the pure-3 course plane: CIE 9709 Pure 3 3.1 Algebra 3.1.1–3.1.6, candidate-model substrate corpus-wide; 47 aligned rows incl. 9 cross-lane by reference, 16 non-overlaps by reference with reasons; lanes 1–8 rows and the v9 assets block carried forward untouched; corpus fleet 479 → 514 files). v8 (T-UGM-IMPORT-8, 2026-10-24): lane-8 block appended (pure-1-integration, 10 files — the strand lane closing the Pure 1 spine: 10 new-text calculus-family resources whose tested skill is 1.8.x, all mapped; UGM's dedicated calculus stations were already fully of record via lanes 5-7, and the 18 further 1.8 rows are cross-lane joins to pure-1-differentiation/ bodies recorded in the enrichment) — lane-1/2/3/4/5/6/7 rows carried forward untouched from v7 (469 files corpus-wide; 479 after this lane).; v9 (T-UGM-ASSETS-1, 2026-10-24): static-figure assets block appended — 976 files\nunder `UGM-Assets/` (37.7 MB, SHA-256 identity in `UGM-Assets/MANIFEST.json`) + the figure\nmap of record `UGM-Resources/figures-map.json` (1,233 figure occurrences across 275 resources,\nsection-anchored). Text bodies and lanes 1–8 rows are untouched by this task.",
+ "version_note": "v12 (T-UGM-IMPORT-11, 2026-10-25): lane-11 block appended (pure-3-trigonometry, 1 file — the THIRD lane on the pure-3 course plane and the first mostly-mapping lane: CIE 9709 Pure 3 3.3 Trigonometry 3.3.1–3.3.2; the dedicated compound-angles station is whole-imported of record under lane 5, so the fresh text substrate is r7616 alone and the lane-5 pre-baked pool maps by reference (23 flips + 4 one-to-many to pure-1-trigonometry bodies); 42 non-overlaps by reference with reasons; lanes 1–10 rows and the v9 assets block carried forward untouched; corpus fleet 548 → 549 files). v11 (T-UGM-IMPORT-10, 2026-10-25): lane-10 block appended (pure-3-logarithmic-and-exponential-functions, 34 files — the SECOND lane on the pure-3 course plane: CIE 9709 Pure 3 3.2 Logarithmic and exponential functions 3.2.1–3.2.4, dedicated-station substrate from the exp-and-log station (31 of 34) plus 3 strays; 39 aligned rows incl. 5 cross-course by reference, 26 non-overlaps by reference with reasons; lanes 1–9 rows and the v9 assets block carried forward untouched; corpus fleet 514 → 548 files). v10 (T-UGM-IMPORT-9, 2026-10-25): lane-9 block appended (pure-3-algebra, 35 files — the FIRST LANE on the pure-3 course plane: CIE 9709 Pure 3 3.1 Algebra 3.1.1–3.1.6, candidate-model substrate corpus-wide; 47 aligned rows incl. 9 cross-lane by reference, 16 non-overlaps by reference with reasons; lanes 1–8 rows and the v9 assets block carried forward untouched; corpus fleet 479 → 514 files). v8 (T-UGM-IMPORT-8, 2026-10-24): lane-8 block appended (pure-1-integration, 10 files — the strand lane closing the Pure 1 spine: 10 new-text calculus-family resources whose tested skill is 1.8.x, all mapped; UGM's dedicated calculus stations were already fully of record via lanes 5-7, and the 18 further 1.8 rows are cross-lane joins to pure-1-differentiation/ bodies recorded in the enrichment) — lane-1/2/3/4/5/6/7 rows carried forward untouched from v7 (469 files corpus-wide; 479 after this lane).; v9 (T-UGM-ASSETS-1, 2026-10-24): static-figure assets block appended — 976 files\nunder `UGM-Assets/` (37.7 MB, SHA-256 identity in `UGM-Assets/MANIFEST.json`) + the figure\nmap of record `UGM-Resources/figures-map.json` (1,233 figure occurrences across 275 resources,\nsection-anchored). Text bodies and lanes 1–8 rows are untouched by this task.",
  "corpus": "UGM-Resources",
  "source": {
   "site": "undergroundmathematics.org",
@@ -11,7 +11,7 @@
   "import_law": "text-only: images/PDF/GeoGebra components are recorded as references, not fetched"
  },
  "built": "2026-10-24T22:06:39+06:00",
- "file_count": 548,
+ "file_count": 549,
  "lanes": [
   {
    "task": "T-UGM-IMPORT-1",
@@ -6551,6 +6551,38 @@
      "resource_type_label": "Rich example",
      "spec_points": [
       "3.2.4"
+     ],
+     "captured": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "task": "T-UGM-IMPORT-11",
+   "lane_dir": "pure-3-trigonometry",
+   "sibling_domain": "UGM-Enrichment/ (facts-only spec enrichment; lane-11 file cie-a-level-maths-20-pure-3-trigonometry.json, task T-UGM-MODE1-11) — this corpus adds the text bodies under the 2026-10-23 operator attestation; THIRD LANE ON THE PURE-3 COURSE PLANE and the first mostly-mapping lane: the dedicated trigonometry-compound-angles station is WHOLE-IMPORTED of record under lane 5, so the fresh text substrate is 1 body (r7616, the 3.3.1 pick) — 28 aligned rows of which 27 map by reference to pure-1-trigonometry bodies (23 flips of the lane-5 pre-baked pool + 4 one-to-many), 42 non-overlaps by reference (9 riding prior bodies), 33 candidates rejected with reasons",
+   "capture_corpus": "syllabai-experimental undergroundmathematics/ @ 4dbd50d5 (P2 crawl + ugm-clean; cross-map lane 11 incl. the body-of-record correction in the same of-record history)",
+   "cross_map_of_record": {
+    "file": "undergroundmathematics/resources/derived/cross-map-p3-trigonometry.json @ 4dbd50d5",
+    "pilot": "P3c p3-trigonometry cross-map (generalisation lane 11, third pure-3 lane)",
+    "aligned": 28,
+    "resources": 1,
+    "alignmentRows": 28,
+    "nonOverlap": 42,
+    "crossLaneAligned": 27,
+    "routed": 33
+   },
+   "built": "2026-10-25T19:03:34+06:00",
+   "file_count": 1,
+   "files": [
+    {
+     "path": "pure-3-trigonometry/r7616-is-this-product-of-integrals-positive-or-negative.md",
+     "sha256": "a64dd89cc12431499b8d1c45151467372bd18a4aeb770d9b8f693bdd77dd9141",
+     "ugm_id": "r7616",
+     "title": "Is this product of integrals positive or negative?",
+     "url": "https://undergroundmathematics.org/calculus-trig-log/r7616",
+     "resource_type_label": "Review question",
+     "spec_points": [
+      "3.3.1"
      ],
      "captured": "2026-10-22"
     }

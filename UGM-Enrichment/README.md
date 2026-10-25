@@ -131,6 +131,21 @@ there. Nothing in this directory renders or embeds UGM content.
   and the 3.2.2 e/ln limb honestly thin (2 fresh + 1 join — UGM's e/ln corpus rides the lane-7/8
   recorded P3 differentiation/integration bearings) — recorded, never forced.
 
+- **Lane 11 (CIE 9709 Pure 3 3.3 Trigonometry)** — `cie-a-level-maths-20-pure-3-trigonometry.json`: the
+  **third lane on the pure-3 course plane** and the **first mostly-mapping lane** — the dedicated
+  compound-angles station is whole-imported of record under lane 5, so the lane-5 pre-baked pool
+  flips by reference: 28 aligned rows = 1 fresh row (r7616 → 3.3.1, the only new text) + 27
+  cross-course rows riding `pure-1-trigonometry/` bodies (23 flips of lane-5 non_overlap rows +
+  4 one-to-many beside standing alignments: going-round-in-circles, muddled-trig, trig-tables →
+  3.3.1, r7021 → 3.3.2; no flips of pure-3 rows, nothing duplicated), 42 fresh non-overlaps
+  **recorded by reference only** (`bodyImported: false`; 9 riding prior bodies per the supersede
+  law) — 9 P3 3.4 Differentiation bearings, 9 P3 3.5 Integration bearings (incl. the sinx/sin2x
+  pair whose 3.3.2∩3.5.2 mix is argued per row), 4 extended-sine-rule bearings, 14 beyond-spine,
+  5 sweep false positives — 33 of-record candidates rejected with reasons (their prior alignments
+  stand), primary picks r7616 (3.3.1, fresh) / r6018 (3.3.2 — rides a reference row, disclosed of
+  record: no fresh 3.3.2 body exists because the dedicated station is whole-imported), the 3.3.2
+  spine title's mid-sentence truncation carried verbatim of record — recorded, never forced.
+
 ## Rights
 
 UGM content © University of Cambridge; sourced exam questions © UCLES.
