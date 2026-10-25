@@ -1,8 +1,8 @@
 {
  "programme": "SME-GuidedLessons",
  "schema": "guided-lesson.0.1",
- "manifest_version": 5,
- "generated_utc": "2026-10-25T12:41:26.525Z",
+ "manifest_version": 6,
+ "generated_utc": "2026-10-25T13:21:23.606Z",
  "saved": {
   "lane": "w0a",
   "session": "web-e79a3bd8-5bc9-4aae-abe2-eb5f5d3964dd",
@@ -21,7 +21,7 @@
   "reason": "repo ~5.6 GB; clone impractical in sandbox"
  },
  "status": {
-  "notes_authored": 69,
+  "notes_authored": 78,
   "notes_register_total": 112,
   "waves_complete": [
    "wave-1",
@@ -29,14 +29,17 @@
    "wave-3",
    "wave-4",
    "wave-5",
-   "wave-6"
+   "wave-6",
+   "wave-7"
   ],
   "topic1_complete": true,
-  "topic2_progress": "27/36",
-  "subtopics_closed": 15,
+  "topic2_complete": true,
+  "topic3_progress": "1/15",
+  "topic4_progress": "1/21",
+  "subtopics_closed": 16,
   "subtopics_total": 28,
-  "wave6_closeout": "wave6-receipt.json (wave6-receipt/0.1, recalibration reaffirmed, topic census T2 27/36 with Reactivity Series, Extraction & Uses of Metals and Acids, Alkalis & Titrations closed outright this wave) + Wave-6-Authoring-Wave-Report-20261025.docx",
-  "next_operator_gated": "wave-7 open: 9 notes (18,964 chars, 12 spec points) — Bases, the soluble-salt preparations, the insoluble-salt preparation and the lead(II) sulfate practical close Acids, Bases & Salt Preparations, then Chemical Tests x4 closes Topic 2"
+  "wave7_closeout": "wave7-receipt.json (wave7-receipt/0.1, recalibration reaffirmed, topic census T2 36/36 COMPLETE with all eight subtopics closed — Topic 2 Inorganic Chemistry completes of record) + Wave-7-Authoring-Wave-Report-20261025.docx",
+  "next_operator_gated": "wave-8 open: 14 notes (52,595 chars, 24 spec points) — Energetics, Rates of Reaction, Reversible Reactions & Equilibrium open Topic 3 Physical Chemistry"
  },
  "snapshot_pin": {
   "file": "corpus-snapshot.json",
@@ -1188,6 +1191,158 @@
   "SME-GuidedLessons/tooling/wave6-report-postcheck.js": {
    "sha256": "81436f97471899fccbace4795b0d38a61aabce60526d18ddb179ec47c26aaaa7",
    "bytes": 2540
+  },
+  "SME-GuidedLessons/wave-7/guided-lesson-rn_5g8Dd6y89tkCVJsN.json": {
+   "sha256": "da2b18a753f5afc394e34a779b3e4ed61a12a5dd5f8afb7c00413e013b572479",
+   "bytes": 17170
+  },
+  "SME-GuidedLessons/wave-7/guided-lesson-rn_6ZCysv9GnNQmc3w2.json": {
+   "sha256": "7fa9c7a29b9c95e3ec980a4191b469d1a5a26e206d3a82509aaeba979f9293ca",
+   "bytes": 16959
+  },
+  "SME-GuidedLessons/wave-7/guided-lesson-rn_T6S7R66N2wSZpWyc.json": {
+   "sha256": "497bbd1b9f8bf4a7242cab6dc0f4ecb0d51a90cff67ec6ebc7aae279ad23c759",
+   "bytes": 23233
+  },
+  "SME-GuidedLessons/wave-7/guided-lesson-rn_VvsXMdW3TB37JhWF.json": {
+   "sha256": "707fc125d03eefc2368b2910032afe7e86bf4d6a72fd1d4d211cf1ee84040904",
+   "bytes": 17144
+  },
+  "SME-GuidedLessons/wave-7/guided-lesson-rn_YWDXCCmjfjkJcs6c.json": {
+   "sha256": "70119e84395e4e4f459780f4c551905f3c1bb0206b26a5b9916b07031f8c800e",
+   "bytes": 15272
+  },
+  "SME-GuidedLessons/wave-7/guided-lesson-rn_pBp5Z5C2RHTKk7Wn.json": {
+   "sha256": "a168fdb8628b9bc7699cbafa688fa09bc914001ab6e57aebecd31c82d5fdc2fe",
+   "bytes": 16659
+  },
+  "SME-GuidedLessons/wave-7/guided-lesson-rn_qb9TBhB6VmnFGjvf.json": {
+   "sha256": "95ed3e3d157f83a3efad1ce6ab47b9ff0467c5937b19cd16dca6e24f052354d2",
+   "bytes": 16827
+  },
+  "SME-GuidedLessons/wave-7/guided-lesson-rn_v5JjfpT6grhtq3QW.json": {
+   "sha256": "7735010d35450a50d098d31e26f6897b2d99e82424298b7bd2ea7f94e473f9b6",
+   "bytes": 15575
+  },
+  "SME-GuidedLessons/wave-7/guided-lesson-rn_vVdP57QhDYSVfZgy.json": {
+   "sha256": "4327a83a516d75321b84d492da0a5239c1fd0b12f3c90ed1854610ede5291b10",
+   "bytes": 14857
+  },
+  "SME-GuidedLessons/wave-7/timing-receipt-rn_5g8Dd6y89tkCVJsN.json": {
+   "sha256": "cd950d84843ca4cc2f5879d26b1d802f9a5184f07494559edaac88699830af43",
+   "bytes": 1551
+  },
+  "SME-GuidedLessons/wave-7/timing-receipt-rn_6ZCysv9GnNQmc3w2.json": {
+   "sha256": "04b4a602d05911ea222769e0bf6d7e951fdb57d7aa8316dd58ab9141af85c064",
+   "bytes": 1547
+  },
+  "SME-GuidedLessons/wave-7/timing-receipt-rn_T6S7R66N2wSZpWyc.json": {
+   "sha256": "7d7705883f71538fd3168bd426dcef9514b7f86d7c46ce8c36ffd2da4a59dc37",
+   "bytes": 1522
+  },
+  "SME-GuidedLessons/wave-7/timing-receipt-rn_VvsXMdW3TB37JhWF.json": {
+   "sha256": "c8ffd4a9a66e8f82d197a4e26c3747080edf78e626045b8aa35c9cb094e5d07c",
+   "bytes": 1530
+  },
+  "SME-GuidedLessons/wave-7/timing-receipt-rn_YWDXCCmjfjkJcs6c.json": {
+   "sha256": "4ecf13967bc91a5a42c17183870f4891df1b13741aceeaa75d8e784eed43f1a8",
+   "bytes": 1537
+  },
+  "SME-GuidedLessons/wave-7/timing-receipt-rn_pBp5Z5C2RHTKk7Wn.json": {
+   "sha256": "f1fb4dde9bba93a582918863aaca55a957d8e09237933dbb9b8aac95b2600563",
+   "bytes": 1576
+  },
+  "SME-GuidedLessons/wave-7/timing-receipt-rn_qb9TBhB6VmnFGjvf.json": {
+   "sha256": "c15d00f80a75932fd393df94d0a733504eb60bff3a808d0dc89a0b0138958489",
+   "bytes": 1551
+  },
+  "SME-GuidedLessons/wave-7/timing-receipt-rn_v5JjfpT6grhtq3QW.json": {
+   "sha256": "cd78f635989a68d717fafc0eff5445914b77120021a4493b49870a7a6c3bc332",
+   "bytes": 1524
+  },
+  "SME-GuidedLessons/wave-7/timing-receipt-rn_vVdP57QhDYSVfZgy.json": {
+   "sha256": "f0365f65ad3e7fdb8915f8496e99f8ab87a119ef633ab073a999afe2d20ed13b",
+   "bytes": 1533
+  },
+  "SME-GuidedLessons/wave-7/wave7-receipt.json": {
+   "sha256": "82e5bf9bd7c1335ed0200a203a87dbdb7566eeab7f6dc42f8ddeebbf30d2b439",
+   "bytes": 26779
+  },
+  "SME-GuidedLessons/event-logs/wave-7/rn_5g8Dd6y89tkCVJsN.events.json": {
+   "sha256": "12dd9c0e2ccec0fc4e6f1a45e6140e5e176cc0bc63b46e1c8e9ee54d6894036e",
+   "bytes": 1646
+  },
+  "SME-GuidedLessons/event-logs/wave-7/rn_6ZCysv9GnNQmc3w2.events.json": {
+   "sha256": "ba0401bf64252d37f0a16b838100b9ff71fd275948b46fe9c5b897c10df23419",
+   "bytes": 1646
+  },
+  "SME-GuidedLessons/event-logs/wave-7/rn_T6S7R66N2wSZpWyc.events.json": {
+   "sha256": "de1ba1cee2dd3d5ee07b02b96aac01678cb0cda44be57bf34b3f97ea09239e04",
+   "bytes": 1646
+  },
+  "SME-GuidedLessons/event-logs/wave-7/rn_VvsXMdW3TB37JhWF.events.json": {
+   "sha256": "d98a35b11023da799094fcb0d6ab3e1375ccf1b5e36035e8bb87db859c2964a2",
+   "bytes": 1646
+  },
+  "SME-GuidedLessons/event-logs/wave-7/rn_YWDXCCmjfjkJcs6c.events.json": {
+   "sha256": "af881babb8b6af89a72d4fea2892b4780f16326347645607ad5d05e2ad77f662",
+   "bytes": 1646
+  },
+  "SME-GuidedLessons/event-logs/wave-7/rn_pBp5Z5C2RHTKk7Wn.events.json": {
+   "sha256": "329f7bdd6456a641f5e582db7cf8088a8b21e611623b79060781cab688ffc3fe",
+   "bytes": 1646
+  },
+  "SME-GuidedLessons/event-logs/wave-7/rn_qb9TBhB6VmnFGjvf.events.json": {
+   "sha256": "7f5fcc255c5cf9d473130f56e7b4b991fa962e615de3d5b2ece3c817aa56d218",
+   "bytes": 1646
+  },
+  "SME-GuidedLessons/event-logs/wave-7/rn_v5JjfpT6grhtq3QW.events.json": {
+   "sha256": "b374f820c6ee34b01154cfaff44110383cbe7655b1a77ea143b720f4c675508e",
+   "bytes": 1646
+  },
+  "SME-GuidedLessons/event-logs/wave-7/rn_vVdP57QhDYSVfZgy.events.json": {
+   "sha256": "e6b4a469082eeef17fd9256276d8a29be135a03956d66732096b56082ca5d748",
+   "bytes": 1646
+  },
+  "SME-GuidedLessons/reports/Wave-7-Authoring-Wave-Report-20261025.docx": {
+   "sha256": "4c7bd9df0b1e1158aaffeac02e783f9fab1a5c82bc1e80025ca9de28d0460af8",
+   "bytes": 24801
+  },
+  "SME-GuidedLessons/tooling/wave7-prep.js": {
+   "sha256": "02edadecc1ce5aa60e9c3644b2ea6eb6e5fa80a428cc28bd1c60241ccfdbcd58",
+   "bytes": 8795
+  },
+  "SME-GuidedLessons/tooling/wave7-preflight.sh": {
+   "sha256": "f8166d9c4d218be862d595bb5124a33166bcb7a36bcba4ce27747b2bed3d590f",
+   "bytes": 734
+  },
+  "SME-GuidedLessons/tooling/wave7-chain.sh": {
+   "sha256": "472c3d80f5e60b26651e9014c6497708b0dd0fc65a1283941a0ae655a911ba81",
+   "bytes": 1051
+  },
+  "SME-GuidedLessons/tooling/wave7-wave-receipt.js": {
+   "sha256": "fd5d1c306fa634ecb3f8dbe95b4b1115a0c0a6b817c5bb473ed5da16aeed7efd",
+   "bytes": 24218
+  },
+  "SME-GuidedLessons/tooling/wave7-round-verify.js": {
+   "sha256": "2119a02db68592dc450073bbfe1ff5449871bfbf8685880dcee33de0380109ba",
+   "bytes": 8761
+  },
+  "SME-GuidedLessons/tooling/wave7-report.js": {
+   "sha256": "f25770e4053ed36ccac64f63049fd91b0bafe35fd2b7d9e2eb3205f76d267623",
+   "bytes": 15903
+  },
+  "SME-GuidedLessons/tooling/wave7-report-content-1.js": {
+   "sha256": "4106fdf4a25c5638793708b898b125494758abb3ca6c490e32984c95cba79850",
+   "bytes": 12498
+  },
+  "SME-GuidedLessons/tooling/wave7-report-content-2.js": {
+   "sha256": "2028a9f8083a164b680183c9dee97d1260b1d1a81d7c3c2cc0c0300e145ae2ef",
+   "bytes": 8952
+  },
+  "SME-GuidedLessons/tooling/wave7-report-postcheck.js": {
+   "sha256": "e820809991af06c632aa56c14d3219c77ff9f2e460ad5c5bcfcdb330ae40d761",
+   "bytes": 2519
   }
  }
 }

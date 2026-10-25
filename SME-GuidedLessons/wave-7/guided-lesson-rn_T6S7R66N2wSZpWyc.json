@@ -1,0 +1,264 @@
+{
+ "format": "guided-lesson/0.1",
+ "noteRef": {
+  "noteId": "rn_T6S7R66N2wSZpWyc",
+  "corpusVersion": "sme-revision-notes-igcse-chemistry-19-2026-09-18",
+  "topicTitle": "2. Inorganic Chemistry",
+  "subtopicTitle": "Chemical Tests",
+  "sourceUrl": "https://www.savemyexams.com/igcse/chemistry/edexcel/19/revision-notes/2-inorganic-chemistry/2-8-chemical-tests/2-8-1-tests-for-gases"
+ },
+ "specPoints": [
+  { "code": "4CH1-2.44", "text": "describe tests for these gases: hydrogen; oxygen; carbon dioxide; ammonia; chlorine" }
+ ],
+ "primer": {
+  "text": "From Reactions of Acids you already know that some reactions fizz, releasing gases such as carbon dioxide. This note completes the picture with the official test for each of the five syllabus gases, so a released gas can be named with evidence rather than guessed.",
+  "prerequisiteSubtopic": "Reactions of Acids"
+ },
+ "lessons": [
+  {
+   "title": "Test for ammonia",
+   "sourceHeadings": ["Test for ammonia", "Test for chlorine gas"],
+   "specRefs": ["4CH1-2.44"],
+   "opening": "Two of the five syllabus gases betray themselves with litmus paper, and they must never be confused. Ammonia turns damp red litmus paper blue, while chlorine turns damp blue litmus paper red and then bleaches it white. Both gases carry a sharp choking smell, but smell alone identifies nothing, and chlorine is toxic enough to demand a fume cupboard.",
+   "keyPoints": [
+    "Ammonia turns damp red litmus paper blue.",
+    "Hold the paper near the tube mouth, avoiding contact with the glass sides.",
+    "Sodium hydroxide traces from the ammonium-ion test would also turn red litmus blue.",
+    "Chlorine turns damp blue litmus paper red and then bleaches it white.",
+    "The red flash comes from acids formed when chlorine meets the water."
+   ],
+   "confidenceGate": { "ratings": ["low", "medium", "high"], "continueDisabledUntilChoice": true, "resumeWithoutReRate": true, "postCheckRecalibration": true },
+   "depthLayers": {
+    "low": {
+     "restatement": "Ammonia is the gas that turns damp red litmus paper blue, and chlorine is the one that turns damp blue litmus paper red before bleaching it white. Both smell sharp and choking, but the paper, not the nose, is the test.",
+     "analogy": "The two gases are like two visitors who both wear strong aftershave but leave different signatures: one signs in blue ink, the other bleaches the page white.",
+     "examPointer": "Always write damp before the litmus paper and quote the starting colour, because the colour sequence is the mark."
+    },
+    "medium": {
+     "restatement": "Ammonia's alkalinity turns red litmus blue, so the paper must start red for the change to show. Chlorine works the other way round: it dissolves in the paper's moisture to make acids, which turn blue litmus red, and its bleaching action then takes the colour out entirely, ending at white.",
+     "analogy": "Chlorine's two-step result is like spilling ink on a shirt and then putting bleach on it: the first event makes a red stain, and the second event removes colour altogether, so watching only the ending misses the story.",
+     "examPointer": "For chlorine, quote the full sequence red then white; for ammonia, quote red to blue, and note that sodium hydroxide traces give a false ammonia positive."
+    }
+   },
+   "check": [
+    {
+     "stem": "Which result confirms ammonia?",
+     "misconceptionClass": "gas test attribution",
+     "options": [
+      { "key": "A", "text": "Damp red litmus paper turns blue", "correct": true, "explanation": "That is the official ammonia test result.", "misconception": null },
+      { "key": "B", "text": "Damp blue litmus paper bleaches white", "correct": false, "explanation": "That is the chlorine test, not the ammonia test.", "misconception": "chlorine test misattributed" },
+      { "key": "C", "text": "Limewater turns cloudy", "correct": false, "explanation": "Cloudy limewater identifies carbon dioxide.", "misconception": "carbon dioxide test misattributed" },
+      { "key": "D", "text": "A glowing splint relights", "correct": false, "explanation": "A relighting splint identifies oxygen.", "misconception": "oxygen test misattributed" }
+     ]
+    },
+    {
+     "stem": "Why must the litmus paper avoid touching the tube sides when testing gas from ammonium ions and sodium hydroxide?",
+     "misconceptionClass": "false positive avoidance",
+     "options": [
+      { "key": "A", "text": "Traces of sodium hydroxide on the glass would also turn the paper blue", "correct": true, "explanation": "The alkali solution itself would give a blue result, so contact would fake a positive.", "misconception": null },
+      { "key": "B", "text": "The glass would cut the paper", "correct": false, "explanation": "The concern is chemical, not mechanical.", "misconception": "mechanical distraction" },
+      { "key": "C", "text": "Sodium hydroxide would bleach the paper white", "correct": false, "explanation": "Bleaching is chlorine's behaviour; sodium hydroxide turns litmus blue.", "misconception": "chlorine behaviour transplanted" },
+      { "key": "D", "text": "The paper must stay dry to work", "correct": false, "explanation": "Litmus paper needs to be damp for the gas to dissolve into it.", "misconception": "dampness role inverted" }
+     ]
+    },
+    {
+     "stem": "What two changes does chlorine make to damp blue litmus paper?",
+     "misconceptionClass": "chlorine colour sequence",
+     "options": [
+      { "key": "A", "text": "Turns it red, then bleaches it white", "correct": true, "explanation": "Red first as acids form, then white as the bleach takes hold.", "misconception": null },
+      { "key": "B", "text": "Turns it blue, then bleaches it red", "correct": false, "explanation": "The paper already starts blue, and the sequence is reversed nonsense.", "misconception": "sequence scrambled" },
+      { "key": "C", "text": "Bleaches it white with no colour change first", "correct": false, "explanation": "The red stage is part of the mark; skipping it loses the sequence.", "misconception": "red stage dropped" },
+      { "key": "D", "text": "Turns it green, then blue", "correct": false, "explanation": "Neither colour belongs to the chlorine test.", "misconception": "invented colours" }
+     ]
+    },
+    {
+     "stem": "Why does the litmus turn red before bleaching?",
+     "misconceptionClass": "two-step mechanism",
+     "options": [
+      { "key": "A", "text": "Acids form when chlorine reacts with the water on the paper", "correct": true, "explanation": "The damp paper supplies water, and the acids made turn blue litmus red before bleaching follows.", "misconception": null },
+      { "key": "B", "text": "The chlorine itself is an alkali", "correct": false, "explanation": "An alkali would turn red litmus blue, which is ammonia's behaviour.", "misconception": "chemistry inverted" },
+      { "key": "C", "text": "The paper dries out during the test", "correct": false, "explanation": "Drying is not the mechanism; reaction with water is.", "misconception": "physical explanation wrong" },
+      { "key": "D", "text": "Ammonia is also present", "correct": false, "explanation": "No second gas is needed to explain the red stage.", "misconception": "gas confusion" }
+     ]
+    },
+    {
+     "stem": "A gas smells like swimming pools. Can it be identified as chlorine on that evidence?",
+     "misconceptionClass": "property versus test",
+     "options": [
+      { "key": "A", "text": "No, a smell is a property, not an acceptable identification test", "correct": true, "explanation": "Characteristics such as smell describe a gas but cannot certify it.", "misconception": null },
+      { "key": "B", "text": "Yes, smell is definitive for chlorine", "correct": false, "explanation": "Smell alone never identifies a gas in exam answers.", "misconception": "property treated as test" },
+      { "key": "C", "text": "Yes, if the smell is strong", "correct": false, "explanation": "Strength of smell changes nothing about identification standards.", "misconception": "intensity confusion" },
+      { "key": "D", "text": "No, because chlorine is odourless", "correct": false, "explanation": "Chlorine does have a sharp choking smell; the rejection is for the wrong reason.", "misconception": "wrong fact attached to right conclusion" }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Test for carbon dioxide",
+   "sourceHeadings": ["Test for carbon dioxide"],
+   "specRefs": ["4CH1-2.44"],
+   "opening": "Carbon dioxide is identified by bubbling the gas through limewater, the common name for calcium hydroxide solution. A positive test turns the limewater cloudy white. The burning-splint test is sometimes offered as a shortcut, but any gas that snuffs a flame passes it, so it can never be written as an answer.",
+   "keyPoints": [
+    "The test bubbles the gas through limewater.",
+    "Limewater is calcium hydroxide dissolved in water.",
+    "A positive result turns the limewater cloudy white.",
+    "An extinguished splint does not prove carbon dioxide, because nitrogen behaves the same way.",
+    "The splint result is a property of the gas, not a definitive test."
+   ],
+   "confidenceGate": { "ratings": ["low", "medium", "high"], "continueDisabledUntilChoice": true, "resumeWithoutReRate": true, "postCheckRecalibration": true },
+   "depthLayers": {
+    "low": {
+     "restatement": "Bubble the gas through limewater, the calcium hydroxide solution, and carbon dioxide turns the clear liquid cloudy white. A splint going out is not good enough, because other gases put flames out just the same.",
+     "analogy": "Limewater is a dedicated detector while the splint is a smoke alarm that any gas can trigger; only one of the two tells you who is in the room.",
+     "examPointer": "Write limewater turns cloudy white in full; cloudy on its own or white on its own can lose the mark."
+    },
+    "medium": {
+     "restatement": "The cloudiness appears because carbon dioxide reacts with the dissolved calcium hydroxide to form insoluble calcium carbonate, which hangs in the liquid as tiny white particles. The splint test fails as a naming test precisely because extinguishing is shared behaviour, shown equally by nitrogen and other unreactive gases.",
+     "analogy": "The cloud is the product itself made visible, like chalk dust stirred into water: you are literally seeing the new solid before it settles.",
+     "examPointer": "If a question offers an extinguished splint as evidence of carbon dioxide, reject it and cite limewater as the test that names the gas."
+    }
+   },
+   "check": [
+    {
+     "stem": "What is limewater?",
+     "misconceptionClass": "reagent identity",
+     "options": [
+      { "key": "A", "text": "Calcium hydroxide solution", "correct": true, "explanation": "Limewater is the common name for dissolved calcium hydroxide.", "misconception": null },
+      { "key": "B", "text": "Sodium hydroxide solution", "correct": false, "explanation": "Sodium hydroxide is an alkali reagent but not limewater.", "misconception": "alkali swapped" },
+      { "key": "C", "text": "Calcium carbonate suspension", "correct": false, "explanation": "Calcium carbonate is the white solid made during the test, not the starting liquid.", "misconception": "product confused with reagent" },
+      { "key": "D", "text": "Copper(II) sulfate solution", "correct": false, "explanation": "That is the water-test reagent, unrelated to limewater.", "misconception": "water-test reagent intrudes" }
+     ]
+    },
+    {
+     "stem": "What positive result does carbon dioxide give with limewater?",
+     "misconceptionClass": "positive result recall",
+     "options": [
+      { "key": "A", "text": "The limewater turns cloudy white", "correct": true, "explanation": "Insoluble calcium carbonate forming in the liquid makes it cloudy.", "misconception": null },
+      { "key": "B", "text": "The limewater turns clear again", "correct": false, "explanation": "The starting liquid is already clear; the change is towards cloudiness.", "misconception": "change direction reversed" },
+      { "key": "C", "text": "The limewater turns blue", "correct": false, "explanation": "Blue belongs to litmus and copper compounds, not to limewater.", "misconception": "litmus colour misplaced" },
+      { "key": "D", "text": "The limewater fizzes", "correct": false, "explanation": "The gas is being bubbled in already; the observation is the cloudiness.", "misconception": "observation misassigned" }
+     ]
+    },
+    {
+     "stem": "A student says a burning splint went out, so the gas is carbon dioxide. Why is this wrong?",
+     "misconceptionClass": "non-definitive test",
+     "options": [
+      { "key": "A", "text": "Other gases such as nitrogen also extinguish a splint", "correct": true, "explanation": "Extinguishing a flame is shared behaviour, so it cannot name the gas.", "misconception": null },
+      { "key": "B", "text": "Splints never go out in any gas", "correct": false, "explanation": "Splints do go out in unreactive gases; that is exactly the problem.", "misconception": "false premise" },
+      { "key": "C", "text": "Only hydrogen extinguishes splints", "correct": false, "explanation": "Hydrogen is the gas that pops, not the one that merely goes out.", "misconception": "gas swap" },
+      { "key": "D", "text": "Carbon dioxide relights splints", "correct": false, "explanation": "Relighting belongs to oxygen; carbon dioxide extinguishes.", "misconception": "test inverted" }
+     ]
+    },
+    {
+     "stem": "Why is limewater described as the definitive carbon dioxide test while the splint test is not?",
+     "misconceptionClass": "test specificity",
+     "options": [
+      { "key": "A", "text": "Only carbon dioxide turns limewater cloudy, while several gases extinguish flames", "correct": true, "explanation": "Specificity is what makes a test an identification test.", "misconception": null },
+      { "key": "B", "text": "Limewater reacts with every gas", "correct": false, "explanation": "Limewater is selective; reacting with everything would make it useless.", "misconception": "overgeneralisation" },
+      { "key": "C", "text": "The splint test works only in daylight", "correct": false, "explanation": "No daylight condition exists for splint tests.", "misconception": "invented condition" },
+      { "key": "D", "text": "Cloudiness is easier to see than flame", "correct": false, "explanation": "Convenience is not what makes a test definitive; exclusivity is.", "misconception": "convenience reasoning" }
+     ]
+    },
+    {
+     "stem": "Gas X bubbles through limewater, which stays clear. What follows?",
+     "misconceptionClass": "negative result reading",
+     "options": [
+      { "key": "A", "text": "X is not carbon dioxide", "correct": true, "explanation": "A clear result rules out carbon dioxide, though it names nothing instead.", "misconception": null },
+      { "key": "B", "text": "X is definitely nitrogen", "correct": false, "explanation": "A negative carbon dioxide test does not confirm any other specific gas.", "misconception": "single-cause overreach" },
+      { "key": "C", "text": "X is definitely hydrogen", "correct": false, "explanation": "Hydrogen has its own splint test; nothing here proves it.", "misconception": "unjustified identity" },
+      { "key": "D", "text": "The limewater must have been pure water", "correct": false, "explanation": "Blaming the reagent is not justified when the method was followed.", "misconception": "excuse invented" }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Test for hydrogen gas",
+   "sourceHeadings": ["Test for hydrogen gas", "Test for oxygen"],
+   "specRefs": ["4CH1-2.44"],
+   "opening": "The last two tests both use a splint, and the distinction lies in whether the splint is burning or only glowing. A lit splint held at the mouth of a tube of hydrogen gives the famous squeaky pop, while a glowing splint lowered into oxygen relights. One memory hook carries both: the ligHted splint hides an H for hydrogen, and the glOwing splint hides an O for oxygen.",
+   "keyPoints": [
+    "A burning splint held at the tube mouth makes hydrogen burn with a squeaky pop.",
+    "The pop comes from hydrogen burning rapidly in oxygen to give water.",
+    "The splint stays at the mouth, because the gas needs air to burn.",
+    "A glowing splint placed in oxygen relights.",
+    "A brightly glowing splint without relighting is still a positive oxygen result."
+   ],
+   "confidenceGate": { "ratings": ["low", "medium", "high"], "continueDisabledUntilChoice": true, "resumeWithoutReRate": true, "postCheckRecalibration": true },
+   "depthLayers": {
+    "low": {
+     "restatement": "Hold a burning splint at the mouth of the tube for hydrogen and listen for the squeaky pop. Lower a glowing splint into the tube for oxygen and watch it relight.",
+     "analogy": "The pair is like two knock-knock jokes that differ only in the punchline: same doorway, same stick, but pop versus relight tells you who is inside.",
+     "examPointer": "Keep the ligHted and glOwing hook in mind, and always say where the splint sits: at the mouth for hydrogen, inside for oxygen."
+    },
+    "medium": {
+     "restatement": "The pop is hydrogen burning with oxygen from the air at the tube mouth, which is why the splint must stay at the opening where air can reach. Oxygen's own test needs no flame, only the embers of one, because a glowing splint carries enough heat to catch fire again in pure oxygen even though it is no longer burning.",
+     "analogy": "A glowing splint entering oxygen is like a dying campfire fanned back to life by one strong breath: the ember was never out, it only needed the right atmosphere.",
+     "examPointer": "If the splint glows brightly but does not fully relight, the source still calls it positive, but exam answers should state that it relights."
+    }
+   },
+   "check": [
+    {
+     "stem": "Which splint is used for the hydrogen test?",
+     "misconceptionClass": "splint state selection",
+     "options": [
+      { "key": "A", "text": "A burning splint at the tube mouth", "correct": true, "explanation": "The flame meets the gas at the opening and gives the pop.", "misconception": null },
+      { "key": "B", "text": "A glowing splint inside the tube", "correct": false, "explanation": "That arrangement is the oxygen test.", "misconception": "oxygen test swapped in" },
+      { "key": "C", "text": "A wet splint anywhere", "correct": false, "explanation": "A wet splint would not light anything.", "misconception": "invented condition" },
+      { "key": "D", "text": "An extinguished splint at the mouth", "correct": false, "explanation": "An extinguished splint cannot ignite the hydrogen.", "misconception": "splint state confused" }
+     ]
+    },
+    {
+     "stem": "What sound confirms hydrogen?",
+     "misconceptionClass": "positive result recall",
+     "options": [
+      { "key": "A", "text": "A squeaky pop", "correct": true, "explanation": "The rapid burn of hydrogen with air makes the characteristic squeaky pop.", "misconception": null },
+      { "key": "B", "text": "A dull thud", "correct": false, "explanation": "No thud is part of any gas test on the syllabus.", "misconception": "sound invented" },
+      { "key": "C", "text": "Complete silence", "correct": false, "explanation": "Silence would suggest the gas is not hydrogen.", "misconception": "no-reaction claim" },
+      { "key": "D", "text": "A hissing whistle", "correct": false, "explanation": "Hissing is not the recorded positive result.", "misconception": "sound invented" }
+     ]
+    },
+    {
+     "stem": "Why must the splint not be pushed deep into the tube?",
+     "misconceptionClass": "air supply reasoning",
+     "options": [
+      { "key": "A", "text": "The hydrogen needs air at the mouth to burn", "correct": true, "explanation": "Deep inside there is no oxygen to sustain the small explosion.", "misconception": null },
+      { "key": "B", "text": "Deep insertion always breaks the tube", "correct": false, "explanation": "The reasoning is chemical, about air supply, not about breakage.", "misconception": "fragility invented" },
+      { "key": "C", "text": "The gas would escape faster", "correct": false, "explanation": "Escape speed is not the reason the pop needs the mouth.", "misconception": "plausible but wrong reason" },
+      { "key": "D", "text": "The pop would be too loud", "correct": false, "explanation": "Loudness is not a safety constraint in the method.", "misconception": "invented consequence" }
+     ]
+    },
+    {
+     "stem": "What does a glowing splint do in oxygen?",
+     "misconceptionClass": "oxygen positive result",
+     "options": [
+      { "key": "A", "text": "Relights", "correct": true, "explanation": "Pure oxygen rekindles the ember into a flame.", "misconception": null },
+      { "key": "B", "text": "Goes out immediately", "correct": false, "explanation": "That is what happens in gases like nitrogen, not oxygen.", "misconception": "opposite result" },
+      { "key": "C", "text": "Turns the flame green", "correct": false, "explanation": "Flame colours belong to flame tests, not to this gas test.", "misconception": "flame-test colour intrudes" },
+      { "key": "D", "text": "Melts the tube", "correct": false, "explanation": "No such effect occurs in the test.", "misconception": "absurd effect" }
+     ]
+    },
+    {
+     "stem": "Which memory hook separates the two splint tests?",
+     "misconceptionClass": "mnemonic recall",
+     "options": [
+      { "key": "A", "text": "A ligHted splint has an H for hydrogen, a glOwing splint an O for oxygen", "correct": true, "explanation": "The embedded letters map each splint to its gas.", "misconception": null },
+      { "key": "B", "text": "Burning means oxygen, glowing means hydrogen", "correct": false, "explanation": "The mapping is exactly reversed from the tests.", "misconception": "hook reversed" },
+      { "key": "C", "text": "Both splints test for the same gas", "correct": false, "explanation": "The whole point of the pair is that the gases differ.", "misconception": "distinction denied" },
+      { "key": "D", "text": "The sound, not the splint, decides oxygen", "correct": false, "explanation": "The sound belongs to hydrogen; oxygen is decided by the relight.", "misconception": "sound attributed wrongly" }
+     ]
+    }
+   ]
+  }
+ ],
+ "noteAssets": {
+  "glossary": [
+   { "term": "damp", "definition": "Slightly wet, the state litmus paper must be in for a gas test to work.", "firstLesson": 1 },
+   { "term": "litmus paper", "definition": "Paper treated with litmus dye, red in acid and blue in alkali, used here for gas tests.", "firstLesson": 1 },
+   { "term": "bleached", "definition": "Having its colour removed, the final effect of chlorine on damp blue litmus paper.", "firstLesson": 1 },
+   { "term": "limewater", "definition": "Calcium hydroxide solution, the reagent that turns cloudy white with carbon dioxide.", "firstLesson": 2 },
+   { "term": "fume cupboard", "definition": "A ventilated enclosure used for handling toxic gases such as chlorine.", "firstLesson": 1 },
+   { "term": "splint", "definition": "A thin wooden stick, lit or glowing, used to test for hydrogen and oxygen.", "firstLesson": 3 }
+  ],
+  "workedExample": null
+ }
+}
