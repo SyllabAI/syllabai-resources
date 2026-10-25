@@ -629,6 +629,7 @@ served bundle PR carries a full disclosure census.
   untouched; file_count 548 → 549). Fleet audits: sha256 1/1, delimiter parity 1/1, fm↔enrichment membership
   28/28 aligned rows (1 fresh + 27 by-reference), primaryPick 2/2 unique, 0 `ugm_id` collisions against lanes
   1–10, all 27 by-reference rows verified against the body map of record.
+
 - **T-UGM-MODE1-12 — UGM mode-1 lane enrichment, Pure 3 Differentiation lane (this run)**: thirteenth landing
   from the UGM corpus, and the **fourth lane on the pure-3 course plane** (`course: cie-a-level-maths-20-pure-3`)
   — the **largest fresh-text lane since lane 9**. Target of record: CIE 9709 Pure 3 subtopic 3.4 Differentiation,
