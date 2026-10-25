@@ -63,8 +63,10 @@ The validator is **`SyllabAI/syllabai@tools/sib/`** (Python, self-contained — 
 no drift. Pin it by commit at run time:
 
 ```bash
-# fetch once per run (pin the sha of record; aa32db1413ea validated this pipeline;
-# the schema-v2 provenance one-of lands in the master PR paired with this edition)
+# fetch once per run (pin the sha of record; 357ace0a230f5e0095ad230320af587dca6bb71f is
+# the validator of record for this edition — schema v2 provenance one-of + anchor-report
+# fix + stdlib-only nested-provenance fallback, landed from the master PR paired with this
+# edition; aa32db1413ea validated the v1 pipeline before it)
 git clone --depth 1 --filter=blob:none https://github.com/SyllabAI/syllabai.git /tmp/sib_master
 # CLI surface
 python3 -m tools.sib.cli --help            # validate-artifact | validate-manifest | qa | stage | publish | chunks | report
