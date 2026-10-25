@@ -1,0 +1,69 @@
+{
+  "action": "qa",
+  "artifact_id": "MIS-07",
+  "errors": 0,
+  "infos": 1,
+  "moved_to": "/home/z/my-project/resources-clone/SubjectIntelligence/CHEMISTRY_4CH1/qa-reports/MIS-07.qa.json",
+  "qa_passed": true,
+  "report": {
+    "context": {},
+    "counts": {
+      "ERROR": 0,
+      "INFO": 1,
+      "WARNING": 5
+    },
+    "issues": [
+      {
+        "artifact_id": "MIS-07",
+        "code": "SIB-ANCH-002",
+        "field": "curriculum_anchor_refs[1.7]",
+        "message": "anchor 1.7 is structurally valid but unresolvable (no registry); reported, not repaired",
+        "record_id": "MIS-051",
+        "severity": "WARNING"
+      },
+      {
+        "artifact_id": "MIS-07",
+        "code": "SIB-ANCH-002",
+        "field": "curriculum_anchor_refs[2.44]",
+        "message": "anchor 2.44 is structurally valid but unresolvable (no registry); reported, not repaired",
+        "record_id": "MIS-051",
+        "severity": "WARNING"
+      },
+      {
+        "artifact_id": "MIS-07",
+        "code": "SIB-ANCH-002",
+        "field": "curriculum_anchor_refs[1.21]",
+        "message": "anchor 1.21 is structurally valid but unresolvable (no registry); reported, not repaired",
+        "record_id": "MIS-055",
+        "severity": "WARNING"
+      },
+      {
+        "artifact_id": "MIS-07",
+        "code": "SIB-ANCH-002",
+        "field": "curriculum_anchor_refs[1.22]",
+        "message": "anchor 1.22 is structurally valid but unresolvable (no registry); reported, not repaired",
+        "record_id": "MIS-055",
+        "severity": "WARNING"
+      },
+      {
+        "artifact_id": "MIS-07",
+        "code": "SIB-ANCH-002",
+        "field": "curriculum_anchor_refs[3.14]",
+        "message": "anchor 3.14 is structurally valid but unresolvable (no registry); reported, not repaired",
+        "record_id": "MIS-055",
+        "severity": "WARNING"
+      },
+      {
+        "artifact_id": "MIS-07",
+        "code": "SIB-ANCH-003",
+        "field": "curriculum_anchor_refs",
+        "message": "no curriculum registry supplied; anchor existence not checked",
+        "record_id": "",
+        "severity": "INFO"
+      }
+    ],
+    "qa_passed": true,
+    "unit": "MIS-07"
+  },
+  "warnings": 5
+}
