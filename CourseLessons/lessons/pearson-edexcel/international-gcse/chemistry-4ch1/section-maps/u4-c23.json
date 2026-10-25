@@ -4,93 +4,126 @@
     "schema": "chunks_v3 calibrated 2026-10-22 (f-0001 closed)",
     "total_chunks": 1234,
     "chapter_chunks": 26,
-    "chapter_title": "Crude oil"
+    "chapter_title": "Crude oil",
+    "refined": "T-BOOK-056 r0 (trace 1a1744f21add5f0d): raw 8 -> authored 9 sections; raw derivation verified byte-for-byte vs section_map.py before refinement; re-homings receipt-disclosed (1053 raw-s02 -> s03; 1054 raw-s03 -> s02; 1057 raw-s03 -> s04; 1062/1063 raw-s06 -> s05 combustion+CO; 1064/1065 raw-s06 -> s06 fraction uses; 1075 chunkRef home s09 with prose taught s08; questions close split out of raw s08 as s09)",
+    "join_set_derivation": "SINGLE objectives chunk 1050 (learning_objectives-typed, 11 bullets) x spine igcse-chemistry-T4:SUBb = 4.7-4.18 ALL CORE 12+0 (4.13 bullet absent from printed list, taught at 1063/1064, spine-canonical pin; 4.17 spine glyph U+00BA vs chunk U+00B0; 4.14/4.18 comma class; capitalisation class)"
   },
   "book_page_range": [
     268,
-    273
+    275
   ],
   "sections": [
     {
       "id": "u4:c23:s01",
-      "title": "Crude Oil",
+      "title": "Crude oil",
       "bookPage": 268,
       "chunkRefs": [
         "chem_v3_u4_c23_pdf277_1049",
         "chem_v3_u4_c23_pdf277_1050"
       ],
-      "specRefs": [],
+      "specRefs": [
+        "4.7",
+        "4.8",
+        "4.9",
+        "4.10",
+        "4.11",
+        "4.12",
+        "4.13",
+        "4.14",
+        "4.15",
+        "4.16",
+        "4.17",
+        "4.18"
+      ],
       "status": "todo"
     },
     {
       "id": "u4:c23:s02",
-      "title": "Crude Oil Contains Hydrocarbons",
+      "title": "What crude oil is",
       "bookPage": 269,
       "chunkRefs": [
         "chem_v3_u4_c23_pdf278_1051",
-        "chem_v3_u4_c23_pdf278_1053"
+        "chem_v3_u4_c23_pdf278_1054"
       ],
-      "specRefs": [],
+      "specRefs": [
+        "4.7"
+      ],
       "status": "todo"
     },
     {
       "id": "u4:c23:s03",
-      "title": "What Is Crude Oil?",
+      "title": "How molecule size changes properties",
       "bookPage": 269,
       "chunkRefs": [
-        "chem_v3_u4_c23_pdf278_1054",
+        "chem_v3_u4_c23_pdf278_1053",
         "chem_v3_u4_c23_pdf278_1055",
-        "chem_v3_u4_c23_pdf279_1056",
-        "chem_v3_u4_c23_pdf279_1057"
+        "chem_v3_u4_c23_pdf279_1056"
       ],
-      "specRefs": [],
+      "specRefs": [
+        "4.10"
+      ],
       "status": "todo"
     },
     {
       "id": "u4:c23:s04",
-      "title": "Separating Crude Oil",
+      "title": "Separating crude oil: fractional distillation",
       "bookPage": 270,
       "chunkRefs": [
+        "chem_v3_u4_c23_pdf279_1057",
         "chem_v3_u4_c23_pdf279_1058",
         "chem_v3_u4_c23_pdf279_1059"
       ],
-      "specRefs": [],
+      "specRefs": [
+        "4.8",
+        "4.10"
+      ],
       "status": "todo"
     },
     {
       "id": "u4:c23:s05",
-      "title": "Uses of the Fractions",
+      "title": "Fuels and combustion",
       "bookPage": 270,
       "chunkRefs": [
         "chem_v3_u4_c23_pdf279_1060",
-        "chem_v3_u4_c23_pdf280_1061"
+        "chem_v3_u4_c23_pdf280_1061",
+        "chem_v3_u4_c23_pdf280_1062",
+        "chem_v3_u4_c23_pdf280_1063"
       ],
-      "specRefs": [],
+      "specRefs": [
+        "4.11",
+        "4.12",
+        "4.13"
+      ],
       "status": "todo"
     },
     {
       "id": "u4:c23:s06",
-      "title": "Kerosene",
+      "title": "The fractions and their uses",
       "bookPage": 271,
       "chunkRefs": [
-        "chem_v3_u4_c23_pdf280_1062",
-        "chem_v3_u4_c23_pdf280_1063",
         "chem_v3_u4_c23_pdf280_1064",
         "chem_v3_u4_c23_pdf281_1065"
       ],
-      "specRefs": [],
+      "specRefs": [
+        "4.9",
+        "4.10"
+      ],
       "status": "todo"
     },
     {
       "id": "u4:c23:s07",
-      "title": "Environmental Problems Associated with the Burning of Fossil Fuels from Crude Oil",
+      "title": "Burning fuels and the environment",
       "bookPage": 272,
       "chunkRefs": [
         "chem_v3_u4_c23_pdf281_1066",
         "chem_v3_u4_c23_pdf282_1068",
         "chem_v3_u4_c23_pdf282_1069"
       ],
-      "specRefs": [],
+      "specRefs": [
+        "4.14",
+        "4.15",
+        "4.16"
+      ],
       "status": "todo"
     },
     {
@@ -100,13 +133,38 @@
       "chunkRefs": [
         "chem_v3_u4_c23_pdf282_1070",
         "chem_v3_u4_c23_pdf283_1072",
-        "chem_v3_u4_c23_pdf283_1073",
+        "chem_v3_u4_c23_pdf283_1073"
+      ],
+      "specRefs": [
+        "4.17",
+        "4.18"
+      ],
+      "status": "todo"
+    },
+    {
+      "id": "u4:c23:s09",
+      "title": "Chapter 23 questions",
+      "bookPage": 275,
+      "chunkRefs": [
         "chem_v3_u4_c23_pdf284_1075",
         "chem_v3_u4_c23_pdf284_1076",
         "chem_v3_u4_c23_pdf284_1077",
         "chem_v3_u4_c23_pdf284_1078"
       ],
-      "specRefs": [],
+      "specRefs": [
+        "4.7",
+        "4.8",
+        "4.9",
+        "4.10",
+        "4.11",
+        "4.12",
+        "4.13",
+        "4.14",
+        "4.15",
+        "4.16",
+        "4.17",
+        "4.18"
+      ],
       "status": "todo"
     }
   ]
