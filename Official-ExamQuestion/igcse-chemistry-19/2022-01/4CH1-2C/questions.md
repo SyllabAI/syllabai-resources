@@ -791,8 +791,6 @@ The structures of two organic compounds are shown. H H H O O C C C H O C C O H H
 > from the diol diol and -H lost from
 > dicarboxylic acid
 > Total for question = 15
-> Pearson Education Limited. Registered company number 872828
-> with its registered office at 80 Strand, London, WC2R 0RL, United Kingdom
 
 - **(1)** three carbons from the dicarboxylic acid and two
 - **(1)** -OH lost from the dicarboxylic acid and -H lost ALLOW -OH lost from

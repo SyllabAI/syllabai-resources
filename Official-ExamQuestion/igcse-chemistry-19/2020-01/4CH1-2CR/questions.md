@@ -790,8 +790,6 @@ Indicators can be used to test for carboxylic acids. Describe a different chemic
 > M1 add a named alcohol (and some ALLOW correct formula
 > concentrated sulfuric acid and warm)
 > M2 sweet smell (of an ester) M2 DEP M1 or near miss
-> Pearson Education Limited. Registered company number 872828
-> with its registered office at 80 Strand, London, WC2R 0RL, United Kingdom
 
 - **(2)** M1 add a named carbonate or ALLOW correct formula
 

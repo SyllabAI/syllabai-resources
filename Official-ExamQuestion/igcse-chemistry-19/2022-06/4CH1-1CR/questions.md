@@ -43,7 +43,6 @@ In terms of sub‑atomic particles, state a similarity and a difference for isot
 > difference: different
 > mass number
 > ALLOW 1 mark
-> Total for question 1 = 6 marks
 
 - **(2)** Similarity = number of protons ALLOW both isotopes
 
@@ -128,7 +127,6 @@ Describe a physical test to show that the liquid in the conical flask is pure wa
 > OR
 > M1 measure its freezing point ALLOW freeze it
 > M2 (freezing point is) 0°C
-> Total for question 2 = 8 marks
 
 - **(2)** M1 measure its boiling point ALLOW boil it
 
@@ -223,7 +221,6 @@ Describe how a student could obtain a chromatogram similar to the one shown in t
 > moving OWTTE
 > M6 mark solvent front (on paper)
 > M7 (remove paper from beaker and) allow to dry
-> Total for question 3 = 9 marks
 
 - **(4)** Any four from ALLOW water for
 
@@ -355,7 +352,6 @@ The reaction with sodium produces 0.036 g of hydrogen gas. One mole of hydrogen 
 > must be to 2 sig figs
 > 2.16 x 1022 scores 1
 > 2.2 x 1022 scores 2
-> Total for question 4 = 12 marks
 
 - **(1)** (moles of hydrogen) 0.036÷2 OR 0.018 mol
 - **(1)** 0.018 × 6.0×1023 OR 1.08×1022 molecules ALLOW ECF M1 ×
@@ -461,7 +457,6 @@ Use your answer to (b)(iv) and the Periodic Table on page 2 to determine the ide
 > ALLOW ECF from M1 as
 > long as answer is
 > nearest Group 2 metal
-> Total for question 5 = 11 marks
 
 - **(1)** Ar of metal = 148-60 OR 88 If (iv) correct
 - **(1)** metal is strontium / Sr without working
@@ -556,7 +551,6 @@ Silicon hydride reacts with oxygen to form silicon dioxide and water. Write a ch
 > all formula correct and equation correctly balanced IGNORE state symbols
 > ALLOW multiples and
 > fractions
-> Total for question 6 = 9 marks
 
 - **(1)** SiH4 + 2O2 → SiO2 + 2H2O
 
@@ -693,7 +687,6 @@ Explain why the disposal of polymers such as poly(chloroethene) is difficult.
 > OR
 > M1 when burned
 > M2 they produce toxic fumes
-> Total for question 7 = 15 marks
 
 - **(2)** 2
 
@@ -793,7 +786,6 @@ This is the ionic equation for the reaction between zinc and silver nitrate solu
 > M1 zinc/Zn is oxidised and silver ion(s)/Ag+ reduced
 > M2 zinc/Zn loses electrons and silver ion(s)/Ag+
 > gain electrons
-> Total for question 8 = 10 marks
 
 - **(2)** M1 zinc/Zn is oxidised because loses electrons
 
@@ -882,7 +874,6 @@ Explain why using a solution of a lower concentration decreases the rate of reac
 > Any reference to
 > changing energy/speed
 > of particles scores 0
-> Total for question 9 = 10 marks
 
 - **(1)** fewer particles per unit volume ALLOW particles less
 - **(1)** (hence) fewer collisions per unit time ALLOW decrease in the
@@ -890,7 +881,7 @@ Explain why using a solution of a lower concentration decreases the rate of reac
 
 ## Question 10 (10 marks)
 
-A student investigates how the electrical conductivity changes as dilute sulfuric acid is added to barium hydroxide solution. This is the student’s method. Step 1 add 50.0 cm3 of barium hydroxide solution to a beaker Step 2 measure the electrical conductivity of the solution Step 3 add 10.0 cm3 of dilute sulfuric acid to the beaker Step 4 stir the mixture Step 5 measure the electrical conductivity of the mixture Step 6 repeat steps 3 to 5 until a total of 100 cm3 of dilute sulfuric acid has been added The table shows the student’s results. Total volume of acid added Electrical conductivity in cm3 in arbitrary units 0.0 10.0 10.0 8.0 20.0 7.2 30.0 4.0 40.0 2.0 50.0 0.0 60.0 1.4 70.0 2.8 80.0 4.2 90.0 5.6 100.0 7.0
+A student investigates how the electrical conductivity changes as dilute sulfuric acid is added to barium hydroxide solution. This is the student’s method. Step 1 add 50.0 cm3 of barium hydroxide solution to a beaker Step 2 measure the electrical conductivity of the solution Step 3 add 10.0 cm3 of dilute sulfuric acid to the beaker Step 4 stir the mixture Step 5 measure the electrical conductivity of the mixture Step 6 repeat steps 3 to 5 until a total of 100 cm3 of dilute sulfuric acid has been added The table shows the student’s results. Total volume of acid added Electrical conductivity in cm3 in arbitrary units 0.0 10.0 10.0 8.0 20.0 7.2 30.0 4.0 40.0 2.0 50.0 0.0 60.0 1.4 70.0 2.8 80.0 4.2 90.0 5.6 100.0 7.0
 
 **(b)** This is the equation for the reaction. Ba(OH)2(aq) + H2SO4(aq) → BaSO4(s) + 2H2O(l)
 
@@ -991,7 +982,6 @@ Name a technique the student could use to separate barium sulfate from the mixtu
 **Mark scheme answer**
 
 > filtration OR filtering
-> Total for question 10 = 10 marks
 
 - **(1)** filtration OR filtering
 
@@ -1087,9 +1077,6 @@ In industry, tungsten oxide is reduced on a large scale using hydrogen. The perc
 > = 2 208 000 000 g OR 2208 tonnes ALLOW ECF M1×184
 > M3 mass of tungsten (considering 73.5% yield) =
 > (73.5 × 2208 ÷ 100) = 1622.88 (tonnes) ALLOW ECF from M2
-> Total for question 11 = 10 marks
-> Pearson Education Limited. Registered company number 872828
-> with its registered office at 80 Strand, London, WC2R 0RL, United Kingdom
 
 - **(1)** moles of tungsten oxide = (2784 × 106 ÷ 232) = ALLOW other correct
 - **(1)** maximum mass of tungsten = (12 000 000 × 184)

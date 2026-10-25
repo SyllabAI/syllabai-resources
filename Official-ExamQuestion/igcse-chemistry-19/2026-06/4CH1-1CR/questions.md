@@ -74,7 +74,6 @@ Give the charge on an ion of this element.
 **Mark scheme answer**
 
 > 3- ALLOW -3
-> Total for question 1 = 7
 
 - **(1)** 3- ALLOW -3
 
@@ -146,7 +145,6 @@ Which row gives the correct properties of iron(III) oxide? Nature of oxide Struc
 > simple structure
 > C is not correct as metals do not form acidic
 > oxides
-> Total for question 2 = 5
 
 - **(1)** Answer D: basic               giant ionic
 
@@ -247,7 +245,6 @@ Calculate the Rf value of the most soluble dye on the chromatogram. Rf =
 > correct calculation
 > method only
 > answer to 2 SF or more
-> Total for question 3 = 9
 
 - **(1)** distance moved by the dye AND ALLOW 4.7 _ 4.9 (cm)
 - **(1)** distance moved by the dye ÷ distance moved ECF from M1
@@ -322,7 +319,6 @@ A student is given a pure solid and an impure solid. Describe how the student ca
 > temperatures a lower melting point/a
 > pure substance has a
 > higher melting point
-> Total for question 4 = 8
 
 - **(1)** measure the melting point ALLOW measuring
 - **(1)** the pure solid has a sharp/definite/fixed
@@ -424,7 +420,6 @@ Explain why the reaction between copper(II) oxide and hydrogen is a redox reacti
 > loses oxygen OR Cu2+ /copper ion gains electrons
 > M2 hydrogen is oxidised OR hydrogen gains oxygen
 > OR H2/hydrogen loses electrons
-> Total for question 5 = 12
 
 - **(1)** copper(II) oxide is reduced OR copper(II) oxide REJECT copper alone
 - **(1)** hydrogen is oxidised OR hydrogen gains oxygen
@@ -533,7 +528,6 @@ Describe a test to show that magnesium chloride contains chloride ions.
 > formulae
 > M2 white precipitate M2 dep on silver nitrate
 > in M1
-> Total for question 6 = 12
 
 - **(1)** add (nitric) acid and silver nitrate REJECT other named
 - **(1)** white precipitate M2 dep on silver nitrate
@@ -621,7 +615,6 @@ Explain why the last four readings for the volume of gas are the same.
 > produced/reference to
 > the curve plateauing
 > M2 because all the acid has reacted
-> Total for question 7 = 9
 
 - **(1)** the reaction has stopped IGNORE no more
 - **(1)** because all the acid has reacted
@@ -736,7 +729,6 @@ Complete the equation for the polymerisation of compound B. H H H n H C C C C H 
 > M2 rest of the repeat unit correct
 > M3 repeat unit in brackets, trailing bonds present M3 dep on M2
 > and n to the bottom right
-> Total for question 8 = 13
 
 - **(1)** single bond between carbon 2 and carbon 3 REJECT if butane is
 - **(1)** rest of the repeat unit correct
@@ -828,7 +820,6 @@ Copper can also be produced by reacting copper(II) oxide with carbon. This is th
 > M2 70000 ÷ 12 = 5833
 > mol used, so C is in
 > excess
-> Total for question 9 = 9
 
 - **(2)** M1 10 000 mol of CuO needs 5000 mol of C
 
@@ -980,7 +971,6 @@ The student repeats the experiment and correctly calculates a percentage yield o
 > contamination of zinc hydroxide/sample is caused e.g. some left over zinc
 > by an identified error that would result in a hydroxide/solids from
 > greater mass previous experiments
-> Total for question 10 = 15
 
 - **(1)** zinc hydroxide/sample is wet/not dry ALLOW more
 
@@ -1073,7 +1063,6 @@ Calculate the mass, in g, of one molecule of C60 fullerene. Give your answer in 
 > answer in standard form
 > ALLOW any number of
 > SF except 1
-> total for question 11 = 11
 
 - **(1)** Mr of C60 = 720
 - **(1)** 720 ÷ 6.02 × 1023 ECF from M1

@@ -721,8 +721,6 @@ Complete the reaction profile diagram to show the position of the products, the 
 > (peak/hump must be
 > above products line) and
 > M4 Total 12
-> Pearson Education Limited. Registered company number 872828
-> with its registered office at 80 Strand, London, WC2R 0RL, United Kingdom
 
 - **(1)** horizontal line to show products below reactants
 - **(1)** vertical line from H2 + Cl2 level to 2HCl/products ACCEPT double headed

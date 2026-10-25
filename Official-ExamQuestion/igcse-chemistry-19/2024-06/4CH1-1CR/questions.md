@@ -478,7 +478,7 @@ In this experiment, the calculated value of ΔH is less than the value given in 
 
 ## Question 7 (13 marks)
 
-A student uses this apparatus to investigate the rate of reaction between dilute sulfuric acid and an excess of small pieces of zinc. gas syringe dilute sulfuric acid zinc pieces This is the student’s method. Step 1 use 50 cm3 of dilute sulfuric acid Step 2 add approximately 5 g of small zinc pieces to the sulfuric acid Step 3 quickly connect the gas syringe Step 4	record the reading on the gas syringe every 30 seconds until the reaction stops
+A student uses this apparatus to investigate the rate of reaction between dilute sulfuric acid and an excess of small pieces of zinc. gas syringe dilute sulfuric acid zinc pieces This is the student’s method. Step 1 use 50 cm3 of dilute sulfuric acid Step 2 add approximately 5 g of small zinc pieces to the sulfuric acid Step 3 quickly connect the gas syringe Step 4	record the reading on the gas syringe every 30 seconds until the reaction stops
 
 **(b)** The graph shows the volume of gas collected in the syringe during the experiment. Volume of gas in cm3 0 30 60 90 120 150 180 210 240 Time in s
 
@@ -1035,8 +1035,6 @@ Calculate the maximum mass, in grams, of tantalum that can be obtained from 2000
 > 4000 × 362 = 1 448 000
 > scores 1
 > total for question = 11
-> Pearson Education Limited. Registered company number 872828
-> with its registered office at 80 Strand, London, WC2R 0RL, United Kingdom
 
 - **(1)** (2 × 2000 =) 4000 moles of tantalum
 - **(1)** (4000 × 181=) 724 000 g of tantalum ALLOW ECF for incorrect

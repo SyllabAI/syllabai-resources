@@ -38,7 +38,7 @@ RES_DIR     = SCRIPTS_DIR.parent                         # the checkout root
 UPLOAD = Path(os.environ.get("EXAMQ_UPLOAD_DIR", "/home/z/my-project/upload"))
 
 SCHEMA = "syllabai.official-paper-questions/0.2"
-CONVERTER_VERSION = "0.17.4"  # see Official-ExamQuestion/CHANGELOG.md + LEDGER.md
+CONVERTER_VERSION = "0.18.0"  # see Official-ExamQuestion/CHANGELOG.md + LEDGER.md
 
 # ---------------------------------------------------------------- spec lanes
 # v0.16.0 generalization: the converter serves one spec lane per run (--spec).
@@ -381,6 +381,12 @@ FURNITURE_SUBS = [
     (re.compile(r"\*P\d{5}[A-Z]\w*\*"), " "),       # page identity marker (P62045A*, P58561A*, ...)
     (re.compile(r"\bTurn over\b"), " "),
     (re.compile(r"DO NOT WRITE IN THIS (?:AREA|MARGIN|SPACE)\s*"), " "),   # often 3x on one line
+    # v0.18.0 (F70): BEL U+0007 — the pdftotext artifact behind numbered method
+    # steps ("Step 1 \x07add 25 cm3"). Removed EXACTLY like the exporter's
+    # _bulletize control-char strip (drop, no space inserted), so the served
+    # stems are byte-identical before/after this fix; the strip runs here AND on
+    # the page_norm index (below) so part->page anchoring probes stay consistent.
+    (re.compile("\x07"), ""),
 ]
 FURNITURE_LINE = [
     re.compile(r"^\s*PMT\s*$"),                     # archive watermark
@@ -631,6 +637,36 @@ def parse_ms(ms_lines):
     cur = None
     last_roman = {}   # F42: (q, letter) -> index into ROMAN of the last marker roman
     TOTAL_RE = re.compile(r"^\s*Total\s+\d+\s*$")
+    # v0.18.0 (F69): the MS prints page-bottom furniture at the end of every
+    # question block — the question-total footer (two printed word orders:
+    # '(Total for Question 7 = 6)' and 'Total marks for Question 7 = 10'), the
+    # paper-total line ('Total for Paper = 70 marks'), and the closing Pearson
+    # copyright block ('Pearson Education Limited. Registered company number
+    # 872828' + 'with its registered office at 80 Strand, ...'). parse_ms
+    # treated all of it as content of the last open entry, so the furniture
+    # leaked into the corpus's final-question answer blocks (first census pass:
+    # 53 question-total lines; the full census: +60 total lines in the second
+    # word order / paper-total shapes, +96 Pearson copyright lines, + the bare
+    # 'Total = N' fragment shape the 2025-06 2CR layout prints — 42+ mark
+    # points served that furniture before this fix, G8 audit §4 #1 class).
+    # The text layer truncates/case-drifts the lines, so the skips accept every
+    # observed shape (case-insensitive; the marks digit accepts 1-3 digits for
+    # the paper total) and NOTHING else. The vertical lane already skips its
+    # own strict form (MS_V_TOTAL_RE) — chemistry's row lane is the leak. Two
+    # footer-only blocks exist corpus-wide — 2021-01 2CR 7(d) (the printed MS
+    # answer cell is an IMAGE) and 2025-06 2CR 7(c)(ii) (the parser had linked
+    # the footer block while the printed answer 'ethyl ethanoate' sits in the
+    # continuation row the row-parser mis-attributed) — both dispositioned
+    # through the F47 MS-LINK-OVERRIDES ledger with eyeballed verbatim
+    # transcriptions, pinned by canaries C80/C81/C82.
+    MS_FOOTER_LINE_RE = re.compile(
+        r"^\s*\(?\s*Total\s+(?:marks\s+)?for\s+(?:Question\s+\d{1,2}|Paper)\s*=\s*\d{1,3}\)?\s*(?:marks?)?\s*\)?\s*$"
+        r"|^\s*\(?\s*Total\s*=\s*\d{0,3}\)?\s*(?:marks?)?\s*\)?\s*$",
+        re.I)
+    PEARSON_COPYRIGHT_RE = re.compile(
+        r"^\s*Pearson\s+(?:Education\s+Limited|Edexcel)\b", re.I)
+    PEARSON_OFFICE_RE = re.compile(
+        r"^\s*with\s+its\s+registered\s+office\b", re.I)
 
     def _roman_idx(r):
         return ROMAN.index(r.lower()) if r else None
@@ -661,9 +697,17 @@ def parse_ms(ms_lines):
             return v
         return None
 
+    skip_office_next = False
     for ln in ms_lines:
-        if TOTAL_RE.match(ln):
+        if TOTAL_RE.match(ln) or MS_FOOTER_LINE_RE.match(ln):
             continue
+        if PEARSON_COPYRIGHT_RE.match(ln):
+            skip_office_next = True      # the copyright block's office line follows
+            continue
+        if skip_office_next and PEARSON_OFFICE_RE.match(ln):
+            skip_office_next = False
+            continue
+        skip_office_next = False
         mo = MS_MARKER_ONLY_RE.match(ln)
         m = MS_ROW_RE.match(ln)
         mb = MS_BARE_LETTER_RE.match(ln)
@@ -1926,14 +1970,17 @@ def main():
 
     # ---- page anchoring + assets -------------------------------------------
     pdf = fitz.open(QP_PDF)
-    page_norm = [norm(normalize_pua(pg.get_text())) for pg in pdf]   # F48: same mapping both sides
+    # F48: same mapping both sides. v0.18.0 (F70): the BEL strip mirrors
+    # clean_lines so the fixed problem_md probes keep matching the page index
+    # exactly as the BEL-bearing probes did (same pages anchor, same results).
+    page_norm = [norm(normalize_pua(pg.get_text()).replace("\x07", "")) for pg in pdf]
     # v0.10 (F41): OCR-covered pages contribute their prepared text to the
     # page-normalized index, so mentions on recovered pages anchor with real
     # page attribution.
     for e in ocr_pages:
         t = (P["ocr_index"].parent / f"qp-p{e['page']:02d}.txt").read_text()
         if e["page"] - 1 < len(page_norm):
-            page_norm[e["page"] - 1] = norm(t)
+            page_norm[e["page"] - 1] = norm(t.replace("\x07", ""))   # F70 parity
     # source-defect census: rasterized pages carry no text layer (seen in 2019-06:
     # 8 image-only pages; Q7 lost entirely, Q1/Q11/Q12/Q13/Q15 partly)
     IMG_ONLY_CHARS = 40

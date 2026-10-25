@@ -27,6 +27,62 @@
    "ms_lines": [
     "all points correctly plotted (within +/- half a square)"
    ]
+  },
+  {
+   "series": "2021-01",
+   "paper": "2CR",
+   "part": "7(d)",
+   "marks": 1,
+   "evidence": "printed MS p14: the 7(d) Answer cell is an embedded IMAGE — the displayed formula of methylpropane drawn as a cross: central CH bearing three CH3 groups (left C: H left/above/below; central C: H above; right C: H right/above/below; bottom C below the central carbon: H left/right/below; the printed top-middle H shows a slight double-print in the archive PDF render). Marks column reads 1; Notes column empty; question footer '(Total for Question 7 = 6)'. The text layer has NO extractable answer text for this cell — pre-v0.18.0 the parser rode the footer line in as the 'solution' (F66's footer-only block); v0.18.0 drops the footer, positional linkage honestly refuses, and this ledger supplies the eyeballed verbatim transcription of the printed drawing (the F47 doctrine; render evidence: 400-dpi clip of the answer-cell image bbox (139.1, 563.3, 236.1, 658.8) on page 14). Nothing is added or reworded beyond the drawing's own 2D letter arrangement.",
+   "ms_lines": [
+    "    H   H   H",
+    "    |   |   |",
+    "H - C - C - C - H",
+    "    |   |   |",
+    "    H   |   H",
+    "    H - C - H",
+    "        |",
+    "        H"
+   ]
+  },
+  {
+   "series": "2025-06",
+   "paper": "2CR",
+   "part": "7(c)(ii)",
+   "marks": 1,
+   "evidence": "printed MS p14: the 7(c)(ii) row prints Answer 'ethyl ethanoate', Notes 'IGNORE hyphens', Marks 1; the question-total footer below it prints as the bare fragment 'Total =' with the digit 15 on its own line (this paper's text layer loses 'for Question 7' — v0.18.0's F66 skip covers the fragment shape). Pre-fix the row parser never opened a (c)(ii) entry for this continuation row, so positional linkage attached the page-bottom furniture block ('Total =' + the Pearson copyright lines) as the part's 'solution'; the furniture drop exposed the block as footer-only. This ledger supplies the printed row's verbatim transcription, eyeballed from the rendered page (render evidence: 200-dpi clip of p14 top region; the (ii) marker at x~129, the answer at x~156, Notes 'IGNORE hyphens' in the Notes column). Nothing is added or reworded.",
+   "ms_lines": [
+    "ethyl ethanoate",
+    "IGNORE hyphens"
+   ]
+  },
+  {
+   "series": "2025-06",
+   "paper": "1CR",
+   "part": "9(d)(ii)",
+   "marks": 2,
+   "evidence": "printed MS p12: the 9(d)(ii) row (the draw task 'Draw the displayed formula of each of the other two isomers' after 9(d)(i)'s isomer definition) prints its answer as TWO hand-drawn displayed-formula drawings — 2-methylbutane (H-C-C-C-C chain with an H-C-H branch below the second carbon) and 2,2-dimethylpropane (central C bonded to four CH3 groups drawn as one CH3 above, one below, and the C1/C3 row ends) — with NO extractable answer text (Marks column reads 2; no Notes). Pre-fix the parser had cross-attached the PREVIOUS question's page-bottom footer fragment ('Total = 13' from Q8's total, the same bare-shape family as F66) as this part's entire solution; the furniture drop exposed the block as footer-only. This ledger supplies the printed drawings' verbatim 2D letter-arrangement transcription (the corpus's flattened-run convention for drawn answers; whitespace collapses per the solution emitter, as in the 3(d)(ii) precedent). Render evidence: 350-dpi clips of the two answer drawings at bboxes (143.3, 281.5, 291.5, 390.2) and (143.3, 178.2, 297.8, 262.6) on page 12 (eyeballed; nothing added or reworded).",
+   "ms_lines": [
+    "    H   H   H   H",
+    "    |   |   |   |",
+    "H - C - C - C - C - H",
+    "    |   |   |   |",
+    "    H   |   H   H",
+    "    H-C-H",
+    "      |",
+    "      H",
+    "",
+    "        H",
+    "        |",
+    "    H - C - H",
+    "        |",
+    "H - C - C - C - H",
+    "    |   |   |",
+    "    H   |   H",
+    "    H-C-H",
+    "      |",
+    "      H"
+   ]
   }
  ]
 }

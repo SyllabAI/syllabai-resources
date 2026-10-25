@@ -1207,8 +1207,6 @@ A mixture of 25 000 mol of iron(III) oxide and 840 000 g of carbon is heated. Us
 > M2 have 840,000÷12 OR 70,000 moles of carbon (so
 > iron(III) oxide is in excess as carbon is the limiting
 > reactant)
-> Pearson Education Limited. Registered company number 872828
-> with its registered office at 80 Strand, London, WC2R 0RL, United Kingdom
 
 - **(2)** M1 840,000g is 70,000 moles of carbon
 

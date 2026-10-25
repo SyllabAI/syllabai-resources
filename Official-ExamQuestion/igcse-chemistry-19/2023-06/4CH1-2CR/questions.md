@@ -744,8 +744,6 @@ Give the displayed formula of the carboxylic acid used to make this ester.
 **Mark scheme answer**
 
 > REJECT -OH not displayed
-> Pearson Education Limited. Registered company number 872828
-> with its registered office at 80 Strand, London, WC2R 0RL, United Kingdom
 
 - **(1)** REJECT -OH not displayed
 

@@ -768,8 +768,6 @@ Complete the diagram to show the energy levels of the reactants and products, an
 > reactants level
 > IGNORE activation energy
 > hump
-> Pearson Education Limited. Registered company number 872828
-> with its registered office at 80 Strand, London, WC2R 0RL, United Kingdom
 
 - **(1)** two horizontal lines in correct positions with ALLOW ecf on incorrect
 - **(1)** horizontal lines labelled correctly with formulae

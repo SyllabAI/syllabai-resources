@@ -69,7 +69,6 @@ Name two elements that are in the same group of the Periodic Table.
 **Mark scheme answer**
 
 > oxygen and sulfur in either order
-> (Total for Question 1 = 6)
 
 - **(1)** oxygen and sulfur in either order
 
@@ -144,7 +143,6 @@ Calculate the Rf value of dye C, giving your answer to 2 significant figures. Rf
 > M2
 > correct answer with no
 > working scores 3
-> (Total for Question 2 = 7)
 
 - **(1)** correct measurement of distance moved by ALLOW 5.4-5.6
 - **(1)** use and evaluation of 5.5 = 0.6875
@@ -274,7 +272,6 @@ When C13H28 is used in this process, three different molecules are formed. Compl
 > M2 C2H4
 > ALLOW 1 mark for
 > single product C5H10
-> (Total for Question 3 = 13)
 
 - **(1)** C3H6 + in either order
 - **(1)** C2H4
@@ -364,7 +361,6 @@ The student repeats the experiment using the same apparatus. These are her resul
 > M3 19.4(%) ACCEPT 19.375/19.38
 > correct answer with no
 > working scores 3
-> (Total for Question 4 = 9)
 
 - **(3)** M1 calculation of volume oxygen used
 
@@ -497,7 +493,6 @@ State how you should extend the investigation to see if your deduction is correc
 
 > repeat (the investigation) using different / other / more
 > (metal) carbonates
-> (Total for Question 5 = 12)
 
 - **(1)** repeat (the investigation) using different / other / more
 
@@ -610,7 +605,6 @@ The rate of reaction could also be affected by changing the temperature of the h
 > collision
 > M2 M3 ACCEPT reverse
 > arguments
-> (Total for Question 6 = 12)
 
 - **(1)** (increase/decrease) surface area
 - **(1)** increase surface area by using smaller pieces
@@ -675,7 +669,6 @@ Explain why lithium chloride has a higher melting point than hydrogen chloride. 
 > bonds in hydrogen
 > chloride cannot score M5
 > M6
-> (Total for Question 7 = 8)
 
 - **(5)** explanation including five of the following points:
 
@@ -812,7 +805,6 @@ State an environmental problem caused by carbon dioxide.
 
 > IGNORE greenhouse
 > global warming/climate change effect
-> (Total for Question 8 = 15)
 
 - **(1)** IGNORE greenhouse
 
@@ -949,7 +941,6 @@ In the student’s reaction between hydrochloric acid and sodium hydroxide, 0.05
 > ACCEPT -55
 > correct answer without
 > working scores 2
-> (Total for Question 9 = 13)
 
 - **(2)** M1 answer to M3 from (i) ÷ 0.05
 
@@ -1069,10 +1060,6 @@ Describe a test for calcium ions in the sample of gypsum.
 > M1 do a flame test ALLOW description of
 > flame test
 > M2 orange-red flame
-> (Total for Question 10 = 15)
-> Total for paper = 110 marks
-> Pearson Education Limited. Registered company number 872828
-> with its registered office at 80 Strand, London, WC2R 0RL, United Kingdom
 
 - **(1)** do a flame test ALLOW description of
 - **(1)** orange-red flame

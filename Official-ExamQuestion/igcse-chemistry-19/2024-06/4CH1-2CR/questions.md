@@ -86,7 +86,6 @@ Calculate the relative formula mass (Mr) of zinc sulfide. [for Zn, Ar = 65 for S
 **Mark scheme answer**
 
 > 97 IGNORE any units given
-> Total marks for question 1 = 4
 
 - **(1)** 97 IGNORE any units given
 
@@ -175,7 +174,6 @@ A sample of lithium contains 7.5% of 63Li and 92.5% of 73Li Calculate the relati
 > M1
 > Answer of 7 without
 > working scores 0
-> Total marks for question 2 = 6
 
 - **(1)** ((7.5 × 6) + (92.5 × 7)) ÷ 100
 - **(1)** 6.925/6.93/6.9 ALLOW 2 or more
@@ -287,7 +285,6 @@ Calculate the minimum mass of magnesium needed to react with 25.0 cm3 of 2.00 mo
 > without working scores
 > Answer of 1.20 g with
 > working scores 2
-> Total marks for question 3 = 12
 
 - **(1)** amount of HCl = (25 × 2) ÷ 1000 OR 0.050 (mol)
 - **(1)** amount of magnesium = 0.050 ÷ 2 OR 0.025 ALLOW ecf M1 ÷ 2
@@ -359,7 +356,6 @@ A mixture containing 500 mol of glucose is fermented. A mass of 5750 g of ethano
 > M1 moles of ethanol from mass = 5750/46 = 125
 > M2 theoretical moles of ethanol = 500 x 2 = 1000
 > M3 (percentage yield) = 125/1000 × 100 = 12.5% Allow ecf for M3
-> Total marks for question 4 = 8
 
 - **(3)** 12.5% Answer of 12.5% without
 
@@ -455,7 +451,6 @@ Crystals of hydrated sodium sulfate decompose when heated. This is the equation 
 > M2 mass of hydrated salt = 6.44g
 > M3 Mr of hydrated salt = 6.44/0.02 = 322
 > M4 xH2O = 322-142 = 180 so x = 10
-> Total marks for question 5 = 14
 
 - **(4)** M1 mass of sodium sulfate = 2.84 g Answer of 10 without
 
@@ -574,7 +569,6 @@ A sample of the solution is taken from near the negative electrode. The sample i
 > sodium hydroxide
 > ALLOW the solution is
 > alkaline
-> Total marks for question 6 = 11
 
 - **(1)** the universal indicator turns blue / purple
 - **(1)** OH− / hydroxide ions are present in solution ALLOW solution is
@@ -698,9 +692,6 @@ Give the name of ester A.
 **Mark scheme answer**
 
 > ethyl ethanoate
-> Total marks for question 7 = 15
-> Pearson Education Limited. Registered company number 872828
-> with its registered office at 80 Strand, London, WC2R 0RL, United Kingdom
 
 - **(1)** ethyl ethanoate
 

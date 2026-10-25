@@ -119,7 +119,6 @@ Name the two products of the reaction between hydrochloric acid and potassium hy
 > M1 potassium chloride ACCEPT in either order
 > M2 water ALLOW correct
 > chemical formulae
-> Total for Question 1 = 7 marks
 
 - **(1)** potassium chloride ACCEPT in either order
 - **(1)** water ALLOW correct
@@ -177,7 +176,6 @@ A dark purple liquid is diluted by adding water. The diluted liquid becomes a pa
 > from area of high
 > concentration to area of
 > low concentration
-> Total for Question 2 = 6 marks
 
 - **(1)** process called diffusion
 - **(1)** particles spread out (evenly throughout
@@ -268,7 +266,6 @@ The diagram shows a chromatogram for a different food dye. Some distances are sh
 > SF)
 > 0.81 with no working
 > scores 3
-> Total for Question 3 = 8 marks
 
 - **(1)** (Rf =) 9.7
 - **(1)** = 0.808(33..) 0.808(33..) with no
@@ -353,7 +350,6 @@ The table shows the composition of a sample of a different element, Y, containin
 > ALLOW M3 ECF M2
 > (must be correct to 1
 > dp)
-> Total for Question 4 = 7 marks
 
 - **(1)** (32 x 95.0) + (33 x 0.75) + (34 x 4.25)
 - **(1)** = 32.0925 32.09(25) with no
@@ -518,7 +514,6 @@ Magnesium sulfide reacts with hydrochloric acid to form magnesium chloride and h
 > M2 DEP M1
 > ACCEPT multiples and
 > fractions
-> Total for Question 5 = 14 marks
 
 - **(1)** all formulae correct
 - **(1)** correctly balanced
@@ -653,7 +648,6 @@ State why the gas produced is poisonous.
 > carry oxygen OWTTE references to
 > haemoglobin /
 > carboxyhaemoglobin
-> Total for Question 6 = 13 marks
 
 - **(1)** (carbon monoxide/CO) reduces capacity of blood to ACCEPT correct
 
@@ -706,7 +700,6 @@ The equation for the thermal decomposition of potassium hydrogencarbonate is 2KH
 > scores 4
 > 3.45/3.46/3.5/6.9
 > scores 3
-> Total for Question 7 = 6 marks
 
 - **(4)** examples of calculation of maximum mass of K 2CO3
 
@@ -863,7 +856,6 @@ Explain, in terms of particle collision theory, how increasing the temperature a
 > M2 more (successful) collisions per unit time ALLOW more frequent
 > (successful) collisions
 > M3 rate of reaction increases
-> Total for Question 8 = 15 marks
 
 - **(1)** at higher temperature particles have more ACCEPT more particles
 - **(1)** more (successful) collisions per unit time ALLOW more frequent
@@ -916,7 +908,6 @@ Describe tests the student could do to show that the mixture contains potassium 
 > M7 yellow ppt/solid
 > M7 DEP on mention of
 > silver nitrate
-> Total for Question 9 = 8 marks
 > Question number Answer Notes Marks
 
 - **(6)** Description including six of following points
@@ -1011,7 +1002,6 @@ Describe how the student could improve the method to obtain a more accurate valu
 > M1 repeat heating (and cooling)
 > ALLOW heat for longer
 > M2 until constant mass OWTTE
-> Total for Question 10 = 10 marks
 
 - **(1)** repeat heating (and cooling)
 - **(1)** until constant mass OWTTE
@@ -1134,10 +1124,6 @@ The ionic equation for the reaction is Zn (s) + Cu2+ (aq) → Zn2+ (aq) + Cu (s)
 > M1 Zn/zinc is oxidised because loses electrons
 > M2 Cu2+/copper ions reduced because gains
 > electrons
-> Total for Question 11 = 16 marks
-> Total for paper = 110 marks
-> Pearson Education Limited. Registered company number 872828
-> with its registered office at 80 Strand, London, WC2R 0RL, United Kingdom
 
 - **(1)** Zn/zinc is oxidised because loses electrons
 - **(1)** Cu2+/copper ions reduced because gains

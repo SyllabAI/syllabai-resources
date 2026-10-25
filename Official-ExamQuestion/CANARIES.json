@@ -808,6 +808,54 @@
    "check": "question_count",
    "expected": 12,
    "assertion": "Task 16 landing: 4PH1 1P 2023-06 prints 12 questions (footer-verified, sum 110) - the physics EXPECT_QUESTIONS seed. Regresses if the 4ph1 lane loses its count registry."
+  },
+  {
+   "id": "C77-ms-furniture-free",
+   "series": "*",
+   "assertion": "no MS page-bottom furniture (question-total footer in either printed word order, the paper-total line, the bare 'Total = N' fragment, the Pearson copyright block or its office continuation) survives in any served solution_md or mark_points text corpus-wide (F69; the exporter's serve-time strip is now a redundant second line of defense, never the only one)",
+   "check": "no_ms_furniture_lines"
+  },
+  {
+   "id": "C78-bel-free-corpus",
+   "series": "*",
+   "assertion": "no BEL U+0007 control char anywhere in a served topic.json string — the numbered-method-step pdftotext artifact is normalized at source in clean_lines and the page_norm anchor index (F67); the exporter's stem-side strip becomes a no-op",
+   "check": "no_pua_served",
+   "extra_chars": [
+    [
+     7,
+     32
+    ]
+   ]
+  },
+  {
+   "id": "C79-no-orphan-assets",
+   "series": "*",
+   "assertion": "every PNG under any slice's assets/ is referenced by that slice's topic.json — superseded crops are pruned in the wave that supersedes them, never left to accumulate (F71; 57 pre-existing orphans pruned by wave-25)",
+   "check": "no_orphan_assets"
+  },
+  {
+   "id": "C80-image-answer-ledger-2021-01-2cr-7d",
+   "series": "2021-01",
+   "paper": "2CR",
+   "assertion": "7(d) links through the F47 MS-LINK-OVERRIDES ledger — the printed MS answer cell is a drawn displayed-formula image (methylpropane); the pre-v0.18.0 footer-as-solution state must never return (F66)",
+   "check": "part_linked",
+   "part": "7(d)"
+  },
+  {
+   "id": "C81-continuation-row-ledger-2025-06-2cr-7c-ii",
+   "series": "2025-06",
+   "paper": "2CR",
+   "assertion": "7(c)(ii) links through the F47 ledger to its printed row ('ethyl ethanoate' / 'IGNORE hyphens') — pre-v0.18.0 the parser served the page-bottom furniture block as its solution (F66)",
+   "check": "part_linked",
+   "part": "7(c)(ii)"
+  },
+  {
+   "id": "C82-drawing-answer-ledger-2025-06-1cr-9d-ii",
+   "series": "2025-06",
+   "paper": "1CR",
+   "assertion": "9(d)(ii) links through the F47 ledger to the two hand-drawn isomer structures — pre-v0.18.0 the parser served Q8's footer fragment 'Total = 13' as its solution (F66)",
+   "check": "part_linked",
+   "part": "9(d)(ii)"
   }
  ]
 }

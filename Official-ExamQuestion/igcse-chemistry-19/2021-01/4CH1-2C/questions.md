@@ -691,8 +691,6 @@ Show that the car produces less than 100 g of carbon dioxide per km. [molar volu
 > Correct answer of 94 –
 > 95 g scores 5 marks.
 > 14 marks
-> Pearson Education Limited. Registered company number 872828
-> with its registered office at 80 Strand, London, WC2R 0RL, United Kingdom
 
 - **(1)** volume of carbon dioxide = 206 000 cm3 /
 - **(1)** volume of carbon dioxide per km = 51 500 cm3/ Division by 4 can

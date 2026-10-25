@@ -1292,8 +1292,6 @@ Calculate the value of the enthalpy change (ΔH), in kilojoules per mole, for th
 > -104.5(04) -104.48 -104.8 Total
 > -105 all score 3
 > Total marks 110
-> Pearson Education Limited. Registered company number 872828
-> with its registered office at 80 Strand, London, WC2R 0RL, United Kingdom
 
 - **(1)** Q OR 1300 OR answer to b(i) figs in the numerator
 - **(1)** ∆H = (–) 104 (kJ/mol) figs

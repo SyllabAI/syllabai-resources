@@ -596,7 +596,7 @@ The melting point of potassium sulfate is 1069 °C. Explain why potassium sulfat
 
 ## Question 7 (9 marks)
 
-A student investigates the reaction between magnesium and hydrochloric acid. He uses this method. Step 1 add 25 cm3 of dilute hydrochloric acid to a polystyrene cup Step 2 record the temperature of the acid Step 3 find the mass of a 10 cm strip of magnesium ribbon Step 4 add the magnesium ribbon to the hydrochloric acid Step 5 when all the magnesium has reacted, record the highest temperature reached
+A student investigates the reaction between magnesium and hydrochloric acid. He uses this method. Step 1 add 25 cm3 of dilute hydrochloric acid to a polystyrene cup Step 2 record the temperature of the acid Step 3 find the mass of a 10 cm strip of magnesium ribbon Step 4 add the magnesium ribbon to the hydrochloric acid Step 5 when all the magnesium has reacted, record the highest temperature reached
 
 **(b)** The thermometer shows the temperature of the acid at the start of the experiment. °C 25
 
@@ -894,7 +894,7 @@ Explain, using particle collision theory, how increasing the temperature affects
 
 
 ## Question 10 (13 marks)
-**(a)** The diagram shows the apparatus a teacher uses to determine the formula of an oxide of lead. an oxide of lead hydrogen burning hole hydrogen reduction tube heat This is the teacher’s method. Step 1 find the mass of the reduction tube Step 2 add some of the lead oxide to the reduction tube Step 3 find the mass of the reduction tube and lead oxide Step 4 pass hydrogen gas over the lead oxide and ignite the hydrogen at the hole Step 5 heat the lead oxide strongly for 10 minutes Step 6 keep passing hydrogen through the reduction tube until the tube and contents are cool Step 7 find the new mass of the reduction tube and its contents
+**(a)** The diagram shows the apparatus a teacher uses to determine the formula of an oxide of lead. an oxide of lead hydrogen burning hole hydrogen reduction tube heat This is the teacher’s method. Step 1 find the mass of the reduction tube Step 2 add some of the lead oxide to the reduction tube Step 3 find the mass of the reduction tube and lead oxide Step 4 pass hydrogen gas over the lead oxide and ignite the hydrogen at the hole Step 5 heat the lead oxide strongly for 10 minutes Step 6 keep passing hydrogen through the reduction tube until the tube and contents are cool Step 7 find the new mass of the reduction tube and its contents
 
 **(b)** The teacher completes the experiment and obtains these results. mass of reduction tube = 23.50 g mass of tube + lead oxide = 28.64 g mass of tube + lead = 28.16 g
 
@@ -1017,8 +1017,6 @@ Show that the maximum mass of lead(II) chloride that can be made from 0.0370 mol
 > scores 0
 > ALLOW alternative
 > methods
-> Pearson Education Limited. Registered company number 872828
-> with its registered office at 80 Strand, London, WC2R 0RL, United Kingdom
 
 - **(1)** n(PbCl2) = 0.0370 OR 0.0185 (mol)
 - **(1)** mass of PbCl2 = 0.0185 x 278 (g) MAX 1 for 0.0370 x 278

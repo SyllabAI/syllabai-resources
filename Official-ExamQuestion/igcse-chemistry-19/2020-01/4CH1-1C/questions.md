@@ -1093,7 +1093,7 @@ State the relationship between ΔH and the number of carbon atoms per molecule.
 
 ## Question 10 (12 marks)
 
-Nitric acid (HNO3) is used in the production of fertilisers. Nitric acid is manufactured in three stages. Stage 1	ammonia reacts with oxygen in the presence of a platinum catalyst to produce nitrogen monoxide gas, NO, and water. Stage 2	nitrogen monoxide gas reacts with more oxygen to produce nitrogen dioxide gas, NO2. Stage 3	nitrogen dioxide gas reacts with water to produce nitric acid and more nitrogen monoxide gas.
+Nitric acid (HNO3) is used in the production of fertilisers. Nitric acid is manufactured in three stages. Stage 1	ammonia reacts with oxygen in the presence of a platinum catalyst to produce nitrogen monoxide gas, NO, and water. Stage 2	nitrogen monoxide gas reacts with more oxygen to produce nitrogen dioxide gas, NO2. Stage 3	nitrogen dioxide gas reacts with water to produce nitric acid and more nitrogen monoxide gas.
 
 ### 10(a)(i) [1]
 
@@ -1229,8 +1229,6 @@ When copper(II) oxide reacts with dilute nitric acid, copper(II) nitrate is prod
 > 40.8 scores 2
 > 81.6(%) with no working
 > scores 3 marks
-> Pearson Education Limited. Registered company number 872828
-> with its registered office at 80 Strand, London, WC2R 0RL, United Kingdom
 
 - **(3)** • calculate the amount, in moles, of copper(II)
 

@@ -1104,8 +1104,6 @@ Fertilisers add nitrogen to the soil to help plants grow. Ammonia and ammonium s
 > M5 NH3 and or (NH4)2SO4 soluble so runoff /
 > wastage of fertiliser / water pollution /
 > eutrophication / leaching
-> Pearson Education Limited. Registered company number 872828
-> with its registered office at 80 Strand, London, WC2R 0RL, United Kingdom
 
 - **(4)** An answer that links any 4 points:
 

@@ -1019,7 +1019,7 @@ The student repeats the experiment and records the volume of hydrogen gas collec
 
 ## Question 12 (13 marks)
 
-This question is about hydrated compounds. Crystals of hydrated barium chloride (BaCl2 . xH2O) contain water of crystallisation. A student uses this apparatus to remove and collect the water from some crystals. barium chloride tube A crystals tube B heat water ice and salt mixture at –10 °C This is the student’s method. Step 1	record mass of tube A when empty Step 2	place a sample of hydrated barium chloride crystals in tube A and record new mass Step 3	heat tube A Step 4	allow tube A to cool and record mass Repeat steps 3 and 4 until the mass recorded in step 4 is constant. These are the student’s results. mass of tube A = 10.55 g mass of tube A and BaCl2 . xH2O = 16.65 g final mass of tube A and BaCl2 = 15.75 g
+This question is about hydrated compounds. Crystals of hydrated barium chloride (BaCl2 . xH2O) contain water of crystallisation. A student uses this apparatus to remove and collect the water from some crystals. barium chloride tube A crystals tube B heat water ice and salt mixture at –10 °C This is the student’s method. Step 1	record mass of tube A when empty Step 2	place a sample of hydrated barium chloride crystals in tube A and record new mass Step 3	heat tube A Step 4	allow tube A to cool and record mass Repeat steps 3 and 4 until the mass recorded in step 4 is constant. These are the student’s results. mass of tube A = 10.55 g mass of tube A and BaCl2 . xH2O = 16.65 g final mass of tube A and BaCl2 = 15.75 g
 
 **(c)** A sample containing 0.02 mol of hydrated copper(II) sulfate is heated using the same apparatus. The products of the reaction are anhydrous copper(II) sulfate and water. This is the equation for the reaction. CuSO4 . 5H2O(s) ⇌ CuSO4(s) + 5H2O(l)
 
@@ -1137,8 +1137,6 @@ Calculate the maximum number of water molecules in tube B after the sample of hy
 > working scores 2
 > 1.2 x 1022 scores 1
 > Total for question = 13
-> Pearson Education Limited. Registered company number 872828
-> with its registered office at 80 Strand, London, WC2R 0RL, United Kingdom
 
 - **(1)** moles of water = 0.02 x 5 OR 0.1
 - **(1)** molecules of water = 6 × 1022 ALLOW ecf from M1

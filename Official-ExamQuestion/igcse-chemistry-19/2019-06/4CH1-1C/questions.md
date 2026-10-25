@@ -1396,8 +1396,6 @@ Calculate the value of x. [Mr of (NH4)2SO4.Fe2(SO4)3 = 532 and Mr of H2O = 18] G
 > M2 ÷ M1 evaluated correctly and quoted to the correct answer
 > nearest whole number without working
 > scores 4
-> Pearson Education Limited. Registered company number 872828
-> with its registered office at 80 Strand, London, WC2R 0RL, United Kingdom
 
 - **(4)** •calculate moles of (NH4)2SO4.Fe2(SO4)3
 

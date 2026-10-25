@@ -243,10 +243,14 @@ figures cropped (2019-06 1C Q11(b) apparatus, Q12 calorimeter, 2025-06 1C 9(a)
 displayed formula); the 36-part figure queue fully dispositioned
 (FIGURE-QUEUE.json: 25 cropped + 10 served_via + 12 dismissed with QP-page
 evidence); the ambiguous MCQ 2026-06 1C 1(a) A=D="NH4+" closed at source by the
-F64 choice-script restoration (C72 pins the scripts). REMAINING OPEN (honest,
-fix-or-disclose next waves): 57 MS footer lines in mark_points (exporter strips
-at serve time); 16 BEL control chars in stems (exporter-cleaned, never
-user-facing); 58 orphan crops (repo hygiene). Full report:
+F64 choice-script restoration (C72 pins the scripts). The REMAINING OPEN minor
+classes closed by wave-25 (F69/F70/F71, 2026-10-26, converter v0.18.0): the MS
+page-bottom furniture class was measured at 362 lines in 245 corpus text blocks
+(the audit's 57-line single-shape estimate undercounted it — census before
+ship), dropped at source in parse_ms with the three footer-only masquerade
+blocks re-linked through the F47 ledger (50 served mark points cleaned; C77/
+C78/C79/C80/C81/C82); the 15 BEL control-char strings normalized at source (C78); the 57
+orphan crop PNGs pruned (C79). Full report:
 `AUDIT-2026-10-25-igcse-chemistry-19.md` (beside this corpus).
 
 ## The v0.5 serving fields (what the frontend / Smart Mark consume)

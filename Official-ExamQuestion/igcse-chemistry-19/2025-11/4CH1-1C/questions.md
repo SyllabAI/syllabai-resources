@@ -942,7 +942,7 @@ Draw an isomer of propene that does not have the same functional group.
 
 This question is about aluminium sulfate. Aluminium reacts with sulfuric acid to form aluminium sulfate. This is the equation for the reaction. 2Al + 3H2SO4 → Al2(SO4)3 + 3H2
 
-**(b)** A student uses this method to prepare some aluminium sulfate crystals. Step 1	add powdered aluminium to a beaker of dilute sulfuric acid and stir Step 2	keep stirring and adding powdered aluminium until it is in excess Step 3	filter the reaction mixture Step 4	heat the filtrate to evaporate some water and produce a saturated solution Step 5	allow the saturated solution to cool so that crystals form Step 6 filter to obtain the crystals and leave to dry
+**(b)** A student uses this method to prepare some aluminium sulfate crystals. Step 1	add powdered aluminium to a beaker of dilute sulfuric acid and stir Step 2	keep stirring and adding powdered aluminium until it is in excess Step 3	filter the reaction mixture Step 4	heat the filtrate to evaporate some water and produce a saturated solution Step 5	allow the saturated solution to cool so that crystals form Step 6 filter to obtain the crystals and leave to dry
 
 **(c)** The student adds 3.20 g of aluminium to 0.120 mol of dilute sulfuric acid.
 

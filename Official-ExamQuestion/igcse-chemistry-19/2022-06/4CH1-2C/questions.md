@@ -740,8 +740,6 @@ Complete the energy level diagram to show the products and ΔH. Energy CH4 + 2O2
 > awarded for correct
 > arrow/line labelled
 > ΔH/+890 (kJ/mol)
-> Pearson Education Limited. Registered company number 872828
-> with its registered office at 80 Strand, London, WC2R 0RL, United Kingdom
 
 - **(1)** horizontal line to show products in correct
 - **(1)** vertical line in correct position and labelled ACCEPT double headed

@@ -756,8 +756,6 @@ Methanoic acid reacts with sodium carbonate to form sodium methanoate, carbon di
 > score 3
 > 1.2 and 2.4 score 2
 > Total
-> Pearson Education Limited. Registered company number 872828
-> with its registered office at 80 Strand, London, WC2R 0RL, United Kingdom
 
 - **(1)** n(HCOOH) = 2.3 ÷ 46 or 0.05(0)
 - **(1)** n(CO2) = 0.05(0) ÷ 2 or 0.025
