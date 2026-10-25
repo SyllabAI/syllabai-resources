@@ -158,15 +158,15 @@ features:
   quick_checks: true
   summary: true
   can_you: true
-learning_objective: 'know that some reactions are reversible and this is indicated by
-  the symbol ⇌ in equations; describe reversible reactions such as the dehydration of
-  hydrated copper(II) sulfate and the effect of heat on ammonium chloride; know that
-  a reversible reaction can reach dynamic equilibrium in a sealed container; know that
-  the characteristics of a reaction at dynamic equilibrium are: • the forward and reverse
-  reactions occur at the same rate • the concentrations of reactants and products remain
-  constant.; understand why a catalyst does not affect the position of equilibrium in
-  a reversible reaction; know the effect of changing either temperature or pressure on
-  the position of equilibrium in a reversible reaction'
+learning_objective: 'know that some reactions are reversible and this is indicated
+  by the symbol ⇌ in equations; describe reversible reactions such as the dehydration
+  of hydrated copper(II) sulfate and the effect of heat on ammonium chloride; know
+  that a reversible reaction can reach dynamic equilibrium in a sealed container;
+  know that the characteristics of a reaction at dynamic equilibrium are: • the forward
+  and reverse reactions occur at the same rate • the concentrations of reactants and
+  products remain constant.; understand why a catalyst does not affect the position
+  of equilibrium in a reversible reaction; know the effect of changing either temperature
+  or pressure on the position of equilibrium in a reversible reaction'
 receipts:
 - date: '2026-10-25'
   stage: S4
@@ -174,55 +174,61 @@ receipts:
   sections_total: '9'
   pack_status: draft
   last_agent: T-BOOK-054 r0 (author; trace 1a1733bd1395ee5d)
+- date: '2026-10-25'
+  pack_status: published
+  last_agent: T-BOOK-054 r0 (author + flip; trace 1a1733bd1395ee5d)
+  updated_at: '2026-10-25'
 notes: 'T-BOOK-054 r0: section spine pinned from section-maps/u3-c21.json (scope of
   record; raw map verified byte-for-byte against section_map.py derivation, then refined
-  raw 10 -> authored 9 sections, chunk superset 25/25 receipt-verified, each chunk exactly
-  one chunkRef home). SPLIT OBJECTIVES BLOCK: the printed LEARNING OBJECTIVES continue
-  across three chunks — 0952 (core: 3.17/3.18), 0953 (CHEMISTRY ONLY banner + 3.19C/3.20C),
-  and 0956 (body-typed chunk whose opening lines carry the 3.21C/3.22C objective bullets);
-  join_set derived 6-point from objectives fragments x spine igcse-chemistry-T3:SUBc.
-  Re-homings DISCLOSED: 0959 (rehydration HINT) raw s03 -> authored s02 (completes the
-  add-water observation); 0960 SPLIT — 64-blue-squares KEY POINT bulk home s04, its NH4Cl
-  equation block taught in s03 prose (equations belong to the two-reactions story); 0956
-  heading + caption home s03, objective bullets reattached s01; raw s08+s09 MERGED ->
-  authored s08 (0975 printed under "The Effect of Concentration" carries Figure 21.8
-  tube prose — the temperature-example continuation; concentration is not a 4CH1 equilibrium
-  lever, 3.22C is temperature+pressure only — spec coverage unaffected); raw s10 "End
-  of Chemistry Only" -> authored s09 questions close (c20 s12 / c19 s20 precedent; 0976
-  END-OF-CHEMISTRY-ONLY SKILLS banner chips deduped as furniture). course.yaml chem_only:
-  true flags the BOOK chapter placement (final chemistry-only band; raw s10 "End of Chemistry
-  Only") while the SPEC composition per spine applicability is MIXED 2 core + 4 C-suffixed
-  — the course''s SEVENTH mixed pack (f-0015 sibling audit: u1 all-core x7 / all-C x3;
-  c11/c12 mixed 3+1; c13/c14 all-core; c15 all-C; c16 mixed 5+1; c17 mixed 7+3; c18 all-core;
-  c19 mixed 5+3; c20 mixed 7+1; c21 mixed 2+4 — no drift). f-0016 covers verifier-encoded
-  (spine-canonical pins, spine node igcse-chemistry-T3:SUBc): 3.17 chunk glyph-form "⇒"
-  vs spine "⇌" + chunk "and that this is indicated" vs spine "and this is indicated";
-  3.18 chunk capitalised "Describe" vs spine lowercase; 3.22C chunk splits the statement
-  into main bullet + two sub-bullets (temperature endothermic/exothermic direction; pressure
+  raw 10 -> authored 9 sections, chunk superset 25/25 receipt-verified, each chunk
+  exactly one chunkRef home). SPLIT OBJECTIVES BLOCK: the printed LEARNING OBJECTIVES
+  continue across three chunks — 0952 (core: 3.17/3.18), 0953 (CHEMISTRY ONLY banner
+  + 3.19C/3.20C), and 0956 (body-typed chunk whose opening lines carry the 3.21C/3.22C
+  objective bullets); join_set derived 6-point from objectives fragments x spine igcse-chemistry-T3:SUBc.
+  Re-homings DISCLOSED: 0959 (rehydration HINT) raw s03 -> authored s02 (completes
+  the add-water observation); 0960 SPLIT — 64-blue-squares KEY POINT bulk home s04,
+  its NH4Cl equation block taught in s03 prose (equations belong to the two-reactions
+  story); 0956 heading + caption home s03, objective bullets reattached s01; raw s08+s09
+  MERGED -> authored s08 (0975 printed under "The Effect of Concentration" carries
+  Figure 21.8 tube prose — the temperature-example continuation; concentration is
+  not a 4CH1 equilibrium lever, 3.22C is temperature+pressure only — spec coverage
+  unaffected); raw s10 "End of Chemistry Only" -> authored s09 questions close (c20
+  s12 / c19 s20 precedent; 0976 END-OF-CHEMISTRY-ONLY SKILLS banner chips deduped
+  as furniture). course.yaml chem_only: true flags the BOOK chapter placement (final
+  chemistry-only band; raw s10 "End of Chemistry Only") while the SPEC composition
+  per spine applicability is MIXED 2 core + 4 C-suffixed — the course''s SEVENTH mixed
+  pack (f-0015 sibling audit: u1 all-core x7 / all-C x3; c11/c12 mixed 3+1; c13/c14
+  all-core; c15 all-C; c16 mixed 5+1; c17 mixed 7+3; c18 all-core; c19 mixed 5+3;
+  c20 mixed 7+1; c21 mixed 2+4 — no drift). f-0016 covers verifier-encoded (spine-canonical
+  pins, spine node igcse-chemistry-T3:SUBc): 3.17 chunk glyph-form "⇒" vs spine "⇌"
+  + chunk "and that this is indicated" vs spine "and this is indicated"; 3.18 chunk
+  capitalised "Describe" vs spine lowercase; 3.22C chunk splits the statement into
+  main bullet + two sub-bullets (temperature endothermic/exothermic direction; pressure
   fewer/more moles of gas) vs spine single statement — sub-bullets absorbed into body
-  teaching. OCR repairs receipt-disclosed: copper(Il)/Copper(ll) -> copper(II) x3 (banned-regex
-  class); "leftharpoons" LaTeX leaks -> ⇌ x6 (0960/0963/0964/0969/0970 + 0977 bank context);
-  0963 "Ca CO₃(s)leftharpoons Ca O(s)" -> CaCO3(s) ⇌ CaO(s) + CO2(g); 0964 "Aleftharpoons
-  2B" -> A ⇌ 2B + "reaction between from B to A" doubled-word repair + ")is" spacing x2;
-  0969 tail "no effect on the position of equ ugen iodide we have at equilibrium" ->
-  "no effect on the position of equilibrium — the amount of hydrogen iodide present at
-  equilibrium stays the same" (fragment-pinned: subject reaction H2/I2/2HI, "ugen iodide"
-  = hydrogen iodide, no-change rule stated one sentence earlier); 0973 "Nitrogen dioxide,
-  NO, is a dark brown" -> "NO2," (subscript loss, pinned by the dimerise sentence + N2O4
-  naming) + mid-chunk sentence doubling deduped; 0975 sentence doubling x2 deduped; 0961
-  "the rate at which yellow change to blue" -> "yellow squares change to blue"; 0954
-  quote-spacing repair ("''Anhydrous'' simply means ''without water''"); print-refs stripped
-  per f-0017: 0959 "See Figure 11.11 (page 93)", 0957 "(see Chapter 17, page 186)", 0966
-  REMINDER "explained in Chapter 19" -> in-product pointer to u3:c19. ABSENT numeric
-  slots: 0965 equilibrium-composition bar charts (taught in words — more A than B, then
-  less A and more B after the temperature change; qualitative only, no invented numbers);
-  0973 equilibrium equation slot RESTORED as 2NO2(g) ⇌ N2O4(g) pinned by in-book constraints
-  (pressure right-shift produces fewer gaseous molecules = N2O4 side; forward exothermic
-  per the ∆H-sign sentence; c20 H2O2-restore precedent); Figure 21.7 truncated caption
-  completed ("exothermic in the forward reaction ... endothermic in the reverse"). Printed
-  arithmetic carried: 64-squares decay 64->48->36->27 (0960); composition shift 80%/20%
-  at 500 °C -> 60%/40% at 100 °C (0970); H2/I2 equal-moles no-effect case (0969). Voice:
-  lesson-prose@2.0.0 standalone, zero meta-references, all absent figure slots (21.1-21.8)
-  taught in words per the c15-c20 precedent; "the equilibrium shifts to use up" teleology
-  ban respected (counteract-language only). Chapter-questions close: bank 0976-0978 page-jump-only
+  teaching. OCR repairs receipt-disclosed: copper(Il)/Copper(ll) -> copper(II) x3
+  (banned-regex class); "leftharpoons" LaTeX leaks -> ⇌ x6 (0960/0963/0964/0969/0970
+  + 0977 bank context); 0963 "Ca CO₃(s)leftharpoons Ca O(s)" -> CaCO3(s) ⇌ CaO(s)
+  + CO2(g); 0964 "Aleftharpoons 2B" -> A ⇌ 2B + "reaction between from B to A" doubled-word
+  repair + ")is" spacing x2; 0969 tail "no effect on the position of equ ugen iodide
+  we have at equilibrium" -> "no effect on the position of equilibrium — the amount
+  of hydrogen iodide present at equilibrium stays the same" (fragment-pinned: subject
+  reaction H2/I2/2HI, "ugen iodide" = hydrogen iodide, no-change rule stated one sentence
+  earlier); 0973 "Nitrogen dioxide, NO, is a dark brown" -> "NO2," (subscript loss,
+  pinned by the dimerise sentence + N2O4 naming) + mid-chunk sentence doubling deduped;
+  0975 sentence doubling x2 deduped; 0961 "the rate at which yellow change to blue"
+  -> "yellow squares change to blue"; 0954 quote-spacing repair ("''Anhydrous'' simply
+  means ''without water''"); print-refs stripped per f-0017: 0959 "See Figure 11.11
+  (page 93)", 0957 "(see Chapter 17, page 186)", 0966 REMINDER "explained in Chapter
+  19" -> in-product pointer to u3:c19. ABSENT numeric slots: 0965 equilibrium-composition
+  bar charts (taught in words — more A than B, then less A and more B after the temperature
+  change; qualitative only, no invented numbers); 0973 equilibrium equation slot RESTORED
+  as 2NO2(g) ⇌ N2O4(g) pinned by in-book constraints (pressure right-shift produces
+  fewer gaseous molecules = N2O4 side; forward exothermic per the ∆H-sign sentence;
+  c20 H2O2-restore precedent); Figure 21.7 truncated caption completed ("exothermic
+  in the forward reaction ... endothermic in the reverse"). Printed arithmetic carried:
+  64-squares decay 64->48->36->27 (0960); composition shift 80%/20% at 500 °C -> 60%/40%
+  at 100 °C (0970); H2/I2 equal-moles no-effect case (0969). Voice: lesson-prose@2.0.0
+  standalone, zero meta-references, all absent figure slots (21.1-21.8) taught in
+  words per the c15-c20 precedent; "the equilibrium shifts to use up" teleology ban
+  respected (counteract-language only). Chapter-questions close: bank 0976-0978 page-jump-only
   per licensing law.'
