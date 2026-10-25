@@ -1,0 +1,55 @@
+// Wave-9 Authoring Wave Report — content module 1 of 2 (sections 1-5).
+// Fresh wave-9 of record throughout; every number traceable to download/wave9/wave9-receipt.json.
+module.exports = [
+  { t: "h1", x: "1. Executive Summary" },
+  { t: "p", x: "Wave-9 is complete of record: twelve of twelve register notes authored and exported first-pass clean under a single operator ignition (trace 1a174b960e367b61, verbatim \u201CGo wave-9\u201D), the fourth fully single-ignition wave of the programme. The wave opened Topic 4 Organic Chemistry across its five built subtopics, carrying twenty-seven lessons with one hundred and thirty-five explained checks, one hundred and thirty-five key points and sixty glossary terms over thirty-seven thousand four hundred and eighty-two characters of pinned source corpus. Every layer passed the schema gate and the house-style lint before any chain fired, and every chain closed with exactly one export event, zero re-exports, zero pauses and the permanent P0 guard clean on all twelve event logs." },
+  { t: "p", x: "The headline result is a five-subtopic opening in one stroke: Introduction, Crude Oil and Alkanes all closed outright, Alkenes closed outright, and only Alcohols remains partially built at one of two notes. The programme position is one hundred and four of one hundred and twelve notes authored, 92.9 percent, with twenty-four of twenty-eight subtopics closed and a single eight-note wave left before the corpus completes. The full quality picture held in its simplest possible form: zero non-designed lint warnings, and a warning inventory of twelve designed workedExample-null declarations, one per note, the second wave after wave-7 whose entire inventory sits in a single designed class." },
+  { t: "p", x: "Entry discipline ran at one-wave scope and is recorded in the integrity block. The remote home arbitrated a head that had moved past the wave-8 landing through an interleaved push, and manifest v7 verified the entire local wave-8 set, twenty-nine download files plus all fourteen event logs, by recomputed SHA-256 before any wave-9 work began. For the first time no numeric worked example was ported: none of the twelve source notes carries a calculation section, so all twelve layers declare the designed null, and the copy-it red line was never tested." },
+
+  { t: "h1", x: "2. Posture and Protocol" },
+  { t: "p", x: "The wave ran under the OPEN posture of record (build it fully, operator decision standing from trace 1a1683ec43a016a9, brief A5-Posture-Decision-Brief-Open-20261023.docx), paced by wave-pacing-open/0.1. Pacing is a schedule, not a gate: the register of twelve notes was drawn from the pacing file's wavePlan wave-9 entry verbatim and cross-asserted at receipt build. Measurement discipline follows the A1 specification section 7 in its batch-flow form: declared assistance per phase, pauses logged with reason codes (none occurred), and the corpus pinned to the snapshot of record." },
+  { t: "p", x: "The chain discipline of record was applied natively for the eighth consecutive wave. Each note ran as one single-shell invocation: the harness start command opened P0 as a read-only phase; the first phase command, P1, closed P0 unflagged; phases P2 through P8 then closed with the declared-assist flag; and the export command closed P8 mechanically while validating the schema, running the lint and filing the timing receipt beside the layer. Assisted phases are therefore exactly P1 through P7 on every receipt, P0 and P8 are unflagged on every event log, and the wave-3 permanent guard asserting an unflagged P0 closure passed on all twelve logs." },
+  { t: "p", x: "Lane hygiene was maintained without exception. Database contact for the entire wave was zero: all twelve note bodies came from the pinned local snapshot with per-note SHA verification at preparation, and the official spec texts were resolved from the graph content pack in the repository rather than from any database. No production surface was written, no deployment was touched, and the only GitHub writes of the programme remain the operator-convention additive commits to the syllabai-resources repository. Tokens were never echoed." },
+
+  { t: "h1", x: "3. Corpus Pin and Register" },
+  { t: "p", x: "The snapshot file pin was recomputed at wave entry and again at close-out, and matched the minted pin both times: e23e2ab7 through 487d, the file of record since the wave-2 re-verification. The snapshot manifest carries the corpus shape of record: four topics, twenty-eight subtopics, one hundred and twelve notes at forty, thirty-six, fifteen and twenty-one per topic, a single corpus version, and three hundred sixty-one thousand two hundred seventy-two body characters. The twelve wave-9 bodies were read end to end from this pinned snapshot and each recomputed body hash matched its registered row hash." },
+  { t: "p", x: "Official spec texts were resolved from the specification-points pack in the repository's knowledge graph, after proving parity: four probe codes drawn from wave-5's layers of record matched the pack's official wording exactly, with the flattened 2.19 code excluded from the probe set because its flattening is the documented treatment of record. The wave-8 generalisation then ran data-driven over all thirty wave-9 codes and found no multi-bullet statements, so every spec text this wave is the pack wording verbatim with zero flattening applied, and the treatment now travels with the data for the final wave." },
+  { t: "table", caption: "Table 1 - Wave-9 register of record (pacing file wavePlan wave-9, cross-asserted at receipt build)", header: ["Note", "Subtopic", "Chars", "Spec points", "Lessons"], widths: [34, 18, 9, 29, 10], rows: [
+    ["Organic Compounds", "Introduction", "5,301", "4.1, 4.2, 4.3, 4.5", "3"],
+    ["Naming Organic Compounds", "Introduction", "2,195", "4.4", "2"],
+    ["Classifying Organic Reactions", "Introduction", "2,275", "4.6", "2"],
+    ["Crude Oil & Fractional Distillation", "Crude Oil", "5,324", "4.10, 4.7, 4.8, 4.9", "3"],
+    ["Combustion", "Crude Oil", "5,167", "4.11, 4.12, 4.13", "3"],
+    ["Nitrogen Oxides & Sulfur Dioxide", "Crude Oil", "3,303", "4.14, 4.15, 4.16", "2"],
+    ["Cracking", "Crude Oil", "3,186", "4.17, 4.18", "2"],
+    ["Alkanes", "Alkanes", "1,716", "4.19, 4.20, 4.21", "2"],
+    ["Halogens & Alkanes", "Alkanes", "1,726", "4.22", "2"],
+    ["Alkenes", "Alkenes", "2,573", "4.23, 4.24, 4.25, 4.26", "2"],
+    ["Bromine & Alkenes", "Alkenes", "2,798", "4.27, 4.28", "2"],
+    ["Alcohols", "Alcohols", "1,918", "4.29C, 4.30C", "2"],
+  ] },
+  { t: "p", x: "The register spans the organic opening sequence from the hydrocarbon rule to the alcohols, with three notes carrying three lessons each, the three richest bodies at or above five thousand characters, and the remaining nine carrying two. The thirty spec points of the register cover codes 4.1 through 4.30C without a gap, including the two higher-tier alcohols codes. No note in this wave carries a practical, so the aim-method-results-conclusion convention rests this wave; the wave-10 register resumes it." },
+
+  { t: "h1", x: "4. Results" },
+  { t: "p", x: "All twelve layers were pre-flighted clean before any chain fired: schema validation passed and the lint reported zero hard fails on every layer, with the warning state at the designed-or-none target of exactly one designed declaration per note and zero other warnings anywhere. The twelve chains then ran without a single blocked export, re-export or pause: each note exported on its first attempt, and the aggregate receipt's mechanical asserts confirmed nineteen events per log, exactly one P8 closure per log, and unflagged P0 closures throughout." },
+  { t: "p", x: "The measured tally is the all-zero form the programme has used since wave-2's posture shift: focused time zero seconds per note and wall-clock zero seconds wave-wide, because authoring sits outside the instrumented chain under the batch-flow placement. The event logs nonetheless carry real ground truth at millisecond resolution: P0-through-P7 flag closures ranged from two hundred ten to two hundred forty-six milliseconds per note, and the P8 window was sub-resolution on every single-pass note. This is chain telemetry and is classified of record as export-gate evidence, not authoring effort." },
+  { t: "table", caption: "Table 2 - Per-note results of record (12/12 exported first-pass clean)", header: ["Note", "Lessons", "Checks", "Worked example", "Lint warnings"], widths: [40, 11, 11, 24, 14], rows: [
+    ["Organic Compounds", "3", "15", "null (designed)", "1 designed"],
+    ["Naming Organic Compounds", "2", "10", "null (designed)", "1 designed"],
+    ["Classifying Organic Reactions", "2", "10", "null (designed)", "1 designed"],
+    ["Crude Oil & Fractional Distillation", "3", "15", "null (designed)", "1 designed"],
+    ["Combustion", "3", "15", "null (designed)", "1 designed"],
+    ["Nitrogen Oxides & Sulfur Dioxide", "2", "10", "null (designed)", "1 designed"],
+    ["Cracking", "2", "10", "null (designed)", "1 designed"],
+    ["Alkanes", "2", "10", "null (designed)", "1 designed"],
+    ["Halogens & Alkanes", "2", "10", "null (designed)", "1 designed"],
+    ["Alkenes", "2", "10", "null (designed)", "1 designed"],
+    ["Bromine & Alkenes", "2", "10", "null (designed)", "1 designed"],
+    ["Alcohols", "2", "10", "null (designed)", "1 designed"],
+  ] },
+
+  { t: "h1", x: "5. Quality" },
+  { t: "p", x: "Pre-flight transparency of record: thirteen source-fidelity runs across nine notes were caught and paraphrased to the at-most-eight-word rule before any chain fired, among them the fossil-fuel list run of nine words, the six-fractions run, and two whole-sentence verbatim carries in the alcohols note. Eight plain-words-register slips were caught in the scanned fields of seven notes: distillation in three primers, then radiation, separation, classification and demonstration once each, each rephrased in place, with distillation additionally carried by an exact glossary term inside the crude oil note itself so the subject's own headline word stays usable there." },
+  { t: "p", x: "Sixteen template-uniformity flags at thirty-one to forty-one percent low-versus-medium divergence were rebalanced by lengthening the low layers, the widest such sweep of the programme, concentrated in the shorter notes where the medium register naturally runs long. One whole-sentence insight the sweep validated: the organic opening notes are definition-dense, so the medium restatements accumulate qualifying clauses faster than their low counterparts, and the uniformity guard earns its keep precisely there." },
+  { t: "p", x: "The warning inventory reconciles exactly: twelve designed declarations of the workedExample-null class, one per note, and nothing else. Every check option names the misconception it catches, distractor explanations stay within the one-to-two sentence house rule, and the plain-words register held on every scanned field at export. The round verifier's designed-or-none check passes on all twelve notes." },
+];
