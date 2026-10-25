@@ -332,4 +332,24 @@ backlog:
       pipeline/sib_evidence_claim_qa.py — the wave-1 script had NOT been committed
       with #131), educational review PASS on the five pilot criteria per artifact.
       MIS family 9/9 COMPLETE. Scoreboard: 71 x SIB-MANI-007. Remaining queue
-      unchanged."
+      unchanged.
+      PASS 3 EXECUTED 2026-10-26 (operator order 'order pass 3 EXP' trace
+      1a174ae7817182b9, channel zai-web): run SIB-CHEMISTRY_4CH1-RUN-004 = EXP-01..08
+      (64 records EXP-001..064) through the full chain — preflight PASS (EXP primaries
+      SRC-SPEC-4CH1 + SRC-BOOK-4CH1-SB1 RESOLVED, the latter now incl. the registered
+      v3-chunks digest; 10 absent corpora disclosed), 8 agent-authored pack specs +
+      packs (bounded v3-chunk excerpts at line + chunk-id identity via evidence_pack.py
+      r1 _jsonl_locate; bounded spec pages 17-29; pack caps enforced), authoring from
+      packs alone, validator QA @ 357ace0a 0 errors x8 (INFO SIB-ANCH-003 registry note
+      disclosed), evidence-claim QA r2 253 citations / 0 violations (sib_evidence_claim_qa.py
+      r1 -> r2: family-general record blocks, .jsonl path + line-locator grammar,
+      locator-kind quote binding — in-turn repair cycle disclosed in the run manifest),
+      educational review PASS on the five pilot criteria per artifact. The PASS 3
+      BLOCKED note above is SUPERSEDED: the v3 OCR parse of the student book
+      (books/CATALOG.md §3.1, doc e6c0db50, 1,234 chunks, audit GREEN 2026-10-18) is
+      the pack-citable text of record, registered as SRC-BOOK-4CH1-SB1 evidence in
+      source_manifest v1.2.3; the Pearson publisher-eBook purchase decision remains
+      open ONLY for the native-text upgrade lane (TUT/pass 8 polish), not for EXP
+      grounding. EXP family 8/8 COMPLETE. Remaining queue: pass 5 ASM+MS+EXM,
+      pass 6 PED+PRA+PRO, pass 7 HIS (BLOCKED on legacy 4CH0 sources), pass 8 TUT,
+      pass 9 GAP."
