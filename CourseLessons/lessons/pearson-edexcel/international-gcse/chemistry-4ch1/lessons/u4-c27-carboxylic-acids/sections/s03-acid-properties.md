@@ -3,6 +3,8 @@ id: u4:c27:s03
 title: Acid properties of the carboxylic acids
 bookPage: 294
 authored: true
+chunkRefs:
+- chem_v3_u4_c27_pdf303_1150
 specRefs:
 - 4.36C
 blocks: []

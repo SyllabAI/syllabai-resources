@@ -3,6 +3,8 @@ id: u4:c27:s06
 title: Reaction with carbonates
 bookPage: 295
 authored: true
+chunkRefs:
+- chem_v3_u4_c27_pdf304_1153
 specRefs:
 - 4.36C
 blocks: []

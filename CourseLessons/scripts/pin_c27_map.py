@@ -57,7 +57,7 @@ SECTIONS = [
   ['4.34C', '4.35C'],
   ['molecular-formula', 'structural-formula', 'displayed-formula', 'methanoic-acid', 'homologous-series']),
  ('s03', 'Acid properties of the carboxylic acids', 294,
-  [], ['4.36C'],
+  [P+'303_1150'], ['4.36C'],
   ['weak-acid', 'ethanoic-acid']),
  ('s04', 'Reaction with metals', 294,
   [P+'303_1150', P+'304_1151', P+'304_1152'], ['4.36C'],
@@ -66,7 +66,7 @@ SECTIONS = [
   [P+'304_1153'], ['4.36C'],
   ['strong-acid', 'weak-acid', 'dissociation']),
  ('s06', 'Reaction with carbonates', 295,
-  [], ['4.36C'],
+  [P+'304_1153'], ['4.36C'],
   ['metal-carbonate', 'salt', 'ethanoate-ion']),
  ('s07', 'Chapter 27 questions', 295,
   [P+'304_1154', P+'305_1155', P+'305_1156'], ALL4,
@@ -75,6 +75,16 @@ SECTIONS = [
 
 # ---- invariants BEFORE writing ----
 rawmap = json.load(open(RAW))
+if len(rawmap['sections']) != 5:
+    # the committed map was already refined by the r0 run — re-derive the raw map
+    # of record fresh (S0.8y byte-equality was asserted at r0; re-derivation keeps the
+    # script re-runnable at r1+)
+    import subprocess, tempfile
+    tmp = tempfile.NamedTemporaryFile(suffix='.json', delete=False).name
+    subprocess.run(['python3', str(ROOT / 'scripts/section_map.py'), '--parsed', str(PARSE),
+                    '--chapter', 'u4:c27', '--out', tmp], check=True, capture_output=True)
+    rawmap = json.load(open(tmp))
+    assert len(rawmap['sections']) == 5, f're-derived raw != 5 sections: {len(rawmap["sections"])}'
 raw_refs = [r for s in rawmap['sections'] for r in s['chunkRefs']]
 authored_refs = [r for s in SECTIONS for r in s[3]]
 assert len(rawmap['sections']) == 5, len(rawmap['sections'])
@@ -86,7 +96,18 @@ for line in open(PARSE, encoding='utf-8'):
         census.add(c['id'])
 assert len(census) == 14, len(census)
 assert set(authored_refs) == census, 'authored != census'
-assert len(authored_refs) == len(set(authored_refs)) == 14, 'single-home violated'
+# single-home law with the r1 DISCLOSED-shared-pointer exception: s03 lists 1150 and s06
+# lists 1153 as PROVENANCE POINTERS to the split-source chunks they teach from (the contract
+# honest-empty law requires >=1 chunkRef per section) — 15 pointers, 14 unique, the two
+# duplicates shared with s04 (1150) and s05 (1153); exclusive census homes unchanged
+assert len(authored_refs) == 16 and len(set(authored_refs)) == 14, 'shared-pointer shape changed'
+shared = [c for c in set(authored_refs) if authored_refs.count(c) > 1]
+assert set(shared) == {P+'303_1150', P+'304_1153'}, f'unexpected shared pointers: {shared}'
+# the EXCLUSIVE census home of each shared chunk (first section listing it in the refined table
+# is the s04/s05 bulk home; s03/s06 are the borrower sections)
+def census_home(cid):
+    return next(s[0] for s in SECTIONS if cid in s[3] and s[0] not in ('s03', 's06'))
+assert census_home(P+'303_1150') == 's04' and census_home(P+'304_1153') == 's05'
 # absent slot: chapter's global sequence 1142..1156 = 15 numbers, 1147 dropped by the parse.
 # Position: between 1146 (REACTION WITH METALS banner + Fig 27.3 caption + DRAWING AND
 # NAMING heading) and 1148 (Table 27.1) on printed p294 — the image-rendered p294 figure
@@ -98,7 +119,9 @@ assert all(c.startswith(P) for c in census), 'unexpected id prefix in census'
 
 # raw re-homing spot-asserts (receipt-disclosed)
 def home(cid):
-    return next(s[0] for s in SECTIONS if cid in s[3])
+    # EXCLUSIVE census home (r1 law): skip the two disclosed borrower sections (s03/s06)
+    # whose chunkRefs entries are provenance pointers to their split-source chunks
+    return next(s[0] for s in SECTIONS if cid in s[3] and s[0] not in ('s03', 's06'))
 assert home(P+'302_1142') == 's01' and home(P+'302_1143') == 's01', 'opener + LO box (2-col interleave deduped) -> s01'
 assert home(P+'303_1144') == 's02', 'displayed-formula HINT + Fig 27.2 -> s02 (prints p294 beside the drawing section)'
 assert home(P+'303_1145') == 's02', 'naming KEY POINT (count TOTAL carbons incl. -COOH) -> s02'

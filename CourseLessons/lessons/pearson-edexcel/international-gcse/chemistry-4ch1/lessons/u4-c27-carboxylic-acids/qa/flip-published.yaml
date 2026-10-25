@@ -31,3 +31,8 @@ glossary: '21 entries, full ms layer (ms_accepts + ms_avoids + chunkRef source);
 post_flip_checks:
   re_lint: 'PASS 0/0 at published'
   verifier: 'verify_c27_s0.py ALL GREEN 67 checks at published (f-0023 law, committed in-repo)'
+r1_amendment:
+  reason: 'G4 contract failure at the v2 bake gate: books-lesson.ts lessonSectionSchema requires chunkRefs min(1) — "a section with zero prose provenance is not a lesson section (honest-empty law)". The r0 pack emitted sections.2 (s03) and sections.5 (s06) with chunkRefs [] (they are authored:true sections taught from disclosed head/mid splits with no census home of their own).'
+  fix: 's03 chunkRefs = [chem_v3_u4_c27_pdf303_1150] (the split-source chunk whose ACID PROPERTIES head this section teaches; the chunk census home stays s04) and s06 chunkRefs = [chem_v3_u4_c27_pdf304_1153] (the split-source chunk whose REACTION WITH CARBONATES mid this section teaches; the census home stays s05) — the contract reads chunkRefs as PROVENANCE POINTERS (overlap allowed across sections), so the exclusive census-home map is UNCHANGED (16 pointers / 14 unique; the r0 single-home law relaxed with the disclosed exception in pin_c27_map.py + verify_c27_s0.py)'
+  flip: 're-emit (status=draft) then re-flip exactly-1 held: 31581 -> 31585 bytes (+4), sha256 9a502d6d -> 344472ba; post-amendment verify_c27_s0.py ALL GREEN 68 checks at published; re-lint 0/0'
+  disclosure: 'the r0 receipt above records the original flip of record (31493 -> 31497); the r1 amendment is a separate commit on main (T-BOOK-060 r1) — both are part of the same operator lane "go: c27"; tracker rows unchanged (pack_status published 7/7 remains true)'

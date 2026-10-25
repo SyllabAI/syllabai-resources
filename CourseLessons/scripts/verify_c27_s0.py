@@ -53,7 +53,7 @@ check('S0.3 census sweep: ALL u4_c27 chunks in parse are mapped into sections', 
 # (7) raw map of record — coverage + authored refinement set
 sm = json.load(open(COURSE / 'section-maps/u4-c27.json'))
 sm_refs = [r for s in sm['sections'] for r in s['chunkRefs']]
-check('S0.3b refined committed section-maps/u4-c27.json = 7 sections / 14 refs', len(sm['sections']) == 7 and len(sm_refs) == 14, f"sections={len(sm['sections'])} refs={len(sm_refs)}")
+check('S0.3b refined committed section-maps/u4-c27.json = 7 sections / 16 pointers (14 unique; s03/s06 carry the disclosed shared provenance pointers per the r1 contract-compliance amendment)', len(sm['sections']) == 7 and len(sm_refs) == 16 and len(set(sm_refs)) == 14, f"sections={len(sm['sections'])} refs={len(sm_refs)} unique={len(set(sm_refs))}")
 check('S0.5d committed map titles+pages == lesson.yaml', all(a['title'] == b['title'] and a['bookPage'] == b['bookPage'] for a, b in zip(sm['sections'], lesson['sections'])))
 RAW_EXPECT_SECTIONS = 5   # pre-lane raw derivation (verified byte-equal to section_map.py output pre-refinement)
 RAW_EXPECT_PAGES = [293, 295]
@@ -76,7 +76,8 @@ check('S0.5b bookPage monotonic', pages == sorted(pages), str(pages))
 check('S0.5c section count == 7 == course row', len(lesson['sections']) == 7)
 sec_by_id = {s['id']: s for s in lesson['sections']}
 def home(cid):
-    return next(s['id'] for s in lesson['sections'] if cid in s['chunkRefs'])
+    # EXCLUSIVE census home (r1 law): skip the two disclosed borrower sections
+    return next(s['id'] for s in lesson['sections'] if cid in s['chunkRefs'] and s['id'] not in ('u4:c27:s03', 'u4:c27:s06'))
 check('S0.5f opener + LO box home s01 (1142+1143; two-column LO box interleave deduped)', home('chem_v3_u4_c27_pdf302_1142') == 'u4:c27:s01' and home('chem_v3_u4_c27_pdf302_1143') == 'u4:c27:s01')
 check('S0.5g HINT + KEY POINT rehomed raw-s01 -> authored-s02 (1144+1145; print p294 beside the drawing section)', home('chem_v3_u4_c27_pdf303_1144') == 'u4:c27:s02' and home('chem_v3_u4_c27_pdf303_1145') == 'u4:c27:s02')
 check('S0.5h 1146 home s02 by bulk (DRAWING AND NAMING tail; REACTION WITH METALS banner head + photo caption taught s04 — margin-first reading order, c24 precedent)', home('chem_v3_u4_c27_pdf303_1146') == 'u4:c27:s02')
@@ -86,7 +87,7 @@ check('S0.5k 1151 home s04 (ionic-explanation tail; glued CHAPTER QUESTIONS bann
 check('S0.5k2 1152 home s04 (ethanoate-ion figure + other metals + zinc ethanoate)', home('chem_v3_u4_c27_pdf304_1152') == 'u4:c27:s04')
 check('S0.5k3 1153 home s05 by bulk (EXTENSION weak/strong box; REACTION WITH CARBONATES mid taught s06 — printed banner dropped by the parse, promoted to authored s06; Q1 tail taught s07)', home('chem_v3_u4_c27_pdf304_1153') == 'u4:c27:s05')
 check('S0.5k4 questions bank 1154+1155+1156 chunkRef home s07 (c11-c26 questions-close precedent)', home('chem_v3_u4_c27_pdf304_1154') == 'u4:c27:s07' and home('chem_v3_u4_c27_pdf305_1155') == 'u4:c27:s07' and home('chem_v3_u4_c27_pdf305_1156') == 'u4:c27:s07')
-check('S0.5k5 s03 + s06 authored:true with no census home (taught from disclosed head/mid splits)', len(sec_by_id['u4:c27:s03']['chunkRefs']) == 0 and len(sec_by_id['u4:c27:s06']['chunkRefs']) == 0)
+check('S0.5k5 s03 + s06 authored:true with the DISCLOSED SHARED PROVENANCE POINTERS (r1 contract-compliance amendment: chunkRefs min(1) honest-empty law; 1150 -> s03 shared with the s04 census home, 1153 -> s06 shared with the s05 census home; 16 pointers / 14 unique; exclusive census homes unchanged)', sec_by_id['u4:c27:s03']['chunkRefs'] == ['chem_v3_u4_c27_pdf303_1150'] and sec_by_id['u4:c27:s06']['chunkRefs'] == ['chem_v3_u4_c27_pdf304_1153'])
 
 # (4) numeric-slot audit
 tails = sorted(int(i.rsplit('_', 1)[1]) for i in c27_ids)
@@ -107,6 +108,7 @@ check('S0.8 join_set == [4.34C .. 4.37C] ALL CHEMISTRY-ONLY', join_set == EXPECT
 check('S0.8a ALL-C shape: 0 core + 4 C-suffixed (SECOND consecutive all-C pack after c26, sixth overall)', sum(1 for c in join_set if c.endswith('C')) == 4)
 check('S0.8a2 spine applicability: papers [2C] + double_award_shared FALSE on all 4', all(p['applicability']['papers'] == ['2C'] and not p['applicability']['double_award_shared'] for p in pts))
 check('S0.8y every authored section carries >=1 specRef (zod min(1) law)', all(len(s.get('specRefs') or []) >= 1 for s in lesson['sections']))
+check('S0.8y2 every authored section carries >=1 chunkRef (contract honest-empty law; r1 shared-pointer law for s03/s06)', all(len(s.get('chunkRefs') or []) >= 1 for s in lesson['sections']))
 check('S0.8z f-0015 sibling audit run SUBSTANTIVELY: mixed-shape ledger has no drift', True, 'u1: all-core x7 / all-C x3; c11/c12 mixed 3+1; c13/c14 all-core; c15 all-C; c16 mixed 5+1; c17 mixed 7+3; c18 all-core; c19 mixed 5+3; c20 mixed 7+1; c21 mixed 2+4; c22 ALL-CORE 6+0; c23 ALL-CORE 12+0; c24 ALL-CORE 4+0; c25 ALL-CORE 6+0; c26 ALL-C 0+5; c27 ALL-C 0+4')
 
 chunks = {}
