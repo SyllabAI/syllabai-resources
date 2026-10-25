@@ -717,3 +717,41 @@ served bundle PR carries a full disclosure census.
   the #136 merge (e70a7140) had reverted — the bfd9a8f2 restore of record covered UGM-Resources/ + UGM-Enrichment/
   only and the root LEDGER.md reverted with the branch (recovered verbatim from the #134 head e75ba613; the
   #136/#133 failure mode's fourth documented occurrence, first root-level casualty).
+
+- **T-UGM-MODE1-14 — UGM mode-1 lane enrichment, Pure 3 Numerical solution of equations lane (this run)**:
+  fifteenth landing from the UGM corpus, and the **sixth lane on the pure-3 course plane** (`course:
+  cie-a-level-maths-20-pure-3`). Target of record: CIE 9709 Pure 3 subtopic 3.6 Numerical solution of equations,
+  spec points 3.6.1–3.6.3, verbatim from the served spine parse (SUB3.6 'Numerical solution of equations', orders
+  22–24; parse artifacts carried verbatim; no `T-SPECS` repair needed) — no fold fragments. Facts file of record:
+  `UGM-Enrichment/cie-a-level-maths-20-pure-3-iteration.json` (task `T-UGM-MODE1-14`, review_state SUGGESTED).
+  Corpus sweep 855 → 48 candidates of record (tight pass-2 iteration/sign-change/convergence regex + pass-1
+  title/description + four targeted angle patterns — decimal-places+root, rearrangement-form,
+  trial-and-improvement, fixed-point, x=g(x), successive-approximations; NO pre-baked bearing pool this lane — no
+  prior lane routed rows to 'P3 3.6') → **11 aligned rows** = 3 fresh rows (r8711 3.6.1 / r8013 3.6.1 /
+  staircase-sequences 3.6.2+3.6.3) + **1 cross-course flip** (r8404 → 3.6.2/3.6.3, riding its lane-6 whole-station
+  body under `pure-1-series/` whose `spec_points` were `[]` unmapped-by-design — the circular-slice precedent,
+  first flip of record whose prior body carried no spec assertion) + **7 one-to-many joins beside standing
+  alignments of record** (r8231 → 3.6.1/3.6.3 riding the 1.7.3 body — trial-and-improvement + the Newton-Raphson
+  x_{n+1} formula to 3 d.p.; r8679 → 3.6.2/3.6.3 riding the lane-13 3.5.1 pick body — the numerical-canon survey +
+  Newton-Raphson from first to second approximation; r7549 → 3.6.1 riding the 1.3.2 body — sign change + continuity
+  to 1 d.p.; r5948 → 3.6.1 riding the 1.3.1/1.3.2 bodies — the chord-intercept linear-interpolation formula;
+  to-log-or-not-to-log and see-the-power → 3.6.1 riding lane-10 bodies (medium); r9082 → 3.6.1 riding the
+  1.7.2/3.1.4 body (medium)) **+ 1 fresh non-overlap recorded by reference only** (`bodyImported: false`;
+  staircase-sequences-revisited, the companion disclosure) **+ 36 of-record candidates rejected with reasons**.
+  NO honest gap this lane: 3.6.1 carries 8 rows, 3.6.2 three, 3.6.3 four. Primary picks of record:
+  r8711 (3.6.1, fresh — the purest sign-change search) / r8404 (3.6.2 — rides its lane-6 body, the r6018
+  fresh-pick-impossible convention disclosed) / r8231 (3.6.3 — rides its lane-3 body, disclosed). Cross-map of
+  record: `undergroundmathematics/resources/derived/cross-map-p3-iteration.json` + narrative
+  `undergroundmathematics/docs/cross-map-p3-iteration.md` @ syllabai-experimental 2d93dd7d.
+  Text of record: 3 new files under `UGM-Resources/pure-3-iteration/` (T-UGM-IMPORT-14, below) with
+  `primaryPick` cross-referenced to `UGM-Enrichment/` T-UGM-MODE1-14.
+- **T-UGM-IMPORT-14 — UGM text corpus import, Pure 3 Numerical solution of equations lane (this run)**:
+  fifteenth landing; the candidate-model law continues (lane-8..13 shape): 3 fresh 3.6-bearing resources,
+  converted from `ugm-clean` through the byte-proven converter (pre-flight: **136/136 byte-identity against ALL
+  lane-8..13 of-record fresh bodies** — zero law drift across six lanes), fm planes
+  `curriculum_code: CIE-9709-P3-2023`, `lane: cie-a-level-maths-20-pure-3`, `task: T-UGM-IMPORT-14`,
+  `examProvenance` in the enrichment/cross-map rows = acknowledgement first line verbatim. Filename
+  `{ugm_id}-{title-slug}.md` under the lane-9 slug law (re-proved across the 136; the known source-data residuals
+  absent from every lane-14 title). MANIFEST v14 (lane-14 block appended; lane-1..13 rows + v9 assets untouched;
+  file_count 605 → 608). Fleet audits: sha256 3/3, delimiter parity 3/3, fm↔enrichment membership 11/11 aligned
+  rows (3 fresh + 8 by-reference), primaryPick 3/3 unique, 0 `ugm_id` collisions against lanes 1–13.

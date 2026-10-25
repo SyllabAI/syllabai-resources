@@ -122,6 +122,22 @@ its lane-9 body — disclosed) / r8134 (3.5.5) / r8890 (3.5.6). This lane also r
 the #136 clobber had reverted (root `LEDGER.md` — the clobber failure mode's first root-level casualty,
 recovered verbatim from the #134 head). MANIFEST v14 (589 → 605).
 
+## Lane 14 — CIE 9709 Pure 3 3.6 Numerical solution of equations (T-UGM-IMPORT-14)
+
+The **sixth lane on the pure-3 course plane**. 3 fresh text bodies under `pure-3-iteration/` (fm
+`task: T-UGM-IMPORT-14`): r8711 (the purest sign-change root search in the corpus — tabulate, bracket, hone to
+1 d.p.), r8013 (graphical solution of `3^x = 3x + 2`, roots read off the plot to 2 d.p.) and staircase-sequences
+(the `x = 1 + 1/x` fixed point of `x^2 - x - 1 = 0`, the convergent alternating approximations). 11 aligned rows
+of record = 3 fresh + 1 cross-course flip (r8404 — the corpus's rearrangement-method showcase ("the x = g(x)
+iteration, or the rearrangement method" — verbatim) riding its lane-6 whole-station body under
+`pure-1-series/`, `spec_points: []` unmapped-by-design: the circular-slice precedent) + 7 one-to-many joins
+beside standing alignments (r8231 Newton-Raphson + trial-and-improvement to 3 d.p.; r8679 the numerical-canon
+survey + N-R on the lane-13 pick body; r7549 sign-change + continuity to 1 d.p.; r5948 the chord-intercept
+linear-interpolation formula; to-log-or-not-to-log, see-the-power, r9082 at medium). 1 non-overlap companion
+disclosure (staircase-sequences-revisited). 36 candidates rejected with reasons. Picks: r8711 (3.6.1) /
+r8404 (3.6.2, rides its lane-6 body — disclosed) / r8231 (3.6.3, rides its lane-3 body — disclosed). No honest
+gap this lane (8/3/4 rows). MANIFEST v14 → v15 (605 → 608).
+
 ## Rights and licensing authority
 
 - **Rights holder:** © University of Cambridge (Underground Mathematics); sourced

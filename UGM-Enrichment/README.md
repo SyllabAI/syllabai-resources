@@ -177,6 +177,19 @@ there. Nothing in this directory renders or embeds UGM content.
   fresh), the 3.5 spine titles' parse artifacts (interleaved/dropped math runs, the 3.5.3 glyph debris) carried
   verbatim of record — recorded, never forced.
 
+- **Lane 14 (CIE 9709 Pure 3 3.6 Numerical solution of equations)** —
+  `cie-a-level-maths-20-pure-3-iteration.json`: the **sixth lane on the pure-3 course plane** — the iteration
+  content is scattered by design (nine stations in scope), so the lane joins heavily: 11 aligned rows = 3 fresh
+  rows (r8711 3.6.1, r8013 3.6.1, staircase-sequences 3.6.2+3.6.3) + 1 cross-course flip (r8404 → its lane-6
+  body under `pure-1-series/`, `spec_points: []` unmapped-by-design — the circular-slice precedent) + 7
+  one-to-many joins beside standing alignments of record (r8231 → 3.6.1/3.6.3; r8679 → 3.6.2/3.6.3 riding the
+  lane-13 3.5.1 pick body; r7549, r5948 → 3.6.1; to-log-or-not-to-log, see-the-power, r9082 → 3.6.1 medium), 1
+  fresh non-overlap **recorded by reference only** (staircase-sequences-revisited, the companion disclosure —
+  convergents as approximations, representation is the aim), 36 of-record candidates rejected with reasons
+  (the Newton's-LAWS noise class disposed by name). **No honest gap this lane**: 3.6.1 carries 8 rows, 3.6.2
+  three, 3.6.3 four; primary picks r8711 (3.6.1, fresh) / r8404 (3.6.2 — rides its lane-6 body, the r6018
+  fresh-pick-impossible convention disclosed) / r8231 (3.6.3 — rides its lane-3 body, disclosed).
+
 ## Rights
 
 UGM content © University of Cambridge; sourced exam questions © UCLES.
