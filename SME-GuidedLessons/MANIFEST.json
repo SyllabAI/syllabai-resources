@@ -1,8 +1,8 @@
 {
   "programme": "SME-GuidedLessons",
   "schema": "guided-lesson.0.1",
-  "manifest_version": 8,
-  "generated_utc": "2026-10-25T20:58:21.224Z",
+  "manifest_version": 9,
+  "generated_utc": "2026-10-25T21:36:02.371Z",
   "saved": {
     "lane": "w0a",
     "session": "web-e79a3bd8-5bc9-4aae-abe2-eb5f5d3964dd",
@@ -20,10 +20,11 @@
     "parent_commit": "b27d4a3c5d93dc44a3fd24831f53aacbbea0b6fc",
     "reason": "repo ~5.6 GB; clone impractical in sandbox",
     "wave8_append": "operator trace 1a174751135ae18d verbatim \"Go wave-8\"; one additive git-data-api commit on main",
-    "wave9_append": "operator trace 1a174b960e367b61 verbatim \"Go wave-9\"; one additive git-data-api commit on main"
+    "wave9_append": "operator trace 1a174b960e367b61 verbatim \"Go wave-9\"; one additive git-data-api commit on main",
+    "wave10_append": "operator trace 1a174e627dda7171 verbatim \"Go wave-10\"; one additive git-data-api commit on main — the FINAL append, corpus complete 112/112"
   },
   "status": {
-    "notes_authored": 104,
+    "notes_authored": 112,
     "notes_register_total": 112,
     "waves_complete": [
       "wave-1",
@@ -34,16 +35,19 @@
       "wave-6",
       "wave-7",
       "wave-8",
-      "wave-9"
+      "wave-9",
+      "wave-10"
     ],
     "topic1_complete": true,
     "topic2_complete": true,
     "topic3_complete": true,
-    "topic4_progress": "13/21",
-    "subtopics_closed": 24,
+    "topic4_complete": true,
+    "topic4_progress": "21/21",
+    "subtopics_closed": 28,
     "subtopics_total": 28,
-    "wave9_closeout": "wave9-receipt.json (wave9-receipt/0.1, recalibration reaffirmed, topic census T4 13/21 with Introduction, Crude Oil, Alkanes and Alkenes closed outright) + Wave-9-Authoring-Wave-Report-20261026.docx",
-    "next_operator_gated": "wave-10 open: the final 8 notes (20,546 chars, 18 spec points) — Alcohols close, Carboxylic acids, Esters, Synthetic polymers — completing the 112-note corpus"
+    "corpus_complete": true,
+    "wave10_closeout": "wave10-receipt.json (wave10-receipt/0.1, recalibration reaffirmed, topic census 112/112 all four topics complete, all 28 subtopics closed) + Wave-10-Authoring-Wave-Report-20261026.docx",
+    "next_operator_gated": "REGISTER COMPLETE — no further waves scheduled; any future work attaches to revision/re-authoring rounds or downstream flows"
   },
   "snapshot_pin": {
     "file": "corpus-snapshot.json",
@@ -1867,6 +1871,186 @@
     "SME-GuidedLessons/tooling/w9-layer-12.js": {
       "sha256": "64abbe3f83d771d9eb6e36b1c542336d95ceef82ac18ad748bef879ddf9012b7",
       "bytes": 15260
+    },
+    "SME-GuidedLessons/wave-10/guided-lesson-rn_2z53qk2CdWrVVc7V.json": {
+      "sha256": "69ed43dbdfcf6f17fb2519c7aba7c54bfe97f423faecd8226b59239a98b1da1c",
+      "bytes": 17970
+    },
+    "SME-GuidedLessons/wave-10/guided-lesson-rn_7ZMc3T3J4SJXfNdR.json": {
+      "sha256": "db7ae4a76dd1bcf1382ec4efbe08d72e5fbd77e5f482e06f5e7f00cb0c726404",
+      "bytes": 17591
+    },
+    "SME-GuidedLessons/wave-10/guided-lesson-rn_8T5GfPn2q7sY2YCh.json": {
+      "sha256": "58fc5d55f2ae780ff8d79d54b40bcb3deb1bd9244558cdad7a52fa077773a054",
+      "bytes": 18955
+    },
+    "SME-GuidedLessons/wave-10/guided-lesson-rn_BBGMYy3Yx9Nm4GV3.json": {
+      "sha256": "cfd4e43359088cf93699e675b05c81c578e2d8f8b0b1239329550b4505805e22",
+      "bytes": 17494
+    },
+    "SME-GuidedLessons/wave-10/guided-lesson-rn_BDkhS5vQpRd4hvwf.json": {
+      "sha256": "8c21764009d75988b6e76f51ee291ba6e1e5907e1a4145a5d0d7be8fdef4c4c6",
+      "bytes": 17728
+    },
+    "SME-GuidedLessons/wave-10/guided-lesson-rn_bGgYrQXP2tqrYwdV.json": {
+      "sha256": "ca03118023476f31e847cae6985ac6cfc2ceaa62390f46105eb103de89f3e786",
+      "bytes": 25110
+    },
+    "SME-GuidedLessons/wave-10/guided-lesson-rn_bvyrkKqRBMKCRzHM.json": {
+      "sha256": "378d52f1b8f26f650492084b2c1c876a7b17384d962f0ca541d1457fe1d739a3",
+      "bytes": 17831
+    },
+    "SME-GuidedLessons/wave-10/guided-lesson-rn_ncFJkGhXFsKrkNkH.json": {
+      "sha256": "cfcb584184878ace4ce4054f80c37ae3c24d7447fc7bb8f1e0fd0d10a952b7c9",
+      "bytes": 18953
+    },
+    "SME-GuidedLessons/wave-10/timing-receipt-rn_2z53qk2CdWrVVc7V.json": {
+      "sha256": "006d6bf91c0fa2a5a349c4693877bbb115861e0312b0f58dc75bc8b513c2780f",
+      "bytes": 1405
+    },
+    "SME-GuidedLessons/wave-10/timing-receipt-rn_7ZMc3T3J4SJXfNdR.json": {
+      "sha256": "25a0320dc668af2e6cd1645cf1d25b40013f6f3284c64a8f35d809f6386eb4a3",
+      "bytes": 1557
+    },
+    "SME-GuidedLessons/wave-10/timing-receipt-rn_8T5GfPn2q7sY2YCh.json": {
+      "sha256": "fdbea5b2f549dc6b1ede1b8de4bc2c844ca736bc66af306c9309b1da1acb908f",
+      "bytes": 1522
+    },
+    "SME-GuidedLessons/wave-10/timing-receipt-rn_BBGMYy3Yx9Nm4GV3.json": {
+      "sha256": "be55fe4042a7c64edc3086ab579be51e0f3dc8160ba8f18769baa8a4d1dda92a",
+      "bytes": 1539
+    },
+    "SME-GuidedLessons/wave-10/timing-receipt-rn_BDkhS5vQpRd4hvwf.json": {
+      "sha256": "da60e765de86d18425b4b57614e14f800bc15930f712cd346f73cfc249b75059",
+      "bytes": 1570
+    },
+    "SME-GuidedLessons/wave-10/timing-receipt-rn_bGgYrQXP2tqrYwdV.json": {
+      "sha256": "7acf0f81aab08ee54294173123e5867a78a86a4a47c6ee924b985e37639f10d3",
+      "bytes": 1565
+    },
+    "SME-GuidedLessons/wave-10/timing-receipt-rn_bvyrkKqRBMKCRzHM.json": {
+      "sha256": "869fe89023b699c5fbc9800b7f526118812dd002dfcef4fa6b87df9c81c84204",
+      "bytes": 1540
+    },
+    "SME-GuidedLessons/wave-10/timing-receipt-rn_ncFJkGhXFsKrkNkH.json": {
+      "sha256": "7223fa2a121af9179ab9de499ff7a4f24811c140aaf452622a58d3432196adc1",
+      "bytes": 1540
+    },
+    "SME-GuidedLessons/wave-10/wave10-receipt.json": {
+      "sha256": "e29778ff55df66ef1df42ceb066b93af9fab18c244a14f2e5090cae35accacc4",
+      "bytes": 26634
+    },
+    "SME-GuidedLessons/event-logs/wave-10/rn_2z53qk2CdWrVVc7V.events.json": {
+      "sha256": "b9302c008db6f8421e8d7f1ae83a5e83a252c6e7d220d6720f1ff851beb9c310",
+      "bytes": 1646
+    },
+    "SME-GuidedLessons/event-logs/wave-10/rn_7ZMc3T3J4SJXfNdR.events.json": {
+      "sha256": "e855b1c86071d9b354e63136ce06b4d359d9826641f34d3071930cc62bd46d9e",
+      "bytes": 1646
+    },
+    "SME-GuidedLessons/event-logs/wave-10/rn_8T5GfPn2q7sY2YCh.events.json": {
+      "sha256": "c6ee5878d7b4ab294a5762bea7f3d86b2672712fb2bc5267cd64513626907f57",
+      "bytes": 1646
+    },
+    "SME-GuidedLessons/event-logs/wave-10/rn_BBGMYy3Yx9Nm4GV3.events.json": {
+      "sha256": "dee6a2dc6c410cc24985a788eb7a459ee831e1d9621eb5d11350bf1bcfb23c90",
+      "bytes": 1646
+    },
+    "SME-GuidedLessons/event-logs/wave-10/rn_BDkhS5vQpRd4hvwf.events.json": {
+      "sha256": "fd50b27761d79fb6573c437e29cda7d7ab70550cfcc145ee2ddfcdb2a086e2ff",
+      "bytes": 1646
+    },
+    "SME-GuidedLessons/event-logs/wave-10/rn_bGgYrQXP2tqrYwdV.events.json": {
+      "sha256": "8e814338685eda8dfc006838c8d118e4f45a2a6819c575e6964e7eeaba299f5e",
+      "bytes": 1646
+    },
+    "SME-GuidedLessons/event-logs/wave-10/rn_bvyrkKqRBMKCRzHM.events.json": {
+      "sha256": "bdef2d206493fffac0295c638512bd791ae4c63817b4e82e68057512fd3d6f7d",
+      "bytes": 1646
+    },
+    "SME-GuidedLessons/event-logs/wave-10/rn_ncFJkGhXFsKrkNkH.events.json": {
+      "sha256": "d14bd0aa2bdebf9c1f970fca427e79d27839a5da959fa8378a2c154c75a84d21",
+      "bytes": 1646
+    },
+    "SME-GuidedLessons/reports/Wave-10-Authoring-Wave-Report-20261026.docx": {
+      "sha256": "c24fbdb427345588fd4a133826d62806257736e9da1a2fd07278898609381bdf",
+      "bytes": 23502
+    },
+    "SME-GuidedLessons/tooling/wave10-prep.js": {
+      "sha256": "6d8696f881b1f9d3e896d6efb441b3421c993953257739f8697b561845e47da9",
+      "bytes": 7358
+    },
+    "SME-GuidedLessons/tooling/wave10-preflight.js": {
+      "sha256": "4493ee55cf6cf5c56171a53495512d2384dd2c7a2355c264eff4f285fd3da6e1",
+      "bytes": 3504
+    },
+    "SME-GuidedLessons/tooling/wave10-wave-receipt.js": {
+      "sha256": "6cfcba73a49bda7b3b5070620d9da48e1a3d9496c0ac5e5a31076371a6a872cb",
+      "bytes": 24749
+    },
+    "SME-GuidedLessons/tooling/wave10-round-verify.js": {
+      "sha256": "af57e76e26859f533b36f8168f649e2169245b53ff2a40af27e78583537d1bb5",
+      "bytes": 9956
+    },
+    "SME-GuidedLessons/tooling/wave10-report.js": {
+      "sha256": "1233f2f873203b5c670f99e0ed1404ad60aced5f99aa15f42b183fa83ff8197d",
+      "bytes": 15995
+    },
+    "SME-GuidedLessons/tooling/wave10-report-content-1.js": {
+      "sha256": "dba4801bc6d835e7b36c351e88431f8c25feb5d126259c745e1875b66e9e19d1",
+      "bytes": 10909
+    },
+    "SME-GuidedLessons/tooling/wave10-report-content-2.js": {
+      "sha256": "0f6dc9fa82d42196cc49d617e2902228e29b729a7fa2f8b9a54c772e1813c137",
+      "bytes": 8485
+    },
+    "SME-GuidedLessons/tooling/wave10-report-postcheck.js": {
+      "sha256": "2b2f264937f1af919bdd033522c2d04639e04988943c2f487f7ed8f3b9abffd8",
+      "bytes": 2642
+    },
+    "SME-GuidedLessons/tooling/w10-entry-verify.js": {
+      "sha256": "1442c5935e53bf248270311b8364507a043186a7388966622c8a0254bcdc4450",
+      "bytes": 6071
+    },
+    "SME-GuidedLessons/tooling/w10-common.js": {
+      "sha256": "5b99a75ae48df0b17e6f274af8543657c655463bd482a2e33c5dcdbfbd4e4e74",
+      "bytes": 2105
+    },
+    "SME-GuidedLessons/tooling/w10-fire-chains.sh": {
+      "sha256": "a99f9454cc3294fce24b9ded9eb61013527eed123c2a8141363418069f0cdce1",
+      "bytes": 1328
+    },
+    "SME-GuidedLessons/tooling/w10-layer-01.js": {
+      "sha256": "304b70e957f9487d0c02012ff07469f9ac5cee9d2340a2da6f628e1b94292d12",
+      "bytes": 16485
+    },
+    "SME-GuidedLessons/tooling/w10-layer-02.js": {
+      "sha256": "32299b3a4fd43e5257d57309aa6c75b6d1c658ec8f934cb3742049895897b416",
+      "bytes": 16270
+    },
+    "SME-GuidedLessons/tooling/w10-layer-03.js": {
+      "sha256": "9df89efda8251f38aaf3f47db539aa850930f85a2ec9c8a21403b85da062d06c",
+      "bytes": 15460
+    },
+    "SME-GuidedLessons/tooling/w10-layer-04.js": {
+      "sha256": "2fa3640bab5faa06ec6847d1eb966c66236984d1c7f39550549304bb1f61dc73",
+      "bytes": 15166
+    },
+    "SME-GuidedLessons/tooling/w10-layer-05.js": {
+      "sha256": "16cdff1637cad4d609dfb7ff490c502b14cc70744234f8acc9d2343cbca44f6a",
+      "bytes": 14780
+    },
+    "SME-GuidedLessons/tooling/w10-layer-06.js": {
+      "sha256": "34f194537f6ef515c5cee74492dcf94abe5cbd710a8a4439d3d856a01107ee7f",
+      "bytes": 15149
+    },
+    "SME-GuidedLessons/tooling/w10-layer-07.js": {
+      "sha256": "9e1cb41382e715ee9a28af179fd9755f50c92126c35a109ed61ccb7ebd99f394",
+      "bytes": 15430
+    },
+    "SME-GuidedLessons/tooling/w10-layer-08.js": {
+      "sha256": "f9282ef597055d140cf97f5f341892d045497d4ab9466d8dcbee2e22fa83ee93",
+      "bytes": 21506
     }
   }
 }

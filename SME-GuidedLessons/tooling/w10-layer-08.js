@@ -1,0 +1,253 @@
+#!/usr/bin/env node
+// w10-layer-08.js — Condensation Polymers (rn_bGgYrQXP2tqrYwdV, 4995ch, 4CH1-4.48C + 4.49C + 4.50C)
+// The richest note of the wave: three lessons, closing the corpus.
+const { buildLayer } = require('./w10-common');
+
+buildLayer('rn_bGgYrQXP2tqrYwdV', {
+  primer: {
+    text: "From Esters you already know the -COO- link that forms when an acid meets an alcohol. This note scales that single link up to industrial size: two-ended monomers joining into polyesters, water leaving at every bond, and a green branch of the family that the soil can reclaim.",
+    prerequisiteSubtopic: "Esters",
+  },
+  lessons: [
+    {
+      title: "Condensation versus addition",
+      sourceHeadings: ["Condensation polymers"],
+      specRefs: ["4CH1-4.48C"],
+      opening: "Addition polymers form from one monomer alone; condensation polymers are built by two different monomers that release a small molecule, usually water, every time they link. This lesson sets the two mechanisms side by side and shows where the water comes from.",
+      keyPoints: [
+        "Condensation polymers form when two different monomers link with the removal of a small molecule.",
+        "The small molecule released is usually water.",
+        "Each monomer carries two functional groups, one at each end.",
+        "One water molecule forms for every ester linkage made.",
+        "Addition polymerisation forms the polymer molecule only, with no other product.",
+      ],
+      depthLayers: {
+        low: {
+          restatement: "Two different monomers join to build a condensation polymer, releasing a small molecule, usually water, at every link. Addition polymers make the chain alone, with no second product.",
+          analogy: "Addition polymer formation is a solo handshake; the condensation kind is two people shaking hands while dropping a water bottle each time their hands meet.",
+          examPointer: "State the difference as products: polymer only versus polymer plus water.",
+        },
+        medium: {
+          restatement: "Condensation polymers arise when two different monomers, each carrying functional groups at both ends, link in long alternating chains and release one small molecule per bond, usually water. Addition polymers instead consume one monomer type and leave no second product.",
+          analogy: "Watch a zip closing: addition is one tape zipping onto itself, while condensation is two different tapes zipping together and shedding a droplet at every tooth.",
+          examPointer: "Quote the per-linkage water count: one molecule of water for every ester linkage formed.",
+        },
+      },
+      check: [
+        {
+          stem: "How many different monomers build a condensation polymer?",
+          misconceptionClass: "monomer count",
+          options: [
+            { key: "A", text: "Two", correct: true, explanation: "One two-ended acid and one two-ended alcohol alternate down the chain.", misconception: null },
+            { key: "B", text: "One", correct: false, explanation: "A single monomer type describes addition polymers, not these.", misconception: "mechanisms crossed" },
+            { key: "C", text: "Three or more", correct: false, explanation: "The spec case is exactly two monomers reacting together.", misconception: "count invented" },
+            { key: "D", text: "Hundreds of types mixed at random", correct: false, explanation: "The chain is orderly and alternating, not a random blend.", misconception: "order denied" },
+          ],
+        },
+        {
+          stem: "Which small molecule is released as the monomers link?",
+          misconceptionClass: "product identification",
+          options: [
+            { key: "A", text: "Water", correct: true, explanation: "An -H from one end and an -OH from the other combine and leave as water.", misconception: null },
+            { key: "B", text: "Carbon dioxide", correct: false, explanation: "No carbonate is involved, so no carbon dioxide is released.", misconception: "gas invented" },
+            { key: "C", text: "Hydrogen gas", correct: false, explanation: "The hydrogens leave inside water, not as hydrogen gas.", misconception: "product misread" },
+            { key: "D", text: "Oxygen gas", correct: false, explanation: "Oxygen atoms leave inside the water molecule, not as free gas.", misconception: "product misread" },
+          ],
+        },
+        {
+          stem: "How many functional groups does each monomer carry?",
+          misconceptionClass: "structure recall",
+          options: [
+            { key: "A", text: "Two, one at each end", correct: true, explanation: "Two-ended monomers are what allow the long alternating chain to grow.", misconception: null },
+            { key: "B", text: "One, in the middle", correct: false, explanation: "A single group could never join two neighbours at once.", misconception: "geometry misread" },
+            { key: "C", text: "None", correct: false, explanation: "The reacting groups are the whole point of the mechanism.", misconception: "groups denied" },
+            { key: "D", text: "Four or more", correct: false, explanation: "Crosslinking networks are a different idea; here each monomer carries two.", misconception: "count invented" },
+          ],
+        },
+        {
+          stem: "Which extra product distinguishes condensation from addition polymer formation?",
+          misconceptionClass: "mechanism contrast",
+          options: [
+            { key: "A", text: "A water molecule per linkage", correct: true, explanation: "Every new bond pays for itself with one small water molecule.", misconception: null },
+            { key: "B", text: "Hydrogen chloride every time", correct: false, explanation: "The spec case pairs a dicarboxylic acid with a diol, releasing water.", misconception: "product swapped" },
+            { key: "C", text: "Carbon dioxide", correct: false, explanation: "No decarboxylation occurs in this polymer route.", misconception: "product invented" },
+            { key: "D", text: "None, both routes share products", correct: false, explanation: "The second product is exactly what separates the two mechanisms.", misconception: "difference denied" },
+          ],
+        },
+        {
+          stem: "What joins the monomers in a polyester chain?",
+          misconceptionClass: "linkage identification",
+          options: [
+            { key: "A", text: "Ester linkages", correct: true, explanation: "Each acid-alcohol pair clips together through the -COO- ester link.", misconception: null },
+            { key: "B", text: "Carbon-carbon double bonds", correct: false, explanation: "Double bonds belong to the alkene monomers of addition polymers.", misconception: "routes crossed" },
+            { key: "C", text: "Ionic bonds", correct: false, explanation: "The chain is held together covalently throughout.", misconception: "bonding misread" },
+            { key: "D", text: "Hydrogen bonds only", correct: false, explanation: "Hydrogen bonding may occur between chains but does not build them.", misconception: "force confused with bond" },
+          ],
+        },
+      ],
+    },
+    {
+      title: "Polyesters: terylene and deducing the monomers",
+      sourceHeadings: ["Condensation polymers", "Deducing the monomers from a polyester"],
+      specRefs: ["4CH1-4.48C", "4CH1-4.49C"],
+      opening: "A dicarboxylic acid with -COOH at both ends meets a diol with -OH at both ends, and the chain that results is a polyester such as terylene. This lesson also runs the film backwards: adding water across the ester links, known as hydrolysis, recovers the monomers.",
+      keyPoints: [
+        "A dicarboxylic acid carries a -COOH group at either end.",
+        "A diol carries an -OH group at either end.",
+        "Terylene is a polyester made from a dicarboxylic acid and a diol.",
+        "Each -COOH group reacts with an -OH group, forming an ester link and losing one water molecule.",
+        "Hydrolysis adds water back to break the polyester into its monomers.",
+      ],
+      depthLayers: {
+        low: {
+          restatement: "A dicarboxylic acid has -COOH at both ends and a diol has -OH at both ends; joined together they make a polyester such as terylene. Adding water back across the ester links, called hydrolysis, recovers the monomers.",
+          analogy: "The ester link is a staple joining two sheets; hydrolysis is a staple remover that returns each sheet to its original desk.",
+          examPointer: "Remember which monomer loses what: the acid loses OH, the diol loses H, and reversing that rebuilds them.",
+        },
+        medium: {
+          restatement: "Terylene forms as each -COOH of the dicarboxylic acid meets an -OH of the diol, creating an ester link with one water lost per link, its chain drawn with boxes for the carbon sections. Hydrolysis reverses the process: water is added, the C-O single bond of each ester link breaks, OH returns to the acid end and H returns to the alcohol end.",
+          analogy: "Deducing monomers is unwrapping a parcel you once taped shut: cut the tape, the C-O bond, and the two original sheets fall apart, ready to be re-wetted into their old shapes.",
+          examPointer: "Break the C-O single bond only, never the C=O; the added water then completes both halves.",
+        },
+      },
+      check: [
+        {
+          stem: "What is terylene?",
+          misconceptionClass: "material identification",
+          options: [
+            { key: "A", text: "A polyester made from a dicarboxylic acid and a diol", correct: true, explanation: "The named example of the condensation route in this specification.", misconception: null },
+            { key: "B", text: "An addition polymer of ethene", correct: false, explanation: "That describes polyethene, a different polymer from a different mechanism.", misconception: "routes crossed" },
+            { key: "C", text: "A carboxylic acid", correct: false, explanation: "Terylene is the polymer built from the acid, not the acid itself.", misconception: "level confused" },
+            { key: "D", text: "A diol", correct: false, explanation: "The diol is one of its monomers, not the product.", misconception: "reactant confused" },
+          ],
+        },
+        {
+          stem: "When an ester link forms, from where does the -OH of the released water come?",
+          misconceptionClass: "mechanism detail",
+          options: [
+            { key: "A", text: "From the -COOH group of the dicarboxylic acid", correct: true, explanation: "The acid side surrenders its hydroxyl when the link closes.", misconception: null },
+            { key: "B", text: "From the diol", correct: false, explanation: "The diol side contributes the H instead.", misconception: "donors swapped" },
+            { key: "C", text: "From the surrounding air", correct: false, explanation: "The water is assembled entirely from the two monomers.", misconception: "source invented" },
+            { key: "D", text: "From a catalyst", correct: false, explanation: "No catalyst supplies atoms to the product here.", misconception: "role invented" },
+          ],
+        },
+        {
+          stem: "And from where does the -H of the released water come?",
+          misconceptionClass: "mechanism detail",
+          options: [
+            { key: "A", text: "From the -OH group of the diol", correct: true, explanation: "The alcohol side gives up a hydrogen to build the water.", misconception: null },
+            { key: "B", text: "From the acid's -COOH", correct: false, explanation: "The acid has already given its -OH; its remaining hydrogen stays on the carboxyl carbon.", misconception: "donors swapped" },
+            { key: "C", text: "From the ester link", correct: false, explanation: "The link is what forms after the water has left.", misconception: "order reversed" },
+            { key: "D", text: "From the air", correct: false, explanation: "Nothing is borrowed from the atmosphere in this reaction.", misconception: "source invented" },
+          ],
+        },
+        {
+          stem: "What is hydrolysis?",
+          misconceptionClass: "process definition",
+          options: [
+            { key: "A", text: "Adding water to break the polyester back into its monomers", correct: true, explanation: "It is the exact reverse of the condensation that built the chain.", misconception: null },
+            { key: "B", text: "Removing water to join monomers", correct: false, explanation: "That is the condensation step itself, not its reversal.", misconception: "direction reversed" },
+            { key: "C", text: "Burning the polymer in air", correct: false, explanation: "Burning is combustion, a completely different process.", misconception: "process crossed" },
+            { key: "D", text: "Freezing the polymer until it cracks", correct: false, explanation: "No freezing is involved in this chemical reversal.", misconception: "process invented" },
+          ],
+        },
+        {
+          stem: "Which bond is broken first when deducing the monomers from a polyester?",
+          misconceptionClass: "method recall",
+          options: [
+            { key: "A", text: "The C-O single bond in each ester link", correct: true, explanation: "Cutting there separates the acid-derived and alcohol-derived sections cleanly.", misconception: null },
+            { key: "B", text: "The C=O double bond", correct: false, explanation: "The double bond stays intact; only the single C-O is cut.", misconception: "bond mischosen" },
+            { key: "C", text: "The carbon-carbon bonds of the chain", correct: false, explanation: "Cutting the backbone would shred the monomers, not recover them.", misconception: "backbone attacked" },
+            { key: "D", text: "The O-H bonds of the added water", correct: false, explanation: "The water is the tool, not the thing being cut.", misconception: "tool confused with target" },
+          ],
+        },
+      ],
+    },
+    {
+      title: "Biopolyesters",
+      sourceHeadings: ["Biopolyesters"],
+      specRefs: ["4CH1-4.50C"],
+      opening: "Not every polyester outlives the planet that made it. Biopolyesters are synthesised from sugars and plant oils with the help of micro-organisms, and their ester, amide and ether groups let them biodegrade once their job is done. This lesson closes the corpus with the greenest member of the family.",
+      keyPoints: [
+        "Biopolyesters are synthesised from sugars and plant oils using micro-organisms.",
+        "They biodegrade naturally in the environment once their job is done.",
+        "Their chains contain ester, amide and ether functional groups.",
+        "Those groups give the polymers their biodegradable character.",
+        "Biopolyesters are still synthetically made, not harvested directly from nature.",
+      ],
+      depthLayers: {
+        low: {
+          restatement: "Biopolyesters are made from sugars and plant oils with the help of micro-organisms. Their ester, amide and ether groups let them biodegrade naturally once their purpose is served.",
+          analogy: "Where ordinary plastic is a stone, a biopolyester is a leaf: engineered by people, yet built to be reclaimed by the soil.",
+          examPointer: "Name the green closing point of the topic: some polyesters, the biopolyesters, are biodegradable.",
+        },
+        medium: {
+          restatement: "These polymers are synthesised industrially from sugars and plant oils using micro-organisms, and their chains mix ester, amide and ether functional groups. That mix of groups is what grants their biodegradable character, letting them break down naturally after their intended purpose ends.",
+          analogy: "A biopolyester bottle is written in two languages at once: synthetic enough to be manufactured, natural enough for microbes to read and dismantle it.",
+          examPointer: "Contrast with the previous note: addition polymers resist biodegrading, while biopolyesters are the designed exception.",
+        },
+      },
+      check: [
+        {
+          stem: "Which raw materials are biopolyesters synthesised from?",
+          misconceptionClass: "feedstock recall",
+          options: [
+            { key: "A", text: "Sugars and plant oils", correct: true, explanation: "Those renewable feedstocks, processed by microbes, build the green polymers.", misconception: null },
+            { key: "B", text: "Crude oil only", correct: false, explanation: "Oil-based feedstocks describe ordinary polymers, not the biopolyester family.", misconception: "feedstock crossed" },
+            { key: "C", text: "Limestone and sea water", correct: false, explanation: "Neither mineral source appears in the biopolyester recipe.", misconception: "source invented" },
+            { key: "D", text: "Recycled addition polymers", correct: false, explanation: "Recycling is a disposal strategy, not the synthesis route here.", misconception: "routes crossed" },
+          ],
+        },
+        {
+          stem: "Which agents assemble biopolyesters from their feedstocks?",
+          misconceptionClass: "agent recall",
+          options: [
+            { key: "A", text: "Micro-organisms", correct: true, explanation: "The microbes carry out the synthesis alongside their usual chemistry.", misconception: null },
+            { key: "B", text: "High pressure alone", correct: false, explanation: "Pressure is not the named agent of this synthesis.", misconception: "agent invented" },
+            { key: "C", text: "Electric currents", correct: false, explanation: "Electrolysis plays no part in building these chains.", misconception: "agent invented" },
+            { key: "D", text: "Open flames", correct: false, explanation: "Flames destroy organic feedstocks rather than polymerising them.", misconception: "agent invented" },
+          ],
+        },
+        {
+          stem: "Which functional groups do biopolyester chains contain?",
+          misconceptionClass: "structure recall",
+          options: [
+            { key: "A", text: "Ester, amide and ether groups", correct: true, explanation: "That trio is what gives the polymers their biodegradable character.", misconception: null },
+            { key: "B", text: "Ester groups only", correct: false, explanation: "The chain mixes three kinds of group, not one.", misconception: "list truncated" },
+            { key: "C", text: "Carbonate and carbide groups", correct: false, explanation: "Neither group belongs to this family.", misconception: "groups invented" },
+            { key: "D", text: "Silane and siloxane groups", correct: false, explanation: "Those belong to silicon chemistry, far from polyesters.", misconception: "groups invented" },
+          ],
+        },
+        {
+          stem: "Which property separates biopolyesters from ordinary polyesters?",
+          misconceptionClass: "property contrast",
+          options: [
+            { key: "A", text: "They are biodegradable", correct: true, explanation: "That single word is the spec's whole point for this family.", misconception: null },
+            { key: "B", text: "They conduct electricity", correct: false, explanation: "Conductivity is not the distinguishing property here.", misconception: "property invented" },
+            { key: "C", text: "They are magnetic", correct: false, explanation: "Magnetism plays no part in the distinction.", misconception: "property invented" },
+            { key: "D", text: "They melt at zero degrees", correct: false, explanation: "No melting point claim is made in the spec.", misconception: "property invented" },
+          ],
+        },
+        {
+          stem: "Which statement matches the specification exactly?",
+          misconceptionClass: "spec statement",
+          options: [
+            { key: "A", text: "Some polyesters, known as biopolyesters, are biodegradable", correct: true, explanation: "The word some is load-bearing: only the biopolyester branch degrades.", misconception: null },
+            { key: "B", text: "All polyesters are biodegradable", correct: false, explanation: "Overclaiming drops the qualifier that keeps the statement true.", misconception: "scope widened" },
+            { key: "C", text: "No polyester is biodegradable", correct: false, explanation: "The biopolyester branch is the counterexample that survives.", misconception: "scope narrowed" },
+            { key: "D", text: "Biopolyesters are addition polymers", correct: false, explanation: "They belong to the condensation family discussed in this note.", misconception: "family crossed" },
+          ],
+        },
+      ],
+    },
+  ],
+  glossary: [
+    { term: "condensation", definition: "Joining molecules with the removal of a small molecule, usually water; the mechanism that builds these polymers.", firstLesson: 1 },
+    { term: "polyester", definition: "A condensation polymer whose monomers are linked through ester groups, terylene being the named example.", firstLesson: 2 },
+    { term: "dicarboxylic acid", definition: "An acid carrying a -COOH group at either end of its molecule.", firstLesson: 2 },
+    { term: "diol", definition: "An alcohol carrying an -OH group at either end of its molecule.", firstLesson: 2 },
+    { term: "hydrolysis", definition: "Adding water to break a polyester back down into its two monomers.", firstLesson: 2 },
+    { term: "biopolyester", definition: "A polyester synthesised from sugars and plant oils by micro-organisms, able to biodegrade after use.", firstLesson: 3 },
+  ],
+  workedExample: null,
+});

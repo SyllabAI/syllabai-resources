@@ -1,0 +1,723 @@
+{
+ "format": "wave10-receipt/0.1",
+ "wave": "wave-10 (OPEN posture, Topic 4 Organic Chemistry closing wave — the FINAL 8 notes of the corpus, Alcohols -> Carboxylic acids -> Esters -> Synthetic polymers)",
+ "generatedAt": "2026-10-25T21:30:49.914Z",
+ "protocolOfRecord": "A1 spec section 7 measurement discipline under the operator OPEN posture (ignition trace 1a174e627dda7171 verbatim \"Go wave-10\"; brief A5-Posture-Decision-Brief-Open-20261023.docx), paced by wave-pacing-open/0.1; receipts are export-gate telemetry per the wave-2 recalibration decision, which this wave operated under unchanged.",
+ "posture": "OPEN (build it fully) — operator decision of record, standing from trace 1a1683ec43a016a9",
+ "corpusPin": {
+  "corpusVersion": "sme-revision-notes-igcse-chemistry-19-2026-09-18",
+  "snapshotFile": "/home/z/my-project/.tmp/wave1/corpus-snapshot.json",
+  "snapshotFilePinSha256RecomputedThisRound": "e23e2ab79df6b0e957bf12933779e4701b37c88736d87c20b19bac130553487d",
+  "snapshotManifest": {
+   "pulledAt": "2026-10-23T11:00:31.218Z",
+   "pullElapsedMs": 1255,
+   "lane": "t0_readonly, SELECT-only, one connection, one query",
+   "noteCount": 112,
+   "topicCount": 4,
+   "subtopicCount": 28,
+   "perTopic": [
+    {
+     "topic": "T1:1. Principles of Chemistry",
+     "subtopics": 9,
+     "notes": 40
+    },
+    {
+     "topic": "T2:2. Inorganic Chemistry",
+     "subtopics": 8,
+     "notes": 36
+    },
+    {
+     "topic": "T3:3. Physical Chemistry",
+     "subtopics": 3,
+     "notes": 15
+    },
+    {
+     "topic": "T4:4. Organic Chemistry",
+     "subtopics": 8,
+     "notes": 21
+    }
+   ],
+   "corpusVersions": [
+    "sme-revision-notes-igcse-chemistry-19-2026-09-18"
+   ],
+   "totalBodyChars": 361272,
+   "verifyAgainstCensusOfRecord": {
+    "topics": 4,
+    "subtopics": 28,
+    "notes": 112,
+    "perTopicNotes": [
+     40,
+     36,
+     15,
+     21
+    ]
+   }
+  },
+  "censusOfRecord": {
+   "topics": 4,
+   "subtopics": 28,
+   "notes": 112,
+   "perTopicNotes": [
+    40,
+    36,
+    15,
+    21
+   ]
+  },
+  "dbContact": "ZERO database contact for the entire wave — all eight bodies read from the pinned local snapshot (per-note SHA-verified at prep); spec texts resolved zero-DB from the graph content pack specification_points.yaml (parity-proven 4/4 against wave-5 of-record texts); the wave-1 snapshot pull remains the single DB contact of the programme"
+ },
+ "registerNote": "the 8-note register is the pacing file wavePlan wave-10 register verbatim (cross-asserted at receipt build); it closes Topic 4 Organic Chemistry and the whole corpus across four subtopics — Alcohols 4.31C-4.33C (2 notes), Carboxylic acids 4.34C-4.37C (2 notes), Esters 4.38C-4.43C (2 notes) and Synthetic polymers 4.47-4.50C (2 notes). Size extremes: Condensation Polymers at 4,995 characters down to Disposal of Addition Polymers at 1,314. Cadence of record: 17 lessons (2 per note, 3 for the richest note — Condensation Polymers), 5 checks and 5 keyPoints per lesson throughout.",
+ "topicCensus": {
+  "1. Principles of Chemistry": {
+   "notes": "40/40",
+   "complete": true,
+   "subtopicsClosed": 9,
+   "subtopicsTotal": 9,
+   "subtopicsClosedList": [
+    "States of Matter",
+    "Elements, Compounds & Mixtures",
+    "Atomic Structure",
+    "The Periodic Table",
+    "Chemical Formulae, Equations, Calculations",
+    "Ionic Bonding",
+    "Covalent Bonding",
+    "Metallic Bonding",
+    "Electrolysis"
+   ]
+  },
+  "2. Inorganic Chemistry": {
+   "notes": "36/36",
+   "complete": true,
+   "subtopicsClosed": 8,
+   "subtopicsTotal": 8,
+   "subtopicsClosedList": [
+    "Group 1 (Alkali Metals)",
+    "Group 7 (Halogens)",
+    "Gases in the Atmosphere",
+    "Reactivity Series",
+    "Extraction & Uses of Metals",
+    "Acids, Alkalis & Titrations",
+    "Acids, Bases & Salt Preparations",
+    "Chemical Tests"
+   ]
+  },
+  "3. Physical Chemistry": {
+   "notes": "15/15",
+   "complete": true,
+   "subtopicsClosed": 3,
+   "subtopicsTotal": 3,
+   "subtopicsClosedList": [
+    "Energetics",
+    "Rates of Reaction",
+    "Reversible Reactions & Equilibria"
+   ]
+  },
+  "4. Organic Chemistry": {
+   "notes": "21/21",
+   "complete": true,
+   "subtopicsClosed": 8,
+   "subtopicsTotal": 8,
+   "subtopicsClosedList": [
+    "Introduction",
+    "Crude Oil",
+    "Alkanes",
+    "Alkenes",
+    "Alcohols",
+    "Carboxylic acids",
+    "Esters",
+    "Synthetic polymers"
+   ]
+  }
+ },
+ "corpusCompletion": {
+  "status": "CORPUS COMPLETE — 112/112 notes authored and receipted across ten waves",
+  "censusOfRecord": {
+   "notes": "112/112",
+   "topics": [
+    "1. Principles of Chemistry: 40/40 COMPLETE",
+    "2. Inorganic Chemistry: 36/36 COMPLETE",
+    "3. Physical Chemistry: 15/15 COMPLETE",
+    "4. Organic Chemistry: 21/21 COMPLETE"
+   ],
+   "subtopics": "28/28 closed"
+  },
+  "priorPoolVerification": "the wave-10 register was proven to have zero overlap with the 104 receipts of waves 1-9 at prep, and the census above recomputes the full 112 from the ten receipt sets on disk"
+ },
+ "totals": {
+  "notes": 8,
+  "lessons": 17,
+  "keyPoints": 85,
+  "checks": 85,
+  "distractors": 255,
+  "glossaryTerms": 42,
+  "bodyChars": 20546,
+  "focusedSeconds": 0,
+  "focusedHours": 0,
+  "meanSecondsPerNote": 0,
+  "wallSecondsAll": 0,
+  "loggedPauses": 0,
+  "meanSecondsPerLesson": 0,
+  "secondsPerChar": 0
+ },
+ "phaseAggregateSeconds": {
+  "P0": 0,
+  "P1": 0,
+  "P2": 0,
+  "P3": 0,
+  "P4": 0,
+  "P5": 0,
+  "P6": 0,
+  "P7": 0,
+  "P8": 0
+ },
+ "phaseSharePercent": {
+  "P0": null,
+  "P1": null,
+  "P2": null,
+  "P3": null,
+  "P4": null,
+  "P5": null,
+  "P6": null,
+  "P7": null,
+  "P8": null
+ },
+ "eventLogGroundTruth": [
+  {
+   "noteId": "rn_8T5GfPn2q7sY2YCh",
+   "p0toP7Ms": 195,
+   "p8WindowMs": 22,
+   "exportEvents": 1,
+   "reExportEvents": 0
+  },
+  {
+   "noteId": "rn_ncFJkGhXFsKrkNkH",
+   "p0toP7Ms": 199,
+   "p8WindowMs": 23,
+   "exportEvents": 1,
+   "reExportEvents": 0
+  },
+  {
+   "noteId": "rn_2z53qk2CdWrVVc7V",
+   "p0toP7Ms": 192,
+   "p8WindowMs": 22,
+   "exportEvents": 1,
+   "reExportEvents": 0
+  },
+  {
+   "noteId": "rn_BBGMYy3Yx9Nm4GV3",
+   "p0toP7Ms": 212,
+   "p8WindowMs": 28,
+   "exportEvents": 1,
+   "reExportEvents": 0
+  },
+  {
+   "noteId": "rn_BDkhS5vQpRd4hvwf",
+   "p0toP7Ms": 217,
+   "p8WindowMs": 27,
+   "exportEvents": 1,
+   "reExportEvents": 0
+  },
+  {
+   "noteId": "rn_7ZMc3T3J4SJXfNdR",
+   "p0toP7Ms": 219,
+   "p8WindowMs": 28,
+   "exportEvents": 1,
+   "reExportEvents": 0
+  },
+  {
+   "noteId": "rn_bvyrkKqRBMKCRzHM",
+   "p0toP7Ms": 235,
+   "p8WindowMs": 30,
+   "exportEvents": 1,
+   "reExportEvents": 0
+  },
+  {
+   "noteId": "rn_bGgYrQXP2tqrYwdV",
+   "p0toP7Ms": 215,
+   "p8WindowMs": 26,
+   "exportEvents": 1,
+   "reExportEvents": 0
+  }
+ ],
+ "flowVariationDisclosure": "All eight layers were authored outside the instrumented chain (pre-write batch flow, the wave-2 established posture) under a single operator ignition (trace 1a174e627dda7171); the P0-P7 chain commands ran as ms-scale flag closures in one single-shell invocation per note. Every note exported first-pass clean: zero gate-blocked exports, zero repairs inside any chain, zero re-exports, zero pauses wave-wide — the fifth fully single-ignition wave of the programme. The focused tally is chain telemetry, not authoring effort, and is NOT comparable to wave-1 — the recalibration block owns the interpretation.",
+ "recalibration": {
+  "format": "wave-recalibration/0.1 (pacing file wave-pacing-open/0.1, RECALIBRATION POINTS clause)",
+  "computedAt": "2026-10-25T21:30:49.914Z",
+  "recomputedFromWave10Receipts": {
+   "meanSecondsPerNote": 0,
+   "secondsPerChar": 0,
+   "meanSecondsPerLesson": 0,
+   "phaseSharePercent": {
+    "P0": null,
+    "P1": null,
+    "P2": null,
+    "P3": null,
+    "P4": null,
+    "P5": null,
+    "P6": null,
+    "P7": null,
+    "P8": null
+   }
+  },
+  "eventLogGroundTruth": {
+   "method": "phase spans recomputed from the eight persisted event logs at millisecond resolution",
+   "p0toP7PerNoteMs": {
+    "min": 192,
+    "max": 235,
+    "note": "sub-second on every note — phase-flag closures only; authoring sat outside the instrumented chain wave-wide (pre-write batch flow, the wave-2 established posture)"
+   },
+   "p8WindowMs": {
+    "allEightNotes": "sub-resolution on every note (0 s nominal) — the fifth fully zero-telemetry wave of the programme (after waves 4, 5, 8 and 9): single ignition, no repair interval inside any chain, no blocked path, no re-export anywhere"
+   },
+   "idempotence": "exactly ONE P8 phase-end per note across all eight logs, zero reExport events — save() patch live proof on every production round since the wave-1 fix (waves 1-10, all 112 receipt-bearing notes of record)"
+  },
+  "wave1BasisOfRecord": {
+   "notes": 10,
+   "bodyChars": 40614,
+   "focusedSeconds": 2830,
+   "meanSecondsPerNote": 283,
+   "secondsPerChar": 0.0697,
+   "phaseSharePercent": {
+    "P0": 31.2,
+    "P1": 4.5,
+    "P2": 7.7,
+    "P3": 5.1,
+    "P4": 9.3,
+    "P5": 5.7,
+    "P6": 4,
+    "P7": 26.3,
+    "P8": 6.1
+   }
+  },
+  "driftDisclosure": {
+   "meanSecondsPerNote": "wave-10 nominal 0 s vs wave-1 283 s — the same structural deflation waves 2-9 recorded (chain telemetry, not authoring effort); no behavioural reading is possible or attempted",
+   "secondsPerChar": "wave-10 0 s/ch vs wave-1 0.0697 s/ch — same structural cause",
+   "phaseShare": "wave-10 phase shares are null (zero divisor) — the honest all-zero form waves 3-5, 8 and 9 used",
+   "crossWaveComparability": "per the wave-2 decision, focused tallies are never compared across waves; wave-10 receipts state the same batch placement as waves 2-9, so waves 2-10 share one comparability class — none comparable to wave-1"
+  },
+  "decisionOfRecord": [
+   "REAFFIRMED unchanged from the wave-2 checkpoint: the planning estimator of record remains the wave-1 instrumented basis (283 s/note, 0.0697 s/ch, wave-1 phase shares); wave-2 through wave-10 receipts alike are classified of record as export-gate telemetry (schema verdicts, lint state, chain-order discipline, idempotence proof, wall spans) and are NOT used to restate the pacing estimators.",
+   "REAFFIRMED: re-timing a paced round remains DECLINED — under the batch posture the instrument measures only the chain window; instrumented measurement comparable to wave-1 reopens only if authoring returns inside the P0-P8 chain.",
+   "REAFFIRMED: receipts continue on every future wave regardless, each carrying its own event-log ground-truth block; focused tallies never compared across waves with different authoring placement.",
+   "REAFFIRMED: corpus-wide exposure arithmetic unchanged — bands 28/56/93 author-days; the 0.2 h/topic floor remains never quotable as a human rate; wave means remain pipeline rates under declared assistance."
+  ]
+ },
+ "perNote": [
+  {
+   "noteId": "rn_8T5GfPn2q7sY2YCh",
+   "noteTitle": "Oxidation of Ethanol",
+   "topicTitle": "4. Organic Chemistry",
+   "subtopicTitle": "Alcohols",
+   "specPointCodes": [
+    "4CH1-4.31C"
+   ],
+   "bodyChars": 2702,
+   "bodySha256": "89cbf2994f68aa6964d88ce7d3d6b5abbcb2fec630c70e7a76c2123cd3cd312d",
+   "rosterGenre": "three routes: combustion + aerobic microbial action + dichromate under reflux, orange to green, workedExample-null",
+   "lessons": 2,
+   "lessonTitles": [
+    "Three routes that oxidise ethanol",
+    "Oxidising agents and the reflux method"
+   ],
+   "checks": 10,
+   "keyPoints": 10,
+   "workedExample": "null (designed declaration: none in source note)",
+   "phaseSeconds": {
+    "P0": 0,
+    "P1": 0,
+    "P2": 0,
+    "P3": 0,
+    "P4": 0,
+    "P5": 0,
+    "P6": 0,
+    "P7": 0,
+    "P8": 0
+   },
+   "totalSeconds": 0,
+   "wallClockSpanSeconds": 0,
+   "pauseLog": [],
+   "assistedPhases": [
+    "P1",
+    "P2",
+    "P3",
+    "P4",
+    "P5",
+    "P6",
+    "P7"
+   ],
+   "schemaValidation": "PASS (ajv draft-07, additionalProperties false)",
+   "lintHardFails": 0,
+   "lintWarningLines": 1,
+   "layerFile": "/home/z/my-project/download/wave10/guided-lesson-rn_8T5GfPn2q7sY2YCh.json",
+   "receiptFile": "/home/z/my-project/download/wave10/timing-receipt-rn_8T5GfPn2q7sY2YCh.json"
+  },
+  {
+   "noteId": "rn_ncFJkGhXFsKrkNkH",
+   "noteTitle": "Manufacture of Ethanol",
+   "topicTitle": "4. Organic Chemistry",
+   "subtopicTitle": "Alcohols",
+   "specPointCodes": [
+    "4CH1-4.32C",
+    "4CH1-4.33C"
+   ],
+   "bodyChars": 2959,
+   "bodySha256": "33f14ae0f9f6767844220da9fa7479eaed856eaecd83ba85fa8b48d248220e3c",
+   "rosterGenre": "hydration of ethene conditions + fermentation with the anaerobic and optimum-temperature reasoning, workedExample-null",
+   "lessons": 2,
+   "lessonTitles": [
+    "Hydration of ethene",
+    "Fermentation"
+   ],
+   "checks": 10,
+   "keyPoints": 10,
+   "workedExample": "null (designed declaration: none in source note)",
+   "phaseSeconds": {
+    "P0": 0,
+    "P1": 0,
+    "P2": 0,
+    "P3": 0,
+    "P4": 0,
+    "P5": 0,
+    "P6": 0,
+    "P7": 0,
+    "P8": 0
+   },
+   "totalSeconds": 0,
+   "wallClockSpanSeconds": 0,
+   "pauseLog": [],
+   "assistedPhases": [
+    "P1",
+    "P2",
+    "P3",
+    "P4",
+    "P5",
+    "P6",
+    "P7"
+   ],
+   "schemaValidation": "PASS (ajv draft-07, additionalProperties false)",
+   "lintHardFails": 0,
+   "lintWarningLines": 1,
+   "layerFile": "/home/z/my-project/download/wave10/guided-lesson-rn_ncFJkGhXFsKrkNkH.json",
+   "receiptFile": "/home/z/my-project/download/wave10/timing-receipt-rn_ncFJkGhXFsKrkNkH.json"
+  },
+  {
+   "noteId": "rn_2z53qk2CdWrVVc7V",
+   "noteTitle": "Carboxylic Acids",
+   "topicTitle": "4. Organic Chemistry",
+   "subtopicTitle": "Carboxylic acids",
+   "specPointCodes": [
+    "4CH1-4.34C",
+    "4CH1-4.35C",
+    "4CH1-4.37C"
+   ],
+   "bodyChars": 3287,
+   "bodySha256": "c669afd9c9369af244fc6bf636bddd64f32f3cfff0d843d8e39d44aaf6c4970a",
+   "rosterGenre": "carboxyl group + the n-counts-only-the-chain trap + first four named, workedExample PORTED (the note body propanoic-acid general-formula example, arithmetic lint-verified)",
+   "lessons": 2,
+   "lessonTitles": [
+    "The carboxyl group and the general formula",
+    "Naming the first four acids and meeting vinegar"
+   ],
+   "checks": 10,
+   "keyPoints": 10,
+   "workedExample": "present, ported from the note body, arithmetic verified at stated significant figures",
+   "phaseSeconds": {
+    "P0": 0,
+    "P1": 0,
+    "P2": 0,
+    "P3": 0,
+    "P4": 0,
+    "P5": 0,
+    "P6": 0,
+    "P7": 0,
+    "P8": 0
+   },
+   "totalSeconds": 0,
+   "wallClockSpanSeconds": 0,
+   "pauseLog": [],
+   "assistedPhases": [
+    "P1",
+    "P2",
+    "P3",
+    "P4",
+    "P5",
+    "P6",
+    "P7"
+   ],
+   "schemaValidation": "PASS (ajv draft-07, additionalProperties false)",
+   "lintHardFails": 0,
+   "lintWarningLines": 0,
+   "layerFile": "/home/z/my-project/download/wave10/guided-lesson-rn_2z53qk2CdWrVVc7V.json",
+   "receiptFile": "/home/z/my-project/download/wave10/timing-receipt-rn_2z53qk2CdWrVVc7V.json"
+  },
+  {
+   "noteId": "rn_BBGMYy3Yx9Nm4GV3",
+   "noteTitle": "Reactions of Carboxylic Acids",
+   "topicTitle": "4. Organic Chemistry",
+   "subtopicTitle": "Carboxylic acids",
+   "specPointCodes": [
+    "4CH1-4.36C"
+   ],
+   "bodyChars": 1394,
+   "bodySha256": "5fc733a381088e28322074bb0b70d41b9ae449fb3f4da4ebeb5870e10670afbe",
+   "rosterGenre": "metals and carbonates + the anoate salt naming rule + the two example equations, workedExample-null",
+   "lessons": 2,
+   "lessonTitles": [
+    "Acid behaviour with metals and carbonates",
+    "Example equations for ethanoate and butanoate salts"
+   ],
+   "checks": 10,
+   "keyPoints": 10,
+   "workedExample": "null (designed declaration: none in source note)",
+   "phaseSeconds": {
+    "P0": 0,
+    "P1": 0,
+    "P2": 0,
+    "P3": 0,
+    "P4": 0,
+    "P5": 0,
+    "P6": 0,
+    "P7": 0,
+    "P8": 0
+   },
+   "totalSeconds": 0,
+   "wallClockSpanSeconds": 0,
+   "pauseLog": [],
+   "assistedPhases": [
+    "P1",
+    "P2",
+    "P3",
+    "P4",
+    "P5",
+    "P6",
+    "P7"
+   ],
+   "schemaValidation": "PASS (ajv draft-07, additionalProperties false)",
+   "lintHardFails": 0,
+   "lintWarningLines": 1,
+   "layerFile": "/home/z/my-project/download/wave10/guided-lesson-rn_BBGMYy3Yx9Nm4GV3.json",
+   "receiptFile": "/home/z/my-project/download/wave10/timing-receipt-rn_BBGMYy3Yx9Nm4GV3.json"
+  },
+  {
+   "noteId": "rn_BDkhS5vQpRd4hvwf",
+   "noteTitle": "Esters",
+   "topicTitle": "4. Organic Chemistry",
+   "subtopicTitle": "Esters",
+   "specPointCodes": [
+    "4CH1-4.38C",
+    "4CH1-4.39C",
+    "4CH1-4.40C",
+    "4CH1-4.41C",
+    "4CH1-4.42C"
+   ],
+   "bodyChars": 2398,
+   "bodySha256": "eb94d77c3ebc6b781e67059648549aaa4b80b7b4659e5cc6f7cf012d91e264d7",
+   "rosterGenre": "esterification + the R-COO-R group + yl/oate naming with the volatile smell-and-perfume uses, workedExample-null",
+   "lessons": 2,
+   "lessonTitles": [
+    "Making esters from alcohols and acids",
+    "Naming esters and their everyday uses"
+   ],
+   "checks": 10,
+   "keyPoints": 10,
+   "workedExample": "null (designed declaration: none in source note)",
+   "phaseSeconds": {
+    "P0": 0,
+    "P1": 0,
+    "P2": 0,
+    "P3": 0,
+    "P4": 0,
+    "P5": 0,
+    "P6": 0,
+    "P7": 0,
+    "P8": 0
+   },
+   "totalSeconds": 0,
+   "wallClockSpanSeconds": 0,
+   "pauseLog": [],
+   "assistedPhases": [
+    "P1",
+    "P2",
+    "P3",
+    "P4",
+    "P5",
+    "P6",
+    "P7"
+   ],
+   "schemaValidation": "PASS (ajv draft-07, additionalProperties false)",
+   "lintHardFails": 0,
+   "lintWarningLines": 1,
+   "layerFile": "/home/z/my-project/download/wave10/guided-lesson-rn_BDkhS5vQpRd4hvwf.json",
+   "receiptFile": "/home/z/my-project/download/wave10/timing-receipt-rn_BDkhS5vQpRd4hvwf.json"
+  },
+  {
+   "noteId": "rn_7ZMc3T3J4SJXfNdR",
+   "noteTitle": "Practical: Preparation of Ethyl Ethanoate",
+   "topicTitle": "4. Organic Chemistry",
+   "subtopicTitle": "Esters",
+   "specPointCodes": [
+    "4CH1-4.39C",
+    "4CH1-4.43C"
+   ],
+   "bodyChars": 1497,
+   "bodySha256": "95b5a869f4680d041b4c50027404188b34747d2c2664e563311b20044c70cc46",
+   "rosterGenre": "water-bath method with the flammability reason + distil-off-as-formed rationale + the two-wash purification, workedExample-null",
+   "lessons": 2,
+   "lessonTitles": [
+    "Aim and method: gentle heat and a quick exit",
+    "Result: washing the sample clean"
+   ],
+   "checks": 10,
+   "keyPoints": 10,
+   "workedExample": "null (designed declaration: none in source note)",
+   "phaseSeconds": {
+    "P0": 0,
+    "P1": 0,
+    "P2": 0,
+    "P3": 0,
+    "P4": 0,
+    "P5": 0,
+    "P6": 0,
+    "P7": 0,
+    "P8": 0
+   },
+   "totalSeconds": 0,
+   "wallClockSpanSeconds": 0,
+   "pauseLog": [],
+   "assistedPhases": [
+    "P1",
+    "P2",
+    "P3",
+    "P4",
+    "P5",
+    "P6",
+    "P7"
+   ],
+   "schemaValidation": "PASS (ajv draft-07, additionalProperties false)",
+   "lintHardFails": 0,
+   "lintWarningLines": 1,
+   "layerFile": "/home/z/my-project/download/wave10/guided-lesson-rn_7ZMc3T3J4SJXfNdR.json",
+   "receiptFile": "/home/z/my-project/download/wave10/timing-receipt-rn_7ZMc3T3J4SJXfNdR.json"
+  },
+  {
+   "noteId": "rn_bvyrkKqRBMKCRzHM",
+   "noteTitle": "Disposal of Addition Polymers",
+   "topicTitle": "4. Organic Chemistry",
+   "subtopicTitle": "Synthetic polymers",
+   "specPointCodes": [
+    "4CH1-4.47"
+   ],
+   "bodyChars": 1314,
+   "bodySha256": "32f0dc487faa68fe5e6cea7671b0ac986b9b75e04bf600ff28eebedfb250c2ac",
+   "rosterGenre": "inertness and inability to biodegrade + landfill and the three incineration hazards, workedExample-null",
+   "lessons": 2,
+   "lessonTitles": [
+    "Why addition polymers resist breakdown",
+    "Incineration and its three hazards"
+   ],
+   "checks": 10,
+   "keyPoints": 10,
+   "workedExample": "null (designed declaration: none in source note)",
+   "phaseSeconds": {
+    "P0": 0,
+    "P1": 0,
+    "P2": 0,
+    "P3": 0,
+    "P4": 0,
+    "P5": 0,
+    "P6": 0,
+    "P7": 0,
+    "P8": 0
+   },
+   "totalSeconds": 0,
+   "wallClockSpanSeconds": 0,
+   "pauseLog": [],
+   "assistedPhases": [
+    "P1",
+    "P2",
+    "P3",
+    "P4",
+    "P5",
+    "P6",
+    "P7"
+   ],
+   "schemaValidation": "PASS (ajv draft-07, additionalProperties false)",
+   "lintHardFails": 0,
+   "lintWarningLines": 1,
+   "layerFile": "/home/z/my-project/download/wave10/guided-lesson-rn_bvyrkKqRBMKCRzHM.json",
+   "receiptFile": "/home/z/my-project/download/wave10/timing-receipt-rn_bvyrkKqRBMKCRzHM.json"
+  },
+  {
+   "noteId": "rn_bGgYrQXP2tqrYwdV",
+   "noteTitle": "Condensation Polymers",
+   "topicTitle": "4. Organic Chemistry",
+   "subtopicTitle": "Synthetic polymers",
+   "specPointCodes": [
+    "4CH1-4.48C",
+    "4CH1-4.49C",
+    "4CH1-4.50C"
+   ],
+   "bodyChars": 4995,
+   "bodySha256": "f1c37909ad8d09e990112d7d987e616d6fa9676c6c7687f71b8076e3a3d95b90",
+   "rosterGenre": "condensation vs addition + terylene and hydrolysis monomer deduction + biopolyesters, workedExample-null",
+   "lessons": 3,
+   "lessonTitles": [
+    "Condensation versus addition",
+    "Polyesters: terylene and deducing the monomers",
+    "Biopolyesters"
+   ],
+   "checks": 15,
+   "keyPoints": 15,
+   "workedExample": "null (designed declaration: none in source note)",
+   "phaseSeconds": {
+    "P0": 0,
+    "P1": 0,
+    "P2": 0,
+    "P3": 0,
+    "P4": 0,
+    "P5": 0,
+    "P6": 0,
+    "P7": 0,
+    "P8": 0
+   },
+   "totalSeconds": 0,
+   "wallClockSpanSeconds": 0,
+   "pauseLog": [],
+   "assistedPhases": [
+    "P1",
+    "P2",
+    "P3",
+    "P4",
+    "P5",
+    "P6",
+    "P7"
+   ],
+   "schemaValidation": "PASS (ajv draft-07, additionalProperties false)",
+   "lintHardFails": 0,
+   "lintWarningLines": 1,
+   "layerFile": "/home/z/my-project/download/wave10/guided-lesson-rn_bGgYrQXP2tqrYwdV.json",
+   "receiptFile": "/home/z/my-project/download/wave10/timing-receipt-rn_bGgYrQXP2tqrYwdV.json"
+  }
+ ],
+ "warningInventory": {
+  "arithmetic-truth: workedExample is null — declared as none in source note (receipt must carry the declaration)": 7
+ },
+ "warningReconciliation": {
+  "inventoryOfRecord": "7 designed lint warning lines across 7 of the 8 notes, all of one class: workedExample-null declarations on every note of the register that carries no arithmetic worked example of record. The eighth note, Carboxylic Acids, carries the wave's single numeric port — the propanoic-acid general-formula example taken from the note body — so its receipt shows zero warnings and the port was arithmetic-verified at stated significant figures by the lint. Zero non-designed warnings survived to export on any note.",
+  "reconciliation": "the wave ran under a single operator ignition, so the tally is wave-wide from the outset: 7 designed declarations plus 1 verified port minted at the pre-flight stage and unchanged at export — parity with the receipts at every step, no drift to reconcile. The receipts are authoritative; the round verifier designed-or-none check passes on all eight."
+ },
+ "integrityRecord": {
+  "entryRestoration": "post-recycle continuity discipline at one-wave scope: the remote home arbitrated the head (moved past the wave-9 landing d1820483 to an interleaved push) and MANIFEST v8 verified the ENTIRE local wave-9 set — 25 download files plus all 12 event logs — by recomputed sha256, zero mismatches, with waves 1-8 file counts and the 104-receipt prior pool confirmed intact locally. The one-command library pattern held (ajv + js-yaml + docx all resolving), so no reinstall was needed.",
+  "chainDiscipline": "all eight receipts carry assistedPhases exactly P1..P7 (P0 read-only unflagged, P8 closed mechanically by export); asserted mechanically at receipt build, including the P0 phase-end assist===false assert on every event log — the permanent guard minted from the wave-3 notes-5-6 repair, exercised clean on every wave since.",
+  "correctedInvocationNative": "the corrected invocation pattern (first phase P1 command unflagged, so P0 closes unflagged natively) was applied to all eight chains from the outset; no repair of any kind was needed inside any chain.",
+  "preFlightTransparency": "pre-flight (ajv schema + a1-lint on every layer BEFORE any chain fired) caught and fixed, all before first export: 1 schema slip (a three-item sourceHeadings list trimmed to the two-heading maximum on the practical note) and 4 plain-words-register slips in scanned fields (\"observation\" in an opening, \"Oxidation\" in the manufacture primer, \"formation\" in the esters opening and the condensation restatement — all rephrased in place). Zero source-fidelity runs and zero template-uniformity flags wave-wide, the cleanest pre-flight sweep of the programme. Post-fix pre-flight: 8 notes exactly 1 designed warning or a clean port, 0 hard-fails, 0 other warnings — designed-or-none achieved before any chain.",
+  "specTextNormalisation": "spec texts resolved from the graph content pack (specification_points.yaml), parity-proven against wave-5 of-record texts (4/4 exact, probe set excluding the flattened 2.19). The wave-8 generalisation ran data-driven over all 18 wave-10 code instances (17 unique) and found 3 multi-bullet statements — 4.31C, 4.32C and 4.47 — each flattened to semicolon clauses using the pack's own official_bullets verbatim.",
+  "numericPortTreatment": "ONE port this wave, the first since wave-8: the Carboxylic Acids note ships two arithmetic worked examples in its body (propanoic and pentanoic acid via the general formula), so the layer ports the propanoic case verbatim-in-substance (3 - 1 = 2; 2 x 2 + 1 = 5; C2H5COOH -> C3H6O2), arithmetic-verified by the lint at stated significant figures. The remaining seven notes declare designed workedExample-null.",
+  "registerScannerHandling": "plain-words register: scanned fields (openings, depth-layer restatements, primers) kept free of unglossed -ation/-esis/-osis/-ometry terms of nine or more characters; \"oxidation\", \"hydration\", \"fermentation\", \"distillation\", \"esterification\", \"incineration\" and \"condensation\" carried by exact single-word glossary terms inside their own notes, and the four residual slips rephrased in place; no register warning survived to export on any note.",
+  "patchLiveProof": "the wave-1 save() omission stayed patched all wave: zero gate-blocked exports, zero re-exports, exactly one P8 phase-end per log — every production round since the patch has run clean."
+ },
+ "reader": {
+  "numberofRecord": "no human-rate number is quotable from wave-10 (chain telemetry under pre-write batch flow, declared-assisted). Planning continues on the wave-1 instrumented basis (283 s/note, 0.0697 s/ch) and the 28/56/93 author-day bands.",
+  "caveat": "All figures are model-drafted under the operator OPEN posture with per-phase declared assistance. The focused tally measures the P0-P8 chain window, not authoring effort, under the batch flow disclosed above; the exposure bands remain the only corpus-wide arithmetic of record."
+ }
+}

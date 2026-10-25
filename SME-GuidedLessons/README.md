@@ -30,15 +30,15 @@ The operator asked for this work to be saved either in a new folder or inside
 
 | Path | Purpose |
 |---|---|
-| `wave-1/`, `wave-2/`, `wave-3/`, `wave-4/`, `wave-5/`, `wave-6/`, `wave-7/`, `wave-8/`, `wave-9/` | The exports of record per wave: `guided-lesson-rn_<id>.json` (the lesson layer) + `timing-receipt-rn_<id>.json` (export-gate telemetry). All nine waves carry their aggregate `wave<N>-receipt.json` (wave receipt of record, minted at each close-out with the recalibration block and event-log ground truth); wave-1 carries the `snapshot-pin-reverify-20261024.json`. |
+| `wave-1/`, `wave-2/`, `wave-3/`, `wave-4/`, `wave-5/`, `wave-6/`, `wave-7/`, `wave-8/`, `wave-9/`, `wave-10/` | The exports of record per wave: `guided-lesson-rn_<id>.json` (the lesson layer) + `timing-receipt-rn_<id>.json` (export-gate telemetry). All ten waves carry their aggregate `wave<N>-receipt.json` (wave receipt of record, minted at each close-out with the recalibration block and event-log ground truth); wave-1 carries the `snapshot-pin-reverify-20261024.json`. |
 | `event-logs/wave-<N>/` | The P0–P8 chain logs (`rn_<id>.events.json`) — one per note. Wave-1 also carries the per-note `note-body.md` extracts used during the instrumented first run. |
 | `corpus-snapshot.json` | The **pinned authoring substrate**: all 112 note bodies, sha256 `e23e2ab79df6b0e957bf12933779e4701b37c88736d87c20b19bac130553487d`. Every round re-verifies this pin; body text is read from here, never from a live DB. |
 | `pacing/wave-pacing-open-20261024.json` | The **register of record**: all 112 notes with wave plan, subtopics, body char counts, spec point codes. |
 | `tooling/` | The gate + harness + verifier scripts: `a1-lint.js` (the lint gate), `wave1-run.js` (the authoring harness, incl. the save() patch lineage), `wave<N>-round-verify.js` (per-round verifiers, wave-3's carrying the close-out guards), `wave3-row-dump.js`, `wave3-schema-check.js`, `wave3-p0flag-repair.js` (the disclosed P0-flag repair tool), the wave receipt builders (`wave<N>-wave-receipt.js`) and report generators (`wave<N>-report*.js`). Paths inside are sandbox-absolute (`/home/z/my-project/...`) — they are records of how gates were run. |
-| `reports/` | Wave report deliverables (docx): Wave-1 instrumented-authoring report, Wave-2 report, Wave-3 report, Wave-4 report, Wave-5 report, Wave-6 report, Wave-7 report, Wave-8 report, Wave-9 report. |
+| `reports/` | Wave report deliverables (docx): Wave-1 instrumented-authoring report, Wave-2 report, Wave-3 report, Wave-4 report, Wave-5 report, Wave-6 report, Wave-7 report, Wave-8 report, Wave-9 report, Wave-10 report. |
 | `MANIFEST.json` | Machine twin: per-file sha256 + byte counts for every file in this folder. Verify with `sha256sum -c`-style tooling of your choice. |
 
-## Status — 104 / 112 notes authored — TOPICS 1–3 COMPLETE — TOPIC 4 OPENING
+## Status — 112 / 112 notes authored — CORPUS COMPLETE — ALL 28 SUBTOPICS CLOSED
 
 | Wave | Notes | Register rows | Subtopic band | Files |
 |---|---|---|---|---|
@@ -51,10 +51,11 @@ The operator asked for this work to be saved either in a new folder or inside
 | wave-7 | 9 | register[69..77] | T2 Inorganic Chemistry: Acids, Bases & Salt Preparations close → Chemical Tests close (TOPIC 2 COMPLETES) | 19 |
 | wave-8 | 14 | register[78..91] | T3 Physical Chemistry: Energetics → Rates of Reaction → Reversible Reactions & Equilibria (TOPIC 3 OPENS AND COMPLETES) | 29 |
 | wave-9 | 12 | register[92..103] | T4 Organic Chemistry: Introduction → Crude Oil → Alkanes → Alkenes close; Alcohols open (TOPIC 4 OPENS) | 25 |
+| wave-10 | 8 | register[104..111] | T4 Organic Chemistry: Alcohols → Carboxylic acids → Esters → Synthetic polymers close (CORPUS COMPLETE) | 17 |
 
-Waves 1–9 are **CLOSED of record** (wave receipts `wave1/…/wave9-receipt.json`, wave reports in `reports/`, recalibration checkpoints discharged — every checkpoint since wave-2 reaffirms the same decision: estimator basis frozen at the wave-1 instrumented 283 s/note; receipts are export-gate telemetry). **Topic 1, Principles of Chemistry, is COMPLETE of record: 40/40 notes across all nine subtopics.** **Topic 2, Inorganic Chemistry, is COMPLETE of record: 36/36 notes across all eight subtopics** (closed across waves 5–7). **Topic 3, Physical Chemistry, is COMPLETE of record: 15/15 notes across all three subtopics** (opened and closed inside wave-8). **Topic 4, Organic Chemistry, is OPEN of record: 13/21 notes built across five of its eight subtopics** — Introduction, Crude Oil, Alkanes and Alkenes closed outright in wave-9, with Alcohols holding at 1/2. Programme position: 104/112 notes (92.9 percent), 24 of 28 subtopics closed outright, cumulative 222 lessons / 1,110 checks / 1,127 key points / 612 glossary entries. Wave-9 ran as the fourth fully single-ignition wave (zero repairs, zero re-exports, zero pauses) and carried 12 designed workedExample-null declarations — the second wave after wave-7 whose entire warning inventory sits in the single workedExample-null class, with no numeric ports because none of the twelve source notes carries a calculation section.
+**The register is COMPLETE of record: 112/112 notes authored across ten waves — all four topics and all 28 subtopics closed.** Topic 1, Principles of Chemistry, 40/40 across all nine subtopics. Topic 2, Inorganic Chemistry, 36/36 across all eight subtopics (closed across waves 5–7). Topic 3, Physical Chemistry, 15/15 across all three subtopics (opened and closed inside wave-8). Topic 4, Organic Chemistry, 21/21 across all eight subtopics (opened in wave-9, closed in wave-10: Alcohols, Carboxylic acids, Esters and Synthetic polymers). Cumulative totals of record: 239 lessons / 1,195 explained checks / 1,212 key points / 654 glossary entries / 3,565 named-misconception distractors over 361,272 source characters — the authored character count now equals the pinned corpus character count exactly, the closing identity of the programme. Waves 1–10 are CLOSED of record (wave receipts `wave1/…/wave10-receipt.json`, wave reports in `reports/`, recalibration checkpoints discharged — every checkpoint since wave-2 reaffirms the same decision: estimator basis frozen at the wave-1 instrumented 283 s/note; receipts are export-gate telemetry). Wave-10 ran as the fifth fully single-ignition wave (zero repairs, zero re-exports, zero pauses), swept both pre-flight guards clean for the first time (zero source-fidelity runs, zero uniformity flags), and carried 7 designed workedExample-null declarations plus the programme's first numeric port since wave-8 (the Carboxylic Acids note ships its own arithmetic worked examples; the propanoic-acid case was ported in substance and arithmetic-verified by the lint).
 
-**NEXT (operator-gated):** wave-10 open — the final 8 notes of the corpus (20,546 chars, 18 spec points) completing Topic 4 Organic Chemistry: Oxidation of Ethanol and Manufacture of Ethanol closing the Alcohols subtopic, Carboxylic Acids and Reactions of Carboxylic Acids, then Esters and the ethyl ethanoate practical, then Disposal of Addition Polymers and Condensation Polymers closing Synthetic polymers. All wave-10 artefacts append to this folder on the standing convention.
+**REGISTER COMPLETE:** no wave-11 exists to open — the pacing file's schedule is fully discharged and every one of the 112 notes carries its guided-lesson layer, timing receipt and event log. Any future work attaches to revision or re-authoring rounds (the per-note receipts and event logs remain the audit trail of record) or to downstream flows consuming the corpus; the standing disciplines — pin verification, parity-proofed spec resolution, the pre-flight gates and the idempotent export harness — persist as scripts under `tooling/` ready to run again if the register ever changes.
 
 ## The hard laws of this programme (as run)
 
@@ -89,7 +90,8 @@ Waves 1–9 are **CLOSED of record** (wave receipts `wave1/…/wave9-receipt.jso
 - **Spec texts of record:** waves 1–4 read from the `syllabai-v2` content pack
   (wave-8 generalised the flattening: multi-bullet statements draw their semicolon
   clauses from the pack's own `official_bullets` field — 3.8 and 3.22C in wave-8;
-  wave-9 scanned all 30 codes data-driven and found none, so zero flattening applied);
+  wave-9 scanned all 30 codes data-driven and found none; wave-10 found 3 (4.31C, 4.32C
+  and 4.47), each flattened from the pack's own bullets verbatim);
   (`apps/hub/content/igcse-chemistry-19/curriculum.json`), read-only; wave-5 resolved all
   16 codes, wave-6 all 19 and wave-7 all 11 codes zero-DB from this repo's knowledge graph
   (`graph/igcse-chemistry/specification_points.yaml`), each wave parity-proven 4/4
@@ -116,4 +118,7 @@ Waves 1–9 are **CLOSED of record** (wave receipts `wave1/…/wave9-receipt.jso
   `1a174751135ae18d` verbatim "Go wave-8", same single-commit method. Wave-9 append
   (wave-9 deliverables + event logs + report + tooling x23 including the per-note layer
   builders + manifest v8 refresh): operator trace `1a174b960e367b61` verbatim "Go wave-9",
-  same single-commit method. Waves 10+ append on this convention.
+  same single-commit method. Wave-10 append (wave-10 deliverables + event logs + report
+  + tooling x19 including the per-note layer builders + manifest v9 refresh, the FINAL
+  append of the register): operator trace `1a174e627dda7171` verbatim "Go wave-10",
+  same single-commit method.
