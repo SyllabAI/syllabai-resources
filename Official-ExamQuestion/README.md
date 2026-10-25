@@ -85,14 +85,16 @@ is the executed precedent.
   spec tagging), 2019-06 re-ingest, then new courses per ADR-037 §6 (4XCH1 modular,
   4SD0 shared papers).
 
-## Status — igcse-physics-19 (second lane, landed 2026-10-26, Task 16)
+## Status — igcse-physics-19 (second lane, landed Task 16, MS-parser wave Task 17)
 
 - **53 of 58 census paper dirs of 4PH1 (all 17 series, 2019-06 … 2026-06) are converted
-  and LANDED REVIEW-HEAVY under ADR-039** on the operator's explicit order: 520
-  questions, 2,171 parts, 4,790 marks, converter v0.17.4. Structural gates PASS 53/53
-  (G0/G1/G2-D/G4/G6/G7); the physics MS-table parser wave is disclosed, not hidden —
-  G3 79/138 MCQ parts honestly unkeyed, G5 936/2,171 parts unmatched (no solution
-  invented; all 1,235 linked parts carry their verbatim MS block).
+  and LANDED under ADR-039**: 520 questions, 2,171 parts, 4,790 marks, converter v0.19.0.
+  **Every slice passes every gate (G0–G7) and the battery is 83/83.** The Task 17
+  MS-table parser wave (F72) closed the Task 16 disclosed deltas: G5 answer linkage is
+  corpus-complete (2,171/2,171 parts carry their verbatim MS block; baseline was 1,235),
+  G3 MCQ keying is 134/138 — the 4 remaining fails are QP-side structural classes
+  (choice-label extraction drops + non-MCQ question typing), disclosed in LANE-STATUS,
+  never guessed.
 - 5 dirs dispositioned with standing receipts: 2020-11 1PR/2P/2PR (no QP in archive,
   `na:pmt-not-listed`), 2019-06 1P (image-only scan, OCR wave open), 2023-06 2P
   (archive bytes are an Examiners' Report — pastpapers repair owed).

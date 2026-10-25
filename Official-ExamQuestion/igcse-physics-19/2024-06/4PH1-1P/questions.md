@@ -10,17 +10,67 @@ This question is about the motion of objects in the solar system.
 
 Draw a labelled diagram showing the Moon orbiting the Earth.
 
+
+**Mark scheme answer**
+
+> labelled diagram showing a moon in circular orbit allow planet for Earth
+> around Earth; judge circular by eye
+> ignore attempts at 3D
+> drawing
+> Earth approximately at the centre of the path; allow planet for Earth
+
+- **(2)** labelled diagram showing a moon in circular orbit allow planet for Earth
+
 ### 1(a)(ii) [1]
 
 Give the name of the force that causes the Moon to orbit the Earth.
+
+
+**Mark scheme answer**
+
+> gravitational (force); allow gravity
+> ignore weight,
+> centripetal, centrifugal
+> reject gravitational
+> potential, gravitational
+> field strength
+
+- **(1)** gravitational (force); allow gravity
 
 ### 1(a)(iii) [1]
 
 Give the name of another object that orbits the Earth.
 
+
+**Mark scheme answer**
+
+> satellite / space station; allow other suitable
+> object e.g. (rocket)
+> debris etc.
+> reject comet
+
+- **(1)** satellite / space station; allow other suitable
+
 ### 1(b) [1]
 
 A planet and a comet both orbit a star. Give a difference between the orbit of a planet and the orbit of a comet.
+
+
+**Mark scheme answer**
+
+> planet’s orbit is circular/slightly elliptical but clear comparison
+> comet’s orbit is elliptical/oval; needed
+> allow comet orbit is
+> more elliptical
+> OR ignore references to
+> period/length of orbits
+> planet has constant speed but comet has variable allow idea that planet
+> speed; has constant orbital
+> radius but comet has
+> variable orbital radius
+> Answer Marks
+
+- **(1)** planet’s orbit is circular/slightly elliptical but clear comparison
 
 
 ## Question 2 (5 marks)
@@ -45,26 +95,6 @@ The nucleus of an atom of carbon has 6 protons and 8 neutrons. Which row of the 
 > B is not the answer because it is the same isotope
 > C is not the answer because it is a different element
 > D is not the answer because it is a different element
-> (b) B (beta);
-> A is not the answer because alpha is a helium nucleus
-> C is not the answer because gamma is a high frequency EM wave
-> D is not the answer because it is not an electron
-> (c) D (neutron);
-> A is not the answer because this would decrease the atomic number and
-> decrease the mass number
-> B is not the answer because this would increase the atomic number and
-> keep the mass number the same
-> C is not the answer because this would keep the atomic number and mass
-> number the same
-> (d) A (90);
-> B is not the answer because this is a neutral atom
-> C is not the answer because it is a negatively charged ion
-> D is not the answer because it is a negatively charged ion
-> (e) C (100 Bq);
-> A is not the answer because this is 4 half-lives
-> B is not the answer because this is 3 half-lives
-> D is not the answer because this is 1 half-life
-> Answer Notes Marks
 
 - **(1)** Answer A: 6                       6
 
@@ -73,26 +103,70 @@ The nucleus of an atom of carbon has 6 protons and 8 neutrons. Which row of the 
 Which type of radiation is a high-energy electron?
 
 - **(A)** alpha
-- **(B)** beta
+- **(B)** beta  ✔
 - **(C)** gamma
 - **(D)** neutron
+
+
+**Mark scheme answer**
+
+> B (beta);
+> A is not the answer because alpha is a helium nucleus
+> C is not the answer because gamma is a high frequency EM wave
+> D is not the answer because it is not an electron
+
+- **(1)** Answer B: beta
 
 ### 2(c) [1]
 
 A nucleus emits radiation. This causes the mass number to decrease by one. The atomic number stays the same. Which type of radiation does the nucleus emit? A alpha B beta C gamma D neutron
 
+
+**Mark scheme answer**
+
+> D (neutron);
+> A is not the answer because this would decrease the atomic number and
+> decrease the mass number
+> B is not the answer because this would increase the atomic number and
+> keep the mass number the same
+> C is not the answer because this would keep the atomic number and mass
+> number the same
+
+- **(1)** D (neutron);
+
 ### 2(d) [1]
 
 The nucleus of an isotope of uranium can be represented using this symbol. U 238 The nucleus forms part of a positively charged ion. How many electrons could be in this ion?
 
-- **(A)** 90
+- **(A)** 90  ✔
 - **(B)** 92
 - **(C)** 146
 - **(D)** 238
 
+
+**Mark scheme answer**
+
+> A (90);
+> B is not the answer because this is a neutral atom
+> C is not the answer because it is a negatively charged ion
+> D is not the answer because it is a negatively charged ion
+
+- **(1)** Answer A: 90
+
 ### 2(e) [1]
 
 A radioactive isotope has an initial activity of 400 Bq. The half-life of the isotope is 8 hours. What is the activity of the isotope after 16 hours? A 25 Bq B 50 Bq C 100 Bq D 200 Bq
+
+
+**Mark scheme answer**
+
+> C (100 Bq);
+> A is not the answer because this is 4 half-lives
+> B is not the answer because this is 3 half-lives
+> D is not the answer because this is 1 half-life
+> Answer Notes Marks
+
+- **(1)** C (100 Bq);
 
 
 ## Question 3 (10 marks)
@@ -147,7 +221,17 @@ Give two differences between the properties of visible light waves and infrared 
 > • infrared has lower frequency; allow RA
 > condone infrared has lower
 > energy
-> (c) substitution into speed = distance / time;
+
+- **(2)** • infrared has longer/higher wavelength; allow RA
+
+### 3(c) [3]
+
+The infrared heating lamps are placed 1.5 m from the car. Calculate the time taken for infrared waves emitted from a lamp to reach the car. [for infrared waves, speed = 3.0 × 108 m/s] time taken = s
+
+
+**Mark scheme answer**
+
+> substitution into speed = distance / time;
 > rearrangement;
 > evaluation; -1 for POT error
 > e.g.
@@ -155,7 +239,17 @@ Give two differences between the properties of visible light waves and infrared 
 > time = 1.5 / 3.0 × 108
 > (time =) 5.0 × 10−9 (s) allow 5 × 10−9 (s),
 > 0.000 000 005 (s)
-> (d) black is a better/good absorber (of infrared allow RA e.g. white is a
+
+- **(3)** substitution into speed = distance / time;
+
+### 3(d) [2]
+
+Paint takes less time to harden when it absorbs more energy from infrared radiation. A technician observes that white paint takes more time to harden than black paint. Explain this observation.
+
+
+**Mark scheme answer**
+
+> black is a better/good absorber (of infrared allow RA e.g. white is a
 > radiation); poor absorber
 > allow white is a
 > better/good reflector (of
@@ -169,15 +263,7 @@ Give two differences between the properties of visible light waves and infrared 
 > energy/heat scores 2
 > Answer Notes Marks
 
-- **(2)** • infrared has longer/higher wavelength; allow RA
-
-### 3(c) [3]
-
-The infrared heating lamps are placed 1.5 m from the car. Calculate the time taken for infrared waves emitted from a lamp to reach the car. [for infrared waves, speed = 3.0 × 108 m/s] time taken = s
-
-### 3(d) [2]
-
-Paint takes less time to harden when it absorbs more energy from infrared radiation. A technician observes that white paint takes more time to harden than black paint. Explain this observation.
+- **(2)** black is a better/good absorber (of infrared allow RA e.g. white is a
 
 
 ## Question 4 (9 marks)
@@ -196,8 +282,28 @@ A main sequence star is created in a collapsing region of a nebula. The table gi
 > one mark for each correct row;;;; reject mark for row if
 > more than one tick
 > given
-> (b) mass; ignore size, weight
-> (c) any four from: allow RA for all marking
+
+- **(4)** one mark for each correct row;;;; reject mark for row if
+
+### 4(b) [1]
+
+At the end of the main sequence stage of a star’s evolution, the star can become a red giant or a red supergiant. Give the property of a star that determines whether it becomes a red giant or a red supergiant.
+
+
+**Mark scheme answer**
+
+> mass; ignore size, weight
+
+- **(1)** mass; ignore size, weight
+
+### 4(c) [4]
+
+A red giant star eventually becomes a white dwarf star. Discuss the differences between a red giant star and a white dwarf star.
+
+
+**Mark scheme answer**
+
+> any four from: allow RA for all marking
 > points
 > MP1. red giant has greater brightness than white allow absolute
 > dwarf; magnitude, luminosity,
@@ -216,15 +322,7 @@ A main sequence star is created in a collapsing region of a nebula. The table gi
 > giant does not;
 > Answer Notes Marks
 
-- **(4)** one mark for each correct row;;;; reject mark for row if
-
-### 4(b) [1]
-
-At the end of the main sequence stage of a star’s evolution, the star can become a red giant or a red supergiant. Give the property of a star that determines whether it becomes a red giant or a red supergiant.
-
-### 4(c) [4]
-
-A red giant star eventually becomes a white dwarf star. Discuss the differences between a red giant star and a white dwarf star.
+- **(4)** any four from: allow RA for all marking
 
 
 ## Question 5 (11 marks)
@@ -341,19 +439,6 @@ Draw two arrows on the field lines in diagram 1 to show the direction of the mag
 > reject if any arrows
 > point away from the
 > south pole
-> (b) B (nickel);
-> A is incorrect because copper is not a magnetic
-> material
-> C is incorrect because plastic is not a magnetic
-> material
-> D is incorrect because zinc is not a magnetic
-> material
-> (c) field line spacing/density changes (with distance allow field lines aren’t
-> from south pole); parallel
-> further apart field lines shows weaker field scores both marks
-> strength; allow RA
-> ignore references to
-> forces
 
 - **(1)** arrows drawn on at least two field lines pointing condone if arrows are
 
@@ -362,13 +447,38 @@ Draw two arrows on the field lines in diagram 1 to show the direction of the mag
 Which of these is attracted to the bar magnet if placed in the magnetic field?
 
 - **(A)** copper
-- **(B)** nickel
+- **(B)** nickel  ✔
 - **(C)** plastic
 - **(D)** zinc
+
+
+**Mark scheme answer**
+
+> B (nickel);
+> A is incorrect because copper is not a magnetic
+> material
+> C is incorrect because plastic is not a magnetic
+> material
+> D is incorrect because zinc is not a magnetic
+> material
+
+- **(1)** Answer B: nickel
 
 ### 6(c) [2]
 
 The strength of the magnetic field changes as the distance from the south pole increases. Explain how the magnetic field lines show this.
+
+
+**Mark scheme answer**
+
+> field line spacing/density changes (with distance allow field lines aren’t
+> from south pole); parallel
+> further apart field lines shows weaker field scores both marks
+> strength; allow RA
+> ignore references to
+> forces
+
+- **(2)** field line spacing/density changes (with distance allow field lines aren’t
 
 ### 6(d)(i) [2]
 
@@ -514,7 +624,24 @@ Switches 1 and 3 are closed, which turn on lamps 1 and 3. Switch 2 is open. Calc
 > (current =) 39 (mA);
 > 60, 65, 82 (mA) scores 1 mark
 > Answer Notes Marks
-> 8 any six from:
+
+- **(2)** any attempt to add any currents together;
+
+
+## Question 8 (6 marks)
+
+The diagram shows two rays of light, A and B, incident on the boundary between air and water. light source drawn to scale A B air water The refractive index of water is 1.33 Explain the paths of the two rays of light after they strike the boundary between air and water. Include calculations in your answer and draw on the diagram to support your answer.
+
+### 8 [6]
+
+The diagram shows two rays of light, A and B, incident on the boundary between air and water. light source drawn to scale A B air water The refractive index of water is 1.33 Explain the paths of the two rays of light after they strike the boundary between air and water. Include calculations in your answer and draw on the diagram to support your answer.
+
+![diagram — official paper figure (qp.pdf p.18)](assets/asset_8_diagram.png)
+
+
+**Mark scheme answer**
+
+> any six from:
 > MP1. ray A is refracted and changes direction; may be shown on
 > diagram by ray passing
 > MP2. ray B is refracted and changes direction; through boundary
@@ -540,18 +667,7 @@ Switches 1 and 3 are closed, which turn on lamps 1 and 3. Switch 2 is open. Calc
 > not relevant
 > Answer Notes Marks
 
-- **(2)** any attempt to add any currents together;
-
-
-## Question 8 (6 marks)
-
-The diagram shows two rays of light, A and B, incident on the boundary between air and water. light source drawn to scale A B air water The refractive index of water is 1.33 Explain the paths of the two rays of light after they strike the boundary between air and water. Include calculations in your answer and draw on the diagram to support your answer.
-
-### 8 [6]
-
-The diagram shows two rays of light, A and B, incident on the boundary between air and water. light source drawn to scale A B air water The refractive index of water is 1.33 Explain the paths of the two rays of light after they strike the boundary between air and water. Include calculations in your answer and draw on the diagram to support your answer.
-
-![diagram — official paper figure (qp.pdf p.18)](assets/asset_8_diagram.png)
+- **(6)** any six from:
 
 
 ## Question 9 (6 marks)
@@ -568,14 +684,36 @@ During an aeroplane flight, a passenger drinks some water from a plastic bottle.
 **Mark scheme answer**
 
 > 80 (kPa);
-> (b) any two from:
+
+- **(1)** 80 (kPa);
+
+### 9(b) [2]
+
+As the aeroplane descends, the air pressure inside the aeroplane changes. When the aeroplane lands, the passenger notices that the plastic bottle has collapsed, as shown in diagram 2. air water Diagram 2 Explain why the bottle has collapsed.
+
+![diagram — official paper figure (qp.pdf p.21)](assets/asset_9_b_diagram.png)
+
+
+**Mark scheme answer**
+
+> any two from:
 > MP1. pressure (in aeroplane) increases; allow idea that pressure
 > outside bottle is greater
 > than inside bottle
 > MP2. (resultant) force (inwards) on bottle;
 > MP3. idea that decreasing volume (in bottle)
 > increases pressure (in bottle);
-> (c) any three from: allow particles / atoms
+
+- **(2)** any two from:
+
+### 9(c) [3]
+
+Explain how gas molecules in the air exert a pressure on the surface of the bottle.
+
+
+**Mark scheme answer**
+
+> any three from: allow particles / atoms
 > for molecules
 > MP1. (direction of) movement of molecules is
 > random;
@@ -590,17 +728,7 @@ During an aeroplane flight, a passenger drinks some water from a plastic bottle.
 > format
 > Answer Notes Marks
 
-- **(1)** 80 (kPa);
-
-### 9(b) [2]
-
-As the aeroplane descends, the air pressure inside the aeroplane changes. When the aeroplane lands, the passenger notices that the plastic bottle has collapsed, as shown in diagram 2. air water Diagram 2 Explain why the bottle has collapsed.
-
-![diagram — official paper figure (qp.pdf p.21)](assets/asset_9_b_diagram.png)
-
-### 9(c) [3]
-
-Explain how gas molecules in the air exert a pressure on the surface of the bottle.
+- **(3)** any three from: allow particles / atoms
 
 
 ## Question 10 (15 marks)
@@ -798,7 +926,19 @@ The electronic device is connected to the power bank using a long cable. Suggest
 > idea that longer cable has more resistance; ignore longer distance
 > (so) charging current will be less AND time taken both ideas needed for
 > will increase; the mark
-> (c) any four from:
+
+- **(2)** idea that longer cable has more resistance; ignore longer distance
+
+### 11(c) [4]
+
+A student owns three electronic devices. Each electronic device stores a different amount of charge. The table gives some information about the charge stored by the electronic devices and how often they need to be recharged. Charge stored Frequency of Electronic device in Ah recharging A 2.4 once every day B 4.2 once during the week C 6.8 once during the week The power bank stores a maximum charge of 26.8 Ah. The student needs to take these three electronic devices on a school trip for one week. Determine whether the maximum charge of the power bank is enough to recharge the batteries of the three electronic devices during the school trip.
+
+![table — official paper figure (qp.pdf p.28)](assets/asset_11_c_table.png)
+
+
+**Mark scheme answer**
+
+> any four from:
 > MP1. determination of total charge needed for 27.8 (Ah) or 100 080 C
 > the week;
 > MP2. quantitative comparison to power bank allow 27.8 is greater
@@ -819,13 +959,7 @@ The electronic device is connected to the power bank using a long cable. Suggest
 > recharged during trip
 > Answer Notes Marks
 
-- **(2)** idea that longer cable has more resistance; ignore longer distance
-
-### 11(c) [4]
-
-A student owns three electronic devices. Each electronic device stores a different amount of charge. The table gives some information about the charge stored by the electronic devices and how often they need to be recharged. Charge stored Frequency of Electronic device in Ah recharging A 2.4 once every day B 4.2 once during the week C 6.8 once during the week The power bank stores a maximum charge of 26.8 Ah. The student needs to take these three electronic devices on a school trip for one week. Determine whether the maximum charge of the power bank is enough to recharge the batteries of the three electronic devices during the school trip.
-
-![table — official paper figure (qp.pdf p.28)](assets/asset_11_c_table.png)
+- **(4)** any four from:
 
 
 ## Question 12 (12 marks)
@@ -846,7 +980,17 @@ By drawing a tangent to the curve, determine the acceleration of the car at a ti
 > to calculate a gradient
 > acceleration in the range 1.00-1.20 (m/s2); scores 3 marks total
 > acceleration in the range 1.05-1.15 (m/s2); scores 4 marks total
-> (b) distance = area under line; seen explicitly or
+
+- **(4)** appropriate attempt to draw tangent at 20s on the
+
+### 12(b) [5]
+
+Determine the distance travelled by the car during the first 80 s of its journey. distance = m
+
+
+**Mark scheme answer**
+
+> distance = area under line; seen explicitly or
 > implied by working
 > suitable method used; allow
 > • use of trapeziums
@@ -857,7 +1001,17 @@ By drawing a tangent to the curve, determine the acceleration of the car at a ti
 > distance in the range = 3200-4200 (m); scores 3 marks total
 > distance in the range = 3500-4000 (m); scores 4 marks total
 > distance in the range = 3700-3800 (m); scores 5 marks total
-> (c) speed/velocity is constant; allow terminal velocity
+
+- **(5)** distance = area under line; seen explicitly or
+
+### 12(c) [3]
+
+Explain the motion of the car after 80 s.
+
+
+**Mark scheme answer**
+
+> speed/velocity is constant; allow terminal velocity
 > idea that driving force of car = air resistance; allow forces are
 > balanced
 > resultant force is zero; allow acceleration is
@@ -865,13 +1019,5 @@ By drawing a tangent to the curve, determine the acceleration of the car at a ti
 > Pearson Education Limited. Registered company number 872828
 > with its registered office at 80 Strand, London, WC2R 0RL, United Kingdom
 
-- **(4)** appropriate attempt to draw tangent at 20s on the
-
-### 12(b) [5]
-
-Determine the distance travelled by the car during the first 80 s of its journey. distance = m
-
-### 12(c) [3]
-
-Explain the motion of the car after 80 s.
+- **(3)** speed/velocity is constant; allow terminal velocity
 

@@ -19,19 +19,6 @@ The table lists some statements about the universe. Place ticks (✓) in the tab
 > 1 mark for each correct tick;
 > -1 for each additional tick if more than two ticks seen
 > 5 ticks scores zero
-> (b) B (decreases, increases);
-> A is incorrect because a red giant is more powerful
-> than a main sequence star
-> C is incorrect because a red giant is cooler and
-> more powerful than a main sequence star
-> D is incorrect because a red giant is cooler than a
-> main sequence star
-> (c) the brightness/luminosity (of an object);
-> idea of a standard distance; allow 10 parsecs/32(.6)
-> light years
-> condone incorrect
-> distance
-> Answer Notes Marks
 
 - **(2)** 2
 
@@ -40,13 +27,38 @@ The table lists some statements about the universe. Place ticks (✓) in the tab
 The Sun will become a red giant star when it leaves the main sequence. Which row correctly describes how the surface temperature and brightness of the Sun will change when it becomes a red giant? Surface Brightness temperature
 
 - **(A)** decreases                                                                          decreases
-- **(B)** decreases                                                                           increases
+- **(B)** decreases                                                                           increases  ✔
 - **(C)** increases                                                                         decreases
 - **(D)** increases                                                                          increases
+
+
+**Mark scheme answer**
+
+> B (decreases, increases);
+> A is incorrect because a red giant is more powerful
+> than a main sequence star
+> C is incorrect because a red giant is cooler and
+> more powerful than a main sequence star
+> D is incorrect because a red giant is cooler than a
+> main sequence star
+
+- **(1)** Answer B: decreases                                                                           increases
 
 ### 1(c) [2]
 
 Astronomical objects can be classified by their absolute magnitude. State what is meant by the term absolute magnitude.
+
+
+**Mark scheme answer**
+
+> the brightness/luminosity (of an object);
+> idea of a standard distance; allow 10 parsecs/32(.6)
+> light years
+> condone incorrect
+> distance
+> Answer Notes Marks
+
+- **(2)** the brightness/luminosity (of an object);
 
 
 ## Question 2 (10 marks)
@@ -296,13 +308,41 @@ Complete the nuclear equation by writing the numbers in the boxes.
 
 > 🖼 crop required: boxes (qp.pdf p.8)
 
+
+**Mark scheme answer**
+
+> mass number = 3;
+> atomic number = 1;
+
+- **(2)** mass number = 3;
+
 ### 4(a)(ii) [2]
 
 Explain why this fission does not cause a chain reaction.
 
+
+**Mark scheme answer**
+
+> idea that a (further) neutron is required (for further
+> fission reactions);
+> (but) no neutrons produced (in the fission process);
+
+- **(2)** idea that a (further) neutron is required (for further
+
 ### 4(b) [2]
 
 Explain the difference between nuclear fission and nuclear fusion.
+
+
+**Mark scheme answer**
+
+> fission is the splitting of a nucleus; allow “breaking down”,
+> “dividing” for splitting
+> fusion is the joining of two nuclei; allow “fusing”,
+> “combining” for joining
+> Answer Notes Marks
+
+- **(2)** fission is the splitting of a nucleus; allow “breaking down”,
 
 
 ## Question 5 (13 marks)
@@ -315,13 +355,46 @@ A student investigates how the support forces acting on a metre rule are affecte
 
 State the independent variable in the student’s investigation.
 
+
+**Mark scheme answer**
+
+> position of the mass hanger; allow distance of mass
+> hanger/eq
+> reject unqualified
+> “distance”
+
+- **(1)** position of the mass hanger; allow distance of mass
+
 ### 5(a)(ii) [2]
 
 State two control variables in the student’s investigation. 1 2
 
+
+**Mark scheme answer**
+
+> any two from: ignore “same
+> equipment”
+> MP1. weight or mass of metre rule
+> MP2. weight or mass of mass hanger;
+> MP3. positions of newton meter(s);
+
+- **(2)** any two from: ignore “same
+
 ### 5(a)(iii) [1]
 
 Suggest how the student could improve the quality of his data.
+
+
+**Mark scheme answer**
+
+> any one from:
+> • take repeats and find mean;
+> • extend the range of the results;
+> • measure more intermediate positions;
+> • repeat to {identify/remove} anomalies;
+> • plot a graph to spot anomalies;
+
+- **(1)** any one from:
 
 ### 5(b)(i) [1]
 
@@ -370,7 +443,17 @@ Describe the relationships shown by the graph.
 > when the position is 50cm;
 > MP5. idea that the sum of the newton meter
 > readings is constant;
-> (c) any three from:
+
+- **(4)** any four from:
+
+### 5(c) [3]
+
+Using ideas about moments, explain why the reading on newton meter A decreases as the mass hanger is moved towards newton meter B.
+
+
+**Mark scheme answer**
+
+> any three from:
 > MP1. idea that clockwise moment equals anti- allow idea that
 > clockwise moment; moments must
 > balance
@@ -384,11 +467,7 @@ Describe the relationships shown by the graph.
 > reading);
 > Answer Notes Marks
 
-- **(4)** any four from:
-
-### 5(c) [3]
-
-Using ideas about moments, explain why the reading on newton meter A decreases as the mass hanger is moved towards newton meter B.
+- **(3)** any three from:
 
 
 ## Question 6 (11 marks)
@@ -403,9 +482,24 @@ This question is about electromagnetism.
 
 Name a suitable metal for the core.
 
+
+**Mark scheme answer**
+
+> (soft) iron;
+
+- **(1)** (soft) iron;
+
 ### 6(a)(ii) [1]
 
 State what must be done to the coil of wire to produce a magnetic field.
+
+
+**Mark scheme answer**
+
+> pass a current in the coil / eq; condone reference to
+> ‘electricity’
+
+- **(1)** pass a current in the coil / eq; condone reference to
 
 ### 6(b)(i) [1]
 
@@ -516,7 +610,17 @@ The nozzle of the paint sprayer is positively charged. Explain the advantage of 
 > reaches parts that
 > would otherwise be
 > difficult
-> (b) any three from:
+
+- **(3)** ignore statements
+
+### 7(b) [3]
+
+The object is an electrical conductor and is initially uncharged. Explain why the painting process would be more effective if the object were earthed. .
+
+
+**Mark scheme answer**
+
+> any three from:
 > MP1. object becomes charged when paint particles
 > land on it;
 > MP2. (without earthing) further paint particles
@@ -532,11 +636,7 @@ The nozzle of the paint sprayer is positively charged. Explain the advantage of 
 > coverage;
 > Answer Notes Marks
 
-- **(3)** ignore statements
-
-### 7(b) [3]
-
-The object is an electrical conductor and is initially uncharged. Explain why the painting process would be more effective if the object were earthed. .
+- **(3)** any three from:
 
 
 ## Question 8 (9 marks)
@@ -549,9 +649,34 @@ The photograph shows an oscilloscope. © dny3d/Shutterstock An oscilloscope can 
 
 Name the piece of equipment that should be used with an oscilloscope to detect a sound wave.
 
+
+**Mark scheme answer**
+
+> microphone;
+
+- **(1)** microphone;
+
 ### 8(a)(ii) [2]
 
 Describe how an oscilloscope can be used to measure the time period of a sound wave.
+
+
+**Mark scheme answer**
+
+> measure number of squares for a number of complete condone ‘find number
+> cycles / waves and find average number of squares for of squares for one
+> one cycle; cycle’
+> accept ‘period’ for
+> ‘cycle’
+> multiply number of squares for one cycle by the time
+> base / eq;
+> condone use of
+> ‘wavelength’ for
+> ‘period’ or ‘cycle’
+> ignore reference to T =
+> 1/f
+
+- **(2)** measure number of squares for a number of complete condone ‘find number
 
 ### 8(b)(i) [4]
 

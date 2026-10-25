@@ -80,9 +80,34 @@ Venera 13 was a probe that fell through the atmosphere of the planet Venus and l
 
 The density of the atmosphere on the surface of Venus is 65 kg/m3. Estimate the depth of the atmosphere on Venus. Use the formula pressure difference = depth × density × gravitational field strength [for Venus, gravitational field strength = 8.9 N/kg] depth = m
 
+
+**Mark scheme answer**
+
+> substitution OR rearrangement into given formula;
+> correct evaluation;
+> condone 14 307.69… (m) for
+> 1 mark for using g=10 N/kg
+> e.g.
+> 9 300 000 = h × 65 × 8.9
+> OR
+> h=P/ρ×g
+> (h = 9 300 000 / 65 × 8.9 =) 16 000 (m) allow 16 100, 16 076… (m)
+
+- **(2)** substitution OR rearrangement into given formula;
+
 ### 2(a)(ii) [1]
 
 State an assumption you have made to complete the calculation.
+
+
+**Mark scheme answer**
+
+> any one from: ignore pressure is constant
+> • density is constant;
+> • g is constant; condone gravity is constant
+> • temperature is constant;
+
+- **(1)** any one from: ignore pressure is constant
 
 ### 2(b)(i) [4]
 
@@ -118,7 +143,17 @@ State the assumptions you have made to complete this calculation.
 > number of particles is constant (in a given volume); allow constant mass (of gas)
 > reference to constant volume;
 > density is constant;
-> (c) statement of correct formula; correct formula can be
+
+- **(2)** any two from:
+
+### 2(c) [3]
+
+On the surface of Venus, a gas molecule has a mean kinetic energy of 6.1 × 10–21 J. Calculate the mean speed of the gas molecule. [mass of molecule = 7.3 × 10–26 kg] speed = m/s
+
+
+**Mark scheme answer**
+
+> statement of correct formula; correct formula can be
 > assumed by evidence of
 > correct substitution
 > rearrangement to give v2 or v as the subject;
@@ -132,11 +167,7 @@ State the assumptions you have made to complete this calculation.
 > v (= √167 123) = 410 (m/s) allow 409, 408.8… (m/s)
 > Answer Notes Marks
 
-- **(2)** any two from:
-
-### 2(c) [3]
-
-On the surface of Venus, a gas molecule has a mean kinetic energy of 6.1 × 10–21 J. Calculate the mean speed of the gas molecule. [mass of molecule = 7.3 × 10–26 kg] speed = m/s
+- **(3)** statement of correct formula; correct formula can be
 
 
 ## Question 3 (6 marks)
@@ -149,10 +180,22 @@ The diagram shows the orbit of the Earth around the Sun, and the orbit of object
 
 Which of these is object X?
 
-- **(A)** comet
+- **(A)** comet  ✔
 - **(B)** galaxy
 - **(C)** star
 - **(D)** universe
+
+
+**Mark scheme answer**
+
+> A (comet);
+> B is incorrect because galaxies do not orbit the Sun
+> C is incorrect because the Sun has no binary
+> partner star
+> D is incorrect because the universe does not orbit
+> the Sun
+
+- **(1)** Answer A: comet
 
 ### 3(a)(ii) [1]
 
@@ -160,13 +203,55 @@ On the diagram, draw an arrow from object X to show the direction of the force r
 
 ![diagram — official paper figure (qp.pdf p.6) — shared with asset_3_a_diagram_stem](assets/asset_3_a_diagram_stem.png)
 
+
+**Mark scheme answer**
+
+> straight arrow drawn pointing towards S such that judge straight by eye
+> its line of action passes through both X and S; arrow does not need to
+> start at X or finish at
+> the Sun
+
+- **(1)** straight arrow drawn pointing towards S such that judge straight by eye
+
 ### 3(b) [3]
 
 The Moon orbits the Earth in 28 days. The radius of the Moon’s orbit is 390 000 km. Calculate the orbital speed of the Moon. Give your answer in km/s. orbital speed = km/s
 
+
+**Mark scheme answer**
+
+> conversion of time into seconds; mark independently
+> i.e. 28 × 24 × 60 × 60 or
+> 2 419 200 seen
+> substitution into given formula; allow ECF from
+> incorrect / no unit
+> conversion
+> evaluation;
+> 87 515… (km/s) scores 2
+> e.g.
+> time = 28 × 24 × 60 × 60 = 2 419 200 (s)
+> orbital speed = 2 × π × 390 000 ÷ 2 419 200
+> (orbital speed =) 1.0 (km/s) allow 1, 1.01… (km/s)
+
+- **(3)** conversion of time into seconds; mark independently
+
 ### 3(c) [1]
 
 Suggest why the gravitational field strength on the Moon is different from the gravitational field strength on the Earth.
+
+
+**Mark scheme answer**
+
+> different mass/density/diameter/radius; condone size for radius
+> condone ‘moon is
+> smaller’ / RA
+> ignore if incorrect
+> comparison given e.g.
+> ‘Earth has less mass
+> than the Moon’
+> Answer Notes Marks
+
+- **(1)** different mass/density/diameter/radius; condone size for radius
 
 
 ## Question 4 (13 marks)
@@ -216,7 +301,19 @@ Describe a method that a student could use for their investigation. Refer to saf
 > measurement of force with newton-meter; load’
 > MP8. description of a (potentially) more accurate way
 > of measuring extension i.e. (vernier) calipers;
-> (b) ‘independent’ column has a tick in last row only; reject if ticks given in
+
+- **(5)** ignore
+
+### 4(b) [3]
+
+Add one tick (ü) to each row of the table to show the independent, dependent and control variables in this investigation. Name of variable Independent Dependent Control extension material of wire temperature applied force
+
+![table — official paper figure (qp.pdf p.9)](assets/asset_4_b_table.png)
+
+
+**Mark scheme answer**
+
+> ‘independent’ column has a tick in last row only; reject if ticks given in
 > any other rows
 > ‘dependent’ column has a tick in first row only; reject if ticks given in
 > any other rows
@@ -228,13 +325,7 @@ Describe a method that a student could use for their investigation. Refer to saf
 > ✓
 > ✓
 
-- **(5)** ignore
-
-### 4(b) [3]
-
-Add one tick (ü) to each row of the table to show the independent, dependent and control variables in this investigation. Name of variable Independent Dependent Control extension material of wire temperature applied force
-
-![table — official paper figure (qp.pdf p.9)](assets/asset_4_b_table.png)
+- **(3)** ‘independent’ column has a tick in last row only; reject if ticks given in
 
 ### 4(c)(i) [3]
 
@@ -292,14 +383,6 @@ Suggest why the street lamps are connected in parallel.
 > allow idea that all
 > lamps get the same
 > (high) voltage
-> (b) straight ray lines drawn between any point on allow dashed line
-> the street lamp to any point on the person’s judge straight by eye
-> head via the puddle;
-> any indication that the direction of the ray is
-> from the lamp to the eye e.g. arrow;
-> angle of incidence = angle of reflection; judge by eye
-> allow if angles marked
-> as equal on diagram
 
 - **(1)** idea that street lamps work independently of allow lamps still work if
 
@@ -308,6 +391,20 @@ Suggest why the street lamps are connected in parallel.
 Diagram 1 shows one street lamp, a person and a puddle of water. The puddle of water reflects light from the street lamp into the person’s eyes. puddle of water Diagram 1 On diagram 1, draw a ray of light from the street lamp that is reflected by the puddle to the person’s eyes.
 
 ![diagram — official paper figure (qp.pdf p.12)](assets/asset_5_b_diagram.png)
+
+
+**Mark scheme answer**
+
+> straight ray lines drawn between any point on allow dashed line
+> the street lamp to any point on the person’s judge straight by eye
+> head via the puddle;
+> any indication that the direction of the ray is
+> from the lamp to the eye e.g. arrow;
+> angle of incidence = angle of reflection; judge by eye
+> allow if angles marked
+> as equal on diagram
+
+- **(3)** straight ray lines drawn between any point on allow dashed line
 
 ### 5(c)(i) [1]
 
@@ -355,14 +452,6 @@ On diagram 2, draw a straight line to show the path of the ray of light after it
 > light leaves block; ignore reflected ray
 > light bends correctly away from the normal (by ray does not need to be
 > eye); parallel to original ray
-> (d) any two from:
-> light has undergone total internal
-> reflection/TIR;
-> angle of incidence is greater than critical angle;
-> glass is more (optically) dense than air / glass
-> has a refractive index greater than {air / 1} /
-> speed of light in glass lower than in air;
-> Answer Notes Marks
 
 - **(2)** light leaves block; ignore reflected ray
 
@@ -371,6 +460,20 @@ On diagram 2, draw a straight line to show the path of the ray of light after it
 Another ray of light enters the glass in the window as shown in diagram 3. P Diagram 3 Explain what happens to this ray of light at point P.
 
 ![diagram — official paper figure (qp.pdf p.14)](assets/asset_5_d_diagram.png)
+
+
+**Mark scheme answer**
+
+> any two from:
+> light has undergone total internal
+> reflection/TIR;
+> angle of incidence is greater than critical angle;
+> glass is more (optically) dense than air / glass
+> has a refractive index greater than {air / 1} /
+> speed of light in glass lower than in air;
+> Answer Notes Marks
+
+- **(2)** any two from:
 
 
 ## Question 6 (7 marks)
@@ -432,7 +535,17 @@ The microwave oven uses microwave radiation with a wavelength of 12 cm. Calculat
 > 12 cm = 0.12 m
 > 3.0 × 108 = frequency × 0.12 OR f = v ÷ λ
 > frequency (= 3.0 × 108 ÷ 0.12) = 2.5 × 109 (Hz)
-> (c) reference to conduction; allow description of
+
+- **(3)** conversion of wavelength to 0.12 m;
+
+### 6(c) [2]
+
+The electromagnetic radiation in the hot electric oven heats the surface of the food. Explain how the inside of the food increases in temperature. Refer to a method of heat transfer in your answer.
+
+
+**Mark scheme answer**
+
+> reference to conduction; allow description of
 > conduction e.g.
 > particles passing on
 > vibrations
@@ -441,11 +554,7 @@ The microwave oven uses microwave radiation with a wavelength of 12 cm. Calculat
 > food
 > Answer Notes Marks
 
-- **(3)** conversion of wavelength to 0.12 m;
-
-### 6(c) [2]
-
-The electromagnetic radiation in the hot electric oven heats the surface of the food. Explain how the inside of the food increases in temperature. Refer to a method of heat transfer in your answer.
+- **(2)** reference to conduction; allow description of
 
 
 ## Question 7 (12 marks)
@@ -464,7 +573,17 @@ This nuclear equation shows how the isotope thorium‑232 is transformed into th
 > X = 1;
 > Y = 0;
 > Z = −1;
-> (b) uranium splits / uranium undergoes fission; allow nucleus for
+
+- **(3)** X = 1;
+
+### 7(b) [3]
+
+A uranium‑233 nucleus can absorb a neutron and become part of a chain reaction. Describe how a chain reaction occurs.
+
+
+**Mark scheme answer**
+
+> uranium splits / uranium undergoes fission; allow nucleus for
 > uranium
 > condone uranium breaks
 > up
@@ -473,11 +592,7 @@ This nuclear equation shows how the isotope thorium‑232 is transformed into th
 > (these) neutron(s) go on to cause further fissions /
 > eq;
 
-- **(3)** X = 1;
-
-### 7(b) [3]
-
-A uranium‑233 nucleus can absorb a neutron and become part of a chain reaction. Describe how a chain reaction occurs.
+- **(3)** uranium splits / uranium undergoes fission; allow nucleus for
 
 ### 7(c)(i) [2]
 
@@ -528,13 +643,58 @@ The diagram shows a loudspeaker connected to an alternating current (a.c.) power
 
 State how direct current (d.c.) differs from alternating current (a.c.).
 
+
+**Mark scheme answer**
+
+> idea that d.c. is in one direction AND a.c. changes allow both/different
+> direction (continuously) however expressed; directions for a.c.
+> condone d.c. goes one way
+> and a.c. goes both ways
+
+- **(1)** idea that d.c. is in one direction AND a.c. changes allow both/different
+
 ### 8(a)(ii) [3]
 
 Explain how the loudspeaker produces sound using the a.c. power supply.
 
+
+**Mark scheme answer**
+
+> any three from:
+> idea that current/coil/wire has a magnetic field; allow current/coil/wire
+> becomes an electromagnet
+> idea that interaction between magnetic fields allow overlaps for
+> produces a force (on the coil); interaction
+> ignore cutting for
+> interaction
+> allow interaction between
+> current and magnetic field
+> produces a force
+> direction of the force changes (due to a.c.);
+> (so the) cone/air vibrates; allow coil/tube vibrates
+
+- **(3)** any three from:
+
 ### 8(b) [4]
 
 The loudspeaker is disconnected from the power supply. The wires from the loudspeaker are then connected to a very sensitive ammeter. When a sound is directed towards the paper cone, the loudspeaker behaves as a microphone. Explain why there is a reading on the ammeter when a sound is directed towards the paper cone.
+
+
+**Mark scheme answer**
+
+> cone {vibrates / oscillates}; allow coil/tube for cone
+> coil/wire cuts (magnetic) field (lines); ignore interacts with field
+> inducing a voltage; allow alternatives to
+> inducing e.g. causing,
+> producing etc.
+> (which in turn) induces an (alternating) current; allow alternatives to
+> inducing e.g. causing,
+> producing etc.
+> ignore causes a reading on
+> ammeter
+> Answer Notes Marks
+
+- **(4)** cone {vibrates / oscillates}; allow coil/tube for cone
 
 
 ## Question 9 (12 marks)
@@ -551,9 +711,38 @@ Using the data from table 1, show that the final speed of the ball is about 2 m/
 
 ![table — official paper figure (qp.pdf p.23)](assets/asset_9_a_i_table.png)
 
+
+**Mark scheme answer**
+
+> substitution into given formula; condone reverse calculation for full
+> marks e.g. using v = 2 (m/s) to
+> calculate distance or time to more
+> than 2s.f.
+> correct evaluation to more than 1s.f.;
+> e.g.
+> final speed = 0.048 ÷ 0.028
+> final speed = 1.714… (m/s)
+
+- **(2)** substitution into given formula; condone reverse calculation for full
+
 ### 9(a)(ii) [3]
 
 The ball rolls along the ramp for a distance of 0.63 m. Calculate the acceleration of the ball. acceleration = m/s2
+
+
+**Mark scheme answer**
+
+> substitution into given formula; ECF for use of v from (i)
+> rearrangement;
+> evaluation; ignore any minus sign included in
+> use of 2 (m/s) for v
+> gives a = 3.2 (m/s2) for full marks
+> e.g.
+> 1.7142 = 02 + 2 × a × 0.63
+> a = 2.94 ÷ 1.26
+> (a =) 2.3 (m/s2) allow 2.33… (m/s2)
+
+- **(3)** substitution into given formula; ECF for use of v from (i)
 
 ### 9(b)(i) [3]
 
@@ -635,11 +824,27 @@ A diagram shows an electric circuit. 6.2 V A 15 mA X
 
 Component X changes the current in the circuit if there is a change in the brightness of light. Give the name of component X.
 
+
+**Mark scheme answer**
+
+> light dependent resistor; allow LDR
+> ignore light dependent resistance
+
+- **(1)** light dependent resistor; allow LDR
+
 ### 10(a)(ii) [2]
 
 On the diagram, draw a voltmeter to measure the voltage of the fixed resistor.
 
 ![diagram — official paper figure (qp.pdf p.28) — shared with asset_10_a_diagram_stem](assets/asset_10_a_diagram_stem.png)
+
+
+**Mark scheme answer**
+
+> correct symbol for voltmeter;
+> drawn in parallel with fixed resistor;
+
+- **(2)** correct symbol for voltmeter;
 
 ### 10(b)(i) [4]
 
@@ -720,16 +925,63 @@ Which of these is the work done by friction to slow the vehicle down to 0 m/s?
 
 - **(A)** 520 J
 - **(B)** 5200 J
-- **(C)** 52 000 J
+- **(C)** 52 000 J  ✔
 - **(D)** 520 000 J
+
+
+**Mark scheme answer**
+
+> C (52 000 J);
+> A is incorrect as it is not equal to the KE of the
+> vehicle
+> B is incorrect as it is not equal to the KE of the
+> vehicle
+> D is incorrect as it is not equal to the KE of the
+> vehicle
+
+- **(1)** Answer C: 52 000 J
 
 ### 11(a)(ii) [2]
 
 After the brakes are applied, the braking distance is 36 m. Calculate the braking force applied to the vehicle. braking force = N
+
+
+**Mark scheme answer**
+
+> substitution OR rearrangement; allow ECF from (i)
+> evaluation;
+> e.g.
+> 52 000 = force × 36 OR
+> force = work done ÷ distance
+> (force = 52 000 ÷ 36 =) 1400 (N) allow 1440, 1444,
+> 1444.4… (N)
+
+- **(2)** substitution OR rearrangement; allow ECF from (i)
 
 ### 11(b) [4]
 
 The graph shows how the speed of the vehicle changes with time when the braking distance is 36 m. 20.0 16.0 12.0 Speed in m/s 8.0 4.0 0.0 0 4 8 12 16 20 Time in seconds On another journey, the vehicle is travelling at twice the initial speed and decelerates with the same braking force. Using information from the graph, explain how the new braking distance compares to the original braking distance.
 
 ![graph — official paper figure (qp.pdf p.32)](assets/asset_11_b_graph.png)
+
+
+**Mark scheme answer**
+
+> MP1. braking distance will increase; condone incorrect
+> quoted value as long as
+> it is greater than 36 m
+> MP2. braking distance will increase by a also scores MP1
+> factor of 4 / will be 144 m;
+> methods using KE and
+> work done can still
+> score MP1 and MP2
+> with any two from:
+> MP3. braking distance is area of graph;
+> MP4. double speed means triangle is twice as allow if seen on graph
+> high;
+> MP5. gradient of line or deceleration is the same; allow if seen on graph
+> MP6. time (taken to stop) will be twice as long / allow if seen on graph
+> 16 seconds;
+
+- **(4)** MP1. braking distance will increase; condone incorrect
 

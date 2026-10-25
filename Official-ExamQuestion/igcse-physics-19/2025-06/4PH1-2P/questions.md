@@ -98,7 +98,19 @@ Which range of frequencies of sound waves can be heard by humans?
 > B is incorrect because both the lower and upper
 > ranges are incorrect
 > D is incorrect because the upper range is too high
-> (b) 1 mark for each correctly ticked row;; if more than two ticks
+
+- **(1)** Answer C: 20 Hz to 20 000 Hz
+
+### 2(b) [2]
+
+The table gives some statements about sound waves. Complete the table by placing a tick (✓) next to each correct statement. Statement Correct (✓) sound waves are longitudinal sound waves can travel through a vacuum sound waves are part of the electromagnetic spectrum sound waves can be reflected and refracted
+
+![table — official paper figure (qp.pdf p.6)](assets/asset_2_b_table.png)
+
+
+**Mark scheme answer**
+
+> 1 mark for each correctly ticked row;; if more than two ticks
 > then -1 for each
 > Correct (✓) incorrect tick
 > Statement
@@ -110,13 +122,7 @@ Which range of frequencies of sound waves can be heard by humans?
 > sound waves can be reflected
 > and refracted ✓
 
-- **(1)** Answer C: 20 Hz to 20 000 Hz
-
-### 2(b) [2]
-
-The table gives some statements about sound waves. Complete the table by placing a tick (✓) next to each correct statement. Statement Correct (✓) sound waves are longitudinal sound waves can travel through a vacuum sound waves are part of the electromagnetic spectrum sound waves can be reflected and refracted
-
-![table — official paper figure (qp.pdf p.6)](assets/asset_2_b_table.png)
+- **(2)** 1 mark for each correctly ticked row;; if more than two ticks
 
 ### 2(c)(i) [1]
 
@@ -183,19 +189,49 @@ Describe how energy is transferred from the Sun’s energy store to the battery�
 > column scheme or the
 > alternate description but
 > not from both
-> (b) any one from:
+
+- **(3)** any three from:
+
+### 3(b) [1]
+
+The petrol engine can also be used to charge the battery of the camper van. Give an advantage of using the solar panel instead of the petrol engine to charge the battery. Do not refer to cost in your answer.
+
+
+**Mark scheme answer**
+
+> any one from:
 > • solar power is renewable; allow it won’t run out etc.
 > • solar panel does not produce CO2; ignore ‘greenhouse gas(es)’
 > • idea of using less petrol;
 > • idea that it can be used if petrol runs out;
-> (c) black is a good absorber;
+
+- **(1)** any one from:
+
+### 3(c) [2]
+
+The surface of the solar panel is black. Explain why black is a suitable colour for the solar panel.
+
+
+**Mark scheme answer**
+
+> black is a good absorber;
 > of radiation; allow light
 > allow infra-red / IR
 > condone heat
 > ignore reference to emission
 > ignore reference to
 > conduction or insulation
-> (d) substitution;
+
+- **(2)** black is a good absorber;
+
+### 3(d) [3]
+
+The solar panel can charge the battery in the camper van with a maximum current of 15 A. Calculate the minimum time to transfer 360 000 C of charge through the battery. Use the formula charge transferred = current × time minimum time = s
+
+
+**Mark scheme answer**
+
+> substitution;
 > rearrangement;
 > evaluation; -1 POT error
 > e.g.
@@ -204,19 +240,7 @@ Describe how energy is transferred from the Sun’s energy store to the battery�
 > (time =) 24 000 (s)
 > Answer Notes Marks
 
-- **(3)** any three from:
-
-### 3(b) [1]
-
-The petrol engine can also be used to charge the battery of the camper van. Give an advantage of using the solar panel instead of the petrol engine to charge the battery. Do not refer to cost in your answer.
-
-### 3(c) [2]
-
-The surface of the solar panel is black. Explain why black is a suitable colour for the solar panel.
-
-### 3(d) [3]
-
-The solar panel can charge the battery in the camper van with a maximum current of 15 A. Calculate the minimum time to transfer 360 000 C of charge through the battery. Use the formula charge transferred = current × time minimum time = s
+- **(3)** substitution;
 
 
 ## Question 4 (9 marks)
@@ -229,17 +253,79 @@ The photograph shows a mechanism that can be used to open a gate. (Source: © Ph
 
 Show that the force from the spring produces a moment of approximately 1 Nm.
 
+
+**Mark scheme answer**
+
+> use of moment = force × distance; may be implied by
+> substitution
+> substitution; ignore units
+> evaluation to 2 s.f. or more; i.e. answer of 1.14(4) (N m)
+> or 114(.4) N cm is
+> acceptable
+> e.g.
+> moment = force × distance
+> moment = 5.2 × (0.)22
+> moment = 1.14(4) (N m) RA scores one mark max
+> i.e. attempt to find force
+> or distance from a moment
+> of 1 N m
+
+- **(3)** use of moment = force × distance; may be implied by
+
 ### 4(a)(ii) [1]
 
 State what is meant by the term principle of moments.
+
+
+**Mark scheme answer**
+
+> idea that (sum of) clockwise moment(s) = (sum of)
+> anti-clockwise moment(s);
+
+- **(1)** idea that (sum of) clockwise moment(s) = (sum of)
 
 ### 4(a)(iii) [3]
 
 Force F acts on the handle to keep the handle stationary so that the gate can be opened. Force F acts at a vertical distance of 70 cm from the pivot point of the handle. Calculate the magnitude of force F. magnitude of force F = N
 
+
+**Mark scheme answer**
+
+> substitution into principle of moments; allow ECF from (i)
+> ignore units
+> rearrangement;
+> evaluation;
+> e.g.
+> F × (0.)70 = 1.14
+> F = 1.14 ÷ (0.)70
+> (F =) 1.63 (N) allow any answer that
+> rounds to 1.4 (N) by using 1
+> N m as the moment or
+> rounds to 1.6 by using
+> 1.14(4) N m as the moment
+
+- **(3)** substitution into principle of moments; allow ECF from (i)
+
 ### 4(b) [2]
 
 Give two changes to this gate mechanism that would make it easier to open the gate. 1 2
+
+
+**Mark scheme answer**
+
+> any two from: ignore changes to force
+> applied
+> MP1. longer handle/eq;
+> MP2. weaker spring/eq; accept ‘lower spring
+> constant’
+> MP3. spring closer to pivot point/eq; allow bolt for spring
+> MP4. lubricate pivot or lubricate spring /eq;
+> ignore unqualified ‘longer
+> coil’, ‘more coils’,’longer
+> spring’, ‘less coils’ etc
+> Answer Notes Marks
+
+- **(2)** any two from: ignore changes to force
 
 
 ## Question 5 (12 marks)
@@ -261,17 +347,23 @@ The ball is made of a material that is a good electrical conductor. Name a mater
 > conductor e.g.,
 > aluminium, graphite,
 > copper, iron
-> (b) idea of transfer of electrons or transfer of negative reject whole response
-> charge; motion of protons or
-> motion of positive
-> charge
-> electrons are lost from the ball / eq; scores both marks
 
 - **(1)** metal; allow any named
 
 ### 5(b) [2]
 
 Explain, in terms of the movement of charged particles, how the ball has become positively charged.
+
+
+**Mark scheme answer**
+
+> idea of transfer of electrons or transfer of negative reject whole response
+> charge; motion of protons or
+> motion of positive
+> charge
+> electrons are lost from the ball / eq; scores both marks
+
+- **(2)** idea of transfer of electrons or transfer of negative reject whole response
 
 ### 5(c)(i) [2]
 
@@ -300,7 +392,17 @@ In diagram 3, the string lines up with the 7.2 cm mark on the scale. The student
 > any value greater than 5.0 and less than 7.2 (cm); i.e.
 > reject 5.0 (cm)
 > reject 7.2 (cm)
-> (d) any two from:
+
+- **(1)** any value greater than 5.0 and less than 7.2 (cm); i.e.
+
+### 5(d) [2]
+
+The student extends the investigation by measuring the reading on the scale for rods made from different materials. As a control variable, the student charges each rod by rubbing it with a cloth the same number of times. Give two other control variables for the student’s investigation. 1 2
+
+
+**Mark scheme answer**
+
+> any two from:
 > MP1. distance between rod and ball;
 > MP2. (initial) charge on ball; accept ‘rub rod with
 > same force’ or ‘rub rod
@@ -310,11 +412,7 @@ In diagram 3, the string lines up with the 7.2 cm mark on the scale. The student
 > thickness, size etc.
 > condone ‘shape of rod’
 
-- **(1)** any value greater than 5.0 and less than 7.2 (cm); i.e.
-
-### 5(d) [2]
-
-The student extends the investigation by measuring the reading on the scale for rods made from different materials. As a control variable, the student charges each rod by rubbing it with a cloth the same number of times. Give two other control variables for the student’s investigation. 1 2
+- **(2)** any two from:
 
 ### 5(e)(i) [1]
 
@@ -441,19 +539,86 @@ This question is about transformers.
 
 State the formula linking input (primary) voltage, output (secondary) voltage and the turns ratio for a transformer.
 
+
+**Mark scheme answer**
+
+> input (primary) voltage / output (secondary) allow recognisable symbols
+> voltage = primary turns / secondary turns; and rearrangements
+> e.g. V2 = (N2/N1) × V1
+> condone coils for turns
+> condone T for turns
+> allow 1 and 2 for input and
+> output
+
+- **(1)** input (primary) voltage / output (secondary) allow recognisable symbols
+
 ### 7(a)(ii) [3]
 
 Use data from the table to calculate the output (secondary) voltage of the transformer. output (secondary) voltage = V
 
 ![table — official paper figure (qp.pdf p.24) — shared with asset_7_a_table_stem](assets/asset_7_a_table_stem.png)
 
+
+**Mark scheme answer**
+
+> substitution;
+> rearrangement; accept in either order
+> substitution into an
+> incorrectly arranged formula
+> scores zero
+> evaluation;
+> e.g.
+> 230 ÷ V2 = 1000 ÷ 300
+> V2 = 300 × 230 ÷ 1000
+> (V2 =) 69 (V)
+
+- **(3)** substitution;
+
 ### 7(a)(iii) [5]
 
 This transformer is not 100% efficient. The efficiency of a transformer can be calculated using the formula useful output power efficiency = × 100% total input power Calculate the efficiency of the transformer. efficiency = %
 
+
+**Mark scheme answer**
+
+> use of power = current × voltage; e.g. a correct substitution
+> evaluation of input power;
+> evaluation of output power; allow ECF from (ii)
+> substitution into given formula; allow ECF from incorrect
+> power values if clear from
+> working
+> evaluation of efficiency;
+> e.g.
+> power = current × voltage
+> input power = (1.3 × 230 =) 299 (W)
+> output power = (4.0 × 69 =) 276 (W)
+> efficiency = 276 ÷ 299 (×100%)
+> (efficiency =) 92 (%) allow 92.3… (%)
+
+- **(5)** use of power = current × voltage; e.g. a correct substitution
+
 ### 7(b) [5]
 
 Explain how transformers are used in the efficient, large‑scale transmission of electrical energy. You may draw a diagram to help your answer.
+
+
+**Mark scheme answer**
+
+> any five from: allow ideas seen/expressed in
+> a diagram
+> MP1. step-up transformer used before
+> transmission;
+> MP2. voltage is increased before transmission;
+> MP3. current is reduced before transmission;
+> MP4. less heating in transmission wires / cables;
+> MP5. less energy wasted;
+> MP6. step-down transformer used after
+> transmission;
+> MP7. voltage is decreased after transmission for allow larger current required
+> safety; for some household devices
+> Answer Notes Marks
+
+- **(5)** any five from: allow ideas seen/expressed in
 
 
 ## Question 8 (8 marks)
@@ -476,7 +641,17 @@ Give two pieces of evidence that support the Big Bang theory. 1 2
 > red-shift
 > accept quasars for
 > galaxies
-> (b) substitution into
+
+- **(2)** cosmic microwave background radiation; allow CMBR
+
+### 8(b) [4]
+
+The galaxy NGC 300 is moving away from the Earth at a speed of 1.44 × 105 m/s. Hydrogen atoms in NGC 300 emit light with a reference wavelength of 4.3405 × 10−7 m. Calculate the wavelength of this light when it is detected at Earth. Give your answer to five significant figures. [speed of light in a vacuum, c = 3.00 × 108 m/s] wavelength = m
+
+
+**Mark scheme answer**
+
+> substitution into
 > 𝜆𝜆−𝜆𝜆0 𝑣𝑣
 > = 𝑐𝑐 ;
 > 𝜆𝜆0
@@ -498,7 +673,17 @@ Give two pieces of evidence that support the Big Bang theory. 1 2
 > 𝜆𝜆 = (0.0048 × 4.3405 × 10−7 ) + 4.3405 × 10−7
 > λ = 4.34258344 × 10−7 (m)
 > λ = 4.3426 × 10−7 (m)
-> (c) allow idea of “further
+
+- **(4)** substitution into
+
+### 8(c) [2]
+
+Another galaxy, Centaurus A, is much further away from the Earth than NGC 300. Explain how the wavelength of light detected from hydrogen atoms in Centaurus A is different from the wavelength of light detected from hydrogen atoms in NGC 300.
+
+
+**Mark scheme answer**
+
+> allow idea of “further
 > galaxies” for
 > “Centaurus A”
 > Centaurus A will have a greater red-shift; allow RA
@@ -507,13 +692,5 @@ Give two pieces of evidence that support the Big Bang theory. 1 2
 > Pearson Education Limited. Registered company number 872828
 > with its registered office at 80 Strand, London, WC2R 0RL, United Kingdom
 
-- **(2)** cosmic microwave background radiation; allow CMBR
-
-### 8(b) [4]
-
-The galaxy NGC 300 is moving away from the Earth at a speed of 1.44 × 105 m/s. Hydrogen atoms in NGC 300 emit light with a reference wavelength of 4.3405 × 10−7 m. Calculate the wavelength of this light when it is detected at Earth. Give your answer to five significant figures. [speed of light in a vacuum, c = 3.00 × 108 m/s] wavelength = m
-
-### 8(c) [2]
-
-Another galaxy, Centaurus A, is much further away from the Earth than NGC 300. Explain how the wavelength of light detected from hydrogen atoms in Centaurus A is different from the wavelength of light detected from hydrogen atoms in NGC 300.
+- **(2)** allow idea of “further
 

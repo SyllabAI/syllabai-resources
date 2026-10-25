@@ -24,7 +24,17 @@ The boxes give three types of wave behaviour and the diagrams give three example
 > reject mark if two lines
 > drawn from either TIR or
 > refraction
-> (b) any two from: allow higher level common
+
+- **(3)** one mark for each correct line drawn;;; allow line for reflection
+
+### 1(b) [2]
+
+State two properties that all waves have in common. 1 2
+
+
+**Mark scheme answer**
+
+> any two from: allow higher level common
 > properties e.g. diffraction,
 > interference etc.
 > (all waves) reflect;
@@ -34,11 +44,7 @@ The boxes give three types of wave behaviour and the diagrams give three example
 > (all waves) have amplitude/wavelength/frequency;
 > Answer Notes Marks
 
-- **(3)** one mark for each correct line drawn;;; allow line for reflection
-
-### 1(b) [2]
-
-State two properties that all waves have in common. 1 2
+- **(2)** any two from: allow higher level common
 
 
 ## Question 2 (8 marks)
@@ -60,20 +66,6 @@ Calculate the acceleration of the train. acceleration = ……………………
 > acceleration = change in velocity/time taken
 > acceleration = (-)45 / 39
 > acceleration = (-)1.2 (m/s2) allow 1.1-1.2 (m/s2)
-> (b) any attempt at or reference to an area; allow alternative method
-> using v2 = u2 + 2as with answer
-> from (a)
-> correct attempt = ½ × 45 × 39; allow ECF of incorrect velocity
-> or time reading if also used in
-> correct evaluation;
-> e.g.
-> distance travelled = area under graph
-> distance = 1/2 × 45 × 39
-> distance = 880 (m) allow 878, 877.5 (m)
-> (c) line showing decreasing velocity from same initial
-> velocity as existing line;
-> line drawn is less steep than existing line throughout;
-> Answer Notes Marks
 
 - **(3)** any attempt at gradient/reference to correct check graph for evidence of
 
@@ -81,11 +73,38 @@ Calculate the acceleration of the train. acceleration = ……………………
 
 Calculate the distance travelled by the train from P to Q. distance = ………………………………………… m
 
+
+**Mark scheme answer**
+
+> any attempt at or reference to an area; allow alternative method
+> using v2 = u2 + 2as with answer
+> from (a)
+> correct attempt = ½ × 45 × 39; allow ECF of incorrect velocity
+> or time reading if also used in
+> (a)
+> correct evaluation;
+> e.g.
+> distance travelled = area under graph
+> distance = 1/2 × 45 × 39
+> distance = 880 (m) allow 878, 877.5 (m)
+
+- **(3)** any attempt at or reference to an area; allow alternative method
+
 ### 2(c) [2]
 
 Draw a line on the graph to show how the train’s velocity will change if its initial velocity is the same but the braking force is lower.
 
 ![graph — official paper figure (qp.pdf p.6) — shared with asset_2_c_graph_stem](assets/asset_2_c_graph_stem.png)
+
+
+**Mark scheme answer**
+
+> line showing decreasing velocity from same initial
+> velocity as existing line;
+> line drawn is less steep than existing line throughout;
+> Answer Notes Marks
+
+- **(2)** line showing decreasing velocity from same initial
 
 
 ## Question 3 (7 marks)
@@ -113,7 +132,17 @@ Describe the stages in the evolution of a star similar in mass to the Sun.
 > missing e.g. nebula to main
 > sequence gets either MP1 or MP2
 > since protostar is missing
-> (b) stars use fusion, reactor uses fission; both needed
+
+- **(4)** any four correctly linked stages in star’s limit to 2 marks max. if incorrect
+
+### 3(b) [3]
+
+The process of energy release in the core of a star is different to the process of energy release in a nuclear reactor in a power station. Describe how these processes of energy release are different.
+
+
+**Mark scheme answer**
+
+> stars use fusion, reactor uses fission; both needed
 > fusion detail e.g.;
 > • (fusion is the) joining of nuclei condone atoms for nuclei
 > • involves light nuclei e.g. hydrogen
@@ -123,11 +152,7 @@ Describe the stages in the evolution of a star similar in mass to the Sun.
 > uranium/plutonium
 > Answer Notes Marks
 
-- **(4)** any four correctly linked stages in star’s limit to 2 marks max. if incorrect
-
-### 3(b) [3]
-
-The process of energy release in the core of a star is different to the process of energy release in a nuclear reactor in a power station. Describe how these processes of energy release are different.
+- **(3)** stars use fusion, reactor uses fission; both needed
 
 
 ## Question 4 (11 marks)
@@ -135,11 +160,29 @@ The process of energy release in the core of a star is different to the process 
 
 State Hooke’s Law.
 
+
+**Mark scheme answer**
+
+> idea that extension is (directly) proportional to condone ‘mass’ for force
+> force or load;
+> up to limit of proportionality; allow up to elastic limit
+
+- **(2)** idea that extension is (directly) proportional to condone ‘mass’ for force
+
 ### 4(a)(ii) [2]
 
 The graph shows how the extension of a rubber band varies with the force applied. Extension Force Explain how the graph shows that the rubber band does not obey Hooke’s Law.
 
 ![graph — official paper figure (qp.pdf p.9)](assets/asset_4_a_ii_graph.png)
+
+
+**Mark scheme answer**
+
+> line is not straight / eq; allow line is curved
+> so, force and extension cannot be (directly)
+> proportional;
+
+- **(2)** line is not straight / eq; allow line is curved
 
 ### 4(b) [3]
 
@@ -147,11 +190,36 @@ Diagram 1 shows a model aeroplane powered by a rubber band. propeller rubber ban
 
 ![diagram — official paper figure (qp.pdf p.10)](assets/asset_4_b_diagram.png)
 
+
+**Mark scheme answer**
+
+> mechanical;
+> elastic; allow elastic potential
+> kinetic / gravitational; allow gravitational potential
+
+- **(3)** mechanical;
+
 ### 4(c) [4]
 
 Diagram 2 shows the aeroplane flying horizontally to the right. lift thrust Diagram 2 The aeroplane flies at a constant speed. Diagram 2 shows two forces acting on the aeroplane. Draw labelled arrows on diagram 2 to show two more forces acting on the aeroplane.
 
 ![diagram — official paper figure (qp.pdf p.11)](assets/asset_4_c_diagram.png)
+
+
+**Mark scheme answer**
+
+> drag force drawn horizontally left; judge by eye
+> allow air resistance, friction
+> drag force = thrust force; judge by eye
+> ignore force labels
+> weight force drawn vertically downwards; judge by eye
+> allow gravitational force
+> ignore gravity
+> weight force = lift force; judge by eye
+> ignore force labels
+> Answer Notes Marks
+
+- **(4)** drag force drawn horizontally left; judge by eye
 
 
 ## Question 5 (9 marks)
@@ -255,7 +323,17 @@ When the thermistor is in hot water, its resistance is 490 Ω. Show that the re
 > Rtotal = 882 (Ω) Vfixed = (6.0 – 3.332 =) 2.668 V
 > Rfixed = 882 – 490 Rfixed = 2.668 / 6.8 × 10-3
 > Rfixed = 392(.35…) (Ω) Rfixed = 392(.35…) (Ω)
-> (b) resistance of thermistor increases;
+
+- **(5)** use of voltage = current × resistance; seen or implied
+
+### 6(b) [3]
+
+Explain how the voltage across the fixed resistor changes when the hot water is replaced with cold water.
+
+
+**Mark scheme answer**
+
+> resistance of thermistor increases;
 > current through circuit decreases;
 > (so) voltage (across fixed resistor) decreases; dependent on scoring one of
 > previous two marking points
@@ -266,11 +344,7 @@ When the thermistor is in hot water, its resistance is 490 Ω. Show that the re
 > argument for full marks
 > Answer Notes Marks
 
-- **(5)** use of voltage = current × resistance; seen or implied
-
-### 6(b) [3]
-
-Explain how the voltage across the fixed resistor changes when the hot water is replaced with cold water.
+- **(3)** resistance of thermistor increases;
 
 
 ## Question 7 (15 marks)
@@ -382,9 +456,31 @@ This question is about atmospheric optical illusions.
 
 State the formula linking critical angle and refractive index.
 
+
+**Mark scheme answer**
+
+> sin(c) = 1/n; allow rearrangements and/or
+> words for symbols
+
+- **(1)** sin(c) = 1/n; allow rearrangements and/or
+
 ### 8(a)(ii) [3]
 
 The critical angle of the cold air at the boundary is 88.500° Calculate the refractive index of the cold air. Give your answer to 5 significant figures. refractive index = …………………………………………
+
+
+**Mark scheme answer**
+
+> substitution;
+> rearrangement;
+> correct evaluation to 5 s.f.;
+> e.g.
+> sin(88.500) = 1/n
+> n = 1/sin(88.500)
+> n = 1.0003
+> answer of 1.00034… scores 2
+
+- **(3)** substitution;
 
 ### 8(b)(i) [2]
 
@@ -560,19 +656,86 @@ Technetium-98 and technetium-99 are isotopes of the element technetium.
 
 Describe the difference between the nuclei of technetium-98 and technetium-99
 
+
+**Mark scheme answer**
+
+> different number of neutrons; reject if number of protons is given as
+> different
+> technetium-99 has 1 more neutron; DOP
+> condone technetium-99 has 99
+> neutrons and technetium-98 has 98
+> neutrons
+
+- **(2)** different number of neutrons; reject if number of protons is given as
+
 ### 10(a)(ii) [2]
 
 Technetium-99 is formed when the element molybdenum-99 decays. Complete the nuclear equation for the decay of molybdenum into technetium-99 99 Mo → 99 Tc + 0 β
 
+
+**Mark scheme answer**
+
+> 43;
+> -1;
+
+- **(2)** 43;
+
 ### 10(b) [5]
 
 Describe an experiment that a scientist could use to demonstrate that the emission from technetium-99 is gamma radiation. Include details of a safety precaution in your answer.
+
+
+**Mark scheme answer**
+
+> any four max. from: allow ‘reading’ for count rate
+> MP1. use of GM tube + counter/GM allow Geiger counter;
+> tube/photographic film;
+> MP2. measure count (rate) without source /
+> find background count;
+> MP3. measure count (rate) with source;
+> MP4. (subtraction to) find corrected count
+> (rate);
+> MP5. repeat readings to obtain mean;
+> MP6. idea that paper / aluminium does not
+> affect count / reading;
+> MP7. idea that lead reduces count rate allow lead blocks (all) radiation
+> significantly;
+> PLUS
+> any safety precaution from:
+> MP8. idea of keeping distance from source; e.g. tongs/moving away from source
+> MP9. minimise exposure time;
+> MP10. use of shielding; e.g. keeping source in lead-lined box,
+> use of lead apron / gloves, working in
+> a different room from source
+
+- **(5)** any four max. from: allow ‘reading’ for count rate
 
 ### 10(c) [4]
 
 A scientist measures the count rate at different distances from the technetium source. The graph shows how the count rate changes with distance from the technetium source. 100 Count rate in kBq 0 1 2 3 4 5 Distance in m The scientist suggests that the relationship between the count rate and distance is (distance)2 × count rate = constant Use data from the graph to determine whether these results support this relationship.
 
 ![graph — official paper figure (qp.pdf p.27)](assets/asset_10_c_graph.png)
+
+
+**Mark scheme answer**
+
+> use of one data point;
+> evaluation of distance2 × count rate;
+> second data point and second evaluation of
+> distance2 × count rate;
+> conclusion reached consistent with the two reject idea that evaluations are
+> evaluations; inconsistent unless there is a
+> significant difference between them
+> e.g. due to ECF
+> (1,100) gives constant = 100
+> e.g. (2,25) gives constant = 100
+> (1,100) gives 12 × 100 = 100 (3,11) gives constant = 99
+> (4,6) gives 16 × 6 = 96 (4,6) gives constant = 96
+> 96 is approximately equal to 100 so (5,4) gives constant = 100
+> relationship is verified
+> Answer Notes Marks
+
+- **(4)** use of one data point;
 
 
 ## Question 11 (11 marks)
@@ -585,9 +748,29 @@ This question is about satellites and their orbits.
 
 State a difference between an artificial satellite’s orbit and a planet’s orbit.
 
+
+**Mark scheme answer**
+
+> any one from:
+> satellite orbits a planet/Earth, planet orbits a both aspects of the comparison
+> star/Sun; required
+> orbital radius/time period of planet is greater allow RA
+> than satellite; allow planet’s orbit is larger
+
+- **(1)** any one from:
+
 ### 11(a)(ii) [1]
 
 State a similarity between an artificial satellite’s orbit and a moon’s orbit.
+
+
+**Mark scheme answer**
+
+> any one from:
+> both orbit a planet/Earth;
+> both have same shape of orbit; allow circular or elliptical
+
+- **(1)** any one from:
 
 ### 11(b)(i) [4]
 

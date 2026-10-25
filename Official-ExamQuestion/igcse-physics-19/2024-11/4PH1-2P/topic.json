@@ -1,7 +1,7 @@
 {
  "schema": "syllabai.official-paper-questions/0.2",
- "generated_utc": "2026-10-25T20:43:30Z",
- "generator": "official_examq_extract.py v0.17.4 (ADR-039) series=2024-11 paper=2P",
+ "generated_utc": "2026-10-25T22:07:02Z",
+ "generator": "official_examq_extract.py v0.19.0 (ADR-039) series=2024-11 paper=2P",
  "paper_id": "pearson-edexcel:international-gcse:physics:4ph1:2024-11:4PH1/2P",
  "source": {
   "qp_sha256": "f3fb3b9bb313cb25cd21e24bf8ac5dce62fe67c3d8f78b1441539cd9052639d1",
@@ -55,7 +55,7 @@
       }
      ],
      "answer_status": "linked",
-     "solution_md": "B - electron;\nA cannot be correct as a beta particle is not an EM\nwave\nC cannot be correct as a helium nucleus is the same\nas an alpha particle\nD cannot be correct as a beta particle is not a\nneutron\n(b) B - helium nucleus;\nA cannot be correct as an alpha particle is not an\nEM wave\nC cannot be correct as a neutron is merely a\nconstituent particle of an alpha particle\nD cannot be correct as a proton is merely a\nconstituent particle of an alpha particle\ntop line: 4;",
+     "solution_md": "B - electron;\nA cannot be correct as a beta particle is not an EM\nwave\nC cannot be correct as a helium nucleus is the same\nas an alpha particle\nD cannot be correct as a beta particle is not a\nneutron",
      "mark_points": [
       {
        "id": "2024-11-1-a-MP1",
@@ -82,29 +82,41 @@
      "choices": [
       {
        "label": "A",
-       "text_md": "electromagnetic wave"
+       "text_md": "electromagnetic wave",
+       "is_correct": false
       },
       {
        "label": "B",
-       "text_md": "helium nucleus"
+       "text_md": "helium nucleus",
+       "is_correct": true
       },
       {
        "label": "C",
-       "text_md": "neutron"
+       "text_md": "neutron",
+       "is_correct": false
       },
       {
        "label": "D",
-       "text_md": "proton"
+       "text_md": "proton",
+       "is_correct": false
       }
      ],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "B - helium nucleus;\nA cannot be correct as an alpha particle is not an\nEM wave\nC cannot be correct as a neutron is merely a\nconstituent particle of an alpha particle\nD cannot be correct as a proton is merely a\nconstituent particle of an alpha particle\ntop line: 4;",
+     "mark_points": [
+      {
+       "id": "2024-11-1-b-MP1",
+       "marks": 1,
+       "text_md": "Answer B: helium nucleus"
+      }
+     ],
      "source_page": 3,
      "assets": [],
      "spec_point_codes": [],
      "tagging": "pending-llm",
      "edit_status": "extracted",
      "value_trace": {
-      "keys": "unresolved:review-queue",
+      "keys": "ms-positional",
       "marks": "ms-printed",
       "numbers": "source-printed"
      }
@@ -439,7 +451,15 @@
      "question_type": "structured",
      "problem_md": "Draw a cross to show the position of the Sun on the HR diagram.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "X drawn anywhere in rectangle on main sequence by eye and use extreme\nas shown below; left edge of red giant\nblob as a guide",
+     "mark_points": [
+      {
+       "id": "2024-11-4-a-i-MP1",
+       "marks": 1,
+       "text_md": "X drawn anywhere in rectangle on main sequence by eye and use extreme\nas shown below; left edge of red giant\nblob as a guide"
+      }
+     ],
      "source_page": 8,
      "assets": [
       {
@@ -471,7 +491,15 @@
      "question_type": "structured",
      "problem_md": "In approximately 4 billion years, the Sun will enter the next stage of its evolution. Draw a circle on the HR diagram around the area that will include the Sun in the next stage of its evolution.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "red giants in top right encircled as shown below; allow any loop that\noverlaps correct area\nonly",
+     "mark_points": [
+      {
+       "id": "2024-11-4-a-ii-MP1",
+       "marks": 1,
+       "text_md": "red giants in top right encircled as shown below; allow any loop that\noverlaps correct area\nonly"
+      }
+     ],
      "source_page": 8,
      "assets": [
       {
@@ -503,7 +531,15 @@
      "question_type": "structured",
      "problem_md": "Describe the stars that are in the top left corner of the HR diagram.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "any two from: ignore reference to\nabsolute magnitude\n• hot / high (surface) temperature;\n• bright/ high luminosity / high power;\n• white/blue-white/blue;\n• high mass;",
+     "mark_points": [
+      {
+       "id": "2024-11-4-b-MP1",
+       "marks": 2,
+       "text_md": "any two from: ignore reference to\nabsolute magnitude\n• hot / high (surface) temperature;\n• bright/ high luminosity / high power;\n• white/blue-white/blue;\n• high mass;"
+      }
+     ],
      "source_page": 8,
      "assets": [
       {
@@ -820,7 +856,15 @@
      "question_type": "structured",
      "problem_md": "State the formula linking moment, force and perpendicular distance from a pivot.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "moment = force × (perpendicular) distance allow standard symbols and\nrearrangements e.g. ‘F =\nmoment/d’\ncondone ‘M = F × d’",
+     "mark_points": [
+      {
+       "id": "2024-11-6-a-i-MP1",
+       "marks": 1,
+       "text_md": "moment = force × (perpendicular) distance allow standard symbols and\nrearrangements e.g. ‘F =\nmoment/d’\ncondone ‘M = F × d’"
+      }
+     ],
      "source_page": 14,
      "assets": [],
      "spec_point_codes": [],
@@ -838,7 +882,15 @@
      "question_type": "structured",
      "problem_md": "Calculate the total moment of the two forces required to turn the tap around the pivot. Give your answer in N cm. total moment = N cm",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "substitution into correct formula for one force;\nattempt to combine two moments; accept however expressed\n-1 POT error\ncorrect evaluation;\neg.\nmoment of one force = 8.1 × 2.6 (cm) allow answers that round to\nmoment of one force = 21.06 (N cm) 84 for 2 marks\ntotal moment = 21.06 × 2 = 42.12 (N cm)\ncorrect answer = 42 (N cm)",
+     "mark_points": [
+      {
+       "id": "2024-11-6-a-ii-MP1",
+       "marks": 3,
+       "text_md": "substitution into correct formula for one force;\nattempt to combine two moments; accept however expressed\n-1 POT error\ncorrect evaluation;\neg.\nmoment of one force = 8.1 × 2.6 (cm) allow answers that round to\nmoment of one force = 21.06 (N cm) 84 for 2 marks\ntotal moment = 21.06 × 2 = 42.12 (N cm)\ncorrect answer = 42 (N cm)"
+      }
+     ],
      "source_page": 14,
      "assets": [],
      "spec_point_codes": [],
@@ -856,7 +908,15 @@
      "question_type": "structured",
      "problem_md": "The tap is used to put some water in a bucket. Describe the arrangement and motion of the water particles in liquid water. You may draw a diagram to help your answer.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "arrangement: mark can be scored from a\nat least one from diagram\nclosely packed /eq; e.g. ‘all touching’, ‘not as\nclosely packed as the solid’\nrandom/irregular (arrangement);\nmotion:\nat least one from\nrandom (motion);\nidea of flow of particles; e.g. “particles slide over\neach other”\nignore ‘move freely’\nAnswer Notes Marks",
+     "mark_points": [
+      {
+       "id": "2024-11-6-b-MP1",
+       "marks": 3,
+       "text_md": "arrangement: mark can be scored from a\nat least one from diagram\nclosely packed /eq; e.g. ‘all touching’, ‘not as\nclosely packed as the solid’\nrandom/irregular (arrangement);\nmotion:\nat least one from\nrandom (motion);\nidea of flow of particles; e.g. “particles slide over\neach other”\nignore ‘move freely’\nAnswer Notes Marks"
+      }
+     ],
      "source_page": 15,
      "assets": [],
      "spec_point_codes": [],
@@ -884,7 +944,15 @@
      "question_type": "structured",
      "problem_md": "Describe a change in the turbine’s energy stores from when the turbine is at rest to when it is moving at full speed.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "kinetic energy (store); accept thermal store\nreject ‘heat’\nincreases;\naccept ‘KE (store) of\nair/wind to KE (store) of\nturbine for 2 marks\naccept ‘...to KE (store)\nof turbine for 1 mark",
+     "mark_points": [
+      {
+       "id": "2024-11-7-a-i-MP1",
+       "marks": 2,
+       "text_md": "kinetic energy (store); accept thermal store\nreject ‘heat’\nincreases;\naccept ‘KE (store) of\nair/wind to KE (store) of\nturbine for 2 marks\naccept ‘...to KE (store)\nof turbine for 1 mark"
+      }
+     ],
      "source_page": 16,
      "assets": [],
      "spec_point_codes": [],
@@ -902,7 +970,15 @@
      "question_type": "structured",
      "problem_md": "Describe a change in the turbine’s energy stores when the wind is blowing but the turbine moves at constant speed.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "thermal (store); ignore ‘heat'\nincreases; DOP",
+     "mark_points": [
+      {
+       "id": "2024-11-7-a-ii-MP1",
+       "marks": 2,
+       "text_md": "thermal (store); ignore ‘heat'\nincreases; DOP"
+      }
+     ],
      "source_page": 16,
      "assets": [],
      "spec_point_codes": [],
@@ -983,12 +1059,12 @@
      "problem_md": "Give an appropriate method for measuring the distance between the student and the wall.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "ignore any attempt at\nusing speed of sound\nsuitable instrument e.g. metre wheel, trundle wheel, condone ruler\ntape measure, laser (range-finder);\nrepeat and take an average; allow idea of a\nstraight/flat tape\nmeasure\nallow idea of measuring\nperpendicular to wall\nallow ensuring use of\ntrundle wheel in a\nstraight line\n(b) use of average speed = distance ÷ time taken;\nsubstitution; scores first two MP\nevaluation;\neg.:\nspeed = distance ÷ time taken\nspeed = 130 (m) ÷ 0.35 (s)\nspeed = 371.428… (m/s)\nspeed = 370 m/s\naccept answer that\nrounds to 190 (m/s) for\n2 marks (use of 65 m)\naccept answer that\nrounds to 370 (m/s) for\n3 marks\n(c) any four from:\nMP1 idea of original method did not repeat (and need to repeat (and\naverage) average)\nrepeating (and\naveraging) would\nimprove experiment\nMP2 mention of (human) reaction time;\nMP3 critique of accuracy of distance measurement;\nMP4 reference to sound becoming inaudible because\nof distance;\nMP5 reference to large distance reducing effect of allow RA\ntiming errors;\nMP6 reference to uncontrolled variables; e.g.\ntemperature, humidity, wind, noise\nignore ‘repeat and\naverage’\n(d) ignore use of\noscilloscope to\nmeasure wavelength or\nperiod\nignore unqualified use\nof microphone\nany two from:\nreduction of timing inaccuracy:\nMP1 idea of datalogging (with a microphone/sound\nmeter);\nMP2 idea of electronic start and/or stop timing (with a\nmicrophone/sound meter);\nMP3 larger distance (gives larger time);\nMP4 idea of longer time may reduce effect of reaction\ntime;\nMP5 produce a regular sound that coincides with echo;\nimprovement of distance measurement:\nMP6 use a laser-based distance measure/use a map\n(and scale) to pinpoint start and finish;\nother:\nMP7 idea of removing noise/wind; e.g. do the\nexperiment indoors, shielding a microphone, wait\nfor a windless time\nMP8 drawing a distance-time graph for different\ndistances and finding gradient;\nPearson Education Limited. Registered company number 872828\nwith its registered office at 80 Strand, London, WC2R 0RL, United Kingdom",
+     "solution_md": "ignore any attempt at\nusing speed of sound\nsuitable instrument e.g. metre wheel, trundle wheel, condone ruler\ntape measure, laser (range-finder);\nrepeat and take an average; allow idea of a\nstraight/flat tape\nmeasure\nallow idea of measuring\nperpendicular to wall\nallow ensuring use of\ntrundle wheel in a\nstraight line",
      "mark_points": [
       {
        "id": "2024-11-8-a-MP1",
        "marks": 2,
-       "text_md": "ignore any attempt at\nusing speed of sound\nsuitable instrument e.g. metre wheel, trundle wheel, condone ruler\ntape measure, laser (range-finder);\nrepeat and take an average; allow idea of a\nstraight/flat tape\nmeasure\nallow idea of measuring\nperpendicular to wall\nallow ensuring use of\ntrundle wheel in a\nstraight line\n(b) use of average speed = distance ÷ time taken;\nsubstitution; scores first two MP\nevaluation;\neg.:\nspeed = distance ÷ time taken\nspeed = 130 (m) ÷ 0.35 (s)\nspeed = 371.428… (m/s)\nspeed = 370 m/s\naccept answer that\nrounds to 190 (m/s) for\n2 marks (use of 65 m)\naccept answer that\nrounds to 370 (m/s) for\n3 marks\n(c) any four from:\nMP1 idea of original method did not repeat (and need to repeat (and\naverage) average)\nrepeating (and\naveraging) would\nimprove experiment\nMP2 mention of (human) reaction time;\nMP3 critique of accuracy of distance measurement;\nMP4 reference to sound becoming inaudible because\nof distance;\nMP5 reference to large distance reducing effect of allow RA\ntiming errors;\nMP6 reference to uncontrolled variables; e.g.\ntemperature, humidity, wind, noise\nignore ‘repeat and\naverage’\n(d) ignore use of\noscilloscope to\nmeasure wavelength or\nperiod\nignore unqualified use\nof microphone\nany two from:\nreduction of timing inaccuracy:\nMP1 idea of datalogging (with a microphone/sound\nmeter);\nMP2 idea of electronic start and/or stop timing (with a\nmicrophone/sound meter);\nMP3 larger distance (gives larger time);\nMP4 idea of longer time may reduce effect of reaction\ntime;\nMP5 produce a regular sound that coincides with echo;\nimprovement of distance measurement:\nMP6 use a laser-based distance measure/use a map\n(and scale) to pinpoint start and finish;\nother:\nMP7 idea of removing noise/wind; e.g. do the\nexperiment indoors, shielding a microphone, wait\nfor a windless time\nMP8 drawing a distance-time graph for different\ndistances and finding gradient;\nPearson Education Limited. Registered company number 872828\nwith its registered office at 80 Strand, London, WC2R 0RL, United Kingdom"
+       "text_md": "ignore any attempt at\nusing speed of sound\nsuitable instrument e.g. metre wheel, trundle wheel, condone ruler\ntape measure, laser (range-finder);\nrepeat and take an average; allow idea of a\nstraight/flat tape\nmeasure\nallow idea of measuring\nperpendicular to wall\nallow ensuring use of\ntrundle wheel in a\nstraight line"
       }
      ],
      "source_page": 18,
@@ -1008,7 +1084,15 @@
      "question_type": "structured",
      "problem_md": "The student uses a stopwatch to determine the time taken for the sound to travel from them to the wall and back again. The distance from the student to the wall is 65 m. The student measures a time of 0.35 seconds when the sound has travelled to the wall and back again. Calculate the speed of sound from the student’s data. speed of sound = m/s",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "use of average speed = distance ÷ time taken;\nsubstitution; scores first two MP\nevaluation;\neg.:\nspeed = distance ÷ time taken\nspeed = 130 (m) ÷ 0.35 (s)\nspeed = 371.428… (m/s)\nspeed = 370 m/s\naccept answer that\nrounds to 190 (m/s) for\n2 marks (use of 65 m)\naccept answer that\nrounds to 370 (m/s) for\n3 marks",
+     "mark_points": [
+      {
+       "id": "2024-11-8-b-MP1",
+       "marks": 3,
+       "text_md": "use of average speed = distance ÷ time taken;\nsubstitution; scores first two MP\nevaluation;\neg.:\nspeed = distance ÷ time taken\nspeed = 130 (m) ÷ 0.35 (s)\nspeed = 371.428… (m/s)\nspeed = 370 m/s\naccept answer that\nrounds to 190 (m/s) for\n2 marks (use of 65 m)\naccept answer that\nrounds to 370 (m/s) for\n3 marks"
+      }
+     ],
      "source_page": 18,
      "assets": [],
      "spec_point_codes": [],
@@ -1026,7 +1110,15 @@
      "question_type": "structured",
      "problem_md": "Evaluate this method for determining an accurate value for the speed of sound.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "any four from:\nMP1 idea of original method did not repeat (and need to repeat (and\naverage) average)\nrepeating (and\naveraging) would\nimprove experiment\nMP2 mention of (human) reaction time;\nMP3 critique of accuracy of distance measurement;\nMP4 reference to sound becoming inaudible because\nof distance;\nMP5 reference to large distance reducing effect of allow RA\ntiming errors;\nMP6 reference to uncontrolled variables; e.g.\ntemperature, humidity, wind, noise\nignore ‘repeat and\naverage’",
+     "mark_points": [
+      {
+       "id": "2024-11-8-c-MP1",
+       "marks": 4,
+       "text_md": "any four from:\nMP1 idea of original method did not repeat (and need to repeat (and\naverage) average)\nrepeating (and\naveraging) would\nimprove experiment\nMP2 mention of (human) reaction time;\nMP3 critique of accuracy of distance measurement;\nMP4 reference to sound becoming inaudible because\nof distance;\nMP5 reference to large distance reducing effect of allow RA\ntiming errors;\nMP6 reference to uncontrolled variables; e.g.\ntemperature, humidity, wind, noise\nignore ‘repeat and\naverage’"
+      }
+     ],
      "source_page": 19,
      "assets": [],
      "spec_point_codes": [],
@@ -1044,7 +1136,15 @@
      "question_type": "structured",
      "problem_md": "Explain an improvement to the student’s method.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "ignore use of\noscilloscope to\nmeasure wavelength or\nperiod\nignore unqualified use\nof microphone\nany two from:\nreduction of timing inaccuracy:\nMP1 idea of datalogging (with a microphone/sound\nmeter);\nMP2 idea of electronic start and/or stop timing (with a\nmicrophone/sound meter);\nMP3 larger distance (gives larger time);\nMP4 idea of longer time may reduce effect of reaction\ntime;\nMP5 produce a regular sound that coincides with echo;\nimprovement of distance measurement:\nMP6 use a laser-based distance measure/use a map\n(and scale) to pinpoint start and finish;\nother:\nMP7 idea of removing noise/wind; e.g. do the\nexperiment indoors, shielding a microphone, wait\nfor a windless time\nMP8 drawing a distance-time graph for different\ndistances and finding gradient;\nPearson Education Limited. Registered company number 872828\nwith its registered office at 80 Strand, London, WC2R 0RL, United Kingdom",
+     "mark_points": [
+      {
+       "id": "2024-11-8-d-MP1",
+       "marks": 2,
+       "text_md": "ignore use of\noscilloscope to\nmeasure wavelength or\nperiod\nignore unqualified use\nof microphone\nany two from:\nreduction of timing inaccuracy:\nMP1 idea of datalogging (with a microphone/sound\nmeter);\nMP2 idea of electronic start and/or stop timing (with a\nmicrophone/sound meter);\nMP3 larger distance (gives larger time);\nMP4 idea of longer time may reduce effect of reaction\ntime;\nMP5 produce a regular sound that coincides with echo;\nimprovement of distance measurement:\nMP6 use a laser-based distance measure/use a map\n(and scale) to pinpoint start and finish;\nother:\nMP7 idea of removing noise/wind; e.g. do the\nexperiment indoors, shielding a microphone, wait\nfor a windless time\nMP8 drawing a distance-time graph for different\ndistances and finding gradient;\nPearson Education Limited. Registered company number 872828\nwith its registered office at 80 Strand, London, WC2R 0RL, United Kingdom"
+      }
+     ],
      "source_page": 19,
      "assets": [],
      "spec_point_codes": [],

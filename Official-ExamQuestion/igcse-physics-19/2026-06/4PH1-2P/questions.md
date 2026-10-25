@@ -119,15 +119,79 @@ This question is about moments.
 
 Calculate the moment of the 3200 N force. Give the unit. moment = unit
 
+
+**Mark scheme answer**
+
+> MP1 substitution in to given equation; accept standard form
+> throughout (a)
+> MP2 correct evaluation of moment;
+> MP3 unit: Nm ; accept Ncm if
+> appropriate to
+> candidate’s value
+> i.e. 1 536 000 Ncm
+> correct answer with no
+> working scores full
+> e.g.
+> moment = force × distance
+> moment = 3200 × 4.8 unrounded answer is
+> moment = 15 000 (Nm) 15 360 (Nm)
+
+- **(3)** MP1 substitution in to given equation; accept standard form
+
 ### 2(a)(ii) [2]
 
 State the magnitude and the direction of the moment provided by force F. magnitude = direction =
+
+
+**Mark scheme answer**
+
+> MP1 candidate’s answer to (a)(i); ignore unit
+> allow 15 000 regardless
+> of (i)
+> MP2 clockwise; accept CW
+> accept clockwise arrow
+> reject anti-clockwise
+> reject ACW
+> reject counter-
+> clockwise
+> reject anti-clockwise
+> arrow
+> reject CCW
+> ignore any other
+> direction
+
+- **(2)** MP1 candidate’s answer to (a)(i); ignore unit
 
 ### 2(b) [4]
 
 The beam now rests on two supports. Diagram 2 shows the forces acting on the beam. upward force A upward force B A B weight of beam Diagram 2 The upward force on the beam from each support point is half of the weight of the beam. Explain how the upward forces at point A and point B change • when a person stands on the beam at point A • as the person walks along the beam from point A to point B Refer to ideas about moments in your answer.
 
 ![diagram — official paper figure (qp.pdf p.7)](assets/asset_2_b_diagram.png)
+
+
+**Mark scheme answer**
+
+> ignore movement of
+> beam
+> MP1 idea that moment (about a named point)
+> clockwise = moment (about named point)
+> anticlockwise;
+> MP2 idea that from point A, total moment accept idea that from
+> clockwise increases as person walks; point B, total moment
+> anti-clockwise
+> decreases as person
+> walks
+> MP3 so moment and hence force at B must also accept idea that force A
+> increase (to stay in equilibrium); decreases so force B
+> must increase
+> MP4 idea that when person gets on, force A accept idea that force A
+> increases and force B does not; increases more than
+> force B when person
+> gets on
+> Total for question 2: 9 marks
+> Answer Notes Marks
+
+- **(4)** ignore movement of
 
 
 ## Question 3 (9 marks)
@@ -250,7 +314,17 @@ The fission reactor is used in a power station to generate electricity on a larg
 > energy of generator;
 > MP5 kinetic energy of generator (transfers) to
 > electrical energy of generator;
-> (b) ignore references to
+
+- **(4)** any FOUR from allow ‘water’ for
+
+### 4(b) [2]
+
+In a nuclear power station, the reactor is shielded in concrete. Explain why a worker in a power station might still need to take safety precautions.
+
+
+**Mark scheme answer**
+
+> ignore references to
 > alpha radiation or beta
 > radiation
 > ignore references to
@@ -267,21 +341,52 @@ The fission reactor is used in a power station to generate electricity on a larg
 > DNA or damage to
 > tissue
 
-- **(4)** any FOUR from allow ‘water’ for
-
-### 4(b) [2]
-
-In a nuclear power station, the reactor is shielded in concrete. Explain why a worker in a power station might still need to take safety precautions.
+- **(2)** ignore references to
 
 ### 4(c)(i) [1]
 
 State the formula linking efficiency, useful output energy and total output energy.
+
+
+**Mark scheme answer**
+
+> efficiency = useful energy output / total energy output x 100%
+> accept missing 100%
+> accept total energy input for denominator
+> ignore reference to power for energy
+
+- **(1)** efficiency = useful energy output / total energy output x 100%
 
 ### 4(c)(ii) [3]
 
 In the power station, the fission of 1.0 kg of uranium-235 fuel gives a power output of 2.4 ×1010 W for 3600 seconds. 3.2 × 1013 J of the energy is transferred usefully to the National Grid. Calculate the efficiency of the power station. Give your answer as a percentage. efficiency = %
 
 ![grid — official paper figure (qp.pdf p.10)](assets/asset_4_c_ii_grid.png)
+
+
+**Mark scheme answer**
+
+> MP1 substitution into or rearrangement of given allow value of energy
+> formula (P = W/t); seen as sufficient
+> evidence of
+> substitution e.g. total
+> energy output is 8.64 ×
+> 1013 (J)
+> MP2 substitution into efficiency formula;
+> MP3 correct evaluation;
+> unrounded correct
+> answer is 37.037...%
+> i.e.
+> answers of 37 to any
+> total energy output = power × time other power of ten
+> total energy output = 2.4 ×1010 × 3600 scores 2 marks
+> efficiency = (3.2 × 1013)
+> ÷ (2.4 ×1010 × 3600)
+> efficiency = 37(%)
+> Total for question 4: 10 marks
+> Answer Notes Marks
+
+- **(3)** MP1 substitution into or rearrangement of given allow value of energy
 
 
 ## Question 5 (7 marks)
@@ -314,7 +419,19 @@ Diagram 2 shows the two balloons after the student has rubbed them together and 
 > transferred electrons
 > to the other (balloon)’
 > scores all three marks
-> (b) ignore POT
+
+- **(3)** MP1 idea of transfer of (negative) charge; reject reference to
+
+### 5(b) [4]
+
+The student changes the distance between the two balloons and measures the force of attraction between them. The graph shows the student’s results. Force in mN 0.0 1.0 2.0 3.0 4.0 5.0 6.0 Distance in cm The student suggests that the distance between the two balloons and the force of attraction between the two balloons obey this relationship (distance)2 × force = constant Use data from the graph to determine if the results from the investigation support this relationship.
+
+![graph — official paper figure (qp.pdf p.14)](assets/asset_5_b_graph.png)
+
+
+**Mark scheme answer**
+
+> ignore POT
 > MP1 x- and y-data from a point on curve selected;
 > MP2 constant for that data point evaluated and
 > seen;
@@ -328,13 +445,7 @@ Diagram 2 shows the two balloons after the student has rubbed them together and 
 > Total for question 5: 7 marks
 > Answer Notes Marks
 
-- **(3)** MP1 idea of transfer of (negative) charge; reject reference to
-
-### 5(b) [4]
-
-The student changes the distance between the two balloons and measures the force of attraction between them. The graph shows the student’s results. Force in mN 0.0 1.0 2.0 3.0 4.0 5.0 6.0 Distance in cm The student suggests that the distance between the two balloons and the force of attraction between the two balloons obey this relationship (distance)2 × force = constant Use data from the graph to determine if the results from the investigation support this relationship.
-
-![graph — official paper figure (qp.pdf p.14)](assets/asset_5_b_graph.png)
+- **(4)** ignore POT
 
 
 ## Question 6 (11 marks)
@@ -506,7 +617,19 @@ Explain how the redshift of light from galaxies provides evidence for the Big Ba
 > expanding’
 > MP4 expansion implies universe was at the same
 > point in the past / eq;
-> (b) any FOUR from:
+
+- **(3)** any THREE from: ignore references to
+
+### 7(b) [4]
+
+The diagram shows the spectrum of light from a star and from a hydrogen lamp on Earth. hydrogen lamp on Earth wavelength 410 434 486 656 star wavelength 406 430 481 649 All wavelengths are in nanometres. A student suggests that the star appears red because it is moving away from the Earth at 1% of the speed of light. Use data from the diagram to evaluate the student’s suggestion. [speed of light = 3.0 × 108 m/s]
+
+![diagram — official paper figure (qp.pdf p.20)](assets/asset_7_b_diagram.png)
+
+
+**Mark scheme answer**
+
+> any FOUR from:
 > MP1 change in wavelength for any line shown;
 > MP2 correct calculation of speed of star using given accept standard form
 > formula; throughout
@@ -543,13 +666,7 @@ Explain how the redshift of light from galaxies provides evidence for the Big Ba
 > Total for question 7: 7 marks
 > Answer Notes Marks
 
-- **(3)** any THREE from: ignore references to
-
-### 7(b) [4]
-
-The diagram shows the spectrum of light from a star and from a hydrogen lamp on Earth. hydrogen lamp on Earth wavelength 410 434 486 656 star wavelength 406 430 481 649 All wavelengths are in nanometres. A student suggests that the star appears red because it is moving away from the Earth at 1% of the speed of light. Use data from the diagram to evaluate the student’s suggestion. [speed of light = 3.0 × 108 m/s]
-
-![diagram — official paper figure (qp.pdf p.20)](assets/asset_7_b_diagram.png)
+- **(4)** any FOUR from:
 
 
 ## Question 8 (9 marks)
@@ -565,11 +682,44 @@ Which direction is the car travelling?
 - **(A)** away from the observer
 - **(B)** into the page
 - **(C)** out of the page
-- **(D)** towards the observer
+- **(D)** towards the observer  ✔
+
+
+**Mark scheme answer**
+
+> D (towards the observer);
+> A cannot be correct as the pattern would be
+> rotated 180 degrees clockwise;
+> B cannot be correct as the pattern would be
+> rotated out of the page;
+> C cannot be correct as the pattern would be
+> rotated out of the page;
+
+- **(1)** Answer D: towards the observer
 
 ### 8(a)(ii) [2]
 
 Explain why the frequency of the sound heard by the observer is higher than the frequency of the sound heard by the car driver.
+
+
+**Mark scheme answer**
+
+> ignore references to
+> area behind the car
+> ignore references to
+> wavelengths getting
+> larger behind the car
+> any TWO from:
+> MP1 wave(front)s are closer together /eq ; e.g. wave(front)s
+> compressed, ‘more
+> bunched up’, ‘shorter
+> wavelength’
+> MP2 linking of shorter wavelength to equation v=f
+> × λ;
+> MP3 idea that speed of sound is constant; allow wave speed is
+> constant
+
+- **(2)** ignore references to
 
 ### 8(b) [2]
 
@@ -577,9 +727,55 @@ Diagram 2 shows a spacecraft directly below the International Space Station (ISS
 
 ![diagram — official paper figure (qp.pdf p.23)](assets/asset_8_b_diagram.png)
 
+
+**Mark scheme answer**
+
+> any TWO from:
+> MP1 ISS and spacecraft are not moving relative to condone ‘distance
+> each other / eq; between ISS and
+> spacecraft is constant’
+> MP2 so must be travelling at the same speed;
+> MP3 (so) waves from one source come from a condone reference to
+> source that’s not moving compared to the any type of wave
+> observer;
+
+- **(2)** any TWO from:
+
 ### 8(c) [4]
 
 Diagram 3 shows the spacecraft now moving upwards towards the ISS. ISS 0.18 m/s Diagram 3 The spacecraft moves towards the ISS with an upward velocity of 0.18 m/s. The mass of the spacecraft is 12 000 kg and the mass of the ISS is 420 000 kg. When the spacecraft touches the ISS, they move upwards together. Calculate the upward velocity of the combined object. upward velocity = m/s
 
 ![diagram — official paper figure (qp.pdf p.24)](assets/asset_8_c_diagram.png)
+
+
+**Mark scheme answer**
+
+> MP1 correct momentum of spacecraft before 12000 × 0.18 or 2160
+> collision; (kg m/s) seen
+> MP2 idea of conservation of momentum /eq ; allow momentum of
+> spacecraft and ISS after
+> collision is the same as
+> momentum of
+> spacecraft before
+> collision however ressed
+> 12 000 + 420 000 or
+> MP3 correct total mass of spacecraft and ISS; 432 000 (kg) seen;
+> MP4 evaluation of initial momentum ÷ total mass penalise POT –1 only
+> of combined object; once, on candidate’s
+> answer for velocity
+> 0.0051... scores 3 marks
+> 0.005 rounded from
+> 0.0051... scores 3 marks
+> 0.005 without any
+> working scores 4 marks
+> i.e. accept standard form
+> momentum of spacecraft = 12000 ×0.18 throughout
+> therefore momentum of combined object =
+> 2160 kg m/s
+> total mass of combined object = 420 000 + 12 000
+> therefore upwards velocity of combined object =
+> 2160 ÷ 432 000 = 0.005 m/s
+> Total for question 8: 9 marks
+
+- **(4)** MP1 correct momentum of spacecraft before 12000 × 0.18 or 2160
 

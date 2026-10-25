@@ -21,7 +21,17 @@ Nuclear fusion and nuclear fission release energy from the nuclear stores of ato
 > allow any reasonable
 > indication other than
 > a tick
-> (b) high temperature; ignore references to
+
+- **(3)** all five rows correct = 3 marks row cannot score if
+
+### 1(b) [4]
+
+In nuclear fusion, two positively charged nuclei must overcome the effects of the repulsive electrostatic force between them. Explain the two conditions needed to overcome the effects of this repulsive force and achieve nuclear fusion. 1 2
+
+
+**Mark scheme answer**
+
+> high temperature; ignore references to
 > repulsion or
 > attraction
 > (so that) nuclei will have high(er) speed or high(er) condone particles,
@@ -34,11 +44,7 @@ Nuclear fusion and nuclear fission release energy from the nuclear stores of ato
 > frequently
 > Answer Notes Marks
 
-- **(3)** all five rows correct = 3 marks row cannot score if
-
-### 1(b) [4]
-
-In nuclear fusion, two positively charged nuclei must overcome the effects of the repulsive electrostatic force between them. Explain the two conditions needed to overcome the effects of this repulsive force and achieve nuclear fusion. 1 2
+- **(4)** high temperature; ignore references to
 
 
 ## Question 2 (9 marks)
@@ -51,14 +57,39 @@ This question is about moments. Diagram 1 shows the raised lower leg of a person
 
 The moment of the weight of the lower leg about the pivot is 19 N m. A vertical force, F, is applied to the person’s foot to keep the lower leg raised. The lower leg does not move. Calculate the magnitude of force F, using the formula moment = force × perpendicular distance from pivot force F = N
 
+
+**Mark scheme answer**
+
+> substitution OR rearrangement;
+> evaluation;
+> e.g.
+> 19 = force × 0.55 OR force = moment/distance
+> (force =) 35 (N) allow 34.5, 34.54, etc.
+> -1 POT error
+
+- **(2)** substitution OR rearrangement;
+
 ### 2(a)(ii) [1]
 
 Which distance is used to calculate the moment of the weight of the lower leg about the pivot?
 
-- **(A)** 0.25 m
+- **(A)** 0.25 m  ✔
 - **(B)** 0.28 m
 - **(C)** 0.30 m
 - **(D)** 0.55 m
+
+
+**Mark scheme answer**
+
+> A (0.25 m);
+> B is incorrect because this is not a perpendicular
+> distance
+> C is incorrect because this is the distance between
+> weight and force F
+> D is incorrect because this is the distance to force
+> F
+
+- **(1)** Answer A: 0.25 m
 
 ### 2(b)(i) [3]
 
@@ -228,7 +259,17 @@ The input power to the transformer is 16 W. The transformer is used for 2.5 hour
 > 2.5 × 60 × 60 or 9000
 > seen for 1 mark if no
 > other mark awarded
-> (b) any six from:
+
+- **(3)** substitution into given formula; ignore units
+
+### 4(b) [6]
+
+Explain how a transformer works. In your answer, include reasons for using • two coils • the iron core • an a.c. power supply
+
+
+**Mark scheme answer**
+
+> any six from:
 > MP1. it steps up or steps down the voltage; allow “increases”,
 > “decreases” or
 > “changes”
@@ -249,7 +290,17 @@ The input power to the transformer is 16 W. The transformer is used for 2.5 hour
 > MP9. transformer won’t work with (steady) d.c.; ignore idea of “works
 > with a.c.” repetition of
 > stem
-> (c) less turns (on the primary coil) / eq; ignore any reference to
+
+- **(6)** any six from:
+
+### 4(c) [1]
+
+State how the primary coil of the transformer can be changed to increase the output voltage.
+
+
+**Mark scheme answer**
+
+> less turns (on the primary coil) / eq; ignore any reference to
 > secondary
 > ignore references to
 > increasing current,
@@ -259,15 +310,7 @@ The input power to the transformer is 16 W. The transformer is used for 2.5 hour
 > ‘turns’
 > Answer Notes Marks
 
-- **(3)** substitution into given formula; ignore units
-
-### 4(b) [6]
-
-Explain how a transformer works. In your answer, include reasons for using • two coils • the iron core • an a.c. power supply
-
-### 4(c) [1]
-
-State how the primary coil of the transformer can be changed to increase the output voltage.
+- **(1)** less turns (on the primary coil) / eq; ignore any reference to
 
 
 ## Question 5 (7 marks)
@@ -414,7 +457,17 @@ The ions exert a force of 2.6 mN on the spacecraft engine. The spacecraft engine
 > acceleration 2.6 (×10−3) / 1.2
 > (acceleration =) 2.16… × 10−3 (m/s2)
 > (acceleration =) 2.2 × 10−3 (m/s2)
-> (c) any two from: ignore idea of simple
+
+- **(4)** substitution into ‘F=ma’; ignore units
+
+### 6(c) [2]
+
+The engine is designed to accelerate a spacecraft while the spacecraft is travelling through space. The spacecraft carries a mass of 0.75 kg of xenon ions for the engine. When the engine is used, 9.9 × 10−8 kg of xenon ions leave the engine each second. A student suggests that this small spacecraft engine would not be useful because the acceleration it produces is very small. Evaluate the student’s suggestion.
+
+
+**Mark scheme answer**
+
+> any two from: ignore idea of simple
 > yes/no
 > MP1. idea of tiny amount of fuel ‘consumed’ per
 > second;
@@ -431,11 +484,7 @@ The ions exert a force of 2.6 mN on the spacecraft engine. The spacecraft engine
 > acceleration is even smaller;
 > Answer Notes Marks
 
-- **(4)** substitution into ‘F=ma’; ignore units
-
-### 6(c) [2]
-
-The engine is designed to accelerate a spacecraft while the spacecraft is travelling through space. The spacecraft carries a mass of 0.75 kg of xenon ions for the engine. When the engine is used, 9.9 × 10−8 kg of xenon ions leave the engine each second. A student suggests that this small spacecraft engine would not be useful because the acceleration it produces is very small. Evaluate the student’s suggestion.
+- **(2)** any two from: ignore idea of simple
 
 
 ## Question 7 (8 marks)
@@ -539,7 +588,17 @@ The diagram shows two identical stars, A and B, orbiting each other. direction o
 > X at 3 o’clock position on orbit by eye; any indicative mark
 > within a star’s radius of
 > the correct position
-> (b) difference in wavelength: 11 (nm);
+
+- **(1)** X at 3 o’clock position on orbit by eye; any indicative mark
+
+### 8(b) [4]
+
+Light is received on Earth from a distant galaxy. The longest wavelength of light arriving at Earth from the galaxy is 561 nm. A lamp on Earth produces the same light with a wavelength of 550 nm. Calculate the velocity of the galaxy. [speed of light = 3.0 × 108 m / s] velocity = m / s
+
+
+**Mark scheme answer**
+
+> difference in wavelength: 11 (nm);
 > all substitutions correct in formula; allow ecf from clear
 > incorrect change in
 > wavelength
@@ -556,9 +615,5 @@ The diagram shows two identical stars, A and B, orbiting each other. direction o
 > Pearson Education Limited. Registered company number 872828
 > with its registered office at 80 Strand, London, WC2R 0RL, United Kingdom
 
-- **(1)** X at 3 o’clock position on orbit by eye; any indicative mark
-
-### 8(b) [4]
-
-Light is received on Earth from a distant galaxy. The longest wavelength of light arriving at Earth from the galaxy is 561 nm. A lamp on Earth produces the same light with a wavelength of 550 nm. Calculate the velocity of the galaxy. [speed of light = 3.0 × 108 m / s] velocity = m / s
+- **(4)** difference in wavelength: 11 (nm);
 

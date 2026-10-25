@@ -84,12 +84,6 @@ Which of these is a harmful effect of infrared waves?
 > B is incorrect because infrared is non-ionising
 > C is incorrect because infrared cannot penetrate into the body to cause
 > internal heating
-> (c) trace drawn with higher amplitude throughout; allow variable
-> amplitude
-> trace drawn with higher frequency throughout; allow variable
-> amplitude
-> e.g.
-> Answer Notes Marks
 
 - **(1)** Answer D: skin burns
 
@@ -98,6 +92,18 @@ Which of these is a harmful effect of infrared waves?
 The grid shows the oscilloscope trace for a quiet, low‑pitch sound wave. The security camera has an alarm that produces a loud, high‑pitch sound. On the grid, draw a trace to represent the sound wave produced by the alarm.
 
 ![grid — official paper figure (qp.pdf p.5)](assets/asset_1_c_grid.png)
+
+
+**Mark scheme answer**
+
+> trace drawn with higher amplitude throughout; allow variable
+> amplitude
+> trace drawn with higher frequency throughout; allow variable
+> amplitude
+> e.g.
+> Answer Notes Marks
+
+- **(2)** trace drawn with higher amplitude throughout; allow variable
 
 
 ## Question 2 (5 marks)
@@ -112,20 +118,6 @@ Determine how many neutrons are released in this fission process. number of neut
 **Mark scheme answer**
 
 > 2;
-> (b) all rows correct;;
-> any 2 rows correct;
-> e.g.
-> ✓
-> ✓
-> ✓
-> (c) any two from: do not penalize use of
-> atom for nucleus for
-> more than one mark
-> MP1. neutrons absorbed by another nucleus;
-> MP2. uranium-235 named;
-> MP3. nucleus splits, releasing more neutrons (and
-> process repeats);
-> Answer Notes Marks
 
 - **(1)** 2;
 
@@ -135,9 +127,35 @@ The table gives some of the constituents of this nuclear fission. Complete the t
 
 ![table — official paper figure (qp.pdf p.6)](assets/asset_2_b_table.png)
 
+
+**Mark scheme answer**
+
+> all rows correct;;
+> any 2 rows correct;
+> e.g.
+> ✓
+> ✓
+> ✓
+
+- **(2)** all rows correct;;
+
 ### 2(c) [2]
 
 Describe how the neutrons released in this fission process can cause a chain reaction.
+
+
+**Mark scheme answer**
+
+> any two from: do not penalize use of
+> atom for nucleus for
+> more than one mark
+> MP1. neutrons absorbed by another nucleus;
+> MP2. uranium-235 named;
+> MP3. nucleus splits, releasing more neutrons (and
+> process repeats);
+> Answer Notes Marks
+
+- **(2)** any two from: do not penalize use of
 
 
 ## Question 3 (11 marks)
@@ -210,7 +228,21 @@ Draw the curve of best fit.
 > i.e. smooth curve with
 > points evenly
 > distributed about it
-> (d) any four from: no mark for simply
+
+- **(1)** line (curve) of best fit acceptable; allow ECF from plotting
+
+### 3(d) [4]
+
+The student concludes that the moment required to tilt the clamp stand does not change when the distance is varied. Use data from the table or the graph to evaluate the student’s conclusion.
+
+> 🖼 crop required: graph (qp.pdf p.9)
+
+![table — official paper figure (qp.pdf p.8) — shared with asset_3_d_table_stem](assets/asset_3_d_table_stem.png)
+
+
+**Mark scheme answer**
+
+> any four from: no mark for simply
 > ‘student is right/wrong’
 > MP1. as distance increases, force decreases;
 > MP2. (because) moment = force x distance;
@@ -225,15 +257,7 @@ Draw the curve of best fit.
 > isn’t large enough
 > Answer Notes Marks
 
-- **(1)** line (curve) of best fit acceptable; allow ECF from plotting
-
-### 3(d) [4]
-
-The student concludes that the moment required to tilt the clamp stand does not change when the distance is varied. Use data from the table or the graph to evaluate the student’s conclusion.
-
-> 🖼 crop required: graph (qp.pdf p.9)
-
-![table — official paper figure (qp.pdf p.8) — shared with asset_3_d_table_stem](assets/asset_3_d_table_stem.png)
+- **(4)** any four from: no mark for simply
 
 
 ## Question 4 (12 marks)
@@ -248,13 +272,40 @@ The bar chart gives information about how some of the electrical power in the Un
 
 State what is meant by the term non‑renewable.
 
+
+**Mark scheme answer**
+
+> idea that it will run out / cannot be replaced; ignore renewed/re-used
+
+- **(1)** idea that it will run out / cannot be replaced; ignore renewed/re-used
+
 ### 4(a)(ii) [2]
 
 Determine the percentage of electrical power generated using the non‑renewable energy resources shown on the bar chart. percentage = %
 
+
+**Mark scheme answer**
+
+> any two correct readings taken from graph;
+> evaluation of total;
+> e.g.
+> (proportion =) 27.5 + 35 + 19.5
+> (proportion =) 82 (%) allow 81-83 (%)
+
+- **(2)** any two correct readings taken from graph;
+
 ### 4(b) [2]
 
 In 2018, the USA generated more than half of its electrical power by burning fossil fuels. Explain one way that burning fossil fuels can be harmful to the environment.
+
+
+**Mark scheme answer**
+
+> a named effect e.g. global warming, acid rain;
+> a named pollutant e.g. carbon dioxide, sulphur -1 for incorrectly linked
+> dioxide, nitrogen (di)oxide; effect and pollutant
+
+- **(2)** a named effect e.g. global warming, acid rain;
 
 ### 4(c)(i) [2]
 
@@ -319,17 +370,70 @@ Transformers are useful in the transmission of electricity.
 
 Give the name of a suitable metal that could be used in the core of the transformer.
 
+
+**Mark scheme answer**
+
+> (soft) iron; accept other suitable
+> ferromagnetic materials
+
+- **(1)** (soft) iron; accept other suitable
+
 ### 5(a)(ii) [1]
 
 State the formula linking input power and output power for a transformer.
+
+
+**Mark scheme answer**
+
+> input power = output power; allow
+> • formula in words or symbols
+> OR • standard abbreviations: i.e.
+> s, p, in, out, 1, 2
+> primary voltage × primary current =
+> secondary voltage × secondary current;
+
+- **(1)** input power = output power; allow
 
 ### 5(a)(iii) [3]
 
 The step‑down transformer has an input voltage of 275 kV and an output voltage of 230 V. The transformer has an output current of 95 A. Calculate the input current to the transformer. Assume the transformer is 100% efficient. input current = A
 
+
+**Mark scheme answer**
+
+> substitution;
+> rearrangement;
+> evaluation; -1 for POT error
+> 79.45…(A) scores 2 marks
+> e.g.
+> 275 000 × Ip = 230 × 95
+> (Ip =) 230 × 95 / 275 000
+> (Ip =) 0.079 (A) allow 0.07945…
+
+- **(3)** substitution;
+
 ### 5(b) [5]
 
 Explain how transformers are useful in the large‑scale transmission of electricity. You may draw a diagram to support your answer.
+
+
+**Mark scheme answer**
+
+> any five from: allow any mark if clear from
+> diagram
+> MP1. step-up transformer used before
+> transmission;
+> MP2. voltage is increased before transmission;
+> MP3. current is reduced before transmission;
+> MP4. less heating in transmission cables;
+> MP5. less energy wasted in transmission cables;
+> MP6. step-down transformer used after
+> transmission;
+> MP7. voltage is decreased after transmission for
+> safety;
+> Answer Notes Marks
+
+- **(5)** any five from: allow any mark if clear from
 
 
 ## Question 6 (5 marks)
@@ -347,17 +451,6 @@ Star W is a white dwarf. Add a W to the Hertzsprung‑Russell diagram to show th
 
 > W marked between +10 and +15 absolute magnitude
 > and between blue and white/yellow colour marks;
-> (b) X marked between 0 and -5 absolute magnitude and
-> between yellow/red and end of colour scale;
-> (c) Y marked above and to the left of the Sun; judge by eye
-> (d) Z marked vertically in line with and below the Sun; judge by eye
-> (e) Any one from:
-> MP1. idea that the Moon does not emit its own
-> light;
-> MP2. Idea that the Moon is not a star
-> MP3. idea that the (surface) temperature of the
-> Moon is too low / does not fit on the scale;
-> Answer Notes Marks
 
 - **(1)** W marked between +10 and +15 absolute magnitude
 
@@ -367,11 +460,26 @@ Star X is a red giant. Add an X to the Hertzsprung‑Russell diagram to show the
 
 ![diagram — official paper figure (qp.pdf p.16) — shared with asset_6_a_diagram_stem](assets/asset_6_a_diagram_stem.png)
 
+
+**Mark scheme answer**
+
+> X marked between 0 and -5 absolute magnitude and
+> between yellow/red and end of colour scale;
+
+- **(1)** X marked between 0 and -5 absolute magnitude and
+
 ### 6(c) [1]
 
 Star Y is a main sequence star that is much larger than the Sun. Add a Y to the Hertzsprung‑Russell diagram to show the position of star Y.
 
 ![diagram — official paper figure (qp.pdf p.16) — shared with asset_6_a_diagram_stem](assets/asset_6_a_diagram_stem.png)
+
+
+**Mark scheme answer**
+
+> Y marked above and to the left of the Sun; judge by eye
+
+- **(1)** Y marked above and to the left of the Sun; judge by eye
 
 ### 6(d) [1]
 
@@ -379,11 +487,31 @@ Star Z has the same surface temperature as the Sun, but would be dimmer than the
 
 ![diagram — official paper figure (qp.pdf p.16) — shared with asset_6_a_diagram_stem](assets/asset_6_a_diagram_stem.png)
 
+
+**Mark scheme answer**
+
+> Z marked vertically in line with and below the Sun; judge by eye
+
+- **(1)** Z marked vertically in line with and below the Sun; judge by eye
+
 ### 6(e) [1]
 
 The Moon is the brightest object in the night sky. Suggest why the Moon cannot be shown on the Hertzsprung‑Russell diagram.
 
 ![diagram — official paper figure (qp.pdf p.16) — shared with asset_6_a_diagram_stem](assets/asset_6_a_diagram_stem.png)
+
+
+**Mark scheme answer**
+
+> Any one from:
+> MP1. idea that the Moon does not emit its own
+> light;
+> MP2. Idea that the Moon is not a star
+> MP3. idea that the (surface) temperature of the
+> Moon is too low / does not fit on the scale;
+> Answer Notes Marks
+
+- **(1)** Any one from:
 
 
 ## Question 7 (7 marks)
@@ -405,9 +533,29 @@ Ball A moves towards the magnet with an initial velocity of 0.15 m/s. Calculate 
 > (p =) 0.00062 (kgm/s) allow decimal or
 > standard form
 > allow 0.000615
-> (b) velocity of ball increases; allow ball speeds up
+
+- **(2)** substitution into momentum = mass × velocity; allow use of standard
+
+### 7(b) [2]
+
+Ball A is attracted to the magnet. Explain how this attraction affects the momentum of ball A as it approaches the magnet.
+
+
+**Mark scheme answer**
+
+> velocity of ball increases; allow ball speeds up
 > momentum increases;
-> (c) substitution into F = (mv – mu) / t;
+
+- **(2)** velocity of ball increases; allow ball speeds up
+
+### 7(c) [3]
+
+When ball A collides with the magnet, a force of 1.3 N is exerted on ball C for a time of 0.0025 s. This causes ball C to move away from the magnet. Calculate the change in velocity of ball C due to this force. change in velocity = m/s
+
+
+**Mark scheme answer**
+
+> substitution into F = (mv – mu) / t;
 > rearrangement;
 > evaluation; -1 for POT error
 > e.g.
@@ -416,15 +564,7 @@ Ball A moves towards the magnet with an initial velocity of 0.15 m/s. Calculate 
 > (v =) 0.79 (m/s) allow 0.79268…
 > Answer Notes Marks
 
-- **(2)** substitution into momentum = mass × velocity; allow use of standard
-
-### 7(b) [2]
-
-Ball A is attracted to the magnet. Explain how this attraction affects the momentum of ball A as it approaches the magnet.
-
-### 7(c) [3]
-
-When ball A collides with the magnet, a force of 1.3 N is exerted on ball C for a time of 0.0025 s. This causes ball C to move away from the magnet. Calculate the change in velocity of ball C due to this force. change in velocity = m/s
+- **(3)** substitution into F = (mv – mu) / t;
 
 
 ## Question 8 (13 marks)
@@ -443,11 +583,6 @@ The ink drop experiences a horizontal electrostatic force as it falls. Explain t
 > from the negative plate”
 > (because) opposite charges attract / like charges
 > repel;
-> (b) line drawn showing the ink drop deflecting to the allow ECF from (a) if
-> right of the centre and hitting paper below; direction of force to the
-> left
-> line drawn starts vertical and becomes increasingly DOP
-> more curved as the ink drop moves towards paper;
 
 - **(2)** (force to the) right; allow ‘towards the
 
@@ -456,6 +591,17 @@ The ink drop experiences a horizontal electrostatic force as it falls. Explain t
 On the diagram, draw the path of the ink drop as it falls between the charged plates until it hits the paper.
 
 ![diagram — official paper figure (qp.pdf p.20) — shared with asset_8_b_diagram_stem](assets/asset_8_b_diagram_stem.png)
+
+
+**Mark scheme answer**
+
+> line drawn showing the ink drop deflecting to the allow ECF from (a) if
+> right of the centre and hitting paper below; direction of force to the
+> left
+> line drawn starts vertical and becomes increasingly DOP
+> more curved as the ink drop moves towards paper;
+
+- **(2)** line drawn showing the ink drop deflecting to the allow ECF from (a) if
 
 ### 8(c)(i) [3]
 
@@ -494,7 +640,17 @@ The ink drop has no initial horizontal velocity before it passes between the cha
 > 3.92 = 0 + (2 × 7700 × s) OR s = (v2 – u2) / 2a
 > (s =) 9.9 × 10-4 (m) allow 9.8 × 10-4 – 9.9 × 10-4
 > (s =) 0.99 (mm) allow 0.98 - 0.99
-> (d) idea of swapping polarities of plates; allow positively charging
+
+- **(4)** use of v2 = u2 + (2 × a × s); can be implied from
+
+### 8(d) [2]
+
+Explain how another ink drop could be deflected in the opposite direction by a greater distance using the charged plates in the inkjet printer.
+
+
+**Mark scheme answer**
+
+> idea of swapping polarities of plates; allow positively charging
 > ink drop
 > idea of increasing the amount of charge on plates; allow increasing amount
 > of charge on ink drop
@@ -503,9 +659,5 @@ The ink drop has no initial horizontal velocity before it passes between the cha
 > Pearson Education Limited. Registered company number 872828
 > with its registered office at 80 Strand, London, WC2R 0RL, United Kingdom
 
-- **(4)** use of v2 = u2 + (2 × a × s); can be implied from
-
-### 8(d) [2]
-
-Explain how another ink drop could be deflected in the opposite direction by a greater distance using the charged plates in the inkjet printer.
+- **(2)** idea of swapping polarities of plates; allow positively charging
 

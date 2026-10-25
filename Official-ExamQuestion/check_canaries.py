@@ -666,19 +666,34 @@ for c in cans:
             ok = True
             n_applied = 0
             corpus = {}
-            for d in sorted(BASE.iterdir()):
-                if not d.is_dir():
+            # v0.19.0 (Task 17/F72): lane-aware scan — the ledger gained its first
+            # physics entry (2026-06 2P 4(c)(i), the equation-image F42 override),
+            # and BASE was chemistry-scoped so the corpus lookup could never see
+            # it. Series names collide across lanes (both have 2019-06) but paper
+            # variants cannot (C-suffixed vs P-suffixed), so the (series, paper,
+            # part) key stays unique. NOTE: paper_dirs() filters on the GLOBAL
+            # PAPER_PREFIX (per-canary, chemistry here), so the physics legs use
+            # a lane-local prefix match instead.
+            for _lane, _lpfx in (("igcse-chemistry-19", "4CH1"),
+                                 ("igcse-physics-19", "4PH1")):
+                if not (HERE / _lane).is_dir():
                     continue
-                for pd in paper_dirs(d):
-                    paper = pd.name.split("-")[1]
-                    rep = json.loads((pd / "validation-report.json").read_text())
-                    applied = set(rep.get("ms_link_overrides_applied") or [])
-                    t = json.loads((pd / "topic.json").read_text())
-                    for q in t["questions"]:
-                        for p in q["parts"]:
-                            if p.get("answer_key_source") == "ms-link-overrides-ledger":
-                                corpus[(d.name, paper, p["part_number"])] = (
-                                    p, f"{d.name}:{paper}/{p['part_number']}" in applied)
+                for d in sorted((HERE / _lane).iterdir()):
+                    if not d.is_dir():
+                        continue
+                    for pd in sorted(pp for pp in d.iterdir()
+                                     if pp.is_dir()
+                                     and re.match(_lpfx + r"-[0-9][A-Z]R?$", pp.name)
+                                     and (pp / "topic.json").exists()):
+                        paper = pd.name.split("-")[1]
+                        rep = json.loads((pd / "validation-report.json").read_text())
+                        applied = set(rep.get("ms_link_overrides_applied") or [])
+                        t = json.loads((pd / "topic.json").read_text())
+                        for q in t["questions"]:
+                            for p in q["parts"]:
+                                if p.get("answer_key_source") == "ms-link-overrides-ledger":
+                                    corpus[(d.name, paper, p["part_number"])] = (
+                                        p, f"{d.name}:{paper}/{p['part_number']}" in applied)
             for e in ledger:
                 s, paper, part = e["series"], e["paper"], e["part"]
                 if (s, paper, part) not in corpus:

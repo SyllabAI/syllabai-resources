@@ -1,7 +1,7 @@
 {
  "schema": "syllabai.official-paper-questions/0.2",
- "generated_utc": "2026-10-25T20:42:44Z",
- "generator": "official_examq_extract.py v0.17.4 (ADR-039) series=2020-01 paper=1P",
+ "generated_utc": "2026-10-25T22:06:00Z",
+ "generator": "official_examq_extract.py v0.19.0 (ADR-039) series=2020-01 paper=1P",
  "paper_id": "pearson-edexcel:international-gcse:physics:4ph1:2020-01:4PH1/1P",
  "source": {
   "qp_sha256": "3ac1cfeed07669509e36628c29f10ac9cfc5b5ba244917104c9df4c452a4131d",
@@ -33,7 +33,15 @@
      "question_type": "structured",
      "problem_md": "The passage describes some of the properties of magnets and magnetic fields. Use words from the box to complete the passage. aluminium copper hard negative north positive soft south steel Each word may be used once, more than once or not at all. The north pole of one magnet will repel the pole of another magnet. There is attraction between and magnets. Materials that are difficult to magnetise are called magnetic materials. The direction of the magnetic field lines for a magnet is from to south. Iron is a magnetic material.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "north; this order only\nsteel;\nhard;\nnorth;\nsoft;\nAnswer Notes Marks",
+     "mark_points": [
+      {
+       "id": "2020-01-1-MP1",
+       "marks": 5,
+       "text_md": "north; this order only\nsteel;\nhard;\nnorth;\nsoft;\nAnswer Notes Marks"
+      }
+     ],
      "source_page": 3,
      "assets": [],
      "spec_point_codes": [],
@@ -61,7 +69,15 @@
      "question_type": "structured",
      "problem_md": "The upward force acting on the ship is called upthrust. This force is shown on the diagram. Draw another labelled arrow on the diagram to show the other vertical force acting on the ship.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "downward arrow labelled weight; ignore starting point of\narrow\nallow ‘gravitational\nforce’, ‘force due to\ngravity’\nreject ‘gravity’\ndownward arrow is equal in length to upthrust judge by eye\narrow;",
+     "mark_points": [
+      {
+       "id": "2020-01-2-a-i-MP1",
+       "marks": 2,
+       "text_md": "downward arrow labelled weight; ignore starting point of\narrow\nallow ‘gravitational\nforce’, ‘force due to\ngravity’\nreject ‘gravity’\ndownward arrow is equal in length to upthrust judge by eye\narrow;"
+      }
+     ],
      "source_page": 4,
      "assets": [
       {
@@ -88,7 +104,15 @@
      "question_type": "structured",
      "problem_md": "Forces are vector quantities. State what is meant by the term vector quantity.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "(a quantity with) magnitude; allow size, amount\nignore quantity,\nmeasurement\nand direction;",
+     "mark_points": [
+      {
+       "id": "2020-01-2-a-ii-MP1",
+       "marks": 2,
+       "text_md": "(a quantity with) magnitude; allow size, amount\nignore quantity,\nmeasurement\nand direction;"
+      }
+     ],
      "source_page": 4,
      "assets": [],
      "spec_point_codes": [],
@@ -106,7 +130,15 @@
      "question_type": "structured",
      "problem_md": "Give another example of a vector quantity.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "any correct vector; ignore force, any\nnamed force e.g.\nweight, upthrust etc\ne.g. velocity, displacement, acceleration,\nmomentum etc.",
+     "mark_points": [
+      {
+       "id": "2020-01-2-a-iii-MP1",
+       "marks": 1,
+       "text_md": "any correct vector; ignore force, any\nnamed force e.g.\nweight, upthrust etc\ne.g. velocity, displacement, acceleration,\nmomentum etc."
+      }
+     ],
      "source_page": 4,
      "assets": [],
      "spec_point_codes": [],
@@ -241,7 +273,7 @@
       }
      ],
      "answer_status": "linked",
-     "solution_md": "A (current);\nB is incorrect because power is the rate of energy transferred\nC is incorrect because resistance is the ratio of voltage and current\nD is incorrect because voltage is the energy transferred per unit charge passed\n(b) D (voltage);\nA is incorrect because current is the rate of flow of charge\nB is incorrect because power is the rate of energy transferred\nC is incorrect because resistance is the ratio of voltage and current",
+     "solution_md": "A (current);\nB is incorrect because power is the rate of energy transferred\nC is incorrect because resistance is the ratio of voltage and current\nD is incorrect because voltage is the energy transferred per unit charge passed",
      "mark_points": [
       {
        "id": "2020-01-3-a-MP1",
@@ -268,29 +300,41 @@
      "choices": [
       {
        "label": "A",
-       "text_md": "current"
+       "text_md": "current",
+       "is_correct": false
       },
       {
        "label": "B",
-       "text_md": "power"
+       "text_md": "power",
+       "is_correct": false
       },
       {
        "label": "C",
-       "text_md": "resistance"
+       "text_md": "resistance",
+       "is_correct": false
       },
       {
        "label": "D",
-       "text_md": "voltage"
+       "text_md": "voltage",
+       "is_correct": true
       }
      ],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "D (voltage);\nA is incorrect because current is the rate of flow of charge\nB is incorrect because power is the rate of energy transferred\nC is incorrect because resistance is the ratio of voltage and current",
+     "mark_points": [
+      {
+       "id": "2020-01-3-b-MP1",
+       "marks": 1,
+       "text_md": "Answer D: voltage"
+      }
+     ],
      "source_page": 6,
      "assets": [],
      "spec_point_codes": [],
      "tagging": "pending-llm",
      "edit_status": "extracted",
      "value_trace": {
-      "keys": "unresolved:review-queue",
+      "keys": "ms-positional",
       "marks": "ms-printed",
       "numbers": "source-printed"
      }
@@ -393,12 +437,12 @@
      "problem_md": "Explain how the voltage across resistor R compares with the voltage across the battery.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "idea that voltage across battery is the same as allow numerical value given\nvoltage across R; e.g. ‘voltage of battery =\n4.4V’\n(because) battery and R are connected in\nparallel / no other resistive components on\nloop with battery and R;\n(d) idea that resistance (of thermistor) changes; allow even if relationship is\nthe wrong way round\nwhen temperature increases, resistance ORA\ndecreases;\n(therefore) current increases when ORA\ntemperature increases;\nAnswer Notes Marks",
+     "solution_md": "idea that voltage across battery is the same as allow numerical value given\nvoltage across R; e.g. ‘voltage of battery =\n4.4V’\n(because) battery and R are connected in\nparallel / no other resistive components on\nloop with battery and R;",
      "mark_points": [
       {
        "id": "2020-01-3-c-iv-MP1",
        "marks": 2,
-       "text_md": "idea that voltage across battery is the same as allow numerical value given\nvoltage across R; e.g. ‘voltage of battery =\n4.4V’\n(because) battery and R are connected in\nparallel / no other resistive components on\nloop with battery and R;\n(d) idea that resistance (of thermistor) changes; allow even if relationship is\nthe wrong way round\nwhen temperature increases, resistance ORA\ndecreases;\n(therefore) current increases when ORA\ntemperature increases;\nAnswer Notes Marks"
+       "text_md": "idea that voltage across battery is the same as allow numerical value given\nvoltage across R; e.g. ‘voltage of battery =\n4.4V’\n(because) battery and R are connected in\nparallel / no other resistive components on\nloop with battery and R;"
       }
      ],
      "source_page": 7,
@@ -418,7 +462,15 @@
      "question_type": "structured",
      "problem_md": "Diagram 2 shows a different circuit containing a battery, an ammeter and a thermistor. A Diagram 2 Explain how the thermistor can be used to vary the current in this circuit.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "idea that resistance (of thermistor) changes; allow even if relationship is\nthe wrong way round\nwhen temperature increases, resistance ORA\ndecreases;\n(therefore) current increases when ORA\ntemperature increases;\nAnswer Notes Marks",
+     "mark_points": [
+      {
+       "id": "2020-01-3-d-MP1",
+       "marks": 3,
+       "text_md": "idea that resistance (of thermistor) changes; allow even if relationship is\nthe wrong way round\nwhen temperature increases, resistance ORA\ndecreases;\n(therefore) current increases when ORA\ntemperature increases;\nAnswer Notes Marks"
+      }
+     ],
      "source_page": 8,
      "assets": [
       {
@@ -462,7 +514,15 @@
      "question_type": "structured",
      "problem_md": "State the formula linking weight, mass and gravitational field strength (g).",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "weight = mass × gravitational field strength; allow rearrangements and\nstandard symbols e.g. W =\nm×g\nignore ‘gravity’ for g",
+     "mark_points": [
+      {
+       "id": "2020-01-4-a-i-MP1",
+       "marks": 1,
+       "text_md": "weight = mass × gravitational field strength; allow rearrangements and\nstandard symbols e.g. W =\nm×g\nignore ‘gravity’ for g"
+      }
+     ],
      "source_page": 9,
      "assets": [],
      "spec_point_codes": [],
@@ -480,7 +540,15 @@
      "question_type": "structured",
      "problem_md": "Calculate the mass of the student. mass = kg",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "substitution or rearrangement;\nevaluation;\ne.g.\n520 = mass × 10 OR mass = W / g allow g = 9.8, 9.81\n(mass =) 52 (kg) allow 53.1, 53.0, 53",
+     "mark_points": [
+      {
+       "id": "2020-01-4-a-ii-MP1",
+       "marks": 2,
+       "text_md": "substitution or rearrangement;\nevaluation;\ne.g.\n520 = mass × 10 OR mass = W / g allow g = 9.8, 9.81\n(mass =) 52 (kg) allow 53.1, 53.0, 53"
+      }
+     ],
      "assets": [],
      "spec_point_codes": [],
      "tagging": "pending-llm",
@@ -592,7 +660,15 @@
      "question_type": "structured",
      "problem_md": "Give the letters of the sections where the bus is stationary.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "B, D, F; all required for the mark\nreject if additional\nsections listed",
+     "mark_points": [
+      {
+       "id": "2020-01-5-a-i-MP1",
+       "marks": 1,
+       "text_md": "B, D, F; all required for the mark\nreject if additional\nsections listed"
+      }
+     ],
      "source_page": 12,
      "assets": [],
      "spec_point_codes": [],
@@ -610,7 +686,15 @@
      "question_type": "structured",
      "problem_md": "Calculate the speed of the bus during section C of the journey. Give your answer in m / s. speed = m / s",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "use of speed = distance / time; seen anywhere\nallow symbols\nallow attempt to find\ngradient of line\ncorrectly read time or distance from graph;\nconversion from minutes to seconds or km to m;\ncorrect evaluation;\ne.g.\nv=s/t allow s = d / t\ndistance = 2.6 km or time = 2 minutes\ndistance = 2600 m or time = 120 s\n(v =) 22 (m/s) allow 21.7, 21.6… (m/s)\n0.0216…, 1300 = 3 marks\n1.3 = 2 marks",
+     "mark_points": [
+      {
+       "id": "2020-01-5-a-ii-MP1",
+       "marks": 4,
+       "text_md": "use of speed = distance / time; seen anywhere\nallow symbols\nallow attempt to find\ngradient of line\ncorrectly read time or distance from graph;\nconversion from minutes to seconds or km to m;\ncorrect evaluation;\ne.g.\nv=s/t allow s = d / t\ndistance = 2.6 km or time = 2 minutes\ndistance = 2600 m or time = 120 s\n(v =) 22 (m/s) allow 21.7, 21.6… (m/s)\n0.0216…, 1300 = 3 marks\n1.3 = 2 marks"
+      }
+     ],
      "source_page": 13,
      "assets": [],
      "spec_point_codes": [],
@@ -628,7 +712,15 @@
      "question_type": "structured",
      "problem_md": "Explain what the graph shows about the speed of the bus in section E compared with the speed of the bus in section A.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "idea that speed of bus is greater in section A;\n(because) line is steeper / gradient is larger / eq;",
+     "mark_points": [
+      {
+       "id": "2020-01-5-a-iii-MP1",
+       "marks": 2,
+       "text_md": "idea that speed of bus is greater in section A;\n(because) line is steeper / gradient is larger / eq;"
+      }
+     ],
      "source_page": 13,
      "assets": [
       {
@@ -658,7 +750,15 @@
      "question_type": "structured",
      "problem_md": "Another bus travels a distance of 7.0 km in a time of 14 minutes. This bus travels at a constant velocity. Complete the velocity-time graph to show the motion of this bus. 0.6 0.4 Velocity in km / minute 0.2 0.0 0 2 4 6 8 10 12 14 Time in minutes",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "single horizontal line drawn; judge by eye\nline must extend the\nentire length of the time\naxis\nhorizontal line drawn at 0.5 km/minute for some\nperiod of time in journey;\nAnswer Notes Marks",
+     "mark_points": [
+      {
+       "id": "2020-01-5-b-MP1",
+       "marks": 2,
+       "text_md": "single horizontal line drawn; judge by eye\nline must extend the\nentire length of the time\naxis\nhorizontal line drawn at 0.5 km/minute for some\nperiod of time in journey;\nAnswer Notes Marks"
+      }
+     ],
      "source_page": 13,
      "assets": [
       {
@@ -704,7 +804,15 @@
      "question_type": "structured",
      "problem_md": "A teacher makes a hot drink. He puts the drink in a cup designed to keep the drink hot. The photograph and cross-section diagram both show the cup. plastic lid vacuum shiny metal outer surface shiny metal inner surface Explain how the design of the cup keeps the drink hot. Refer to methods of energy transfer in your answer.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "any six from:\nMP1. cup slows down/stops energy transfer to allow idea that energy\nsurroundings; is trapped\nignore ‘heat is trapped’\nrelating to conduction:\nMP2. vacuum contains no particles;\nMP3. reducing/stopping conduction (through the\nsides);\nMP4. plastic (lid) is a poor conductor / good\ninsulator;\nrelating to convection:\nMP5. air is trapped by the lid;\nMP6. reducing/stopping convection (from the allow reducing/stopping\nsurface); evaporation\nrelating to radiation:\nMP7. (inner) shiny surface is poor absorber of allow idea that inner\ninfrared / radiation; surface reflects heat\nMP8. (outer) shiny surface is poor emitter of\ninfrared / radiation;\nMP9. energy transfer by radiation\nreduced/stopped;\nAnswer Notes Marks",
+     "mark_points": [
+      {
+       "id": "2020-01-6-MP1",
+       "marks": 6,
+       "text_md": "any six from:\nMP1. cup slows down/stops energy transfer to allow idea that energy\nsurroundings; is trapped\nignore ‘heat is trapped’\nrelating to conduction:\nMP2. vacuum contains no particles;\nMP3. reducing/stopping conduction (through the\nsides);\nMP4. plastic (lid) is a poor conductor / good\ninsulator;\nrelating to convection:\nMP5. air is trapped by the lid;\nMP6. reducing/stopping convection (from the allow reducing/stopping\nsurface); evaporation\nrelating to radiation:\nMP7. (inner) shiny surface is poor absorber of allow idea that inner\ninfrared / radiation; surface reflects heat\nMP8. (outer) shiny surface is poor emitter of\ninfrared / radiation;\nMP9. energy transfer by radiation\nreduced/stopped;\nAnswer Notes Marks"
+      }
+     ],
      "source_page": 14,
      "assets": [
       {
@@ -747,12 +855,12 @@
      "problem_md": "Diagram 2 shows the pressure gauge when the piston is at its initial position. 20 40 10 50 kPa 0 60 © Lubos Chlubny/Shutterstock Diagram 2 Determine the reading on the pressure gauge. pressure = kPa",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "24 (kPa);\n(b) any three from:\nMP1. reading increases / pressure increases;\nMP2. reading doubles / pressure doubles/ reading scores first 2 marks\nis 48 kPa;\nMP3. (because) air particles collide with walls\nmore often;\nMP4. (because) pressure × volume is constant; allow quoted formula\nallow (because)\npressure is inversely\nproportional to volume",
+     "solution_md": "24 (kPa);",
      "mark_points": [
       {
        "id": "2020-01-7-a-MP1",
        "marks": 1,
-       "text_md": "24 (kPa);\n(b) any three from:\nMP1. reading increases / pressure increases;\nMP2. reading doubles / pressure doubles/ reading scores first 2 marks\nis 48 kPa;\nMP3. (because) air particles collide with walls\nmore often;\nMP4. (because) pressure × volume is constant; allow quoted formula\nallow (because)\npressure is inversely\nproportional to volume"
+       "text_md": "24 (kPa);"
       }
      ],
      "source_page": 16,
@@ -784,7 +892,15 @@
      "question_type": "structured",
      "problem_md": "The piston is pushed in so that the volume of trapped air in the syringe is halved. The temperature of the trapped air remains constant. Explain how the reading on the pressure gauge will change when the piston is pushed in.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "any three from:\nMP1. reading increases / pressure increases;\nMP2. reading doubles / pressure doubles/ reading scores first 2 marks\nis 48 kPa;\nMP3. (because) air particles collide with walls\nmore often;\nMP4. (because) pressure × volume is constant; allow quoted formula\nallow (because)\npressure is inversely\nproportional to volume",
+     "mark_points": [
+      {
+       "id": "2020-01-7-b-MP1",
+       "marks": 3,
+       "text_md": "any three from:\nMP1. reading increases / pressure increases;\nMP2. reading doubles / pressure doubles/ reading scores first 2 marks\nis 48 kPa;\nMP3. (because) air particles collide with walls\nmore often;\nMP4. (because) pressure × volume is constant; allow quoted formula\nallow (because)\npressure is inversely\nproportional to volume"
+      }
+     ],
      "source_page": 17,
      "assets": [],
      "spec_point_codes": [],
@@ -868,7 +984,15 @@
      "question_type": "structured",
      "problem_md": "State the formula linking acceleration, change in velocity and time taken.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "acceleration = change in velocity / time; allow rearrangements\nand standard symbols\ne.g. a = v-u / t,\na = ∆v/t, a = ∆v/∆t",
+     "mark_points": [
+      {
+       "id": "2020-01-8-a-i-MP1",
+       "marks": 1,
+       "text_md": "acceleration = change in velocity / time; allow rearrangements\nand standard symbols\ne.g. a = v-u / t,\na = ∆v/t, a = ∆v/∆t"
+      }
+     ],
      "source_page": 18,
      "assets": [],
      "spec_point_codes": [],
@@ -886,7 +1010,15 @@
      "question_type": "structured",
      "problem_md": "Calculate the time taken for the car to accelerate to 35 m/s. time = s",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "substitution;\nrearrangement;\nevaluation;\ne.g.\n1.2 = (35 – 26) / t\nt = 9 / 1.2\n(t =) 7.5 (s)",
+     "mark_points": [
+      {
+       "id": "2020-01-8-a-ii-MP1",
+       "marks": 3,
+       "text_md": "substitution;\nrearrangement;\nevaluation;\ne.g.\n1.2 = (35 – 26) / t\nt = 9 / 1.2\n(t =) 7.5 (s)"
+      }
+     ],
      "source_page": 18,
      "assets": [],
      "spec_point_codes": [],
@@ -904,7 +1036,15 @@
      "question_type": "structured",
      "problem_md": "A radar speed gun is used to measure the speed of the moving car. © Petar An/Shutterstock The radar speed gun emits radio waves towards the moving car. The moving car reflects the radio waves back to a detector on the gun. The detected radio waves have a different frequency from the emitted radio waves. This change in frequency is used to measure the speed of the moving car. Explain this change in frequency when the car is moving towards the radar speed gun.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "any four from:\nMP1. frequency increases;\nMP2. due to Doppler effect;\nMP3. idea that car behaves as the source of the\n(reflected) waves;\nMP4. (reflected) wavefronts closer together; allow “waves become\nbunched up”\nMP5. (reflected) wavelength decreased;\nMP6. speed (of waves) stays constant; allow quotation of\nv=f×λ\nAnswer Notes Marks",
+     "mark_points": [
+      {
+       "id": "2020-01-8-b-MP1",
+       "marks": 4,
+       "text_md": "any four from:\nMP1. frequency increases;\nMP2. due to Doppler effect;\nMP3. idea that car behaves as the source of the\n(reflected) waves;\nMP4. (reflected) wavefronts closer together; allow “waves become\nbunched up”\nMP5. (reflected) wavelength decreased;\nMP6. speed (of waves) stays constant; allow quotation of\nv=f×λ\nAnswer Notes Marks"
+      }
+     ],
      "source_page": 19,
      "assets": [],
      "spec_point_codes": [],
@@ -937,12 +1077,12 @@
      "problem_md": "Name a suitable radiation detector that the teacher could use.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "Geiger-Muller tube / GM tube; allow Geiger counter, Geiger\nmeter, GM detector\n(b) (absorbing) material; allow absorber\n(c) any two from:\nMP1. idea that thickness also affects the\ncount/results;\nMP2. idea that thickness is a control\nvariable;\nMP3. idea of making experiment valid; allow fair test for valid\n(d) measure count over longer time / take more allow quoted time longer\nrepeats / measure background count; than 3 seconds",
+     "solution_md": "Geiger-Muller tube / GM tube; allow Geiger counter, Geiger\nmeter, GM detector",
      "mark_points": [
       {
        "id": "2020-01-9-a-MP1",
        "marks": 1,
-       "text_md": "Geiger-Muller tube / GM tube; allow Geiger counter, Geiger\nmeter, GM detector\n(b) (absorbing) material; allow absorber\n(c) any two from:\nMP1. idea that thickness also affects the\ncount/results;\nMP2. idea that thickness is a control\nvariable;\nMP3. idea of making experiment valid; allow fair test for valid\n(d) measure count over longer time / take more allow quoted time longer\nrepeats / measure background count; than 3 seconds"
+       "text_md": "Geiger-Muller tube / GM tube; allow Geiger counter, Geiger\nmeter, GM detector"
       }
      ],
      "source_page": 21,
@@ -962,7 +1102,15 @@
      "question_type": "structured",
      "problem_md": "State the independent variable in the teacher’s investigation.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "(absorbing) material; allow absorber",
+     "mark_points": [
+      {
+       "id": "2020-01-9-b-MP1",
+       "marks": 1,
+       "text_md": "(absorbing) material; allow absorber"
+      }
+     ],
      "source_page": 21,
      "assets": [],
      "spec_point_codes": [],
@@ -980,7 +1128,15 @@
      "question_type": "structured",
      "problem_md": "Explain why every absorbing material used in the investigation has a thickness of 1 cm.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "any two from:\nMP1. idea that thickness also affects the\ncount/results;\nMP2. idea that thickness is a control\nvariable;\nMP3. idea of making experiment valid; allow fair test for valid",
+     "mark_points": [
+      {
+       "id": "2020-01-9-c-MP1",
+       "marks": 2,
+       "text_md": "any two from:\nMP1. idea that thickness also affects the\ncount/results;\nMP2. idea that thickness is a control\nvariable;\nMP3. idea of making experiment valid; allow fair test for valid"
+      }
+     ],
      "source_page": 21,
      "assets": [],
      "spec_point_codes": [],
@@ -998,7 +1154,15 @@
      "question_type": "structured",
      "problem_md": "Suggest one improvement the teacher could make to this method.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "measure count over longer time / take more allow quoted time longer\nrepeats / measure background count; than 3 seconds",
+     "mark_points": [
+      {
+       "id": "2020-01-9-d-MP1",
+       "marks": 1,
+       "text_md": "measure count over longer time / take more allow quoted time longer\nrepeats / measure background count; than 3 seconds"
+      }
+     ],
      "source_page": 21,
      "assets": [],
      "spec_point_codes": [],
@@ -1056,19 +1220,23 @@
      "choices": [
       {
        "label": "A",
-       "text_md": "absorbing material is a continuous variable"
+       "text_md": "absorbing material is a continuous variable",
+       "is_correct": false
       },
       {
        "label": "B",
-       "text_md": "absorbing material is not a continuous variable"
+       "text_md": "absorbing material is not a continuous variable",
+       "is_correct": true
       },
       {
        "label": "C",
-       "text_md": "count rate is a continuous variable"
+       "text_md": "count rate is a continuous variable",
+       "is_correct": false
       },
       {
        "label": "D",
-       "text_md": "count rate is not a continuous variable"
+       "text_md": "count rate is not a continuous variable",
+       "is_correct": false
       }
      ],
      "answer_status": "linked",
@@ -1077,7 +1245,7 @@
       {
        "id": "2020-01-9-e-ii-MP1",
        "marks": 1,
-       "text_md": "B (absorbing material is not a continuous variable);\nA is incorrect because absorbing material is not a continuous variable\nC is incorrect because line graphs are drawn for continuous variables\nD is incorrect because count rate is a continuous variable"
+       "text_md": "Answer B: absorbing material is not a continuous variable"
       }
      ],
      "source_page": 23,
@@ -1086,7 +1254,7 @@
      "tagging": "pending-llm",
      "edit_status": "extracted",
      "value_trace": {
-      "keys": "unresolved:review-queue",
+      "keys": "ms-positional",
       "marks": "ms-printed",
       "numbers": "source-printed"
      }
@@ -1137,7 +1305,15 @@
      "question_type": "structured",
      "problem_md": "Describe what happens to the light ray when it enters the prism at point A.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "light {refracts, bends, changes direction,\nchanges speed, changes wavelength} = 1 mark;\nlight {refracts/bends towards normal, slows down,\nwavelength decreases} = 2 marks;;",
+     "mark_points": [
+      {
+       "id": "2020-01-10-a-i-MP1",
+       "marks": 2,
+       "text_md": "light {refracts, bends, changes direction,\nchanges speed, changes wavelength} = 1 mark;\nlight {refracts/bends towards normal, slows down,\nwavelength decreases} = 2 marks;;"
+      }
+     ],
      "source_page": 24,
      "assets": [],
      "spec_point_codes": [],
@@ -1155,7 +1331,15 @@
      "question_type": "structured",
      "problem_md": "State the name of line XY.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "normal;",
+     "mark_points": [
+      {
+       "id": "2020-01-10-a-ii-MP1",
+       "marks": 1,
+       "text_md": "normal;"
+      }
+     ],
      "source_page": 24,
      "assets": [],
      "spec_point_codes": [],
@@ -1173,7 +1357,15 @@
      "question_type": "structured",
      "problem_md": "State the formula linking critical angle and refractive index.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "sin(c) = 1/n; allow in words and\nrearrangements",
+     "mark_points": [
+      {
+       "id": "2020-01-10-a-iii-MP1",
+       "marks": 1,
+       "text_md": "sin(c) = 1/n; allow in words and\nrearrangements"
+      }
+     ],
      "source_page": 25,
      "assets": [],
      "spec_point_codes": [],
@@ -1191,7 +1383,15 @@
      "question_type": "structured",
      "problem_md": "The refractive index for the glass in this prism is 1.6 Calculate the critical angle for the glass in this prism. critical angle = °",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "substitution;\nrearrangement;\nevaluation;\ne.g.\nsin(c) = 1/1.6\n(c =) sin-1(0.625)\n(c =) 39 (°) allow 38.68…",
+     "mark_points": [
+      {
+       "id": "2020-01-10-a-iv-MP1",
+       "marks": 3,
+       "text_md": "substitution;\nrearrangement;\nevaluation;\ne.g.\nsin(c) = 1/1.6\n(c =) sin-1(0.625)\n(c =) 39 (°) allow 38.68…"
+      }
+     ],
      "source_page": 25,
      "assets": [],
      "spec_point_codes": [],
@@ -1209,7 +1409,15 @@
      "question_type": "structured",
      "problem_md": "Complete Diagram 1 by continuing the path of the light ray from point B.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "TIR at the glass/air boundary; allow ecf from (iv) that\nwould suggest\nrefraction e.g. if\nanswer to (iv) is greater\nthan 50°\nangle of incidence = angle of reflection; judge by eye",
+     "mark_points": [
+      {
+       "id": "2020-01-10-a-v-MP1",
+       "marks": 2,
+       "text_md": "TIR at the glass/air boundary; allow ecf from (iv) that\nwould suggest\nrefraction e.g. if\nanswer to (iv) is greater\nthan 50°\nangle of incidence = angle of reflection; judge by eye"
+      }
+     ],
      "source_page": 25,
      "assets": [
       {
@@ -1241,7 +1449,15 @@
      "question_type": "structured",
      "problem_md": "Diagram 2 shows a similar prism that is made from a material with a different refractive index. The critical angle for the material of this prism is 55° Complete Diagram 2 by continuing the path of the light ray. air 40° light ray Diagram 2",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "light ray is refracted out into the air; ray does not need to\nshow deviation\nreject if ray emerges to\nthe left of the normal\nrefracting away from the normal;\nAnswer Notes Marks",
+     "mark_points": [
+      {
+       "id": "2020-01-10-b-MP1",
+       "marks": 2,
+       "text_md": "light ray is refracted out into the air; ray does not need to\nshow deviation\nreject if ray emerges to\nthe left of the normal\nrefracting away from the normal;\nAnswer Notes Marks"
+      }
+     ],
      "source_page": 26,
      "assets": [
       {
@@ -1350,12 +1566,12 @@
      "problem_md": "Explain why technetium-99m is an effective isotope to use as a medical tracer.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "any one from:\n• idea that gamma can penetrate out of the\nbody;\n• idea that gamma can be detected outside\nthe body;\nmarks must be from separate\nlists\nany one from:\n• idea that half-life is long enough to\ncomplete the procedure;\n• idea that activity will fall to safe level in a allow idea that technetium\nday / quickly; will not be in body for very\nlong\n(c) harmful effect of gamma radiation given; e.g.\n• cancer\n• cell damage\n• cell mutation\nidea that patient will have procedure very allow suggestion that risk to\nrarely / only when necessary (so risk is low); patients is higher as they\nreceive greater dose\nidea that doctor will administer procedure allow idea that doctor\nregularly (so risk is higher) / doctor limits increases distance from\ntime exposure to patient (to reduce risk); patient (to reduce risk)\nAnswer Notes Marks",
+     "solution_md": "any one from:\n• idea that gamma can penetrate out of the\nbody;\n• idea that gamma can be detected outside\nthe body;\nmarks must be from separate\nlists\nany one from:\n• idea that half-life is long enough to\ncomplete the procedure;\n• idea that activity will fall to safe level in a allow idea that technetium\nday / quickly; will not be in body for very\nlong",
      "mark_points": [
       {
        "id": "2020-01-11-b-ii-MP1",
        "marks": 2,
-       "text_md": "any one from:\n• idea that gamma can penetrate out of the\nbody;\n• idea that gamma can be detected outside\nthe body;\nmarks must be from separate\nlists\nany one from:\n• idea that half-life is long enough to\ncomplete the procedure;\n• idea that activity will fall to safe level in a allow idea that technetium\nday / quickly; will not be in body for very\nlong\n(c) harmful effect of gamma radiation given; e.g.\n• cancer\n• cell damage\n• cell mutation\nidea that patient will have procedure very allow suggestion that risk to\nrarely / only when necessary (so risk is low); patients is higher as they\nreceive greater dose\nidea that doctor will administer procedure allow idea that doctor\nregularly (so risk is higher) / doctor limits increases distance from\ntime exposure to patient (to reduce risk); patient (to reduce risk)\nAnswer Notes Marks"
+       "text_md": "any one from:\n• idea that gamma can penetrate out of the\nbody;\n• idea that gamma can be detected outside\nthe body;\nmarks must be from separate\nlists\nany one from:\n• idea that half-life is long enough to\ncomplete the procedure;\n• idea that activity will fall to safe level in a allow idea that technetium\nday / quickly; will not be in body for very\nlong"
       }
      ],
      "source_page": 29,
@@ -1375,7 +1591,15 @@
      "question_type": "structured",
      "problem_md": "The gamma radiation emitted by technetium-99m is potentially harmful to humans. Discuss the risks of using technetium-99m to doctors and to patients.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "harmful effect of gamma radiation given; e.g.\n• cancer\n• cell damage\n• cell mutation\nidea that patient will have procedure very allow suggestion that risk to\nrarely / only when necessary (so risk is low); patients is higher as they\nreceive greater dose\nidea that doctor will administer procedure allow idea that doctor\nregularly (so risk is higher) / doctor limits increases distance from\ntime exposure to patient (to reduce risk); patient (to reduce risk)\nAnswer Notes Marks",
+     "mark_points": [
+      {
+       "id": "2020-01-11-c-MP1",
+       "marks": 3,
+       "text_md": "harmful effect of gamma radiation given; e.g.\n• cancer\n• cell damage\n• cell mutation\nidea that patient will have procedure very allow suggestion that risk to\nrarely / only when necessary (so risk is low); patients is higher as they\nreceive greater dose\nidea that doctor will administer procedure allow idea that doctor\nregularly (so risk is higher) / doctor limits increases distance from\ntime exposure to patient (to reduce risk); patient (to reduce risk)\nAnswer Notes Marks"
+      }
+     ],
      "source_page": 29,
      "assets": [],
      "spec_point_codes": [],
@@ -1408,12 +1632,12 @@
      "problem_md": "The diagram shows the orbital paths of Mars and Saturn. Not to scale Saturn Sun Mars Draw an orbital path of a comet on the diagram.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "comet drawn in orbit around the Sun;\norbital path is elliptical; judge by eye\nallow partially drawn ellipse\nSun need not be at a focus of\nthe ellipse, but should not be at\nthe centre of the ellipse\n(b) attempted use of orbital speed formula;\nvalid substitution into orbital speed formula; allow for either planet\ncorrect evaluation of time period for either\nplanet;\nattempt to divide T for Saturn by T for Mars;\ncorrect final evaluation of ratio;\ne.g.\nv=2×π×r/T seen anywhere in working\n24.1 = 2 × π × 2.28 × 108 / T 9.70 = 2 × π × 1.43 × 109 / T\nTMars = 5.94 × 107 (s) OR TSaturn = 9.26 × 108 (s) 5.944… 9.2628…\nn = TSaturn / TMars\n15.6 allow range of 15-16\nPearson Education Limited. Registered company number 872828\nwith its registered office at 80 Strand, London, WC2R 0RL, United Kingdom",
+     "solution_md": "comet drawn in orbit around the Sun;\norbital path is elliptical; judge by eye\nallow partially drawn ellipse\nSun need not be at a focus of\nthe ellipse, but should not be at\nthe centre of the ellipse",
      "mark_points": [
       {
        "id": "2020-01-12-a-MP1",
        "marks": 2,
-       "text_md": "comet drawn in orbit around the Sun;\norbital path is elliptical; judge by eye\nallow partially drawn ellipse\nSun need not be at a focus of\nthe ellipse, but should not be at\nthe centre of the ellipse\n(b) attempted use of orbital speed formula;\nvalid substitution into orbital speed formula; allow for either planet\ncorrect evaluation of time period for either\nplanet;\nattempt to divide T for Saturn by T for Mars;\ncorrect final evaluation of ratio;\ne.g.\nv=2×π×r/T seen anywhere in working\n24.1 = 2 × π × 2.28 × 108 / T 9.70 = 2 × π × 1.43 × 109 / T\nTMars = 5.94 × 107 (s) OR TSaturn = 9.26 × 108 (s) 5.944… 9.2628…\nn = TSaturn / TMars\n15.6 allow range of 15-16\nPearson Education Limited. Registered company number 872828\nwith its registered office at 80 Strand, London, WC2R 0RL, United Kingdom"
+       "text_md": "comet drawn in orbit around the Sun;\norbital path is elliptical; judge by eye\nallow partially drawn ellipse\nSun need not be at a focus of\nthe ellipse, but should not be at\nthe centre of the ellipse"
       }
      ],
      "source_page": 30,
@@ -1445,7 +1669,15 @@
      "question_type": "structured",
      "problem_md": "The table gives some information about the orbits of Mars and Saturn. Mars Saturn Orbital radius in km 2.28 × 108 1.43 × 109 Orbital speed in km/s 24.1 9.70 Mars completes a number of orbits in the time it takes for Saturn to complete one orbit. Calculate the number of orbits that Mars completes in the time it takes for Saturn to complete one orbit. number of orbits =",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "attempted use of orbital speed formula;\nvalid substitution into orbital speed formula; allow for either planet\ncorrect evaluation of time period for either\nplanet;\nattempt to divide T for Saturn by T for Mars;\ncorrect final evaluation of ratio;\ne.g.\nv=2×π×r/T seen anywhere in working\n24.1 = 2 × π × 2.28 × 108 / T 9.70 = 2 × π × 1.43 × 109 / T\nTMars = 5.94 × 107 (s) OR TSaturn = 9.26 × 108 (s) 5.944… 9.2628…\nn = TSaturn / TMars\n15.6 allow range of 15-16\nPearson Education Limited. Registered company number 872828\nwith its registered office at 80 Strand, London, WC2R 0RL, United Kingdom",
+     "mark_points": [
+      {
+       "id": "2020-01-12-b-MP1",
+       "marks": 5,
+       "text_md": "attempted use of orbital speed formula;\nvalid substitution into orbital speed formula; allow for either planet\ncorrect evaluation of time period for either\nplanet;\nattempt to divide T for Saturn by T for Mars;\ncorrect final evaluation of ratio;\ne.g.\nv=2×π×r/T seen anywhere in working\n24.1 = 2 × π × 2.28 × 108 / T 9.70 = 2 × π × 1.43 × 109 / T\nTMars = 5.94 × 107 (s) OR TSaturn = 9.26 × 108 (s) 5.944… 9.2628…\nn = TSaturn / TMars\n15.6 allow range of 15-16\nPearson Education Limited. Registered company number 872828\nwith its registered office at 80 Strand, London, WC2R 0RL, United Kingdom"
+      }
+     ],
      "source_page": 31,
      "assets": [
       {

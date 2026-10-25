@@ -47,8 +47,6 @@ Name the force that keeps the comet in orbit around the Sun.
 > gravitational pull
 > reject gravitational potential,
 > gravitational field strength, g
-> (c) one mark for each correct line;; -1 for each additional line
-> Answer Notes Marks
 
 - **(1)** gravity; allow gravitational force,
 
@@ -57,6 +55,14 @@ Name the force that keeps the comet in orbit around the Sun.
 The boxes give some units of time and some definitions. Draw a straight line from each unit of time to its correct definition. Unit of time Definition the time for the Moon to orbit the Earth 1 day the time for the Earth to rotate once the time for the Sun to rotate once 1 year the time for the Earth to orbit the Sun
 
 ![boxes — official paper figure (qp.pdf p.5)](assets/asset_1_c_boxes.png)
+
+
+**Mark scheme answer**
+
+> one mark for each correct line;; -1 for each additional line
+> Answer Notes Marks
+
+- **(2)** one mark for each correct line;; -1 for each additional line
 
 
 ## Question 2 (6 marks)
@@ -75,14 +81,6 @@ Uranium-235 is an isotope of uranium that can undergo nuclear fission. The table
 > all three correct ticks = 3 marks;;; -1 for 4 ticks
 > two correct ticks = 2 marks;; -2 for 5 ticks
 > one correct tick = 1 mark; 0 marks if all ticked
-> (b) neutron / n / neutrons;
-> (c) B (a helium nucleus);
-> A is incorrect because this describes gamma radiation
-> C is incorrect because this describes beta radiation
-> D is incorrect because this describes neutron radiation
-> (d) beta (minus); accept β, β-
-> reject beta plus
-> Answer Notes Marks
 
 - **(3)** all three correct ticks = 3 marks;;; -1 for 4 ticks
 
@@ -90,18 +88,44 @@ Uranium-235 is an isotope of uranium that can undergo nuclear fission. The table
 
 State which product of nuclear fission causes the next uranium-235 nucleus to split in the chain reaction.
 
+
+**Mark scheme answer**
+
+> neutron / n / neutrons;
+
+- **(1)** neutron / n / neutrons;
+
 ### 2(c) [1]
 
 Uranium-235 is radioactive and emits alpha radiation. Which of these statements describes alpha radiation?
 
 - **(A)** an electromagnetic wave
-- **(B)** a helium nucleus
+- **(B)** a helium nucleus  ✔
 - **(C)** a high energy electron
 - **(D)** a high energy neutron
+
+
+**Mark scheme answer**
+
+> B (a helium nucleus);
+> A is incorrect because this describes gamma radiation
+> C is incorrect because this describes beta radiation
+> D is incorrect because this describes neutron radiation
+
+- **(1)** Answer B: a helium nucleus
 
 ### 2(d) [1]
 
 Some of the products of nuclear fission are radioactive because their nuclei have too many neutrons. These nuclei become more stable when a neutron changes into a proton. State which type of radiation is emitted by radioactive nuclei with too many neutrons.
+
+
+**Mark scheme answer**
+
+> beta (minus); accept β, β-
+> reject beta plus
+> Answer Notes Marks
+
+- **(1)** beta (minus); accept β, β-
 
 
 ## Question 3 (10 marks)
@@ -114,17 +138,61 @@ When a meteor explodes, light waves and sound waves are produced at the same tim
 
 State the formula linking average speed, distance moved and time taken.
 
+
+**Mark scheme answer**
+
+> (average) speed = distance / time; allow standard symbols and
+> rearrangements e.g.
+> v = s/t
+> allow s for speed and d for
+> distance
+
+- **(1)** (average) speed = distance / time; allow standard symbols and
+
 ### 3(a)(ii) [2]
 
 A person standing 1860 m away from the site of a meteor explosion hears the sound of the explosion 5.6 s later. Calculate the speed of sound in air. speed of sound = m/s
+
+
+**Mark scheme answer**
+
+> substitution;
+> evaluation;
+> e.g.
+> (speed =) 1860 / 5.6
+> (speed =) 330(m/s) allow 332.14…(m/s)
+
+- **(2)** substitution;
 
 ### 3(a)(iii) [2]
 
 A scientist stands a long way from the meteor explosion. Explain why he hears the explosion at a different time to when he sees it.
 
+
+**Mark scheme answer**
+
+> light travels faster than sound; allow idea that they travel at
+> different speeds but not that
+> sound travels faster
+> he sees explosion before hearing it;
+> Allow RA
+
+- **(2)** light travels faster than sound; allow idea that they travel at
+
 ### 3(b) [2]
 
 Sound is a longitudinal wave. Describe what is meant by the term longitudinal wave.
+
+
+**Mark scheme answer**
+
+> vibrations (of particles) are parallel; allow oscillations for
+> vibrations
+> to direction the wave travels; DOP
+> allow direction of energy
+> transfer
+
+- **(2)** vibrations (of particles) are parallel; allow oscillations for
 
 ### 3(c)(i) [1]
 
@@ -178,13 +246,6 @@ Stars can appear as different colours because of their different surface tempera
 > B is incorrect because orange stars are cooler than blue-white stars
 > C is incorrect because red stars are cooler than blue-white stars
 > D is incorrect because yellow stars are cooler than blue-white stars
-> (b) any two from:
-> gas collapses / gas particles attract each other; condone ‘dust’ for ‘gas’
-> temperature (of the gas) increases; allow particles increase in KE
-> fusion starts/eq;
-> (c) two (small) nuclei;
-> join together (to produce a large nucleus);
-> releasing energy; allow gamma radiation
 
 - **(1)** Answer A: blue-white
 
@@ -192,9 +253,28 @@ Stars can appear as different colours because of their different surface tempera
 
 Describe how a star is formed in a nebula.
 
+
+**Mark scheme answer**
+
+> any two from:
+> gas collapses / gas particles attract each other; condone ‘dust’ for ‘gas’
+> temperature (of the gas) increases; allow particles increase in KE
+> fusion starts/eq;
+
+- **(2)** any two from:
+
 ### 4(c) [3]
 
 Rigel is a main sequence star. A star joins the main sequence when nuclear fusion of hydrogen starts in its core. Describe the process of nuclear fusion in a star.
+
+
+**Mark scheme answer**
+
+> two (small) nuclei;
+> join together (to produce a large nucleus);
+> releasing energy; allow gamma radiation
+
+- **(3)** two (small) nuclei;
 
 ### 4(d)(i) [1]
 
@@ -319,7 +399,17 @@ Describe how the student should measure the mass of the liquid.
 > and press zero then
 > pour liquid into this
 > container
-> (b) any two from: ignore idea of ‘repeat and
+
+- **(2)** using a balance; ignore weighing scales /
+
+### 6(b) [2]
+
+Describe how the student should use a measuring cylinder to obtain an accurate measurement of the liquid’s volume.
+
+
+**Mark scheme answer**
+
+> any two from: ignore idea of ‘repeat and
 > average’
 > MP1. measuring cylinder placed on horizontal condone ‘flat surface’
 > surface;
@@ -330,7 +420,19 @@ Describe how the student should measure the mass of the liquid.
 > the measuring cylinder;
 > MP5. ensure measuring cylinder is empty before
 > use;
-> (c) use of density formula;
+
+- **(2)** any two from: ignore idea of ‘repeat and
+
+### 6(c) [3]
+
+The table gives the values of the densities for some liquids. Liquid Density in g/cm3 brine 1.23 glucose 1.44 olive oil 0.82 pure water 1.00 sodium hydroxide 1.25 sunflower oil 0.92 The student measures the mass of the sample of unknown liquid as 150 g and the volume as 163 cm3. Deduce the name of the unknown liquid.
+
+![table — official paper figure (qp.pdf p.15)](assets/asset_6_c_table.png)
+
+
+**Mark scheme answer**
+
+> use of density formula;
 > evaluation of density of liquid;
 > liquid is sunflower oil;
 > e.g.
@@ -339,7 +441,22 @@ Describe how the student should measure the mass of the liquid.
 > closest to sunflower oil => liquid is sunflower oil unsupported correct
 > conclusion scores 1 mark only
 > Answer Notes Marks
-> 7 any six from: allow RA
+
+- **(3)** use of density formula;
+
+
+## Question 7 (6 marks)
+
+The photographs show two different breeds of cat. © Kucher Serhii/Shutterstock © Eric Isselee/Shutterstock Cat X Cat Y Cat X has no fur and light-coloured skin. Cat Y has thick, black fur. Both cats have the same body temperature and transfer energy to their surroundings when they are outside on a cold day. Compare how cat X and cat Y transfer energy to their surroundings. Refer to conduction, convection and radiation in your answer. (6)
+
+### 7 [6]
+
+The photographs show two different breeds of cat. © Kucher Serhii/Shutterstock © Eric Isselee/Shutterstock Cat X Cat Y Cat X has no fur and light-coloured skin. Cat Y has thick, black fur. Both cats have the same body temperature and transfer energy to their surroundings when they are outside on a cold day. Compare how cat X and cat Y transfer energy to their surroundings. Refer to conduction, convection and radiation in your answer.
+
+
+**Mark scheme answer**
+
+> any six from: allow RA
 > throughout
 > MP1. cat X loses more energy by conduction / convection than
 > cat Y;
@@ -355,26 +472,7 @@ Describe how the student should measure the mass of the liquid.
 > better absorbers
 > Answer Notes Marks
 
-- **(2)** using a balance; ignore weighing scales /
-
-### 6(b) [2]
-
-Describe how the student should use a measuring cylinder to obtain an accurate measurement of the liquid’s volume.
-
-### 6(c) [3]
-
-The table gives the values of the densities for some liquids. Liquid Density in g/cm3 brine 1.23 glucose 1.44 olive oil 0.82 pure water 1.00 sodium hydroxide 1.25 sunflower oil 0.92 The student measures the mass of the sample of unknown liquid as 150 g and the volume as 163 cm3. Deduce the name of the unknown liquid.
-
-![table — official paper figure (qp.pdf p.15)](assets/asset_6_c_table.png)
-
-
-## Question 7 (6 marks)
-
-The photographs show two different breeds of cat. © Kucher Serhii/Shutterstock © Eric Isselee/Shutterstock Cat X Cat Y Cat X has no fur and light-coloured skin. Cat Y has thick, black fur. Both cats have the same body temperature and transfer energy to their surroundings when they are outside on a cold day. Compare how cat X and cat Y transfer energy to their surroundings. Refer to conduction, convection and radiation in your answer. (6)
-
-### 7 [6]
-
-The photographs show two different breeds of cat. © Kucher Serhii/Shutterstock © Eric Isselee/Shutterstock Cat X Cat Y Cat X has no fur and light-coloured skin. Cat Y has thick, black fur. Both cats have the same body temperature and transfer energy to their surroundings when they are outside on a cold day. Compare how cat X and cat Y transfer energy to their surroundings. Refer to conduction, convection and radiation in your answer.
+- **(6)** any six from: allow RA
 
 
 ## Question 8 (14 marks)
@@ -391,16 +489,6 @@ State how the student could improve the reliability of her results.
 **Mark scheme answer**
 
 > take repeats and find the mean; allow ‘average’ for ‘mean’
-> (b) any two from: ignore ‘same motor’
-> MP1. mass (being lifted); condone weight
-> MP2. height (lifted) / distance;
-> MP3. power supply / circuit being used;
-> MP4. temperature (of motor);
-> (c) conversion of cm to m;
-> substitution into GPE = mass × g × height;
-> e.g.
-> 50 cm = 0.5 m allow 0.5 seen anywhere
-> GPE = 1 × 10 × 0.5 (= 5 J) allow use of g = 9.8(1) (m/s2)
 
 - **(1)** take repeats and find the mean; allow ‘average’ for ‘mean’
 
@@ -408,9 +496,31 @@ State how the student could improve the reliability of her results.
 
 Give two control variables for the investigation. 1 2
 
+
+**Mark scheme answer**
+
+> any two from: ignore ‘same motor’
+> MP1. mass (being lifted); condone weight
+> MP2. height (lifted) / distance;
+> MP3. power supply / circuit being used;
+> MP4. temperature (of motor);
+
+- **(2)** any two from: ignore ‘same motor’
+
 ### 8(c) [2]
 
 Show that the gravitational store of the 1.0 kg mass increases by 5.0 J when it is lifted through a distance of 50 cm.
+
+
+**Mark scheme answer**
+
+> conversion of cm to m;
+> substitution into GPE = mass × g × height;
+> e.g.
+> 50 cm = 0.5 m allow 0.5 seen anywhere
+> GPE = 1 × 10 × 0.5 (= 5 J) allow use of g = 9.8(1) (m/s2)
+
+- **(2)** conversion of cm to m;
 
 ### 8(d)(i) [3]
 
@@ -495,13 +605,19 @@ Draw a voltmeter on the diagram to measure the voltage of the 4500 Ω resistor.
 
 > correct voltmeter symbol;
 > voltmeter connected in parallel with resistor;
-> (b) light dependent resistor; allow LDR
 
 - **(2)** correct voltmeter symbol;
 
 ### 9(b) [1]
 
 Give the name of component X.
+
+
+**Mark scheme answer**
+
+> light dependent resistor; allow LDR
+
+- **(1)** light dependent resistor; allow LDR
 
 ### 9(c)(i) [1]
 
@@ -545,7 +661,17 @@ Calculate the resistance of component X. Give your answer in kΩ. resistance = 
 > OR resistance = voltage / current
 > (resistance =) 1500 (Ω)
 > (resistance =) 1.5 (kΩ)
-> (d) lamp should be connected in parallel with
+
+- **(3)** substitution OR rearrangement; allow ecf from (ii)
+
+### 9(d) [3]
+
+Explain where a lamp should be connected in this circuit, so that the voltage across it increases as the light received by component X decreases.
+
+
+**Mark scheme answer**
+
+> lamp should be connected in parallel with
 > component X / LDR;
 > resistance of component X increases when it gets
 > dark;
@@ -553,11 +679,7 @@ Calculate the resistance of component X. Give your answer in kΩ. resistance = 
 > greater than 10V when it gets dark;
 > Answer Notes Marks
 
-- **(3)** substitution OR rearrangement; allow ecf from (ii)
-
-### 9(d) [3]
-
-Explain where a lamp should be connected in this circuit, so that the voltage across it increases as the light received by component X decreases.
+- **(3)** lamp should be connected in parallel with
 
 
 ## Question 10 (8 marks)
@@ -646,7 +768,19 @@ A car has an initial speed of 35 m/s. The brakes are applied and the car comes t
 > 0 = 352 + (2 × a × 78)
 > (a =) (-) 352 / (2 × 78)
 > (a =) (-) 7.9 (m/s2) allow 7.75… - 7.95…(m/s2)
-> (b) any five from:
+
+- **(4)** value of braking distance correctly read from graph; allow 77-79 m
+
+### 11(b) [5]
+
+Evaluate how the thinking distance and the braking distance vary for different values of initial speed. Refer to information from the graph in your answer.
+
+![graph — official paper figure (qp.pdf p.28) — shared with asset_11_a_graph_stem](assets/asset_11_a_graph_stem.png)
+
+
+**Mark scheme answer**
+
+> any five from:
 > MP1. thinking distance OR braking distance
 > increases as (initial) speed increases;
 > MP2. braking distance increases by a greater e.g. gradient of braking
@@ -671,13 +805,7 @@ A car has an initial speed of 35 m/s. The brakes are applied and the car comes t
 > same factor
 > Answer Notes Marks
 
-- **(4)** value of braking distance correctly read from graph; allow 77-79 m
-
-### 11(b) [5]
-
-Evaluate how the thinking distance and the braking distance vary for different values of initial speed. Refer to information from the graph in your answer.
-
-![graph — official paper figure (qp.pdf p.28) — shared with asset_11_a_graph_stem](assets/asset_11_a_graph_stem.png)
+- **(5)** any five from:
 
 
 ## Question 12 (7 marks)
@@ -690,19 +818,70 @@ This question is about refraction.
 
 Calculate the critical angle for the boundary between acetone, and air. critical angle = °
 
+
+**Mark scheme answer**
+
+> 47 (°);
+
+- **(1)** 47 (°);
+
 ### 12(a)(ii) [1]
 
 State the formula linking critical angle and refractive index.
 
+
+**Mark scheme answer**
+
+> sin(c) = 1 / n;
+
+- **(1)** sin(c) = 1 / n;
+
 ### 12(a)(iii) [2]
 
 Calculate the refractive index of acetone. refractive index =
+
+
+**Mark scheme answer**
+
+> substitution OR rearrangement; allow ecf from (i)
+> evaluation;
+> e.g.
+> sin(47) = 1/n OR n = 1/sin(c)
+> (n =) 1.4 answer is 1.37 to 3sf
+> if (i) is given as 43° then
+> expected answer is 1.5 to 2sf
+> /1.47 to 3 sf
+
+- **(2)** substitution OR rearrangement; allow ecf from (i)
 
 ### 12(b) [3]
 
 Diagram 2 shows a ray of light incident on the boundary between water and air. air 13° water 43° Diagram 2 Explain how the refractive index of water compares to the refractive index of acetone.
 
 ![diagram — official paper figure (qp.pdf p.31)](assets/asset_12_b_diagram.png)
+
+
+**Mark scheme answer**
+
+> ray is refracting / angle of incidence is less than
+> critical angle;
+> critical angle for water is greater than for acetone;
+> refractive index of water is less than for acetone;
+> award full marks for a correct
+> calculation of the refractive
+> index of water with correct
+> conclusion
+> e.g.
+> nwater = 1.33 < nacetone
+> Allow correct conclusion with
+> nwater = 0.75... for 1 mark
+> MAX
+> reject response with
+> otherwise incorrect
+> calculation of nwater
+> Answer Notes Marks
+
+- **(3)** ray is refracting / angle of incidence is less than
 
 
 ## Question 13 (8 marks)
@@ -715,15 +894,64 @@ This question is about pressure in gases.
 
 Calculate the temperature of the air in the flask in kelvin. temperature = K
 
+
+**Mark scheme answer**
+
+> 358 (K);
+
+- **(1)** 358 (K);
+
 ### 13(a)(ii) [2]
 
 Describe how the motion of the molecules in the flask changes when the temperature of the air inside the flask increases.
+
+
+**Mark scheme answer**
+
+> idea that speed / KE increases;
+> mean speed / mean KE increases; allow average for mean
+
+- **(2)** idea that speed / KE increases;
 
 ### 13(a)(iii) [1]
 
 The pressure of the air in the flask does not change when the temperature of the air increases. State what happens to the number of air molecules in the flask when the temperature of the air inside the flask increases.
 
+
+**Mark scheme answer**
+
+> number of molecules decreases; however expressed
+
+- **(1)** number of molecules decreases; however expressed
+
 ### 13(b) [4]
 
 Photograph 2 shows a boiled egg, without its shell, placed in the top of the conical flask containing hot air. The flask is no longer being heated. The egg seals the flask so that no air escapes. Photograph 3 shows the egg and the flask a short time later. Photograph 2 Photograph 3 Explain why the egg moves down into the flask and then stops moving. Refer to ideas about pressure in your answer.
+
+
+**Mark scheme answer**
+
+> any four from:
+> MP1. air in flask cools;
+> MP2. molecules in flask slow down/kinetic
+> energy of molecules reduces;
+> MP3. pressure inside flask decreases (as
+> temperature decreases);
+> MP4. pressure outside flask greater than
+> inside/eq;
+> MP5. resultant force (from air) pushes egg down allow ‘stretches egg’
+> the neck of the flask;
+> MP6. volume of air in flask decreases as the egg
+> moves down;
+> MP7. (so) pressure inside flask increases (as
+> volume decreases);
+> MP8. (eventually) pressure inside and outside allow higher level arguments
+> balance; including weight of egg,
+> friction with neck, etc
+> MP9. (so) resultant force is now zero (so egg
+> stops moving down);
+> Pearson Education Limited. Registered company number 872828
+> with its registered office at 80 Strand, London, WC2R 0RL, United Kingdom
+
+- **(4)** any four from:
 

@@ -22,7 +22,6 @@ Which diagram shows a light ray correctly reflected from a mirror? mirror mirror
 > equal to the angle of reflection.
 > B and D cannot be correct as the ray penetrates
 > into the mirror rather than reflects.
-> (b) protractor;
 
 - **(1)** C;
 
@@ -31,6 +30,13 @@ Which diagram shows a light ray correctly reflected from a mirror? mirror mirror
 Name the equipment needed to measure the angle of incidence on a ray diagram.
 
 ![diagram — official paper figure (qp.pdf p.4) — shared with 1(a)](assets/asset_1_a_diagram.png)
+
+
+**Mark scheme answer**
+
+> protractor;
+
+- **(1)** protractor;
 
 ### 1(c)(i) [2]
 
@@ -89,28 +95,89 @@ Draw the orbit of the Earth’s Moon on the diagram.
 
 ![diagram — official paper figure (qp.pdf p.6) — shared with asset_2_a_diagram_stem](assets/asset_2_a_diagram_stem.png)
 
+
+**Mark scheme answer**
+
+> any orbit around Earth;
+> circular orbit centred on Earth;
+
+- **(2)** any orbit around Earth;
+
 ### 2(a)(ii) [2]
 
 Draw the orbit of a comet on the diagram.
 
 ![diagram — official paper figure (qp.pdf p.6) — shared with asset_2_a_diagram_stem](assets/asset_2_a_diagram_stem.png)
 
+
+**Mark scheme answer**
+
+> any elliptical orbit around Sun; accept incomplete or
+> full orbit;
+> with focus at Sun; accept
+> parabolic/hyperbolic
+> path with Sun at focus
+> for 2 marks
+
+- **(2)** any elliptical orbit around Sun; accept incomplete or
+
 ### 2(b) [3]
 
 Earth orbits the Sun in 365 days with an orbital radius of 150 000 000 km. Calculate the Earth’s orbital speed in km/s. orbital speed = km/s
+
+
+**Mark scheme answer**
+
+> evidence of correct conversion from days to seconds;
+> substitution into given formula;
+> correct evaluation;
+> Correct answer: 30 km/s
+> e.g.
+> 365 × 24 × 60 × 60 = 31.5 × 106 s
+> Orbital speed = (2 π r ) ÷ T
+> Orbital speed = ( 2 x π ×150 000 000) / 31.5…. × 106 s
+> Orbital speed = 29.9 km/s
+
+- **(3)** evidence of correct conversion from days to seconds;
 
 ### 2(c) [1]
 
 Which force keeps the Earth in orbit around the Sun?
 
 - **(A)** electrostatic
-- **(B)** gravitational
+- **(B)** gravitational  ✔
 - **(C)** magnetic
 - **(D)** nuclear
+
+
+**Mark scheme answer**
+
+> B – gravitational;
+> A, C and D cannot be correct as only the gravitational
+> force is responsible for keeping planets in orbit
+> around their star.
+
+- **(1)** Answer B: gravitational
 
 ### 2(d) [4]
 
 Describe the evolution of the Sun from the first stage of its evolution to the final stage of its evolution.
+
+
+**Mark scheme answer**
+
+> starts as nebula/cloud (of gas);
+> reference to main sequence;
+> finishes as white dwarf; ignore black dwarf
+> PLUS at least ONE, in the correct place, from
+> protostar/red (super) giant/planetary nebula; reject supernova for
+> this mark
+> e.g.
+> nebula → protostar → main sequence → red giant →
+> white dwarf and planetary nebula
+> Answer Notes Marks
+
+- **(4)** starts as nebula/cloud (of gas);
 
 
 ## Question 3 (11 marks)
@@ -125,9 +192,33 @@ Use information from the graph to determine the terminal velocity of the balloon
 
 ![graph — official paper figure (qp.pdf p.8) — shared with asset_3_a_graph_stem](assets/asset_3_a_graph_stem.png)
 
+
+**Mark scheme answer**
+
+> 8.2 (m/s) ;
+
+- **(1)** 8.2 (m/s) ;
+
 ### 3(a)(ii) [3]
 
 Explain how the balloon reaches terminal velocity. You should use ideas about forces acting on the balloon in your answer.
+
+
+**Mark scheme answer**
+
+> any TWO from: ignore reference to upthrust
+> MP1. reference to weight and drag; accept water friction or
+> water resistance for “drag”
+> accept ‘gravitational force’
+> for ‘weight’
+> MP2. weight greater than drag;
+> MP3. resultant force causes acceleration; "F=ma" is insufficient by
+> itself
+> MP4. drag increases with speed;
+> PLUS
+> weight = drag at terminal velocity/eq;
+
+- **(3)** any TWO from: ignore reference to upthrust
 
 ### 3(b)(i) [1]
 
@@ -343,7 +434,17 @@ Discuss potential safety advantages of a fusion reactor compared with a fission 
 > fusion;
 > MP7. idea that there is no runaway chain
 > reaction for fusion;
-> (c) evidence of activity halved;
+
+- **(3)** any THREE from: accept RA
+
+### 5(c) [3]
+
+The half-life of a radioactive isotope is 12 years. The activity of a sample of this isotope is 120 kBq. Calculate the activity of this sample after 48 years. activity = kBq
+
+
+**Mark scheme answer**
+
+> evidence of activity halved;
 > evidence of activity halved four times only; allow reference to 4 half
 > lives, including showing
 > that 48/12 = 4
@@ -355,11 +456,7 @@ Discuss potential safety advantages of a fusion reactor compared with a fission 
 > 15 ÷ 2 = 7.5
 > Question number Answer Notes Marks
 
-- **(3)** any THREE from: accept RA
-
-### 5(c) [3]
-
-The half-life of a radioactive isotope is 12 years. The activity of a sample of this isotope is 120 kBq. Calculate the activity of this sample after 48 years. activity = kBq
+- **(3)** evidence of activity halved;
 
 
 ## Question 6 (10 marks)
@@ -386,7 +483,17 @@ Explain the main method of heat transfer from the chip to the surroundings for c
 > from this
 > interior white
 > surface
-> (b) any THREE from:
+
+- **(3)** any THREE from:
+
+### 6(b) [3]
+
+Explain the main method of heat transfer from the chip to the surroundings for case Y.
+
+
+**Mark scheme answer**
+
+> any THREE from:
 > MP1. correct reference to conduction;
 > MP2. since {metals/aluminium} conducts well;
 > MP3. reference to convection not being the main method;
@@ -400,10 +507,6 @@ Explain the main method of heat transfer from the chip to the surroundings for c
 > surface
 
 - **(3)** any THREE from:
-
-### 6(b) [3]
-
-Explain the main method of heat transfer from the chip to the surroundings for case Y.
 
 ### 6(c)(i) [1]
 
@@ -449,16 +552,51 @@ Measure the angle of incidence for the ray at point K. Which of these is the ang
 
 - **(A)** 43°
 - **(B)** 47°
-- **(C)** 51°
+- **(C)** 51°  ✔
 - **(D)** 55°
+
+
+**Mark scheme answer**
+
+> C – 51°;
+> Angle should be measured and cannot be either A, B
+> or D.
+
+- **(1)** Answer C: 51°
 
 ### 7(a)(ii) [1]
 
 State the formula linking refractive index, angle of incidence and angle of refraction.
 
+
+**Mark scheme answer**
+
+> refractive index = sin (i)/sin (r); allow n, η for
+> refractive index
+
+- **(1)** refractive index = sin (i)/sin (r); allow n, η for
+
 ### 7(a)(iii) [3]
 
 The block has a refractive index of 1.52 Use the formula to show that the angle of refraction is about 30° for the ray at point K.
+
+
+**Mark scheme answer**
+
+> substitution; allow ECF from (i)
+> rearrangement;
+> correct evaluation;
+> correct answer: 31 degrees answers of 26.66…,
+> 28.76…, 32.06… all
+> score 3 marks ECF
+> e.g
+> refractive index = sin (i)/sin (r)
+> 1.52 = sin(51)/sin(r)
+> sin(r) = sin(51)/1.52
+> sin(r) = 0.511…
+> r = sin-1(0.511…) = 30.7… degrees
+
+- **(3)** substitution; allow ECF from (i)
 
 ### 7(b)(i) [3]
 
@@ -501,9 +639,25 @@ A student wants to determine the density of air using an irregularly‑shaped ba
 
 Name the equipment the student could use to measure the mass of the balloon.
 
+
+**Mark scheme answer**
+
+> balance; condone scales
+> reject scale
+
+- **(1)** balance; condone scales
+
 ### 8(a)(ii) [1]
 
 Suggest how the student could improve the reliability of their data.
+
+
+**Mark scheme answer**
+
+> take repeats and either
+> find mean, identify or remove anomalies;
+
+- **(1)** take repeats and either
 
 ### 8(b) [4]
 
@@ -511,9 +665,46 @@ The table shows the student’s results. Mass of empty balloon in g 15.00 Mass o
 
 ![table — official paper figure (qp.pdf p.20)](assets/asset_8_b_table.png)
 
+
+**Mark scheme answer**
+
+> mass of air is 0.61 g;
+> correct use of formula: density = mass/volume;
+> correct evaluation to 2 sf; −1 POT error
+> appropriate unit i.e. g/cm3;
+> correct answer = 0.0012 g/cm3 accept use of standard
+> form i.e. 1.2(4) × 10-3
+> g/cm3
+> e.g.
+> mass of air = 15.61 − 15.00 = 0.61
+> density = mass ÷ volume
+> density = 0.61 ÷ 490
+> density = 0.00124 g/cm3
+> density = 0.0012 g/cm3 to 2 sf
+
+- **(4)** mass of air is 0.61 g;
+
 ### 8(c) [3]
 
 Describe how the volume of the balloon full of air could be measured using a large beaker and some water. You may use a diagram to help your answer.
+
+
+**Mark scheme answer**
+
+> any THREE from:
+> MP1. any reference to displacement method;
+> MP2. measure original volume of water;
+> MP3. (fully) submerge balloon;
+> MP4. re-measure volume of water;
+> MP5. subtract one volume from the other;
+> allow reference to
+> displacement to a
+> different vessel and use
+> of measuring cylinder or
+> beaker for three marks
+> Answer Notes Marks
+
+- **(3)** any THREE from:
 
 
 ## Question 9 (10 marks)
@@ -526,15 +717,51 @@ A teacher demonstrates the penetrating ability of alpha, beta and gamma radiatio
 
 State a precaution the teacher should take to make sure they are working safely with the radioactive sources.
 
+
+**Mark scheme answer**
+
+> any ONE from:
+> wear gloves;
+> use tongs;
+> do not point source at anyone;
+> keep source at arm’s length; accept use of remote
+> control i.e. a robot
+> keep source in lead-lined box;
+> keep exposure time short; i.e. only have the
+> source out for as long as
+> is necessary
+> wear goggles;
+> lead apron;
+
+- **(1)** any ONE from:
+
 ### 9(a)(ii) [1]
 
 State the name of a detector the teacher could use to detect the radiation from each source.
+
+
+**Mark scheme answer**
+
+> Geiger-Muller tube (and counter); allow GM
+> tube/counter/detector
+> condone ‘photographic
+> film’
+
+- **(1)** Geiger-Muller tube (and counter); allow GM
 
 ### 9(b) [3]
 
 Draw crosses (× ) in the table to show which type of radiation cannot penetrate each material in the table. Material Type of radiation 10 cm of air 2 cm of aluminium 10 cm of lead alpha beta gamma
 
 ![table — official paper figure (qp.pdf p.22)](assets/asset_9_b_table.png)
+
+
+**Mark scheme answer**
+
+> ;;; each correct row scores
+> 1 mark
+
+- **(3)** ;;; each correct row scores
 
 ### 9(c)(i) [3]
 
@@ -587,21 +814,89 @@ The diagram shows the forces acting on a firework at take-off. thrust 28 N weigh
 
 Calculate the magnitude of the resultant force on the firework. magnitude of resultant force = N
 
+
+**Mark scheme answer**
+
+> 26(.4) (N) ;
+
+- **(1)** 26(.4) (N) ;
+
 ### 10(a)(ii) [1]
 
 State the formula linking resultant force, mass and acceleration.
+
+
+**Mark scheme answer**
+
+> (resultant) force = mass × acceleration; allow acceptable
+> symbols e.g. F, f,
+> m, M, a, A
+> allow any correct
+> rearrangement;
+
+- **(1)** (resultant) force = mass × acceleration; allow acceptable
 
 ### 10(a)(iii) [3]
 
 The mass of the firework is 160 g. Calculate the acceleration of the firework. acceleration = m/s2
 
+
+**Mark scheme answer**
+
+> conversion of 160 g to 0.16 kg;
+> rearrangement or substitution; allow ECF for
+> incorrect resultant
+> force
+> correct evaluation;
+> correct answer: 165 (m/s2) Condone rounding
+> to 160 or 170.
+> e.g. acceleration = resultant force ÷ mass
+> acceleration = 26.4 ÷ 0.16
+> acceleration = 165 (m/s2)
+
+- **(3)** conversion of 160 g to 0.16 kg;
+
 ### 10(a)(iv) [3]
 
 Explain how the acceleration of the firework changes between take‑off and running out of fuel. You can assume that the thrust force stays the same as the firework burns the fuel.
 
+
+**Mark scheme answer**
+
+> any THREE from: ignore references
+> to running out of
+> fuel reducing
+> thrust/eq
+> MP1. weight decreases; ignore references
+> to energy
+> MP2. air resistance increases;
+> MP3. consistent inference of changing resultant force; DOP
+> MP4. (therefore) changing acceleration; consistent with
+> MP3
+
+- **(3)** any THREE from: ignore references
+
 ### 10(b) [4]
 
 The firework makes a sound with constant frequency. As the firework moves upwards, people on the ground notice that the frequency of the sound they hear changes. This is called the Doppler effect. Explain how the Doppler effect causes the observed frequency of sound to change for the people on the ground.
+
+
+**Mark scheme answer**
+
+> any FOUR from: ignore references
+> to region in front
+> of rocket or an
+> approaching rocket
+> MP1. (observed) frequency decreases;
+> MP2. speed of waves constant;
+> MP3. wavefronts behind firework spread out/eq;
+> MP4. causing an increased wavelength (at the
+> observer);
+> MP5. reference to f = speed ÷ wavelength; allow any
+> rearrangement
+> Answer Notes Marks
+
+- **(4)** any FOUR from: ignore references
 
 
 ## Question 11 (11 marks)
@@ -614,21 +909,55 @@ The diagrams show some equipment that the physicist Ørsted used in an investiga
 
 Explain why the compass needles turn when the current is switched on.
 
+
+**Mark scheme answer**
+
+> current provides a magnetic field/eq;
+> magnets in a magnetic field experience a
+> force/magnets line up along a field line/eq;
+
+- **(2)** current provides a magnetic field/eq;
+
 ### 11(a)(ii) [2]
 
 Using evidence from the compass needles in diagram 2, draw on diagram 2 the shape and direction of a magnetic field line produced by the current in the wire.
 
 ![diagram — official paper figure (qp.pdf p.26) — shared with asset_11_a_diagram_stem](assets/asset_11_a_diagram_stem.png)
 
+
+**Mark scheme answer**
+
+> (circular) field line through all of the compass allow any circle
+> needles; concentric with the
+> wire
+> arrow clockwise;
+
+- **(2)** (circular) field line through all of the compass allow any circle
+
 ### 11(a)(iii) [1]
 
 Suggest what happens to the magnetic field when the current in the wire is reversed.
+
+
+**Mark scheme answer**
+
+> changes direction / eq;
+
+- **(1)** changes direction / eq;
 
 ### 11(b) [2]
 
 The current in the wire is turned off. Diagram 3 shows the wire placed in a uniform magnetic field. wire N S power supply magnet Diagram 3 The current is now switched on. Draw an arrow to show the direction of the force on the wire.
 
 ![diagram — official paper figure (qp.pdf p.28)](assets/asset_11_b_diagram.png)
+
+
+**Mark scheme answer**
+
+> vertical;
+> upwards;
+
+- **(2)** vertical;
 
 ### 11(c)(i) [2]
 

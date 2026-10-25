@@ -1,7 +1,7 @@
 {
  "schema": "syllabai.official-paper-questions/0.2",
- "generated_utc": "2026-10-25T20:43:02Z",
- "generator": "official_examq_extract.py v0.17.4 (ADR-039) series=2021-11 paper=2P",
+ "generated_utc": "2026-10-25T22:06:25Z",
+ "generator": "official_examq_extract.py v0.19.0 (ADR-039) series=2021-11 paper=2P",
  "paper_id": "pearson-edexcel:international-gcse:physics:4ph1:2021-11:4PH1/2P",
  "source": {
   "qp_sha256": "dc1bed30a5484aec01036381da93073024484fa23588a2ecfc6792cbdf3f71aa",
@@ -34,12 +34,12 @@
      "problem_md": "The table lists some statements about the universe. Place ticks (✓) in the table to show which statements support the Big Bang theory. . Supports the Statement Big Bang theory black holes are formed from extremely massive stars cosmic microwave background radiation is detected in all directions cosmic rays from space are detected at the Earth’s surface each galaxy contains billions of stars most galaxies show a red-shift in the light detected from them",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "2\n1 mark for each correct tick;\n-1 for each additional tick if more than two ticks seen\n5 ticks scores zero\n(b) B (decreases, increases);\nA is incorrect because a red giant is more powerful\nthan a main sequence star\nC is incorrect because a red giant is cooler and\nmore powerful than a main sequence star\nD is incorrect because a red giant is cooler than a\nmain sequence star\n(c) the brightness/luminosity (of an object);\nidea of a standard distance; allow 10 parsecs/32(.6)\nlight years\ncondone incorrect\ndistance\nAnswer Notes Marks",
+     "solution_md": "2\n1 mark for each correct tick;\n-1 for each additional tick if more than two ticks seen\n5 ticks scores zero",
      "mark_points": [
       {
        "id": "2021-11-1-a-MP1",
        "marks": 2,
-       "text_md": "2\n1 mark for each correct tick;\n-1 for each additional tick if more than two ticks seen\n5 ticks scores zero\n(b) B (decreases, increases);\nA is incorrect because a red giant is more powerful\nthan a main sequence star\nC is incorrect because a red giant is cooler and\nmore powerful than a main sequence star\nD is incorrect because a red giant is cooler than a\nmain sequence star\n(c) the brightness/luminosity (of an object);\nidea of a standard distance; allow 10 parsecs/32(.6)\nlight years\ncondone incorrect\ndistance\nAnswer Notes Marks"
+       "text_md": "2\n1 mark for each correct tick;\n-1 for each additional tick if more than two ticks seen\n5 ticks scores zero"
       }
      ],
      "source_page": 3,
@@ -73,29 +73,41 @@
      "choices": [
       {
        "label": "A",
-       "text_md": "decreases                                                                          decreases"
+       "text_md": "decreases                                                                          decreases",
+       "is_correct": false
       },
       {
        "label": "B",
-       "text_md": "decreases                                                                           increases"
+       "text_md": "decreases                                                                           increases",
+       "is_correct": true
       },
       {
        "label": "C",
-       "text_md": "increases                                                                         decreases"
+       "text_md": "increases                                                                         decreases",
+       "is_correct": false
       },
       {
        "label": "D",
-       "text_md": "increases                                                                          increases"
+       "text_md": "increases                                                                          increases",
+       "is_correct": false
       }
      ],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "B (decreases, increases);\nA is incorrect because a red giant is more powerful\nthan a main sequence star\nC is incorrect because a red giant is cooler and\nmore powerful than a main sequence star\nD is incorrect because a red giant is cooler than a\nmain sequence star",
+     "mark_points": [
+      {
+       "id": "2021-11-1-b-MP1",
+       "marks": 1,
+       "text_md": "Answer B: decreases                                                                           increases"
+      }
+     ],
      "source_page": 3,
      "assets": [],
      "spec_point_codes": [],
      "tagging": "pending-llm",
      "edit_status": "extracted",
      "value_trace": {
-      "keys": "unresolved:review-queue",
+      "keys": "ms-positional",
       "marks": "ms-printed",
       "numbers": "source-printed"
      }
@@ -106,7 +118,15 @@
      "question_type": "structured",
      "problem_md": "Astronomical objects can be classified by their absolute magnitude. State what is meant by the term absolute magnitude.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "the brightness/luminosity (of an object);\nidea of a standard distance; allow 10 parsecs/32(.6)\nlight years\ncondone incorrect\ndistance\nAnswer Notes Marks",
+     "mark_points": [
+      {
+       "id": "2021-11-1-c-MP1",
+       "marks": 2,
+       "text_md": "the brightness/luminosity (of an object);\nidea of a standard distance; allow 10 parsecs/32(.6)\nlight years\ncondone incorrect\ndistance\nAnswer Notes Marks"
+      }
+     ],
      "source_page": 3,
      "assets": [],
      "spec_point_codes": [],
@@ -533,7 +553,15 @@
      "question_type": "structured",
      "problem_md": "Complete the nuclear equation by writing the numbers in the boxes.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "mass number = 3;\natomic number = 1;",
+     "mark_points": [
+      {
+       "id": "2021-11-4-a-i-MP1",
+       "marks": 2,
+       "text_md": "mass number = 3;\natomic number = 1;"
+      }
+     ],
      "source_page": 8,
      "assets": [
       {
@@ -560,7 +588,15 @@
      "question_type": "structured",
      "problem_md": "Explain why this fission does not cause a chain reaction.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "idea that a (further) neutron is required (for further\nfission reactions);\n(but) no neutrons produced (in the fission process);",
+     "mark_points": [
+      {
+       "id": "2021-11-4-a-ii-MP1",
+       "marks": 2,
+       "text_md": "idea that a (further) neutron is required (for further\nfission reactions);\n(but) no neutrons produced (in the fission process);"
+      }
+     ],
      "source_page": 8,
      "assets": [],
      "spec_point_codes": [],
@@ -578,7 +614,15 @@
      "question_type": "structured",
      "problem_md": "Explain the difference between nuclear fission and nuclear fusion.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "fission is the splitting of a nucleus; allow “breaking down”,\n“dividing” for splitting\nfusion is the joining of two nuclei; allow “fusing”,\n“combining” for joining\nAnswer Notes Marks",
+     "mark_points": [
+      {
+       "id": "2021-11-4-b-MP1",
+       "marks": 2,
+       "text_md": "fission is the splitting of a nucleus; allow “breaking down”,\n“dividing” for splitting\nfusion is the joining of two nuclei; allow “fusing”,\n“combining” for joining\nAnswer Notes Marks"
+      }
+     ],
      "source_page": 8,
      "assets": [],
      "spec_point_codes": [],
@@ -610,7 +654,15 @@
      "question_type": "structured",
      "problem_md": "State the independent variable in the student’s investigation.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "position of the mass hanger; allow distance of mass\nhanger/eq\nreject unqualified\n“distance”",
+     "mark_points": [
+      {
+       "id": "2021-11-5-a-i-MP1",
+       "marks": 1,
+       "text_md": "position of the mass hanger; allow distance of mass\nhanger/eq\nreject unqualified\n“distance”"
+      }
+     ],
      "source_page": 9,
      "assets": [],
      "spec_point_codes": [],
@@ -628,7 +680,15 @@
      "question_type": "structured",
      "problem_md": "State two control variables in the student’s investigation. 1 2",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "any two from: ignore “same\nequipment”\nMP1. weight or mass of metre rule\nMP2. weight or mass of mass hanger;\nMP3. positions of newton meter(s);",
+     "mark_points": [
+      {
+       "id": "2021-11-5-a-ii-MP1",
+       "marks": 2,
+       "text_md": "any two from: ignore “same\nequipment”\nMP1. weight or mass of metre rule\nMP2. weight or mass of mass hanger;\nMP3. positions of newton meter(s);"
+      }
+     ],
      "source_page": 9,
      "assets": [],
      "spec_point_codes": [],
@@ -646,7 +706,15 @@
      "question_type": "structured",
      "problem_md": "Suggest how the student could improve the quality of his data.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "any one from:\n• take repeats and find mean;\n• extend the range of the results;\n• measure more intermediate positions;\n• repeat to {identify/remove} anomalies;\n• plot a graph to spot anomalies;",
+     "mark_points": [
+      {
+       "id": "2021-11-5-a-iii-MP1",
+       "marks": 1,
+       "text_md": "any one from:\n• take repeats and find mean;\n• extend the range of the results;\n• measure more intermediate positions;\n• repeat to {identify/remove} anomalies;\n• plot a graph to spot anomalies;"
+      }
+     ],
      "source_page": 9,
      "assets": [],
      "spec_point_codes": [],
@@ -717,12 +785,12 @@
      "problem_md": "Describe the relationships shown by the graph.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "any four from:\nMP1. as position of mass hanger increases, reading\non newton meter A decreases;\nMP2. as position of mass hanger increases, reading accept “as A\non newton meter B increases; decreases, B\nincreases” for MP1 &\nMP2\nMP3. relationship(s) are linear; ignore references to\nproportionality\nMP4. idea that newton meter readings are the same\nwhen the position is 50cm;\nMP5. idea that the sum of the newton meter\nreadings is constant;\n(c) any three from:\nMP1. idea that clockwise moment equals anti- allow idea that\nclockwise moment; moments must\nbalance\nMP2. distance of mass hanger from newton meter B allow distance from\ndecreases; newton meter A\nincreases\nMP3. (therefore) anti-clockwise moment of mass\nhanger weight (about B) decreases;\nMP4. clockwise moment (of newton meter A\nreading) decreases (thereby decreasing\nreading);\nAnswer Notes Marks",
+     "solution_md": "any four from:\nMP1. as position of mass hanger increases, reading\non newton meter A decreases;\nMP2. as position of mass hanger increases, reading accept “as A\non newton meter B increases; decreases, B\nincreases” for MP1 &\nMP2\nMP3. relationship(s) are linear; ignore references to\nproportionality\nMP4. idea that newton meter readings are the same\nwhen the position is 50cm;\nMP5. idea that the sum of the newton meter\nreadings is constant;",
      "mark_points": [
       {
        "id": "2021-11-5-b-iii-MP1",
        "marks": 4,
-       "text_md": "any four from:\nMP1. as position of mass hanger increases, reading\non newton meter A decreases;\nMP2. as position of mass hanger increases, reading accept “as A\non newton meter B increases; decreases, B\nincreases” for MP1 &\nMP2\nMP3. relationship(s) are linear; ignore references to\nproportionality\nMP4. idea that newton meter readings are the same\nwhen the position is 50cm;\nMP5. idea that the sum of the newton meter\nreadings is constant;\n(c) any three from:\nMP1. idea that clockwise moment equals anti- allow idea that\nclockwise moment; moments must\nbalance\nMP2. distance of mass hanger from newton meter B allow distance from\ndecreases; newton meter A\nincreases\nMP3. (therefore) anti-clockwise moment of mass\nhanger weight (about B) decreases;\nMP4. clockwise moment (of newton meter A\nreading) decreases (thereby decreasing\nreading);\nAnswer Notes Marks"
+       "text_md": "any four from:\nMP1. as position of mass hanger increases, reading\non newton meter A decreases;\nMP2. as position of mass hanger increases, reading accept “as A\non newton meter B increases; decreases, B\nincreases” for MP1 &\nMP2\nMP3. relationship(s) are linear; ignore references to\nproportionality\nMP4. idea that newton meter readings are the same\nwhen the position is 50cm;\nMP5. idea that the sum of the newton meter\nreadings is constant;"
       }
      ],
      "source_page": 11,
@@ -756,7 +824,15 @@
      "question_type": "structured",
      "problem_md": "Using ideas about moments, explain why the reading on newton meter A decreases as the mass hanger is moved towards newton meter B.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "any three from:\nMP1. idea that clockwise moment equals anti- allow idea that\nclockwise moment; moments must\nbalance\nMP2. distance of mass hanger from newton meter B allow distance from\ndecreases; newton meter A\nincreases\nMP3. (therefore) anti-clockwise moment of mass\nhanger weight (about B) decreases;\nMP4. clockwise moment (of newton meter A\nreading) decreases (thereby decreasing\nreading);\nAnswer Notes Marks",
+     "mark_points": [
+      {
+       "id": "2021-11-5-c-MP1",
+       "marks": 3,
+       "text_md": "any three from:\nMP1. idea that clockwise moment equals anti- allow idea that\nclockwise moment; moments must\nbalance\nMP2. distance of mass hanger from newton meter B allow distance from\ndecreases; newton meter A\nincreases\nMP3. (therefore) anti-clockwise moment of mass\nhanger weight (about B) decreases;\nMP4. clockwise moment (of newton meter A\nreading) decreases (thereby decreasing\nreading);\nAnswer Notes Marks"
+      }
+     ],
      "source_page": 11,
      "assets": [],
      "spec_point_codes": [],
@@ -788,7 +864,15 @@
      "question_type": "structured",
      "problem_md": "Name a suitable metal for the core.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "(soft) iron;",
+     "mark_points": [
+      {
+       "id": "2021-11-6-a-i-MP1",
+       "marks": 1,
+       "text_md": "(soft) iron;"
+      }
+     ],
      "source_page": 13,
      "assets": [],
      "spec_point_codes": [],
@@ -806,7 +890,15 @@
      "question_type": "structured",
      "problem_md": "State what must be done to the coil of wire to produce a magnetic field.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "pass a current in the coil / eq; condone reference to\n‘electricity’",
+     "mark_points": [
+      {
+       "id": "2021-11-6-a-ii-MP1",
+       "marks": 1,
+       "text_md": "pass a current in the coil / eq; condone reference to\n‘electricity’"
+      }
+     ],
      "source_page": 13,
      "assets": [],
      "spec_point_codes": [],
@@ -946,12 +1038,12 @@
      "problem_md": "The nozzle of the paint sprayer is positively charged. Explain the advantage of using a charged nozzle. .",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "ignore statements\nrelating to paint as a\nwhole being attracted\nto the object\npaint particles are positively charged; allow idea of particles\nbeing given same\ncharge\ncondone particles being\nnegatively charged\npaint particles repel/like charges repel; Allow idea that paint\nparticles are attracted\nto the electrons in the\n(metal) object\nproducing a thin / even coat of paint; allow idea that paint\nfinish is improved\nallow idea that paint\nreaches parts that\nwould otherwise be\ndifficult\n(b) any three from:\nMP1. object becomes charged when paint particles\nland on it;\nMP2. (without earthing) further paint particles\nwould be repelled by the object as they have\nthe same charge;\nMP3. earthing discharges object; allow ‘neutralises\nobject’ or ‘object\nbecomes neutral’\nMP4. electrons transferred between Earth and\nobject;\nMP5. (earthing means) paint continues to reach\nobject/ giving thicker coat/give even\ncoverage;\nAnswer Notes Marks",
+     "solution_md": "ignore statements\nrelating to paint as a\nwhole being attracted\nto the object\npaint particles are positively charged; allow idea of particles\nbeing given same\ncharge\ncondone particles being\nnegatively charged\npaint particles repel/like charges repel; Allow idea that paint\nparticles are attracted\nto the electrons in the\n(metal) object\nproducing a thin / even coat of paint; allow idea that paint\nfinish is improved\nallow idea that paint\nreaches parts that\nwould otherwise be\ndifficult",
      "mark_points": [
       {
        "id": "2021-11-7-a-MP1",
        "marks": 3,
-       "text_md": "ignore statements\nrelating to paint as a\nwhole being attracted\nto the object\npaint particles are positively charged; allow idea of particles\nbeing given same\ncharge\ncondone particles being\nnegatively charged\npaint particles repel/like charges repel; Allow idea that paint\nparticles are attracted\nto the electrons in the\n(metal) object\nproducing a thin / even coat of paint; allow idea that paint\nfinish is improved\nallow idea that paint\nreaches parts that\nwould otherwise be\ndifficult\n(b) any three from:\nMP1. object becomes charged when paint particles\nland on it;\nMP2. (without earthing) further paint particles\nwould be repelled by the object as they have\nthe same charge;\nMP3. earthing discharges object; allow ‘neutralises\nobject’ or ‘object\nbecomes neutral’\nMP4. electrons transferred between Earth and\nobject;\nMP5. (earthing means) paint continues to reach\nobject/ giving thicker coat/give even\ncoverage;\nAnswer Notes Marks"
+       "text_md": "ignore statements\nrelating to paint as a\nwhole being attracted\nto the object\npaint particles are positively charged; allow idea of particles\nbeing given same\ncharge\ncondone particles being\nnegatively charged\npaint particles repel/like charges repel; Allow idea that paint\nparticles are attracted\nto the electrons in the\n(metal) object\nproducing a thin / even coat of paint; allow idea that paint\nfinish is improved\nallow idea that paint\nreaches parts that\nwould otherwise be\ndifficult"
       }
      ],
      "source_page": 16,
@@ -971,7 +1063,15 @@
      "question_type": "structured",
      "problem_md": "The object is an electrical conductor and is initially uncharged. Explain why the painting process would be more effective if the object were earthed. .",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "any three from:\nMP1. object becomes charged when paint particles\nland on it;\nMP2. (without earthing) further paint particles\nwould be repelled by the object as they have\nthe same charge;\nMP3. earthing discharges object; allow ‘neutralises\nobject’ or ‘object\nbecomes neutral’\nMP4. electrons transferred between Earth and\nobject;\nMP5. (earthing means) paint continues to reach\nobject/ giving thicker coat/give even\ncoverage;\nAnswer Notes Marks",
+     "mark_points": [
+      {
+       "id": "2021-11-7-b-MP1",
+       "marks": 3,
+       "text_md": "any three from:\nMP1. object becomes charged when paint particles\nland on it;\nMP2. (without earthing) further paint particles\nwould be repelled by the object as they have\nthe same charge;\nMP3. earthing discharges object; allow ‘neutralises\nobject’ or ‘object\nbecomes neutral’\nMP4. electrons transferred between Earth and\nobject;\nMP5. (earthing means) paint continues to reach\nobject/ giving thicker coat/give even\ncoverage;\nAnswer Notes Marks"
+      }
+     ],
      "source_page": 17,
      "assets": [],
      "spec_point_codes": [],
@@ -999,7 +1099,15 @@
      "question_type": "structured",
      "problem_md": "Name the piece of equipment that should be used with an oscilloscope to detect a sound wave.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "microphone;",
+     "mark_points": [
+      {
+       "id": "2021-11-8-a-i-MP1",
+       "marks": 1,
+       "text_md": "microphone;"
+      }
+     ],
      "source_page": 19,
      "assets": [],
      "spec_point_codes": [],
@@ -1017,7 +1125,15 @@
      "question_type": "structured",
      "problem_md": "Describe how an oscilloscope can be used to measure the time period of a sound wave.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "measure number of squares for a number of complete condone ‘find number\ncycles / waves and find average number of squares for of squares for one\none cycle; cycle’\naccept ‘period’ for\n‘cycle’\nmultiply number of squares for one cycle by the time\nbase / eq;\ncondone use of\n‘wavelength’ for\n‘period’ or ‘cycle’\nignore reference to T =\n1/f",
+     "mark_points": [
+      {
+       "id": "2021-11-8-a-ii-MP1",
+       "marks": 2,
+       "text_md": "measure number of squares for a number of complete condone ‘find number\ncycles / waves and find average number of squares for of squares for one\none cycle; cycle’\naccept ‘period’ for\n‘cycle’\nmultiply number of squares for one cycle by the time\nbase / eq;\ncondone use of\n‘wavelength’ for\n‘period’ or ‘cycle’\nignore reference to T =\n1/f"
+      }
+     ],
      "source_page": 19,
      "assets": [],
      "spec_point_codes": [],

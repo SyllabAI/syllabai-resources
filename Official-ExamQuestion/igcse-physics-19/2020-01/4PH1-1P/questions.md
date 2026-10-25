@@ -11,6 +11,18 @@ The passage describes some of the properties of magnets and magnetic fields. Use
 The passage describes some of the properties of magnets and magnetic fields. Use words from the box to complete the passage. aluminium copper hard negative north positive soft south steel Each word may be used once, more than once or not at all. The north pole of one magnet will repel the pole of another magnet. There is attraction between and magnets. Materials that are difficult to magnetise are called magnetic materials. The direction of the magnetic field lines for a magnet is from to south. Iron is a magnetic material.
 
 
+**Mark scheme answer**
+
+> north; this order only
+> steel;
+> hard;
+> north;
+> soft;
+> Answer Notes Marks
+
+- **(5)** north; this order only
+
+
 ## Question 2 (11 marks)
 
 A ship floats on the sea. upthrust surface of sea
@@ -25,13 +37,48 @@ The upward force acting on the ship is called upthrust. This force is shown on t
 
 > 🖼 crop required: diagram (qp.pdf p.4)
 
+
+**Mark scheme answer**
+
+> downward arrow labelled weight; ignore starting point of
+> arrow
+> allow ‘gravitational
+> force’, ‘force due to
+> gravity’
+> reject ‘gravity’
+> downward arrow is equal in length to upthrust judge by eye
+> arrow;
+
+- **(2)** downward arrow labelled weight; ignore starting point of
+
 ### 2(a)(ii) [2]
 
 Forces are vector quantities. State what is meant by the term vector quantity.
 
+
+**Mark scheme answer**
+
+> (a quantity with) magnitude; allow size, amount
+> ignore quantity,
+> measurement
+> and direction;
+
+- **(2)** (a quantity with) magnitude; allow size, amount
+
 ### 2(a)(iii) [1]
 
 Give another example of a vector quantity.
+
+
+**Mark scheme answer**
+
+> any correct vector; ignore force, any
+> named force e.g.
+> weight, upthrust etc
+> e.g. velocity, displacement, acceleration,
+> momentum etc.
+
+- **(1)** any correct vector; ignore force, any
 
 ### 2(b)(i) [1]
 
@@ -110,10 +157,6 @@ Which quantity is defined as the rate of flow of charge?
 > B is incorrect because power is the rate of energy transferred
 > C is incorrect because resistance is the ratio of voltage and current
 > D is incorrect because voltage is the energy transferred per unit charge passed
-> (b) D (voltage);
-> A is incorrect because current is the rate of flow of charge
-> B is incorrect because power is the rate of energy transferred
-> C is incorrect because resistance is the ratio of voltage and current
 
 - **(1)** Answer A: current
 
@@ -124,7 +167,17 @@ Which quantity is defined as the energy transferred per unit charge passed?
 - **(A)** current
 - **(B)** power
 - **(C)** resistance
-- **(D)** voltage
+- **(D)** voltage  ✔
+
+
+**Mark scheme answer**
+
+> D (voltage);
+> A is incorrect because current is the rate of flow of charge
+> B is incorrect because power is the rate of energy transferred
+> C is incorrect because resistance is the ratio of voltage and current
+
+- **(1)** Answer D: voltage
 
 ### 3(c)(i) [2]
 
@@ -189,13 +242,6 @@ Explain how the voltage across resistor R compares with the voltage across the b
 > (because) battery and R are connected in
 > parallel / no other resistive components on
 > loop with battery and R;
-> (d) idea that resistance (of thermistor) changes; allow even if relationship is
-> the wrong way round
-> when temperature increases, resistance ORA
-> decreases;
-> (therefore) current increases when ORA
-> temperature increases;
-> Answer Notes Marks
 
 - **(2)** idea that voltage across battery is the same as allow numerical value given
 
@@ -204,6 +250,19 @@ Explain how the voltage across resistor R compares with the voltage across the b
 Diagram 2 shows a different circuit containing a battery, an ammeter and a thermistor. A Diagram 2 Explain how the thermistor can be used to vary the current in this circuit.
 
 ![diagram — official paper figure (qp.pdf p.8)](assets/asset_3_d_diagram.png)
+
+
+**Mark scheme answer**
+
+> idea that resistance (of thermistor) changes; allow even if relationship is
+> the wrong way round
+> when temperature increases, resistance ORA
+> decreases;
+> (therefore) current increases when ORA
+> temperature increases;
+> Answer Notes Marks
+
+- **(3)** idea that resistance (of thermistor) changes; allow even if relationship is
 
 
 ## Question 4 (11 marks)
@@ -218,9 +277,30 @@ A student investigates how much pressure she exerts on the ground when she is st
 
 State the formula linking weight, mass and gravitational field strength (g).
 
+
+**Mark scheme answer**
+
+> weight = mass × gravitational field strength; allow rearrangements and
+> standard symbols e.g. W =
+> m×g
+> ignore ‘gravity’ for g
+
+- **(1)** weight = mass × gravitational field strength; allow rearrangements and
+
 ### 4(a)(ii) [2]
 
 Calculate the mass of the student. mass = kg
+
+
+**Mark scheme answer**
+
+> substitution or rearrangement;
+> evaluation;
+> e.g.
+> 520 = mass × 10 OR mass = W / g allow g = 9.8, 9.81
+> (mass =) 52 (kg) allow 53.1, 53.0, 53
+
+- **(2)** substitution or rearrangement;
 
 ### 4(b)(i) [4]
 
@@ -293,9 +373,38 @@ A bus transports passengers. © Mikbiz/Shutterstock
 
 Give the letters of the sections where the bus is stationary.
 
+
+**Mark scheme answer**
+
+> B, D, F; all required for the mark
+> reject if additional
+> sections listed
+
+- **(1)** B, D, F; all required for the mark
+
 ### 5(a)(ii) [4]
 
 Calculate the speed of the bus during section C of the journey. Give your answer in m / s. speed = m / s
+
+
+**Mark scheme answer**
+
+> use of speed = distance / time; seen anywhere
+> allow symbols
+> allow attempt to find
+> gradient of line
+> correctly read time or distance from graph;
+> conversion from minutes to seconds or km to m;
+> correct evaluation;
+> e.g.
+> v=s/t allow s = d / t
+> distance = 2.6 km or time = 2 minutes
+> distance = 2600 m or time = 120 s
+> (v =) 22 (m/s) allow 21.7, 21.6… (m/s)
+> 0.0216…, 1300 = 3 marks
+> 1.3 = 2 marks
+
+- **(4)** use of speed = distance / time; seen anywhere
 
 ### 5(a)(iii) [2]
 
@@ -303,11 +412,32 @@ Explain what the graph shows about the speed of the bus in section E compared wi
 
 ![graph — official paper figure (qp.pdf p.13)](assets/asset_5_a_iii_graph.png)
 
+
+**Mark scheme answer**
+
+> idea that speed of bus is greater in section A;
+> (because) line is steeper / gradient is larger / eq;
+
+- **(2)** idea that speed of bus is greater in section A;
+
 ### 5(b) [2]
 
 Another bus travels a distance of 7.0 km in a time of 14 minutes. This bus travels at a constant velocity. Complete the velocity-time graph to show the motion of this bus. 0.6 0.4 Velocity in km / minute 0.2 0.0 0 2 4 6 8 10 12 14 Time in minutes
 
 ![graph — official paper figure (qp.pdf p.12) — shared with asset_5_b_graph_stem](assets/asset_5_b_graph_stem.png)
+
+
+**Mark scheme answer**
+
+> single horizontal line drawn; judge by eye
+> line must extend the
+> entire length of the time
+> axis
+> horizontal line drawn at 0.5 km/minute for some
+> period of time in journey;
+> Answer Notes Marks
+
+- **(2)** single horizontal line drawn; judge by eye
 
 
 ## Question 6 (6 marks)
@@ -319,6 +449,34 @@ A teacher makes a hot drink. He puts the drink in a cup designed to keep the dri
 A teacher makes a hot drink. He puts the drink in a cup designed to keep the drink hot. The photograph and cross-section diagram both show the cup. plastic lid vacuum shiny metal outer surface shiny metal inner surface Explain how the design of the cup keeps the drink hot. Refer to methods of energy transfer in your answer.
 
 ![diagram — official paper figure (qp.pdf p.14) — shared with asset_6_q_diagram_stem](assets/asset_6_q_diagram_stem.png)
+
+
+**Mark scheme answer**
+
+> any six from:
+> MP1. cup slows down/stops energy transfer to allow idea that energy
+> surroundings; is trapped
+> ignore ‘heat is trapped’
+> relating to conduction:
+> MP2. vacuum contains no particles;
+> MP3. reducing/stopping conduction (through the
+> sides);
+> MP4. plastic (lid) is a poor conductor / good
+> insulator;
+> relating to convection:
+> MP5. air is trapped by the lid;
+> MP6. reducing/stopping convection (from the allow reducing/stopping
+> surface); evaporation
+> relating to radiation:
+> MP7. (inner) shiny surface is poor absorber of allow idea that inner
+> infrared / radiation; surface reflects heat
+> MP8. (outer) shiny surface is poor emitter of
+> infrared / radiation;
+> MP9. energy transfer by radiation
+> reduced/stopped;
+> Answer Notes Marks
+
+- **(6)** any six from:
 
 
 ## Question 7 (8 marks)
@@ -337,7 +495,17 @@ Diagram 2 shows the pressure gauge when the piston is at its initial position. 2
 **Mark scheme answer**
 
 > 24 (kPa);
-> (b) any three from:
+
+- **(1)** 24 (kPa);
+
+### 7(b) [3]
+
+The piston is pushed in so that the volume of trapped air in the syringe is halved. The temperature of the trapped air remains constant. Explain how the reading on the pressure gauge will change when the piston is pushed in.
+
+
+**Mark scheme answer**
+
+> any three from:
 > MP1. reading increases / pressure increases;
 > MP2. reading doubles / pressure doubles/ reading scores first 2 marks
 > is 48 kPa;
@@ -348,11 +516,7 @@ Diagram 2 shows the pressure gauge when the piston is at its initial position. 2
 > pressure is inversely
 > proportional to volume
 
-- **(1)** 24 (kPa);
-
-### 7(b) [3]
-
-The piston is pushed in so that the volume of trapped air in the syringe is halved. The temperature of the trapped air remains constant. Explain how the reading on the pressure gauge will change when the piston is pushed in.
+- **(3)** any three from:
 
 ### 7(c)(i) [1]
 
@@ -394,13 +558,53 @@ A car is moving along a road.
 
 State the formula linking acceleration, change in velocity and time taken.
 
+
+**Mark scheme answer**
+
+> acceleration = change in velocity / time; allow rearrangements
+> and standard symbols
+> e.g. a = v-u / t,
+> a = ∆v/t, a = ∆v/∆t
+
+- **(1)** acceleration = change in velocity / time; allow rearrangements
+
 ### 8(a)(ii) [3]
 
 Calculate the time taken for the car to accelerate to 35 m/s. time = s
 
+
+**Mark scheme answer**
+
+> substitution;
+> rearrangement;
+> evaluation;
+> e.g.
+> 1.2 = (35 – 26) / t
+> t = 9 / 1.2
+> (t =) 7.5 (s)
+
+- **(3)** substitution;
+
 ### 8(b) [4]
 
 A radar speed gun is used to measure the speed of the moving car. © Petar An/Shutterstock The radar speed gun emits radio waves towards the moving car. The moving car reflects the radio waves back to a detector on the gun. The detected radio waves have a different frequency from the emitted radio waves. This change in frequency is used to measure the speed of the moving car. Explain this change in frequency when the car is moving towards the radar speed gun.
+
+
+**Mark scheme answer**
+
+> any four from:
+> MP1. frequency increases;
+> MP2. due to Doppler effect;
+> MP3. idea that car behaves as the source of the
+> (reflected) waves;
+> MP4. (reflected) wavefronts closer together; allow “waves become
+> bunched up”
+> MP5. (reflected) wavelength decreased;
+> MP6. speed (of waves) stays constant; allow quotation of
+> v=f×λ
+> Answer Notes Marks
+
+- **(4)** any four from:
 
 
 ## Question 9 (11 marks)
@@ -418,15 +622,6 @@ Name a suitable radiation detector that the teacher could use.
 
 > Geiger-Muller tube / GM tube; allow Geiger counter, Geiger
 > meter, GM detector
-> (b) (absorbing) material; allow absorber
-> (c) any two from:
-> MP1. idea that thickness also affects the
-> count/results;
-> MP2. idea that thickness is a control
-> variable;
-> MP3. idea of making experiment valid; allow fair test for valid
-> (d) measure count over longer time / take more allow quoted time longer
-> repeats / measure background count; than 3 seconds
 
 - **(1)** Geiger-Muller tube / GM tube; allow Geiger counter, Geiger
 
@@ -434,13 +629,40 @@ Name a suitable radiation detector that the teacher could use.
 
 State the independent variable in the teacher’s investigation.
 
+
+**Mark scheme answer**
+
+> (absorbing) material; allow absorber
+
+- **(1)** (absorbing) material; allow absorber
+
 ### 9(c) [2]
 
 Explain why every absorbing material used in the investigation has a thickness of 1 cm.
 
+
+**Mark scheme answer**
+
+> any two from:
+> MP1. idea that thickness also affects the
+> count/results;
+> MP2. idea that thickness is a control
+> variable;
+> MP3. idea of making experiment valid; allow fair test for valid
+
+- **(2)** any two from:
+
 ### 9(d) [1]
 
 Suggest one improvement the teacher could make to this method.
+
+
+**Mark scheme answer**
+
+> measure count over longer time / take more allow quoted time longer
+> repeats / measure background count; than 3 seconds
+
+- **(1)** measure count over longer time / take more allow quoted time longer
 
 ### 9(e)(i) [3]
 
@@ -464,7 +686,7 @@ On the grid, plot a bar chart of the mean count rate for each absorbing material
 Why is a bar chart the correct way to display the results?
 
 - **(A)** absorbing material is a continuous variable
-- **(B)** absorbing material is not a continuous variable
+- **(B)** absorbing material is not a continuous variable  ✔
 - **(C)** count rate is a continuous variable
 - **(D)** count rate is not a continuous variable
 
@@ -476,7 +698,7 @@ Why is a bar chart the correct way to display the results?
 > C is incorrect because line graphs are drawn for continuous variables
 > D is incorrect because count rate is a continuous variable
 
-- **(1)** B (absorbing material is not a continuous variable);
+- **(1)** Answer B: absorbing material is not a continuous variable
 
 ### 9(e)(iii) [2]
 
@@ -505,17 +727,55 @@ This question is about light.
 
 Describe what happens to the light ray when it enters the prism at point A.
 
+
+**Mark scheme answer**
+
+> light {refracts, bends, changes direction,
+> changes speed, changes wavelength} = 1 mark;
+> light {refracts/bends towards normal, slows down,
+> wavelength decreases} = 2 marks;;
+
+- **(2)** light {refracts, bends, changes direction,
+
 ### 10(a)(ii) [1]
 
 State the name of line XY.
+
+
+**Mark scheme answer**
+
+> normal;
+
+- **(1)** normal;
 
 ### 10(a)(iii) [1]
 
 State the formula linking critical angle and refractive index.
 
+
+**Mark scheme answer**
+
+> sin(c) = 1/n; allow in words and
+> rearrangements
+
+- **(1)** sin(c) = 1/n; allow in words and
+
 ### 10(a)(iv) [3]
 
 The refractive index for the glass in this prism is 1.6 Calculate the critical angle for the glass in this prism. critical angle = °
+
+
+**Mark scheme answer**
+
+> substitution;
+> rearrangement;
+> evaluation;
+> e.g.
+> sin(c) = 1/1.6
+> (c =) sin-1(0.625)
+> (c =) 39 (°) allow 38.68…
+
+- **(3)** substitution;
 
 ### 10(a)(v) [2]
 
@@ -523,11 +783,35 @@ Complete Diagram 1 by continuing the path of the light ray from point B.
 
 ![diagram — official paper figure (qp.pdf p.24) — shared with asset_10_a_diagram_stem](assets/asset_10_a_diagram_stem.png)
 
+
+**Mark scheme answer**
+
+> TIR at the glass/air boundary; allow ecf from (iv) that
+> would suggest
+> refraction e.g. if
+> answer to (iv) is greater
+> than 50°
+> angle of incidence = angle of reflection; judge by eye
+
+- **(2)** TIR at the glass/air boundary; allow ecf from (iv) that
+
 ### 10(b) [2]
 
 Diagram 2 shows a similar prism that is made from a material with a different refractive index. The critical angle for the material of this prism is 55° Complete Diagram 2 by continuing the path of the light ray. air 40° light ray Diagram 2
 
 ![diagram — official paper figure (qp.pdf p.26)](assets/asset_10_b_diagram.png)
+
+
+**Mark scheme answer**
+
+> light ray is refracted out into the air; ray does not need to
+> show deviation
+> reject if ray emerges to
+> the left of the normal
+> refracting away from the normal;
+> Answer Notes Marks
+
+- **(2)** light ray is refracted out into the air; ray does not need to
 
 
 ## Question 11 (9 marks)
@@ -589,7 +873,17 @@ Explain why technetium-99m is an effective isotope to use as a medical tracer.
 > • idea that activity will fall to safe level in a allow idea that technetium
 > day / quickly; will not be in body for very
 > long
-> (c) harmful effect of gamma radiation given; e.g.
+
+- **(2)** any one from:
+
+### 11(c) [3]
+
+The gamma radiation emitted by technetium-99m is potentially harmful to humans. Discuss the risks of using technetium-99m to doctors and to patients.
+
+
+**Mark scheme answer**
+
+> harmful effect of gamma radiation given; e.g.
 > • cancer
 > • cell damage
 > • cell mutation
@@ -601,11 +895,7 @@ Explain why technetium-99m is an effective isotope to use as a medical tracer.
 > time exposure to patient (to reduce risk); patient (to reduce risk)
 > Answer Notes Marks
 
-- **(2)** any one from:
-
-### 11(c) [3]
-
-The gamma radiation emitted by technetium-99m is potentially harmful to humans. Discuss the risks of using technetium-99m to doctors and to patients.
+- **(3)** harmful effect of gamma radiation given; e.g.
 
 
 ## Question 12 (7 marks)
@@ -627,7 +917,19 @@ The diagram shows the orbital paths of Mars and Saturn. Not to scale Saturn Sun 
 > Sun need not be at a focus of
 > the ellipse, but should not be at
 > the centre of the ellipse
-> (b) attempted use of orbital speed formula;
+
+- **(2)** comet drawn in orbit around the Sun;
+
+### 12(b) [5]
+
+The table gives some information about the orbits of Mars and Saturn. Mars Saturn Orbital radius in km 2.28 × 108 1.43 × 109 Orbital speed in km/s 24.1 9.70 Mars completes a number of orbits in the time it takes for Saturn to complete one orbit. Calculate the number of orbits that Mars completes in the time it takes for Saturn to complete one orbit. number of orbits =
+
+![table — official paper figure (qp.pdf p.31)](assets/asset_12_b_table.png)
+
+
+**Mark scheme answer**
+
+> attempted use of orbital speed formula;
 > valid substitution into orbital speed formula; allow for either planet
 > correct evaluation of time period for either
 > planet;
@@ -642,11 +944,5 @@ The diagram shows the orbital paths of Mars and Saturn. Not to scale Saturn Sun 
 > Pearson Education Limited. Registered company number 872828
 > with its registered office at 80 Strand, London, WC2R 0RL, United Kingdom
 
-- **(2)** comet drawn in orbit around the Sun;
-
-### 12(b) [5]
-
-The table gives some information about the orbits of Mars and Saturn. Mars Saturn Orbital radius in km 2.28 × 108 1.43 × 109 Orbital speed in km/s 24.1 9.70 Mars completes a number of orbits in the time it takes for Saturn to complete one orbit. Calculate the number of orbits that Mars completes in the time it takes for Saturn to complete one orbit. number of orbits =
-
-![table — official paper figure (qp.pdf p.31)](assets/asset_12_b_table.png)
+- **(5)** attempted use of orbital speed formula;
 

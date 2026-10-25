@@ -1,9 +1,9 @@
 {
  "schema": "syllabai.official-paper-questions.multi-series/0.1",
- "generated_utc": "2026-10-25T20:44:54Z",
+ "generated_utc": "2026-10-25T22:19:39Z",
  "baseline": null,
- "corpus": "4PH1 1P/1PR/2P/2PR — 53 of 58 census paper dirs, all series in syllabai-pastpapers (Task 16 landing, operator order trace 1a174b2c6305cbfd; 5 dirs dispositioned: 3 archive-gap NO-QP, 1 image-only scan crash, 1 archive mislabel — see LANE-STATUS.md)",
- "converter": "official_examq_extract.py v0.17.4 (ADR-039) — restored tranche (2254347353) + F67 vertical-lane PUA gate",
+ "corpus": "4PH1 1P/1PR/2P/2PR — 53 of 58 census paper dirs, all series in syllabai-pastpapers (landed Task 16, re-generated Task 17 after the MS-table parser wave; 5 dirs dispositioned: 3 archive-gap NO-QP, 1 image-only scan crash, 1 archive mislabel — see LANE-STATUS.md)",
+ "converter": "official_examq_extract.py v0.19.0 (ADR-039) — restored tranche (2254347353) + F67 PUA gate + F72 MS-table parser wave",
  "series": [
   {
    "series": "2019-06",
@@ -13,9 +13,9 @@
     "G0-identity": "PASS",
     "G1-structure": "PASS",
     "G2-D-disclosure": "PASS",
-    "G3-mcq-integrity": "FAIL",
+    "G3-mcq-integrity": "PASS",
     "G4-figure-resolution": "PASS",
-    "G5-answer-linkage": "FAIL",
+    "G5-answer-linkage": "PASS",
     "G6-registry-codes": "PASS",
     "G7-solution-emission": "PASS"
    },
@@ -24,15 +24,15 @@
    "marks_total": 110,
    "marks_expected": 110,
    "mcq_parts": 6,
-   "mcq_keyed": 0,
-   "ms_linkage": "MS linkage 26/54 (48%)",
+   "mcq_keyed": 6,
+   "ms_linkage": "MS linkage 54/54 (100%)",
    "negative_controls": {
     "N1-mark-bump": "DETECTED",
     "N2-paraphrase": "DETECTED",
     "N3-fake-spec-code": "DETECTED"
    },
    "source_defects": null,
-   "review_queue_items": 35
+   "review_queue_items": 1
   },
   {
    "series": "2019-06",
@@ -42,9 +42,9 @@
     "G0-identity": "PASS",
     "G1-structure": "PASS",
     "G2-D-disclosure": "PASS",
-    "G3-mcq-integrity": "FAIL",
+    "G3-mcq-integrity": "PASS",
     "G4-figure-resolution": "PASS",
-    "G5-answer-linkage": "FAIL",
+    "G5-answer-linkage": "PASS",
     "G6-registry-codes": "PASS",
     "G7-solution-emission": "PASS"
    },
@@ -53,15 +53,15 @@
    "marks_total": 70,
    "marks_expected": 70,
    "mcq_parts": 3,
-   "mcq_keyed": 1,
-   "ms_linkage": "MS linkage 14/31 (45%)",
+   "mcq_keyed": 3,
+   "ms_linkage": "MS linkage 31/31 (100%)",
    "negative_controls": {
     "N1-mark-bump": "DETECTED",
     "N2-paraphrase": "DETECTED",
     "N3-fake-spec-code": "DETECTED"
    },
    "source_defects": null,
-   "review_queue_items": 19
+   "review_queue_items": 0
   },
   {
    "series": "2019-06",
@@ -71,9 +71,9 @@
     "G0-identity": "PASS",
     "G1-structure": "PASS",
     "G2-D-disclosure": "PASS",
-    "G3-mcq-integrity": "FAIL",
+    "G3-mcq-integrity": "PASS",
     "G4-figure-resolution": "PASS",
-    "G5-answer-linkage": "FAIL",
+    "G5-answer-linkage": "PASS",
     "G6-registry-codes": "PASS",
     "G7-solution-emission": "PASS"
    },
@@ -82,15 +82,15 @@
    "marks_total": 70,
    "marks_expected": 70,
    "mcq_parts": 3,
-   "mcq_keyed": 0,
-   "ms_linkage": "MS linkage 15/34 (44%)",
+   "mcq_keyed": 3,
+   "ms_linkage": "MS linkage 34/34 (100%)",
    "negative_controls": {
     "N1-mark-bump": "DETECTED",
     "N2-paraphrase": "DETECTED",
     "N3-fake-spec-code": "DETECTED"
    },
    "source_defects": null,
-   "review_queue_items": 23
+   "review_queue_items": 1
   },
   {
    "series": "2020-01",
@@ -100,9 +100,9 @@
     "G0-identity": "PASS",
     "G1-structure": "PASS",
     "G2-D-disclosure": "PASS",
-    "G3-mcq-integrity": "FAIL",
+    "G3-mcq-integrity": "PASS",
     "G4-figure-resolution": "PASS",
-    "G5-answer-linkage": "FAIL",
+    "G5-answer-linkage": "PASS",
     "G6-registry-codes": "PASS",
     "G7-solution-emission": "PASS"
    },
@@ -111,8 +111,8 @@
    "marks_total": 110,
    "marks_expected": 110,
    "mcq_parts": 3,
-   "mcq_keyed": 1,
-   "ms_linkage": "MS linkage 22/50 (44%)",
+   "mcq_keyed": 3,
+   "ms_linkage": "MS linkage 50/50 (100%)",
    "negative_controls": {
     "N1-mark-bump": "DETECTED",
     "N2-paraphrase": "DETECTED",
@@ -125,7 +125,7 @@
     ],
     "affected_questions": []
    },
-   "review_queue_items": 33
+   "review_queue_items": 3
   },
   {
    "series": "2020-01",
@@ -137,7 +137,7 @@
     "G2-D-disclosure": "PASS",
     "G3-mcq-integrity": "FAIL",
     "G4-figure-resolution": "PASS",
-    "G5-answer-linkage": "REVIEW",
+    "G5-answer-linkage": "PASS",
     "G6-registry-codes": "PASS",
     "G7-solution-emission": "PASS"
    },
@@ -146,15 +146,15 @@
    "marks_total": 110,
    "marks_expected": 110,
    "mcq_parts": 7,
-   "mcq_keyed": 2,
-   "ms_linkage": "MS linkage 32/52 (62%)",
+   "mcq_keyed": 7,
+   "ms_linkage": "MS linkage 52/52 (100%)",
    "negative_controls": {
     "N1-mark-bump": "DETECTED",
     "N2-paraphrase": "DETECTED",
     "N3-fake-spec-code": "DETECTED"
    },
    "source_defects": null,
-   "review_queue_items": 27
+   "review_queue_items": 2
   },
   {
    "series": "2020-01",
@@ -166,7 +166,7 @@
     "G2-D-disclosure": "PASS",
     "G3-mcq-integrity": "PASS",
     "G4-figure-resolution": "PASS",
-    "G5-answer-linkage": "REVIEW",
+    "G5-answer-linkage": "PASS",
     "G6-registry-codes": "PASS",
     "G7-solution-emission": "PASS"
    },
@@ -176,14 +176,14 @@
    "marks_expected": 70,
    "mcq_parts": 3,
    "mcq_keyed": 3,
-   "ms_linkage": "MS linkage 22/31 (71%)",
+   "ms_linkage": "MS linkage 31/31 (100%)",
    "negative_controls": {
     "N1-mark-bump": "DETECTED",
     "N2-paraphrase": "DETECTED",
     "N3-fake-spec-code": "DETECTED"
    },
    "source_defects": null,
-   "review_queue_items": 12
+   "review_queue_items": 3
   },
   {
    "series": "2020-01",
@@ -193,9 +193,9 @@
     "G0-identity": "PASS",
     "G1-structure": "PASS",
     "G2-D-disclosure": "PASS",
-    "G3-mcq-integrity": "FAIL",
+    "G3-mcq-integrity": "PASS",
     "G4-figure-resolution": "PASS",
-    "G5-answer-linkage": "FAIL",
+    "G5-answer-linkage": "PASS",
     "G6-registry-codes": "PASS",
     "G7-solution-emission": "PASS"
    },
@@ -204,15 +204,15 @@
    "marks_total": 70,
    "marks_expected": 70,
    "mcq_parts": 1,
-   "mcq_keyed": 0,
-   "ms_linkage": "MS linkage 13/33 (39%)",
+   "mcq_keyed": 1,
+   "ms_linkage": "MS linkage 33/33 (100%)",
    "negative_controls": {
     "N1-mark-bump": "DETECTED",
     "N2-paraphrase": "DETECTED",
     "N3-fake-spec-code": "DETECTED"
    },
    "source_defects": null,
-   "review_queue_items": 21
+   "review_queue_items": 0
   },
   {
    "series": "2020-06",
@@ -224,7 +224,7 @@
     "G2-D-disclosure": "PASS",
     "G3-mcq-integrity": "PASS",
     "G4-figure-resolution": "PASS",
-    "G5-answer-linkage": "REVIEW",
+    "G5-answer-linkage": "PASS",
     "G6-registry-codes": "PASS",
     "G7-solution-emission": "PASS"
    },
@@ -234,14 +234,14 @@
    "marks_expected": 110,
    "mcq_parts": 0,
    "mcq_keyed": 0,
-   "ms_linkage": "MS linkage 25/42 (60%)",
+   "ms_linkage": "MS linkage 42/42 (100%)",
    "negative_controls": {
     "N1-mark-bump": "DETECTED",
     "N2-paraphrase": "DETECTED",
     "N3-fake-spec-code": "DETECTED"
    },
    "source_defects": null,
-   "review_queue_items": 17
+   "review_queue_items": 0
   },
   {
    "series": "2020-06",
@@ -251,9 +251,9 @@
     "G0-identity": "PASS",
     "G1-structure": "PASS",
     "G2-D-disclosure": "PASS",
-    "G3-mcq-integrity": "FAIL",
+    "G3-mcq-integrity": "PASS",
     "G4-figure-resolution": "PASS",
-    "G5-answer-linkage": "REVIEW",
+    "G5-answer-linkage": "PASS",
     "G6-registry-codes": "PASS",
     "G7-solution-emission": "PASS"
    },
@@ -262,15 +262,15 @@
    "marks_total": 110,
    "marks_expected": 110,
    "mcq_parts": 3,
-   "mcq_keyed": 2,
-   "ms_linkage": "MS linkage 27/53 (51%)",
+   "mcq_keyed": 3,
+   "ms_linkage": "MS linkage 53/53 (100%)",
    "negative_controls": {
     "N1-mark-bump": "DETECTED",
     "N2-paraphrase": "DETECTED",
     "N3-fake-spec-code": "DETECTED"
    },
    "source_defects": null,
-   "review_queue_items": 27
+   "review_queue_items": 0
   },
   {
    "series": "2020-06",
@@ -282,7 +282,7 @@
     "G2-D-disclosure": "PASS",
     "G3-mcq-integrity": "PASS",
     "G4-figure-resolution": "PASS",
-    "G5-answer-linkage": "REVIEW",
+    "G5-answer-linkage": "PASS",
     "G6-registry-codes": "PASS",
     "G7-solution-emission": "PASS"
    },
@@ -292,14 +292,14 @@
    "marks_expected": 70,
    "mcq_parts": 1,
    "mcq_keyed": 1,
-   "ms_linkage": "MS linkage 25/35 (71%)",
+   "ms_linkage": "MS linkage 35/35 (100%)",
    "negative_controls": {
     "N1-mark-bump": "DETECTED",
     "N2-paraphrase": "DETECTED",
     "N3-fake-spec-code": "DETECTED"
    },
    "source_defects": null,
-   "review_queue_items": 11
+   "review_queue_items": 1
   },
   {
    "series": "2020-06",
@@ -309,9 +309,9 @@
     "G0-identity": "PASS",
     "G1-structure": "PASS",
     "G2-D-disclosure": "PASS",
-    "G3-mcq-integrity": "FAIL",
+    "G3-mcq-integrity": "PASS",
     "G4-figure-resolution": "PASS",
-    "G5-answer-linkage": "REVIEW",
+    "G5-answer-linkage": "PASS",
     "G6-registry-codes": "PASS",
     "G7-solution-emission": "PASS"
    },
@@ -320,15 +320,15 @@
    "marks_total": 70,
    "marks_expected": 70,
    "mcq_parts": 4,
-   "mcq_keyed": 0,
-   "ms_linkage": "MS linkage 22/36 (61%)",
+   "mcq_keyed": 4,
+   "ms_linkage": "MS linkage 36/36 (100%)",
    "negative_controls": {
     "N1-mark-bump": "DETECTED",
     "N2-paraphrase": "DETECTED",
     "N3-fake-spec-code": "DETECTED"
    },
    "source_defects": null,
-   "review_queue_items": 19
+   "review_queue_items": 1
   },
   {
    "series": "2020-11",
@@ -340,7 +340,7 @@
     "G2-D-disclosure": "PASS",
     "G3-mcq-integrity": "PASS",
     "G4-figure-resolution": "PASS",
-    "G5-answer-linkage": "REVIEW",
+    "G5-answer-linkage": "PASS",
     "G6-registry-codes": "PASS",
     "G7-solution-emission": "PASS"
    },
@@ -350,14 +350,14 @@
    "marks_expected": 110,
    "mcq_parts": 0,
    "mcq_keyed": 0,
-   "ms_linkage": "MS linkage 25/42 (60%)",
+   "ms_linkage": "MS linkage 42/42 (100%)",
    "negative_controls": {
     "N1-mark-bump": "DETECTED",
     "N2-paraphrase": "DETECTED",
     "N3-fake-spec-code": "DETECTED"
    },
    "source_defects": null,
-   "review_queue_items": 17
+   "review_queue_items": 0
   },
   {
    "series": "2021-01",
@@ -367,9 +367,9 @@
     "G0-identity": "PASS",
     "G1-structure": "PASS",
     "G2-D-disclosure": "PASS",
-    "G3-mcq-integrity": "FAIL",
+    "G3-mcq-integrity": "PASS",
     "G4-figure-resolution": "PASS",
-    "G5-answer-linkage": "REVIEW",
+    "G5-answer-linkage": "PASS",
     "G6-registry-codes": "PASS",
     "G7-solution-emission": "PASS"
    },
@@ -378,8 +378,8 @@
    "marks_total": 110,
    "marks_expected": 110,
    "mcq_parts": 2,
-   "mcq_keyed": 1,
-   "ms_linkage": "MS linkage 29/50 (58%)",
+   "mcq_keyed": 2,
+   "ms_linkage": "MS linkage 50/50 (100%)",
    "negative_controls": {
     "N1-mark-bump": "DETECTED",
     "N2-paraphrase": "DETECTED",
@@ -393,7 +393,7 @@
     ],
     "affected_questions": []
    },
-   "review_queue_items": 22
+   "review_queue_items": 0
   },
   {
    "series": "2021-01",
@@ -405,7 +405,7 @@
     "G2-D-disclosure": "PASS",
     "G3-mcq-integrity": "PASS",
     "G4-figure-resolution": "PASS",
-    "G5-answer-linkage": "FAIL",
+    "G5-answer-linkage": "PASS",
     "G6-registry-codes": "PASS",
     "G7-solution-emission": "PASS"
    },
@@ -415,7 +415,7 @@
    "marks_expected": 110,
    "mcq_parts": 2,
    "mcq_keyed": 2,
-   "ms_linkage": "MS linkage 21/47 (45%)",
+   "ms_linkage": "MS linkage 47/47 (100%)",
    "negative_controls": {
     "N1-mark-bump": "DETECTED",
     "N2-paraphrase": "DETECTED",
@@ -429,7 +429,7 @@
     ],
     "affected_questions": []
    },
-   "review_queue_items": 28
+   "review_queue_items": 2
   },
   {
    "series": "2021-01",
@@ -441,7 +441,7 @@
     "G2-D-disclosure": "PASS",
     "G3-mcq-integrity": "PASS",
     "G4-figure-resolution": "PASS",
-    "G5-answer-linkage": "FAIL",
+    "G5-answer-linkage": "PASS",
     "G6-registry-codes": "PASS",
     "G7-solution-emission": "PASS"
    },
@@ -451,7 +451,7 @@
    "marks_expected": 70,
    "mcq_parts": 3,
    "mcq_keyed": 3,
-   "ms_linkage": "MS linkage 18/37 (49%)",
+   "ms_linkage": "MS linkage 37/37 (100%)",
    "negative_controls": {
     "N1-mark-bump": "DETECTED",
     "N2-paraphrase": "DETECTED",
@@ -464,7 +464,7 @@
     ],
     "affected_questions": []
    },
-   "review_queue_items": 22
+   "review_queue_items": 3
   },
   {
    "series": "2021-01",
@@ -474,9 +474,9 @@
     "G0-identity": "PASS",
     "G1-structure": "PASS",
     "G2-D-disclosure": "PASS",
-    "G3-mcq-integrity": "FAIL",
+    "G3-mcq-integrity": "PASS",
     "G4-figure-resolution": "PASS",
-    "G5-answer-linkage": "REVIEW",
+    "G5-answer-linkage": "PASS",
     "G6-registry-codes": "PASS",
     "G7-solution-emission": "PASS"
    },
@@ -485,8 +485,8 @@
    "marks_total": 70,
    "marks_expected": 70,
    "mcq_parts": 3,
-   "mcq_keyed": 0,
-   "ms_linkage": "MS linkage 21/33 (64%)",
+   "mcq_keyed": 3,
+   "ms_linkage": "MS linkage 33/33 (100%)",
    "negative_controls": {
     "N1-mark-bump": "DETECTED",
     "N2-paraphrase": "DETECTED",
@@ -500,7 +500,7 @@
     ],
     "affected_questions": []
    },
-   "review_queue_items": 16
+   "review_queue_items": 1
   },
   {
    "series": "2021-06",
@@ -510,9 +510,9 @@
     "G0-identity": "PASS",
     "G1-structure": "PASS",
     "G2-D-disclosure": "PASS",
-    "G3-mcq-integrity": "FAIL",
+    "G3-mcq-integrity": "PASS",
     "G4-figure-resolution": "PASS",
-    "G5-answer-linkage": "REVIEW",
+    "G5-answer-linkage": "PASS",
     "G6-registry-codes": "PASS",
     "G7-solution-emission": "PASS"
    },
@@ -521,8 +521,8 @@
    "marks_total": 110,
    "marks_expected": 110,
    "mcq_parts": 3,
-   "mcq_keyed": 0,
-   "ms_linkage": "MS linkage 25/48 (52%)",
+   "mcq_keyed": 3,
+   "ms_linkage": "MS linkage 48/48 (100%)",
    "negative_controls": {
     "N1-mark-bump": "DETECTED",
     "N2-paraphrase": "DETECTED",
@@ -534,7 +534,7 @@
     ],
     "affected_questions": []
    },
-   "review_queue_items": 29
+   "review_queue_items": 3
   },
   {
    "series": "2021-06",
@@ -544,9 +544,9 @@
     "G0-identity": "PASS",
     "G1-structure": "PASS",
     "G2-D-disclosure": "PASS",
-    "G3-mcq-integrity": "FAIL",
+    "G3-mcq-integrity": "PASS",
     "G4-figure-resolution": "PASS",
-    "G5-answer-linkage": "REVIEW",
+    "G5-answer-linkage": "PASS",
     "G6-registry-codes": "PASS",
     "G7-solution-emission": "PASS"
    },
@@ -555,8 +555,8 @@
    "marks_total": 70,
    "marks_expected": 70,
    "mcq_parts": 3,
-   "mcq_keyed": 2,
-   "ms_linkage": "MS linkage 16/32 (50%)",
+   "mcq_keyed": 3,
+   "ms_linkage": "MS linkage 32/32 (100%)",
    "negative_controls": {
     "N1-mark-bump": "DETECTED",
     "N2-paraphrase": "DETECTED",
@@ -570,7 +570,7 @@
     ],
     "affected_questions": []
    },
-   "review_queue_items": 17
+   "review_queue_items": 0
   },
   {
    "series": "2021-11",
@@ -580,9 +580,9 @@
     "G0-identity": "PASS",
     "G1-structure": "PASS",
     "G2-D-disclosure": "PASS",
-    "G3-mcq-integrity": "FAIL",
+    "G3-mcq-integrity": "PASS",
     "G4-figure-resolution": "PASS",
-    "G5-answer-linkage": "REVIEW",
+    "G5-answer-linkage": "PASS",
     "G6-registry-codes": "PASS",
     "G7-solution-emission": "PASS"
    },
@@ -591,8 +591,8 @@
    "marks_total": 110,
    "marks_expected": 110,
    "mcq_parts": 3,
-   "mcq_keyed": 2,
-   "ms_linkage": "MS linkage 33/53 (62%)",
+   "mcq_keyed": 3,
+   "ms_linkage": "MS linkage 53/53 (100%)",
    "negative_controls": {
     "N1-mark-bump": "DETECTED",
     "N2-paraphrase": "DETECTED",
@@ -606,7 +606,7 @@
     ],
     "affected_questions": []
    },
-   "review_queue_items": 23
+   "review_queue_items": 2
   },
   {
    "series": "2021-11",
@@ -616,9 +616,9 @@
     "G0-identity": "PASS",
     "G1-structure": "PASS",
     "G2-D-disclosure": "PASS",
-    "G3-mcq-integrity": "FAIL",
+    "G3-mcq-integrity": "PASS",
     "G4-figure-resolution": "PASS",
-    "G5-answer-linkage": "REVIEW",
+    "G5-answer-linkage": "PASS",
     "G6-registry-codes": "PASS",
     "G7-solution-emission": "PASS"
    },
@@ -627,8 +627,8 @@
    "marks_total": 70,
    "marks_expected": 70,
    "mcq_parts": 3,
-   "mcq_keyed": 2,
-   "ms_linkage": "MS linkage 23/37 (62%)",
+   "mcq_keyed": 3,
+   "ms_linkage": "MS linkage 37/37 (100%)",
    "negative_controls": {
     "N1-mark-bump": "DETECTED",
     "N2-paraphrase": "DETECTED",
@@ -644,7 +644,7 @@
     ],
     "affected_questions": []
    },
-   "review_queue_items": 16
+   "review_queue_items": 1
   },
   {
    "series": "2022-01",
@@ -654,9 +654,9 @@
     "G0-identity": "PASS",
     "G1-structure": "PASS",
     "G2-D-disclosure": "PASS",
-    "G3-mcq-integrity": "FAIL",
+    "G3-mcq-integrity": "PASS",
     "G4-figure-resolution": "PASS",
-    "G5-answer-linkage": "REVIEW",
+    "G5-answer-linkage": "PASS",
     "G6-registry-codes": "PASS",
     "G7-solution-emission": "PASS"
    },
@@ -665,8 +665,8 @@
    "marks_total": 110,
    "marks_expected": 110,
    "mcq_parts": 4,
-   "mcq_keyed": 1,
-   "ms_linkage": "MS linkage 34/55 (62%)",
+   "mcq_keyed": 4,
+   "ms_linkage": "MS linkage 55/55 (100%)",
    "negative_controls": {
     "N1-mark-bump": "DETECTED",
     "N2-paraphrase": "DETECTED",
@@ -681,7 +681,7 @@
     ],
     "affected_questions": []
    },
-   "review_queue_items": 24
+   "review_queue_items": 0
   },
   {
    "series": "2022-01",
@@ -691,9 +691,9 @@
     "G0-identity": "PASS",
     "G1-structure": "PASS",
     "G2-D-disclosure": "PASS",
-    "G3-mcq-integrity": "FAIL",
+    "G3-mcq-integrity": "PASS",
     "G4-figure-resolution": "PASS",
-    "G5-answer-linkage": "REVIEW",
+    "G5-answer-linkage": "PASS",
     "G6-registry-codes": "PASS",
     "G7-solution-emission": "PASS"
    },
@@ -702,8 +702,8 @@
    "marks_total": 110,
    "marks_expected": 110,
    "mcq_parts": 3,
-   "mcq_keyed": 2,
-   "ms_linkage": "MS linkage 27/49 (55%)",
+   "mcq_keyed": 3,
+   "ms_linkage": "MS linkage 49/49 (100%)",
    "negative_controls": {
     "N1-mark-bump": "DETECTED",
     "N2-paraphrase": "DETECTED",
@@ -717,7 +717,7 @@
     ],
     "affected_questions": []
    },
-   "review_queue_items": 25
+   "review_queue_items": 2
   },
   {
    "series": "2022-01",
@@ -727,9 +727,9 @@
     "G0-identity": "PASS",
     "G1-structure": "PASS",
     "G2-D-disclosure": "PASS",
-    "G3-mcq-integrity": "FAIL",
+    "G3-mcq-integrity": "PASS",
     "G4-figure-resolution": "PASS",
-    "G5-answer-linkage": "REVIEW",
+    "G5-answer-linkage": "PASS",
     "G6-registry-codes": "PASS",
     "G7-solution-emission": "PASS"
    },
@@ -738,8 +738,8 @@
    "marks_total": 70,
    "marks_expected": 70,
    "mcq_parts": 3,
-   "mcq_keyed": 0,
-   "ms_linkage": "MS linkage 20/31 (65%)",
+   "mcq_keyed": 3,
+   "ms_linkage": "MS linkage 31/31 (100%)",
    "negative_controls": {
     "N1-mark-bump": "DETECTED",
     "N2-paraphrase": "DETECTED",
@@ -752,7 +752,7 @@
     ],
     "affected_questions": []
    },
-   "review_queue_items": 14
+   "review_queue_items": 0
   },
   {
    "series": "2022-01",
@@ -762,9 +762,9 @@
     "G0-identity": "PASS",
     "G1-structure": "PASS",
     "G2-D-disclosure": "PASS",
-    "G3-mcq-integrity": "FAIL",
+    "G3-mcq-integrity": "PASS",
     "G4-figure-resolution": "PASS",
-    "G5-answer-linkage": "REVIEW",
+    "G5-answer-linkage": "PASS",
     "G6-registry-codes": "PASS",
     "G7-solution-emission": "PASS"
    },
@@ -773,8 +773,8 @@
    "marks_total": 70,
    "marks_expected": 70,
    "mcq_parts": 1,
-   "mcq_keyed": 0,
-   "ms_linkage": "MS linkage 17/30 (57%)",
+   "mcq_keyed": 1,
+   "ms_linkage": "MS linkage 30/30 (100%)",
    "negative_controls": {
     "N1-mark-bump": "DETECTED",
     "N2-paraphrase": "DETECTED",
@@ -788,7 +788,7 @@
     ],
     "affected_questions": []
    },
-   "review_queue_items": 14
+   "review_queue_items": 0
   },
   {
    "series": "2022-06",
@@ -798,9 +798,9 @@
     "G0-identity": "PASS",
     "G1-structure": "PASS",
     "G2-D-disclosure": "PASS",
-    "G3-mcq-integrity": "FAIL",
+    "G3-mcq-integrity": "PASS",
     "G4-figure-resolution": "PASS",
-    "G5-answer-linkage": "REVIEW",
+    "G5-answer-linkage": "PASS",
     "G6-registry-codes": "PASS",
     "G7-solution-emission": "PASS"
    },
@@ -809,15 +809,15 @@
    "marks_total": 110,
    "marks_expected": 110,
    "mcq_parts": 6,
-   "mcq_keyed": 2,
-   "ms_linkage": "MS linkage 42/59 (71%)",
+   "mcq_keyed": 6,
+   "ms_linkage": "MS linkage 59/59 (100%)",
    "negative_controls": {
     "N1-mark-bump": "DETECTED",
     "N2-paraphrase": "DETECTED",
     "N3-fake-spec-code": "DETECTED"
    },
    "source_defects": null,
-   "review_queue_items": 22
+   "review_queue_items": 1
   },
   {
    "series": "2022-06",
@@ -827,9 +827,9 @@
     "G0-identity": "PASS",
     "G1-structure": "PASS",
     "G2-D-disclosure": "PASS",
-    "G3-mcq-integrity": "FAIL",
+    "G3-mcq-integrity": "PASS",
     "G4-figure-resolution": "PASS",
-    "G5-answer-linkage": "REVIEW",
+    "G5-answer-linkage": "PASS",
     "G6-registry-codes": "PASS",
     "G7-solution-emission": "PASS"
    },
@@ -838,8 +838,8 @@
    "marks_total": 110,
    "marks_expected": 110,
    "mcq_parts": 3,
-   "mcq_keyed": 1,
-   "ms_linkage": "MS linkage 27/49 (55%)",
+   "mcq_keyed": 3,
+   "ms_linkage": "MS linkage 49/49 (100%)",
    "negative_controls": {
     "N1-mark-bump": "DETECTED",
     "N2-paraphrase": "DETECTED",
@@ -851,7 +851,7 @@
     ],
     "affected_questions": []
    },
-   "review_queue_items": 25
+   "review_queue_items": 1
   },
   {
    "series": "2022-06",
@@ -863,7 +863,7 @@
     "G2-D-disclosure": "PASS",
     "G3-mcq-integrity": "PASS",
     "G4-figure-resolution": "PASS",
-    "G5-answer-linkage": "REVIEW",
+    "G5-answer-linkage": "PASS",
     "G6-registry-codes": "PASS",
     "G7-solution-emission": "PASS"
    },
@@ -873,7 +873,7 @@
    "marks_expected": 70,
    "mcq_parts": 1,
    "mcq_keyed": 1,
-   "ms_linkage": "MS linkage 22/31 (71%)",
+   "ms_linkage": "MS linkage 31/31 (100%)",
    "negative_controls": {
     "N1-mark-bump": "DETECTED",
     "N2-paraphrase": "DETECTED",
@@ -887,7 +887,7 @@
     ],
     "affected_questions": []
    },
-   "review_queue_items": 12
+   "review_queue_items": 3
   },
   {
    "series": "2022-06",
@@ -899,7 +899,7 @@
     "G2-D-disclosure": "PASS",
     "G3-mcq-integrity": "FAIL",
     "G4-figure-resolution": "PASS",
-    "G5-answer-linkage": "REVIEW",
+    "G5-answer-linkage": "PASS",
     "G6-registry-codes": "PASS",
     "G7-solution-emission": "PASS"
    },
@@ -909,7 +909,7 @@
    "marks_expected": 70,
    "mcq_parts": 1,
    "mcq_keyed": 0,
-   "ms_linkage": "MS linkage 19/30 (63%)",
+   "ms_linkage": "MS linkage 30/30 (100%)",
    "negative_controls": {
     "N1-mark-bump": "DETECTED",
     "N2-paraphrase": "DETECTED",
@@ -923,7 +923,7 @@
     ],
     "affected_questions": []
    },
-   "review_queue_items": 12
+   "review_queue_items": 1
   },
   {
    "series": "2023-01",
@@ -933,9 +933,9 @@
     "G0-identity": "PASS",
     "G1-structure": "PASS",
     "G2-D-disclosure": "PASS",
-    "G3-mcq-integrity": "FAIL",
+    "G3-mcq-integrity": "PASS",
     "G4-figure-resolution": "PASS",
-    "G5-answer-linkage": "REVIEW",
+    "G5-answer-linkage": "PASS",
     "G6-registry-codes": "PASS",
     "G7-solution-emission": "PASS"
    },
@@ -944,8 +944,8 @@
    "marks_total": 110,
    "marks_expected": 110,
    "mcq_parts": 3,
-   "mcq_keyed": 2,
-   "ms_linkage": "MS linkage 27/50 (54%)",
+   "mcq_keyed": 3,
+   "ms_linkage": "MS linkage 50/50 (100%)",
    "negative_controls": {
     "N1-mark-bump": "DETECTED",
     "N2-paraphrase": "DETECTED",
@@ -960,7 +960,7 @@
     ],
     "affected_questions": []
    },
-   "review_queue_items": 27
+   "review_queue_items": 3
   },
   {
    "series": "2023-01",
@@ -970,9 +970,9 @@
     "G0-identity": "PASS",
     "G1-structure": "PASS",
     "G2-D-disclosure": "PASS",
-    "G3-mcq-integrity": "FAIL",
+    "G3-mcq-integrity": "PASS",
     "G4-figure-resolution": "PASS",
-    "G5-answer-linkage": "FAIL",
+    "G5-answer-linkage": "PASS",
     "G6-registry-codes": "PASS",
     "G7-solution-emission": "PASS"
    },
@@ -981,8 +981,8 @@
    "marks_total": 110,
    "marks_expected": 110,
    "mcq_parts": 2,
-   "mcq_keyed": 0,
-   "ms_linkage": "MS linkage 26/55 (47%)",
+   "mcq_keyed": 2,
+   "ms_linkage": "MS linkage 55/55 (100%)",
    "negative_controls": {
     "N1-mark-bump": "DETECTED",
     "N2-paraphrase": "DETECTED",
@@ -996,7 +996,7 @@
     ],
     "affected_questions": []
    },
-   "review_queue_items": 32
+   "review_queue_items": 1
   },
   {
    "series": "2023-01",
@@ -1008,7 +1008,7 @@
     "G2-D-disclosure": "PASS",
     "G3-mcq-integrity": "PASS",
     "G4-figure-resolution": "PASS",
-    "G5-answer-linkage": "FAIL",
+    "G5-answer-linkage": "PASS",
     "G6-registry-codes": "PASS",
     "G7-solution-emission": "PASS"
    },
@@ -1018,7 +1018,7 @@
    "marks_expected": 70,
    "mcq_parts": 0,
    "mcq_keyed": 0,
-   "ms_linkage": "MS linkage 12/28 (43%)",
+   "ms_linkage": "MS linkage 28/28 (100%)",
    "negative_controls": {
     "N1-mark-bump": "DETECTED",
     "N2-paraphrase": "DETECTED",
@@ -1030,7 +1030,7 @@
     ],
     "affected_questions": []
    },
-   "review_queue_items": 16
+   "review_queue_items": 0
   },
   {
    "series": "2023-01",
@@ -1042,7 +1042,7 @@
     "G2-D-disclosure": "PASS",
     "G3-mcq-integrity": "PASS",
     "G4-figure-resolution": "PASS",
-    "G5-answer-linkage": "REVIEW",
+    "G5-answer-linkage": "PASS",
     "G6-registry-codes": "PASS",
     "G7-solution-emission": "PASS"
    },
@@ -1052,7 +1052,7 @@
    "marks_expected": 70,
    "mcq_parts": 1,
    "mcq_keyed": 1,
-   "ms_linkage": "MS linkage 18/34 (53%)",
+   "ms_linkage": "MS linkage 34/34 (100%)",
    "negative_controls": {
     "N1-mark-bump": "DETECTED",
     "N2-paraphrase": "DETECTED",
@@ -1064,7 +1064,7 @@
     ],
     "affected_questions": []
    },
-   "review_queue_items": 17
+   "review_queue_items": 1
   },
   {
    "series": "2023-06",
@@ -1074,9 +1074,9 @@
     "G0-identity": "PASS",
     "G1-structure": "PASS",
     "G2-D-disclosure": "PASS",
-    "G3-mcq-integrity": "FAIL",
+    "G3-mcq-integrity": "PASS",
     "G4-figure-resolution": "PASS",
-    "G5-answer-linkage": "REVIEW",
+    "G5-answer-linkage": "PASS",
     "G6-registry-codes": "PASS",
     "G7-solution-emission": "PASS"
    },
@@ -1085,15 +1085,15 @@
    "marks_total": 110,
    "marks_expected": 110,
    "mcq_parts": 2,
-   "mcq_keyed": 1,
-   "ms_linkage": "MS linkage 28/45 (62%)",
+   "mcq_keyed": 2,
+   "ms_linkage": "MS linkage 45/45 (100%)",
    "negative_controls": {
     "N1-mark-bump": "DETECTED",
     "N2-paraphrase": "DETECTED",
     "N3-fake-spec-code": "DETECTED"
    },
    "source_defects": null,
-   "review_queue_items": 19
+   "review_queue_items": 1
   },
   {
    "series": "2023-06",
@@ -1103,9 +1103,9 @@
     "G0-identity": "PASS",
     "G1-structure": "PASS",
     "G2-D-disclosure": "PASS",
-    "G3-mcq-integrity": "FAIL",
+    "G3-mcq-integrity": "PASS",
     "G4-figure-resolution": "PASS",
-    "G5-answer-linkage": "REVIEW",
+    "G5-answer-linkage": "PASS",
     "G6-registry-codes": "PASS",
     "G7-solution-emission": "PASS"
    },
@@ -1114,8 +1114,8 @@
    "marks_total": 110,
    "marks_expected": 110,
    "mcq_parts": 4,
-   "mcq_keyed": 3,
-   "ms_linkage": "MS linkage 24/46 (52%)",
+   "mcq_keyed": 4,
+   "ms_linkage": "MS linkage 46/46 (100%)",
    "negative_controls": {
     "N1-mark-bump": "DETECTED",
     "N2-paraphrase": "DETECTED",
@@ -1130,7 +1130,7 @@
     ],
     "affected_questions": []
    },
-   "review_queue_items": 27
+   "review_queue_items": 4
   },
   {
    "series": "2023-06",
@@ -1142,7 +1142,7 @@
     "G2-D-disclosure": "PASS",
     "G3-mcq-integrity": "FAIL",
     "G4-figure-resolution": "PASS",
-    "G5-answer-linkage": "REVIEW",
+    "G5-answer-linkage": "PASS",
     "G6-registry-codes": "PASS",
     "G7-solution-emission": "PASS"
    },
@@ -1152,14 +1152,14 @@
    "marks_expected": 70,
    "mcq_parts": 1,
    "mcq_keyed": 1,
-   "ms_linkage": "MS linkage 21/30 (70%)",
+   "ms_linkage": "MS linkage 30/30 (100%)",
    "negative_controls": {
     "N1-mark-bump": "DETECTED",
     "N2-paraphrase": "DETECTED",
     "N3-fake-spec-code": "DETECTED"
    },
    "source_defects": null,
-   "review_queue_items": 11
+   "review_queue_items": 2
   },
   {
    "series": "2023-11",
@@ -1169,9 +1169,9 @@
     "G0-identity": "PASS",
     "G1-structure": "PASS",
     "G2-D-disclosure": "PASS",
-    "G3-mcq-integrity": "FAIL",
+    "G3-mcq-integrity": "PASS",
     "G4-figure-resolution": "PASS",
-    "G5-answer-linkage": "REVIEW",
+    "G5-answer-linkage": "PASS",
     "G6-registry-codes": "PASS",
     "G7-solution-emission": "PASS"
    },
@@ -1180,15 +1180,15 @@
    "marks_total": 110,
    "marks_expected": 110,
    "mcq_parts": 3,
-   "mcq_keyed": 1,
-   "ms_linkage": "MS linkage 28/49 (57%)",
+   "mcq_keyed": 3,
+   "ms_linkage": "MS linkage 49/49 (100%)",
    "negative_controls": {
     "N1-mark-bump": "DETECTED",
     "N2-paraphrase": "DETECTED",
     "N3-fake-spec-code": "DETECTED"
    },
    "source_defects": null,
-   "review_queue_items": 25
+   "review_queue_items": 2
   },
   {
    "series": "2023-11",
@@ -1198,9 +1198,9 @@
     "G0-identity": "PASS",
     "G1-structure": "PASS",
     "G2-D-disclosure": "PASS",
-    "G3-mcq-integrity": "FAIL",
+    "G3-mcq-integrity": "PASS",
     "G4-figure-resolution": "PASS",
-    "G5-answer-linkage": "REVIEW",
+    "G5-answer-linkage": "PASS",
     "G6-registry-codes": "PASS",
     "G7-solution-emission": "PASS"
    },
@@ -1209,15 +1209,15 @@
    "marks_total": 70,
    "marks_expected": 70,
    "mcq_parts": 1,
-   "mcq_keyed": 0,
-   "ms_linkage": "MS linkage 22/29 (76%)",
+   "mcq_keyed": 1,
+   "ms_linkage": "MS linkage 29/29 (100%)",
    "negative_controls": {
     "N1-mark-bump": "DETECTED",
     "N2-paraphrase": "DETECTED",
     "N3-fake-spec-code": "DETECTED"
    },
    "source_defects": null,
-   "review_queue_items": 8
+   "review_queue_items": 0
   },
   {
    "series": "2024-06",
@@ -1227,9 +1227,9 @@
     "G0-identity": "PASS",
     "G1-structure": "PASS",
     "G2-D-disclosure": "PASS",
-    "G3-mcq-integrity": "FAIL",
+    "G3-mcq-integrity": "PASS",
     "G4-figure-resolution": "PASS",
-    "G5-answer-linkage": "REVIEW",
+    "G5-answer-linkage": "PASS",
     "G6-registry-codes": "PASS",
     "G7-solution-emission": "PASS"
    },
@@ -1238,15 +1238,15 @@
    "marks_total": 110,
    "marks_expected": 110,
    "mcq_parts": 4,
-   "mcq_keyed": 1,
-   "ms_linkage": "MS linkage 31/51 (61%)",
+   "mcq_keyed": 4,
+   "ms_linkage": "MS linkage 51/51 (100%)",
    "negative_controls": {
     "N1-mark-bump": "DETECTED",
     "N2-paraphrase": "DETECTED",
     "N3-fake-spec-code": "DETECTED"
    },
    "source_defects": null,
-   "review_queue_items": 26
+   "review_queue_items": 3
   },
   {
    "series": "2024-06",
@@ -1256,9 +1256,9 @@
     "G0-identity": "PASS",
     "G1-structure": "PASS",
     "G2-D-disclosure": "PASS",
-    "G3-mcq-integrity": "FAIL",
+    "G3-mcq-integrity": "PASS",
     "G4-figure-resolution": "PASS",
-    "G5-answer-linkage": "REVIEW",
+    "G5-answer-linkage": "PASS",
     "G6-registry-codes": "PASS",
     "G7-solution-emission": "PASS"
    },
@@ -1267,15 +1267,15 @@
    "marks_total": 110,
    "marks_expected": 110,
    "mcq_parts": 2,
-   "mcq_keyed": 1,
-   "ms_linkage": "MS linkage 29/50 (58%)",
+   "mcq_keyed": 2,
+   "ms_linkage": "MS linkage 50/50 (100%)",
    "negative_controls": {
     "N1-mark-bump": "DETECTED",
     "N2-paraphrase": "DETECTED",
     "N3-fake-spec-code": "DETECTED"
    },
    "source_defects": null,
-   "review_queue_items": 24
+   "review_queue_items": 2
   },
   {
    "series": "2024-06",
@@ -1285,9 +1285,9 @@
     "G0-identity": "PASS",
     "G1-structure": "PASS",
     "G2-D-disclosure": "PASS",
-    "G3-mcq-integrity": "FAIL",
+    "G3-mcq-integrity": "PASS",
     "G4-figure-resolution": "PASS",
-    "G5-answer-linkage": "REVIEW",
+    "G5-answer-linkage": "PASS",
     "G6-registry-codes": "PASS",
     "G7-solution-emission": "PASS"
    },
@@ -1296,15 +1296,15 @@
    "marks_total": 70,
    "marks_expected": 70,
    "mcq_parts": 2,
-   "mcq_keyed": 0,
-   "ms_linkage": "MS linkage 26/33 (79%)",
+   "mcq_keyed": 2,
+   "ms_linkage": "MS linkage 33/33 (100%)",
    "negative_controls": {
     "N1-mark-bump": "DETECTED",
     "N2-paraphrase": "DETECTED",
     "N3-fake-spec-code": "DETECTED"
    },
    "source_defects": null,
-   "review_queue_items": 10
+   "review_queue_items": 1
   },
   {
    "series": "2024-06",
@@ -1316,7 +1316,7 @@
     "G2-D-disclosure": "PASS",
     "G3-mcq-integrity": "PASS",
     "G4-figure-resolution": "PASS",
-    "G5-answer-linkage": "REVIEW",
+    "G5-answer-linkage": "PASS",
     "G6-registry-codes": "PASS",
     "G7-solution-emission": "PASS"
    },
@@ -1326,14 +1326,14 @@
    "marks_expected": 70,
    "mcq_parts": 0,
    "mcq_keyed": 0,
-   "ms_linkage": "MS linkage 17/30 (57%)",
+   "ms_linkage": "MS linkage 30/30 (100%)",
    "negative_controls": {
     "N1-mark-bump": "DETECTED",
     "N2-paraphrase": "DETECTED",
     "N3-fake-spec-code": "DETECTED"
    },
    "source_defects": null,
-   "review_queue_items": 16
+   "review_queue_items": 3
   },
   {
    "series": "2024-11",
@@ -1345,7 +1345,7 @@
     "G2-D-disclosure": "PASS",
     "G3-mcq-integrity": "PASS",
     "G4-figure-resolution": "PASS",
-    "G5-answer-linkage": "REVIEW",
+    "G5-answer-linkage": "PASS",
     "G6-registry-codes": "PASS",
     "G7-solution-emission": "PASS"
    },
@@ -1355,14 +1355,14 @@
    "marks_expected": 110,
    "mcq_parts": 3,
    "mcq_keyed": 3,
-   "ms_linkage": "MS linkage 32/53 (60%)",
+   "ms_linkage": "MS linkage 53/53 (100%)",
    "negative_controls": {
     "N1-mark-bump": "DETECTED",
     "N2-paraphrase": "DETECTED",
     "N3-fake-spec-code": "DETECTED"
    },
    "source_defects": null,
-   "review_queue_items": 21
+   "review_queue_items": 0
   },
   {
    "series": "2024-11",
@@ -1372,9 +1372,9 @@
     "G0-identity": "PASS",
     "G1-structure": "PASS",
     "G2-D-disclosure": "PASS",
-    "G3-mcq-integrity": "FAIL",
+    "G3-mcq-integrity": "PASS",
     "G4-figure-resolution": "PASS",
-    "G5-answer-linkage": "REVIEW",
+    "G5-answer-linkage": "PASS",
     "G6-registry-codes": "PASS",
     "G7-solution-emission": "PASS"
    },
@@ -1383,15 +1383,15 @@
    "marks_total": 70,
    "marks_expected": 70,
    "mcq_parts": 3,
-   "mcq_keyed": 2,
-   "ms_linkage": "MS linkage 23/35 (66%)",
+   "mcq_keyed": 3,
+   "ms_linkage": "MS linkage 35/35 (100%)",
    "negative_controls": {
     "N1-mark-bump": "DETECTED",
     "N2-paraphrase": "DETECTED",
     "N3-fake-spec-code": "DETECTED"
    },
    "source_defects": null,
-   "review_queue_items": 13
+   "review_queue_items": 0
   },
   {
    "series": "2025-06",
@@ -1401,9 +1401,9 @@
     "G0-identity": "PASS",
     "G1-structure": "PASS",
     "G2-D-disclosure": "PASS",
-    "G3-mcq-integrity": "FAIL",
+    "G3-mcq-integrity": "PASS",
     "G4-figure-resolution": "PASS",
-    "G5-answer-linkage": "REVIEW",
+    "G5-answer-linkage": "PASS",
     "G6-registry-codes": "PASS",
     "G7-solution-emission": "PASS"
    },
@@ -1412,15 +1412,15 @@
    "marks_total": 110,
    "marks_expected": 110,
    "mcq_parts": 2,
-   "mcq_keyed": 0,
-   "ms_linkage": "MS linkage 28/49 (57%)",
+   "mcq_keyed": 2,
+   "ms_linkage": "MS linkage 49/49 (100%)",
    "negative_controls": {
     "N1-mark-bump": "DETECTED",
     "N2-paraphrase": "DETECTED",
     "N3-fake-spec-code": "DETECTED"
    },
    "source_defects": null,
-   "review_queue_items": 24
+   "review_queue_items": 1
   },
   {
    "series": "2025-06",
@@ -1430,9 +1430,9 @@
     "G0-identity": "PASS",
     "G1-structure": "PASS",
     "G2-D-disclosure": "PASS",
-    "G3-mcq-integrity": "FAIL",
+    "G3-mcq-integrity": "PASS",
     "G4-figure-resolution": "PASS",
-    "G5-answer-linkage": "REVIEW",
+    "G5-answer-linkage": "PASS",
     "G6-registry-codes": "PASS",
     "G7-solution-emission": "PASS"
    },
@@ -1441,15 +1441,15 @@
    "marks_total": 110,
    "marks_expected": 110,
    "mcq_parts": 4,
-   "mcq_keyed": 2,
-   "ms_linkage": "MS linkage 28/43 (65%)",
+   "mcq_keyed": 4,
+   "ms_linkage": "MS linkage 43/43 (100%)",
    "negative_controls": {
     "N1-mark-bump": "DETECTED",
     "N2-paraphrase": "DETECTED",
     "N3-fake-spec-code": "DETECTED"
    },
    "source_defects": null,
-   "review_queue_items": 18
+   "review_queue_items": 1
   },
   {
    "series": "2025-06",
@@ -1461,7 +1461,7 @@
     "G2-D-disclosure": "PASS",
     "G3-mcq-integrity": "PASS",
     "G4-figure-resolution": "PASS",
-    "G5-answer-linkage": "REVIEW",
+    "G5-answer-linkage": "PASS",
     "G6-registry-codes": "PASS",
     "G7-solution-emission": "PASS"
    },
@@ -1471,14 +1471,14 @@
    "marks_expected": 70,
    "mcq_parts": 2,
    "mcq_keyed": 2,
-   "ms_linkage": "MS linkage 16/32 (50%)",
+   "ms_linkage": "MS linkage 32/32 (100%)",
    "negative_controls": {
     "N1-mark-bump": "DETECTED",
     "N2-paraphrase": "DETECTED",
     "N3-fake-spec-code": "DETECTED"
    },
    "source_defects": null,
-   "review_queue_items": 16
+   "review_queue_items": 0
   },
   {
    "series": "2025-06",
@@ -1490,7 +1490,7 @@
     "G2-D-disclosure": "PASS",
     "G3-mcq-integrity": "PASS",
     "G4-figure-resolution": "PASS",
-    "G5-answer-linkage": "REVIEW",
+    "G5-answer-linkage": "PASS",
     "G6-registry-codes": "PASS",
     "G7-solution-emission": "PASS"
    },
@@ -1500,14 +1500,14 @@
    "marks_expected": 70,
    "mcq_parts": 1,
    "mcq_keyed": 1,
-   "ms_linkage": "MS linkage 19/31 (61%)",
+   "ms_linkage": "MS linkage 31/31 (100%)",
    "negative_controls": {
     "N1-mark-bump": "DETECTED",
     "N2-paraphrase": "DETECTED",
     "N3-fake-spec-code": "DETECTED"
    },
    "source_defects": null,
-   "review_queue_items": 12
+   "review_queue_items": 0
   },
   {
    "series": "2025-11",
@@ -1517,9 +1517,9 @@
     "G0-identity": "PASS",
     "G1-structure": "PASS",
     "G2-D-disclosure": "PASS",
-    "G3-mcq-integrity": "FAIL",
+    "G3-mcq-integrity": "PASS",
     "G4-figure-resolution": "PASS",
-    "G5-answer-linkage": "REVIEW",
+    "G5-answer-linkage": "PASS",
     "G6-registry-codes": "PASS",
     "G7-solution-emission": "PASS"
    },
@@ -1528,15 +1528,15 @@
    "marks_total": 110,
    "marks_expected": 110,
    "mcq_parts": 5,
-   "mcq_keyed": 2,
-   "ms_linkage": "MS linkage 25/50 (50%)",
+   "mcq_keyed": 5,
+   "ms_linkage": "MS linkage 50/50 (100%)",
    "negative_controls": {
     "N1-mark-bump": "DETECTED",
     "N2-paraphrase": "DETECTED",
     "N3-fake-spec-code": "DETECTED"
    },
    "source_defects": null,
-   "review_queue_items": 32
+   "review_queue_items": 4
   },
   {
    "series": "2025-11",
@@ -1546,9 +1546,9 @@
     "G0-identity": "PASS",
     "G1-structure": "PASS",
     "G2-D-disclosure": "PASS",
-    "G3-mcq-integrity": "FAIL",
+    "G3-mcq-integrity": "PASS",
     "G4-figure-resolution": "PASS",
-    "G5-answer-linkage": "FAIL",
+    "G5-answer-linkage": "PASS",
     "G6-registry-codes": "PASS",
     "G7-solution-emission": "PASS"
    },
@@ -1557,15 +1557,15 @@
    "marks_total": 70,
    "marks_expected": 70,
    "mcq_parts": 3,
-   "mcq_keyed": 1,
-   "ms_linkage": "MS linkage 16/36 (44%)",
+   "mcq_keyed": 3,
+   "ms_linkage": "MS linkage 36/36 (100%)",
    "negative_controls": {
     "N1-mark-bump": "DETECTED",
     "N2-paraphrase": "DETECTED",
     "N3-fake-spec-code": "DETECTED"
    },
    "source_defects": null,
-   "review_queue_items": 23
+   "review_queue_items": 1
   },
   {
    "series": "2026-06",
@@ -1575,9 +1575,9 @@
     "G0-identity": "PASS",
     "G1-structure": "PASS",
     "G2-D-disclosure": "PASS",
-    "G3-mcq-integrity": "FAIL",
+    "G3-mcq-integrity": "PASS",
     "G4-figure-resolution": "PASS",
-    "G5-answer-linkage": "REVIEW",
+    "G5-answer-linkage": "PASS",
     "G6-registry-codes": "PASS",
     "G7-solution-emission": "PASS"
    },
@@ -1586,15 +1586,15 @@
    "marks_total": 110,
    "marks_expected": 110,
    "mcq_parts": 3,
-   "mcq_keyed": 1,
-   "ms_linkage": "MS linkage 24/46 (52%)",
+   "mcq_keyed": 3,
+   "ms_linkage": "MS linkage 46/46 (100%)",
    "negative_controls": {
     "N1-mark-bump": "DETECTED",
     "N2-paraphrase": "DETECTED",
     "N3-fake-spec-code": "DETECTED"
    },
    "source_defects": null,
-   "review_queue_items": 27
+   "review_queue_items": 3
   },
   {
    "series": "2026-06",
@@ -1606,7 +1606,7 @@
     "G2-D-disclosure": "PASS",
     "G3-mcq-integrity": "FAIL",
     "G4-figure-resolution": "PASS",
-    "G5-answer-linkage": "FAIL",
+    "G5-answer-linkage": "PASS",
     "G6-registry-codes": "PASS",
     "G7-solution-emission": "PASS"
    },
@@ -1615,15 +1615,15 @@
    "marks_total": 110,
    "marks_expected": 110,
    "mcq_parts": 6,
-   "mcq_keyed": 3,
-   "ms_linkage": "MS linkage 22/47 (47%)",
+   "mcq_keyed": 5,
+   "ms_linkage": "MS linkage 47/47 (100%)",
    "negative_controls": {
     "N1-mark-bump": "DETECTED",
     "N2-paraphrase": "DETECTED",
     "N3-fake-spec-code": "DETECTED"
    },
    "source_defects": null,
-   "review_queue_items": 28
+   "review_queue_items": 1
   },
   {
    "series": "2026-06",
@@ -1633,9 +1633,9 @@
     "G0-identity": "PASS",
     "G1-structure": "PASS",
     "G2-D-disclosure": "PASS",
-    "G3-mcq-integrity": "FAIL",
+    "G3-mcq-integrity": "PASS",
     "G4-figure-resolution": "PASS",
-    "G5-answer-linkage": "REVIEW",
+    "G5-answer-linkage": "PASS",
     "G6-registry-codes": "PASS",
     "G7-solution-emission": "PASS"
    },
@@ -1644,15 +1644,15 @@
    "marks_total": 70,
    "marks_expected": 70,
    "mcq_parts": 3,
-   "mcq_keyed": 2,
-   "ms_linkage": "MS linkage 15/27 (56%)",
+   "mcq_keyed": 3,
+   "ms_linkage": "MS linkage 27/27 (100%)",
    "negative_controls": {
     "N1-mark-bump": "DETECTED",
     "N2-paraphrase": "DETECTED",
     "N3-fake-spec-code": "DETECTED"
    },
    "source_defects": null,
-   "review_queue_items": 14
+   "review_queue_items": 1
   },
   {
    "series": "2026-06",
@@ -1664,7 +1664,7 @@
     "G2-D-disclosure": "PASS",
     "G3-mcq-integrity": "PASS",
     "G4-figure-resolution": "PASS",
-    "G5-answer-linkage": "REVIEW",
+    "G5-answer-linkage": "PASS",
     "G6-registry-codes": "PASS",
     "G7-solution-emission": "PASS"
    },
@@ -1674,33 +1674,34 @@
    "marks_expected": 70,
    "mcq_parts": 0,
    "mcq_keyed": 0,
-   "ms_linkage": "MS linkage 16/28 (57%)",
+   "ms_linkage": "MS linkage 28/28 (100%)",
    "negative_controls": {
     "N1-mark-bump": "DETECTED",
     "N2-paraphrase": "DETECTED",
     "N3-fake-spec-code": "DETECTED"
    },
    "source_defects": null,
-   "review_queue_items": 12
+   "review_queue_items": 0
   }
  ],
  "landing_disclosure": {
-  "verdict": "LANDED-REVIEW-HEAVY under ADR-039 (fail-closed honesty): every slice passes the structural gates G0/G1/G2-D/G4/G6/G7; the physics MS-table parser wave is open and disclosed — G3 MCQ keying 39 FAIL / 14 PASS (79 of 138 MCQ parts honestly unkeyed, choices as printed, no is_correct emitted) and G5 answer linkage 11 FAIL / 42 REVIEW (936 of 2,171 parts unmatched, solution_md honestly absent; 1,235 linked parts all carry their verbatim MS solution)",
+  "verdict": "LANDED (Task 17 supersedes the Task 16 LANDED-REVIEW-HEAVY state) under ADR-039 (fail-closed honesty): every slice passes every structural gate — G5 answer linkage 2,171/2,171 parts (Task 16 baseline: 1,235; the v0.19.0 marker census closed the 936-part gap); G3 MCQ keying 134/138 keyed, PASS 49 / FAIL 4 — the 4 fails are QP-side structural classes, disclosed not guessed: two choice-label extraction drops (2020-01 1PR 1(b) labels A-C, 2023-06 2PR 7(a) labels A-E) and two non-MCQ questions the QP parser types as multiple_choice (2022-06 2PR 1(a) matching, 2026-06 1PR 1(a) labelling); the last unlinked part (2026-06 2P 4(c)(i), an embedded equation image) serves via MS-LINK-OVERRIDES.json under the F42 doctrine (eyeballed from the rendered MS page, never model guessed)",
   "review_queue_by_reason": {
-   "answer not auto-linked to MS": 936,
-   "MCQ key unresolved from MS": 79,
    "figure crop emitted — human verify": 35,
-   "figure crop required": 30
+   "figure crop required": 30,
+   "MCQ key unresolved from MS": 2
   },
   "spec_tagging": "0/2,171 parts tagged (all honest pending-llm) — the physics spec-label wave is open",
   "figures": "531 assets (501 crops + 30 crop-required stubs); 65 crops carry review:true pending eyeball (CROP-REVIEW has no 4ph1 homes yet)",
-  "canaries": "C74 (no_pua_served spec=4ph1 + 2 pins), C75 (2P footer law 70), C76 (1P 2023-06 count 12); battery of record 74/74",
+  "canaries": "C83 (2024-06 2P G3 triple-glue MCQ), C84 (2023-01 2P G5 qn-content bootstrap), C85 (2026-06 2P G5 orphan-roman re-anchor + F42 override) on top of C74-C76; battery of record 83/83",
   "cross_diff": null,
   "cross_diff_note": "the repo parsed/ layer is 4CH1-only — no independent-parse cross-diff exists for 4PH1"
  },
  "generalization_findings": [
+  "F72 (v0.19.0, Task 17): the vertical marker census decomposed the G3/G5 deltas into 6 marker-row artifact classes (triple rows 175, letter+content rows 842, qn+content rows, notes-wrap paren tokens, paren-less letter cell, orphan letter+roman row) + 3 keying shapes (bare-key 'B;', choice-text 'is not' misread as rebuttal, 'does not affect' elimination) — every fix vertical-lane-gated, chemistry bit-identity receipted (2023-06 1C byte-identical pre/post)",
+  "F72 correction receipt: Task 16's own C74 pi pin had codified a MIS-LINK — the old parser never opened 2024-11 1P's 1(c) letter entry so the '22/7 for pi' (c)-block served at (b)(ii); v0.18.0 serves (b)(ii) its true MCQ block and 1(c) its own — pin re-anchored to 1(c)",
   "physics MS text layer is CELL-PER-LINE (vertical) — chemistry's row-shaped parse_ms has nothing to grip; parse_ms_vertical added v0.17.0 (raw layer, header-anchored state machine)",
-  "F67 (v0.17.4): the vertical lane bypassed clean_lines by design and normalize_pua with it — entry append sites stored raw lines; mapped PUA leaked into solution_md on 16 slices; caught by C74 pre-ship, fixed by rebinding ln to its normalized form (indentation preserved)",
+  "F67 (v0.17.4): the vertical lane bypassed clean_lines by design and normalize_pua with it — caught by C74 pre-ship, fixed by rebinding ln to its normalized form (indentation preserved)",
   "QP footer law verified from the archive of record: 1P=110 marks (bare footer, no parentheses), 2P=70 (wrapped) — physics carries a tolerant footer_re (Task 14)",
   "physics PUA census: 17 distinct PUA codepoints; 5 evidenced in the v0.17.3 tranche (U+F020 space, U+F068 up-arrow, U+F06A/F075 decorative pictograms dropped, U+F070 pi); F06A/F075 drop means pictogram-bearing stems serve text-only (the printed words carry the content)"
  ]

@@ -22,30 +22,6 @@ Which of these is a large collection of billions of galaxies?
 > A is incorrect because the Milky way is the name of a galaxy
 > B is incorrect because a nebula contains dust and gas
 > C is incorrect because a solar system contains stars and planets
-> (b) D (newton per kilogram);
-> A is incorrect because this is the unit of mass
-> B is incorrect because this is the unit of force
-> C is incorrect because this is the unit of the product of force and mass
-> (c) C (the Moon has less mass than the Earth);
-> A is incorrect because distance from the Sun has no effect on the
-> gravitational field strength of the Moon/Earth
-> B is incorrect because an atmosphere does not affect gravitational field
-> strength
-> D is incorrect because a greater density would give a larger gravitational
-> field strength
-> (d) marks may be awarded
-> from a suitably labelled
-> diagram
-> moon orbits Earth/a planet and comet orbits allow comet's orbit is
-> Sun/star; 'bigger'/takes more time
-> moon’s orbit is (almost) circular/slightly elliptical allow oval for elliptical
-> and comet’s orbit is (very) elliptical; allow speed of moon is
-> (almost) constant but
-> speed of comet varies
-> Answer Notes Marks
-> 2 one mark for each correct row;;;; reject if more than one
-> letter given in a row
-> Answer Notes Marks
 
 - **(1)** Answer D: universe
 
@@ -56,7 +32,17 @@ Which of these is a correct unit for gravitational field strength, g?
 - **(A)** kilogram (kg)
 - **(B)** newton (N)
 - **(C)** newton kilogram (N kg)
-- **(D)** newton per kilogram (N/kg)
+- **(D)** newton per kilogram (N/kg)  ✔
+
+
+**Mark scheme answer**
+
+> D (newton per kilogram);
+> A is incorrect because this is the unit of mass
+> B is incorrect because this is the unit of force
+> C is incorrect because this is the unit of the product of force and mass
+
+- **(1)** Answer D: newton per kilogram (N/kg)
 
 ### 1(c) [1]
 
@@ -64,14 +50,43 @@ Which statement explains why the gravitational field strength on the Moon is les
 
 - **(A)** the Moon is further away from the Sun than the Earth
 - **(B)** the Moon has less atmosphere than the Earth
-- **(C)** the Moon has less mass than the Earth
+- **(C)** the Moon has less mass than the Earth  ✔
 - **(D)** the Moon has a greater density than the Earth
+
+
+**Mark scheme answer**
+
+> C (the Moon has less mass than the Earth);
+> A is incorrect because distance from the Sun has no effect on the
+> gravitational field strength of the Moon/Earth
+> B is incorrect because an atmosphere does not affect gravitational field
+> strength
+> D is incorrect because a greater density would give a larger gravitational
+> field strength
+
+- **(1)** Answer C: the Moon has less mass than the Earth
 
 ### 1(d) [2]
 
 Describe the differences between the orbit of the Moon and the orbit of a comet. You may include a diagram to support your answer.
 
 > 🖼 crop required: diagram (qp.pdf p.5)
+
+
+**Mark scheme answer**
+
+> marks may be awarded
+> from a suitably labelled
+> diagram
+> moon orbits Earth/a planet and comet orbits allow comet's orbit is
+> Sun/star; 'bigger'/takes more time
+> moon’s orbit is (almost) circular/slightly elliptical allow oval for elliptical
+> and comet’s orbit is (very) elliptical; allow speed of moon is
+> (almost) constant but
+> speed of comet varies
+> Answer Notes Marks
+
+- **(2)** marks may be awarded
 
 
 ## Question 2 (4 marks)
@@ -89,6 +104,15 @@ The diagram shows four graphs, P, Q, R and S. Each graph shows a different relat
 ![table — official paper figure (qp.pdf p.6) — shared with 2](assets/asset_2_diagram.png)
 
 
+**Mark scheme answer**
+
+> one mark for each correct row;;;; reject if more than one
+> letter given in a row
+> Answer Notes Marks
+
+- **(4)** one mark for each correct row;;;; reject if more than one
+
+
 ## Question 3 (6 marks)
 
 This question is about microwave ovens and microwaves.
@@ -99,15 +123,49 @@ This question is about microwave ovens and microwaves.
 
 Determine the wavelength of the microwave. wavelength = cm
 
+
+**Mark scheme answer**
+
+> wavelength in range 12 – 13 (cm) = 1 mark;
+> wavelength = 12.5 (cm) = 2 marks;;
+
+- **(2)** wavelength in range 12 – 13 (cm) = 1 mark;
+
 ### 3(a)(ii) [3]
 
 The microwave has a frequency of 2.35 GHz. Show that the speed of the microwave is about 3 × 108 m/s.
+
+
+**Mark scheme answer**
+
+> substitution; ecf value from (i)
+> ignore units for this mark
+> conversion of ‘G’ to 109 or 1 billion;
+> evaluation that would round to 3 × 108 given to 2 allow answer in range
+> or more s.f.; 2.8-3.1 × 108 (m/s)
+> e.g.
+> speed = 2.35 × 12.5
+> speed = 2.35 × 109 × 12.5(× 10−2)
+> speed = 2.9…× 108 (m/s) POT error scores 2 max.
+
+- **(3)** substitution; ecf value from (i)
 
 ### 3(b) [1]
 
 Diagram 2 shows a damaged microwave oven with a hole in the door. Diagram 2 This microwave oven should not be used as it is very dangerous. State a harmful effect from the microwaves if this oven is used.
 
 ![diagram — official paper figure (qp.pdf p.9)](assets/asset_3_b_diagram.png)
+
+
+**Mark scheme answer**
+
+> internal heating of {tissue/organs/body}; ignore references to skin
+> ignore references to
+> burning, cell damage,
+> mutation, cancer etc.
+> Answer Notes Marks
+
+- **(1)** internal heating of {tissue/organs/body}; ignore references to skin
 
 
 ## Question 4 (10 marks)
@@ -130,10 +188,6 @@ Which of these is the correct circuit symbol for a filament lamp? A B M C D
 > A is incorrect because it is an LED
 > C is incorrect because it is a motor
 > D is incorrect because it is an LDR
-> (b) one mark for each correctly ticked statement;;
-> if 3 or more ticks, then
-> −1 for each incorrectly
-> ticked row
 
 - **(1)** 1
 
@@ -144,6 +198,16 @@ The filament lamp emits visible light. The table gives some statements about vis
 ![boxes — official paper figure (qp.pdf p.11) — shared with asset_4_b_boxes_stem](assets/asset_4_b_boxes_stem.png)
 
 ![table — official paper figure (qp.pdf p.10)](assets/asset_4_b_table.png)
+
+
+**Mark scheme answer**
+
+> one mark for each correctly ticked statement;;
+> if 3 or more ticks, then
+> −1 for each incorrectly
+> ticked row
+
+- **(2)** one mark for each correctly ticked statement;;
 
 ### 4(c)(i) [1]
 
@@ -237,7 +301,17 @@ Explain how the wooden ring makes the apparatus safer for the student to use.
 > conduct heat / wood is
 > a poor conductor
 > wood will not get (as) hot;
-> (b) allow ions for atoms
+
+- **(3)** idea that there is a risk of burning from apparatus; allow prevents burns
+
+### 5(b) [3]
+
+Describe how energy is transferred by conduction through the metal strips.
+
+
+**Mark scheme answer**
+
+> allow ions for atoms
 > idea that atoms in metal have vibrations; allow (free/delocalised)
 > electrons in metal move
 > around
@@ -249,11 +323,7 @@ Explain how the wooden ring makes the apparatus safer for the student to use.
 > other electrons/atoms
 > (along the metal)
 
-- **(3)** idea that there is a risk of burning from apparatus; allow prevents burns
-
-### 5(b) [3]
-
-Describe how energy is transferred by conduction through the metal strips.
+- **(3)** allow ions for atoms
 
 ### 5(c)(i) [1]
 
@@ -307,21 +377,76 @@ Using the graph, calculate the acceleration of the ball. acceleration = m/s2
 
 ![graph — official paper figure (qp.pdf p.16) — shared with asset_6_a_graph_stem](assets/asset_6_a_graph_stem.png)
 
+
+**Mark scheme answer**
+
+> idea of acceleration = gradient; allow use of
+> acceleration formula
+> a = (v−u)/t
+> correct substitution; allow any pairs of
+> values that lie on line
+> evaluation; allow answers that
+> round to 1.2 (m/s2)
+> e.g.
+> acceleration = gradient
+> acceleration = 3.0 (-0) / 2.5 (-0)
+> acceleration = 1.2 (m/s2)
+
+- **(3)** idea of acceleration = gradient; allow use of
+
 ### 6(a)(ii) [1]
 
 State the feature of the graph that gives the distance travelled by the ball.
 
 ![graph — official paper figure (qp.pdf p.16) — shared with asset_6_a_graph_stem](assets/asset_6_a_graph_stem.png)
 
+
+**Mark scheme answer**
+
+> any reference to area;
+
+- **(1)** any reference to area;
+
 ### 6(a)(iii) [3]
 
 Calculate the distance travelled by the ball in 2.5 seconds. distance = m
+
+
+**Mark scheme answer**
+
+> allow alternative
+> method using v2=u2+2as
+> with ecf from (i) e.g.
+> any attempt at area of triangle; 3.02 = (0.02 +) 2×1.2×s
+> correct area attempted; s = 9.0 / 2.4
+> evaluation;
+> e.g.
+> distance = area of triangle
+> distance = ½ × 3.0 × 2.5
+> distance = 3.8 (m) allow 3.7, 3.75 (m)
+
+- **(3)** allow alternative
 
 ### 6(b) [3]
 
 The table shows data for the ball after it has travelled for two different times. Time in s Distance in m 5.0 15 10.0 60 A student suggests that these results obey the relationship: distance = constant time2 Use data from the table to deduce whether the results support this suggestion.
 
 ![table — official paper figure (qp.pdf p.17)](assets/asset_6_b_table.png)
+
+
+**Mark scheme answer**
+
+> evaluation of either (15/52) or (60/102); allow 0.6 or 3/5 seen in
+> working
+> ignore constants
+> calculated using data
+> from graph
+> evaluation of second constant;
+> comparison of the two values to conclude
+> suggestion supported;
+> Answer Notes Marks
+
+- **(3)** evaluation of either (15/52) or (60/102); allow 0.6 or 3/5 seen in
 
 
 ## Question 7 (12 marks)
@@ -338,9 +463,25 @@ This question is about using carbon dating to find the age of pieces of wood.
 
 State the name of particle X.
 
+
+**Mark scheme answer**
+
+> proton; allow hydrogen (nucleus/atom),
+> hydrogen 1
+
+- **(1)** proton; allow hydrogen (nucleus/atom),
+
 ### 7(a)(ii) [2]
 
 Carbon-14 decays by beta decay. State what happens to the number of protons and the number of neutrons in a carbon-14 nucleus when it decays.
+
+
+**Mark scheme answer**
+
+> protons increase {by 1 / to 7}; ignore references to atomic
+> neutrons decrease {by 1 / to 7}; ignore references to nucleon/mass
+
+- **(2)** protons increase {by 1 / to 7}; ignore references to atomic
 
 ### 7(b)(i) [3]
 
@@ -501,9 +642,35 @@ Diagram 1 shows some of the stages of electricity generation in a nuclear power 
 
 Give the name of a fuel that could be used in the reactor.
 
+
+**Mark scheme answer**
+
+> uranium / U; allow plutonium / Pu or
+> any named isotopes of
+> either
+> e.g. U-235, Pu-239
+
+- **(1)** uranium / U; allow plutonium / Pu or
+
 ### 9(a)(ii) [4]
 
 Energy is released from the fuel in the reactor by nuclear fission. Describe the process of nuclear fission that takes place inside the reactor.
+
+
+**Mark scheme answer**
+
+> neutron absorbed by (parent) nucleus;
+> nucleus splits;
+> releasing (daughter) nuclei / neutrons; allow named daughter
+> nuclei e.g. krypton,
+> barium etc.
+> fission process repeats; reject if reference to
+> daughter nuclei
+> splitting
+> allow idea that chain
+> reaction occurs
+
+- **(4)** neutron absorbed by (parent) nucleus;
 
 ### 9(b)(i) [3]
 
@@ -566,9 +733,37 @@ This question is about electrical resistors.
 
 State the formula linking voltage, current and resistance.
 
+
+**Mark scheme answer**
+
+> voltage = current × resistance; allow standard symbols
+> and rearrangements
+> e.g. I = V / R
+> condone ‘i’ for current
+> ignore ‘c’ or ‘C’ for
+> current
+
+- **(1)** voltage = current × resistance; allow standard symbols
+
 ### 10(a)(ii) [3]
 
 Calculate the current in the resistor. current = A
+
+
+**Mark scheme answer**
+
+> substitution; ignore units
+> rearrangement;
+> evaluation; −1 for POT error
+> e.g.
+> 5.8 = current × 13(× 103)
+> (current =) 5.8 / 13(× 103)
+> (current =) 4.5 × 10−4 (A) allow 4.46…×10−4 (A)
+> allow 0.0004, 0.00045,
+> 0.000446… (A)
+> condone 0.00044 (A)
+
+- **(3)** substitution; ignore units
 
 ### 10(b)(i) [1]
 
@@ -621,9 +816,49 @@ The diagram shows a simple barometer designed to measure atmospheric pressure. t
 
 State the formula linking pressure difference, height, density and gravitational field strength, g.
 
+
+**Mark scheme answer**
+
+> pressure (difference) = height (of liquid) allow standard symbols and
+> × density × g rearrangements e.g. h = p / (ρ
+> × g)
+> allow d, depth for height
+> allow rho for density
+> allow g.f.s for gravitational
+> field strength
+> ignore gravity for g
+
+- **(1)** pressure (difference) = height (of liquid) allow standard symbols and
+
 ### 11(a)(ii) [4]
 
 The total pressure at point X is 117 kPa. The pressure of the trapped gas is 12 kPa. Calculate the height of the liquid above point X. [ density of liquid = 1.36 × 104 kg/m3 ] height = m
+
+
+**Mark scheme answer**
+
+> pressure due to liquid = 117 − 12 or 105 seen;
+> substitution; ignore units
+> allow ecf from use of incorrect
+> pressure
+> allow use of g = 9.8, 9.81
+> rearrangement;
+> evaluation; −1 for POT error unless due to
+> omission of g
+> 0.000772…, 0.000787…, 0.96…,
+> 0.948…, 0.87…, 0.860… (m)
+> = 3 marks
+> 0.00096…, 0.000948…,
+> 0.00087…, 0.000860… (m)
+> = 2 marks
+> e.g.
+> liquid pressure = 105 kPa
+> 105 (000) = h × 1.36 × 104 × 10
+> h = 105 (000) / (1.36 × 105)
+> (height =) 0.772 (m) allow 0.8, 0.77, 0.772…, 0.79,
+> 0.787… (m)
+
+- **(4)** pressure due to liquid = 117 − 12 or 105 seen;
 
 ### 11(b)(i) [3]
 

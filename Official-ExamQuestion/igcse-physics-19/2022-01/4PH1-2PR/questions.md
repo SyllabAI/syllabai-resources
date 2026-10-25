@@ -11,15 +11,51 @@ Complete the table by placing one tick (✓) in each row to show which energy st
 
 ![table — official paper figure (qp.pdf p.3) — shared with asset_1_a_table_stem](assets/asset_1_a_table_stem.png)
 
+
+**Mark scheme answer**
+
+> each tick correctly placed in each row;;;; more than one tick in
+> a row negates the
+> mark
+
+- **(4)** each tick correctly placed in each row;;;; more than one tick in
+
 ### 1(a)(ii) [1]
 
 State which method of generating electricity in the table does not use a renewable energy resource.
 
 ![table — official paper figure (qp.pdf p.3) — shared with asset_1_a_table_stem](assets/asset_1_a_table_stem.png)
 
+
+**Mark scheme answer**
+
+> petrol generator;
+
+- **(1)** petrol generator;
+
 ### 1(b) [2]
 
 State two disadvantages of using wind turbines to generate electricity. 1 2
+
+
+**Mark scheme answer**
+
+> any two from: ignore statements
+> relating to cost
+> MP1. idea of noise pollution; ignore bald ‘pollution’
+> MP2. idea of visual pollution; ignore bald ‘pollution’
+> MP3. idea that turbine only generates electricity
+> when the wind blows;
+> MP4. difficult for output to match demand; ignore ‘do not
+> generate much
+> electricity/energy’
+> MP5. wind is a dilute source of energy; allow idea that wind
+> farms take up a lot of
+> space
+> MP6. can cause harm to migrating flocks of birds;
+> Answer Notes Marks
+
+- **(2)** any two from: ignore statements
 
 
 ## Question 2 (7 marks)
@@ -30,13 +66,62 @@ Cricket is a sport played with bats and balls.
 
 A cricket player hits a ball with a bat. Before the ball is hit, it is moving to the left with a momentum of 4.2 kg m/s. The bat is in contact with the ball for 0.012 s. After the ball is hit, it moves to the right with a momentum of 6.7 kg m/s. Calculate the mean force the bat exerts on the ball and state the direction of the force. mean force = N direction
 
+
+**Mark scheme answer**
+
+> substitution into F = (mv – mu)/t;
+> evaluation; -1 if POT error
+> correct direction; independent mark
+> 208.3… scores 2 marks
+> max. if given with
+> correct direction
+> e.g.
+> (F =) (6.7 - −4.2) / 0.012
+> (F =) 910 (N) allow 908.3…(N)
+> (direction =) right allow forwards
+> ignore compass
+> directions
+> 0.9083… scores 1 mark
+
+- **(3)** substitution into F = (mv – mu)/t;
+
 ### 2(a)(ii) [1]
 
 State the magnitude and direction of the mean force the ball exerts on the bat. magnitude of mean force = N direction of force
 
+
+**Mark scheme answer**
+
+> same forces as in (a)(i) AND opposite direction; allow ECF from (a)(i) for
+> both points
+> allow ECF for compass
+> direction only if
+> opposite to direction
+> given in (i)
+> e.g.
+> (F =) 910 (N) AND (direction =) left
+
+- **(1)** same forces as in (a)(i) AND opposite direction; allow ECF from (a)(i) for
+
 ### 2(b) [3]
 
 The cricket player wears padded protective equipment. This protective equipment reduces the risk of injury to the player if they are struck by the cricket ball. Explain how this protective equipment reduces the risk of injury to the player. Use ideas about momentum in your answer.
+
+
+**Mark scheme answer**
+
+> any three from:
+> MP1. idea that there is a change of momentum
+> (when ball hits player);
+> MP2. (equipment) increases (impact) time;
+> MP3. decreases rate of change of momentum (of
+> ball);
+> MP4. decreases force (on player);
+> MP5. decreases pressure (on player); allow spreads force
+> over larger area
+> Answer Notes Marks
+
+- **(3)** any three from:
 
 
 ## Question 3 (10 marks)
@@ -230,13 +315,49 @@ This question is about nuclear fusion.
 
 Identify particle X in the nuclear equation.
 
+
+**Mark scheme answer**
+
+> neutron / n;
+
+- **(1)** neutron / n;
+
 ### 5(a)(ii) [2]
 
 Each fusion reaction releases approximately 3 × 10–12 J of energy. Estimate how many reactions are needed to produce 1 J of energy. Give your answer to 1 significant figure. number of reactions =
 
+
+**Mark scheme answer**
+
+> correct evaluation;
+> given to 1s.f.; independent mark
+> e.g.
+> (number =) 3.3…× 1011
+> (number =) 3 × 1011
+
+- **(2)** correct evaluation;
+
 ### 5(a)(iii) [3]
 
 Explain why this fusion reaction will only happen at high temperature and high pressure.
+
+
+**Mark scheme answer**
+
+> any three from: allow RA in terms of high
+> temperature/pressure
+> allow
+> atoms/particles/hydrogen
+> for nuclei
+> MP1. nuclei move (too) slowly at low temperature; allow nuclei not having
+> enough KE
+> MP2. nuclei interact/collide less often at low allow less chance of
+> temperature; collisions
+> MP3. nuclei repel each other;
+> MP4. nuclei cannot get close enough / don’t have
+> chance to undergo fusion;
+
+- **(3)** any three from: allow RA in terms of high
 
 ### 5(b)(i) [2]
 
@@ -281,10 +402,6 @@ State what is meant by the astronomical term galaxy.
 
 > a (large) collection of (billions of) stars; allow solar systems for
 > stars
-> (b) D (the universe);
-> A is not the correct answer because a nebula is a gas cloud
-> B is not the correct answer because a red giant is a star
-> C is not the correct answer because a solar system consists of a star and planets
 
 - **(1)** a (large) collection of (billions of) stars; allow solar systems for
 
@@ -295,7 +412,17 @@ Which of these is a large collection of billions of galaxies?
 - **(A)** a nebula
 - **(B)** a red giant
 - **(C)** the solar system
-- **(D)** the universe
+- **(D)** the universe  ✔
+
+
+**Mark scheme answer**
+
+> D (the universe);
+> A is not the correct answer because a nebula is a gas cloud
+> B is not the correct answer because a red giant is a star
+> C is not the correct answer because a solar system consists of a star and planets
+
+- **(1)** Answer D: the universe
 
 ### 6(c)(i) [3]
 
@@ -366,10 +493,6 @@ The rate of cooling is represented by the gradient of the graph and is measured 
 > tangent seen on graph at 70°C
 > gradient = [57-79]/600
 > gradient = −0.037 (°C/s)
-> (b) curve drawn of similar shape to original starting at
-> 82 °C;
-> curve drawn above original;
-> Answer Notes Marks
 
 - **(4)** attempt to draw tangent to the curve at 70°C;
 
@@ -378,6 +501,16 @@ The rate of cooling is represented by the gradient of the graph and is measured 
 The student repeats the investigation with the same beaker wrapped in woollen insulation. Sketch another line on the graph to show the expected results when the beaker is wrapped in woollen insulation. Assume that the starting temperature of the water is 82 °C.
 
 ![graph — official paper figure (qp.pdf p.16) — shared with asset_7_a_graph_stem](assets/asset_7_a_graph_stem.png)
+
+
+**Mark scheme answer**
+
+> curve drawn of similar shape to original starting at
+> 82 °C;
+> curve drawn above original;
+> Answer Notes Marks
+
+- **(2)** curve drawn of similar shape to original starting at
 
 
 ## Question 8 (11 marks)
@@ -392,9 +525,33 @@ Diagram 1 shows a machine used for demonstrating electrostatics. + + + + + + met
 
 In terms of electron movement, give a reason why the metal dome becomes positively charged.
 
+
+**Mark scheme answer**
+
+> idea that the dome loses electrons; however expressed
+> reject if idea that
+> positive charge has
+> been transferred
+
+- **(1)** idea that the dome loses electrons; however expressed
+
 ### 8(a)(ii) [3]
 
 When the handle is turned for 15 s the dome gains 0.50 J of energy in its electrostatic store as it becomes charged. The voltage between the dome and the earth is 120 kV. Calculate the mean charging current during this time. mean charging current = A
+
+
+**Mark scheme answer**
+
+> substitution into E = V × I × t; ignore units
+> rearrangement;
+> evaluation; -1 for POT error
+> e.g.
+> 0.50 = 120 000 × I × 15
+> I = 0.50 / [120 000 × 15]
+> (I =) 2.8 × 10-7 (A) allow 0.000 000 277…(A)
+> condone 2.7 × 10-7 (A)
+
+- **(3)** substitution into E = V × I × t; ignore units
 
 ### 8(b)(i) [3]
 

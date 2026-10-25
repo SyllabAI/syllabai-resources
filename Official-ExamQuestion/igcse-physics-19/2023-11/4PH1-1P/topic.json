@@ -1,7 +1,7 @@
 {
  "schema": "syllabai.official-paper-questions/0.2",
- "generated_utc": "2026-10-25T20:43:22Z",
- "generator": "official_examq_extract.py v0.17.4 (ADR-039) series=2023-11 paper=1P",
+ "generated_utc": "2026-10-25T22:06:52Z",
+ "generator": "official_examq_extract.py v0.19.0 (ADR-039) series=2023-11 paper=1P",
  "paper_id": "pearson-edexcel:international-gcse:physics:4ph1:2023-11:4PH1/1P",
  "source": {
   "qp_sha256": "f872f5bebbee1260491ee389f0f4d2fa606fdfa6a28fd011c8233070ba955b2a",
@@ -55,7 +55,7 @@
       }
      ],
      "answer_status": "linked",
-     "solution_md": "D (universe);\nA is incorrect because the Milky way is the name of a galaxy\nB is incorrect because a nebula contains dust and gas\nC is incorrect because a solar system contains stars and planets\n(b) D (newton per kilogram);\nA is incorrect because this is the unit of mass\nB is incorrect because this is the unit of force\nC is incorrect because this is the unit of the product of force and mass\n(c) C (the Moon has less mass than the Earth);\nA is incorrect because distance from the Sun has no effect on the\ngravitational field strength of the Moon/Earth\nB is incorrect because an atmosphere does not affect gravitational field\nstrength\nD is incorrect because a greater density would give a larger gravitational\nfield strength\n(d) marks may be awarded\nfrom a suitably labelled\ndiagram\nmoon orbits Earth/a planet and comet orbits allow comet's orbit is\nSun/star; 'bigger'/takes more time\nmoon’s orbit is (almost) circular/slightly elliptical allow oval for elliptical\nand comet’s orbit is (very) elliptical; allow speed of moon is\n(almost) constant but\nspeed of comet varies\nAnswer Notes Marks\n2 one mark for each correct row;;;; reject if more than one\nletter given in a row\nAnswer Notes Marks",
+     "solution_md": "D (universe);\nA is incorrect because the Milky way is the name of a galaxy\nB is incorrect because a nebula contains dust and gas\nC is incorrect because a solar system contains stars and planets",
      "mark_points": [
       {
        "id": "2023-11-1-a-MP1",
@@ -82,29 +82,41 @@
      "choices": [
       {
        "label": "A",
-       "text_md": "kilogram (kg)"
+       "text_md": "kilogram (kg)",
+       "is_correct": false
       },
       {
        "label": "B",
-       "text_md": "newton (N)"
+       "text_md": "newton (N)",
+       "is_correct": false
       },
       {
        "label": "C",
-       "text_md": "newton kilogram (N kg)"
+       "text_md": "newton kilogram (N kg)",
+       "is_correct": false
       },
       {
        "label": "D",
-       "text_md": "newton per kilogram (N/kg)"
+       "text_md": "newton per kilogram (N/kg)",
+       "is_correct": true
       }
      ],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "D (newton per kilogram);\nA is incorrect because this is the unit of mass\nB is incorrect because this is the unit of force\nC is incorrect because this is the unit of the product of force and mass",
+     "mark_points": [
+      {
+       "id": "2023-11-1-b-MP1",
+       "marks": 1,
+       "text_md": "Answer D: newton per kilogram (N/kg)"
+      }
+     ],
      "source_page": 4,
      "assets": [],
      "spec_point_codes": [],
      "tagging": "pending-llm",
      "edit_status": "extracted",
      "value_trace": {
-      "keys": "unresolved:review-queue",
+      "keys": "ms-positional",
       "marks": "ms-printed",
       "numbers": "source-printed"
      }
@@ -117,29 +129,41 @@
      "choices": [
       {
        "label": "A",
-       "text_md": "the Moon is further away from the Sun than the Earth"
+       "text_md": "the Moon is further away from the Sun than the Earth",
+       "is_correct": false
       },
       {
        "label": "B",
-       "text_md": "the Moon has less atmosphere than the Earth"
+       "text_md": "the Moon has less atmosphere than the Earth",
+       "is_correct": false
       },
       {
        "label": "C",
-       "text_md": "the Moon has less mass than the Earth"
+       "text_md": "the Moon has less mass than the Earth",
+       "is_correct": true
       },
       {
        "label": "D",
-       "text_md": "the Moon has a greater density than the Earth"
+       "text_md": "the Moon has a greater density than the Earth",
+       "is_correct": false
       }
      ],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "C (the Moon has less mass than the Earth);\nA is incorrect because distance from the Sun has no effect on the\ngravitational field strength of the Moon/Earth\nB is incorrect because an atmosphere does not affect gravitational field\nstrength\nD is incorrect because a greater density would give a larger gravitational\nfield strength",
+     "mark_points": [
+      {
+       "id": "2023-11-1-c-MP1",
+       "marks": 1,
+       "text_md": "Answer C: the Moon has less mass than the Earth"
+      }
+     ],
      "source_page": 4,
      "assets": [],
      "spec_point_codes": [],
      "tagging": "pending-llm",
      "edit_status": "extracted",
      "value_trace": {
-      "keys": "unresolved:review-queue",
+      "keys": "ms-positional",
       "marks": "ms-printed",
       "numbers": "source-printed"
      }
@@ -150,7 +174,15 @@
      "question_type": "structured",
      "problem_md": "Describe the differences between the orbit of the Moon and the orbit of a comet. You may include a diagram to support your answer.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "marks may be awarded\nfrom a suitably labelled\ndiagram\nmoon orbits Earth/a planet and comet orbits allow comet's orbit is\nSun/star; 'bigger'/takes more time\nmoon’s orbit is (almost) circular/slightly elliptical allow oval for elliptical\nand comet’s orbit is (very) elliptical; allow speed of moon is\n(almost) constant but\nspeed of comet varies\nAnswer Notes Marks",
+     "mark_points": [
+      {
+       "id": "2023-11-1-d-MP1",
+       "marks": 2,
+       "text_md": "marks may be awarded\nfrom a suitably labelled\ndiagram\nmoon orbits Earth/a planet and comet orbits allow comet's orbit is\nSun/star; 'bigger'/takes more time\nmoon’s orbit is (almost) circular/slightly elliptical allow oval for elliptical\nand comet’s orbit is (very) elliptical; allow speed of moon is\n(almost) constant but\nspeed of comet varies\nAnswer Notes Marks"
+      }
+     ],
      "source_page": 5,
      "assets": [
       {
@@ -187,7 +219,15 @@
      "question_type": "structured",
      "problem_md": "The diagram shows four graphs, P, Q, R and S. Each graph shows a different relationship between current and time. Current Current 0 0 0 Time 0 Time Graph P Graph Q Current Current 0 0 0 Time 0 Time Graph R Graph S The table gives descriptions of the relationships between current and time shown by graphs P, Q, R and S. Complete the table by giving the correct graph for each description. Description Graph current directly proportional to time current increasing at a decreasing rate current has a linear relationship to time but is not directly proportional current decreasing at a decreasing rate",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "one mark for each correct row;;;; reject if more than one\nletter given in a row\nAnswer Notes Marks",
+     "mark_points": [
+      {
+       "id": "2023-11-2-MP1",
+       "marks": 4,
+       "text_md": "one mark for each correct row;;;; reject if more than one\nletter given in a row\nAnswer Notes Marks"
+      }
+     ],
      "source_page": 6,
      "assets": [
       {
@@ -253,7 +293,15 @@
      "question_type": "structured",
      "problem_md": "Determine the wavelength of the microwave. wavelength = cm",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "wavelength in range 12 – 13 (cm) = 1 mark;\nwavelength = 12.5 (cm) = 2 marks;;",
+     "mark_points": [
+      {
+       "id": "2023-11-3-a-i-MP1",
+       "marks": 2,
+       "text_md": "wavelength in range 12 – 13 (cm) = 1 mark;\nwavelength = 12.5 (cm) = 2 marks;;"
+      }
+     ],
      "source_page": 8,
      "assets": [],
      "spec_point_codes": [],
@@ -271,7 +319,15 @@
      "question_type": "structured",
      "problem_md": "The microwave has a frequency of 2.35 GHz. Show that the speed of the microwave is about 3 × 108 m/s.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "substitution; ecf value from (i)\nignore units for this mark\nconversion of ‘G’ to 109 or 1 billion;\nevaluation that would round to 3 × 108 given to 2 allow answer in range\nor more s.f.; 2.8-3.1 × 108 (m/s)\ne.g.\nspeed = 2.35 × 12.5\nspeed = 2.35 × 109 × 12.5(× 10−2)\nspeed = 2.9…× 108 (m/s) POT error scores 2 max.",
+     "mark_points": [
+      {
+       "id": "2023-11-3-a-ii-MP1",
+       "marks": 3,
+       "text_md": "substitution; ecf value from (i)\nignore units for this mark\nconversion of ‘G’ to 109 or 1 billion;\nevaluation that would round to 3 × 108 given to 2 allow answer in range\nor more s.f.; 2.8-3.1 × 108 (m/s)\ne.g.\nspeed = 2.35 × 12.5\nspeed = 2.35 × 109 × 12.5(× 10−2)\nspeed = 2.9…× 108 (m/s) POT error scores 2 max."
+      }
+     ],
      "source_page": 8,
      "assets": [],
      "spec_point_codes": [],
@@ -289,7 +345,15 @@
      "question_type": "structured",
      "problem_md": "Diagram 2 shows a damaged microwave oven with a hole in the door. Diagram 2 This microwave oven should not be used as it is very dangerous. State a harmful effect from the microwaves if this oven is used.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "internal heating of {tissue/organs/body}; ignore references to skin\nignore references to\nburning, cell damage,\nmutation, cancer etc.\nAnswer Notes Marks",
+     "mark_points": [
+      {
+       "id": "2023-11-3-b-MP1",
+       "marks": 1,
+       "text_md": "internal heating of {tissue/organs/body}; ignore references to skin\nignore references to\nburning, cell damage,\nmutation, cancer etc.\nAnswer Notes Marks"
+      }
+     ],
      "source_page": 9,
      "assets": [
       {
@@ -334,12 +398,12 @@
      "problem_md": "Which of these is the correct circuit symbol for a filament lamp? A B M C D",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "1\nB( );\nA is incorrect because it is an LED\nC is incorrect because it is a motor\nD is incorrect because it is an LDR\n(b) one mark for each correctly ticked statement;;\nif 3 or more ticks, then\n−1 for each incorrectly\nticked row",
+     "solution_md": "1\nB( );\nA is incorrect because it is an LED\nC is incorrect because it is a motor\nD is incorrect because it is an LDR",
      "mark_points": [
       {
        "id": "2023-11-4-a-MP1",
        "marks": 1,
-       "text_md": "1\nB( );\nA is incorrect because it is an LED\nC is incorrect because it is a motor\nD is incorrect because it is an LDR\n(b) one mark for each correctly ticked statement;;\nif 3 or more ticks, then\n−1 for each incorrectly\nticked row"
+       "text_md": "1\nB( );\nA is incorrect because it is an LED\nC is incorrect because it is a motor\nD is incorrect because it is an LDR"
       }
      ],
      "source_page": 10,
@@ -359,7 +423,15 @@
      "question_type": "structured",
      "problem_md": "The filament lamp emits visible light. The table gives some statements about visible light. Place ticks (ü) in the boxes to show which statements are correct for visible light. Statements Correct (ü) visible light is a longitudinal wave visible light transfers energy visible light transfers matter visible light has a longer wavelength than x-rays visible light travels faster in water than in air",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "one mark for each correctly ticked statement;;\nif 3 or more ticks, then\n−1 for each incorrectly\nticked row",
+     "mark_points": [
+      {
+       "id": "2023-11-4-b-MP1",
+       "marks": 2,
+       "text_md": "one mark for each correctly ticked statement;;\nif 3 or more ticks, then\n−1 for each incorrectly\nticked row"
+      }
+     ],
      "source_page": 10,
      "assets": [
       {
@@ -524,12 +596,12 @@
      "problem_md": "Explain how the wooden ring makes the apparatus safer for the student to use.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "idea that there is a risk of burning from apparatus; allow prevents burns\nallow metal conducts\nheat (well) / metal gets\nhot\nwood is an insulator; allow wood does not\nconduct heat / wood is\na poor conductor\nwood will not get (as) hot;\n(b) allow ions for atoms\nidea that atoms in metal have vibrations; allow (free/delocalised)\nelectrons in metal move\naround\nidea that vibrations increase in speed/amplitude allow (free/delocalised)\n(when metal is heated); electrons move faster\n(when metal is heated)\nidea that vibrations are passed (along the metal) allow (free/delocalised)\nbetween particles; electrons collide with\nother electrons/atoms\n(along the metal)",
+     "solution_md": "idea that there is a risk of burning from apparatus; allow prevents burns\nallow metal conducts\nheat (well) / metal gets\nhot\nwood is an insulator; allow wood does not\nconduct heat / wood is\na poor conductor\nwood will not get (as) hot;",
      "mark_points": [
       {
        "id": "2023-11-5-a-MP1",
        "marks": 3,
-       "text_md": "idea that there is a risk of burning from apparatus; allow prevents burns\nallow metal conducts\nheat (well) / metal gets\nhot\nwood is an insulator; allow wood does not\nconduct heat / wood is\na poor conductor\nwood will not get (as) hot;\n(b) allow ions for atoms\nidea that atoms in metal have vibrations; allow (free/delocalised)\nelectrons in metal move\naround\nidea that vibrations increase in speed/amplitude allow (free/delocalised)\n(when metal is heated); electrons move faster\n(when metal is heated)\nidea that vibrations are passed (along the metal) allow (free/delocalised)\nbetween particles; electrons collide with\nother electrons/atoms\n(along the metal)"
+       "text_md": "idea that there is a risk of burning from apparatus; allow prevents burns\nallow metal conducts\nheat (well) / metal gets\nhot\nwood is an insulator; allow wood does not\nconduct heat / wood is\na poor conductor\nwood will not get (as) hot;"
       }
      ],
      "source_page": 13,
@@ -563,7 +635,15 @@
      "question_type": "structured",
      "problem_md": "Describe how energy is transferred by conduction through the metal strips.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "allow ions for atoms\nidea that atoms in metal have vibrations; allow (free/delocalised)\nelectrons in metal move\naround\nidea that vibrations increase in speed/amplitude allow (free/delocalised)\n(when metal is heated); electrons move faster\n(when metal is heated)\nidea that vibrations are passed (along the metal) allow (free/delocalised)\nbetween particles; electrons collide with\nother electrons/atoms\n(along the metal)",
+     "mark_points": [
+      {
+       "id": "2023-11-5-b-MP1",
+       "marks": 3,
+       "text_md": "allow ions for atoms\nidea that atoms in metal have vibrations; allow (free/delocalised)\nelectrons in metal move\naround\nidea that vibrations increase in speed/amplitude allow (free/delocalised)\n(when metal is heated); electrons move faster\n(when metal is heated)\nidea that vibrations are passed (along the metal) allow (free/delocalised)\nbetween particles; electrons collide with\nother electrons/atoms\n(along the metal)"
+      }
+     ],
      "source_page": 14,
      "assets": [],
      "spec_point_codes": [],
@@ -673,7 +753,15 @@
      "question_type": "structured",
      "problem_md": "Using the graph, calculate the acceleration of the ball. acceleration = m/s2",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "idea of acceleration = gradient; allow use of\nacceleration formula\na = (v−u)/t\ncorrect substitution; allow any pairs of\nvalues that lie on line\nevaluation; allow answers that\nround to 1.2 (m/s2)\ne.g.\nacceleration = gradient\nacceleration = 3.0 (-0) / 2.5 (-0)\nacceleration = 1.2 (m/s2)",
+     "mark_points": [
+      {
+       "id": "2023-11-6-a-i-MP1",
+       "marks": 3,
+       "text_md": "idea of acceleration = gradient; allow use of\nacceleration formula\na = (v−u)/t\ncorrect substitution; allow any pairs of\nvalues that lie on line\nevaluation; allow answers that\nround to 1.2 (m/s2)\ne.g.\nacceleration = gradient\nacceleration = 3.0 (-0) / 2.5 (-0)\nacceleration = 1.2 (m/s2)"
+      }
+     ],
      "source_page": 16,
      "assets": [
       {
@@ -705,7 +793,15 @@
      "question_type": "structured",
      "problem_md": "State the feature of the graph that gives the distance travelled by the ball.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "any reference to area;",
+     "mark_points": [
+      {
+       "id": "2023-11-6-a-ii-MP1",
+       "marks": 1,
+       "text_md": "any reference to area;"
+      }
+     ],
      "source_page": 16,
      "assets": [
       {
@@ -737,7 +833,15 @@
      "question_type": "structured",
      "problem_md": "Calculate the distance travelled by the ball in 2.5 seconds. distance = m",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "allow alternative\nmethod using v2=u2+2as\nwith ecf from (i) e.g.\nany attempt at area of triangle; 3.02 = (0.02 +) 2×1.2×s\ncorrect area attempted; s = 9.0 / 2.4\nevaluation;\ne.g.\ndistance = area of triangle\ndistance = ½ × 3.0 × 2.5\ndistance = 3.8 (m) allow 3.7, 3.75 (m)",
+     "mark_points": [
+      {
+       "id": "2023-11-6-a-iii-MP1",
+       "marks": 3,
+       "text_md": "allow alternative\nmethod using v2=u2+2as\nwith ecf from (i) e.g.\nany attempt at area of triangle; 3.02 = (0.02 +) 2×1.2×s\ncorrect area attempted; s = 9.0 / 2.4\nevaluation;\ne.g.\ndistance = area of triangle\ndistance = ½ × 3.0 × 2.5\ndistance = 3.8 (m) allow 3.7, 3.75 (m)"
+      }
+     ],
      "source_page": 17,
      "assets": [],
      "spec_point_codes": [],
@@ -755,7 +859,15 @@
      "question_type": "structured",
      "problem_md": "The table shows data for the ball after it has travelled for two different times. Time in s Distance in m 5.0 15 10.0 60 A student suggests that these results obey the relationship: distance = constant time2 Use data from the table to deduce whether the results support this suggestion.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "evaluation of either (15/52) or (60/102); allow 0.6 or 3/5 seen in\nworking\nignore constants\ncalculated using data\nfrom graph\nevaluation of second constant;\ncomparison of the two values to conclude\nsuggestion supported;\nAnswer Notes Marks",
+     "mark_points": [
+      {
+       "id": "2023-11-6-b-MP1",
+       "marks": 3,
+       "text_md": "evaluation of either (15/52) or (60/102); allow 0.6 or 3/5 seen in\nworking\nignore constants\ncalculated using data\nfrom graph\nevaluation of second constant;\ncomparison of the two values to conclude\nsuggestion supported;\nAnswer Notes Marks"
+      }
+     ],
      "source_page": 17,
      "assets": [
       {
@@ -799,7 +911,15 @@
      "question_type": "structured",
      "problem_md": "State the name of particle X.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "proton; allow hydrogen (nucleus/atom),\nhydrogen 1",
+     "mark_points": [
+      {
+       "id": "2023-11-7-a-i-MP1",
+       "marks": 1,
+       "text_md": "proton; allow hydrogen (nucleus/atom),\nhydrogen 1"
+      }
+     ],
      "source_page": 18,
      "assets": [],
      "spec_point_codes": [],
@@ -817,7 +937,15 @@
      "question_type": "structured",
      "problem_md": "Carbon-14 decays by beta decay. State what happens to the number of protons and the number of neutrons in a carbon-14 nucleus when it decays.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "protons increase {by 1 / to 7}; ignore references to atomic\nneutrons decrease {by 1 / to 7}; ignore references to nucleon/mass",
+     "mark_points": [
+      {
+       "id": "2023-11-7-a-ii-MP1",
+       "marks": 2,
+       "text_md": "protons increase {by 1 / to 7}; ignore references to atomic\nneutrons decrease {by 1 / to 7}; ignore references to nucleon/mass"
+      }
+     ],
      "source_page": 18,
      "assets": [],
      "spec_point_codes": [],
@@ -1111,7 +1239,15 @@
      "question_type": "structured",
      "problem_md": "Give the name of a fuel that could be used in the reactor.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "uranium / U; allow plutonium / Pu or\nany named isotopes of\neither\ne.g. U-235, Pu-239",
+     "mark_points": [
+      {
+       "id": "2023-11-9-a-i-MP1",
+       "marks": 1,
+       "text_md": "uranium / U; allow plutonium / Pu or\nany named isotopes of\neither\ne.g. U-235, Pu-239"
+      }
+     ],
      "source_page": 25,
      "assets": [],
      "spec_point_codes": [],
@@ -1129,7 +1265,15 @@
      "question_type": "structured",
      "problem_md": "Energy is released from the fuel in the reactor by nuclear fission. Describe the process of nuclear fission that takes place inside the reactor.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "neutron absorbed by (parent) nucleus;\nnucleus splits;\nreleasing (daughter) nuclei / neutrons; allow named daughter\nnuclei e.g. krypton,\nbarium etc.\nfission process repeats; reject if reference to\ndaughter nuclei\nsplitting\nallow idea that chain\nreaction occurs",
+     "mark_points": [
+      {
+       "id": "2023-11-9-a-ii-MP1",
+       "marks": 4,
+       "text_md": "neutron absorbed by (parent) nucleus;\nnucleus splits;\nreleasing (daughter) nuclei / neutrons; allow named daughter\nnuclei e.g. krypton,\nbarium etc.\nfission process repeats; reject if reference to\ndaughter nuclei\nsplitting\nallow idea that chain\nreaction occurs"
+      }
+     ],
      "source_page": 25,
      "assets": [],
      "spec_point_codes": [],
@@ -1242,7 +1386,15 @@
      "question_type": "structured",
      "problem_md": "State the formula linking voltage, current and resistance.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "voltage = current × resistance; allow standard symbols\nand rearrangements\ne.g. I = V / R\ncondone ‘i’ for current\nignore ‘c’ or ‘C’ for\ncurrent",
+     "mark_points": [
+      {
+       "id": "2023-11-10-a-i-MP1",
+       "marks": 1,
+       "text_md": "voltage = current × resistance; allow standard symbols\nand rearrangements\ne.g. I = V / R\ncondone ‘i’ for current\nignore ‘c’ or ‘C’ for\ncurrent"
+      }
+     ],
      "source_page": 28,
      "assets": [],
      "spec_point_codes": [],
@@ -1260,7 +1412,15 @@
      "question_type": "structured",
      "problem_md": "Calculate the current in the resistor. current = A",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "substitution; ignore units\nrearrangement;\nevaluation; −1 for POT error\ne.g.\n5.8 = current × 13(× 103)\n(current =) 5.8 / 13(× 103)\n(current =) 4.5 × 10−4 (A) allow 4.46…×10−4 (A)\nallow 0.0004, 0.00045,\n0.000446… (A)\ncondone 0.00044 (A)",
+     "mark_points": [
+      {
+       "id": "2023-11-10-a-ii-MP1",
+       "marks": 3,
+       "text_md": "substitution; ignore units\nrearrangement;\nevaluation; −1 for POT error\ne.g.\n5.8 = current × 13(× 103)\n(current =) 5.8 / 13(× 103)\n(current =) 4.5 × 10−4 (A) allow 4.46…×10−4 (A)\nallow 0.0004, 0.00045,\n0.000446… (A)\ncondone 0.00044 (A)"
+      }
+     ],
      "source_page": 28,
      "assets": [],
      "spec_point_codes": [],
@@ -1361,7 +1521,15 @@
      "question_type": "structured",
      "problem_md": "State the formula linking pressure difference, height, density and gravitational field strength, g.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "pressure (difference) = height (of liquid) allow standard symbols and\n× density × g rearrangements e.g. h = p / (ρ\n× g)\nallow d, depth for height\nallow rho for density\nallow g.f.s for gravitational\nfield strength\nignore gravity for g",
+     "mark_points": [
+      {
+       "id": "2023-11-11-a-i-MP1",
+       "marks": 1,
+       "text_md": "pressure (difference) = height (of liquid) allow standard symbols and\n× density × g rearrangements e.g. h = p / (ρ\n× g)\nallow d, depth for height\nallow rho for density\nallow g.f.s for gravitational\nfield strength\nignore gravity for g"
+      }
+     ],
      "source_page": 30,
      "assets": [],
      "spec_point_codes": [],
@@ -1379,7 +1547,15 @@
      "question_type": "structured",
      "problem_md": "The total pressure at point X is 117 kPa. The pressure of the trapped gas is 12 kPa. Calculate the height of the liquid above point X. [ density of liquid = 1.36 × 104 kg/m3 ] height = m",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "pressure due to liquid = 117 − 12 or 105 seen;\nsubstitution; ignore units\nallow ecf from use of incorrect\npressure\nallow use of g = 9.8, 9.81\nrearrangement;\nevaluation; −1 for POT error unless due to\nomission of g\n0.000772…, 0.000787…, 0.96…,\n0.948…, 0.87…, 0.860… (m)\n= 3 marks\n0.00096…, 0.000948…,\n0.00087…, 0.000860… (m)\n= 2 marks\ne.g.\nliquid pressure = 105 kPa\n105 (000) = h × 1.36 × 104 × 10\nh = 105 (000) / (1.36 × 105)\n(height =) 0.772 (m) allow 0.8, 0.77, 0.772…, 0.79,\n0.787… (m)",
+     "mark_points": [
+      {
+       "id": "2023-11-11-a-ii-MP1",
+       "marks": 4,
+       "text_md": "pressure due to liquid = 117 − 12 or 105 seen;\nsubstitution; ignore units\nallow ecf from use of incorrect\npressure\nallow use of g = 9.8, 9.81\nrearrangement;\nevaluation; −1 for POT error unless due to\nomission of g\n0.000772…, 0.000787…, 0.96…,\n0.948…, 0.87…, 0.860… (m)\n= 3 marks\n0.00096…, 0.000948…,\n0.00087…, 0.000860… (m)\n= 2 marks\ne.g.\nliquid pressure = 105 kPa\n105 (000) = h × 1.36 × 104 × 10\nh = 105 (000) / (1.36 × 105)\n(height =) 0.772 (m) allow 0.8, 0.77, 0.772…, 0.79,\n0.787… (m)"
+      }
+     ],
      "source_page": 30,
      "assets": [],
      "spec_point_codes": [],

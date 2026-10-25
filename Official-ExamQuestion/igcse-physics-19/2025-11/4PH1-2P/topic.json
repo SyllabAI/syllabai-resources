@@ -1,7 +1,7 @@
 {
  "schema": "syllabai.official-paper-questions/0.2",
- "generated_utc": "2026-10-25T20:43:38Z",
- "generator": "official_examq_extract.py v0.17.4 (ADR-039) series=2025-11 paper=2P",
+ "generated_utc": "2026-10-25T22:07:13Z",
+ "generator": "official_examq_extract.py v0.19.0 (ADR-039) series=2025-11 paper=2P",
  "paper_id": "pearson-edexcel:international-gcse:physics:4ph1:2025-11:4PH1/2P",
  "source": {
   "qp_sha256": "719e9bbe239fbc93a07320f168b5bc9eca359e7db477ed2308bd6ebad31ed5ee",
@@ -191,7 +191,15 @@
      "question_type": "structured",
      "problem_md": "The table shows gravitational field strengths at the surfaces of four different planets. The planets have the same mass but different diameters. Diameter Gravitational field in km strength in N/kg 13 000 9.8 18 000 5.1 21 000 3.8 24 000 2.9 Give a reason why a scatter graph is the correct way to display this data, rather than a bar chart.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "idea that gravitational field strength and diameter are allow ‘the\nboth continuous variables; data’,’this\ndata’ etc for\nboth variables\nallow RA i.e.\n‘not discrete’\nor ‘not\ndiscontinuous’\nor ‘not\ncategoric’",
+     "mark_points": [
+      {
+       "id": "2025-11-2-a-i-MP1",
+       "marks": 1,
+       "text_md": "idea that gravitational field strength and diameter are allow ‘the\nboth continuous variables; data’,’this\ndata’ etc for\nboth variables\nallow RA i.e.\n‘not discrete’\nor ‘not\ndiscontinuous’\nor ‘not\ncategoric’"
+      }
+     ],
      "source_page": 6,
      "assets": [
       {
@@ -229,7 +237,15 @@
      "question_type": "structured",
      "problem_md": "A student claims that the relationship between the gravitational field strength and the diameter of a planet is given by this formula. gravitational field strength × (diameter)2 = constant Using data from the table, evaluate the student’s claim.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "data from a single row selected;\nconstant calculated; allow values\nnext to table\nconstant for a second row calculated; ignore POT\nignore SF\nvalid conclusion consistent with comparison of (at least)\ntwo constant values;\nunrounded\nvalues for the\nconstant are:\n1656200000\n1652400000\n1675800000\n1670400000\nC (mass)",
+     "mark_points": [
+      {
+       "id": "2025-11-2-a-ii-MP1",
+       "marks": 4,
+       "text_md": "data from a single row selected;\nconstant calculated; allow values\nnext to table\nconstant for a second row calculated; ignore POT\nignore SF\nvalid conclusion consistent with comparison of (at least)\ntwo constant values;\nunrounded\nvalues for the\nconstant are:\n1656200000\n1652400000\n1675800000\n1670400000\nC (mass)"
+      }
+     ],
      "source_page": 7,
      "assets": [
       {
@@ -263,29 +279,41 @@
      "choices": [
       {
        "label": "A",
-       "text_md": "absolute magnitude"
+       "text_md": "absolute magnitude",
+       "is_correct": false
       },
       {
        "label": "B",
-       "text_md": "colour"
+       "text_md": "colour",
+       "is_correct": false
       },
       {
        "label": "C",
-       "text_md": "mass"
+       "text_md": "mass",
+       "is_correct": true
       },
       {
        "label": "D",
-       "text_md": "specific heat capacity"
+       "text_md": "specific heat capacity",
+       "is_correct": false
       }
      ],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "A does not affect gravitational field strength\nB does not affect gravitational field strength\nD does not affect gravitational field strength\nTotal for question 2: 6 marks\nQuestion Number Answer Notes Marks",
+     "mark_points": [
+      {
+       "id": "2025-11-2-b-MP1",
+       "marks": 1,
+       "text_md": "Answer C: mass"
+      }
+     ],
      "source_page": 7,
      "assets": [],
      "spec_point_codes": [],
      "tagging": "pending-llm",
      "edit_status": "extracted",
      "value_trace": {
-      "keys": "unresolved:review-queue",
+      "keys": "ms-positional",
       "marks": "ms-printed",
       "numbers": "source-printed"
      }
@@ -306,7 +334,15 @@
      "question_type": "structured",
      "problem_md": "State the formula linking momentum, mass and velocity.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "momentum = mass × velocity; p=m×v",
+     "mark_points": [
+      {
+       "id": "2025-11-3-a-i-MP1",
+       "marks": 1,
+       "text_md": "momentum = mass × velocity; p=m×v"
+      }
+     ],
      "source_page": 8,
      "assets": [],
      "spec_point_codes": [],
@@ -324,7 +360,15 @@
      "question_type": "structured",
      "problem_md": "A mass of 14 000 kg of water enters the turbine. Calculate the velocity of the water as it enters the turbine. velocity = m/s",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "substitution;\ncorrect evaluation; accept any answer\nthat rounds to 8.6\ne.g. (m/s)\n120 000 = 14 000 × v\nv = 120 000 ÷ 14 000 = 8.57\nmomentum = 8.6 (m/s) to 2 s.f.",
+     "mark_points": [
+      {
+       "id": "2025-11-3-a-ii-MP1",
+       "marks": 2,
+       "text_md": "substitution;\ncorrect evaluation; accept any answer\nthat rounds to 8.6\ne.g. (m/s)\n120 000 = 14 000 × v\nv = 120 000 ÷ 14 000 = 8.57\nmomentum = 8.6 (m/s) to 2 s.f."
+      }
+     ],
      "source_page": 8,
      "assets": [],
      "spec_point_codes": [],
@@ -342,7 +386,15 @@
      "question_type": "structured",
      "problem_md": "The 14 000 kg of water leaves the turbine. This water has a momentum of 63 000 kg m/s after it leaves the turbine. The turbine exerts a force of 6100 N on the water. Calculate the time taken for the water to pass through the turbine. time = s",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "initial momentum – final momentum;\nsubstitution into given formula;\ncorrect evaluation;\ncorrect answer: 9.3 (s) accept any answer\ne.g. that rounds to 9.3 (s)\nchange in momentum = 120 000 – 63 000 (kg m/s)\nchange in momentum = 57 000 (kg m/s) accept any answer\nthat rounds to 20 (s)\nfor 1 mark\naccept any answer\nthat rounds to 10 (s)\nfor 1 mark\ntime = change in momentum ÷ force\ntime = 57 000 ÷ 6100\ntime = 9.3 (s)",
+     "mark_points": [
+      {
+       "id": "2025-11-3-a-iii-MP1",
+       "marks": 3,
+       "text_md": "initial momentum – final momentum;\nsubstitution into given formula;\ncorrect evaluation;\ncorrect answer: 9.3 (s) accept any answer\ne.g. that rounds to 9.3 (s)\nchange in momentum = 120 000 – 63 000 (kg m/s)\nchange in momentum = 57 000 (kg m/s) accept any answer\nthat rounds to 20 (s)\nfor 1 mark\naccept any answer\nthat rounds to 10 (s)\nfor 1 mark\ntime = change in momentum ÷ force\ntime = 57 000 ÷ 6100\ntime = 9.3 (s)"
+      }
+     ],
      "source_page": 9,
      "assets": [],
      "spec_point_codes": [],
@@ -360,7 +412,15 @@
      "question_type": "structured",
      "problem_md": "As the water passes through the turbine, energy is lost from the water’s kinetic energy store. Explain what happens to the energy lost from the water’s kinetic energy store.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "ignore references to\nelectrical energy,\nsound energy\ntransferred mechanically; reject mechanical\nenergy\nthe KE store of the turbine increases; allow ‘...to the KE\nstore of the turbine’\nreject mechanical\nenergy\nsome energy is transferred to the thermal store\nof the surroundings/turbine;\nalternate:\nMP1 ‘KE of water\ntransfers to KE of\nturbine’\nMP2 idea that not all\nof the KE of water\ngoes to KE of turbine\ni.e. most of the KE of\nthe water goes to\nthe KE of the\nturbine’\nMP3 reference to\nsome (of the KE of\nwater) is lost as heat\nor thermal energy to\nthe surroundings\nNB marks can only be\nscored either from\nthe original or\nalternate, not from\nboth",
+     "mark_points": [
+      {
+       "id": "2025-11-3-b-MP1",
+       "marks": 3,
+       "text_md": "ignore references to\nelectrical energy,\nsound energy\ntransferred mechanically; reject mechanical\nenergy\nthe KE store of the turbine increases; allow ‘...to the KE\nstore of the turbine’\nreject mechanical\nenergy\nsome energy is transferred to the thermal store\nof the surroundings/turbine;\nalternate:\nMP1 ‘KE of water\ntransfers to KE of\nturbine’\nMP2 idea that not all\nof the KE of water\ngoes to KE of turbine\ni.e. most of the KE of\nthe water goes to\nthe KE of the\nturbine’\nMP3 reference to\nsome (of the KE of\nwater) is lost as heat\nor thermal energy to\nthe surroundings\nNB marks can only be\nscored either from\nthe original or\nalternate, not from\nboth"
+      }
+     ],
      "source_page": 9,
      "assets": [],
      "spec_point_codes": [],
@@ -378,7 +438,15 @@
      "question_type": "structured",
      "problem_md": "Hydroelectric power is an example of a renewable resource for the generation of electricity. Give two examples of non-renewable resources for the generation of electricity. 1 2",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "Any two from: ignore power,\nstation, power\ncoal; station, energy\ngas;\noil;\npetrol;\ndiesel;\nkerosene;\nuranium;\nplutonium;\nnuclear;\nfossil fuels;\nTotal for question 3: 11 marks\nQuestion Number Answer Notes Marks",
+     "mark_points": [
+      {
+       "id": "2025-11-3-c-MP1",
+       "marks": 2,
+       "text_md": "Any two from: ignore power,\nstation, power\ncoal; station, energy\ngas;\noil;\npetrol;\ndiesel;\nkerosene;\nuranium;\nplutonium;\nnuclear;\nfossil fuels;\nTotal for question 3: 11 marks\nQuestion Number Answer Notes Marks"
+      }
+     ],
      "source_page": 9,
      "assets": [],
      "spec_point_codes": [],
@@ -501,7 +569,15 @@
      "question_type": "structured",
      "problem_md": "Draw one field line on the diagram to show the direction of the magnetic field.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "(at least) one field line (which does not cross) and is e.g. see diagram\nconsistent with the correct field line pattern; for non-\nexhaustive\nexamples of\nacceptable field\nlines\napply list\nprinciple\nreject field lines\narrow head on at least one field line that is consistent that start/finish\nwith current direction in solenoid; on a wire",
+     "mark_points": [
+      {
+       "id": "2025-11-5-a-i-MP1",
+       "marks": 2,
+       "text_md": "(at least) one field line (which does not cross) and is e.g. see diagram\nconsistent with the correct field line pattern; for non-\nexhaustive\nexamples of\nacceptable field\nlines\napply list\nprinciple\nreject field lines\narrow head on at least one field line that is consistent that start/finish\nwith current direction in solenoid; on a wire"
+      }
+     ],
      "source_page": 12,
      "assets": [
       {
@@ -533,7 +609,15 @@
      "question_type": "structured",
      "problem_md": "Use the field line to determine which end of the solenoid is the north pole and label this on the diagram.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "clear indication from the candidate which end is north however ressed\nconsistent with their field line and no further than two (but including\nwires ‘in’. \"N\" or \"North\")\naccept ECF from\n(i)",
+     "mark_points": [
+      {
+       "id": "2025-11-5-a-ii-MP1",
+       "marks": 1,
+       "text_md": "clear indication from the candidate which end is north however ressed\nconsistent with their field line and no further than two (but including\nwires ‘in’. \"N\" or \"North\")\naccept ECF from\n(i)"
+      }
+     ],
      "source_page": 12,
      "assets": [
       {
@@ -687,12 +771,12 @@
      "problem_md": "The reference wavelength for light arriving at the Earth from galaxy A is 506 nm. Calculate the observed wavelength for the light arriving from galaxy A. [speed of light = 3.0 × 105 km/s] wavelength = nm",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "substitution into given equation; allow ∆λ for change in\nwavelength\nrearrangement to find wavelength; POT error –1 here on\neither ∆λ or λ\nevidence of ∆λ of 29 nm\nscores first 2 marks\ncorrect evaluation;\ne.g.\n(λ - 506)/506 = 1.7 × 104/ 3.0 × 105\nλ = 506 × (1.7 × 104/ 3.0 × 105) + 506\nλ = 534.7 (nm)\naccept any value that\nrounds to 530 (nm)\naccept any value that\nrounds to 29nm (change\nin wavelength) as final\nanswer for 2 marks\naccept any value that\nrounds to 480 nm\n(subtraction of change\nin wavelength) for 2\nwrong change in\nwavelength added to\n506 nm gives 1 mark\n(b) Any TWO from:\nthe universe is expanding / eq; i.e. galaxies are moving\naway from each other;\nidea that (recession) velocity increases with i.e. ‘galaxies’ velocities\ndistance/eq; (away from Earth)’ for\n‘recession velocity’\nexplicit statement that galaxy C is moving faster e.g. C is twice as fast as\nthan galaxy B (from Earth); B\ndouble the distance (from Earth) will give double allow higher order\nthe speed; thinking e.g. distance\nand velocity\nproportional\nidea that galaxy C is moving four times faster\nthan galaxy A and galaxy B is moving two times\nfaster than galaxy A;\n(c) Any TWO from: accept RA\nMP1 idea that wavelength of CMB has increased\nover time (as the universe has expanded);\nMP2 Universe was (significantly) hotter in the\npast/eq;\nMP3 temperature is inversely proportional to\nwavelength (of CMB)\nTotal for question 6: 7 marks\nQuestion Number Answer Notes Marks",
+     "solution_md": "substitution into given equation; allow ∆λ for change in\nwavelength\nrearrangement to find wavelength; POT error –1 here on\neither ∆λ or λ\nevidence of ∆λ of 29 nm\nscores first 2 marks\ncorrect evaluation;\ne.g.\n(λ - 506)/506 = 1.7 × 104/ 3.0 × 105\nλ = 506 × (1.7 × 104/ 3.0 × 105) + 506\nλ = 534.7 (nm)\naccept any value that\nrounds to 530 (nm)\naccept any value that\nrounds to 29nm (change\nin wavelength) as final\nanswer for 2 marks\naccept any value that\nrounds to 480 nm\n(subtraction of change\nin wavelength) for 2\nwrong change in\nwavelength added to\n506 nm gives 1 mark",
      "mark_points": [
       {
        "id": "2025-11-6-a-MP1",
        "marks": 3,
-       "text_md": "substitution into given equation; allow ∆λ for change in\nwavelength\nrearrangement to find wavelength; POT error –1 here on\neither ∆λ or λ\nevidence of ∆λ of 29 nm\nscores first 2 marks\ncorrect evaluation;\ne.g.\n(λ - 506)/506 = 1.7 × 104/ 3.0 × 105\nλ = 506 × (1.7 × 104/ 3.0 × 105) + 506\nλ = 534.7 (nm)\naccept any value that\nrounds to 530 (nm)\naccept any value that\nrounds to 29nm (change\nin wavelength) as final\nanswer for 2 marks\naccept any value that\nrounds to 480 nm\n(subtraction of change\nin wavelength) for 2\nwrong change in\nwavelength added to\n506 nm gives 1 mark\n(b) Any TWO from:\nthe universe is expanding / eq; i.e. galaxies are moving\naway from each other;\nidea that (recession) velocity increases with i.e. ‘galaxies’ velocities\ndistance/eq; (away from Earth)’ for\n‘recession velocity’\nexplicit statement that galaxy C is moving faster e.g. C is twice as fast as\nthan galaxy B (from Earth); B\ndouble the distance (from Earth) will give double allow higher order\nthe speed; thinking e.g. distance\nand velocity\nproportional\nidea that galaxy C is moving four times faster\nthan galaxy A and galaxy B is moving two times\nfaster than galaxy A;\n(c) Any TWO from: accept RA\nMP1 idea that wavelength of CMB has increased\nover time (as the universe has expanded);\nMP2 Universe was (significantly) hotter in the\npast/eq;\nMP3 temperature is inversely proportional to\nwavelength (of CMB)\nTotal for question 6: 7 marks\nQuestion Number Answer Notes Marks"
+       "text_md": "substitution into given equation; allow ∆λ for change in\nwavelength\nrearrangement to find wavelength; POT error –1 here on\neither ∆λ or λ\nevidence of ∆λ of 29 nm\nscores first 2 marks\ncorrect evaluation;\ne.g.\n(λ - 506)/506 = 1.7 × 104/ 3.0 × 105\nλ = 506 × (1.7 × 104/ 3.0 × 105) + 506\nλ = 534.7 (nm)\naccept any value that\nrounds to 530 (nm)\naccept any value that\nrounds to 29nm (change\nin wavelength) as final\nanswer for 2 marks\naccept any value that\nrounds to 480 nm\n(subtraction of change\nin wavelength) for 2\nwrong change in\nwavelength added to\n506 nm gives 1 mark"
       }
      ],
      "source_page": 14,
@@ -712,7 +796,15 @@
      "question_type": "structured",
      "problem_md": "Galaxy B is twice as far away from the Earth as galaxy A is from the Earth. Galaxy C is four times as far away from the Earth as galaxy A is from the Earth. Explain how the velocities of galaxies B and C are different.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "Any TWO from:\nthe universe is expanding / eq; i.e. galaxies are moving\naway from each other;\nidea that (recession) velocity increases with i.e. ‘galaxies’ velocities\ndistance/eq; (away from Earth)’ for\n‘recession velocity’\nexplicit statement that galaxy C is moving faster e.g. C is twice as fast as\nthan galaxy B (from Earth); B\ndouble the distance (from Earth) will give double allow higher order\nthe speed; thinking e.g. distance\nand velocity\nproportional\nidea that galaxy C is moving four times faster\nthan galaxy A and galaxy B is moving two times\nfaster than galaxy A;",
+     "mark_points": [
+      {
+       "id": "2025-11-6-b-MP1",
+       "marks": 2,
+       "text_md": "Any TWO from:\nthe universe is expanding / eq; i.e. galaxies are moving\naway from each other;\nidea that (recession) velocity increases with i.e. ‘galaxies’ velocities\ndistance/eq; (away from Earth)’ for\n‘recession velocity’\nexplicit statement that galaxy C is moving faster e.g. C is twice as fast as\nthan galaxy B (from Earth); B\ndouble the distance (from Earth) will give double allow higher order\nthe speed; thinking e.g. distance\nand velocity\nproportional\nidea that galaxy C is moving four times faster\nthan galaxy A and galaxy B is moving two times\nfaster than galaxy A;"
+      }
+     ],
      "source_page": 14,
      "assets": [],
      "spec_point_codes": [],
@@ -730,7 +822,15 @@
      "question_type": "structured",
      "problem_md": "The universe started with an event called the Big Bang. Explain how evidence from cosmic microwave background radiation shows how the temperature of the universe has changed since the Big Bang.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "Any TWO from: accept RA\nMP1 idea that wavelength of CMB has increased\nover time (as the universe has expanded);\nMP2 Universe was (significantly) hotter in the\npast/eq;\nMP3 temperature is inversely proportional to\nwavelength (of CMB)\nTotal for question 6: 7 marks\nQuestion Number Answer Notes Marks",
+     "mark_points": [
+      {
+       "id": "2025-11-6-c-MP1",
+       "marks": 2,
+       "text_md": "Any TWO from: accept RA\nMP1 idea that wavelength of CMB has increased\nover time (as the universe has expanded);\nMP2 Universe was (significantly) hotter in the\npast/eq;\nMP3 temperature is inversely proportional to\nwavelength (of CMB)\nTotal for question 6: 7 marks\nQuestion Number Answer Notes Marks"
+      }
+     ],
      "source_page": 15,
      "assets": [],
      "spec_point_codes": [],
@@ -758,7 +858,15 @@
      "question_type": "structured",
      "problem_md": "Give the name of a piece of equipment that the student could use to measure the time during the investigation.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "(stop)watch / (stop)clock / timer/chronometer; ignore ‘light gate’\napply list principle",
+     "mark_points": [
+      {
+       "id": "2025-11-7-a-i-MP1",
+       "marks": 1,
+       "text_md": "(stop)watch / (stop)clock / timer/chronometer; ignore ‘light gate’\napply list principle"
+      }
+     ],
      "source_page": 16,
      "assets": [],
      "spec_point_codes": [],
@@ -778,29 +886,41 @@
      "choices": [
       {
        "label": "A",
-       "text_md": "mass of block"
+       "text_md": "mass of block",
+       "is_correct": false
       },
       {
        "label": "B",
-       "text_md": "temperature of block"
+       "text_md": "temperature of block",
+       "is_correct": true
       },
       {
        "label": "C",
-       "text_md": "time taken to heat block"
+       "text_md": "time taken to heat block",
+       "is_correct": false
       },
       {
        "label": "D",
-       "text_md": "volume of block"
+       "text_md": "volume of block",
+       "is_correct": false
       }
      ],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "B (temperature of block);\nA and D cannot be correct as they are control\nvariables here\nC cannot be correct as it is the independent\nvariable here",
+     "mark_points": [
+      {
+       "id": "2025-11-7-a-ii-MP1",
+       "marks": 1,
+       "text_md": "Answer B: temperature of block"
+      }
+     ],
      "source_page": 16,
      "assets": [],
      "spec_point_codes": [],
      "tagging": "pending-llm",
      "edit_status": "extracted",
      "value_trace": {
-      "keys": "unresolved:review-queue",
+      "keys": "ms-positional",
       "marks": "ms-printed",
       "numbers": "source-printed"
      }
@@ -811,7 +931,15 @@
      "question_type": "structured",
      "problem_md": "The energy supplied to the block is 440 000 J. Calculate the mass of the metal block when the temperature of the block increases from 45 °C to its melting point of 450 °C. [for the metal, specific heat capacity = 910 J / kg °C] mass = kg",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "temperature change of 405 degrees; allow (450 – 45) seen\nsubstitution into given formula or correct re- mark independently\narrangement with mass as subject;\ncorrect evaluation;\ne.g.\ntemperature change = 450 – 45 = 405 degrees\nenergy supplied = mass × 910 × 405\nmass = 440 000 / (910 × 405)\nmass = 1.2 (kg) (to 2sf) 1.1938.... (kg)\nallow any answer\nthat rounds to 1.2\n(kg) for 3 marks\nany POT error in\notherwise correct\nanswer scores 2\nsubstitution of 450,\n45 or 495 for the\ntemperature change\ninto the correct\nequation with\ncorrect SHC and\nenergy change scores\n1 mark only",
+     "mark_points": [
+      {
+       "id": "2025-11-7-b-MP1",
+       "marks": 3,
+       "text_md": "temperature change of 405 degrees; allow (450 – 45) seen\nsubstitution into given formula or correct re- mark independently\narrangement with mass as subject;\ncorrect evaluation;\ne.g.\ntemperature change = 450 – 45 = 405 degrees\nenergy supplied = mass × 910 × 405\nmass = 440 000 / (910 × 405)\nmass = 1.2 (kg) (to 2sf) 1.1938.... (kg)\nallow any answer\nthat rounds to 1.2\n(kg) for 3 marks\nany POT error in\notherwise correct\nanswer scores 2\nsubstitution of 450,\n45 or 495 for the\ntemperature change\ninto the correct\nequation with\ncorrect SHC and\nenergy change scores\n1 mark only"
+      }
+     ],
      "source_page": 17,
      "assets": [],
      "spec_point_codes": [],
@@ -829,7 +957,15 @@
      "question_type": "structured",
      "problem_md": "The metal block melts and then the liquid metal boils to become a gas. Describe the motion of the particles when the metal is a gas.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "idea of high speed; ignore ’freely’\nidea of randomness;",
+     "mark_points": [
+      {
+       "id": "2025-11-7-c-MP1",
+       "marks": 2,
+       "text_md": "idea of high speed; ignore ’freely’\nidea of randomness;"
+      }
+     ],
      "source_page": 17,
      "assets": [],
      "spec_point_codes": [],
@@ -847,7 +983,15 @@
      "question_type": "structured",
      "problem_md": "Suggest two changes to the graph if the student had used a different metal in their investigation. 1 2",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "accept annotation of\ngraph for either mark\nMP1 temperature rises at a different rate/eq;\nMP2 melting point would be different/eq; allow idea that 'flat\npart would be at a\ndifferent temp'\nallow higher order\nidea that ‘flat part\nwould be a different\nlength’\nTotal for question 7: 9 marks\nQuestion Number Answer Notes Marks",
+     "mark_points": [
+      {
+       "id": "2025-11-7-d-MP1",
+       "marks": 2,
+       "text_md": "accept annotation of\ngraph for either mark\nMP1 temperature rises at a different rate/eq;\nMP2 melting point would be different/eq; allow idea that 'flat\npart would be at a\ndifferent temp'\nallow higher order\nidea that ‘flat part\nwould be a different\nlength’\nTotal for question 7: 9 marks\nQuestion Number Answer Notes Marks"
+      }
+     ],
      "source_page": 17,
      "assets": [
       {
@@ -890,12 +1034,12 @@
      "problem_md": "Explain how the fission of U-235 can set up a chain reaction.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "Any THREE from\nMP1 neutron absorbed by (uranium) nucleus\nMP2 (uranium) nucleus becomes unstable\nMP3 nucleus splits producing two condone\n(smaller/daughter) nuclei and (some) neutrons ‘undergoes fission’\nfor ‘splits’\ncondone named\nisotopes e.g.\nMP4 neutrons absorbed by other (uranium) nuclei krypton and barium\n(b) fusion: joining of nuclei/eq; condone ‘fusing’\nradioactive decay: idea of (spontaneous) release accept any named\nof particle(s) from the nucleus; particle e.g.\nalpha/helium\nnucleus,\nbeta/electron,\ngamma, neutron\nignore reference to\n‘splitting’\naccept higher order\nidea of a decrease\nin\ninstability/increase\nin stability\n(c) 0; (for the neutron)\n3; (for the hydrogen)\n(d) Any TWO from:\nnuclei are both positive so (electrostatically)\nrepel;\nORA for MP2 and\nhigh temperature means high KE or high speed; MP3\n(high temperature and/or high pressure means) allow idea of\nnuclei can get close enough to fuse; high(er) probability\nof fusion\nallow particles for\nnuclei for this MP\nonly",
+     "solution_md": "Any THREE from\nMP1 neutron absorbed by (uranium) nucleus\nMP2 (uranium) nucleus becomes unstable\nMP3 nucleus splits producing two condone\n(smaller/daughter) nuclei and (some) neutrons ‘undergoes fission’\nfor ‘splits’\ncondone named\nisotopes e.g.\nMP4 neutrons absorbed by other (uranium) nuclei krypton and barium",
      "mark_points": [
       {
        "id": "2025-11-8-a-MP1",
        "marks": 3,
-       "text_md": "Any THREE from\nMP1 neutron absorbed by (uranium) nucleus\nMP2 (uranium) nucleus becomes unstable\nMP3 nucleus splits producing two condone\n(smaller/daughter) nuclei and (some) neutrons ‘undergoes fission’\nfor ‘splits’\ncondone named\nisotopes e.g.\nMP4 neutrons absorbed by other (uranium) nuclei krypton and barium\n(b) fusion: joining of nuclei/eq; condone ‘fusing’\nradioactive decay: idea of (spontaneous) release accept any named\nof particle(s) from the nucleus; particle e.g.\nalpha/helium\nnucleus,\nbeta/electron,\ngamma, neutron\nignore reference to\n‘splitting’\naccept higher order\nidea of a decrease\nin\ninstability/increase\nin stability\n(c) 0; (for the neutron)\n3; (for the hydrogen)\n(d) Any TWO from:\nnuclei are both positive so (electrostatically)\nrepel;\nORA for MP2 and\nhigh temperature means high KE or high speed; MP3\n(high temperature and/or high pressure means) allow idea of\nnuclei can get close enough to fuse; high(er) probability\nof fusion\nallow particles for\nnuclei for this MP\nonly"
+       "text_md": "Any THREE from\nMP1 neutron absorbed by (uranium) nucleus\nMP2 (uranium) nucleus becomes unstable\nMP3 nucleus splits producing two condone\n(smaller/daughter) nuclei and (some) neutrons ‘undergoes fission’\nfor ‘splits’\ncondone named\nisotopes e.g.\nMP4 neutrons absorbed by other (uranium) nuclei krypton and barium"
       }
      ],
      "source_page": 18,
@@ -915,7 +1059,15 @@
      "question_type": "structured",
      "problem_md": "Explain how nuclear fusion is different from radioactive decay.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "fusion: joining of nuclei/eq; condone ‘fusing’\nradioactive decay: idea of (spontaneous) release accept any named\nof particle(s) from the nucleus; particle e.g.\nalpha/helium\nnucleus,\nbeta/electron,\ngamma, neutron\nignore reference to\n‘splitting’\naccept higher order\nidea of a decrease\nin\ninstability/increase\nin stability",
+     "mark_points": [
+      {
+       "id": "2025-11-8-b-MP1",
+       "marks": 2,
+       "text_md": "fusion: joining of nuclei/eq; condone ‘fusing’\nradioactive decay: idea of (spontaneous) release accept any named\nof particle(s) from the nucleus; particle e.g.\nalpha/helium\nnucleus,\nbeta/electron,\ngamma, neutron\nignore reference to\n‘splitting’\naccept higher order\nidea of a decrease\nin\ninstability/increase\nin stability"
+      }
+     ],
      "source_page": 18,
      "assets": [],
      "spec_point_codes": [],
@@ -933,7 +1085,15 @@
      "question_type": "structured",
      "problem_md": "An isotope of hydrogen is used as a fuel for nuclear fusion. The nuclear equation shows how this isotope of hydrogen can be manufactured. Complete the equation by giving the missing information. n + Li → 2α 1 6 4 H + 3 1",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "0; (for the neutron)\n3; (for the hydrogen)",
+     "mark_points": [
+      {
+       "id": "2025-11-8-c-MP1",
+       "marks": 2,
+       "text_md": "0; (for the neutron)\n3; (for the hydrogen)"
+      }
+     ],
      "source_page": 19,
      "assets": [],
      "spec_point_codes": [],
@@ -951,7 +1111,15 @@
      "question_type": "structured",
      "problem_md": "Explain why nuclear fusion can only happen at high temperatures and pressures.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "Any TWO from:\nnuclei are both positive so (electrostatically)\nrepel;\nORA for MP2 and\nhigh temperature means high KE or high speed; MP3\n(high temperature and/or high pressure means) allow idea of\nnuclei can get close enough to fuse; high(er) probability\nof fusion\nallow particles for\nnuclei for this MP\nonly",
+     "mark_points": [
+      {
+       "id": "2025-11-8-d-MP1",
+       "marks": 2,
+       "text_md": "Any TWO from:\nnuclei are both positive so (electrostatically)\nrepel;\nORA for MP2 and\nhigh temperature means high KE or high speed; MP3\n(high temperature and/or high pressure means) allow idea of\nnuclei can get close enough to fuse; high(er) probability\nof fusion\nallow particles for\nnuclei for this MP\nonly"
+      }
+     ],
      "source_page": 19,
      "assets": [],
      "spec_point_codes": [],

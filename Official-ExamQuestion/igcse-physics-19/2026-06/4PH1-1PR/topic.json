@@ -1,7 +1,7 @@
 {
  "schema": "syllabai.official-paper-questions/0.2",
- "generated_utc": "2026-10-25T20:43:42Z",
- "generator": "official_examq_extract.py v0.17.4 (ADR-039) series=2026-06 paper=1PR",
+ "generated_utc": "2026-10-25T22:07:17Z",
+ "generator": "official_examq_extract.py v0.19.0 (ADR-039) series=2026-06 paper=1PR",
  "paper_id": "pearson-edexcel:international-gcse:physics:4ph1:2026-06:4PH1/1PR",
  "source": {
   "qp_sha256": "84e4226ba5f80cc7635c979d2eebb9b29837486a49086d0d38cbbf47c5e6f30b",
@@ -51,12 +51,12 @@
       }
      ],
      "answer_status": "linked",
-     "solution_md": "A = Sun; allow star\nallow named star\nB = planet; allow named planet e.g.\nEarth\nC = moon; allow satellite, named\nartificial or natural\nsatellite e.g. ISS\nD = comet; allow named comet\n(b) Sun will become a red giant; reject ‘red supergiant’\nreject ‘super red giant’\nAND THEN\nSun will become a white dwarf; reject any other stages\ne.g. supernova, neutron\nstar, black hole\nallow black dwarf\n/planetary nebula for\nwhite dwarf\nwhite dwarf without red\ngiant stage scores one\nmark\nQuestion number Answer Notes Marks",
+     "solution_md": "A = Sun; allow star\nallow named star\nB = planet; allow named planet e.g.\nEarth\nC = moon; allow satellite, named\nartificial or natural\nsatellite e.g. ISS\nD = comet; allow named comet",
      "mark_points": [
       {
        "id": "2026-06-1-a-MP1",
        "marks": 4,
-       "text_md": "A = Sun; allow star\nallow named star\nB = planet; allow named planet e.g.\nEarth\nC = moon; allow satellite, named\nartificial or natural\nsatellite e.g. ISS\nD = comet; allow named comet\n(b) Sun will become a red giant; reject ‘red supergiant’\nreject ‘super red giant’\nAND THEN\nSun will become a white dwarf; reject any other stages\ne.g. supernova, neutron\nstar, black hole\nallow black dwarf\n/planetary nebula for\nwhite dwarf\nwhite dwarf without red\ngiant stage scores one\nmark\nQuestion number Answer Notes Marks"
+       "text_md": "A = Sun; allow star\nallow named star\nB = planet; allow named planet e.g.\nEarth\nC = moon; allow satellite, named\nartificial or natural\nsatellite e.g. ISS\nD = comet; allow named comet"
       }
      ],
      "source_page": 4,
@@ -76,7 +76,15 @@
      "question_type": "structured",
      "problem_md": "The Sun is a main sequence star. Describe the future evolution of the Sun after it leaves the main sequence.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "Sun will become a red giant; reject ‘red supergiant’\nreject ‘super red giant’\nAND THEN\nSun will become a white dwarf; reject any other stages\ne.g. supernova, neutron\nstar, black hole\nallow black dwarf\n/planetary nebula for\nwhite dwarf\nwhite dwarf without red\ngiant stage scores one\nmark\nQuestion number Answer Notes Marks",
+     "mark_points": [
+      {
+       "id": "2026-06-1-b-MP1",
+       "marks": 2,
+       "text_md": "Sun will become a red giant; reject ‘red supergiant’\nreject ‘super red giant’\nAND THEN\nSun will become a white dwarf; reject any other stages\ne.g. supernova, neutron\nstar, black hole\nallow black dwarf\n/planetary nebula for\nwhite dwarf\nwhite dwarf without red\ngiant stage scores one\nmark\nQuestion number Answer Notes Marks"
+      }
+     ],
      "source_page": 5,
      "assets": [],
      "spec_point_codes": [],
@@ -104,7 +112,15 @@
      "question_type": "structured",
      "problem_md": "Identify the mistakes in the student’s diagram. You may draw on the diagram to help your answer.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "central line should not be drawn / does not exist; allow if seen on\ndiagram\narrows are pointing in the wrong direction / eq; allow if seen on\ndiagram\nallow arrows should\npoint away from north\npoles\nignore any statement\nabout start and finish\npoints of field lines",
+     "mark_points": [
+      {
+       "id": "2026-06-2-a-i-MP1",
+       "marks": 2,
+       "text_md": "central line should not be drawn / does not exist; allow if seen on\ndiagram\narrows are pointing in the wrong direction / eq; allow if seen on\ndiagram\nallow arrows should\npoint away from north\npoles\nignore any statement\nabout start and finish\npoints of field lines"
+      }
+     ],
      "source_page": 6,
      "assets": [
       {
@@ -136,7 +152,15 @@
      "question_type": "structured",
      "problem_md": "Give the name of a piece of equipment that can be used to show the direction of a magnetic field.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "(plotting) compass(es); allow use of (bar)\nsuspended magnet with\nknown poles",
+     "mark_points": [
+      {
+       "id": "2026-06-2-a-ii-MP1",
+       "marks": 1,
+       "text_md": "(plotting) compass(es); allow use of (bar)\nsuspended magnet with\nknown poles"
+      }
+     ],
      "source_page": 6,
      "assets": [],
      "spec_point_codes": [],
@@ -156,29 +180,41 @@
      "choices": [
       {
        "label": "A",
-       "text_md": "plastic rod"
+       "text_md": "plastic rod",
+       "is_correct": true
       },
       {
        "label": "B",
-       "text_md": "bar magnet"
+       "text_md": "bar magnet",
+       "is_correct": false
       },
       {
        "label": "C",
-       "text_md": "copper wire with a current at right angles to the field"
+       "text_md": "copper wire with a current at right angles to the field",
+       "is_correct": false
       },
       {
        "label": "D",
-       "text_md": "iron bar"
+       "text_md": "iron bar",
+       "is_correct": false
       }
      ],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "A (plastic rod);\nB is incorrect because a bar magnet has its own\nmagnetic field\nC is incorrect because a current-carrying conductor\nhas its own magnetic field\nD is incorrect because iron is a magnetic material",
+     "mark_points": [
+      {
+       "id": "2026-06-2-b-MP1",
+       "marks": 1,
+       "text_md": "Answer A: plastic rod"
+      }
+     ],
      "source_page": 7,
      "assets": [],
      "spec_point_codes": [],
      "tagging": "pending-llm",
      "edit_status": "extracted",
      "value_trace": {
-      "keys": "unresolved:review-queue",
+      "keys": "ms-positional",
       "marks": "ms-printed",
       "numbers": "source-printed"
      }
@@ -189,7 +225,15 @@
      "question_type": "structured",
      "problem_md": "A teacher demonstrates magnetism by placing a strong magnet above some small nails made from steel. The steel nails are attracted to the magnet and stick to it. The teacher removes the steel nails from the magnet and puts the magnet away. A student observes that the steel nails are attracted to each other and stick together, even though the magnet is no longer present. Explain this observation.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "steel is a hard magnetic material / magnetically ignore hard magnet\nhard;\nidea that steel retains its magnetism (for however allow steel is\nlong) / eq; permanently\nmagnetised\nAnswer Notes Marks",
+     "mark_points": [
+      {
+       "id": "2026-06-2-c-MP1",
+       "marks": 2,
+       "text_md": "steel is a hard magnetic material / magnetically ignore hard magnet\nhard;\nidea that steel retains its magnetism (for however allow steel is\nlong) / eq; permanently\nmagnetised\nAnswer Notes Marks"
+      }
+     ],
      "source_page": 7,
      "assets": [],
      "spec_point_codes": [],
@@ -222,12 +266,12 @@
      "problem_md": "The water bath is connected to mains electricity. Mains electricity provides alternating current (a.c.). Describe what is meant by the term alternating current (a.c.).",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "idea that current changes direction; allow current in both\ndirections\nallow reference to\nelectron direction (of\ntravel)\nignore vibrate\ncontinuously / repeatedly / frequently / constantly\n/ eq;\n(b) conversion from minutes to seconds; allow 1800 seen\nallow 30 × 60 seen\nsubstitution into P = E / t; allow ecf from\nincorrect/no conversion\nevaluation; allow ecf from\nincorrect/no conversion\ne.g. 24 000 (W), 1 440 000 (W)\nscores 2 marks\ntime = 1800 s\nP = 720 000 / 1800 400 (W) to any other\npower of 10 scores 2 marks\n24 000 (W), 1440 000 (W)\nto any other power of 10\nscores 1 mark\n(P =) 400 (W) allow correct unit that\nmatches candidate’s\nanswer e.g. 24 kW is\nequivalent to 24 000 W\n(c) any five from: accept heat for thermal\nenergy throughout\nMP1. (thermal) energy is lost to the surroundings;\nMP2. (lid) reduces the amount of (thermal) energy\nlost (to surroundings) /eq;\nMP3. (lid) traps air (between water and lid); ignore traps heat\nMP4. (lid) reduces convection losses (to the allow ‘(lid) reduces\nsurroundings)/eq; evaporation’\nMP5. idea that lid acts as insulation;\nMP6. plastic is a poor (thermal) conductor; allow plastic is a (good\nthermal) insulator\nallow air is a poor\nconductor\nallow air is a (good)\ninsulator\nMP7. energy transfers by conduction are reduced;\nMP8. idea that black lid is a good radiator;\nAnswer Notes Marks",
+     "solution_md": "idea that current changes direction; allow current in both\ndirections\nallow reference to\nelectron direction (of\ntravel)\nignore vibrate\ncontinuously / repeatedly / frequently / constantly\n/ eq;",
      "mark_points": [
       {
        "id": "2026-06-3-a-MP1",
        "marks": 2,
-       "text_md": "idea that current changes direction; allow current in both\ndirections\nallow reference to\nelectron direction (of\ntravel)\nignore vibrate\ncontinuously / repeatedly / frequently / constantly\n/ eq;\n(b) conversion from minutes to seconds; allow 1800 seen\nallow 30 × 60 seen\nsubstitution into P = E / t; allow ecf from\nincorrect/no conversion\nevaluation; allow ecf from\nincorrect/no conversion\ne.g. 24 000 (W), 1 440 000 (W)\nscores 2 marks\ntime = 1800 s\nP = 720 000 / 1800 400 (W) to any other\npower of 10 scores 2 marks\n24 000 (W), 1440 000 (W)\nto any other power of 10\nscores 1 mark\n(P =) 400 (W) allow correct unit that\nmatches candidate’s\nanswer e.g. 24 kW is\nequivalent to 24 000 W\n(c) any five from: accept heat for thermal\nenergy throughout\nMP1. (thermal) energy is lost to the surroundings;\nMP2. (lid) reduces the amount of (thermal) energy\nlost (to surroundings) /eq;\nMP3. (lid) traps air (between water and lid); ignore traps heat\nMP4. (lid) reduces convection losses (to the allow ‘(lid) reduces\nsurroundings)/eq; evaporation’\nMP5. idea that lid acts as insulation;\nMP6. plastic is a poor (thermal) conductor; allow plastic is a (good\nthermal) insulator\nallow air is a poor\nconductor\nallow air is a (good)\ninsulator\nMP7. energy transfers by conduction are reduced;\nMP8. idea that black lid is a good radiator;\nAnswer Notes Marks"
+       "text_md": "idea that current changes direction; allow current in both\ndirections\nallow reference to\nelectron direction (of\ntravel)\nignore vibrate\ncontinuously / repeatedly / frequently / constantly\n/ eq;"
       }
      ],
      "source_page": 8,
@@ -247,7 +291,15 @@
      "question_type": "structured",
      "problem_md": "720 000 J of energy is transferred to the heating element in the water bath in a time of 30 minutes. Calculate the power of the heating element. power = W",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "conversion from minutes to seconds; allow 1800 seen\nallow 30 × 60 seen\nsubstitution into P = E / t; allow ecf from\nincorrect/no conversion\nevaluation; allow ecf from\nincorrect/no conversion\ne.g. 24 000 (W), 1 440 000 (W)\nscores 2 marks\ntime = 1800 s\nP = 720 000 / 1800 400 (W) to any other\npower of 10 scores 2 marks\n24 000 (W), 1440 000 (W)\nto any other power of 10\nscores 1 mark\n(P =) 400 (W) allow correct unit that\nmatches candidate’s\nanswer e.g. 24 kW is\nequivalent to 24 000 W",
+     "mark_points": [
+      {
+       "id": "2026-06-3-b-MP1",
+       "marks": 3,
+       "text_md": "conversion from minutes to seconds; allow 1800 seen\nallow 30 × 60 seen\nsubstitution into P = E / t; allow ecf from\nincorrect/no conversion\nevaluation; allow ecf from\nincorrect/no conversion\ne.g. 24 000 (W), 1 440 000 (W)\nscores 2 marks\ntime = 1800 s\nP = 720 000 / 1800 400 (W) to any other\npower of 10 scores 2 marks\n24 000 (W), 1440 000 (W)\nto any other power of 10\nscores 1 mark\n(P =) 400 (W) allow correct unit that\nmatches candidate’s\nanswer e.g. 24 kW is\nequivalent to 24 000 W"
+      }
+     ],
      "source_page": 8,
      "assets": [],
      "spec_point_codes": [],
@@ -265,7 +317,15 @@
      "question_type": "structured",
      "problem_md": "A technician switches on the water bath before a science lesson so that the water has enough time to reach a temperature of 60 °C. The technician also covers the water bath with the plastic lid, as shown in photograph 2. Photograph 2 Explain why the lid reduces the time taken for the water in the water bath to reach a temperature of 60 °C.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "any five from: accept heat for thermal\nenergy throughout\nMP1. (thermal) energy is lost to the surroundings;\nMP2. (lid) reduces the amount of (thermal) energy\nlost (to surroundings) /eq;\nMP3. (lid) traps air (between water and lid); ignore traps heat\nMP4. (lid) reduces convection losses (to the allow ‘(lid) reduces\nsurroundings)/eq; evaporation’\nMP5. idea that lid acts as insulation;\nMP6. plastic is a poor (thermal) conductor; allow plastic is a (good\nthermal) insulator\nallow air is a poor\nconductor\nallow air is a (good)\ninsulator\nMP7. energy transfers by conduction are reduced;\nMP8. idea that black lid is a good radiator;\nAnswer Notes Marks",
+     "mark_points": [
+      {
+       "id": "2026-06-3-c-MP1",
+       "marks": 5,
+       "text_md": "any five from: accept heat for thermal\nenergy throughout\nMP1. (thermal) energy is lost to the surroundings;\nMP2. (lid) reduces the amount of (thermal) energy\nlost (to surroundings) /eq;\nMP3. (lid) traps air (between water and lid); ignore traps heat\nMP4. (lid) reduces convection losses (to the allow ‘(lid) reduces\nsurroundings)/eq; evaporation’\nMP5. idea that lid acts as insulation;\nMP6. plastic is a poor (thermal) conductor; allow plastic is a (good\nthermal) insulator\nallow air is a poor\nconductor\nallow air is a (good)\ninsulator\nMP7. energy transfers by conduction are reduced;\nMP8. idea that black lid is a good radiator;\nAnswer Notes Marks"
+      }
+     ],
      "source_page": 9,
      "assets": [],
      "spec_point_codes": [],
@@ -293,7 +353,15 @@
      "question_type": "structured",
      "problem_md": "Add a labelled arrow to diagram 1 to show the amplitude of the microwave.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "labelled arrow drawn between distance axis up to a\ncrest or down to a trough;",
+     "mark_points": [
+      {
+       "id": "2026-06-4-a-i-MP1",
+       "marks": 1,
+       "text_md": "labelled arrow drawn between distance axis up to a\ncrest or down to a trough;"
+      }
+     ],
      "source_page": 11,
      "assets": [
       {
@@ -325,7 +393,15 @@
      "question_type": "structured",
      "problem_md": "Add a labelled arrow to diagram 1 to show the wavelength of the microwave.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "labelled arrow drawn between two adjacent crests allow equivalent arrow\nor two adjacent troughs; drawn between any two\nadjacent positions at\nthe same point in the\nwave cycle",
+     "mark_points": [
+      {
+       "id": "2026-06-4-a-ii-MP1",
+       "marks": 1,
+       "text_md": "labelled arrow drawn between two adjacent crests allow equivalent arrow\nor two adjacent troughs; drawn between any two\nadjacent positions at\nthe same point in the\nwave cycle"
+      }
+     ],
      "source_page": 11,
      "assets": [
       {
@@ -486,7 +562,7 @@
       }
      ],
      "answer_status": "linked",
-     "solution_md": "A (negatively charged electrons);\nB is incorrect because protons are positively charged\nC is incorrect because electrons are negatively\ncharged\nD is incorrect because protons cannot flow in solid\nmetallic conductors\n(b) D (rate of flow of charge);\nA is incorrect because this is the definition of\nvoltage\nB is incorrect because this is the ratio of energy and\nresistance\nC is incorrect because this is the definition of power",
+     "solution_md": "A (negatively charged electrons);\nB is incorrect because protons are positively charged\nC is incorrect because electrons are negatively\ncharged\nD is incorrect because protons cannot flow in solid\nmetallic conductors",
      "mark_points": [
       {
        "id": "2026-06-5-a-MP1",
@@ -513,29 +589,41 @@
      "choices": [
       {
        "label": "A",
-       "text_md": "energy transferred per unit charge passed"
+       "text_md": "energy transferred per unit charge passed",
+       "is_correct": false
       },
       {
        "label": "B",
-       "text_md": "energy transferred per unit resistance"
+       "text_md": "energy transferred per unit resistance",
+       "is_correct": false
       },
       {
        "label": "C",
-       "text_md": "rate of energy transfer"
+       "text_md": "rate of energy transfer",
+       "is_correct": false
       },
       {
        "label": "D",
-       "text_md": "rate of flow of charge"
+       "text_md": "rate of flow of charge",
+       "is_correct": true
       }
      ],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "D (rate of flow of charge);\nA is incorrect because this is the definition of\nvoltage\nB is incorrect because this is the ratio of energy and\nresistance\nC is incorrect because this is the definition of power",
+     "mark_points": [
+      {
+       "id": "2026-06-5-b-MP1",
+       "marks": 1,
+       "text_md": "Answer D: rate of flow of charge"
+      }
+     ],
      "source_page": 14,
      "assets": [],
      "spec_point_codes": [],
      "tagging": "pending-llm",
      "edit_status": "extracted",
      "value_trace": {
-      "keys": "unresolved:review-queue",
+      "keys": "ms-positional",
       "marks": "ms-printed",
       "numbers": "source-printed"
      }
@@ -711,7 +799,7 @@
    ],
    "groups": {
     "c": {
-     "group_stem_md": "A student investigates how the current in a series circuit varies as the number of resistors in the circuit changes. This is the student’s method. Step 1\t\u0007build a series circuit using a 6 V battery, a 12 Ω resistor, an ammeter, a switch and connecting wires Step 2 close the switch and measure the current using the ammeter Step 3 add another 12 Ω resistor into the series circuit and repeat step 2 The student repeats this method for a total of six 12 Ω resistors connected in series."
+     "group_stem_md": "A student investigates how the current in a series circuit varies as the number of resistors in the circuit changes. This is the student’s method. Step 1\tbuild a series circuit using a 6 V battery, a 12 Ω resistor, an ammeter, a switch and connecting wires Step 2 close the switch and measure the current using the ammeter Step 3 add another 12 Ω resistor into the series circuit and repeat step 2 The student repeats this method for a total of six 12 Ω resistors connected in series."
     }
    }
   },
@@ -750,7 +838,7 @@
       }
      ],
      "answer_status": "linked",
-     "solution_md": "C (in stars);\nA is incorrect because this is not a natural process\nB is incorrect because fusion does not take place in\nplants\nD is incorrect because fusion does not take place in\nthe human body\n(b) reference to combining nuclei however expressed; allow hydrogen or protons\nfor nuclei\nreject atoms, molecules\nfor nuclei\nallow recognisable mis-\nspellings for nuclei e.g.\nnucleuses\n(resulting in) a loss of mass/eq;\nreleasing energy; condone ‘heat’ for\n‘energy’\n(c) any three from: allow particles for nuclei\ncondone atoms for nuclei\nMP1. high temperature;\nMP2. nuclei need to move at high speeds or with\nhigh KE / eq;\nMP3. high pressure;\nMP4. nuclei need to be close together / eq; allow high density\nMP5. reference to electrostatic repulsion (of\nprotons)\nAnswer Notes Marks",
+     "solution_md": "C (in stars);\nA is incorrect because this is not a natural process\nB is incorrect because fusion does not take place in\nplants\nD is incorrect because fusion does not take place in\nthe human body",
      "mark_points": [
       {
        "id": "2026-06-6-a-MP1",
@@ -775,7 +863,15 @@
      "question_type": "structured",
      "problem_md": "Describe the process of nuclear fusion.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "reference to combining nuclei however expressed; allow hydrogen or protons\nfor nuclei\nreject atoms, molecules\nfor nuclei\nallow recognisable mis-\nspellings for nuclei e.g.\nnucleuses\n(resulting in) a loss of mass/eq;\nreleasing energy; condone ‘heat’ for\n‘energy’",
+     "mark_points": [
+      {
+       "id": "2026-06-6-b-MP1",
+       "marks": 3,
+       "text_md": "reference to combining nuclei however expressed; allow hydrogen or protons\nfor nuclei\nreject atoms, molecules\nfor nuclei\nallow recognisable mis-\nspellings for nuclei e.g.\nnucleuses\n(resulting in) a loss of mass/eq;\nreleasing energy; condone ‘heat’ for\n‘energy’"
+      }
+     ],
      "source_page": 17,
      "assets": [],
      "spec_point_codes": [],
@@ -793,7 +889,15 @@
      "question_type": "structured",
      "problem_md": "Explain the conditions required for nuclear fusion.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "any three from: allow particles for nuclei\ncondone atoms for nuclei\nMP1. high temperature;\nMP2. nuclei need to move at high speeds or with\nhigh KE / eq;\nMP3. high pressure;\nMP4. nuclei need to be close together / eq; allow high density\nMP5. reference to electrostatic repulsion (of\nprotons)\nAnswer Notes Marks",
+     "mark_points": [
+      {
+       "id": "2026-06-6-c-MP1",
+       "marks": 3,
+       "text_md": "any three from: allow particles for nuclei\ncondone atoms for nuclei\nMP1. high temperature;\nMP2. nuclei need to move at high speeds or with\nhigh KE / eq;\nMP3. high pressure;\nMP4. nuclei need to be close together / eq; allow high density\nMP5. reference to electrostatic repulsion (of\nprotons)\nAnswer Notes Marks"
+      }
+     ],
      "source_page": 17,
      "assets": [],
      "spec_point_codes": [],
@@ -821,7 +925,15 @@
      "question_type": "structured",
      "problem_md": "The volume of water collected in the tray is equal to the volume of the inflated balloon. Describe how the student could accurately measure the volume of water collected in the tray.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "NB only allow marks from\none of the three alternate\nroutes\nidea of pouring water into a measuring cylinder;\nidea of reading measuring cylinder at eye level / no allow idea of making sure\nparallax error / measure to the bottom of the all of the water gets to the\nmeniscus; measuring cylinder e.g.\nidea of not spilling or no\nwater left in tray\nOR\nmeasure difference of mass between water+tray condone weight for mass\nand tray alone (with a balance); for this marking point\ndivide mass by density to give volume; reject weight for mass for\nthis marking point\nOR\nmeasuring dimensions of body of water;\ncalculating (geometrically) the volume from those\ndimensions;",
+     "mark_points": [
+      {
+       "id": "2026-06-7-a-i-MP1",
+       "marks": 2,
+       "text_md": "NB only allow marks from\none of the three alternate\nroutes\nidea of pouring water into a measuring cylinder;\nidea of reading measuring cylinder at eye level / no allow idea of making sure\nparallax error / measure to the bottom of the all of the water gets to the\nmeniscus; measuring cylinder e.g.\nidea of not spilling or no\nwater left in tray\nOR\nmeasure difference of mass between water+tray condone weight for mass\nand tray alone (with a balance); for this marking point\ndivide mass by density to give volume; reject weight for mass for\nthis marking point\nOR\nmeasuring dimensions of body of water;\ncalculating (geometrically) the volume from those\ndimensions;"
+      }
+     ],
      "source_page": 18,
      "assets": [],
      "spec_point_codes": [],
@@ -839,7 +951,15 @@
      "question_type": "structured",
      "problem_md": "Give a reason why the measured volume of water in the tray may be different from the volume of the inflated balloon.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "any one from: ignore idea of balloon\nhaving thickness\nignore idea that balloon is\nnot completely submerged\n• bucket may not have been completely full\n/eq;\n• some water may have splashed out /eq;\n• more water displaced due to object pushing\nthe balloon underwater /eq;\n• idea of parallax error;\n• idea of not reading to the bottom of the\nmeniscus;\n• idea of water remaining on outside of\nbucket (when removed)\n• idea that some water may remain in the\ntray\nallow idea of balloon\ndecreasing in volume\nunder water compared\nwith being in air",
+     "mark_points": [
+      {
+       "id": "2026-06-7-a-ii-MP1",
+       "marks": 1,
+       "text_md": "any one from: ignore idea of balloon\nhaving thickness\nignore idea that balloon is\nnot completely submerged\n• bucket may not have been completely full\n/eq;\n• some water may have splashed out /eq;\n• more water displaced due to object pushing\nthe balloon underwater /eq;\n• idea of parallax error;\n• idea of not reading to the bottom of the\nmeniscus;\n• idea of water remaining on outside of\nbucket (when removed)\n• idea that some water may remain in the\ntray\nallow idea of balloon\ndecreasing in volume\nunder water compared\nwith being in air"
+      }
+     ],
      "source_page": 19,
      "assets": [],
      "spec_point_codes": [],
@@ -857,7 +977,15 @@
      "question_type": "structured",
      "problem_md": "The student removes the inflated balloon from the bucket and dries the balloon. The student places the inflated balloon on a sensitive balance and measures the mass of the inflated balloon. The student then bursts the balloon. Describe how the student should use the burst balloon to determine the mass of air that was inside the inflated balloon.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "measure mass of burst balloon;\nsubtract mass of burst balloon from mass of inflated accept ‘find the\nballoon; difference’ or ‘find the\ndecrease’ for ‘subtract’\nallow ‘weight’ for ‘mass’\nfor this mark only",
+     "mark_points": [
+      {
+       "id": "2026-06-7-b-MP1",
+       "marks": 2,
+       "text_md": "measure mass of burst balloon;\nsubtract mass of burst balloon from mass of inflated accept ‘find the\nballoon; difference’ or ‘find the\ndecrease’ for ‘subtract’\nallow ‘weight’ for ‘mass’\nfor this mark only"
+      }
+     ],
      "source_page": 19,
      "assets": [],
      "spec_point_codes": [],
@@ -875,7 +1003,15 @@
      "question_type": "structured",
      "problem_md": "The table shows the student’s results. Volume of water displaced by 4350 cm3 inflated balloon Mass of air inside balloon 5.42 g Calculate the density of air using the student’s results. Give your answer to 3 significant figures and give a suitable unit. density = unit",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "substitution into ρ = m/V;\nevaluation; POT – 1\ntreat incorrect conversions\nas POT errors\nevaluation given to 3 s.f.; award mark for any value\nexpressed to 3 s.f.\nunit; expect either g/cm3 or\nkg/m3\nallow 1.25 kg/m3 for full\nallow 1.25 × 10-6 kg/cm3\nfor full marks\ne.g.\ndensity = 5.42 / 4350\n(density =) 0.0012459…\n(density =) 0.00125\ng/cm3",
+     "mark_points": [
+      {
+       "id": "2026-06-7-c-MP1",
+       "marks": 4,
+       "text_md": "substitution into ρ = m/V;\nevaluation; POT – 1\ntreat incorrect conversions\nas POT errors\nevaluation given to 3 s.f.; award mark for any value\nexpressed to 3 s.f.\nunit; expect either g/cm3 or\nkg/m3\nallow 1.25 kg/m3 for full\nallow 1.25 × 10-6 kg/cm3\nfor full marks\ne.g.\ndensity = 5.42 / 4350\n(density =) 0.0012459…\n(density =) 0.00125\ng/cm3"
+      }
+     ],
      "source_page": 19,
      "assets": [
       {
@@ -905,7 +1041,15 @@
      "question_type": "structured",
      "problem_md": "Give two ways of testing the reliability of the density value obtained from the student’s results. 1 2",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "any two from:\nMP1. repeating the (whole) experiment again; unsupported “take\nrepeats” is insufficient\naccept idea of using\ndifferent (volume) balloon\nMP2. determine density using a different method;\nMP3. compare result with another student who did\nthe experiment;\nMP4. compare result to literature/online value;\nAnswer Notes Marks",
+     "mark_points": [
+      {
+       "id": "2026-06-7-d-MP1",
+       "marks": 2,
+       "text_md": "any two from:\nMP1. repeating the (whole) experiment again; unsupported “take\nrepeats” is insufficient\naccept idea of using\ndifferent (volume) balloon\nMP2. determine density using a different method;\nMP3. compare result with another student who did\nthe experiment;\nMP4. compare result to literature/online value;\nAnswer Notes Marks"
+      }
+     ],
      "source_page": 20,
      "assets": [],
      "spec_point_codes": [],
@@ -938,12 +1082,12 @@
      "problem_md": "The graph shows how the average kinetic energy of a single gas molecule varies with the temperature of the gas, measured in °C. Average kinetic energy –300 –200 –100 0 100 200 300 Temperature in C Use the graph to explain why there is an absolute zero of temperature.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "(at absolute zero) the particles in the gas stop\nmoving;\n(at absolute zero) the (average) kinetic energy is\nzero;\nabsolute zero is −273 °C; allow (line on graph\nintersects the\ntemperature axis)\nbetween −270 °C and\n−280 °C\n(b) any FOUR from:\ncorrect reference to p1V1=p2V2;\npressure decreases;\npressure is halved; also scores MP2\nallow equivalent\nalgebraic expression\nidea that particles hit the walls (of the container) allow particles now\nless often / eq; colliding with a greater\n(surface) area\n(so) the (overall) force on the container ignore unsupported\ndecreases; references to P = F/A\n(c) evaluation of new temperature in °C; allow 35 seen anywhere\nin working\nevaluation of both temperatures in K;\nsubstitution into p1/T1 = p2/T2;\nrearrangement; rearrangement and\nsubstitution in either\norder\nevaluation; 473.2..., 24.39..., 91\nscore 3 marks\n49, 13.1..., 431.2...,\n126.86.. score 4 marks\ne.g.\nnew temperature = 35 °C\nT1 = 373 K, T2 = 308 K\n140 / 373 = p2 / 308\np2 = 140 × 308 / 373\n(p2 =) 120 (K) allow 116, 115.6…(kPa)\nfor 5 marks\nAnswer Notes Marks",
+     "solution_md": "(at absolute zero) the particles in the gas stop\nmoving;\n(at absolute zero) the (average) kinetic energy is\nzero;\nabsolute zero is −273 °C; allow (line on graph\nintersects the\ntemperature axis)\nbetween −270 °C and\n−280 °C",
      "mark_points": [
       {
        "id": "2026-06-8-a-MP1",
        "marks": 3,
-       "text_md": "(at absolute zero) the particles in the gas stop\nmoving;\n(at absolute zero) the (average) kinetic energy is\nzero;\nabsolute zero is −273 °C; allow (line on graph\nintersects the\ntemperature axis)\nbetween −270 °C and\n−280 °C\n(b) any FOUR from:\ncorrect reference to p1V1=p2V2;\npressure decreases;\npressure is halved; also scores MP2\nallow equivalent\nalgebraic expression\nidea that particles hit the walls (of the container) allow particles now\nless often / eq; colliding with a greater\n(surface) area\n(so) the (overall) force on the container ignore unsupported\ndecreases; references to P = F/A\n(c) evaluation of new temperature in °C; allow 35 seen anywhere\nin working\nevaluation of both temperatures in K;\nsubstitution into p1/T1 = p2/T2;\nrearrangement; rearrangement and\nsubstitution in either\norder\nevaluation; 473.2..., 24.39..., 91\nscore 3 marks\n49, 13.1..., 431.2...,\n126.86.. score 4 marks\ne.g.\nnew temperature = 35 °C\nT1 = 373 K, T2 = 308 K\n140 / 373 = p2 / 308\np2 = 140 × 308 / 373\n(p2 =) 120 (K) allow 116, 115.6…(kPa)\nfor 5 marks\nAnswer Notes Marks"
+       "text_md": "(at absolute zero) the particles in the gas stop\nmoving;\n(at absolute zero) the (average) kinetic energy is\nzero;\nabsolute zero is −273 °C; allow (line on graph\nintersects the\ntemperature axis)\nbetween −270 °C and\n−280 °C"
       }
      ],
      "source_page": 21,
@@ -975,7 +1119,15 @@
      "question_type": "structured",
      "problem_md": "Diagram 1 shows a sample of gas in a syringe. gas molecules Diagram 1 The volume of the gas is increased so that it is double its original volume, as shown in diagram 2. gas molecules Diagram 2 Explain how the pressure of the gas changes when the volume of the gas is doubled. Assume the temperature of the gas remains constant.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "any FOUR from:\ncorrect reference to p1V1=p2V2;\npressure decreases;\npressure is halved; also scores MP2\nallow equivalent\nalgebraic expression\nidea that particles hit the walls (of the container) allow particles now\nless often / eq; colliding with a greater\n(surface) area\n(so) the (overall) force on the container ignore unsupported\ndecreases; references to P = F/A",
+     "mark_points": [
+      {
+       "id": "2026-06-8-b-MP1",
+       "marks": 4,
+       "text_md": "any FOUR from:\ncorrect reference to p1V1=p2V2;\npressure decreases;\npressure is halved; also scores MP2\nallow equivalent\nalgebraic expression\nidea that particles hit the walls (of the container) allow particles now\nless often / eq; colliding with a greater\n(surface) area\n(so) the (overall) force on the container ignore unsupported\ndecreases; references to P = F/A"
+      }
+     ],
      "source_page": 22,
      "assets": [
       {
@@ -1005,7 +1157,15 @@
      "question_type": "structured",
      "problem_md": "Another sample of gas has a temperature of 100 °C and a pressure of 140 kPa. The gas is cooled and its temperature decreases by 65 °C. The volume of the gas does not change. Calculate the new pressure of the gas. new pressure = kPa",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "evaluation of new temperature in °C; allow 35 seen anywhere\nin working\nevaluation of both temperatures in K;\nsubstitution into p1/T1 = p2/T2;\nrearrangement; rearrangement and\nsubstitution in either\norder\nevaluation; 473.2..., 24.39..., 91\nscore 3 marks\n49, 13.1..., 431.2...,\n126.86.. score 4 marks\ne.g.\nnew temperature = 35 °C\nT1 = 373 K, T2 = 308 K\n140 / 373 = p2 / 308\np2 = 140 × 308 / 373\n(p2 =) 120 (K) allow 116, 115.6…(kPa)\nfor 5 marks\nAnswer Notes Marks",
+     "mark_points": [
+      {
+       "id": "2026-06-8-c-MP1",
+       "marks": 5,
+       "text_md": "evaluation of new temperature in °C; allow 35 seen anywhere\nin working\nevaluation of both temperatures in K;\nsubstitution into p1/T1 = p2/T2;\nrearrangement; rearrangement and\nsubstitution in either\norder\nevaluation; 473.2..., 24.39..., 91\nscore 3 marks\n49, 13.1..., 431.2...,\n126.86.. score 4 marks\ne.g.\nnew temperature = 35 °C\nT1 = 373 K, T2 = 308 K\n140 / 373 = p2 / 308\np2 = 140 × 308 / 373\n(p2 =) 120 (K) allow 116, 115.6…(kPa)\nfor 5 marks\nAnswer Notes Marks"
+      }
+     ],
      "source_page": 23,
      "assets": [],
      "spec_point_codes": [],
@@ -1033,7 +1193,15 @@
      "question_type": "structured",
      "problem_md": "Use a protractor to determine the angle of incidence at the point where the ray of blue light enters the prism. angle of incidence = degrees",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "50 (degrees); allow 48-52 (degrees)",
+     "mark_points": [
+      {
+       "id": "2026-06-9-a-i-MP1",
+       "marks": 1,
+       "text_md": "50 (degrees); allow 48-52 (degrees)"
+      }
+     ],
      "source_page": 24,
      "assets": [],
      "spec_point_codes": [],
@@ -1051,7 +1219,15 @@
      "question_type": "structured",
      "problem_md": "Show that the refractive index of the glass the prism is made from is about 1.5",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "substitution into n = sin(i)/sin(r); allow ecf from (i)\nevaluation to 3 or more s.f.; condone reverse\ncalculation for full\nmarks e.g.\nusing n = 1.5 to\ncalculate i or r to 3 or\nmore sf\ne.g.\nrefractive index = sin 50 / sin 30 NB if i is 52, n = 1.57\nto 3 sf\nif i is 48, n = 1.49 to\n3sf\n(refractive index =) 1.53…",
+     "mark_points": [
+      {
+       "id": "2026-06-9-a-ii-MP1",
+       "marks": 2,
+       "text_md": "substitution into n = sin(i)/sin(r); allow ecf from (i)\nevaluation to 3 or more s.f.; condone reverse\ncalculation for full\nmarks e.g.\nusing n = 1.5 to\ncalculate i or r to 3 or\nmore sf\ne.g.\nrefractive index = sin 50 / sin 30 NB if i is 52, n = 1.57\nto 3 sf\nif i is 48, n = 1.49 to\n3sf\n(refractive index =) 1.53…"
+      }
+     ],
      "source_page": 24,
      "assets": [],
      "spec_point_codes": [],
@@ -1069,7 +1245,15 @@
      "question_type": "structured",
      "problem_md": "The refractive index of red light in glass is lower than the refractive index of blue light in glass. Complete diagram 2 by continuing the path of the ray of red light as it passes through the glass prism and into the air. The ray of red light has the same angle of incidence as the original ray of blue light. The dashed line shows the path of the blue light. ray of red light air glass prism Diagram 2",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "ray drawn refracting with a larger angle of ray should be drawn\nrefraction but not greater than the angle of above dashed line and\nincidence; below a continuation\nof the incident ray\nray drawn passing back into air such that it reject ray that bends\ndiverges from dashed line; the wrong side of the\nnormal\ne.g.",
+     "mark_points": [
+      {
+       "id": "2026-06-9-a-iii-MP1",
+       "marks": 2,
+       "text_md": "ray drawn refracting with a larger angle of ray should be drawn\nrefraction but not greater than the angle of above dashed line and\nincidence; below a continuation\nof the incident ray\nray drawn passing back into air such that it reject ray that bends\ndiverges from dashed line; the wrong side of the\nnormal\ne.g."
+      }
+     ],
      "source_page": 25,
      "assets": [
       {
@@ -1244,7 +1428,7 @@
       }
      ],
      "answer_status": "linked",
-     "solution_md": "A (high energy electron);\nB is incorrect because this is neutron radiation\nC is incorrect because this is gamma radiation\nD is incorrect because this is alpha radiation\n(b) mass and atomic numbers correct for neutron;\nmass and atomic numbers correct for proton;\nmass and atomic numbers correct for beta\nparticle;\ne.g.",
+     "solution_md": "A (high energy electron);\nB is incorrect because this is neutron radiation\nC is incorrect because this is gamma radiation\nD is incorrect because this is alpha radiation",
      "mark_points": [
       {
        "id": "2026-06-10-a-MP1",
@@ -1269,7 +1453,15 @@
      "question_type": "structured",
      "problem_md": "A beta particle can be produced during radioactive decay. When a neutron decays into a proton, a beta particle is produced. Complete the nuclear equation for this process. n → p + β",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "mass and atomic numbers correct for neutron;\nmass and atomic numbers correct for proton;\nmass and atomic numbers correct for beta\nparticle;\ne.g.",
+     "mark_points": [
+      {
+       "id": "2026-06-10-b-MP1",
+       "marks": 3,
+       "text_md": "mass and atomic numbers correct for neutron;\nmass and atomic numbers correct for proton;\nmass and atomic numbers correct for beta\nparticle;\ne.g."
+      }
+     ],
      "source_page": 27,
      "assets": [],
      "spec_point_codes": [],
@@ -1391,7 +1583,15 @@
      "question_type": "structured",
      "problem_md": "The weight of the sky diver is 850 N. Calculate the mass of the sky diver. Use the formula weight = mass × gravitational field strength mass = kg",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "substitution OR rearrangement; allow use of g = 9.8,\n9.81 N/kg\nevaluation;\ne.g.\n850 = mass × 10 OR m = W / g\n(mass = 850/10 =) 85 (kg) allow 87, 86.7…, 86.6\n(kg)",
+     "mark_points": [
+      {
+       "id": "2026-06-11-a-i-MP1",
+       "marks": 2,
+       "text_md": "substitution OR rearrangement; allow use of g = 9.8,\n9.81 N/kg\nevaluation;\ne.g.\n850 = mass × 10 OR m = W / g\n(mass = 850/10 =) 85 (kg) allow 87, 86.7…, 86.6\n(kg)"
+      }
+     ],
      "source_page": 31,
      "assets": [],
      "spec_point_codes": [],
@@ -1409,7 +1609,15 @@
      "question_type": "structured",
      "problem_md": "After falling for a short period of time, an upward force of 250 N acts on the sky diver due to air resistance. Calculate the acceleration of the sky diver when the upward force is 250 N. acceleration = m/s2",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "evaluation of resultant force; allow 600 (N) seen\nanywhere in working\nallow ecf from (i)\nsubstitution into OR rearrangement of F = m × a; allow use of 250 (N) for\nF\nevaluation of acceleration; allow ecf for resultant\nforce\ne.g.\nresultant force = 850 − 250 = 600 (N)\n600 = 85 × acceleration OR a = F / m\n(acceleration = 600/85 =) 7.1 (m/s2) allow 6.9-7.1 (m/s2) for\n3 marks\nallow 2.9,2.87.., 2.94..,\netc (m/s2) for 2 marks\nallow correct answer\nwithout any working for\n3 marks",
+     "mark_points": [
+      {
+       "id": "2026-06-11-a-ii-MP1",
+       "marks": 3,
+       "text_md": "evaluation of resultant force; allow 600 (N) seen\nanywhere in working\nallow ecf from (i)\nsubstitution into OR rearrangement of F = m × a; allow use of 250 (N) for\nF\nevaluation of acceleration; allow ecf for resultant\nforce\ne.g.\nresultant force = 850 − 250 = 600 (N)\n600 = 85 × acceleration OR a = F / m\n(acceleration = 600/85 =) 7.1 (m/s2) allow 6.9-7.1 (m/s2) for\n3 marks\nallow 2.9,2.87.., 2.94..,\netc (m/s2) for 2 marks\nallow correct answer\nwithout any working for\n3 marks"
+      }
+     ],
      "source_page": 31,
      "assets": [],
      "spec_point_codes": [],

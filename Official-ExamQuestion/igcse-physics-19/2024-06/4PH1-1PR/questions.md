@@ -10,9 +10,23 @@ The table shows an incomplete electromagnetic spectrum. radio visible gamma micr
 
 Name the part labelled A.
 
+
+**Mark scheme answer**
+
+> infrared; allow IR
+
+- **(1)** infrared; allow IR
+
 ### 1(a)(ii) [1]
 
 Name the part labelled B.
+
+
+**Mark scheme answer**
+
+> ultraviolet; allow UV
+
+- **(1)** ultraviolet; allow UV
 
 ### 1(b)(i) [1]
 
@@ -96,7 +110,17 @@ The normal operating current of the heater is 11 A. Calculate the input power to
 > clear i.e. removal of ‘k’
 > or 2530 with W seen.
 > (power =) 2.5 (kW) allow 2.53 (kW)
-> (c) any of: ignore reference to an
+
+- **(3)** substitution;
+
+### 2(c) [1]
+
+The circuit breaker has a rating of 16 A. Suggest a reason why the heater may switch off before it reaches its normal operating current.
+
+
+**Mark scheme answer**
+
+> any of: ignore reference to an
 > electric fault in the
 > heater
 > ● idea that there are likely to be other
@@ -107,11 +131,7 @@ The normal operating current of the heater is 11 A. Calculate the input power to
 > ● idea that thermostat turns off heater;
 > Answer Notes Marks
 
-- **(3)** substitution;
-
-### 2(c) [1]
-
-The circuit breaker has a rating of 16 A. Suggest a reason why the heater may switch off before it reaches its normal operating current.
+- **(1)** any of: ignore reference to an
 
 
 ## Question 3 (8 marks)
@@ -124,15 +144,50 @@ In 1947, the Railton Mobil Special was the first ground vehicle to achieve a spe
 
 Calculate a speed of 403 miles per hour in metres per second (m / s). [1 mile = 1600 m] speed = m / s
 
+
+**Mark scheme answer**
+
+> × 1600 seen in working OR ÷ 3600 seen in working; allow ÷ 602
+> speed = 179 (m/s); allow any answer that
+> would round to 179
+> condone 180
+> NB 1600 × 403 = 644800
+
+- **(2)** × 1600 seen in working OR ÷ 3600 seen in working; allow ÷ 602
+
 ### 3(a)(ii) [3]
 
 During the test, the vehicle travelled past two markers. The markers were placed a known distance apart. Describe how these markers could be used to determine the speed of the vehicle.
+
+
+**Mark scheme answer**
+
+> idea of measuring time taken (to travel between
+> markers);
+> use of appropriate instrument to measure time; allow stopwatch, timer,
+> (stop)clock, light gates
+> use of speed = distance / time; condone any subject of
+> equation.
+
+- **(3)** idea of measuring time taken (to travel between
 
 ### 3(b) [3]
 
 The diagram shows the vehicle travelling at a constant speed. direction of travel driving force One of the horizontal forces acting on the vehicle has been drawn. Complete the diagram by drawing a labelled arrow for the other horizontal force acting on the vehicle.
 
 ![diagram — official paper figure (qp.pdf p.8)](assets/asset_3_b_diagram.png)
+
+
+**Mark scheme answer**
+
+> ignore vertical arrows
+> length of arrow equal to given arrow; judge by eye
+> arrow drawn horizontally to the left;
+> arrow labelled “air resistance”; allow drag, friction
+> ignore wind resistance
+> Answer Notes Marks
+
+- **(3)** ignore vertical arrows
 
 
 ## Question 4 (9 marks)
@@ -154,15 +209,21 @@ The table shows the different stages in the evolution of stars of different mass
 > if 5 or more ticks given
 > then -1 for each
 > additional tick
-> (b) idea of the temperatures being different;
-> Sun is hotter than Betelgeuse; also scores first mark
-> allow RA
 
 - **(4)** one mark for each correct tick;;;;
 
 ### 4(b) [2]
 
 When viewed from Earth, the surface of the Sun is yellow in colour. The surface of another star, Betelgeuse, is red in colour. Explain the difference between the Sun and Betelgeuse, based on the different colours of their surfaces.
+
+
+**Mark scheme answer**
+
+> idea of the temperatures being different;
+> Sun is hotter than Betelgeuse; also scores first mark
+> allow RA
+
+- **(2)** idea of the temperatures being different;
 
 ### 4(c)(i) [1]
 
@@ -284,13 +345,49 @@ The diagram shows two rays of green light entering a semicircular glass block. n
 
 Measure the angle of incidence and the angle of refraction for ray A as it enters the glass block. angle of incidence = degrees angle of refraction = degrees
 
+
+**Mark scheme answer**
+
+> angle of incidence = 40 (o); allow 38-42
+> angle of refraction = 23 (o); allow 21-25
+
+- **(2)** angle of incidence = 40 (o); allow 38-42
+
 ### 6(a)(ii) [1]
 
 State the formula linking refractive index, angle of incidence and angle of refraction.
 
+
+**Mark scheme answer**
+
+> n = sin(i)/sin(r); allow rearrangements
+> reject n = i/r
+
+- **(1)** n = sin(i)/sin(r); allow rearrangements
+
 ### 6(a)(iii) [3]
 
 Calculate the refractive index of the glass. refractive index =
+
+
+**Mark scheme answer**
+
+> substitution of candidate’s values into formula; allow ecf from (i)
+> evidence of sines of angles; i.e 0.642... for sin(40),
+> 0.390... for sin(23)
+> evaluation; reject 1.73913 or any
+> value clearly angle of
+> incidence divided by
+> angle of refraction
+> e.g.
+> n = sin(40)/sin(23)
+> n = 1.6(5)
+> NB - using extreme
+> values from (i), n
+> rounds the range 1.46
+> to 1.87
+
+- **(3)** substitution of candidate’s values into formula; allow ecf from (i)
 
 ### 6(b)(i) [2]
 
@@ -453,13 +550,39 @@ This question is about radioactive isotopes used for medical imaging.
 How many neutrons are in the nucleus of an atom of iodine-131?
 
 - **(A)** 53
-- **(B)** 78
+- **(B)** 78  ✔
 - **(C)** 131
 - **(D)** 184
+
+
+**Mark scheme answer**
+
+> B (78);
+> A is incorrect because this is the number of protons
+> C is incorrect because this is the number of
+> nucleons
+> D is incorrect because this is the number of
+> nucleons + protons
+
+- **(1)** Answer B: 78
 
 ### 8(a)(ii) [2]
 
 Iodine-131 is radioactive and decays with a half-life of 8 days. State what is meant by the term half-life.
+
+
+**Mark scheme answer**
+
+> time taken; allow “how long it
+> takes”
+> reject “half the time”
+> and either of
+> for (radio)activity to halve; allow count rate for
+> activity
+> for half of the (radioactive) {nuclei / atoms / ignore substance
+> isotope / mass} to decay;
+
+- **(2)** time taken; allow “how long it
 
 ### 8(a)(iii) [3]
 
@@ -467,11 +590,36 @@ The cross (×) on the graph shows the initial number of atoms in a sample of iod
 
 ![graph — official paper figure (qp.pdf p.21)](assets/asset_8_a_iii_graph.png)
 
+
+**Mark scheme answer**
+
+> one mark for each correct cross drawn curve from (iv) can be
+> used to infer correct
+> data points
+> (8, 8000);
+> (16, 4000);
+> (24, 2000);
+
+- **(3)** one mark for each correct cross drawn curve from (iv) can be
+
 ### 8(a)(iv) [2]
 
 Use a curve of best fit on the graph to estimate the time taken for the number of atoms in the sample to decrease to 5000. time taken = days
 
 ![graph — official paper figure (qp.pdf p.21) — shared with 8(a)(iii)](assets/asset_8_a_iii_graph.png)
+
+
+**Mark scheme answer**
+
+> smooth curve of best fit drawn; can be used to infer
+> points in (iii)
+> correct reading of time to decrease to 5000; ecf candidate’s curve
+> within 1 square
+> NB - perfect curve
+> would give answer
+> between 13-14 days
+
+- **(2)** smooth curve of best fit drawn; can be used to infer
 
 ### 8(b)(i) [1]
 
@@ -498,7 +646,19 @@ Give a reason why gamma radiation is more likely to be detected outside the body
 > allow gamma less
 > ionising (power) than
 > beta
-> (c) any three from: RA
+
+- **(1)** idea that gamma is more penetrating than beta; RA
+
+### 8(c) [3]
+
+Technetium-99m is another radioactive isotope. Iodine-131 and technetium-99m are both used as medical tracers. Medical tracers use radiation detected outside the body to diagnose illnesses. The table gives information about some of the properties of iodine-131 and technetium-99m when they undergo radioactive decay. Type(s) of radiation Isotope Half-life emitted iodine-131 beta and gamma 8 days technetium-99m gamma 6 hours Explain why technetium-99m is likely to be safer than iodine-131 when used as a medical tracer.
+
+![table — official paper figure (qp.pdf p.23)](assets/asset_8_c_table.png)
+
+
+**Mark scheme answer**
+
+> any three from: RA
 > MP1. gamma is less ionising than beta;
 > MP2. beta is more likely to cause cell damage allow named damage
 > than gamma; e.g. cancer, cell
@@ -509,13 +669,7 @@ Give a reason why gamma radiation is more likely to be detected outside the body
 > time;
 > Answer Notes Marks
 
-- **(1)** idea that gamma is more penetrating than beta; RA
-
-### 8(c) [3]
-
-Technetium-99m is another radioactive isotope. Iodine-131 and technetium-99m are both used as medical tracers. Medical tracers use radiation detected outside the body to diagnose illnesses. The table gives information about some of the properties of iodine-131 and technetium-99m when they undergo radioactive decay. Type(s) of radiation Isotope Half-life emitted iodine-131 beta and gamma 8 days technetium-99m gamma 6 hours Explain why technetium-99m is likely to be safer than iodine-131 when used as a medical tracer.
-
-![table — official paper figure (qp.pdf p.23)](assets/asset_8_c_table.png)
+- **(3)** any three from: RA
 
 
 ## Question 9 (15 marks)
@@ -532,13 +686,35 @@ A student stretches a rubber band.
 
 State which energy store increases in the rubber band after it has been stretched.
 
+
+**Mark scheme answer**
+
+> elastic (potential) / EPE;
+
+- **(1)** elastic (potential) / EPE;
+
 ### 9(a)(ii) [1]
 
 State the main method of energy transfer when the rubber band is stretched.
 
+
+**Mark scheme answer**
+
+> mechanically/mechanical (working);
+
+- **(1)** mechanically/mechanical (working);
+
 ### 9(a)(iii) [1]
 
 State the source of the energy transferred to the rubber band.
+
+
+**Mark scheme answer**
+
+> the person/the hand/the fingers; allow chemical (energy
+> of the student)
+
+- **(1)** the person/the hand/the fingers; allow chemical (energy
 
 ### 9(b)(i) [1]
 
@@ -673,7 +849,17 @@ Explain how the current in the battery will change if the wind speed increases.
 > accept p.d. or potential
 > difference for ‘voltage’
 > higher voltage causes higher current;
-> (c) substitution into given equation ‘E = IVt’;
+
+- **(2)** ignore references to
+
+### 10(c) [3]
+
+The mean voltage across the battery is 7.2 V. The battery gains 14 kJ of energy in 8400 seconds. Calculate the mean current in the battery. mean current = A
+
+
+**Mark scheme answer**
+
+> substitution into given equation ‘E = IVt’;
 > rearrangement;
 > evaluation; -1 POT error
 > treat misconversion of
@@ -685,11 +871,7 @@ Explain how the current in the battery will change if the wind speed increases.
 > allow 0.2 (A)
 > Answer Notes Marks
 
-- **(2)** ignore references to
-
-### 10(c) [3]
-
-The mean voltage across the battery is 7.2 V. The battery gains 14 kJ of energy in 8400 seconds. Calculate the mean current in the battery. mean current = A
+- **(3)** substitution into given equation ‘E = IVt’;
 
 
 ## Question 11 (6 marks)
@@ -717,7 +899,19 @@ Diagram 1 shows some of the molecules of a gas in a sealed container. Diagram 1 
 > idea of equal rate of collisions in each direction; condone idea of equal
 > number in each
 > direction
-> (b) evaluation of new volume;
+
+- **(2)** allow atoms or particles
+
+### 11(b) [4]
+
+The width of the container is slowly decreased so that the volume of the container is smaller than before. Diagram 2 shows the width of the container before and after this change. All other dimensions of the container remain the same. before after 8.4 cm 5.0 cm Diagram 2 The initial volume of the gas is 130 cm3. The initial pressure of the gas is 100 kPa. Calculate the pressure of the gas after the width of the container is decreased. Assume the temperature of the gas remains constant. pressure = kPa
+
+![diagram — official paper figure (qp.pdf p.33)](assets/asset_11_b_diagram.png)
+
+
+**Mark scheme answer**
+
+> evaluation of new volume;
 > substitution into p1V1 = p2V2; ecf different yet
 > incorrect volume
 > rearrangement;
@@ -730,13 +924,7 @@ Diagram 1 shows some of the molecules of a gas in a sealed container. Diagram 1 
 > rounds to 170 (kPa)
 > Answer Notes Marks
 
-- **(2)** allow atoms or particles
-
-### 11(b) [4]
-
-The width of the container is slowly decreased so that the volume of the container is smaller than before. Diagram 2 shows the width of the container before and after this change. All other dimensions of the container remain the same. before after 8.4 cm 5.0 cm Diagram 2 The initial volume of the gas is 130 cm3. The initial pressure of the gas is 100 kPa. Calculate the pressure of the gas after the width of the container is decreased. Assume the temperature of the gas remains constant. pressure = kPa
-
-![diagram — official paper figure (qp.pdf p.33)](assets/asset_11_b_diagram.png)
+- **(4)** evaluation of new volume;
 
 
 ## Question 12 (6 marks)
@@ -768,7 +956,19 @@ Energy is transferred from the thermal store of the water to the thermal store o
 > total output = 1800 / 0.16
 > total output = 11 250 (J)
 > (wasted energy = 11250 - 1800 =) 9500 (J) allow 9450 (J)
-> (b) any two from:
+
+- **(4)** substitution into given equation,
+
+### 12(b) [2]
+
+Give two ways that the apparatus could be modified to improve the efficiency of the energy transfer.
+
+![apparatus — official paper figure (qp.pdf p.34)](assets/asset_12_b_apparatus.png)
+
+
+**Mark scheme answer**
+
+> any two from:
 > MP1. wrap beaker in insulation; allow use a plastic
 > beaker or beaker with
 > better insulating
@@ -783,11 +983,5 @@ Energy is transferred from the thermal store of the water to the thermal store o
 > Pearson Education Limited. Registered company number 872828
 > with its registered office at 80 Strand, London, WC2R 0RL, United Kingdom
 
-- **(4)** substitution into given equation,
-
-### 12(b) [2]
-
-Give two ways that the apparatus could be modified to improve the efficiency of the energy transfer.
-
-![apparatus — official paper figure (qp.pdf p.34)](assets/asset_12_b_apparatus.png)
+- **(2)** any two from:
 

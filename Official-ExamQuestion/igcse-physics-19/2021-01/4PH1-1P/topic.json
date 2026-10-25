@@ -1,7 +1,7 @@
 {
  "schema": "syllabai.official-paper-questions/0.2",
- "generated_utc": "2026-10-25T20:42:54Z",
- "generator": "official_examq_extract.py v0.17.4 (ADR-039) series=2021-01 paper=1P",
+ "generated_utc": "2026-10-25T22:06:15Z",
+ "generator": "official_examq_extract.py v0.19.0 (ADR-039) series=2021-01 paper=1P",
  "paper_id": "pearson-edexcel:international-gcse:physics:4ph1:2021-01:4PH1/1P",
  "source": {
   "qp_sha256": "7cae0df7d5f4dfb542f6420d8f6865b5bc9d20c01f690212b56c09c2c5554df6",
@@ -33,7 +33,15 @@
      "question_type": "structured",
      "problem_md": "The passage describes the evolution of a star with a mass that is much larger than the mass of the Sun. Use words or phrases from the box to complete the passage. Each word or phrase may be used once, more than once, or not at all. chemical contract expand gravitational kinetic main sequence neutron star nuclear protostar supernova vibrate white dwarf Hydrogen atoms in a nebula move towards each other due to the force of gravity. As the atoms move towards each other, their energy store increases, which increases the temperature. If the temperature becomes high enough, nuclear fusion of hydrogen will start and the star enters the stage of its evolution. When hydrogen fusion stops in the core of the star, the core of the star will start to This increases the temperature in a layer surrounding the core. Hydrogen fusion restarts in a layer surrounding the core. This causes the star to and its surface temperature decreases. The star is now a red super giant. Eventually nuclear fusion stops in the core of the star and the star explodes as a The core of the star collapses to form either a or a black hole.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "kinetic;\nmain sequence;\ncontract;\nexpand;\nsupernova;\nneutron star;\nAnswer Notes Marks",
+     "mark_points": [
+      {
+       "id": "2021-01-1-MP1",
+       "marks": 6,
+       "text_md": "kinetic;\nmain sequence;\ncontract;\nexpand;\nsupernova;\nneutron star;\nAnswer Notes Marks"
+      }
+     ],
      "source_page": 3,
      "assets": [],
      "spec_point_codes": [],
@@ -61,7 +69,15 @@
      "question_type": "structured",
      "problem_md": "State the formula linking average speed, distance moved and time taken.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "(average) speed = distance (moved) / time (taken); allow standard symbols and\nrearrangements e.g. v = s / t\nallow s for speed, d for\ndistance",
+     "mark_points": [
+      {
+       "id": "2021-01-2-a-i-MP1",
+       "marks": 1,
+       "text_md": "(average) speed = distance (moved) / time (taken); allow standard symbols and\nrearrangements e.g. v = s / t\nallow s for speed, d for\ndistance"
+      }
+     ],
      "source_page": 4,
      "assets": [],
      "spec_point_codes": [],
@@ -79,7 +95,15 @@
      "question_type": "structured",
      "problem_md": "In the time between the two photographs, the car travels a distance of 6.5 m. Calculate the average speed of the car. average speed = m/s",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "substitution;\nevaluation;\ne.g.\n(speed =) 6.5 / 0.25\n(speed =) 26 (m/s)",
+     "mark_points": [
+      {
+       "id": "2021-01-2-a-ii-MP1",
+       "marks": 2,
+       "text_md": "substitution;\nevaluation;\ne.g.\n(speed =) 6.5 / 0.25\n(speed =) 26 (m/s)"
+      }
+     ],
      "source_page": 4,
      "assets": [],
      "spec_point_codes": [],
@@ -97,7 +121,15 @@
      "question_type": "structured",
      "problem_md": "The speed limit of the road is 80 kilometres per hour. Determine whether the car is exceeding the speed limit.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "correct conversion of EITHER m to km OR s to h; allow ECF from (ii)\nfull conversion from m/s to km/h AND consistent allow ECF from (ii)\nconclusion;; allow conversion of km/h to\nm/s e.g. 80km/h = 22.2m/s\ne.g.\n26 (m/s) = 0.026 (km/s) OR 26 (m/s) = 93600 (m/h)\n94 (km/h) => too fast allow 93.6 (km/h)",
+     "mark_points": [
+      {
+       "id": "2021-01-2-a-iii-MP1",
+       "marks": 2,
+       "text_md": "correct conversion of EITHER m to km OR s to h; allow ECF from (ii)\nfull conversion from m/s to km/h AND consistent allow ECF from (ii)\nconclusion;; allow conversion of km/h to\nm/s e.g. 80km/h = 22.2m/s\ne.g.\n26 (m/s) = 0.026 (km/s) OR 26 (m/s) = 93600 (m/h)\n94 (km/h) => too fast allow 93.6 (km/h)"
+      }
+     ],
      "source_page": 4,
      "assets": [],
      "spec_point_codes": [],
@@ -225,12 +257,12 @@
      "problem_md": "Give a disadvantage of connecting the bulbs in series.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "idea that if one bulb fails all bulbs turn off; allow idea that bulbs cannot be\ncontrolled individually\n(b) any one from:\n• less likely to overheat;\n• idea that the circuit is simpler; accept uses fewer wires\n• lower voltage bulbs;\n• all bulbs controlled with one switch;",
+     "solution_md": "idea that if one bulb fails all bulbs turn off; allow idea that bulbs cannot be\ncontrolled individually",
      "mark_points": [
       {
        "id": "2021-01-3-a-MP1",
        "marks": 1,
-       "text_md": "idea that if one bulb fails all bulbs turn off; allow idea that bulbs cannot be\ncontrolled individually\n(b) any one from:\n• less likely to overheat;\n• idea that the circuit is simpler; accept uses fewer wires\n• lower voltage bulbs;\n• all bulbs controlled with one switch;"
+       "text_md": "idea that if one bulb fails all bulbs turn off; allow idea that bulbs cannot be\ncontrolled individually"
       }
      ],
      "source_page": 6,
@@ -250,7 +282,15 @@
      "question_type": "structured",
      "problem_md": "Suggest an advantage of connecting the bulbs in series.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "any one from:\n• less likely to overheat;\n• idea that the circuit is simpler; accept uses fewer wires\n• lower voltage bulbs;\n• all bulbs controlled with one switch;",
+     "mark_points": [
+      {
+       "id": "2021-01-3-b-MP1",
+       "marks": 1,
+       "text_md": "any one from:\n• less likely to overheat;\n• idea that the circuit is simpler; accept uses fewer wires\n• lower voltage bulbs;\n• all bulbs controlled with one switch;"
+      }
+     ],
      "source_page": 6,
      "assets": [],
      "spec_point_codes": [],
@@ -320,12 +360,12 @@
      "problem_md": "Calculate the energy transferred to lamp X when it is used for 2.5 hours. energy transferred = J",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "dimensionally correct substitution into allow ECF from (ii)\nE = V × I × t;\nconversion of hours to seconds; allow 60 × 60 or 9000 seen anywhere\nin working\nuse of 7 bulbs;\nevaluation;\n23 760-25 245 = 3 marks (x7 not\nused)\ne.g. 6.60-7.01 = 2 marks\nE = 33 × 0.085 × 2.5\n2.5 hours = 9000 seconds\nvoltage used = 231 OR ×7 used in working\n(E =) 180 000 (J) allow answer between 165000 to\n180000\n(d) brightness is greater in lamp Y; allow RA\nwith any two from:\nmore energy transferred to each bulb in lamp\nY;\nbulbs in lamp Y have a larger voltage / 46 V;\nresistance of (circuit in) lamp Y is less;\ncurrent in bulb / circuit in lamp Y is greater;\nAnswer Notes Marks",
+     "solution_md": "dimensionally correct substitution into allow ECF from (ii)\nE = V × I × t;\nconversion of hours to seconds; allow 60 × 60 or 9000 seen anywhere\nin working\nuse of 7 bulbs;\nevaluation;\n23 760-25 245 = 3 marks (x7 not\nused)\ne.g. 6.60-7.01 = 2 marks\nE = 33 × 0.085 × 2.5\n2.5 hours = 9000 seconds\nvoltage used = 231 OR ×7 used in working\n(E =) 180 000 (J) allow answer between 165000 to\n180000",
      "mark_points": [
       {
        "id": "2021-01-3-c-iii-MP1",
        "marks": 4,
-       "text_md": "dimensionally correct substitution into allow ECF from (ii)\nE = V × I × t;\nconversion of hours to seconds; allow 60 × 60 or 9000 seen anywhere\nin working\nuse of 7 bulbs;\nevaluation;\n23 760-25 245 = 3 marks (x7 not\nused)\ne.g. 6.60-7.01 = 2 marks\nE = 33 × 0.085 × 2.5\n2.5 hours = 9000 seconds\nvoltage used = 231 OR ×7 used in working\n(E =) 180 000 (J) allow answer between 165000 to\n180000\n(d) brightness is greater in lamp Y; allow RA\nwith any two from:\nmore energy transferred to each bulb in lamp\nY;\nbulbs in lamp Y have a larger voltage / 46 V;\nresistance of (circuit in) lamp Y is less;\ncurrent in bulb / circuit in lamp Y is greater;\nAnswer Notes Marks"
+       "text_md": "dimensionally correct substitution into allow ECF from (ii)\nE = V × I × t;\nconversion of hours to seconds; allow 60 × 60 or 9000 seen anywhere\nin working\nuse of 7 bulbs;\nevaluation;\n23 760-25 245 = 3 marks (x7 not\nused)\ne.g. 6.60-7.01 = 2 marks\nE = 33 × 0.085 × 2.5\n2.5 hours = 9000 seconds\nvoltage used = 231 OR ×7 used in working\n(E =) 180 000 (J) allow answer between 165000 to\n180000"
       }
      ],
      "source_page": 7,
@@ -345,7 +385,15 @@
      "question_type": "structured",
      "problem_md": "Another decorative lamp, Y, uses five of the same 390 Ω bulbs connected in series. Both lamps are mains operated. Explain how the brightness of a single bulb in lamp Y compares to the brightness of a single bulb in lamp X.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "brightness is greater in lamp Y; allow RA\nwith any two from:\nmore energy transferred to each bulb in lamp\nY;\nbulbs in lamp Y have a larger voltage / 46 V;\nresistance of (circuit in) lamp Y is less;\ncurrent in bulb / circuit in lamp Y is greater;\nAnswer Notes Marks",
+     "mark_points": [
+      {
+       "id": "2021-01-3-d-MP1",
+       "marks": 3,
+       "text_md": "brightness is greater in lamp Y; allow RA\nwith any two from:\nmore energy transferred to each bulb in lamp\nY;\nbulbs in lamp Y have a larger voltage / 46 V;\nresistance of (circuit in) lamp Y is less;\ncurrent in bulb / circuit in lamp Y is greater;\nAnswer Notes Marks"
+      }
+     ],
      "source_page": 7,
      "assets": [],
      "spec_point_codes": [],
@@ -378,12 +426,12 @@
      "problem_md": "State which wire in the hair dryer should be in series with the fuse.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "live / L; allow red / brown wire\n(b) any two from:\nMP1. earth wire;\nMP2. circuit breaker; allow RCD, trip switch, surge\nprotector\nMP3. double insulation;\nMP4. insulated cables; allow any mention of\ninsulated wires",
+     "solution_md": "live / L; allow red / brown wire",
      "mark_points": [
       {
        "id": "2021-01-4-a-MP1",
        "marks": 1,
-       "text_md": "live / L; allow red / brown wire\n(b) any two from:\nMP1. earth wire;\nMP2. circuit breaker; allow RCD, trip switch, surge\nprotector\nMP3. double insulation;\nMP4. insulated cables; allow any mention of\ninsulated wires"
+       "text_md": "live / L; allow red / brown wire"
       }
      ],
      "source_page": 8,
@@ -403,7 +451,15 @@
      "question_type": "structured",
      "problem_md": "The fuse is an electrical safety feature used in mains-operated domestic appliances. State two other electrical safety features that can be used in mains-operated domestic appliances. 1 2",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "any two from:\nMP1. earth wire;\nMP2. circuit breaker; allow RCD, trip switch, surge\nprotector\nMP3. double insulation;\nMP4. insulated cables; allow any mention of\ninsulated wires",
+     "mark_points": [
+      {
+       "id": "2021-01-4-b-MP1",
+       "marks": 2,
+       "text_md": "any two from:\nMP1. earth wire;\nMP2. circuit breaker; allow RCD, trip switch, surge\nprotector\nMP3. double insulation;\nMP4. insulated cables; allow any mention of\ninsulated wires"
+      }
+     ],
      "source_page": 8,
      "assets": [],
      "spec_point_codes": [],
@@ -474,12 +530,12 @@
      "problem_md": "The hair dryer contains a coil of wire which is used to heat air passing through the hair dryer. Explain why the coil of wire heats up when there is a current in it.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "allow wire for coil\nthroughout\ncoil has resistance;\nelectrons transfer/lose energy (as they flow\nthrough coil);\n(due to) electron collisions with (lattice) ions in the allow atoms, particles for\ncoil; ions\n(d) idea of excessive current; e.g. “current becomes too\nhigh”\nmelts the fuse (wire); allow breaking the fuse\ncondone “blows the fuse”\nbreaking the circuit; allow “stops the current” / eq\nAnswer Notes Marks",
+     "solution_md": "allow wire for coil\nthroughout\ncoil has resistance;\nelectrons transfer/lose energy (as they flow\nthrough coil);\n(due to) electron collisions with (lattice) ions in the allow atoms, particles for\ncoil; ions",
      "mark_points": [
       {
        "id": "2021-01-4-c-iii-MP1",
        "marks": 3,
-       "text_md": "allow wire for coil\nthroughout\ncoil has resistance;\nelectrons transfer/lose energy (as they flow\nthrough coil);\n(due to) electron collisions with (lattice) ions in the allow atoms, particles for\ncoil; ions\n(d) idea of excessive current; e.g. “current becomes too\nhigh”\nmelts the fuse (wire); allow breaking the fuse\ncondone “blows the fuse”\nbreaking the circuit; allow “stops the current” / eq\nAnswer Notes Marks"
+       "text_md": "allow wire for coil\nthroughout\ncoil has resistance;\nelectrons transfer/lose energy (as they flow\nthrough coil);\n(due to) electron collisions with (lattice) ions in the allow atoms, particles for\ncoil; ions"
       }
      ],
      "source_page": 9,
@@ -499,7 +555,15 @@
      "question_type": "structured",
      "problem_md": "Explain how a fuse protects a domestic appliance.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "idea of excessive current; e.g. “current becomes too\nhigh”\nmelts the fuse (wire); allow breaking the fuse\ncondone “blows the fuse”\nbreaking the circuit; allow “stops the current” / eq\nAnswer Notes Marks",
+     "mark_points": [
+      {
+       "id": "2021-01-4-d-MP1",
+       "marks": 3,
+       "text_md": "idea of excessive current; e.g. “current becomes too\nhigh”\nmelts the fuse (wire); allow breaking the fuse\ncondone “blows the fuse”\nbreaking the circuit; allow “stops the current” / eq\nAnswer Notes Marks"
+      }
+     ],
      "source_page": 10,
      "assets": [],
      "spec_point_codes": [],
@@ -532,12 +596,12 @@
      "problem_md": "Give a safety precaution that would reduce the teacher’s exposure to radiation when working with the radioactive source.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "any one from:\n• handling source with tongs/gloves;\n• storing source in lead box (when not in\nuse);\n• minimising time handling source;\n• maximising distance from source;\n• taking care with direction of emission from\nsource;\n• use of lead apron/shielding; ignore if mention of other\nroom etc.\n(b) B (138);\nA is incorrect because this is the number of protons\nC is incorrect because this is the number of nucleons\nD is incorrect because this is the number of nucleons + protons",
+     "solution_md": "any one from:\n• handling source with tongs/gloves;\n• storing source in lead box (when not in\nuse);\n• minimising time handling source;\n• maximising distance from source;\n• taking care with direction of emission from\nsource;\n• use of lead apron/shielding; ignore if mention of other\nroom etc.",
      "mark_points": [
       {
        "id": "2021-01-5-a-MP1",
        "marks": 1,
-       "text_md": "any one from:\n• handling source with tongs/gloves;\n• storing source in lead box (when not in\nuse);\n• minimising time handling source;\n• maximising distance from source;\n• taking care with direction of emission from\nsource;\n• use of lead apron/shielding; ignore if mention of other\nroom etc.\n(b) B (138);\nA is incorrect because this is the number of protons\nC is incorrect because this is the number of nucleons\nD is incorrect because this is the number of nucleons + protons"
+       "text_md": "any one from:\n• handling source with tongs/gloves;\n• storing source in lead box (when not in\nuse);\n• minimising time handling source;\n• maximising distance from source;\n• taking care with direction of emission from\nsource;\n• use of lead apron/shielding; ignore if mention of other\nroom etc."
       }
      ],
      "source_page": 12,
@@ -559,29 +623,41 @@
      "choices": [
       {
        "label": "A",
-       "text_md": "88"
+       "text_md": "88",
+       "is_correct": false
       },
       {
        "label": "B",
-       "text_md": "138"
+       "text_md": "138",
+       "is_correct": true
       },
       {
        "label": "C",
-       "text_md": "226"
+       "text_md": "226",
+       "is_correct": false
       },
       {
        "label": "D",
-       "text_md": "314"
+       "text_md": "314",
+       "is_correct": false
       }
      ],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "B (138);\nA is incorrect because this is the number of protons\nC is incorrect because this is the number of nucleons\nD is incorrect because this is the number of nucleons + protons",
+     "mark_points": [
+      {
+       "id": "2021-01-5-b-MP1",
+       "marks": 1,
+       "text_md": "Answer B: 138"
+      }
+     ],
      "source_page": 12,
      "assets": [],
      "spec_point_codes": [],
      "tagging": "pending-llm",
      "edit_status": "extracted",
      "value_trace": {
-      "keys": "unresolved:review-queue",
+      "keys": "ms-positional",
       "marks": "ms-printed",
       "numbers": "source-printed"
      }
@@ -692,7 +768,7 @@
       }
      ],
      "answer_status": "linked",
-     "solution_md": "C (1.88 × 1021);\nA is incorrect because this is the number of atoms after 3200 years\nB is incorrect because this is the number of atoms after 1600 years\nD is incorrect because this is the initial number of atoms\nAnswer Notes Marks\n6 max. 2 marks for details of varying any mark can be given from\ntemperature labelled diagram\nMP1. suitable method of heating ball; e.g. water bath, oven,\nfreezer, heating water in\nbeaker\nMP2. thermometer used to measure allow temperature sensor\ntemperature; and data logger\nmax. 2 marks for control variables ignore “same ball”\nMP3. height ball is dropped from;\nMP4. bouncing surface;\nMP5. ball dropped from rest each time; allow idea of no force being\nused to drop ball\nmax. 2 mark for high-quality data\nMP6. suitable method to increase/give good e.g. viewing at eye level,\naccuracy of bounce height measurement; recording with camera and\nviewing at slow motion\nMP7. at least five different temperatures tested; can be inferred from\nmethod\nMP8. repeats and average;\nAnswer Notes Marks",
+     "solution_md": "C (1.88 × 1021);\nA is incorrect because this is the number of atoms after 3200 years\nB is incorrect because this is the number of atoms after 1600 years\nD is incorrect because this is the initial number of atoms\nAnswer Notes Marks",
      "mark_points": [
       {
        "id": "2021-01-5-d-ii-MP1",
@@ -734,7 +810,15 @@
      "question_type": "structured",
      "problem_md": "When a rubber ball is dropped it hits the floor and bounces. Design an investigation to determine how the temperature of the rubber ball affects the maximum height the ball reaches after it bounces. In your answer, refer to • how to change the temperature of the ball • the variables that need to be controlled • how to obtain high-quality data You may draw a labelled diagram to support your answer.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "max. 2 marks for details of varying any mark can be given from\ntemperature labelled diagram\nMP1. suitable method of heating ball; e.g. water bath, oven,\nfreezer, heating water in\nbeaker\nMP2. thermometer used to measure allow temperature sensor\ntemperature; and data logger\nmax. 2 marks for control variables ignore “same ball”\nMP3. height ball is dropped from;\nMP4. bouncing surface;\nMP5. ball dropped from rest each time; allow idea of no force being\nused to drop ball\nmax. 2 mark for high-quality data\nMP6. suitable method to increase/give good e.g. viewing at eye level,\naccuracy of bounce height measurement; recording with camera and\nviewing at slow motion\nMP7. at least five different temperatures tested; can be inferred from\nmethod\nMP8. repeats and average;\nAnswer Notes Marks",
+     "mark_points": [
+      {
+       "id": "2021-01-6-MP1",
+       "marks": 6,
+       "text_md": "max. 2 marks for details of varying any mark can be given from\ntemperature labelled diagram\nMP1. suitable method of heating ball; e.g. water bath, oven,\nfreezer, heating water in\nbeaker\nMP2. thermometer used to measure allow temperature sensor\ntemperature; and data logger\nmax. 2 marks for control variables ignore “same ball”\nMP3. height ball is dropped from;\nMP4. bouncing surface;\nMP5. ball dropped from rest each time; allow idea of no force being\nused to drop ball\nmax. 2 mark for high-quality data\nMP6. suitable method to increase/give good e.g. viewing at eye level,\naccuracy of bounce height measurement; recording with camera and\nviewing at slow motion\nMP7. at least five different temperatures tested; can be inferred from\nmethod\nMP8. repeats and average;\nAnswer Notes Marks"
+      }
+     ],
      "source_page": 14,
      "assets": [],
      "spec_point_codes": [],
@@ -975,12 +1059,12 @@
      "problem_md": "Give a reason why the student does not start the y-axis scale from zero on either of his graphs.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "any one from:\n• idea that there is no data at the value of 0;\n• idea that {pressure of gas / speed of\nparticles} cannot be zero;\n• idea that all data would be bunched\ntogether at the top of the axis / eq;\n(b) for either graph:\nMP1. as temperature increases, pressure/speed ignore positive correlation\nincreases;\nfor graph 1:\nMP2. relationship is linear; accept proportional only if\nthere is a clear link to the\ntemperature being\nmeasured in kelvin\nfor graph 2:\nMP3. relationship is non-linear;\nMP4. idea of decreasing gradient of curve;\n(c) any two from:\nMP1. this temperature is absolute zero;\nMP2. pressure/speed/kinetic energy of gas allow idea that negative\nparticles would be 0 at this temperature; pressure/speed/KE is\nimpossible\nMP3. idea that it is impossible to have a\ntemperature lower than this;",
+     "solution_md": "any one from:\n• idea that there is no data at the value of 0;\n• idea that {pressure of gas / speed of\nparticles} cannot be zero;\n• idea that all data would be bunched\ntogether at the top of the axis / eq;",
      "mark_points": [
       {
        "id": "2021-01-8-a-MP1",
        "marks": 1,
-       "text_md": "any one from:\n• idea that there is no data at the value of 0;\n• idea that {pressure of gas / speed of\nparticles} cannot be zero;\n• idea that all data would be bunched\ntogether at the top of the axis / eq;\n(b) for either graph:\nMP1. as temperature increases, pressure/speed ignore positive correlation\nincreases;\nfor graph 1:\nMP2. relationship is linear; accept proportional only if\nthere is a clear link to the\ntemperature being\nmeasured in kelvin\nfor graph 2:\nMP3. relationship is non-linear;\nMP4. idea of decreasing gradient of curve;\n(c) any two from:\nMP1. this temperature is absolute zero;\nMP2. pressure/speed/kinetic energy of gas allow idea that negative\nparticles would be 0 at this temperature; pressure/speed/KE is\nimpossible\nMP3. idea that it is impossible to have a\ntemperature lower than this;"
+       "text_md": "any one from:\n• idea that there is no data at the value of 0;\n• idea that {pressure of gas / speed of\nparticles} cannot be zero;\n• idea that all data would be bunched\ntogether at the top of the axis / eq;"
       }
      ],
      "source_page": 19,
@@ -1000,7 +1084,15 @@
      "question_type": "structured",
      "problem_md": "Describe the relationships shown by the graphs.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "for either graph:\nMP1. as temperature increases, pressure/speed ignore positive correlation\nincreases;\nfor graph 1:\nMP2. relationship is linear; accept proportional only if\nthere is a clear link to the\ntemperature being\nmeasured in kelvin\nfor graph 2:\nMP3. relationship is non-linear;\nMP4. idea of decreasing gradient of curve;",
+     "mark_points": [
+      {
+       "id": "2021-01-8-b-MP1",
+       "marks": 3,
+       "text_md": "for either graph:\nMP1. as temperature increases, pressure/speed ignore positive correlation\nincreases;\nfor graph 1:\nMP2. relationship is linear; accept proportional only if\nthere is a clear link to the\ntemperature being\nmeasured in kelvin\nfor graph 2:\nMP3. relationship is non-linear;\nMP4. idea of decreasing gradient of curve;"
+      }
+     ],
      "source_page": 19,
      "assets": [],
      "spec_point_codes": [],
@@ -1018,7 +1110,15 @@
      "question_type": "structured",
      "problem_md": "Explain why the value of temperature chosen in the simulation should not decrease below – 273 °C.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "any two from:\nMP1. this temperature is absolute zero;\nMP2. pressure/speed/kinetic energy of gas allow idea that negative\nparticles would be 0 at this temperature; pressure/speed/KE is\nimpossible\nMP3. idea that it is impossible to have a\ntemperature lower than this;",
+     "mark_points": [
+      {
+       "id": "2021-01-8-c-MP1",
+       "marks": 2,
+       "text_md": "any two from:\nMP1. this temperature is absolute zero;\nMP2. pressure/speed/kinetic energy of gas allow idea that negative\nparticles would be 0 at this temperature; pressure/speed/KE is\nimpossible\nMP3. idea that it is impossible to have a\ntemperature lower than this;"
+      }
+     ],
      "source_page": 19,
      "assets": [],
      "spec_point_codes": [],
@@ -1182,7 +1282,15 @@
      "question_type": "structured",
      "problem_md": "Some of the light is reflected from the surface of the block at point A. On diagram 1, draw this reflected ray of light.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "correctly reflected ray of light drawn at A; judge angle of reflection =\nangle of incidence by eye\nallow dotted lines, lines\nwithout arrowheads\nignore lines inside the block",
+     "mark_points": [
+      {
+       "id": "2021-01-9-a-i-MP1",
+       "marks": 1,
+       "text_md": "correctly reflected ray of light drawn at A; judge angle of reflection =\nangle of incidence by eye\nallow dotted lines, lines\nwithout arrowheads\nignore lines inside the block"
+      }
+     ],
      "source_page": 22,
      "assets": [
       {
@@ -1214,7 +1322,15 @@
      "question_type": "structured",
      "problem_md": "Use a protractor to determine the angle of incidence and the angle of refraction of the red light at point A on diagram 1. angle of incidence = degrees angle of refraction = degrees",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "i = 60 (°); allow 59-61 inclusive\nr = 31 (°); allow 30-32 inclusive",
+     "mark_points": [
+      {
+       "id": "2021-01-9-a-ii-MP1",
+       "marks": 2,
+       "text_md": "i = 60 (°); allow 59-61 inclusive\nr = 31 (°); allow 30-32 inclusive"
+      }
+     ],
      "source_page": 23,
      "assets": [
       {
@@ -1246,7 +1362,15 @@
      "question_type": "structured",
      "problem_md": "State the formula linking refractive index, angle of incidence and angle of refraction.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "n = sin(i) / sin(r); allow in words and\nrearrangements",
+     "mark_points": [
+      {
+       "id": "2021-01-9-a-iii-MP1",
+       "marks": 1,
+       "text_md": "n = sin(i) / sin(r); allow in words and\nrearrangements"
+      }
+     ],
      "source_page": 23,
      "assets": [],
      "spec_point_codes": [],
@@ -1264,7 +1388,15 @@
      "question_type": "structured",
      "problem_md": "Calculate the refractive index of the glass for red light. refractive index =",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "substitution; allow ECF from (ii)\nevaluation;\ne.g.\n(n =) sin(60) / sin(31)\n(n =) 1.68 allow 1.61-1.75",
+     "mark_points": [
+      {
+       "id": "2021-01-9-a-iv-MP1",
+       "marks": 2,
+       "text_md": "substitution; allow ECF from (ii)\nevaluation;\ne.g.\n(n =) sin(60) / sin(31)\n(n =) 1.68 allow 1.61-1.75"
+      }
+     ],
      "source_page": 23,
      "assets": [],
      "spec_point_codes": [],
@@ -1282,7 +1414,15 @@
      "question_type": "structured",
      "problem_md": "Describe how the student could improve her investigation to obtain a more reliable value of the refractive index.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "any three from: ignore bald “repeat and\naverage”\nMP1. take repeat readings at a specific angle; ignore “repeat investigation”\nMP2. vary angle of incidence;\nMP3. find mean values for one angle i / mean\nrefractive index;\nMP4. plot graph of sin(i) against sin(r);\nMP5. find refractive index from gradient of graph;",
+     "mark_points": [
+      {
+       "id": "2021-01-9-a-v-MP1",
+       "marks": 3,
+       "text_md": "any three from: ignore bald “repeat and\naverage”\nMP1. take repeat readings at a specific angle; ignore “repeat investigation”\nMP2. vary angle of incidence;\nMP3. find mean values for one angle i / mean\nrefractive index;\nMP4. plot graph of sin(i) against sin(r);\nMP5. find refractive index from gradient of graph;"
+      }
+     ],
      "source_page": 23,
      "assets": [],
      "spec_point_codes": [],
@@ -1300,7 +1440,15 @@
      "question_type": "structured",
      "problem_md": "The student replaces the red light with a blue light. Diagram 2 shows a ray of blue light directed at point A, at the same angle of incidence as the previous ray of red light. The dashed lines on diagram 2 show the previous path of the ray of red light. previous path of red light A flint glass air blue light Diagram 2 The refractive index of flint glass for blue light is higher than the refractive index of flint glass for red light. Complete diagram 2 by drawing the path of blue light from point A until it passes into air.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "ray drawn with smaller angle of refraction than red\nlight when it enters block;\nray bends away from the normal when it leaves the\nglass block;\nray drawn parallel to red light as it leaves block;\nAnswer Notes Marks",
+     "mark_points": [
+      {
+       "id": "2021-01-9-b-MP1",
+       "marks": 3,
+       "text_md": "ray drawn with smaller angle of refraction than red\nlight when it enters block;\nray bends away from the normal when it leaves the\nglass block;\nray drawn parallel to red light as it leaves block;\nAnswer Notes Marks"
+      }
+     ],
      "source_page": 24,
      "assets": [
       {
@@ -1345,12 +1493,12 @@
      "problem_md": "The bar of the hurdle is made of wood and is painted black and white. The temperature of the hurdle increases when the Sun shines on it. Explain which part of the bar reaches the highest temperature.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "black because it is a better/good absorber; ignore references to\nemission\nof radiation (from the Sun); allow IR, infrared for\nradiation\n(b) any four from:\nMP1. temperature of air increases; allow air particles gain KE\nMP2. air expands / air particles move further reject particles expand\napart;\nMP3. density of air decreases; reject particles become less\ndense\nMP4. warm/heated air rises; ignore heat rises\nallow cool air sinks\nMP5. cool air replaces warmed air;\nMP6. process repeats;\nAnswer Notes Marks",
+     "solution_md": "black because it is a better/good absorber; ignore references to\nemission\nof radiation (from the Sun); allow IR, infrared for\nradiation",
      "mark_points": [
       {
        "id": "2021-01-10-a-MP1",
        "marks": 2,
-       "text_md": "black because it is a better/good absorber; ignore references to\nemission\nof radiation (from the Sun); allow IR, infrared for\nradiation\n(b) any four from:\nMP1. temperature of air increases; allow air particles gain KE\nMP2. air expands / air particles move further reject particles expand\napart;\nMP3. density of air decreases; reject particles become less\ndense\nMP4. warm/heated air rises; ignore heat rises\nallow cool air sinks\nMP5. cool air replaces warmed air;\nMP6. process repeats;\nAnswer Notes Marks"
+       "text_md": "black because it is a better/good absorber; ignore references to\nemission\nof radiation (from the Sun); allow IR, infrared for\nradiation"
       }
      ],
      "source_page": 26,
@@ -1370,7 +1518,15 @@
      "question_type": "structured",
      "problem_md": "The air near the bar receives energy by heating. Explain how a convection current is formed in the air near the bar.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "any four from:\nMP1. temperature of air increases; allow air particles gain KE\nMP2. air expands / air particles move further reject particles expand\napart;\nMP3. density of air decreases; reject particles become less\ndense\nMP4. warm/heated air rises; ignore heat rises\nallow cool air sinks\nMP5. cool air replaces warmed air;\nMP6. process repeats;\nAnswer Notes Marks",
+     "mark_points": [
+      {
+       "id": "2021-01-10-b-MP1",
+       "marks": 4,
+       "text_md": "any four from:\nMP1. temperature of air increases; allow air particles gain KE\nMP2. air expands / air particles move further reject particles expand\napart;\nMP3. density of air decreases; reject particles become less\ndense\nMP4. warm/heated air rises; ignore heat rises\nallow cool air sinks\nMP5. cool air replaces warmed air;\nMP6. process repeats;\nAnswer Notes Marks"
+      }
+     ],
      "source_page": 27,
      "assets": [],
      "spec_point_codes": [],
@@ -1399,12 +1555,12 @@
      "problem_md": "This is the student’s method. • use a balance to find the mass of the bottle and stopper • completely fill the bottle with water • insert the stopper and dry the outside of the bottle • use the balance to find the mass of the full bottle and stopper These are the student’s results. mass of empty bottle and stopper = 63.4 g mass of full bottle and stopper = 112.9 g Use the student’s results to determine the volume of the water in the bottle. Give your answer to three significant figures. [density of water = 0.998 g/cm3] volume = cm3",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "determination of mass of water;\nsubstitution into / rearrangement of density allow ECF from incorrect\nformula; mass\nevaluation;\nrounding to 3 s.f.; mark independently\ne.g.\nmass = 49.5 (g)\n0.998 = 49.5/volume OR volume = mass/density\nvolume = 49.599\n49.6 (cm3)\n(b) determination of mass of liquid;\nuse of volume from (a); allow ECF from (a)\nevaluation; allow ECF from incorrect\nmass\ne.g.\n143.8 - 63.4 = 80.4 (g)\ndensity = 80.4 / 49.6\ndensity = 1.62 (g/cm3)\n(c) any three from: allow RA throughout\nMP1. with measuring cylinder can read volume to\nnearest cm3;\nMP2. measuring cylinder is easier/quicker to use;\nMP3. measuring cylinder does not need to be\ndried;\nMP4. idea that measuring cylinder value could be\nincorrect due to parallax errors/meniscus\netc;\nMP5. ‘bottle’ gives volume to nearest 1dp;\nMP6. ‘bottle’ allows density to be more precisely\ndetermined;\nPearson Education Limited. Registered company number 872828\nwith its registered office at 80 Strand, London, WC2R 0RL, United Kingdom",
+     "solution_md": "determination of mass of water;\nsubstitution into / rearrangement of density allow ECF from incorrect\nformula; mass\nevaluation;\nrounding to 3 s.f.; mark independently\ne.g.\nmass = 49.5 (g)\n0.998 = 49.5/volume OR volume = mass/density\nvolume = 49.599\n49.6 (cm3)",
      "mark_points": [
       {
        "id": "2021-01-11-a-MP1",
        "marks": 4,
-       "text_md": "determination of mass of water;\nsubstitution into / rearrangement of density allow ECF from incorrect\nformula; mass\nevaluation;\nrounding to 3 s.f.; mark independently\ne.g.\nmass = 49.5 (g)\n0.998 = 49.5/volume OR volume = mass/density\nvolume = 49.599\n49.6 (cm3)\n(b) determination of mass of liquid;\nuse of volume from (a); allow ECF from (a)\nevaluation; allow ECF from incorrect\nmass\ne.g.\n143.8 - 63.4 = 80.4 (g)\ndensity = 80.4 / 49.6\ndensity = 1.62 (g/cm3)\n(c) any three from: allow RA throughout\nMP1. with measuring cylinder can read volume to\nnearest cm3;\nMP2. measuring cylinder is easier/quicker to use;\nMP3. measuring cylinder does not need to be\ndried;\nMP4. idea that measuring cylinder value could be\nincorrect due to parallax errors/meniscus\netc;\nMP5. ‘bottle’ gives volume to nearest 1dp;\nMP6. ‘bottle’ allows density to be more precisely\ndetermined;\nPearson Education Limited. Registered company number 872828\nwith its registered office at 80 Strand, London, WC2R 0RL, United Kingdom"
+       "text_md": "determination of mass of water;\nsubstitution into / rearrangement of density allow ECF from incorrect\nformula; mass\nevaluation;\nrounding to 3 s.f.; mark independently\ne.g.\nmass = 49.5 (g)\n0.998 = 49.5/volume OR volume = mass/density\nvolume = 49.599\n49.6 (cm3)"
       }
      ],
      "source_page": 28,
@@ -1424,7 +1580,15 @@
      "question_type": "structured",
      "problem_md": "The student empties the bottle and then dries it. He refills the bottle with the unknown liquid. He measures the mass of the full bottle and stopper as 143.8 g. Calculate the density of the unknown liquid. density of unknown liquid = g/cm3",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "determination of mass of liquid;\nuse of volume from (a); allow ECF from (a)\nevaluation; allow ECF from incorrect\nmass\ne.g.\n143.8 - 63.4 = 80.4 (g)\ndensity = 80.4 / 49.6\ndensity = 1.62 (g/cm3)",
+     "mark_points": [
+      {
+       "id": "2021-01-11-b-MP1",
+       "marks": 3,
+       "text_md": "determination of mass of liquid;\nuse of volume from (a); allow ECF from (a)\nevaluation; allow ECF from incorrect\nmass\ne.g.\n143.8 - 63.4 = 80.4 (g)\ndensity = 80.4 / 49.6\ndensity = 1.62 (g/cm3)"
+      }
+     ],
      "source_page": 29,
      "assets": [],
      "spec_point_codes": [],
@@ -1442,7 +1606,15 @@
      "question_type": "structured",
      "problem_md": "Another student uses a measuring cylinder to find the volume of the unknown liquid. Discuss the advantages and disadvantages of using each method to find the volume of the unknown liquid.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "any three from: allow RA throughout\nMP1. with measuring cylinder can read volume to\nnearest cm3;\nMP2. measuring cylinder is easier/quicker to use;\nMP3. measuring cylinder does not need to be\ndried;\nMP4. idea that measuring cylinder value could be\nincorrect due to parallax errors/meniscus\netc;\nMP5. ‘bottle’ gives volume to nearest 1dp;\nMP6. ‘bottle’ allows density to be more precisely\ndetermined;\nPearson Education Limited. Registered company number 872828\nwith its registered office at 80 Strand, London, WC2R 0RL, United Kingdom",
+     "mark_points": [
+      {
+       "id": "2021-01-11-c-MP1",
+       "marks": 3,
+       "text_md": "any three from: allow RA throughout\nMP1. with measuring cylinder can read volume to\nnearest cm3;\nMP2. measuring cylinder is easier/quicker to use;\nMP3. measuring cylinder does not need to be\ndried;\nMP4. idea that measuring cylinder value could be\nincorrect due to parallax errors/meniscus\netc;\nMP5. ‘bottle’ gives volume to nearest 1dp;\nMP6. ‘bottle’ allows density to be more precisely\ndetermined;\nPearson Education Limited. Registered company number 872828\nwith its registered office at 80 Strand, London, WC2R 0RL, United Kingdom"
+      }
+     ],
      "source_page": 29,
      "assets": [],
      "spec_point_codes": [],

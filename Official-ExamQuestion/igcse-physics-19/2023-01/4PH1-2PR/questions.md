@@ -23,19 +23,6 @@ The y‑axis label is missing. Which of these is the correct label for the y‑a
 > Earth, regardless of distance
 > C is incorrect because the H-R diagram requires a specific scalar magnitude
 > D is incorrect because the H-R diagram requires a specific magnitude
-> (b) P: white dwarfs; reject if more than one
-> given
-> Q: main sequence; reject if more than one
-> given
-> R: red giants; reject if more than one
-> given
-> (c) idea of the left-hand side; allow ‘blue’
-> allow use of letter P to
-> indicate left side
-> ignore ‘white’
-> idea that blue/white stars are hottest / hotter allow white dwarfs are
-> than red/orange stars; hottest
-> Answer Notes Marks
 
 - **(1)** Answer A: absolute magnitude
 
@@ -45,11 +32,36 @@ The box contains words to identify the shaded areas P, Q and R on the Hertzsprun
 
 ![diagram — official paper figure (qp.pdf p.4) — shared with asset_1_b_diagram_stem](assets/asset_1_b_diagram_stem.png)
 
+
+**Mark scheme answer**
+
+> P: white dwarfs; reject if more than one
+> given
+> Q: main sequence; reject if more than one
+> given
+> R: red giants; reject if more than one
+> given
+
+- **(3)** P: white dwarfs; reject if more than one
+
 ### 1(c) [2]
 
 Explain which side of the diagram contains stars with the highest surface temperature.
 
 ![diagram — official paper figure (qp.pdf p.4) — shared with asset_1_b_diagram_stem](assets/asset_1_b_diagram_stem.png)
+
+
+**Mark scheme answer**
+
+> idea of the left-hand side; allow ‘blue’
+> allow use of letter P to
+> indicate left side
+> ignore ‘white’
+> idea that blue/white stars are hottest / hotter allow white dwarfs are
+> than red/orange stars; hottest
+> Answer Notes Marks
+
+- **(2)** idea of the left-hand side; allow ‘blue’
 
 
 ## Question 2 (6 marks)
@@ -64,15 +76,21 @@ State which colour in the visible spectrum has the shortest wavelength.
 **Mark scheme answer**
 
 > violet; reject purple, ultraviolet, UV
-> (b) idea that UV causes mutations/damage (in allow kills cells/tissue, sunburn,
-> cells); burns skin
-> (leading to) (skin) cancer/blindness;
 
 - **(1)** violet; reject purple, ultraviolet, UV
 
 ### 2(b) [2]
 
 Explain a hazard of ultraviolet radiation to the human body.
+
+
+**Mark scheme answer**
+
+> idea that UV causes mutations/damage (in allow kills cells/tissue, sunburn,
+> cells); burns skin
+> (leading to) (skin) cancer/blindness;
+
+- **(2)** idea that UV causes mutations/damage (in allow kills cells/tissue, sunburn,
 
 ### 2(c)(i) [1]
 
@@ -113,17 +131,65 @@ A tumble dryer is a household device that dries clothes. The clothes rotate in a
 
 Name a device the student could use to measure a force.
 
+
+**Mark scheme answer**
+
+> newtonmeter; allow spring balance,
+> spring scale,
+> dynamometer
+> ignore forcemeter
+
+- **(1)** newtonmeter; allow spring balance,
+
 ### 3(a)(ii) [2]
 
 State the independent and dependent variables in this investigation. independent dependent
+
+
+**Mark scheme answer**
+
+> independent: material (of the squares); allow cloth
+> ignore ‘squares’ on its
+> own
+> dependent: force;
+
+- **(2)** independent: material (of the squares); allow cloth
 
 ### 3(a)(iii) [1]
 
 State a control variable in this investigation.
 
+
+**Mark scheme answer**
+
+> any one from:
+> • speed (of rotation);
+> • direction of rotation;
+> • temperature (of tumble dryer);
+> • number of squares;
+> • size / thickness / shape of square;
+> • time (of rotation);
+
+- **(1)** any one from:
+
 ### 3(b) [3]
 
 Explain how the squares of material stick together. Use ideas about electrostatic charge in your answer.
+
+
+**Mark scheme answer**
+
+> any three from:
+> MP1. idea of friction (between pieces of allow rubbing for friction
+> material);
+> MP2. electrons/charge transferred between ignore references to
+> squares/material; protons
+> MP3. squares become oppositely charged; allow negative and
+> positive squares/eq
+> MP4. square is negative if electrons gained; allow RA
+> MP5. idea that opposite charges attract;
+
+- **(3)** any three from:
 
 ### 3(c) [2]
 
@@ -132,6 +198,16 @@ The table shows some of the student’s results. Mean force to separate squares 
 ![graph — official paper figure (qp.pdf p.8)](assets/asset_3_c_graph.png)
 
 ![table — official paper figure (qp.pdf p.9)](assets/asset_3_c_table.png)
+
+
+**Mark scheme answer**
+
+> bar chart; allow bar graph
+> ignore histogram
+> idea that material/data is categoric; allow discrete, not
+> continuous, discontinuous
+
+- **(2)** bar chart; allow bar graph
 
 ### 3(d)(i) [1]
 
@@ -175,23 +251,81 @@ Diagram 1 shows a circuit built by a student. 83 mA 17 Ω 6.2 Ω 228 mA Diagram 
 
 State the formula linking voltage, current and resistance.
 
+
+**Mark scheme answer**
+
+> voltage = current × resistance; allow standard symbols and
+> rearrangements
+> e.g. V = I × R
+> ignore c, C for current
+
+- **(1)** voltage = current × resistance; allow standard symbols and
+
 ### 4(a)(ii) [3]
 
 Calculate the voltage across the 17 Ω resistor. voltage = V
+
+
+**Mark scheme answer**
+
+> conversion of mA to A;
+> substitution;
+> evaluation;
+> 1400, 1410, 1411 (V) scores
+> 2 marks
+> e.g.
+> 83 ÷ 1000 = 0.083
+> V = 0.083 × 17
+> (V =) 1.4 (V) allow 1.41, 1.411 (V)
+
+- **(3)** conversion of mA to A;
 
 ### 4(a)(iii) [1]
 
 State the voltage across the 6.2 Ω resistor. voltage = V
 
+
+**Mark scheme answer**
+
+> 1.4 (V) allow ecf from (ii)
+> allow 1.41, 1.414 1.4136 (V)
+> do not penalise not
+> converting mA to A if
+> already penalised in (ii)
+
+- **(1)** 1.4 (V) allow ecf from (ii)
+
 ### 4(a)(iv) [2]
 
 Calculate the current in the battery. current = mA
+
+
+**Mark scheme answer**
+
+> evidence of addition of the two currents;
+> 311 mA; accept 0.311 A
+
+- **(2)** evidence of addition of the two currents;
 
 ### 4(b) [3]
 
 Diagram 2 shows a second circuit built by the student using the same battery and resistors. 17 Ω 6.2 Ω Diagram 2 Explain how the current in the battery will change now the resistors are connected in series. You do not need to do any calculations in your answer.
 
 ![diagram — official paper figure (qp.pdf p.13)](assets/asset_4_b_diagram.png)
+
+
+**Mark scheme answer**
+
+> any three from:
+> MP1. current decreases;
+> MP2. (total) resistance increases;
+> MP3. idea that total voltage is the same; allow idea that each resistor
+> gets a lower voltage (from
+> cell)
+> MP4. reference to V=IR;
+> Answer Notes Marks
+
+- **(3)** any three from:
 
 
 ## Question 5 (9 marks)
@@ -207,7 +341,17 @@ Explain how the information in the label shows that the transformer is a step‑
 
 > output voltage is less than input voltage; allow voltage decreases
 > output current is greater than input current; allow current increases
-> (b) any attempt to calculate a power; allow either product of
+
+- **(2)** output voltage is less than input voltage; allow voltage decreases
+
+### 5(b) [3]
+
+Show that the transformer is approximately 100% efficient.
+
+
+**Mark scheme answer**
+
+> any attempt to calculate a power; allow either product of
 > voltage and current
 > correct calculation of either input or output
 > power;
@@ -221,11 +365,7 @@ Explain how the information in the label shows that the transformer is a step‑
 > 15(.41) ≈ 15(.5) 15(.5)/15(.41) = 1.0… or
 > 100%
 
-- **(2)** output voltage is less than input voltage; allow voltage decreases
-
-### 5(b) [3]
-
-Show that the transformer is approximately 100% efficient.
+- **(3)** any attempt to calculate a power; allow either product of
 
 ### 5(c)(i) [1]
 
@@ -370,9 +510,29 @@ The mass of each car is 0.074 kg. Calculate the time taken for the velocity of c
 > time = (0.074 × 3.0) / 2.5
 > (time =) 0.089 (s) allow 0.09, 0.0888 (s)
 > condone 0.088 (s)
-> (b) magnitude = 4.9 (N);
+
+- **(3)** substitution into F = (mv − mu) / t;
+
+### 7(b) [2]
+
+State the magnitude and direction of the force on the metal block, when car 2 collides with the block. magnitude = N direction =
+
+
+**Mark scheme answer**
+
+> magnitude = 4.9 (N);
 > direction = right/opposite to car; ignore East
-> (c) any two from:
+
+- **(2)** magnitude = 4.9 (N);
+
+### 7(c) [2]
+
+Explain why the mean force from the block on car 1 is smaller than the mean force on car 2.
+
+
+**Mark scheme answer**
+
+> any two from:
 > MP1. (crumple zone) increases the time (taken to
 > stop);
 > MP2. same momentum change (as car 2); allow same velocity
@@ -382,15 +542,7 @@ The mass of each car is 0.074 kg. Calculate the time taken for the velocity of c
 > momentum/time;
 > Answer Notes Marks
 
-- **(3)** substitution into F = (mv − mu) / t;
-
-### 7(b) [2]
-
-State the magnitude and direction of the force on the metal block, when car 2 collides with the block. magnitude = N direction =
-
-### 7(c) [2]
-
-Explain why the mean force from the block on car 1 is smaller than the mean force on car 2.
+- **(2)** any two from:
 
 
 ## Question 8 (9 marks)

@@ -11,6 +11,19 @@ The passage describes the evolution of a star with a mass that is much larger th
 The passage describes the evolution of a star with a mass that is much larger than the mass of the Sun. Use words or phrases from the box to complete the passage. Each word or phrase may be used once, more than once, or not at all. chemical contract expand gravitational kinetic main sequence neutron star nuclear protostar supernova vibrate white dwarf Hydrogen atoms in a nebula move towards each other due to the force of gravity. As the atoms move towards each other, their energy store increases, which increases the temperature. If the temperature becomes high enough, nuclear fusion of hydrogen will start and the star enters the stage of its evolution. When hydrogen fusion stops in the core of the star, the core of the star will start to This increases the temperature in a layer surrounding the core. Hydrogen fusion restarts in a layer surrounding the core. This causes the star to and its surface temperature decreases. The star is now a red super giant. Eventually nuclear fusion stops in the core of the star and the star explodes as a The core of the star collapses to form either a or a black hole.
 
 
+**Mark scheme answer**
+
+> kinetic;
+> main sequence;
+> contract;
+> expand;
+> supernova;
+> neutron star;
+> Answer Notes Marks
+
+- **(6)** kinetic;
+
+
 ## Question 2 (11 marks)
 **(a)** A speed camera is positioned at the side of a road. © Darryl Sleath/Shutterstock The camera measures the speed of a vehicle on the road to determine whether the vehicle is travelling too fast. The camera takes two photographs of the vehicle 0.25 s apart. The photographs are used to measure the distance travelled by the vehicle during this time.
 
@@ -20,13 +33,47 @@ The passage describes the evolution of a star with a mass that is much larger th
 
 State the formula linking average speed, distance moved and time taken.
 
+
+**Mark scheme answer**
+
+> (average) speed = distance (moved) / time (taken); allow standard symbols and
+> rearrangements e.g. v = s / t
+> allow s for speed, d for
+> distance
+
+- **(1)** (average) speed = distance (moved) / time (taken); allow standard symbols and
+
 ### 2(a)(ii) [2]
 
 In the time between the two photographs, the car travels a distance of 6.5 m. Calculate the average speed of the car. average speed = m/s
 
+
+**Mark scheme answer**
+
+> substitution;
+> evaluation;
+> e.g.
+> (speed =) 6.5 / 0.25
+> (speed =) 26 (m/s)
+
+- **(2)** substitution;
+
 ### 2(a)(iii) [2]
 
 The speed limit of the road is 80 kilometres per hour. Determine whether the car is exceeding the speed limit.
+
+
+**Mark scheme answer**
+
+> correct conversion of EITHER m to km OR s to h; allow ECF from (ii)
+> full conversion from m/s to km/h AND consistent allow ECF from (ii)
+> conclusion;; allow conversion of km/h to
+> m/s e.g. 80km/h = 22.2m/s
+> e.g.
+> 26 (m/s) = 0.026 (km/s) OR 26 (m/s) = 93600 (m/h)
+> 94 (km/h) => too fast allow 93.6 (km/h)
+
+- **(2)** correct conversion of EITHER m to km OR s to h; allow ECF from (ii)
 
 ### 2(b)(i) [2]
 
@@ -91,17 +138,23 @@ Give a disadvantage of connecting the bulbs in series.
 
 > idea that if one bulb fails all bulbs turn off; allow idea that bulbs cannot be
 > controlled individually
-> (b) any one from:
-> • less likely to overheat;
-> • idea that the circuit is simpler; accept uses fewer wires
-> • lower voltage bulbs;
-> • all bulbs controlled with one switch;
 
 - **(1)** idea that if one bulb fails all bulbs turn off; allow idea that bulbs cannot be
 
 ### 3(b) [1]
 
 Suggest an advantage of connecting the bulbs in series.
+
+
+**Mark scheme answer**
+
+> any one from:
+> • less likely to overheat;
+> • idea that the circuit is simpler; accept uses fewer wires
+> • lower voltage bulbs;
+> • all bulbs controlled with one switch;
+
+- **(1)** any one from:
 
 ### 3(c)(i) [1]
 
@@ -154,7 +207,17 @@ Calculate the energy transferred to lamp X when it is used for 2.5 hours. energy
 > voltage used = 231 OR ×7 used in working
 > (E =) 180 000 (J) allow answer between 165000 to
 > 180000
-> (d) brightness is greater in lamp Y; allow RA
+
+- **(4)** dimensionally correct substitution into allow ECF from (ii)
+
+### 3(d) [3]
+
+Another decorative lamp, Y, uses five of the same 390 Ω bulbs connected in series. Both lamps are mains operated. Explain how the brightness of a single bulb in lamp Y compares to the brightness of a single bulb in lamp X.
+
+
+**Mark scheme answer**
+
+> brightness is greater in lamp Y; allow RA
 > with any two from:
 > more energy transferred to each bulb in lamp
 > Y;
@@ -163,11 +226,7 @@ Calculate the energy transferred to lamp X when it is used for 2.5 hours. energy
 > current in bulb / circuit in lamp Y is greater;
 > Answer Notes Marks
 
-- **(4)** dimensionally correct substitution into allow ECF from (ii)
-
-### 3(d) [3]
-
-Another decorative lamp, Y, uses five of the same 390 Ω bulbs connected in series. Both lamps are mains operated. Explain how the brightness of a single bulb in lamp Y compares to the brightness of a single bulb in lamp X.
+- **(3)** brightness is greater in lamp Y; allow RA
 
 
 ## Question 4 (13 marks)
@@ -184,7 +243,17 @@ State which wire in the hair dryer should be in series with the fuse.
 **Mark scheme answer**
 
 > live / L; allow red / brown wire
-> (b) any two from:
+
+- **(1)** live / L; allow red / brown wire
+
+### 4(b) [2]
+
+The fuse is an electrical safety feature used in mains-operated domestic appliances. State two other electrical safety features that can be used in mains-operated domestic appliances. 1 2
+
+
+**Mark scheme answer**
+
+> any two from:
 > MP1. earth wire;
 > MP2. circuit breaker; allow RCD, trip switch, surge
 > protector
@@ -192,11 +261,7 @@ State which wire in the hair dryer should be in series with the fuse.
 > MP4. insulated cables; allow any mention of
 > insulated wires
 
-- **(1)** live / L; allow red / brown wire
-
-### 4(b) [2]
-
-The fuse is an electrical safety feature used in mains-operated domestic appliances. State two other electrical safety features that can be used in mains-operated domestic appliances. 1 2
+- **(2)** any two from:
 
 ### 4(c)(i) [1]
 
@@ -243,18 +308,24 @@ The hair dryer contains a coil of wire which is used to heat air passing through
 > through coil);
 > (due to) electron collisions with (lattice) ions in the allow atoms, particles for
 > coil; ions
-> (d) idea of excessive current; e.g. “current becomes too
-> high”
-> melts the fuse (wire); allow breaking the fuse
-> condone “blows the fuse”
-> breaking the circuit; allow “stops the current” / eq
-> Answer Notes Marks
 
 - **(3)** allow wire for coil
 
 ### 4(d) [3]
 
 Explain how a fuse protects a domestic appliance.
+
+
+**Mark scheme answer**
+
+> idea of excessive current; e.g. “current becomes too
+> high”
+> melts the fuse (wire); allow breaking the fuse
+> condone “blows the fuse”
+> breaking the circuit; allow “stops the current” / eq
+> Answer Notes Marks
+
+- **(3)** idea of excessive current; e.g. “current becomes too
 
 
 ## Question 5 (7 marks)
@@ -282,10 +353,6 @@ Give a safety precaution that would reduce the teacher’s exposure to radiation
 > source;
 > • use of lead apron/shielding; ignore if mention of other
 > room etc.
-> (b) B (138);
-> A is incorrect because this is the number of protons
-> C is incorrect because this is the number of nucleons
-> D is incorrect because this is the number of nucleons + protons
 
 - **(1)** any one from:
 
@@ -294,9 +361,19 @@ Give a safety precaution that would reduce the teacher’s exposure to radiation
 Radium-226 can be represented using the symbol 226 88 Ra How many neutrons are in the nucleus of an atom of radium-226?
 
 - **(A)** 88
-- **(B)** 138
+- **(B)** 138  ✔
 - **(C)** 226
 - **(D)** 314
+
+
+**Mark scheme answer**
+
+> B (138);
+> A is incorrect because this is the number of protons
+> C is incorrect because this is the number of nucleons
+> D is incorrect because this is the number of nucleons + protons
+
+- **(1)** Answer B: 138
 
 ### 5(c)(i) [1]
 
@@ -355,7 +432,22 @@ The radioactive source contains 2.66 × 1021 atoms of radium-226. Approximately 
 > B is incorrect because this is the number of atoms after 1600 years
 > D is incorrect because this is the initial number of atoms
 > Answer Notes Marks
-> 6 max. 2 marks for details of varying any mark can be given from
+
+- **(1)** Answer C: 1.88 × 1021
+
+
+## Question 6 (6 marks)
+
+When a rubber ball is dropped it hits the floor and bounces. Design an investigation to determine how the temperature of the rubber ball affects the maximum height the ball reaches after it bounces. In your answer, refer to • how to change the temperature of the ball • the variables that need to be controlled • how to obtain high-quality data You may draw a labelled diagram to support your answer. (6)
+
+### 6 [6]
+
+When a rubber ball is dropped it hits the floor and bounces. Design an investigation to determine how the temperature of the rubber ball affects the maximum height the ball reaches after it bounces. In your answer, refer to • how to change the temperature of the ball • the variables that need to be controlled • how to obtain high-quality data You may draw a labelled diagram to support your answer.
+
+
+**Mark scheme answer**
+
+> max. 2 marks for details of varying any mark can be given from
 > temperature labelled diagram
 > MP1. suitable method of heating ball; e.g. water bath, oven,
 > freezer, heating water in
@@ -376,16 +468,7 @@ The radioactive source contains 2.66 × 1021 atoms of radium-226. Approximately 
 > MP8. repeats and average;
 > Answer Notes Marks
 
-- **(1)** Answer C: 1.88 × 1021
-
-
-## Question 6 (6 marks)
-
-When a rubber ball is dropped it hits the floor and bounces. Design an investigation to determine how the temperature of the rubber ball affects the maximum height the ball reaches after it bounces. In your answer, refer to • how to change the temperature of the ball • the variables that need to be controlled • how to obtain high-quality data You may draw a labelled diagram to support your answer. (6)
-
-### 6 [6]
-
-When a rubber ball is dropped it hits the floor and bounces. Design an investigation to determine how the temperature of the rubber ball affects the maximum height the ball reaches after it bounces. In your answer, refer to • how to change the temperature of the ball • the variables that need to be controlled • how to obtain high-quality data You may draw a labelled diagram to support your answer.
+- **(6)** max. 2 marks for details of varying any mark can be given from
 
 
 ## Question 7 (13 marks)
@@ -518,7 +601,17 @@ Give a reason why the student does not start the y-axis scale from zero on eithe
 > particles} cannot be zero;
 > • idea that all data would be bunched
 > together at the top of the axis / eq;
-> (b) for either graph:
+
+- **(1)** any one from:
+
+### 8(b) [3]
+
+Describe the relationships shown by the graphs.
+
+
+**Mark scheme answer**
+
+> for either graph:
 > MP1. as temperature increases, pressure/speed ignore positive correlation
 > increases;
 > for graph 1:
@@ -529,7 +622,17 @@ Give a reason why the student does not start the y-axis scale from zero on eithe
 > for graph 2:
 > MP3. relationship is non-linear;
 > MP4. idea of decreasing gradient of curve;
-> (c) any two from:
+
+- **(3)** for either graph:
+
+### 8(c) [2]
+
+Explain why the value of temperature chosen in the simulation should not decrease below – 273 °C.
+
+
+**Mark scheme answer**
+
+> any two from:
 > MP1. this temperature is absolute zero;
 > MP2. pressure/speed/kinetic energy of gas allow idea that negative
 > particles would be 0 at this temperature; pressure/speed/KE is
@@ -537,15 +640,7 @@ Give a reason why the student does not start the y-axis scale from zero on eithe
 > MP3. idea that it is impossible to have a
 > temperature lower than this;
 
-- **(1)** any one from:
-
-### 8(b) [3]
-
-Describe the relationships shown by the graphs.
-
-### 8(c) [2]
-
-Explain why the value of temperature chosen in the simulation should not decrease below – 273 °C.
+- **(2)** any two from:
 
 ### 8(d)(i) [1]
 
@@ -616,29 +711,93 @@ Some of the light is reflected from the surface of the block at point A. On diag
 
 ![diagram — official paper figure (qp.pdf p.22) — shared with asset_9_a_diagram_stem](assets/asset_9_a_diagram_stem.png)
 
+
+**Mark scheme answer**
+
+> correctly reflected ray of light drawn at A; judge angle of reflection =
+> angle of incidence by eye
+> allow dotted lines, lines
+> without arrowheads
+> ignore lines inside the block
+
+- **(1)** correctly reflected ray of light drawn at A; judge angle of reflection =
+
 ### 9(a)(ii) [2]
 
 Use a protractor to determine the angle of incidence and the angle of refraction of the red light at point A on diagram 1. angle of incidence = degrees angle of refraction = degrees
 
 ![diagram — official paper figure (qp.pdf p.22) — shared with asset_9_a_diagram_stem](assets/asset_9_a_diagram_stem.png)
 
+
+**Mark scheme answer**
+
+> i = 60 (°); allow 59-61 inclusive
+> r = 31 (°); allow 30-32 inclusive
+
+- **(2)** i = 60 (°); allow 59-61 inclusive
+
 ### 9(a)(iii) [1]
 
 State the formula linking refractive index, angle of incidence and angle of refraction.
+
+
+**Mark scheme answer**
+
+> n = sin(i) / sin(r); allow in words and
+> rearrangements
+
+- **(1)** n = sin(i) / sin(r); allow in words and
 
 ### 9(a)(iv) [2]
 
 Calculate the refractive index of the glass for red light. refractive index =
 
+
+**Mark scheme answer**
+
+> substitution; allow ECF from (ii)
+> evaluation;
+> e.g.
+> (n =) sin(60) / sin(31)
+> (n =) 1.68 allow 1.61-1.75
+
+- **(2)** substitution; allow ECF from (ii)
+
 ### 9(a)(v) [3]
 
 Describe how the student could improve her investigation to obtain a more reliable value of the refractive index.
+
+
+**Mark scheme answer**
+
+> any three from: ignore bald “repeat and
+> average”
+> MP1. take repeat readings at a specific angle; ignore “repeat investigation”
+> MP2. vary angle of incidence;
+> MP3. find mean values for one angle i / mean
+> refractive index;
+> MP4. plot graph of sin(i) against sin(r);
+> MP5. find refractive index from gradient of graph;
+
+- **(3)** any three from: ignore bald “repeat and
 
 ### 9(b) [3]
 
 The student replaces the red light with a blue light. Diagram 2 shows a ray of blue light directed at point A, at the same angle of incidence as the previous ray of red light. The dashed lines on diagram 2 show the previous path of the ray of red light. previous path of red light A flint glass air blue light Diagram 2 The refractive index of flint glass for blue light is higher than the refractive index of flint glass for red light. Complete diagram 2 by drawing the path of blue light from point A until it passes into air.
 
 ![diagram — official paper figure (qp.pdf p.24)](assets/asset_9_b_diagram.png)
+
+
+**Mark scheme answer**
+
+> ray drawn with smaller angle of refraction than red
+> light when it enters block;
+> ray bends away from the normal when it leaves the
+> glass block;
+> ray drawn parallel to red light as it leaves block;
+> Answer Notes Marks
+
+- **(3)** ray drawn with smaller angle of refraction than red
 
 
 ## Question 10 (6 marks)
@@ -656,7 +815,17 @@ The bar of the hurdle is made of wood and is painted black and white. The temper
 > emission
 > of radiation (from the Sun); allow IR, infrared for
 > radiation
-> (b) any four from:
+
+- **(2)** black because it is a better/good absorber; ignore references to
+
+### 10(b) [4]
+
+The air near the bar receives energy by heating. Explain how a convection current is formed in the air near the bar.
+
+
+**Mark scheme answer**
+
+> any four from:
 > MP1. temperature of air increases; allow air particles gain KE
 > MP2. air expands / air particles move further reject particles expand
 > apart;
@@ -668,11 +837,7 @@ The bar of the hurdle is made of wood and is painted black and white. The temper
 > MP6. process repeats;
 > Answer Notes Marks
 
-- **(2)** black because it is a better/good absorber; ignore references to
-
-### 10(b) [4]
-
-The air near the bar receives energy by heating. Explain how a convection current is formed in the air near the bar.
+- **(4)** any four from:
 
 
 ## Question 11 (10 marks)
@@ -696,7 +861,17 @@ This is the student’s method. • use a balance to find the mass of the bottle
 > 0.998 = 49.5/volume OR volume = mass/density
 > volume = 49.599
 > 49.6 (cm3)
-> (b) determination of mass of liquid;
+
+- **(4)** determination of mass of water;
+
+### 11(b) [3]
+
+The student empties the bottle and then dries it. He refills the bottle with the unknown liquid. He measures the mass of the full bottle and stopper as 143.8 g. Calculate the density of the unknown liquid. density of unknown liquid = g/cm3
+
+
+**Mark scheme answer**
+
+> determination of mass of liquid;
 > use of volume from (a); allow ECF from (a)
 > evaluation; allow ECF from incorrect
 > mass
@@ -704,7 +879,17 @@ This is the student’s method. • use a balance to find the mass of the bottle
 > 143.8 - 63.4 = 80.4 (g)
 > density = 80.4 / 49.6
 > density = 1.62 (g/cm3)
-> (c) any three from: allow RA throughout
+
+- **(3)** determination of mass of liquid;
+
+### 11(c) [3]
+
+Another student uses a measuring cylinder to find the volume of the unknown liquid. Discuss the advantages and disadvantages of using each method to find the volume of the unknown liquid.
+
+
+**Mark scheme answer**
+
+> any three from: allow RA throughout
 > MP1. with measuring cylinder can read volume to
 > nearest cm3;
 > MP2. measuring cylinder is easier/quicker to use;
@@ -719,13 +904,5 @@ This is the student’s method. • use a balance to find the mass of the bottle
 > Pearson Education Limited. Registered company number 872828
 > with its registered office at 80 Strand, London, WC2R 0RL, United Kingdom
 
-- **(4)** determination of mass of water;
-
-### 11(b) [3]
-
-The student empties the bottle and then dries it. He refills the bottle with the unknown liquid. He measures the mass of the full bottle and stopper as 143.8 g. Calculate the density of the unknown liquid. density of unknown liquid = g/cm3
-
-### 11(c) [3]
-
-Another student uses a measuring cylinder to find the volume of the unknown liquid. Discuss the advantages and disadvantages of using each method to find the volume of the unknown liquid.
+- **(3)** any three from: allow RA throughout
 

@@ -1,7 +1,7 @@
 {
  "schema": "syllabai.official-paper-questions/0.2",
- "generated_utc": "2026-10-25T20:42:44Z",
- "generator": "official_examq_extract.py v0.17.4 (ADR-039) series=2020-01 paper=1PR",
+ "generated_utc": "2026-10-25T22:06:02Z",
+ "generator": "official_examq_extract.py v0.19.0 (ADR-039) series=2020-01 paper=1PR",
  "paper_id": "pearson-edexcel:international-gcse:physics:4ph1:2020-01:4PH1/1PR",
  "source": {
   "qp_sha256": "04a650a3a37615aa469709fb34d711fbd44b19797b3d9d792e451f5e107dab67",
@@ -55,7 +55,7 @@
       }
      ],
      "answer_status": "linked",
-     "solution_md": "D – arrow S;\nA is incorrect as arrow P shows twice the amplitude\nB is incorrect as arrow Q shows the wavelength\nC is incorrect as arrow R shows half of the\nwavelength\n(b) B – arrow Q;\nA is incorrect as arrow P shows twice the amplitude\nC is incorrect as arrow R shows have of the\nwavelength\nD is incorrect as arrow S shows the amplitude\n(c) D – transverse;\nA is incorrect as water waves are not\nelectromagnetic\nB is incorrect as gravitational waves are not\ndetectable by water\nC is incorrect as the water molecules vibrate at\nright angles to the direction of travel of the wave.\n(d) substitution into given equation ‘f= 1/T’;\nevaluation;\ne.g.\nfrequency = 1/2.7\nfrequency = 0.37 (Hz) accept any value that\nrounds to 0.37 Hz\nAnswer Notes Marks",
+     "solution_md": "D – arrow S;\nA is incorrect as arrow P shows twice the amplitude\nB is incorrect as arrow Q shows the wavelength\nC is incorrect as arrow R shows half of the\nwavelength",
      "mark_points": [
       {
        "id": "2020-01-1-a-MP1",
@@ -82,25 +82,36 @@
      "choices": [
       {
        "label": "A",
-       "text_md": "P"
+       "text_md": "P",
+       "is_correct": false
       },
       {
        "label": "B",
-       "text_md": "Q"
+       "text_md": "Q",
+       "is_correct": true
       },
       {
        "label": "C",
-       "text_md": "R"
+       "text_md": "R",
+       "is_correct": false
       }
      ],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "B – arrow Q;\nA is incorrect as arrow P shows twice the amplitude\nC is incorrect as arrow R shows have of the\nwavelength\nD is incorrect as arrow S shows the amplitude",
+     "mark_points": [
+      {
+       "id": "2020-01-1-b-MP1",
+       "marks": 1,
+       "text_md": "Answer B: Q"
+      }
+     ],
      "source_page": 4,
      "assets": [],
      "spec_point_codes": [],
      "tagging": "pending-llm",
      "edit_status": "extracted",
      "value_trace": {
-      "keys": "unresolved:review-queue",
+      "keys": "ms-positional",
       "marks": "ms-printed",
       "numbers": "source-printed"
      }
@@ -113,29 +124,41 @@
      "choices": [
       {
        "label": "A",
-       "text_md": "electromagnetic"
+       "text_md": "electromagnetic",
+       "is_correct": false
       },
       {
        "label": "B",
-       "text_md": "gravitational"
+       "text_md": "gravitational",
+       "is_correct": false
       },
       {
        "label": "C",
-       "text_md": "longitudinal"
+       "text_md": "longitudinal",
+       "is_correct": false
       },
       {
        "label": "D",
-       "text_md": "transverse"
+       "text_md": "transverse",
+       "is_correct": true
       }
      ],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "D – transverse;\nA is incorrect as water waves are not\nelectromagnetic\nB is incorrect as gravitational waves are not\ndetectable by water\nC is incorrect as the water molecules vibrate at\nright angles to the direction of travel of the wave.",
+     "mark_points": [
+      {
+       "id": "2020-01-1-c-MP1",
+       "marks": 1,
+       "text_md": "Answer D: transverse"
+      }
+     ],
      "source_page": 4,
      "assets": [],
      "spec_point_codes": [],
      "tagging": "pending-llm",
      "edit_status": "extracted",
      "value_trace": {
-      "keys": "unresolved:review-queue",
+      "keys": "ms-positional",
       "marks": "ms-printed",
       "numbers": "source-printed"
      }
@@ -146,7 +169,15 @@
      "question_type": "structured",
      "problem_md": "The time period of the wave is 2.7 s. Calculate the frequency of the wave. frequency= Hz",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "substitution into given equation ‘f= 1/T’;\nevaluation;\ne.g.\nfrequency = 1/2.7\nfrequency = 0.37 (Hz) accept any value that\nrounds to 0.37 Hz\nAnswer Notes Marks",
+     "mark_points": [
+      {
+       "id": "2020-01-1-d-MP1",
+       "marks": 2,
+       "text_md": "substitution into given equation ‘f= 1/T’;\nevaluation;\ne.g.\nfrequency = 1/2.7\nfrequency = 0.37 (Hz) accept any value that\nrounds to 0.37 Hz\nAnswer Notes Marks"
+      }
+     ],
      "source_page": 5,
      "assets": [],
      "spec_point_codes": [],
@@ -175,12 +206,12 @@
      "problem_md": "The total pressure at the bottom of the can is 110 kPa. Atmospheric pressure is 101 kPa. Calculate the pressure difference due to the oil. pressure difference = kPa",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "9 (kPa);\n(b) (liquid) pressure = depth (of liquid) × density × g; accept\nd, h, height for depth\nrho, ρ for density\ng.f.s or gravitational field\nstrength for g\nreject gravity for g\n(c) substitution; allow ecf from (a)\nrearrangement;\nevaluation;\nallow use of g = 9.8(1) m/s2\ngiving 0.96 m\ne.g.\npressure difference = 9 kPa\n9 000 = d × 960 × 10\nd = 9000 / (9600)\nd = 0.94 (m) allow 0.937(5)\nPOT error penalty of 1\nmark, except if formula is\nincorrect i.e. no ‘g’\nAnswer Notes Marks",
+     "solution_md": "9 (kPa);",
      "mark_points": [
       {
        "id": "2020-01-2-a-MP1",
        "marks": 1,
-       "text_md": "9 (kPa);\n(b) (liquid) pressure = depth (of liquid) × density × g; accept\nd, h, height for depth\nrho, ρ for density\ng.f.s or gravitational field\nstrength for g\nreject gravity for g\n(c) substitution; allow ecf from (a)\nrearrangement;\nevaluation;\nallow use of g = 9.8(1) m/s2\ngiving 0.96 m\ne.g.\npressure difference = 9 kPa\n9 000 = d × 960 × 10\nd = 9000 / (9600)\nd = 0.94 (m) allow 0.937(5)\nPOT error penalty of 1\nmark, except if formula is\nincorrect i.e. no ‘g’\nAnswer Notes Marks"
+       "text_md": "9 (kPa);"
       }
      ],
      "source_page": 6,
@@ -200,7 +231,15 @@
      "question_type": "structured",
      "problem_md": "State the formula linking pressure difference, height, density and gravitational field strength.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "(liquid) pressure = depth (of liquid) × density × g; accept\nd, h, height for depth\nrho, ρ for density\ng.f.s or gravitational field\nstrength for g\nreject gravity for g",
+     "mark_points": [
+      {
+       "id": "2020-01-2-b-MP1",
+       "marks": 1,
+       "text_md": "(liquid) pressure = depth (of liquid) × density × g; accept\nd, h, height for depth\nrho, ρ for density\ng.f.s or gravitational field\nstrength for g\nreject gravity for g"
+      }
+     ],
      "source_page": 6,
      "assets": [],
      "spec_point_codes": [],
@@ -218,7 +257,15 @@
      "question_type": "structured",
      "problem_md": "Calculate the height of the oil in the can. [density of oil = 960 kg/m3] height = m",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "substitution; allow ecf from (a)\nrearrangement;\nevaluation;\nallow use of g = 9.8(1) m/s2\ngiving 0.96 m\ne.g.\npressure difference = 9 kPa\n9 000 = d × 960 × 10\nd = 9000 / (9600)\nd = 0.94 (m) allow 0.937(5)\nPOT error penalty of 1\nmark, except if formula is\nincorrect i.e. no ‘g’\nAnswer Notes Marks",
+     "mark_points": [
+      {
+       "id": "2020-01-2-c-MP1",
+       "marks": 3,
+       "text_md": "substitution; allow ecf from (a)\nrearrangement;\nevaluation;\nallow use of g = 9.8(1) m/s2\ngiving 0.96 m\ne.g.\npressure difference = 9 kPa\n9 000 = d × 960 × 10\nd = 9000 / (9600)\nd = 0.94 (m) allow 0.937(5)\nPOT error penalty of 1\nmark, except if formula is\nincorrect i.e. no ‘g’\nAnswer Notes Marks"
+      }
+     ],
      "source_page": 6,
      "assets": [],
      "spec_point_codes": [],
@@ -248,29 +295,41 @@
      "choices": [
       {
        "label": "A",
-       "text_md": "condition of the tyres"
+       "text_md": "condition of the tyres",
+       "is_correct": false
       },
       {
        "label": "B",
-       "text_md": "consumption of alcohol by the driver"
+       "text_md": "consumption of alcohol by the driver",
+       "is_correct": true
       },
       {
        "label": "C",
-       "text_md": "mass of the vehicle"
+       "text_md": "mass of the vehicle",
+       "is_correct": false
       },
       {
        "label": "D",
-       "text_md": "condition of the road"
+       "text_md": "condition of the road",
+       "is_correct": false
       }
      ],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "B – consumption of alcohol by the driver;\nA is incorrect because condition of tyres only\naffects braking distance\nC is incorrect because mass of vehicle only affects\nbraking distance\nD is incorrect because wet road only affects braking\ndistance",
+     "mark_points": [
+      {
+       "id": "2020-01-3-a-i-MP1",
+       "marks": 1,
+       "text_md": "Answer B: consumption of alcohol by the driver"
+      }
+     ],
      "source_page": 8,
      "assets": [],
      "spec_point_codes": [],
      "tagging": "pending-llm",
      "edit_status": "extracted",
      "value_trace": {
-      "keys": "unresolved:review-queue",
+      "keys": "ms-positional",
       "marks": "ms-printed",
       "numbers": "source-printed"
      }
@@ -283,29 +342,41 @@
      "choices": [
       {
        "label": "A",
-       "text_md": "condition of the brakes"
+       "text_md": "condition of the brakes",
+       "is_correct": false
       },
       {
        "label": "B",
-       "text_md": "condition of the road"
+       "text_md": "condition of the road",
+       "is_correct": false
       },
       {
        "label": "C",
-       "text_md": "mass of the vehicle"
+       "text_md": "mass of the vehicle",
+       "is_correct": false
       },
       {
        "label": "D",
-       "text_md": "speed of the vehicle"
+       "text_md": "speed of the vehicle",
+       "is_correct": true
       }
      ],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "D – speed of the vehicle;\nA is incorrect because condition of brakes only\naffects braking distance\nB is incorrect because condition of road only affects\nbraking distance\nC is incorrect because mass of vehicle only affects\nbraking distance",
+     "mark_points": [
+      {
+       "id": "2020-01-3-a-ii-MP1",
+       "marks": 1,
+       "text_md": "Answer D: speed of the vehicle"
+      }
+     ],
      "source_page": 8,
      "assets": [],
      "spec_point_codes": [],
      "tagging": "pending-llm",
      "edit_status": "extracted",
      "value_trace": {
-      "keys": "unresolved:review-queue",
+      "keys": "ms-positional",
       "marks": "ms-printed",
       "numbers": "source-printed"
      }
@@ -395,12 +466,12 @@
      "problem_md": "State the method of energy transfer from the truck to the brakes.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "mechanic(ally);\nAnswer Notes Marks\n4 MP1 nebula/gas cloud;\nMP2 protostar;\nMP3 main sequence (then red supergiant);\nMP4 supernova;\nMP5 neutron star/ black hole;\n1 mark penalty for any\nincorrect sequence\nAnswer Notes Marks",
+     "solution_md": "mechanic(ally);\nAnswer Notes Marks",
      "mark_points": [
       {
        "id": "2020-01-3-c-ii-MP1",
        "marks": 1,
-       "text_md": "mechanic(ally);\nAnswer Notes Marks\n4 MP1 nebula/gas cloud;\nMP2 protostar;\nMP3 main sequence (then red supergiant);\nMP4 supernova;\nMP5 neutron star/ black hole;\n1 mark penalty for any\nincorrect sequence\nAnswer Notes Marks"
+       "text_md": "mechanic(ally);\nAnswer Notes Marks"
       }
      ],
      "source_page": 9,
@@ -440,7 +511,15 @@
      "question_type": "structured",
      "problem_md": "Betelgeuse is a red supergiant star. Betelgeuse has a mass that is much larger than the Sun. Describe the evolution of Betelgeuse through its entire life cycle.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "MP1 nebula/gas cloud;\nMP2 protostar;\nMP3 main sequence (then red supergiant);\nMP4 supernova;\nMP5 neutron star/ black hole;\n1 mark penalty for any\nincorrect sequence\nAnswer Notes Marks",
+     "mark_points": [
+      {
+       "id": "2020-01-4-MP1",
+       "marks": 5,
+       "text_md": "MP1 nebula/gas cloud;\nMP2 protostar;\nMP3 main sequence (then red supergiant);\nMP4 supernova;\nMP5 neutron star/ black hole;\n1 mark penalty for any\nincorrect sequence\nAnswer Notes Marks"
+      }
+     ],
      "source_page": 10,
      "assets": [],
      "spec_point_codes": [],
@@ -469,12 +548,12 @@
      "problem_md": "A student drops a table tennis ball from rest. The ball falls 13 m to the ground. Show that the final speed of the ball, just before it reaches the ground, should be about 16 m/s. Assume that there is no air resistance.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "substitution into given equation v2 = u2 + (2 x a x s); accept mgh = 1/2mv2\nevaluation of v2;\nevaluation of v to 3sf or more i.e. 16.1 (m/s); accept use of\ng = 9.8(1) m/s2 giving\nv = 16.0, 15.97 etc.\ne.g.\nv2 = u2 + (2 x a x s)\nv2 = 02 + (2 x 10 x 13)\nv2 = 260\nv =√260 = 16.1 (m/s)\n(b) any FIVE from:\nMP1 ball has weight; allow ‘has\ngravitational force’\nREJECT ‘has gravity’\nMP2 ball accelerates; REJECT ‘balls slows\ndown’\nMP3 drag increases (while accelerating); allow ‘air resistance’\nfor ‘drag’\nMP4 resultant force decreases;\nMP5 (so) acceleration decreases;\nMP6 drag = weight / resultant = 0 / forces balanced;\nMP7 terminal velocity/constant speed /acceleration=0;\nAnswer Notes Marks",
+     "solution_md": "substitution into given equation v2 = u2 + (2 x a x s); accept mgh = 1/2mv2\nevaluation of v2;\nevaluation of v to 3sf or more i.e. 16.1 (m/s); accept use of\ng = 9.8(1) m/s2 giving\nv = 16.0, 15.97 etc.\ne.g.\nv2 = u2 + (2 x a x s)\nv2 = 02 + (2 x 10 x 13)\nv2 = 260\nv =√260 = 16.1 (m/s)",
      "mark_points": [
       {
        "id": "2020-01-5-a-MP1",
        "marks": 3,
-       "text_md": "substitution into given equation v2 = u2 + (2 x a x s); accept mgh = 1/2mv2\nevaluation of v2;\nevaluation of v to 3sf or more i.e. 16.1 (m/s); accept use of\ng = 9.8(1) m/s2 giving\nv = 16.0, 15.97 etc.\ne.g.\nv2 = u2 + (2 x a x s)\nv2 = 02 + (2 x 10 x 13)\nv2 = 260\nv =√260 = 16.1 (m/s)\n(b) any FIVE from:\nMP1 ball has weight; allow ‘has\ngravitational force’\nREJECT ‘has gravity’\nMP2 ball accelerates; REJECT ‘balls slows\ndown’\nMP3 drag increases (while accelerating); allow ‘air resistance’\nfor ‘drag’\nMP4 resultant force decreases;\nMP5 (so) acceleration decreases;\nMP6 drag = weight / resultant = 0 / forces balanced;\nMP7 terminal velocity/constant speed /acceleration=0;\nAnswer Notes Marks"
+       "text_md": "substitution into given equation v2 = u2 + (2 x a x s); accept mgh = 1/2mv2\nevaluation of v2;\nevaluation of v to 3sf or more i.e. 16.1 (m/s); accept use of\ng = 9.8(1) m/s2 giving\nv = 16.0, 15.97 etc.\ne.g.\nv2 = u2 + (2 x a x s)\nv2 = 02 + (2 x 10 x 13)\nv2 = 260\nv =√260 = 16.1 (m/s)"
       }
      ],
      "source_page": 11,
@@ -503,7 +582,15 @@
      "question_type": "structured",
      "problem_md": "The student suggests that the ball will reach the ground with a speed that is less than 16 m/s because of air resistance. Use ideas about forces to justify the student’s suggestion.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "any FIVE from:\nMP1 ball has weight; allow ‘has\ngravitational force’\nREJECT ‘has gravity’\nMP2 ball accelerates; REJECT ‘balls slows\ndown’\nMP3 drag increases (while accelerating); allow ‘air resistance’\nfor ‘drag’\nMP4 resultant force decreases;\nMP5 (so) acceleration decreases;\nMP6 drag = weight / resultant = 0 / forces balanced;\nMP7 terminal velocity/constant speed /acceleration=0;\nAnswer Notes Marks",
+     "mark_points": [
+      {
+       "id": "2020-01-5-b-MP1",
+       "marks": 5,
+       "text_md": "any FIVE from:\nMP1 ball has weight; allow ‘has\ngravitational force’\nREJECT ‘has gravity’\nMP2 ball accelerates; REJECT ‘balls slows\ndown’\nMP3 drag increases (while accelerating); allow ‘air resistance’\nfor ‘drag’\nMP4 resultant force decreases;\nMP5 (so) acceleration decreases;\nMP6 drag = weight / resultant = 0 / forces balanced;\nMP7 terminal velocity/constant speed /acceleration=0;\nAnswer Notes Marks"
+      }
+     ],
      "source_page": 11,
      "assets": [],
      "spec_point_codes": [],
@@ -743,29 +830,41 @@
      "choices": [
       {
        "label": "A",
-       "text_md": "coulomb per second"
+       "text_md": "coulomb per second",
+       "is_correct": false
       },
       {
        "label": "B",
-       "text_md": "joule per coulomb"
+       "text_md": "joule per coulomb",
+       "is_correct": true
       },
       {
        "label": "C",
-       "text_md": "joule per second"
+       "text_md": "joule per second",
+       "is_correct": false
       },
       {
        "label": "D",
-       "text_md": "newton per coulomb"
+       "text_md": "newton per coulomb",
+       "is_correct": false
       }
      ],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "B – joule per coulomb;\nA is incorrect because this is not a correct unit for\nvolt\nC is incorrect because this is not a correct unit for\nvolt\nD is incorrect this is not a correct unit for volt",
+     "mark_points": [
+      {
+       "id": "2020-01-7-a-i-MP1",
+       "marks": 1,
+       "text_md": "Answer B: joule per coulomb"
+      }
+     ],
      "source_page": 14,
      "assets": [],
      "spec_point_codes": [],
      "tagging": "pending-llm",
      "edit_status": "extracted",
      "value_trace": {
-      "keys": "unresolved:review-queue",
+      "keys": "ms-positional",
       "marks": "ms-printed",
       "numbers": "source-printed"
      }
@@ -776,7 +875,15 @@
      "question_type": "structured",
      "problem_md": "State the formula linking energy transferred, voltage and charge.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "energy (transferred) = charge × voltage; allow standard symbols\nand rearrangements",
+     "mark_points": [
+      {
+       "id": "2020-01-7-a-ii-MP1",
+       "marks": 1,
+       "text_md": "energy (transferred) = charge × voltage; allow standard symbols\nand rearrangements"
+      }
+     ],
      "source_page": 14,
      "assets": [],
      "spec_point_codes": [],
@@ -794,7 +901,15 @@
      "question_type": "structured",
      "problem_md": "Calculate the energy transferred to an electron when it passes through a voltage of 150 kV. [charge of electron = 1.6 × 10–19 C] energy transferred = J",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "substitution;\nconversion of kV to V;\nevaluation;\ne.g.\nenergy = 1.6 × 10-19 × 150 × 103\nenergy = 2.4 × 10-14 (J)",
+     "mark_points": [
+      {
+       "id": "2020-01-7-a-iii-MP1",
+       "marks": 3,
+       "text_md": "substitution;\nconversion of kV to V;\nevaluation;\ne.g.\nenergy = 1.6 × 10-19 × 150 × 103\nenergy = 2.4 × 10-14 (J)"
+      }
+     ],
      "source_page": 14,
      "assets": [],
      "spec_point_codes": [],
@@ -1010,7 +1125,15 @@
      "question_type": "structured",
      "problem_md": "Complete the equation that shows the alpha decay of polonium-210 into lead-206. 210 206 84 Po → 82 Pb + α",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "4;\n2;",
+     "mark_points": [
+      {
+       "id": "2020-01-9-a-i-MP1",
+       "marks": 2,
+       "text_md": "4;\n2;"
+      }
+     ],
      "source_page": 18,
      "assets": [],
      "spec_point_codes": [],
@@ -1028,7 +1151,15 @@
      "question_type": "structured",
      "problem_md": "The alpha particle ionises air molecules in the room. State what is meant by the term ionisation.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "removal of electron(s) (from an atom); allow gaining\nelectron(s)",
+     "mark_points": [
+      {
+       "id": "2020-01-9-a-ii-MP1",
+       "marks": 1,
+       "text_md": "removal of electron(s) (from an atom); allow gaining\nelectron(s)"
+      }
+     ],
      "source_page": 18,
      "assets": [],
      "spec_point_codes": [],
@@ -1046,7 +1177,15 @@
      "question_type": "structured",
      "problem_md": "Explain why workers in the same room as the deioniser are not at risk from the alpha radiation it emits.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "alpha particles are absorbed by/cannot penetrate/ allow do not penetrate\nstopped by a few cm in air; casing (of deionser)\ncondone ‘do not\npenetrate skin/clothes’\nso alphas do not reach the workers;",
+     "mark_points": [
+      {
+       "id": "2020-01-9-a-iii-MP1",
+       "marks": 2,
+       "text_md": "alpha particles are absorbed by/cannot penetrate/ allow do not penetrate\nstopped by a few cm in air; casing (of deionser)\ncondone ‘do not\npenetrate skin/clothes’\nso alphas do not reach the workers;"
+      }
+     ],
      "source_page": 18,
      "assets": [],
      "spec_point_codes": [],
@@ -1130,7 +1269,15 @@
      "question_type": "structured",
      "problem_md": "State the formula linking critical angle and refractive index.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "n =1/sin(c); accept any\nrearrangement or word\nequation",
+     "mark_points": [
+      {
+       "id": "2020-01-10-a-i-MP1",
+       "marks": 1,
+       "text_md": "n =1/sin(c); accept any\nrearrangement or word\nequation"
+      }
+     ],
      "source_page": 20,
      "assets": [],
      "spec_point_codes": [],
@@ -1148,7 +1295,15 @@
      "question_type": "structured",
      "problem_md": "Diamond has a critical angle of 26 degrees. Calculate the refractive index of diamond. refractive index =",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "substitution;\nevaluation;\ne.g.\nn = 1/sin(26)\nn = 2.3 allow 2.28…",
+     "mark_points": [
+      {
+       "id": "2020-01-10-a-ii-MP1",
+       "marks": 2,
+       "text_md": "substitution;\nevaluation;\ne.g.\nn = 1/sin(26)\nn = 2.3 allow 2.28…"
+      }
+     ],
      "source_page": 20,
      "assets": [],
      "spec_point_codes": [],
@@ -1166,7 +1321,15 @@
      "question_type": "structured",
      "problem_md": "The diagram shows a light ray entering a block of diamond. Complete the diagram to show the light ray emerging from the block. 30° light ray",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "correct TIR at first boundary;\nrefraction at boundary at 7 o’clock; allow ECF for incorrect\nTIR and correct\nsubsequent\nboundaries.\nrefraction away from the normal at exit point;",
+     "mark_points": [
+      {
+       "id": "2020-01-10-a-iii-MP1",
+       "marks": 3,
+       "text_md": "correct TIR at first boundary;\nrefraction at boundary at 7 o’clock; allow ECF for incorrect\nTIR and correct\nsubsequent\nboundaries.\nrefraction away from the normal at exit point;"
+      }
+     ],
      "source_page": 21,
      "assets": [
       {
@@ -1352,12 +1515,12 @@
      "problem_md": "Explain, in terms of particles, why the pressure of the air inside the glass jar decreases.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "any THREE from:\nMP1 walls further apart;\nMP2 fewer collisions between particles and walls reject unqualified\nper second/lower frequency of collisions; ‘fewer collisions’\nMP3 means (average) force on walls lower; accept idea that\nforce per collision is\nthe same\nMP4 lower force means lower pressure for same\nwall surface area;\nignore references to\nparticles colliding\nwith each other\naccept\n(b) substitution into given equation “p1 × V1 = p2 × V2”;\nrearrangement to give p2;\nevaluation of p2;\ne.g.\n101 × 110 = p2 × 140\np2 = 101 × 110 / 140\np2 = 79 000 (Pa) allow 79357.1… (Pa),\n79(.4) kPa , standard\nform\n(c) any THREE from:\nMP1 pressure outside balloon is lower than inside\nballoon;\nMP2 pressure difference causes a force;\nMP3 force is outwards on balloon;\nMP4 force causes extension of balloon; accept ‘stretching’\nAnswer Notes Marks",
+     "solution_md": "any THREE from:\nMP1 walls further apart;\nMP2 fewer collisions between particles and walls reject unqualified\nper second/lower frequency of collisions; ‘fewer collisions’\nMP3 means (average) force on walls lower; accept idea that\nforce per collision is\nthe same\nMP4 lower force means lower pressure for same\nwall surface area;\nignore references to\nparticles colliding\nwith each other\naccept",
      "mark_points": [
       {
        "id": "2020-01-11-a-MP1",
        "marks": 3,
-       "text_md": "any THREE from:\nMP1 walls further apart;\nMP2 fewer collisions between particles and walls reject unqualified\nper second/lower frequency of collisions; ‘fewer collisions’\nMP3 means (average) force on walls lower; accept idea that\nforce per collision is\nthe same\nMP4 lower force means lower pressure for same\nwall surface area;\nignore references to\nparticles colliding\nwith each other\naccept\n(b) substitution into given equation “p1 × V1 = p2 × V2”;\nrearrangement to give p2;\nevaluation of p2;\ne.g.\n101 × 110 = p2 × 140\np2 = 101 × 110 / 140\np2 = 79 000 (Pa) allow 79357.1… (Pa),\n79(.4) kPa , standard\nform\n(c) any THREE from:\nMP1 pressure outside balloon is lower than inside\nballoon;\nMP2 pressure difference causes a force;\nMP3 force is outwards on balloon;\nMP4 force causes extension of balloon; accept ‘stretching’\nAnswer Notes Marks"
+       "text_md": "any THREE from:\nMP1 walls further apart;\nMP2 fewer collisions between particles and walls reject unqualified\nper second/lower frequency of collisions; ‘fewer collisions’\nMP3 means (average) force on walls lower; accept idea that\nforce per collision is\nthe same\nMP4 lower force means lower pressure for same\nwall surface area;\nignore references to\nparticles colliding\nwith each other\naccept"
       }
      ],
      "source_page": 24,
@@ -1377,7 +1540,15 @@
      "question_type": "structured",
      "problem_md": "Before the rubber sheet is pulled down, the air inside the jar is at atmospheric pressure. The volume of gas inside the jar increases from 110 cm3 to 140 cm3. Calculate the pressure inside the jar after the rubber sheet is pulled down. [atmospheric pressure = 101 kPa] pressure = Pa",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "substitution into given equation “p1 × V1 = p2 × V2”;\nrearrangement to give p2;\nevaluation of p2;\ne.g.\n101 × 110 = p2 × 140\np2 = 101 × 110 / 140\np2 = 79 000 (Pa) allow 79357.1… (Pa),\n79(.4) kPa , standard\nform",
+     "mark_points": [
+      {
+       "id": "2020-01-11-b-MP1",
+       "marks": 3,
+       "text_md": "substitution into given equation “p1 × V1 = p2 × V2”;\nrearrangement to give p2;\nevaluation of p2;\ne.g.\n101 × 110 = p2 × 140\np2 = 101 × 110 / 140\np2 = 79 000 (Pa) allow 79357.1… (Pa),\n79(.4) kPa , standard\nform"
+      }
+     ],
      "source_page": 25,
      "assets": [],
      "spec_point_codes": [],
@@ -1395,7 +1566,15 @@
      "question_type": "structured",
      "problem_md": "The jar is sealed, but the balloons are open to the atmosphere. Before the rubber sheet is pulled down, the air inside the balloons is at atmospheric pressure. Explain why the balloons start to expand when the rubber sheet is pulled down.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "any THREE from:\nMP1 pressure outside balloon is lower than inside\nballoon;\nMP2 pressure difference causes a force;\nMP3 force is outwards on balloon;\nMP4 force causes extension of balloon; accept ‘stretching’\nAnswer Notes Marks",
+     "mark_points": [
+      {
+       "id": "2020-01-11-c-MP1",
+       "marks": 3,
+       "text_md": "any THREE from:\nMP1 pressure outside balloon is lower than inside\nballoon;\nMP2 pressure difference causes a force;\nMP3 force is outwards on balloon;\nMP4 force causes extension of balloon; accept ‘stretching’\nAnswer Notes Marks"
+      }
+     ],
      "source_page": 25,
      "assets": [],
      "spec_point_codes": [],

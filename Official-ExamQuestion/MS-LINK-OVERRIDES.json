@@ -1,7 +1,7 @@
 {
  "schema": "syllabai.ms-link-overrides/0.1",
  "note": "Human-adjudicated MS answer linkage for STRUCTURED parts where the printed mark scheme's answer is not machine-linkable text. Every entry carries the eyeballed verbatim transcription of the printed answer block and the evidence it was decided from; the converter applies it BEFORE solution emission (fail-closed: only when positional linkage found nothing for the part, and never for MCQ parts — MCQ adjudication lives in MCQ-KEYS.json). Answers apply only with rendered-MS-page evidence recorded in the entry; under ADR-039 the equivalent in-place disclosed edit is lawful, the ledger stays the record for printed-MS-defect cases.",
- "adjudicated_utc": "2026-10-22",
+ "adjudicated_utc": "2026-10-26T00:00:00Z",
  "evidence_dir": "wave-14 probe renders (EXAMQ_UPLOAD_DIR official-4CH1-1C-2019-06-ms.pdf page 6, answer cell + full page)",
  "entries": [
   {
@@ -82,6 +82,19 @@
     "    H-C-H",
     "      |",
     "      H"
+   ]
+  },
+  {
+   "series": "2026-06",
+   "paper": "2P",
+   "part": "4(c)(i)",
+   "marks": 1,
+   "evidence": "printed MS p9: the 4(c)(i) Answer cell is an embedded EQUATION IMAGE (typeset fraction), which is why both text layers (pdftotext -layout and PyMuPDF raw) carry only the Notes column and the marks digit - the v0.19.0 parser correctly opened no answer text for the part and left it fail-closed unmatched (corpus-wide the ONLY remaining unlinked part after the F72 MS-table parser wave). The transcription below is the equation image verbatim content, eyeballed from the rendered page (physics-intake/ms-forensics/2026-06-2P-ms-p9-4ci.png at 150 dpi x2); nothing added or reworded. Notes column text is carried as printed so the serving block matches the MS row. First physics entry in this ledger; C57's corpus scan is lane-aware as of this wave.",
+   "ms_lines": [
+    "efficiency = useful energy output / total energy output x 100%",
+    "accept missing 100%",
+    "accept total energy input for denominator",
+    "ignore reference to power for energy"
    ]
   }
  ]

@@ -1,6 +1,6 @@
 {
  "schema": "syllabai.official-paper-questions.validation/0.2",
- "generated_utc": "2026-10-25T20:43:28Z",
+ "generated_utc": "2026-10-25T22:06:59Z",
  "series": "2024-11",
  "paper": "1P",
  "gates": [
@@ -60,32 +60,10 @@
   },
   {
    "gate": "G5-answer-linkage",
-   "status": "REVIEW",
-   "summary": "MS linkage 32/53 (60%)",
+   "status": "PASS",
+   "summary": "MS linkage 53/53 (100%)",
    "details": {
-    "unmatched": [
-     "1(c)",
-     "1(d)",
-     "2(a)(i)",
-     "2(a)(ii)",
-     "2(a)(iii)",
-     "2(a)(iv)",
-     "2(a)(v)",
-     "3(c)",
-     "4(b)",
-     "4(d)",
-     "5(b)",
-     "5(c)",
-     "7(a)(i)",
-     "7(a)(ii)",
-     "8(b)",
-     "8(c)",
-     "10(a)(i)",
-     "10(a)(ii)",
-     "10(a)(iii)",
-     "10(a)(iv)",
-     "11(b)"
-    ]
+    "unmatched": []
    }
   },
   {
@@ -100,7 +78,7 @@
   {
    "gate": "G7-solution-emission",
    "status": "PASS",
-   "summary": "solution_md on 32/32 linked parts; mark_points sum == part marks everywhere: True; MS marks-column digit read for 0 parts, agrees with QP marks on 0",
+   "summary": "solution_md on 53/53 linked parts; mark_points sum == part marks everywhere: True; MS marks-column digit read for 0 parts, agrees with QP marks on 0",
    "details": {
     "missing_solution": [],
     "sum_mismatches": [],
@@ -128,92 +106,7 @@
    "detected": true
   }
  ],
- "review_queue": [
-  {
-   "part": "1(c)",
-   "reason": "answer not auto-linked to MS"
-  },
-  {
-   "part": "1(d)",
-   "reason": "answer not auto-linked to MS"
-  },
-  {
-   "part": "2(a)(i)",
-   "reason": "answer not auto-linked to MS"
-  },
-  {
-   "part": "2(a)(ii)",
-   "reason": "answer not auto-linked to MS"
-  },
-  {
-   "part": "2(a)(iii)",
-   "reason": "answer not auto-linked to MS"
-  },
-  {
-   "part": "2(a)(iv)",
-   "reason": "answer not auto-linked to MS"
-  },
-  {
-   "part": "2(a)(v)",
-   "reason": "answer not auto-linked to MS"
-  },
-  {
-   "part": "3(c)",
-   "reason": "answer not auto-linked to MS"
-  },
-  {
-   "part": "4(b)",
-   "reason": "answer not auto-linked to MS"
-  },
-  {
-   "part": "4(d)",
-   "reason": "answer not auto-linked to MS"
-  },
-  {
-   "part": "5(b)",
-   "reason": "answer not auto-linked to MS"
-  },
-  {
-   "part": "5(c)",
-   "reason": "answer not auto-linked to MS"
-  },
-  {
-   "part": "7(a)(i)",
-   "reason": "answer not auto-linked to MS"
-  },
-  {
-   "part": "7(a)(ii)",
-   "reason": "answer not auto-linked to MS"
-  },
-  {
-   "part": "8(b)",
-   "reason": "answer not auto-linked to MS"
-  },
-  {
-   "part": "8(c)",
-   "reason": "answer not auto-linked to MS"
-  },
-  {
-   "part": "10(a)(i)",
-   "reason": "answer not auto-linked to MS"
-  },
-  {
-   "part": "10(a)(ii)",
-   "reason": "answer not auto-linked to MS"
-  },
-  {
-   "part": "10(a)(iii)",
-   "reason": "answer not auto-linked to MS"
-  },
-  {
-   "part": "10(a)(iv)",
-   "reason": "answer not auto-linked to MS"
-  },
-  {
-   "part": "11(b)",
-   "reason": "answer not auto-linked to MS"
-  }
- ],
+ "review_queue": [],
  "ocr_pages": [],
  "mcq_keys_applied": [],
  "ms_link_overrides_applied": [],

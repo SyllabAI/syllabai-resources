@@ -24,7 +24,22 @@ Which of these is the unit of activity?
 > B is incorrect because it is the unit of mass
 > C is incorrect because it is the unit of force
 > D is incorrect because it is the unit of pressure
-> (b) A (time taken for the activity of a substance to
+
+- **(1)** Answer A: becquerel
+
+### 1(b) [1]
+
+Which of these is the correct description of the term half-life?
+
+- **(A)** time taken for the activity of a substance to halve  ✔
+- **(B)** half of the time taken for the mass of a substance to decay
+- **(C)** time taken for the activity to decay completely
+- **(D)** time taken for the mass of a substance to decay twice
+
+
+**Mark scheme answer**
+
+> A (time taken for the activity of a substance to
 > halve);
 > B is incorrect because the substance will not
 > completely decay
@@ -33,16 +48,7 @@ Which of these is the unit of activity?
 > D is incorrect because the substance cannot decay
 > twice
 
-- **(1)** Answer A: becquerel
-
-### 1(b) [1]
-
-Which of these is the correct description of the term half-life?
-
-- **(A)** time taken for the activity of a substance to halve
-- **(B)** half of the time taken for the mass of a substance to decay
-- **(C)** time taken for the activity to decay completely
-- **(D)** time taken for the mass of a substance to decay twice
+- **(1)** Answer A: time taken for the activity of a substance to halve
 
 ### 1(c)(i) [2]
 
@@ -280,9 +286,35 @@ Ground-penetrating radar (GPR) uses radio waves to detect changes in material un
 
 State the formula linking the speed, frequency and wavelength of a wave.
 
+
+**Mark scheme answer**
+
+> speed = frequency × wavelength; allow rearrangements
+> and standard symbols
+> e.g. λ = v/f
+> allow s for speed
+
+- **(1)** speed = frequency × wavelength; allow rearrangements
+
 ### 4(a)(ii) [3]
 
 GPR radio waves have a frequency of 170 MHz. The speed of radio waves is 3.0 × 108 m / s. Calculate the wavelength of the waves. wavelength = m
+
+
+**Mark scheme answer**
+
+> substitution; ignore units
+> rearrangement;
+> evaluation; -1 for POT error from
+> not converting units or
+> an incorrect attempt at
+> converting units
+> e.g.
+> 3.0 × 108 = 170 (× 106) × λ
+> λ = v/f OR λ = 3.0 × 108/170 (× 106)
+> (wavelength =) 1.8 (m) allow 1.76(4…) (m)
+
+- **(3)** substitution; ignore units
 
 ### 4(b)(i) [3]
 
@@ -354,7 +386,17 @@ Describe a method you could use to find the pressure a person exerts on the grou
 > weight/mass);
 > MP5. use of p = F ÷ A; expressed in words or
 > symbols
-> (b) weight = 6600 (N); allow use of g = 9.8, 9.81
+
+- **(4)** any four from:
+
+### 5(b) [3]
+
+The total area of contact of the camel’s feet with the ground is 1300 cm2. The mass of the camel is 660 kg. Calculate the pressure this camel exerts on the ground. pressure = N / cm2
+
+
+**Mark scheme answer**
+
+> weight = 6600 (N); allow use of g = 9.8, 9.81
 > (N/kg) to get
 > weight = 6468, 6474.6 (N)
 > substitution into p = F / A;
@@ -375,11 +417,7 @@ Describe a method you could use to find the pressure a person exerts on the grou
 > different values of g
 > Answer Notes Marks
 
-- **(4)** any four from:
-
-### 5(b) [3]
-
-The total area of contact of the camel’s feet with the ground is 1300 cm2. The mass of the camel is 660 kg. Calculate the pressure this camel exerts on the ground. pressure = N / cm2
+- **(3)** weight = 6600 (N); allow use of g = 9.8, 9.81
 
 
 ## Question 6 (13 marks)
@@ -392,13 +430,50 @@ The photograph shows an x-ray image of a person’s knee. The person has had par
 
 State another property that all electromagnetic waves have in common.
 
+
+**Mark scheme answer**
+
+> (travel at) {same speed/speed of light/in allow can be reflected /
+> vacuum}; refracted / diffracted
+> OR
+> idea that waves can travel through space / a allow don’t need a medium to
+> vacuum; travel
+
+- **(1)** (travel at) {same speed/speed of light/in allow can be reflected /
+
 ### 6(a)(ii) [1]
 
 State a harmful effect of excessive exposure to x-rays.
 
+
+**Mark scheme answer**
+
+> (excessive exposure may cause) cancer; allow cell mutations, cell
+> damage, DNA damage, DNA
+> mutations, radiation sickness
+
+- **(1)** (excessive exposure may cause) cancer; allow cell mutations, cell
+
 ### 6(a)(iii) [3]
 
 Describe the difference between transverse waves and longitudinal waves. You may draw a diagram to help your answer.
+
+
+**Mark scheme answer**
+
+> all marks can be awarded from
+> clearly labelled diagram
+> mention of oscillations/vibrations;
+> {oscillation/vibrations/particle movement} are allow along the line of travel
+> parallel to {direction of wave (travel) /
+> direction of energy transfer} of wave for
+> longitudinal;
+> {oscillation/vibrations/particle movement} allow right angles, 90° for
+> are perpendicular to {direction of wave perpendicular
+> (travel) / direction of energy transfer} of wave
+> for transverse;
+
+- **(3)** all marks can be awarded from
 
 ### 6(b) [4]
 
@@ -406,9 +481,58 @@ The diagram shows a part of the knee called the patella. The patella has been re
 
 ![diagram — official paper figure (qp.pdf p.16)](assets/asset_6_b_diagram.png)
 
+
+**Mark scheme answer**
+
+> use of relevant pieces of measuring apparatus e.g.
+> for mass AND volume; • balance
+> • measuring cylinder
+> ignore scale(s)
+> idea of use of displacement method for e.g.
+> volume; • using a eureka can
+> • placing in a measuring
+> cylinder
+> further correct detail of displacement e.g.
+> method; • collect displaced water from
+> eureka can to measure
+> volume
+> • measure initial and final
+> volumes in measuring
+> cylinder to calculate volume
+> further experimental accuracy detail; e.g.
+> • not splashing
+> • totally submerged
+> • filling eureka can completely
+> to the spout
+> • collecting all drips from
+> eureka can spout
+> • reading measuring cylinder
+> at eye level
+> • balance on flat surface
+> • ensure balance is zeroed
+> • measure mass of dry bone
+
+- **(4)** use of relevant pieces of measuring apparatus e.g.
+
 ### 6(c) [4]
 
 A scientist finds the volume and mass of a patella. The mass of the patella is 17 g. The volume of the patella is 13 cm3. Calculate the density of the patella. Give your answer to 2 significant figures. density = g / cm3
+
+
+**Mark scheme answer**
+
+> correct formula selected; seen or implied by working
+> substitution;
+> evaluation; -1 for POT error
+> answer given to 2 sf; mark independently
+> e.g.
+> density = mass / volume
+> density = 17 / 13
+> density = 1.3… (g/cm3)
+> density = 1.3 (g/cm3)
+> Answer Notes Marks
+
+- **(4)** correct formula selected; seen or implied by working
 
 
 ## Question 7 (9 marks)
@@ -423,17 +547,51 @@ The switch is open and the motor is not moving. State how much energy is in the 
 **Mark scheme answer**
 
 > 0 / none / zero (J);
-> (b) substitution into given formula E = V × I × t; allow use of P = E/t and
+
+- **(1)** 0 / none / zero (J);
+
+### 7(b) [2]
+
+The switch is closed. The motor takes 0.42 seconds to reach its maximum speed of rotation. The mean current in the motor is 3.9 A. The voltage across the motor is 7.1 V. Show that the work done on the motor during the 0.42 seconds is about 12 J. work done = J
+
+
+**Mark scheme answer**
+
+> substitution into given formula E = V × I × t; allow use of P = E/t and
 > P = VI
 > correct evaluation to at least 3 s.f.;
 > e.g.
 > energy = 7.1 × 3.9 × 0.42
 > energy = 11.6… (J)
-> (c) energy transferred to motor electrically from allow electric,
+
+- **(2)** substitution into given formula E = V × I × t; allow use of P = E/t and
+
+### 7(c) [3]
+
+Complete the Sankey diagram for the electric motor during the 0.42 seconds by giving the missing information. energy transferred to motor kinetic energy store of motor from battery J 12 J store of surroundings 2J
+
+![diagram — official paper figure (qp.pdf p.19)](assets/asset_7_c_diagram.png)
+
+
+**Mark scheme answer**
+
+> energy transferred to motor electrically from allow electric,
 > battery 12 J; electrical
 > kinetic energy store of motor 10 J;
 > thermal store of the surroundings 2 J; condone heat
-> (d) useful and total energies correctly selected; allow ecf from (c)
+
+- **(3)** energy transferred to motor electrically from allow electric,
+
+### 7(d) [3]
+
+Use the Sankey diagram to calculate the efficiency of the process of bringing the motor to its maximum speed of rotation. efficiency = %
+
+![diagram — official paper figure (qp.pdf p.18) — shared with asset_7_d_diagram_stem](assets/asset_7_d_diagram_stem.png)
+
+
+**Mark scheme answer**
+
+> useful and total energies correctly selected; allow ecf from (c)
 > substitution into efficiency formula;
 > evaluation; allow lack of 100 i.e.
 > 0.83 if % sign removed
@@ -444,23 +602,7 @@ The switch is open and the motor is not moving. State how much energy is in the 
 > efficiency = 83 (%) allow 83.3… (%)
 > Answer Notes Marks
 
-- **(1)** 0 / none / zero (J);
-
-### 7(b) [2]
-
-The switch is closed. The motor takes 0.42 seconds to reach its maximum speed of rotation. The mean current in the motor is 3.9 A. The voltage across the motor is 7.1 V. Show that the work done on the motor during the 0.42 seconds is about 12 J. work done = J
-
-### 7(c) [3]
-
-Complete the Sankey diagram for the electric motor during the 0.42 seconds by giving the missing information. energy transferred to motor kinetic energy store of motor from battery J 12 J store of surroundings 2J
-
-![diagram — official paper figure (qp.pdf p.19)](assets/asset_7_c_diagram.png)
-
-### 7(d) [3]
-
-Use the Sankey diagram to calculate the efficiency of the process of bringing the motor to its maximum speed of rotation. efficiency = %
-
-![diagram — official paper figure (qp.pdf p.18) — shared with asset_7_d_diagram_stem](assets/asset_7_d_diagram_stem.png)
+- **(3)** useful and total energies correctly selected; allow ecf from (c)
 
 
 ## Question 8 (6 marks)
@@ -478,25 +620,6 @@ Explain why the white snow will take a long time to melt, even though directly e
 > red/heat);
 > idea that snow/white objects are poor also scores first mark
 > absorbers/good reflectors (of infra-red/heat);
-> (b) any two from:
-> MP1. idea that ground / drain cover is warmer than allow RA
-> snow;
-> MP2. idea that drain cover / metal is a good
-> conductor;
-> MP3. energy transfers from drain cover to snow; condone heat for
-> energy
-> must be correct
-> direction of energy
-> transfer
-> (c) any two from:
-> MP1. idea that warmer air rises; allow RA
-> allow warm particles
-> rise
-> MP2. idea that colder air is nearest the snow; ignore nearest the
-> ground
-> MP3. (rate of) energy/heat transfer (from air) to
-> snow decreases;
-> Answer Notes Marks
 
 - **(2)** any reference to absorption or reflection (of infra-
 
@@ -506,9 +629,40 @@ Diagram 2 shows a different piece of ground that has a metal drain cover. If the
 
 ![diagram — official paper figure (qp.pdf p.21)](assets/asset_8_b_diagram.png)
 
+
+**Mark scheme answer**
+
+> any two from:
+> MP1. idea that ground / drain cover is warmer than allow RA
+> snow;
+> MP2. idea that drain cover / metal is a good
+> conductor;
+> MP3. energy transfers from drain cover to snow; condone heat for
+> energy
+> must be correct
+> direction of energy
+> transfer
+
+- **(2)** any two from:
+
 ### 8(c) [2]
 
 Explain how a convection current above the snow increases the time taken for the snow to melt.
+
+
+**Mark scheme answer**
+
+> any two from:
+> MP1. idea that warmer air rises; allow RA
+> allow warm particles
+> rise
+> MP2. idea that colder air is nearest the snow; ignore nearest the
+> ground
+> MP3. (rate of) energy/heat transfer (from air) to
+> snow decreases;
+> Answer Notes Marks
+
+- **(2)** any two from:
 
 
 ## Question 9 (11 marks)
@@ -570,7 +724,17 @@ Calculate the acceleration of the surface of the liquid. acceleration = cm / s2
 > values for gradient e.g.
 > 35 (cm/s) in 0.15 (s)
 > acceleration in range (−)230 to (−)240 (cm/s2);
-> (c) idea of (gas) particles speeding up; allow KE of particles
+
+- **(3)** any viable attempt at a gradient; allow use of v2=u2 + 2as
+
+### 9(c) [3]
+
+Explain how the gas pressure changes if the temperature of the gas increases. You should use ideas about particles in your answer.
+
+
+**Mark scheme answer**
+
+> idea of (gas) particles speeding up; allow KE of particles
 > increases
 > idea of more frequent collisions between particles
 > and liquid/walls/container;
@@ -578,11 +742,7 @@ Calculate the acceleration of the surface of the liquid. acceleration = cm / s2
 > liquid/walls/container; container) increases
 > Answer Notes Marks
 
-- **(3)** any viable attempt at a gradient; allow use of v2=u2 + 2as
-
-### 9(c) [3]
-
-Explain how the gas pressure changes if the temperature of the gas increases. You should use ideas about particles in your answer.
+- **(3)** idea of (gas) particles speeding up; allow KE of particles
 
 
 ## Question 10 (10 marks)
@@ -678,7 +838,19 @@ The voltage across the LED is 0.63 V. Calculate the current in the circuit. Give
 > current = 0.00915… (A)
 > current = 9.2 (mA) allow current =
 > 9.15…(mA)
-> (b) any four from:
+
+- **(4)** idea that voltage across resistor is difference allow 0.87 seen or
+
+### 11(b) [4]
+
+Diagram 2 shows a second LED and an extra resistor connected in parallel with the cell. 1.5 V A Diagram 2 The resistor and the LED are the same as the components used in diagram 1. The two resistors are identical and the two LEDs are identical. Explain how the ammeter reading will change.
+
+![diagram — official paper figure (qp.pdf p.29)](assets/asset_11_b_diagram.png)
+
+
+**Mark scheme answer**
+
+> any four from:
 > MP1. resistance (of circuit) decreased;
 > MP2. (because) extra path in circuit;
 > MP3. resistance (of circuit) halved; also scores MP1
@@ -695,13 +867,7 @@ The voltage across the LED is 0.63 V. Calculate the current in the circuit. Give
 > current (=18mA)
 > Answer Notes Marks
 
-- **(4)** idea that voltage across resistor is difference allow 0.87 seen or
-
-### 11(b) [4]
-
-Diagram 2 shows a second LED and an extra resistor connected in parallel with the cell. 1.5 V A Diagram 2 The resistor and the LED are the same as the components used in diagram 1. The two resistors are identical and the two LEDs are identical. Explain how the ammeter reading will change.
-
-![diagram — official paper figure (qp.pdf p.29)](assets/asset_11_b_diagram.png)
+- **(4)** any four from:
 
 
 ## Question 12 (10 marks)
@@ -753,7 +919,19 @@ Alternating current is supplied to the transmitter coil. Diagram 2 shows a gold 
 > ignore ring interacting
 > with field
 > idea of induced voltage for gold ring; ignore induced current
-> (c) any four from:
+
+- **(3)** idea of changing magnetic field (from transmitter
+
+### 12(c) [4]
+
+Diagram 3 shows the circuit for the receiver coil. receiver coil loudspeaker Diagram 3 As a result of the alternating current in the gold ring, there is an alternating current in the receiving coil. Explain how an alternating current in the receiving coil causes a sound to be emitted from the loudspeaker.
+
+![diagram — official paper figure (qp.pdf p.32)](assets/asset_12_c_diagram.png)
+
+
+**Mark scheme answer**
+
+> any four from:
 > MP1. alternating current in loudspeaker;
 > MP2. magnetic fields interact (in loudspeaker); ignore fields cutting
 > MP3. causing a force (on loudspeaker cone); allow coil for cone
@@ -765,11 +943,5 @@ Alternating current is supplied to the transmitter coil. Diagram 2 shows a gold 
 > Pearson Education Limited. Registered company number 872828
 > with its registered office at 80 Strand, London, WC2R 0RL, United Kingdom
 
-- **(3)** idea of changing magnetic field (from transmitter
-
-### 12(c) [4]
-
-Diagram 3 shows the circuit for the receiver coil. receiver coil loudspeaker Diagram 3 As a result of the alternating current in the gold ring, there is an alternating current in the receiving coil. Explain how an alternating current in the receiving coil causes a sound to be emitted from the loudspeaker.
-
-![diagram — official paper figure (qp.pdf p.32)](assets/asset_12_c_diagram.png)
+- **(4)** any four from:
 

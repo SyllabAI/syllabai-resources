@@ -1,7 +1,7 @@
 {
  "schema": "syllabai.official-paper-questions/0.2",
- "generated_utc": "2026-10-25T20:43:39Z",
- "generator": "official_examq_extract.py v0.17.4 (ADR-039) series=2026-06 paper=1P",
+ "generated_utc": "2026-10-25T22:07:14Z",
+ "generator": "official_examq_extract.py v0.19.0 (ADR-039) series=2026-06 paper=1P",
  "paper_id": "pearson-edexcel:international-gcse:physics:4ph1:2026-06:4PH1/1P",
  "source": {
   "qp_sha256": "fece9f0d68d50d96254dcefaba38e9d4c9d33bbb8d12d3e52dedbef001cd8b8a",
@@ -133,7 +133,15 @@
      "question_type": "structured",
      "problem_md": "The density of the atmosphere on the surface of Venus is 65 kg/m3. Estimate the depth of the atmosphere on Venus. Use the formula pressure difference = depth × density × gravitational field strength [for Venus, gravitational field strength = 8.9 N/kg] depth = m",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "substitution OR rearrangement into given formula;\ncorrect evaluation;\ncondone 14 307.69… (m) for\n1 mark for using g=10 N/kg\ne.g.\n9 300 000 = h × 65 × 8.9\nOR\nh=P/ρ×g\n(h = 9 300 000 / 65 × 8.9 =) 16 000 (m) allow 16 100, 16 076… (m)",
+     "mark_points": [
+      {
+       "id": "2026-06-2-a-i-MP1",
+       "marks": 2,
+       "text_md": "substitution OR rearrangement into given formula;\ncorrect evaluation;\ncondone 14 307.69… (m) for\n1 mark for using g=10 N/kg\ne.g.\n9 300 000 = h × 65 × 8.9\nOR\nh=P/ρ×g\n(h = 9 300 000 / 65 × 8.9 =) 16 000 (m) allow 16 100, 16 076… (m)"
+      }
+     ],
      "source_page": 4,
      "assets": [],
      "spec_point_codes": [],
@@ -151,7 +159,15 @@
      "question_type": "structured",
      "problem_md": "State an assumption you have made to complete the calculation.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "any one from: ignore pressure is constant\n• density is constant;\n• g is constant; condone gravity is constant\n• temperature is constant;",
+     "mark_points": [
+      {
+       "id": "2026-06-2-a-ii-MP1",
+       "marks": 1,
+       "text_md": "any one from: ignore pressure is constant\n• density is constant;\n• g is constant; condone gravity is constant\n• temperature is constant;"
+      }
+     ],
      "source_page": 4,
      "assets": [],
      "spec_point_codes": [],
@@ -196,12 +212,12 @@
      "problem_md": "State the assumptions you have made to complete this calculation.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "any two from:\nnumber of particles is constant (in a given volume); allow constant mass (of gas)\nreference to constant volume;\ndensity is constant;\n(c) statement of correct formula; correct formula can be\nassumed by evidence of\ncorrect substitution\nrearrangement to give v2 or v as the subject;\nevaluation;\nanswer of 167 123 scores 2\nmarks (not taking square\nroot)\ne.g.\nKE = ½ × m × v2\nv2 = (2 × 6.1 × 10-21) ÷ 7.3 × 10-26\nv (= √167 123) = 410 (m/s) allow 409, 408.8… (m/s)\nAnswer Notes Marks",
+     "solution_md": "any two from:\nnumber of particles is constant (in a given volume); allow constant mass (of gas)\nreference to constant volume;\ndensity is constant;",
      "mark_points": [
       {
        "id": "2026-06-2-b-ii-MP1",
        "marks": 2,
-       "text_md": "any two from:\nnumber of particles is constant (in a given volume); allow constant mass (of gas)\nreference to constant volume;\ndensity is constant;\n(c) statement of correct formula; correct formula can be\nassumed by evidence of\ncorrect substitution\nrearrangement to give v2 or v as the subject;\nevaluation;\nanswer of 167 123 scores 2\nmarks (not taking square\nroot)\ne.g.\nKE = ½ × m × v2\nv2 = (2 × 6.1 × 10-21) ÷ 7.3 × 10-26\nv (= √167 123) = 410 (m/s) allow 409, 408.8… (m/s)\nAnswer Notes Marks"
+       "text_md": "any two from:\nnumber of particles is constant (in a given volume); allow constant mass (of gas)\nreference to constant volume;\ndensity is constant;"
       }
      ],
      "source_page": 5,
@@ -221,7 +237,15 @@
      "question_type": "structured",
      "problem_md": "On the surface of Venus, a gas molecule has a mean kinetic energy of 6.1 × 10–21 J. Calculate the mean speed of the gas molecule. [mass of molecule = 7.3 × 10–26 kg] speed = m/s",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "statement of correct formula; correct formula can be\nassumed by evidence of\ncorrect substitution\nrearrangement to give v2 or v as the subject;\nevaluation;\nanswer of 167 123 scores 2\nmarks (not taking square\nroot)\ne.g.\nKE = ½ × m × v2\nv2 = (2 × 6.1 × 10-21) ÷ 7.3 × 10-26\nv (= √167 123) = 410 (m/s) allow 409, 408.8… (m/s)\nAnswer Notes Marks",
+     "mark_points": [
+      {
+       "id": "2026-06-2-c-MP1",
+       "marks": 3,
+       "text_md": "statement of correct formula; correct formula can be\nassumed by evidence of\ncorrect substitution\nrearrangement to give v2 or v as the subject;\nevaluation;\nanswer of 167 123 scores 2\nmarks (not taking square\nroot)\ne.g.\nKE = ½ × m × v2\nv2 = (2 × 6.1 × 10-21) ÷ 7.3 × 10-26\nv (= √167 123) = 410 (m/s) allow 409, 408.8… (m/s)\nAnswer Notes Marks"
+      }
+     ],
      "source_page": 5,
      "assets": [],
      "spec_point_codes": [],
@@ -258,29 +282,41 @@
      "choices": [
       {
        "label": "A",
-       "text_md": "comet"
+       "text_md": "comet",
+       "is_correct": true
       },
       {
        "label": "B",
-       "text_md": "galaxy"
+       "text_md": "galaxy",
+       "is_correct": false
       },
       {
        "label": "C",
-       "text_md": "star"
+       "text_md": "star",
+       "is_correct": false
       },
       {
        "label": "D",
-       "text_md": "universe"
+       "text_md": "universe",
+       "is_correct": false
       }
      ],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "A (comet);\nB is incorrect because galaxies do not orbit the Sun\nC is incorrect because the Sun has no binary\npartner star\nD is incorrect because the universe does not orbit\nthe Sun",
+     "mark_points": [
+      {
+       "id": "2026-06-3-a-i-MP1",
+       "marks": 1,
+       "text_md": "Answer A: comet"
+      }
+     ],
      "source_page": 6,
      "assets": [],
      "spec_point_codes": [],
      "tagging": "pending-llm",
      "edit_status": "extracted",
      "value_trace": {
-      "keys": "unresolved:review-queue",
+      "keys": "ms-positional",
       "marks": "ms-printed",
       "numbers": "source-printed"
      }
@@ -291,7 +327,15 @@
      "question_type": "structured",
      "problem_md": "On the diagram, draw an arrow from object X to show the direction of the force responsible for keeping object X in orbit.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "straight arrow drawn pointing towards S such that judge straight by eye\nits line of action passes through both X and S; arrow does not need to\nstart at X or finish at\nthe Sun",
+     "mark_points": [
+      {
+       "id": "2026-06-3-a-ii-MP1",
+       "marks": 1,
+       "text_md": "straight arrow drawn pointing towards S such that judge straight by eye\nits line of action passes through both X and S; arrow does not need to\nstart at X or finish at\nthe Sun"
+      }
+     ],
      "source_page": 6,
      "assets": [
       {
@@ -323,7 +367,15 @@
      "question_type": "structured",
      "problem_md": "The Moon orbits the Earth in 28 days. The radius of the Moon’s orbit is 390 000 km. Calculate the orbital speed of the Moon. Give your answer in km/s. orbital speed = km/s",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "conversion of time into seconds; mark independently\ni.e. 28 × 24 × 60 × 60 or\n2 419 200 seen\nsubstitution into given formula; allow ECF from\nincorrect / no unit\nconversion\nevaluation;\n87 515… (km/s) scores 2\ne.g.\ntime = 28 × 24 × 60 × 60 = 2 419 200 (s)\norbital speed = 2 × π × 390 000 ÷ 2 419 200\n(orbital speed =) 1.0 (km/s) allow 1, 1.01… (km/s)",
+     "mark_points": [
+      {
+       "id": "2026-06-3-b-MP1",
+       "marks": 3,
+       "text_md": "conversion of time into seconds; mark independently\ni.e. 28 × 24 × 60 × 60 or\n2 419 200 seen\nsubstitution into given formula; allow ECF from\nincorrect / no unit\nconversion\nevaluation;\n87 515… (km/s) scores 2\ne.g.\ntime = 28 × 24 × 60 × 60 = 2 419 200 (s)\norbital speed = 2 × π × 390 000 ÷ 2 419 200\n(orbital speed =) 1.0 (km/s) allow 1, 1.01… (km/s)"
+      }
+     ],
      "source_page": 7,
      "assets": [],
      "spec_point_codes": [],
@@ -341,7 +393,15 @@
      "question_type": "structured",
      "problem_md": "Suggest why the gravitational field strength on the Moon is different from the gravitational field strength on the Earth.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "different mass/density/diameter/radius; condone size for radius\ncondone ‘moon is\nsmaller’ / RA\nignore if incorrect\ncomparison given e.g.\n‘Earth has less mass\nthan the Moon’\nAnswer Notes Marks",
+     "mark_points": [
+      {
+       "id": "2026-06-3-c-MP1",
+       "marks": 1,
+       "text_md": "different mass/density/diameter/radius; condone size for radius\ncondone ‘moon is\nsmaller’ / RA\nignore if incorrect\ncomparison given e.g.\n‘Earth has less mass\nthan the Moon’\nAnswer Notes Marks"
+      }
+     ],
      "source_page": 7,
      "assets": [],
      "spec_point_codes": [],
@@ -374,12 +434,12 @@
      "problem_md": "Describe a method that a student could use for their investigation. Refer to safety in your answer.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "ignore\n• repeats\n• calculation of mean\n• control variables\n• Hooke’s law\nMP1. measure the extension / length (of the wire); allow ‘calculate how\nmuch it has increased\n(in length) for every\nadded load’\n‘how much the marker\nmoves for each load\nadded’\nMP2. detail for how extension is determined; e.g. calculate\ndifference between\noriginal length and new\nlength\nMP3. increase applied force / load / mass added;\nMP4. description of how to protect eyes/feet/skin; ignore ‘be careful’,\n‘protective clothing’,\nprotection aimed to\nprevent damage to floor\nor load\nPLUS\nany one from:\nMP5. description of method to reduce parallax error; allow view ruler\nperpendicularly / bird’s\neye view etc.\nignore eye level\nMP6. idea of placing masses on gently instead of\ndropping;\nMP7. measurement of mass with a balance OR ignore ‘weigh each\nmeasurement of force with newton-meter; load’\nMP8. description of a (potentially) more accurate way\nof measuring extension i.e. (vernier) calipers;\n(b) ‘independent’ column has a tick in last row only; reject if ticks given in\nany other rows\n‘dependent’ column has a tick in first row only; reject if ticks given in\nany other rows\n‘control’ column has ticks in the middle two rows reject if ticks given in\nonly; any other rows\ne.g.\n✓\n✓\n✓\n✓",
+     "solution_md": "ignore\n• repeats\n• calculation of mean\n• control variables\n• Hooke’s law\nMP1. measure the extension / length (of the wire); allow ‘calculate how\nmuch it has increased\n(in length) for every\nadded load’\n‘how much the marker\nmoves for each load\nadded’\nMP2. detail for how extension is determined; e.g. calculate\ndifference between\noriginal length and new\nlength\nMP3. increase applied force / load / mass added;\nMP4. description of how to protect eyes/feet/skin; ignore ‘be careful’,\n‘protective clothing’,\nprotection aimed to\nprevent damage to floor\nor load\nPLUS\nany one from:\nMP5. description of method to reduce parallax error; allow view ruler\nperpendicularly / bird’s\neye view etc.\nignore eye level\nMP6. idea of placing masses on gently instead of\ndropping;\nMP7. measurement of mass with a balance OR ignore ‘weigh each\nmeasurement of force with newton-meter; load’\nMP8. description of a (potentially) more accurate way\nof measuring extension i.e. (vernier) calipers;",
      "mark_points": [
       {
        "id": "2026-06-4-a-MP1",
        "marks": 5,
-       "text_md": "ignore\n• repeats\n• calculation of mean\n• control variables\n• Hooke’s law\nMP1. measure the extension / length (of the wire); allow ‘calculate how\nmuch it has increased\n(in length) for every\nadded load’\n‘how much the marker\nmoves for each load\nadded’\nMP2. detail for how extension is determined; e.g. calculate\ndifference between\noriginal length and new\nlength\nMP3. increase applied force / load / mass added;\nMP4. description of how to protect eyes/feet/skin; ignore ‘be careful’,\n‘protective clothing’,\nprotection aimed to\nprevent damage to floor\nor load\nPLUS\nany one from:\nMP5. description of method to reduce parallax error; allow view ruler\nperpendicularly / bird’s\neye view etc.\nignore eye level\nMP6. idea of placing masses on gently instead of\ndropping;\nMP7. measurement of mass with a balance OR ignore ‘weigh each\nmeasurement of force with newton-meter; load’\nMP8. description of a (potentially) more accurate way\nof measuring extension i.e. (vernier) calipers;\n(b) ‘independent’ column has a tick in last row only; reject if ticks given in\nany other rows\n‘dependent’ column has a tick in first row only; reject if ticks given in\nany other rows\n‘control’ column has ticks in the middle two rows reject if ticks given in\nonly; any other rows\ne.g.\n✓\n✓\n✓\n✓"
+       "text_md": "ignore\n• repeats\n• calculation of mean\n• control variables\n• Hooke’s law\nMP1. measure the extension / length (of the wire); allow ‘calculate how\nmuch it has increased\n(in length) for every\nadded load’\n‘how much the marker\nmoves for each load\nadded’\nMP2. detail for how extension is determined; e.g. calculate\ndifference between\noriginal length and new\nlength\nMP3. increase applied force / load / mass added;\nMP4. description of how to protect eyes/feet/skin; ignore ‘be careful’,\n‘protective clothing’,\nprotection aimed to\nprevent damage to floor\nor load\nPLUS\nany one from:\nMP5. description of method to reduce parallax error; allow view ruler\nperpendicularly / bird’s\neye view etc.\nignore eye level\nMP6. idea of placing masses on gently instead of\ndropping;\nMP7. measurement of mass with a balance OR ignore ‘weigh each\nmeasurement of force with newton-meter; load’\nMP8. description of a (potentially) more accurate way\nof measuring extension i.e. (vernier) calipers;"
       }
      ],
      "source_page": 9,
@@ -399,7 +459,15 @@
      "question_type": "structured",
      "problem_md": "Add one tick (ü) to each row of the table to show the independent, dependent and control variables in this investigation. Name of variable Independent Dependent Control extension material of wire temperature applied force",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "‘independent’ column has a tick in last row only; reject if ticks given in\nany other rows\n‘dependent’ column has a tick in first row only; reject if ticks given in\nany other rows\n‘control’ column has ticks in the middle two rows reject if ticks given in\nonly; any other rows\ne.g.\n✓\n✓\n✓\n✓",
+     "mark_points": [
+      {
+       "id": "2026-06-4-b-MP1",
+       "marks": 3,
+       "text_md": "‘independent’ column has a tick in last row only; reject if ticks given in\nany other rows\n‘dependent’ column has a tick in first row only; reject if ticks given in\nany other rows\n‘control’ column has ticks in the middle two rows reject if ticks given in\nonly; any other rows\ne.g.\n✓\n✓\n✓\n✓"
+      }
+     ],
      "source_page": 10,
      "assets": [
       {
@@ -524,12 +592,12 @@
      "problem_md": "Suggest why the street lamps are connected in parallel.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "idea that street lamps work independently of allow lamps still work if\neach other however expressed; one lamp breaks etc.\nallow idea that all\nlamps get the same\n(high) voltage\n(b) straight ray lines drawn between any point on allow dashed line\nthe street lamp to any point on the person’s judge straight by eye\nhead via the puddle;\nany indication that the direction of the ray is\nfrom the lamp to the eye e.g. arrow;\nangle of incidence = angle of reflection; judge by eye\nallow if angles marked\nas equal on diagram",
+     "solution_md": "idea that street lamps work independently of allow lamps still work if\neach other however expressed; one lamp breaks etc.\nallow idea that all\nlamps get the same\n(high) voltage",
      "mark_points": [
       {
        "id": "2026-06-5-a-MP1",
        "marks": 1,
-       "text_md": "idea that street lamps work independently of allow lamps still work if\neach other however expressed; one lamp breaks etc.\nallow idea that all\nlamps get the same\n(high) voltage\n(b) straight ray lines drawn between any point on allow dashed line\nthe street lamp to any point on the person’s judge straight by eye\nhead via the puddle;\nany indication that the direction of the ray is\nfrom the lamp to the eye e.g. arrow;\nangle of incidence = angle of reflection; judge by eye\nallow if angles marked\nas equal on diagram"
+       "text_md": "idea that street lamps work independently of allow lamps still work if\neach other however expressed; one lamp breaks etc.\nallow idea that all\nlamps get the same\n(high) voltage"
       }
      ],
      "source_page": 12,
@@ -549,7 +617,15 @@
      "question_type": "structured",
      "problem_md": "Diagram 1 shows one street lamp, a person and a puddle of water. The puddle of water reflects light from the street lamp into the person’s eyes. puddle of water Diagram 1 On diagram 1, draw a ray of light from the street lamp that is reflected by the puddle to the person’s eyes.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "straight ray lines drawn between any point on allow dashed line\nthe street lamp to any point on the person’s judge straight by eye\nhead via the puddle;\nany indication that the direction of the ray is\nfrom the lamp to the eye e.g. arrow;\nangle of incidence = angle of reflection; judge by eye\nallow if angles marked\nas equal on diagram",
+     "mark_points": [
+      {
+       "id": "2026-06-5-b-MP1",
+       "marks": 3,
+       "text_md": "straight ray lines drawn between any point on allow dashed line\nthe street lamp to any point on the person’s judge straight by eye\nhead via the puddle;\nany indication that the direction of the ray is\nfrom the lamp to the eye e.g. arrow;\nangle of incidence = angle of reflection; judge by eye\nallow if angles marked\nas equal on diagram"
+      }
+     ],
      "source_page": 12,
      "assets": [
       {
@@ -644,12 +720,12 @@
      "problem_md": "On diagram 2, draw a straight line to show the path of the ray of light after it leaves the glass.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "light leaves block; ignore reflected ray\nlight bends correctly away from the normal (by ray does not need to be\neye); parallel to original ray\n(d) any two from:\nlight has undergone total internal\nreflection/TIR;\nangle of incidence is greater than critical angle;\nglass is more (optically) dense than air / glass\nhas a refractive index greater than {air / 1} /\nspeed of light in glass lower than in air;\nAnswer Notes Marks",
+     "solution_md": "light leaves block; ignore reflected ray\nlight bends correctly away from the normal (by ray does not need to be\neye); parallel to original ray",
      "mark_points": [
       {
        "id": "2026-06-5-c-iii-MP1",
        "marks": 2,
-       "text_md": "light leaves block; ignore reflected ray\nlight bends correctly away from the normal (by ray does not need to be\neye); parallel to original ray\n(d) any two from:\nlight has undergone total internal\nreflection/TIR;\nangle of incidence is greater than critical angle;\nglass is more (optically) dense than air / glass\nhas a refractive index greater than {air / 1} /\nspeed of light in glass lower than in air;\nAnswer Notes Marks"
+       "text_md": "light leaves block; ignore reflected ray\nlight bends correctly away from the normal (by ray does not need to be\neye); parallel to original ray"
       }
      ],
      "source_page": 13,
@@ -683,7 +759,15 @@
      "question_type": "structured",
      "problem_md": "Another ray of light enters the glass in the window as shown in diagram 3. P Diagram 3 Explain what happens to this ray of light at point P.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "any two from:\nlight has undergone total internal\nreflection/TIR;\nangle of incidence is greater than critical angle;\nglass is more (optically) dense than air / glass\nhas a refractive index greater than {air / 1} /\nspeed of light in glass lower than in air;\nAnswer Notes Marks",
+     "mark_points": [
+      {
+       "id": "2026-06-5-d-MP1",
+       "marks": 2,
+       "text_md": "any two from:\nlight has undergone total internal\nreflection/TIR;\nangle of incidence is greater than critical angle;\nglass is more (optically) dense than air / glass\nhas a refractive index greater than {air / 1} /\nspeed of light in glass lower than in air;\nAnswer Notes Marks"
+      }
+     ],
      "source_page": 14,
      "assets": [
       {
@@ -801,12 +885,12 @@
      "problem_md": "The microwave oven uses microwave radiation with a wavelength of 12 cm. Calculate the frequency of this microwave radiation. [speed of microwaves = 3.0 × 108 m/s] frequency = Hz",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "conversion of wavelength to 0.12 m;\nsubstitution OR rearrangement; allow ECF from\nincorrect / no unit\nconversion\nevaluation;\n2.5 × 107 (Hz)\nscores 2 marks\ne.g.\n12 cm = 0.12 m\n3.0 × 108 = frequency × 0.12 OR f = v ÷ λ\nfrequency (= 3.0 × 108 ÷ 0.12) = 2.5 × 109 (Hz)\n(c) reference to conduction; allow description of\nconduction e.g.\nparticles passing on\nvibrations\nidea that inside (of food) gains energy; allow energy is\ntransferred through\nfood\nAnswer Notes Marks",
+     "solution_md": "conversion of wavelength to 0.12 m;\nsubstitution OR rearrangement; allow ECF from\nincorrect / no unit\nconversion\nevaluation;\n2.5 × 107 (Hz)\nscores 2 marks\ne.g.\n12 cm = 0.12 m\n3.0 × 108 = frequency × 0.12 OR f = v ÷ λ\nfrequency (= 3.0 × 108 ÷ 0.12) = 2.5 × 109 (Hz)",
      "mark_points": [
       {
        "id": "2026-06-6-b-ii-MP1",
        "marks": 3,
-       "text_md": "conversion of wavelength to 0.12 m;\nsubstitution OR rearrangement; allow ECF from\nincorrect / no unit\nconversion\nevaluation;\n2.5 × 107 (Hz)\nscores 2 marks\ne.g.\n12 cm = 0.12 m\n3.0 × 108 = frequency × 0.12 OR f = v ÷ λ\nfrequency (= 3.0 × 108 ÷ 0.12) = 2.5 × 109 (Hz)\n(c) reference to conduction; allow description of\nconduction e.g.\nparticles passing on\nvibrations\nidea that inside (of food) gains energy; allow energy is\ntransferred through\nfood\nAnswer Notes Marks"
+       "text_md": "conversion of wavelength to 0.12 m;\nsubstitution OR rearrangement; allow ECF from\nincorrect / no unit\nconversion\nevaluation;\n2.5 × 107 (Hz)\nscores 2 marks\ne.g.\n12 cm = 0.12 m\n3.0 × 108 = frequency × 0.12 OR f = v ÷ λ\nfrequency (= 3.0 × 108 ÷ 0.12) = 2.5 × 109 (Hz)"
       }
      ],
      "source_page": 16,
@@ -826,7 +910,15 @@
      "question_type": "structured",
      "problem_md": "The electromagnetic radiation in the hot electric oven heats the surface of the food. Explain how the inside of the food increases in temperature. Refer to a method of heat transfer in your answer.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "reference to conduction; allow description of\nconduction e.g.\nparticles passing on\nvibrations\nidea that inside (of food) gains energy; allow energy is\ntransferred through\nfood\nAnswer Notes Marks",
+     "mark_points": [
+      {
+       "id": "2026-06-6-c-MP1",
+       "marks": 2,
+       "text_md": "reference to conduction; allow description of\nconduction e.g.\nparticles passing on\nvibrations\nidea that inside (of food) gains energy; allow energy is\ntransferred through\nfood\nAnswer Notes Marks"
+      }
+     ],
      "source_page": 17,
      "assets": [],
      "spec_point_codes": [],
@@ -855,12 +947,12 @@
      "problem_md": "This nuclear equation shows how the isotope thorium‑232 is transformed into thorium‑233. X Y n + 232 Th → 233 Th This nuclear equation shows how thorium‑233 decays into uranium‑233. 233 Th → 2Z0 β + 233 U Determine the values of X, Y and Z. X = Y = Z =",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "X = 1;\nY = 0;\nZ = −1;\n(b) uranium splits / uranium undergoes fission; allow nucleus for\nuranium\ncondone uranium breaks\nup\nignore atoms\nneutron(s) released;\n(these) neutron(s) go on to cause further fissions /\neq;",
+     "solution_md": "X = 1;\nY = 0;\nZ = −1;",
      "mark_points": [
       {
        "id": "2026-06-7-a-MP1",
        "marks": 3,
-       "text_md": "X = 1;\nY = 0;\nZ = −1;\n(b) uranium splits / uranium undergoes fission; allow nucleus for\nuranium\ncondone uranium breaks\nup\nignore atoms\nneutron(s) released;\n(these) neutron(s) go on to cause further fissions /\neq;"
+       "text_md": "X = 1;\nY = 0;\nZ = −1;"
       }
      ],
      "source_page": 18,
@@ -880,7 +972,15 @@
      "question_type": "structured",
      "problem_md": "A uranium‑233 nucleus can absorb a neutron and become part of a chain reaction. Describe how a chain reaction occurs.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "uranium splits / uranium undergoes fission; allow nucleus for\nuranium\ncondone uranium breaks\nup\nignore atoms\nneutron(s) released;\n(these) neutron(s) go on to cause further fissions /\neq;",
+     "mark_points": [
+      {
+       "id": "2026-06-7-b-MP1",
+       "marks": 3,
+       "text_md": "uranium splits / uranium undergoes fission; allow nucleus for\nuranium\ncondone uranium breaks\nup\nignore atoms\nneutron(s) released;\n(these) neutron(s) go on to cause further fissions /\neq;"
+      }
+     ],
      "source_page": 18,
      "assets": [],
      "spec_point_codes": [],
@@ -964,7 +1064,15 @@
      "question_type": "structured",
      "problem_md": "State how direct current (d.c.) differs from alternating current (a.c.).",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "idea that d.c. is in one direction AND a.c. changes allow both/different\ndirection (continuously) however expressed; directions for a.c.\ncondone d.c. goes one way\nand a.c. goes both ways",
+     "mark_points": [
+      {
+       "id": "2026-06-8-a-i-MP1",
+       "marks": 1,
+       "text_md": "idea that d.c. is in one direction AND a.c. changes allow both/different\ndirection (continuously) however expressed; directions for a.c.\ncondone d.c. goes one way\nand a.c. goes both ways"
+      }
+     ],
      "source_page": 20,
      "assets": [],
      "spec_point_codes": [],
@@ -982,7 +1090,15 @@
      "question_type": "structured",
      "problem_md": "Explain how the loudspeaker produces sound using the a.c. power supply.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "any three from:\nidea that current/coil/wire has a magnetic field; allow current/coil/wire\nbecomes an electromagnet\nidea that interaction between magnetic fields allow overlaps for\nproduces a force (on the coil); interaction\nignore cutting for\ninteraction\nallow interaction between\ncurrent and magnetic field\nproduces a force\ndirection of the force changes (due to a.c.);\n(so the) cone/air vibrates; allow coil/tube vibrates",
+     "mark_points": [
+      {
+       "id": "2026-06-8-a-ii-MP1",
+       "marks": 3,
+       "text_md": "any three from:\nidea that current/coil/wire has a magnetic field; allow current/coil/wire\nbecomes an electromagnet\nidea that interaction between magnetic fields allow overlaps for\nproduces a force (on the coil); interaction\nignore cutting for\ninteraction\nallow interaction between\ncurrent and magnetic field\nproduces a force\ndirection of the force changes (due to a.c.);\n(so the) cone/air vibrates; allow coil/tube vibrates"
+      }
+     ],
      "source_page": 20,
      "assets": [],
      "spec_point_codes": [],
@@ -1000,7 +1116,15 @@
      "question_type": "structured",
      "problem_md": "The loudspeaker is disconnected from the power supply. The wires from the loudspeaker are then connected to a very sensitive ammeter. When a sound is directed towards the paper cone, the loudspeaker behaves as a microphone. Explain why there is a reading on the ammeter when a sound is directed towards the paper cone.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "cone {vibrates / oscillates}; allow coil/tube for cone\ncoil/wire cuts (magnetic) field (lines); ignore interacts with field\ninducing a voltage; allow alternatives to\ninducing e.g. causing,\nproducing etc.\n(which in turn) induces an (alternating) current; allow alternatives to\ninducing e.g. causing,\nproducing etc.\nignore causes a reading on\nammeter\nAnswer Notes Marks",
+     "mark_points": [
+      {
+       "id": "2026-06-8-b-MP1",
+       "marks": 4,
+       "text_md": "cone {vibrates / oscillates}; allow coil/tube for cone\ncoil/wire cuts (magnetic) field (lines); ignore interacts with field\ninducing a voltage; allow alternatives to\ninducing e.g. causing,\nproducing etc.\n(which in turn) induces an (alternating) current; allow alternatives to\ninducing e.g. causing,\nproducing etc.\nignore causes a reading on\nammeter\nAnswer Notes Marks"
+      }
+     ],
      "source_page": 21,
      "assets": [],
      "spec_point_codes": [],
@@ -1028,7 +1152,15 @@
      "question_type": "structured",
      "problem_md": "Using the data from table 1, show that the final speed of the ball is about 2 m/s.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "substitution into given formula; condone reverse calculation for full\nmarks e.g. using v = 2 (m/s) to\ncalculate distance or time to more\nthan 2s.f.\ncorrect evaluation to more than 1s.f.;\ne.g.\nfinal speed = 0.048 ÷ 0.028\nfinal speed = 1.714… (m/s)",
+     "mark_points": [
+      {
+       "id": "2026-06-9-a-i-MP1",
+       "marks": 2,
+       "text_md": "substitution into given formula; condone reverse calculation for full\nmarks e.g. using v = 2 (m/s) to\ncalculate distance or time to more\nthan 2s.f.\ncorrect evaluation to more than 1s.f.;\ne.g.\nfinal speed = 0.048 ÷ 0.028\nfinal speed = 1.714… (m/s)"
+      }
+     ],
      "source_page": 23,
      "assets": [
       {
@@ -1058,7 +1190,15 @@
      "question_type": "structured",
      "problem_md": "The ball rolls along the ramp for a distance of 0.63 m. Calculate the acceleration of the ball. acceleration = m/s2",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "substitution into given formula; ECF for use of v from (i)\nrearrangement;\nevaluation; ignore any minus sign included in\nuse of 2 (m/s) for v\ngives a = 3.2 (m/s2) for full marks\ne.g.\n1.7142 = 02 + 2 × a × 0.63\na = 2.94 ÷ 1.26\n(a =) 2.3 (m/s2) allow 2.33… (m/s2)",
+     "mark_points": [
+      {
+       "id": "2026-06-9-a-ii-MP1",
+       "marks": 3,
+       "text_md": "substitution into given formula; ECF for use of v from (i)\nrearrangement;\nevaluation; ignore any minus sign included in\nuse of 2 (m/s) for v\ngives a = 3.2 (m/s2) for full marks\ne.g.\n1.7142 = 02 + 2 × a × 0.63\na = 2.94 ÷ 1.26\n(a =) 2.3 (m/s2) allow 2.33… (m/s2)"
+      }
+     ],
      "source_page": 23,
      "assets": [],
      "spec_point_codes": [],
@@ -1223,7 +1363,15 @@
      "question_type": "structured",
      "problem_md": "Component X changes the current in the circuit if there is a change in the brightness of light. Give the name of component X.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "light dependent resistor; allow LDR\nignore light dependent resistance",
+     "mark_points": [
+      {
+       "id": "2026-06-10-a-i-MP1",
+       "marks": 1,
+       "text_md": "light dependent resistor; allow LDR\nignore light dependent resistance"
+      }
+     ],
      "source_page": 28,
      "assets": [],
      "spec_point_codes": [],
@@ -1241,7 +1389,15 @@
      "question_type": "structured",
      "problem_md": "On the diagram, draw a voltmeter to measure the voltage of the fixed resistor.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "correct symbol for voltmeter;\ndrawn in parallel with fixed resistor;",
+     "mark_points": [
+      {
+       "id": "2026-06-10-a-ii-MP1",
+       "marks": 2,
+       "text_md": "correct symbol for voltmeter;\ndrawn in parallel with fixed resistor;"
+      }
+     ],
      "source_page": 28,
      "assets": [
       {
@@ -1351,29 +1507,41 @@
      "choices": [
       {
        "label": "A",
-       "text_md": "520 J"
+       "text_md": "520 J",
+       "is_correct": false
       },
       {
        "label": "B",
-       "text_md": "5200 J"
+       "text_md": "5200 J",
+       "is_correct": false
       },
       {
        "label": "C",
-       "text_md": "52 000 J"
+       "text_md": "52 000 J",
+       "is_correct": true
       },
       {
        "label": "D",
-       "text_md": "520 000 J"
+       "text_md": "520 000 J",
+       "is_correct": false
       }
      ],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "C (52 000 J);\nA is incorrect as it is not equal to the KE of the\nvehicle\nB is incorrect as it is not equal to the KE of the\nvehicle\nD is incorrect as it is not equal to the KE of the\nvehicle",
+     "mark_points": [
+      {
+       "id": "2026-06-11-a-i-MP1",
+       "marks": 1,
+       "text_md": "Answer C: 52 000 J"
+      }
+     ],
      "source_page": 31,
      "assets": [],
      "spec_point_codes": [],
      "tagging": "pending-llm",
      "edit_status": "extracted",
      "value_trace": {
-      "keys": "unresolved:review-queue",
+      "keys": "ms-positional",
       "marks": "ms-printed",
       "numbers": "source-printed"
      }
@@ -1384,7 +1552,15 @@
      "question_type": "structured",
      "problem_md": "After the brakes are applied, the braking distance is 36 m. Calculate the braking force applied to the vehicle. braking force = N",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "substitution OR rearrangement; allow ECF from (i)\nevaluation;\ne.g.\n52 000 = force × 36 OR\nforce = work done ÷ distance\n(force = 52 000 ÷ 36 =) 1400 (N) allow 1440, 1444,\n1444.4… (N)",
+     "mark_points": [
+      {
+       "id": "2026-06-11-a-ii-MP1",
+       "marks": 2,
+       "text_md": "substitution OR rearrangement; allow ECF from (i)\nevaluation;\ne.g.\n52 000 = force × 36 OR\nforce = work done ÷ distance\n(force = 52 000 ÷ 36 =) 1400 (N) allow 1440, 1444,\n1444.4… (N)"
+      }
+     ],
      "source_page": 31,
      "assets": [],
      "spec_point_codes": [],
@@ -1402,7 +1578,15 @@
      "question_type": "structured",
      "problem_md": "The graph shows how the speed of the vehicle changes with time when the braking distance is 36 m. 20.0 16.0 12.0 Speed in m/s 8.0 4.0 0.0 0 4 8 12 16 20 Time in seconds On another journey, the vehicle is travelling at twice the initial speed and decelerates with the same braking force. Using information from the graph, explain how the new braking distance compares to the original braking distance.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "MP1. braking distance will increase; condone incorrect\nquoted value as long as\nit is greater than 36 m\nMP2. braking distance will increase by a also scores MP1\nfactor of 4 / will be 144 m;\nmethods using KE and\nwork done can still\nscore MP1 and MP2\nwith any two from:\nMP3. braking distance is area of graph;\nMP4. double speed means triangle is twice as allow if seen on graph\nhigh;\nMP5. gradient of line or deceleration is the same; allow if seen on graph\nMP6. time (taken to stop) will be twice as long / allow if seen on graph\n16 seconds;",
+     "mark_points": [
+      {
+       "id": "2026-06-11-b-MP1",
+       "marks": 4,
+       "text_md": "MP1. braking distance will increase; condone incorrect\nquoted value as long as\nit is greater than 36 m\nMP2. braking distance will increase by a also scores MP1\nfactor of 4 / will be 144 m;\nmethods using KE and\nwork done can still\nscore MP1 and MP2\nwith any two from:\nMP3. braking distance is area of graph;\nMP4. double speed means triangle is twice as allow if seen on graph\nhigh;\nMP5. gradient of line or deceleration is the same; allow if seen on graph\nMP6. time (taken to stop) will be twice as long / allow if seen on graph\n16 seconds;"
+      }
+     ],
      "source_page": 32,
      "assets": [
       {

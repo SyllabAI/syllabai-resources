@@ -23,25 +23,6 @@ Which arrow represents the amplitude of the wave?
 > B is incorrect as arrow Q shows the wavelength
 > C is incorrect as arrow R shows half of the
 > wavelength
-> (b) B – arrow Q;
-> A is incorrect as arrow P shows twice the amplitude
-> C is incorrect as arrow R shows have of the
-> wavelength
-> D is incorrect as arrow S shows the amplitude
-> (c) D – transverse;
-> A is incorrect as water waves are not
-> electromagnetic
-> B is incorrect as gravitational waves are not
-> detectable by water
-> C is incorrect as the water molecules vibrate at
-> right angles to the direction of travel of the wave.
-> (d) substitution into given equation ‘f= 1/T’;
-> evaluation;
-> e.g.
-> frequency = 1/2.7
-> frequency = 0.37 (Hz) accept any value that
-> rounds to 0.37 Hz
-> Answer Notes Marks
 
 - **(1)** Answer D: S
 
@@ -50,8 +31,19 @@ Which arrow represents the amplitude of the wave?
 Which arrow represents the wavelength of the wave? A S
 
 - **(A)** P
-- **(B)** Q
+- **(B)** Q  ✔
 - **(C)** R
+
+
+**Mark scheme answer**
+
+> B – arrow Q;
+> A is incorrect as arrow P shows twice the amplitude
+> C is incorrect as arrow R shows have of the
+> wavelength
+> D is incorrect as arrow S shows the amplitude
+
+- **(1)** Answer B: Q
 
 ### 1(c) [1]
 
@@ -60,11 +52,37 @@ What type of wave is this water wave?
 - **(A)** electromagnetic
 - **(B)** gravitational
 - **(C)** longitudinal
-- **(D)** transverse
+- **(D)** transverse  ✔
+
+
+**Mark scheme answer**
+
+> D – transverse;
+> A is incorrect as water waves are not
+> electromagnetic
+> B is incorrect as gravitational waves are not
+> detectable by water
+> C is incorrect as the water molecules vibrate at
+> right angles to the direction of travel of the wave.
+
+- **(1)** Answer D: transverse
 
 ### 1(d) [2]
 
 The time period of the wave is 2.7 s. Calculate the frequency of the wave. frequency= Hz
+
+
+**Mark scheme answer**
+
+> substitution into given equation ‘f= 1/T’;
+> evaluation;
+> e.g.
+> frequency = 1/2.7
+> frequency = 0.37 (Hz) accept any value that
+> rounds to 0.37 Hz
+> Answer Notes Marks
+
+- **(2)** substitution into given equation ‘f= 1/T’;
 
 
 ## Question 2 (5 marks)
@@ -79,13 +97,33 @@ The total pressure at the bottom of the can is 110 kPa. Atmospheric pressure is 
 **Mark scheme answer**
 
 > 9 (kPa);
-> (b) (liquid) pressure = depth (of liquid) × density × g; accept
+
+- **(1)** 9 (kPa);
+
+### 2(b) [1]
+
+State the formula linking pressure difference, height, density and gravitational field strength.
+
+
+**Mark scheme answer**
+
+> (liquid) pressure = depth (of liquid) × density × g; accept
 > d, h, height for depth
 > rho, ρ for density
 > g.f.s or gravitational field
 > strength for g
 > reject gravity for g
-> (c) substitution; allow ecf from (a)
+
+- **(1)** (liquid) pressure = depth (of liquid) × density × g; accept
+
+### 2(c) [3]
+
+Calculate the height of the oil in the can. [density of oil = 960 kg/m3] height = m
+
+
+**Mark scheme answer**
+
+> substitution; allow ecf from (a)
 > rearrangement;
 > evaluation;
 > allow use of g = 9.8(1) m/s2
@@ -100,15 +138,7 @@ The total pressure at the bottom of the can is 110 kPa. Atmospheric pressure is 
 > incorrect i.e. no ‘g’
 > Answer Notes Marks
 
-- **(1)** 9 (kPa);
-
-### 2(b) [1]
-
-State the formula linking pressure difference, height, density and gravitational field strength.
-
-### 2(c) [3]
-
-Calculate the height of the oil in the can. [density of oil = 960 kg/m3] height = m
+- **(3)** substitution; allow ecf from (a)
 
 
 ## Question 3 (8 marks)
@@ -126,9 +156,22 @@ The diagram shows a truck travelling along a horizontal road.
 Which of these factors affects thinking distance?
 
 - **(A)** condition of the tyres
-- **(B)** consumption of alcohol by the driver
+- **(B)** consumption of alcohol by the driver  ✔
 - **(C)** mass of the vehicle
 - **(D)** condition of the road
+
+
+**Mark scheme answer**
+
+> B – consumption of alcohol by the driver;
+> A is incorrect because condition of tyres only
+> affects braking distance
+> C is incorrect because mass of vehicle only affects
+> braking distance
+> D is incorrect because wet road only affects braking
+> distance
+
+- **(1)** Answer B: consumption of alcohol by the driver
 
 ### 3(a)(ii) [1]
 
@@ -137,7 +180,20 @@ Which of these factors affects both thinking distance and braking distance?
 - **(A)** condition of the brakes
 - **(B)** condition of the road
 - **(C)** mass of the vehicle
-- **(D)** speed of the vehicle
+- **(D)** speed of the vehicle  ✔
+
+
+**Mark scheme answer**
+
+> D – speed of the vehicle;
+> A is incorrect because condition of brakes only
+> affects braking distance
+> B is incorrect because condition of road only affects
+> braking distance
+> C is incorrect because mass of vehicle only affects
+> braking distance
+
+- **(1)** Answer D: speed of the vehicle
 
 ### 3(b)(i) [1]
 
@@ -194,14 +250,6 @@ State the method of energy transfer from the truck to the brakes.
 
 > mechanic(ally);
 > Answer Notes Marks
-> 4 MP1 nebula/gas cloud;
-> MP2 protostar;
-> MP3 main sequence (then red supergiant);
-> MP4 supernova;
-> MP5 neutron star/ black hole;
-> 1 mark penalty for any
-> incorrect sequence
-> Answer Notes Marks
 
 - **(1)** mechanic(ally);
 
@@ -213,6 +261,20 @@ Betelgeuse is a red supergiant star. Betelgeuse has a mass that is much larger t
 ### 4 [5]
 
 Betelgeuse is a red supergiant star. Betelgeuse has a mass that is much larger than the Sun. Describe the evolution of Betelgeuse through its entire life cycle.
+
+
+**Mark scheme answer**
+
+> MP1 nebula/gas cloud;
+> MP2 protostar;
+> MP3 main sequence (then red supergiant);
+> MP4 supernova;
+> MP5 neutron star/ black hole;
+> 1 mark penalty for any
+> incorrect sequence
+> Answer Notes Marks
+
+- **(5)** MP1 nebula/gas cloud;
 
 
 ## Question 5 (8 marks)
@@ -238,7 +300,17 @@ A student drops a table tennis ball from rest. The ball falls 13 m to the ground
 > v2 = 02 + (2 x 10 x 13)
 > v2 = 260
 > v =√260 = 16.1 (m/s)
-> (b) any FIVE from:
+
+- **(3)** substitution into given equation v2 = u2 + (2 x a x s); accept mgh = 1/2mv2
+
+### 5(b) [5]
+
+The student suggests that the ball will reach the ground with a speed that is less than 16 m/s because of air resistance. Use ideas about forces to justify the student’s suggestion.
+
+
+**Mark scheme answer**
+
+> any FIVE from:
 > MP1 ball has weight; allow ‘has
 > gravitational force’
 > REJECT ‘has gravity’
@@ -252,11 +324,7 @@ A student drops a table tennis ball from rest. The ball falls 13 m to the ground
 > MP7 terminal velocity/constant speed /acceleration=0;
 > Answer Notes Marks
 
-- **(3)** substitution into given equation v2 = u2 + (2 x a x s); accept mgh = 1/2mv2
-
-### 5(b) [5]
-
-The student suggests that the ball will reach the ground with a speed that is less than 16 m/s because of air resistance. Use ideas about forces to justify the student’s suggestion.
+- **(5)** any FIVE from:
 
 
 ## Question 6 (12 marks)
@@ -380,17 +448,49 @@ The diagram shows a van der Graaff generator, which is designed to provide very 
 The unit of voltage is the volt. Which of these units is a volt?
 
 - **(A)** coulomb per second
-- **(B)** joule per coulomb
+- **(B)** joule per coulomb  ✔
 - **(C)** joule per second
 - **(D)** newton per coulomb
+
+
+**Mark scheme answer**
+
+> B – joule per coulomb;
+> A is incorrect because this is not a correct unit for
+> volt
+> C is incorrect because this is not a correct unit for
+> volt
+> D is incorrect this is not a correct unit for volt
+
+- **(1)** Answer B: joule per coulomb
 
 ### 7(a)(ii) [1]
 
 State the formula linking energy transferred, voltage and charge.
 
+
+**Mark scheme answer**
+
+> energy (transferred) = charge × voltage; allow standard symbols
+> and rearrangements
+
+- **(1)** energy (transferred) = charge × voltage; allow standard symbols
+
 ### 7(a)(iii) [3]
 
 Calculate the energy transferred to an electron when it passes through a voltage of 150 kV. [charge of electron = 1.6 × 10–19 C] energy transferred = J
+
+
+**Mark scheme answer**
+
+> substitution;
+> conversion of kV to V;
+> evaluation;
+> e.g.
+> energy = 1.6 × 10-19 × 150 × 103
+> energy = 2.4 × 10-14 (J)
+
+- **(3)** substitution;
 
 ### 7(b)(i) [1]
 
@@ -519,13 +619,40 @@ A deioniser is a device used in rooms where workers build sensitive electronic c
 
 Complete the equation that shows the alpha decay of polonium-210 into lead-206. 210 206 84 Po → 82 Pb + α
 
+
+**Mark scheme answer**
+
+> 4;
+> 2;
+
+- **(2)** 4;
+
 ### 9(a)(ii) [1]
 
 The alpha particle ionises air molecules in the room. State what is meant by the term ionisation.
 
+
+**Mark scheme answer**
+
+> removal of electron(s) (from an atom); allow gaining
+> electron(s)
+
+- **(1)** removal of electron(s) (from an atom); allow gaining
+
 ### 9(a)(iii) [2]
 
 Explain why workers in the same room as the deioniser are not at risk from the alpha radiation it emits.
+
+
+**Mark scheme answer**
+
+> alpha particles are absorbed by/cannot penetrate/ allow do not penetrate
+> stopped by a few cm in air; casing (of deionser)
+> condone ‘do not
+> penetrate skin/clothes’
+> so alphas do not reach the workers;
+
+- **(2)** alpha particles are absorbed by/cannot penetrate/ allow do not penetrate
 
 ### 9(b)(i) [2]
 
@@ -569,15 +696,47 @@ This is a question about refraction.
 
 State the formula linking critical angle and refractive index.
 
+
+**Mark scheme answer**
+
+> n =1/sin(c); accept any
+> rearrangement or word
+> equation
+
+- **(1)** n =1/sin(c); accept any
+
 ### 10(a)(ii) [2]
 
 Diamond has a critical angle of 26 degrees. Calculate the refractive index of diamond. refractive index =
+
+
+**Mark scheme answer**
+
+> substitution;
+> evaluation;
+> e.g.
+> n = 1/sin(26)
+> n = 2.3 allow 2.28…
+
+- **(2)** substitution;
 
 ### 10(a)(iii) [3]
 
 The diagram shows a light ray entering a block of diamond. Complete the diagram to show the light ray emerging from the block. 30° light ray
 
 ![diagram — official paper figure (qp.pdf p.21)](assets/asset_10_a_iii_diagram.png)
+
+
+**Mark scheme answer**
+
+> correct TIR at first boundary;
+> refraction at boundary at 7 o’clock; allow ECF for incorrect
+> TIR and correct
+> subsequent
+> boundaries.
+> refraction away from the normal at exit point;
+
+- **(3)** correct TIR at first boundary;
 
 ### 10(b)(i) [4]
 
@@ -671,7 +830,17 @@ Explain, in terms of particles, why the pressure of the air inside the glass jar
 > particles colliding
 > with each other
 > accept
-> (b) substitution into given equation “p1 × V1 = p2 × V2”;
+
+- **(3)** any THREE from:
+
+### 11(b) [3]
+
+Before the rubber sheet is pulled down, the air inside the jar is at atmospheric pressure. The volume of gas inside the jar increases from 110 cm3 to 140 cm3. Calculate the pressure inside the jar after the rubber sheet is pulled down. [atmospheric pressure = 101 kPa] pressure = Pa
+
+
+**Mark scheme answer**
+
+> substitution into given equation “p1 × V1 = p2 × V2”;
 > rearrangement to give p2;
 > evaluation of p2;
 > e.g.
@@ -680,7 +849,17 @@ Explain, in terms of particles, why the pressure of the air inside the glass jar
 > p2 = 79 000 (Pa) allow 79357.1… (Pa),
 > 79(.4) kPa , standard
 > form
-> (c) any THREE from:
+
+- **(3)** substitution into given equation “p1 × V1 = p2 × V2”;
+
+### 11(c) [3]
+
+The jar is sealed, but the balloons are open to the atmosphere. Before the rubber sheet is pulled down, the air inside the balloons is at atmospheric pressure. Explain why the balloons start to expand when the rubber sheet is pulled down.
+
+
+**Mark scheme answer**
+
+> any THREE from:
 > MP1 pressure outside balloon is lower than inside
 > balloon;
 > MP2 pressure difference causes a force;
@@ -689,14 +868,6 @@ Explain, in terms of particles, why the pressure of the air inside the glass jar
 > Answer Notes Marks
 
 - **(3)** any THREE from:
-
-### 11(b) [3]
-
-Before the rubber sheet is pulled down, the air inside the jar is at atmospheric pressure. The volume of gas inside the jar increases from 110 cm3 to 140 cm3. Calculate the pressure inside the jar after the rubber sheet is pulled down. [atmospheric pressure = 101 kPa] pressure = Pa
-
-### 11(c) [3]
-
-The jar is sealed, but the balloons are open to the atmosphere. Before the rubber sheet is pulled down, the air inside the balloons is at atmospheric pressure. Explain why the balloons start to expand when the rubber sheet is pulled down.
 
 
 ## Question 12 (12 marks)

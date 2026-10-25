@@ -1,7 +1,7 @@
 {
  "schema": "syllabai.official-paper-questions/0.2",
- "generated_utc": "2026-10-25T20:42:57Z",
- "generator": "official_examq_extract.py v0.17.4 (ADR-039) series=2021-01 paper=2PR",
+ "generated_utc": "2026-10-25T22:06:20Z",
+ "generator": "official_examq_extract.py v0.19.0 (ADR-039) series=2021-01 paper=2PR",
  "paper_id": "pearson-edexcel:international-gcse:physics:4ph1:2021-01:4PH1/2PR",
  "source": {
   "qp_sha256": "527709a1d1c40787d354a9d183c656aaa776fd7ca84f50f5f1fb6231c49b6c7d",
@@ -35,22 +35,34 @@
      "choices": [
       {
        "label": "A",
-       "text_md": "PQ"
+       "text_md": "PQ",
+       "is_correct": false
       },
       {
        "label": "B",
-       "text_md": "QR"
+       "text_md": "QR",
+       "is_correct": true
       },
       {
        "label": "C",
-       "text_md": "RS"
+       "text_md": "RS",
+       "is_correct": false
       },
       {
        "label": "D",
-       "text_md": "ST"
+       "text_md": "ST",
+       "is_correct": false
       }
      ],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "B – QR;\nA is not correct as the substance is a solid\nC is not correct as the substance is a liquid\nD is not correct as the substance is boiling",
+     "mark_points": [
+      {
+       "id": "2021-01-1-a-i-MP1",
+       "marks": 1,
+       "text_md": "Answer B: QR"
+      }
+     ],
      "source_page": 4,
      "assets": [
       {
@@ -69,7 +81,7 @@
      "tagging": "pending-llm",
      "edit_status": "extracted",
      "value_trace": {
-      "keys": "unresolved:review-queue",
+      "keys": "ms-positional",
       "marks": "ms-printed",
       "numbers": "source-printed"
      }
@@ -82,22 +94,34 @@
      "choices": [
       {
        "label": "A",
-       "text_md": "PQ"
+       "text_md": "PQ",
+       "is_correct": true
       },
       {
        "label": "B",
-       "text_md": "QR"
+       "text_md": "QR",
+       "is_correct": false
       },
       {
        "label": "C",
-       "text_md": "RS"
+       "text_md": "RS",
+       "is_correct": false
       },
       {
        "label": "D",
-       "text_md": "ST"
+       "text_md": "ST",
+       "is_correct": false
       }
      ],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "A – PQ;\nB is not correct as the substance is part solid,\npart liquid\nC is not correct as the substance is a liquid\nD is not correct as the substance is boiling",
+     "mark_points": [
+      {
+       "id": "2021-01-1-a-ii-MP1",
+       "marks": 1,
+       "text_md": "Answer A: PQ"
+      }
+     ],
      "source_page": 4,
      "assets": [
       {
@@ -118,7 +142,7 @@
      "tagging": "pending-llm",
      "edit_status": "extracted",
      "value_trace": {
-      "keys": "unresolved:review-queue",
+      "keys": "ms-positional",
       "marks": "ms-printed",
       "numbers": "source-printed"
      }
@@ -129,7 +153,15 @@
      "question_type": "structured",
      "problem_md": "Draw particles in the box to show the arrangement of particles when the substance is a gas.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "any irregular, spaced out collection of particles;",
+     "mark_points": [
+      {
+       "id": "2021-01-1-a-iii-MP1",
+       "marks": 1,
+       "text_md": "any irregular, spaced out collection of particles;"
+      }
+     ],
      "source_page": 4,
      "assets": [],
      "spec_point_codes": [],
@@ -149,29 +181,41 @@
      "choices": [
       {
        "label": "A",
-       "text_md": "they vibrate about fixed points"
+       "text_md": "they vibrate about fixed points",
+       "is_correct": false
       },
       {
        "label": "B",
-       "text_md": "they are stationary"
+       "text_md": "they are stationary",
+       "is_correct": false
       },
       {
        "label": "C",
-       "text_md": "they slide past each other"
+       "text_md": "they slide past each other",
+       "is_correct": false
       },
       {
        "label": "D",
-       "text_md": "they move quickly and randomly"
+       "text_md": "they move quickly and randomly",
+       "is_correct": true
       }
      ],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "D – they move quickly and randomly;\nA is not correct as this is how particles in a solid\nmove\nB is not correct as only particles at 0 K can\ntheoretically be stationary\nC is not correct as this is how particles in a liquid\nmove",
+     "mark_points": [
+      {
+       "id": "2021-01-1-a-iv-MP1",
+       "marks": 1,
+       "text_md": "Answer D: they move quickly and randomly"
+      }
+     ],
      "source_page": 5,
      "assets": [],
      "spec_point_codes": [],
      "tagging": "pending-llm",
      "edit_status": "extracted",
      "value_trace": {
-      "keys": "unresolved:review-queue",
+      "keys": "ms-positional",
       "marks": "ms-printed",
       "numbers": "source-printed"
      }
@@ -209,12 +253,12 @@
      "problem_md": "Determine the boiling point of this substance. boiling point = °C",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "80 (°C);\n(c) temperature difference = 27 (°C);\nsubstitution; allow ECF from incorrect\ntemperature difference\nevaluation;\n37296, 10080 = 2 marks\ne.g.\n∆T = 37 - 10 = 27 (°C)\nenergy = 1.2 × 840 × 27\n(energy =) 27 000 (J) allow 27216, 27220, 27200\n(Total for Question 1 = 8 marks)\nAnswer Notes Marks",
+     "solution_md": "80 (°C);",
      "mark_points": [
       {
        "id": "2021-01-1-b-ii-MP1",
        "marks": 1,
-       "text_md": "80 (°C);\n(c) temperature difference = 27 (°C);\nsubstitution; allow ECF from incorrect\ntemperature difference\nevaluation;\n37296, 10080 = 2 marks\ne.g.\n∆T = 37 - 10 = 27 (°C)\nenergy = 1.2 × 840 × 27\n(energy =) 27 000 (J) allow 27216, 27220, 27200\n(Total for Question 1 = 8 marks)\nAnswer Notes Marks"
+       "text_md": "80 (°C);"
       }
      ],
      "source_page": 5,
@@ -234,7 +278,15 @@
      "question_type": "structured",
      "problem_md": "The substance has a mass of 1.2 kg. Calculate the energy required to raise the temperature of the substance from 10 °C to 37 °C. [assume specific heat capacity of substance = 840 J/kg °C] energy = J",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "temperature difference = 27 (°C);\nsubstitution; allow ECF from incorrect\ntemperature difference\nevaluation;\n37296, 10080 = 2 marks\ne.g.\n∆T = 37 - 10 = 27 (°C)\nenergy = 1.2 × 840 × 27\n(energy =) 27 000 (J) allow 27216, 27220, 27200\n(Total for Question 1 = 8 marks)\nAnswer Notes Marks",
+     "mark_points": [
+      {
+       "id": "2021-01-1-c-MP1",
+       "marks": 3,
+       "text_md": "temperature difference = 27 (°C);\nsubstitution; allow ECF from incorrect\ntemperature difference\nevaluation;\n37296, 10080 = 2 marks\ne.g.\n∆T = 37 - 10 = 27 (°C)\nenergy = 1.2 × 840 × 27\n(energy =) 27 000 (J) allow 27216, 27220, 27200\n(Total for Question 1 = 8 marks)\nAnswer Notes Marks"
+      }
+     ],
      "source_page": 5,
      "assets": [],
      "spec_point_codes": [],
@@ -262,7 +314,15 @@
      "question_type": "structured",
      "problem_md": "The weight of the metal block acts through point G. Give the name of point G.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "centre of gravity / centre of mass; allow centre of weight",
+     "mark_points": [
+      {
+       "id": "2021-01-2-a-i-MP1",
+       "marks": 1,
+       "text_md": "centre of gravity / centre of mass; allow centre of weight"
+      }
+     ],
      "source_page": 6,
      "assets": [],
      "spec_point_codes": [],
@@ -280,7 +340,15 @@
      "question_type": "structured",
      "problem_md": "Name a piece of apparatus that could be used to measure the weight of the metal block.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "balance / newtonmeter; allow newton scales\nignore scales",
+     "mark_points": [
+      {
+       "id": "2021-01-2-a-ii-MP1",
+       "marks": 1,
+       "text_md": "balance / newtonmeter; allow newton scales\nignore scales"
+      }
+     ],
      "source_page": 6,
      "assets": [],
      "spec_point_codes": [],
@@ -530,7 +598,15 @@
      "question_type": "structured",
      "problem_md": "State the formula linking the speed, frequency and wavelength of a wave.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "speed = frequency × wavelength; allow standard\nsymbols and\nrearrangements e.g. v\n=f×λ",
+     "mark_points": [
+      {
+       "id": "2021-01-4-a-i-MP1",
+       "marks": 1,
+       "text_md": "speed = frequency × wavelength; allow standard\nsymbols and\nrearrangements e.g. v\n=f×λ"
+      }
+     ],
      "source_page": 10,
      "assets": [],
      "spec_point_codes": [],
@@ -548,7 +624,15 @@
      "question_type": "structured",
      "problem_md": "Use the oscilloscope trace to calculate the speed of the wave. speed = m/s",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "determination of period;\nconversion from ms to s;\nevaluation of frequency;\nsubstitution into v = f × λ; allow ECF from\nincorrect frequency\nevaluation of speed; -1 for POT error\n175, 700 (m/s) = 3\ne.g.\nperiod = 4 squares\nperiod = (4 × 1 =) 4 ms allow 0.004 (s)\nfrequency (= 1/4 × 10-3) = 250 (Hz)\nspeed = 1.4 × 250\nspeed = 350 (m/s)",
+     "mark_points": [
+      {
+       "id": "2021-01-4-a-ii-MP1",
+       "marks": 5,
+       "text_md": "determination of period;\nconversion from ms to s;\nevaluation of frequency;\nsubstitution into v = f × λ; allow ECF from\nincorrect frequency\nevaluation of speed; -1 for POT error\n175, 700 (m/s) = 3\ne.g.\nperiod = 4 squares\nperiod = (4 × 1 =) 4 ms allow 0.004 (s)\nfrequency (= 1/4 × 10-3) = 250 (Hz)\nspeed = 1.4 × 250\nspeed = 350 (m/s)"
+      }
+     ],
      "source_page": 10,
      "assets": [],
      "spec_point_codes": [],
@@ -564,9 +648,17 @@
      "part_number": "4(b)",
      "marks": 5,
      "question_type": "structured",
-     "problem_md": "Another student uses this method to determine the speed of sound. Step 1 \u0007The student stands 50 m away from her teacher, measuring the distance with a metre ruler. Step 2 \u0007The teacher makes a loud sound and flashes a light at the same time. Step 3 \u0007The student starts the stopwatch when she sees the flash of light. Step 4 \u0007She stops the stopwatch when she hears the loud sound. The speed of sound is calculated using the formula distance speed of sound = time taken Evaluate whether this method could produce an accurate value for the speed of sound in air.",
+     "problem_md": "Another student uses this method to determine the speed of sound. Step 1 The student stands 50 m away from her teacher, measuring the distance with a metre ruler. Step 2 The teacher makes a loud sound and flashes a light at the same time. Step 3 The student starts the stopwatch when she sees the flash of light. Step 4 She stops the stopwatch when she hears the loud sound. The speed of sound is calculated using the formula distance speed of sound = time taken Evaluate whether this method could produce an accurate value for the speed of sound in air.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "any five from: ignore descriptions of\ndifferent experimental\nmethods\nMP1. reference to reaction time; allow description of\nreaction time issues\nMP2. suggestion that light flash and sound may\nnot be at the same time;\nMP3. idea that distance is too short (to give\naccurate value);\nMP4. idea that ruler is not appropriate to allow suggestion that\nmeasure this distance; trundle wheel/tape\nmeasure should be\nused\nMP5. idea of mis-counting the number of ruler\nlengths;\nMP6. idea of zero error on ruler;\nMP7. idea of ruler not going in a straight line; allow ground not being\nlevel\nMP8. idea of lack of repeats;\nMP9. idea that time of travel is too short to be\nmeasured by a human;\n(Total for Question 4 = 11 marks)\nAnswer Notes Marks",
+     "mark_points": [
+      {
+       "id": "2021-01-4-b-MP1",
+       "marks": 5,
+       "text_md": "any five from: ignore descriptions of\ndifferent experimental\nmethods\nMP1. reference to reaction time; allow description of\nreaction time issues\nMP2. suggestion that light flash and sound may\nnot be at the same time;\nMP3. idea that distance is too short (to give\naccurate value);\nMP4. idea that ruler is not appropriate to allow suggestion that\nmeasure this distance; trundle wheel/tape\nmeasure should be\nused\nMP5. idea of mis-counting the number of ruler\nlengths;\nMP6. idea of zero error on ruler;\nMP7. idea of ruler not going in a straight line; allow ground not being\nlevel\nMP8. idea of lack of repeats;\nMP9. idea that time of travel is too short to be\nmeasured by a human;\n(Total for Question 4 = 11 marks)\nAnswer Notes Marks"
+      }
+     ],
      "source_page": 11,
      "assets": [],
      "spec_point_codes": [],
@@ -691,12 +783,12 @@
      "problem_md": "Explain how cosmic microwave background radiation (CMBR) supports the Big Bang theory.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "any two from:\nMP1. CMBR appears to be the same in all directions /\nis everywhere;\nMP2. (which) implies all parts of the Universe were in allow implication of\ncontact a long time ago; idea of coming from\nsingle point\nMP3. wavelength has increased (as the universe has allow red-shift of\nexpanded); radiation\nallow frequency has\ndecreased\nMP4. Universe was (significantly) hotter long ago; allow RA\n(b) change in wavelength = 78 (nm); ignore units\nsubstitution;\nrearrangement;\nevaluation; -1 for POT error\nuse of incorrect source\nwavelength gives\n3.4 × 107 (m/s) = 3\ne.g.\n(683 – 605 =) 78 (nm)\n78 / 605 = v / c\nv = 3.0 × 108 × (78/605)\n(v =) 3.9 × 107 (m/s) allow 3.86… × 107 (m/s)\n(Total for Question 6 = 6 marks)\nAnswer Notes Marks",
+     "solution_md": "any two from:\nMP1. CMBR appears to be the same in all directions /\nis everywhere;\nMP2. (which) implies all parts of the Universe were in allow implication of\ncontact a long time ago; idea of coming from\nsingle point\nMP3. wavelength has increased (as the universe has allow red-shift of\nexpanded); radiation\nallow frequency has\ndecreased\nMP4. Universe was (significantly) hotter long ago; allow RA",
      "mark_points": [
       {
        "id": "2021-01-6-a-MP1",
        "marks": 2,
-       "text_md": "any two from:\nMP1. CMBR appears to be the same in all directions /\nis everywhere;\nMP2. (which) implies all parts of the Universe were in allow implication of\ncontact a long time ago; idea of coming from\nsingle point\nMP3. wavelength has increased (as the universe has allow red-shift of\nexpanded); radiation\nallow frequency has\ndecreased\nMP4. Universe was (significantly) hotter long ago; allow RA\n(b) change in wavelength = 78 (nm); ignore units\nsubstitution;\nrearrangement;\nevaluation; -1 for POT error\nuse of incorrect source\nwavelength gives\n3.4 × 107 (m/s) = 3\ne.g.\n(683 – 605 =) 78 (nm)\n78 / 605 = v / c\nv = 3.0 × 108 × (78/605)\n(v =) 3.9 × 107 (m/s) allow 3.86… × 107 (m/s)\n(Total for Question 6 = 6 marks)\nAnswer Notes Marks"
+       "text_md": "any two from:\nMP1. CMBR appears to be the same in all directions /\nis everywhere;\nMP2. (which) implies all parts of the Universe were in allow implication of\ncontact a long time ago; idea of coming from\nsingle point\nMP3. wavelength has increased (as the universe has allow red-shift of\nexpanded); radiation\nallow frequency has\ndecreased\nMP4. Universe was (significantly) hotter long ago; allow RA"
       }
      ],
      "source_page": 13,
@@ -716,7 +808,15 @@
      "question_type": "structured",
      "problem_md": "Hydrogen gas in a laboratory on Earth emits light with a wavelength of 605 nm. A distant galaxy contains hydrogen which emits light of the same wavelength. The wavelength of the light from the distant galaxy is measured as 683 nm on Earth. Calculate the speed of the distant galaxy. [speed of light = 3.0 × 108 m/s] speed = m/s",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "change in wavelength = 78 (nm); ignore units\nsubstitution;\nrearrangement;\nevaluation; -1 for POT error\nuse of incorrect source\nwavelength gives\n3.4 × 107 (m/s) = 3\ne.g.\n(683 – 605 =) 78 (nm)\n78 / 605 = v / c\nv = 3.0 × 108 × (78/605)\n(v =) 3.9 × 107 (m/s) allow 3.86… × 107 (m/s)\n(Total for Question 6 = 6 marks)\nAnswer Notes Marks",
+     "mark_points": [
+      {
+       "id": "2021-01-6-b-MP1",
+       "marks": 4,
+       "text_md": "change in wavelength = 78 (nm); ignore units\nsubstitution;\nrearrangement;\nevaluation; -1 for POT error\nuse of incorrect source\nwavelength gives\n3.4 × 107 (m/s) = 3\ne.g.\n(683 – 605 =) 78 (nm)\n78 / 605 = v / c\nv = 3.0 × 108 × (78/605)\n(v =) 3.9 × 107 (m/s) allow 3.86… × 107 (m/s)\n(Total for Question 6 = 6 marks)\nAnswer Notes Marks"
+      }
+     ],
      "source_page": 13,
      "assets": [],
      "spec_point_codes": [],
@@ -745,12 +845,12 @@
      "problem_md": "Negatively charged water droplets fall into bucket A. Describe how bucket A becomes negatively charged.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "movement of electrons;\nbucket gains electrons; scores both marks\n(b) (droplets in each stream are) like/same charge;\n(like charges) repel; ignore attraction to\nbucket",
+     "solution_md": "movement of electrons;\nbucket gains electrons; scores both marks",
      "mark_points": [
       {
        "id": "2021-01-7-a-MP1",
        "marks": 2,
-       "text_md": "movement of electrons;\nbucket gains electrons; scores both marks\n(b) (droplets in each stream are) like/same charge;\n(like charges) repel; ignore attraction to\nbucket"
+       "text_md": "movement of electrons;\nbucket gains electrons; scores both marks"
       }
      ],
      "source_page": 14,
@@ -770,7 +870,15 @@
      "question_type": "structured",
      "problem_md": "Explain why the negatively charged droplets spread out as they fall.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "(droplets in each stream are) like/same charge;\n(like charges) repel; ignore attraction to\nbucket",
+     "mark_points": [
+      {
+       "id": "2021-01-7-b-MP1",
+       "marks": 2,
+       "text_md": "(droplets in each stream are) like/same charge;\n(like charges) repel; ignore attraction to\nbucket"
+      }
+     ],
      "source_page": 14,
      "assets": [],
      "spec_point_codes": [],

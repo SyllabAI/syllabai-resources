@@ -1,7 +1,7 @@
 {
  "schema": "syllabai.official-paper-questions/0.2",
- "generated_utc": "2026-10-25T20:42:56Z",
- "generator": "official_examq_extract.py v0.17.4 (ADR-039) series=2021-01 paper=1PR",
+ "generated_utc": "2026-10-25T22:06:17Z",
+ "generator": "official_examq_extract.py v0.19.0 (ADR-039) series=2021-01 paper=1PR",
  "paper_id": "pearson-edexcel:international-gcse:physics:4ph1:2021-01:4PH1/1PR",
  "source": {
   "qp_sha256": "29edd018de47b0214c113f69eb4ae69e1ddaa6c9aea3ff18103bf340d1bf43b1",
@@ -180,12 +180,12 @@
      "problem_md": "Complete the table to show the missing parts of the electromagnetic spectrum. Thermometer Part of electromagnetic spectrum P Q red light R S violet light T",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "3\nthermometer part of spectrum\nP infrared;\nQ red\nR green / yellow; allow all valid colours/\nvisible\nS violet\nT ultraviolet;\n(b) any reference to absorption; allow reference to\nreflection\nblack is the better/best/good absorber; allow reference to\n‘poor reflector’\n(c) infrared/IR;\n(Total for Question 2 = 6 marks)\nAnswer Notes Marks",
+     "solution_md": "3\nthermometer part of spectrum\nP infrared;\nQ red\nR green / yellow; allow all valid colours/\nvisible\nS violet\nT ultraviolet;",
      "mark_points": [
       {
        "id": "2021-01-2-a-MP1",
        "marks": 3,
-       "text_md": "3\nthermometer part of spectrum\nP infrared;\nQ red\nR green / yellow; allow all valid colours/\nvisible\nS violet\nT ultraviolet;\n(b) any reference to absorption; allow reference to\nreflection\nblack is the better/best/good absorber; allow reference to\n‘poor reflector’\n(c) infrared/IR;\n(Total for Question 2 = 6 marks)\nAnswer Notes Marks"
+       "text_md": "3\nthermometer part of spectrum\nP infrared;\nQ red\nR green / yellow; allow all valid colours/\nvisible\nS violet\nT ultraviolet;"
       }
      ],
      "source_page": 6,
@@ -217,7 +217,15 @@
      "question_type": "structured",
      "problem_md": "Suggest why the lower part of each thermometer should be painted black.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "any reference to absorption; allow reference to\nreflection\nblack is the better/best/good absorber; allow reference to\n‘poor reflector’",
+     "mark_points": [
+      {
+       "id": "2021-01-2-b-MP1",
+       "marks": 2,
+       "text_md": "any reference to absorption; allow reference to\nreflection\nblack is the better/best/good absorber; allow reference to\n‘poor reflector’"
+      }
+     ],
      "source_page": 7,
      "assets": [],
      "spec_point_codes": [],
@@ -235,7 +243,15 @@
      "question_type": "structured",
      "problem_md": "The equipment is left for a short period of time. The thermometers now show higher temperatures than before. State the part of the electromagnetic spectrum in this demonstration that would give the largest temperature increase.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "infrared/IR;\n(Total for Question 2 = 6 marks)\nAnswer Notes Marks",
+     "mark_points": [
+      {
+       "id": "2021-01-2-c-MP1",
+       "marks": 1,
+       "text_md": "infrared/IR;\n(Total for Question 2 = 6 marks)\nAnswer Notes Marks"
+      }
+     ],
      "source_page": 7,
      "assets": [],
      "spec_point_codes": [],
@@ -264,12 +280,12 @@
      "problem_md": "Object X has a circular orbit around the star. State the type of object that has a circular orbit around a star.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "planet;\n(b) comet; accept planet\n(c) substitution into given formula;\nconversion of 35 days into seconds;\nevaluation; allow full credit for\n2.6927937 × 1010 if unit\nchanged to m/day.\ne.g.\nv = 2 × π × 1.5 × 1011/(35 × 24 × 60 × 60)\nv = 310 000 m/s\n311665.93(7)8\nAnswer for incorrect/no\nconversion of days→\nseconds 2.69etc x 1010\nscores 2\n-1 for POT error\n(Total for Question 3 = 5 marks)\nAnswer Notes Marks",
+     "solution_md": "planet;",
      "mark_points": [
       {
        "id": "2021-01-3-a-MP1",
        "marks": 1,
-       "text_md": "planet;\n(b) comet; accept planet\n(c) substitution into given formula;\nconversion of 35 days into seconds;\nevaluation; allow full credit for\n2.6927937 × 1010 if unit\nchanged to m/day.\ne.g.\nv = 2 × π × 1.5 × 1011/(35 × 24 × 60 × 60)\nv = 310 000 m/s\n311665.93(7)8\nAnswer for incorrect/no\nconversion of days→\nseconds 2.69etc x 1010\nscores 2\n-1 for POT error\n(Total for Question 3 = 5 marks)\nAnswer Notes Marks"
+       "text_md": "planet;"
       }
      ],
      "source_page": 8,
@@ -289,7 +305,15 @@
      "question_type": "structured",
      "problem_md": "Object Y has an elliptical orbit around the star. State the type of object that has an elliptical orbit around a star.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "comet; accept planet",
+     "mark_points": [
+      {
+       "id": "2021-01-3-b-MP1",
+       "marks": 1,
+       "text_md": "comet; accept planet"
+      }
+     ],
      "source_page": 8,
      "assets": [],
      "spec_point_codes": [],
@@ -307,7 +331,15 @@
      "question_type": "structured",
      "problem_md": "Object X completes an orbit of the star in 35 days. The radius of its orbit is 1.5 × 1011 m. Calculate the orbital speed of object X. orbital speed = m/s",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "substitution into given formula;\nconversion of 35 days into seconds;\nevaluation; allow full credit for\n2.6927937 × 1010 if unit\nchanged to m/day.\ne.g.\nv = 2 × π × 1.5 × 1011/(35 × 24 × 60 × 60)\nv = 310 000 m/s\n311665.93(7)8\nAnswer for incorrect/no\nconversion of days→\nseconds 2.69etc x 1010\nscores 2\n-1 for POT error\n(Total for Question 3 = 5 marks)\nAnswer Notes Marks",
+     "mark_points": [
+      {
+       "id": "2021-01-3-c-MP1",
+       "marks": 3,
+       "text_md": "substitution into given formula;\nconversion of 35 days into seconds;\nevaluation; allow full credit for\n2.6927937 × 1010 if unit\nchanged to m/day.\ne.g.\nv = 2 × π × 1.5 × 1011/(35 × 24 × 60 × 60)\nv = 310 000 m/s\n311665.93(7)8\nAnswer for incorrect/no\nconversion of days→\nseconds 2.69etc x 1010\nscores 2\n-1 for POT error\n(Total for Question 3 = 5 marks)\nAnswer Notes Marks"
+      }
+     ],
      "source_page": 8,
      "assets": [],
      "spec_point_codes": [],
@@ -601,12 +633,12 @@
      "problem_md": "The car has a mass of 0.13 kg. Calculate the resultant force on the car as it slows down. resultant force = N",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "substitution;\nevaluation; allow ECF from (i)\neg\nF = 0.13 x 86 ignore sign\nF = 11 (N) 11.18, 11.2\n(c) increases time of collision;\nany reference to shallower gradient on graph;\nso acceleration will be smaller (in magnitude);\n(Total for Question 5 = 13 marks)\nAnswer Notes Marks",
+     "solution_md": "substitution;\nevaluation; allow ECF from (i)\neg\nF = 0.13 x 86 ignore sign\nF = 11 (N) 11.18, 11.2",
      "mark_points": [
       {
        "id": "2021-01-5-b-iii-MP1",
        "marks": 2,
-       "text_md": "substitution;\nevaluation; allow ECF from (i)\neg\nF = 0.13 x 86 ignore sign\nF = 11 (N) 11.18, 11.2\n(c) increases time of collision;\nany reference to shallower gradient on graph;\nso acceleration will be smaller (in magnitude);\n(Total for Question 5 = 13 marks)\nAnswer Notes Marks"
+       "text_md": "substitution;\nevaluation; allow ECF from (i)\neg\nF = 0.13 x 86 ignore sign\nF = 11 (N) 11.18, 11.2"
       }
      ],
      "source_page": 13,
@@ -626,7 +658,15 @@
      "question_type": "structured",
      "problem_md": "A piece of soft material is fixed to the front of the toy car. Explain how this will affect the gradient of the velocity-time graph after the car hits the block.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "increases time of collision;\nany reference to shallower gradient on graph;\nso acceleration will be smaller (in magnitude);\n(Total for Question 5 = 13 marks)\nAnswer Notes Marks",
+     "mark_points": [
+      {
+       "id": "2021-01-5-c-MP1",
+       "marks": 3,
+       "text_md": "increases time of collision;\nany reference to shallower gradient on graph;\nso acceleration will be smaller (in magnitude);\n(Total for Question 5 = 13 marks)\nAnswer Notes Marks"
+      }
+     ],
      "source_page": 13,
      "assets": [
       {
@@ -669,12 +709,12 @@
      "problem_md": "Use a protractor to determine the angle of refraction. angle of refraction = degrees",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "17 (degrees); Allow in range 15-19\ndegrees\n(b) refractive index = sin(i) / sin (r); accept n or η for\nrefractive index\naccept any valid\nrearrangement\n(c) substitution; allow ecf from (a)\nevaluation of either sine correctly;\nevaluation;\ne.g.\nrefractive index = sin(29)/sin(17)\nrefractive index = 0.484…/0.292… 0.48480962/0.292371705\nrefractive index = 1.7 1.6581961\n(Total for Question 6 = 5 marks)\nAnswer Notes Marks",
+     "solution_md": "17 (degrees); Allow in range 15-19\ndegrees",
      "mark_points": [
       {
        "id": "2021-01-6-a-MP1",
        "marks": 1,
-       "text_md": "17 (degrees); Allow in range 15-19\ndegrees\n(b) refractive index = sin(i) / sin (r); accept n or η for\nrefractive index\naccept any valid\nrearrangement\n(c) substitution; allow ecf from (a)\nevaluation of either sine correctly;\nevaluation;\ne.g.\nrefractive index = sin(29)/sin(17)\nrefractive index = 0.484…/0.292… 0.48480962/0.292371705\nrefractive index = 1.7 1.6581961\n(Total for Question 6 = 5 marks)\nAnswer Notes Marks"
+       "text_md": "17 (degrees); Allow in range 15-19\ndegrees"
       }
      ],
      "source_page": 15,
@@ -694,7 +734,15 @@
      "question_type": "structured",
      "problem_md": "State the formula linking refractive index, angle of incidence and angle of refraction.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "refractive index = sin(i) / sin (r); accept n or η for\nrefractive index\naccept any valid\nrearrangement",
+     "mark_points": [
+      {
+       "id": "2021-01-6-b-MP1",
+       "marks": 1,
+       "text_md": "refractive index = sin(i) / sin (r); accept n or η for\nrefractive index\naccept any valid\nrearrangement"
+      }
+     ],
      "source_page": 15,
      "assets": [],
      "spec_point_codes": [],
@@ -712,7 +760,15 @@
      "question_type": "structured",
      "problem_md": "Calculate the refractive index of this glass. refractive index =",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "substitution; allow ecf from (a)\nevaluation of either sine correctly;\nevaluation;\ne.g.\nrefractive index = sin(29)/sin(17)\nrefractive index = 0.484…/0.292… 0.48480962/0.292371705\nrefractive index = 1.7 1.6581961\n(Total for Question 6 = 5 marks)\nAnswer Notes Marks",
+     "mark_points": [
+      {
+       "id": "2021-01-6-c-MP1",
+       "marks": 3,
+       "text_md": "substitution; allow ecf from (a)\nevaluation of either sine correctly;\nevaluation;\ne.g.\nrefractive index = sin(29)/sin(17)\nrefractive index = 0.484…/0.292… 0.48480962/0.292371705\nrefractive index = 1.7 1.6581961\n(Total for Question 6 = 5 marks)\nAnswer Notes Marks"
+      }
+     ],
      "source_page": 15,
      "assets": [],
      "spec_point_codes": [],
@@ -740,7 +796,15 @@
      "question_type": "structured",
      "problem_md": "Describe the relationship shown by the graph.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "as pressure increases, volume decreases; ORA\npattern statement relating to gradient;\ne.g. ‘at a decreasing rate’\n‘inversely\nproportional’ scores\n2 marks.",
+     "mark_points": [
+      {
+       "id": "2021-01-7-a-i-MP1",
+       "marks": 2,
+       "text_md": "as pressure increases, volume decreases; ORA\npattern statement relating to gradient;\ne.g. ‘at a decreasing rate’\n‘inversely\nproportional’ scores\n2 marks."
+      }
+     ],
      "source_page": 16,
      "assets": [
       {
@@ -772,7 +836,15 @@
      "question_type": "structured",
      "problem_md": "State the formula linking pressure difference, height, gravitational field strength and density.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "pressure = depth × gravitational field strength × density; allow recognised\nsymbols\ne.g. P or p for\npressure\nd or h for depth\nρ for density\nreject d for density,\nreject gravity for g",
+     "mark_points": [
+      {
+       "id": "2021-01-7-a-ii-MP1",
+       "marks": 1,
+       "text_md": "pressure = depth × gravitational field strength × density; allow recognised\nsymbols\ne.g. P or p for\npressure\nd or h for depth\nρ for density\nreject d for density,\nreject gravity for g"
+      }
+     ],
      "source_page": 16,
      "assets": [],
      "spec_point_codes": [],
@@ -790,7 +862,15 @@
      "question_type": "structured",
      "problem_md": "The depth of the fizzy water in the glass is 22 cm. The density of the fizzy water is 1080 kg/m3. Calculate the pressure difference at the bottom of the glass due to the fizzy water. pressure difference = Pa",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "substitution;\nevaluation;\ne.g.\npressure = 0.22 × 10 × 1080 Accept use of\npressure = 2 400 (Pa) g=9.8(1) (N/kg)\n2376 (Pa)\n-1 for POT error\nprovided g is used",
+     "mark_points": [
+      {
+       "id": "2021-01-7-a-iii-MP1",
+       "marks": 2,
+       "text_md": "substitution;\nevaluation;\ne.g.\npressure = 0.22 × 10 × 1080 Accept use of\npressure = 2 400 (Pa) g=9.8(1) (N/kg)\n2376 (Pa)\n-1 for POT error\nprovided g is used"
+      }
+     ],
      "source_page": 17,
      "assets": [],
      "spec_point_codes": [],
@@ -808,7 +888,15 @@
      "question_type": "structured",
      "problem_md": "Calculate the pressure of the gas in the bubble when the bubble is at the bottom of the glass. [atmospheric pressure = 101 000 Pa] pressure = Pa",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "103 000 (Pa) accept 103 400 (Pa)\nallow ECF",
+     "mark_points": [
+      {
+       "id": "2021-01-7-a-iv-MP1",
+       "marks": 1,
+       "text_md": "103 000 (Pa) accept 103 400 (Pa)\nallow ECF"
+      }
+     ],
      "source_page": 17,
      "assets": [],
      "spec_point_codes": [],
@@ -826,7 +914,15 @@
      "question_type": "structured",
      "problem_md": "When a bubble is at the top of the glass, the pressure of the gas in the bubble is equal to 101 000 Pa and the bubble has a volume of 0.084 cm3. Calculate the volume of the gas in the bubble when the bubble is at the bottom of the glass. Assume the temperature of the gas remains constant. volume = cm3",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "substitution into given formula; allow ECF from (iv)\nrearrangement; e.g. 98624 gives\n0.086 (cm3)\nevaluation;\ne.g\np1 × V1 = p2 × V2 0.082368932\n101 000 × 0.084 = 103 000 x V2\nV2 = 0.082 (cm3) -1 for POT error",
+     "mark_points": [
+      {
+       "id": "2021-01-7-a-v-MP1",
+       "marks": 3,
+       "text_md": "substitution into given formula; allow ECF from (iv)\nrearrangement; e.g. 98624 gives\n0.086 (cm3)\nevaluation;\ne.g\np1 × V1 = p2 × V2 0.082368932\n101 000 × 0.084 = 103 000 x V2\nV2 = 0.082 (cm3) -1 for POT error"
+      }
+     ],
      "source_page": 17,
      "assets": [],
      "spec_point_codes": [],
@@ -844,7 +940,15 @@
      "question_type": "structured",
      "problem_md": "A force called upthrust acts vertically upwards on the bubble. When the bubble is released, it accelerates vertically upwards. Draw two labelled arrows on the diagram to show the forces on the bubble as it is released. bubble",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "vertical arrow upwards labelled upthrust;\nvertical arrow downwards labelled weight; ignore drag\nupthrust > weight; reject this mark if\nthere are more than\ntwo arrows\n(Total for Question 7 = 12 marks)\nAnswer Notes Marks",
+     "mark_points": [
+      {
+       "id": "2021-01-7-b-MP1",
+       "marks": 3,
+       "text_md": "vertical arrow upwards labelled upthrust;\nvertical arrow downwards labelled weight; ignore drag\nupthrust > weight; reject this mark if\nthere are more than\ntwo arrows\n(Total for Question 7 = 12 marks)\nAnswer Notes Marks"
+      }
+     ],
      "source_page": 18,
      "assets": [
       {
@@ -889,12 +993,12 @@
      "problem_md": "The diagram shows a bar magnet. Draw four magnetic field lines around the bar magnet. N S",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "at least four lines leaving/entering poles; accept part loops\nignore field lines that\ncross\nat least one loop ‘above’ and one loop ‘below’;\narrowheads on at least four lines which are self-\nconsistent;\n(b) idea of wire cutting field lines; allow higher order ideas\ninvolving flux linkage\nidea of an induced voltage;\n(Total for Question 8 = 5 marks)\nAnswer Notes Marks\n9 Any FIVE from:\nMP1 reference to Doppler effect;\nMP2 wavefronts are emitted at constant\nfrequency by buzzer;\nMP3 wavefronts arrive at student (A) further\napart than when they were emitted;\nMP4 distance between wavefronts is the Allow ‘wavelength\nwavelength; increases’ if MP3 or MP4\nnot awarded\nMP5 speed = frequency × wavelength;\nMP6 speed of waves is constant;\nMP7 as speed is constant and wavelength has\nincreased, frequency must decrease;\nMP8 decrease in frequency is experienced as a\ndecrease in pitch;\n(Total for Question 9 = 5 marks)\nAnswer Notes Marks",
+     "solution_md": "at least four lines leaving/entering poles; accept part loops\nignore field lines that\ncross\nat least one loop ‘above’ and one loop ‘below’;\narrowheads on at least four lines which are self-\nconsistent;",
      "mark_points": [
       {
        "id": "2021-01-8-a-MP1",
        "marks": 3,
-       "text_md": "at least four lines leaving/entering poles; accept part loops\nignore field lines that\ncross\nat least one loop ‘above’ and one loop ‘below’;\narrowheads on at least four lines which are self-\nconsistent;\n(b) idea of wire cutting field lines; allow higher order ideas\ninvolving flux linkage\nidea of an induced voltage;\n(Total for Question 8 = 5 marks)\nAnswer Notes Marks\n9 Any FIVE from:\nMP1 reference to Doppler effect;\nMP2 wavefronts are emitted at constant\nfrequency by buzzer;\nMP3 wavefronts arrive at student (A) further\napart than when they were emitted;\nMP4 distance between wavefronts is the Allow ‘wavelength\nwavelength; increases’ if MP3 or MP4\nnot awarded\nMP5 speed = frequency × wavelength;\nMP6 speed of waves is constant;\nMP7 as speed is constant and wavelength has\nincreased, frequency must decrease;\nMP8 decrease in frequency is experienced as a\ndecrease in pitch;\n(Total for Question 9 = 5 marks)\nAnswer Notes Marks"
+       "text_md": "at least four lines leaving/entering poles; accept part loops\nignore field lines that\ncross\nat least one loop ‘above’ and one loop ‘below’;\narrowheads on at least four lines which are self-\nconsistent;"
       }
      ],
      "source_page": 20,
@@ -926,7 +1030,15 @@
      "question_type": "structured",
      "problem_md": "The diagram shows a loop of wire connected to the terminals of a voltmeter. magnet voltmeter Explain why the voltmeter reading changes from zero when the magnet is moved near the loop of wire.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "idea of wire cutting field lines; allow higher order ideas\ninvolving flux linkage\nidea of an induced voltage;\n(Total for Question 8 = 5 marks)\nAnswer Notes Marks",
+     "mark_points": [
+      {
+       "id": "2021-01-8-b-MP1",
+       "marks": 2,
+       "text_md": "idea of wire cutting field lines; allow higher order ideas\ninvolving flux linkage\nidea of an induced voltage;\n(Total for Question 8 = 5 marks)\nAnswer Notes Marks"
+      }
+     ],
      "source_page": 21,
      "assets": [
       {
@@ -966,7 +1078,15 @@
      "question_type": "structured",
      "problem_md": "The diagram shows two students holding a piece of string with a box attached. The box has a buzzer inside and can move along the string. student A student B box with buzzer The buzzer in the box emits a loud sound of constant frequency. The box moves away from student A at a constant speed. Explain why the sound heard by student A has a different frequency to the sound emitted by the buzzer.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "Any FIVE from:\nMP1 reference to Doppler effect;\nMP2 wavefronts are emitted at constant\nfrequency by buzzer;\nMP3 wavefronts arrive at student (A) further\napart than when they were emitted;\nMP4 distance between wavefronts is the Allow ‘wavelength\nwavelength; increases’ if MP3 or MP4\nnot awarded\nMP5 speed = frequency × wavelength;\nMP6 speed of waves is constant;\nMP7 as speed is constant and wavelength has\nincreased, frequency must decrease;\nMP8 decrease in frequency is experienced as a\ndecrease in pitch;\n(Total for Question 9 = 5 marks)\nAnswer Notes Marks",
+     "mark_points": [
+      {
+       "id": "2021-01-9-MP1",
+       "marks": 5,
+       "text_md": "Any FIVE from:\nMP1 reference to Doppler effect;\nMP2 wavefronts are emitted at constant\nfrequency by buzzer;\nMP3 wavefronts arrive at student (A) further\napart than when they were emitted;\nMP4 distance between wavefronts is the Allow ‘wavelength\nwavelength; increases’ if MP3 or MP4\nnot awarded\nMP5 speed = frequency × wavelength;\nMP6 speed of waves is constant;\nMP7 as speed is constant and wavelength has\nincreased, frequency must decrease;\nMP8 decrease in frequency is experienced as a\ndecrease in pitch;\n(Total for Question 9 = 5 marks)\nAnswer Notes Marks"
+      }
+     ],
      "source_page": 23,
      "assets": [
       {
@@ -1007,12 +1127,12 @@
      "problem_md": "Uranium-235 captures a neutron and undergoes nuclear fission in a chain reaction. The equation shows a possible nuclear fission reaction. 235 92 U + 10 n → 97 40 Zr + 135 1 52 Te + x 0 n Calculate x, the number of neutrons released by this fission reaction. x =",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "236 – (97 + 135); answer of 4 scores 2\nx = 4;\n(b) (fission) releases neutrons;\nneutrons can be captured by other uranium nuclei;\n(these nuclei) then undergo fission;\n(c) evidence of halving of 72 (kBq);\nevidence of four half-lives required;\ne.g. count rate after 4 half-lives is 4.5 (kBq)\nevidence that four half-lives is equivalent to 60\nmillion years;\n(d) Any FIVE from:\nMP1 Idea of strong containers;\nMP2 idea that containers can’t rust; accept idea of a\nlocation that prevents\nrust\nMP3 idea that rust-proof containers\nexpensive/difficult to manufacture;\nMP4 reference to security of waste site; accept low earthquake\nrisk\nMP5 reference to dilution in sea water;\nMP6 reference to leakage into water table;\n(Total for Question 10 = 13 marks)\nAnswer Notes Marks",
+     "solution_md": "236 – (97 + 135); answer of 4 scores 2\nx = 4;",
      "mark_points": [
       {
        "id": "2021-01-10-a-MP1",
        "marks": 2,
-       "text_md": "236 – (97 + 135); answer of 4 scores 2\nx = 4;\n(b) (fission) releases neutrons;\nneutrons can be captured by other uranium nuclei;\n(these nuclei) then undergo fission;\n(c) evidence of halving of 72 (kBq);\nevidence of four half-lives required;\ne.g. count rate after 4 half-lives is 4.5 (kBq)\nevidence that four half-lives is equivalent to 60\nmillion years;\n(d) Any FIVE from:\nMP1 Idea of strong containers;\nMP2 idea that containers can’t rust; accept idea of a\nlocation that prevents\nrust\nMP3 idea that rust-proof containers\nexpensive/difficult to manufacture;\nMP4 reference to security of waste site; accept low earthquake\nrisk\nMP5 reference to dilution in sea water;\nMP6 reference to leakage into water table;\n(Total for Question 10 = 13 marks)\nAnswer Notes Marks"
+       "text_md": "236 – (97 + 135); answer of 4 scores 2\nx = 4;"
       }
      ],
      "source_page": 24,
@@ -1032,7 +1152,15 @@
      "question_type": "structured",
      "problem_md": "Describe what is meant by a chain reaction.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "(fission) releases neutrons;\nneutrons can be captured by other uranium nuclei;\n(these nuclei) then undergo fission;",
+     "mark_points": [
+      {
+       "id": "2021-01-10-b-MP1",
+       "marks": 3,
+       "text_md": "(fission) releases neutrons;\nneutrons can be captured by other uranium nuclei;\n(these nuclei) then undergo fission;"
+      }
+     ],
      "source_page": 24,
      "assets": [],
      "spec_point_codes": [],
@@ -1050,7 +1178,15 @@
      "question_type": "structured",
      "problem_md": "Iodine-129 is an isotope found in radioactive waste from nuclear power stations. Iodine-129 has a half-life of approximately 15 million years. A sample of iodine-129 has an activity of 72 kBq. Show that the time required for the sample to have an activity less than 5 kBq is approximately 60 million years.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "evidence of halving of 72 (kBq);\nevidence of four half-lives required;\ne.g. count rate after 4 half-lives is 4.5 (kBq)\nevidence that four half-lives is equivalent to 60\nmillion years;",
+     "mark_points": [
+      {
+       "id": "2021-01-10-c-MP1",
+       "marks": 3,
+       "text_md": "evidence of halving of 72 (kBq);\nevidence of four half-lives required;\ne.g. count rate after 4 half-lives is 4.5 (kBq)\nevidence that four half-lives is equivalent to 60\nmillion years;"
+      }
+     ],
      "source_page": 24,
      "assets": [],
      "spec_point_codes": [],
@@ -1068,7 +1204,15 @@
      "question_type": "structured",
      "problem_md": "Some radioactive waste from nuclear power stations has a very long half-life. Discuss precautions that must be taken when disposing of this radioactive waste.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "Any FIVE from:\nMP1 Idea of strong containers;\nMP2 idea that containers can’t rust; accept idea of a\nlocation that prevents\nrust\nMP3 idea that rust-proof containers\nexpensive/difficult to manufacture;\nMP4 reference to security of waste site; accept low earthquake\nrisk\nMP5 reference to dilution in sea water;\nMP6 reference to leakage into water table;\n(Total for Question 10 = 13 marks)\nAnswer Notes Marks",
+     "mark_points": [
+      {
+       "id": "2021-01-10-d-MP1",
+       "marks": 5,
+       "text_md": "Any FIVE from:\nMP1 Idea of strong containers;\nMP2 idea that containers can’t rust; accept idea of a\nlocation that prevents\nrust\nMP3 idea that rust-proof containers\nexpensive/difficult to manufacture;\nMP4 reference to security of waste site; accept low earthquake\nrisk\nMP5 reference to dilution in sea water;\nMP6 reference to leakage into water table;\n(Total for Question 10 = 13 marks)\nAnswer Notes Marks"
+      }
+     ],
      "source_page": 25,
      "assets": [],
      "spec_point_codes": [],
@@ -1096,7 +1240,15 @@
      "question_type": "structured",
      "problem_md": "State the formula linking work done, force and distance moved in the direction of the force.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "work done = force × distance (travelled); allow accepted symbols",
+     "mark_points": [
+      {
+       "id": "2021-01-11-a-i-MP1",
+       "marks": 1,
+       "text_md": "work done = force × distance (travelled); allow accepted symbols"
+      }
+     ],
      "source_page": 26,
      "assets": [],
      "spec_point_codes": [],
@@ -1114,7 +1266,15 @@
      "question_type": "structured",
      "problem_md": "The student pulls the block 0.89 m along the ramp with a force of 26 N. Show that the work done on the block by the 26 N force is about 23 J.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "substitution;\nevaluation;\ne.g\nwork done = 0.89 × 26\nwork done = 23.1(4 J)",
+     "mark_points": [
+      {
+       "id": "2021-01-11-a-ii-MP1",
+       "marks": 2,
+       "text_md": "substitution;\nevaluation;\ne.g\nwork done = 0.89 × 26\nwork done = 23.1(4 J)"
+      }
+     ],
      "source_page": 26,
      "assets": [],
      "spec_point_codes": [],
@@ -1132,7 +1292,15 @@
      "question_type": "structured",
      "problem_md": "The block has a mass of 1.3 kg and moves vertically upwards 0.11 m. Calculate the increase in the gravitational potential energy (GPE) store of the block between the bottom and the top of the ramp. increase in GPE = J",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "evidence of recall of formula GPE = mgh;\nsubstitution; allow g = 9.8(1) (N/kg)\nevaluation;\ne.g.\nGPE = mgh\nGPE = 1.3 × 10 × 0.11\nGPE = 1.4(3 J)\n-1 for POT error providing\nuse of g seen",
+     "mark_points": [
+      {
+       "id": "2021-01-11-a-iii-MP1",
+       "marks": 3,
+       "text_md": "evidence of recall of formula GPE = mgh;\nsubstitution; allow g = 9.8(1) (N/kg)\nevaluation;\ne.g.\nGPE = mgh\nGPE = 1.3 × 10 × 0.11\nGPE = 1.4(3 J)\n-1 for POT error providing\nuse of g seen"
+      }
+     ],
      "source_page": 26,
      "assets": [],
      "spec_point_codes": [],
@@ -1150,7 +1318,15 @@
      "question_type": "structured",
      "problem_md": "Explain why the work done to move the block along the ramp is greater than the increase in the GPE store of the block.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "any TWO from:\nany reference to friction/air resistance;\nenergy transferred to the surroundings (by allow ‘heat/thermal energy\nmechanical work); transferred to air/ramp by\nfriction for 2 marks\nblock not necessarily at constant speed;",
+     "mark_points": [
+      {
+       "id": "2021-01-11-a-iv-MP1",
+       "marks": 2,
+       "text_md": "any TWO from:\nany reference to friction/air resistance;\nenergy transferred to the surroundings (by allow ‘heat/thermal energy\nmechanical work); transferred to air/ramp by\nfriction for 2 marks\nblock not necessarily at constant speed;"
+      }
+     ],
      "source_page": 27,
      "assets": [],
      "spec_point_codes": [],
@@ -1168,7 +1344,15 @@
      "question_type": "structured",
      "problem_md": "The student suggests it is better to use a less steep ramp to raise the block through the same vertical height. Discuss an advantage and a disadvantage of using a less steep ramp.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "any TWO from:\nlower force required;\nto prevent block from slipping down required allow ‘to overcome friction’\n/ to move block;\nallow ‘easier to move\nblock’ for 2 marks\nany TWO from:\nlonger distance required (with a lower force);\nmore inefficient; Allow idea of more work\nrequired (for same increase\nin GPE)\ngreater proportion of energy transferred to\nthe surroundings;\n(Total for Question 11 = 12 marks)\nAnswer Notes Marks",
+     "mark_points": [
+      {
+       "id": "2021-01-11-b-MP1",
+       "marks": 4,
+       "text_md": "any TWO from:\nlower force required;\nto prevent block from slipping down required allow ‘to overcome friction’\n/ to move block;\nallow ‘easier to move\nblock’ for 2 marks\nany TWO from:\nlonger distance required (with a lower force);\nmore inefficient; Allow idea of more work\nrequired (for same increase\nin GPE)\ngreater proportion of energy transferred to\nthe surroundings;\n(Total for Question 11 = 12 marks)\nAnswer Notes Marks"
+      }
+     ],
      "source_page": 27,
      "assets": [],
      "spec_point_codes": [],
@@ -1196,7 +1380,15 @@
      "question_type": "structured",
      "problem_md": "Draw the circuit diagram for this electrical circuit. The variable resistor has been drawn for you.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "correct symbol for resistor;\ncorrect symbol for cell;\ncorrect symbol for ammeter;\ncircuit is complete series circuit; reject extra components\nallow ECF for\nmissing/incorrect symbols",
+     "mark_points": [
+      {
+       "id": "2021-01-12-a-i-MP1",
+       "marks": 4,
+       "text_md": "correct symbol for resistor;\ncorrect symbol for cell;\ncorrect symbol for ammeter;\ncircuit is complete series circuit; reject extra components\nallow ECF for\nmissing/incorrect symbols"
+      }
+     ],
      "source_page": 29,
      "assets": [
       {
@@ -1226,7 +1418,15 @@
      "question_type": "structured",
      "problem_md": "Draw a voltmeter on the diagram to measure the voltage of the variable resistor.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "voltmeter symbol is correct and in parallel with\nany component;\nvoltmeter is in parallel with variable resistor;",
+     "mark_points": [
+      {
+       "id": "2021-01-12-a-ii-MP1",
+       "marks": 2,
+       "text_md": "voltmeter symbol is correct and in parallel with\nany component;\nvoltmeter is in parallel with variable resistor;"
+      }
+     ],
      "source_page": 29,
      "assets": [
       {
@@ -1258,7 +1458,15 @@
      "question_type": "structured",
      "problem_md": "Explain how the voltage across the variable resistor changes if more mass is added to the end of the elastic string.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "any FOUR from:\nstretchy resistor increases in resistance (when\nmass increased);\ntotal resistance increases;\nI = V/R; reject V=IR or I=V/R with\nassumption of constant\ncurrent\ncurrent in circuit less;\nvoltage across fixed resistor decreases;\nso voltage across stretchy resistor increases;\nas total voltage is constant/voltage of cell\nconstant;",
+     "mark_points": [
+      {
+       "id": "2021-01-12-b-MP1",
+       "marks": 4,
+       "text_md": "any FOUR from:\nstretchy resistor increases in resistance (when\nmass increased);\ntotal resistance increases;\nI = V/R; reject V=IR or I=V/R with\nassumption of constant\ncurrent\ncurrent in circuit less;\nvoltage across fixed resistor decreases;\nso voltage across stretchy resistor increases;\nas total voltage is constant/voltage of cell\nconstant;"
+      }
+     ],
      "source_page": 29,
      "assets": [],
      "spec_point_codes": [],

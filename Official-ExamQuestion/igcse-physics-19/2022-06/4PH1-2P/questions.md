@@ -26,14 +26,6 @@ State what is meant by the term power.
 > reject idea of P = IV
 > reject “amount of energy
 > in a given time”
-> (b) results table constructed with appliance column allow alternative
-> and power column; orientation with two rows
-> condone power in 1st
-> column
-> ignore names given to non-
-> power heading
-> power column heading to include correct unit; reject if units given with
-> raw data
 
 - **(1)** rate of doing work / rate of energy transfer; condone “amount of
 
@@ -44,6 +36,20 @@ The student measures the mean power output (in watts) for six different applianc
 ![diagram — official paper figure (qp.pdf p.5)](assets/asset_1_b_diagram.png)
 
 > 🖼 crop required: table (qp.pdf p.5)
+
+
+**Mark scheme answer**
+
+> results table constructed with appliance column allow alternative
+> and power column; orientation with two rows
+> condone power in 1st
+> column
+> ignore names given to non-
+> power heading
+> power column heading to include correct unit; reject if units given with
+> raw data
+
+- **(2)** results table constructed with appliance column allow alternative
 
 ### 1(c)(i) [1]
 
@@ -140,7 +146,17 @@ Calculate the magnitude of the velocity of part P after the explosion. velocity 
 > Q’s momentum i.e. (-)7.03
 > (kg m/s) scores 1 mark if no
 > other mark scored
-> (c) ignore references to
+
+- **(3)** setting up equation using conservation of using either substitution of
+
+### 2(c) [3]
+
+A child drops an egg from a height of 10 cm and the egg lands on the floor. Explain why the egg is less likely to break if the floor is covered with a thick carpet than if the floor were covered in hard tiles.
+
+
+**Mark scheme answer**
+
+> ignore references to
 > hard/soft floors
 > ignore references to
 > absorbing force or reduction
@@ -155,11 +171,7 @@ Calculate the magnitude of the velocity of part P after the explosion. velocity 
 > (carpet) reduces force; allow RA
 > Answer Notes Marks
 
-- **(3)** setting up equation using conservation of using either substitution of
-
-### 2(c) [3]
-
-A child drops an egg from a height of 10 cm and the egg lands on the floor. Explain why the egg is less likely to break if the floor is covered with a thick carpet than if the floor were covered in hard tiles.
+- **(3)** ignore references to
 
 
 ## Question 3 (15 marks)
@@ -172,9 +184,33 @@ Mobile phone charger X contains a transformer and is used to charge the phone’
 
 The power of the charger can be calculated using the formula power = current × voltage Calculate the output power of charger X. output power = W
 
+
+**Mark scheme answer**
+
+> substitution;
+> evaluation;
+> e.g.
+> (P =) 1.2 × 5.0
+> (P =) 6.0 (W) allow 6 (W)
+
+- **(2)** substitution;
+
 ### 3(a)(ii) [3]
 
 Calculate the input current to charger X. Assume that charger X is 100% efficient. input current = A
+
+
+**Mark scheme answer**
+
+> substitution using same power as (a)(ii); allow ECF from (a)(i)
+> rearrangement;
+> evaluation;
+> e.g.
+> 6.0 = I × 230
+> (I =) 6.0 / 230
+> (I =) 0.026 (A) allow 0.03 (A)
+
+- **(3)** substitution using same power as (a)(ii); allow ECF from (a)(i)
 
 ### 3(b)(i) [1]
 
@@ -230,7 +266,19 @@ Charger Y can also be used to charge the mobile phone battery. Diagram 2 shows t
 > is now 2.1A”
 > reject reference to
 > input current
-> (c) any four from: accept input/output for
+
+- **(2)** time will be less / eq;
+
+### 3(c) [4]
+
+Both chargers contain step-down transformers. Explain how a step-down transformer works. You may include a diagram to support your answer.
+
+![diagram — official paper figure (qp.pdf p.10) — shared with asset_3_c_diagram_stem](assets/asset_3_c_diagram_stem.png)
+
+
+**Mark scheme answer**
+
+> any four from: accept input/output for
 > primary/secondary
 > MP1. (step-down) transformer decreases voltage; allow idea of fewer
 > turns on secondary
@@ -256,13 +304,7 @@ Charger Y can also be used to charge the mobile phone battery. Diagram 2 shows t
 > d.c.;
 > Answer Notes Marks
 
-- **(2)** time will be less / eq;
-
-### 3(c) [4]
-
-Both chargers contain step-down transformers. Explain how a step-down transformer works. You may include a diagram to support your answer.
-
-![diagram — official paper figure (qp.pdf p.10) — shared with asset_3_c_diagram_stem](assets/asset_3_c_diagram_stem.png)
+- **(4)** any four from: accept input/output for
 
 
 ## Question 4 (10 marks)
@@ -376,7 +418,17 @@ The table gives some statements about different parts of a nuclear reactor. Plac
 > all ticks correct = 3 marks
 > 3-4 ticks correct = 2 marks
 > 1-2 ticks correct = 1 mark
-> (b) ignore references to
+
+- **(3)** all ticks correct = 3 marks
+
+### 5(b) [2]
+
+Describe the role of shielding around a nuclear reactor.
+
+
+**Mark scheme answer**
+
+> ignore references to
 > structural integrity of reactor
 > prevents radiation escaping (the reactor core) allow absorbs radiation
 > /eq ; allow idea of protecting
@@ -386,11 +438,7 @@ The table gives some statements about different parts of a nuclear reactor. Plac
 > through, is stopped by etc.
 > condone “can’t penetrate”
 
-- **(3)** all ticks correct = 3 marks
-
-### 5(b) [2]
-
-Describe the role of shielding around a nuclear reactor.
+- **(2)** ignore references to
 
 ### 5(c)(i) [2]
 
@@ -442,7 +490,17 @@ Describe how the size and temperature of the universe have changed since the Big
 
 > idea that universe is expanding / getting larger;
 > idea that universe is cooling;
-> (b) MAX four from:
+
+- **(2)** idea that universe is expanding / getting larger;
+
+### 6(b) [6]
+
+Discuss two pieces of evidence that support the Big Bang theory.
+
+
+**Mark scheme answer**
+
+> MAX four from:
 > MP1. identification of cosmic (microwave)
 > background radiation (CMBR);
 > MP2. CMBR appears to be the same in all
@@ -474,11 +532,7 @@ Describe how the size and temperature of the universe have changed since the Big
 > single point
 > Answer Notes Marks
 
-- **(2)** idea that universe is expanding / getting larger;
-
-### 6(b) [6]
-
-Discuss two pieces of evidence that support the Big Bang theory.
+- **(6)** MAX four from:
 
 
 ## Question 7 (13 marks)
@@ -496,7 +550,17 @@ State what is meant by the term specific heat capacity.
 
 > energy to change temperature by 1°C; accept 1 K
 > per kilogram of mass; DOP
-> (b) any two from:
+
+- **(2)** energy to change temperature by 1°C; accept 1 K
+
+### 7(b) [2]
+
+A student uses this method to measure the specific heat capacity of water. • place an aluminium block of known mass in an oven at a temperature of 220 °C • place water of known mass in a container at a temperature of 20 °C • leave the aluminium block in the oven for 10 minutes • remove the aluminium block from the oven and place the block in the water • measure the maximum temperature of the water after it has been heated by the aluminium block The student uses their data to calculate the specific heat capacity of water. Give two ways that they could improve their method to increase the accuracy of their value of specific heat capacity. 1 2
+
+
+**Mark scheme answer**
+
+> any two from:
 > MP1. leave block in oven for longer / check it is
 > definitely at 220°C;
 > MP2. idea of transferring block from oven to water
@@ -508,11 +572,7 @@ State what is meant by the term specific heat capacity.
 > MP6. idea of repeating and {average/remove
 > anomalies};
 
-- **(2)** energy to change temperature by 1°C; accept 1 K
-
-### 7(b) [2]
-
-A student uses this method to measure the specific heat capacity of water. • place an aluminium block of known mass in an oven at a temperature of 220 °C • place water of known mass in a container at a temperature of 20 °C • leave the aluminium block in the oven for 10 minutes • remove the aluminium block from the oven and place the block in the water • measure the maximum temperature of the water after it has been heated by the aluminium block The student uses their data to calculate the specific heat capacity of water. Give two ways that they could improve their method to increase the accuracy of their value of specific heat capacity. 1 2
+- **(2)** any two from:
 
 ### 7(c)(i) [1]
 
@@ -551,7 +611,19 @@ The water gains 190 000 J of energy in its thermal store as it is heated to its 
 > c = 190 000 / (2.3 × 18)
 > (c = ) = 4600 (J/kg °C) allow 4589.37…, 4590
 > etc
-> (d) ignore where lines 4 exp
+
+- **(3)** substitution; allow ECF from (c)(ii)
+
+### 7(d) [4]
+
+After finishing the experiment, the student removes the aluminium block and places the container of water into a freezer. The water loses energy at a constant rate and cools from 38 °C to –20 °C. The water freezes and turns into ice at 0 °C. Ice has a lower specific heat capacity than water. Use the axes to sketch a temperature-time graph from when the water is placed in the freezer until it reaches its lowest temperature. No calculations are required. Temperature in °C Time −10 −20
+
+![graph — official paper figure (qp.pdf p.21)](assets/asset_7_d_graph.png)
+
+
+**Mark scheme answer**
+
+> ignore where lines 4 exp
 > intersect the time axis
 > throughout
 > line has two downward sloping sections of different sections do not need to
@@ -575,11 +647,5 @@ The water gains 190 000 J of energy in its thermal store as it is heated to its 
 > Pearson Education Limited. Registered company number 872828
 > with its registered office at 80 Strand, London, WC2R 0RL, United Kingdom
 
-- **(3)** substitution; allow ECF from (c)(ii)
-
-### 7(d) [4]
-
-After finishing the experiment, the student removes the aluminium block and places the container of water into a freezer. The water loses energy at a constant rate and cools from 38 °C to –20 °C. The water freezes and turns into ice at 0 °C. Ice has a lower specific heat capacity than water. Use the axes to sketch a temperature-time graph from when the water is placed in the freezer until it reaches its lowest temperature. No calculations are required. Temperature in °C Time −10 −20
-
-![graph — official paper figure (qp.pdf p.21)](assets/asset_7_d_graph.png)
+- **(4)** ignore where lines 4 exp
 

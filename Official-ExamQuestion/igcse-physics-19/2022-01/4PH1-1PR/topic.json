@@ -1,7 +1,7 @@
 {
  "schema": "syllabai.official-paper-questions/0.2",
- "generated_utc": "2026-10-25T20:43:05Z",
- "generator": "official_examq_extract.py v0.17.4 (ADR-039) series=2022-01 paper=1PR",
+ "generated_utc": "2026-10-25T22:06:29Z",
+ "generator": "official_examq_extract.py v0.19.0 (ADR-039) series=2022-01 paper=1PR",
  "paper_id": "pearson-edexcel:international-gcse:physics:4ph1:2022-01:4PH1/1PR",
  "source": {
   "qp_sha256": "19c423c689cccd5b53bc9e4f79292085375633c3df06e14122dd5bdcfc179303",
@@ -55,7 +55,7 @@
       }
      ],
      "answer_status": "linked",
-     "solution_md": "B (124);\nA is incorrect because this is the number of protons\nC is incorrect because this is the number of protons and neutrons\nD is incorrect because this is twice the number of protons added to the neutrons\n(b) C (a high frequency electromagnetic wave);\nA is incorrect because this is the description of alpha radiation\nB is incorrect because this is the description of beta radiation\nD is incorrect because this is the description of neutron radiation\n(c) all 4 rows correct = 3 marks;;;\n2-3 rows correct = 2 marks;;\nany 1 row correct = 1 mark;\nmore than one tick in a row negates the mark for that row\nAnswer Notes Marks",
+     "solution_md": "B (124);\nA is incorrect because this is the number of protons\nC is incorrect because this is the number of protons and neutrons\nD is incorrect because this is twice the number of protons added to the neutrons",
      "mark_points": [
       {
        "id": "2022-01-1-a-MP1",
@@ -82,29 +82,41 @@
      "choices": [
       {
        "label": "A",
-       "text_md": "a helium nucleus"
+       "text_md": "a helium nucleus",
+       "is_correct": false
       },
       {
        "label": "B",
-       "text_md": "a high energy electron"
+       "text_md": "a high energy electron",
+       "is_correct": false
       },
       {
        "label": "C",
-       "text_md": "a high frequency electromagnetic wave"
+       "text_md": "a high frequency electromagnetic wave",
+       "is_correct": true
       },
       {
        "label": "D",
-       "text_md": "a subatomic particle with mass, but with no charge"
+       "text_md": "a subatomic particle with mass, but with no charge",
+       "is_correct": false
       }
      ],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "C (a high frequency electromagnetic wave);\nA is incorrect because this is the description of alpha radiation\nB is incorrect because this is the description of beta radiation\nD is incorrect because this is the description of neutron radiation",
+     "mark_points": [
+      {
+       "id": "2022-01-1-b-MP1",
+       "marks": 1,
+       "text_md": "Answer C: a high frequency electromagnetic wave"
+      }
+     ],
      "source_page": 4,
      "assets": [],
      "spec_point_codes": [],
      "tagging": "pending-llm",
      "edit_status": "extracted",
      "value_trace": {
-      "keys": "unresolved:review-queue",
+      "keys": "ms-positional",
       "marks": "ms-printed",
       "numbers": "source-printed"
      }
@@ -115,7 +127,15 @@
      "question_type": "structured",
      "problem_md": "A technician uses this method to investigate the penetration power of gamma radiation. • place a gamma emitting source at a fixed distance from a radiation detector • measure the count using the detector, for a period of one minute • place a thin sheet of lead between the source and the detector • measure the new count using the detector, for a period of one minute • increase the number of lead sheets between the source and detector and repeat this process The table gives some of the variables from the technician’s method. Complete the table by placing a tick (✓) in each row to show whether each variable is an independent, a dependent or a control variable. Independent Dependent Control Variable variable variable variable count measured using the detector distance between source and detector number of lead sheets time period for measuring the count",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "all 4 rows correct = 3 marks;;;\n2-3 rows correct = 2 marks;;\nany 1 row correct = 1 mark;\nmore than one tick in a row negates the mark for that row\nAnswer Notes Marks",
+     "mark_points": [
+      {
+       "id": "2022-01-1-c-MP1",
+       "marks": 3,
+       "text_md": "all 4 rows correct = 3 marks;;;\n2-3 rows correct = 2 marks;;\nany 1 row correct = 1 mark;\nmore than one tick in a row negates the mark for that row\nAnswer Notes Marks"
+      }
+     ],
      "source_page": 5,
      "assets": [
       {
@@ -177,7 +197,7 @@
       }
      ],
      "answer_status": "linked",
-     "solution_md": "D (ultraviolet);\nA is incorrect because frequencies lower than visible light are non-ionising\nB is incorrect because frequencies lower than visible light are non-ionising\nC is incorrect because frequencies lower than visible light are non-ionising\n(b) one use for x-rays;\ne.g. taking photos or detecting of (broken) bones, allow treating cancer /\ninternal structures (of objects), sterilising medical equipment\none use for gamma rays;\ne.g. radiotherapy, sterilising medical equipment, allow treating cancer\nreference to tracing, airport scanning of luggage,\nirradiating food (for preservation)",
+     "solution_md": "D (ultraviolet);\nA is incorrect because frequencies lower than visible light are non-ionising\nB is incorrect because frequencies lower than visible light are non-ionising\nC is incorrect because frequencies lower than visible light are non-ionising",
      "mark_points": [
       {
        "id": "2022-01-2-a-MP1",
@@ -202,7 +222,15 @@
      "question_type": "structured",
      "problem_md": "Give one use of x‑rays and one use of gamma rays. x‑rays gamma rays",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "one use for x-rays;\ne.g. taking photos or detecting of (broken) bones, allow treating cancer /\ninternal structures (of objects), sterilising medical equipment\none use for gamma rays;\ne.g. radiotherapy, sterilising medical equipment, allow treating cancer\nreference to tracing, airport scanning of luggage,\nirradiating food (for preservation)",
+     "mark_points": [
+      {
+       "id": "2022-01-2-b-MP1",
+       "marks": 2,
+       "text_md": "one use for x-rays;\ne.g. taking photos or detecting of (broken) bones, allow treating cancer /\ninternal structures (of objects), sterilising medical equipment\none use for gamma rays;\ne.g. radiotherapy, sterilising medical equipment, allow treating cancer\nreference to tracing, airport scanning of luggage,\nirradiating food (for preservation)"
+      }
+     ],
      "source_page": 6,
      "assets": [],
      "spec_point_codes": [],
@@ -247,12 +275,12 @@
      "problem_md": "Calculate the wavelength of a gamma ray with a frequency of 2.8 × 1019 Hz. [speed of gamma ray = 3.0 × 108 m/s] wavelength = m",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "substitution;\nrearrangement;\nevaluation; -1 for POT error\ne.g.\n3.0 × 108 = 2.8 × 1019 × wavelength\nwavelength = speed / frequency\n(wavelength =) 1.1 × 10-11 (m) allow 1.07… × 10-11 (m)\n(d) B;\nA is incorrect because it shows an exponential relationship\nC is incorrect because it shows a proportional relationship\nD is incorrect because it shows no relationship\nAnswer Notes Marks",
+     "solution_md": "substitution;\nrearrangement;\nevaluation; -1 for POT error\ne.g.\n3.0 × 108 = 2.8 × 1019 × wavelength\nwavelength = speed / frequency\n(wavelength =) 1.1 × 10-11 (m) allow 1.07… × 10-11 (m)",
      "mark_points": [
       {
        "id": "2022-01-2-c-ii-MP1",
        "marks": 3,
-       "text_md": "substitution;\nrearrangement;\nevaluation; -1 for POT error\ne.g.\n3.0 × 108 = 2.8 × 1019 × wavelength\nwavelength = speed / frequency\n(wavelength =) 1.1 × 10-11 (m) allow 1.07… × 10-11 (m)\n(d) B;\nA is incorrect because it shows an exponential relationship\nC is incorrect because it shows a proportional relationship\nD is incorrect because it shows no relationship\nAnswer Notes Marks"
+       "text_md": "substitution;\nrearrangement;\nevaluation; -1 for POT error\ne.g.\n3.0 × 108 = 2.8 × 1019 × wavelength\nwavelength = speed / frequency\n(wavelength =) 1.1 × 10-11 (m) allow 1.07… × 10-11 (m)"
       }
      ],
      "source_page": 6,
@@ -272,7 +300,15 @@
      "question_type": "structured",
      "problem_md": "X‑rays and gamma rays are electromagnetic waves. Which of these graphs is correct for waves travelling at a constant speed? frequency frequency 0 0 0 0 wavelength wavelength A B frequency frequency 0 0 0 0 wavelength wavelength C D",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "B;\nA is incorrect because it shows an exponential relationship\nC is incorrect because it shows a proportional relationship\nD is incorrect because it shows no relationship\nAnswer Notes Marks",
+     "mark_points": [
+      {
+       "id": "2022-01-2-d-MP1",
+       "marks": 1,
+       "text_md": "B;\nA is incorrect because it shows an exponential relationship\nC is incorrect because it shows a proportional relationship\nD is incorrect because it shows no relationship\nAnswer Notes Marks"
+      }
+     ],
      "source_page": 7,
      "assets": [],
      "spec_point_codes": [],
@@ -301,12 +337,12 @@
      "problem_md": "Give a reason why the two magnets shown in the diagram will repel each other.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "idea that like poles repel;\n(b) it is made of plastic / idea that plastic is non-\nmagnetic;\n(c) correct shape e.g. lines deviating away from both reject if any field lines touch\nmagnets; or cross except at pole\ncorrect direction e.g. any arrows must face towards\npoles;",
+     "solution_md": "idea that like poles repel;",
      "mark_points": [
       {
        "id": "2022-01-3-a-MP1",
        "marks": 1,
-       "text_md": "idea that like poles repel;\n(b) it is made of plastic / idea that plastic is non-\nmagnetic;\n(c) correct shape e.g. lines deviating away from both reject if any field lines touch\nmagnets; or cross except at pole\ncorrect direction e.g. any arrows must face towards\npoles;"
+       "text_md": "idea that like poles repel;"
       }
      ],
      "source_page": 8,
@@ -340,7 +376,15 @@
      "question_type": "structured",
      "problem_md": "Give a reason why the top plate of the balance is not affected by the magnetic fields of the magnets.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "it is made of plastic / idea that plastic is non-\nmagnetic;",
+     "mark_points": [
+      {
+       "id": "2022-01-3-b-MP1",
+       "marks": 1,
+       "text_md": "it is made of plastic / idea that plastic is non-\nmagnetic;"
+      }
+     ],
      "source_page": 8,
      "assets": [],
      "spec_point_codes": [],
@@ -358,7 +402,15 @@
      "question_type": "structured",
      "problem_md": "Complete the diagram by drawing the shape and direction of the magnetic field pattern between the magnets.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "correct shape e.g. lines deviating away from both reject if any field lines touch\nmagnets; or cross except at pole\ncorrect direction e.g. any arrows must face towards\npoles;",
+     "mark_points": [
+      {
+       "id": "2022-01-3-c-MP1",
+       "marks": 2,
+       "text_md": "correct shape e.g. lines deviating away from both reject if any field lines touch\nmagnets; or cross except at pole\ncorrect direction e.g. any arrows must face towards\npoles;"
+      }
+     ],
      "source_page": 9,
      "assets": [
       {
@@ -457,12 +509,12 @@
      "problem_md": "Give a similarity and a difference for scalar quantities and vector quantities. similarity difference",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "both have magnitude;\n(only) vectors have a direction;\n(b) charge; if 4 circled,\n2 marks max.\npower; if 5-6 circled,\n1 mark max.\ntemperature; no marks if all circled\n(c) (resultant force =) 6 (N); ignore sign\n(direction =) left; allow indication of same\ndirection as 8 (N) force\ncondone West\nAnswer Notes Marks",
+     "solution_md": "both have magnitude;\n(only) vectors have a direction;",
      "mark_points": [
       {
        "id": "2022-01-4-a-MP1",
        "marks": 2,
-       "text_md": "both have magnitude;\n(only) vectors have a direction;\n(b) charge; if 4 circled,\n2 marks max.\npower; if 5-6 circled,\n1 mark max.\ntemperature; no marks if all circled\n(c) (resultant force =) 6 (N); ignore sign\n(direction =) left; allow indication of same\ndirection as 8 (N) force\ncondone West\nAnswer Notes Marks"
+       "text_md": "both have magnitude;\n(only) vectors have a direction;"
       }
      ],
      "source_page": 10,
@@ -482,7 +534,15 @@
      "question_type": "structured",
      "problem_md": "The box gives some physical quantities. Draw a circle around each physical quantity that is a scalar. acceleration charge force power temperature velocity weight",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "charge; if 4 circled,\n2 marks max.\npower; if 5-6 circled,\n1 mark max.\ntemperature; no marks if all circled",
+     "mark_points": [
+      {
+       "id": "2022-01-4-b-MP1",
+       "marks": 3,
+       "text_md": "charge; if 4 circled,\n2 marks max.\npower; if 5-6 circled,\n1 mark max.\ntemperature; no marks if all circled"
+      }
+     ],
      "source_page": 10,
      "assets": [],
      "spec_point_codes": [],
@@ -500,7 +560,15 @@
      "question_type": "structured",
      "problem_md": "The diagram shows four forces acting on an object. Calculate the size and direction of the resultant force. 5N 8N 2N 5N resultant force = N direction =",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "(resultant force =) 6 (N); ignore sign\n(direction =) left; allow indication of same\ndirection as 8 (N) force\ncondone West\nAnswer Notes Marks",
+     "mark_points": [
+      {
+       "id": "2022-01-4-c-MP1",
+       "marks": 2,
+       "text_md": "(resultant force =) 6 (N); ignore sign\n(direction =) left; allow indication of same\ndirection as 8 (N) force\ncondone West\nAnswer Notes Marks"
+      }
+     ],
      "source_page": 10,
      "assets": [
       {
@@ -541,12 +609,12 @@
      "problem_md": "The chart shows that the geothermal power station has an efficiency of 15%. Explain what is meant by an efficiency of 15%.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "idea that 15% of total energy; allow reverse argument e.g.\n85% of total energy is wasted\nis transferred usefully;\n(b) correct efficiency read from graph;\nsubstitution into efficiency formula; allow ecf from incorrect\nefficiency\nrearrangement;\nevaluation;\ne.g.\n90% or 0.9 seen in working\n0.9 = 6.0 / total energy input allow working in J or kJ\ntotal energy input = useful energy / efficiency\n(total energy input =) 6.7 (kJ)\nallow any correctly rounded\nvalue for 4 marks\nallow 6.6 or 6.6 recurring (kJ)\nfor 3 marks",
+     "solution_md": "idea that 15% of total energy; allow reverse argument e.g.\n85% of total energy is wasted\nis transferred usefully;",
      "mark_points": [
       {
        "id": "2022-01-5-a-MP1",
        "marks": 2,
-       "text_md": "idea that 15% of total energy; allow reverse argument e.g.\n85% of total energy is wasted\nis transferred usefully;\n(b) correct efficiency read from graph;\nsubstitution into efficiency formula; allow ecf from incorrect\nefficiency\nrearrangement;\nevaluation;\ne.g.\n90% or 0.9 seen in working\n0.9 = 6.0 / total energy input allow working in J or kJ\ntotal energy input = useful energy / efficiency\n(total energy input =) 6.7 (kJ)\nallow any correctly rounded\nvalue for 4 marks\nallow 6.6 or 6.6 recurring (kJ)\nfor 3 marks"
+       "text_md": "idea that 15% of total energy; allow reverse argument e.g.\n85% of total energy is wasted\nis transferred usefully;"
       }
      ],
      "source_page": 12,
@@ -566,7 +634,15 @@
      "question_type": "structured",
      "problem_md": "A small hydroelectric power station has a useful energy output of 6.0 kJ. Calculate the total energy input for this power station using information from the chart. total energy input = kJ",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "correct efficiency read from graph;\nsubstitution into efficiency formula; allow ecf from incorrect\nefficiency\nrearrangement;\nevaluation;\ne.g.\n90% or 0.9 seen in working\n0.9 = 6.0 / total energy input allow working in J or kJ\ntotal energy input = useful energy / efficiency\n(total energy input =) 6.7 (kJ)\nallow any correctly rounded\nvalue for 4 marks\nallow 6.6 or 6.6 recurring (kJ)\nfor 3 marks",
+     "mark_points": [
+      {
+       "id": "2022-01-5-b-MP1",
+       "marks": 4,
+       "text_md": "correct efficiency read from graph;\nsubstitution into efficiency formula; allow ecf from incorrect\nefficiency\nrearrangement;\nevaluation;\ne.g.\n90% or 0.9 seen in working\n0.9 = 6.0 / total energy input allow working in J or kJ\ntotal energy input = useful energy / efficiency\n(total energy input =) 6.7 (kJ)\nallow any correctly rounded\nvalue for 4 marks\nallow 6.6 or 6.6 recurring (kJ)\nfor 3 marks"
+      }
+     ],
      "source_page": 12,
      "assets": [],
      "spec_point_codes": [],
@@ -646,7 +722,15 @@
      "question_type": "structured",
      "problem_md": "Stars can be classified using their surface temperature. Complete Table 2 by giving the four stars in order of increasing surface temperature. Coolest Hottest Table 2",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": ";;;\nall four stars in the correct positions = 3 marks\nany two stars in the correct positions = 2 marks\nany 1 star in the correct position = 1 mark",
+     "mark_points": [
+      {
+       "id": "2022-01-6-a-i-MP1",
+       "marks": 3,
+       "text_md": ";;;\nall four stars in the correct positions = 3 marks\nany two stars in the correct positions = 2 marks\nany 1 star in the correct position = 1 mark"
+      }
+     ],
      "source_page": 14,
      "assets": [
       {
@@ -676,7 +760,15 @@
      "question_type": "structured",
      "problem_md": "Name the star in Table 1 that does not follow a similar evolutionary path to the Sun.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "Antares (A);",
+     "mark_points": [
+      {
+       "id": "2022-01-6-a-ii-MP1",
+       "marks": 1,
+       "text_md": "Antares (A);"
+      }
+     ],
      "source_page": 14,
      "assets": [
       {
@@ -708,7 +800,15 @@
      "question_type": "structured",
      "problem_md": "The life cycle of a star begins in a nebula. Describe how a main sequence star is formed from a nebula.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "any three from:\nMP1. nebula is (cold) cloud of dust/gas;\nMP2. gravity causes cloud to collapse/eq;\nMP3. temperature of cloud increases/eq;\nMP4. creating a protostar;\nMP5. idea that (main sequence star created when)\nfusion starts;",
+     "mark_points": [
+      {
+       "id": "2022-01-6-b-MP1",
+       "marks": 3,
+       "text_md": "any three from:\nMP1. nebula is (cold) cloud of dust/gas;\nMP2. gravity causes cloud to collapse/eq;\nMP3. temperature of cloud increases/eq;\nMP4. creating a protostar;\nMP5. idea that (main sequence star created when)\nfusion starts;"
+      }
+     ],
      "source_page": 15,
      "assets": [],
      "spec_point_codes": [],
@@ -726,7 +826,15 @@
      "question_type": "structured",
      "problem_md": "Describe how a main sequence star becomes a white dwarf.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "any four from:\nMP1. idea that hydrogen fusion stops (in core); condone idea of hydrogen\nruns out\nMP2. core collapses; allow star collapses\nMP3. core temperature of star increases;\nMP4. (star expands to) become a red (super)\ngiant;\nMP5. surface temperature of star decreases\n(during red giant phase)\nMP6. helium fusion begins;\nMP7. white dwarf formed when helium fusion\nstops (in core);\nMP8. idea of rest of star released (as a planetary\nnebula);\nAnswer Notes Marks",
+     "mark_points": [
+      {
+       "id": "2022-01-6-c-MP1",
+       "marks": 4,
+       "text_md": "any four from:\nMP1. idea that hydrogen fusion stops (in core); condone idea of hydrogen\nruns out\nMP2. core collapses; allow star collapses\nMP3. core temperature of star increases;\nMP4. (star expands to) become a red (super)\ngiant;\nMP5. surface temperature of star decreases\n(during red giant phase)\nMP6. helium fusion begins;\nMP7. white dwarf formed when helium fusion\nstops (in core);\nMP8. idea of rest of star released (as a planetary\nnebula);\nAnswer Notes Marks"
+      }
+     ],
      "source_page": 15,
      "assets": [],
      "spec_point_codes": [],
@@ -759,12 +867,12 @@
      "problem_md": "Describe an experiment to determine the refractive index of a glass block. In your answer you should include • a labelled diagram • the apparatus needed • the method used",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "any five from MP1-MP7: allow marking points from\ndiagram\napparatus:\nMP1. method of creating thin beam of light; e.g. laser, ray box etc.\nignore torch\nMP2. protractor;\nmethod:\nMP3. draw round the block;\nMP4. shine light into the block at an angle to the however expressed\nnormal;\nMP5. mark incident and refracted rays;\nMP6. measure angles from the normal;\nMP7. repeat for different angles of incidence;\nPLUS\nallow simple use of\nMP8. graph of sin(i) and sin(r) with n found from n=sin(i)/sin(r)\ngradient\n(b) optical fibres;\nnamed prismatic use e.g. cats eye reflector,\nbinoculars, periscope etc;\nAnswer Notes Marks",
+     "solution_md": "any five from MP1-MP7: allow marking points from\ndiagram\napparatus:\nMP1. method of creating thin beam of light; e.g. laser, ray box etc.\nignore torch\nMP2. protractor;\nmethod:\nMP3. draw round the block;\nMP4. shine light into the block at an angle to the however expressed\nnormal;\nMP5. mark incident and refracted rays;\nMP6. measure angles from the normal;\nMP7. repeat for different angles of incidence;\nPLUS\nallow simple use of\nMP8. graph of sin(i) and sin(r) with n found from n=sin(i)/sin(r)\ngradient",
      "mark_points": [
       {
        "id": "2022-01-7-a-MP1",
        "marks": 6,
-       "text_md": "any five from MP1-MP7: allow marking points from\ndiagram\napparatus:\nMP1. method of creating thin beam of light; e.g. laser, ray box etc.\nignore torch\nMP2. protractor;\nmethod:\nMP3. draw round the block;\nMP4. shine light into the block at an angle to the however expressed\nnormal;\nMP5. mark incident and refracted rays;\nMP6. measure angles from the normal;\nMP7. repeat for different angles of incidence;\nPLUS\nallow simple use of\nMP8. graph of sin(i) and sin(r) with n found from n=sin(i)/sin(r)\ngradient\n(b) optical fibres;\nnamed prismatic use e.g. cats eye reflector,\nbinoculars, periscope etc;\nAnswer Notes Marks"
+       "text_md": "any five from MP1-MP7: allow marking points from\ndiagram\napparatus:\nMP1. method of creating thin beam of light; e.g. laser, ray box etc.\nignore torch\nMP2. protractor;\nmethod:\nMP3. draw round the block;\nMP4. shine light into the block at an angle to the however expressed\nnormal;\nMP5. mark incident and refracted rays;\nMP6. measure angles from the normal;\nMP7. repeat for different angles of incidence;\nPLUS\nallow simple use of\nMP8. graph of sin(i) and sin(r) with n found from n=sin(i)/sin(r)\ngradient"
       }
      ],
      "source_page": 16,
@@ -801,7 +909,15 @@
      "question_type": "structured",
      "problem_md": "Give two uses of total internal reflection. 1 2",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "optical fibres;\nnamed prismatic use e.g. cats eye reflector,\nbinoculars, periscope etc;\nAnswer Notes Marks",
+     "mark_points": [
+      {
+       "id": "2022-01-7-b-MP1",
+       "marks": 2,
+       "text_md": "optical fibres;\nnamed prismatic use e.g. cats eye reflector,\nbinoculars, periscope etc;\nAnswer Notes Marks"
+      }
+     ],
      "source_page": 17,
      "assets": [],
      "spec_point_codes": [],
@@ -829,7 +945,15 @@
      "question_type": "structured",
      "problem_md": "Name the wave behaviour that causes the sound waves to change direction when they reach the fish.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "reflection;",
+     "mark_points": [
+      {
+       "id": "2022-01-8-a-i-MP1",
+       "marks": 1,
+       "text_md": "reflection;"
+      }
+     ],
      "source_page": 18,
      "assets": [],
      "spec_point_codes": [],
@@ -847,7 +971,15 @@
      "question_type": "structured",
      "problem_md": "The table gives some data about the sound waves used. frequency of sound waves 4.0 MHz speed of sound waves in water 1500 m/s time between emission and detection of sound waves 43 ms Calculate the distance between the sound wave emitter and the fish. distance = m",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "substitution into speed = distance / time; ignore units\ncondone incorrect conversion\nof time from 43 ms i.e. 43,\n43/60, 43 × 1000, 43 × 60\nrearrangement;\nevaluation of correct total distance;\nhalved to find distance to fish; accept wherever applied i.e.\nto the time or to the distance\ntravelled.\ne.g.\n1500 = distance / 0.043\ndistance = speed × time\n(distance =) 64.5\n(distance = 64.5 ÷ 2) = 32 (m)\n64.5, 65 = 3 marks (no\nhalving)\n32250 etc = 3 marks (POT)\n64500 etc = 2 marks (POT and\nno halving)",
+     "mark_points": [
+      {
+       "id": "2022-01-8-a-ii-MP1",
+       "marks": 4,
+       "text_md": "substitution into speed = distance / time; ignore units\ncondone incorrect conversion\nof time from 43 ms i.e. 43,\n43/60, 43 × 1000, 43 × 60\nrearrangement;\nevaluation of correct total distance;\nhalved to find distance to fish; accept wherever applied i.e.\nto the time or to the distance\ntravelled.\ne.g.\n1500 = distance / 0.043\ndistance = speed × time\n(distance =) 64.5\n(distance = 64.5 ÷ 2) = 32 (m)\n64.5, 65 = 3 marks (no\nhalving)\n32250 etc = 3 marks (POT)\n64500 etc = 2 marks (POT and\nno halving)"
+      }
+     ],
      "source_page": 18,
      "assets": [
       {
@@ -1161,7 +1293,15 @@
      "question_type": "structured",
      "problem_md": "Show that the acceleration of the steel ball is approximately 9.6 m/s2 . acceleration = m/s2",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "substitution into a = ∆v / t;\nevaluation to 3 or more s.f.;\ne.g.\nacceleration = (4.20 – 1.45) / 0.286\n(acceleration =) 9.62 (m/s2)",
+     "mark_points": [
+      {
+       "id": "2022-01-10-a-i-MP1",
+       "marks": 2,
+       "text_md": "substitution into a = ∆v / t;\nevaluation to 3 or more s.f.;\ne.g.\nacceleration = (4.20 – 1.45) / 0.286\n(acceleration =) 9.62 (m/s2)"
+      }
+     ],
      "source_page": 23,
      "assets": [],
      "spec_point_codes": [],
@@ -1179,7 +1319,15 @@
      "question_type": "structured",
      "problem_md": "Explain why the student’s value for the acceleration of the steel ball is lower than the accepted value for the acceleration due to gravity, g.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "idea that air resistance / friction also acts on ball; allow drag\nwhich opposes the ball’s weight; allow idea that frictional force\nis upwards whilst weight is\ndownwards\nallow idea that resultant force\nis less that weight\nignore idea of reaction time /\nother human errors",
+     "mark_points": [
+      {
+       "id": "2022-01-10-a-ii-MP1",
+       "marks": 2,
+       "text_md": "idea that air resistance / friction also acts on ball; allow drag\nwhich opposes the ball’s weight; allow idea that frictional force\nis upwards whilst weight is\ndownwards\nallow idea that resultant force\nis less that weight\nignore idea of reaction time /\nother human errors"
+      }
+     ],
      "source_page": 23,
      "assets": [],
      "spec_point_codes": [],
@@ -1197,7 +1345,15 @@
      "question_type": "structured",
      "problem_md": "Calculate the distance between the light gates. distance = m",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "substitution into v2 = u2 + 2×a×s; allow use of a=9.6, 9.8, 9.81 or\nrearrangement;\nevaluation;\nreject ‘change in speed ×\ntime’ giving 0.78(65) as\nincorrect physics\nallow answers using correct\naverage velocity.\ne.g.\n4.202 = 1.452 + (2 × 9.6 × s)\ns = (v2 - u2) / 2a\n(s =) 0.809 (m) allow range 0.78-0.81 (m)",
+     "mark_points": [
+      {
+       "id": "2022-01-10-a-iii-MP1",
+       "marks": 3,
+       "text_md": "substitution into v2 = u2 + 2×a×s; allow use of a=9.6, 9.8, 9.81 or\nrearrangement;\nevaluation;\nreject ‘change in speed ×\ntime’ giving 0.78(65) as\nincorrect physics\nallow answers using correct\naverage velocity.\ne.g.\n4.202 = 1.452 + (2 × 9.6 × s)\ns = (v2 - u2) / 2a\n(s =) 0.809 (m) allow range 0.78-0.81 (m)"
+      }
+     ],
      "source_page": 23,
      "assets": [],
      "spec_point_codes": [],
@@ -1441,12 +1597,12 @@
      "problem_md": "Give a reason why there is a net transfer of energy from the outside of the box to the inside of the box during transportation in a hot country.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "idea that the temperature outside the box is however described\ngreater than the temperature inside the box;\ne.g. “it is hotter outside the\nbox than inside the box”\n(b) any two from:\nMP1. air / cardboard is a poor conductor / (good) ignore idea of trapped air\ninsulator;\ncondone idea of ‘non-\nconductor’\nMP2. air is a gas (which are poor conductors);\nMP3. particles in air are far apart / collide with\neach other rarely;\nMP4. idea that thicker objects (of the same\nmaterial) conduct slower;\n(c) idea that air (particles) cannot move around; e.g. air cannot flow or air\ntrapped\nlid stops or reduces convection currents forming;\naccept idea that box is a solid\nand convection is impossible\nin solids for 1 mark\n(d) white / silver ;\n(because) these are poor emitters of infrared / accept ‘radiators’ for\nradiation; emitters\nignore references to\nabsorption or reflection\nPearson Education Limited. Registered company number 872828\nwith its registered office at 80 Strand, London, WC2R 0RL, United Kingdom",
+     "solution_md": "idea that the temperature outside the box is however described\ngreater than the temperature inside the box;\ne.g. “it is hotter outside the\nbox than inside the box”",
      "mark_points": [
       {
        "id": "2022-01-12-a-MP1",
        "marks": 1,
-       "text_md": "idea that the temperature outside the box is however described\ngreater than the temperature inside the box;\ne.g. “it is hotter outside the\nbox than inside the box”\n(b) any two from:\nMP1. air / cardboard is a poor conductor / (good) ignore idea of trapped air\ninsulator;\ncondone idea of ‘non-\nconductor’\nMP2. air is a gas (which are poor conductors);\nMP3. particles in air are far apart / collide with\neach other rarely;\nMP4. idea that thicker objects (of the same\nmaterial) conduct slower;\n(c) idea that air (particles) cannot move around; e.g. air cannot flow or air\ntrapped\nlid stops or reduces convection currents forming;\naccept idea that box is a solid\nand convection is impossible\nin solids for 1 mark\n(d) white / silver ;\n(because) these are poor emitters of infrared / accept ‘radiators’ for\nradiation; emitters\nignore references to\nabsorption or reflection\nPearson Education Limited. Registered company number 872828\nwith its registered office at 80 Strand, London, WC2R 0RL, United Kingdom"
+       "text_md": "idea that the temperature outside the box is however described\ngreater than the temperature inside the box;\ne.g. “it is hotter outside the\nbox than inside the box”"
       }
      ],
      "source_page": 28,
@@ -1466,7 +1622,15 @@
      "question_type": "structured",
      "problem_md": "Explain how the box is designed to reduce energy transfer by conduction.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "any two from:\nMP1. air / cardboard is a poor conductor / (good) ignore idea of trapped air\ninsulator;\ncondone idea of ‘non-\nconductor’\nMP2. air is a gas (which are poor conductors);\nMP3. particles in air are far apart / collide with\neach other rarely;\nMP4. idea that thicker objects (of the same\nmaterial) conduct slower;",
+     "mark_points": [
+      {
+       "id": "2022-01-12-b-MP1",
+       "marks": 2,
+       "text_md": "any two from:\nMP1. air / cardboard is a poor conductor / (good) ignore idea of trapped air\ninsulator;\ncondone idea of ‘non-\nconductor’\nMP2. air is a gas (which are poor conductors);\nMP3. particles in air are far apart / collide with\neach other rarely;\nMP4. idea that thicker objects (of the same\nmaterial) conduct slower;"
+      }
+     ],
      "source_page": 28,
      "assets": [],
      "spec_point_codes": [],
@@ -1484,7 +1648,15 @@
      "question_type": "structured",
      "problem_md": "Explain how the box is designed to reduce energy transfer by convection.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "idea that air (particles) cannot move around; e.g. air cannot flow or air\ntrapped\nlid stops or reduces convection currents forming;\naccept idea that box is a solid\nand convection is impossible\nin solids for 1 mark",
+     "mark_points": [
+      {
+       "id": "2022-01-12-c-MP1",
+       "marks": 2,
+       "text_md": "idea that air (particles) cannot move around; e.g. air cannot flow or air\ntrapped\nlid stops or reduces convection currents forming;\naccept idea that box is a solid\nand convection is impossible\nin solids for 1 mark"
+      }
+     ],
      "source_page": 29,
      "assets": [],
      "spec_point_codes": [],
@@ -1502,7 +1674,15 @@
      "question_type": "structured",
      "problem_md": "A student suggests that painting the inner surfaces of the box a different colour would help to reduce the rate of energy transfer to the cold food. Explain which colour the inner surfaces of the box should be painted.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "white / silver ;\n(because) these are poor emitters of infrared / accept ‘radiators’ for\nradiation; emitters\nignore references to\nabsorption or reflection\nPearson Education Limited. Registered company number 872828\nwith its registered office at 80 Strand, London, WC2R 0RL, United Kingdom",
+     "mark_points": [
+      {
+       "id": "2022-01-12-d-MP1",
+       "marks": 2,
+       "text_md": "white / silver ;\n(because) these are poor emitters of infrared / accept ‘radiators’ for\nradiation; emitters\nignore references to\nabsorption or reflection\nPearson Education Limited. Registered company number 872828\nwith its registered office at 80 Strand, London, WC2R 0RL, United Kingdom"
+      }
+     ],
      "source_page": 29,
      "assets": [],
      "spec_point_codes": [],

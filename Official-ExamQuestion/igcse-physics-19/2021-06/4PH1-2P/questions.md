@@ -12,11 +12,24 @@
 Which of these is in the shaded area of the diagram?
 
 - **(A)** black holes
-- **(B)** main sequence stars
+- **(B)** main sequence stars  ✔
 - **(C)** neutron stars
 - **(D)** protostars
 
 ![diagram — official paper figure (qp.pdf p.4) — shared with asset_1_a_diagram_stem](assets/asset_1_a_diagram_stem.png)
+
+
+**Mark scheme answer**
+
+> B – main sequence stars;
+> A is not correct as black holes do not appear on the
+> HR diagram
+> C is not correct as neutron stars are not part of the
+> main sequence.
+> D is not correct as protostars are not part of the
+> main sequence
+
+- **(1)** Answer B: main sequence stars
 
 ### 1(a)(ii) [1]
 
@@ -24,15 +37,39 @@ On the diagram, draw the area to show the position of white dwarf stars. Label t
 
 ![diagram — official paper figure (qp.pdf p.4) — shared with asset_1_a_diagram_stem](assets/asset_1_a_diagram_stem.png)
 
+
+**Mark scheme answer**
+
+> bottom left area of the HR diagram; unlabelled scores 0
+
+- **(1)** bottom left area of the HR diagram; unlabelled scores 0
+
 ### 1(a)(iii) [1]
 
 On the diagram, draw the area to show the position of red giant stars. Label this area RG.
 
 ![diagram — official paper figure (qp.pdf p.4) — shared with asset_1_a_diagram_stem](assets/asset_1_a_diagram_stem.png)
 
+
+**Mark scheme answer**
+
+> top right hand area of HR diagram; unlabelled scores 0
+
+- **(1)** top right hand area of HR diagram; unlabelled scores 0
+
 ### 1(a)(iv) [2]
 
 State what is meant by the term absolute magnitude.
+
+
+**Mark scheme answer**
+
+> a measure of brightness/luminosity; accept power
+> idea that a star would be at a standard distance (10 ignore lack of or
+> parsecs/32(.6) light years); incorrect value for
+> distance
+
+- **(2)** a measure of brightness/luminosity; accept power
 
 ### 1(b)(i) [1]
 
@@ -89,12 +126,34 @@ Calculate the total distance the sound wave travels from student A to the wall a
 **Mark scheme answer**
 
 > 300 (metres);
-> (b) 0.554;
+
+- **(1)** 300 (metres);
+
+### 2(b) [2]
+
+Student B hears the sound before and after the sound wave reflects from the wall. When student B hears the sound before reflection, he starts the stopwatch. When student B hears the sound after reflection, he stops the stopwatch. The students repeat this experiment five times. The table shows the students’ results. Time in s 0.50 0.62 0.52 0.58 0.55 Calculate the mean (average) time. Give your answer to 2 significant figures. mean time = s
+
+![table — official paper figure (qp.pdf p.6)](assets/asset_2_b_table.png)
+
+
+**Mark scheme answer**
+
+> 0.554;
 > any answer given to 2 sf; mark independently
 > correct answer = 0.55 (s)
 > e.g. (0.50+0.62+0.52+0.58+0.55)/5 = 0.554 (s)
 > = 0.55 (s) to 2 s.f.
-> (c) difference in distance is 180 m;
+
+- **(2)** 0.554;
+
+### 2(c) [4]
+
+Calculate the speed of sound for this investigation. speed = m/s
+
+
+**Mark scheme answer**
+
+> difference in distance is 180 m;
 > recall of equation: speed = distance / time taken; allow use of standard
 > symbols e.g. v = d/t
 > condone s for v, s for d
@@ -111,7 +170,17 @@ Calculate the total distance the sound wave travels from student A to the wall a
 > answer is 324.90...
 > (m/s) if 0.554(s) is
 > used
-> (d) human reaction time;
+
+- **(4)** difference in distance is 180 m;
+
+### 2(d) [1]
+
+Suggest a reason why the students’ results are not always the same.
+
+
+**Mark scheme answer**
+
+> human reaction time;
 > accept alternative valid
 > variables
 > e.g. wind speed,
@@ -120,21 +189,7 @@ Calculate the total distance the sound wave travels from student A to the wall a
 > Total for Question 2: 8 marks
 > Answer Notes Marks
 
-- **(1)** 300 (metres);
-
-### 2(b) [2]
-
-Student B hears the sound before and after the sound wave reflects from the wall. When student B hears the sound before reflection, he starts the stopwatch. When student B hears the sound after reflection, he stops the stopwatch. The students repeat this experiment five times. The table shows the students’ results. Time in s 0.50 0.62 0.52 0.58 0.55 Calculate the mean (average) time. Give your answer to 2 significant figures. mean time = s
-
-![table — official paper figure (qp.pdf p.6)](assets/asset_2_b_table.png)
-
-### 2(c) [4]
-
-Calculate the speed of sound for this investigation. speed = m/s
-
-### 2(d) [1]
-
-Suggest a reason why the students’ results are not always the same.
+- **(1)** human reaction time;
 
 
 ## Question 3 (11 marks)
@@ -150,7 +205,17 @@ State the property of plastic that allows it to become electrostatically charged
 
 > insulator; Allow ‘non/not
 > conductive’
-> (b) any reference to electron transfer;
+
+- **(1)** insulator; Allow ‘non/not
+
+### 3(b) [2]
+
+Explain how the plastic tube becomes positively charged.
+
+
+**Mark scheme answer**
+
+> any reference to electron transfer;
 > loss (of electrons);
 > idea of ‘loss of
 > electrons (from tube)’
@@ -158,7 +223,17 @@ State the property of plastic that allows it to become electrostatically charged
 > reject any reference to
 > movement of positive
 > charges
-> (c) electrons move through wire;
+
+- **(2)** any reference to electron transfer;
+
+### 3(c) [3]
+
+The plastic tube is attached to a metal mast. This would cause the metal mast to become positively charged. Explain why there is a wire connecting the metal mast to the Earth.
+
+
+**Mark scheme answer**
+
+> electrons move through wire;
 > as they are attracted by or to the metal mast; allow idea of ‘opposite
 > charges attracting’
 > idea that this makes metal mast neutral (again);
@@ -166,7 +241,17 @@ State the property of plastic that allows it to become electrostatically charged
 > earth/earthing the
 > mast’ if no other mark
 > scored
-> (d) recall of equation energy = charge × voltage; allow use of standard
+
+- **(3)** electrons move through wire;
+
+### 3(d) [3]
+
+The plastic tube gains a charge of 4.3 mC. The energy stored on the tube is 3.7 J. Calculate the voltage between the plastic tube and the metal mast. voltage = V
+
+
+**Mark scheme answer**
+
+> recall of equation energy = charge × voltage; allow use of standard
 > symbols e.g. E = Q × V
 > reject C,c for charge
 > substitution or re-arrangement;
@@ -177,28 +262,22 @@ State the property of plastic that allows it to become electrostatically charged
 > voltage = energy/charge = 3.7/0.0043
 > voltage = 860.465… (V)
 > voltage = 860 (V)
-> (e) spark/discharge;
-> damage/harm/injury/electrocution (of engineer);
-> Total for Question 3: 11 marks
-> Answer Notes Marks
 
-- **(1)** insulator; Allow ‘non/not
-
-### 3(b) [2]
-
-Explain how the plastic tube becomes positively charged.
-
-### 3(c) [3]
-
-The plastic tube is attached to a metal mast. This would cause the metal mast to become positively charged. Explain why there is a wire connecting the metal mast to the Earth.
-
-### 3(d) [3]
-
-The plastic tube gains a charge of 4.3 mC. The energy stored on the tube is 3.7 J. Calculate the voltage between the plastic tube and the metal mast. voltage = V
+- **(3)** recall of equation energy = charge × voltage; allow use of standard
 
 ### 3(e) [2]
 
 An engineer is working on the radio antenna. Describe the hazard to the engineer if there is no earth wire.
+
+
+**Mark scheme answer**
+
+> spark/discharge;
+> damage/harm/injury/electrocution (of engineer);
+> Total for Question 3: 11 marks
+> Answer Notes Marks
+
+- **(2)** spark/discharge;
 
 
 ## Question 4 (14 marks)
@@ -208,9 +287,37 @@ An engineer is working on the radio antenna. Describe the hazard to the engineer
 
 Calculate the wavelength of this sound wave. [speed of sound = 330 m/s] wavelength = m
 
+
+**Mark scheme answer**
+
+> recall of equation: speed = frequency × allow use of standard
+> wavelength; symbols e.g. v = f × λ
+> condone s for speed
+> reject w for wavelength
+> substitution or re-arrangement;
+> correct evaluation;
+> correct answer = 0.013 (m) answer to 3sf is 0.0132 (m)
+> e.g. speed = frequency × wavelength
+> wavelength = speed ÷ frequency
+> wavelength = 330 ÷ 25000
+> wavelength = 0.0132… (m)
+
+- **(3)** recall of equation: speed = frequency × allow use of standard
+
 ### 4(a)(ii) [2]
 
 The oscilloscope trace represents the sound wave. Oscilloscope settings y direction: 1 square = 5 V x direction: 1 square = 0.01 ms Determine the amplitude of the oscilloscope trace. amplitude = V
+
+
+**Mark scheme answer**
+
+> amplitude corresponds to 2 squares;
+> 2 squares gives 10 V for amplitude; ecf incorrect number of
+> squares for amplitude
+> e.g. 4 squares giving 20V
+> scores 1 mark
+
+- **(2)** amplitude corresponds to 2 squares;
 
 ### 4(b)(i) [3]
 
@@ -465,7 +572,17 @@ The student releases the blocks. The kinetic energy (KE) store of the small bloc
 > 0.29 = 0.5 × 0.017 × v2
 > v2 = 0.29 ÷ (0.5 × 0.017) = 34.1176471..
 > v = √34.1176471 = 5.8(4…) (m/s)
-> (b) idea of conservation of momentum; however expressed
+
+- **(3)** correct substitution KE = ½ (mass) × (speed)2; allow use of standard
+
+### 7(b) [4]
+
+Using ideas about momentum, show that the speed of the large block is about 1 m/s after the blocks are no longer in contact.
+
+
+**Mark scheme answer**
+
+> idea of conservation of momentum; however expressed
 > idea that momentum before release was zero; allow idea that momenta of
 > two blocks is equal in
 > magnitude
@@ -479,7 +596,17 @@ The student releases the blocks. The kinetic energy (KE) store of the small bloc
 > so v = 102/75 = 1.36 m/s
 > v=1.31 if vsmall = 5.8 m/s
 > v=1.32 if vsmall = 5.84 m/s
-> (c) substitution into given equation;
+
+- **(4)** idea of conservation of momentum; however expressed
+
+### 7(c) [3]
+
+The small block takes 0.11 s to reach 6 m/s. Calculate the mean force exerted on the small block by the spring. mean force = N QUESTION 7 CONTINUES ON NEXT PAGE
+
+
+**Mark scheme answer**
+
+> substitution into given equation;
 > idea of initial momentum = 0; allow use of init velocity = 0
 > evaluation;
 > correct answer = 0.93 (N)
@@ -487,7 +614,19 @@ The student releases the blocks. The kinetic energy (KE) store of the small bloc
 > force = ((0.017 × 6) – 0) ÷ 0.11
 > force = 0.102 ÷ 0.11
 > force = 0.9272… (N)
-> (d) substitution and re-arrangement of given equation;
+
+- **(3)** substitution into given equation;
+
+### 7(d) [3]
+
+The small block then moves around the fixed point on the table. The block moves in a circular orbit of radius 17.6 cm at a constant orbital speed of 6 m/s. The time period of the orbit can be found using the formula 2π × orbital radius orbital speed = time period Calculate the time period of the orbit. time period = s
+
+![table — official paper figure (qp.pdf p.20) — shared with asset_7_d_table_stem](assets/asset_7_d_table_stem.png)
+
+
+**Mark scheme answer**
+
+> substitution and re-arrangement of given equation;
 > conversion of 17.6 cm to 0.176 m;
 > evaluation;
 > correct answer = 0.18(41…) (s) accept 0.2 (s)
@@ -503,19 +642,5 @@ The student releases the blocks. The kinetic energy (KE) store of the small bloc
 > Pearson Education Limited. Registered company number 872828
 > with its registered office at 80 Strand, London, WC2R 0RL, United Kingdom
 
-- **(3)** correct substitution KE = ½ (mass) × (speed)2; allow use of standard
-
-### 7(b) [4]
-
-Using ideas about momentum, show that the speed of the large block is about 1 m/s after the blocks are no longer in contact.
-
-### 7(c) [3]
-
-The small block takes 0.11 s to reach 6 m/s. Calculate the mean force exerted on the small block by the spring. mean force = N QUESTION 7 CONTINUES ON NEXT PAGE
-
-### 7(d) [3]
-
-The small block then moves around the fixed point on the table. The block moves in a circular orbit of radius 17.6 cm at a constant orbital speed of 6 m/s. The time period of the orbit can be found using the formula 2π × orbital radius orbital speed = time period Calculate the time period of the orbit. time period = s
-
-![table — official paper figure (qp.pdf p.20) — shared with asset_7_d_table_stem](assets/asset_7_d_table_stem.png)
+- **(3)** substitution and re-arrangement of given equation;
 

@@ -1,6 +1,6 @@
 {
  "schema": "syllabai.official-paper-questions.validation/0.2",
- "generated_utc": "2026-10-25T20:43:12Z",
+ "generated_utc": "2026-10-25T22:06:38Z",
  "series": "2022-06",
  "paper": "2PR",
  "gates": [
@@ -69,22 +69,10 @@
   },
   {
    "gate": "G5-answer-linkage",
-   "status": "REVIEW",
-   "summary": "MS linkage 19/30 (63%)",
+   "status": "PASS",
+   "summary": "MS linkage 30/30 (100%)",
    "details": {
-    "unmatched": [
-     "1(b)",
-     "3(b)",
-     "4(c)",
-     "4(d)",
-     "6(a)(i)",
-     "6(a)(ii)",
-     "6(a)(iii)",
-     "6(c)",
-     "7(b)",
-     "7(c)",
-     "7(d)"
-    ]
+    "unmatched": []
    }
   },
   {
@@ -99,7 +87,7 @@
   {
    "gate": "G7-solution-emission",
    "status": "PASS",
-   "summary": "solution_md on 19/19 linked parts; mark_points sum == part marks everywhere: True; MS marks-column digit read for 0 parts, agrees with QP marks on 0",
+   "summary": "solution_md on 30/30 linked parts; mark_points sum == part marks everywhere: True; MS marks-column digit read for 0 parts, agrees with QP marks on 0",
    "details": {
     "missing_solution": [],
     "sum_mismatches": [],
@@ -131,50 +119,6 @@
   {
    "part": "1(a)",
    "reason": "MCQ key unresolved from MS"
-  },
-  {
-   "part": "1(b)",
-   "reason": "answer not auto-linked to MS"
-  },
-  {
-   "part": "3(b)",
-   "reason": "answer not auto-linked to MS"
-  },
-  {
-   "part": "4(c)",
-   "reason": "answer not auto-linked to MS"
-  },
-  {
-   "part": "4(d)",
-   "reason": "answer not auto-linked to MS"
-  },
-  {
-   "part": "6(a)(i)",
-   "reason": "answer not auto-linked to MS"
-  },
-  {
-   "part": "6(a)(ii)",
-   "reason": "answer not auto-linked to MS"
-  },
-  {
-   "part": "6(a)(iii)",
-   "reason": "answer not auto-linked to MS"
-  },
-  {
-   "part": "6(c)",
-   "reason": "answer not auto-linked to MS"
-  },
-  {
-   "part": "7(b)",
-   "reason": "answer not auto-linked to MS"
-  },
-  {
-   "part": "7(c)",
-   "reason": "answer not auto-linked to MS"
-  },
-  {
-   "part": "7(d)",
-   "reason": "answer not auto-linked to MS"
   }
  ],
  "ocr_pages": [],

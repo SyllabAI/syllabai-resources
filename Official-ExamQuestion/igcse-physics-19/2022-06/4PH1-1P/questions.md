@@ -49,7 +49,17 @@ Add an X to the diagram to show the position where the comet is moving fastest.
 
 > X marked on part of path closest to candidate’s S; reject if another
 > contradictory cross drawn
-> (b) any three from: comparison needs to be seen
+
+- **(1)** X marked on part of path closest to candidate’s S; reject if another
+
+### 1(b) [3]
+
+Describe how the orbit of a comet compares with the orbit of a planet.
+
+
+**Mark scheme answer**
+
+> any three from: comparison needs to be seen
 > MP1. comet’s orbit is more elliptical/oval; allow planet’s orbit is more
 > circular
 > MP2. (orbital) path of comet is longer; allow distance for path
@@ -67,11 +77,7 @@ Add an X to the diagram to show the position where the comet is moving fastest.
 > but varies for comet
 > Answer Notes Marks
 
-- **(1)** X marked on part of path closest to candidate’s S; reject if another
-
-### 1(b) [3]
-
-Describe how the orbit of a comet compares with the orbit of a planet.
+- **(3)** any three from: comparison needs to be seen
 
 
 ## Question 2 (6 marks)
@@ -91,28 +97,6 @@ Which statement describes the term atomic number for a nucleus?
 > A is incorrect because electrons are not found in the nucleus
 > B is incorrect because this is deduced from the mass number
 > D is incorrect because this is the mass number
-> (b) D (number of protons and neutrons in the nucleus);
-> A is incorrect because electrons are not found in the nucleus
-> B is incorrect because this is determined from the mass number and is not the mass
-> number itself
-> C is incorrect because this is the atomic number
-> (c) D (atoms with the same number of protons but a different number of neutrons;
-> A is incorrect because isotopes must have the same number of protons
-> B is incorrect because isotopes have a different number of neutrons to each other
-> C is incorrect because isotopes must have the same number of protons
-> (d) A (adding an electron);
-> B is incorrect because this will change the element and make it positively charged
-> C is incorrect because this will create a positively charged ion
-> D is incorrect because this will change the element
-> (e) B (radioactive decay happens at random);
-> A is incorrect because this is a consequence of radioactive decay
-> C is incorrect because it does not explain the random nature of radioactive decay
-> D is incorrect because this explains why radioactive decay happens in the first place
-> (f) A (becquerel (Bq);
-> B is incorrect because this is the unit for charge
-> C is incorrect because this is the unit for energy
-> D is incorrect because this is the unit for power
-> Answer Notes Marks
 
 - **(1)** Answer C: number of protons in the nucleus
 
@@ -123,38 +107,90 @@ Which statement describes the term mass number for a nucleus?
 - **(A)** number of electrons in the nucleus
 - **(B)** number of neutrons in the nucleus
 - **(C)** number of protons in the nucleus
-- **(D)** number of protons and neutrons in the nucleus
+- **(D)** number of protons and neutrons in the nucleus  ✔
+
+
+**Mark scheme answer**
+
+> D (number of protons and neutrons in the nucleus);
+> A is incorrect because electrons are not found in the nucleus
+> B is incorrect because this is determined from the mass number and is not the mass
+> number itself
+> C is incorrect because this is the atomic number
+
+- **(1)** Answer D: number of protons and neutrons in the nucleus
 
 ### 2(c) [1]
 
-Which statement describes the term isotopes? A a toms with the same number of electrons but a different number of protons B atoms with the same number of neutrons but a different number of electrons C a toms with the same number of neutrons but a different number of protons D a toms with the same number of protons but a different number of neutrons
+Which statement describes the term isotopes? A a toms with the same number of electrons but a different number of protons B atoms with the same number of neutrons but a different number of electrons C a toms with the same number of neutrons but a different number of protons D a toms with the same number of protons but a different number of neutrons
+
+
+**Mark scheme answer**
+
+> D (atoms with the same number of protons but a different number of neutrons;
+> A is incorrect because isotopes must have the same number of protons
+> B is incorrect because isotopes have a different number of neutrons to each other
+> C is incorrect because isotopes must have the same number of protons
+
+- **(1)** D (atoms with the same number of protons but a different number of neutrons;
 
 ### 2(d) [1]
 
 An atom contains 8 protons, 8 neutrons and 8 electrons. Which of these would result in a negatively charged ion of the same element?
 
-- **(A)** adding an electron
+- **(A)** adding an electron  ✔
 - **(B)** adding a proton
 - **(C)** removing an electron
 - **(D)** removing a proton
+
+
+**Mark scheme answer**
+
+> A (adding an electron);
+> B is incorrect because this will change the element and make it positively charged
+> C is incorrect because this will create a positively charged ion
+> D is incorrect because this will change the element
+
+- **(1)** Answer A: adding an electron
 
 ### 2(e) [1]
 
 It is not possible to predict exactly when a radioactive nucleus will decay. Which feature of radioactive decay best explains this observation?
 
 - **(A)** radioactive decay can change the structure of the nucleus
-- **(B)** radioactive decay happens at random
+- **(B)** radioactive decay happens at random  ✔
 - **(C)** radioactive decay is irreversible
 - **(D)** radioactive decay makes a nucleus more stable
+
+
+**Mark scheme answer**
+
+> B (radioactive decay happens at random);
+> A is incorrect because this is a consequence of radioactive decay
+> C is incorrect because it does not explain the random nature of radioactive decay
+> D is incorrect because this explains why radioactive decay happens in the first place
+
+- **(1)** Answer B: radioactive decay happens at random
 
 ### 2(f) [1]
 
 Which of these is the correct unit for measuring the activity of a radioactive sample?
 
-- **(A)** becquerel (Bq)
+- **(A)** becquerel (Bq)  ✔
 - **(B)** coulomb (C)
 - **(C)** joule (J)
 - **(D)** watt (W)
+
+
+**Mark scheme answer**
+
+> A (becquerel (Bq);
+> B is incorrect because this is the unit for charge
+> C is incorrect because this is the unit for energy
+> D is incorrect because this is the unit for power
+> Answer Notes Marks
+
+- **(1)** Answer A: becquerel (Bq)
 
 
 ## Question 3 (14 marks)
@@ -235,9 +271,29 @@ The device emits a sound wave. The sound wave travels to the wall, reflects back
 > 345 = 4.70 ÷ time
 > (time =) 0.0136 (s) allow 0.01, 0.014,
 > 0.01362… (s)
-> (c) idea that the person can see/know what e.g. marks the position that
+
+- **(4)** use of speed = distance/time seen or allow any rearrangement or in
+
+### 3(c) [1]
+
+Suggest why the device emits visible light.
+
+
+**Mark scheme answer**
+
+> idea that the person can see/know what e.g. marks the position that
 > (distance) they are measuring/eq; (distance) is being measured to
-> (d) any three from: allow points shown on a labelled
+
+- **(1)** idea that the person can see/know what e.g. marks the position that
+
+### 3(d) [3]
+
+Sound waves and light waves can have different frequencies and wavelengths. Describe three other differences between sound waves and light waves. You may draw diagrams to support your answer.
+
+
+**Mark scheme answer**
+
+> any three from: allow points shown on a labelled
 > diagram
 > allow higher level ideas i.e. light
 > can be polarised but sound can’t
@@ -260,15 +316,7 @@ The device emits a sound wave. The sound wave travels to the wall, reflects back
 > but sound speeds up;
 > Answer Notes Marks
 
-- **(4)** use of speed = distance/time seen or allow any rearrangement or in
-
-### 3(c) [1]
-
-Suggest why the device emits visible light.
-
-### 3(d) [3]
-
-Sound waves and light waves can have different frequencies and wavelengths. Describe three other differences between sound waves and light waves. You may draw diagrams to support your answer.
+- **(3)** any three from: allow points shown on a labelled
 
 
 ## Question 4 (8 marks)
@@ -294,17 +342,49 @@ Plot a bar chart of the gravitational field strength for each planet.
 > in the same order as the
 > table
 > condone stick graphs
-> (b) any one from: ignore different orbital radius
+
+- **(3)** suitable linear scale chosen (>50% of grid used); ignore orientation of axes
+
+### 4(b) [1]
+
+Suggest why planets have different gravitational field strengths at their surface.
+
+
+**Mark scheme answer**
+
+> any one from: ignore different orbital radius
 > different masses; ignore weight
 > different sizes; allow different volume, radii,
 > diameter
 > ignore different (surface)
 > area
 > different densities;
-> (c) as orbital radius increases, the orbital speed condone idea that they are
+
+- **(1)** any one from: ignore different orbital radius
+
+### 4(c) [1]
+
+Give the relationship shown by the data in the table between the orbital radius and the orbital speed for the planets in the solar system.
+
+![table — official paper figure (qp.pdf p.10) — shared with asset_4_c_table_stem](assets/asset_4_c_table_stem.png)
+
+
+**Mark scheme answer**
+
+> as orbital radius increases, the orbital speed condone idea that they are
 > decreases; inversely proportional
 > ignore negative correlation
-> (d)
+
+- **(1)** as orbital radius increases, the orbital speed condone idea that they are
+
+### 4(d) [3]
+
+Calculate the time period of Mercury’s orbit around the Sun. time period = s
+
+
+**Mark scheme answer**
+
+> 3
 > substitution into ;
 > rearrangement;
 > evaluation; -1 for POT error
@@ -317,21 +397,7 @@ Plot a bar chart of the gravitational field strength for each planet.
 > 7 675 030.154 (s)
 > Answer Notes Marks
 
-- **(3)** suitable linear scale chosen (>50% of grid used); ignore orientation of axes
-
-### 4(b) [1]
-
-Suggest why planets have different gravitational field strengths at their surface.
-
-### 4(c) [1]
-
-Give the relationship shown by the data in the table between the orbital radius and the orbital speed for the planets in the solar system.
-
-![table — official paper figure (qp.pdf p.10) — shared with asset_4_c_table_stem](assets/asset_4_c_table_stem.png)
-
-### 4(d) [3]
-
-Calculate the time period of Mercury’s orbit around the Sun. time period = s
+- **(3)** 3
 
 
 ## Question 5 (9 marks)
@@ -398,7 +464,17 @@ The incomplete nuclear decay equation summarises the decay sequence of thorium-2
 > present)
 > number of alpha = 3
 > number of beta = 2
-> (c) any three from:
+
+- **(3)** evidence of trying to balance nuclear equation; e.g. 232 – 220 = 12
+
+### 5(c) [3]
+
+Thorium‑232 is a solid and remains in the work surface. Radon‑220 is a gas and is emitted from the work surface. Thorium‑232 and radon‑220 both emit alpha radiation. Discuss the hazards due to the granite work surface when a person is working in the kitchen. Refer to contamination and irradiation in your answer.
+
+
+**Mark scheme answer**
+
+> any three from:
 > MP1. (alpha) can cause cell mutation / cancer;
 > MP2. idea that alpha is only dangerous when inside
 > body;
@@ -412,11 +488,7 @@ The incomplete nuclear decay equation summarises the decay sequence of thorium-2
 > MP7. thorium cannot enter body;
 > Answer Notes Marks
 
-- **(3)** evidence of trying to balance nuclear equation; e.g. 232 – 220 = 12
-
-### 5(c) [3]
-
-Thorium‑232 is a solid and remains in the work surface. Radon‑220 is a gas and is emitted from the work surface. Thorium‑232 and radon‑220 both emit alpha radiation. Discuss the hazards due to the granite work surface when a person is working in the kitchen. Refer to contamination and irradiation in your answer.
+- **(3)** any three from:
 
 
 ## Question 6 (5 marks)
@@ -433,7 +505,19 @@ Force and velocity are examples of vector quantities. State what is meant by the
 > (quantity that has both) magnitude and direction; allow size, value, number or
 > amount for magnitude
 > ignore scale for magnitude
-> (b) ignore starting points and
+
+- **(1)** (quantity that has both) magnitude and direction; allow size, value, number or
+
+### 6(b) [4]
+
+Draw labelled arrows on the diagram to show two other forces that act on the child.
+
+![diagram — official paper figure (qp.pdf p.15) — shared with asset_6_b_diagram_stem](assets/asset_6_b_diagram_stem.png)
+
+
+**Mark scheme answer**
+
+> ignore starting points and
 > lengths of arrows
 > 3 marks max. if more than
 > two arrows drawn
@@ -450,13 +534,7 @@ Force and velocity are examples of vector quantities. State what is meant by the
 > condone wind resistance
 > Answer Notes Marks
 
-- **(1)** (quantity that has both) magnitude and direction; allow size, value, number or
-
-### 6(b) [4]
-
-Draw labelled arrows on the diagram to show two other forces that act on the child.
-
-![diagram — official paper figure (qp.pdf p.15) — shared with asset_6_b_diagram_stem](assets/asset_6_b_diagram_stem.png)
+- **(4)** ignore starting points and
 
 
 ## Question 7 (8 marks)
@@ -674,9 +752,34 @@ Calculate the mean accelerating force acting on the car. accelerating force = N
 
 State the formula linking pressure difference, height, density and gravitational field strength, g.
 
+
+**Mark scheme answer**
+
+> pressure (difference) = height × density × g; allow standard symbols and
+> rearrangements e.g.
+> h = p / (ρ × g)
+> condone d for density
+
+- **(1)** pressure (difference) = height × density × g; allow standard symbols and
+
 ### 9(a)(ii) [3]
 
 The pressure difference between the surface of the water and the water at the bottom of the bottle is 2300 Pa. Calculate the depth of water in the bottle. Give your answer in cm. [density of water = 1000 kg / m3] depth = cm
+
+
+**Mark scheme answer**
+
+> substitution; allow g = 9.81, 9.8
+> rearrangement;
+> evaluation in cm; -1 for POT error but check
+> carefully due to value of g
+> 0.23 (cm) gains 2 marks
+> e.g.
+> 2300 = h × 1000 × 10
+> h = 2300 / (1000 × 10)
+> (h =) 23 (cm) allow 23.46…, 23.44… (cm)
+
+- **(3)** substitution; allow g = 9.81, 9.8
 
 ### 9(b)(i) [1]
 
@@ -813,7 +916,17 @@ The mass of the car and its passengers is 2.1 tonnes. Calculate the kinetic ener
 > 1 mark only for not
 > converting tonnes to kg
 > e.g. KE = 380 (J), 378 (J)
-> (c) allow answers in terms of
+
+- **(2)** substitution; allow ECF from (a)
+
+### 10(c) [4]
+
+The actual speed of the car when it has fallen 18 m is lower than the value calculated in (a). Describe the energy transfers occurring from immediately before the car was released to when the car has fallen 18 m. Refer to stores and transfers in your answer.
+
+
+**Mark scheme answer**
+
+> allow answers in terms of
 > types of energy rather
 > than stores and transfers
 > idea that energy is transferred from a gravitational allow GPE to KE
@@ -827,11 +940,7 @@ The mass of the car and its passengers is 2.1 tonnes. Calculate the kinetic ener
 > heating; as sound
 > Answer Notes Marks
 
-- **(2)** substitution; allow ECF from (a)
-
-### 10(c) [4]
-
-The actual speed of the car when it has fallen 18 m is lower than the value calculated in (a). Describe the energy transfers occurring from immediately before the car was released to when the car has fallen 18 m. Refer to stores and transfers in your answer.
+- **(4)** allow answers in terms of
 
 
 ## Question 11 (13 marks)
@@ -973,18 +1082,24 @@ Predict a value for the current if the wire is moved faster between the poles of
 **Mark scheme answer**
 
 > reading larger than value given in (a); ignore polarity
-> (c) any one from:
-> MP1. longer needle; allow idea of moving scale
-> further up the needle
-> MP2. more turns in coil; ignore bigger coil, more coils
-> MP3. stronger magnet; ignore bigger magnet
-> MP4. weaker return spring;
 
 - **(1)** reading larger than value given in (a); ignore polarity
 
 ### 12(c) [1]
 
 Photograph 2 shows the structure of the ammeter. The ammeter has a needle attached to a coil of wire which can move freely around a magnet. When there is a current in the coil, the needle moves. The larger the current, the more the coil turns. needle coil of wire magnet Photograph 2 Suggest how the design of the ammeter could be modified to increase its sensitivity. QUESTION 12 CONTINUES ON NEXT PAGE
+
+
+**Mark scheme answer**
+
+> any one from:
+> MP1. longer needle; allow idea of moving scale
+> further up the needle
+> MP2. more turns in coil; ignore bigger coil, more coils
+> MP3. stronger magnet; ignore bigger magnet
+> MP4. weaker return spring;
+
+- **(1)** any one from:
 
 ### 12(d)(i) [1]
 

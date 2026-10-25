@@ -22,12 +22,6 @@ The boxes show some EM waves and their uses. Draw one straight line from each EM
 > scores 2 marks
 > one correct
 > scores 1 mark
-> (b) C (internal heating of tissue);
-> A is incorrect because this is a hazard of visible and ultraviolet radiation
-> B is incorrect because this is a hazard of x-ray and gamma radiation
-> D is incorrect because this is a hazard if infrared radiation
-> (c) radio (waves);
-> Answer Notes Marks
 
 - **(3)** gamma use is given so
 
@@ -37,12 +31,30 @@ Which of these is a hazard of microwave radiation?
 
 - **(A)** blindness
 - **(B)** cell mutation
-- **(C)** internal heating of tissue
+- **(C)** internal heating of tissue  ✔
 - **(D)** skin burns
+
+
+**Mark scheme answer**
+
+> C (internal heating of tissue);
+> A is incorrect because this is a hazard of visible and ultraviolet radiation
+> B is incorrect because this is a hazard of x-ray and gamma radiation
+> D is incorrect because this is a hazard if infrared radiation
+
+- **(1)** Answer C: internal heating of tissue
 
 ### 1(c) [1]
 
 State the name of an electromagnetic wave with a wavelength longer than microwave radiation.
+
+
+**Mark scheme answer**
+
+> radio (waves);
+> Answer Notes Marks
+
+- **(1)** radio (waves);
 
 
 ## Question 2 (8 marks)
@@ -59,12 +71,34 @@ The weight of the table acts through point G. State the name of point G.
 **Mark scheme answer**
 
 > centre of gravity; accept centre of mass
-> (b) moment = force × (perpendicular) distance; allow standard symbols
+
+- **(1)** centre of gravity; accept centre of mass
+
+### 2(b) [1]
+
+State the formula linking moment, force and perpendicular distance from the pivot.
+
+
+**Mark scheme answer**
+
+> moment = force × (perpendicular) distance; allow standard symbols
 > and rearrangements
 > e.g. M = F × d
 > allow d, s, x for
 > distance
-> (c) substitution;
+
+- **(1)** moment = force × (perpendicular) distance; allow standard symbols
+
+### 2(c) [3]
+
+The moment of the weight force of the table about the hinge is 92 N m. By using the principle of moments, calculate the force S that a person applies to keep the table in equilibrium. force S = N
+
+![table — official paper figure (qp.pdf p.4) — shared with asset_2_a_table_stem](assets/asset_2_a_table_stem.png)
+
+
+**Mark scheme answer**
+
+> substitution;
 > rearrangement;
 > evaluation; -1 for POT error
 > 2 marks max. if
@@ -75,35 +109,37 @@ The weight of the table acts through point G. State the name of point G.
 > 92 = Fs × 0.84
 > Fs = 92 / 0.84
 > (Fs =) 110 (N) allow 109.5, 109.52…
-> (d) idea that every force has an equal and opposite reaction; however expressed
-> allow “action” for force
-> (e) same value as (c); allow ecf from (c)
-> expected answer is
-> 110 (N)
-> down;
-> Answer Notes Marks
 
-- **(1)** centre of gravity; accept centre of mass
-
-### 2(b) [1]
-
-State the formula linking moment, force and perpendicular distance from the pivot.
-
-### 2(c) [3]
-
-The moment of the weight force of the table about the hinge is 92 N m. By using the principle of moments, calculate the force S that a person applies to keep the table in equilibrium. force S = N
-
-![table — official paper figure (qp.pdf p.4) — shared with asset_2_a_table_stem](assets/asset_2_a_table_stem.png)
+- **(3)** substitution;
 
 ### 2(d) [1]
 
 State Newton’s third law.
+
+
+**Mark scheme answer**
+
+> idea that every force has an equal and opposite reaction; however expressed
+> allow “action” for force
+
+- **(1)** idea that every force has an equal and opposite reaction; however expressed
 
 ### 2(e) [2]
 
 State the magnitude and the direction of the force that the table applies to the person holding the table. magnitude = N direction =
 
 ![table — official paper figure (qp.pdf p.4) — shared with asset_2_a_table_stem](assets/asset_2_a_table_stem.png)
+
+
+**Mark scheme answer**
+
+> same value as (c); allow ecf from (c)
+> expected answer is
+> 110 (N)
+> down;
+> Answer Notes Marks
+
+- **(2)** same value as (c); allow ecf from (c)
 
 
 ## Question 3 (9 marks)
@@ -123,7 +159,17 @@ State the formula linking momentum, mass and velocity.
 > p=m×v
 > reject M, m for
 > momentum
-> (b) substitution;
+
+- **(1)** momentum = mass × velocity; allow standard
+
+### 3(b) [3]
+
+Calculate the momentum of the neutron. Give a unit with your answer. [mass of neutron = 1.67 × 10–27 kg] momentum = unit
+
+
+**Mark scheme answer**
+
+> substitution;
 > evaluation;
 > unit;
 > e.g.
@@ -131,9 +177,31 @@ State the formula linking momentum, mass and velocity.
 > (p =) 3.7 × 10-24 allow 3.6(74) × 10-24
 > kg m/s allow 3.7 × 10-21 g
 > m/s for 3 marks
-> (c) (total) momentum before (collision) =
+
+- **(3)** substitution;
+
+### 3(c) [1]
+
+State what is meant by the term conservation of momentum.
+
+
+**Mark scheme answer**
+
+> (total) momentum before (collision) =
 > (total) momentum after (collision);
-> (d) evaluation of momentum of U-235 before collision;
+
+- **(1)** (total) momentum before (collision) =
+
+### 3(d) [4]
+
+Diagram 2 shows that when the neutron collides with the uranium-235 nucleus, they combine to give a uranium-236 nucleus. After collision v uranium-236 Diagram 2 Use conservation of momentum to calculate the velocity, v, of the uranium-236 nucleus. [mass of uranium-235 nucleus = 3.99 × 10–25 kg] [mass of uranium-236 nucleus = 4.01 × 10–25 kg] v = m/s
+
+![diagram — official paper figure (qp.pdf p.7)](assets/asset_3_d_diagram.png)
+
+
+**Mark scheme answer**
+
+> evaluation of momentum of U-235 before collision;
 > addition of neutron momentum; allow ecf from (b)
 > rearrangement to give velocity of U-236; seen or implied by
 > working
@@ -148,21 +216,7 @@ State the formula linking momentum, mass and velocity.
 > (vU-236 =) 19 (m/s) allow 19.1… (m/s)
 > Answer Notes Marks
 
-- **(1)** momentum = mass × velocity; allow standard
-
-### 3(b) [3]
-
-Calculate the momentum of the neutron. Give a unit with your answer. [mass of neutron = 1.67 × 10–27 kg] momentum = unit
-
-### 3(c) [1]
-
-State what is meant by the term conservation of momentum.
-
-### 3(d) [4]
-
-Diagram 2 shows that when the neutron collides with the uranium-235 nucleus, they combine to give a uranium-236 nucleus. After collision v uranium-236 Diagram 2 Use conservation of momentum to calculate the velocity, v, of the uranium-236 nucleus. [mass of uranium-235 nucleus = 3.99 × 10–25 kg] [mass of uranium-236 nucleus = 4.01 × 10–25 kg] v = m/s
-
-![diagram — official paper figure (qp.pdf p.7)](assets/asset_3_d_diagram.png)
+- **(4)** evaluation of momentum of U-235 before collision;
 
 
 ## Question 4 (10 marks)
@@ -173,9 +227,30 @@ A metalworker uses a hammer of mass 1.8 kg to deform a piece of metal on an anvi
 
 Calculate the increase in the hammer’s gravitational potential energy (GPE) store when the hammer is raised through a height of 0.95 m above the metal. [GPE gained = mass × gravitational field strength × height] GPE increase = J
 
+
+**Mark scheme answer**
+
+> substitution; allow g = 9.8, 9.81
+> evaluation;
+> e.g.
+> (GPE =) 1.8 × 10 × 0.95
+> (GPE =) 17 (J) allow 16.8, 16.7…,
+> 17.1… (J)
+
+- **(2)** substitution; allow g = 9.8, 9.81
+
 ### 4(a)(ii) [2]
 
 The metalworker moves the hammer down to strike the metal. The hammer must have at least 21 J of energy in its kinetic energy (KE) store as it hits the metal to deform it. Explain why the metalworker must do at least 4 J of mechanical work on the hammer to deform the metal.
+
+
+**Mark scheme answer**
+
+> idea that KE (gained) is greater than GPE (lost);
+> idea KE gained = GPE lost + work done;
+> e.g. 17 + 4 = 21 OR 21 – 17 = 4
+
+- **(2)** idea that KE (gained) is greater than GPE (lost);
 
 ### 4(b)(i) [4]
 
@@ -228,13 +303,60 @@ Sketch a graph on the axes to show how the temperature changes with time. Assume
 
 ![graph — official paper figure (qp.pdf p.10) — shared with asset_5_a_graph_stem](assets/asset_5_a_graph_stem.png)
 
+
+**Mark scheme answer**
+
+> allow candidate’s time axis
+> scale or clearly marked times
+> line starts at (0,-17) and rises to steady line can be curved or straight
+> temperature of 0 °C (after 5 minutes);
+> 6 minutes along time axis at temperature of 0 °C; ignore start and end times as
+> long as duration is 6 minutes
+> line drawn showing increase in temperature from line can be curved or straight
+> 0 °C until 20 minutes on time axis; and can end at any
+> temperature
+
+- **(3)** allow candidate’s time axis
+
 ### 5(a)(ii) [1]
 
 Suggest a precaution the student should take to obtain high quality data.
 
+
+**Mark scheme answer**
+
+> any one from: ignore using more insulation,
+> digital thermometer
+> • keep heater submerged;
+> • (check) voltage remains constant;
+> • idea of not removing lid; allow idea that lid is well
+> sealed
+> • stirring (once some ice has melted);
+> • repeat and average; allow repeat and remove
+> anomalies
+
+- **(1)** any one from: ignore using more insulation,
+
 ### 5(b) [3]
 
 During the experiment the heater transfers 2500 J of energy to the beaker. The beaker has a specific heat capacity of 880 J / kg °C and a mass of 48 g. Calculate the increase in the temperature of the beaker. temperature increase = °C
+
+
+**Mark scheme answer**
+
+> dimensionally correct substitution into allow mass in kg or g for this
+> ∆Q = m × c × ∆T; mark
+> rearrangement; seen or implied from working
+> evaluation; -1 for POT error
+> final answer of 42 = 2 marks
+> e.g.
+> 2500 = 0.048 × 880 × ∆T
+> ∆T = 2500 / (0.048 × 880)
+> (∆T =) 59 (°C) allow 59.2, 59.18… (°C)
+> condone 59.1 (°C)
+> Answer Notes Marks
+
+- **(3)** dimensionally correct substitution into allow mass in kg or g for this
 
 
 ## Question 6 (8 marks)
@@ -245,13 +367,61 @@ The diagram shows the first stages in a method of transferring energy electrical
 
 State the formula linking input voltage, output voltage, number of primary turns and number of secondary turns for a transformer.
 
+
+**Mark scheme answer**
+
+> input voltage
+> =
+> primary turns
+> ; allow standard symbols and
+> output voltage secondary turns
+> rearrangements
+> e.g. Vp / Vs = Np / Ns
+> allow T, n for turns
+> allow 1,2 in,out for p and s
+
+- **(1)** input voltage
+
 ### 6(a)(ii) [3]
 
 Calculate the number of turns on the secondary coil. number of turns =
 
+
+**Mark scheme answer**
+
+> substitution; allow kV or V for voltages
+> rearrangement;
+> evaluation; -1 for POT error
+> e.g.
+> 15/330 = 2600/Ns
+> Ns = 2600 × 330 / 15
+> Ns = 57 000 allow 57 200
+
+- **(3)** substitution; allow kV or V for voltages
+
 ### 6(b) [4]
 
 Explain why step-up and step-down transformers are used in the large-scale transmission of electricity. You may draw a diagram to support your answer.
+
+
+**Mark scheme answer**
+
+> any four from: credit ideas seen in diagram
+> MP1. step-up transformer increases voltage; allow RA
+> MP2. step-up transformer decreases current; allow RA
+> allow increasing the voltage
+> decreases the current
+> MP3. idea that Pin = Pout / VinIin=VoutIout (assuming 100%
+> efficient);
+> MP4. idea that transmission current is reduced;
+> MP5. idea that energy losses are reduced; allow heating losses reduced
+> MP6. (because) current causes heating (in
+> transmission cables);
+> MP7. idea that step-down transformer used to reduce
+> voltage to safe level;
+> Answer Notes Marks
+
+- **(4)** any four from: credit ideas seen in diagram
 
 
 ## Question 7 (8 marks)
@@ -336,15 +506,61 @@ Diagram 1 shows two identical buzzers connected with springs. post spring A spri
 
 Explain why buzzer B travels with twice the average speed of buzzer A.
 
+
+**Mark scheme answer**
+
+> buzzer B travels twice the distance; ignore quoting distances
+> since given in question
+> in the same time (period) OR
+> (average) speed = distance/time taken;
+
+- **(2)** buzzer B travels twice the distance; ignore quoting distances
+
 ### 8(a)(ii) [3]
 
 A student connects the microphone to an oscilloscope to measure the frequency of sound from the two buzzers while the force acts on the arrangement. Explain the difference in the measured frequencies of sound from buzzer A compared to buzzer B.
+
+
+**Mark scheme answer**
+
+> any three from:
+> MP1. frequency decreases; allow for either / both
+> buzzer(s)
+> reject if one frequency
+> said to be increased
+> MP2. due to Doppler effect;
+> MP3. idea of increased wavelength; allow idea of waves behind
+> buzzers being more spread
+> out
+> reject if one wavelength
+> said to be decreased
+> MP4. idea that decrease in frequency of buzzer B is allow frequency of buzzer
+> twice that of buzzer A; B being lower than
+> frequency of buzzer A /
+> ORA
+
+- **(3)** any three from:
 
 ### 8(b) [3]
 
 Diagram 2 shows an oscilloscope trace. The trace represents the sound wave received by the microphone from buzzer A. Oscilloscope settings y direction: 1 square = 0.1 V x direction: 1 square = 2 ms Diagram 2 Measure the period of the sound waves from buzzer A. Give your answer in standard form. period = s
 
 ![diagram — official paper figure (qp.pdf p.18)](assets/asset_8_b_diagram.png)
+
+
+**Mark scheme answer**
+
+> determination of number of squares for one period;
+> correct use of oscilloscope settings; seen anywhere in working
+> evaluation in standard form;
+> award 2 marks for answers
+> of 4 × 10-3, 16 × 10-3 (s)
+> e.g.
+> period = 4 squares
+> (period = 4) × 0.002
+> (period =) 8 × 10-3 (s)
+
+- **(3)** determination of number of squares for one period;
 
 ### 8(c)(i) [1]
 

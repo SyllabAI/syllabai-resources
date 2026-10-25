@@ -14,9 +14,32 @@ Ice hockey is a team sport played on ice. Players try to hit a disc called a puc
 
 State the formula linking average speed, distance moved and time taken.
 
+
+**Mark scheme answer**
+
+> (average) speed = distance (travelled) / time allow standard symbols and
+> (taken); rearrangements e.g. s = vt
+> allow d, D, s, S for distance
+> allow s, S, v, V for speed
+
+- **(1)** (average) speed = distance (travelled) / time allow standard symbols and
+
 ### 1(a)(ii) [3]
 
 The puck travels at a constant speed of 2.8 m/s. Calculate the distance moved by the puck in a time of 3.5 s. distance moved = m
+
+
+**Mark scheme answer**
+
+> substitution;
+> rearrangement;
+> evaluation;
+> e.g.
+> 2.8 = distance / 3.5
+> distance = 2.8 × 3.5 OR distance = speed × time
+> (distance =) 9.8 (m)
+
+- **(3)** substitution;
 
 ### 1(b)(i) [1]
 
@@ -69,9 +92,37 @@ Table 1 gives some possible names for object X and object Y. Complete the table 
 
 ![table — official paper figure (qp.pdf p.7)](assets/asset_2_a_i_table.png)
 
+
+**Mark scheme answer**
+
+> one mark for each correct row;;; reject mark for row if
+> more than one tick
+> shown
+> allow alternative
+> symbols instead of ticks
+> ✓
+> ✓
+> ✓
+
+- **(3)** one mark for each correct row;;; reject mark for row if
+
 ### 2(a)(ii) [1]
 
 Give the name of the force that causes one object to orbit another object in space.
+
+
+**Mark scheme answer**
+
+> gravity; allow gravitational
+> (force/pull/attraction)
+> ignore weight,
+> centripetal, g, G
+> reject gravitational
+> field strength,
+> gravitational potential,
+> GPE
+
+- **(1)** gravity; allow gravitational
 
 ### 2(b)(i) [1]
 
@@ -152,17 +203,76 @@ A student builds this electric circuit to measure the temperature of a room. 6.0
 
 Explain why the reading on the voltmeter is 2.1 V.
 
+
+**Mark scheme answer**
+
+> components are connected in series; ignore voltmeter is in
+> parallel (with the
+> resistor)
+> voltages must add up to 6(.0)V; allow voltages must add
+> up to battery voltage
+> allow 6(.0) − 3.9 = 2.1
+
+- **(2)** components are connected in series; ignore voltmeter is in
+
 ### 3(a)(ii) [3]
 
 The resistor in the circuit has a resistance of 290 Ω. Calculate the current in the resistor. Use the formula voltage = current × resistance current = A
+
+
+**Mark scheme answer**
+
+> correct substitution into V = I × R;
+> rearrangement; allow ecf from incorrect
+> voltage
+> evaluation; allow ecf from incorrect
+> voltage
+> 0.0206…, 0.0134… (A)
+> scores 2 marks
+> e.g.
+> 2.1 = current × 290
+> current = 2.1 / 290
+> (current =) 0.0072 (A) allow 0.007,
+> 0.00724… (A)
+
+- **(3)** correct substitution into V = I × R;
 
 ### 3(a)(iii) [1]
 
 State the reading on the ammeter. ammeter reading = A
 
+
+**Mark scheme answer**
+
+> same answer as (ii); expect 0.0072 (A)
+> allow if rounded
+> differently to (ii) but
+> still consistent
+
+- **(1)** same answer as (ii); expect 0.0072 (A)
+
 ### 3(a)(iv) [3]
 
 Calculate the resistance of the thermistor. resistance = Ω
+
+
+**Mark scheme answer**
+
+> correct substitution into V = I × R; allow ecf from current
+> in (ii) or (iii)
+> rearrangement; allow dimensionally
+> correct rearrangement
+> using incorrect voltage
+> for this mark only
+> e.g. R = 2.1 / 0.0072
+> evaluation;
+> e.g.
+> 3.9 = 0.0072 × R
+> R = 3.9 / 0.0072
+> (R =) 540 (Ω) allow 557, 542, 541.6…,
+> 539, 538.5… (Ω)
+
+- **(3)** correct substitution into V = I × R; allow ecf from current
 
 ### 3(b)(i) [3]
 
@@ -232,18 +342,6 @@ In a nuclear reactor, uranium‑235 nuclei are split to produce daughter nuclei 
 > condone energy as
 > gamma waves
 > ignore heat, radiation
-> (b) A (absorb excess neutrons);
-> B is incorrect because neutrons cannot be created
-> C is incorrect because fusion does not occur in a
-> fission reactor
-> D is incorrect because neutrons cannot be split
-> (c) C (slow down neutrons);
-> A is incorrect because this would not affect the
-> rate of fission
-> B is incorrect because this would not affect the
-> rate of fission
-> D is incorrect because faster neutrons would
-> reduce the rate of fission
 
 - **(1)** (kinetic/thermal/heat) energy; condone nuclear energy
 
@@ -251,10 +349,21 @@ In a nuclear reactor, uranium‑235 nuclei are split to produce daughter nuclei 
 
 What is the function of the control rods in a nuclear reactor?
 
-- **(A)** absorb excess neutrons
+- **(A)** absorb excess neutrons  ✔
 - **(B)** create additional neutrons
 - **(C)** fuse neutrons together
 - **(D)** split neutrons
+
+
+**Mark scheme answer**
+
+> A (absorb excess neutrons);
+> B is incorrect because neutrons cannot be created
+> C is incorrect because fusion does not occur in a
+> fission reactor
+> D is incorrect because neutrons cannot be split
+
+- **(1)** Answer A: absorb excess neutrons
 
 ### 4(c) [1]
 
@@ -262,8 +371,21 @@ What is the function of the moderator in a nuclear reactor?
 
 - **(A)** change protons into neutrons
 - **(B)** change neutrons into protons
-- **(C)** slow down neutrons
+- **(C)** slow down neutrons  ✔
 - **(D)** speed up neutrons
+
+
+**Mark scheme answer**
+
+> C (slow down neutrons);
+> A is incorrect because this would not affect the
+> rate of fission
+> B is incorrect because this would not affect the
+> rate of fission
+> D is incorrect because faster neutrons would
+> reduce the rate of fission
+
+- **(1)** Answer C: slow down neutrons
 
 ### 4(d)(i) [1]
 
@@ -316,7 +438,24 @@ The diagram shows some parts of a nuclear reactor. shielding coolant out reactor
 > people/workers is less/zero; radiation escaping
 > ignore protect people
 > Answer Notes Marks
-> 5 any six from:
+
+- **(3)** idea that radiation (emitted in the reactor) is allow named harmful
+
+
+## Question 5 (6 marks)
+
+The diagram shows a simple direct current (d.c.) electric motor. coil magnet magnet split-ring commutator direct current brushes Explain why the coil turns continuously when the motor is connected to a direct current supply. You should refer to the brushes and the split‑ring commutator in your answer.
+
+### 5 [6]
+
+The diagram shows a simple direct current (d.c.) electric motor. coil magnet magnet split-ring commutator direct current brushes Explain why the coil turns continuously when the motor is connected to a direct current supply. You should refer to the brushes and the split‑ring commutator in your answer.
+
+![diagram — official paper figure (qp.pdf p.18)](assets/asset_5_diagram.png)
+
+
+**Mark scheme answer**
+
+> any six from:
 > MP1. current/coil has magnetic field; allow coil becomes an
 > electromagnet
 > allow current/coil has
@@ -344,18 +483,7 @@ The diagram shows some parts of a nuclear reactor. shielding coolant out reactor
 > (when coil is vertical);
 > Answer Notes Marks
 
-- **(3)** idea that radiation (emitted in the reactor) is allow named harmful
-
-
-## Question 5 (6 marks)
-
-The diagram shows a simple direct current (d.c.) electric motor. coil magnet magnet split-ring commutator direct current brushes Explain why the coil turns continuously when the motor is connected to a direct current supply. You should refer to the brushes and the split‑ring commutator in your answer.
-
-### 5 [6]
-
-The diagram shows a simple direct current (d.c.) electric motor. coil magnet magnet split-ring commutator direct current brushes Explain why the coil turns continuously when the motor is connected to a direct current supply. You should refer to the brushes and the split‑ring commutator in your answer.
-
-![diagram — official paper figure (qp.pdf p.18)](assets/asset_5_diagram.png)
+- **(6)** any six from:
 
 
 ## Question 6 (12 marks)
@@ -434,7 +562,19 @@ Calculate the mean power of student B transferring energy to her gravitational s
 > e.g.
 > power = 3055.2 / 4.63
 > power = 660 (W) allow 646 – 671 (W)
-> (c) any four from: ignore students are
+
+- **(2)** substitution into P = E/t; allow ecf from (i) and
+
+### 6(c) [4]
+
+The students extend their investigation by calculating the power for students of different masses running up the steps. The graph shows their results. 1000 900 Power 800 in W 700 600 50 60 70 80 90 100 Mass in kg The students conclude that the greater the mass of the person, the greater the power of the person when running up the steps. Comment on the students’ conclusion.
+
+![graph — official paper figure (qp.pdf p.22)](assets/asset_6_c_graph.png)
+
+
+**Mark scheme answer**
+
+> any four from: ignore students are
 > correct / incorrect
 > MP1. not enough data points to make a valid allow idea that more
 > conclusion; students/readings are
@@ -459,13 +599,7 @@ Calculate the mean power of student B transferring energy to her gravitational s
 > greatest power
 > Answer Notes Marks
 
-- **(2)** substitution into P = E/t; allow ecf from (i) and
-
-### 6(c) [4]
-
-The students extend their investigation by calculating the power for students of different masses running up the steps. The graph shows their results. 1000 900 Power 800 in W 700 600 50 60 70 80 90 100 Mass in kg The students conclude that the greater the mass of the person, the greater the power of the person when running up the steps. Comment on the students’ conclusion.
-
-![graph — official paper figure (qp.pdf p.22)](assets/asset_6_c_graph.png)
+- **(4)** any four from: ignore students are
 
 
 ## Question 7 (7 marks)
@@ -480,15 +614,69 @@ The pressure of the water acts on these bubbles. The diagrams show the forces th
 
 ![diagram — official paper figure (qp.pdf p.23)](assets/asset_7_a_i_diagram.png)
 
+
+**Mark scheme answer**
+
+> 1
+> D; ( )
+> A is incorrect because the pressure is not equal
+> around the bubble
+> B is incorrect because the pressure above the
+> bubble is greater than below the bubble
+> C is incorrect because the pressure to the right of
+> the bubble is greater than to the left of the bubble
+
+- **(1)** 1
+
 ### 7(a)(ii) [3]
 
 The diagram shows the air bubbles rising to the surface of the water in a container. container water bubbles Explain why the bubbles increase in volume as they get nearer to the surface of the water. Assume that the temperature of the water is the same throughout the container.
 
 ![diagram — official paper figure (qp.pdf p.24)](assets/asset_7_a_ii_diagram.png)
 
+
+**Mark scheme answer**
+
+> pressure decreases as bubbles get nearer to the allow RA
+> surface; allow less pressure at
+> smaller depth
+> (because) less (weight of) water above the bubble; allow RA
+> allow use of p=ρgh to
+> justify why pressure
+> decreases as height
+> decreases
+> with one from:
+> volume is inversely proportional to pressure; allow pressure × volume
+> = constant OR
+> p1V1 = p2V2
+> OR condone as pressure
+> decreases volume
+> increases
+> forces outside bubble decrease (as pressure
+> decreases), which leads to bubble expanding;
+
+- **(3)** pressure decreases as bubbles get nearer to the allow RA
+
 ### 7(b) [3]
 
 A teacher does a demonstration using an inflated balloon and a board with many sharp nails. balloon board with sharp nails The teacher pushes the balloon onto the board of nails. The balloon does not pop. The teacher then pops the balloon using a single nail. Explain why the balloon does not pop when pushed onto the board of nails.
+
+
+**Mark scheme answer**
+
+> idea that board of nails increases the area that
+> force is being applied;
+> pressure is less with board;
+> (for a given force) pressure is inversely proportional allow p = F/A
+> to area;
+> OR
+> idea that force on each nail is less when using board
+> of nails;
+> pressure is less with board;
+> (for a given area) pressure is proportional to force; allow p = F/A
+> Answer Notes Marks
+
+- **(3)** idea that board of nails increases the area that
 
 
 ## Question 8 (11 marks)
@@ -543,14 +731,6 @@ The dipper moves up and down with a frequency of 15 Hz. Calculate the speed of t
 > v = 15 × 0.020
 > (wave speed =) 0.30 (m/s) allow 0.27 to 0.33 (m/s)
 > allow 0.3 (m/s)
-> (c) frequency is greater (at point X);
-> {wavefronts / peaks / crests} closer together; allow wavefronts more
-> bunched up/compressed
-> ignore wave is
-> compressed
-> wavelength decreases;
-> wave speed does not change; ignore speed of dipper
-> Answer Notes Marks
 
 - **(3)** conversion of cm to m; allow ÷100 seen anywhere
 
@@ -559,6 +739,20 @@ The dipper moves up and down with a frequency of 15 Hz. Calculate the speed of t
 The student then makes the dipper move horizontally to the right at constant speed. The dipper continues to move up and down with a frequency of 15 Hz. Diagram 3 shows the surface of the ripple tank, at an instant in time, when viewed from above. horizontal movement of dipper container water wavefront X Diagram 3 Explain how the frequency of the waves arriving at point X compares with the frequency at which the dipper moves up and down.
 
 ![diagram — official paper figure (qp.pdf p.28)](assets/asset_8_c_diagram.png)
+
+
+**Mark scheme answer**
+
+> frequency is greater (at point X);
+> {wavefronts / peaks / crests} closer together; allow wavefronts more
+> bunched up/compressed
+> ignore wave is
+> compressed
+> wavelength decreases;
+> wave speed does not change; ignore speed of dipper
+> Answer Notes Marks
+
+- **(4)** frequency is greater (at point X);
 
 
 ## Question 9 (8 marks)
@@ -578,7 +772,17 @@ The teacher uses a radiation detector to detect the radiation emitted from the p
 > Muller (detector), GM
 > (detector), Geiger
 > counter
-> (b) any two from:
+
+- **(1)** Geiger-Muller tube; allow GM tube, Geiger-
+
+### 9(b) [2]
+
+Give two safety precautions to minimise the risk of harm to the teacher from the radiation emitted by the protactinium generator. 1 2
+
+
+**Mark scheme answer**
+
+> any two from:
 > MP1. increase distance from source; allow stay 2m away,
 > don’t stand too close
 > MP2. idea of minimising time of exposure; allow keeping source in
@@ -591,11 +795,7 @@ The teacher uses a radiation detector to detect the radiation emitted from the p
 > MP5. idea of shielding between teacher and ignore lead vest / coat
 > source;
 
-- **(1)** Geiger-Muller tube; allow GM tube, Geiger-
-
-### 9(b) [2]
-
-Give two safety precautions to minimise the risk of harm to the teacher from the radiation emitted by the protactinium generator. 1 2
+- **(2)** any two from:
 
 ### 9(c)(i) [2]
 
@@ -657,7 +857,17 @@ The student can increase the current in the metal rod up to a maximum of 5.0 A. 
 > ignore risk of fire
 > reduce risk of burns;
 > maintain a constant resistance for the rod;
-> (b) evaluation of change in mass;
+
+- **(2)** any two from: ignore comments
+
+### 10(b) [4]
+
+Before the power supply is switched on, the reading of the balance is 194.95 g. After the power supply is switched on, the reading of the balance is 193.80 g. Calculate the force exerted on the current‑carrying rod by the magnet. force = N
+
+
+**Mark scheme answer**
+
+> evaluation of change in mass;
 > conversion of g to kg;
 > substitution into W = mg; allow ecf from
 > incorrect/no unit
@@ -672,11 +882,7 @@ The student can increase the current in the metal rod up to a maximum of 5.0 A. 
 > (force =) 0.0115 (N) allow 0.01127,
 > 0.0112815 (N)
 
-- **(2)** any two from: ignore comments
-
-### 10(b) [4]
-
-Before the power supply is switched on, the reading of the balance is 194.95 g. After the power supply is switched on, the reading of the balance is 193.80 g. Calculate the force exerted on the current‑carrying rod by the magnet. force = N
+- **(4)** evaluation of change in mass;
 
 ### 10(c)(i) [1]
 
@@ -738,13 +944,59 @@ Fluorescent tube lamps can be used in schools and office buildings for lighting.
 
 State what is meant by the term voltage.
 
+
+**Mark scheme answer**
+
+> energy (transferred) per unit charge (passed); allow V = E/Q only if all
+> terms defined
+> allow work done for
+> energy transferred
+> allow coulomb for unit
+> charge
+> ignore joules per coulomb
+> (equivalent to the volt)
+
+- **(1)** energy (transferred) per unit charge (passed); allow V = E/Q only if all
+
 ### 11(a)(ii) [3]
 
 The large voltage causes electrons to accelerate from the negative electrode towards the positive electrode. An electron gains 1.0 × 10–16 J of energy when it accelerates between the electrodes. Show that the voltage between the electrodes is about 600 V. [magnitude of electron charge = 1.6 × 10–19 C]
 
+
+**Mark scheme answer**
+
+> substitution into E = Q × V;
+> rearrangement;
+> evaluation to at least 2s.f.;
+> e.g.
+> 1.0 × 10−16 = 1.6 × 10−19 × V
+> V = 1.0 × 10−16 / 1.6 × 10−19
+> V = 625 (V)
+
+- **(3)** substitution into E = Q × V;
+
 ### 11(a)(iii) [4]
 
 The electron gains 1.0 × 10–16 J of energy in its kinetic store when it accelerates from the negative electrode to the positive electrode. Calculate the speed of an electron when it reaches the positive electrode. Assume the electron is initially at rest. [electron mass = 9.1 × 10–31 kg] speed = m / s
+
+
+**Mark scheme answer**
+
+> substitution into KE = ½ × m × v2;
+> rearrangement for v2;
+> rearrangement for v;
+> evaluation; allow standard form or
+> decimal
+> 2.1978… × 1014 (m/s)
+> scores 3 marks ...
+> e.g.
+> 1.0 × 10−16 = 0.5 × 9.1 × 10−31 × v2
+> v2 = 2 × 1.0 × 10−16 / 9.1 × 10−31
+> v = √[2 × 1.0 × 10−16 / 9.1 × 10−31]
+> v = 1.5 × 107 (m/s) allow 1.48… × 107,
+> 14 824 986.33 (m/s)
+
+- **(4)** substitution into KE = ½ × m × v2;
 
 ### 11(b)(i) [2]
 

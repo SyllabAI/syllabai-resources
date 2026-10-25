@@ -1,6 +1,6 @@
 {
  "schema": "syllabai.official-paper-questions.validation/0.2",
- "generated_utc": "2026-10-25T20:43:15Z",
+ "generated_utc": "2026-10-25T22:06:43Z",
  "series": "2023-01",
  "paper": "2P",
  "gates": [
@@ -65,27 +65,10 @@
   },
   {
    "gate": "G5-answer-linkage",
-   "status": "FAIL",
-   "summary": "MS linkage 12/28 (43%)",
+   "status": "PASS",
+   "summary": "MS linkage 28/28 (100%)",
    "details": {
-    "unmatched": [
-     "1",
-     "2(b)",
-     "2(c)",
-     "3(b)",
-     "4(b)",
-     "4(c)",
-     "5(a)(i)",
-     "5(a)(ii)",
-     "5(a)(iii)",
-     "6(a)(i)",
-     "6(a)(ii)",
-     "6(b)",
-     "8(a)(i)",
-     "8(a)(ii)",
-     "8(a)(iii)",
-     "8(b)"
-    ]
+    "unmatched": []
    }
   },
   {
@@ -100,7 +83,7 @@
   {
    "gate": "G7-solution-emission",
    "status": "PASS",
-   "summary": "solution_md on 12/12 linked parts; mark_points sum == part marks everywhere: True; MS marks-column digit read for 1 parts, agrees with QP marks on 0",
+   "summary": "solution_md on 28/28 linked parts; mark_points sum == part marks everywhere: True; MS marks-column digit read for 1 parts, agrees with QP marks on 0",
    "details": {
     "missing_solution": [],
     "sum_mismatches": [],
@@ -130,72 +113,7 @@
    "detected": true
   }
  ],
- "review_queue": [
-  {
-   "part": "1",
-   "reason": "answer not auto-linked to MS"
-  },
-  {
-   "part": "2(b)",
-   "reason": "answer not auto-linked to MS"
-  },
-  {
-   "part": "2(c)",
-   "reason": "answer not auto-linked to MS"
-  },
-  {
-   "part": "3(b)",
-   "reason": "answer not auto-linked to MS"
-  },
-  {
-   "part": "4(b)",
-   "reason": "answer not auto-linked to MS"
-  },
-  {
-   "part": "4(c)",
-   "reason": "answer not auto-linked to MS"
-  },
-  {
-   "part": "5(a)(i)",
-   "reason": "answer not auto-linked to MS"
-  },
-  {
-   "part": "5(a)(ii)",
-   "reason": "answer not auto-linked to MS"
-  },
-  {
-   "part": "5(a)(iii)",
-   "reason": "answer not auto-linked to MS"
-  },
-  {
-   "part": "6(a)(i)",
-   "reason": "answer not auto-linked to MS"
-  },
-  {
-   "part": "6(a)(ii)",
-   "reason": "answer not auto-linked to MS"
-  },
-  {
-   "part": "6(b)",
-   "reason": "answer not auto-linked to MS"
-  },
-  {
-   "part": "8(a)(i)",
-   "reason": "answer not auto-linked to MS"
-  },
-  {
-   "part": "8(a)(ii)",
-   "reason": "answer not auto-linked to MS"
-  },
-  {
-   "part": "8(a)(iii)",
-   "reason": "answer not auto-linked to MS"
-  },
-  {
-   "part": "8(b)",
-   "reason": "answer not auto-linked to MS"
-  }
- ],
+ "review_queue": [],
  "ocr_pages": [],
  "source_defects": {
   "image_only_pages": [

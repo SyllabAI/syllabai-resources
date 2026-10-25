@@ -23,18 +23,24 @@ The boxes give four points, A, B, C and D, and four star classifications. Draw l
 > 1 mark for each correct line;;;;
 > reject any box from the
 > left with 2 lines
-> (b) (a measure of) brightness; allow power,
-> luminosity, intensity
-> (of a star) at a {standard / fixed / same} distance; allow correct distance
-> e.g. 10 parsecs/32(.6)
-> light years
-> Answer Notes Marks
 
 - **(4)** 1 mark for each correct line;;;;
 
 ### 1(b) [2]
 
 Describe what is meant by the term absolute magnitude.
+
+
+**Mark scheme answer**
+
+> (a measure of) brightness; allow power,
+> luminosity, intensity
+> (of a star) at a {standard / fixed / same} distance; allow correct distance
+> e.g. 10 parsecs/32(.6)
+> light years
+> Answer Notes Marks
+
+- **(2)** (a measure of) brightness; allow power,
 
 
 ## Question 2 (10 marks)
@@ -139,11 +145,6 @@ Neutral sulfur particles can become positively charged sulfur particles. Describ
 > lost electrons
 > reject positive particle has
 > gained protons
-> (b) (sulfur particles are) attracted to negative accept correct use of “like
-> plate/repelled by positive plate; charges repel” or “unlike
-> charges attract”
-> (sulfur) particles experiences a (resultant) force (to the
-> right);
 
 - **(2)** neutral particle has same number of protons and ignore neutral particle has
 
@@ -152,6 +153,17 @@ Neutral sulfur particles can become positively charged sulfur particles. Describ
 Diagram 1 shows a section of the SPS. positive negative plate plate P Diagram 1 Positively charged sulfur particles are introduced at point P and accelerate to the right. Explain why the positively charged sulfur particles accelerate.
 
 ![diagram — official paper figure (qp.pdf p.8)](assets/asset_3_b_diagram.png)
+
+
+**Mark scheme answer**
+
+> (sulfur particles are) attracted to negative accept correct use of “like
+> plate/repelled by positive plate; charges repel” or “unlike
+> charges attract”
+> (sulfur) particles experiences a (resultant) force (to the
+> right);
+
+- **(2)** (sulfur particles are) attracted to negative accept correct use of “like
 
 ### 3(c)(i) [1]
 
@@ -247,10 +259,30 @@ The heater used to heat the water has a power rating of 2200 W. Calculate the en
 > time = 264 (s)
 > 2200 = W / 264 OR W = P × t
 > energy supplied = 580 000 (J) allow 581 000, 580 800 (J)
-> (c) idea of all water being the same temperature; allow idea of distributing
+
+- **(3)** conversion of time into seconds; allow ECF from (i)
+
+### 4(c) [1]
+
+Give a reason why the liquid water should be stirred during the heating.
+
+
+**Mark scheme answer**
+
+> idea of all water being the same temperature; allow idea of distributing
 > thermal/heat (energy)
 > evenly throughout water
-> (d) allow marks if seen on
+
+- **(1)** idea of all water being the same temperature; allow idea of distributing
+
+### 4(d) [4]
+
+When water boils, the liquid water becomes a gas called steam. Describe the changes in arrangement and motion of the molecules in liquid water and the molecules in steam.
+
+
+**Mark scheme answer**
+
+> allow marks if seen on
 > diagrams
 > allow particles for
 > molecules
@@ -265,15 +297,7 @@ The heater used to heat the water has a power rating of 2200 W. Calculate the en
 > {faster/freely/randomly/straight lines};
 > Answer Notes Marks
 
-- **(3)** conversion of time into seconds; allow ECF from (i)
-
-### 4(c) [1]
-
-Give a reason why the liquid water should be stirred during the heating.
-
-### 4(d) [4]
-
-When water boils, the liquid water becomes a gas called steam. Describe the changes in arrangement and motion of the molecules in liquid water and the molecules in steam.
+- **(4)** allow marks if seen on
 
 
 ## Question 5 (12 marks)
@@ -376,15 +400,45 @@ The refractive index, n, of a material can be calculated using this formula. sin
 
 Name the independent variable in this investigation.
 
+
+**Mark scheme answer**
+
+> angle of incidence; ignore incident ray
+
+- **(1)** angle of incidence; ignore incident ray
+
 ### 6(a)(ii) [2]
 
 The table shows the student’s results for an angle of incidence of 40°. Angle of refraction 1 (°) Angle of refraction 2 (°) Angle of refraction 3 (°) 22 23 67 Calculate the mean value for the angle of refraction. mean angle = degrees
 
 ![table — official paper figure (qp.pdf p.16)](assets/asset_6_a_ii_table.png)
 
+
+**Mark scheme answer**
+
+> recognising 67 (degrees) as anomalous; allow 1 mark if anomalous
+> result included
+> e.g. 37, 37.3… (degrees)
+> evaluation of a mean;
+> e.g.
+> mean angle = (22 + 23) / 2 = 23 (degrees) allow 22, 22.5 (degrees)
+
+- **(2)** recognising 67 (degrees) as anomalous; allow 1 mark if anomalous
+
 ### 6(a)(iii) [2]
 
 Describe how the student could improve their method to get a more accurate value for the refractive index.
+
+
+**Mark scheme answer**
+
+> n calculated for multiple angles;
+> mean value obtained for n;
+> OR
+> idea of graph plotted of sin(i) against sin(r);
+> n found from gradient of (sin(i)-sin(r)) graph;
+
+- **(2)** n calculated for multiple angles;
 
 ### 6(b)(i) [2]
 
@@ -425,10 +479,6 @@ The refractive index of a different material is 1.7 Calculate the critical angle
 > e.g.
 > c = sin-1(1/1.7) = sin-1(0.588…)
 > (critical angle =) 36 (degrees) allow 36.03… (degrees)
-> (c) light undergoes TIR;
-> (because) angle (of incidence) is greater than
-> critical angle;
-> Answer Notes Marks
 
 - **(2)** substitution and rearrangement;
 
@@ -437,6 +487,16 @@ The refractive index of a different material is 1.7 Calculate the critical angle
 Diagram 2 shows a ray of light travelling through an optical fibre. Diagram 2 The optical fibre is made of a material with a refractive index of 1.7 Explain the path of the ray in the optical fibre.
 
 ![diagram — official paper figure (qp.pdf p.18)](assets/asset_6_c_diagram.png)
+
+
+**Mark scheme answer**
+
+> light undergoes TIR;
+> (because) angle (of incidence) is greater than
+> critical angle;
+> Answer Notes Marks
+
+- **(2)** light undergoes TIR;
 
 
 ## Question 7 (10 marks)
@@ -460,7 +520,19 @@ The graph shows some data from an investigation into how the extension of the sp
 > if no other marks scored
 > then mention of Hooke’s law
 > scores 1 mark
-> (b) substitution into moment = force × distance; ignore units
+
+- **(2)** idea that extension increases as force ignore positive correlation
+
+### 7(b) [2]
+
+Diagram 2 shows the gate viewed from above. F 320 cm pivot 84 cm spring gate mechanism 480 N Diagram 2 The force the spring exerts on the gate is 480 N. Show that the moment of the force the spring exerts on the gate is about 400 Nm.
+
+![diagram — official paper figure (qp.pdf p.21)](assets/asset_7_b_diagram.png)
+
+
+**Mark scheme answer**
+
+> substitution into moment = force × distance; ignore units
 > evaluation of moment to at least 3s.f.;
 > 1 mark max. for reverse
 > calculation e.g. calculating
@@ -468,7 +540,17 @@ The graph shows some data from an investigation into how the extension of the sp
 > e.g.
 > moment = 480 × (0.)84
 > moment = 403 (Nm) allow 403.2 (Nm)
-> (c) idea of principle of moments; implied by substitution or
+
+- **(2)** substitution into moment = force × distance; ignore units
+
+### 7(c) [4]
+
+The force, F, is the minimum force needed to start opening the gate. Calculate the magnitude of force F. force F = N
+
+
+**Mark scheme answer**
+
+> idea of principle of moments; implied by substitution or
 > written in words
 > moment of push force = F × 3.2; seen anywhere in calculation
 > rearrangement;
@@ -482,7 +564,17 @@ The graph shows some data from an investigation into how the extension of the sp
 > clockwise moment
 > F = 403.2 / 3.2
 > (F =) 130 (N) allow 126 (N)
-> (d) ignore idea of spring losing
+
+- **(4)** idea of principle of moments; implied by substitution or
+
+### 7(d) [2]
+
+The spring is removed for testing. Explain what will happen to the spring if the force applied to extend the spring is too large.
+
+
+**Mark scheme answer**
+
+> ignore idea of spring losing
 > elasticity / stop stretching
 > idea of spring exceeding/reaching elastic allow limit of proportionality
 > limit; for elastic limit
@@ -491,19 +583,5 @@ The graph shows some data from an investigation into how the extension of the sp
 > Pearson Education Limited. Registered company number 872828
 > with its registered office at 80 Strand, London, WC2R 0RL, United Kingdom
 
-- **(2)** idea that extension increases as force ignore positive correlation
-
-### 7(b) [2]
-
-Diagram 2 shows the gate viewed from above. F 320 cm pivot 84 cm spring gate mechanism 480 N Diagram 2 The force the spring exerts on the gate is 480 N. Show that the moment of the force the spring exerts on the gate is about 400 Nm.
-
-![diagram — official paper figure (qp.pdf p.21)](assets/asset_7_b_diagram.png)
-
-### 7(c) [4]
-
-The force, F, is the minimum force needed to start opening the gate. Calculate the magnitude of force F. force F = N
-
-### 7(d) [2]
-
-The spring is removed for testing. Explain what will happen to the spring if the force applied to extend the spring is too large.
+- **(2)** ignore idea of spring losing
 

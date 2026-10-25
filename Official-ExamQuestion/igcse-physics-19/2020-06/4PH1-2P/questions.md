@@ -14,9 +14,27 @@ The diagram shows the arrangement of particles in solid nitrogen. Draw the arran
 
 ![diagram — official paper figure (qp.pdf p.4)](assets/asset_1_a_i_diagram.png)
 
+
+**Mark scheme answer**
+
+> particles with larger spaces between them; max space in body or
+> surface one of
+> particles from
+> diagram on left.
+> particles in less regular structure;
+
+- **(2)** particles with larger spaces between them; max space in body or
+
 ### 1(a)(ii) [1]
 
 Describe the motion of the particles in liquid nitrogen.
+
+
+**Mark scheme answer**
+
+> particles {slide/move/flow} past each other; ignore ‘more freely’
+
+- **(1)** particles {slide/move/flow} past each other; ignore ‘more freely’
 
 ### 1(b)(i) [1]
 
@@ -85,17 +103,23 @@ Calculate the density of the liquid nitrogen. Give a suitable unit. density = un
 > e.g. density = mass / volume
 > density = 74/88
 > density = 0.84 g/cm3 to 2 sf allow 0.8409090…
-> (c) (particles) far apart / much further apart;
-> particles move with (much) higher speed / have allow KE for kinetic
-> higher kinetic energy; energy
-> move (more) randomly;
-> Answer Notes Marks
 
 - **(3)** substitution; ECF for incorrect
 
 ### 1(c) [3]
 
 Over time, the liquid nitrogen warms up and changes state from a liquid into a gas. Describe the changes to the arrangement and motion of particles when the liquid nitrogen changes state.
+
+
+**Mark scheme answer**
+
+> (particles) far apart / much further apart;
+> particles move with (much) higher speed / have allow KE for kinetic
+> higher kinetic energy; energy
+> move (more) randomly;
+> Answer Notes Marks
+
+- **(3)** (particles) far apart / much further apart;
 
 
 ## Question 2 (10 marks)
@@ -321,9 +345,6 @@ Discuss the advantages and disadvantages of using solar power rather than fossil
 > MP7 needs a lot of space;
 > MP8 cannot respond to rapid changes in
 > demand;
-> (b) d.c. travels in one direction only;
-> a.c. changes direction frequently/continuously;
-> Answer Notes Marks
 
 - **(4)** any FOUR from:
 
@@ -332,6 +353,15 @@ Discuss the advantages and disadvantages of using solar power rather than fossil
 Solar panels produce direct current (d.c.). The National Grid in many countries operates on alternating current (a.c.). Describe the difference between direct current (d.c.) and alternating current (a.c.).
 
 > 🖼 crop required: grid (qp.pdf p.13)
+
+
+**Mark scheme answer**
+
+> d.c. travels in one direction only;
+> a.c. changes direction frequently/continuously;
+> Answer Notes Marks
+
+- **(2)** d.c. travels in one direction only;
 
 
 ## Question 5 (6 marks)
@@ -357,7 +387,17 @@ Radio waves are emitted from an aerial at an airport, and are then reflected bac
 > total distance = 1.9 x 10-3 x 3.0 x 105
 > total distance = 570 km = 2 x distance to plane
 > distance to plane = 570/2 = 285 (km)
-> (b) substitution into given equation Δλ/λ = v/c ;
+
+- **(3)** use/substitution of distance = average speed x time; reject use of
+
+### 5(b) [3]
+
+As the aeroplane travels away from the airport, it sends a signal to the airport using radio waves with a wavelength of 1.2 m. When the signal is received at the airport, the wavelength is 1.1 × 10-6 m longer than when it is emitted by the aeroplane. Calculate the speed of the aeroplane using the formula change of wavelength speed of aeroplane wavelength speed of radio wave [speed of radio waves = 3.0 × 108 m/s] speed of aeroplane = m/s
+
+
+**Mark scheme answer**
+
+> substitution into given equation Δλ/λ = v/c ;
 > rearrangement;
 > evaluation; -1 POT error
 > allow ecf
@@ -373,11 +413,7 @@ Radio waves are emitted from an aerial at an airport, and are then reflected bac
 > (m/s)
 > Answer Notes Marks
 
-- **(3)** use/substitution of distance = average speed x time; reject use of
-
-### 5(b) [3]
-
-As the aeroplane travels away from the airport, it sends a signal to the airport using radio waves with a wavelength of 1.2 m. When the signal is received at the airport, the wavelength is 1.1 × 10-6 m longer than when it is emitted by the aeroplane. Calculate the speed of the aeroplane using the formula change of wavelength speed of aeroplane wavelength speed of radio wave [speed of radio waves = 3.0 × 108 m/s] speed of aeroplane = m/s
+- **(3)** substitution into given equation Δλ/λ = v/c ;
 
 
 ## Question 6 (8 marks)
@@ -390,13 +426,54 @@ The Parker Solar Probe is a spacecraft that was launched in 2018 on a mission to
 
 Explain why the outer surface of the tile is painted white.
 
+
+**Mark scheme answer**
+
+> reference to reflection or absorption; ignore reference to
+> emission
+> white is a good reflector/poor absorber;
+
+- **(2)** reference to reflection or absorption; ignore reference to
+
 ### 6(a)(ii) [2]
 
 Explain how the small pockets of trapped air help to reduce thermal energy transfer from the outer surface to the inner surface of the tile.
 
+
+**Mark scheme answer**
+
+> any TWO from:
+> air is a (good) insulator / poor conductor;
+> reduction in convection;
+> idea that trapped air cannot circulate;
+
+- **(2)** any TWO from:
+
 ### 6(b) [4]
 
 The electric circuits inside the spacecraft are cooled by 4.5 kg of water. The initial temperature of the water is 35 oC. The thermal store of the water increases by 210 kJ. Calculate the final temperature of the water. [specific heat capacity of water = 4200 J/kg oC] final temperature = oC
+
+
+**Mark scheme answer**
+
+> substitution into given equation (energy = mcΔθ);
+> rearrangement;
+> evaluation of temperature change;
+> evaluation of final temperature; ecf incorrect temp
+> change
+> e.g.
+> 210 000 = 4.5 x 4200 x ΔT
+> ΔT = 210 000/(4.5 x 4200)
+> ΔT = 11 (°C)
+> final temperature = 46 (°C) accept 35(°C) for 3
+> marks if supported with
+> working that shows
+> evidence of a
+> temperature change of
+> 11 x 10-3 (°C)
+> Answer Notes Marks
+
+- **(4)** substitution into given equation (energy = mcΔθ);
 
 
 ## Question 7 (10 marks)
@@ -423,10 +500,6 @@ Describe how to find the shape of the magnetic field produced by the loop of wir
 > a correctly
 > labelled
 > diagram
-> (b) one field line passing through middle from top to bottom;
-> circular/elliptical field lines around wires;
-> field line spacing increasing further from wires;
-> arrows correct direction;
 
 - **(3)** EITHER
 
@@ -435,6 +508,16 @@ Describe how to find the shape of the magnetic field produced by the loop of wir
 Diagram 2 shows the view from above the card with two cross-sections of the loop of wire. Key current out of page current into page Diagram 2 On diagram 2, draw the magnetic field produced by the two cross-sections of the loop of wire.
 
 ![diagram — official paper figure (qp.pdf p.19)](assets/asset_7_b_diagram.png)
+
+
+**Mark scheme answer**
+
+> one field line passing through middle from top to bottom;
+> circular/elliptical field lines around wires;
+> field line spacing increasing further from wires;
+> arrows correct direction;
+
+- **(4)** one field line passing through middle from top to bottom;
 
 ### 7(c)(i) [1]
 
@@ -463,8 +546,6 @@ The magnetic field acting on the cross-section of wire is produced by the curren
 > the two effects cancel (so no change); DOP
 > allow relevant
 > reference to
-> (F)LHR
-> Answer Notes Marks
 
 - **(2)** current (in one wire) and field (from other wire) both reversed;
 
@@ -483,7 +564,17 @@ State the name of this type of transformer.
 **Mark scheme answer**
 
 > step-down;
-> (b) input (primary) voltage primary turns allow V for
+
+- **(1)** step-down;
+
+### 8(b) [1]
+
+State the formula linking the turns ratio, the input voltage and the output voltage for a transformer.
+
+
+**Mark scheme answer**
+
+> input (primary) voltage primary turns allow V for
 > = ;
 > voltage, n or
 > output (secondary) voltage secondary turns
@@ -495,11 +586,7 @@ State the name of this type of transformer.
 > and ‘s’ or ‘1’
 > and ‘2’
 
-- **(1)** step-down;
-
-### 8(b) [1]
-
-State the formula linking the turns ratio, the input voltage and the output voltage for a transformer.
+- **(1)** input (primary) voltage primary turns allow V for
 
 ### 8(c)(i) [5]
 

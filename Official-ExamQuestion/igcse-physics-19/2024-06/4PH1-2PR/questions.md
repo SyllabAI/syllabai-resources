@@ -27,20 +27,6 @@ Label the axes on the diagram.
 > 1 mark if both labels
 > correct but on the
 > wrong axes
-> (b) main sequence;
-> (c) B;
-> A is incorrect because it is a red giant
-> C is incorrect because it is a hot main sequence star
-> D is incorrect because it is a cool main sequence
-> star
-> (d) C;
-> A is incorrect because red giants are cooler than
-> the Sun
-> B is incorrect because white dwarf stars are fainter
-> than the Sun
-> D is incorrect because this star is both cooler and
-> fainter than the Sun
-> Answer Notes Marks
 
 - **(2)** y-axis: one from ignore brightness
 
@@ -50,13 +36,45 @@ There are three shaded areas on the diagram. State the name of the shaded area t
 
 ![diagram — official paper figure (qp.pdf p.4) — shared with 1(a)](assets/asset_1_a_diagram.png)
 
+
+**Mark scheme answer**
+
+> main sequence;
+
+- **(1)** main sequence;
+
 ### 1(c) [1]
 
 Which star is a white dwarf? A B C D
 
+
+**Mark scheme answer**
+
+> B;
+> A is incorrect because it is a red giant
+> C is incorrect because it is a hot main sequence star
+> D is incorrect because it is a cool main sequence
+> star
+
+- **(1)** B;
+
 ### 1(d) [1]
 
 At a standard distance from the Earth, which star is brighter than the Sun and has a greater surface temperature than the Sun? A B C D
+
+
+**Mark scheme answer**
+
+> C;
+> A is incorrect because red giants are cooler than
+> the Sun
+> B is incorrect because white dwarf stars are fainter
+> than the Sun
+> D is incorrect because this star is both cooler and
+> fainter than the Sun
+> Answer Notes Marks
+
+- **(1)** C;
 
 
 ## Question 2 (5 marks)
@@ -73,7 +91,17 @@ The table gives some statements about nuclear fission, or nuclear fusion, or bot
 **Mark scheme answer**
 
 > one mark for each correct row;;;
-> (b) control rods absorb neutron(s); ignore controls rate of
+
+- **(3)** one mark for each correct row;;;
+
+### 2(b) [2]
+
+Nuclear fission reactors use control rods and a moderator. Describe the function of the control rods and the function of the moderator in a nuclear fission reactor. control rods moderator
+
+
+**Mark scheme answer**
+
+> control rods absorb neutron(s); ignore controls rate of
 > reaction
 > condone stops
 > neutron(s)
@@ -82,11 +110,7 @@ The table gives some statements about nuclear fission, or nuclear fusion, or bot
 > ignore controls speed
 > Answer Notes Marks
 
-- **(3)** one mark for each correct row;;;
-
-### 2(b) [2]
-
-Nuclear fission reactors use control rods and a moderator. Describe the function of the control rods and the function of the moderator in a nuclear fission reactor. control rods moderator
+- **(2)** control rods absorb neutron(s); ignore controls rate of
 
 
 ## Question 3 (7 marks)
@@ -114,7 +138,19 @@ Complete the diagram by drawing the arrangement of particles in a liquid and the
 > enough to draw another
 > particle
 > regular arrangement;
-> (b) line drawn decreasing from any high temperature to any allow straight lines and
+
+- **(4)** liquid arrangement: ignore if particles don’t
+
+### 3(b) [3]
+
+The initial temperature of the sample of liquid gallium is 80 °C. The freezing temperature of gallium is 30 °C. The final temperature of the solid gallium is 20 °C. Complete the graph to show how the temperature of the gallium changes during the time that it cools to 20 °C. Add appropriate values to the temperature axis. Temperature in °C Time
+
+![graph — official paper figure (qp.pdf p.9)](assets/asset_3_b_graph.png)
+
+
+**Mark scheme answer**
+
+> line drawn decreasing from any high temperature to any allow straight lines and
 > low temperature; curves
 > single constant temperature stage drawn in the middle DOP
 > of the cooling (to show freezing); ignore constant
@@ -125,13 +161,7 @@ Complete the diagram by drawing the arrangement of particles in a liquid and the
 > ignore scale
 > Answer Notes Marks
 
-- **(4)** liquid arrangement: ignore if particles don’t
-
-### 3(b) [3]
-
-The initial temperature of the sample of liquid gallium is 80 °C. The freezing temperature of gallium is 30 °C. The final temperature of the solid gallium is 20 °C. Complete the graph to show how the temperature of the gallium changes during the time that it cools to 20 °C. Add appropriate values to the temperature axis. Temperature in °C Time
-
-![graph — official paper figure (qp.pdf p.9)](assets/asset_3_b_graph.png)
+- **(3)** line drawn decreasing from any high temperature to any allow straight lines and
 
 
 ## Question 4 (6 marks)
@@ -159,7 +189,17 @@ The diagram shows a power station and a school. Add to the diagram by drawing th
 > labelled “step-down”; more turns on
 > secondary coil for step-
 > up etc.
-> (b) (because) current causes wires/cables to heat up; link between current
+
+- **(3)** at least one transformer drawn in the space drawing must be clearly
+
+### 4(b) [3]
+
+Explain how the amount of current in the transmission cables increases the efficiency of the transmission of electricity.
+
+
+**Mark scheme answer**
+
+> (because) current causes wires/cables to heat up; link between current
 > and heating must be
 > clear
 > idea of low/decreased/less current;
@@ -168,11 +208,7 @@ The diagram shows a power station and a school. Add to the diagram by drawing th
 > ignore heat loss
 > Answer Notes Marks
 
-- **(3)** at least one transformer drawn in the space drawing must be clearly
-
-### 4(b) [3]
-
-Explain how the amount of current in the transmission cables increases the efficiency of the transmission of electricity.
+- **(3)** (because) current causes wires/cables to heat up; link between current
 
 
 ## Question 5 (12 marks)
@@ -196,7 +232,17 @@ When the balls collide, ball B applies a force on ball A, which causes the veloc
 > opposite reaction”
 > scores 1 mark if no
 > other marks awarded
-> (b) substitution into p = m × v;
+
+- **(2)** both forces are the same size/magnitude/equal; ignore same force
+
+### 5(b) [2]
+
+Calculate the momentum of ball A before the collision. momentum of ball A before collision = kg m / s
+
+
+**Mark scheme answer**
+
+> substitution into p = m × v;
 > evaluation; -1 for POT error from
 > incorrectly converting
 > kg to g
@@ -204,7 +250,17 @@ When the balls collide, ball B applies a force on ball A, which causes the veloc
 > (momentum =) 0.018 × 4.9
 > (momentum =) 0.088 (kg m/s) allow 0.09, 0.0882 (kg
 > m/s)
-> (c) use of conservation of momentum; seen explicitly or
+
+- **(2)** substitution into p = m × v;
+
+### 5(c) [4]
+
+Show that the velocity, v, of ball B after the collision is about 0.6 m / s.
+
+
+**Mark scheme answer**
+
+> use of conservation of momentum; seen explicitly or
 > implied from working
 > setting up equation to be solved; allow ecf from (b)
 > rearrangement;
@@ -217,7 +273,19 @@ When the balls collide, ball B applies a force on ball A, which causes the veloc
 > v = [0.088 + 0.063]/0.265
 > v = 0.57 (m/s) allow any answer
 > rounding to 0.57
-> (d) use of KE = ½ × m × v2; seen explicitly or
+
+- **(4)** use of conservation of momentum; seen explicitly or
+
+### 5(d) [4]
+
+A collision is considered elastic if the total kinetic energy before the collision is equal to the total kinetic energy after the collision. Using data from the diagram, deduce whether this collision is elastic.
+
+![diagram — official paper figure (qp.pdf p.12) — shared with asset_5_d_diagram_stem](assets/asset_5_d_diagram_stem.png)
+
+
+**Mark scheme answer**
+
+> use of KE = ½ × m × v2; seen explicitly or
 > implied from working
 > evaluation of KE before collision; allow 0.2, 0.22, 0.216,
 > 0.216… (J)
@@ -229,21 +297,7 @@ When the balls collide, ball B applies a force on ball A, which causes the veloc
 > calculations
 > Answer Notes Marks
 
-- **(2)** both forces are the same size/magnitude/equal; ignore same force
-
-### 5(b) [2]
-
-Calculate the momentum of ball A before the collision. momentum of ball A before collision = kg m / s
-
-### 5(c) [4]
-
-Show that the velocity, v, of ball B after the collision is about 0.6 m / s.
-
-### 5(d) [4]
-
-A collision is considered elastic if the total kinetic energy before the collision is equal to the total kinetic energy after the collision. Using data from the diagram, deduce whether this collision is elastic.
-
-![diagram — official paper figure (qp.pdf p.12) — shared with asset_5_d_diagram_stem](assets/asset_5_d_diagram_stem.png)
+- **(4)** use of KE = ½ × m × v2; seen explicitly or
 
 
 ## Question 6 (10 marks)
@@ -443,9 +497,38 @@ The diagram shows a machine that can be used to measure the speed of fast‑movi
 
 Give a reason why the proton is attracted to the negatively charged plate.
 
+
+**Mark scheme answer**
+
+> idea that proton and plate have opposite charges; allow proton is positive
+> ignore different charges
+
+- **(1)** idea that proton and plate have opposite charges; allow proton is positive
+
 ### 8(a)(ii) [3]
 
 The proton accelerates at 1.90 × 1011 m / s2 from rest to a speed of 1.38 × 105 m / s. Show that the time taken for this acceleration is about 7 × 10–7 s.
+
+
+**Mark scheme answer**
+
+> substitution into a = (v-u)/t;
+> rearrangement;
+> evaluation to 2 s.f. or more;
+> award full marks for
+> using given time to
+> calculate either
+> acceleration or speed to
+> 4 s.f. or more
+> e.g.
+> 1.90 × 1011 = 1.38 × 105 / t
+> t = 1.38 × 105 / 1.90 × 1011
+> t = 7.26… × 10-7 (s) allow 0.000 000 73,
+> 7.3 × 10-7 (s)
+> condone 0.000 000 72,
+> 7.2 × 10-7 (s)
+
+- **(3)** substitution into a = (v-u)/t;
 
 ### 8(b)(i) [1]
 
@@ -493,7 +576,19 @@ Give the name of the piece of apparatus that must be connected to the oscillosco
 **Mark scheme answer**
 
 > microphone;
-> (b) any roughly sine-shaped wave drawn on the screen; allow triangle wave
+
+- **(1)** microphone;
+
+### 9(b) [5]
+
+The diagram shows the screen of the oscilloscope and the oscilloscope settings. oscilloscope settings: y direction: 1 square = 2 V x direction: 1 square = 0.001 s A sound wave of frequency 250 Hz is detected. The sound wave produces a trace on the oscilloscope of amplitude 4 V. Complete the diagram by drawing the trace of this sound wave on the oscilloscope screen.
+
+![diagram — official paper figure (qp.pdf p.22)](assets/asset_9_b_diagram.png)
+
+
+**Mark scheme answer**
+
+> any roughly sine-shaped wave drawn on the screen; allow triangle wave
 > amplitude of trace = 2 squares;
 > substitution into f = 1 / T; e.g. 250 = 1/T
 > or T = 1/250
@@ -502,7 +597,19 @@ Give the name of the piece of apparatus that must be connected to the oscillosco
 > last three marking
 > points
 > e.g.
-> (c) single use of data from graph to show that constant should be
+
+- **(5)** any roughly sine-shaped wave drawn on the screen; allow triangle wave
+
+### 9(c) [3]
+
+The graph shows how the wavelength of sound waves in air varies with their frequency. 4.0 3.0 Wavelength 2.0 in m 1.0 0 200 400 600 800 Frequency in Hz If wavelength and frequency are inversely proportional, then wavelength × frequency = constant Using the graph, evaluate whether the wavelength of sound waves in air is inversely proportional to their frequency.
+
+![graph — official paper figure (qp.pdf p.23)](assets/asset_9_c_graph.png)
+
+
+**Mark scheme answer**
+
+> single use of data from graph to show that constant should be
 > frequency × wavelength = constant; between 320 and 360
 > depending on data used
 > second use of data from graph to show that
@@ -513,17 +620,5 @@ Give the name of the piece of apparatus that must be connected to the oscillosco
 > Pearson Education Limited. Registered company number 872828
 > with its registered office at 80 Strand, London, WC2R 0RL, United Kingdom
 
-- **(1)** microphone;
-
-### 9(b) [5]
-
-The diagram shows the screen of the oscilloscope and the oscilloscope settings. oscilloscope settings: y direction: 1 square = 2 V x direction: 1 square = 0.001 s A sound wave of frequency 250 Hz is detected. The sound wave produces a trace on the oscilloscope of amplitude 4 V. Complete the diagram by drawing the trace of this sound wave on the oscilloscope screen.
-
-![diagram — official paper figure (qp.pdf p.22)](assets/asset_9_b_diagram.png)
-
-### 9(c) [3]
-
-The graph shows how the wavelength of sound waves in air varies with their frequency. 4.0 3.0 Wavelength 2.0 in m 1.0 0 200 400 600 800 Frequency in Hz If wavelength and frequency are inversely proportional, then wavelength × frequency = constant Using the graph, evaluate whether the wavelength of sound waves in air is inversely proportional to their frequency.
-
-![graph — official paper figure (qp.pdf p.23)](assets/asset_9_c_graph.png)
+- **(3)** single use of data from graph to show that constant should be
 

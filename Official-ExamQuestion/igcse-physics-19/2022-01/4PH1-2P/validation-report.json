@@ -1,6 +1,6 @@
 {
  "schema": "syllabai.official-paper-questions.validation/0.2",
- "generated_utc": "2026-10-25T20:43:05Z",
+ "generated_utc": "2026-10-25T22:06:30Z",
  "series": "2022-01",
  "paper": "2P",
  "gates": [
@@ -41,23 +41,10 @@
   },
   {
    "gate": "G3-mcq-integrity",
-   "status": "FAIL",
-   "summary": "3 MCQ parts; all have printed A–D and MS-keyed answer: False",
+   "status": "PASS",
+   "summary": "3 MCQ parts; all have printed A–D and MS-keyed answer: True",
    "details": {
-    "issues": [
-     {
-      "part": "1(a)",
-      "issue": "no keyed correct choice"
-     },
-     {
-      "part": "1(b)(iv)",
-      "issue": "no keyed correct choice"
-     },
-     {
-      "part": "3(a)",
-      "issue": "no keyed correct choice"
-     }
-    ]
+    "issues": []
    }
   },
   {
@@ -76,22 +63,10 @@
   },
   {
    "gate": "G5-answer-linkage",
-   "status": "REVIEW",
-   "summary": "MS linkage 20/31 (65%)",
+   "status": "PASS",
+   "summary": "MS linkage 31/31 (100%)",
    "details": {
-    "unmatched": [
-     "2(b)",
-     "3(b)",
-     "3(c)",
-     "4(b)",
-     "5(b)",
-     "5(c)",
-     "5(d)",
-     "7(b)",
-     "8(a)(i)",
-     "8(a)(ii)",
-     "8(b)"
-    ]
+    "unmatched": []
    }
   },
   {
@@ -106,15 +81,14 @@
   {
    "gate": "G7-solution-emission",
    "status": "PASS",
-   "summary": "solution_md on 20/20 linked parts; mark_points sum == part marks everywhere: True; MS marks-column digit read for 2 parts, agrees with QP marks on 0",
+   "summary": "solution_md on 31/31 linked parts; mark_points sum == part marks everywhere: True; MS marks-column digit read for 2 parts, agrees with QP marks on 1",
    "details": {
     "missing_solution": [],
     "sum_mismatches": [],
     "ms_marks_seen": 2,
-    "ms_marks_agree": 0,
+    "ms_marks_agree": 1,
     "ms_marks_disagree": [
-     "1(b)(iii) (ms=1 qp=2)",
-     "5(a) (ms=3 qp=1)"
+     "1(b)(iii) (ms=1 qp=2)"
     ]
    }
   }
@@ -137,64 +111,7 @@
    "detected": true
   }
  ],
- "review_queue": [
-  {
-   "part": "1(a)",
-   "reason": "MCQ key unresolved from MS"
-  },
-  {
-   "part": "1(b)(iv)",
-   "reason": "MCQ key unresolved from MS"
-  },
-  {
-   "part": "3(a)",
-   "reason": "MCQ key unresolved from MS"
-  },
-  {
-   "part": "2(b)",
-   "reason": "answer not auto-linked to MS"
-  },
-  {
-   "part": "3(b)",
-   "reason": "answer not auto-linked to MS"
-  },
-  {
-   "part": "3(c)",
-   "reason": "answer not auto-linked to MS"
-  },
-  {
-   "part": "4(b)",
-   "reason": "answer not auto-linked to MS"
-  },
-  {
-   "part": "5(b)",
-   "reason": "answer not auto-linked to MS"
-  },
-  {
-   "part": "5(c)",
-   "reason": "answer not auto-linked to MS"
-  },
-  {
-   "part": "5(d)",
-   "reason": "answer not auto-linked to MS"
-  },
-  {
-   "part": "7(b)",
-   "reason": "answer not auto-linked to MS"
-  },
-  {
-   "part": "8(a)(i)",
-   "reason": "answer not auto-linked to MS"
-  },
-  {
-   "part": "8(a)(ii)",
-   "reason": "answer not auto-linked to MS"
-  },
-  {
-   "part": "8(b)",
-   "reason": "answer not auto-linked to MS"
-  }
- ],
+ "review_queue": [],
  "ocr_pages": [],
  "source_defects": {
   "image_only_pages": [

@@ -1,6 +1,6 @@
 {
  "schema": "syllabai.official-paper-questions.validation/0.2",
- "generated_utc": "2026-10-25T20:42:42Z",
+ "generated_utc": "2026-10-25T22:05:59Z",
  "series": "2020-01",
  "paper": "1P",
  "gates": [
@@ -41,19 +41,10 @@
   },
   {
    "gate": "G3-mcq-integrity",
-   "status": "FAIL",
-   "summary": "3 MCQ parts; all have printed A–D and MS-keyed answer: False",
+   "status": "PASS",
+   "summary": "3 MCQ parts; all have printed A–D and MS-keyed answer: True",
    "details": {
-    "issues": [
-     {
-      "part": "3(b)",
-      "issue": "no keyed correct choice"
-     },
-     {
-      "part": "9(e)(ii)",
-      "issue": "no keyed correct choice"
-     }
-    ]
+    "issues": []
    }
   },
   {
@@ -72,39 +63,10 @@
   },
   {
    "gate": "G5-answer-linkage",
-   "status": "FAIL",
-   "summary": "MS linkage 22/50 (44%)",
+   "status": "PASS",
+   "summary": "MS linkage 50/50 (100%)",
    "details": {
-    "unmatched": [
-     "1",
-     "2(a)(i)",
-     "2(a)(ii)",
-     "2(a)(iii)",
-     "3(b)",
-     "3(d)",
-     "4(a)(i)",
-     "4(a)(ii)",
-     "5(a)(i)",
-     "5(a)(ii)",
-     "5(a)(iii)",
-     "5(b)",
-     "6",
-     "7(b)",
-     "8(a)(i)",
-     "8(a)(ii)",
-     "8(b)",
-     "9(b)",
-     "9(c)",
-     "9(d)",
-     "10(a)(i)",
-     "10(a)(ii)",
-     "10(a)(iii)",
-     "10(a)(iv)",
-     "10(a)(v)",
-     "10(b)",
-     "11(c)",
-     "12(b)"
-    ]
+    "unmatched": []
    }
   },
   {
@@ -119,7 +81,7 @@
   {
    "gate": "G7-solution-emission",
    "status": "PASS",
-   "summary": "solution_md on 22/22 linked parts; mark_points sum == part marks everywhere: True; MS marks-column digit read for 0 parts, agrees with QP marks on 0",
+   "summary": "solution_md on 50/50 linked parts; mark_points sum == part marks everywhere: True; MS marks-column digit read for 0 parts, agrees with QP marks on 0",
    "details": {
     "missing_solution": [],
     "sum_mismatches": [],
@@ -149,14 +111,6 @@
  ],
  "review_queue": [
   {
-   "part": "3(b)",
-   "reason": "MCQ key unresolved from MS"
-  },
-  {
-   "part": "9(e)(ii)",
-   "reason": "MCQ key unresolved from MS"
-  },
-  {
    "part": "2(a)(i)",
    "reason": "figure crop required (diagram, page 4)"
   },
@@ -167,118 +121,6 @@
   {
    "part": "11(a)",
    "reason": "figure crop emitted — human verify (assets/asset_11_a_graph.png)"
-  },
-  {
-   "part": "1",
-   "reason": "answer not auto-linked to MS"
-  },
-  {
-   "part": "2(a)(i)",
-   "reason": "answer not auto-linked to MS"
-  },
-  {
-   "part": "2(a)(ii)",
-   "reason": "answer not auto-linked to MS"
-  },
-  {
-   "part": "2(a)(iii)",
-   "reason": "answer not auto-linked to MS"
-  },
-  {
-   "part": "3(b)",
-   "reason": "answer not auto-linked to MS"
-  },
-  {
-   "part": "3(d)",
-   "reason": "answer not auto-linked to MS"
-  },
-  {
-   "part": "4(a)(i)",
-   "reason": "answer not auto-linked to MS"
-  },
-  {
-   "part": "4(a)(ii)",
-   "reason": "answer not auto-linked to MS"
-  },
-  {
-   "part": "5(a)(i)",
-   "reason": "answer not auto-linked to MS"
-  },
-  {
-   "part": "5(a)(ii)",
-   "reason": "answer not auto-linked to MS"
-  },
-  {
-   "part": "5(a)(iii)",
-   "reason": "answer not auto-linked to MS"
-  },
-  {
-   "part": "5(b)",
-   "reason": "answer not auto-linked to MS"
-  },
-  {
-   "part": "6",
-   "reason": "answer not auto-linked to MS"
-  },
-  {
-   "part": "7(b)",
-   "reason": "answer not auto-linked to MS"
-  },
-  {
-   "part": "8(a)(i)",
-   "reason": "answer not auto-linked to MS"
-  },
-  {
-   "part": "8(a)(ii)",
-   "reason": "answer not auto-linked to MS"
-  },
-  {
-   "part": "8(b)",
-   "reason": "answer not auto-linked to MS"
-  },
-  {
-   "part": "9(b)",
-   "reason": "answer not auto-linked to MS"
-  },
-  {
-   "part": "9(c)",
-   "reason": "answer not auto-linked to MS"
-  },
-  {
-   "part": "9(d)",
-   "reason": "answer not auto-linked to MS"
-  },
-  {
-   "part": "10(a)(i)",
-   "reason": "answer not auto-linked to MS"
-  },
-  {
-   "part": "10(a)(ii)",
-   "reason": "answer not auto-linked to MS"
-  },
-  {
-   "part": "10(a)(iii)",
-   "reason": "answer not auto-linked to MS"
-  },
-  {
-   "part": "10(a)(iv)",
-   "reason": "answer not auto-linked to MS"
-  },
-  {
-   "part": "10(a)(v)",
-   "reason": "answer not auto-linked to MS"
-  },
-  {
-   "part": "10(b)",
-   "reason": "answer not auto-linked to MS"
-  },
-  {
-   "part": "11(c)",
-   "reason": "answer not auto-linked to MS"
-  },
-  {
-   "part": "12(b)",
-   "reason": "answer not auto-linked to MS"
   }
  ],
  "ocr_pages": [],
